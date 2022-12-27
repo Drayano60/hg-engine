@@ -470,58 +470,24 @@ Shadow Force
 --
 --
 Hone Claws
-Wide Guard
-Guard Split
-Power Split
-Wonder Room
 Psyshock
 Venoshock
-Autotomize
-Rage Powder
-Telekinesis
-Magic Room
-Smack Down
 Storm Throw
-Flame Burst
 Sludge Wave
 Quiver Dance
 Heavy Slam
-Synchronoise
-Electro Ball
-Soak
 Flame Charge
 Coil
 Low Sweep
 Acid Spray
 Foul Play
-Simple Beam
-Entrainment
-After You
-Round
 Echoed Voice
-Chip Away
-Clear Smog
-Stored Power
-Quick Guard
-Ally Switch
 Scald
 Shell Smash
-Heal Pulse
-Hex
-Sky Drop
-Shift Gear
-Circle Throw
+Hex 
 Incinerate
-Quash
 Acrobatics
-Reflect Type
-Retaliate
-Final Gambit
-Bestow
 Inferno
-Water Pledge
-Fire Pledge
-Grass Pledge
 Volt Switch
 Struggle Bug
 Bulldoze
@@ -532,32 +498,66 @@ Electroweb
 Wild Charge
 Drill Run
 Dual Chop
-Heart Stamp
-Horn Leech
 Sacred Sword
 Razor Shell
-Heat Crash
-Leaf Tornado
-Steamroller
 Cotton Guard
-Night Daze
-Psystrike
 Tail Slap
 Hurricane
-Head Charge
-Gear Grind
-Searing Shot
-Techno Blast
-Relic Song
-Secret Sword
-Glaciate
-Bolt Strike
-Blue Flare
-Fiery Dance
-Freeze Shock
-Ice Burn
 Snarl
 Icicle Crash
-V-create
-Fusion Flare
-Fusion Bolt
+Phantom Force
+Noble Roar
+Petal Blizzard
+Freeze-Dry
+Disarming Voice
+Draining Kiss
+Play Rough
+Fairy Wind
+Moonblast
+Boomburst
+Mystical Fire
+Eerie Impulse
+Dazzling Gleam
+Baby-Doll Eyes
+Nuzzle
+Power-Up Punch
+First Impression
+High Horsepower
+Solar Blade
+Leafage
+Pollen Puff
+Lunge
+Smart Strike
+Brutal Swing
+Aurora Veil
+Psychic Fangs
+Liquidation
+Body Press
+Breaking Swipe
+Spirit Break
+Steel Beam
+Scale Shot
+Meteor Beam
+Skitter Smack
+Flip Turn
+Triple Axel
+Dual Wingbeat
+Scorching Sands
+Psyshield Bash
+Stone Axe
+Raging Fury
+Wave Crash
+Headlong Rush
+Barb Barrage
+Esper Wing
+Ice Spinner
+Raging Bull
+Trailblaze
+Chilling Water
+Hyper Drill
+Twin Beam
+Rage Fist
+Aqua Cutter
+Soothing Aroma
+Infernal Blast
+Savage Rend

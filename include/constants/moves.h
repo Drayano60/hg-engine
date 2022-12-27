@@ -782,6 +782,6 @@
 #define MOVE_ASTRAL_BARRAGE equ 999
 #define MOVE_EERIE_SPELL equ 999
 
-#define NUM_OF_MOVES 562
+#define NUM_OF_MOVES 563
 
 #endif

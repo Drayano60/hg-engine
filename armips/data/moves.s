@@ -8407,6 +8407,51 @@ movedata MOVE_AQUA_CUTTER
     contesttype 0
     terminatedata
 
+movedata MOVE_SOOTHING_AROMA
+    battleeffect 0
+    pss SPLIT_STATUS
+    basepower 0
+    type TYPE_GRASS
+    accuracy 100
+    pp 30
+    effectchance 0
+    target MOVE_TARGET_BOTH
+    priority 0
+    flags FLAG_MIRROR_MOVE | FLAG_MAGIC_COAT | FLAG_PROTECT
+    appeal 0x00
+    contesttype 0
+    terminatedata
+
+movedata MOVE_INFERNAL_BLAST
+    battleeffect 4
+    pss SPLIT_SPECIAL
+    basepower 100
+    type TYPE_FIRE
+    accuracy 75
+    pp 5
+    effectchance 50
+    target MOVE_TARGET_FOES_AND_ALLY
+    priority 0
+    flags FLAG_KINGS_ROCK | FLAG_MIRROR_MOVE | FLAG_PROTECT
+    appeal 0x00
+    contesttype 0
+    terminatedata
+
+movedata MOVE_SAVAGE_REND
+    battleeffect 69
+    pss SPLIT_PHYSICAL
+    basepower 80
+    type TYPE_WATER
+    accuracy 100
+    pp 10
+    effectchance 100
+    target MOVE_TARGET_SELECTED
+    priority 0
+    flags FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
+    appeal 0x00
+    contesttype 0
+    terminatedata
+
 movedata NUM_OF_MOVES+1
     battleeffect 0
     pss SPLIT_SPECIAL

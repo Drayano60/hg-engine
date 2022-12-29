@@ -10,14 +10,25 @@
 .create "build/move/move_anim/0_475", 0
 
 a010_475:
-    cmd0C 7, 1
-    changebg 59, 0x20001//0x800000
-    waitse 1838, 0, 2
-    waitforchangebg
-    wait 60
-    cmd0C 7, 1
-    resetbg 59, 0x40001//0x1000000
-    waitforchangebg
+    loadparticlefromspa 0, 486
+    waitparticle
+
+    addparticle 0, 2, 3
+    addparticle 0, 1, 3
+    addparticle 0, 1, 3
+    addparticle 0, 0, 3
+    wait 10
+
+    addparticle 0, 1, 3
+    addparticle 0, 1, 3
+    wait 10
+
+    addparticle 0, 2, 3
+    addparticle 0, 0, 3
+    waitparticle
+
+    unloadparticle 0
+    waitstate
     end
     
 

@@ -10,17 +10,23 @@
 .create "build/move/move_anim/0_473", 0
 
 a010_473:
-    loadparticlefromspa 0, 488
+    loadparticlefromspa 0, 486
     waitparticle
 
+    addparticle 0, 2, 3
+    addparticle 0, 1, 3
+    addparticle 0, 1, 3
     addparticle 0, 0, 3
-    addparticle 0, 0, 4
-    playsepanmod 1855, -117, 117, 4, 2
-    wait 33
-    callfunction 33, 5, 0, 1, 12, 0, 0, "NaN", "NaN", "NaN", "NaN", "NaN" // flash screen black
-    playsepan 1903, 0
+    wait 10
 
+    addparticle 0, 1, 3
+    addparticle 0, 1, 3
+    wait 10
+
+    addparticle 0, 2, 3
+    addparticle 0, 0, 3
     waitparticle
+
     unloadparticle 0
     waitstate
     end

@@ -8355,7 +8355,7 @@ movedata MOVE_HYPER_DRILL
     accuracy 100
     pp 5
     effectchance 0
-    target 
+    target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_CONTACT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
     appeal 0x00

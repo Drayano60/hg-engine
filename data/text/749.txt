@@ -470,7 +470,7 @@ The user disappears,\nthen strikes the foe\non the second turn.\nIt hits even if
 --
 --
 The user sharpens\nits claws to boost\nits Attack stat and\naccuracy.
-The user creates\nan odd psychic wave\nto attack the target.\nThis attack does\nphysical damage.
+The user materializes\nan odd psychic wave\nto attack the foe.\nThis attack does\nphysical damage.
 The foe is drenched\nwith a poisonous\nliquid. Its power is\ndoubled if the foe\nis poisoned.
 The user strikes\nthe target with a\nfierce blow.\nThis move is always\na critical hit.
 It swamps the area\naround the user with\na giant sludge wave.\nIt may also poison\nthose hit.

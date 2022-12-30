@@ -9,27 +9,29 @@
 
 .create "build/move/move_anim/0_475", 0
 
+red equ 20
+green equ 0
+blue equ 31
+
 a010_475:
-    loadparticlefromspa 0, 486
+    loadparticlefromspa 1, 498
     waitparticle
-
-    addparticle 0, 2, 3
-    addparticle 0, 1, 3
-    addparticle 0, 1, 3
-    addparticle 0, 0, 3
-    wait 10
-
-    addparticle 0, 1, 3
-    addparticle 0, 1, 3
-    wait 10
-
-    addparticle 0, 2, 3
-    addparticle 0, 0, 3
+    loadparticlefromspa 0, 163
+    waitparticle
+    addparticle 0, 0, 17
+    cmd37 6, 0, 2, 6, 1, 4112, 1, "NaN", "NaN"
+    cmd37 5, 3, 0, 0, 0, 0, "NaN", "NaN", "NaN"
+    cmd37 5, 3, 0, 0, 0, 0, "NaN", "NaN", "NaN"
+    repeatse 1979, 117, 4, 12
+    wait 20
+    callfunction 36, 5, 3, 0, 1, 10, 264, "NaN", "NaN", "NaN", "NaN", "NaN"
+    callfunction 34, 5, 8, 1, 1, red | green << 5 | blue << 10, 12, "NaN", "NaN", "NaN", "NaN", "NaN"
+    addparticle 1, 1, 4
+    addparticle 1, 0, 4
     waitparticle
 
     unloadparticle 0
+    unloadparticle 1
     waitstate
     end
     
-
-.close

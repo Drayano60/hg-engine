@@ -506,9 +506,9 @@ The user attacks by\nwrapping its opponent\nin a fierce wind.\nIt has a 30% chan
 The user yells as if\nit is ranting about\nsomething, making the\ntarget’s Sp. Atk stat\ndecrease.
 The user attacks by\nharshly dropping\nicicles onto the foe.\nHas a 30% chance of\nmaking the foe flinch.
 The user vanishes,\nthen strikes the foe\non the second turn.\nIt hits even if the\nfoe protects itself.
-Letting out a roar,\nthe user intimidates\nthe target and lowers\nits Attack and Sp. Atk\nstats.
-The user stirs up a\nviolent petal blizzard\nand attacks everything\naround it.
-The user rapidly\ncools the target.\n10% chance to freeze.\nThis does quadruple\ndamage to Water types.
+Letting out a roar,\nthe user intimidates\nthe target and lowers\nboth its Attack and\nSp. Atk stats.
+The user stirs up a\nfierce petal blizzard,\nattacking everything\naround it.
+Foe is rapidly cooled.\nIt has a 10% chance\nto freeze the foe.\nWater types take four\ntimes as much damage.
 With a charming cry,\nthe user does\nemotional damage.\nThis attack never\nmisses.
 The user steals the\nfoe’s energy with a\nkiss. The user’s HP\nis restored by half\nthe damage dealt.
 The user stirs up a\nfairy wind and hits\nthe target with it.

@@ -485,7 +485,7 @@ The user attacks the\nfoe with an echoing\nvoice. Its power\nincreases if it\nhi
 The user shoots\nboiling hot water\nat the foe.\nIt has a 30% chance\nto burn the foe.
 User’s shell breaks,\nlowering its Defense\nand Sp. Def but its\nAttack, Sp. Atk, and\nSpeed sharply raise.
 This relentless\nattack does massive\ndamage to a target\naffected by status\nconditions.
-The user attacks\nthe target with fire.\nIf the target is holding\na Berry, it becomes\nburnt and unusable.
+The user attacks\nthe foe with fire.\nIf the foe is holding\na Berry, it becomes\nburnt and unusable.
 The user nimbly\nstrikes the target.\nIf the user has an\nitem, this attack\ndoes half damage.
 The user attacks\nby engulfing the foe\nin an intense fire.\nIt leaves the foe\nwith a burn.
 After making its\nattack, the user\nrushes back to switch\nplaces with a party\nPokémon in waiting.

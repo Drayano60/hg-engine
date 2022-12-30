@@ -7157,7 +7157,7 @@ movedata MOVE_QUIVER_DANCE
     effectchance 0
     target MOVE_TARGET_USER
     priority 0
-    flags FLAG_SNATCH
+    flags FLAG_KEEP_HP_BAR | FLAG_SNATCH
     appeal 0x00
     contesttype 0
     terminatedata
@@ -7262,7 +7262,7 @@ movedata MOVE_ECHOED_VOICE
     effectchance 0
     target MOVE_TARGET_SELECTED
     priority 0
-    flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
+    flags FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
     appeal 0x00
     contesttype 0
     terminatedata
@@ -7277,7 +7277,7 @@ movedata MOVE_SCALD
     effectchance 30
     target MOVE_TARGET_SELECTED
     priority 0
-    flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
+    flags FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
     appeal 0x00
     contesttype 0
     terminatedata
@@ -7307,7 +7307,7 @@ movedata MOVE_HEX
     effectchance 0
     target MOVE_TARGET_SELECTED
     priority 0
-    flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
+    flags FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
     appeal 0x00
     contesttype 0
     terminatedata
@@ -7322,7 +7322,7 @@ movedata MOVE_INCINERATE
     effectchance 100
     target MOVE_TARGET_BOTH
     priority 0
-    flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
+    flags FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
     appeal 0x00
     contesttype 0
     terminatedata
@@ -7367,7 +7367,7 @@ movedata MOVE_VOLT_SWITCH
     effectchance 0
     target MOVE_TARGET_SELECTED
     priority 0
-    flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
+    flags FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
     appeal 0x00
     contesttype 0
     terminatedata

@@ -9,14 +9,87 @@
 
 .create "build/move/move_anim/0_513", 0
 
+// Play Rough
+
 a010_513:
-    loadparticlefromspa 0, 32
-    addparticle 0, 1, 4
+    initspriteresource
+    loadspriteresource 0
+    loadspriteresource 1
+    loadspriteresource 2
+    loadspriteresource 3
+    loadspritemaybe 4, 0, 0, 0
+    loadspritemaybe 5, 0, 1, 1
+    loadspritemaybe 6, 0, 2, 2
+    loadspritemaybe 7, 0, 3, 3
+    callfunction 78, 1, 0, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
+    loadparticle 0, 97
+    waitstate
+    unloadspriteresource
+    resetsprite 0
+    resetsprite 1
+    resetsprite 2
+    resetsprite 3
+    initspriteresource
+    loadspriteresource 0
+    loadspriteresource 1
+    loadspriteresource 2
+    loadspriteresource 3
+    loadspritemaybe 4, 0, 0, 0
+    loadspritemaybe 5, 0, 1, 1
+    loadspritemaybe 6, 0, 2, 2
+    loadspritemaybe 7, 0, 3, 3
+    callfunction 78, 1, 0, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
+    loadparticle 1, 35
+    waitstate
+    unloadspriteresource
+    resetsprite 0
+    resetsprite 1
+    resetsprite 2
+    resetsprite 3
+    callfunction 10, 3, 7, 10, 2, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
+    callfunction 10, 3, 7, 10, 8, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
     addparticle 0, 0, 4
-    callfunction 36, 5, 1, 0, 1, 2, 264, "NaN", "NaN", "NaN", "NaN", "NaN"
-    playsepan 1827, 117
+    addparticle 0, 1, 4
+    waitse 1983, -117, 1
+    waitse 1920, 117, 10
+    waitse 1983, -117, 10
+    waitse 1920, 117, 20
+    waitse 1983, -117, 20
+    waitse 1920, 117, 30
+    waitse 1983, -117, 30
+    waitse 1920, 117, 40
+    waitse 1983, -117, 40
+    waitse 1920, 117, 50
+    waitse 1983, -117, 50
+    waitse 1920, 117, 60
+    waitse 1983, -117, 60
+    waitse 1920, 117, 70
+    waitse 1983, -117, 70
+    waitse 1920, 117, 80
+    loop 5
+    wait 2
+    addparticle 1, 0, 4
+    doloop
     waitparticle
     unloadparticle 0
+    unloadparticle 1
+    // waitstate
+
+    loadparticle 0, 231
+    // waitstate
+    unloadspriteresource
+    resetsprite 0
+    resetsprite 1
+    resetsprite 2
+    resetsprite 3
+    addparticle 0, 0, 4
+    // callfunction 25, 0, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
+    // callfunction 34, 6, 8, 0, 2, 23199, 14, 0, "NaN", "NaN", "NaN", "NaN"
+    repeatse 2025, 117, 8, 4
+    waitstate
+    waitparticle
+    unloadparticle 0
+
     end
     
 

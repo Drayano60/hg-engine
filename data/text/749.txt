@@ -511,6 +511,7 @@ The user stirs up a\nfierce petal blizzard,\nattacking everything\naround it.
 Foe is rapidly cooled.\nIt has a 10% chance\nto freeze the foe.\nWater types take four\ntimes as much damage.
 With a charming cry,\nthe user does\nemotional damage.\nThis attack never\nmisses.
 The user steals the\nfoe’s energy with a\nkiss. The user’s HP\nis restored by half\nthe damage dealt.
+The user plays rough\nwith the target and\nattacks it. It has a\n10% chance to lower\nthe foe’s Attack.
 The user stirs up a\nfairy wind and hits\nthe target with it.
 The user attacks the\nfoe with the power of\nthe moon.\nHas a 30% chance to\nlower foe’s Sp. Atk.
 The user attacks\neverything around it\nwith the destructive\npower of a terrible,\nexplosive sound.

@@ -7662,7 +7662,7 @@ movedata MOVE_FREEZE_DRY
     pss SPLIT_SPECIAL
     basepower 70
     type TYPE_ICE
-    accuracy 0
+    accuracy 100
     pp 20
     effectchance 10
     target MOVE_TARGET_SELECTED

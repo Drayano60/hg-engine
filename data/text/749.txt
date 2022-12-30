@@ -518,7 +518,7 @@ The user attacks\neverything around it\nwith the destructive\npower of a terribl
 The user attacks by\nbreathing a special,\nhot fire. This also\nlowers the target’s\nSp. Atk stat.
 The user generates\nan eerie impulse.\nExposing the foe to\nit harshly lowers the\nfoe’s Sp. Atk stat.
 The user damages\nopposing Pokémon by\nemitting a powerful\nflash.
-The user stares\nadorably at the foe,\nreducing the foe’s Attack.\nThis move always goes\nfirst.
+The user stares\nadorably at the foe,\nreducing its Attack.\nThis move always goes\nfirst.
 The user attacks by\nnuzzling electrified\ncheeks against the\ntarget. This leaves\nthe target paralyzed.
 Striking opponents\nrepeatedly makes the\nuser’s fists harder.\nThis also raises the\nuser’s Attack stat.
 Although this move\nhas great power, it\nonly works the first\nturn each time the\nuser enters battle.

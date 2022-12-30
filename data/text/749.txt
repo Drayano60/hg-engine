@@ -475,8 +475,8 @@ The foe is drenched\nwith a poisonous\nliquid. Its power is\ndoubled if the foe\
 The user strikes\nthe target with a\nfierce blow.\nThis move is always\na critical hit.
 It swamps the area\naround the user with\na giant sludge wave.\nIt may also poison\nthose hit.
 The user performs a\nbeautiful, mystic\ndance. It boosts the\nuser’s Sp. Atk,\nSp. Def, and Speed.
-The user slams into\nthe target.\nThe more the user\noutweighs the foe,\nthe greater the damage.
-The user cloaks\nitself with flame and\nattacks. Building up\nmore power, it raises\nthe user’s Speed stat.
+The user slams into\nthe target. The more\nthe user outweighs\nthe foe, the greater\nthe damage.
+The user cloaks\nitself with flame and\nattacks. Building up\npower, it raises the\nuser’s Speed stat.
 The user coils up and\nconcentrates. This\nraises its Attack and\nDefense stats as well\nas its accuracy.
 The user attacks the\ntarget’s legs swiftly,\nreducing the target’s\nSpeed stat.
 The user spits out\nfluid that works to\nmelt the target.\nIt harshly lowers the\nfoe’s Sp. Def stat.

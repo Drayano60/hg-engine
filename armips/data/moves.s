@@ -7778,7 +7778,7 @@ movedata MOVE_MYSTICAL_FIRE
     terminatedata
 
 movedata MOVE_EERIE_IMPULSE
-    battleeffect 0
+    battleeffect 61
     pss SPLIT_STATUS
     basepower 0
     type TYPE_ELECTRIC

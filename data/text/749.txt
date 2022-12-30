@@ -480,7 +480,7 @@ The user cloaks\nitself with flame and\nattacks. Building up\npower, it raises t
 The user coils up and\nconcentrates. This\nraises its Attack and\nDefense stats as well\nas its accuracy.
 The user attacks the\ntarget’s legs swiftly,\nreducing the target’s\nSpeed stat.
 The user spits out\nfluid that works to\nmelt the target.\nIt harshly lowers the\nfoe’s Sp. Def stat.
-The user turns the\nfoe’s power against it.\nThe higher the foe’s\nAttack stat, the\ngreater the damage.
+The user turns the\nfoe’s power against\nit. The higher the\nfoe’s Attack, the\ngreater the damage.
 The user attacks the\nfoe with an echoing\nvoice. Its power\nincreases if it\nhits in succession.
 The user shoots\nboiling hot water\nat the foe.\nIt has a 30% chance\nto burn the foe.
 User’s shell breaks,\nlowering its Defense\nand Sp. Def but its\nAttack, Sp. Atk, and\nSpeed sharply raise.

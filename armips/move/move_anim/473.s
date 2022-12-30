@@ -9,6 +9,8 @@
 
 .create "build/move/move_anim/0_473", 0
 
+// Venoshock
+
 a010_473:
     initspriteresource
     loadspriteresource 0

@@ -9,6 +9,8 @@
 
 .create "build/move/move_anim/0_472", 0
 
+// Psyshock
+
 a010_472:
     initspriteresource
     loadspriteresource 0

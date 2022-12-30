@@ -9,6 +9,8 @@
 
 .create "build/move/move_anim/0_476", 0
 
+// Quiver Dance
+
 a010_476:
     initspriteresource
     loadspriteresource 0
@@ -30,13 +32,13 @@ a010_476:
     playsepan 2041, -117
     addparticle 0, 1, 3
     addparticle 0, 0, 3
-    callfunction 52, 3, 16, 24, 258, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
+    callfunction 52, 3, 16, 12, 258, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
     waitstate
-    callfunction 52, 3, 16, -24, 258, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
+    callfunction 52, 3, 16, -12, 258, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
     waitstate
-    callfunction 52, 3, 16, -24, 258, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
+    callfunction 52, 3, 16, -12, 258, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
     waitstate
-    callfunction 52, 3, 16, 24, 258, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
+    callfunction 52, 3, 16, 12, 258, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
     waitstate
     playsepan 2041, -117
     addparticle 0, 1, 3

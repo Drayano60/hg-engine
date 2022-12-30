@@ -9,6 +9,8 @@
 
 .create "build/move/move_anim/0_474", 0
 
+// Storm Throw
+
 a010_474:
     initspriteresource
     loadspriteresource 0

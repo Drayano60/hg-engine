@@ -9,6 +9,8 @@
 
 .create "build/move/move_anim/0_475", 0
 
+// Sludge Wave
+
 red equ 20
 green equ 0
 blue equ 31

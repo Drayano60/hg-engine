@@ -9,6 +9,8 @@
 
 .create "build/move/move_anim/0_471", 0
 
+// Hone Claws
+
 a010_471:
     loadparticlefromspa 0, 486
     waitparticle

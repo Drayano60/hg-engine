@@ -491,7 +491,7 @@ The user attacks\nby engulfing the foe\nin an intense fire.\nIt leaves the foe\n
 After making its\nattack, the user\nrushes back to switch\nplaces with a party\nPokémon in waiting.
 While resisting, the\nuser attacks the\nopposing Pokémon.\nThis lowers their\nSp. Atk stats.
 The user stomps on\nthe ground, striking\neverything around it.\nThis lowers the Speed\nstat of those hit.
-The user blows a\ncold breath on the\foe.\nThis move always lands\na critical hit.
+The user blows a\ncold breath on the\ntarget. This move will\nalways land a critical\nhit.
 The foe is knocked\naway and replaced by\nanother Pokémon\nin its party. In the\nwild, the battle ends.
 The user is roused,\nand its Attack and\nSp. Atk stats\nincrease.
 The user captures the\nfoe with an electric\nnet to inflict damage.\nIt reduces the foe’s\nSpeed stat.

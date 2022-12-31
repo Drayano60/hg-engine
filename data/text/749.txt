@@ -527,7 +527,7 @@ A two-turn attack.\nThe user gathers\nlight and attacks\nwith a blade filled\nwi
 The user attacks\nby pelting the foe\nwith leaves.
 The user attacks the\nfoe with a pollen\npuff that explodes.\nHas a 30% chance to\nlower foe’s Speed.
 The user lunges at\nthe foe, attacking\nwith full force.\nThis lowers the foe’s\nAttack stat.
-The user stabs the\nfoe with a sharp horn.\nThis attack never misses.
+The user stabs the\nfoe with a sharp horn.\nThis attack never\nmisses.
 The user swings its\nbody around violently\nto inflict damage on\neverything in its\nvicinity.
 This move reduces\ndamage from all moves\nfor five turns.\nThis can be used\nonly in a hailstorm.
 The user bites the\ntarget with its\npsychic capabilities.\nThis destroys Reflect\nand Light Screen.

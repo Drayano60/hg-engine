@@ -543,7 +543,7 @@ After making its\nattack, the user\nrushes back to switch\nplaces with a party\n
 A consecutive three-\nkick attack that\nbecomes more\npowerful with each\nsuccessive hit.
 The user slams the\nfoe with its wings.\nThe target is hit\ntwice in a row.
 The user throws\nscorching sand at the\ntarget to attack.\nIt has a 30% chance\nto burn the foe.
-Cloaked in psychic\nenergy, the user\nslams into the foe.\nThis boosts the user’s\nDefense stat.
+Cloaked in psychic\nenergy, the user\nslams into the foe.\nThis boosts the\nuser’s Defense stat.
 The user swings its\nstone axes to attack.\nStone splinters left\nbehind will float\naround the foe.
 The user rampages,\nspewing flames for\ntwo to three turns,\nthen becomes confused.
 The user is shrouded\nin water and slams\ninto the target.\nThe user is hurt by\n33% of damage dealt.

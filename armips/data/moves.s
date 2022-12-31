@@ -8252,7 +8252,7 @@ movedata MOVE_HEADLONG_RUSH
     effectchance 0
     target MOVE_TARGET_SELECTED
     priority 0
-    flags FLAG_CONTACT | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
+    flags FLAG_HIDE_SHADOW | FLAG_CONTACT | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
     appeal 0x00
     contesttype 0
     terminatedata

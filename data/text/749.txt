@@ -545,7 +545,7 @@ The user slams the\nfoe with its wings.\nThe target is hit\ntwice in a row.
 The user throws\nscorching sand at the\ntarget to attack.\nIt has a 30% chance\nto burn the foe.
 Cloaked in psychic\nenergy, the user\nslams into the foe.\nThis boosts the\nuser’s Defense stat.
 The user swings its\nstone axes to attack.\nStone splinters left\nbehind will float\naround the foe.
-The user rampages,\nspewing flames for\ntwo to three turns,\nthen becomes confused.
+The user rampages,\nspewing flames for\ntwo to three turns,\nbut then becomes\nconfused.
 The user is shrouded\nin water and slams\ninto the target.\nThe user is hurt by\n33% of damage dealt.
 The user smashes into\nthe target in a\nfull-body tackle. It\nalso cuts the user’s\nDefense and Sp. Def.
 Toxic barbs are fired\nat the foe. This has a\n50% chance to poison.\nPower is doubled if\nthe foe is poisoned.

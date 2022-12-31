@@ -10,6 +10,7 @@
 .create "build/move/move_anim/0_504", 0
 
 // Hurricane
+// Gust animation repeated a few times with Brave Bird background
 
 a010_504:
     initspriteresource

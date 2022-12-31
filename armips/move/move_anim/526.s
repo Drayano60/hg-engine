@@ -10,6 +10,7 @@
 .create "build/move/move_anim/0_526", 0
 
 // Leafage
+// Leaf Blade leaves with three whacks
 
 a010_526:
     initspriteresource
@@ -34,21 +35,19 @@ a010_526:
     addparticle 0, 0, 4
     playsepan 2121, -117
 
-    wait 50
+    wait 40
 
-    playsepanmod 1885, -117, 117, 4, 2
-    wait 5
-
-    loadparticle 0, 106
-    waitstate
-    unloadspriteresource
-    addparticle 0, 0, 20
-
-
-    callfunction 36, 5, 1, 0, 1, 2, 264, "NaN", "NaN", "NaN", "NaN", "NaN"
-    callfunction 36, 5, 1, 0, 1, 2, 272, "NaN", "NaN", "NaN", "NaN", "NaN"
-
-    repeatse 2119, 117, 3, 5
+    loadparticle 1, 32
+    playsepan 1827, 117
+    addparticle 1, 1, 4
+    callfunction 36, 5, 3, 0, 1, 10, 264, "NaN", "NaN", "NaN", "NaN", "NaN"
+    wait 8
+    playsepan 1827, 117
+    addparticle 1, 1, 4
+    wait 8
+    playsepan 1827, 117
+    addparticle 1, 1, 4
+    wait 8
 
     waitparticle
     unloadparticle 0

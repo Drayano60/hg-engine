@@ -10,6 +10,7 @@
 .create "build/move/move_anim/0_476", 0
 
 // Quiver Dance
+// Refresh animation with some sprite movement adapted from Teeter Dance
 
 a010_476:
     initspriteresource

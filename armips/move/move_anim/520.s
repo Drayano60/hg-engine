@@ -10,6 +10,7 @@
 .create "build/move/move_anim/0_520", 0
 
 // Baby-Doll Eyes
+// First half of Covet animation (bouncing around and hearts) - no cute eyes asset
 
 a010_520:
     initspriteresource

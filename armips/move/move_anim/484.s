@@ -10,6 +10,7 @@
 .create "build/move/move_anim/0_484", 0
 
 // Scald
+// Hydro Pump with background replaced with faded red from Flamethrower
 
 a010_484:
     initspriteresource

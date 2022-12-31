@@ -10,6 +10,7 @@
 .create "build/move/move_anim/0_502", 0
 
 // Cotton Guard
+// Cotton Spore animation
 
 a010_502:
     initspriteresource

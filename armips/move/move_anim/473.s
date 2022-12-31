@@ -10,6 +10,7 @@
 .create "build/move/move_anim/0_473", 0
 
 // Venoshock
+// Sludge + Toxic
 
 a010_473:
     initspriteresource

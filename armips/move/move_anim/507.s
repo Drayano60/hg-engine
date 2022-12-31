@@ -10,6 +10,7 @@
 .create "build/move/move_anim/0_507", 0
 
 // Phantom Force
+// Shadow Force animation without background change
 
 a010_507:
     initspriteresource

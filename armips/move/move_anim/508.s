@@ -10,6 +10,7 @@
 .create "build/move/move_anim/0_508", 0
 
 // Noble Roar
+// Hyper Voice animation played once
 
 a010_508:
     initspriteresource

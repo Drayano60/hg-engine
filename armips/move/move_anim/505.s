@@ -10,6 +10,7 @@
 .create "build/move/move_anim/0_505", 0
 
 // Snarl
+// Uproar animation
 
 a010_505:
     initspriteresource

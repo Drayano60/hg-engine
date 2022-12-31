@@ -10,6 +10,7 @@
 .create "build/move/move_anim/0_525", 0
 
 // Solar Blade
+// Solar Beam animation
 
 a010_525:
     initspriteresource

@@ -10,6 +10,7 @@
 .create "build/move/move_anim/0_478", 0
 
 // Flame Charge
+// Flare Blitz + Flame Wheel
 
 a010_478:
     initspriteresource

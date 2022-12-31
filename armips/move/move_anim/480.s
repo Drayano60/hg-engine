@@ -10,6 +10,7 @@
 .create "build/move/move_anim/0_480", 0
 
 // Low Sweep
+// Low Kick animation
 
 a010_480:
     initspriteresource

@@ -10,6 +10,7 @@
 .create "build/move/move_anim/0_489", 0
 
 // Inferno
+// Repeated Fire Spin with Fire Blast background
 
 a010_489:
     initspriteresource

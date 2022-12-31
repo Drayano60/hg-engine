@@ -10,6 +10,7 @@
 .create "build/move/move_anim/0_521", 0
 
 // Nuzzle
+// Spark attacking half
 
 a010_521:
     initspriteresource

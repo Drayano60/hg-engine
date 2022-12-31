@@ -10,6 +10,7 @@
 .create "build/move/move_anim/0_477", 0
 
 // Heavy Slam
+// Body Slam animation
 
 a010_477:
     initspriteresource

@@ -10,6 +10,7 @@
 .create "build/move/move_anim/0_515", 0
 
 // Moonblast
+// Flash Cannon with Moonlight background and a different sound effect
 
 a010_515:
     initspriteresource

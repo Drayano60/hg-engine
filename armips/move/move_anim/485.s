@@ -10,6 +10,7 @@
 .create "build/move/move_anim/0_485", 0
 
 // Shell Smash
+// Clamp animation
 
 a010_485:
     initspriteresource

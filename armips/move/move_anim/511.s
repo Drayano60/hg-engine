@@ -10,6 +10,7 @@
 .create "build/move/move_anim/0_511", 0
 
 // Disarming Voice
+// Growl animation with extra hearts
 
 a010_511:
     initspriteresource

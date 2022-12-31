@@ -10,6 +10,7 @@
 .create "build/move/move_anim/0_513", 0
 
 // Play Rough
+// Submission with hearts from Attract at the end
 
 a010_513:
     initspriteresource

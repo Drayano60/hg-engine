@@ -10,6 +10,7 @@
 .create "build/move/move_anim/0_510", 0
 
 // Freeze-Dry
+// Blizzard animation with backgrounds taken out
 
 a010_510:
     initspriteresource

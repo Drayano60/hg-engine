@@ -10,6 +10,7 @@
 .create "build/move/move_anim/0_503", 0
 
 // Tail Slap
+// Slam animation
 
 a010_503:
     initspriteresource

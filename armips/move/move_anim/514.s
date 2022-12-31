@@ -10,6 +10,7 @@
 .create "build/move/move_anim/0_514", 0
 
 // Fairy Wind
+// Sweet Scent animation without petals
 
 a010_514:
     initspriteresource

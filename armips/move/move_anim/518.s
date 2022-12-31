@@ -10,6 +10,7 @@
 .create "build/move/move_anim/0_518", 0
 
 // Eerie Impulse
+// Thunder Wave with Screech sound effect
 
 a010_518:
     initspriteresource

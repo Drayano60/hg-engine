@@ -10,6 +10,7 @@
 .create "build/move/move_anim/0_498", 0
 
 // Drill Run
+// Horn Drill animation
 
 a010_498:
     initspriteresource

@@ -10,6 +10,7 @@
 .create "build/move/move_anim/0_509", 0
 
 // Petal Blizzard
+// Sweet Scent animation with Pokemon getting hit animation
 
 a010_509:
     initspriteresource

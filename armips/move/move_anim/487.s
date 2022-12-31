@@ -10,6 +10,7 @@
 .create "build/move/move_anim/0_487", 0
 
 // Incinerate
+// Last part of Flamethrower animation
 
 a010_487:
     initspriteresource

@@ -10,6 +10,7 @@
 .create "build/move/move_anim/0_523", 0
 
 // First Impression
+// Astonish animation
 
 a010_523:
     initspriteresource

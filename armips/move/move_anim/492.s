@@ -10,6 +10,7 @@
 .create "build/move/move_anim/0_492", 0
 
 // Bulldoze
+// Magnitude animation
 
 a010_492:
     repeatse 1954, 0, 2, 8

@@ -10,6 +10,7 @@
 .create "build/move/move_anim/0_493", 0
 
 // Frost Breath
+// Powder Snow animation
 
 a010_493:
     initspriteresource

@@ -10,6 +10,7 @@
 .create "build/move/move_anim/0_486", 0
 
 // Hex
+// Last part of Shadow Force animation (cloud) with Nightmare sound effect
 
 a010_486:
     initspriteresource

@@ -10,6 +10,7 @@
 .create "build/move/move_anim/0_512", 0
 
 // Draining Kiss
+// Lovely Kiss animation with Mega Drain draining graphics and a darker background
 
 a010_512:
     initspriteresource

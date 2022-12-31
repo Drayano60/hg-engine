@@ -10,6 +10,7 @@
 .create "build/move/move_anim/0_481", 0
 
 // Acid Spray
+// Acid animation
 
 a010_481:
     initspriteresource

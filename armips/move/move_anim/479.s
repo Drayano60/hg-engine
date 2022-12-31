@@ -10,6 +10,7 @@
 .create "build/move/move_anim/0_479", 0
 
 // Coil
+// Wrap animation
 
 a010_479:
     initspriteresource

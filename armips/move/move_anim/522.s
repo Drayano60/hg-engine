@@ -10,6 +10,7 @@
 .create "build/move/move_anim/0_522", 0
 
 // Power-Up Punch
+// Mega Punch animation
 
 a010_522:
     initspriteresource

@@ -10,6 +10,7 @@
 .create "build/move/move_anim/0_516", 0
 
 // Boomburst
+// Hyper Voice played once with screen shaking and Double-Edge background
 
 a010_516:
     initspriteresource

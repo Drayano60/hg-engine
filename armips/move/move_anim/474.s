@@ -10,6 +10,7 @@
 .create "build/move/move_anim/0_474", 0
 
 // Storm Throw
+// Vital Throw animation
 
 a010_474:
     initspriteresource

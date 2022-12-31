@@ -10,6 +10,7 @@
 .create "build/move/move_anim/0_495", 0
 
 // Work Up
+// Focus Energy animation
 
 a010_495:
     initspriteresource

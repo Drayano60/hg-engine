@@ -10,6 +10,7 @@
 .create "build/move/move_anim/0_499", 0
 
 // Dual Chop
+// Cut animation with Karate Chop sound effect
 
 a010_499:
     initspriteresource

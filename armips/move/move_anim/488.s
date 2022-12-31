@@ -10,6 +10,7 @@
 .create "build/move/move_anim/0_488", 0
 
 // Acrobatics
+// Extreme Speed animation with no background and changed shifting of enemy sprite
 
 a010_488:
     initspriteresource

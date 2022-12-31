@@ -10,6 +10,7 @@
 .create "build/move/move_anim/0_517", 0
 
 // Mystical Fire
+// Sacred Fire without background
 
 a010_517:
     initspriteresource

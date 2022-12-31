@@ -10,6 +10,7 @@
 .create "build/move/move_anim/0_490", 0
 
 // Volt Switch
+// Zap Cannon without background + U-turn switch out
 
 a010_490:
     initspriteresource

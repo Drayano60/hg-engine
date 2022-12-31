@@ -10,6 +10,7 @@
 .create "build/move/move_anim/0_496", 0
 
 // Electroweb
+// Spider Web animation + particles from Thunderbolt
 
 a010_496:
     initspriteresource

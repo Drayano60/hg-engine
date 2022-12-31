@@ -10,6 +10,7 @@
 .create "build/move/move_anim/0_475", 0
 
 // Sludge Wave
+// Used from HG-Engine (Poison Gas + Sludge Bomb?)
 
 red equ 20
 green equ 0

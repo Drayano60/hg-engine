@@ -10,6 +10,7 @@
 .create "build/move/move_anim/0_519", 0
 
 // Dazzling Gleam
+// Luster Purge with Refresh sound effect on first part
 
 a010_519:
     initspriteresource

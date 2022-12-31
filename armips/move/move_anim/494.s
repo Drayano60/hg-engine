@@ -10,6 +10,7 @@
 .create "build/move/move_anim/0_494", 0
 
 // Dragon Tail
+// Iron Tail animation ending
 
 a010_494:
     initspriteresource

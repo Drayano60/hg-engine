@@ -10,6 +10,7 @@
 .create "build/move/move_anim/0_500", 0
 
 // Sacred Sword
+// Slash animation with Cut sound effect
 
 a010_500:
     initspriteresource

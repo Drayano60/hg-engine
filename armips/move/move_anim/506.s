@@ -10,6 +10,7 @@
 .create "build/move/move_anim/0_506", 0
 
 // Icicle Crash 
+// Icicle Spear animation
 
 a010_506:
     initspriteresource

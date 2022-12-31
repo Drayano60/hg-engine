@@ -10,6 +10,7 @@
 .create "build/move/move_anim/0_472", 0
 
 // Psyshock
+// Black background from Extrasensory + repeated hits from HG-Engine implementation
 
 a010_472:
     initspriteresource

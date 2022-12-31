@@ -10,6 +10,7 @@
 .create "build/move/move_anim/0_491", 0
 
 // Struggle Bug
+// Flail user movement + Spit Up attack hit
 
 a010_491:
     initspriteresource

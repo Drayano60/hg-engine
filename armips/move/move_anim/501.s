@@ -10,6 +10,7 @@
 .create "build/move/move_anim/0_501", 0
 
 // Razor Shell
+// Cut animation
 
 a010_501:
     initspriteresource

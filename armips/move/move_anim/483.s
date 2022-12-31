@@ -10,6 +10,7 @@
 .create "build/move/move_anim/0_483", 0
 
 // Echoed Voice
+// Hyper Voice animation with shorter delay
 
 a010_483:
     initspriteresource

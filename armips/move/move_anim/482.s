@@ -10,6 +10,7 @@
 .create "build/move/move_anim/0_482", 0
 
 // Foul Play
+// Faint Attack animation without the spinning around
 
 a010_482:
     initspriteresource

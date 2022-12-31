@@ -10,6 +10,7 @@
 .create "build/move/move_anim/0_524", 0
 
 // High Horsepower
+// Take Down animation
 
 a010_524:
     initspriteresource

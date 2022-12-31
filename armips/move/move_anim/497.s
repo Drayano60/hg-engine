@@ -10,6 +10,7 @@
 .create "build/move/move_anim/0_497", 0
 
 // Wild Charge
+// Volt Tackle without background
 
 a010_497:
     initspriteresource

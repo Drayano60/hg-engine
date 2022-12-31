@@ -8093,13 +8093,13 @@ movedata MOVE_SCALE_SHOT
     terminatedata
 
 movedata MOVE_METEOR_BEAM
-    battleeffect 0
+    battleeffect 276 // NOTE: Opted for 20% SpAtk increase over the two-turn
     pss SPLIT_SPECIAL
     basepower 120
     type TYPE_ROCK
     accuracy 90
     pp 10
-    effectchance 0
+    effectchance 20
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK

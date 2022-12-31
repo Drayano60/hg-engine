@@ -554,9 +554,9 @@ The user covers\nits feet in ice\nand twirls around,\nslamming into the\ntarget.
 The user performs\na tackle like a\nraging bull.\nThis destroys Reflect\nand Light Screen.
 The user suddenly\nattacks, as if leaping\nout from grass.\nThis raises the\nuser’s Speed stat.
 The user attacks\nthe foe with very\ncold water.\nThis lowers the foe’s\nAttack stat.
-The user spins\nits pointed body at\nhigh speed.\nThis attack can hit\na foe using Protect.
+The user spins its\npointed body at high\nspeed. This attack\ncan hit a foe using\nProtect or Detect.
 The user shoots\nmystical beams from\nits eyes.\nThe target is hit\ntwice in a row.
-The user converts\nits rage into energy\nto attack.\nThe user’s Attack rises\neach time it is hit.
+The user converts\nits rage into energy\nto attack. The user’s\nAttack rises each\ntime it is hit.
 The user expels\npressurized water to\ncut the foe.\nIt has a high\ncritical-hit ratio.
 Releasing an aroma,\nthe user blunts the\nfoe’s fighting spirit,\nlowering its Attack\nand Sp. Atk stats.
 The user rubs its\nblazing fur together,\ncausing an explosion.\nIt has a 50% chance\nto burn what it hits.

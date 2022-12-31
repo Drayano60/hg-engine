@@ -8378,7 +8378,7 @@ movedata MOVE_TWIN_BEAM
     terminatedata
 
 movedata MOVE_RAGE_FIST
-    battleeffect 0
+    battleeffect 81 // NOTE: Cant get actual effect, using Rage one
     pss SPLIT_PHYSICAL
     basepower 50
     type TYPE_GHOST

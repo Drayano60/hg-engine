@@ -7913,13 +7913,13 @@ movedata MOVE_LEAFAGE
     terminatedata
 
 movedata MOVE_POLLEN_PUFF
-    battleeffect 0
+    battleeffect 70 // NOTE: Lowers Speed in lieu of ally healing effect
     pss SPLIT_SPECIAL
     basepower 90
     type TYPE_BUG
     accuracy 100
     pp 15
-    effectchance 0
+    effectchance 30
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK

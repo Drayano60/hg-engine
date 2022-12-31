@@ -552,7 +552,7 @@ Toxic barbs are fired\nat the foe. This has a\n50% chance to poison.\nPower is d
 Slashes the foe with\naura-enriched wings.\nCritical hits land\nmore easily. Raises\nthe user’s Speed.
 The user covers\nits feet in ice\nand twirls around,\nslamming into the\ntarget.
 The user performs\na tackle like a\nraging bull.\nThis destroys Reflect\nand Light Screen.
-The user attacks\nsuddenly, as if\nleaping out from grass.\nThis raises the user’s\nSpeed stat.
+The user suddenly\nattacks, as if leaping\nout from grass.\nThis raises the\nuser’s Speed stat.
 The user attacks\nthe foe with very\ncold water.\nThis lowers the foe’s\nAttack stat.
 The user spins\nits pointed body at\nhigh speed.\nThis attack can hit\na foe using Protect.
 The user shoots\nmystical beams from\nits eyes.\nThe target is hit\ntwice in a row.

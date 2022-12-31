@@ -10,7 +10,7 @@
 .create "build/move/move_anim/0_549", 0
 
 // Headlong Rush
-// Head Smash animation
+// Head Smash animation without rocks and a move back part
 
 a010_549:
     initspriteresource

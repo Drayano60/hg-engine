@@ -10,7 +10,7 @@
 .create "build/move/move_anim/0_550", 0
 
 // Barb Barrage
-// Twinneedle looped three times
+// Twinneedle looped four times
 
 a010_550:
     initspriteresource

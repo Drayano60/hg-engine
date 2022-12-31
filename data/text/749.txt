@@ -532,7 +532,7 @@ The user swings its\nbody around violently\nto inflict damage on\neverything in 
 This move reduces\ndamage from all moves\nfor five turns.\nThis can be used\nonly in a hailstorm.
 The user bites the\ntarget with its\npsychic capabilities.\nThis destroys Reflect\nand Light Screen.
 The user slams into\nthe foe using a full\nforce blast of water.\nHas a 20% chance to\nlower foe’s Defense.
-The user slams its\nbody into the foe.\nThe higher the user’s\ndefense, the more damage\nit will inflict.
+The user slams its\nbody into the foe.\nThe higher the user’s\ndefense, the higher\nthe damage dealt.
 The user swings its\ntough tail wildly\nand attacks the foe.\nThis also lowers the\nfoe’s Attack stat.
 The user attacks\nwith enough force to\nbreak the foe’s spirit.\nThis lowers the foe’s\nSp. Atk stat.
 The user fires a\nbeam, using steel\ntaken from itself.\nThis also damages\nthe user.

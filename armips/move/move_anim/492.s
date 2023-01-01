@@ -9,24 +9,14 @@
 
 .create "build/move/move_anim/0_492", 0
 
-red equ 31
-green equ 31
-blue equ 31
+// Bulldoze
+// Magnitude animation
 
 a010_492:
-    loadparticlefromspa 0, 505
-    waitparticle
-
-// add ring that goes around the user
-    addparticle 0, 0, 3
-    wait 20
-// turn mon white
-    callfunction 34, 6, 2, 0, 1, red | green << 5 | blue << 10, 10, 10, "NaN", "NaN", "NaN", "NaN"
-    waitparticle
-
-    unloadparticle 0
+    repeatse 1954, 0, 2, 8
+    callfunction 28, 1, 1, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
     waitstate
     end
-
+    
 
 .close

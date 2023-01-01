@@ -9,33 +9,43 @@
 
 .create "build/move/move_anim/0_483", 0
 
+// Echoed Voice
+// Hyper Voice animation with shorter delay
+
 a010_483:
-    loadparticlefromspa 0, 496
-    waitparticle
-
-// binding part
-    addparticle 0, 3, 4
-    addparticle 0, 2, 4
-    wait 12
-    playsepan 1919, 117
-    callfunction 42, 8, 264, 100, 70, 100, 100, 100, 1, 327685, "NaN", "NaN"
+    initspriteresource
+    loadspriteresource 0
+    loadspriteresource 1
+    loadspriteresource 2
+    loadspriteresource 3
+    loadspritemaybe 4, 0, 0, 0
+    loadspritemaybe 5, 0, 1, 1
+    loadspritemaybe 6, 0, 2, 2
+    loadspritemaybe 7, 0, 3, 3
+    callfunction 78, 1, 0, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
+    loadparticle 0, 322
     waitstate
-    playsepan 1919, 117
-    callfunction 42, 8, 264, 100, 70, 100, 100, 100, 1, 327685, "NaN", "NaN"
-    waitstate
-    playsepan 1919, 117
-    callfunction 42, 8, 264, 100, 70, 100, 100, 100, 1, 327685, "NaN", "NaN"
-    waitparticle
-
-// hit part
-    playsepanmod 1993, -117, 117, 4, 2
-    addparticle 0, 1, 4
+    unloadspriteresource
+    resetsprite 0
+    resetsprite 1
+    resetsprite 2
+    resetsprite 3
+    loop 2
+    wait 2
+    playcry 4, -117, 100
+    waitcry 0
+    playcry 6, -117, 127
+    addparticle 0, 1, 17
+    cmd37 6, 0, 2, 22, 16, 0, 0, "NaN", "NaN"
     addparticle 0, 0, 4
-    callfunction 36, 5, 3, 0, 1, 5, 264, "NaN", "NaN", "NaN", "NaN", "NaN"
-    waitparticle
-
-    unloadparticle 0
+    callfunction 36, 5, 0, 2, 1, 2, 264, "NaN", "NaN", "NaN", "NaN", "NaN"
+    callfunction 36, 5, 0, 2, 1, 2, 272, "NaN", "NaN", "NaN", "NaN", "NaN"
     waitstate
+    waitcry 0
+    doloop
+    wait 2
+    waitparticle
+    unloadparticle 0
     end
     
 

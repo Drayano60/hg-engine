@@ -9,30 +9,35 @@
 
 .create "build/move/move_anim/0_487", 0
 
-// due to this animation, pokemon that can learn heavy slam should be 8 px *below* the textbox to prevent the empty space from showing below the mon when the animation of the move is shown.
+// Incinerate
+// Last part of Flamethrower animation
 
 a010_487:
-    loadparticlefromspa 0, 500
-    waitparticle
-
-// slide mon
-    playsepan 1925, -117
-    callfunction 57, 4, 4, -16, 8, 258, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN" // slide mon down a little bit
+    initspriteresource
+    loadspriteresource 0
+    loadspriteresource 1
+    loadspriteresource 2
+    loadspriteresource 3
+    loadspritemaybe 4, 0, 0, 0
+    loadspritemaybe 5, 0, 1, 1
+    loadspritemaybe 6, 0, 2, 2
+    loadspritemaybe 7, 0, 3, 3
+    callfunction 78, 1, 0, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
+    loadparticle 0, 84
     waitstate
-    wait 15
-    playsepan 1847, 117
-    callfunction 57, 4, 4, 32, -16, 258, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN" // slide mon up forward
+    unloadspriteresource
+    resetsprite 0
+    resetsprite 1
+    resetsprite 2
+    resetsprite 3
     waitstate
-
-// hit + clouds
-    playsepanmod 1993, -117, 117, 4, 2
-    addparticle 0, 1, 4
+    repeatse 1937, -117, 3, 6
     addparticle 0, 0, 4
-    callfunction 36, 5, 4, 0, 1, 7, 264, "NaN", "NaN", "NaN", "NaN", "NaN" // shake mon
-    callfunction 57, 4, 4, -16, 8, 258, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN" // return mon to original pos
-    waitstate
-    end
-
+    callfunction 36, 5, 2, 0, 1, 14, 258, "NaN", "NaN", "NaN", "NaN", "NaN"
+    wait 3
+    callfunction 34, 6, 8, 0, 1, 31, 10, 25, "NaN", "NaN", "NaN", "NaN"
+    callfunction 36, 5, 2, 0, 1, 14, 264, "NaN", "NaN", "NaN", "NaN", "NaN"
+    waitparticle
     unloadparticle 0
     waitstate
     end

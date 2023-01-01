@@ -469,95 +469,95 @@ The user disappears,\nthen strikes the foe\non the second turn.\nIt hits even if
 --
 --
 --
-The user sharpens\nits claws to boost\nits Attack and\nAccuracy.
-The user protects\nitself and its\nallies from wide-\nranged attacks.
-The user employs its\npsychic power to\naverage its Defense\nand Sp. Def stats\nwith the target.
-The user employs its\npsychic power to\naverage its Attack\nand Sp. Atk stats\nwith the target.
-The user creates a\nbizarre area where\nPokémon’s Defense\nand Sp. Def swap\nfor five turns.
-An odd psychic wave\nattacks the target.\nThis attack does\nphysical damage.
-The foe is soaked\nby a special acid.\nIts power doubles if\nthe foe is poisoned.
-The user sheds part\nof its body to make\nitself lighter and\nsharply raise its\nSpeed stat.
-The user scatters\na cloud of powder,\nmaking foes attack\nonly the user.
-The user makes the\ntarget float with\npsychic power. The\ntarget is easier to\nhit for three turns.
-The user creates a\nbizarre area in\nwhich Pokémon’s held\nitems lose effect\nfor five turns.
-A projectile is\nthrown at the\nopponent. A flying\nPokémon will fall\nto the ground.
-The user strikes\nthe foe fiercely.\nIt always results in\na critical hit.
-The user attacks\nthe foe with a\nbursting flame.
-The area around the\nuser is swamped by\na giant sludge wave.\nIt may also poison\nthose hit.
-The user mystically\ndances, raising its\nSp. Atk, Sp. Def,\nand Speed.
-The user slams into\nthe target. The\ngreater the weight\ndifference, the\ngreater the damage.
-Using an odd shock\nwave, the user\ndamages same-type\nPokémon in the\nsurrounding area.
-The user hurls an\nelectric orb. The\nfaster the user is\nthan the foe, the\ngreater the damage.
-The user shoots a\ntorrent of water at\nthe target and\nchanges the target’s\ntype to Water.
-The user cloaks\nitself in flames and\nattacks. It also ups\nthe user’s Speed.
-The user coils up,\nraising its Attack,\nDefense, and\naccuracy.
-The user attacks\nthe foe’s legs,\nlowering its\nSpeed stat.
-The user spits fluid\nthat melts the foe.\nIt harshly lowers\nthe foe’s Sp. Def.
-The user turns the\ntarget’s power\nagainst it. Power\nincreases with the\nfoe’s Attack stat.
-The user’s\nmysterious psychic\nwave changes the\ntarget’s Ability to\nSimple.
-The user dances\nwith an odd rhythm,\nmaking the target’s\nAbility the same as\nthe user’s Ability.
-The user helps the\ntarget and makes it\nuse its move right\nafter the user.
-The user attacks\nwith a song. Others\ncan join in, doing\nmore damage.
-The user attacks\nthe target with a\nharsh echo.\nIf used every turn,\npower increases.
-An attack which is\nnot affected by the\ntarget’s stat\nchanges.
-The user throws a\nclump of special\nmud that reverts\nall stat changes.
-The user attacks\nwith a stored power\nthat grows with\neach raised stat.
-The user protects\nitself and its\nallies from priority\nmoves.
-The user teleports\nusing a strange\npower and switches\nplaces with one of\nits allies.
-Boiling water is\nshot at the foe.\nIt may also cause\na burn.
-Sharply raises\nAttack, Sp. Atk, and\nSpeed, but lowers\nDefense and Sp. Def.
-The user emits a\nhealing pulse that\nrestores a target’s\nHP by up to half.
-This attack does\ndouble damage to a\ntarget affected by\na status problem.
-It takes the enemy\ninto the sky,\nwhere it can’t\nattack. It is\ndropped next turn.
-Rotating its gears,\nthe user raises its\nAttack and sharply\nraises its Speed.
-The foe is made to\nswitch out with an\nally. In the wild,\nthe battle ends.
-The user burns\nthe foe completely,\nrendering a held\nBerry useless.
-The user suppresses\nthe target and makes\nits move go last.
-A nimble attack\nthat does double\ndamage if the user\nhas no held item.
-The user reflects\nthe target’s type,\nmaking it the same\ntype as the target.
-If an ally fainted\nin the previous\nturn, this attack’s\ndamage increases.
-The user risks all,\ndealing damage\nequal to its HP\nand then fainting\nfrom exhaustion.
-The user passes its\nheld item to the\ntarget when the\ntarget isn’t\nholding an item.
-The foe is engulfed\nby an intense fire\nthat is sure to\nleave a burn.
-When combined with\nits fire equivalent,\nits power increases\nand a rainbow\nappears.
-When used with its\ngrass equivalent,\nits power increases\nand a vast sea of\nfire appears.
-When used with its\nwater equivalent,\nits power increases\nand a vast swamp\nappears.
-After attacking,\nthe user switches\nplaces with a\nparty Pokémon.
-While resisting, the\nuser attacks the\nfoe, lowering its\nSp. Atk stat.
-The user hits all\nPokémon in battle\nby stomping. Lowers\nSpeed of those hit. 
-The user blows\ncold air at the foe.\nIt always results in\na critical hit.
-The foe is made to\nswitch out with an\nally. In the wild,\nthe battle ends.
-The user rouses\nitself to raise\nits Attack and\nSp. Atk stats.
-The user traps the\nfoe in an electric\nnet. It also lowers\nthe foe’s Speed.
-The user throws an\nelectrified tackle.\nIt hurts the user\na little.
-The user rotates\nits body like a\ndrill. It has a high\ncritical-hit ratio.
-The user hits\nthe foe with two\nbrutal strikes\nin one turn.
-The foe is hit\nafter a cute act.\nIt may also make\nthe foe flinch.
-A harsh attack that\nabsorbs half the\ndamage it inflicted\nto restore HP.
-The user attacks by\nslicing with a long\nhorn. The target’s\nstat changes are\nignored.
-The foe is cut\nby sharp shells.\nIt may also lower\nthe foe’s Defense.
-The user slams down\nwith fire. The more\nthe user outweighs\nthe foe, the greater\nthe damage.
-Sharp leaves circle\nthe foe. It may also\nlower the foe’s\naccuracy.
-The user crushes\nthe foe with its\nbody. It may also\nmake the foe flinch.
-The user protects\nitself with cotton,\ndrastically raising\nits Defense.
-The user releases a\npitch-black blast\nat its target. May\nalso lower target’s\naccuracy.
-An odd psychic wave\nattacks the target.\nThis attack does\nphysical damage.
-The use attacks by\nhitting the target\nwith its hard tail.\nIt hits two to five\ntimes in a row.
-The foe is caught\nin a fierce wind.\nIt may also confuse\nthe foe.
-The user charges its\nhead into its foe,\nusing its guard hair.\nIt slightly damages\nthe user.
-The user attacks by\nthrowing two steel\ngears at it target.\nThis attack hits\ntwice in a row.
-The user torches\neverything around it\nin an inferno of\nscarlet flames. It\nmay burn the foes.
-The user fires a beam\nof light at its foe.\nThe type changes\ndepending on the\nDrive held.
-The user sings an\nancient song and\nattacks the hearts of\nthe listeners. It\nmay induce sleep.
-The user cuts with\nits long horn. The\nodd power in the\nhorn does physical\ndamage to the foe.
-The user attacks by\nblowing freezing cold\nair at opposing\nPokémon. This lowers\ntheir Speed.
-The user surrounds\nitself with abundant\nelectricity that can\nparalyze and charges\nits target.
-The user attacks by\nengulfing the foe in\na severe, beautiful,\nblue flame. It may\nburn the foe.
-Cloaked in flames,\nthe user dances.\nIt may also raise\nthe user’s Sp. Atk.
-A two-turn attack\nthat hits the foe\nwith electrically\ncharged ice. It may\nparalyze the foe.
-A two-turn attack\nthat surrounds the\nfoe with ultracold,\nfreezing wind. It\nmay burn the foe.
-The user barks\nmenacingly. It\nalso lowers the\nfoe’s Sp. Atk.
-Icicles are dropped\non the foe. It may\nalso make the foe\nflinch.
-The user hurls the\nhot flame on its\nforehead. It lowers\nthe user’s Def, Sp.\nDef, and Speed.
-The user brings down\na huge flame. It does\nmore damage when\ninfluenced by an\nenormous bolt.
-The user throws down\na giant bolt. It does\nmore damage when\ninfluenced by an\nenormous flame.
+The user sharpens\nits claws to boost\nits Attack stat and\naccuracy.
+The user materializes\nan odd psychic wave\nto attack the foe.\nThis attack does\nphysical damage.
+The foe is drenched\nwith a poisonous\nliquid. Its power is\ndoubled if the foe\nis poisoned.
+The user strikes\nthe target with a\nfierce blow.\nThis move is always\na critical hit.
+It swamps the area\naround the user with\na giant sludge wave.\nIt may also poison\nthose hit.
+The user performs a\nbeautiful, mystic\ndance. It boosts the\nuser’s Sp. Atk,\nSp. Def, and Speed.
+The user slams into\nthe target. The more\nthe user outweighs\nthe foe, the greater\nthe damage.
+The user cloaks\nitself with flame and\nattacks. Building up\npower, it raises the\nuser’s Speed stat.
+The user coils up and\nconcentrates. This\nraises its Attack and\nDefense stats as well\nas its accuracy.
+The user attacks the\ntarget’s legs swiftly,\nreducing the target’s\nSpeed stat.
+The user spits out\nfluid that works to\nmelt the target.\nIt harshly lowers the\nfoe’s Sp. Def stat.
+The user turns the\nfoe’s power against\nit. The higher the\nfoe’s Attack, the\ngreater the damage.
+The user attacks the\nfoe with an echoing\nvoice. Its power\nincreases if it\nhits in succession.
+The user shoots\nboiling hot water\nat the foe.\nIt has a 30% chance\nto burn the foe.
+User’s shell breaks,\nlowering its Defense\nand Sp. Def but its\nAttack, Sp. Atk, and\nSpeed sharply raise.
+This relentless\nattack does massive\ndamage to a target\naffected by status\nconditions.
+The user attacks\nthe foe with fire.\nIf the foe is holding\na Berry, it becomes\nburnt and unusable.
+The user nimbly\nstrikes the target.\nIf the user has an\nitem, this attack\ndoes half damage.
+The user attacks\nby engulfing the foe\nin an intense fire.\nIt leaves the foe\nwith a burn.
+After making its\nattack, the user\nrushes back to switch\nplaces with a party\nPokémon in waiting.
+While resisting, the\nuser attacks the\nopposing Pokémon.\nThis lowers their\nSp. Atk stats.
+The user stomps on\nthe ground, striking\neverything around it.\nThis lowers the Speed\nstat of those hit.
+The user blows a\ncold breath on the\ntarget. This move will\nalways land a critical\nhit.
+The foe is knocked\naway and replaced by\nanother Pokémon\nin its party. In the\nwild, the battle ends.
+The user is roused,\nand its Attack and\nSp. Atk stats\nincrease.
+The foe is captured\nin an electric net\nand takes damage.\nThis reduces the\nfoe’s Speed stat.
+The user is shrouded\nin electricity and\nsmashes into the foe.\nThe user is hurt by\n25% of damage dealt.
+The user crashes into\nits foe, rotating its\nbody like a drill.\nIt has a high\ncritical-hit ratio.
+The user attacks its\ntarget by hitting it\nwith brutal strikes.\nThe target is hit\ntwice in a row.
+The user attacks by\nslicing with a sword.\nThe target’s stat\nchanges do not affect\nthis move’s damage.
+The user cuts its foe\nwith sharp shells.\nIt has a 50% chance\nto lower the foe’s\nDefense stat.
+The user protects\nitself by wrapping\nits body in cotton,\ndrastically raising\nthe user’s Defense.
+The user attacks\nby striking the foe\nwith its hard tail,\ntwo to five times\nin a row.
+The user attacks by\nwrapping its opponent\nin a fierce wind.\nIt has a 30% chance\nto confuse the foe.
+The user yells as if\nit is ranting about\nsomething, making the\ntarget’s Sp. Atk stat\ndecrease.
+The user attacks by\nharshly dropping\nicicles onto the foe.\nHas a 30% chance of\nmaking the foe flinch.
+The user vanishes,\nthen strikes the foe\non the second turn.\nIt hits even if the\nfoe protects itself.
+Letting out a roar,\nthe user intimidates\nthe target and lowers\nboth its Attack and\nSp. Atk stats.
+The user stirs up a\nfierce petal blizzard,\nattacking everything\naround it.
+Foe is rapidly cooled.\nIt has a 10% chance\nto freeze the foe.\nWater types take four\ntimes as much damage.
+With a charming cry,\nthe user does\nemotional damage.\nThis attack never\nmisses.
+The user steals the\nfoe’s energy with a\nkiss. The user’s HP\nis restored by half\nthe damage dealt.
+The user plays rough\nwith the target and\nattacks it. It has a\n10% chance to lower\nthe foe’s Attack.
+The user stirs up a\nfairy wind and hits\nthe target with it.
+The user attacks the\nfoe with the power of\nthe moon.\nHas a 30% chance to\nlower foe’s Sp. Atk.
+The user attacks\neverything around it\nwith the destructive\npower of a terrible,\nexplosive sound.
+The user attacks by\nbreathing a special,\nhot fire. This also\nlowers the target’s\nSp. Atk stat.
+The user generates\nan eerie impulse.\nExposing the foe to\nit harshly lowers the\nfoe’s Sp. Atk stat.
+The user damages\nopposing Pokémon by\nemitting a powerful\nflash.
+The user stares\nadorably at the foe,\nreducing its Attack.\nThis move always goes\nfirst.
+The user attacks by\nnuzzling electrified\ncheeks against the\ntarget. This leaves\nthe target paralyzed.
+Striking opponents\nrepeatedly makes the\nuser’s fists harder.\nThis also raises the\nuser’s Attack stat.
+Although this move\nhas great power, it\nonly works the first\nturn each time the\nuser enters battle.
+The user fiercely\nattacks the target\nwith its entire body.
+A two-turn attack.\nThe user gathers\nlight and attacks\nwith a blade filled\nwith light energy.
+The user attacks\nby pelting the foe\nwith leaves.
+The user attacks the\nfoe with a pollen\npuff that explodes.\nHas a 30% chance to\nlower foe’s Speed.
+The user lunges at\nthe foe, attacking\nwith full force.\nThis lowers the foe’s\nAttack stat.
+The user stabs the\nfoe with a sharp horn.\nThis attack never\nmisses.
+The user swings its\nbody around violently\nto inflict damage on\neverything in its\nvicinity.
+This move reduces\ndamage from all moves\nfor five turns.\nThis can be used\nonly in a hailstorm.
+The user bites the\ntarget with its\npsychic capabilities.\nThis destroys Reflect\nand Light Screen.
+The user slams into\nthe foe using a full\nforce blast of water.\nHas a 20% chance to\nlower foe’s Defense.
+The user slams its\nbody into the foe.\nThe higher the user’s\ndefense, the higher\nthe damage dealt.
+The user swings its\ntough tail wildly\nand attacks the foe.\nThis also lowers the\nfoe’s Attack stat.
+The user attacks with\nenough force to harm\nthe foe’s spirit.\nThis lowers the foe’s\nSp. Atk stat.
+The user fires a\nbeam, using steel\ntaken from itself.\nThis also damages\nthe user.
+The user attacks by\nshooting many scales.\nThis move boosts the\nuser’s Speed but\nlowers its Defense.
+The user gathers\nspace power and\nattacks the target.\nHas a 20% chance to\nraise user’s Sp. Atk.
+The user skitters\nbehind the foe\nto attack.\nThis also lowers the\nfoe’s Sp. Atk stat.
+After making its\nattack, the user\nrushes back to switch\nplaces with a party\nPokémon in waiting.
+A consecutive three-\nkick attack that\nbecomes more\npowerful with each\nsuccessive hit.
+The user slams the\nfoe with its wings.\nThe target is hit\ntwice in a row.
+The user throws\nscorching sand at the\ntarget to attack.\nIt has a 30% chance\nto burn the foe.
+Cloaked in psychic\nenergy, the user\nslams into the foe.\nThis boosts the\nuser’s Defense stat.
+The user swings its\nstone axes to attack.\nStone splinters left\nbehind will float\naround the foe.
+The user rampages,\nspewing flames for\ntwo to three turns,\nbut then becomes\nconfused.
+The user is shrouded\nin water and slams\ninto the target.\nThe user is hurt by\n33% of damage dealt.
+The user smashes into\nthe target in a\nfull-body tackle. It\nalso cuts the user’s\nDefense and Sp. Def.
+Toxic barbs are fired\nat the foe. This has a\n50% chance to poison.\nPower is doubled if\nthe foe is poisoned.
+Slashes the foe with\naura-enriched wings.\nCritical hits land\nmore easily. Raises\nthe user’s Speed.
+The user covers\nits feet in ice\nand twirls around,\nslamming into the\ntarget.
+The user performs\na tackle like a\nraging bull.\nThis destroys Reflect\nand Light Screen.
+The user suddenly\nattacks, as if leaping\nout from grass.\nThis raises the\nuser’s Speed stat.
+The user attacks\nthe foe with very\ncold water.\nThis lowers the foe’s\nAttack stat.
+The user spins its\npointed body at high\nspeed. This attack\ncan hit a foe using\nProtect or Detect.
+The user shoots\nmystical beams from\nits eyes.\nThe target is hit\ntwice in a row.
+The user converts\nits rage into energy\nto attack. The user’s\nAttack rises each\ntime it is hit.
+The user expels\npressurized water\nto cut the foe.\nIt has a high\ncritical-hit ratio.
+The foe is calmed by\nan aroma, lowering its\nAttack and Sp. Atk.\nThis move will always\ngoes first.
+The user rubs its\nblazing fur together,\ncausing an explosion.\nIt has a 50% chance\nto burn what it hits.
+The user tears up the\nfoe underwater with\nits powerful jaws.\nThe foe’s Defense\nstat is also lowered.

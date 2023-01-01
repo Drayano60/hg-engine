@@ -7,10 +7,10 @@
 .include "armips/include/monnums.s"
 .include "armips/include/movenums.s"
 
-.create "build/move/battle_eff_seq/0_061", 0
+.create "build/move/battle_eff_seq/0_292", 0
 
-a030_061:
-    changevar VAR_OP_SET, VAR_ADD_STATUS1, 0x80000031
+a030_292:
+    changevar VAR_OP_SET, VAR_ADD_STATUS1, ADD_STATUS_NOBLE_ROAR | ADD_STATUS_DEFENDER
     endscript
 
 .close

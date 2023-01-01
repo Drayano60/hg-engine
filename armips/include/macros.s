@@ -15,7 +15,7 @@
 .endmacro
 
 .macro learnset,move,level
-.if move <= MOVE_FUSION_BOLT
+.if move < NUM_OF_MOVES
     .word (level << 16 | move)
 .endif
 .endmacro

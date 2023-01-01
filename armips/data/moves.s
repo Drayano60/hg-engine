@@ -7433,7 +7433,7 @@ movedata MOVE_DRAGON_TAIL
     terminatedata
 
 movedata MOVE_WORK_UP
-    battleeffect 0
+    battleeffect 298
     pss SPLIT_STATUS
     basepower 0
     type TYPE_NORMAL

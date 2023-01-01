@@ -170,4 +170,5 @@ u32 move_effect_to_subscripts[] =
     [156] = 335, // new noble roar subscript
     [157] = 336, // new incinerate subscript
     [158] = 337, // new work up subscript
+    [159] = 338, // new scale shot subscript
 };

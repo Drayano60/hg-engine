@@ -8078,13 +8078,13 @@ movedata MOVE_STEEL_BEAM
     terminatedata
 
 movedata MOVE_SCALE_SHOT
-    battleeffect 29 // NOTE: Does not include stat increase.
+    battleeffect 301 // NOTE: Cant get the multihit and stat increase to work, so its just the stat increase and flat damage
     pss SPLIT_PHYSICAL
     basepower 25
     type TYPE_DRAGON
     accuracy 90
     pp 20
-    effectchance 0
+    effectchance 100
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK

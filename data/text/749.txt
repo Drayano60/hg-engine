@@ -557,7 +557,7 @@ The user attacks\nthe foe with very\ncold water.\nThis lowers the foe’s\nAttac
 The user spins its\npointed body at high\nspeed. This attack\ncan hit a foe using\nProtect or Detect.
 The user shoots\nmystical beams from\nits eyes.\nThe target is hit\ntwice in a row.
 The user converts\nits rage into energy\nto attack. The user’s\nAttack rises each\ntime it is hit.
-The user expels\npressurized water to\ncut the foe.\nIt has a high\ncritical-hit ratio.
-Releasing an aroma,\nthe user blunts the\nfoe’s fighting spirit,\nlowering its Attack\nand Sp. Atk stats.
+The user expels\npressurized water\nto cut the foe.\nIt has a high\ncritical-hit ratio.
+The foe is calmed by\nan aroma, lowering its\nAttack and Sp. Atk.\nThis move will always\ngoes first.
 The user rubs its\nblazing fur together,\ncausing an explosion.\nIt has a 50% chance\nto burn what it hits.
-The user savagely\ntears the foe with\nits powerful jaws.\nIt also lowers the\nfoe’s Defense stat.
+The user tears up the\nfoe underwater with\nits powerful jaws.\nThe foe’s Defense\nstat is also lowered.

@@ -8407,21 +8407,23 @@ movedata MOVE_AQUA_CUTTER
     contesttype 0
     terminatedata
 
+// This is a custom move for Meganium
 movedata MOVE_SOOTHING_AROMA
     battleeffect 0
     pss SPLIT_STATUS
     basepower 0
     type TYPE_GRASS
     accuracy 100
-    pp 30
+    pp 20
     effectchance 0
     target MOVE_TARGET_BOTH
-    priority 0
+    priority 1
     flags FLAG_MIRROR_MOVE | FLAG_MAGIC_COAT | FLAG_PROTECT
     appeal 0x00
     contesttype 0
     terminatedata
 
+// This is a custom move for Typhlosion
 movedata MOVE_INFERNAL_BLAST
     battleeffect 4
     pss SPLIT_SPECIAL
@@ -8437,6 +8439,7 @@ movedata MOVE_INFERNAL_BLAST
     contesttype 0
     terminatedata
 
+// This is a custom move for Feraligatr
 movedata MOVE_SAVAGE_REND
     battleeffect 69
     pss SPLIT_PHYSICAL
@@ -8447,7 +8450,7 @@ movedata MOVE_SAVAGE_REND
     effectchance 100
     target MOVE_TARGET_SELECTED
     priority 0
-    flags FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
+    flags FLAG_KINGS_ROCK | FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
     appeal 0x00
     contesttype 0
     terminatedata

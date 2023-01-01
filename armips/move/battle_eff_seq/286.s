@@ -9,6 +9,8 @@
 
 .create "build/move/battle_eff_seq/0_286", 0
 
+// Coil effect
+
 a030_286:
     changevar VAR_OP_SET, VAR_ADD_STATUS1,  ADD_STATUS_COIL | ADD_STATUS_ATTACKER
     endscript

@@ -9,6 +9,9 @@
 
 .create "build/move/battle_eff_seq/0_284", 0
 
+// Soak effect
+// Not used by SacredGold
+
 a030_284:
     changevar VAR_OP_SET, VAR_ADD_STATUS1,  ADD_STATUS_SOAK | ADD_STATUS_DEFENDER
     endscript

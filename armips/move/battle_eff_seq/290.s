@@ -9,6 +9,8 @@
 
 .create "build/move/battle_eff_seq/0_290", 0
 
+// Shell Smash effect
+
 a030_290:
     changevar VAR_OP_SET, VAR_ADD_STATUS1,  ADD_STATUS_SHELL_SMASH | ADD_STATUS_ATTACKER
     endscript

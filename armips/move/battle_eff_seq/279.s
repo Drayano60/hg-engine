@@ -9,6 +9,9 @@
 
 .create "build/move/battle_eff_seq/0_279", 0
 
+// Power Split effect
+// Not used by Sacred Gold
+
 a030_279:
     changevar VAR_OP_SET, VAR_ADD_STATUS2,  ADD_STATUS_POWER_SPLIT | 0x20000000
     endscript

@@ -7628,7 +7628,7 @@ movedata MOVE_PHANTOM_FORCE
     terminatedata
 
 movedata MOVE_NOBLE_ROAR
-    battleeffect 0
+    battleeffect 292
     pss SPLIT_STATUS
     basepower 0
     type TYPE_NORMAL
@@ -8409,7 +8409,7 @@ movedata MOVE_AQUA_CUTTER
 
 // This is a custom move for Meganium
 movedata MOVE_SOOTHING_AROMA
-    battleeffect 0
+    battleeffect 292
     pss SPLIT_STATUS
     basepower 0
     type TYPE_GRASS

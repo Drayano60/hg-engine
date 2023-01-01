@@ -7418,7 +7418,7 @@ movedata MOVE_FROST_BREATH
     terminatedata
 
 movedata MOVE_DRAGON_TAIL
-    battleeffect 0
+    battleeffect 300
     pss SPLIT_PHYSICAL
     basepower 60
     type TYPE_DRAGON

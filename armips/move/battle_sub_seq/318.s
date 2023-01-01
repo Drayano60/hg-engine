@@ -29,6 +29,8 @@ a001_304:
 
 StatusEffect:
     gotosubscript 76
+
+    // This is needed to get the stat down animation to play
     changevar VAR_OP_SETMASK, VAR_06, 0x200000
     changevar VAR_OP_SETMASK, VAR_06, 0x4001
     changevar VAR_OP_SETMASK, VAR_60, 0x80
@@ -40,6 +42,13 @@ StatusEffect:
     //sp def down
     changevar VAR_OP_SET, VAR_34, SPDEF_DOWN
     gotosubscript 12
+
+    // This is needed to get the stat up animation to play
+    changevar VAR_OP_CLEARMASK, VAR_60, 0x2
+    changevar VAR_OP_CLEARMASK, VAR_60, 0x80
+    changevar VAR_OP_SETMASK, VAR_06, 0x200000
+    changevar VAR_OP_SETMASK, VAR_06, 0x4001
+    changevar VAR_OP_SETMASK, VAR_60, 0x80
 
     //atk up
     changevar VAR_OP_SET, VAR_34, 0x27

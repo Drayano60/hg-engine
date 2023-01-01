@@ -696,7 +696,8 @@ int CalcCritical(void *bw, struct BattleStruct *sp, int attacker, int defender, 
         temp = 4;
     }
 
-    if (BattleRand(bw) % CriticalRateTable[temp] == 0)
+    // Move eff for Frost Breath and Storm Throw sets the critical_count to 15 explicitly.
+    if (BattleRand(bw) % CriticalRateTable[temp] == 0 || critical_count == 15)
     {
         if ((MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_BATTLE_ARMOR) == FALSE)
          && (MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_SHELL_ARMOR) == FALSE)

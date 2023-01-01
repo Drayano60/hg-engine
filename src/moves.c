@@ -171,4 +171,5 @@ u32 move_effect_to_subscripts[] =
     [157] = 336, // new incinerate subscript
     [158] = 337, // new work up subscript
     [159] = 338, // new scale shot subscript
+    [160] = 339, // new aurora veil subscript
 };

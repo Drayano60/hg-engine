@@ -7973,7 +7973,7 @@ movedata MOVE_BRUTAL_SWING
     terminatedata
 
 movedata MOVE_AURORA_VEIL
-    battleeffect 0
+    battleeffect 303
     pss SPLIT_STATUS
     basepower 0
     type TYPE_ICE

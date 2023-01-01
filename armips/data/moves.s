@@ -7658,7 +7658,7 @@ movedata MOVE_PETAL_BLIZZARD
     terminatedata
 
 movedata MOVE_FREEZE_DRY
-    battleeffect 0
+    battleeffect 299
     pss SPLIT_SPECIAL
     basepower 70
     type TYPE_ICE

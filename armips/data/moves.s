@@ -7313,13 +7313,13 @@ movedata MOVE_HEX
     terminatedata
 
 movedata MOVE_INCINERATE
-    battleeffect 0
+    battleeffect 297
     pss SPLIT_SPECIAL
     basepower 60
     type TYPE_FIRE
     accuracy 100
     pp 15
-    effectchance 100
+    effectchance 0
     target MOVE_TARGET_BOTH
     priority 0
     flags FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK

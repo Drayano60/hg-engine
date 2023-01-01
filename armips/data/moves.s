@@ -7088,7 +7088,7 @@ movedata MOVE_HONE_CLAWS
     terminatedata
 
 movedata MOVE_PSYSHOCK
-    battleeffect 0
+    battleeffect 293
     pss SPLIT_SPECIAL
     basepower 80
     type TYPE_PSYCHIC
@@ -7238,7 +7238,7 @@ movedata MOVE_ACID_SPRAY
     terminatedata
 
 movedata MOVE_FOUL_PLAY
-    battleeffect 0
+    battleeffect 294
     pss SPLIT_PHYSICAL
     basepower 95
     type TYPE_DARK
@@ -7508,7 +7508,7 @@ movedata MOVE_DUAL_CHOP
     terminatedata
 
 movedata MOVE_SACRED_SWORD
-    battleeffect 0
+    battleeffect 295
     pss SPLIT_PHYSICAL
     basepower 90
     type TYPE_FIGHTING
@@ -8018,7 +8018,7 @@ movedata MOVE_LIQUIDATION
     terminatedata
 
 movedata MOVE_BODY_PRESS
-    battleeffect 0
+    battleeffect 296
     pss SPLIT_PHYSICAL
     basepower 80
     type TYPE_FIGHTING

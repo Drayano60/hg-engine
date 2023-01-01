@@ -178,6 +178,24 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
     defstate = BattlePokemonParamGet(sp, defender, BATTLE_MON_DATA_STATE_DEF, NULL) - 6;
     spatkstate = BattlePokemonParamGet(sp, attacker, BATTLE_MON_DATA_STATE_SPATK, NULL) - 6;
     spdefstate = BattlePokemonParamGet(sp, defender, BATTLE_MON_DATA_STATE_SPDEF, NULL) - 6;
+    
+    // For Psyshock, the enemy's physical defense stat is the baseline when calculating
+    if (sp->moveTbl[moveno].effect == MOVE_EFFECT_PSYSHOCK) {
+        sp_defense = BattlePokemonParamGet(sp, defender, BATTLE_MON_DATA_DEF, NULL);
+        spdefstate = BattlePokemonParamGet(sp, defender, BATTLE_MON_DATA_STATE_DEF, NULL) - 6;
+    }
+
+    // For Foul Play, the enemy's physical attack stat is the baseline when calculating
+    if (sp->moveTbl[moveno].effect == MOVE_EFFECT_FOUL_PLAY) {
+        attack = BattlePokemonParamGet(sp, defender, BATTLE_MON_DATA_ATK, NULL);
+        atkstate = BattlePokemonParamGet(sp, defender, BATTLE_MON_DATA_STATE_ATK, NULL) - 6;
+    }
+
+    // For Body Press, the user's defense stat is the baseline when calculating
+    if (sp->moveTbl[moveno].effect == MOVE_EFFECT_BODY_PRESS) {
+        attack = BattlePokemonParamGet(sp, attacker, BATTLE_MON_DATA_DEF, NULL);
+        atkstate = BattlePokemonParamGet(sp, attacker, BATTLE_MON_DATA_STATE_DEF, NULL) - 6;
+    }
 
     level = BattlePokemonParamGet(sp, attacker, BATTLE_MON_DATA_LEVEL, NULL);
 
@@ -579,7 +597,8 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
         spatkstate = 0;
     }
 
-    if (AttackingMon.ability == ABILITY_UNAWARE)
+    // Sacred Sword also ignores defense changes
+    if (AttackingMon.ability == ABILITY_UNAWARE || sp->moveTbl[moveno].effect == MOVE_EFFECT_SACRED_SWORD)
     {
         defstate = 0;
         spdefstate = 0;

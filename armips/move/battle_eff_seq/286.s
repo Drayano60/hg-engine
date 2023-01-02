@@ -10,6 +10,7 @@
 .create "build/move/battle_eff_seq/0_286", 0
 
 // Coil effect
+// Not actually used, file 50 is used instead
 
 a030_286:
     changevar VAR_OP_SET, VAR_ADD_STATUS1,  ADD_STATUS_COIL | ADD_STATUS_ATTACKER

@@ -10,6 +10,7 @@
 .create "build/move/battle_eff_seq/0_298", 0
 
 // Work Up effect
+// Not actually used, file 53 is used instead
 
 a030_298:
     changevar VAR_OP_SET, VAR_ADD_STATUS1, ADD_STATUS_WORK_UP | ADD_STATUS_ATTACKER

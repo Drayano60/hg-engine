@@ -10,6 +10,7 @@
 .create "build/move/battle_eff_seq/0_292", 0
 
 // Noble Roar effect
+// Not actually used, file 58 is used instead
 
 a030_292:
     changevar VAR_OP_SET, VAR_ADD_STATUS1, ADD_STATUS_NOBLE_ROAR | ADD_STATUS_DEFENDER

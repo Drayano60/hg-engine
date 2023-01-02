@@ -7073,7 +7073,7 @@ movedata MOVE_SHADOW_FORCE+3
     terminatedata
 
 movedata MOVE_HONE_CLAWS
-    battleeffect 277
+    battleeffect 50 // NOTE: This is for AI reasons, it still uses the Hone Claws effect.
     pss SPLIT_STATUS
     basepower 0
     type TYPE_DARK
@@ -7148,7 +7148,7 @@ movedata MOVE_SLUDGE_WAVE
     terminatedata
 
 movedata MOVE_QUIVER_DANCE
-    battleeffect 283
+    battleeffect 53 // NOTE: This is for AI reasons, it still uses the Quiver Dance effect.
     pss SPLIT_STATUS
     basepower 0
     type TYPE_BUG
@@ -7193,7 +7193,7 @@ movedata MOVE_FLAME_CHARGE
     terminatedata
 
 movedata MOVE_COIL
-    battleeffect 286
+    battleeffect 50 // NOTE: This is for AI reasons, it still uses the Coil effect.
     pss SPLIT_STATUS
     basepower 0
     type TYPE_POISON
@@ -7283,7 +7283,7 @@ movedata MOVE_SCALD
     terminatedata
 
 movedata MOVE_SHELL_SMASH
-    battleeffect 290
+    battleeffect 53 // NOTE: This is for AI reasons, it still uses the Shell Smash effect.
     pss SPLIT_STATUS
     basepower 0
     type TYPE_NORMAL
@@ -7433,7 +7433,7 @@ movedata MOVE_DRAGON_TAIL
     terminatedata
 
 movedata MOVE_WORK_UP
-    battleeffect 298
+    battleeffect 53 // NOTE: This is for AI reasons, it still uses the Work Up effect.
     pss SPLIT_STATUS
     basepower 0
     type TYPE_NORMAL
@@ -7628,7 +7628,7 @@ movedata MOVE_PHANTOM_FORCE
     terminatedata
 
 movedata MOVE_NOBLE_ROAR
-    battleeffect 292
+    battleeffect 58 // NOTE: For AI purposes, still uses intended effect
     pss SPLIT_STATUS
     basepower 0
     type TYPE_NORMAL
@@ -8409,7 +8409,7 @@ movedata MOVE_AQUA_CUTTER
 
 // This is a custom move for Meganium
 movedata MOVE_SOOTHING_AROMA
-    battleeffect 292
+    battleeffect 58 // NOTE: For AI purposes, still uses intended effect
     pss SPLIT_STATUS
     basepower 0
     type TYPE_GRASS

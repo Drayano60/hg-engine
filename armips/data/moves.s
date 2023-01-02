@@ -8258,7 +8258,7 @@ movedata MOVE_HEADLONG_RUSH
     terminatedata
 
 movedata MOVE_BARB_BARRAGE
-    battleeffect 0
+    battleeffect 306
     pss SPLIT_PHYSICAL
     basepower 60
     type TYPE_POISON

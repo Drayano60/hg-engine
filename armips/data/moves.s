@@ -4418,13 +4418,13 @@ movedata MOVE_CAMOUFLAGE
     terminatedata
 
 movedata MOVE_TAIL_GLOW
-    battleeffect 53
+    battleeffect 53 // NOTE: This is edited so Tail Glow gives +3 SpAtk.
     pss SPLIT_STATUS
     basepower 0
     type TYPE_BUG
     accuracy 0
     pp 20
-    effectchance 0
+    effectchance 100
     target MOVE_TARGET_USER
     priority 0
     flags FLAG_SNATCH
@@ -7538,13 +7538,13 @@ movedata MOVE_RAZOR_SHELL
     terminatedata
 
 movedata MOVE_COTTON_GUARD
-    battleeffect 51
+    battleeffect 51 // NOTE: This is edited so Cotton Guard gives +3 Def.
     pss SPLIT_STATUS
     basepower 0
     type TYPE_GRASS
     accuracy 0
     pp 10
-    effectchance 0
+    effectchance 100
     target MOVE_TARGET_USER
     priority 0
     flags FLAG_KEEP_HP_BAR | FLAG_SNATCH

@@ -8138,7 +8138,7 @@ movedata MOVE_FLIP_TURN
     terminatedata
 
 movedata MOVE_TRIPLE_AXEL
-    battleeffect 0
+    battleeffect 307
     pss SPLIT_PHYSICAL
     basepower 20
     type TYPE_ICE

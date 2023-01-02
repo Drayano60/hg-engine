@@ -8273,7 +8273,7 @@ movedata MOVE_BARB_BARRAGE
     terminatedata
 
 movedata MOVE_ESPER_WING
-    battleeffect 0
+    battleeffect 308
     pss SPLIT_SPECIAL
     basepower 80
     type TYPE_PSYCHIC

@@ -7,13 +7,13 @@
 .include "armips/include/monnums.s"
 .include "armips/include/movenums.s"
 
-.create "build/move/battle_eff_seq/0_278", 0
+.create "build/move/battle_eff_seq/0_303", 0
 
-// Guard Split effect
-// Not used by Sacred Gold
+// Aurora Veil effect
+// Hail requirement is handled by subscript
 
-a030_278:
-    changevar VAR_OP_SET, VAR_ADD_STATUS2,  ADD_STATUS_GUARD_SPLIT | 0x20000000
+a030_303:
+    changevar VAR_OP_SET, VAR_ADD_STATUS1, ADD_STATUS_AURORA_VEIL | ADD_STATUS_WORK
     endscript
 
 .close

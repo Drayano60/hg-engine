@@ -7,13 +7,15 @@
 .include "armips/include/monnums.s"
 .include "armips/include/movenums.s"
 
-.create "build/move/battle_eff_seq/0_291", 0
+.create "build/move/battle_eff_seq/0_307", 0
 
-// V-Create effect
-// Not used by SacredGold
+// Triple Axel effect
+// Each hit is +20
 
-a030_291:
-    changevar VAR_OP_SET, VAR_ADD_STATUS2, ADD_STATUS_V_CREATE | ADD_STATUS_ATTACKER | 0x20000000
+a030_307:
+    setmultihit 0x3, 0xDD
+    changevar VAR_OP_SET, VAR_SUCCESSIVE_HIT, 1
+    changevar VAR_OP_ADD, VAR_ABILITY_TEMP, 20
     critcalc
     damagecalc
     endscript

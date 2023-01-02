@@ -7,13 +7,14 @@
 .include "armips/include/monnums.s"
 .include "armips/include/movenums.s"
 
-.create "build/move/battle_eff_seq/0_291", 0
+.create "build/move/battle_eff_seq/0_308", 0
 
-// V-Create effect
-// Not used by SacredGold
+// +1 Speed effect and increased crit
+// Used for Esper Wing
 
-a030_291:
-    changevar VAR_OP_SET, VAR_ADD_STATUS2, ADD_STATUS_V_CREATE | ADD_STATUS_ATTACKER | 0x20000000
+a030_285:
+    changevar VAR_OP_ADD, VAR_CRIT_CHANCE, 0x1
+    changevar VAR_OP_SET, VAR_ADD_STATUS2, 0x11 | ADD_STATUS_ATTACKER
     critcalc
     damagecalc
     endscript

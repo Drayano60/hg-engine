@@ -16,40 +16,28 @@
 
 extern const u8 StatBoostModifiers[][2];
 
-const u16 SoundproofMoveList[] =
+const u16 SoundMoveList[] =
 {
-    MOVE_GROWL,
-    MOVE_ROAR,
-    MOVE_SING,
-    MOVE_SUPERSONIC,
-    MOVE_SCREECH,
-    MOVE_SNORE,
-    MOVE_UPROAR,
-    MOVE_METAL_SOUND,
-    MOVE_GRASS_WHISTLE,
-    MOVE_HYPER_VOICE,
+    MOVE_BOOMBURST,
     MOVE_BUG_BUZZ,
     MOVE_CHATTER,
-    MOVE_BOOMBURST,
-    MOVE_CLANGING_SCALES,
-    MOVE_CLANGOROUS_SOUL,
-    //MOVE_CLANGOROUS_SOULBLAZE,
-    MOVE_CONFIDE,
     MOVE_DISARMING_VOICE,
     MOVE_ECHOED_VOICE,
-    MOVE_EERIE_SPELL,
-    //MOVE_HEAL_BELL,
-    //MOVE_HOWL,
+    MOVE_GRASS_WHISTLE,
+    MOVE_GROWL,
+    MOVE_HEAL_BELL,
+    MOVE_HOWL,
     MOVE_HYPER_VOICE,
+    MOVE_METAL_SOUND,
     MOVE_NOBLE_ROAR,
-    MOVE_OVERDRIVE,
-    MOVE_PARTING_SHOT,
     MOVE_PERISH_SONG,
-    MOVE_RELIC_SONG,
-    MOVE_ROUND,
-    //MOVE_SHADOW_PANIC,
+    MOVE_ROAR,
+    MOVE_SCREECH,
+    MOVE_SING,
     MOVE_SNARL,
-    MOVE_SPARKLING_ARIA,
+    MOVE_SNORE,
+    MOVE_SUPERSONIC,
+    MOVE_UPROAR,
 };
 
 int MoveCheckDamageNegatingAbilities(struct BattleStruct *sp, int attacker, int defender)
@@ -108,8 +96,8 @@ int MoveCheckDamageNegatingAbilities(struct BattleStruct *sp, int attacker, int 
         {
             u32 i;
 
-            for (i = 0; i < NELEMS(SoundproofMoveList); i++){
-                if (SoundproofMoveList[i] == sp->current_move_index)
+            for (i = 0; i < NELEMS(SoundMoveList); i++){
+                if (SoundMoveList[i] == sp->current_move_index)
                 {
                     scriptnum = SUB_SEQ_HANDLE_SOUNDPROOF;
                     break;

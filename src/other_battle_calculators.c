@@ -96,7 +96,8 @@ BOOL CalcAccuracy(void *bw, struct BattleStruct *sp, int attacker, int defender,
         stat_stage_acc = 0;
     }
 
-    if (GetBattlerAbility(sp, attacker) == ABILITY_UNAWARE)
+    // Sacred Sword also ignores evasion changes
+    if (GetBattlerAbility(sp, attacker) == ABILITY_UNAWARE || sp->moveTbl[move_no].effect == MOVE_EFFECT_SACRED_SWORD)
     {
         stat_stage_evasion = 0;
     }
@@ -695,7 +696,8 @@ int CalcCritical(void *bw, struct BattleStruct *sp, int attacker, int defender, 
         temp = 4;
     }
 
-    if (BattleRand(bw) % CriticalRateTable[temp] == 0)
+    // Move eff for Frost Breath and Storm Throw sets the critical_count to 15 explicitly.
+    if (BattleRand(bw) % CriticalRateTable[temp] == 0 || critical_count == 15)
     {
         if ((MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_BATTLE_ARMOR) == FALSE)
          && (MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_SHELL_ARMOR) == FALSE)

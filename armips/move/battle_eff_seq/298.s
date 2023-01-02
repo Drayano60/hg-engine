@@ -7,13 +7,13 @@
 .include "armips/include/monnums.s"
 .include "armips/include/movenums.s"
 
-.create "build/move/battle_eff_seq/0_278", 0
+.create "build/move/battle_eff_seq/0_298", 0
 
-// Guard Split effect
-// Not used by Sacred Gold
+// Work Up effect
+// Not actually used, file 53 is used instead
 
-a030_278:
-    changevar VAR_OP_SET, VAR_ADD_STATUS2,  ADD_STATUS_GUARD_SPLIT | 0x20000000
+a030_298:
+    changevar VAR_OP_SET, VAR_ADD_STATUS1, ADD_STATUS_WORK_UP | ADD_STATUS_ATTACKER
     endscript
 
 .close

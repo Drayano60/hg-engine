@@ -7,13 +7,12 @@
 .include "armips/include/monnums.s"
 .include "armips/include/movenums.s"
 
-.create "build/move/battle_eff_seq/0_291", 0
+.create "build/move/battle_eff_seq/0_301", 0
 
-// V-Create effect
-// Not used by SacredGold
+// Scale Shot effect
 
-a030_291:
-    changevar VAR_OP_SET, VAR_ADD_STATUS2, ADD_STATUS_V_CREATE | ADD_STATUS_ATTACKER | 0x20000000
+a030_301:
+    changevar VAR_OP_SET, VAR_ADD_STATUS2, ADD_STATUS_SCALE_SHOT | ADD_STATUS_ATTACKER
     critcalc
     damagecalc
     endscript

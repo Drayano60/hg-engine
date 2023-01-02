@@ -4418,13 +4418,13 @@ movedata MOVE_CAMOUFLAGE
     terminatedata
 
 movedata MOVE_TAIL_GLOW
-    battleeffect 53
+    battleeffect 53 // NOTE: This is edited so Tail Glow gives +3 SpAtk.
     pss SPLIT_STATUS
     basepower 0
     type TYPE_BUG
     accuracy 0
     pp 20
-    effectchance 0
+    effectchance 100
     target MOVE_TARGET_USER
     priority 0
     flags FLAG_SNATCH
@@ -7073,7 +7073,7 @@ movedata MOVE_SHADOW_FORCE+3
     terminatedata
 
 movedata MOVE_HONE_CLAWS
-    battleeffect 277
+    battleeffect 50 // NOTE: This is for AI reasons, it still uses the Hone Claws effect.
     pss SPLIT_STATUS
     basepower 0
     type TYPE_DARK
@@ -7088,7 +7088,7 @@ movedata MOVE_HONE_CLAWS
     terminatedata
 
 movedata MOVE_PSYSHOCK
-    battleeffect 0
+    battleeffect 293
     pss SPLIT_SPECIAL
     basepower 80
     type TYPE_PSYCHIC
@@ -7148,7 +7148,7 @@ movedata MOVE_SLUDGE_WAVE
     terminatedata
 
 movedata MOVE_QUIVER_DANCE
-    battleeffect 283
+    battleeffect 53 // NOTE: This is for AI reasons, it still uses the Quiver Dance effect.
     pss SPLIT_STATUS
     basepower 0
     type TYPE_BUG
@@ -7163,7 +7163,7 @@ movedata MOVE_QUIVER_DANCE
     terminatedata
 
 movedata MOVE_HEAVY_SLAM
-    battleeffect 0
+    battleeffect 302
     pss SPLIT_PHYSICAL
     basepower 1
     type TYPE_STEEL
@@ -7193,7 +7193,7 @@ movedata MOVE_FLAME_CHARGE
     terminatedata
 
 movedata MOVE_COIL
-    battleeffect 286
+    battleeffect 50 // NOTE: This is for AI reasons, it still uses the Coil effect.
     pss SPLIT_STATUS
     basepower 0
     type TYPE_POISON
@@ -7238,7 +7238,7 @@ movedata MOVE_ACID_SPRAY
     terminatedata
 
 movedata MOVE_FOUL_PLAY
-    battleeffect 0
+    battleeffect 294
     pss SPLIT_PHYSICAL
     basepower 95
     type TYPE_DARK
@@ -7283,7 +7283,7 @@ movedata MOVE_SCALD
     terminatedata
 
 movedata MOVE_SHELL_SMASH
-    battleeffect 290
+    battleeffect 53 // NOTE: This is for AI reasons, it still uses the Shell Smash effect.
     pss SPLIT_STATUS
     basepower 0
     type TYPE_NORMAL
@@ -7313,13 +7313,13 @@ movedata MOVE_HEX
     terminatedata
 
 movedata MOVE_INCINERATE
-    battleeffect 0
+    battleeffect 297
     pss SPLIT_SPECIAL
     basepower 60
     type TYPE_FIRE
     accuracy 100
     pp 15
-    effectchance 100
+    effectchance 0
     target MOVE_TARGET_BOTH
     priority 0
     flags FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
@@ -7418,7 +7418,7 @@ movedata MOVE_FROST_BREATH
     terminatedata
 
 movedata MOVE_DRAGON_TAIL
-    battleeffect 0
+    battleeffect 300
     pss SPLIT_PHYSICAL
     basepower 60
     type TYPE_DRAGON
@@ -7433,7 +7433,7 @@ movedata MOVE_DRAGON_TAIL
     terminatedata
 
 movedata MOVE_WORK_UP
-    battleeffect 0
+    battleeffect 53 // NOTE: This is for AI reasons, it still uses the Work Up effect.
     pss SPLIT_STATUS
     basepower 0
     type TYPE_NORMAL
@@ -7508,7 +7508,7 @@ movedata MOVE_DUAL_CHOP
     terminatedata
 
 movedata MOVE_SACRED_SWORD
-    battleeffect 0
+    battleeffect 295
     pss SPLIT_PHYSICAL
     basepower 90
     type TYPE_FIGHTING
@@ -7538,13 +7538,13 @@ movedata MOVE_RAZOR_SHELL
     terminatedata
 
 movedata MOVE_COTTON_GUARD
-    battleeffect 51
+    battleeffect 51 // NOTE: This is edited so Cotton Guard gives +3 Def.
     pss SPLIT_STATUS
     basepower 0
     type TYPE_GRASS
     accuracy 0
     pp 10
-    effectchance 0
+    effectchance 100
     target MOVE_TARGET_USER
     priority 0
     flags FLAG_KEEP_HP_BAR | FLAG_SNATCH
@@ -7568,7 +7568,7 @@ movedata MOVE_TAIL_SLAP
     terminatedata
 
 movedata MOVE_HURRICANE
-    battleeffect 0
+    battleeffect 152 // Note: This is modified to use confusion for Hurricane instead
     pss SPLIT_SPECIAL
     basepower 110
     type TYPE_FLYING
@@ -7628,7 +7628,7 @@ movedata MOVE_PHANTOM_FORCE
     terminatedata
 
 movedata MOVE_NOBLE_ROAR
-    battleeffect 292
+    battleeffect 58 // NOTE: For AI purposes, still uses intended effect
     pss SPLIT_STATUS
     basepower 0
     type TYPE_NORMAL
@@ -7658,7 +7658,7 @@ movedata MOVE_PETAL_BLIZZARD
     terminatedata
 
 movedata MOVE_FREEZE_DRY
-    battleeffect 0
+    battleeffect 299
     pss SPLIT_SPECIAL
     basepower 70
     type TYPE_ICE
@@ -7973,7 +7973,7 @@ movedata MOVE_BRUTAL_SWING
     terminatedata
 
 movedata MOVE_AURORA_VEIL
-    battleeffect 0
+    battleeffect 303
     pss SPLIT_STATUS
     basepower 0
     type TYPE_ICE
@@ -8018,7 +8018,7 @@ movedata MOVE_LIQUIDATION
     terminatedata
 
 movedata MOVE_BODY_PRESS
-    battleeffect 0
+    battleeffect 296
     pss SPLIT_PHYSICAL
     basepower 80
     type TYPE_FIGHTING
@@ -8063,7 +8063,7 @@ movedata MOVE_SPIRIT_BREAK
     terminatedata
 
 movedata MOVE_STEEL_BEAM
-    battleeffect 0
+    battleeffect 304
     pss SPLIT_SPECIAL
     basepower 140
     type TYPE_STEEL
@@ -8078,13 +8078,13 @@ movedata MOVE_STEEL_BEAM
     terminatedata
 
 movedata MOVE_SCALE_SHOT
-    battleeffect 29 // NOTE: Does not include stat increase.
+    battleeffect 301 // NOTE: Cant get the multihit and stat increase to work, so its just the stat increase and flat damage
     pss SPLIT_PHYSICAL
     basepower 25
     type TYPE_DRAGON
     accuracy 90
     pp 20
-    effectchance 0
+    effectchance 100
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
@@ -8138,7 +8138,7 @@ movedata MOVE_FLIP_TURN
     terminatedata
 
 movedata MOVE_TRIPLE_AXEL
-    battleeffect 0
+    battleeffect 307
     pss SPLIT_PHYSICAL
     basepower 20
     type TYPE_ICE
@@ -8198,7 +8198,7 @@ movedata MOVE_PSYSHIELD_BASH
     terminatedata
 
 movedata MOVE_STONE_AXE
-    battleeffect 0
+    battleeffect 305
     pss SPLIT_PHYSICAL
     basepower 65
     type TYPE_ROCK
@@ -8258,7 +8258,7 @@ movedata MOVE_HEADLONG_RUSH
     terminatedata
 
 movedata MOVE_BARB_BARRAGE
-    battleeffect 0
+    battleeffect 306
     pss SPLIT_PHYSICAL
     basepower 60
     type TYPE_POISON
@@ -8273,7 +8273,7 @@ movedata MOVE_BARB_BARRAGE
     terminatedata
 
 movedata MOVE_ESPER_WING
-    battleeffect 0
+    battleeffect 308
     pss SPLIT_SPECIAL
     basepower 80
     type TYPE_PSYCHIC
@@ -8409,7 +8409,7 @@ movedata MOVE_AQUA_CUTTER
 
 // This is a custom move for Meganium
 movedata MOVE_SOOTHING_AROMA
-    battleeffect 292
+    battleeffect 58 // NOTE: For AI purposes, still uses intended effect
     pss SPLIT_STATUS
     basepower 0
     type TYPE_GRASS

@@ -37,7 +37,7 @@ a010_542:
     callfunction 36, 5, 1, 0, 1, 2, 264, "NaN", "NaN", "NaN", "NaN", "NaN"
 
     loadparticle 0, 39
-    waitstate
+    wait 10
     unloadspriteresource
     resetsprite 0
     resetsprite 1

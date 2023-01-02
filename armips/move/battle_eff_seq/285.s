@@ -9,7 +9,8 @@
 
 .create "build/move/battle_eff_seq/0_285", 0
 
-// flame charge battle effect, raises speed
+// +1 Speed effect
+// Used for Flame Charge and Trailblaze
 
 a030_285:
     changevar VAR_OP_SET, VAR_ADD_STATUS2, 0x11 | ADD_STATUS_ATTACKER

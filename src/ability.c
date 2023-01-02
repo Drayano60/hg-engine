@@ -40,6 +40,30 @@ const u16 SoundMoveList[] =
     MOVE_UPROAR,
 };
 
+const u16 BulletproofMoveList[] =
+{
+    MOVE_ACID_SPRAY,
+    MOVE_AURA_SPHERE,
+    MOVE_BARRAGE,
+    MOVE_BULLET_SEED,
+    MOVE_EGG_BOMB,
+    MOVE_ENERGY_BALL,
+    MOVE_FOCUS_BLAST,
+    MOVE_GYRO_BALL,
+    MOVE_ICE_BALL,
+    MOVE_MAGNET_BOMB,
+    MOVE_MIST_BALL,
+    MOVE_MUD_BOMB,
+    MOVE_OCTAZOOKA,
+    MOVE_ROCK_BLAST,
+    MOVE_ROCK_WRECKER,
+    MOVE_SEED_BOMB,
+    MOVE_SHADOW_BALL,
+    MOVE_SLUDGE_BOMB,
+    MOVE_WEATHER_BALL,
+    MOVE_ZAP_CANNON,
+};
+
 int MoveCheckDamageNegatingAbilities(struct BattleStruct *sp, int attacker, int defender)
 {
     int scriptnum = 0;
@@ -98,6 +122,22 @@ int MoveCheckDamageNegatingAbilities(struct BattleStruct *sp, int attacker, int 
 
             for (i = 0; i < NELEMS(SoundMoveList); i++){
                 if (SoundMoveList[i] == sp->current_move_index)
+                {
+                    scriptnum = SUB_SEQ_HANDLE_SOUNDPROOF;
+                    break;
+                }
+            }
+        }
+    }
+
+    // Handle Bulletproof. Soundproof SUB_SEQ works perfectly for this too.
+    if (MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_BULLETPROOF) == TRUE)
+    {
+        {
+            u32 i;
+
+            for (i = 0; i < NELEMS(BulletproofMoveList); i++){
+                if (BulletproofMoveList[i] == sp->current_move_index)
                 {
                     scriptnum = SUB_SEQ_HANDLE_SOUNDPROOF;
                     break;

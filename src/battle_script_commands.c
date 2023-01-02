@@ -170,6 +170,7 @@ BOOL btl_scr_cmd_24_jumptocurmoveeffectscript(void *bw, struct BattleStruct *sp)
             case MOVE_EFFECT_CHATTER: // confuse chance based on volume of cry
             case MOVE_EFFECT_FLINCH_MINIMIZE_DOUBLE_HIT:
             case MOVE_EFFECT_RANDOM_PRIMARY_STATUS_HIT:
+            case MOVE_EFFECT_STONE_AXE:
                 effect = MOVE_EFFECT_HIT;
                 sp->battlemon[sp->attack_client].sheer_force_flag = 1;
                 break;
@@ -181,6 +182,7 @@ BOOL btl_scr_cmd_24_jumptocurmoveeffectscript(void *bw, struct BattleStruct *sp)
 
             case MOVE_EFFECT_HIGH_CRITICAL_BURN_HIT: // blaze kick
             case MOVE_EFFECT_HIGH_CRITICAL_POISON_HIT: // cross poison
+            case MOVE_EFFECT_ESPER_WING:
                 effect = MOVE_EFFECT_HIGH_CRITICAL;
                 sp->battlemon[sp->attack_client].sheer_force_flag = 1;
                 break;
@@ -188,6 +190,16 @@ BOOL btl_scr_cmd_24_jumptocurmoveeffectscript(void *bw, struct BattleStruct *sp)
             case MOVE_EFFECT_RECOIL_BURN_HIT: // flare blitz
             case MOVE_EFFECT_RECOIL_PARALYZE_HIT:
                 effect = MOVE_EFFECT_RECOIL_HIT;
+                sp->battlemon[sp->attack_client].sheer_force_flag = 1;
+                break;
+
+            case MOVE_EFFECT_BARB_BARRAGE:
+                effect = MOVE_EFFECT_DOUBLE_DAMAGE_POISON;
+                sp->battlemon[sp->attack_client].sheer_force_flag = 1;
+                break;
+
+            case MOVE_EFFECT_FREEZE_DRY:
+                effect = MOVE_EFFECT_FREEZE_DRY_NO_FREEZE;
                 sp->battlemon[sp->attack_client].sheer_force_flag = 1;
                 break;
 

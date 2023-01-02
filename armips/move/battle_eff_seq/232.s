@@ -13,10 +13,11 @@
 
 a030_232:
     gotosubscript 341
-    checksubstitute BATTLER_DEFENDER, _0020
+    if IF_MASK, VAR_10, 0x40, Failed // Required to skip over things set before natural failure happens
+    checksubstitute BATTLER_DEFENDER, Failed
     changevar VAR_OP_SET, VAR_ADD_STATUS1, 0xA0000086
     endscript
-_0020:
+Failed:
     changevar VAR_OP_SETMASK, VAR_10, 0x40
     endscript
 

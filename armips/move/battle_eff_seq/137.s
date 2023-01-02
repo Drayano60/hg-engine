@@ -13,7 +13,8 @@
 
 a030_137:
     gotosubscript 341
-    if IF_MASK, VAR_FIELD_EFFECT, 0x30, _0094
+    if IF_MASK, VAR_10, 0x40, Failed // Required to skip over things set before natural failure happens
+    if IF_MASK, VAR_FIELD_EFFECT, 0x30, Failed
     preparemessage 0x327, 0x0, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
     changevar VAR_OP_CLEARMASK, VAR_FIELD_EFFECT, 0x80FF
     changevar VAR_OP_SETMASK, VAR_FIELD_EFFECT, 0x10
@@ -24,7 +25,7 @@ a030_137:
     changevar2 VAR_OP_ADD, VAR_WEATHER_TURNS, VAR_09
 _0090:
     endscript
-_0094:
+Failed:
     changevar VAR_OP_SETMASK, VAR_10, 0x40
     endscript
 

@@ -13,9 +13,10 @@
 
 a030_179:
     gotosubscript 341
-    trywish _000C
+    if IF_MASK, VAR_10, 0x40, Failed // Required to skip over things set before natural failure happens
+    trywish Failed
     endscript
-_000C:
+Failed:
     changevar VAR_OP_SET, VAR_10, 0x40
     endscript
 

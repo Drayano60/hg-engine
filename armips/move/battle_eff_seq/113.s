@@ -13,8 +13,12 @@
 
 a030_113:
     gotosubscript 341
+    if IF_MASK, VAR_10, 0x40, Failed // Required to skip over things set before natural failure happens
     changevar VAR_OP_SET, VAR_ADD_STATUS2, 0x2000005B
     changevar VAR_OP_SETMASK, VAR_06, 0x8000
     endscript
-
+Failed:
+    changevar VAR_OP_SETMASK, VAR_10, 0x40
+    endscript
+    
 .close

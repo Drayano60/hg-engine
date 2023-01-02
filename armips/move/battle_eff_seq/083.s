@@ -13,6 +13,7 @@
 
 a030_083:
     gotosubscript 341
+    if IF_MASK, VAR_10, 0x40, Failed // Required to skip over things set before natural failure happens
     printattackmessage
     waitmessage
     wait 0x1E
@@ -20,5 +21,8 @@ a030_083:
     waitmessage
     metronome
     jumptoeffectscript 0
+Failed:
+    changevar VAR_OP_SETMASK, VAR_10, 0x40
+    endscript
 
 .close

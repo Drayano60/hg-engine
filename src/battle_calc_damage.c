@@ -50,40 +50,63 @@ static const u8 HeldItemPowerUpTable[][2]={
 };
 
 static const u16 IronFistMovesTable[] = {
-    MOVE_ICE_PUNCH,
-    MOVE_FIRE_PUNCH,
-    MOVE_THUNDER_PUNCH,
-    MOVE_MACH_PUNCH,
-    MOVE_FOCUS_PUNCH,
-    MOVE_DIZZY_PUNCH,
-    MOVE_DYNAMIC_PUNCH,
-    MOVE_HAMMER_ARM,
-    MOVE_MEGA_PUNCH,
-    MOVE_COMET_PUNCH,
-    MOVE_METEOR_MASH,
-    MOVE_SHADOW_PUNCH,
-    MOVE_DRAIN_PUNCH,
     MOVE_BULLET_PUNCH,
+    MOVE_COMET_PUNCH,
+    MOVE_DIZZY_PUNCH,
+    MOVE_DRAIN_PUNCH,
+    MOVE_DYNAMIC_PUNCH,
+    MOVE_FIRE_PUNCH,
+    MOVE_FOCUS_PUNCH,
+    MOVE_HAMMER_ARM,
+    MOVE_HEADLONG_RUSH, // Japanese name is a sumo term, apparently??
+    MOVE_ICE_PUNCH,
+    MOVE_MACH_PUNCH,
+    MOVE_MEGA_PUNCH,
+    MOVE_METEOR_MASH,
+    MOVE_POWER_UP_PUNCH,
+    MOVE_RAGE_FIST,
+    MOVE_SHADOW_PUNCH,
     MOVE_SKY_UPPERCUT,
+    MOVE_THUNDER_PUNCH,
 };
 
 static const u16 StrongJawMovesTable[] = {
-        MOVE_BITE,
-        MOVE_CRUNCH,
-        MOVE_FIRE_FANG,
-        MOVE_HYPER_FANG,
-        MOVE_ICE_FANG,
-        MOVE_POISON_FANG,
-        MOVE_THUNDER_FANG,
+    MOVE_BITE,
+    MOVE_CRUNCH,
+    MOVE_FIRE_FANG,
+    MOVE_HYPER_FANG,
+    MOVE_ICE_FANG,
+    MOVE_POISON_FANG,
+    MOVE_PSYCHIC_FANGS,
+    MOVE_THUNDER_FANG,
+    MOVE_SAVAGE_REND, // Custom move for Feraligatr
 };
 
 static const u16 MegaLauncherMovesTable[] = {
-        MOVE_AURA_SPHERE,
-        MOVE_DARK_PULSE,
-        MOVE_DRAGON_PULSE,
-        MOVE_WATER_PULSE,
-//        MOVE_ORIGIN_PULSE,
-//        MOVE_TERRAIN_PULSE,
+    MOVE_AURA_SPHERE,
+    MOVE_DARK_PULSE,
+    MOVE_DRAGON_PULSE,
+    MOVE_WATER_PULSE,
+};
+
+static const u16 SharpnessMovesTable[] = {
+    MOVE_AERIAL_ACE,
+    MOVE_AIR_CUTTER,
+    MOVE_AIR_SLASH,
+    MOVE_AQUA_CUTTER,
+    MOVE_CROSS_POISON,
+    MOVE_CUT,
+    MOVE_FURY_CUTTER,
+    MOVE_LEAF_BLADE,
+    MOVE_NIGHT_SLASH,
+    MOVE_PSYCHO_CUT,
+    MOVE_RAZOR_LEAF,
+    MOVE_RAZOR_SHELL,
+    MOVE_SACRED_SWORD,
+    MOVE_SLASH,
+    MOVE_SOLAR_BLADE,
+    MOVE_STONE_AXE,
+    MOVE_X_SCISSOR,
 };
 
 //int NormalTypeChangeAbilityHelper(int ability)

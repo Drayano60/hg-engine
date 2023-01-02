@@ -8198,7 +8198,7 @@ movedata MOVE_PSYSHIELD_BASH
     terminatedata
 
 movedata MOVE_STONE_AXE
-    battleeffect 0
+    battleeffect 305
     pss SPLIT_PHYSICAL
     basepower 65
     type TYPE_ROCK

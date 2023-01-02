@@ -13,6 +13,7 @@
 
 a030_153:
     gotosubscript 341
+    if IF_MASK, VAR_10, 0x40, _failed // Required to skip over things set before natural failure happens
     if IF_MASK, VAR_BATTLE_TYPE, 0x1, _0028
     changevar VAR_OP_SET, VAR_ADD_STATUS1, 0x20000065
     endscript

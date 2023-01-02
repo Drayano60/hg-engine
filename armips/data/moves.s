@@ -8063,7 +8063,7 @@ movedata MOVE_SPIRIT_BREAK
     terminatedata
 
 movedata MOVE_STEEL_BEAM
-    battleeffect 0
+    battleeffect 304
     pss SPLIT_SPECIAL
     basepower 140
     type TYPE_STEEL

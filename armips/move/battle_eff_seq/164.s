@@ -9,7 +9,10 @@
 
 .create "build/move/battle_eff_seq/0_164", 0
 
+// Hail
+
 a030_164:
+    gotosubscript 341
     if IF_MASK, VAR_FIELD_EFFECT, 0x40, _0094
     preparemessage 0x32A, 0x0, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
     changevar VAR_OP_CLEARMASK, VAR_FIELD_EFFECT, 0x80FF

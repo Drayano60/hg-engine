@@ -9,6 +9,8 @@
 
 .create "build/move/battle_eff_seq/0_170", 0
 
+// Focus Punch
+
 a030_170:
     if IF_NOTEQUAL, VAR_PHYSICAL_DAMAGE, 0x0, _0044
     if IF_NOTEQUAL, VAR_SPECIAL_DAMAGE, 0x0, _0044

@@ -9,7 +9,10 @@
 
 .create "build/move/battle_eff_seq/0_213", 0
 
+// Camouflage
+
 a030_213:
+    gotosubscript 341
     trycamouflage _0044
     changemondatabyvalue VAR_OP_SETMASK, BATTLER_ATTACKER, 0x3B, 0x10000000
     preparemessage 0xB2, 0xD, 0x1, 0xFF, "NaN", "NaN", "NaN", "NaN"

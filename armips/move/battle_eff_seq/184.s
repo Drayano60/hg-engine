@@ -9,7 +9,10 @@
 
 .create "build/move/battle_eff_seq/0_184", 0
 
+// Recycle
+
 a030_184:
+    gotosubscript 341
     ifmonstat IF_NOTEQUAL, BATTLER_ATTACKER, MON_DATA_ITEM, 0x0, _005C
     tryrecycle _005C
     changemondatabyvar VAR_OP_SET, BATTLER_ATTACKER, 0x37, VAR_ITEM_TEMP2

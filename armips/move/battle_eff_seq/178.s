@@ -9,7 +9,10 @@
 
 .create "build/move/battle_eff_seq/0_178", 0
 
+// Role Play
+
 a030_178:
+    gotosubscript 341
     abilitycheck 0x0, BATTLER_ATTACKER, ABILITY_MULTITYPE, _0040
     ifmonstat IF_EQUAL, BATTLER_ATTACKER, MON_DATA_ITEM, 0x70, _0040
     changevar VAR_OP_SET, VAR_ADD_STATUS1, 0x9000006F

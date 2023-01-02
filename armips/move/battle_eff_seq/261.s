@@ -9,6 +9,8 @@
 
 .create "build/move/battle_eff_seq/0_261", 0
 
+// Whirlpool
+
 a030_261:
     changevar VAR_OP_SETMASK, VAR_06, 0x10
     changevar VAR_OP_SET, VAR_DAMAGE_MULT, 0xA

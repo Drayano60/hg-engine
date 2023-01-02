@@ -13,6 +13,7 @@
 // Not used by Sacred Gold
 
 a030_279:
+    gotosubscript 341
     changevar VAR_OP_SET, VAR_ADD_STATUS2,  ADD_STATUS_POWER_SPLIT | 0x20000000
     endscript
 

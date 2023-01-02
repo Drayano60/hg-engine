@@ -9,6 +9,9 @@
 
 .create "build/move/battle_eff_seq/0_207", 0
 
+// Can hit flying enemies
+// Sky Uppercut
+
 a030_207:
     changevar VAR_OP_SETMASK, VAR_06, 0x4
     critcalc

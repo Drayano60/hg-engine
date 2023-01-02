@@ -13,6 +13,7 @@
 // This is also used for Coil and Hone Claws for AI scoring purposes
 
 a030_050:
+    gotosubscript 341
     if IF_EQUAL, VAR_CURRENT_MOVE, MOVE_COIL, Coil
     if IF_EQUAL, VAR_CURRENT_MOVE, MOVE_HONE_CLAWS, HoneClaws
     changevar VAR_OP_SET, VAR_ADD_STATUS1, 0x40000027

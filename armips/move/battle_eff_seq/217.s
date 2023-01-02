@@ -9,6 +9,8 @@
 
 .create "build/move/battle_eff_seq/0_217", 0
 
+// Wake-Up Slap
+
 a030_217:
     checksubstitute BATTLER_DEFENDER, _005C
     ifmonstat IF_MASK, BATTLER_DEFENDER, MON_DATA_STATUS_1, 0x7, _003C

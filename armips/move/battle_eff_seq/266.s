@@ -9,7 +9,10 @@
 
 .create "build/move/battle_eff_seq/0_266", 0
 
+// Stealth Rock
+
 a030_266:
+    gotosubscript 341
     if IF_MASK, VAR_SIDE_EFFECT_OPPONENT, 0x80, _0048
     changevar VAR_OP_SETMASK, VAR_SIDE_EFFECT_OPPONENT, 0x80
     preparemessage 0x435, 0x1, 0x13, "NaN", "NaN", "NaN", "NaN", "NaN"

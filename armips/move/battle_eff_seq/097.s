@@ -9,7 +9,10 @@
 
 .create "build/move/battle_eff_seq/0_097", 0
 
+// Sleep Talk
+
 a030_097:
+    gotosubscript 341
     ifmonstat IF_NOTMASK, BATTLER_ATTACKER, MON_DATA_STATUS_1, 0x7, _0038
     gotosubscript 20
     trysleeptalk _0038

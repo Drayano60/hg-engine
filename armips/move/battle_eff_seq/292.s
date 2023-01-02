@@ -13,6 +13,7 @@
 // Not actually used, file 58 is used instead
 
 a030_292:
+    gotosubscript 341
     changevar VAR_OP_SET, VAR_ADD_STATUS1, ADD_STATUS_NOBLE_ROAR | ADD_STATUS_DEFENDER
     endscript
 

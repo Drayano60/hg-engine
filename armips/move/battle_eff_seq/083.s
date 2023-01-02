@@ -9,7 +9,10 @@
 
 .create "build/move/battle_eff_seq/0_083", 0
 
+// Metronome
+
 a030_083:
+    gotosubscript 341
     printattackmessage
     waitmessage
     wait 0x1E

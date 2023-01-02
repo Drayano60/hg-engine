@@ -9,7 +9,11 @@
 
 .create "build/move/battle_eff_seq/0_132", 0
 
+// Recovery moves affected by weather
+// Morning Sun, Synthesis, Moonlight
+
 a030_132:
+    gotosubscript 341
     changehprecoverybasedonweather
     changevar2 VAR_OP_SET, VAR_BATTLER_SOMETHING, VAR_ATTACKER
     changevar VAR_OP_SET, VAR_ADD_STATUS1, 0x20000061

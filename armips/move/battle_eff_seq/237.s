@@ -9,6 +9,8 @@
 
 .create "build/move/battle_eff_seq/0_237", 0
 
+// Wring Out
+
 a030_237:
     wringoutdamagecalc
     critcalc

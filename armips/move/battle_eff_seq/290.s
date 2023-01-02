@@ -13,6 +13,7 @@
 // Not actually used, file 53 is used instead
 
 a030_290:
+    gotosubscript 341
     changevar VAR_OP_SET, VAR_ADD_STATUS1,  ADD_STATUS_SHELL_SMASH | ADD_STATUS_ATTACKER
     endscript
 

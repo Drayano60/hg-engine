@@ -9,7 +9,10 @@
 
 .create "build/move/battle_eff_seq/0_168", 0
 
+// Memento
+
 a030_168:
+    gotosubscript 341
     changevar VAR_OP_SET, VAR_09, 0x10000000
     changevar2 VAR_OP_LSH, VAR_09, VAR_ATTACKER
     changevar2 VAR_OP_SETMASK, VAR_06, VAR_09

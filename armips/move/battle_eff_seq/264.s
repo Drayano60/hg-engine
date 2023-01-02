@@ -9,6 +9,8 @@
 
 .create "build/move/battle_eff_seq/0_264", 0
 
+// No idea what this is
+
 a030_264:
     changevar VAR_OP_SETMASK, VAR_10, 0x2000
     endscript

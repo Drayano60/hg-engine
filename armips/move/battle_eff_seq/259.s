@@ -9,7 +9,10 @@
 
 .create "build/move/battle_eff_seq/0_259", 0
 
+// Trick Room
+
 a030_259:
+    gotosubscript 341
     if IF_MASK, VAR_FIELD_EFFECT, 0x70000, _003C
     changevar VAR_OP_SETMASK, VAR_FIELD_EFFECT, 0x50000
     preparemessage 0x42E, 0x2, 0x1, "NaN", "NaN", "NaN", "NaN", "NaN"

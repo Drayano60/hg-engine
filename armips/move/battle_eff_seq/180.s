@@ -9,7 +9,10 @@
 
 .create "build/move/battle_eff_seq/0_180", 0
 
+// Assist
+
 a030_180:
+    gotosubscript 341
     tryassist _0024
     printattackmessage
     waitmessage

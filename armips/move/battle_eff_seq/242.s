@@ -9,7 +9,10 @@
 
 .create "build/move/battle_eff_seq/0_242", 0
 
+// Copycat
+
 a030_242:
+    gotosubscript 341
     trycopycat _0024
     printattackmessage
     waitmessage

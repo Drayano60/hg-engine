@@ -9,7 +9,10 @@
 
 .create "build/move/battle_eff_seq/0_181", 0
 
+// Ingrain
+
 a030_181:
+    gotosubscript 341
     ifmonstat IF_MASK, BATTLER_ATTACKER, MON_DATA_MOVE_STATE, 0x400, _0050
     changemondatabyvalue VAR_OP_SETMASK, BATTLER_ATTACKER, 0x3B, 0x400
     preparemessage 0x218, 0x2, 0x1, "NaN", "NaN", "NaN", "NaN", "NaN"

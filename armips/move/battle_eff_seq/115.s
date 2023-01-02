@@ -9,7 +9,10 @@
 
 .create "build/move/battle_eff_seq/0_115", 0
 
+// Sandstorm
+
 a030_115:
+    gotosubscript 341
     if IF_MASK, VAR_FIELD_EFFECT, 0xC, _0094
     preparemessage 0x324, 0x0, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
     changevar VAR_OP_CLEARMASK, VAR_FIELD_EFFECT, 0x80FF

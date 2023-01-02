@@ -9,7 +9,10 @@
 
 .create "build/move/battle_eff_seq/0_232", 0
 
+// Embargo
+
 a030_232:
+    gotosubscript 341
     checksubstitute BATTLER_DEFENDER, _0020
     changevar VAR_OP_SET, VAR_ADD_STATUS1, 0xA0000086
     endscript

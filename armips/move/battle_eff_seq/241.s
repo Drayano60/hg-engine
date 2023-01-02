@@ -9,6 +9,9 @@
 
 .create "build/move/battle_eff_seq/0_241", 0
 
+// Me First
+// This is the one status move that works with Assault Vest
+
 a030_241:
     trymefirst _0024
     printattackmessage

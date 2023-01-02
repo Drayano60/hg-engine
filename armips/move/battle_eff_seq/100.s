@@ -9,7 +9,10 @@
 
 .create "build/move/battle_eff_seq/0_100", 0
 
+// Spite
+
 a030_100:
+    gotosubscript 341
     changevar VAR_OP_SET, VAR_ADD_STATUS1, 0xA0000051
     endscript
 

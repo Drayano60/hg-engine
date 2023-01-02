@@ -9,6 +9,8 @@
 
 .create "build/move/battle_eff_seq/0_222", 0
 
+// Natural Gift
+
 a030_222:
     trynaturalgift _001C
     critcalc

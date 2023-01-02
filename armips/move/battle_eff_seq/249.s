@@ -9,6 +9,8 @@
 
 .create "build/move/battle_eff_seq/0_249", 0
 
+// Toxic Spikes
+
 a030_249:
     trytoxicspikes _002C
     preparemessage 0x427, 0x1, 0x13, "NaN", "NaN", "NaN", "NaN", "NaN"

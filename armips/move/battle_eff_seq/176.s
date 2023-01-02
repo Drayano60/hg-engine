@@ -9,7 +9,10 @@
 
 .create "build/move/battle_eff_seq/0_176", 0
 
+// Helping Hand
+
 a030_176:
+    gotosubscript 341
     tryhelpinghand _0040
     preparemessage 0x1F7, 0x9, 0x1, 0xFF, "NaN", "NaN", "NaN", "NaN"
     changevar VAR_OP_SET, VAR_ADD_STATUS2, 0x2000005A

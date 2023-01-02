@@ -9,7 +9,10 @@
 
 .create "build/move/battle_eff_seq/0_210", 0
 
+// Water Sport
+
 a030_210:
+    gotosubscript 341
     ifmonstat IF_MASK, BATTLER_ATTACKER, MON_DATA_MOVE_STATE, 0x20000, _004C
     changemondatabyvalue VAR_OP_SETMASK, BATTLER_ATTACKER, 0x3B, 0x20000
     preparemessage 0x24C, 0x0, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"

@@ -9,7 +9,10 @@
 
 .create "build/move/battle_eff_seq/0_109", 0
 
+// Curse
+
 a030_109:
+    gotosubscript 341
     ifmonstat IF_EQUAL, BATTLER_ATTACKER, MON_DATA_TYPE_1, 0x7, _0044
     ifmonstat IF_EQUAL, BATTLER_ATTACKER, MON_DATA_TYPE_2, 0x7, _0044
     changevar VAR_OP_SET, VAR_ADD_STATUS1, 0x40000058

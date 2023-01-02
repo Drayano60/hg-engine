@@ -9,7 +9,10 @@
 
 .create "build/move/battle_eff_seq/0_179", 0
 
+// Wish
+
 a030_179:
+    gotosubscript 341
     trywish _000C
     endscript
 _000C:

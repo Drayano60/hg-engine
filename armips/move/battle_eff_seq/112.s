@@ -9,7 +9,10 @@
 
 .create "build/move/battle_eff_seq/0_112", 0
 
+// Spikes
+
 a030_112:
+    gotosubscript 341
     tryspikes _002C
     preparemessage 0x1AB, 0x1, 0x13, "NaN", "NaN", "NaN", "NaN", "NaN"
     changevar VAR_OP_SET, VAR_ADD_STATUS2, 0x2000005A

@@ -9,7 +9,10 @@
 
 .create "build/move/battle_eff_seq/0_162", 0
 
+// Swallow
+
 a030_162:
+    gotosubscript 341
     ifmonstat IF_EQUAL, BATTLER_ATTACKER, MON_DATA_STOCKPILE_COUNT, 0x0, _013C
     changemondatabyvar VAR_OP_GET_RESULT, BATTLER_ATTACKER, 0x45, VAR_HP_TEMP
     changevar VAR_OP_SUB, VAR_HP_TEMP, 0x3

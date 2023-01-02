@@ -9,7 +9,10 @@
 
 .create "build/move/battle_eff_seq/0_153", 0
 
+// Teleport
+
 a030_153:
+    gotosubscript 341
     if IF_MASK, VAR_BATTLE_TYPE, 0x1, _0028
     changevar VAR_OP_SET, VAR_ADD_STATUS1, 0x20000065
     endscript

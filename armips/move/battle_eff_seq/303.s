@@ -13,6 +13,7 @@
 // Hail requirement is handled by subscript
 
 a030_303:
+    gotosubscript 341
     changevar VAR_OP_SET, VAR_ADD_STATUS1, ADD_STATUS_AURORA_VEIL | ADD_STATUS_WORK
     endscript
 

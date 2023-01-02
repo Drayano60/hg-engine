@@ -9,7 +9,10 @@
 
 .create "build/move/battle_eff_seq/0_001", 0
 
+// Sleep effect
+
 a030_001:
+    gotosubscript 341
     changevar VAR_OP_SET, VAR_ADD_STATUS1, 0x80000001
     endscript
 

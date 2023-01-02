@@ -13,7 +13,8 @@
 // Not actually used, file 53 is used instead
 
 a030_283:
-    changevar VAR_OP_SET, VAR_ADD_STATUS1,  ADD_STATUS_QUIVER_DANCE | ADD_STATUS_ATTACKER
+    gotosubscript 341
+    changevar VAR_OP_SET, VAR_ADD_STATUS1, ADD_STATUS_QUIVER_DANCE | ADD_STATUS_ATTACKER
     endscript
 
 .close

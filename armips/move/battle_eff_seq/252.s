@@ -9,7 +9,10 @@
 
 .create "build/move/battle_eff_seq/0_252", 0
 
+// Magnet Rise
+
 a030_252:
+    gotosubscript 341
     ifmonstat IF_NOTEQUAL, BATTLER_ATTACKER, MON_DATA_79, 0x0, _0090
     abilitycheck 0x0, BATTLER_ATTACKER, ABILITY_LEVITATE, _0090
     ifmonstat IF_MASK, BATTLER_ATTACKER, MON_DATA_MOVE_STATE, 0x400, _0090

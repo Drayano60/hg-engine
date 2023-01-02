@@ -9,7 +9,10 @@
 
 .create "build/move/battle_eff_seq/0_047", 0
 
+// Focus Energy
+
 a030_047:
+    gotosubscript 341
     ifmonstat IF_MASK, BATTLER_ATTACKER, MON_DATA_STATUS_2, 0x100000, _002C
     changevar VAR_OP_SETMASK, VAR_ADD_STATUS1, 0x40000046
     endscript

@@ -9,7 +9,10 @@
 
 .create "build/move/battle_eff_seq/0_212", 0
 
+// Dragon Dance
+
 a030_212:
+    gotosubscript 341
     changevar VAR_OP_SET, VAR_ADD_STATUS1, 0x4000003B
     endscript
 

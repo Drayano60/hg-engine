@@ -9,7 +9,10 @@
 
 .create "build/move/battle_eff_seq/0_195", 0
 
+// Snatch
+
 a030_195:
+    gotosubscript 341
     trysnatch _002C
     preparemessage 0x241, 0x2, 0x1, "NaN", "NaN", "NaN", "NaN", "NaN"
     changevar VAR_OP_SET, VAR_ADD_STATUS2, 0x2000005A

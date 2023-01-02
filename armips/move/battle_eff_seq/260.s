@@ -9,6 +9,9 @@
 
 .create "build/move/battle_eff_seq/0_260", 0
 
+// Chance of freeze with guaranteed hail hit
+// Blizzard
+
 a030_260:
     changevar VAR_OP_SET, VAR_ADD_STATUS2, 0x80000004
     critcalc

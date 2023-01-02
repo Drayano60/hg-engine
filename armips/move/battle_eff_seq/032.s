@@ -9,7 +9,10 @@
 
 .create "build/move/battle_eff_seq/0_032", 0
 
+// Heal Half HP
+
 a030_032:
+    gotosubscript 341
     changevar VAR_OP_SET, VAR_ADD_STATUS1, 0x20000042
     endscript
 

@@ -9,7 +9,10 @@
 
 .create "build/move/battle_eff_seq/0_251", 0
 
+// Aqua Ring
+
 a030_251:
+    gotosubscript 341
     ifmonstat IF_MASK, BATTLER_ATTACKER, MON_DATA_MOVE_STATE, 0x1000000, _0050
     changemondatabyvalue VAR_OP_SETMASK, BATTLER_ATTACKER, 0x3B, 0x1000000
     preparemessage 0x403, 0x2, 0x1, "NaN", "NaN", "NaN", "NaN", "NaN"

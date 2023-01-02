@@ -9,7 +9,10 @@
 
 .create "build/move/battle_eff_seq/0_201", 0
 
+// Mud Sport
+
 a030_201:
+    gotosubscript 341
     ifmonstat IF_MASK, BATTLER_ATTACKER, MON_DATA_MOVE_STATE, 0x10000, _004C
     changemondatabyvalue VAR_OP_SETMASK, BATTLER_ATTACKER, 0x3B, 0x10000
     preparemessage 0x24B, 0x0, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"

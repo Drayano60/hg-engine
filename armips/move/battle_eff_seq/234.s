@@ -9,7 +9,10 @@
 
 .create "build/move/battle_eff_seq/0_234", 0
 
+// Psycho Shift
+
 a030_234:
+    gotosubscript 341
     trypsychoshift _001C
     changevar VAR_OP_SET, VAR_ADD_STATUS1, 0x80000090
     endscript

@@ -9,7 +9,10 @@
 
 .create "build/move/battle_eff_seq/0_173", 0
 
+// Nature Power
+
 a030_173:
+    gotosubscript 341
     printattackmessage
     waitmessage
     playanimation BATTLER_ATTACKER

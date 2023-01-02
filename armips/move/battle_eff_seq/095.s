@@ -9,7 +9,10 @@
 
 .create "build/move/battle_eff_seq/0_095", 0
 
+// Sketch
+
 a030_095:
+    gotosubscript 341
     changevar VAR_OP_SET, VAR_ADD_STATUS1, 0x2000004E
     endscript
 

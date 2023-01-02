@@ -9,7 +9,10 @@
 
 .create "build/move/battle_eff_seq/0_009", 0
 
+// Mirror Move effect
+
 a030_009:
+    gotosubscript 341
     printattackmessage
     waitmessage
     wait 0x1E

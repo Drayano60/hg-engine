@@ -9,6 +9,8 @@
 
 .create "build/move/battle_eff_seq/0_248", 0
 
+// Sucker Punch
+
 a030_248:
     trysuckerpunch _0014
     critcalc

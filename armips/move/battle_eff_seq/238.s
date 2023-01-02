@@ -9,7 +9,10 @@
 
 .create "build/move/battle_eff_seq/0_238", 0
 
+// Power Trick
+
 a030_238:
+    gotosubscript 341
     changevar VAR_OP_SET, VAR_ADD_STATUS2, 0x2000007B
     endscript
 

@@ -9,6 +9,8 @@
 
 .create "build/move/battle_eff_seq/0_231", 0
 
+// Assurance
+
 a030_231:
     getmoveparameter 0x2
     changevar2 VAR_OP_SET, VAR_ABILITY_TEMP, VAR_09

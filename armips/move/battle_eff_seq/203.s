@@ -9,6 +9,8 @@
 
 .create "build/move/battle_eff_seq/0_203", 0
 
+// Weather Ball
+
 a030_203:
     weatherballdamagecalc
     critcalc

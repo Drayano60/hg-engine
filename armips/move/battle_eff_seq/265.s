@@ -9,7 +9,10 @@
 
 .create "build/move/battle_eff_seq/0_265", 0
 
+// Captivate
+
 a030_265:
+    gotosubscript 341
     moldbreakerabilitycheck 0x0, BATTLER_DEFENDER, ABILITY_OBLIVIOUS, _00C4
     ifmonstat IF_EQUAL, BATTLER_ATTACKER, MON_DATA_GENDER, 0x2, _0084
     ifmonstat IF_EQUAL, BATTLER_DEFENDER, MON_DATA_GENDER, 0x2, _0084

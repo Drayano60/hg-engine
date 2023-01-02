@@ -701,8 +701,8 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
         defense = defense * 150 / 100;
     }
 
-    // handle eviolite effect. currently assigned to everstone until eviolite is added
-    if (DefendingMon.item_held_effect == HOLD_EFFECT_NO_EVOLVE) {
+    // handle eviolite effect
+    if (DefendingMon.item_held_effect == HOLD_EFFECT_EVIOLITE) {
         for (i = 0; i < NELEMS(EvioliteTable); i++)
         {
             if (EvioliteTable[i] == DefendingMon.species)
@@ -713,6 +713,11 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
                 break;
             }
         }
+    }
+
+    // handle assault vest
+    if (DefendingMon.item_held_effect == HOLD_EFFECT_ASSAULT_VEST) {
+        sp_defense = sp_defense * 150 / 100;
     }
 
     // handle plus/minus
@@ -728,7 +733,6 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
     {
         defense *= 2;
     }
-
 
 
     // handle mud/water sport

@@ -19,8 +19,9 @@
 // as I am unsure how to make the move unselectable like Taunt works currently.
 
 a001_341:
-    // Currently set to Scope Lens effect. If Pokemon is not holding it, just end the subscript.
-    checkitemeffect 0x1, BATTLER_ATTACKER, 67, End      
+    // 149 is the Assault Vest held item effect ID.
+    // If the Pokemon is not holding the Assault Vest, just end the subscript.
+    checkitemeffect 0x1, BATTLER_ATTACKER, 149, End      
     changevar VAR_OP_SETMASK, VAR_10, 0x40
 End:
     endscript

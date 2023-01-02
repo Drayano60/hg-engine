@@ -9,7 +9,10 @@
 
 .create "build/move/battle_eff_seq/0_084", 0
 
+// Leech Seed
+
 a030_084:
+    gotosubscript 341
     changevar VAR_OP_SET, VAR_ADD_STATUS1, 0x90000048
     endscript
 

@@ -9,7 +9,10 @@
 
 .create "build/move/battle_eff_seq/0_066", 0
 
+// Poison opponent
+
 a030_066:
+    gotosubscript 341
     changevar VAR_OP_SET, VAR_ADD_STATUS1, 0x80000002
     endscript
 

@@ -9,6 +9,8 @@
 
 .create "build/move/battle_eff_seq/0_197", 0
 
+// Secret Power
+
 a030_197:
     critcalc
     damagecalc

@@ -15,6 +15,7 @@
 // Not sure how to do one singular +3 boost yet
 
 a030_051:
+    gotosubscript 341
     if IF_EQUAL, VAR_CURRENT_MOVE, MOVE_COTTON_GUARD, _ExtraDefUp
     changevar VAR_OP_SET, VAR_ADD_STATUS1, 0x40000028
     endscript

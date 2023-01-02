@@ -9,6 +9,8 @@
 
 .create "build/move/battle_eff_seq/0_171", 0
 
+// Smelling Salts
+
 a030_171:
     checksubstitute BATTLER_DEFENDER, _005C
     ifmonstat IF_MASK, BATTLER_DEFENDER, MON_DATA_STATUS_1, 0x40, _003C

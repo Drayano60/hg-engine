@@ -9,6 +9,8 @@
 
 .create "build/move/battle_eff_seq/0_233", 0
 
+// Fling
+
 a030_233:
     ifmonstat IF_EQUAL, BATTLER_ATTACKER, MON_DATA_ABILITY, 0x79, _008C
     ifmonstat IF_EQUAL, BATTLER_ATTACKER, MON_DATA_ITEM, 0x70, _008C

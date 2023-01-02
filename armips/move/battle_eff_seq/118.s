@@ -9,7 +9,10 @@
 
 .create "build/move/battle_eff_seq/0_118", 0
 
+// Swagger
+
 a030_118:
+    gotosubscript 341
     changevar VAR_OP_SET, VAR_ADD_STATUS1, 0xA000005E
     endscript
 

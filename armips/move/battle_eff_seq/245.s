@@ -9,6 +9,8 @@
 
 .create "build/move/battle_eff_seq/0_245", 0
 
+// Punishment
+
 a030_245:
     punishmentdamagecalc
     critcalc

@@ -9,7 +9,10 @@
 
 .create "build/move/battle_eff_seq/0_016", 0
 
+// +1 Evasion
+
 a030_016:
+    gotosubscript 341
     changevar VAR_OP_SET, VAR_ADD_STATUS1, 0x40000015
     endscript
 

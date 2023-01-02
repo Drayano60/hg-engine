@@ -13,6 +13,7 @@
 // Not used by SacredGold
 
 a030_288:
+    gotosubscript 341
     changevar VAR_OP_SET, VAR_ADD_STATUS1,  ADD_STATUS_SHIFT_GEAR | ADD_STATUS_ATTACKER
     endscript
 

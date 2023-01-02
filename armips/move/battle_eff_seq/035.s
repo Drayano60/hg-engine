@@ -9,7 +9,10 @@
 
 .create "build/move/battle_eff_seq/0_035", 0
 
+// Light Screen
+
 a030_035:
+    gotosubscript 341
     changevar VAR_OP_SET, VAR_ADD_STATUS1, 0x20000043
     endscript
 

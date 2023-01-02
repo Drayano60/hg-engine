@@ -9,7 +9,10 @@
 
 .create "build/move/battle_eff_seq/0_199", 0
 
+// Teeter Dance
+
 a030_199:
+    gotosubscript 341
     changevar VAR_OP_SET, VAR_ADD_STATUS1, 0x80000007
     endscript
 

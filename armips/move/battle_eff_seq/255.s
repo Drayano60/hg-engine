@@ -9,6 +9,8 @@
 
 .create "build/move/battle_eff_seq/0_255", 0
 
+// Dive
+
 a030_255:
     ifmonstat IF_MASK, BATTLER_ATTACKER, MON_DATA_STATUS_2, 0x1000, _00B4
     checkitemeffect 0x0, BATTLER_ATTACKER, 0x63, _0064

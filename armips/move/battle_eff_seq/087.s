@@ -9,6 +9,8 @@
 
 .create "build/move/battle_eff_seq/0_087", 0
 
+// Damage equal to level
+
 a030_087:
     changevar VAR_OP_SETMASK, VAR_06, 0x800
     changemondatabyvar VAR_OP_GET_RESULT, BATTLER_ATTACKER, 0x2B, VAR_DAMAGE

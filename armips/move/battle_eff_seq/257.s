@@ -9,6 +9,8 @@
 
 .create "build/move/battle_eff_seq/0_257", 0
 
+// Surf
+
 a030_257:
     changevar VAR_OP_SETMASK, VAR_06, 0x10
     changevar VAR_OP_SET, VAR_DAMAGE_MULT, 0xA

@@ -9,10 +9,11 @@
 
 .create "build/move/battle_eff_seq/0_058", 0
 
-// Sharply lower defense
+// Sharply lower attack
 // For AI purposes, Noble Roar (and Soothing Aroma) are here instead
 
 a030_058:
+    gotosubscript 341
     if IF_EQUAL, VAR_CURRENT_MOVE, MOVE_NOBLE_ROAR, AtkSpAtkDown
     if IF_EQUAL, VAR_CURRENT_MOVE, MOVE_SOOTHING_AROMA, AtkSpAtkDown
     changevar VAR_OP_SET, VAR_ADD_STATUS1, 0x8000002E

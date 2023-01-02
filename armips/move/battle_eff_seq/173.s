@@ -9,7 +9,11 @@
 
 .create "build/move/battle_eff_seq/0_173", 0
 
+// Nature Power
+
 a030_173:
+    gotosubscript 341
+    if IF_MASK, VAR_10, 0x40, Failed // Required to skip over things set before natural failure happens
     printattackmessage
     waitmessage
     playanimation BATTLER_ATTACKER
@@ -19,5 +23,8 @@ a030_173:
     waitmessage
     wait 0x1E
     jumptoeffectscript 0
-
+Failed:
+    changevar VAR_OP_SETMASK, VAR_10, 0x40
+    endscript
+    
 .close

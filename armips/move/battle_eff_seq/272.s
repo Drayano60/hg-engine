@@ -9,6 +9,8 @@
 
 .create "build/move/battle_eff_seq/0_272", 0
 
+// Shadow Force
+
 a030_272:
     ifmonstat IF_MASK, BATTLER_ATTACKER, MON_DATA_STATUS_2, 0x1000, _00C8
     if IF_MASK, VAR_06, 0x200, _00C8

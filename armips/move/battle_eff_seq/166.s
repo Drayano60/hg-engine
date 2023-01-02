@@ -9,7 +9,10 @@
 
 .create "build/move/battle_eff_seq/0_166", 0
 
+// Flatter
+
 a030_166:
+    gotosubscript 341
     changevar VAR_OP_SET, VAR_ADD_STATUS1, 0xA000006A
     endscript
 

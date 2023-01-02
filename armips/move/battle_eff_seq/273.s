@@ -9,6 +9,9 @@
 
 .create "build/move/battle_eff_seq/0_273", 0
 
+// Chance to flinch or burn
+// Fire Fang
+
 a030_273:
     changevar VAR_OP_SET, VAR_ADD_STATUS2, 0xA000008B
     critcalc

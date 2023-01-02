@@ -9,6 +9,8 @@
 
 .create "build/move/battle_eff_seq/0_224", 0
 
+// Pluck
+
 a030_224:
     changevar VAR_OP_SET, VAR_ADD_STATUS2, 0x20000087
     critcalc

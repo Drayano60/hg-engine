@@ -9,6 +9,8 @@
 
 .create "build/move/battle_eff_seq/0_228", 0
 
+// U-turn
+
 a030_228:
     changevar VAR_OP_SET, VAR_ADD_STATUS2, 0x20000085
     critcalc

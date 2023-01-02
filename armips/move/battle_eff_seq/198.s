@@ -9,6 +9,8 @@
 
 .create "build/move/battle_eff_seq/0_198", 0
 
+// Damage with one-third dealt recoil
+
 a030_198:
     abilitycheck 0x1, BATTLER_ATTACKER, ABILITY_RECKLESS, _0024
     changevar VAR_OP_SET, VAR_DAMAGE_MULT, 0xC

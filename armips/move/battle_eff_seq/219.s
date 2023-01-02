@@ -9,6 +9,9 @@
 
 .create "build/move/battle_eff_seq/0_219", 0
 
+// More damage if user is slower 
+// Gyro Ball
+
 a030_219:
     gyroballdamagecalc
     critcalc

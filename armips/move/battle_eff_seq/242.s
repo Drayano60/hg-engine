@@ -9,14 +9,18 @@
 
 .create "build/move/battle_eff_seq/0_242", 0
 
+// Copycat
+
 a030_242:
-    trycopycat _0024
+    gotosubscript 341
+    if IF_MASK, VAR_10, 0x40, Failed // Required to skip over things set before natural failure happens
+    trycopycat Failed
     printattackmessage
     waitmessage
     playanimation BATTLER_ATTACKER
     waitmessage
     jumptoeffectscript 0
-_0024:
+Failed:
     changevar VAR_OP_SETMASK, VAR_10, 0x40
     endscript
 

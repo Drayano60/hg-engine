@@ -9,7 +9,10 @@
 
 .create "build/move/battle_eff_seq/0_106", 0
 
+// Spider Web
+
 a030_106:
+    gotosubscript 341
     changevar VAR_OP_SET, VAR_ADD_STATUS1, 0x90000020
     endscript
 

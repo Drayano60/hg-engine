@@ -9,7 +9,10 @@
 
 .create "build/move/battle_eff_seq/0_120", 0
 
+// Attract
+
 a030_120:
+    gotosubscript 341
     changevar VAR_OP_SET, VAR_ADD_STATUS1, 0x8000005F
     changevar2 VAR_OP_SET, VAR_BATTLER_SOMETHING, VAR_ATTACKER
     endscript

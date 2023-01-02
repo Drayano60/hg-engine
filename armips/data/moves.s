@@ -7568,7 +7568,7 @@ movedata MOVE_TAIL_SLAP
     terminatedata
 
 movedata MOVE_HURRICANE
-    battleeffect 0
+    battleeffect 152 // Note: This is modified to use confusion for Hurricane instead
     pss SPLIT_SPECIAL
     basepower 110
     type TYPE_FLYING

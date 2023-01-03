@@ -13,8 +13,7 @@
 
 a030_245:
     punishmentdamagecalc
-    critcalc
-    damagecalc
+    gotosubscript 343
     endscript
 
 .close

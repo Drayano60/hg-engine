@@ -18,8 +18,7 @@ a030_231:
     changevar2 VAR_OP_SET, VAR_ABILITY_TEMP, VAR_09
     changevar VAR_OP_MUL, VAR_ABILITY_TEMP, 0x2
 _004C:
-    critcalc
-    damagecalc
+    gotosubscript 343
     endscript
 
 .close

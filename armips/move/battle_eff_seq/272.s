@@ -27,8 +27,7 @@ _0078:
     if IF_EQUAL, VAR_DEFENDER, 0xFF, _00E0
 _00C8:
     changevar VAR_OP_SET, VAR_ADD_STATUS2, 0x2000004F
-    critcalc
-    damagecalc
+    gotosubscript 343
 _00E0:
     changemondatabyvalue VAR_OP_CLEARMASK, BATTLER_ATTACKER, 0x3B, 0x200400C0
     gotosubscript 259

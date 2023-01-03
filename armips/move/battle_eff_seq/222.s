@@ -13,8 +13,7 @@
 
 a030_222:
     trynaturalgift _001C
-    critcalc
-    damagecalc
+    gotosubscript 343
     removeitem BATTLER_ATTACKER
     endscript
 _001C:

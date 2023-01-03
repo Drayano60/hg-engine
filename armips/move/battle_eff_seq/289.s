@@ -18,8 +18,7 @@ a030_289:
 DoubleDamage:
     changevar VAR_OP_SET, VAR_DAMAGE_MULT, 20
 End:
-    critcalc
-    damagecalc
+    gotosubscript 343
     endscript
 
 .close

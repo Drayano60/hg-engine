@@ -87,8 +87,7 @@ _setDragon:
 _setDark:
     changevar VAR_OP_SET, VAR_MOVE_TYPE, TYPE_DARK
 _return:
-    critcalc
-    damagecalc
+    gotosubscript 343
     endscript
 
 .close

@@ -23,8 +23,7 @@ _0064:
     togglevanish BATTLER_ATTACKER, 0x1
     if IF_EQUAL, VAR_DEFENDER, 0xFF, _00BC
 _00B4:
-    critcalc
-    damagecalc
+    gotosubscript 343
 _00BC:
     changemondatabyvalue VAR_OP_CLEARMASK, BATTLER_ATTACKER, 0x3B, 0x200400C0
     gotosubscript 259

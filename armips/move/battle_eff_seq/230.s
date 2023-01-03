@@ -14,8 +14,7 @@
 
 a030_230:
     paybackdamagecalc
-    critcalc
-    damagecalc
+    gotosubscript 343
     endscript
 
 .close

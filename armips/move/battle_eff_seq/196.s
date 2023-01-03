@@ -14,8 +14,7 @@
 
 a030_196:
     lowkickdamagecalc
-    critcalc
-    damagecalc
+    gotosubscript 343
     endscript
 
 .close

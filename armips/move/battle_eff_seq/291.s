@@ -14,8 +14,7 @@
 
 a030_291:
     changevar VAR_OP_SET, VAR_ADD_STATUS2, ADD_STATUS_V_CREATE | ADD_STATUS_ATTACKER | 0x20000000
-    critcalc
-    damagecalc
+    gotosubscript 343
     endscript
 
 .close

@@ -18,8 +18,7 @@ a030_302:
     changevar VAR_OP_SET, VAR_DAMAGE_MULT, 20
 Damage:
     heavyslamdamagecalc
-    critcalc
-    damagecalc
+    gotosubscript 343
     endscript
 
 .close

@@ -15,12 +15,10 @@
 a030_223:
     tryfeint _0024
     changevar VAR_OP_SET, VAR_ADD_STATUS2, 0x2000004F
-    critcalc
-    damagecalc
+    gotosubscript 343
     endscript
 _0024:
-    critcalc
-    damagecalc
+    gotosubscript 343
     endscript
 
 .close

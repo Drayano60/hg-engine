@@ -23,8 +23,7 @@ QuadrupleDamage:
     changevar VAR_OP_SET, VAR_DAMAGE_MULT, 40
 End:
     changevar VAR_OP_SET, VAR_ADD_STATUS2, 0x80000004
-    critcalc
-    damagecalc
+    gotosubscript 343
     endscript
 
 .close

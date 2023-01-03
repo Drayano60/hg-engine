@@ -13,8 +13,7 @@
 
 a030_248:
     trysuckerpunch _0014
-    critcalc
-    damagecalc
+    gotosubscript 343
     endscript
 _0014:
     changevar VAR_OP_SETMASK, VAR_10, 0x40

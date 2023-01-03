@@ -21,8 +21,7 @@ _0064:
     if IF_EQUAL, VAR_DEFENDER, 0xFF, _0098
 _0080:
     changevar VAR_OP_ADD, VAR_CRIT_CHANCE, 0x1
-    critcalc
-    damagecalc
+    gotosubscript 343
 _0098:
     gotosubscript 259
     endscript

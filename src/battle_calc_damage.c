@@ -943,6 +943,16 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
         }
     }
 
+    // handle sharpness
+    for (i = 0; i < NELEMS(SharpnessMovesTable); i++)
+    {
+        if ((SharpnessMovesTable[i] == moveno) && (AttackingMon.ability == ABILITY_SHARPNESS))
+        {
+            movepower = movepower * 15 / 10;
+            break;
+        }
+    }
+    
     //handles water bubble
     if((AttackingMon.ability == ABILITY_WATER_BUBBLE) && (movetype == TYPE_WATER))
     {

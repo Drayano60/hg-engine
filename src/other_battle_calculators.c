@@ -38,6 +38,17 @@ const AccuracyStatChangeRatio sAccStatChanges[] =
     {   3,   1 },
 };
 
+static const u16 TriageMoveEffects[] = {
+    MOVE_EFFECT_HEAL_HALF_DAMAGE_DEALT,
+    MOVE_EFFECT_DREAM_EATER,
+    MOVE_EFFECT_HEAL_HALF_MAX_HP,
+    MOVE_EFFECT_REST,
+    MOVE_EFFECT_HEAL_HP_MORE_IN_SUN,
+    MOVE_EFFECT_SWALLOW,
+    MOVE_EFFECT_WISH,
+    MOVE_EFFECT_ROOST,
+    MOVE_EFFECT_HEALING_WISH,
+};
 
 // set sp->waza_status_flag |= MOVE_STATUS_FLAG_MISS if a miss
 BOOL CalcAccuracy(void *bw, struct BattleStruct *sp, int attacker, int defender, int move_no)
@@ -564,6 +575,27 @@ u8 CalcSpeed(void *bw, struct BattleStruct *sp, int client1, int client2, int fl
         if (GetBattlerAbility(sp, client2) == ABILITY_PRANKSTER && sp->moveTbl[move2].split == SPLIT_STATUS)
         {
             priority2++;
+        }
+
+        // handle triage
+        if (GetBattlerAbility(sp, client1) == ABILITY_TRIAGE) {
+            for (i = 0; i < NELEMS(TriageMoveEffects); i++)
+            {
+                if (TriageMoveEffects[i] == sp->moveTbl[move1].effect) {
+                    priority1 = priority1 + 3;
+                    break;
+                }
+            }
+        }
+
+        if (GetBattlerAbility(sp, client2) == ABILITY_TRIAGE) {
+            for (i = 0; i < NELEMS(TriageMoveEffects); i++)
+            {
+                if (TriageMoveEffects[i] == sp->moveTbl[move2].effect) {
+                    priority2 = priority2 + 3;
+                    break;
+                }
+            }
         }
     }
 

@@ -55,7 +55,9 @@ Pixilate:
     goto Boost
 Boost:
     // This provides a 20% damage boost, common to all "-ate" abilities.
-    changevar VAR_OP_SET, VAR_DAMAGE_MULT, 12
+    // Done this way so it doesnt overwrite multipliers from other effects.
+    changevar VAR_OP_MUL, VAR_DAMAGE_MULT, 120
+    changevar VAR_OP_DIV, VAR_DAMAGE_MULT, 100
 End:
     // Beat Up and Spit Up use different damagecalc functions.
     if IF_EQUAL, VAR_CURRENT_MOVE, MOVE_BEAT_UP, BeatUpDamageCalc

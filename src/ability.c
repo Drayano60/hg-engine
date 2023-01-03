@@ -40,6 +40,30 @@ const u16 SoundMoveList[] =
     MOVE_UPROAR,
 };
 
+const u16 BulletproofMoveList[] =
+{
+    MOVE_ACID_SPRAY,
+    MOVE_AURA_SPHERE,
+    MOVE_BARRAGE,
+    MOVE_BULLET_SEED,
+    MOVE_EGG_BOMB,
+    MOVE_ENERGY_BALL,
+    MOVE_FOCUS_BLAST,
+    MOVE_GYRO_BALL,
+    MOVE_ICE_BALL,
+    MOVE_MAGNET_BOMB,
+    MOVE_MIST_BALL,
+    MOVE_MUD_BOMB,
+    MOVE_OCTAZOOKA,
+    MOVE_ROCK_BLAST,
+    MOVE_ROCK_WRECKER,
+    MOVE_SEED_BOMB,
+    MOVE_SHADOW_BALL,
+    MOVE_SLUDGE_BOMB,
+    MOVE_WEATHER_BALL,
+    MOVE_ZAP_CANNON,
+};
+
 int MoveCheckDamageNegatingAbilities(struct BattleStruct *sp, int attacker, int defender)
 {
     int scriptnum = 0;
@@ -98,6 +122,22 @@ int MoveCheckDamageNegatingAbilities(struct BattleStruct *sp, int attacker, int 
 
             for (i = 0; i < NELEMS(SoundMoveList); i++){
                 if (SoundMoveList[i] == sp->current_move_index)
+                {
+                    scriptnum = SUB_SEQ_HANDLE_SOUNDPROOF;
+                    break;
+                }
+            }
+        }
+    }
+
+    // Handle Bulletproof. Soundproof SUB_SEQ works perfectly for this too.
+    if (MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_BULLETPROOF) == TRUE)
+    {
+        {
+            u32 i;
+
+            for (i = 0; i < NELEMS(BulletproofMoveList); i++){
+                if (BulletproofMoveList[i] == sp->current_move_index)
                 {
                     scriptnum = SUB_SEQ_HANDLE_SOUNDPROOF;
                     break;
@@ -1690,6 +1730,23 @@ BOOL MoveHitDefenderAbilityCheck(void *bw, struct BattleStruct *sp, int *seq_no)
                 sp->client_work = sp->defence_client;
                 sp->addeffect_type = ADD_EFFECT_ABILITY;
                 seq_no[0] = SUB_SEQ_HANDLE_DEFIANT;
+                ret = TRUE;
+            }
+            break;
+        // handle competitive; copypaste from above with different sub_seq
+        case ABILITY_COMPETITIVE:
+            if ((sp->battlemon[sp->defence_client].hp != 0)
+             && (sp->oneSelfFlag[sp->state_client].defiant_flag)
+             && (sp->battlemon[sp->defence_client].states[STAT_SPATK] < 12)
+             && ((sp->waza_status_flag & WAZA_STATUS_FLAG_NO_OUT) == 0)
+             && ((sp->server_status_flag & SERVER_STATUS_FLAG_x20) == 0)
+             && ((sp->server_status_flag2 & SERVER_STATUS2_FLAG_x10) == 0))
+            {
+                sp->oneSelfFlag[sp->state_client].defiant_flag = 0;
+                sp->state_client = sp->defence_client;
+                sp->client_work = sp->defence_client;
+                sp->addeffect_type = ADD_EFFECT_ABILITY;
+                seq_no[0] = SUB_SEQ_HANDLE_COMPETITIVE;
                 ret = TRUE;
             }
             break;

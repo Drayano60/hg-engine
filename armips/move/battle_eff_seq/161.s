@@ -23,8 +23,7 @@ a030_161:
     changevar VAR_OP_SETMASK, VAR_06, 0x40000
     preparemessage 0x3E2, 0x2, 0x1, "NaN", "NaN", "NaN", "NaN", "NaN"
     changevar VAR_OP_SET, VAR_ADD_STATUS2, 0x2000005A
-    critcalc
-    damagecalc2
+    gotosubscript 343
     endscript
 _0104:
     printattackmessage

@@ -13,8 +13,7 @@
 
 a030_203:
     weatherballdamagecalc
-    critcalc
-    damagecalc
+    gotosubscript 343
     endscript
 
 .close

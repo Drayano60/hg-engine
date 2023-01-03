@@ -13,8 +13,7 @@
 
 a030_185:
     revengedamagecalc
-    critcalc
-    damagecalc
+    gotosubscript 343
     endscript
 
 .close

@@ -13,8 +13,7 @@
 
 a030_301:
     changevar VAR_OP_SET, VAR_ADD_STATUS2, ADD_STATUS_SCALE_SHOT | ADD_STATUS_ATTACKER
-    critcalc
-    damagecalc
+    gotosubscript 343
     endscript
 
 .close

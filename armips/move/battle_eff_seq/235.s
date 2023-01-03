@@ -13,8 +13,7 @@
 
 a030_235:
     trumpcarddamagecalc
-    critcalc
-    damagecalc
+    gotosubscript 343
     endscript
 
 .close

@@ -20,8 +20,7 @@ _0050:
     if IF_EQUAL, VAR_DEFENDER, 0xFF, _0094
 _006C:
     changevar VAR_OP_ADD, VAR_CRIT_CHANCE, 0x1
-    critcalc
-    damagecalc
+    gotosubscript 343
     changevar VAR_OP_SET, VAR_ADD_STATUS2, 0x80000008
 _0094:
     gotosubscript 259

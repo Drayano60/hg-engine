@@ -11,8 +11,7 @@
 
 a030_122:
     trypresent _0014
-    critcalc
-    damagecalc
+    gotosubscript 343
     endscript
 _0014:
     changevar2 VAR_OP_SET, VAR_BATTLER_SOMETHING, VAR_DEFENDER

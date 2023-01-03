@@ -14,8 +14,7 @@
 
 a030_274:
     changevar VAR_OP_SET, VAR_ADD_STATUS2, 0xA000008C
-    critcalc
-    damagecalc
+    gotosubscript 343
     endscript
 
 .close

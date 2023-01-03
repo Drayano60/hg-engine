@@ -13,8 +13,7 @@
 
 a030_237:
     wringoutdamagecalc
-    critcalc
-    damagecalc
+    gotosubscript 343
     endscript
 
 .close

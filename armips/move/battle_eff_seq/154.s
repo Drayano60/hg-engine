@@ -11,8 +11,7 @@
 
 a030_154:
     changevar VAR_OP_SETMASK, VAR_06, 0x8000
-    critcalc
-    beatupdamagecalc
+    gotosubscript 343
     changevar VAR_OP_SET, VAR_ADD_STATUS1, 0x20000066
     changevar VAR_OP_SETMASK, VAR_06, 0x10000
     endscript

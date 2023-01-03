@@ -13,8 +13,7 @@
 
 a030_300:
     changevar VAR_OP_SET, VAR_ADD_STATUS2, 0x20000055
-    critcalc
-    damagecalc
+    gotosubscript 343
     endscript
 
 .close

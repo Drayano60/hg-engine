@@ -12,8 +12,7 @@
 // Effect ID is used for Foul Play in calculator functions
 
 a030_294:
-    critcalc
-    damagecalc
+    gotosubscript 343
     endscript
 
 .close

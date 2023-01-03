@@ -13,8 +13,7 @@
 
 a030_297:
     changevar VAR_OP_SET, VAR_ADD_STATUS2, ADD_STATUS_INCINERATE | ADD_STATUS_WORK
-    critcalc
-    damagecalc
+    gotosubscript 343
     endscript
 
 .close

@@ -15,8 +15,7 @@
 a030_285:
     changevar VAR_OP_ADD, VAR_CRIT_CHANCE, 0x1
     changevar VAR_OP_SET, VAR_ADD_STATUS2, 0x11 | ADD_STATUS_ATTACKER
-    critcalc
-    damagecalc
+    gotosubscript 343
     endscript
 
 .close

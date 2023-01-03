@@ -11,8 +11,7 @@
 
 a030_135:
     hiddenpowerdamagecalc
-    critcalc
-    damagecalc
+    gotosubscript 343
     endscript
 
 .close

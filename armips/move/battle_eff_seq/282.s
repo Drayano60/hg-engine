@@ -15,7 +15,6 @@
 
 a030_282:
     changevar VAR_OP_SET, VAR_CRIT_CHANCE, 15
-    critcalc
-    damagecalc
+    gotosubscript 343
     endscript
 .close

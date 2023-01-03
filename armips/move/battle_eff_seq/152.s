@@ -21,8 +21,7 @@ _Confusion:
     changevar VAR_OP_SET, VAR_ADD_STATUS2, 0x80000007
 _Rest:
     changevar VAR_OP_SETMASK, VAR_06, 0x4
-    critcalc
-    damagecalc
+    gotosubscript 343
     endscript
 
 .close

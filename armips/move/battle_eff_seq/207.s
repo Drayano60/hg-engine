@@ -14,8 +14,7 @@
 
 a030_207:
     changevar VAR_OP_SETMASK, VAR_06, 0x4
-    critcalc
-    damagecalc
+    gotosubscript 343
     endscript
 
 .close

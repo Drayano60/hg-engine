@@ -14,8 +14,7 @@ a030_045:
     changevar VAR_OP_SET, VAR_DAMAGE_MULT, 0xC
 _0024:
     changevar VAR_OP_SETMASK, VAR_06, 0x1000
-    critcalc
-    damagecalc
+    gotosubscript 343
     endscript
 
 .close

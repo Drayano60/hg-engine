@@ -15,8 +15,7 @@ a030_092:
     gotosubscript 20
 _0034:
     changevar VAR_OP_SETMASK, VAR_ADD_STATUS2, 0x80000008
-    critcalc
-    damagecalc
+    gotosubscript 343
     endscript
 _0050:
     changevar VAR_OP_SETMASK, VAR_10, 0x40

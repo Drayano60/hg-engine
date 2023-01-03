@@ -14,8 +14,7 @@
 
 a030_219:
     gyroballdamagecalc
-    critcalc
-    damagecalc
+    gotosubscript 343
     endscript
 
 .close

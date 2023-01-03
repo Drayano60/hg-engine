@@ -12,8 +12,7 @@
 a030_158:
     ifmonstat2 IF_NOTEQUAL, BATTLER_ATTACKER, VAR_88, 0x19, _0034
     changevar VAR_OP_SET, VAR_ADD_STATUS2, 0x80000008
-    critcalc
-    damagecalc
+    gotosubscript 343
     endscript
 _0034:
     changevar VAR_OP_SETMASK, VAR_10, 0x40

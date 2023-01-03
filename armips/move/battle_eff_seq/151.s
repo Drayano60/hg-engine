@@ -23,8 +23,7 @@ _006C:
 _0074:
     if IF_EQUAL, VAR_DEFENDER, 0xFF, _0090
 _0088:
-    critcalc
-    damagecalc
+    gotosubscript 343
 _0090:
     gotosubscript 259
     endscript

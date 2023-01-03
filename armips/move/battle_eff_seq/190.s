@@ -13,8 +13,7 @@
 
 a030_190:
     eruptiondamagecalc
-    critcalc
-    damagecalc
+    gotosubscript 343
     endscript
 
 .close

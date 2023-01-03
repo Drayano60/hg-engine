@@ -10,8 +10,7 @@
 .create "build/move/battle_eff_seq/0_071", 0
 
 a030_071:
-    critcalc
-    damagecalc
+    gotosubscript 343
     changevar VAR_OP_SET, VAR_ADD_STATUS2, 0x80000019
     endscript
 

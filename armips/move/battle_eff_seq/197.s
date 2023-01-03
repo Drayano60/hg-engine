@@ -12,8 +12,7 @@
 // Secret Power
 
 a030_197:
-    critcalc
-    damagecalc
+    gotosubscript 343
     dosecretpower
     endscript
 

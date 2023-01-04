@@ -1201,6 +1201,7 @@ BOOL MummyAbilityCheck(struct BattleStruct *sp)
     switch(GetBattlerAbility(sp, sp->attack_client))
     {
         case ABILITY_MULTITYPE:
+        /*
         case ABILITY_ZEN_MODE:
         case ABILITY_STANCE_CHANGE:
         case ABILITY_SCHOOLING:
@@ -1211,6 +1212,7 @@ BOOL MummyAbilityCheck(struct BattleStruct *sp)
         case ABILITY_DISGUISE:
         case ABILITY_COMATOSE:
         case ABILITY_MUMMY:
+        */
             return FALSE;
         default:
             return TRUE;
@@ -1283,6 +1285,7 @@ BOOL MoveHitAttackerAbilityCheck(void *bw, struct BattleStruct *sp, int *seq_no)
                 ret = TRUE;
             }
             break;
+        /*
         case ABILITY_BEAST_BOOST:
             if ((sp->defence_client == sp->fainting_client)
                 && ((sp->server_status_flag2 & SERVER_STATUS2_FLAG_x10) == 0)
@@ -1304,6 +1307,7 @@ BOOL MoveHitAttackerAbilityCheck(void *bw, struct BattleStruct *sp, int *seq_no)
             break;
         case ABILITY_CHILLING_NEIGH:
         case ABILITY_AS_ONE_GLASTRIER:
+        */
         case ABILITY_MOXIE:
             if ((sp->defence_client == sp->fainting_client)
                 && ((sp->server_status_flag2 & SERVER_STATUS2_FLAG_x10) == 0)
@@ -1321,6 +1325,7 @@ BOOL MoveHitAttackerAbilityCheck(void *bw, struct BattleStruct *sp, int *seq_no)
                 }
             }
             break;
+        /*
         case ABILITY_GRIM_NEIGH:
         case ABILITY_AS_ONE_SPECTRIER:
             if ((sp->defence_client == sp->fainting_client)
@@ -1356,6 +1361,7 @@ BOOL MoveHitAttackerAbilityCheck(void *bw, struct BattleStruct *sp, int *seq_no)
                 }
             }
             break;
+            */
         default:
             break;
     }
@@ -1426,7 +1432,7 @@ BOOL MoveHitDefenderAbilityCheck(void *bw, struct BattleStruct *sp, int *seq_no)
             }
             break;
         case ABILITY_ROUGH_SKIN:
-        case ABILITY_IRON_BARBS:
+        // case ABILITY_IRON_BARBS:
             if ((sp->battlemon[sp->attack_client].hp)
                 && (GetBattlerAbility(sp, sp->attack_client) != ABILITY_MAGIC_GUARD)
                 && ((sp->waza_status_flag & WAZA_STATUS_FLAG_NO_OUT) == 0)
@@ -1535,6 +1541,7 @@ BOOL MoveHitDefenderAbilityCheck(void *bw, struct BattleStruct *sp, int *seq_no)
                 ret = TRUE;
             }
             break;
+        /*
         case ABILITY_INNARDS_OUT:
             if ((sp->defence_client == sp->fainting_client)
                 && (GetBattlerAbility(sp, sp->attack_client) != ABILITY_MAGIC_GUARD)
@@ -1548,6 +1555,7 @@ BOOL MoveHitDefenderAbilityCheck(void *bw, struct BattleStruct *sp, int *seq_no)
                 ret = TRUE;
             }
             break;
+        */
         //handle rattled
         case ABILITY_RATTLED:
             if ((sp->battlemon[sp->defence_client].hp)
@@ -1579,6 +1587,7 @@ BOOL MoveHitDefenderAbilityCheck(void *bw, struct BattleStruct *sp, int *seq_no)
                 }
             }
         break;
+        /*
         case ABILITY_STAMINA:
             if ((sp->battlemon[sp->defence_client].hp)
                 && (sp->battlemon[sp->defence_client].states[STAT_DEFENSE] < 12)
@@ -1596,8 +1605,9 @@ BOOL MoveHitDefenderAbilityCheck(void *bw, struct BattleStruct *sp, int *seq_no)
                 ret = TRUE;
             }
             break;
+        */
         case ABILITY_GOOEY:
-        case ABILITY_TANGLING_HAIR:
+        // case ABILITY_TANGLING_HAIR:
             if ((sp->battlemon[sp->attack_client].states[STAT_SPEED] > 0)
                 && ((sp->waza_status_flag & WAZA_STATUS_FLAG_NO_OUT) == 0)
                 && ((sp->server_status_flag & SERVER_STATUS_FLAG_x20) == 0)
@@ -1614,6 +1624,7 @@ BOOL MoveHitDefenderAbilityCheck(void *bw, struct BattleStruct *sp, int *seq_no)
                 ret = TRUE;
             }
             break;
+        /*
         case ABILITY_MUMMY:
             if (((sp->waza_status_flag & WAZA_STATUS_FLAG_NO_OUT) == 0)
                 && ((sp->server_status_flag & SERVER_STATUS_FLAG_x20) == 0)
@@ -1672,6 +1683,7 @@ BOOL MoveHitDefenderAbilityCheck(void *bw, struct BattleStruct *sp, int *seq_no)
                 }
             }
             break;
+        */
         case ABILITY_JUSTIFIED:
             if ((sp->battlemon[sp->defence_client].hp)
                 && (sp->battlemon[sp->defence_client].states[STAT_SPEED] < 12)
@@ -1780,6 +1792,7 @@ BOOL MoveHitDefenderAbilityCheck(void *bw, struct BattleStruct *sp, int *seq_no)
                 ret = TRUE;
             } 
             break;
+        /*
         case ABILITY_DISGUISE: //TODO test this
         case ABILITY_ICE_FACE:
             if ((sp->battlemon[sp->defence_client].species == SPECIES_MIMIKYU || (sp->battlemon[sp->defence_client].species == SPECIES_EISCUE && sp->moveTbl[sp->current_move_index].split == SPLIT_PHYSICAL))
@@ -1794,6 +1807,7 @@ BOOL MoveHitDefenderAbilityCheck(void *bw, struct BattleStruct *sp, int *seq_no)
                 ret = TRUE;
             }
             break;
+        */
         default:
             break;
     }

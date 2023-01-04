@@ -38,6 +38,17 @@ const AccuracyStatChangeRatio sAccStatChanges[] =
     {   3,   1 },
 };
 
+static const u16 TriageMoveEffects[] = {
+    MOVE_EFFECT_HEAL_HALF_DAMAGE_DEALT,
+    MOVE_EFFECT_DREAM_EATER,
+    MOVE_EFFECT_HEAL_HALF_MAX_HP,
+    MOVE_EFFECT_REST,
+    MOVE_EFFECT_HEAL_HP_MORE_IN_SUN,
+    MOVE_EFFECT_SWALLOW,
+    MOVE_EFFECT_WISH,
+    MOVE_EFFECT_ROOST,
+    MOVE_EFFECT_HEALING_WISH,
+};
 
 // set sp->waza_status_flag |= MOVE_STATUS_FLAG_MISS if a miss
 BOOL CalcAccuracy(void *bw, struct BattleStruct *sp, int attacker, int defender, int move_no)
@@ -565,6 +576,27 @@ u8 CalcSpeed(void *bw, struct BattleStruct *sp, int client1, int client2, int fl
         {
             priority2++;
         }
+
+        // handle triage
+        if (GetBattlerAbility(sp, client1) == ABILITY_TRIAGE) {
+            for (i = 0; i < NELEMS(TriageMoveEffects); i++)
+            {
+                if (TriageMoveEffects[i] == sp->moveTbl[move1].effect) {
+                    priority1 = priority1 + 3;
+                    break;
+                }
+            }
+        }
+
+        if (GetBattlerAbility(sp, client2) == ABILITY_TRIAGE) {
+            for (i = 0; i < NELEMS(TriageMoveEffects); i++)
+            {
+                if (TriageMoveEffects[i] == sp->moveTbl[move2].effect) {
+                    priority2 = priority2 + 3;
+                    break;
+                }
+            }
+        }
     }
 
     if (priority1 == priority2)
@@ -674,6 +706,7 @@ int CalcCritical(void *bw, struct BattleStruct *sp, int attacker, int defender, 
     u16 item;
     int hold_effect;
     u16 species;
+    u32 condition;
     u32 condition2;
     u32 move_effect;
     int multiplier = 1;
@@ -683,6 +716,7 @@ int CalcCritical(void *bw, struct BattleStruct *sp, int attacker, int defender, 
     hold_effect = BattleItemDataGet(sp, item, 1);
 
     species = sp->battlemon[attacker].species;
+    condition = sp->battlemon[defender].condition;
     condition2 = sp->battlemon[attacker].condition2;
     move_effect = sp->battlemon[defender].effect_of_moves;
     ability = sp->battlemon[attacker].ability;
@@ -697,7 +731,8 @@ int CalcCritical(void *bw, struct BattleStruct *sp, int attacker, int defender, 
     }
 
     // Move eff for Frost Breath and Storm Throw sets the critical_count to 15 explicitly.
-    if (BattleRand(bw) % CriticalRateTable[temp] == 0 || critical_count == 15)
+    // Handles Merciless here too.
+    if (BattleRand(bw) % CriticalRateTable[temp] == 0 || critical_count == 15 || (ability == ABILITY_MERCILESS && (condition & STATUS_POISON_ANY)))
     {
         if ((MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_BATTLE_ARMOR) == FALSE)
          && (MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_SHELL_ARMOR) == FALSE)

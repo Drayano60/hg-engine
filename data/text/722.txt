@@ -1,5 +1,5 @@
  -
-Has a 10% chance to make\nthe foe flinch when attacking.
+Has a 10% chance to make\nthe target flinch.
 The Pokémon makes it rain\nif it appears in battle.
 Its Speed stat is\ngradually boosted.
 The Pokémon is protected\nagainst critical hits.
@@ -155,20 +155,20 @@ Reflects status moves\ninstead of being hit.
 Grass moves do no damage\nand boost its Attack.
 Gives priority to the\nPokémon’s status moves.
 Rock, Steel, Ground moves\nare 50% stronger in sand.
-It changes type to that\nof the move it’s about to use.
+Changes the Pokémon’s\ntype to its move’s type.
 Halves the damage from\nphysical moves.
-Protects the Pokémon from\nsome ball and bomb moves.
-Sharply boosts Sp. Atk when\na stat is lowered.
-Boosts the power of\nbiting moves.
-Normal-type moves become\nIce-type and powered up.
-Powers up aura and\npulse moves.
-Powers up moves that\nmake direct contact.
-Normal-type moves become\nFairy-type and powered up.
+Gives full immunity to some\nball and bomb moves.
+Boosts its Sp. Atk sharply\nif its stats are lowered.
+Boosts the power of its\nbiting moves by 50%.
+Normal-type moves become\nIce and do 20% more.
+Boosts the power of aura\nand pulse moves by 50%.
+Powers up moves that\nmake contact by 30%.
+Normal-type moves become\nFairy and do 20% more.
 Contact with it lowers the\nattacker’s Speed stat.
-Normal-type moves become\nFlying-type and power up.
+Normal-type moves become\nFlying and do 20% more.
 Its attacks are critical hits\nwhen it is poisoned.
 Boosts the Pokémon’s\nSpeed stat in a hailstorm.
 Gives priority to\na healing move.
-Normal-type moves become\nElectric-type and powered.
+Normal-type moves become\nElectric and do 20% more.
 Resists contact damage\nbut weaker to Fire-type.
 Powers up\nslicing moves.

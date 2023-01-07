@@ -8490,19 +8490,19 @@ movedata MOVE_TOXIC_THREAD
     contesttype 0
     terminatedata
 
-movedata 565
-    battleeffect 0
-    pss SPLIT_SPECIAL
-    basepower 100
+movedata MOVE_TEARFUL_LOOK
+    battleeffect 58 // NOTE: For AI purposes, still uses intended effect
+    pss SPLIT_STATUS
+    basepower 0
     type TYPE_NORMAL
-    accuracy 100
-    pp 10
+    accuracy 0
+    pp 20
     effectchance 0
-    target 0x0000
+    target MOVE_TARGET_SELECTED
     priority 0
-    flags 0x32
-    appeal 0x10
-    contesttype CONTEST_BEAUTY
+    flags FLAG_MIRROR_MOVE | FLAG_MAGIC_COAT
+    appeal 0
+    contesttype 0
     terminatedata
     
 movedata 566

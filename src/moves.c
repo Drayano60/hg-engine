@@ -173,4 +173,5 @@ u32 move_effect_to_subscripts[] =
     [159] = 338, // new scale shot subscript
     [160] = 339, // new aurora veil subscript
     [161] = 340, // new steel beam subscript
+    [162] = 344, // new toxic thread subscript
 };

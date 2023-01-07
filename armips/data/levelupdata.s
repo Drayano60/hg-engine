@@ -2257,7 +2257,7 @@ levelup SPECIES_KRABBY
     learnset MOVE_VICE_GRIP, 6
     learnset MOVE_METAL_CLAW, 9
     learnset MOVE_MUD_SHOT, 12
-    learnset MOVE_BUBBLE_BEAM 15
+    learnset MOVE_BUBBLE_BEAM, 15
     learnset MOVE_STOMP, 18
     learnset MOVE_PROTECT, 21
     learnset MOVE_RAZOR_SHELL, 24
@@ -2279,7 +2279,7 @@ levelup SPECIES_KINGLER
     learnset MOVE_VICE_GRIP, 6
     learnset MOVE_METAL_CLAW, 9
     learnset MOVE_MUD_SHOT, 12
-    learnset MOVE_BUBBLE_BEAM 15
+    learnset MOVE_BUBBLE_BEAM, 15
     learnset MOVE_STOMP, 18
     learnset MOVE_PROTECT, 21
     learnset MOVE_RAZOR_SHELL, 24
@@ -2306,7 +2306,7 @@ levelup SPECIES_VOLTORB
     learnset MOVE_SWIFT, 18
     learnset MOVE_CHARGE_BEAM, 21
     learnset MOVE_SELF_DESTRUCT, 24
-    learnste MOVE_LIGHT_SCREEN, 27
+    learnset MOVE_LIGHT_SCREEN, 27
     learnset MOVE_MAGNET_RISE, 32
     learnset MOVE_GYRO_BALL, 36
     learnset MOVE_DISCHARGE, 40
@@ -2554,7 +2554,7 @@ levelup SPECIES_KOFFING
     learnset MOVE_TACKLE, 1
     learnset MOVE_SMOG, 4
     learnset MOVE_SMOKESCREEN, 8
-    learnset MOVE_SLUDGE,
+    learnset MOVE_SLUDGE, 12
     learnset MOVE_ASSURANCE, 16
     learnset MOVE_GYRO_BALL, 20
     learnset MOVE_HAZE, 24
@@ -2576,7 +2576,7 @@ levelup SPECIES_WEEZING
     learnset MOVE_TACKLE, 1
     learnset MOVE_SMOG, 4
     learnset MOVE_SMOKESCREEN, 8
-    learnset MOVE_SLUDGE,
+    learnset MOVE_SLUDGE, 12
     learnset MOVE_ASSURANCE, 16
     learnset MOVE_GYRO_BALL, 20
     learnset MOVE_HAZE, 24

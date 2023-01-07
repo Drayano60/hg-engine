@@ -265,11 +265,11 @@ levelup SPECIES_BEEDRILL
     learnset MOVE_TWINEEDLE, 16
     learnset MOVE_ASSURANCE, 18
     learnset MOVE_TOXIC_SPIKES, 20
-    learnset MOVE_PIN_MISSILE, 24
+    learnset MOVE_POISON_JAB, 24
     learnset MOVE_AGILITY, 28
     learnset MOVE_LUNGE, 32
-    learnset MOVE_POISON_JAB, 36
-    learnset MOVE_ENDEAVOR, 40
+    learnset MOVE_ENDEAVOR, 36
+    learnset MOVE_PIN_MISSILE, 40
     learnset MOVE_CROSS_POISON, 44
     terminatelearnset
 
@@ -4218,7 +4218,7 @@ levelup SPECIES_NOCTOWL
     learnset MOVE_SKY_ATTACK, 58
     terminatelearnset
 
-// NEW: Lunge, First Impression, Meteor Mash
+// NEW: Dual Wingbeat (HOME Datamine), Lunge, First Impression, Meteor Mash
 levelup SPECIES_LEDYBA
     learnset MOVE_SWIFT, 1
     learnset MOVE_TACKLE, 1
@@ -4234,16 +4234,17 @@ levelup SPECIES_LEDYBA
     learnset MOVE_BATON_PASS, 24
     learnset MOVE_AGILITY, 28
     learnset MOVE_LUNGE, 32
-    learnset MOVE_FIRST_IMPRESSION, 36
-    learnset MOVE_METEOR_MASH, 40
-    learnset MOVE_BUG_BUZZ, 44
+    learnset MOVE_DUAL_WINGBEAT, 36
+    learnset MOVE_FIRST_IMPRESSION, 40
+    learnset MOVE_METEOR_MASH, 44
     learnset MOVE_DOUBLE_EDGE, 48
     learnset MOVE_DYNAMIC_PUNCH, 52
     terminatelearnset
 
-// NEW: Lunge, First Impression, Meteor Mash
-// NOTE: Make a new exclusive move "Piddly Punches"?
+// NEW: Piddly Punches (Custom), Dual Wingbeat (HOME Datamine)
+// NEW: Bullet Punch, Lunge, First Impression, Meteor Mash
 levelup SPECIES_LEDIAN
+    learnset MOVE_BULLET_PUNCH, 1
     learnset MOVE_DIZZY_PUNCH, 1
     learnset MOVE_ENCORE, 1
     learnset MOVE_SWIFT, 1
@@ -4256,52 +4257,68 @@ levelup SPECIES_LEDIAN
     learnset MOVE_REFLECT, 12
     learnset MOVE_SAFEGUARD, 12
     learnset MOVE_MACH_PUNCH, 15
+    learnset MOVE_PIDDLY_PUNCHES, 18
     learnset MOVE_ACROBATICS, 20
     learnset MOVE_BATON_PASS, 24
     learnset MOVE_AGILITY, 28
     learnset MOVE_LUNGE, 32
-    learnset MOVE_FIRST_IMPRESSION, 36
-    learnset MOVE_METEOR_MASH, 40
-    learnset MOVE_BUG_BUZZ, 44
+    learnset MOVE_DUAL_WINGBEAT, 36
+    learnset MOVE_FIRST_IMPRESSION, 40
+    learnset MOVE_METEOR_MASH, 44
     learnset MOVE_DOUBLE_EDGE, 48
     learnset MOVE_DYNAMIC_PUNCH, 52
     terminatelearnset
 
+// NEW: First Impression, Poison Fang
+// Evolution: 18
 levelup SPECIES_SPINARAK
-    learnset MOVE_POISON_STING, 1 
-    learnset MOVE_STRING_SHOT, 1 
-    learnset MOVE_SCARY_FACE, 5 
-    learnset MOVE_CONSTRICT, 8 
-    learnset MOVE_LEECH_LIFE, 12 
-    learnset MOVE_NIGHT_SHADE, 15 
-    learnset MOVE_SHADOW_SNEAK, 19 
-    learnset MOVE_FURY_SWIPES, 22 
-    learnset MOVE_SUCKER_PUNCH, 26 
-    learnset MOVE_SPIDER_WEB, 29 
-    learnset MOVE_AGILITY, 33 
-    learnset MOVE_PIN_MISSILE, 36 
-    learnset MOVE_PSYCHIC, 40 
-    learnset MOVE_POISON_JAB, 43 
+    learnset MOVE_SPIDER_WEB, 1
+    learnset MOVE_POISON_STING, 1
+    learnset MOVE_STRING_SHOT, 1
+    learnset MOVE_CONSTRICT, 1
+    learnset MOVE_ABSORB, 3
+    learnset MOVE_BUG_BITE, 6
+    learnset MOVE_SHADOW_SNEAK, 9
+    learnset MOVE_SCARY_FACE, 12
+    learnset MOVE_POISON_FANG, 15
+    learnset MOVE_NIGHT_SHADE, 20
+    learnset MOVE_FURY_SWIPES, 24
+    learnset MOVE_POISON_JAB, 28
+    learnset MOVE_LEECH_LIFE, 32
+    learnset MOVE_LUNGE, 32
+    learnset MOVE_AGILITY, 36
+    learnset MOVE_FIRST_IMPRESSION, 40
+    learnset MOVE_CROSS_POISON, 44
+    learnset MOVE_SUCKER_PUNCH, 48
+    learnset MOVE_MEGAHORN, 52
     terminatelearnset
 
+// NEW: Skitter Smack (HOME Datamine), First Impression, Poison Fang
 levelup SPECIES_ARIADOS
-    learnset MOVE_BUG_BITE, 1 
-    learnset MOVE_POISON_STING, 1 
-    learnset MOVE_STRING_SHOT, 1 
-    learnset MOVE_SCARY_FACE, 1 
-    learnset MOVE_CONSTRICT, 1 
-    learnset MOVE_SCARY_FACE, 5 
-    learnset MOVE_CONSTRICT, 8 
-    learnset MOVE_LEECH_LIFE, 12 
-    learnset MOVE_NIGHT_SHADE, 15 
-    learnset MOVE_SHADOW_SNEAK, 19 
-    learnset MOVE_FURY_SWIPES, 23 
-    learnset MOVE_SUCKER_PUNCH, 28 
-    learnset MOVE_SPIDER_WEB, 32 
-    learnset MOVE_AGILITY, 37 
-    learnset MOVE_PIN_MISSILE, 41 
-    learnset MOVE_PSYCHIC, 46 
-    learnset MOVE_POISON_JAB, 50 
+    learnset MOVE_SWORDS_DANCE, 1
+    learnset MOVE_FOCUS_ENERGY, 1
+    learnset MOVE_TOXIC_SPIKES, 1
+    learnset MOVE_PIN_MISSILE, 1
+    learnset MOVE_SPIDER_WEB, 1
+    learnset MOVE_POISON_STING, 1
+    learnset MOVE_STRING_SHOT, 1
+    learnset MOVE_CONSTRICT, 1
+    learnset MOVE_ABSORB, 3
+    learnset MOVE_BUG_BITE, 6
+    learnset MOVE_SHADOW_SNEAK, 9
+    learnset MOVE_SCARY_FACE, 12
+    learnset MOVE_POISON_FANG, 15
+    learnset MOVE_SKITTER_SMACK, 18
+    learnset MOVE_NIGHT_SHADE, 20
+    learnset MOVE_FURY_SWIPES, 24
+    learnset MOVE_POISON_JAB, 28
+    learnset MOVE_LEECH_LIFE, 32
+    learnset MOVE_LUNGE, 32
+    learnset MOVE_AGILITY, 36
+    learnset MOVE_FIRST_IMPRESSION, 40
+    learnset MOVE_CROSS_POISON, 44
+    learnset MOVE_SUCKER_PUNCH, 48
+    learnset MOVE_MEGAHORN, 52
     terminatelearnset
 
 levelup SPECIES_CHINCHOU

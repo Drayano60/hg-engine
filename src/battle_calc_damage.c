@@ -68,6 +68,7 @@ static const u16 IronFistMovesTable[] = {
     MOVE_SHADOW_PUNCH,
     MOVE_SKY_UPPERCUT,
     MOVE_THUNDER_PUNCH,
+    MOVE_PIDDLY_PUNCHES, // Custom move for Ledian
 };
 
 static const u16 StrongJawMovesTable[] = {

@@ -4236,9 +4236,9 @@ levelup SPECIES_LEDYBA
     learnset MOVE_LUNGE, 32
     learnset MOVE_DUAL_WINGBEAT, 36
     learnset MOVE_FIRST_IMPRESSION, 40
+    learnset MOVE_DOUBLE_EDGE, 42
     learnset MOVE_METEOR_MASH, 44
-    learnset MOVE_DOUBLE_EDGE, 48
-    learnset MOVE_DYNAMIC_PUNCH, 52
+    learnset MOVE_DYNAMIC_PUNCH, 48
     terminatelearnset
 
 // NEW: Piddly Punches (Custom), Dual Wingbeat (HOME Datamine)
@@ -4264,9 +4264,9 @@ levelup SPECIES_LEDIAN
     learnset MOVE_LUNGE, 32
     learnset MOVE_DUAL_WINGBEAT, 36
     learnset MOVE_FIRST_IMPRESSION, 40
+    learnset MOVE_DOUBLE_EDGE, 42
     learnset MOVE_METEOR_MASH, 44
-    learnset MOVE_DOUBLE_EDGE, 48
-    learnset MOVE_DYNAMIC_PUNCH, 52
+    learnset MOVE_DYNAMIC_PUNCH, 48
     terminatelearnset
 
 // NEW: First Impression, Poison Fang
@@ -4284,13 +4284,13 @@ levelup SPECIES_SPINARAK
     learnset MOVE_NIGHT_SHADE, 20
     learnset MOVE_FURY_SWIPES, 24
     learnset MOVE_POISON_JAB, 28
-    learnset MOVE_LEECH_LIFE, 32
+    learnset MOVE_LEECH_LIFE, 30
     learnset MOVE_LUNGE, 32
     learnset MOVE_AGILITY, 36
     learnset MOVE_FIRST_IMPRESSION, 40
+    learnset MOVE_SUCKER_PUNCH, 42
     learnset MOVE_CROSS_POISON, 44
-    learnset MOVE_SUCKER_PUNCH, 48
-    learnset MOVE_MEGAHORN, 52
+    learnset MOVE_MEGAHORN, 48
     terminatelearnset
 
 // NEW: Skitter Smack (HOME Datamine), First Impression, Poison Fang
@@ -4312,13 +4312,13 @@ levelup SPECIES_ARIADOS
     learnset MOVE_NIGHT_SHADE, 20
     learnset MOVE_FURY_SWIPES, 24
     learnset MOVE_POISON_JAB, 28
-    learnset MOVE_LEECH_LIFE, 32
+    learnset MOVE_LEECH_LIFE, 30
     learnset MOVE_LUNGE, 32
     learnset MOVE_AGILITY, 36
     learnset MOVE_FIRST_IMPRESSION, 40
+    learnset MOVE_SUCKER_PUNCH, 42
     learnset MOVE_CROSS_POISON, 44
-    learnset MOVE_SUCKER_PUNCH, 48
-    learnset MOVE_MEGAHORN, 52
+    learnset MOVE_MEGAHORN, 48
     terminatelearnset
 
 levelup SPECIES_CHINCHOU

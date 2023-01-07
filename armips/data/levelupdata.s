@@ -4321,42 +4321,48 @@ levelup SPECIES_ARIADOS
     learnset MOVE_MEGAHORN, 48
     terminatelearnset
 
+// NEW: Tail Glow, Thunder Shock
 levelup SPECIES_CHINCHOU
-    learnset MOVE_BUBBLE, 1 
-    learnset MOVE_SUPERSONIC, 1 
-    learnset MOVE_THUNDER_WAVE, 6 
-    learnset MOVE_FLAIL, 9 
-    learnset MOVE_WATER_GUN, 12 
-    learnset MOVE_CONFUSE_RAY, 17 
-    learnset MOVE_SPARK, 20 
-    learnset MOVE_TAKE_DOWN, 23 
-    learnset MOVE_BUBBLE_BEAM, 28 
-    learnset MOVE_SIGNAL_BEAM, 31 
-    learnset MOVE_DISCHARGE, 34 
-    learnset MOVE_AQUA_RING, 39 
-    learnset MOVE_HYDRO_PUMP, 42 
-    learnset MOVE_CHARGE, 45 
+    learnset MOVE_FLASH, 1
+    learnset MOVE_BUBBLE, 1
+    learnset MOVE_SUPERSONIC, 1
+    learnset MOVE_THUNDER_SHOCK, 4 
+    learnset MOVE_THUNDER_WAVE, 8
+    learnset MOVE_BUBBLE_BEAM, 12
+    learnset MOVE_CONFUSE_RAY, 16
+    learnset MOVE_CHARGE_BEAM, 20
+    learnset MOVE_SIGNAL_BEAM, 24
+    learnset MOVE_DISCHARGE, 29
+    learnset MOVE_AQUA_RING, 34
+    learnset MOVE_CHARGE, 39
+    learnset MOVE_FLAIL, 44
+    learnset MOVE_TAKE_DOWN, 49
+    learnset MOVE_HYDRO_PUMP, 54
     terminatelearnset
 
+// NEW: Tail Glow, Thunder Shock
 levelup SPECIES_LANTURN
-    learnset MOVE_BUBBLE, 1 
-    learnset MOVE_SUPERSONIC, 1 
-    learnset MOVE_THUNDER_WAVE, 1 
-    learnset MOVE_THUNDER_WAVE, 6 
-    learnset MOVE_FLAIL, 9 
-    learnset MOVE_WATER_GUN, 12 
-    learnset MOVE_CONFUSE_RAY, 17 
-    learnset MOVE_SPARK, 20 
-    learnset MOVE_TAKE_DOWN, 23 
-    learnset MOVE_STOCKPILE, 27 
-    learnset MOVE_SWALLOW, 27 
-    learnset MOVE_SPIT_UP, 27 
-    learnset MOVE_BUBBLE_BEAM, 30 
-    learnset MOVE_SIGNAL_BEAM, 35 
-    learnset MOVE_DISCHARGE, 40 
-    learnset MOVE_AQUA_RING, 47 
-    learnset MOVE_HYDRO_PUMP, 52 
-    learnset MOVE_CHARGE, 57 
+    learnset MOVE_TAIL_GLOW, 1
+    learnset MOVE_STOCKPILE, 1
+    learnset MOVE_SWALLOW, 1
+    learnset MOVE_SPIT_UP, 1
+    learnset MOVE_PSYBEAM, 1
+    learnset MOVE_FLASH, 1
+    learnset MOVE_BUBBLE, 1
+    learnset MOVE_SUPERSONIC, 1
+    learnset MOVE_THUNDER_SHOCK, 4 
+    learnset MOVE_THUNDER_WAVE, 8
+    learnset MOVE_BUBBLE_BEAM, 12
+    learnset MOVE_CONFUSE_RAY, 16
+    learnset MOVE_CHARGE_BEAM, 20
+    learnset MOVE_SIGNAL_BEAM, 24
+    learnset MOVE_DAZZLING_GLEAM, 27
+    learnset MOVE_DISCHARGE, 29
+    learnset MOVE_AQUA_RING, 34
+    learnset MOVE_CHARGE, 39
+    learnset MOVE_FLAIL, 44
+    learnset MOVE_TAKE_DOWN, 49
+    learnset MOVE_HYDRO_PUMP, 54
     terminatelearnset
 
 levelup SPECIES_TOGEPI

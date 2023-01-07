@@ -1690,3 +1690,6 @@ The foe’s {STRVAR_1 1, 0, 0} used\nSavage Rend!
 {STRVAR_1 1, 0, 0} used\nPiddly Punches!
 The wild {STRVAR_1 1, 0, 0} used\nPiddly Punches!
 The foe’s {STRVAR_1 1, 0, 0} used\nPiddly Punches!
+{STRVAR_1 1, 0, 0} used\nToxic Thread!
+The wild {STRVAR_1 1, 0, 0} used\nToxic Thread!
+The foe’s {STRVAR_1 1, 0, 0} used\nToxic Thread!

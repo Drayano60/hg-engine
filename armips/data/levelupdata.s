@@ -2554,9 +2554,9 @@ levelup SPECIES_KOFFING
     learnset MOVE_TACKLE, 1
     learnset MOVE_SMOG, 4
     learnset MOVE_SMOKESCREEN, 8
-    learnset MOVE_SLUDGE, 12
-    learnset MOVE_ASSURANCE, 16
-    learnset MOVE_GYRO_BALL, 20
+    learnset MOVE_GYRO_BALL, 12
+    learnset MOVE_SLUDGE, 16
+    learnset MOVE_ASSURANCE, 20
     learnset MOVE_HAZE, 24
     learnset MOVE_SLUDGE_BOMB, 29
     learnset MOVE_SELF_DESTRUCT, 34
@@ -2576,9 +2576,9 @@ levelup SPECIES_WEEZING
     learnset MOVE_TACKLE, 1
     learnset MOVE_SMOG, 4
     learnset MOVE_SMOKESCREEN, 8
-    learnset MOVE_SLUDGE, 12
-    learnset MOVE_ASSURANCE, 16
-    learnset MOVE_GYRO_BALL, 20
+    learnset MOVE_GYRO_BALL, 12
+    learnset MOVE_SLUDGE, 16
+    learnset MOVE_ASSURANCE, 20
     learnset MOVE_HAZE, 24
     learnset MOVE_SLUDGE_BOMB, 29
     learnset MOVE_SELF_DESTRUCT, 34

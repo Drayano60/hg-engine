@@ -8476,18 +8476,63 @@ movedata MOVE_PIDDLY_PUNCHES
     terminatedata
 
 movedata MOVE_TOXIC_THREAD
-    battleeffect 20
+    battleeffect 311
     pss SPLIT_STATUS
     basepower 0
-    type TYPE_BUG
-    accuracy 95
-    pp 40
+    type TYPE_POISON
+    accuracy 100
+    pp 20
     effectchance 0
-    target MOVE_TARGET_BOTH
+    target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_MIRROR_MOVE | FLAG_MAGIC_COAT | FLAG_PROTECT
-    appeal 0x13
-    contesttype CONTEST_SMART
+    appeal 0x00
+    contesttype 0
+    terminatedata
+
+movedata 565
+    battleeffect 0
+    pss SPLIT_SPECIAL
+    basepower 100
+    type TYPE_NORMAL
+    accuracy 100
+    pp 10
+    effectchance 0
+    target 0x0000
+    priority 0
+    flags 0x32
+    appeal 0x10
+    contesttype CONTEST_BEAUTY
+    terminatedata
+    
+movedata 566
+    battleeffect 0
+    pss SPLIT_SPECIAL
+    basepower 100
+    type TYPE_NORMAL
+    accuracy 100
+    pp 10
+    effectchance 0
+    target 0x0000
+    priority 0
+    flags 0x32
+    appeal 0x10
+    contesttype CONTEST_BEAUTY
+    terminatedata
+    
+movedata 567
+    battleeffect 0
+    pss SPLIT_SPECIAL
+    basepower 100
+    type TYPE_NORMAL
+    accuracy 100
+    pp 10
+    effectchance 0
+    target 0x0000
+    priority 0
+    flags 0x32
+    appeal 0x10
+    contesttype CONTEST_BEAUTY
     terminatedata
 
 movedata NUM_OF_MOVES+1

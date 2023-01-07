@@ -10,6 +10,7 @@
 .create "build/move/move_anim/0_564", 0
 
 // Toxic Thread
+// String Shot with a flash of purple from Sludge
 
 a010_564:
     initspriteresource
@@ -42,9 +43,11 @@ a010_564:
     loadcellanm 0, 1
     addsomething 0, 1, 1, 1, 1, 1, 0, 0, 1, 3, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
     waitstate
+    callfunction 34, 6, 8, 0, 1, 31764, 14, 0, "NaN", "NaN", "NaN", "NaN"
     freeresources 0
     waitparticle
     unloadparticle 0
+    waitstate
     callfunction 33, 5, 0, 1, 12, 0, 0, "NaN", "NaN", "NaN", "NaN", "NaN"
     waitstate
     end

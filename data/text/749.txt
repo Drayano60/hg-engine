@@ -562,3 +562,4 @@ The foe is calmed by\nan aroma, lowering its\nAttack and Sp. Atk.\nThis move wil
 The user rubs its\nblazing fur together,\ncausing an explosion.\nIt has a 50% chance\nto burn what it hits.
 The user tears up the\nfoe underwater with\nits powerful jaws.\nThe foe’s Defense\nstat is also lowered.
 The user throws many\npiddly punches using\nall of its arms. This\ncan hit the foe up to\nten times in a row.
+The user shoots\npoisonous threads\nto poison the foe\nand lower the foe’s\nSpeed stat.

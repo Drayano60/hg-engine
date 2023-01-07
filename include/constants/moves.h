@@ -783,6 +783,6 @@
 #define MOVE_ASTRAL_BARRAGE 999
 #define MOVE_EERIE_SPELL 999
 
-#define NUM_OF_MOVES 565
+#define NUM_OF_MOVES 567
 
 #endif

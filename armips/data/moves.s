@@ -8408,6 +8408,7 @@ movedata MOVE_AQUA_CUTTER
     terminatedata
 
 // This is a custom move for Meganium
+// Noble Roar with priority
 movedata MOVE_SOOTHING_AROMA
     battleeffect 58 // NOTE: For AI purposes, still uses intended effect
     pss SPLIT_STATUS
@@ -8424,6 +8425,7 @@ movedata MOVE_SOOTHING_AROMA
     terminatedata
 
 // This is a custom move for Typhlosion
+// High chance to burn
 movedata MOVE_INFERNAL_BLAST
     battleeffect 4
     pss SPLIT_SPECIAL
@@ -8440,6 +8442,7 @@ movedata MOVE_INFERNAL_BLAST
     terminatedata
 
 // This is a custom move for Feraligatr
+// Guaranteed defense drop
 movedata MOVE_SAVAGE_REND
     battleeffect 69
     pss SPLIT_PHYSICAL
@@ -8448,6 +8451,23 @@ movedata MOVE_SAVAGE_REND
     accuracy 100
     pp 10
     effectchance 100
+    target MOVE_TARGET_SELECTED
+    priority 0
+    flags FLAG_KINGS_ROCK | FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
+    appeal 0x00
+    contesttype 0
+    terminatedata
+
+// This is a custom move for Ledian
+// Same effect as Population Bomb, but weaker
+movedata MOVE_PIDDLY_PUNCHES
+    battleeffect 310
+    pss SPLIT_PHYSICAL
+    basepower 10
+    type TYPE_BUG
+    accuracy 90
+    pp 10
+    effectchance 0
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_KINGS_ROCK | FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT

@@ -1687,3 +1687,6 @@ The foe’s {STRVAR_1 1, 0, 0} used\nInfernal Blast!
 {STRVAR_1 1, 0, 0} used\nSavage Rend!
 The wild {STRVAR_1 1, 0, 0} used\nSavage Rend!
 The foe’s {STRVAR_1 1, 0, 0} used\nSavage Rend!
+{STRVAR_1 1, 0, 0} used\nPiddly Punches!
+The wild {STRVAR_1 1, 0, 0} used\nPiddly Punches!
+The foe’s {STRVAR_1 1, 0, 0} used\nPiddly Punches!

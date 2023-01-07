@@ -16,6 +16,7 @@ a030_058:
     gotosubscript 341
     if IF_EQUAL, VAR_CURRENT_MOVE, MOVE_NOBLE_ROAR, AtkSpAtkDown
     if IF_EQUAL, VAR_CURRENT_MOVE, MOVE_SOOTHING_AROMA, AtkSpAtkDown
+    if IF_EQUAL, VAR_CURRENT_MOVE, MOVE_TEARFUL_LOOK, AtkSpAtkDown
     changevar VAR_OP_SET, VAR_ADD_STATUS1, 0x8000002E
     endscript
 AtkSpAtkDown:

@@ -4624,15 +4624,15 @@ levelup SPECIES_BONSLY
     learnset MOVE_FLAIL, 1
     learnset MOVE_LOW_KICK, 3
     learnset MOVE_ROCK_THROW, 6
-    learnset MOVE_HARDEN, 9
+    learnset MOVE_TEARFUL_LOOK, 9
     learnset MOVE_BLOCK, 12
     learnset MOVE_SLAM, 15
     learnset MOVE_MIMIC, 18
     learnset MOVE_FAINT_ATTACK, 21
-    learnset MOVE_TEARFUL_LOOK, 24
+    learnset MOVE_ROCK_SLIDE, 24
     learnset MOVE_SUCKER_PUNCH, 28
-    learnset MOVE_ROCK_SLIDE, 32
-    learnset MOVE_COUNTER, 36
+    learnset MOVE_COUNTER, 32
+    learnset MOVE_FOUL_PLAY, 36
     learnset MOVE_DOUBLE_EDGE, 40
     terminatelearnset
 
@@ -4641,15 +4641,15 @@ levelup SPECIES_SUDOWOODO
     learnset MOVE_FLAIL, 1
     learnset MOVE_LOW_KICK, 3
     learnset MOVE_ROCK_THROW, 6
-    learnset MOVE_HARDEN, 9
+    learnset MOVE_TEARFUL_LOOK, 9
     learnset MOVE_BLOCK, 12
     learnset MOVE_SLAM, 15
     learnset MOVE_MIMIC, 18
     learnset MOVE_FAINT_ATTACK, 21
-    learnset MOVE_TEARFUL_LOOK, 24
+    learnset MOVE_ROCK_SLIDE, 24
     learnset MOVE_SUCKER_PUNCH, 28
-    learnset MOVE_ROCK_SLIDE, 32
-    learnset MOVE_COUNTER, 36
+    learnset MOVE_COUNTER, 32
+    learnset MOVE_FOUL_PLAY, 36
     learnset MOVE_DOUBLE_EDGE, 40
     learnset MOVE_HAMMER_ARM, 44
     learnset MOVE_WOOD_HAMMER, 48

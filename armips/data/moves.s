@@ -8475,6 +8475,21 @@ movedata MOVE_PIDDLY_PUNCHES
     contesttype 0
     terminatedata
 
+movedata MOVE_TOXIC_THREAD
+    battleeffect 20
+    pss SPLIT_STATUS
+    basepower 0
+    type TYPE_BUG
+    accuracy 95
+    pp 40
+    effectchance 0
+    target MOVE_TARGET_BOTH
+    priority 0
+    flags FLAG_MIRROR_MOVE | FLAG_MAGIC_COAT | FLAG_PROTECT
+    appeal 0x13
+    contesttype CONTEST_SMART
+    terminatedata
+
 movedata NUM_OF_MOVES+1
     battleeffect 0
     pss SPLIT_SPECIAL

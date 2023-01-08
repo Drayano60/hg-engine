@@ -1690,6 +1690,7 @@ levelup SPECIES_GRAVELER
 
 // NEW: Head Smash
 levelup SPECIES_GOLEM
+    learnset MOVE_STEAMROLLER, 1
     learnset MOVE_HEAVY_SLAM, 1
     learnset MOVE_TACKLE, 1
     learnset MOVE_DEFENSE_CURL, 1
@@ -5105,17 +5106,21 @@ levelup SPECIES_FARIGIRAF
     learnset MOVE_FUTURE_SIGHT, 56
     terminatelearnset
 
+// NEW: Steamroller
 levelup SPECIES_PINECO
     learnset MOVE_BIDE, 1
     learnset MOVE_TACKLE, 1
     learnset MOVE_PROTECT, 1
-    learnset MOVE_BUG_BITE, 4
-    learnset MOVE_SELF_DESTRUCT, 8
-    learnset MOVE_RAPID_SPIN, 12
-    learnset MOVE_TAKE_DOWN, 16
-    learnset MOVE_ROLLOUT, 20
+    learnset MOVE_BUG_BITE, 3
+    learnset MOVE_SELF_DESTRUCT, 6
+    learnset MOVE_RAPID_SPIN, 9
+    learnset MOVE_ROLLOUT, 12
+    learnset MOVE_TAKE_DOWN, 15
+    learnset MOVE_NATURAL_GIFT, 18
+    learnset MOVE_STEAMROLLER, 21
     learnset MOVE_CURSE, 24
-    learnset MOVE_SPIKES, 28
+    learnset MOVE_SPIKES, 27
+    learnset MOVE_PAYBACK, 30
     learnset MOVE_GYRO_BALL, 34
     learnset MOVE_PIN_MISSILE, 39
     learnset MOVE_IRON_DEFENSE, 44
@@ -5123,22 +5128,27 @@ levelup SPECIES_PINECO
     learnset MOVE_EXPLOSION, 54
     terminatelearnset
 
+// NEW: Steamroller
 levelup SPECIES_FORRETRESS
     learnset MOVE_TOXIC_SPIKES, 1
     learnset MOVE_BODY_PRESS, 1
     learnset MOVE_ROCK_BLAST, 1
     learnset MOVE_MAGNET_RISE, 1
     learnset MOVE_MIRROR_SHOT, 1
+    learnset MOVE_POWER_TRICK, 1
     learnset MOVE_BIDE, 1
     learnset MOVE_TACKLE, 1
     learnset MOVE_PROTECT, 1
-    learnset MOVE_BUG_BITE, 4
-    learnset MOVE_SELF_DESTRUCT, 8
-    learnset MOVE_RAPID_SPIN, 12
-    learnset MOVE_TAKE_DOWN, 16
-    learnset MOVE_ROLLOUT, 20
+    learnset MOVE_BUG_BITE, 3
+    learnset MOVE_SELF_DESTRUCT, 6
+    learnset MOVE_RAPID_SPIN, 9
+    learnset MOVE_ROLLOUT, 12
+    learnset MOVE_TAKE_DOWN, 15
+    learnset MOVE_NATURAL_GIFT, 18
+    learnset MOVE_STEAMROLLER, 21
     learnset MOVE_CURSE, 24
-    learnset MOVE_SPIKES, 28
+    learnset MOVE_SPIKES, 27
+    learnset MOVE_PAYBACK, 30
     learnset MOVE_HEAVY_SLAM, 31
     learnset MOVE_GYRO_BALL, 34
     learnset MOVE_PIN_MISSILE, 39

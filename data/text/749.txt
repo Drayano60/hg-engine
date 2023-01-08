@@ -564,3 +564,4 @@ The user tears up the\nfoe underwater with\nits powerful jaws.\nThe foe’s Defe
 The user throws many\npiddly punches using\nall of its arms. This\ncan hit the foe up to\nten times in a row.
 The user shoots\npoisonous threads\nto poison the foe\nand lower the foe’s\nSpeed stat.
 The user gets teary-\neyed to make the foe\nlose its will to fight.\nThis lowers the foe’s\nAttack and Sp. Atk. 
+The user retaliates\nagainst the foe that\nlast inflicted damage\non it with much\ngreater power.

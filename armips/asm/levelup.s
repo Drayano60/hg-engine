@@ -94,7 +94,7 @@
     lsr r0, #1
     strh r1, [r7, r0]
     lsl r0, #1
-    ldr r3, [r7, r0]
+    ldrh r3, [r7, r0]
     mov r1, #0
     add r6, sp, #0x10 // currMoveSet
     

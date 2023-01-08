@@ -8505,19 +8505,19 @@ movedata MOVE_TEARFUL_LOOK
     contesttype 0
     terminatedata
     
-movedata 566
-    battleeffect 0
-    pss SPLIT_SPECIAL
-    basepower 100
-    type TYPE_NORMAL
+movedata MOVE_COMEUPPANCE
+    battleeffect 227
+    pss SPLIT_PHYSICAL
+    basepower 1
+    type TYPE_DARK
     accuracy 100
     pp 10
     effectchance 0
-    target 0x0000
+    target MOVE_TARGET_DEPENDS
     priority 0
-    flags 0x32
-    appeal 0x10
-    contesttype CONTEST_BEAUTY
+    flags FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
+    appeal 0
+    contesttype 0
     terminatedata
     
 movedata 567

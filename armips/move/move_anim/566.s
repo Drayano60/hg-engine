@@ -10,7 +10,7 @@
 .create "build/move/move_anim/0_566", 0
 
 // Comeuppance
-// Payback copy
+// Payback copy with red bg
 
 a010_566:
     initspriteresource
@@ -50,7 +50,7 @@ a010_566:
     unloadparticle 0
 
     callfunction 33, 5, 0, 1, 12, 0, 2124, "NaN", "NaN", "NaN", "NaN", "NaN"
-    
+
     end
 
 .close

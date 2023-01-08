@@ -8520,19 +8520,19 @@ movedata MOVE_COMEUPPANCE
     contesttype 0
     terminatedata
     
-movedata 567
-    battleeffect 0
-    pss SPLIT_SPECIAL
-    basepower 100
-    type TYPE_NORMAL
+movedata MOVE_STEAMROLLER
+    battleeffect 150
+    pss SPLIT_PHYSICAL
+    basepower 65
+    type TYPE_BUG
     accuracy 100
-    pp 10
-    effectchance 0
-    target 0x0000
+    pp 20
+    effectchance 30
+    target MOVE_TARGET_SELECTED
     priority 0
-    flags 0x32
-    appeal 0x10
-    contesttype CONTEST_BEAUTY
+    flags FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_CONTACT
+    appeal 0
+    contesttype 0
     terminatedata
 
 movedata NUM_OF_MOVES+1

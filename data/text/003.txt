@@ -1696,3 +1696,6 @@ The foe’s {STRVAR_1 1, 0, 0} used\nToxic Thread!
 {STRVAR_1 1, 0, 0} used\nTearful Look!
 The wild {STRVAR_1 1, 0, 0} used\nTearful Look!
 The foe’s {STRVAR_1 1, 0, 0} used\nTearful Look!
+{STRVAR_1 1, 0, 0} used\nComeuppance!
+The wild {STRVAR_1 1, 0, 0} used\nComeuppance!
+The foe’s {STRVAR_1 1, 0, 0} used\nComeuppance!

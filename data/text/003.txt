@@ -1699,3 +1699,6 @@ The foe’s {STRVAR_1 1, 0, 0} used\nTearful Look!
 {STRVAR_1 1, 0, 0} used\nComeuppance!
 The wild {STRVAR_1 1, 0, 0} used\nComeuppance!
 The foe’s {STRVAR_1 1, 0, 0} used\nComeuppance!
+{STRVAR_1 1, 0, 0} used\nSteamroller!
+The wild {STRVAR_1 1, 0, 0} used\nSteamroller!
+The foe’s {STRVAR_1 1, 0, 0} used\nSteamroller!

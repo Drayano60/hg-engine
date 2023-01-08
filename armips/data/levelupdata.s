@@ -5355,20 +5355,26 @@ levelup SPECIES_SHUCKLE
     terminatelearnset
 
 levelup SPECIES_HERACROSS
-    learnset MOVE_NIGHT_SLASH, 1 
-    learnset MOVE_TACKLE, 1 
-    learnset MOVE_LEER, 1 
-    learnset MOVE_HORN_ATTACK, 1 
-    learnset MOVE_ENDURE, 1 
-    learnset MOVE_FURY_ATTACK, 7 
-    learnset MOVE_AERIAL_ACE, 13 
-    learnset MOVE_BRICK_BREAK, 19 
-    learnset MOVE_COUNTER, 25 
-    learnset MOVE_TAKE_DOWN, 31 
-    learnset MOVE_CLOSE_COMBAT, 37 
-    learnset MOVE_REVERSAL, 43 
-    learnset MOVE_FEINT, 49 
-    learnset MOVE_MEGAHORN, 55 
+    learnset MOVE_ARM_THRUST, 1
+    learnset MOVE_BRUTAL_SWING, 1
+    learnset MOVE_BULLET_SEED, 1
+    learnset MOVE_TACKLE, 1
+    learnset MOVE_LEER, 1
+    learnset MOVE_ENDURE, 1
+    learnset MOVE_HORN_ATTACK, 4
+    learnset MOVE_FURY_ATTACK, 8
+    learnset MOVE_BUG_BITE, 12
+    learnset MOVE_AERIAL_ACE, 16
+    learnset MOVE_BRICK_BREAK, 20
+    learnset MOVE_TAKE_DOWN, 24
+    learnset MOVE_PIN_MISSILE, 28
+    learnset MOVE_NIGHT_SLASH, 32
+    learnset MOVE_COUNTER, 36
+    learnset MOVE_THRASH, 40
+    learnset MOVE_MEGAHORN, 44
+    learnset MOVE_SWORDS_DANCE, 48
+    learnset MOVE_CLOSE_COMBAT, 52
+    learnset MOVE_REVERSAL, 56
     terminatelearnset
 
 levelup SPECIES_SNEASEL

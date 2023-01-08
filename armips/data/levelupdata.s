@@ -4938,17 +4938,46 @@ levelup SPECIES_QUAGSIRE
     terminatelearnset
 
 levelup SPECIES_MURKROW
-    learnset MOVE_PECK, 1 
-    learnset MOVE_ASTONISH, 1 
-    learnset MOVE_PURSUIT, 5 
-    learnset MOVE_HAZE, 11 
-    learnset MOVE_WING_ATTACK, 15 
-    learnset MOVE_NIGHT_SHADE, 21 
-    learnset MOVE_ASSURANCE, 25 
-    learnset MOVE_TAUNT, 31 
-    learnset MOVE_FAINT_ATTACK, 35 
-    learnset MOVE_MEAN_LOOK, 41 
-    learnset MOVE_SUCKER_PUNCH, 45 
+    learnset MOVE_PECK, 1
+    learnset MOVE_ASTONISH, 1
+    learnset MOVE_PURSUIT, 4
+    learnset MOVE_HAZE, 8
+    learnset MOVE_WING_ATTACK, 12
+    learnset MOVE_NIGHT_SHADE, 16
+    learnset MOVE_ASSURANCE, 20
+    learnset MOVE_TAUNT, 24
+    learnset MOVE_TORMENT, 24
+    learnset MOVE_FAINT_ATTACK, 28
+    learnset MOVE_DRILL_PECK, 32
+    learnset MOVE_MEAN_LOOK, 36
+    learnset MOVE_TAILWIND, 40
+    learnset MOVE_FOUL_PLAY, 44
+    learnset MOVE_DARK_PULSE, 48
+    learnset MOVE_SUCKER_PUNCH, 52
+    learnset MOVE_BRAVE_BIRD, 56
+    terminatelearnset
+
+levelup SPECIES_HONCHKROW
+    learnset MOVE_NASTY_PLOT, 1
+    learnset MOVE_NIGHT_SLASH, 1
+    learnset MOVE_SWAGGER, 1
+    learnset MOVE_PECK, 1
+    learnset MOVE_ASTONISH, 1
+    learnset MOVE_PURSUIT, 4
+    learnset MOVE_HAZE, 8
+    learnset MOVE_WING_ATTACK, 12
+    learnset MOVE_NIGHT_SHADE, 16
+    learnset MOVE_ASSURANCE, 20
+    learnset MOVE_TAUNT, 24
+    learnset MOVE_TORMENT, 24
+    learnset MOVE_FAINT_ATTACK, 28
+    learnset MOVE_DRILL_PECK, 32
+    learnset MOVE_MEAN_LOOK, 36
+    learnset MOVE_TAILWIND, 40
+    learnset MOVE_FOUL_PLAY, 44
+    learnset MOVE_DARK_PULSE, 48
+    learnset MOVE_SUCKER_PUNCH, 52
+    learnset MOVE_BRAVE_BIRD, 56
     terminatelearnset
 
 levelup SPECIES_MISDREAVUS
@@ -8487,17 +8516,6 @@ levelup SPECIES_MISMAGIUS
     learnset MOVE_PSYWAVE, 1 
     learnset MOVE_SPITE, 1 
     learnset MOVE_ASTONISH, 1 
-    terminatelearnset
-
-levelup SPECIES_HONCHKROW
-    learnset MOVE_ASTONISH, 1 
-    learnset MOVE_PURSUIT, 1 
-    learnset MOVE_HAZE, 1 
-    learnset MOVE_WING_ATTACK, 1 
-    learnset MOVE_SWAGGER, 25 
-    learnset MOVE_NASTY_PLOT, 35 
-    learnset MOVE_NIGHT_SLASH, 45 
-    learnset MOVE_DARK_PULSE, 55 
     terminatelearnset
 
 levelup SPECIES_GLAMEOW

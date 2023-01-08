@@ -5106,7 +5106,7 @@ levelup SPECIES_FARIGIRAF
     learnset MOVE_FUTURE_SIGHT, 56
     terminatelearnset
 
-// NEW: Steamroller
+// NEW: Shell Smash, Steamroller
 levelup SPECIES_PINECO
     learnset MOVE_BIDE, 1
     learnset MOVE_TACKLE, 1
@@ -5125,10 +5125,11 @@ levelup SPECIES_PINECO
     learnset MOVE_PIN_MISSILE, 39
     learnset MOVE_IRON_DEFENSE, 44
     learnset MOVE_DOUBLE_EDGE, 49
-    learnset MOVE_EXPLOSION, 54
+    learnset MOVE_SHELL_SMASH, 54
+    learnset MOVE_EXPLOSION, 59
     terminatelearnset
 
-// NEW: Steamroller
+// NEW: Shell Smash, Steamroller
 levelup SPECIES_FORRETRESS
     learnset MOVE_TOXIC_SPIKES, 1
     learnset MOVE_BODY_PRESS, 1
@@ -5154,25 +5155,58 @@ levelup SPECIES_FORRETRESS
     learnset MOVE_PIN_MISSILE, 39
     learnset MOVE_IRON_DEFENSE, 44
     learnset MOVE_DOUBLE_EDGE, 49
-    learnset MOVE_EXPLOSION, 54
-    learnset MOVE_ZAP_CANNON, 59
+    learnset MOVE_SHELL_SMASH, 54
+    learnset MOVE_EXPLOSION, 59
+    learnset MOVE_ZAP_CANNON, 64
     terminatelearnset
     
 levelup SPECIES_DUNSPARCE
-    learnset MOVE_RAGE, 1 
-    learnset MOVE_DEFENSE_CURL, 5 
-    learnset MOVE_YAWN, 9 
-    learnset MOVE_GLARE, 13 
-    learnset MOVE_ROLLOUT, 17 
-    learnset MOVE_SPITE, 21 
-    learnset MOVE_PURSUIT, 25 
-    learnset MOVE_SCREECH, 29 
-    learnset MOVE_ROOST, 33 
-    learnset MOVE_TAKE_DOWN, 37 
-    learnset MOVE_ANCIENT_POWER, 41 
-    learnset MOVE_DIG, 45 
-    learnset MOVE_ENDEAVOR, 49 
-    learnset MOVE_FLAIL, 53 
+    learnset MOVE_RAGE, 1
+    learnset MOVE_FLAIL, 1
+    learnset MOVE_DEFENSE_CURL, 1
+    learnset MOVE_MUD_SLAP, 3
+    learnset MOVE_PURSUIT, 6
+    learnset MOVE_SPITE, 9
+    learnset MOVE_GLARE, 12
+    learnset MOVE_ROLLOUT, 15
+    learnset MOVE_SCREECH, 18
+    learnset MOVE_BODY_SLAM, 21
+    learnset MOVE_ANCIENT_POWER, 24
+    learnset MOVE_DRILL_RUN, 27
+    learnset MOVE_YAWN, 30
+    learnset MOVE_HYPER_DRILL, 33
+    learnset MOVE_AIR_SLASH, 36
+    learnset MOVE_ROOST, 39
+    learnset MOVE_COIL, 42
+    learnset MOVE_DRAGON_RUSH, 45
+    learnset MOVE_DOUBLE_EDGE, 48
+    learnset MOVE_ENDEAVOR, 51
+    terminatelearnset
+
+levelup SPECIES_DUDUNSPARCE
+    learnset MOVE_HYPER_VOICE, 1
+    learnset MOVE_RAGE, 1
+    learnset MOVE_FLAIL, 1
+    learnset MOVE_DEFENSE_CURL, 1
+    learnset MOVE_MUD_SLAP, 3
+    learnset MOVE_PURSUIT, 6
+    learnset MOVE_SPITE, 9
+    learnset MOVE_GLARE, 12
+    learnset MOVE_ROLLOUT, 15
+    learnset MOVE_SCREECH, 18
+    learnset MOVE_BODY_SLAM, 21
+    learnset MOVE_ANCIENT_POWER, 24
+    learnset MOVE_DRILL_RUN, 27
+    learnset MOVE_YAWN, 30
+    learnset MOVE_HYPER_DRILL, 33
+    learnset MOVE_AIR_SLASH, 36
+    learnset MOVE_ROOST, 39
+    learnset MOVE_COIL, 42
+    learnset MOVE_DRAGON_RUSH, 45
+    learnset MOVE_DOUBLE_EDGE, 48
+    learnset MOVE_ENDEAVOR, 51
+    learnset MOVE_HURRICANE, 54
+    learnset MOVE_BOOMBURST, 57
     terminatelearnset
 
 levelup SPECIES_GLIGAR
@@ -9747,23 +9781,6 @@ levelup SPECIES_URSALUNA
     learnset MOVE_SNORE, 49 
     learnset MOVE_THRASH, 58 
     learnset MOVE_HAMMER_ARM, 67 
-    terminatelearnset
-
-levelup SPECIES_DUDUNSPARCE
-    learnset MOVE_RAGE, 1 
-    learnset MOVE_DEFENSE_CURL, 5 
-    learnset MOVE_YAWN, 9 
-    learnset MOVE_GLARE, 13 
-    learnset MOVE_ROLLOUT, 17 
-    learnset MOVE_SPITE, 21 
-    learnset MOVE_PURSUIT, 25 
-    learnset MOVE_SCREECH, 29 
-    learnset MOVE_ROOST, 33 
-    learnset MOVE_TAKE_DOWN, 37 
-    learnset MOVE_ANCIENT_POWER, 41 
-    learnset MOVE_DIG, 45 
-    learnset MOVE_ENDEAVOR, 49 
-    learnset MOVE_FLAIL, 53 
     terminatelearnset
 
 levelup SPECIES_OSHAWOTT

@@ -4960,6 +4960,7 @@ levelup SPECIES_MURKROW
 levelup SPECIES_HONCHKROW
     learnset MOVE_NASTY_PLOT, 1
     learnset MOVE_NIGHT_SLASH, 1
+    learnset MOVE_COMEUPPANCE, 1
     learnset MOVE_SWAGGER, 1
     learnset MOVE_PECK, 1
     learnset MOVE_ASTONISH, 1

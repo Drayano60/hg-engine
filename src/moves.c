@@ -175,3 +175,9 @@ u32 move_effect_to_subscripts[] =
     [161] = 340, // new steel beam subscript
     [162] = 344, // new toxic thread subscript
 };
+
+
+void GetMoveDataTable(void *dest)
+{
+    ArchiveDataLoadOfs(dest, ARC_MOVE_DATA, 0, 0, 16*(NUM_OF_MOVES+1));
+}

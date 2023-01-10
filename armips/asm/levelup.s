@@ -98,7 +98,7 @@
     mov r1, #0
     add r6, sp, #0x10 // currMoveSet
     
-_moveLoop:
+_moveLoop: // r1 is loop index, r6 is currMoveSet
     lsl r5, r1, #1
     ldrh r5, [r6, r5]
     cmp r3, r5

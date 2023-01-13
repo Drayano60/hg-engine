@@ -963,15 +963,9 @@ heightentry SPECIES_GLASTRIER, 0, 0, 0, 0
 heightentry SPECIES_SPECTRIER, 0, 0, 0, 0
 heightentry SPECIES_CALYREX, 0, 0, 0, 0
 
-<<<<<<< HEAD
 heightentry SPECIES_X_WYRDEER, 18, 18, 22, 22
 heightentry SPECIES_X_KLEAVOR, 18, 18, 22, 22
 heightentry SPECIES_X_URSALUNA, 18, 18, 22, 22
-=======
-heightentry SPECIES_WYRDEER, 3, 3, 0, 0
-heightentry SPECIES_KLEAVOR, 3, 3, 0, 0
-heightentry SPECIES_URSALUNA, 3, 3, 0, 0
->>>>>>> main
 heightentry SPECIES_BASCULEGION, 12, 12, 0, 0
 heightentry SPECIES_SNEASLER, 3, 3, 2, 2
 heightentry SPECIES_OVERQWIL, 3, 3, 0, 0

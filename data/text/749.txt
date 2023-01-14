@@ -566,3 +566,7 @@ The user shoots\npoisonous threads\nto poison the foe\nand lower the foe’s\nSp
 The user gets teary-\neyed to make the foe\nlose its will to fight.\nThis lowers the foe’s\nAttack and Sp. Atk. 
 The user retaliates\nagainst the foe that\nlast inflicted damage\non it with much\ngreater power.
 The user crushes the\nfoe by rolling over\nthem with its body.\nThis has a 30% chance\nto make them flinch.
+The user uses its\nbody like a hammer\nto attack the target\nand inflict damage.
+The user and foe\nbecome friends, and\nthe foe loses its will\nto fight. This lowers\nthe foe’s Attack.
+The user tells the\nfoe a secret, so they\ncan’t concentrate.\nThis lowers the foe’s\nSp. Atk stat.
+The user beats the\nfoe with a bone that\ncontains a spirit.\nThis has a 20% chance\nto lower Defense.

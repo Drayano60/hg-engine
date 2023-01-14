@@ -13,7 +13,7 @@
 
 a030_021:
     gotosubscript 341
-    changevar VAR_OP_SET, VAR_ADD_STATUS1, 0x80000031
+    changevar VAR_OP_SET, VAR_ADD_STATUS1, 0x80000019
     endscript
 
 .close

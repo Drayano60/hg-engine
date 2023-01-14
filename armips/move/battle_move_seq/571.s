@@ -7,13 +7,9 @@
 .include "armips/include/monnums.s"
 .include "armips/include/movenums.s"
 
-.create "build/move/battle_eff_seq/0_022", 0
+.create "build/move/battle_move_seq/0_571", 0
 
-// -1 SpDef
-
-a030_022:
-    gotosubscript 341
-    changevar VAR_OP_SET, VAR_ADD_STATUS1, 0x8000001A
-    endscript
+a000_571:
+    jumptocurmoveeffectscript
 
 .close

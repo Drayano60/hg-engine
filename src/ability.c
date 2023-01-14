@@ -1608,7 +1608,7 @@ BOOL MoveHitDefenderAbilityCheck(void *bw, struct BattleStruct *sp, int *seq_no)
             break;
         */
         case ABILITY_GOOEY:
-        // case ABILITY_TANGLING_HAIR:
+        case ABILITY_TANGLING_HAIR:
             if ((sp->battlemon[sp->attack_client].states[STAT_SPEED] > 0)
                 && ((sp->waza_status_flag & WAZA_STATUS_FLAG_NO_OUT) == 0)
                 && ((sp->server_status_flag & SERVER_STATUS_FLAG_x20) == 0)

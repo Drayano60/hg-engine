@@ -8535,6 +8535,66 @@ movedata MOVE_STEAMROLLER
     contesttype 0
     terminatedata
 
+movedata MOVE_DRAGON_HAMMER
+    battleeffect 0
+    pss SPLIT_PHYSICAL
+    basepower 90
+    type TYPE_DRAGON
+    accuracy 100
+    pp 15
+    effectchance 0
+    target MOVE_TARGET_SELECTED
+    priority 0
+    flags FLAG_CONTACT | FLAG_PROTECT | MOVE_MIRROR_MOVE | FLAG_KINGS_ROCK
+    appeal 0
+    contesttype 0
+    terminatedata
+
+movedata MOVE_PLAY_NICE
+    battleeffect 18
+    pss SPLIT_STATUS
+    basepower 0
+    type TYPE_NORMAL
+    accuracy 0
+    pp 20
+    effectchance 0
+    target MOVE_TARGET_SELECTED
+    priority 0
+    flags FLAG_KEEP_HP_BAR | FLAG_MIRROR_MOVE | FLAG_MAGIC_COAT
+    appeal 0
+    contesttype 0
+    terminatedata
+
+movedata MOVE_CONFIDE
+    battleeffect 21
+    pss SPLIT_STATUS
+    basepower 0
+    type TYPE_NORMAL
+    accuracy 0
+    pp 20
+    effectchance 0
+    target MOVE_TARGET_SELECTED
+    priority 0
+    flags FLAG_KEEP_HP_BAR | FLAG_MIRROR_MOVE | FLAG_MAGIC_COAT
+    appeal 0
+    contesttype 0
+    terminatedata
+
+movedata MOVE_SHADOW_BONE
+    battleeffect 69
+    pss SPLIT_PHYSICAL
+    basepower 85
+    type TYPE_GHOST
+    accuracy 100
+    pp 10
+    effectchance 20
+    target MOVE_TARGET_SELECTED
+    priority 0
+    flags FLAG_PROTECT | MOVE_MIRROR_MOVE | FLAG_KINGS_ROCK
+    appeal 0
+    contesttype 0
+    terminatedata
+
 movedata NUM_OF_MOVES+1
     battleeffect 0
     pss SPLIT_SPECIAL

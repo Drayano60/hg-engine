@@ -1702,3 +1702,15 @@ The foe’s {STRVAR_1 1, 0, 0} used\nComeuppance!
 {STRVAR_1 1, 0, 0} used\nSteamroller!
 The wild {STRVAR_1 1, 0, 0} used\nSteamroller!
 The foe’s {STRVAR_1 1, 0, 0} used\nSteamroller!
+{STRVAR_1 1, 0, 0} used\nDragon Hammer!
+The wild {STRVAR_1 1, 0, 0} used\nDragon Hammer!
+The foe’s {STRVAR_1 1, 0, 0} used\nDragon Hammer!
+{STRVAR_1 1, 0, 0} used\nPlay Nice!
+The wild {STRVAR_1 1, 0, 0} used\nPlay Nice!
+The foe’s {STRVAR_1 1, 0, 0} used\nPlay Nice!
+{STRVAR_1 1, 0, 0} used\nConfide!
+The wild {STRVAR_1 1, 0, 0} used\nConfide!
+The foe’s {STRVAR_1 1, 0, 0} used\nConfide!
+{STRVAR_1 1, 0, 0} used\nShadow Bone!
+The wild {STRVAR_1 1, 0, 0} used\nShadow Bone!
+The foe’s {STRVAR_1 1, 0, 0} used\nShadow Bone!

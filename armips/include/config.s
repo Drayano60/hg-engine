@@ -11,7 +11,7 @@ FAIRY_TYPE_IMPLEMENTED equ 1
 
 // ALLOW_SAVE_CHANGES tells the assembler that it can build the code that pertains to expanding the save data for extra fields for our usage.
 // this is required for dex expansion and will break PKHeX compatibility!  comment this line out to prevent save changes from being made.
-.definelabel ALLOW_SAVE_CHANGES, 0
+// .definelabel ALLOW_SAVE_CHANGES, 0
 
 // DEBUG_NEEDS_TESTING defines in progress implementations that may not necessarily function.
 DEBUG_NEEDS_TESTING equ 0

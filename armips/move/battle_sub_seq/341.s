@@ -20,7 +20,8 @@
 
 a001_341:
     // 149 is the Assault Vest held item effect ID.
-    // If the Pokemon is not holding the Assault Vest, just end the subscript.
+    // If the Pokemon is not holding the Assault Vest or the Pokemon has Klutz, just end the subscript.
+    abilitycheck 0x0, BATTLER_ATTACKER, ABILITY_KLUTZ, End
     checkitemeffect 0x1, BATTLER_ATTACKER, 149, End      
     changevar VAR_OP_SETMASK, VAR_10, 0x40
 End:

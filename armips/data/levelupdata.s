@@ -563,7 +563,8 @@ levelup SPECIES_RAICHU
     learnset MOVE_THUNDER, 48
     learnset MOVE_VOLT_TACKLE, 52
     terminatelearnset
-    
+
+// NEW: Double Kick (LGPE)
 levelup SPECIES_RAICHU_ALOLAN
     learnset MOVE_PSYCHIC, 1
     learnset MOVE_FAKE_OUT, 1
@@ -1170,7 +1171,7 @@ levelup SPECIES_BELLOSSOM
     learnset MOVE_GIGA_DRAIN, 30
     learnset MOVE_NATURAL_GIFT, 34
     learnset MOVE_MOONLIGHT, 38
-    learnset MOVE_TOXIC, 42
+    learnset MOVE_CAPTIVATE, 42
     learnset MOVE_MOONBLAST, 46
     learnset MOVE_PETAL_DANCE, 50
     learnset MOVE_QUIVER_DANCE, 54

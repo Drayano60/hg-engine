@@ -175,3 +175,4 @@ Contact with it lowers the\nattacker’s Speed stat.
 Powers up slicing moves\nby 33%.
 The Pokémon’s fur stops\nit taking recoil damage.
 Odd steps foul a foe’s aim,\nreducing accuracy by 25%.
+Contact with the Pokémon\nwill burn the foe.

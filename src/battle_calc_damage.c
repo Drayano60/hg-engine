@@ -759,24 +759,19 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
     }
 
     // handle "in a pinch" type boosters
-    if ((movetype == TYPE_GRASS) && (AttackingMon.ability == ABILITY_OVERGROW) && (AttackingMon.hp <= AttackingMon.maxhp * 10 / 30))
-    {
-        movepower = movepower * 150 / 100;
-    }
-
-    if ((movetype == TYPE_FIRE) && (AttackingMon.ability == ABILITY_BLAZE) && (AttackingMon.hp <= AttackingMon.maxhp * 10 / 30))
-    {
-        movepower = movepower * 150 / 100;
-    }
-
-    if ((movetype == TYPE_WATER) && (AttackingMon.ability == ABILITY_TORRENT) && (AttackingMon.hp <= AttackingMon.maxhp * 10 / 30))
-    {
-        movepower = movepower * 150 / 100;
-    }
-
-    if ((movetype == TYPE_BUG) && (AttackingMon.ability == ABILITY_SWARM) && (AttackingMon.hp <= AttackingMon.maxhp * 10 / 30))
-    {
-        movepower = movepower * 150 / 100;
+    if (
+        (movetype == TYPE_GRASS && AttackingMon.ability == ABILITY_OVERGROW)
+        || (movetype == TYPE_FIRE && AttackingMon.ability == ABILITY_BLAZE)
+        || (movetype == TYPE_WATER && AttackingMon.ability == ABILITY_TORRENT)
+        || (movetype == TYPE_BUG && AttackingMon.ability == ABILITY_SWARM)
+    ) {
+        // If below or equal to 33% HP, boost power by 50%.
+        // Otherwise, boost power by 20%.
+        if (AttackingMon.hp <= AttackingMon.maxhp * 10 / 30) {
+            movepower = movepower * 150 / 100;
+        } else {
+            movepower = movepower * 120 / 100;
+        }
     }
 
     // handle ice scales - halve damage if move is special, regardless of if it uses defense stat

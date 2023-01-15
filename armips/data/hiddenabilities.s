@@ -257,15 +257,15 @@
 /* SPECIES_LUGIA                       */ .halfword ABILITY_MULTISCALE
 /* SPECIES_HO_OH                       */ .halfword ABILITY_REGENERATOR
 /* SPECIES_CELEBI                      */ .halfword ABILITY_NONE
-/* SPECIES_TREECKO                     */ .halfword ABILITY_UNBURDEN
-/* SPECIES_GROVYLE                     */ .halfword ABILITY_UNBURDEN
-/* SPECIES_SCEPTILE                    */ .halfword ABILITY_UNBURDEN
+/* SPECIES_TREECKO                     */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_RUN_AWAY : ABILITY_UNBURDEN
+/* SPECIES_GROVYLE                     */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_SHARPNESS : ABILITY_UNBURDEN
+/* SPECIES_SCEPTILE                    */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_SHARPNESS : ABILITY_UNBURDEN
 /* SPECIES_TORCHIC                     */ .halfword ABILITY_SPEED_BOOST
 /* SPECIES_COMBUSKEN                   */ .halfword ABILITY_SPEED_BOOST
 /* SPECIES_BLAZIKEN                    */ .halfword ABILITY_SPEED_BOOST
-/* SPECIES_MUDKIP                      */ .halfword ABILITY_DAMP
-/* SPECIES_MARSHTOMP                   */ .halfword ABILITY_DAMP
-/* SPECIES_SWAMPERT                    */ .halfword ABILITY_DAMP
+/* SPECIES_MUDKIP                      */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_ANTICIPATION : ABILITY_DAMP
+/* SPECIES_MARSHTOMP                   */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_ANTICIPATION : ABILITY_DAMP
+/* SPECIES_SWAMPERT                    */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_SWIFT_SWIM : ABILITY_DAMP
 /* SPECIES_POOCHYENA                   */ .halfword ABILITY_RATTLED
 /* SPECIES_MIGHTYENA                   */ .halfword ABILITY_RATTLED
 /* SPECIES_ZIGZAGOON                   */ .halfword ABILITY_QUICK_FEET
@@ -281,10 +281,10 @@
 /* SPECIES_SEEDOT                      */ .halfword ABILITY_PICKPOCKET
 /* SPECIES_NUZLEAF                     */ .halfword ABILITY_PICKPOCKET
 /* SPECIES_SHIFTRY                     */ .halfword ABILITY_PICKPOCKET
-/* SPECIES_TAILLOW                     */ .halfword ABILITY_SCRAPPY
-/* SPECIES_SWELLOW                     */ .halfword ABILITY_SCRAPPY
-/* SPECIES_WINGULL                     */ .halfword ABILITY_RAIN_DISH
-/* SPECIES_PELIPPER                    */ .halfword ABILITY_RAIN_DISH
+/* SPECIES_TAILLOW                     */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_DEFIANT : ABILITY_SCRAPPY
+/* SPECIES_SWELLOW                     */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_DEFIANT : ABILITY_SCRAPPY
+/* SPECIES_WINGULL                     */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_HYDRATION : ABILITY_RAIN_DISH
+/* SPECIES_PELIPPER                    */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_DRIZZLE : ABILITY_RAIN_DISH
 /* SPECIES_RALTS                       */ .halfword ABILITY_TELEPATHY
 /* SPECIES_KIRLIA                      */ .halfword ABILITY_TELEPATHY
 /* SPECIES_GARDEVOIR                   */ .halfword ABILITY_TELEPATHY
@@ -309,13 +309,13 @@
 /* SPECIES_DELCATTY                    */ .halfword ABILITY_WONDER_SKIN
 /* SPECIES_SABLEYE                     */ .halfword ABILITY_PRANKSTER
 /* SPECIES_MAWILE                      */ .halfword ABILITY_SHEER_FORCE
-/* SPECIES_ARON                        */ .halfword ABILITY_HEAVY_METAL
-/* SPECIES_LAIRON                      */ .halfword ABILITY_HEAVY_METAL
-/* SPECIES_AGGRON                      */ .halfword ABILITY_HEAVY_METAL
+/* SPECIES_ARON                        */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_FILTER : ABILITY_HEAVY_METAL
+/* SPECIES_LAIRON                      */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_FILTER : ABILITY_HEAVY_METAL
+/* SPECIES_AGGRON                      */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_FILTER : ABILITY_HEAVY_METAL
 /* SPECIES_MEDITITE                    */ .halfword ABILITY_TELEPATHY
 /* SPECIES_MEDICHAM                    */ .halfword ABILITY_TELEPATHY
-/* SPECIES_ELECTRIKE                   */ .halfword ABILITY_MINUS
-/* SPECIES_MANECTRIC                   */ .halfword ABILITY_MINUS
+/* SPECIES_ELECTRIKE                   */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_INTIMIDATE : ABILITY_MINUS
+/* SPECIES_MANECTRIC                   */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_INTIMIDATE : ABILITY_MINUS
 /* SPECIES_PLUSLE                      */ .halfword ABILITY_LIGHTNING_ROD
 /* SPECIES_MINUN                       */ .halfword ABILITY_VOLT_ABSORB
 /* SPECIES_VOLBEAT                     */ .halfword ABILITY_PRANKSTER
@@ -328,20 +328,20 @@
 /* SPECIES_WAILMER                     */ .halfword ABILITY_PRESSURE
 /* SPECIES_WAILORD                     */ .halfword ABILITY_PRESSURE
 /* SPECIES_NUMEL                       */ .halfword ABILITY_OWN_TEMPO
-/* SPECIES_CAMERUPT                    */ .halfword ABILITY_ANGER_POINT
-/* SPECIES_TORKOAL                     */ .halfword ABILITY_SHELL_ARMOR
+/* SPECIES_CAMERUPT                    */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_SHEER_FORCE : ABILITY_ANGER_POINT
+/* SPECIES_TORKOAL                     */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_DROUGHT : ABILITY_SHELL_ARMOR
 /* SPECIES_SPOINK                      */ .halfword ABILITY_GLUTTONY
 /* SPECIES_GRUMPIG                     */ .halfword ABILITY_GLUTTONY
 /* SPECIES_SPINDA                      */ .halfword ABILITY_CONTRARY
 /* SPECIES_TRAPINCH                    */ .halfword ABILITY_SHEER_FORCE
 /* SPECIES_VIBRAVA                     */ .halfword ABILITY_NONE
 /* SPECIES_FLYGON                      */ .halfword ABILITY_NONE
-/* SPECIES_CACNEA                      */ .halfword ABILITY_WATER_ABSORB
-/* SPECIES_CACTURNE                    */ .halfword ABILITY_WATER_ABSORB
-/* SPECIES_SWABLU                      */ .halfword ABILITY_CLOUD_NINE
-/* SPECIES_ALTARIA                     */ .halfword ABILITY_CLOUD_NINE
-/* SPECIES_ZANGOOSE                    */ .halfword ABILITY_TOXIC_BOOST
-/* SPECIES_SEVIPER                     */ .halfword ABILITY_INFILTRATOR
+/* SPECIES_CACNEA                      */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_HEATPROOF : ABILITY_WATER_ABSORB
+/* SPECIES_CACTURNE                    */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_HEATPROOF : ABILITY_WATER_ABSORB
+/* SPECIES_SWABLU                      */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_FLUFFY : ABILITY_CLOUD_NINE
+/* SPECIES_ALTARIA                     */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_FLUFFY : ABILITY_CLOUD_NINE
+/* SPECIES_ZANGOOSE                    */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_TOUGH_CLAWS : ABILITY_TOXIC_BOOST
+/* SPECIES_SEVIPER                     */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_MERCILESS : ABILITY_INFILTRATOR
 /* SPECIES_LUNATONE                    */ .halfword ABILITY_NONE
 /* SPECIES_SOLROCK                     */ .halfword ABILITY_NONE
 /* SPECIES_BARBOACH                    */ .halfword ABILITY_HYDRATION
@@ -350,10 +350,10 @@
 /* SPECIES_CRAWDAUNT                   */ .halfword ABILITY_ADAPTABILITY
 /* SPECIES_BALTOY                      */ .halfword ABILITY_NONE
 /* SPECIES_CLAYDOL                     */ .halfword ABILITY_NONE
-/* SPECIES_LILEEP                      */ .halfword ABILITY_STORM_DRAIN
-/* SPECIES_CRADILY                     */ .halfword ABILITY_STORM_DRAIN
-/* SPECIES_ANORITH                     */ .halfword ABILITY_SWIFT_SWIM
-/* SPECIES_ARMALDO                     */ .halfword ABILITY_SWIFT_SWIM
+/* SPECIES_LILEEP                      */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_STURDY : ABILITY_STORM_DRAIN
+/* SPECIES_CRADILY                     */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_STURDY : ABILITY_STORM_DRAIN
+/* SPECIES_ANORITH                     */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_TOUGH_CLAWS : ABILITY_SWIFT_SWIM
+/* SPECIES_ARMALDO                     */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_TOUGH_CLAWS : ABILITY_SWIFT_SWIM
 /* SPECIES_FEEBAS                      */ .halfword ABILITY_ADAPTABILITY
 /* SPECIES_MILOTIC                     */ .halfword ABILITY_CUTE_CHARM
 /* SPECIES_CASTFORM                    */ .halfword ABILITY_NONE
@@ -379,9 +379,9 @@
 /* SPECIES_BAGON                       */ .halfword ABILITY_SHEER_FORCE
 /* SPECIES_SHELGON                     */ .halfword ABILITY_OVERCOAT
 /* SPECIES_SALAMENCE                   */ .halfword ABILITY_MOXIE
-/* SPECIES_BELDUM                      */ .halfword ABILITY_LIGHT_METAL
-/* SPECIES_METANG                      */ .halfword ABILITY_LIGHT_METAL
-/* SPECIES_METAGROSS                   */ .halfword ABILITY_LIGHT_METAL
+/* SPECIES_BELDUM                      */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_MAGNET_PULL : ABILITY_LIGHT_METAL
+/* SPECIES_METANG                      */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_TOUGH_CLAWS : ABILITY_LIGHT_METAL
+/* SPECIES_METAGROSS                   */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_TOUGH_CLAWS : ABILITY_LIGHT_METAL
 /* SPECIES_REGIROCK                    */ .halfword ABILITY_STURDY
 /* SPECIES_REGICE                      */ .halfword ABILITY_ICE_BODY
 /* SPECIES_REGISTEEL                   */ .halfword ABILITY_LIGHT_METAL
@@ -482,7 +482,7 @@
 /* SPECIES_PORYGON_Z                   */ .halfword ABILITY_ANALYTIC
 /* SPECIES_GALLADE                     */ .halfword ABILITY_JUSTIFIED
 /* SPECIES_PROBOPASS                   */ .halfword ABILITY_SAND_FORCE
-/* SPECIES_DUSKNOIR                    */ .halfword ABILITY_FRISK
+/* SPECIES_DUSKNOIR                    */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_IRON_FIST : ABILITY_FRISK
 /* SPECIES_FROSLASS                    */ .halfword ABILITY_CURSED_BODY
 /* SPECIES_ROTOM                       */ .halfword ABILITY_NONE
 /* SPECIES_UXIE                        */ .halfword ABILITY_NONE

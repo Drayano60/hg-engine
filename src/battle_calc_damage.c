@@ -903,11 +903,11 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
         movepower = movepower * 125 / 100;
     }
 
-    if ((AttackingMon.ability == ABILITY_RIVALRY) &&
-        (AttackingMon.sex != DefendingMon.sex) && (AttackingMon.sex != POKEMON_GENDER_UNKNOWN) && (DefendingMon.sex != POKEMON_GENDER_UNKNOWN))
-    {
-        movepower = movepower * 75 / 100;
-    }
+    // if ((AttackingMon.ability == ABILITY_RIVALRY) &&
+    //     (AttackingMon.sex != DefendingMon.sex) && (AttackingMon.sex != POKEMON_GENDER_UNKNOWN) && (DefendingMon.sex != POKEMON_GENDER_UNKNOWN))
+    // {
+    //     movepower = movepower * 75 / 100;
+    // }
 
     // handle iron fist
     for (i = 0; i < NELEMS(IronFistMovesTable); i++)

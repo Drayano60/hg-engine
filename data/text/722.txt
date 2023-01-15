@@ -20,7 +20,7 @@ It powers up Fire moves\nby 50% if it’s hit by one.
 Blocks the added effects\nof attacks taken.
 Prevents the Pokémon\nfrom becoming confused.
 Negates foes’ moves that\nforce switching out.
-Lowers the foe’s\nAttack stat.
+Lowers the foe’s Attack\nupon entering battle.
 Prevents the foe from\nescaping.
 Contact damages the foe\nby 12.5% of their max HP.
 Only supereffective\nmoves will hit.
@@ -60,7 +60,7 @@ Boosts Sp. Atk by 50% if\na Pokémon has Plus.
 Transforms with weather.\nUps Weather Ball by 50%.
 Protects the Pokémon\nfrom item theft.
 On a turn, has 33% chance\nof curing status problems.
-Boosts Attack by 50% if\nthere is a status condition.
+Boosts Attack by 50% if\nthere is a status problem.
 Boosts Defense by 50% if\nthere is a status problem.
 Inflicts damage on foes\nusing any draining move.
 Grass moves do 20% more,\nor 50% more below 33% HP.
@@ -77,7 +77,7 @@ The Pokémon is protected\nagainst critical hits.
 Eliminates the effects of\nweather.
 Halves foe’s accuracy if\nthis Pokémon is confused.
 Raises Speed if hit by an\nElectric-type move.
-Raises Attack if the foe\nis of the same gender.
+Deals 25% more damage to\nfoes of the same gender.
 Raises Speed each time\nthe Pokémon flinches.
 Lowers foe’s accuracy\nby 20% in a hailstorm.
 Berries eaten at 25% HP\nare now eaten at 50% HP.

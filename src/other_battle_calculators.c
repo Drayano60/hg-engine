@@ -176,6 +176,12 @@ BOOL CalcAccuracy(void *bw, struct BattleStruct *sp, int attacker, int defender,
         accuracy = accuracy * 50 / 100;
     }
 
+    // Handle Spinda's custom ability, Totter Steps
+    if ((MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_TOTTER_STEPS) == TRUE))
+    {
+        accuracy = accuracy * 75 / 100;
+    }
+
     //handle victory star
     if ((GetBattlerAbility(sp, BATTLER_ALLY(attacker)) == ABILITY_VICTORY_STAR && sp->battlemon[BATTLER_ALLY(attacker)].hp != 0)
             || (GetBattlerAbility(sp, attacker) == ABILITY_VICTORY_STAR))

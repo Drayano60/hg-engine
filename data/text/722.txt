@@ -33,7 +33,7 @@ Draws in all Electric-type\nmoves to up Sp. Attack.
 Doubles the likelihood of\nadded effects appearing.
 Doubles the Pokémon’s\nSpeed in rain.
 Doubles the Pokémon’s\nSpeed in sunshine.
-Raises the likelihood of\nmeeting wild Pokémon. 
+Boosts accuracy by 20%.\nAttracts wild Pokémon.
 The Pokémon copies the\nfoe’s ability.
 Doubles the Pokémon’s\nAttack stat in battle.
 Contact has a 30% chance\nof causing poison.
@@ -49,7 +49,7 @@ Halves damage from Fire\nand Ice-type moves.
 The Pokémon awakens\nquickly from sleep.
 Contact has a 30% chance\nof causing a burn.
 Enables sure getaway\nfrom wild Pokémon.
-Prevents the Pokémon\nfrom losing accuracy.
+Boosts accuracy by 20%.\nPrevents accuracy drops.
 Prevents the Attack\nstat from being lowered.
 The Pokémon may\npick up items.
 Pokémon can’t attack\non consecutive turns.

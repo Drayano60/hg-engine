@@ -622,11 +622,11 @@ mondata SPECIES_RAICHU_ALOLAN
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FAIRY
 
-    // Surge Surger is not currently implemented.
     .if ABILITY_CHANGES_IMPLEMENTED
         abilities ABILITY_LEVITATE, ABILITY_NONE
     .else
-        abilities ABILITY_LEVITATE, ABILITY_NONE
+        // Surge Surger is not currently implemented.
+        abilities ABILITY_STATIC, ABILITY_NONE
     .endif
 
     runchance 0
@@ -1299,7 +1299,7 @@ mondata SPECIES_DIGLETT_ALOLAN
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_SAND_VEIL,  ABILITY_TANGLING_HAIR
+    abilities ABILITY_SAND_VEIL, ABILITY_TANGLING_HAIR
     runchance 0
     colorflip BODY_COLOR_BROWN, 0
     tmdata SPECIES_NONE_TM_DATA_0, SPECIES_NONE_TM_DATA_1, SPECIES_NONE_TM_DATA_2, SPECIES_NONE_TM_DATA_3
@@ -1333,7 +1333,7 @@ mondata SPECIES_DUGTRIO_ALOLAN
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_SAND_VEIL,  ABILITY_TANGLING_HAIR
+    abilities ABILITY_SAND_VEIL, ABILITY_TANGLING_HAIR
     runchance 0
     colorflip BODY_COLOR_BROWN, 1
     tmdata SPECIES_NONE_TM_DATA_0, SPECIES_NONE_TM_DATA_1, SPECIES_NONE_TM_DATA_2, SPECIES_NONE_TM_DATA_3
@@ -2359,9 +2359,9 @@ mondata SPECIES_STEELIX
     egggroups EGG_GROUP_MINERAL, EGG_GROUP_MINERAL
 
     .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_ROCK_HEAD, ABILITY_STURDY
-    .else
         abilities ABILITY_STRONG_JAW, ABILITY_STURDY
+    .else
+        abilities ABILITY_ROCK_HEAD, ABILITY_STURDY
     .endif
 
     runchance 0
@@ -4406,7 +4406,7 @@ mondata SPECIES_MAREEP
     .if ABILITY_CHANGES_IMPLEMENTED
         abilities ABILITY_STATIC, ABILITY_ILLUMINATE
     .else
-        abilities ABILITY_STATIC, ABILITY_STATIC
+        abilities ABILITY_STATIC, ABILITY_NONE
     .endif
 
     runchance 60
@@ -4430,7 +4430,7 @@ mondata SPECIES_FLAAFFY
     .if ABILITY_CHANGES_IMPLEMENTED
         abilities ABILITY_STATIC, ABILITY_ILLUMINATE
     .else
-        abilities ABILITY_STATIC, ABILITY_STATIC
+        abilities ABILITY_STATIC, ABILITY_NONE
     .endif
 
     runchance 0
@@ -4454,7 +4454,7 @@ mondata SPECIES_AMPHAROS
     .if ABILITY_CHANGES_IMPLEMENTED
         abilities ABILITY_STATIC, ABILITY_ILLUMINATE
     .else
-        abilities ABILITY_STATIC, ABILITY_STATIC
+        abilities ABILITY_STATIC, ABILITY_NONE
     .endif
 
     runchance 0
@@ -5141,7 +5141,7 @@ mondata SPECIES_SNEASEL
     colorflip BODY_COLOR_BLACK, 1
     tmdata SPECIES_SNEASEL_TM_DATA_0, SPECIES_SNEASEL_TM_DATA_1, SPECIES_SNEASEL_TM_DATA_2, SPECIES_SNEASEL_TM_DATA_3
 
-// ABILITY: Technician (HA)
+// ABILITY: Inner Focus (1), Keen Eye (2), Technician (HA)
 mondata SPECIES_WEAVILE
     basestats 70, 120, 65, 125, 45, 85
     types TYPE_DARK, TYPE_ICE
@@ -5154,7 +5154,13 @@ mondata SPECIES_WEAVILE
     basefriendship 35
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_PRESSURE, ABILITY_PRESSURE
+
+    .if ABILITY_CHANGES_IMPLEMENTED
+        abilities ABILITY_INNER_FOCUS, ABILITY_KEEN_EYE
+    .else
+        abilities ABILITY_PRESSURE, ABILITY_PRESSURE
+    .endif
+
     runchance 0
     colorflip BODY_COLOR_BLACK, 0
     tmdata SPECIES_WEAVILE_TM_DATA_0, SPECIES_WEAVILE_TM_DATA_1, SPECIES_WEAVILE_TM_DATA_2, SPECIES_WEAVILE_TM_DATA_3
@@ -9194,7 +9200,7 @@ mondata SPECIES_SHELLOS_EAST_SEA
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_AMORPHOUS
-    abilities ABILITY_STICKY_HOLD,  ABILITY_STORM_DRAIN
+    abilities ABILITY_STICKY_HOLD, ABILITY_STORM_DRAIN
     runchance 0
     colorflip BODY_COLOR_BLUE, 0
     tmdata SPECIES_NONE_TM_DATA_0, SPECIES_NONE_TM_DATA_1, SPECIES_NONE_TM_DATA_2, SPECIES_NONE_TM_DATA_3
@@ -9228,7 +9234,7 @@ mondata SPECIES_GASTRODON_EAST_SEA
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_AMORPHOUS
-    abilities ABILITY_STICKY_HOLD,  ABILITY_STORM_DRAIN
+    abilities ABILITY_STICKY_HOLD, ABILITY_STORM_DRAIN
     runchance 0
     colorflip BODY_COLOR_BLUE, 0
     tmdata SPECIES_NONE_TM_DATA_0, SPECIES_NONE_TM_DATA_1, SPECIES_NONE_TM_DATA_2, SPECIES_NONE_TM_DATA_3

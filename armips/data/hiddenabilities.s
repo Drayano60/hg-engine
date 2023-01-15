@@ -392,9 +392,9 @@
 /* SPECIES_RAYQUAZA                    */ .halfword ABILITY_NONE
 /* SPECIES_JIRACHI                     */ .halfword ABILITY_NONE
 /* SPECIES_DEOXYS                      */ .halfword ABILITY_NONE
-/* SPECIES_TURTWIG                     */ .halfword ABILITY_SHELL_ARMOR
-/* SPECIES_GROTLE                      */ .halfword ABILITY_SHELL_ARMOR
-/* SPECIES_TORTERRA                    */ .halfword ABILITY_SHELL_ARMOR
+/* SPECIES_TURTWIG                     */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_ROCK_HEAD : ABILITY_SHELL_ARMOR
+/* SPECIES_GROTLE                      */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_ROCK_HEAD : ABILITY_SHELL_ARMOR
+/* SPECIES_TORTERRA                    */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_ROCK_HEAD : ABILITY_SHELL_ARMOR
 /* SPECIES_CHIMCHAR                    */ .halfword ABILITY_IRON_FIST
 /* SPECIES_MONFERNO                    */ .halfword ABILITY_IRON_FIST
 /* SPECIES_INFERNAPE                   */ .halfword ABILITY_IRON_FIST
@@ -422,9 +422,9 @@
 /* SPECIES_MOTHIM                      */ .halfword ABILITY_TINTED_LENS
 /* SPECIES_COMBEE                      */ .halfword ABILITY_HUSTLE
 /* SPECIES_VESPIQUEN                   */ .halfword ABILITY_UNNERVE
-/* SPECIES_PACHIRISU                   */ .halfword ABILITY_VOLT_ABSORB
-/* SPECIES_BUIZEL                      */ .halfword ABILITY_WATER_VEIL
-/* SPECIES_FLOATZEL                    */ .halfword ABILITY_WATER_VEIL
+/* SPECIES_PACHIRISU                   */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_FUR_COAT : ABILITY_VOLT_ABSORB
+/* SPECIES_BUIZEL                      */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_TECHNICIAN : ABILITY_WATER_VEIL
+/* SPECIES_FLOATZEL                    */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_TECHNICIAN : ABILITY_WATER_VEIL
 /* SPECIES_CHERUBI                     */ .halfword ABILITY_NONE
 /* SPECIES_CHERRIM                     */ .halfword ABILITY_NONE
 /* SPECIES_SHELLOS                     */ .halfword ABILITY_SAND_FORCE
@@ -446,14 +446,14 @@
 /* SPECIES_BONSLY                      */ .halfword ABILITY_RATTLED
 /* SPECIES_MIMEJR                      */ .halfword ABILITY_TECHNICIAN
 /* SPECIES_HAPPINY                     */ .halfword ABILITY_FRIEND_GUARD
-/* SPECIES_CHATOT                      */ .halfword ABILITY_BIG_PECKS
+/* SPECIES_CHATOT                      */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_TRACE : ABILITY_BIG_PECKS
 /* SPECIES_SPIRITOMB                   */ .halfword ABILITY_INFILTRATOR
 /* SPECIES_GIBLE                       */ .halfword ABILITY_ROUGH_SKIN
 /* SPECIES_GABITE                      */ .halfword ABILITY_ROUGH_SKIN
 /* SPECIES_GARCHOMP                    */ .halfword ABILITY_ROUGH_SKIN
 /* SPECIES_MUNCHLAX                    */ .halfword ABILITY_GLUTTONY
 /* SPECIES_RIOLU                       */ .halfword ABILITY_PRANKSTER
-/* SPECIES_LUCARIO                     */ .halfword ABILITY_JUSTIFIED
+/* SPECIES_LUCARIO                     */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_IRON_FIST : ABILITY_JUSTIFIED
 /* SPECIES_HIPPOPOTAS                  */ .halfword ABILITY_SAND_FORCE
 /* SPECIES_HIPPOWDON                   */ .halfword ABILITY_SAND_FORCE
 /* SPECIES_SKORUPI                     */ .halfword ABILITY_KEEN_EYE
@@ -461,8 +461,8 @@
 /* SPECIES_CROAGUNK                    */ .halfword ABILITY_POISON_TOUCH
 /* SPECIES_TOXICROAK                   */ .halfword ABILITY_POISON_TOUCH
 /* SPECIES_CARNIVINE                   */ .halfword ABILITY_NONE
-/* SPECIES_FINNEON                     */ .halfword ABILITY_WATER_VEIL
-/* SPECIES_LUMINEON                    */ .halfword ABILITY_WATER_VEIL
+/* SPECIES_FINNEON                     */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_ILLUMINATE : ABILITY_WATER_VEIL
+/* SPECIES_LUMINEON                    */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_ILLUMINATE : ABILITY_WATER_VEIL
 /* SPECIES_MANTYKE                     */ .halfword ABILITY_WATER_VEIL
 /* SPECIES_SNOVER                      */ .halfword ABILITY_SOUNDPROOF
 /* SPECIES_ABOMASNOW                   */ .halfword ABILITY_SOUNDPROOF

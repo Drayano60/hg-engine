@@ -9,8 +9,11 @@
 
 .create "build/move/battle_sub_seq/1_063", 0
 
+// Handle 1/4 HP recoil
+
 a001_063:
     abilitycheck 0x0, BATTLER_ATTACKER, ABILITY_ROCK_HEAD, _009C
+    abilitycheck 0x0, BATTLER_ATTACKER, ABILITY_FUR_CUSHION, _009C
     abilitycheck 0x0, BATTLER_ATTACKER, ABILITY_MAGIC_GUARD, _009C
     changevar2 VAR_OP_SET, VAR_BATTLER_SOMETHING, VAR_ATTACKER
     changevar2 VAR_OP_SET, VAR_HP_TEMP, VAR_54

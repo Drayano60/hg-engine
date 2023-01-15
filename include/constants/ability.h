@@ -181,6 +181,9 @@
 // Gen 9
 #define ABILITY_SHARPNESS 173
 
+// Custom
+#define ABILITY_FUR_CUSHION 174
+
 // Unused
 #define ABILITY_DEFEATIST 255
 #define ABILITY_ILLUSION 255

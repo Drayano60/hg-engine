@@ -71,6 +71,15 @@ static const u16 IronFistMovesTable[] = {
     MOVE_PIDDLY_PUNCHES, // Custom move for Ledian
 };
 
+static const u16 RecklessMoveEffectsTable[] = {
+    MOVE_EFFECT_RECOIL_ON_MISS,
+    MOVE_EFFECT_ONE_QUARTER_RECOIL,
+    MOVE_EFFECT_RECOIL_HIT,
+    MOVE_EFFECT_RECOIL_BURN_HIT,
+    MOVE_EFFECT_RECOIL_PARALYZE_HIT,
+    MOVE_EFFECT_ONE_HALF_RECOIL,
+};
+
 static const u16 StrongJawMovesTable[] = {
     MOVE_BITE,
     MOVE_CRUNCH,
@@ -913,6 +922,16 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
     for (i = 0; i < NELEMS(IronFistMovesTable); i++)
     {
         if ((IronFistMovesTable[i] == moveno) && (AttackingMon.ability == ABILITY_IRON_FIST))
+        {
+            movepower = movepower * 12 / 10;
+            break;
+        }
+    }
+    
+    // handle reckless
+    for (i = 0; i < NELEMS(RecklessMoveEffectsTable); i++)
+    {
+        if ((RecklessMoveEffectsTable[i] == sp->moveTbl[moveno].effect) && (AttackingMon.ability == ABILITY_RECKLESS))
         {
             movepower = movepower * 12 / 10;
             break;

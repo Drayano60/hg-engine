@@ -234,6 +234,7 @@ mondata SPECIES_BLASTOISE
     eggcycles 20
     basefriendship 70
     growthrate GROWTH_MEDIUM_SLOW
+    egggroups EGG_GROUP_MONSTER, EGG_GROUP_WATER_1
 
     .if ABILITY_CHANGES_IMPLEMENTED
         abilities ABILITY_TORRENT, ABILITY_SHELL_ARMOR

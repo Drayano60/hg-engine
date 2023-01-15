@@ -20,7 +20,7 @@ It powers up Fire moves\nby 50% if it’s hit by one.
 Blocks the added effects\nof attacks taken.
 Prevents the Pokémon\nfrom becoming confused.
 Negates foes’ moves that\nforce switching out.
-Lowers the foe’s\nAttack stat.
+Lowers the foe’s Attack\nupon entering battle.
 Prevents the foe from\nescaping.
 Contact damages the foe\nby 12.5% of their max HP.
 Only supereffective\nmoves will hit.
@@ -33,7 +33,7 @@ Draws in all Electric-type\nmoves to up Sp. Attack.
 Doubles the likelihood of\nadded effects appearing.
 Doubles the Pokémon’s\nSpeed in rain.
 Doubles the Pokémon’s\nSpeed in sunshine.
-Raises the likelihood of\nmeeting wild Pokémon. 
+Boosts accuracy by 20%.\nAttracts wild Pokémon.
 The Pokémon copies the\nfoe’s ability.
 Doubles the Pokémon’s\nAttack stat in battle.
 Contact has a 30% chance\nof causing poison.
@@ -49,7 +49,7 @@ Halves damage from Fire\nand Ice-type moves.
 The Pokémon awakens\nquickly from sleep.
 Contact has a 30% chance\nof causing a burn.
 Enables sure getaway\nfrom wild Pokémon.
-Prevents the Pokémon\nfrom losing accuracy.
+Boosts accuracy by 20%.\nPrevents accuracy drops.
 Prevents the Attack\nstat from being lowered.
 The Pokémon may\npick up items.
 Pokémon can’t attack\non consecutive turns.
@@ -60,13 +60,13 @@ Boosts Sp. Atk by 50% if\na Pokémon has Plus.
 Transforms with weather.\nUps Weather Ball by 50%.
 Protects the Pokémon\nfrom item theft.
 On a turn, has 33% chance\nof curing status problems.
-Boosts Attack by 50% if\nthere is a status condition.
+Boosts Attack by 50% if\nthere is a status problem.
 Boosts Defense by 50% if\nthere is a status problem.
 Inflicts damage on foes\nusing any draining move.
-Grass moves do 20% more.\nAt 33% HP, it is 50% more.
-Fire moves do 20% more.\nAt 33% HP, it is 50% more.
-Water moves do 20% more.\nAt 33% HP, it is 50% more.
-Bug moves do 20% more.\nAt 33% HP, it is 50% more.
+Ups Grass moves by 20%,\nby 50% if 33% HP or less.
+Ups Fire moves by 20%,\nby 50% if 33% HP or less.
+Ups Water moves by 20%,\nby 50% if 33% HP or less.
+Ups Bug moves by 20%,\nby 50% if 33% HP or less.
 Protects the Pokémon\nfrom recoil damage.
 The Pokémon makes it\nsunny if it is in battle.
 Prevents the foe from\nfleeing.
@@ -77,7 +77,7 @@ The Pokémon is protected\nagainst critical hits.
 Eliminates the effects of\nweather.
 Halves foe’s accuracy if\nthis Pokémon is confused.
 Raises Speed if hit by an\nElectric-type move.
-Raises Attack if the foe\nis of the same gender.
+Deals 20% more damage to\nfoes of the same gender.
 Raises Speed each time\nthe Pokémon flinches.
 Lowers foe’s accuracy\nby 20% in a hailstorm.
 Berries eaten at 25% HP\nare now eaten at 50% HP.
@@ -87,7 +87,7 @@ Halves the damage taken\nfrom Fire-type moves.
 The effects of any stat\nchanges are doubled.
 Hates sun or Fire moves.\nLoves rain or Water moves.
 Adjusts power according\nto a foe’s stats.
-Boosts the power of\npunching moves by 20%.
+Powers up punching moves\nby 33%.
 Recovers 12.5% of its HP\neach turn while poisoned.
 Moves matching type are\ninstead doubled in power.
 Multi-strike moves will\nalways hit five times.
@@ -118,7 +118,7 @@ Lowers damage from super\neffective attacks by 25%.
 The Pokémon summons a\nhailstorm in battle.
 The Pokémon may gather\nHoney from somewhere.
 The Pokémon can check\nthe foe’s held item.
-Powers up moves that\nhave recoil damage by 20%.
+Powers up moves that\ncause recoil by 33%.
 Changes type to match\nthe held Plate.
 Ups Attack and Sp. Def of\nitself and ally when sunny.
 Deals 12.5% HP damage to\nsleeping foes each turn.
@@ -159,10 +159,10 @@ Changes the Pokémon’s\ntype to its move’s type.
 Halves the damage from\nphysical moves.
 Gives full immunity to some\nball and bomb moves.
 Boosts its Sp. Atk sharply\nif its stats are lowered.
-Boosts the power of its\nbiting moves by 50%.
+Powers up biting moves\nby 33%.
 Normal-type moves become\nIce and do 20% more.
-Boosts the power of aura\nand pulse moves by 50%.
-Powers up moves that\nmake contact by 30%.
+Powers up aura and pulse\nmoves by 33%.
+Powers up moves that\nmake contact by 20%.
 Normal-type moves become\nFairy and do 20% more.
 Contact with it lowers the\nattacker’s Speed stat.
 Normal-type moves become\nFlying and do 20% more.
@@ -172,4 +172,4 @@ Gives +3 priority to the\nPokémon’s healing moves.
 Normal-type moves become\nElectric and do 20% more.
 Halves damage on contact.\nDoubles Fire damage taken.
 Contact with it lowers the\nattacker’s Speed stat.
-Boosts the power of its\nslicing moves by 50%.
+Powers up slicing moves\nby 33%.

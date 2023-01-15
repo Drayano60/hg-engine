@@ -9,6 +9,8 @@
 
 .create "build/move/battle_sub_seq/1_026", 0
 
+// Handle burn damage
+
 a001_026:
     abilitycheck 0x0, BATTLER_xFF, ABILITY_MAGIC_GUARD, _00A8
     changemondatabyvar VAR_OP_GET_RESULT, BATTLER_xFF, 0x30, VAR_HP_TEMP

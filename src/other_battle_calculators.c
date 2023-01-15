@@ -159,6 +159,12 @@ BOOL CalcAccuracy(void *bw, struct BattleStruct *sp, int attacker, int defender,
     accuracy *= sAccStatChanges[temp].numerator;
     accuracy /= sAccStatChanges[temp].denominator;
 
+    // Boost accuracy by 20%.
+    if (GetBattlerAbility(sp, attacker) == ABILITY_KEEN_EYE || GetBattlerAbility(sp, attacker) == ABILITY_ILLUMINATE) {
+        accuracy = accuracy * 120 / 100;
+    }
+
+    // Boost accuracy by 30%.
     if (GetBattlerAbility(sp,attacker) == ABILITY_COMPOUND_EYES)
     {
         accuracy = accuracy * 130 / 100;

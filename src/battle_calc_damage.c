@@ -71,6 +71,15 @@ static const u16 IronFistMovesTable[] = {
     MOVE_PIDDLY_PUNCHES, // Custom move for Ledian
 };
 
+static const u16 RecklessMoveEffectsTable[] = {
+    MOVE_EFFECT_RECOIL_ON_MISS,
+    MOVE_EFFECT_ONE_QUARTER_RECOIL,
+    MOVE_EFFECT_RECOIL_HIT,
+    MOVE_EFFECT_RECOIL_BURN_HIT,
+    MOVE_EFFECT_RECOIL_PARALYZE_HIT,
+    MOVE_EFFECT_ONE_HALF_RECOIL,
+};
+
 static const u16 StrongJawMovesTable[] = {
     MOVE_BITE,
     MOVE_CRUNCH,
@@ -690,10 +699,11 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
         sp_attack = sp_attack * 150 / 100;
     }
 
-    //handle tough claws
+    // Handle Tough Claws
+    // Nerfed to 20% due to greater distribution.
     if ((AttackingMon.ability == ABILITY_TOUGH_CLAWS) && (sp->moveTbl[sp->current_move_index].flag & FLAG_CONTACT)) 
     {
-        movepower = movepower * 130 / 100;
+        movepower = movepower * 120 / 100;
     }    
     
     //handle fluffy
@@ -759,24 +769,19 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
     }
 
     // handle "in a pinch" type boosters
-    if ((movetype == TYPE_GRASS) && (AttackingMon.ability == ABILITY_OVERGROW) && (AttackingMon.hp <= AttackingMon.maxhp * 10 / 30))
-    {
-        movepower = movepower * 150 / 100;
-    }
-
-    if ((movetype == TYPE_FIRE) && (AttackingMon.ability == ABILITY_BLAZE) && (AttackingMon.hp <= AttackingMon.maxhp * 10 / 30))
-    {
-        movepower = movepower * 150 / 100;
-    }
-
-    if ((movetype == TYPE_WATER) && (AttackingMon.ability == ABILITY_TORRENT) && (AttackingMon.hp <= AttackingMon.maxhp * 10 / 30))
-    {
-        movepower = movepower * 150 / 100;
-    }
-
-    if ((movetype == TYPE_BUG) && (AttackingMon.ability == ABILITY_SWARM) && (AttackingMon.hp <= AttackingMon.maxhp * 10 / 30))
-    {
-        movepower = movepower * 150 / 100;
+    if (
+        (movetype == TYPE_GRASS && AttackingMon.ability == ABILITY_OVERGROW)
+        || (movetype == TYPE_FIRE && AttackingMon.ability == ABILITY_BLAZE)
+        || (movetype == TYPE_WATER && AttackingMon.ability == ABILITY_TORRENT)
+        || (movetype == TYPE_BUG && AttackingMon.ability == ABILITY_SWARM)
+    ) {
+        // If below or equal to 33% HP, boost power by 50%.
+        // Otherwise, boost power by 20%.
+        if (AttackingMon.hp <= AttackingMon.maxhp * 10 / 30) {
+            movepower = movepower * 150 / 100;
+        } else {
+            movepower = movepower * 120 / 100;
+        }
     }
 
     // handle ice scales - halve damage if move is special, regardless of if it uses defense stat
@@ -901,64 +906,78 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
     spatkstate += 6;
     spdefstate += 6;
 
-    // handle rivalry
+    // Handle Rivalry
+    // Negative effect removed but positive effect nerfed to 20%.
     if ((AttackingMon.ability == ABILITY_RIVALRY) &&
         (AttackingMon.sex == DefendingMon.sex) && (AttackingMon.sex != POKEMON_GENDER_UNKNOWN) && (DefendingMon.sex != POKEMON_GENDER_UNKNOWN))
     {
-        movepower = movepower * 125 / 100;
+        movepower = movepower * 120 / 100;
     }
 
-    if ((AttackingMon.ability == ABILITY_RIVALRY) &&
-        (AttackingMon.sex != DefendingMon.sex) && (AttackingMon.sex != POKEMON_GENDER_UNKNOWN) && (DefendingMon.sex != POKEMON_GENDER_UNKNOWN))
-    {
-        movepower = movepower * 75 / 100;
-    }
+    // if ((AttackingMon.ability == ABILITY_RIVALRY) &&
+    //     (AttackingMon.sex != DefendingMon.sex) && (AttackingMon.sex != POKEMON_GENDER_UNKNOWN) && (DefendingMon.sex != POKEMON_GENDER_UNKNOWN))
+    // {
+    //     movepower = movepower * 75 / 100;
+    // }
 
-    // handle iron fist
-    for (i = 0; i < NELEMS(IronFistMovesTable); i++)
-    {
-        if ((IronFistMovesTable[i] == moveno) && (AttackingMon.ability == ABILITY_IRON_FIST))
-        {
-            movepower = movepower * 12 / 10;
-            break;
+    /* Handle specific move/move effect multipliers */
+    // These abilities have been standardized to 33%.
+
+    // Handle Iron Fist
+    if (AttackingMon.ability == ABILITY_IRON_FIST) {
+        for (i = 0; i < NELEMS(IronFistMovesTable); i++) {
+            if (IronFistMovesTable[i] == moveno) {
+                movepower = movepower * 133 / 100;
+                break;
+            }
         }
     }
 
-    // handle strong jaw
-    for (i = 0; i < NELEMS(StrongJawMovesTable); i++)
-    {
-        if ((StrongJawMovesTable[i] == moveno) && (AttackingMon.ability == ABILITY_STRONG_JAW))
-        {
-            movepower = movepower * 15 / 10;
-            break;
+    // Handle Reckless
+    if (AttackingMon.ability == ABILITY_RECKLESS) {
+        for (i = 0; i < NELEMS(RecklessMoveEffectsTable); i++) {
+            if (RecklessMoveEffectsTable[i] == sp->moveTbl[moveno].effect) {
+                movepower = movepower * 133 / 100;
+                break;
+            }
         }
     }
 
-    // handle mega launcher
-    for (i = 0; i < NELEMS(MegaLauncherMovesTable); i++)
-    {
-        if ((MegaLauncherMovesTable[i] == moveno) && (AttackingMon.ability == ABILITY_MEGA_LAUNCHER))
-        {
-            movepower = movepower * 15 / 10;
-            break;
+    // Handle Mega Launcher
+    if (AttackingMon.ability == ABILITY_MEGA_LAUNCHER) {
+        for (i = 0; i < NELEMS(MegaLauncherMovesTable); i++) {
+            if (MegaLauncherMovesTable[i] == moveno) {
+                movepower = movepower * 133 / 100;
+                break;
+            }
         }
     }
 
-    // handle sharpness
-    for (i = 0; i < NELEMS(SharpnessMovesTable); i++)
-    {
-        if ((SharpnessMovesTable[i] == moveno) && (AttackingMon.ability == ABILITY_SHARPNESS))
-        {
-            movepower = movepower * 15 / 10;
-            break;
+    // Handle Strong Jaw
+    if (AttackingMon.ability == ABILITY_STRONG_JAW) {
+        for (i = 0; i < NELEMS(StrongJawMovesTable); i++) {
+            if (StrongJawMovesTable[i] == moveno) {
+                movepower = movepower * 133 / 100;
+                break;
+            }
         }
     }
-    
-    //handles water bubble
-    if((AttackingMon.ability == ABILITY_WATER_BUBBLE) && (movetype == TYPE_WATER))
-    {
-        movepower = movepower * 2;
+
+    // Handle Sharpness
+    if (AttackingMon.ability == ABILITY_SHARPNESS) {
+        for (i = 0; i < NELEMS(SharpnessMovesTable); i++) {
+            if (SharpnessMovesTable[i] == moveno) {
+                movepower = movepower * 133 / 100;
+                break;
+            }
+        }
     }
+
+    // //handles water bubble
+    // if((AttackingMon.ability == ABILITY_WATER_BUBBLE) && (movetype == TYPE_WATER))
+    // {
+    //     movepower = movepower * 2;
+    // }
 
     // handle weather boosts
     if ((CheckSideAbility(bw, sp, CHECK_ALL_BATTLER_ALIVE, 0, ABILITY_CLOUD_NINE) == 0) &&

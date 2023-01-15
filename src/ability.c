@@ -16,7 +16,7 @@
 
 extern const u8 StatBoostModifiers[][2];
 
-const u16 SoundMoveList[] =
+const u16 SoundproofMoveList[] =
 {
     MOVE_BOOMBURST,
     MOVE_BUG_BUZZ,
@@ -121,8 +121,8 @@ int MoveCheckDamageNegatingAbilities(struct BattleStruct *sp, int attacker, int 
         {
             u32 i;
 
-            for (i = 0; i < NELEMS(SoundMoveList); i++){
-                if (SoundMoveList[i] == sp->current_move_index)
+            for (i = 0; i < NELEMS(SoundproofMoveList); i++){
+                if (SoundproofMoveList[i] == sp->current_move_index)
                 {
                     scriptnum = SUB_SEQ_HANDLE_SOUNDPROOF;
                     break;

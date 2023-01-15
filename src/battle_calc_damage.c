@@ -49,6 +49,18 @@ static const u8 HeldItemPowerUpTable[][2]={
 #endif
 };
 
+static const u16 CacophonyMovesTable[] =
+{
+    MOVE_BOOMBURST,
+    MOVE_BUG_BUZZ,
+    MOVE_CHATTER,
+    MOVE_DISARMING_VOICE,
+    MOVE_ECHOED_VOICE,
+    MOVE_HYPER_VOICE,
+    MOVE_SNARL,
+    MOVE_UPROAR,
+};
+
 static const u16 IronFistMovesTable[] = {
     MOVE_BULLET_PUNCH,
     MOVE_COMET_PUNCH,
@@ -967,6 +979,16 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
     if (AttackingMon.ability == ABILITY_SHARPNESS) {
         for (i = 0; i < NELEMS(SharpnessMovesTable); i++) {
             if (SharpnessMovesTable[i] == moveno) {
+                movepower = movepower * 133 / 100;
+                break;
+            }
+        }
+    }
+
+    // Handle Cacophony, a new ability for various sound-based Pokémon
+    if (AttackingMon.ability == ABILITY_CACOPHONY) {
+        for (i = 0; i < NELEMS(CacophonyMovesTable); i++) {
+            if (CacophonyMovesTable[i] == moveno) {
                 movepower = movepower * 133 / 100;
                 break;
             }

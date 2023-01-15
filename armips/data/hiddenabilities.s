@@ -21,9 +21,9 @@
 /* SPECIES_WEEDLE                      */ .halfword ABILITY_RUN_AWAY
 /* SPECIES_KAKUNA                      */ .halfword ABILITY_SHED_SKIN
 /* SPECIES_BEEDRILL                    */ .halfword ABILITY_SNIPER
-/* SPECIES_PIDGEY                      */ .halfword ABILITY_BIG_PECKS
-/* SPECIES_PIDGEOTTO                   */ .halfword ABILITY_BIG_PECKS
-/* SPECIES_PIDGEOT                     */ .halfword ABILITY_BIG_PECKS
+/* SPECIES_PIDGEY                      */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_NO_GUARD : ABILITY_BIG_PECKS
+/* SPECIES_PIDGEOTTO                   */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_NO_GUARD : ABILITY_BIG_PECKS
+/* SPECIES_PIDGEOT                     */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_NO_GUARD : ABILITY_BIG_PECKS
 /* SPECIES_RATTATA                     */ .halfword ABILITY_HUSTLE
 /* SPECIES_RATICATE                    */ .halfword ABILITY_HUSTLE
 /* SPECIES_SPEAROW                     */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_SNIPER : ABILITY_INTIMIDATE
@@ -330,8 +330,8 @@
 /* SPECIES_NUMEL                       */ .halfword ABILITY_OWN_TEMPO
 /* SPECIES_CAMERUPT                    */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_SHEER_FORCE : ABILITY_ANGER_POINT
 /* SPECIES_TORKOAL                     */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_DROUGHT : ABILITY_SHELL_ARMOR
-/* SPECIES_SPOINK                      */ .halfword ABILITY_GLUTTONY
-/* SPECIES_GRUMPIG                     */ .halfword ABILITY_GLUTTONY
+/* SPECIES_SPOINK                      */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_MAGIC_BOUNCE : ABILITY_GLUTTONY
+/* SPECIES_GRUMPIG                     */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_MAGIC_BOUNCE : ABILITY_GLUTTONY
 /* SPECIES_SPINDA                      */ .halfword ABILITY_CONTRARY
 /* SPECIES_TRAPINCH                    */ .halfword ABILITY_SHEER_FORCE
 /* SPECIES_VIBRAVA                     */ .halfword ABILITY_NONE

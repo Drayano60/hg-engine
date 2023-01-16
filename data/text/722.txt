@@ -148,7 +148,7 @@ Status moves used on it\nare 50% less accurate.
 Boosts move power by 30%\nif the Pokémon goes last.
 It transforms into the\nPokémon it’s facing.
 Passes through a foe’s\nbarrier, substitute etc.
-Boosts the Attack stat if\nit knocks out a Pokémon.
+Boosts the Attack stat\nafter KOing any Pokémon.
 Raises Attack when hit\nby a Dark-type move.
 Dark, Ghost or Bug moves\nboost its Speed stat.
 Reflects status moves\ninstead of being hit.
@@ -173,3 +173,10 @@ Normal-type moves become\nElectric and do 20% more.
 Halves damage on contact.\nDoubles Fire damage taken.
 Contact with it lowers the\nattacker’s Speed stat.
 Powers up slicing moves\nby 33%.
+The Pokémon’s fur stops\nit taking recoil damage.
+Odd steps foul a foe’s aim,\nreducing accuracy by 20%.
+Contact with the Pokémon\nwill burn the foe.
+Powers up sound moves\nby 33%.
+Boosts the Sp. Atk stat\nafter KOing any Pokémon.
+Powers up aura and pulse\nmoves by 33%.
+Powers up moves used by\nallies by 25%.

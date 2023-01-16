@@ -49,6 +49,18 @@ static const u8 HeldItemPowerUpTable[][2]={
 #endif
 };
 
+static const u16 CacophonyMovesTable[] =
+{
+    MOVE_BOOMBURST,
+    MOVE_BUG_BUZZ,
+    MOVE_CHATTER,
+    MOVE_DISARMING_VOICE,
+    MOVE_ECHOED_VOICE,
+    MOVE_HYPER_VOICE,
+    MOVE_SNARL,
+    MOVE_UPROAR,
+};
+
 static const u16 IronFistMovesTable[] = {
     MOVE_BULLET_PUNCH,
     MOVE_COMET_PUNCH,
@@ -830,6 +842,12 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
         movepower = movepower * 75 / 100;
     }
 
+    // Handle Cheerleader, a new ability for Plusle and Minun
+    if ((GetBattlerAbility(sp, BATTLER_ALLY(attacker)) == ABILITY_CHEERLEADER) == TRUE)
+    {
+        movepower = movepower * 125 / 100;
+    }
+
     // handle heatproof/dry skin
     if ((movetype == TYPE_FIRE) && (CheckDefenceAbility(sp, attacker, defender, ABILITY_HEATPROOF) == TRUE))
     {
@@ -944,7 +962,8 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
     }
 
     // Handle Mega Launcher
-    if (AttackingMon.ability == ABILITY_MEGA_LAUNCHER) {
+    // Also handle Aura Master, a new ability for Lucario with the same effect
+    if (AttackingMon.ability == ABILITY_MEGA_LAUNCHER || AttackingMon.ability == ABILITY_AURA_MASTER) {
         for (i = 0; i < NELEMS(MegaLauncherMovesTable); i++) {
             if (MegaLauncherMovesTable[i] == moveno) {
                 movepower = movepower * 133 / 100;
@@ -967,6 +986,16 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
     if (AttackingMon.ability == ABILITY_SHARPNESS) {
         for (i = 0; i < NELEMS(SharpnessMovesTable); i++) {
             if (SharpnessMovesTable[i] == moveno) {
+                movepower = movepower * 133 / 100;
+                break;
+            }
+        }
+    }
+
+    // Handle Cacophony, a new ability for various sound-based Pokémon
+    if (AttackingMon.ability == ABILITY_CACOPHONY) {
+        for (i = 0; i < NELEMS(CacophonyMovesTable); i++) {
+            if (CacophonyMovesTable[i] == moveno) {
                 movepower = movepower * 133 / 100;
                 break;
             }

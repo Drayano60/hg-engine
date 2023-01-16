@@ -16,7 +16,7 @@
 
 extern const u8 StatBoostModifiers[][2];
 
-const u16 SoundMoveList[] =
+const u16 SoundproofMoveList[] =
 {
     MOVE_BOOMBURST,
     MOVE_BUG_BUZZ,
@@ -121,8 +121,8 @@ int MoveCheckDamageNegatingAbilities(struct BattleStruct *sp, int attacker, int 
         {
             u32 i;
 
-            for (i = 0; i < NELEMS(SoundMoveList); i++){
-                if (SoundMoveList[i] == sp->current_move_index)
+            for (i = 0; i < NELEMS(SoundproofMoveList); i++){
+                if (SoundproofMoveList[i] == sp->current_move_index)
                 {
                     scriptnum = SUB_SEQ_HANDLE_SOUNDPROOF;
                     break;
@@ -1329,6 +1329,8 @@ BOOL MoveHitAttackerAbilityCheck(void *bw, struct BattleStruct *sp, int *seq_no)
         /*
         case ABILITY_GRIM_NEIGH:
         case ABILITY_AS_ONE_SPECTRIER:
+        */
+        case ABILITY_HEAT_UP:
             if ((sp->defence_client == sp->fainting_client)
                 && ((sp->server_status_flag2 & SERVER_STATUS2_FLAG_x10) == 0)
                 && (sp->battlemon[sp->attack_client].hp)
@@ -1345,6 +1347,7 @@ BOOL MoveHitAttackerAbilityCheck(void *bw, struct BattleStruct *sp, int *seq_no)
                 }
             }
             break;
+        /*
         case ABILITY_BATTLE_BOND:
             if ((sp->defence_client == sp->fainting_client)
                 && ((sp->server_status_flag2 & SERVER_STATUS2_FLAG_x10) == 0)
@@ -1503,6 +1506,24 @@ BOOL MoveHitDefenderAbilityCheck(void *bw, struct BattleStruct *sp, int *seq_no)
                     (sp->oneSelfFlag[sp->defence_client].special_damage))
                 && (sp->moveTbl[sp->current_move_index].flag & FLAG_CONTACT)
                 && (BattleRand(bw) % 10 < 3)) {
+                sp->addeffect_type = ADD_STATUS_ABILITY;
+                sp->state_client = sp->attack_client;
+                sp->client_work = sp->defence_client;
+                seq_no[0] = SUB_SEQ_BURN_MON;
+                ret = TRUE;
+            }
+            break;
+        // Handle Infernal Body, a custom ability for Slugma and Magcargo
+        // Copy of Flame Body with the RNG removed
+        case ABILITY_INFERNAL_BODY:
+            if ((sp->battlemon[sp->attack_client].hp)
+                && (sp->battlemon[sp->attack_client].condition == 0)
+                && ((sp->waza_status_flag & WAZA_STATUS_FLAG_NO_OUT) == 0)
+                && ((sp->server_status_flag & SERVER_STATUS_FLAG_x20) == 0)
+                && ((sp->server_status_flag2 & SERVER_STATUS2_FLAG_x10) == 0)
+                && ((sp->oneSelfFlag[sp->defence_client].physical_damage) ||
+                    (sp->oneSelfFlag[sp->defence_client].special_damage))
+                && (sp->moveTbl[sp->current_move_index].flag & FLAG_CONTACT)) {
                 sp->addeffect_type = ADD_STATUS_ABILITY;
                 sp->state_client = sp->attack_client;
                 sp->client_work = sp->defence_client;

@@ -4342,10 +4342,10 @@ levelup SPECIES_MEW
 
 // NEW: Draining Kiss, Moonblast
 levelup SPECIES_CHIKORITA
-    learnset MOVE_SWEET_SCENT, 1
     learnset MOVE_TACKLE, 1
     learnset MOVE_GROWL, 1
-    learnset MOVE_RAZOR_LEAF, 3
+    learnset MOVE_RAZOR_LEAF, 1
+    learnset MOVE_SWEET_SCENT, 3
     learnset MOVE_POISON_POWDER, 6
     learnset MOVE_LEECH_SEED, 9
     learnset MOVE_SYNTHESIS, 12
@@ -4365,10 +4365,10 @@ levelup SPECIES_CHIKORITA
 
 // NEW: Draining Kiss, Moonblast
 levelup SPECIES_BAYLEEF
-    learnset MOVE_SWEET_SCENT, 1
     learnset MOVE_TACKLE, 1
     learnset MOVE_GROWL, 1
-    learnset MOVE_RAZOR_LEAF, 3
+    learnset MOVE_RAZOR_LEAF, 1
+    learnset MOVE_SWEET_SCENT, 3
     learnset MOVE_POISON_POWDER, 6
     learnset MOVE_LEECH_SEED, 9
     learnset MOVE_SYNTHESIS, 12
@@ -4392,11 +4392,11 @@ levelup SPECIES_MEGANIUM
     learnset MOVE_PETAL_BLIZZARD, 1
     learnset MOVE_NATURAL_GIFT, 1
     learnset MOVE_PETAL_DANCE, 1
-    learnset MOVE_SWEET_SCENT, 1
     learnset MOVE_COUNTER, 1
     learnset MOVE_TACKLE, 1
     learnset MOVE_GROWL, 1
-    learnset MOVE_RAZOR_LEAF, 3
+    learnset MOVE_RAZOR_LEAF, 1
+    learnset MOVE_SWEET_SCENT, 3
     learnset MOVE_POISON_POWDER, 6
     learnset MOVE_LEECH_SEED, 9
     learnset MOVE_SYNTHESIS, 12
@@ -4418,10 +4418,10 @@ levelup SPECIES_MEGANIUM
 
 // NEW: Earth Power
 levelup SPECIES_CYNDAQUIL
-    learnset MOVE_SMOKESCREEN, 1
     learnset MOVE_TACKLE, 1
     learnset MOVE_LEER, 1
-    learnset MOVE_EMBER, 3
+    learnset MOVE_EMBER, 1
+    learnset MOVE_SMOKESCREEN, 3
     learnset MOVE_MUD_SLAP, 6
     learnset MOVE_QUICK_ATTACK, 9
     learnset MOVE_FLAME_WHEEL, 12
@@ -4439,10 +4439,10 @@ levelup SPECIES_CYNDAQUIL
 
 // NEW: Earth Power
 levelup SPECIES_QUILAVA
-    learnset MOVE_SMOKESCREEN, 1
     learnset MOVE_TACKLE, 1
     learnset MOVE_LEER, 1
-    learnset MOVE_EMBER, 3
+    learnset MOVE_EMBER, 1
+    learnset MOVE_SMOKESCREEN, 3
     learnset MOVE_MUD_SLAP, 6
     learnset MOVE_QUICK_ATTACK, 9
     learnset MOVE_FLAME_WHEEL, 12
@@ -4465,10 +4465,10 @@ levelup SPECIES_TYPHLOSION
     learnset MOVE_EXTRASENSORY, 1
     learnset MOVE_MORNING_SUN, 1
     learnset MOVE_GYRO_BALL, 1
-    learnset MOVE_SMOKESCREEN, 1
     learnset MOVE_TACKLE, 1
     learnset MOVE_LEER, 1
-    learnset MOVE_EMBER, 3
+    learnset MOVE_EMBER, 1
+    learnset MOVE_SMOKESCREEN, 3
     learnset MOVE_MUD_SLAP, 6
     learnset MOVE_QUICK_ATTACK, 9
     learnset MOVE_FLAME_WHEEL, 12
@@ -4488,13 +4488,13 @@ levelup SPECIES_TYPHLOSION
 
 // NEW: Aqua Cutter, Wave Crash
 levelup SPECIES_TOTODILE
-    learnset MOVE_FLAIL, 1
     learnset MOVE_SCRATCH, 1
     learnset MOVE_LEER, 1
-    learnset MOVE_WATER_GUN, 3
+    learnset MOVE_WATER_GUN, 1
+    learnset MOVE_SCARY_FACE, 3
     learnset MOVE_RAGE, 6
     learnset MOVE_BITE, 9
-    learnset MOVE_SCARY_FACE, 12
+    learnset MOVE_FLAIL, 12
     learnset MOVE_ICE_FANG, 15
     learnset MOVE_AQUA_CUTTER, 20
     learnset MOVE_SCREECH, 24
@@ -4509,13 +4509,13 @@ levelup SPECIES_TOTODILE
 
 // NEW: Aqua Cutter, Wave Crash
 levelup SPECIES_CROCONAW
-    learnset MOVE_FLAIL, 1
     learnset MOVE_SCRATCH, 1
     learnset MOVE_LEER, 1
-    learnset MOVE_WATER_GUN, 3
+    learnset MOVE_WATER_GUN, 1
+    learnset MOVE_SCARY_FACE, 3
     learnset MOVE_RAGE, 6
     learnset MOVE_BITE, 9
-    learnset MOVE_SCARY_FACE, 12
+    learnset MOVE_FLAIL, 12
     learnset MOVE_ICE_FANG, 15
     learnset MOVE_AQUA_JET, 16
     learnset MOVE_AQUA_CUTTER, 20
@@ -4536,13 +4536,13 @@ levelup SPECIES_FERALIGATR
     learnset MOVE_PSYCHIC_FANGS, 1
     learnset MOVE_POISON_FANG, 1
     learnset MOVE_AGILITY, 1
-    learnset MOVE_FLAIL, 1
     learnset MOVE_SCRATCH, 1
     learnset MOVE_LEER, 1
-    learnset MOVE_WATER_GUN, 3
+    learnset MOVE_WATER_GUN, 1
+    learnset MOVE_SCARY_FACE, 3
     learnset MOVE_RAGE, 6
     learnset MOVE_BITE, 9
-    learnset MOVE_SCARY_FACE, 12
+    learnset MOVE_FLAIL, 12
     learnset MOVE_ICE_FANG, 15
     learnset MOVE_AQUA_JET, 16
     learnset MOVE_AQUA_CUTTER, 20

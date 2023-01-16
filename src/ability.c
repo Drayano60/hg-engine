@@ -1329,6 +1329,8 @@ BOOL MoveHitAttackerAbilityCheck(void *bw, struct BattleStruct *sp, int *seq_no)
         /*
         case ABILITY_GRIM_NEIGH:
         case ABILITY_AS_ONE_SPECTRIER:
+        */
+        case ABILITY_HEAT_UP:
             if ((sp->defence_client == sp->fainting_client)
                 && ((sp->server_status_flag2 & SERVER_STATUS2_FLAG_x10) == 0)
                 && (sp->battlemon[sp->attack_client].hp)
@@ -1345,6 +1347,7 @@ BOOL MoveHitAttackerAbilityCheck(void *bw, struct BattleStruct *sp, int *seq_no)
                 }
             }
             break;
+        /*
         case ABILITY_BATTLE_BOND:
             if ((sp->defence_client == sp->fainting_client)
                 && ((sp->server_status_flag2 & SERVER_STATUS2_FLAG_x10) == 0)

@@ -103,9 +103,9 @@ PALETTE_BUG equ 610
 .skip (2 * 4)
 .halfword MOVE_WORK_UP
 
-// Replace TM88 Pluck with TM88 Wild Charge
+// Replace TM88 Pluck with TM88 Air Slash
 .skip (2 * 4)
-.halfword MOVE_WILD_CHARGE
+.halfword MOVE_AIR_SLASH
 
 
 
@@ -182,7 +182,7 @@ PALETTE_BUG equ 610
 // Change TM55 to Water palette
 .skip (8 * 5)
 .skip 2
-.skip 2 // No change needed here
+.halfword PALETTE_WATER
 .skip 4
 
 // Change TM56 to Grass palette
@@ -198,7 +198,7 @@ PALETTE_BUG equ 610
 
 // Change TM63 to Dark palette
 .skip 2
-.skip 2 // No change needed here
+.halfword PALETTE_DARK
 .skip 4
 
 // Change TM67 to Steel palette
@@ -231,10 +231,10 @@ PALETTE_BUG equ 610
 .skip 2 // No change needed here
 .skip 4
 
-// Change TM88 to Electric palette
+// Change TM88 to Flying palette
 .skip (8 * 4)
 .skip 2
-.halfword PALETTE_ELECTRIC
+.halfword PALETTE_FLYING
 .skip 4
 
 .close

@@ -179,7 +179,7 @@ BOOL CalcAccuracy(void *bw, struct BattleStruct *sp, int attacker, int defender,
     // Handle Spinda's custom ability, Totter Steps
     if ((MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_TOTTER_STEPS) == TRUE))
     {
-        accuracy = accuracy * 75 / 100;
+        accuracy = accuracy * 80 / 100;
     }
 
     //handle victory star

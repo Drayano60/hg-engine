@@ -30,8 +30,12 @@ PALETTE_BUG equ 610
 // Replace TM01 Focus Punch with TM01 Hone Claws
 .halfword MOVE_HONE_CLAWS
 
+// Replace TM03 Water Pulse with TM03 Psyshock
+.skip (2 * 1)
+.halfword MOVE_PSYSHOCK
+
 // Replace TM05 Roar with TM05 Snarl
-.skip (2 * 3)
+.skip (2 * 1)
 .halfword MOVE_SNARL
 
 // Replace TM09 Bullet Seed with TM09 Venoshock
@@ -116,8 +120,14 @@ PALETTE_BUG equ 610
 .halfword PALETTE_DARK
 .skip 4
 
+// Change TM03 to Psychic palette
+.skip (8 * 1)
+.skip 2
+.halfword PALETTE_PSYCHIC
+.skip 4
+
 // Change TM05 to Dark palette
-.skip (8 * 3)
+.skip (8 * 1)
 .skip 2
 .halfword PALETTE_DARK
 .skip 4

@@ -2046,9 +2046,9 @@ levelup SPECIES_PONYTA
     learnset MOVE_EMBER, 6
     learnset MOVE_DOUBLE_KICK, 9
     learnset MOVE_FLAME_CHARGE, 12
-    learnset MOVE_AGILITY, 16
+    learnset MOVE_STOMP, 16
     learnset MOVE_FLAME_WHEEL, 20
-    learnset MOVE_STOMP, 24
+    learnset MOVE_AGILITY, 24
     learnset MOVE_FIRE_SPIN, 28
     learnset MOVE_BLAZE_KICK, 32
     learnset MOVE_JUMP_KICK, 39
@@ -2070,9 +2070,9 @@ levelup SPECIES_RAPIDASH
     learnset MOVE_EMBER, 6
     learnset MOVE_DOUBLE_KICK, 9
     learnset MOVE_FLAME_CHARGE, 12
-    learnset MOVE_AGILITY, 16
+    learnset MOVE_STOMP, 16
     learnset MOVE_FLAME_WHEEL, 20
-    learnset MOVE_STOMP, 24
+    learnset MOVE_AGILITY, 24
     learnset MOVE_FIRE_SPIN, 28
     learnset MOVE_BLAZE_KICK, 32
     learnset MOVE_SMART_STRIKE, 35
@@ -4270,6 +4270,7 @@ levelup SPECIES_DRAGONAIR
     terminatelearnset
 
 levelup SPECIES_DRAGONITE
+    learnset MOVE_DRAGON_CLAW, 1
     learnset MOVE_FIRE_PUNCH, 1
     learnset MOVE_THUNDER_PUNCH, 1
     learnset MOVE_EXTREME_SPEED, 1
@@ -4458,9 +4459,9 @@ levelup SPECIES_QUILAVA
     learnset MOVE_ERUPTION, 59
     terminatelearnset
 
-// NEW: Infernal Blast (Custom), Earth Power, Morning Sun, Scorching Sands
+// NEW: Infernal Blast (Custom), Raging Fury, Morning Sun, Earth Power
 levelup SPECIES_TYPHLOSION
-    learnset MOVE_SCORCHING_SANDS, 1
+    learnset MOVE_RAGING_FURY, 1
     learnset MOVE_EXTRASENSORY, 1
     learnset MOVE_MORNING_SUN, 1
     learnset MOVE_GYRO_BALL, 1
@@ -4528,7 +4529,8 @@ levelup SPECIES_CROCONAW
     learnset MOVE_WAVE_CRASH, 59
     terminatelearnset
 
-// NEW: Savage Rend (Custom), Breaking Swipe, Psychic Fangs, (HOME Datamine), Aqua Cutter, Poison Fang, Wave Crash
+// NEW: Savage Rend (Custom), Breaking Swipe (HOME Datamine), Psychic Fangs (HOME Datamine)
+// NEW: Aqua Cutter, Poison Fang, Wave Crash
 levelup SPECIES_FERALIGATR 
     learnset MOVE_BREAKING_SWIPE, 1
     learnset MOVE_PSYCHIC_FANGS, 1

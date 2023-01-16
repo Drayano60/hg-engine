@@ -956,7 +956,8 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
     }
 
     // Handle Mega Launcher
-    if (AttackingMon.ability == ABILITY_MEGA_LAUNCHER) {
+    // Also handle Aura Master, a new ability for Lucario with the same effect
+    if (AttackingMon.ability == ABILITY_MEGA_LAUNCHER || AttackingMon.ability == ABILITY_AURA_MASTER) {
         for (i = 0; i < NELEMS(MegaLauncherMovesTable); i++) {
             if (MegaLauncherMovesTable[i] == moveno) {
                 movepower = movepower * 133 / 100;

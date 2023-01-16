@@ -178,3 +178,4 @@ Odd steps foul a foe’s aim,\nreducing accuracy by 25%.
 Contact with the Pokémon\nwill burn the foe.
 Powers up sound moves\nby 33%.
 Boosts the Sp. Atk stat\nafter KOing any Pokémon.
+Powers up aura and pulse\nmoves by 33%.

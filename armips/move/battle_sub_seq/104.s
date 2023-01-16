@@ -9,6 +9,8 @@
 
 .create "build/move/battle_sub_seq/1_104", 0
 
+// Weather chip damage (Sandstorm + Hail)
+
 a001_104:
     gotosubscript 57
     setstatus2effect3 BATTLER_PLAYER, 0x2B
@@ -22,8 +24,9 @@ _0028:
     if IF_GREATER, VAR_HP_TEMP, 0x0, _0134
     abilitycheck 0x0, BATTLER_xFF, ABILITY_MAGIC_GUARD, _016C
     abilitycheck 0x0, BATTLER_xFF, ABILITY_OVERCOAT, _016C // handle overcoat
-    abilitycheck 0x0, BATTLER_xFF, ABILITY_SAND_FORCE, handle_sand_force
-return_from_sand_force:
+    abilitycheck 0x0, BATTLER_xFF, ABILITY_SAND_FORCE, SandstormImmunity
+    abilitycheck 0x0, BATTLER_xFF, ABILITY_SAND_STREAM, SandstormImmunity   
+return_from_sandstorm_immunity:
     if IF_MASK, VAR_FIELD_EFFECT, 0x30, _00B8
     printmessage 0x11D, 0x15, 0xFF, 0xFF, "NaN", "NaN", "NaN", "NaN" // sandstorm
     goto _00FC
@@ -53,9 +56,8 @@ _016C:
 _018C:
     gotosubscript 190
     goto _016C
-
-handle_sand_force:
+SandstormImmunity:
     if IF_MASK, VAR_FIELD_EFFECT, 0x0C, _016C
-    goto return_from_sand_force
+    goto return_from_sandstorm_immunity
 
 .close

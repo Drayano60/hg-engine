@@ -81,7 +81,7 @@
 /* SPECIES_TENTACRUEL                  */ .halfword ABILITY_RAIN_DISH
 /* SPECIES_GEODUDE                     */ .halfword ABILITY_SAND_VEIL
 /* SPECIES_GRAVELER                    */ .halfword ABILITY_SAND_VEIL
-/* SPECIES_GOLEM                       */ .halfword ABILITY_SAND_VEIL
+/* SPECIES_GOLEM                       */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_SAND_STREAM : ABILITY_SAND_VEIL
 /* SPECIES_PONYTA                      */ .halfword ABILITY_FLAME_BODY
 /* SPECIES_RAPIDASH                    */ .halfword ABILITY_FLAME_BODY
 /* SPECIES_SLOWPOKE                    */ .halfword ABILITY_REGENERATOR

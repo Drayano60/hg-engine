@@ -6918,6 +6918,7 @@ mondata SPECIES_MANECTRIC
     colorflip BODY_COLOR_YELLOW, 0
     tmdata SPECIES_MANECTRIC_TM_DATA_0, SPECIES_MANECTRIC_TM_DATA_1, SPECIES_MANECTRIC_TM_DATA_2, SPECIES_MANECTRIC_TM_DATA_3
 
+// ABILITY: Lightning Rod (2), Cheerleader (HA, New)
 mondata SPECIES_PLUSLE
     basestats 60, 50, 40, 95, 85, 75
     types TYPE_ELECTRIC, TYPE_ELECTRIC
@@ -6930,11 +6931,18 @@ mondata SPECIES_PLUSLE
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FAIRY, EGG_GROUP_FAIRY
-    abilities ABILITY_PLUS, ABILITY_NONE
+
+    .if ABILITY_CHANGES_IMPLEMENTED
+        abilities ABILITY_PLUS, ABILITY_LIGHTNING_ROD
+    .else
+        abilities ABILITY_PLUS, ABILITY_NONE
+    .endif
+
     runchance 0
     colorflip BODY_COLOR_YELLOW, 0
     tmdata SPECIES_PLUSLE_TM_DATA_0, SPECIES_PLUSLE_TM_DATA_1, SPECIES_PLUSLE_TM_DATA_2, SPECIES_PLUSLE_TM_DATA_3
 
+// ABILITY: Volt Absorb (2), Cheerleader (HA, New)
 mondata SPECIES_MINUN
     basestats 60, 40, 50, 95, 75, 85
     types TYPE_ELECTRIC, TYPE_ELECTRIC
@@ -6947,7 +6955,13 @@ mondata SPECIES_MINUN
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FAIRY, EGG_GROUP_FAIRY
-    abilities ABILITY_MINUS, ABILITY_NONE
+
+    .if ABILITY_CHANGES_IMPLEMENTED
+        abilities ABILITY_MINUS, ABILITY_VOLT_ABSORB
+    .else
+        abilities ABILITY_MINUS, ABILITY_NONE
+    .endif
+
     runchance 0
     colorflip BODY_COLOR_YELLOW, 0
     tmdata SPECIES_MINUN_TM_DATA_0, SPECIES_MINUN_TM_DATA_1, SPECIES_MINUN_TM_DATA_2, SPECIES_MINUN_TM_DATA_3

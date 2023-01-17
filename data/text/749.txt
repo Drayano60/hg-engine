@@ -570,3 +570,4 @@ The user uses its\nbody like a hammer\nto attack the target\nand inflict damage.
 The user and foe\nbecome friends, and\nthe foe loses its will\nto fight. This lowers\nthe foe’s Attack.
 The user tells the\nfoe a secret, so they\ncan’t concentrate.\nThis lowers the foe’s\nSp. Atk stat.
 The user beats the\nfoe with a bone that\ncontains a spirit.\nThis has a 20% chance\nto lower Defense.
+The user attacks by\npouncing on the foe.\nThis also lowers the\nfoe’s Speed stat.

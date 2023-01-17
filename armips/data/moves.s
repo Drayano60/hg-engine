@@ -8595,6 +8595,21 @@ movedata MOVE_SHADOW_BONE
     contesttype 0
     terminatedata
 
+movedata MOVE_POUNCE
+    battleeffect 70
+    pss SPLIT_PHYSICAL
+    basepower 50
+    type TYPE_BUG
+    accuracy 100
+    pp 20
+    effectchance 100
+    target MOVE_TARGET_SELECTED
+    priority 0
+    flags FLAG_CONTACT | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
+    appeal 0
+    contesttype 0
+    terminatedata
+
 movedata NUM_OF_MOVES+1
     battleeffect 0
     pss SPLIT_SPECIAL

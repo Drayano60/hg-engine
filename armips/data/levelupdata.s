@@ -245,7 +245,7 @@ levelup SPECIES_KAKUNA
     learnset MOVE_HARDEN, 7 
     terminatelearnset
 
-// NEW: Lunge, Cross Poison
+// NEW: Cross Poison (HOME Datamine), Lunge
 levelup SPECIES_BEEDRILL
     learnset MOVE_FURY_CUTTER, 1
     learnset MOVE_POISON_STING, 1 
@@ -417,7 +417,7 @@ levelup SPECIES_RATICATE_ALOLAN
     learnset MOVE_LAST_RESORT, 52
 	terminatelearnset
 
-// NEW: Night Slash, Brave Bird
+// NEW: Night Slash
 levelup SPECIES_SPEAROW
     learnset MOVE_PECK, 1
     learnset MOVE_GROWL, 1
@@ -434,10 +434,9 @@ levelup SPECIES_SPEAROW
     learnset MOVE_DRILL_RUN, 40
     learnset MOVE_NIGHT_SLASH, 44
     learnset MOVE_DOUBLE_EDGE, 48
-    learnset MOVE_BRAVE_BIRD, 52
     terminatelearnset
 
-// NEW: Night Slash, Brave Bird
+// NEW: Brave Bird (HOME Datamine), Night Slash
 levelup SPECIES_FEAROW
     learnset MOVE_PLUCK, 1
     learnset MOVE_PECK, 1
@@ -1178,7 +1177,7 @@ levelup SPECIES_BELLOSSOM
     learnset MOVE_LEAF_STORM, 58
     terminatelearnset
 
-// New: First Impression, Skitter Smack
+// New: Skitter Smack (HOME Datamine), First Impression
 levelup SPECIES_PARAS
     learnset MOVE_SCRATCH, 1
     learnset MOVE_GROWTH, 1
@@ -1200,7 +1199,7 @@ levelup SPECIES_PARAS
     learnset MOVE_X_SCISSOR, 54
     terminatelearnset
 
-// New: First Impression, Shadow Claw, Skitter Smack
+// NEW: Skitter Smack (HOME Datamine), First Impression, Shadow Claw
 levelup SPECIES_PARASECT
     learnset MOVE_CROSS_POISON, 1
     learnset MOVE_SHADOW_CLAW, 1
@@ -4748,7 +4747,6 @@ levelup SPECIES_ARIADOS
     learnset MOVE_TOXIC_THREAD, 20
     learnset MOVE_FURY_SWIPES, 24
     learnset MOVE_POISON_JAB, 28
-    learnset MOVE_LEECH_LIFE, 30
     learnset MOVE_LUNGE, 32
     learnset MOVE_AGILITY, 36
     learnset MOVE_FIRST_IMPRESSION, 40
@@ -8240,9 +8238,7 @@ levelup SPECIES_SPOINK
     learnset MOVE_FUTURE_SIGHT, 59
     terminatelearnset
 
-// NEW: Muddy Water
 levelup SPECIES_GRUMPIG
-    learnset MOVE_MUDDY_WATER, 1
     learnset MOVE_PSYSHOCK, 1
     learnset MOVE_AMNESIA, 1
     learnset MOVE_SPLASH, 1
@@ -8376,10 +8372,9 @@ levelup SPECIES_CACNEA
     learnset MOVE_DESTINY_BOND, 58
     terminatelearnset
 
-// NEW: Earth Power, Cotton Guard
+// NEW: Cotton Guard
 levelup SPECIES_CACTURNE
     learnset MOVE_REVENGE, 1
-    learnset MOVE_EARTH_POWER, 1
     learnset MOVE_TEETER_DANCE, 1
     learnset MOVE_TOXIC_SPIKES, 1
     learnset MOVE_POISON_STING, 1
@@ -8559,6 +8554,7 @@ levelup SPECIES_BARBOACH
 levelup SPECIES_WHISCASH
     learnset MOVE_ZEN_HEADBUTT, 1
     learnset MOVE_TICKLE, 1
+    learnset MOVE_SPARK, 1
     learnset MOVE_MUD_SLAP, 1
     learnset MOVE_MUD_SPORT, 4
     learnset MOVE_WATER_SPORT, 4
@@ -9797,7 +9793,7 @@ levelup SPECIES_CHIMCHAR
     learnset MOVE_ACROBATICS, 44
     learnset MOVE_SLACK_OFF, 49
     learnset MOVE_NASTY_PLOT, 54
-    learnset MOVE_FLARE_BLITZ, 59
+    learnset MOVE_FIRE_BLAST, 59
     terminatelearnset
 
 levelup SPECIES_MONFERNO

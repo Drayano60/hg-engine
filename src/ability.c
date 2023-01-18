@@ -1516,7 +1516,7 @@ BOOL MoveHitDefenderAbilityCheck(void *bw, struct BattleStruct *sp, int *seq_no)
             }
             break;
         // Handle Infernal Body, a custom ability for Slugma and Magcargo
-        // Copy of Flame Body with the RNG removed
+        // Copy of Flame Body with the RNG removed so it's guaranteed to work
         case ABILITY_INFERNAL_BODY:
             if ((sp->battlemon[sp->attack_client].hp)
                 && (sp->battlemon[sp->attack_client].condition == 0)

@@ -272,8 +272,7 @@ levelup SPECIES_PIDGEY
     learnset MOVE_GUST, 3
     learnset MOVE_MUD_SLAP, 6
     learnset MOVE_QUICK_ATTACK, 9
-    learnset MOVE_AIR_CUTTER, 12
-    learnset MOVE_WING_ATTACK, 12
+    learnset STAT_CHANGES_IMPLEMENTED ? MOVE_AIR_CUTTER : MOVE_WING_ATTACK, 12
     learnset MOVE_WHIRLWIND, 15
     learnset MOVE_TWISTER, 20
     learnset MOVE_AIR_SLASH, 24
@@ -282,8 +281,7 @@ levelup SPECIES_PIDGEY
     learnset MOVE_ROOST, 39
     learnset MOVE_TAILWIND, 44
     learnset MOVE_MIRROR_MOVE, 49
-    learnset MOVE_HURRICANE, 54
-    learnset MOVE_BRAVE_BIRD, 54
+    learnset STAT_CHANGES_IMPLEMENTED ? MOVE_HURRICANE : MOVE_BRAVE_BIRD, 54
     learnset MOVE_SKY_ATTACK, 59
     terminatelearnset
 
@@ -293,8 +291,7 @@ levelup SPECIES_PIDGEOTTO
     learnset MOVE_GUST, 3
     learnset MOVE_MUD_SLAP, 6
     learnset MOVE_QUICK_ATTACK, 9
-    learnset MOVE_AIR_CUTTER, 12
-    learnset MOVE_WING_ATTACK, 12
+    learnset STAT_CHANGES_IMPLEMENTED ? MOVE_AIR_CUTTER : MOVE_WING_ATTACK, 12
     learnset MOVE_WHIRLWIND, 15
     learnset MOVE_SWIFT, 18
     learnset MOVE_TWISTER, 20
@@ -304,8 +301,7 @@ levelup SPECIES_PIDGEOTTO
     learnset MOVE_ROOST, 39
     learnset MOVE_TAILWIND, 44
     learnset MOVE_MIRROR_MOVE, 49
-    learnset MOVE_HURRICANE, 54
-    learnset MOVE_BRAVE_BIRD, 54
+    learnset STAT_CHANGES_IMPLEMENTED ? MOVE_HURRICANE : MOVE_BRAVE_BIRD, 54
     learnset MOVE_SKY_ATTACK, 59
     terminatelearnset
 
@@ -318,8 +314,7 @@ levelup SPECIES_PIDGEOT
     learnset MOVE_GUST, 3
     learnset MOVE_MUD_SLAP, 6
     learnset MOVE_QUICK_ATTACK, 9
-    learnset MOVE_AIR_CUTTER, 12
-    learnset MOVE_WING_ATTACK, 12
+    learnset STAT_CHANGES_IMPLEMENTED ? MOVE_AIR_CUTTER : MOVE_WING_ATTACK, 12
     learnset MOVE_WHIRLWIND, 15
     learnset MOVE_SWIFT, 18
     learnset MOVE_TWISTER, 20
@@ -330,8 +325,7 @@ levelup SPECIES_PIDGEOT
     learnset MOVE_ROOST, 39
     learnset MOVE_TAILWIND, 44
     learnset MOVE_MIRROR_MOVE, 49
-    learnset MOVE_HURRICANE, 54
-    learnset MOVE_BRAVE_BIRD, 54
+    learnset STAT_CHANGES_IMPLEMENTED ? MOVE_HURRICANE : MOVE_BRAVE_BIRD, 54
     learnset MOVE_SKY_ATTACK, 59
     terminatelearnset
 
@@ -905,7 +899,7 @@ levelup SPECIES_VULPIX_ALOLAN
 
 // NEW: Dazzling Gleam, Moonblast
 levelup SPECIES_NINETALES
-    learnset MOVE_DAZZLING_GLEAM, 1
+    learnset TYPE_CHANGES_IMPLEMENTED ? MOVE_DAZZLING_GLEAM : MOVE_MYSTICAL_FIRE, 1
     learnset MOVE_MYSTICAL_FIRE, 1
     learnset MOVE_HYPNOSIS, 1
     learnset MOVE_HEX, 1
@@ -924,7 +918,7 @@ levelup SPECIES_NINETALES
     learnset MOVE_EXTRASENSORY, 32
     learnset MOVE_FLAMETHROWER, 36
     learnset MOVE_IMPRISON, 40
-    learnset MOVE_MOONBLAST, 44
+    learnset TYPE_CHANGES_IMPLEMENTED ? MOVE_MOONBLAST : MOVE_HEAT_WAVE, 44
     learnset MOVE_CAPTIVATE, 48
     learnset MOVE_INFERNO, 52
     learnset MOVE_GRUDGE, 56
@@ -1638,7 +1632,7 @@ levelup SPECIES_POLIWHIRL
     learnset MOVE_DOUBLE_EDGE, 54
     terminatelearnset
 
-// NEW: Storm Throw
+// NEW: Storm Throw, Wave Crash
 levelup SPECIES_POLIWRATH
     learnset MOVE_DYNAMIC_PUNCH, 1
     learnset MOVE_MIND_READER, 1
@@ -1659,6 +1653,7 @@ levelup SPECIES_POLIWRATH
     learnset MOVE_BELLY_DRUM, 44
     learnset MOVE_LIQUIDATION, 49
     learnset MOVE_CLOSE_COMBAT, 54
+    learnset MOVE_WAVE_CRASH, 59
     terminatelearnset
 
 levelup SPECIES_POLITOED
@@ -2582,6 +2577,7 @@ levelup SPECIES_STEELIX
     learnset MOVE_HEAD_SMASH, 60
     terminatelearnset
 
+// NEW: Belly Drum (Gen 3 Event)
 levelup SPECIES_DROWZEE
     learnset MOVE_POUND, 1
     learnset MOVE_HYPNOSIS, 1
@@ -2598,9 +2594,11 @@ levelup SPECIES_DROWZEE
     learnset MOVE_PSYCHIC, 39
     learnset MOVE_BARRIER, 44
     learnset MOVE_NASTY_PLOT, 49
-    learnset MOVE_FUTURE_SIGHT, 54
+    learnset MOVE_BELLY_DRUM, 54
+    learnset MOVE_FUTURE_SIGHT, 59
     terminatelearnset
 
+// NEW: Belly Drum (Gen 3 Event)
 levelup SPECIES_HYPNO
     learnset MOVE_PSYCHO_CUT, 1
     learnset MOVE_CONFUSE_RAY, 1
@@ -2621,7 +2619,8 @@ levelup SPECIES_HYPNO
     learnset MOVE_PSYCHIC, 39
     learnset MOVE_BARRIER, 44
     learnset MOVE_NASTY_PLOT, 49
-    learnset MOVE_FUTURE_SIGHT, 54
+    learnset MOVE_BELLY_DRUM, 54
+    learnset MOVE_FUTURE_SIGHT, 59
     terminatelearnset
 
 levelup SPECIES_KRABBY

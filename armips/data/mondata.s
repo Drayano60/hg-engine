@@ -3820,9 +3820,16 @@ mondata SPECIES_EEVEE
     colorflip BODY_COLOR_BROWN, 0
     tmdata SPECIES_EEVEE_TM_DATA_0, SPECIES_EEVEE_TM_DATA_1, SPECIES_EEVEE_TM_DATA_2, SPECIES_EEVEE_TM_DATA_3
 
-// ABILITY: Hydration (2), Clear Body (HA)
+// STATS: 65 >> 60 Atk, 60 >> 65 Def
+// ABILITY: Hydration (2), Storm Drain (HA)
 mondata SPECIES_VAPOREON
-    basestats 130, 65, 60, 65, 110, 95
+
+    .if STAT_CHANGES_IMPLEMENTED
+        basestats 130, 60, 65, 65, 110, 95
+    .else
+        basestats 130, 65, 60, 65, 110, 95
+    .endif
+
     types TYPE_WATER, TYPE_WATER
     catchrate 45
     baseexp 196
@@ -3953,7 +3960,6 @@ mondata SPECIES_LEAFEON
 
     .if STAT_CHANGES_IMPLEMENTED
         basestats 65, 130, 110, 95, 60, 65
-        // basestats 60, 130, 90, 95, 60, 90 -- to mimic glaceon
     .else
         basestats 65, 110, 130, 95, 60, 65
     .endif
@@ -3980,12 +3986,11 @@ mondata SPECIES_LEAFEON
     tmdata SPECIES_LEAFEON_TM_DATA_0, SPECIES_LEAFEON_TM_DATA_1, SPECIES_LEAFEON_TM_DATA_2, SPECIES_LEAFEON_TM_DATA_3
 
 // STATS: 95 >> 65 SpDef | 65 >> 95 Spd
-// ABILITY: Ice Body (2), Serene Grace (HA)
+// ABILITY: Ice Body (2), Ice Needles (HA, New)
 mondata SPECIES_GLACEON
 
     .if STAT_CHANGES_IMPLEMENTED
         basestats 65, 60, 110, 95, 130, 65
-        // basestats 60, 60, 90, 95, 130, 90 -- for a more balanced defense
     .else
         basestats 65, 60, 110, 65, 130, 95
     .endif

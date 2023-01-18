@@ -1436,6 +1436,8 @@ BOOL MoveHitDefenderAbilityCheck(void *bw, struct BattleStruct *sp, int *seq_no)
             }
             break;
         case ABILITY_ROUGH_SKIN:
+        // Ice Needles is a new ability for Glaceon that acts as a Rough Skin clone
+        case ABILITY_ICE_NEEDLES:
         // case ABILITY_IRON_BARBS:
             if ((sp->battlemon[sp->attack_client].hp)
                 && (GetBattlerAbility(sp, sp->attack_client) != ABILITY_MAGIC_GUARD)
@@ -1514,7 +1516,7 @@ BOOL MoveHitDefenderAbilityCheck(void *bw, struct BattleStruct *sp, int *seq_no)
             }
             break;
         // Handle Infernal Body, a custom ability for Slugma and Magcargo
-        // Copy of Flame Body with the RNG removed
+        // Copy of Flame Body with the RNG removed so it's guaranteed to work
         case ABILITY_INFERNAL_BODY:
             if ((sp->battlemon[sp->attack_client].hp)
                 && (sp->battlemon[sp->attack_client].condition == 0)

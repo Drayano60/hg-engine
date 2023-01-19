@@ -167,7 +167,7 @@
 /* SPECIES_CROCONAW                    */ .halfword ABILITY_SHEER_FORCE
 /* SPECIES_FERALIGATR                  */ .halfword ABILITY_SHEER_FORCE
 /* SPECIES_SENTRET                     */ .halfword ABILITY_FRISK
-/* SPECIES_FURRET                      */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_SPEED_BOOST : ABILITY_FRISK
+/* SPECIES_FURRET                      */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_HUSTLE : ABILITY_FRISK
 /* SPECIES_HOOTHOOT                    */ .halfword ABILITY_TINTED_LENS
 /* SPECIES_NOCTOWL                     */ .halfword ABILITY_TINTED_LENS
 /* SPECIES_LEDYBA                      */ .halfword ABILITY_RATTLED

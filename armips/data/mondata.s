@@ -5902,9 +5902,15 @@ mondata SPECIES_URSALUNA
     colorflip BODY_COLOR_BROWN, 0
     tmdata SPECIES_URSALUNA_TM_DATA_0, SPECIES_URSALUNA_TM_DATA_1, SPECIES_URSALUNA_TM_DATA_2, SPECIES_URSALUNA_TM_DATA_3
 
-// ABILITY: Infernal Body (HA, New)
+// STATS: 40 >> 50 HP | 40 >> 50 Def | 70 >> 80 SpAtk | 40 >> 50 SpDef | 250 >> 290 BST
 mondata SPECIES_SLUGMA
-    basestats 40, 40, 40, 20, 70, 40
+
+    .if STAT_CHANGES_IMPLEMENTED
+        basestats 50, 40, 50, 20, 80, 50
+    .else
+        basestats 40, 40, 40, 20, 70, 40
+    .endif
+
     types TYPE_FIRE, TYPE_FIRE
     catchrate 190
     baseexp 78
@@ -5920,9 +5926,16 @@ mondata SPECIES_SLUGMA
     colorflip BODY_COLOR_RED, 0
     tmdata SPECIES_SLUGMA_TM_DATA_0, SPECIES_SLUGMA_TM_DATA_1, SPECIES_SLUGMA_TM_DATA_2, SPECIES_SLUGMA_TM_DATA_3
 
-// ABILITY: Infernal Body (HA, New)
+// STATS: 60 >> 70 HP | 90 >> 110 SpAtk | 80 >> 90 SpDef | 430 >> 470 BST
+// ABILITY: Vaporize (HA, New)
 mondata SPECIES_MAGCARGO
-    basestats 60, 50, 120, 30, 90, 80
+
+    .if STAT_CHANGES_IMPLEMENTED
+        basestats 70, 50, 120, 30, 110, 90
+    .else
+        basestats 60, 50, 120, 30, 90, 80
+    .endif
+
     types TYPE_FIRE, TYPE_ROCK
     catchrate 75
     baseexp 154

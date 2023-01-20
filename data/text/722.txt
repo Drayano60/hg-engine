@@ -181,3 +181,4 @@ Boosts the Sp. Atk stat\nafter KOing any Pokémon.
 Powers up aura and pulse\nmoves by 33%.
 Powers up moves used by\nallies by 25%.
 Contact damages the foe\nby 12.5% of their max HP.
+Water-type moves have no\neffect on this Pokémon.

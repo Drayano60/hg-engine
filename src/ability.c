@@ -147,6 +147,15 @@ int MoveCheckDamageNegatingAbilities(struct BattleStruct *sp, int attacker, int 
         }
     }
 
+    // Handle Vaporize, a new ability for Magcargo that negates Water attacks
+    if (MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_VAPORIZE) == TRUE)
+    {
+        if ((movetype == TYPE_WATER) && (attacker != defender))
+        {
+            scriptnum = SUB_SEQ_HANDLE_VAPORIZE;
+        }
+    }
+
     // 02252FDC
     if (MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_MOTOR_DRIVE) == TRUE)
     {

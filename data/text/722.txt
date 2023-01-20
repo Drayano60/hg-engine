@@ -176,10 +176,12 @@ Powers up slicing moves\nby 33%.
 The Pokémon’s fur stops\nit taking recoil damage.
 Odd steps foul a foe’s aim,\nreducing accuracy by 20%.
 Contact with the Pokémon\nwill burn the foe.
-Powers up sound moves\nby 33%.
+Powers up sound-based\nmoves by 33%.
 Boosts the Sp. Atk stat\nafter KOing any Pokémon.
 Powers up aura and pulse\nmoves by 33%.
 Powers up moves used by\nallies by 25%.
 Contact damages the foe\nby 12.5% of their max HP.
 Water-type moves have no\neffect on this Pokémon.
 Powers up ball, bomb and\ncannon moves by 33%.
+Powers up wind-based\nmoves by 33%.
+Contact has a 30% chance\nof badly poisoning the foe.

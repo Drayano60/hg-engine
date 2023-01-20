@@ -6053,7 +6053,7 @@ mondata SPECIES_CORSOLA
     colorflip BODY_COLOR_PINK, 0
     tmdata SPECIES_CORSOLA_TM_DATA_0, SPECIES_CORSOLA_TM_DATA_1, SPECIES_CORSOLA_TM_DATA_2, SPECIES_CORSOLA_TM_DATA_3
 
-// ABILITY: Mega Launcher (HA)
+// ABILITY: No Guard (HA)
 mondata SPECIES_REMORAID
     basestats 35, 65, 35, 65, 65, 35
     types TYPE_WATER, TYPE_WATER
@@ -6071,16 +6071,9 @@ mondata SPECIES_REMORAID
     colorflip BODY_COLOR_GRAY, 0
     tmdata SPECIES_REMORAID_TM_DATA_0, SPECIES_REMORAID_TM_DATA_1, SPECIES_REMORAID_TM_DATA_2, SPECIES_REMORAID_TM_DATA_3
 
-// STATS: 105 >> 115 Atk | 105 >> 115 SpAtk | 45 >> 25 Speed
-// ABILITY: Mega Launcher (HA)
+// ABILITY: Bombardier (HA, New)
 mondata SPECIES_OCTILLERY
-
-    .if STAT_CHANGES_IMPLEMENTED
-        basestats 75, 115, 75, 25, 115, 75
-    .else
-        basestats 75, 105, 75, 45, 105, 75
-    .endif
-
+    basestats 75, 105, 75, 45, 105, 75
     types TYPE_WATER, TYPE_WATER
     catchrate 75
     baseexp 164

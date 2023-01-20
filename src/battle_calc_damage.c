@@ -49,6 +49,7 @@ static const u8 HeldItemPowerUpTable[][2]={
 #endif
 };
 
+// Copy of Soundproof list but offensive moves only
 static const u16 CacophonyMovesTable[] =
 {
     MOVE_BOOMBURST,
@@ -59,6 +60,35 @@ static const u16 CacophonyMovesTable[] =
     MOVE_HYPER_VOICE,
     MOVE_SNARL,
     MOVE_UPROAR,
+};
+
+// Copy of Bulletproof list
+static const u16 BombardierMovesTable[] =
+{
+    MOVE_ACID_SPRAY,
+    MOVE_AURA_SPHERE,
+    MOVE_BARRAGE,
+    MOVE_BULLET_SEED,
+    MOVE_EGG_BOMB,
+    MOVE_ENERGY_BALL,
+    MOVE_FOCUS_BLAST,
+    MOVE_GYRO_BALL,
+    MOVE_ICE_BALL,
+    MOVE_MAGNET_BOMB,
+    MOVE_MIST_BALL,
+    MOVE_MUD_BOMB,
+    MOVE_OCTAZOOKA,
+    MOVE_ROCK_BLAST,
+    MOVE_ROCK_WRECKER,
+    MOVE_SEED_BOMB,
+    MOVE_SHADOW_BALL,
+    MOVE_SLUDGE_BOMB,
+    MOVE_WEATHER_BALL,
+    MOVE_ZAP_CANNON,
+    // Moves not blocked by Bulletproof
+    MOVE_FLASH_CANNON,
+    MOVE_HYDRO_CANNON,
+    MOVE_SPIKE_CANNON,
 };
 
 static const u16 IronFistMovesTable[] = {
@@ -996,6 +1026,16 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
     if (AttackingMon.ability == ABILITY_CACOPHONY) {
         for (i = 0; i < NELEMS(CacophonyMovesTable); i++) {
             if (CacophonyMovesTable[i] == moveno) {
+                movepower = movepower * 133 / 100;
+                break;
+            }
+        }
+    }
+
+    // Handle Bombardier, a new ability for Octillery
+    if (AttackingMon.ability == ABILITY_BOMBARDIER) {
+        for (i = 0; i < NELEMS(BombardierMovesTable); i++) {
+            if (BombardierMovesTable[i] == moveno) {
                 movepower = movepower * 133 / 100;
                 break;
             }

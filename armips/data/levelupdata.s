@@ -1632,11 +1632,12 @@ levelup SPECIES_POLIWHIRL
     learnset MOVE_DOUBLE_EDGE, 54
     terminatelearnset
 
-// NEW: Storm Throw, Wave Crash
+// NEW: Mach Punch, Storm Throw, Wave Crash
 levelup SPECIES_POLIWRATH
     learnset MOVE_DYNAMIC_PUNCH, 1
     learnset MOVE_MIND_READER, 1
     learnset MOVE_STORM_THROW, 1
+    learnset MOVE_MACH_PUNCH, 1
     learnset MOVE_SUBMISSION, 1
     learnset MOVE_WATER_SPORT, 1
     learnset MOVE_POUND, 1

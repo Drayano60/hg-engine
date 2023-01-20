@@ -224,7 +224,7 @@
 /* SPECIES_TEDDIURSA                   */ .halfword ABILITY_HONEY_GATHER
 /* SPECIES_URSARING                    */ .halfword ABILITY_UNNERVE
 /* SPECIES_SLUGMA                      */ .halfword ABILITY_WEAK_ARMOR
-/* SPECIES_MAGCARGO                    */ .halfword ABILITY_WEAK_ARMOR
+/* SPECIES_MAGCARGO                    */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_VAPORIZE : ABILITY_WEAK_ARMOR
 /* SPECIES_SWINUB                      */ .halfword ABILITY_THICK_FAT
 /* SPECIES_PILOSWINE                   */ .halfword ABILITY_THICK_FAT
 /* SPECIES_CORSOLA                     */ .halfword ABILITY_REGENERATOR

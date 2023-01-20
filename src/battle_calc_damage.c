@@ -62,6 +62,23 @@ static const u16 CacophonyMovesTable[] =
     MOVE_UPROAR,
 };
 
+static const u16 WindWhipperMovesTable[] =
+{
+    MOVE_AIR_CUTTER,
+    MOVE_BLIZZARD,
+    MOVE_FAIRY_WIND,
+    MOVE_GUST,
+    MOVE_HEAT_WAVE,
+    MOVE_HURRICANE,
+    MOVE_ICY_WIND,
+    MOVE_PETAL_BLIZZARD,
+    MOVE_TWISTER,
+    // Snapped moves that likely always apply
+    MOVE_RAZOR_WIND,
+    MOVE_SILVER_WIND,
+    MOVE_OMINOUS_WIND,
+};
+
 // Copy of Bulletproof list
 static const u16 BombardierMovesTable[] =
 {
@@ -1036,6 +1053,16 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
     if (AttackingMon.ability == ABILITY_BOMBARDIER) {
         for (i = 0; i < NELEMS(BombardierMovesTable); i++) {
             if (BombardierMovesTable[i] == moveno) {
+                movepower = movepower * 133 / 100;
+                break;
+            }
+        }
+    }
+
+    // Handle Wind Whipper, a new ability for Shiftry
+    if (AttackingMon.ability == ABILITY_WIND_WHIPPER) {
+        for (i = 0; i < NELEMS(WindWhipperMovesTable); i++) {
+            if (WindWhipperMovesTable[i] == moveno) {
                 movepower = movepower * 133 / 100;
                 break;
             }

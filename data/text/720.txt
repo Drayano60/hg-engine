@@ -183,3 +183,5 @@ Cheerleader
 Ice Needles
 Vaporize
 Bombardier
+Wind Whipper
+Toxic Scales

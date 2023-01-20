@@ -21,6 +21,8 @@
 
 #define SUB_SEQ_RECOIL (43)
 
+#define SUB_SEQ_BADLY_POISON_MON (47)
+
 #define SUB_SEQ_SUBSTITUTE_HIT (90)
 
 #define SUB_SEQ_TRANSFORM (92)

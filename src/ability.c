@@ -1507,6 +1507,23 @@ BOOL MoveHitDefenderAbilityCheck(void *bw, struct BattleStruct *sp, int *seq_no)
                 ret = TRUE;
             }
             break;
+        case ABILITY_TOXIC_SCALES:
+            if ((sp->battlemon[sp->attack_client].hp)
+                && (sp->battlemon[sp->attack_client].condition == 0)
+                && ((sp->waza_status_flag & WAZA_STATUS_FLAG_NO_OUT) == 0)
+                && ((sp->server_status_flag & SERVER_STATUS_FLAG_x20) == 0)
+                && ((sp->server_status_flag2 & SERVER_STATUS2_FLAG_x10) == 0)
+                && ((sp->oneSelfFlag[sp->defence_client].physical_damage) ||
+                    (sp->oneSelfFlag[sp->defence_client].special_damage))
+                && (sp->moveTbl[sp->current_move_index].flag & FLAG_CONTACT)
+                && (BattleRand(bw) % 10 < 3)) {
+                sp->addeffect_type = ADD_STATUS_ABILITY;
+                sp->state_client = sp->attack_client;
+                sp->client_work = sp->defence_client;
+                seq_no[0] = SUB_SEQ_BADLY_POISON_MON;
+                ret = TRUE;
+            }
+            break;
         case ABILITY_FLAME_BODY:
             if ((sp->battlemon[sp->attack_client].hp)
                 && (sp->battlemon[sp->attack_client].condition == 0)

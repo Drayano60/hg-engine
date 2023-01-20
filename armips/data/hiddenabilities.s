@@ -228,19 +228,19 @@
 /* SPECIES_SWINUB                      */ .halfword ABILITY_THICK_FAT
 /* SPECIES_PILOSWINE                   */ .halfword ABILITY_THICK_FAT
 /* SPECIES_CORSOLA                     */ .halfword ABILITY_REGENERATOR
-/* SPECIES_REMORAID                    */ .halfword ABILITY_MOODY
-/* SPECIES_OCTILLERY                   */ .halfword ABILITY_MOODY
+/* SPECIES_REMORAID                    */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_MEGA_LAUNCHER : ABILITY_MOODY
+/* SPECIES_OCTILLERY                   */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_MEGA_LAUNCHER : ABILITY_MOODY
 /* SPECIES_DELIBIRD                    */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_TECHNICIAN : ABILITY_INSOMNIA
 /* SPECIES_MANTINE                     */ .halfword ABILITY_WATER_VEIL
-/* SPECIES_SKARMORY                    */ .halfword ABILITY_WEAK_ARMOR
-/* SPECIES_HOUNDOUR                    */ .halfword ABILITY_UNNERVE
-/* SPECIES_HOUNDOOM                    */ .halfword ABILITY_UNNERVE
+/* SPECIES_SKARMORY                    */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_ROCK_HEAD : ABILITY_WEAK_ARMOR
+/* SPECIES_HOUNDOUR                    */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_SOLAR_POWER : ABILITY_UNNERVE
+/* SPECIES_HOUNDOOM                    */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_SOLAR_POWER : ABILITY_UNNERVE
 /* SPECIES_KINGDRA                     */ .halfword ABILITY_DAMP
 /* SPECIES_PHANPY                      */ .halfword ABILITY_SAND_VEIL
 /* SPECIES_DONPHAN                     */ .halfword ABILITY_SAND_VEIL
 /* SPECIES_PORYGON2                    */ .halfword ABILITY_ANALYTIC
 /* SPECIES_STANTLER                    */ .halfword ABILITY_SAP_SIPPER
-/* SPECIES_SMEARGLE                    */ .halfword ABILITY_MOODY
+/* SPECIES_SMEARGLE                    */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_TRACE : ABILITY_MOODY
 /* SPECIES_TYROGUE                     */ .halfword ABILITY_VITAL_SPIRIT
 /* SPECIES_HITMONTOP                   */ .halfword ABILITY_STEADFAST
 /* SPECIES_SMOOCHUM                    */ .halfword ABILITY_HYDRATION

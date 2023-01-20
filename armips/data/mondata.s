@@ -3696,11 +3696,12 @@ mondata SPECIES_PINSIR
     colorflip BODY_COLOR_BROWN, 0
     tmdata SPECIES_PINSIR_TM_DATA_0, SPECIES_PINSIR_TM_DATA_1, SPECIES_PINSIR_TM_DATA_2, SPECIES_PINSIR_TM_DATA_3
 
-// STATS: 100 >> 110 Atk | 490 >> 500 BST
+// STATS: 100 >> 110 Atk | 40 SpAtk >> 30 SpAtk
+// ABILITY: Reckless (2)
 mondata SPECIES_TAUROS
 
     .if STAT_CHANGES_IMPLEMENTED
-        basestats 75, 110, 95, 110, 40, 70
+        basestats 75, 110, 95, 110, 30, 70
     .else
         basestats 75, 100, 95, 110, 40, 70
     .endif
@@ -3715,7 +3716,13 @@ mondata SPECIES_TAUROS
     basefriendship 70
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_INTIMIDATE, ABILITY_ANGER_POINT
+
+    .if ABILITY_CHANGES_IMPLEMENTED
+        abilities ABILITY_INTIMIDATE, ABILITY_RECKLESS
+    .else
+        abilities ABILITY_INTIMIDATE, ABILITY_ANGER_POINT
+    .endif
+
     runchance 90
     colorflip BODY_COLOR_BROWN, 0
     tmdata SPECIES_TAUROS_TM_DATA_0, SPECIES_TAUROS_TM_DATA_1, SPECIES_TAUROS_TM_DATA_2, SPECIES_TAUROS_TM_DATA_3
@@ -6015,9 +6022,16 @@ mondata SPECIES_MAMOSWINE
     colorflip BODY_COLOR_BROWN, 0
     tmdata SPECIES_MAMOSWINE_TM_DATA_0, SPECIES_MAMOSWINE_TM_DATA_1, SPECIES_MAMOSWINE_TM_DATA_2, SPECIES_MAMOSWINE_TM_DATA_3
 
+// STATS: 95 >> 105 Def | 65 >> 85 SpAtk | 95 >> 105 SpDef | 410 >> 450 BST
 // ABILITY: Water Absorb (1)
 mondata SPECIES_CORSOLA
-    basestats 65, 55, 95, 35, 65, 95
+
+    .if STAT_CHANGES_IMPLEMENTED
+        basestats 65, 55, 105, 35, 85, 105
+    .else
+        basestats 65, 55, 95, 35, 65, 95
+    .endif
+
     types TYPE_WATER, TYPE_ROCK
     catchrate 60
     baseexp 113
@@ -6039,6 +6053,7 @@ mondata SPECIES_CORSOLA
     colorflip BODY_COLOR_PINK, 0
     tmdata SPECIES_CORSOLA_TM_DATA_0, SPECIES_CORSOLA_TM_DATA_1, SPECIES_CORSOLA_TM_DATA_2, SPECIES_CORSOLA_TM_DATA_3
 
+// ABILITY: Mega Launcher (HA)
 mondata SPECIES_REMORAID
     basestats 35, 65, 35, 65, 65, 35
     types TYPE_WATER, TYPE_WATER
@@ -6056,8 +6071,16 @@ mondata SPECIES_REMORAID
     colorflip BODY_COLOR_GRAY, 0
     tmdata SPECIES_REMORAID_TM_DATA_0, SPECIES_REMORAID_TM_DATA_1, SPECIES_REMORAID_TM_DATA_2, SPECIES_REMORAID_TM_DATA_3
 
+// STATS: 105 >> 115 Atk | 105 >> 115 SpAtk | 45 >> 25 Speed
+// ABILITY: Mega Launcher (HA)
 mondata SPECIES_OCTILLERY
-    basestats 75, 105, 75, 45, 105, 75
+
+    .if STAT_CHANGES_IMPLEMENTED
+        basestats 75, 115, 75, 25, 115, 75
+    .else
+        basestats 75, 105, 75, 45, 105, 75
+    .endif
+
     types TYPE_WATER, TYPE_WATER
     catchrate 75
     baseexp 164
@@ -6073,6 +6096,7 @@ mondata SPECIES_OCTILLERY
     colorflip BODY_COLOR_RED, 0
     tmdata SPECIES_OCTILLERY_TM_DATA_0, SPECIES_OCTILLERY_TM_DATA_1, SPECIES_OCTILLERY_TM_DATA_2, SPECIES_OCTILLERY_TM_DATA_3
 
+// STATS: 45 >> 55 HP | 55 > 75 Atk | 45 >> 55 Def | 75 >> 110 Spd | 65 >> 100 SpAtk | 45 >> 55 SpDef | 330 >> 450 BST
 // ABILITY: Technician (HA)
 mondata SPECIES_DELIBIRD
     basestats 45, 55, 45, 75, 65, 45
@@ -6125,6 +6149,7 @@ mondata SPECIES_MANTINE
     colorflip BODY_COLOR_PURPLE, 0
     tmdata SPECIES_MANTINE_TM_DATA_0, SPECIES_MANTINE_TM_DATA_1, SPECIES_MANTINE_TM_DATA_2, SPECIES_MANTINE_TM_DATA_3
 
+// ABILITY: Rock Head (HA)
 mondata SPECIES_SKARMORY
     basestats 65, 80, 140, 70, 40, 70
     types TYPE_STEEL, TYPE_FLYING
@@ -6142,7 +6167,7 @@ mondata SPECIES_SKARMORY
     colorflip BODY_COLOR_GRAY, 0
     tmdata SPECIES_SKARMORY_TM_DATA_0, SPECIES_SKARMORY_TM_DATA_1, SPECIES_SKARMORY_TM_DATA_2, SPECIES_SKARMORY_TM_DATA_3
 
-// ABILITY: Intimidate (1)
+// ABILITY: Intimidate (1), Solar Power (HA)
 mondata SPECIES_HOUNDOUR
     basestats 45, 60, 30, 65, 80, 50
     types TYPE_DARK, TYPE_FIRE
@@ -6166,7 +6191,7 @@ mondata SPECIES_HOUNDOUR
     colorflip BODY_COLOR_BLACK, 0
     tmdata SPECIES_HOUNDOUR_TM_DATA_0, SPECIES_HOUNDOUR_TM_DATA_1, SPECIES_HOUNDOUR_TM_DATA_2, SPECIES_HOUNDOUR_TM_DATA_3
 
-// ABILITY: Intimidate (1)
+// ABILITY: Intimidate (1), Solar Power (HA)
 mondata SPECIES_HOUNDOOM
     basestats 75, 90, 50, 95, 110, 80
     types TYPE_DARK, TYPE_FIRE
@@ -6272,7 +6297,7 @@ mondata SPECIES_WYRDEER
     colorflip BODY_COLOR_WHITE, 0
     tmdata SPECIES_WYRDEER_TM_DATA_0, SPECIES_WYRDEER_TM_DATA_1, SPECIES_WYRDEER_TM_DATA_2, SPECIES_WYRDEER_TM_DATA_3
 
-// ABILITY: Trace (1)
+// ABILITY: Trace (HA)
 mondata SPECIES_SMEARGLE
     basestats 55, 20, 35, 75, 20, 45
     types TYPE_NORMAL, TYPE_NORMAL
@@ -6285,19 +6310,20 @@ mondata SPECIES_SMEARGLE
     basefriendship 70
     growthrate GROWTH_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-
-    .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_TRACE, ABILITY_TECHNICIAN
-    .else
-        abilities ABILITY_OWN_TEMPO, ABILITY_TECHNICIAN
-    .endif
-
+    abilities ABILITY_OWN_TEMPO, ABILITY_TECHNICIAN
     runchance 60
     colorflip BODY_COLOR_WHITE, 0
     tmdata SPECIES_SMEARGLE_TM_DATA_0, SPECIES_SMEARGLE_TM_DATA_1, SPECIES_SMEARGLE_TM_DATA_2, SPECIES_SMEARGLE_TM_DATA_3
 
+// STATS: 40 >> 30 SpAtk | 70 >> 80 SpDef
 mondata SPECIES_MILTANK
-    basestats 95, 80, 105, 100, 40, 70
+
+    .if STAT_CHANGES_IMPLEMENTED
+        basestats 95, 80, 105, 100, 30, 80
+    .else
+        basestats 95, 80, 105, 100, 40, 70
+    .endif
+
     types TYPE_NORMAL, TYPE_NORMAL
     catchrate 45
     baseexp 200

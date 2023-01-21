@@ -8269,7 +8269,6 @@ mondata SPECIES_WAILORD
         basestats 170, 90, 45, 60, 90, 45
     .endif
 
-    basestats 170, 90, 45, 60, 90, 45
     types TYPE_WATER, TYPE_WATER
     catchrate 60
     baseexp 206
@@ -8302,9 +8301,16 @@ mondata SPECIES_NUMEL
     colorflip BODY_COLOR_YELLOW, 0
     tmdata SPECIES_NUMEL_TM_DATA_0, SPECIES_NUMEL_TM_DATA_1, SPECIES_NUMEL_TM_DATA_2, SPECIES_NUMEL_TM_DATA_3
 
+// STATS: 70 >> 80 Def | 75 >> 85 SpDef | 460 >> 480 BST
 // ABILITY: Sheer Force (HA)
 mondata SPECIES_CAMERUPT
-    basestats 70, 100, 70, 40, 105, 75
+
+    .if STAT_CHANGES_IMPLEMENTED
+        basestats 70, 100, 80, 40, 105, 85
+    .else
+        basestats 70, 100, 70, 40, 105, 75
+    .endif
+
     types TYPE_FIRE, TYPE_GROUND
     catchrate 150
     baseexp 175
@@ -8344,7 +8350,7 @@ mondata SPECIES_TORKOAL
     colorflip BODY_COLOR_BROWN, 0
     tmdata SPECIES_TORKOAL_TM_DATA_0, SPECIES_TORKOAL_TM_DATA_1, SPECIES_TORKOAL_TM_DATA_2, SPECIES_TORKOAL_TM_DATA_3
 
-// ABILITY: Magic Bounce (HA)
+// ABILITY: Gluttony (2), Magic Bounce (HA)
 mondata SPECIES_SPOINK
     basestats 60, 25, 35, 60, 70, 80
     types TYPE_PSYCHIC, TYPE_PSYCHIC
@@ -8357,14 +8363,27 @@ mondata SPECIES_SPOINK
     basefriendship 70
     growthrate GROWTH_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_THICK_FAT, ABILITY_OWN_TEMPO
+
+    .if ABILITY_CHANGES_IMPLEMENTED
+        abilities ABILITY_THICK_FAT, ABILITY_GLUTTONY
+    .else
+        abilities ABILITY_THICK_FAT, ABILITY_OWN_TEMPO
+    .endif
+
     runchance 0
     colorflip BODY_COLOR_BLACK, 0
     tmdata SPECIES_SPOINK_TM_DATA_0, SPECIES_SPOINK_TM_DATA_1, SPECIES_SPOINK_TM_DATA_2, SPECIES_SPOINK_TM_DATA_3
 
-// ABILITY: Magic Bounce (HA)
+// STATS: 90 >> 100 SpAtk | 470 >> 480 Spd
+// ABILITY: Gluttony (2), Magic Bounce (HA)
 mondata SPECIES_GRUMPIG
-    basestats 80, 45, 65, 80, 90, 110
+
+    .if STAT_CHANGES_IMPLEMENTED
+        basestats 80, 45, 65, 80, 100, 110
+    .else
+        basestats 80, 45, 65, 80, 90, 110
+    .endif
+
     types TYPE_PSYCHIC, TYPE_PSYCHIC
     catchrate 60
     baseexp 164
@@ -8375,14 +8394,27 @@ mondata SPECIES_GRUMPIG
     basefriendship 70
     growthrate GROWTH_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_THICK_FAT, ABILITY_OWN_TEMPO
+
+    .if ABILITY_CHANGES_IMPLEMENTED
+        abilities ABILITY_THICK_FAT, ABILITY_GLUTTONY
+    .else
+        abilities ABILITY_THICK_FAT, ABILITY_OWN_TEMPO
+    .endif
+
     runchance 0
     colorflip BODY_COLOR_PURPLE, 0
     tmdata SPECIES_GRUMPIG_TM_DATA_0, SPECIES_GRUMPIG_TM_DATA_1, SPECIES_GRUMPIG_TM_DATA_2, SPECIES_GRUMPIG_TM_DATA_3
 
+// STATS: 60 >> 75 HP | 60 >> 75 Atk | 60 >> 75 Def | 60 >> 75 SpAtk | 60 >> 75 SpDef | 60 >> 75 Spd | 360 >> 450 BST
 // ABILITY: Contrary (2), Totter Steps (HA, New)
 mondata SPECIES_SPINDA
-    basestats 60, 60, 60, 60, 60, 60
+
+    .if STAT_CHANGES_IMPLEMENTED
+        basestats 75, 75, 75, 75, 75, 75
+    .else
+        basestats 60, 60, 60, 60, 60, 60
+    .endif
+
     types TYPE_NORMAL, TYPE_NORMAL
     catchrate 255
     baseexp 85
@@ -8404,9 +8436,16 @@ mondata SPECIES_SPINDA
     colorflip BODY_COLOR_BROWN, 1
     tmdata SPECIES_SPINDA_TM_DATA_0, SPECIES_SPINDA_TM_DATA_1, SPECIES_SPINDA_TM_DATA_2, SPECIES_SPINDA_TM_DATA_3
 
+// TYPES: Ground >> Bug/Ground
 mondata SPECIES_TRAPINCH
     basestats 45, 100, 45, 10, 45, 45
-    types TYPE_GROUND, TYPE_GROUND
+
+    .if TYPE_CHANGES_IMPLEMENTED
+        types TYPE_BUG, TYPE_GROUND
+    .else
+        types TYPE_GROUND, TYPE_GROUND
+    .endif
+
     catchrate 255
     baseexp 73
     evyields 0, 1, 0, 0, 0, 0
@@ -8421,10 +8460,23 @@ mondata SPECIES_TRAPINCH
     colorflip BODY_COLOR_BROWN, 0
     tmdata SPECIES_TRAPINCH_TM_DATA_0, SPECIES_TRAPINCH_TM_DATA_1, SPECIES_TRAPINCH_TM_DATA_2, SPECIES_TRAPINCH_TM_DATA_3
 
+// STATS: 50 >> 60 Def | 50 >> 80 SpAtk | 50 >> 60 SpDef | 70 >> 90 Spd | 340 >> 410 BST
+// TYPES: Ground/Dragon >> Bug/Dragon
 // ABILITY: Sand Veil (2), Tinted Lens (HA)
 mondata SPECIES_VIBRAVA
-    basestats 50, 70, 50, 70, 50, 50
-    types TYPE_GROUND, TYPE_DRAGON
+
+    .if STAT_CHANGES_IMPLEMENTED
+        basestats 50, 70, 60, 90, 80, 60
+    .else
+        basestats 50, 70, 50, 70, 50, 50
+    .endif
+
+    .if TYPE_CHANGES_IMPLEMENTED
+        types TYPE_BUG, TYPE_DRAGON
+    .else
+        types TYPE_GROUND, TYPE_DRAGON
+    .endif
+
     catchrate 120
     baseexp 126
     evyields 0, 1, 0, 1, 0, 0
@@ -8434,7 +8486,6 @@ mondata SPECIES_VIBRAVA
     basefriendship 70
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_BUG, EGG_GROUP_BUG
-    abilities ABILITY_LEVITATE, ABILITY_LEVITATE
 
     .if ABILITY_CHANGES_IMPLEMENTED
         abilities ABILITY_LEVITATE, ABILITY_SAND_VEIL
@@ -8446,10 +8497,23 @@ mondata SPECIES_VIBRAVA
     colorflip BODY_COLOR_GREEN, 0
     tmdata SPECIES_VIBRAVA_TM_DATA_0, SPECIES_VIBRAVA_TM_DATA_1, SPECIES_VIBRAVA_TM_DATA_2, SPECIES_VIBRAVA_TM_DATA_3
 
+// STATS: 100 >> 115 Atk | 80 >> 90 Def | 80 >> 125 SpAtk | 80 >> 90 SpDef | 520 >> 600 BST
+// TYPES: Ground/Dragon >> Bug/Dragon
 // ABILITY: Sand Stream (2), Tinted Lens (HA)
 mondata SPECIES_FLYGON
-    basestats 80, 100, 80, 100, 80, 80
-    types TYPE_GROUND, TYPE_DRAGON
+
+    .if STAT_CHANGES_IMPLEMENTED
+        basestats 80, 115, 90, 100, 125, 90
+    .else
+        basestats 80, 100, 80, 100, 80, 80
+    .endif
+
+    .if TYPE_CHANGES_IMPLEMENTED
+        types TYPE_BUG, TYPE_DRAGON
+    .else
+        types TYPE_GROUND, TYPE_DRAGON
+    .endif
+
     catchrate 45
     baseexp 197
     evyields 0, 1, 0, 2, 0, 0

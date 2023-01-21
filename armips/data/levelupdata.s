@@ -8324,7 +8324,6 @@ levelup SPECIES_VIBRAVA
 
 levelup SPECIES_FLYGON
     learnset MOVE_FIRST_IMPRESSION, 1
-    learnset MOVE_DRAGON_DANCE, 1
     learnset MOVE_SILVER_WIND, 1
     learnset MOVE_SONIC_BOOM, 1
     learnset MOVE_UPROAR, 1

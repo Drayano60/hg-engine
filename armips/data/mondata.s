@@ -8241,6 +8241,7 @@ mondata SPECIES_SHARPEDO
     colorflip BODY_COLOR_BLUE, 0
     tmdata SPECIES_SHARPEDO_TM_DATA_0, SPECIES_SHARPEDO_TM_DATA_1, SPECIES_SHARPEDO_TM_DATA_2, SPECIES_SHARPEDO_TM_DATA_3
 
+// ABILITY: Damp (HA)
 mondata SPECIES_WAILMER
     basestats 130, 70, 35, 60, 70, 35
     types TYPE_WATER, TYPE_WATER
@@ -8258,7 +8259,16 @@ mondata SPECIES_WAILMER
     colorflip BODY_COLOR_BLUE, 0
     tmdata SPECIES_WAILMER_TM_DATA_0, SPECIES_WAILMER_TM_DATA_1, SPECIES_WAILMER_TM_DATA_2, SPECIES_WAILMER_TM_DATA_3
 
+// STATS: 170 >> 200 HP | 90 >> 100 Atk | 45 >> 50 Def | 90 >> 100 SpAtk | 45 >> 50 SpDef | 60 >> 50 Spd | 500 >> 550 BST
+// ABILITY: Huge Impact (HA, New)
 mondata SPECIES_WAILORD
+
+    .if STAT_CHANGES_IMPLEMENTED
+        basestats 200, 100, 50, 50, 100, 50
+    .else
+        basestats 170, 90, 45, 60, 90, 45
+    .endif
+
     basestats 170, 90, 45, 60, 90, 45
     types TYPE_WATER, TYPE_WATER
     catchrate 60

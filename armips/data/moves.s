@@ -8610,6 +8610,23 @@ movedata MOVE_POUNCE
     contesttype 0
     terminatedata
 
+// Custom move for Wailord
+// Water-type Heavy Slam clone, works with its custom ability
+movedata MOVE_SPLASH_CRASH
+    battleeffect 302
+    pss SPLIT_PHYSICAL
+    basepower 1
+    type TYPE_WATER
+    accuracy 100
+    pp 10
+    effectchance 0
+    target MOVE_TARGET_SELECTED
+    priority 0
+    flags FLAG_CONTACT | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
+    appeal 0x00
+    contesttype 0
+    terminatedata
+
 movedata NUM_OF_MOVES+1
     battleeffect 0
     pss SPLIT_SPECIAL

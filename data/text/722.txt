@@ -185,3 +185,4 @@ Water-type moves have no\neffect on this Pokémon.
 Powers up ball, bomb and\ncannon moves by 33%.
 Powers up wind-based\nmoves by 33%.
 Contact has a 30% chance\nof badly poisoning the foe.
+Damage based on weight\ndifference is maximized.

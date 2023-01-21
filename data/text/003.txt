@@ -1717,3 +1717,6 @@ The foe’s {STRVAR_1 1, 0, 0} used\nShadow Bone!
 {STRVAR_1 1, 0, 0} used\nPounce!
 The wild {STRVAR_1 1, 0, 0} used\nPounce!
 The foe’s {STRVAR_1 1, 0, 0} used\nPounce!
+{STRVAR_1 1, 0, 0} used\nSplash Crash!
+The wild {STRVAR_1 1, 0, 0} used\nSplash Crash!
+The foe’s {STRVAR_1 1, 0, 0} used\nSplash Crash!

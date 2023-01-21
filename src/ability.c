@@ -1507,6 +1507,7 @@ BOOL MoveHitDefenderAbilityCheck(void *bw, struct BattleStruct *sp, int *seq_no)
                 ret = TRUE;
             }
             break;
+        // Handle Toxic Scales, a new ability for various poison dust spreading bugs
         case ABILITY_TOXIC_SCALES:
             if ((sp->battlemon[sp->attack_client].hp)
                 && (sp->battlemon[sp->attack_client].condition == 0)

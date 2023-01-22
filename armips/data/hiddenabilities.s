@@ -344,8 +344,8 @@
 /* SPECIES_SEVIPER                     */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_MERCILESS : ABILITY_INFILTRATOR
 /* SPECIES_LUNATONE                    */ .halfword ABILITY_NONE
 /* SPECIES_SOLROCK                     */ .halfword ABILITY_NONE
-/* SPECIES_BARBOACH                    */ .halfword ABILITY_HYDRATION
-/* SPECIES_WHISCASH                    */ .halfword ABILITY_HYDRATION
+/* SPECIES_BARBOACH                    */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_SIMPLE : ABILITY_HYDRATION
+/* SPECIES_WHISCASH                    */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_SIMPLE : ABILITY_HYDRATION
 /* SPECIES_CORPHISH                    */ .halfword ABILITY_ADAPTABILITY
 /* SPECIES_CRAWDAUNT                   */ .halfword ABILITY_ADAPTABILITY
 /* SPECIES_BALTOY                      */ .halfword ABILITY_NONE
@@ -358,16 +358,16 @@
 /* SPECIES_MILOTIC                     */ .halfword ABILITY_CUTE_CHARM
 /* SPECIES_CASTFORM                    */ .halfword ABILITY_NONE
 /* SPECIES_KECLEON                     */ .halfword ABILITY_PROTEAN
-/* SPECIES_SHUPPET                     */ .halfword ABILITY_CURSED_BODY
-/* SPECIES_BANETTE                     */ .halfword ABILITY_CURSED_BODY
+/* SPECIES_SHUPPET                     */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_PRANKSTER : ABILITY_CURSED_BODY
+/* SPECIES_BANETTE                     */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_PRANKSTER : ABILITY_CURSED_BODY
 /* SPECIES_DUSKULL                     */ .halfword ABILITY_FRISK
 /* SPECIES_DUSCLOPS                    */ .halfword ABILITY_FRISK
 /* SPECIES_TROPIUS                     */ .halfword ABILITY_HARVEST
 /* SPECIES_CHIMECHO                    */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_CACOPHONY : ABILITY_NONE
 /* SPECIES_ABSOL                       */ .halfword ABILITY_JUSTIFIED
 /* SPECIES_WYNAUT                      */ .halfword ABILITY_TELEPATHY
-/* SPECIES_SNORUNT                     */ .halfword ABILITY_MOODY
-/* SPECIES_GLALIE                      */ .halfword ABILITY_MOODY
+/* SPECIES_SNORUNT                     */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_REFRIGERATE : ABILITY_MOODY
+/* SPECIES_GLALIE                      */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_REFRIGERATE : ABILITY_MOODY
 /* SPECIES_SPHEAL                      */ .halfword ABILITY_OBLIVIOUS
 /* SPECIES_SEALEO                      */ .halfword ABILITY_OBLIVIOUS
 /* SPECIES_WALREIN                     */ .halfword ABILITY_OBLIVIOUS

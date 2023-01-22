@@ -8618,7 +8618,7 @@ levelup SPECIES_CRAWDAUNT
     learnset MOVE_ENDEAVOR, 61
     terminatelearnset
 
-// NEW: Mud Bomb
+// NEW: Mud Bomb, Recover
 levelup SPECIES_BALTOY
     learnset MOVE_POWER_TRICK, 1
     learnset MOVE_MUD_SLAP, 1
@@ -8636,12 +8636,13 @@ levelup SPECIES_BALTOY
     learnset MOVE_HEAL_BLOCK, 33
     learnset MOVE_PSYCHIC, 37
     learnset MOVE_GRAVITY, 41
-    learnset MOVE_IMPRISON, 45
-    learnset MOVE_SANDSTORM, 49
-    learnset MOVE_TRICK_ROOM, 53
+    learnset MOVE_RECOVER, 45
+    learnset MOVE_IMPRISON, 49
+    learnset MOVE_SANDSTORM, 53
     learnset MOVE_EXPLOSION, 57
     terminatelearnset
 
+// NEW: Mud Bomb, Recover
 levelup SPECIES_CLAYDOL
     learnset MOVE_POWER_TRICK, 1
     learnset MOVE_TELEPORT, 1
@@ -8661,9 +8662,9 @@ levelup SPECIES_CLAYDOL
     learnset MOVE_HYPER_BEAM, 36
     learnset MOVE_PSYCHIC, 37
     learnset MOVE_GRAVITY, 41
-    learnset MOVE_IMPRISON, 45
-    learnset MOVE_SANDSTORM, 49
-    learnset MOVE_TRICK_ROOM, 53
+    learnset MOVE_RECOVER, 45
+    learnset MOVE_IMPRISON, 49
+    learnset MOVE_SANDSTORM, 53
     learnset MOVE_EXPLOSION, 57
     terminatelearnset
 

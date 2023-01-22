@@ -8558,9 +8558,16 @@ mondata SPECIES_CACNEA
     colorflip BODY_COLOR_GREEN, 0
     tmdata SPECIES_CACNEA_TM_DATA_0, SPECIES_CACNEA_TM_DATA_1, SPECIES_CACNEA_TM_DATA_2, SPECIES_CACNEA_TM_DATA_3
 
+// STATS: 115 >> 125 Atk | 60 >> 75 Def | 115 >> 105 SpAtk | 60 >> 75 SpDef | 55 >> 50 Spd | 475 >> 500 BST
 // ABILITY: Water Absorb (2), Heatproof (HA)
 mondata SPECIES_CACTURNE
-    basestats 70, 115, 60, 55, 115, 60
+
+    .if STAT_CHANGES_IMPLEMENTED
+        basestats 70, 125, 75, 50, 105, 75
+    .else
+        basestats 70, 115, 60, 55, 115, 60
+    .endif
+
     types TYPE_GRASS, TYPE_DARK
     catchrate 60
     baseexp 177
@@ -8582,10 +8589,23 @@ mondata SPECIES_CACTURNE
     colorflip BODY_COLOR_GREEN, 0
     tmdata SPECIES_CACTURNE_TM_DATA_0, SPECIES_CACTURNE_TM_DATA_1, SPECIES_CACTURNE_TM_DATA_2, SPECIES_CACTURNE_TM_DATA_3
 
+// STATS: 40 >> 50 Atk | 60 >> 70 Def | 40 >> 50 SpAtk | 310 >> 340 BST
+// TYPES: Normal/Flying >> Fairy/Flying
 // ABILITY: Cloud Nine (2), Fluffy (HA)
 mondata SPECIES_SWABLU
-    basestats 45, 40, 60, 50, 40, 75
-    types TYPE_NORMAL, TYPE_FLYING
+
+    .if STAT_CHANGES_IMPLEMENTED
+        basestats 45, 50, 70, 50, 50, 75
+    .else
+        basestats 45, 40, 60, 50, 40, 75
+    .endif
+
+    .if TYPE_CHANGES_IMPLEMENTED
+        types TYPE_FAIRY, TYPE_FLYING
+    .else
+        types TYPE_NORMAL, TYPE_FLYING
+    .endif
+
     catchrate 255
     baseexp 74
     evyields 0, 0, 0, 0, 0, 1
@@ -8606,10 +8626,23 @@ mondata SPECIES_SWABLU
     colorflip BODY_COLOR_BLUE, 0
     tmdata SPECIES_SWABLU_TM_DATA_0, SPECIES_SWABLU_TM_DATA_1, SPECIES_SWABLU_TM_DATA_2, SPECIES_SWABLU_TM_DATA_3
 
+// STATS: 70 >> 80 Atk | 90 >> 100 Def | 70 >> 80 SpAtk | 490 >> 520 BST
+// TYPES: Dragon >> Dragon/Fairy
 // ABILITY: Cloud Nine (2), Fluffy (HA)
 mondata SPECIES_ALTARIA
-    basestats 75, 70, 90, 80, 70, 105
-    types TYPE_DRAGON, TYPE_FLYING
+
+    .if STAT_CHANGES_IMPLEMENTED
+        basestats 75, 80, 100, 80, 80, 105
+    .else
+        basestats 75, 70, 90, 80, 70, 105
+    .endif
+
+    .if TYPE_CHANGES_IMPLEMENTED
+        types TYPE_DRAGON, TYPE_FAIRY
+    .else
+        types TYPE_DRAGON, TYPE_FLYING
+    .endif
+
     catchrate 45
     baseexp 188
     evyields 0, 0, 0, 0, 0, 2
@@ -8630,9 +8663,16 @@ mondata SPECIES_ALTARIA
     colorflip BODY_COLOR_BLUE, 0
     tmdata SPECIES_ALTARIA_TM_DATA_0, SPECIES_ALTARIA_TM_DATA_1, SPECIES_ALTARIA_TM_DATA_2, SPECIES_ALTARIA_TM_DATA_3
 
+// STATS: 90 >> 100 Speed | 458 >> 468 BST
 // ABILITY: Toxic Boost (2), Tough Claws (HA)
 mondata SPECIES_ZANGOOSE
-    basestats 73, 115, 60, 90, 60, 60
+
+    .if STAT_CHANGES_IMPLEMENTED
+        basestats 73, 115, 60, 100, 60, 60
+    .else
+        basestats 73, 115, 60, 90, 60, 60
+    .endif
+
     types TYPE_NORMAL, TYPE_NORMAL
     catchrate 90
     baseexp 165
@@ -8654,10 +8694,23 @@ mondata SPECIES_ZANGOOSE
     colorflip BODY_COLOR_WHITE, 1
     tmdata SPECIES_ZANGOOSE_TM_DATA_0, SPECIES_ZANGOOSE_TM_DATA_1, SPECIES_ZANGOOSE_TM_DATA_2, SPECIES_ZANGOOSE_TM_DATA_3
 
+// STATS: 100 >> 110 Atk | 100 >> 90 SpAtk | 65 >> 75 Speed | 458 >> 468 BST
+// TYPES: Poison >> Poison/Dark
 // ABILITY: Infiltrator (2), Merciless (HA)
 mondata SPECIES_SEVIPER
-    basestats 73, 100, 60, 65, 100, 60
-    types TYPE_POISON, TYPE_POISON
+
+    .if STAT_CHANGES_IMPLEMENTED
+        basestats 73, 110, 60, 75, 90, 60
+    .else
+        basestats 73, 100, 60, 65, 100, 60
+    .endif
+
+   .if TYPE_CHANGES_IMPLEMENTED
+        types TYPE_POISON, TYPE_DARK
+    .else
+        types TYPE_POISON, TYPE_POISON
+    .endif
+
     catchrate 90
     baseexp 165
     evyields 0, 1, 0, 0, 1, 0
@@ -8678,8 +8731,15 @@ mondata SPECIES_SEVIPER
     colorflip BODY_COLOR_BLACK, 1
     tmdata SPECIES_SEVIPER_TM_DATA_0, SPECIES_SEVIPER_TM_DATA_1, SPECIES_SEVIPER_TM_DATA_2, SPECIES_SEVIPER_TM_DATA_3
 
+// STATS: 55 >> 50 Atk | 95 >> 110 SpAtk | 85 >> 90 SpDef | 460 >> 475 BST
 mondata SPECIES_LUNATONE
-    basestats 90, 55, 65, 70, 95, 85
+
+    .if STAT_CHANGES_IMPLEMENTED
+        basestats 90, 50, 65, 70, 110, 90
+    .else
+        basestats 90, 55, 65, 70, 95, 85
+    .endif
+
     types TYPE_ROCK, TYPE_PSYCHIC
     catchrate 45
     baseexp 150
@@ -8695,7 +8755,15 @@ mondata SPECIES_LUNATONE
     colorflip BODY_COLOR_YELLOW, 0
     tmdata SPECIES_LUNATONE_TM_DATA_0, SPECIES_LUNATONE_TM_DATA_1, SPECIES_LUNATONE_TM_DATA_2, SPECIES_LUNATONE_TM_DATA_3
 
+// STATS: 95 >> 110 Atk | 85 >> 90 Def | 55 >> 50 SpAtk | 460 >> 475 BST
 mondata SPECIES_SOLROCK
+
+    .if STAT_CHANGES_IMPLEMENTED
+        basestats 90, 110, 90, 70, 50, 65
+    .else
+        basestats 90, 95, 85, 70, 55, 65
+    .endif
+
     basestats 90, 95, 85, 70, 55, 65
     types TYPE_ROCK, TYPE_PSYCHIC
     catchrate 45

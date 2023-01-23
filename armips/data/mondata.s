@@ -10340,9 +10340,16 @@ mondata SPECIES_KRICKETOT
     colorflip BODY_COLOR_RED, 0
     tmdata SPECIES_KRICKETOT_TM_DATA_0, SPECIES_KRICKETOT_TM_DATA_1, SPECIES_KRICKETOT_TM_DATA_2, SPECIES_KRICKETOT_TM_DATA_3
 
+// STATS: 55 >> 85 SpAtk | 65 >> 75 Spd | 384 >> 424 BST
 // ABILITY: Technician (2), Cacophony (HA, New)
 mondata SPECIES_KRICKETUNE
-    basestats 77, 85, 51, 65, 55, 51
+
+    .if STAT_CHANGES_IMPLEMENTED
+        basestats 77, 85, 51, 75, 85, 51
+    .else
+        basestats 77, 85, 51, 65, 55, 51
+    .endif
+
     types TYPE_BUG, TYPE_BUG
     catchrate 45
     baseexp 159
@@ -10398,8 +10405,22 @@ mondata SPECIES_LUXIO
     colorflip BODY_COLOR_BLUE, 0
     tmdata SPECIES_LUXIO_TM_DATA_0, SPECIES_LUXIO_TM_DATA_1, SPECIES_LUXIO_TM_DATA_2, SPECIES_LUXIO_TM_DATA_3
 
+// STATS: 95 >> 75 SpAtk | 70 >> 90 Speed
+// TYPES: Electric >> Electric/Dark
 mondata SPECIES_LUXRAY
-    basestats 80, 120, 79, 70, 95, 79
+
+    .if STAT_CHANGES_IMPLEMENTED
+        basestats 80, 120, 79, 90, 75, 79
+    .else
+        basestats 80, 120, 79, 70, 95, 79
+    .endif
+
+    .if TYPE_CHANGES_IMPLEMENTED
+        types TYPE_ELECTRIC, TYPE_DARK
+    .else
+        types TYPE_ELECTRIC, TYPE_ELECTRIC
+    .endif
+
     types TYPE_ELECTRIC, TYPE_ELECTRIC
     catchrate 45
     baseexp 194
@@ -10439,9 +10460,16 @@ mondata SPECIES_CRANIDOS
     colorflip BODY_COLOR_BLUE, 0
     tmdata SPECIES_CRANIDOS_TM_DATA_0, SPECIES_CRANIDOS_TM_DATA_1, SPECIES_CRANIDOS_TM_DATA_2, SPECIES_CRANIDOS_TM_DATA_3
 
+// STATS: 65 >> 55 SpAtk | 58 >> 68 Speed 
 // ABILITY: Rock Head (2)
 mondata SPECIES_RAMPARDOS
-    basestats 97, 165, 60, 58, 65, 50
+
+    .if STAT_CHANGES_IMPLEMENTED
+        basestats 97, 165, 60, 68, 55, 50
+    .else
+        basestats 97, 165, 60, 58, 65, 50
+    .endif
+
     types TYPE_ROCK, TYPE_ROCK
     catchrate 45
     baseexp 199
@@ -10528,8 +10556,16 @@ mondata SPECIES_BURMY
     colorflip BODY_COLOR_GRAY, 0
     tmdata SPECIES_BURMY_TM_DATA_0, SPECIES_BURMY_TM_DATA_1, SPECIES_BURMY_TM_DATA_2, SPECIES_BURMY_TM_DATA_3
 
+// STATS: 60 >> 70 HP | 85 >> 95 Def | 79 >> 89 SpAtk | 424 >> 454 BST
+// ABILITY: Leaf Guard (1)
 mondata SPECIES_WORMADAM
-    basestats 60, 59, 85, 36, 79, 105
+
+    .if STAT_CHANGES_IMPLEMENTED
+        basestats 70, 59, 95, 36, 89, 105
+    .else
+        basestats 60, 59, 85, 36, 79, 105
+    .endif
+
     types TYPE_BUG, TYPE_GRASS
     catchrate 45
     baseexp 159
@@ -10540,13 +10576,27 @@ mondata SPECIES_WORMADAM
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_BUG, EGG_GROUP_BUG
-    abilities ABILITY_ANTICIPATION, ABILITY_NONE
+
+    .if ABILITY_CHANGES_IMPLEMENTED
+        abilities ABILITY_LEAF_GUARD, ABILITY_NONE
+    .else
+        abilities ABILITY_ANTICIPATION, ABILITY_NONE
+    .endif
+
     runchance 0
     colorflip BODY_COLOR_GRAY, 0
     tmdata SPECIES_WORMADAM_TM_DATA_0, SPECIES_WORMADAM_TM_DATA_1, SPECIES_WORMADAM_TM_DATA_2, SPECIES_WORMADAM_TM_DATA_3
 
+// STATS: 60 >> 70 HP | 79 >> 59 Atk | 59 >> 89 SpAtk | 85 >> 95 SpDef | 424 >> 454 BST
+// ABILITY: Sand Veil (1)
 mondata SPECIES_WORMADAM_SANDY
-    basestats 60, 79, 105, 36, 59, 85
+
+    .if STAT_CHANGES_IMPLEMENTED
+        basestats 70, 59, 105, 36, 89, 95
+    .else
+        basestats 60, 79, 105, 36, 59, 85
+    .endif
+
     types TYPE_BUG, TYPE_GROUND
     catchrate 45
     baseexp 159
@@ -10557,13 +10607,27 @@ mondata SPECIES_WORMADAM_SANDY
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_BUG, EGG_GROUP_BUG
-    abilities ABILITY_ANTICIPATION, ABILITY_NONE
+
+    .if ABILITY_CHANGES_IMPLEMENTED
+        abilities ABILITY_SAND_VEIL, ABILITY_NONE
+    .else
+        abilities ABILITY_ANTICIPATION, ABILITY_NONE
+    .endif
+
     runchance 0
     colorflip BODY_COLOR_GRAY, 0
     tmdata SPECIES_WORMADAM_SANDY_TM_DATA_0, SPECIES_WORMADAM_SANDY_TM_DATA_1, SPECIES_WORMADAM_SANDY_TM_DATA_2, SPECIES_WORMADAM_SANDY_TM_DATA_3
 
+// STATS: 60 >> 70 HP | 69 >> 59 Atk | 95 >> 100 Def | 69 >> 89 SpAtk | 95 >> 100 SpDef | 424 >> 454 BST
+// ABILITY: Weak Armor (1)
 mondata SPECIES_WORMADAM_TRASHY
-    basestats 60, 69, 95, 36, 69, 95
+
+    .if STAT_CHANGES_IMPLEMENTED
+        basestats 70, 59, 100, 36, 89, 100
+    .else
+        basestats 60, 69, 95, 36, 69, 95
+    .endif
+
     types TYPE_BUG, TYPE_STEEL
     catchrate 45
     baseexp 159
@@ -10574,13 +10638,26 @@ mondata SPECIES_WORMADAM_TRASHY
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_BUG, EGG_GROUP_BUG
-    abilities ABILITY_ANTICIPATION, ABILITY_NONE
+
+    .if ABILITY_CHANGES_IMPLEMENTED
+        abilities ABILITY_WEAK_ARMOR, ABILITY_NONE
+    .else
+        abilities ABILITY_ANTICIPATION, ABILITY_NONE
+    .endif
+
     runchance 0
     colorflip BODY_COLOR_GRAY, 0
     tmdata SPECIES_WORMADAM_TRASHY_TM_DATA_0, SPECIES_WORMADAM_TRASHY_TM_DATA_1, SPECIES_WORMADAM_TRASHY_TM_DATA_2, SPECIES_WORMADAM_TRASHY_TM_DATA_3
 
+// STATS: 94 >> 99 Atk | 94 >> 99 SpAtk | 66 >> 86 Speed | 424 >> 454 BST
 mondata SPECIES_MOTHIM
-    basestats 70, 94, 50, 66, 94, 50
+
+    .if STAT_CHANGES_IMPLEMENTED
+        basestats 70, 99, 50, 86, 99, 50
+    .else
+        basestats 70, 94, 50, 66, 94, 50
+    .endif
+
     types TYPE_BUG, TYPE_FLYING
     catchrate 45
     baseexp 159

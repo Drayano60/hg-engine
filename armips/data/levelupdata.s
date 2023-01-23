@@ -10033,9 +10033,9 @@ levelup SPECIES_KRICKETUNE
     learnset MOVE_SING, 14
     learnset MOVE_FOCUS_ENERGY, 16
     learnset MOVE_FALSE_SWIPE, 18
-    learnset MOVE_SLASH, 20
-    learnset MOVE_X_SCISSOR, 23
-    learnset MOVE_SCREECH, 26
+    learnset MOVE_X_SCISSOR, 20
+    learnset MOVE_SCREECH, 23
+    learnset MOVE_SLASH, 26
     learnset MOVE_TAUNT, 29
     learnset MOVE_BUG_BUZZ, 32
     learnset MOVE_HYPER_VOICE, 35
@@ -10222,6 +10222,7 @@ levelup SPECIES_WORMADAM
     learnset MOVE_QUIVER_DANCE, 50
     terminatelearnset
 
+// NEW: Mud Bomb
 levelup SPECIES_WORMADAM_SANDY
     learnset MOVE_SUCKER_PUNCH, 1
     learnset MOVE_PROTECT, 1 
@@ -10229,14 +10230,14 @@ levelup SPECIES_WORMADAM_SANDY
     learnset MOVE_STRING_SHOT, 1
     learnset MOVE_BUG_BITE, 1
     learnset MOVE_HIDDEN_POWER, 1
-    learnset MOVE_ROCK_BLAST, 20
+    learnset STAT_CHANGES_IMPLEMENTED ? MOVE_MUD_BOMB : MOVE_ROCK_BLAST, 20
     learnset MOVE_CONFUSION, 22
     learnset MOVE_HARDEN, 24
     learnset MOVE_PSYBEAM, 26
     learnset MOVE_ATTRACT, 29
     learnset MOVE_FLAIL, 32
     learnset MOVE_BUG_BUZZ, 35
-    learnset MOVE_EARTHQUAKE, 38
+    learnset STAT_CHANGES_IMPLEMENTED ? MOVE_EARTH_POWER : MOVE_EARTHQUAKE, 38
     learnset MOVE_PSYCHIC, 41
     learnset MOVE_CAPTIVATE, 44
     learnset MOVE_FISSURE, 47
@@ -10257,7 +10258,7 @@ levelup SPECIES_WORMADAM_TRASHY
     learnset MOVE_ATTRACT, 29
     learnset MOVE_FLAIL, 32
     learnset MOVE_BUG_BUZZ, 35
-    learnset MOVE_IRON_HEAD, 38
+    learnset STAT_CHANGES_IMPLEMENTED ? MOVE_FLASH_CANNON : MOVE_IRON_HEAD, 38
     learnset MOVE_PSYCHIC, 41
     learnset MOVE_CAPTIVATE, 44
     learnset MOVE_METAL_BURST, 47

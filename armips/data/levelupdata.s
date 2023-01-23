@@ -3551,7 +3551,7 @@ levelup SPECIES_ELECTIVIRE
     learnset MOVE_CROSS_CHOP, 39
     learnset MOVE_WILD_CHARGE, 44
     learnset MOVE_LIGHT_SCREEN, 49
-    learnset MOVE_CLOSE_COMBAT, 54
+    learnset TYPE_CHANGES_IMPLEMENTED ? MOVE_CLOSE_COMBAT : MOVE_THUNDER, 54
     learnset MOVE_GIGA_IMPACT, 59
     learnset MOVE_VOLT_TACKLE, 64
     terminatelearnset
@@ -5428,7 +5428,7 @@ levelup SPECIES_MISDREAVUS
     learnset MOVE_POWER_GEM, 32
     learnset MOVE_SHADOW_BALL, 36
     learnset MOVE_HYPNOSIS, 40
-    learnset MOVE_MOONBLAST, 44
+    learnset TYPE_CHANGES_IMPLEMENTED ? MOVE_MOONBLAST : MOVE_DAZZLING_GLEAM, 44
     learnset MOVE_PERISH_SONG, 48
     learnset MOVE_GRUDGE, 52
     learnset MOVE_DESTINY_BOND, 56
@@ -5455,7 +5455,7 @@ levelup SPECIES_MISMAGIUS
     learnset MOVE_POWER_GEM, 32
     learnset MOVE_SHADOW_BALL, 36
     learnset MOVE_HYPNOSIS, 40
-    learnset MOVE_MOONBLAST, 44
+    learnset TYPE_CHANGES_IMPLEMENTED ? MOVE_MOONBLAST : MOVE_DAZZLING_GLEAM, 44
     learnset MOVE_PERISH_SONG, 48
     learnset MOVE_GRUDGE, 52
     learnset MOVE_DESTINY_BOND, 56
@@ -11091,14 +11091,14 @@ levelup SPECIES_FINNEON
     learnset MOVE_SWEET_KISS, 12
     learnset MOVE_WATER_PULSE, 15
     learnset MOVE_RAIN_DANCE, 18
-    learnset MOVE_DRAINING_KISS, 21
+    learnset TYPE_CHANGES_IMPLEMENTED ? MOVE_DRAINING_KISS : MOVE_SWIFT, 21
     learnset MOVE_CAPTIVATE, 24
     learnset MOVE_SILVER_WIND, 27
     learnset MOVE_DAZZLING_GLEAM, 30
     learnset MOVE_AQUA_RING, 34
     learnset MOVE_U_TURN, 38
     learnset MOVE_BOUNCE, 42
-    learnset MOVE_MOONBLAST, 46
+    learnset TYPE_CHANGES_IMPLEMENTED ? MOVE_MOONBLAST : MOVE_ACROBATICS, 46
     learnset MOVE_TAILWIND, 50
     learnset MOVE_QUIVER_DANCE, 54
     terminatelearnset
@@ -11117,7 +11117,7 @@ levelup SPECIES_LUMINEON
     learnset MOVE_SWEET_KISS, 12
     learnset MOVE_WATER_PULSE, 15
     learnset MOVE_RAIN_DANCE, 18
-    learnset MOVE_DRAINING_KISS, 21
+    learnset TYPE_CHANGES_IMPLEMENTED ? MOVE_DRAINING_KISS : MOVE_SWIFT, 21
     learnset MOVE_CAPTIVATE, 24
     learnset MOVE_SILVER_WIND, 27
     learnset MOVE_DAZZLING_GLEAM, 30
@@ -11125,7 +11125,7 @@ levelup SPECIES_LUMINEON
     learnset MOVE_AQUA_RING, 34
     learnset MOVE_U_TURN, 38
     learnset MOVE_BOUNCE, 42
-    learnset MOVE_MOONBLAST, 46
+    learnset TYPE_CHANGES_IMPLEMENTED ? MOVE_MOONBLAST : MOVE_ACROBATICS, 46
     learnset MOVE_TAILWIND, 50
     learnset MOVE_QUIVER_DANCE, 54
     terminatelearnset

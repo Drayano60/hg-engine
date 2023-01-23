@@ -2567,9 +2567,16 @@ mondata SPECIES_MUK_ALOLAN
     colorflip BODY_COLOR_GREEN, 1
     tmdata SPECIES_NONE_TM_DATA_0, SPECIES_NONE_TM_DATA_1, SPECIES_NONE_TM_DATA_2, SPECIES_NONE_TM_DATA_3
 
+// TYPES: Water >> Water/Ice
 mondata SPECIES_SHELLDER
     basestats 30, 65, 100, 40, 45, 25
-    types TYPE_WATER, TYPE_WATER
+
+    .if TYPE_CHANGES_IMPLEMENTED
+        types TYPE_WATER, TYPE_ICE
+    .else
+        types TYPE_WATER, TYPE_WATER
+    .endif
+
     catchrate 190
     baseexp 97
     evyields 0, 0, 1, 0, 0, 0
@@ -3619,10 +3626,17 @@ mondata SPECIES_ELECTABUZZ
     colorflip BODY_COLOR_YELLOW, 1
     tmdata SPECIES_ELECTABUZZ_TM_DATA_0, SPECIES_ELECTABUZZ_TM_DATA_1, SPECIES_ELECTABUZZ_TM_DATA_2, SPECIES_ELECTABUZZ_TM_DATA_3
 
+// TYPES: Electric >> Electric/Fighting
 // ABILITY: Vital Spirit (2), Iron Fist (HA)
 mondata SPECIES_ELECTIVIRE
     basestats 75, 123, 67, 95, 95, 85
-    types TYPE_ELECTRIC, TYPE_ELECTRIC
+
+    .if TYPE_CHANGES_IMPLEMENTED
+        types TYPE_ELECTRIC, TYPE_FIGHTING
+    .else
+        types TYPE_ELECTRIC, TYPE_ELECTRIC
+    .endif
+
     catchrate 30
     baseexp 199
     evyields 0, 3, 0, 0, 0, 0
@@ -5490,9 +5504,16 @@ mondata SPECIES_HONCHKROW
     colorflip BODY_COLOR_BLACK, 0
     tmdata SPECIES_HONCHKROW_TM_DATA_0, SPECIES_HONCHKROW_TM_DATA_1, SPECIES_HONCHKROW_TM_DATA_2, SPECIES_HONCHKROW_TM_DATA_3
 
+// TYPES: Ghost >> Ghost/Fairy
 mondata SPECIES_MISDREAVUS
     basestats 60, 60, 60, 85, 85, 85
-    types TYPE_GHOST, TYPE_GHOST
+
+    .if TYPE_CHANGES_IMPLEMENTED
+        types TYPE_GHOST, TYPE_FAIRY
+    .else
+        types TYPE_GHOST, TYPE_GHOST
+    .endif
+
     catchrate 45
     baseexp 147
     evyields 0, 0, 0, 0, 0, 1
@@ -5507,9 +5528,16 @@ mondata SPECIES_MISDREAVUS
     colorflip BODY_COLOR_GRAY, 0
     tmdata SPECIES_MISDREAVUS_TM_DATA_0, SPECIES_MISDREAVUS_TM_DATA_1, SPECIES_MISDREAVUS_TM_DATA_2, SPECIES_MISDREAVUS_TM_DATA_3
 
+// TYPES: Ghost >> Ghost/Fairy
 mondata SPECIES_MISMAGIUS
     basestats 60, 60, 60, 105, 105, 105
-    types TYPE_GHOST, TYPE_GHOST
+
+    .if TYPE_CHANGES_IMPLEMENTED
+        types TYPE_GHOST, TYPE_FAIRY
+    .else
+        types TYPE_GHOST, TYPE_GHOST
+    .endif
+
     catchrate 45
     baseexp 187
     evyields 0, 0, 0, 0, 1, 1
@@ -11435,6 +11463,7 @@ mondata SPECIES_CARNIVINE
     tmdata SPECIES_CARNIVINE_TM_DATA_0, SPECIES_CARNIVINE_TM_DATA_1, SPECIES_CARNIVINE_TM_DATA_2, SPECIES_CARNIVINE_TM_DATA_3
 
 // STATS: 49 >> 39 Atk | 49 >> 59 SpAtk
+// TYPES: Water >> Water/Fairy
 // ABILITY: Illuminate (HA)
 mondata SPECIES_FINNEON
 
@@ -11444,7 +11473,13 @@ mondata SPECIES_FINNEON
         basestats 49, 49, 56, 66, 49, 61
     .endif
 
-    types TYPE_WATER, TYPE_WATER
+
+    .if TYPE_CHANGES_IMPLEMENTED
+        types TYPE_WATER, TYPE_FAIRY
+    .else
+        types TYPE_WATER, TYPE_WATER
+    .endif
+    
     catchrate 190
     baseexp 90
     evyields 0, 0, 0, 1, 0, 0
@@ -11460,6 +11495,7 @@ mondata SPECIES_FINNEON
     tmdata SPECIES_FINNEON_TM_DATA_0, SPECIES_FINNEON_TM_DATA_1, SPECIES_FINNEON_TM_DATA_2, SPECIES_FINNEON_TM_DATA_3
 
 // STATS: 69 >> 59 Atk | 76 >> 86 Def | 69 >> 89 SpAtk | 460 >> 480 BST
+// TYPES: Water >> Water/Fairy
 // ABILITY: Illuminate (HA)
 mondata SPECIES_LUMINEON
 
@@ -11469,7 +11505,12 @@ mondata SPECIES_LUMINEON
         basestats 69, 69, 76, 91, 69, 86
     .endif
 
-    types TYPE_WATER, TYPE_WATER
+    .if TYPE_CHANGES_IMPLEMENTED
+        types TYPE_WATER, TYPE_FAIRY
+    .else
+        types TYPE_WATER, TYPE_WATER
+    .endif
+    
     catchrate 75
     baseexp 156
     evyields 0, 0, 0, 2, 0, 0

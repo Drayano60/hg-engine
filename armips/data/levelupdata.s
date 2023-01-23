@@ -1683,6 +1683,7 @@ levelup SPECIES_ABRA
     learnset MOVE_TELEPORT, 1 
     terminatelearnset
 
+// NEW: Hypnosis (PLA)
 levelup SPECIES_KADABRA
     learnset MOVE_TELEPORT, 1
     learnset MOVE_CONFUSION, 1
@@ -1696,13 +1697,13 @@ levelup SPECIES_KADABRA
     learnset MOVE_RECOVER, 36
     learnset MOVE_PSYCHIC, 40
     learnset MOVE_TRICK, 44
-    learnset MOVE_ROLE_PLAY, 48
-    learnset MOVE_FUTURE_SIGHT, 52
+    learnset MOVE_HYPNOSIS, 48
+    learnset MOVE_ROLE_PLAY, 52
+    learnset MOVE_FUTURE_SIGHT, 56
     terminatelearnset
 
-// NEW: Aura Sphere
+// NEW: Hypnosis (PLA)
 levelup SPECIES_ALAKAZAM
-    learnset MOVE_AURA_SPHERE, 1
     learnset MOVE_TRI_ATTACK, 1
     learnset MOVE_PSYCHO_CUT, 1
     learnset MOVE_CALM_MIND, 1
@@ -1719,8 +1720,9 @@ levelup SPECIES_ALAKAZAM
     learnset MOVE_RECOVER, 36
     learnset MOVE_PSYCHIC, 40
     learnset MOVE_TRICK, 44
-    learnset MOVE_ROLE_PLAY, 48
-    learnset MOVE_FUTURE_SIGHT, 52
+    learnset MOVE_HYPNOSIS, 48
+    learnset MOVE_ROLE_PLAY, 52
+    learnset MOVE_FUTURE_SIGHT, 56
     terminatelearnset
 
 levelup SPECIES_MACHOP
@@ -3851,7 +3853,7 @@ levelup SPECIES_UMBREON
     learnset MOVE_LAST_RESORT, 52
     terminatelearnset
 
-// NEW: Leafage
+// NEW: Leafage (PLA)
 levelup SPECIES_LEAFEON
     learnset MOVE_COVET, 1
     learnset MOVE_LEAFAGE, 1
@@ -10888,9 +10890,11 @@ levelup SPECIES_RIOLU
     learnset MOVE_REVERSAL, 56
     terminatelearnset
 
+// NEW: Mach Punch (PLA)
 levelup SPECIES_LUCARIO
     learnset MOVE_AURA_SPHERE, 1
     learnset MOVE_BULLET_PUNCH, 1
+    learnset MOVE_MACH_PUNCH, 1
     learnset MOVE_QUICK_ATTACK, 1
     learnset MOVE_FORESIGHT, 1
     learnset MOVE_ENDURE, 1

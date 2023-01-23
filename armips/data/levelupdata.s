@@ -11056,8 +11056,9 @@ levelup SPECIES_TOXICROAK
     learnset MOVE_GUNK_SHOT, 58
     terminatelearnset
 
-// NEW: Leech Life (PLA), Leaf Blade
+// NEW: Leech Life (PLA), Poison Fang, Leaf Blade
 levelup SPECIES_CARNIVINE
+    learnset MOVE_POISON_FANG, 1
     learnset MOVE_BIND, 1
     learnset MOVE_GROWTH, 1
     learnset MOVE_BITE, 3

@@ -1507,7 +1507,7 @@ mondata SPECIES_DIGLETT_ALOLAN
     colorflip BODY_COLOR_BROWN, 0
     tmdata SPECIES_NONE_TM_DATA_0, SPECIES_NONE_TM_DATA_1, SPECIES_NONE_TM_DATA_2, SPECIES_NONE_TM_DATA_3
 
-STATS: 35 >> 55 HP | 70 >> 75 SpDef | 425 >> 450 BST
+// STATS: 35 >> 55 HP | 70 >> 75 SpDef | 425 >> 450 BST
 mondata SPECIES_DUGTRIO
 
     .if STAT_CHANGES_IMPLEMENTED
@@ -5777,7 +5777,7 @@ mondata SPECIES_GRANBULL
     .if TYPE_CHANGES_IMPLEMENTED
         types TYPE_FAIRY, TYPE_FIGHTING
     .else
-        types TYPE_FAIRY
+        types TYPE_FAIRY, TYPE_FAIRY
     .endif
 
     catchrate 75
@@ -8764,7 +8764,6 @@ mondata SPECIES_SOLROCK
         basestats 90, 95, 85, 70, 55, 65
     .endif
 
-    basestats 90, 95, 85, 70, 55, 65
     types TYPE_ROCK, TYPE_PSYCHIC
     catchrate 45
     baseexp 150
@@ -9331,7 +9330,6 @@ mondata SPECIES_TROPIUS
         basestats 99, 68, 83, 51, 72, 87
     .endif
 
-    basestats 99, 68, 83, 51, 72, 87
     types TYPE_GRASS, TYPE_FLYING
     catchrate 200
     baseexp 169
@@ -9989,7 +9987,7 @@ mondata SPECIES_DEOXYS_SPEED
     colorflip BODY_COLOR_RED, 0
     tmdata SPECIES_DEOXYS_SPEED_TM_DATA_0, SPECIES_DEOXYS_SPEED_TM_DATA_1, SPECIES_DEOXYS_SPEED_TM_DATA_2, SPECIES_DEOXYS_SPEED_TM_DATA_3
 
-// ABILITY: Shell Armor (2), Rock Head (HA)
+// ABILITY: Shell Armor (2), Sturdy (HA)
 mondata SPECIES_TURTWIG
     basestats 55, 68, 64, 31, 45, 55
     types TYPE_GRASS, TYPE_GRASS
@@ -10013,7 +10011,7 @@ mondata SPECIES_TURTWIG
     colorflip BODY_COLOR_GREEN, 0
     tmdata SPECIES_TURTWIG_TM_DATA_0, SPECIES_TURTWIG_TM_DATA_1, SPECIES_TURTWIG_TM_DATA_2, SPECIES_TURTWIG_TM_DATA_3
 
-// ABILITY: Shell Armor (2), Rock Head (HA)
+// ABILITY: Shell Armor (2), Sturdy (HA)
 mondata SPECIES_GROTLE
     basestats 75, 89, 85, 36, 55, 65
     types TYPE_GRASS, TYPE_GRASS
@@ -10037,9 +10035,16 @@ mondata SPECIES_GROTLE
     colorflip BODY_COLOR_GREEN, 0
     tmdata SPECIES_GROTLE_TM_DATA_0, SPECIES_GROTLE_TM_DATA_1, SPECIES_GROTLE_TM_DATA_2, SPECIES_GROTLE_TM_DATA_3
 
-// ABILITY: Shell Armor (2), Rock Head (HA)
+// STATS: 95 >> 105 HP | 525 >> 535 BST
+// ABILITY: Shell Armor (2), Sturdy (HA)
 mondata SPECIES_TORTERRA
-    basestats 95, 109, 105, 56, 75, 85
+
+    .if STAT_CHANGES_IMPLEMENTED
+        basestats 105, 109, 105, 56, 75, 85
+    .else
+        basestats 95, 109, 105, 56, 75, 85
+    .endif
+
     types TYPE_GRASS, TYPE_GROUND
     catchrate 45
     baseexp 208
@@ -10109,9 +10114,16 @@ mondata SPECIES_MONFERNO
     colorflip BODY_COLOR_BROWN, 1
     tmdata SPECIES_MONFERNO_TM_DATA_0, SPECIES_MONFERNO_TM_DATA_1, SPECIES_MONFERNO_TM_DATA_2, SPECIES_MONFERNO_TM_DATA_3
 
+// STATS: 108 >> 109 Spd | 534 >> 535 BST
 // ABILITY: Vital Spirit (2)
 mondata SPECIES_INFERNAPE
-    basestats 76, 104, 71, 108, 104, 71
+
+    .if STAT_CHANGES_IMPLEMENTED
+        basestats 76, 104, 71, 109, 104, 71
+    .else
+        basestats 76, 104, 71, 108, 104, 71
+    .endif
+
     types TYPE_FIRE, TYPE_FIGHTING
     catchrate 45
     baseexp 209
@@ -10133,7 +10145,7 @@ mondata SPECIES_INFERNAPE
     colorflip BODY_COLOR_BROWN, 0
     tmdata SPECIES_INFERNAPE_TM_DATA_0, SPECIES_INFERNAPE_TM_DATA_1, SPECIES_INFERNAPE_TM_DATA_2, SPECIES_INFERNAPE_TM_DATA_3
 
-// ABILITY: Swift Swim (2)
+// ABILITY: Swift Swim (2), Competitive (HA)
 mondata SPECIES_PIPLUP
     basestats 53, 51, 53, 40, 61, 56
     types TYPE_WATER, TYPE_WATER
@@ -10157,7 +10169,7 @@ mondata SPECIES_PIPLUP
     colorflip BODY_COLOR_BLUE, 0
     tmdata SPECIES_PIPLUP_TM_DATA_0, SPECIES_PIPLUP_TM_DATA_1, SPECIES_PIPLUP_TM_DATA_2, SPECIES_PIPLUP_TM_DATA_3
 
-// ABILITY: Swift Swim (2)
+// ABILITY: Swift Swim (2), Competitive (HA)
 mondata SPECIES_PRINPLUP
     basestats 64, 66, 68, 50, 81, 76
     types TYPE_WATER, TYPE_WATER
@@ -10181,9 +10193,16 @@ mondata SPECIES_PRINPLUP
     colorflip BODY_COLOR_BLUE, 0
     tmdata SPECIES_PRINPLUP_TM_DATA_0, SPECIES_PRINPLUP_TM_DATA_1, SPECIES_PRINPLUP_TM_DATA_2, SPECIES_PRINPLUP_TM_DATA_3
 
-// ABILITY: Swift Swim (2)
+// STATS: 111 >> 116 SpAtk | 530 >> 535 BST
+// ABILITY: Swift Swim (2), Competitive (HA)
 mondata SPECIES_EMPOLEON
-    basestats 84, 86, 88, 60, 111, 101
+
+    .if STAT_CHANGES_IMPLEMENTED
+        basestats 84, 86, 88, 60, 116, 101
+    .else
+        basestats 84, 86, 88, 60, 111, 101
+    .endif
+
     types TYPE_WATER, TYPE_STEEL
     catchrate 45
     baseexp 210
@@ -10239,8 +10258,15 @@ mondata SPECIES_STARAVIA
     colorflip BODY_COLOR_BROWN, 0
     tmdata SPECIES_STARAVIA_TM_DATA_0, SPECIES_STARAVIA_TM_DATA_1, SPECIES_STARAVIA_TM_DATA_2, SPECIES_STARAVIA_TM_DATA_3
 
+// STATS: 85 >> 95 HP | 485 >> 495 BST
 mondata SPECIES_STARAPTOR
-    basestats 85, 120, 70, 100, 50, 60
+
+    .if STAT_CHANGES_IMPLEMENTED
+        basestats 95, 120, 70, 100, 50, 60
+    .else
+        basestats 85, 120, 70, 100, 50, 60
+    .endif
+
     types TYPE_NORMAL, TYPE_FLYING
     catchrate 45
     baseexp 172

@@ -432,8 +432,8 @@
 /* SPECIES_AMBIPOM                     */ .halfword ABILITY_SKILL_LINK
 /* SPECIES_DRIFLOON                    */ .halfword ABILITY_FLARE_BOOST
 /* SPECIES_DRIFBLIM                    */ .halfword ABILITY_FLARE_BOOST
-/* SPECIES_BUNEARY                     */ .halfword ABILITY_LIMBER
-/* SPECIES_LOPUNNY                     */ .halfword ABILITY_LIMBER
+/* SPECIES_BUNEARY                     */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_KLUTZ : ABILITY_LIMBER
+/* SPECIES_LOPUNNY                     */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_SCRAPPY : ABILITY_LIMBER
 /* SPECIES_MISMAGIUS                   */ .halfword ABILITY_NONE
 /* SPECIES_HONCHKROW                   */ .halfword ABILITY_MOXIE
 /* SPECIES_GLAMEOW                     */ .halfword ABILITY_KEEN_EYE

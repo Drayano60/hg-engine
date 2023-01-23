@@ -1296,16 +1296,17 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
     }
 
     //handles multiscale
-    if ((DefendingMon.ability == ABILITY_MULTISCALE) && (DefendingMon.hp == DefendingMon.maxhp))
+    // Handle Royal Order, a new ability for Vespiquen
+    if (((DefendingMon.ability == ABILITY_MULTISCALE) || (DefendingMon.ability == ABILITY_ROYAL_ORDER)) && (DefendingMon.hp == DefendingMon.maxhp))
     {
         damage /= 2;
     }
 
     //handles water bubble
-    if ((DefendingMon.ability == ABILITY_WATER_BUBBLE) && (movetype == TYPE_FIRE))
-    {
-        damage /= 2;
-    }
+    // if ((DefendingMon.ability == ABILITY_WATER_BUBBLE) && (movetype == TYPE_FIRE))
+    // {
+    //     damage /= 2;
+    // }
 
     // handle punk rock TODO uncomment
 //    if (DefendingMon.ability == ABILITY_PUNK_ROCK)

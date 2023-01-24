@@ -5938,7 +5938,7 @@ levelup SPECIES_URSALUNA
     terminatelearnset
 
 // NEW: Power Gem, Magma Storm
-// Evolution: 26
+// Evolution: 28
 levelup SPECIES_SLUGMA
     learnset MOVE_SMOG, 1
     learnset MOVE_YAWN, 1
@@ -5960,7 +5960,7 @@ levelup SPECIES_SLUGMA
     terminatelearnset
 
 // NEW: Power Gem, Magma Storm
-// Evolution: 26
+// Evolution: 28
 levelup SPECIES_MAGCARGO
     learnset MOVE_ROCK_SLIDE, 1
     learnset MOVE_BODY_SLAM, 1
@@ -5973,7 +5973,7 @@ levelup SPECIES_MAGCARGO
     learnset MOVE_ACID_ARMOR, 16
     learnset MOVE_ANCIENT_POWER, 20
     learnset MOVE_LAVA_PLUME, 24
-    learnset MOVE_SHELL_SMASH, 26
+    learnset MOVE_SHELL_SMASH, 28
     learnset MOVE_RECOVER, 29
     learnset MOVE_AMNESIA, 33
     learnset MOVE_POWER_GEM, 37

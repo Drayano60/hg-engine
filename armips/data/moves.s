@@ -1223,7 +1223,7 @@ movedata MOVE_PETAL_DANCE
     terminatedata
 
 movedata MOVE_STRING_SHOT
-    battleeffect 20
+    battleeffect 60
     pss SPLIT_STATUS
     basepower 0
     type TYPE_BUG

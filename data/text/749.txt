@@ -79,7 +79,7 @@ A cloud of poisonous\ndust is scattered on\nthe foe.\nIt may poison the\ntarget.
 The user scatters a\ncloud of paralyzing\npowder.\nIt may paralyze the\ntarget.
 The user scatters a\nbig cloud of sleep-\ninducing dust around\nthe foe.\n
 The user attacks by\nscattering petals for\ntwo to three turns.\nThe user then\nbecomes confused.
-The foe is bound with\nsilk blown from the\nuser’s mouth.\nIt reduces the\ntarget’s Speed stat.
+The foe is bound with\nsilk blown from the\nuser’s mouth. This\nsharply reduces the\ntarget’s Speed stat.
 The foe is stricken\nby a shock wave.\nThis attack always\ninflicts 40 HP\ndamage.
 The foe becomes\ntrapped within a\nfierce vortex of fire\nthat rages for two\nto five turns.
 A jolt of electricity\nis hurled at the foe\nto inflict damage.\nIt may also leave the\nfoe paralyzed.

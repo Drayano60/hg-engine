@@ -17,7 +17,6 @@ Infernal Body|Slugma, Magcargo|A foe using a contact move on this Pokémon will 
 Royal Order|Vespiquen|This Pokémon takes x0.5 reduced damage when at full HP.|A clone of Multiscale. Based on an idea of the Combee soldiers defending it from the initial hit.
 Totter Steps|Spinda|Moves used against the Pokémon have an accuracy modifier of x0.8.|Based on Spinda's Pokédex entries saying it evades moves with its stumbling movements.
 Toxic Scales|Venomoth, Dustox|A foe using a contact move on this Pokémon has a 30% chance to become badly poisoned.|Based on both moths scattering highly toxic dust.
-Vaporize|Magcargo|The Pokémon is immune to all Water-type moves.|Based on Magcargo's Pokédex entry saying water is vaporized on contact.
 Wind Whipper|Shiftry|Wind-based moves have their power boosted by x1.33.|Baesd on Shiftry's Pokédex entries claiming it can whip up gusts.
 
 ---

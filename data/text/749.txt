@@ -11,7 +11,7 @@ The foe is punched\nwith an electrified\nfist. It may leave\nthe target with\npa
 Hard, pointed, and\nsharp claws rake the\nfoe to inflict damage.\n\n
 Huge, impressive\npincers grip and\nsqueeze the foe.\n\n
 A vicious, tearing\nattack with pincers.\nThe foe will faint\ninstantly if this\nattack hits.
-A two-turn attack.\nBlades of wind hit the\nfoe on the second\nturn. It has a high\ncritical-hit ratio.
+Blades of wind hit\nopposing Pokémon.\nThis move has a high\ncritical-hit ratio.
 A frenetic dance to\nuplift the fighting\nspirit. It sharply\nraises the user’s\nAttack stat.
 The foe is cut with a\nscythe or a claw.\nIt can also be used\nto cut down thin\ntrees.
 A gust of wind is\nwhipped up by wings\nand launched at the\nfoe to inflict damage.\n

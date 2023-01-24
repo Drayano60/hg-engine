@@ -82,12 +82,13 @@ movedata MOVE_COMET_PUNCH
     contesttype CONTEST_TOUGH
     terminatedata
 
+// ACCURACY: 85 >> 100
 movedata MOVE_MEGA_PUNCH
     battleeffect 0
     pss SPLIT_PHYSICAL
     basepower 80
     type TYPE_NORMAL
-    accuracy 85
+    accuracy MOVE_CHANGES_IMPLEMENTED ? 100 : 85
     pp 20
     effectchance 0
     target MOVE_TARGET_SELECTED
@@ -97,10 +98,11 @@ movedata MOVE_MEGA_PUNCH
     contesttype CONTEST_TOUGH
     terminatedata
 
+// POWER: 40 >> 60
 movedata MOVE_PAY_DAY
     battleeffect 34
     pss SPLIT_PHYSICAL
-    basepower 40
+    basepower MOVE_CHANGES_IMPLEMENTED ? 60 : 40
     type TYPE_NORMAL
     accuracy 100
     pp 20
@@ -172,11 +174,12 @@ movedata MOVE_SCRATCH
     contesttype CONTEST_TOUGH
     terminatedata
 
+// TYPE: Normal >> Steel
 movedata MOVE_VICE_GRIP
     battleeffect 0
     pss SPLIT_PHYSICAL
     basepower 55
-    type TYPE_NORMAL
+    type MOVE_CHANGES_IMPLEMENTED ? TYPE_STEEL : TYPE_NORMAL
     accuracy 100
     pp 30
     effectchance 0
@@ -202,11 +205,14 @@ movedata MOVE_GUILLOTINE
     contesttype CONTEST_COOL
     terminatedata
 
+// EFFECT: Two-turn high crit >> High crit
+// POWER: 80 >> 90
+// TYPE: Normal >> Flying
 movedata MOVE_RAZOR_WIND
-    battleeffect 39
+    battleeffect 43
     pss SPLIT_SPECIAL
-    basepower 80
-    type TYPE_NORMAL
+    basepower MOVE_CHANGES_IMPLEMENTED ? 90 : 80
+    type MOVE_CHANGES_IMPLEMENTED ? TYPE_FLYING : TYPE_NORMAL
     accuracy 100
     pp 10
     effectchance 0

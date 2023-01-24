@@ -400,7 +400,7 @@ mondata SPECIES_KAKUNA
     colorflip BODY_COLOR_YELLOW, 0
     tmdata SPECIES_KAKUNA_TM_DATA_0, SPECIES_KAKUNA_TM_DATA_1, SPECIES_KAKUNA_TM_DATA_2, SPECIES_KAKUNA_TM_DATA_3
 
-// STATS: 90 >> 100 Atk | 75 >> 85 SpDef | 80 >> 90 Speed | 395 BST >> 425 BST
+// STATS: 90 >> 100 Atk | 80 >> 90 SpDef | 75 >> 85 Speed | 395 BST >> 425 BST
 // ABILITY: Sniper (2), Adaptability (HA)
 mondata SPECIES_BEEDRILL
 
@@ -619,12 +619,12 @@ mondata SPECIES_SPEAROW
     colorflip BODY_COLOR_BROWN, 0
     tmdata SPECIES_SPEAROW_TM_DATA_0, SPECIES_SPEAROW_TM_DATA_1, SPECIES_SPEAROW_TM_DATA_2, SPECIES_SPEAROW_TM_DATA_3
 
-// STATS: 90 >> 100 Atk | 442 >> 452 BST
+// STATS: 65 >> 70 HP | 90 >> 100 Atk | 65 >> 70 Def | 442 >> 462 BST
 // ABILITY: Sniper (2), Intimidate (HA)
 mondata SPECIES_FEAROW
 
     .if STAT_CHANGES_IMPLEMENTED
-        basestats 65, 100, 65, 100, 61, 61
+        basestats 70, 100, 70, 100, 61, 61
     .else
         basestats 65, 90, 65, 100, 61, 61
     .endif
@@ -2337,7 +2337,8 @@ mondata SPECIES_MAGNEZONE
     colorflip BODY_COLOR_GRAY, 0
     tmdata SPECIES_MAGNEZONE_TM_DATA_0, SPECIES_MAGNEZONE_TM_DATA_1, SPECIES_MAGNEZONE_TM_DATA_2, SPECIES_MAGNEZONE_TM_DATA_3
 
-// STATS: 52 >> 62 HP | 90 >> 100 Atk | 55 >> 65 Def | 62 >> 72 SpDef | 60 >> 90 Speed | 377 >> 447 BST 
+// STATS: 52 >> 62 HP | 90 >> 100 Atk | 55 >> 65 Def | 62 >> 72 SpDef | 60 >> 90 Speed | 377 >> 447 BST
+// TYPES: Normal/Flying >> Fighting/Flying
 // ABILITY: Scrappy (2)
 mondata SPECIES_FARFETCHD
 
@@ -2684,12 +2685,12 @@ mondata SPECIES_ONIX
     colorflip BODY_COLOR_GRAY, 0
     tmdata SPECIES_ONIX_TM_DATA_0, SPECIES_ONIX_TM_DATA_1, SPECIES_ONIX_TM_DATA_2, SPECIES_ONIX_TM_DATA_3
 
-// STATS: 85 >> 105 Atk | 55 >> 45 SpAtk | 510 >> 520 BST
+// STATS: 85 >> 105 Atk | 510 >> 530 BST
 // ABILITY: Strong Jaw (1)
 mondata SPECIES_STEELIX
 
     .if STAT_CHANGES_IMPLEMENTED
-        basestats 75, 105, 200, 30, 45, 65
+        basestats 75, 105, 200, 30, 55, 65
     .else
         basestats 75, 85, 200, 30, 55, 65
     .endif
@@ -5065,7 +5066,7 @@ mondata SPECIES_FLAAFFY
     colorflip BODY_COLOR_PINK, 0
     tmdata SPECIES_FLAAFFY_TM_DATA_0, SPECIES_FLAAFFY_TM_DATA_1, SPECIES_FLAAFFY_TM_DATA_2, SPECIES_FLAAFFY_TM_DATA_3
 
-// STATS: 85 >> 95 Def | 115 >> 125 SpAtk | 90 >> 100 SpDef | 55 > 45 Speed | 510 >> 530 BST
+// STATS: 85 >> 95 Def | 115 >> 125 SpAtk | 90 >> 100 SpDef | 55 >> 45 Speed | 510 >> 530 BST
 // TYPES: Electric >> Electric/Dragon
 // ABILITY: Illuminate (2), Mold Breaker (HA)
 mondata SPECIES_AMPHAROS
@@ -5191,7 +5192,7 @@ mondata SPECIES_BONSLY
     colorflip BODY_COLOR_BROWN, 0
     tmdata SPECIES_BONSLY_TM_DATA_0, SPECIES_BONSLY_TM_DATA_1, SPECIES_BONSLY_TM_DATA_2, SPECIES_BONSLY_TM_DATA_3
 
-// STATS: 115 >> 135 Def | 30 >> 50 SpAtk | 65 >> 75 SpDef | 410 >> 450 BST
+// STATS: 115 >> 125 Def | 30 >> 50 SpAtk | 65 >> 75 SpDef | 410 >> 450 BST
 mondata SPECIES_SUDOWOODO
 
     .if STAT_CHANGES_IMPLEMENTED
@@ -6159,10 +6160,16 @@ mondata SPECIES_OCTILLERY
     colorflip BODY_COLOR_RED, 0
     tmdata SPECIES_OCTILLERY_TM_DATA_0, SPECIES_OCTILLERY_TM_DATA_1, SPECIES_OCTILLERY_TM_DATA_2, SPECIES_OCTILLERY_TM_DATA_3
 
-// STATS: 45 >> 55 HP | 55 > 75 Atk | 45 >> 55 Def | 75 >> 110 Spd | 65 >> 100 SpAtk | 45 >> 55 SpDef | 330 >> 450 BST
+// STATS: 45 >> 55 HP | 55 >> 75 Atk | 45 >> 55 Def | 65 >> 100 SpAtk | 45 >> 55 SpDef | 75 >> 110 Spd | 330 >> 450 BST
 // ABILITY: Technician (HA)
 mondata SPECIES_DELIBIRD
-    basestats 45, 55, 45, 75, 65, 45
+
+    .if STAT_CHANGES_IMPLEMENTED
+        basestats 55, 75, 55, 110, 100, 55
+    .else
+        basestats 45, 55, 45, 75, 65, 45
+    .endif
+
     types TYPE_ICE, TYPE_FLYING
     catchrate 45
     baseexp 183
@@ -7954,12 +7961,12 @@ mondata SPECIES_ELECTRIKE
     colorflip BODY_COLOR_GREEN, 0
     tmdata SPECIES_ELECTRIKE_TM_DATA_0, SPECIES_ELECTRIKE_TM_DATA_1, SPECIES_ELECTRIKE_TM_DATA_2, SPECIES_ELECTRIKE_TM_DATA_3
 
-// STATS: 75 >> 85 Atk | 105 >> 115 Spd | 475 >> 495 BST
+// STATS: 75 >> 90 Atk | 105 >> 115 Spd | 475 >> 500 BST
 // ABILITY: Intimidate (HA)
 mondata SPECIES_MANECTRIC
 
     .if STAT_CHANGES_IMPLEMENTED
-        basestats 70, 85, 60, 115, 105, 60
+        basestats 70, 90, 60, 115, 105, 60
     .else
         basestats 70, 75, 60, 105, 105, 60
     .endif
@@ -8071,7 +8078,7 @@ mondata SPECIES_VOLBEAT
     colorflip BODY_COLOR_GRAY, 0
     tmdata SPECIES_VOLBEAT_TM_DATA_0, SPECIES_VOLBEAT_TM_DATA_1, SPECIES_VOLBEAT_TM_DATA_2, SPECIES_VOLBEAT_TM_DATA_3
 
-// STATS: 47 >> 47 Atk | 75 >> 85 Def | 73 >> 88 SpAtk | 85 >> 95 Speed | 430 >> 465 BST
+// STATS: 75 >> 85 Def | 73 >> 88 SpAtk | 85 >> 95 Speed | 430 >> 465 BST
 // TYPES: Bug >> Bug/Fairy
 mondata SPECIES_ILLUMISE
 
@@ -8402,7 +8409,7 @@ mondata SPECIES_SPOINK
     colorflip BODY_COLOR_BLACK, 0
     tmdata SPECIES_SPOINK_TM_DATA_0, SPECIES_SPOINK_TM_DATA_1, SPECIES_SPOINK_TM_DATA_2, SPECIES_SPOINK_TM_DATA_3
 
-// STATS: 90 >> 100 SpAtk | 470 >> 480 Spd
+// STATS: 90 >> 100 SpAtk | 470 >> 480 BST
 // ABILITY: Gluttony (2), Magic Bounce (HA)
 mondata SPECIES_GRUMPIG
 
@@ -9102,11 +9109,11 @@ mondata SPECIES_MILOTIC
     colorflip BODY_COLOR_PINK, 0
     tmdata SPECIES_MILOTIC_TM_DATA_0, SPECIES_MILOTIC_TM_DATA_1, SPECIES_MILOTIC_TM_DATA_2, SPECIES_MILOTIC_TM_DATA_3
 
-// STATS: 70 >> 50 Atk | 70 >> 90 SpAtk | 70 >> 90 Speed | 420 >> 440 BST
+// STATS: 70 >> 50 Atk | 70 >> 95 SpAtk | 70 >> 95 Speed | 420 >> 450 BST
 mondata SPECIES_CASTFORM
 
     .if STAT_CHANGES_IMPLEMENTED
-        basestats 70, 50, 70, 90, 90, 70
+        basestats 70, 50, 70, 95, 95, 70
     .else
         basestats 70, 70, 70, 70, 70, 70
     .endif
@@ -9126,11 +9133,11 @@ mondata SPECIES_CASTFORM
     colorflip BODY_COLOR_WHITE, 0
     tmdata SPECIES_CASTFORM_TM_DATA_0, SPECIES_CASTFORM_TM_DATA_1, SPECIES_CASTFORM_TM_DATA_2, SPECIES_CASTFORM_TM_DATA_3
 
-// STATS: 70 >> 50 Atk | 70 >> 90 SpAtk | 70 >> 90 Speed | 420 >> 440 BST
+// STATS: 70 >> 50 Atk | 70 >> 95 SpAtk | 70 >> 95 Speed | 420 >> 450 BST
 mondata SPECIES_CASTFORM_SUNNY
 
     .if STAT_CHANGES_IMPLEMENTED
-        basestats 70, 50, 70, 90, 90, 70
+        basestats 70, 50, 70, 95, 95, 70
     .else
         basestats 70, 70, 70, 70, 70, 70
     .endif
@@ -9150,11 +9157,11 @@ mondata SPECIES_CASTFORM_SUNNY
     colorflip BODY_COLOR_RED, 0
     tmdata SPECIES_NONE_TM_DATA_0, SPECIES_NONE_TM_DATA_1, SPECIES_NONE_TM_DATA_2, SPECIES_NONE_TM_DATA_3
 
-// STATS: 70 >> 50 Atk | 70 >> 90 SpAtk | 70 >> 90 Speed | 420 >> 440 BST
+// STATS: 70 >> 50 Atk | 70 >> 95 SpAtk | 70 >> 95 Speed | 420 >> 450 BST
 mondata SPECIES_CASTFORM_RAINY
 
     .if STAT_CHANGES_IMPLEMENTED
-        basestats 70, 50, 70, 90, 90, 70
+        basestats 70, 50, 70, 95, 95, 70
     .else
         basestats 70, 70, 70, 70, 70, 70
     .endif
@@ -9174,11 +9181,11 @@ mondata SPECIES_CASTFORM_RAINY
     colorflip BODY_COLOR_BLUE, 0
     tmdata SPECIES_NONE_TM_DATA_0, SPECIES_NONE_TM_DATA_1, SPECIES_NONE_TM_DATA_2, SPECIES_NONE_TM_DATA_3
 
-// STATS: 70 >> 50 Atk | 70 >> 90 SpAtk | 70 >> 90 Speed | 420 >> 440 BST
+// STATS: 70 >> 50 Atk | 70 >> 95 SpAtk | 70 >> 95 Speed | 420 >> 450 BST
 mondata SPECIES_CASTFORM_SNOWY
 
     .if STAT_CHANGES_IMPLEMENTED
-        basestats 70, 50, 70, 90, 90, 70
+        basestats 70, 50, 70, 95, 95, 70
     .else
         basestats 70, 70, 70, 70, 70, 70
     .endif
@@ -9349,11 +9356,11 @@ mondata SPECIES_DUSKNOIR
     colorflip BODY_COLOR_BLACK, 0
     tmdata SPECIES_DUSKNOIR_TM_DATA_0, SPECIES_DUSKNOIR_TM_DATA_1, SPECIES_DUSKNOIR_TM_DATA_2, SPECIES_DUSKNOIR_TM_DATA_3
 
-// STATS: 99 >> 114 HP | 68 >> 88 Atk | 83 >> 98 Def | 72 >> 82 SpAtk | 87 >> 102 SpDef | 460 >> 535 BST
+// STATS: 99 >> 114 HP | 68 >> 88 Atk | 83 >> 93 Def | 72 >> 92 SpAtk | 87 >> 97 SpDef | 460 >> 535 BST
 mondata SPECIES_TROPIUS
 
     .if STAT_CHANGES_IMPLEMENTED
-        basestats 114, 88, 98, 51, 82, 102
+        basestats 114, 88, 93, 51, 92, 97
     .else
         basestats 99, 68, 83, 51, 72, 87
     .endif
@@ -9652,7 +9659,7 @@ mondata SPECIES_RELICANTH
     colorflip BODY_COLOR_GRAY, 0
     tmdata SPECIES_RELICANTH_TM_DATA_0, SPECIES_RELICANTH_TM_DATA_1, SPECIES_RELICANTH_TM_DATA_2, SPECIES_RELICANTH_TM_DATA_3
 
-// STATS: 43 >> 53 HP | 55 >> 75 Def | 97 >> 117 Speed | 40 >> 80 SpAtk | 65 >> 85 SpDef | 330 >> 440 BST
+// STATS: 43 >> 53 HP | 55 >> 75 Def | 40 >> 80 SpAtk | 65 >> 85 SpDef | 97 >> 117 Speed | 330 >> 440 BST
 // ABILITY: Cute Charm (2)
 // TYPES: Water >> Water/Fairy
 mondata SPECIES_LUVDISC

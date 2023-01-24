@@ -5250,7 +5250,7 @@ levelup SPECIES_SUNKERN
 // NEW: Weather Ball (HOME Datamine), Mystical Fire
 levelup SPECIES_SUNFLORA
     learnset MOVE_PETAL_BLIZZARD, 1
-    learnset TYPE_CHANGES_IMPLEMENTED ? MOVE_MYSTICAL_FIRE : MOVE_PETAL_BLIZZARD, 1
+    learnset MOVE_MYSTICAL_FIRE, 1
     learnset MOVE_NATURE_POWER, 1
     learnset MOVE_WEATHER_BALL, 1
     learnset MOVE_MORNING_SUN, 1
@@ -5463,8 +5463,10 @@ levelup SPECIES_MISMAGIUS
     learnset MOVE_DESTINY_BOND, 56
     terminatelearnset
 
+// NEW: Secret Power
 levelup SPECIES_UNOWN
     learnset MOVE_HIDDEN_POWER, 1 
+    learnset MOVE_SECRET_POWER, 1
     terminatelearnset
 
 levelup SPECIES_WYNAUT

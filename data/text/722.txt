@@ -38,7 +38,7 @@ The Pokémon copies the\nfoe’s ability.
 Doubles the Pokémon’s\nAttack stat in battle.
 Contact has a 30% chance\nof causing poison.
 The Pokémon is protected\nfrom flinching.
-Prevents the Pokémon\nfrom becoming frozen.
+Prevents freeze. Halves\ndamage from Water or Ice.
 Prevents the Pokémon\nfrom getting a burn.
 Prevents Steel-type\nPokémon from escaping.
 Gives full immunity to all\nsound-based moves.

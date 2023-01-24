@@ -187,3 +187,4 @@ Powers up wind-based\nmoves by 33%.
 Contact has a 30% chance\nof badly poisoning the foe.
 Damage based on weight\ndifference is maximized.
 Reduces damage by 50%\nwhen HP is full.
+Bug moves have a 30% rate\nto cause a status effect.

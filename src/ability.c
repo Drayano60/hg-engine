@@ -1285,13 +1285,47 @@ BOOL MoveHitAttackerAbilityCheck(void *bw, struct BattleStruct *sp, int *seq_no)
                 && ((sp->oneSelfFlag[sp->defence_client].physical_damage) ||
                     (sp->oneSelfFlag[sp->defence_client].special_damage))
                 && (sp->moveTbl[sp->current_move_index].flag & FLAG_CONTACT)
-                && (CheckSubstitute(sp, sp->defence_client) == TRUE)
+                && (CheckSubstitute(sp, sp->defence_client) == FALSE)
                 && (BattleRand(bw) % 10 < 3))
             {
                 sp->addeffect_type = ADD_STATUS_ABILITY;
                 sp->state_client = sp->defence_client;
                 sp->client_work = sp->attack_client;
                 seq_no[0] = SUB_SEQ_POISON_MON;
+                ret = TRUE;
+            }
+            break;
+        // Handle Befuddle, a new ability for Butterfree based on its GMax form.
+        // 30% chance to cause poison, paralyze or sleep after any Bug move.
+        case ABILITY_BEFUDDLE:
+            if ((sp->battlemon[sp->defence_client].hp)
+                && (sp->battlemon[sp->defence_client].condition == 0)
+                && ((sp->waza_status_flag & WAZA_STATUS_FLAG_NO_OUT) == 0)
+                && ((sp->server_status_flag & SERVER_STATUS_FLAG_x20) == 0)
+                && ((sp->server_status_flag2 & SERVER_STATUS2_FLAG_x10) == 0)
+                && ((sp->oneSelfFlag[sp->defence_client].physical_damage) ||
+                    (sp->oneSelfFlag[sp->defence_client].special_damage))
+                && (sp->moveTbl[sp->current_move_index].type == TYPE_BUG)
+                && (CheckSubstitute(sp, sp->defence_client) == FALSE)
+                && (BattleRand(bw) % 10 < 3))
+            {
+
+                switch (BattleRand(bw) % 3) {
+                    case 0:
+                    default:
+                        seq_no[0] = SUB_SEQ_POISON_MON;
+                        break;
+                    case 1:
+                        seq_no[0] = SUB_SEQ_PARALYZE_MON;
+                        break;
+                    case 2:
+                        seq_no[0] = SUB_SEQ_PUT_MON_TO_SLEEP;
+                        break;
+                }
+
+                sp->addeffect_type = ADD_STATUS_ABILITY;
+                sp->state_client = sp->defence_client;
+                sp->client_work = sp->attack_client;
                 ret = TRUE;
             }
             break;

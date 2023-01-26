@@ -1302,12 +1302,12 @@ movedata MOVE_DRAGON_RAGE
     contesttype CONTEST_COOL
     terminatedata
 
-// POWER: 35 >> 55
+// POWER: 35 >> 50
 // ACCURACY: 85 >> 90
 movedata MOVE_FIRE_SPIN
     battleeffect 42
     pss SPLIT_SPECIAL
-    basepower MOVE_CHANGES_IMPLEMENTED ? 55 : 35
+    basepower MOVE_CHANGES_IMPLEMENTED ? 50 : 35
     type TYPE_FIRE
     accuracy MOVE_CHANGES_IMPLEMENTED ? 90 : 85
     pp 15
@@ -1992,12 +1992,12 @@ movedata MOVE_WATERFALL
     contesttype CONTEST_TOUGH
     terminatedata
 
-// POWER: 35 >> 55
+// POWER: 35 >> 50
 // ACCURACY: 85 >> 90
 movedata MOVE_CLAMP
     battleeffect 42
     pss SPLIT_PHYSICAL
-    basepower MOVE_CHANGES_IMPLEMENTED ? 55 : 35
+    basepower MOVE_CHANGES_IMPLEMENTED ? 50 : 35
     type TYPE_WATER
     accuracy MOVE_CHANGES_IMPLEMENTED ? 90 : 85
     pp 15
@@ -3846,12 +3846,12 @@ movedata MOVE_ROCK_SMASH
     contesttype CONTEST_TOUGH
     terminatedata
 
-// POWER: 35 >> 55
+// POWER: 35 >> 50
 // ACCURACY: 85 >> 90
 movedata MOVE_WHIRLPOOL
     battleeffect 261
     pss SPLIT_SPECIAL
-    basepower MOVE_CHANGES_IMPLEMENTED ? 55 : 35
+    basepower MOVE_CHANGES_IMPLEMENTED ? 50 : 35
     type TYPE_WATER
     accuracy MOVE_CHANGES_IMPLEMENTED ? 90 : 85
     pp 15
@@ -5042,12 +5042,12 @@ movedata MOVE_SKY_UPPERCUT
     contesttype CONTEST_COOL
     terminatedata
 
-// POWER: 35 >> 55
+// POWER: 35 >> 50
 // ACCURACY: 85 >> 90
 movedata MOVE_SAND_TOMB
     battleeffect 42
     pss SPLIT_PHYSICAL
-    basepower MOVE_CHANGES_IMPLEMENTED ? 55 : 35
+    basepower MOVE_CHANGES_IMPLEMENTED ? 50 : 35
     type TYPE_GROUND
     accuracy MOVE_CHANGES_IMPLEMENTED ? 90 : 85
     pp 15

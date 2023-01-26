@@ -464,12 +464,12 @@ levelup SPECIES_EKANS
     learnset MOVE_POISON_FANG, 15
     learnset MOVE_SCREECH, 18
     learnset MOVE_MUD_BOMB, 21
-    learnset MOVE_STOCKPILE, 26
-    learnset MOVE_SWALLOW, 26
-    learnset MOVE_SPIT_UP, 26
-    learnset MOVE_POISON_JAB, 30
+    learnset MOVE_POISON_TAIL, 26
+    learnset MOVE_STOCKPILE, 30
+    learnset MOVE_SWALLOW, 30
+    learnset MOVE_SPIT_UP, 30
     learnset MOVE_GASTRO_ACID, 34
-    learnset MOVE_POISON_TAIL, 38
+    learnset MOVE_POISON_JAB, 38
     learnset MOVE_HAZE, 42
     learnset MOVE_COIL, 46
     learnset MOVE_GUNK_SHOT, 50
@@ -490,12 +490,12 @@ levelup SPECIES_ARBOK
     learnset MOVE_SCREECH, 18
     learnset MOVE_MUD_BOMB, 21
     learnset MOVE_CRUNCH, 22
-    learnset MOVE_STOCKPILE, 26
-    learnset MOVE_SWALLOW, 26
-    learnset MOVE_SPIT_UP, 26
-    learnset MOVE_POISON_JAB, 30
+    learnset MOVE_POISON_TAIL, 26
+    learnset MOVE_STOCKPILE, 30
+    learnset MOVE_SWALLOW, 30
+    learnset MOVE_SPIT_UP, 30
     learnset MOVE_GASTRO_ACID, 34
-    learnset MOVE_POISON_TAIL, 38
+    learnset MOVE_POISON_JAB, 38
     learnset MOVE_HAZE, 42
     learnset MOVE_COIL, 46
     learnset MOVE_GUNK_SHOT, 50
@@ -8479,10 +8479,10 @@ levelup SPECIES_SEVIPER
     learnset MOVE_POISON_FANG, 15
     learnset MOVE_SCREECH, 18
     learnset MOVE_HAZE, 21
-    learnset MOVE_POISON_JAB, 24
+    learnset MOVE_POISON_TAIL, 24
     learnset MOVE_GASTRO_ACID, 28
     learnset MOVE_NIGHT_SLASH, 32
-    learnset MOVE_POISON_TAIL, 36
+    learnset MOVE_POISON_JAB, 36
     learnset MOVE_CRUNCH, 40
     learnset MOVE_COIL, 44
     learnset MOVE_WRING_OUT, 48
@@ -10412,6 +10412,7 @@ levelup SPECIES_CHERUBI
 
 levelup SPECIES_CHERRIM
     learnset MOVE_SUNNY_DAY, 1
+    learnset MOVE_GRASS_WHISTLE, 1
     learnset MOVE_WEATHER_BALL, 1
     learnset MOVE_MORNING_SUN, 1
     learnset MOVE_TACKLE, 1
@@ -10434,6 +10435,7 @@ levelup SPECIES_CHERRIM
 
 levelup SPECIES_CHERRIM_SUNSHINE
     learnset MOVE_SUNNY_DAY, 1
+    learnset MOVE_GRASS_WHISTLE, 1
     learnset MOVE_WEATHER_BALL, 1
     learnset MOVE_MORNING_SUN, 1
     learnset MOVE_TACKLE, 1

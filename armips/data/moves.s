@@ -11,7 +11,7 @@
 // This does not apply to battle effect changes or effect chances
 
 // TODO:
-// Remember to update descriptions for effect changes! Also Egg Bomb?
+// Remember to update descriptions for effect changes! Also Egg Bomb? Also Me First?
 // Check Teleport and Minimize and Knock Off!
 // Readd Minimize to effect file!
 // Apply Hidden Power 60 BP change!
@@ -4074,12 +4074,13 @@ movedata MOVE_FOCUS_PUNCH
     contesttype CONTEST_TOUGH
     terminatedata
 
-// POWER: 70 >> 85
+// POWER: 70 >> 75
+// TYPE: Normal >> Fighting
 movedata MOVE_SMELLING_SALT
     battleeffect 171
     pss SPLIT_PHYSICAL
-    basepower MOVE_CHANGES_IMPLEMENTED ? 85 : 70
-    type TYPE_NORMAL
+    basepower MOVE_CHANGES_IMPLEMENTED ? 75 : 70
+    type MOVE_CHANGES_IMPLEMENTED ? TYPE_FIGHTING : TYPE_NORMAL
     accuracy 100
     pp 10
     effectchance 0
@@ -5454,8 +5455,6 @@ movedata MOVE_PSYCHO_BOOST
     contesttype CONTEST_SMART
     terminatedata
 
-// --- Up to here ---
-
 movedata MOVE_ROOST
     battleeffect 214
     pss SPLIT_STATUS
@@ -5501,10 +5500,11 @@ movedata MOVE_MIRACLE_EYE
     contesttype CONTEST_CUTE
     terminatedata
 
+// POWER: 70 >> 75
 movedata MOVE_WAKE_UP_SLAP
     battleeffect 217
     pss SPLIT_PHYSICAL
-    basepower 70
+    basepower MOVE_CHANGES_IMPLEMENTED ? 75 : 70
     type TYPE_FIGHTING
     accuracy 100
     pp 10
@@ -5531,13 +5531,14 @@ movedata MOVE_HAMMER_ARM
     contesttype CONTEST_COOL
     terminatedata
 
+// PP: 5 >> 10
 movedata MOVE_GYRO_BALL
     battleeffect 219
     pss SPLIT_PHYSICAL
     basepower 1
     type TYPE_STEEL
     accuracy 100
-    pp 5
+    pp MOVE_CHANGES_IMPLEMENTED ? 10 : 5
     effectchance 0
     target MOVE_TARGET_SELECTED
     priority 0
@@ -5591,6 +5592,7 @@ movedata MOVE_NATURAL_GIFT
     contesttype CONTEST_COOL
     terminatedata
 
+// EFFECT: Updated to newer gen effect - no longer fails if enemy isn't protecting
 movedata MOVE_FEINT
     battleeffect 223
     pss SPLIT_PHYSICAL
@@ -5861,6 +5863,7 @@ movedata MOVE_LUCKY_CHANT
     contesttype CONTEST_CUTE
     terminatedata
 
+// PRIORITY: 0 >> 1
 movedata MOVE_ME_FIRST
     battleeffect 241
     pss SPLIT_STATUS
@@ -5870,7 +5873,7 @@ movedata MOVE_ME_FIRST
     pp 20
     effectchance 0
     target MOVE_TARGET_ME_FIRST
-    priority 0
+    priority MOVE_CHANGES_IMPLEMENTED ? 1 : 0
     flags FLAG_PROTECT
     appeal 0x01
     contesttype CONTEST_CUTE
@@ -6191,8 +6194,9 @@ movedata MOVE_AIR_SLASH
     contesttype CONTEST_COOL
     terminatedata
 
+// EFFECT: Now has a high crit ratio (PLA)
 movedata MOVE_X_SCISSOR
-    battleeffect 0
+    battleeffect 43
     pss SPLIT_PHYSICAL
     basepower 80
     type TYPE_BUG
@@ -6236,12 +6240,13 @@ movedata MOVE_DRAGON_PULSE
     contesttype CONTEST_SMART
     terminatedata
 
+// ACCURACY: 75 >> 85
 movedata MOVE_DRAGON_RUSH
     battleeffect 31
     pss SPLIT_PHYSICAL
     basepower 100
     type TYPE_DRAGON
-    accuracy 75
+    accuracy MOVE_CHANGES_IMPLEMENTED ? 85 : 75
     pp 10
     effectchance 20
     target MOVE_TARGET_SELECTED
@@ -6251,8 +6256,9 @@ movedata MOVE_DRAGON_RUSH
     contesttype CONTEST_COOL
     terminatedata
 
+// EFFECT: Now has a 10% chance to drop Sp. Def
 movedata MOVE_POWER_GEM
-    battleeffect 0
+    battleeffect 72
     pss SPLIT_SPECIAL
     basepower 80
     type TYPE_ROCK
@@ -6446,10 +6452,11 @@ movedata MOVE_ICE_SHARD
     contesttype CONTEST_BEAUTY
     terminatedata
 
+// POWER: 70 >> 80
 movedata MOVE_SHADOW_CLAW
     battleeffect 43
     pss SPLIT_PHYSICAL
-    basepower 70
+    basepower MOVE_CHANGES_IMPLEMENTED ? 80 : 70
     type TYPE_GHOST
     accuracy 100
     pp 15
@@ -6461,12 +6468,14 @@ movedata MOVE_SHADOW_CLAW
     contesttype CONTEST_CUTE
     terminatedata
 
+// POWER: 65 >> 75
+// ACCURACY: 95 >> 100
 movedata MOVE_THUNDER_FANG
     battleeffect 275
     pss SPLIT_PHYSICAL
-    basepower 65
+    basepower MOVE_CHANGES_IMPLEMENTED ? 75 : 65
     type TYPE_ELECTRIC
-    accuracy 95
+    accuracy MOVE_CHANGES_IMPLEMENTED ? 100 : 95
     pp 15
     effectchance 10
     target MOVE_TARGET_SELECTED
@@ -6476,12 +6485,14 @@ movedata MOVE_THUNDER_FANG
     contesttype CONTEST_SMART
     terminatedata
 
+// POWER: 65 >> 75
+// ACCURACY: 95 >> 100
 movedata MOVE_ICE_FANG
     battleeffect 274
     pss SPLIT_PHYSICAL
-    basepower 65
+    basepower MOVE_CHANGES_IMPLEMENTED ? 75 : 65
     type TYPE_ICE
-    accuracy 95
+    accuracy MOVE_CHANGES_IMPLEMENTED ? 100 : 95
     pp 15
     effectchance 10
     target MOVE_TARGET_SELECTED
@@ -6491,12 +6502,14 @@ movedata MOVE_ICE_FANG
     contesttype CONTEST_COOL
     terminatedata
 
+// POWER: 65 >> 75
+// ACCURACY: 95 >> 100
 movedata MOVE_FIRE_FANG
     battleeffect 273
     pss SPLIT_PHYSICAL
-    basepower 65
+    basepower MOVE_CHANGES_IMPLEMENTED ? 75 : 65
     type TYPE_FIRE
-    accuracy 95
+    accuracy MOVE_CHANGES_IMPLEMENTED ? 100 : 95
     pp 15
     effectchance 10
     target MOVE_TARGET_SELECTED
@@ -6521,12 +6534,13 @@ movedata MOVE_SHADOW_SNEAK
     contesttype CONTEST_SMART
     terminatedata
 
+// ACCURACY: 85 >> 100
 movedata MOVE_MUD_BOMB
     battleeffect 73
     pss SPLIT_SPECIAL
     basepower 65
     type TYPE_GROUND
-    accuracy 85
+    accuracy MOVE_CHANGES_IMPLEMENTED ? 100 : 85
     pp 10
     effectchance 30
     target MOVE_TARGET_SELECTED
@@ -6551,12 +6565,13 @@ movedata MOVE_PSYCHO_CUT
     contesttype CONTEST_COOL
     terminatedata
 
+// ACCURACY: 90 >> 100
 movedata MOVE_ZEN_HEADBUTT
     battleeffect 31
     pss SPLIT_PHYSICAL
     basepower 80
     type TYPE_PSYCHIC
-    accuracy 90
+    accuracy MOVE_CHANGES_IMPLEMENTED ? 100 : 90
     pp 15
     effectchance 20
     target MOVE_TARGET_SELECTED
@@ -6566,12 +6581,13 @@ movedata MOVE_ZEN_HEADBUTT
     contesttype CONTEST_BEAUTY
     terminatedata
 
+// ACCURACY: 85 >> 100
 movedata MOVE_MIRROR_SHOT
     battleeffect 73
     pss SPLIT_SPECIAL
     basepower 65
     type TYPE_STEEL
-    accuracy 85
+    accuracy MOVE_CHANGES_IMPLEMENTED ? 100 : 85
     pp 10
     effectchance 30
     target MOVE_TARGET_SELECTED
@@ -6596,12 +6612,14 @@ movedata MOVE_FLASH_CANNON
     contesttype CONTEST_SMART
     terminatedata
 
+// TYPE: NORMAL >> ROCK
+// ACCURACY: 85 >> 90
 movedata MOVE_ROCK_CLIMB
     battleeffect 76
     pss SPLIT_PHYSICAL
     basepower 90
-    type TYPE_NORMAL
-    accuracy 85
+    type MOVE_CHANGES_IMPLEMENTED ? TYPE_ROCK : TYPE_NORMAL
+    accuracy MOVE_CHANGES_IMPLEMENTED ? 90 : 85
     pp 20
     effectchance 20
     target MOVE_TARGET_SELECTED
@@ -6731,13 +6749,15 @@ movedata MOVE_ROCK_WRECKER
     contesttype CONTEST_TOUGH
     terminatedata
 
+// POWER: 70 >> 90
+// PP: 20 >> 15
 movedata MOVE_CROSS_POISON
     battleeffect 209
     pss SPLIT_PHYSICAL
-    basepower 70
+    basepower MOVE_CHANGES_IMPLEMENTED ? 90 : 70
     type TYPE_POISON
     accuracy 100
-    pp 20
+    pp MOVE_CHANGES_IMPLEMENTED ? 15 : 20
     effectchance 10
     target MOVE_TARGET_SELECTED
     priority 0
@@ -6852,13 +6872,15 @@ movedata MOVE_GRASS_KNOT
     terminatedata
 
 // EFFECT: Updated to always confuse
+// POWER: 65 >> 75
+// PP: 20 >> 15
 movedata MOVE_CHATTER
     battleeffect 76
     pss SPLIT_SPECIAL
-    basepower 65
+    basepower MOVE_CHANGES_IMPLEMENTED ? 75 : 65
     type TYPE_FLYING
     accuracy 100
-    pp 20
+    pp MOVE_CHANGES_IMPLEMENTED ? 15 : 20
     effectchance 100
     target MOVE_TARGET_SELECTED
     priority 0
@@ -6897,12 +6919,13 @@ movedata MOVE_BUG_BITE
     contesttype CONTEST_TOUGH
     terminatedata
 
+// ACCURACY: 90 >> 100
 movedata MOVE_CHARGE_BEAM
     battleeffect 276
     pss SPLIT_SPECIAL
     basepower 50
     type TYPE_ELECTRIC
-    accuracy 90
+    accuracy MOVE_CHANGES_IMPLEMENTED ? 100 : 90
     pp 10
     effectchance 70
     target MOVE_TARGET_SELECTED
@@ -7002,12 +7025,13 @@ movedata MOVE_HEAD_SMASH
     contesttype CONTEST_TOUGH
     terminatedata
 
+// ACCURACY: 90 >> 100
 movedata MOVE_DOUBLE_HIT
     battleeffect 44
     pss SPLIT_PHYSICAL
     basepower 35
     type TYPE_NORMAL
-    accuracy 90
+    accuracy MOVE_CHANGES_IMPLEMENTED ? 100 : 90
     pp 10
     effectchance 0
     target MOVE_TARGET_SELECTED
@@ -7077,12 +7101,13 @@ movedata MOVE_CRUSH_GRIP
     contesttype CONTEST_TOUGH
     terminatedata
 
+// ACCURACY: 75 >> 80
 movedata MOVE_MAGMA_STORM
     battleeffect 42
     pss SPLIT_SPECIAL
     basepower 100
     type TYPE_FIRE
-    accuracy 75
+    accuracy MOVE_CHANGES_IMPLEMENTED ? 80 : 75
     pp 5
     effectchance 0
     target MOVE_TARGET_SELECTED
@@ -7092,12 +7117,13 @@ movedata MOVE_MAGMA_STORM
     contesttype CONTEST_TOUGH
     terminatedata
 
+// ACCURACY: 50 >> 80
 movedata MOVE_DARK_VOID
     battleeffect 1
     pss SPLIT_STATUS
     basepower 0
     type TYPE_DARK
-    accuracy 50
+    accuracy MOVE_CHANGES_IMPLEMENTED ? 80 : 50
     pp 10
     effectchance 0
     target MOVE_TARGET_BOTH
@@ -7122,10 +7148,11 @@ movedata MOVE_SEED_FLARE
     contesttype CONTEST_COOL
     terminatedata
 
+// POWER: 60 >> 65
 movedata MOVE_OMINOUS_WIND
     battleeffect 140
     pss SPLIT_SPECIAL
-    basepower 60
+    basepower MOVE_CHANGES_IMPLEMENTED ? 65 : 60
     type TYPE_GHOST
     accuracy 100
     pp 5
@@ -7196,6 +7223,8 @@ movedata MOVE_SHADOW_FORCE+3
     appeal 0x12
     contesttype CONTEST_SMART
     terminatedata
+
+// -- UP TO HERE --
 
 movedata MOVE_HONE_CLAWS
     battleeffect 50 // NOTE: This is for AI reasons, it still uses the Hone Claws effect.

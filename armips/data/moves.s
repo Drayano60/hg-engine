@@ -21,6 +21,7 @@
 // Make Dive a one-turn animation!
 // Code the new effect for Needle Arm
 // Give Seviper Cross Poison access if I didn't already
+// I can't change the crit multiplier from 2x, so adjust move power of guaranteed crit respectively
 
 movedata MOVE_NONE
     battleeffect 0
@@ -7271,10 +7272,11 @@ movedata MOVE_VENOSHOCK
     contesttype 0
     terminatedata
 
+// POWER: 60 >> 45 (Due to 2x crit multiplier) - this is not optional
 movedata MOVE_STORM_THROW
     battleeffect 282
     pss SPLIT_PHYSICAL
-    basepower 40
+    basepower 45
     type TYPE_FIGHTING
     accuracy 100
     pp 10
@@ -7556,12 +7558,14 @@ movedata MOVE_BULLDOZE
     contesttype 0
     terminatedata
 
+// POWER: 60 >> 45 (Due to 2x crit multiplier) - this is not optional
+// ACCURACY: 90 >> 100
 movedata MOVE_FROST_BREATH
     battleeffect 282
     pss SPLIT_SPECIAL
-    basepower 60
+    basepower 45
     type TYPE_ICE
-    accuracy 90
+    accuracy MOVE_CHANGES_IMPLEMENTED ? 100 : 90
     pp 10
     effectchance 0
     target MOVE_TARGET_SELECTED
@@ -7601,12 +7605,13 @@ movedata MOVE_WORK_UP
     contesttype 0
     terminatedata
 
+// ACCURACY: 95 >> 100
 movedata MOVE_ELECTROWEB
     battleeffect 70
     pss SPLIT_SPECIAL
     basepower 55
     type TYPE_ELECTRIC
-    accuracy 95
+    accuracy MOVE_CHANGES_IMPLEMENTED ? 100 : 95
     pp 15
     effectchance 100
     target MOVE_TARGET_BOTH
@@ -7631,12 +7636,13 @@ movedata MOVE_WILD_CHARGE
     contesttype 0
     terminatedata
 
+// ACCURACY: 95 >> 100
 movedata MOVE_DRILL_RUN
     battleeffect 43
     pss SPLIT_PHYSICAL
     basepower 80
     type TYPE_GROUND
-    accuracy 95
+    accuracy MOVE_CHANGES_IMPLEMENTED ? 100 : 95
     pp 10
     effectchance 0
     target MOVE_TARGET_SELECTED
@@ -7646,12 +7652,13 @@ movedata MOVE_DRILL_RUN
     contesttype 0
     terminatedata
 
+// ACCURACY: 90 >> 100
 movedata MOVE_DUAL_CHOP
     battleeffect 44
     pss SPLIT_PHYSICAL
     basepower 40
     type TYPE_DRAGON
-    accuracy 90
+    accuracy MOVE_CHANGES_IMPLEMENTED ? 100 : 90
     pp 15
     effectchance 0
     target MOVE_TARGET_SELECTED
@@ -7676,12 +7683,13 @@ movedata MOVE_SACRED_SWORD
     contesttype 0
     terminatedata
 
+// ACCURACY: 95 >> 100
 movedata MOVE_RAZOR_SHELL
     battleeffect 69
     pss SPLIT_PHYSICAL
     basepower 75
     type TYPE_WATER
-    accuracy 95
+    accuracy MOVE_CHANGES_IMPLEMENTED ? 100 : 95
     pp 10
     effectchance 50
     target MOVE_TARGET_SELECTED
@@ -7706,12 +7714,13 @@ movedata MOVE_COTTON_GUARD
     contesttype 0
     terminatedata
 
+// ACCURACY: 85 >> 100
 movedata MOVE_TAIL_SLAP
     battleeffect 29
     pss SPLIT_PHYSICAL
     basepower 25
     type TYPE_NORMAL
-    accuracy 85
+    accuracy MOVE_CHANGES_IMPLEMENTED ? 100 : 85
     pp 10
     effectchance 0
     target MOVE_TARGET_SELECTED
@@ -7736,12 +7745,13 @@ movedata MOVE_HURRICANE
     contesttype 0
     terminatedata
 
+// ACCURACY: 95 >> 100
 movedata MOVE_SNARL
     battleeffect 71
     pss SPLIT_SPECIAL
     basepower 55
     type TYPE_DARK
-    accuracy 95
+    accuracy MOVE_CHANGES_IMPLEMENTED ? 100 : 95
     pp 15
     effectchance 100
     target MOVE_TARGET_BOTH
@@ -7811,6 +7821,8 @@ movedata MOVE_PETAL_BLIZZARD
     contesttype 0
     terminatedata
 
+// EFFECT: Just quadruples damage against Water-types instead of being SE due to technical limits
+// This is not an exact replica but should be the same damage
 movedata MOVE_FREEZE_DRY
     battleeffect 299
     pss SPLIT_SPECIAL
@@ -7841,10 +7853,12 @@ movedata MOVE_DISARMING_VOICE
     contesttype 0
     terminatedata
 
+// EFFECT: 50% HP drain instead of 75%
+// POWER: 50 >> 65
 movedata MOVE_DRAINING_KISS
     battleeffect 3 // NOTE: 50% drain instead
     pss SPLIT_SPECIAL
-    basepower 50
+    basepower MOVE_CHANGES_IMPLEMENTED ? 65 : 50
     type TYPE_FAIRY
     accuracy 100
     pp 10
@@ -7856,12 +7870,13 @@ movedata MOVE_DRAINING_KISS
     contesttype 0
     terminatedata
 
+// ACCURACY: 90 >> 100
 movedata MOVE_PLAY_ROUGH
     battleeffect 68
     pss SPLIT_PHYSICAL
     basepower 90
     type TYPE_FAIRY
-    accuracy 90
+    accuracy MOVE_CHANGES_IMPLEMENTED ? 100 : 90
     pp 10
     effectchance 10
     target MOVE_TARGET_SELECTED 
@@ -8021,12 +8036,13 @@ movedata MOVE_FIRST_IMPRESSION
     contesttype 0
     terminatedata
 
+// ACCURACY: 95 >> 100
 movedata MOVE_HIGH_HORSEPOWER
     battleeffect 0
     pss SPLIT_PHYSICAL
     basepower 95
     type TYPE_GROUND
-    accuracy 95
+    accuracy MOVE_CHANGES_IMPLEMENTED ? 100 : 95
     pp 10
     effectchance 0
     target MOVE_TARGET_SELECTED
@@ -8126,6 +8142,8 @@ movedata MOVE_BRUTAL_SWING
     contesttype 0
     terminatedata
 
+// EFFECT: This sets up Reflect and Light Screen separately rather than its own thing
+// Very similar effect but not an exact replica
 movedata MOVE_AURORA_VEIL
     battleeffect 303
     pss SPLIT_STATUS
@@ -8231,12 +8249,15 @@ movedata MOVE_STEEL_BEAM
     contesttype 0
     terminatedata
 
+// EFFECT: Now a single hit move due to technical limits
+// POWER: 25 >> 65 - this is not optional
+// ACCURACY: 90 >> 100
 movedata MOVE_SCALE_SHOT
     battleeffect 301 // NOTE: Cant get the multihit and stat increase to work, so its just the stat increase and flat damage
     pss SPLIT_PHYSICAL
-    basepower 25
+    basepower 65
     type TYPE_DRAGON
-    accuracy 90
+    accuracy MOVE_CHANGES_IMPLEMENTED ? 100 : 90
     pp 20
     effectchance 100
     target MOVE_TARGET_SELECTED
@@ -8246,12 +8267,15 @@ movedata MOVE_SCALE_SHOT
     contesttype 0
     terminatedata
 
+// EFFECT: Now a one-turn move with a 20% chance to increase Sp. Atk
+// POWER: 120 >> 110 - this is not optional
+// ACCURACY: 90 >> 80 - this is not optional
 movedata MOVE_METEOR_BEAM
     battleeffect 276 // NOTE: Opted for 20% SpAtk increase over the two-turn
     pss SPLIT_SPECIAL
-    basepower 120
+    basepower 110
     type TYPE_ROCK
-    accuracy 90
+    accuracy 80
     pp 10
     effectchance 20
     target MOVE_TARGET_SELECTED
@@ -8260,13 +8284,14 @@ movedata MOVE_METEOR_BEAM
     appeal 0x00
     contesttype 0
     terminatedata
-    
+
+// ACCURACY: 90 >> 100
 movedata MOVE_SKITTER_SMACK
     battleeffect 71
     pss SPLIT_PHYSICAL
     basepower 70
     type TYPE_BUG
-    accuracy 90
+    accuracy MOVE_CHANGES_IMPLEMENTED ? 100 : 90
     pp 10
     effectchance 100
     target MOVE_TARGET_SELECTED
@@ -8291,12 +8316,13 @@ movedata MOVE_FLIP_TURN
     contesttype 0
     terminatedata
 
+// ACCURACY: 90 >> 80 (Added risk for Weavile)
 movedata MOVE_TRIPLE_AXEL
     battleeffect 307
     pss SPLIT_PHYSICAL
     basepower 20
     type TYPE_ICE
-    accuracy 90
+    accuracy MOVE_CHANGES_IMPLEMENTED ? 80 : 90
     pp 10
     effectchance 0
     target MOVE_TARGET_SELECTED
@@ -8306,12 +8332,13 @@ movedata MOVE_TRIPLE_AXEL
     contesttype 0
     terminatedata
 
+// ACCURACY: 90 >> 100
 movedata MOVE_DUAL_WINGBEAT
     battleeffect 44
     pss SPLIT_PHYSICAL
     basepower 40
     type TYPE_FLYING
-    accuracy 90
+    accuracy MOVE_CHANGES_IMPLEMENTED ? 100 : 90
     pp 10
     effectchance 0
     target MOVE_TARGET_SELECTED
@@ -8516,10 +8543,11 @@ movedata MOVE_HYPER_DRILL
     contesttype 0
     terminatedata
 
+// POWER: 40 >> 45
 movedata MOVE_TWIN_BEAM
     battleeffect 44
     pss SPLIT_SPECIAL
-    basepower 40
+    basepower MOVE_CHANGES_IMPLEMENTED ? 45 : 40
     type TYPE_PSYCHIC
     accuracy 100
     pp 10
@@ -8531,6 +8559,8 @@ movedata MOVE_TWIN_BEAM
     contesttype 0
     terminatedata
 
+// EFFECT: Now works like Rage where using it and being attacked will boost Attack
+// The actual effect can't be done, but I need Rage Fist for the Primeape evolution method
 movedata MOVE_RAGE_FIST
     battleeffect 81 // NOTE: Cant get actual effect, using Rage one
     pss SPLIT_PHYSICAL
@@ -8585,7 +8615,7 @@ movedata MOVE_INFERNAL_BLAST
     pss SPLIT_SPECIAL
     basepower 100
     type TYPE_FIRE
-    accuracy 75
+    accuracy 80
     pp 5
     effectchance 50
     target MOVE_TARGET_FOES_AND_ALLY
@@ -8673,11 +8703,12 @@ movedata MOVE_COMEUPPANCE
     appeal 0
     contesttype 0
     terminatedata
-    
+
+// POWER: 65 >> 75    
 movedata MOVE_STEAMROLLER
     battleeffect 150
     pss SPLIT_PHYSICAL
-    basepower 65
+    basepower MOVE_CHANGES_IMPLEMENTED ? 75 : 65
     type TYPE_BUG
     accuracy 100
     pp 20

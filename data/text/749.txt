@@ -558,7 +558,7 @@ The user spins its\npointed body at high\nspeed. This attack\ncan hit a foe usin
 The user shoots\nmystical beams from\nits eyes.\nThe target is hit\ntwice in a row.
 The user converts\nits rage into energy\nto attack. The user’s\nAttack rises each\ntime it is hit.
 The user expels\npressurized water\nto cut the foe.\nIt has a high\ncritical-hit ratio.
-The foe is calmed by\nan aroma, lowering its\nAttack and Sp. Atk.\nThis move will always\ngoes first.
+Foes are calmed by\nan aroma, lowering\ntheir Attack and\nSp. Atk stats.
 The user rubs its\nblazing fur together,\ncausing an explosion.\nIt has a 50% chance\nto burn what it hits.
 The user tears up the\nfoe underwater with\nits powerful jaws.\nThe foe’s Defense\nstat is also lowered.
 The user throws many\npiddly punches using\nall of its arms. This\ncan hit the foe up to\nten times in a row.

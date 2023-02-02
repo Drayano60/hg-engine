@@ -12,8 +12,8 @@
 
 // TODO:
 // Remember to update descriptions for effect changes! Also Egg Bomb? Also Me First?
-// Check Teleport and Minimize and Knock Off!
-// Readd Minimize to effect file!
+// Check Teleport and Minimize and Knock Off updated effects work right!
+// Readd Meditate to effect file!
 // Apply Hidden Power 60 BP change!
 // What to do about weaker multi hit moves (Fury Attack, Fury Swipes etc)
 // Triple Kick vs Triple Axel?
@@ -22,6 +22,8 @@
 // Code the new effect for Needle Arm
 // Give Seviper Cross Poison access if I didn't already
 // I can't change the crit multiplier from 2x, so adjust move power of guaranteed crit respectively
+// Aurora Veil shouldn't work if Cloud Nine/Air Lock are on the field
+// Check Soothing Aroma description
 
 movedata MOVE_NONE
     battleeffect 0
@@ -320,11 +322,11 @@ movedata MOVE_WHIRLWIND
     contesttype CONTEST_SMART
     terminatedata
 
-// POWER: 90 >> 85 (Due to greater distribution)
+// POWER: 90 >> 80 (Due to greater distribution)
 movedata MOVE_FLY
     battleeffect 155
     pss SPLIT_PHYSICAL
-    basepower MOVE_CHANGES_IMPLEMENTED ? 85 : 90
+    basepower MOVE_CHANGES_IMPLEMENTED ? 80 : 90
     type TYPE_FLYING
     accuracy 95
     pp 15
@@ -2051,11 +2053,11 @@ movedata MOVE_SPIKE_CANNON
     contesttype CONTEST_COOL
     terminatedata
 
-// POWER: 10 >> 35
+// POWER: 10 >> 30
 movedata MOVE_CONSTRICT
     battleeffect 70
     pss SPLIT_PHYSICAL
-    basepower MOVE_CHANGES_IMPLEMENTED ? 35 : 10
+    basepower MOVE_CHANGES_IMPLEMENTED ? 30 : 10
     type TYPE_NORMAL
     accuracy 100
     pp 35
@@ -4065,13 +4067,11 @@ movedata MOVE_FOCUS_PUNCH
     contesttype CONTEST_TOUGH
     terminatedata
 
-// POWER: 70 >> 75
-// TYPE: Normal >> Fighting
 movedata MOVE_SMELLING_SALT
     battleeffect 171
     pss SPLIT_PHYSICAL
-    basepower MOVE_CHANGES_IMPLEMENTED ? 75 : 70
-    type MOVE_CHANGES_IMPLEMENTED ? TYPE_FIGHTING : TYPE_NORMAL
+    basepower 70
+    type TYPE_NORMAL
     accuracy 100
     pp 10
     effectchance 0
@@ -5215,15 +5215,14 @@ movedata MOVE_BULK_UP
     contesttype CONTEST_BEAUTY
     terminatedata
 
-// ACCURACY: 85 >> 90
-// PP: 5 >> 10
+// ACCURACY: 85 >> 95
 movedata MOVE_BOUNCE
     battleeffect 263
     pss SPLIT_PHYSICAL
     basepower 85
     type TYPE_FLYING
-    accuracy MOVE_CHANGES_IMPLEMENTED ? 90 : 85
-    pp MOVE_CHANGES_IMPLEMENTED ? 10 : 5
+    accuracy MOVE_CHANGES_IMPLEMENTED ? 95 : 85
+    pp 5
     effectchance 30
     target MOVE_TARGET_SELECTED
     priority 0
@@ -5247,15 +5246,17 @@ movedata MOVE_MUD_SHOT
     contesttype CONTEST_TOUGH
     terminatedata
 
-// POWER: 50 >> 80
+// POWER: 50 >> 70
+// PP: 25 >> 20
+// EFFECT CHANCE: 10% >> 30%
 movedata MOVE_POISON_TAIL
     battleeffect 209
     pss SPLIT_PHYSICAL
-    basepower MOVE_CHANGES_IMPLEMENTED ? 80 : 50
+    basepower MOVE_CHANGES_IMPLEMENTED ? 70 : 50
     type TYPE_POISON
     accuracy 100
-    pp 25
-    effectchance 10
+    pp MOVE_CHANGES_IMPLEMENTED ? 20 : 25
+    effectchance MOVE_CHANGES_IMPLEMENTED ? 30 : 10
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_KINGS_ROCK | FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
@@ -5489,11 +5490,10 @@ movedata MOVE_MIRACLE_EYE
     contesttype CONTEST_CUTE
     terminatedata
 
-// POWER: 70 >> 75
 movedata MOVE_WAKE_UP_SLAP
     battleeffect 217
     pss SPLIT_PHYSICAL
-    basepower MOVE_CHANGES_IMPLEMENTED ? 75 : 70
+    basepower 70
     type TYPE_FIGHTING
     accuracy 100
     pp 10
@@ -7089,13 +7089,12 @@ movedata MOVE_CRUSH_GRIP
     contesttype CONTEST_TOUGH
     terminatedata
 
-// ACCURACY: 75 >> 80
 movedata MOVE_MAGMA_STORM
     battleeffect 42
     pss SPLIT_SPECIAL
     basepower 100
     type TYPE_FIRE
-    accuracy MOVE_CHANGES_IMPLEMENTED ? 80 : 75
+    accuracy 75
     pp 5
     effectchance 0
     target MOVE_TARGET_SELECTED
@@ -7211,8 +7210,6 @@ movedata MOVE_SHADOW_FORCE+3
     appeal 0x12
     contesttype CONTEST_SMART
     terminatedata
-
-// -- UP TO HERE --
 
 movedata MOVE_HONE_CLAWS
     battleeffect 50 // NOTE: This is for AI reasons, it still uses the Hone Claws effect.
@@ -8572,7 +8569,7 @@ movedata MOVE_AQUA_CUTTER
     terminatedata
 
 // This is a custom move for Meganium
-// Noble Roar with priority
+// Noble Roar that affects both targets
 movedata MOVE_SOOTHING_AROMA
     battleeffect 58 // NOTE: For AI purposes, still uses intended effect
     pss SPLIT_STATUS
@@ -8582,7 +8579,7 @@ movedata MOVE_SOOTHING_AROMA
     pp 20
     effectchance 0
     target MOVE_TARGET_BOTH
-    priority 1
+    priority 0
     flags FLAG_MIRROR_MOVE | FLAG_MAGIC_COAT | FLAG_PROTECT
     appeal 0x00
     contesttype 0
@@ -8595,7 +8592,7 @@ movedata MOVE_INFERNAL_BLAST
     pss SPLIT_SPECIAL
     basepower 100
     type TYPE_FIRE
-    accuracy 80
+    accuracy 75
     pp 5
     effectchance 50
     target MOVE_TARGET_FOES_AND_ALLY

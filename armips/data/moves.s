@@ -254,16 +254,18 @@ movedata MOVE_SWORDS_DANCE
     contesttype CONTEST_BEAUTY
     terminatedata
 
-// POWER: 50 > 55
+// EFFECT: High crit
+// POWER: 50 >> 70
 // ACCURACY: 95 >> 100
+// PP: 30 >> 20
 // TYPE: Normal >> Steel
 movedata MOVE_CUT
-    battleeffect 0
+    battleeffect 43
     pss SPLIT_PHYSICAL
-    basepower MOVE_CHANGES_IMPLEMENTED ? 55 : 50
+    basepower MOVE_CHANGES_IMPLEMENTED ? 70 : 50
     type MOVE_CHANGES_IMPLEMENTED ? TYPE_STEEL : TYPE_NORMAL
     accuracy MOVE_CHANGES_IMPLEMENTED ? 100 : 95
-    pp 30
+    pp MOVE_CHANGES_IMPLEMENTED ? 20 : 30
     effectchance 0
     target MOVE_TARGET_SELECTED
     priority 0

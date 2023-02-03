@@ -8285,9 +8285,11 @@ levelup SPECIES_SPINDA
     learnset MOVE_PSYCHO_BOOST, 52
     terminatelearnset
 
+// NEW: Lunge
 levelup SPECIES_TRAPINCH
     learnset MOVE_FEINT, 1
     learnset MOVE_ASTONISH, 1
+    learnset MOVE_BUG_BITE, 1
     learnset MOVE_SAND_ATTACK, 1
     learnset MOVE_FOCUS_ENERGY, 4
     learnset MOVE_MUD_SLAP, 8
@@ -8296,7 +8298,7 @@ levelup SPECIES_TRAPINCH
     learnset MOVE_BULLDOZE, 20
     learnset MOVE_FAINT_ATTACK, 24
     learnset MOVE_DIG, 28
-    learnset MOVE_SANDSTORM, 32
+    learnset MOVE_LUNGE, 32
     learnset MOVE_EARTH_POWER, 39
     learnset MOVE_CRUNCH, 44
     learnset MOVE_EARTHQUAKE, 50
@@ -8304,12 +8306,14 @@ levelup SPECIES_TRAPINCH
     learnset MOVE_FISSURE, 62
     terminatelearnset
 
+// NEW: Lunge
 levelup SPECIES_VIBRAVA
     learnset MOVE_SILVER_WIND, 1
     learnset MOVE_SONIC_BOOM, 1
     learnset MOVE_UPROAR, 1
     learnset MOVE_FEINT, 1
     learnset MOVE_ASTONISH, 1
+    learnset MOVE_BUG_BITE, 1
     learnset MOVE_SAND_ATTACK, 1
     learnset MOVE_SUPERSONIC, 4
     learnset MOVE_MUD_SLAP, 8
@@ -8318,7 +8322,7 @@ levelup SPECIES_VIBRAVA
     learnset MOVE_DRAGON_TAIL, 20
     learnset MOVE_FAINT_ATTACK, 24
     learnset MOVE_SCREECH, 28
-    learnset MOVE_SANDSTORM, 32
+    learnset MOVE_LUNGE, 32
     learnset MOVE_DRAGON_BREATH, 35
     learnset MOVE_EARTH_POWER, 39
     learnset MOVE_BUG_BUZZ, 44
@@ -8327,6 +8331,7 @@ levelup SPECIES_VIBRAVA
     learnset MOVE_BOOMBURST, 62
     terminatelearnset
 
+// NEW: Lunge
 levelup SPECIES_FLYGON
     learnset MOVE_FIRST_IMPRESSION, 1
     learnset MOVE_SILVER_WIND, 1
@@ -8334,6 +8339,7 @@ levelup SPECIES_FLYGON
     learnset MOVE_UPROAR, 1
     learnset MOVE_FEINT, 1
     learnset MOVE_ASTONISH, 1
+    learnset MOVE_BUG_BITE, 1
     learnset MOVE_SAND_ATTACK, 1
     learnset MOVE_SUPERSONIC, 4
     learnset MOVE_MUD_SLAP, 8
@@ -8342,7 +8348,7 @@ levelup SPECIES_FLYGON
     learnset MOVE_DRAGON_TAIL, 20
     learnset MOVE_FAINT_ATTACK, 24
     learnset MOVE_SCREECH, 28
-    learnset MOVE_SANDSTORM, 32
+    learnset MOVE_LUNGE, 32
     learnset MOVE_DRAGON_BREATH, 35
     learnset MOVE_EARTH_POWER, 39
     learnset MOVE_BUG_BUZZ, 44

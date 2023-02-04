@@ -15,9 +15,6 @@
 // Check Teleport and Minimize and Knock Off updated effects work right!
 // What to do about weaker multi hit moves (Fury Attack, Fury Swipes etc)
 // Triple Kick vs Triple Axel?
-// Code the new effect for Needle Arm
-// Aurora Veil shouldn't work if Cloud Nine/Air Lock are on the field
-// Check Soothing Aroma description
 
 movedata MOVE_NONE
     battleeffect 0

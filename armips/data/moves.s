@@ -15,7 +15,6 @@
 // Check Teleport and Minimize and Knock Off updated effects work right!
 // What to do about weaker multi hit moves (Fury Attack, Fury Swipes etc)
 // Triple Kick vs Triple Axel?
-// Can I make Bonemerang hit Flying targets? Maybe by temporarily applying Gravity?
 // Make Dive a one-turn animation!
 // Code the new effect for Needle Arm
 // Give Seviper Cross Poison access if I didn't already

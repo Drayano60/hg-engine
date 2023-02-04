@@ -63,10 +63,10 @@ On a turn, has 33% chance\nof curing status problems.
 Boosts Attack by 50% if\nthere is a status problem.
 Boosts Defense by 50% if\nthere is a status problem.
 Inflicts damage on foes\nusing any draining move.
-Ups Grass moves by 20%.\n50% if at 33% HP or less.
-Ups Fire moves by 20%.\n50% if at 33% HP or less.
-Ups Water moves by 20%,\n50% if at 33% HP or less.
-Ups Bug moves by 20%.\n50% if at 33% HP or less.
+Ups Grass moves by 10%.\n50% if at 33% HP or less.
+Ups Fire moves by 10%.\n50% if at 33% HP or less.
+Ups Water moves by 10%.\n50% if at 33% HP or less.
+Ups Bug moves by 10%.\n50% if at 33% HP or less.
 Protects the Pokémon\nfrom recoil damage.
 The Pokémon makes it\nsunny if it is in battle.
 Prevents the foe from\nfleeing.

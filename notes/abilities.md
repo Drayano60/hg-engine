@@ -25,7 +25,7 @@ Wind Whipper|Shiftry|Wind-based moves have their power boosted by x1.33.|Baesd o
 
 Abilities|New Effect|Notes
 ---|---|---
-Blaze, Overgrow, Swarm, Torrent|Now gives a permanent x1.2 boost to moves of the relevant type. This is increased to the usual x1.5 when the Pokémon is at or below a third of its HP.|This is to make the pinch abilities feel less useless in most situations. This idea is from Inclement Emerald - thanks, Buffel Saft!
+Blaze, Overgrow, Swarm, Torrent|Now gives a permanent x1.1 boost to moves of the relevant type. This is increased to the usual x1.5 when the Pokémon is at or below a third of its HP.|This is to make the pinch abilities feel less useless in most situations. This idea is inspired by Inclement Emerald - thanks, Buffel Saft!
 Iron Fist, Mega Launcher, Reckless, Sharpness, Strong Jaw|All of these abilities now increase the power of the relevant moves by x1.33.|These are all abilities that boost certain moves, and the boost has been standardized. Iron Fist and Reckless are buffed, the rest have had a nerf due to their greater availability.
 Illuminate, Keen Eye|These abilities now also increase move accuracy by x1.2, in addition to their usual effects.|These abilities have minimal effect normally, and both make sense as an accuracy boost. The accuracy boost is not quite as big as Compound Eyes's because stronger Pokémon get the abilities.
 Rivalry|Now increases move power against opposite gender foes by x1.2. It no longer reduces move power against same gender foes.|The negative effect has been removed to make this ability a lot more usable, but it's been nerfed slightly as a result.

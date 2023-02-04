@@ -835,11 +835,11 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
         || (movetype == TYPE_BUG && AttackingMon.ability == ABILITY_SWARM)
     ) {
         // If below or equal to 33% HP, boost power by 50%.
-        // Otherwise, boost power by 20%.
+        // Otherwise, boost power by 10%.
         if (AttackingMon.hp <= AttackingMon.maxhp * 10 / 30) {
             movepower = movepower * 150 / 100;
         } else {
-            movepower = movepower * 120 / 100;
+            movepower = movepower * 110 / 100;
         }
     }
 

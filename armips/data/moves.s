@@ -16,7 +16,6 @@
 // What to do about weaker multi hit moves (Fury Attack, Fury Swipes etc)
 // Triple Kick vs Triple Axel?
 // Code the new effect for Needle Arm
-// Give Seviper Cross Poison access if I didn't already
 // Aurora Veil shouldn't work if Cloud Nine/Air Lock are on the field
 // Check Soothing Aroma description
 
@@ -4629,7 +4628,7 @@ movedata MOVE_ICE_BALL
 // POWER: 60 >> 80
 // EFFECT: Now adds Spikes to the field instead of poisoning.
 movedata MOVE_NEEDLE_ARM
-    battleeffect 31
+    battleeffect 312
     pss SPLIT_PHYSICAL
     basepower MOVE_CHANGES_IMPLEMENTED ? 80 : 60
     type TYPE_GRASS

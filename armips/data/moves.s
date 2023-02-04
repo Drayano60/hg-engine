@@ -13,8 +13,6 @@
 // TODO:
 // Remember to update descriptions for effect changes! Also Egg Bomb? Also Me First?
 // Check Teleport and Minimize and Knock Off updated effects work right!
-// Readd Meditate to effect file!
-// Apply Hidden Power 60 BP change!
 // What to do about weaker multi hit moves (Fury Attack, Fury Swipes etc)
 // Triple Kick vs Triple Axel?
 // Can I make Bonemerang hit Flying targets? Maybe by temporarily applying Gravity?

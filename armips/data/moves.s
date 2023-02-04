@@ -4508,13 +4508,14 @@ movedata MOVE_CAMOUFLAGE
     terminatedata
 
 movedata MOVE_TAIL_GLOW
-    battleeffect 53 // NOTE: This is edited so Tail Glow gives +3 SpAtk.
+    battleeffect 53
     pss SPLIT_STATUS
     basepower 0
     type TYPE_BUG
     accuracy 0
     pp 20
-    effectchance 100
+    effectchance 0
+    ; effectchance 100 -- This was use for the +2/+1 idea
     target MOVE_TARGET_USER
     priority 0
     flags FLAG_SNATCH
@@ -7681,14 +7682,16 @@ movedata MOVE_RAZOR_SHELL
     contesttype 0
     terminatedata
 
+// EFFECT: Gives +2 Defense instead of +3. Not sure how to do drastic raise + might be a bit unbalanced.
 movedata MOVE_COTTON_GUARD
-    battleeffect 51 // NOTE: This is edited so Cotton Guard gives +3 Def.
+    battleeffect 51
     pss SPLIT_STATUS
     basepower 0
     type TYPE_GRASS
     accuracy 0
     pp 10
-    effectchance 100
+    effectchance 0
+    ; effectchance 100 -- This was use for the +2/+1 idea
     target MOVE_TARGET_USER
     priority 0
     flags FLAG_KEEP_HP_BAR | FLAG_SNATCH

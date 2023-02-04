@@ -139,6 +139,7 @@ Feint|Updated to no longer fail if enemy isn't using Protect/Detect.
 Chatter|Updated to always confuse the foe.
 
 Conversion 2 and Beat Up are not able to be updated yet.
+Tail Glow is **not** updated because of both technical restrictions and as a balancing act due to greater distribution.
 
 ## Move Inaccuracies
 
@@ -146,6 +147,7 @@ Some new moves added to the game couldn't be added completely accurately (yet?);
 
 Move|Effect Change
 ---|---
+Cotton Guard|This sharply raises Defense (+2) instead of drastically (+3) as I'm not sure how to make it be so; this is also somewhat for balance.
 Echoed Voice|This uses the same consecutive damage increase effect as Fury Cutter. Other Pokémon using Echoed Voice do not contribute to the damage increasing.
 Freeze-Dry|This move is not super effective against Water-types and as such will display "not very effective". However, it *does* do 4x damage to anything that is Water-type, so the damage should work out the same as the real deal.
 Aurora Veil|Instead of being a field effect of its own, the move sets up Reflect and Light Screen in one turn. It still has the Hail requirement and works with Light Clay.

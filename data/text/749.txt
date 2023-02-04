@@ -500,7 +500,7 @@ The user crashes into\nits foe, rotating its\nbody like a drill.\nIt has a high\
 The user attacks its\ntarget by hitting it\nwith brutal strikes.\nThe target is hit\ntwice in a row.
 The user attacks by\nslicing with a sword.\nThe target’s stat\nchanges do not affect\nthis move’s damage.
 The user cuts its foe\nwith sharp shells.\nIt has a 50% chance\nto lower the foe’s\nDefense stat.
-The user protects\nitself by wrapping\nits body in cotton,\ndrastically raising\nthe user’s Defense.
+The user protects\nitself by wrapping\nits body in cotton,\nsharply raising\nthe user’s Defense.
 The user attacks\nby striking the foe\nwith its hard tail,\ntwo to five times\nin a row.
 The user attacks by\nwrapping its opponent\nin a fierce wind.\nIt has a 30% chance\nto confuse the foe.
 The user yells as if\nit is ranting about\nsomething, making the\ntarget’s Sp. Atk stat\ndecrease.

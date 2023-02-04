@@ -4998,7 +4998,7 @@ mondata SPECIES_NATU
 mondata SPECIES_XATU
 
     .if STAT_CHANGES_IMPLEMENTED
-        basestats 65, 75, 70, 115, 95, 70
+        basestats 65, 75, 70, 95, 115, 70
     .else
         basestats 65, 75, 70, 95, 95, 70
     .endif

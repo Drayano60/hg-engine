@@ -8117,7 +8117,7 @@ movedata MOVE_BRUTAL_SWING
 // EFFECT: This sets up Reflect and Light Screen separately rather than its own thing
 // Very similar effect but not an exact replica
 movedata MOVE_AURORA_VEIL
-    battleeffect 303
+    battleeffect 65 // Reflect eff_seq for AI but it changes effect for Aurora Veil
     pss SPLIT_STATUS
     basepower 0
     type TYPE_ICE

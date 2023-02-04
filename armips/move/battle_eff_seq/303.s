@@ -11,6 +11,7 @@
 
 // Aurora Veil effect
 // Hail requirement is handled by subscript
+// Used by seq_065 for AI purposes instead
 
 a030_303:
     gotosubscript 341

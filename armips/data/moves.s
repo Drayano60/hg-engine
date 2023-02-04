@@ -15,10 +15,8 @@
 // Check Teleport and Minimize and Knock Off updated effects work right!
 // What to do about weaker multi hit moves (Fury Attack, Fury Swipes etc)
 // Triple Kick vs Triple Axel?
-// Make Dive a one-turn animation!
 // Code the new effect for Needle Arm
 // Give Seviper Cross Poison access if I didn't already
-// I can't change the crit multiplier from 2x, so adjust move power of guaranteed crit respectively
 // Aurora Veil shouldn't work if Cloud Nine/Air Lock are on the field
 // Check Soothing Aroma description
 
@@ -2651,11 +2649,10 @@ movedata MOVE_NIGHTMARE
     contesttype CONTEST_SMART
     terminatedata
 
-// POWER: 60 >> 65
 movedata MOVE_FLAME_WHEEL
     battleeffect 125
     pss SPLIT_PHYSICAL
-    basepower MOVE_CHANGES_IMPLEMENTED ? 65 : 60
+    basepower 60
     type TYPE_FIRE
     accuracy 100
     pp 25
@@ -4455,13 +4452,13 @@ movedata MOVE_SECRET_POWER
     contesttype CONTEST_SMART
     terminatedata
 
-// POWER: 80 >> 65
+// POWER: 80 >> 60
 // PP: 10 >> 20
 // EFFECT: Now a one-turn move.
 movedata MOVE_DIVE
     battleeffect 0
     pss SPLIT_PHYSICAL
-    basepower MOVE_CHANGES_IMPLEMENTED ? 65 : 80
+    basepower MOVE_CHANGES_IMPLEMENTED ? 60 : 80
     type TYPE_WATER
     accuracy 100
     pp MOVE_CHANGES_IMPLEMENTED ? 20 : 10

@@ -11144,7 +11144,7 @@ levelup SPECIES_LUMINEON
     learnset MOVE_QUIVER_DANCE, 54
     terminatelearnset
 
-// NEW: Icicle Crash (PLA), Needle Arm
+// NEW: Icicle Crash (PLA)
 levelup SPECIES_SNOVER
     learnset MOVE_POWDER_SNOW, 1
     learnset MOVE_LEER, 1
@@ -11158,13 +11158,14 @@ levelup SPECIES_SNOVER
     learnset MOVE_ICY_WIND, 24
     learnset MOVE_SWAGGER, 28
     learnset MOVE_INGRAIN, 32
-    learnset MOVE_NEEDLE_ARM, 36
+    learnset MOVE_ENERGY_BALL, 36
     learnset MOVE_ICICLE_CRASH, 42
     learnset MOVE_WOOD_HAMMER, 48
     learnset MOVE_BLIZZARD, 54
     learnset MOVE_SHEER_COLD, 60
     terminatelearnset
 
+// NEW: Icicle Crash (PLA)
 levelup SPECIES_ABOMASNOW
     learnset MOVE_AVALANCHE, 1
     learnset MOVE_AURORA_VEIL, 1
@@ -11180,7 +11181,7 @@ levelup SPECIES_ABOMASNOW
     learnset MOVE_ICY_WIND, 24
     learnset MOVE_SWAGGER, 28
     learnset MOVE_INGRAIN, 32
-    learnset MOVE_NEEDLE_ARM, 36
+    learnset MOVE_ENERGY_BALL, 36
     learnset MOVE_ICE_PUNCH, 40
     learnset MOVE_ICICLE_CRASH, 42
     learnset MOVE_WOOD_HAMMER, 48

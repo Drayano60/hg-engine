@@ -12,7 +12,6 @@
 
 // TODO:
 // Remember to update descriptions for effect changes! Also Egg Bomb? Also Me First?
-// Check Teleport and Minimize and Knock Off updated effects work right!
 // What to do about weaker multi hit moves (Fury Attack, Fury Swipes etc)
 // Triple Kick vs Triple Axel?
 

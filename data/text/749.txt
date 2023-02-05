@@ -536,7 +536,7 @@ The user slams its\nbody into the foe.\nThe higher the user’s\ndefense, the hi
 The user swings its\ntough tail wildly\nand attacks the foe.\nThis also lowers the\nfoe’s Attack stat.
 The user attacks with\nenough force to harm\nthe foe’s spirit.\nThis lowers the foe’s\nSp. Atk stat.
 The user fires a\nbeam, using steel\ntaken from itself.\nThis also damages\nthe user.
-The user attacks by\nshooting many scales.\nThis move boosts the\nuser’s Speed but\nlowers its Defense.
+Shoots scales two to\nfive times in a row.\nThis move boosts the\nuser’s Speed but\nlowers its Defense.
 The user gathers\nspace power and\nattacks the target.\nHas a 20% chance to\nraise user’s Sp. Atk.
 The user skitters\nbehind the foe\nto attack.\nThis also lowers the\nfoe’s Sp. Atk stat.
 After making its\nattack, the user\nrushes back to switch\nplaces with a party\nPokémon in waiting.

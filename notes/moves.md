@@ -110,7 +110,7 @@ Razor Shell|-|**100%** (95%)|-|-|-|-
 Tail Slap|-|**100%** (85%)|-|-|-|-
 Draining Kiss|**65** (50)|-|-|-|Now recovers 50% of damage dealt (instead of 75%).|-|-
 Pollen Puff|-|-|-|-|Now has a chance to drop the foe's Speed stat.|**30%** (N/A)|Changed due to technical limitations.
-Scale Shot|**65** (25)|-|-|-|Now only hits once. Still has the +Spd and -Def effect.|-|Changed due to technical limitations.
+Scale Shot|-|-|-|-|The stat changes happen after the first hit instead of after the last.|-|Changed due to technical limitations, but it's effectively the same as normal.
 Meteor Beam|**110** (120)|**80%** (90%)|-|-|Now a one-turn move with a chance to raise Sp. Atk.|**20%** (N/A)|Changed for fun!
 Skitter Smack|-|**100%** (90%)|-|-|-|-
 Dual Wingbeat|-|**100%** (90%)|-|-|-|-

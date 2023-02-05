@@ -8220,12 +8220,12 @@ movedata MOVE_STEEL_BEAM
     contesttype 0
     terminatedata
 
-// EFFECT: Now a single hit move due to technical limits
-// POWER: 25 >> 65 - this is not optional
+// EFFECT: The stat change happens after the first hit instead of the last.
+// It's a bit janky but seems to be the best I can manage for now. Same effect though.
 movedata MOVE_SCALE_SHOT
-    battleeffect 301 // NOTE: Cant get the multihit and stat increase to work, so its just the stat increase and flat damage
+    battleeffect 301
     pss SPLIT_PHYSICAL
-    basepower 65
+    basepower 25
     type TYPE_DRAGON
     accuracy 90
     pp 20

@@ -12,7 +12,6 @@
 
 // TODO:
 // Remember to update descriptions for effect changes! Also Egg Bomb? Also Me First?
-// What to do about weaker multi hit moves (Fury Attack, Fury Swipes etc)
 // Triple Kick vs Triple Axel?
 
 movedata MOVE_NONE
@@ -60,12 +59,14 @@ movedata MOVE_KARATE_CHOP
     contesttype CONTEST_TOUGH
     terminatedata
 
+// POWER: 15 >> 20
+// ACCURACY: 85 >> 100
 movedata MOVE_DOUBLE_SLAP
     battleeffect 29
     pss SPLIT_PHYSICAL
-    basepower 15
+    basepower MOVE_CHANGES_IMPLEMENTED ? 20 : 15
     type TYPE_NORMAL
-    accuracy 85
+    accuracy MOVE_CHANGES_IMPLEMENTED ? 100 : 85
     pp 10
     effectchance 0
     target MOVE_TARGET_SELECTED
@@ -75,12 +76,14 @@ movedata MOVE_DOUBLE_SLAP
     contesttype CONTEST_TOUGH
     terminatedata
 
+// POWER: 18 >> 20
+// ACCURACY: 85 >> 100
 movedata MOVE_COMET_PUNCH
     battleeffect 29
     pss SPLIT_PHYSICAL
-    basepower 18
+    basepower MOVE_CHANGES_IMPLEMENTED ? 20 : 18
     type TYPE_NORMAL
-    accuracy 85
+    accuracy MOVE_CHANGES_IMPLEMENTED ? 100 : 85
     pp 15
     effectchance 0
     target MOVE_TARGET_SELECTED
@@ -497,12 +500,14 @@ movedata MOVE_HORN_ATTACK
     contesttype CONTEST_COOL
     terminatedata
 
+// POWER: 15 >> 20
+// ACCURACY: 85 >> 100
 movedata MOVE_FURY_ATTACK
     battleeffect 29
     pss SPLIT_PHYSICAL
-    basepower 15
+    basepower MOVE_CHANGES_IMPLEMENTED ? 20 : 15
     type TYPE_NORMAL
-    accuracy 85
+    accuracy MOVE_CHANGES_IMPLEMENTED ? 100 : 85
     pp 20
     effectchance 0
     target MOVE_TARGET_SELECTED
@@ -2027,11 +2032,10 @@ movedata MOVE_SKULL_BASH
     contesttype CONTEST_TOUGH
     terminatedata
 
-// POWER: 20 >> 25
 movedata MOVE_SPIKE_CANNON
     battleeffect 29
     pss SPLIT_PHYSICAL
-    basepower MOVE_CHANGES_IMPLEMENTED ? 25 : 20
+    basepower 20
     type TYPE_NORMAL
     accuracy 100
     pp 15
@@ -2164,12 +2168,14 @@ movedata MOVE_POISON_GAS
     contesttype CONTEST_SMART
     terminatedata
 
+// POWER: 15 >> 20
+// ACCURACY: 85 >> 100
 movedata MOVE_BARRAGE
     battleeffect 29
     pss SPLIT_PHYSICAL
-    basepower 15
+    basepower MOVE_CHANGES_IMPLEMENTED ? 20 : 15
     type TYPE_NORMAL
-    accuracy 85
+    accuracy MOVE_CHANGES_IMPLEMENTED ? 100 : 85
     pp 20
     effectchance 0
     target MOVE_TARGET_SELECTED
@@ -2374,6 +2380,8 @@ movedata MOVE_EXPLOSION
     contesttype CONTEST_BEAUTY
     terminatedata
 
+// POWER: 18 >> 20
+// ACCURACY: 80 >> 100
 movedata MOVE_FURY_SWIPES
     battleeffect 29
     pss SPLIT_PHYSICAL

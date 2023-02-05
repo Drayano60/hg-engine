@@ -22,6 +22,8 @@ In addition to this, all **damaging** moves that match one of the user's types n
 
 Move|New Power|New Accuracy|New Type|New PP|New Effect|New Effect Chance|Additional Info
 ---|---|---|---|---|---|---|---
+Double Slap|**20** (15)|**100%** (85%)|-|-|-|-
+Comet Punch|**20** (18)|**100%** (85%)|-|-|-|-
 Mega Punch|-|**100%** (85%)|-|-|-|-
 Pay Day|**60** (40)|-|-|-|-|-
 Vise Grip|-|-|**Steel** (Normal)|-|-|-
@@ -32,6 +34,7 @@ Bind|**35** (15)|-|-|-|-|-
 Slam|-|**90%** (75%)|-|-|-|-
 Mega Kick|-|**85%** (75%)|-|-|-|-
 Rolling Kick|-|**100%** (85%)|-|-|-|-
+Fury Attack|**20** (15)|**100%** (85%)|-|-|-|-
 Wrap|**35** (15)|-|-|-|-|-
 Take Down|-|**100%** (85%)|-|-|-|-
 Poison Sting|**40** (15)|-|-|-|-|-
@@ -52,8 +55,9 @@ Lick|**40** (30)|-|-|-|-|-
 Smog|**50** (30)|**90%** (70%)|-|-|-|-
 Bone Club|-|**100%** (85%)|-|-|-|-
 Clamp|**55** (35)|-|-|-|-|-
-Spike Cannon|**25** (20)|-|-|-|-|-
 Constrict|**30** (10)|-|-|-|-|-
+Barrage|**20** (15)|**100%** (85%)|-|-|-|-
+Fury Swipes|**20** (18)|**100%** (80%)|-|-|-|-
 Mud-Slap|**30** (20)|-|-|-|-|-
 Octazooka|**75** (65)|-|-|-|-|-
 Steel Wing|**80** (70)|**100%** (90%)|-|**20** PP (25 PP)|-|-

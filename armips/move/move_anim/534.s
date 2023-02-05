@@ -10,7 +10,7 @@
 .create "build/move/move_anim/0_534", 0
 
 // Body Press
-// Body Slam animation
+// Body Slam animation with extra squish
 
 a010_534:
     initspriteresource
@@ -41,6 +41,7 @@ a010_534:
     addparticle 0, 1, 4
     addparticle 0, 0, 4
     callfunction 36, 5, 3, 0, 1, 4, 264, "NaN", "NaN", "NaN", "NaN", "NaN"
+    callfunction 42, 8, 264, 100, 130, 100, 70, 100, 1310721, 262148, "NaN", "NaN"
     callfunction 57, 4, 4, -24, 0, 258, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
     waitstate
     end

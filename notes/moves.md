@@ -132,7 +132,7 @@ Teleport|Updated to Gen 8+ effect.
 Minimize|Updated to sharply raise evasion.
 Rapid Spin|Updated to Gen 8+ effect.
 Hidden Power|Now always at 60 power. (Type is still dependent on IVs).
-Knock Off|Now doubles to 130 power while the foe has an item held as in Gen 6+.
+Knock Off|Now doubles to 130 power while the foe has an item held (unless the foe holds a Griseous Orb or has the Multitype ability). The actual 'knock off' effect still works the same as Gen 4, where the item just becomes disabled instead of deleted.
 Tail Glow|Updated to raise Sp. Atk by three stages (done in two increments).
 Feint|Updated to no longer fail if enemy isn't using Protect/Detect.
 Chatter|Updated to always confuse the foe.

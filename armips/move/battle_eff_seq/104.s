@@ -12,7 +12,8 @@
 a030_104:
     setmultihit 0x3, 0xDD
     changevar VAR_OP_SET, VAR_SUCCESSIVE_HIT, 0x1
-    changevar VAR_OP_ADD, VAR_ABILITY_TEMP, 0xA
+    // changevar VAR_OP_ADD, VAR_ABILITY_TEMP, 0xA
+    changevar VAR_OP_ADD, VAR_ABILITY_TEMP, 15
     gotosubscript 343
     endscript
 

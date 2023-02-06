@@ -12,7 +12,6 @@
 
 // TODO:
 // Remember to update descriptions for effect changes! Also Egg Bomb? Also Me First?
-// Triple Kick vs Triple Axel?
 
 movedata MOVE_NONE
     battleeffect 0
@@ -2577,10 +2576,12 @@ movedata MOVE_SKETCH
     contesttype CONTEST_SMART
     terminatedata
 
+// EFFECT: Now gains +15 BP each hit (up from 10).
+// POWER: 10 >> 15
 movedata MOVE_TRIPLE_KICK
     battleeffect 104
     pss SPLIT_PHYSICAL
-    basepower 10
+    basepower MOVE_CHANGES_IMPLEMENTED ? 15 : 10
     type TYPE_FIGHTING
     accuracy 90
     pp 10

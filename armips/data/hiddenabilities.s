@@ -220,7 +220,7 @@
 /* SPECIES_SCIZOR                      */ .halfword ABILITY_LIGHT_METAL
 /* SPECIES_SHUCKLE                     */ .halfword ABILITY_CONTRARY
 /* SPECIES_HERACROSS                   */ .halfword ABILITY_MOXIE
-/* SPECIES_SNEASEL                     */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_TECHNICIAN : ABILITY_PICKPOCKET
+/* SPECIES_SNEASEL                     */ .halfword ABILITY_PICKPOCKET
 /* SPECIES_TEDDIURSA                   */ .halfword ABILITY_HONEY_GATHER
 /* SPECIES_URSARING                    */ .halfword ABILITY_UNNERVE
 /* SPECIES_SLUGMA                      */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_INFERNAL_BODY : ABILITY_WEAK_ARMOR
@@ -466,7 +466,7 @@
 /* SPECIES_MANTYKE                     */ .halfword ABILITY_WATER_VEIL
 /* SPECIES_SNOVER                      */ .halfword ABILITY_SOUNDPROOF
 /* SPECIES_ABOMASNOW                   */ .halfword ABILITY_SOUNDPROOF
-/* SPECIES_WEAVILE                     */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_TECHNICIAN : ABILITY_PICKPOCKET
+/* SPECIES_WEAVILE                     */ .halfword ABILITY_PICKPOCKET
 /* SPECIES_MAGNEZONE                   */ .halfword ABILITY_ANALYTIC
 /* SPECIES_LICKILICKY                  */ .halfword ABILITY_CLOUD_NINE
 /* SPECIES_RHYPERIOR                   */ .halfword ABILITY_RECKLESS

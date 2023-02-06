@@ -58,6 +58,7 @@ Clamp|**55** (35)|-|-|-|-|-
 Constrict|**30** (10)|-|-|-|-|-
 Barrage|**20** (15)|**100%** (85%)|-|-|-|-
 Fury Swipes|**20** (18)|**100%** (80%)|-|-|-|-
+Triple Kick|**15** (10)|-|-|-|Now increases by 15 BP each hit (instead of 10 BP).|-
 Mud-Slap|**30** (20)|-|-|-|-|-
 Octazooka|**75** (65)|-|-|-|-|-
 Steel Wing|**80** (70)|**100%** (90%)|-|**20** PP (25 PP)|-|-

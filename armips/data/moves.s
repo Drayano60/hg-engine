@@ -942,6 +942,9 @@ movedata MOVE_BLIZZARD
     contesttype CONTEST_BEAUTY
     terminatedata
 
+// -- MOVE EFFECTS UP TO HERE --
+// effectchance [^0]
+
 movedata MOVE_PSYBEAM
     battleeffect 76
     pss SPLIT_SPECIAL
@@ -8230,7 +8233,7 @@ movedata MOVE_STEEL_BEAM
     terminatedata
 
 // EFFECT: The stat change happens after the first hit instead of the last.
-// It's a bit janky but seems to be the best I can manage for now. Same effect though.
+// Its a bit janky but seems to be the best I can manage for now. Same effect though.
 movedata MOVE_SCALE_SHOT
     battleeffect 301
     pss SPLIT_PHYSICAL
@@ -8538,7 +8541,7 @@ movedata MOVE_TWIN_BEAM
     terminatedata
 
 // EFFECT: Now works like Rage where using it and being attacked will boost Attack
-// The actual effect can't be done, but I need Rage Fist for the Primeape evolution method
+// The actual effect cant be done, but I need Rage Fist for the Primeape evolution method
 movedata MOVE_RAGE_FIST
     battleeffect 81 // NOTE: Cant get actual effect, using Rage one
     pss SPLIT_PHYSICAL

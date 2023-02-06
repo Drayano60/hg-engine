@@ -5,9 +5,9 @@ The foe is slapped\nrepeatedly, back\nand forth, two to\nfive times in a row.\n
 The foe is hit with\na flurry of punches\nthat strike two to\nfive times in a row.\n
 The foe is slugged\nby a punch thrown\nwith muscle-packed\npower.\n
 Numerous coins are\nhurled at the foe to\ninflict damage.\nMoney is earned\nafter battle.
-The foe is punched\nwith a fiery fist.\nIt may leave the\ntarget with a burn.\n
-The foe is punched\nwith an icy fist.\nIt may leave the\ntarget frozen.\n
-The foe is punched\nwith an electrified\nfist. It may leave\nthe target with\nparalysis.
+The foe is punched\nwith a fiery fist.\nThis has a 10% chance\nto burn the foe.
+The foe is punched\nwith an icy fist.\nThis has a 10% chance\nto freeze the foe.
+The foe is punched\nwith an electrified\nfist.\nThis has a 10% chance\nto paralyze the foe.
 Hard, pointed, and\nsharp claws rake the\nfoe to inflict damage.\n\n
 Huge, impressive\npincers grip and\nsqueeze the foe.\n\n
 A vicious, tearing\nattack with pincers.\nThe foe will faint\ninstantly if this\nattack hits.
@@ -21,43 +21,43 @@ The user soars, then\nstrikes on the second\nturn. It can also be\nused for flyi
 A long body or\ntentacles are used\nto bind and squeeze\nthe foe for two to\nfive turns.
 The foe is slammed\nwith a long tail,\nvines, etc., to inflict\ndamage.\n
 The foe is struck\nwith slender, whiplike\nvines to inflict\ndamage.\n
-The foe is stomped\nwith a big foot.\nIt may also make the\ntarget flinch.\n
+The foe is stomped\nwith a big foot.\nThis has a 30% chance\nto flinch the foe.
 The foe is quickly\nkicked twice in\nsuccession using both\nfeet.\n
 The foe is attacked\nby a kick launched\nwith muscle-packed\npower.\n
 The user jumps up\nhigh, then strikes\nwith a kick. If the\nkick misses, the\nuser hurts itself.
-The user lashes \nout with a quick,\nspinning kick. It\nmay also make the\ntarget flinch.
+The user lashes out\nwith a quick, spinning\nkick.\nThis has a 30% chance\nto flinch the foe.
 Sand is hurled in the\nfoe’s face, reducing\nits accuracy.\n\n
-The user attacks with\nits head. It may make\nthe foe flinch. To find\nPokémon, hit trees.
+The user charges into\nthe foe with its head\nsticking out.\nThis has a 30% chance\nto flinch the foe.
 The foe is jabbed\nwith a sharply\npointed horn to\ninflict damage.\n
 The foe is jabbed\nrepeatedly with a\nhorn or beak two to\nfive times in a row.\n
 The foe is stabbed\nwith a horn rotating\nlike a drill.\nThe foe instantly\nfaints if it hits.
 A physical attack\nin which the user\ncharges and slams\ninto the foe with\nits whole body.
-The user drops onto\nthe foe with its full\nbody weight.\nIt may leave the foe\nparalyzed.
+The user drops onto\nthe foe with its full\nbody weight.\nThis has a 30% chance\nto paralyze the foe.
 A long body or vines\nare used to wrap and\nsqueeze the foe for\ntwo to five turns.\n
 A reckless, full-body\ncharge attack for\nslamming into the foe.\nIt also damages the\nuser a little.
 The user rampages\nand attacks for two\nto three turns.\nIt then becomes\nconfused, however.
 A reckless, life-\nrisking tackle.\nIt also damages the\nuser by a fairly large\namount, however.
 The user wags its tail\ncutely, making the\nfoe less wary.\nThe target’s Defense\nstat is lowered.
-The foe is stabbed\nwith a poisonous\nbarb of some sort.\nIt may also poison\nthe target.
-The foe is stabbed\ntwice by a pair of\nstingers.\nIt may also poison\nthe target.
+The foe is stabbed\nwith a poisonous\nbarb of some sort.\nThis has a 30% chance\nto poison the foe.
+The foe is stabbed\ntwice by a pair of\nstingers. Each hit\nhas a 20% chance\nto poison the foe.
 Sharp pins are shot\nat the foe in rapid\nsuccession.\nThey hit two to five\ntimes in a row.
 The foe is given an\nintimidating leer with\nsharp eyes.\nThe target’s Defense\nstat is reduced.
-The foe is bitten with\nviciously sharp fangs.\nIt may make the\ntarget flinch.\n
+The foe is bitten with\nviciously sharp fangs.\nThis has a 30% chance\nto flinch the foe.
 The user growls in an\nendearing way, making\nthe foe less wary.\nThe target’s Attack\nstat is lowered.
 The foe is scared off,\nto be replaced by\nanother Pokémon in\nits party. In the\nwild, the battle ends.
 A soothing lullaby is\nsung in a calming\nvoice that puts the\nfoe into a deep\nslumber.
 The user generates\nodd sound waves from\nits body.\nIt may confuse the\ntarget.
 The foe is hit with a\ndestructive shock\nwave that always\ninflicts 20 HP damage.\n
 For several turns,\nthis move prevents\nthe foe from using\nthe move it last\nused.
-The foe is attacked\nwith a spray of harsh\nacid. It may also\nlower the target’s\nSp. Def stat.
-The foe is attacked\nwith small flames.\nThe target may also\nbe left with a burn.\n
-The foe is scorched\nwith an intense blast\nof fire. The target\nmay also be left with\na burn.
+The foe is attacked\nwith a spray of harsh\nacid.\nThis has a 10% chance\nto lower Sp. Def.
+The foe is attacked\nwith small flames.\nThis has a 10% chance\nto burn the foe.
+The foe is scorched\nwith an intense blast\nof fire.\nThis has a 10% chance\nto burn the foe.
 The user cloaks its\nbody with a white mist\nthat prevents any of\nits stats from being\ncut for five turns.
 The foe is blasted\nwith a forceful shot\nof water.\n\n
 The foe is blasted by\na huge volume of\nwater launched under\ngreat pressure.\n
 It swamps the entire\nbattlefield with a\ngiant wave.\nIt can also be used\nfor crossing water.
-The foe is struck\nwith an icy-cold\nbeam of energy.\nIt may also freeze\nthe target solid.
-A howling blizzard is\nsummoned to strike\nthe foe.\nIt may also freeze\nthe target solid.
+The foe is struck\nwith an icy-cold\nbeam of energy.\nThis has a 10% chance\nto freeze the foe.
+A howling blizzard is\nsummoned to strike\nthe foe.\nThis has a 10% chance\nto freeze the foe.
 The foe is attacked\nwith a peculiar ray.\nIt may also leave the\ntarget confused.\n
 A spray of bubbles is\nforcefully ejected\nat the foe.\nIt may also lower the\ntarget’s Speed stat.
 The foe is hit with a\nrainbow-colored beam.\nIt may also lower the\ntarget’s Attack\nstat.

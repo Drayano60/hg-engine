@@ -4456,9 +4456,9 @@ movedata MOVE_SECRET_POWER
     contesttype CONTEST_SMART
     terminatedata
 
+// EFFECT: Now a one-turn move.
 // POWER: 80 >> 60
 // PP: 10 >> 20
-// EFFECT: Now a one-turn move.
 movedata MOVE_DIVE
     battleeffect 0
     pss SPLIT_PHYSICAL
@@ -4630,8 +4630,8 @@ movedata MOVE_ICE_BALL
     contesttype CONTEST_BEAUTY
     terminatedata
 
-// POWER: 60 >> 80
 // EFFECT: Now adds Spikes to the field instead of poisoning.
+// POWER: 60 >> 80
 movedata MOVE_NEEDLE_ARM
     battleeffect 312
     pss SPLIT_PHYSICAL
@@ -5580,7 +5580,7 @@ movedata MOVE_NATURAL_GIFT
     contesttype CONTEST_COOL
     terminatedata
 
-// EFFECT: Updated to newer gen effect - no longer fails if enemy isn't protecting
+// EFFECT: Updated to newer gen effect - no longer fails if enemy isnt protecting
 movedata MOVE_FEINT
     battleeffect 223
     pss SPLIT_PHYSICAL

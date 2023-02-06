@@ -13,7 +13,7 @@ Huge, impressive\npincers grip and\nsqueeze the foe.\n\n
 A vicious, tearing\nattack with pincers.\nThe foe will faint\ninstantly if this\nattack hits.
 Blades of wind hit\nopposing Pokémon.\nThis move has a high\ncritical-hit ratio.
 A frenetic dance to\nuplift the fighting\nspirit. It sharply\nraises the user’s\nAttack stat.
-The foe is cut with a\nscythe or a claw.\nIt can also be used\nto cut down thin\ntrees.
+The foe is cut with a\nscythe or a claw,\nwielded like a blade.\nThis move has a high\ncritical-hit ratio.
 A gust of wind is\nwhipped up by wings\nand launched at the\nfoe to inflict damage.\n
 The foe is struck\nwith large, imposing\nwings spread wide\nto inflict damage.\n
 The foe is blown away,\nto be replaced by\nanother Pokémon\nin its party. In the\nwild, the battle ends.
@@ -63,16 +63,16 @@ A spray of bubbles is\nforcefully ejected\nat the foe.\nIt may also lower the\nt
 The foe is hit with a\nrainbow-colored beam.\nIt may also lower the\ntarget’s Attack\nstat.
 The foe is attacked\nwith a powerful beam.\nThe user must rest\non the next turn to\nregain its energy.
 The foe is jabbed\nwith a sharply\npointed beak or\nhorn.\n
-A corkscrewing\nattack with the\nsharp beak acting\nas a drill.\n
+A corkscrewing move\nwith a sharp beak\nacting as a drill.\nCritical hits will\nland more easily.
 The user grabs the\nfoe and recklessly\ndives for the ground.\nIt also hurts the\nuser slightly.
 A powerful low kick\nthat makes the foe\nfall over. It inflicts\ngreater damage on\nheavier foes.
 A retaliation move\nthat counters any\nphysical attack,\ninflicting double the\ndamage taken.
 The foe is thrown\nusing the power of\ngravity. It inflicts\ndamage equal to\nthe user’s level.
-The foe is slugged\nwith a punch thrown\nat maximum power.\nIt can also be used\nto move boulders.
+The foe is slugged\nwith a punch thrown\nat maximum power.\nThis has a 20% chance\nto raise Attack.
 A nutrient-draining\nattack. The user’s\nHP is restored by\nhalf the damage taken\nby the target.
 A nutrient-draining\nattack. The user’s\nHP is restored by\nhalf the damage taken\nby the target.
 A seed is planted on\nthe foe. It steals\nsome HP from the foe\nto heal the user on\nevery turn.
-The user’s body is\nforced to grow all at\nonce. It raises the\nSp. Atk stat.\n
+The user’s body\ngrows all at once.\nIt raises the user’s\nAttack and Sp. Atk\nstats.
 Sharp-edged leaves\nare launched to slash\nat the foe. It has a\nhigh critical-hit\nratio.
 A two-turn attack.\nThe user gathers\nlight, then blasts a\nbundled beam on the\nsecond turn.
 A cloud of poisonous\ndust is scattered on\nthe foe.\nIt may poison the\ntarget.
@@ -94,18 +94,18 @@ A move that leaves\nthe target badly\npoisoned.\nIts poison damage\nworsens ever
 The foe is hit by a\nweak telekinetic\nforce. It may also\nleave the foe\nconfused.
 The foe is hit by a\nstrong telekinetic\nforce. It may also\nreduce the foe’s\nSp. Def stat.
 The user employs\nhypnotic suggestion\nto make the target\nfall into a deep\nsleep.
-The user meditates\nto awaken the power\ndeep within its body\nand raise its Attack\nstat.
+The user meditates\nto awaken the power\ndeep within its body.\nIt raises the user’s\nAttack and accuracy.
 The user relaxes and\nlightens its body to\nmove faster.\nIt sharply boosts\nthe Speed stat.
 The user lunges at\nthe foe at a speed\nthat makes it almost\ninvisible. It is sure\nto strike first.
 While this move is in\nuse, it gains attack\npower each time the\nuser is hit in battle.\n
-Use it to flee from\nany wild Pokémon.\nIt can also warp to\nthe last Pokémon\nCenter visited.
+The user switches\nplaces with a party\nPokémon in waiting.\nIn the wild, the\nbattle ends instead.
 The user makes the\nfoe see a mirage.\nIt inflicts damage\nmatching the user’s\nlevel.
 The user copies the\nmove last used by\nthe foe. The move can\nbe used for the rest\nof the battle.
 An earsplitting\nscreech is emitted to\nsharply reduce the\nfoe’s Defense stat.\n
 By moving rapidly, the\nuser makes illusory\ncopies of itself to\nraise its evasiveness.\n
 A self-healing move.\nThe user restores its\nown HP by up to half\nof its max HP.\n
 The user stiffens all\nthe muscles in its\nbody to raise its\nDefense stat.\n
-The user compresses\nits body to make\nitself look smaller.\nThe user’s evasion\nstat is boosted.
+The user compresses\nits body to make\nitself look smaller.\nThe user’s evasion\nis sharply raised.
 The user releases an\nobscuring cloud of\nsmoke or ink.\nIt reduces the foe’s\naccuracy.
 The foe is exposed\nto a sinister ray\nthat triggers\nconfusion.\n
 The user withdraws\nits body into its hard\nshell, raising its\nDefense stat.\n
@@ -227,7 +227,7 @@ The user exhales\na mighty gust that\ninflicts damage.\nIt may also paralyze\nth
 The user switches\nplaces with a party\nPokémon in waiting,\npassing along any\nstat changes.
 The user compels the\nfoe to keep using\nonly the move it last\nused for three to\nseven turns.
 An attack move that\ninflicts double damage\nif used on a foe that\nis switching out of\nbattle.
-A spin attack that\ncan also eliminate\nsuch moves as Bind,\nWrap, Leech Seed,\nand Spikes.
+A spin attack that\nraises the user’s\nSpeed, and eliminates\nthe effects of\ncertain moves.
 A sweet scent that\nlowers the foe’s\nevasiveness. It also\nlures wild Pokémon\nif used in grass, etc.
 The foe is slammed\nwith a steel-hard\ntail. It may also\nlower the target’s\nDefense stat.
 The foe is raked\nwith steel claws.\nIt may also raise the\nuser’s Attack stat.\n
@@ -235,7 +235,7 @@ The user allows the\nfoe to attack first.\nIn return, this throw\nmove is guaran
 The user restores its\nown HP.\nThe amount of HP\nregained varies with\nthe weather.
 The user restores its\nown HP.\nThe amount of HP\nregained varies with\nthe weather.
 The user restores its\nown HP.\nThe amount of HP\nregained varies with\nthe weather.
-A unique attack that\nvaries in type and\nintensity depending\non the Pokémon using\nit.
+A unique attack that\nvaries in type,\ndepending on the\nPokémon using it.
 The user delivers a\ndouble chop with its\nforearms crossed.\nIt has a high\ncritical-hit ratio.
 The user whips up a\nvicious tornado to\ntear at the foe.\nIt may also make the\nfoe flinch.
 The user summons a\nheavy rain that falls\nfor five turns,\npowering up Water-\ntype moves.
@@ -280,7 +280,7 @@ The user recycles a\nheld item that\nhas been used in\nbattle so it can be\nused
 An attack move that\ninflicts double the\ndamage if the user\nhas been hurt by the\nfoe in the same turn.
 The user attacks with\ntough fists, etc. It\ncan also break any\nbarrier such as Light\nScreen and Reflect.
 The user lets loose a\nhuge yawn that lulls\nthe foe into falling\nasleep on the next\nturn.
-The user slaps down\nthe foe’s held item,\npreventing the item\nfrom being used\nduring the battle.
+The user slaps down\nthe foe’s held item,\nmaking it unusable.\nThe damage is doubled\nif the foe has an item.
 An attack move that\ncuts down the foe’s\nHP to equal the\nuser’s HP.\n
 The user attacks in\nan explosive fury.\nThe lower the user’s\nHP, the less powerful\nthis attack becomes.
 The user employs its\npsychic power to\nexchange abilities\nwith the foe.\n
@@ -289,7 +289,7 @@ The user rests\nto cure itself of a\npoisoning, burn, or\nparalysis.\n
 If the user faints,\nthe user’s grudge\nfully depletes the PP\nof the foe’s move\nthat knocked it out.
 The user steals the\neffects of any\nhealing or stat-\nchanging move the foe\nattempts to use.
 The user attacks with\na secret power. Its\nadded effects vary\ndepending on the\nuser’s environment.
-A two-turn attack.\nThe user dives\nunderwater on the\nfirst turn, then hits\non the next turn.
+The user dives\nunderwater, then\nfloats up and\nattacks the foe.
 The user looses a\nflurry of open-palmed\narm thrusts that hit\ntwo to five times in a\nrow.
 The user’s type is\nchanged depending on\nits environment, such\nas at water’s edge, in\ngrass, or in a cave.
 The user stares at\nflashing lights to\nfocus its mind,\nsharply raising its\nSp. Atk stat.
@@ -300,7 +300,7 @@ The user performs a\nwobbly dance that\nconfuses all the\nPokémon in battle.\n
 The user launches a\nkick with a high\ncritical-hit ratio.\nIt may also leave the\ntarget with a burn.
 The user covers\nitself with mud. It\nweakens Electric-\ntype moves while the\nuser is in the battle.
 The user continually\nrolls into the foe\nover five turns. It\nbecomes stronger\neach time it hits.
-The user attacks by\nwildly swinging its\nthorny arms.\nIt may also make the\ntarget flinch.
+The user attacks by\nswinging thorny arms.\nEach use of the move\nscatters spikes on\nthe target’s field.
 The user slacks off,\nrestoring its own HP\nby up to half of its\nmaximum HP.\n
 The user lets loose\na horribly echoing\nshout with the\npower to inflict\ndamage.
 The user bites the\nfoe with toxic fangs.\nIt may also leave the\nfoe badly poisoned.\n
@@ -335,7 +335,7 @@ The user launches\nsharp icicles at the\nfoe. It strikes two\nto five times in a
 The user hardens\nits body’s surface\nlike iron, sharply\nraising its Defense\nstat.
 The user blocks the\nfoe’s way with arms\nspread wide to\nprevent escape.\n
 The user howls loudly\nto raise its spirit,\nboosting its Attack\nstat.\n
-The user slashes the\nfoe with huge, sharp\nclaws.\n\n
+The user slashes the\nfoe with huge, sharp\nclaws. Critical hits\nland more easily.
 The foe is slammed\nwith an enormous\ntree.\nThe user can’t move\non the next turn.
 The user tenses its\nmuscles to bulk up\nits body, boosting\nboth its Attack and\nDefense stats.
 The user bounces up\nhigh, then drops on\nthe foe on the second\nturn. It may also\nparalyze the foe.
@@ -362,7 +362,7 @@ The user tackles the\nfoe with a high-speed\nspin. The slower the\nuser, the gre
 The user faints. In\nreturn, the Pokémon\ntaking its place will\nhave its HP restored\nand status cured.
 If the foe’s HP is\ndown to about half,\nthis attack will hit\nwith double the\npower.
 The user draws power\nto attack by using\nits held Berry.\nThe Berry determines\nits type and power.
-An attack that hits a\nfoe using Protect or\nDetect. It also lifts\nthe effects of those\nmoves.
+An attack able to hit\na foe using Protect\nor Detect. It also\nlifts the effects of\nthose moves.
 The user pecks the\nfoe. If the foe is\nholding a Berry, the\nuser plucks it and\ngains its effect.
 The user whips up a\nturbulent whirlwind\nthat ups the Speed\nof all party Pokémon\nfor three turns.
 The user applies\npressure to stress\npoints, sharply\nboosting one of its\nstats.
@@ -402,11 +402,11 @@ The user slashes the\nfoe the instant an\nopportunity arises.\nIt has a high\ncr
 The user attacks by\nswinging its tail as if\nit were a vicious wave\nin a raging storm.\n
 The user slams a\nbarrage of hard-\nshelled seeds\ndown on the foe\nfrom above.
 The user attacks with\na blade of air that\nslices even the sky.\nIt may also make the\ntarget flinch.
-The user slashes at\nthe foe by crossing\nits scythes or claws\nas if they were a pair\nof scissors.
+The user slashes at\nthe foe by crossing\nits scythes or claws\nlike scissors. Critical\nhits land more easily.
 The user vibrates its\nwings to generate a\ndamaging sound wave.\nIt may also lower the\nfoe’s Sp. Def stat.
 The foe is attacked\nwith a shock wave\ngenerated by the\nuser’s gaping mouth.\n
 The user tackles the\nfoe while exhibiting\noverwhelming menace.\nIt may also make the\ntarget flinch.
-The user attacks with\na ray of light that\nsparkles as if it were\nmade of gemstones.\n
+The user attacks with\na ray of light that\nsparkles like gems.\nThis has a 10% chance\nto lower Sp. Def.
 An energy-draining\npunch. The user’s\nHP is restored by\nhalf the damage taken\nby the target.
 The user whirls its\nfists to send a wave\nof pure vacuum at\nthe foe. This move\nalways goes first.
 The user heightens\nits mental focus and\nunleashes its power.\nIt may also lower the\ntarget’s Sp. Def.
@@ -446,7 +446,7 @@ The user stabs the\nfoe with a sharpened\nstone. It has a high\ncritical-hit rat
 If it is the opposite\ngender of the user,\nthe foe is charmed\ninto sharply lowering\nits Sp. Atk stat.
 The user lays a trap\nof levitating stones\naround the foe. The\ntrap hurts foes that\nswitch into battle.
 The user snares the\nfoe with grass and\ntrips it. The heavier\nthe foe, the greater\nthe damage.
-The user attacks\nusing a sound wave\nbased on words it has\nlearned. It may also\nconfuse the foe.
+The user attacks\nusing a sound wave\nbased on words it has\nlearned. This always\nconfuses the target.
 The user releases\ncountless shots of\nlight. Its type varies\nwith the kind of Plate\nthe user is holding.
 The user bites the\nfoe. If the foe is\nholding a Berry, the\nuser eats it and\ngains its effect.
 The user fires a\nconcentrated bundle\nof electricity. It may\nalso raise the user’s\nSp. Atk stat.
@@ -537,7 +537,7 @@ The user swings its\ntough tail wildly\nand attacks the foe.\nThis also lowers t
 The user attacks with\nenough force to harm\nthe foe’s spirit.\nThis lowers the foe’s\nSp. Atk stat.
 The user fires a\nbeam, using steel\ntaken from itself.\nThis also damages\nthe user.
 Shoots scales two to\nfive times in a row.\nThis move boosts the\nuser’s Speed but\nlowers its Defense.
-The user gathers\nspace power and\nattacks the target.\nHas a 20% chance to\nraise user’s Sp. Atk.
+The user gathers\nspace power and\nattacks the target.\nThis has a 20% chance\nto raise Sp. Atk.
 The user skitters\nbehind the foe\nto attack.\nThis also lowers the\nfoe’s Sp. Atk stat.
 After making its\nattack, the user\nrushes back to switch\nplaces with a party\nPokémon in waiting.
 A consecutive three-\nkick attack that\nbecomes more\npowerful with each\nsuccessive hit.

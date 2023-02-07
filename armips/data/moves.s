@@ -2727,12 +2727,13 @@ movedata MOVE_CONVERSION_2
     contesttype CONTEST_BEAUTY
     terminatedata
 
+// ACCURACY: 95 >> 100
 movedata MOVE_AEROBLAST
     battleeffect 43
     pss SPLIT_SPECIAL
     basepower 100
     type TYPE_FLYING
-    accuracy 95
+    accuracy 100
     pp 5
     effectchance 0
     target MOVE_TARGET_SELECTED
@@ -3393,12 +3394,13 @@ movedata MOVE_PAIN_SPLIT
     contesttype CONTEST_SMART
     terminatedata
 
+// ACCURACY: 95 >> 100
 movedata MOVE_SACRED_FIRE
     battleeffect 125
     pss SPLIT_PHYSICAL
     basepower 100
     type TYPE_FIRE
-    accuracy 95
+    accuracy MOVE_CHANGES_IMPLEMENTED ? 100 : 95
     pp 5
     effectchance 50
     target MOVE_TARGET_SELECTED
@@ -7851,12 +7853,13 @@ movedata MOVE_DRAINING_KISS
     contesttype 0
     terminatedata
 
+// ACCURACY: 90 >> 100
 movedata MOVE_PLAY_ROUGH
     battleeffect 68
     pss SPLIT_PHYSICAL
     basepower 90
     type TYPE_FAIRY
-    accuracy 90
+    accuracy MOVE_CHANGES_IMPLEMENTED ? 100 : 90
     pp 10
     effectchance 10
     target MOVE_TARGET_SELECTED 
@@ -8016,12 +8019,13 @@ movedata MOVE_FIRST_IMPRESSION
     contesttype 0
     terminatedata
 
+// ACCURACY: 95 >> 100
 movedata MOVE_HIGH_HORSEPOWER
     battleeffect 0
     pss SPLIT_PHYSICAL
     basepower 95
     type TYPE_GROUND
-    accuracy 95
+    accuracy MOVE_CHANGES_IMPLEMENTED ? 100 : 95
     pp 10
     effectchance 0
     target MOVE_TARGET_SELECTED

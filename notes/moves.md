@@ -59,10 +59,12 @@ Constrict|**30** (10)|-|-|-|-|-
 Barrage|**20** (15)|**100%** (85%)|-|-|-|-
 Fury Swipes|**20** (18)|**100%** (80%)|-|-|-|-
 Triple Kick|**15** (10)|-|-|-|Now increases by 15 BP each hit (instead of 10 BP).|-
+Aeroblast|-|**100%** (95%)|-|-|-|-
 Mud-Slap|**30** (20)|-|-|-|-|-
 Octazooka|**75** (65)|-|-|-|-|-
 Steel Wing|**80** (70)|**100%** (90%)|-|**20** PP (25 PP)|-|-
 Present|-|**100%** (90%)|-|-|-|-
+Sacred Fire|-|**100%** (95%)|-|-|-|-
 Encore|-|**80%** (100%)|-|-|-|-|This move is nerfed to add some risk, as it's incredibly good against the AI.
 Iron Tail|-|**85%** (75%)|-|-|-|**20%** (30%)
 Metal Claw|-|**100%** (95%)|-|-|-|-
@@ -114,6 +116,8 @@ Dual Chop|-|**100%** (90%)|-|-|-|-
 Razor Shell|-|**100%** (95%)|-|-|-|-
 Tail Slap|-|**100%** (85%)|-|-|-|-
 Draining Kiss|**65** (50)|-|-|-|Now recovers 50% of damage dealt (instead of 75%).|-|-
+Play Rough|-|**100%** (90%)|-|-|-|-
+High Horsepower|-|**100%** (95%)|-|-|-|-
 Pollen Puff|-|-|-|-|Now has a chance to drop the foe's Speed stat.|**30%** (N/A)|Changed due to technical limitations.
 Scale Shot|-|-|-|-|The stat changes happen after the first hit instead of after the last.|-|Changed due to technical limitations, but it's effectively the same as normal.
 Meteor Beam|**110** (120)|**80%** (90%)|-|-|Now a one-turn move with a chance to raise Sp. Atk.|**20%** (N/A)|Changed for fun!

@@ -14,7 +14,7 @@ Heat Up|Cyndaquil, Quilava, Typhlosion|This Pokémon's Sp. Atk is raised by one 
 Huge Impact|Wailord|Moves whose power depends on the weight difference between user and foe are always 120 BP.|Based on Wailord being able to "knock out opponents with the shock of crashing its big body into the water". Works with Heavy Slam and the new Splash Crash move.
 Ice Needles|Glaceon|A foe using a contact move on this Pokémon will take damage equal to 1/8 of their max HP.|A clone of Rough Skin. Inspired by Glaceon's Pokédex entries mentioning it can freeze its fur into needles as a defense mechanism.
 Infernal Body|Slugma, Magcargo|A foe using a contact move on this Pokémon will be burned.|A guaranteed-to-work clone of Flame Body, due to their incredibly hot bodies.
-Royal Order|Vespiquen|This Pokémon takes x0.5 reduced damage when at full HP.|A clone of Multiscale. Based on an idea of the Combee soldiers defending it from the initial hit.
+Royal Order|Vespiquen|This Pokémon takes half as much damage when at full HP.|A clone of Multiscale. Based on an idea of the Combee soldiers defending it from the initial hit.
 Totter Steps|Spinda|Moves used against the Pokémon have an accuracy modifier of x0.8.|Based on Spinda's Pokédex entries saying it evades moves with its stumbling movements.
 Toxic Scales|Venomoth, Dustox|A foe using a contact move on this Pokémon has a 30% chance to become badly poisoned.|Based on both moths scattering highly toxic dust.
 Wind Whipper|Shiftry|Wind-based moves have their power boosted by x1.33.|Based on Shiftry's Pokédex entries claiming it can whip up gusts.

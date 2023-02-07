@@ -10,6 +10,7 @@
 .create "build/move/battle_eff_seq/0_312", 0
 
 // Needle Arm
+// Sets Spikes after damage
 
 a030_312:
     tryspikes _Damage

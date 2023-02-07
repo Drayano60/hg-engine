@@ -10,10 +10,6 @@
 // MOVE_CHANGES_IMPLEMENTED flag is used for most changes
 // This does not apply to battle effect changes or effect chances
 
-// TODO:
-// Remember to update descriptions for effect changes! Also Egg Bomb? Also Me First?
-// Update descriptions for recoil moves to give exact numbers
-
 movedata MOVE_NONE
     battleeffect 0
     pss SPLIT_PHYSICAL
@@ -943,9 +939,6 @@ movedata MOVE_BLIZZARD
     appeal 0x11
     contesttype CONTEST_BEAUTY
     terminatedata
-
-// -- MOVE EFFECTS UP TO HERE --
-// effectchance [^0]
 
 movedata MOVE_PSYBEAM
     battleeffect 76

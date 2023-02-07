@@ -119,7 +119,7 @@ The user endures\nattacks for two\nturns, then strikes\nback to cause double\nth
 The user waggles a\nfinger and stimulates\nthe brain into\nrandomly using nearly\nany move.
 The user counters\nthe foe by mimicking\nthe move last used\nby the foe.
 The user blows up to\ninflict damage on all\nPokémon in battle.\nThe user faints upon\nusing this move.
-A large egg is hurled\nwith maximum force at\nthe foe to inflict\ndamage.\n
+A large egg is hurled\nat the foe, which\nthen explodes to\ninflict damage.
 The foe is licked with\na long tongue, which\ncauses damage.\nThis has a 30% chance\nto paralyze the foe.
 The foe is attacked\nwith a discharge of\nfilthy gases.\nThis has a 40% chance\nto poison the foe.
 Unsanitary sludge is\nhurled at the foe.\nThis has a 30% chance\nto poison the foe.

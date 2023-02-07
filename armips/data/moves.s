@@ -5857,7 +5857,6 @@ movedata MOVE_LUCKY_CHANT
     contesttype CONTEST_CUTE
     terminatedata
 
-// PRIORITY: 0 >> 1
 movedata MOVE_ME_FIRST
     battleeffect 241
     pss SPLIT_STATUS
@@ -5867,7 +5866,7 @@ movedata MOVE_ME_FIRST
     pp 20
     effectchance 0
     target MOVE_TARGET_ME_FIRST
-    priority MOVE_CHANGES_IMPLEMENTED ? 1 : 0
+    priority 0
     flags FLAG_PROTECT
     appeal 0x01
     contesttype CONTEST_CUTE

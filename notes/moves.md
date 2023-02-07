@@ -90,7 +90,6 @@ Bounce|-|**95%** (85%)|-|-|-|-
 Poison Tail|**70** (50)|-|-|**20 PP** (25 PP)|-|**30%** (10%)
 Covet|-|-|**Fairy** (Normal)|-|-|-
 Gyro Ball|-|-|-|**10 PP** (5 PP)|-|-
-Me First|-|-|-|-|Now also has +1 priority.|-
 X-Scissor|-|-|-|-|Now has a high critical ratio.|-|This effect is inherited from Legends: Arceus.
 Dragon Rush|-|**85%** (75%)|-|-|-|-
 Power Gem|-|-|-|-|Now has a chance to drop the foe's Sp. Def.|**10%** (N/A)

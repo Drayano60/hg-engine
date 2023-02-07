@@ -12,6 +12,7 @@
 
 // TODO:
 // Remember to update descriptions for effect changes! Also Egg Bomb? Also Me First?
+// Update descriptions for recoil moves to give exact numbers
 
 movedata MOVE_NONE
     battleeffect 0
@@ -3551,6 +3552,7 @@ movedata MOVE_SWEET_SCENT
     terminatedata
 
 // ACCURACY: 75 >> 85
+// EFFECT CHANCE: 30 >> 20
 movedata MOVE_IRON_TAIL
     battleeffect 69
     pss SPLIT_PHYSICAL
@@ -6233,7 +6235,7 @@ movedata MOVE_DRAGON_PULSE
 
 // ACCURACY: 75 >> 85
 movedata MOVE_DRAGON_RUSH
-    battleeffect 31
+    battleeffect 150
     pss SPLIT_PHYSICAL
     basepower 100
     type TYPE_DRAGON

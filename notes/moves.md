@@ -64,7 +64,7 @@ Octazooka|**75** (65)|-|-|-|-|-
 Steel Wing|**80** (70)|**100%** (90%)|-|**20** PP (25 PP)|-|-
 Present|-|**100%** (90%)|-|-|-|-
 Encore|-|**80%** (100%)|-|-|-|-|This move is nerfed to add some risk, as it's incredibly good against the AI.
-Iron Tail|-|**85%** (75%)|-|-|-|-
+Iron Tail|-|**85%** (75%)|-|-|-|**20%** (30%)
 Metal Claw|-|**100%** (95%)|-|-|-|-
 Ancient Power|**65** (60)|-|-|-|-|-
 Rock Smash|**50** (40)|-|-|-|-|**100%** (50%)
@@ -140,6 +140,7 @@ Hidden Power|Now always at 60 power. (Type is still dependent on IVs).
 Knock Off|Now doubles to 130 power while the foe has an item held (unless the foe holds a Griseous Orb or has the Multitype ability). The actual 'knock off' effect still works the same as Gen 4, where the item just becomes disabled instead of deleted.
 Feint|Updated to no longer fail if enemy isn't using Protect/Detect.
 Chatter|Updated to always confuse the foe.
+Dragon Rush|Updated to have doubled damage against minimized targets.
 
 Conversion 2 and Beat Up are not able to be updated yet.
 Tail Glow is **not** updated because of both technical restrictions and as a balancing act due to greater distribution.

@@ -34,9 +34,9 @@ The foe is stabbed\nwith a horn rotating\nlike a drill.\nThe foe instantly\nfain
 A physical attack\nin which the user\ncharges and slams\ninto the foe with\nits whole body.
 The user drops onto\nthe foe with its full\nbody weight.\nThis has a 30% chance\nto paralyze the foe.
 A long body or vines\nare used to wrap and\nsqueeze the foe for\ntwo to five turns.\n
-A reckless, full-body\ncharge attack for\nslamming into the foe.\nIt also damages the\nuser a little.
+A reckless, full-body\ncharge attack for\nslamming into the foe.\nThe user is hurt by\n25% of damage dealt.
 The user rampages\nand attacks for two\nto three turns.\nIt then becomes\nconfused, however.
-A reckless, life-\nrisking tackle.\nIt also damages the\nuser by a fairly large\namount, however.
+The user rushes the\nfoe in a reckless,\nlife-risking tackle.\nThe user is hurt by\n33% of damage dealt.
 The user wags its tail\ncutely, making the\nfoe less wary.\nThe target’s Defense\nstat is lowered.
 The foe is stabbed\nwith a poisonous\nbarb of some sort.\nThis has a 30% chance\nto poison the foe.
 The foe is stabbed\ntwice by a pair of\nstingers. Each hit\nhas a 20% chance\nto poison the foe.
@@ -64,7 +64,7 @@ The foe is hit with a\nrainbow-colored beam.\nThis has a 10% chance\nto lower At
 The foe is attacked\nwith a powerful beam.\nThe user must rest\non the next turn to\nregain its energy.
 The foe is jabbed\nwith a sharply\npointed beak or\nhorn.\n
 A corkscrewing move\nwith a sharp beak\nacting as a drill.\nCritical hits will\nland more easily.
-The user grabs the\nfoe and recklessly\ndives for the ground.\nIt also hurts the\nuser slightly.
+The user grabs the\nfoe and recklessly\ndives for the ground.\nThe user is hurt by\n25% of damage dealt.
 A powerful low kick\nthat makes the foe\nfall over. It inflicts\ngreater damage on\nheavier foes.
 A retaliation move\nthat counters any\nphysical attack,\ninflicting double the\ndamage taken.
 The foe is thrown\nusing the power of\ngravity. It inflicts\ndamage equal to\nthe user’s level.
@@ -411,7 +411,7 @@ An energy-draining\npunch. The user’s\nHP is restored by\nhalf the damage take
 The user whirls its\nfists to send a wave\nof pure vacuum at\nthe foe. This move\nalways goes first.
 The user heightens\nits mental focus and\nunleashes its power.\nThis has a 10% chance\nto lower Sp. Def.
 The user draws power\nfrom nature and\nfires it at the foe.\nThis has a 10% chance\nto lower Sp. Def.
-The user tucks in\nits wings and charges\nfrom a low altitude.\nThe user also takes\nserious damage.
+The user tucks in\nits wings and charges\nfrom a low altitude.\nThe user is hurt by\n33% of damage dealt.
 The user makes the\nground under the foe\nerupt with power.\nThis has a 10% chance\nto lower Sp. Def.
 The user trades held\nitems with the foe\nfaster than the eye\ncan follow.\n
 The user charges at\nthe foe using every\nbit of its power.\nThe user must rest\non the next turn.
@@ -450,12 +450,12 @@ The user attacks\nusing a sound wave\nbased on words it has\nlearned. This alway
 The user releases\ncountless shots of\nlight. Its type varies\nwith the kind of Plate\nthe user is holding.
 The user bites the\nfoe. If the foe is\nholding a Berry, the\nuser eats it and\ngains its effect.
 The user fires a\nconcentrated bundle\nof electricity.\nThis has a 70% chance\nto raise Sp. Atk.
-The user slams its\nrugged body into the\nfoe to attack. The\nuser also sustains\nserious damage.
+The user slams its\nrugged body into the\nfoe to attack.\nThe user is hurt by\n33% of damage dealt.
 The user lunges at\nthe foe at a speed\nthat makes it almost\ninvisible. It is sure\nto strike first.
 The user calls out\nits underlings to\npummel the foe.\nIt has a high\ncritical-hit ratio.
 The user calls out\nits underlings to\nshield its body,\nraising its Defense\nand Sp. Def stats.
 The user calls out\nits underlings to heal\nit. The user regains\nup to half of its\nmax HP.
-The user delivers a\nlife-endangering\nattack at full power.\nThe user also takes\nterrible damage.
+The user delivers a\nlife-endangering\nattack at full power.\nThe user is hurt by\n50% of damage dealt.
 The user slams the\nfoe with a long tail,\nvines, etc. The\ntarget is hit\ntwice in a row.
 The user blasts the\nfoe with power that\ndistorts even time.\nThe user must rest\non the next turn.
 The user tears the\nfoe along with the\nspace around it.\nThis move has a high\ncritical-hit ratio.

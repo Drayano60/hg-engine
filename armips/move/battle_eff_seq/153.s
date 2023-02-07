@@ -13,12 +13,9 @@
 
 a030_153:
     gotosubscript 341
-    if IF_MASK, VAR_10, 0x40, _failed // Required to skip over things set before natural failure happens
-    if IF_MASK, VAR_BATTLE_TYPE, 0x1, _0028
-    changevar VAR_OP_SET, VAR_ADD_STATUS1, 0x20000065
-    endscript
-_0028:
-    tryswitchinmon BATTLER_ATTACKER, 0x1, _failed
+    if IF_MASK, VAR_10, 0x40, Failed // Required to skip over things set before natural failure happens
+    if IF_EQUAL, VAR_BATTLE_TYPE, 0x0, WildBattleTeleport
+    tryswitchinmon BATTLER_ATTACKER, 0x1, Failed
     gotosubscript 76
     trynaturalcure BATTLER_ATTACKER, _0038
     changemondatabyvalue VAR_OP_SET, BATTLER_ATTACKER, 0x34, 0x0
@@ -31,7 +28,11 @@ _0038:
     changevar VAR_OP_CLEARMASK, VAR_06, 0x80
     changevar VAR_OP_SET, VAR_47, 0x0
     jumptosubseq 10
-_failed:
+    endscript
+WildBattleTeleport:
+    changevar VAR_OP_SET, VAR_ADD_STATUS1, 0x20000065
+    endscript
+Failed:
     changevar VAR_OP_SETMASK, VAR_10, 0x40
     endscript
 

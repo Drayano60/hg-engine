@@ -17,6 +17,7 @@
 //.include "armips/asm/overworlds.s" // code for overworlds, specifically repointing gOWTagToFileNum and making dimorphism a byte instead of a halfword.  currently included and built every time as part of armips/data/monoverworlds.s
 
 .include "armips/asm/tm.s"
+.include "armips/asm/hiddenpower.s"
 
 .if FAIRY_TYPE_IMPLEMENTED == 1
 

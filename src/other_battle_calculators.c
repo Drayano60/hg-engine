@@ -733,6 +733,12 @@ int CalcCritical(void *bw, struct BattleStruct *sp, int attacker, int defender, 
     move_effect = sp->battlemon[defender].effect_of_moves;
     ability = sp->battlemon[attacker].ability;
 
+    // This is a hacky solution so I can use VAR_CRIT_CHANCE as a a variable for other stuff.
+    // VAR_CRIT_CHANCE gets cleared after the move ends, which works perfectly for Scale Shot.
+    if (critical_count == 16) {
+        critical_count = 0;
+    }    
+
     temp = (((condition2 & STATUS2_FLAG_FOCUS_ENERGY) != 0) * 2) + (hold_effect == HOLD_EFFECT_BOOST_CRITICAL_RATE) + critical_count + (ability == ABILITY_SUPER_LUCK)
          + (2 * ((hold_effect == HOLD_EFFECT_BOOST_CHANSEY_CRITICAL) && (species == SPECIES_CHANSEY)))
          + (2 * ((hold_effect == HOLD_EFFECT_BOOST_FARFETCHD_CRITICAL) && (species == SPECIES_FARFETCHD)));

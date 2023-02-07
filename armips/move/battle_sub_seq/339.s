@@ -15,6 +15,7 @@
 // Text could be better, it says Reflect/Light Screen wore off at the end rather than Aurora Veil
 
 a001_339:
+    checkcloudnine _Failed
     if IF_NOTMASK, VAR_FIELD_EFFECT, 0xC0, _Failed
 _Reflect:
     setreflect _LightScreen

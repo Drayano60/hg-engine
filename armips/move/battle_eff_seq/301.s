@@ -13,6 +13,8 @@
 
 a030_301:
     changevar VAR_OP_SET, VAR_ADD_STATUS2, ADD_STATUS_SCALE_SHOT | ADD_STATUS_ATTACKER
+    setmultihit 0x0, 0xFD
+    changevar VAR_OP_SET, VAR_SUCCESSIVE_HIT, 0x1
     gotosubscript 343
     endscript
 

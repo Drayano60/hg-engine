@@ -18,8 +18,6 @@ Splash Crash|Physical|Varies|100%|Water|10|This move's power depends on the weig
 
 The table below shows what parameters were changed on what moves. The numbers shown in bold are the new values, and the number in brackets are the old values. For effect chances, N/A denotes this move didn't previously have an effect chance.
 
-In addition to this, all **damaging** moves that match one of the user's types now gain a 10% boost to their accuracy. For example, a Granbull using Play Rough would have 99% accuracy instead of 90%. However, a Vileplume using Sleep Powder would still have 75% accuracy.
-
 Move|New Power|New Accuracy|New Type|New PP|New Effect|New Effect Chance|Additional Info
 ---|---|---|---|---|---|---|---
 Double Slap|**20** (15)|**100%** (85%)|-|-|-|-

@@ -10056,6 +10056,7 @@ levelup SPECIES_KRICKETUNE
     learnset MOVE_BOOMBURST, 50
     terminatelearnset
 
+// NEW: Volt Tackle
 levelup SPECIES_SHINX
     learnset MOVE_TACKLE, 1
     learnset MOVE_LEER, 1
@@ -10074,6 +10075,7 @@ levelup SPECIES_SHINX
     learnset MOVE_VOLT_TACKLE, 54
     terminatelearnset
 
+// NEW: Volt Tackle
 levelup SPECIES_LUXIO
     learnset MOVE_TACKLE, 1
     learnset MOVE_LEER, 1
@@ -10092,6 +10094,7 @@ levelup SPECIES_LUXIO
     learnset MOVE_VOLT_TACKLE, 54
     terminatelearnset
 
+// NEW: Volt Tackle
 levelup SPECIES_LUXRAY
     learnset MOVE_NIGHT_SLASH, 1
     learnset MOVE_FIRE_FANG, 1

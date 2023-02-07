@@ -36,7 +36,7 @@ Mega Kick|-|**85%** (75%)|-|-|-|-
 Rolling Kick|-|**100%** (85%)|-|-|-|-
 Fury Attack|**20** (15)|**100%** (85%)|-|-|-|-
 Wrap|**35** (15)|-|-|-|-|-
-Take Down|-|**100%** (85%)|-|-|-|-
+Take Down|**95** (90)|**100%** (85%)|-|-|-|-
 Poison Sting|**40** (15)|-|-|-|-|-
 Twineedle|**35** (25)|-|-|-|-|-
 Pin Missile|-|**100%** (95%)|-|-|-|-
@@ -109,6 +109,7 @@ Dark Void|-|**80%** (50%)|-|-|-|-
 Ominous Wind|**65** (60)|-|-|-|-|-
 Storm Throw|**45** (60)|-|-|-|-|-|Changed as critical rates still do x2 damage instead of x1.5.
 Frost Breath|**45** (60)|-|-|-|-|-|Changed as critical rates still do x2 damage instead of x1.5.
+Wild Charge|**95** (90)|-|-|-|-|-
 Drill Run|-|**100%** (95%)|-|-|-|-
 Dual Chop|-|**100%** (90%)|-|-|-|-
 Razor Shell|-|**100%** (95%)|-|-|-|-

@@ -578,11 +578,12 @@ movedata MOVE_WRAP
     contesttype CONTEST_TOUGH
     terminatedata
 
+// POWER: 90 >> 95
 // ACCURACY: 85 >> 100
 movedata MOVE_TAKE_DOWN
     battleeffect 48
     pss SPLIT_PHYSICAL
-    basepower 90
+    basepower MOVE_CHANGES_IMPLEMENTED ? 95 : 90
     type TYPE_NORMAL
     accuracy MOVE_CHANGES_IMPLEMENTED ? 100 : 85
     pp 20
@@ -7607,10 +7608,11 @@ movedata MOVE_ELECTROWEB
     contesttype 0
     terminatedata
 
+// POWER: 90 >> 95
 movedata MOVE_WILD_CHARGE
     battleeffect 48
     pss SPLIT_PHYSICAL
-    basepower 90
+    basepower MOVE_CHANGES_IMPLEMENTED ? 95 : 90
     type TYPE_ELECTRIC
     accuracy 100
     pp 15

@@ -284,8 +284,8 @@ encounter SPECIES_PELIPPER, 30, 30
 encounter SPECIES_TENTACRUEL, 30, 30
 
 // rock smash encounters
-encounter SPECIES_KRABBY, 10, 14
-encounter SPECIES_STARYU, 10, 14
+encounter SPECIES_KRABBY, 12, 12
+encounter SPECIES_STARYU, 12, 12
 
 // old rod encounters
 encounter SPECIES_KRABBY, 10, 10
@@ -640,7 +640,7 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8
+walklevels 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9
 
 // morning encounter slots
 pokemon SPECIES_RATTATA
@@ -848,7 +848,7 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9
+walklevels 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10
 
 // morning encounter slots
 pokemon SPECIES_BELLSPROUT
@@ -952,7 +952,7 @@ rocksmashrate 20
 oldrodrate FISHING_RATE
 goodrodrate FISHING_RATE
 superrodrate FISHING_RATE
-walklevels 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9
+walklevels 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10
 
 // morning encounter slots
 pokemon SPECIES_NATU
@@ -1012,8 +1012,8 @@ encounter SPECIES_QUAGSIRE, 30, 30
 encounter SPECIES_QUAGSIRE, 30, 30
 
 // rock smash encounters
-encounter SPECIES_GEODUDE, 10, 14
-encounter SPECIES_NOSEPASS, 10, 14
+encounter SPECIES_GEODUDE, 12, 12
+encounter SPECIES_NOSEPASS, 12, 12
 
 // old rod encounters
 encounter SPECIES_MAGIKARP, 10, 10
@@ -1532,8 +1532,8 @@ encounter SPECIES_GOLBAT, 30, 30
 encounter SPECIES_QUAGSIRE, 30, 30
 
 // rock smash encounters
-encounter SPECIES_GEODUDE, 10, 15
-encounter SPECIES_DIGLETT, 10, 15
+encounter SPECIES_GEODUDE, 12, 12
+encounter SPECIES_DIGLETT, 12, 12
 
 // old rod encounters
 encounter SPECIES_MAGIKARP, 12, 12
@@ -1576,7 +1576,7 @@ rocksmashrate 0
 oldrodrate FISHING_RATE
 goodrodrate FISHING_RATE
 superrodrate FISHING_RATE
-walklevels 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11, 11
+walklevels 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12
 
 // morning encounter slots
 pokemon SPECIES_HOPPIP
@@ -1740,8 +1740,8 @@ encounter SPECIES_QUAGSIRE, 30, 30
 encounter SPECIES_TENTACRUEL, 30, 30
 
 // rock smash encounters
-encounter SPECIES_GRAVELER, 26, 30
-encounter SPECIES_DUGTRIO, 26, 30
+encounter SPECIES_GRAVELER, 28, 28
+encounter SPECIES_DUGTRIO, 28, 28
 
 // old rod encounters
 encounter SPECIES_CHINCHOU, 25, 25
@@ -3032,7 +3032,7 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9
+walklevels 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10
 
 // morning encounter slots
 pokemon SPECIES_NIDORAN_M
@@ -4340,8 +4340,8 @@ encounter SPECIES_PELIPPER, 30, 30
 encounter SPECIES_TENTACRUEL, 30, 30
 
 // rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_KRABBY, 28, 28
+encounter SPECIES_SHUCKLE, 28, 28
 
 // old rod encounters
 encounter SPECIES_STARYU, 28, 28
@@ -7252,8 +7252,8 @@ encounter SPECIES_GOLBAT, 30, 30
 encounter SPECIES_GOLBAT, 30, 30
 
 // rock smash encounters
-encounter SPECIES_SLUGMA, 10, 14
-encounter SPECIES_DUNSPARCE, 10, 14
+encounter SPECIES_SLUGMA, 12, 12
+encounter SPECIES_DUNSPARCE, 12, 12
 
 // old rod encounters
 encounter SPECIES_MAGIKARP, 10, 10
@@ -7356,8 +7356,8 @@ encounter SPECIES_GOLBAT, 44, 44
 encounter SPECIES_GOLBAT, 44, 44
 
 // rock smash encounters
-encounter SPECIES_DUNSPARCE, 40, 45
-encounter SPECIES_MAGCARGO, 40, 45
+encounter SPECIES_DUNSPARCE, 44, 44
+encounter SPECIES_MAGCARGO, 44, 44
 
 // old rod encounters
 encounter SPECIES_MAGIKARP, 40, 40
@@ -8708,8 +8708,8 @@ encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // rock smash encounters
-encounter SPECIES_KRABBY, 25, 30
-encounter SPECIES_KINGLER, 30, 35
+encounter SPECIES_KRABBY, 30, 30
+encounter SPECIES_KINGLER, 32, 32
 
 // old rod encounters
 encounter SPECIES_NONE, 0, 0
@@ -11516,8 +11516,8 @@ encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // rock smash encounters
-encounter SPECIES_GRAVELER, 50, 50
-encounter SPECIES_STEELIX, 50, 50
+encounter SPECIES_GRAVELER, 52, 52
+encounter SPECIES_STEELIX, 52, 52
 
 // old rod encounters
 encounter SPECIES_NONE, 0, 0

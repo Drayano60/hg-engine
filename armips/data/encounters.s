@@ -86,11 +86,11 @@ encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_TENTACOOL, 10, 10
-encounter SPECIES_CHINCHOU, 10, 10
-encounter SPECIES_SHELLDER, 10, 10
-encounter SPECIES_SHELLDER, 10, 10
-encounter SPECIES_CHINCHOU, 10, 10
+encounter SPECIES_TENTACOOL, 8, 10
+encounter SPECIES_CHINCHOU, 8, 10
+encounter SPECIES_SHELLDER, 8, 10
+encounter SPECIES_SHELLDER, 8, 10
+encounter SPECIES_CHINCHOU, 8, 10
 
 // good rod encounters
 encounter SPECIES_MAGIKARP, 1, 1
@@ -126,7 +126,7 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4
+walklevels 3, 4, 3, 4, 3, 4, 3, 4, 3, 4, 3, 4
 
 // morning encounter slots
 pokemon SPECIES_PIDGEY
@@ -230,7 +230,7 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5
+walklevels 4, 5, 4, 5, 4, 5, 4, 5, 4, 5, 4, 5
 
 // morning encounter slots
 pokemon SPECIES_SPEAROW
@@ -394,15 +394,15 @@ encounter SPECIES_PELIPPER, 30, 30
 encounter SPECIES_TENTACRUEL, 30, 30
 
 // rock smash encounters
-encounter SPECIES_KRABBY, 12, 12
-encounter SPECIES_STARYU, 12, 12
+encounter SPECIES_KRABBY, 10, 12
+encounter SPECIES_STARYU, 10, 12
 
 // old rod encounters
-encounter SPECIES_KRABBY, 10, 10
-encounter SPECIES_REMORAID, 10, 10
-encounter SPECIES_REMORAID, 10, 10
-encounter SPECIES_CARVANHA, 10, 10
-encounter SPECIES_CARVANHA, 10, 10
+encounter SPECIES_KRABBY, 8, 10
+encounter SPECIES_REMORAID, 8, 10
+encounter SPECIES_REMORAID, 8, 10
+encounter SPECIES_CARVANHA, 8, 10
+encounter SPECIES_CARVANHA, 8, 10
 
 // good rod encounters
 encounter SPECIES_MAGIKARP, 1, 1
@@ -438,7 +438,7 @@ rocksmashrate 0
 oldrodrate FISHING_RATE
 goodrodrate FISHING_RATE
 superrodrate FISHING_RATE
-walklevels 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5
+walklevels 5, 6, 5, 6, 5, 6, 5, 6, 5, 6, 5, 6
 
 // morning encounter slots
 pokemon SPECIES_LEDYBA
@@ -502,11 +502,11 @@ encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_POLIWAG, 10, 10
-encounter SPECIES_POLIWAG, 10, 10
-encounter SPECIES_CORPHISH, 10, 10
-encounter SPECIES_CORPHISH, 10, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_POLIWAG, 8, 10
+encounter SPECIES_POLIWAG, 8, 10
+encounter SPECIES_CORPHISH, 8, 10
+encounter SPECIES_CORPHISH, 8, 10
 
 // good rod encounters
 encounter SPECIES_MAGIKARP, 1, 1
@@ -542,7 +542,7 @@ rocksmashrate 0
 oldrodrate FISHING_RATE
 goodrodrate FISHING_RATE
 superrodrate FISHING_RATE
-walklevels 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6
+walklevels 7, 8, 7, 7, 7, 8, 7, 7, 7, 8, 7, 8
 
 // morning encounter slots
 pokemon SPECIES_BELLSPROUT
@@ -606,11 +606,11 @@ encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_POLIWAG, 10, 10
-encounter SPECIES_POLIWAG, 10, 10
-encounter SPECIES_CORPHISH, 10, 10
-encounter SPECIES_CORPHISH, 10, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_POLIWAG, 8, 10
+encounter SPECIES_POLIWAG, 8, 10
+encounter SPECIES_CORPHISH, 8, 10
+encounter SPECIES_CORPHISH, 8, 10
 
 // good rod encounters
 encounter SPECIES_MAGIKARP, 1, 1
@@ -646,7 +646,7 @@ rocksmashrate 50
 oldrodrate FISHING_RATE
 goodrodrate FISHING_RATE
 superrodrate FISHING_RATE
-walklevels 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8
+walklevels 8, 9, 8, 9, 8, 9, 8, 9, 8, 9, 8, 9
 
 // morning encounter slots
 pokemon SPECIES_ZUBAT
@@ -706,15 +706,15 @@ encounter SPECIES_GOLBAT, 30, 30
 encounter SPECIES_GOLBAT, 30, 30
 
 // rock smash encounters
-encounter SPECIES_SLUGMA, 12, 12
-encounter SPECIES_DUNSPARCE, 12, 12
+encounter SPECIES_SLUGMA, 10, 12
+encounter SPECIES_DUNSPARCE, 10, 12
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
-encounter SPECIES_GOLDEEN, 10, 10
-encounter SPECIES_BARBOACH, 10, 10
-encounter SPECIES_BARBOACH, 10, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_GOLDEEN, 8, 10
+encounter SPECIES_GOLDEEN, 8, 10
+encounter SPECIES_BARBOACH, 8, 10
+encounter SPECIES_BARBOACH, 8, 10
 
 // good rod encounters
 encounter SPECIES_MAGIKARP, 1, 1
@@ -814,11 +814,11 @@ encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_MAGIKARP, 10, 10
-encounter SPECIES_BARBOACH, 10, 10
-encounter SPECIES_BARBOACH, 10, 10
-encounter SPECIES_FEEBAS, 10, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_MAGIKARP, 5, 10
+encounter SPECIES_BARBOACH, 8, 10
+encounter SPECIES_BARBOACH, 8, 10
+encounter SPECIES_FEEBAS, 5, 10
 
 // good rod encounters
 encounter SPECIES_MAGIKARP, 1, 1
@@ -854,7 +854,7 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9
+walklevels 9, 10, 9, 10, 9, 10, 9, 9, 9, 10, 9, 10
 
 // morning encounter slots
 pokemon SPECIES_RATTATA
@@ -863,12 +863,12 @@ pokemon SPECIES_SPINARAK
 pokemon SPECIES_SPINARAK
 pokemon SPECIES_GASTLY
 pokemon SPECIES_GASTLY
+pokemon SPECIES_CHINGLING
+pokemon SPECIES_MEDITITE
+pokemon SPECIES_SHUPPET
 pokemon SPECIES_SHUPPET
 pokemon SPECIES_DUSKULL
-pokemon SPECIES_MEDITITE
-pokemon SPECIES_MEDITITE
-pokemon SPECIES_CHINGLING
-pokemon SPECIES_CHINGLING
+pokemon SPECIES_DUSKULL
 
 // day encounter slots
 pokemon SPECIES_RATTATA
@@ -877,12 +877,12 @@ pokemon SPECIES_SPINARAK
 pokemon SPECIES_SPINARAK
 pokemon SPECIES_GASTLY
 pokemon SPECIES_GASTLY
+pokemon SPECIES_CHINGLING
+pokemon SPECIES_MEDITITE
+pokemon SPECIES_SHUPPET
 pokemon SPECIES_SHUPPET
 pokemon SPECIES_DUSKULL
-pokemon SPECIES_MEDITITE
-pokemon SPECIES_MEDITITE
-pokemon SPECIES_CHINGLING
-pokemon SPECIES_CHINGLING
+pokemon SPECIES_DUSKULL
 
 // night encounter slots
 pokemon SPECIES_RATTATA
@@ -891,12 +891,12 @@ pokemon SPECIES_SPINARAK
 pokemon SPECIES_SPINARAK
 pokemon SPECIES_GASTLY
 pokemon SPECIES_GASTLY
+pokemon SPECIES_CHINGLING
+pokemon SPECIES_MEDITITE
+pokemon SPECIES_SHUPPET
 pokemon SPECIES_SHUPPET
 pokemon SPECIES_DUSKULL
-pokemon SPECIES_MEDITITE
-pokemon SPECIES_MEDITITE
-pokemon SPECIES_CHINGLING
-pokemon SPECIES_CHINGLING
+pokemon SPECIES_DUSKULL
 
 // hoenn encounter slots
 pokemon SPECIES_MEDITITE
@@ -958,7 +958,7 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10
+walklevels 9, 10, 9, 10, 9, 10, 9, 10, 9, 9, 10, 10
 
 // morning encounter slots
 pokemon SPECIES_NIDORAN_M

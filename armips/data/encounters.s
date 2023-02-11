@@ -171,12 +171,12 @@ pokemon SPECIES_ZIGZAGOON
 pokemon SPECIES_ZIGZAGOON
 
 // hoenn encounter slots
-pokemon SPECIES_HAPPINY
-pokemon SPECIES_HAPPINY
+pokemon SPECIES_CHIKORITA
+pokemon SPECIES_CHIKORITA
 
 // sinnoh encounter slots
-pokemon SPECIES_SNUBBULL
-pokemon SPECIES_SNUBBULL
+pokemon SPECIES_CHIKORITA
+pokemon SPECIES_CHIKORITA
 
 // surf encounters
 encounter SPECIES_NONE, 0, 0
@@ -275,12 +275,12 @@ pokemon SPECIES_CLEFFA
 pokemon SPECIES_CLEFFA
 
 // hoenn encounter slots
-pokemon SPECIES_HAPPINY
-pokemon SPECIES_HAPPINY
+pokemon SPECIES_CYNDAQUIL
+pokemon SPECIES_CYNDAQUIL
 
 // sinnoh encounter slots
-pokemon SPECIES_HAPPINY
-pokemon SPECIES_HAPPINY
+pokemon SPECIES_CYNDAQUIL
+pokemon SPECIES_CYNDAQUIL
 
 // surf encounters
 encounter SPECIES_NONE, 0, 0
@@ -1627,12 +1627,12 @@ pokemon SPECIES_RHYHORN
 pokemon SPECIES_ONIX
 
 // hoenn encounter slots
-pokemon SPECIES_HAPPINY
-pokemon SPECIES_HAPPINY
+pokemon SPECIES_TOTODILE
+pokemon SPECIES_TOTODILE
 
 // sinnoh encounter slots
-pokemon SPECIES_HAPPINY
-pokemon SPECIES_HAPPINY
+pokemon SPECIES_TOTODILE
+pokemon SPECIES_TOTODILE
 
 // surf encounters
 encounter SPECIES_ZUBAT, 25, 25

@@ -171,8 +171,8 @@ pokemon SPECIES_ZIGZAGOON
 pokemon SPECIES_ZIGZAGOON
 
 // hoenn encounter slots
-pokemon SPECIES_ZIGZAGOON
-pokemon SPECIES_ZIGZAGOON
+pokemon SPECIES_HAPPINY
+pokemon SPECIES_HAPPINY
 
 // sinnoh encounter slots
 pokemon SPECIES_SNUBBULL
@@ -275,12 +275,12 @@ pokemon SPECIES_CLEFFA
 pokemon SPECIES_CLEFFA
 
 // hoenn encounter slots
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_GEODUDE
+pokemon SPECIES_HAPPINY
+pokemon SPECIES_HAPPINY
 
 // sinnoh encounter slots
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_GEODUDE
+pokemon SPECIES_HAPPINY
+pokemon SPECIES_HAPPINY
 
 // surf encounters
 encounter SPECIES_NONE, 0, 0
@@ -483,12 +483,12 @@ pokemon SPECIES_KRICKETOT
 pokemon SPECIES_KRICKETOT
 
 // hoenn encounter slots
-pokemon SPECIES_LOTAD
-pokemon SPECIES_SURSKIT
+pokemon SPECIES_HAPPINY
+pokemon SPECIES_HAPPINY
 
 // sinnoh encounter slots
-pokemon SPECIES_KRICKETOT
-pokemon SPECIES_KRICKETOT
+pokemon SPECIES_HAPPINY
+pokemon SPECIES_HAPPINY
 
 // surf encounters
 encounter SPECIES_POLIWAG, 25, 25
@@ -587,12 +587,12 @@ pokemon SPECIES_SHINX
 pokemon SPECIES_SHINX
 
 // hoenn encounter slots
-pokemon SPECIES_AZURILL
-pokemon SPECIES_AZURILL
+pokemon SPECIES_HAPPINY
+pokemon SPECIES_HAPPINY
 
 // sinnoh encounter slots
-pokemon SPECIES_BUDEW
-pokemon SPECIES_BIDOOF
+pokemon SPECIES_HAPPINY
+pokemon SPECIES_HAPPINY
 
 // surf encounters
 encounter SPECIES_POLIWAG, 25, 25
@@ -691,12 +691,12 @@ pokemon SPECIES_LARVITAR
 pokemon SPECIES_DUNSPARCE
 
 // hoenn encounter slots
-pokemon SPECIES_ARON
-pokemon SPECIES_ARON
+pokemon SPECIES_HAPPINY
+pokemon SPECIES_HAPPINY
 
 // sinnoh encounter slots
-pokemon SPECIES_TEDDIURSA
-pokemon SPECIES_TEDDIURSA
+pokemon SPECIES_HAPPINY
+pokemon SPECIES_HAPPINY
 
 // surf encounters
 encounter SPECIES_ZUBAT, 25, 25
@@ -899,12 +899,12 @@ pokemon SPECIES_DUSKULL
 pokemon SPECIES_DUSKULL
 
 // hoenn encounter slots
-pokemon SPECIES_MEDITITE
-pokemon SPECIES_MEDITITE
+pokemon SPECIES_HAPPINY
+pokemon SPECIES_HAPPINY
 
 // sinnoh encounter slots
-pokemon SPECIES_CHINGLING
-pokemon SPECIES_CHINGLING
+pokemon SPECIES_HAPPINY
+pokemon SPECIES_HAPPINY
 
 // surf encounters
 encounter SPECIES_NONE, 0, 0
@@ -1003,12 +1003,12 @@ pokemon SPECIES_PLUSLE
 pokemon SPECIES_MINUN
 
 // hoenn encounter slots
-pokemon SPECIES_PLUSLE
-pokemon SPECIES_MINUN
+pokemon SPECIES_HAPPINY
+pokemon SPECIES_HAPPINY
 
 // sinnoh encounter slots
-pokemon SPECIES_BONSLY
-pokemon SPECIES_BONSLY
+pokemon SPECIES_HAPPINY
+pokemon SPECIES_HAPPINY
 
 // surf encounters
 encounter SPECIES_NONE, 0, 0
@@ -1107,12 +1107,12 @@ pokemon SPECIES_MAGNEMITE
 pokemon SPECIES_MAGNEMITE
 
 // hoenn encounter slots
-pokemon SPECIES_MAREEP
-pokemon SPECIES_MAREEP
+pokemon SPECIES_HAPPINY
+pokemon SPECIES_HAPPINY
 
 // sinnoh encounter slots
-pokemon SPECIES_MAREEP
-pokemon SPECIES_MAREEP
+pokemon SPECIES_HAPPINY
+pokemon SPECIES_HAPPINY
 
 // surf encounters
 encounter SPECIES_NONE, 0, 0
@@ -1211,12 +1211,12 @@ pokemon SPECIES_SMEARGLE
 pokemon SPECIES_SMEARGLE
 
 // hoenn encounter slots
-pokemon SPECIES_RALTS
-pokemon SPECIES_BALTOY
+pokemon SPECIES_HAPPINY
+pokemon SPECIES_HAPPINY
 
 // sinnoh encounter slots
-pokemon SPECIES_MIMEJR
-pokemon SPECIES_BRONZOR
+pokemon SPECIES_HAPPINY
+pokemon SPECIES_HAPPINY
 
 // surf encounters
 encounter SPECIES_WOOPER, 25, 25
@@ -1419,12 +1419,12 @@ pokemon SPECIES_GLIGAR
 pokemon SPECIES_GLIGAR
 
 // hoenn encounter slots
-pokemon SPECIES_NUMEL
-pokemon SPECIES_SPOINK
+pokemon SPECIES_HAPPINY
+pokemon SPECIES_HAPPINY
 
 // sinnoh encounter slots
-pokemon SPECIES_GLIGAR
-pokemon SPECIES_GLIGAR
+pokemon SPECIES_HAPPINY
+pokemon SPECIES_HAPPINY
 
 // surf encounters
 encounter SPECIES_MAGIKARP, 5, 25
@@ -1523,12 +1523,12 @@ pokemon SPECIES_WINGULL
 pokemon SPECIES_PACHIRISU
 
 // hoenn encounter slots
-pokemon SPECIES_WINGULL
-pokemon SPECIES_WINGULL
+pokemon SPECIES_HAPPINY
+pokemon SPECIES_HAPPINY
 
 // sinnoh encounter slots
-pokemon SPECIES_GLAMEOW
-pokemon SPECIES_GLAMEOW
+pokemon SPECIES_HAPPINY
+pokemon SPECIES_HAPPINY
 
 // surf encounters
 encounter SPECIES_WINGULL, 25, 25
@@ -1627,12 +1627,12 @@ pokemon SPECIES_RHYHORN
 pokemon SPECIES_ONIX
 
 // hoenn encounter slots
-pokemon SPECIES_WHISMUR
-pokemon SPECIES_MAKUHITA
+pokemon SPECIES_HAPPINY
+pokemon SPECIES_HAPPINY
 
 // sinnoh encounter slots
-pokemon SPECIES_GEODUDE
-pokemon SPECIES_GEODUDE
+pokemon SPECIES_HAPPINY
+pokemon SPECIES_HAPPINY
 
 // surf encounters
 encounter SPECIES_ZUBAT, 25, 25
@@ -1731,12 +1731,12 @@ pokemon SPECIES_MARILL
 pokemon SPECIES_KRICKETUNE
 
 // hoenn encounter slots
-pokemon SPECIES_GULPIN
-pokemon SPECIES_GULPIN
+pokemon SPECIES_HAPPINY
+pokemon SPECIES_HAPPINY
 
 // sinnoh encounter slots
-pokemon SPECIES_STUNKY
-pokemon SPECIES_CROAGUNK
+pokemon SPECIES_HAPPINY
+pokemon SPECIES_HAPPINY
 
 // surf encounters
 encounter SPECIES_NONE, 0, 0
@@ -1835,12 +1835,12 @@ pokemon SPECIES_MISDREAVUS
 pokemon SPECIES_MISDREAVUS
 
 // hoenn encounter slots
-pokemon SPECIES_SLAKOTH
-pokemon SPECIES_NINCADA
+pokemon SPECIES_HAPPINY
+pokemon SPECIES_HAPPINY
 
 // sinnoh encounter slots
-pokemon SPECIES_MURKROW
-pokemon SPECIES_MISDREAVUS
+pokemon SPECIES_HAPPINY
+pokemon SPECIES_HAPPINY
 
 // surf encounters
 encounter SPECIES_PSYDUCK, 25, 25
@@ -1939,12 +1939,12 @@ monwithform SPECIES_SHELLOS, 1
 monwithform SPECIES_SHELLOS, 1
 
 // hoenn encounter slots
-pokemon SPECIES_SLOWPOKE
-pokemon SPECIES_SLOWPOKE
+pokemon SPECIES_HAPPINY
+pokemon SPECIES_HAPPINY
 
 // sinnoh encounter slots
-monwithform SPECIES_SHELLOS, 0
-monwithform SPECIES_SHELLOS, 1
+pokemon SPECIES_HAPPINY
+pokemon SPECIES_HAPPINY
 
 // surf encounters
 encounter SPECIES_ZUBAT, 25, 25
@@ -2043,12 +2043,12 @@ pokemon SPECIES_KADABRA
 pokemon SPECIES_PACHIRISU
 
 // hoenn encounter slots
-pokemon SPECIES_JIGGLYPUFF
-pokemon SPECIES_JIGGLYPUFF
+pokemon SPECIES_HAPPINY
+pokemon SPECIES_HAPPINY
 
 // sinnoh encounter slots
-pokemon SPECIES_MIMEJR
-pokemon SPECIES_MIMEJR
+pokemon SPECIES_HAPPINY
+pokemon SPECIES_HAPPINY
 
 // surf encounters
 encounter SPECIES_TENTACOOL, 25, 25
@@ -2147,12 +2147,12 @@ pokemon SPECIES_KADABRA
 pokemon SPECIES_KADABRA
 
 // hoenn encounter slots
-pokemon SPECIES_WHISMUR
-pokemon SPECIES_LINOONE
+pokemon SPECIES_HAPPINY
+pokemon SPECIES_HAPPINY
 
 // sinnoh encounter slots
-pokemon SPECIES_BUIZEL
-pokemon SPECIES_BIDOOF
+pokemon SPECIES_HAPPINY
+pokemon SPECIES_HAPPINY
 
 // surf encounters
 encounter SPECIES_PSYDUCK, 25, 25
@@ -2251,12 +2251,12 @@ pokemon SPECIES_HAPPINY
 pokemon SPECIES_ROSELIA
 
 // hoenn encounter slots
-pokemon SPECIES_SKITTY
-pokemon SPECIES_SKITTY
+pokemon SPECIES_HAPPINY
+pokemon SPECIES_HAPPINY
 
 // sinnoh encounter slots
-pokemon SPECIES_BUNEARY
-pokemon SPECIES_BUNEARY
+pokemon SPECIES_HAPPINY
+pokemon SPECIES_HAPPINY
 
 // surf encounters
 encounter SPECIES_NONE, 0, 0
@@ -2355,12 +2355,12 @@ pokemon SPECIES_PLUSLE
 pokemon SPECIES_MINUN
 
 // hoenn encounter slots
-pokemon SPECIES_PLUSLE
-pokemon SPECIES_MINUN
+pokemon SPECIES_HAPPINY
+pokemon SPECIES_HAPPINY
 
 // sinnoh encounter slots
-pokemon SPECIES_BONSLY
-pokemon SPECIES_BONSLY
+pokemon SPECIES_HAPPINY
+pokemon SPECIES_HAPPINY
 
 // surf encounters
 encounter SPECIES_NONE, 0, 0
@@ -2459,12 +2459,12 @@ pokemon SPECIES_NOCTOWL
 pokemon SPECIES_NOCTOWL
 
 // hoenn encounter slots
-pokemon SPECIES_STANTLER
-pokemon SPECIES_STANTLER
+pokemon SPECIES_CHANSEY
+pokemon SPECIES_CHANSEY
 
 // sinnoh encounter slots
-pokemon SPECIES_LUXIO
-pokemon SPECIES_LUXIO
+pokemon SPECIES_CHANSEY
+pokemon SPECIES_CHANSEY
 
 // surf encounters
 encounter SPECIES_NONE, 0, 0
@@ -2667,12 +2667,12 @@ pokemon SPECIES_MILTANK
 pokemon SPECIES_TAUROS
 
 // hoenn encounter slots
-pokemon SPECIES_ELECTRIKE
-pokemon SPECIES_ELECTRIKE
+pokemon SPECIES_CHANSEY
+pokemon SPECIES_CHANSEY
 
 // sinnoh encounter slots
-pokemon SPECIES_PONYTA
-pokemon SPECIES_PONYTA
+pokemon SPECIES_CHANSEY
+pokemon SPECIES_CHANSEY
 
 // surf encounters
 encounter SPECIES_NONE, 0, 0
@@ -2771,12 +2771,12 @@ pokemon SPECIES_ZANGOOSE
 pokemon SPECIES_ZANGOOSE
 
 // hoenn encounter slots
-pokemon SPECIES_SEVIPER
-pokemon SPECIES_ZANGOOSE
+pokemon SPECIES_CHANSEY
+pokemon SPECIES_CHANSEY
 
 // sinnoh encounter slots
-pokemon SPECIES_GLIGAR
-pokemon SPECIES_GLIGAR
+pokemon SPECIES_CHANSEY
+pokemon SPECIES_CHANSEY
 
 // surf encounters
 encounter SPECIES_GOLDEEN, 25, 25
@@ -2875,12 +2875,12 @@ pokemon SPECIES_LUNATONE
 pokemon SPECIES_KANGASKHAN
 
 // hoenn encounter slots
-pokemon SPECIES_MAKUHITA
-pokemon SPECIES_MEDITITE
+pokemon SPECIES_CHANSEY
+pokemon SPECIES_CHANSEY
 
 // sinnoh encounter slots
-pokemon SPECIES_RIOLU
-pokemon SPECIES_RIOLU
+pokemon SPECIES_CHANSEY
+pokemon SPECIES_CHANSEY
 
 // surf encounters
 encounter SPECIES_MARILL, 25, 25
@@ -2979,12 +2979,12 @@ pokemon SPECIES_DELIBIRD
 pokemon SPECIES_DELIBIRD
 
 // hoenn encounter slots
-pokemon SPECIES_SWINUB
-pokemon SPECIES_SWINUB
+pokemon SPECIES_CHANSEY
+pokemon SPECIES_CHANSEY
 
 // sinnoh encounter slots
-pokemon SPECIES_SNOVER
-pokemon SPECIES_SNOVER
+pokemon SPECIES_CHANSEY
+pokemon SPECIES_CHANSEY
 
 // surf encounters
 encounter SPECIES_SPHEAL, 25, 25
@@ -3083,12 +3083,12 @@ pokemon SPECIES_SNORUNT
 pokemon SPECIES_BELDUM
 
 // hoenn encounter slots
-pokemon SPECIES_SNORUNT
-pokemon SPECIES_SNORUNT
+pokemon SPECIES_CHANSEY
+pokemon SPECIES_CHANSEY
 
 // sinnoh encounter slots
-pokemon SPECIES_SWINUB
-pokemon SPECIES_SWINUB
+pokemon SPECIES_CHANSEY
+pokemon SPECIES_CHANSEY
 
 // surf encounters
 encounter SPECIES_NONE, 0, 0
@@ -3187,12 +3187,12 @@ pokemon SPECIES_RATICATE
 pokemon SPECIES_RATICATE
 
 // hoenn encounter slots
-pokemon SPECIES_SPINDA
-pokemon SPECIES_SPINDA
+pokemon SPECIES_CHANSEY
+pokemon SPECIES_CHANSEY
 
 // sinnoh encounter slots
-pokemon SPECIES_MAGBY
-pokemon SPECIES_MAGBY
+pokemon SPECIES_CHANSEY
+pokemon SPECIES_CHANSEY
 
 // surf encounters
 encounter SPECIES_NONE, 0, 0
@@ -3291,12 +3291,12 @@ pokemon SPECIES_ONIX
 pokemon SPECIES_ONIX
 
 // hoenn encounter slots
-pokemon SPECIES_MAWILE
-pokemon SPECIES_SABLEYE
+pokemon SPECIES_CHANSEY
+pokemon SPECIES_CHANSEY
 
 // sinnoh encounter slots
-pokemon SPECIES_RHYHORN
-pokemon SPECIES_RHYHORN
+pokemon SPECIES_CHANSEY
+pokemon SPECIES_CHANSEY
 
 // surf encounters
 encounter SPECIES_TENTACOOL, 25, 25
@@ -3395,12 +3395,12 @@ pokemon SPECIES_SLOWKING
 pokemon SPECIES_SLOWKING
 
 // hoenn encounter slots
-pokemon SPECIES_SLOWPOKE
-pokemon SPECIES_SLOWPOKE
+pokemon SPECIES_CHANSEY
+pokemon SPECIES_CHANSEY
 
 // sinnoh encounter slots
-monwithform SPECIES_SHELLOS, 0
-monwithform SPECIES_SHELLOS, 1
+pokemon SPECIES_CHANSEY
+pokemon SPECIES_CHANSEY
 
 // surf encounters
 encounter SPECIES_ZUBAT, 25, 25
@@ -3499,12 +3499,12 @@ pokemon SPECIES_MILTANK
 pokemon SPECIES_TAUROS
 
 // hoenn encounter slots
-pokemon SPECIES_MANECTRIC
-pokemon SPECIES_MANECTRIC
+pokemon SPECIES_CHANSEY
+pokemon SPECIES_CHANSEY
 
 // sinnoh encounter slots
-pokemon SPECIES_PONYTA
-pokemon SPECIES_PONYTA
+pokemon SPECIES_CHANSEY
+pokemon SPECIES_CHANSEY
 
 // surf encounters
 encounter SPECIES_NONE, 0, 0
@@ -4123,12 +4123,12 @@ pokemon SPECIES_TROPIUS
 pokemon SPECIES_TROPIUS
 
 // hoenn encounter slots
-pokemon SPECIES_TROPIUS
-pokemon SPECIES_TROPIUS
+pokemon SPECIES_CHANSEY
+pokemon SPECIES_CHANSEY
 
 // sinnoh encounter slots
-pokemon SPECIES_DITTO
-pokemon SPECIES_DITTO
+pokemon SPECIES_CHANSEY
+pokemon SPECIES_CHANSEY
 
 // surf encounters
 encounter SPECIES_SEEL, 29, 32
@@ -4227,12 +4227,12 @@ pokemon SPECIES_MISDREAVUS
 pokemon SPECIES_MISDREAVUS
 
 // hoenn encounter slots
-pokemon SPECIES_SABLEYE
-pokemon SPECIES_MAWILE
+pokemon SPECIES_CHANSEY
+pokemon SPECIES_CHANSEY
 
 // sinnoh encounter slots
-pokemon SPECIES_MISDREAVUS
-pokemon SPECIES_MISDREAVUS
+pokemon SPECIES_CHANSEY
+pokemon SPECIES_CHANSEY
 
 // surf encounters
 encounter SPECIES_NONE, 0, 0
@@ -4331,12 +4331,12 @@ pokemon SPECIES_TAUROS
 pokemon SPECIES_CHANSEY
 
 // hoenn encounter slots
-pokemon SPECIES_WEEPINBELL
-pokemon SPECIES_WEEPINBELL
+pokemon SPECIES_CHANSEY
+pokemon SPECIES_CHANSEY
 
 // sinnoh encounter slots
-pokemon SPECIES_WEEPINBELL
-pokemon SPECIES_WEEPINBELL
+pokemon SPECIES_CHANSEY
+pokemon SPECIES_CHANSEY
 
 // surf encounters
 encounter SPECIES_NONE, 0, 0
@@ -4435,12 +4435,12 @@ pokemon SPECIES_VENOMOTH
 pokemon SPECIES_VENOMOTH
 
 // hoenn encounter slots
-pokemon SPECIES_LOMBRE
-pokemon SPECIES_LOMBRE
+pokemon SPECIES_CHANSEY
+pokemon SPECIES_CHANSEY
 
 // sinnoh encounter slots
-pokemon SPECIES_GIRAFARIG
-pokemon SPECIES_GIRAFARIG
+pokemon SPECIES_CHANSEY
+pokemon SPECIES_CHANSEY
 
 // surf encounters
 encounter SPECIES_MAGIKARP, 5, 35
@@ -4643,12 +4643,12 @@ monwithform SPECIES_GASTRODON, 0
 monwithform SPECIES_GASTRODON, 1
 
 // hoenn encounter slots
-pokemon SPECIES_SEALEO
-pokemon SPECIES_SEALEO
+pokemon SPECIES_CHANSEY
+pokemon SPECIES_CHANSEY
 
 // sinnoh encounter slots
-monwithform SPECIES_GASTRODON, 0
-monwithform SPECIES_GASTRODON, 1
+pokemon SPECIES_CHANSEY
+pokemon SPECIES_CHANSEY
 
 // surf encounters
 encounter SPECIES_HORSEA, 38, 39
@@ -4747,12 +4747,12 @@ pokemon SPECIES_METANG
 pokemon SPECIES_ABSOL
 
 // hoenn encounter slots
-pokemon SPECIES_GLALIE
-pokemon SPECIES_GLALIE
+pokemon SPECIES_CHANSEY
+pokemon SPECIES_CHANSEY
 
 // sinnoh encounter slots
-pokemon SPECIES_PILOSWINE
-pokemon SPECIES_PILOSWINE
+pokemon SPECIES_CHANSEY
+pokemon SPECIES_CHANSEY
 
 // surf encounters
 encounter SPECIES_NONE, 0, 0
@@ -4956,12 +4956,12 @@ pokemon SPECIES_TORKOAL
 pokemon SPECIES_ALTARIA
 
 // hoenn encounter slots
-pokemon SPECIES_CAMERUPT
-pokemon SPECIES_GRUMPIG
+pokemon SPECIES_CHANSEY
+pokemon SPECIES_CHANSEY
 
 // sinnoh encounter slots
-pokemon SPECIES_GLIGAR
-pokemon SPECIES_GLIGAR
+pokemon SPECIES_CHANSEY
+pokemon SPECIES_CHANSEY
 
 // surf encounters
 encounter SPECIES_NONE, 0, 0
@@ -5060,12 +5060,12 @@ pokemon SPECIES_PUPITAR
 pokemon SPECIES_DUNSPARCE
 
 // hoenn encounter slots
-pokemon SPECIES_LAIRON
-pokemon SPECIES_LAIRON
+pokemon SPECIES_CHANSEY
+pokemon SPECIES_CHANSEY
 
 // sinnoh encounter slots
-pokemon SPECIES_URSARING
-pokemon SPECIES_URSARING
+pokemon SPECIES_CHANSEY
+pokemon SPECIES_CHANSEY
 
 // surf encounters
 encounter SPECIES_GOLBAT, 44, 45
@@ -5164,12 +5164,12 @@ pokemon SPECIES_DUNSPARCE
 pokemon SPECIES_DUNSPARCE
 
 // hoenn encounter slots
-pokemon SPECIES_SHELGON
-pokemon SPECIES_SHELGON
+pokemon SPECIES_CHANSEY
+pokemon SPECIES_CHANSEY
 
 // sinnoh encounter slots
-pokemon SPECIES_GABITE
-pokemon SPECIES_GABITE
+pokemon SPECIES_CHANSEY
+pokemon SPECIES_CHANSEY
 
 // surf encounters
 encounter SPECIES_MAGIKARP, 5, 45
@@ -5268,12 +5268,12 @@ pokemon SPECIES_HITMONCHAN
 pokemon SPECIES_KANGASKHAN
 
 // hoenn encounter slots
-pokemon SPECIES_HARIYAMA
-pokemon SPECIES_MEDICHAM
+pokemon SPECIES_CHANSEY
+pokemon SPECIES_CHANSEY
 
 // sinnoh encounter slots
-pokemon SPECIES_RIOLU
-pokemon SPECIES_RIOLU
+pokemon SPECIES_CHANSEY
+pokemon SPECIES_CHANSEY
 
 // surf encounters
 encounter SPECIES_GOLBAT, 48, 50
@@ -5372,12 +5372,12 @@ pokemon SPECIES_CHIMECHO
 pokemon SPECIES_CHIMECHO
 
 // hoenn encounter slots
-pokemon SPECIES_CHIMECHO
-pokemon SPECIES_CHIMECHO
+pokemon SPECIES_CHANSEY
+pokemon SPECIES_CHANSEY
 
 // sinnoh encounter slots
-pokemon SPECIES_BRONZONG
-pokemon SPECIES_BRONZONG
+pokemon SPECIES_CHANSEY
+pokemon SPECIES_CHANSEY
 
 // surf encounters
 encounter SPECIES_NONE, 0, 0
@@ -5476,12 +5476,12 @@ pokemon SPECIES_AZUMARILL
 pokemon SPECIES_AZUMARILL
 
 // hoenn encounter slots
-pokemon SPECIES_AZUMARILL
-pokemon SPECIES_AZUMARILL
+pokemon SPECIES_CHANSEY
+pokemon SPECIES_CHANSEY
 
 // sinnoh encounter slots
-pokemon SPECIES_FLOATZEL
-pokemon SPECIES_FLOATZEL
+pokemon SPECIES_CHANSEY
+pokemon SPECIES_CHANSEY
 
 // surf encounters
 encounter SPECIES_GOLBAT, 48, 50
@@ -5580,12 +5580,12 @@ pokemon SPECIES_PURUGLY
 pokemon SPECIES_PURUGLY
 
 // hoenn encounter slots
-pokemon SPECIES_KECLEON
-pokemon SPECIES_KECLEON
+pokemon SPECIES_CHANSEY
+pokemon SPECIES_CHANSEY
 
 // sinnoh encounter slots
-pokemon SPECIES_PURUGLY
-pokemon SPECIES_PURUGLY
+pokemon SPECIES_CHANSEY
+pokemon SPECIES_CHANSEY
 
 // surf encounters
 encounter SPECIES_PELIPPER, 49, 50
@@ -5684,12 +5684,12 @@ pokemon SPECIES_SKUNTANK
 pokemon SPECIES_SKUNTANK
 
 // hoenn encounter slots
-pokemon SPECIES_KECLEON
-pokemon SPECIES_KECLEON
+pokemon SPECIES_CHANSEY
+pokemon SPECIES_CHANSEY
 
 // sinnoh encounter slots
-pokemon SPECIES_SKUNTANK
-pokemon SPECIES_SKUNTANK
+pokemon SPECIES_CHANSEY
+pokemon SPECIES_CHANSEY
 
 // surf encounters
 encounter SPECIES_PELIPPER, 50, 50
@@ -5788,12 +5788,12 @@ pokemon SPECIES_STEELIX
 pokemon SPECIES_STEELIX
 
 // hoenn encounter slots
-pokemon SPECIES_LAIRON
-pokemon SPECIES_LAIRON
+pokemon SPECIES_CHANSEY
+pokemon SPECIES_CHANSEY
 
 // sinnoh encounter slots
-pokemon SPECIES_RHYDON
-pokemon SPECIES_RHYDON
+pokemon SPECIES_CHANSEY
+pokemon SPECIES_CHANSEY
 
 // surf encounters
 encounter SPECIES_NONE, 0, 0
@@ -5999,12 +5999,12 @@ pokemon SPECIES_MIGHTYENA
 pokemon SPECIES_MIGHTYENA
 
 // hoenn encounter slots
-pokemon SPECIES_LINOONE
-pokemon SPECIES_MIGHTYENA
+pokemon SPECIES_CHANSEY
+pokemon SPECIES_CHANSEY
 
 // sinnoh encounter slots
-pokemon SPECIES_RATICATE
-pokemon SPECIES_RATICATE
+pokemon SPECIES_CHANSEY
+pokemon SPECIES_CHANSEY
 
 // surf encounters
 encounter SPECIES_NONE, 0, 0
@@ -6207,12 +6207,12 @@ pokemon SPECIES_RAPIDASH
 pokemon SPECIES_RAPIDASH
 
 // hoenn encounter slots
-pokemon SPECIES_NIDORINA
-pokemon SPECIES_NIDORINA
+pokemon SPECIES_CHANSEY
+pokemon SPECIES_CHANSEY
 
 // sinnoh encounter slots
-pokemon SPECIES_NIDORINO
-pokemon SPECIES_NIDORINO
+pokemon SPECIES_CHANSEY
+pokemon SPECIES_CHANSEY
 
 // surf encounters
 encounter SPECIES_POLIWHIRL, 60, 60
@@ -6311,12 +6311,12 @@ pokemon SPECIES_DUSTOX
 pokemon SPECIES_DUSTOX
 
 // hoenn encounter slots
-pokemon SPECIES_BEAUTIFLY
-pokemon SPECIES_DUSTOX
+pokemon SPECIES_CHANSEY
+pokemon SPECIES_CHANSEY
 
 // sinnoh encounter slots
-pokemon SPECIES_BEAUTIFLY
-pokemon SPECIES_DUSTOX
+pokemon SPECIES_CHANSEY
+pokemon SPECIES_CHANSEY
 
 // surf encounters
 encounter SPECIES_NONE, 0, 0
@@ -6415,12 +6415,12 @@ pokemon SPECIES_KRICKETUNE
 pokemon SPECIES_KRICKETUNE
 
 // hoenn encounter slots
-pokemon SPECIES_BRELOOM
-pokemon SPECIES_BRELOOM
+pokemon SPECIES_CHANSEY
+pokemon SPECIES_CHANSEY
 
 // sinnoh encounter slots
-pokemon SPECIES_KRICKETUNE
-pokemon SPECIES_KRICKETUNE
+pokemon SPECIES_CHANSEY
+pokemon SPECIES_CHANSEY
 
 // surf encounters
 encounter SPECIES_NONE, 0, 0
@@ -6519,12 +6519,12 @@ pokemon SPECIES_ARBOK
 pokemon SPECIES_ARBOK
 
 // hoenn encounter slots
-pokemon SPECIES_SWALOT
-pokemon SPECIES_SWALOT
+pokemon SPECIES_CHANSEY
+pokemon SPECIES_CHANSEY
 
 // sinnoh encounter slots
-pokemon SPECIES_STARAVIA
-pokemon SPECIES_STARAVIA
+pokemon SPECIES_CHANSEY
+pokemon SPECIES_CHANSEY
 
 // surf encounters
 encounter SPECIES_NONE, 0, 0
@@ -6623,12 +6623,12 @@ pokemon SPECIES_CLEFAIRY
 pokemon SPECIES_CLEFABLE
 
 // hoenn encounter slots
-pokemon SPECIES_SOLROCK
-pokemon SPECIES_LUNATONE
+pokemon SPECIES_CHANSEY
+pokemon SPECIES_CHANSEY
 
 // sinnoh encounter slots
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_GOLBAT
+pokemon SPECIES_CHANSEY
+pokemon SPECIES_CHANSEY
 
 // surf encounters
 encounter SPECIES_NONE, 0, 0
@@ -6831,12 +6831,12 @@ pokemon SPECIES_ARBOK
 pokemon SPECIES_ARBOK
 
 // hoenn encounter slots
-pokemon SPECIES_JIGGLYPUFF
-pokemon SPECIES_JIGGLYPUFF
+pokemon SPECIES_CHANSEY
+pokemon SPECIES_CHANSEY
 
 // sinnoh encounter slots
-pokemon SPECIES_JIGGLYPUFF
-pokemon SPECIES_JIGGLYPUFF
+pokemon SPECIES_CHANSEY
+pokemon SPECIES_CHANSEY
 
 // surf encounters
 encounter SPECIES_SEAKING, 60, 60
@@ -7039,12 +7039,12 @@ pokemon SPECIES_LOMBRE
 pokemon SPECIES_LOMBRE
 
 // hoenn encounter slots
-pokemon SPECIES_LOMBRE
-pokemon SPECIES_LOMBRE
+pokemon SPECIES_CHANSEY
+pokemon SPECIES_CHANSEY
 
 // sinnoh encounter slots
-pokemon SPECIES_BIBAREL
-pokemon SPECIES_BIBAREL
+pokemon SPECIES_CHANSEY
+pokemon SPECIES_CHANSEY
 
 // surf encounters
 encounter SPECIES_SEAKING, 60, 60
@@ -7143,12 +7143,12 @@ pokemon SPECIES_LOPUNNY
 pokemon SPECIES_LOPUNNY
 
 // hoenn encounter slots
-pokemon SPECIES_LOMBRE
-pokemon SPECIES_MASQUERAIN
+pokemon SPECIES_CHANSEY
+pokemon SPECIES_CHANSEY
 
 // sinnoh encounter slots
-pokemon SPECIES_WEEPINBELL
-pokemon SPECIES_WEEPINBELL
+pokemon SPECIES_CHANSEY
+pokemon SPECIES_CHANSEY
 
 // surf encounters
 encounter SPECIES_SEAKING, 60, 60
@@ -7247,12 +7247,12 @@ pokemon SPECIES_KADABRA
 pokemon SPECIES_KADABRA
 
 // hoenn encounter slots
-pokemon SPECIES_JIGGLYPUFF
-pokemon SPECIES_JIGGLYPUFF
+pokemon SPECIES_CHANSEY
+pokemon SPECIES_CHANSEY
 
 // sinnoh encounter slots
-pokemon SPECIES_JIGGLYPUFF
-pokemon SPECIES_JIGGLYPUFF
+pokemon SPECIES_CHANSEY
+pokemon SPECIES_CHANSEY
 
 // surf encounters
 encounter SPECIES_NONE, 0, 0
@@ -7351,12 +7351,12 @@ pokemon SPECIES_KIRLIA
 pokemon SPECIES_KIRLIA
 
 // hoenn encounter slots
-pokemon SPECIES_KIRLIA
-pokemon SPECIES_KIRLIA
+pokemon SPECIES_CHANSEY
+pokemon SPECIES_CHANSEY
 
 // sinnoh encounter slots
-pokemon SPECIES_MAGNETON
-pokemon SPECIES_MAGNETON
+pokemon SPECIES_CHANSEY
+pokemon SPECIES_CHANSEY
 
 // surf encounters
 encounter SPECIES_GOLDUCK, 60, 60
@@ -7559,12 +7559,12 @@ pokemon SPECIES_DUGTRIO
 pokemon SPECIES_DUGTRIO
 
 // hoenn encounter slots
-pokemon SPECIES_DUGTRIO
-pokemon SPECIES_DUGTRIO
+pokemon SPECIES_CHANSEY
+pokemon SPECIES_CHANSEY
 
 // sinnoh encounter slots
-pokemon SPECIES_DUGTRIO
-pokemon SPECIES_DUGTRIO
+pokemon SPECIES_CHANSEY
+pokemon SPECIES_CHANSEY
 
 // surf encounters
 encounter SPECIES_NONE, 0, 0
@@ -7663,12 +7663,12 @@ pokemon SPECIES_HYPNO
 pokemon SPECIES_HYPNO
 
 // hoenn encounter slots
-pokemon SPECIES_SANDSLASH
-pokemon SPECIES_SANDSLASH
+pokemon SPECIES_CHANSEY
+pokemon SPECIES_CHANSEY
 
 // sinnoh encounter slots
-pokemon SPECIES_MAGNETON
-pokemon SPECIES_MAGNETON
+pokemon SPECIES_CHANSEY
+pokemon SPECIES_CHANSEY
 
 // surf encounters
 encounter SPECIES_NONE, 0, 0
@@ -7767,12 +7767,12 @@ pokemon SPECIES_RATICATE
 pokemon SPECIES_RATICATE
 
 // hoenn encounter slots
-pokemon SPECIES_PRIMEAPE
-pokemon SPECIES_PRIMEAPE
+pokemon SPECIES_CHANSEY
+pokemon SPECIES_CHANSEY
 
 // sinnoh encounter slots
-pokemon SPECIES_PRIMEAPE
-pokemon SPECIES_PRIMEAPE
+pokemon SPECIES_CHANSEY
+pokemon SPECIES_CHANSEY
 
 // surf encounters
 encounter SPECIES_SEAKING, 60, 60
@@ -7871,12 +7871,12 @@ pokemon SPECIES_MUK
 pokemon SPECIES_MUK
 
 // hoenn encounter slots
-pokemon SPECIES_MANECTRIC
-pokemon SPECIES_MANECTRIC
+pokemon SPECIES_CHANSEY
+pokemon SPECIES_CHANSEY
 
 // sinnoh encounter slots
-pokemon SPECIES_ROTOM
-pokemon SPECIES_ROTOM
+pokemon SPECIES_CHANSEY
+pokemon SPECIES_CHANSEY
 
 // surf encounters
 encounter SPECIES_SEAKING, 60, 60
@@ -7975,12 +7975,12 @@ pokemon SPECIES_SABLEYE
 pokemon SPECIES_MAWILE
 
 // hoenn encounter slots
-pokemon SPECIES_SABLEYE
-pokemon SPECIES_MAWILE
+pokemon SPECIES_CHANSEY
+pokemon SPECIES_CHANSEY
 
 // sinnoh encounter slots
-pokemon SPECIES_RHYDON
-pokemon SPECIES_RHYDON
+pokemon SPECIES_CHANSEY
+pokemon SPECIES_CHANSEY
 
 // surf encounters
 encounter SPECIES_NONE, 0, 0
@@ -8079,12 +8079,12 @@ pokemon SPECIES_GRANBULL
 pokemon SPECIES_GRANBULL
 
 // hoenn encounter slots
-pokemon SPECIES_KADABRA
-pokemon SPECIES_KADABRA
+pokemon SPECIES_CHANSEY
+pokemon SPECIES_CHANSEY
 
 // sinnoh encounter slots
-pokemon SPECIES_KADABRA
-pokemon SPECIES_KADABRA
+pokemon SPECIES_CHANSEY
+pokemon SPECIES_CHANSEY
 
 // surf encounters
 encounter SPECIES_NONE, 0, 0
@@ -8183,12 +8183,12 @@ pokemon SPECIES_MURKROW
 pokemon SPECIES_HOUNDOUR
 
 // hoenn encounter slots
-pokemon SPECIES_PLUSLE
-pokemon SPECIES_MINUN
+pokemon SPECIES_CHANSEY
+pokemon SPECIES_CHANSEY
 
 // sinnoh encounter slots
-pokemon SPECIES_SHINX
-pokemon SPECIES_SHINX
+pokemon SPECIES_CHANSEY
+pokemon SPECIES_CHANSEY
 
 // surf encounters
 encounter SPECIES_NONE, 0, 0

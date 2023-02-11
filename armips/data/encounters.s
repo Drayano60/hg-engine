@@ -5164,12 +5164,12 @@ pokemon SPECIES_DUNSPARCE
 pokemon SPECIES_DUNSPARCE
 
 // hoenn encounter slots
-pokemon SPECIES_CHANSEY
-pokemon SPECIES_CHANSEY
+pokemon SPECIES_DRAGONITE
+pokemon SPECIES_DRAGONITE
 
 // sinnoh encounter slots
-pokemon SPECIES_CHANSEY
-pokemon SPECIES_CHANSEY
+pokemon SPECIES_DRAGONITE
+pokemon SPECIES_DRAGONITE
 
 // surf encounters
 encounter SPECIES_MAGIKARP, 5, 45

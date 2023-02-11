@@ -1478,7 +1478,7 @@ rocksmashrate 0
 oldrodrate FISHING_RATE
 goodrodrate FISHING_RATE
 superrodrate FISHING_RATE
-walklevels 11, 12, 11, 12, 11, 12, 11, 12, 11, 12, 11, 12
+walklevels 11, 12, 11, 12, 11, 12, 11, 12, 11, 11, 12, 12
 
 // morning encounter slots
 pokemon SPECIES_HOPPIP
@@ -1491,7 +1491,7 @@ pokemon SPECIES_GLAMEOW
 pokemon SPECIES_GLAMEOW
 pokemon SPECIES_WINGULL
 pokemon SPECIES_WINGULL
-pokemon SPECIES_PACHIRISU
+pokemon SPECIES_WINGULL
 pokemon SPECIES_PACHIRISU
 
 // day encounter slots
@@ -1505,7 +1505,7 @@ pokemon SPECIES_GLAMEOW
 pokemon SPECIES_GLAMEOW
 pokemon SPECIES_WINGULL
 pokemon SPECIES_WINGULL
-pokemon SPECIES_PACHIRISU
+pokemon SPECIES_WINGULL
 pokemon SPECIES_PACHIRISU
 
 // night encounter slots
@@ -1519,7 +1519,7 @@ pokemon SPECIES_GLAMEOW
 pokemon SPECIES_GLAMEOW
 pokemon SPECIES_WINGULL
 pokemon SPECIES_WINGULL
-pokemon SPECIES_PACHIRISU
+pokemon SPECIES_WINGULL
 pokemon SPECIES_PACHIRISU
 
 // hoenn encounter slots

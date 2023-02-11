@@ -6415,12 +6415,12 @@ pokemon SPECIES_KRICKETUNE
 pokemon SPECIES_KRICKETUNE
 
 // hoenn encounter slots
-pokemon SPECIES_CHANSEY
-pokemon SPECIES_CHANSEY
+pokemon SPECIES_IVYSAUR
+pokemon SPECIES_IVYSAUR
 
 // sinnoh encounter slots
-pokemon SPECIES_CHANSEY
-pokemon SPECIES_CHANSEY
+pokemon SPECIES_IVYSAUR
+pokemon SPECIES_IVYSAUR
 
 // surf encounters
 encounter SPECIES_NONE, 0, 0
@@ -6519,12 +6519,12 @@ pokemon SPECIES_ARBOK
 pokemon SPECIES_ARBOK
 
 // hoenn encounter slots
-pokemon SPECIES_CHANSEY
-pokemon SPECIES_CHANSEY
+pokemon SPECIES_CHARMELEON
+pokemon SPECIES_CHARMELEON
 
 // sinnoh encounter slots
-pokemon SPECIES_CHANSEY
-pokemon SPECIES_CHANSEY
+pokemon SPECIES_CHARMELEON
+pokemon SPECIES_CHARMELEON
 
 // surf encounters
 encounter SPECIES_NONE, 0, 0
@@ -6831,12 +6831,12 @@ pokemon SPECIES_ARBOK
 pokemon SPECIES_ARBOK
 
 // hoenn encounter slots
-pokemon SPECIES_CHANSEY
-pokemon SPECIES_CHANSEY
+pokemon SPECIES_CHARMELEON
+pokemon SPECIES_CHARMELEON
 
 // sinnoh encounter slots
-pokemon SPECIES_CHANSEY
-pokemon SPECIES_CHANSEY
+pokemon SPECIES_CHARMELEON
+pokemon SPECIES_CHARMELEON
 
 // surf encounters
 encounter SPECIES_SEAKING, 60, 60
@@ -7039,12 +7039,12 @@ pokemon SPECIES_LOMBRE
 pokemon SPECIES_LOMBRE
 
 // hoenn encounter slots
-pokemon SPECIES_CHANSEY
-pokemon SPECIES_CHANSEY
+pokemon SPECIES_WARTORTLE
+pokemon SPECIES_WARTORTLE
 
 // sinnoh encounter slots
-pokemon SPECIES_CHANSEY
-pokemon SPECIES_CHANSEY
+pokemon SPECIES_WARTORTLE
+pokemon SPECIES_WARTORTLE
 
 // surf encounters
 encounter SPECIES_SEAKING, 60, 60
@@ -7143,12 +7143,12 @@ pokemon SPECIES_LOPUNNY
 pokemon SPECIES_LOPUNNY
 
 // hoenn encounter slots
-pokemon SPECIES_CHANSEY
-pokemon SPECIES_CHANSEY
+pokemon SPECIES_WARTORTLE
+pokemon SPECIES_WARTORTLE
 
 // sinnoh encounter slots
-pokemon SPECIES_CHANSEY
-pokemon SPECIES_CHANSEY
+pokemon SPECIES_WARTORTLE
+pokemon SPECIES_WARTORTLE
 
 // surf encounters
 encounter SPECIES_SEAKING, 60, 60
@@ -7975,12 +7975,12 @@ pokemon SPECIES_SABLEYE
 pokemon SPECIES_MAWILE
 
 // hoenn encounter slots
-pokemon SPECIES_CHANSEY
-pokemon SPECIES_CHANSEY
+pokemon SPECIES_CHARMELEON
+pokemon SPECIES_CHARMELEON
 
 // sinnoh encounter slots
-pokemon SPECIES_CHANSEY
-pokemon SPECIES_CHANSEY
+pokemon SPECIES_CHARMELEON
+pokemon SPECIES_CHARMELEON
 
 // surf encounters
 encounter SPECIES_NONE, 0, 0

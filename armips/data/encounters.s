@@ -5788,12 +5788,220 @@ pokemon SPECIES_STEELIX
 pokemon SPECIES_STEELIX
 
 // hoenn encounter slots
-pokemon SPECIES_CHANSEY
-pokemon SPECIES_CHANSEY
+pokemon SPECIES_HITMONTOP
+pokemon SPECIES_HITMONTOP
 
 // sinnoh encounter slots
-pokemon SPECIES_CHANSEY
-pokemon SPECIES_CHANSEY
+pokemon SPECIES_HITMONTOP
+pokemon SPECIES_HITMONTOP
+
+// surf encounters
+encounter SPECIES_NONE, 0, 0
+encounter SPECIES_NONE, 0, 0
+encounter SPECIES_NONE, 0, 0
+encounter SPECIES_NONE, 0, 0
+encounter SPECIES_NONE, 0, 0
+
+// rock smash encounters
+encounter SPECIES_GRAVELER, 50, 52
+encounter SPECIES_STEELIX, 52, 52
+
+// old rod encounters
+encounter SPECIES_NONE, 0, 0
+encounter SPECIES_NONE, 0, 0
+encounter SPECIES_NONE, 0, 0
+encounter SPECIES_NONE, 0, 0
+encounter SPECIES_NONE, 0, 0
+
+// good rod encounters
+encounter SPECIES_NONE, 0, 0
+encounter SPECIES_NONE, 0, 0
+encounter SPECIES_NONE, 0, 0
+encounter SPECIES_NONE, 0, 0
+encounter SPECIES_NONE, 0, 0
+
+// super rod encounters
+encounter SPECIES_NONE, 0, 0
+encounter SPECIES_NONE, 0, 0
+encounter SPECIES_NONE, 0, 0
+encounter SPECIES_NONE, 0, 0
+encounter SPECIES_NONE, 0, 0
+
+// swarm grass
+pokemon SPECIES_GRAVELER
+// swarm surf
+pokemon SPECIES_NONE
+// swarm good rod
+pokemon SPECIES_NONE
+// swarm super rod
+pokemon SPECIES_NONE
+
+.close
+
+// 2F
+encounterdata 134
+
+walkrate 10
+surfrate 0
+rocksmashrate 40
+oldrodrate 0
+goodrodrate 0
+superrodrate 0
+walklevels 50, 50, 50, 52, 52, 50, 52, 50, 52, 52, 52, 52
+
+// morning encounter slots
+pokemon SPECIES_GOLBAT
+pokemon SPECIES_GRAVELER
+pokemon SPECIES_MAGNETON
+pokemon SPECIES_URSARING
+pokemon SPECIES_DONPHAN
+pokemon SPECIES_LOUDRED
+pokemon SPECIES_MAROWAK
+pokemon SPECIES_LAIRON
+pokemon SPECIES_RHYDON
+pokemon SPECIES_RHYDON
+pokemon SPECIES_STEELIX
+pokemon SPECIES_STEELIX
+
+// day encounter slots
+pokemon SPECIES_GOLBAT
+pokemon SPECIES_GRAVELER
+pokemon SPECIES_MAGNETON
+pokemon SPECIES_URSARING
+pokemon SPECIES_DONPHAN
+pokemon SPECIES_LOUDRED
+pokemon SPECIES_MAROWAK
+pokemon SPECIES_LAIRON
+pokemon SPECIES_RHYDON
+pokemon SPECIES_RHYDON
+pokemon SPECIES_STEELIX
+pokemon SPECIES_STEELIX
+
+// night encounter slots
+pokemon SPECIES_GOLBAT
+pokemon SPECIES_GRAVELER
+pokemon SPECIES_MAGNETON
+pokemon SPECIES_URSARING
+pokemon SPECIES_DONPHAN
+pokemon SPECIES_LOUDRED
+pokemon SPECIES_MAROWAK
+pokemon SPECIES_LAIRON
+pokemon SPECIES_RHYDON
+pokemon SPECIES_RHYDON
+pokemon SPECIES_STEELIX
+pokemon SPECIES_STEELIX
+
+// hoenn encounter slots
+pokemon SPECIES_HITMONLEE
+pokemon SPECIES_HITMONLEE
+
+// sinnoh encounter slots
+pokemon SPECIES_HITMONLEE
+pokemon SPECIES_HITMONLEE
+
+// surf encounters
+encounter SPECIES_NONE, 0, 0
+encounter SPECIES_NONE, 0, 0
+encounter SPECIES_NONE, 0, 0
+encounter SPECIES_NONE, 0, 0
+encounter SPECIES_NONE, 0, 0
+
+// rock smash encounters
+encounter SPECIES_GRAVELER, 50, 52
+encounter SPECIES_STEELIX, 52, 52
+
+// old rod encounters
+encounter SPECIES_NONE, 0, 0
+encounter SPECIES_NONE, 0, 0
+encounter SPECIES_NONE, 0, 0
+encounter SPECIES_NONE, 0, 0
+encounter SPECIES_NONE, 0, 0
+
+// good rod encounters
+encounter SPECIES_NONE, 0, 0
+encounter SPECIES_NONE, 0, 0
+encounter SPECIES_NONE, 0, 0
+encounter SPECIES_NONE, 0, 0
+encounter SPECIES_NONE, 0, 0
+
+// super rod encounters
+encounter SPECIES_NONE, 0, 0
+encounter SPECIES_NONE, 0, 0
+encounter SPECIES_NONE, 0, 0
+encounter SPECIES_NONE, 0, 0
+encounter SPECIES_NONE, 0, 0
+
+// swarm grass
+pokemon SPECIES_GRAVELER
+// swarm surf
+pokemon SPECIES_NONE
+// swarm good rod
+pokemon SPECIES_NONE
+// swarm super rod
+pokemon SPECIES_NONE
+
+.close
+
+// 3F
+encounterdata 135
+
+walkrate 10
+surfrate 0
+rocksmashrate 40
+oldrodrate 0
+goodrodrate 0
+superrodrate 0
+walklevels 50, 50, 50, 52, 52, 50, 52, 50, 52, 52, 52, 52
+
+// morning encounter slots
+pokemon SPECIES_GOLBAT
+pokemon SPECIES_GRAVELER
+pokemon SPECIES_MAGNETON
+pokemon SPECIES_URSARING
+pokemon SPECIES_DONPHAN
+pokemon SPECIES_LOUDRED
+pokemon SPECIES_MAROWAK
+pokemon SPECIES_LAIRON
+pokemon SPECIES_RHYDON
+pokemon SPECIES_RHYDON
+pokemon SPECIES_STEELIX
+pokemon SPECIES_STEELIX
+
+// day encounter slots
+pokemon SPECIES_GOLBAT
+pokemon SPECIES_GRAVELER
+pokemon SPECIES_MAGNETON
+pokemon SPECIES_URSARING
+pokemon SPECIES_DONPHAN
+pokemon SPECIES_LOUDRED
+pokemon SPECIES_MAROWAK
+pokemon SPECIES_LAIRON
+pokemon SPECIES_RHYDON
+pokemon SPECIES_RHYDON
+pokemon SPECIES_STEELIX
+pokemon SPECIES_STEELIX
+
+// night encounter slots
+pokemon SPECIES_GOLBAT
+pokemon SPECIES_GRAVELER
+pokemon SPECIES_MAGNETON
+pokemon SPECIES_URSARING
+pokemon SPECIES_DONPHAN
+pokemon SPECIES_LOUDRED
+pokemon SPECIES_MAROWAK
+pokemon SPECIES_LAIRON
+pokemon SPECIES_RHYDON
+pokemon SPECIES_RHYDON
+pokemon SPECIES_STEELIX
+pokemon SPECIES_STEELIX
+
+// hoenn encounter slots
+pokemon SPECIES_HITMONCHAN
+pokemon SPECIES_HITMONCHAN
+
+// sinnoh encounter slots
+pokemon SPECIES_HITMONCHAN
+pokemon SPECIES_HITMONCHAN
 
 // surf encounters
 encounter SPECIES_NONE, 0, 0
@@ -13839,213 +14047,6 @@ encounter SPECIES_NONE, 0, 0
 
 // swarm grass
 pokemon SPECIES_NONE
-// swarm surf
-pokemon SPECIES_NONE
-// swarm good rod
-pokemon SPECIES_NONE
-// swarm super rod
-pokemon SPECIES_NONE
-
-.close
-
-/** unused victory road **/
-encounterdata 134   // Victory Road 2F
-
-walkrate 10
-surfrate 0
-rocksmashrate 0
-oldrodrate 0
-goodrodrate 0
-superrodrate 0
-walklevels 32, 32, 32, 32, 33, 33, 34, 34, 36, 35, 36, 35
-
-// morning encounter slots
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_DONPHAN
-pokemon SPECIES_DONPHAN
-pokemon SPECIES_ONIX
-pokemon SPECIES_ONIX
-pokemon SPECIES_ONIX
-pokemon SPECIES_RHYHORN
-pokemon SPECIES_ONIX
-pokemon SPECIES_RHYHORN
-
-// day encounter slots
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_DONPHAN
-pokemon SPECIES_DONPHAN
-pokemon SPECIES_ONIX
-pokemon SPECIES_ONIX
-pokemon SPECIES_ONIX
-pokemon SPECIES_RHYHORN
-pokemon SPECIES_ONIX
-pokemon SPECIES_RHYHORN
-
-// night encounter slots
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_DONPHAN
-pokemon SPECIES_DONPHAN
-pokemon SPECIES_ONIX
-pokemon SPECIES_ONIX
-pokemon SPECIES_ONIX
-pokemon SPECIES_RHYHORN
-pokemon SPECIES_ONIX
-pokemon SPECIES_RHYHORN
-
-// hoenn encounter slots
-pokemon SPECIES_ABSOL
-pokemon SPECIES_MAKUHITA
-
-// sinnoh encounter slots
-pokemon SPECIES_BRONZOR
-pokemon SPECIES_CHINGLING
-
-// surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// swarm grass
-pokemon SPECIES_GRAVELER
-// swarm surf
-pokemon SPECIES_NONE
-// swarm good rod
-pokemon SPECIES_NONE
-// swarm super rod
-pokemon SPECIES_NONE
-
-.close
-
-encounterdata 135   // Victory Road 3F
-
-walkrate 10
-surfrate 0
-rocksmashrate 40
-oldrodrate 0
-goodrodrate 0
-superrodrate 0
-walklevels 32, 32, 32, 32, 33, 33, 34, 34, 36, 35, 36, 35
-
-// morning encounter slots
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_DONPHAN
-pokemon SPECIES_DONPHAN
-pokemon SPECIES_ONIX
-pokemon SPECIES_ONIX
-pokemon SPECIES_ONIX
-pokemon SPECIES_RHYHORN
-pokemon SPECIES_ONIX
-pokemon SPECIES_RHYHORN
-
-// day encounter slots
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_DONPHAN
-pokemon SPECIES_DONPHAN
-pokemon SPECIES_ONIX
-pokemon SPECIES_ONIX
-pokemon SPECIES_ONIX
-pokemon SPECIES_RHYHORN
-pokemon SPECIES_ONIX
-pokemon SPECIES_RHYHORN
-
-// night encounter slots
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_DONPHAN
-pokemon SPECIES_DONPHAN
-pokemon SPECIES_ONIX
-pokemon SPECIES_ONIX
-pokemon SPECIES_ONIX
-pokemon SPECIES_RHYHORN
-pokemon SPECIES_ONIX
-pokemon SPECIES_RHYHORN
-
-// hoenn encounter slots
-pokemon SPECIES_ABSOL
-pokemon SPECIES_MAKUHITA
-
-// sinnoh encounter slots
-pokemon SPECIES_BRONZOR
-pokemon SPECIES_CHINGLING
-
-// surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// rock smash encounters
-encounter SPECIES_GEODUDE, 24, 32
-encounter SPECIES_GRAVELER, 30, 33
-
-// old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// swarm grass
-pokemon SPECIES_GRAVELER
 // swarm surf
 pokemon SPECIES_NONE
 // swarm good rod

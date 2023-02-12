@@ -1741,23 +1741,6 @@ mondata SPECIES_PRIMEAPE
     colorflip BODY_COLOR_BROWN, 0
     tmdata SPECIES_PRIMEAPE_TM_DATA_0, SPECIES_PRIMEAPE_TM_DATA_1, SPECIES_PRIMEAPE_TM_DATA_2, SPECIES_PRIMEAPE_TM_DATA_3
 
-mondata SPECIES_ANNIHILAPE
-    basestats 110, 115, 80, 90, 50, 90
-    types TYPE_FIGHTING, TYPE_GHOST
-    catchrate 45
-    baseexp 149 // Primeape
-    evyields 0, 3, 0, 0, 0, 0
-    items ITEM_NONE, ITEM_NONE
-    genderratio 127
-    eggcycles 20
-    basefriendship 70
-    growthrate GROWTH_MEDIUM_FAST
-    egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_VITAL_SPIRIT, ABILITY_INNER_FOCUS
-    runchance 0
-    colorflip BODY_COLOR_GRAY, 0
-    tmdata SPECIES_ANNIHILAPE_TM_DATA_0, SPECIES_ANNIHILAPE_TM_DATA_1, SPECIES_ANNIHILAPE_TM_DATA_2, SPECIES_ANNIHILAPE_TM_DATA_3
-
 mondata SPECIES_GROWLITHE
     basestats 55, 70, 45, 60, 70, 50
     types TYPE_FIRE, TYPE_FIRE
@@ -5628,23 +5611,6 @@ mondata SPECIES_GIRAFARIG
     colorflip BODY_COLOR_YELLOW, 0
     tmdata SPECIES_GIRAFARIG_TM_DATA_0, SPECIES_GIRAFARIG_TM_DATA_1, SPECIES_GIRAFARIG_TM_DATA_2, SPECIES_GIRAFARIG_TM_DATA_3
 
-mondata SPECIES_FARIGIRAF
-    basestats 120, 90, 70, 60, 110, 70
-    types TYPE_NORMAL, TYPE_PSYCHIC
-    catchrate 45
-    baseexp 149 // Girafarig
-    evyields 3, 0, 0, 0, 0, 0
-    items ITEM_NONE, ITEM_NONE
-    genderratio 127
-    eggcycles 20
-    basefriendship 70
-    growthrate GROWTH_MEDIUM_FAST
-    egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_INNER_FOCUS, ABILITY_EARLY_BIRD /* Cud Chew/Armor Tail unavailable */
-    runchance 0
-    colorflip BODY_COLOR_BROWN, 0
-    tmdata SPECIES_FARIGIRAF_TM_DATA_0, SPECIES_FARIGIRAF_TM_DATA_1, SPECIES_FARIGIRAF_TM_DATA_2, SPECIES_FARIGIRAF_TM_DATA_3
-
 // ABILITY: Skill Link (2)
 mondata SPECIES_PINECO
     basestats 50, 65, 90, 15, 35, 35
@@ -5716,23 +5682,6 @@ mondata SPECIES_DUNSPARCE
     runchance 0
     colorflip BODY_COLOR_YELLOW, 0
     tmdata SPECIES_DUNSPARCE_TM_DATA_0, SPECIES_DUNSPARCE_TM_DATA_1, SPECIES_DUNSPARCE_TM_DATA_2, SPECIES_DUNSPARCE_TM_DATA_3
-
-mondata SPECIES_DUDUNSPARCE
-    basestats 125, 100, 80, 55, 85, 75
-    types TYPE_NORMAL, TYPE_NORMAL
-    catchrate 45
-    baseexp 125 // Dunsparce
-    evyields 2, 0, 0, 0, 0, 0
-    items ITEM_NONE, ITEM_NONE
-    genderratio 127
-    eggcycles 20
-    basefriendship 70
-    growthrate GROWTH_MEDIUM_FAST
-    egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_SERENE_GRACE, ABILITY_RUN_AWAY
-    runchance 0
-    colorflip BODY_COLOR_YELLOW, 0
-    tmdata SPECIES_DUDUNSPARCE_TM_DATA_0, SPECIES_DUDUNSPARCE_TM_DATA_1, SPECIES_DUDUNSPARCE_TM_DATA_2, SPECIES_DUDUNSPARCE_TM_DATA_3
 
 mondata SPECIES_GLIGAR
     basestats 65, 75, 105, 85, 35, 65

@@ -22,4 +22,10 @@
 // DEBUG_SCALED_EXPERIENCE is used to debug the new scaled experience system.
 //#define DEBUG_SCALED_EXPERIENCE
 
+// DEBUG_BATTLE_SCRIPT_COMMANDS prints out the battle script command names in the desmume window
+//#define DEBUG_BATTLE_SCRIPT_COMMANDS
+
+// DEBUG_PRINT_OVERLAY_LOADS prints out overlay loads and unloads in the desmume window
+//#define DEBUG_PRINT_OVERLAY_LOADS
+
 #endif // DEBUG_H

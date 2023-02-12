@@ -1,17 +1,17 @@
-#include "../include/battle.h"
-#include "../include/debug.h"
-#include "../include/pokemon.h"
-#include "../include/types.h"
-#include "../include/constants/ability.h"
-#include "../include/constants/battle_script_constants.h"
-#include "../include/constants/hold_item_effects.h"
-#include "../include/constants/item.h"
-#include "../include/constants/move_effects.h"
-#include "../include/constants/moves.h"
-#include "../include/constants/species.h"
-#include "../include/constants/weather_numbers.h"
-#include "../include/constants/battle_message_constants.h"
-#include "../include/constants/file.h"
+#include "../../include/battle.h"
+#include "../../include/debug.h"
+#include "../../include/pokemon.h"
+#include "../../include/types.h"
+#include "../../include/constants/ability.h"
+#include "../../include/constants/battle_script_constants.h"
+#include "../../include/constants/hold_item_effects.h"
+#include "../../include/constants/item.h"
+#include "../../include/constants/move_effects.h"
+#include "../../include/constants/moves.h"
+#include "../../include/constants/species.h"
+#include "../../include/constants/weather_numbers.h"
+#include "../../include/constants/battle_message_constants.h"
+#include "../../include/constants/file.h"
 
 
 extern const u8 StatBoostModifiers[][2];
@@ -1332,6 +1332,7 @@ BOOL MoveHitAttackerAbilityCheck(void *bw, struct BattleStruct *sp, int *seq_no)
         /*
         case ABILITY_BEAST_BOOST:
             if ((sp->defence_client == sp->fainting_client)
+                && BATTLERS_ON_DIFFERENT_SIDE(sp->attack_client, sp->fainting_client)
                 && ((sp->server_status_flag2 & SERVER_STATUS2_FLAG_x10) == 0)
                 && (sp->battlemon[sp->attack_client].hp)
                 && ((sp->waza_status_flag & WAZA_STATUS_FLAG_NO_OUT) == 0))
@@ -1354,6 +1355,7 @@ BOOL MoveHitAttackerAbilityCheck(void *bw, struct BattleStruct *sp, int *seq_no)
         */
         case ABILITY_MOXIE:
             if ((sp->defence_client == sp->fainting_client)
+                && BATTLERS_ON_DIFFERENT_SIDE(sp->attack_client, sp->fainting_client)
                 && ((sp->server_status_flag2 & SERVER_STATUS2_FLAG_x10) == 0)
                 && (sp->battlemon[sp->attack_client].hp)
                 && ((sp->waza_status_flag & WAZA_STATUS_FLAG_NO_OUT) == 0))
@@ -1375,6 +1377,7 @@ BOOL MoveHitAttackerAbilityCheck(void *bw, struct BattleStruct *sp, int *seq_no)
         */
         case ABILITY_HEAT_UP:
             if ((sp->defence_client == sp->fainting_client)
+                && BATTLERS_ON_DIFFERENT_SIDE(sp->attack_client, sp->fainting_client)
                 && ((sp->server_status_flag2 & SERVER_STATUS2_FLAG_x10) == 0)
                 && (sp->battlemon[sp->attack_client].hp)
                 && ((sp->waza_status_flag & WAZA_STATUS_FLAG_NO_OUT) == 0))
@@ -1393,6 +1396,7 @@ BOOL MoveHitAttackerAbilityCheck(void *bw, struct BattleStruct *sp, int *seq_no)
         /*
         case ABILITY_BATTLE_BOND:
             if ((sp->defence_client == sp->fainting_client)
+                && BATTLERS_ON_DIFFERENT_SIDE(sp->attack_client, sp->fainting_client)
                 && ((sp->server_status_flag2 & SERVER_STATUS2_FLAG_x10) == 0)
                 && (sp->battlemon[sp->attack_client].hp)
                 && ((sp->waza_status_flag & WAZA_STATUS_FLAG_NO_OUT) == 0))
@@ -1428,10 +1432,6 @@ BOOL MoveHitDefenderAbilityCheck(void *bw, struct BattleStruct *sp, int *seq_no)
     if (CheckSubstitute(sp, sp->defence_client) == TRUE) {
         return ret;
     }
-    
-    if (sp->battlemon[sp->attack_client].sheer_force_flag == 1) { // sheer force skips all of these if the attacker has it
-        return ret;
-    }
 
     switch (GetBattlerAbility(sp, sp->defence_client)) {
         case ABILITY_STATIC:
@@ -1453,6 +1453,10 @@ BOOL MoveHitDefenderAbilityCheck(void *bw, struct BattleStruct *sp, int *seq_no)
             break;
         case ABILITY_COLOR_CHANGE:
             {
+                if (GetBattlerAbility(sp, sp->attack_client) == ABILITY_SHEER_FORCE && sp->battlemon[sp->attack_client].sheer_force_flag == 1) { // sheer force doesn't let color change activate
+                    return FALSE;
+                }
+
                 u8 movetype;
 
                 if (GetBattlerAbility(sp, sp->attack_client) == ABILITY_NORMALIZE) {
@@ -1852,14 +1856,15 @@ BOOL MoveHitDefenderAbilityCheck(void *bw, struct BattleStruct *sp, int *seq_no)
             if (sp->battlemon[sp->defence_client].hp != 0
              && sp->moveTbl[sp->current_move_index].flag & FLAG_CONTACT
              && sp->moveTbl[sp->current_move_index].power != 0
-             && CanPickpocketStealClientItem(sp, sp->attack_client))
+             && CanPickpocketStealClientItem(sp, sp->attack_client)
+             && !(GetBattlerAbility(sp, sp->attack_client) == ABILITY_SHEER_FORCE && sp->battlemon[sp->attack_client].sheer_force_flag == 1)) // pickpocket doesn't activate if attacked by sheer force
             {
                 seq_no[0] = SUB_SEQ_HANDLE_PICKPOCKET_DEF;
                 ret = TRUE;
             }
             break;
         // handle cursed body - disable the last used move by the pokemon.  disabling is handled here, script just displays the message
-        case ABILITY_CURSED_BODY:            
+        case ABILITY_CURSED_BODY:
             move_pos = ST_ServerWazaPosGet(&sp->battlemon[sp->attack_client], sp->current_move_index);
             if (sp->battlemon[sp->defence_client].hp != 0
              && sp->battlemon[sp->attack_client].moveeffect.kanashibari_wazano == 0

@@ -6,13 +6,13 @@
 .include "armips/include/monnums.s"
 .include "armips/asm/icons.s"
 
-.if (fileexists("build/a028/8_0"))
-    .open "build/a028/8_0", 0x023C8000
+.if (fileexists("base/overlay/overlay_0129.bin"))
+    .open "base/overlay/overlay_0129.bin", 0x023C8000
 .else
-    .create "build/a028/8_0", 0x023C8000
+    .create "base/overlay/overlay_0129.bin", 0x023C8000
 .endif
 
-.orga START_ADDRESS + ((NUM_OF_MON_OVERWORLDS + 450) * 6)
+.orga START_ADDRESS
 
 // the icon palette table maps each icon to which of the 3 icon palettes
 

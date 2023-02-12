@@ -130,9 +130,6 @@
                                          WAZA_STATUS_FLAG_IMAHITOTSU)
 
 
-
-
-
 // stat definitions
 #define STAT_HP             (0x00)
 #define STAT_ATTACK         (0x01)
@@ -255,6 +252,9 @@
 #define BATTLER_ALLY(client) (client ^ 2)
 #define BATTLER_OPPONENT(client) (client ^ 1)
 #define BATTLER_ACROSS(client) (client ^ 3)
+
+#define BATTLERS_ON_SAME_SIDE(battler1, battler2) ((battler1 & 1) == (battler2 & 1))
+#define BATTLERS_ON_DIFFERENT_SIDE(battler1, battler2) !BATTLERS_ON_SAME_SIDE(battler1, battler2)
 
 #define TAG_NONE                        (0)     //nothing
 
@@ -1209,16 +1209,6 @@ u32 __attribute__((long_call)) IsMovingAfterClient(void *sp, int client_no);
 u32 __attribute__((long_call)) CheckSubstitute(struct BattleStruct *sp, int client_no);
 u32 __attribute__((long_call)) gf_get_seed(void);
 //u16 __attribute__((long_call)) gf_p_rand(const u16 denominator);
-void __attribute__((long_call)) PokeParty_Init(struct POKEPARTY *party, int max);
-void __attribute__((long_call)) TT_TrainerPokeDataGet(int tr_id, void *tpd);
-u8 __attribute__((long_call)) TT_TrainerTypeSexGet(int trtype);
-u32 __attribute__((long_call)) TrainerCBSet(int index, struct PartyPokemon* pp, int heap);
-void __attribute__((long_call)) try_force_gender_maybe(int species, int formnum, u8 a2, u32 *genderratio);
-void __attribute__((long_call)) TrainerMonHandleFrustration(struct PartyPokemon *pp);
-void __attribute__((long_call)) SetPartyPokemonMoveAtPos(struct PartyPokemon *pp, u16 movenum, u8 pos);
-void __attribute__((long_call)) gf_srand(u32 seed);
-u32 __attribute__((long_call)) PokeParty_Add(struct POKEPARTY *party, struct PartyPokemon *poke);
-u8 __attribute__((long_call)) GetArceusType(u16 held_effect);
 u32 __attribute__((long_call)) BattleWorkBattleStatusFlagGet(void *bw);
 void __attribute__((long_call)) PokeCopyPPtoPP(struct PartyPokemon *pp_src, struct PartyPokemon *pp_dest);
 void __attribute__((long_call)) SCIO_PSPtoPPCopy(void *bw, struct BattleStruct *sp, int send_client);

@@ -14,7 +14,8 @@
 .include "armips/asm/user_config.s" // user configurable code
 .include "armips/asm/levelup.s" // change the level up moves to be (u16 level, u16 move) + expand learnset to LEARNSET_TOTAL_MOVES (from armips/include/config.s)
 .include "armips/asm/pokedex.s" // code for pokedex expansion, including expanding the save
-//.include "armips/asm/overworlds.s" // code for overworlds, specifically repointing gOWTagToFileNum and making dimorphism a byte instead of a halfword.  currently included and built every time as part of armips/data/monoverworlds.s
+.include "armips/asm/overworlds.s" // code for overworlds, specifically repointing gOWTagToFileNum and making dimorphism a byte instead of a halfword.
+.include "armips/asm/y9.s" // add new overlay entries to the y9 table
 
 // Custom minor asm changes
 .include "armips/asm/tm.s"
@@ -35,7 +36,6 @@
 
 /*
 CURRENT SYNTHETIC NARC ARMIPS USAGE - starting at START_ADDRESS (armips/include/config.s), sequentially
-armips/data/monoverworlds.s - ((NUM_OF_MON_OVERWORLDS + 450) * 6)
 armips/data/iconpalettetable.s - (NUM_OF_TOTAL_MONS_PLUS_FORMS)
 armips/asm/trainer_ai.s - ~0x60 bytes of extra code
 

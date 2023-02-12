@@ -19903,7 +19903,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM01 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 3000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -19911,7 +19911,7 @@ const ITEMDATA __data[] =
     .flingPower = 0,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = FALSE,
+    .prevent_toss = TRUE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
     .battlePocket = BATTLE_POCKET_NONE,
@@ -19968,7 +19968,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM02 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 3000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -19976,7 +19976,7 @@ const ITEMDATA __data[] =
     .flingPower = 0,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = FALSE,
+    .prevent_toss = TRUE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
     .battlePocket = BATTLE_POCKET_NONE,
@@ -20033,7 +20033,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM03 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 3000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -20041,7 +20041,7 @@ const ITEMDATA __data[] =
     .flingPower = 0,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = FALSE,
+    .prevent_toss = TRUE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
     .battlePocket = BATTLE_POCKET_NONE,
@@ -20098,7 +20098,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM04 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 1500,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -20106,7 +20106,7 @@ const ITEMDATA __data[] =
     .flingPower = 0,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = FALSE,
+    .prevent_toss = TRUE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
     .battlePocket = BATTLE_POCKET_NONE,
@@ -20163,7 +20163,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM05 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 1000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -20171,7 +20171,7 @@ const ITEMDATA __data[] =
     .flingPower = 0,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = FALSE,
+    .prevent_toss = TRUE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
     .battlePocket = BATTLE_POCKET_NONE,
@@ -20228,7 +20228,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM06 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 3000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -20236,7 +20236,7 @@ const ITEMDATA __data[] =
     .flingPower = 0,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = FALSE,
+    .prevent_toss = TRUE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
     .battlePocket = BATTLE_POCKET_NONE,
@@ -20293,7 +20293,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM07 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 2000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -20301,7 +20301,7 @@ const ITEMDATA __data[] =
     .flingPower = 0,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = FALSE,
+    .prevent_toss = TRUE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
     .battlePocket = BATTLE_POCKET_NONE,
@@ -20358,7 +20358,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM08 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 1500,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -20366,7 +20366,7 @@ const ITEMDATA __data[] =
     .flingPower = 0,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = FALSE,
+    .prevent_toss = TRUE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
     .battlePocket = BATTLE_POCKET_NONE,
@@ -20423,7 +20423,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM09 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 2000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -20431,7 +20431,7 @@ const ITEMDATA __data[] =
     .flingPower = 0,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = FALSE,
+    .prevent_toss = TRUE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
     .battlePocket = BATTLE_POCKET_NONE,
@@ -20488,7 +20488,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM10 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 2000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -20496,7 +20496,7 @@ const ITEMDATA __data[] =
     .flingPower = 0,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = FALSE,
+    .prevent_toss = TRUE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
     .battlePocket = BATTLE_POCKET_NONE,
@@ -20553,7 +20553,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM11 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 2000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -20561,7 +20561,7 @@ const ITEMDATA __data[] =
     .flingPower = 0,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = FALSE,
+    .prevent_toss = TRUE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
     .battlePocket = BATTLE_POCKET_NONE,
@@ -20618,7 +20618,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM12 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 1500,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -20626,7 +20626,7 @@ const ITEMDATA __data[] =
     .flingPower = 0,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = FALSE,
+    .prevent_toss = TRUE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
     .battlePocket = BATTLE_POCKET_NONE,
@@ -20683,7 +20683,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM13 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 3000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -20691,7 +20691,7 @@ const ITEMDATA __data[] =
     .flingPower = 0,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = FALSE,
+    .prevent_toss = TRUE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
     .battlePocket = BATTLE_POCKET_NONE,
@@ -20748,7 +20748,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM14 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 5500,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -20756,7 +20756,7 @@ const ITEMDATA __data[] =
     .flingPower = 0,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = FALSE,
+    .prevent_toss = TRUE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
     .battlePocket = BATTLE_POCKET_NONE,
@@ -20813,7 +20813,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM15 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 7500,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -20821,7 +20821,7 @@ const ITEMDATA __data[] =
     .flingPower = 0,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = FALSE,
+    .prevent_toss = TRUE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
     .battlePocket = BATTLE_POCKET_NONE,
@@ -20878,7 +20878,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM16 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 2000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -20886,7 +20886,7 @@ const ITEMDATA __data[] =
     .flingPower = 0,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = FALSE,
+    .prevent_toss = TRUE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
     .battlePocket = BATTLE_POCKET_NONE,
@@ -20943,7 +20943,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM17 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 2000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -20951,7 +20951,7 @@ const ITEMDATA __data[] =
     .flingPower = 0,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = FALSE,
+    .prevent_toss = TRUE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
     .battlePocket = BATTLE_POCKET_NONE,
@@ -21008,7 +21008,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM18 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 2000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -21016,7 +21016,7 @@ const ITEMDATA __data[] =
     .flingPower = 0,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = FALSE,
+    .prevent_toss = TRUE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
     .battlePocket = BATTLE_POCKET_NONE,
@@ -21073,7 +21073,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM19 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 3000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -21081,7 +21081,7 @@ const ITEMDATA __data[] =
     .flingPower = 0,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = FALSE,
+    .prevent_toss = TRUE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
     .battlePocket = BATTLE_POCKET_NONE,
@@ -21138,7 +21138,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM20 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 2000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -21146,7 +21146,7 @@ const ITEMDATA __data[] =
     .flingPower = 0,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = FALSE,
+    .prevent_toss = TRUE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
     .battlePocket = BATTLE_POCKET_NONE,
@@ -21203,7 +21203,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM21 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 1000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -21211,7 +21211,7 @@ const ITEMDATA __data[] =
     .flingPower = 0,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = FALSE,
+    .prevent_toss = TRUE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
     .battlePocket = BATTLE_POCKET_NONE,
@@ -21268,7 +21268,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM22 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 3000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -21276,7 +21276,7 @@ const ITEMDATA __data[] =
     .flingPower = 0,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = FALSE,
+    .prevent_toss = TRUE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
     .battlePocket = BATTLE_POCKET_NONE,
@@ -21333,7 +21333,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM23 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 3000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -21341,7 +21341,7 @@ const ITEMDATA __data[] =
     .flingPower = 0,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = FALSE,
+    .prevent_toss = TRUE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
     .battlePocket = BATTLE_POCKET_NONE,
@@ -21398,7 +21398,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM24 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 3000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -21406,7 +21406,7 @@ const ITEMDATA __data[] =
     .flingPower = 0,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = FALSE,
+    .prevent_toss = TRUE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
     .battlePocket = BATTLE_POCKET_NONE,
@@ -21463,7 +21463,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM25 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 5500,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -21471,7 +21471,7 @@ const ITEMDATA __data[] =
     .flingPower = 0,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = FALSE,
+    .prevent_toss = TRUE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
     .battlePocket = BATTLE_POCKET_NONE,
@@ -21528,7 +21528,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM26 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 3000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -21536,7 +21536,7 @@ const ITEMDATA __data[] =
     .flingPower = 0,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = FALSE,
+    .prevent_toss = TRUE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
     .battlePocket = BATTLE_POCKET_NONE,
@@ -21593,7 +21593,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM27 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 1000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -21601,7 +21601,7 @@ const ITEMDATA __data[] =
     .flingPower = 0,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = FALSE,
+    .prevent_toss = TRUE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
     .battlePocket = BATTLE_POCKET_NONE,
@@ -21658,7 +21658,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM28 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 2000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -21666,7 +21666,7 @@ const ITEMDATA __data[] =
     .flingPower = 0,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = FALSE,
+    .prevent_toss = TRUE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
     .battlePocket = BATTLE_POCKET_NONE,
@@ -21723,7 +21723,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM29 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 3000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -21731,7 +21731,7 @@ const ITEMDATA __data[] =
     .flingPower = 0,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = FALSE,
+    .prevent_toss = TRUE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
     .battlePocket = BATTLE_POCKET_NONE,
@@ -21788,7 +21788,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM30 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 3000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -21796,7 +21796,7 @@ const ITEMDATA __data[] =
     .flingPower = 0,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = FALSE,
+    .prevent_toss = TRUE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
     .battlePocket = BATTLE_POCKET_NONE,
@@ -21853,7 +21853,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM31 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 3000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -21861,7 +21861,7 @@ const ITEMDATA __data[] =
     .flingPower = 0,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = FALSE,
+    .prevent_toss = TRUE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
     .battlePocket = BATTLE_POCKET_NONE,
@@ -21918,7 +21918,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM32 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 1000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -21926,7 +21926,7 @@ const ITEMDATA __data[] =
     .flingPower = 0,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = FALSE,
+    .prevent_toss = TRUE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
     .battlePocket = BATTLE_POCKET_NONE,
@@ -21983,7 +21983,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM33 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 2000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -21991,7 +21991,7 @@ const ITEMDATA __data[] =
     .flingPower = 0,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = FALSE,
+    .prevent_toss = TRUE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
     .battlePocket = BATTLE_POCKET_NONE,
@@ -22048,7 +22048,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM34 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 3000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -22056,7 +22056,7 @@ const ITEMDATA __data[] =
     .flingPower = 0,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = FALSE,
+    .prevent_toss = TRUE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
     .battlePocket = BATTLE_POCKET_NONE,
@@ -22113,7 +22113,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM35 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 3000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -22121,7 +22121,7 @@ const ITEMDATA __data[] =
     .flingPower = 0,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = FALSE,
+    .prevent_toss = TRUE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
     .battlePocket = BATTLE_POCKET_NONE,
@@ -22178,7 +22178,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM36 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 3000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -22186,7 +22186,7 @@ const ITEMDATA __data[] =
     .flingPower = 0,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = FALSE,
+    .prevent_toss = TRUE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
     .battlePocket = BATTLE_POCKET_NONE,
@@ -22243,7 +22243,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM37 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 2000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -22251,7 +22251,7 @@ const ITEMDATA __data[] =
     .flingPower = 0,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = FALSE,
+    .prevent_toss = TRUE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
     .battlePocket = BATTLE_POCKET_NONE,
@@ -22308,7 +22308,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM38 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 5500,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -22316,7 +22316,7 @@ const ITEMDATA __data[] =
     .flingPower = 0,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = FALSE,
+    .prevent_toss = TRUE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
     .battlePocket = BATTLE_POCKET_NONE,
@@ -22373,7 +22373,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM39 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 2000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -22381,7 +22381,7 @@ const ITEMDATA __data[] =
     .flingPower = 0,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = FALSE,
+    .prevent_toss = TRUE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
     .battlePocket = BATTLE_POCKET_NONE,
@@ -22438,7 +22438,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM40 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 3000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -22446,7 +22446,7 @@ const ITEMDATA __data[] =
     .flingPower = 0,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = FALSE,
+    .prevent_toss = TRUE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
     .battlePocket = BATTLE_POCKET_NONE,
@@ -22503,7 +22503,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM41 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 1500,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -22511,7 +22511,7 @@ const ITEMDATA __data[] =
     .flingPower = 0,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = FALSE,
+    .prevent_toss = TRUE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
     .battlePocket = BATTLE_POCKET_NONE,
@@ -22568,7 +22568,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM42 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 3000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -22576,7 +22576,7 @@ const ITEMDATA __data[] =
     .flingPower = 0,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = FALSE,
+    .prevent_toss = TRUE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
     .battlePocket = BATTLE_POCKET_NONE,
@@ -22633,7 +22633,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM43 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 2000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -22641,7 +22641,7 @@ const ITEMDATA __data[] =
     .flingPower = 0,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = FALSE,
+    .prevent_toss = TRUE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
     .battlePocket = BATTLE_POCKET_NONE,
@@ -22698,7 +22698,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM44 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 3000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -22706,7 +22706,7 @@ const ITEMDATA __data[] =
     .flingPower = 0,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = FALSE,
+    .prevent_toss = TRUE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
     .battlePocket = BATTLE_POCKET_NONE,
@@ -22763,7 +22763,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM45 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 3000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -22771,7 +22771,7 @@ const ITEMDATA __data[] =
     .flingPower = 0,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = FALSE,
+    .prevent_toss = TRUE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
     .battlePocket = BATTLE_POCKET_NONE,
@@ -22828,7 +22828,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM46 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 2000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -22836,7 +22836,7 @@ const ITEMDATA __data[] =
     .flingPower = 0,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = FALSE,
+    .prevent_toss = TRUE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
     .battlePocket = BATTLE_POCKET_NONE,
@@ -22893,7 +22893,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM47 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 3000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -22901,7 +22901,7 @@ const ITEMDATA __data[] =
     .flingPower = 0,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = FALSE,
+    .prevent_toss = TRUE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
     .battlePocket = BATTLE_POCKET_NONE,
@@ -22958,7 +22958,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM48 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 3000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -22966,7 +22966,7 @@ const ITEMDATA __data[] =
     .flingPower = 0,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = FALSE,
+    .prevent_toss = TRUE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
     .battlePocket = BATTLE_POCKET_NONE,
@@ -23023,7 +23023,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM49 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 1500,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -23031,7 +23031,7 @@ const ITEMDATA __data[] =
     .flingPower = 0,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = FALSE,
+    .prevent_toss = TRUE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
     .battlePocket = BATTLE_POCKET_NONE,
@@ -23088,7 +23088,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM50 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 5500,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -23096,7 +23096,7 @@ const ITEMDATA __data[] =
     .flingPower = 0,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = FALSE,
+    .prevent_toss = TRUE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
     .battlePocket = BATTLE_POCKET_NONE,
@@ -23153,7 +23153,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM51 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 2000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -23161,7 +23161,7 @@ const ITEMDATA __data[] =
     .flingPower = 0,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = FALSE,
+    .prevent_toss = TRUE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
     .battlePocket = BATTLE_POCKET_NONE,
@@ -23218,7 +23218,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM52 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 5500,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -23226,7 +23226,7 @@ const ITEMDATA __data[] =
     .flingPower = 0,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = FALSE,
+    .prevent_toss = TRUE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
     .battlePocket = BATTLE_POCKET_NONE,
@@ -23283,7 +23283,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM53 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 3000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -23291,7 +23291,7 @@ const ITEMDATA __data[] =
     .flingPower = 0,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = FALSE,
+    .prevent_toss = TRUE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
     .battlePocket = BATTLE_POCKET_NONE,
@@ -23348,7 +23348,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM54 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 2000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -23356,7 +23356,7 @@ const ITEMDATA __data[] =
     .flingPower = 0,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = FALSE,
+    .prevent_toss = TRUE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
     .battlePocket = BATTLE_POCKET_NONE,
@@ -23413,7 +23413,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM55 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 3000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -23421,7 +23421,7 @@ const ITEMDATA __data[] =
     .flingPower = 0,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = FALSE,
+    .prevent_toss = TRUE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
     .battlePocket = BATTLE_POCKET_NONE,
@@ -23478,7 +23478,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM56 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 2000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -23486,7 +23486,7 @@ const ITEMDATA __data[] =
     .flingPower = 0,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = FALSE,
+    .prevent_toss = TRUE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
     .battlePocket = BATTLE_POCKET_NONE,
@@ -23543,7 +23543,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM57 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 3000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -23551,7 +23551,7 @@ const ITEMDATA __data[] =
     .flingPower = 0,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = FALSE,
+    .prevent_toss = TRUE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
     .battlePocket = BATTLE_POCKET_NONE,
@@ -23608,7 +23608,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM58 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 2000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -23616,7 +23616,7 @@ const ITEMDATA __data[] =
     .flingPower = 0,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = FALSE,
+    .prevent_toss = TRUE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
     .battlePocket = BATTLE_POCKET_NONE,
@@ -23673,7 +23673,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM59 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 3000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -23681,7 +23681,7 @@ const ITEMDATA __data[] =
     .flingPower = 0,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = FALSE,
+    .prevent_toss = TRUE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
     .battlePocket = BATTLE_POCKET_NONE,
@@ -23738,7 +23738,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM60 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 3000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -23746,7 +23746,7 @@ const ITEMDATA __data[] =
     .flingPower = 0,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = FALSE,
+    .prevent_toss = TRUE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
     .battlePocket = BATTLE_POCKET_NONE,
@@ -23803,7 +23803,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM61 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 2000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -23811,7 +23811,7 @@ const ITEMDATA __data[] =
     .flingPower = 0,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = FALSE,
+    .prevent_toss = TRUE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
     .battlePocket = BATTLE_POCKET_NONE,
@@ -23868,7 +23868,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM62 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 3000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -23876,7 +23876,7 @@ const ITEMDATA __data[] =
     .flingPower = 0,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = FALSE,
+    .prevent_toss = TRUE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
     .battlePocket = BATTLE_POCKET_NONE,
@@ -23933,7 +23933,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM63 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 2000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -23941,7 +23941,7 @@ const ITEMDATA __data[] =
     .flingPower = 0,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = FALSE,
+    .prevent_toss = TRUE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
     .battlePocket = BATTLE_POCKET_NONE,
@@ -23998,7 +23998,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM64 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 7500,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -24006,7 +24006,7 @@ const ITEMDATA __data[] =
     .flingPower = 0,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = FALSE,
+    .prevent_toss = TRUE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
     .battlePocket = BATTLE_POCKET_NONE,
@@ -24063,7 +24063,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM65 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 3000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -24071,7 +24071,7 @@ const ITEMDATA __data[] =
     .flingPower = 0,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = FALSE,
+    .prevent_toss = TRUE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
     .battlePocket = BATTLE_POCKET_NONE,
@@ -24128,7 +24128,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM66 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 3000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -24136,7 +24136,7 @@ const ITEMDATA __data[] =
     .flingPower = 0,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = FALSE,
+    .prevent_toss = TRUE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
     .battlePocket = BATTLE_POCKET_NONE,
@@ -24193,7 +24193,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM67 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 1000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -24201,7 +24201,7 @@ const ITEMDATA __data[] =
     .flingPower = 0,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = FALSE,
+    .prevent_toss = TRUE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
     .battlePocket = BATTLE_POCKET_NONE,
@@ -24258,7 +24258,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM68 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 7500,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -24266,7 +24266,7 @@ const ITEMDATA __data[] =
     .flingPower = 0,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = FALSE,
+    .prevent_toss = TRUE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
     .battlePocket = BATTLE_POCKET_NONE,
@@ -24323,7 +24323,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM69 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 1500,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -24331,7 +24331,7 @@ const ITEMDATA __data[] =
     .flingPower = 0,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = FALSE,
+    .prevent_toss = TRUE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
     .battlePocket = BATTLE_POCKET_NONE,
@@ -24388,7 +24388,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM70 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 1000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -24396,7 +24396,7 @@ const ITEMDATA __data[] =
     .flingPower = 0,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = FALSE,
+    .prevent_toss = TRUE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
     .battlePocket = BATTLE_POCKET_NONE,
@@ -24453,7 +24453,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM71 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 3000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -24461,7 +24461,7 @@ const ITEMDATA __data[] =
     .flingPower = 0,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = FALSE,
+    .prevent_toss = TRUE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
     .battlePocket = BATTLE_POCKET_NONE,
@@ -24518,7 +24518,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM72 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 3000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -24526,7 +24526,7 @@ const ITEMDATA __data[] =
     .flingPower = 0,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = FALSE,
+    .prevent_toss = TRUE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
     .battlePocket = BATTLE_POCKET_NONE,
@@ -24583,7 +24583,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM73 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 2000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -24591,7 +24591,7 @@ const ITEMDATA __data[] =
     .flingPower = 0,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = FALSE,
+    .prevent_toss = TRUE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
     .battlePocket = BATTLE_POCKET_NONE,
@@ -24648,7 +24648,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM74 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 3000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -24656,7 +24656,7 @@ const ITEMDATA __data[] =
     .flingPower = 0,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = FALSE,
+    .prevent_toss = TRUE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
     .battlePocket = BATTLE_POCKET_NONE,
@@ -24713,7 +24713,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM75 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 1500,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -24721,7 +24721,7 @@ const ITEMDATA __data[] =
     .flingPower = 0,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = FALSE,
+    .prevent_toss = TRUE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
     .battlePocket = BATTLE_POCKET_NONE,
@@ -24778,7 +24778,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM76 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 2000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -24786,7 +24786,7 @@ const ITEMDATA __data[] =
     .flingPower = 0,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = FALSE,
+    .prevent_toss = TRUE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
     .battlePocket = BATTLE_POCKET_NONE,
@@ -24843,7 +24843,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM77 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 1500,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -24851,7 +24851,7 @@ const ITEMDATA __data[] =
     .flingPower = 0,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = FALSE,
+    .prevent_toss = TRUE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
     .battlePocket = BATTLE_POCKET_NONE,
@@ -24908,7 +24908,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM78 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 1500,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -24916,7 +24916,7 @@ const ITEMDATA __data[] =
     .flingPower = 0,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = FALSE,
+    .prevent_toss = TRUE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
     .battlePocket = BATTLE_POCKET_NONE,
@@ -24973,7 +24973,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM79 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 3000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -24981,7 +24981,7 @@ const ITEMDATA __data[] =
     .flingPower = 0,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = FALSE,
+    .prevent_toss = TRUE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
     .battlePocket = BATTLE_POCKET_NONE,
@@ -25038,7 +25038,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM80 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 3000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -25046,7 +25046,7 @@ const ITEMDATA __data[] =
     .flingPower = 0,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = FALSE,
+    .prevent_toss = TRUE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
     .battlePocket = BATTLE_POCKET_NONE,
@@ -25103,7 +25103,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM81 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 3000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -25111,7 +25111,7 @@ const ITEMDATA __data[] =
     .flingPower = 0,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = FALSE,
+    .prevent_toss = TRUE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
     .battlePocket = BATTLE_POCKET_NONE,
@@ -25168,7 +25168,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM82 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 1000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -25176,7 +25176,7 @@ const ITEMDATA __data[] =
     .flingPower = 0,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = FALSE,
+    .prevent_toss = TRUE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
     .battlePocket = BATTLE_POCKET_NONE,
@@ -25233,7 +25233,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM83 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 2000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -25241,7 +25241,7 @@ const ITEMDATA __data[] =
     .flingPower = 0,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = FALSE,
+    .prevent_toss = TRUE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
     .battlePocket = BATTLE_POCKET_NONE,
@@ -25298,7 +25298,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM84 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 3000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -25306,7 +25306,7 @@ const ITEMDATA __data[] =
     .flingPower = 0,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = FALSE,
+    .prevent_toss = TRUE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
     .battlePocket = BATTLE_POCKET_NONE,
@@ -25363,7 +25363,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM85 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 3000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -25371,7 +25371,7 @@ const ITEMDATA __data[] =
     .flingPower = 0,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = FALSE,
+    .prevent_toss = TRUE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
     .battlePocket = BATTLE_POCKET_NONE,
@@ -25428,7 +25428,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM86 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 3000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -25436,7 +25436,7 @@ const ITEMDATA __data[] =
     .flingPower = 0,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = FALSE,
+    .prevent_toss = TRUE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
     .battlePocket = BATTLE_POCKET_NONE,
@@ -25493,7 +25493,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM87 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 1500,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -25501,7 +25501,7 @@ const ITEMDATA __data[] =
     .flingPower = 0,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = FALSE,
+    .prevent_toss = TRUE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
     .battlePocket = BATTLE_POCKET_NONE,
@@ -25558,7 +25558,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM88 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 3000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -25566,7 +25566,7 @@ const ITEMDATA __data[] =
     .flingPower = 0,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = FALSE,
+    .prevent_toss = TRUE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
     .battlePocket = BATTLE_POCKET_NONE,
@@ -25623,7 +25623,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM89 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 3000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -25631,7 +25631,7 @@ const ITEMDATA __data[] =
     .flingPower = 0,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = FALSE,
+    .prevent_toss = TRUE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
     .battlePocket = BATTLE_POCKET_NONE,
@@ -25688,7 +25688,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM90 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 2000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -25696,7 +25696,7 @@ const ITEMDATA __data[] =
     .flingPower = 0,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = FALSE,
+    .prevent_toss = TRUE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
     .battlePocket = BATTLE_POCKET_NONE,
@@ -25753,7 +25753,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM91 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 3000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -25761,7 +25761,7 @@ const ITEMDATA __data[] =
     .flingPower = 0,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = FALSE,
+    .prevent_toss = TRUE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
     .battlePocket = BATTLE_POCKET_NONE,
@@ -25818,7 +25818,7 @@ const ITEMDATA __data[] =
 
 [ITEM_TM92 - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 5500,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -25826,7 +25826,7 @@ const ITEMDATA __data[] =
     .flingPower = 0,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = FALSE,
+    .prevent_toss = TRUE,
     .selectable = FALSE,
     .fieldPocket = POCKET_TMHMS,
     .battlePocket = BATTLE_POCKET_NONE,

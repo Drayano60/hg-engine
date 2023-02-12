@@ -1211,12 +1211,12 @@ pokemon SPECIES_SMEARGLE
 pokemon SPECIES_SMEARGLE
 
 // hoenn encounter slots
-pokemon SPECIES_HAPPINY
-pokemon SPECIES_HAPPINY
+pokemon SPECIES_TOGEPI
+pokemon SPECIES_TOGEPI
 
 // sinnoh encounter slots
-pokemon SPECIES_HAPPINY
-pokemon SPECIES_HAPPINY
+pokemon SPECIES_TOGEPI
+pokemon SPECIES_TOGEPI
 
 // surf encounters
 encounter SPECIES_WOOPER, 25, 25

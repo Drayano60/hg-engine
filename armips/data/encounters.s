@@ -8199,7 +8199,7 @@ encounter SPECIES_NONE, 0, 0
 
 // rock smash encounters
 encounter SPECIES_GRAVELER, 60, 60
-encounter SPECIES_GRAVELER, 60, 60
+encounter SPECIES_NOSEPASS, 60, 60
 
 // old rod encounters
 encounter SPECIES_NONE, 0, 0

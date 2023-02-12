@@ -326,36 +326,36 @@ A transparent device overflowing with\ndubious data.\nIts producer is unknown.
 A cloth imbued with horrifyingly strong\nspiritual energy.\nIt is loved by a certain Pokémon.
 An item to be held by a Pokémon.\nIt is a sharply hooked claw that ups\nthe holder’s critical-hit ratio.
 An item to be held by a Pokémon.\nIt may cause the foe to flinch when\nthe holder inflicts damage.
-The user focuses its mind before\nlaunching this attack. It will fail if\nthe user is hit before it is used.
-Sharp, huge claws hook and slash\nthe foe quickly and with great\npower.
-The foe is hit with a pulsing blast\nof water. It may also confuse the\ntarget.
+The user sharpens its claws to boost\nits Attack stat and accuracy.
+Sharp, huge claws hook and slash the\nfoe quickly and with great power.\nCritical hits land more easily.
+The user materializes an odd psychic\nwave to attack the foe. This attack\ndoes physical damage.
 The user quietly focuses its mind and\ncalms its spirit to raise its Sp. Atk\nand Sp. Def stats.
-The foe is scared off, to be replaced\nby another Pokémon in its party.\nIn the wild, the battle ends.
-A move that leaves the foe badly\npoisoned. This poison damage\nworsens every turn.
+The user yells as if it is ranting about\nsomething, making the target’s\nSp. Atk stat decrease.
+A move that leaves the target badly\npoisoned. This poison damage\nworsens every turn.
 Summons a hailstorm that lasts for\nfive turns. The hailstorm damages\nall types except Ice.
 The user tenses its muscles to bulk up\nits body, boosting both its Attack and\nDefense stats.
-The user forcefully shoots seeds at\nthe foe. Two to five seeds are shot in\nrapid succession.
-A variable move that changes type\nand power depending on the hidden\nability of the Pokémon using it.
+The target is drenched with a poisonous\nliquid. Its power is doubled if the\ntarget is poisoned.
+A variable move that changes type\ndepending on the Pokémon using it.
 The user intensifies the sun for\nfive turns, powering up Fire-type\nmoves.
 The foe is taunted into a rage that\nallows it to use only attack moves for\ntwo to four turns.
-The foe is struck with an icy-cold\nbeam of energy. It may also freeze\nthe target solid.
-A howling blizzard is summoned to\nstrike the foe. It may also freeze\nthe target solid.
+The foe is struck with an icy-cold\nbeam of energy. It has a 10% chance\nto freeze the target solid.
+A howling blizzard is summoned to\nstrike the foe. It has a 10% chance\nto freeze the target solid.
 The foe is attacked with a powerful\nbeam. The user must rest on the next\nturn to regain its energy.
 A wondrous wall of light is put up to\nsuppress damage from special attacks\nfor five turns.
 It enables the user to evade all\nattacks. Its chance of failing rises\nif it is used in succession.
 The user summons a heavy rain that\nfalls for five turns, powering up\nWater-type moves.
 A nutrient-draining attack. The user’s\nHP is restored by half the damage\ntaken by the target.
 The user creates a protective field\nthat prevents status problems like\npoison, paralysis, burn, and sleep.
-A full-power attack that grows more\npowerful the less the user likes its\nTrainer.
+The user damages opposing Pokémon by\nemitting a powerful flash.
 A two-turn attack. The user gathers\nlight, then blasts a bundled beam on\nthe second turn.
-The foe is slammed with a sturdy\ntail of steel. It may also lower the\ntarget’s Defense stat if it hits.
-A strong electric blast is loosed at\nthe foe. It may also leave the foe\nparalyzed.
-A wicked thunderbolt is dropped on the\nfoe to inflict damage. It may also\nleave the target paralyzed.
+The foe is slammed with a sturdy tail\nof steel. It has a 20% chance to lower\nthe target’s Defense stat if it hits.
+A strong electric blast is loosed at\nthe foe. It has a 10% chance to leave\nthe foe paralyzed.
+A wicked thunderbolt is dropped on the\nfoe to inflict damage. It has a 30%\nchance to leave the foe paralyzed.
 The user sets off an earthquake\nthat hits all the Pokémon in the\nbattle.
-A full-power attack that grows more\npowerful the more the user likes its\nTrainer.
-The user burrows, then attacks on the\nsecond turn. It can also be used to\nexit dungeons.
-The foe is hit by a strong telekinetic\nforce. It may also reduce the foe’s\nSp. Def stat.
-The user hurls a shadowy blob at the\nfoe. It may also lower the foe’s\nSp. Def stat.
+The user attacks the target’s legs\nswiftly, reducing the target’s Speed\nstat.
+A blood-draining attack. The user’s HP\nis restored by half the damage taken\nby the target.
+The foe is hit by a strong telekinetic\nforce. It has a 10% chance to lower\nthe foe’s Sp. Def stat.
+The user hurls a shadowy blob at the\nfoe. It has a 20% chance to lower the\nfoe’s Sp. Def stat.
 The user attacks with tough fists,\netc. It can also break any barrier\nsuch as Light Screen and Reflect.
 The user begins moving so quickly\nthat it creates illusory copies to\nraise its evasiveness.
 A wondrous wall of light is put up to\nsuppress damage from physical attacks\nfor five turns.

@@ -1,15 +1,15 @@
 -
 Pound
 Karate Chop
-DoubleSlap
+Double Slap
 Comet Punch
 Mega Punch
 Pay Day
 Fire Punch
 Ice Punch
-ThunderPunch
+Thunder Punch
 Scratch
-ViceGrip
+Vise Grip
 Guillotine
 Razor Wind
 Swords Dance
@@ -26,7 +26,7 @@ Double Kick
 Mega Kick
 Jump Kick
 Rolling Kick
-Sand-Attack
+Sand Attack
 Headbutt
 Horn Attack
 Fury Attack
@@ -47,7 +47,7 @@ Growl
 Roar
 Sing
 Supersonic
-SonicBoom
+Sonic Boom
 Disable
 Acid
 Ember
@@ -59,7 +59,7 @@ Surf
 Ice Beam
 Blizzard
 Psybeam
-BubbleBeam
+Bubble Beam
 Aurora Beam
 Hyper Beam
 Peck
@@ -74,15 +74,15 @@ Mega Drain
 Leech Seed
 Growth
 Razor Leaf
-SolarBeam
-PoisonPowder
+Solar Beam
+Poison Powder
 Stun Spore
 Sleep Powder
 Petal Dance
 String Shot
 Dragon Rage
 Fire Spin
-ThunderShock
+Thunder Shock
 Thunderbolt
 Thunder Wave
 Thunder
@@ -106,7 +106,7 @@ Double Team
 Recover
 Harden
 Minimize
-SmokeScreen
+Smokescreen
 Confuse Ray
 Withdraw
 Defense Curl
@@ -118,7 +118,7 @@ Focus Energy
 Bide
 Metronome
 Mirror Move
-Selfdestruct
+Self-Destruct
 Egg Bomb
 Lick
 Smog
@@ -133,8 +133,8 @@ Spike Cannon
 Constrict
 Amnesia
 Kinesis
-Softboiled
-Hi Jump Kick
+Soft-Boiled
+High Jump Kick
 Glare
 Dream Eater
 Poison Gas
@@ -183,7 +183,7 @@ Powder Snow
 Protect
 Mach Punch
 Scary Face
-Faint Attack
+Feint Attack
 Sweet Kiss
 Belly Drum
 Sludge Bomb
@@ -221,9 +221,9 @@ Safeguard
 Pain Split
 Sacred Fire
 Magnitude
-DynamicPunch
+Dynamic Punch
 Megahorn
-DragonBreath
+Dragon Breath
 Baton Pass
 Encore
 Pursuit
@@ -243,8 +243,8 @@ Sunny Day
 Crunch
 Mirror Coat
 Psych Up
-ExtremeSpeed
-AncientPower
+Extreme Speed
+Ancient Power
 Shadow Ball
 Future Sight
 Rock Smash
@@ -263,7 +263,7 @@ Will-O-Wisp
 Memento
 Facade
 Focus Punch
-SmellingSalt
+Smelling Salts
 Follow Me
 Nature Power
 Charge
@@ -295,7 +295,7 @@ Camouflage
 Tail Glow
 Luster Purge
 Mist Ball
-FeatherDance
+Feather Dance
 Teeter Dance
 Blaze Kick
 Mud Sport
@@ -318,7 +318,7 @@ Odor Sleuth
 Rock Tomb
 Silver Wind
 Metal Sound
-GrassWhistle
+Grass Whistle
 Tickle
 Cosmic Power
 Water Spout

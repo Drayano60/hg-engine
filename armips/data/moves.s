@@ -2848,7 +2848,7 @@ movedata MOVE_SCARY_FACE
     contesttype CONTEST_TOUGH
     terminatedata
 
-movedata MOVE_FAINT_ATTACK
+movedata MOVE_FEINT_ATTACK
     battleeffect 17
     pss SPLIT_PHYSICAL
     basepower 60

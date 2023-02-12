@@ -5955,7 +5955,7 @@ tutordata SPECIES_543, \
                   \
                   0
 
-tutordata SPECIES_SYLVEON, \
+tutordata SPECIES_VICTINI, \
                   \
                   \
                   \
@@ -5965,7 +5965,7 @@ tutordata SPECIES_SYLVEON, \
                   \
                   0
 
-tutordata SPECIES_WYRDEER, \
+tutordata SPECIES_SNIVY, \
                   \
                   \
                   \
@@ -5975,18 +5975,7 @@ tutordata SPECIES_WYRDEER, \
                   \
                   0
 
-tutordata SPECIES_KLEAVOR, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_URSALUNA, \
+tutordata SPECIES_SERVINE, \
                   \
                   \
                   \
@@ -5997,7 +5986,7 @@ tutordata SPECIES_URSALUNA, \
                   0
 
 
-tutordata SPECIES_ANNIHILAPE, \
+tutordata SPECIES_SERPERIOR, \
                   \
                   \
                   \
@@ -6008,7 +5997,7 @@ tutordata SPECIES_ANNIHILAPE, \
                   0
 
 
-tutordata SPECIES_FARIGIRAF, \
+tutordata SPECIES_TEPIG, \
                   \
                   \
                   \
@@ -6019,7 +6008,18 @@ tutordata SPECIES_FARIGIRAF, \
                   0
 
 
-tutordata SPECIES_DUDUNSPARCE, \
+tutordata SPECIES_PIGNITE, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_EMBOAR, \
                   \
                   \
                   \
@@ -8219,7 +8219,7 @@ tutordata SPECIES_AURORUS, \
                   0
 
 
-tutordata SPECIES_X_SYLVEON, \
+tutordata SPECIES_SYLVEON, \
                   \
                   \
                   \
@@ -10408,7 +10408,7 @@ tutordata SPECIES_CALYREX, \
                   0
 
 
-tutordata SPECIES_X_WYRDEER, \
+tutordata SPECIES_WYRDEER, \
                   \
                   \
                   \
@@ -10419,7 +10419,7 @@ tutordata SPECIES_X_WYRDEER, \
                   0
 
 
-tutordata SPECIES_X_KLEAVOR, \
+tutordata SPECIES_KLEAVOR, \
                   \
                   \
                   \
@@ -10430,7 +10430,7 @@ tutordata SPECIES_X_KLEAVOR, \
                   0
 
 
-tutordata SPECIES_X_URSALUNA, \
+tutordata SPECIES_URSALUNA, \
                   \
                   \
                   \

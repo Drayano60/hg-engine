@@ -428,7 +428,7 @@ HM07
 HM08
 ???
 Loot Sack
-Rule Book
+Devon Scope
 Poké Radar
 Point Card
 Journal
@@ -455,12 +455,12 @@ Lunar Wing
 Member Card
 Azure Flute
 S.S. Ticket
-Contest Pass
+GS Ball
 Magma Stone
 Parcel
-Coupon 1
-Coupon 2
-Coupon 3
+Ice Stone
+Prism Scale
+Linking Cord
 Storage Key
 SecretPotion
 Vs. Recorder

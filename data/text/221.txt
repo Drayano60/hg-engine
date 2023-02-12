@@ -428,7 +428,7 @@ The user charges the foe at an\nawesome speed. It can also be used\nto climb a w
 A charging attack that may also leave\nthe foe confused. It can also be used\nto scale rocky walls.
 -----
 A sturdy, spacious bag that is used\nto carry loot obtained in the coal\nmine.
-It lists the rules for holding battles.\nFor linked battles, you may choose\nwhich set of rules you wish to use.
+Made by Devon Corporation, this is a\nspecial device that signals the\npresence of any unseen Pokémon.
 A tool that can search out Pokémon\nthat are hiding in grass. Its battery is\nrecharged as you walk.
 A card that lists the Battle Points\nyou have earned.\n
 A notebook that keeps a day-to-day\nrecord of your adventure so far.\n
@@ -455,12 +455,12 @@ A feather that glows like the moon.\nIt is said to possess the power to\ndispel 
 A card needed for entering the inn in\nCanalave City. Oddly, the last date\nmarked on it was 50 years ago.
 A flute that puts out echoing sounds\nthat do not seem to be of this world.\nIt is unknown who made it.
 The ticket required for sailing on the\nferry S.S. Aqua. It has a drawing of a\nship on it.
-The pass required for entering Pokémon\nContests. It has a drawing of an award\nribbon on it.
+GS Ball Description
 A stone formed when boulders melted in\nintensely hot magma, then hardened.\nMagma remains sealed inside.
 A parcel entrusted in your care.\nYou are supposed to deliver it to your\nchildhood friend who left Twinleaf Town.
-A coupon to be exchanged for a\nPokémon Watch (Pokétch for short).\nThree coupons are needed.
-A coupon to be exchanged for a\nPokémon Watch (Pokétch for short).\nThree coupons are needed.
-A coupon to be exchanged for a\nPokémon Watch (Pokétch for short).\nThree coupons are needed.
+A peculiar stone that makes certain\nspecies of Pokémon evolve.\nIt has a snowflake pattern in it.
+A mysterious scale that causes\na certain Pokémon to evolve.\nIt shines in rainbow colors.
+A string exuding an odd energy that\nmakes you feel a sense of connection.\nIt’s loved by certain Pokémon.
 The key to Team Galactic’s sinister\nwarehouse located at the edge of\nVeilstone City.
 A fantastic medicine dispensed by the\npharmacy in Cianwood City. It fully\nheals a Pokémon of any ailment.
 An amazing device that can record a\nbattle either between friends or at a\nspecial battle facility.

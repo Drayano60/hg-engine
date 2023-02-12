@@ -428,7 +428,7 @@ an {COLOR 255}HM07{COLOR 0}
 an {COLOR 255}HM08{COLOR 0}
 ???
 a {COLOR 255}Loot Sack{COLOR 0}
-a {COLOR 255}Rule Book{COLOR 0}
+a {COLOR 255}Devon Scope{COLOR 0}
 a {COLOR 255}Poké Radar{COLOR 0}
 a {COLOR 255}Point Card{COLOR 0}
 a {COLOR 255}Journal{COLOR 0}
@@ -455,12 +455,12 @@ a {COLOR 255}Lunar Wing{COLOR 0}
 a {COLOR 255}Member Card{COLOR 0}
 an {COLOR 255}Azure Flute{COLOR 0}
 an {COLOR 255}S.S. Ticket{COLOR 0}
-a {COLOR 255}Contest Pass{COLOR 0}
+a {COLOR 255}GS Ball{COLOR 0}
 a {COLOR 255}Magma Stone{COLOR 0}
 a {COLOR 255}Parcel{COLOR 0}
-a {COLOR 255}Coupon 1{COLOR 0}
-a {COLOR 255}Coupon 2{COLOR 0}
-a {COLOR 255}Coupon 3{COLOR 0}
+an {COLOR 255}Ice Stone{COLOR 0}
+a {COLOR 255}Prism Scale{COLOR 0}
+a {COLOR 255}Linking Cord{COLOR 0}
 a {COLOR 255}Storage Key{COLOR 0}
 a {COLOR 255}SecretPotion{COLOR 0}
 a {COLOR 255}Vs. Recorder{COLOR 0}

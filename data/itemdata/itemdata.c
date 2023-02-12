@@ -26466,7 +26466,7 @@ const ITEMDATA __data[] =
     },
 },
 
-[ITEM_RULE_BOOK - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
+[ITEM_DEVON_SCOPE - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
     .price = 0,
     .holdEffect = 0,
@@ -28221,7 +28221,7 @@ const ITEMDATA __data[] =
     },
 },
 
-[ITEM_CONTEST_PASS - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
+[ITEM_GS_BALL - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
     .price = 0,
     .holdEffect = 0,
@@ -28416,23 +28416,23 @@ const ITEMDATA __data[] =
     },
 },
 
-[ITEM_COUPON_1 - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
+[ITEM_ICE_STONE - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
-    .price = 0,
+    .price = 3000,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
     .flingEffect = 0,
-    .flingPower = 0,
+    .flingPower = 30,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = TRUE,
+    .prevent_toss = FALSE,
     .selectable = FALSE,
-    .fieldPocket = POCKET_KEY_ITEMS,
+    .fieldPocket = POCKET_ITEMS,
     .battlePocket = BATTLE_POCKET_NONE,
-    .fieldUseFunc = 0,
+    .fieldUseFunc = 20,
     .battleUseFunc = 0,
-    .partyUse = 0,
+    .partyUse = 1,
     .partyUseParam = {
         .slp_heal = FALSE,
         .psn_heal = FALSE,
@@ -28445,7 +28445,7 @@ const ITEMDATA __data[] =
         .revive = FALSE,
         .revive_all = FALSE,
         .level_up = FALSE,
-        .evolve = FALSE,
+        .evolve = TRUE,
         .atk_stages = 0,
         .def_stages = 0,
         .spatk_stages = 0,
@@ -28481,23 +28481,23 @@ const ITEMDATA __data[] =
     },
 },
 
-[ITEM_COUPON_2 - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
+[ITEM_PRISM_SCALE - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
-    .price = 0,
+    .price = 3000,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
     .flingEffect = 0,
-    .flingPower = 0,
+    .flingPower = 30,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = TRUE,
+    .prevent_toss = FALSE,
     .selectable = FALSE,
-    .fieldPocket = POCKET_KEY_ITEMS,
+    .fieldPocket = POCKET_ITEMS,
     .battlePocket = BATTLE_POCKET_NONE,
-    .fieldUseFunc = 0,
+    .fieldUseFunc = 20,
     .battleUseFunc = 0,
-    .partyUse = 0,
+    .partyUse = 1,
     .partyUseParam = {
         .slp_heal = FALSE,
         .psn_heal = FALSE,
@@ -28510,7 +28510,7 @@ const ITEMDATA __data[] =
         .revive = FALSE,
         .revive_all = FALSE,
         .level_up = FALSE,
-        .evolve = FALSE,
+        .evolve = TRUE,
         .atk_stages = 0,
         .def_stages = 0,
         .spatk_stages = 0,
@@ -28546,23 +28546,23 @@ const ITEMDATA __data[] =
     },
 },
 
-[ITEM_COUPON_3 - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
+[ITEM_LINKING_CORD - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
-    .price = 0,
+    .price = 3000,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
     .flingEffect = 0,
-    .flingPower = 0,
+    .flingPower = 30,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = TRUE,
+    .prevent_toss = FALSE,
     .selectable = FALSE,
-    .fieldPocket = POCKET_KEY_ITEMS,
+    .fieldPocket = POCKET_ITEMS,
     .battlePocket = BATTLE_POCKET_NONE,
-    .fieldUseFunc = 0,
+    .fieldUseFunc = 20,
     .battleUseFunc = 0,
-    .partyUse = 0,
+    .partyUse = 1,
     .partyUseParam = {
         .slp_heal = FALSE,
         .psn_heal = FALSE,
@@ -28575,7 +28575,7 @@ const ITEMDATA __data[] =
         .revive = FALSE,
         .revive_all = FALSE,
         .level_up = FALSE,
-        .evolve = FALSE,
+        .evolve = TRUE,
         .atk_stages = 0,
         .def_stages = 0,
         .spatk_stages = 0,

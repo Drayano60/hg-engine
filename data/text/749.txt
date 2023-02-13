@@ -11,9 +11,9 @@ The foe is punched\nwith an electrified\nfist.\nThis has a 10% chance\nto paraly
 Hard, pointed, and\nsharp claws rake the\nfoe to inflict damage.\n\n
 Huge, impressive\npincers grip and\nsqueeze the foe.\n\n
 A vicious, tearing\nattack with pincers.\nThe foe will faint\ninstantly if this\nattack hits.
-Blades of wind hit\nopposing Pokémon.\nThis move has a high\ncritical-hit ratio.
+Blades of wind hit\nopposing Pokémon.\nCritical hits land\nmore easily.
 A frenetic dance to\nuplift the fighting\nspirit. It sharply\nraises the user’s\nAttack stat.
-The foe is cut with a\nscythe or a claw,\nwielded like a blade.\nThis move has a high\ncritical-hit ratio.
+The foe is cut with a\nscythe or a claw,\nwielded like a blade.\nCritical hits land\nmore easily.
 A gust of wind is\nwhipped up by wings\nand launched at the\nfoe to inflict damage.\n
 The foe is struck\nwith large, imposing\nwings spread wide\nto inflict damage.\n
 The foe is blown away,\nto be replaced by\nanother Pokémon\nin its party. In the\nwild, the battle ends.
@@ -247,7 +247,7 @@ The user charges the\nfoe at blinding speed.\nThis attack always\ngoes before an
 The user attacks with\na prehistoric power.\nThis has a 10% chance\nto raise every stat\nat once.
 The user hurls a\nshadowy blob at the\nfoe.\nThis has a 20% chance\nto lower Sp. Def.
 Two turns after this\nmove is used, the foe\nis attacked with a\nhunk of psychic\nenergy.
-The user hits with a\npunch that lowers\nthe target’s Defense.
+The user hits the foe\nwith a shattering\npunch. This always\nlowers the foe’s\nDefense stat.
 Traps the foe inside a\nwhirlpool that lasts\nfor two to five turns.\nThe user can pass\nthrough whirlpools.
 The user gets all the\nparty Pokémon to\nattack the foe. The\nmore party Pokémon,\nthe more damage.
 An attack that hits\nfirst and makes the\ntarget flinch. It only\nworks the first turn\nthe user is in battle.

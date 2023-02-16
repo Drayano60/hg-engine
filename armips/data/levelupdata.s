@@ -2211,14 +2211,15 @@ levelup SPECIES_FARFETCHD
     learnset MOVE_CLOSE_COMBAT, 56
     terminatelearnset
 
+// NEW: Double Kick
 levelup SPECIES_DODUO
     learnset MOVE_PECK, 1
     learnset MOVE_GROWL, 1
     learnset MOVE_LEER, 1
     learnset MOVE_QUICK_ATTACK, 3
     learnset MOVE_FURY_ATTACK, 6
-    learnset MOVE_PURSUIT, 9
-    learnset MOVE_RAGE, 12
+    learnset MOVE_DOUBLE_KICK, 9
+    learnset MOVE_PURSUIT, 12
     learnset MOVE_PLUCK, 15
     learnset MOVE_UPROAR, 18
     learnset MOVE_FEINT_ATTACK, 21
@@ -2233,17 +2234,18 @@ levelup SPECIES_DODUO
     learnset MOVE_BRAVE_BIRD, 60
     terminatelearnset
 
-// NEW: Lunge (BDSP)
+// NEW: Lunge (BDSP), Double Kick
 levelup SPECIES_DODRIO
     learnset MOVE_MIRROR_MOVE, 1
     learnset MOVE_LUNGE, 1
+    learnset MOVE_RAGE, 1
     learnset MOVE_PECK, 1
     learnset MOVE_GROWL, 1
     learnset MOVE_LEER, 1
     learnset MOVE_QUICK_ATTACK, 3
     learnset MOVE_FURY_ATTACK, 6
-    learnset MOVE_PURSUIT, 9
-    learnset MOVE_RAGE, 12
+    learnset MOVE_DOUBLE_KICK, 9
+    learnset MOVE_PURSUIT, 12
     learnset MOVE_PLUCK, 15
     learnset MOVE_UPROAR, 18
     learnset MOVE_FEINT_ATTACK, 21

@@ -4969,12 +4969,13 @@ levelup SPECIES_AMPHAROS
     learnset MOVE_THUNDER, 59
     terminatelearnset
 
+// NEW: Disarming Voice
 levelup SPECIES_AZURILL
     learnset MOVE_HELPING_HAND, 1
     learnset MOVE_SPLASH, 1
     learnset MOVE_BUBBLE, 1
     learnset MOVE_TAIL_WHIP, 1
-    learnset MOVE_WATER_GUN, 5
+    learnset MOVE_DISARMING_VOICE, 5
     learnset MOVE_SING, 10
     learnset MOVE_CHARM, 15
     learnset MOVE_SLAM, 20

@@ -9,7 +9,7 @@ TODO SMALL:
 - [x] Stop Sheer Force negating abilities like Static (thanks Blu!)
 - [x] Adjust level up moves to skirt around double move level bug (if needed) (thanks Blu!)
 - [ ] Think of a way to skirt around the starters not able to have HAs issue
-- [ ] Add item sprites for Eviolite and Assault Vest
+- [ ] Add item sprites for Eviolite and Assault Vest and Fishing Rod
 
 TODO BIG:
 - [x] Implement wild Pokémon changes

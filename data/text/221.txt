@@ -443,7 +443,7 @@ A mythical chain that is said to link\nthe legendary Pokémon that created\nthe 
 A very convenient map that can be\nviewed anytime. It even shows your\npresent location.
 A device that indicates Trainers who\nwant to battle. Its battery charges\nwhile you walk.
 A case for holding coins obtained at\nthe Game Corner.\nIt holds up to 50,000 coins.
-An old and beat-up fishing rod.\nUse it by any body of water to fish for\nwild aquatic Pokémon.
+Use it by any body of water to fish for\nwild aquatic Pokémon.
 A new, good-quality fishing rod.\nUse it by any body of water to fish for\nwild aquatic Pokémon.
 An awesome, high-tech fishing rod.\nUse it by any body of water to fish for\nwild aquatic Pokémon.
 A watering can shaped like a PSYDUCK.\nIt helps promote healthy growth of\nBerries planted in soft soil.

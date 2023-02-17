@@ -26986,19 +26986,19 @@ const ITEMDATA __data[] =
     },
 },
 
-[ITEM_WORKS_KEY - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
+[ITEM_EVIOLITE - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
-    .price = 0,
-    .holdEffect = 0,
-    .holdEffectParam = 0,
+    .price = 200,
+    .holdEffect = HOLD_EFFECT_EVIOLITE,
+    .holdEffectParam = 10,
     .pluckEffect = 0,
     .flingEffect = 0,
-    .flingPower = 0,
+    .flingPower = 40,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = TRUE,
+    .prevent_toss = FALSE,
     .selectable = FALSE,
-    .fieldPocket = POCKET_KEY_ITEMS,
+    .fieldPocket = POCKET_ITEMS,
     .battlePocket = BATTLE_POCKET_NONE,
     .fieldUseFunc = 0,
     .battleUseFunc = 0,
@@ -27116,19 +27116,19 @@ const ITEMDATA __data[] =
     },
 },
 
-[ITEM_GALACTIC_KEY - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
+[ITEM_ASSAULT_VEST - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
-    .price = 0,
-    .holdEffect = 0,
-    .holdEffectParam = 0,
+    .price = 1000,
+    .holdEffect = HOLD_EFFECT_ASSAULT_VEST,
+    .holdEffectParam = 10,
     .pluckEffect = 0,
     .flingEffect = 0,
-    .flingPower = 0,
+    .flingPower = 80,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = TRUE,
+    .prevent_toss = FALSE,
     .selectable = FALSE,
-    .fieldPocket = POCKET_KEY_ITEMS,
+    .fieldPocket = POCKET_ITEMS,
     .battlePocket = BATTLE_POCKET_NONE,
     .fieldUseFunc = 0,
     .battleUseFunc = 0,

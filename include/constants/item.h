@@ -444,9 +444,9 @@
 #define ITEM_FASHION_CASE    435
 #define ITEM_SEAL_BAG        436
 #define ITEM_PAL_PAD         437
-#define ITEM_WORKS_KEY       438
+#define ITEM_EVIOLITE        438
 #define ITEM_OLD_CHARM       439
-#define ITEM_GALACTIC_KEY    440
+#define ITEM_ASSAULT_VEST    440
 #define ITEM_RED_CHAIN       441
 #define ITEM_TOWN_MAP        442
 #define ITEM_VS_SEEKER       443

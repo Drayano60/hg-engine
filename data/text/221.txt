@@ -436,9 +436,9 @@ A case for storing Seals that can be\napplied to the Capsule cases of\nPoké Bal
 A fancy case for the tidy arrangement\nand storage of whimsical Pokémon\nAccessories.
 A tiny bag that can hold ten Seals for\ndecorating Poké Balls.
 A convenient notepad that is used for\nregistering your friends, Friend Codes,\nand keeping a record of game play.
-A large key for operating the doors of\nthe Valley Windworks in the canyon.\nIt was held by a Team Galactic Grunt.
+A mysterious evolutionary lump. When\nheld, it boosts the Defense and Sp. Def\nof a Pokémon that can still evolve.
 An ancient good-luck charm made of\nPokémon bones to be taken to the elder\nof Celestic Town.
-A card key for disengaging security\nsystems in the Galactic HQ. Losing it\ncan result in punishment, apparently.
+An item to be held by a Pokémon. This\noffensive vest boosts the holder’s\nSp. Def but makes status moves fail.
 A mythical chain that is said to link\nthe legendary Pokémon that created\nthe Sinnoh region.
 A very convenient map that can be\nviewed anytime. It even shows your\npresent location.
 A device that indicates Trainers who\nwant to battle. Its battery charges\nwhile you walk.

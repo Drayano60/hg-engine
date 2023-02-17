@@ -2226,12 +2226,12 @@ levelup SPECIES_DODUO
     learnset MOVE_DOUBLE_HIT, 24
     learnset MOVE_AGILITY, 27
     learnset MOVE_ENDEAVOR, 30
-    learnset MOVE_DRILL_PECK, 35
-    learnset MOVE_ACUPRESSURE, 40
-    learnset MOVE_JUMP_KICK, 45
-    learnset MOVE_THRASH, 50
-    learnset MOVE_SWORDS_DANCE, 55
-    learnset MOVE_BRAVE_BIRD, 60
+    learnset MOVE_DRILL_PECK, 34
+    learnset MOVE_ACUPRESSURE, 38
+    learnset MOVE_JUMP_KICK, 42
+    learnset MOVE_THRASH, 46
+    learnset MOVE_SWORDS_DANCE, 50
+    learnset MOVE_BRAVE_BIRD, 54
     terminatelearnset
 
 // NEW: Lunge (BDSP), Double Kick
@@ -2253,12 +2253,12 @@ levelup SPECIES_DODRIO
     learnset MOVE_AGILITY, 27
     learnset MOVE_ENDEAVOR, 30
     learnset MOVE_TRI_ATTACK, 31
-    learnset MOVE_DRILL_PECK, 35
-    learnset MOVE_ACUPRESSURE, 40
-    learnset MOVE_JUMP_KICK, 45
-    learnset MOVE_THRASH, 50
-    learnset MOVE_SWORDS_DANCE, 55
-    learnset MOVE_BRAVE_BIRD, 60
+    learnset MOVE_DRILL_PECK, 34
+    learnset MOVE_ACUPRESSURE, 38
+    learnset MOVE_JUMP_KICK, 42
+    learnset MOVE_THRASH, 46
+    learnset MOVE_SWORDS_DANCE, 50
+    learnset MOVE_BRAVE_BIRD, 54
     terminatelearnset
 
 // NEW: Belly Drum, Wave Crash

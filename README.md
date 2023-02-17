@@ -5,11 +5,13 @@ It uses hg-engine (https://github.com/BluRosie/hg-engine) as a base. Big thanks 
 Instructions on how to build the repo can be found there.
 
 TODO SMALL:
-- [ ] Fix Moxie activating on ally deaths
-- [ ] Stop Sheer Force negating abilities like Static
-- [ ] Adjust level up moves to skirt around double move level bug (if needed)
+- [x] Fix Moxie activating on ally deaths (thanks Blu!)
+- [x] Stop Sheer Force negating abilities like Static (thanks Blu!)
+- [x] Adjust level up moves to skirt around double move level bug (if needed) (thanks Blu!)
+- [ ] Think of a way to skirt around the starters not able to have HAs issue
+- [ ] Add item sprites for Eviolite and Assault Vest
 
 TODO BIG:
-- [ ] Implement wild Pokémon changes
+- [x] Implement wild Pokémon changes
 - [ ] Implement item changes
 - [ ] Implement trainer changes

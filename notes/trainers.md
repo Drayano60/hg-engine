@@ -228,7 +228,7 @@ Tips:
 
 ## Leader Falkner <!-- 020 -->
 
-| Pokemon   | Level | Item         | Ability      | Nature | IV  | EV               | Moves       |
+| Pokemon   | Level | Item         | Ability      | Nature | IV  | EV               | Moves       |              |              |               |
 | --------- | ----- | ------------ | ------------ | ------ | --- | ---------------- | ----------- | ------------ | ------------ | ------------- |
 | Doduo     | 14    | Sharp Beak   | Early Bird   | Jolly  | 30  | 44 Atk, 44 Spd   | Pluck       | Quick Attack | Pursuit      | Double Kick\* |
 | Natu      | 14    | Oran Berry   | Magic Bounce | Timid  | 30  | 44 SpAtk, 44 Spd | Air Cutter  | Confusion    | Ominous Wind | Grass Knot    |

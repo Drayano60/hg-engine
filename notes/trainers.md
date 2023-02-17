@@ -228,9 +228,9 @@ Tips:
 
 ## Leader Falkner <!-- 020 -->
 
-| Pokemon   | Level | Item         | Ability      | Nature | IV  | EV             | Moves                                           |
-| --------- | ----- | ------------ | ------------ | ------ | --- | -------------- | ----------------------------------------------- |
-| Doduo     | 14    | Sharp Beak   | Early Bird   | Jolly  | 30  | 44/44/0/0/0/44 | Pluck, Quick Attack, Pursuit, Double Kick\*     |
-| Natu      | 14    | Oran Berry   | Magic Bounce | Timid  | 30  | 44/0/0/44/0/44 | Air Cutter, Confusion, Ominous Wind, Grass Knot |
-| Murkrow   | 14    | Lum Berry    | Insomnia     | Jolly  | 30  | 44/44/0/0/0/44 | Wing Attack, Pursuit, Mud-Slap, Roost           |
-| Pidgeotto | 15    | Sitrus Berry | Keen Eye     | Modest | 30  | 44/0/0/44/0/44 | Air Cutter, Swift, Mud-Slap, Roost              |
+| Pokemon   | Level | Item         | Ability      | Nature | IV  | EV               | Moves                                           |
+| --------- | ----- | ------------ | ------------ | ------ | --- | ---------------- | ----------------------------------------------- |
+| Doduo     | 14    | Sharp Beak   | Early Bird   | Jolly  | 30  | 44 Atk, 44 Spd   | Pluck, Quick Attack, Pursuit, Double Kick\*     |
+| Natu      | 14    | Oran Berry   | Magic Bounce | Timid  | 30  | 44 SpAtk, 44 Spd | Air Cutter, Confusion, Ominous Wind, Grass Knot |
+| Murkrow   | 14    | Lum Berry    | Insomnia     | Jolly  | 30  | 44 Atk, 44 Spd   | Wing Attack, Pursuit, Mud-Slap, Roost           |
+| Pidgeotto | 15    | Sitrus Berry | Keen Eye     | Modest | 30  | 44 SpAtk, 44 Spd | Air Cutter, Swift, Mud-Slap, Roost              |

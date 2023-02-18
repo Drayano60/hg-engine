@@ -436,7 +436,7 @@
 #define ITEM_HM08            427
 #define ITEM_EXPLORER_KIT    428
 #define ITEM_LOOT_SACK       429
-#define ITEM_RULE_BOOK       430
+#define ITEM_DEVON_SCOPE     430
 #define ITEM_POKE_RADAR      431
 #define ITEM_POINT_CARD      432
 #define ITEM_JOURNAL         433
@@ -444,9 +444,9 @@
 #define ITEM_FASHION_CASE    435
 #define ITEM_SEAL_BAG        436
 #define ITEM_PAL_PAD         437
-#define ITEM_WORKS_KEY       438
+#define ITEM_EVIOLITE        438
 #define ITEM_OLD_CHARM       439
-#define ITEM_GALACTIC_KEY    440
+#define ITEM_ASSAULT_VEST    440
 #define ITEM_RED_CHAIN       441
 #define ITEM_TOWN_MAP        442
 #define ITEM_VS_SEEKER       443
@@ -463,12 +463,12 @@
 #define ITEM_MEMBER_CARD     454
 #define ITEM_AZURE_FLUTE     455
 #define ITEM_SS_TICKET       456
-#define ITEM_CONTEST_PASS    457
+#define ITEM_GS_BALL         457
 #define ITEM_MAGMA_STONE     458
 #define ITEM_PARCEL          459
-#define ITEM_COUPON_1        460
-#define ITEM_COUPON_2        461
-#define ITEM_COUPON_3        462
+#define ITEM_ICE_STONE       460
+#define ITEM_PRISM_SCALE     461
+#define ITEM_LINKING_CORD    462
 #define ITEM_STORAGE_KEY     463
 #define ITEM_SECRETPOTION    464
 #define ITEM_VS_RECORDER     465

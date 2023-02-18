@@ -326,109 +326,109 @@ A transparent device overflowing with\ndubious data.\nIts producer is unknown.
 A cloth imbued with horrifyingly strong\nspiritual energy.\nIt is loved by a certain Pokémon.
 An item to be held by a Pokémon.\nIt is a sharply hooked claw that ups\nthe holder’s critical-hit ratio.
 An item to be held by a Pokémon.\nIt may cause the foe to flinch when\nthe holder inflicts damage.
-The user focuses its mind before\nlaunching this attack. It will fail if\nthe user is hit before it is used.
-Sharp, huge claws hook and slash\nthe foe quickly and with great\npower.
-The foe is hit with a pulsing blast\nof water. It may also confuse the\ntarget.
+The user sharpens its claws to boost\nits Attack stat and accuracy.
+Sharp, huge claws hook and slash the\nfoe quickly and with great power.\nCritical hits land more easily.
+The user materializes an odd psychic\nwave to attack the foe. This attack\ndoes physical damage.
 The user quietly focuses its mind and\ncalms its spirit to raise its Sp. Atk\nand Sp. Def stats.
-The foe is scared off, to be replaced\nby another Pokémon in its party.\nIn the wild, the battle ends.
-A move that leaves the foe badly\npoisoned. This poison damage\nworsens every turn.
+The user yells as if it is ranting about\nsomething, making the target’s\nSp. Atk stat decrease.
+A move that leaves the target badly\npoisoned. This poison damage\nworsens every turn.
 Summons a hailstorm that lasts for\nfive turns. The hailstorm damages\nall types except Ice.
 The user tenses its muscles to bulk up\nits body, boosting both its Attack and\nDefense stats.
-The user forcefully shoots seeds at\nthe foe. Two to five seeds are shot in\nrapid succession.
-A variable move that changes type\nand power depending on the hidden\nability of the Pokémon using it.
+The target is drenched with a poisonous\nliquid. Its power is doubled if the\ntarget is poisoned.
+A variable move that changes type\ndepending on the Pokémon using it.
 The user intensifies the sun for\nfive turns, powering up Fire-type\nmoves.
 The foe is taunted into a rage that\nallows it to use only attack moves for\ntwo to four turns.
-The foe is struck with an icy-cold\nbeam of energy. It may also freeze\nthe target solid.
-A howling blizzard is summoned to\nstrike the foe. It may also freeze\nthe target solid.
+The foe is struck with an icy-cold\nbeam of energy. It has a 10% chance\nto freeze the target solid.
+A howling blizzard is summoned to\nstrike the foe. It has a 10% chance\nto freeze the target solid.
 The foe is attacked with a powerful\nbeam. The user must rest on the next\nturn to regain its energy.
 A wondrous wall of light is put up to\nsuppress damage from special attacks\nfor five turns.
 It enables the user to evade all\nattacks. Its chance of failing rises\nif it is used in succession.
 The user summons a heavy rain that\nfalls for five turns, powering up\nWater-type moves.
 A nutrient-draining attack. The user’s\nHP is restored by half the damage\ntaken by the target.
 The user creates a protective field\nthat prevents status problems like\npoison, paralysis, burn, and sleep.
-A full-power attack that grows more\npowerful the less the user likes its\nTrainer.
+The user damages opposing Pokémon by\nemitting a powerful flash.
 A two-turn attack. The user gathers\nlight, then blasts a bundled beam on\nthe second turn.
-The foe is slammed with a sturdy\ntail of steel. It may also lower the\ntarget’s Defense stat if it hits.
-A strong electric blast is loosed at\nthe foe. It may also leave the foe\nparalyzed.
-A wicked thunderbolt is dropped on the\nfoe to inflict damage. It may also\nleave the target paralyzed.
+The foe is slammed with a sturdy tail\nof steel. It has a 20% chance to lower\nthe target’s Defense stat if it hits.
+A strong electric blast is loosed at\nthe foe. It has a 10% chance to leave\nthe foe paralyzed.
+A wicked thunderbolt is dropped on the\nfoe to inflict damage. It has a 30%\nchance to leave the foe paralyzed.
 The user sets off an earthquake\nthat hits all the Pokémon in the\nbattle.
-A full-power attack that grows more\npowerful the more the user likes its\nTrainer.
-The user burrows, then attacks on the\nsecond turn. It can also be used to\nexit dungeons.
-The foe is hit by a strong telekinetic\nforce. It may also reduce the foe’s\nSp. Def stat.
-The user hurls a shadowy blob at the\nfoe. It may also lower the foe’s\nSp. Def stat.
+The user attacks the target’s legs\nswiftly, reducing the target’s Speed\nstat.
+A blood-draining attack. The user’s HP\nis restored by half the damage taken\nby the target.
+The foe is hit by a strong telekinetic\nforce. It has a 10% chance to lower\nthe foe’s Sp. Def stat.
+The user hurls a shadowy blob at the\nfoe. It has a 20% chance to lower the\nfoe’s Sp. Def stat.
 The user attacks with tough fists,\netc. It can also break any barrier\nsuch as Light Screen and Reflect.
-The user begins moving so quickly\nthat it creates illusory copies to\nraise its evasiveness.
+The user plays rough with the target\nand attacks it. This has a 10% chance\nto lower Attack.
 A wondrous wall of light is put up to\nsuppress damage from physical attacks\nfor five turns.
-The user strikes the foe with a quick\njolt of electricity. This attack cannot\nbe evaded.
-The foe is scorched with an intense\nblast of fire. The target may also be\nleft with a burn.
-Unsanitary sludge is hurled at\nthe foe. It may also poison the\ntarget.
+It swamps the area around the user\nwith a giant sludge wave. This has a\n10% chance to poison foes.
+The foe is scorched with an intense\nblast of fire. This has a 10% chance\nto leave the target with a burn.
+Unsanitary sludge is hurled at the foe.\nThis has a 10% chance to poison the\ntarget.
 A five-turn sandstorm is summoned\nto hurt all combatants except the\nRock, Ground, and Steel types.
-The foe is attacked with an intense\nblast of all-consuming fire. It may\nalso leave the target with a burn.
+The foe is attacked with an intense\nblast of all-consuming fire. It has\na 10% chance to burn the target.
 Large boulders are hurled at the foe\nto inflict damage. It lowers the foe’s\nSpeed.
 The user confounds the foe with speed,\nthen strikes. The attack lands without\nfail.
 The user torments and enrages the\nfoe, making it incapable of using the\nsame move twice in a row.
 An attack move that doubles its power\nif the user is poisoned, paralyzed, or\nhas a burn.
-An attack move with effects that\nvary depending on the user’s\nenvironment.
-The user goes to sleep for two\nturns. It fully restores the user’s HP\nand heals any status problem.
+The user cloaks itself with flame and\nattacks. Building up power, it raises\nthe user’s Speed stat.
+The user goes to sleep for two turns.\nIt fully restores the user’s HP\nand heals any status problem.
 If it is the opposite gender of the\nuser, the foe becomes infatuated\nand less likely to attack.
 The user attacks and steals the foe’s\nheld item simultaneously. It can’t\nsteal if the user holds an item.
-The foe is hit with wings of steel.\nIt may also raise the user’s Defense\nstat.
+The foe is hit with wings of steel.\nThis has a 10% chance to raise the\nuser’s Defense stat.
 The user employs its psychic power to\nexchange abilities with the foe.\n
-The user steals the effects of any\nhealing or status-changing move the\nfoe attempts to use.
+The user attacks the foe with an\nechoing voice. Its power increases\nif it hits in succession.
 The user attacks the foe at full\npower using fiery energy. It also\nsharply reduces the user’s Sp. Atk.
 The user lands and rests its body.\nIt restores the user’s HP by up to\nhalf of its max HP.
-The user attacks at full power.\nIt may also lower the foe’s Sp. Def\nstat if it hits.
-The user draws power from nature and\nfires it at the foe. It may also lower\nthe target’s Sp. Def.
+The user attacks at full power.\nThis has a 10% chance to lower the\nfoe’s Sp. Def stat if it hits.
+The user draws power from nature and\nfires it at the foe. It has a 10% chance\nto lower the foe’s Sp. Def stat.
 A restrained attack that prevents the\nfoe from fainting. The target is left\nwith at least 1 HP.
-If the foe’s HP is down to under half,\nthis attack will hit with double the\npower.
-The user flings its held item at the\nfoe to attack. Its power and effects\ndepend on the item.
+The user shoots boiling hot water at\nthe target. This has a 30% chance\nto burn the target.
+The user violently whirls its vines or\ntentacles to harshly lash the foe.
 The user attacks with an electric\ncharge. The user may use any remaining\nelectricity to raise its Sp. Atk stat.
 The user endures any attack, leaving\n1 HP. Its chance of failing rises if it\nis used in succession.
 The foe is attacked with a shock\nwave generated by the user’s gaping\nmouth.
 An energy-draining punch. The user’s\nHP is restored by half the damage\ntaken by the target.
 The user shoots a sinister, bluish\nwhite flame at the foe to inflict a\nburn.
-The foe is attacked with powdery\nscales blown by wind. It may also\nraise all the user’s stats.
-It prevents the foe from using its\nheld item. Its Trainer is also\nprevented from using items on it.
+The user nimbly strikes the target.\nThis attack’s damage is doubled if\nthe user isn’t holding an item.
+The user stimulates its brain by\nthinking bad thoughts. It sharply\nraises the user’s Sp. Atk.
 The user explodes to inflict damage on\nall Pokémon in battle. The user faints\nupon using this move.
 The user slashes with a sharp claw\nmade from shadows. It has a high\ncritical-hit ratio.
 The user stores power, then attacks.\nIf the user can use this attack after\nthe foe, its power is doubled.
-The user recycles a single-use item\nthat has been used in battle so it can\nbe used again.
+The user stabs the foe with a sharp\nhorn. This attack never misses.
 The user charges the foe using every\nbit of its power. It must rest on the\nnext turn to recover.
 The user polishes its body to reduce\ndrag. It sharply raises the Speed\nstat.
-The user flashes a light that cuts the\nfoe’s accuracy. It can also be used to\nilluminate caves.
+The user attacks by breathing a\nspecial, hot fire. This also lowers\nthe target’s Sp. Atk stat.
 The user stabs the foe with a\nsharpened stone from below. It has\na high critical-hit ratio.
 An attack move that inflicts double\nthe damage if the user has been hurt\nby the foe in the same turn.
 A weak electric charge is launched\nat the foe. It causes paralysis if it\nhits.
 The user tackles the foe from a\nhigh-speed spin. The slower the user,\nthe greater the damage.
 A frenetic dance to uplift the fighting\nspirit. It sharply raises the user’s\nAttack stat.
-The user lays a trap of levitating\nstones around the foe. The trap hurts\nfoes that switch into battle.
+While resisting, the user attacks the\nopposing Pokémon. This lowers the\ntargets’ Sp. Atk stats.
 The user hypnotizes itself into\ncopying any stat change made\nby the foe.
-If it is the opposite gender of the\nuser, the foe is charmed into sharply\nlowering its Sp. Atk stat.
-The user releases a horrible aura\nimbued with dark thoughts. It may also\nmake the target flinch.
-Large boulders are hurled at the foe\nto inflict damage. It may also make the\ntarget flinch.
-The user slashes at the foe by\ncrossing its scythes or claws as if\nthey were a pair of scissors.
+The user stomps on the ground, striking\neverything around it. This lowers the\nSpeed stat of those hit.
+The user releases a horrible aura\nimbued with dark thoughts. It has\na 20% chance to make the foe flinch.
+Large boulders are hurled at the foe\nto inflict damage. It has a 30% chance\nto make the foe flinch.
+The user slashes at the foe by crossing\nits scythes or claws like scissors.\nCritical hits land more easily.
 While it is asleep, the user\nrandomly uses one of the moves\nit knows.
-The user draws power from the Berry\nit is holding to attack. The Berry\ndetermines its type and power.
-The foe is stabbed with a tentacle or\narm steeped with poison. It may also\npoison the foe.
+The user is roused, and its Attack and\nSp. Atk stats increase.
+The foe is stabbed with a tentacle or\narm steeped with poison. It has a 30%\nchance to poison the foe.
 An attack that works only on a\nsleeping foe. It absorbs half the\ndamage caused to heal the user’s HP.
 The user snares the foe with grass\nand trips it. The heavier the foe, the\ngreater the damage.
 The user enrages the foe into\nconfusion. However, it also sharply\nraises the foe’s Attack stat.
-The user pecks the foe. If the foe is\nholding a Berry, the user plucks it and\ngains its effect.
+The user attacks with a blade of air\nthat slices even the sky. This has a\n30% chance to flinch the target.
 After making its attack, the user\nrushes back to switch places with a\nparty Pokémon in waiting.
 The user makes a copy of itself using\nsome of its HP. The copy serves as\nthe user’s decoy.
-The user gathers all its light energy\nand releases it in one shot. It may\nalso lower the foe’s Sp. Def stat.
+The user gathers all its light energy\nand releases it at once. It has a 10%\nchance to lower the foe’s Sp. Def stat.
 The user creates a bizarre space in\nwhich slower Pokémon get to move\nfirst for five turns.
-The foe is cut with a scythe or a claw.\nIt can also be used to cut down thin\ntrees.
+The foe is cut with a scythe or a claw.\nCritical hits land more easily. It can\nalso be used to cut down thin trees.
 The user soars, then strikes on the\nsecond turn. It can also be used to\nfly to any familiar town.
 It swamps the entire battlefield with\na giant wave. It can also be used\nto cross water.
-The foe is slugged with a punch thrown\nat maximum power. It can also be used\nto move boulders.
+The foe is slugged with a punch. It has\na 20% chance to increase the user’s\nAttack. It can also move boulders.
 Traps foes in a violent swirling\nwhirlpool. It can also be used to\ntraverse whirlpools.
-The user slugs the foe with a\nshattering punch. It can also smash\ncracked boulders.
-The user charges the foe at an\nawesome speed. It can also be used\nto climb a waterfall.
-A charging attack that may also leave\nthe foe confused. It can also be used\nto scale rocky walls.
+The user slugs the foe with a shattering\npunch that lowers its Defense stat.\nIt can also smash cracked boulders.
+The user charges at the foe. It has a\n20% chance to make the foe flinch.\nIt can also be used to climb waterfalls.
+A charging attack. It has a 20% chance\nto leave the foe confused. It can also\nbe used to scale rocky walls.
 -----
 A sturdy, spacious bag that is used\nto carry loot obtained in the coal\nmine.
-It lists the rules for holding battles.\nFor linked battles, you may choose\nwhich set of rules you wish to use.
+Made by Devon Corporation, this is a\nspecial device that signals the\npresence of any unseen Pokémon.
 A tool that can search out Pokémon\nthat are hiding in grass. Its battery is\nrecharged as you walk.
 A card that lists the Battle Points\nyou have earned.\n
 A notebook that keeps a day-to-day\nrecord of your adventure so far.\n
@@ -436,14 +436,14 @@ A case for storing Seals that can be\napplied to the Capsule cases of\nPoké Bal
 A fancy case for the tidy arrangement\nand storage of whimsical Pokémon\nAccessories.
 A tiny bag that can hold ten Seals for\ndecorating Poké Balls.
 A convenient notepad that is used for\nregistering your friends, Friend Codes,\nand keeping a record of game play.
-A large key for operating the doors of\nthe Valley Windworks in the canyon.\nIt was held by a Team Galactic Grunt.
+A mysterious evolutionary lump. When\nheld, it boosts the Defense and Sp. Def\nof a Pokémon that can still evolve.
 An ancient good-luck charm made of\nPokémon bones to be taken to the elder\nof Celestic Town.
-A card key for disengaging security\nsystems in the Galactic HQ. Losing it\ncan result in punishment, apparently.
+An item to be held by a Pokémon. This\noffensive vest boosts the holder’s\nSp. Def but makes status moves fail.
 A mythical chain that is said to link\nthe legendary Pokémon that created\nthe Sinnoh region.
 A very convenient map that can be\nviewed anytime. It even shows your\npresent location.
 A device that indicates Trainers who\nwant to battle. Its battery charges\nwhile you walk.
 A case for holding coins obtained at\nthe Game Corner.\nIt holds up to 50,000 coins.
-An old and beat-up fishing rod.\nUse it by any body of water to fish for\nwild aquatic Pokémon.
+Use it by any body of water to fish for\nwild aquatic Pokémon.
 A new, good-quality fishing rod.\nUse it by any body of water to fish for\nwild aquatic Pokémon.
 An awesome, high-tech fishing rod.\nUse it by any body of water to fish for\nwild aquatic Pokémon.
 A watering can shaped like a PSYDUCK.\nIt helps promote healthy growth of\nBerries planted in soft soil.
@@ -455,12 +455,12 @@ A feather that glows like the moon.\nIt is said to possess the power to\ndispel 
 A card needed for entering the inn in\nCanalave City. Oddly, the last date\nmarked on it was 50 years ago.
 A flute that puts out echoing sounds\nthat do not seem to be of this world.\nIt is unknown who made it.
 The ticket required for sailing on the\nferry S.S. Aqua. It has a drawing of a\nship on it.
-The pass required for entering Pokémon\nContests. It has a drawing of an award\nribbon on it.
+GS Ball Description
 A stone formed when boulders melted in\nintensely hot magma, then hardened.\nMagma remains sealed inside.
 A parcel entrusted in your care.\nYou are supposed to deliver it to your\nchildhood friend who left Twinleaf Town.
-A coupon to be exchanged for a\nPokémon Watch (Pokétch for short).\nThree coupons are needed.
-A coupon to be exchanged for a\nPokémon Watch (Pokétch for short).\nThree coupons are needed.
-A coupon to be exchanged for a\nPokémon Watch (Pokétch for short).\nThree coupons are needed.
+A peculiar stone that makes certain\nspecies of Pokémon evolve.\nIt has a snowflake pattern in it.
+A mysterious scale that causes\na certain Pokémon to evolve.\nIt shines in rainbow colors.
+A string exuding an odd energy that\nmakes you feel a sense of connection.\nIt’s loved by certain Pokémon.
 The key to Team Galactic’s sinister\nwarehouse located at the edge of\nVeilstone City.
 A fantastic medicine dispensed by the\npharmacy in Cianwood City. It fully\nheals a Pokémon of any ailment.
 An amazing device that can record a\nbattle either between friends or at a\nspecial battle facility.

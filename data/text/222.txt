@@ -20,7 +20,7 @@ Antidote
 Burn Heal
 Ice Heal
 Awakening
-Parlyz Heal
+Paralyze Heal
 Full Restore
 Max Potion
 Hyper Potion
@@ -32,7 +32,7 @@ Fresh Water
 Soda Pop
 Lemonade
 Moomoo Milk
-EnergyPowder
+Energy Powder
 Energy Root
 Heal Powder
 Revival Herb
@@ -56,10 +56,10 @@ Old Gateau
 Guard Spec.
 Dire Hit
 X Attack
-X Defend
+X Defense
 X Speed
 X Accuracy
-X Special
+X Sp. Atk
 X Sp. Def
 Poké Doll
 Fluffy Tail
@@ -81,10 +81,10 @@ Repel
 Sun Stone
 Moon Stone
 Fire Stone
-Thunderstone
+Thunder Stone
 Water Stone
 Leaf Stone
-TinyMushroom
+Tiny Mushroom
 Big Mushroom
 Pearl
 Big Pearl
@@ -211,7 +211,7 @@ Micle Berry
 Custap Berry
 Jaboca Berry
 Rowap Berry
-BrightPowder
+Bright Powder
 White Herb
 Macho Brace
 Exp. Share
@@ -220,12 +220,12 @@ Soothe Bell
 Mental Herb
 Choice Band
 King’s Rock
-SilverPowder
+Silver Powder
 Amulet Coin
 Cleanse Tag
 Soul Dew
-DeepSeaTooth
-DeepSeaScale
+Deep Sea Tooth
+Deep Sea Scale
 Smoke Ball
 Everstone
 Focus Band
@@ -238,26 +238,26 @@ Light Ball
 Soft Sand
 Hard Stone
 Miracle Seed
-BlackGlasses
+Black Glasses
 Black Belt
 Magnet
 Mystic Water
 Sharp Beak
 Poison Barb
-NeverMeltIce
+Never-Melt Ice
 Spell Tag
-TwistedSpoon
+Twisted Spoon
 Charcoal
 Dragon Fang
 Silk Scarf
-Up-Grade
+Upgrade
 Shell Bell
 Sea Incense
 Lax Incense
 Lucky Punch
 Metal Powder
 Thick Club
-Stick
+Leek
 Red Scarf
 Blue Scarf
 Pink Scarf
@@ -428,7 +428,7 @@ HM07
 HM08
 ???
 Loot Sack
-Rule Book
+Devon Scope
 Poké Radar
 Point Card
 Journal
@@ -436,14 +436,14 @@ Seal Case
 Fashion Case
 Seal Bag
 Pal Pad
-Works Key
+Eviolite
 Old Charm
-Galactic Key
+Assault Vest
 Red Chain
 Town Map
 Vs. Seeker
 Coin Case
-Old Rod
+Fishing Rod
 Good Rod
 Super Rod
 Sprayduck
@@ -451,31 +451,31 @@ Poffin Case
 Bicycle
 Suite Key
 Oak’s Letter
-Lunar Wing
+Lunar Feather
 Member Card
 Azure Flute
 S.S. Ticket
-Contest Pass
+GS Ball
 Magma Stone
 Parcel
-Coupon 1
-Coupon 2
-Coupon 3
+Ice Stone
+Prism Scale
+Linking Cord
 Storage Key
-SecretPotion
+Secret Medicine
 Vs. Recorder
 Gracidea
 Secret Key
 Apricorn Box
 UNOWN Report
 Berry Pots
-Dowsing MCHN
+Dowsing Machine
 Blue Card
-SlowpokeTail
+Slowpoke Tail
 Clear Bell
 Card Key
 Basement Key
-SquirtBottle
+Squirt Bottle
 Red Scale
 Lost Item
 Pass
@@ -484,12 +484,12 @@ Silver Wing
 Rainbow Wing
 Mystery Egg
 Red Apricorn
-Ylw Apricorn
-Blu Apricorn
-Grn Apricorn
-Pnk Apricorn
-Wht Apricorn
-Blk Apricorn
+Yellow Apricorn
+Blue Apricorn
+Green Apricorn
+Pink Apricorn
+White Apricorn
+Black Apricorn
 Fast Ball
 Level Ball
 Lure Ball
@@ -502,7 +502,7 @@ Park Ball
 Photo Album
 GB Sounds
 Tidal Bell
-RageCandyBar
+Rage Candy Bar
 Data Card 01
 Data Card 02
 Data Card 03

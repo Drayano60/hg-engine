@@ -13,5 +13,5 @@ TODO SMALL:
 
 TODO BIG:
 - [x] Implement wild Pokémon changes
-- [ ] Implement item changes
+- [x] Implement item changes
 - [ ] Implement trainer changes

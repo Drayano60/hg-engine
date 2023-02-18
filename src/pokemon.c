@@ -3289,8 +3289,9 @@ u32 __attribute__((long_call)) CheckIfMonsAreEqual(struct PartyPokemon *pokemon1
 
 // top 5 bits are now form bit
 // if the form is nonzero, have to set it to that form.  most mons should keep their forms on evolution, but specifically significant gendered mons will need to not
+// always true added to the party != NULL line cause it doesn't work with evo items for some reason. there could be bugs!
 #define GET_TARGET_AND_SET_FORM { \ 
-    if (party != NULL) \
+    if (1 == 1 || party != NULL) \
     { \
         for (j = 0; j < party->count; j++) \
         { \

@@ -2178,8 +2178,8 @@ evodata SPECIES_MAREEP
     terminateevodata
 
 evodata SPECIES_FLAAFFY
-    evolution EVO_LEVEL_UP, 30, SPECIES_AMPHAROS
-    evolution EVO_NONE, 0, SPECIES_NONE
+    // evolution EVO_LEVEL_UP, 30, SPECIES_AMPHAROS
+    evolution EVO_LEVEL_UP, 35, SPECIES_AMPHAROS
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE

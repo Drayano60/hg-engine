@@ -143,7 +143,8 @@ const ITEMDATA __data[] =
 
 [ITEM_ULTRA_BALL] =
 {
-    .price = 1200,
+    // .price = 1200,
+    .price = 800,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -208,7 +209,8 @@ const ITEMDATA __data[] =
 
 [ITEM_GREAT_BALL] =
 {
-    .price = 600,
+    // .price = 600,
+    .price = 400,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -273,7 +275,8 @@ const ITEMDATA __data[] =
 
 [ITEM_POKE_BALL] =
 {
-    .price = 200,
+    // .price = 200,
+    .price = 100,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -1768,7 +1771,8 @@ const ITEMDATA __data[] =
 
 [ITEM_FULL_HEAL] =
 {
-    .price = 600,
+    // .price = 600,
+    .price = 500,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -4953,7 +4957,8 @@ const ITEMDATA __data[] =
 
 [ITEM_SUPER_REPEL] =
 {
-    .price = 500,
+    // .price = 500,
+    .price = 400,
     .holdEffect = 0,
     .holdEffectParam = 200,
     .pluckEffect = 0,
@@ -5018,7 +5023,8 @@ const ITEMDATA __data[] =
 
 [ITEM_MAX_REPEL] =
 {
-    .price = 700,
+    // .price = 700,
+    .price = 500,
     .holdEffect = 0,
     .holdEffectParam = 250,
     .pluckEffect = 0,
@@ -5083,7 +5089,8 @@ const ITEMDATA __data[] =
 
 [ITEM_ESCAPE_ROPE] =
 {
-    .price = 550,
+    // .price = 550,
+    .price = 200,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -5148,7 +5155,8 @@ const ITEMDATA __data[] =
 
 [ITEM_REPEL] =
 {
-    .price = 350,
+    // .price = 350,
+    .price = 200,
     .holdEffect = 0,
     .holdEffectParam = 100,
     .pluckEffect = 0,

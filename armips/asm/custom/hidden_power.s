@@ -11,3 +11,5 @@
 
 // Replace "1E 30" with "3C 20", changing +30 to =60
 .halfword 0x203C
+
+.close

@@ -22,6 +22,7 @@
 .include "armips/asm/custom/hidden_power.s"
 .include "armips/asm/custom/encounter_rates.s"
 .include "armips/asm/custom/shiny_rate.s"
+.include "armips/asm/custom/forget_hm.s"
 
 .if FAIRY_TYPE_IMPLEMENTED == 1
 

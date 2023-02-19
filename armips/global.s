@@ -18,9 +18,9 @@
 .include "armips/asm/y9.s" // add new overlay entries to the y9 table
 
 // Custom minor asm changes
-.include "armips/asm/tm.s"
-.include "armips/asm/hiddenpower.s"
-.include "armips/asm/encounterrates.s"
+.include "armips/asm/custom/tm.s"
+.include "armips/asm/custom/hiddenpower.s"
+.include "armips/asm/custom/encounterrates.s"
 
 .if FAIRY_TYPE_IMPLEMENTED == 1
 

@@ -19,8 +19,9 @@
 
 // Custom minor asm changes
 .include "armips/asm/custom/tm.s"
-.include "armips/asm/custom/hiddenpower.s"
-.include "armips/asm/custom/encounterrates.s"
+.include "armips/asm/custom/hidden_power.s"
+.include "armips/asm/custom/encounter_rates.s"
+.include "armips/asm/custom/shiny_rate.s"
 
 .if FAIRY_TYPE_IMPLEMENTED == 1
 

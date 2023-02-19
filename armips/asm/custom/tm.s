@@ -3,6 +3,7 @@
 
 // Aurora Crystal specific change
 // Edits a few TMs and their palettes into desired moves
+// Also makes TMs infinite and hides their quantity
 
 .open "base/arm9.bin", 0x02000000
 

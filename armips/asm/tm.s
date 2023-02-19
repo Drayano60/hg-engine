@@ -24,6 +24,10 @@ PALETTE_ROCK equ 412
 PALETTE_FLYING equ 413
 PALETTE_BUG equ 610
 
+// Stop TM quantity dropping on use
+.org 0x020825A7
+.byte 0xE0
+
 // Start of TM table
 .org 0x021000CC
 
@@ -236,5 +240,13 @@ PALETTE_BUG equ 610
 .skip 2
 .halfword PALETTE_FLYING
 .skip 4
+
+.close
+
+.open "base/overlay/overlay_0015.bin", 0x022012F8
+
+// Dont show quantity for TMs
+.org 0x02207531
+.byte 0xE0
 
 .close

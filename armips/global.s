@@ -24,6 +24,7 @@
 .include "armips/asm/custom/shiny_rate.s"
 .include "armips/asm/custom/forget_hm.s"
 .include "armips/asm/custom/double_battle_music.s"
+.include "armips/asm/custom/disable_overworld_poison.s"
 
 .if FAIRY_TYPE_IMPLEMENTED == 1
 

@@ -27,6 +27,7 @@
 .include "armips/asm/custom/disable_overworld_poison.s"
 .include "armips/asm/custom/enable_surf_without_knowing_move.s"
 .include "armips/asm/custom/remove_obedience_check.s"
+.include "armips/asm/custom/ai_edits.s"
 
 .if FAIRY_TYPE_IMPLEMENTED == 1
 

@@ -23,6 +23,7 @@
 .include "armips/asm/custom/encounter_rates.s"
 .include "armips/asm/custom/shiny_rate.s"
 .include "armips/asm/custom/forget_hm.s"
+.include "armips/asm/custom/double_battle_music.s"
 
 .if FAIRY_TYPE_IMPLEMENTED == 1
 

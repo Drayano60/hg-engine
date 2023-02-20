@@ -30,6 +30,7 @@
 .include "armips/asm/custom/ai_edits.s"
 .include "armips/asm/custom/smashable_rock_items.s"
 .include "armips/asm/custom/mart_items.s"
+// .include "armips/asm/custom/dynamic_headers.s"
 
 .if FAIRY_TYPE_IMPLEMENTED == 1
 

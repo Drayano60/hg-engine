@@ -7155,9 +7155,9 @@ levelup SPECIES_GALLADE
 levelup SPECIES_SURSKIT
     learnset MOVE_BUBBLE, 1
     learnset MOVE_WATER_SPORT, 3
-    learnset MOVE_SWEET_SCENT, 6
-    learnset MOVE_QUICK_ATTACK, 9
-    learnset MOVE_STRUGGLE_BUG, 12
+    learnset MOVE_QUICK_ATTACK, 6
+    learnset MOVE_STRUGGLE_BUG, 9
+    learnset MOVE_SWEET_SCENT, 12
     learnset MOVE_BUBBLE_BEAM, 15
     learnset MOVE_AGILITY, 18
     learnset MOVE_MIST, 21
@@ -7179,9 +7179,9 @@ levelup SPECIES_MASQUERAIN
     learnset MOVE_BUBBLE, 1
     learnset MOVE_SUPERSONIC, 1
     learnset MOVE_WATER_SPORT, 3
-    learnset MOVE_SWEET_SCENT, 6
-    learnset MOVE_QUICK_ATTACK, 9
-    learnset MOVE_STRUGGLE_BUG, 12
+    learnset MOVE_QUICK_ATTACK, 6
+    learnset MOVE_STRUGGLE_BUG, 9
+    learnset MOVE_SWEET_SCENT, 12
     learnset MOVE_BUBBLE_BEAM, 15
     learnset MOVE_AGILITY, 18
     learnset MOVE_MIST, 21

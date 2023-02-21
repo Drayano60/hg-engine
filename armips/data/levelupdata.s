@@ -1889,9 +1889,9 @@ levelup SPECIES_GEODUDE
     learnset MOVE_DEFENSE_CURL, 1
     learnset MOVE_MUD_SPORT, 3
     learnset MOVE_ROCK_POLISH, 6
-    learnset MOVE_ROLLOUT, 9
+    learnset MOVE_ROCK_THROW, 9
     learnset MOVE_MAGNITUDE, 12
-    learnset MOVE_ROCK_THROW, 15
+    learnset MOVE_ROLLOUT, 15
     learnset MOVE_BULLDOZE, 18
     learnset MOVE_SELF_DESTRUCT, 21
     learnset MOVE_STEALTH_ROCK, 24
@@ -1910,9 +1910,9 @@ levelup SPECIES_GEODUDE_ALOLAN
     learnset MOVE_DEFENSE_CURL, 1
     learnset MOVE_CHARGE, 3
     learnset MOVE_ROCK_POLISH, 6
-    learnset MOVE_ROLLOUT, 9
+    learnset MOVE_ROCK_THROW, 9
     learnset MOVE_SPARK, 12
-    learnset MOVE_ROCK_THROW, 15
+    learnset MOVE_ROLLOUT, 15
     learnset MOVE_THUNDER_PUNCH, 18
     learnset MOVE_SELF_DESTRUCT, 21
     learnset MOVE_STEALTH_ROCK, 24
@@ -1931,9 +1931,9 @@ levelup SPECIES_GRAVELER
     learnset MOVE_DEFENSE_CURL, 1
     learnset MOVE_MUD_SPORT, 3
     learnset MOVE_ROCK_POLISH, 6
-    learnset MOVE_ROLLOUT, 9
+    learnset MOVE_ROCK_THROW, 9
     learnset MOVE_MAGNITUDE, 12
-    learnset MOVE_ROCK_THROW, 15
+    learnset MOVE_ROLLOUT, 15
     learnset MOVE_BULLDOZE, 18
     learnset MOVE_SELF_DESTRUCT, 21
     learnset MOVE_STEALTH_ROCK, 24
@@ -1952,9 +1952,9 @@ levelup SPECIES_GRAVELER_ALOLAN
     learnset MOVE_DEFENSE_CURL, 1
     learnset MOVE_CHARGE, 3
     learnset MOVE_ROCK_POLISH, 6
-    learnset MOVE_ROLLOUT, 9
+    learnset MOVE_ROCK_THROW, 9
     learnset MOVE_SPARK, 12
-    learnset MOVE_ROCK_THROW, 15
+    learnset MOVE_ROLLOUT, 15
     learnset MOVE_THUNDER_PUNCH, 18
     learnset MOVE_SELF_DESTRUCT, 21
     learnset MOVE_STEALTH_ROCK, 24
@@ -1975,9 +1975,9 @@ levelup SPECIES_GOLEM
     learnset MOVE_DEFENSE_CURL, 1
     learnset MOVE_MUD_SPORT, 3
     learnset MOVE_ROCK_POLISH, 6
-    learnset MOVE_ROLLOUT, 9
+    learnset MOVE_ROCK_THROW, 9
     learnset MOVE_MAGNITUDE, 12
-    learnset MOVE_ROCK_THROW, 15
+    learnset MOVE_ROLLOUT, 15
     learnset MOVE_BULLDOZE, 18
     learnset MOVE_SELF_DESTRUCT, 21
     learnset MOVE_STEALTH_ROCK, 24
@@ -1998,9 +1998,9 @@ levelup SPECIES_GOLEM_ALOLAN
     learnset MOVE_DEFENSE_CURL, 1
     learnset MOVE_CHARGE, 3
     learnset MOVE_ROCK_POLISH, 6
-    learnset MOVE_ROLLOUT, 9
+    learnset MOVE_ROCK_THROW, 9
     learnset MOVE_SPARK, 12
-    learnset MOVE_ROCK_THROW, 15
+    learnset MOVE_ROLLOUT, 15
     learnset MOVE_THUNDER_PUNCH, 18
     learnset MOVE_SELF_DESTRUCT, 21
     learnset MOVE_STEALTH_ROCK, 24

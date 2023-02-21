@@ -4594,8 +4594,8 @@ levelup SPECIES_HOOTHOOT
     learnset MOVE_HYPNOSIS, 3
     learnset MOVE_ECHOED_VOICE, 6
     learnset MOVE_CONFUSION, 9
-    learnset MOVE_REFLECT, 12
-    learnset MOVE_AIR_CUTTER, 15
+    learnset MOVE_AIR_CUTTER, 12
+    learnset MOVE_REFLECT, 15
     learnset MOVE_UPROAR, 18
     learnset MOVE_EXTRASENSORY, 22
     learnset MOVE_AIR_SLASH, 26
@@ -4619,8 +4619,8 @@ levelup SPECIES_NOCTOWL
     learnset MOVE_HYPNOSIS, 3
     learnset MOVE_ECHOED_VOICE, 6
     learnset MOVE_CONFUSION, 9
-    learnset MOVE_REFLECT, 12
-    learnset MOVE_AIR_CUTTER, 15
+    learnset MOVE_AIR_CUTTER, 12
+    learnset MOVE_REFLECT, 15
     learnset MOVE_UPROAR, 18
     learnset MOVE_MEAN_LOOK, 20
     learnset MOVE_EXTRASENSORY, 22

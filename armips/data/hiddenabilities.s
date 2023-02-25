@@ -371,9 +371,9 @@
 /* SPECIES_SPHEAL                      */ .halfword ABILITY_OBLIVIOUS
 /* SPECIES_SEALEO                      */ .halfword ABILITY_OBLIVIOUS
 /* SPECIES_WALREIN                     */ .halfword ABILITY_OBLIVIOUS
-/* SPECIES_CLAMPERL                    */ .halfword ABILITY_RATTLED
-/* SPECIES_HUNTAIL                     */ .halfword ABILITY_WATER_VEIL
-/* SPECIES_GOREBYSS                    */ .halfword ABILITY_HYDRATION
+/* SPECIES_CLAMPERL                    */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_OVERCOAT : ABILITY_RATTLED
+/* SPECIES_HUNTAIL                     */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_STRONG_JAW : ABILITY_WATER_VEIL
+/* SPECIES_GOREBYSS                    */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_MARVEL_SCALE : ABILITY_HYDRATION
 /* SPECIES_RELICANTH                   */ .halfword ABILITY_STURDY
 /* SPECIES_LUVDISC                     */ .halfword ABILITY_HYDRATION
 /* SPECIES_BAGON                       */ .halfword ABILITY_SHEER_FORCE

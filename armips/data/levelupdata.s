@@ -1845,9 +1845,9 @@ levelup SPECIES_TENTACOOL
     learnset MOVE_CONSTRICT, 3
     learnset MOVE_ACID, 6
     learnset MOVE_WRAP, 9
-    learnset MOVE_SUPERSONIC, 12
+    learnset MOVE_ACID_SPRAY, 12
     learnset MOVE_BUBBLE_BEAM, 15
-    learnset MOVE_ACID_SPRAY, 18
+    learnset MOVE_CONFUSE_RAY, 18
     learnset MOVE_TOXIC_SPIKES, 21
     learnset MOVE_SCREECH, 24
     learnset MOVE_HEX, 27
@@ -1868,9 +1868,9 @@ levelup SPECIES_TENTACRUEL
     learnset MOVE_CONSTRICT, 3
     learnset MOVE_ACID, 6
     learnset MOVE_WRAP, 9
-    learnset MOVE_SUPERSONIC, 12
+    learnset MOVE_ACID_SPRAY, 12
     learnset MOVE_BUBBLE_BEAM, 15
-    learnset MOVE_ACID_SPRAY, 18
+    learnset MOVE_CONFUSE_RAY, 18
     learnset MOVE_TOXIC_SPIKES, 21
     learnset MOVE_SCREECH, 24
     learnset MOVE_HEX, 27

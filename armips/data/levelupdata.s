@@ -2448,8 +2448,10 @@ levelup SPECIES_CLOYSTER
     learnset MOVE_HYDRO_PUMP, 56
     terminatelearnset
 
+// NEW: Poison Gas (LGPE)
 levelup SPECIES_GASTLY
     learnset MOVE_CONFUSE_RAY, 1
+    learnset MOVE_POISON_GAS, 1
     learnset MOVE_LICK, 1
     learnset MOVE_SMOG, 3
     learnset MOVE_SPITE, 6
@@ -2468,8 +2470,10 @@ levelup SPECIES_GASTLY
     learnset MOVE_DESTINY_BOND, 59
     terminatelearnset
 
+// NEW: Poison Gas (LGPE)
 levelup SPECIES_HAUNTER
     learnset MOVE_CONFUSE_RAY, 1
+    learnset MOVE_POISON_GAS, 1
     learnset MOVE_LICK, 1
     learnset MOVE_SMOG, 3
     learnset MOVE_SPITE, 6
@@ -2489,9 +2493,11 @@ levelup SPECIES_HAUNTER
     learnset MOVE_DESTINY_BOND, 59
     terminatelearnset
 
+// NEW: Poison Gas (LGPE)
 levelup SPECIES_GENGAR
     learnset MOVE_PERISH_SONG, 1
     learnset MOVE_CONFUSE_RAY, 1
+    learnset MOVE_POISON_GAS, 1
     learnset MOVE_LICK, 1
     learnset MOVE_SMOG, 3
     learnset MOVE_SPITE, 6
@@ -4873,8 +4879,7 @@ levelup SPECIES_NATU
     learnset MOVE_ME_FIRST, 24
     learnset MOVE_PSYCHO_SHIFT, 29
     learnset MOVE_ESPER_WING, 34
-    learnset MOVE_POWER_SWAP, 39
-    learnset MOVE_GUARD_SWAP, 39
+    learnset MOVE_BATON_PASS, 39
     learnset MOVE_PSYCHIC, 44
     learnset MOVE_WISH, 49
     learnset MOVE_FUTURE_SIGHT, 54
@@ -4882,6 +4887,8 @@ levelup SPECIES_NATU
 
 levelup SPECIES_XATU
     learnset MOVE_FEATHER_DANCE, 1
+    learnset MOVE_POWER_SWAP, 1
+    learnset MOVE_GUARD_SWAP, 1
     learnset MOVE_TAILWIND, 1
     learnset MOVE_TELEPORT, 1
     learnset MOVE_PECK, 1
@@ -4898,8 +4905,7 @@ levelup SPECIES_XATU
     learnset MOVE_AIR_SLASH, 25
     learnset MOVE_PSYCHO_SHIFT, 29
     learnset MOVE_ESPER_WING, 34
-    learnset MOVE_POWER_SWAP, 39
-    learnset MOVE_GUARD_SWAP, 39
+    learnset MOVE_BATON_PASS, 39
     learnset MOVE_PSYCHIC, 44
     learnset MOVE_WISH, 49
     learnset MOVE_FUTURE_SIGHT, 54

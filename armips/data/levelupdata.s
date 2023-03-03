@@ -12101,16 +12101,71 @@ levelup SPECIES_BEHEEYEM
     learnset MOVE_TACKLE, 1
     terminatelearnset
 
+// Evolution: 28
 levelup SPECIES_LITWICK
-    learnset MOVE_TACKLE, 1
+    learnset MOVE_ASTONISH, 1
+    learnset MOVE_SMOG, 1
+    learnset MOVE_EMBER, 3
+    learnset MOVE_MINIMIZE, 6
+    learnset MOVE_CONFUSE_RAY, 9
+    learnset MOVE_NIGHT_SHADE, 12
+    learnset MOVE_INCINERATE, 15
+    learnset MOVE_WILL_O_WISP, 18
+    learnset MOVE_FIRE_SPIN, 21
+    learnset MOVE_HEX, 24
+    learnset MOVE_CURSE, 27
+    learnset MOVE_MYSTICAL_FIRE, 31
+    learnset MOVE_SHADOW_BALL, 35
+    learnset MOVE_PAIN_SPLIT, 39
+    learnset MOVE_HEAT_WAVE, 43
+    learnset MOVE_IMPRISON, 47
+    learnset MOVE_INFERNO, 51
+    learnset MOVE_MEMENTO, 55
+    learnset MOVE_OVERHEAT, 59
     terminatelearnset
 
 levelup SPECIES_LAMPENT
-    learnset MOVE_TACKLE, 1
+    learnset MOVE_ASTONISH, 1
+    learnset MOVE_SMOG, 1
+    learnset MOVE_EMBER, 3
+    learnset MOVE_MINIMIZE, 6
+    learnset MOVE_CONFUSE_RAY, 9
+    learnset MOVE_NIGHT_SHADE, 12
+    learnset MOVE_INCINERATE, 15
+    learnset MOVE_WILL_O_WISP, 18
+    learnset MOVE_FIRE_SPIN, 21
+    learnset MOVE_HEX, 24
+    learnset MOVE_CURSE, 27
+    learnset MOVE_MYSTICAL_FIRE, 31
+    learnset MOVE_SHADOW_BALL, 35
+    learnset MOVE_PAIN_SPLIT, 39
+    learnset MOVE_HEAT_WAVE, 43
+    learnset MOVE_IMPRISON, 47
+    learnset MOVE_INFERNO, 51
+    learnset MOVE_MEMENTO, 55
+    learnset MOVE_OVERHEAT, 59
     terminatelearnset
 
 levelup SPECIES_CHANDELURE
-    learnset MOVE_TACKLE, 1
+    learnset MOVE_ASTONISH, 1
+    learnset MOVE_SMOG, 1
+    learnset MOVE_EMBER, 3
+    learnset MOVE_MINIMIZE, 6
+    learnset MOVE_CONFUSE_RAY, 9
+    learnset MOVE_NIGHT_SHADE, 12
+    learnset MOVE_INCINERATE, 15
+    learnset MOVE_WILL_O_WISP, 18
+    learnset MOVE_FIRE_SPIN, 21
+    learnset MOVE_HEX, 24
+    learnset MOVE_CURSE, 27
+    learnset MOVE_MYSTICAL_FIRE, 31
+    learnset MOVE_SHADOW_BALL, 35
+    learnset MOVE_PAIN_SPLIT, 39
+    learnset MOVE_HEAT_WAVE, 43
+    learnset MOVE_IMPRISON, 47
+    learnset MOVE_INFERNO, 51
+    learnset MOVE_MEMENTO, 55
+    learnset MOVE_OVERHEAT, 59
     terminatelearnset
 
 levelup SPECIES_AXEW

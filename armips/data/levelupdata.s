@@ -1890,9 +1890,9 @@ levelup SPECIES_GEODUDE
     learnset MOVE_MUD_SPORT, 3
     learnset MOVE_ROCK_POLISH, 6
     learnset MOVE_ROCK_THROW, 9
-    learnset MOVE_MAGNITUDE, 12
+    learnset MOVE_BULLDOZE, 12
     learnset MOVE_ROLLOUT, 15
-    learnset MOVE_BULLDOZE, 18
+    learnset MOVE_MAGNITUDE, 18
     learnset MOVE_SELF_DESTRUCT, 21
     learnset MOVE_STEALTH_ROCK, 24
     learnset MOVE_ROCK_BLAST, 29
@@ -1932,9 +1932,9 @@ levelup SPECIES_GRAVELER
     learnset MOVE_MUD_SPORT, 3
     learnset MOVE_ROCK_POLISH, 6
     learnset MOVE_ROCK_THROW, 9
-    learnset MOVE_MAGNITUDE, 12
+    learnset MOVE_BULLDOZE, 12
     learnset MOVE_ROLLOUT, 15
-    learnset MOVE_BULLDOZE, 18
+    learnset MOVE_MAGNITUDE, 18
     learnset MOVE_SELF_DESTRUCT, 21
     learnset MOVE_STEALTH_ROCK, 24
     learnset MOVE_ROCK_BLAST, 29
@@ -1976,9 +1976,9 @@ levelup SPECIES_GOLEM
     learnset MOVE_MUD_SPORT, 3
     learnset MOVE_ROCK_POLISH, 6
     learnset MOVE_ROCK_THROW, 9
-    learnset MOVE_MAGNITUDE, 12
+    learnset MOVE_BULLDOZE, 12
     learnset MOVE_ROLLOUT, 15
-    learnset MOVE_BULLDOZE, 18
+    learnset MOVE_MAGNITUDE, 18
     learnset MOVE_SELF_DESTRUCT, 21
     learnset MOVE_STEALTH_ROCK, 24
     learnset MOVE_ROCK_BLAST, 29

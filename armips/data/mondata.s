@@ -4380,7 +4380,7 @@ mondata SPECIES_MEW
     colorflip BODY_COLOR_PINK, 0
     tmdata SPECIES_MEW_TM_DATA_0, SPECIES_MEW_TM_DATA_1, SPECIES_MEW_TM_DATA_2, SPECIES_MEW_TM_DATA_3
 
-// ABILITY: Serene Grace (2), Triage (HA)
+// ABILITY: Natural Cure (2), Triage (HA)
 mondata SPECIES_CHIKORITA
     basestats 45, 49, 65, 45, 49, 65
     types TYPE_GRASS, TYPE_GRASS
@@ -4395,7 +4395,7 @@ mondata SPECIES_CHIKORITA
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_GRASS
 
     .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_OVERGROW, ABILITY_SERENE_GRACE
+        abilities ABILITY_OVERGROW, ABILITY_NATURAL_CURE
     .else
         abilities ABILITY_OVERGROW, ABILITY_NONE
     .endif
@@ -4405,7 +4405,7 @@ mondata SPECIES_CHIKORITA
     tmdata SPECIES_CHIKORITA_TM_DATA_0, SPECIES_CHIKORITA_TM_DATA_1, SPECIES_CHIKORITA_TM_DATA_2, SPECIES_CHIKORITA_TM_DATA_3
 
 // STATS: 63 >> 73 SpAtk | 60 >> 50 Speed
-// ABILITY: Serene Grace (2), Triage (HA)
+// ABILITY: Natural Cure (2), Triage (HA)
 mondata SPECIES_BAYLEEF
 
     .if STAT_CHANGES_IMPLEMENTED
@@ -4426,7 +4426,7 @@ mondata SPECIES_BAYLEEF
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_GRASS
 
     .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_OVERGROW, ABILITY_SERENE_GRACE
+        abilities ABILITY_OVERGROW, ABILITY_NATURAL_CURE
     .else
         abilities ABILITY_OVERGROW, ABILITY_NONE
     .endif
@@ -4437,7 +4437,7 @@ mondata SPECIES_BAYLEEF
 
 // STATS: 100 >> 110 Def | 83 >> 93 SpAtk | 100 >> 110 SpDef | 80 >> 60 Spd | 525 >> 535 BST
 // TYPES: Grass >> Grass/Fairy
-// ABILITY: Serene Grace (2), Triage (HA)
+// ABILITY: Natural Cure (2), Triage (HA)
 mondata SPECIES_MEGANIUM
 
     .if STAT_CHANGES_IMPLEMENTED
@@ -4463,7 +4463,7 @@ mondata SPECIES_MEGANIUM
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_GRASS
 
     .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_OVERGROW, ABILITY_SERENE_GRACE
+        abilities ABILITY_OVERGROW, ABILITY_NATURAL_CURE
     .else
         abilities ABILITY_OVERGROW, ABILITY_NONE
     .endif

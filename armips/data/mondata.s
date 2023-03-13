@@ -8688,7 +8688,7 @@ mondata SPECIES_SOLROCK
     colorflip BODY_COLOR_RED, 0
     tmdata SPECIES_SOLROCK_TM_DATA_0, SPECIES_SOLROCK_TM_DATA_1, SPECIES_SOLROCK_TM_DATA_2, SPECIES_SOLROCK_TM_DATA_3
 
-// ABILITY: Unaware (2), Simple (HA)
+// ABILITY: Simple (HA)
 mondata SPECIES_BARBOACH
     basestats 50, 48, 43, 60, 46, 41
     types TYPE_WATER, TYPE_GROUND
@@ -8701,19 +8701,13 @@ mondata SPECIES_BARBOACH
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_2, EGG_GROUP_WATER_2
-
-    .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_OBLIVIOUS, ABILITY_UNAWARE
-    .else
-        abilities ABILITY_OBLIVIOUS, ABILITY_ANTICIPATION
-    .endif
-
+    abilities ABILITY_OBLIVIOUS, ABILITY_ANTICIPATION
     runchance 120
     colorflip BODY_COLOR_GRAY, 0
     tmdata SPECIES_BARBOACH_TM_DATA_0, SPECIES_BARBOACH_TM_DATA_1, SPECIES_BARBOACH_TM_DATA_2, SPECIES_BARBOACH_TM_DATA_3
 
 // STATS: 78 >> 88 Atk | 468 >> 478 BST
-// ABILITY: Unaware (2), Simple (HA)
+// ABILITY: Simple (HA)
 mondata SPECIES_WHISCASH
 
     .if STAT_CHANGES_IMPLEMENTED
@@ -8732,18 +8726,11 @@ mondata SPECIES_WHISCASH
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_2, EGG_GROUP_WATER_2
-
-    .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_OBLIVIOUS, ABILITY_UNAWARE
-    .else
-        abilities ABILITY_OBLIVIOUS, ABILITY_ANTICIPATION
-    .endif
-
+    abilities ABILITY_OBLIVIOUS, ABILITY_ANTICIPATION
     runchance 0
     colorflip BODY_COLOR_BLUE, 0
     tmdata SPECIES_WHISCASH_TM_DATA_0, SPECIES_WHISCASH_TM_DATA_1, SPECIES_WHISCASH_TM_DATA_2, SPECIES_WHISCASH_TM_DATA_3
 
-// ABILITY: Tough Claws (1)
 mondata SPECIES_CORPHISH
     basestats 43, 80, 65, 35, 50, 35
     types TYPE_WATER, TYPE_WATER
@@ -8756,19 +8743,12 @@ mondata SPECIES_CORPHISH
     basefriendship 70
     growthrate GROWTH_FLUCTUATING
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_WATER_3
-
-    .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_TOUGH_CLAWS, ABILITY_SHELL_ARMOR
-    .else
-        abilities ABILITY_HYPER_CUTTER, ABILITY_SHELL_ARMOR
-    .endif
-
+    abilities ABILITY_HYPER_CUTTER, ABILITY_SHELL_ARMOR
     runchance 90
     colorflip BODY_COLOR_RED, 0
     tmdata SPECIES_CORPHISH_TM_DATA_0, SPECIES_CORPHISH_TM_DATA_1, SPECIES_CORPHISH_TM_DATA_2, SPECIES_CORPHISH_TM_DATA_3
 
 // STATS: 85 >> 95 Def | 468 >> 478 BST
-// ABILITY: Tough Claws (1)
 mondata SPECIES_CRAWDAUNT
 
     .if STAT_CHANGES_IMPLEMENTED
@@ -8787,13 +8767,7 @@ mondata SPECIES_CRAWDAUNT
     basefriendship 70
     growthrate GROWTH_FLUCTUATING
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_WATER_3
-
-    .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_TOUGH_CLAWS, ABILITY_SHELL_ARMOR
-    .else
-        abilities ABILITY_HYPER_CUTTER, ABILITY_SHELL_ARMOR
-    .endif
-
+    abilities ABILITY_HYPER_CUTTER, ABILITY_SHELL_ARMOR
     runchance 0
     colorflip BODY_COLOR_RED, 0
     tmdata SPECIES_CRAWDAUNT_TM_DATA_0, SPECIES_CRAWDAUNT_TM_DATA_1, SPECIES_CRAWDAUNT_TM_DATA_2, SPECIES_CRAWDAUNT_TM_DATA_3
@@ -9134,13 +9108,13 @@ mondata SPECIES_SHUPPET
     colorflip BODY_COLOR_BLACK, 0
     tmdata SPECIES_SHUPPET_TM_DATA_0, SPECIES_SHUPPET_TM_DATA_1, SPECIES_SHUPPET_TM_DATA_2, SPECIES_SHUPPET_TM_DATA_3
 
-// STATS: 115 >> 125 Atk | 65 >> 75 Def | 83 >> 73 SpAtk | 63 >> 73 SpDef | 65 >> 75 Spd | 455 >> 485 BST
+// STATS: 115 >> 125 Atk | 65 >> 70 Def | 83 >> 73 SpAtk | 63 >> 68 SpDef | 65 >> 75 Spd | 455 >> 475 BST
 // TYPES: Ghost >> Ghost/Normal
 // ABILITY: Cursed Body (2), Prankster (HA)
 mondata SPECIES_BANETTE
 
     .if STAT_CHANGES_IMPLEMENTED
-        basestats 64, 125, 75, 75, 73, 73
+        basestats 64, 125, 70, 75, 73, 68
     .else
         basestats 64, 115, 65, 65, 83, 63
     .endif
@@ -9513,7 +9487,7 @@ mondata SPECIES_HUNTAIL
     colorflip BODY_COLOR_BLUE, 0
     tmdata SPECIES_HUNTAIL_TM_DATA_0, SPECIES_HUNTAIL_TM_DATA_1, SPECIES_HUNTAIL_TM_DATA_2, SPECIES_HUNTAIL_TM_DATA_3
 
-// ABILITY: Hydration (2), Marvel Scale (HA)
+// ABILITY: Storm Drain (2), Marvel Scale (HA)
 mondata SPECIES_GOREBYSS
     basestats 55, 84, 105, 52, 114, 75
     types TYPE_WATER, TYPE_WATER
@@ -9528,7 +9502,7 @@ mondata SPECIES_GOREBYSS
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_WATER_1
 
     .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_SWIFT_SWIM, ABILITY_HYDRATION
+        abilities ABILITY_SWIFT_SWIM, ABILITY_STORM_DRAIN
     .else
         abilities ABILITY_SWIFT_SWIM, ABILITY_NONE
     .endif
@@ -10229,8 +10203,15 @@ mondata SPECIES_BIDOOF
     colorflip BODY_COLOR_BROWN, 0
     tmdata SPECIES_BIDOOF_TM_DATA_0, SPECIES_BIDOOF_TM_DATA_1, SPECIES_BIDOOF_TM_DATA_2, SPECIES_BIDOOF_TM_DATA_3
 
+// STATS: 79 >> 89 HP | 85 >> 95 Atk | 410 >> 430 BST
 mondata SPECIES_BIBAREL
-    basestats 79, 85, 60, 71, 55, 60
+
+    .if STAT_CHANGES_IMPLEMENTED
+        basestats 89, 95, 60, 71, 55, 60
+    .else
+        basestats 79, 85, 60, 71, 55, 60
+    .endif
+
     types TYPE_NORMAL, TYPE_WATER
     catchrate 127
     baseexp 116
@@ -10627,12 +10608,12 @@ mondata SPECIES_COMBEE
     colorflip BODY_COLOR_YELLOW, 0
     tmdata SPECIES_COMBEE_TM_DATA_0, SPECIES_COMBEE_TM_DATA_1, SPECIES_COMBEE_TM_DATA_2, SPECIES_COMBEE_TM_DATA_3
 
-// STATS: 70 >> 80 HP | 80 >> 90 Atk | 102 >> 105 Def | 80 >> 90 SpAtk | 102 >> 105 SpDef | 40 >> 30 Speed | 474 >> 500 BST
+// STATS: 70 >> 80 HP | 80 >> 90 Atk | 80 >> 90 SpAtk | 40 >> 30 Speed | 474 >> 494 BST
 // ABILITY: Swarm (2), Royal Order (HA, New)
 mondata SPECIES_VESPIQUEN
 
     .if STAT_CHANGES_IMPLEMENTED
-        basestats 80, 90, 105, 30, 90, 105
+        basestats 80, 90, 102, 30, 90, 102
     .else
         basestats 70, 80, 102, 40, 80, 102
     .endif
@@ -10904,7 +10885,7 @@ mondata SPECIES_DRIFBLIM
     colorflip BODY_COLOR_PURPLE, 0
     tmdata SPECIES_DRIFBLIM_TM_DATA_0, SPECIES_DRIFBLIM_TM_DATA_1, SPECIES_DRIFBLIM_TM_DATA_2, SPECIES_DRIFBLIM_TM_DATA_3
 
-// ABILITY: Limber (2), Klutz (HA)
+// ABILITY: Scrappy (HA)
 mondata SPECIES_BUNEARY
     basestats 55, 66, 44, 85, 44, 56
     types TYPE_NORMAL, TYPE_NORMAL
@@ -10917,20 +10898,14 @@ mondata SPECIES_BUNEARY
     basefriendship 0
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_HUMAN_LIKE
-
-    .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_RUN_AWAY, ABILITY_LIMBER
-    .else
-        abilities ABILITY_RUN_AWAY, ABILITY_KLUTZ
-    .endif
-
+    abilities ABILITY_RUN_AWAY, ABILITY_KLUTZ
     runchance 0
     colorflip BODY_COLOR_BROWN, 0
     tmdata SPECIES_BUNEARY_TM_DATA_0, SPECIES_BUNEARY_TM_DATA_1, SPECIES_BUNEARY_TM_DATA_2, SPECIES_BUNEARY_TM_DATA_3
 
 // STATS: 76 >> 96 Atk | 480 >> 500 BST
 // TYPES: Normal >> Normal/Fighting
-// ABILITY: Limber (2), Scrappy (HA)
+// ABILITY: Scrappy (HA)
 mondata SPECIES_LOPUNNY
 
     .if STAT_CHANGES_IMPLEMENTED
@@ -10954,13 +10929,7 @@ mondata SPECIES_LOPUNNY
     basefriendship 140
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_HUMAN_LIKE
-
-    .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_CUTE_CHARM, ABILITY_LIMBER
-    .else
-        abilities ABILITY_CUTE_CHARM, ABILITY_KLUTZ
-    .endif
-
+    abilities ABILITY_CUTE_CHARM, ABILITY_KLUTZ
     runchance 0
     colorflip BODY_COLOR_BROWN, 0
     tmdata SPECIES_LOPUNNY_TM_DATA_0, SPECIES_LOPUNNY_TM_DATA_1, SPECIES_LOPUNNY_TM_DATA_2, SPECIES_LOPUNNY_TM_DATA_3
@@ -11346,12 +11315,11 @@ mondata SPECIES_TOXICROAK
     colorflip BODY_COLOR_BLUE, 0
     tmdata SPECIES_TOXICROAK_TM_DATA_0, SPECIES_TOXICROAK_TM_DATA_1, SPECIES_TOXICROAK_TM_DATA_2, SPECIES_TOXICROAK_TM_DATA_3
 
-// STATS: 72 >> 82 Def | 72 >> 82 SpDef | 46 >> 36 Speed | 454 >> 464 BST
-// ABILITY: Sheer Force (HA)
+// STATS: 100 >> 110 Atk | 72 >> 82 Def | 72 >> 82 SpDef | 46 >> 36 Speed | 454 >> 474 BST
 mondata SPECIES_CARNIVINE
 
     .if STAT_CHANGES_IMPLEMENTED
-        basestats 74, 100, 82, 36, 90, 82
+        basestats 74, 110, 72, 46, 90, 72
     .else
         basestats 74, 100, 72, 46, 90, 72
     .endif
@@ -11372,7 +11340,6 @@ mondata SPECIES_CARNIVINE
     tmdata SPECIES_CARNIVINE_TM_DATA_0, SPECIES_CARNIVINE_TM_DATA_1, SPECIES_CARNIVINE_TM_DATA_2, SPECIES_CARNIVINE_TM_DATA_3
 
 // STATS: 49 >> 39 Atk | 49 >> 59 SpAtk
-// TYPES: Water >> Water/Fairy
 // ABILITY: Illuminate (HA)
 mondata SPECIES_FINNEON
 
@@ -11382,13 +11349,7 @@ mondata SPECIES_FINNEON
         basestats 49, 49, 56, 66, 49, 61
     .endif
 
-
-    .if TYPE_CHANGES_IMPLEMENTED
-        types TYPE_WATER, TYPE_FAIRY
-    .else
-        types TYPE_WATER, TYPE_WATER
-    .endif
-    
+    types TYPE_WATER, TYPE_WATER
     catchrate 190
     baseexp 90
     evyields 0, 0, 0, 1, 0, 0
@@ -11404,7 +11365,6 @@ mondata SPECIES_FINNEON
     tmdata SPECIES_FINNEON_TM_DATA_0, SPECIES_FINNEON_TM_DATA_1, SPECIES_FINNEON_TM_DATA_2, SPECIES_FINNEON_TM_DATA_3
 
 // STATS: 69 >> 59 Atk | 76 >> 86 Def | 69 >> 89 SpAtk | 460 >> 480 BST
-// TYPES: Water >> Water/Fairy
 // ABILITY: Illuminate (HA)
 mondata SPECIES_LUMINEON
 
@@ -11414,12 +11374,7 @@ mondata SPECIES_LUMINEON
         basestats 69, 69, 76, 91, 69, 86
     .endif
 
-    .if TYPE_CHANGES_IMPLEMENTED
-        types TYPE_WATER, TYPE_FAIRY
-    .else
-        types TYPE_WATER, TYPE_WATER
-    .endif
-    
+    types TYPE_WATER, TYPE_WATER
     catchrate 75
     baseexp 156
     evyields 0, 0, 0, 2, 0, 0

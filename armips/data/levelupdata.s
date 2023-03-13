@@ -11033,7 +11033,7 @@ levelup SPECIES_CARNIVINE
     learnset MOVE_POWER_WHIP, 52
     terminatelearnset
 
-// NEW: Draining Kiss, Moonblast, Quiver Dance
+// NEW: Hydro Pump (PLA), Quiver Dance
 levelup SPECIES_FINNEON
     learnset MOVE_POUND, 1
     learnset MOVE_CHARM, 1
@@ -11044,19 +11044,19 @@ levelup SPECIES_FINNEON
     learnset MOVE_SWEET_KISS, 12
     learnset MOVE_WATER_PULSE, 15
     learnset MOVE_RAIN_DANCE, 18
-    learnset TYPE_CHANGES_IMPLEMENTED ? MOVE_DRAINING_KISS : MOVE_SWIFT, 21
+    learnset MOVE_SWIFT, 21
     learnset MOVE_CAPTIVATE, 24
     learnset MOVE_SILVER_WIND, 27
     learnset MOVE_DAZZLING_GLEAM, 30
     learnset MOVE_AQUA_RING, 34
     learnset MOVE_U_TURN, 38
     learnset MOVE_BOUNCE, 42
-    learnset TYPE_CHANGES_IMPLEMENTED ? MOVE_MOONBLAST : MOVE_ACROBATICS, 46
-    learnset MOVE_TAILWIND, 50
-    learnset MOVE_QUIVER_DANCE, 54
+    learnset MOVE_TAILWIND, 46
+    learnset MOVE_QUIVER_DANCE, 50
+    learnset MOVE_HYDRO_PUMP, 54
     terminatelearnset
 
-// NEW: Draining Kiss, Moonblast, Quiver Dance
+// NEW: Hydro Pump (PLA), Quiver Dance
 levelup SPECIES_LUMINEON
     learnset MOVE_AURORA_BEAM, 1
     learnset MOVE_SIGNAL_BEAM, 1
@@ -11070,7 +11070,7 @@ levelup SPECIES_LUMINEON
     learnset MOVE_SWEET_KISS, 12
     learnset MOVE_WATER_PULSE, 15
     learnset MOVE_RAIN_DANCE, 18
-    learnset TYPE_CHANGES_IMPLEMENTED ? MOVE_DRAINING_KISS : MOVE_SWIFT, 21
+    learnset MOVE_SWIFT, 21
     learnset MOVE_CAPTIVATE, 24
     learnset MOVE_SILVER_WIND, 27
     learnset MOVE_DAZZLING_GLEAM, 30
@@ -11078,9 +11078,9 @@ levelup SPECIES_LUMINEON
     learnset MOVE_AQUA_RING, 34
     learnset MOVE_U_TURN, 38
     learnset MOVE_BOUNCE, 42
-    learnset TYPE_CHANGES_IMPLEMENTED ? MOVE_MOONBLAST : MOVE_ACROBATICS, 46
-    learnset MOVE_TAILWIND, 50
-    learnset MOVE_QUIVER_DANCE, 54
+    learnset MOVE_TAILWIND, 46
+    learnset MOVE_QUIVER_DANCE, 50
+    learnset MOVE_HYDRO_PUMP, 54
     terminatelearnset
 
 // NEW: Icicle Crash (PLA)

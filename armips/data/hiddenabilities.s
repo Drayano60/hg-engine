@@ -432,7 +432,7 @@
 /* SPECIES_AMBIPOM                     */ .halfword ABILITY_SKILL_LINK
 /* SPECIES_DRIFLOON                    */ .halfword ABILITY_FLARE_BOOST
 /* SPECIES_DRIFBLIM                    */ .halfword ABILITY_FLARE_BOOST
-/* SPECIES_BUNEARY                     */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_KLUTZ : ABILITY_LIMBER
+/* SPECIES_BUNEARY                     */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_SCRAPPY : ABILITY_LIMBER
 /* SPECIES_LOPUNNY                     */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_SCRAPPY : ABILITY_LIMBER
 /* SPECIES_MISMAGIUS                   */ .halfword ABILITY_NONE
 /* SPECIES_HONCHKROW                   */ .halfword ABILITY_MOXIE
@@ -460,7 +460,7 @@
 /* SPECIES_DRAPION                     */ .halfword ABILITY_KEEN_EYE
 /* SPECIES_CROAGUNK                    */ .halfword ABILITY_POISON_TOUCH
 /* SPECIES_TOXICROAK                   */ .halfword ABILITY_POISON_TOUCH
-/* SPECIES_CARNIVINE                   */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_SHEER_FORCE : ABILITY_NONE
+/* SPECIES_CARNIVINE                   */ .halfword ABILITY_NONE
 /* SPECIES_FINNEON                     */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_ILLUMINATE : ABILITY_WATER_VEIL
 /* SPECIES_LUMINEON                    */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_ILLUMINATE : ABILITY_WATER_VEIL
 /* SPECIES_MANTYKE                     */ .halfword ABILITY_WATER_VEIL

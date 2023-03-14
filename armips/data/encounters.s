@@ -394,8 +394,8 @@ encounter SPECIES_PELIPPER, 30, 30
 encounter SPECIES_TENTACRUEL, 30, 30
 
 // rock smash encounters
-encounter SPECIES_KRABBY, 10, 12
-encounter SPECIES_STARYU, 10, 12
+encounter SPECIES_KRABBY, 10, 14
+encounter SPECIES_STARYU, 10, 14
 
 // old rod encounters
 encounter SPECIES_KRABBY, 8, 10
@@ -646,7 +646,7 @@ rocksmashrate 50
 oldrodrate FISHING_RATE
 goodrodrate FISHING_RATE
 superrodrate FISHING_RATE
-walklevels 8, 9, 8, 9, 8, 9, 8, 9, 8, 9, 8, 9
+walklevels 8, 9, 8, 9, 8, 9, 8, 8, 8, 9, 8, 9
 
 // morning encounter slots
 pokemon SPECIES_ZUBAT
@@ -1160,7 +1160,7 @@ pokemon SPECIES_QWILFISH
 /************** Ruins of Alph (Outside) **************/
 encounterdata   9
 
-walkrate 10
+walkrate 25 // Changed from 10
 surfrate 10
 rocksmashrate 20
 oldrodrate FISHING_RATE
@@ -1717,8 +1717,8 @@ pokemon SPECIES_MARILL
 pokemon SPECIES_KRICKETUNE
 
 // night encounter slots
-pokemon SPECIES_SPEAROW
-pokemon SPECIES_SPEAROW
+pokemon SPECIES_HOUNDOUR
+pokemon SPECIES_HOUNDOUR
 pokemon SPECIES_POOCHYENA
 pokemon SPECIES_POOCHYENA
 pokemon SPECIES_CROAGUNK
@@ -1855,7 +1855,7 @@ encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
 encounter SPECIES_MAGIKARP, 5, 15
-encounter SPECIES_POLIWAG, 14, 15
+encounter SPECIES_MAGIKARP, 5, 15
 encounter SPECIES_POLIWAG, 14, 15
 encounter SPECIES_POLIWAG, 14, 15
 encounter SPECIES_POLIWAG, 14, 15
@@ -2791,7 +2791,7 @@ encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
 encounter SPECIES_MAGIKARP, 5, 25
-encounter SPECIES_GOLDEEN, 23, 25
+encounter SPECIES_MAGIKARP, 5, 25
 encounter SPECIES_GOLDEEN, 23, 25
 encounter SPECIES_GOLDEEN, 23, 25
 encounter SPECIES_GOLDEEN, 23, 25
@@ -3707,12 +3707,12 @@ pokemon SPECIES_DRIFBLIM
 pokemon SPECIES_DRIFBLIM
 
 // hoenn encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
+pokemon SPECIES_CHANSEY
+pokemon SPECIES_CHANSEY
 
 // sinnoh encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
+pokemon SPECIES_CHANSEY
+pokemon SPECIES_CHANSEY
 
 // surf encounters
 encounter SPECIES_WINGULL, 27, 29
@@ -3820,9 +3820,9 @@ pokemon SPECIES_NONE
 
 // surf encounters
 encounter SPECIES_MANTYKE, 28, 29
-encounter SPECIES_TENTACOOL, 28, 29
-encounter SPECIES_TENTACOOL, 28, 29
+encounter SPECIES_PELIPPER, 30, 32
 encounter SPECIES_TENTACRUEL, 30, 32
+encounter SPECIES_SHARPEDO, 30, 32
 encounter SPECIES_MANTINE, 30, 32
 
 // rock smash encounters
@@ -4286,7 +4286,7 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 32, 32, 32, 32, 32, 33, 33, 33, 33, 33, 33, 33
+walklevels 32, 33, 32, 33, 32, 33, 33, 33, 33, 33, 33, 33
 
 // morning encounter slots
 pokemon SPECIES_SKIPLOOM

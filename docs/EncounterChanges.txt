@@ -1,5 +1,9 @@
 - Sort out cliff edge gate
-- headbutt r47
+- headbutt r47, r27, r26, rest of kanto
+
+============================================================
+Johto
+============================================================
 
 ==============================
 New Bark Town
@@ -1155,7 +1159,10 @@ Safari Zone
 Only the basic encounters for each zone have been edited.
 The encounters you can get from object placement are the same as vanilla HG/SS.
 
-Grass (Plains):
+-------------------
+Plains
+-------------------
+Grass (Day/Night):
 [10%/Lv. 35 - 35] Dodrio
 [10%/Lv. 35 - 35] Manectric
 [10%/Lv. 35 - 35] Girafarig
@@ -1167,289 +1174,667 @@ Grass (Plains):
 [10%/Lv. 34 - 34] Volbeat
 [10%/Lv. 35 - 35] Linoone
 
+-------------------
+Meadow
+-------------------
+Grass (Day/Night):
+[10%/Lv. 35 - 35] Cherrim
+[10%/Lv. 34 - 34] Kirlia
+[10%/Lv. 34 - 34] Chansey
+[10%/Lv. 34 - 34] Skiploom
+[10%/Lv. 33 - 33] Jigglypuff
+[10%/Lv. 33 - 33] Riolu
+[10%/Lv. 34 - 34] Roselia
+[10%/Lv. 35 - 35] Vespiquen
+[10%/Lv. 35 - 35] Sunflora
+[10%/Lv. 34 - 34] Togetic
 
-00 - Plains         Grass
-====================================
-Lv. 35 (10%)        Dodrio
-Lv. 35 (10%)        Manectric
-Lv. 35 (10%)        Girafarig
-Lv. 34 (10%)        Illumise
-Lv. 35 (10%)        Miltank
-Lv. 35 (10%)        Rapidash
-Lv. 34 (10%)        Smeargle
-Lv. 34 (10%)        Spinda
-Lv. 34 (10%)        Volbeat
-Lv. 35 (10%)        Linoone
+Surfing:
+[40%/Lv. 35 - 35] Azumarill
+[30%/Lv. 35 - 35] Quagsire
+[30%/Lv. 34 - 34] Lombre
 
-01 - Meadow         Grass
-====================================
-Lv. 35 (10%)        Cherrim   
-Lv. 34 (10%)        Kirlia    
-Lv. 34 (10%)        Chansey   
-Lv. 34 (10%)        Skiploom  
-Lv. 33 (10%)        Jigglypuff
-Lv. 33 (10%)        Riolu     
-Lv. 34 (10%)        Roselia   
-Lv. 35 (10%)        Vespiquen
-Lv. 35 (10%)        Sunflora  
-Lv. 34 (10%)        Togetic   
+Fishing:
+[50%/Lv. 33 - 33] Poliwag
+[50%/Lv. 34 - 34] Poliwhirl
 
-01 - Meadow         Surfing         
-====================================
-Lv. 34 (10%)        Lombre   
-Lv. 34 (10%)        Lombre   
-Lv. 34 (10%)        Lombre   
-Lv. 35 (10%)        Quagsire 
-Lv. 35 (10%)        Quagsire 
-Lv. 35 (10%)        Quagsire 
-Lv. 35 (10%)        Azumarill
-Lv. 35 (10%)        Azumarill
-Lv. 35 (10%)        Azumarill
-Lv. 35 (10%)        Azumarill
+-------------------
+Savannah
+-------------------
+Grass (Day/Night):
+[10%/Lv. 35 - 35] Girafarig
+[10%/Lv. 35 - 35] Houndoom
+[10%/Lv. 35 - 35] Persian
+[10%/Lv. 34 - 34] Nidorina
+[10%/Lv. 34 - 34] Nidorino
+[10%/Lv. 35 - 35] Donphan
+[10%/Lv. 35 - 35] Mightyena
+[10%/Lv. 33 - 33] Rhyhorn
+[10%/Lv. 34 - 34] Luxio
+[10%/Lv. 35 - 35] Tauros
 
-01 - Meadow         Fishing
-====================================
-Lv. 33 (10%)        Poliwag
-Lv. 33 (10%)        Poliwag
-Lv. 33 (10%)        Poliwag
-Lv. 33 (10%)        Poliwag
-Lv. 33 (10%)        Poliwag
-Lv. 34 (10%)        Poliwhirl
-Lv. 34 (10%)        Poliwhirl
-Lv. 34 (10%)        Poliwhirl
-Lv. 34 (10%)        Poliwhirl
-Lv. 34 (10%)        Poliwhirl
+-------------------
+Peak
+-------------------
+Grass (Day/Night):
+[10%/Lv. 35 - 35] Bronzong
+[10%/Lv. 33 - 33] Clefairy
+[10%/Lv. 34 - 34] Electabuzz
+[10%/Lv. 35 - 35] Fearow
+[10%/Lv. 34 - 34] Graveler
+[10%/Lv. 34 - 34] Magmar
+[10%/Lv. 34 - 34] Magneton
+[10%/Lv. 34 - 34] Metang
+[10%/Lv. 35 - 35] Skarmory
+[10%/Lv. 35 - 35] Zangoose
 
-02 - Savannah       Grass           
-====================================
-Lv. 35 (10%)        Girafarig
-Lv. 35 (10%)        Houndoom 
-Lv. 35 (10%)        Persian  
-Lv. 34 (10%)        Nidorina 
-Lv. 34 (10%)        Nidorino 
-Lv. 35 (10%)        Donphan  
-Lv. 35 (10%)        Mightyena
-Lv. 33 (10%)        Rhyhorn  
-Lv. 34 (10%)        Luxio    
-Lv. 35 (10%)        Tauros   
+-------------------
+Rocky Beach
+-------------------
+Grass (Day/Night):
+[10%/Lv. 35 - 35] Floatzel
+[10%/Lv. 33 - 33] Exeggcute
+[10%/Lv. 35 - 35] Kingler
+[10%/Lv. 34 - 34] Pachirisu
+[10%/Lv. 35 - 35] Golduck
+[10%/Lv. 35 - 35] Gastrodon (West Sea)
+[10%/Lv. 34 - 34] Shuckle
+[10%/Lv. 33 - 33] Slowpoke
+[10%/Lv. 35 - 35] Swellow
+[10%/Lv. 35 - 35] Pelipper
 
-03 - Peak           Grass           
-====================================
-Lv. 35 (10%)        Bronzong  
-Lv. 33 (10%)        Clefairy  
-Lv. 34 (10%)        Electabuzz
-Lv. 35 (10%)        Fearow    
-Lv. 34 (10%)        Graveler  
-Lv. 34 (10%)        Magmar    
-Lv. 34 (10%)        Magneton  
-Lv. 34 (10%)        Metang    
-Lv. 35 (10%)        Skarmory  
-Lv. 35 (10%)        Zangoose  
+Surfing:
+[20%/Lv. 35 - 35] Tentacruel
+[20%/Lv. 35 - 35] Pelipper
+[20%/Lv. 35 - 35] Mantine
+[20%/Lv. 33 - 33] Staryu
+[20%/Lv. 35 - 35] Lapras
 
-04 - Rocky Beach    Grass
-====================================
-Lv. 35 (10%)        Floatzel 
-Lv. 33 (10%)        Exeggcute
-Lv. 35 (10%)        Kingler  
-Lv. 34 (10%)        Pachirisu
-Lv. 35 (10%)        Golduck   
-Lv. 35 (10%)        Gastrodon 
-Lv. 34 (10%)        Shuckle  
-Lv. 33 (10%)        Slowpoke  
-Lv. 35 (10%)        Swellow   
-Lv. 35 (10%)        Pelipper  
+Fishing:
+[20%/Lv. 34 - 34] Corsola
+[20%/Lv. 33 - 33] Wailmer
+[20%/Lv. 35 - 35] Sharpedo
+[20%/Lv. 35 - 35] Lanturn
+[20%/Lv. 33 - 33] Clamperl
 
-04 - Rocky Beach    Surfing
-====================================
-Lv. 35 (10%)        Tentacruel
-Lv. 35 (10%)        Tentacruel
-Lv. 35 (10%)        Pelipper  
-Lv. 35 (10%)        Pelipper  
-Lv. 35 (10%)        Mantine    
-Lv. 35 (10%)        Mantine    
-Lv. 33 (10%)        Staryu    
-Lv. 33 (10%)        Staryu    
-Lv. 35 (10%)        Lapras     
-Lv. 35 (10%)        Lapras     
+-------------------
+Wetland
+-------------------
+Grass (Day/Night):
+[10%/Lv. 35 - 35] Carnivine
+[10%/Lv. 35 - 35] Toxicroak
+[10%/Lv. 35 - 35] Ditto
+[10%/Lv. 35 - 35] Azumarill
+[10%/Lv. 35 - 35] Parasect
+[10%/Lv. 35 - 35] Breloom
+[10%/Lv. 35 - 35] Drapion
+[10%/Lv. 35 - 35] Masquerain
+[10%/Lv. 35 - 35] Quagsire
+[10%/Lv. 34 - 34] Yanma
 
-04 - Rocky Beach    Fishing
-====================================
-Lv. 34 (10%)        Corsola
-Lv. 34 (10%)        Corsola
-Lv. 33 (10%)        Wailmer
-Lv. 33 (10%)        Wailmer
-Lv. 35 (10%)        Sharpedo
-Lv. 35 (10%)        Sharpedo
-Lv. 35 (10%)        Lanturn
-Lv. 35 (10%)        Lanturn
-Lv. 33 (10%)        Clamperl
-Lv. 33 (10%)        Clamperl
+Surfing:
+[40%/Lv. 35 - 35] Quagsire 
+[30%/Lv. 34 - 34] Poliwhirl
+[30%/Lv. 35 - 35] Masquerain
 
-05 - Wetland        Grass
-====================================
-Lv. 35 (10%)        Carnivine 
-Lv. 35 (10%)        Toxicroak 
-Lv. 35 (10%)        Ditto     
-Lv. 35 (10%)        Azumarill 
-Lv. 35 (10%)        Parasect  
-Lv. 35 (10%)        Breloom   
-Lv. 35 (10%)        Drapion   
-Lv. 35 (10%)        Masquerain
-Lv. 35 (10%)        Quagsire  
-Lv. 34 (10%)        Yanma     
+Fishing:
+[100%/Lv. 35 - 35] Whiscash
 
-05 - Wetland        Surfing
-====================================
-Lv. 34 (10%)        Poliwhirl 
-Lv. 34 (10%)        Poliwhirl 
-Lv. 34 (10%)        Poliwhirl 
-Lv. 35 (10%)        Masquerain
-Lv. 35 (10%)        Masquerain
-Lv. 35 (10%)        Masquerain
-Lv. 35 (10%)        Quagsire  
-Lv. 35 (10%)        Quagsire  
-Lv. 35 (10%)        Quagsire  
-Lv. 35 (10%)        Quagsire  
+-------------------
+Forest
+-------------------
+Grass (Day/Night):
+[10%/Lv. 35 - 35] Lopunny
+[10%/Lv. 35 - 35] Noctowl
+[10%/Lv. 34 - 34] Misdreavus
+[10%/Lv. 34 - 34] Murkrow
+[10%/Lv. 35 - 35] Ninjask
+[10%/Lv. 34 - 34] Gloom
+[10%/Lv. 34 - 34] Pikachu
+[10%/Lv. 34 - 34] Nuzleaf
+[10%/Lv. 35 - 35] Venomoth
+[10%/Lv. 34 - 34] Vigoroth
 
-05 - Wetland        Fishing
-====================================
-Lv. 35 (10%)        Whiscash
-Lv. 35 (10%)        Whiscash
-Lv. 35 (10%)        Whiscash
-Lv. 35 (10%)        Whiscash
-Lv. 35 (10%)        Whiscash
-Lv. 35 (10%)        Whiscash
-Lv. 35 (10%)        Whiscash
-Lv. 35 (10%)        Whiscash
-Lv. 35 (10%)        Whiscash
-Lv. 35 (10%)        Whiscash
+-------------------
+Swamp
+-------------------
+Grass (Day/Night):
+[10%/Lv. 34 - 34] Weepinbell
+[10%/Lv. 35 - 35] Carnivine
+[10%/Lv. 35 - 35] Toxicroak
+[10%/Lv. 35 - 35] Hypno
+[10%/Lv. 35 - 35] Arbok
+[10%/Lv. 34 - 34] Haunter
+[10%/Lv. 34 - 34] Murkrow
+[10%/Lv. 35 - 35] Parasect
+[10%/Lv. 35 - 35] Drapion
+[10%/Lv. 35 - 35] Quagsire
 
-06 - Forest         Grass           
-====================================
-Lv. 35 (10%)        Lopunny   
-Lv. 35 (10%)        Noctowl   
-Lv. 34 (10%)        Misdreavus
-Lv. 34 (10%)        Murkrow   
-Lv. 35 (10%)        Ninjask   
-Lv. 34 (10%)        Gloom     
-Lv. 34 (10%)        Pikachu   
-Lv. 34 (10%)        Nuzleaf   
-Lv. 35 (10%)        Venomoth  
-Lv. 34 (10%)        Vigoroth  
+Surfing:
+[50%/Lv. 35 - 35] Quagsire
+[50%/Lv. 35 - 35] Seaking
 
-07 - Swamp          Grass           
-====================================
-Lv. 34 (10%)        Weepinbell  
-Lv. 35 (10%)        Carnivine   
-Lv. 35 (10%)        Toxicroak   
-Lv. 35 (10%)        Hypno       
-Lv. 35 (10%)        Arbok      
-Lv. 34 (10%)        Haunter    
-Lv. 34 (10%)        Murkrow    
-Lv. 35 (10%)        Parasect   
-Lv. 35 (10%)        Drapion     
-Lv. 35 (10%)        Quagsire    
+Fishing:
+[40%/Lv. 34 - 34] Poliwhirl
+[40%/Lv. 35 - 35] Whiscash
+[20%/Lv. 34 - 34] Dragonair
 
-07 - Swamp          Surfing         
-====================================
-Lv. 35 (10%)        Quagsire     
-Lv. 35 (10%)        Quagsire     
-Lv. 35 (10%)        Quagsire     
-Lv. 35 (10%)        Quagsire     
-Lv. 35 (10%)        Quagsire    
-Lv. 35 (10%)        Seaking     
-Lv. 35 (10%)        Seaking     
-Lv. 35 (10%)        Seaking     
-Lv. 35 (10%)        Seaking      
-Lv. 35 (10%)        Seaking      
+-------------------
+Marshland
+-------------------
+Grass (Day/Night);
+[10%/Lv. 35 - 35] Carnivine
+[10%/Lv. 35 - 35] Toxicroak
+[10%/Lv. 35 - 35] Dusclops
+[10%/Lv. 35 - 35] Arbok
+[10%/Lv. 35 - 35] Muk
+[10%/Lv. 35 - 35] Weezing
+[10%/Lv. 34 - 34] Roselia
+[10%/Lv. 35 - 35] Seviper
+[10%/Lv. 35 - 35] Banette
+[10%/Lv. 35 - 35] Tropius
 
-07 - Swamp          Fishing
-====================================
-Lv. 34 (10%)        Poliwhirl
-Lv. 34 (10%)        Poliwhirl
-Lv. 34 (10%)        Poliwhirl
-Lv. 34 (10%)        Poliwhirl
-Lv. 35 (10%)        Whiscash
-Lv. 35 (10%)        Whiscash
-Lv. 35 (10%)        Whiscash
-Lv. 35 (10%)        Whiscash
-Lv. 34 (10%)        Dragonair
-Lv. 34 (10%)        Dragonair
+Surfing:
+[50%/Lv. 35 - 35] Quagsire
+[50%/Lv. 35 - 35] Muk
 
-08 - Marshland      Grass           
-====================================
-Lv. 35 (10%)        Carnivine
-Lv. 35 (10%)        Toxicroak
-Lv. 35 (10%)        Dusclops
-Lv. 35 (10%)        Arbok
-Lv. 35 (10%)        Muk
-Lv. 35 (10%)        Weezing
-Lv. 34 (10%)        Roselia
-Lv. 35 (10%)        Seviper
-Lv. 35 (10%)        Banette
-Lv. 35 (10%)        Tropius
+Fishing:
+[50%/Lv. 35 - 35] Whiscash
+[50%/Lv. 35 - 35] Muk
 
-08 - Marshland      Surfing         
-====================================
-Lv. 35 (10%)        Quagsire
-Lv. 35 (10%)        Quagsire
-Lv. 35 (10%)        Quagsire
-Lv. 35 (10%)        Quagsire
-Lv. 35 (10%)        Quagsire
-Lv. 35 (10%)        Muk
-Lv. 35 (10%)        Muk
-Lv. 35 (10%)        Muk
-Lv. 35 (10%)        Muk
-Lv. 35 (10%)        Muk
+-------------------
+Wasteland
+-------------------
+Grass (Day/Night);
+[10%/Lv. 35 - 35] Marowak
+[10%/Lv. 35 - 35] Kangaskhan
+[10%/Lv. 34 - 34] Machoke
+[10%/Lv. 35 - 35] Primeape
+[10%/Lv. 35 - 35] Camerupt
+[10%/Lv. 34 - 34] Onix
+[10%/Lv. 35 - 35] Drapion
+[10%/Lv. 35 - 35] Magcargo
+[10%/Lv. 35 - 35] Fearow
+[10%/Lv. 35 - 35] Grumpig
 
-08 - Marshland      Fishing         
-====================================
-Lv. 35 (10%)        Whiscash
-Lv. 35 (10%)        Whiscash
-Lv. 35 (10%)        Whiscash
-Lv. 35 (10%)        Whiscash
-Lv. 35 (10%)        Whiscash
-Lv. 35 (10%)        Muk
-Lv. 35 (10%)        Muk
-Lv. 35 (10%)        Muk
-Lv. 35 (10%)        Muk
-Lv. 35 (10%)        Muk
+-------------------
+Mountain
+-------------------
+Grass (Day/Night);
+[10%/Lv. 34 - 34] Lairon
+[10%/Lv. 34 - 34] Shelgon
+[10%/Lv. 35 - 35] Chimecho
+[10%/Lv. 34 - 34] Pupitar
+[10%/Lv. 35 - 35] Lunatone
+[10%/Lv. 35 - 35] Hariyama
+[10%/Lv. 35 - 35] Medicham
+[10%/Lv. 34 - 34] Nosepass
+[10%/Lv. 35 - 35] Magcargo
+[10%/Lv. 35 - 35] Solrock
 
-09 - Wasteland      Grass           
-====================================
-Lv. 35 (10%)        Marowak   
-Lv. 35 (10%)        Kangaskhan
-Lv. 34 (10%)        Machoke   
-Lv. 35 (10%)        Primeape  
-Lv. 35 (10%)        Camerupt  
-Lv. 34 (10%)        Onix      
-Lv. 35 (10%)        Drapion   
-Lv. 35 (10%)        Magcargo  
-Lv. 35 (10%)        Fearow    
-Lv. 35 (10%)        Grumpig   
+-------------------
+Desert
+-------------------
+Grass (Day/Night);
+[10%/Lv. 33 - 33] Baltoy
+[10%/Lv. 33 - 33] Cacnea
+[10%/Lv. 35 - 35] Marowak
+[10%/Lv. 35 - 35] Dugtrio
+[10%/Lv. 34 - 34] Gabite
+[10%/Lv. 33 - 33] Hippopotas
+[10%/Lv. 35 - 35] Sandslash
+[10%/Lv. 33 - 33] Rhyhorn
+[10%/Lv. 35 - 35] Torkoal
+[10%/Lv. 33 - 33] Trapinch
 
-10 - Mountain       Grass           
-====================================
-Lv. 34 (10%)        Lairon  
-Lv. 34 (10%)        Shelgon 
-Lv. 35 (10%)        Chimecho
-Lv. 34 (10%)        Pupitar 
-Lv. 35 (10%)        Lunatone
-Lv. 35 (10%)        Hariyama
-Lv. 35 (10%)        Medicham
-Lv. 34 (10%)        Nosepass
-Lv. 35 (10%)        Magcargo
-Lv. 35 (10%)        Solrock 
+==============================
+Route 43
+==============================
+Grass (Day):
+[20%/Lv. 35 - 36] Furret
+[20%/Lv. 35 - 36] Flaaffy
+[20%/Lv. 35 - 36] Weepinbell
+[20%/Lv. 35 - 36] Girafarig
+[10%/Lv. 35 - 36] Lombre
+[10%/Lv. 35 - 36] Farfetch'd
 
-11 - Desert         Grass           
-====================================
-Lv. 33 (10%)        Baltoy    
-Lv. 33 (10%)        Cacnea    
-Lv. 35 (10%)        Marowak   
-Lv. 35 (10%)        Dugtrio   
-Lv. 34 (10%)        Gabite    
-Lv. 33 (10%)        Hippopotas
-Lv. 35 (10%)        Sandslash 
-Lv. 33 (10%)        Rhyhorn   
-Lv. 35 (10%)        Torkoal   
-Lv. 33 (10%)        Trapinch  
+Grass (Night):
+[20%/Lv. 35 - 36] Raticate
+[20%/Lv. 35 - 36] Flaaffy
+[20%/Lv. 35 - 36] Weepinbell
+[20%/Lv. 35 - 36] Girafarig
+[10%/Lv. 35 - 36] Lombre
+[10%/Lv. 35 - 36] Venomoth
+
+Headbutt:
+[40%/Lv. 32 - 35] Hoothoot
+[20%/Lv. 32 - 35] Venonat
+[20%/Lv. 32 - 35] Exeggcute
+
+Surfing:
+[100%/Lv. 05 - 35] Magikarp
+
+Fishing:
+[40%/Lv. 05 - 35] Magikarp
+[40%/Lv. 35 - 36] Poliwhirl
+[20%/Lv. 35 - 36] Crawdaunt
+
+Special Sound:
+[40%/Lv. 35 - 36] Chansey
+
+==============================
+Lake of Rage
+==============================
+Headbutt:
+[40%/Lv. 32 - 35] Hoothoot
+[20%/Lv. 32 - 35] Venonat
+[20%/Lv. 32 - 35] Exeggcute
+
+Surfing:
+[90%/Lv. 05 - 40] Magikarp
+[10%/Lv. 40 - 40] Gyarados
+
+Fishing:
+[80%/Lv. 05 - 40] Magikarp
+[10%/Lv. 05 - 40] Feebas
+[10%/Lv. 40 - 40] Gyarados
+
+==============================
+Whirl Islands
+==============================
+Cave (Day/Night):
+[20%/Lv. 42 - 43] Golbat
+[20%/Lv. 42 - 43] Dewgong
+[20%/Lv. 42 - 43] Kingler
+[20%/Lv. 42 - 43] Sealeo
+[10%/Lv. 43 - 43] Golduck
+[10%/Lv. 43 - 43] Slowbro
+[05%/Lv. 43 - 43] Gastrodon (West Sea)
+[05%/Lv. 43 - 43] Gastrodon (East Sea)
+
+Surfing:
+[40%/Lv. 38 - 39] Horsea
+[40%/Lv. 38 - 39] Tentacool
+[10%/Lv. 42 - 43] Tentacruel
+[10%/Lv. 42 - 43] Seadra
+
+Fishing:
+[40%/Lv. 42 - 43] Seadra
+[40%/Lv. 42 - 43] Kingler
+[40%/Lv. 42 - 43] Relicanth
+
+Special Sound:
+[40%/Lv. 42 - 43] Chansey
+
+==============================
+Ice Path (Lower Floors)
+==============================
+Cave (Day/Night):
+[20%/Lv. 42 - 43] Golbat
+[20%/Lv. 42 - 43] Jynx
+[20%/Lv. 42 - 43] Piloswine
+[10%/Lv. 42 - 42] Delibird
+[10%/Lv. 42 - 42] Sneasel
+[10%/Lv. 42 - 43] Glalie
+[05%/Lv. 42 - 42] Metang
+[05%/Lv. 43 - 43] Absol
+
+Special Sound:
+[40%/Lv. 42 - 43] Chansey
+
+==============================
+Blackthorn City
+==============================
+Surfing:
+[100%/Lv. 05 - 45] Magikarp
+
+Fishing:
+[100%/Lv. 05 - 45] Magikarp
+
+==============================
+Route 45 (North)
+==============================
+Grass (Day):
+[10%/Lv. 44 - 44] Graveler
+[10%/Lv. 45 - 45] Fearow
+[20%/Lv. 44 - 45] Gligar
+[20%/Lv. 45 - 45] Donphan
+[20%/Lv. 44 - 45] Skarmory
+[05%/Lv. 45 - 45] Camerupt
+[05%/Lv. 45 - 45] Grumpig
+[05%/Lv. 45 - 45] Torkoal
+[05%/Lv. 45 - 45] Altaria
+
+Grass (Night):
+[10%/Lv. 44 - 44] Graveler
+[10%/Lv. 45 - 45] Houndoom
+[20%/Lv. 44 - 45] Gligar
+[20%/Lv. 45 - 45] Donphan
+[20%/Lv. 44 - 45] Skarmory
+[05%/Lv. 45 - 45] Camerupt
+[05%/Lv. 45 - 45] Grumpig
+[05%/Lv. 45 - 45] Torkoal
+[05%/Lv. 45 - 45] Altaria
+
+Special Sound:
+[40%/Lv. 44 - 45] Chansey
+
+==============================
+Dark Cave (Blackthorn Side)
+==============================
+Cave (Day/Night):
+[20%/Lv. 44 - 45] Golbat
+[20%/Lv. 44 - 45] Graveler
+[20%/Lv. 45 - 45] Ursaring
+[20%/Lv. 44 - 45] Wobbuffet
+[10%/Lv. 44 - 45] Lairon
+[05%/Lv. 44 - 44] Pupitar
+[05%/Lv. 44 - 44] Dunsparce
+
+Rock Smash:
+[70%/Lv. 44 - 45] Dunsparce
+[30%/Lv. 44 - 45] Magcargo
+
+Surfing:
+[100%/Lv. 44 - 45] Golbat
+
+Fishing:
+[40%/Lv. 05 - 45] Magikarp
+[40%/Lv. 44 - 45] Seaking
+[20%/Lv. 44 - 45] Whiscash
+
+Special Sound:
+[40%/Lv. 44 - 45] Chansey
+
+==============================
+Dragon's Den
+==============================
+Cave (Day/Night):
+[40%/Lv. 47 - 48] Golbat
+[20%/Lv. 47 - 48] Arbok
+[20%/Lv. 47 - 47] Dunsparce
+[10%/Lv. 47 - 47] Gabite
+[10%/Lv. 47 - 47] Shelgon
+
+Surfing:
+[60%/Lv. 05 - 45] Magikarp
+[30%/Lv. 40 - 45] Dratini
+[10%/Lv. 47 - 47] Dragonair
+
+Fishing:
+[40%/Lv. 05 - 45] Magikarp
+[40%/Lv. 40 - 45] Dratini
+[20%/Lv. 47 - 47] Dragonair
+
+Special Sound:
+[40%/Lv. 47 - 48] Dragonite
+
+==============================
+Mt. Mortar (Upper Floors)
+==============================
+Cave (Day):
+[10%/Lv. 48 - 48] Graveler
+[10%/Lv. 50 - 50] Marowak
+[10%/Lv. 48 - 48] Machoke
+[10%/Lv. 50 - 50] Hariyama
+[10%/Lv. 50 - 50] Medicham
+[10%/Lv. 47 - 47] Riolu
+[10%/Lv. 50 - 50] Solrock
+[10%/Lv. 50 - 50] Lunatone
+[10%/Lv. 50 - 50] Hitmonlee
+[10%/Lv. 50 - 50] Hitmontop
+[10%/Lv. 50 - 50] Hitmonchan
+[10%/Lv. 50 - 50] Kangaskhan
+
+Cave (Night):
+[10%/Lv. 48 - 48] Graveler
+[10%/Lv. 50 - 50] Marowak
+[10%/Lv. 48 - 48] Machoke
+[10%/Lv. 50 - 50] Hariyama
+[10%/Lv. 50 - 50] Medicham
+[10%/Lv. 47 - 47] Clefairy
+[10%/Lv. 50 - 50] Solrock
+[10%/Lv. 50 - 50] Lunatone
+[10%/Lv. 50 - 50] Hitmonlee
+[10%/Lv. 50 - 50] Hitmontop
+[10%/Lv. 50 - 50] Hitmonchan
+[10%/Lv. 50 - 50] Kangaskhan
+
+Surfing:
+[80%/Lv. 48 - 50] Golbat
+[20%/Lv. 50 - 50] Azumarill
+
+Fishing:
+[40%/Lv. 05 - 50] Magikarp
+[40%/Lv. 48 - 50] Seaking
+[20%/Lv. 48 - 50] Whiscash
+
+Special Sound:
+[40%/Lv. 48 - 50] Chansey
+
+==============================
+Bell Tower
+==============================
+Walk (Day/Night):
+[20%/Lv. 48 - 50] Raticate
+[20%/Lv. 48 - 50] Ariados
+[20%/Lv. 48 - 49] Haunter
+[10%/Lv. 49 - 49] Banette
+[10%/Lv. 49 - 49] Dusclops
+[10%/Lv. 49 - 50] Bronzong
+[10%/Lv. 49 - 50] Chimecho
+
+Special Sound:
+[40%/Lv. 48 - 50] Chansey
+
+==============================
+Tohjo Falls
+==============================
+Cave (Day/Night):
+[20%/Lv. 48 - 50] Golbat
+[20%/Lv. 48 - 50] Slowbro
+[20%/Lv. 48 - 50] Quagsire
+[20%/Lv. 48 - 50] Golduck
+[10%/Lv. 48 - 50] Floatzel
+[10%/Lv. 48 - 50] Azumarill
+
+Surfing:
+[40%/Lv. 48 - 50] Golbat
+[40%/Lv. 48 - 50] Seaking
+[20%/Lv. 48 - 50] Slowbro
+
+Fishing:
+[40%/Lv. 48 - 50] Gyarados
+[40%/Lv. 48 - 50] Seaking
+[20%/Lv. 48 - 50] Whiscash
+
+Special Sound:
+[40%/Lv. 48 - 50] Chansey
+
+==============================
+Route 27
+==============================
+Grass (Day):
+[20%/Lv. 49 - 50] Dodrio
+[20%/Lv. 49 - 50] Rapidash
+[10%/Lv. 50 - 50] Manectric
+[10%/Lv. 49 - 49] Zangoose
+[10%/Lv. 49 - 49] Seviper
+[10%/Lv. 49 - 49] Linoone
+[10%/Lv. 49 - 49] Kecleon
+[10%/Lv. 50 - 50] Purugly
+
+Grass (Night):
+[20%/Lv. 49 - 50] Quagsire
+[20%/Lv. 49 - 50] Rapidash
+[10%/Lv. 50 - 50] Manectric
+[10%/Lv. 49 - 49] Zangoose
+[10%/Lv. 49 - 49] Seviper
+[10%/Lv. 49 - 49] Linoone
+[10%/Lv. 49 - 49] Kecleon
+[10%/Lv. 50 - 50] Purugly
+
+Headbutt:
+???
+
+Surfing:
+[60%/Lv. 49 - 50] Tentacruel
+[40%/Lv. 49 - 50] Pelipper
+
+Fishing:
+[40%/Lv. 49 - 50] Lanturn
+[40%/Lv. 49 - 50] Cloyster
+[20%/Lv. 49 - 50] Luvdisc
+
+Special Sound:
+[40%/Lv. 49 - 50] Chansey
+
+==============================
+Route 26
+==============================
+Grass (Day):
+[20%/Lv. 49 - 50] Dodrio
+[20%/Lv. 49 - 50] Rapidash
+[20%/Lv. 49 - 50] Sandslash
+[10%/Lv. 49 - 49] Mightyena
+[10%/Lv. 49 - 49] Primeape
+[10%/Lv. 49 - 49] Kecleon
+[10%/Lv. 50 - 50] Skuntank
+
+Grass (Night):
+[20%/Lv. 49 - 50] Houndoom
+[20%/Lv. 49 - 50] Rapidash
+[20%/Lv. 49 - 50] Sandslash
+[10%/Lv. 49 - 49] Mightyena
+[10%/Lv. 49 - 49] Primeape
+[10%/Lv. 49 - 49] Kecleon
+[10%/Lv. 50 - 50] Skuntank
+
+Headbutt:
+???
+
+Surfing:
+[60%/Lv. 50 - 50] Tentacruel
+[40%/Lv. 50 - 50] Pelipper
+
+Fishing:
+[40%/Lv. 50 - 50] Lanturn
+[40%/Lv. 50 - 50] Cloyster
+[20%/Lv. 50 - 50] Luvdisc
+
+Special Sound:
+[40%/Lv. 49 - 50] Chansey
+
+==============================
+Victory Road
+==============================
+Cave (Day/Night):
+[10%/Lv. 50 - 50] Golbat
+[10%/Lv. 50 - 50] Graveler
+[10%/Lv. 50 - 50] Magneton
+[10%/Lv. 52 - 52] Ursaring
+[10%/Lv. 52 - 52] Donphan
+[10%/Lv. 50 - 50] Loudred
+[10%/Lv. 52 - 52] Marowak
+[10%/Lv. 50 - 50] Lairon
+[10%/Lv. 52 - 52] Rhydon
+[10%/Lv. 52 - 52] Steelix
+
+Rock Smash:
+[70%/Lv. 50 - 52] Graveler
+[30%/Lv. 52 - 52] Steelix
+
+Special Sound (1F):
+[40%/Lv. 50 - 52] Hitmontop
+
+Special Sound (2F):
+[40%/Lv. 50 - 52] Hitmonlee
+
+Special Sound (3F):
+[40%/Lv. 50 - 52] Hitmonchan
+
+============================================================
+Kanto
+============================================================
+
+==============================
+Pallet Town
+==============================
+Headbutt:
+???
+
+Surfing:
+[100%/Lv. 60 - 60] Tentacruel
+
+Fishing:
+[40%/Lv. 60 - 60] Lanturn
+[40%/Lv. 60 - 60] Cloyster
+[20%/Lv. 60 - 60] Tentacruel
+
+==============================
+Route 1
+==============================
+Grass (Day):
+[20%/Lv. 60 - 60] Pidgeotto
+[20%/Lv. 60 - 60] Raticate
+[20%/Lv. 60 - 60] Furret
+[20%/Lv. 60 - 60] Linoone
+[20%/Lv. 60 - 60] Mightyena
+
+Grass (Night):
+[40%/Lv. 60 - 60] Raticate
+[20%/Lv. 60 - 60] Noctowl
+[20%/Lv. 60 - 60] Linoone
+[20%/Lv. 60 - 60] Mightyena
+
+Headbutt:
+???
+
+Special Sound:
+[40%/Lv. 60 - 60] Chansey
+
+==============================
+Viridian City
+==============================
+Headbutt:
+???
+
+Surfing:
+[100%/Lv. 60 - 60] Poliwhirl
+
+Fishing:
+[40%/Lv. 05 - 60] Magikarp
+[40%/Lv. 60 - 60] Poliwhirl
+[20%/Lv. 60 - 60] Crawdaunt
+
+==============================
+Route 22
+==============================
+Grass (Day):
+[20%/Lv. 60 - 60] Dodrio
+[20%/Lv. 60 - 60] Fearow
+[20%/Lv. 60 - 60] Nidorina
+[20%/Lv. 60 - 60] Nidorino
+[10%/Lv. 60 - 60] Primeape
+[10%/Lv. 60 - 60] Rapidash
+
+Grass (Night):
+[40%/Lv. 60 - 60] Raticate
+[20%/Lv. 60 - 60] Nidorina
+[20%/Lv. 60 - 60] Nidorino
+[10%/Lv. 60 - 60] Primeape
+[10%/Lv. 60 - 60] Rapidash
+
+Headbutt:
+???
+
+Surfing:
+[100%/Lv. 60 - 60] Poliwhirl
+
+Fishing:
+[40%/Lv. 05 - 60] Magikarp
+[40%/Lv. 60 - 60] Poliwhirl
+[20%/Lv. 60 - 60] Crawdaunt
+
+Special Sound:
+[40%/Lv. 60 - 60] Chansey

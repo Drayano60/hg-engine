@@ -154,6 +154,7 @@ Abilities: Compound Eyes / Compound Eyes / Tinted Lens ⟶ Compound Eyes / Tinte
 Base Stats: 60/45/50/90/80/70 (395) ⟶ 60/45/50/100*/90*/80* (425)
 Held Item: Silver Powder (5%)
 Type: Bug / Flying
+New Moves: Fly (HM)
 
 -------------------
 013 - Weedle
@@ -178,6 +179,7 @@ Abilities: Swarm / Swarm / Sniper ⟶ Swarm / Sniper / Adaptability**
 Base Stats: 65/90/40/45/80/75 (395) ⟶ 65/100*/40/45/90*/85* (425)
 Held Item: Poison Barb (5%)
 Type: Bug / Poison
+New Moves: Cross Poison (Lv, HOME), Fly (HM), Lunge (Lv), Smart Strike (TM)
 
 -------------------
 016 - Pidgey
@@ -202,6 +204,7 @@ Abilities: Keen Eye / Tangled Feet / Big Pecks ⟶ Keen Eye / Tangled Feet / No 
 Base Stats: 83/80/75/70/70/101 (479) ⟶ 83/70*/75/120*/70/101 (519)
 Held Item: None
 Type: Normal / Flying
+New Moves: Tri Attack (Lv)
 
 -------------------
 019 - Rattata
@@ -210,6 +213,7 @@ Abilities: Run Away / Guts / Hustle
 Base Stats: 30/56/35/25/35/72 (253)
 Held Item: Chilan Berry (5%)
 Type: Normal
+New Moves: Flame Charge (TM), Hone Claws (TM)
 
 -------------------
 020 - Raticate
@@ -218,6 +222,7 @@ Abilities: Run Away / Guts / Hustle ⟶ Strong Jaw** / Guts / Hustle
 Base Stats: 55/81/60/50/70/97 (413) ⟶ 55/91*/60/50/70/107* (433)
 Held Item: Chilan Berry (5%)
 Type: Normal
+New Moves: Flame Charge (TM), Hone Claws (TM)
 
 -------------------
 021 - Spearow
@@ -226,6 +231,7 @@ Abilities: Keen Eye / Keen Eye / Sniper ⟶ Keen Eye / Sniper / Intimidate**
 Base Stats: 40/60/30/31/31/70 (262)
 Held Item: None
 Type: Normal / Flying
+New Moves: Night Slash (Lv)
 
 -------------------
 022 - Fearow
@@ -234,6 +240,7 @@ Abilities: Keen Eye / Keen Eye / Sniper ⟶ Keen Eye / Sniper / Intimidate**
 Base Stats: 65/90/65/61/61/100 (442) ⟶ 70*/100*/70*/100/61/61 (462)
 Held Item: None
 Type: Normal / Flying
+New Moves: Brave Bird (Lv, HOME), Night Slash (Lv)
 
 -------------------
 023 - Ekans
@@ -242,6 +249,7 @@ Abilities: Intimidate / Shed Skin / Unnerve
 Base Stats: 35/60/44/40/54/55 (288)
 Held Item: None
 Type: Poison
+New Moves: Power Whip (TM)
 
 -------------------
 024 - Arbok
@@ -250,6 +258,7 @@ Abilities: Intimidate / Shed Skin / Unnerve
 Base Stats: 60/95/69/65/79/80 (448) ⟶ 60/105*/69/55*/79/90* (458)
 Held Item: None
 Type: Poison
+New Moves: Power Whip (TM)
 
 -------------------
 172 - Pichu
@@ -266,6 +275,7 @@ Abilities: Static / Static / Lightning Rod
 Base Stats: 35/55/40/50/50/90 (320) ⟶ 35/65*/40/60*/50/100* (350)
 Held Item: Oran Berry (50%), Light Ball (5%)
 Type: Electric
+New Moves: Double Kick (Lv, LGPE)
 
 -------------------
 026 - Raichu
@@ -274,6 +284,7 @@ Abilities: Static / Static / Lightning Rod
 Base Stats: 60/90/55/90/80/110 (485) ⟶ 60/90/55/90/80/120* (495)
 Held Item: Oran Berry (5%)
 Type: Electric
+New Moves: Double Kick (Lv, LGPE)
 
 -------------------
 027 - Sandshrew
@@ -282,6 +293,7 @@ Abilities: Sand Veil / Sand Veil / Sand Rush ⟶ Sand Veil / Tough Claws** / San
 Base Stats: 50/75/85/20/30/40 (300)
 Held Item: Quick Claw (5%)
 Type: Ground
+New Moves: Fissure (RBY)
 
 -------------------
 028 - Sandslash
@@ -290,6 +302,7 @@ Abilities: Sand Veil / Sand Veil / Sand Rush ⟶ Sand Veil / Tough Claws** / San
 Base Stats: 75/100/110/45/55/65 (450) ⟶ 75/100/120*/45/55/65 (460)
 Held Item: Quick Claw (5%)
 Type: Ground
+New Moves: Fissure (RBY)
 
 -------------------
 029 - Nidoran♀
@@ -322,6 +335,7 @@ Abilities: Poison Point / Rivalry / Hustle
 Base Stats: 46/57/40/40/40/50 (273)
 Held Item: None
 Type: Poison / Ground
+New Moves: Poison Fang (Lv)
 
 -------------------
 033 - Nidorino
@@ -330,6 +344,7 @@ Abilities: Poison Point / Rivalry / Hustle
 Base Stats: 61/72/57/55/55/65 (365)
 Held Item: None
 Type: Poison / Ground
+New Moves: Poison Fang (Lv)
 
 -------------------
 034 - Nidoking
@@ -338,6 +353,7 @@ Abilities: Poison Point / Rivalry / Sheer Force
 Base Stats: 81/102/77/85/75/85 (505)
 Held Item: None
 Type: Poison / Ground
+New Moves: Poison Fang (Lv)
 
 -------------------
 173 - Cleffa
@@ -370,6 +386,9 @@ Abilities: Flash Fire / Cute Charm** / Run Away**
 Base Stats: 38/41/40/50/65/65 (299)
 Held Item: Rawst Berry (100%)
 Type: Fire
+New Moves: Moonblast* (Lv)
+
+* If type changes are removed, Vulpix cannot learn these moves.
 
 -------------------
 038 - Ninetales
@@ -378,6 +397,10 @@ Abilities: Flash Fire / Cursed Body** / Drought
 Base Stats: 73/76/75/81/100/100 (505) ⟶ 73/67*/75/81/100/109* (505)
 Held Item: Rawst Berry (100%)
 Type: Fire ⟶ Fire / Fairy
+New Moves: Dazzling Gleam** (Lv/TM), Moonblast* (Lv)
+
+* If type changes are removed, Ninetales cannot learn these moves.
+** If type changes are removed, Ninetales can only learn Dazzling Gleam by TM.
 
 -------------------
 174 - Igglybuff
@@ -394,6 +417,7 @@ Abilities: Cute Charm / Competitive / Friend Guard ⟶ Cute Charm / Competitive 
 Base Stats: 115/45/20/45/25/20 (270) ⟶ 125*/55*/30*/55*/35*/20 (320)
 Held Item: None
 Type: Normal / Fairy
+New Moves: Boomburst (Lv), Moonblast (Lv)
 
 -------------------
 040 - Wigglytuff
@@ -402,6 +426,7 @@ Abilities: Cute Charm / Competitive / Frisk ⟶ Cute Charm / Competitive / Cacop
 Base Stats: 140/70/45/85/50/45 (435) ⟶ 150*/80*/55*/95*/55*/45 (480)
 Held Item: None
 Type: Normal / Fairy
+New Moves: Boomburst (Lv), Moonblast (Lv), Noble Roar (Lv)
 
 -------------------
 041 - Zubat
@@ -466,6 +491,7 @@ Abilities: Effect Spore / Dry Skin / Damp ⟶ Effect Spore / Dry Skin / Poison H
 Base Stats: 35/70/55/45/55/25 (285)
 Held Item: Tiny Mushroom (50%), Big Mushroom (5%)
 Type: Bug / Grass
+New Moves: Skitter Smack (Lv), First Impression (Lv)
 
 -------------------
 047 - Parasect
@@ -474,6 +500,7 @@ Abilities: Effect Spore / Dry Skin / Damp ⟶ Effect Spore / Dry Skin / Poison H
 Base Stats: 60/95/80/60/80/30 (405) ⟶ 60/105*/90*/80*/90*/30 (455)
 Held Item: Tiny Mushroom (50%), Big Mushroom (5%)
 Type: Bug / Grass
+New Moves: Skitter Smack (Lv), First Impression (Lv), Shadow Claw (Lv/TM)
 
 -------------------
 048 - Venonat
@@ -490,6 +517,7 @@ Abilities: Shield Dust / Tinted Lens / Wonder Skin ⟶ Shield Dust / Tinted Lens
 Base Stats: 70/65/60/90/75/90 (450) ⟶ 70/65/60/100*/85*/100* (480)
 Held Item: Shed Shell (5%)
 Type: Bug / Poison
+New Moves: Fly (HM)
 
 -------------------
 050 - Diglett
@@ -594,6 +622,7 @@ Abilities: Water Absorb / Damp / Swift Swim ⟶ Water Absorb / Iron Fist** / Swi
 Base Stats: 90/95/95/70/90/70 (510) ⟶ 90/105*/95/60*/90/70 (510)
 Held Item: King's Rock (5%)
 Type: Water / Fighting
+New Moves: Mach Punch (Lv), Storm Throw (Lv), Wave Crash (Lv)
 
 -------------------
 186 - Politoed
@@ -618,6 +647,7 @@ Abilities: Synchronize / Inner Focus / Magic Guard
 Base Stats: 40/35/30/120/70/105 (400)
 Held Item: Twisted Spoon (5%)
 Type: Psychic
+New Moves: Hypnosis (Lv, PLA)
 
 -------------------
 065 - Alakazam
@@ -626,6 +656,7 @@ Abilities: Synchronize / Inner Focus / Magic Guard
 Base Stats: 55/50/45/135/95/120 (500)
 Held Item: Twisted Spoon (5%)
 Type: Psychic
+New Moves: Hypnosis (Lv, PLA)
 
 -------------------
 066 - Machop
@@ -650,6 +681,7 @@ Abilities: Guts / No Guard / Steadfast
 Base Stats: 90/130/80/65/85/55 (505) ⟶ 90/140*/80/55*/85/55 (505)
 Held Item: None
 Type: Fighting
+New Moves: Drain Punch (TM, PLA), Mach Punch (Lv, PLA)
 
 -------------------
 069 - Bellsprout
@@ -658,6 +690,7 @@ Abilities: Chlorophyll / Chlorophyll / Gluttony
 Base Stats: 50/75/35/70/30/35 (300)
 Held Item: None
 Type: Grass / Poison
+New Moves: Leaf Blade (Lv)
 
 -------------------
 070 - Weepinbell
@@ -666,6 +699,7 @@ Abilities: Chlorophyll / Chlorophyll / Gluttony
 Base Stats: 65/90/50/85/45/55 (390)
 Held Item: None
 Type: Grass / Poison
+New Moves: Leaf Blade (Lv)
 
 -------------------
 071 - Victreebel
@@ -690,6 +724,7 @@ Abilities: Clear Body / Liquid Ooze / Rain Dish
 Base Stats: 80/70/65/80/120/100 (515)
 Held Item: Poison Barb (5%)
 Type: Water / Poison
+New Moves: Power Whip (TM)
 
 -------------------
 074 - Geodude
@@ -698,6 +733,7 @@ Abilities: Rock Head / Sturdy / Sand Veil
 Base Stats: 40/80/100/30/30/20 (300)
 Held Item: Everstone (5%)
 Type: Rock / Ground
+New Moves: Head Smash (Lv)
 
 -------------------
 075 - Graveler
@@ -706,6 +742,7 @@ Abilities: Rock Head / Sturdy / Sand Veil
 Base Stats: 55/95/115/45/45/35 (390)
 Held Item: Everstone (5%)
 Type: Rock / Ground
+New Moves: Head Smash (Lv)
 
 -------------------
 076 - Golem
@@ -714,6 +751,7 @@ Abilities: Rock Head / Sturdy / Sand Veil
 Base Stats: 80/120/130/55/65/45 (495) ⟶ 80/120/130/55/75*/45 (505)
 Held Item: Everstone (5%)
 Type: Rock / Ground
+New Moves: Head Smash (Lv)
 
 -------------------
 077 - Ponyta
@@ -722,6 +760,7 @@ Abilities: Run Away / Flash Fire / Flame Body
 Base Stats: 50/85/55/65/65/90 (410)
 Held Item: Shuca Berry (5%)
 Type: Fire
+New Moves: Blaze Kick (Lv), Jump Kick (Lv)
 
 -------------------
 078 - Rapidash
@@ -730,6 +769,7 @@ Abilities: Run Away / Flash Fire / Flame Body ⟶ Reckless** / Flash Fire / Flam
 Base Stats: 65/100/70/80/80/105 (500) ⟶ 65/100/70/80/80/125* (520)
 Held Item: Shuca Berry (5%)
 Type: Fire
+New Moves: Blaze Kick (Lv), Extreme Speed (Lv), Jump Kick (Lv)
 
 -------------------
 079 - Slowpoke
@@ -778,6 +818,7 @@ Abilities: Magnet Pull / Sturdy / Analytic
 Base Stats: 70/70/115/130/90/60 (535)
 Held Item: Metal Coat (5%)
 Type: Electric / Steel
+New Moves: Fly (HM)
 
 -------------------
 083 - Farfetch’d
@@ -786,6 +827,7 @@ Abilities: Keen Eye / Inner Focus / Defiant ⟶ Keen Eye / Scrappy** / Defiant
 Base Stats: 52/90/55/58/62/60 (377) ⟶ 62*/100*/65*/58/72*/90* (447)
 Held Item: Stick (5%)
 Type: Normal / Flying ⟶ Fighting / Flying
+New Moves: Brick Break (TM), Rock Smash (HM), Sacred Sword (Lv)
 
 -------------------
 084 - Doduo
@@ -794,6 +836,7 @@ Abilities: Run Away / Early Bird / Tangled Feet ⟶ Run Away / Early Bird / Moxi
 Base Stats: 35/85/45/35/35/75 (310)
 Held Item: Sharp Beak (5%)
 Type: Normal / Flying
+New Moves: Double Kick (Lv)
 
 -------------------
 085 - Dodrio
@@ -802,6 +845,7 @@ Abilities: Run Away / Early Bird / Tangled Feet ⟶ Quick Feet / Early Bird / Mo
 Base Stats: 60/110/70/60/60/110 (470)
 Held Item: Sharp Beak (5%)
 Type: Normal / Flying
+New Moves: Lunge (Lv, BDSP), Double Kick (Lv)
 
 -------------------
 086 - Seel
@@ -810,6 +854,7 @@ Abilities: Thick Fat / Hydration / Ice Body ⟶ Thick Fat / Swift Swim** / Ice B
 Base Stats: 65/45/55/45/70/45 (325) ⟶ 65/70*/55/45/70/45 (350)
 Held Item: None
 Type: Water
+New Moves: Belly Drum (Lv), Play Rough (TM), Wave Crash (Lv)
 
 -------------------
 087 - Dewgong
@@ -818,6 +863,7 @@ Abilities: Thick Fat / Hydration / Ice Body ⟶ Thick Fat / Swift Swim** / Ice B
 Base Stats: 90/70/80/70/95/70 (475) ⟶ 90/95*/80/70/95/70 (500)
 Held Item: None
 Type: Water / Ice
+New Moves: Belly Drum (Lv), Icicle Crash (Lv), Play Rough (TM), Wave Crash (Lv)
 
 -------------------
 088 - Grimer
@@ -858,6 +904,7 @@ Abilities: Levitate / Levitate / Levitate
 Base Stats: 30/35/30/100/35/80 (310)
 Held Item: None
 Type: Ghost / Poison
+New Moves: Poison Gas (Lv, LGPE)
 
 -------------------
 093 - Haunter
@@ -866,6 +913,7 @@ Abilities: Levitate / Levitate / Levitate
 Base Stats: 45/50/45/115/55/95 (405)
 Held Item: None
 Type: Ghost / Poison
+New Moves: Poison Gas (Lv, LGPE)
 
 -------------------
 094 - Gengar
@@ -874,6 +922,7 @@ Abilities: Levitate / Levitate / Levitate
 Base Stats: 60/65/60/130/75/110 (500)
 Held Item: None
 Type: Ghost / Poison
+New Moves: Poison Gas (Lv, LGPE)
 
 Notes: Gengar keeps its Levitate ability from Gen IV in all versions of the game.
 
@@ -884,6 +933,7 @@ Abilities: Rock Head / Sturdy / Weak Armor
 Base Stats: 35/45/160/30/45/70 (385) ⟶ 55*/65*/160/30/45/80* (435)
 Held Item: None
 Type: Rock / Ground
+New Moves: Coil (Lv), Power Whip (TM)
 
 -------------------
 208 - Steelix
@@ -892,6 +942,7 @@ Abilities: Rock Head / Sturdy / Weak Armor ⟶ Strong Jaw** / Sturdy / Sheer For
 Base Stats: 75/85/200/55/65/30 (510) ⟶ 75/105*/200/55/65/30 (530)
 Held Item: Metal Coat (5%)
 Type: Steel / Ground
+New Moves: Coil (Lv), Power Whip (TM)
 
 -------------------
 096 - Drowzee
@@ -900,6 +951,7 @@ Abilities: Insomnia / Forewarn / Inner Focus
 Base Stats: 60/48/45/43/90/42 (328)
 Held Item: None
 Type: Psychic
+New Moves: Belly Drum (Lv, G3 Event)
 
 -------------------
 097 - Hypno
@@ -908,6 +960,7 @@ Abilities: Insomnia / Forewarn / Inner Focus ⟶ Insomnia / Forewarn / Bad Dream
 Base Stats: 85/73/70/73/115/67 (483) ⟶ 85/83*/70/83*/115/47* (483)
 Held Item: None
 Type: Psychic
+New Moves: Belly Drum (Lv, G3 Event)
 
 -------------------
 098 - Krabby
@@ -932,6 +985,7 @@ Abilities: Soundproof / Static / Aftermath
 Base Stats: 40/30/50/55/55/100 (330)
 Held Item: None
 Type: Electric
+New Moves: Boomburst (Lv), Nasty Plot (TM), Overheat (TM)
 
 -------------------
 101 - Electrode
@@ -940,6 +994,7 @@ Abilities: Soundproof / Static / Aftermath
 Base Stats: 60/50/70/80/80/150 (490)
 Held Item: None
 Type: Electric
+New Moves: Boomburst (Lv), Nasty Plot (TM), Overheat (TM)
 
 -------------------
 102 - Exeggcute
@@ -964,6 +1019,7 @@ Abilities: Rock Head / Lightning Rod / Battle Armor
 Base Stats: 50/50/95/40/50/35 (320)
 Held Item: Thick Club (5%)
 Type: Ground
+New Moves: Revenge (Lv)
 
 -------------------
 105 - Marowak
@@ -972,6 +1028,7 @@ Abilities: Rock Head / Lightning Rod / Battle Armor
 Base Stats: 60/80/110/50/80/40 (425)
 Held Item: Thick Club (5%)
 Type: Ground
+New Moves: Revenge (Lv)
 
 -------------------
 236 - Tyrogue
@@ -980,6 +1037,7 @@ Abilities: Guts / Steadfast / Vital Spirit
 Base Stats: 35/35/35/35/35/35 (210)
 Held Item: None
 Type: Fighting
+New Moves: Power-Up Punch (Lv)
 
 -------------------
 106 - Hitmonlee
@@ -996,6 +1054,7 @@ Abilities: Keen Eye / Iron Fist / Inner Focus
 Base Stats: 50/105/79/35/110/76 (455) ⟶ 50/115*/79/35/110/76 (465)
 Held Item: None
 Type: Fighting
+New Moves: Meteor Mash (Lv)
 
 -------------------
 237 - Hitmontop
@@ -1004,6 +1063,7 @@ Abilities: Intimidate / Technician / Steadfast
 Base Stats: 50/95/95/35/110/70 (455) ⟶ 50/100*/100*/35/110/70 (465)
 Held Item: None
 Type: Fighting
+New Moves: Power-Up Punch (Lv)
 
 -------------------
 108 - Lickitung
@@ -1028,6 +1088,7 @@ Abilities: Levitate
 Base Stats: 40/65/95/60/45/35 (340) ⟶ 40/60*/95/65*/45/35 (340)
 Held Item: Smoke Ball (5%)
 Type: Poison
+New Moves: Gunk Shot (Lv)
 
 -------------------
 110 - Weezing
@@ -1036,6 +1097,7 @@ Abilities: Levitate
 Base Stats: 65/90/120/85/70/60 (490) ⟶ 65/90/120/95*/70/60 (500)
 Held Item: Smoke Ball (5%)
 Type: Poison
+New Moves: Gunk Shot (Lv)
 
 -------------------
 111 - Rhyhorn
@@ -1044,6 +1106,7 @@ Abilities: Lightning Rod / Rock Head / Reckless
 Base Stats: 80/85/95/30/30/25 (345)
 Held Item: None
 Type: Ground / Rock
+New Moves: Rock Throw (Lv, LGPE)
 
 -------------------
 112 - Rhydon
@@ -1052,6 +1115,7 @@ Abilities: Lightning Rod / Rock Head / Reckless
 Base Stats: 105/130/120/45/45/40 (485)
 Held Item: None
 Type: Ground / Rock
+New Moves: Rock Throw (Lv, LGPE)
 
 -------------------
 464 - Rhyperior
@@ -1060,6 +1124,7 @@ Abilities: Lightning Rod / Solid Rock / Reckless
 Base Stats: 115/140/130/55/55/40 (535)
 Held Item: None
 Type: Ground / Rock
+New Moves: Rock Throw (Lv, LGPE)
 
 -------------------
 440 - Happiny
@@ -1140,6 +1205,7 @@ Abilities: Swift Swim / Water Veil / Lightning Rod
 Base Stats: 45/67/60/35/50/63 (320)
 Held Item: None
 Type: Water
+New Moves: Wave Crash (Lv)
 
 -------------------
 119 - Seaking
@@ -1148,6 +1214,7 @@ Abilities: Swift Swim / Water Veil / Lightning Rod
 Base Stats: 80/92/65/65/80/68 (450) ⟶ 80/112*/65/55*/80/88* (480)
 Held Item: None
 Type: Water
+New Moves: Wave Crash (Lv)
 
 -------------------
 120 - Staryu
@@ -1172,6 +1239,7 @@ Abilities: Soundproof / Filter / Technician
 Base Stats: 20/25/45/70/90/60 (310)
 Held Item: Leppa Berry (5%)
 Type: Psychic / Fairy
+New Moves: Fairy Wind (Lv)
 
 -------------------
 122 - Mr. Mime
@@ -1180,6 +1248,7 @@ Abilities: Soundproof / Filter / Technician
 Base Stats: 40/45/65/100/120/90 (460)
 Held Item: Leppa Berry (5%)
 Type: Psychic / Fairy
+New Moves: Fairy Wind (Lv)
 
 -------------------
 123 - Scyther
@@ -1212,6 +1281,7 @@ Abilities: Oblivious / Forewarn / Dry Skin
 Base Stats: 65/50/35/115/95/95 (455) ⟶ 65/50/45*/125*/95/95 (475)
 Held Item: Aspear Berry (100%)
 Type: Ice / Psychic
+New Moves: Psycho Boost (Lv)
 
 -------------------
 239 - Elekid
@@ -1236,6 +1306,9 @@ Abilities: Static / Static / Vital Spirit ⟶ Static / Vital Spirit / Iron Fist*
 Base Stats: 75/123/67/95/85/95 (540)
 Held Item: Electirizer (5%)
 Type: Electric ⟶ Electric / Fighting
+New Moves: Bulk Up (TM), Drain Punch (TM), Close Combat* (Lv), Volt Tackle (Lv)
+
+* If type changes are removed, Electivire cannot learn these moves.
 
 -------------------
 240 - Magby
@@ -1260,6 +1333,7 @@ Abilities: Flame Body / Flame Body / Vital Spirit ⟶ Flame Body / Vital Spirit 
 Base Stats: 75/95/67/125/95/83 (540)
 Held Item: None
 Type: Fire
+New Moves: Aura Sphere (Lv), Dark Pulse (TM), Magma Storm (Lv), Nasty Plot (TM)
 
 -------------------
 127 - Pinsir
@@ -1292,6 +1366,7 @@ Abilities: Intimidate / Intimidate / Moxie
 Base Stats: 95/125/79/60/100/81 (540)
 Held Item: None
 Type: Water / Flying
+New Moves: Fly (HM)
 
 -------------------
 131 - Lapras
@@ -1300,6 +1375,7 @@ Abilities: Water Absorb / Shell Armor / Hydration
 Base Stats: 130/85/80/85/95/60 (535)
 Held Item: None
 Type: Water / Ice
+New Moves: Aqua Ring (Lv), Calm Mind (TM)
 
 -------------------
 132 - Ditto
@@ -1316,6 +1392,7 @@ Abilities: Run Away / Adaptability / Anticipation
 Base Stats: 55/55/50/45/65/55 (325)
 Held Item: None
 Type: Normal
+New Moves: Grass Knot (TM)
 
 -------------------
 134 - Vaporeon
@@ -1324,6 +1401,7 @@ Abilities: Water Absorb / Water Absorb / Hydration ⟶ Water Absorb / Hydration 
 Base Stats: 130/65/60/110/95/65 (525) ⟶ 130/60*/65*/110/95/65 (525)
 Held Item: None
 Type: Water
+New Moves: Grass Knot (TM)
 
 -------------------
 135 - Jolteon
@@ -1332,6 +1410,7 @@ Abilities: Volt Absorb / Volt Absorb / Quick Feet ⟶ Volt Absorb / Quick Feet /
 Base Stats: 65/65/60/110/95/130 (525)
 Held Item: None
 Type: Electric
+New Moves: Grass Knot (TM)
 
 -------------------
 136 - Flareon
@@ -1340,6 +1419,7 @@ Abilities: Flash Fire / Flash Fire / Guts ⟶ Flash Fire / Guts / Fur Cushion**
 Base Stats: 65/130/60/95/110/65 (525) ⟶ 65/130/60/65*/110/95*
 Held Item: None
 Type: Fire
+New Moves: Grass Knot (TM), Flame Wheel (Lv)
 
 -------------------
 196 - Espeon
@@ -1356,6 +1436,7 @@ Abilities: Synchronize / Synchronize / Inner Focus ⟶ Synchronize / Inner Focus
 Base Stats: 95/65/110/60/130/65 (525)
 Held Item: None
 Type: Dark
+New Moves: Grass Knot (TM), Sludge Bomb (TM)
 
 -------------------
 470 - Leafeon
@@ -1364,6 +1445,7 @@ Abilities: Leaf Guard / Leaf Guard / Chlorophyll ⟶ Leaf Guard / Chlorophyll / 
 Base Stats: 65/110/130/60/65/95 (525) ⟶ 65/130*/110*/60/65/95 (525)
 Held Item: None
 Type: Grass
+New Moves: Cut (HM), Leafage (Lv, PLA)
 
 -------------------
 471 - Glaceon
@@ -1372,6 +1454,7 @@ Abilities: Snow Cloak / Snow Cloak / Ice Body ⟶ Snow Cloak / Slush Rush** / Ic
 Base Stats: 65/60/110/130/95/65 (525) ⟶ 65/60/110/130/65*/95*
 Held Item: None
 Type: Ice
+New Moves: Dazzling Gleam (TM), Grass Knot (TM), Powder Snow (Lv)
 
 -------------------
 700 - Sylveon
@@ -1412,6 +1495,7 @@ Abilities: Swift Swim / Shell Armor / Weak Armor
 Base Stats: 35/40/100/90/55/35 (355)
 Held Item: None
 Type: Rock / Water
+New Moves: Power Gem (Lv)
 
 -------------------
 139 - Omastar
@@ -1420,6 +1504,7 @@ Abilities: Swift Swim / Shell Armor / Weak Armor
 Base Stats: 70/60/125/115/70/55 (495)
 Held Item: None
 Type: Rock / Water
+New Moves: Power Gem (Lv)
 
 -------------------
 140 - Kabuto
@@ -1428,6 +1513,7 @@ Abilities: Swift Swim / Battle Armor / Weak Armor
 Base Stats: 30/80/90/55/45/55 (355)
 Held Item: None
 Type: Rock / Water
+New Moves: Razor Shell (Lv)
 
 -------------------
 141 - Kabutops
@@ -1436,6 +1522,7 @@ Abilities: Swift Swim / Battle Armor / Weak Armor ⟶ Swift Swim / Battle Armor 
 Base Stats: 60/115/105/65/70/80 (495)
 Held Item: None
 Type: Rock / Water
+New Moves: Aqua Cutter (Lv)
 
 -------------------
 142 - Aerodactyl
@@ -1444,6 +1531,7 @@ Abilities: Rock Head / Pressure / Unnerve ⟶ Rock Head / Unnerve / Tough Claws*
 Base Stats: 80/105/65/60/75/130 (515)
 Held Item: None
 Type: Rock / Flying
+New Moves: Rock Throw (Lv, LGPE), Head Smash (Lv)
 
 -------------------
 446 - Munchlax
@@ -1460,6 +1548,7 @@ Abilities: Immunity / Thick Fat / Gluttony
 Base Stats: 160/110/65/65/110/30 (540)
 Held Item: Leftovers (100%)
 Type: Normal
+New Moves: Slack Off (Lv)
 
 -------------------
 144 - Articuno
@@ -1500,6 +1589,7 @@ Abilities: Shed Skin / Shed Skin / Marvel Scale
 Base Stats: 61/84/65/70/70/70 (420)
 Held Item: Dragon Scale (5%)
 Type: Dragon
+New Moves: Fly (HM)
 
 -------------------
 149 - Dragonite
@@ -1516,6 +1606,7 @@ Abilities: Pressure / Pressure / Unnerve
 Base Stats: 106/110/90/154/90/130 (680)
 Held Item: None
 Type: Psychic
+New Moves: Psycho Boost (Lv)
 
 -------------------
 151 - Mew
@@ -1532,6 +1623,9 @@ Abilities: Overgrow / Overgrow / Leaf Guard ⟶ Overgrow / Natural Cure** / Tria
 Base Stats: 45/49/65/49/65/45 (318)
 Held Item: None
 Type: Grass
+New Moves: Dazzling Gleam (TM), Draining Kiss* (Lv), Moonblast* (Lv), Play Rough (TM), Power Whip (TM)
+
+* If type changes are removed, Chikorita cannot learn these moves.
 
 -------------------
 153 - Bayleef
@@ -1540,6 +1634,9 @@ Abilities: Overgrow / Overgrow / Leaf Guard ⟶ Overgrow / Natural Cure** / Tria
 Base Stats: 60/62/80/63/80/60 (405) ⟶ 60/62/80/73*/80/50* (405)
 Held Item: None
 Type: Grass
+New Moves: Dazzling Gleam (TM), Draining Kiss* (Lv), Moonblast* (Lv), Play Rough (TM), Power Whip (TM)
+
+* If type changes are removed, Bayleef cannot learn these moves.
 
 -------------------
 154 - Meganium
@@ -1548,6 +1645,9 @@ Abilities: Overgrow / Overgrow / Leaf Guard ⟶ Overgrow / Natural Cure** / Tria
 Base Stats: 80/82/100/83/100/80 (525) ⟶ 80/82/110/93*/110/60* (535)
 Held Item: None
 Type: Grass ⟶ Grass / Fairy
+New Moves: Soothing Aroma (Lv, New), Dazzling Gleam (TM), Draining Kiss* (Lv), Moonblast* (Lv), Play Rough (TM), Power Whip (TM)
+
+* If type changes are removed, Meganium cannot learn these moves.
 
 -------------------
 155 - Cyndaquil
@@ -1556,6 +1656,7 @@ Abilities: Blaze / Blaze / Flash Fire ⟶ Blaze / Flash Fire / Heat Up**
 Base Stats: 39/52/43/60/50/65 (309)
 Held Item: None
 Type: Fire
+New Moves: Earth Power (Lv)
 
 -------------------
 156 - Quilava
@@ -1564,6 +1665,7 @@ Abilities: Blaze / Blaze / Flash Fire ⟶ Blaze / Flash Fire / Heat Up**
 Base Stats: 58/64/58/80/65/80 (405) ⟶ 58/64/53*/90*/60*/80 (405)
 Held Item: None
 Type: Fire
+New Moves: Earth Power (Lv)
 
 -------------------
 157 - Typhlosion
@@ -1572,6 +1674,7 @@ Abilities: Blaze / Blaze / Flash Fire ⟶ Blaze / Flash Fire / Heat Up**
 Base Stats: 78/84/78/109/85/100 (534) ⟶ 79*/84/73*/119*/80*/100
 Held Item: None
 Type: Fire ⟶ Fire / Ground
+New Moves: Infernal Blast (Lv, New), Mystical Fire (TM, HOME), Earth Power (Lv), Morning Sun (Lv), Raging Fury (Lv), Thunderbolt (TM)
 
 -------------------
 158 - Totodile
@@ -1580,6 +1683,7 @@ Abilities: Torrent / Torrent / Sheer Force ⟶ Torrent / Strong Jaw** / Sheer Fo
 Base Stats: 50/65/64/44/48/43 (314)
 Held Item: None
 Type: Water
+New Moves: Aqua Cutter (Lv), Wave Crash (Lv)
 
 -------------------
 159 - Croconaw
@@ -1588,6 +1692,7 @@ Abilities: Torrent / Torrent / Sheer Force ⟶ Torrent / Strong Jaw** / Sheer Fo
 Base Stats: 65/80/80/59/63/58 (405)
 Held Item: None
 Type: Water
+New Moves: Aqua Cutter (Lv), Wave Crash (Lv)
 
 -------------------
 160 - Feraligatr
@@ -1596,6 +1701,7 @@ Abilities: Torrent / Torrent / Sheer Force ⟶ Torrent / Strong Jaw** / Sheer Fo
 Base Stats: 85/105/100/79/83/78 (530) ⟶ 85/115*/100/69*/83/83* (535)
 Held Item: None
 Type: Water ⟶ Water / Dark
+New Moves: Savage Rend (Lv, New), Breaking Swipe (Lv, HOME), Psychic Fangs (Lv, HOME), Aqua Cutter (Lv), Poison Fang (Lv), Wave Crash (Lv)
 
 -------------------
 161 - Sentret
@@ -1604,6 +1710,7 @@ Abilities: Run Away / Keen Eye / Frisk
 Base Stats: 35/46/34/35/45/20 (215)
 Held Item: Oran Berry (5%)
 Type: Normal
+New Moves: Tail Slap (Lv, HOME), Play Rough (TM)
 
 -------------------
 162 - Furret
@@ -1612,6 +1719,7 @@ Abilities: Run Away / Keen Eye / Frisk ⟶ Limber** / Keen Eye / Hustle**
 Base Stats: 85/76/64/45/55/90 (413) ⟶ 85/81*/64/45/60*/100* (433)
 Held Item: Oran Berry (50%), Sitrus Berry (5%)
 Type: Normal
+New Moves: Tail Slap (Lv, HOME), Extreme Speed (Lv), Flame Charge (TM), Play Rough (TM), Power Whip (TM)
 
 -------------------
 163 - Hoothoot
@@ -1620,6 +1728,7 @@ Abilities: Insomnia / Keen Eye / Tinted Lens
 Base Stats: 60/30/30/36/56/50 (262) ⟶ 60/30/30/46*/56/50 (272)
 Held Item: None
 Type: Normal / Flying ⟶ Psychic / Flying
+New Moves: Esper Wing (Lv)
 
 -------------------
 164 - Noctowl
@@ -1628,6 +1737,7 @@ Abilities: Insomnia / Keen Eye / Tinted Lens
 Base Stats: 100/50/50/70/86/96 (452) ⟶ 100/50/50/96*/96/70 (462)
 Held Item: None
 Type: Normal / Flying ⟶ Psychic / Flying
+New Moves: Esper Wing (Lv)
 
 -------------------
 165 - Ledyba
@@ -1636,6 +1746,7 @@ Abilities: Swarm / Early Bird / Rattled
 Base Stats: 40/20/30/55/40/80 (265) ⟶ 40/40*/30/40/80/65* (295)
 Held Item: None
 Type: Bug / Flying
+New Moves: Dual Wingbeat (Lv, HOME), Lunge (Lv), First Impression (Lv), Meteor Mash (Lv)
 
 -------------------
 166 - Ledian
@@ -1644,6 +1755,7 @@ Abilities: Swarm / Early Bird / Iron Fist
 Base Stats: 55/35/50/55/110/85 (390) ⟶ 55/90*/50/50*/110/95* (450)
 Held Item: None
 Type: Bug / Flying
+New Moves: Piddly Punches (Lv, New), Dual Wingbeat (Lv, HOME), Bullet Punch (Lv), Lunge (Lv), First Impression (Lv), Meteor Mash (Lv)
 
 -------------------
 167 - Spinarak
@@ -1652,6 +1764,7 @@ Abilities: Swarm / Insomnia / Sniper ⟶ Swarm / Insomnia / Merciless**
 Base Stats: 40/60/40/40/40/30 (250) ⟶ 40/70*/50*/40/50*/45* (295)
 Held Item: None
 Type: Bug / Poison
+New Moves: First Impression (Lv), Poison Fang (Lv)
 
 -------------------
 168 - Ariados
@@ -1660,6 +1773,7 @@ Abilities: Swarm / Insomnia / Sniper ⟶ Swarm / Insomnia / Merciless**
 Base Stats: 70/90/70/60/70/40 (400) ⟶ 70/100*/80*/50*/80*/70* (450)
 Held Item: None
 Type: Bug / Poison
+New Moves: Skitter Smack (Lv, New), First Impression (Lv), Poison Fang (Lv)
 
 -------------------
 170 - Chinchou
@@ -1668,6 +1782,7 @@ Abilities: Volt Absorb / Illuminate / Water Absorb
 Base Stats: 75/38/38/56/56/67 (330)
 Held Item: Deep Sea Scale (5%)
 Type: Water / Electric
+New Moves: Thunder Shock (Lv)
 
 -------------------
 171 - Lanturn
@@ -1676,6 +1791,7 @@ Abilities: Volt Absorb / Illuminate / Water Absorb
 Base Stats: 125/58/58/76/76/67 (460) ⟶ 125/58/58/86*/86*/67 (480)
 Held Item: Deep Sea Scale (5%)
 Type: Water / Electric
+New Moves: Tail Glow (Lv), Thunder Shock (Lv)
 
 -------------------
 175 - Togepi
@@ -1684,6 +1800,7 @@ Abilities: Hustle / Serene Grace / Super Luck ⟶ Super Luck / Serene Grace / Hu
 Base Stats: 35/20/65/40/65/20 (245)
 Held Item: None
 Type: Fairy
+New Moves: Baby-Doll Eyes (Lv, PLA), Moonblast (Lv, PLA), Fairy Wind (Lv, PLA)
 
 -------------------
 176 - Togetic
@@ -1692,6 +1809,7 @@ Abilities: Hustle / Serene Grace / Super Luck ⟶ Super Luck / Serene Grace / Hu
 Base Stats: 55/40/85/80/105/40 (405)
 Held Item: None
 Type: Fairy / Flying
+New Moves: Air Slash (Lv/TM, PLA), Baby-Doll Eyes (Lv, PLA), Moonblast (Lv, PLA)
 
 -------------------
 468 - Togekiss
@@ -1700,6 +1818,7 @@ Abilities: Hustle / Serene Grace / Super Luck ⟶ Super Luck / Serene Grace / Hu
 Base Stats: 85/50/95/120/115/80 (545)
 Held Item: None
 Type: Fairy / Flying
+New Moves: Baby-Doll Eyes (Lv, PLA), Moonblast (Lv, PLA)
 
 -------------------
 177 - Natu
@@ -1708,6 +1827,7 @@ Abilities: Synchronize / Early Bird / Magic Bounce
 Base Stats: 40/50/45/70/45/70 (320)
 Held Item: None
 Type: Psychic / Flying
+New Moves: Confusion (Lv), Esper Wing (Lv)
 
 -------------------
 178 - Xatu
@@ -1716,6 +1836,7 @@ Abilities: Synchronize / Early Bird / Magic Bounce
 Base Stats: 65/75/70/95/70/95 (470) ⟶ 65/75/70/115*/70/95 (490)
 Held Item: None
 Type: Psychic / Flying
+New Moves: Confusion (Lv), Esper Wing (Lv)
 
 -------------------
 179 - Mareep
@@ -1740,6 +1861,7 @@ Abilities: Static / Static / Plus ⟶ Static / Illuminate** / Mold Breaker**
 Base Stats: 90/75/85/115/90/55 (510) ⟶ 90/75/95*/125*/100*/45* (530)
 Held Item: None
 Type: Electric ⟶ Electric / Dragon
+New Moves: Flash Cannon (TM), Tail Glow (Lv)
 
 -------------------
 298 - Azurill
@@ -1748,6 +1870,7 @@ Abilities: Thick Fat / Huge Power / Sap Sipper
 Base Stats: 50/20/40/20/40/20 (190) ⟶ 50/20/40/40*/40/20 (210)
 Held Item: None
 Type: Normal / Fairy
+New Moves: Dazzling Gleam (TM), Disarming Voice (Lv)
 
 -------------------
 183 - Marill
@@ -1756,6 +1879,7 @@ Abilities: Thick Fat / Huge Power / Sap Sipper
 Base Stats: 70/20/50/20/50/40 (250) ⟶ 70/20/50/50*/50/40 (280)
 Held Item: None
 Type: Water / Fairy
+New Moves: Dazzling Gleam (TM)
 
 -------------------
 184 - Azumarill
@@ -1764,6 +1888,7 @@ Abilities: Thick Fat / Huge Power / Sap Sipper
 Base Stats: 100/50/80/60/80/50 (420) ⟶ 100/50/80/80*/80/50 (440)
 Held Item: None
 Type: Water / Fairy
+New Moves: Dazzling Gleam (TM)
 
 -------------------
 438 - Bonsly
@@ -1788,6 +1913,7 @@ Abilities: Chlorophyll / Leaf Guard / Infiltrator ⟶ Chlorophyll / Infiltrator 
 Base Stats: 35/35/40/35/55/50 (250) ⟶ 35/40*/40/40*/65*/60* (280)
 Held Item: None
 Type: Grass / Flying
+New Moves: Growth (Lv)
 
 -------------------
 188 - Skiploom
@@ -1796,6 +1922,7 @@ Abilities: Chlorophyll / Leaf Guard / Infiltrator ⟶ Chlorophyll / Infiltrator 
 Base Stats: 55/45/50/45/65/80 (340) ⟶ 55/55*/50/55*/75*/90* (380)
 Held Item: None
 Type: Grass / Flying
+New Moves: Growth (Lv)
 
 -------------------
 189 - Jumpluff
@@ -1804,6 +1931,7 @@ Abilities: Chlorophyll / Leaf Guard / Infiltrator ⟶ Chlorophyll / Infiltrator 
 Base Stats: 75/55/70/55/95/110 (460) ⟶ 75/70*/70/70*/95/110 (490)
 Held Item: None
 Type: Grass / Flying
+New Moves: Growth (Lv), Fly (HM), Play Rough (TM)
 
 -------------------
 190 - Aipom
@@ -1820,6 +1948,7 @@ Abilities: Technician / Pickup / Skill Link
 Base Stats: 75/100/66/60/66/115 (482)
 Held Item: None
 Type: Normal
+New Moves: Arm Thrust (Lv)
 
 -------------------
 191 - Sunkern
@@ -1836,6 +1965,9 @@ Abilities: Chlorophyll / Solar Power / Drought**
 Base Stats: 75/75/55/105/85/30 (425) ⟶ 75/75/75*/125*/95*/30 (475)
 Held Item: None
 Type: Grass ⟶ Grass / Fire
+New Moves: Weather Ball (Lv, HOME), Mystical Fire (Lv/TM), Fire Blast* (TM), Flamethrower* (TM), Overheat* (TM), Will-O-Wisp* (TM)
+
+* If type changes are removed, Sunflora cannot learn these moves.
 
 -------------------
 193 - Yanma
@@ -1844,6 +1976,7 @@ Abilities: Speed Boost / Compound Eyes / Frisk
 Base Stats: 65/65/45/75/45/95 (390)
 Held Item: Wide Lens (5%)
 Type: Bug / Flying
+New Moves: Hurricane (Lv)
 
 -------------------
 469 - Yanmega
@@ -1852,6 +1985,7 @@ Abilities: Speed Boost / Tinted Lens / Frisk
 Base Stats: 86/76/86/116/56/95 (515)
 Held Item: Wide Lens (5%)
 Type: Bug / Flying
+New Moves: Boomburst (Lv), Fly (HM), Hurricane (Lv)
 
 -------------------
 194 - Wooper
@@ -1892,6 +2026,9 @@ Abilities: Levitate / Levitate / Levitate
 Base Stats: 60/60/60/85/85/85 (435)
 Held Item: None
 Type: Ghost ⟶ Ghost / Fairy
+New Moves: Hypnosis (Lv, PLA), Disarming Voice (Lv), Moonblast* (Lv)
+
+* If type changes are removed, Misdreavus cannot learn these moves.
 
 -------------------
 429 - Mismagius
@@ -1900,6 +2037,9 @@ Abilities: Levitate / Levitate / Levitate
 Base Stats: 60/60/60/105/105/105 (495)
 Held Item: None
 Type: Ghost ⟶ Ghost / Fairy
+New Moves: Hypnosis (Lv, PLA), Disarming Voice (Lv), Moonblast* (Lv)
+
+* If type changes are removed, Misdreavus cannot learn these moves.
 
 -------------------
 201 - Unown
@@ -1908,6 +2048,7 @@ Abilities: Levitate / Levitate / Levitate
 Base Stats: 48/72/48/72/48/48 (336) ⟶ 48/72/72*/96*/72*/72* (432)
 Held Item: None
 Type: Psychic
+New Moves: Psychic (TM), Secret Power (Lv)
 
 -------------------
 360 - Wynaut
@@ -1932,6 +2073,7 @@ Abilities: Inner Focus / Early Bird / Sap Sipper
 Base Stats: 70/80/65/90/65/85 (455)
 Held Item: Persim Berry (5%)
 Type: Normal / Psychic
+New Moves: Dark Pulse (TM)
 
 -------------------
 204 - Pineco
@@ -1940,6 +2082,7 @@ Abilities: Sturdy / Sturdy / Overcoat ⟶ Sturdy / Skill Link** / Overcoat
 Base Stats: 50/65/90/35/35/15 (290)
 Held Item: None
 Type: Bug
+New Moves: Shell Smash (Lv), Steamroller (Lv)
 
 -------------------
 205 - Forretress
@@ -1948,6 +2091,7 @@ Abilities: Sturdy / Sturdy / Overcoat ⟶ Sturdy / Skill Link** / Overcoat
 Base Stats: 75/90/140/60/60/40 (465) ⟶ 75/100*/140/60/70*/40 (485)
 Held Item: None
 Type: Bug / Steel
+New Moves: Shell Smash (Lv), Steamroller (Lv)
 
 -------------------
 206 - Dunsparce
@@ -1964,6 +2108,7 @@ Abilities: Hyper Cutter / Sand Veil / Immunity
 Base Stats: 65/75/105/35/65/85 (430)
 Held Item: None
 Type: Ground / Flying
+New Moves: Power Whip (TM, HOME)
 
 -------------------
 472 - Gliscor
@@ -1972,6 +2117,7 @@ Abilities: Hyper Cutter / Sand Veil / Poison Heal
 Base Stats: 75/95/125/45/75/95 (510)
 Held Item: None
 Type: Ground / Flying
+New Moves: Power Whip (TM, HOME)
 
 -------------------
 209 - Snubbull
@@ -1980,6 +2126,7 @@ Abilities: Intimidate / Run Away / Rattled ⟶ Intimidate / Strong Jaw** / Rattl
 Base Stats: 60/80/50/40/40/30 (300)
 Held Item: None
 Type: Fairy
+New Moves: Spirit Break (Lv)
 
 -------------------
 210 - Granbull
@@ -1988,6 +2135,7 @@ Abilities: Intimidate / Quick Feet / Rattled ⟶ Intimidate / Strong Jaw** / Rat
 Base Stats: 90/120/75/60/60/45 (450) ⟶ 90/120/75/50*/60/75* (470)
 Held Item: None
 Type: Fairy ⟶ Fairy / Fighting
+New Moves: Spirit Break (Lv)
 
 -------------------
 211 - Qwilfish
@@ -1996,6 +2144,7 @@ Abilities: Poison Point / Swift Swim / Intimidate
 Base Stats: 65/95/85/55/55/85 (440) ⟶ 65/100*/90*/55/55/85 (450)
 Held Item: Poison Barb (5%)
 Type: Water / Poison
+New Moves: Gunk Shot (Lv)
 
 -------------------
 213 - Shuckle
@@ -2020,6 +2169,7 @@ Abilities: Inner Focus / Keen Eye / Pickpocket
 Base Stats: 55/95/55/35/75/115 (430)
 Held Item: Grip Claw (50%), Quick Claw (5%)
 Type: Dark / Ice
+New Moves: Crunch (Lv)
 
 -------------------
 461 - Weavile
@@ -2028,6 +2178,7 @@ Abilities: Pressure / Pressure / Pickpocket ⟶ Inner Focus** / Keen Eye** / Pic
 Base Stats: 70/120/65/45/85/125 (510)
 Held Item: Grip Claw (50%), Quick Claw (5%)
 Type: Dark / Ice
+New Moves: Crunch (Lv)
 
 -------------------
 216 - Teddiursa
@@ -2036,6 +2187,7 @@ Abilities: Pickup / Quick Feet / Honey Gather
 Base Stats: 60/80/50/50/50/40 (330)
 Held Item: None
 Type: Normal
+New Moves: High Horsepower (Lv, PLA)
 
 -------------------
 217 - Ursaring
@@ -2052,6 +2204,7 @@ Abilities: Magma Armor / Flame Body / Weak Armor ⟶ Magma Armor / Flame Body / 
 Base Stats: 40/40/40/70/40/20 (250) ⟶ 50*/40/50*/80*/50*/20 (290)
 Held Item: None
 Type: Fire
+New Moves: Power Gem (Lv), Magma Storm (Lv)
 
 -------------------
 219 - Magcargo
@@ -2060,6 +2213,7 @@ Abilities: Magma Armor / Flame Body / Weak Armor ⟶ Magma Armor / Flame Body / 
 Base Stats: 60/50/120/90/80/30 (430) ⟶ 75*/50/120/110*/90*/30 (475)
 Held Item: None
 Type: Fire / Rock
+New Moves: Power Gem (Lv), Magma Storm (Lv)
 
 -------------------
 220 - Swinub
@@ -2084,6 +2238,7 @@ Abilities: Oblivious / Snow Cloak / Thick Fat
 Base Stats: 110/130/80/70/60/80 (530)
 Held Item: None
 Type: Ice / Ground
+New Moves: Headlong Rush (Lv)
 
 -------------------
 222 - Corsola
@@ -2116,6 +2271,7 @@ Abilities: Vital Spirit / Hustle / Insomnia ⟶ Vital Spirit / Hustle / Technici
 Base Stats: 45/55/45/65/45/75 (330) ⟶ 55*/75*/55*/100*/55*/110* (450)
 Held Item: None
 Type: Ice / Flying
+New Moves: Powder Snow (Lv), U-turn (TM)
 
 -------------------
 458 - Mantyke
@@ -2132,6 +2288,7 @@ Abilities: Swift Swim / Water Absorb / Water Veil
 Base Stats: 85/40/70/80/140/70 (485)
 Held Item: None
 Type: Water / Flying
+New Moves: Fly (HM)
 
 -------------------
 227 - Skarmory
@@ -2156,6 +2313,7 @@ Abilities: Early Bird / Flash Fire / Unnerve ⟶ Intimidate** / Flash Fire / Sol
 Base Stats: 75/90/50/110/80/95 (500)
 Held Item: None
 Type: Dark / Fire
+New Moves: Poison Fang (Lv)
 
 -------------------
 231 - Phanpy
@@ -2172,6 +2330,7 @@ Abilities: Sturdy / Sturdy / Sand Veil ⟶ Sturdy / Battle Armor** / Sand Veil
 Base Stats: 90/120/120/60/60/50 (500)
 Held Item: Passho Berry (5%)
 Type: Ground
+New Moves: Headlong Rush (Lv), Power Whip (TM, HOME), Steamroller (Lv)
 
 -------------------
 234 - Stantler
@@ -2316,6 +2475,7 @@ Abilities: Blaze / Blaze / Speed Boost ⟶ Blaze / Keen Eye** / Speed Boost
 Base Stats: 80/120/70/110/70/80 (530) ⟶ 80/120/70/115*/70/80 (535)
 Held Item: None
 Type: Fire / Fighting
+New Moves: Jump Kick (Lv)
 
 -------------------
 258 - Mudkip
@@ -2348,6 +2508,7 @@ Abilities: Run Away / Quick Feet / Rattled ⟶ Run Away / Strong Jaw** / Rattled
 Base Stats: 35/55/35/30/30/35 (220) ⟶ 35/65*/35/30/30/45* (240)
 Held Item: Pecha Berry (5%)
 Type: Dark
+New Moves: Comeuppance (Lv), Nasty Plot (TM, BDSP)
 
 -------------------
 262 - Mightyena
@@ -2356,6 +2517,7 @@ Abilities: Intimidate / Quick Feet / Moxie ⟶ Intimidate / Strong Jaw** / Moxie
 Base Stats: 70/90/70/60/60/70 (420) ⟶ 70/110*/70/50*/60/90* (450)
 Held Item: Pecha Berry (5%)
 Type: Dark
+New Moves: Comeuppance (Lv), Nasty Plot (TM, BDSP)
 
 -------------------
 263 - Zigzagoon
@@ -2364,6 +2526,7 @@ Abilities: Pickup / Gluttony / Quick Feet
 Base Stats: 38/30/41/30/41/60 (240)
 Held Item: Oran Berry (5%)
 Type: Normal
+New Moves: U-turn (TM)
 
 -------------------
 264 - Linoone
@@ -2372,6 +2535,7 @@ Abilities: Pickup / Gluttony / Quick Feet
 Base Stats: 78/70/61/50/61/100 (420) ⟶ 78/80/61/50/61/110 (440)
 Held Item: Oran Berry (50%), Sitrus Berry (5%)
 Type: Normal
+New Moves: U-turn (TM)
 
 -------------------
 265 - Wurmple
@@ -2396,6 +2560,7 @@ Abilities: Swarm / Swarm / Rivalry ⟶ Swarm / Rivalry / Hustle**
 Base Stats: 60/70/50/100/50/65 (395) ⟶ 60/80*/50/100/50/85* (425)
 Held Item: Shed Shell (5%)
 Type: Bug / Flying
+New Moves: Fly (HM), Leech Life (Lv/TM, BDSP), Air Slash (Lv/TM, HOME)
 
 -------------------
 268 - Cascoon
@@ -2412,6 +2577,7 @@ Abilities: Shield Dust / Shield Dust / Compound Eyes ⟶ Shield Dust / Compound 
 Base Stats: 60/50/70/50/90/65 (385) ⟶ 60/50/80*/70*/100*/65
 Held Item: Shed Shell (5%)
 Type: Bug / Poison
+New Moves: Acid Spray (Lv), Fly (HM), Leech Life (TM, BDSP), Moonblast (Lv), Sleep Powder (Lv)
 
 -------------------
 270 - Lotad
@@ -2476,6 +2642,7 @@ Abilities: Guts / Guts / Scrappy ⟶ Guts / Scrappy / Defiant**
 Base Stats: 60/85/60/75/50/125 (455) ⟶ 60/85/60/85*/50/125 (465)
 Held Item: Charti Berry (5%)
 Type: Normal / Flying
+New Moves: Extreme Speed (Lv)
 
 -------------------
 278 - Wingull
@@ -2524,6 +2691,7 @@ Abilities: Steadfast / Sharpness / Justified
 Base Stats: 68/125/65/65/115/80 (518)
 Held Item: None
 Type: Psychic / Fighting
+New Moves: Spirit Break (Lv)
 
 -------------------
 283 - Surskit
@@ -2540,6 +2708,7 @@ Abilities: Intimidate / Intimidate / Unnerve
 Base Stats: 70/60/62/100/82/80 (454) ⟶ 70/50*/62/100/82/90* (454)
 Held Item: Silver Powder (5%)
 Type: Bug / Flying ⟶ Bug / Water
+New Moves: Fly (HM), Supersonic (Lv, BDSP)
 
 -------------------
 285 - Shroomish
@@ -2572,6 +2741,7 @@ Abilities: Vital Spirit / Vital Spirit / Vital Spirit ⟶ Vital Spirit / Vital S
 Base Stats: 80/80/80/55/55/90 (440) ⟶ 80/90*/80/55/55/90 (450)
 Held Item: None
 Type: Normal
+New Moves: Thrash (Lv)
 
 -------------------
 289 - Slaking
@@ -2580,6 +2750,7 @@ Abilities: Truant / Truant / Truant ⟶ Truant / Truant / Stall**
 Base Stats: 150/160/100/95/65/100 (670)
 Held Item: None
 Type: Normal
+New Moves: Thrash (Lv, Vigoroth only)
 
 -------------------
 290 - Nincada
@@ -2612,6 +2783,7 @@ Abilities: Soundproof / Soundproof / Rattled ⟶ Soundproof / Rattled / Cacophon
 Base Stats: 64/51/23/51/23/28 (240)
 Held Item: Chesto Berry (5%)
 Type: Normal
+New Moves: Snarl (TM)
 
 -------------------
 294 - Loudred
@@ -2620,6 +2792,7 @@ Abilities: Soundproof / Soundproof / Scrappy ⟶ Soundproof / Scrappy / Cacophon
 Base Stats: 84/71/43/71/43/48 (360)
 Held Item: Chesto Berry (5%)
 Type: Normal
+New Moves: Snarl (TM)
 
 -------------------
 295 - Exploud
@@ -2628,6 +2801,7 @@ Abilities: Soundproof / Soundproof / Scrappy ⟶ Soundproof / Scrappy / Cacophon
 Base Stats: 104/91/63/91/73/68 (490) ⟶ 114*/101*/63/101*/73/68 (520)
 Held Item: Chesto Berry (5%)
 Type: Normal
+New Moves: Noble Roar (Lv), Snarl (TM)
 
 -------------------
 296 - Makuhita
@@ -2652,6 +2826,7 @@ Abilities: Sturdy / Magnet Pull / Sand Force
 Base Stats: 30/45/135/45/90/30 (375) ⟶ 30/45/135/65*/90/30 (395)
 Held Item: Hard Stone (5%)
 Type: Rock
+New Moves: Head Smash (Lv), Thunder Shock (Lv)
 
 -------------------
 476 - Probopass
@@ -2660,6 +2835,7 @@ Abilities: Sturdy / Magnet Pull / Sand Force
 Base Stats: 60/55/145/75/150/40 (525) ⟶ 60/55/145/85*/150/40 (535)
 Held Item: Hard Stone (5%)
 Type: Rock / Steel
+New Moves: Head Smash (Lv), Mirror Shot (Lv), Thunder Shock (Lv)
 
 -------------------
 300 - Skitty
@@ -2668,6 +2844,7 @@ Abilities: Cute Charm / Normalize / Wonder Skin
 Base Stats: 50/45/45/35/35/50 (300)
 Held Item: Leppa Berry (5%)
 Type: Normal
+New Moves: Moonblast (Lv), Nasty Plot (TM, BDSP)
 
 -------------------
 301 - Delcatty
@@ -2676,6 +2853,7 @@ Abilities: Cute Charm / Normalize / Wonder Skin ⟶ Cute Charm / Adaptability** 
 Base Stats: 70/65/65/55/55/90 (400) ⟶ 70/80*/65/80*/55/110* (460)
 Held Item: Leppa Berry (5%)
 Type: Normal ⟶ Normal / Fairy
+New Moves: Dazzling Gleam (Lv/TM), Moonblast (Lv), Nasty Plot (TM, BDSP)
 
 -------------------
 302 - Sableye
@@ -2692,6 +2870,7 @@ Abilities: Hyper Cutter / Intimidate / Sheer Force ⟶ Strong Jaw** / Intimidate
 Base Stats: 50/85/85/55/55/50 (380) ⟶ 50/105*/105*/55/75*/50 (440)
 Held Item: Occa Berry (5%)
 Type: Steel / Fairy
+New Moves: Spirit Break (Lv)
 
 -------------------
 304 - Aron
@@ -2740,6 +2919,7 @@ Abilities: Static / Lightning Rod / Minus ⟶ Static / Lightning Rod / Intimidat
 Base Stats: 40/45/40/65/40/65 (295)
 Held Item: None
 Type: Electric
+New Moves: Thunder Shock (Lv), Volt Tackle (Lv)
 
 -------------------
 310 - Manectric
@@ -2748,6 +2928,7 @@ Abilities: Static / Lightning Rod / Minus ⟶ Static / Lightning Rod / Intimidat
 Base Stats: 70/75/60/105/60/105 (475) ⟶ 70/90*/60/105/60/115* (500)
 Held Item: None
 Type: Electric
+New Moves: Thunder Shock (Lv), Volt Tackle (Lv)
 
 -------------------
 311 - Plusle
@@ -2756,6 +2937,7 @@ Abilities: Plus / Plus / Lightning Rod ⟶ Plus / Lightning Rod / Cheerleader**
 Base Stats: 60/50/40/85/75/95 (405) ⟶ 60/50/50*/85/85*/105* (435)
 Held Item: None
 Type: Electric
+New Moves: Thunder Shock (Lv)
 
 -------------------
 312 - Minun
@@ -2764,6 +2946,7 @@ Abilities: Minus / Minus / Volt Absorb ⟶ Minus / Volt Absorb / Cheerleader**
 Base Stats: 60/40/50/75/85/95 (405) ⟶ 60/50*/50/85*/85/105* (435)
 Held Item: None
 Type: Electric
+New Moves: Thunder Shock (Lv)
 
 -------------------
 313 - Volbeat
@@ -2772,6 +2955,7 @@ Abilities: Illuminate / Swarm / Prankster
 Base Stats: 65/73/75/47/85/85 (430) ⟶ 65/47*/85*/88*/85/95* (465)
 Held Item: None
 Type: Bug ⟶ Bug / Electric
+New Moves: Discharge (Lv), Moonblast (Lv)
 
 -------------------
 314 - Illumise
@@ -2780,6 +2964,7 @@ Abilities: Oblivious / Tinted Lens / Prankster
 Base Stats: 65/47/75/73/85/85 (430) ⟶ 65/47/85*/88*/85/95* (465)
 Held Item: None
 Type: Bug ⟶ Bug / Fairy
+New Moves: Draining Kiss (Lv), Moonblast (Lv), Quiver Dance (Lv)
 
 -------------------
 406 - Budew
@@ -2812,6 +2997,7 @@ Abilities: Liquid Ooze / Sticky Hold / Gluttony ⟶ Liquid Ooze / Gluttony / Goo
 Base Stats: 70/43/53/43/53/40 (302) ⟶ 70/53*/53/53*/53/40 (322)
 Held Item: Big Pearl (5%)
 Type: Poison
+New Moves: Thunderbolt (TM)
 
 -------------------
 317 - Swalot
@@ -2820,6 +3006,7 @@ Abilities: Liquid Ooze / Sticky Hold / Gluttony ⟶ Liquid Ooze / Gluttony / Goo
 Base Stats: 100/73/83/73/83/55 (467) ⟶ 100/83*/83/83*/83/45* (477)
 Held Item: Big Pearl (5%)
 Type: Poison
+New Moves: Thunderbolt (TM)
 
 -------------------
 318 - Carvanha
@@ -2828,6 +3015,7 @@ Abilities: Rough Skin / Rough Skin / Speed Boost ⟶ Rough Skin / Strong Jaw** /
 Base Stats: 45/90/20/65/20/65 (305)
 Held Item: Deep Sea Tooth (5%)
 Type: Water / Dark
+New Moves: Wave Crash (Lv)
 
 -------------------
 319 - Sharpedo
@@ -2836,6 +3024,7 @@ Abilities: Rough Skin / Rough Skin / Speed Boost ⟶ Rough Skin / Strong Jaw** /
 Base Stats: 70/120/40/95/40/95 (460) ⟶ 70/120/45*/95/45*/105* (480)
 Held Item: Deep Sea Tooth (5%)
 Type: Water / Dark
+New Moves: Aqua Cutter (Lv), Wave Crash (Lv)
 
 -------------------
 320 - Wailmer
@@ -2852,6 +3041,7 @@ Abilities: Water Veil / Oblivious / Pressure ⟶ Water Veil / Oblivious / Huge I
 Base Stats: 170/90/45/90/45/60 (500) ⟶ 200*/100*/50*/100*/50*/50* (550)
 Held Item: None
 Type: Water
+New Moves: Splash Crash (Lv, New)
 
 -------------------
 322 - Numel
@@ -2900,6 +3090,7 @@ Abilities: Own Tempo / Tangled Feet / Contrary ⟶ Own Tempo / Contrary / Totter
 Base Stats: 60/60/60/60/60/60 (420) ⟶ 75*/75*/75*/75*/75*/75* (450)
 Held Item: Chesto Berry (5%)
 Type: Normal
+New Moves: Psycho Boost (Lv)
 
 -------------------
 328 - Trapinch
@@ -2908,6 +3099,7 @@ Abilities: Hyper Cutter / Arena Trap / Sheer Force
 Base Stats: 45/100/45/45/45/10 (290)
 Held Item: Soft Sand (5%)
 Type: Ground ⟶ Bug / Ground
+New Moves: Lunge (Lv)
 
 -------------------
 329 - Vibrava
@@ -2916,6 +3108,7 @@ Abilities: Levitate / Levitate / Levitate ⟶ Sand Veil** / Sand Veil** / Tinted
 Base Stats: 50/70/50/50/50/70 (340) ⟶ 50/70/60*/80*/60*/90* (410)
 Held Item: None
 Type: Ground / Dragon ⟶ Bug / Dragon
+New Moves: Lunge (Lv)
 
 -------------------
 330 - Flygon
@@ -2924,6 +3117,7 @@ Abilities: Levitate / Levitate / Levitate ⟶ Sand Stream** / Sand Stream** / Ti
 Base Stats: 80/100/80/80/80/100 (520) ⟶ 90*/105*/90*/125*/90*/100 (600)
 Held Item: None
 Type: Ground / Dragon ⟶ Bug / Dragon
+New Moves: Lunge (Lv)
 
 -------------------
 331 - Cacnea
@@ -2932,6 +3126,7 @@ Abilities: Sand Veil / Sand Veil / Water Absorb ⟶ Sand Veil / Water Absorb / H
 Base Stats: 50/85/40/85/40/35 ()
 Held Item: Sticky Barb (5%)
 Type: Grass
+New Moves: Cotton Guard (Lv)
 
 -------------------
 332 - Cacturne
@@ -2940,6 +3135,7 @@ Abilities: Sand Veil / Sand Veil / Water Absorb ⟶ Sand Veil / Water Absorb / H
 Base Stats: 70/115/60/115/60/55 (475) ⟶ 70/125*/75*/105*/75*/50* (500)
 Held Item: Sticky Barb (5%)
 Type: Grass / Dark
+New Moves: Cotton Guard (Lv)
 
 -------------------
 333 - Swablu
@@ -2972,6 +3168,7 @@ Abilities: Shed Skin / Shed Skin / Infiltrator ⟶ Shed Skin / Infiltrator / Mer
 Base Stats: 73/100/60/100/60/65 (458) ⟶ 73/110*/60/90*/60/75* (468)
 Held Item: None
 Type: Poison ⟶ Poison / Dark
+New Moves: Power Whip (TM, HOME)
 
 -------------------
 337 - Lunatone
@@ -3028,6 +3225,7 @@ Abilities: Levitate / Levitate / Levitate
 Base Stats: 40/40/55/40/70/55 (300) ⟶ 40/55*/55/55*/70/55 (330)
 Held Item: None
 Type: Ground / Psychic
+New Moves: Mud Bomb (Lv), Recover (Lv)
 
 -------------------
 344 - Claydol
@@ -3036,6 +3234,7 @@ Abilities: Levitate / Levitate / Levitate
 Base Stats: 60/70/105/70/120/75 (500) ⟶ 60/75*/105/75*/120/75 (510)
 Held Item: None
 Type: Ground / Psychic
+New Moves: Fly (HM), Mud Bomb (Lv), Recover (Lv)
 
 -------------------
 345 - Lileep
@@ -3044,6 +3243,7 @@ Abilities: Suction Cups / Suction Cups / Storm Drain ⟶ Suction Cups / Storm Dr
 Base Stats: 66/41/77/61/87/23 (355)
 Held Item: Big Root (5%)
 Type: Rock / Grass
+New Moves: Power Gem (Lv)
 
 -------------------
 346 - Cradily
@@ -3052,6 +3252,7 @@ Abilities: Suction Cups / Suction Cups / Storm Drain ⟶ Suction Cups / Storm Dr
 Base Stats: 86/81/97/81/107/43 (495)
 Held Item: Big Root (5%)
 Type: Rock / Grass
+New Moves: Power Gem (Lv)
 
 -------------------
 347 - Anorith
@@ -3084,6 +3285,7 @@ Abilities: Marvel Scale / Competitive / Cute Charm
 Base Stats: 95/60/79/100/125/81 (540)
 Held Item: None
 Type: Water ⟶ Water / Fairy
+New Moves: Dazzling Gleam (TM)
 
 -------------------
 351 - Castform
@@ -3092,6 +3294,7 @@ Abilities: Forecast
 Base Stats: 70/70/70/70/70/70 (420) ⟶ 70/50*/70/95*/70/95* (450)
 Held Item: Mystic Water (100%)
 Type: Normal
+New Moves: Nasty Plot (TM), Tri Attack (Lv)
 
 -------------------
 352 - Kecleon
@@ -3116,6 +3319,7 @@ Abilities: Insomnia / Frisk / Cursed Body ⟶ Insomnia / Cursed Body / Prankster
 Base Stats: 64/115/65/83/63/65 (455) ⟶ 64/125*/70*/73*/68*/75* (475)
 Held Item: Spell Tag (5%)
 Type: Ghost ⟶ Ghost / Normal
+New Moves: Slash (Lv)
 
 -------------------
 355 - Duskull
@@ -3124,6 +3328,7 @@ Abilities: Levitate / Levitate / Frisk
 Base Stats: 20/40/90/30/90/25 (295)
 Held Item: Kasib Berry (5%)
 Type: Ghost
+New Moves: Leech Life (TM, PLA)
 
 -------------------
 356 - Dusclops
@@ -3132,6 +3337,7 @@ Abilities: Pressure / Pressure / Frisk
 Base Stats: 40/70/130/60/130/25 (455)
 Held Item: Kasib Berry (5%)
 Type: Ghost
+New Moves: Leech Life (TM, PLA)
 
 -------------------
 477 - Dusknoir
@@ -3140,6 +3346,7 @@ Abilities: Pressure / Pressure / Frisk ⟶ Pressure / Pressure / Iron Fist**
 Base Stats: 45/100/135/65/135/45 (525) ⟶ 45/110*/135/65/135/45 (535)
 Held Item: Kasib Berry (5%)
 Type: Ghost
+New Moves: Leech Life (TM, PLA), Drain Punch (TM), Phantom Force (Lv)
 
 -------------------
 357 - Tropius
@@ -3164,6 +3371,7 @@ Abilities: Levitate / Levitate / Levitate ⟶ Levitate / Levitate / Cacophony**
 Base Stats: 75/50/80/95/90/65 (455) ⟶ 75/50/90*/95/90/65 (465)
 Held Item: Colbur Berry (5%)
 Type: Psychic
+New Moves: Ominous Wind (Lv, PLA), Boomburst (Lv)
 
 -------------------
 359 - Absol
@@ -3188,6 +3396,7 @@ Abilities: Inner Focus / Ice Body / Moody ⟶ Levitate** / Levitate** / Refriger
 Base Stats: 80/80/80/80/80/80 (480) ⟶ 80/110*/80/60*/80/90* (500)
 Held Item: Babiri Berry (5%)
 Type: Ice ⟶ Ice / Rock
+New Moves: Rock Polish (TM), Rock Slide (Lv/TM), Rock Tomb (TM), Stone Edge (Lv/TM), Head Smash (Lv)
 
 -------------------
 478 - Froslass
@@ -3196,6 +3405,7 @@ Abilities: Snow Cloak / Snow Cloak / Cursed Body ⟶ Levitate** / Levitate** / C
 Base Stats: 70/80/70/80/70/110 (480)
 Held Item: Babiri Berry (5%)
 Type: Ice / Ghost
+New Moves: Freeze-Dry (Lv), Sheer Cold (Lv)
 
 -------------------
 363 - Spheal
@@ -3204,6 +3414,7 @@ Abilities: Thick Fat / Ice Body / Oblivious
 Base Stats: 70/40/50/55/50/25 (290)
 Held Item: None
 Type: Ice / Water
+New Moves: Slack Off (Lv)
 
 -------------------
 364 - Sealeo
@@ -3212,6 +3423,7 @@ Abilities: Thick Fat / Ice Body / Oblivious
 Base Stats: 90/60/70/75/70/45 (410)
 Held Item: None
 Type: Ice / Water
+New Moves: Slack Off (Lv)
 
 -------------------
 365 - Walrein
@@ -3220,6 +3432,7 @@ Abilities: Thick Fat / Ice Body / Oblivious
 Base Stats: 110/80/90/95/90/65 (530) ⟶ 110/90*/90/95/90/65 (540)
 Held Item: None
 Type: Ice / Water
+New Moves: Slack Off (Lv)
 
 -------------------
 366 - Clamperl
@@ -3228,6 +3441,7 @@ Abilities: Shell Armor / Shell Armor / Rattled ⟶ Shell Armor / Rattled / Overc
 Base Stats: 
 Held Item: Big Pearl (5%)
 Type: Water
+New Moves: Razor Shell (Lv)
 
 -------------------
 367 - Huntail
@@ -3236,6 +3450,7 @@ Abilities: Swift Swim / Swift Swim / Water Veil ⟶ Swift Swim / Water Veil / St
 Base Stats: 55/104/105/94/75/52 (485) ⟶ 55/114*/105/84*/75/52 (485)
 Held Item: Deep Sea Tooth (5%)
 Type: Water
+New Moves: Poison Fang (Lv), Razor Shell (Lv, Clamperl only)
 
 -------------------
 368 - Gorebyss
@@ -3244,6 +3459,7 @@ Abilities: Swift Swim / Swift Swim / Hydration ⟶ Swift Swim / Storm Drain** / 
 Base Stats: 55/84/105/114/75/52 (485)
 Held Item: Deep Sea Scale (5%)
 Type: Water
+New Moves: Leech Life (Lv/TM), Razor Shell (Lv, Clamperl only)
 
 -------------------
 369 - Relicanth
@@ -3252,6 +3468,7 @@ Abilities: Swift Swim / Rock Head / Sturdy
 Base Stats: 100/90/130/45/65/55 (485)
 Held Item: Deep Sea Scale (5%)
 Type: Water / Rock
+New Moves: Wave Crash (Lv)
 
 -------------------
 370 - Luvdisc
@@ -3260,6 +3477,7 @@ Abilities: Swift Swim / Swift Swim / Hydration ⟶ Swift Swim / Cute Charm** / H
 Base Stats: 43/30/55/40/65/97 (330) ⟶ 53*/30/75*/80*/95*/117* (440)
 Held Item: Heart Scale (50%)
 Type: Water ⟶ Water / Fairy
+New Moves: Tearful Look (Lv, BDSP), Dazzling Gleam (TM), Healing Wish (Lv), Lovely Kiss (Lv), Moonblast (Lv)
 
 -------------------
 371 - Bagon
@@ -3308,6 +3526,7 @@ Abilities: Clear Body / Clear Body / Light Metal ⟶ Clear Body / Clear Body / T
 Base Stats: 80/135/130/95/90/70 (600)
 Held Item: Metal Coat (5%)
 Type: Steel / Psychic
+New Moves: Fly (HM)
 
 -------------------
 377 - Regirock
@@ -3388,6 +3607,7 @@ Abilities: Pressure / Pressure / Pressure
 Base Stats: 50/150/50/150/50/150 (600)
 Held Item: None
 Type: Psychic
+New Moves: Nasty Plot (TM, BDSP)
 
 -------------------
 386.2 - Deoxys (Attack Forme)
@@ -3396,6 +3616,7 @@ Abilities: Pressure / Pressure / Pressure
 Base Stats: 50/180/20/180/20/150 (600)
 Held Item: None
 Type: Psychic
+New Moves: Nasty Plot (TM, BDSP)
 
 -------------------
 386.2 - Deoxys (Defense Forme)
@@ -3404,6 +3625,7 @@ Abilities: Pressure / Pressure / Pressure
 Base Stats: 50/70/160/70/160/90 (600)
 Held Item: None
 Type: Psychic
+New Moves: Nasty Plot (TM, BDSP)
 
 -------------------
 386.3 - Deoxys (Speed Forme)
@@ -3412,6 +3634,7 @@ Abilities: Pressure / Pressure / Pressure
 Base Stats: 50/95/90/95/90/180 (600)
 Held Item: None
 Type: Psychic
+New Moves: Nasty Plot (TM, BDSP)
 
 -------------------
 387 - Turtwig
@@ -3420,6 +3643,7 @@ Abilities: Overgrow / Overgrow / Shell Armor ⟶ Overgrow / Shell Armor / Sturdy
 Base Stats: 55/68/64/45/55/31 (318)
 Held Item: None
 Type: Grass
+New Moves: Bulldoze (TM, PLA), Shell Smash (Lv)
 
 -------------------
 388 - Grotle
@@ -3428,6 +3652,7 @@ Abilities: Overgrow / Overgrow / Shell Armor ⟶ Overgrow / Shell Armor / Sturdy
 Base Stats: 75/89/85/55/65/36 (405)
 Held Item: None
 Type: Grass
+New Moves: Bulldoze (Lv/TM, PLA), Shell Smash (Lv)
 
 -------------------
 389 - Torterra
@@ -3436,6 +3661,7 @@ Abilities: Overgrow / Overgrow / Shell Armor ⟶ Overgrow / Shell Armor / Sturdy
 Base Stats: 95/109/105/75/85/56 (525) ⟶ 105*/109/105/75/85/56 (535)
 Held Item: None
 Type: Grass / Ground
+New Moves: Headlong Rush (Lv, PLA), Shell Smash (Lv)
 
 -------------------
 390 - Chimchar
@@ -3460,6 +3686,7 @@ Abilities: Blaze / Blaze / Iron Fist ⟶ Blaze / Vital Spirit** / Iron Fist
 Base Stats: 76/104/71/104/71/108 (534) ⟶ 76/104/71/104/71/109* (535)
 Held Item: None
 Type: Fire / Fighting
+New Moves: Drain Punch (TM, PLA), Raging Fury (Lv, PLA)
 
 -------------------
 393 - Piplup
@@ -3468,6 +3695,7 @@ Abilities: Torrent / Torrent / Defiant ⟶ Torrent / Swift Swim** / Competitive*
 Base Stats: 53/51/53/61/56/40 (314)
 Held Item: None
 Type: Water
+New Moves: Roost (TM, PLA)
 
 -------------------
 394 - Prinplup
@@ -3476,6 +3704,7 @@ Abilities: Torrent / Torrent / Defiant ⟶ Torrent / Swift Swim** / Competitive*
 Base Stats: 64/66/68/81/76/50 (405)
 Held Item: None
 Type: Water
+New Moves: Roost (TM, PLA)
 
 -------------------
 395 - Empoleon
@@ -3484,6 +3713,7 @@ Abilities: Torrent / Torrent / Defiant ⟶ Torrent / Swift Swim** / Competitive*
 Base Stats: 84/86/88/111/101/60 (530) ⟶ 84/86/88/116*/101/60 (535)
 Held Item: None
 Type: Water / Steel
+New Moves: Roost (TM, PLA), Wave Crash (Lv, PLA), Air Slash (TM)
 
 -------------------
 396 - Starly
@@ -3492,6 +3722,7 @@ Abilities: Keen Eye / Keen Eye / Reckless
 Base Stats: 40/55/30/30/30/60 (245)
 Held Item: Yache Berry (5%)
 Type: Normal / Flying
+New Moves: Thrash (Lv)
 
 -------------------
 397 - Staravia
@@ -3500,6 +3731,7 @@ Abilities: Intimidate / Intimidate / Reckless
 Base Stats: 55/75/50/40/40/80 (340)
 Held Item: Yache Berry (5%)
 Type: Normal / Flying
+New Moves: Thrash (Lv)
 
 -------------------
 398 - Staraptor
@@ -3508,6 +3740,7 @@ Abilities: Intimidate / Intimidate / Reckless
 Base Stats: 85/120/70/50/60/100 (485) ⟶ 95*/120/70/50/60/100 (495)
 Held Item: Yache Berry (5%)
 Type: Normal / Flying
+New Moves: Strength (HM), Thrash (Lv)
 
 -------------------
 399 - Bidoof
@@ -3540,6 +3773,7 @@ Abilities: Shed Skin / Shed Skin / Technician ⟶ Shed Skin / Technician / Cacop
 Base Stats: 77/85/51/55/51/65 (384) ⟶ 77/85/51/85*/51/75* (424)
 Held Item: Metronome (5%)
 Type: Bug
+New Moves: Air Slash (TM), Boomburst (Lv), Disarming Voice (Lv), Snarl (TM)
 
 -------------------
 403 - Shinx
@@ -3548,6 +3782,7 @@ Abilities: Rivalry / Intimidate / Guts
 Base Stats: 45/65/34/40/34/45 (263)
 Held Item: None
 Type: Electric
+New Moves: Volt Tackle (Lv)
 
 -------------------
 404 - Luxio
@@ -3556,6 +3791,7 @@ Abilities: Rivalry / Intimidate / Guts
 Base Stats: 60/85/49/60/49/60 (363)
 Held Item: None
 Type: Electric
+New Moves: Volt Tackle (Lv)
 
 -------------------
 405 - Luxray
@@ -3564,6 +3800,7 @@ Abilities: Rivalry / Intimidate / Guts
 Base Stats: 80/120/79/95/79/70 (523) ⟶ 80/120/79/75*/79/90* (523)
 Held Item: None
 Type: Electric ⟶ Electric / Dark
+New Moves: Dark Pulse (TM), Volt Tackle (Lv)
 
 -------------------
 408 - Cranidos
@@ -3572,6 +3809,7 @@ Abilities: Mold Breaker / Mold Breaker / Sheer Force ⟶ Mold Breaker / Rock Hea
 Base Stats: 67/125/40/30/30/58 (350)
 Held Item: None
 Type: Rock
+New Moves: Tackle (Lv, New)
 
 -------------------
 409 - Rampardos
@@ -3580,6 +3818,7 @@ Abilities: Mold Breaker / Mold Breaker / Sheer Force ⟶ Mold Breaker / Rock Hea
 Base Stats: 97/165/60/65/50/58 (495) ⟶ 97/165/60/55*/50/68* 
 Held Item: None
 Type: Rock
+New Moves: Tackle (Lv, New), Skull Bash (Lv)
 
 -------------------
 410 - Shieldon
@@ -3620,6 +3859,7 @@ Abilities: Anticipation / Anticipation / Overcoat ⟶ Sand Veil** / Sand Veil** 
 Base Stats: 60/79/105/59/85/36 (424) ⟶ 70*/59*/105/89*/95*/36 (454)
 Held Item: Silver Powder (5%)
 Type: Bug / Ground
+New Moves: Mud Bomb (Lv)
 
 -------------------
 413.3 - Wormadam (Trash Cloak)
@@ -3636,6 +3876,7 @@ Abilities: Swarm / Swarm / Tinted Lens
 Base Stats: 70/94/50/94/50/66 (424) ⟶ 70/99*/50/99*/50/86* (454)
 Held Item: Silver Powder (5%)
 Type: Bug / Flying
+New Moves: First Impression (Lv)
 
 -------------------
 415 - Combee
@@ -3652,6 +3893,7 @@ Abilities: Pressure / Pressure / Unnerve ⟶ Pressure / Swarm** / Royal Order**
 Base Stats: 70/80/102/80/102/40 (474) ⟶ 80*/90*/102/90*/102/30* (494)
 Held Item: Poison Barb (5%)
 Type: Bug / Flying
+New Moves: Leech Life (TM)
 
 -------------------
 417 - Pachirisu
@@ -3660,6 +3902,7 @@ Abilities: Run Away / Pickup / Volt Absorb ⟶ Volt Absorb / Pickup / Fur Coat**
 Base Stats: 60/45/70/45/90/95 (405) ⟶ 60/75*/70/45/90/95 (435)
 Held Item: None
 Type: Electric
+New Moves: Swords Dance (TM), Volt Tackle (Lv)
 
 -------------------
 418 - Buizel
@@ -3716,6 +3959,7 @@ Abilities: Aftermath / Unburden / Flare Boost
 Base Stats: 90/50/34/60/44/70 (348)
 Held Item: None
 Type: Ghost / Flying
+New Moves: Mystical Fire (TM, PLA)
 
 -------------------
 426 - Drifblim
@@ -3724,6 +3968,7 @@ Abilities: Aftermath / Unburden / Flare Boost
 Base Stats: 150/80/44/90/54/80 (498)
 Held Item: None
 Type: Ghost / Flying
+New Moves: Mystical Fire (Lv/TM, PLA)
 
 -------------------
 427 - Buneary
@@ -3748,6 +3993,7 @@ Abilities: Limber / Own Tempo / Keen Eye
 Base Stats: 49/55/42/42/37/85 (310)
 Held Item: Cheri Berry (5%)
 Type: Normal
+New Moves: Double-Edge (Lv, PLA), Night Slash (Lv, PLA)
 
 -------------------
 432 - Purugly
@@ -3796,6 +4042,7 @@ Abilities: Keen Eye / Tangled Feet / Big Pecks ⟶ Keen Eye / Tangled Feet / Cac
 Base Stats: 76/65/45/92/42/91 (411) ⟶ 76/55*/65*/102*/62*/91 (451)
 Held Item: Metronome (5%)
 Type: Normal / Flying
+New Moves: Air Slash (Lv/TM, PLA)
 
 -------------------
 442 - Spiritomb
@@ -3804,6 +4051,7 @@ Abilities: Pressure / Pressure / Infiltrator ⟶ Pressure / Cursed Body** / Infi
 Base Stats: 50/92/108/92/108/35 (485) ⟶ 70*/92/108/92/108/35 (505)
 Held Item: None
 Type: Ghost / Dark
+New Moves: Giga Drain (TM)
 
 -------------------
 443 - Gible
@@ -3828,6 +4076,7 @@ Abilities: Sand Veil / Sand Veil / Rough Skin ⟶ Sand Veil / Rough Skin / Sand 
 Base Stats: 108/130/95/80/85/102 (600)
 Held Item: Haban Berry (5%)
 Type: Dragon / Ground
+New Moves: Fly (HM)
 
 -------------------
 447 - Riolu
@@ -3844,6 +4093,7 @@ Abilities: Steadfast / Inner Focus / Justified ⟶ Steadfast / Inner Focus / Aur
 Base Stats: 70/110/70/115/70/90 (525)
 Held Item: None
 Type: Fighting / Steel
+New Moves: Mach Punch (Lv, PLA)
 
 -------------------
 449 - Hippopotas
@@ -3852,6 +4102,7 @@ Abilities: Sand Stream / Sand Stream / Sand Force
 Base Stats: 68/72/78/38/42/32 (330) 
 Held Item: None
 Type: Ground
+New Moves: Headlong Rush (Lv)
 
 -------------------
 450 - Hippowdon
@@ -3860,6 +4111,7 @@ Abilities: Sand Stream / Sand Stream / Sand Force
 Base Stats: 108/112/118/68/72/47 (525)
 Held Item: None
 Type: Ground
+New Moves: Headlong Rush (Lv)
 
 -------------------
 451 - Skorupi
@@ -3900,6 +4152,7 @@ Abilities: Levitate / Levitate / Levitate
 Base Stats: 74/100/72/90/72/46 (454) ⟶ 74/110*/82*/90/82*/36* (474)
 Held Item: None
 Type: Grass
+New Moves: Leech Life (Lv/TM, PLA), Dark Pulse (TM), Leaf Blade (Lv), Poison Fang (Lv)
 
 -------------------
 456 - Finneon
@@ -3908,6 +4161,7 @@ Abilities: Swift Swim / Storm Drain / Water Veil ⟶ Swift Swim / Storm Drain / 
 Base Stats: 49/49/56/49/61/66 (330) ⟶ 49/39*/56/59*/61/66 (330)
 Held Item: Rindo Berry (5%)
 Type: Water
+New Moves: Hydro Pump (Lv, PLA), Quiver Dance
 
 -------------------
 457 - Lumineon
@@ -3916,6 +4170,7 @@ Abilities: Swift Swim / Storm Drain / Water Veil ⟶ Swift Swim / Storm Drain / 
 Base Stats: 69/69/76/69/86/91 (460) ⟶ 69/59*/86*/89*/86/91 (480)
 Held Item: Rindo Berry (5%)
 Type: Water
+New Moves: Hydro Pump (Lv, PLA), Quiver Dance
 
 -------------------
 459 - Snover
@@ -3924,6 +4179,7 @@ Abilities: Snow Warning / Snow Warning / Soundproof
 Base Stats: 60/62/50/62/60/40 (334)
 Held Item: Never-Melt Ice (5%)
 Type: Grass / Ice
+New Moves: Icicle Crash (Lv, PLA)
 
 -------------------
 460 - Abomasnow
@@ -3932,6 +4188,7 @@ Abilities: Snow Warning / Snow Warning / Soundproof
 Base Stats: 90/92/75/92/85/60 (494) ⟶ 100*/102*/85*/102*/95*/50* (534)
 Held Item: Never-Melt Ice (5%)
 Type: Grass / Ice
+New Moves: Icicle Crash (Lv, PLA)
 
 -------------------
 479.1 - Rotom
@@ -3988,6 +4245,7 @@ Abilities: Levitate / Levitate / Levitate
 Base Stats: 75/75/130/75/130/95 (580)
 Held Item: None
 Type: Psychic ⟶ Psychic / Fairy
+New Moves: Moonblast (Lv)
 
 -------------------
 481 - Mesprit
@@ -3996,6 +4254,7 @@ Abilities: Levitate / Levitate / Levitate
 Base Stats: 80/105/105/105/105/80 (580)
 Held Item: None
 Type: Psychic ⟶ Psychic / Fairy
+New Moves: Moonblast (Lv)
 
 -------------------
 482 - Azelf
@@ -4004,6 +4263,7 @@ Abilities: Levitate / Levitate / Levitate
 Base Stats: 75/125/70/125/70/115 (580)
 Held Item: None
 Type: Psychic ⟶ Psychic / Fairy
+New Moves: Moonblast (Lv)
 
 -------------------
 483 - Dialga
@@ -4070,6 +4330,7 @@ Abilities: Hydration / Hydration / Hydration
 Base Stats: 80/80/80/80/80/80 (480)
 Held Item: None
 Type: Water
+New Moves: Hydro Pump (Lv, PLA), Moonblast (Lv, PLA), Zen Headbutt (Lv, PLA)
 
 -------------------
 490 - Manaphy
@@ -4078,6 +4339,7 @@ Abilities: Hydration / Hydration / Hydration
 Base Stats: 100/100/100/100/100/100 (600)
 Held Item: None
 Type: Water
+New Moves: Hydro Pump (Lv, PLA), Moonblast (Lv, PLA), Zen Headbutt (Lv, PLA)
 
 -------------------
 491 - Darkrai
@@ -4086,6 +4348,7 @@ Abilities: Bad Dreams / Bad Dreams / Bad Dreams
 Base Stats: 70/90/90/135/90/125 (600)
 Held Item: None
 Type: Dark
+New Moves: Confuse Ray (Lv, BDSP)
 
 -------------------
 492.1 - Shaymin (Land Forme)

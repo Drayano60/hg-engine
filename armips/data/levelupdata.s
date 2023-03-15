@@ -868,7 +868,7 @@ levelup SPECIES_VULPIX
     learnset MOVE_EXTRASENSORY, 32
     learnset MOVE_FLAMETHROWER, 36
     learnset MOVE_SAFEGUARD, 40
-    learnset MOVE_MOONBLAST, 44
+    learnset TYPE_CHANGES_IMPLEMENTED ? MOVE_MOONBLAST : MOVE_HEAT_WAVE, 44
     learnset MOVE_CAPTIVATE, 48
     learnset MOVE_INFERNO, 52
     learnset MOVE_GRUDGE, 56
@@ -4060,7 +4060,7 @@ levelup SPECIES_KABUTO
     learnset MOVE_WRING_OUT, 57
     terminatelearnset
 
-// NEW: Aqua Cutter, Razor Shell
+// NEW: Aqua Cutter
 // Evolution: 30
 levelup SPECIES_KABUTOPS
     learnset MOVE_AQUA_CUTTER, 1
@@ -4744,7 +4744,7 @@ levelup SPECIES_ARIADOS
     learnset MOVE_MEGAHORN, 48
     terminatelearnset
 
-// NEW: Tail Glow, Thunder Shock
+// NEW: Thunder Shock
 levelup SPECIES_CHINCHOU
     learnset MOVE_FLASH, 1
     learnset MOVE_BUBBLE, 1
@@ -4835,6 +4835,7 @@ levelup SPECIES_TOGETIC
     learnset MOVE_LAST_RESORT, 52
     terminatelearnset
 
+// NEW: Baby-Doll Eyes (PLA), Moonblast (PLA)
 levelup SPECIES_TOGEKISS
     learnset MOVE_AURA_SPHERE, 1 
     learnset MOVE_EXTREME_SPEED, 1 
@@ -4885,6 +4886,7 @@ levelup SPECIES_NATU
     learnset MOVE_FUTURE_SIGHT, 54
     terminatelearnset
 
+// NEW: Confusion, Esper Wing
 levelup SPECIES_XATU
     learnset MOVE_FEATHER_DANCE, 1
     learnset MOVE_POWER_SWAP, 1
@@ -7527,6 +7529,7 @@ levelup SPECIES_PROBOPASS
     learnset MOVE_HEAD_SMASH, 54
     terminatelearnset
 
+// NEW: Moonblast
 levelup SPECIES_SKITTY
     learnset MOVE_FAKE_OUT, 1
     learnset MOVE_TICKLE, 1
@@ -8639,6 +8642,7 @@ levelup SPECIES_LILEEP
     learnset MOVE_WRING_OUT, 53
     terminatelearnset
 
+// NEW: Power Gem
 // Evolution: 30
 levelup SPECIES_CRADILY
     learnset MOVE_MIRROR_COAT, 1
@@ -10600,6 +10604,7 @@ levelup SPECIES_GLAMEOW
     learnset MOVE_LAST_RESORT, 54
     terminatelearnset
 
+// NEW: Night Slash (PLA), Double-Edge (PLA)
 levelup SPECIES_PURUGLY
     learnset MOVE_FOUL_PLAY, 1
     learnset MOVE_SWAGGER, 1

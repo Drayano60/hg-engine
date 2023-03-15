@@ -1,0 +1,178 @@
+==============================
+Included Abilities
+==============================
+As a Gen 4 game, Aurora Crystal includes all abilities that were originally in Gen 4. However, in addition to that (with the help of hg-engine, which made this possible in the first place), a number of abilities from later generations are also included in the game!
+
+On top of this, there are also a handful of new abilities which are detailed in the "New Abilities" section below.
+
+The abilities each Pokémon has are listed in the Pokémon Changes document, though you can also see what Pokémon are given the new abilities here.
+
+For official abilities, the following are included and used in the game:
+* All abilities from Gen 3 - Gen 4.
+* The vast majority of abilities from Gen 5 (exceptions include unique abilities like Illusion, Turboblaze etc).
+* The following abilities from Gen 6: Aerilate, Bulletproof, Competitive, Fur Coat, Gooey, Mega Launcher, Pixilate, Protean, Refrigerate, Strong Jaw, Tough Claws.
+* The following abilities from Gen 7: Fluffy, Galvanize, Merciless, Slush Rush, Tangling Hair, Triage.
+* The following abilities from Gen 9: Sharpness.
+* No abilities from Gen 8 are used.
+
+==============================
+New Abilities
+==============================
+Aurora Crystal includes a handful of brand new abilities. Some of these are clones of existing abilities that work a lot better thematically with the Pokémon in question, while some have unique effects of their own. The name of each new ability is listed below along with the Pokémon that get it, its effect, the affected moves (for abilities that interact with specific moves), and some commentary on how it came to exist.
+
+-------------------
+Aura Master
+-------------------
+Users: Lucario.
+Effect: Aura and pulse moves have their power increased by 33%.
+Affected Moves: Aura Sphere, Dark Pulse, Dragon Pulse, Water Pulse.
+Notes: A clone of Mega Launcher that's a bit more thematically fitting for Lucario, since it is THE Aura Sphere Pokémon (and also learns all of the pulse moves).
+
+-------------------
+Befuddle
+-------------------
+Users: Butterfree.
+Effect: Damaging Bug-type moves used by the Pokémon have a 30% chance to inflict poison, paralysis or sleep (10% chance for each).
+Notes: A nod to Butterfree's unique Gigantamax move. I needed a third ability for Butterfree to match with Beedrill being given Adaptability (from its Mega) as its third one!
+
+-------------------
+Bombardier
+-------------------
+Users: Octillery.
+Effect: Ball, bomb and cannon moves have their power increased by 33%.
+Moves Affected: Acid Spray, Aura Sphere, Barrage, Bullet Seed, Egg Bomb, Energy Ball, Flash Cannon, Focus Blast, Gyro Ball, Hydro Cannon, Ice Ball, Magnet Bomb, Mist Ball, Mud Bomb, Octazooka, Rock Blast, Rock Wrecker, Seed Bomb, Shadow Ball, Sludge Bomb, Spike Cannon, Weather Ball, Zap Cannon.
+Notes: A nod to Octillery's tank inspirations. The moves affected are taken from what Bulletproof blocks (as well as a few extras). 
+
+-------------------
+Cacophony
+-------------------
+Users: Igglybuff, Jigglypuff, Wigglytuff, Politoed, Whismur, Loudred, Exploud, Chingling, Chimecho, Kricketot, Kricketune, Chatot.
+Effect: Sound-based moves have their power increased by 33%.
+Moves Affected: Boomburst, Bug Buzz, Chatter, Disarming Voice, Echoed Voice, Hyper Voice, Snarl, Uproar.
+Notes: An ability for a move theme that doesn't have one yet, given to a lot of Pokémon with a sound aesthetic. (It might admittedly be a bit overkill when it comes to Boomburst!)
+
+-------------------
+Cheerleader
+-------------------
+Users: Plusle, Minun.
+Effect: In a double battle, the partner's moves have their power increased by 25%.
+Notes: A slightly weaker clone of Power Spot. This gives Plusle and Minun the ability to actually do something unique in double battles.
+
+-------------------
+Fur Cushion
+-------------------
+Users: Flareon.
+Effect: Protects the Pokémon from recoil damage.
+Notes: A Rock Head clone that's more thematically fitting for Flareon, thanks to its fluffy fur. This means it can use Flare Blitz without having to worry about its weak HP stat.
+
+-------------------
+Heat Up
+-------------------
+Users: Cyndaquil, Quilava, Typhlosion.
+Effect: If the user KOs a Pokémon, its Special Attack stat is increased.
+Notes: A special attacking clone of Moxie that weakly leans into Cyndaquil's anime appearance often requiring it to get its flame ready to start using Fire-moves. I couldn't really think of an impactful third ability for Cyndaquil, so I made one up!
+
+-------------------
+Huge Impact
+-------------------
+Users: Wailord.
+Effect: Moves that normally have their power derived from the weight difference between user and target will always be 120 BP.
+Moves Affected: Heavy Slam, Splash Crash.
+Notes: This leans into Wailord's Pokédex entries that talk about the shock waves it can produce from diving into the water. Splash Crash is a new move that Wailord gets to use in tandem with this ability; it's a Water-type clone of Heavy Slam.
+
+-------------------
+Infernal Body
+-------------------
+Users: Slugma, Magcargo.
+Effect: If an opponent attacks the Pokémon with Infernal Body with a contact move, they will be burned.
+Notes: Given their bodies are literally made of magma, Flame Body feels a little weak for the theme. This is just a Flame Body clone that always works.
+
+-------------------
+Ice Needles
+-------------------
+Users: Glaceon.
+Effect: If an opponent attacks the Pokémon with Ice Needles with a contact move, they will take damage equal to 12.5% of their max HP.
+Notes: Leans into Glaceon's Pokédex entries that say it can freeze its fur as a defensive tactic.
+
+-------------------
+Royal Order
+-------------------
+Users: Vespiquen.
+Effect: The Pokémon takes 50% reduced damage while at full HP.
+Notes: A Multiscale clone for Vespiquen. The idea is that it could command its Combee followers to get in the way of an attack and reduce the power.
+
+-------------------
+Totter Steps
+-------------------
+Users: Spinda.
+Effect: All moves used against this Pokémon have 80% of their original accuracy.
+Notes: Leans into Spinda's Pokédex entries about its unusual movements often letting it dodge attacks. This could admittedly be an irritating ability, but hopefully the fact Spinda is quite weak will make up for it.
+
+-------------------
+Toxic Scales
+-------------------
+Users: Venomoth, Dustox.
+Effect: If an opponent attacks the Pokémon with Toxic Scales with a contact move, they have a 30% chance of becoming badly poisoned.
+Notes: A more deadly version of Poison Point, fitting for poisonous insects with wings. Both Venomoth and Dustox have Pokédex entries mentioning poisonous scales.
+
+-------------------
+Wind Whipper
+-------------------
+Users: Shiftry.
+Effect: Wind-based moves have their power increased by 33%.
+Moves Affected: Air Cutter, Blizzard, Fairy Wind, Gust, Heat Wave, Hurricane, Icy Wind, Ominous Wind, Petal Blizzard, Razor Wind, Silver Wind, Twister.
+Notes: An ability for a move theme that doesn't have one yet, given to Shiftry due to its Pokédex entries mentioning it can create terrific windstorms. The affected moves are drawn from Gen 9's Wind Power and Wind Rider abilities (as well as a few assumptions for snapped moves like Razor Wind). 
+
+==============================
+Modified Abilities
+==============================
+Aurora Crystal also modifies the effects of some existing abilities. Some of these are simple number changes, while others are new additional effects or removing negatives for abilities that were ordinarily underwhelming. Each modified ability is listed below with its full effects in Aurora Crystal.
+
+-------------------
+Blaze, Torrent, Overgrow, Swarm
+-------------------
+Boosts the strength of the Pokémon's moves that are of the relevant type by 10%.
+If the Pokémon is at 33% or lower HP, this boost is 50% instead.
+
+-------------------
+Iron Fist, Mega Launcher, Reckless, Sharpness, Strong Jaw
+-------------------
+Boosts the strength of the Pokémon's moves that are of the relevant theme by 33%.
+(The abilities that were previously 50% are now available to a lot more Pokémon, hence the nerf!)
+
+-------------------
+Keen Eye
+-------------------
+Boosts the accuracy of the Pokémon's moves by 20%.
+Prevents the Pokémon's accuracy from being reduced.
+Ignores a target's evasion changes. 
+
+-------------------
+Illuminate
+-------------------
+Boosts the accuracy of the Pokémon's moves by 20%.
+Increases the likelihood of encountering a Pokémon.
+
+-------------------
+Rivalry
+-------------------
+Boosts the strength of the Pokémon's moves against a target of the same gender by 20%.
+(The negative effect against opposite gender targets no longer applies.)
+
+-------------------
+Magma Armor
+-------------------
+Halves the power of Water or Ice-type moves used against this Pokémon.
+Prevents the Pokémon from being frozen.
+
+-------------------
+Sand Stream
+-------------------
+Summons a sandstorm upon entering battle.
+Protects the user from taking damage in a sandstorm (this is the new bit!).
+
+-------------------
+Tough Claws
+-------------------
+Boosts the strength of the Pokémon's moves that make contact by 20%.
+(This is nerfed from its original 30% because a lot more Pokémon have it now.)

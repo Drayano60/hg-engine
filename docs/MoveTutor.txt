@@ -12,7 +12,19 @@ Replaced TMs:
 
 -- Current Plans --
 
-Zephyr Badge (16):
+Note:
+- Power Whip is a tutor instead. Need to change Fling TM back.
+- Need to add Heat Crash and Darkest Lariat (maybe Parting Shot too but not as tutor)
+
+Other (4):
+- Frustration
+- Return
+- Weather Ball
+- Natural Gift
+
+--------------
+Zephyr Set (18)
+--------------
 - Air Cutter
 - Block
 - Brutal Swing
@@ -22,15 +34,19 @@ Zephyr Badge (16):
 - Headbutt
 - Helping Hand
 - Low Kick
+- Mega Drain
 - Metronome
 - Mud-Slap
 - Snore
 - Spite
 - String Shot
+- Struggle Bug
 - Swift
 - Twister
 
-Hive Badge (16):
+--------------
+Hive Set (18)
+--------------
 - Bullet Seed
 - Chilling Water
 - Electroweb
@@ -40,7 +56,9 @@ Hive Badge (16):
 - Incinerate
 - Magical Leaf
 - Ominous Wind
+- Pluck
 - Pounce
+- Psybeam
 - Role Play
 - Shock Wave
 - Silver Wind
@@ -48,97 +66,119 @@ Hive Badge (16):
 - Water Pulse
 - Worry Seed
 
-Plain Badge (16):
+--------------
+Plain Set (18)
+--------------
 - Acid Spray
 - Breaking Swipe
 - Confide
+- Dig
+- Disable
 - Draining Kiss
-- Endeavor
-- Frustration
+- Fire Punch
 - Icy Wind
+- Ice Punch
 - Magic Coat
 - Magnet Rise
-- Natural Gift
-- Return
-- Skitter Smack
+- Recycle
+- Signal Beam
 - Synthesis
+- Thunder Punch
 - Trick
 - Uproar
 - Vacuum Wave
 
-Fog Badge (16):
+--------------
+Fog Set (18)
+--------------
+- Body Slam
+- Brine
 - Charm
+- Curse
+- Dragon Tail
 - Eerie Impulse
+- Endeavor
 - Fake Tears
 - Fire Fang
-- Fire Punch
 - Heal Bell
 - Hex
 - Ice Fang
-- Ice Punch
-- Power-Up Punch
 - Scary Face
 - Screech
-- Signal Beam
+- Skitter Smack
+- Tailwind
+- Tri Attack
 - Thunder Fang
-- Thunder Punch
-- Weather Ball
 
-Storm Badge (16):
-- Ancient Power
+--------------
+Storm Set (18)
+--------------
+- Amnesia
 - Aqua Tail
-- Body Slam
 - Drill Run
 - Dual Chop
 - Dual Wingbeat
+- Heat Wave
 - Flip Turn
 - Ice Spinner
+- Iron Defense
+- Pain Split
+- Power-Up Punch
 - Rollout
 - Scale Shot
 - Scorching Sands
 - Seed Bomb
-- Tailwind
-- Tri Attack
+- Teleport
 - Volt Switch
 - Zen Headbutt
 
-Mineral Badge (16):
-- Cross Poison
+--------------
+Mineral Set (18)
+--------------
+- Ancient Power
+- Bounce
+- Captivate
 - Crunch
 - Gravity
-- Heat Wave
-- Heavy Slam
+- Foul Play
 - Hyper Voice
-- Iron Defense
+- Iron Head
 - Knock Off
-- Pain Split
 - Pollen Puff
 - Power Gem
 - Psycho Cut
+- Snatch
 - Spikes
+- Sucker Punch
 - Super Fang
 - Tail Slap
 - Toxic Spikes
 
-Glacier Badge (16):
+--------------
+Glacier Set (18)
+--------------
 - Aura Sphere
 - Aurora Veil
 - Blaze Kick
 - Body Press
-- Bounce
+- Cross Poison
+- Darkest Lariat
+- Double-Edge
 - Earth Power
-- Foul Play
+- Focus Punch
 - High Horsepower
-- Iron Head
+- Heat Crash
+- Heavy Slam
 - Leaf Blade
 - Liquidation
 - Muddy Water
 - Psychic Fangs
-- Solar Blade
-- Sucker Punch
+- Superpower
 - Wild Charge
 
-Rising Badge (16):
+--------------
+Rising Set (18)
+--------------
 - Brave Bird
 - Close Combat
 - Dragon Dance
@@ -151,7 +191,9 @@ Rising Badge (16):
 - Megahorn
 - Meteor Beam
 - Outrage
+- Raging Fury
+- Power Whip
+- Solar Blade
 - Sky Attack
 - Steel Beam
-- Superpower
 - Triple Axel

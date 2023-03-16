@@ -1,0 +1,157 @@
+--------------
+Move Tutor
+--------------
+
+Replaced TMs:
+- Bullet Seed?
+- Water Pulse
+- Dig?
+- Shock Wave
+- Silver Wind
+- Flash
+
+-- Current Plans --
+
+Zephyr Badge (16):
+- Air Cutter
+- Block
+- Brutal Swing
+- Bug Bite
+- Dive
+- Flash
+- Headbutt
+- Helping Hand
+- Low Kick
+- Metronome
+- Mud-Slap
+- Snore
+- Spite
+- String Shot
+- Swift
+- Twister
+
+Hive Badge (16):
+- Bullet Seed
+- Chilling Water
+- Electroweb
+- Focus Energy
+- Fury Cutter
+- Gastro Acid
+- Incinerate
+- Magical Leaf
+- Ominous Wind
+- Pounce
+- Role Play
+- Shock Wave
+- Silver Wind
+- Trailblaze
+- Water Pulse
+- Worry Seed
+
+Plain Badge (16):
+- Acid Spray
+- Breaking Swipe
+- Confide
+- Draining Kiss
+- Endeavor
+- Frustration
+- Icy Wind
+- Magic Coat
+- Magnet Rise
+- Natural Gift
+- Return
+- Skitter Smack
+- Synthesis
+- Trick
+- Uproar
+- Vacuum Wave
+
+Fog Badge (16):
+- Charm
+- Eerie Impulse
+- Fake Tears
+- Fire Fang
+- Fire Punch
+- Heal Bell
+- Hex
+- Ice Fang
+- Ice Punch
+- Power-Up Punch
+- Scary Face
+- Screech
+- Signal Beam
+- Thunder Fang
+- Thunder Punch
+- Weather Ball
+
+Storm Badge (16):
+- Ancient Power
+- Aqua Tail
+- Body Slam
+- Drill Run
+- Dual Chop
+- Dual Wingbeat
+- Flip Turn
+- Ice Spinner
+- Rollout
+- Scale Shot
+- Scorching Sands
+- Seed Bomb
+- Tailwind
+- Tri Attack
+- Volt Switch
+- Zen Headbutt
+
+Mineral Badge (16):
+- Cross Poison
+- Crunch
+- Gravity
+- Heat Wave
+- Heavy Slam
+- Hyper Voice
+- Iron Defense
+- Knock Off
+- Pain Split
+- Pollen Puff
+- Power Gem
+- Psycho Cut
+- Spikes
+- Super Fang
+- Tail Slap
+- Toxic Spikes
+
+Glacier Badge (16):
+- Aura Sphere
+- Aurora Veil
+- Blaze Kick
+- Body Press
+- Bounce
+- Earth Power
+- Foul Play
+- High Horsepower
+- Iron Head
+- Leaf Blade
+- Liquidation
+- Muddy Water
+- Psychic Fangs
+- Solar Blade
+- Sucker Punch
+- Wild Charge
+
+Rising Badge (16):
+- Brave Bird
+- Close Combat
+- Dragon Dance
+- Flare Blitz
+- Gunk Shot
+- Hurricane
+- Hydro Pump
+- Last Resort
+- Leaf Storm
+- Megahorn
+- Meteor Beam
+- Outrage
+- Sky Attack
+- Steel Beam
+- Superpower
+- Triple Axel

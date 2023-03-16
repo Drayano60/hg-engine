@@ -96,9 +96,9 @@ PALETTE_BUG equ 610
 .skip (2 * 2)
 .halfword MOVE_MYSTICAL_FIRE
 
-// Replace TM76 Stealth Rock with TM76 Struggle Bug
+// Replace TM76 Stealth Rock with TM76 Struggle Bug (cancelled)
 .skip (2 * 5)
-.halfword MOVE_STRUGGLE_BUG
+.halfword MOVE_STEALTH_ROCK
 
 // Replace TM78 Captivate with TM78 Bulldoze
 .skip (2 * 1)
@@ -218,10 +218,10 @@ PALETTE_BUG equ 610
 .halfword PALETTE_FIRE
 .skip 4
 
-// Change TM76 to Bug palette
+// Change TM76 to Bug palette (cancelled)
 .skip (8 * 5)
 .skip 2
-.halfword PALETTE_BUG
+.halfword PALETTE_ROCK
 .skip 4
 
 // Change TM78 to Ground palette

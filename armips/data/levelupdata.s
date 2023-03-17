@@ -11650,7 +11650,23 @@ levelup SPECIES_543
     terminatelearnset
 
 levelup SPECIES_VICTINI
-    learnset MOVE_TACKLE, 1
+    learnset MOVE_QUICK_ATTACK, 1
+    learnset MOVE_FLAME_CHARGE, 1
+    learnset MOVE_CONFUSION, 1
+    learnset MOVE_FOCUS_ENERGY, 1
+    learnset MOVE_WORK_UP, 5
+    learnset MOVE_INCINERATE, 10
+    learnset MOVE_PSYSHOCK, 15
+    learnset MOVE_HEADBUTT, 20
+    learnset MOVE_ENDURE, 25
+    learnset MOVE_ZEN_HEADBUTT, 30
+    learnset MOVE_MYSTICAL_FIRE, 35
+    learnset MOVE_REVERSAL, 40
+    learnset MOVE_INFERNO, 45
+    learnset MOVE_DOUBLE_EDGE, 50
+    learnset MOVE_FLARE_BLITZ, 55
+    learnset MOVE_FUTURE_SIGHT, 60
+    learnset MOVE_OVERHEAT, 65
     terminatelearnset
 
 levelup SPECIES_SNIVY
@@ -12485,16 +12501,69 @@ levelup SPECIES_CHANDELURE
     learnset MOVE_OVERHEAT, 59
     terminatelearnset
 
+// Evolution: 32 (Fraxure)
 levelup SPECIES_AXEW
-    learnset MOVE_TACKLE, 1
+    learnset MOVE_SCRATCH, 1
+    learnset MOVE_LEER, 1
+    learnset MOVE_BITE, 3
+    learnset MOVE_TAUNT, 6
+    learnset MOVE_FALSE_SWIPE, 9
+    learnset MOVE_ASSURANCE, 12
+    learnset MOVE_SCARY_FACE, 16
+    learnset MOVE_DRAGON_RAGE, 20 
+    learnset MOVE_DUAL_CHOP, 24
+    learnset MOVE_SLASH, 28
+    learnset MOVE_DRAGON_CLAW, 34
+    learnset MOVE_FOCUS_ENERGY, 39
+    learnset MOVE_SWORDS_DANCE, 44
+    learnset MOVE_GUILLOTINE, 50
+    learnset MOVE_DRAGON_DANCE, 56
+    learnset MOVE_OUTRAGE, 62
+    learnset MOVE_GIGA_IMPACT, 68
     terminatelearnset
 
+// Evolution: 32 (Fraxure)
 levelup SPECIES_FRAXURE
-    learnset MOVE_TACKLE, 1
+    learnset MOVE_SCRATCH, 1
+    learnset MOVE_LEER, 1
+    learnset MOVE_BITE, 3
+    learnset MOVE_TAUNT, 6
+    learnset MOVE_FALSE_SWIPE, 9
+    learnset MOVE_ASSURANCE, 12
+    learnset MOVE_SCARY_FACE, 16
+    learnset MOVE_DRAGON_RAGE, 20 
+    learnset MOVE_DUAL_CHOP, 24
+    learnset MOVE_SLASH, 28
+    learnset MOVE_DRAGON_CLAW, 34
+    learnset MOVE_FOCUS_ENERGY, 39
+    learnset MOVE_SWORDS_DANCE, 44
+    learnset MOVE_DRAGON_DANCE, 50
+    learnset MOVE_GUILLOTINE, 56
+    learnset MOVE_OUTRAGE, 62
+    learnset MOVE_GIGA_IMPACT, 68
     terminatelearnset
 
+// Evolution: 32 (Fraxure)
 levelup SPECIES_HAXORUS
-    learnset MOVE_TACKLE, 1
+    learnset MOVE_FIRST_IMPRESSION, 1
+    learnset MOVE_NIGHT_SLASH, 1
+    learnset MOVE_SCRATCH, 1
+    learnset MOVE_LEER, 1
+    learnset MOVE_BITE, 3
+    learnset MOVE_TAUNT, 6
+    learnset MOVE_FALSE_SWIPE, 9
+    learnset MOVE_ASSURANCE, 12
+    learnset MOVE_SCARY_FACE, 16
+    learnset MOVE_DRAGON_RAGE, 20 
+    learnset MOVE_DUAL_CHOP, 24
+    learnset MOVE_SLASH, 28
+    learnset MOVE_DRAGON_CLAW, 34
+    learnset MOVE_FOCUS_ENERGY, 39
+    learnset MOVE_SWORDS_DANCE, 44
+    learnset MOVE_DRAGON_DANCE, 50
+    learnset MOVE_GUILLOTINE, 56
+    learnset MOVE_OUTRAGE, 62
+    learnset MOVE_GIGA_IMPACT, 68
     terminatelearnset
 
 levelup SPECIES_CUBCHOO
@@ -12530,7 +12599,24 @@ levelup SPECIES_MIENSHAO
     terminatelearnset
 
 levelup SPECIES_DRUDDIGON
-    learnset MOVE_TACKLE, 1
+    learnset MOVE_SCRATCH, 1
+    learnset MOVE_GLARE, 1
+    learnset MOVE_LEER, 1
+    learnset MOVE_BITE, 4
+    learnset MOVE_HONE_CLAWS, 8
+    learnset MOVE_SCARY_FACE, 12
+    learnset MOVE_METAL_CLAW, 16
+    learnset MOVE_DRAGON_RAGE, 20
+    learnset MOVE_SLASH, 24
+    learnset MOVE_REVENGE, 28
+    learnset MOVE_CRUSH_CLAW, 32
+    learnset MOVE_DRAGON_CLAW, 36
+    learnset MOVE_NIGHT_SLASH, 40
+    learnset MOVE_DRAGON_TAIL, 44
+    learnset MOVE_CRUNCH, 48
+    learnset MOVE_IRON_HEAD, 52
+    learnset MOVE_SUPERPOWER, 56
+    learnset MOVE_OUTRAGE, 60
     terminatelearnset
 
 levelup SPECIES_GOLETT

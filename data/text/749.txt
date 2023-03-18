@@ -572,8 +572,8 @@ The user tells the\nfoe a secret, so they\ncan’t concentrate.\nThis lowers the
 The user beats the\nfoe with a bone that\ncontains a spirit.\nThis has a 20% chance\nto lower Defense.
 The user attacks by\npouncing on the foe.\nThis also lowers the\nfoe’s Speed stat.
 The user creates a\nshock by splashing.\nDamage is based on\nthe weight difference\nbetween user and foe.
-
-
+The user heat crashes
+The user darkest lariats
 FOR AI ONLY
 FOR AI ONLY
 FOR AI ONLY

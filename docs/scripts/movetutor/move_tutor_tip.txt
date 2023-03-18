@@ -1,0 +1,13 @@
+- To make new set, copy entirety of other xxxx_set
+- For main function, change eg 10xx -> 30xx and 11xx -> 31xx
+- For each move, change function number eg 10xx -> 30xx, change AddListOption eg 10 -> 30, change 0x800B to move ID, adjust comments as needed
+- add function directive for new set in Function 995
+- to clear comments for DSPRE insertion, use regex search and replace "//.*" with nothing
+
+
+- when it comes to forms, might be able to use this command to check type if Pokemon ID comes out the same:
+CMD_497 0x8004 0x8005 0x4000
+...where 0x8004 is type 1, 0x8004 is type 2, 0x4000 is the poke being looked at
+
+
+- i haven't added heat crash or darkest lariat yet

@@ -1,0 +1,1073 @@
+//____________________text_archive_20,script_archive_1
+
+Script 10:
+    PlayFanfare 1500
+    LockAll
+    FacePlayer
+    Message 0
+    OpenTouchScreen
+    YesNoTouchScreen 0x800C
+    CloseTouchScreen
+    CompareVarValue 0x800C 1
+    JumpIf EQUAL Function#999
+    Message 1
+    CloseMessage
+    FadeScreen 6 1 0 0
+	WaitFadeScreen 
+	CMD_349 
+	GetSelectedPartySlot 0x8000
+	ReturnScreen 
+	FadeScreen 6 1 1 0
+	WaitFadeScreen
+	CompareVarValue 0x8000 255
+	JumpIf EQUAL Function#999
+    GetPartyPokemonID 0x8000 0x8004
+Jump Function#995
+
+//________________________________________Zephyr_Set_________________
+
+//____________________zephyr_set_checks
+Function 100:
+    Message 3
+    ListLocalText 1 1 0 1 0x800C
+    Call Function#1011
+    Call Function#1021
+    Call Function#1031
+    Call Function#1041
+    Call Function#1051
+    Call Function#1061
+    Call Function#1071
+    Call Function#1081
+    Call Function#1091
+    Call Function#1101
+    Call Function#1111
+    Call Function#1121
+    Call Function#1131
+    Call Function#1141
+    Call Function#1151
+    Call Function#1161
+    Call Function#1171
+    Call Function#1181
+    Call Function#997
+    CompareVarValue 0x800C 1
+    JumpIf EQUAL Function#1013
+    CompareVarValue 0x800C 2
+    JumpIf EQUAL Function#1023
+    CompareVarValue 0x800C 3
+    JumpIf EQUAL Function#1033
+    CompareVarValue 0x800C 4
+    JumpIf EQUAL Function#1043
+    CompareVarValue 0x800C 5
+    JumpIf EQUAL Function#1053
+    CompareVarValue 0x800C 6
+    JumpIf EQUAL Function#1063
+    CompareVarValue 0x800C 7
+    JumpIf EQUAL Function#1073
+    CompareVarValue 0x800C 8
+    JumpIf EQUAL Function#1083
+    CompareVarValue 0x800C 9
+    JumpIf EQUAL Function#1093
+    CompareVarValue 0x800C 10
+    JumpIf EQUAL Function#1103
+    CompareVarValue 0x800C 11
+    JumpIf EQUAL Function#1113
+    CompareVarValue 0x800C 12
+    JumpIf EQUAL Function#1123
+    CompareVarValue 0x800C 13
+    JumpIf EQUAL Function#1133
+    CompareVarValue 0x800C 14
+    JumpIf EQUAL Function#1143
+    CompareVarValue 0x800C 15
+    JumpIf EQUAL Function#1153
+    CompareVarValue 0x800C 16
+    JumpIf EQUAL Function#1163
+    CompareVarValue 0x800C 17
+    JumpIf EQUAL Function#1173
+    CompareVarValue 0x800C 18
+    JumpIf EQUAL Function#1183
+Jump Function#995
+
+//____________________air_cutter_compatibility_check
+Function 1011:
+    CompareVarValue 0x8004 93
+    JumpIf EQUAL Function#1012
+Return
+
+//____________________air_cutter_list_option
+Function 1012:
+    AddListOption 20 255 1
+Return
+
+//____________________air_cutter_set_variable
+Function 1013:
+    SetVar 0x800B 314
+Jump Function#994
+
+//____________________block
+Function 1021:
+    CompareVarValue 0x8004 93
+    JumpIf EQUAL Function#1022
+Return
+
+Function 1022:
+    AddListOption 21 255 2
+Return
+
+Function 1023:
+    SetVar 0x800B 335
+Jump Function#994
+
+//____________________brutal_swing
+Function 1031:
+    CompareVarValue 0x8004 93
+    JumpIf EQUAL Function#1032
+Return
+
+Function 1032:
+    AddListOption 22 255 3
+Return
+
+Function 1033:
+    SetVar 0x800B 530
+Jump Function#994
+
+//____________________bug_bite
+Function 1041:
+    CompareVarValue 0x8004 93
+    JumpIf EQUAL Function#1042
+Return
+
+Function 1042:
+    AddListOption 23 255 4
+Return
+
+Function 1043:
+    SetVar 0x800B 450
+Jump Function#994
+
+//____________________dive
+Function 1051:
+    CompareVarValue 0x8004 93
+    JumpIf EQUAL Function#1052
+Return
+
+Function 1052:
+    AddListOption 24 255 5
+Return
+
+Function 1053:
+    SetVar 0x800B 291
+Jump Function#994
+
+//____________________flash
+Function 1061:
+    CompareVarValue 0x8004 93
+    JumpIf EQUAL Function#1062
+Return
+
+Function 1062:
+    AddListOption 25 255 6
+Return
+
+Function 1063:
+    SetVar 0x800B 148
+Jump Function#994
+
+//____________________headbutt
+Function 1071:
+    CompareVarValue 0x8004 93
+    JumpIf EQUAL Function#1072
+Return
+
+Function 1072:
+    AddListOption 26 255 7
+Return
+
+Function 1073:
+    SetVar 0x800B 29
+Jump Function#994
+
+//____________________helping_hand
+Function 1081:
+    CompareVarValue 0x8004 93
+    JumpIf EQUAL Function#1082
+Return
+
+Function 1082:
+    AddListOption 27 255 8
+Return
+
+Function 1083:
+    SetVar 0x800B 270
+Jump Function#994
+
+//____________________low_kick
+Function 1091:
+    CompareVarValue 0x8004 93
+    JumpIf EQUAL Function#1092
+Return
+
+Function 1092:
+    AddListOption 28 255 9
+Return
+
+Function 1093:
+    SetVar 0x800B 67
+Jump Function#994
+
+//____________________mega_drain
+Function 1101:
+    CompareVarValue 0x8004 93
+    JumpIf EQUAL Function#1102
+Return
+
+Function 1102:
+    AddListOption 29 255 10
+Return
+
+Function 1103:
+    SetVar 0x800B 72
+Jump Function#994
+
+//____________________metronome
+Function 1111:
+    CompareVarValue 0x8004 93
+    JumpIf EQUAL Function#1112
+Return
+
+Function 1112:
+    AddListOption 30 255 11
+Return
+
+Function 1113:
+    SetVar 0x800B 118
+Jump Function#994
+
+//____________________mud_slap
+Function 1121:
+    CompareVarValue 0x8004 93
+    JumpIf EQUAL Function#1122
+Return
+
+Function 1122:
+    AddListOption 31 255 12
+Return
+
+Function 1123:
+    SetVar 0x800B 189
+Jump Function#994
+
+//____________________snore
+Function 1131:
+    CompareVarValue 0x8004 93
+    JumpIf EQUAL Function#1132
+Return
+
+Function 1132:
+    AddListOption 32 255 13
+Return
+
+Function 1133:
+    SetVar 0x800B 173
+Jump Function#994
+
+//____________________spite
+Function 1141:
+    CompareVarValue 0x8004 93
+    JumpIf EQUAL Function#1142
+Return
+
+Function 1142:
+    AddListOption 33 255 14
+Return
+
+Function 1143:
+    SetVar 0x800B 180
+Jump Function#994
+
+//____________________string_shot
+Function 1151:
+    CompareVarValue 0x8004 93
+    JumpIf EQUAL Function#1152
+Return
+
+Function 1152:
+    AddListOption 34 255 15
+Return
+
+Function 1153:
+    SetVar 0x800B 81
+Jump Function#994
+
+//____________________struggle_bug
+Function 1161:
+    CompareVarValue 0x8004 93
+    JumpIf EQUAL Function#1162
+Return
+
+Function 1162:
+    AddListOption 35 255 16
+Return
+
+Function 1163:
+    SetVar 0x800B 491
+Jump Function#994
+
+//____________________swift
+Function 1171:
+    CompareVarValue 0x8004 93
+    JumpIf EQUAL Function#1172
+Return
+
+Function 1172:
+    AddListOption 36 255 17
+Return
+
+Function 1173:
+    SetVar 0x800B 129
+Jump Function#994
+
+//____________________twister
+Function 1181:
+    CompareVarValue 0x8004 93
+    JumpIf EQUAL Function#1182
+Return
+
+Function 1182:
+    AddListOption 37 255 18
+Return
+
+Function 1183:
+    SetVar 0x800B 239
+Jump Function#994
+
+//________________________________________Hive_Set_________________
+
+//____________________hive_set_checks
+Function 200:
+    Message 3
+    ListLocalText 1 1 0 1 0x800C
+    Call Function#2011
+    Call Function#2021
+    Call Function#2031
+    Call Function#2041
+    Call Function#2051
+    Call Function#2061
+    Call Function#2071
+    Call Function#2081
+    Call Function#2091
+    Call Function#2101
+    Call Function#2111
+    Call Function#2121
+    Call Function#2131
+    Call Function#2141
+    Call Function#2151
+    Call Function#2161
+    Call Function#2171
+    Call Function#2181
+    Call Function#997
+    CompareVarValue 0x800C 1
+    JumpIf EQUAL Function#2013
+    CompareVarValue 0x800C 2
+    JumpIf EQUAL Function#2023
+    CompareVarValue 0x800C 3
+    JumpIf EQUAL Function#2033
+    CompareVarValue 0x800C 4
+    JumpIf EQUAL Function#2043
+    CompareVarValue 0x800C 5
+    JumpIf EQUAL Function#2053
+    CompareVarValue 0x800C 6
+    JumpIf EQUAL Function#2063
+    CompareVarValue 0x800C 7
+    JumpIf EQUAL Function#2073
+    CompareVarValue 0x800C 8
+    JumpIf EQUAL Function#2083
+    CompareVarValue 0x800C 9
+    JumpIf EQUAL Function#2093
+    CompareVarValue 0x800C 10
+    JumpIf EQUAL Function#2103
+    CompareVarValue 0x800C 11
+    JumpIf EQUAL Function#2113
+    CompareVarValue 0x800C 12
+    JumpIf EQUAL Function#2123
+    CompareVarValue 0x800C 13
+    JumpIf EQUAL Function#2133
+    CompareVarValue 0x800C 14
+    JumpIf EQUAL Function#2143
+    CompareVarValue 0x800C 15
+    JumpIf EQUAL Function#2153
+    CompareVarValue 0x800C 16
+    JumpIf EQUAL Function#2163
+    CompareVarValue 0x800C 17
+    JumpIf EQUAL Function#2173
+    CompareVarValue 0x800C 18
+    JumpIf EQUAL Function#2183
+Jump Function#995
+
+//____________________bullet_seed_compatibility_check
+Function 2011:
+    CompareVarValue 0x8004 93
+    JumpIf EQUAL Function#2012
+Return
+
+//____________________bullet_seed_list_option
+Function 2012:
+    AddListOption 40 255 1
+Return
+
+//____________________bullet_seed_set_variable
+Function 2013:
+    SetVar 0x800B 331
+Jump Function#994
+
+//____________________chilling_water
+Function 2021:
+    CompareVarValue 0x8004 93
+    JumpIf EQUAL Function#2022
+Return
+
+Function 2022:
+    AddListOption 41 255 2
+Return
+
+Function 2023:
+    SetVar 0x800B 555
+Jump Function#994
+
+//____________________electroweb
+Function 2031:
+    CompareVarValue 0x8004 93
+    JumpIf EQUAL Function#2032
+Return
+
+Function 2032:
+    AddListOption 42 255 3
+Return
+
+Function 2033:
+    SetVar 0x800B 496
+Jump Function#994
+
+//____________________focus_energy
+Function 2041:
+    CompareVarValue 0x8004 93
+    JumpIf EQUAL Function#2042
+Return
+
+Function 2042:
+    AddListOption 43 255 4
+Return
+
+Function 2043:
+    SetVar 0x800B 116
+Jump Function#994
+
+//____________________fury_cutter
+Function 2051:
+    CompareVarValue 0x8004 93
+    JumpIf EQUAL Function#2052
+Return
+
+Function 2052:
+    AddListOption 44 255 5
+Return
+
+Function 2053:
+    SetVar 0x800B 210
+Jump Function#994
+
+//____________________gastro_acid
+Function 2061:
+    CompareVarValue 0x8004 93
+    JumpIf EQUAL Function#2062
+Return
+
+Function 2062:
+    AddListOption 45 255 6
+Return
+
+Function 2063:
+    SetVar 0x800B 380
+Jump Function#994
+
+//____________________incinerate
+Function 2071:
+    CompareVarValue 0x8004 93
+    JumpIf EQUAL Function#2072
+Return
+
+Function 2072:
+    AddListOption 46 255 7
+Return
+
+Function 2073:
+    SetVar 0x800B 487
+Jump Function#994
+
+//____________________magical_leaf
+Function 2081:
+    CompareVarValue 0x8004 93
+    JumpIf EQUAL Function#2082
+Return
+
+Function 2082:
+    AddListOption 47 255 8
+Return
+
+Function 2083:
+    SetVar 0x800B 345
+Jump Function#994
+
+//____________________ominous_wind
+Function 2091:
+    CompareVarValue 0x8004 93
+    JumpIf EQUAL Function#2092
+Return
+
+Function 2092:
+    AddListOption 48 255 9
+Return
+
+Function 2093:
+    SetVar 0x800B 466
+Jump Function#994
+
+//____________________pluck
+Function 2101:
+    CompareVarValue 0x8004 93
+    JumpIf EQUAL Function#2102
+Return
+
+Function 2102:
+    AddListOption 49 255 10
+Return
+
+Function 2103:
+    SetVar 0x800B 365
+Jump Function#994
+
+//____________________pounce
+Function 2111:
+    CompareVarValue 0x8004 93
+    JumpIf EQUAL Function#2112
+Return
+
+Function 2112:
+    AddListOption 50 255 11
+Return
+
+Function 2113:
+    SetVar 0x800B 572
+Jump Function#994
+
+//____________________psybeam
+Function 2121:
+    CompareVarValue 0x8004 93
+    JumpIf EQUAL Function#2122
+Return
+
+Function 2122:
+    AddListOption 51 255 12
+Return
+
+Function 2123:
+    SetVar 0x800B 60
+Jump Function#994
+
+//____________________role_play
+Function 2131:
+    CompareVarValue 0x8004 93
+    JumpIf EQUAL Function#2132
+Return
+
+Function 2132:
+    AddListOption 52 255 13
+Return
+
+Function 2133:
+    SetVar 0x800B 272
+Jump Function#994
+
+//____________________shock_wave
+Function 2141:
+    CompareVarValue 0x8004 93
+    JumpIf EQUAL Function#2142
+Return
+
+Function 2142:
+    AddListOption 53 255 14
+Return
+
+Function 2143:
+    SetVar 0x800B 351
+Jump Function#994
+
+//____________________silver_wind
+Function 2151:
+    CompareVarValue 0x8004 93
+    JumpIf EQUAL Function#2152
+Return
+
+Function 2152:
+    AddListOption 54 255 15
+Return
+
+Function 2153:
+    SetVar 0x800B 318
+Jump Function#994
+
+//____________________trailblaze
+Function 2161:
+    CompareVarValue 0x8004 93
+    JumpIf EQUAL Function#2162
+Return
+
+Function 2162:
+    AddListOption 55 255 16
+Return
+
+Function 2163:
+    SetVar 0x800B 554
+Jump Function#994
+
+//____________________water_pulse
+Function 2171:
+    CompareVarValue 0x8004 93
+    JumpIf EQUAL Function#2172
+Return
+
+Function 2172:
+    AddListOption 56 255 17
+Return
+
+Function 2173:
+    SetVar 0x800B 352
+Jump Function#994
+
+//____________________worry_seed
+Function 2181:
+    CompareVarValue 0x8004 93
+    JumpIf EQUAL Function#2182
+Return
+
+Function 2182:
+    AddListOption 57 255 18
+Return
+
+Function 2183:
+    SetVar 0x800B 388
+Jump Function#994
+
+
+//________________________________________Plain_Set_________________
+
+//____________________plain_set_checks
+Function 300:
+    Message 3
+    ListLocalText 1 1 0 1 0x800C
+    Call Function#3011
+    Call Function#3021
+    Call Function#3031
+    Call Function#3041
+    Call Function#3051
+    Call Function#3061
+    Call Function#3071
+    Call Function#3081
+    Call Function#3091
+    Call Function#3101
+    Call Function#3111
+    Call Function#3121
+    Call Function#3131
+    Call Function#3141
+    Call Function#3151
+    Call Function#3161
+    Call Function#3171
+    Call Function#3181
+    Call Function#997
+    CompareVarValue 0x800C 1
+    JumpIf EQUAL Function#3013
+    CompareVarValue 0x800C 2
+    JumpIf EQUAL Function#3023
+    CompareVarValue 0x800C 3
+    JumpIf EQUAL Function#3033
+    CompareVarValue 0x800C 4
+    JumpIf EQUAL Function#3043
+    CompareVarValue 0x800C 5
+    JumpIf EQUAL Function#3053
+    CompareVarValue 0x800C 6
+    JumpIf EQUAL Function#3063
+    CompareVarValue 0x800C 7
+    JumpIf EQUAL Function#3073
+    CompareVarValue 0x800C 8
+    JumpIf EQUAL Function#3083
+    CompareVarValue 0x800C 9
+    JumpIf EQUAL Function#3093
+    CompareVarValue 0x800C 10
+    JumpIf EQUAL Function#3103
+    CompareVarValue 0x800C 11
+    JumpIf EQUAL Function#3113
+    CompareVarValue 0x800C 12
+    JumpIf EQUAL Function#3123
+    CompareVarValue 0x800C 13
+    JumpIf EQUAL Function#3133
+    CompareVarValue 0x800C 14
+    JumpIf EQUAL Function#3143
+    CompareVarValue 0x800C 15
+    JumpIf EQUAL Function#3153
+    CompareVarValue 0x800C 16
+    JumpIf EQUAL Function#3163
+    CompareVarValue 0x800C 17
+    JumpIf EQUAL Function#3173
+    CompareVarValue 0x800C 18
+    JumpIf EQUAL Function#3183
+Jump Function#995
+
+//____________________acid_spra\y
+Function 3011:
+    CompareVarValue 0x8004 93
+    JumpIf EQUAL Function#3012
+Return
+
+Function 3012:
+    AddListOption 60 255 1
+Return
+
+Function 3013:
+    SetVar 0x800B 481
+Jump Function#994
+
+//____________________breaking_swipe
+Function 3021:
+    CompareVarValue 0x8004 93
+    JumpIf EQUAL Function#3022
+Return
+
+Function 3022:
+    AddListOption 61 255 2
+Return
+
+Function 3023:
+    SetVar 0x800B 535
+Jump Function#994
+
+//____________________confide
+Function 3031:
+    CompareVarValue 0x8004 93
+    JumpIf EQUAL Function#3032
+Return
+
+Function 3032:
+    AddListOption 62 255 3
+Return
+
+Function 3033:
+    SetVar 0x800B 570
+Jump Function#994
+
+//____________________dig
+Function 3041:
+    CompareVarValue 0x8004 93
+    JumpIf EQUAL Function#3042
+Return
+
+Function 3042:
+    AddListOption 63 255 4
+Return
+
+Function 3043:
+    SetVar 0x800B 91
+Jump Function#994
+
+//____________________disable
+Function 3051:
+    CompareVarValue 0x8004 93
+    JumpIf EQUAL Function#3052
+Return
+
+Function 3052:
+    AddListOption 64 255 5
+Return
+
+Function 3053:
+    SetVar 0x800B 50
+Jump Function#994
+
+//____________________draining_kiss
+Function 3061:
+    CompareVarValue 0x8004 93
+    JumpIf EQUAL Function#3062
+Return
+
+Function 3062:
+    AddListOption 65 255 6
+Return
+
+Function 3063:
+    SetVar 0x800B 512
+Jump Function#994
+
+//____________________fire_punch
+Function 3071:
+    CompareVarValue 0x8004 93
+    JumpIf EQUAL Function#3072
+Return
+
+Function 3072:
+    AddListOption 66 255 7
+Return
+
+Function 3073:
+    SetVar 0x800B 7
+Jump Function#994
+
+//____________________icy_wind
+Function 3081:
+    CompareVarValue 0x8004 93
+    JumpIf EQUAL Function#3082
+Return
+
+Function 3082:
+    AddListOption 67 255 8
+Return
+
+Function 3083:
+    SetVar 0x800B 196
+Jump Function#994
+
+//____________________ice_punch
+Function 3091:
+    CompareVarValue 0x8004 93
+    JumpIf EQUAL Function#3092
+Return
+
+Function 3092:
+    AddListOption 68 255 9
+Return
+
+Function 3093:
+    SetVar 0x800B 8
+Jump Function#994
+
+//____________________magic_coat
+Function 3101:
+    CompareVarValue 0x8004 93
+    JumpIf EQUAL Function#3102
+Return
+
+Function 3102:
+    AddListOption 69 255 10
+Return
+
+Function 3103:
+    SetVar 0x800B 277
+Jump Function#994
+
+//____________________magnet_rise
+Function 3111:
+    CompareVarValue 0x8004 93
+    JumpIf EQUAL Function#3112
+Return
+
+Function 3112:
+    AddListOption 70 255 11
+Return
+
+Function 3113:
+    SetVar 0x800B 393
+Jump Function#994
+
+//____________________recycle
+Function 3121:
+    CompareVarValue 0x8004 93
+    JumpIf EQUAL Function#3122
+Return
+
+Function 3122:
+    AddListOption 71 255 12
+Return
+
+Function 3123:
+    SetVar 0x800B 278
+Jump Function#994
+
+//____________________signal_beam
+Function 3131:
+    CompareVarValue 0x8004 93
+    JumpIf EQUAL Function#3132
+Return
+
+Function 3132:
+    AddListOption 72 255 13
+Return
+
+Function 3133:
+    SetVar 0x800B 324
+Jump Function#994
+
+//____________________synthesis
+Function 3141:
+    CompareVarValue 0x8004 93
+    JumpIf EQUAL Function#3142
+Return
+
+Function 3142:
+    AddListOption 73 255 14
+Return
+
+Function 3143:
+    SetVar 0x800B 235
+Jump Function#994
+
+//____________________thunder_punch
+Function 3151:
+    CompareVarValue 0x8004 93
+    JumpIf EQUAL Function#3152
+Return
+
+Function 3152:
+    AddListOption 74 255 15
+Return
+
+Function 3153:
+    SetVar 0x800B 9
+Jump Function#994
+
+//____________________trick
+Function 3161:
+    CompareVarValue 0x8004 93
+    JumpIf EQUAL Function#3162
+Return
+
+Function 3162:
+    AddListOption 75 255 16
+Return
+
+Function 3163:
+    SetVar 0x800B 271
+Jump Function#994
+
+//____________________uproar
+Function 3171:
+    CompareVarValue 0x8004 93
+    JumpIf EQUAL Function#3172
+Return
+
+Function 3172:
+    AddListOption 76 255 17
+Return
+
+Function 3173:
+    SetVar 0x800B 253
+Jump Function#994
+
+//____________________vacuum_wave
+Function 3181:
+    CompareVarValue 0x8004 93
+    JumpIf EQUAL Function#3182
+Return
+
+Function 3182:
+    AddListOption 77 255 18
+Return
+
+Function 3183:
+    SetVar 0x800B 410
+Jump Function#994
+
+//________________________________________Utility_________________
+
+//____________________already_knows_move 
+Function 993:
+    Message 4
+Jump Function#995
+
+//____________________teach_move
+Function 994:
+    CMD_140 0x800C 0x800B 0x8000
+    CompareVarValue 0x800C 1
+    JumpIf EQUAL Function#993
+    Message 6
+    CloseMessage
+    FadeScreen 6 1 0 0
+    WaitFadeScreen
+    CMD_468 0x8000 0x800B
+    CMD_469 0x800C
+    ReturnScreen
+    FadeScreen 6 1 1 0
+    WaitFadeScreen
+Jump Function#999
+
+//____________________display_move_sets
+Function 995:
+    Message 2
+    ListLocalText 1 1 0 1 0x800C
+    Call Function#996
+    WaitAB
+    CompareVarValue 0x800C 0
+    JumpIf EQUAL Function#100
+    CompareVarValue 0x800C 1
+    JumpIf EQUAL Function#200
+    CompareVarValue 0x800C 2
+    JumpIf EQUAL Function#300
+Jump Function#999
+    
+//____________________add_set_options_using_badge_checks
+Function 996:
+    CheckBadge 0 0x800C
+    CompareVarValue 0x800C 0
+    JumpIf EQUAL Function#997
+    AddListOption 10 255 0
+
+    CheckBadge 1 0x800C
+    CompareVarValue 0x800C 0
+    JumpIf EQUAL Function#997
+    AddListOption 11 255 1
+
+    CheckBadge 2 0x800C
+    CompareVarValue 0x800C 0
+    JumpIf EQUAL Function#997
+    AddListOption 12 255 2  
+
+    CheckBadge 3 0x800C
+    CompareVarValue 0x800C 0
+    JumpIf EQUAL Function#997
+    AddListOption 13 255 3
+
+    CheckBadge 4 0x800C
+    CompareVarValue 0x800C 0
+    JumpIf EQUAL Function#997
+    AddListOption 14 255 4 
+
+    CheckBadge 5 0x800C
+    CompareVarValue 0x800C 0
+    JumpIf EQUAL Function#997
+    AddListOption 15 255 5 
+
+    CheckBadge 6 0x800C
+    CompareVarValue 0x800C 0
+    JumpIf EQUAL Function#997
+    AddListOption 16 255 6 
+
+    CheckBadge 7 0x800C
+    CompareVarValue 0x800C 0
+    JumpIf EQUAL Function#997
+    AddListOption 17 255 7
+Jump Function#997
+
+//____________________add_return_option
+Function 997:
+    AddListOption 18 255 255
+    ShowList
+Return 
+
+//____________________return_function
+Function 998:
+Return
+
+//____________________cancel_function
+Function 999:
+    Message 5
+    WaitButton
+    CloseMessage
+    ReleaseAll
+End

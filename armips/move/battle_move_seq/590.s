@@ -7,9 +7,9 @@
 .include "armips/include/monnums.s"
 .include "armips/include/movenums.s"
 
-.create "build/move/battle_move_seq/0_575", 0
+.create "build/move/battle_move_seq/0_590", 0
 
-a000_575:
+a000_590:
     jumptocurmoveeffectscript
 
 .close

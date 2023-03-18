@@ -1720,6 +1720,12 @@ The foe’s {STRVAR_1 1, 0, 0} used\nPounce!
 {STRVAR_1 1, 0, 0} used\nSplash Crash!
 The wild {STRVAR_1 1, 0, 0} used\nSplash Crash!
 The foe’s {STRVAR_1 1, 0, 0} used\nSplash Crash!
+{STRVAR_1 1, 0, 0} used\n!
+The wild {STRVAR_1 1, 0, 0} used\n!
+The foe’s {STRVAR_1 1, 0, 0} used\n!
+{STRVAR_1 1, 0, 0} used\n!
+The wild {STRVAR_1 1, 0, 0} used\n!
+The foe’s {STRVAR_1 1, 0, 0} used\n!
 {STRVAR_1 1, 0, 0} used\nHidden Power!
 The wild {STRVAR_1 1, 0, 0} used\nHidden Power!
 The foe’s {STRVAR_1 1, 0, 0} used\nHidden Power!

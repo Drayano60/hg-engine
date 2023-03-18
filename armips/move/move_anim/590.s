@@ -7,9 +7,9 @@
 .include "armips/include/monnums.s"
 .include "armips/include/movenums.s"
 
-.create "build/move/move_anim/0_574", 0
+.create "build/move/move_anim/0_590", 0
 
-a010_574:
+a010_590:
     initspriteresource
     loadspriteresource 0
     loadspriteresource 1

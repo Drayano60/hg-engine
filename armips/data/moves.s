@@ -8794,38 +8794,6 @@ movedata MOVE_SPLASH_CRASH
     terminatedata
 
 // Copy of Hidden Power with fixed type, for AI use only
-movedata MOVE_HIDDEN_POWER_FIGHTING
-    battleeffect 0
-    pss SPLIT_SPECIAL
-    basepower 60
-    type TYPE_FIGHTING
-    accuracy 100
-    pp 15
-    effectchance 0
-    target MOVE_TARGET_SELECTED
-    priority 0
-    flags FLAG_KINGS_ROCK | FLAG_MIRROR_MOVE | FLAG_PROTECT
-    appeal 0x17
-    contesttype CONTEST_SMART
-    terminatedata
-
-// Copy of Hidden Power with fixed type, for AI use only
-movedata MOVE_HIDDEN_POWER_FLYING
-    battleeffect 0
-    pss SPLIT_SPECIAL
-    basepower 60
-    type TYPE_FLYING
-    accuracy 100
-    pp 15
-    effectchance 0
-    target MOVE_TARGET_SELECTED
-    priority 0
-    flags FLAG_KINGS_ROCK | FLAG_MIRROR_MOVE | FLAG_PROTECT
-    appeal 0x17
-    contesttype CONTEST_SMART
-    terminatedata
-
-// Copy of Hidden Power with fixed type, for AI use only
 movedata MOVE_HIDDEN_POWER_POISON
     battleeffect 0
     pss SPLIT_SPECIAL
@@ -9039,6 +9007,38 @@ movedata MOVE_HIDDEN_POWER_DARK
     pss SPLIT_SPECIAL
     basepower 60
     type TYPE_DARK
+    accuracy 100
+    pp 15
+    effectchance 0
+    target MOVE_TARGET_SELECTED
+    priority 0
+    flags FLAG_KINGS_ROCK | FLAG_MIRROR_MOVE | FLAG_PROTECT
+    appeal 0x17
+    contesttype CONTEST_SMART
+    terminatedata
+
+// Copy of Hidden Power with fixed type, for AI use only
+movedata MOVE_HIDDEN_POWER_FIGHTING
+    battleeffect 0
+    pss SPLIT_SPECIAL
+    basepower 60
+    type TYPE_FIGHTING
+    accuracy 100
+    pp 15
+    effectchance 0
+    target MOVE_TARGET_SELECTED
+    priority 0
+    flags FLAG_KINGS_ROCK | FLAG_MIRROR_MOVE | FLAG_PROTECT
+    appeal 0x17
+    contesttype CONTEST_SMART
+    terminatedata
+
+// Copy of Hidden Power with fixed type, for AI use only
+movedata MOVE_HIDDEN_POWER_FLYING
+    battleeffect 0
+    pss SPLIT_SPECIAL
+    basepower 60
+    type TYPE_FLYING
     accuracy 100
     pp 15
     effectchance 0

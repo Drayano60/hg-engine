@@ -571,7 +571,9 @@ The user and foe\nbecome friends, and\nthe foe loses its will\nto fight. This lo
 The user tells the\nfoe a secret, so they\ncan’t concentrate.\nThis lowers the foe’s\nSp. Atk stat.
 The user beats the\nfoe with a bone that\ncontains a spirit.\nThis has a 20% chance\nto lower Defense.
 The user attacks by\npouncing on the foe.\nThis also lowers the\nfoe’s Speed stat.
-The user creates a\nshock by splashing.\nDamage is based on\nthe weight difference\nbetween user and foe.
+The user creates a\nshock by splashing.\nThis does more damage\nthe more the user\noutweighs the foe.
+Slams the foe with its\nflame-covered body.\nThis does more damage\nthe more the user\noutweighs the foe.
+The user swings both\narms at the target.\nThe target’s stat\nchanges do not affect\nthis move’s damage.
 FOR AI ONLY
 FOR AI ONLY
 FOR AI ONLY

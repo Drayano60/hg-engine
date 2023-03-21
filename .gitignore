@@ -72,3 +72,8 @@ dumpitem.py
 armips/asm/offset.s
 .vs/
 rom_gen.ld
+
+sdat/*
+*.swav
+*.swar
+tools/swav2swar.exe

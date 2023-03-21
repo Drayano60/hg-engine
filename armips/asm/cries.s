@@ -5,6 +5,7 @@
 
 .open "base/arm9.bin", 0x2000000
 
+
 // r1 = formid
 // r2 = free
 // r5 = species
@@ -25,12 +26,12 @@ _check_normal:
     cmp r5, r2
     beq _handle_egg
     bls 0x02006258 // do not change r5
-    mov r2, #234
+    mov r2, #(CRY_PSEUDOBANK_START - 544)
     add r5, r5, r2 // otherwise add 234 to file
     b 0x02006258
 
 _handle_egg:
-    mov r5, #1
+    //mov r5, #1 // fuck eggs be for real.  for some reason sky shaymin comes in as 0x1EE and i ain't about to argue
 
 // r5 needs to be file number at the end of this, 778 begins new list - species+234 for victini and up
 // going to have to set up all of the files with placeholders like in the original

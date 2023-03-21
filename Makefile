@@ -16,9 +16,13 @@ SYSTEM = $(shell grep -i -q 'microsoft' /proc/version; echo $$?)
 ifeq ($(SYSTEM), 0)
 EXE := .exe
 SEP := \\
+
+WAV2SWAV := tools/wav2swav.exe
 else
 EXE := 
 SEP := /
+
+WAV2SWAV := mono tools/wav2swav.exe
 endif
 
 default: all
@@ -26,14 +30,17 @@ default: all
 ROMNAME = rom.nds
 BUILDROM = test.nds
 ####################### Tools #########################
+PYTHON = python3
 O2NARC = tools/o2narc
 MSGENC = tools/msgenc
 NDSTOOL = tools/ndstool
 BLZ = tools/blz
 ARMIPS = tools/armips
-NARCHIVE = tools/narcpy.py
+NARCHIVE = $(PYTHON) tools/narcpy.py
 GFX = tools/nitrogfx
-BTX = tools/pngtobtx0$(EXE)
+BTX = tools/pngtobtx0.exe
+SWAV2SWAR = tools/swav2swar.exe
+SDATTOOL = $(PYTHON) tools/SDATTool.py
 ###################### Setting ########################
 PREFIX = bin/arm-none-eabi-
 AS = $(DEVKITARM)/$(PREFIX)as
@@ -48,7 +55,6 @@ LDFLAGS_BATTLE = rom_gen.ld -T linker_battle.ld
 ASFLAGS = -mthumb -I ./data
 CFLAGS = -mthumb -mno-thumb-interwork -mcpu=arm7tdmi -mtune=arm7tdmi -mno-long-calls -march=armv4t -Wall -Wextra -Os -fira-loop-pressure -fipa-pta
 
-PYTHON = python3
 LINK = build/linked.o
 OUTPUT = build/output.bin
 BATTLE_LINK = build/battle_linked.o
@@ -85,7 +91,6 @@ FIELD_C_OBJS := $(patsubst $(C_SUBDIR)/%.c,$(BUILD)/%.o,$(FIELD_C_SRCS))
 FIELD_ASM_SRCS := $(wildcard $(ASM_SUBDIR)/field/*.s)
 FIELD_ASM_OBJS := $(patsubst $(ASM_SUBDIR)/%.s,$(BUILD)/%.d,$(FIELD_ASM_SRCS))
 FIELD_OBJS   := $(FIELD_C_OBJS) $(FIELD_ASM_OBJS) build/thumb_help.d
-# just build something so it doesn't crash
 
 ## includes
 include data/graphics/pokegra.mk
@@ -132,11 +137,11 @@ all: $(BATTLE_OUTPUT) $(FIELD_OUTPUT)
 	find . -name '*.DS_Store' -execdir rm -f {} \;
 	$(NDSTOOL) -x $(ROMNAME) -9 $(BASE)/arm9.bin -7 $(BASE)/arm7.bin -y9 $(BASE)/overarm9.bin -y7 $(BASE)/overarm7.bin -d $(FILESYS) -y $(BASE)/overlay -t $(BASE)/banner.bin -h $(BASE)/header.bin
 	@echo -e "$(ROMNAME) Decompression successful!!"
-	$(PYTHON) $(NARCHIVE) extract $(FILESYS)/a/0/2/8 -o $(BUILD)/a028/ -nf
+	$(NARCHIVE) extract $(FILESYS)/a/0/2/8 -o $(BUILD)/a028/ -nf
 	$(PYTHON) scripts/make.py
 	$(ARMIPS) armips/global.s
 	$(MAKE) move_narc
-	$(PYTHON) $(NARCHIVE) create $(FILESYS)/a/0/2/8 $(BUILD)/a028/ -nf
+	$(NARCHIVE) create $(FILESYS)/a/0/2/8 $(BUILD)/a028/ -nf
 	@echo -e "Making ROM.."
 	$(NDSTOOL) -c $(BUILDROM) -9 $(BASE)/arm9.bin -7 $(BASE)/arm7.bin -y9 $(BASE)/overarm9.bin -y7 $(BASE)/overarm7.bin -d $(FILESYS) -y $(BASE)/overlay -t $(BASE)/banner.bin -h $(BASE)/header.bin
 	@echo -e "Done."
@@ -146,7 +151,9 @@ build_tools:
 	cd tools/source/msgenc ; $(MAKE)
 	mv tools/source/msgenc/msgenc tools/msgenc
 
-	cd tools ; $(CSC) /target:exe /out:pngtobtx0.exe source$(SEP)BTX\ Editor$(SEP)Program-P.cs source$(SEP)BTX\ Editor$(SEP)pngtobtx0.cs source$(SEP)BTX\ Editor$(SEP)BTX0.cs
+	cd tools ; $(CSC) /target:exe /out:pngtobtx0.exe "source$(SEP)BTX Editor$(SEP)Program-P.cs" "source$(SEP)BTX Editor$(SEP)pngtobtx0.cs" "source$(SEP)BTX Editor$(SEP)BTX0.cs"
+
+	cd tools ; $(CSC) /target:exe /out:swav2swar.exe "source$(SEP)swav2swar$(SEP)Principal.cs"
 
 	rm -r -f tools/source/ndstool
 	cd tools/source ; git clone https://github.com/devkitPro/ndstool.git
@@ -185,6 +192,7 @@ clean:
 clean_tools:
 	rm -f tools/msgenc
 	rm -f tools/pngtobtx0.exe
+	rm -f tools/swav2swar.exe
 	rm -f tools/ndstool
 	rm -f tools/armips
 	rm -f tools/nitrogfx
@@ -292,12 +300,18 @@ move_narc: $(NARC_FILES)
 	@echo "pokemon overworld data:"
 	cp $(OVERWORLD_DATA_NARC) $(OVERWORLD_DATA_TARGET)
 
+	@echo "move an updated gs_sound_data.sdat:"
+	cp $(SDAT_BUILD) $(SDAT_TARGET)
+
 
 	@echo "baby mons:"
 	$(ARMIPS) armips/data/babymons.s
 
-	@echo "move an updated gs_sound_data.sdat:"
-	cp rawdata/gs_sound_data.sdat $(FILESYS)/data/sound/gs_sound_data.sdat
-
 	@echo "tutor data:"
 	$(ARMIPS) armips/data/tutordata.s
+
+# needed to keep the $(SDAT_OBJ_DIR)/WAVE_ARC_PV%/00.swav from being detected as an intermediate file
+.SECONDARY:
+
+# debug makefile print
+print-% : ; $(info $* is a $(flavor $*) variable set to [$($*)]) @true

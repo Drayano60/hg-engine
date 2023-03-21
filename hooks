@@ -42,6 +42,7 @@ arm9 GetItemArcData 08077CE8 3
 
 #mon expansion
 arm9 GetPokemonOwNum 0206A304 1
+arm9 GetMonIconPalette 02074364 3
 
 # wild mon hidden ability/form stuff
 #02247910
@@ -214,3 +215,5 @@ arm9 GetMoveDataTable 02073300 1
 arm9 HandleLoadOverlay 02006FF8 2
 arm9 UnloadOverlayByID 02006F7C 1
 
+arm9 GF_Snd_LoadSeq 02004764 1
+arm9 GF_Snd_LoadSeqEx 02004784 2

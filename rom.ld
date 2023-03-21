@@ -359,3 +359,18 @@ FS_SetDefaultDMA = 0x020D86D8;
 LoadOverlayNormal = 0x02007180 | 1;
 LoadOverlayNoInit = 0x02007188 | 1;
 LoadOverlayNoInitAsync = 0x020071C0 | 1;
+
+GetSoundDataPointer = 0x020043F8 | 1;
+NNS_SndArcLoadSeq = 0x020C9DC4;
+GF_SndHeapGetFreeSize = 0x0200472C | 1;
+NNS_SndArcLoadSeqEx = 0x020C9E48;
+
+NNS_SndArcGetBankInfo = 0x020C9724;
+LoadBank = 0x020CA398;
+NNS_SndArcGetFileAddress = 0x020C99A4;
+NNS_SndArcGetWaveArcInfo = 0x020C9788;
+NNSi_SndArcLoadWaveArc = 0x020CA194;
+LoadSingleWaves = 0x020CA788;
+SND_AssignWaveArc = 0x020D6154;
+
+PlayCry = 0x02006218 | 1;

@@ -9,5 +9,15 @@
 CMD_497 0x8004 0x8005 0x4000
 ...where 0x8004 is type 1, 0x8004 is type 2, 0x4000 is the poke being looked at
 
+Can use this to check a Pokemon form:
+CMD_136 <PokemonSelected> <VariableForResult>
+This puts the form ID of the selected Pokemon into the variable.
 
-- i haven't added heat crash or darkest lariat yet
+
+While splitting into individual tutors:
+- Change all Function x00 instances
+- Change CheckBadge command
+- Swap out compatibility checking section
+- Change Message 3 -> Message 43
+- Change AddListOptions to be 50-67
+- Change main function to Function#999

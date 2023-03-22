@@ -677,6 +677,11 @@ Function 5051:
     JumpIf EQUAL Function#543
     CompareVarValue 0x8004 487
     JumpIf EQUAL Function#543
+//______custom_entries
+    CompareVarValue 0x8004 165
+    JumpIf EQUAL Function#543
+    CompareVarValue 0x8004 166
+    JumpIf EQUAL Function#543
 Return
 
 Function 5052:
@@ -1564,6 +1569,11 @@ Function 5111:
     CompareVarValue 0x8004 486
     JumpIf EQUAL Function#5112
     CompareVarValue 0x8004 491
+    JumpIf EQUAL Function#5112
+//______custom_entries
+    CompareVarValue 0x8004 236
+    JumpIf EQUAL Function#5112
+    CompareVarValue 0x8004 237
     JumpIf EQUAL Function#5112
 Return
 
@@ -2548,6 +2558,11 @@ Function 5181:
     CompareVarValue 0x8004 492
     JumpIf EQUAL Function#5182
     CompareVarValue 0x8004 493
+    JumpIf EQUAL Function#5182
+//______custom_entries
+    CompareVarValue 0x8004 489
+    JumpIf EQUAL Function#5182
+    CompareVarValue 0x8004 490
     JumpIf EQUAL Function#5182
 Return
 

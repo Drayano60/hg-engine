@@ -115,6 +115,9 @@ Function 7011:
     JumpIf EQUAL Function#7012
     CompareVarValue 0x8004 493
     JumpIf EQUAL Function#7012
+//______custom_entries
+    CompareVarValue 0x8004 467
+    JumpIf EQUAL Function#7012
 Return
 
 Function 7012:
@@ -180,6 +183,11 @@ Function 7031:
     CompareVarValue 0x8004 447
     JumpIf EQUAL Function#7032
     CompareVarValue 0x8004 448
+    JumpIf EQUAL Function#7032
+//______custom_entries
+    CompareVarValue 0x8004 077
+    JumpIf EQUAL Function#7032
+    CompareVarValue 0x8004 078
     JumpIf EQUAL Function#7032
 Return
 
@@ -367,6 +375,9 @@ Function 7051:
     JumpIf EQUAL Function#7052
     CompareVarValue 0x8004 472
     JumpIf EQUAL Function#7052
+//______custom_entries
+    CompareVarValue 0x8004 015
+    JumpIf EQUAL Function#7052
 Return
 
 Function 7052:
@@ -458,7 +469,27 @@ Function 7071:
     JumpIf EQUAL Function#998
     CompareVarValue 0x8004 412
     JumpIf EQUAL Function#998
+    CompareVarValue 0x8004 413
+    JumpIf EQUAL Function#998
     CompareVarValue 0x8004 415
+    JumpIf EQUAL Function#998
+    CompareVarValue 0x8004 422
+    JumpIf EQUAL Function#998
+    CompareVarValue 0x8004 423
+    JumpIf EQUAL Function#998
+    CompareVarValue 0x8004 425
+    JumpIf EQUAL Function#998
+    CompareVarValue 0x8004 426
+    JumpIf EQUAL Function#998
+    CompareVarValue 0x8004 436
+    JumpIf EQUAL Function#998
+    CompareVarValue 0x8004 437
+    JumpIf EQUAL Function#998
+    CompareVarValue 0x8004 442
+    JumpIf EQUAL Function#998
+    CompareVarValue 0x8004 479
+    JumpIf EQUAL Function#998
+    CompareVarValue 0x8004 491
     JumpIf EQUAL Function#998
 Jump Function#7072
 
@@ -691,6 +722,13 @@ Function 7081:
     CompareVarValue 0x8004 492
     JumpIf EQUAL Function#7082
     CompareVarValue 0x8004 493
+    JumpIf EQUAL Function#7082
+//______custom_entries
+    CompareVarValue 0x8004 154
+    JumpIf EQUAL Function#7082
+    CompareVarValue 0x8004 155
+    JumpIf EQUAL Function#7082
+    CompareVarValue 0x8004 156
     JumpIf EQUAL Function#7082
 Return
 
@@ -1072,6 +1110,9 @@ Function 7101:
     JumpIf EQUAL Function#7102
     CompareVarValue 0x8004 486
     JumpIf EQUAL Function#7102
+//______custom_entries
+    CompareVarValue 0x8004 216
+    JumpIf EQUAL Function#7102
 Return
 
 Function 7102:
@@ -1255,6 +1296,13 @@ Function 7131:
     CompareVarValue 0x8004 470
     JumpIf EQUAL Function#7132
     CompareVarValue 0x8004 475
+    JumpIf EQUAL Function#7132
+//______custom_entries
+    CompareVarValue 0x8004 069
+    JumpIf EQUAL Function#7132
+    CompareVarValue 0x8004 070
+    JumpIf EQUAL Function#7132
+    CompareVarValue 0x8004 455
     JumpIf EQUAL Function#7132
 Return
 
@@ -1551,6 +1599,9 @@ Function 7161:
     CompareVarValue 0x8004 404
     JumpIf EQUAL Function#7162
     CompareVarValue 0x8004 405
+    JumpIf EQUAL Function#7162
+//______custom_entries
+    CompareVarValue 0x8004 160
     JumpIf EQUAL Function#7162
 Return
 

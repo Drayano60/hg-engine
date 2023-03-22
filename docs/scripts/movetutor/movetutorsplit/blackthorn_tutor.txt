@@ -123,6 +123,9 @@ Function 8011:
     JumpIf EQUAL Function#8012
     CompareVarValue 0x8004 430
     JumpIf EQUAL Function#8012
+//______custom_entries
+    CompareVarValue 0x8004 022
+    JumpIf EQUAL Function#8012
 Return
 
 Function 8012:
@@ -216,6 +219,9 @@ Function 8021:
     CompareVarValue 0x8004 454
     JumpIf EQUAL Function#8022
     CompareVarValue 0x8004 475
+    JumpIf EQUAL Function#8022
+//______custom_entries
+    CompareVarValue 0x8004 466
     JumpIf EQUAL Function#8022
 Return
 
@@ -495,6 +501,13 @@ Function 8051:
     JumpIf EQUAL Function#8052
     CompareVarValue 0x8004 493
     JumpIf EQUAL Function#8052
+//______custom_entries
+    CompareVarValue 0x8004 109
+    JumpIf EQUAL Function#8052
+    CompareVarValue 0x8004 110
+    JumpIf EQUAL Function#8052
+    CompareVarValue 0x8004 211
+    JumpIf EQUAL Function#8052
 Return
 
 Function 8052:
@@ -584,6 +597,11 @@ Function 8061:
     CompareVarValue 0x8004 430
     JumpIf EQUAL Function#8062
     CompareVarValue 0x8004 493
+    JumpIf EQUAL Function#8062
+//______custom_entries
+    CompareVarValue 0x8004 193
+    JumpIf EQUAL Function#8062
+    CompareVarValue 0x8004 469
     JumpIf EQUAL Function#8062
 Return
 
@@ -804,6 +822,15 @@ Function 8071:
     CompareVarValue 0x8004 484
     JumpIf EQUAL Function#8072
     CompareVarValue 0x8004 493
+    JumpIf EQUAL Function#8072
+//______custom_entries
+    CompareVarValue 0x8004 456
+    JumpIf EQUAL Function#8072
+    CompareVarValue 0x8004 457
+    JumpIf EQUAL Function#8072
+    CompareVarValue 0x8004 489
+    JumpIf EQUAL Function#8072
+    CompareVarValue 0x8004 490
     JumpIf EQUAL Function#8072
 Return
 
@@ -1347,6 +1374,9 @@ Function 8131:
     JumpIf EQUAL Function#8132
     CompareVarValue 0x8004 059
     JumpIf EQUAL Function#8132
+//______custom_entries
+    CompareVarValue 0x8004 392
+    JumpIf EQUAL Function#8132
 Return
 
 Function 8132:
@@ -1392,6 +1422,29 @@ Function 8141:
     CompareVarValue 0x8004 463
     JumpIf EQUAL Function#8142
     CompareVarValue 0x8004 465
+    JumpIf EQUAL Function#8142
+//______custom_entries
+    CompareVarValue 0x8004 023
+    JumpIf EQUAL Function#8142
+    CompareVarValue 0x8004 024
+    JumpIf EQUAL Function#8142
+    CompareVarValue 0x8004 073
+    JumpIf EQUAL Function#8142
+    CompareVarValue 0x8004 095
+    JumpIf EQUAL Function#8142
+    CompareVarValue 0x8004 208
+    JumpIf EQUAL Function#8142
+    CompareVarValue 0x8004 154
+    JumpIf EQUAL Function#8142
+    CompareVarValue 0x8004 162
+    JumpIf EQUAL Function#8142
+    CompareVarValue 0x8004 207
+    JumpIf EQUAL Function#8142
+    CompareVarValue 0x8004 472
+    JumpIf EQUAL Function#8142
+    CompareVarValue 0x8004 232
+    JumpIf EQUAL Function#8142
+    CompareVarValue 0x8004 336
     JumpIf EQUAL Function#8142
 Return
 

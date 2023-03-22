@@ -2855,6 +2855,15 @@ Function 4151:
     JumpIf EQUAL Function#4152
     CompareVarValue 0x8004 477
     JumpIf EQUAL Function#4152
+//______custom_entries
+    CompareVarValue 0x8004 046
+    JumpIf EQUAL Function#4152
+    CompareVarValue 0x8004 047
+    JumpIf EQUAL Function#4152
+    CompareVarValue 0x8004 167
+    JumpIf EQUAL Function#4152
+    CompareVarValue 0x8004 168
+    JumpIf EQUAL Function#4152
 Return
 
 Function 4152:
@@ -3112,6 +3121,11 @@ Function 4171:
     CompareVarValue 0x8004 481
     JumpIf EQUAL Function#4172
     CompareVarValue 0x8004 482
+    JumpIf EQUAL Function#4172
+//______custom_entries
+    CompareVarValue 0x8004 018
+    JumpIf EQUAL Function#4172
+    CompareVarValue 0x8004 351
     JumpIf EQUAL Function#4172
 Return
 

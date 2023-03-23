@@ -430,7 +430,7 @@ Function 7061:
     JumpIf EQUAL Function#7062
     CompareVarValue 0x8004 486
     JumpIf EQUAL Function#7062
-//______custom_entries
+//______custom_entries_custom
     CompareVarValue 0x8004 297
     JumpIf EQUAL Function#7062
 Return

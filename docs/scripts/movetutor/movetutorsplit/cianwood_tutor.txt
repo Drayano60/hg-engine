@@ -2707,7 +2707,7 @@ Function 5181:
     JumpIf EQUAL Function#5182
     CompareVarValue 0x8004 493
     JumpIf EQUAL Function#5182
-//______custom_entries
+//______custom_entries_pla
     CompareVarValue 0x8004 489
     JumpIf EQUAL Function#5182
     CompareVarValue 0x8004 490

@@ -123,7 +123,7 @@ Function 8011:
     JumpIf EQUAL Function#8012
     CompareVarValue 0x8004 430
     JumpIf EQUAL Function#8012
-//______custom_entries
+//______custom_entries_home
     CompareVarValue 0x8004 022
     JumpIf EQUAL Function#8012
 Return
@@ -1501,7 +1501,16 @@ Function 8141:
     JumpIf EQUAL Function#8142
     CompareVarValue 0x8004 465
     JumpIf EQUAL Function#8142
-//______custom_entries
+//______custom_entries_home
+    CompareVarValue 0x8004 207
+    JumpIf EQUAL Function#8142
+    CompareVarValue 0x8004 232
+    JumpIf EQUAL Function#8142
+    CompareVarValue 0x8004 336
+    JumpIf EQUAL Function#8142
+    CompareVarValue 0x8004 472
+    JumpIf EQUAL Function#8142
+//______custom_entries_custom
     CompareVarValue 0x8004 023
     JumpIf EQUAL Function#8142
     CompareVarValue 0x8004 024
@@ -1510,19 +1519,11 @@ Function 8141:
     JumpIf EQUAL Function#8142
     CompareVarValue 0x8004 095
     JumpIf EQUAL Function#8142
-    CompareVarValue 0x8004 208
-    JumpIf EQUAL Function#8142
     CompareVarValue 0x8004 154
     JumpIf EQUAL Function#8142
     CompareVarValue 0x8004 162
     JumpIf EQUAL Function#8142
-    CompareVarValue 0x8004 207
-    JumpIf EQUAL Function#8142
-    CompareVarValue 0x8004 472
-    JumpIf EQUAL Function#8142
-    CompareVarValue 0x8004 232
-    JumpIf EQUAL Function#8142
-    CompareVarValue 0x8004 336
+    CompareVarValue 0x8004 208
     JumpIf EQUAL Function#8142
 Return
 

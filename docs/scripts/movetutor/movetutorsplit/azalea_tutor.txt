@@ -595,6 +595,14 @@ Function 2041:
     JumpIf EQUAL Function#2042
     CompareVarValue 0x8004 750
     JumpIf EQUAL Function#2042
+//______custom_entries_home
+    CompareVarValue 0x8004 216
+    JumpIf EQUAL Function#2042
+    CompareVarValue 0x8004 217
+    JumpIf EQUAL Function#2042
+//______custom_entries_pla
+    CompareVarValue 0x8004 475
+    JumpIf EQUAL Function#2042
 Return
 
 Function 2042:
@@ -926,6 +934,9 @@ Function 2061:
     CompareVarValue 0x8004 346
     JumpIf EQUAL Function#2062
     CompareVarValue 0x8004 455
+    JumpIf EQUAL Function#2062
+//______custom_entries_bdsp
+    CompareVarValue 0x8004 446
     JumpIf EQUAL Function#2062
 Return
 
@@ -1489,7 +1500,7 @@ Function 2091:
     JumpIf EQUAL Function#2092
     CompareVarValue 0x8004 493
     JumpIf EQUAL Function#2092
-//______custom_entries
+//______custom_entries_pla
     CompareVarValue 0x8004 433
     JumpIf EQUAL Function#2092
     CompareVarValue 0x8004 358

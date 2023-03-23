@@ -776,7 +776,10 @@ Function 6041:
     JumpIf EQUAL Function#6042
     CompareVarValue 0x8004 485
     JumpIf EQUAL Function#6042
-//______custom_entries
+//______custom_entries_pla
+    CompareVarValue 0x8004 469
+    JumpIf EQUAL Function#6042
+//______custom_entries_custom
     CompareVarValue 0x8004 215
     JumpIf EQUAL Function#6042
     CompareVarValue 0x8004 461
@@ -1263,6 +1266,19 @@ Function 6071:
     JumpIf EQUAL Function#6072
     CompareVarValue 0x8004 750
     JumpIf EQUAL Function#6072
+//______custom_entries_custom
+    CompareVarValue 0x8004 016
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 017
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 018
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 187
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 188
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 189
+    JumpIf EQUAL Function#6072
 Return
 
 Function 6072:
@@ -1442,6 +1458,9 @@ Function 6081:
     CompareVarValue 0x8004 487
     JumpIf EQUAL Function#6082
     CompareVarValue 0x8004 493
+    JumpIf EQUAL Function#6082
+//______custom_entries_custom
+    CompareVarValue 0x8004 395
     JumpIf EQUAL Function#6082
 Return
 
@@ -1723,6 +1742,38 @@ Function 6101:
     JumpIf EQUAL Function#6102
     CompareVarValue 0x8004 421
     JumpIf EQUAL Function#6102
+//______custom_entries_home
+    CompareVarValue 0x8004 152
+    JumpIf EQUAL Function#6102
+    CompareVarValue 0x8004 153
+    JumpIf EQUAL Function#6102
+    CompareVarValue 0x8004 154
+    JumpIf EQUAL Function#6102
+    CompareVarValue 0x8004 314
+    JumpIf EQUAL Function#6102
+//______custom_entries_custom
+    CompareVarValue 0x8004 049
+    JumpIf EQUAL Function#6102
+    CompareVarValue 0x8004 165
+    JumpIf EQUAL Function#6102
+    CompareVarValue 0x8004 166
+    JumpIf EQUAL Function#6102
+    CompareVarValue 0x8004 192
+    JumpIf EQUAL Function#6102
+    CompareVarValue 0x8004 267
+    JumpIf EQUAL Function#6102
+    CompareVarValue 0x8004 269
+    JumpIf EQUAL Function#6102
+    CompareVarValue 0x8004 313
+    JumpIf EQUAL Function#6102
+    CompareVarValue 0x8004 314
+    JumpIf EQUAL Function#6102
+    CompareVarValue 0x8004 414
+    JumpIf EQUAL Function#6102
+    CompareVarValue 0x8004 415
+    JumpIf EQUAL Function#6102
+    CompareVarValue 0x8004 416
+    JumpIf EQUAL Function#6102
 Return
 
 Function 6102:
@@ -1805,7 +1856,7 @@ Function 6111:
     JumpIf EQUAL Function#6112
     CompareVarValue 0x8004 493
     JumpIf EQUAL Function#6112
-//______custom_entries
+//______custom_entries_custom
     CompareVarValue 0x8004 138
     JumpIf EQUAL Function#6112
     CompareVarValue 0x8004 139
@@ -1817,6 +1868,8 @@ Function 6111:
     CompareVarValue 0x8004 345
     JumpIf EQUAL Function#6112
     CompareVarValue 0x8004 346
+    JumpIf EQUAL Function#6112 
+    CompareVarValue 0x8004 471
     JumpIf EQUAL Function#6112 
 Return
 
@@ -1887,6 +1940,13 @@ Function 6121:
     CompareVarValue 0x8004 482
     JumpIf EQUAL Function#6122
     CompareVarValue 0x8004 488
+    JumpIf EQUAL Function#6122
+//______custom_entries_custom
+    CompareVarValue 0x8004 055
+    JumpIf EQUAL Function#6122
+    CompareVarValue 0x8004 338
+    JumpIf EQUAL Function#6122
+    CompareVarValue 0x8004 470
     JumpIf EQUAL Function#6122
 Return
 
@@ -2442,10 +2502,14 @@ Function 6171:
     JumpIf EQUAL Function#6172
     CompareVarValue 0x8004 435
     JumpIf EQUAL Function#6172
-//______custom_entries
+//______custom_entries_home
     CompareVarValue 0x8004 161
     JumpIf EQUAL Function#6172
     CompareVarValue 0x8004 162
+    JumpIf EQUAL Function#6172
+    CompareVarValue 0x8004 301
+    JumpIf EQUAL Function#6172
+    CompareVarValue 0x8004 302
     JumpIf EQUAL Function#6172
 Return
 

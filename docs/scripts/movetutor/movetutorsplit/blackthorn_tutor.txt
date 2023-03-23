@@ -1447,8 +1447,13 @@ Function 8131:
     JumpIf EQUAL Function#8132
     CompareVarValue 0x8004 059
     JumpIf EQUAL Function#8132
-//______custom_entries
+//______custom_entries_pla
     CompareVarValue 0x8004 392
+    JumpIf EQUAL Function#8132
+//______custom_entries_home
+    CompareVarValue 0x8004 006
+    JumpIf EQUAL Function#8132
+    CompareVarValue 0x8004 157
     JumpIf EQUAL Function#8132
 Return
 

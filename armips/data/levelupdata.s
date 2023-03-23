@@ -2284,9 +2284,8 @@ levelup SPECIES_SEEL
     learnset MOVE_HORN_DRILL, 59
     terminatelearnset
 
-// NEW: Icicle Crash, Belly Drum, Wave Crash
+// NEW: Belly Drum, Wave Crash
 levelup SPECIES_DEWGONG
-    learnset MOVE_ICICLE_CRASH, 1
     learnset MOVE_SIGNAL_BEAM, 1
     learnset MOVE_FAKE_OUT, 1
     learnset MOVE_HEADBUTT, 1

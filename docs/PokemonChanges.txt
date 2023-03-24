@@ -134,7 +134,7 @@ Held Item: None
 Type: Water
 
 New Moves:
-- None
+- Chilling Water (Tutor)
 
 -------------------
 008 - Wartortle
@@ -145,7 +145,7 @@ Held Item: None
 Type: Water
 
 New Moves:
-- None
+- Chilling Water (Tutor)
 
 -------------------
 009 - Blastoise
@@ -156,7 +156,7 @@ Held Item: None
 Type: Water
 
 New Moves:
-- None
+- Chilling Water (Tutor)
 
 -------------------
 010 - Caterpie
@@ -497,6 +497,7 @@ Held Item: Leppa Berry (50%), Moon Stone (5%)
 Type: Fairy
 
 New Moves:
+- Chilling Water (Tutor)
 - Teleport (Tutor) (LGPE)
 
 -------------------
@@ -508,6 +509,7 @@ Held Item: Leppa Berry (50%), Moon Stone (5%)
 Type: Fairy
 
 New Moves:
+- Chilling Water (Tutor)
 - Teleport (Tutor) (LGPE)
 
 -------------------
@@ -826,7 +828,7 @@ Held Item: None
 Type: Water 
 
 New Moves:
-- None
+- Chilling Water (Tutor)
 
 -------------------
 061 - Poliwhirl
@@ -837,7 +839,7 @@ Held Item: King's Rock (5%)
 Type: Water
 
 New Moves:
-- None
+- Chilling Water (Tutor)
 
 -------------------
 062 - Poliwrath
@@ -848,6 +850,7 @@ Held Item: King's Rock (5%)
 Type: Water / Fighting
 
 New Moves:
+- Chilling Water (Tutor)
 - Mach Punch (Level)
 - Storm Throw (Level)
 - Wave Crash (Level)
@@ -861,7 +864,7 @@ Held Item: King's Rock (5%)
 Type: Water
 
 New Moves:
-- None
+- Chilling Water (Tutor)
 
 -------------------
 063 - Abra
@@ -977,6 +980,7 @@ Held Item: Poison Barb (5%)
 Type: Water / Poison
 
 New Moves:
+- Chilling Water (Tutor)
 - Mega Drain (Tutor) (LGPE)
 
 -------------------
@@ -988,6 +992,7 @@ Held Item: Poison Barb (5%)
 Type: Water / Poison
 
 New Moves:
+- Chilling Water (Tutor)
 - Mega Drain (Tutor) (LGPE)
 - Power Whip (Tutor)
 
@@ -1169,6 +1174,7 @@ Type: Water
 
 New Moves:
 - Belly Drum (Level)
+- Chilling Water (Tutor)
 - Flip Turn (Tutor) (HOME)
 - Megahorn (Tutor) (LGPE)
 - Play Rough (TM)
@@ -1184,6 +1190,7 @@ Type: Water / Ice
 
 New Moves:
 - Belly Drum (Level)
+- Chilling Water (Tutor)
 - Flip Turn (Tutor) (HOME)
 - Hydro Pump (Tutor)
 - Megahorn (Tutor) (LGPE)
@@ -1336,7 +1343,7 @@ Held Item: None
 Type: Water
 
 New Moves:
-- None
+- Chilling Water (Tutor)
 
 -------------------
 099 - Kingler
@@ -1347,7 +1354,7 @@ Held Item: None
 Type: Water
 
 New Moves:
-- None
+- Chilling Water (Tutor)
 
 -------------------
 100 - Voltorb
@@ -1617,7 +1624,7 @@ Held Item: Dragon Scale (5%)
 Type: Water
 
 New Moves:
-- None
+- Chilling Water (Tutor)
 
 -------------------
 117 - Seadra
@@ -1628,7 +1635,7 @@ Held Item: Dragon Scale (5%)
 Type: Water
 
 New Moves:
-- None
+- Chilling Water (Tutor)
 
 -------------------
 230 - Kingdra
@@ -1639,7 +1646,7 @@ Held Item: Dragon Scale (5%)
 Type: Water / Dragon
 
 New Moves:
-- None
+- Chilling Water (Tutor)
 
 -------------------
 118 - Goldeen
@@ -1672,6 +1679,7 @@ Held Item: Stardust (50%), Star Piece (5%)
 Type: Water
 
 New Moves:
+- Chilling Water (Tutor)
 - Teleport (Tutor) (LGPE)
 
 -------------------
@@ -1683,6 +1691,7 @@ Held Item: Stardust (50%), Star Piece (5%)
 Type: Water / Psychic
 
 New Moves:
+- Chilling Water (Tutor)
 - Teleport (Tutor) (LGPE)
 
 -------------------
@@ -1739,7 +1748,7 @@ Held Item: Aspear Berry (100%)
 Type: Ice / Psychic
 
 New Moves:
-- None
+- Chilling Water (Tutor)
 
 -------------------
 124 - Jynx
@@ -1750,6 +1759,7 @@ Held Item: Aspear Berry (100%)
 Type: Ice / Psychic
 
 New Moves:
+- Chilling Water (Tutor)
 - Psycho Boost (Level)
 - Teleport (Tutor) (LGPE)
 
@@ -1885,6 +1895,7 @@ New Moves:
 - Aqua Ring (Level)
 - Aurora Veil (Tutor)
 - Calm Mind (TM)
+- Chilling Water (Tutor)
 
 -------------------
 132 - Ditto
@@ -2048,6 +2059,7 @@ Held Item: None
 Type: Rock / Water
 
 New Moves:
+- Chilling Water (Tutor)
 - Power Gem (Level/Tutor)
 
 -------------------
@@ -2059,6 +2071,7 @@ Held Item: None
 Type: Rock / Water
 
 New Moves:
+- Chilling Water (Tutor)
 - Power Gem (Level/Tutor)
 
 -------------------
@@ -2070,6 +2083,7 @@ Held Item: None
 Type: Rock / Water
 
 New Moves:
+- Chilling Water (Tutor)
 - Razor Shell (Level)
 
 -------------------
@@ -2082,6 +2096,7 @@ Type: Rock / Water
 
 New Moves:
 - Aqua Cutter (Level)
+- Chilling Water (Tutor)
 
 -------------------
 142 - Aerodactyl
@@ -2319,6 +2334,7 @@ Type: Water
 
 New Moves:
 - Aqua Cutter (Level)
+- Chilling Water (Tutor)
 - Flip Turn (Tutor)
 - Wave Crash (Level)
 
@@ -2332,6 +2348,7 @@ Type: Water
 
 New Moves:
 - Aqua Cutter (Level)
+- Chilling Water (Tutor)
 - Flip Turn (Tutor)
 - Wave Crash (Level)
 
@@ -2347,6 +2364,7 @@ New Moves:
 - Savage Rend (Level) (New Move)
 - Aqua Cutter (Level)
 - Breaking Swipe (Level/Tutor) (HOME)
+- Chilling Water (Tutor)
 - Flip Turn (Tutor)
 - Muddy Water (Tutor) (HOME)
 - Poison Fang (Level)
@@ -2481,6 +2499,7 @@ Held Item: Deep Sea Scale (5%)
 Type: Water / Electric
 
 New Moves:
+- Chilling Water (Tutor)
 - Thunder Shock (Level)
 
 -------------------
@@ -2492,6 +2511,7 @@ Held Item: Deep Sea Scale (5%)
 Type: Water / Electric
 
 New Moves:
+- Chilling Water (Tutor)
 - Tail Glow (Level)
 - Thunder Shock (Level)
 
@@ -3131,7 +3151,7 @@ Held Item: Hard Stone (5%)
 Type: Water / Rock
 
 New Moves:
-- None
+- Chilling Water (Tutor)
 
 -------------------
 223 - Remoraid
@@ -3142,7 +3162,7 @@ Held Item: None
 Type: Water
 
 New Moves:
-- None
+- Chilling Water (Tutor)
 
 -------------------
 224 - Octillery
@@ -3153,7 +3173,7 @@ Held Item: None
 Type: Water
 
 New Moves:
-- None
+- Chilling Water (Tutor)
 
 -------------------
 225 - Delibird
@@ -3177,6 +3197,7 @@ Held Item: None
 Type: Water / Flying
 
 New Moves:
+- Chilling Water (Tutor)
 - Double-Edge (Tutor) (PLA)
 
 -------------------
@@ -3188,6 +3209,7 @@ Held Item: None
 Type: Water / Flying
 
 New Moves:
+- Chilling Water (Tutor)
 - Fly (HM)
 
 -------------------
@@ -3314,6 +3336,7 @@ Held Item: None
 Type: Water
 
 New Moves:
+- Chilling Water (Tutor)
 - Hurricane (Tutor)
 
 -------------------
@@ -3458,7 +3481,7 @@ Held Item: None
 Type: Water
 
 New Moves:
-- None
+- Chilling Water (Tutor)
 
 -------------------
 259 - Marshtomp
@@ -3469,7 +3492,7 @@ Held Item: None
 Type: Water / Ground
 
 New Moves:
-- None
+- Chilling Water (Tutor)
 
 -------------------
 260 - Swampert
@@ -3480,7 +3503,7 @@ Held Item: None
 Type: Water / Ground
 
 New Moves:
-- None
+- Chilling Water (Tutor)
 
 -------------------
 261 - Poochyena
@@ -3607,7 +3630,7 @@ Held Item: None
 Type: Water / Grass
 
 New Moves:
-- None
+- Chilling Water (Tutor)
 
 -------------------
 271 - Lombre
@@ -3618,7 +3641,7 @@ Held Item: None
 Type: Water / Grass
 
 New Moves:
-- None
+- Chilling Water (Tutor)
 
 -------------------
 272 - Ludicolo
@@ -3629,7 +3652,7 @@ Held Item: None
 Type: Water / Grass
 
 New Moves:
-- None
+- Chilling Water (Tutor)
 
 -------------------
 273 - Seedot
@@ -4210,6 +4233,7 @@ Held Item: Deep Sea Tooth (5%)
 Type: Water / Dark
 
 New Moves:
+- Chilling Water (Tutor)
 - Wave Crash (Level)
 
 -------------------
@@ -4222,6 +4246,7 @@ Type: Water / Dark
 
 New Moves:
 - Aqua Cutter (Level)
+- Chilling Water (Tutor)
 - Wave Crash (Level)
 
 -------------------
@@ -4233,7 +4258,7 @@ Held Item: None
 Type: Water
 
 New Moves:
-- None
+- Chilling Water (Tutor)
 
 -------------------
 321 - Wailord
@@ -4245,6 +4270,7 @@ Type: Water
 
 New Moves:
 - Splash Crash (Level) (New Move)
+- Chilling Water (Tutor)
 
 -------------------
 322 - Numel
@@ -4484,7 +4510,7 @@ Held Item: None
 Type: Water
 
 New Moves:
-- None
+- Chilling Water (Tutor)
 
 -------------------
 342 - Crawdaunt
@@ -4495,7 +4521,7 @@ Held Item: None
 Type: Water / Dark
 
 New Moves:
-- None
+- Chilling Water (Tutor)
 
 -------------------
 343 - Baltoy
@@ -4586,6 +4612,7 @@ Held Item: None
 Type: Water ⟶ Water / Fairy
 
 New Moves:
+- Chilling Water (Tutor)
 - Dazzling Gleam (TM)
 
 -------------------
@@ -4597,6 +4624,7 @@ Held Item: Mystic Water (100%)
 Type: Normal
 
 New Moves:
+- Chilling Water (Tutor)
 - Nasty Plot (TM)
 - Tri Attack (Level/Tutor)
 
@@ -4765,6 +4793,7 @@ Held Item: None
 Type: Ice / Water
 
 New Moves:
+- Chilling Water (Tutor)
 - Slack Off (Level)
 
 -------------------
@@ -4776,6 +4805,7 @@ Held Item: None
 Type: Ice / Water
 
 New Moves:
+- Chilling Water (Tutor)
 - Slack Off (Level)
 
 -------------------
@@ -4787,6 +4817,7 @@ Held Item: None
 Type: Ice / Water
 
 New Moves:
+- Chilling Water (Tutor)
 - Slack Off (Level)
 
 -------------------
@@ -4809,6 +4840,7 @@ Held Item: Deep Sea Tooth (5%)
 Type: Water
 
 New Moves:
+- Chilling Water (Tutor)
 - Flip Turn (Tutor) (HOME)
 - Poison Fang (Level)
 - Razor Shell (Level - Clamperl only)
@@ -4823,6 +4855,7 @@ Held Item: Deep Sea Scale (5%)
 Type: Water
 
 New Moves:
+- Chilling Water (Tutor)
 - Flip Turn (Tutor) (HOME)
 - Leech Life (Level/TM)
 - Razor Shell (Level - Clamperl only)
@@ -4837,6 +4870,7 @@ Held Item: Deep Sea Scale (5%)
 Type: Water / Rock
 
 New Moves:
+- Chilling Water (Tutor)
 - Wave Crash (Level)
 
 -------------------
@@ -5149,6 +5183,7 @@ Held Item: None
 Type: Water
 
 New Moves:
+- Chilling Water (Tutor)
 - Double-Edge (Tutor) (PLA)
 - Flip Turn (Tutor)
 - Roost (TM) (PLA)
@@ -5162,6 +5197,7 @@ Held Item: None
 Type: Water
 
 New Moves:
+- Chilling Water (Tutor)
 - Double-Edge (Tutor) (PLA)
 - Dual Wingbeat (Tutor)
 - Flip Turn (Tutor)
@@ -5177,6 +5213,7 @@ Type: Water / Steel
 
 New Moves:
 - Air Slash (TM)
+- Chilling Water (Tutor)
 - Double-Edge (Tutor) (PLA)
 - Dual Wingbeat (Tutor)
 - Iron Head (Tutor)
@@ -5230,7 +5267,7 @@ Held Item: None
 Type: Normal
 
 New Moves:
-- None
+- Chilling Water (Tutor)
 
 -------------------
 400 - Bibarel
@@ -5241,7 +5278,7 @@ Held Item: Oran Berry (50%), Sitrus Berry (5%)
 Type: Normal / Water
 
 New Moves:
-- None
+- Chilling Water (Tutor)
 
 -------------------
 401 - Kricketot
@@ -6052,6 +6089,7 @@ Held Item: None
 Type: Water
 
 New Moves:
+- Chilling Water (Tutor)
 - Double-Edge (Tutor)
 - Flip Turn (Tutor) (HOME)
 - Hydro Pump (Level/Tutor) (PLA)
@@ -6067,6 +6105,7 @@ Held Item: None
 Type: Water
 
 New Moves:
+- Chilling Water (Tutor)
 - Double-Edge (Tutor)
 - Flip Turn (Tutor) (HOME)
 - Hydro Pump (Level/Tutor) (PLA)

@@ -138,6 +138,7 @@ Type: Water
 
 New Moves:
 - Chilling Water (Tutor)
+- Ice Spinner (Tutor)
 
 -------------------
 008 - Wartortle
@@ -149,6 +150,7 @@ Type: Water
 
 New Moves:
 - Chilling Water (Tutor)
+- Ice Spinner (Tutor)
 
 -------------------
 009 - Blastoise
@@ -160,6 +162,7 @@ Type: Water
 
 New Moves:
 - Chilling Water (Tutor)
+- Ice Spinner (Tutor)
 
 -------------------
 010 - Caterpie
@@ -406,6 +409,7 @@ Type: Ground
 
 New Moves:
 - Fissure (Level) (RBY VC)
+- Ice Spinner (Tutor)
 
 -------------------
 028 - Sandslash
@@ -417,6 +421,7 @@ Type: Ground
 
 New Moves:
 - Fissure (Level) (RBY VC)
+- Ice Spinner (Tutor)
 
 -------------------
 029 - Nidoran♀
@@ -505,6 +510,7 @@ Type: Fairy
 
 New Moves:
 - Chilling Water (Tutor)
+- Ice Spinner (Tutor)
 - Teleport (Tutor) (LGPE)
 - Trailblaze (Tutor)
 
@@ -518,6 +524,7 @@ Type: Fairy
 
 New Moves:
 - Chilling Water (Tutor)
+- Ice Spinner (Tutor)
 - Teleport (Tutor) (LGPE)
 - Trailblaze (Tutor)
 
@@ -1192,6 +1199,7 @@ New Moves:
 - Belly Drum (Level)
 - Chilling Water (Tutor)
 - Flip Turn (Tutor) (HOME)
+- Ice Spinner (Tutor)
 - Megahorn (Tutor) (LGPE)
 - Play Rough (TM)
 - Wave Crash (Level)
@@ -1208,7 +1216,8 @@ New Moves:
 - Belly Drum (Level)
 - Chilling Water (Tutor)
 - Flip Turn (Tutor) (HOME)
-- Hydro Pump (Tutor)
+- Hydro Pump (Tutor) (HOME)
+- Ice Spinner (Tutor)
 - Megahorn (Tutor) (LGPE)
 - Play Rough (TM)
 - Triple Axel (Tutor) (HOME)
@@ -1486,6 +1495,7 @@ Held Item: None
 Type: Fighting
 
 New Moves:
+- Ice Spinner (Tutor)
 - Power-Up Punch (Level/Tutor)
 
 -------------------
@@ -1696,6 +1706,7 @@ Type: Water
 
 New Moves:
 - Chilling Water (Tutor)
+- Ice Spinner (Tutor)
 - Teleport (Tutor) (LGPE)
 
 -------------------
@@ -1708,6 +1719,7 @@ Type: Water / Psychic
 
 New Moves:
 - Chilling Water (Tutor)
+- Ice Spinner (Tutor)
 - Teleport (Tutor) (LGPE)
 
 -------------------
@@ -3144,7 +3156,7 @@ Held Item: None
 Type: Ice / Ground
 
 New Moves:
-- None
+- Ice Spinner (Tutor)
 
 -------------------
 221 - Piloswine
@@ -3155,7 +3167,7 @@ Held Item: None
 Type: Ice / Ground
 
 New Moves:
-- None
+- Ice Spinner (Tutor)
 
 -------------------
 473 - Mamoswine
@@ -3167,6 +3179,7 @@ Type: Ice / Ground
 
 New Moves:
 - Headlong Rush (Level)
+- Ice Spinner (Tutor)
 
 -------------------
 222 - Corsola
@@ -4568,6 +4581,7 @@ Held Item: None
 Type: Ground / Psychic
 
 New Moves:
+- Ice Spinner (Tutor)
 - Mud Bomb (Level)
 - Recover (Level)
 
@@ -4581,6 +4595,7 @@ Type: Ground / Psychic
 
 New Moves:
 - Fly (HM)
+- Ice Spinner (Tutor)
 - Mud Bomb (Level)
 - Recover (Level)
 
@@ -4830,6 +4845,7 @@ Type: Ice / Water
 
 New Moves:
 - Chilling Water (Tutor)
+- Ice Spinner (Tutor)
 - Slack Off (Level)
 
 -------------------
@@ -4842,6 +4858,7 @@ Type: Ice / Water
 
 New Moves:
 - Chilling Water (Tutor)
+- Ice Spinner (Tutor)
 - Slack Off (Level)
 
 -------------------
@@ -4854,6 +4871,7 @@ Type: Ice / Water
 
 New Moves:
 - Chilling Water (Tutor)
+- Ice Spinner (Tutor)
 - Slack Off (Level)
 
 -------------------

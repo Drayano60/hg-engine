@@ -1050,6 +1050,48 @@ Function 5081:
     JumpIf EQUAL Function#5082
     CompareVarValue 0x8004 478
     JumpIf EQUAL Function#5082
+//______custom_entries_custom
+//______ice_types_and_rapid_spinners
+    CompareVarValue 0x8004 007
+    JumpIf EQUAL Function#5082
+    CompareVarValue 0x8004 008
+    JumpIf EQUAL Function#5082
+    CompareVarValue 0x8004 009
+    JumpIf EQUAL Function#5082
+    CompareVarValue 0x8004 027
+    JumpIf EQUAL Function#5082
+    CompareVarValue 0x8004 028
+    JumpIf EQUAL Function#5082
+    CompareVarValue 0x8004 035
+    JumpIf EQUAL Function#5082
+    CompareVarValue 0x8004 036
+    JumpIf EQUAL Function#5082
+    CompareVarValue 0x8004 086
+    JumpIf EQUAL Function#5082
+    CompareVarValue 0x8004 087
+    JumpIf EQUAL Function#5082
+    CompareVarValue 0x8004 120
+    JumpIf EQUAL Function#5082
+    CompareVarValue 0x8004 121
+    JumpIf EQUAL Function#5082
+    CompareVarValue 0x8004 220
+    JumpIf EQUAL Function#5082
+    CompareVarValue 0x8004 221
+    JumpIf EQUAL Function#5082
+    CompareVarValue 0x8004 237
+    JumpIf EQUAL Function#5082
+    CompareVarValue 0x8004 343
+    JumpIf EQUAL Function#5082
+    CompareVarValue 0x8004 344
+    JumpIf EQUAL Function#5082
+    CompareVarValue 0x8004 363
+    JumpIf EQUAL Function#5082
+    CompareVarValue 0x8004 364
+    JumpIf EQUAL Function#5082
+    CompareVarValue 0x8004 365
+    JumpIf EQUAL Function#5082
+    CompareVarValue 0x8004 473
+    JumpIf EQUAL Function#5082
 Return
 
 Function 5082:

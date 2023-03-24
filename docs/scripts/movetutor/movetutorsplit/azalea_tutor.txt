@@ -1792,6 +1792,51 @@ Function 2111:
     JumpIf EQUAL Function#2112
     CompareVarValue 0x8004 485
     JumpIf EQUAL Function#2112
+//______custom_entries_custom
+    CompareVarValue 0x8004 012
+    JumpIf EQUAL Function#2112
+    CompareVarValue 0x8004 015
+    JumpIf EQUAL Function#2112
+    CompareVarValue 0x8004 023
+    JumpIf EQUAL Function#2112
+    CompareVarValue 0x8004 024
+    JumpIf EQUAL Function#2112
+    CompareVarValue 0x8004 046
+    JumpIf EQUAL Function#2112
+    CompareVarValue 0x8004 047
+    JumpIf EQUAL Function#2112
+    CompareVarValue 0x8004 127
+    JumpIf EQUAL Function#2112
+    CompareVarValue 0x8004 165
+    JumpIf EQUAL Function#2112
+    CompareVarValue 0x8004 166
+    JumpIf EQUAL Function#2112
+    CompareVarValue 0x8004 167
+    JumpIf EQUAL Function#2112
+    CompareVarValue 0x8004 168
+    JumpIf EQUAL Function#2112
+    CompareVarValue 0x8004 193
+    JumpIf EQUAL Function#2112
+    CompareVarValue 0x8004 267
+    JumpIf EQUAL Function#2112
+    CompareVarValue 0x8004 269
+    JumpIf EQUAL Function#2112
+    CompareVarValue 0x8004 291
+    JumpIf EQUAL Function#2112
+    CompareVarValue 0x8004 313
+    JumpIf EQUAL Function#2112
+    CompareVarValue 0x8004 314
+    JumpIf EQUAL Function#2112
+    CompareVarValue 0x8004 347
+    JumpIf EQUAL Function#2112
+    CompareVarValue 0x8004 348
+    JumpIf EQUAL Function#2112
+    CompareVarValue 0x8004 451
+    JumpIf EQUAL Function#2112
+    CompareVarValue 0x8004 452
+    JumpIf EQUAL Function#2112
+    CompareVarValue 0x8004 469
+    JumpIf EQUAL Function#2112
 Return
 
 Function 2112:

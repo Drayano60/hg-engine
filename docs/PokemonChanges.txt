@@ -195,6 +195,7 @@ New Moves:
 - Fly (HM)
 - Mega Drain (Tutor) (LGPE)
 - Teleport (Tutor) (LGPE)
+- Pounce (Tutor)
 
 -------------------
 013 - Weedle
@@ -232,6 +233,7 @@ New Moves:
 - Lunge (Level)
 - Mega Drain (Tutor) (LGPE)
 - Megahorn (Tutor)
+- Pounce (Tutor)
 - Screech (Tutor) (HOME)
 - Smart Strike (TM)
 
@@ -339,6 +341,7 @@ New Moves:
 - Breaking Swipe (Tutor)
 - Dragon Dance (Tutor)
 - Mega Drain (Tutor) (LGPE)
+- Pounce (Tutor)
 - Power Whip (Tutor)
 - Scale Shot (Tutor) (HOME)
 - Skitter Smack (Tutor) (HOME)
@@ -355,6 +358,7 @@ New Moves:
 - Breaking Swipe (Tutor)
 - Dragon Dance (Tutor)
 - Mega Drain (Tutor) (LGPE)
+- Pounce (Tutor)
 - Power Whip (Tutor)
 - Scale Shot (Tutor) (HOME)
 - Skitter Smack (Tutor) (HOME)
@@ -671,6 +675,7 @@ Type: Bug / Grass
 New Moves:
 - First Impression (Level)
 - Mega Drain (Tutor) (LGPE)
+- Pounce (Tutor)
 - Skitter Smack (Level/Tutor) (HOME)
 - Trailblaze (Tutor)
 
@@ -685,6 +690,7 @@ Type: Bug / Grass
 New Moves:
 - First Impression (Level)
 - Mega Drain (Tutor) (LGPE)
+- Pounce (Tutor)
 - Shadow Claw (Level/TM)
 - Skitter Smack (Level/Tutor) (HOME)
 - Trailblaze (Tutor)
@@ -1859,6 +1865,7 @@ Type: Bug ⟶ Bug / Ground
 
 New Moves:
 - Megahorn (Tutor)
+- Pounce (Tutor)
 
 -------------------
 128 - Tauros
@@ -2449,6 +2456,7 @@ New Moves:
 - Mega Drain (Tutor)
 - Meteor Mash (Level)
 - Pollen Puff (Tutor)
+- Pounce (Tutor)
 
 -------------------
 166 - Ledian
@@ -2467,6 +2475,7 @@ New Moves:
 - Mega Drain (Tutor)
 - Meteor Mash (Level)
 - Pollen Puff (Tutor)
+- Pounce (Tutor)
 
 -------------------
 167 - Spinarak
@@ -2481,6 +2490,7 @@ New Moves:
 - Gunk Shot (Tutor)
 - Mega Drain (Tutor)
 - Poison Fang (Level)
+- Pounce (Tutor)
 - Psychic Fangs (Tutor)
 - Screech (Tutor) (HOME)
 - Skitter Smack (Tutor) (HOME)
@@ -2499,6 +2509,7 @@ New Moves:
 - Gunk Shot (Tutor)
 - Mega Drain (Tutor)
 - Poison Fang (Level)
+- Pounce (Tutor)
 - Psychic Fangs (Tutor)
 - Screech (Tutor) (HOME)
 - Skitter Smack (Tutor) (HOME)
@@ -2790,6 +2801,7 @@ New Moves:
 - Dual Wingbeat (Tutor) (HOME)
 - Hurricane (Level/Tutor) (HOME)
 - Mega Drain (Tutor)
+- Pounce (Tutor)
 
 -------------------
 469 - Yanmega
@@ -2806,6 +2818,7 @@ New Moves:
 - Fly (HM)
 - Hurricane (Level/Tutor) (HOME)
 - Mega Drain (Tutor)
+- Pounce (Tutor)
 
 -------------------
 194 - Wooper
@@ -3603,6 +3616,7 @@ New Moves:
 - Hurricane (Tutor)
 - Leech Life (Level/TM) (BDSP)
 - Pollen Puff (Tutor)
+- Pounce (Tutor)
 
 -------------------
 268 - Cascoon
@@ -3632,6 +3646,7 @@ New Moves:
 - Mega Drain (Tutor)
 - Moonblast (Level)
 - Pollen Puff (Tutor)
+- Pounce (Tutor)
 - Sleep Powder (Level)
 
 -------------------
@@ -3897,6 +3912,7 @@ Type: Bug / Flying
 
 New Moves:
 - Mega Drain (Tutor)
+- Pounce (Tutor)
 
 -------------------
 292 - Shedinja
@@ -4165,6 +4181,7 @@ New Moves:
 - Mega Drain (Tutor)
 - Moonblast (Level)
 - Pollen Puff (Tutor)
+- Pounce (Tutor)
 
 -------------------
 314 - Illumise
@@ -4182,6 +4199,7 @@ New Moves:
 - Pollen Puff (Tutor)
 - Pollen Puff (Tutor) (HOME)
 - Quiver Dance (Level)
+- Pounce (Tutor)
 
 -------------------
 406 - Budew
@@ -4597,7 +4615,7 @@ Held Item: None
 Type: Rock / Bug
 
 New Moves:
-- None
+- Pounce (Tutor)
 
 -------------------
 348 - Armaldo
@@ -4608,7 +4626,7 @@ Held Item: None
 Type: Rock / Bug
 
 New Moves:
-- None
+- Pounce (Tutor)
 
 -------------------
 349 - Feebas
@@ -5812,6 +5830,7 @@ Type: Poison / Bug
 
 New Moves:
 - Double-Edge (Tutor)
+- Pounce (Tutor)
 
 -------------------
 452 - Drapion
@@ -5823,6 +5842,7 @@ Type: Poison / Dark
 
 New Moves:
 - Double-Edge (Tutor)
+- Pounce (Tutor)
 
 -------------------
 453 - Croagunk

@@ -4567,8 +4567,8 @@ levelup SPECIES_SENTRET
 
 // NEW: Tail Slap (HOME Datamine), Extreme Speed
 levelup SPECIES_FURRET
-    learnset MOVE_HELPING_HAND, 1
     learnset MOVE_BRUTAL_SWING, 1
+    learnset MOVE_HELPING_HAND, 1
     learnset MOVE_AGILITY, 1
     learnset MOVE_CHARM, 1
     learnset MOVE_SCRATCH, 1

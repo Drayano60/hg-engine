@@ -8,6 +8,7 @@ Type: Grass / Poison
 
 New Moves:
 - Mega Drain (Tutor) (LGPE)
+- Trailblaze (Tutor)
 
 Level Up Moves:
 01 - Tackle
@@ -38,6 +39,7 @@ Type: Grass / Poison
 
 New Moves:
 - Mega Drain (Tutor) (LGPE)
+- Trailblaze (Tutor)
 
 Level Up Moves:
 01 - Tackle
@@ -69,6 +71,7 @@ Type: Grass / Poison
 
 New Moves:
 - Mega Drain (Tutor) (LGPE)
+- Trailblaze (Tutor)
 
 Level Up Moves:
 01 - Petal Blizzard
@@ -486,7 +489,7 @@ Held Item: Leppa Berry (50%), Moon Stone (5%)
 Type: Fairy
 
 New Moves:
-- None
+- Trailblaze (Tutor)
 
 -------------------
 035 - Clefairy
@@ -499,6 +502,7 @@ Type: Fairy
 New Moves:
 - Chilling Water (Tutor)
 - Teleport (Tutor) (LGPE)
+- Trailblaze (Tutor)
 
 -------------------
 036 - Clefable
@@ -511,6 +515,7 @@ Type: Fairy
 New Moves:
 - Chilling Water (Tutor)
 - Teleport (Tutor) (LGPE)
+- Trailblaze (Tutor)
 
 -------------------
 037 - Vulpix
@@ -620,7 +625,7 @@ Held Item: None
 Type: Grass / Poison
 
 New Moves:
-- None
+- Trailblaze (Tutor)
 
 -------------------
 044 - Gloom
@@ -631,7 +636,7 @@ Held Item: None
 Type: Grass / Poison
 
 New Moves:
-- None
+- Trailblaze (Tutor)
 
 -------------------
 045 - Vileplume
@@ -642,7 +647,7 @@ Held Item: None
 Type: Grass / Poison
 
 New Moves:
-- None
+- Trailblaze (Tutor)
 
 -------------------
 182 - Bellossom
@@ -653,7 +658,7 @@ Held Item: None
 Type: Grass
 
 New Moves:
-- None
+- Trailblaze (Tutor)
 
 -------------------
 046 - Paras
@@ -667,6 +672,7 @@ New Moves:
 - First Impression (Level)
 - Mega Drain (Tutor) (LGPE)
 - Skitter Smack (Level/Tutor) (HOME)
+- Trailblaze (Tutor)
 
 -------------------
 047 - Parasect
@@ -681,6 +687,7 @@ New Moves:
 - Mega Drain (Tutor) (LGPE)
 - Shadow Claw (Level/TM)
 - Skitter Smack (Level/Tutor) (HOME)
+- Trailblaze (Tutor)
 
 -------------------
 048 - Venonat
@@ -945,6 +952,7 @@ Type: Grass / Poison
 New Moves:
 - Leaf Blade (Level/Tutor)
 - Mega Drain (Tutor) (LGPE)
+- Trailblaze (Tutor)
 
 -------------------
 070 - Weepinbell
@@ -958,6 +966,7 @@ New Moves:
 - Leaf Blade (Level/Tutor)
 - Mega Drain (Tutor) (LGPE)
 - Solar Blade (Tutor) (HOME)
+- Trailblaze (Tutor)
 
 -------------------
 071 - Victreebel
@@ -970,6 +979,7 @@ Type: Grass / Poison
 New Moves:
 - Mega Drain (Tutor) (LGPE)
 - Solar Blade (Tutor) (HOME)
+- Trailblaze (Tutor)
 
 -------------------
 072 - Tentacool
@@ -1591,7 +1601,7 @@ Held Item: None
 Type: Grass
 
 New Moves:
-- None
+- Trailblaze (Tutor)
 
 -------------------
 465 - Tangrowth
@@ -1602,7 +1612,7 @@ Held Item: None
 Type: Grass
 
 New Moves:
-- None
+- Trailblaze (Tutor)
 
 -------------------
 115 - Kangaskhan
@@ -2239,6 +2249,7 @@ New Moves:
 - Play Rough (TM)
 - Pollen Puff (Tutor) (HOME)
 - Solar Blade (Tutor) (HOME)
+- Trailblaze (Tutor)
 
 * If type changes are removed, Chikorita cannot learn these moves.
 ** If type changes are removed, Chikorita can only learn Draining Kiss by Move Tutor.
@@ -2259,6 +2270,7 @@ New Moves:
 - Play Rough (TM)
 - Pollen Puff (Tutor) (HOME)
 - Solar Blade (Tutor) (HOME)
+- Trailblaze (Tutor)
 
 * If type changes are removed, Bayleef cannot learn these moves.
 ** If type changes are removed, Bayleef can only learn Draining Kiss by Move Tutor.
@@ -2281,6 +2293,7 @@ New Moves:
 - Pollen Puff (Tutor) (HOME)
 - Power Whip (Tutor)
 - Solar Blade (Tutor) (HOME)
+- Trailblaze (Tutor)
 
 * If type changes are removed, Meganium cannot learn these moves.
 ** If type changes are removed, Meganium can only learn Draining Kiss by Move Tutor.
@@ -3415,7 +3428,7 @@ Held Item: None
 Type: Grass
 
 New Moves:
-- None
+- Trailblaze (Tutor)
 
 -------------------
 253 - Grovyle
@@ -3426,7 +3439,7 @@ Held Item: None
 Type: Grass
 
 New Moves:
-- None
+- Trailblaze (Tutor)
 
 -------------------
 254 - Sceptile
@@ -3437,7 +3450,7 @@ Held Item: None
 Type: Grass ⟶ Grass / Dragon
 
 New Moves:
-- None
+- Trailblaze (Tutor)
 
 -------------------
 255 - Torchic
@@ -3631,6 +3644,7 @@ Type: Water / Grass
 
 New Moves:
 - Chilling Water (Tutor)
+- Trailblaze (Tutor)
 
 -------------------
 271 - Lombre
@@ -3642,6 +3656,7 @@ Type: Water / Grass
 
 New Moves:
 - Chilling Water (Tutor)
+- Trailblaze (Tutor)
 
 -------------------
 272 - Ludicolo
@@ -3653,6 +3668,7 @@ Type: Water / Grass
 
 New Moves:
 - Chilling Water (Tutor)
+- Trailblaze (Tutor)
 
 -------------------
 273 - Seedot
@@ -3663,7 +3679,7 @@ Held Item: None
 Type: Grass / Dark
 
 New Moves:
-- None
+- Trailblaze (Tutor)
 
 -------------------
 274 - Nuzleaf
@@ -3674,7 +3690,7 @@ Held Item: None
 Type: Grass / Dark
 
 New Moves:
-- None
+- Trailblaze (Tutor)
 
 -------------------
 275 - Shiftry
@@ -3685,7 +3701,7 @@ Held Item: None
 Type: Grass / Dark
 
 New Moves:
-- None
+- Trailblaze (Tutor)
 
 -------------------
 276 - Taillow
@@ -4097,6 +4113,7 @@ Type: Electric
 
 New Moves:
 - Thunder Shock (Level)
+- Trailblaze (Tutor)
 - Volt Tackle (Level)
 
 -------------------
@@ -4109,6 +4126,7 @@ Type: Electric
 
 New Moves:
 - Thunder Shock (Level)
+- Trailblaze (Tutor)
 - Volt Tackle (Level)
 
 -------------------
@@ -4174,7 +4192,7 @@ Held Item: Poison Barb (5%)
 Type: Grass / Poison
 
 New Moves:
-- None
+- Trailblaze (Tutor)
 
 -------------------
 315 - Roselia
@@ -4185,7 +4203,7 @@ Held Item: Poison Barb (5%)
 Type: Grass / Poison
 
 New Moves:
-- None
+- Trailblaze (Tutor)
 
 -------------------
 407 - Roserade
@@ -4196,7 +4214,7 @@ Held Item: Poison Barb (5%)
 Type: Grass / Poison
 
 New Moves:
-- None
+- Trailblaze (Tutor)
 
 -------------------
 316 - Gulpin
@@ -5111,6 +5129,7 @@ New Moves:
 - Bulldoze (TM) (PLA)
 - Shell Smash (Level)
 - Skitter Smack (Tutor) (HOME)
+- Trailblaze (Tutor)
 
 -------------------
 388 - Grotle
@@ -5124,6 +5143,7 @@ New Moves:
 - Bulldoze (TM) (PLA)
 - Shell Smash (Level)
 - Skitter Smack (Tutor) (HOME)
+- Trailblaze (Tutor)
 
 -------------------
 389 - Torterra
@@ -5137,6 +5157,7 @@ New Moves:
 - Headlong Rush (Level) (PLA)
 - Shell Smash (Level)
 - Skitter Smack (Tutor) (HOME)
+- Trailblaze (Tutor)
 
 -------------------
 390 - Chimchar
@@ -5528,6 +5549,7 @@ Type: Grass
 New Moves:
 - Double-Edge (Tutor) (PLA)
 - Mega Drain (Tutor)
+- Trailblaze (Tutor)
 
 -------------------
 421 - Cherrim
@@ -5540,6 +5562,7 @@ Type: Grass
 New Moves:
 - Double-Edge (Tutor) (PLA)
 - Mega Drain (Tutor)
+- Trailblaze (Tutor)
 
 -------------------
 422 - Shellos
@@ -5838,6 +5861,7 @@ New Moves:
 - Leaf Blade (Level/Tutor)
 - Leech Life (Level/TM) (PLA)
 - Poison Fang (Level)
+- Trailblaze (Tutor)
 
 -------------------
 456 - Finneon
@@ -6134,6 +6158,7 @@ Type: Grass
 New Moves:
 - Double-Edge (Tutor)
 - Mega Drain (Tutor)
+- Trailblaze (Tutor)
 
 -------------------
 492.2 - Shaymin (Sky Forme)
@@ -6146,6 +6171,7 @@ Type: Grass / Flying
 New Moves:
 - Double-Edge (Tutor)
 - Mega Drain (Tutor)
+- Trailblaze (Tutor)
 
 -------------------
 493 - Arceus

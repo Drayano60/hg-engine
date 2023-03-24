@@ -214,7 +214,6 @@ levelup SPECIES_METAPOD
     terminatelearnset
 
 levelup SPECIES_BUTTERFREE
-    learnset MOVE_MEGA_DRAIN, 1
     learnset MOVE_TACKLE, 1 
     learnset MOVE_STRING_SHOT, 1 
     learnset MOVE_BUG_BITE, 1
@@ -248,7 +247,6 @@ levelup SPECIES_KAKUNA
 
 // NEW: Cross Poison (HOME Datamine), Lunge
 levelup SPECIES_BEEDRILL
-    learnset MOVE_FURY_CUTTER, 1
     learnset MOVE_POISON_STING, 1 
     learnset MOVE_STRING_SHOT, 1 
     learnset MOVE_BUG_BITE, 1
@@ -306,9 +304,7 @@ levelup SPECIES_PIDGEOTTO
     learnset MOVE_SKY_ATTACK, 59
     terminatelearnset
 
-// NEW: Tri Attack
 levelup SPECIES_PIDGEOT
-    learnset MOVE_TRI_ATTACK, 1
     learnset MOVE_HEAT_WAVE, 1
     learnset MOVE_TACKLE, 1
     learnset MOVE_SAND_ATTACK, 1
@@ -827,8 +823,6 @@ levelup SPECIES_CLEFAIRY
     
 levelup SPECIES_CLEFABLE
     learnset MOVE_AROMATHERAPY, 1
-    learnset MOVE_TELEPORT, 1
-    learnset MOVE_TRI_ATTACK, 1
     learnset MOVE_WISH, 1
     learnset MOVE_POUND, 1
     learnset MOVE_GROWL, 1
@@ -6802,9 +6796,8 @@ levelup SPECIES_SILCOON
     learnset MOVE_HARDEN, 7 
     terminatelearnset
 
-// NEW: Leech Life (BDSP), Air Slash (HOME Datamine)
+// NEW: Air Slash (HOME Datamine)
 levelup SPECIES_BEAUTIFLY
-    learnset MOVE_LEECH_LIFE, 1
     learnset MOVE_TACKLE, 1 
     learnset MOVE_STRING_SHOT, 1 
     learnset MOVE_POISON_STING, 1 
@@ -6831,9 +6824,8 @@ levelup SPECIES_CASCOON
     learnset MOVE_HARDEN, 7 
     terminatelearnset
 
-// NEW: Acid Spray, Sleep Powder, Moonblast
+// NEW: Sleep Powder, Moonblast
 levelup SPECIES_DUSTOX
-    learnset MOVE_ACID_SPRAY, 1
     learnset MOVE_TACKLE, 1 
     learnset MOVE_STRING_SHOT, 1 
     learnset MOVE_POISON_STING, 1 

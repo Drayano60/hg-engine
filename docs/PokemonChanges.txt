@@ -7,7 +7,7 @@ Held Item: None
 Type: Grass / Poison
 
 New Moves:
-- None
+- Mega Drain (Tutor) (LGPE)
 
 Level Up Moves:
 01 - Tackle
@@ -37,7 +37,7 @@ Held Item: None
 Type: Grass / Poison
 
 New Moves:
-- None
+- Mega Drain (Tutor) (LGPE)
 
 Level Up Moves:
 01 - Tackle
@@ -68,7 +68,7 @@ Held Item: None
 Type: Grass / Poison
 
 New Moves:
-- None
+- Mega Drain (Tutor) (LGPE)
 
 Level Up Moves:
 01 - Petal Blizzard
@@ -190,6 +190,8 @@ Type: Bug / Flying
 
 New Moves:
 - Fly (HM)
+- Mega Drain (Tutor) (LGPE)
+- Teleport (Tutor) (LGPE)
 
 -------------------
 013 - Weedle
@@ -225,6 +227,7 @@ New Moves:
 - Cross Poison (Level/Tutor) (HOME)
 - Dual Wingbeat (Tutor) (HOME)
 - Lunge (Level)
+- Mega Drain (Tutor) (LGPE)
 - Megahorn (Tutor)
 - Screech (Tutor) (HOME)
 - Smart Strike (TM)
@@ -332,6 +335,7 @@ Type: Poison
 New Moves:
 - Breaking Swipe (Tutor)
 - Dragon Dance (Tutor)
+- Mega Drain (Tutor) (LGPE)
 - Power Whip (Tutor)
 - Scale Shot (Tutor) (HOME)
 - Skitter Smack (Tutor) (HOME)
@@ -347,6 +351,7 @@ Type: Poison
 New Moves:
 - Breaking Swipe (Tutor)
 - Dragon Dance (Tutor)
+- Mega Drain (Tutor) (LGPE)
 - Power Whip (Tutor)
 - Scale Shot (Tutor) (HOME)
 - Skitter Smack (Tutor) (HOME)
@@ -492,7 +497,7 @@ Held Item: Leppa Berry (50%), Moon Stone (5%)
 Type: Fairy
 
 New Moves:
-- None
+- Teleport (Tutor) (LGPE)
 
 -------------------
 036 - Clefable
@@ -503,7 +508,7 @@ Held Item: Leppa Berry (50%), Moon Stone (5%)
 Type: Fairy
 
 New Moves:
-- None
+- Teleport (Tutor) (LGPE)
 
 -------------------
 037 - Vulpix
@@ -555,6 +560,7 @@ Type: Normal / Fairy
 New Moves:
 - Boomburst (Level)
 - Moonblast (Level)
+- Teleport (Tutor) (LGPE)
 
 -------------------
 040 - Wigglytuff
@@ -568,6 +574,7 @@ New Moves:
 - Boomburst (Level)
 - Moonblast (Level)
 - Noble Roar (Level)
+- Teleport (Tutor) (LGPE)
 
 -------------------
 041 - Zubat
@@ -578,7 +585,7 @@ Held Item: None
 Type: Poison / Flying
 
 New Moves:
-- None
+- Mega Drain (Tutor) (LGPE)
 
 -------------------
 042 - Golbat
@@ -589,7 +596,7 @@ Held Item: None
 Type: Poison / Flying
 
 New Moves:
-- None
+- Mega Drain (Tutor) (LGPE)
 
 -------------------
 169 - Crobat
@@ -600,7 +607,7 @@ Held Item: None
 Type: Poison / Flying
 
 New Moves:
-- None
+- Mega Drain (Tutor) (LGPE)
 
 -------------------
 043 - Oddish
@@ -656,6 +663,7 @@ Type: Bug / Grass
 
 New Moves:
 - First Impression (Level)
+- Mega Drain (Tutor) (LGPE)
 - Skitter Smack (Level/Tutor) (HOME)
 
 -------------------
@@ -668,6 +676,7 @@ Type: Bug / Grass
 
 New Moves:
 - First Impression (Level)
+- Mega Drain (Tutor) (LGPE)
 - Shadow Claw (Level/TM)
 - Skitter Smack (Level/Tutor) (HOME)
 
@@ -680,7 +689,7 @@ Held Item: None
 Type: Bug / Poison
 
 New Moves:
-- None
+- Mega Drain (Tutor) (LGPE)
 
 -------------------
 049 - Venomoth
@@ -694,7 +703,9 @@ New Moves:
 - Dual Wingbeat (Tutor) (HOME)
 - Fly (HM)
 - Hurricane (Tutor)
+- Mega Drain (Tutor) (LGPE)
 - Pollen Puff (Tutor)
+- Teleport (Tutor) (LGPE)
 
 -------------------
 050 - Diglett
@@ -804,7 +815,7 @@ Held Item: Rawst Berry (100%)
 Type: Fire
 
 New Moves:
-- None
+- Teleport (Tutor) (LGPE)
 
 -------------------
 060 - Poliwag
@@ -930,6 +941,7 @@ Type: Grass / Poison
 
 New Moves:
 - Leaf Blade (Level/Tutor)
+- Mega Drain (Tutor) (LGPE)
 
 -------------------
 070 - Weepinbell
@@ -941,6 +953,7 @@ Type: Grass / Poison
 
 New Moves:
 - Leaf Blade (Level/Tutor)
+- Mega Drain (Tutor) (LGPE)
 - Solar Blade (Tutor) (HOME)
 
 -------------------
@@ -952,6 +965,7 @@ Held Item: None
 Type: Grass / Poison
 
 New Moves:
+- Mega Drain (Tutor) (LGPE)
 - Solar Blade (Tutor) (HOME)
 
 -------------------
@@ -963,7 +977,7 @@ Held Item: Poison Barb (5%)
 Type: Water / Poison
 
 New Moves:
-- None
+- Mega Drain (Tutor) (LGPE)
 
 -------------------
 073 - Tentacruel
@@ -974,6 +988,7 @@ Held Item: Poison Barb (5%)
 Type: Water / Poison
 
 New Moves:
+- Mega Drain (Tutor) (LGPE)
 - Power Whip (Tutor)
 
 -------------------
@@ -1049,7 +1064,7 @@ Held Item: None
 Type: Water / Psychic
 
 New Moves:
-- None
+- Teleport (Tutor) (LGPE)
 
 -------------------
 080 - Slowbro
@@ -1060,7 +1075,7 @@ Held Item: King's Rock (5%)
 Type: Water / Psychic
 
 New Moves:
-- None
+- Teleport (Tutor) (LGPE)
 
 -------------------
 199 - Slowking
@@ -1071,7 +1086,7 @@ Held Item: King's Rock (5%)
 Type: Water / Psychic
 
 New Moves:
-- None
+- Teleport (Tutor) (LGPE)
 
 -------------------
 081 - Magnemite
@@ -1082,7 +1097,7 @@ Held Item: Metal Coat (5%)
 Type: Electric / Steel
 
 New Moves:
-- None
+- Teleport (Tutor) (LGPE)
 
 -------------------
 082 - Magneton
@@ -1093,7 +1108,7 @@ Held Item: Metal Coat (5%)
 Type: Electric / Steel
 
 New Moves:
-- None
+- Teleport (Tutor) (LGPE)
 
 -------------------
 462 - Magnezone
@@ -1105,6 +1120,7 @@ Type: Electric / Steel
 
 New Moves:
 - Fly (HM)
+- Teleport (Tutor) (LGPE)
 
 -------------------
 083 - Farfetch’d
@@ -1184,6 +1200,7 @@ Held Item: Nugget (5%)
 Type: Poison
 
 New Moves:
+- Mega Drain (Tutor) (LGPE)
 - Skitter Smack (Tutor) (HOME)
 
 -------------------
@@ -1195,6 +1212,7 @@ Held Item: Nugget (5%)
 Type: Poison
 
 New Moves:
+- Mega Drain (Tutor) (LGPE)
 - Skitter Smack (Tutor) (HOME)
 
 -------------------
@@ -1206,7 +1224,7 @@ Held Item: Pearl (50%), Big Pearl (5%)
 Type: Water
 
 New Moves:
-- None
+- Teleport (Tutor) (LGPE)
 
 -------------------
 091 - Cloyster
@@ -1217,7 +1235,7 @@ Held Item: Pearl (50%), Big Pearl (5%)
 Type: Water / Ice
 
 New Moves:
-- None
+- Teleport (Tutor) (LGPE)
 
 -------------------
 092 - Gastly
@@ -1228,6 +1246,7 @@ Held Item: None
 Type: Ghost / Poison
 
 New Moves:
+- Mega Drain (Tutor) (LGPE)
 - Poison Gas (Level) (LGPE)
 
 -------------------
@@ -1239,6 +1258,7 @@ Held Item: None
 Type: Ghost / Poison
 
 New Moves:
+- Mega Drain (Tutor) (LGPE)
 - Poison Gas (Level) (LGPE)
 
 -------------------
@@ -1250,6 +1270,7 @@ Held Item: None
 Type: Ghost / Poison
 
 New Moves:
+- Mega Drain (Tutor) (LGPE)
 - Poison Gas (Level) (LGPE)
 
 Notes: Gengar keeps its Levitate ability from Gen IV in all versions of the game.
@@ -1290,6 +1311,7 @@ New Moves:
 - Belly Drum (Level) (G3 Event)
 - Draining Kiss (Tutor) (HOME)
 - Tri Attack (Tutor) (HOME)
+- Teleport (Tutor) (LGPE)
 
 -------------------
 097 - Hypno
@@ -1303,6 +1325,7 @@ New Moves:
 - Belly Drum (Level) (G3 Event)
 - Draining Kiss (Tutor) (HOME)
 - Tri Attack (Tutor) (HOME)
+- Teleport (Tutor) (LGPE)
 
 -------------------
 098 - Krabby
@@ -1338,6 +1361,7 @@ New Moves:
 - Boomburst (Level)
 - Nasty Plot (TM)
 - Overheat (TM)
+- Teleport (Tutor) (LGPE)
 
 -------------------
 101 - Electrode
@@ -1351,6 +1375,7 @@ New Moves:
 - Boomburst (Level)
 - Nasty Plot (TM)
 - Overheat (TM)
+- Teleport (Tutor) (LGPE)
 
 -------------------
 102 - Exeggcute
@@ -1361,7 +1386,7 @@ Held Item: None
 Type: Grass / Psychic
 
 New Moves:
-- None
+- Teleport (Tutor) (LGPE)
 
 -------------------
 103 - Exeggutor
@@ -1372,7 +1397,7 @@ Held Item: None
 Type: Grass / Psychic
 
 New Moves:
-- None
+- Teleport (Tutor) (LGPE)
 
 -------------------
 104 - Cubone
@@ -1537,7 +1562,7 @@ Held Item: Oval Stone (50%), Lucky Egg (5%)
 Type: Normal
 
 New Moves:
-- None
+- Teleport (Tutor) (LGPE)
 
 -------------------
 242 - Blissey
@@ -1548,7 +1573,7 @@ Held Item: Oval Stone (50%), Lucky Egg (5%)
 Type: Normal
 
 New Moves:
-- None
+- Teleport (Tutor) (LGPE)
 
 -------------------
 114 - Tangela
@@ -1647,7 +1672,7 @@ Held Item: Stardust (50%), Star Piece (5%)
 Type: Water
 
 New Moves:
-- None
+- Teleport (Tutor) (LGPE)
 
 -------------------
 121 - Starmie
@@ -1658,7 +1683,7 @@ Held Item: Stardust (50%), Star Piece (5%)
 Type: Water / Psychic
 
 New Moves:
-- None
+- Teleport (Tutor) (LGPE)
 
 -------------------
 439 - Mime Jr.
@@ -1681,6 +1706,7 @@ Type: Psychic / Fairy
 
 New Moves:
 - Fairy Wind (Level)
+- Teleport (Tutor) (LGPE)
 
 -------------------
 123 - Scyther
@@ -1725,6 +1751,7 @@ Type: Ice / Psychic
 
 New Moves:
 - Psycho Boost (Level)
+- Teleport (Tutor) (LGPE)
 
 -------------------
 239 - Elekid
@@ -1746,7 +1773,7 @@ Held Item: None
 Type: Electric
 
 New Moves:
-- None
+- Teleport (Tutor) (LGPE)
 
 -------------------
 466 - Electivire
@@ -1760,6 +1787,7 @@ New Moves:
 - Bulk Up (TM)
 - Close Combat* (Level/Tutor)
 - Drain Punch (TM)
+- Teleport (Tutor) (LGPE)
 - Volt Tackle (Level)
 
 * If type changes are removed, Electivire can only learn Close Combat by Move Tutor.
@@ -1784,7 +1812,7 @@ Held Item: None
 Type: Fire
 
 New Moves:
-- None
+- Teleport (Tutor) (LGPE)
 
 -------------------
 467 - Magmortar
@@ -1799,6 +1827,7 @@ New Moves:
 - Dark Pulse (TM)
 - Magma Storm (Level)
 - Nasty Plot (TM)
+- Teleport (Tutor) (LGPE)
 
 -------------------
 127 - Pinsir
@@ -1924,7 +1953,7 @@ Held Item: None
 Type: Psychic
 
 New Moves:
-- None
+- Teleport (Tutor)
 
 -------------------
 197 - Umbreon
@@ -1949,6 +1978,7 @@ Type: Grass
 New Moves:
 - Cut (HM)
 - Leafage (Level) (PLA)
+- Mega Drain (Tutor)
 - Psycho Cut (Tutor)
 
 -------------------
@@ -1985,7 +2015,7 @@ Held Item: None
 Type: Normal
 
 New Moves:
-- None
+- Teleport (Tutor) (LGPE)
 
 -------------------
 233 - Porygon2
@@ -1996,7 +2026,7 @@ Held Item: None
 Type: Normal
 
 New Moves:
-- None
+- Teleport (Tutor) (LGPE)
 
 -------------------
 474 - Porygon-Z
@@ -2007,7 +2037,7 @@ Held Item: None
 Type: Normal
 
 New Moves:
-- None
+- Teleport (Tutor) (LGPE)
 
 -------------------
 138 - Omanyte
@@ -2163,6 +2193,7 @@ Type: Psychic
 
 New Moves:
 - Psycho Boost (Level)
+- Teleport (Tutor) (LGPE)
 
 -------------------
 151 - Mew
@@ -2188,6 +2219,7 @@ Type: Grass
 New Moves:
 - Dazzling Gleam (TM)
 - Draining Kiss** (Level/Tutor)
+- Mega Drain (Tutor)
 - Moonblast* (Level)
 - Play Rough (TM)
 - Pollen Puff (Tutor) (HOME)
@@ -2207,6 +2239,7 @@ Type: Grass
 New Moves:
 - Dazzling Gleam (TM)
 - Draining Kiss** (Level/Tutor)
+- Mega Drain (Tutor)
 - Moonblast* (Level)
 - Play Rough (TM)
 - Pollen Puff (Tutor) (HOME)
@@ -2227,6 +2260,7 @@ New Moves:
 - Soothing Aroma (Level) (New Move)
 - Dazzling Gleam (TM)
 - Draining Kiss** (Level/Tutor)
+- Mega Drain (Tutor)
 - Moonblast* (Level)
 - Play Rough (TM)
 - Pollen Puff (Tutor) (HOME)
@@ -2381,6 +2415,7 @@ New Moves:
 - Dual Wingbeat (Level/Tutor) (HOME)
 - First Impression (Level)
 - Lunge (Level)
+- Mega Drain (Tutor)
 - Meteor Mash (Level)
 - Pollen Puff (Tutor)
 
@@ -2398,6 +2433,7 @@ New Moves:
 - Dual Wingbeat (Level/Tutor) (HOME)
 - First Impression (Level)
 - Lunge (Level)
+- Mega Drain (Tutor)
 - Meteor Mash (Level)
 - Pollen Puff (Tutor)
 
@@ -2412,6 +2448,7 @@ Type: Bug / Poison
 New Moves: 
 - First Impression (Level)
 - Gunk Shot (Tutor)
+- Mega Drain (Tutor)
 - Poison Fang (Level)
 - Psychic Fangs (Tutor)
 - Screech (Tutor) (HOME)
@@ -2429,6 +2466,7 @@ New Moves:
 - Drill Run (Tutor)
 - First Impression (Level)
 - Gunk Shot (Tutor)
+- Mega Drain (Tutor)
 - Poison Fang (Level)
 - Psychic Fangs (Tutor)
 - Screech (Tutor) (HOME)
@@ -2506,6 +2544,7 @@ Type: Psychic / Flying
 New Moves:
 - Confusion (Level)
 - Esper Wing (Level)
+- Mega Drain (Tutor)
 
 -------------------
 178 - Xatu
@@ -2516,9 +2555,10 @@ Held Item: None
 Type: Psychic / Flying
 
 New Moves:
-- Hurricane (Tutor)
 - Confusion (Level)
 - Esper Wing (Level)
+- Hurricane (Tutor)
+- Mega Drain (Tutor)
 
 -------------------
 179 - Mareep
@@ -2716,6 +2756,7 @@ Type: Bug / Flying
 New Moves: 
 - Dual Wingbeat (Tutor) (HOME)
 - Hurricane (Level/Tutor) (HOME)
+- Mega Drain (Tutor)
 
 -------------------
 469 - Yanmega
@@ -2731,6 +2772,7 @@ New Moves:
 - Dual Wingbeat (Tutor) (HOME)
 - Fly (HM)
 - Hurricane (Level/Tutor) (HOME)
+- Mega Drain (Tutor)
 
 -------------------
 194 - Wooper
@@ -2863,6 +2905,7 @@ Held Item: None
 Type: Bug
 
 New Moves:
+- Mega Drain (Tutor)
 - Shell Smash (Level)
 - Steamroller (Level)
 
@@ -2875,6 +2918,7 @@ Held Item: None
 Type: Bug / Steel
 
 New Moves:
+- Mega Drain (Tutor)
 - Shell Smash (Level)
 - Steamroller (Level)
 
@@ -3314,7 +3358,7 @@ Held Item: None
 Type: Psychic / Flying
 
 New Moves:
-- None
+- Mega Drain (Tutor)
 
 -------------------
 250 - Ho-Oh
@@ -3325,7 +3369,7 @@ Held Item: Sacred Ash (100%)
 Type: Fire / Flying
 
 New Moves:
-- None
+- Mega Drain (Tutor)
 
 -------------------
 251 - Celebi
@@ -3336,7 +3380,8 @@ Held Item: Lum Berry (100%)
 Type: Grass / Psychic
 
 New Moves:
-- None
+- Mega Drain (Tutor)
+- Teleport (Tutor)
 
 -------------------
 252 - Treecko
@@ -3548,6 +3593,7 @@ New Moves:
 - Fly (HM)
 - Hurricane (Tutor)
 - Leech Life (TM) (BDSP)
+- Mega Drain (Tutor)
 - Moonblast (Level)
 - Pollen Puff (Tutor)
 - Sleep Powder (Level)
@@ -3719,7 +3765,7 @@ Held Item: None
 Type: Bug / Water
 
 New Moves:
-- None
+- Mega Drain (Tutor)
 
 -------------------
 284 - Masquerain
@@ -3732,6 +3778,7 @@ Type: Bug / Flying ⟶ Bug / Water
 New Moves:
 - Dual Wingbeat (Tutor) (HOME)
 - Fly (HM)
+- Mega Drain (Tutor)
 - Supersonic (Level) (BDSP)
 
 -------------------
@@ -3799,7 +3846,7 @@ Held Item: None
 Type: Bug / Ground
 
 New Moves:
-- None
+- Mega Drain (Tutor)
 
 -------------------
 291 - Ninjask
@@ -3810,7 +3857,7 @@ Held Item: None
 Type: Bug / Flying
 
 New Moves:
-- None
+- Mega Drain (Tutor)
 
 -------------------
 292 - Shedinja
@@ -3821,7 +3868,7 @@ Held Item: None
 Type: Bug / Ghost
 
 New Moves:
-- None
+- Mega Drain (Tutor)
 
 -------------------
 293 - Whismur
@@ -3948,7 +3995,7 @@ Held Item: None
 Type: Dark / Ghost
 
 New Moves:
-- None
+- Mega Drain (Tutor)
 
 -------------------
 303 - Mawile
@@ -4003,7 +4050,7 @@ Held Item: None
 Type: Fighting / Psychic
 
 New Moves:
-- None
+- Teleport (Tutor)
 
 -------------------
 308 - Medicham
@@ -4015,6 +4062,7 @@ Type: Fighting / Psychic
 
 New Moves:
 - Blaze Kick (Tutor) (HOME)
+- Teleport (Tutor)
 
 -------------------
 309 - Electrike
@@ -4073,6 +4121,7 @@ Type: Bug ⟶ Bug / Electric
 New Moves:
 - Discharge (Level)
 - Dual Wingbeat (Tutor) (HOME)
+- Mega Drain (Tutor)
 - Moonblast (Level)
 - Pollen Puff (Tutor)
 
@@ -4087,6 +4136,7 @@ Type: Bug ⟶ Bug / Fairy
 New Moves: 
 - Draining Kiss (Level/Tutor)
 - Dual Wingbeat (Tutor) (HOME)
+- Mega Drain (Tutor)
 - Moonblast (Level)
 - Pollen Puff (Tutor)
 - Pollen Puff (Tutor) (HOME)
@@ -4134,6 +4184,7 @@ Held Item: Big Pearl (5%)
 Type: Poison
 
 New Moves:
+- Mega Drain (Tutor)
 - Skitter Smack (Tutor) (HOME)
 - Thunderbolt (TM)
 
@@ -4146,6 +4197,7 @@ Held Item: Big Pearl (5%)
 Type: Poison
 
 New Moves:
+- Mega Drain (Tutor)
 - Skitter Smack (Tutor) (HOME)
 - Thunderbolt (TM)
 
@@ -4237,7 +4289,7 @@ Held Item: Tanga Berry (5%)
 Type: Psychic
 
 New Moves:
-- None
+- Teleport (Tutor)
 
 -------------------
 326 - Grumpig
@@ -4249,6 +4301,7 @@ Type: Psychic
 
 New Moves:
 - Muddy Water (Tutor)
+- Teleport (Tutor)
 
 -------------------
 327 - Spinda
@@ -4272,6 +4325,7 @@ Type: Ground ⟶ Bug / Ground
 
 New Moves:
 - Lunge (Level)
+- Mega Drain (Tutor)
 
 -------------------
 329 - Vibrava
@@ -4283,6 +4337,7 @@ Type: Ground / Dragon ⟶ Bug / Dragon
 
 New Moves:
 - Lunge (Level)
+- Mega Drain (Tutor)
 
 -------------------
 330 - Flygon
@@ -4295,6 +4350,7 @@ Type: Ground / Dragon ⟶ Bug / Dragon
 New Moves:
 - Lunge (Level)
 - Hurricane (Tutor)
+- Mega Drain (Tutor)
 
 -------------------
 331 - Cacnea
@@ -4307,6 +4363,7 @@ Type: Grass
 New Moves:
 - Cotton Guard (Level)
 - Earth Power (Tutor)
+- Mega Drain (Tutor)
 
 -------------------
 332 - Cacturne
@@ -4320,6 +4377,7 @@ New Moves:
 - Close Combat (Tutor)
 - Cotton Guard (Level)
 - Earth Power (Tutor)
+- Mega Drain (Tutor)
 
 -------------------
 333 - Swablu
@@ -4352,7 +4410,7 @@ Held Item: Quick Claw (5%)
 Type: Normal
 
 New Moves:
-- None
+- Mega Drain (Tutor)
 
 -------------------
 336 - Seviper
@@ -4366,6 +4424,7 @@ New Moves:
 - Breaking Swipe (Tutor)
 - Cross Poison (Tutor)
 - Dragon Dance (Tutor)
+- Mega Drain (Tutor)
 - Power Whip (Tutor) (HOME)
 - Scale Shot (Tutor) (HOME)
 - Skitter Smack (Tutor) (HOME)
@@ -4379,7 +4438,7 @@ Held Item: Moon Stone (5%)
 Type: Rock / Psychic
 
 New Moves:
-- None
+- Teleport (Tutor)
 
 -------------------
 338 - Solrock
@@ -4392,6 +4451,7 @@ Type: Rock / Psychic
 New Moves:
 - Psycho Cut (Tutor)
 - Solar Blade (Tutor)
+- Teleport (Tutor)
 
 -------------------
 339 - Barboach
@@ -4619,6 +4679,7 @@ Type: Grass / Flying
 
 New Moves:
 - Dual Wingbeat (Tutor) (HOME)
+- Mega Drain (Tutor)
 
 -------------------
 433 - Chingling
@@ -4631,6 +4692,7 @@ Type: Psychic
 New Moves:
 - Double-Edge (Tutor)
 - Ominous Wind (Tutor) (PLA)
+- Teleport (Tutor)
 
 -------------------
 358 - Chimecho
@@ -4643,6 +4705,7 @@ Type: Psychic
 New Moves:
 - Boomburst (Level)
 - Ominous Wind (Level/Tutor) (PLA)
+- Teleport (Tutor)
 
 -------------------
 359 - Absol
@@ -4956,7 +5019,7 @@ Held Item: Star Piece (100%)
 Type: Steel / Psychic
 
 New Moves:
-- None
+- Teleport (Tutor)
 
 -------------------
 386.1 - Deoxys (Normal Forme)
@@ -5204,6 +5267,7 @@ New Moves:
 - Boomburst (Level)
 - Disarming Voice (Level)
 - Double-Edge (Tutor)
+- Mega Drain (Tutor)
 - Snarl (TM)
 
 -------------------
@@ -5312,6 +5376,7 @@ Type: Bug / Grass
 
 New Moves:
 - Dual Wingbeat (Tutor) (HOME)
+- Mega Drain (Tutor)
 
 -------------------
 413.2 - Wormadam (Sandy Cloak)
@@ -5323,6 +5388,7 @@ Type: Bug / Ground
 
 New Moves:
 - Dual Wingbeat (Tutor) (HOME)
+- Mega Drain (Tutor)
 - Mud Bomb (Level)
 
 -------------------
@@ -5335,6 +5401,7 @@ Type: Bug / Steel
 
 New Moves:
 - Dual Wingbeat (Tutor) (HOME)
+- Mega Drain (Tutor)
 
 -------------------
 414 - Mothim
@@ -5349,6 +5416,7 @@ New Moves:
 - Dual Wingbeat (Tutor) (HOME)
 - First Impression (Level)
 - Hurricane (Tutor)
+- Mega Drain (Tutor)
 - Pollen Puff (Tutor)
 
 -------------------
@@ -5422,6 +5490,7 @@ Type: Grass
 
 New Moves:
 - Double-Edge (Tutor) (PLA)
+- Mega Drain (Tutor)
 
 -------------------
 421 - Cherrim
@@ -5433,6 +5502,7 @@ Type: Grass
 
 New Moves:
 - Double-Edge (Tutor) (PLA)
+- Mega Drain (Tutor)
 
 -------------------
 422 - Shellos
@@ -5592,6 +5662,7 @@ Type: Ghost / Dark
 
 New Moves:
 - Giga Drain (TM)
+- Mega Drain (Tutor)
 
 -------------------
 443 - Gible
@@ -5726,6 +5797,7 @@ Type: Grass
 New Moves:
 - Dark Pulse (TM)
 - Double-Edge (Tutor)
+- Mega Drain (Tutor)
 - Leaf Blade (Level/Tutor)
 - Leech Life (Level/TM) (PLA)
 - Poison Fang (Level)
@@ -5772,6 +5844,7 @@ Type: Grass / Ice
 
 New Moves:
 - Icicle Crash (Level) (PLA)
+- Mega Drain (Tutor)
 
 -------------------
 460 - Abomasnow
@@ -5783,6 +5856,7 @@ Type: Grass / Ice
 
 New Moves:
 - Icicle Crash (Level) (PLA)
+- Mega Drain (Tutor)
 
 -------------------
 479.1 - Rotom
@@ -5860,7 +5934,9 @@ Type: Psychic ⟶ Psychic / Fairy
 
 New Moves:
 - Double-Edge (Tutor)
+- Mega Drain (Tutor)
 - Moonblast (Level)
+- Teleport (Tutor)
 
 -------------------
 481 - Mesprit
@@ -5873,6 +5949,7 @@ Type: Psychic ⟶ Psychic / Fairy
 New Moves:
 - Double-Edge (Tutor)
 - Moonblast (Level)
+- Teleport (Tutor)
 
 -------------------
 482 - Azelf
@@ -5885,6 +5962,7 @@ Type: Psychic ⟶ Psychic / Fairy
 New Moves:
 - Double-Edge (Tutor)
 - Moonblast (Level)
+- Teleport (Tutor)
 
 -------------------
 483 - Dialga
@@ -6016,6 +6094,7 @@ Type: Grass
 
 New Moves:
 - Double-Edge (Tutor)
+- Mega Drain (Tutor)
 
 -------------------
 492.2 - Shaymin (Sky Forme)
@@ -6027,6 +6106,7 @@ Type: Grass / Flying
 
 New Moves:
 - Double-Edge (Tutor)
+- Mega Drain (Tutor)
 
 -------------------
 493 - Arceus
@@ -6038,3 +6118,4 @@ Type: Normal
 
 New Moves:
 - Double-Edge (Tutor)
+- Mega Drain (Tutor)

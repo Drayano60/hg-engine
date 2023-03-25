@@ -2047,7 +2047,7 @@ Held Item: None
 Type: Fairy
 
 New Moves:
-- None
+- Grass Knot (TM)
 
 -------------------
 137 - Porygon

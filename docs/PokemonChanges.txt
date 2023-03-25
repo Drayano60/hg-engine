@@ -104,7 +104,22 @@ Held Item: None
 Type: Fire
 
 New Moves:
-- None
+01 - Scratch
+01 - Growl 
+03 - Ember
+06 - Smokescreen
+09 - Metal Claw
+12 - Scary Face
+15 - Fire Spin
+20 - Dragon Rage
+24 - Fire Fang
+28 - Slash
+32 - Flamethrower
+39 - Hone Claws
+44 - Dragon Rush
+49 - Belly Drum
+54 - Inferno
+59 - Flare Blitz
 
 -------------------
 005 - Charmeleon
@@ -115,7 +130,23 @@ Held Item: None
 Type: Fire
 
 New Moves:
-- None
+01 - Scratch
+01 - Growl 
+03 - Ember
+06 - Smokescreen
+09 - Metal Claw
+12 - Scary Face
+15 - Fire Spin
+16 - Dragon Breath
+20 - Dragon Rage
+24 - Fire Fang
+28 - Slash
+32 - Flamethrower
+39 - Hone Claws
+44 - Dragon Rush
+49 - Belly Drum
+54 - Inferno
+59 - Flare Blitz
 
 -------------------
 006 - Charizard
@@ -127,6 +158,30 @@ Type: Fire / Flying ⟶ Fire / Dragon
 
 New Moves:
 - Raging Fury (Tutor)
+
+Level Up Moves:
+01 - Heat Wave
+01 - Dragon Claw
+01 - Seismic Toss 
+01 - Wing Attack
+01 - Scratch
+01 - Growl 
+03 - Ember
+06 - Smokescreen
+09 - Metal Claw
+12 - Scary Face
+15 - Fire Spin
+16 - Dragon Breath
+20 - Dragon Rage
+24 - Fire Fang
+28 - Slash
+32 - Flamethrower
+36 - Air Slash
+39 - Hone Claws
+44 - Dragon Rush
+49 - Belly Drum
+54 - Inferno
+59 - Flare Blitz
 
 -------------------
 007 - Squirtle
@@ -140,6 +195,24 @@ New Moves:
 - Chilling Water (Tutor)
 - Ice Spinner (Tutor)
 
+Level Up Moves:
+01 - Tackle
+01 - Tail Whip
+03 - Bubble
+06 - Withdraw
+09 - Bite
+12 - Rapid Spin
+15 - Aqua Jet
+20 - Protect
+24 - Yawn
+28 - Aqua Tail
+32 - Rain Dance
+39 - Iron Defense
+44 - Skull Bash
+49 - Hydro Pump
+54 - Shell Smash
+59 - Water Spout
+
 -------------------
 008 - Wartortle
 -------------------
@@ -151,6 +224,25 @@ Type: Water
 New Moves:
 - Chilling Water (Tutor)
 - Ice Spinner (Tutor)
+
+Level Up Moves:
+01 - Tackle
+01 - Tail Whip
+03 - Bubble
+06 - Withdraw
+09 - Bite
+12 - Rapid Spin
+15 - Aqua Jet
+16 - Bubble Beam
+20 - Protect
+24 - Yawn
+28 - Aqua Tail
+32 - Rain Dance
+39 - Iron Defense
+44 - Skull Bash
+49 - Hydro Pump
+54 - Shell Smash
+59 - Water Spout
 
 -------------------
 009 - Blastoise
@@ -164,6 +256,28 @@ New Moves:
 - Chilling Water (Tutor)
 - Ice Spinner (Tutor)
 
+Level Up Moves:
+01 - Aura Sphere
+01 - Mirror Coat
+01 - Tackle
+01 - Tail Whip
+03 - Bubble
+06 - Withdraw
+09 - Bite
+12 - Rapid Spin
+15 - Aqua Jet
+16 - Bubble Beam
+20 - Protect
+24 - Yawn
+28 - Aqua Tail
+32 - Rain Dance
+36 - Flash Cannon
+39 - Iron Defense
+44 - Skull Bash
+49 - Hydro Pump
+54 - Shell Smash
+59 - Water Spout
+
 -------------------
 010 - Caterpie
 -------------------
@@ -175,6 +289,11 @@ Type: Bug
 New Moves:
 - None
 
+Level Up Moves:
+01 - Tackle
+01 - String Shot
+05 - Bug Bite
+
 -------------------
 011 - Metapod
 -------------------
@@ -185,6 +304,10 @@ Type: Bug
 
 New Moves:
 - None
+
+Level Up Moves:
+01 - Harden
+07 - Harden
 
 -------------------
 012 - Butterfree
@@ -200,6 +323,26 @@ New Moves:
 - Teleport (Tutor) (LGPE)
 - Pounce (Tutor)
 
+Level Up Moves:
+01 - Tackle
+01 - String Shot
+01 - Bug Bite
+10 - Gust
+10 - Confusion
+12 - Supersonic
+14 - Poison Powder
+14 - Stun Spore
+14 - Sleep Powder
+16 - Silver Wind
+18 - Psybeam
+20 - Whirlwind
+24 - Air Slash
+28 - Safeguard
+32 - Bug Buzz
+36 - Tailwind
+40 - Captivate
+44 - Quiver Dance
+
 -------------------
 013 - Weedle
 -------------------
@@ -211,6 +354,11 @@ Type: Bug / Poison
 New Moves:
 - None
 
+Level Up Moves:
+01 - Poison Sting
+01 - String Shot
+05 - Bug Bite
+
 -------------------
 014 - Kakuna
 -------------------
@@ -221,6 +369,10 @@ Type: Bug / Poison
 
 New Moves:
 - None
+
+Level Up Moves:
+01 - Harden
+07 - Harden
 
 -------------------
 015 - Beedrill
@@ -241,6 +393,24 @@ New Moves:
 - Screech (Tutor) (HOME)
 - Smart Strike (TM)
 
+Level Up Moves:
+01 - Poison Sting
+01 - String Shot
+01 - Bug Bite
+10 - Fury Attack
+10 - Pursuit
+12 - Rage
+14 - Focus Energy
+16 - Twineedle
+18 - Assurance
+20 - Toxic Spikes
+24 - Poison Jab
+28 - Agility
+32 - Lunge
+36 - Endeavor
+40 - Pin Missile
+44 - Cross Poison
+
 -------------------
 016 - Pidgey
 -------------------
@@ -253,6 +423,26 @@ New Moves:
 - Dual Wingbeat (Tutor) (HOME)
 - Hyper Voice (Tutor)
 
+Level Up Moves:
+01 - Tackle
+01 - Sand Attack
+03 - Gust
+06 - Mud-Slap
+09 - Quick Attack
+12 - Air Cutter*
+15 - Whirlwind
+20 - Twister
+24 - Air Slash
+28 - Feather Dance
+32 - Agility
+39 - Roost
+44 - Tailwind
+49 - Mirror Move
+54 - Hurricane*
+59 - Sky Attack
+
+* If stat changes are removed, Pidgey instead learns Wing Attack at Lv. 12 and Brave Bird at Lv. 54.
+
 -------------------
 017 - Pidgeotto
 -------------------
@@ -264,6 +454,27 @@ Type: Normal / Flying
 New Moves:
 - Dual Wingbeat (Tutor) (HOME)
 - Hyper Voice (Tutor)
+
+Level Up Moves:
+01 - Tackle
+01 - Sand Attack
+03 - Gust
+06 - Mud-Slap
+09 - Quick Attack
+12 - Air Cutter*
+15 - Whirlwind
+18 - Swift
+20 - Twister
+24 - Air Slash
+28 - Feather Dance
+32 - Agility
+39 - Roost
+44 - Tailwind
+49 - Mirror Move
+54 - Hurricane*
+59 - Sky Attack
+
+* If stat changes are removed, Pidgeotto instead learns Wing Attack at Lv. 12 and Brave Bird at Lv. 54.
 
 -------------------
 018 - Pidgeot
@@ -279,6 +490,29 @@ New Moves:
 - Icy Wind (Tutor)
 - Tri Attack (Level/Tutor)
 
+Level Up Moves:
+01 - Heat Wave
+01 - Tackle
+01 - Sand Attack
+03 - Gust
+06 - Mud-Slap
+09 - Quick Attack
+12 - Air Cutter*
+15 - Whirlwind
+18 - Swift
+20 - Twister
+24 - Air Slash
+28 - Feather Dance
+32 - Agility
+36 - Razor Wind
+39 - Roost
+44 - Tailwind
+49 - Mirror Move
+54 - Hurricane*
+59 - Sky Attack
+
+* If stat changes are removed, Pidgeot instead learns Wing Attack at Lv. 12 and Brave Bird at Lv. 54.
+
 -------------------
 019 - Rattata
 -------------------
@@ -290,6 +524,24 @@ Type: Normal
 New Moves:
 - Flame Charge (TM)
 - Hone Claws (TM)
+
+Level Up Moves:
+01 - Tackle
+01 - Tail Whip
+03 - Pursuit 
+06 - Quick Attack
+09 - Focus Energy
+12 - Bite
+15 - Hyper Fang
+18 - Assurance
+24 - Hone Claws
+28 - Crunch
+32 - Reversal
+36 - Super Fang
+40 - Sucker Punch
+44 - Double-Edge
+48 - Endeavor
+52 - Last Resort
 
 -------------------
 020 - Raticate
@@ -308,6 +560,27 @@ New Moves:
 - Psychic Fangs (Tutor) (HOME)
 - Thunder Fang (Tutor)
 
+Level Up Moves:
+01 - Swords Dance
+01 - Flame Wheel
+01 - Tackle
+01 - Tail Whip
+03 - Pursuit 
+06 - Quick Attack
+09 - Focus Energy
+12 - Bite
+15 - Hyper Fang
+18 - Assurance
+20 - Scary Face
+24 - Hone Claws
+28 - Crunch
+32 - Reversal
+36 - Super Fang
+40 - Sucker Punch
+44 - Double-Edge
+48 - Endeavor
+52 - Last Resort
+
 -------------------
 021 - Spearow
 -------------------
@@ -319,6 +592,23 @@ Type: Normal / Flying
 New Moves:
 - Dual Wingbeat (Tutor) (HOME)
 - Night Slash (Level)
+
+Level Up Moves:
+01 - Peck
+01 - Growl
+03 - Leer
+06 - Pursuit
+09 - Fury Attack
+12 - Aerial Ace
+15 - Mirror Move
+18 - Focus Energy
+24 - Take Down
+28 - Drill Peck
+32 - Agility
+36 - Roost
+40 - Night Slash
+44 - Feather Dance
+48 - Double-Edge
 
 -------------------
 022 - Fearow
@@ -332,6 +622,27 @@ New Moves:
 - Brave Bird (Level/Tutor) (HOME)
 - Dual Wingbeat (Tutor) (HOME)
 - Night Slash (Level)
+
+Level Up Moves:
+01 - Drill Run
+01 - Pluck
+01 - Peck
+01 - Growl
+03 - Leer
+06 - Pursuit
+09 - Fury Attack
+12 - Aerial Ace
+15 - Mirror Move
+18 - Focus Energy
+20 - Scary Face
+24 - Take Down
+28 - Drill Peck
+32 - Agility
+36 - Roost
+40 - Night Slash
+44 - Feather Dance
+48 - Double-Edge
+52 - Brave Bird
 
 -------------------
 023 - Ekans
@@ -350,6 +661,27 @@ New Moves:
 - Scale Shot (Tutor) (HOME)
 - Skitter Smack (Tutor) (HOME)
 
+Level Up Moves:
+01 - Wrap 
+01 - Leer 
+01 - Poison Sting
+03 - Acid
+06 - Bite
+09 - Glare
+12 - Acid Spray
+15 - Poison Fang
+18 - Screech
+21 - Mud Bomb
+26 - Poison Tail 
+30 - Stockpile 
+30 - Swallow
+30 - Spit Up
+34 - Gastro Acid
+38 - Poison Jab
+42 - Coil
+46 - Haze
+50 - Gunk Shot
+
 -------------------
 024 - Arbok
 -------------------
@@ -367,6 +699,31 @@ New Moves:
 - Scale Shot (Tutor) (HOME)
 - Skitter Smack (Tutor) (HOME)
 
+Level Up Moves:
+01 - Ice Fang
+01 - Fire Fang
+01 - Thunder Fang
+01 - Wrap 
+01 - Leer 
+01 - Poison Sting
+03 - Acid
+06 - Bite
+09 - Glare
+12 - Acid Spray
+15 - Poison Fang
+18 - Screech
+21 - Mud Bomb
+22 - Crunch
+26 - Poison Tail 
+30 - Stockpile 
+30 - Swallow
+30 - Spit Up
+34 - Gastro Acid
+38 - Poison Jab
+42 - Coil
+46 - Haze
+50 - Gunk Shot
+
 -------------------
 172 - Pichu
 -------------------
@@ -377,6 +734,15 @@ Type: Electric
 
 New Moves:
 - None
+
+Level Up Moves:
+01 - Thunder Shock 
+01 - Tail Whip
+01 - Play Nice
+01 - Sweet Kiss
+05 - Nuzzle
+15 - Charm
+25 - Nasty Plot
 
 -------------------
 025 - Pikachu
@@ -389,6 +755,26 @@ Type: Electric
 New Moves:
 - Double Kick (Level) (LGPE)
 
+Level Up Moves:
+01 - Thunder Shock
+01 - Growl
+01 - Play Nice 
+01 - Quick Attack 
+04 - Thunder Wave
+08 - Double Team
+10 - Double Kick
+12 - Shock Wave
+16 - Feint
+20 - Spark
+24 - Agility
+28 - Discharge
+32 - Slam 
+36 - Iron Tail
+40 - Thunderbolt
+44 - Light Screen
+48 - Thunder
+52 - Volt Tackle
+
 -------------------
 026 - Raichu
 -------------------
@@ -399,6 +785,28 @@ Type: Electric
 
 New Moves:
 - Double Kick (Level) (LGPE)
+
+Level Up Moves:
+01 - Thunder Punch
+01 - Fake Out
+01 - Thunder Shock
+01 - Growl
+01 - Play Nice 
+01 - Quick Attack 
+04 - Thunder Wave
+08 - Double Team
+10 - Double Kick
+12 - Shock Wave
+16 - Feint
+20 - Spark
+24 - Agility
+28 - Discharge
+32 - Slam 
+36 - Iron Tail
+40 - Thunderbolt
+44 - Light Screen
+48 - Thunder
+52 - Volt Tackle
 
 -------------------
 027 - Sandshrew
@@ -412,6 +820,25 @@ New Moves:
 - Fissure (Level) (RBY VC)
 - Ice Spinner (Tutor)
 
+Level Up Moves:
+01 - Scratch
+01 - Defense Curl 
+03 - Poison Sting 
+06 - Sand Attack
+09 - Rapid Spin 
+12 - Fury Cutter
+15 - Magnitude
+18 - Rollout
+21 - Fury Swipes
+26 - Agility
+30 - Slash
+34 - Dig
+38 - Gyro Ball 
+42 - Sandstorm
+46 - Earthquake
+50 - Swords Dance
+54 - Fissure
+
 -------------------
 028 - Sandslash
 -------------------
@@ -424,6 +851,27 @@ New Moves:
 - Fissure (Level) (RBY VC)
 - Ice Spinner (Tutor)
 
+Level Up Moves:
+01 - Hone Claws
+01 - Scratch
+01 - Defense Curl 
+03 - Poison Sting 
+06 - Sand Attack
+09 - Rapid Spin 
+12 - Fury Cutter
+15 - Magnitude
+18 - Rollout
+21 - Fury Swipes
+22 - Crush Claw
+26 - Agility
+30 - Slash
+34 - Drill Run
+38 - Gyro Ball 
+42 - Sandstorm
+46 - Earthquake
+50 - Swords Dance
+54 - Fissure
+
 -------------------
 029 - Nidoran♀
 -------------------
@@ -434,6 +882,23 @@ Type: Poison
 
 New Moves:
 - None
+
+Level Up Moves:
+01 - Helping Hand
+01 - Growl
+01 - Scratch
+03 - Tail Whip
+06 - Poison Sting
+09 - Double Kick 
+12 - Bite
+15 - Poison Fang
+20 - Fury Swipes
+24 - Toxic Spikes
+28 - Poison Jab
+32 - Flatter
+36 - Crunch
+40 - Captivate
+44 - Earth Power
 
 -------------------
 030 - Nidorina
@@ -446,6 +911,23 @@ Type: Poison
 New Moves:
 - None
 
+Level Up Moves:
+01 - Helping Hand
+01 - Growl
+01 - Scratch
+03 - Tail Whip
+06 - Poison Sting
+09 - Double Kick 
+12 - Bite
+15 - Poison Fang
+20 - Fury Swipes
+24 - Toxic Spikes
+28 - Poison Jab
+32 - Flatter
+36 - Crunch
+40 - Captivate
+44 - Earth Power
+
 -------------------
 031 - Nidoqueen
 -------------------
@@ -456,6 +938,28 @@ Type: Poison / Ground
 
 New Moves:
 - None
+
+Level Up Moves:
+01 - Drill Run
+01 - Poison Tail
+01 - Helping Hand
+01 - Growl
+01 - Scratch
+03 - Tail Whip
+06 - Poison Sting
+09 - Double Kick 
+12 - Bite
+15 - Poison Fang
+20 - Fury Swipes
+24 - Toxic Spikes
+28 - Poison Jab
+32 - Flatter
+36 - Crunch
+40 - Captivate
+44 - Earth Power
+49 - Body Slam
+54 - Superpower
+59 - Double-Edge
 
 -------------------
 032 - Nidoran♂
@@ -468,6 +972,23 @@ Type: Poison / Ground
 New Moves:
 - Poison Fang (Level)
 
+Level Up Moves:
+01 - Helping Hand
+01 - Leer
+01 - Peck
+03 - Focus Energy
+06 - Poison Sting
+09 - Double Kick 
+12 - Horn Attack
+15 - Poison Fang
+20 - Fury Attack
+24 - Toxic Spikes
+28 - Poison Jab
+32 - Flatter
+36 - Drill Run
+40 - Captivate
+44 - Horn Drill
+
 -------------------
 033 - Nidorino
 -------------------
@@ -478,6 +999,23 @@ Type: Poison / Ground
 
 New Moves:
 - Poison Fang (Level)
+
+Level Up Moves:
+01 - Helping Hand
+01 - Leer
+01 - Peck
+03 - Focus Energy
+06 - Poison Sting
+09 - Double Kick 
+12 - Horn Attack
+15 - Poison Fang
+20 - Fury Attack
+24 - Toxic Spikes
+28 - Poison Jab
+32 - Flatter
+36 - Drill Run
+40 - Captivate
+44 - Horn Drill
 
 -------------------
 034 - Nidoking
@@ -490,6 +1028,27 @@ Type: Poison / Ground
 New Moves:
 - Poison Fang (Level)
 
+Level Up Moves:
+01 - Poison Tail
+01 - Helping Hand
+01 - Leer
+01 - Peck
+03 - Focus Energy
+06 - Poison Sting
+09 - Double Kick 
+12 - Horn Attack
+15 - Poison Fang
+20 - Fury Attack
+24 - Toxic Spikes
+28 - Poison Jab
+32 - Flatter
+36 - Drill Run
+40 - Captivate
+44 - Horn Drill
+49 - Thrash
+54 - Megahorn
+59 - Head Smash
+
 -------------------
 173 - Cleffa
 -------------------
@@ -500,6 +1059,17 @@ Type: Fairy
 
 New Moves:
 - Trailblaze (Tutor)
+
+Level Up Moves:
+01 - Splash 
+01 - Pound
+01 - Sing
+01 - Sweet Kiss
+05 - Disarming Voice
+10 - Copycat
+15 - Charm
+20 - Encore
+25 - Magical Leaf
 
 -------------------
 035 - Clefairy
@@ -515,6 +1085,27 @@ New Moves:
 - Teleport (Tutor) (LGPE)
 - Trailblaze (Tutor)
 
+Level Up Moves:
+01 - Pound
+01 - Growl
+01 - Sing
+03 - Defense Curl
+06 - Disarming Voice
+09 - Double Slap
+12 - Metronome
+15 - Draining Kiss
+18 - Follow Me
+21 - Minimize
+24 - Wake-Up Slap
+28 - Cosmic Power
+32 - Lucky Chant
+36 - Moonlight
+40 - Moonblast
+44 - Gravity
+48 - Meteor Mash
+52 - Light Screen
+56 - Healing Wish
+
 -------------------
 036 - Clefable
 -------------------
@@ -529,6 +1120,29 @@ New Moves:
 - Teleport (Tutor) (LGPE)
 - Trailblaze (Tutor)
 
+Level Up Moves:
+01 - Aromatherapy
+01 - Wish
+01 - Pound
+01 - Growl
+01 - Sing
+03 - Defense Curl
+06 - Disarming Voice
+09 - Double Slap
+12 - Metronome
+15 - Draining Kiss
+18 - Follow Me
+21 - Minimize
+24 - Wake-Up Slap
+28 - Cosmic Power
+32 - Lucky Chant
+36 - Moonlight
+40 - Moonblast
+44 - Gravity
+48 - Meteor Mash
+52 - Light Screen
+56 - Healing Wish
+
 -------------------
 037 - Vulpix
 -------------------
@@ -541,6 +1155,30 @@ New Moves:
 - Moonblast* (Level)
 
 * If type changes are removed, Vulpix cannot learn these moves.
+
+Level Up Moves:
+01 - Roar
+01 - Ember
+01 - Tail Whip
+03 - Disable
+06 - Baby-Doll Eyes
+09 - Quick Attack
+12 - Spite
+15 - Incinerate
+18 - Confuse Ray
+21 - Fire Spin
+24 - Imprison
+28 - Will-O-Wisp
+32 - Extrasensory
+36 - Flamethrower
+40 - Safeguard
+44 - Moonblast*
+48 - Captivate
+52 - Inferno
+56 - Grudge
+60 - Fire Blast
+
+* If type changes are removed, Vulpix instead learns Heat Wave at Lv. 44.
 
 -------------------
 038 - Ninetales
@@ -557,6 +1195,33 @@ New Moves:
 * If type changes are removed, Ninetales cannot learn these moves.
 ** If type changes are removed, Ninetales can only learn Dazzling Gleam by TM.
 
+Level Up Moves:
+01 - Dazzling Gleam**
+01 - Mystical Fire
+01 - Roar
+01 - Ember
+01 - Tail Whip
+03 - Disable
+06 - Baby-Doll Eyes
+09 - Quick Attack
+12 - Spite
+15 - Incinerate
+18 - Confuse Ray
+21 - Fire Spin
+24 - Imprison
+28 - Will-O-Wisp
+32 - Extrasensory
+36 - Flamethrower
+40 - Safeguard
+44 - Moonblast*
+48 - Captivate
+52 - Inferno
+56 - Grudge
+60 - Fire Blast
+
+* If type changes are removed, Ninetales instead learns Heat Wave at Lv. 44.
+** If type changes are removed, Ninetales does not learn Dazzling Gleam at Lv. 1.
+
 -------------------
 174 - Igglybuff
 -------------------
@@ -567,6 +1232,17 @@ Type: Normal / Fairy
 
 New Moves:
 - None
+
+Level Up Moves:
+01 - Defense Curl
+01 - Pound
+01 - Sing
+01 - Sweet Kiss
+05 - Disarming Voice
+10 - Copycat
+15 - Charm
+20 - Disable
+25 - Uproar
 
 -------------------
 039 - Jigglypuff
@@ -580,6 +1256,29 @@ New Moves:
 - Boomburst (Level)
 - Moonblast (Level)
 - Teleport (Tutor) (LGPE)
+
+Level Up Moves:
+01 - Pound
+01 - Defense Curl
+01 - Play Nice
+01 - Sing
+03 - Echoed Voice
+06 - Disarming Voice
+09 - Double Slap
+12 - Disable
+15 - Covet
+18 - Rollout
+21 - Mimic
+24 - Wake-Up Slap
+28 - Stockpile
+28 - Swallow
+28 - Spit Up
+32 - Rest
+36 - Hyper Voice
+40 - Moonblast
+44 - Gyro Ball
+48 - Double-Edge
+52 - Boomburst
 
 -------------------
 040 - Wigglytuff
@@ -595,6 +1294,32 @@ New Moves:
 - Noble Roar (Level)
 - Teleport (Tutor) (LGPE)
 
+Level Up Moves:
+01 - Body Slam
+01 - Play Rough
+01 - Noble Roar
+01 - Pound
+01 - Defense Curl
+01 - Play Nice
+01 - Sing
+03 - Echoed Voice
+06 - Disarming Voice
+09 - Double Slap
+12 - Disable
+15 - Covet
+18 - Rollout
+21 - Mimic
+24 - Wake-Up Slap
+28 - Stockpile
+28 - Swallow
+28 - Spit Up
+32 - Rest
+36 - Hyper Voice
+40 - Moonblast
+44 - Gyro Ball
+48 - Double-Edge
+52 - Boomburst
+
 -------------------
 041 - Zubat
 -------------------
@@ -604,7 +1329,26 @@ Held Item: None
 Type: Poison / Flying
 
 New Moves:
-- Mega Drain (Tutor) (LGPE)
+- Mega Drain (Level/Tutor) (LGPE)
+
+Level Up Moves:
+01 - Absorb
+01 - Supersonic
+03 - Astonish
+06 - Bite
+09 - Wing Attack
+12 - Confuse Ray
+15 - Poison Fang
+18 - Air Cutter
+21 - Mega Drain
+26 - Mean Look
+30 - Haze
+34 - Leech Life
+38 - Venoshock
+42 - Air Slash
+46 - Giga Drain
+50 - Nasty Plot
+54 - Brave Bird
 
 -------------------
 042 - Golbat
@@ -615,7 +1359,28 @@ Held Item: None
 Type: Poison / Flying
 
 New Moves:
-- Mega Drain (Tutor) (LGPE)
+- Mega Drain (Level/Tutor) (LGPE)
+
+Level Up Moves:
+01 - Screech
+01 - Absorb
+01 - Supersonic
+03 - Astonish
+06 - Bite
+09 - Wing Attack
+12 - Confuse Ray
+15 - Poison Fang
+18 - Air Cutter
+21 - Mega Drain
+22 - Crunch
+26 - Mean Look
+30 - Haze
+34 - Leech Life
+38 - Venoshock
+42 - Air Slash
+46 - Giga Drain
+50 - Nasty Plot
+54 - Brave Bird
 
 -------------------
 169 - Crobat
@@ -626,7 +1391,32 @@ Held Item: None
 Type: Poison / Flying
 
 New Moves:
-- Mega Drain (Tutor) (LGPE)
+- Mega Drain (Level/Tutor) (LGPE)
+
+Level Up Moves:
+01 - Cross Poison
+01 - Dual Wingbeat
+01 - Quick Attack
+01 - Hypnosis
+01 - Screech
+01 - Absorb
+01 - Supersonic
+03 - Astonish
+06 - Bite
+09 - Wing Attack
+12 - Confuse Ray
+15 - Poison Fang
+18 - Air Cutter
+21 - Mega Drain
+22 - Crunch
+26 - Mean Look
+30 - Haze
+34 - Leech Life
+38 - Venoshock
+42 - Air Slash
+46 - Giga Drain
+50 - Nasty Plot
+54 - Brave Bird
 
 -------------------
 043 - Oddish
@@ -639,6 +1429,24 @@ Type: Grass / Poison
 New Moves:
 - Trailblaze (Tutor)
 
+Level Up Moves:
+01 - Absorb
+01 - Growth
+03 - Acid
+06 - Sweet Scent
+09 - Mega Drain
+12 - Poison Powder
+15 - Stun Spore
+18 - Sleep Powder
+22 - Venoshock
+26 - Lucky Chant
+30 - Giga Drain
+34 - Natural Gift
+38 - Moonlight
+42 - Toxic
+46 - Moonblast
+50 - Petal Dance
+
 -------------------
 044 - Gloom
 -------------------
@@ -649,6 +1457,24 @@ Type: Grass / Poison
 
 New Moves:
 - Trailblaze (Tutor)
+
+Level Up Moves:
+01 - Absorb
+01 - Growth
+03 - Acid
+06 - Sweet Scent
+09 - Mega Drain
+12 - Poison Powder
+15 - Stun Spore
+18 - Sleep Powder
+22 - Venoshock
+26 - Lucky Chant
+30 - Giga Drain
+34 - Natural Gift
+38 - Moonlight
+42 - Toxic
+46 - Moonblast
+50 - Petal Dance
 
 -------------------
 045 - Vileplume
@@ -661,6 +1487,28 @@ Type: Grass / Poison
 New Moves:
 - Trailblaze (Tutor)
 
+Level Up Moves:
+01 - Petal Blizzard
+01 - Aromatherapy
+01 - Absorb
+01 - Growth
+03 - Acid
+06 - Sweet Scent
+09 - Mega Drain
+12 - Poison Powder
+15 - Stun Spore
+18 - Sleep Powder
+22 - Venoshock
+26 - Lucky Chant
+30 - Giga Drain
+34 - Natural Gift
+38 - Moonlight
+42 - Toxic
+46 - Moonblast
+50 - Petal Dance
+54 - Teeter Dance
+58 - Solar Beam
+
 -------------------
 182 - Bellossom
 -------------------
@@ -672,6 +1520,30 @@ Type: Grass
 New Moves:
 - Trailblaze (Tutor)
 
+Level Up Moves:
+01 - Petal Blizzard
+01 - Magical Leaf
+01 - Leaf Blade
+01 - Sunny Day
+01 - Absorb
+01 - Growth
+03 - Acid
+06 - Sweet Scent
+09 - Mega Drain
+12 - Poison Powder
+15 - Stun Spore
+18 - Sleep Powder
+22 - Venoshock
+26 - Lucky Chant
+30 - Giga Drain
+34 - Natural Gift
+38 - Moonlight
+42 - Captivate
+46 - Moonblast
+50 - Petal Dance
+54 - Quiver Dance
+58 - Leaf Storm
+
 -------------------
 046 - Paras
 -------------------
@@ -682,10 +1554,30 @@ Type: Bug / Grass
 
 New Moves:
 - First Impression (Level)
-- Mega Drain (Tutor) (LGPE)
+- Mega Drain (Level/Tutor) (LGPE)
 - Pounce (Tutor)
 - Skitter Smack (Level/Tutor) (HOME)
 - Trailblaze (Tutor)
+
+Level Up Moves:
+01 - Scratch
+01 - Growl
+03 - Absorb
+06 - Fury Cutter
+09 - Stun Spore
+09 - Poison Powoder
+12 - Mega Drain
+15 - Bug Bite
+18 - Spore
+21 - Slash
+26 - Skitter Smack
+30 - Leech Seed
+34 - Leech Life
+38 - Aromatherapy
+42 - First Impression
+46 - Giga Drain
+50 - Screech
+54 - X-Scissor
 
 -------------------
 047 - Parasect
@@ -697,11 +1589,34 @@ Type: Bug / Grass
 
 New Moves:
 - First Impression (Level)
-- Mega Drain (Tutor) (LGPE)
+- Mega Drain (Level/Tutor) (LGPE)
 - Pounce (Tutor)
 - Shadow Claw (Level/TM)
 - Skitter Smack (Level/Tutor) (HOME)
 - Trailblaze (Tutor)
+
+Level Up Moves:
+01 - Cross Poison
+01 - Shadow Claw
+01 - Metal Claw
+01 - Scratch
+01 - Growl
+03 - Absorb
+06 - Fury Cutter
+09 - Stun Spore
+09 - Poison Powoder
+12 - Mega Drain
+15 - Bug Bite
+18 - Spore
+21 - Slash
+26 - Skitter Smack
+30 - Leech Seed
+34 - Leech Life
+38 - Aromatherapy
+42 - First Impression
+46 - Giga Drain
+50 - Screech
+54 - X-Scissor
 
 -------------------
 048 - Venonat
@@ -713,6 +1628,26 @@ Type: Bug / Poison
 
 New Moves:
 - Mega Drain (Tutor) (LGPE)
+
+Level Up Moves:
+01 - Tackle
+01 - Disable
+01 - Foresight
+03 - Struggle Bug
+06 - Supersonic
+09 - Confusion
+12 - Bug Bite
+15 - Psybeam
+18 - Poison Powder
+18 - Stun Spore
+18 - Sleep Powder
+21 - Poison Fang
+24 - Leech Life
+27 - Zen Headbutt
+30 - Signal Beam
+35 - Confuse Ray
+40 - Bug Buzz
+45 - Psychic
 
 -------------------
 049 - Venomoth
@@ -730,6 +1665,32 @@ New Moves:
 - Pollen Puff (Tutor)
 - Teleport (Tutor) (LGPE)
 
+Level Up Moves:
+01 - Morning Sun
+01 - Acid Spray
+01 - Baton Pass
+01 - Tackle
+01 - Disable
+01 - Foresight
+03 - Struggle Bug
+06 - Supersonic
+09 - Confusion
+12 - Bug Bite
+15 - Psybeam
+18 - Poison Powder
+18 - Stun Spore
+18 - Sleep Powder
+21 - Poison Fang
+24 - Leech Life
+27 - Zen Headbutt
+30 - Signal Beam
+31 - Air Slash
+31 - Silver Wind
+35 - Confuse Ray
+40 - Bug Buzz
+45 - Psychic
+50 - Quiver Dance
+
 -------------------
 050 - Diglett
 -------------------
@@ -740,6 +1701,25 @@ Type: Ground
 
 New Moves:
 - None
+
+Level Up Moves:
+01 - Scratch
+01 - Sand Attack
+03 - Growl
+06 - Astonish
+09 - Mud-Slap
+12 - Magnitude
+15 - Bulldoze
+18 - Dig
+21 - Sucker Punch
+24 - Mud Bomb
+28 - Slash
+32 - Sandstorm
+36 - Earth Power
+40 - Screech
+44 - Earthquake
+48 - Memento
+52 - Fissure
 
 -------------------
 051 - Dugtrio
@@ -752,6 +1732,29 @@ Type: Ground
 New Moves:
 - None
 
+Level Up Moves:
+01 - Night Slash
+01 - Tri Attack
+01 - Reversal
+01 - Scratch
+01 - Sand Attack
+03 - Growl
+06 - Astonish
+09 - Mud-Slap
+12 - Magnitude
+15 - Bulldoze
+18 - Dig
+21 - Sucker Punch
+24 - Mud Bomb
+26 - Sand Tomb
+28 - Slash
+32 - Sandstorm
+36 - Earth Power
+40 - Screech
+44 - Earthquake
+48 - Memento
+52 - Fissure
+
 -------------------
 052 - Meowth
 -------------------
@@ -762,6 +1765,26 @@ Type: Normal
 
 New Moves:
 - None
+
+Level Up Moves:
+01 - Fake Out
+01 - Assist
+01 - Feint
+01 - Growl
+01 - Taunt
+04 - Scratch
+08 - Bite
+12 - Pay Day
+16 - Feint Attack
+20 - Fury Swipes
+24 - Hypnosis
+30 - Slash
+34 - Assurance
+38 - Screech
+42 - Captivate
+46 - Play Rough
+50 - Nasty Plot
+54 - Double-Edge
 
 -------------------
 053 - Persian
@@ -774,6 +1797,31 @@ Type: Normal
 New Moves:
 - None
 
+Level Up Moves:
+01 - Foul Play
+01 - Night Slash
+01 - Switcheroo
+01 - Swift
+01 - Fake Out
+01 - Assist
+01 - Feint
+01 - Growl
+01 - Taunt
+04 - Scratch
+08 - Bite
+12 - Pay Day
+16 - Feint Attack
+20 - Fury Swipes
+24 - Hypnosis
+28 - Power Gem
+30 - Slash
+34 - Assurance
+38 - Screech
+42 - Captivate
+46 - Play Rough
+50 - Nasty Plot
+54 - Double-Edge
+
 -------------------
 054 - Psyduck
 -------------------
@@ -784,6 +1832,26 @@ Type: Water ⟶ Water / Psychic
 
 New Moves:
 - None
+
+Level Up Moves:
+01 - Water Sport
+01 - Scratch
+01 - Tail Whip
+03 - Water Gun
+06 - Confusion
+09 - Disable
+12 - Fury Swipes
+15 - Water Pulse
+18 - Yawn
+21 - Screech
+24 - Psyshock
+27 - Zen Headbutt
+30 - Aqua Tail
+35 - Psych Up
+40 - Psychic
+45 - Hypnosis
+50 - Amnesia
+55 - Hydro Pump
 
 -------------------
 055 - Golduck
@@ -796,6 +1864,29 @@ Type: Water ⟶ Water / Psychic
 New Moves:
 - Psycho Cut (Tutor)
 
+Level Up Moves:
+01 - Aqua Jet
+01 - Cross Chop
+01 - Water Sport
+01 - Scratch
+01 - Tail Whip
+03 - Water Gun
+06 - Confusion
+09 - Disable
+12 - Fury Swipes
+15 - Water Pulse
+18 - Yawn
+21 - Screech
+24 - Psyshock
+27 - Zen Headbutt
+30 - Aqua Tail
+33 - Power Gem
+35 - Psych Up
+40 - Psychic
+45 - Hypnosis
+50 - Amnesia
+55 - Hydro Pump
+
 -------------------
 056 - Mankey
 -------------------
@@ -806,6 +1897,23 @@ Type: Fighting
 
 New Moves:
 - None
+
+Level Up Moves:
+01 - Covet
+01 - Scratch
+01 - Leer
+04 - Focus Energy
+08 - Low Kick
+12 - Fury Swipes
+16 - Seismic Toss
+20 - Assurance
+24 - Cross Chop
+29 - Swagger
+34 - Punishment
+39 - Thrash
+44 - U-turn
+49 - Outrage
+54 - Close Combat
 
 -------------------
 057 - Primeape
@@ -818,6 +1926,25 @@ Type: Fighting
 New Moves:
 - None
 
+Level Up Moves:
+01 - Fling
+01 - Covet
+01 - Scratch
+01 - Leer
+04 - Focus Energy
+08 - Low Kick
+12 - Fury Swipes
+16 - Seismic Toss
+20 - Assurance
+24 - Cross Chop
+28 - Rage
+29 - Swagger
+34 - Punishment
+39 - Thrash
+44 - Rage Fist
+49 - Outrage
+54 - Close Combat
+
 -------------------
 058 - Growlithe
 -------------------
@@ -828,6 +1955,24 @@ Type: Fire
 
 New Moves:
 - None
+
+Level Up Moves:
+01 - Roar
+01 - Leer
+01 - Ember
+03 - Howl
+06 - Bite
+09 - Odor Sleuth
+12 - Flame Wheel
+16 - Helping Hand
+20 - Agility
+24 - Fire Fang
+28 - Take Down
+32 - Crunch
+36 - Flamethrower
+40 - Reversal
+44 - Play Rough
+48 - Flare Blitz
 
 -------------------
 059 - Arcanine
@@ -840,6 +1985,29 @@ Type: Fire
 New Moves:
 - Teleport (Tutor) (LGPE)
 
+Level Up Moves:
+01 - Extreme Speed
+01 - Thunder Fang
+01 - Roar
+01 - Leer
+01 - Ember
+03 - Howl
+06 - Bite
+09 - Odor Sleuth
+12 - Flame Wheel
+16 - Helping Hand
+20 - Agility
+24 - Fire Fang
+28 - Take Down
+32 - Crunch
+36 - Flamethrower
+40 - Reversal
+44 - Play Rough
+48 - Flare Blitz
+52 - Outrage
+56 - Double-Edge
+60 - Raging Fury
+
 -------------------
 060 - Poliwag
 -------------------
@@ -850,6 +2018,23 @@ Type: Water
 
 New Moves:
 - Chilling Water (Tutor)
+
+Level Up Moves:
+01 - Water Sport
+01 - Pound
+01 - Hypnosis
+04 - Bubble
+08 - Double Slap
+12 - Mud Shot
+16 - Bubble Beam
+20 - Mud Bomb
+24 - Rain Dance
+29 - Body Slam
+34 - Wake-Up Slap
+39 - Earth Power
+44 - Belly Drum
+49 - Hydro Pump
+54 - Double-Edge
 
 -------------------
 061 - Poliwhirl
@@ -862,6 +2047,23 @@ Type: Water
 New Moves:
 - Chilling Water (Tutor)
 
+Level Up Moves:
+01 - Water Sport
+01 - Pound
+01 - Hypnosis
+04 - Bubble
+08 - Double Slap
+12 - Mud Shot
+16 - Bubble Beam
+20 - Mud Bomb
+24 - Rain Dance
+29 - Body Slam
+34 - Wake-Up Slap
+39 - Earth Power
+44 - Belly Drum
+49 - Hydro Pump
+54 - Double-Edge
+
 -------------------
 062 - Poliwrath
 -------------------
@@ -872,9 +2074,30 @@ Type: Water / Fighting
 
 New Moves:
 - Chilling Water (Tutor)
-- Mach Punch (Level)
 - Storm Throw (Level)
 - Wave Crash (Level)
+
+Level Up Moves:
+01 - Dynamic Punch
+01 - Mind Reader
+01 - Storm Throw
+01 - Submission
+01 - Water Sport
+01 - Pound
+01 - Hypnosis
+04 - Bubble
+08 - Double Slap
+12 - Mud Shot
+16 - Bubble Beam
+20 - Mud Bomb
+24 - Rain Dance
+29 - Body Slam
+34 - Wake-Up Slap
+39 - Earth Power
+44 - Belly Drum
+49 - Liquidation
+54 - Close Combat
+59 - Wave Crash
 
 -------------------
 186 - Politoed
@@ -887,6 +2110,26 @@ Type: Water
 New Moves:
 - Chilling Water (Tutor)
 
+Level Up Moves:
+01 - Perish Song
+01 - Swagger
+01 - Bounce
+01 - Water Sport
+01 - Pound
+01 - Hypnosis
+04 - Bubble
+08 - Double Slap
+12 - Mud Shot
+16 - Bubble Beam
+20 - Mud Bomb
+24 - Rain Dance
+29 - Body Slam
+34 - Wake-Up Slap
+39 - Earth Power
+44 - Belly Drum
+49 - Hydro Pump
+54 - Hyper Voice
+
 -------------------
 063 - Abra
 -------------------
@@ -898,6 +2141,9 @@ Type: Psychic
 New Moves:
 - None
 
+Level Up Moves:
+01 - Teleport
+
 -------------------
 064 - Kadabra
 -------------------
@@ -908,6 +2154,23 @@ Type: Psychic
 
 New Moves:
 - Hypnosis (Level) (PLA)
+
+Level Up Moves:
+01 - Teleport
+01 - Confusion
+16 - Kinesis
+16 - Confusion
+19 - Disable
+22 - Psybeam
+25 - Miracle Eye
+28 - Psyshock
+32 - Reflect
+36 - Recover
+40 - Psychic
+44 - Trick
+48 - Hypnosis
+52 - Role Play
+56 - Future Sight
 
 -------------------
 065 - Alakazam
@@ -921,6 +2184,26 @@ New Moves:
 - Aura Sphere (Tutor)
 - Hypnosis (Level) (PLA)
 
+Level Up Moves:
+01 - Psycho Cut
+01 - Calm Mind
+01 - Barrier
+01 - Teleport
+01 - Confusion
+16 - Kinesis
+16 - Confusion
+19 - Disable
+22 - Psybeam
+25 - Miracle Eye
+28 - Psyshock
+32 - Reflect
+36 - Recover
+40 - Psychic
+44 - Trick
+48 - Hypnosis
+52 - Role Play
+56 - Future Sight
+
 -------------------
 066 - Machop
 -------------------
@@ -932,6 +2215,25 @@ Type: Fighting
 New Moves:
 - None
 
+Level Up Moves:
+01 - Low Kick
+01 - Leer
+03 - Foresight
+06 - Karate Chop
+09 - Focus Energy
+12 - Seismic Toss
+15 - Low Sweep
+18 - Vital Throw
+21 - Knock Off
+24 - Revenge
+29 - Dual Chop
+34 - Submission
+39 - Bulk Up
+44 - Cross Chop
+49 - Scary Face
+54 - Dynamic Punch
+59 - Close Combat
+
 -------------------
 067 - Machoke
 -------------------
@@ -942,6 +2244,25 @@ Type: Fighting
 
 New Moves:
 - None
+
+Level Up Moves:
+01 - Low Kick
+01 - Leer
+03 - Foresight
+06 - Karate Chop
+09 - Focus Energy
+12 - Seismic Toss
+15 - Low Sweep
+18 - Vital Throw
+21 - Knock Off
+24 - Revenge
+29 - Dual Chop
+34 - Submission
+39 - Bulk Up
+44 - Cross Chop
+49 - Scary Face
+54 - Dynamic Punch
+59 - Close Combat
 
 -------------------
 068 - Machamp
@@ -955,6 +2276,28 @@ New Moves:
 - Drain Punch (TM) (PLA)
 - Mach Punch (Level) (PLA)
 
+Level Up Moves:
+01 - Wake-Up Slap
+01 - Bullet Punch
+01 - Mach Punch
+01 - Low Kick
+01 - Leer
+03 - Foresight
+06 - Karate Chop
+09 - Focus Energy
+12 - Seismic Toss
+15 - Low Sweep
+18 - Vital Throw
+21 - Knock Off
+24 - Revenge
+29 - Dual Chop
+34 - Submission
+39 - Bulk Up
+44 - Cross Chop
+49 - Scary Face
+54 - Dynamic Punch
+59 - Close Combat
+
 -------------------
 069 - Bellsprout
 -------------------
@@ -967,6 +2310,26 @@ New Moves:
 - Leaf Blade (Level/Tutor)
 - Mega Drain (Tutor) (LGPE)
 - Trailblaze (Tutor)
+
+Level Up Moves:
+01 - Vine Whip
+01 - Growth
+04 - Wrap
+08 - Acid
+12 - Razor Leaf
+14 - Poison Powder
+16 - Stun Spore
+18 - Sleep Powder
+20 - Acid Spray
+24 - Sweet Scent
+28 - Poison Jab
+32 - Gastro Acid
+36 - Leaf Blade
+40 - Knock Off
+44 - Slam
+48 - Power Whip
+52 - Wring Out
+56 - Solar Blade
 
 -------------------
 070 - Weepinbell
@@ -982,6 +2345,26 @@ New Moves:
 - Solar Blade (Tutor) (HOME)
 - Trailblaze (Tutor)
 
+Level Up Moves:
+01 - Vine Whip
+01 - Growth
+04 - Wrap
+08 - Acid
+12 - Razor Leaf
+14 - Poison Powder
+16 - Stun Spore
+18 - Sleep Powder
+20 - Acid Spray
+24 - Sweet Scent
+28 - Poison Jab
+32 - Gastro Acid
+36 - Leaf Blade
+40 - Knock Off
+44 - Slam
+48 - Power Whip
+52 - Wring Out
+56 - Solar Blade
+
 -------------------
 071 - Victreebel
 -------------------
@@ -995,6 +2378,30 @@ New Moves:
 - Solar Blade (Tutor) (HOME)
 - Trailblaze (Tutor)
 
+Level Up Moves:
+01 - Stockpile
+01 - Swallow
+01 - Spit Up
+01 - Vine Whip
+01 - Growth
+04 - Wrap
+08 - Acid
+12 - Razor Leaf
+14 - Poison Powder
+16 - Stun Spore
+18 - Sleep Powder
+20 - Acid Spray
+24 - Sweet Scent
+28 - Poison Jab
+32 - Gastro Acid
+36 - Leaf Blade
+40 - Knock Off
+44 - Slam
+48 - Power Whip
+52 - Wring Out
+56 - Solar Blade
+60 - Leaf Storm
+
 -------------------
 072 - Tentacool
 -------------------
@@ -1006,6 +2413,26 @@ Type: Water / Poison
 New Moves:
 - Chilling Water (Tutor)
 - Mega Drain (Tutor) (LGPE)
+
+Level Up Moves:
+01 - Poison Sting
+01 - Supersonic
+03 - Constrict
+06 - Acid
+09 - Wrap
+12 - Acid Spray
+15 - Bubble Beam
+18 - Confuse Ray
+21 - Toxic Spikes
+24 - Screech
+27 - Hex
+32 - Poison Jab
+36 - Barrier
+40 - Muddy Water
+44 - Sludge Wave
+48 - Acupressure
+52 - Hydro Pump
+56 - Wring Out
 
 -------------------
 073 - Tentacruel
@@ -1020,6 +2447,28 @@ New Moves:
 - Mega Drain (Tutor) (LGPE)
 - Power Whip (Tutor)
 
+Level Up Moves:
+01 - Brine
+01 - Mirror Coat
+01 - Poison Sting
+01 - Supersonic
+03 - Constrict
+06 - Acid
+09 - Wrap
+12 - Acid Spray
+15 - Bubble Beam
+18 - Confuse Ray
+21 - Toxic Spikes
+24 - Screech
+27 - Hex
+32 - Poison Jab
+36 - Barrier
+40 - Muddy Water
+44 - Sludge Wave
+48 - Acupressure
+52 - Hydro Pump
+56 - Wring Out
+
 -------------------
 074 - Geodude
 -------------------
@@ -1031,6 +2480,25 @@ Type: Rock / Ground
 New Moves:
 - Head Smash (Level)
 - Scorching Sands (Tutor) (HOME)
+
+Level Up Moves:
+01 - Tackle
+01 - Defense Curl
+03 - Mud Sport
+06 - Rock Throw
+09 - Rock Polish
+12 - Bulldoze
+15 - Rollout
+18 - Magnitude
+21 - Self-Destruct
+24 - Stealth Rock
+29 - Rock Blast
+34 - Hammer Arm
+39 - Earthquake
+44 - Stone Edge
+49 - Double-Edge
+54 - Head Smash
+59 - Explosion
 
 -------------------
 075 - Graveler
@@ -1044,6 +2512,25 @@ New Moves:
 - Head Smash (Level)
 - High Horsepower (Tutor) (HOME)
 - Scorching Sands (Tutor) (HOME)
+
+Level Up Moves:
+01 - Tackle
+01 - Defense Curl
+03 - Mud Sport
+06 - Rock Throw
+09 - Rock Polish
+12 - Bulldoze
+15 - Rollout
+18 - Magnitude
+21 - Self-Destruct
+24 - Stealth Rock
+29 - Rock Blast
+34 - Hammer Arm
+39 - Earthquake
+44 - Stone Edge
+49 - Double-Edge
+54 - Head Smash
+59 - Explosion
 
 -------------------
 076 - Golem
@@ -1060,6 +2547,27 @@ New Moves:
 - Meteor Beam (Tutor) (HOME)
 - Scorching Sands (Tutor) (HOME)
 
+Level Up Moves:
+01 - Heavy Slam
+01 - Steamroller
+01 - Tackle
+01 - Defense Curl
+03 - Mud Sport
+06 - Rock Throw
+09 - Rock Polish
+12 - Bulldoze
+15 - Rollout
+18 - Magnitude
+21 - Self-Destruct
+24 - Stealth Rock
+29 - Rock Blast
+34 - Hammer Arm
+39 - Earthquake
+44 - Stone Edge
+49 - Double-Edge
+54 - Head Smash
+59 - Explosion
+
 -------------------
 077 - Ponyta
 -------------------
@@ -1071,6 +2579,23 @@ Type: Fire
 New Moves:
 - Blaze Kick (Level/Tutor)
 - Jump Kick (Level)
+
+Level Up Moves:
+01 - Tackle
+01 - Growl
+03 - Tail Whip
+06 - Ember
+09 - Double Kick
+12 - Flame Charge
+16 - Stomp
+20 - Flame Wheel
+24 - Agility
+28 - Fire Spin
+32 - Blaze Kick
+39 - Jump Kick
+44 - Inferno
+49 - Bounce
+54 - Flare Blitz
 
 -------------------
 078 - Rapidash
@@ -1085,6 +2610,28 @@ New Moves:
 - Extreme Speed (Level)
 - Jump Kick (Level)
 
+Level Up Moves:
+01 - Fury Attack
+01 - Poison Jab
+01 - Megahorn
+01 - Tackle
+01 - Growl
+03 - Tail Whip
+06 - Ember
+09 - Double Kick
+12 - Flame Charge
+16 - Stomp
+20 - Flame Wheel
+24 - Agility
+28 - Fire Spin
+32 - Blaze Kick
+35 - Smart Strike
+39 - Jump Kick
+44 - Inferno
+49 - Bounce
+54 - Flare Blitz
+59 - Extreme Speed
+
 -------------------
 079 - Slowpoke
 -------------------
@@ -1095,6 +2642,25 @@ Type: Water / Psychic
 
 New Moves:
 - Teleport (Tutor) (LGPE)
+
+Level Up Moves:
+01 - Curse
+01 - Tackle
+03 - Growl
+06 - Water Gun
+09 - Confusion
+12 - Yawn
+15 - Disable
+18 - Headbutt
+21 - Water Pulse
+24 - Zen Headbutt
+27 - Aqua Tail
+30 - Slack Off
+35 - Psych Up
+40 - Psychic
+45 - Amnesia
+50 - Rain Dance
+55 - Trick Room
 
 -------------------
 080 - Slowbro
@@ -1107,6 +2673,26 @@ Type: Water / Psychic
 New Moves:
 - Teleport (Tutor) (LGPE)
 
+Level Up Moves:
+01 - Curse
+01 - Tackle
+03 - Growl
+06 - Water Gun
+09 - Confusion
+12 - Yawn
+15 - Disable
+18 - Headbutt
+21 - Water Pulse
+24 - Zen Headbutt
+27 - Aqua Tail
+30 - Slack Off
+33 - Withdraw
+35 - Psych Up
+40 - Psychic
+45 - Amnesia
+50 - Rain Dance
+55 - Trick Room
+
 -------------------
 199 - Slowking
 -------------------
@@ -1117,6 +2703,28 @@ Type: Water / Psychic
 
 New Moves:
 - Teleport (Tutor) (LGPE)
+
+Level Up Moves:
+01 - Hidden Power
+01 - Trump Card
+01 - Curse
+01 - Tackle
+03 - Growl
+06 - Water Gun
+09 - Confusion
+12 - Yawn
+15 - Disable
+18 - Headbutt
+21 - Water Pulse
+24 - Psyshock
+27 - Aqua Tail
+30 - Slack Off
+33 - Power Gem
+35 - Psych Up
+40 - Psychic
+45 - Amnesia
+50 - Nasty Plot
+55 - Trick Room
 
 -------------------
 081 - Magnemite
@@ -1129,6 +2737,24 @@ Type: Electric / Steel
 New Moves:
 - Teleport (Tutor) (LGPE)
 
+Level Up Moves:
+01 - Tackle
+01 - Supersonic
+03 - Thunder Shock
+06 - Magnet Bomb
+09 - Thunder Wave
+12 - Screech
+16 - Sonic Boom
+20 - Charge Beam
+24 - Mirror Shot
+28 - Magnet Rise
+34 - Flash Cannon
+39 - Discharge
+44 - Metal Sound
+49 - Light Screen
+54 - Lock-On
+59 - Zap Cannon
+
 -------------------
 082 - Magneton
 -------------------
@@ -1139,6 +2765,25 @@ Type: Electric / Steel
 
 New Moves:
 - Teleport (Tutor) (LGPE)
+
+Level Up Moves:
+01 - Tackle
+01 - Supersonic
+03 - Thunder Shock
+06 - Magnet Bomb
+09 - Thunder Wave
+12 - Screech
+16 - Sonic Boom
+20 - Charge Beam
+24 - Mirror Shot
+28 - Magnet Rise
+30 - Tri Attack
+34 - Flash Cannon
+39 - Discharge
+44 - Metal Sound
+49 - Light Screen
+54 - Lock-On
+59 - Zap Cannon
 
 -------------------
 462 - Magnezone
@@ -1151,6 +2796,28 @@ Type: Electric / Steel
 New Moves:
 - Fly (HM)
 - Teleport (Tutor) (LGPE)
+
+Level Up Moves:
+01 - Mirror Coat
+01 - Barrier
+01 - Tackle
+01 - Supersonic
+03 - Thunder Shock
+06 - Magnet Bomb
+09 - Thunder Wave
+12 - Screech
+16 - Sonic Boom
+20 - Charge Beam
+24 - Mirror Shot
+28 - Magnet Rise
+30 - Tri Attack
+34 - Flash Cannon
+39 - Discharge
+44 - Metal Sound
+49 - Light Screen
+54 - Lock-On
+59 - Zap Cannon
+64 - Hyper Beam
 
 -------------------
 083 - Farfetch’d
@@ -1165,6 +2832,28 @@ New Moves:
 - Rock Smash (HM)
 - Sacred Sword (Level)
 
+Level Up Moves:
+01 - Leaf Blade
+01 - Night Slash
+01 - Poison Jab
+01 - Feint
+01 - Peck
+01 - Sand Attack
+04 - Leer
+08 - Fury Cutter
+12 - Fury Attack
+16 - False Swipe
+20 - Aerial Ace
+24 - Revenge
+28 - Knock Off
+32 - Slash
+36 - Sacred Sword
+40 - Swords Dance
+44 - First Impression
+48 - Agility
+52 - Brave Bird
+56 - Close Combat
+
 -------------------
 084 - Doduo
 -------------------
@@ -1177,6 +2866,27 @@ New Moves:
 - Double Kick (Level)
 - Tri Attack (Tutor) (HOME)
 
+Level Up Moves:
+01 - Peck
+01 - Growl
+01 - Leer
+03 - Quick Attack
+06 - Fury Attack
+09 - Double Kick
+12 - Pursuit
+15 - Pluck
+18 - Uproar
+21 - Feint Attack
+24 - Double Hit
+27 - Agility
+30 - Endeavor
+34 - Drill Peck
+38 - Acupressure
+42 - Jump Kick
+46 - Thrash
+50 - Swords Dance
+54 - Brave Bird
+
 -------------------
 085 - Dodrio
 -------------------
@@ -1188,6 +2898,31 @@ Type: Normal / Flying
 New Moves:
 - Double Kick (Level)
 - Lunge (Level) (BDSP)
+
+Level Up Moves:
+01 - Mirror Move
+01 - Lunge
+01 - Rage
+01 - Peck
+01 - Growl
+01 - Leer
+03 - Quick Attack
+06 - Fury Attack
+09 - Double Kick
+12 - Pursuit
+15 - Pluck
+18 - Uproar
+21 - Feint Attack
+24 - Double Hit
+27 - Agility
+30 - Endeavor
+31 - Tri Attack
+34 - Drill Peck
+38 - Acupressure
+42 - Jump Kick
+46 - Thrash
+50 - Swords Dance
+54 - Brave Bird
 
 -------------------
 086 - Seel
@@ -1205,6 +2940,27 @@ New Moves:
 - Megahorn (Tutor) (LGPE)
 - Play Rough (TM)
 - Wave Crash (Level)
+
+Level Up Moves:
+01 - Headbutt
+01 - Growl
+03 - Water Sport
+06 - Ice Shard
+09 - Aqua Jet
+12 - Encore
+15 - Fake Out
+18 - Icicle Spear
+21 - Aqua Ring
+24 - Aurora Beam
+27 - Brine
+30 - Rest
+35 - Take Down
+39 - Aqua Tail
+43 - Ice Beam
+47 - Safeguard
+51 - Belly Drum
+55 - Wave Crash
+59 - Horn Drill
 
 -------------------
 087 - Dewgong
@@ -1225,6 +2981,29 @@ New Moves:
 - Triple Axel (Tutor) (HOME)
 - Wave Crash (Level)
 
+Level Up Moves:
+01 - Signal Beam
+01 - Headbutt
+01 - Growl
+03 - Water Sport
+06 - Ice Shard
+09 - Aqua Jet
+12 - Encore
+15 - Fake Out
+18 - Icicle Spear
+21 - Aqua Ring
+24 - Aurora Beam
+27 - Brine
+30 - Rest
+34 - Sheer Cold
+35 - Take Down
+39 - Aqua Tail
+43 - Ice Beam
+47 - Safeguard
+51 - Belly Drum
+55 - Wave Crash
+59 - Horn Drill
+
 -------------------
 088 - Grimer
 -------------------
@@ -1236,6 +3015,26 @@ Type: Poison
 New Moves:
 - Mega Drain (Tutor) (LGPE)
 - Skitter Smack (Tutor) (HOME)
+
+Level Up Moves:
+01 - Pound
+01 - Poison Gas
+03 - Harden
+06 - Mud-Slap
+09 - Acid Spray
+12 - Disable
+15 - Sludge
+18 - Mud Bomb
+21 - Minimize
+24 - Sludge Bomb
+27 - Fling
+30 - Poison Jab
+33 - Sludge Wave
+38 - Toxic
+42 - Screech
+46 - Acid Armor
+50 - Gunk Shot
+54 - Memento
 
 -------------------
 089 - Muk
@@ -1249,6 +3048,28 @@ New Moves:
 - Mega Drain (Tutor) (LGPE)
 - Skitter Smack (Tutor) (HOME)
 
+Level Up Moves:
+01 - Shadow Punch
+01 - Shadow Sneak
+01 - Pound
+01 - Poison Gas
+03 - Harden
+06 - Mud-Slap
+09 - Acid Spray
+12 - Disable
+15 - Sludge
+18 - Mud Bomb
+21 - Minimize
+24 - Sludge Bomb
+27 - Fling
+30 - Poison Jab
+33 - Sludge Wave
+38 - Toxic
+42 - Screech
+46 - Acid Armor
+50 - Gunk Shot
+54 - Memento
+
 -------------------
 090 - Shellder
 -------------------
@@ -1260,6 +3081,25 @@ Type: Water
 New Moves:
 - Teleport (Tutor) (LGPE)
 
+Level Up Moves:
+01 - Tackle
+01 - Withdraw
+01 - Supersonic
+04 - Water Gun
+08 - Ice Shard
+12 - Leer
+16 - Clamp
+20 - Aurora Beam
+24 - Protect
+28 - Razor Shell
+32 - Icicle Spear
+36 - Iron Defense
+40 - Liquidation
+44 - Ice Beam
+48 - Screech
+52 - Shell Smash
+56 - Hydro Pump
+
 -------------------
 091 - Cloyster
 -------------------
@@ -1270,6 +3110,29 @@ Type: Water / Ice
 
 New Moves:
 - Teleport (Tutor) (LGPE)
+
+Level Up Moves:
+01 - Spike Cannon
+01 - Toxic Spikes
+01 - Rock Blast
+01 - Twineedle
+01 - Tackle
+01 - Withdraw
+01 - Supersonic
+04 - Water Gun
+08 - Ice Shard
+12 - Leer
+16 - Clamp
+20 - Aurora Beam
+24 - Protect
+28 - Razor Shell
+32 - Icicle Spear
+36 - Iron Defense
+40 - Liquidation
+44 - Ice Beam
+48 - Screech
+52 - Shell Smash
+56 - Hydro Pump
 
 -------------------
 092 - Gastly
@@ -1283,6 +3146,26 @@ New Moves:
 - Mega Drain (Tutor) (LGPE)
 - Poison Gas (Level) (LGPE)
 
+Level Up Moves:
+01 - Poison Gas
+01 - Mean Look
+01 - Lick
+03 - Smog
+06 - Spite
+09 - Hypnosis
+12 - Confuse Ray
+15 - Night Shade
+18 - Curse
+21 - Hex
+24 - Sucker Punch
+29 - Nightmare
+34 - Shadow Ball
+39 - Dark Pulse
+44 - Sludge Wave
+49 - Dream Eater
+54 - Nasty Plot
+59 - Destiny Bond
+
 -------------------
 093 - Haunter
 -------------------
@@ -1294,6 +3177,27 @@ Type: Ghost / Poison
 New Moves:
 - Mega Drain (Tutor) (LGPE)
 - Poison Gas (Level) (LGPE)
+
+Level Up Moves:
+01 - Poison Gas
+01 - Mean Look
+01 - Lick
+03 - Smog
+06 - Spite
+09 - Hypnosis
+12 - Confuse Ray
+15 - Night Shade
+18 - Curse
+21 - Hex
+24 - Sucker Punch
+25 - Shadow Punch
+29 - Nightmare
+34 - Shadow Ball
+39 - Dark Pulse
+44 - Sludge Wave
+49 - Dream Eater
+54 - Nasty Plot
+59 - Destiny Bond
 
 -------------------
 094 - Gengar
@@ -1309,6 +3213,28 @@ New Moves:
 
 Notes: Gengar keeps its Levitate ability from Gen IV in all versions of the game.
 
+Level Up Moves:
+01 - Perish Song
+01 - Poison Gas
+01 - Mean Look
+01 - Lick
+03 - Smog
+06 - Spite
+09 - Hypnosis
+12 - Confuse Ray
+15 - Night Shade
+18 - Curse
+21 - Hex
+24 - Sucker Punch
+25 - Shadow Punch
+29 - Nightmare
+34 - Shadow Ball
+39 - Dark Pulse
+44 - Sludge Wave
+49 - Dream Eater
+54 - Nasty Plot
+59 - Destiny Bond
+
 -------------------
 095 - Onix
 -------------------
@@ -1321,6 +3247,27 @@ New Moves:
 - Coil (Level)
 - Power Whip (Tutor)
 
+Level Up Moves:
+01 - Mud Sport
+01 - Tackle
+01 - Harden
+01 - Bind
+04 - Rock Throw
+08 - Screech
+12 - Dragon Breath
+16 - Curse
+20 - Dig
+24 - Rock Slide
+28 - Rock Polish
+32 - Slam
+36 - Iron Tail
+40 - Coil
+44 - Earthquake
+48 - Stone Edge
+52 - Heavy Slam
+56 - Double-Edge
+60 - Head Smash
+
 -------------------
 208 - Steelix
 -------------------
@@ -1332,6 +3279,31 @@ Type: Steel / Ground
 New Moves:
 - Coil (Level)
 - Power Whip (Tutor)
+
+Level Up Moves:
+01 - Thunder Fang
+01 - Ice Fang
+01 - Fire Fang
+01 - Magnet Rise
+01 - Mud Sport
+01 - Tackle
+01 - Harden
+01 - Bind
+04 - Rock Throw
+08 - Screech
+12 - Dragon Breath
+16 - Curse
+20 - Dig
+24 - Rock Slide
+28 - Rock Polish
+32 - Crunch
+36 - Iron Tail
+40 - Coil
+44 - Earthquake
+48 - Stone Edge
+52 - Heavy Slam
+56 - Double-Edge
+60 - Head Smash
 
 -------------------
 096 - Drowzee
@@ -1347,6 +3319,26 @@ New Moves:
 - Tri Attack (Tutor) (HOME)
 - Teleport (Tutor) (LGPE)
 
+Level Up Moves:
+01 - Dream Eater
+01 - Pound
+01 - Hypnosis
+03 - Disable
+06 - Confusion
+09 - Meditate
+12 - Poison Gas
+15 - Psybeam
+18 - Headbutt
+21 - Wake-Up Slap
+24 - Zen Headbutt
+29 - Psyshock
+34 - Psych Up
+39 - Psychic
+44 - Barrier
+49 - Nasty Plot
+54 - Belly Drum
+59 - Future Sight
+
 -------------------
 097 - Hypno
 -------------------
@@ -1361,6 +3353,29 @@ New Moves:
 - Tri Attack (Tutor) (HOME)
 - Teleport (Tutor) (LGPE)
 
+Level Up Moves:
+01 - Dream Eater
+01 - Confuse Ray
+01 - Switcheroo
+01 - Nightmare
+01 - Pound
+01 - Hypnosis
+03 - Disable
+06 - Confusion
+09 - Meditate
+12 - Poison Gas
+15 - Psybeam
+18 - Headbutt
+21 - Wake-Up Slap
+24 - Zen Headbutt
+29 - Psyshock
+34 - Psych Up
+39 - Psychic
+44 - Barrier
+49 - Nasty Plot
+54 - Belly Drum
+59 - Future Sight
+
 -------------------
 098 - Krabby
 -------------------
@@ -1372,6 +3387,26 @@ Type: Water
 New Moves:
 - Chilling Water (Tutor)
 
+Level Up Moves:
+01 - Mud Sport
+01 - Bubble
+01 - Leer
+03 - Harden
+06 - Vise Grip
+09 - Metal Claw
+12 - Mud Shot
+15 - Bubble Beam
+18 - Stomp
+21 - Protect
+24 - Razor Shell
+27 - Flail
+32 - Slam
+36 - Knock Off
+40 - Crabhammer
+44 - Agility
+48 - Swords Dance
+52 - Guillotine
+
 -------------------
 099 - Kingler
 -------------------
@@ -1382,6 +3417,28 @@ Type: Water
 
 New Moves:
 - Chilling Water (Tutor)
+
+Level Up Moves:
+01 - Night Slash
+01 - Mud Sport
+01 - Bubble
+01 - Leer
+03 - Harden
+06 - Vise Grip
+09 - Metal Claw
+12 - Mud Shot
+15 - Bubble Beam
+18 - Stomp
+21 - Protect
+24 - Razor Shell
+27 - Flail
+28 - Hammer Arm
+32 - Slam
+36 - Knock Off
+40 - Crabhammer
+44 - Agility
+48 - Swords Dance
+52 - Guillotine
 
 -------------------
 100 - Voltorb
@@ -1397,6 +3454,26 @@ New Moves:
 - Overheat (TM)
 - Teleport (Tutor) (LGPE)
 
+Level Up Moves:
+01 - Charge
+01 - Tackle
+01 - Screech
+03 - Thunder Shock
+06 - Eerie Impulse
+09 - Sonic Boom
+12 - Spark
+15 - Swift
+18 - Rollout
+21 - Charge Beam
+24 - Self-Destruct
+27 - Light Screen
+32 - Magnet Rise
+36 - Gyro Ball
+40 - Discharge
+44 - Mirror Coat
+48 - Explosion
+52 - Boomburst
+
 -------------------
 101 - Electrode
 -------------------
@@ -1411,6 +3488,28 @@ New Moves:
 - Overheat (TM)
 - Teleport (Tutor) (LGPE)
 
+Level Up Moves:
+01 - Metal Sound
+01 - Charge
+01 - Tackle
+01 - Screech
+03 - Thunder Shock
+06 - Eerie Impulse
+09 - Sonic Boom
+12 - Spark
+15 - Swift
+18 - Rollout
+21 - Charge Beam
+24 - Self-Destruct
+27 - Light Screen
+30 - Volt Switch
+32 - Magnet Rise
+36 - Gyro Ball
+40 - Discharge
+44 - Mirror Coat
+48 - Explosion
+52 - Boomburst
+
 -------------------
 102 - Exeggcute
 -------------------
@@ -1421,6 +3520,26 @@ Type: Grass / Psychic
 
 New Moves:
 - Teleport (Tutor) (LGPE)
+
+Level Up Moves:
+01 - Hypnosis
+01 - Barrage
+01 - Absorb
+04 - Leech Seed
+08 - Confusion
+12 - Mega Drain
+16 - Reflect
+20 - Stun Spore
+20 - Poison Powder
+20 - Sleep Powder
+24 - Extrasensory
+28 - Synthesis
+32 - Giga Drain
+36 - Worry Seed
+40 - Natural Gift
+44 - Psychic
+48 - Uproar
+52 - Solar Beam
 
 -------------------
 103 - Exeggutor
@@ -1433,6 +3552,28 @@ Type: Grass / Psychic
 New Moves:
 - Teleport (Tutor) (LGPE)
 
+Level Up Moves:
+01 - Stomp
+01 - Hypnosis
+01 - Barrage
+01 - Absorb
+04 - Leech Seed
+08 - Confusion
+12 - Mega Drain
+16 - Reflect
+20 - Stun Spore
+20 - Poison Powder
+20 - Sleep Powder
+24 - Extrasensory
+28 - Synthesis
+32 - Egg Bomb
+36 - Psyshock
+40 - Seed Bomb
+44 - Psychic
+48 - Wood Hammer
+52 - Solar Beam
+56 - Leaf Storm
+
 -------------------
 104 - Cubone
 -------------------
@@ -1443,6 +3584,25 @@ Type: Ground
 
 New Moves:
 - Revenge (Level)
+
+Level Up Moves:
+01 - Bone Club
+01 - Leer
+01 - Growl
+01 - Fling
+04 - Tail Whip
+08 - False Swipe
+12 - Headbutt
+16 - Rage
+20 - Revenge
+24 - Bonemerang
+29 - Brutal Swing
+34 - Focus Energy
+39 - Bone Rush
+44 - Thrash
+49 - Endeavor
+54 - Double-Edge
+59 - Skull Bash
 
 -------------------
 105 - Marowak
@@ -1455,6 +3615,26 @@ Type: Ground
 New Moves:
 - Revenge (Level)
 
+Level Up Moves:
+01 - Perish Song
+01 - Bone Club
+01 - Leer
+01 - Growl
+01 - Fling
+04 - Tail Whip
+08 - False Swipe
+12 - Headbutt
+16 - Rage
+20 - Revenge
+24 - Bonemerang
+29 - Brutal Swing
+34 - Focus Energy
+39 - Bone Rush
+44 - Thrash
+49 - Endeavor
+54 - Double-Edge
+59 - Skull Bash
+
 -------------------
 236 - Tyrogue
 -------------------
@@ -1465,6 +3645,13 @@ Type: Fighting
 
 New Moves:
 - Power-Up Punch (Level/Tutor)
+
+Level Up Moves:
+01 - Tackle
+01 - Fake Out
+01 - Foresight
+01 - Helping Hand
+15 - Power-Up Punch
 
 -------------------
 106 - Hitmonlee
@@ -1477,6 +3664,29 @@ Type: Fighting
 New Moves:
 - None
 
+Level Up Moves:
+01 - Rolling Kick
+01 - Feint
+01 - Endure
+01 - Tackle
+01 - Fake Out
+01 - Foresight
+01 - Helping Hand
+01 - Power-Up Punch
+04 - Meditate
+08 - Double Kick
+12 - Low Kick
+16 - Low Sweep
+20 - Brick Break
+24 - Revenge
+28 - Mind Reader
+32 - Jump Kick
+36 - Blaze Kick
+40 - Mega Kick
+44 - Close Combat
+48 - Reversal
+52 - High Jump Kick
+
 -------------------
 107 - Hitmonchan
 -------------------
@@ -1487,6 +3697,31 @@ Type: Fighting
 
 New Moves:
 - Meteor Mash (Level)
+
+Level Up Moves:
+01 - Bullet Punch
+01 - Feint
+01 - Detect
+01 - Tackle
+01 - Fake Out
+01 - Foresight
+01 - Helping Hand
+01 - Power-Up Punch
+04 - Pursuit
+08 - Mach Punch
+12 - Comet Punch
+16 - Vacuum Wave
+20 - Drain Punch
+24 - Revenge
+28 - Agility
+32 - Sky Uppercut
+36 - Thunder Punch
+36 - Ice Punch
+36 - Fire Punch
+40 - Mega Punch
+44 - Close Combat
+48 - Meteor Mash
+52 - Focus Punch
 
 -------------------
 237 - Hitmontop
@@ -1499,6 +3734,29 @@ Type: Fighting
 New Moves:
 - Ice Spinner (Tutor)
 - Power-Up Punch (Level/Tutor)
+
+Level Up Moves:
+01 - Rolling Kick
+01 - Feint
+01 - Detect
+01 - Tackle
+01 - Fake Out
+01 - Foresight
+01 - Helping Hand
+01 - Power-Up Punch
+04 - Pursuit
+08 - Quick Attack
+12 - Focus Energy
+16 - Rapid Spin
+20 - Triple Kick
+24 - Revenge
+28 - Agility
+32 - Gyro Ball
+36 - Drill Run
+40 - Sucker Punch
+44 - Close Combat
+48 - Counter
+52 - Endeavor
 
 -------------------
 108 - Lickitung

@@ -236,6 +236,7 @@ New Moves:
 - Lunge (Level)
 - Mega Drain (Tutor) (LGPE)
 - Megahorn (Tutor)
+- Outrage (Tutor) (LGPE)
 - Pounce (Tutor)
 - Screech (Tutor) (HOME)
 - Smart Strike (TM)
@@ -1054,6 +1055,7 @@ Type: Rock / Ground
 
 New Moves:
 - Head Smash (Level)
+- Heat Crash (Tutor)
 - High Horsepower (Tutor) (HOME)
 - Meteor Beam (Tutor) (HOME)
 - Scorching Sands (Tutor) (HOME)
@@ -1877,6 +1879,7 @@ Type: Bug ⟶ Bug / Ground
 
 New Moves:
 - Megahorn (Tutor)
+- Outrage (Tutor) (LGPE)
 - Pounce (Tutor)
 
 -------------------
@@ -3141,6 +3144,7 @@ Held Item: None
 Type: Fire / Rock
 
 New Moves:
+- Heat Crash (Tutor) (HOME)
 - Magma Storm (Level)
 - Meteor Beam (Tutor)
 - Power Gem (Level/Tutor)
@@ -3993,6 +3997,7 @@ Type: Fighting
 
 New Moves:
 - Darkest Lariat (Tutor)
+- Heat Crash (Tutor) (HOME)
 - High Horsepower (Tutor) (HOME)
 - Liquidation (Tutor)
 
@@ -4330,6 +4335,7 @@ Held Item: Rawst Berry (100%)
 Type: Fire / Ground
 
 New Moves:
+- Heat Crash (Tutor) (HOME)
 - Scorching Sands (Tutor) (HOME)
 
 -------------------
@@ -4341,6 +4347,7 @@ Held Item: Rawst Berry (100%)
 Type: Fire / Ground
 
 New Moves:
+- Heat Crash (Tutor) (HOME)
 - High Horsepower (Tutor) (HOME)
 - Scorching Sands (Tutor) (HOME)
 

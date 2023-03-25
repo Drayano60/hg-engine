@@ -1190,6 +1190,18 @@ Function 7111:
     JumpIf EQUAL Function#7112
     CompareVarValue 0x8004 486
     JumpIf EQUAL Function#7112
+//______custom_entries_home
+    CompareVarValue 0x8004 219
+    JumpIf EQUAL Function#7102
+    CompareVarValue 0x8004 297
+    JumpIf EQUAL Function#7102
+    CompareVarValue 0x8004 322
+    JumpIf EQUAL Function#7102
+    CompareVarValue 0x8004 323
+    JumpIf EQUAL Function#7102
+//______custom_entries_custom
+    CompareVarValue 0x8004 076
+    JumpIf EQUAL Function#7102
 Return
 
 Function 7112:

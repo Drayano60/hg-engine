@@ -79,7 +79,8 @@ PALETTE_BUG equ 610
 .halfword MOVE_SCALD
 
 // Replace TM56 Fling with TM56 Power Whip
-.halfword MOVE_POWER_WHIP
+// Cancelled
+.halfword MOVE_FLING
 
 // Replace TM62 Silver Wind with TM62 Acrobatics
 .skip (2 * 5)
@@ -191,8 +192,9 @@ PALETTE_BUG equ 610
 .skip 4
 
 // Change TM56 to Grass palette
+// Cancelled
 .skip 2
-.halfword PALETTE_GRASS
+.halfword PALETTE_DARK
 .skip 4
 
 // Change TM62 to Flying palette

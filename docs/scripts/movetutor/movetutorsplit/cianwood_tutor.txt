@@ -2217,6 +2217,11 @@ Function 5141:
     JumpIf EQUAL Function#5142
     CompareVarValue 0x8004 392
     JumpIf EQUAL Function#5142
+//______custom_entries_custom
+    CompareVarValue 0x8004 331
+    JumpIf EQUAL Function#5142
+    CompareVarValue 0x8004 332
+    JumpIf EQUAL Function#5142
 Return
 
 Function 5142:

@@ -1,26 +1,7 @@
 --------------
-Move Tutor
+Move Tutors
 --------------
-
-Replaced TMs:
-- Bullet Seed?
-- Water Pulse
-- Dig?
-- Shock Wave
-- Silver Wind
-- Flash
-
--- Current Plans --
-
-Note:
-- Power Whip is a tutor instead. Need to change Fling TM back.
-- Need to add Heat Crash and Darkest Lariat (maybe Parting Shot too but not as tutor)
-
-Other (4):
-- Frustration
-- Return
-- Weather Ball
-- Natural Gift
+Each town has a Move Tutor in the Pokémon Center that becomes available after getting that town's badge.
 
 --------------
 Zephyr Set (18)
@@ -197,3 +178,11 @@ Rising Set (18)
 - Sky Attack
 - Steel Beam
 - Triple Axel
+
+--------------
+Other (4)
+--------------
+- Frustration (Goldenrod Dept. Store)
+- Return (Goldenrod Dept. Store)
+- Weather Ball (Mahogany Town)
+- Natural Gift (Route 39)

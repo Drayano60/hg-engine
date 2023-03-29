@@ -1,0 +1,67 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+40	MOVE_TUTOR_INTRODUCTION
+41	MOVE_TUTOR_WHICH_POKEMON\r
+42	MOVE_TUTOR_NO_BADGE
+43	MOVE_TUTOR_WHICH_MOVE
+44	MOVE_TUTOR_ALREADY_KNOWS\r
+45	MOVE_TUTOR_GOODBYE
+46	MOVE_TUTOR_WILL_TEACH\r
+47   Cancel
+
+
+50	Air Cutter
+51	Block
+52	Brutal Swing
+53	Bug Bite
+54	Dive
+55	Flash
+56	Headbutt
+57	Helping Hand
+58	Low Kick
+59	Mega Drain
+60	Metronome
+61	Mud-Slap
+62	Snore
+63	Spite
+64	String Shot
+65	Struggle Bug
+66	Swift
+67	Twister

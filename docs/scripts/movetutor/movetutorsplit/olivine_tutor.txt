@@ -1,0 +1,2689 @@
+//____________________olivine_center
+
+//________________________________________Mineral_Set_________________
+
+//____________________mineral_set_checks
+Function 600:
+    Message 43
+    ListLocalText 1 1 0 1 0x800C
+    Call Function#6011
+    Call Function#6021
+    Call Function#6031
+    Call Function#6041
+    Call Function#6051
+    Call Function#6061
+    Call Function#6071
+    Call Function#6081
+    Call Function#6091
+    Call Function#6101
+    Call Function#6111
+    Call Function#6121
+    Call Function#6131
+    Call Function#6141
+    Call Function#6151
+    Call Function#6161
+    Call Function#6171
+    Call Function#6181
+    Call Function#997
+    CompareVarValue 0x800C 1
+    JumpIf EQUAL Function#6013
+    CompareVarValue 0x800C 2
+    JumpIf EQUAL Function#6023
+    CompareVarValue 0x800C 3
+    JumpIf EQUAL Function#6033
+    CompareVarValue 0x800C 4
+    JumpIf EQUAL Function#6043
+    CompareVarValue 0x800C 5
+    JumpIf EQUAL Function#6053
+    CompareVarValue 0x800C 6
+    JumpIf EQUAL Function#6063
+    CompareVarValue 0x800C 7
+    JumpIf EQUAL Function#6073
+    CompareVarValue 0x800C 8
+    JumpIf EQUAL Function#6083
+    CompareVarValue 0x800C 9
+    JumpIf EQUAL Function#6093
+    CompareVarValue 0x800C 10
+    JumpIf EQUAL Function#6103
+    CompareVarValue 0x800C 11
+    JumpIf EQUAL Function#6113
+    CompareVarValue 0x800C 12
+    JumpIf EQUAL Function#6123
+    CompareVarValue 0x800C 13
+    JumpIf EQUAL Function#6133
+    CompareVarValue 0x800C 14
+    JumpIf EQUAL Function#6143
+    CompareVarValue 0x800C 15
+    JumpIf EQUAL Function#6153
+    CompareVarValue 0x800C 16
+    JumpIf EQUAL Function#6163
+    CompareVarValue 0x800C 17
+    JumpIf EQUAL Function#6173
+    CompareVarValue 0x800C 18
+    JumpIf EQUAL Function#6183
+Jump Function#999
+
+//____________________ancient_power
+Function 6011:
+    CompareVarValue 0x8004 151
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 235
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 004
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 005
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 006
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 050
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 051
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 074
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 075
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 076
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 095
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 098
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 099
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 102
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 103
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 104
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 105
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 111
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 112
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 114
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 131
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 138
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 139
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 140
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 141
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 142
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 144
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 145
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 146
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 150
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 152
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 153
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 154
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 158
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 159
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 160
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 175
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 176
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 193
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 194
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 195
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 206
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 208
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 213
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 218
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 219
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 220
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 221
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 222
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 231
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 232
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 246
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 247
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 248
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 249
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 250
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 251
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 258
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 259
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 260
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 299
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 303
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 304
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 305
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 306
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 318
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 319
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 322
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 324
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 337
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 338
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 341
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 342
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 343
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 344
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 345
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 346
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 347
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 348
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 352
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 369
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 377
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 378
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 379
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 382
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 383
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 384
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 385
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 408
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 409
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 410
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 411
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 422
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 423
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 436
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 437
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 464
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 465
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 468
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 469
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 473
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 476
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 483
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 484
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 485
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 486
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 487
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 489
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 490
+    JumpIf EQUAL Function#6012
+    CompareVarValue 0x8004 493
+    JumpIf EQUAL Function#6012
+Return
+
+Function 6012:
+    AddListOption 50 255 1
+Return
+
+Function 6013:
+    SetVar 0x800B 246
+Jump Function#994
+
+//____________________bounce
+Function 6021:
+    CompareVarValue 0x8004 151
+    JumpIf EQUAL Function#6022
+    CompareVarValue 0x8004 235
+    JumpIf EQUAL Function#6022
+    CompareVarValue 0x8004 035
+    JumpIf EQUAL Function#6022
+    CompareVarValue 0x8004 036
+    JumpIf EQUAL Function#6022
+    CompareVarValue 0x8004 039
+    JumpIf EQUAL Function#6022
+    CompareVarValue 0x8004 040
+    JumpIf EQUAL Function#6022
+    CompareVarValue 0x8004 077
+    JumpIf EQUAL Function#6022
+    CompareVarValue 0x8004 078
+    JumpIf EQUAL Function#6022
+    CompareVarValue 0x8004 106
+    JumpIf EQUAL Function#6022
+    CompareVarValue 0x8004 116
+    JumpIf EQUAL Function#6022
+    CompareVarValue 0x8004 117
+    JumpIf EQUAL Function#6022
+    CompareVarValue 0x8004 118
+    JumpIf EQUAL Function#6022
+    CompareVarValue 0x8004 119
+    JumpIf EQUAL Function#6022
+    CompareVarValue 0x8004 129
+    JumpIf EQUAL Function#6022
+    CompareVarValue 0x8004 130
+    JumpIf EQUAL Function#6022
+    CompareVarValue 0x8004 167
+    JumpIf EQUAL Function#6022
+    CompareVarValue 0x8004 168
+    JumpIf EQUAL Function#6022
+    CompareVarValue 0x8004 170
+    JumpIf EQUAL Function#6022
+    CompareVarValue 0x8004 171
+    JumpIf EQUAL Function#6022
+    CompareVarValue 0x8004 174
+    JumpIf EQUAL Function#6022
+    CompareVarValue 0x8004 183
+    JumpIf EQUAL Function#6022
+    CompareVarValue 0x8004 184
+    JumpIf EQUAL Function#6022
+    CompareVarValue 0x8004 186
+    JumpIf EQUAL Function#6022
+    CompareVarValue 0x8004 187
+    JumpIf EQUAL Function#6022
+    CompareVarValue 0x8004 188
+    JumpIf EQUAL Function#6022
+    CompareVarValue 0x8004 189
+    JumpIf EQUAL Function#6022
+    CompareVarValue 0x8004 190
+    JumpIf EQUAL Function#6022
+    CompareVarValue 0x8004 211
+    JumpIf EQUAL Function#6022
+    CompareVarValue 0x8004 223
+    JumpIf EQUAL Function#6022
+    CompareVarValue 0x8004 224
+    JumpIf EQUAL Function#6022
+    CompareVarValue 0x8004 225
+    JumpIf EQUAL Function#6022
+    CompareVarValue 0x8004 226
+    JumpIf EQUAL Function#6022
+    CompareVarValue 0x8004 230
+    JumpIf EQUAL Function#6022
+    CompareVarValue 0x8004 232
+    JumpIf EQUAL Function#6022
+    CompareVarValue 0x8004 234
+    JumpIf EQUAL Function#6022
+    CompareVarValue 0x8004 255
+    JumpIf EQUAL Function#6022
+    CompareVarValue 0x8004 256
+    JumpIf EQUAL Function#6022
+    CompareVarValue 0x8004 257
+    JumpIf EQUAL Function#6022
+    CompareVarValue 0x8004 275
+    JumpIf EQUAL Function#6022
+    CompareVarValue 0x8004 298
+    JumpIf EQUAL Function#6022
+    CompareVarValue 0x8004 318
+    JumpIf EQUAL Function#6022
+    CompareVarValue 0x8004 319
+    JumpIf EQUAL Function#6022
+    CompareVarValue 0x8004 320
+    JumpIf EQUAL Function#6022
+    CompareVarValue 0x8004 321
+    JumpIf EQUAL Function#6022
+    CompareVarValue 0x8004 325
+    JumpIf EQUAL Function#6022
+    CompareVarValue 0x8004 326
+    JumpIf EQUAL Function#6022
+    CompareVarValue 0x8004 339
+    JumpIf EQUAL Function#6022
+    CompareVarValue 0x8004 340
+    JumpIf EQUAL Function#6022
+    CompareVarValue 0x8004 359
+    JumpIf EQUAL Function#6022
+    CompareVarValue 0x8004 367
+    JumpIf EQUAL Function#6022
+    CompareVarValue 0x8004 368
+    JumpIf EQUAL Function#6022
+    CompareVarValue 0x8004 369
+    JumpIf EQUAL Function#6022
+    CompareVarValue 0x8004 370
+    JumpIf EQUAL Function#6022
+    CompareVarValue 0x8004 424
+    JumpIf EQUAL Function#6022
+    CompareVarValue 0x8004 427
+    JumpIf EQUAL Function#6022
+    CompareVarValue 0x8004 428
+    JumpIf EQUAL Function#6022
+    CompareVarValue 0x8004 453
+    JumpIf EQUAL Function#6022
+    CompareVarValue 0x8004 454
+    JumpIf EQUAL Function#6022
+    CompareVarValue 0x8004 456
+    JumpIf EQUAL Function#6022
+    CompareVarValue 0x8004 457
+    JumpIf EQUAL Function#6022
+    CompareVarValue 0x8004 458
+    JumpIf EQUAL Function#6022
+    CompareVarValue 0x8004 489
+    JumpIf EQUAL Function#6022
+    CompareVarValue 0x8004 490
+    JumpIf EQUAL Function#6022
+Return
+
+Function 6022:
+    AddListOption 51 255 2
+Return
+
+Function 6023:
+    SetVar 0x800B 340
+Jump Function#994
+
+//____________________captivate
+//___this_checks_for_incompatibilities_instead
+Function 6031:
+    CompareVarValue 0x8004 10
+    JumpIf EQUAL Function#998
+    CompareVarValue 0x8004 11
+    JumpIf EQUAL Function#998
+    CompareVarValue 0x8004 13
+    JumpIf EQUAL Function#998
+    CompareVarValue 0x8004 14
+    JumpIf EQUAL Function#998
+    CompareVarValue 0x8004 81
+    JumpIf EQUAL Function#998
+    CompareVarValue 0x8004 82
+    JumpIf EQUAL Function#998
+    CompareVarValue 0x8004 100
+    JumpIf EQUAL Function#998
+    CompareVarValue 0x8004 101
+    JumpIf EQUAL Function#998
+    CompareVarValue 0x8004 120
+    JumpIf EQUAL Function#998
+    CompareVarValue 0x8004 121
+    JumpIf EQUAL Function#998
+    CompareVarValue 0x8004 129
+    JumpIf EQUAL Function#998
+    CompareVarValue 0x8004 132
+    JumpIf EQUAL Function#998
+    CompareVarValue 0x8004 137
+    JumpIf EQUAL Function#998
+    CompareVarValue 0x8004 144
+    JumpIf EQUAL Function#998
+    CompareVarValue 0x8004 145
+    JumpIf EQUAL Function#998
+    CompareVarValue 0x8004 146
+    JumpIf EQUAL Function#998
+    CompareVarValue 0x8004 150
+    JumpIf EQUAL Function#998
+    CompareVarValue 0x8004 201
+    JumpIf EQUAL Function#998 
+    CompareVarValue 0x8004 202
+    JumpIf EQUAL Function#998 
+    CompareVarValue 0x8004 233
+    JumpIf EQUAL Function#998
+    CompareVarValue 0x8004 235
+    JumpIf EQUAL Function#998
+    CompareVarValue 0x8004 243
+    JumpIf EQUAL Function#998
+    CompareVarValue 0x8004 244
+    JumpIf EQUAL Function#998
+    CompareVarValue 0x8004 245
+    JumpIf EQUAL Function#998
+    CompareVarValue 0x8004 249
+    JumpIf EQUAL Function#998
+    CompareVarValue 0x8004 250
+    JumpIf EQUAL Function#998
+    CompareVarValue 0x8004 251
+    JumpIf EQUAL Function#998
+    CompareVarValue 0x8004 265
+    JumpIf EQUAL Function#998
+    CompareVarValue 0x8004 266
+    JumpIf EQUAL Function#998
+    CompareVarValue 0x8004 268
+    JumpIf EQUAL Function#998
+    CompareVarValue 0x8004 290
+    JumpIf EQUAL Function#998
+    CompareVarValue 0x8004 292
+    JumpIf EQUAL Function#998
+    CompareVarValue 0x8004 337
+    JumpIf EQUAL Function#998
+    CompareVarValue 0x8004 338
+    JumpIf EQUAL Function#998
+    CompareVarValue 0x8004 343
+    JumpIf EQUAL Function#998
+    CompareVarValue 0x8004 344
+    JumpIf EQUAL Function#998
+    CompareVarValue 0x8004 360
+    JumpIf EQUAL Function#998
+    CompareVarValue 0x8004 374
+    JumpIf EQUAL Function#998
+    CompareVarValue 0x8004 375
+    JumpIf EQUAL Function#998
+    CompareVarValue 0x8004 376
+    JumpIf EQUAL Function#998
+    CompareVarValue 0x8004 377
+    JumpIf EQUAL Function#998
+    CompareVarValue 0x8004 378
+    JumpIf EQUAL Function#998
+    CompareVarValue 0x8004 379
+    JumpIf EQUAL Function#998
+    CompareVarValue 0x8004 382
+    JumpIf EQUAL Function#998
+    CompareVarValue 0x8004 383
+    JumpIf EQUAL Function#998
+    CompareVarValue 0x8004 384
+    JumpIf EQUAL Function#998
+    CompareVarValue 0x8004 385
+    JumpIf EQUAL Function#998
+    CompareVarValue 0x8004 386
+    JumpIf EQUAL Function#998
+    CompareVarValue 0x8004 401
+    JumpIf EQUAL Function#998
+    CompareVarValue 0x8004 412
+    JumpIf EQUAL Function#998
+    CompareVarValue 0x8004 415
+    JumpIf EQUAL Function#998
+    CompareVarValue 0x8004 436
+    JumpIf EQUAL Function#998
+    CompareVarValue 0x8004 437
+    JumpIf EQUAL Function#998
+    CompareVarValue 0x8004 462
+    JumpIf EQUAL Function#998
+    CompareVarValue 0x8004 474
+    JumpIf EQUAL Function#998
+    CompareVarValue 0x8004 479
+    JumpIf EQUAL Function#998
+    CompareVarValue 0x8004 480
+    JumpIf EQUAL Function#998
+    CompareVarValue 0x8004 481
+    JumpIf EQUAL Function#998
+    CompareVarValue 0x8004 482
+    JumpIf EQUAL Function#998
+    CompareVarValue 0x8004 483
+    JumpIf EQUAL Function#998
+    CompareVarValue 0x8004 484
+    JumpIf EQUAL Function#998
+    CompareVarValue 0x8004 486
+    JumpIf EQUAL Function#998
+    CompareVarValue 0x8004 487
+    JumpIf EQUAL Function#998
+    CompareVarValue 0x8004 489
+    JumpIf EQUAL Function#998
+    CompareVarValue 0x8004 490
+    JumpIf EQUAL Function#998
+    CompareVarValue 0x8004 491
+    JumpIf EQUAL Function#998
+    CompareVarValue 0x8004 492
+    JumpIf EQUAL Function#998
+    CompareVarValue 0x8004 493
+    JumpIf EQUAL Function#998
+Jump Function#6032
+
+Function 6032:
+    AddListOption 52 255 13
+Return
+
+Function 6033:
+    SetVar 0x800B 445
+Jump Function#994
+
+//____________________crunch
+Function 6041:
+    CompareVarValue 0x8004 151
+    JumpIf EQUAL Function#6042
+    CompareVarValue 0x8004 235
+    JumpIf EQUAL Function#6042
+    CompareVarValue 0x8004 004
+    JumpIf EQUAL Function#6042
+    CompareVarValue 0x8004 005
+    JumpIf EQUAL Function#6042
+    CompareVarValue 0x8004 006
+    JumpIf EQUAL Function#6042
+    CompareVarValue 0x8004 009
+    JumpIf EQUAL Function#6042
+    CompareVarValue 0x8004 019
+    JumpIf EQUAL Function#6042
+    CompareVarValue 0x8004 020
+    JumpIf EQUAL Function#6042
+    CompareVarValue 0x8004 024
+    JumpIf EQUAL Function#6042
+    CompareVarValue 0x8004 029
+    JumpIf EQUAL Function#6042
+    CompareVarValue 0x8004 030
+    JumpIf EQUAL Function#6042
+    CompareVarValue 0x8004 031
+    JumpIf EQUAL Function#6042
+    CompareVarValue 0x8004 041
+    JumpIf EQUAL Function#6042
+    CompareVarValue 0x8004 042
+    JumpIf EQUAL Function#6042
+    CompareVarValue 0x8004 058
+    JumpIf EQUAL Function#6042
+    CompareVarValue 0x8004 059
+    JumpIf EQUAL Function#6042
+    CompareVarValue 0x8004 111
+    JumpIf EQUAL Function#6042
+    CompareVarValue 0x8004 112
+    JumpIf EQUAL Function#6042
+    CompareVarValue 0x8004 115
+    JumpIf EQUAL Function#6042
+    CompareVarValue 0x8004 130
+    JumpIf EQUAL Function#6042
+    CompareVarValue 0x8004 139
+    JumpIf EQUAL Function#6042
+    CompareVarValue 0x8004 142
+    JumpIf EQUAL Function#6042
+    CompareVarValue 0x8004 143
+    JumpIf EQUAL Function#6042
+    CompareVarValue 0x8004 158
+    JumpIf EQUAL Function#6042
+    CompareVarValue 0x8004 159
+    JumpIf EQUAL Function#6042
+    CompareVarValue 0x8004 160
+    JumpIf EQUAL Function#6042
+    CompareVarValue 0x8004 169
+    JumpIf EQUAL Function#6042
+    CompareVarValue 0x8004 197
+    JumpIf EQUAL Function#6042
+    CompareVarValue 0x8004 203
+    JumpIf EQUAL Function#6042
+    CompareVarValue 0x8004 208
+    JumpIf EQUAL Function#6042
+    CompareVarValue 0x8004 209
+    JumpIf EQUAL Function#6042
+    CompareVarValue 0x8004 210
+    JumpIf EQUAL Function#6042
+    CompareVarValue 0x8004 211
+    JumpIf EQUAL Function#6042
+    CompareVarValue 0x8004 216
+    JumpIf EQUAL Function#6042
+    CompareVarValue 0x8004 217
+    JumpIf EQUAL Function#6042
+    CompareVarValue 0x8004 228
+    JumpIf EQUAL Function#6042
+    CompareVarValue 0x8004 229
+    JumpIf EQUAL Function#6042
+    CompareVarValue 0x8004 243
+    JumpIf EQUAL Function#6042
+    CompareVarValue 0x8004 244
+    JumpIf EQUAL Function#6042
+    CompareVarValue 0x8004 245
+    JumpIf EQUAL Function#6042
+    CompareVarValue 0x8004 246
+    JumpIf EQUAL Function#6042
+    CompareVarValue 0x8004 247
+    JumpIf EQUAL Function#6042
+    CompareVarValue 0x8004 248
+    JumpIf EQUAL Function#6042
+    CompareVarValue 0x8004 252
+    JumpIf EQUAL Function#6042
+    CompareVarValue 0x8004 253
+    JumpIf EQUAL Function#6042
+    CompareVarValue 0x8004 254
+    JumpIf EQUAL Function#6042
+    CompareVarValue 0x8004 261
+    JumpIf EQUAL Function#6042
+    CompareVarValue 0x8004 262
+    JumpIf EQUAL Function#6042
+    CompareVarValue 0x8004 295
+    JumpIf EQUAL Function#6042
+    CompareVarValue 0x8004 303
+    JumpIf EQUAL Function#6042
+    CompareVarValue 0x8004 306
+    JumpIf EQUAL Function#6042
+    CompareVarValue 0x8004 309
+    JumpIf EQUAL Function#6042
+    CompareVarValue 0x8004 310
+    JumpIf EQUAL Function#6042
+    CompareVarValue 0x8004 318
+    JumpIf EQUAL Function#6042
+    CompareVarValue 0x8004 319
+    JumpIf EQUAL Function#6042
+    CompareVarValue 0x8004 328
+    JumpIf EQUAL Function#6042
+    CompareVarValue 0x8004 329
+    JumpIf EQUAL Function#6042
+    CompareVarValue 0x8004 330
+    JumpIf EQUAL Function#6042
+    CompareVarValue 0x8004 336
+    JumpIf EQUAL Function#6042
+    CompareVarValue 0x8004 341
+    JumpIf EQUAL Function#6042
+    CompareVarValue 0x8004 342
+    JumpIf EQUAL Function#6042
+    CompareVarValue 0x8004 361
+    JumpIf EQUAL Function#6042
+    CompareVarValue 0x8004 362
+    JumpIf EQUAL Function#6042
+    CompareVarValue 0x8004 365
+    JumpIf EQUAL Function#6042
+    CompareVarValue 0x8004 367
+    JumpIf EQUAL Function#6042
+    CompareVarValue 0x8004 371
+    JumpIf EQUAL Function#6042
+    CompareVarValue 0x8004 372
+    JumpIf EQUAL Function#6042
+    CompareVarValue 0x8004 373
+    JumpIf EQUAL Function#6042
+    CompareVarValue 0x8004 383
+    JumpIf EQUAL Function#6042
+    CompareVarValue 0x8004 384
+    JumpIf EQUAL Function#6042
+    CompareVarValue 0x8004 387
+    JumpIf EQUAL Function#6042
+    CompareVarValue 0x8004 388
+    JumpIf EQUAL Function#6042
+    CompareVarValue 0x8004 389
+    JumpIf EQUAL Function#6042
+    CompareVarValue 0x8004 399
+    JumpIf EQUAL Function#6042
+    CompareVarValue 0x8004 400
+    JumpIf EQUAL Function#6042
+    CompareVarValue 0x8004 403
+    JumpIf EQUAL Function#6042
+    CompareVarValue 0x8004 404
+    JumpIf EQUAL Function#6042
+    CompareVarValue 0x8004 405
+    JumpIf EQUAL Function#6042
+    CompareVarValue 0x8004 408
+    JumpIf EQUAL Function#6042
+    CompareVarValue 0x8004 409
+    JumpIf EQUAL Function#6042
+    CompareVarValue 0x8004 418
+    JumpIf EQUAL Function#6042
+    CompareVarValue 0x8004 419
+    JumpIf EQUAL Function#6042
+    CompareVarValue 0x8004 434
+    JumpIf EQUAL Function#6042
+    CompareVarValue 0x8004 435
+    JumpIf EQUAL Function#6042
+    CompareVarValue 0x8004 444
+    JumpIf EQUAL Function#6042
+    CompareVarValue 0x8004 445
+    JumpIf EQUAL Function#6042
+    CompareVarValue 0x8004 447
+    JumpIf EQUAL Function#6042
+    CompareVarValue 0x8004 448
+    JumpIf EQUAL Function#6042
+    CompareVarValue 0x8004 449
+    JumpIf EQUAL Function#6042
+    CompareVarValue 0x8004 450
+    JumpIf EQUAL Function#6042
+    CompareVarValue 0x8004 451
+    JumpIf EQUAL Function#6042
+    CompareVarValue 0x8004 452
+    JumpIf EQUAL Function#6042
+    CompareVarValue 0x8004 455
+    JumpIf EQUAL Function#6042
+    CompareVarValue 0x8004 464
+    JumpIf EQUAL Function#6042
+    CompareVarValue 0x8004 478
+    JumpIf EQUAL Function#6042
+    CompareVarValue 0x8004 485
+    JumpIf EQUAL Function#6042
+//______custom_entries_pla
+    CompareVarValue 0x8004 469
+    JumpIf EQUAL Function#6042
+//______custom_entries_custom
+    CompareVarValue 0x8004 215
+    JumpIf EQUAL Function#6042
+    CompareVarValue 0x8004 461
+    JumpIf EQUAL Function#6042
+Return
+
+Function 6042:
+    AddListOption 53 255 4
+Return
+
+Function 6043:
+    SetVar 0x800B 242
+Jump Function#994
+
+//____________________gravity
+Function 6051:
+    CompareVarValue 0x8004 151
+    JumpIf EQUAL Function#6052
+    CompareVarValue 0x8004 235
+    JumpIf EQUAL Function#6052
+    CompareVarValue 0x8004 035
+    JumpIf EQUAL Function#6052
+    CompareVarValue 0x8004 036
+    JumpIf EQUAL Function#6052
+    CompareVarValue 0x8004 039
+    JumpIf EQUAL Function#6052
+    CompareVarValue 0x8004 040
+    JumpIf EQUAL Function#6052
+    CompareVarValue 0x8004 063
+    JumpIf EQUAL Function#6052
+    CompareVarValue 0x8004 064
+    JumpIf EQUAL Function#6052
+    CompareVarValue 0x8004 065
+    JumpIf EQUAL Function#6052
+    CompareVarValue 0x8004 081
+    JumpIf EQUAL Function#6052
+    CompareVarValue 0x8004 082
+    JumpIf EQUAL Function#6052
+    CompareVarValue 0x8004 102
+    JumpIf EQUAL Function#6052
+    CompareVarValue 0x8004 103
+    JumpIf EQUAL Function#6052
+    CompareVarValue 0x8004 113
+    JumpIf EQUAL Function#6052
+    CompareVarValue 0x8004 120
+    JumpIf EQUAL Function#6052
+    CompareVarValue 0x8004 121
+    JumpIf EQUAL Function#6052
+    CompareVarValue 0x8004 137
+    JumpIf EQUAL Function#6052
+    CompareVarValue 0x8004 150
+    JumpIf EQUAL Function#6052
+    CompareVarValue 0x8004 173
+    JumpIf EQUAL Function#6052
+    CompareVarValue 0x8004 174
+    JumpIf EQUAL Function#6052
+    CompareVarValue 0x8004 203
+    JumpIf EQUAL Function#6052
+    CompareVarValue 0x8004 204
+    JumpIf EQUAL Function#6052
+    CompareVarValue 0x8004 205
+    JumpIf EQUAL Function#6052
+    CompareVarValue 0x8004 233
+    JumpIf EQUAL Function#6052
+    CompareVarValue 0x8004 234
+    JumpIf EQUAL Function#6052
+    CompareVarValue 0x8004 242
+    JumpIf EQUAL Function#6052
+    CompareVarValue 0x8004 299
+    JumpIf EQUAL Function#6052
+    CompareVarValue 0x8004 302
+    JumpIf EQUAL Function#6052
+    CompareVarValue 0x8004 307
+    JumpIf EQUAL Function#6052
+    CompareVarValue 0x8004 308
+    JumpIf EQUAL Function#6052
+    CompareVarValue 0x8004 337
+    JumpIf EQUAL Function#6052
+    CompareVarValue 0x8004 338
+    JumpIf EQUAL Function#6052
+    CompareVarValue 0x8004 343
+    JumpIf EQUAL Function#6052
+    CompareVarValue 0x8004 344
+    JumpIf EQUAL Function#6052
+    CompareVarValue 0x8004 355
+    JumpIf EQUAL Function#6052
+    CompareVarValue 0x8004 356
+    JumpIf EQUAL Function#6052
+    CompareVarValue 0x8004 358
+    JumpIf EQUAL Function#6052
+    CompareVarValue 0x8004 375
+    JumpIf EQUAL Function#6052
+    CompareVarValue 0x8004 376
+    JumpIf EQUAL Function#6052
+    CompareVarValue 0x8004 377
+    JumpIf EQUAL Function#6052
+    CompareVarValue 0x8004 378
+    JumpIf EQUAL Function#6052
+    CompareVarValue 0x8004 379
+    JumpIf EQUAL Function#6052
+    CompareVarValue 0x8004 385
+    JumpIf EQUAL Function#6052
+    CompareVarValue 0x8004 386
+    JumpIf EQUAL Function#6052
+    CompareVarValue 0x8004 433
+    JumpIf EQUAL Function#6052
+    CompareVarValue 0x8004 436
+    JumpIf EQUAL Function#6052
+    CompareVarValue 0x8004 437
+    JumpIf EQUAL Function#6052
+    CompareVarValue 0x8004 440
+    JumpIf EQUAL Function#6052
+    CompareVarValue 0x8004 462
+    JumpIf EQUAL Function#6052
+    CompareVarValue 0x8004 474
+    JumpIf EQUAL Function#6052
+    CompareVarValue 0x8004 476
+    JumpIf EQUAL Function#6052
+    CompareVarValue 0x8004 477
+    JumpIf EQUAL Function#6052
+    CompareVarValue 0x8004 483
+    JumpIf EQUAL Function#6052
+    CompareVarValue 0x8004 484
+    JumpIf EQUAL Function#6052
+    CompareVarValue 0x8004 486
+    JumpIf EQUAL Function#6052
+    CompareVarValue 0x8004 487
+    JumpIf EQUAL Function#6052
+    CompareVarValue 0x8004 488
+    JumpIf EQUAL Function#6052
+    CompareVarValue 0x8004 493
+    JumpIf EQUAL Function#6052
+Return
+
+Function 6052:
+    AddListOption 54 255 5
+Return
+
+Function 6053:
+    SetVar 0x800B 356
+Jump Function#994
+
+//____________________foul_play
+Function 6061:
+    CompareVarValue 0x8004 151
+    JumpIf EQUAL Function#6062
+    CompareVarValue 0x8004 235
+    JumpIf EQUAL Function#6062
+    CompareVarValue 0x8004 037
+    JumpIf EQUAL Function#6062
+    CompareVarValue 0x8004 038
+    JumpIf EQUAL Function#6062
+    CompareVarValue 0x8004 050
+    JumpIf EQUAL Function#6062
+    CompareVarValue 0x8004 051
+    JumpIf EQUAL Function#6062
+    CompareVarValue 0x8004 052
+    JumpIf EQUAL Function#6062
+    CompareVarValue 0x8004 053
+    JumpIf EQUAL Function#6062
+    CompareVarValue 0x8004 063
+    JumpIf EQUAL Function#6062
+    CompareVarValue 0x8004 064
+    JumpIf EQUAL Function#6062
+    CompareVarValue 0x8004 065
+    JumpIf EQUAL Function#6062
+    CompareVarValue 0x8004 079
+    JumpIf EQUAL Function#6062
+    CompareVarValue 0x8004 080
+    JumpIf EQUAL Function#6062
+    CompareVarValue 0x8004 092
+    JumpIf EQUAL Function#6062
+    CompareVarValue 0x8004 093
+    JumpIf EQUAL Function#6062
+    CompareVarValue 0x8004 094
+    JumpIf EQUAL Function#6062
+    CompareVarValue 0x8004 096
+    JumpIf EQUAL Function#6062
+    CompareVarValue 0x8004 097
+    JumpIf EQUAL Function#6062
+    CompareVarValue 0x8004 100
+    JumpIf EQUAL Function#6062
+    CompareVarValue 0x8004 101
+    JumpIf EQUAL Function#6062
+    CompareVarValue 0x8004 122
+    JumpIf EQUAL Function#6062
+    CompareVarValue 0x8004 137
+    JumpIf EQUAL Function#6062
+    CompareVarValue 0x8004 150
+    JumpIf EQUAL Function#6062
+    CompareVarValue 0x8004 167
+    JumpIf EQUAL Function#6062
+    CompareVarValue 0x8004 168
+    JumpIf EQUAL Function#6062
+    CompareVarValue 0x8004 178
+    JumpIf EQUAL Function#6062
+    CompareVarValue 0x8004 185
+    JumpIf EQUAL Function#6062
+    CompareVarValue 0x8004 190
+    JumpIf EQUAL Function#6062
+    CompareVarValue 0x8004 197
+    JumpIf EQUAL Function#6062
+    CompareVarValue 0x8004 198
+    JumpIf EQUAL Function#6062
+    CompareVarValue 0x8004 199
+    JumpIf EQUAL Function#6062
+    CompareVarValue 0x8004 200
+    JumpIf EQUAL Function#6062
+    CompareVarValue 0x8004 203
+    JumpIf EQUAL Function#6062
+    CompareVarValue 0x8004 215
+    JumpIf EQUAL Function#6062
+    CompareVarValue 0x8004 225
+    JumpIf EQUAL Function#6062
+    CompareVarValue 0x8004 228
+    JumpIf EQUAL Function#6062
+    CompareVarValue 0x8004 229
+    JumpIf EQUAL Function#6062
+    CompareVarValue 0x8004 233
+    JumpIf EQUAL Function#6062
+    CompareVarValue 0x8004 248
+    JumpIf EQUAL Function#6062
+    CompareVarValue 0x8004 261
+    JumpIf EQUAL Function#6062
+    CompareVarValue 0x8004 262
+    JumpIf EQUAL Function#6062
+    CompareVarValue 0x8004 273
+    JumpIf EQUAL Function#6062
+    CompareVarValue 0x8004 274
+    JumpIf EQUAL Function#6062
+    CompareVarValue 0x8004 275
+    JumpIf EQUAL Function#6062
+    CompareVarValue 0x8004 284
+    JumpIf EQUAL Function#6062
+    CompareVarValue 0x8004 302
+    JumpIf EQUAL Function#6062
+    CompareVarValue 0x8004 303
+    JumpIf EQUAL Function#6062
+    CompareVarValue 0x8004 331
+    JumpIf EQUAL Function#6062
+    CompareVarValue 0x8004 332
+    JumpIf EQUAL Function#6062
+    CompareVarValue 0x8004 352
+    JumpIf EQUAL Function#6062
+    CompareVarValue 0x8004 353
+    JumpIf EQUAL Function#6062
+    CompareVarValue 0x8004 354
+    JumpIf EQUAL Function#6062
+    CompareVarValue 0x8004 359
+    JumpIf EQUAL Function#6062
+    CompareVarValue 0x8004 362
+    JumpIf EQUAL Function#6062
+    CompareVarValue 0x8004 424
+    JumpIf EQUAL Function#6062
+    CompareVarValue 0x8004 429
+    JumpIf EQUAL Function#6062
+    CompareVarValue 0x8004 430
+    JumpIf EQUAL Function#6062
+    CompareVarValue 0x8004 431
+    JumpIf EQUAL Function#6062
+    CompareVarValue 0x8004 432
+    JumpIf EQUAL Function#6062
+    CompareVarValue 0x8004 434
+    JumpIf EQUAL Function#6062
+    CompareVarValue 0x8004 435
+    JumpIf EQUAL Function#6062
+    CompareVarValue 0x8004 438
+    JumpIf EQUAL Function#6062
+    CompareVarValue 0x8004 442
+    JumpIf EQUAL Function#6062
+    CompareVarValue 0x8004 453
+    JumpIf EQUAL Function#6062
+    CompareVarValue 0x8004 454
+    JumpIf EQUAL Function#6062
+    CompareVarValue 0x8004 461
+    JumpIf EQUAL Function#6062
+    CompareVarValue 0x8004 474
+    JumpIf EQUAL Function#6062
+    CompareVarValue 0x8004 479
+    JumpIf EQUAL Function#6062
+    CompareVarValue 0x8004 480
+    JumpIf EQUAL Function#6062
+    CompareVarValue 0x8004 491
+    JumpIf EQUAL Function#6062
+    CompareVarValue 0x8004 493
+    JumpIf EQUAL Function#6062
+Return
+
+Function 6062:
+    AddListOption 55 255 6
+Return
+
+Function 6063:
+    SetVar 0x800B 482
+Jump Function#994
+
+//____________________hyper_voice
+Function 6071:
+    CompareVarValue 0x8004 151
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 235
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 035
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 036
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 039
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 040
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 052
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 053
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 059
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 113
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 124
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 131
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 133
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 134
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 135
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 136
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 143
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 161
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 162
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 163
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 164
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 173
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 174
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 175
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 176
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 183
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 184
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 186
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 196
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 197
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 200
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 203
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 206
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 209
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 210
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 216
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 217
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 228
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 229
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 231
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 232
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 242
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 249
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 250
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 261
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 262
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 263
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 264
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 271
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 272
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 280
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 281
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 282
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 288
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 289
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 293
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 294
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 295
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 298
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 300
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 301
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 310
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 320
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 321
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 326
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 327
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 333
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 334
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 358
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 371
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 372
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 373
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 384
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 402
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 427
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 428
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 429
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 431
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 432
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 433
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 440
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 441
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 446
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 450
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 468
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 470
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 471
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 475
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 479
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 483
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 484
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 487
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 493
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 750
+    JumpIf EQUAL Function#6072
+//______custom_entries_custom
+    CompareVarValue 0x8004 016
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 017
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 018
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 187
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 188
+    JumpIf EQUAL Function#6072
+    CompareVarValue 0x8004 189
+    JumpIf EQUAL Function#6072
+Return
+
+Function 6072:
+    AddListOption 56 255 7
+Return
+
+Function 6073:
+    SetVar 0x800B 304
+Jump Function#994
+
+//____________________iron_head
+Function 6081:
+    CompareVarValue 0x8004 151
+    JumpIf EQUAL Function#6082
+    CompareVarValue 0x8004 235
+    JumpIf EQUAL Function#6082
+    CompareVarValue 0x8004 059
+    JumpIf EQUAL Function#6082
+    CompareVarValue 0x8004 076
+    JumpIf EQUAL Function#6082
+    CompareVarValue 0x8004 081
+    JumpIf EQUAL Function#6082
+    CompareVarValue 0x8004 082
+    JumpIf EQUAL Function#6082
+    CompareVarValue 0x8004 095
+    JumpIf EQUAL Function#6082
+    CompareVarValue 0x8004 104
+    JumpIf EQUAL Function#6082
+    CompareVarValue 0x8004 105
+    JumpIf EQUAL Function#6082
+    CompareVarValue 0x8004 128
+    JumpIf EQUAL Function#6082
+    CompareVarValue 0x8004 130
+    JumpIf EQUAL Function#6082
+    CompareVarValue 0x8004 131
+    JumpIf EQUAL Function#6082
+    CompareVarValue 0x8004 142
+    JumpIf EQUAL Function#6082
+    CompareVarValue 0x8004 143
+    JumpIf EQUAL Function#6082
+    CompareVarValue 0x8004 147
+    JumpIf EQUAL Function#6082
+    CompareVarValue 0x8004 148
+    JumpIf EQUAL Function#6082
+    CompareVarValue 0x8004 149
+    JumpIf EQUAL Function#6082
+    CompareVarValue 0x8004 155
+    JumpIf EQUAL Function#6082
+    CompareVarValue 0x8004 156
+    JumpIf EQUAL Function#6082
+    CompareVarValue 0x8004 157
+    JumpIf EQUAL Function#6082
+    CompareVarValue 0x8004 205
+    JumpIf EQUAL Function#6082
+    CompareVarValue 0x8004 208
+    JumpIf EQUAL Function#6082
+    CompareVarValue 0x8004 212
+    JumpIf EQUAL Function#6082
+    CompareVarValue 0x8004 226
+    JumpIf EQUAL Function#6082
+    CompareVarValue 0x8004 227
+    JumpIf EQUAL Function#6082
+    CompareVarValue 0x8004 230
+    JumpIf EQUAL Function#6082
+    CompareVarValue 0x8004 231
+    JumpIf EQUAL Function#6082
+    CompareVarValue 0x8004 232
+    JumpIf EQUAL Function#6082
+    CompareVarValue 0x8004 241
+    JumpIf EQUAL Function#6082
+    CompareVarValue 0x8004 243
+    JumpIf EQUAL Function#6082
+    CompareVarValue 0x8004 244
+    JumpIf EQUAL Function#6082
+    CompareVarValue 0x8004 245
+    JumpIf EQUAL Function#6082
+    CompareVarValue 0x8004 246
+    JumpIf EQUAL Function#6082
+    CompareVarValue 0x8004 247
+    JumpIf EQUAL Function#6082
+    CompareVarValue 0x8004 248
+    JumpIf EQUAL Function#6082
+    CompareVarValue 0x8004 249
+    JumpIf EQUAL Function#6082
+    CompareVarValue 0x8004 250
+    JumpIf EQUAL Function#6082
+    CompareVarValue 0x8004 297
+    JumpIf EQUAL Function#6082
+    CompareVarValue 0x8004 303
+    JumpIf EQUAL Function#6082
+    CompareVarValue 0x8004 304
+    JumpIf EQUAL Function#6082
+    CompareVarValue 0x8004 305
+    JumpIf EQUAL Function#6082
+    CompareVarValue 0x8004 306
+    JumpIf EQUAL Function#6082
+    CompareVarValue 0x8004 321
+    JumpIf EQUAL Function#6082
+    CompareVarValue 0x8004 322
+    JumpIf EQUAL Function#6082
+    CompareVarValue 0x8004 323
+    JumpIf EQUAL Function#6082
+    CompareVarValue 0x8004 336
+    JumpIf EQUAL Function#6082
+    CompareVarValue 0x8004 337
+    JumpIf EQUAL Function#6082
+    CompareVarValue 0x8004 338
+    JumpIf EQUAL Function#6082
+    CompareVarValue 0x8004 350
+    JumpIf EQUAL Function#6082
+    CompareVarValue 0x8004 362
+    JumpIf EQUAL Function#6082
+    CompareVarValue 0x8004 365
+    JumpIf EQUAL Function#6082
+    CompareVarValue 0x8004 371
+    JumpIf EQUAL Function#6082
+    CompareVarValue 0x8004 372
+    JumpIf EQUAL Function#6082
+    CompareVarValue 0x8004 373
+    JumpIf EQUAL Function#6082
+    CompareVarValue 0x8004 374
+    JumpIf EQUAL Function#6082
+    CompareVarValue 0x8004 375
+    JumpIf EQUAL Function#6082
+    CompareVarValue 0x8004 376
+    JumpIf EQUAL Function#6082
+    CompareVarValue 0x8004 377
+    JumpIf EQUAL Function#6082
+    CompareVarValue 0x8004 378
+    JumpIf EQUAL Function#6082
+    CompareVarValue 0x8004 379
+    JumpIf EQUAL Function#6082
+    CompareVarValue 0x8004 382
+    JumpIf EQUAL Function#6082
+    CompareVarValue 0x8004 383
+    JumpIf EQUAL Function#6082
+    CompareVarValue 0x8004 384
+    JumpIf EQUAL Function#6082
+    CompareVarValue 0x8004 385
+    JumpIf EQUAL Function#6082
+    CompareVarValue 0x8004 389
+    JumpIf EQUAL Function#6082
+    CompareVarValue 0x8004 408
+    JumpIf EQUAL Function#6082
+    CompareVarValue 0x8004 409
+    JumpIf EQUAL Function#6082
+    CompareVarValue 0x8004 410
+    JumpIf EQUAL Function#6082
+    CompareVarValue 0x8004 411
+    JumpIf EQUAL Function#6082
+    CompareVarValue 0x8004 436
+    JumpIf EQUAL Function#6082
+    CompareVarValue 0x8004 437
+    JumpIf EQUAL Function#6082
+    CompareVarValue 0x8004 443
+    JumpIf EQUAL Function#6082
+    CompareVarValue 0x8004 444
+    JumpIf EQUAL Function#6082
+    CompareVarValue 0x8004 445
+    JumpIf EQUAL Function#6082
+    CompareVarValue 0x8004 450
+    JumpIf EQUAL Function#6082
+    CompareVarValue 0x8004 462
+    JumpIf EQUAL Function#6082
+    CompareVarValue 0x8004 464
+    JumpIf EQUAL Function#6082
+    CompareVarValue 0x8004 473
+    JumpIf EQUAL Function#6082
+    CompareVarValue 0x8004 476
+    JumpIf EQUAL Function#6082
+    CompareVarValue 0x8004 483
+    JumpIf EQUAL Function#6082
+    CompareVarValue 0x8004 485
+    JumpIf EQUAL Function#6082
+    CompareVarValue 0x8004 486
+    JumpIf EQUAL Function#6082
+    CompareVarValue 0x8004 487
+    JumpIf EQUAL Function#6082
+    CompareVarValue 0x8004 493
+    JumpIf EQUAL Function#6082
+//______custom_entries_custom
+    CompareVarValue 0x8004 395
+    JumpIf EQUAL Function#6082
+Return
+
+Function 6082:
+    AddListOption 57 255 8
+Return
+
+Function 6083:
+    SetVar 0x800B 442
+Jump Function#994
+
+//____________________knock_off
+Function 6091:
+    CompareVarValue 0x8004 151
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 235
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 001
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 002
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 003
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 015
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 025
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 026
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 027
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 028
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 035
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 036
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 039
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 040
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 046
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 047
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 052
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 053
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 063
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 064
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 065
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 066
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 067
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 068
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 069
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 070
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 071
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 072
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 073
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 083
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 084
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 085
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 092
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 093
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 094
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 098
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 099
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 104
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 105
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 106
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 108
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 114
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 118
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 119
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 123
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 127
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 138
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 139
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 140
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 141
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 161
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 162
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 165
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 166
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 183
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 184
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 190
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 207
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 212
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 213
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 214
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 215
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 231
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 232
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 257
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 271
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 272
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 275
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 278
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 279
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 280
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 281
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 282
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 296
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 297
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 298
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 302
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 303
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 335
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 336
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 341
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 342
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 347
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 348
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 352
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 353
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 354
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 358
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 359
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 386
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 395
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 402
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 424
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 425
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 426
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 431
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 432
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 433
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 451
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 452
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 453
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 454
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 455
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 461
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 463
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 465
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 470
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 472
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 473
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 475
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 480
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 481
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 482
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 486
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 489
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 490
+    JumpIf EQUAL Function#6092
+    CompareVarValue 0x8004 491
+    JumpIf EQUAL Function#6092
+Return
+
+Function 6092:
+    AddListOption 58 255 9
+Return
+
+Function 6093:
+    SetVar 0x800B 282
+Jump Function#994
+
+//____________________pollen_puff
+Function 6101:
+    CompareVarValue 0x8004 151
+    JumpIf EQUAL Function#6102
+    CompareVarValue 0x8004 235
+    JumpIf EQUAL Function#6102
+    CompareVarValue 0x8004 012
+    JumpIf EQUAL Function#6102
+    CompareVarValue 0x8004 045
+    JumpIf EQUAL Function#6102
+    CompareVarValue 0x8004 187
+    JumpIf EQUAL Function#6102
+    CompareVarValue 0x8004 188
+    JumpIf EQUAL Function#6102
+    CompareVarValue 0x8004 189
+    JumpIf EQUAL Function#6102
+    CompareVarValue 0x8004 251
+    JumpIf EQUAL Function#6102
+    CompareVarValue 0x8004 416
+    JumpIf EQUAL Function#6102
+    CompareVarValue 0x8004 420
+    JumpIf EQUAL Function#6102
+    CompareVarValue 0x8004 421
+    JumpIf EQUAL Function#6102
+//______custom_entries_home
+    CompareVarValue 0x8004 152
+    JumpIf EQUAL Function#6102
+    CompareVarValue 0x8004 153
+    JumpIf EQUAL Function#6102
+    CompareVarValue 0x8004 154
+    JumpIf EQUAL Function#6102
+    CompareVarValue 0x8004 314
+    JumpIf EQUAL Function#6102
+//______custom_entries_custom
+    CompareVarValue 0x8004 049
+    JumpIf EQUAL Function#6102
+    CompareVarValue 0x8004 165
+    JumpIf EQUAL Function#6102
+    CompareVarValue 0x8004 166
+    JumpIf EQUAL Function#6102
+    CompareVarValue 0x8004 192
+    JumpIf EQUAL Function#6102
+    CompareVarValue 0x8004 267
+    JumpIf EQUAL Function#6102
+    CompareVarValue 0x8004 269
+    JumpIf EQUAL Function#6102
+    CompareVarValue 0x8004 313
+    JumpIf EQUAL Function#6102
+    CompareVarValue 0x8004 314
+    JumpIf EQUAL Function#6102
+    CompareVarValue 0x8004 414
+    JumpIf EQUAL Function#6102
+    CompareVarValue 0x8004 415
+    JumpIf EQUAL Function#6102
+    CompareVarValue 0x8004 416
+    JumpIf EQUAL Function#6102
+Return
+
+Function 6102:
+    AddListOption 59 255 10
+Return
+
+Function 6103:
+    SetVar 0x800B 527
+Jump Function#994
+
+//____________________power_gem
+Function 6111:
+    CompareVarValue 0x8004 151
+    JumpIf EQUAL Function#6112
+    CompareVarValue 0x8004 235
+    JumpIf EQUAL Function#6112
+    CompareVarValue 0x8004 052
+    JumpIf EQUAL Function#6112
+    CompareVarValue 0x8004 053
+    JumpIf EQUAL Function#6112
+    CompareVarValue 0x8004 055
+    JumpIf EQUAL Function#6112
+    CompareVarValue 0x8004 120
+    JumpIf EQUAL Function#6112
+    CompareVarValue 0x8004 121
+    JumpIf EQUAL Function#6112
+    CompareVarValue 0x8004 150
+    JumpIf EQUAL Function#6112
+    CompareVarValue 0x8004 179
+    JumpIf EQUAL Function#6112
+    CompareVarValue 0x8004 180
+    JumpIf EQUAL Function#6112
+    CompareVarValue 0x8004 181
+    JumpIf EQUAL Function#6112
+    CompareVarValue 0x8004 185
+    JumpIf EQUAL Function#6112
+    CompareVarValue 0x8004 196
+    JumpIf EQUAL Function#6112
+    CompareVarValue 0x8004 199
+    JumpIf EQUAL Function#6112
+    CompareVarValue 0x8004 200
+    JumpIf EQUAL Function#6112
+    CompareVarValue 0x8004 222
+    JumpIf EQUAL Function#6112
+    CompareVarValue 0x8004 248
+    JumpIf EQUAL Function#6112
+    CompareVarValue 0x8004 299
+    JumpIf EQUAL Function#6112
+    CompareVarValue 0x8004 302
+    JumpIf EQUAL Function#6112
+    CompareVarValue 0x8004 325
+    JumpIf EQUAL Function#6112
+    CompareVarValue 0x8004 326
+    JumpIf EQUAL Function#6112
+    CompareVarValue 0x8004 337
+    JumpIf EQUAL Function#6112
+    CompareVarValue 0x8004 416
+    JumpIf EQUAL Function#6112
+    CompareVarValue 0x8004 429
+    JumpIf EQUAL Function#6112
+    CompareVarValue 0x8004 436
+    JumpIf EQUAL Function#6112
+    CompareVarValue 0x8004 437
+    JumpIf EQUAL Function#6112
+    CompareVarValue 0x8004 438
+    JumpIf EQUAL Function#6112
+    CompareVarValue 0x8004 444
+    JumpIf EQUAL Function#6112
+    CompareVarValue 0x8004 445
+    JumpIf EQUAL Function#6112
+    CompareVarValue 0x8004 476
+    JumpIf EQUAL Function#6112
+    CompareVarValue 0x8004 483
+    JumpIf EQUAL Function#6112
+    CompareVarValue 0x8004 484
+    JumpIf EQUAL Function#6112
+    CompareVarValue 0x8004 485
+    JumpIf EQUAL Function#6112
+    CompareVarValue 0x8004 488
+    JumpIf EQUAL Function#6112
+    CompareVarValue 0x8004 493
+    JumpIf EQUAL Function#6112
+//______custom_entries_custom
+    CompareVarValue 0x8004 138
+    JumpIf EQUAL Function#6112
+    CompareVarValue 0x8004 139
+    JumpIf EQUAL Function#6112 
+    CompareVarValue 0x8004 218
+    JumpIf EQUAL Function#6112
+    CompareVarValue 0x8004 219
+    JumpIf EQUAL Function#6112 
+    CompareVarValue 0x8004 345
+    JumpIf EQUAL Function#6112
+    CompareVarValue 0x8004 346
+    JumpIf EQUAL Function#6112 
+    CompareVarValue 0x8004 471
+    JumpIf EQUAL Function#6112 
+Return
+
+Function 6112:
+    AddListOption 60 255 11
+Return
+
+Function 6113:
+    SetVar 0x800B 408
+Jump Function#994
+
+//____________________psycho_cut
+Function 6121:
+    CompareVarValue 0x8004 151
+    JumpIf EQUAL Function#6122
+    CompareVarValue 0x8004 235
+    JumpIf EQUAL Function#6122
+    CompareVarValue 0x8004 064
+    JumpIf EQUAL Function#6122
+    CompareVarValue 0x8004 065
+    JumpIf EQUAL Function#6122
+    CompareVarValue 0x8004 096
+    JumpIf EQUAL Function#6122
+    CompareVarValue 0x8004 097
+    JumpIf EQUAL Function#6122
+    CompareVarValue 0x8004 103
+    JumpIf EQUAL Function#6122
+    CompareVarValue 0x8004 121
+    JumpIf EQUAL Function#6122
+    CompareVarValue 0x8004 123
+    JumpIf EQUAL Function#6122
+    CompareVarValue 0x8004 124
+    JumpIf EQUAL Function#6122
+    CompareVarValue 0x8004 141
+    JumpIf EQUAL Function#6122
+    CompareVarValue 0x8004 150
+    JumpIf EQUAL Function#6122
+    CompareVarValue 0x8004 212
+    JumpIf EQUAL Function#6122
+    CompareVarValue 0x8004 215
+    JumpIf EQUAL Function#6122
+    CompareVarValue 0x8004 251
+    JumpIf EQUAL Function#6122
+    CompareVarValue 0x8004 307
+    JumpIf EQUAL Function#6122
+    CompareVarValue 0x8004 308
+    JumpIf EQUAL Function#6122
+    CompareVarValue 0x8004 327
+    JumpIf EQUAL Function#6122
+    CompareVarValue 0x8004 359
+    JumpIf EQUAL Function#6122
+    CompareVarValue 0x8004 375
+    JumpIf EQUAL Function#6122
+    CompareVarValue 0x8004 376
+    JumpIf EQUAL Function#6122
+    CompareVarValue 0x8004 380
+    JumpIf EQUAL Function#6122
+    CompareVarValue 0x8004 381
+    JumpIf EQUAL Function#6122
+    CompareVarValue 0x8004 461
+    JumpIf EQUAL Function#6122
+    CompareVarValue 0x8004 475
+    JumpIf EQUAL Function#6122
+    CompareVarValue 0x8004 480
+    JumpIf EQUAL Function#6122
+    CompareVarValue 0x8004 481
+    JumpIf EQUAL Function#6122
+    CompareVarValue 0x8004 482
+    JumpIf EQUAL Function#6122
+    CompareVarValue 0x8004 488
+    JumpIf EQUAL Function#6122
+//______custom_entries_custom
+    CompareVarValue 0x8004 055
+    JumpIf EQUAL Function#6122
+    CompareVarValue 0x8004 338
+    JumpIf EQUAL Function#6122
+    CompareVarValue 0x8004 470
+    JumpIf EQUAL Function#6122
+Return
+
+Function 6122:
+    AddListOption 61 255 12
+Return
+
+Function 6123:
+    SetVar 0x800B 427
+Jump Function#994
+
+//____________________snatch
+Function 6131:
+    CompareVarValue 0x8004 151
+    JumpIf EQUAL Function#6132
+    CompareVarValue 0x8004 235
+    JumpIf EQUAL Function#6132
+    CompareVarValue 0x8004 023
+    JumpIf EQUAL Function#6132
+    CompareVarValue 0x8004 024
+    JumpIf EQUAL Function#6132
+    CompareVarValue 0x8004 035
+    JumpIf EQUAL Function#6132
+    CompareVarValue 0x8004 036
+    JumpIf EQUAL Function#6132
+    CompareVarValue 0x8004 039
+    JumpIf EQUAL Function#6132
+    CompareVarValue 0x8004 040
+    JumpIf EQUAL Function#6132
+    CompareVarValue 0x8004 041
+    JumpIf EQUAL Function#6132
+    CompareVarValue 0x8004 042
+    JumpIf EQUAL Function#6132
+    CompareVarValue 0x8004 052
+    JumpIf EQUAL Function#6132
+    CompareVarValue 0x8004 053
+    JumpIf EQUAL Function#6132
+    CompareVarValue 0x8004 063
+    JumpIf EQUAL Function#6132
+    CompareVarValue 0x8004 064
+    JumpIf EQUAL Function#6132
+    CompareVarValue 0x8004 065
+    JumpIf EQUAL Function#6132
+    CompareVarValue 0x8004 092
+    JumpIf EQUAL Function#6132
+    CompareVarValue 0x8004 093
+    JumpIf EQUAL Function#6132
+    CompareVarValue 0x8004 094
+    JumpIf EQUAL Function#6132
+    CompareVarValue 0x8004 096
+    JumpIf EQUAL Function#6132
+    CompareVarValue 0x8004 097
+    JumpIf EQUAL Function#6132
+    CompareVarValue 0x8004 113
+    JumpIf EQUAL Function#6132
+    CompareVarValue 0x8004 122
+    JumpIf EQUAL Function#6132
+    CompareVarValue 0x8004 143
+    JumpIf EQUAL Function#6132
+    CompareVarValue 0x8004 150
+    JumpIf EQUAL Function#6132
+    CompareVarValue 0x8004 169
+    JumpIf EQUAL Function#6132
+    CompareVarValue 0x8004 190
+    JumpIf EQUAL Function#6132
+    CompareVarValue 0x8004 197
+    JumpIf EQUAL Function#6132
+    CompareVarValue 0x8004 198
+    JumpIf EQUAL Function#6132
+    CompareVarValue 0x8004 200
+    JumpIf EQUAL Function#6132
+    CompareVarValue 0x8004 215
+    JumpIf EQUAL Function#6132
+    CompareVarValue 0x8004 228
+    JumpIf EQUAL Function#6132
+    CompareVarValue 0x8004 229
+    JumpIf EQUAL Function#6132
+    CompareVarValue 0x8004 242
+    JumpIf EQUAL Function#6132
+    CompareVarValue 0x8004 261
+    JumpIf EQUAL Function#6132
+    CompareVarValue 0x8004 262
+    JumpIf EQUAL Function#6132
+    CompareVarValue 0x8004 280
+    JumpIf EQUAL Function#6132
+    CompareVarValue 0x8004 281
+    JumpIf EQUAL Function#6132
+    CompareVarValue 0x8004 282
+    JumpIf EQUAL Function#6132
+    CompareVarValue 0x8004 285
+    JumpIf EQUAL Function#6132
+    CompareVarValue 0x8004 286
+    JumpIf EQUAL Function#6132
+    CompareVarValue 0x8004 302
+    JumpIf EQUAL Function#6132
+    CompareVarValue 0x8004 303
+    JumpIf EQUAL Function#6132
+    CompareVarValue 0x8004 316
+    JumpIf EQUAL Function#6132
+    CompareVarValue 0x8004 317
+    JumpIf EQUAL Function#6132
+    CompareVarValue 0x8004 325
+    JumpIf EQUAL Function#6132
+    CompareVarValue 0x8004 326
+    JumpIf EQUAL Function#6132
+    CompareVarValue 0x8004 327
+    JumpIf EQUAL Function#6132
+    CompareVarValue 0x8004 336
+    JumpIf EQUAL Function#6132
+    CompareVarValue 0x8004 352
+    JumpIf EQUAL Function#6132
+    CompareVarValue 0x8004 353
+    JumpIf EQUAL Function#6132
+    CompareVarValue 0x8004 354
+    JumpIf EQUAL Function#6132
+    CompareVarValue 0x8004 355
+    JumpIf EQUAL Function#6132
+    CompareVarValue 0x8004 356
+    JumpIf EQUAL Function#6132
+    CompareVarValue 0x8004 358
+    JumpIf EQUAL Function#6132
+    CompareVarValue 0x8004 359
+    JumpIf EQUAL Function#6132
+    CompareVarValue 0x8004 367
+    JumpIf EQUAL Function#6132
+    CompareVarValue 0x8004 386
+    JumpIf EQUAL Function#6132
+    CompareVarValue 0x8004 424
+    JumpIf EQUAL Function#6132
+    CompareVarValue 0x8004 429
+    JumpIf EQUAL Function#6132
+    CompareVarValue 0x8004 430
+    JumpIf EQUAL Function#6132
+    CompareVarValue 0x8004 431
+    JumpIf EQUAL Function#6132
+    CompareVarValue 0x8004 432
+    JumpIf EQUAL Function#6132
+    CompareVarValue 0x8004 433
+    JumpIf EQUAL Function#6132
+    CompareVarValue 0x8004 434
+    JumpIf EQUAL Function#6132
+    CompareVarValue 0x8004 435
+    JumpIf EQUAL Function#6132
+    CompareVarValue 0x8004 439
+    JumpIf EQUAL Function#6132
+    CompareVarValue 0x8004 442
+    JumpIf EQUAL Function#6132
+    CompareVarValue 0x8004 446
+    JumpIf EQUAL Function#6132
+    CompareVarValue 0x8004 453
+    JumpIf EQUAL Function#6132
+    CompareVarValue 0x8004 454
+    JumpIf EQUAL Function#6132
+    CompareVarValue 0x8004 461
+    JumpIf EQUAL Function#6132
+    CompareVarValue 0x8004 475
+    JumpIf EQUAL Function#6132
+    CompareVarValue 0x8004 477
+    JumpIf EQUAL Function#6132
+    CompareVarValue 0x8004 478
+    JumpIf EQUAL Function#6132
+    CompareVarValue 0x8004 479
+    JumpIf EQUAL Function#6132
+    CompareVarValue 0x8004 491
+    JumpIf EQUAL Function#6132
+Return
+
+Function 6132:
+    AddListOption 62 255 13
+Return
+
+Function 6133:
+    SetVar 0x800B 289
+Jump Function#994
+
+//____________________spikes
+Function 6141:
+    CompareVarValue 0x8004 151
+    JumpIf EQUAL Function#6142
+    CompareVarValue 0x8004 235
+    JumpIf EQUAL Function#6142
+    CompareVarValue 0x8004 028
+    JumpIf EQUAL Function#6142
+    CompareVarValue 0x8004 090
+    JumpIf EQUAL Function#6142
+    CompareVarValue 0x8004 091
+    JumpIf EQUAL Function#6142
+    CompareVarValue 0x8004 138
+    JumpIf EQUAL Function#6142
+    CompareVarValue 0x8004 139
+    JumpIf EQUAL Function#6142
+    CompareVarValue 0x8004 185
+    JumpIf EQUAL Function#6142
+    CompareVarValue 0x8004 194
+    JumpIf EQUAL Function#6142
+    CompareVarValue 0x8004 195
+    JumpIf EQUAL Function#6142
+    CompareVarValue 0x8004 204
+    JumpIf EQUAL Function#6142
+    CompareVarValue 0x8004 205
+    JumpIf EQUAL Function#6142
+    CompareVarValue 0x8004 211
+    JumpIf EQUAL Function#6142
+    CompareVarValue 0x8004 214
+    JumpIf EQUAL Function#6142
+    CompareVarValue 0x8004 225
+    JumpIf EQUAL Function#6142
+    CompareVarValue 0x8004 227
+    JumpIf EQUAL Function#6142
+    CompareVarValue 0x8004 315
+    JumpIf EQUAL Function#6142
+    CompareVarValue 0x8004 331
+    JumpIf EQUAL Function#6142
+    CompareVarValue 0x8004 332
+    JumpIf EQUAL Function#6142
+    CompareVarValue 0x8004 340
+    JumpIf EQUAL Function#6142
+    CompareVarValue 0x8004 361
+    JumpIf EQUAL Function#6142
+    CompareVarValue 0x8004 362
+    JumpIf EQUAL Function#6142
+    CompareVarValue 0x8004 383
+    JumpIf EQUAL Function#6142
+    CompareVarValue 0x8004 386
+    JumpIf EQUAL Function#6142
+    CompareVarValue 0x8004 406
+    JumpIf EQUAL Function#6142
+    CompareVarValue 0x8004 407
+    JumpIf EQUAL Function#6142
+    CompareVarValue 0x8004 416
+    JumpIf EQUAL Function#6142
+    CompareVarValue 0x8004 423
+    JumpIf EQUAL Function#6142
+    CompareVarValue 0x8004 438
+    JumpIf EQUAL Function#6142
+    CompareVarValue 0x8004 445
+    JumpIf EQUAL Function#6142
+    CompareVarValue 0x8004 478
+    JumpIf EQUAL Function#6142
+Return
+
+Function 6142:
+    AddListOption 63 255 14
+Return
+
+Function 6143:
+    SetVar 0x800B 191
+Jump Function#994
+
+//____________________sucker_punch
+Function 6151:
+    CompareVarValue 0x8004 151
+    JumpIf EQUAL Function#6152
+    CompareVarValue 0x8004 235
+    JumpIf EQUAL Function#6152
+    CompareVarValue 0x8004 019
+    JumpIf EQUAL Function#6152
+    CompareVarValue 0x8004 020
+    JumpIf EQUAL Function#6152
+    CompareVarValue 0x8004 023
+    JumpIf EQUAL Function#6152
+    CompareVarValue 0x8004 024
+    JumpIf EQUAL Function#6152
+    CompareVarValue 0x8004 029
+    JumpIf EQUAL Function#6152
+    CompareVarValue 0x8004 032
+    JumpIf EQUAL Function#6152
+    CompareVarValue 0x8004 033
+    JumpIf EQUAL Function#6152
+    CompareVarValue 0x8004 034
+    JumpIf EQUAL Function#6152
+    CompareVarValue 0x8004 050
+    JumpIf EQUAL Function#6152
+    CompareVarValue 0x8004 051
+    JumpIf EQUAL Function#6152
+    CompareVarValue 0x8004 069
+    JumpIf EQUAL Function#6152
+    CompareVarValue 0x8004 070
+    JumpIf EQUAL Function#6152
+    CompareVarValue 0x8004 071
+    JumpIf EQUAL Function#6152
+    CompareVarValue 0x8004 074
+    JumpIf EQUAL Function#6152
+    CompareVarValue 0x8004 075
+    JumpIf EQUAL Function#6152
+    CompareVarValue 0x8004 076
+    JumpIf EQUAL Function#6152
+    CompareVarValue 0x8004 092
+    JumpIf EQUAL Function#6152
+    CompareVarValue 0x8004 093
+    JumpIf EQUAL Function#6152
+    CompareVarValue 0x8004 094
+    JumpIf EQUAL Function#6152
+    CompareVarValue 0x8004 100
+    JumpIf EQUAL Function#6152
+    CompareVarValue 0x8004 101
+    JumpIf EQUAL Function#6152
+    CompareVarValue 0x8004 106
+    JumpIf EQUAL Function#6152
+    CompareVarValue 0x8004 115
+    JumpIf EQUAL Function#6152
+    CompareVarValue 0x8004 122
+    JumpIf EQUAL Function#6152
+    CompareVarValue 0x8004 161
+    JumpIf EQUAL Function#6152
+    CompareVarValue 0x8004 162
+    JumpIf EQUAL Function#6152
+    CompareVarValue 0x8004 167
+    JumpIf EQUAL Function#6152
+    CompareVarValue 0x8004 168
+    JumpIf EQUAL Function#6152
+    CompareVarValue 0x8004 170
+    JumpIf EQUAL Function#6152
+    CompareVarValue 0x8004 171
+    JumpIf EQUAL Function#6152
+    CompareVarValue 0x8004 177
+    JumpIf EQUAL Function#6152
+    CompareVarValue 0x8004 178
+    JumpIf EQUAL Function#6152
+    CompareVarValue 0x8004 185
+    JumpIf EQUAL Function#6152
+    CompareVarValue 0x8004 197
+    JumpIf EQUAL Function#6152
+    CompareVarValue 0x8004 198
+    JumpIf EQUAL Function#6152
+    CompareVarValue 0x8004 200
+    JumpIf EQUAL Function#6152
+    CompareVarValue 0x8004 203
+    JumpIf EQUAL Function#6152
+    CompareVarValue 0x8004 222
+    JumpIf EQUAL Function#6152
+    CompareVarValue 0x8004 228
+    JumpIf EQUAL Function#6152
+    CompareVarValue 0x8004 229
+    JumpIf EQUAL Function#6152
+    CompareVarValue 0x8004 234
+    JumpIf EQUAL Function#6152
+    CompareVarValue 0x8004 237
+    JumpIf EQUAL Function#6152
+    CompareVarValue 0x8004 251
+    JumpIf EQUAL Function#6152
+    CompareVarValue 0x8004 261
+    JumpIf EQUAL Function#6152
+    CompareVarValue 0x8004 262
+    JumpIf EQUAL Function#6152
+    CompareVarValue 0x8004 273
+    JumpIf EQUAL Function#6152
+    CompareVarValue 0x8004 274
+    JumpIf EQUAL Function#6152
+    CompareVarValue 0x8004 275
+    JumpIf EQUAL Function#6152
+    CompareVarValue 0x8004 287
+    JumpIf EQUAL Function#6152
+    CompareVarValue 0x8004 288
+    JumpIf EQUAL Function#6152
+    CompareVarValue 0x8004 289
+    JumpIf EQUAL Function#6152
+    CompareVarValue 0x8004 292
+    JumpIf EQUAL Function#6152
+    CompareVarValue 0x8004 300
+    JumpIf EQUAL Function#6152
+    CompareVarValue 0x8004 301
+    JumpIf EQUAL Function#6152
+    CompareVarValue 0x8004 302
+    JumpIf EQUAL Function#6152
+    CompareVarValue 0x8004 303
+    JumpIf EQUAL Function#6152
+    CompareVarValue 0x8004 327
+    JumpIf EQUAL Function#6152
+    CompareVarValue 0x8004 331
+    JumpIf EQUAL Function#6152
+    CompareVarValue 0x8004 332
+    JumpIf EQUAL Function#6152
+    CompareVarValue 0x8004 336
+    JumpIf EQUAL Function#6152
+    CompareVarValue 0x8004 352
+    JumpIf EQUAL Function#6152
+    CompareVarValue 0x8004 353
+    JumpIf EQUAL Function#6152
+    CompareVarValue 0x8004 354
+    JumpIf EQUAL Function#6152
+    CompareVarValue 0x8004 355
+    JumpIf EQUAL Function#6152
+    CompareVarValue 0x8004 356
+    JumpIf EQUAL Function#6152
+    CompareVarValue 0x8004 359
+    JumpIf EQUAL Function#6152
+    CompareVarValue 0x8004 367
+    JumpIf EQUAL Function#6152
+    CompareVarValue 0x8004 380
+    JumpIf EQUAL Function#6152
+    CompareVarValue 0x8004 413
+    JumpIf EQUAL Function#6152
+    CompareVarValue 0x8004 425
+    JumpIf EQUAL Function#6152
+    CompareVarValue 0x8004 426
+    JumpIf EQUAL Function#6152
+    CompareVarValue 0x8004 429
+    JumpIf EQUAL Function#6152
+    CompareVarValue 0x8004 430
+    JumpIf EQUAL Function#6152
+    CompareVarValue 0x8004 431
+    JumpIf EQUAL Function#6152
+    CompareVarValue 0x8004 432
+    JumpIf EQUAL Function#6152
+    CompareVarValue 0x8004 434
+    JumpIf EQUAL Function#6152
+    CompareVarValue 0x8004 435
+    JumpIf EQUAL Function#6152
+    CompareVarValue 0x8004 438
+    JumpIf EQUAL Function#6152
+    CompareVarValue 0x8004 439
+    JumpIf EQUAL Function#6152
+    CompareVarValue 0x8004 442
+    JumpIf EQUAL Function#6152
+    CompareVarValue 0x8004 453
+    JumpIf EQUAL Function#6152
+    CompareVarValue 0x8004 454
+    JumpIf EQUAL Function#6152
+    CompareVarValue 0x8004 477
+    JumpIf EQUAL Function#6152
+    CompareVarValue 0x8004 478
+    JumpIf EQUAL Function#6152
+    CompareVarValue 0x8004 479
+    JumpIf EQUAL Function#6152
+    CompareVarValue 0x8004 491
+    JumpIf EQUAL Function#6152
+Return
+
+Function 6152:
+    AddListOption 64 255 15
+Return
+
+Function 6153:
+    SetVar 0x800B 389
+Jump Function#994
+
+//____________________super_fang
+Function 6161:
+    CompareVarValue 0x8004 151
+    JumpIf EQUAL Function#6162
+    CompareVarValue 0x8004 235
+    JumpIf EQUAL Function#6162
+    CompareVarValue 0x8004 019
+    JumpIf EQUAL Function#6162
+    CompareVarValue 0x8004 020
+    JumpIf EQUAL Function#6162
+    CompareVarValue 0x8004 027
+    JumpIf EQUAL Function#6162
+    CompareVarValue 0x8004 028
+    JumpIf EQUAL Function#6162
+    CompareVarValue 0x8004 029
+    JumpIf EQUAL Function#6162
+    CompareVarValue 0x8004 030
+    JumpIf EQUAL Function#6162
+    CompareVarValue 0x8004 031
+    JumpIf EQUAL Function#6162
+    CompareVarValue 0x8004 032
+    JumpIf EQUAL Function#6162
+    CompareVarValue 0x8004 033
+    JumpIf EQUAL Function#6162
+    CompareVarValue 0x8004 034
+    JumpIf EQUAL Function#6162
+    CompareVarValue 0x8004 041
+    JumpIf EQUAL Function#6162
+    CompareVarValue 0x8004 042
+    JumpIf EQUAL Function#6162
+    CompareVarValue 0x8004 161
+    JumpIf EQUAL Function#6162
+    CompareVarValue 0x8004 162
+    JumpIf EQUAL Function#6162
+    CompareVarValue 0x8004 169
+    JumpIf EQUAL Function#6162
+    CompareVarValue 0x8004 209
+    JumpIf EQUAL Function#6162
+    CompareVarValue 0x8004 210
+    JumpIf EQUAL Function#6162
+    CompareVarValue 0x8004 228
+    JumpIf EQUAL Function#6162
+    CompareVarValue 0x8004 229
+    JumpIf EQUAL Function#6162
+    CompareVarValue 0x8004 261
+    JumpIf EQUAL Function#6162
+    CompareVarValue 0x8004 262
+    JumpIf EQUAL Function#6162
+    CompareVarValue 0x8004 263
+    JumpIf EQUAL Function#6162
+    CompareVarValue 0x8004 264
+    JumpIf EQUAL Function#6162
+    CompareVarValue 0x8004 303
+    JumpIf EQUAL Function#6162
+    CompareVarValue 0x8004 318
+    JumpIf EQUAL Function#6162
+    CompareVarValue 0x8004 319
+    JumpIf EQUAL Function#6162
+    CompareVarValue 0x8004 362
+    JumpIf EQUAL Function#6162
+    CompareVarValue 0x8004 363
+    JumpIf EQUAL Function#6162
+    CompareVarValue 0x8004 364
+    JumpIf EQUAL Function#6162
+    CompareVarValue 0x8004 365
+    JumpIf EQUAL Function#6162
+    CompareVarValue 0x8004 367
+    JumpIf EQUAL Function#6162
+    CompareVarValue 0x8004 399
+    JumpIf EQUAL Function#6162
+    CompareVarValue 0x8004 400
+    JumpIf EQUAL Function#6162
+    CompareVarValue 0x8004 417
+    JumpIf EQUAL Function#6162
+    CompareVarValue 0x8004 431
+    JumpIf EQUAL Function#6162
+    CompareVarValue 0x8004 432
+    JumpIf EQUAL Function#6162
+    CompareVarValue 0x8004 453
+    JumpIf EQUAL Function#6162
+    CompareVarValue 0x8004 454
+    JumpIf EQUAL Function#6162
+Return
+
+Function 6162:
+    AddListOption 65 255 16
+Return
+
+Function 6163:
+    SetVar 0x800B 162
+Jump Function#994
+
+//____________________tail_slap
+Function 6171:
+    CompareVarValue 0x8004 151
+    JumpIf EQUAL Function#6172
+    CompareVarValue 0x8004 235
+    JumpIf EQUAL Function#6172
+    CompareVarValue 0x8004 037
+    JumpIf EQUAL Function#6172
+    CompareVarValue 0x8004 038
+    JumpIf EQUAL Function#6172
+    CompareVarValue 0x8004 190
+    JumpIf EQUAL Function#6172
+    CompareVarValue 0x8004 263
+    JumpIf EQUAL Function#6172
+    CompareVarValue 0x8004 264
+    JumpIf EQUAL Function#6172
+    CompareVarValue 0x8004 418
+    JumpIf EQUAL Function#6172
+    CompareVarValue 0x8004 419
+    JumpIf EQUAL Function#6172
+    CompareVarValue 0x8004 424
+    JumpIf EQUAL Function#6172
+    CompareVarValue 0x8004 434
+    JumpIf EQUAL Function#6172
+    CompareVarValue 0x8004 435
+    JumpIf EQUAL Function#6172
+//______custom_entries_home
+    CompareVarValue 0x8004 161
+    JumpIf EQUAL Function#6172
+    CompareVarValue 0x8004 162
+    JumpIf EQUAL Function#6172
+    CompareVarValue 0x8004 301
+    JumpIf EQUAL Function#6172
+    CompareVarValue 0x8004 302
+    JumpIf EQUAL Function#6172
+Return
+
+Function 6172:
+    AddListOption 66 255 17
+Return
+
+Function 6173:
+    SetVar 0x800B 503
+Jump Function#994
+
+//____________________toxic_spikes
+Function 6181:
+    CompareVarValue 0x8004 151
+    JumpIf EQUAL Function#6182
+    CompareVarValue 0x8004 235
+    JumpIf EQUAL Function#6182
+    CompareVarValue 0x8004 015
+    JumpIf EQUAL Function#6182
+    CompareVarValue 0x8004 029
+    JumpIf EQUAL Function#6182
+    CompareVarValue 0x8004 030
+    JumpIf EQUAL Function#6182
+    CompareVarValue 0x8004 031
+    JumpIf EQUAL Function#6182
+    CompareVarValue 0x8004 032
+    JumpIf EQUAL Function#6182
+    CompareVarValue 0x8004 033
+    JumpIf EQUAL Function#6182
+    CompareVarValue 0x8004 034
+    JumpIf EQUAL Function#6182
+    CompareVarValue 0x8004 048
+    JumpIf EQUAL Function#6182
+    CompareVarValue 0x8004 049
+    JumpIf EQUAL Function#6182
+    CompareVarValue 0x8004 072
+    JumpIf EQUAL Function#6182
+    CompareVarValue 0x8004 073
+    JumpIf EQUAL Function#6182
+    CompareVarValue 0x8004 089
+    JumpIf EQUAL Function#6182
+    CompareVarValue 0x8004 090
+    JumpIf EQUAL Function#6182
+    CompareVarValue 0x8004 091
+    JumpIf EQUAL Function#6182
+    CompareVarValue 0x8004 093
+    JumpIf EQUAL Function#6182
+    CompareVarValue 0x8004 094
+    JumpIf EQUAL Function#6182
+    CompareVarValue 0x8004 109
+    JumpIf EQUAL Function#6182
+    CompareVarValue 0x8004 110
+    JumpIf EQUAL Function#6182
+    CompareVarValue 0x8004 138
+    JumpIf EQUAL Function#6182
+    CompareVarValue 0x8004 139
+    JumpIf EQUAL Function#6182
+    CompareVarValue 0x8004 167
+    JumpIf EQUAL Function#6182
+    CompareVarValue 0x8004 168
+    JumpIf EQUAL Function#6182
+    CompareVarValue 0x8004 195
+    JumpIf EQUAL Function#6182
+    CompareVarValue 0x8004 204
+    JumpIf EQUAL Function#6182
+    CompareVarValue 0x8004 205
+    JumpIf EQUAL Function#6182
+    CompareVarValue 0x8004 211
+    JumpIf EQUAL Function#6182
+    CompareVarValue 0x8004 315
+    JumpIf EQUAL Function#6182
+    CompareVarValue 0x8004 316
+    JumpIf EQUAL Function#6182
+    CompareVarValue 0x8004 317
+    JumpIf EQUAL Function#6182
+    CompareVarValue 0x8004 331
+    JumpIf EQUAL Function#6182
+    CompareVarValue 0x8004 332
+    JumpIf EQUAL Function#6182
+    CompareVarValue 0x8004 407
+    JumpIf EQUAL Function#6182
+    CompareVarValue 0x8004 416
+    JumpIf EQUAL Function#6182
+    CompareVarValue 0x8004 434
+    JumpIf EQUAL Function#6182
+    CompareVarValue 0x8004 435
+    JumpIf EQUAL Function#6182
+    CompareVarValue 0x8004 451
+    JumpIf EQUAL Function#6182
+    CompareVarValue 0x8004 452
+    JumpIf EQUAL Function#6182
+Return
+
+Function 6182:
+    AddListOption 67 255 18
+Return
+
+Function 6183:
+    SetVar 0x800B 390
+Jump Function#994
+
+//________________________________________Utility_________________
+
+//____________________already_knows_move 
+Function 993:
+    Message 44
+Jump Function#600
+
+//____________________teach_move
+Function 994:
+    CMD_140 0x800C 0x800B 0x8000
+    CompareVarValue 0x800C 1
+    JumpIf EQUAL Function#993
+    Message 46
+    CloseMessage
+    FadeScreen 6 1 0 0
+    WaitFadeScreen
+    CMD_468 0x8000 0x800B
+    CMD_469 0x800C
+    ReturnScreen
+    FadeScreen 6 1 1 0
+    WaitFadeScreen
+Jump Function#999
+
+//____________________badge_not_earned
+Function 996:
+    Message 42
+    WaitButton
+    CloseMessage
+    ReleaseAll
+End
+
+//____________________add_return_option
+Function 997:
+    AddListOption 47 255 255
+    ShowList
+Return 
+
+//____________________return_function
+Function 998:
+Return
+
+//____________________cancel_function
+Function 999:
+    Message 45
+    WaitButton
+    CloseMessage
+    ReleaseAll
+End
+
+//_____________________mainscript
+Script 10:
+    PlayFanfare 1500
+    LockAll
+    FacePlayer
+    CheckBadge 5 0x800C
+    CompareVarValue 0x800C 0
+    JumpIf EQUAL Function#996
+    Message 40
+    OpenTouchScreen
+    YesNoTouchScreen 0x800C
+    CloseTouchScreen
+    CompareVarValue 0x800C 1
+    JumpIf EQUAL Function#999
+    Message 41
+    CloseMessage
+    FadeScreen 6 1 0 0
+	WaitFadeScreen 
+	CMD_349 
+	GetSelectedPartySlot 0x8000
+	ReturnScreen 
+	FadeScreen 6 1 1 0
+	WaitFadeScreen
+	CompareVarValue 0x8000 255
+	JumpIf EQUAL Function#999
+    GetPartyPokemonID 0x8000 0x8004
+Jump Function#600

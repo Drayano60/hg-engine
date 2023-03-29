@@ -8159,10 +8159,10 @@ Level Up Moves:
 24 - Endure
 28 - Bulldoze
 32 - Take Down
-39 - Icicle Crash
-44 - Earthquake
-49 - Amnesia
-54 - Blizzard
+40 - Icicle Crash
+45 - Earthquake
+50 - Amnesia
+55 - Blizzard
 
 -------------------
 221 - Piloswine
@@ -8195,10 +8195,10 @@ Level Up Moves:
 28 - Bulldoze
 32 - Take Down
 33 - Ice Fang
-39 - Icicle Crash
-44 - Earthquake
-49 - Amnesia
-54 - Blizzard
+40 - Icicle Crash
+45 - Earthquake
+50 - Amnesia
+55 - Blizzard
 
 -------------------
 473 - Mamoswine
@@ -8230,11 +8230,11 @@ Level Up Moves:
 28 - Bulldoze
 32 - Take Down
 33 - Ice Fang
-39 - Icicle Crash
-44 - Earthquake
-49 - Scary Face
-54 - Blizzard
-59 - Headlong Rush
+40 - Icicle Crash
+45 - Earthquake
+50 - Amnesia
+55 - Blizzard
+60 - Headlong Rush
 
 -------------------
 222 - Corsola
@@ -14243,6 +14243,26 @@ Type: Rock / Steel
 New Moves:
 - Meteor Beam (Tutor) (HOME)
 
+Level Up Moves:
+01 - Tackle
+01 - Protect
+03 - Taunt
+06 - Headbutt
+09 - Metal Sound
+12 - Scary Face
+15 - Take Down
+18 - Iron Defense
+21 - Rock Blast
+24 - Metal Burst
+27 - Ancient Power
+33 - Endure
+37 - Swagger
+41 - Iron Head
+45 - Screech
+49 - Stone Edge
+53 - Heavy Slam
+57 - Fissure
+
 -------------------
 411 - Bastiodon
 -------------------
@@ -14255,6 +14275,27 @@ New Moves:
 - Body Press (Tutor)
 - Meteor Beam (Tutor) (HOME)
 
+Level Up Moves:
+01 - Tackle
+01 - Protect
+03 - Taunt
+06 - Headbutt
+09 - Metal Sound
+12 - Scary Face
+15 - Take Down
+18 - Iron Defense
+21 - Rock Blast
+24 - Metal Burst
+27 - Ancient Power
+30 - Block
+33 - Endure
+37 - Swagger
+41 - Iron Head
+45 - Screech
+49 - Stone Edge
+53 - Heavy Slam
+57 - Fissure
+
 -------------------
 412 - Burmy
 -------------------
@@ -14265,6 +14306,13 @@ Type: Bug
 
 New Moves:
 - None
+
+Level Up Moves:
+01 - Protect
+01 - Tackle
+01 - String Shot
+05 - Bug Bite
+15 - Hidden Power
 
 -------------------
 413.1 - Wormadam (Plant Cloak)
@@ -14277,6 +14325,26 @@ Type: Bug / Grass
 New Moves:
 - Dual Wingbeat (Tutor) (HOME)
 - Mega Drain (Tutor)
+
+Level Up Moves:
+01 - Sucker Punch
+01 - Protect
+01 - Tackle
+01 - String Shot
+01 - Bug Bite
+01 - Hidden Power
+20 - Razor Leaf
+22 - Confusion
+24 - Growth
+26 - Psybeam
+29 - Attract
+32 - Flail
+35 - Bug Buzz
+38 - Energy Ball
+41 - Psychic
+44 - Captivate
+47 - Leaf Storm
+50 - Quiver Dance
 
 -------------------
 413.2 - Wormadam (Sandy Cloak)
@@ -14291,6 +14359,28 @@ New Moves:
 - Mega Drain (Tutor)
 - Mud Bomb (Level)
 
+Level Up Moves:
+01 - Sucker Punch
+01 - Protect
+01 - Tackle
+01 - String Shot
+01 - Bug Bite
+01 - Hidden Power
+20 - Mud Bomb*
+22 - Confusion
+24 - Harden
+26 - Psybeam
+29 - Attract
+32 - Flail
+35 - Bug Buzz
+38 - Earth Power*
+41 - Psychic
+44 - Captivate
+47 - Fissure
+50 - Quiver Dance
+
+* If stat changes are removed, Pidgey instead learns Rock Blast at Lv. 20 and Earthquake at Lv. 38.
+
 -------------------
 413.3 - Wormadam (Trash Cloak)
 -------------------
@@ -14302,6 +14392,26 @@ Type: Bug / Steel
 New Moves:
 - Dual Wingbeat (Tutor) (HOME)
 - Mega Drain (Tutor)
+
+Level Up Moves:
+01 - Sucker Punch
+01 - Protect
+01 - Tackle
+01 - String Shot
+01 - Bug Bite
+01 - Hidden Power
+20 - Mirror Shot
+22 - Confusion
+24 - Metal Sound
+26 - Psybeam
+29 - Attract
+32 - Flail
+35 - Bug Buzz
+38 - Flash Cannon
+41 - Psychic
+44 - Captivate
+47 - Metal Burst
+50 - Quiver Dance
 
 -------------------
 414 - Mothim
@@ -14319,6 +14429,26 @@ New Moves:
 - Mega Drain (Tutor)
 - Pollen Puff (Tutor)
 
+Level Up Moves:
+01 - Silver Wind
+01 - Protect
+01 - Tackle
+01 - String Shot
+01 - Bug Bite
+01 - Hidden Power
+20 - Air Cutter
+22 - Confusion
+24 - Poison Powder
+26 - Psybeam
+29 - Lunge
+32 - Air Slash
+35 - Bug Buzz
+38 - Tailwind
+41 - Psychic
+44 - Camouflage
+47 - First Impression
+50 - Quiver Dance
+
 -------------------
 415 - Combee
 -------------------
@@ -14329,6 +14459,13 @@ Type: Bug / Flying
 
 New Moves:
 - Pollen Puff (Tutor)
+
+Level Up Moves:
+01 - Sweet Scent
+01 - Gust
+01 - Bug Bite
+01 - Struggle Bug
+25 - Bug Buzz
 
 -------------------
 416 - Vespiquen
@@ -14343,6 +14480,29 @@ New Moves:
 - Leech Life (TM)
 - Pollen Puff (Tutor)
 
+Level Up Moves:
+01 - Poison Sting
+01 - Fury Cutter
+01 - Confuse Ray
+01 - Silver Wind
+01 - Sweet Scent
+01 - Pursuit
+01 - Gust
+01 - Bug Bite
+01 - Struggle Bug
+21 - Slash
+24 - Fury Swipes
+28 - Air Slash
+32 - Power Gem
+36 - Heal Order
+36 - Defend Order
+36 - Attack Order
+40 - Aromatherapy
+44 - Captivate
+48 - Toxic
+52 - Swagger
+56 - Destiny Bond
+
 -------------------
 417 - Pachirisu
 -------------------
@@ -14356,6 +14516,28 @@ New Moves:
 - Swords Dance (TM)
 - Volt Tackle (Level)
 
+Level Up Moves:
+01 - Follow Me
+01 - Covet
+01 - Bide
+01 - Growl
+01 - Thunder Shock
+03 - Baby-Doll Eyes
+06 - Quick Attack
+09 - Thunder Wave
+12 - Swift
+15 - Spark
+18 - Charm
+21 - Nuzzle
+24 - Endure
+28 - Sweet Kiss
+32 - Discharge
+36 - Wild Charge
+40 - Super Fang
+44 - Thunder
+48 - Last Resort
+52 - Volt Tackle
+
 -------------------
 418 - Buizel
 -------------------
@@ -14368,6 +14550,25 @@ New Moves:
 - Double-Edge (Tutor)
 - Flip Turn (Tutor) (HOME)
 
+Level Up Moves:
+01 - Sonic Boom
+01 - Growl
+03 - Water Sport
+06 - Quick Attack
+09 - Water Gun
+12 - Pursuit
+15 - Bite
+18 - Swift
+21 - Aqua Jet
+24 - Double Hit
+28 - Whirlpool
+32 - Aqua Tail
+36 - Agility
+40 - Me First
+44 - Tail Slap
+48 - Hydro Pump
+52 - Wave Crash
+
 -------------------
 419 - Floatzel
 -------------------
@@ -14379,6 +14580,28 @@ Type: Water
 New Moves:
 - Double-Edge (Tutor)
 - Flip Turn (Tutor) (HOME)
+
+Level Up Moves:
+01 - Ice Fang
+01 - Switcheroo
+01 - Sonic Boom
+01 - Growl
+03 - Water Sport
+06 - Quick Attack
+09 - Water Gun
+12 - Pursuit
+15 - Bite
+18 - Swift
+21 - Aqua Jet
+24 - Double Hit
+26 - Crunch
+28 - Whirlpool
+32 - Aqua Tail
+36 - Agility
+40 - Me First
+44 - Tail Slap
+48 - Hydro Pump
+52 - Wave Crash
 
 -------------------
 420 - Cherubi
@@ -14393,6 +14616,24 @@ New Moves:
 - Mega Drain (Tutor)
 - Trailblaze (Tutor)
 
+Level Up Moves:
+01 - Morning Sun
+01 - Tackle
+01 - Growth
+04 - Leafage
+08 - Helping Hand
+12 - Leech Seed
+16 - Magical Leaf
+20 - Draining Kiss
+24 - Lucky Chant
+29 - Sweet Scent
+34 - Take Down
+39 - Petal Blizzard
+44 - Worry Seed
+49 - Aromatherapy
+54 - Solar Beam
+59 - Healing Wish
+
 -------------------
 421 - Cherrim
 -------------------
@@ -14406,6 +14647,28 @@ New Moves:
 - Mega Drain (Tutor)
 - Trailblaze (Tutor)
 
+Level Up Moves:
+01 - Sunny Day
+01 - Grass Whistle
+01 - Weather Ball
+01 - Morning Sun
+01 - Tackle
+01 - Growth
+04 - Leafage
+08 - Helping Hand
+12 - Leech Seed
+16 - Magical Leaf
+20 - Draining Kiss
+24 - Lucky Chant
+25 - Petal Dance
+29 - Sweet Scent
+34 - Take Down
+39 - Petal Blizzard
+44 - Worry Seed
+49 - Aromatherapy
+54 - Solar Beam
+59 - Healing Wish
+
 -------------------
 422 - Shellos
 -------------------
@@ -14416,6 +14679,26 @@ Type: Water
 
 New Moves:
 - None
+
+Level Up Moves:
+01 - Water Gun
+01 - Harden
+03 - Mud-Slap
+06 - Mud Sport
+09 - Water Pulse
+12 - Hidden Power
+15 - Ancient Power
+18 - Mud Bomb
+21 - Recover
+24 - Yawn
+28 - Body Slam
+34 - Muddy Water
+39 - Earth Power
+44 - Rain Dance
+49 - Stockpile
+49 - Swallow
+49 - Spit Up
+54 - Memento
 
 -------------------
 423 - Gastrodon
@@ -14428,6 +14711,26 @@ Type: Water / Ground
 New Moves:
 - None
 
+Level Up Moves:
+01 - Water Gun
+01 - Harden
+03 - Mud-Slap
+06 - Mud Sport
+09 - Water Pulse
+12 - Hidden Power
+15 - Ancient Power
+18 - Mud Bomb
+21 - Recover
+24 - Yawn
+28 - Body Slam
+34 - Muddy Water
+39 - Earth Power
+44 - Rain Dance
+49 - Stockpile
+49 - Swallow
+49 - Spit Up
+54 - Memento
+
 -------------------
 425 - Drifloon
 -------------------
@@ -14438,6 +14741,27 @@ Type: Ghost / Flying
 
 New Moves:
 - Mystical Fire (TM) (PLA)
+
+Level Up Moves:
+01 - Constrict
+01 - Minimize
+01 - Astonish
+03 - Gust
+06 - Disable
+09 - Focus Energy
+12 - Payback
+16 - Ominous Wind
+20 - Stockpile
+20 - Swallow
+20 - Spit Up
+24 - Hex
+29 - Self-Destruct
+34 - Shadow Ball
+39 - Baton Pass
+44 - Hypnosis
+49 - Tailwind
+54 - Explosion
+59 - Destiny Bond
 
 -------------------
 426 - Drifblim
@@ -14451,6 +14775,30 @@ New Moves:
 - Hurricane (Tutor)
 - Mystical Fire (Level/TM) (PLA)
 
+Level Up Moves:
+01 - Phantom Force
+01 - Mystical Fire
+01 - Constrict
+01 - Minimize
+01 - Astonish
+03 - Gust
+06 - Disable
+09 - Focus Energy
+12 - Payback
+16 - Ominous Wind
+20 - Stockpile
+20 - Swallow
+20 - Spit Up
+24 - Hex
+28 - Air Slash
+29 - Self-Destruct
+34 - Shadow Ball
+39 - Baton Pass
+44 - Hypnosis
+49 - Tailwind
+54 - Explosion
+59 - Destiny Bond
+
 -------------------
 427 - Buneary
 -------------------
@@ -14462,6 +14810,26 @@ Type: Normal
 New Moves:
 - Double-Edge (Tutor) (PLA)
 
+Level Up Moves:
+01 - Fake Out
+01 - Frustration
+01 - Splash
+01 - Pound
+01 - Endure
+01 - Foresight
+04 - Defense Curl
+08 - Baby-Doll Eyes
+12 - Quick Attack
+16 - Double Kick
+20 - Charm
+24 - Dizzy Punch
+28 - Baton Pass
+32 - Jump Kick
+36 - Agility
+40 - Flatter
+44 - Bounce
+48 - Healing Wish
+
 -------------------
 428 - Lopunny
 -------------------
@@ -14472,6 +14840,30 @@ Type: Normal ⟶ Normal / Fighting
 
 New Moves:
 - Double-Edge (Tutor) (PLA)
+
+Level Up Moves:
+01 - Mirror Coat
+01 - Magic Coat
+01 - Fake Out
+01 - Return
+01 - Splash
+01 - Pound
+01 - Endure
+01 - Foresight
+04 - Defense Curl
+08 - Baby-Doll Eyes
+12 - Quick Attack
+16 - Double Kick
+20 - Charm
+24 - Dizzy Punch
+28 - Baton Pass
+32 - Jump Kick
+36 - Agility
+40 - Flatter
+44 - Bounce
+48 - Healing Wish
+52 - High Jump Kick
+56 - Mega Kick
 
 -------------------
 431 - Glameow
@@ -14485,6 +14877,27 @@ New Moves:
 - Double-Edge (Level) (PLA)
 - Night Slash (Level) (PLA)
 
+Level Up Moves:
+01 - Fake Out
+01 - Scratch
+01 - Growl
+03 - Charm
+06 - Attract
+09 - Hypnosis
+12 - Fury Swipes
+15 - Feint Attack
+18 - Hone Claws
+21 - Assist
+24 - Slash
+27 - Knock Off
+30 - Captivate
+34 - Night Slash
+38 - Wake-Up Slap
+42 - Sucker Punch
+46 - Play Rough
+50 - Double-Edge
+54 - Last Resort
+
 -------------------
 432 - Purugly
 -------------------
@@ -14497,6 +14910,30 @@ New Moves:
 - Double-Edge (Level) (PLA)
 - Night Slash (Level) (PLA)
 
+Level Up Moves:
+01 - Foul Play
+01 - Swagger
+01 - Fake Out
+01 - Scratch
+01 - Growl
+03 - Charm
+06 - Attract
+09 - Hypnosis
+12 - Fury Swipes
+15 - Feint Attack
+18 - Hone Claws
+21 - Assist
+24 - Slash
+27 - Knock Off
+30 - Captivate
+32 - Body Slam
+34 - Night Slash
+38 - Wake-Up Slap
+42 - Sucker Punch
+46 - Play Rough
+50 - Double-Edge
+54 - Last Resort
+
 -------------------
 434 - Stunky
 -------------------
@@ -14507,6 +14944,27 @@ Type: Poison / Dark
 
 New Moves:
 - None
+
+Level Up Moves:
+01 - Scratch
+01 - Poison Gas
+03 - Feint
+06 - Smokescreen
+09 - Acid Spray
+12 - Fury Swipes
+15 - Focus energy
+18 - Bite
+21 - Slash
+24 - Venoshock
+27 - Screech
+30 - Poison Jab
+33 - Night Slash
+38 - Toxic
+42 - Sucker Punch
+46 - Play Rough
+50 - Gunk Shot
+54 - Explosion
+58 - Memento
 
 -------------------
 435 - Skuntank
@@ -14519,6 +14977,30 @@ Type: Poison / Dark
 New Moves:
 - None
 
+Level Up Moves:
+01 - Foul Play
+01 - Haze
+01 - Scratch
+01 - Poison Gas
+03 - Feint
+06 - Smokescreen
+09 - Acid Spray
+12 - Fury Swipes
+15 - Focus energy
+18 - Bite
+21 - Slash
+24 - Venoshock
+27 - Screech
+30 - Poison Jab
+33 - Night Slash
+34 - Flamethrower
+38 - Toxic
+42 - Sucker Punch
+46 - Play Rough
+50 - Gunk Shot
+54 - Explosion
+58 - Memento
+
 -------------------
 436 - Bronzor
 -------------------
@@ -14530,6 +15012,24 @@ Type: Steel / Psychic
 New Moves:
 - None
 
+Level Up Moves:
+01 - Tackle
+01 - Confusion
+03 - Hypnosis
+06 - Imprison
+09 - Confuse Ray
+12 - Psywave
+15 - Payback
+18 - Gyro Ball
+21 - Safeguard
+24 - Extrasensory
+28 - Iron Defense
+32 - Flash Cannon
+36 - Heal Block
+42 - Heavy Slam
+48 - Metal Sound
+54 - Future Sight
+
 -------------------
 437 - Bronzong
 -------------------
@@ -14540,6 +15040,28 @@ Type: Steel / Psychic
 
 New Moves:
 - None
+
+Level Up Moves:
+01 - Weather Ball
+01 - Rain Dance
+01 - Sunny Day
+01 - Tackle
+01 - Confusion
+03 - Hypnosis
+06 - Imprison
+09 - Confuse Ray
+12 - Psywave
+15 - Payback
+18 - Gyro Ball
+21 - Safeguard
+24 - Extrasensory
+28 - Iron Defense
+32 - Flash Cannon
+33 - Block
+36 - Heal Block
+42 - Heavy Slam
+48 - Metal Sound
+54 - Future Sight
 
 -------------------
 441 - Chatot
@@ -14554,6 +15076,26 @@ New Moves:
 - Double-Edge (Tutor)
 - Dual Wingbeat (Tutor) (HOME)
 
+Level Up Moves:
+01 - Confide
+01 - Taunt
+01 - Peck
+01 - Growl
+01 - Sing
+04 - Supersonic
+08 - Mirror Move
+12 - Echoed Voice
+16 - Fury Attack
+20 - Chatter
+24 - Uproar
+28 - Mimic
+32 - Air Slash
+36 - Hyper Voice
+40 - Roost
+44 - Nasty Plot
+48 - Feather Dance
+52 - Boomburst
+
 -------------------
 442 - Spiritomb
 -------------------
@@ -14566,6 +15108,28 @@ New Moves:
 - Giga Drain (TM)
 - Mega Drain (Tutor)
 
+Level Up Moves:
+01 - Pursuit
+01 - Night Shade
+01 - Confuse Ray
+03 - Shadow Sneak
+06 - Disable
+09 - Spite
+12 - Curse
+15 - Feint Attack
+18 - Ominous Wind
+21 - Hypnosis
+24 - Payback
+28 - Hex
+32 - Pain Split
+36 - Dark Pulse
+40 - Shadow Ball
+44 - Sucker Punch
+48 - Dream Eater
+52 - Nasty Plot
+56 - Memento
+60 - Destiny Bond
+
 -------------------
 443 - Gible
 -------------------
@@ -14576,6 +15140,23 @@ Type: Dragon / Ground
 
 New Moves:
 - None
+
+Level Up Moves:
+01 - Tackle
+01 - Sand Attack
+04 - Sand Tomb
+08 - Dragon Breath
+12 - Bulldoze
+16 - Bite
+20 - Dragon Rage
+25 - Slash
+30 - Dig
+35 - Take Down
+40 - Dragon Claw
+45 - Sandstorm
+51 - Dragon Rush
+57 - Earthquake
+63 - Outrage
 
 -------------------
 444 - Gabite
@@ -14588,6 +15169,24 @@ Type: Dragon / Ground
 New Moves:
 - None
 
+Level Up Moves:
+01 - Tackle
+01 - Sand Attack
+04 - Sand Tomb
+08 - Dragon Breath
+12 - Bulldoze
+16 - Bite
+20 - Dragon Rage
+24 - Dual Chop
+25 - Slash
+30 - Dig
+35 - Take Down
+40 - Dragon Claw
+45 - Sandstorm
+51 - Dragon Rush
+57 - Earthquake
+63 - Outrage
+
 -------------------
 445 - Garchomp
 -------------------
@@ -14599,6 +15198,28 @@ Type: Dragon / Ground
 New Moves:
 - Fly (HM)
 
+Level Up Moves:
+01 - Fire Fang
+01 - Scary Face
+01 - Thrash
+01 - Tackle
+01 - Sand Attack
+04 - Sand Tomb
+08 - Dragon Breath
+12 - Bulldoze
+16 - Bite
+20 - Dragon Rage
+24 - Dual Chop
+25 - Slash
+30 - Dig
+35 - Take Down
+40 - Dragon Claw
+45 - Sandstorm
+48 - Crunch
+51 - Dragon Rush
+57 - Earthquake
+63 - Outrage
+
 -------------------
 447 - Riolu
 -------------------
@@ -14609,6 +15230,25 @@ Type: Fighting
 
 New Moves:
 - Double-Edge (Tutor)
+
+Level Up Moves:
+01 - Quick Attack
+01 - Foresight
+01 - Endure
+04 - Feint
+08 - Metal Claw
+12 - Counter
+16 - Work Up
+20 - Force Palm
+24 - Vacuum Wave
+28 - Screech
+32 - Follow Me
+36 - Cross Chop
+40 - Helping Hand
+44 - Swords Dance
+48 - Copycat
+52 - Nasty Plot
+56 - Reversal
 
 -------------------
 448 - Lucario
@@ -14622,6 +15262,29 @@ New Moves:
 - Double-Edge (Tutor)
 - Mach Punch (Level) (PLA)
 
+Level Up Moves:
+01 - Aura Sphere
+01 - Bullet Punch
+01 - Mach Punch
+01 - Quick Attack
+01 - Foresight
+01 - Endure
+04 - Feint
+08 - Metal Claw
+12 - Counter
+16 - Work Up
+20 - Force Palm
+24 - Me First
+28 - Metal Sound
+32 - Mind Reader
+36 - Bone Rush
+40 - Calm Mind
+44 - Swords Dance
+48 - Meteor Mash
+52 - Close Combat
+56 - Extreme Speed
+60 - High Jump Kick
+
 -------------------
 449 - Hippopotas
 -------------------
@@ -14633,6 +15296,24 @@ Type: Ground
 New Moves:
 - Headlong Rush (Level)
 
+Level Up Moves:
+01 - Tackle
+01 - Sand Attack
+03 - Bite
+06 - Yawn
+09 - Sand Tomb
+12 - Sandstorm
+16 - Curse
+20 - Dig
+24 - Take Down
+28 - Rest
+32 - Crunch
+40 - Slack Off
+45 - Earthquake
+50 - Double-Edge
+55 - Fissure
+60 - Headlong Rush
+
 -------------------
 450 - Hippowdon
 -------------------
@@ -14643,6 +15324,29 @@ Type: Ground
 
 New Moves:
 - Headlong Rush (Level)
+
+Level Up Moves:
+01 - Body Slam
+01 - Ice Fang
+01 - Fire Fang
+01 - Thunder Fang
+01 - Tackle
+01 - Sand Attack
+03 - Bite
+06 - Yawn
+09 - Sand Tomb
+12 - Sandstorm
+16 - Curse
+20 - Dig
+24 - Take Down
+28 - Rest
+32 - Crunch
+34 - Whirlwind
+40 - Slack Off
+45 - Earthquake
+50 - Double-Edge
+55 - Fissure
+60 - Headlong Rush
 
 -------------------
 451 - Skorupi
@@ -14656,6 +15360,27 @@ New Moves:
 - Double-Edge (Tutor)
 - Pounce (Tutor)
 
+Level Up Moves:
+01 - Poison Sting
+01 - Leer
+01 - Bite
+03 - Pursuit
+06 - Bug Bite
+09 - Hone Claws
+12 - Poison Fang
+15 - Toxic Spikes
+18 - Skitter Smack
+21 - Venoshock
+24 - Knock Off
+27 - Scary Face
+30 - Poison Jab
+33 - Pin Missile
+38 - Night Slash
+42 - Cross Poison
+46 - X-Scissor
+50 - Acupressure
+54 - Crunch
+
 -------------------
 452 - Drapion
 -------------------
@@ -14668,6 +15393,30 @@ New Moves:
 - Double-Edge (Tutor)
 - Pounce (Tutor)
 
+Level Up Moves:
+01 - Thunder Fang
+01 - Ice Fang
+01 - Fire Fang
+01 - Poison Sting
+01 - Leer
+01 - Bite
+03 - Pursuit
+06 - Bug Bite
+09 - Hone Claws
+12 - Poison Fang
+15 - Toxic Spikes
+18 - Skitter Smack
+21 - Venoshock
+24 - Knock Off
+27 - Scary Face
+30 - Poison Jab
+33 - Pin Missile
+38 - Night Slash
+42 - Cross Poison
+46 - X-Scissor
+50 - Acupressure
+54 - Crunch
+
 -------------------
 453 - Croagunk
 -------------------
@@ -14679,6 +15428,28 @@ Type: Poison / Fighting
 New Moves:
 - Double-Edge (Tutor)
 
+Level Up Moves:
+01 - Fake Out
+01 - Poison Sting
+01 - Mud-Slap
+03 - Astonish
+06 - Taunt
+09 - Low Kick
+12 - Pursuit
+15 - Revenge
+18 - Feint Attack
+21 - Venoshock
+24 - Mud Bomb
+27 - Swagger
+30 - Poison Jab
+34 - Sucker Punch
+38 - Flatter
+42 - Cross Chop
+46 - Sludge Bomb
+50 - Acupressure
+54 - Nasty Plot
+58 - Gunk Shot
+
 -------------------
 454 - Toxicroak
 -------------------
@@ -14689,6 +15460,31 @@ Type: Poison / Fighting
 
 New Moves:
 - Double-Edge (Tutor)
+
+Level Up Moves:
+01 - Bullet Punch
+01 - Vacuum Wave
+01 - Fake Out
+01 - Poison Sting
+01 - Mud-Slap
+03 - Astonish
+06 - Taunt
+09 - Low Kick
+12 - Pursuit
+15 - Revenge
+18 - Feint Attack
+21 - Venoshock
+24 - Mud Bomb
+27 - Swagger
+30 - Poison Jab
+33 - Cross Poison
+34 - Sucker Punch
+38 - Flatter
+42 - Cross Chop
+46 - Sludge Bomb
+50 - Acupressure
+54 - Nasty Plot
+58 - Gunk Shot
 
 -------------------
 455 - Carnivine
@@ -14707,6 +15503,28 @@ New Moves:
 - Poison Fang (Level)
 - Trailblaze (Tutor)
 
+Level Up Moves:
+01 - Poison Fang
+01 - Bind
+01 - Growth
+03 - Bite
+06 - Vine Whip
+09 - Acid Spray
+12 - Sweet Scent
+16 - Razor Leaf
+20 - Feint Attack
+24 - Sleep Powder
+24 - Stun Spore
+28 - Stockpile
+28 - Spit Up
+28 - Swallow
+32 - Leaf Blade
+36 - Crunch
+40 - Ingrain
+44 - Leech Life
+48 - Wring Out
+52 - Power Whip
+
 -------------------
 456 - Finneon
 -------------------
@@ -14721,6 +15539,27 @@ New Moves:
 - Flip Turn (Tutor) (HOME)
 - Quiver Dance (Level)
 - Scale Shot (Tutor) (HOME)
+
+Level Up Moves:
+01 - Pound
+01 - Charm
+01 - Attract
+03 - Gust
+06 - Water Gun
+09 - Safeguard
+12 - Sweet Kiss
+15 - Water Pulse
+18 - Rain Dance
+21 - Swift
+24 - Captivate
+27 - Silver Wind
+30 - Dazzling Gleam
+34 - Aqua Ring
+38 - U-turn
+42 - Bounce
+46 - Tailwind
+50 - Quiver Dance
+54 - Hydro Pump
 
 -------------------
 457 - Lumineon
@@ -14739,6 +15578,31 @@ New Moves:
 - Scale Shot (Tutor) (HOME)
 - Triple Axel (Tutor) (HOME)
 
+Level Up Moves:
+01 - Aurora Beam
+01 - Signal Beam
+01 - Agility
+01 - Pound
+01 - Charm
+01 - Attract
+03 - Gust
+06 - Water Gun
+09 - Safeguard
+12 - Sweet Kiss
+15 - Water Pulse
+18 - Rain Dance
+21 - Swift
+24 - Captivate
+27 - Silver Wind
+30 - Dazzling Gleam
+31 - Air Slash
+34 - Aqua Ring
+38 - U-turn
+42 - Bounce
+46 - Tailwind
+50 - Quiver Dance
+54 - Hydro Pump
+
 -------------------
 459 - Snover
 -------------------
@@ -14750,6 +15614,25 @@ Type: Grass / Ice
 New Moves:
 - Icicle Crash (Level) (PLA)
 - Mega Drain (Tutor)
+
+Level Up Moves:
+01 - Powder Snow
+01 - Leer
+01 - Growth
+03 - Leafage
+06 - Mist
+09 - Leech Seed
+12 - Ice Shard
+16 - Razor Leaf
+20 - Grass Whistle
+24 - Icy Wind
+28 - Swagger
+32 - Ingrain
+36 - Energy Ball
+42 - Icicle Crash
+48 - Wood Hammer
+54 - Blizzard
+60 - Sheer Cold
 
 -------------------
 460 - Abomasnow
@@ -14763,6 +15646,28 @@ New Moves:
 - Icicle Crash (Level) (PLA)
 - Mega Drain (Tutor)
 
+Level Up Moves:
+01 - Avalanche
+01 - Aurora Veil
+01 - Powder Snow
+01 - Leer
+01 - Growth
+03 - Leafage
+06 - Mist
+09 - Leech Seed
+12 - Ice Shard
+16 - Razor Leaf
+20 - Grass Whistle
+24 - Icy Wind
+28 - Swagger
+32 - Ingrain
+36 - Energy Ball
+40 - Ice Punch
+42 - Icicle Crash
+48 - Wood Hammer
+54 - Blizzard
+60 - Sheer Cold
+
 -------------------
 479.1 - Rotom
 -------------------
@@ -14773,6 +15678,24 @@ Type: Electric / Ghost
 
 New Moves:
 - None
+
+Level Up Moves:
+01 - Trick
+01 - Thunder Shock
+01 - Double Team
+01 - Astonish
+04 - Confuse Ray
+08 - Charge
+12 - Shock Wave
+16 - Ominous Wind
+20 - Thunder Wave
+25 - Hex
+30 - Uproar
+35 - Discharge
+40 - Shadow Ball
+45 - Dark Pulse
+50 - Substitute
+55 - Thunder
 
 -------------------
 479.2 - Rotom (Heat Rotom)
@@ -14785,6 +15708,24 @@ Type: Electric / Fire
 New Moves:
 - None
 
+Level Up Moves:
+01 - Trick
+01 - Thunder Shock
+01 - Double Team
+01 - Astonish
+04 - Confuse Ray
+08 - Charge
+12 - Shock Wave
+16 - Ominous Wind
+20 - Thunder Wave
+25 - Hex
+30 - Uproar
+35 - Discharge
+40 - Shadow Ball
+45 - Dark Pulse
+50 - Substitute
+55 - Thunder
+
 -------------------
 479.3 - Rotom (Wash Rotom)
 -------------------
@@ -14795,6 +15736,24 @@ Type: Electric / Water
 
 New Moves:
 - None
+
+Level Up Moves:
+01 - Trick
+01 - Thunder Shock
+01 - Double Team
+01 - Astonish
+04 - Confuse Ray
+08 - Charge
+12 - Shock Wave
+16 - Ominous Wind
+20 - Thunder Wave
+25 - Hex
+30 - Uproar
+35 - Discharge
+40 - Shadow Ball
+45 - Dark Pulse
+50 - Substitute
+55 - Thunder
 
 -------------------
 479.4 - Rotom (Frost Rotom)
@@ -14807,6 +15766,24 @@ Type: Electric / Ice
 New Moves:
 - None
 
+Level Up Moves:
+01 - Trick
+01 - Thunder Shock
+01 - Double Team
+01 - Astonish
+04 - Confuse Ray
+08 - Charge
+12 - Shock Wave
+16 - Ominous Wind
+20 - Thunder Wave
+25 - Hex
+30 - Uproar
+35 - Discharge
+40 - Shadow Ball
+45 - Dark Pulse
+50 - Substitute
+55 - Thunder
+
 -------------------
 479.5 - Rotom (Fan Rotom)
 -------------------
@@ -14818,6 +15795,24 @@ Type: Electric / Flying
 New Moves:
 - None
 
+Level Up Moves:
+01 - Trick
+01 - Thunder Shock
+01 - Double Team
+01 - Astonish
+04 - Confuse Ray
+08 - Charge
+12 - Shock Wave
+16 - Ominous Wind
+20 - Thunder Wave
+25 - Hex
+30 - Uproar
+35 - Discharge
+40 - Shadow Ball
+45 - Dark Pulse
+50 - Substitute
+55 - Thunder
+
 -------------------
 479.6 - Rotom (Mow Rotom)
 -------------------
@@ -14828,6 +15823,24 @@ Type: Electric / Grass
 
 New Moves:
 - None
+
+Level Up Moves:
+01 - Trick
+01 - Thunder Shock
+01 - Double Team
+01 - Astonish
+04 - Confuse Ray
+08 - Charge
+12 - Shock Wave
+16 - Ominous Wind
+20 - Thunder Wave
+25 - Hex
+30 - Uproar
+35 - Discharge
+40 - Shadow Ball
+45 - Dark Pulse
+50 - Substitute
+55 - Thunder
 
 -------------------
 480 - Uxie
@@ -14841,7 +15854,26 @@ New Moves:
 - Double-Edge (Tutor)
 - Mega Drain (Tutor)
 - Moonblast (Level)
-- Teleport (Tutor)
+- Teleport (Level/Tutor)
+
+Level Up Moves:
+01 - Teleport
+01 - Confusion
+01 - Skill Swap
+01 - Rest
+06 - Swift
+12 - Endure
+18 - Psybeam
+24 - Imprison
+30 - Extrasensory
+36 - Amnesia
+42 - Psychic
+48 - Yawn
+54 - Moonblast
+60 - Natural Gift
+66 - Future Sight
+72 - Flail
+78 - Memento
 
 -------------------
 481 - Mesprit
@@ -14854,7 +15886,26 @@ Type: Psychic ⟶ Psychic / Fairy
 New Moves:
 - Double-Edge (Tutor)
 - Moonblast (Level)
-- Teleport (Tutor)
+- Teleport (Level/Tutor)
+
+Level Up Moves:
+01 - Teleport
+01 - Confusion
+01 - Lucky Chant
+01 - Rest
+06 - Swift
+12 - Protect
+18 - Psybeam
+24 - Imprison
+30 - Extrasensory
+36 - Charm
+42 - Psychic
+48 - Flatter
+54 - Moonblast
+60 - Natural Gift
+66 - Future Sight
+72 - Copycat
+78 - Healing Wish
 
 -------------------
 482 - Azelf
@@ -14867,7 +15918,26 @@ Type: Psychic ⟶ Psychic / Fairy
 New Moves:
 - Double-Edge (Tutor)
 - Moonblast (Level)
-- Teleport (Tutor)
+- Teleport (Level/Tutor)
+
+Level Up Moves:
+01 - Teleport
+01 - Confusion
+01 - Torment
+01 - Rest
+06 - Swift
+12 - Detect
+18 - Psybeam
+24 - Imprison
+30 - Extrasensory
+36 - Nasty Plot
+42 - Psychic
+48 - Uproar
+54 - Moonblast
+60 - Natural Gift
+66 - Future Sight
+72 - Last Resort
+78 - Explosion
 
 -------------------
 483 - Dialga
@@ -14880,6 +15950,21 @@ Type: Steel / Dragon
 New Moves:
 - Double-Edge (Tutor)
 
+Level Up Moves:
+01 - Metal Claw
+01 - Scary Face
+07 - Dragon Breath
+14 - Ancient Power
+21 - Slash
+28 - Flash Cannon
+35 - Dragon Claw
+42 - Aura Sphere
+49 - Power Gem
+56 - Metal Burst
+63 - Earth Power
+70 - Iron Tail
+77 - Roar of Time
+
 -------------------
 484 - Palkia
 -------------------
@@ -14890,6 +15975,21 @@ Type: Water / Dragon
 
 New Moves:
 - Double-Edge (Tutor)
+
+Level Up Moves:
+01 - Water Pulse
+01 - Scary Face
+07 - Dragon Breath
+14 - Ancient Power
+21 - Slash
+28 - Aqua Ring
+35 - Dragon Claw
+42 - Aura Sphere
+49 - Power Gem
+56 - Aqua Tail
+63 - Earth Power
+70 - Spacial Rend
+77 - Roar of Time
 
 -------------------
 485 - Heatran
@@ -14902,6 +16002,22 @@ Type: Fire / Steel
 New Moves:
 - Double-Edge (Tutor)
 
+Level Up Moves:
+01 - Fire Spin
+01 - Leer
+06 - Metal Claw
+12 - Ancient Power
+18 - Fire Fang
+24 - Scary Face
+30 - Iron Head
+36 - Crunch
+42 - Lava Plume
+48 - Metal Sound
+54 - Earth Power
+60 - Heat Wave
+66 - Stone Edge
+72 - Magma Storm
+
 -------------------
 486 - Regigigas
 -------------------
@@ -14912,6 +16028,27 @@ Type: Normal
 
 New Moves:
 - Double-Edge (Tutor)
+
+Level Up Moves:
+01 - Fire Punch
+01 - Ice Punch
+01 - Thunder Punch
+01 - Pound
+01 - Foresight
+01 - Confuse Ray
+06 - Payback
+12 - Revenge
+18 - Stomp
+24 - Protect
+30 - Knock Off
+36 - Dizzy Punch
+42 - Body Press
+48 - Protect
+54 - Zen Headbutt
+60 - Heavy Slam
+66 - Hammer Arm
+72 - Crush Grip
+78 - Giga Impact
 
 -------------------
 487.1 - Giratina (Altered Forme)
@@ -14924,6 +16061,22 @@ Type: Ghost / Dragon
 New Moves:
 - Double-Edge (Tutor)
 
+Level Up Moves:
+01 - Shadow Sneak
+01 - Defog
+01 - Scary Face
+07 - Dragon Breath
+14 - Ancient Power
+21 - Slash
+28 - Hex
+35 - Dragon Claw
+42 - Aura Sphere
+49 - Pain Split
+56 - Shadow Claw
+63 - Earth Power
+70 - Shadow Force
+77 - Destiny Bond
+
 -------------------
 487.2 - Giratina (Origin Forme)
 -------------------
@@ -14934,6 +16087,22 @@ Type: Ghost / Dragon
 
 New Moves:
 - Double-Edge (Tutor)
+
+Level Up Moves:
+01 - Shadow Sneak
+01 - Defog
+01 - Scary Face
+07 - Dragon Breath
+14 - Ancient Power
+21 - Slash
+28 - Hex
+35 - Dragon Claw
+42 - Aura Sphere
+49 - Pain Split
+56 - Shadow Claw
+63 - Earth Power
+70 - Shadow Force
+77 - Destiny Bond
 
 -------------------
 488 - Cresselia
@@ -14947,6 +16116,22 @@ New Moves:
 - Double-Edge (Tutor)
 
 Notes: Cresselia retains her stats from Gen 4, ignoring the Gen 9 nerfs.
+
+Level Up Moves:
+01 - Confusion
+01 - Double Team
+06 - Mist
+12 - Aurora Beam
+18 - Psybeam
+24 - Psycho Shift
+30 - Slash
+36 - Psycho Cut
+42 - Moonlight
+48 - Safeguard
+54 - Psychic
+60 - Moonblast
+66 - Future Sight
+72 - Lunar Dance
 
 -------------------
 489 - Phione
@@ -14964,6 +16149,22 @@ New Moves:
 - Moonblast (Level) (PLA)
 - Zen Headbutt (Level/Tutor) (PLA)
 
+Level Up Moves:
+01 - Bubble
+01 - Water Sport
+05 - Charm
+10 - Supersonic
+15 - Bubble Beam
+20 - Acid Armor
+25 - Whirlpool
+30 - Zen Headbutt
+35 - Water Pulse
+40 - Aqua Ring
+45 - Dive
+50 - Moonblast
+55 - Rain Dance
+60 - Hydro Pump
+
 -------------------
 490 - Manaphy
 -------------------
@@ -14980,6 +16181,24 @@ New Moves:
 - Moonblast (Level) (PLA)
 - Zen Headbutt (Level/Tutor) (PLA)
 
+Level Up Moves:
+01 - Tail Glow
+01 - Bubble
+01 - Water Sport
+05 - Charm
+10 - Supersonic
+15 - Bubble Beam
+20 - Acid Armor
+25 - Whirlpool
+30 - Zen Headbutt
+35 - Water Pulse
+40 - Aqua Ring
+45 - Dive
+50 - Moonblast
+55 - Rain Dance
+60 - Hydro Pump
+65 - Heart Swap
+
 -------------------
 491 - Darkrai
 -------------------
@@ -14990,6 +16209,24 @@ Type: Dark
 
 New Moves:
 - Confuse Ray (Level) (BDSP)
+
+Level Up Moves:
+01 - Sucker Punch
+01 - Ominous Wind
+01 - Confuse Ray
+01 - Disable
+06 - Quick Attack
+12 - Hypnosis
+18 - Feint Attack
+24 - Nightmare
+30 - Double Team
+36 - Haze
+42 - Foul Play
+48 - Nasty Plot
+54 - Shadow Ball
+60 - Dream Eater
+66 - Dark Void
+72 - Dark Pulse
 
 -------------------
 492.1 - Shaymin (Land Forme)
@@ -15004,6 +16241,20 @@ New Moves:
 - Mega Drain (Tutor)
 - Trailblaze (Tutor)
 
+Level Up Moves:
+01 - Magical Leaf
+01 - Growth
+05 - Leech Seed
+10 - Synthesis
+15 - Sweet Scent
+20 - Natural Gift
+25 - Worry Seed
+30 - Sweet Kiss
+35 - Energy Ball
+40 - Aromatherapy
+45 - Healing Wish
+50 - Seed Flare
+
 -------------------
 492.2 - Shaymin (Sky Forme)
 -------------------
@@ -15017,6 +16268,20 @@ New Moves:
 - Mega Drain (Tutor)
 - Trailblaze (Tutor)
 
+Level Up Moves:
+01 - Magical Leaf
+01 - Growth
+05 - Leech Seed
+10 - Quick Attack
+15 - Sweet Scent
+20 - Natural Gift
+25 - Worry Seed
+30 - Sweet Kiss
+35 - Energy Ball
+40 - Air Slash
+45 - Healing Wish
+50 - Seed Flare
+
 -------------------
 493 - Arceus
 -------------------
@@ -15028,3 +16293,21 @@ Type: Normal
 New Moves:
 - Double-Edge (Tutor)
 - Mega Drain (Tutor)
+
+Level Up Moves:
+01 - Ancient Power
+01 - Seismic Toss
+01 - Cosmic Power
+01 - Natural Gift
+01 - Punishment
+01 - Refresh
+10 - Gravity
+20 - Earth Power
+30 - Hyper Voice
+40 - Extreme Speed
+50 - Healing Wish
+60 - Future Sight
+70 - Recover
+80 - Hyper Beam
+90 - Perish Song
+100 - Judgment

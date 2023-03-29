@@ -381,6 +381,7 @@ enum
     FILE_BATTLE_SUB_SCRIPTS,
 };
 
+
 struct __attribute__((packed)) BattleMove
 {
     u16 effect; //0x0
@@ -553,7 +554,8 @@ struct __attribute__((packed)) BattlePokemon
                u32 aura_break_flag : 1;
                u32 sheer_force_flag : 1;
                u32 imposter_flag : 1;
-               u32 : 14;
+               u32 critical_hits : 2; // tracks the amount of critical hits the pokemon has landed while in battle so far
+               u32 : 12;
     /* 0x2c */ u8 pp[4];
     /* 0x30 */ u8 pp_count[4];
     /* 0x34 */ u8 level;

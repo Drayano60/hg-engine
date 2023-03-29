@@ -5,6 +5,7 @@
 #include "../include/pokemon.h"
 #include "../include/rtc.h"
 #include "../include/save.h"
+#include "../include/script.h"
 #include "../include/constants/ability.h"
 #include "../include/constants/file.h"
 #include "../include/constants/game.h"
@@ -12,6 +13,7 @@
 #include "../include/constants/item.h"
 #include "../include/constants/moves.h"
 #include "../include/constants/species.h"
+#include "../include/constants/weather_numbers.h"
 
 static const u16 sSpeciesToOWGfx[] =
 {
@@ -2852,7 +2854,7 @@ void __attribute__((long_call)) SetBoxMonAbility(void *boxmon) // actually takes
     }
     else
     {
-        has_hidden_ability = GetBoxMonData(boxmon, ID_PARA_dummy_p2_1, NULL) & DUMMY_P2_1_HIDDEN_ABILITY_MASK; // dummy_p2_2 & hidden ability mask
+        has_hidden_ability = GetBoxMonData(boxmon, ID_PARA_dummy_p2_1, NULL) & DUMMY_P2_1_HIDDEN_ABILITY_MASK; // dummy_p2_1 & hidden ability mask
     }
 
     hiddenability = GetMonHiddenAbility(mons_no, form);
@@ -3311,6 +3313,11 @@ u32 __attribute__((long_call)) CheckIfMonsAreEqual(struct PartyPokemon *pokemon1
             SetMonData(ppFromParty, ID_PARA_form_no, &form); \
         } \
     } \
+    else { \
+        target = evoTable[i].target & 0x7FF; \
+        form = evoTable[i].target >> 11; \
+        SetMonData(pokemon, ID_PARA_form_no, &form); \
+    } \
 }
 
 u16 __attribute__((long_call)) GetMonEvolution(struct Party *party, struct PartyPokemon *pokemon, u8 context, u16 usedItem, int *method_ret) {
@@ -3327,6 +3334,7 @@ u16 __attribute__((long_call)) GetMonEvolution(struct Party *party, struct Party
     struct Evolution *evoTable;
     int method_local;
     u32 form = GetMonData(pokemon, ID_PARA_form_no, NULL);
+    u32 lowkey = 0;
     
     struct PartyPokemon *ppFromParty = NULL;
 
@@ -3478,22 +3486,161 @@ u16 __attribute__((long_call)) GetMonEvolution(struct Party *party, struct Party
                     *method_ret = EVO_LEVEL_FEMALE;
                 }
                 break;
-            case EVO_CORONET:
-                if (usedItem == evoTable[i].method) {
-                    GET_TARGET_AND_SET_FORM;
-                    *method_ret = EVO_CORONET;
+            case EVO_CORONET: // magnetic field at route 43+kanto power plant
+                {
+                    u32 location = gFieldSysPtr->location->mapId;
+
+                    if (location == 45 || location == 18)
+                    {
+                        GET_TARGET_AND_SET_FORM;
+                        *method_ret = EVO_CORONET;
+                    }
                 }
                 break;
-            case EVO_ETERNA:
-                if (usedItem == evoTable[i].method) {
-                    GET_TARGET_AND_SET_FORM;
-                    *method_ret = EVO_ETERNA;
+            case EVO_ETERNA: // mossy rock at ilex+viridian forests
+                {
+                    u32 location = gFieldSysPtr->location->mapId;
+
+                    if (location == 117 || location == 147)
+                    {
+                        GET_TARGET_AND_SET_FORM;
+                        *method_ret = EVO_ETERNA;
+                    }
                 }
                 break;
-            case EVO_ROUTE217:
-                if (usedItem == evoTable[i].method) {
+            case EVO_ROUTE217: // icy rock at ice path+seafoam islands
+                {
+                    u32 location = gFieldSysPtr->location->mapId;
+
+                    if (location == 239 || location == 456)
+                    {
+                        GET_TARGET_AND_SET_FORM;
+                        *method_ret = EVO_ROUTE217;
+                    }
+                }
+                break;
+
+            case EVO_LEVEL_DAY:
+                if (IsNighttime() == 0 && evoTable[i].param <= level) {
                     GET_TARGET_AND_SET_FORM;
-                    *method_ret = EVO_ROUTE217;
+                    *method_ret = EVO_LEVEL_DAY;
+                }
+                break;
+            case EVO_LEVEL_NIGHT:
+                if (IsNighttime() == 1 && evoTable[i].param <= level) {
+                    GET_TARGET_AND_SET_FORM;
+                    *method_ret = EVO_LEVEL_NIGHT;
+                }
+                break;
+            case EVO_LEVEL_DUSK:
+                {
+                    struct RTCTime time;
+                    GF_RTC_CopyTime(&time);
+
+                    if (time.hour == 17 && evoTable[i].param <= level) {
+                        GET_TARGET_AND_SET_FORM;
+                        *method_ret = EVO_LEVEL_DUSK;
+                    }
+                }
+                break;
+            case EVO_LEVEL_RAIN:
+                if (evoTable[i].param <= level)
+                {
+                    u32 weather = Fsys_GetWeather_HandleDiamondDust(gFieldSysPtr, gFieldSysPtr->location->mapId);
+
+                    switch (weather)
+                    {
+                    case WEATHER_SYS_RAIN:
+                    case WEATHER_SYS_HEAVY_RAIN:
+                    case WEATHER_SYS_THUNDER:
+                        GET_TARGET_AND_SET_FORM;
+                        *method_ret = EVO_LEVEL_RAIN;
+                    }
+                }
+                break;
+            case EVO_HAS_MOVE_TYPE:
+                {
+                    int k;
+                    
+                    for (k = 0; k < 4; k++)
+                    {
+                        if (GetMoveData(GetMonData(pokemon, ID_PARA_waza1+k, NULL), MOVE_DATA_TYPE) == evoTable[i].param)
+                        {
+                            GET_TARGET_AND_SET_FORM;
+                            *method_ret = EVO_HAS_MOVE_TYPE;
+                            break;
+                        }
+                    }
+                }
+                break;
+            case EVO_LEVEL_DARK_TYPE_MON_IN_PARTY:
+                if (evoTable[i].param <= level && party != NULL)
+                {
+                    for (int k = 0; k < 6; k++)
+                    {
+                        if (!CheckIfMonsAreEqual(pokemon, PokeParty_GetMemberPointer(party, k)) // make sure that pancham doesn't satisfy its own requirement
+                         && (GetMonData(PokeParty_GetMemberPointer(party, k), ID_PARA_type1, NULL) == TYPE_DARK || GetMonData(PokeParty_GetMemberPointer(party, k), ID_PARA_type2, NULL) == TYPE_DARK)) // if either type is dark then set evolution
+                        {
+                            GET_TARGET_AND_SET_FORM;
+                            *method_ret = EVO_LEVEL_DARK_TYPE_MON_IN_PARTY;
+                            break;
+                        }
+                    }
+                }
+                break;
+            case EVO_LEVEL_NATURE_LOW_KEY:
+                lowkey = 1;
+            case EVO_LEVEL_NATURE_AMPED:
+                if (evoTable[i].param <= level)
+                {
+                    u32 nature = GetMonData(pokemon, ID_PARA_personal_rnd, NULL) % 25;
+                    switch (nature)
+                    {
+                    case NATURE_ADAMANT:
+                    case NATURE_BRAVE:
+                    case NATURE_DOCILE:
+                    case NATURE_HARDY:
+                    case NATURE_HASTY:
+                    case NATURE_IMPISH:
+                    case NATURE_JOLLY:
+                    case NATURE_LAX:
+                    case NATURE_NAIVE:
+                    case NATURE_NAUGHTY:
+                    case NATURE_QUIRKY:
+                    case NATURE_RASH:
+                    case NATURE_SASSY:
+                        if (lowkey == 0) // for the amped evo method
+                        {
+                            GET_TARGET_AND_SET_FORM;
+                            *method_ret = EVO_LEVEL_NATURE_AMPED;
+                        }
+                        break;
+                    default:
+                        if (lowkey == 1) // for the lowkey evo method
+                        {
+                            GET_TARGET_AND_SET_FORM;
+                            *method_ret = EVO_LEVEL_NATURE_LOW_KEY;
+                        }
+                        break;
+                    }
+                }
+                break;
+            case EVO_AMOUNT_OF_CRITICAL_HITS: // needs to hit an amount of critical hits in a battle in one go.  need to log critical hits somewhere else
+                if (GetMonData(pokemon, ID_PARA_dummy_p2_1, NULL) & DUMMY_P2_1_HAS_HIT_NECESSARY_CRITICAL_HITS)
+                {
+                    GET_TARGET_AND_SET_FORM;
+                    *method_ret = EVO_AMOUNT_OF_CRITICAL_HITS;
+                }
+                break;
+            case EVO_HURT_IN_BATTLE_AMOUNT:
+                {
+                    u32 hp = GetMonData(pokemon, ID_PARA_hp, NULL), maxhp = GetMonData(pokemon, ID_PARA_hpmax, NULL);
+                    
+                    if (hp && (maxhp - hp) >= evoTable[i].param) // if the mon has evoTable[i].param hp less than its max
+                    {
+                        GET_TARGET_AND_SET_FORM;
+                        *method_ret = EVO_HURT_IN_BATTLE_AMOUNT;
+                    }
                 }
                 break;
             }
@@ -3515,6 +3662,12 @@ u16 __attribute__((long_call)) GetMonEvolution(struct Party *party, struct Party
                     *method_ret = EVO_TRADE_ITEM;
                 }
                 break;
+            //case EVO_TRADE_SPECIFIC_MON: // need to figure out how to deduce tradedSpecies
+            //    if (tradedSpecies == evoTable[i].param) {
+            //        GET_TARGET_AND_SET_FORM;
+            //        *method_ret = EVO_TRADE_SPECIFIC_MON;
+            //    }
+            //    break; 
             }
             if (target != SPECIES_NONE) {
                 break;
@@ -3670,7 +3823,7 @@ extern u32 space_for_setmondata;
 BOOL __attribute__((long_call)) AddWildPartyPokemon(int inTarget, EncounterInfo *encounterInfo, struct PartyPokemon *encounterPartyPokemon, struct BATTLE_PARAM *encounterBattleParam)
 {
     int range = 0;
-    u8 change_form;
+    u8 change_form = 0;
     u8 form_no;
     u16 species;
 
@@ -3690,11 +3843,10 @@ BOOL __attribute__((long_call)) AddWildPartyPokemon(int inTarget, EncounterInfo 
     
     WildMonSetRandomHeldItem(encounterPartyPokemon, encounterBattleParam->fight_type, range);
 
-    change_form = 0;
     if (species == SPECIES_UNOWN)
     {
         change_form = 1;
-        form_no = GrabAndRegisterUnownForm(encounterPartyPokemon);
+        form_no = GrabAndRegisterUnownForm(encounterInfo);
     }
     else if (species == SPECIES_DEERLING || species == SPECIES_SAWSBUCK)
     {
@@ -4275,4 +4427,142 @@ void set_starter_hidden_ability(struct PokeParty *party, struct PartyPokemon *pp
         SET_MON_HIDDEN_ABILITY_BIT(pp)
         SetBoxMonAbility((void *)&pp->box);
     }
+}
+
+
+void __attribute__((long_call)) ClearMonMoves(struct PartyPokemon *pokemon)
+{
+    int null = 0;
+    for (int i = 0; i < 4; i++)
+    {
+        SetMonData(pokemon, ID_PARA_waza1+i, &null);
+    }
+}
+
+
+BOOL ScrCmd_GiveEgg(SCRIPTCONTEXT *ctx)
+{
+    FieldSystem *fsys = ctx->fsys;
+    void *profile = Sav2_PlayerData_GetProfileAddr(fsys->savedata);
+
+    u16 species = ScriptGetVar(ctx);
+    
+    u32 form = (species & 0xF800) >> 11; // extract form from egg
+    species = species & 0x7FF;
+    
+    u16 offset = ScriptGetVar(ctx);
+
+    struct Party *party = SaveData_GetPlayerPartyPtr(fsys->savedata);
+    u8 partyCount = party->count;
+    if (partyCount < 6)
+    {
+        struct PartyPokemon *pokemon = PokemonParam_AllocWork(11);
+        PokeParaInit(pokemon);
+        int val = sub_02017FE4(1, offset);
+
+        SetEggStats(pokemon, species, 1, profile, 3, val);
+
+        SetMonData(pokemon, ID_PARA_form_no, &form); // add form capability
+
+        ClearMonMoves(pokemon);
+        InitBoxMonMoveset(&pokemon->box);
+
+        if (CheckScriptFlag(SavArray_Flags_get(SaveBlock2_get()), HIDDEN_ABILITIES_FLAG) == 1) // add HA capability
+        {
+            SET_MON_HIDDEN_ABILITY_BIT(pokemon)
+            PokeParaSpeabiSet(pokemon);
+            ClearScriptFlag(SavArray_Flags_get(SaveBlock2_get()), HIDDEN_ABILITIES_FLAG);
+        }
+
+        PokeParty_Add(party, pokemon);
+        sys_FreeMemoryEz(pokemon);
+    }
+
+    return FALSE;
+}
+
+
+BOOL ScrCmd_GiveTogepiEgg(SCRIPTCONTEXT *ctx) {
+    s32 i;
+    u8 pp;
+    u32 personality;
+    u16 moveData;
+    struct PartyPokemon *togepi;
+    void *profile;
+    struct Party *party;
+    FieldSystem *fsys = ctx->fsys;
+
+    profile = Sav2_PlayerData_GetProfileAddr(fsys->savedata);
+    party = SaveData_GetPlayerPartyPtr(fsys->savedata);
+
+    if (party->count >= 6) {
+        return FALSE;
+    }
+
+    togepi = PokemonParam_AllocWork(11);
+    PokeParaInit(togepi);
+
+    SetEggStats(togepi, SPECIES_TOGEPI, 1, profile, 3, sub_02017FE4(1, 11));
+
+    //SetMonData(togepi, ID_PARA_form_no, &form); // add form capability
+
+    //ClearMonMoves(pokemon);
+    //InitBoxMonMoveset(&pokemon->box);
+
+    for (i = 0; i < 4; i++) {
+        if (!GetMonData(togepi, ID_PARA_waza1 + i, 0)) {
+            break;
+        }
+    }
+
+    if (i == 4) {
+        i = 3;
+    }
+
+    moveData = MOVE_EXTRASENSORY; // add extrasensory to the togepi
+    SetMonData(togepi, ID_PARA_waza1 + i, &moveData);
+
+    pp = GetMonData(togepi, ID_PARA_pp_max1 + i, 0);
+    SetMonData(togepi, ID_PARA_pp_count1 + i, &pp);
+
+    if (CheckScriptFlag(SavArray_Flags_get(SaveBlock2_get()), HIDDEN_ABILITIES_FLAG) == 1) // add HA capability
+    {
+        SET_MON_HIDDEN_ABILITY_BIT(togepi)
+        PokeParaSpeabiSet(togepi);
+        ClearScriptFlag(SavArray_Flags_get(SaveBlock2_get()), HIDDEN_ABILITIES_FLAG);
+    }
+
+
+    PokeParty_Add(party, togepi);
+
+    sys_FreeMemoryEz(togepi);
+
+    SaveMisc_SetTogepiPersonalityGender(Sav2_Misc_get(fsys->savedata), GetMonData(togepi, ID_PARA_personal_rnd, 0), GetMonData(togepi, ID_PARA_sex, 0));
+
+    return FALSE;
+}
+
+
+// i think this is hatchPokemon
+void sub_0206D328(struct PartyPokemon *pokemon, u32 heapId)
+{
+    u16 nickname[11 + 1];
+    u8 isEgg = 70;
+    u8 hasNickname = FALSE;
+    u8 pokeball = 4; // poke ball
+    u8 metLevel = 0;
+    
+    u16 dummy_p2_1 = GetBoxMonData(pokemon, ID_PARA_dummy_p2_1, NULL); // hidden ability field
+    
+    sub_0206D038(pokemon, heapId); // carries over egg values to a clean mon
+    SetMonData(pokemon, ID_PARA_tamago_flag, &isEgg);
+    GetSpeciesNameIntoArray(GetMonData(pokemon, ID_PARA_monsno, NULL), 0, nickname);
+    SetMonData(pokemon, ID_PARA_nickname, nickname);
+    SetMonData(pokemon, ID_PARA_nickname_flag, &hasNickname);
+    SetMonData(pokemon, ID_PARA_get_ball, &pokeball);
+    SetMonData(pokemon, ID_PARA_get_level, &metLevel);
+    SetMonData(pokemon, ID_PARA_dummy_p2_1, &dummy_p2_1);
+    PokeParaCalc(pokemon);
+
+    PokeParaSpeabiSet(pokemon);
 }

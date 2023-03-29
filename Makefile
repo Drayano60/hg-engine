@@ -18,11 +18,13 @@ EXE := .exe
 SEP := \\
 
 WAV2SWAV := tools/wav2swav.exe
+SWAV2SWAR := tools/swav2swar.exe
 else
 EXE := 
 SEP := /
 
-WAV2SWAV := mono tools/wav2swav.exe
+WAV2SWAV := wine tools/wav2swav.exe
+SWAV2SWAR := mono tools/swav2swar.exe
 endif
 
 default: all
@@ -39,7 +41,6 @@ ARMIPS = tools/armips
 NARCHIVE = $(PYTHON) tools/narcpy.py
 GFX = tools/nitrogfx
 BTX = tools/pngtobtx0.exe
-SWAV2SWAR = tools/swav2swar.exe
 SDATTOOL = $(PYTHON) tools/SDATTool.py
 ###################### Setting ########################
 PREFIX = bin/arm-none-eabi-
@@ -302,6 +303,12 @@ move_narc: $(NARC_FILES)
 
 	@echo "move an updated gs_sound_data.sdat:"
 	cp $(SDAT_BUILD) $(SDAT_TARGET)
+
+	@echo "font:"
+	if [ $$(grep -i -c "//#define IMPLEMENT_TRANSPARENT_TEXTBOXES" include/config.h) -eq 0 ]; then cp $(FONT_NARC) $(FONT_TARGET); fi
+
+	@echo "textbox:"
+	if [ $$(grep -i -c "//#define IMPLEMENT_TRANSPARENT_TEXTBOXES" include/config.h) -eq 0 ]; then cp $(TEXTBOX_NARC) $(TEXTBOX_TARGET); fi
 
 
 	@echo "baby mons:"

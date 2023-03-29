@@ -7690,8 +7690,8 @@ evodata SPECIES_EMOLGA
     terminateevodata
 
 evodata SPECIES_KARRABLAST
-    evolution EVO_TRADE, 0, SPECIES_ESCAVALIER
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_TRADE_SPECIFIC_MON, SPECIES_SHELMET, SPECIES_ESCAVALIER
+    evolution EVO_MON_IN_PARTY, SPECIES_SHELMET, SPECIES_ESCAVALIER
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -8026,8 +8026,8 @@ evodata SPECIES_CRYOGONAL
     terminateevodata
 
 evodata SPECIES_SHELMET
-    evolution EVO_TRADE, 0, SPECIES_ACCELGOR
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_TRADE_SPECIFIC_MON, SPECIES_KARRABLAST, SPECIES_ACCELGOR
+    evolution EVO_MON_IN_PARTY, SPECIES_KARRABLAST, SPECIES_ACCELGOR
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -8722,7 +8722,7 @@ evodata SPECIES_GOGOAT
 terminateevodata
 
 evodata SPECIES_PANCHAM
-    evolution EVO_LEVEL_UP, 32, SPECIES_PANGORO
+    evolution EVO_LEVEL_DARK_TYPE_MON_IN_PARTY, 32, SPECIES_PANGORO
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -8986,7 +8986,7 @@ evodata SPECIES_HELIOLISK
 terminateevodata
 
 evodata SPECIES_TYRUNT
-    evolution EVO_LEVEL_UP, 39, SPECIES_TYRANTRUM
+    evolution EVO_LEVEL_DAY, 39, SPECIES_TYRANTRUM
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -9094,7 +9094,7 @@ evodata SPECIES_GOOMY
 terminateevodata
 
 evodata SPECIES_SLIGGOO
-    evolution EVO_KNOWS_MOVE, MOVE_RAIN_DANCE, SPECIES_GOODRA
+    evolution EVO_LEVEL_RAIN, 50, SPECIES_GOODRA
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -9442,7 +9442,7 @@ evodata SPECIES_TOUCANNON
 terminateevodata
 
 evodata SPECIES_YUNGOOS
-    evolution EVO_LEVEL_UP, 20, SPECIES_GUMSHOOS
+    evolution EVO_LEVEL_DAY, 20, SPECIES_GUMSHOOS
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -9562,8 +9562,9 @@ evodata SPECIES_RIBOMBEE
 terminateevodata
 
 evodata SPECIES_ROCKRUFF
-    evolutionwithform EVO_HAPPINESS_DAY, 0, SPECIES_LYCANROC, 0
-    evolutionwithform EVO_HAPPINESS_NIGHT, 0, SPECIES_LYCANROC, 1
+    evolutionwithform EVO_LEVEL_DAY, 25, SPECIES_LYCANROC, 3
+    evolutionwithform EVO_LEVEL_NIGHT, 25, SPECIES_LYCANROC, 1
+    //evolutionwithform EVO_LEVEL_DUSK, 25, SPECIES_LYCANROC, 2 // only for own tempo rockruff
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -9670,7 +9671,7 @@ evodata SPECIES_ARAQUANID
 terminateevodata
 
 evodata SPECIES_FOMANTIS
-    evolution EVO_LEVEL_UP, 34, SPECIES_LURANTIS
+    evolution EVO_LEVEL_DAY, 34, SPECIES_LURANTIS
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -10114,8 +10115,8 @@ evodata SPECIES_COSMOG
 terminateevodata
 
 evodata SPECIES_COSMOEM
-    evolution EVO_HAPPINESS_DAY, 53, SPECIES_SOLGALEO
-    evolution EVO_HAPPINESS_NIGHT, 53, SPECIES_LUNALA
+    evolution EVO_LEVEL_DAY, 53, SPECIES_SOLGALEO
+    evolution EVO_LEVEL_NIGHT, 53, SPECIES_LUNALA
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -10714,8 +10715,8 @@ evodata SPECIES_COALOSSAL
 terminateevodata
 
 evodata SPECIES_APPLIN
-    evolution EVO_USE_ITEM, ITEM_NONE, SPECIES_FLAPPLE
-    evolution EVO_USE_ITEM, ITEM_NONE, SPECIES_APPLETUN
+    evolution EVO_USE_ITEM, ITEM_TART_APPLE, SPECIES_FLAPPLE
+    evolution EVO_USE_ITEM, ITEM_SWEET_APPLE, SPECIES_APPLETUN
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -10810,7 +10811,8 @@ evodata SPECIES_BARRASKEWDA
 terminateevodata
 
 evodata SPECIES_TOXEL
-    evolution EVO_LEVEL_UP, 30, SPECIES_TOXTRICITY
+    evolution EVO_LEVEL_NATURE_AMPED, 30, SPECIES_TOXTRICITY
+    evolutionwithform EVO_LEVEL_NATURE_LOW_KEY, 30, SPECIES_TOXTRICITY, 1
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -10882,7 +10884,7 @@ evodata SPECIES_GRAPPLOCT
 terminateevodata
 
 evodata SPECIES_SINISTEA
-    evolution EVO_USE_ITEM, ITEM_NONE, SPECIES_POLTEAGEIST
+    evolution EVO_USE_ITEM, ITEM_CRACKED_POT, SPECIES_POLTEAGEIST
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -11050,7 +11052,7 @@ evodata SPECIES_RUNERIGUS
 terminateevodata
 
 evodata SPECIES_MILCERY
-    evolution EVO_LEVEL_UP, 0, SPECIES_ALCREMIE
+    evolution EVO_LEVEL_UP, 20, SPECIES_ALCREMIE // placeholder
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -11326,7 +11328,8 @@ evodata SPECIES_ETERNATUS
 terminateevodata
 
 evodata SPECIES_KUBFU
-    evolution EVO_LEVEL_UP, 0, SPECIES_URSHIFU
+    //evolution EVO_LEVEL_UP, 0, SPECIES_URSHIFU // implemented using the gracidea function
+    evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -12359,8 +12362,8 @@ evodata SPECIES_RAPIDASH_GALARIAN
 terminateevodata
 
 evodata SPECIES_SLOWPOKE_GALARIAN
-    evolution EVO_USE_ITEM, ITEM_NONE, SPECIES_SLOWBRO
-    evolution EVO_USE_ITEM, ITEM_NONE, SPECIES_SLOWKING
+    evolution EVO_USE_ITEM, ITEM_GALARICA_CUFF, SPECIES_SLOWBRO
+    evolution EVO_USE_ITEM, ITEM_GALARICA_WREATH, SPECIES_SLOWKING
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -12383,7 +12386,7 @@ evodata SPECIES_SLOWBRO_GALARIAN
 terminateevodata
 
 evodata SPECIES_FARFETCHD_GALARIAN
-    evolution EVO_LEVEL_UP, 0, SPECIES_SIRFETCHD
+    evolution EVO_AMOUNT_OF_CRITICAL_HITS, 3, SPECIES_SIRFETCHD
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -12527,7 +12530,7 @@ evodata SPECIES_DARMANITAN_GALARIAN
 terminateevodata
 
 evodata SPECIES_YAMASK_GALARIAN
-    evolution EVO_LEVEL_UP, 0, SPECIES_RUNERIGUS
+    evolution EVO_HURT_IN_BATTLE_AMOUNT, 49, SPECIES_RUNERIGUS
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -13787,7 +13790,7 @@ evodata SPECIES_ORICORIO_SENSU
 terminateevodata
 
 evodata SPECIES_ROCKRUFF_OWN_TEMPO
-    evolutionwithform EVO_USE_ITEM, ITEM_DUSK_STONE, SPECIES_LYCANROC, 2
+    evolutionwithform EVO_LEVEL_DUSK, 25, SPECIES_LYCANROC, 2
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -14099,7 +14102,7 @@ evodata SPECIES_TOXTRICITY_LOW_KEY
 terminateevodata
 
 evodata SPECIES_SINISTEA_ANTIQUE
-    evolution EVO_USE_ITEM, ITEM_NONE, SPECIES_POLTEAGEIST
+    evolution EVO_USE_ITEM, ITEM_CRACKED_POT, SPECIES_POLTEAGEIST
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -14399,7 +14402,7 @@ evodata SPECIES_TYPHLOSION_HISUIAN
 terminateevodata
 
 evodata SPECIES_QWILFISH_HISUIAN
-    evolution EVO_LEVEL_UP, 0, SPECIES_OVERQWIL
+    evolution EVO_LEVEL_UP, 20, SPECIES_OVERQWIL // placeholder
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -14411,7 +14414,7 @@ evodata SPECIES_QWILFISH_HISUIAN
 terminateevodata
 
 evodata SPECIES_SNEASEL_HISUIAN
-    evolution EVO_LEVEL_UP, 0, SPECIES_SNEASLER
+    evolution EVO_USE_ITEM_DAY, ITEM_RAZOR_CLAW, SPECIES_SNEASLER
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE

@@ -740,7 +740,7 @@ movedata MOVE_ROAR
     effectchance 0
     target MOVE_TARGET_SELECTED
     priority -6
-    flags FLAG_KEEP_HP_BAR | FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_MAGIC_COAT
+    flags FLAG_KEEP_HP_BAR | FLAG_MIRROR_MOVE | FLAG_MAGIC_COAT
     appeal 0x13
     contesttype CONTEST_COOL
     terminatedata
@@ -6252,7 +6252,7 @@ movedata MOVE_POWER_GEM
     type TYPE_ROCK
     accuracy 100
     pp 20
-    effectchance 0
+    effectchance 10
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_KINGS_ROCK | FLAG_MIRROR_MOVE | FLAG_PROTECT

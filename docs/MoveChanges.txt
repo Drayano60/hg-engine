@@ -1,0 +1,751 @@
+-------------------
+Move Changes
+-------------------
+Aurora Crystal features moves from the original Heart Gold and Soul Silver as well as additional moves. On top of this, the numerical values of all moves have been updated to be as they are as of Scarlet & Violet. Move effects have also been modified to match Scarlet & Violet where possible; these are explicitly listed as a move change.
+
+Some moves have also received further changes which are listed below. Changes are shown relative to a move's values after being updated to modern generation mechanics.
+
+-------------------
+Newly Added Moves
+-------------------
+Aurora Crystal contains 105 new moves in addition to the 467 in Heart Gold and Soul Silver normally. 100 of these are moves that were introduced in later generation games, and the remaining 5 are custom signature moves for a few Pokémon.
+
+Gen 5 Moves (38)
+-------------------
+Acid Spray
+Acrobatics
+Bulldoze
+Coil
+Cotton Guard
+Dragon Tail
+Drill Run
+Dual Chop
+Echoed Voice
+Electroweb
+Flame Charge
+Foul Play
+Frost Breath
+Heat Crash
+Heavy Slam
+Hex
+Hone Claws
+Hurricane
+Icicle Crash
+Incinerate
+Inferno
+Low Sweep
+Psyshock
+Quiver Dance
+Razor Shell
+Sacred Sword
+Scald
+Shell Smash
+Sludge Wave
+Snarl
+Steamroller
+Storm Throw
+Struggle Bug
+Tail Slap
+Venoshock
+Volt Switch
+Wild Charge
+Work Up
+
+Gen 6 Moves (18)
+-------------------
+Baby-Doll Eyes
+Boomburst
+Confide
+Dazzling Gleam
+Disarming Voice
+Draining Kiss
+Eerie Impulse
+Fairy Wind
+Freeze-Dry
+Moonblast
+Mystical Fire
+Noble Roar
+Nuzzle
+Petal Blizzard
+Phantom Force
+Play Nice
+Play Rough
+Power-Up Punch
+
+Gen 7 Moves (16)
+-------------------
+Aurora Veil
+Brutal Swing
+Darkest Lariat
+Dragon Hammer
+First Impression
+High Horsepower
+Leafage
+Liquidation
+Lunge
+Pollen Puff
+Psychic Fangs
+Shadow Bone
+Smart Strike
+Solar Blade
+Tearful Look
+Toxic Thread
+
+Gen 8 Moves (18)
+-------------------
+Barb Barrage
+Body Press
+Breaking Swipe
+Dual Wingbeat
+Esper Wing
+Flip Turn
+Headlong Rush
+Meteor Beam
+Psyshield Bash
+Raging Fury
+Scale Shot
+Scorching Sands
+Skitter Smack
+Spirit Break
+Steel Beam
+Stone Axe
+Triple Axel
+Wave Crash
+
+Gen 9 Moves (10)
+-------------------
+Aqua Cutter
+Chilling Water
+Comeuppance
+Hyper Drill
+Ice Spinner
+Pounce
+Rage Fist
+Raging Bull
+Trailblaze
+Twin Beam
+
+New Moves (5)
+-------------------
+Infernal Blast
+Piddly Punches
+Savage Rend
+Soothing Aroma
+Splash Crash
+
+-------------------
+New Moves
+-------------------
+
+Soothing Aroma
+-------------------
+Soothing Aroma is a new signature move for Meganium.
+It's a status Grass-type move with 100% accuracy and 20 PP that targets both opponents.
+Any Pokémon hit by this move will have its Attack and Special Attack lowered by 1 stage.
+
+This move is inspired by Meganium's Pokédex entries mentioning it can "calm aggressive feelings".
+
+Infernal Blast
+-------------------
+Infernal Blast is a new signature move for Typhlosion.
+It's a special Fire-type move with 100 base power, 75% accuracy and 5 PP that targets all Pokémon on the field.
+Any Pokémon hit by this move has a 50% chance of becoming burned.
+
+The move is inspired by Typhlosion's Pokédex entries mentioning it can "rub its blazing fur together to cause huge explosions". The "Infernal" part of the name is also a parallel to Hisuian Typhlosion's Infernal Parade move.
+
+Savage Rend
+-------------------
+Savage Rend is a new signature move for Feraligatr.
+It's a physical Water-type move with 80 base power, 100% accuracy and 10 PP that targets one Pokémon.
+Any Pokémon hit by this move will have its Defense lowered by 1 stage.
+This move has 33% increased power (becoming 106 BP) if used by a Pokémon with Strong Jaw.
+
+This move is inspired by Feraligatr's Pokédex entries mentioning it "savagely tears its victim up".
+
+Piddly Punches
+-------------------
+Piddly Punches is a new signature move for Ledian.
+It's a physical Bug-type move with 10 base power, 90% accuracy and 10 PP that targets one Pokémon.
+This move will continue hitting until it either misses or has hit 10 times in a row.
+Each hit of this move has 33% increased power (each hit becomes 13 BP) if used by a Pokémon with Iron Fist.
+
+This move is inspired by Ledian's Pokédex entries mentioning it throws a large quantity of "piddly" punches. Mechanically, it's based on (but not identical) to Maushold's Population Bomb.
+
+Splash Crash
+-------------------
+Splash Crash is a new signature move for Wailord.
+It's a physical Water-type move with variable power, 100% accuracy and 10 PP.
+It targets a single other Pokémon on the field.
+The power of this move depends on the weight difference between user and target (using the same formula as Heavy Slam). Its damage is doubled if used against a target that has used Minimize.
+This move becomes a fixed 120 BP if used by a Pokémon with the new Huge Impact ability (which Wailord also has).
+
+This move is inspired by Wailord's Pokédex entries mentioning it can "knock out opponents with the shock created by breaching and crashing its big body into the water". It's a Water-type clone of Heavy Slam.
+
+-------------------
+Move Effect Updates
+-------------------
+The following moves have had their effects updated to work as they do in later generations:
+
+G1
+-------------------
+- Growth: Boosts both Atk and Sp. Atk by 1 stage, but by 2 stages in sunlight.
+- Minimize: Boosts evasion by 2 stages instead of 1.
+- Roar: Level check in wild battles; no failure chance in trainer battles; ignores Protect/Detect.
+- String Shot: Drops speed by 2 stages instead of 1.
+- Teleport: Now switches out the user in a Trainer battle, has -6 priority. Ends wild battles.
+- Toxic: Now always hits if used by a Poison-type Pokémon.
+- Whirlwind: Level check in wild battles; no failure chance in trainer battles; ignores Protect/Detect.
+
+G2
+-------------------
+- Hidden Power: Now fixed at 60 base power; the type is still determined by the user's IVs.
+- Rapid Spin: Now boosts the user's Speed by one stage in addition to its hazard removal.
+
+G4
+-------------------
+- Chatter: Now always confuses the opponent.
+- Feint: Still works even if the opponent doesn't use Protect or Detect.
+
+The following moves have their effects somewhat updated to work as they do in later generations:
+
+G3
+-------------------
+- Knock Off: Now does double damage if it knocks off an item. However, it still "disables" the item during the battle instead of outright deleting it, as the item would otherwise be lost permanently.
+
+G4
+-------------------
+- Dragon Rush: Now does double damage if the opponent has used Minimize. However, it is not a guaranteed hit in that case.
+
+The following moves have NOT had their effects updated and still work as they do in Heart Gold and Soul Silver:
+
+G1
+-------------------
+- Stomp: This does not have a guaranteed hit against minimized targets.
+
+G2
+-------------------
+- Beat Up: This still uses the original damage calculation.
+- Conversion 2: The effect is still based on the last move the Pokémon was hit with.
+
+G3
+-------------------
+- Tail Glow: This does not boost Sp. Atk by 3 stages, it still only does 2 stages.
+
+The following moves brought in from later generations have not been implemented completely accurately (and were not intentionally changed):
+
+G5
+-------------------
+- Cotton Guard: This boosts Defense by 2 stages, instead of 3 stages.
+- Echoed Voice: The move's power doubles for each turn of consecutive use (to a maximum of 200 BP), but this happens irrespective of whether other Pokémon use Echoed Voice.
+
+G6
+-------------------
+- Freeze-Dry: This is not super-effective against Water-types, but it does do quadruple damage against Water-types for roughly the same result.
+
+G7
+-------------------
+- Aurora Veil: It sets up a Reflect and Light Screen in the same turn, instead of it being its own field effect. However, the damage reduction should be the same. It still has the restriction of only working within Hail.
+
+G8
+-------------------
+- Scale Shot: The stat change happens after the first hit instead of the last, but is otherwise the same.
+
+G9
+-------------------
+- Ice Spinner: This now has no additional effect, as terrains don't exist in this game.
+- Raging Bull: This is now always a Normal-type move. Paldean Tauros isn't in the game anyway though!
+
+The following moves have been given new effects:
+
+G1
+-------------------
+- Cut: Now has a high critical-hit ratio.
+- Drill Peck: Now has a high critical-hit ratio.
+- Meditate: Now boosts Attack and accuracy by one stage each.
+- Razor Wind: This is now a one-turn move. It still has a high critical-hit ratio.
+- Strength: Now has a chance (20%) to boost the user's Attack stat by one stage.
+
+G2
+-------------------
+- Triple Kick: Now gains +15 base power on each consecutive hit (raised from +10).
+
+G3
+-------------------
+- Dive: This is now a one-turn move with no additional effect.
+- Needle Arm: This now adds a layer of Spikes to the target's field if it hits. It no longer has a chance to poison.
+
+G4
+-------------------
+- Dragon Claw: Now has a high critical-hit ratio (copied from Legends: Arceus).
+- Power Gem: Now has a chance (10%) to lower the target's Special Defense by 1 stage.
+- X-Scissor: Now has a high critical-hit ratio (copied from Legends: Arceus).
+
+G6
+-------------------
+- Draining Kiss: Now heals the user by 50% of the damage dealt (instead of 75%).
+
+G7
+-------------------
+- Pollen Puff: Now has a chance (30%) to lower the target's Speed by 1 stage. It does not heal an ally's HP.
+
+G8
+-------------------
+- Meteor Beam: Now a one-turn move. It has a chance (20%) to raise the user's Special Attack stat by one stage (instead of having a charge turn with a Sp. Atk boost).
+
+G9
+-------------------
+- Rage Fist: This instead works like the move Rage, where the user's Attack is boosted if it gets hit after using Rage Fist, as the original effect can't currently be implemented.
+
+--------------------------------------
+Changed Moves - Gen 1
+--------------------------------------
+
+Absorb
+-------------------
+Power: 20 ⟶ 35
+
+Barrage
+-------------------
+Power: 15 ⟶ 20
+Accuracy: 85% ⟶ 100%
+
+Bind
+-------------------
+Power: 15 ⟶ 35
+
+Bone Club
+-------------------
+Accuracy: 85% ⟶ 100%
+
+Clamp
+-------------------
+Power: 35 ⟶ 55
+
+Comet Punch
+-------------------
+Power: 18 ⟶ 20
+Accuracy: 85% ⟶ 100%
+
+Constrict
+-------------------
+Power: 10 ⟶ 30
+
+Cut
+-------------------
+Power: 50 ⟶ 70
+Accuracy: 95% ⟶ 100%
+Type: Normal ⟶ Steel
+PP: 30 ⟶ 20
+
+Double-Slap
+-------------------
+Power: 15 ⟶ 20
+Accuracy: 85% ⟶ 100%
+
+Egg Bomb
+-------------------
+Category: Physical ⟶ Special
+Accuracy: 75% ⟶ 90%
+
+Lick
+-------------------
+Power: 30 ⟶ 40
+
+Fire Spin
+-------------------
+Power: 35 ⟶ 55
+
+Fly
+-------------------
+Power: 90 ⟶ 80
+Notes: This is an intentional nerf as Fly is now available to significantly more Pokémon.
+
+Fury Attack
+-------------------
+Power: 15 ⟶ 20
+Accuracy: 85% ⟶ 100%
+
+Fury Swipes
+-------------------
+Power: 18 ⟶ 20
+Accuracy: 80% ⟶ 100%
+
+Meditate
+-------------------
+PP: 40 ⟶ 20
+
+Mega Drain
+-------------------
+Power: 40 ⟶ 55
+
+Mega Kick
+-------------------
+Accuracy: 75% ⟶ 85%
+
+Mega Punch
+-------------------
+Accuracy: 85% ⟶ 100%
+
+Pay Day
+-------------------
+Power: 40 ⟶ 60
+
+Peck
+-------------------
+Power: 35 ⟶ 40
+
+Pin Missile
+-------------------
+Accuracy: 95% ⟶ 100%
+
+Poison Sting
+-------------------
+Power: 15 ⟶ 40
+
+Razor Wind
+-------------------
+Power: 80 ⟶ 90
+Type: Normal ⟶ Flying
+
+Rock Throw
+-------------------
+Accuracy: 90% ⟶ 100%
+
+Rolling Kick
+-------------------
+Accuracy: 85% ⟶ 100%
+
+Slam
+-------------------
+Accuracy: 75% ⟶ 90%
+
+Smog
+-------------------
+Power: 30 ⟶ 50
+Accuracy: 70% ⟶ 90%
+
+Strength
+-------------------
+Power: 80 ⟶ 100
+PP: 15 ⟶ 10
+
+Submission
+-------------------
+Power: 80 ⟶ 85
+Accuracy: 80% ⟶ 100%
+
+Take Down
+-------------------
+Power: 90 ⟶ 95
+Accuracy: 85% ⟶ 100%
+
+Twineedle
+-------------------
+Power: 25 ⟶ 35
+
+Vise Grip
+-------------------
+Type: Normal ⟶ Steel
+
+Wrap
+-------------------
+Power: 15 ⟶ 35
+
+--------------------------------------
+Changed Moves - Gen 2
+--------------------------------------
+
+Aeroblast
+-------------------
+Accuracy: 95% ⟶ 100%
+
+Ancient Power
+-------------------
+Power: 60 ⟶ 65
+
+Astonish
+-------------------
+Power: 30 ⟶ 40
+
+Encore
+-------------------
+Accuracy: 100% ⟶ 80%
+Notes: This is an intentional nerf as Encore is an incredibly strong move against the AI.
+
+Iron Tail
+-------------------
+Accuracy: 75% ⟶ 85%
+Effect (%): 30% ⟶ 20%
+
+Metal Claw
+-------------------
+Accuracy: 95% ⟶ 100%
+
+Mud-Slap
+-------------------
+Power: 20 ⟶ 30
+
+Octazooka
+-------------------
+Power: 65 ⟶ 75
+
+Rock Smash
+-------------------
+Power: 40 ⟶ 50
+Effect (%): 50% ⟶ 100%
+
+Present
+-------------------
+Accuracy: 90% ⟶ 100%
+
+Sacred Fire
+-------------------
+Accuracy: 95% ⟶ 100%
+
+Steel Wing
+-------------------
+Power: 70 ⟶ 80
+Accuracy: 90% ⟶ 100%
+PP: 25 ⟶ 20
+
+Triple Kick
+-------------------
+Power: 10 ⟶ 15
+
+Whirlpool
+-------------------
+Power: 35 ⟶ 55
+
+--------------------------------------
+Changed Moves - Gen 3
+--------------------------------------
+
+Arm Thrust
+-------------------
+Power: 15 ⟶ 25
+
+Blaze Kick
+-------------------
+Power: 85 ⟶ 90
+Accuracy: 90% ⟶ 100%
+
+Bounce
+-------------------
+Accuracy: 85% ⟶ 95%
+
+Covet
+-------------------
+Type: Normal ⟶ Fairy
+
+Crush Claw
+-------------------
+Accuracy: 95% ⟶ 100%
+
+Dive
+-------------------
+Power: 80 ⟶ 60
+PP: 10 ⟶ 20
+
+Grass Whistle
+-------------------
+Accuracy: 55% ⟶ 65%
+
+Luster Purge
+-------------------
+Power: 70 ⟶ 80
+
+Meteor Mash
+-------------------
+Power: 90 ⟶ 100
+
+Mist Ball
+-------------------
+Power: 70 ⟶ 80
+
+Needle Arm
+-------------------
+Power: 60 ⟶ 80
+
+Poison Fang
+-------------------
+Power: 50 ⟶ 65
+Effect (%): 50% ⟶ 30%
+
+Poison Tail
+-------------------
+Power: 50 ⟶ 70
+PP: 25 ⟶ 20
+Effect (%): 10% ⟶ 30%
+
+Rock Tomb
+-------------------
+Accuracy: 95% ⟶ 100%
+
+Sand Tomb
+-------------------
+Power: 35 ⟶ 55
+
+Shadow Punch
+-------------------
+Power: 60 ⟶ 80
+
+Silver Wind
+-------------------
+Power: 60 ⟶ 65
+
+Sky Uppercut
+-------------------
+Accuracy: 90% ⟶ 100%
+
+--------------------------------------
+Changed Moves - Gen 4
+--------------------------------------
+
+Chatter
+-------------------
+Power: 65 ⟶ 75
+PP: 20 ⟶ 15
+
+Cross Poison
+-------------------
+Power: 70 ⟶ 90
+PP: 20 ⟶ 15
+
+Dark Void
+-------------------
+Accuracy: 50% ⟶ 80%
+
+Double Hit
+-------------------
+Accuracy: 90% ⟶ 100%
+
+Dragon Rush
+-------------------
+Accuracy: 75% ⟶ 85%
+
+Fire Fang
+-------------------
+Power: 65 ⟶ 75
+Accuracy: 95% ⟶ 100%
+
+Gyro Ball
+-------------------
+PP: 5 ⟶ 10
+
+Ice Fang
+-------------------
+Power: 65 ⟶ 75
+Accuracy: 95% ⟶ 100%
+
+Mirror Shot
+-------------------
+Accuracy: 85% ⟶ 100%
+
+Mud Bomb
+-------------------
+Accuracy: 85% ⟶ 95%
+
+Ominous Wind
+-------------------
+Power: 60 ⟶ 65
+
+Rock Climb
+-------------------
+Accuracy: 85% ⟶ 90%
+Type: Normal ⟶ Rock
+
+Shadow Claw
+-------------------
+Power: 70 ⟶ 80
+
+Thunder Fang
+-------------------
+Power: 65 ⟶ 75
+Accuracy: 95% ⟶ 100%
+
+Zen Headbutt
+-------------------
+Accuracy: 90% ⟶ 100%
+
+--------------------------------------
+Changed Moves - Gen 5
+--------------------------------------
+
+Drill Run
+-------------------
+Accuracy: 95% ⟶ 100%
+
+Dual Chop
+-------------------
+Accuracy: 90% ⟶ 100%
+
+Frost Breath
+-------------------
+Power: 60 ⟶ 45
+Notes: This is because the critical hit multiplier is still x2.0 (instead of x1.5).
+
+Razor Shell
+-------------------
+Accuracy: 95% ⟶ 100%
+
+Steamroller
+-------------------
+Power: 65 ⟶ 75
+
+Storm Throw
+-------------------
+Power: 60 ⟶ 45
+Notes: This is because the critical hit multiplier is still x2.0 (instead of x1.5).
+
+Tail Slap
+-------------------
+Accuracy: 85% ⟶ 100%
+
+Wild Charge
+-------------------
+Power: 90 ⟶ 95
+
+--------------------------------------
+Move Changes - Gen 6
+--------------------------------------
+
+Draining Kiss
+-------------------
+Power: 50 ⟶ 65
+
+Play Rough
+-------------------
+Accuracy: 90% ⟶ 100%
+
+--------------------------------------
+Move Changes - Gen 7
+--------------------------------------
+
+High Horsepower
+-------------------
+Accuracy: 95% ⟶ 100%
+
+--------------------------------------
+Move Changes - Gen 8
+--------------------------------------
+
+Dual Wingbeat
+-------------------
+Accuracy: 90% ⟶ 100%
+
+Meteor Beam
+-------------------
+Power: 120 ⟶ 110
+Accuracy: 90% ⟶ 80%
+
+Skitter Smack
+-------------------
+Accuracy: 90% ⟶ 100%
+
+--------------------------------------
+Move Changes - Gen 9
+--------------------------------------
+
+Twin Beam
+-------------------
+Power: 40 ⟶ 45

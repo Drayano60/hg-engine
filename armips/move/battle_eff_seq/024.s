@@ -10,6 +10,7 @@
 .create "build/move/battle_eff_seq/0_024", 0
 
 // -1 Evasion
+// This has been edited to -2 Evasion since only Sweet Scent uses it
 
 a030_024:
     gotosubscript 341

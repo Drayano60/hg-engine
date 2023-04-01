@@ -18,7 +18,7 @@ A gust of wind is\nwhipped up by wings\nand launched at the\nfoe to inflict dama
 The foe is struck\nwith large, imposing\nwings spread wide\nto inflict damage.\n
 The foe is blown away,\nto be replaced by\nanother Pokémon\nin its party. In the\nwild, the battle ends.
 The user soars, then\nstrikes on the second\nturn. It can also be\nused for flying to\nany familiar town.
-A long body or\ntentacles are used\nto bind and squeeze\nthe foe for two to\nfive turns.
+A long body or\ntentacles are used\nto bind and squeeze\nthe foe for four to\nfive turns.
 The foe is slammed\nwith a long tail,\nvines, etc., to inflict\ndamage.\n
 The foe is struck\nwith slender, whiplike\nvines to inflict\ndamage.\n
 The foe is stomped\nwith a big foot.\nThis has a 30% chance\nto flinch the foe.
@@ -33,7 +33,7 @@ The foe is jabbed\nrepeatedly with a\nhorn or beak two to\nfive times in a row.\
 The foe is stabbed\nwith a horn rotating\nlike a drill.\nThe foe instantly\nfaints if it hits.
 A physical attack\nin which the user\ncharges and slams\ninto the foe with\nits whole body.
 The user drops onto\nthe foe with its full\nbody weight.\nThis has a 30% chance\nto paralyze the foe.
-A long body or vines\nare used to wrap and\nsqueeze the foe for\ntwo to five turns.\n
+A long body or vines\nare used to wrap and\nsqueeze the foe for\nfour to five turns.\n
 A reckless, full-body\ncharge attack for\nslamming into the foe.\nThe user is hurt by\n25% of damage dealt.
 The user rampages\nand attacks for two\nto three turns.\nIt then becomes\nconfused, however.
 The user rushes the\nfoe in a reckless,\nlife-risking tackle.\nThe user is hurt by\n33% of damage dealt.
@@ -81,7 +81,7 @@ The user scatters a\nbig cloud of sleep-\ninducing dust around\nthe foe.\n
 The user attacks by\nscattering petals for\ntwo to three turns.\nThe user then\nbecomes confused.
 The foe is bound with\nsilk blown from the\nuser’s mouth. This\nsharply reduces the\ntarget’s Speed stat.
 The foe is stricken\nby a shock wave.\nThis attack always\ninflicts 40 HP\ndamage.
-The foe becomes\ntrapped within a\nfierce vortex of fire\nthat rages for two\nto five turns.
+The foe becomes\ntrapped within a\nfierce vortex of fire\nthat rages for four\nto five turns.
 A jolt of electricity\nis hurled at the foe\nto inflict damage.\nThis has a 10% chance\nto paralyze the foe.
 A strong electric\nblast is loosed at\nthe foe.\nThis has a 10% chance\nto paralyze the foe.
 A weak electric\ncharge is launched at\nthe foe.\nIt causes paralysis if\nit hits.
@@ -126,7 +126,7 @@ Unsanitary sludge is\nhurled at the foe.\nThis has a 30% chance\nto poison the f
 The user clubs the\nfoe with a bone.\nThis has a 10% chance\nto flinch the foe.
 The foe is attacked\nwith an intense blast\nof all-consuming fire.\nThis has a 10% chance\nto burn the foe.
 The user charges at\nthe foe at an\nawesome speed.\nThis has a 20% chance\nto flinch the foe.
-The foe is clamped\nand squeezed by\nthe user’s very thick\nand sturdy shell for\ntwo to five turns.
+The foe is clamped\nand squeezed by\nthe user’s very thick\nand sturdy shell for\nfour to five turns.
 Star-shaped rays are\nshot at the foe.\nThis attack never\nmisses.\n
 The user tucks in its\nhead to raise its\nDefense in the first\nturn, then rams the\nfoe on the next turn.
 Sharp spikes are\nfired at the foe to\nstrike two to five\ntimes in rapid\nsuccession.
@@ -228,7 +228,7 @@ The user switches\nplaces with a party\nPokémon in waiting,\npassing along any\
 The user compels the\nfoe to keep using\nonly the move it last\nused for three to\nseven turns.
 An attack move that\ninflicts double damage\nif used on a foe that\nis switching out of\nbattle.
 A spin attack that\nraises the user’s\nSpeed, and eliminates\nthe effects of\ncertain moves.
-A sweet scent that\nlowers the foe’s\nevasiveness. It also\nlures wild Pokémon\nif used in grass, etc.
+A sweet scent that\nharshly lowers the\nfoe’s evasiveness.\nIt can also be used\nto lure wild Pokémon.
 The foe is slammed\nwith a steel-hard\ntail.\nThis has a 20% chance\nto lower Defense.
 The foe is raked\nwith steel claws.\nThis has a 10% chance\nto raise Attack.
 The user allows the\nfoe to attack first.\nIn return, this throw\nmove is guaranteed\nnot to miss.
@@ -248,7 +248,7 @@ The user attacks with\na prehistoric power.\nThis has a 10% chance\nto raise eve
 The user hurls a\nshadowy blob at the\nfoe.\nThis has a 20% chance\nto lower Sp. Def.
 Two turns after this\nmove is used, the foe\nis attacked with a\nhunk of psychic\nenergy.
 The user hits the foe\nwith a shattering\npunch. This always\nlowers the foe’s\nDefense stat.
-Traps the foe inside a\nwhirlpool that lasts\nfor two to five turns.\nThe user can pass\nthrough whirlpools.
+Traps the foe inside a\nwhirlpool that lasts\nfor four to five turns.\nThe user can pass\nthrough whirlpools.
 The user gets all the\nparty Pokémon to\nattack the foe. The\nmore party Pokémon,\nthe more damage.
 An attack that hits\nfirst and makes the\ntarget flinch. It only\nworks the first turn\nthe user is in battle.
 The user attacks in\nan uproar for two to\nfive turns. Over that\ntime, no one can fall\nasleep.
@@ -326,7 +326,7 @@ The user attacks with\na sinister beam of\nlight.\nThis has a 10% chance\nto con
 The user throws a\npunch at the foe from\nthe shadows.\nThe punch lands\nwithout fail.
 The user attacks with\nan odd, unseeable\npower.\nThis has a 10% chance\nto flinch the foe.
 The user attacks the\nfoe with an uppercut\nthrown skyward\nwith force.\n
-The user traps the\nfoe inside a harshly\nraging sandstorm for\ntwo to five turns.\n
+The user traps the\nfoe inside a harshly\nraging sandstorm for\nfour to five turns.\n
 The foe is attacked\nwith a blast of\nabsolute-zero cold.\nThe foe instantly\nfaints if it hits.
 The user attacks by\nshooting out muddy\nwater.\nThis has a 30% chance\nto lower accuracy.
 The user forcefully\nshoots seeds at the\nfoe. Two to five\nseeds are shot in\nrapid succession.
@@ -461,7 +461,7 @@ The user blasts the\nfoe with power that\ndistorts even time.\nThe user must res
 The user tears the\nfoe along with the\nspace around it.\nThis move has a high\ncritical-hit ratio.
 The user faints. In\nreturn, the Pokémon\ntaking its place will\nhave its status and\nHP fully restored.
 The foe is crushed\nwith great force.\nThe attack is more\npowerful the more HP\nthe foe has left.
-The foe becomes\ntrapped within a\nmaelstrom of fire\nthat rages for two\nto five turns.
+The foe becomes\ntrapped within a\nmaelstrom of fire\nthat rages for four\nto five turns.
 The foe is dragged\ninto a world of total\ndarkness that puts it\nto sleep.\n
 The user generates\na shock wave from\nwithin its body.\nThis has a 40% chance\nto lower Sp. Def.
 The user attacks\nwith repulsive wind.\nThis has a 10% chance\nto raise every stat\nat once.

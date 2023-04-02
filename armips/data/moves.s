@@ -7392,7 +7392,7 @@ movedata MOVE_FOUL_PLAY
     terminatedata
 
 movedata MOVE_ECHOED_VOICE
-    battleeffect 119 // NOTE: Fury Cutter clone instead
+    battleeffect 313
     pss SPLIT_SPECIAL
     basepower 40
     type TYPE_NORMAL

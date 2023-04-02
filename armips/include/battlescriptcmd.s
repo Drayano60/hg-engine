@@ -1475,3 +1475,7 @@ MOVE_DATA_CONTEST_TYPE equ 11
     .word 0xE3
     .word ((address - org()) / 4) - 1
 .endmacro
+
+.macro echoedvoicedamagecalc
+    .word 0xE4
+.endmacro

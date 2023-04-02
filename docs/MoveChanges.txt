@@ -317,7 +317,9 @@ It sets up a Reflect and Light Screen in the same turn, instead of it being its 
 This boosts the user's Defense by two stages, instead of three stages.
 
 - Echoed Voice:
-The move's power doubles for each turn of consecutive use (to a maximum of 160 BP instead), but this happens irrespective of whether other Pokémon use Echoed Voice.
+This instead acts like Fury Cutter where each individual Pokémon has its own consecutive use counter (as opposed to any Pokémon using Echoed Voice during the turn increasing the damage).
+However, also like Fury Cutter (in Gen 4), Echoed Voice will retain its damage multiplier even if the Pokémon uses a different move, unless that move misses or fails for whatever reason.
+As usual, the move begins at 40 BP and gains an extra 40 BP for each consecutive use. Due to the above, it now caps at 120 BP (3+ uses) instead of the 200 BP it normally would.
 
 - Freeze-Dry:
 This is not super-effective against Water-types, but it does do quadruple damage against Water-types for roughly the same result.

@@ -17,6 +17,7 @@
 BOOL btl_scr_cmd_E1_reduceweight(void *bw, struct BattleStruct *sp);
 BOOL btl_scr_cmd_E2_heavyslamdamagecalc(void *bw, struct BattleStruct *sp);
 BOOL btl_scr_cmd_E3_isuserlowerlevel(void *bw, struct BattleStruct *sp);
+BOOL btl_scr_cmd_E4_echoedvoicedamagecalc(void *bw, struct BattleStruct *sp);
 
 typedef BOOL (*btl_scr_cmd_func)(void *bw, struct BattleStruct *sp);
 #define START_OF_NEW_BTL_SCR_CMDS 0xE1
@@ -265,6 +266,7 @@ const btl_scr_cmd_func NewBattleScriptCmdTable[] =
     [0xE1 - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_E1_reduceweight,
     [0xE2 - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_E2_heavyslamdamagecalc,
     [0xE3 - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_E3_isuserlowerlevel,
+    [0xE4 - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_E4_echoedvoicedamagecalc,
 };
 
 
@@ -1291,5 +1293,26 @@ BOOL btl_scr_cmd_E3_isuserlowerlevel(void *bw, struct BattleStruct *sp)
 
     if (sp->battlemon[sp->attack_client].level < sp->battlemon[sp->defence_client].level)
         IncrementBattleScriptPtr(sp, address);
+    return FALSE;
+}
+
+BOOL btl_scr_cmd_E4_echoedvoicedamagecalc(void *bw, struct BattleStruct *sp)
+{
+    IncrementBattleScriptPtr(sp, 1);
+
+    /* We use the Fury Cutter count for this too as it works kind of similar */
+    /* Unfortunately it doesn't clear if a different move is used, just going to have to own it */
+    /* It does also mean that using Echoed Voice after Fury Cutter or vice-versa uses the same multiplier! */
+    if (sp->battlemon[sp->attack_client].moveeffect.renzokugiri_count < 3) {
+        sp->battlemon[sp->attack_client].moveeffect.renzokugiri_count++;
+    }
+
+    if (sp->battlemon[sp->attack_client].moveeffect.renzokugiri_count == 0) {
+        sp->damage_power = GetMoveData(sp->current_move_index, MOVE_DATA_BASE_POWER);
+    } else {
+        /* Max of base power x 3, should be 120 */
+        sp->damage_power = GetMoveData(sp->current_move_index, MOVE_DATA_BASE_POWER) * (sp->battlemon[sp->attack_client].moveeffect.renzokugiri_count);
+    }
+
     return FALSE;
 }

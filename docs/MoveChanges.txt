@@ -317,6 +317,9 @@ This does not have a guaranteed hit against minimized targets.
 - Tail Glow:
 This does not boost the user's Special Attack by 3 stages; it still only boosts Special Attack by two stages.
 
+- Tailwind:
+The effect of Tailwind still only lasts for 3 turns (including the turn where it is used). This can't currently be increased to four turns due to the way the game keeps track of Tailwind turns.
+
 New Moves Added Inaccurately
 --------------------------------------
 The following moves brought in from later generations have not been implemented completely accurately (and were not intentionally changed):

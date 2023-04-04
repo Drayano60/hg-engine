@@ -9,6 +9,8 @@
 
 .create "build/move/battle_sub_seq/1_027", 0
 
+// Handle freeze infliction
+
 a001_027:
     moldbreakerabilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_MAGMA_ARMOR, _0204
     checkcloudnine _0030

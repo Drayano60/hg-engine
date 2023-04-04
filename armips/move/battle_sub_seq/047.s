@@ -10,6 +10,8 @@
 
 .create "build/move/battle_sub_seq/1_047", 0
 
+// Handle bad poison infliction
+
 a001_047:
     if IF_NOTEQUAL, VAR_05, 0x6, _0060
     abilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_IMMUNITY, _03E8

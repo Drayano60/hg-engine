@@ -9,6 +9,8 @@
 
 .create "build/move/battle_sub_seq/1_031", 0
 
+// Handle paralysis infliction
+
 a001_031:
     moldbreakerabilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_LIMBER, _02AC
     checkcloudnine _0044

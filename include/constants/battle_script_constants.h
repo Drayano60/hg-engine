@@ -17,6 +17,8 @@
 
 #define SUB_SEQ_BURN_MON (25)
 
+#define SUB_SEQ_FREEZE_MON (27)
+
 #define SUB_SEQ_PARALYZE_MON (31)
 
 #define SUB_SEQ_RECOIL (43)

@@ -239,6 +239,9 @@ The following moves have had their effects updated to work as they do in later g
 - Chatter:
 This now always confuses the opponent.
 
+Defog:
+- This now removes entry hazards (Spikes, Toxic Spikes, Stealth Rock) on both sides of the field instead of just the opponent's.
+
 - Growth:
 This now boosts both Attack and Special Attack by one stage. In sunlight, it boosts them by two stages instead.
 

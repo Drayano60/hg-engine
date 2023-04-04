@@ -65,6 +65,15 @@ const u16 BulletproofMoveList[] =
     MOVE_ZAP_CANNON,
 };
 
+const u16 PowderMoveList[] =
+{
+    MOVE_COTTON_SPORE,
+    MOVE_POISON_POWDER,
+    MOVE_SLEEP_POWDER,
+    MOVE_SPORE,
+    MOVE_STUN_SPORE,
+};
+
 int MoveCheckDamageNegatingAbilities(struct BattleStruct *sp, int attacker, int defender)
 {
     int scriptnum = 0;
@@ -141,6 +150,21 @@ int MoveCheckDamageNegatingAbilities(struct BattleStruct *sp, int attacker, int 
                 if (BulletproofMoveList[i] == sp->current_move_index)
                 {
                     scriptnum = SUB_SEQ_HANDLE_SOUNDPROOF;
+                    break;
+                }
+            }
+        }
+    }
+
+    // Handle Grass Pokémon immunity against powder based moves
+    if (sp->battlemon[defender].type1 == TYPE_GRASS || sp->battlemon[defender].type2 == TYPE_GRASS) {
+        {
+            u32 i;
+
+            for (i = 0; i < NELEMS(PowderMoveList); i++) {
+                if (PowderMoveList[i] == sp->current_move_index)
+                {
+                    scriptnum = SUB_SEQ_HANDLE_IMMUNITY;
                     break;
                 }
             }

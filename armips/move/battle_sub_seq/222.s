@@ -9,6 +9,8 @@
 
 .create "build/move/battle_sub_seq/1_222", 0
 
+/* Handle Fluffy Tail or Poké Doll, I think? */
+
 a001_222:
     printmessage 0x4B6, 0x5, 0xFF, "NaN", "NaN", "NaN", "NaN", "NaN"
     waitmessage

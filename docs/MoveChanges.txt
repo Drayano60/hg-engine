@@ -248,6 +248,9 @@ This attack can still hit even if the opponent doesn't use Protect or Detect.
 - Hidden Power:
 This is now fixed at 60 base power. The type is still determined by the user's IVs.
 
+- Jump Kick/High Jump Kick:
+The crash damage is now always equal to half of the user's maximum HP (rounded down).
+
 - Minimize:
 This now boosts evasion by two stages instead of one.
 

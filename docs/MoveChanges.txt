@@ -242,9 +242,6 @@ This now always confuses the opponent.
 - Growth:
 This now boosts both Attack and Special Attack by one stage. In sunlight, it boosts them by two stages instead.
 
-- Encore:
-The effect of Encore now always lasts for the turn it is used and the subsequent three turns.
-
 - Feint:
 This attack can still hit even if the opponent doesn't use Protect or Detect.
 
@@ -285,6 +282,12 @@ The following moves have their effects somewhat updated to work as they do in la
 The target now takes damage equal to 1/8th of its max HP each turn, and the duration is four to five turns (the binding effect then ends on the next turn with no damage dealt).
 If the user is holding a Grip Claw, the duration is fixed at six turns instead of the seven it should be (the binding effect then ends on the next turn with no damage dealt).
 Due to the way the Gen 4 game engine handles the binding status, it cannot currently be any longer than six turns of damage.
+
+- Encore:
+The effect of Encore now always applies on the turn it is used and the subsequent three turns, with the effect ending after the third turn. The duration is no longer randomized.
+This differs slightly from Scarlet & Violet where it affects the target for three moves instead of three turns, which can include the same turn Encore is used if the target is slower.
+In Aurora Crystal, the target will be forced to use its last used move on the turn they receive an encore (if they have yet to move), and then on the three turns after that.
+Additionally, in a double battle, a Pokémon with an encore is still unable to choose the target of their encored attack (as is the case in regular HG/SS) as this can't be changed currently.
 
 - Dragon Rush:
 This now does double damage if the opponent has used Minimize. However, it is not a guaranteed hit in that case.
@@ -519,11 +522,6 @@ Power: 60 ⟶ 65
 Astonish
 -------------------
 Power: 30 ⟶ 40
-
-Encore
--------------------
-Accuracy: 100% ⟶ 80%
-Notes: This is an intentional nerf as Encore is an incredibly strong move against the AI.
 
 Iron Tail
 -------------------

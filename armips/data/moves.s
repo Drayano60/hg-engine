@@ -3487,13 +3487,12 @@ movedata MOVE_BATON_PASS
     contesttype CONTEST_CUTE
     terminatedata
 
-// ACCURACY: 100 >> 80
 movedata MOVE_ENCORE
     battleeffect 90
     pss SPLIT_STATUS
     basepower 0
     type TYPE_NORMAL
-    accuracy MOVE_CHANGES_IMPLEMENTED ? 80 : 100
+    accuracy 100
     pp 5
     effectchance 0
     target MOVE_TARGET_SELECTED

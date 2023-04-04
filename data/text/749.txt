@@ -225,7 +225,7 @@ The foe is punched\nwith the user’s full,\nconcentrated power.\nIt confuses th
 Using its tough\nand impressive\nhorn, the user\nrams into the foe \nwith no letup.\n
 The user exhales\na mighty gust that\ninflicts damage.\nThis has a 30% chance\nto paralyze the foe.
 The user switches\nplaces with a party\nPokémon in waiting,\npassing along any\nstat changes.
-The user compels the\nfoe to keep using\nonly the move it last\nused for three turns.
+The user compels the\nfoe to keep using the\nmove it last used, for\nthe current turn and\nthe next three turns.
 An attack move that\ninflicts double damage\nif used on a foe that\nis switching out of\nbattle.
 A spin attack that\nraises the user’s\nSpeed, and eliminates\nthe effects of\ncertain moves.
 A sweet scent that\nharshly lowers the\nfoe’s evasiveness.\nIt can also be used\nto lure wild Pokémon.

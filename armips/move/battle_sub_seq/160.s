@@ -9,6 +9,11 @@
 
 .create "build/move/battle_sub_seq/1_160", 0
 
+/*
+    Set Tailwind effect
+    Duration is handled with two bits so it cannot be more than 3 turns
+*/
+
 a001_160:
     if IF_MASK, VAR_SIDE_EFFECT_PLAYER, 0x300, _004C
     gotosubscript 76

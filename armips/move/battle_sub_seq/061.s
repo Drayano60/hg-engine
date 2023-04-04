@@ -9,6 +9,8 @@
 
 .create "build/move/battle_sub_seq/1_061", 0
 
+/* Handles crash damage for Jump Kick and High Jump Kick */
+
 a001_061:
     abilitycheck 0x0, BATTLER_ATTACKER, ABILITY_MAGIC_GUARD, _00DC
     if IF_NOTMASK, VAR_06, 0x1000, _00DC

@@ -364,7 +364,7 @@ If the foe’s HP is\ndown to about half,\nthis attack will hit\nwith double the
 The user draws power\nto attack by using\nits held Berry.\nThe Berry determines\nits type and power.
 An attack able to hit\na foe using Protect\nor Detect. It also\nlifts the effects of\nthose moves.
 The user pecks the\nfoe. If the foe is\nholding a Berry, the\nuser plucks it and\ngains its effect.
-The user whips up a\nturbulent whirlwind\nthat ups the Speed\nof all party Pokémon\nfor three turns.
+The user whips up a\nturbulent wind that\ndoubles the Speed\nof all party Pokémon\nfor three turns.
 The user applies\npressure to stress\npoints, sharply\nboosting one of its\nstats.
 The user retaliates\nagainst the foe that\nlast inflicted damage\non it with much\ngreater power.
 After making its\nattack, the user\nrushes back to switch\nplaces with a party\nPokémon in waiting.

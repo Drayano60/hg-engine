@@ -32,6 +32,8 @@
 .include "armips/asm/custom/mart_items.s"
 .include "armips/asm/custom/dynamic_headers.s"
 .include "armips/asm/custom/title_screen_cry.s"
+.include "armips/asm/custom/fury_cutter_counter.s"
+.include "armips/asm/custom/encore_counter.s"
 
 .if FAIRY_TYPE_IMPLEMENTED == 1
 

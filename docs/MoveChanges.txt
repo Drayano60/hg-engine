@@ -242,6 +242,9 @@ This now always confuses the opponent.
 - Growth:
 This now boosts both Attack and Special Attack by one stage. In sunlight, it boosts them by two stages instead.
 
+- Encore:
+The effect of Encore now always lasts for the turn it is used and the subsequent three turns.
+
 - Feint:
 This attack can still hit even if the opponent doesn't use Protect or Detect.
 
@@ -285,6 +288,11 @@ Due to the way the Gen 4 game engine handles the binding status, it cannot curre
 
 - Dragon Rush:
 This now does double damage if the opponent has used Minimize. However, it is not a guaranteed hit in that case.
+
+- Fury Cutter:
+This now reaches its maximum damage after three uses (instead of five) like in later generations.
+However, in Gen 4, Fury Cutter will retain its damage boost even if you swap to a different move (as long as that different move doesn't fail for whatever reason).
+It's currently unknown how to change this so it is still the case in Aurora Crystal; Fury Cutter's power has been nerfed to compensate.
 
 - Knock Off:
 This now deals double damage if the target has a held item (unless the item is the Griseous Orb, or the target has the Multitype ability).
@@ -404,6 +412,11 @@ Fury Attack
 -------------------
 Power: 15 ⟶ 20
 Accuracy: 85% ⟶ 100%
+
+Fury Cutter
+-------------------
+Power: 40 ⟶ 30
+Notes: This nerf (relative to later generations) is because Fury Cutter does not lose its damage boost if you swap moves in Gen 4, and it's unknown how to correct it currently. Additionally, the power is now maxed out after three uses instead of five, going 30 -> 60 -> 120 base power.
 
 Fury Swipes
 -------------------

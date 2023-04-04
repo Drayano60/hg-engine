@@ -3225,10 +3225,12 @@ movedata MOVE_SPARK
     contesttype CONTEST_COOL
     terminatedata
 
+// POWER: 40 >> 30 (This is not optional)
+// Done as you can switch moves without losing the counter in Gen 4 and I cant change it
 movedata MOVE_FURY_CUTTER
     battleeffect 119
     pss SPLIT_PHYSICAL
-    basepower 40
+    basepower 30
     type TYPE_BUG
     accuracy 95
     pp 20

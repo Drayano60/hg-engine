@@ -208,7 +208,7 @@ A restrained attack\nthat prevents the\nfoe from fainting.\nThe target is left\n
 The user enrages the\nfoe into confusion.\nHowever, it also\nsharply raises the\nfoe’s Attack stat.
 The user restores its\nown HP by up to half\nof its maximum HP.\nIt may also be used\nto heal an ally’s HP.
 The user throws an\nelectrically charged\ntackle at the foe.\nThis has a 30% chance\nto paralyze the foe.
-The foe is slashed\nwith scythes or\nclaws. Its power\nincreases if it hits\nin succession.
+The user attacks\nby slashing the foe.\nIts power doubles\nafter each use, up\nto a maximum of 120.
 The foe is hit with\nwings of steel.\nThis has a 10% chance\nto raise Defense.
 The user affixes the\nfoe with a dark,\narresting look.\nThe target becomes\nunable to flee.
 If it is the opposite\ngender of the user,\nthe foe becomes\ninfatuated and less\nlikely to attack.
@@ -225,7 +225,7 @@ The foe is punched\nwith the user’s full,\nconcentrated power.\nIt confuses th
 Using its tough\nand impressive\nhorn, the user\nrams into the foe \nwith no letup.\n
 The user exhales\na mighty gust that\ninflicts damage.\nThis has a 30% chance\nto paralyze the foe.
 The user switches\nplaces with a party\nPokémon in waiting,\npassing along any\nstat changes.
-The user compels the\nfoe to keep using\nonly the move it last\nused for three to\nseven turns.
+The user compels the\nfoe to keep using\nonly the move it last\nused for three turns.
 An attack move that\ninflicts double damage\nif used on a foe that\nis switching out of\nbattle.
 A spin attack that\nraises the user’s\nSpeed, and eliminates\nthe effects of\ncertain moves.
 A sweet scent that\nharshly lowers the\nfoe’s evasiveness.\nIt can also be used\nto lure wild Pokémon.
@@ -481,7 +481,7 @@ The user coils up and\nconcentrates. This\nraises its Attack and\nDefense stats 
 The user attacks the\ntarget’s legs swiftly,\nreducing the target’s\nSpeed stat.
 The user spits out\nfluid that works to\nmelt the target.\nIt harshly lowers the\nfoe’s Sp. Def stat.
 The user turns the\nfoe’s power against\nit. The higher the\nfoe’s Attack, the\ngreater the damage.
-The user attacks the\nfoe with an echoing\nvoice. Its power\nincreases if it\nhits in succession.
+The user attacks\nwith an echoing voice.\nIts power increases\nby 40 after each use,\nto a maximum of 120.
 The user shoots\nboiling hot water\nat the foe.\nThis has a 30% chance\nto burn the foe.
 User’s shell breaks,\nlowering its Defense\nand Sp. Def but its\nAttack, Sp. Atk, and\nSpeed sharply raise.
 This relentless\nattack does massive\ndamage to a target\naffected by status\nconditions.

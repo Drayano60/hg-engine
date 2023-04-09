@@ -9,6 +9,8 @@
 
 .create "build/move/battle_sub_seq/1_018", 0
 
+// Handle sleep infliction
+
 a001_018:
     if IF_EQUAL, VAR_05, 0x7, _0250
     if IF_NOTEQUAL, VAR_05, 0x4, _00E0

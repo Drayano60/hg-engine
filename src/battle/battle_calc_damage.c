@@ -1125,6 +1125,12 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
         {
             sp_defense = sp_defense * 15 / 10;
         }
+        /* Adapt 50% defense boost from Gen IX's snowy weather */
+        if ((field_cond & WEATHER_HAIL_ANY) &&
+            ((DefendingMon.type1 == TYPE_ICE) || (DefendingMon.type2 == TYPE_ICE)))
+        {
+            defense = defense * 15 / 10;
+        }
     }
 
     // halve the defense if using selfdestruct/explosion

@@ -1,0 +1,193 @@
+-------------------
+Fairy Type
+-------------------
+The Fairy-type has been added to the game (by overwriting the ??? type originally used for Curse).
+
+The game is designed with this in mind, so Pokémon that are Fairy-type in later generations will also be Fairy-type in Aurora Crystal, even if a secondary patch is used to remove custom type changes.
+
+-------------------
+Type Mechanics
+-------------------
+Some types grant Pokémon particular characteristics in battle. Many of these have been in the games since the start, but a few new ones were added in later generations and have also been added in Aurora Crystal. The default mechanics, the mechanics pulled in from later generations, and the ones from later generations that could not be added are listed below.
+
+The following type mechanics have been retained from Generation 4:
+- Fire-type Pokémon cannot be burned.
+- Flying-type Pokémon (as well as anything with the Levitate ability) are immune to the effects of Spikes and Toxic Spikes.
+- Grass-type Pokémon are immune to the move Leech Seed.
+- Ground-type Pokémon are immune to damage from a sandstorm.
+- Ice-type Pokémon are immune to damage from a hailstorm, and cannot be frozen.
+- Poison-type Pokémon cannot be poisoned, and will remove Toxic Spikes when entering the field (unless they are also Flying-type or have the Levitate ability).
+- Rock-type Pokémon are immune to damage from a sandstorm, and gain a 50% boost to their Defense stat during a sandstorm.
+- Steel-type Pokémon are immune to damage from a sandstorm, and cannot be poisoned.
+
+The following type mechanics have been added from later generations:
+- Dark-type Pokémon are immune to status moves from a Pokémon that has the Prankster ability.
+- Electric-type Pokémon can no longer be paralyzed.
+- Grass-type Pokémon are immune to powder based moves (Cotton Spore, Poison Powder, Sleep Powder, Spore, Stun Spore) and the Effect Spore ability.
+- Ice-type Pokémon now gain a 50% boost to their Defense stat during a hailstorm, and are now immune to the move Sheer Cold. (Ice-types getting a defensive boost is technically only part of a snowstorm rather than a hailstorm, but it's just been added as a hailstorm effect here.)
+- Poison-type Pokémon are guaranteed to hit when using the move Toxic.
+
+The following type mechanics have not been added from later generations:
+- Ghost-type Pokémon can still be trapped by certain moves and abilities, and are not guaranteed to run away from a wild Pokémon. This is because the code handling these features hasn't been exposed yet so this feature couldn't be added; hopefully it will be possible to do so in the future.
+
+-------------------
+New Pokémon Types
+-------------------
+A number of Pokémon have had their types changed from what they are normally. These are listed in detail below.
+
+If you would prefer for all Pokémon to keep their official types (as of Generation 9), then you can use either the "RemoveTypeChanges" or "RemovePokemonChanges" patch to restore them to the original.
+
+006 - Charizard
+-------------------
+Type: Fire / Flying ⟶ Fire / Dragon
+Justification: Copied from Mega Charizard X. It also looks draconic, and Fire/Dragon is a fairly unique and good type combination.
+
+038 - Ninetales
+-------------------
+Type: Fire ⟶ Fire / Fairy
+Justification: Copied from its Alola form. Also draws inspiration from the stories of it being able to inflict curses. (You admittedly could argue Ghost would be a better fit for that part!)
+
+054/055 - Psyduck & Golduck
+-------------------
+Type: Water ⟶ Water / Psychic
+Justification: Psyduck and Golduck are often mentioned and shown to have psychic powers; this just leans into that.
+
+083 - Farfetch'd
+-------------------
+Type: Normal / Flying ⟶ Fighting / Flying
+Justification: Copied from its Galarian form. Also pulls from its habit of using its leek like a sword, which has been shown to be affiliated somewhat to Fighting (e.g. the move Sacred Sword).
+
+127 - Pinsir
+-------------------
+Type: Bug ⟶ Bug / Ground
+Justification: A little loose, but pulls from its habit of burrowing into the ground to sleep. As well as its Pokédex entries, this can be seen in New Pokémon Snap. It also kind of works as an opposite to its Mega form, for whatever that's worth (probably not much!).
+
+154 - Meganium
+-------------------
+Type: Grass ⟶ Grass / Fairy
+Justification: Mostly came out of wanting to give the Johto starters secondary types, but the flower aesthetic and ability to care for flowers is also closely linked to Fairy-types (e.g. Florges, Comfey) as well as Grass-types.
+
+157 - Typhlosion
+-------------------
+Type: Fire ⟶ Fire / Ground
+Justification: Mostly came out of wanting to give the Johto starters secondary types, but the volcanic aesthetic also has close links to Ground-types (e.g. Camerupt, Primal Groudon to some extent). It's also somewhat influenced by one of the animals the design is based on (the honey badger) being a skilled digger.
+
+160 - Feraligatr
+-------------------
+Type: Water ⟶ Water / Dark
+Justification: Mostly came out of wanting to give the Johto starters secondary types, but also draws from its aggressive, savage and intimidating nature as mentioned in the Pokédex. It also ties in well to its biting focused movepool.
+
+163/164 - Hoothoot & Noctowl
+-------------------
+Type: Normal / Flying ⟶ Psychic / Flying
+Justification: Mostly pulled from it having a large amount of Psychic-type moves, as well as being particularly known for its common use of Hypnosis. Also helps to break the monotony of Normal/Flying regional birds in the early generations. It's now a more defensive counterpart to Xatu's offensive stat spread. 
+
+181 - Ampharos
+-------------------
+Type: Electric ⟶ Electric / Dragon
+Justification: Copied from Mega Ampharos. The regular Ampharos also has some references for being Dragon-type; its Mega entries talk about it having "long-sleeping dragon's blood" (which I guess isn't sleeping anymore?) and its Japanese name including the word for dragon within it.
+
+192 - Sunflora
+-------------------
+Type: Grass ⟶ Grass / Fire
+Justification: Mostly due to the sun link by virtue of being a sunflower, but this one does feel a little weak.
+
+200/429 - Misdreavus & Mismagius
+-------------------
+Type: Ghost ⟶ Ghost / Fairy
+Justification: Pulled from Misdreavus's design having some origins in folklore (such as the banshee), as well as Mismagius having a witch aesthetic which is closely related to Fairy-type being seen as magical (e.g. Mystical Fire). On top of this, it now also pulls from Misdreavus's paradox form - Flutter Mane - which also sports a Ghost/Fairy typing.
+
+210 - Granbull
+-------------------
+Type: Fairy ⟶ Fairy / Fighting
+Justification: This draws largely from Granbull's Gen 5 sprite which show it 'punching', as well as a movepool full of Fighting-type moves. It's also a bit of a pun on the boxer dog breed (though Granbull seems to be admittedly based more on a bulldog).
+
+254 - Sceptile
+-------------------
+Type: Grass ⟶ Grass / Dragon
+Justification: Copied from Mega Sceptile. It has quite a few Dragon-type moves in its movepool as well. That's about it...
+
+284 - Masquerain
+-------------------
+Type: Bug / Flying ⟶ Bug / Water
+Justification: This is mostly just here to keep Surskit's fairly unique type combo intact, though Masquerain is also still fairly aquatic (for example, it's often found atop water). It's admittedly not a perfect match as a lot of its Pokédex entries mention how it struggles in rain, but I feel it's a case where gameplay should triumph over lore.
+
+301 - Delcatty
+-------------------
+Type: Normal ⟶ Normal / Fairy
+Justification: Perhaps a little random, but this draws mostly from Skitty's Moon Stone evolution method and the moon being closely linked to Fairy-typing (e.g. Clefairy, the move Moonlight).
+
+313 - Volbeat
+-------------------
+Type: Bug ⟶ Bug / Electric
+Justification: Draws from it being able to learn a few Electric-type moves and the light aesthetic. It's admittedly not a perfect fit but it's a fairly unique type combo, and works as a bit of a counterpart to Illumise's new typing.
+
+314 - Illumise
+-------------------
+Type: Bug ⟶ Bug / Fairy
+Justification: Draws from its use of aromas and association with lights (albeit it's not the one producing the light itself). Probably not a perfect fit, but it's a fairly unique type combo, and works as a bit of a counterpart to Volbeat's new typing.
+
+328 - Trapinch
+-------------------
+Type: Ground ⟶ Bug / Ground
+Justification: Its design is based on an insect (an antlion), and it's also one of the very few non Bug-type Pokémon to be part of the Bug egg group so it's considered to be close already. Also ties into the type change of its evolutions.
+
+329/330 - Vibrava & Flygon 
+-------------------
+Type: Ground / Dragon ⟶ Bug / Dragon
+Justification: Their designs are based on an insect (an antlion). With the antlion specifically, the Ground typing makes just as much sense, but changing to a Bug-type gives Vibrava and Flygon a key separation from the Gible line (and providing the generally weak Bug-type with another strong Pokémon to boot). The reasons that apply to Trapinch also apply here, and their movepool also includes quite a few Bug moves (including Bug Buzz which very few non Bug-types learn).
+
+333 - Swablu
+-------------------
+Type: Normal / Flying ⟶ Fairy / Flying
+Justification: This is mostly just a tie-in to Altaria; going from Normal/Flying to Dragon/Fairy is a bit much at once.
+
+334 - Altaria
+-------------------
+Type: Dragon / Flying ⟶ Dragon / Fairy
+Justification: Copied from Mega Altaria. It's a bit hard to define exactly what is Fairy-type about it so it's honestly mostly just pulled from its Mega. However, it does also give Altaria a completely unique typing that's not been seen anywhere else in the series (as of S/V), so it's nice for gameplay purposes.
+
+336 - Seviper
+-------------------
+Type: Poison ⟶ Poison / Dark
+Justification: ?
+
+350 - Milotic
+-------------------
+Type: Water ⟶ Water / Fairy
+Justification: Mostly pulled from Milotic's beauty theme and pink-ish aesthetic, as well as it being said to have some control over emotions (mostly a calming effect). It also gives it a secondary typing to match its counterpart (Gyarados). This change feels a bit weak but it's carried over from Renegade Platinum and I believe is a popular fan choice. (Milotic is admittedly quite strong already so this change may be over the top!)
+
+353/354 - Shuppet & Banette
+-------------------
+Type: Ghost ⟶ Ghost / Normal
+Justification: Draws inspiration from Banette's lore of a doll that turns into a Pokémon, with the doll being the 'normal' part. Shuppet has just inherited this for ease of use. It's also a near unique type combo that gives Banette something special to play with, particularly as it's also an excellent defensive type combo (even if Banette doesn't really have the stats to take advantage of it...).
+
+362 - Glalie
+-------------------
+Type: Ice ⟶ Ice / Rock
+Justification: Multiple of Glalie's Pokédex entries mention that its core is a soft rock covered with hard ice, so this new typing just brings that in. Ice and Rock together can hit seven types super effectively, so this unique type combination together with Glalie's offensive stat buffs should let it be a reasonably powerful offensive threat. (All that said, Rock and Ice is a terrible defensive combination, so be careful!)
+
+370 - Luvdisc
+-------------------
+Type: Water ⟶ Water / Fairy
+Justification: The whole heart aesthetic, symbol of love, pink colours etcetera make it a fairly easy pick for a Fairy-type (even if things like Attract are Normal-type...). Luvdisc is a terrible Pokémon so this gives it a bit of extra utility to play with as well.
+
+405 - Luxray
+-------------------
+Type: Electric ⟶ Electric / Dark
+Justification: Mostly draws from its appearance alone in regards to the dark fur and somewhat 'edgy' look. It admittedly doesn't make a huge amount of sense in terms of lore, but in terms of gameplay it gives it a very unique type combination to wield that it can take advantage of with its natural movepool (eg Bite, Crunch).
+
+428 - Lopunny
+-------------------
+Type: Normal ⟶ Normal / Fighting
+Justification: Copied from Mega Lopunny. That said, even the regular form of Lopunny is known to fight with powerful kicks, so the Fighting-type does fit decently well here.
+
+466 - Electivire
+-------------------
+Type: Electric ⟶ Electric / Fighting
+Justification: Pulls from its habit of close quarters combat, punching habits (see Ultra Sun dex entry) and the large amount of Fighting-type moves it learns.
+
+480/481/482 - Uxie, Mesprit & Azelf
+-------------------
+Type: Psychic ⟶ Psychic / Fairy
+Justification: All three members of the Lake Trio share names with and appear to be based off of creatures from fantasy, which makes the Fairy typing a decent fit.

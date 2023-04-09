@@ -65,6 +65,15 @@ const u16 BulletproofMoveList[] =
     MOVE_ZAP_CANNON,
 };
 
+const u16 PowderMoveList[] =
+{
+    MOVE_COTTON_SPORE,
+    MOVE_POISON_POWDER,
+    MOVE_SLEEP_POWDER,
+    MOVE_SPORE,
+    MOVE_STUN_SPORE,
+};
+
 int MoveCheckDamageNegatingAbilities(struct BattleStruct *sp, int attacker, int defender)
 {
     int scriptnum = 0;
@@ -201,6 +210,38 @@ int MoveCheckDamageNegatingAbilities(struct BattleStruct *sp, int attacker, int 
         if ((movetype == TYPE_WATER) && (attacker != defender))
         {
             scriptnum = SUB_SEQ_HANDLE_LIGHTNING_ROD_RAISE_SPATK;
+        }
+    }
+
+    /* Section for type checks */
+    /* This works fine here despite not being an ability even in the case of things like Gastro Acid */
+    /* Not sure if the priority order for the checks is correct though */
+
+    /* Handle Grass Pokémon immunity against powder based moves */
+    if ((BattlePokemonParamGet(sp, sp->defence_client, BATTLE_MON_DATA_TYPE1, NULL) == TYPE_GRASS) ||
+        (BattlePokemonParamGet(sp, sp->defence_client, BATTLE_MON_DATA_TYPE2, NULL) == TYPE_GRASS)) {
+        {
+            u32 i;
+
+            for (i = 0; i < NELEMS(PowderMoveList); i++) {
+                if (PowderMoveList[i] == sp->current_move_index)
+                {
+                    scriptnum = SUB_SEQ_HANDLE_IMMUNITY;
+                    break;
+                }
+            }
+        }
+    }
+
+    /* Dark-types are immune to status moves affected by Prankster (unless they are self-targeting) */
+    /* This may not work properly with the Assist interaction? Needs testing */
+    if (GetBattlerAbility(sp, attacker) == ABILITY_PRANKSTER && sp->moveTbl[sp->current_move_index].split == SPLIT_STATUS) {
+        if (
+            ((BattlePokemonParamGet(sp, sp->defence_client, BATTLE_MON_DATA_TYPE1, NULL) == TYPE_DARK) ||
+            (BattlePokemonParamGet(sp, sp->defence_client, BATTLE_MON_DATA_TYPE2, NULL) == TYPE_DARK)) &&
+            (sp->attack_client != sp->defence_client)
+        ) {
+            scriptnum = SUB_SEQ_HANDLE_IMMUNITY;
         }
     }
 
@@ -1503,6 +1544,8 @@ BOOL MoveHitDefenderAbilityCheck(void *bw, struct BattleStruct *sp, int *seq_no)
         case ABILITY_EFFECT_SPORE:
             if ((sp->battlemon[sp->attack_client].hp)
                 && (sp->battlemon[sp->attack_client].condition == 0)
+                && (BattlePokemonParamGet(sp, sp->attack_client, BATTLE_MON_DATA_TYPE1, NULL) != TYPE_GRASS)
+                && (BattlePokemonParamGet(sp, sp->attack_client, BATTLE_MON_DATA_TYPE2, NULL) != TYPE_GRASS)
                 && ((sp->waza_status_flag & WAZA_STATUS_FLAG_NO_OUT) == 0)
                 && ((sp->server_status_flag & SERVER_STATUS_FLAG_x20) == 0)
                 && ((sp->server_status_flag2 & SERVER_STATUS2_FLAG_x10) == 0)

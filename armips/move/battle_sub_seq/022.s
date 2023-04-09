@@ -9,6 +9,8 @@
 
 .create "build/move/battle_sub_seq/1_022", 0
 
+// Handle regular poison infliction
+
 a001_022:
     if IF_NOTEQUAL, VAR_05, 0x6, _0060
     abilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_IMMUNITY, _02C8

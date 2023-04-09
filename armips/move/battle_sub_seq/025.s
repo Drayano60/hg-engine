@@ -9,6 +9,8 @@
 
 .create "build/move/battle_sub_seq/1_025", 0
 
+// Handle burn infliction
+
 a001_025:
     if IF_NOTEQUAL, VAR_05, 0x5, _00D4
     abilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_WATER_VEIL, _0350

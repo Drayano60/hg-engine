@@ -2812,7 +2812,7 @@ u16 __attribute__((long_call)) GetMonHiddenAbility(u16 species, u32 form)
 {
 #ifdef HIDDEN_ABILITIES
     u16 ability = 0;
-    u16* hiddenAbilityTable = sys_AllocMemory(0, 3000);
+    u16* hiddenAbilityTable = sys_AllocMemory(0, sizeof(u16) * MAX_SPECIES_INCLUDING_FORMS);
 
     species = PokeOtherFormMonsNoGet(species, form);
     ArchiveDataLoad(hiddenAbilityTable, ARC_CODE_ADDONS, CODE_ADDON_HIDDEN_ABILITY_LIST);
@@ -2845,12 +2845,12 @@ void __attribute__((long_call)) SetBoxMonAbility(void *boxmon) // actually takes
     form = GetBoxMonData(boxmon, ID_PARA_form_no, NULL);
 
     // Set hidden ability at a 20% chance or if the relevant flag is set.
-    if (CheckScriptFlag(SavArray_Flags_get(SaveBlock2_get()), HIDDEN_ABILITIES_FLAG) == 1 || (gf_rand() % 5 == 0))
+    if (CheckScriptFlag(HIDDEN_ABILITIES_FLAG) == 1 || (gf_rand() % 5 == 0))
     {
         SET_BOX_MON_HIDDEN_ABILITY_BIT(boxmon)
         has_hidden_ability = 1;
         // need to clear this script flag because this function is used for in-battle form change ability resets as well, which shouldn't happen normally
-        ClearScriptFlag(SavArray_Flags_get(SaveBlock2_get()), HIDDEN_ABILITIES_FLAG);
+        ClearScriptFlag(HIDDEN_ABILITIES_FLAG);
     }
     else
     {
@@ -2889,7 +2889,7 @@ void __attribute__((long_call)) SetBoxMonAbility(void *boxmon) // actually takes
 
 u32 __attribute__((long_call)) GetSpeciesBaseExp(u32 species, u32 form)
 {
-    u16 *baseExpTable = sys_AllocMemory(0, 3000);
+    u16 *baseExpTable = sys_AllocMemory(0, sizeof(u16) * MAX_SPECIES_INCLUDING_FORMS);
     u16 baseExp;
     
     species = PokeOtherFormMonsNoGet(species, form); // for whatever reason alternate formes can have different base experiences
@@ -3130,8 +3130,8 @@ void __attribute__((long_call)) ChangePartyPokemonToForm(struct PartyPokemon *pp
     if (form != GetMonData(pp, ID_PARA_form_no, NULL))
     {
         SetMonData(pp, ID_PARA_form_no, &form);
-        PokeParaCalc(pp);
-        PokeParaSpeabiSet(pp);
+        RecalcPartyPokemonStats(pp);
+        ResetPartyPokemonAbility(pp);
     }
 }
 
@@ -3169,15 +3169,30 @@ u32 __attribute__((long_call)) GrabCurrentSeason(void)
     return ((u8)(date.month-1)) % 4;
 }
 
-void __attribute__((long_call)) UpdateFormIfDeerling(struct PartyPokemon *pp)
+void __attribute__((long_call)) UpdatePassiveForms(struct PartyPokemon *pp)
 {
     u32 species = GetMonData(pp, ID_PARA_monsno, NULL);
+    u32 form = 0;
     
-    if (species == SPECIES_DEERLING || species == SPECIES_SAWSBUCK)
+    switch (species)
     {
-        u32 form = GrabCurrentSeason();
-        SetMonData(pp, ID_PARA_form_no, &form);
+        case SPECIES_DEERLING:
+        case SPECIES_SAWSBUCK:
+            form = GrabCurrentSeason(); // update to the current season
+            break;
+        case SPECIES_FRILLISH:
+        case SPECIES_JELLICENT:
+        case SPECIES_MEOWSTIC:
+        case SPECIES_INDEEDEE:
+        case SPECIES_BASCULEGION:
+            form = gf_rand() & 1; // 1/2 male
+            break;
+        case SPECIES_PYROAR:
+            form = (gf_rand() % 8 != 0); // 1/8 male
+            break;
     }
+
+    SetMonData(pp, ID_PARA_form_no, &form);
 }
 
 BOOL __attribute__((long_call)) Party_UpdateDeerlingSeasonForm(struct Party *party)
@@ -3780,8 +3795,8 @@ BOOL __attribute__((long_call)) GiveMon(int heapId, void *saveData, int species,
     profile = Sav2_PlayerData_GetProfileAddr(saveData);
     party = SaveData_GetPlayerPartyPtr(saveData);
     
-    pokemon = PokemonParam_AllocWork(heapId);
-    PokeParaInit(pokemon);
+    pokemon = AllocMonZeroed(heapId);
+    ZeroMonData(pokemon);
     PokeParaSet(pokemon, species, level, 32, FALSE, 0, 0, 0); // CreateMon
     sub_020720FC(pokemon, profile, ITEM_POKE_BALL, ball, encounterType, heapId);
     sp1C = heldItem;
@@ -3793,20 +3808,20 @@ BOOL __attribute__((long_call)) GiveMon(int heapId, void *saveData, int species,
         InitBoxMonMoveset(&pokemon->box);
     }
 
-    PokeParaCalc(pokemon); // recalculate stats
+    RecalcPartyPokemonStats(pokemon); // recalculate stats
 
     // Set hidden ability at a 20% chance or if the relevant flag is set.
-    if (CheckScriptFlag(SavArray_Flags_get(SaveBlock2_get()), HIDDEN_ABILITIES_FLAG) == 1  || (gf_rand() % 5 == 0))
+    if (CheckScriptFlag(HIDDEN_ABILITIES_FLAG) == 1 || (gf_rand() % 5 == 0))
     {
         SET_MON_HIDDEN_ABILITY_BIT(pokemon)
         // need to clear this script flag because this function is used for in-battle form change ability resets as well, which shouldn't happen normally
-        ClearScriptFlag(SavArray_Flags_get(SaveBlock2_get()), HIDDEN_ABILITIES_FLAG);
+        ClearScriptFlag(HIDDEN_ABILITIES_FLAG);
     }
 
     if (ability != 0) {
         SetMonData(pokemon, ID_PARA_speabino, &ability);
     } else {
-        PokeParaSpeabiSet(pokemon); // with the flag set, the hidden ability should be set
+        ResetPartyPokemonAbility(pokemon); // with the flag set, the hidden ability should be set
     }
     result = PokeParty_Add(party, pokemon);
     if (result) {
@@ -3850,22 +3865,22 @@ BOOL __attribute__((long_call)) AddWildPartyPokemon(int inTarget, EncounterInfo 
     }
     else if (species == SPECIES_DEERLING || species == SPECIES_SAWSBUCK)
     {
-        UpdateFormIfDeerling(encounterPartyPokemon);
+        UpdatePassiveForms(encounterPartyPokemon);
     }
 
     // Set hidden ability at a 20% chance or if the relevant flag is set.
-    if (CheckScriptFlag(SavArray_Flags_get(SaveBlock2_get()), HIDDEN_ABILITIES_FLAG) == 1  || (gf_rand() % 5 == 0))
+    if (CheckScriptFlag(HIDDEN_ABILITIES_FLAG) == 1 || (gf_rand() % 5 == 0))
     {
         SET_MON_HIDDEN_ABILITY_BIT(encounterPartyPokemon)
-        ClearScriptFlag(SavArray_Flags_get(SaveBlock2_get()), HIDDEN_ABILITIES_FLAG);
-        PokeParaSpeabiSet(encounterPartyPokemon);
+        ClearScriptFlag(HIDDEN_ABILITIES_FLAG);
+        ResetPartyPokemonAbility(encounterPartyPokemon);
     }
 
     if (change_form)
     {
         SetMonData(encounterPartyPokemon, ID_PARA_form_no, (u8 *)&form_no);
-        PokeParaCalc(encounterPartyPokemon);
-        PokeParaSpeabiSet(encounterPartyPokemon);
+        RecalcPartyPokemonStats(encounterPartyPokemon);
+        ResetPartyPokemonAbility(encounterPartyPokemon);
         InitBoxMonMoveset(&encounterPartyPokemon->box);
     }
     return PokeParty_Add(encounterBattleParam->poke_party[inTarget], encounterPartyPokemon);
@@ -4010,14 +4025,12 @@ void MakeTrainerPokemonParty(struct BATTLE_PARAM *bp, int num, int heapID)
     int i, j;
     u32 rnd_tmp, rnd, seed_tmp;
     u8 pow;
-    struct PartyPokemon *pp;
 
     seed_tmp = gf_get_seed();
 
     PokeParty_Init(bp->poke_party[num], 6);
 
     buf = (u8 *)sys_AllocMemory(heapID, sizeof(struct FULL_TRAINER_MON_DATA_STRUCTURE) * 6);
-    pp = PokemonParam_AllocWork(heapID);
 
     TT_TrainerPokeDataGet(bp->trainer_id[num], buf);
 
@@ -4043,7 +4056,7 @@ void MakeTrainerPokemonParty(struct BATTLE_PARAM *bp, int num, int heapID)
     u8 evnums[6];
     u8 types[2];
     u8 ppcounts[4];
-    u16 nickname[11];
+    u16 *nickname = sys_AllocMemory(heapID, 11*sizeof(16));
     u8 form_no, abilityslot, nature, ballseal, shinylock, status, ab1, ab2;
     u32 additionalflags;
 
@@ -4086,7 +4099,7 @@ void MakeTrainerPokemonParty(struct BATTLE_PARAM *bp, int num, int heapID)
 
     for (i = 0; i < pokecount; i++)
     {
-        mons[i] = PokemonParam_AllocWork(heapID);
+        mons[i] = AllocMonZeroed(heapID);
         // ivs field
         pow = buf[offset];
         offset++;
@@ -4245,7 +4258,7 @@ void MakeTrainerPokemonParty(struct BATTLE_PARAM *bp, int num, int heapID)
             }
 
             // nickname field
-            if (bp->trainer_data[num].data_type & TRAINER_DATA_EXTRA_TYPE_NICKNAME)
+            if (additionalflags & TRAINER_DATA_EXTRA_TYPE_NICKNAME)
             {
                 for(j = 0; j < 11; j++)
                 {
@@ -4350,71 +4363,72 @@ void MakeTrainerPokemonParty(struct BATTLE_PARAM *bp, int num, int heapID)
             }
         }
 
-        PokeParaCalc(mons[i]); // recalculate stats here
+        RecalcPartyPokemonStats(mons[i]); // recalculate stats here
 
-        if(bp->trainer_data[num].data_type & TRAINER_DATA_TYPE_ADDITIONAL_FLAGS)
+        if (bp->trainer_data[num].data_type & TRAINER_DATA_TYPE_ADDITIONAL_FLAGS)
         {
-            if(additionalflags & TRAINER_DATA_EXTRA_TYPE_STATUS)
+            if (additionalflags & TRAINER_DATA_EXTRA_TYPE_STATUS)
             {
                 SetMonData(mons[i],ID_PARA_condition, &status);
             }
-            if(additionalflags & TRAINER_DATA_EXTRA_TYPE_HP)
+            if (additionalflags & TRAINER_DATA_EXTRA_TYPE_HP)
             {
                 SetMonData(mons[i],ID_PARA_hpmax, &hp);
                 SetMonData(mons[i],ID_PARA_hp, &hp);
             }
-            if(additionalflags & TRAINER_DATA_EXTRA_TYPE_ATK)
+            if (additionalflags & TRAINER_DATA_EXTRA_TYPE_ATK)
             {
                 SetMonData(mons[i],ID_PARA_pow, &atk);
             }
-            if(additionalflags & TRAINER_DATA_EXTRA_TYPE_DEF)
+            if (additionalflags & TRAINER_DATA_EXTRA_TYPE_DEF)
             {
                 SetMonData(mons[i],ID_PARA_def, &def);
             }
-            if(additionalflags & TRAINER_DATA_EXTRA_TYPE_SPEED)
+            if (additionalflags & TRAINER_DATA_EXTRA_TYPE_SPEED)
             {
                 SetMonData(mons[i],ID_PARA_agi, &speed);
             }
-            if(additionalflags & TRAINER_DATA_EXTRA_TYPE_SP_ATK)
+            if (additionalflags & TRAINER_DATA_EXTRA_TYPE_SP_ATK)
             {
                 SetMonData(mons[i],ID_PARA_spepow, &spatk);
             }
-            if(additionalflags & TRAINER_DATA_EXTRA_TYPE_SP_DEF)
+            if (additionalflags & TRAINER_DATA_EXTRA_TYPE_SP_DEF)
             {
                 SetMonData(mons[i],ID_PARA_spedef, &spdef);
             }
-            if(additionalflags & TRAINER_DATA_EXTRA_TYPE_TYPES)
+            if (additionalflags & TRAINER_DATA_EXTRA_TYPE_TYPES)
             {
                 for(j = 0; j < 2; j++)
                 {
                     SetMonData(mons[i],ID_PARA_type1+j, &types[j]);
                 }
             }
-            if(additionalflags & TRAINER_DATA_EXTRA_TYPE_PP_COUNTS)
+            if (additionalflags & TRAINER_DATA_EXTRA_TYPE_PP_COUNTS)
             {
                 for(j = 0; j < 4; j++)
                 {
                     SetMonData(mons[i],ID_PARA_pp_count1+j, &ppcounts[j]);
                 }
             }
-            if (bp->trainer_data[num].data_type & TRAINER_DATA_EXTRA_TYPE_NICKNAME)
+            if (additionalflags & TRAINER_DATA_EXTRA_TYPE_NICKNAME)
             {
                 u32 one = 1;
-                SetMonData(pp,ID_PARA_nickname_flag, &one);
-                SetMonData(pp,ID_PARA_nickname, &nickname[0]);
+                
+                SetMonData(mons[i],ID_PARA_nickname_flag, &one);
+                SetMonData(mons[i],ID_PARA_nickname, nickname);
             }
         }
         TrainerMonHandleFrustration(mons[i]);
     }
 
-    for(i = 0; i < pokecount; i++)
+    for (i = 0; i < pokecount; i++)
     {
         PokeParty_Add(bp->poke_party[num], mons[partyOrder[i]]);
         sys_FreeMemoryEz(mons[i]);
     }
 
     sys_FreeMemoryEz(buf);
-    sys_FreeMemoryEz(pp);
+    sys_FreeMemoryEz(nickname);
 
     gf_srand(seed_tmp);
 }
@@ -4422,7 +4436,7 @@ void MakeTrainerPokemonParty(struct BATTLE_PARAM *bp, int num, int heapID)
 
 void set_starter_hidden_ability(struct PokeParty *party, struct PartyPokemon *pp)
 {
-    if (CheckScriptFlag(SavArray_Flags_get(SaveBlock2_get()), HIDDEN_ABILITIES_STARTERS_FLAG) == 1)
+    if (CheckScriptFlag(HIDDEN_ABILITIES_STARTERS_FLAG) == 1)
     {
         SET_MON_HIDDEN_ABILITY_BIT(pp)
         SetBoxMonAbility((void *)&pp->box);
@@ -4456,8 +4470,8 @@ BOOL ScrCmd_GiveEgg(SCRIPTCONTEXT *ctx)
     u8 partyCount = party->count;
     if (partyCount < 6)
     {
-        struct PartyPokemon *pokemon = PokemonParam_AllocWork(11);
-        PokeParaInit(pokemon);
+        struct PartyPokemon *pokemon = AllocMonZeroed(11);
+        ZeroMonData(pokemon);
         int val = sub_02017FE4(1, offset);
 
         SetEggStats(pokemon, species, 1, profile, 3, val);
@@ -4467,11 +4481,11 @@ BOOL ScrCmd_GiveEgg(SCRIPTCONTEXT *ctx)
         ClearMonMoves(pokemon);
         InitBoxMonMoveset(&pokemon->box);
 
-        if (CheckScriptFlag(SavArray_Flags_get(SaveBlock2_get()), HIDDEN_ABILITIES_FLAG) == 1) // add HA capability
+        if (CheckScriptFlag(HIDDEN_ABILITIES_FLAG) == 1) // add HA capability
         {
             SET_MON_HIDDEN_ABILITY_BIT(pokemon)
-            PokeParaSpeabiSet(pokemon);
-            ClearScriptFlag(SavArray_Flags_get(SaveBlock2_get()), HIDDEN_ABILITIES_FLAG);
+            ResetPartyPokemonAbility(pokemon);
+            ClearScriptFlag(HIDDEN_ABILITIES_FLAG);
         }
 
         PokeParty_Add(party, pokemon);
@@ -4499,10 +4513,10 @@ BOOL ScrCmd_GiveTogepiEgg(SCRIPTCONTEXT *ctx) {
         return FALSE;
     }
 
-    togepi = PokemonParam_AllocWork(11);
-    PokeParaInit(togepi);
+    togepi = AllocMonZeroed(11);
+    ZeroMonData(togepi);
 
-    SetEggStats(togepi, SPECIES_TOGEPI, 1, profile, 3, sub_02017FE4(1, 11));
+    SetEggStats(togepi, SPECIES_TOGEPI, 1, profile, 3, sub_02017FE4(1, 13));
 
     //SetMonData(togepi, ID_PARA_form_no, &form); // add form capability
 
@@ -4525,11 +4539,11 @@ BOOL ScrCmd_GiveTogepiEgg(SCRIPTCONTEXT *ctx) {
     pp = GetMonData(togepi, ID_PARA_pp_max1 + i, 0);
     SetMonData(togepi, ID_PARA_pp_count1 + i, &pp);
 
-    if (CheckScriptFlag(SavArray_Flags_get(SaveBlock2_get()), HIDDEN_ABILITIES_FLAG) == 1) // add HA capability
+    if (CheckScriptFlag(HIDDEN_ABILITIES_FLAG) == 1) // add HA capability
     {
         SET_MON_HIDDEN_ABILITY_BIT(togepi)
-        PokeParaSpeabiSet(togepi);
-        ClearScriptFlag(SavArray_Flags_get(SaveBlock2_get()), HIDDEN_ABILITIES_FLAG);
+        ResetPartyPokemonAbility(togepi);
+        ClearScriptFlag(HIDDEN_ABILITIES_FLAG);
     }
 
 
@@ -4562,7 +4576,7 @@ void sub_0206D328(struct PartyPokemon *pokemon, u32 heapId)
     SetMonData(pokemon, ID_PARA_get_ball, &pokeball);
     SetMonData(pokemon, ID_PARA_get_level, &metLevel);
     SetMonData(pokemon, ID_PARA_dummy_p2_1, &dummy_p2_1);
-    PokeParaCalc(pokemon);
+    RecalcPartyPokemonStats(pokemon);
 
-    PokeParaSpeabiSet(pokemon);
+    ResetPartyPokemonAbility(pokemon);
 }

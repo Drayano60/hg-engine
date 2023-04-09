@@ -667,15 +667,15 @@ enum
 #define TRAINER_DATA_EXTRA_TYPE_NICKNAME 0x200
 
 
-void* __attribute__((long_call)) PokemonParam_AllocWork(u32 heapid);
-void __attribute__((long_call)) PokeParaInit(void* pokemon);
+void* __attribute__((long_call)) AllocMonZeroed(u32 heapid);
+void __attribute__((long_call)) ZeroMonData(void* pokemon);
 void __attribute__((long_call))PokeParaSetChr(struct PartyPokemon *pp, u16 pokeno, u8 level, u8 pow, u8 chr);
 void __attribute__((long_call))PokeParaSet(void *pp,int mons_no,int level,int pow,int rndflag,u32 rnd,int idflag,u32 id);
 void __attribute__((long_call)) SetPokemonSee(void *zw, void *pp);
 void __attribute__((long_call)) SetPokemonGet(void *zw, void *pp);
 void *__attribute__((long_call))PokeStatusPokeParamGet(void*);
-void __attribute__((long_call)) PokeParaCalc( struct PartyPokemon *ppd );
-void __attribute__((long_call)) PokeParaSpeabiSet( void *ppd );
+void __attribute__((long_call)) RecalcPartyPokemonStats( struct PartyPokemon *ppd );
+void __attribute__((long_call)) ResetPartyPokemonAbility( void *ppd );
 void __attribute__((long_call)) PokeParaSetSexChr(struct PartyPokemon *pp, u16 pokeno, u8 level, u8 pow, u8 sex, u8 chr, u8 annon);
 
 u32 __attribute__((long_call)) GetMonData(void*,int,void*);
@@ -764,7 +764,7 @@ void __attribute__((long_call)) ChangePartyPokemonToForm(struct PartyPokemon *pp
 void __attribute__((long_call)) SwapPartyPokemonMove(struct PartyPokemon *pp, u32 oldMove, u32 newMove);
 void __attribute__((long_call)) ChangePartyPokemonToFormSwapMove(struct PartyPokemon *pp, u32 form, u32 oldMove, u32 newMove);
 u32 __attribute__((long_call)) GrabCurrentSeason(void);
-void __attribute__((long_call)) UpdateFormIfDeerling(struct PartyPokemon *pp);
+void __attribute__((long_call)) UpdatePassiveForms(struct PartyPokemon *pp);
 BOOL __attribute__((long_call)) Party_UpdateDeerlingSeasonForm(struct Party *party);
 //BOOL __attribute__((long_call)) Party_TryResetShaymin(struct Party *party, int min_max, const struct RTCTime *time);
 u8 __attribute__((long_call)) LoadEggMoves(struct PartyPokemon *pokemon, u16 *dest);

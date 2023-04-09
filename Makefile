@@ -17,14 +17,14 @@ ifeq ($(SYSTEM), 0)
 EXE := .exe
 SEP := \\
 
-WAV2SWAV := tools/wav2swav.exe
 SWAV2SWAR := tools/swav2swar.exe
+BTX := tools/pngtobtx0.exe
 else
 EXE := 
 SEP := /
 
-WAV2SWAV := wine tools/wav2swav.exe
 SWAV2SWAR := mono tools/swav2swar.exe
+BTX := mono tools/pngtobtx0.exe
 endif
 
 default: all
@@ -40,8 +40,9 @@ BLZ = tools/blz
 ARMIPS = tools/armips
 NARCHIVE = $(PYTHON) tools/narcpy.py
 GFX = tools/nitrogfx
-BTX = tools/pngtobtx0.exe
 SDATTOOL = $(PYTHON) tools/SDATTool.py
+ADPCMXQ = adpcm-xq
+NTRWAVTOOL = $(PYTHON) tools/ntrWavTool.py
 ###################### Setting ########################
 PREFIX = bin/arm-none-eabi-
 AS = $(DEVKITARM)/$(PREFIX)as
@@ -173,6 +174,17 @@ build_tools:
 	mv tools/source/armips/build/armips tools/armips
 	rm -r -f tools/source/armips
 
+	rm -r -f tools/source/adpcm-xq
+	cd tools/source ; git clone https://github.com/dbry/adpcm-xq.git
+	cd tools/source/adpcm-xq ; gcc -O2 *.c -o $(ADPCMXQ)
+	mv tools/source/adpcm-xq/$(ADPCMXQ) tools/$(ADPCMXQ)
+	rm -r -f tools/source/adpcm-xq
+
+	rm -r -f tools/source/ntrWavTool
+	cd tools/source ; git clone https://github.com/turtleisaac/ntrWavTool.git
+	mv tools/source/ntrWavTool/ntrWavTool.py tools/ntrWavTool.py
+	rm -r -f tools/source/ntrWavTool
+
 
 build_nitrogfx:
 	cd tools/source/nitrogfx ; $(MAKE)
@@ -197,6 +209,7 @@ clean_tools:
 	rm -f tools/ndstool
 	rm -f tools/armips
 	rm -f tools/nitrogfx
+	rm -f tools/adpcm-xq
 
 
 print-% : ; $(info $* is a $(flavor $*) variable set to [$($*)]) @true

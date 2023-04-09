@@ -30,9 +30,10 @@ a010_508:
     resetsprite 1
     resetsprite 2
     resetsprite 3
-    playcry 4, -117, 100
-    waitcry 0
-    playcry 6, -117, 127
+    // playcry 4, -117, 100
+    // waitcry 0
+    // playcry 6, -117, 127
+	playcry 0, -117, 127
     addparticle 0, 1, 17
     cmd37 6, 0, 2, 22, 16, 0, 0, "NaN", "NaN"
     addparticle 0, 0, 4

@@ -2098,12 +2098,18 @@ BOOL ServerFlinchCheck(void *bw, struct BattleStruct *sp)
     heldeffect = HeldItemHoldEffectGet(sp, sp->attack_client);
     atk = HeldItemAtkGet(sp, sp->attack_client, 0);
 
-    if (GetBattlerAbility(sp, sp->attack_client) == ABILITY_STENCH) // stench adds 10% flinch chance
+    // stench adds 10% flinch chance if not holding flinchy item
+    if (GetBattlerAbility(sp, sp->attack_client) == ABILITY_STENCH && heldeffect != HOLD_EFFECT_INCREASE_FLINCH)
     {
         atk += 10;
         heldeffect = HOLD_EFFECT_INCREASE_FLINCH; // doesn't permanently change the hold effect, just for this function
     }
 
+    if (GetBattlerAbility(sp, sp->attack_client) == ABILITY_SERENE_GRACE) {
+        atk = atk * 2;
+    }
+
+    // This may still stack on moves that can flinch anyway?
     if (sp->defence_client != 0xFF)
     {
         if ((heldeffect == HOLD_EFFECT_INCREASE_FLINCH)

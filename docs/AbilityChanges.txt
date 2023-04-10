@@ -53,6 +53,10 @@ This now causes a Pokémon to take no damage and have its Special Attack boosted
 However, it doesn't cause a Special Attack boost if the Pokémon is immune to Electric-type moves anyway (i.e. if it's a Ground-type).
 (If an Electric-type Pokémon with this ability is hit by Thunder Wave, it does still get the Special Attack boost.)
 
+- Synchronize:
+This now badly poisons an attacker if the Pokémon with Synchronize is badly poisoned. Previously, Synchronize would only inflict regular poison back, regardless of if the Pokémon with Synchronize was badly posioned or normally poisoned.
+Otherwise, Synchronize works the same as it does in Gen 4.
+
 -------------------
 New Abilities
 -------------------

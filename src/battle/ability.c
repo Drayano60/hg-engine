@@ -2009,8 +2009,11 @@ BOOL SynchroniseAbilityCheck(void *bw, struct BattleStruct *sp, int server_seq_n
 
     if (ret == TRUE)
     {
-        if(sp->battlemon[sp->client_work].condition & STATUS_POISON_ANY) {
+        if(sp->battlemon[sp->client_work].condition & STATUS_FLAG_POISONED) {
             seq_no = SUB_SEQ_POISON_MON;
+        }
+        if(sp->battlemon[sp->client_work].condition & STATUS_FLAG_BADLY_POISONED) {
+            seq_no = SUB_SEQ_BADLY_POISON_MON;
         }
         else if(sp->battlemon[sp->client_work].condition & STATUS_FLAG_BURNED) {
             seq_no = SUB_SEQ_BURN_MON;

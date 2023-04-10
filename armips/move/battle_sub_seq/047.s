@@ -70,8 +70,12 @@ _032C:
     setstatus2effect BATTLER_ADDL_EFFECT, 0x2
     waitmessage
     changemondatabyvalue VAR_OP_SETMASK, BATTLER_ADDL_EFFECT, 0x34, 0x80
+    if IF_EQUAL, VAR_05, 0x3, _AbilityHandler
     if IF_EQUAL, VAR_05, 0x5, _037C
     printmessage 0x4F, 0x2, 0x7, "NaN", "NaN", "NaN", "NaN", "NaN"
+    goto _0390
+_AbilityHandler:
+    printmessage 0x55D, 0x24, 0xFF, 0x15, 0x7, "NaN", "NaN", "NaN"
     goto _0390
 _037C:
     printmessage 0x490, 0xF, 0x7, 0xFF, "NaN", "NaN", "NaN", "NaN"

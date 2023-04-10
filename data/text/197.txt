@@ -1371,3 +1371,10 @@ The foe’s {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nvaporized {STRVAR_1 6, 2,
 {STRVAR_1 1, 0, 0}’s Attack was not\nlowered by Intimidate because\fof its {STRVAR_1 5, 1, 0}!
 The wild {STRVAR_1 1, 0, 0}’s Attack was not\nlowered by Intimidate because\fof its {STRVAR_1 5, 1, 0}!
 The foe’s {STRVAR_1 1, 0, 0}’s Attack was not\nlowered by Intimidate because\fof its {STRVAR_1 5, 1, 0}!
+{STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nbadly poisoned {STRVAR_1 1, 2, 0}!
+{STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nbadly poisoned the wild {STRVAR_1 1, 2, 0}!
+{STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nbadly poisoned the foe’s {STRVAR_1 1, 2, 0}!
+The wild {STRVAR_1 1, 0, 0}’s\n{STRVAR_1 5, 1, 0} badly poisoned\f{STRVAR_1 1, 2, 0}!
+The wild {STRVAR_1 1, 0, 0}’s\n{STRVAR_1 5, 1, 0} badly poisoned\fthe wild {STRVAR_1 1, 2, 0}!
+The foe’s {STRVAR_1 1, 0, 0}’s\n{STRVAR_1 5, 1, 0} badly poisoned\f{STRVAR_1 1, 2, 0}!
+The foe’s {STRVAR_1 1, 0, 0}’s\n{STRVAR_1 5, 1, 0} badly poisoned\fthe foe’s {STRVAR_1 1, 2, 0}!

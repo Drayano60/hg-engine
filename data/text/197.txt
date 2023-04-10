@@ -1378,3 +1378,6 @@ The wild {STRVAR_1 1, 0, 0}’s\n{STRVAR_1 5, 1, 0} badly poisoned\f{STRVAR_1 1,
 The wild {STRVAR_1 1, 0, 0}’s\n{STRVAR_1 5, 1, 0} badly poisoned\fthe wild {STRVAR_1 1, 2, 0}!
 The foe’s {STRVAR_1 1, 0, 0}’s\n{STRVAR_1 5, 1, 0} badly poisoned\f{STRVAR_1 1, 2, 0}!
 The foe’s {STRVAR_1 1, 0, 0}’s\n{STRVAR_1 5, 1, 0} badly poisoned\fthe foe’s {STRVAR_1 1, 2, 0}!
+{STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nprevents it from falling for the taunt!
+The wild {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nprevents it from falling for the taunt!
+The foe’s {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nprevents it from falling for the taunt!

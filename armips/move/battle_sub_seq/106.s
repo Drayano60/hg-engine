@@ -9,6 +9,8 @@
 
 .create "build/move/battle_sub_seq/1_106", 0
 
+// Handle infatuation
+
 a001_106:
     moldbreakerabilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_OBLIVIOUS, _00E0
     if IF_MASK, VAR_10, 0x10001, _01B4

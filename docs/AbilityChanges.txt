@@ -19,6 +19,9 @@ For official abilities, the following are included and used in the game:
 Updated Abilities
 -------------------
 Some abilities that were available in Gen 4 were later updated to have additional or different effects. Some of these have been implemented, some have not. These are listed below.
+
+If an ability that changed between generations is not listed, I most likely forgot about it, so please let me know!
+
 Please note that only in-battle effects have changes at this time. Overworld effects cannot currently be changed and are the same as Gen 4, so abilities like Flash Fire and Storm Drain do not have their encounter forcing effects.
 
 Abilities Updated Accurately
@@ -52,6 +55,10 @@ The following abilities have their effects somewhat updated to work as they do i
 This now causes a Pokémon to take no damage and have its Special Attack boosted by one stage if it would be hit by an Electric-type move.
 However, it doesn't cause a Special Attack boost if the Pokémon is immune to Electric-type moves anyway (i.e. if it's a Ground-type).
 (If an Electric-type Pokémon with this ability is hit by Thunder Wave, it does still get the Special Attack boost.)
+
+- Oblivious:
+This now also prevents the Pokémon from being taunted in addition to blocking infatuation or the move Captivate.
+However, it does not cure an existing taunted effect if the Pokémon gains the Oblivious ability somehow after being taunted.
 
 - Synchronize:
 This now badly poisons an attacker if the Pokémon with Synchronize is badly poisoned. Previously, Synchronize would only inflict regular poison back, regardless of if the Pokémon with Synchronize was badly posioned or normally poisoned.

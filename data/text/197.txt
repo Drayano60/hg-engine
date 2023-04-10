@@ -688,8 +688,8 @@ The foe’s {STRVAR_1 1, 0, 0} traced the\nfoe’s {STRVAR_1 1, 1, 0}’s {STRVA
 The wild {STRVAR_1 1, 0, 0}’s\n{STRVAR_1 5, 1, 0} prevents burns!
 The foe’s {STRVAR_1 1, 0, 0}’s\n{STRVAR_1 5, 1, 0} prevents burns!
 {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nblocks {STRVAR_1 6, 2, 0}!
-The wild {STRVAR_1 1, 0, 0}’s\n{STRVAR_1 5, 1, 0} blocks\f{STRVAR_1 6, 2, 0}!
-The foe’s {STRVAR_1 1, 0, 0}’s\n{STRVAR_1 5, 1, 0} blocks\f{STRVAR_1 6, 2, 0}!
+The wild {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nblocks {STRVAR_1 6, 2, 0}!
+The foe’s {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nblocks {STRVAR_1 6, 2, 0}!
 {STRVAR_1 1, 0, 0} regained a little\nHP with its {STRVAR_1 5, 1, 0}!
 The wild {STRVAR_1 1, 0, 0} regained\na little HP with its {STRVAR_1 5, 1, 0}!
 The foe’s {STRVAR_1 1, 0, 0} regained\na little HP with its {STRVAR_1 5, 1, 0}!

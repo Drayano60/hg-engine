@@ -116,7 +116,6 @@ int MoveCheckDamageNegatingAbilities(struct BattleStruct *sp, int attacker, int 
     if (MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_FLASH_FIRE) == TRUE)
     {
         if ((movetype == TYPE_FIRE)
-         && ((sp->battlemon[defender].condition & STATUS_FLAG_FROZEN) == 0)
          && ((sp->server_status_flag & SERVER_STATUS_FLAG_x20) == 0)
          && ((sp->moveTbl[sp->current_move_index].power) || (sp->current_move_index == MOVE_WILL_O_WISP)))
         {
@@ -210,6 +209,22 @@ int MoveCheckDamageNegatingAbilities(struct BattleStruct *sp, int attacker, int 
         if ((movetype == TYPE_WATER) && (attacker != defender))
         {
             scriptnum = SUB_SEQ_HANDLE_LIGHTNING_ROD_RAISE_SPATK;
+        }
+    }
+
+    // Handle Overcoat's powder blocking effect
+    if (MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_OVERCOAT) == TRUE)
+    {
+        {
+            u32 i;
+
+            for (i = 0; i < NELEMS(PowderMoveList); i++){
+                if (PowderMoveList[i] == sp->current_move_index)
+                {
+                    scriptnum = SUB_SEQ_HANDLE_SOUNDPROOF;
+                    break;
+                }
+            }
         }
     }
 
@@ -1550,6 +1565,7 @@ BOOL MoveHitDefenderAbilityCheck(void *bw, struct BattleStruct *sp, int *seq_no)
                 && (sp->battlemon[sp->attack_client].condition == 0)
                 && (BattlePokemonParamGet(sp, sp->attack_client, BATTLE_MON_DATA_TYPE1, NULL) != TYPE_GRASS)
                 && (BattlePokemonParamGet(sp, sp->attack_client, BATTLE_MON_DATA_TYPE2, NULL) != TYPE_GRASS)
+                && (GetBattlerAbility(sp, sp->attack_client) != ABILITY_OVERCOAT)
                 && ((sp->waza_status_flag & WAZA_STATUS_FLAG_NO_OUT) == 0)
                 && ((sp->server_status_flag & SERVER_STATUS_FLAG_x20) == 0)
                 && ((sp->server_status_flag2 & SERVER_STATUS2_FLAG_x10) == 0)

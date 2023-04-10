@@ -9,6 +9,8 @@
 
 .create "build/move/battle_sub_seq/1_101", 0
 
+/* Handle Perish Song */
+
 a001_101:
     tryperishsong _00B8
     gotosubscript 76

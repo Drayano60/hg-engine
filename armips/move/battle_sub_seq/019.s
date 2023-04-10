@@ -9,6 +9,9 @@
 
 .create "build/move/battle_sub_seq/1_019", 0
 
+/* This might be handling the second turn of Yawn? Not sure */
+/* Soundproof checks might be related to Uproar effect */
+
 a001_019:
     abilitycheck 0x0, BATTLER_xFF, ABILITY_SOUNDPROOF, _0040
     if IF_NOTMASK, VAR_FIELD_EFFECT, 0xF00, _0040

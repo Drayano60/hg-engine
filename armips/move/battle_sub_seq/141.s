@@ -9,6 +9,8 @@
 
 .create "build/move/battle_sub_seq/1_141", 0
 
+/* Yawn turn 1 */
+
 a001_141:
     moldbreakerabilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_INSOMNIA, _010C
     moldbreakerabilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_VITAL_SPIRIT, _010C

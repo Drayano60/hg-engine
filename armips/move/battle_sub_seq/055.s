@@ -9,11 +9,20 @@
 
 .create "build/move/battle_sub_seq/1_055", 0
 
+/* This might be for Rest? */
+
 a001_055:
     printattackmessage
     waitmessage
     abilitycheck 0x0, BATTLER_ATTACKER, ABILITY_INSOMNIA, _018C
     abilitycheck 0x0, BATTLER_ATTACKER, ABILITY_VITAL_SPIRIT, _018C
+
+    /* Leaf Guard should also prevent Rest in sunlight */
+    checkcloudnine _SoundproofUproarCheck
+    if IF_NOTMASK, VAR_FIELD_EFFECT, 0x30, _SoundproofUproarCheck
+    abilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_LEAF_GUARD, _018C
+
+_SoundproofUproarCheck:
     ifmonstat IF_MASK, BATTLER_ATTACKER, MON_DATA_STATUS_1, 0x7, _01B0
     abilitycheck 0x0, BATTLER_ATTACKER, ABILITY_SOUNDPROOF, _0070
     if IF_MASK, VAR_FIELD_EFFECT, 0xF00, _01D0

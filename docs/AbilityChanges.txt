@@ -28,8 +28,17 @@ Abilities Updated Accurately
 --------------------------------------
 The following abilities have had their effects updated to work as they do in later generations:
 
+- Anger Point:
+Anger Point will no longer activate if the Pokémon with it takes a critical hit while behind a substitute.
+
 - Drizzle/Drought/Sand Stream/Snow Warning:
 These abilities no longer give a permanent weather effect, and instead activate the relevant weather effect for five turns. This becomes eight turns if the Pokémon with the ability is holding a weather extension item (the Damp Rock, Heat Rock, Smooth Rock or Icy Rock respectively).
+
+- Effect Spore:
+This no longer has any effect on Grass-type Pokémon or a Pokémon with the Overcoat ability.
+
+- Flash Fire:
+This ability now works even if the Pokémon is frozen.
 
 - Intimidate:
 Intimidate no longer works against a Pokémon with the Oblivious, Own Tempo, Inner Focus or Scrappy abilities.
@@ -38,14 +47,26 @@ Additionally, if a Pokémon with Rattled is intimidated, it will gain a boost to
 - Keen Eye:
 This now also ignores any changes to the target's evasion, in addition to its accuracy drop prevention (and the accuracy boosting effect new to Aurora Crystal).
 
+- Leaf Guard:
+This now prevents a Pokémon with it from using Rest in sunny weather.
+
+- Plus/Minus:
+Both of these abilities can now activate if the Pokémon's double battle partner has Plus or Minus as its ability.
+
+- Scrappy:
+This now also prevents Intimidate from working on the Pokémon.
+
+- Serene Grace:
+This now also doubles the chance of the King's Rock or Razor Claw taking effect.
+
 - Stench:
 This now gives any damaging move a 10% chance to flinch in addition to its normal effect (unless the move already has a chance to flinch). It does not stack with King's Rock or Razor Fang.
 
-- Storm Drain:
-This now causes a Pokémon to take no damage and have its Special Attack boosted by one stage if it would be hit by a Water-type move.
-
 - Sturdy:
 This now causes a Pokémon to live with 1 HP if it would be knocked out in one hit by a damaging move, in addition to blocking OHKO moves.
+
+- Technician:
+Technician now also boosts the damage of Struggle.
 
 Abilities Updated Semi-Accurately
 --------------------------------------
@@ -54,15 +75,113 @@ The following abilities have their effects somewhat updated to work as they do i
 - Lightning Rod:
 This now causes a Pokémon to take no damage and have its Special Attack boosted by one stage if it would be hit by an Electric-type move.
 However, it doesn't cause a Special Attack boost if the Pokémon is immune to Electric-type moves anyway (i.e. if it's a Ground-type).
-(If an Electric-type Pokémon with this ability is hit by Thunder Wave, it does still get the Special Attack boost.)
+If an Electric-type Pokémon with this ability is hit by Thunder Wave, it does still get the Special Attack boost.
+Additionally, it still does not redirect an Electric-type Judgment or Natural Gift.
 
 - Oblivious:
 This now also prevents the Pokémon from being taunted in addition to blocking infatuation or the move Captivate.
+As per the Intimidate update, it also prevents Intimidate from working on the Pokémon.
 However, it does not cure an existing taunted effect if the Pokémon gains the Oblivious ability somehow after being taunted.
+
+- Own Tempo:
+This now also prevents Intimidate from working on the Pokémon.
+If a Pokémon is somehow confused and has or gains Own Tempo, the confusion is still healed immediately instead of after the Pokémon takes a turn.
+
+- Storm Drain:
+This now causes a Pokémon to take no damage and have its Special Attack boosted by one stage if it would be hit by a Water-type move.
+However, it still does not redirect a Water-type Judgment or Natural Gift.
 
 - Synchronize:
 This now badly poisons an attacker if the Pokémon with Synchronize is badly poisoned. Previously, Synchronize would only inflict regular poison back, regardless of if the Pokémon with Synchronize was badly posioned or normally poisoned.
 Otherwise, Synchronize works the same as it does in Gen 4.
+
+- Trace:
+Trace is now unable to copy the abilities Flower Gift, Illusion, Imposter and Zen Mode.
+Unlike newer generations, it may still be able to activate later in battle if it fails to on the initial switch-in.
+
+- Wonder Guard:
+Wonder Guard now correctly blocks Fire Fang (if the Pokémon isn't weak to it), but is still susceptible to Beat Up, Doom Desire and Future Sight.
+
+Abilities Not Updated
+--------------------------------------
+Some abilities are not updated at all and still work exactly as they do in Gen 4; this is generally because the code to do so has not been exposed as of yet. Many of these are very minor interactions that you're unlikely to see often in the game, but they're listed here anyway for full disclosure.
+
+- Anticipation:
+The list of moves that can cause the shudder is still the same as in Gen 4. This means that Selfdestruct and Explosion can cause the shudder text, while Counter, Hidden Power, Metal Burst and Mirror Coat cannot. It correctly 
+
+- Arena Trap:
+This still causes Ghost-type Pokémon (who don't have Levitate) to be trapped.
+
+- Color Change:
+This still activates on the first hit of a multi-hit move instead of the last, and does not activate in response to Future Sight or Doom Desire.
+
+- Flower Gift:
+Cherrim's ability to transform into its Sunshine Form is still unaffected by whether it has Flower Gift or not.
+
+- Forecast:
+This does not revert Castform back to its normal form if the ability is somehow lost or disabled (e.g. Gastro Acid).
+
+- Frisk:
+Frisk will still only show one opponent's item in a double battle, with the opponent chosen randomly.
+
+- Guts:
+This still gives the Pokémon a damage boost if they attack with a self-thawing move like Flame Wheel when they are frozen.
+
+- Hustle/Rivalry:
+These still boost self-inflicted confusion damage.
+(Rivalry also has a modified effect and is listed in a different section.)
+
+- Immunity/Insomnia/Limber/Magma Armor/Vital Spirit/Water Veil:
+If this is a Pokémon's natural ability, but it has been replaced/disabled and the Pokémon switches out, this ability will still silently cure the Pokémon of its condition when it switches out.
+(Magma Armor also has a modified effect and is listed in a different section.)
+
+- Klutz:
+A Pokémon with Klutz still gains no effects if it uses Pluck or Bug Bite to consume an opponent's Berry, still has its Speed dropped if it holds an Iron Ball, and is still able to use Fling.
+
+- Magic Guard:
+A Pokémon with Magic Guard is still unable to be poisoned by Toxic Spikes, and also can not be fully paralyzed on a turn.
+
+- Magnet Pull:
+This still causes Ghost-type Pokémon (if they have a secondary Steel type) to be trapped.
+
+- Mold Breaker:
+This has no effect on the effectiveness of hazards when switching a Pokémon in with Roar or Whirlwind.
+
+- Multitype:
+Multitype still blocks various item stealing/removing effects, regardless of if the Pokémon with Multitype is holding a Plate or not.
+
+- Normalize:
+Normalize still affects Hidden Power, Weather Ball, Natural Gift and Judgment.
+Additionally, it does not provide the 20% power boost to moves.
+
+- Pickup:
+This does not have any effect during battle (i.e. it does not pick up a used item if the Pokémon has no held item).
+
+- Pressure:
+An ally of the Pokémon with Pressure will still use an additional 1 PP if it targets the Pokémon with Pressure with a move.
+Pressure has no effect on the PP consumption of moves that don't directly target the Pokémon (e.g. Imprison, Snatch).
+
+- Simple:
+A Pokémon with Simple will still display its stats going up or down the regular amount, but the effect of the stat changes will be doubled during damage calculation (up to +6 or -6 stages).
+As a result, Psych Up only copies the normal stat changes instead of the doubled ones.
+
+- Skill Link:
+Skill Link does not have any effect on multi-hit moves that have individual accuracy checks for each hit (Triple Kick, Triple Axel, the new Piddly Punches).
+
+- Sniper:
+Sniper still changes the critical damage to 3x (from 2x). It also cannot be activated by Beat Up.
+
+- Soundproof:
+Pokémon with Soundproof are still unaffected by Heal Bell in all cases.
+
+- Speed Boost:
+This ability still activates on the same turn as the Pokémon fails to run from a wild encounter.
+
+- Stall:
+A Pokémon with Stall will move before a Pokémon that holds a Lagging Tail or Full Incense.
+
+- Sticky Hold:
+If a Pokémon with Sticky Hold is knocked out, their held item is still unable to be stolen on the turn they faint.
 
 -------------------
 New Abilities

@@ -239,8 +239,8 @@ The following moves have had their effects updated to work as they do in later g
 - Chatter:
 This now always confuses the opponent.
 
-Defog:
-- This now removes entry hazards (Spikes, Toxic Spikes, Stealth Rock) on both sides of the field instead of just the opponent's.
+- Defog:
+This now removes entry hazards (Spikes, Toxic Spikes, Stealth Rock) on both sides of the field instead of just the opponent's.
 
 - Growth:
 This now boosts both Attack and Special Attack by one stage. In sunlight, it boosts them by two stages instead.
@@ -264,6 +264,9 @@ These moves now ignore Protect and Detect.
 
 - Rapid Spin:
 This now boosts the user's Speed stat by one stage in addition to its hazard removal.
+
+- Role Play:
+This is now unable to copy Flower Gift, Forecast, Illusion, Imposter, Trace and Zen Mode (in addition to Multitype and Wonder Guard).
 
 - String Shot:
 This now drops the targets' Speed stat by two stages instead of one.

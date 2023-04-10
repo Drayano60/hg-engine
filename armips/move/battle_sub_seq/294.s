@@ -9,6 +9,9 @@
 
 .create "build/move/battle_sub_seq/1_294", 0
 
+// Handle regular sunlight
+// Unclear if used?
+
 a001_294:
     setstatus2effect BATTLER_PLAYER, 0x16
     waitmessage

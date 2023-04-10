@@ -25,6 +25,9 @@ Abilities Updated Accurately
 --------------------------------------
 The following abilities have had their effects updated to work as they do in later generations:
 
+- Drizzle/Drought/Sand Stream/Snow Warning:
+These abilities no longer give a permanent weather effect, and instead activate the relevant weather effect for five turns. This becomes eight turns if the Pokémon with the ability is holding a weather extension item (the Damp Rock, Heat Rock, Smooth Rock or Icy Rock respectively).
+
 - Keen Eye:
 This now also ignores any changes to the target's evasion, in addition to its accuracy drop prevention (and the accuracy boosting effect new to Aurora Crystal).
 

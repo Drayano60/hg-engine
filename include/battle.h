@@ -411,8 +411,8 @@ struct __attribute__((packed)) OneTurnEffect
     u32 yokodori_flag : 1;
     u32 haneyasume_flag : 1;
     u32 escape_flag : 2;
-    u32 prevent_one_hit_ko_ability : 1;
-    u32 : 22;
+    u32 prevent_one_hit_ko_ability : 2;
+    u32 : 21;
 
     int physical_damage[4];
     int physical_damager;

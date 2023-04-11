@@ -1384,3 +1384,6 @@ The foe’s {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nprevents it from falling 
 {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0} negates\nthe effects of weather!
 The wild {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0} negates\nthe effects of weather!
 The foe’s {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0} negates\nthe effects of weather!
+{STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nlet it endure the hit!
+The wild {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nlet it endure the hit!
+The foe’s {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nlet it endure the hit!

@@ -837,7 +837,7 @@ void ServerHPCalc(void *bw, struct BattleStruct *sp)
             {
                 if ((MoldBreakerAbilityCheck(sp, sp->attack_client, sp->defence_client, ABILITY_STURDY) == TRUE) && (sp->battlemon[sp->defence_client].hp == sp->battlemon[sp->defence_client].maxhp))
                 {
-                    sp->oneTurnFlag[sp->defence_client].prevent_one_hit_ko_ability = 1;
+                    sp->oneTurnFlag[sp->defence_client].prevent_one_hit_ko_ability = 2;
                 }
                 else if ((eqp == HOLD_EFFECT_FOCUS_BAND) && ((BattleRand(bw) % 100) < atk))
                 {
@@ -853,7 +853,13 @@ void ServerHPCalc(void *bw, struct BattleStruct *sp)
                 if ((sp->battlemon[sp->defence_client].hp + sp->damage) <= 0)
                 {
                     sp->damage = (sp->battlemon[sp->defence_client].hp - 1) * -1;
-                    if (sp->oneTurnFlag[sp->defence_client].prevent_one_hit_ko_ability)
+                    if (sp->oneTurnFlag[sp->defence_client].prevent_one_hit_ko_ability > 1)
+                    {
+                        /* This is to differentiate between Sturdy and Endure for the message display */
+                        sp->waza_status_flag |= MOVE_STATUS_FLAG_HELD_ON_ABILITY;
+                        sp->waza_status_flag |= MOVE_STATUS_FLAG_HELD_ON_ITEM;
+                    }
+                    else if (sp->oneTurnFlag[sp->defence_client].prevent_one_hit_ko_ability)
                     {
                         sp->waza_status_flag |= MOVE_STATUS_FLAG_HELD_ON_ABILITY;
                     }

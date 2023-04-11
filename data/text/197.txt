@@ -1381,4 +1381,6 @@ The foe’s {STRVAR_1 1, 0, 0}’s\n{STRVAR_1 5, 1, 0} badly poisoned\fthe foe�
 {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nprevents it from falling for the taunt!
 The wild {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nprevents it from falling for the taunt!
 The foe’s {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nprevents it from falling for the taunt!
-The effects of weather disappeared.
+{STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0} negates\nthe effects of weather!
+The wild {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0} negates\nthe effects of weather!
+The foe’s {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0} negates\nthe effects of weather!

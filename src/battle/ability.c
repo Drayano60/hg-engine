@@ -1202,13 +1202,16 @@ u32 TurnEndAbilityCheck(void *bw, struct BattleStruct *sp, int client_no)
         case ABILITY_MOODY: // this is going to be interesting
             if (sp->battlemon[client_no].hp)
             {
-                int temp = BattleRand(bw) % 7;
+                /* 7 includes accuracy/evasion which isn't accurate as of Gen 8 */
+                // int temp = BattleRand(bw) % 7;
+                int temp = BattleRand(bw) % 5;
 
                 if (AreAnyStatsNotAtValue(sp, client_no, 12)) // if any stat can be lowered
                 {
                     while (sp->battlemon[client_no].states[temp] == 12)
                     {
-                        temp = BattleRand(bw) % 7;
+                        // temp = BattleRand(bw) % 7;
+                        temp = BattleRand(bw) % 5;
                     }
                 }
                 else
@@ -1217,15 +1220,17 @@ u32 TurnEndAbilityCheck(void *bw, struct BattleStruct *sp, int client_no)
                 }
                 sp->calc_work = temp; // VAR_09
 
-
-                temp = BattleRand(bw) % 7;
+                /* 7 includes accuracy/evasion which isn't accurate */
+                // temp = BattleRand(bw) % 7;
+                temp = BattleRand(bw) % 5;
 
                 if (AreAnyStatsNotAtValue(sp, client_no, 0)) // if any stat can be raised
                 {
                     while (sp->battlemon[client_no].states[temp] == 0
                         || temp == sp->calc_work)
                     {
-                        temp = BattleRand(bw) % 7;
+                        // temp = BattleRand(bw) % 7;
+                        temp = BattleRand(bw) % 5;
                     }
                 }
                 else

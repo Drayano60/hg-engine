@@ -40,6 +40,9 @@ This no longer has any effect on Grass-type Pokémon or a Pokémon with the Over
 - Flash Fire:
 This ability now works even if the Pokémon is frozen.
 
+- Inner Focus:
+This now also prevents Intimidate from working on the Pokémon.
+
 - Intimidate:
 Intimidate no longer works against a Pokémon with the Oblivious, Own Tempo, Inner Focus or Scrappy abilities.
 Additionally, if a Pokémon with Rattled is intimidated, it will gain a boost to its Speed stat.

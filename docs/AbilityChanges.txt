@@ -109,6 +109,9 @@ Abilities Not Updated
 --------------------------------------
 Some abilities are not updated at all and still work exactly as they do in Gen 4; this is generally because the code to do so has not been exposed as of yet. Many of these are very minor interactions that you're unlikely to see often in the game, but they're listed here anyway for full disclosure.
 
+- Air Lock/Cloud Nine:
+These abilities do not display a message when the Pokémon switches in, but is otherwise the same.
+
 - Anticipation:
 The list of moves that can cause the shudder is still the same as in Gen 4. This means that Selfdestruct and Explosion can cause the shudder text, while Counter, Hidden Power, Metal Burst and Mirror Coat cannot.
 

@@ -48,7 +48,7 @@ Intimidate no longer works against a Pokémon with the Oblivious, Own Tempo, Inn
 Additionally, if a Pokémon with Rattled is intimidated, it will gain a boost to its Speed stat.
 
 - Keen Eye:
-This now also ignores any changes to the target's evasion, in addition to its accuracy drop prevention (and the accuracy boosting effect new to Aurora Crystal).
+This now also ignores any changes to the target's evasion, in addition to its accuracy drop prevention (and the accuracy boosting effect new to Aurora Crystal). This is not listed in-game as there's not enough space!
 
 - Leaf Guard:
 This now prevents a Pokémon with it from using Rest in sunny weather.

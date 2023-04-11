@@ -288,6 +288,7 @@ enum
     SWITCH_IN_CHECK_FAIRY_AURA,
     SWITCH_IN_CHECK_AURA_BREAK,
     SWITCH_IN_CHECK_IMPOSTER,
+    SWITCH_IN_CHECK_AIR_LOCK,
     SWITCH_IN_CHECK_END,
 };
 
@@ -1077,6 +1078,30 @@ int SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
                         sp->battlemon[sp->attack_client].pp[i] = 5;
                     }
                 }
+                break;
+            case SWITCH_IN_CHECK_AIR_LOCK:
+                for (i = 0; i < client_set_max; i++)
+                {
+                    client_no = sp->turn_order[i];
+                    if ((sp->battlemon[client_no].air_lock_flag == 0)
+                        && (sp->battlemon[client_no].hp)
+                        && ((GetBattlerAbility(sp, client_no) == ABILITY_CLOUD_NINE) ||
+                            (GetBattlerAbility(sp, client_no) == ABILITY_AIR_LOCK)))
+                    {
+                        sp->battlemon[client_no].air_lock_flag = 1;
+                        sp->client_work = client_no;
+
+                        scriptnum = SUB_SEQ_HANDLE_AIR_LOCK_MESSAGE;
+
+                        ret = SWITCH_IN_CHECK_MOVE_SCRIPT;
+                        break;
+                    }
+                }
+                if (i == client_set_max)
+                {
+                    sp->switch_in_check_seq_no++;
+                }
+
                 break;
                 // 02253D78
             case SWITCH_IN_CHECK_END:

@@ -43,14 +43,14 @@ It fully restores the PP of all the\nmoves learned by the targeted\nPokémon.
 Lavaridge Town’s local specialty.\nIt heals all the status problems of\none Pokémon.
 A 100% pure juice made of Berries.\nIt restores the HP of one Pokémon by\njust 20 points.
 It revives all fainted Pokémon.\nIn doing so, it also fully restores\ntheir HP.
-A nutritious drink for Pokémon.\nIt raises the base HP of a single\nPokémon.
-A nutritious drink for Pokémon.\nIt raises the base Attack stat of a\nsingle Pokémon.
-A nutritious drink for Pokémon.\nIt raises the base Defense stat of a\nsingle Pokémon.
-A nutritious drink for Pokémon.\nIt raises the base Speed stat of a\nsingle Pokémon.
-A nutritious drink for Pokémon.\nIt raises the base Sp. Atk (Special\nAttack) stat of a single Pokémon.
+A nutritious drink for Pokémon.\nIt gives a Pokémon an additional 10 EVs\nin its HP stat.
+A nutritious drink for Pokémon.\nIt gives a Pokémon an additional 10 EVs\nin its Attack stat.
+A nutritious drink for Pokémon.\nIt gives a Pokémon an additional 10 EVs\nin its Defense stat.
+A nutritious drink for Pokémon.\nIt gives a Pokémon an additional 10 EVs\nin its Speed stat.
+A nutritious drink for Pokémon.\nIt gives a Pokémon an additional 10 EVs\nin its Sp. Atk stat.
 A candy that is packed with energy.\nIt raises the level of a single Pokémon\nby one.
 It slightly raises the maximum PP of\na selected move that has been learned\nby the target Pokémon.
-A nutritious drink for Pokémon.\nIt raises the base Sp. Def (Special\nDefense) stat of a single Pokémon.
+A nutritious drink for Pokémon.\nIt gives a Pokémon an additional 10 EVs\nin its Sp. Def stat.
 It maximally raises the top PP of a\nselected move that has been learned\nby the target Pokémon.
 Old Chateau’s hidden specialty.\nIt heals all the status problems of a\nsingle Pokémon.
 An item that prevents stat reduction\namong the Trainer’s party Pokémon\nfor five turns after use.

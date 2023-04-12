@@ -20,6 +20,7 @@ The following items were updated:
 - The King's Rock and Razor Claw now apply to all moves that do not already have a chance to flinch.
 - The Soul Dew now provides a 20% boost to Latios or Latias's Dragon and Psychic moves instead of heavily boosting Sp. Atk and Sp. Def. Additionally, it now works inside battle facilities.
 - The Power Weight, Bracer, Belt, Lens, Band and Anklet items now give 8 EVs of the relevant stat to a Pokémon holding it when defeating a Pokémon (up from 4 EVs).
+- All vitamin items (Protein, Iron etc.) no longer have an 100 EV per stat cap and can be used until the stat is maxed. The EV cap for each stat is also reduced to 252 (from 255).
 
 The following items are somewhat updated:
 - The Grip Claw fixes the duration of a binding move to six turns instead of seven. (This is because the way the game stores the data means six is the maximum turns possible).
@@ -27,7 +28,6 @@ The following items are somewhat updated:
 
 The following items are not updated:
 - All Poké Balls retain their catch rates from Gen 4. It's also unclear if the Moon Ball works on newly added Moon Stone evolutions (e.g. Eevee).
-- All vitamins are unable to be used on a stat that has already reached 100 EVs. (?)
 - Rare Candies cannot be used on a Lv. 100 Pokémon.
 - X items still only raise a stat by one stage.
 - Repels do not prompt you to use another one when they run out.

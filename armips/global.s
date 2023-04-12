@@ -34,6 +34,8 @@
 .include "armips/asm/custom/title_screen_cry.s"
 .include "armips/asm/custom/fury_cutter_counter.s"
 .include "armips/asm/custom/encore_counter.s"
+.include "armips/asm/custom/ev_cap.s"
+.include "armips/asm/custom/vitamins.s"
 
 .if FAIRY_TYPE_IMPLEMENTED == 1
 

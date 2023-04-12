@@ -1,20 +1,20 @@
 ???
 The best Ball with the ultimate level of\nperformance. It will catch any wild\nPokémon without fail.
-An ultra-performance Ball that\nprovides a higher Pokémon catch rate\nthan a Great Ball.
-A good, high-performance Ball that\nprovides a higher Pokémon catch rate\nthan a standard Poké Ball.
+An ultra-performance Ball.\nIts Pokémon catch rate is double the\nrate of a standard Poké Ball.
+A good, high-performance Ball.\nIts Pokémon catch rate is 1.5 times\nthe rate of a standard Poké Ball.
 A device for catching wild Pokémon.\nIt is thrown like a ball at the target.\nIt is designed as a capsule system.
-A special Poké Ball that is used only in\nthe Great Marsh. It is decorated in a\ncamouflage pattern.
-A somewhat different Poké Ball that\nworks especially well on Water- and\nBug-type Pokémon.
-A somewhat different Poké Ball that\nworks especially well on Pokémon that\nlive in the sea.
-A somewhat different Poké Ball that\nworks especially well on weaker\nPokémon in the wild.
-A somewhat different Poké Ball that\nworks especially well on Pokémon\nspecies that were previously caught.
-A somewhat different Ball that\nbecomes progressively better the\nmore turns there are in a battle.
-A comfortable Poké Ball that makes a\ncaught wild Pokémon quickly grow\nfriendly.
-A somewhat rare Poké Ball that has\nbeen specially made to commemorate\nan event of some sort.
-A somewhat different Poké Ball that\nmakes it easier to catch wild Pokémon\nat night or in dark places like caves.
-A remedial Poké Ball that restores the\ncaught Pokémon’s HP and eliminates\nany status problem.
-A somewhat different Poké Ball that\nprovides a better catch rate if it is\nused at the start of a wild encounter.
-A quite rare Poké Ball that has been\nspecially crafted to commemorate\nan occasion of some sort.
+A special Ball used in Safari Games.\nIts Pokémon catch rate is 1.5 times\nthe rate of a standard Poké Ball.
+This Ball’s Pokémon catch rate is triple\na standard Poké Ball’s rate when used\non a Water or Bug-type Pokémon.
+This Ball’s Pokémon catch rate is 3.5\ntimes a standard Poké Ball’s rate when\nused on a Pokémon found in or on water.
+This Ball’s Pokémon catch rate can be up\nto 4 times a standard Poké Ball’s rate\nif used on a Pokémon below Level 30.
+This Ball’s Pokémon catch rate is triple\na standard Poké Ball’s rate when used\non a species that was previously caught.
+This Ball’s Pokémon catch rate can be up\nto 4 times a standard Poké Ball’s rate,\nincreasing with more turns in battle.
+This Ball’s Pokémon catch rate is equal\nto a standard Poké Ball, but a Pokémon\ncaught with it will quickly grow friendly.
+A rare Ball that has been specially made\nto commemorate an event. Its catch\nrate is equal to a standard Poké Ball.
+This Ball’s Pokémon catch rate is 3.5\ntimes a standard Poké Ball’s rate when\nused at night or inside a cave.
+This Ball’s Pokémon catch rate is equal\nto a standard Poké Ball, but a Pokémon\ncaught with it will be fully healed.
+This Ball’s Pokémon catch rate is\nquadruple a standard Poké Ball’s rate\nif used at the start of a wild encounter.
+A rare Ball that has been specially made\nto commemorate an occasion. Its catch\nrate is equal to a standard Poké Ball.
 A spray-type medicine for wounds.\nIt restores the HP of one Pokémon by\njust 20 points.
 A spray-type medicine.\nIt lifts the effect of poison from one\nPokémon.
 A spray-type medicine.\nIt heals a single Pokémon that is\nsuffering from a burn.
@@ -490,14 +490,14 @@ A green Apricorn.\nIt has a mysterious, aromatic scent.
 A pink Apricorn.\nIt has a nice, sweet scent.
 A white Apricorn.\nIt doesn’t smell like anything.
 A black Apricorn\nIt has an indescribable scent.
-A Poké Ball that makes it easier to\ncatch fast Pokémon.
-A Poké Ball for catching Pokémon that\nare a lower level than your own.
-A Poké Ball for catching Pokémon hooked\nby a Rod when fishing.
-A Poké Ball for catching very heavy\nPokémon.
-Poké Ball for catching Pokémon that are\nthe opposite gender of your Pokémon.
-A Poké Ball that makes caught Pokémon\nmore friendly.
-A Poké Ball for catching Pokémon that\nevolve using the Moon Stone.
-A special Poké Ball for the\nBug-Catching Contest.
+This Ball’s catch rate is quadruple a\nstandard Poké Ball’s rate if used on a\nPokémon with 100 or more base Speed.
+This Ball’s catch rate can be up to 8\ntimes a standard Poké Ball’s rate on a\nPokémon of a lower level than your own.
+This Ball’s Pokémon catch rate is triple\na standard Poké Ball’s rate when used\non a Pokémon hooked by a Rod.
+This Ball’s Pokémon catch rate gains a\nflat bonus to the standard Poké Ball’s\nrate depending on the Pokémon’s weight.
+This Ball has 8 times the regular rate if\nused on a Pokémon of the same species\nand the opposite gender to your own.
+This Ball’s Pokémon catch rate is equal\nto a standard Poké Ball, but a Pokémon\ncaught with it will instantly be friendly.
+This Ball’s catch rate is quadruple a\nstandard Poké Ball’s rate if used on a\nPokémon that evolves with a Moon Stone.
+A Ball used in the Bug-Catching Contest.\nIts Pokémon catch rate is 1.5 times\nthe rate of a standard Poké Ball.
 A special Poké Ball for the Pal Park.
 A nice photo album for storing all the\nphotos taken along your adventure.
 A music player that allows you to listen\nto nostalgic songs. It’s operated with\na single switch.

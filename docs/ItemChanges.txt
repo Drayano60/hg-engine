@@ -3,7 +3,28 @@ Included Items
 -------------------
 - Everything from Gen 4
 - Eviolite
-- Assault Vest
+- Assault Vest (makes status moves fail instead of being unselectable)
+- Devon Scope
+- GS Ball
+- Ice Stone
+- Prism Scale
+- Linking Cord
+
+-------------------
+Cost Changes
+-------------------
+- Ultra Ball: 1200 -> 800
+- Great Ball: 600 -> 400
+- Poké Ball: 200 -> 100
+- Full Heal: 600 -> 500
+- Super Repel: 500 -> 400
+- Max Repel: 700 -> 500
+- Escape Rope: 550 -> 200
+- Repel: 350 -> 200
+- Sun/Moon/Fire/Thunder/Water/Leaf/Shiny/Dusk/Dawn/Oval Stone: 2100 -> 3000
+- King's Rock/Metal Coat: 100 -> 3000
+- Deep Sea Tooth/Scale: 200 -> 3000
+- Dragon Scale/Upgrade/Protector/Electirizer/Magmarizer/Dubious Disc/Reaper Cloth/Razor Claw/Razor Fang: 2100 -> 3000
 
 -------------------
 Updated Items
@@ -21,6 +42,9 @@ The following items were updated:
 - The Soul Dew now provides a 20% boost to Latios or Latias's Dragon and Psychic moves instead of heavily boosting Sp. Atk and Sp. Def. Additionally, it now works inside battle facilities.
 - The Power Weight, Bracer, Belt, Lens, Band and Anklet items now give 8 EVs of the relevant stat to a Pokémon holding it when defeating a Pokémon (up from 4 EVs).
 - All vitamin items (Protein, Iron etc.) no longer have an 100 EV per stat cap and can be used until the stat is maxed. The EV cap for each stat is also reduced to 252 (from 255).
+- All TMs can now be used an infinite amount of times, and cannot be sold.
+- The Stick, Lunar Wing and Secret Potion are known as the Leek, Lunar Feather and Secret Medicine respectively (as is the case in Gen 8). Spelling is updated for all items.
+- Evolution items that are normally for trade evolutions only can now be used like an evolution stone.
 
 The following items are somewhat updated:
 - The Grip Claw fixes the duration of a binding move to six turns instead of seven. (This is because the way the game stores the data means six is the maximum turns possible).

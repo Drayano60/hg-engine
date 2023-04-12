@@ -29,7 +29,7 @@ The following items are not updated:
 - All Poké Balls retain their catch rates from Gen 4. It's also unclear if the Moon Ball works on newly added Moon Stone evolutions (e.g. Eevee).
 - All vitamins are unable to be used on a stat that has already reached 100 EVs. (?)
 - Rare Candies cannot be used on a Lv. 100 Pokémon.
-- X items still only raise a stat by one stage. (?)
+- X items still only raise a stat by one stage.
 - Repels do not prompt you to use another one when they run out.
 - Escape Ropes are still consumable items instead of a key item.
 - The Figy, Wiki, Mago, Aguav and Iapapa Berries still recover 12.5% max HP when the Pokémon's HP reaches 50% or below.

@@ -679,6 +679,7 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
     if (AttackingMon.item_held_effect == HOLD_EFFECT_CHOICE_SPECS)
         sp_attack = sp_attack * 150 / 100;
 
+    /* Old Soul Dew Effect
     // handle soul dew
     if ((AttackingMon.item_held_effect == HOLD_EFFECT_SOUL_DEW) &&
         ((battle_type & BATTLE_TYPE_BATTLE_TOWER) == 0) &&
@@ -689,6 +690,16 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
         ((battle_type & BATTLE_TYPE_BATTLE_TOWER) == 0) &&
         ((DefendingMon.species == SPECIES_LATIOS) || (DefendingMon.species == SPECIES_LATIAS)))
         sp_defense = sp_defense * 150 / 100;
+    */
+
+    /* New Soul Dew */
+    if (
+        (AttackingMon.item_held_effect == HOLD_EFFECT_SOUL_DEW) &&
+        ((AttackingMon.species == SPECIES_LATIOS) || (AttackingMon.species == SPECIES_LATIAS)) &&
+        ((movetype == TYPE_DRAGON) || (movetype == TYPE_PSYCHIC))
+    ) {
+        movepower = movepower * 120 / 100;
+    }
 
     // handle deep sea tooth
     if ((AttackingMon.item_held_effect == HOLD_EFFECT_DEEP_SEA_TOOTH) && (AttackingMon.species == SPECIES_CLAMPERL))

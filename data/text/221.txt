@@ -23,17 +23,17 @@ A spray-type medicine.\nIt awakens a Pokémon from the\nclutches of sleep.
 A spray-type medicine.\nIt eliminates paralysis from a single\nPokémon.
 A medicine that fully restores the HP\nand heals any status problems of a\nsingle Pokémon.
 A spray-type medicine for wounds.\nIt completely restores the HP of a\nsingle Pokémon.
-A spray-type medicine for wounds.\nIt restores the HP of one Pokémon by\n200 points.
-A spray-type medicine for wounds.\nIt restores the HP of one Pokémon by\n50 points.
+A spray-type medicine for wounds.\nIt restores the HP of one Pokémon by\n120 points.
+A spray-type medicine for wounds.\nIt restores the HP of one Pokémon by\n60 points.
 A spray-type medicine.\nIt heals all the status problems of a\nsingle Pokémon.
 A medicine that revives a fainted\nPokémon. It restores half the\nPokémon’s maximum HP.
 A medicine that revives a fainted\nPokémon. It fully restores the\nPokémon’s HP.
-Water with a high mineral content.\nIt restores the HP of one Pokémon by\n50 points.
-A fizzy soda drink.\nIt restores the HP of one Pokémon by\n60 points.
-A very sweet drink.\nIt restores the HP of one Pokémon by\n80 points.
+Water with a high mineral content.\nIt restores the HP of one Pokémon by\n30 points.
+A fizzy soda drink.\nIt restores the HP of one Pokémon by\n50 points.
+A very sweet drink.\nIt restores the HP of one Pokémon by\n70 points.
 Milk with a very high nutrition content.\nIt restores the HP of one Pokémon by\n100 points.
-A very bitter medicine powder.\nIt restores the HP of one Pokémon by\n50 points.
-A very bitter root.\nIt restores the HP of one Pokémon by\n200 points.
+A very bitter medicine powder.\nIt restores the HP of one Pokémon by\n60 points.
+A very bitter root.\nIt restores the HP of one Pokémon by\n120 points.
 A very bitter medicine powder.\nIt heals all the status problems of a\nsingle Pokémon.
 A very bitter medicinal herb.\nIt revives a fainted Pokémon, fully\nrestoring its HP.
 It restores the PP of a Pokémon’s\nselected move by a maximum of\n10 points.
@@ -287,12 +287,12 @@ A Pokémon held item that extends the\nduration of the move Rain Dance used\nby 
 A Pokémon held item that extends the\nduration of multiturn attacks like\nBind and Wrap.
 An item to be held by a Pokémon.\nThis scarf boosts Speed, but allows\nthe use of only one kind of move.
 A held item that damages the holder on\nevery turn. It may latch on to foes\nthat touch the holder.
-A Pokémon held item that promotes\nAttack gain on leveling, but reduces\nthe Speed stat.
-A Pokémon held item that promotes\nDefense gain on leveling, but reduces\nthe Speed stat.
-A Pokémon held item that promotes\nSp. Atk gain on leveling, but reduces\nthe Speed stat.
-A Pokémon held item that promotes\nSp. Def gain on leveling, but reduces\nthe Speed stat.
-A Pokémon held item that promotes\nSpeed gain on leveling, but reduces\nthe Speed stat.
-A Pokémon held item that promotes\nHP gain on leveling, but reduces the\nSpeed stat.
+A held item that awards a Pokémon 8 EVs\nin Attack when it gains experience.\nHowever, it reduces Speed in battle.
+A held item that awards a Pokémon 8 EVs\nin Defense when it gains experience.\nHowever, it reduces Speed in battle.
+A held item that awards a Pokémon 8 EVs\nin Sp. Atk when it gains experience.\nHowever, it reduces Speed in battle.
+A held item that awards a Pokémon 8 EVs\nin Sp. Def when it gains experience.\nHowever, it reduces Speed in battle.
+A held item that awards a Pokémon 8 EVs\nin Speed when it gains experience.\nHowever, it reduces Speed in battle.
+A held item that awards a Pokémon 8 EVs\nin HP when it gains experience.\nHowever, it reduces Speed in battle.
 A tough, discarded carapace to be held\nby a Pokémon. It enables the holder to\nswitch with a waiting Pokémon in battle.
 A Pokémon held item that boosts the\npower of HP-stealing moves to let the\nholder recover more HP.
 An item to be held by a Pokémon. These\ndistinctive glasses boost Sp. Atk, but\nallow only one kind of move to be used.

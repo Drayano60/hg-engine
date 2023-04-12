@@ -1639,6 +1639,7 @@ const ITEMDATA __data[] =
     },
 },
 
+// Updated
 [ITEM_HYPER_POTION] =
 {
     .price = 1200,
@@ -1696,7 +1697,7 @@ const ITEMDATA __data[] =
         .speed_ev_up_param = 0,
         .spatk_ev_up_param = 0,
         .spdef_ev_up_param = 0,
-        .hp_restore_param = 200,
+        .hp_restore_param = 120, // 200,
         .pp_restore_param = 0,
         .friendship_mod_lo_param =  0,
         .friendship_mod_med_param = 0,
@@ -1704,6 +1705,7 @@ const ITEMDATA __data[] =
     },
 },
 
+// Updated
 [ITEM_SUPER_POTION] =
 {
     .price = 700,
@@ -1761,7 +1763,7 @@ const ITEMDATA __data[] =
         .speed_ev_up_param = 0,
         .spatk_ev_up_param = 0,
         .spdef_ev_up_param = 0,
-        .hp_restore_param = 50,
+        .hp_restore_param = 60, // 50,
         .pp_restore_param = 0,
         .friendship_mod_lo_param =  0,
         .friendship_mod_med_param = 0,
@@ -1965,6 +1967,7 @@ const ITEMDATA __data[] =
     },
 },
 
+// Updated
 [ITEM_FRESH_WATER] =
 {
     .price = 200,
@@ -2022,7 +2025,7 @@ const ITEMDATA __data[] =
         .speed_ev_up_param = 0,
         .spatk_ev_up_param = 0,
         .spdef_ev_up_param = 0,
-        .hp_restore_param = 50,
+        .hp_restore_param = 60, // 30,
         .pp_restore_param = 0,
         .friendship_mod_lo_param =  0,
         .friendship_mod_med_param = 0,
@@ -2030,6 +2033,7 @@ const ITEMDATA __data[] =
     },
 },
 
+// Updated
 [ITEM_SODA_POP] =
 {
     .price = 300,
@@ -2087,7 +2091,7 @@ const ITEMDATA __data[] =
         .speed_ev_up_param = 0,
         .spatk_ev_up_param = 0,
         .spdef_ev_up_param = 0,
-        .hp_restore_param = 60,
+        .hp_restore_param = 50, // 60,
         .pp_restore_param = 0,
         .friendship_mod_lo_param =  0,
         .friendship_mod_med_param = 0,
@@ -2095,6 +2099,7 @@ const ITEMDATA __data[] =
     },
 },
 
+// Updated
 [ITEM_LEMONADE] =
 {
     .price = 350,
@@ -2152,7 +2157,7 @@ const ITEMDATA __data[] =
         .speed_ev_up_param = 0,
         .spatk_ev_up_param = 0,
         .spdef_ev_up_param = 0,
-        .hp_restore_param = 80,
+        .hp_restore_param = 70, // 80,
         .pp_restore_param = 0,
         .friendship_mod_lo_param =  0,
         .friendship_mod_med_param = 0,
@@ -2225,6 +2230,7 @@ const ITEMDATA __data[] =
     },
 },
 
+// Updated
 [ITEM_ENERGYPOWDER] =
 {
     .price = 500,
@@ -2282,7 +2288,7 @@ const ITEMDATA __data[] =
         .speed_ev_up_param = 0,
         .spatk_ev_up_param = 0,
         .spdef_ev_up_param = 0,
-        .hp_restore_param = 50,
+        .hp_restore_param = 60, // 50,
         .pp_restore_param = 0,
         .friendship_mod_lo_param =  -5,
         .friendship_mod_med_param = -5,
@@ -2290,6 +2296,7 @@ const ITEMDATA __data[] =
     },
 },
 
+// Updated
 [ITEM_ENERGY_ROOT] =
 {
     .price = 800,
@@ -2347,7 +2354,7 @@ const ITEMDATA __data[] =
         .speed_ev_up_param = 0,
         .spatk_ev_up_param = 0,
         .spdef_ev_up_param = 0,
-        .hp_restore_param = 200,
+        .hp_restore_param = 120, // 200,
         .pp_restore_param = 0,
         .friendship_mod_lo_param =  -10,
         .friendship_mod_med_param = -10,
@@ -17390,11 +17397,12 @@ const ITEMDATA __data[] =
     },
 },
 
+// Updated
 [ITEM_POWER_BRACER - NUM_UNKNOWN_SLOTS] =
 {
     .price = 3000,
     .holdEffect = HOLD_EFFECT_GAIN_ATTACK_EVS,
-    .holdEffectParam = 4,
+    .holdEffectParam = 8, // 4,
     .pluckEffect = 0,
     .flingEffect = 0,
     .flingPower = 70,
@@ -17455,11 +17463,12 @@ const ITEMDATA __data[] =
     },
 },
 
+// Updated
 [ITEM_POWER_BELT - NUM_UNKNOWN_SLOTS] =
 {
     .price = 3000,
     .holdEffect = HOLD_EFFECT_GAIN_DEFENSE_EVS,
-    .holdEffectParam = 4,
+    .holdEffectParam = 8, // 4,
     .pluckEffect = 0,
     .flingEffect = 0,
     .flingPower = 70,
@@ -17520,11 +17529,12 @@ const ITEMDATA __data[] =
     },
 },
 
+// Updated
 [ITEM_POWER_LENS - NUM_UNKNOWN_SLOTS] =
 {
     .price = 3000,
     .holdEffect = HOLD_EFFECT_GAIN_SP_ATK_EVS,
-    .holdEffectParam = 4,
+    .holdEffectParam = 8, // 4,
     .pluckEffect = 0,
     .flingEffect = 0,
     .flingPower = 70,
@@ -17585,11 +17595,12 @@ const ITEMDATA __data[] =
     },
 },
 
+// Updated
 [ITEM_POWER_BAND - NUM_UNKNOWN_SLOTS] =
 {
     .price = 3000,
     .holdEffect = HOLD_EFFECT_GAIN_SP_DEF_EVS,
-    .holdEffectParam = 4,
+    .holdEffectParam = 8, // 4,
     .pluckEffect = 0,
     .flingEffect = 0,
     .flingPower = 70,
@@ -17650,11 +17661,12 @@ const ITEMDATA __data[] =
     },
 },
 
+// Updated
 [ITEM_POWER_ANKLET - NUM_UNKNOWN_SLOTS] =
 {
     .price = 3000,
     .holdEffect = HOLD_EFFECT_GAIN_SPEED_EVS,
-    .holdEffectParam = 4,
+    .holdEffectParam = 8, // 4,
     .pluckEffect = 0,
     .flingEffect = 0,
     .flingPower = 70,
@@ -17715,11 +17727,12 @@ const ITEMDATA __data[] =
     },
 },
 
+// Updated
 [ITEM_POWER_WEIGHT - NUM_UNKNOWN_SLOTS] =
 {
     .price = 3000,
     .holdEffect = HOLD_EFFECT_GAIN_HP_EVS,
-    .holdEffectParam = 4,
+    .holdEffectParam = 8, // 4,
     .pluckEffect = 0,
     .flingEffect = 0,
     .flingPower = 70,

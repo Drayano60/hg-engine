@@ -110,7 +110,7 @@ A peculiar stone that makes certain\nspecies of Pokémon evolve.\nIt is as dark 
 A peculiar stone that makes certain\nspecies of Pokémon evolve.\nIt sparkles like eyes.
 A peculiar stone that makes certain\nspecies of Pokémon evolve.\nIt is shaped like an egg.
 A vital item that is needed to keep a\nstone tower from collapsing. Voices\ncan be heard from it occasionally.
-A glowing orb to be held by GIRATINA.\nIt boosts the power of Dragon- and\nGhost-type moves.
+A glowing orb to be held by Giratina. It\nups the power of its Dragon and Ghost\nmoves by 20%, and changes its form.
 -----
 -----
 -----
@@ -133,8 +133,8 @@ A glowing orb to be held by GIRATINA.\nIt boosts the power of Dragon- and\nGhost
 -----
 -----
 -----
-A brightly gleaming orb to be held by\nDIALGA. It boosts the power of Dragon-\nand Steel-type moves.
-A beautifully glowing orb to be held by\nPALKIA. It boosts the power of Dragon-\nand Water-type moves.
+A brightly gleaming orb to be held by\nDialga. It boosts the power of its\nDragon and Steel-type moves by 20%.
+A beautifully glowing orb to be held by\nPalkia. It boosts the power of its\nDragon and Water-type moves by 20%.
 Stationery featuring a print of a\nrefreshingly green field.\nLet a Pokémon hold it for delivery.
 Stationery featuring a print of flames\nin blazing red.\nLet a Pokémon hold it for delivery.
 Stationery featuring a print of a blue\nworld underwater.\nLet a Pokémon hold it for delivery.
@@ -211,82 +211,82 @@ If held by a Pokémon, it raises the\naccuracy of a move just once in a pinch.
 If held by a Pokémon, it gets to move\nfirst just once in a pinch.
 If held by a Pokémon and a foe’s\nphysical attack lands, the foe also\ntakes damage.
 If held by a Pokémon and a foe’s\nspecial attack lands, the foe also\ntakes damage.
-An item to be held by a Pokémon.\nIt casts a tricky glare that lowers\nthe opponent’s accuracy.
+An item to be held by a Pokémon.\nIt casts a tricky glare that lowers\nthe opponent’s accuracy by 10%.
 An item to be held by a Pokémon.\nIt restores any lowered stat in\nbattle. It can be used only once.
-An item to be held by a Pokémon. It is\na stiff and heavy brace that promotes\nstrong growth but lowers Speed.
+A held item that awards a Pokémon\ndouble EVs when it gains experience.\nHowever, it reduces Speed in battle.
 An item to be held by a Pokémon.\nThe holder gets a share of a battle’s\nExp. Points without battling.
-An item to be held by a Pokémon.\nA light, sharp claw that lets the\nbearer move first occasionally.
+An item to be held by a Pokémon.\nA light, sharp claw that has a 20%\nchance to let the holder move first.
 An item to be held by a Pokémon. It is\na bell with a comforting chime that\ncalms the holder and makes it friendly.
 An item to be held by a Pokémon. It\nsnaps the holder out of infatuation.\nIt can be used only once.
-An item to be held by a Pokémon.\nThis headband ups Attack, but allows\nthe use of only one kind of move.
-An item to be held by a Pokémon.\nIt may cause the foe to flinch when\nthe holder inflicts damage.
-An item to be held by a Pokémon.\nIt is a shiny, silver powder that ups\nthe power of Bug-type moves.
+An item to be held by a Pokémon.\nThis headband boosts Attack by 50%,\nbut allows the use of only one move.
+An item to be held by a Pokémon.\nIt adds a 10% chance to make the foe\nflinch when the holder inflicts damage.
+An item to be held by a Pokémon.\nIt is a shiny, silver powder that ups\nthe power of Bug-type moves by 20%.
 An item to be held by a Pokémon.\nIt doubles a battle’s prize money if\nthe holding Pokémon joins in.
 An item to be held by a Pokémon.\nIt helps keep wild Pokémon away if the\nholder is the first one in the party.
 A wondrous orb to be held by LATIOS\nor LATIAS. It raises both the\nSp. Atk and Sp. Def stats.
-An item to be held by CLAMPERL.\nA fang that gleams a sharp silver, it\nraises the Sp. Atk stat.
-An item to be held by CLAMPERL.\nA scale that shines a faint pink, it\nraises the Sp. Def stat.
+An item to be held by Clamperl.\nA fang that gleams a sharp silver,\nit doubles a Clamperl’s Sp. Atk stat.
+An item to be held by Clamperl.\nA scale that shines a faint pink,\nit doubles a Clamperl’s Sp. Def stat.
 An item to be held by a Pokémon.\nIt enables the holder to flee from any\nwild Pokémon without fail.
 An item to be held by a Pokémon.\nThe Pokémon holding this peculiar stone\nis prevented from evolving.
-An item to be held by a Pokémon.\nThe holder may endure a potential KO\nattack, leaving it with just 1 HP.
-An item to be held by a Pokémon.\nIt is an egg filled with happiness that\nearns extra Exp. Points in battle.
-An item to be held by a Pokémon.\nIt is a lens that boosts the holder’s\ncritical-hit ratio.
-An item to be held by a Pokémon.\nIt is a special metallic film that ups\nthe power of Steel-type moves.
-An item to be held by a Pokémon.\nThe holder’s HP is gradually restored\nduring battle.
+An item to be held by a Pokémon.\nThe holder has a 10% chance to endure\na KO attack, leaving it with just 1 HP.
+An item to be held by a Pokémon.\nIt is an egg filled with happiness that\nearns the holder 50% more Exp. Points.
+An item to be held by a Pokémon.\nIt is a lens that boosts the holder’s\ncritical-hit ratio by one stage.
+An item to be held by a Pokémon.\nIt is a special metallic film that ups\nthe power of Steel-type moves by 20%.
+An item to be held by a Pokémon.\nThe holder restores 6.25% of its\nmax HP at the end of each turn.
 A thick and tough scale.\nDragon-type Pokémon may be holding\nthis item when caught.
-An item to be held by PIKACHU.\nIt is a puzzling orb that raises\nthe Attack and Sp. Atk stat.
-An item to be held by a Pokémon.\nIt is a loose, silky sand that boosts\nthe power of Ground-type moves.
-An item to be held by a Pokémon.\nIt is an unbreakable stone that ups\nthe power of Rock-type moves.
-An item to be held by a Pokémon.\nIt is a seed imbued with life that ups\nthe power of Grass-type moves.
-An item to be held by a Pokémon.\nIt is a shady-looking pair of glasses\nthat boosts Dark-type moves.
-An item to be held by a Pokémon.\nIt is a belt that boosts determination\nand Fighting-type moves.
-An item to be held by a Pokémon.\nIt is a powerful magnet that boosts\nthe power of Electric-type moves.
-An item to be held by a Pokémon.\nIt is a teardrop-shaped gem that ups\nthe power of Water-type moves.
-An item to be held by a Pokémon.\nIt is a long, sharp beak that boosts\nthe power of Flying-type moves.
-An item to be held by a Pokémon.\nIt is a small, poisonous barb that ups\nthe power of Poison-type moves.
-An item to be held by a Pokémon.\nIt is a piece of ice that repels heat\nand boosts Ice-type moves.
-An item to be held by a Pokémon.\nIt is a sinister, eerie tag that boosts\nthe power of Ghost-type moves.
-An item to be held by a Pokémon. It is\na spoon imbued with telekinetic power\nthat boosts Psychic-type moves.
-An item to be held by a Pokémon.\nIt is a combustible fuel that boosts\nthe power of Fire-type moves.
-An item to be held by a Pokémon.\nIt is a hard and sharp fang that ups\nthe power of Dragon-type moves.
-An item to be held by a Pokémon.\nIt is a sumptuous scarf that boosts\nthe power of Normal-type moves.
+An item to be held by Pikachu.\nIt is a puzzling orb that doubles\nits Attack and Sp. Atk stats.
+An item to be held by a Pokémon.\nIt is a loose, silky sand that boosts\nthe power of Ground-type moves by 20%.
+An item to be held by a Pokémon.\nIt is an unbreakable stone that ups\nthe power of Rock-type moves by 20%.
+An item to be held by a Pokémon.\nIt is a seed imbued with life that ups\nthe power of Grass-type moves by 20%.
+An item to be held by a Pokémon.\nIt is a shady-looking pair of glasses\nthat boosts Dark-type moves by 20%.
+An item to be held by a Pokémon.\nIt is a belt that boosts determination\nand Fighting-type moves by 20%.
+An item to be held by a Pokémon.\nIt is a powerful magnet that boosts the\npower of Electric-type moves by 20%.
+An item to be held by a Pokémon.\nIt is a teardrop-shaped gem that ups\nthe power of Water-type moves by 20%.
+An item to be held by a Pokémon.\nIt is a long, sharp beak that boosts\nthe power of Flying-type moves by 20%.
+An item to be held by a Pokémon.\nIt is a small, poisonous barb that ups\nthe power of Poison-type moves by 20%.
+An item to be held by a Pokémon.\nIt is a piece of ice that repels heat\nand boosts Ice-type moves by 20%.
+An item to be held by a Pokémon.\nIt is a sinister, eerie tag that boosts\nthe power of Ghost-type moves by 20%.
+An item to be held by a Pokémon. It is\na spoon imbued with telekinetic power\nthat boosts Psychic-type moves by 20%.
+An item to be held by a Pokémon.\nIt is a combustible fuel that boosts\nthe power of Fire-type moves by 20%.
+An item to be held by a Pokémon.\nIt is a hard and sharp fang that ups\nthe power of Dragon-type moves by 20%.
+An item to be held by a Pokémon.\nIt is a sumptuous scarf that boosts\nthe power of Normal-type moves by 20%.
 A transparent device filled with all\nsorts of data.\nIt was produced by Silph Co.
-An item to be held by a Pokémon.\nThe holder’s HP is restored a little\nevery time it inflicts damage.
-An item to be held by a Pokémon. It is\nincense with a curious aroma that\nboosts the power of Water-type moves.
-An item to be held by a Pokémon. The\ntricky aroma of this incense lowers the\nfoe’s accuracy.
-An item to be held by CHANSEY. It is a\npair of gloves that boosts CHANSEY’s\ncritical-hit ratio.
-An item to be held by DITTO.\nExtremely fine yet hard, this odd\npowder boosts the Defense stat.
-An item to be held by CUBONE or\nMAROWAK. It is a hard bone of some\nsort that boosts the Attack stat.
-An item to be held by FARFETCH’D. It is\na very long and stiff stalk of leek\nthat boosts the critical-hit ratio.
+An item to be held by a Pokémon.\nThe holder’s HP is restored by 12.5%\nof the damage it inflicts.
+An item to be held by a Pokémon. It is\nincense with a curious aroma that ups\nthe power of Water-type moves by 20%.
+An item to be held by a Pokémon. The\ntricky aroma of this incense lowers the\nfoe’s accuracy by 10%.
+An item to be held by Chansey. It is a\npair of gloves that boosts Chansey’s\ncritical-hit ratio by two stages.
+An item to be held by Ditto. Extremely\nfine yet hard, this powder doubles its\nDefense stat while not transformed.
+An item to be held by Cubone or Marowak.\nIt is a hard bone of some sort that\ndoubles its Attack stat.
+An item to be held by Farfetch’d. It is\na long and stiff stalk of leek that ups\nits critical-hit ratio by two stages.
 An item to be held by a Pokémon.\nIt boosts the “Cool” aspect of the\nholder in a Contest in Sinnoh.
 An item to be held by a Pokémon.\nIt boosts the “Beauty” aspect of the\nholder in a Contest in Sinnoh.
 An item to be held by a Pokémon.\nIt boosts the “Cute” aspect of the\nholder in a Contest in Sinnoh.
 An item to be held by a Pokémon.\nIt boosts the “Smart” aspect of the\nholder in a Contest in Sinnoh.
 An item to be held by a Pokémon.\nIt boosts the “Tough” aspect of the\nholder in a Contest in Sinnoh.
-An item to be held by a Pokémon.\nIt is a magnifying lens that slightly\nboosts the accuracy of moves.
-An item to be held by a Pokémon.\nIt is a headband that slightly boosts\nthe power of physical moves.
-An item to be held by a Pokémon. It is\na thick pair of glasses that slightly\nboosts the power of special moves.
-An item to be held by a Pokémon. It is\na well-worn belt that slightly boosts\nthe power of supereffective moves.
-A Pokémon held item that extends the\nduration of barrier moves like Light\nScreen and Reflect used by the holder.
-An item to be held by a Pokémon.\nIt boosts the power of moves, but at\nthe cost of some HP on each hit.
+An item to be held by a Pokémon.\nIt is a magnifying lens that boosts\nthe accuracy of moves by 10%.
+An item to be held by a Pokémon.\nIt is a headband that boosts the power\nof physical moves by 10%.
+An item to be held by a Pokémon. It is\na thick pair of glasses that boosts\nthe power of special moves by 10%.
+An item to be held by a Pokémon. It is\na well-worn belt that boosts the power\nof supereffective moves by 20%.
+A Pokémon held item that extends the\nduration of barrier moves like Light\nScreen and Reflect to eight turns.
+An item to be held by a Pokémon.\nIt ups the power of its moves by 30%,\nbut at a cost of 10% of HP on each hit.
 A single-use item to be held by a\nPokémon. It allows the immediate use of\na move that charges on the first turn.
 An item to be held by a Pokémon.\nIt is a bizarre orb that badly poisons\nthe holder in battle.
 An item to be held by a Pokémon.\nIt is a bizarre orb that inflicts a\nburn on the holder in battle.
-An item to be held by DITTO.\nExtremely fine yet hard, this odd\npowder boosts the Speed stat.
+An item to be held by Ditto. Extremely\nfine yet hard, this powder doubles its\nSpeed stat while not transformed.
 An item to be held by a Pokémon. If it\nhas full HP, the holder will endure one\npotential KO attack, leaving 1 HP.
-An item to be held by a Pokémon.\nIf the holder moves after the foe, its\naccuracy will be boosted.
+An item to be held by a Pokémon.\nIf the holder moves after the target,\nits accuracy will be boosted by 20%.
 A held item that boosts a move’s power\nby 10% for each consecutive use, up to\n100%. It resets if another move is used.
-A Pokémon held item that cuts Speed.\nIt makes Flying-type and levitating\nholders susceptible to Ground moves.
-An item to be held by a Pokémon.\nIt is tremendously heavy and makes\nthe holder move slower than usual.
+A Pokémon held item that halves Speed.\nIt makes Flying-type and levitating\nholders susceptible to Ground moves.
+An item to be held by a Pokémon.\nIt is tremendously heavy and makes\nthe holder always move last.
 A long, thin, bright red string to\nbe held by a Pokémon. If the holder\nbecomes infatuated, the foe does too.
-A held item that gradually restores\nthe HP of Poison-type Pokémon.\nIt inflicts damage on all other types.
-A Pokémon held item that extends the\nduration of the move Hail used by the\nholder.
-A Pokémon held item that extends the\nduration of the move Sandstorm used\nby the holder.
-A Pokémon held item that extends the\nduration of the move Sunny Day used\nby the holder.
-A Pokémon held item that extends the\nduration of the move Rain Dance used\nby the holder.
-A Pokémon held item that extends the\nduration of multiturn attacks like\nBind and Wrap.
-An item to be held by a Pokémon.\nThis scarf boosts Speed, but allows\nthe use of only one kind of move.
-A held item that damages the holder on\nevery turn. It may latch on to foes\nthat touch the holder.
+A held item. If held by a Poison-type,\nit restores 6.25% of its HP each turn.\nIt damages other types for 12.5% HP.
+A Pokémon held item that extends the\nduration of the move Hail or the\nability Snow Warning to eight turns.
+A Pokémon held item that extends the\nduration of the move Sandstorm or the\nability Sand Stream to eight turns.
+A Pokémon held item that extends the\nduration of the move Sunny Day or the\nability Drought to eight turns.
+A Pokémon held item that extends the\nduration of the move Rain Dance or the\nability Drizzle to eight turns.
+A Pokémon held item that extends the\nduration of multiturn attacks like\nBind and Wrap to six turns.
+An item to be held by a Pokémon.\nThis scarf boosts Speed by 50%,\nbut allows the use of only one move.
+A held item that damages the holder on\nevery turn for 12.5% HP. It may latch\non to foes that touch the holder.
 A held item that awards a Pokémon 8 EVs\nin Attack when it gains experience.\nHowever, it reduces Speed in battle.
 A held item that awards a Pokémon 8 EVs\nin Defense when it gains experience.\nHowever, it reduces Speed in battle.
 A held item that awards a Pokémon 8 EVs\nin Sp. Atk when it gains experience.\nHowever, it reduces Speed in battle.
@@ -294,29 +294,29 @@ A held item that awards a Pokémon 8 EVs\nin Sp. Def when it gains experience.\n
 A held item that awards a Pokémon 8 EVs\nin Speed when it gains experience.\nHowever, it reduces Speed in battle.
 A held item that awards a Pokémon 8 EVs\nin HP when it gains experience.\nHowever, it reduces Speed in battle.
 A tough, discarded carapace to be held\nby a Pokémon. It enables the holder to\nswitch with a waiting Pokémon in battle.
-A Pokémon held item that boosts the\npower of HP-stealing moves to let the\nholder recover more HP.
-An item to be held by a Pokémon. These\ndistinctive glasses boost Sp. Atk, but\nallow only one kind of move to be used.
-An item to be held by a Pokémon.\nIt is a stone tablet that boosts the\npower of Fire-type moves.
-An item to be held by a Pokémon.\nIt is a stone tablet that boosts the\npower of Water-type moves.
-An item to be held by a Pokémon.\nIt is a stone tablet that boosts the\npower of Electric-type moves.
-An item to be held by a Pokémon.\nIt is a stone tablet that boosts the\npower of Grass-type moves.
-An item to be held by a Pokémon.\nIt is a stone tablet that boosts the\npower of Ice-type moves.
-An item to be held by a Pokémon.\nIt is a stone tablet that boosts the\npower of Fighting-type moves.
-An item to be held by a Pokémon.\nIt is a stone tablet that boosts the\npower of Poison-type moves.
-An item to be held by a Pokémon.\nIt is a stone tablet that boosts the\npower of Ground-type moves.
-An item to be held by a Pokémon.\nIt is a stone tablet that boosts the\npower of Flying-type moves.
-An item to be held by a Pokémon.\nIt is a stone tablet that boosts the\npower of Psychic-type moves.
-An item to be held by a Pokémon.\nIt is a stone tablet that boosts the\npower of Bug-type moves.
-An item to be held by a Pokémon.\nIt is a stone tablet that boosts the\npower of Rock-type moves.
-An item to be held by a Pokémon.\nIt is a stone tablet that boosts the\npower of Ghost-type moves.
-An item to be held by a Pokémon.\nIt is a stone tablet that boosts the\npower of Dragon-type moves.
-An item to be held by a Pokémon.\nIt is a stone tablet that boosts the\npower of Dark-type moves.
-An item to be held by a Pokémon.\nIt is a stone tablet that boosts the\npower of Steel-type moves.
-An item to be held by a Pokémon. It is\nan exotic-smelling incense that boosts\nthe power of Psychic-type moves.
-An item to be held by a Pokémon. It is\nan exotic-smelling incense that boosts\nthe power of Rock-type moves.
-An item to be held by a Pokémon. It is\nan exotic-smelling incense that makes\nthe holder bloated and slow moving.
-An item to be held by a Pokémon. It is\nan exotic-smelling incense that boosts\nthe power of Water-type moves.
-An item to be held by a Pokémon. It is\nan exotic-smelling incense that boosts\nthe power of Grass-type moves.
+A Pokémon held item that increases the\namount of HP recovered from HP-stealing\nand gradual recovery moves by 30%.
+An item to be held by a Pokémon. These\ncurious glasses boost Sp. Atk by 50%,\nbut allow the use of only one move.
+An item to be held by a Pokémon.\nIt is a stone tablet that boosts the\npower of Fire-type moves by 20%.
+An item to be held by a Pokémon.\nIt is a stone tablet that boosts the\npower of Water-type moves by 20%.
+An item to be held by a Pokémon.\nIt is a stone tablet that boosts the\npower of Electric-type moves by 20%.
+An item to be held by a Pokémon.\nIt is a stone tablet that boosts the\npower of Grass-type moves by 20%.
+An item to be held by a Pokémon.\nIt is a stone tablet that boosts the\npower of Ice-type moves by 20%.
+An item to be held by a Pokémon.\nIt is a stone tablet that boosts the\npower of Fighting-type moves by 20%.
+An item to be held by a Pokémon.\nIt is a stone tablet that boosts the\npower of Poison-type moves by 20%.
+An item to be held by a Pokémon.\nIt is a stone tablet that boosts the\npower of Ground-type moves by 20%.
+An item to be held by a Pokémon.\nIt is a stone tablet that boosts the\npower of Flying-type moves by 20%.
+An item to be held by a Pokémon.\nIt is a stone tablet that boosts the\npower of Psychic-type moves by 20%.
+An item to be held by a Pokémon.\nIt is a stone tablet that boosts the\npower of Bug-type moves by 20%.
+An item to be held by a Pokémon.\nIt is a stone tablet that boosts the\npower of Rock-type moves by 20%.
+An item to be held by a Pokémon.\nIt is a stone tablet that boosts the\npower of Ghost-type moves by 20%.
+An item to be held by a Pokémon.\nIt is a stone tablet that boosts the\npower of Dragon-type moves by 20%.
+An item to be held by a Pokémon.\nIt is a stone tablet that boosts the\npower of Dark-type moves by 20%.
+An item to be held by a Pokémon.\nIt is a stone tablet that boosts the\npower of Steel-type moves by 20%.
+An item to be held by a Pokémon. It is\nan exotic-smelling incense that boosts\nthe power of Psychic-type moves by 20%.
+An item to be held by a Pokémon. It is\nan exotic-smelling incense that boosts\nthe power of Rock-type moves by 20%.
+An item to be held by a Pokémon. It is\nan exotic-smelling incense that makes\nthe holder always move last.
+An item to be held by a Pokémon. It is\nan exotic-smelling incense that boosts\nthe power of Water-type moves by 20%.
+An item to be held by a Pokémon. It is\nan exotic-smelling incense that boosts\nthe power of Grass-type moves by 20%.
 An item to be held by a Pokémon.\nIt doubles a battle’s prize money if\nthe holding Pokémon joins in.
 An item to be held by a Pokémon.\nIt helps keep wild Pokémon away if the\nholder is the first one in the party.
 A protective item of some sort.\nIt is extremely stiff and heavy.\nIt is loved by a certain Pokémon.
@@ -324,8 +324,8 @@ A box packed with a tremendous\namount of electric energy.\nIt is loved by a cer
 A box packed with a tremendous\namount of magma energy.\nIt is loved by a certain Pokémon.
 A transparent device overflowing with\ndubious data.\nIts producer is unknown.
 A cloth imbued with horrifyingly strong\nspiritual energy.\nIt is loved by a certain Pokémon.
-An item to be held by a Pokémon.\nIt is a sharply hooked claw that ups\nthe holder’s critical-hit ratio.
-An item to be held by a Pokémon.\nIt may cause the foe to flinch when\nthe holder inflicts damage.
+An item to be held by a Pokémon. It is\na sharply hooked claw that boosts the\nholder’s critical-hit ratio by one stage.
+An item to be held by a Pokémon.\nIt adds a 10% chance to make the foe\nflinch when the holder inflicts damage.
 The user sharpens its claws to boost\nits Attack stat and accuracy.
 Sharp, huge claws hook and slash the\nfoe quickly and with great power.\nCritical hits land more easily.
 The user materializes an odd psychic\nwave to attack the foe. This attack\ndoes physical damage.
@@ -381,8 +381,8 @@ The user attacks at full power.\nThis has a 10% chance to lower the\nfoe’s Sp.
 The user draws power from nature and\nfires it at the foe. It has a 10% chance\nto lower the foe’s Sp. Def stat.
 A restrained attack that prevents the\nfoe from fainting. The target is left\nwith at least 1 HP.
 The user shoots boiling hot water at\nthe target. This has a 30% chance\nto burn the target.
-The user violently whirls its vines or\ntentacles to harshly lash the foe.
-The user attacks with an electric\ncharge. The user may use any remaining\nelectricity to raise its Sp. Atk stat.
+The user flings its held item at the\nfoe to attack. Its power and effects\ndepend on the item.
+The user fires an electric charge.\nThe residual electricity then has a 70%\nchance to raise the user’s Sp. Atk.
 The user endures any attack, leaving\n1 HP. Its chance of failing rises if it\nis used in succession.
 The foe is attacked with a shock\nwave generated by the user’s gaping\nmouth.
 An energy-draining punch. The user’s\nHP is restored by half the damage\ntaken by the target.
@@ -436,9 +436,9 @@ A case for storing Seals that can be\napplied to the Capsule cases of\nPoké Bal
 A fancy case for the tidy arrangement\nand storage of whimsical Pokémon\nAccessories.
 A tiny bag that can hold ten Seals for\ndecorating Poké Balls.
 A convenient notepad that is used for\nregistering your friends, Friend Codes,\nand keeping a record of game play.
-A mysterious evolutionary lump. When\nheld, it boosts the Defense and Sp. Def\nof a Pokémon that can still evolve.
+A mysterious evolutionary lump. When\nheld by a Pokémon that can still evolve,\nit boosts Defense and Sp. Def by 50%.
 An ancient good-luck charm made of\nPokémon bones to be taken to the elder\nof Celestic Town.
-An item to be held by a Pokémon. This\noffensive vest boosts the holder’s\nSp. Def but makes status moves fail.
+An item to be held by a Pokémon. This\nvest boosts the holder’s Sp. Def by\n50%, but makes its status moves fail.
 A mythical chain that is said to link\nthe legendary Pokémon that created\nthe Sinnoh region.
 A very convenient map that can be\nviewed anytime. It even shows your\npresent location.
 A device that indicates Trainers who\nwant to battle. Its battery charges\nwhile you walk.
@@ -446,7 +446,7 @@ A case for holding coins obtained at\nthe Game Corner.\nIt holds up to 50,000 co
 Use it by any body of water to fish for\nwild aquatic Pokémon.
 A new, good-quality fishing rod.\nUse it by any body of water to fish for\nwild aquatic Pokémon.
 An awesome, high-tech fishing rod.\nUse it by any body of water to fish for\nwild aquatic Pokémon.
-A watering can shaped like a PSYDUCK.\nIt helps promote healthy growth of\nBerries planted in soft soil.
+A watering can shaped like a Psyduck.\nIt helps promote healthy growth of\nBerries planted in soft soil.
 A case for storing Poffin cooked from\nBerries.\n
 A folding Bicycle that enables much\nfaster movement than the Running\nShoes.
 A key to one of the suites at the\nluxury hotel by a lake. For some odd\nreason, it often disappears.
@@ -476,7 +476,7 @@ A very old-fashioned bell that makes a\ngentle ringing.
 A card key that opens a shutter in the\nRadio Tower.
 A key that opens a door in the\nGoldenrod Tunnel.
 A bottle used for watering plants in the\nBerry Pots.
-A scale from the red GYARADOS. It glows\nred like a flame.
+A scale from the red Gyarados. It glows\nred like a flame.
 The Poké Doll lost by the Copycat.
 A ticket required for riding the Magnet\nTrain. It allows you to ride whenever\nand however much you’d like.
 An important machine part for the\nPower Plant that was stolen.
@@ -582,4 +582,4 @@ One of a variety of Mega Stones.\nIt will Mega Evolve Abomasnow when held.
 One of a variety of Mega Stones.\nIt will Mega Evolve Gallade when held.
 One of a variety of Mega Stones.\nIt will Mega Evolve Audino when held.
 One of a variety of Mega Stones.\nIt will Mega Evolve Diancie when held.
-An item to be held by a Pokémon.\nIt is a stone tablet that boosts the\npower of Fairy-type moves.
+An item to be held by a Pokémon.\nIt is a stone tablet that boosts the\npower of Fairy-type moves by 20%.

@@ -29,7 +29,7 @@ Effect Spore
 Synchronize
 Clear Body
 Natural Cure
-Lightningrod
+Lightning Rod
 Serene Grace
 Swift Swim
 Chlorophyll

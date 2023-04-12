@@ -6494,7 +6494,7 @@ movedata MOVE_ICE_FANG
 // POWER: 65 >> 75
 // ACCURACY: 95 >> 100
 movedata MOVE_FIRE_FANG
-    battleeffect 273
+    battleeffect 314 // Changed from 273 to fix Wonder Guard glitch
     pss SPLIT_PHYSICAL
     basepower MOVE_CHANGES_IMPLEMENTED ? 75 : 65
     type TYPE_FIRE

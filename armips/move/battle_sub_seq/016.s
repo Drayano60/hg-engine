@@ -15,6 +15,10 @@ a001_016:
     waitmessage
     wait 0x1E
     abilitycheck 0x1, BATTLER_DEFENDER, ABILITY_ANGER_POINT, _00C8
+    
+    /* Anger Point doesnt activate in later gens if the crit hits a sub */
+    checksubstitute BATTLER_DEFENDER, _00C8
+    
     ifmonstat IF_EQUAL, BATTLER_DEFENDER, MON_DATA_HP, 0x0, _00C8
     ifmonstat IF_EQUAL, BATTLER_DEFENDER, MON_DATA_STAT_STAGE_ATTACK, 0xC, _00C8
     setstatus2effect BATTLER_DEFENDER, 0xC

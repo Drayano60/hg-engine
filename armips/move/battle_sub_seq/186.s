@@ -3,6 +3,7 @@
 
 .include "armips/include/battlescriptcmd.s"
 .include "armips/include/abilities.s"
+.include "armips/include/constants.s"
 .include "armips/include/itemnums.s"
 .include "armips/include/monnums.s"
 .include "armips/include/movenums.s"
@@ -19,10 +20,31 @@ _0038:
     checkonsameteam BATTLER_ATTACKER, BATTLER_ADDL_EFFECT, _009C
     checksubstitute BATTLER_ADDL_EFFECT, _009C
     ifmonstat IF_EQUAL, BATTLER_ADDL_EFFECT, MON_DATA_HP, 0x0, _009C
+
+    /* Checks for abilities that block Intimidate */
+    abilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_OBLIVIOUS, _AbilityBlocks
+    abilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_OWN_TEMPO, _AbilityBlocks
+    abilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_INNER_FOCUS, _AbilityBlocks
+    abilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_SCRAPPY, _AbilityBlocks 
+
     changevar VAR_OP_SET, VAR_34, 0x16
     changevar VAR_OP_SET, VAR_05, 0x3
     gotosubscript 12
+
+    /* If intimidating something with Rattled, their Speed also gets raised */
+    abilitycheck 0x1, BATTLER_ADDL_EFFECT, ABILITY_RATTLED, _009C
+    changevar VAR_OP_SET, VAR_34, 0x11
+    changevar VAR_OP_SET, VAR_05, 0x3
+    gotosubscript 12
 _009C:
+    changevar VAR_OP_ADD, VAR_39, 0x1
+    jumpifvarisvalidbattler 0x27, _0038
+    changevar2 VAR_OP_SET, VAR_ATTACKER, VAR_ITEM_TEMP
+    endscript
+_AbilityBlocks:
+    printmessage 0x55A, 0xB, 0x7, 0x7, "NaN", "NaN", "NaN", "NaN"
+    waitmessage
+    wait 0x1E
     changevar VAR_OP_ADD, VAR_39, 0x1
     jumpifvarisvalidbattler 0x27, _0038
     changevar2 VAR_OP_SET, VAR_ATTACKER, VAR_ITEM_TEMP

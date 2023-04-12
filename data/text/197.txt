@@ -688,8 +688,8 @@ The foe’s {STRVAR_1 1, 0, 0} traced the\nfoe’s {STRVAR_1 1, 1, 0}’s {STRVA
 The wild {STRVAR_1 1, 0, 0}’s\n{STRVAR_1 5, 1, 0} prevents burns!
 The foe’s {STRVAR_1 1, 0, 0}’s\n{STRVAR_1 5, 1, 0} prevents burns!
 {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nblocks {STRVAR_1 6, 2, 0}!
-The wild {STRVAR_1 1, 0, 0}’s\n{STRVAR_1 5, 1, 0} blocks\f{STRVAR_1 6, 2, 0}!
-The foe’s {STRVAR_1 1, 0, 0}’s\n{STRVAR_1 5, 1, 0} blocks\f{STRVAR_1 6, 2, 0}!
+The wild {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nblocks {STRVAR_1 6, 2, 0}!
+The foe’s {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nblocks {STRVAR_1 6, 2, 0}!
 {STRVAR_1 1, 0, 0} regained a little\nHP with its {STRVAR_1 5, 1, 0}!
 The wild {STRVAR_1 1, 0, 0} regained\na little HP with its {STRVAR_1 5, 1, 0}!
 The foe’s {STRVAR_1 1, 0, 0} regained\na little HP with its {STRVAR_1 5, 1, 0}!
@@ -1085,9 +1085,9 @@ The wild {STRVAR_1 1, 0, 0} vanished\ninstantly!
 The foe’s {STRVAR_1 1, 0, 0} vanished\ninstantly!
 Your team’s Lucky Chant wore off!
 The foe’s Lucky Chant wore off!
-{STRVAR_1 1, 0, 0} has\n{STRVAR_1 5, 1, 0}!
-The wild {STRVAR_1 1, 0, 0} has\n{STRVAR_1 5, 1, 0}!
-The foe’s {STRVAR_1 1, 0, 0} has\n{STRVAR_1 5, 1, 0}!
+{STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nbreaks the mold!
+The wild {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nbreaks the mold!
+The foe’s {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nbreaks the mold!
 {STRVAR_1 1, 0, 0} is hurt\nby its {STRVAR_1 5, 1, 0}!
 The wild {STRVAR_1 1, 0, 0} is hurt\nby its {STRVAR_1 5, 1, 0}!
 The foe’s {STRVAR_1 1, 0, 0} is hurt\nby its {STRVAR_1 5, 1, 0}!
@@ -1368,3 +1368,22 @@ The foe’s {STRVAR_1 1, 0, 0}’s {STRVAR_1 8, 1, 0}\nwas burnt up!
 {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nvaporized {STRVAR_1 6, 2, 0}!
 The wild {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nvaporized {STRVAR_1 6, 2, 0}!
 The foe’s {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nvaporized {STRVAR_1 6, 2, 0}!
+{STRVAR_1 1, 0, 0}’s Attack was not\nlowered by Intimidate because\fof its {STRVAR_1 5, 1, 0}!
+The wild {STRVAR_1 1, 0, 0}’s Attack was not\nlowered by Intimidate because\fof its {STRVAR_1 5, 1, 0}!
+The foe’s {STRVAR_1 1, 0, 0}’s Attack was not\nlowered by Intimidate because\fof its {STRVAR_1 5, 1, 0}!
+{STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nbadly poisoned {STRVAR_1 1, 2, 0}!
+{STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nbadly poisoned the wild {STRVAR_1 1, 2, 0}!
+{STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nbadly poisoned the foe’s {STRVAR_1 1, 2, 0}!
+The wild {STRVAR_1 1, 0, 0}’s\n{STRVAR_1 5, 1, 0} badly poisoned\f{STRVAR_1 1, 2, 0}!
+The wild {STRVAR_1 1, 0, 0}’s\n{STRVAR_1 5, 1, 0} badly poisoned\fthe wild {STRVAR_1 1, 2, 0}!
+The foe’s {STRVAR_1 1, 0, 0}’s\n{STRVAR_1 5, 1, 0} badly poisoned\f{STRVAR_1 1, 2, 0}!
+The foe’s {STRVAR_1 1, 0, 0}’s\n{STRVAR_1 5, 1, 0} badly poisoned\fthe foe’s {STRVAR_1 1, 2, 0}!
+{STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nprevents it from falling for the taunt!
+The wild {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nprevents it from falling for the taunt!
+The foe’s {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nprevents it from falling for the taunt!
+{STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0} negates\nthe effects of weather!
+The wild {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0} negates\nthe effects of weather!
+The foe’s {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0} negates\nthe effects of weather!
+{STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nlet it endure the hit!
+The wild {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nlet it endure the hit!
+The foe’s {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nlet it endure the hit!

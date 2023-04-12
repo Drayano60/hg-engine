@@ -411,8 +411,8 @@ struct __attribute__((packed)) OneTurnEffect
     u32 yokodori_flag : 1;
     u32 haneyasume_flag : 1;
     u32 escape_flag : 2;
-    u32 prevent_one_hit_ko_ability : 1;
-    u32 : 22;
+    u32 prevent_one_hit_ko_ability : 2;
+    u32 : 21;
 
     int physical_damage[4];
     int physical_damager;
@@ -555,7 +555,8 @@ struct __attribute__((packed)) BattlePokemon
                u32 sheer_force_flag : 1;
                u32 imposter_flag : 1;
                u32 critical_hits : 2; // tracks the amount of critical hits the pokemon has landed while in battle so far
-               u32 : 12;
+               u32 air_lock_flag : 1;
+               u32 : 11;
     /* 0x2c */ u8 pp[4];
     /* 0x30 */ u8 pp_count[4];
     /* 0x34 */ u8 level;

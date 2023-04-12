@@ -116,7 +116,6 @@ int MoveCheckDamageNegatingAbilities(struct BattleStruct *sp, int attacker, int 
     if (MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_FLASH_FIRE) == TRUE)
     {
         if ((movetype == TYPE_FIRE)
-         && ((sp->battlemon[defender].condition & STATUS_FLAG_FROZEN) == 0)
          && ((sp->server_status_flag & SERVER_STATUS_FLAG_x20) == 0)
          && ((sp->moveTbl[sp->current_move_index].power) || (sp->current_move_index == MOVE_WILL_O_WISP)))
         {
@@ -213,6 +212,22 @@ int MoveCheckDamageNegatingAbilities(struct BattleStruct *sp, int attacker, int 
         }
     }
 
+    // Handle Overcoat's powder blocking effect
+    if (MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_OVERCOAT) == TRUE)
+    {
+        {
+            u32 i;
+
+            for (i = 0; i < NELEMS(PowderMoveList); i++){
+                if (PowderMoveList[i] == sp->current_move_index)
+                {
+                    scriptnum = SUB_SEQ_HANDLE_SOUNDPROOF;
+                    break;
+                }
+            }
+        }
+    }
+
     /* Section for type checks */
     /* This works fine here despite not being an ability even in the case of things like Gastro Acid */
     /* Not sure if the priority order for the checks is correct though */
@@ -273,6 +288,7 @@ enum
     SWITCH_IN_CHECK_FAIRY_AURA,
     SWITCH_IN_CHECK_AURA_BREAK,
     SWITCH_IN_CHECK_IMPOSTER,
+    SWITCH_IN_CHECK_AIR_LOCK,
     SWITCH_IN_CHECK_END,
 };
 
@@ -433,7 +449,8 @@ int SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
                         switch(GetBattlerAbility(sp, client_no)){
                             case ABILITY_DRIZZLE:
                                 sp->battlemon[client_no].appear_check_flag = 1;
-                                if ((sp->field_condition & WEATHER_RAIN_PERMANENT) == 0)
+                                // Changed from checking only permanent rain to any rain
+                                if ((sp->field_condition & WEATHER_RAIN_ANY) == 0)
                                 {
                                     scriptnum = SUB_SEQ_HANDLE_DRIZZLE;
                                     ret = SWITCH_IN_CHECK_MOVE_SCRIPT;
@@ -441,7 +458,8 @@ int SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
                                 break;
                             case ABILITY_SAND_STREAM:
                                 sp->battlemon[client_no].appear_check_flag = 1;
-                                if ((sp->field_condition & WEATHER_SANDSTORM_PERMANENT) == 0)
+                                // Changed from checking only permanent sandstorm to any sandstorm
+                                if ((sp->field_condition & WEATHER_SANDSTORM_ANY) == 0)
                                 {
                                     scriptnum = SUB_SEQ_HANDLE_SAND_STREAM;
                                     ret = SWITCH_IN_CHECK_MOVE_SCRIPT;
@@ -449,7 +467,8 @@ int SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
                                 break;
                             case ABILITY_DROUGHT:
                                 sp->battlemon[client_no].appear_check_flag = 1;
-                                if ((sp->field_condition & WEATHER_SUNNY_PERMANENT) == 0)
+                                // Changed from checking only permanent sun to any sun
+                                if ((sp->field_condition & WEATHER_SUNNY_ANY) == 0)
                                 {
                                     scriptnum = SUB_SEQ_HANDLE_DROUGHT;
                                     ret = SWITCH_IN_CHECK_MOVE_SCRIPT;
@@ -457,7 +476,8 @@ int SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
                                 break;
                             case ABILITY_SNOW_WARNING:
                                 sp->battlemon[client_no].appear_check_flag = 1;
-                                if ((sp->field_condition & WEATHER_HAIL_PERMANENT) == 0)
+                                // Changed from checking only permanent hail to any hail
+                                if ((sp->field_condition & WEATHER_HAIL_ANY) == 0)
                                 {
                                     scriptnum = SUB_SEQ_HANDLE_SNOW_WARNING;
                                     ret = SWITCH_IN_CHECK_MOVE_SCRIPT;
@@ -1059,6 +1079,30 @@ int SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
                     }
                 }
                 break;
+            case SWITCH_IN_CHECK_AIR_LOCK:
+                for (i = 0; i < client_set_max; i++)
+                {
+                    client_no = sp->turn_order[i];
+                    if ((sp->battlemon[client_no].air_lock_flag == 0)
+                        && (sp->battlemon[client_no].hp)
+                        && ((GetBattlerAbility(sp, client_no) == ABILITY_CLOUD_NINE) ||
+                            (GetBattlerAbility(sp, client_no) == ABILITY_AIR_LOCK)))
+                    {
+                        sp->battlemon[client_no].air_lock_flag = 1;
+                        sp->client_work = client_no;
+
+                        scriptnum = SUB_SEQ_HANDLE_AIR_LOCK_MESSAGE;
+
+                        ret = SWITCH_IN_CHECK_MOVE_SCRIPT;
+                        break;
+                    }
+                }
+                if (i == client_set_max)
+                {
+                    sp->switch_in_check_seq_no++;
+                }
+
+                break;
                 // 02253D78
             case SWITCH_IN_CHECK_END:
                 sp->switch_in_check_seq_no = 0;
@@ -1183,13 +1227,16 @@ u32 TurnEndAbilityCheck(void *bw, struct BattleStruct *sp, int client_no)
         case ABILITY_MOODY: // this is going to be interesting
             if (sp->battlemon[client_no].hp)
             {
-                int temp = BattleRand(bw) % 7;
+                /* 7 includes accuracy/evasion which isn't accurate as of Gen 8 */
+                // int temp = BattleRand(bw) % 7;
+                int temp = BattleRand(bw) % 5;
 
                 if (AreAnyStatsNotAtValue(sp, client_no, 12)) // if any stat can be lowered
                 {
                     while (sp->battlemon[client_no].states[temp] == 12)
                     {
-                        temp = BattleRand(bw) % 7;
+                        // temp = BattleRand(bw) % 7;
+                        temp = BattleRand(bw) % 5;
                     }
                 }
                 else
@@ -1198,15 +1245,17 @@ u32 TurnEndAbilityCheck(void *bw, struct BattleStruct *sp, int client_no)
                 }
                 sp->calc_work = temp; // VAR_09
 
-
-                temp = BattleRand(bw) % 7;
+                /* 7 includes accuracy/evasion which isn't accurate */
+                // temp = BattleRand(bw) % 7;
+                temp = BattleRand(bw) % 5;
 
                 if (AreAnyStatsNotAtValue(sp, client_no, 0)) // if any stat can be raised
                 {
                     while (sp->battlemon[client_no].states[temp] == 0
                         || temp == sp->calc_work)
                     {
-                        temp = BattleRand(bw) % 7;
+                        // temp = BattleRand(bw) % 7;
+                        temp = BattleRand(bw) % 5;
                     }
                 }
                 else
@@ -1546,6 +1595,7 @@ BOOL MoveHitDefenderAbilityCheck(void *bw, struct BattleStruct *sp, int *seq_no)
                 && (sp->battlemon[sp->attack_client].condition == 0)
                 && (BattlePokemonParamGet(sp, sp->attack_client, BATTLE_MON_DATA_TYPE1, NULL) != TYPE_GRASS)
                 && (BattlePokemonParamGet(sp, sp->attack_client, BATTLE_MON_DATA_TYPE2, NULL) != TYPE_GRASS)
+                && (GetBattlerAbility(sp, sp->attack_client) != ABILITY_OVERCOAT)
                 && ((sp->waza_status_flag & WAZA_STATUS_FLAG_NO_OUT) == 0)
                 && ((sp->server_status_flag & SERVER_STATUS_FLAG_x20) == 0)
                 && ((sp->server_status_flag2 & SERVER_STATUS2_FLAG_x10) == 0)
@@ -2005,8 +2055,11 @@ BOOL SynchroniseAbilityCheck(void *bw, struct BattleStruct *sp, int server_seq_n
 
     if (ret == TRUE)
     {
-        if(sp->battlemon[sp->client_work].condition & STATUS_POISON_ANY) {
+        if(sp->battlemon[sp->client_work].condition & STATUS_FLAG_POISONED) {
             seq_no = SUB_SEQ_POISON_MON;
+        }
+        if(sp->battlemon[sp->client_work].condition & STATUS_FLAG_BADLY_POISONED) {
+            seq_no = SUB_SEQ_BADLY_POISON_MON;
         }
         else if(sp->battlemon[sp->client_work].condition & STATUS_FLAG_BURNED) {
             seq_no = SUB_SEQ_BURN_MON;
@@ -2075,12 +2128,18 @@ BOOL ServerFlinchCheck(void *bw, struct BattleStruct *sp)
     heldeffect = HeldItemHoldEffectGet(sp, sp->attack_client);
     atk = HeldItemAtkGet(sp, sp->attack_client, 0);
 
-    if (GetBattlerAbility(sp, sp->attack_client) == ABILITY_STENCH) // stench adds 10% flinch chance
+    // stench adds 10% flinch chance if not holding flinchy item
+    if (GetBattlerAbility(sp, sp->attack_client) == ABILITY_STENCH && heldeffect != HOLD_EFFECT_INCREASE_FLINCH)
     {
         atk += 10;
         heldeffect = HOLD_EFFECT_INCREASE_FLINCH; // doesn't permanently change the hold effect, just for this function
     }
 
+    if (GetBattlerAbility(sp, sp->attack_client) == ABILITY_SERENE_GRACE) {
+        atk = atk * 2;
+    }
+
+    // This may still stack on moves that can flinch anyway?
     if (sp->defence_client != 0xFF)
     {
         if ((heldeffect == HOLD_EFFECT_INCREASE_FLINCH)

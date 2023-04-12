@@ -132,6 +132,7 @@
 #define SUB_SEQ_HANDLE_VAPORIZE (345) // custom ability
 #define SUB_SEQ_HANDLE_IMMUNITY (346)
 
+#define SUB_SEQ_HANDLE_AIR_LOCK_MESSAGE (347)
 
 
 

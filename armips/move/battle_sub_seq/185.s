@@ -9,6 +9,8 @@
 
 .create "build/move/battle_sub_seq/1_185", 0
 
+// Handle Drought
+
 a001_185:
     setstatus2effect BATTLER_PLAYER, 0x16
     waitmessage
@@ -16,7 +18,19 @@ a001_185:
     waitmessage
     wait 0x1E
     changevar VAR_OP_CLEARMASK, VAR_FIELD_EFFECT, 0x80FF
-    changevar VAR_OP_SETMASK, VAR_FIELD_EFFECT, 0x20
+
+    /* Permanent Sun */
+    // changevar VAR_OP_SETMASK, VAR_FIELD_EFFECT, 0x20
+
+    /* Temporary Sun */
+    changevar VAR_OP_SETMASK, VAR_FIELD_EFFECT, 0x10
+    changevar VAR_OP_SET, VAR_WEATHER_TURNS, 0x5
+
+    /* 0x70 is Heat Rock effect */
+    checkitemeffect 0x1, BATTLER_xFF, 0x70, _End
+    getitempower BATTLER_xFF, 0x9
+    changevar2 VAR_OP_ADD, VAR_WEATHER_TURNS, VAR_09
+_End:
     endscript
 
 .close

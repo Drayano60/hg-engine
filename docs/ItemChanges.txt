@@ -1,0 +1,1619 @@
+-------------------
+Included Items
+-------------------
+- Everything from Gen 4
+- Eviolite (replaces Works Key)
+- Assault Vest (makes status moves fail instead of being unselectable) (replaces Galactic Key)
+- Devon Scope (replaces Rule Book)
+- GS Ball (replaces Contest Pass)
+- Ice Stone (replaces Coupon 1)
+- Prism Scale (replaces Coupon 2)
+- Linking Cord (replaces Coupon 3)
+- Pixie Plate (doesn't replace)
+
+-------------------
+Cost Changes
+-------------------
+- Ultra Ball: 1200 -> 800
+- Great Ball: 600 -> 400
+- Poké Ball: 200 -> 100
+- Full Heal: 600 -> 500
+- Super Repel: 500 -> 400
+- Max Repel: 700 -> 500
+- Escape Rope: 550 -> 200
+- Repel: 350 -> 200
+- Sun/Moon/Fire/Thunder/Water/Leaf/Shiny/Dusk/Dawn/Oval Stone: 2100 -> 3000
+- King's Rock/Metal Coat: 100 -> 3000
+- Deep Sea Tooth/Scale: 200 -> 3000
+- Dragon Scale/Upgrade/Protector/Electirizer/Magmarizer/Dubious Disc/Reaper Cloth/Razor Claw/Razor Fang: 2100 -> 3000
+
+-------------------
+Updated Items
+-------------------
+The following items were updated:
+- Super Potions now recover 60 HP (up from 50 HP).
+- Hyper Potions now recover 120 HP (down from 200 HP).
+- Fresh Waters now recover 30 HP (down from 50 HP).
+- Soda Pops now recover 50 HP (down from 60 HP).
+- Lemonades now recover 70 HP (down from 80 HP).
+- Energy Powders now recover 60 HP (up from 50 HP).
+- Energy Roots now recover 120 HP (down from 200 HP).
+- The King's Rock and Razor Claw now apply to all moves that do not already have a chance to flinch.
+- The Soul Dew now provides a 20% boost to Latios or Latias's Dragon and Psychic moves instead of heavily boosting Sp. Atk and Sp. Def. Additionally, it now works inside battle facilities.
+- The Power Weight, Bracer, Belt, Lens, Band and Anklet items now give 8 EVs of the relevant stat to a Pokémon holding it when defeating a Pokémon (up from 4 EVs).
+- All vitamin items (Protein, Iron etc.) no longer have an 100 EV per stat cap and can be used until the stat is maxed. The EV cap for each stat is also reduced to 252 (from 255).
+- All TMs can now be used an infinite amount of times, and cannot be sold.
+- The Stick, Lunar Wing and Secret Potion are known as the Leek, Lunar Feather and Secret Medicine respectively (as is the case in Gen 8). Spelling is updated for all items.
+- Evolution items that are normally for trade evolutions only can now be used like an evolution stone.
+
+The following items are somewhat updated:
+- The Grip Claw fixes the duration of a binding move to six turns instead of seven. (This is because the way the game stores the data means six is the maximum turns possible).
+- The Life Orb now displays a message after it activates. However, the Life Orb's interaction with Future Sight and Doom Desire is unchanged, and the user is not damaged if attacking into a substitute.
+
+The following items are not updated:
+- All Poké Balls retain their catch rates from Gen 4. It's also unclear if the Moon Ball works on newly added Moon Stone evolutions (e.g. Eevee).
+- Rare Candies cannot be used on a Lv. 100 Pokémon.
+- X items still only raise a stat by one stage.
+- Repels do not prompt you to use another one when they run out.
+- Escape Ropes are still consumable items instead of a key item.
+- The Figy, Wiki, Mago, Aguav and Iapapa Berries still recover 12.5% max HP when the Pokémon's HP reaches 50% or below.
+- The Pomeg, Kelpsy, Qualot, Hondew, Grepa and Tamato Berries still eliminate all EVs for a stat if that stat has 110 EVs or lower.
+- The Pomeg, Kelpsy, Qualot, Hondew, Grepa and Tamato Berries still give +2 friendship points if used on a Pokémon above 200 friendship.
+- The Exp. Share still works as it does in Gen 4.
+- The Mental Herb cannot cure the effects of Taunt, Encore, Torment, Heal Block or Disable (it still only affects Attract/Cute Charm).
+- The Choice Band still boosts the damage of self-inflicted confusion damage.
+- The Choice items do not cause a non-locked move to fail if the holder is somehow forced to use a different move.
+- The Cleanse Tag's encounter rate reduction still applies even if held by a Pokémon with an ability that affects encounter rates (such as Illuminate).
+- The Smoke Ball still guarantees escape if the player tries to run away on the same turn a Pokémon holding the Smoke Ball fainted.
+- Shell Bell's effect still works even if the holder is afflicted by Heal Block or attacks into a substitute.
+- The Focus Sash can still protect from multiple strikes of a multi-strike move.
+- The Metronome still only boosts the power of a move by 10% for each consecutive use.
+- A Flying-type holding an Iron Ball can still take super or not very effective damage from Ground-type moves depending on their secondary type.
+- A Pokémon holding a Full Incense or Lagging Tail will still move after a Pokémon with the Stall ability.
+
+-------------------
+Gifts From Mom
+-------------------
+In HG/SS, if you allow Mom to save money for you, she'll occasionally use some of the money to buy you items. Some of these are recurring purchases for type resistance berries, while others are one-time purchases.
+
+In an effort to reduce RNG, these gifts have been massively simplified and the original items moved elsewhere.
+
+In Aurora Crystal:
+* Any gift from Mom that would have been a type resist berry is now a Poké Doll.
+* Any gift from Mom that would have been a unique one-time purchase is now a Rare Candy.
+
+-------------------
+TM Changes
+-------------------
+All TMs are now infinite use, similar to Generations 5-7. Additionally, they can no longer be sold to shops, or given to a Pokémon to hold.
+
+If a TM is found on the floor in the overworld, it will be contained in a yellow Poké Ball, similar to Generation VI onwards.
+
+Additionally, a number of TMs have had the move they contain changed. Some of the replaced moves are no longer available, while others have been shifted to a Move Tutor instead.
+
+The changed TMs are as follows (the move after the arrow being the one used in the game):
+- TM01: Focus Punch ⟶ Hone Claws
+- TM03: Water Pulse ⟶ Psyshock
+- TM05: Roar ⟶ Snarl
+- TM09: Bullet Seed ⟶ Venoshock
+- TM21: Frustration ⟶ Dazzling Gleam
+- TM27: Return ⟶ Low Sweep
+- TM28: Dig ⟶ Leech Life
+- TM32: Double Team ⟶ Play Rough
+- TM34: Shock Wave ⟶ Sludge Wave
+- TM43: Secret Power ⟶ Flame Charge
+- TM49: Snatch ⟶ Echoed Voice
+- TM55: Brine ⟶ Scald
+- TM62: Silver Wind ⟶ Acrobatics
+- TM63: Embargo ⟶ Nasty Plot
+- TM67: Recycle ⟶ Smart Strike
+- TM70: Flash ⟶ Mystical Fire
+- TM78: Captivate ⟶ Bulldoze
+- TM83: Natural Gift ⟶ Work Up
+- TM88: Pluck ⟶ Air Slash
+
+-------------------
+Poké Mart Changes
+-------------------
+The inventories of the standard Poké Mart that changes as you gain gym badges have been edited. Generally, many of the redundant items such as singular status healing items have been removed in favour of giving access to Max Revives and PP restoration items.
+
+The standard Poké Marts stock the following items (with the amount of badges required in brackets):
+- [0] Poké Ball
+- [3] Great Ball
+- [5] Ultra Ball
+- [0] Potion
+- [1] Super Potion
+- [3] Hyper Potion
+- [7] Max Potion
+- [8] Full Restore
+- [0] Ether
+- [3] Max Ether
+- [5] Elixir
+- [7] Max Elixir
+- [3] Revive
+- [8] Max Revive
+- [0] Full Heal
+- [0] Escape Rope
+- [0] Repel
+- [3] Super Repel
+- [5] Max Repel
+
+--------- BELOW IS NOT RE-EDITED YET ---------
+
+======================================================================
+Item Locations
+======================================================================
+
+===================================
+Phrases
+===================================
+Buyable... means that the item can be purchased repeatedly at the location, given the appropriate funds.
+Found... means that the item is found as a Poké Ball on the floor at the location.
+Obtained... means that the item is given to you by an NPC, either by just speaking to them or by fulfiling certain conditions.
+Held by... means that the item can be held by some wild Pokémon species. The % rate of the item being held by that Pokémon is also supplied.
+May be found... means that the item can sometimes be found by performing a particular action, but not always. The % rate of that item being given - if an item is given - is also supplied.
+
+===================================
+Technical Machines
+===================================
+
+At a Glance
+====================
+
+o-------------------------------------------------------o
+| TM                    | Location                      |
+o-------------------------------------------------------o
+| TM01, Hone Claws      | Goldenrod Game Corner         |
+| TM02, Dragon Claw     | Dragon's Den                  |
+| TM03, Water Pulse     | Route 32 South                |
+| TM04, Calm Mind       | Olivine City                  |
+| TM05, Snarl           | Route 32 North                |
+| TM06, Toxic           | Cianwood City                 |
+| TM07, Hail            | Route 44                      |
+| TM08, Bulk Up         | Cianwood City                 |
+| TM09, Venoshock       | Goldenrod Tunnel              |
+| TM10, Hidden Power    | Sprout Tower                  |
+| TM11, Sunny Day       | Bellchime Trail               |
+| TM12, Taunt           | Route 34                      |
+| TM13, Ice Beam        | Mahogany Gym                  |
+| TM14, Blizzard        | Blackthorn City               |
+| TM15, Hyper Beam      | Blackthorn City               |
+| TM16, Light Screen    | Ruins of Alph                 |
+| TM17, Protect         | Goldenrod City                |
+| TM18, Rain Dance      | Slowpoke Well                 |
+| TM19, Giga Drain      | National Park                 |
+| TM20, Safeguard       | Ruins of Alph                 |
+| TM21, Dazzling Gleam  | Goldenrod Gym                 |
+| TM22, Solar Beam      | Blackthorn City               |
+| TM23, Iron Tail       | Olivine Gym                   |
+| TM24, Thunderbolt     | Goldenrod City                |
+| TM25, Thunder         | Blackthorn City               |
+| TM26, Earthquake      | Radio Tower                   |
+| TM27, Power-Up Punch  | Pokéathlon Dome               |
+| TM28, Dig             | National Park                 |
+| TM29, Psychic         | Ice Path, Lake of Rage        |
+| TM30, Shadow Ball     | Ecruteak Gym                  |
+| TM31, Brick Break     | Mt. Mortar                    |
+| TM32, Play Rough      | Route 26                      |
+| TM33, Reflect         | Ruins of Alph                 |
+| TM34, Wild Charge     | Dark Cave                     |
+| TM35, Flamethrower    | Ecruteak City                 |
+| TM36, Sludge Bomb     | Route 43                      |
+| TM37, Sandstorm       | Union Cave                    |
+| TM38, Fire Blast      | Blackthorn City               |
+| TM39, Rock Tomb       | Union Cave                    |
+| TM40, Aerial Ace      | Route 45                      |
+| TM41, Torment         | Goldenrod Game Corner         |
+| TM42, Facade          | Goldenrod City                |
+| TM43, Flame Charge    | Route 34                      |
+| TM44, Rest            | Ice Path                      |
+| TM45, Attract         | Goldenrod Gym                 |
+| TM46, Thief           | Azalea Town                   |
+| TM47, Steel Wing      | Route 42                      |
+| TM48, Skill Swap      | Goldenrod Game Corner         |
+| TM49, Echoed Voice    | Radio Tower                   |
+| TM50, Overheat        | Victory Road                  |
+| TM51, Roost           | Violet Gym                    |
+| TM52, Focus Blast     | Mt. Mortar                    |
+| TM53, Energy Ball     | Route 43                      |
+| TM54, False Swipe     | Route 31                      |
+| TM55, Scald           | Route 40                      |
+| TM56, Power Whip      | Route 27                      |
+| TM57, Charge Beam     | Goldenrod City                |
+| TM58, Meteor Beam     | Tohjo Falls                   |
+| TM59, Dragon Pulse    | Dragon's Den, Blackthorn Gym  |
+| TM60, Drain Punch     | Cianwood Gym                  |
+| TM61, Will-O-Wisp     | Ecruteak City                 |
+| TM62, Pollen Puff     | Safari Zone Gate              |
+| TM63, Nasty Plot      | Goldenrod Tunnel              |
+| TM64, Explosion       | Team Rocket HQ                |
+| TM65, Shadow Claw     | Route 42                      |
+| TM66, Payback         | Route 35                      |
+| TM67, Smart Strike    | Goldenrod Game Corner         |
+| TM68, Giga Impact     | Blackthorn City               |
+| TM69, Rock Polish     | Goldenrod Game Corner         |
+| TM70, Mystical Fire   | Burned Tower                  |
+| TM71, Stone Edge      | Victory Road                  |
+| TM72, Avalanche       | Ice Path                      |
+| TM73, Thunder Wave    | Olivine City                  |
+| TM74, Gyro Ball       | Route 39                      |
+| TM75, Swords Dance    | Route 45                      |
+| TM76, Scorching Sands | Route 40                      |
+| TM77, Psych Up        | Goldenrod Game Corner         |
+| TM78, Bulldoze        | Route 35                      |
+| TM79, Dark Pulse      | Route 43                      |
+| TM80, Rock Slide      | Union Cave                    |
+| TM81, X-Scissor       | Ilex Forest                   |
+| TM82, Sleep Talk      | Route 31                      |
+| TM83, Work Up         | Violet City                   |
+| TM84, Poison Jab      | Violet City                   |
+| TM85, Psychic Fangs   | Whirl Islands                 |
+| TM86, Grass Knot      | Ilex Forest                   |
+| TM87, Swagger         | Goldenrod Game Corner         |
+| TM88, Acrobatics      | Glitter Lighthouse            |
+| TM89, U-turn          | Azalea Gym                    |
+| TM90, Substitute      | -                             |
+| TM91, Flash Cannon    | Glitter Lighthouse            |
+| TM92, Trick Room      | Radio Tower                   |
+o-------------------------------------------------------o
+
+In Detail
+====================
+
+TM01, Hone Claws:
+* Buyable at the Game Corner in Goldenrod City for 2,000 coins.
+
+TM02, Dragon Claw:
+* Found in the Dragon's Den, at the bottom right of the room a little ways past the shrine.
+
+TM03, Water Pulse:
+* Found on Route 32 South, to the south past a grass patch.
+
+TM04, Calm Mind:
+* Obtained from Sabrina in Olivine City, inside the harbour building, after talking to Baoba at the Safari Zone.
+
+TM05, Snarl:
+* Obtained from an NPC on Route 32 North, on the ledge at the northern side of the route.
+
+TM06, Toxic:
+* Obtained from Koga in Cianwood City, inside the pharmacy.
+
+TM07, Hail:
+* Found on Route 44, inside the grass patch in the center of the pond.
+
+TM08, Bulk Up:
+* Obtained from an NPC in Cianwood City, in the house to the north.
+
+TM09, Venoshock:
+* Found in the Goldenrod Tunnel, on B1F, near the shops.
+
+TM10, Hidden Power:
+* Obtained from Li in Sprout Tower, on 3F, after defeating him in battle.
+
+TM11, Sunny Day:
+* Found in the Bellchime Trail, nestled amongst the northern trees.
+
+TM12, Taunt:
+* Obtained from an NPC on Route 34, in the southern gatehouse connecting to the Ilex Forest.
+
+TM13, Ice Beam:
+* Obtained from Pryce in Mahogany Town's Gym, after defeating him in battle.
+
+TM14, Blizzard:
+* Buyable from an NPC in Blackthorn City, in the Move Tutor house, for $30,000.
+
+TM15, Hyper Beam:
+* Buyable from an NPC in Blackthorn City, in the Move Tutor house, for $50,000.
+
+TM16, Light Screen:
+* Found in the Ruins of Alph, behind the wall that says "LIGHT" (requires you to use Flash from the menu).
+
+TM17, Protect:
+* Found in the Goldenrod City Department Store, on B1F, at the top left.
+
+TM18, Rain Dance:
+* Found in the Slowpoke Well, on B1F, on the raised land to the right.
+
+TM19, Giga Drain:
+* Obtained from Erika in the National Park, on a bench near the fountain, after talking to Baoba at the Safari Zone.
+
+TM20, Safeguard:
+* Found in the Ruins of Alph, behind the wall that says "HO-OH" (requires Ho-oh to be in your party).
+
+TM21, Dazzling Gleam:
+* Obtained from Whitney in Goldenrod City's Gym, after defeating her in battle.
+
+TM22, Solar Beam:
+* Buyable from an NPC in Blackthorn City, in the Move Tutor house, for $10,000.
+
+TM23, Iron Tail:
+* Obtained from Jasmine in Olivine City's Gym, after defeating her in battle.
+
+TM24, Thunderbolt:
+* Obtained from Lt. Surge in Goldenrod City, inside the Magnet Train station, after talking to Baoba at the Safari Zone.
+
+TM25, Thunder:
+* Buyable from an NPC in Blackthorn City, in the Move Tutor house, for $50,000.
+
+TM26, Earthquake:
+* Obtained from an NPC in the Radio Tower, after clearing Team Rocket from the Radio Tower.
+
+TM27, Power-Up Punch:
+* Obtained from Magnus in the outside area of the Pokéathlon Dome, when visiting there for the first time.
+
+TM28, Dig:
+* Found in the National Park, near the bottom left behind the fence.
+
+TM29, Psychic:
+* Obtained from Will in the Ice Path, if you agreed to battle him.
+* Obtained from an NPC at the Lake of Rage, inside a house to the top left of the lake, if you did not agree to battle Will.
+
+TM30, Shadow Ball:
+* Obtained from Morty in Ecruteak City's Gym, after defeating him in battle.
+
+TM31, Brick Break:
+* Found in Mt. Mortar, on 1F, in the back room, close to the Super Nerd trainer NPC.
+
+TM32, Play Rough:
+* Found on Route 26, past a couple ledges just south of the Victory Road gate.
+
+TM33, Reflect:
+* Found in the Ruins of Alph, behind the wall that says "WATER" (requires using a Water Stone).
+
+TM34, Wild Charge:
+* Found in Dark Cave, on the Blackthorn side, near the top left of the room.
+
+TM35, Flamethrower:
+* Obtained from Blaine in Ecruteak City, near the Burned Tower, after talking to Baoba at the Safari Zone.
+
+TM36, Sludge Bomb:
+* Obtained from an NPC on Route 43, inside the middle gatehouse, after clearing Team Rocket's HQ.
+
+TM37, Sandstorm:
+* Found in Union Cave, on B1F, near one of the staircases to the north past the pond.
+
+TM38, Fire Blast:
+* Buyable from an NPC in Blackthorn City, in the Move Tutor house, for $30,000.
+
+TM39, Rock Tomb:
+* Found in Union Cave, on B1F, in the south-west corner of the northern area.
+
+TM40, Aerial Ace:
+* Found on Route 45 South, at the end of a path accessible from the Dark Cave exit on Route 46.
+
+TM41, Torment:
+* Found in Goldenrod City's Game Corner, to the left as you enter.
+
+TM42, Facade:
+* Obtained from an NPC in the Goldenrod City Department Store, on 6F, on one of the tables to the left.
+
+TM43, Flame Charge:
+* Found on Route 34, in the middle of the grass near Goldenrod City.
+
+TM44, Rest:
+* Found in the Ice Path, B3F, at the bottom right of an ice puzzle below a raised area.
+
+TM45, Attract:
+* Obtained from Whitney in Goldenrod City's Gym, after defeating her in battle.
+
+TM46, Thief:
+* Obtained from an NPC in Azalea Town near Kurt's house, after defeating him in battle.
+
+TM47, Steel Wing:
+* Found on Route 42, inside the small grove in the middle of the route.
+
+TM48, Skill Swap:
+* Buyable at the Game Corner in Goldenrod City for 2,000 coins.
+
+TM49, Echoed Voice:
+* Found in the Radio Tower, on 1F, between the potted plants.
+
+TM50, Overheat:
+* Found in Victory Road, on 3F, behind the smashable rocks just south of the Indigo Plateau exit.
+
+TM51, Roost:
+* Obtained from Falkner in Violet City's Gym, after defeating him in battle.
+
+TM52, Focus Blast:
+* Obtained from Bruno in Mt. Mortar, on 2F (the room above the waterfall), in the center of the room if you talk to him while having the Rage Candy Bar in your bag.
+
+TM53, Energy Ball:
+* Found on Route 43, behind the Cut tree over the water.
+
+TM54, False Swipe:
+* Obtained from Ethan or Lyra on Route 31, in the gatehouse leading into Violet City.
+
+TM55, Scald:
+* Obtained from Misty on Route 40, near the sea, after talking to Baoba at the Safari Zone.
+
+TM56, Power Whip:
+* Found on Route 27, just past a whirlpool found south of the first wooden bridge.
+
+TM57, Charge Beam:
+* Found in Goldenrod City, inside the Magnet Train station.
+
+TM58, Meteor Beam:
+* Found in Tohjo Falls, at the end of the path that passes under the waterfalls.
+
+TM59, Dragon Pulse:
+* Obtained from Clair in the Dragon's Den, if spoken to after completing the Master's quiz.
+* Obtained from Clair in Blackthorn City's Gym, if not spoken to in Dragon's Den after completing the Master's quiz.
+
+TM60, Drain Punch:
+* Obtained from Chuck in Cianwood City's Gym, after defeating him in battle.
+
+TM61, Will-O-Wisp:
+* Found in Ecruteak City, to the left of the Burned Tower.
+
+TM62, Pollen Puff:
+* Obtained from an NPC at the Safari Zone Gate, after defeating Team Rocket there.
+
+TM63, Nasty Plot:
+* Found in Goldenrod Tunnel, in the last basement room next to where the Radio Tower's Director is held.
+
+TM64, Explosion:
+* Found in Team Rocket HQ, on B2F, located in the room up the stairs just left of Petrel's room.
+
+TM65, Shadow Claw:
+* Found on Route 42, to the left of the western entrance of Mt. Mortar.
+
+TM66, Payback:
+* Found on Route 35, to the bottom right of the route past the tall grass on the right.
+
+TM67, Smart Strike:
+* Buyable at the Game Corner in Goldenrod City for 2,000 coins.
+
+TM68, Giga Impact:
+* Buyable from an NPC in Blackthorn City, in the Move Tutor house, for $50,000.
+
+TM69, Rock Polish:
+* Buyable at the Game Corner in Goldenrod City for 2,000 coins.
+
+TM70, Mystical Fire:
+* Found in the Burned Tower, on B1F, to the top left of the room.
+
+TM71, Stone Edge:
+* Found in Victory Road, on 2F, at the top left accessible by falling down a hole on 3F.
+
+TM72, Avalanche:
+* Found in the Ice Path, on 1F, past the ice puzzle at the top right of the room.
+
+TM73, Thunder Wave:
+* Found in Olivine City, on the small piece of shore to the right of the Lighthouse.
+
+TM74, Gyro Ball:
+* Found on Route 39, next to the silo beneath the Moomoo Farm field.
+
+TM75, Swords Dance:
+* Found on Route 45 North, halfway down the ledges on the right side of the route.
+
+TM76, Scorching Sands:
+* Found on Route 40, on the small patch of shore in the middle of the route.
+
+TM77, Psych Up:
+* Buyable at the Game Corner in Goldenrod City for 2,000 coins.
+
+TM78, Bulldoze:
+* Obtained from an NPC on Route 35, inside the gatehouse leading to the Pokéathlon Dome.
+
+TM79, Dark Pulse:
+* Obtained from Karen on Route 43, just after you enter the route for the first time.
+
+TM80, Rock Slide:
+* Obtained from Brock in Union Cave, in one of the corridors going towards the Ruins of Alph, after talking to Baoba at the Safari Zone.
+
+TM81, X-Scissor:
+* Found in the Ilex Forest, in the small alcove to the left of the pond near the Route 34 exit.
+
+TM82, Sleep Talk:
+* Obtained from an NPC on Route 31, after delivering the mail from the NPC in the Goldenrod/Route 35 gatehouse.
+
+TM83, Work Up:
+* Obtained from an NPC in Violet City, inside the Trainers' School.
+
+TM84, Poison Jab:
+* Obtained from Janine in Violet City, in the centre of town, after talking to Baoba at the Safari Zone.
+
+TM85, Psychic Fangs:
+* Found in the Whirl Islands, on B2F, just down a ladder most easily accessible from the top-left entrance.
+
+TM86, Grass Knot:
+* Obtained from Gardenia in Ilex Forest, in the middle of the forest amongst some trees.
+
+TM87, Swagger:
+* Buyable at the Game Corner in Goldenrod City for 2,000 coins.
+
+TM88, Acrobatics:
+* Found in the Glitter Lighthouse, to the top left of the outside area the player falls onto when climbing the lighthouse.
+
+TM89, U-turn:
+* Obtained from Bugsy in Azalea Town's Gym, after defeating him in battle.
+
+TM90, Substitute:
+* tbc
+
+TM91, Flash Cannon:
+* Obtained from an NPC in Glitter Lighthouse, on the top floor, after defeating Jasmine.
+
+TM92, Trick Room:
+* Obtained from an NPC in the Radio Tower, on 4F, after clearing Team Rocket from the Radio Tower.
+
+===================================
+Hidden Machines
+===================================
+
+At a Glance
+====================
+
+o-------------------------------------------------------o
+| HM                    | Location                      |
+o-------------------------------------------------------o
+| HM01, Cut             | Azalea Town                   |
+| HM02, Fly             | Cianwood City                 |
+| HM03, Surf            | Ecruteak City                 |
+| HM04, Strength        | Route 42                      |
+| HM05, Whirlpool       | Team Rocket HQ                |
+| HM06, Rock Smash      | Route 32 North                |
+| HM07, Waterfall       | Safari Zone Gate              |
+| HM08, Rock Climb      | -                             |
+o-------------------------------------------------------o
+
+In Detail
+====================
+
+HM01, Cut:
+* Obtained from Kurt in Azalea Town, after defeating Team Rocket in the Slowpoke Well.
+
+HM02, Fly:
+* Obtained from Chuck's wife in Cianwood City, after defeating Chuck.
+
+HM03, Surf:
+* Obtained from an NPC in the Ecruteak Dance Theater, after defeating the Team Rocket grunt.
+
+HM04, Strength:
+* Obtained from an NPC on Route 42, after trying to enter Mt. Mortar for the first time.
+
+HM05, Whirlpool:
+* Obtained from Lance in Team Rocket's HQ, after dealing with the Electrode.
+
+HM06, Rock Smash:
+* Obtained from an NPC on Route 32 North who previously blocked your way, after defeating Falkner.
+
+HM07, Waterfall:
+* Obtained from Baoba at the Safari Zone Gate, after defeating Team Rocket there.
+
+HM08, Rock Climb:
+* tbc
+
+===================================
+Evolution Items
+===================================
+
+At a Glance
+====================
+
+o-------------------------------------------------------------------------------------------o
+| Item                      | Locations                                                     |
+o-------------------------------------------------------------------------------------------o
+| Fire Stone                | Burned Tower, Goldenrod City                                  |
+| Water Stone               | Route 47, Goldenrod City                                      |
+| Thunder Stone             | Olivine City, Goldenrod City                                  |
+| Leaf Stone                | Route 48, Goldenrod City                                      |
+| Moon Stone                | Mt. Mortar, Goldenrod City                                    |
+| Sun Stone                 | National Park, Goldenrod City                                 |
+| Shiny Stone               | Lake of Rage, Safari Zone Gate                                |
+| Dusk Stone                | Dark Cave, Safari Zone Gate                                   |
+| Dawn Stone                | Route 35, Safari Zone Gate                                    |
+| Ice Stone                 | Ice Path, Goldenrod City                                      |
+| Deep Sea Scale            | Olivine City, Safari Zone Gate                                |
+| Deep Sea Tooth            | Olivine City, Safari Zone Gate                                |
+| Dragon Scale              | Whirl Islands, Pokémon League                                 |
+| Dubious Disc              | Team Rocket HQ, Pokémon League                                |
+| Electirizer               | Radio Tower, Pokémon League                                   |
+| King's Rock               | Slowpoke Well, Safari Zone Gate                               |
+| Linking Cord              | Cianwood City, Team Rocket HQ, Radio Tower, Pokémon League    |
+| Magmarizer                | Goldenrod Tunnel, Pokémon League                              |
+| Metal Coat                | Glitter Lighthouse, Safari Zone Gate                          |
+| Oval Stone                | Union Cave, Safari Zone Gate                                  |
+| Prism Scale               | Union Cave, Safari Zone Gate                                  |
+| Protector                 | Mt. Mortar, Pokémon League                                    |
+| Razor Claw                | Ice Path, Pokémon League                                      |
+| Razor Fang                | Route 45, Pokémon League                                      |
+| Reaper Cloth              | Dark Cave, Pokémon League                                     |
+| Upgrade                   | Goldenrod City, Safari Zone Gate                              |
+o-------------------------------------------------------------------------------------------o
+
+In Detail
+====================
+
+Fire Stone:
+* Found in Burned Tower, 1F, at the top of the room.
+* Buyable at the Goldenrod City Department Store, on 5F, for $3,000.
+* Can be chosen as a gift during the Kimono Girl encounter in Violet City.
+
+Water Stone:
+* Found on Route 47, near the Cliff Cave's middle entrance.
+* Buyable at the Goldenrod City Department Store, on 5F, for $3,000.
+* Can be chosen as a gift during the Kimono Girl encounter in Violet City.
+
+Thunder Stone:
+* Found in Olivine City, next to the lighthouse.
+* Buyable at the Goldenrod City Department Store, on 5F, for $3,000.
+* Can be chosen as a gift during the Kimono Girl encounter in Violet City.
+
+Leaf Stone:
+* Found on Route 48, in the small path behind the trees.
+* Buyable at the Goldenrod City Department Store, on 5F, for $3,000.
+* Can be chosen as a gift during the Kimono Girl encounter in Violet City.
+
+Moon Stone:
+* Found in Mt. Mortar, on 1F, near some rocks in the room from the entrance on the right side of Route 42.
+* Buyable at the Goldenrod City Department Store, on 5F, for $3,000.
+* Can be chosen as a gift during the Kimono Girl encounter in Violet City.
+
+Sun Stone:
+* Found in the National Park, next to the benches on the bottom half by the flower bed.
+* Buyable at the Goldenrod City Department Store, on 5F, for $3,000.
+* Can be chosen as a gift during the Kimono Girl encounter in Violet City.
+
+Shiny Stone:
+* Found at the Lake of Rage, on a small patch of land to the bottom left of the lake.
+* Buyable at the Safari Zone Gate, from the stall at the top, for $3,000.
+
+Dusk Stone:
+* Found in Dark Cave, on the Blackthorn side, a little ways down from the first steps you see from the Blackthorn entrance.
+* Buyable at the Safari Zone Gate, from the stall at the top, for $3,000.
+
+Dawn Stone:
+* Found on Route 35, at the end of the path across the pond.
+* Buyable at the Safari Zone Gate, from the stall at the top, for $3,000.
+* Can be chosen as a gift during the Kimono Girl encounter in Violet City.
+
+Ice Stone:
+* Found in the Ice Path, on B3F, behind a smashable rock.
+* Buyable at the Goldenrod City Department Store, on 5F, for $3,000.
+* Can be chosen as a gift during the Kimono Girl encounter in Violet City.
+
+Deep Sea Scale:
+* Obtained from an NPC in Olivine City, in the house above the Pokémon Center.
+* Buyable at the Safari Zone Gate, at the stall in the middle, for $3,000.
+
+Deep Sea Tooth:
+* Obtained from an NPC in Olivine City, in the house above the Pokémon Center.
+* Buyable at the Safari Zone Gate, at the stall in the middle, for $3,000.
+
+Dragon Scale:
+* Found in the Whirl Islands, on 1F, just across the water when you enter from the southwest entrance.
+* Buyable at the Pokémon League, from a guy to the right of the Poké Mart area, for $3,000.
+
+Dubious Disc:
+* Found in Team Rocket HQ, on B1F, to the right of the Scientist near a computer.
+* Buyable at the Pokémon League, from a guy to the right of the Poké Mart area, for $3,000.
+
+Electirizer:
+* Found in the Radio Tower, on 4F, in the room up the stairs just after the shutter that opens with the Card Key.
+* Buyable at the Pokémon League, from a guy to the right of the Poké Mart area, for $3,000.
+
+King's Rock:
+* Obtained from an NPC in Slowpoke Well, B1F, on the raised land to the left.
+* Buyable at the Safari Zone Gate, at the stall in the middle, for $3,000.
+
+Linking Cord:
+* Obtained from an NPC in Cianwood City, inside the Pokémon Center.
+* Found in Team Rocket HQ, on B3F, at the bottom left of the room by a plant.
+* Found in the Radio Tower, on 5F, next to the cabinet in the Director's room.
+* Buyable at the Pokémon League, from a guy to the right of the Poké Mart area, for $3,000.
+
+Magmarizer:
+* Found in Goldenrod Tunnel, on B2F, at the bottom left of the room with the gate switches.
+* Buyable at the Pokémon League, from a guy to the right of the Poké Mart area, for $3,000.
+
+Metal Coat:
+* Obtained from Jasmine in the Lighthouse, after giving Amphy the Secret Medicine.
+* Buyable at the Safari Zone Gate, at the stall in the middle, for $3,000.
+
+Oval Stone:
+* Found in Union Cave, 1F, on the small island across the pond to the south.
+* Buyable at the Safari Zone Gate, at the stall in the middle, for $3,000.
+
+Prism Scale:
+* Found in Union Cave, B2F, on one of the raised parts to the south.
+* Buyable at the Safari Zone Gate, at the stall in the middle, for $3,000.
+
+Protector:
+* Found in Mt. Mortar, on 2F (the room above the waterfall), on the raised section to the top left.
+* Buyable at the Pokémon League, from a guy to the right of the Poké Mart area, for $3,000.
+
+Razor Claw:
+* Found in the Ice Path, B2F, by an ice puzzle that requires you to push a Strength boulder.
+* Buyable at the Pokémon League, from a guy to the right of the Poké Mart area, for $3,000.
+
+Razor Fang:
+* Found on Route 45 North, past a long patch of grass south of the Dark Cave entrance.
+* Buyable at the Pokémon League, from a guy to the right of the Poké Mart area, for $3,000.
+
+Reaper Cloth:
+* Found in Dark Cave, on the Blackthorn side, on a raised area at the bottom left of the room.
+* Buyable at the Pokémon League, from a guy to the right of the Poké Mart area, for $3,000.
+
+Upgrade:
+* Obtained from Bill in Goldenrod City, after meeting him in Ecruteak's Pokémon Center.
+* Buyable at the Safari Zone Gate, at the stall in the middle, for $3,000.
+
+===================================
+Battle Items
+===================================
+
+At a Glance
+====================
+
+o-------------------------------------------------------------------o
+| Item                      | Locations                             |
+o-------------------------------------------------------------------o
+| Adamant Orb               | -                                     |
+| Amulet Coin               | Goldenrod City                        |
+| Big Root                  | Ilex Forest                           |
+| Black Belt                | Route 32 South                        |
+| Black Glasses             | Dark Cave                             |
+| Black Sludge              | Wild Grimer/Muk                       |
+| Bright Powder             | Route 38                              |
+| Charcoal                  | Azalea Town                           |
+| Choice Band               | Mt. Mortar                            |
+| Choice Scarf              | New Bark Town                         |
+| Choice Specs              | Lake of Rage                          |
+| Cleanse Tag               | Sprout Tower                          |
+| Damp Rock                 | National Park                         |
+| Destiny Knot              | Goldenrod City                        |
+| Dragon Fang               | Mt. Mortar                            |
+| Everstone                 | Goldenrod City                        |
+| Exp. Share                | Any Pokémon Center                    |
+| Expert Belt               | Route 34                              |
+| Flame Orb                 | Burned Tower                          |
+| Focus Band                | Mt. Mortar                            |
+| Focus Sash                | Cianwood City                         |
+| Grip Claw                 | Ice Path                              |
+| Griseous Orb              | -                                     |
+| Hard Stone                | Union Cave                            |
+| Heat Rock                 | National Park                         |
+| Icy Rock                  | National Park                         |
+| Iron Ball                 | Mt. Mortar                            |
+| Lagging Tail              | Slowpoke Well                         |
+| Leek (Stick)              | Wild Farfetch'd                       |
+| Leftovers                 | Olivine City                          |
+| Life Orb                  | Dark Cave                             |
+| Light Ball                | Goldenrod City                        |
+| Light Clay                | Glitter Lighthouse                    |
+| Lucky Egg                 | Route 39                              |
+| Lucky Punch               | Wild Happiny                          |
+| Lustrous Orb              | -                                     |
+| Macho Brace               | Mt. Mortar                            |
+| Magnet                    | Goldenrod City                        |
+| Mental Herb               | Goldenrod City                        |
+| Metal Powder              | Route 47                              |
+| Metronome                 | Goldenrod Game Corner                 |
+| Miracle Seed              | Violet City                           |
+| Muscle Band               | Pokéathlon Dome                       |
+| Mystic Water              | Slowpoke Well                         |
+| Never-Melt Ice            | Ice Path                              |
+| Poison Barb               | Route 32 South                        |
+| Power Anklet              | Any Pokémon Center                    |
+| Power Band                | Any Pokémon Center                    |
+| Power Belt                | Any Pokémon Center                    |
+| Power Bracer              | Any Pokémon Center                    |
+| Power Herb                | Goldenrod City                        |
+| Power Lens                | Any Pokémon Center                    |
+| Power Weight              | Any Pokémon Center                    |
+| Quick Claw                | National Park                         |
+| Quick Powder              | Route 34                              |
+| Scope Lens                | Goldenrod City                        |
+| Sharp Beak                | Violet City                           |
+| Shed Shell                | Ilex Forest                           |
+| Shell Bell                | Route 32 South                        |
+| Silk Scarf                | Violet City, Goldenrod Game Corner    |
+| Silver Powder             | Ilex Forest                           |
+| Smoke Ball                | Route 32 North                        |
+| Smooth Rock               | National Park                         |
+| Soft Sand                 | Route 40                              |
+| Soothe Bell               | Route 31                              |
+| Soul Dew                  | -                                     |
+| Spell Tag                 | Ecruteak City                         |
+| Sticky Barb               | Wild Cacnea/Cacturne                  |
+| Thick Club                | Goldenrod Game Corner                 |
+| Toxic Orb                 | Team Rocket HQ                        |
+| Twisted Spoon             | Goldenrod City                        |
+| White Herb                | Goldenrod City                        |
+| Wide Lens                 | Goldenrod Game Corner                 |
+| Wise Glasses              | Goldenrod City                        |
+| Zoom Lens                 | Goldenrod Game Corner                 |
+o-------------------------------------------------------------------o
+
+In Detail
+====================
+Adamant Orb:
+* tbc
+
+Amulet Coin:
+* Found in the Goldenrod City Department Store, on B1F, on the right as you exit the elevator.
+
+Big Root:
+* Found in the Ilex Forest, at the top right inside a small alcove.
+
+Black Belt:
+* Obtained from an NPC on Route 32 South, inside the Pokémon Center.
+
+Black Glasses:
+* Found in Dark Cave, on the Violet side, across a pond close to the entrance on Route 31.
+
+Black Sludge:
+* Held by wild Grimer and Muk (100%).
+
+Bright Powder:
+* Found on Route 38, under the fence as you enter the route from the Ecruteak side.
+
+Charcoal:
+* Obtained from an NPC in Azalea Town, in the Charcoal Kiln house, after defeating Team Rocket in the Slowpoke Well.
+
+Choice Band:
+* Obtained from the Karate King in Mt. Mortar, on B1F - accessible from 2F - after defeating him in battle.
+
+Choice Scarf:
+* Obtained from Mom in New Bark Town, if you speak to her after defeating Team Rocket at the Radio Tower.
+
+Choice Specs:
+* Found at the Lake of Rage, on a small piece of land at the top left of the lake near a house.
+
+Cleanse Tag:
+* Obtained from an NPC in Sprout Tower, on 1F, by talking to the old lady in front of the pillar.
+
+Damp Rock:
+* Obtained from an NPC in the National Park, who jogs around the fountain, if spoken to while TM18 is in your inventory.
+
+Destiny Knot:
+* Obtained from an NPC in Goldenrod City, who is standing by the water directly south of the GTS (only when the Goldenrod Team Rocket takeover isn't active).
+
+Dragon Fang:
+* Found in Mt. Mortar, on 1F, on the left side of the waterfall, accessible from the ladder on the left in the back room.
+
+Everstone:
+* Buyable at the Goldenrod City Department Store, on 5F, for $3,000.
+
+Exp. Share:
+* Obtained from any Pokémon Center's Help Desk, when any of the Help Desks are spoken to for the first time.
+
+Expert Belt:
+* Obtained from NPCs on Route 34, found at the end of the water, after defeating them in battles.
+
+Flame Orb:
+* Found in the Burned Tower, on 1F, behind some smashable rocks.
+
+Focus Band:
+* Found in Mt. Mortar, on 1F, in the back room, to the top right of the area accessible from the bottom entrance.
+
+Focus Sash:
+* Obtained from an NPC in Cianwood City, in the house to the north. (3x)
+
+Grip Claw:
+* Found in the Ice Path, on 1F, on a raised platform near the Blackthorn exit.
+
+Griseous Orb:
+* tbc
+
+Hard Stone:
+* Found in Union Cave, B1F, slightly up from the northern entrance from 1F.
+
+Heat Rock:
+* Obtained from an NPC in the National Park, who jogs around the fountain, if spoken to while TM11 is in your inventory.
+
+Icy Rock:
+* Obtained from an NPC in the National Park, who jogs around the fountain, if spoken to while TM07 is in your inventory.
+
+Iron Ball:
+* Found in Mt. Mortar, on 1F, in the back room, past the stairs on the left near the movable boulder.
+
+Lagging Tail:
+* Found in the Slowpoke Well, on 1F, at the top left between some rocks.
+
+Leek (Stick):
+* Held by wild Farfetch'd (100%).
+
+Leftovers:
+* Obtained from a Munchlax in Olivine City, inside the diner.
+
+Life Orb:
+* Obtained from an NPC in Dark Cave, on the Blackthorn side, at the top left of the room.
+
+Light Ball:
+* Obtained from an NPC in Goldenrod City, inside the Magnet Train station.
+
+Light Clay:
+* Found in the Glitter Lighthouse, on one of the middle floors.
+
+Lucky Egg:
+* Obtained from an NPC on Route 39, inside the Moomoo Farm, after feeding the sick Miltank four Sitrus Berries.
+* Held by wild Chansey and Blissey (100%).
+
+Lucky Punch:
+* Held by wild Happiny (100%).
+
+Lustrous Orb:
+* tbc
+
+Macho Brace:
+* Found in Mt. Mortar, on 1F, on the right side of the waterfall, accessible from the ladder on the right in the back room.
+
+Magnet:
+* Found in the Goldenrod City Department Store, on B1F, in the middle on the bottom corridor.
+
+Mental Herb:
+* Buyable in Goldenrod City, in the flower shop, for $2,000.
+
+Metal Powder:
+* Found on Route 47, on some land found by going up a waterfall accessible from the lower Cliff Cave exit.
+
+Metronome:
+* Buyable at the Game Corner in Goldenrod City for 1,000 coins.
+
+Miracle Seed:
+* Found in Violet City, behind the smashable rock.
+
+Muscle Band:
+* Found in the outside area of the Pokéathlon Dome, at the bottom left near the benches.
+
+Mystic Water:
+* Found in the Slowpoke Well, 1F, in the middle near some rocks.
+
+Never-Melt Ice:
+* Found in the Ice Path, 1F, in the middle between some rocks.
+
+Poison Barb:
+* Found on Route 32 South, in the gap between the trees above the Pokémon Center.
+
+Power Anklet:
+* Obtained from any Pokémon Center's Help Desk, when any of the Help Desks are spoken to for the first time.
+
+Power Band:
+* Obtained from any Pokémon Center's Help Desk, when any of the Help Desks are spoken to for the first time.
+
+Power Belt:
+* Obtained from any Pokémon Center's Help Desk, when any of the Help Desks are spoken to for the first time.
+
+Power Bracer:
+* Obtained from any Pokémon Center's Help Desk, when any of the Help Desks are spoken to for the first time.
+
+Power Herb:
+* Buyable in Goldenrod City, in the flower shop, for $2,000.
+
+Power Lens:
+* Obtained from any Pokémon Center's Help Desk, when any of the Help Desks are spoken to for the first time.
+
+Power Weight:
+* Obtained from any Pokémon Center's Help Desk, when any of the Help Desks are spoken to for the first time.
+
+Quick Claw:
+* Obtained from an NPC in the National Park, who sits on a bench next to a Persian.
+
+Quick Powder:
+* Found on Route 34, on the top of the fenced area accessible from the water.
+
+Scope Lens:
+* Found in the Goldenrod City Department Store, on B1F, to the bottom right.
+
+Sharp Beak:
+* Obtained from an NPC in Violet City, in the house furthest to the left.
+
+Shed Shell:
+* Found in the Ilex Forest, in an alcove a little ways above the shrine.
+
+Shell Bell:
+* Found on Route 32 South, behind a smashable rock near the Union Cave entrance.
+
+Silk Scarf:
+* Obtained from an NPC in Violet City, inside the Trainers' School.
+* Buyable at the Game Corner in Goldenrod City for 1,000 coins.
+
+Silver Powder:
+* Found in the Ilex Forest, in the bottom right area near the piles of sticks.
+
+Smoke Ball:
+* Found on Route 32 North, near the ledge at the northern side of the route.
+
+Smooth Rock:
+* Obtained from an NPC in the National Park, who jogs around the fountain, if spoken to while TM37 is in your inventory.
+
+Soft Sand:
+* Obtained from an NPC on Route 40, near the sea.
+
+Soothe Bell:
+* Obtained from an NPC on Route 31, after defeating her in a battle.
+
+Soul Dew:
+* tbc
+
+Spell Tag:
+* Obtained from an NPC in Ecruteak City, inside the house above the Gym.
+
+Sticky Barb:
+* Held by wild Cacnea and Cacturne (100%).
+
+Thick Club:
+* Held by any Cubone bought from the Game Corner in Goldenrod City.
+
+Toxic Orb:
+* Found in the Team Rocket HQ, on B3F, at the top left near some boxes.
+
+Twisted Spoon:
+* Obtained from an NPC in Goldenrod City, inside the purple tent to the north of town.
+
+White Herb:
+* Buyable in Goldenrod City, in the flower shop, for $2,000.
+
+Wide Lens:
+* Buyable at the Game Corner in Goldenrod City for 1,000 coins.
+
+Wise Glasses:
+* Found in Goldenrod City, slightly south of the Bike Shop building.
+
+Zoom Lens:
+* Buyable at the Game Corner in Goldenrod City for 1,000 coins.
+
+===================================
+Fossils
+===================================
+
+At a Glance
+====================
+
+o-------------------------------------------------------------------o
+| Item                      | Locations                             |
+o-------------------------------------------------------------------o
+| Armor Fossil              | Ruins of Alph, Ruins Research Center  |
+| Claw Fossil               | Ruins of Alph, Ruins Research Center  |
+| Dome Fossil               | Ruins of Alph, Ruins Research Center  |
+| Helix Fossil              | Ruins of Alph, Ruins Research Center  |
+| Root Fossil               | Ruins of Alph, Ruins Research Center  |
+| Skull Fossil              | Ruins of Alph, Ruins Research Center  |
+| Old Amber                 | Route 30, Ruins Research Center       |
+o-------------------------------------------------------------------o
+
+In Detail
+====================
+
+Armor Fossil:
+* May be found by smashing rocks at the Ruins of Alph (10%).
+* Can be obtained from an NPC in the Ruins Research Center by exchanging a Rare Bone. This can be done repeatedly.
+
+Claw Fossil:
+* May be found by smashing rocks at the Ruins of Alph (10%).
+* Can be obtained from an NPC in the Ruins Research Center by exchanging a Rare Bone. This can be done repeatedly.
+
+Dome Fossil:
+* May be found by smashing rocks at the Ruins of Alph (25%).
+* Can be obtained from an NPC in the Ruins Research Center by exchanging a Rare Bone. This can be done repeatedly.
+
+Helix Fossil:
+* May be found by smashing rocks at the Ruins of Alph (25%).
+* Can be obtained from an NPC in the Ruins Research Center by exchanging a Rare Bone. This can be done repeatedly.
+
+Root Fossil:
+* May be found by smashing rocks at the Ruins of Alph (10%).
+* Can be obtained from an NPC in the Ruins Research Center by exchanging a Rare Bone. This can be done repeatedly.
+
+Skull Fossil:
+* May be found by smashing rocks at the Ruins of Alph (10%).
+* Can be obtained from an NPC in the Ruins Research Center by exchanging a Rare Bone. This can be done repeatedly.
+
+Old Amber:
+* Obtained from Mr. Pokémon on Route 30, inside his house, by trading him the Red Scale.
+* Can be obtained from an NPC in the Ruins Research Center by exchanging a Rare Bone, after receiving the Old Amber from Mr. Pokémon. This can be done repeatedly.
+
+===================================
+Incense
+===================================
+
+At a Glance
+====================
+
+o-------------------------------------------------------------------o
+| Item                      | Locations                             |
+o-------------------------------------------------------------------o
+| Full Incense              | Mt. Mortar                            |
+| Lax Incense               | Dark Cave                             |
+| Luck Incense              | Cliff Cave                            |
+| Odd Incense               | Ruins of Alph                         |
+| Pure Incense              | Bell Tower                            |
+| Rock Incense              | Route 35                              |
+| Rose Incense              | National Park                         |
+| Sea Incense               | Olivine City                          |
+| Wave Incense              | Route 47                              |
+o-------------------------------------------------------------------o
+
+In Detail
+====================
+
+Full Incense:
+* Found in Mt. Mortar, 1F, in the back room, on the raised area near the Super Nerd.
+
+Lax Incense:
+* Found in Dark Cave, on the Blackthorn side, at the bottom left of the room just before a ledge.
+
+Luck Incense:
+* Found in the Cliff Cave, on 2F, in the bottom right corner.
+
+Odd Incense:
+* Found in the Ruins of Alph, amidst the rock maze just outside one of the Union Cave exits.
+
+Pure Incense:
+* Found in Bell Tower, on 1F, at the top right of the room.
+
+Rock Incense:
+* Found on Route 35, to the north of the route surrounded by trees.
+
+Rose Incense:
+* Found in the National Park, at the top right behind the fence.
+
+Sea Incense:
+* Found in Olivine City, on the small pier when exiting the harbour house from the left.
+
+Wave Incense:
+* Found on Route 47, on a small patch of sand near the bottom exit of the Cliff Cave.
+
+===================================
+Flutes
+===================================
+
+At a Glance
+====================
+
+o-------------------------------------------------------------------o
+| Item                      | Locations                             |
+o-------------------------------------------------------------------o
+| Blue Flute                | -                                     |
+| Yellow Flute              | -                                     |
+| Red Flute                 | -                                     |
+| Black Flute               | -                                     |
+| White Flute               | -                                     |
+o-------------------------------------------------------------------o
+
+In Detail
+====================
+
+Blue Flute:
+* tbc
+
+Yellow Flute:
+* tbc
+
+Red Flute:
+* tbc
+
+Black Flute:
+* tbc
+
+White Flute:
+* tbc
+
+===================================
+Plates
+===================================
+
+At a Glance
+====================
+
+o-------------------------------------------------------------------o
+| Item                      | Locations                             |
+o-------------------------------------------------------------------o
+| Flame Plate               | -                                     |
+| Splash Plate              | -                                     |
+| Zap Plate                 | -                                     |
+| Meadow Plate              | -                                     |
+| Icicle Plate              | -                                     |
+| Fist Plate                | -                                     |
+| Toxic Plate               | -                                     |
+| Earth Plate               | -                                     |
+| Sky Plate                 | -                                     |
+| Mind Plate                | -                                     |
+| Insect Plate              | -                                     |
+| Stone Plate               | -                                     |
+| Spooky Plate              | -                                     |
+| Draco Plate               | -                                     |
+| Dread Plate               | -                                     |
+| Iron Plate                | -                                     |
+| Pixie Plate               | Route 34                              |
+o-------------------------------------------------------------------o
+
+In Detail
+====================
+
+Flame Plate:
+* tbc
+
+Splash Plate:
+* tbc
+
+Zap Plate:
+* tbc
+
+Meadow Plate:
+* tbc
+
+Icicle Plate:
+* tbc
+
+Fist Plate:
+* tbc
+
+Toxic Plate:
+* tbc
+
+Earth Plate:
+* tbc
+
+Sky Plate:
+* tbc
+
+Mind Plate:
+* tbc
+
+Insect Plate:
+* tbc
+
+Stone Plate:
+* tbc
+
+Spooky Plate:
+* tbc
+
+Draco Plate:
+* tbc
+
+Dread Plate:
+* tbc
+
+Iron Plate:
+* tbc
+
+Pixie Plate:
+* Obtained from Cynthia on Route 34, in the gatehouse leading towards the Ilex Forest.
+
+===================================
+Berries
+===================================
+
+At a Glance
+====================
+
+o-------------------------------------------------------------------o
+| Item                      | Locations                             |
+o-------------------------------------------------------------------o
+| Cheri Berry               | Violet City                           |
+| Chesto Berry              | Violet City                           |
+| Pecha Berry               | Violet City                           |
+| Rawst Berry               | Violet City                           |
+| Aspear Berry              | Violet City                           |
+| Leppa Berry               | Violet City                           |
+| Oran Berry                | Violet City                           |
+| Persim Berry              | Violet City                           |
+| Lum Berry                 | Violet City                           |
+| Sitrus Berry              | Violet City                           |
+| Figy Berry                | Violet City                           |
+| Wiki Berry                | Violet City                           |
+| Mago Berry                | Violet City                           |
+| Aguav Berry               | Violet City                           |
+| Iapapa Berry              | Violet City                           |
+| Razz Berry                | -                                     |
+| Bluk Berry                | -                                     |
+| Nanab Berry               | -                                     |
+| Wepear Berry              | -                                     |
+| Pinap Berry               | -                                     |
+| Pomeg Berry               | Ecruteak City                         |
+| Kelpsy Berry              | Ecruteak City                         |
+| Qualot Berry              | Ecruteak City                         |
+| Hondew Berry              | Ecruteak City                         |
+| Grepa Berry               | Ecruteak City                         |
+| Tamato Berry              | Ecruteak City                         |
+| Cornn Berry               | -                                     |
+| Magost Berry              | -                                     |
+| Rabuta Berry              | -                                     |
+| Nomel Berry               | -                                     |
+| Spelon Berry              | -                                     |
+| Pamtre Berry              | -                                     |
+| Watmel Berry              | -                                     |
+| Durin Berry               | -                                     |
+| Belue Berry               | -                                     |
+| Occa Berry                | -                                     |
+| Passho Berry              | -                                     |
+| Wacan Berry               | -                                     |
+| Rindo Berry               | -                                     |
+| Yache Berry               | -                                     |
+| Chople Berry              | -                                     |
+| Kebia Berry               | -                                     |
+| Shuca Berry               | -                                     |
+| Coba Berry                | -                                     |
+| Payapa Berry              | -                                     |
+| Tanga Berry               | -                                     |
+| Charti Berry              | -                                     |
+| Kasib Berry               | -                                     |
+| Haban Berry               | -                                     |
+| Colbur Berry              | -                                     |
+| Babiri Berry              | -                                     |
+| Chilan Berry              | -                                     |
+| Liechi Berry              | Blackthorn City                       |
+| Ganlon Berry              | Blackthorn City                       |
+| Salac Berry               | Blackthorn City                       |
+| Petaya Berry              | Blackthorn City                       |
+| Apicot Berry              | Blackthorn City                       |
+| Lansat Berry              | Blackthorn City                       |
+| Starf Berry               | Blackthorn City                       |
+| Enigma Berry              | -                                     |
+| Micle Berry               | Blackthorn City                       |
+| Custap Berry              | Blackthorn City                       |
+| Jaboca Berry              | Blackthorn City                       |
+| Rowap Berry               | Blackthorn City                       |
+o-------------------------------------------------------------------o
+
+In Detail
+====================
+
+Cheri Berry:
+* Buyable in Violet City, from the NPC outside the Pokémon Center, as part of a set of Berries for $1,000.
+
+Chesto Berry:
+* Buyable in Violet City, from the NPC outside the Pokémon Center, as part of a set of Berries for $1,000.
+
+Pecha Berry:
+* Buyable in Violet City, from the NPC outside the Pokémon Center, as part of a set of Berries for $1,000.
+
+Rawst Berry:
+* Buyable in Violet City, from the NPC outside the Pokémon Center, as part of a set of Berries for $1,000.
+
+Aspear Berry:
+* Buyable in Violet City, from the NPC outside the Pokémon Center, as part of a set of Berries for $1,000.
+
+Leppa Berry:
+* Buyable in Violet City, from the NPC outside the Pokémon Center, as part of a set of Berries for $1,000.
+
+Oran Berry:
+* Buyable in Violet City, from the NPC outside the Pokémon Center, as part of a set of Berries for $1,000.
+
+Persim Berry:
+* Buyable in Violet City, from the NPC outside the Pokémon Center, as part of a set of Berries for $1,000.
+
+Lum Berry:
+* Buyable in Violet City, from the NPC outside the Pokémon Center, as part of a set of Berries for $1,000.
+
+Sitrus Berry:
+* Buyable in Violet City, from the NPC outside the Pokémon Center, as part of a set of Berries for $1,000.
+
+Figy Berry:
+* Buyable in Violet City, from the NPC outside the Pokémon Center, as part of a set of Berries for $1,000.
+
+Wiki Berry:
+* Buyable in Violet City, from the NPC outside the Pokémon Center, as part of a set of Berries for $1,000.
+
+Mago Berry:
+* Buyable in Violet City, from the NPC outside the Pokémon Center, as part of a set of Berries for $1,000.
+
+Aguav Berry:
+* Buyable in Violet City, from the NPC outside the Pokémon Center, as part of a set of Berries for $1,000.
+
+Iapapa Berry:
+* Buyable in Violet City, from the NPC outside the Pokémon Center, as part of a set of Berries for $1,000.
+
+Razz Berry:
+* tbc
+
+Bluk Berry:
+* tbc
+
+Nanab Berry:
+* tbc
+
+Wepear Berry:
+* tbc
+
+Pinap Berry:
+* tbc
+
+Pomeg Berry:
+* Buyable in Ecruteak City, from the NPC outside the Pokémon Center, as part of a set of Berries for $1,000.
+
+Kelpsy Berry:
+* Buyable in Ecruteak City, from the NPC outside the Pokémon Center, as part of a set of Berries for $1,000.
+
+Qualot Berry:
+* Buyable in Ecruteak City, from the NPC outside the Pokémon Center, as part of a set of Berries for $1,000.
+
+Hondew Berry:
+* Buyable in Ecruteak City, from the NPC outside the Pokémon Center, as part of a set of Berries for $1,000.
+
+Grepa Berry:
+* Buyable in Ecruteak City, from the NPC outside the Pokémon Center, as part of a set of Berries for $1,000.
+
+Tamato Berry:
+* Buyable in Ecruteak City, from the NPC outside the Pokémon Center, as part of a set of Berries for $1,000.
+
+Cornn Berry:
+* tbc
+
+Magost Berry:
+* tbc
+
+Rabuta Berry:
+* tbc
+
+Nomel Berry:
+* tbc
+
+Spelon Berry:
+* tbc
+
+Pamtre Berry:
+* tbc
+
+Watmel Berry:
+* tbc
+
+Durin Berry:
+* tbc
+
+Belue Berry:
+* tbc
+
+Occa Berry:
+* tbc
+
+Passho Berry:
+* tbc
+
+Wacan Berry:
+* tbc
+
+Rindo Berry:
+* tbc
+
+Yache Berry:
+* tbc
+
+Chople Berry:
+* tbc
+
+Kebia Berry:
+* tbc
+
+Shuca Berry:
+* tbc
+
+Coba Berry:
+* tbc
+
+Payapa Berry:
+* tbc
+
+Tanga Berry:
+* tbc
+
+Charti Berry:
+* tbc
+
+Kasib Berry:
+* tbc
+
+Haban Berry:
+* tbc
+
+Colbur Berry:
+* tbc
+
+Babiri Berry:
+* tbc
+
+Chilan Berry:
+* tbc
+
+Liechi Berry:
+* Buyable in Blackthorn City, from the NPC outside the Pokémon Center, as part of a set of Berries for $10,000.
+
+Ganlon Berry:
+* Buyable in Blackthorn City, from the NPC outside the Pokémon Center, as part of a set of Berries for $10,000.
+
+Salac Berry:
+* Buyable in Blackthorn City, from the NPC outside the Pokémon Center, as part of a set of Berries for $10,000.
+
+Petaya Berry:
+* Buyable in Blackthorn City, from the NPC outside the Pokémon Center, as part of a set of Berries for $10,000.
+
+Apicot Berry:
+* Buyable in Blackthorn City, from the NPC outside the Pokémon Center, as part of a set of Berries for $10,000.
+
+Lansat Berry:
+* Buyable in Blackthorn City, from the NPC outside the Pokémon Center, as part of a set of Berries for $10,000.
+
+Starf Berry:
+* Buyable in Blackthorn City, from the NPC outside the Pokémon Center, as part of a set of Berries for $10,000.
+
+Enigma Berry:
+* tbc
+
+Micle Berry:
+* Buyable in Blackthorn City, from the NPC outside the Pokémon Center, as part of a set of Berries for $10,000.
+
+Custap Berry:
+* Buyable in Blackthorn City, from the NPC outside the Pokémon Center, as part of a set of Berries for $10,000.
+
+Jaboca Berry:
+* Buyable in Blackthorn City, from the NPC outside the Pokémon Center, as part of a set of Berries for $10,000.
+
+Rowap Berry:
+* Buyable in Blackthorn City, from the NPC outside the Pokémon Center, as part of a set of Berries for $10,000.
+
+===================================
+Key Items
+===================================
+
+At a Glance
+====================
+
+o-------------------------------------------------------------------o
+| Item                      | Locations                             |
+o-------------------------------------------------------------------o
+| Apricorn Box              | Route 30                              |
+| Berry Pots                | Route 36 West                         |
+| Bicycle                   | New Bark Town                         |
+| Coin Case                 | Goldenrod Game Corner                 |
+| Devon Scope               | Route 36 West                         |
+| GB Sounds                 | New Bark Town                         |
+| Fashion Case              | Goldenrod Tunnel                      |
+| Fishing Rod               | Route 31                              |
+| Odd Keystone              | Ruins of Alph                         |
+| Rage Candy Bar            | Mahogany Town                         |
+| Red Scale                 | Lake of Rage                          |
+| Seal Case                 | Route 39                              |
+| Slowpoke Tail             | Slowpoke Well                         |
+| Squirt Bottle             | Goldenrod City                        |
+o-------------------------------------------------------------------o
+
+In Detail
+====================
+
+Apricorn Box
+* Obtained from an NPC on Route 30, by either walking past the house or entering and speaking to the NPC.
+
+Berry Pots:
+* Obtained from an NPC on Route 36 West, after battling the static Sudowoodo.
+
+Bicycle
+* Obtained from Mom in New Bark Town, when you first go downstairs at the start of the game.
+
+Coin Case:
+* Obtained from Mr. Game in the Game Corner in Goldenrod City.
+
+Devon Scope:
+* Obtained from Steven on Route 36 West, after battling the static Sudowoodo.
+
+GB Sounds
+* Obtained from Mom in New Bark Town, when you first go downstairs at the start of the game.
+
+Fashion Case:
+* Obtained from Ethan or Lyra in the Goldenrod Tunnel, when you enter it for the first time.
+
+Fishing Rod:
+* Obtained from Ethan or Lyra on Route 31, in the gatehouse leading into Violet City.
+* Note: The Old Rod, Good Rod and Super Rod have been removed and consolidated into the singular Fishing Rod.
+
+Odd Keystone:
+* Found in the Ruins of Alph, to the bottom right of the outside area past the water.
+
+Rage Candy Bar:
+* Obtained from an NPC in Mahogany Town, for a small $300 fee.
+
+Red Scale
+* Found at the Lake of Rage, obtained automatically after defeating or catching the red Gyarados.
+
+Seal Case:
+* Obtained from an NPC on Route 39, inside the Moomoo Farm, after feeding the sick Miltank four Sitrus Berries.
+
+Slowpoke Tail:
+* Obtained automatically from a Slowpoke in the Slowpoke Well, after defeating Team Rocket.
+
+Squirt Bottle:
+* Obtained from an NPC in Goldenrod City, in the flower shop, after defeating Whitney.

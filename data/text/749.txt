@@ -449,7 +449,7 @@ The user snares the\nfoe with grass and\ntrips it. The heavier\nthe foe, the gre
 The user attacks\nusing a sound wave\nbased on words it has\nlearned. This always\nconfuses the target.
 The user releases\ncountless shots of\nlight. Its type varies\nwith the kind of Plate\nthe user is holding.
 The user bites the\nfoe. If the foe is\nholding a Berry, the\nuser eats it and\ngains its effect.
-The user fires a\nconcentrated bundle\nof electricity.\nThis has a 70% chance\nto raise Sp. Atk.
+The user attacks the\nfoe with an electric\ncharge. This has a\n70% chance to raise\nthe user’s Sp. Atk.
 The user slams its\nrugged body into the\nfoe to attack.\nThe user is hurt by\n33% of damage dealt.
 The user lunges at\nthe foe at a speed\nthat makes it almost\ninvisible. It is sure\nto strike first.
 The user calls out\nits underlings to\npummel the foe.\nIt has a high\ncritical-hit ratio.

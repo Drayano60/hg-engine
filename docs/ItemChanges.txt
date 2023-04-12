@@ -1,0 +1,48 @@
+-------------------
+Included Items
+-------------------
+- Everything from Gen 4
+- Eviolite
+- Assault Vest
+
+-------------------
+Updated Items
+-------------------
+
+The following items were updated:
+- Super Potions now recover 60 HP (up from 50 HP).
+- Hyper Potions now recover 120 HP (down from 200 HP).
+- Fresh Waters now recover 30 HP (down from 50 HP).
+- Soda Pops now recover 50 HP (down from 60 HP).
+- Lemonades now recover 70 HP (down from 80 HP).
+- Energy Powders now recover 60 HP (up from 50 HP).
+- Energy Roots now recover 120 HP (down from 200 HP).
+- The King's Rock and Razor Claw now apply to all moves that do not already have a chance to flinch.
+- The Soul Dew now provides a 20% boost to Latios or Latias's Dragon and Psychic moves instead of heavily boosting Sp. Atk and Sp. Def. Additionally, it now works inside battle facilities.
+- The Power Weight, Bracer, Belt, Lens, Band and Anklet items now give 8 EVs of the relevant stat to a Pokémon holding it when defeating a Pokémon (up from 4 EVs).
+
+The following items are somewhat updated:
+- The Grip Claw fixes the duration of a binding move to six turns instead of seven. (This is because the way the game stores the data means six is the maximum turns possible).
+- The Life Orb now displays a message after it activates. However, the Life Orb's interaction with Future Sight and Doom Desire is unchanged, and the user is not damaged if attacking into a substitute.
+
+The following items are not updated:
+- All Poké Balls retain their catch rates from Gen 4.
+- All vitamins are unable to be used on a stat that has already reached 100 EVs. (?)
+- Rare Candies cannot be used on a Lv. 100 Pokémon.
+- X items still only raise a stat by one stage. (?)
+- Repels do not prompt you to use another one when they run out.
+- Escape Ropes are still consumable items instead of a key item.
+- The Figy, Wiki, Mago, Aguav and Iapapa Berries still recover 12.5% max HP when the Pokémon's HP reaches 50% or below.
+- The Pomeg, Kelpsy, Qualot, Hondew, Grepa and Tamato Berries still eliminate all EVs for a stat if that stat has 110 EVs or lower.
+- The Pomeg, Kelpsy, Qualot, Hondew, Grepa and Tamato Berries still give +2 friendship points if used on a Pokémon above 200 friendship.
+- The Exp. Share still works as it does in Gen 4.
+- The Mental Herb cannot cure the effects of Taunt, Encore, Torment, Heal Block or Disable (it still only affects Attract/Cute Charm).
+- The Choice Band still boosts the damage of self-inflicted confusion damage.
+- The Choice items do not cause a non-locked move to fail if the holder is somehow forced to use a different move.
+- The Cleanse Tag's encounter rate reduction still applies even if held by a Pokémon with an ability that affects encounter rates (such as Illuminate).
+- The Smoke Ball still guarantees escape if the player tries to run away on the same turn a Pokémon holding the Smoke Ball fainted.
+- Shell Bell's effect still works even if the holder is afflicted by Heal Block or attacks into a substitute.
+- The Focus Sash can still protect from multiple strikes of a multi-strike move.
+- The Metronome still only boosts the power of a move by 10% for each consecutive use.
+- A Flying-type holding an Iron Ball can still take super or not very effective damage from Ground-type moves depending on their secondary type.
+- A Pokémon holding a Full Incense or Lagging Tail will still move after a Pokémon with the Stall ability.

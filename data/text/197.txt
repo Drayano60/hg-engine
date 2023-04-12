@@ -1387,3 +1387,6 @@ The foe’s {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0} negates\nthe effects of we
 {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nlet it endure the hit!
 The wild {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nlet it endure the hit!
 The foe’s {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nlet it endure the hit!
+{STRVAR_1 1, 0, 0} lost some of its HP!
+The wild {STRVAR_1 1, 0, 0} lost\nsome of its HP!
+The foe’s {STRVAR_1 1, 0, 0} lost\nsome of its HP!

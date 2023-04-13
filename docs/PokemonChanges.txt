@@ -1866,6 +1866,7 @@ New Moves:
 
 Level Up Moves:
 01 - Aqua Jet
+01 - Clear Smog
 01 - Cross Chop
 01 - Water Sport
 01 - Scratch
@@ -2379,6 +2380,7 @@ New Moves:
 - Trailblaze (Tutor)
 
 Level Up Moves:
+01 - Clear Smog
 01 - Stockpile
 01 - Swallow
 01 - Spit Up
@@ -3150,11 +3152,12 @@ Level Up Moves:
 01 - Poison Gas
 01 - Mean Look
 01 - Lick
-03 - Smog
-06 - Spite
-09 - Hypnosis
-12 - Confuse Ray
-15 - Night Shade
+01 - Smog
+03 - Spite
+06 - Hypnosis
+09 - Confuse Ray
+12 - Night Shade
+15 - Clear Smog
 18 - Curse
 21 - Hex
 24 - Sucker Punch
@@ -3182,11 +3185,12 @@ Level Up Moves:
 01 - Poison Gas
 01 - Mean Look
 01 - Lick
-03 - Smog
-06 - Spite
-09 - Hypnosis
-12 - Confuse Ray
-15 - Night Shade
+01 - Smog
+03 - Spite
+06 - Hypnosis
+09 - Confuse Ray
+12 - Night Shade
+15 - Clear Smog
 18 - Curse
 21 - Hex
 24 - Sucker Punch
@@ -3218,11 +3222,12 @@ Level Up Moves:
 01 - Poison Gas
 01 - Mean Look
 01 - Lick
-03 - Smog
-06 - Spite
-09 - Hypnosis
-12 - Confuse Ray
-15 - Night Shade
+01 - Smog
+03 - Spite
+06 - Hypnosis
+09 - Confuse Ray
+12 - Night Shade
+15 - Clear Smog
 18 - Curse
 21 - Hex
 24 - Sucker Punch
@@ -3834,11 +3839,12 @@ New Moves:
 Level Up Moves:
 01 - Poison Gas
 01 - Tackle
-04 - Smog
-08 - Smokescreen
+01 - Smog
+04 - Smokescreen
+08 - Clear Smog
 12 - Gyro Ball
-16 - Sludge
-20 - Assurance
+16 - Assurance
+20 - Sludge
 24 - Haze
 28 - Sludge Bomb
 32 - Self-Destruct
@@ -3863,11 +3869,12 @@ Level Up Moves:
 01 - Heat Wave
 01 - Poison Gas
 01 - Tackle
-04 - Smog
-08 - Smokescreen
+01 - Smog
+04 - Smokescreen
+08 - Clear Smog
 12 - Gyro Ball
-16 - Sludge
-20 - Assurance
+16 - Assurance
+20 - Sludge
 24 - Haze
 28 - Sludge Bomb
 32 - Self-Destruct
@@ -4164,18 +4171,20 @@ New Moves:
 Level Up Moves:
 01 - Bubble
 01 - Leer
-04 - Smokescreen
-08 - Twister
-12 - Focus Energy
-16 - Dragon Breath
-20 - Bubble Beam
-24 - Agility
+03 - Twister
+06 - Smokescreen
+09 - Focus Energy
+12 - Clear Smog
+16 - Bubble Beam
+20 - Dragon Rage
+24 - Dragon Breath
 28 - Octazooka
-34 - Scale Shot
-40 - Dragon Pulse
-46 - Rain Dance
-52 - Dragon Dance
-58 - Hydro Pump
+35 - Agility
+40 - Whirlpool
+45 - Dragon Pulse
+50 - Rain Dance
+55 - Dragon Dance
+60 - Hydro Pump
 
 -------------------
 117 - Seadra
@@ -4191,18 +4200,20 @@ New Moves:
 Level Up Moves:
 01 - Bubble
 01 - Leer
-04 - Smokescreen
-08 - Twister
-12 - Focus Energy
-16 - Dragon Breath
-20 - Bubble Beam
-24 - Agility
+03 - Twister
+06 - Smokescreen
+09 - Focus Energy
+12 - Clear Smog
+16 - Bubble Beam
+20 - Dragon Rage
+24 - Dragon Breath
 28 - Octazooka
-34 - Scale Shot
-40 - Dragon Pulse
-46 - Rain Dance
-52 - Dragon Dance
-58 - Hydro Pump
+35 - Agility
+40 - Whirlpool
+45 - Dragon Pulse
+50 - Rain Dance
+55 - Dragon Dance
+60 - Hydro Pump
 
 -------------------
 230 - Kingdra
@@ -4216,22 +4227,23 @@ New Moves:
 - Chilling Water (Tutor)
 
 Level Up Moves:
-01 - Dragon Rage
 01 - Yawn
 01 - Bubble
 01 - Leer
-04 - Smokescreen
-08 - Twister
-12 - Focus Energy
-16 - Dragon Breath
-20 - Bubble Beam
-24 - Agility
+03 - Twister
+06 - Smokescreen
+09 - Focus Energy
+12 - Clear Smog
+16 - Bubble Beam
+20 - Dragon Rage
+24 - Dragon Breath
 28 - Octazooka
-34 - Scale Shot
-40 - Dragon Pulse
-46 - Rain Dance
-52 - Dragon Dance
-58 - Hydro Pump
+35 - Agility
+40 - Whirlpool
+45 - Dragon Pulse
+50 - Rain Dance
+55 - Dragon Dance
+60 - Hydro Pump
 
 -------------------
 118 - Goldeen
@@ -4568,10 +4580,11 @@ Level Up Moves:
 01 - Leer
 03 - Thunder Shock
 06 - Charge
-09 - Swift
-12 - Thunder Wave
-16 - Shock Wave
-20 - Low Kick
+09 - Thunder Wave
+12 - Power-Up Punch
+15 - Shock Wave
+18 - Swift
+21 - Low Kick
 24 - Thunder Punch
 28 - Screech
 34 - Discharge
@@ -4596,10 +4609,11 @@ Level Up Moves:
 01 - Leer
 03 - Thunder Shock
 06 - Charge
-09 - Swift
-12 - Thunder Wave
-16 - Shock Wave
-20 - Low Kick
+09 - Thunder Wave
+12 - Power-Up Punch
+15 - Shock Wave
+18 - Swift
+21 - Low Kick
 24 - Thunder Punch
 28 - Screech
 34 - Discharge
@@ -4633,10 +4647,11 @@ Level Up Moves:
 01 - Leer
 03 - Thunder Shock
 06 - Charge
-09 - Swift
-12 - Thunder Wave
-16 - Shock Wave
-20 - Low Kick
+09 - Thunder Wave
+12 - Power-Up Punch
+15 - Shock Wave
+18 - Swift
+21 - Low Kick
 24 - Thunder Punch
 28 - Screech
 34 - Discharge
@@ -4647,7 +4662,7 @@ Level Up Moves:
 59 - Giga Impact
 64 - Volt Tackle
 
-* If type changes are removed, Electivire instead learns Thunder at Lv. 44.
+* If type changes are removed, Electivire instead learns Thunder at Lv. 54.
 
 -------------------
 240 - Magby
@@ -4665,10 +4680,11 @@ Level Up Moves:
 01 - Leer
 03 - Ember
 06 - Smokescreen
-09 - Feint Attack
-12 - Confuse Ray
-16 - Flame Wheel
-20 - Low Kick
+09 - Confuse Ray
+12 - Feint Attack
+15 - Flame Wheel
+18 - Clear Smog
+21 - Low Kick
 24 - Fire Punch
 28 - Scary Face
 34 - Lava Plume
@@ -4693,10 +4709,11 @@ Level Up Moves:
 01 - Leer
 03 - Ember
 06 - Smokescreen
-09 - Feint Attack
-12 - Confuse Ray
-16 - Flame Wheel
-20 - Low Kick
+09 - Confuse Ray
+12 - Feint Attack
+15 - Flame Wheel
+18 - Clear Smog
+21 - Low Kick
 24 - Fire Punch
 28 - Scary Face
 34 - Lava Plume
@@ -4728,10 +4745,11 @@ Level Up Moves:
 01 - Leer
 03 - Ember
 06 - Smokescreen
-09 - Feint Attack
-12 - Confuse Ray
-16 - Flame Wheel
-20 - Low Kick
+09 - Confuse Ray
+12 - Feint Attack
+15 - Flame Wheel
+18 - Clear Smog
+21 - Low Kick
 24 - Fire Punch
 28 - Scary Face
 34 - Lava Plume
@@ -8082,9 +8100,10 @@ Level Up Moves:
 01 - Smog
 01 - Yawn
 01 - Ember
-04 - Harden
-08 - Rock Throw
-12 - Incinerate
+03 - Harden
+06 - Rock Throw
+09 - Incinerate
+12 - Clear Smog
 16 - Ancient Power
 20 - Lava Plume
 24 - Acid Armor
@@ -8119,9 +8138,10 @@ Level Up Moves:
 01 - Smog
 01 - Yawn
 01 - Ember
-04 - Harden
-08 - Rock Throw
-12 - Incinerate
+03 - Harden
+06 - Rock Throw
+09 - Incinerate
+12 - Clear Smog
 16 - Ancient Power
 20 - Lava Plume
 24 - Acid Armor
@@ -11152,8 +11172,9 @@ New Moves:
 Level Up Moves:
 01 - Pound
 01 - Yawn
-04 - Poison Gas
-08 - Acid Spray
+03 - Poison Gas
+06 - Acid Spray
+09 - Clear Smog
 12 - Amnesia
 16 - Sludge
 20 - Encore
@@ -11184,8 +11205,9 @@ New Moves:
 Level Up Moves:
 01 - Pound
 01 - Yawn
-04 - Poison Gas
-08 - Acid Spray
+03 - Poison Gas
+06 - Acid Spray
+09 - Clear Smog
 12 - Amnesia
 16 - Sludge
 20 - Encore
@@ -11311,6 +11333,7 @@ New Moves:
 Level Up Moves:
 01 - Self-Destruct
 01 - Noble Roar
+01 - Clear Smog
 01 - Fissure
 01 - Splash
 01 - Growl
@@ -11408,9 +11431,9 @@ Level Up Moves:
 01 - Smog
 01 - Ember
 01 - Withdraw
-04 - Flail
-08 - Rapid Spin
-12 - Smokescreen
+04 - Rapid Spin
+08 - Smokescreen
+12 - Clear Smog
 16 - Flame Wheel
 20 - Curse
 24 - Protect
@@ -12292,6 +12315,7 @@ New Moves:
 - Tri Attack (Level/Tutor)
 
 Level Up Moves:
+01 - Clear Smog
 01 - Tackle
 10 - Ember
 10 - Water Gun
@@ -14712,6 +14736,7 @@ New Moves:
 - None
 
 Level Up Moves:
+01 - Clear Smog
 01 - Water Gun
 01 - Harden
 03 - Mud-Slap
@@ -14778,6 +14803,7 @@ New Moves:
 Level Up Moves:
 01 - Phantom Force
 01 - Mystical Fire
+01 - Clear Smog
 01 - Constrict
 01 - Minimize
 01 - Astonish

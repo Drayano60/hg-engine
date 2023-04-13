@@ -8824,20 +8824,19 @@ movedata MOVE_DARKEST_LARIAT
     contesttype 0
     terminatedata
 
-// Copy of Hidden Power with fixed type, for AI use only
-movedata MOVE_HIDDEN_POWER_POISON
-    battleeffect 0
+movedata MOVE_CLEAR_SMOG
+    battleeffect 315
     pss SPLIT_SPECIAL
-    basepower 60
+    basepower 50
     type TYPE_POISON
-    accuracy 100
+    accuracy 0
     pp 15
     effectchance 0
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_KINGS_ROCK | FLAG_MIRROR_MOVE | FLAG_PROTECT
-    appeal 0x17
-    contesttype CONTEST_SMART
+    appeal 0x00
+    contesttype 0
     terminatedata
 
 // Copy of Hidden Power with fixed type, for AI use only

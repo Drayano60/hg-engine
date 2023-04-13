@@ -8,13 +8,14 @@ Some moves have also received further changes which are listed below. Changes ar
 -------------------
 Newly Added Moves
 -------------------
-Aurora Crystal contains 105 new moves in addition to the 467 in Heart Gold and Soul Silver normally. 100 of these are moves that were introduced in later generation games, and the remaining 5 are custom signature moves for a few Pokémon.
+Aurora Crystal contains 106 new moves in addition to the 467 in Heart Gold and Soul Silver normally. 101 of these are moves that were introduced in later generation games, and the remaining 5 are custom signature moves for a few Pokémon.
 
-Gen 5 Moves (38)
+Gen 5 Moves (39)
 -------------------
 Acid Spray
 Acrobatics
 Bulldoze
+Clear Smog
 Coil
 Cotton Guard
 Dragon Tail

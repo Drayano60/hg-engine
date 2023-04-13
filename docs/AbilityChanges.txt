@@ -28,6 +28,9 @@ Abilities Updated Accurately
 --------------------------------------
 The following abilities have had their effects updated to work as they do in later generations:
 
+- Air Lock/Cloud Nine:
+These abilities now display a message when the Pokémon switches in.
+
 - Anger Point:
 Anger Point will no longer activate if the Pokémon with it takes a critical hit while behind a substitute.
 
@@ -74,9 +77,6 @@ Technician now also boosts the damage of Struggle.
 Abilities Updated Semi-Accurately
 --------------------------------------
 The following abilities have their effects somewhat updated to work as they do in later generations, but some parts are missing or inaccurate:
-
-- Air Lock/Cloud Nine:
-These abilities now display a message when the Pokémon switches in, but it only works one time per battle.
 
 - Lightning Rod:
 This now causes a Pokémon to take no damage and have its Special Attack boosted by one stage if it would be hit by an Electric-type move.

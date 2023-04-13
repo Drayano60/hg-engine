@@ -574,7 +574,7 @@ The user attacks by\npouncing on the foe.\nThis also lowers the\nfoe’s Speed s
 The user creates a\nshock by splashing.\nThis does more damage\nthe more the user\noutweighs the foe.
 Slams the foe with its\nflame-covered body.\nThis does more damage\nthe more the user\noutweighs the foe.
 The user swings both\narms at the target.\nThe target’s stat\nchanges do not affect\nthis move’s damage.
-FOR AI ONLY
+The user attacks the\ntarget by throwing a\nclump of special mud\nthat eliminates all\nstat changes.
 FOR AI ONLY
 FOR AI ONLY
 FOR AI ONLY

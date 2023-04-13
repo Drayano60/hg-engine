@@ -1726,9 +1726,9 @@ The foe’s {STRVAR_1 1, 0, 0} used\nHeat Crash!
 {STRVAR_1 1, 0, 0} used\nDarkest Lariat!
 The wild {STRVAR_1 1, 0, 0} used\nDarkest Lariat!
 The foe’s {STRVAR_1 1, 0, 0} used\nDarkest Lariat!
-{STRVAR_1 1, 0, 0} used\nHidden Power!
-The wild {STRVAR_1 1, 0, 0} used\nHidden Power!
-The foe’s {STRVAR_1 1, 0, 0} used\nHidden Power!
+{STRVAR_1 1, 0, 0} used\nClear Smog!
+The wild {STRVAR_1 1, 0, 0} used\nClear Smog!
+The foe’s {STRVAR_1 1, 0, 0} used\nClear Smog!
 {STRVAR_1 1, 0, 0} used\nHidden Power!
 The wild {STRVAR_1 1, 0, 0} used\nHidden Power!
 The foe’s {STRVAR_1 1, 0, 0} used\nHidden Power!

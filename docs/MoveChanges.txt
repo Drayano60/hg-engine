@@ -304,7 +304,7 @@ This now does double damage if the opponent has used Minimize. However, it is no
 - Fury Cutter:
 This now reaches its maximum damage after three uses (instead of five) like in later generations.
 However, in Gen 4, Fury Cutter will retain its damage boost even if you swap to a different move (as long as that different move doesn't fail for whatever reason).
-It's currently unknown how to change this so it is still the case in Aurora Crystal; Fury Cutter's power has been nerfed to compensate.
+It's currently unknown how to change this so it is still the case in Aurora Crystal; Fury Cutter's maximum power has been nerfed to compensate.
 
 - Knock Off:
 This now deals double damage if the target has a held item (unless the item is the Griseous Orb, or the target has the Multitype ability).

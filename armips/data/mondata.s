@@ -12,6 +12,9 @@
 // all the mon personal data.  tm learnsets are specifically in tmlearnset.s
 // basestats and evyields fields are formatted as such:  hp atk def speed spatk spdef
 
+/* Dray's Note: This was built on an earlier version of mondata.s that still uses mostly Gen 4's data except for the base stats and types.
+Way too many merge conflicts to update it! Most of it's been curated/customized anyway though.
+*/
 
 mondata SPECIES_NONE
     basestats 0, 0, 0, 0, 0, 0

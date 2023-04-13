@@ -3,7 +3,14 @@
 
 //.create "bdhcam.bin", 0x23D95B0
 
+.align 4
+
+
+getCamBoxTxt:
 .ascii "GetCamBox       "
+
+
+.align 2
 
 .global FUN_GetCamBox
 FUN_GetCamBox:
@@ -17,15 +24,19 @@ FUN_GetCamBox:
 
 .ascii "GDMI"
 
+.align 2
+
 .global FUN_GDMI
 FUN_GDMI:
     //push { lr }
     push { r0-r7 }
     
-    ldr r0, =0x021d0df4 // fucking overlay list
-    ldr r0, [r0]
-    cmp r0, #0x1
+    mov r0, #1 // field
+    ldr r1, =IsOverlayLoaded
+	bl bx_r1
+    cmp r0, #1
     bne LAB_023d95fe
+
     ldr r0, =0x0211186c
     ldr r0, [r0]
     ldr r0, [r0,#0x1c]
@@ -51,6 +62,11 @@ _ret_2022FA2:
     
     ldr r2, =0x0202317D
     bx r2
+
+bx_r1:
+	bx r1
+
+.align 2
 
 .pool
 
@@ -83,7 +99,11 @@ ret_023d9630:
 .pool
 
 
+.align 4
+
 .ascii "CamStuff"
+
+.align 2
 
 .global FUN_023d9640
 FUN_023d9640:
@@ -566,6 +586,8 @@ LAB_023d996a:
 .pool
 
 
+.align 2
+
 region_023d999c:
     .word 0
 
@@ -624,6 +646,8 @@ LAB_023d99ec:
     add r0,r0,r1
     bx lr
 
+.align 2
+
 .pool
 
 
@@ -631,6 +655,8 @@ LAB_023d99ec:
 
 
 .ascii "FrameStep       "
+
+.align 2
 
 .global FUN_023d9a10
 FUN_023d9a10:
@@ -656,6 +682,8 @@ LAB_023d9a28:
 
 .ascii "FrameCntPointer "
 
+.align 2
+
 FUN_023d9a40:
     ldr r0, =0x021d1138
     bx lr
@@ -663,6 +691,8 @@ FUN_023d9a40:
 .align 4
 
 .ascii "CameraDivision  "
+
+.align 2
 
 .global FUN_CameraDivision
 FUN_CameraDivision:
@@ -676,7 +706,11 @@ FUN_CameraDivision:
 LAB_023d9a6e:
     pop { pc }
 
+.align 4
+
 .ascii "ZeroCamData     "
+
+.align 2
 
 region_023d9a80:
     .word 0
@@ -694,7 +728,11 @@ empty_region_023d9aa0: //size 336 is 84 words
 
 
 
+.align 4
+
 .ascii "ReadEntryDataArc"
+
+.align 2
 
 .global FUN_ReadEntryDataArc
 FUN_ReadEntryDataArc:
@@ -721,7 +759,8 @@ LAB_023d9c24:
     str r7,[r5]
     pop { r4, r5, r6, r7 }
     bx r3
-    mov r8,r8
+
+.align 4
 
 PTR_DAT_023d9c2c:
     .word 0x020078d9
@@ -729,10 +768,14 @@ PTR_DAT_023d9c2c:
 DAT_023d9c30:
     .word 0x00004442
 
-PTR_s_kCam_023d9c34: //honestly not sure what is going on here
+PTR_s_kCam_023d9c34: //check BDHC magic
     .word PTR_s_kCam_023d9ca4 + 8
 
+.align 4
+
 .ascii "RHDtaArc"
+
+.align 2
 
 .global FUN_RHDtaArc
 FUN_RHDtaArc:
@@ -777,12 +820,17 @@ FUN_RHDtaArc:
     bl 0x020078d8
     add sp,#0x8
     pop { r3, r4, r5, pc }
-    mov r8,r8
 
-PTR_s_kCam_023d9ca4: //honestly not sure what is going on here
+.align 2
+
+PTR_s_kCam_023d9ca4: //check BDHC magic
     .word PTR_s_kCam_023d9ca4 + 8
 
+.align 4
+
 .ascii "CheckCam"
+
+.align 2
 
 .global FUN_CheckCam
 FUN_CheckCam:

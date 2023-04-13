@@ -13,6 +13,9 @@
 /* Clear Smog handler */
 
 a001_348:
+    /* Clear Smog's effect does not work against substitutes */
+    checksubstitute BATTLER_DEFENDER, _End
+
     /* Reset target's stat stages to normal. 12 is max, 0 is min, 6 is normal */
     changemondatabyvalue VAR_OP_SET, BATTLER_DEFENDER, MON_DATA_STAT_STAGE_ATTACK, 6
     changemondatabyvalue VAR_OP_SET, BATTLER_DEFENDER, MON_DATA_STAT_STAGE_DEFENSE, 6
@@ -26,5 +29,6 @@ a001_348:
     printmessage 1392, 0x2, 0x2, "NaN", "NaN", "NaN", "NaN", "NaN"
     waitmessage
     wait 0x1E
+_End:
     endscript
 .close

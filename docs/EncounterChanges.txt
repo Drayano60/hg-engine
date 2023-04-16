@@ -202,9 +202,6 @@ Rock Smash:
 [70%/Lv. 10 - 14] Slugma
 [30%/Lv. 10 - 14] Dunsparce
 
-Special Sound:
-[40%/Lv. 08 - 09] Happiny
-
 Surfing:
 [80%/Lv. 25 - 25] Zubat
 [20%/Lv. 30 - 30] Golbat
@@ -271,7 +268,7 @@ Headbutt:
 [40%/Lv. 08 - 09] Burmy
 [20%/Lv. 08 - 09] Pineco
 
-Special Sound:
+Unova Sound:
 [20%/Lv. 09 - 10] Gothita
 [20%/Lv. 09 - 10] Solosis
 
@@ -767,7 +764,7 @@ Headbutt:
 [40%/Lv. 22 - 23] Burmy
 [20%/Lv. 22 - 23] Pineco
 
-Special Sound:
+Unova Sound:
 [20%/Lv. 22 - 23] Gothita
 [20%/Lv. 22 - 23] Solosis
 
@@ -819,7 +816,7 @@ Headbutt:
 [40%/Lv. 22 - 23] Burmy
 [20%/Lv. 22 - 23] Pineco
 
-Special Sound:
+Unova Sound:
 [20%/Lv. 22 - 23] Blitzle
 [20%/Lv. 22 - 23] Herdier
 
@@ -943,7 +940,7 @@ Walk (Day/Night):
 
 * These Pokémon will not appear if the Unova Sound is active.
 
-Special Sound:
+Unova Sound:
 [40%/Lv. 25 - 26] Litwick
 
 -------------------
@@ -973,7 +970,7 @@ Fishing:
 [40%/Lv. 23 - 25] Poliwag
 [20%/Lv. 23 - 25] Remoraid
 
-Special Sound:
+Unova Sound:
 [20%/Lv. 27 - 28] Klink
 [20%/Lv. 27 - 28] Vanillite
 
@@ -1008,7 +1005,7 @@ Fishing:
 [40%/Lv. 28 - 29] Finneon
 [20%/Lv. 28 - 29] Corsola
 
-Special Sound:
+Unova Sound:
 [20%/Lv. 28 - 29] Drilbur
 [20%/Lv. 28 - 29] Gurdurr
 
@@ -1041,7 +1038,7 @@ Fishing:
 [40%/Lv. 27 - 29] Goldeen
 [20%/Lv. 27 - 29] Barboach
 
-Special Sound:
+Unova Sound:
 [40%/Lv. 27 - 29] Swoobat
 
 -------------------

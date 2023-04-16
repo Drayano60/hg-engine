@@ -239,15 +239,18 @@ Sprout Tower
 -------------------
 Walk (Day/Night):
 [20%/Lv. 09 - 10] Rattata
-[20%/Lv. 09 - 10] Spinarak
-[20%/Lv. 09 - 10] Gastly
+[20%/Lv. 09 - 10] Spinarak*
+[20%/Lv. 09 - 10] Gastly*
 [10%/Lv. 09 - 09] Chingling
 [10%/Lv. 09 - 09] Meditite
 [10%/Lv. 09 - 10] Shuppet
 [10%/Lv. 09 - 10] Duskull
 
-Special Sound:
-[40%/Lv. 09 - 10] Happiny
+* These Pokémon will not appear if the Unova Sound is active.
+
+Unova Sound:
+[20%/Lv. 09 - 10] Litwick
+[20%/Lv. 09 - 10] Elygem
 
 -------------------
 Route 36 (East)
@@ -305,7 +308,7 @@ Unova Sound:
 [20%/Lv. 10 - 11] Joltik
 
 -------------------
-Ruins of Alph (Outside)
+Ruins of Alph (Outside - Upper Half)
 -------------------
 Grass (Day):
 [20%/Lv. 09 - 10] Natu
@@ -941,7 +944,8 @@ Walk (Day/Night):
 * These Pokémon will not appear if the Unova Sound is active.
 
 Unova Sound:
-[40%/Lv. 25 - 26] Litwick
+[20%/Lv. 25 - 26] Litwick
+[20%/Lv. 25 - 26] Elygem
 
 -------------------
 Route 44
@@ -1008,6 +1012,53 @@ Fishing:
 Unova Sound:
 [20%/Lv. 28 - 29] Drilbur
 [20%/Lv. 28 - 29] Gurdurr
+
+-------------------
+Ruins of Alph (Outside - Lower Half)
+-------------------
+(This grass is only accessible via Union Cave's basement.)
+
+Grass (Day):
+[20%/Lv. 28 - 29] Xatu
+[20%/Lv. 27 - 28] Baltoy*
+[20%/Lv. 27 - 28] Bronzor*
+[20%/Lv. 28 - 28] Kirlia
+[10%/Lv. 28 - 29] Mr. Mime
+[10%/Lv. 28 - 29] Smeargle
+
+* These Pokémon will not appear if the Unova Sound is active.
+
+Grass (Night):
+[20%/Lv. 28 - 29] Quagsire
+[20%/Lv. 27 - 28] Baltoy*
+[20%/Lv. 27 - 28] Bronzor*
+[20%/Lv. 28 - 28] Kirlia
+[10%/Lv. 28 - 29] Mr. Mime
+[10%/Lv. 28 - 29] Smeargle
+
+* These Pokémon will not appear if the Unova Sound is active.
+
+Headbutt:
+[40%/Lv. 05 - 10] Hoothoot
+[40%/Lv. 05 - 10] Natu
+[20%/Lv. 05 - 10] Exeggcute
+
+Rock Smash:
+[70%/Lv. 10 - 14] Geodude
+[30%/Lv. 10 - 14] Nosepass
+
+Surfing:
+[80%/Lv. 25 - 25] Wooper
+[20%/Lv. 30 - 30] Quagsire
+
+Fishing:
+[40%/Lv. 05 - 10] Magikarp
+[40%/Lv. 08 - 10] Poliwag
+[20%/Lv. 08 - 10] Corphish
+
+Unova Sound:
+[20%/Lv. 27 - 28] Golett
+[20%/Lv. 27 - 28] Sigilyph
 
 -------------------
 Slowpoke Well (Lower Floor)
@@ -1755,16 +1806,19 @@ Unova Sound:
 Bell Tower
 -------------------
 Walk (Day/Night):
-[20%/Lv. 48 - 50] Raticate
-[20%/Lv. 48 - 50] Ariados
 [20%/Lv. 48 - 49] Haunter
+[20%/Lv. 48 - 50] Raticate*
+[20%/Lv. 48 - 50] Ariados*
 [10%/Lv. 49 - 49] Banette
 [10%/Lv. 49 - 49] Dusclops
 [10%/Lv. 49 - 50] Bronzong
 [10%/Lv. 49 - 50] Chimecho
 
-Special Sound:
-[40%/Lv. 48 - 50] Chansey
+* These Pokémon will not appear if the Unova Sound is active.
+
+Unova Sound:
+[20%/Lv. 48 - 49] Lampent
+[20%/Lv. 48 - 50] Beheeyem
 
 -------------------
 Tohjo Falls

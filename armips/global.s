@@ -36,6 +36,7 @@
 .include "armips/asm/custom/encore_counter.s"
 .include "armips/asm/custom/ev_cap.s"
 .include "armips/asm/custom/vitamins.s"
+.include "armips/asm/custom/force_radio.s"
 
 .if FAIRY_TYPE_IMPLEMENTED == 1
 

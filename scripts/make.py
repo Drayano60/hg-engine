@@ -495,6 +495,8 @@ def decompress():
         rom.write(bytes(bunh))
         rom.seek((96*0x20)+0x1C)
         rom.write(bytes(bunh))
+        rom.seek((101*0x20)+0x1C)
+        rom.write(bytes(bunh)) 
         rom.close()
     decompress_file("base/overlay/overlay_0001.bin")
     decompress_file("base/overlay/overlay_0002.bin")
@@ -507,6 +509,7 @@ def decompress():
     decompress_file("base/overlay/overlay_0018.bin")
     decompress_file("base/overlay/overlay_0063.bin")
     decompress_file("base/overlay/overlay_0096.bin")
+    decompress_file("base/overlay/overlay_0101.bin")
 
 
 def decompress_file(path):

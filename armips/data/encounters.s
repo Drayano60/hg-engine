@@ -691,7 +691,7 @@ pokemon SPECIES_LARVITAR
 pokemon SPECIES_DUNSPARCE
 
 // hoenn encounter slots
-pokemon SPECIES_WOOBAT
+pokemon SPECIES_AXEW
 pokemon SPECIES_ROGGENROLA
 
 // sinnoh encounter slots
@@ -5060,8 +5060,8 @@ pokemon SPECIES_PUPITAR
 pokemon SPECIES_DUNSPARCE
 
 // hoenn encounter slots
-pokemon SPECIES_BOLDORE
 pokemon SPECIES_FRAXURE
+pokemon SPECIES_BOLDORE
 
 // sinnoh encounter slots
 pokemon SPECIES_NONE

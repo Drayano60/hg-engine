@@ -212,7 +212,7 @@ Fishing:
 [20%/Lv. 08 - 10] Barboach
 
 Unova Sound:
-[20%/Lv. 08 - 09] Woobat
+[20%/Lv. 08 - 09] Axew
 [20%/Lv. 08 - 09] Roggenrola 
 
 -------------------
@@ -1673,8 +1673,8 @@ Fishing:
 [20%/Lv. 44 - 45] Whiscash
 
 Unova Sound:
-[20%/Lv. 44 - 45] Boldore
 [20%/Lv. 44 - 45] Fraxure
+[20%/Lv. 44 - 45] Boldore
 
 -------------------
 Dragon's Den

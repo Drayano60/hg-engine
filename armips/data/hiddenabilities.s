@@ -653,7 +653,7 @@
 /* SPECIES_JOLTIK                      */ .halfword ABILITY_SWARM
 /* SPECIES_GALVANTULA                  */ .halfword ABILITY_SWARM
 /* SPECIES_FERROSEED                   */ .halfword ABILITY_NONE
-/* SPECIES_FERROTHORN                  */ .halfword ABILITY_ANTICIPATION
+/* SPECIES_FERROTHORN                  */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_NONE : ABILITY_ANTICIPATION
 /* SPECIES_KLINK                       */ .halfword ABILITY_CLEAR_BODY
 /* SPECIES_KLANG                       */ .halfword ABILITY_CLEAR_BODY
 /* SPECIES_KLINKLANG                   */ .halfword ABILITY_CLEAR_BODY

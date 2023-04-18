@@ -17186,7 +17186,7 @@ Type: Grass / Steel
 -------------------
 598 - Ferrothorn
 -------------------
-Abilities: Iron Barbs / Iron Barbs / Iron Barbs
+Abilities: Iron Barbs / Iron Barbs / Anticipation ⟶ Iron Barbs / Iron Barbs / Iron Barbs
 Base Stats: 74/94/131/54/116/20 (489)
 Held Item: Sticky Barb (5%)
 Type: Grass / Steel

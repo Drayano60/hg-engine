@@ -248,8 +248,12 @@ int MoveCheckDamageNegatingAbilities(struct BattleStruct *sp, int attacker, int 
         }
     }
 
-    /* Dark-types are immune to status moves affected by Prankster (unless they are self-targeting) */
-    /* This may not work properly with the Assist interaction? Needs testing */
+
+    /*
+    Commented out because Blu added code for this in other_battle_calculators.c
+    
+    Dark-types are immune to status moves affected by Prankster (unless they are self-targeting)
+    This may not work properly with the Assist interaction? Needs testing
     if (GetBattlerAbility(sp, attacker) == ABILITY_PRANKSTER && sp->moveTbl[sp->current_move_index].split == SPLIT_STATUS) {
         if (
             ((BattlePokemonParamGet(sp, sp->defence_client, BATTLE_MON_DATA_TYPE1, NULL) == TYPE_DARK) ||
@@ -259,6 +263,7 @@ int MoveCheckDamageNegatingAbilities(struct BattleStruct *sp, int attacker, int 
             scriptnum = SUB_SEQ_HANDLE_IMMUNITY;
         }
     }
+    */
 
     return scriptnum;
 }

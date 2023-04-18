@@ -13298,6 +13298,7 @@ levelup SPECIES_TRUBBISH
 levelup SPECIES_GARBODOR
     learnset MOVE_SELF_DESTRUCT, 1
     learnset MOVE_ROCK_BLAST, 1
+    learnset MOVE_METAL_CLAW, 1
     learnset MOVE_POUND, 1
     learnset MOVE_RECYCLE, 1
     learnset MOVE_POISON_GAS, 1

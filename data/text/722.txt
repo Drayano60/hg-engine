@@ -187,3 +187,9 @@ Contact has a 30% chance\nof badly poisoning the foe.
 Damage based on weight\ndifference is maximized.
 Reduces damage by 50%\nwhen HP is full.
 Bug moves have a 30% rate\nto cause a status effect.
+When below 50% HP, Attack\nand Sp. Atk are halved.
+Comes out disguised as the\nPokémon in the last spot.
+Replaces an attacker’s\nability on contact.
+Contact damages the foe\nby 12.5% of their max HP.
+The Pokémon changes form\nwhen its HP is 50% or less.
+Powers up Electric-type\nmoves by 50%.

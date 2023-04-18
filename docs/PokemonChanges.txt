@@ -16337,3 +16337,1168 @@ Level Up Moves:
 80 - Hyper Beam
 90 - Perish Song
 100 - Judgment
+
+-------------------
+494 - Victini
+-------------------
+Victini is not available in Aurora Crystal.
+
+-------------------
+495 - Snivy
+-------------------
+Abilities: Overgrow / Overgrow / Contrary ⟶ Overgrow / Shed Skin** / Contrary
+Base Stats: 45/45/55/45/55/63 (308)
+Held Item: None
+Type: Grass
+
+-------------------
+496 - Servine
+-------------------
+Abilities: Overgrow / Overgrow / Contrary ⟶ Overgrow / Shed Skin** / Contrary
+Base Stats: 60/60/75/60/75/83 (413)
+Held Item: None
+Type: Grass
+
+-------------------
+497 - Serperior
+-------------------
+Abilities: Overgrow / Overgrow / Contrary ⟶ Overgrow / Shed Skin** / Contrary
+Base Stats: 75/75/95/75/95/113 (528) ⟶ 75/75/97*/75/97*/116* (535)
+Held Item: None
+Type: Grass ⟶ Grass / Dragon
+
+-------------------
+498 - Tepig
+-------------------
+Abilities: Blaze / Blaze / Reckless ⟶ Blaze / Thick Fat / Reckless**
+Base Stats: 65/63/45/45/45/45 (308)
+Held Item: None
+Type: Fire
+
+-------------------
+499 - Pignite
+-------------------
+Abilities: Blaze / Blaze / Reckless ⟶ Blaze / Thick Fat / Reckless**
+Base Stats: 90/93/55/70/55/55 (418)
+Held Item: None
+Type: Fire / Fighting
+
+-------------------
+500 - Emboar
+-------------------
+Abilities: Blaze / Blaze / Reckless ⟶ Blaze / Thick Fat** / Reckless
+Base Stats: 110/123/65/100/65/65 (528) ⟶ 110/130*/65/100/65/65 (535)
+Held Item: None
+Type: Fire / Fighting
+
+-------------------
+501 - Oshawott
+-------------------
+Abilities: Torrent / Torrent / Shell Armor ⟶ Torrent / Shell Armor / Sharpness**
+Base Stats: 55/55/45/63/45/45 (308) ⟶ 55/63*/45/55*/45/45 (308)
+Held Item: None
+Type: Water
+
+-------------------
+502 - Dewott
+-------------------
+Abilities: Torrent / Torrent / Shell Armor ⟶ Torrent / Shell Armor / Sharpness**
+Base Stats: 75/75/60/83/60/60 (413) ⟶ 75/83*/60/75*/60/60 (413)
+Held Item: None
+Type: Water
+
+-------------------
+503 - Samurott
+-------------------
+Abilities: Torrent / Torrent / Shell Armor ⟶ Torrent / Shell Armor / Sharpness**
+Base Stats: 95/100/85/108/70/70 (528) ⟶ 95/110*/80*/100*/65*/85* (535)
+Held Item: None
+Type: Water ⟶ Water / Fighting
+
+-------------------
+504 - Patrat
+-------------------
+Abilities: Run Away / Keen Eye / Analytic
+Base Stats: 45/55/39/35/39/42 (255)
+Held Item: None
+Type: Normal
+
+-------------------
+505 - Watchog
+-------------------
+Abilities: Illuminate / Keen Eye / Analytic
+Base Stats: 60/85/69/60/69/77 (420) ⟶ 70*/95*/69/60/69/77 (430)
+Held Item: None
+Type: Normal
+
+-------------------
+506 - Lillipup
+-------------------
+Abilities: Vital Spirit / Pickup / Run Away
+Base Stats: 45/60/45/25/45/55 (275)
+Held Item: None
+Type: Normal
+
+-------------------
+507 - Herdier
+-------------------
+Abilities: Intimidate / Sand Rush / Scrappy
+Base Stats: 65/80/65/35/65/60 (370)
+Held Item: None
+Type: Normal
+
+-------------------
+508 - Stoutland
+-------------------
+Abilities: Intimidate / Sand Rush / Scrappy
+Base Stats: 85/110/90/45/90/80 (500)
+Held Item: None
+Type: Normal
+
+-------------------
+509 - Purrloin
+-------------------
+Abilities: Limber / Unburden / Prankster
+Base Stats: 41/50/37/50/37/66 (281)
+Held Item: None
+Type: Dark
+
+-------------------
+510 - Liepard
+-------------------
+Abilities: Limber / Unburden / Prankster
+Base Stats: 64/88/50/88/50/106 (446) ⟶ 64/90*/50/90*/50/106 (450)
+Held Item: None
+Type: Dark
+
+-------------------
+511 - Pansage
+-------------------
+Abilities: Gluttony / Gluttony / Overgrow
+Base Stats: 50/53/48/53/48/64 (316)
+Held Item: Oran Berry (50%), Occa Berry (5%)
+Type: Grass
+
+-------------------
+512 - Simisage
+-------------------
+Abilities: Gluttony / Gluttony / Overgrow
+Base Stats: 75/98/63/98/63/101 (498)
+Held Item: Oran Berry (50%), Occa Berry (5%)
+Type: Grass
+
+-------------------
+513 - Pansear
+-------------------
+Abilities: Gluttony / Gluttony / Blaze
+Base Stats: 50/53/48/53/48/64 (316)
+Held Item: Oran Berry (50%), Passho Berry (5%)
+Type: Fire
+
+-------------------
+514 - Simisear
+-------------------
+Abilities: Gluttony / Gluttony / Blaze
+Base Stats: 75/98/63/98/63/101 (498)
+Held Item: Oran Berry (50%), Passho Berry (5%)
+Type: Fire
+
+-------------------
+515 - Panpour
+-------------------
+Abilities: Gluttony / Gluttony / Torrent
+Base Stats: 50/53/48/53/48/64 (316)
+Held Item: Oran Berry (50%), Rindo Berry (5%)
+Type: Water
+
+-------------------
+516 - Simipour
+-------------------
+Abilities: Gluttony / Gluttony / Torrent
+Base Stats: 75/98/63/98/63/101 (498)
+Held Item: Oran Berry (50%), Rindo Berry (5%)
+Type: Water
+
+-------------------
+517 - Munna
+-------------------
+Abilities: Forewarn / Synchronize / Telepathy
+Base Stats: 76/25/45/67/55/24 (292)
+Held Item: None
+Type: Psychic
+
+-------------------
+518 - Musharna
+-------------------
+Abilities: Forewarn / Synchronize / Telepathy
+Base Stats: 116/55/85/107/95/29 (487)
+Held Item: None
+Type: Psychic
+
+-------------------
+519 - Pidove
+-------------------
+Abilities: Big Pecks / Super Luck / Rivalry
+Base Stats: 50/55/50/36/30/43 (264)
+Held Item: None
+Type: Normal / Flying
+
+-------------------
+520 - Tranquill
+-------------------
+Abilities: Big Pecks / Super Luck / Rivalry
+Base Stats: 62/77/62/50/42/65 (358)
+Held Item: None
+Type: Normal / Flying
+
+-------------------
+521 - Unfezant
+-------------------
+Abilities: Big Pecks / Super Luck / Rivalry
+Base Stats: 80/115/80/65/55/93 (488) ⟶ 90*/115/80/65/55/93 (498)
+Held Item: None
+Type: Normal / Flying
+
+-------------------
+522 - Blitzle
+-------------------
+Abilities: Lightning Rod / Motor Drive / Sap Sipper
+Base Stats: 45/60/32/50/32/76 (295)
+Held Item: Cheri Berry (50%)
+Type: Electric
+
+-------------------
+523 - Zebstrika
+-------------------
+Abilities: Lightning Rod / Motor Drive / Sap Sipper
+Base Stats: 75/100/63/80/63/116 (497)
+Held Item: Cheri Berry (50%)
+Type: Electric
+
+-------------------
+524 - Roggenrola
+-------------------
+Abilities: Sturdy / Weak Armor / Sand Force
+Base Stats: 55/75/85/25/25/15 (280)
+Held Item: Everstone (50%), Hard Stone (5%)
+Type: Rock
+
+-------------------
+525 - Boldore
+-------------------
+Abilities: Sturdy / Weak Armor / Sand Force
+Base Stats: 70/105/105/50/40/20 (390)
+Held Item: Everstone (50%), Hard Stone (5%)
+Type: Rock
+
+-------------------
+526 - Gigalith
+-------------------
+Abilities: Sturdy / Sand Stream / Sand Force
+Base Stats: 85/135/130/60/80/25 (515)
+Held Item: Everstone (50%), Hard Stone (5%)
+Type: Rock
+
+-------------------
+527 - Woobat
+-------------------
+Abilities: Unaware / Klutz / Simple
+Base Stats: 65/45/43/55/43/72 (323)
+Held Item: None
+Type: Psychic / Flying
+
+-------------------
+528 - Swoobat
+-------------------
+Abilities: Unaware / Klutz / Simple
+Base Stats: 67/57/55/77/55/114 (425) ⟶ 67/67*/60*/87*/60*/114 (455)
+Held Item: None
+Type: Psychic / Flying
+
+-------------------
+529 - Drilbur
+-------------------
+Abilities: Sand Rush / Sand Force / Mold Breaker
+Base Stats: 60/85/40/30/45/68 (328)
+Held Item: None
+Type: Ground
+
+-------------------
+530 - Excadrill
+-------------------
+Abilities: Sand Rush / Sand Force / Mold Breaker
+Base Stats: 110/135/60/50/65/88 (508)
+Held Item: None
+Type: Ground
+
+-------------------
+531 - Audino
+-------------------
+Abilities: Healer / Regenerator / Klutz
+Base Stats: 103/60/86/60/86/50 (445) ⟶ 103/60/86/80*/86/50 (465)
+Held Item: Oran Berry (50%), Sitrus Berry (5%)
+Type: Normal ⟶ Normal / Fairy
+
+-------------------
+532 - Timburr
+-------------------
+Abilities: Guts / Sheer Force / Iron Fist
+Base Stats: 75/80/55/25/35/35 (305)
+Held Item: None
+Type: Fighting
+
+-------------------
+533 - Gurdurr
+-------------------
+Abilities: Guts / Sheer Force / Iron Fist
+Base Stats: 85/105/85/40/50/40 (405)
+Held Item: None
+Type: Fighting
+
+-------------------
+534 - Conkeldurr
+-------------------
+Abilities: Guts / Sheer Force / Iron Fist
+Base Stats: 105/140/95/55/65/45 (505)
+Held Item: None
+Type: Fighting
+
+-------------------
+535 - Tympole
+-------------------
+Abilities: Swift Swim / Hydration / Water Absorb
+Base Stats: 50/50/40/50/40/64 (294)
+Held Item: Pecha Berry (50%)
+Type: Water
+
+-------------------
+536 - Palpitoad
+-------------------
+Abilities: Swift Swim / Hydration / Water Absorb
+Base Stats: 75/65/55/65/55/69 (384)
+Held Item: Pecha Berry (50%)
+Type: Water / Ground
+
+-------------------
+537 - Seismitoad
+-------------------
+Abilities: Swift Swim / Poison Touch / Water Absorb
+Base Stats: 105/95/75/85/75/74 (509)
+Held Item: Pecha Berry (50%)
+Type: Water / Ground
+
+-------------------
+538 - Throh
+-------------------
+Abilities: Guts / Inner Focus / Mold Breaker
+Base Stats: 120/110/85/30/85/45 (465)
+Held Item: Black Belt (5%)
+Type: Fighting
+
+-------------------
+539 - Sawk
+-------------------
+Abilities: Sturdy / Inner Focus / Mold Breaker
+Base Stats: 75/125/75/30/75/85 (465)
+Held Item: Black Belt (5%)
+Type: Fighting
+
+-------------------
+540 - Sewaddle
+-------------------
+Abilities: Swarm / Chlorophyll / Overcoat
+Base Stats: 45/53/70/40/60/42 (310)
+Held Item: Mental Herb (5%)
+Type: Bug / Grass
+
+-------------------
+541 - Swadloon
+-------------------
+Abilities: Leaf Guard / Chlorophyll / Overcoat
+Base Stats: 55/63/90/50/80/42 (380)
+Held Item: Mental Herb (5%)
+Type: Bug / Grass
+
+-------------------
+542 - Leavanny
+-------------------
+Abilities: Swarm / Chlorophyll / Overcoat
+Base Stats: 75/103/80/70/80/92 (500)
+Held Item: Mental Herb (5%)
+Type: Bug / Grass
+
+-------------------
+543 - Venipede
+-------------------
+Abilities: Poison Point / Swarm / Speed Boost
+Base Stats: 30/45/59/30/39/57 (260)
+Held Item: Poison Barb (5%)
+Type: Bug / Poison
+
+-------------------
+544 - Whirlipede
+-------------------
+Abilities: Poison Point / Swarm / Speed Boost
+Base Stats: 40/55/99/40/79/47 (360)
+Held Item: Poison Barb (5%)
+Type: Bug / Poison
+
+-------------------
+545 - Scolipede
+-------------------
+Abilities: Poison Point / Swarm / Speed Boost
+Base Stats: 60/100/89/55/69/112 (485)
+Held Item: Poison Barb (5%)
+Type: Bug / Poison
+
+-------------------
+546 - Cottonee
+-------------------
+Abilities: Prankster / Infiltrator / Chlorophyll
+Base Stats: 40/27/60/37/50/66 (280)
+Held Item: None
+Type: Grass / Fairy
+
+-------------------
+547 - Whimsicott
+-------------------
+Abilities: Prankster / Infiltrator / Chlorophyll
+Base Stats: 60/67/85/77/75/116 (480)
+Held Item: None
+Type: Grass / Fairy
+
+-------------------
+548 - Petilil
+-------------------
+Abilities: Chlorophyll / Own Tempo / Leaf Guard
+Base Stats: 45/35/50/70/50/30 (280)
+Held Item: None
+Type: Grass
+
+-------------------
+549 - Lilligant
+-------------------
+Abilities: Chlorophyll / Own Tempo / Leaf Guard
+Base Stats: 70/60/75/110/75/90 (480)
+Held Item: None
+Type: Grass
+
+-------------------
+550.1 - Basculin (Red-Striped Form)
+-------------------
+Abilities: Reckless / Adaptability / Mold Breaker
+Base Stats: 70/92/65/80/55/98 (460)
+Held Item: Deep Sea Tooth (5%)
+Type: Water
+
+-------------------
+550.2 - Basculin (Blue-Striped Form)
+-------------------
+Abilities: Rock Head / Adaptability / Mold Breaker
+Base Stats: 70/92/65/80/55/98 (460)
+Held Item: None
+Type: Water
+
+-------------------
+551 - Sandile
+-------------------
+Abilities: Intimidate / Moxie / Anger Point
+Base Stats: 50/72/35/35/35/65 (292)
+Held Item: None
+Type: Ground / Dark
+
+-------------------
+552 - Krokorok
+-------------------
+Abilities: Intimidate / Moxie / Anger Point
+Base Stats: 60/82/45/45/45/74 (351)
+Held Item: None
+Type: Ground / Dark
+
+-------------------
+553 - Krookodile
+-------------------
+Abilities: Intimidate / Moxie / Anger Point
+Base Stats: 95/117/80/65/70/92 (519)
+Held Item: None
+Type: Ground / Dark
+
+-------------------
+554 - Darumaka
+-------------------
+Abilities: Hustle / Hustle / Inner Focus
+Base Stats: 70/90/45/15/45/50 (315)
+Held Item: Rawst Berry (50%)
+Type: Fire
+
+-------------------
+555.1 - Darmanitan
+-------------------
+Abilities: Sheer Force / Sheer Force / Zen Mode
+Base Stats: 105/140/55/30/55/95 (480)
+Held Item: Rawst Berry (50%)
+Type: Fire
+
+-------------------
+555.2 - Darmanitan (Zen Mode)
+-------------------
+Abilities: Sheer Force / Sheer Force / Zen Mode
+Base Stats: 105/30/105/140/105/55 (540)
+Held Item: None
+Type: Fire / Psychic
+
+-------------------
+556 - Maractus
+-------------------
+Abilities: Water Absorb / Chlorophyll / Storm Drain
+Base Stats: 75/86/67/106/67/60 (461)
+Held Item: Miracle Seed (5%)
+Type: Grass
+
+-------------------
+557 - Dwebble
+-------------------
+Abilities: Sturdy / Shell Armor / Weak Armor
+Base Stats: 50/65/85/35/35/55 (325)
+Held Item: Hard Stone (5%)
+Type: Bug / Rock
+
+-------------------
+558 - Crustle
+-------------------
+Abilities: Sturdy / Shell Armor / Weak Armor
+Base Stats: 70/105/125/65/75/45 (485)
+Held Item: Hard Stone (5%)
+Type: Bug / Rock
+
+-------------------
+559 - Scraggy
+-------------------
+Abilities: Shed Skin / Moxie / Intimidate
+Base Stats: 50/75/70/35/70/48 (348)
+Held Item: Shed Shell (5%)
+Type: Dark / Fighting
+
+-------------------
+560 - Scrafty
+-------------------
+Abilities: Shed Skin / Moxie / Intimidate
+Base Stats: 65/90/115/45/115/58 (488)
+Held Item: Shed Shell (5%)
+Type: Dark / Fighting
+
+-------------------
+561 - Sigilyph
+-------------------
+Abilities: Wonder Skin / Magic Guard / Tinted Lens
+Base Stats: 72/58/80/103/80/97 (490)
+Held Item: None
+Type: Psychic / Flying
+
+-------------------
+562 - Yamask
+-------------------
+Abilities: Mummy / Mummy / Mummy
+Base Stats: 38/30/85/55/65/30 (303)
+Held Item: Spell Tag (5%)
+Type: Ghost
+
+-------------------
+563 - Cofagrigus
+-------------------
+Abilities: Mummy / Mummy / Mummy
+Base Stats: 58/50/145/95/105/30 (483)
+Held Item: Spell Tag (5%)
+Type: Ghost ⟶ Ghost / Steel
+
+-------------------
+564 - Tirtouga
+-------------------
+Abilities: Solid Rock / Sturdy / Swift Swim
+Base Stats: 54/78/103/53/45/22 (355)
+Held Item: None
+Type: Water / Rock
+
+-------------------
+565 - Carracosta
+-------------------
+Abilities: Solid Rock / Sturdy / Swift Swim
+Base Stats: 74/108/133/83/65/32 (495)
+Held Item: None
+Type: Water / Rock
+
+-------------------
+566 - Archen
+-------------------
+Abilities: Defeatist / Defeatist / Defeatist
+Base Stats: 55/112/45/74/45/70 (401)
+Held Item: None
+Type: Rock / Flying
+
+-------------------
+567 - Archeops
+-------------------
+Abilities: Defeatist / Defeatist / Defeatist
+Base Stats: 75/140/65/112/65/110 (567)
+Held Item: None
+Type: Rock / Flying
+
+-------------------
+568 - Trubbish
+-------------------
+Abilities: Stench / Sticky Hold / Aftermath
+Base Stats: 50/50/62/40/62/65 (329)
+Held Item: Black Sludge (5%)
+Type: Poison
+
+-------------------
+569 - Garbodor
+-------------------
+Abilities: Stench / Sticky Hold / Aftermath
+Base Stats: 80/95/82/60/82/75 (474) ⟶ 80/105*/87*/60/87*/75 (494)
+Held Item: Black Sludge (5%)
+Type: Poison
+
+-------------------
+570 - Zorua
+-------------------
+Abilities: Illusion / Illusion / Illusion
+Base Stats: 40/65/40/80/40/65 (330)
+Held Item: None
+Type: Dark
+
+-------------------
+571 - Zoroark
+-------------------
+Abilities: Illusion / Illusion / Illusion
+Base Stats: 60/105/60/120/60/105 (510)
+Held Item: None
+Type: Dark
+
+-------------------
+572 - Minccino
+-------------------
+Abilities: Cute Charm / Technician / Skill Link
+Base Stats: 55/50/40/40/40/75 (300)
+Held Item: Chesto Berry (50%)
+Type: Normal
+
+-------------------
+573 - Cinccino
+-------------------
+Abilities: Cute Charm / Technician / Skill Link
+Base Stats: 75/95/60/65/60/115 (470)
+Held Item: Chesto Berry (50%)
+Type: Normal
+
+-------------------
+574 - Gothita
+-------------------
+Abilities: Frisk / Competitive / Shadow Tag ⟶ Frisk / Competitive / Magic Bounce**
+Base Stats: 45/30/50/55/65/45 (290)
+Held Item: Persim Berry (50%)
+Type: Psychic
+
+-------------------
+575 - Gothorita
+-------------------
+Abilities: Frisk / Competitive / Shadow Tag ⟶ Frisk / Competitive / Magic Bounce**
+Base Stats: 60/45/70/75/85/55 (390)
+Held Item: Persim Berry (50%)
+Type: Psychic
+
+-------------------
+576 - Gothitelle
+-------------------
+Abilities: Frisk / Competitive / Shadow Tag ⟶ Frisk / Competitive / Magic Bounce**
+Base Stats: 70/55/95/95/110/65 (490)
+Held Item: Persim Berry (50%)
+Type: Psychic
+
+-------------------
+577 - Solosis
+-------------------
+Abilities: Overcoat / Magic Guard / Regenerator
+Base Stats: 45/30/40/105/50/20 (290)
+Held Item: Persim Berry (50%)
+Type: Psychic
+
+-------------------
+578 - Duosion
+-------------------
+Abilities: Overcoat / Magic Guard / Regenerator
+Base Stats: 65/40/50/125/60/30 (370)
+Held Item: Persim Berry (50%)
+Type: Psychic
+
+-------------------
+579 - Reuniclus
+-------------------
+Abilities: Overcoat / Magic Guard / Regenerator
+Base Stats: 110/65/75/125/85/30 (490)
+Held Item: Persim Berry (50%)
+Type: Psychic
+
+-------------------
+580 - Ducklett
+-------------------
+Abilities: Keen Eye / Big Pecks / Hydration
+Base Stats: 62/44/50/44/50/55 (305) ⟶ 62/34*/50/54*/50/55 (305)
+Held Item: None
+Type: Water / Flying
+
+-------------------
+581 - Swanna
+-------------------
+Abilities: Keen Eye / Big Pecks / Hydration
+Base Stats: 75/87/63/87/63/98 (473)
+Held Item: None
+Type: Water / Flying
+
+-------------------
+582 - Vanillite
+-------------------
+Abilities: Ice Body / Snow Cloak / Weak Armor
+Base Stats: 36/50/50/65/60/44 (305)
+Held Item: None
+Type: Ice
+
+-------------------
+583 - Vanillish
+-------------------
+Abilities: Ice Body / Snow Cloak / Weak Armor
+Base Stats: 51/65/65/80/75/59 (395)
+Held Item: None
+Type: Ice
+
+-------------------
+584 - Vanilluxe
+-------------------
+Abilities: Ice Body / Snow Warning / Weak Armor
+Base Stats: 71/95/85/110/95/79 (535)
+Held Item: None
+Type: Ice
+
+-------------------
+585 - Deerling
+-------------------
+Abilities: Chlorophyll / Sap Sipper / Serene Grace
+Base Stats: 60/60/50/40/50/75 (335)
+Held Item: None
+Type: Normal / Grass
+
+-------------------
+586 - Sawsbuck
+-------------------
+Abilities: Chlorophyll / Sap Sipper / Serene Grace
+Base Stats: 80/100/70/60/70/95 (475)
+Held Item: None
+Type: Normal / Grass
+
+-------------------
+587 - Emolga
+-------------------
+Abilities: Static / Static / Motor Drive
+Base Stats: 55/75/60/75/60/103 (428) ⟶ 55/75/60/75/60/110* (435)
+Held Item: Cheri Berry (100%)
+Type: Electric / Flying
+
+-------------------
+588 - Karrablast
+-------------------
+Abilities: Swarm / Shed Skin / No Guard
+Base Stats: 50/75/45/40/45/60 (315)
+Held Item: None
+Type: Bug
+
+-------------------
+589 - Escavalier
+-------------------
+Abilities: Swarm / Shell Armor / Overcoat
+Base Stats: 70/135/105/60/105/20 (495)
+Held Item: None
+Type: Bug
+
+-------------------
+590 - Foongus
+-------------------
+Abilities: Effect Spore / Effect Spore / Regenerator
+Base Stats: 69/55/45/55/55/15 (294)
+Held Item: None
+Type: Grass / Poison
+
+-------------------
+591 - Amoonguss
+-------------------
+Abilities: Effect Spore / Effect Spore / Regenerator
+Base Stats: 114/85/70/85/80/30 (464)
+Held Item: None
+Type: Grass / Poison
+
+-------------------
+592 - Frillish
+-------------------
+Abilities: Water Absorb / Cursed Body / Damp
+Base Stats: 55/40/50/65/85/40 (335)
+Held Item: None
+Type: Water / Ghost
+
+-------------------
+593 - Jellicent
+-------------------
+Abilities: Water Absorb / Cursed Body / Damp
+Base Stats: 100/60/70/85/105/60 (480)
+Held Item: None
+Type: Water / Ghost
+
+-------------------
+594 - Alomomola
+-------------------
+Abilities: Healer / Hydration / Regenerator
+Base Stats: 165/75/80/40/45/65 (470)
+Held Item: None
+Type: Water
+
+-------------------
+595 - Joltik
+-------------------
+Abilities: Compound Eyes / Unnerve / Swarm
+Base Stats: 50/47/50/57/50/65 (319)
+Held Item: None
+Type: Bug / Electric
+
+-------------------
+596 - Galvantula
+-------------------
+Abilities: Compound Eyes / Unnerve / Swarm
+Base Stats: 70/77/60/97/60/108 (472)
+Held Item: None
+Type: Bug / Electric
+
+-------------------
+597 - Ferroseed
+-------------------
+Abilities: Iron Barbs / Iron Barbs / Iron Barbs
+Base Stats: 44/50/91/24/86/10 (305)
+Held Item: Sticky Barb (5%)
+Type: Grass / Steel
+
+-------------------
+598 - Ferrothorn
+-------------------
+Abilities: Iron Barbs / Iron Barbs / Iron Barbs
+Base Stats: 74/94/131/54/116/20 (489)
+Held Item: Sticky Barb (5%)
+Type: Grass / Steel
+
+-------------------
+599 - Klink
+-------------------
+Abilities: Plus / Minus / Clear Body
+Base Stats: 40/55/70/45/60/30 (300)
+Held Item: None
+Type: Steel
+
+-------------------
+600 - Klang
+-------------------
+Abilities: Plus / Minus / Clear Body
+Base Stats: 60/80/95/70/85/50 (440)
+Held Item: None
+Type: Steel
+
+-------------------
+601 - Klinklang
+-------------------
+Abilities: Plus / Minus / Clear Body
+Base Stats: 60/100/115/70/85/90 (520)
+Held Item: None
+Type: Steel
+
+-------------------
+602 - Tynamo
+-------------------
+Abilities: Levitate / Levitate / Levitate
+Base Stats: 35/55/40/45/40/60 (275)
+Held Item: None
+Type: Electric
+
+-------------------
+603 - Eelektrik
+-------------------
+Abilities: Levitate / Levitate / Levitate
+Base Stats: 65/85/70/75/70/40 (405)
+Held Item: None
+Type: Electric
+
+-------------------
+604 - Eelektross
+-------------------
+Abilities: Levitate / Levitate / Levitate
+Base Stats: 85/115/80/105/80/50 (515)
+Held Item: None
+Type: Electric
+
+-------------------
+605 - Elgyem
+-------------------
+Abilities: Telepathy / Synchronize / Analytic
+Base Stats: 55/55/55/85/55/30 (335)
+Held Item: None
+Type: Psychic
+
+-------------------
+606 - Beheeyem
+-------------------
+Abilities: Telepathy / Synchronize / Analytic
+Base Stats: 75/75/75/125/95/40 (485)
+Held Item: None
+Type: Psychic
+
+-------------------
+607 - Litwick
+-------------------
+Abilities: Flash Fire / Flame Body / Infiltrator
+Base Stats: 50/30/55/65/55/20 (275)
+Held Item: None
+Type: Ghost / Fire
+
+-------------------
+608 - Lampent
+-------------------
+Abilities: Flash Fire / Flame Body / Infiltrator
+Base Stats: 60/40/60/95/60/55 (370)
+Held Item: None
+Type: Ghost / Fire
+
+-------------------
+609 - Chandelure
+-------------------
+Abilities: Flash Fire / Flame Body / Infiltrator
+Base Stats: 60/55/90/145/90/80 (520)
+Held Item: None
+Type: Ghost / Fire
+
+-------------------
+610 - Axew
+-------------------
+Abilities: Rivalry / Mold Breaker / Unnerve
+Base Stats: 46/87/60/30/40/57 (320)
+Held Item: None
+Type: Dragon
+
+-------------------
+611 - Fraxure
+-------------------
+Abilities: Rivalry / Mold Breaker / Unnerve
+Base Stats: 66/117/70/40/50/67 (410)
+Held Item: None
+Type: Dragon
+
+-------------------
+612 - Haxorus
+-------------------
+Abilities: Rivalry / Mold Breaker / Unnerve
+Base Stats: 76/147/90/60/70/97 (540)
+Held Item: None
+Type: Dragon
+
+-------------------
+613 - Cubchoo
+-------------------
+Abilities: Snow Cloak / Slush Rush / Rattled
+Base Stats: 55/70/40/60/40/40 (305)
+Held Item: Aspear Berry (50%)
+Type: Ice
+
+-------------------
+614 - Beartic
+-------------------
+Abilities: Snow Cloak / Slush Rush / Swift Swim
+Base Stats: 95/130/80/70/80/50 (505)
+Held Item: Aspear Berry (50%)
+Type: Ice
+
+-------------------
+615 - Cryogonal
+-------------------
+Abilities: Levitate / Levitate / Levitate
+Base Stats: 80/50/50/95/135/105 (515)
+Held Item: Never-Melt Ice (5%)
+Type: Ice
+
+-------------------
+616 - Shelmet
+-------------------
+Abilities: Hydration / Shell Armor / Overcoat
+Base Stats: 50/40/85/40/65/25 (305)
+Held Item: None
+Type: Bug
+
+-------------------
+617 - Accelgor
+-------------------
+Abilities: Hydration / Sticky Hold / Unburden
+Base Stats: 80/70/40/100/60/145 (495)
+Held Item: None
+Type: Bug
+
+-------------------
+618 - Stunfisk
+-------------------
+Abilities: Static / Limber / Sand Veil
+Base Stats: 109/66/84/81/99/32 (471)
+Held Item: Soft Sand (5%)
+Type: Ground / Electric
+
+-------------------
+619 - Mienfoo
+-------------------
+Abilities: Inner Focus / Regenerator / Reckless
+Base Stats: 45/85/50/55/50/65 (350)
+Held Item: None
+Type: Fighting
+
+-------------------
+620 - Mienshao
+-------------------
+Abilities: Inner Focus / Regenerator / Reckless
+Base Stats: 65/125/60/95/60/105 (510)
+Held Item: None
+Type: Fighting
+
+-------------------
+621 - Druddigon
+-------------------
+Abilities: Rough Skin / Sheer Force / Mold Breaker
+Base Stats: 77/120/90/60/90/48 (485)
+Held Item: Dragon Fang (5%)
+Type: Dragon
+
+-------------------
+622 - Golett
+-------------------
+Abilities: Iron Fist / Klutz / No Guard
+Base Stats: 59/74/50/35/50/35 (303)
+Held Item: Light Clay (5%)
+Type: Ground / Ghost
+
+-------------------
+623 - Golurk
+-------------------
+Abilities: Iron Fist / Klutz / No Guard
+Base Stats: 89/124/80/55/80/55 (483)
+Held Item: Light Clay (5%)
+Type: Ground / Ghost
+
+-------------------
+624 - Pawniard
+-------------------
+Abilities: Defiant / Inner Focus / Pressure
+Base Stats: 45/85/70/40/40/60 (340)
+Held Item: None
+Type: Dark / Steel
+
+-------------------
+625 - Bisharp
+-------------------
+Abilities: Defiant / Inner Focus / Pressure
+Base Stats: 65/125/100/60/70/70 (490)
+Held Item: None
+Type: Dark / Steel
+
+-------------------
+626 - Bouffalant
+-------------------
+Abilities: Reckless / Sap Sipper / Soundproof
+Base Stats: 95/110/95/40/95/55 (490)
+Held Item: None
+Type: Normal
+
+-------------------
+627 - Rufflet
+-------------------
+Abilities: Keen Eye / Sheer Force / Hustle
+Base Stats: 70/83/50/37/50/60 (350)
+Held Item: None
+Type: Normal / Flying
+
+-------------------
+628 - Braviary
+-------------------
+Abilities: Keen Eye / Sheer Force / Defiant
+Base Stats: 100/123/75/57/75/80 (510)
+Held Item: None
+Type: Normal / Flying
+
+-------------------
+629 - Vullaby
+-------------------
+Abilities: Big Pecks / Overcoat / Weak Armor
+Base Stats: 70/55/75/45/65/60 (370)
+Held Item: None
+Type: Dark / Flying
+
+-------------------
+630 - Mandibuzz
+-------------------
+Abilities: Big Pecks / Overcoat / Weak Armor
+Base Stats: 110/65/105/55/95/80 (510)
+Held Item: None
+Type: Dark / Flying
+
+-------------------
+631 - Heatmor
+-------------------
+Abilities: Gluttony / Flash Fire / White Smoke
+Base Stats: 85/97/66/105/66/65 (484)
+Held Item: None
+Type: Fire
+
+-------------------
+632 - Durant
+-------------------
+Abilities: Swarm / Hustle / Truant ⟶ Swarm / Hustle / Battle Armor**
+Base Stats: 58/109/112/48/48/109 (484)
+Held Item: None
+Type: Bug / Steel
+
+-------------------
+633 - Deino
+-------------------
+Abilities: Hustle / Hustle / Hustle
+Base Stats: 52/65/50/45/50/38 (300)
+Held Item: None
+Type: Dark / Dragon
+
+-------------------
+634 - Zweilous
+-------------------
+Abilities: Hustle / Hustle / Hustle
+Base Stats: 72/85/70/65/70/58 (420)
+Held Item: None
+Type: Dark / Dragon
+
+-------------------
+635 - Hydreigon
+-------------------
+Abilities: Levitate / Levitate / Levitate
+Base Stats: 92/105/90/125/90/98 (600)
+Held Item: None
+Type: Dark / Dragon
+
+-------------------
+636 - Larvesta
+-------------------
+Abilities: Flame Body / Flame Body / Swarm
+Base Stats: 55/85/55/50/55/60 (360)
+Held Item: None
+Type: Bug / Fire
+
+-------------------
+637 - Volcarona
+-------------------
+Abilities: Flame Body / Flame Body / Swarm
+Base Stats: 85/60/65/135/105/100 (550)
+Held Item: Silver Powder (100%)
+Type: Bug / Fire

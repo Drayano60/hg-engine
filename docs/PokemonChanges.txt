@@ -16405,7 +16405,7 @@ Type: Water
 Abilities: Torrent / Torrent / Shell Armor ⟶ Torrent / Shell Armor / Sharpness**
 Base Stats: 75/75/60/83/60/60 (413) ⟶ 75/83*/60/75*/60/60 (413)
 Held Item: None
-Type: Water
+Type: Water ⟶ Water / Fighting
 
 -------------------
 503 - Samurott
@@ -16555,7 +16555,7 @@ Type: Normal / Flying
 521 - Unfezant
 -------------------
 Abilities: Big Pecks / Super Luck / Rivalry
-Base Stats: 80/115/80/65/55/93 (488) ⟶ 90*/115/80/65/55/93 (498)
+Base Stats: 80/115/80/65/55/93 (488) ⟶ 85*/115/80/65/55/98* (498)
 Held Item: None
 Type: Normal / Flying
 
@@ -16851,7 +16851,7 @@ Type: Fire / Psychic
 556 - Maractus
 -------------------
 Abilities: Water Absorb / Chlorophyll / Storm Drain
-Base Stats: 75/86/67/106/67/60 (461)
+Base Stats: 75/86/67/106/67/60 (461) ⟶ 75/86/67/116*/67/60 (471)
 Held Item: Miracle Seed (5%)
 Type: Grass
 
@@ -17194,7 +17194,7 @@ Type: Grass / Steel
 -------------------
 599 - Klink
 -------------------
-Abilities: Plus / Minus / Clear Body
+Abilities: Plus / Minus / Clear Body ⟶ Transistor** / Transistor** / Clear Body
 Base Stats: 40/55/70/45/60/30 (300)
 Held Item: None
 Type: Steel
@@ -17202,7 +17202,7 @@ Type: Steel
 -------------------
 600 - Klang
 -------------------
-Abilities: Plus / Minus / Clear Body
+Abilities: Plus / Minus / Clear Body ⟶ Transistor** / Transistor** / Clear Body
 Base Stats: 60/80/95/70/85/50 (440)
 Held Item: None
 Type: Steel
@@ -17210,7 +17210,7 @@ Type: Steel
 -------------------
 601 - Klinklang
 -------------------
-Abilities: Plus / Minus / Clear Body
+Abilities: Plus / Minus / Clear Body ⟶ Transistor** / Transistor** / Clear Body
 Base Stats: 60/100/115/70/85/90 (520)
 Held Item: None
 Type: Steel

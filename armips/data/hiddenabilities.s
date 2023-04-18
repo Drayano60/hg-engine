@@ -553,12 +553,12 @@
 /* SPECIES_SNIVY                       */ .halfword ABILITY_CONTRARY
 /* SPECIES_SERVINE                     */ .halfword ABILITY_CONTRARY
 /* SPECIES_SERPERIOR                   */ .halfword ABILITY_CONTRARY
-/* SPECIES_TEPIG                       */ .halfword ABILITY_THICK_FAT
-/* SPECIES_PIGNITE                     */ .halfword ABILITY_THICK_FAT
+/* SPECIES_TEPIG                       */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_RECKLESS : ABILITY_THICK_FAT
+/* SPECIES_PIGNITE                     */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_RECKLESS : ABILITY_THICK_FAT
 /* SPECIES_EMBOAR                      */ .halfword ABILITY_RECKLESS
-/* SPECIES_OSHAWOTT                    */ .halfword ABILITY_SHELL_ARMOR
-/* SPECIES_DEWOTT                      */ .halfword ABILITY_SHELL_ARMOR
-/* SPECIES_SAMUROTT                    */ .halfword ABILITY_SHELL_ARMOR
+/* SPECIES_OSHAWOTT                    */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_SHELL_ARMOR : ABILITY_SHARPNESS
+/* SPECIES_DEWOTT                      */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_SHELL_ARMOR : ABILITY_SHARPNESS
+/* SPECIES_SAMUROTT                    */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_SHELL_ARMOR : ABILITY_SHARPNESS
 /* SPECIES_PATRAT                      */ .halfword ABILITY_ANALYTIC
 /* SPECIES_WATCHOG                     */ .halfword ABILITY_ANALYTIC
 /* SPECIES_LILLIPUP                    */ .halfword ABILITY_RUN_AWAY
@@ -629,9 +629,9 @@
 /* SPECIES_ZOROARK                     */ .halfword ABILITY_NONE
 /* SPECIES_MINCCINO                    */ .halfword ABILITY_SKILL_LINK
 /* SPECIES_CINCCINO                    */ .halfword ABILITY_SKILL_LINK
-/* SPECIES_GOTHITA                     */ .halfword ABILITY_SHADOW_TAG
-/* SPECIES_GOTHORITA                   */ .halfword ABILITY_SHADOW_TAG
-/* SPECIES_GOTHITELLE                  */ .halfword ABILITY_SHADOW_TAG
+/* SPECIES_GOTHITA                     */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_MAGIC_BOUNCE : ABILITY_SHADOW_TAG
+/* SPECIES_GOTHORITA                   */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_MAGIC_BOUNCE : ABILITY_SHADOW_TAG
+/* SPECIES_GOTHITELLE                  */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_MAGIC_BOUNCE : ABILITY_SHADOW_TAG
 /* SPECIES_SOLOSIS                     */ .halfword ABILITY_REGENERATOR
 /* SPECIES_DUOSION                     */ .halfword ABILITY_REGENERATOR
 /* SPECIES_REUNICLUS                   */ .halfword ABILITY_REGENERATOR

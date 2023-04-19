@@ -10,7 +10,6 @@
 .create "build/move/battle_eff_seq/0_288", 0
 
 // Shift Gear effect
-// Not used by SacredGold
 
 a030_288:
     gotosubscript 341

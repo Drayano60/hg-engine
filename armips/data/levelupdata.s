@@ -14206,7 +14206,6 @@ levelup SPECIES_FERROTHORN
     terminatelearnset
 
 // Evolution: 29 -> 40
-// Probably needs the Gear moves?
 levelup SPECIES_KLINK
     learnset MOVE_THUNDER_SHOCK, 1
     learnset MOVE_VICE_GRIP, 1
@@ -14226,7 +14225,6 @@ levelup SPECIES_KLINK
     terminatelearnset
 
 // Evolution: 29 -> 40
-// Probably needs the Gear moves?
 levelup SPECIES_KLANG
     learnset MOVE_THUNDER_SHOCK, 1
     learnset MOVE_VICE_GRIP, 1
@@ -14246,7 +14244,6 @@ levelup SPECIES_KLANG
     terminatelearnset
 
 // Evolution: 29 -> 40
-// Probably needs the Gear moves?
 levelup SPECIES_KLINKLANG
     learnset MOVE_THUNDER_SHOCK, 1
     learnset MOVE_VICE_GRIP, 1

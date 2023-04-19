@@ -16351,6 +16351,27 @@ Base Stats: 45/45/55/45/55/63 (308)
 Held Item: None
 Type: Grass
 
+New Moves:
+- Breaking Swipe (Tutor)
+
+Level Up Moves:
+01 - Tackle
+01 - Leer
+03 - Vine Whip
+06 - Growth
+09 - Wrap
+12 - Mega Drain
+15 - Leech Seed
+20 - Slam
+24 - Glare
+28 - Leaf Blade
+32 - Coil
+39 - Giga Drain
+44 - Gastro Acid
+49 - Captivate
+54 - Wring Out
+59 - Leaf Storm
+
 -------------------
 496 - Servine
 -------------------
@@ -16358,6 +16379,28 @@ Abilities: Overgrow / Overgrow / Contrary ⟶ Overgrow / Shed Skin** / Contrary
 Base Stats: 60/60/75/60/75/83 (413)
 Held Item: None
 Type: Grass
+
+New Moves:
+- Breaking Swipe (Level/Tutor)
+
+Level Up Moves:
+01 - Tackle
+01 - Leer
+03 - Vine Whip
+06 - Growth
+09 - Wrap
+12 - Mega Drain
+15 - Leech Seed
+17 - Breaking Swipe
+20 - Slam
+24 - Glare
+28 - Leaf Blade
+32 - Coil
+39 - Giga Drain
+44 - Gastro Acid
+49 - Captivate
+54 - Wring Out
+59 - Leaf Storm
 
 -------------------
 497 - Serperior
@@ -16367,6 +16410,32 @@ Base Stats: 75/75/95/75/95/113 (528) ⟶ 75/75/97*/75/97*/116* (535)
 Held Item: None
 Type: Grass ⟶ Grass / Dragon
 
+New Moves:
+- Breaking Swipe (Level/Tutor)
+
+Level Up Moves:
+01 - Dragon Tail
+01 - Mirror Coat
+01 - Mean Look
+01 - Tackle
+01 - Leer
+03 - Vine Whip
+06 - Growth
+09 - Wrap
+12 - Mega Drain
+15 - Leech Seed
+17 - Breaking Swipe
+20 - Slam
+24 - Glare
+28 - Leaf Blade
+32 - Coil
+36 - Dragon Pulse
+39 - Giga Drain
+44 - Gastro Acid
+49 - Captivate
+54 - Wring Out
+59 - Leaf Storm
+
 -------------------
 498 - Tepig
 -------------------
@@ -16374,6 +16443,24 @@ Abilities: Blaze / Blaze / Reckless ⟶ Blaze / Thick Fat / Reckless**
 Base Stats: 65/63/45/45/45/45 (308)
 Held Item: None
 Type: Fire
+
+Level Up Moves:
+01 - Tackle
+01 - Tail Whip
+03 - Ember
+06 - Odor Sleuth
+09 - Defense Curl
+12 - Flame Charge
+15 - Yawn
+20 - Rollout
+24 - Take Down
+28 - Assurance
+32 - Heat Crash
+39 - Endeavor
+44 - Flamethrower
+49 - Heavy Slam
+54 - Head Smash
+59 - Flare Blitz
 
 -------------------
 499 - Pignite
@@ -16383,6 +16470,25 @@ Base Stats: 90/93/55/70/55/55 (418)
 Held Item: None
 Type: Fire / Fighting
 
+Level Up Moves:
+01 - Tackle
+01 - Tail Whip
+03 - Ember
+06 - Odor Sleuth
+09 - Defense Curl
+12 - Flame Charge
+15 - Yawn
+17 - Arm Thrust
+20 - Rollout
+24 - Take Down
+28 - Assurance
+32 - Heat Crash
+39 - Endeavor
+44 - Flamethrower
+49 - Heavy Slam
+54 - Head Smash
+59 - Flare Blitz
+
 -------------------
 500 - Emboar
 -------------------
@@ -16390,6 +16496,29 @@ Abilities: Blaze / Blaze / Reckless ⟶ Blaze / Thick Fat** / Reckless
 Base Stats: 110/123/65/100/65/65 (528) ⟶ 110/130*/65/100/65/65 (535)
 Held Item: None
 Type: Fire / Fighting
+
+Level Up Moves:
+01 - Sucker Punch
+01 - Zen Headbutt
+01 - Body Slam
+01 - Tackle
+01 - Tail Whip
+03 - Ember
+06 - Odor Sleuth
+09 - Defense Curl
+12 - Flame Charge
+15 - Yawn
+17 - Arm Thrust
+20 - Rollout
+24 - Take Down
+28 - Assurance
+32 - Heat Crash
+36 - Hammer Arm
+39 - Endeavor
+44 - Flamethrower
+49 - Heavy Slam
+54 - Head Smash
+59 - Flare Blitz
 
 -------------------
 501 - Oshawott
@@ -16399,6 +16528,24 @@ Base Stats: 55/55/45/63/45/45 (308) ⟶ 55/63*/45/55*/45/45 (308)
 Held Item: None
 Type: Water
 
+Level Up Moves:
+01 - Tackle
+01 - Tail Whip
+03 - Water Gun
+06 - Focus Energy
+09 - Water Sport
+12 - Aqua Jet
+15 - Fury Cutter
+20 - Razor Shell
+24 - Aerial Ace
+28 - Revenge
+32 - Encore
+39 - Aqua Tail
+44 - X-Scissor
+49 - Night Slash
+54 - Swords Dance
+59 - Hydro Pump
+
 -------------------
 502 - Dewott
 -------------------
@@ -16406,6 +16553,25 @@ Abilities: Torrent / Torrent / Shell Armor ⟶ Torrent / Shell Armor / Sharpness
 Base Stats: 75/75/60/83/60/60 (413) ⟶ 75/83*/60/75*/60/60 (413)
 Held Item: None
 Type: Water ⟶ Water / Fighting
+
+Level Up Moves:
+01 - Tackle
+01 - Tail Whip
+03 - Water Gun
+06 - Focus Energy
+09 - Water Sport
+12 - Aqua Jet
+15 - Fury Cutter
+17 - Aqua Cutter
+20 - Razor Shell
+24 - Aerial Ace
+28 - Revenge
+32 - Encore
+39 - Aqua Tail
+44 - X-Scissor
+49 - Night Slash
+54 - Swords Dance
+59 - Hydro Pump
 
 -------------------
 503 - Samurott
@@ -16415,6 +16581,29 @@ Base Stats: 95/100/85/108/70/70 (528) ⟶ 95/110*/80*/100*/65*/85* (535)
 Held Item: None
 Type: Water ⟶ Water / Fighting
 
+Level Up Moves:
+01 - Smart Strike
+01 - Megahorn
+01 - Slash
+01 - Tackle
+01 - Tail Whip
+03 - Water Gun
+06 - Focus Energy
+09 - Water Sport
+12 - Aqua Jet
+15 - Fury Cutter
+17 - Aqua Cutter
+20 - Razor Shell
+24 - Aerial Ace
+28 - Revenge
+32 - Encore
+36 - Sacred Sword
+39 - Aqua Tail
+44 - X-Scissor
+49 - Night Slash
+54 - Swords Dance
+59 - Hydro Pump
+
 -------------------
 504 - Patrat
 -------------------
@@ -16422,6 +16611,25 @@ Abilities: Run Away / Keen Eye / Analytic
 Base Stats: 45/55/39/35/39/42 (255)
 Held Item: None
 Type: Normal
+
+Level Up Moves:
+01 - Sand Attack
+01 - Tackle
+01 - Leer
+03 - Detect
+06 - Bite
+09 - Bide
+12 - Work Up
+15 - Hypnosis
+18 - Hyper Fang
+24 - Focus Energy
+28 - Crunch
+32 - Slam
+36 - Mean Look
+40 - Super Fang
+44 - Baton Pass
+48 - Nasty Plot
+52 - Last Resort
 
 -------------------
 505 - Watchog
@@ -16431,6 +16639,30 @@ Base Stats: 60/85/69/60/69/77 (420) ⟶ 70*/95*/69/60/69/77 (430)
 Held Item: None
 Type: Normal
 
+Level Up Moves:
+01 - Assurance
+01 - Foresight
+01 - Low Kick
+01 - Psych Up
+01 - Sand Attack
+01 - Tackle
+01 - Leer
+03 - Detect
+06 - Bite
+09 - Bide
+12 - Work Up
+15 - Hypnosis
+18 - Hyper Fang
+20 - Confuse Ray
+24 - Focus Energy
+28 - Crunch
+32 - Slam
+36 - Mean Look
+40 - Super Fang
+44 - Baton Pass
+48 - Nasty Plot
+52 - Last Resort
+
 -------------------
 506 - Lillipup
 -------------------
@@ -16438,6 +16670,27 @@ Abilities: Vital Spirit / Pickup / Run Away
 Base Stats: 45/60/45/25/45/55 (275)
 Held Item: None
 Type: Normal
+
+New Moves:
+- Double-Edge (Level/Tutor)
+
+Level Up Moves:
+01 - Tackle
+01 - Leer
+03 - Bite
+06 - Odor Sleuth
+09 - Baby-Doll Eyes
+12 - Helping Hand
+15 - Take Down
+20 - Work Up
+24 - Yawn
+28 - Roar
+35 - Crunch
+40 - Reversal
+45 - Play Rough
+50 - Double-Edge
+55 - Last Resort
+60 - Giga Impact
 
 -------------------
 507 - Herdier
@@ -16447,6 +16700,27 @@ Base Stats: 65/80/65/35/65/60 (370)
 Held Item: None
 Type: Normal
 
+New Moves:
+- Double-Edge (Level/Tutor)
+
+Level Up Moves:
+01 - Tackle
+01 - Leer
+03 - Bite
+06 - Odor Sleuth
+09 - Baby-Doll Eyes
+12 - Helping Hand
+15 - Take Down
+20 - Work Up
+24 - Yawn
+28 - Roar
+35 - Crunch
+40 - Reversal
+45 - Play Rough
+50 - Double-Edge
+55 - Last Resort
+60 - Giga Impact
+
 -------------------
 508 - Stoutland
 -------------------
@@ -16454,6 +16728,31 @@ Abilities: Intimidate / Sand Rush / Scrappy
 Base Stats: 85/110/90/45/90/80 (500)
 Held Item: None
 Type: Normal
+
+New Moves:
+- Double-Edge (Level/Tutor)
+
+Level Up Moves:
+01 - Thunder Fang
+01 - Fire Fang
+01 - Ice Fang
+01 - Howl
+01 - Tackle
+01 - Leer
+03 - Bite
+06 - Odor Sleuth
+09 - Baby-Doll Eyes
+12 - Helping Hand
+15 - Take Down
+20 - Work Up
+24 - Yawn
+28 - Roar
+35 - Crunch
+40 - Reversal
+45 - Play Rough
+50 - Double-Edge
+55 - Last Resort
+60 - Giga Impact
 
 -------------------
 509 - Purrloin
@@ -16463,6 +16762,28 @@ Base Stats: 41/50/37/50/37/66 (281)
 Held Item: None
 Type: Dark
 
+Level Up Moves:
+01 - Scratch
+01 - Growl
+01 - Pursuit
+03 - Sand Attack
+06 - Assist
+09 - Assurance
+12 - Fury Swipes
+15 - Fake Out
+18 - Taunt
+18 - Torment
+24 - Yawn
+28 - Slash
+28 - Night Slash
+32 - Snatch
+36 - Charm
+36 - Captivate
+40 - Dark Pulse
+44 - Nasty Plot
+48 - Play Rough
+52 - Sucker Punch
+
 -------------------
 510 - Liepard
 -------------------
@@ -16470,6 +16791,33 @@ Abilities: Limber / Unburden / Prankster
 Base Stats: 64/88/50/88/50/106 (446) ⟶ 64/90*/50/90*/50/106 (450)
 Held Item: None
 Type: Dark
+
+Level Up Moves:
+01 - Hone Claws
+01 - Pay Day
+01 - Encore
+01 - Copycat
+01 - Scratch
+01 - Growl
+01 - Pursuit
+03 - Sand Attack
+06 - Assist
+09 - Assurance
+12 - Fury Swipes
+15 - Fake Out
+18 - Taunt
+18 - Torment
+20 - Foul Play
+24 - Yawn
+28 - Slash
+28 - Night Slash
+32 - Snatch
+36 - Charm
+36 - Captivate
+40 - Dark Pulse
+44 - Nasty Plot
+48 - Play Rough
+52 - Sucker Punch
 
 -------------------
 511 - Pansage
@@ -16479,6 +16827,30 @@ Base Stats: 50/53/48/53/48/64 (316)
 Held Item: Oran Berry (50%), Occa Berry (5%)
 Type: Grass
 
+New Moves:
+- Power Whip (Level/Tutor)
+
+Level Up Moves:
+01 - Play Nice
+01 - Scratch
+01 - Leer
+01 - Lick
+03 - Vine Whip
+06 - Disarming Voice
+09 - Fury Swipes
+12 - Bite
+16 - Leech Seed
+20 - Seed Bomb
+24 - Torment
+28 - Fling
+32 - Acrobatics
+36 - Grass Knot
+40 - Crunch
+45 - Recycle
+50 - Nasty Plot
+55 - Power Whip
+60 - Leaf Storm
+
 -------------------
 512 - Simisage
 -------------------
@@ -16486,6 +16858,33 @@ Abilities: Gluttony / Gluttony / Overgrow
 Base Stats: 75/98/63/98/63/101 (498)
 Held Item: Oran Berry (50%), Occa Berry (5%)
 Type: Grass
+
+New Moves:
+- Power Whip (Level/Tutor)
+
+Level Up Moves:
+01 - Grass Whistle
+01 - Natural Gift
+01 - Tickle
+01 - Play Nice
+01 - Scratch
+01 - Leer
+01 - Lick
+03 - Vine Whip
+06 - Disarming Voice
+09 - Fury Swipes
+12 - Bite
+16 - Leech Seed
+20 - Seed Bomb
+24 - Torment
+28 - Fling
+32 - Acrobatics
+36 - Grass Knot
+40 - Crunch
+45 - Recycle
+50 - Nasty Plot
+55 - Power Whip
+60 - Leaf Storm
 
 -------------------
 513 - Pansear
@@ -16495,6 +16894,30 @@ Base Stats: 50/53/48/53/48/64 (316)
 Held Item: Oran Berry (50%), Passho Berry (5%)
 Type: Fire
 
+New Moves:
+- Lava Plume (Level)
+
+Level Up Moves:
+01 - Play Nice
+01 - Scratch
+01 - Leer
+01 - Lick
+03 - Incinerate
+06 - Disarming Voice
+09 - Fury Swipes
+12 - Bite
+16 - Yawn
+20 - Lava Plume
+24 - Amnesia
+28 - Fling
+32 - Acrobatics
+36 - Flamethrower
+40 - Crunch
+45 - Recycle
+50 - Nasty Plot
+55 - Fire Blast
+60 - Overheat
+
 -------------------
 514 - Simisear
 -------------------
@@ -16502,6 +16925,33 @@ Abilities: Gluttony / Gluttony / Blaze
 Base Stats: 75/98/63/98/63/101 (498)
 Held Item: Oran Berry (50%), Passho Berry (5%)
 Type: Fire
+
+New Moves:
+- Lava Plume (Level)
+
+Level Up Moves:
+01 - Fire Spin
+01 - Natural Gift
+01 - Tickle
+01 - Play Nice
+01 - Scratch
+01 - Leer
+01 - Lick
+03 - Incinerate
+06 - Disarming Voice
+09 - Fury Swipes
+12 - Bite
+16 - Yawn
+20 - Lava Plume
+24 - Amnesia
+28 - Fling
+32 - Acrobatics
+36 - Flamethrower
+40 - Crunch
+45 - Recycle
+50 - Nasty Plot
+55 - Fire Blast
+60 - Overheat
 
 -------------------
 515 - Panpour
@@ -16511,6 +16961,30 @@ Base Stats: 50/53/48/53/48/64 (316)
 Held Item: Oran Berry (50%), Rindo Berry (5%)
 Type: Water
 
+New Moves:
+- Water Spout (Level)
+
+Level Up Moves:
+01 - Play Nice
+01 - Scratch
+01 - Leer
+01 - Lick
+03 - Water Gun
+06 - Disarming Voice
+09 - Fury Swipes
+12 - Bite
+16 - Water Sport
+20 - Scald
+24 - Taunt
+28 - Fling
+32 - Acrobatics
+36 - Brine
+40 - Crunch
+45 - Recycle
+50 - Nasty Plot
+55 - Hydro Pump
+60 - Water Spout
+
 -------------------
 516 - Simipour
 -------------------
@@ -16518,6 +16992,33 @@ Abilities: Gluttony / Gluttony / Torrent
 Base Stats: 75/98/63/98/63/101 (498)
 Held Item: Oran Berry (50%), Rindo Berry (5%)
 Type: Water
+
+New Moves:
+- Water Spout (Level)
+
+Level Up Moves:
+01 - Aqua Ring
+01 - Natural Gift
+01 - Tickle
+01 - Play Nice
+01 - Scratch
+01 - Leer
+01 - Lick
+03 - Water Gun
+06 - Disarming Voice
+09 - Fury Swipes
+12 - Bite
+16 - Water Sport
+20 - Scald
+24 - Taunt
+28 - Fling
+32 - Acrobatics
+36 - Brine
+40 - Crunch
+45 - Recycle
+50 - Nasty Plot
+55 - Hydro Pump
+60 - Water Spout
 
 -------------------
 517 - Munna

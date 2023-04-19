@@ -11853,8 +11853,8 @@ levelup SPECIES_TEPIG
     learnset MOVE_TAKE_DOWN, 24
     learnset MOVE_ASSURANCE, 28
     learnset MOVE_HEAT_CRASH, 32
-    learnset MOVE_FLAMETHROWER, 39
-    learnset MOVE_ENDEAVOR, 44
+    learnset MOVE_ENDEAVOR, 39
+    learnset MOVE_FLAMETHROWER, 44
     learnset MOVE_HEAVY_SLAM, 49
     learnset MOVE_HEAD_SMASH, 54
     learnset MOVE_FLARE_BLITZ, 59
@@ -11873,8 +11873,8 @@ levelup SPECIES_PIGNITE
     learnset MOVE_TAKE_DOWN, 24
     learnset MOVE_ASSURANCE, 28
     learnset MOVE_HEAT_CRASH, 32
-    learnset MOVE_FLAMETHROWER, 39
-    learnset MOVE_ENDEAVOR, 44
+    learnset MOVE_ENDEAVOR, 39
+    learnset MOVE_FLAMETHROWER, 44
     learnset MOVE_HEAVY_SLAM, 49
     learnset MOVE_HEAD_SMASH, 54
     learnset MOVE_FLARE_BLITZ, 59
@@ -11897,8 +11897,8 @@ levelup SPECIES_EMBOAR
     learnset MOVE_ASSURANCE, 28
     learnset MOVE_HEAT_CRASH, 32
     learnset MOVE_HAMMER_ARM, 36
-    learnset MOVE_FLAMETHROWER, 39
-    learnset MOVE_ENDEAVOR, 44
+    learnset MOVE_ENDEAVOR, 39
+    learnset MOVE_FLAMETHROWER, 44
     learnset MOVE_HEAVY_SLAM, 49
     learnset MOVE_HEAD_SMASH, 54
     learnset MOVE_FLARE_BLITZ, 59
@@ -12127,6 +12127,7 @@ levelup SPECIES_LIEPARD
     learnset MOVE_SUCKER_PUNCH, 52
     terminatelearnset
 
+// NEW: Power Whip
 levelup SPECIES_PANSAGE
     learnset MOVE_PLAY_NICE, 1
     learnset MOVE_SCRATCH, 1
@@ -12143,14 +12144,17 @@ levelup SPECIES_PANSAGE
     learnset MOVE_ACROBATICS, 32
     learnset MOVE_GRASS_KNOT, 36
     learnset MOVE_CRUNCH, 40
-    learnset MOVE_RECYCLE, 44
-    learnset MOVE_NASTY_PLOT, 48
-    learnset MOVE_LEAF_STORM, 52
+    learnset MOVE_RECYCLE, 45
+    learnset MOVE_NASTY_PLOT, 50
+    learnset MOVE_POWER_WHIP, 55
+    learnset MOVE_LEAF_STORM, 60
     terminatelearnset
 
+// NEW: Power Whip
 levelup SPECIES_SIMISAGE
     learnset MOVE_GRASS_WHISTLE, 1
     learnset MOVE_NATURAL_GIFT, 1
+    learnset MOVE_TICKLE, 1
     learnset MOVE_PLAY_NICE, 1
     learnset MOVE_SCRATCH, 1
     learnset MOVE_LEER, 1
@@ -12166,9 +12170,10 @@ levelup SPECIES_SIMISAGE
     learnset MOVE_ACROBATICS, 32
     learnset MOVE_GRASS_KNOT, 36
     learnset MOVE_CRUNCH, 40
-    learnset MOVE_RECYCLE, 44
-    learnset MOVE_NASTY_PLOT, 48
-    learnset MOVE_LEAF_STORM, 52
+    learnset MOVE_RECYCLE, 45
+    learnset MOVE_NASTY_PLOT, 50
+    learnset MOVE_POWER_WHIP, 55
+    learnset MOVE_LEAF_STORM, 60
     terminatelearnset
 
 // NEW: Lava Plume
@@ -12188,15 +12193,17 @@ levelup SPECIES_PANSEAR
     learnset MOVE_ACROBATICS, 32
     learnset MOVE_FLAMETHROWER, 36
     learnset MOVE_CRUNCH, 40
-    learnset MOVE_RECYCLE, 44
-    learnset MOVE_NASTY_PLOT, 48
-    learnset MOVE_FIRE_BLAST, 52
+    learnset MOVE_RECYCLE, 45
+    learnset MOVE_NASTY_PLOT, 50
+    learnset MOVE_FIRE_BLAST, 55
+    learnset MOVE_OVERHEAT, 60
     terminatelearnset
 
 // NEW: Lava Plume
 levelup SPECIES_SIMISEAR
     learnset MOVE_FIRE_SPIN, 1
     learnset MOVE_NATURAL_GIFT, 1
+    learnset MOVE_TICKLE, 1
     learnset MOVE_PLAY_NICE, 1
     learnset MOVE_SCRATCH, 1
     learnset MOVE_LEER, 1
@@ -12212,11 +12219,13 @@ levelup SPECIES_SIMISEAR
     learnset MOVE_ACROBATICS, 32
     learnset MOVE_FLAMETHROWER, 36
     learnset MOVE_CRUNCH, 40
-    learnset MOVE_RECYCLE, 44
-    learnset MOVE_NASTY_PLOT, 48
-    learnset MOVE_FIRE_BLAST, 52
+    learnset MOVE_RECYCLE, 45
+    learnset MOVE_NASTY_PLOT, 50
+    learnset MOVE_FIRE_BLAST, 55
+    learnset MOVE_OVERHEAT, 60
     terminatelearnset
 
+// NEW: Water Spout
 levelup SPECIES_PANPOUR
     learnset MOVE_PLAY_NICE, 1
     learnset MOVE_SCRATCH, 1
@@ -12233,14 +12242,17 @@ levelup SPECIES_PANPOUR
     learnset MOVE_ACROBATICS, 32
     learnset MOVE_BRINE, 36
     learnset MOVE_CRUNCH, 40
-    learnset MOVE_RECYCLE, 44
-    learnset MOVE_NASTY_PLOT, 48
-    learnset MOVE_HYDRO_PUMP, 52
+    learnset MOVE_RECYCLE, 45
+    learnset MOVE_NASTY_PLOT, 50
+    learnset MOVE_HYDRO_PUMP, 55
+    learnset MOVE_WATER_SPOUT, 60
     terminatelearnset
 
+// NEW: Water Spout
 levelup SPECIES_SIMIPOUR
     learnset MOVE_AQUA_RING, 1
     learnset MOVE_NATURAL_GIFT, 1
+    learnset MOVE_TICKLE, 1
     learnset MOVE_PLAY_NICE, 1
     learnset MOVE_SCRATCH, 1
     learnset MOVE_LEER, 1
@@ -12256,9 +12268,10 @@ levelup SPECIES_SIMIPOUR
     learnset MOVE_ACROBATICS, 32
     learnset MOVE_BRINE, 36
     learnset MOVE_CRUNCH, 40
-    learnset MOVE_RECYCLE, 44
-    learnset MOVE_NASTY_PLOT, 48
-    learnset MOVE_HYDRO_PUMP, 52
+    learnset MOVE_RECYCLE, 45
+    learnset MOVE_NASTY_PLOT, 50
+    learnset MOVE_HYDRO_PUMP, 55
+    learnset MOVE_WATER_SPOUT, 60
     terminatelearnset
 
 levelup SPECIES_MUNNA
@@ -12336,6 +12349,27 @@ levelup SPECIES_TRANQUILL
     terminatelearnset
 
 levelup SPECIES_UNFEZANT
+    learnset MOVE_NIGHT_SLASH, 1
+    learnset MOVE_LUCKY_CHANT, 1
+    learnset MOVE_HYPNOSIS, 1
+    learnset MOVE_GUST, 1
+    learnset MOVE_GROWL, 1
+    learnset MOVE_LEER, 1
+    learnset MOVE_TAUNT, 4
+    learnset MOVE_QUICK_ATTACK, 8
+    learnset MOVE_AERIAL_ACE, 12
+    learnset MOVE_SWAGGER, 16
+    learnset MOVE_FACADE, 20
+    learnset MOVE_DUAL_WINGBEAT, 25
+    learnset MOVE_FEATHER_DANCE, 30
+    learnset MOVE_DETECT, 36
+    learnset MOVE_ROOST, 42
+    learnset MOVE_TAILWIND, 48
+    learnset MOVE_BRAVE_BIRD, 54
+    learnset MOVE_SKY_ATTACK, 60
+    terminatelearnset
+
+levelup SPECIES_UNFEZANT_FEMALE
     learnset MOVE_NIGHT_SLASH, 1
     learnset MOVE_LUCKY_CHANT, 1
     learnset MOVE_HYPNOSIS, 1

@@ -14332,6 +14332,57 @@ mondata SPECIES_DEERLING
     colorflip BODY_COLOR_YELLOW, 0
     tmdata SPECIES_DEERLING_TM_DATA_0, SPECIES_DEERLING_TM_DATA_1, SPECIES_DEERLING_TM_DATA_2, SPECIES_DEERLING_TM_DATA_3
 
+mondata SPECIES_DEERLING_SUMMER
+    basestats 60, 60, 50, 75, 40, 50
+    types TYPE_NORMAL, TYPE_GRASS
+    catchrate 190
+    baseexp 67
+    evyields 0, 0, 0, 1, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 127
+    eggcycles 20
+    basefriendship 70
+    growthrate GROWTH_MEDIUM_FAST
+    egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
+    abilities ABILITY_CHLOROPHYLL,  ABILITY_SAP_SIPPER
+    runchance 0
+    colorflip BODY_COLOR_GREEN, 0
+    tmdata SPECIES_DEERLING_TM_DATA_0, SPECIES_DEERLING_TM_DATA_1, SPECIES_DEERLING_TM_DATA_2, SPECIES_DEERLING_TM_DATA_3
+
+mondata SPECIES_DEERLING_AUTUMN
+    basestats 60, 60, 50, 75, 40, 50
+    types TYPE_NORMAL, TYPE_GRASS
+    catchrate 190
+    baseexp 67
+    evyields 0, 0, 0, 1, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 127
+    eggcycles 20
+    basefriendship 70
+    growthrate GROWTH_MEDIUM_FAST
+    egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
+    abilities ABILITY_CHLOROPHYLL,  ABILITY_SAP_SIPPER
+    runchance 0
+    colorflip BODY_COLOR_RED, 0
+    tmdata SPECIES_DEERLING_TM_DATA_0, SPECIES_DEERLING_TM_DATA_1, SPECIES_DEERLING_TM_DATA_2, SPECIES_DEERLING_TM_DATA_3
+
+mondata SPECIES_DEERLING_WINTER
+    basestats 60, 60, 50, 75, 40, 50
+    types TYPE_NORMAL, TYPE_GRASS
+    catchrate 190
+    baseexp 67
+    evyields 0, 0, 0, 1, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 127
+    eggcycles 20
+    basefriendship 70
+    growthrate GROWTH_MEDIUM_FAST
+    egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
+    abilities ABILITY_CHLOROPHYLL,  ABILITY_SAP_SIPPER
+    runchance 0
+    colorflip BODY_COLOR_BROWN, 0
+    tmdata SPECIES_DEERLING_TM_DATA_0, SPECIES_DEERLING_TM_DATA_1, SPECIES_DEERLING_TM_DATA_2, SPECIES_DEERLING_TM_DATA_3
+
 mondata SPECIES_SAWSBUCK
     basestats 80, 100, 70, 95, 60, 70
     types TYPE_NORMAL, TYPE_GRASS
@@ -14345,6 +14396,57 @@ mondata SPECIES_SAWSBUCK
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_CHLOROPHYLL, ABILITY_SAP_SIPPER
+    runchance 0
+    colorflip BODY_COLOR_BROWN, 0
+    tmdata SPECIES_SAWSBUCK_TM_DATA_0, SPECIES_SAWSBUCK_TM_DATA_1, SPECIES_SAWSBUCK_TM_DATA_2, SPECIES_SAWSBUCK_TM_DATA_3
+
+mondata SPECIES_SAWSBUCK_SUMMER
+    basestats 80, 100, 70, 95, 60, 70
+    types TYPE_NORMAL, TYPE_GRASS
+    catchrate 75
+    baseexp 166
+    evyields 0, 2, 0, 0, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 127
+    eggcycles 20
+    basefriendship 70
+    growthrate GROWTH_MEDIUM_FAST
+    egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
+    abilities ABILITY_CHLOROPHYLL,  ABILITY_SAP_SIPPER
+    runchance 0
+    colorflip BODY_COLOR_BROWN, 0
+    tmdata SPECIES_SAWSBUCK_TM_DATA_0, SPECIES_SAWSBUCK_TM_DATA_1, SPECIES_SAWSBUCK_TM_DATA_2, SPECIES_SAWSBUCK_TM_DATA_3
+
+mondata SPECIES_SAWSBUCK_AUTUMN
+    basestats 80, 100, 70, 95, 60, 70
+    types TYPE_NORMAL, TYPE_GRASS
+    catchrate 75
+    baseexp 166
+    evyields 0, 2, 0, 0, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 127
+    eggcycles 20
+    basefriendship 70
+    growthrate GROWTH_MEDIUM_FAST
+    egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
+    abilities ABILITY_CHLOROPHYLL,  ABILITY_SAP_SIPPER
+    runchance 0
+    colorflip BODY_COLOR_BROWN, 0
+    tmdata SPECIES_SAWSBUCK_TM_DATA_0, SPECIES_SAWSBUCK_TM_DATA_1, SPECIES_SAWSBUCK_TM_DATA_2, SPECIES_SAWSBUCK_TM_DATA_3
+
+mondata SPECIES_SAWSBUCK_WINTER
+    basestats 80, 100, 70, 95, 60, 70
+    types TYPE_NORMAL, TYPE_GRASS
+    catchrate 75
+    baseexp 166
+    evyields 0, 2, 0, 0, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 127
+    eggcycles 20
+    basefriendship 70
+    growthrate GROWTH_MEDIUM_FAST
+    egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
+    abilities ABILITY_CHLOROPHYLL,  ABILITY_SAP_SIPPER
     runchance 0
     colorflip BODY_COLOR_BROWN, 0
     tmdata SPECIES_SAWSBUCK_TM_DATA_0, SPECIES_SAWSBUCK_TM_DATA_1, SPECIES_SAWSBUCK_TM_DATA_2, SPECIES_SAWSBUCK_TM_DATA_3
@@ -21547,115 +21649,6 @@ mondata SPECIES_DARMANITAN_ZEN_MODE_GALARIAN
     runchance 0
     colorflip BODY_COLOR_WHITE, 0
     tmdata SPECIES_NONE_TM_DATA_0, SPECIES_NONE_TM_DATA_1, SPECIES_NONE_TM_DATA_2, SPECIES_NONE_TM_DATA_3
-
-
-mondata SPECIES_DEERLING_SUMMER
-    basestats 60, 60, 50, 75, 40, 50
-    types TYPE_NORMAL, TYPE_GRASS
-    catchrate 190
-    baseexp 67
-    evyields 0, 0, 0, 1, 0, 0
-    items ITEM_NONE, ITEM_NONE
-    genderratio 127
-    eggcycles 20
-    basefriendship 70
-    growthrate GROWTH_MEDIUM_FAST
-    egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_CHLOROPHYLL,  ABILITY_SAP_SIPPER
-    runchance 0
-    colorflip BODY_COLOR_GREEN, 0
-    tmdata SPECIES_NONE_TM_DATA_0, SPECIES_NONE_TM_DATA_1, SPECIES_NONE_TM_DATA_2, SPECIES_NONE_TM_DATA_3
-
-
-mondata SPECIES_DEERLING_AUTUMN
-    basestats 60, 60, 50, 75, 40, 50
-    types TYPE_NORMAL, TYPE_GRASS
-    catchrate 190
-    baseexp 67
-    evyields 0, 0, 0, 1, 0, 0
-    items ITEM_NONE, ITEM_NONE
-    genderratio 127
-    eggcycles 20
-    basefriendship 70
-    growthrate GROWTH_MEDIUM_FAST
-    egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_CHLOROPHYLL,  ABILITY_SAP_SIPPER
-    runchance 0
-    colorflip BODY_COLOR_RED, 0
-    tmdata SPECIES_NONE_TM_DATA_0, SPECIES_NONE_TM_DATA_1, SPECIES_NONE_TM_DATA_2, SPECIES_NONE_TM_DATA_3
-
-
-mondata SPECIES_DEERLING_WINTER
-    basestats 60, 60, 50, 75, 40, 50
-    types TYPE_NORMAL, TYPE_GRASS
-    catchrate 190
-    baseexp 67
-    evyields 0, 0, 0, 1, 0, 0
-    items ITEM_NONE, ITEM_NONE
-    genderratio 127
-    eggcycles 20
-    basefriendship 70
-    growthrate GROWTH_MEDIUM_FAST
-    egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_CHLOROPHYLL,  ABILITY_SAP_SIPPER
-    runchance 0
-    colorflip BODY_COLOR_BROWN, 0
-    tmdata SPECIES_NONE_TM_DATA_0, SPECIES_NONE_TM_DATA_1, SPECIES_NONE_TM_DATA_2, SPECIES_NONE_TM_DATA_3
-
-
-mondata SPECIES_SAWSBUCK_SUMMER
-    basestats 80, 100, 70, 95, 60, 70
-    types TYPE_NORMAL, TYPE_GRASS
-    catchrate 75
-    baseexp 166
-    evyields 0, 2, 0, 0, 0, 0
-    items ITEM_NONE, ITEM_NONE
-    genderratio 127
-    eggcycles 20
-    basefriendship 70
-    growthrate GROWTH_MEDIUM_FAST
-    egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_CHLOROPHYLL,  ABILITY_SAP_SIPPER
-    runchance 0
-    colorflip BODY_COLOR_BROWN, 0
-    tmdata SPECIES_NONE_TM_DATA_0, SPECIES_NONE_TM_DATA_1, SPECIES_NONE_TM_DATA_2, SPECIES_NONE_TM_DATA_3
-
-
-mondata SPECIES_SAWSBUCK_AUTUMN
-    basestats 80, 100, 70, 95, 60, 70
-    types TYPE_NORMAL, TYPE_GRASS
-    catchrate 75
-    baseexp 166
-    evyields 0, 2, 0, 0, 0, 0
-    items ITEM_NONE, ITEM_NONE
-    genderratio 127
-    eggcycles 20
-    basefriendship 70
-    growthrate GROWTH_MEDIUM_FAST
-    egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_CHLOROPHYLL,  ABILITY_SAP_SIPPER
-    runchance 0
-    colorflip BODY_COLOR_BROWN, 0
-    tmdata SPECIES_NONE_TM_DATA_0, SPECIES_NONE_TM_DATA_1, SPECIES_NONE_TM_DATA_2, SPECIES_NONE_TM_DATA_3
-
-
-mondata SPECIES_SAWSBUCK_WINTER
-    basestats 80, 100, 70, 95, 60, 70
-    types TYPE_NORMAL, TYPE_GRASS
-    catchrate 75
-    baseexp 166
-    evyields 0, 2, 0, 0, 0, 0
-    items ITEM_NONE, ITEM_NONE
-    genderratio 127
-    eggcycles 20
-    basefriendship 70
-    growthrate GROWTH_MEDIUM_FAST
-    egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_CHLOROPHYLL,  ABILITY_SAP_SIPPER
-    runchance 0
-    colorflip BODY_COLOR_BROWN, 0
-    tmdata SPECIES_NONE_TM_DATA_0, SPECIES_NONE_TM_DATA_1, SPECIES_NONE_TM_DATA_2, SPECIES_NONE_TM_DATA_3
-
 
 mondata SPECIES_TORNADUS_THERIAN
     basestats 79, 100, 80, 121, 110, 90

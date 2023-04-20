@@ -1,0 +1,101 @@
+All Pokémon that evolve into their final forms by level can be fully evolved by Level 40, except for psuedo legends, Fraxure and Larvesta (and Vibrava if stat changes are not applied).
+
+All methods listed below replace the original evolution method unless explicitly stated otherwise.
+
+Level Evolutions
+#077 Ponyta ⟶ #078 Rapidash: Evolves at Level 35.
+#079 Slowpoke ⟶ #080 Slowbro: Evolves at Level 33.
+#088 Grimer ⟶ #089 Muk: Evolves at Level 35.
+#111 Rhyhorn ⟶ #112 Rhydon: Evolves at Level 36.
+#138 Omanyte ⟶ #139 Omastar: Evolves at Level 30.
+#140 Kabuto ⟶ #141 Kabutops: Evolves at Level 30.
+#167 Spinarak ⟶ #168 Ariados: Evolves at Level 18.
+#180 Flaaffy ⟶ #181 Ampharos: Evolves at Level 35.
+#218 Slugma ⟶ #219 Magcargo: Evolves at Level 28.
+#304 Aron ⟶ #305 Lairon: Evolves at Level 28.
+#305 Lairon ⟶ #306 Aggron: Evolves at Level 40.
+#307 Meditite ⟶ #308 Medicham: Evolves at Level 33.
+#345 Lileep ⟶ #346 Cradily: Evolves at Level 30.
+#347 Anorith ⟶ #348 Armaldo: Evolves at Level 30.
+#353 Shuppet ⟶ #354 Banette: Evolves at Level 28.
+#355 Duskull ⟶ #356 Dusclops: Evolves at Level 28.
+#361 Snorunt ⟶ #362 Glalie: Evolves at Level 32.
+#363 Spheal ⟶ #364 Sealeo: Evolves at Level 28.
+#364 Sealeo ⟶ #365 Walrein: Evolves at Level 40.
+#431 Glameow ⟶ #432 Purugly: Evolves at Level 32.
+#451 Skorupi ⟶ #452 Drapion: Evolves at Level 35.
+#453 Croagunk ⟶ #454 Toxicroak: Evolves at Level 33.
+#559 Scraggy ⟶ #560 Scraggy: Evolves at Level 33.
+#574 Gothita ⟶ #575 Gothorita: Evolves at Level 25.
+#575 Gothorita ⟶ #576 Gothitelle: Evolves at Level 36.
+#577 Solosis ⟶ #578 Duosion: Evolves at Level 25.
+#578 Duosion ⟶ #579 Reuniclus: Evolves at Level 36.
+#580 Ducklett ⟶ #581 Swanna: Evolves at Level 27.
+#582 Vanillite ⟶ #583 Vanillish: Evolves at Level 28.
+#583 Vanillish ⟶ #584 Vanilluxe: Evolves at Level 40.
+#590 Foongus ⟶ #591 Amoonguss: Evolves at Level 35.
+#592 Frillish ⟶ #593 Jellicent: Evolves at Level 35.
+#599 Klink ⟶ #600 Klang: Evolves at Level 28.
+#600 Klang ⟶ #601 Klinklang: Evolves at Level 40.
+#602 Tynamo ⟶ #603 Eelektrik: Evolves at Level 30.
+#604 Elgyem ⟶ #605 Beheeyem: Evolves at Level 32.
+#606 Litwick ⟶ #607 Lampent: Evolves at Level 28.
+#610 Axew ⟶ #611 Fraxure: Evolves at Level 32.
+#613 Cubchoo ⟶ #614 Beartic: Evolves at Level 35.
+#619 Mienfoo ⟶ #620 Mienshao: Evolves at Level 35.
+#622 Golett ⟶ #623 Golurk: Evolves at Level 36.
+#624 Pawniard ⟶ #625 Bisharp: Evolves at Level 36.
+#627 Rufflet ⟶ #628 Braviary: Evolves at Level 36.
+#629 Vullaby ⟶ #630 Mandibuzz: Evolves at Level 36.
+#633 Deino ⟶ #634 Zweilous: Evolves at Level 30.
+#634 Zweilous ⟶ #635 Hydreigon: Evolves at Level 54.
+#636 Larvesta ⟶ #637 Volcarona: Evolves at Level 50.
+
+Trade Evolutions
+#061 Poliwhirl ⟶ #186 Politoed: Evolves by using a King's Rock.
+#064 Kadabra ⟶ #065 Alakazam: Evolves by using a Linking Cord.
+#067 Machoke ⟶ #068 Machamp: Evolves by using a Linking Cord.
+#075 Graveler ⟶ #076 Golem: Evolves by using a Linking Cord.
+#079 Slowpoke ⟶ #199 Slowking: Evolves by using a King's Rock.
+#093 Haunter ⟶ #094 Gengar: Evolves by using a Linking Cord.
+#095 Onix ⟶ #208 Steelix: Evolves by using a Metal Coat.
+#112 Rhydon ⟶ #464 Rhyperior: Evolves by using a Protector.
+#117 Seadra ⟶ #230 Kingdra: Evolves by using a Dragon Scale.
+#123 Scyther ⟶ #212 Scizor: Evolves by using a Metal Coat.
+#125 Electabuzz ⟶ #466 Electivire: Evolves by using an Electirizer.
+#126 Magmar ⟶ #467 Magmortar: Evolves by using a Magmarizer.
+#137 Porygon ⟶ #233 Porygon2: Evolves by using an Upgrade.
+#233 Porygon2 ⟶ #474 Porygon-Z: Evolves by using a Dubious Disc.
+#349 Feebas ⟶ #350 Milotic: Evolves by using a Prism Scale.
+#356 Dusclops ⟶ #477 Dusknoir: Evolves by using a Reaper Cloth.
+#366 Clamperl ⟶ #367 Huntail: Evolves by using a Deep Sea Tooth.
+#366 Clamperl ⟶ #368 Gorebyss: Evolves by using a Deep Sea Scale.
+#588 Karrablast ⟶ #589 Escavalier: Evolves by using a Linking Cord.
+#616 Shelmet ⟶ #617 Accelgor: Evolves by using a Linking Cord.
+
+Changed Evolutions
+#133 Eevee ⟶ #196 Espeon: Evolves by using a Sun Stone.
+#133 Eevee ⟶ #197 Umbreon: Evolves by using a Moon Stone.
+#207 Gligar ⟶ #472 Gliscor: Evolves by leveling up while holding a Razor Fang at any time of day.
+#215 Sneasel ⟶ #461 Weavile: Evolves by leveling up while holding a Razor Claw at any time of day.
+#406 Budew ⟶ #315 Roselia: Evolves by leveling up with 220+ friendship at any time of day.
+#433 Chingling ⟶ #358 Chimecho: Evolves by leveling up with 220+ friendship at any time of day.
+#440 Happiny ⟶ #113 Chansey: Evolves by leveling up while holding an Oval Stone at any time of day.
+#447 Riolu ⟶ #448 Lucario: Evolves by leveling up with 220+ friendship at any time of day.
+
+Updated Evolutions
+#133 Eevee ⟶ #470 Leafeon: Evolves by using a Leaf Stone.
+#133 Eevee ⟶ #471 Glaceon: Evolves by using an Ice Stone.
+#082 Magneton ⟶ #462 Magnezone: Evolves by using a Thunder Stone.
+#299 Nosepass ⟶ #476 Probopass: Evolves by using a Thunder Stone.
+
+Hisuian Evolutions
+#123 Scyther ⟶ #900 Kleavor: Evolves by using a Black Augurite.
+#217 Ursaring ⟶ #901 Ursaluna: Evolves by using a Peat Block.
+#234 Stantler ⟶ #899 Wyrdeer: Evolves by leveling up while knowing the move Psyshield Bash.
+
+Paldean Evolutions
+#057 Primeape ⟶ #979 Annihilape: Evolves by leveling up while knowing the move Rage Fist.
+#203 Girafarig ⟶ #981 Farigiraf: Evolves by leveling up while knowing the move Twin Beam.
+#206 Dunsparce ⟶ #982 Dudunsparce: Evolves by leveling up while knowing the move Hyper Drill.
+#625 Bisharp ⟶ #983 Kingambit: Evolves by using a Leader's Crest.

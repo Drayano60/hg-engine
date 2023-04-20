@@ -10710,10 +10710,10 @@ Level Up Moves:
 18 - Protect
 21 - Rock Slide
 24 - Metal Sound
-28 - Iron Head
-32 - Take Down
-36 - Iron Tail
-40 - Heavy Slam
+27 - Iron Head
+31 - Take Down
+35 - Iron Tail
+39 - Heavy Slam
 45 - Iron Defense
 50 - Metal Burst
 55 - Double-Edge
@@ -10741,10 +10741,10 @@ Level Up Moves:
 18 - Protect
 21 - Rock Slide
 24 - Metal Sound
-28 - Iron Head
-32 - Take Down
-36 - Iron Tail
-40 - Heavy Slam
+27 - Iron Head
+31 - Take Down
+35 - Iron Tail
+39 - Heavy Slam
 45 - Iron Defense
 50 - Metal Burst
 55 - Double-Edge
@@ -10773,11 +10773,11 @@ Level Up Moves:
 18 - Protect
 21 - Rock Slide
 24 - Metal Sound
-28 - Iron Head
-32 - Take Down
-36 - Iron Tail
-40 - Heavy Slam
-42 - Smart Strike
+27 - Iron Head
+31 - Take Down
+35 - Iron Tail
+39 - Heavy Slam
+40 - Smart Strike
 45 - Iron Defense
 50 - Metal Burst
 55 - Double-Edge
@@ -12801,9 +12801,9 @@ Level Up Moves:
 18 - Yawn
 21 - Aurora Beam
 24 - Body Slam
-30 - Aqua Tail
-34 - Slack Off
-38 - Hail
+27 - Aqua Tail
+32 - Slack Off
+36 - Hail
 42 - Ice Beam
 48 - Belly Drum
 54 - Blizzard
@@ -12835,10 +12835,10 @@ Level Up Moves:
 18 - Yawn
 21 - Aurora Beam
 24 - Body Slam
-26 - Swagger
-30 - Aqua Tail
-34 - Slack Off
-38 - Hail
+27 - Aqua Tail
+28 - Swagger
+32 - Slack Off
+36 - Hail
 42 - Ice Beam
 48 - Belly Drum
 54 - Blizzard
@@ -12871,12 +12871,12 @@ Level Up Moves:
 18 - Yawn
 21 - Aurora Beam
 24 - Body Slam
-26 - Swagger
-30 - Aqua Tail
-34 - Slack Off
-38 - Hail
+27 - Aqua Tail
+28 - Swagger
+32 - Slack Off
+36 - Hail
+40 - Crunch
 42 - Ice Beam
-44 - Crunch
 48 - Belly Drum
 54 - Blizzard
 60 - Sheer Cold
@@ -18900,11 +18900,12 @@ Level Up Moves:
 21 - Icicle Spear
 24 - Frost Breath
 27 - Avalanche
-32 - Hail
-36 - Ice Beam
-42 - Acid Armor
-48 - Mirror Coat
-54 - Blizzard
+31 - Hail
+35 - Ice Beam
+39 - Acid Armor
+45 - Icicle Crash
+50 - Mirror Coat
+55 - Blizzard
 60 - Sheer Cold
 
 -------------------
@@ -18931,11 +18932,12 @@ Level Up Moves:
 21 - Icicle Spear
 24 - Frost Breath
 27 - Avalanche
-32 - Hail
-36 - Ice Beam
-42 - Acid Armor
-48 - Mirror Coat
-54 - Blizzard
+31 - Hail
+35 - Ice Beam
+39 - Acid Armor
+45 - Icicle Crash
+50 - Mirror Coat
+55 - Blizzard
 60 - Sheer Cold
 
 -------------------
@@ -18964,12 +18966,13 @@ Level Up Moves:
 21 - Icicle Spear
 24 - Frost Breath
 27 - Avalanche
-32 - Hail
-36 - Ice Beam
+31 - Hail
+35 - Ice Beam
+39 - Acid Armor
 40 - Freeze-Dry
-42 - Acid Armor
-48 - Mirror Coat
-54 - Blizzard
+45 - Icicle Crash
+50 - Mirror Coat
+55 - Blizzard
 60 - Sheer Cold
 
 -------------------
@@ -19405,13 +19408,13 @@ Level Up Moves:
 16 - Metal Sound
 20 - Mirror Shot
 24 - Spark
-28 - Screech
-33 - Gear Grind
-38 - Discharge
-44 - Lock-On
-50 - Shift Gear
-56 - Zap Cannon
-62 - Hyper Beam
+30 - Screech
+35 - Gear Grind
+42 - Discharge
+48 - Shift Gear
+54 - Lock-On
+60 - Zap Cannon
+66 - Hyper Beam
 
 -------------------
 600 - Klang
@@ -19435,13 +19438,13 @@ Level Up Moves:
 16 - Metal Sound
 20 - Mirror Shot
 24 - Spark
-28 - Screech
-33 - Gear Grind
-38 - Discharge
-44 - Lock-On
-50 - Shift Gear
-56 - Zap Cannon
-62 - Hyper Beam
+30 - Screech
+35 - Gear Grind
+42 - Discharge
+48 - Shift Gear
+54 - Lock-On
+60 - Zap Cannon
+66 - Hyper Beam
 
 -------------------
 601 - Klinklang
@@ -19466,13 +19469,13 @@ Level Up Moves:
 16 - Metal Sound
 20 - Mirror Shot
 24 - Spark
-28 - Screech
-33 - Gear Grind
-38 - Discharge
-44 - Lock-On
-50 - Shift Gear
-56 - Zap Cannon
-62 - Hyper Beam
+30 - Screech
+35 - Gear Grind
+42 - Discharge
+48 - Shift Gear
+54 - Lock-On
+60 - Zap Cannon
+66 - Hyper Beam
 
 -------------------
 602 - Tynamo

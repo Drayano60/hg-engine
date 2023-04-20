@@ -100,3 +100,6 @@ Paldean Evolutions
 #203 Girafarig ⟶ #981 Farigiraf: Evolves by leveling up while knowing the move Twin Beam.
 #206 Dunsparce ⟶ #982 Dudunsparce: Evolves by leveling up while knowing the move Hyper Drill.
 #625 Bisharp ⟶ #983 Kingambit: Evolves by using a Leader's Crest.
+
+Additional Evolutions
+#458 Mantyke ⟶ #226 Mantine: Can now also evolve by leveling up with 220+ friendship at any time of day (in addition to the Remoraid in party method).

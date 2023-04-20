@@ -205,6 +205,10 @@ This is now a one-turn move (with no additional effects).
 - Draining Kiss:
 This now heals the user by 50% of the damage dealt (instead of 75%).
 
+- Hail:
+In addition to the normal effects of a hailstorm, the Defense stat of Ice-types is now boosted by 50% while the hailstorm is active (inherited from Gen 9's snowy weather).
+Pokémon that are not Ice-types will still take 1/16 HP damage each turn.
+
 - Meditate:
 This now boosts both the user's Attack stat and accuracy by one stage each.
 
@@ -320,11 +324,28 @@ Moves Not Updated
 --------------------------------------
 The following moves have NOT had their effects updated and still work as they do in Heart Gold and Soul Silver:
 
+(Note: This may not be an exhuastive list; if a move's effect did change between generations and it's not mentioned anywhere, then there's a very good chance it still acts the same as it does in HG/SS normally. If you do find a case like this, please let me know and I'll add it to the list!)
+
 - Beat Up:
 This still uses the original damage calculation.
 
+- Doom Desire/Future Sight:
+These moves still deal typeless damage (so are not affected by STAB and do not deal super effective damage) and are unaffected by Life Orb. The damage is still calculated when the move is selected.
+
 - Conversion 2:
 The effect is still based on the last move the Pokémon was hit with.
+
+- Multi-strike Moves:
+Moves such as Icicle Spear, Double Slap etc still have a 37.5% chance to hit 2 times, 37.5% to hit 3 times, 12.5% to hit 4 times and 12.5% to hit 5 times.
+
+- Pay Day:
+This move still determinines the payout based on the Pokémon's level when the move was used, not whatever it is at the end of battle.
+
+- Psych Up:
+This does not copy the target's critical hit ratio.
+
+- Psywave:
+This still deals damage based on its original damage formula from Gen 4.
 
 - Stomp:
 This does not have a guaranteed hit against minimized targets.

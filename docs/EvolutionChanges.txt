@@ -76,16 +76,17 @@ Trade Evolutions
 Changed Evolutions
 #133 Eevee ⟶ #196 Espeon: Evolves by using a Sun Stone.
 #133 Eevee ⟶ #197 Umbreon: Evolves by using a Moon Stone.
-#207 Gligar ⟶ #472 Gliscor: Evolves by leveling up while holding a Razor Fang at any time of day.
-#215 Sneasel ⟶ #461 Weavile: Evolves by leveling up while holding a Razor Claw at any time of day.
+#207 Gligar ⟶ #472 Gliscor: Evolves by by using a Razor Fang.
+#215 Sneasel ⟶ #461 Weavile: Evolves by using a Razor Claw.
 #406 Budew ⟶ #315 Roselia: Evolves by leveling up with 220+ friendship at any time of day.
 #433 Chingling ⟶ #358 Chimecho: Evolves by leveling up with 220+ friendship at any time of day.
-#440 Happiny ⟶ #113 Chansey: Evolves by leveling up while holding an Oval Stone at any time of day.
+#440 Happiny ⟶ #113 Chansey: Evolves by using an Oval Stone.
 #447 Riolu ⟶ #448 Lucario: Evolves by leveling up with 220+ friendship at any time of day.
 
 Updated Evolutions
 #133 Eevee ⟶ #470 Leafeon: Evolves by using a Leaf Stone.
 #133 Eevee ⟶ #471 Glaceon: Evolves by using an Ice Stone.
+#133 Eevee ⟶ #700 Sylveon: Evolves by using a Shiny Stone.
 #082 Magneton ⟶ #462 Magnezone: Evolves by using a Thunder Stone.
 #299 Nosepass ⟶ #476 Probopass: Evolves by using a Thunder Stone.
 

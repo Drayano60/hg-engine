@@ -2515,8 +2515,8 @@ evodata SPECIES_DUNSPARCE
     terminateevodata
 
 evodata SPECIES_GLIGAR
-    evolution EVO_USE_ITEM_NIGHT, ITEM_RAZOR_FANG, SPECIES_GLISCOR
     evolution EVO_USE_ITEM, ITEM_RAZOR_FANG, SPECIES_GLISCOR
+    evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -2611,8 +2611,8 @@ evodata SPECIES_HERACROSS
     terminateevodata
 
 evodata SPECIES_SNEASEL
-    evolution EVO_USE_ITEM_NIGHT, ITEM_RAZOR_CLAW, SPECIES_WEAVILE
     evolution EVO_USE_ITEM, ITEM_RAZOR_CLAW, SPECIES_WEAVILE
+    evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -4919,7 +4919,8 @@ evodata SPECIES_LUXRAY
     terminateevodata
 
 evodata SPECIES_BUDEW
-    evolution EVO_HAPPINESS_DAY, 0, SPECIES_ROSELIA
+    // evolution EVO_HAPPINESS_DAY, 0, SPECIES_ROSELIA
+    evolution EVO_HAPPINESS, 0, SPECIES_ROSELIA
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -5244,7 +5245,8 @@ evodata SPECIES_PURUGLY
     terminateevodata
 
 evodata SPECIES_CHINGLING
-    evolution EVO_HAPPINESS_NIGHT, 0, SPECIES_CHIMECHO
+    // evolution EVO_HAPPINESS_NIGHT, 0, SPECIES_CHIMECHO
+    evolution EVO_HAPPINESS, 0, SPECIES_CHIMECHO
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -5328,8 +5330,8 @@ evodata SPECIES_MIMEJR
     terminateevodata
 
 evodata SPECIES_HAPPINY
-    evolution EVO_USE_ITEM_DAY, ITEM_OVAL_STONE, SPECIES_CHANSEY
     evolution EVO_USE_ITEM, ITEM_OVAL_STONE, SPECIES_CHANSEY
+    evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -5412,7 +5414,8 @@ evodata SPECIES_MUNCHLAX
     terminateevodata
 
 evodata SPECIES_RIOLU
-    evolution EVO_HAPPINESS_DAY, 0, SPECIES_LUCARIO
+    // evolution EVO_HAPPINESS_DAY, 0, SPECIES_LUCARIO
+    evolution EVO_HAPPINESS, 0, SPECIES_LUCARIO
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE

@@ -12390,7 +12390,7 @@ levelup SPECIES_UNFEZANT_FEMALE
     learnset MOVE_SKY_ATTACK, 60
     terminatelearnset
 
-// NEW: Volt Tackle
+// NEW: Jump Kick, Volt Tackle
 levelup SPECIES_BLITZLE
     learnset MOVE_QUICK_ATTACK, 1
     learnset MOVE_TAIL_WHIP, 1
@@ -12405,14 +12405,14 @@ levelup SPECIES_BLITZLE
     learnset MOVE_DISCHARGE, 28
     learnset MOVE_TAKE_DOWN, 32
     learnset MOVE_WILD_CHARGE, 36
-    learnset MOVE_AGILITY, 40
-    learnset MOVE_THRASH, 44
+    learnset MOVE_JUMP_KICK, 40
+    learnset MOVE_AGILITY, 44
     learnset MOVE_BOUNCE, 48
-    learnset MOVE_DOUBLE_EDGE, 52
+    learnset MOVE_THRASH, 52
     learnset MOVE_VOLT_TACKLE, 56
     terminatelearnset
 
-// NEW: Volt Tackle
+// NEW: Extreme Speed, Jump Kick, Volt Tackle
 levelup SPECIES_ZEBSTRIKA
     learnset MOVE_QUICK_ATTACK, 1
     learnset MOVE_TAIL_WHIP, 1
@@ -12427,11 +12427,12 @@ levelup SPECIES_ZEBSTRIKA
     learnset MOVE_DISCHARGE, 28
     learnset MOVE_TAKE_DOWN, 32
     learnset MOVE_WILD_CHARGE, 36
-    learnset MOVE_AGILITY, 40
-    learnset MOVE_THRASH, 44
+    learnset MOVE_JUMP_KICK, 40
+    learnset MOVE_AGILITY, 44
     learnset MOVE_BOUNCE, 48
-    learnset MOVE_DOUBLE_EDGE, 52
+    learnset MOVE_THRASH, 52
     learnset MOVE_VOLT_TACKLE, 56
+    learnset MOVE_EXTREME_SPEED, 60
     terminatelearnset
 
 levelup SPECIES_ROGGENROLA
@@ -14930,7 +14931,7 @@ levelup SPECIES_DEINO
     learnset MOVE_SCARY_FACE, 45
     learnset MOVE_DRAGON_RUSH, 50
     learnset MOVE_HYPER_VOICE, 56
-    learnset MOVE_NASTY_PLOT, 62
+    learnset MOVE_HEAD_SMASH, 62
     learnset MOVE_OUTRAGE, 68
     terminatelearnset
 
@@ -14952,7 +14953,7 @@ levelup SPECIES_ZWEILOUS
     learnset MOVE_SCARY_FACE, 45
     learnset MOVE_DRAGON_RUSH, 50
     learnset MOVE_HYPER_VOICE, 56
-    learnset MOVE_NASTY_PLOT, 62
+    learnset MOVE_HEAD_SMASH, 62
     learnset MOVE_OUTRAGE, 68
     terminatelearnset
 

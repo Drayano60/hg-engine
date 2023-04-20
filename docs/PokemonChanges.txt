@@ -2581,6 +2581,7 @@ Type: Fire
 New Moves:
 - Blaze Kick (Level/Tutor)
 - Jump Kick (Level)
+- Low Sweep (TM)
 
 Level Up Moves:
 01 - Tackle
@@ -2611,6 +2612,7 @@ New Moves:
 - Blaze Kick (Level/Tutor)
 - Extreme Speed (Level)
 - Jump Kick (Level)
+- Low Sweep (TM)
 
 Level Up Moves:
 01 - Fury Attack
@@ -16828,6 +16830,7 @@ Held Item: Oran Berry (50%), Occa Berry (5%)
 Type: Grass
 
 New Moves:
+- Play Rough (TM)
 - Power Whip (Level/Tutor)
 
 Level Up Moves:
@@ -16860,6 +16863,7 @@ Held Item: Oran Berry (50%), Occa Berry (5%)
 Type: Grass
 
 New Moves:
+- Play Rough (TM)
 - Power Whip (Level/Tutor)
 
 Level Up Moves:
@@ -16896,6 +16900,7 @@ Type: Fire
 
 New Moves:
 - Lava Plume (Level)
+- Play Rough (TM)
 
 Level Up Moves:
 01 - Play Nice
@@ -16928,6 +16933,7 @@ Type: Fire
 
 New Moves:
 - Lava Plume (Level)
+- Play Rough (TM)
 
 Level Up Moves:
 01 - Fire Spin
@@ -16962,6 +16968,7 @@ Held Item: Oran Berry (50%), Rindo Berry (5%)
 Type: Water
 
 New Moves:
+- Play Rough (TM)
 - Water Spout (Level)
 
 Level Up Moves:
@@ -16994,6 +17001,7 @@ Held Item: Oran Berry (50%), Rindo Berry (5%)
 Type: Water
 
 New Moves:
+- Play Rough (TM)
 - Water Spout (Level)
 
 Level Up Moves:
@@ -17159,6 +17167,8 @@ Held Item: Cheri Berry (50%)
 Type: Electric
 
 New Moves:
+- Jump Kick (Level)
+- Low Sweep (TM)
 - Volt Tackle (Level)
 
 Level Up Moves:
@@ -17175,10 +17185,11 @@ Level Up Moves:
 28 - Discharge
 32 - Take Down
 36 - Wild Charge
-40 - Agility
-44 - Thrash
+40 - Jump Kick
+44 - Agility
+48 - Thrash
 48 - Bounce
-52 - Double-Edge
+52 - Thrash
 56 - Volt Tackle
 
 -------------------
@@ -17190,6 +17201,9 @@ Held Item: Cheri Berry (50%)
 Type: Electric
 
 New Moves:
+- Extreme Speed (Level)
+- Jump Kick (Level)
+- Low Sweep (TM)
 - Volt Tackle (Level)
 
 Level Up Moves:
@@ -17206,11 +17220,12 @@ Level Up Moves:
 28 - Discharge
 32 - Take Down
 36 - Wild Charge
-40 - Agility
-44 - Thrash
+40 - Jump Kick
+44 - Agility
 48 - Bounce
-52 - Double-Edge
+52 - Thrash
 56 - Volt Tackle
+60 - Extreme Speed
 
 -------------------
 524 - Roggenrola
@@ -17219,6 +17234,9 @@ Abilities: Sturdy / Weak Armor / Sand Force
 Base Stats: 55/75/85/25/25/15 (280)
 Held Item: Everstone (50%), Hard Stone (5%)
 Type: Rock
+
+New Moves:
+- Rock Climb (HM)
 
 Level Up Moves:
 01 - Sand Attack
@@ -17244,6 +17262,9 @@ Base Stats: 70/105/105/50/40/20 (390)
 Held Item: Everstone (50%), Hard Stone (5%)
 Type: Rock
 
+New Moves:
+- Rock Climb (HM)
+
 Level Up Moves:
 01 - Sand Attack
 01 - Tackle
@@ -17268,6 +17289,9 @@ Abilities: Sturdy / Sand Stream / Sand Force
 Base Stats: 85/135/130/60/80/25 (515)
 Held Item: Everstone (50%), Hard Stone (5%)
 Type: Rock
+
+New Moves:
+- Rock Climb (HM)
 
 Level Up Moves:
 01 - Sand Attack
@@ -17429,6 +17453,9 @@ Base Stats: 75/80/55/25/35/35 (305)
 Held Item: None
 Type: Fighting
 
+New Moves:
+- Rock Climb (HM)
+
 Level Up Moves:
 01 - Pound
 01 - Leer
@@ -17454,6 +17481,9 @@ Base Stats: 85/105/85/40/50/40 (405)
 Held Item: None
 Type: Fighting
 
+New Moves:
+- Rock Climb (HM)
+
 Level Up Moves:
 01 - Pound
 01 - Leer
@@ -17478,6 +17508,9 @@ Abilities: Guts / Sheer Force / Iron Fist
 Base Stats: 105/140/95/55/65/45 (505)
 Held Item: None
 Type: Fighting
+
+New Moves:
+- Rock Climb (HM)
 
 Level Up Moves:
 01 - Mach Punch
@@ -17824,6 +17857,9 @@ Base Stats: 45/35/50/70/50/30 (280)
 Held Item: None
 Type: Grass
 
+New Moves:
+- Dazzling Gleam (TM)
+
 Level Up Moves:
 01 - Helping Hand
 01 - Absorb
@@ -17850,6 +17886,9 @@ Abilities: Chlorophyll / Own Tempo / Leaf Guard
 Base Stats: 70/60/75/110/75/90 (480)
 Held Item: None
 Type: Grass
+
+New Moves:
+- Dazzling Gleam (TM)
 
 Level Up Moves:
 01 - Petal Blizzard
@@ -18294,6 +18333,9 @@ Abilities: Mummy / Mummy / Mummy
 Base Stats: 58/50/145/95/105/30 (483)
 Held Item: Spell Tag (5%)
 Type: Ghost ⟶ Ghost / Steel
+
+New Moves:
+- Flash Cannon (TM)
 
 Level Up Moves:
 01 - Shadow Claw
@@ -18811,6 +18853,9 @@ Base Stats: 75/87/63/87/63/98 (473)
 Held Item: None
 Type: Water / Flying
 
+New Moves:
+- Blizzard (TM)
+
 Level Up Moves:
 01 - Aqua Jet
 01 - Water Gun
@@ -18838,6 +18883,9 @@ Abilities: Ice Body / Snow Cloak / Weak Armor
 Base Stats: 36/50/50/65/60/44 (305)
 Held Item: None
 Type: Ice
+
+New Moves:
+- Dazzling Gleam (TM)
 
 Level Up Moves:
 01 - Powder Snow
@@ -18867,6 +18915,9 @@ Base Stats: 51/65/65/80/75/59 (395)
 Held Item: None
 Type: Ice
 
+New Moves:
+- Dazzling Gleam (TM)
+
 Level Up Moves:
 01 - Powder Snow
 01 - Astonish
@@ -18894,6 +18945,9 @@ Abilities: Ice Body / Snow Warning / Weak Armor
 Base Stats: 71/95/85/110/95/79 (535)
 Held Item: None
 Type: Ice
+
+New Moves:
+- Dazzling Gleam (TM)
 
 Level Up Moves:
 01 - Aurora Veil
@@ -18926,6 +18980,9 @@ Base Stats: 60/60/50/40/50/75 (335)
 Held Item: None
 Type: Normal / Grass
 
+New Moves:
+- Low Sweep (TM)
+
 Level Up Moves:
 01 - Tackle
 01 - Growl
@@ -18954,6 +19011,9 @@ Abilities: Chlorophyll / Sap Sipper / Serene Grace
 Base Stats: 80/100/70/60/70/95 (475)
 Held Item: None
 Type: Normal / Grass
+
+New Moves:
+- Low Sweep (TM)
 
 Level Up Moves:
 01 - Nature Power
@@ -19332,7 +19392,9 @@ Held Item: None
 Type: Steel
 
 New Moves:
+- Rock Slide (TM)
 - Spark (Level)
+- Stone Edge (TM)
 
 Level Up Moves:
 01 - Thunder Shock
@@ -19360,7 +19422,9 @@ Held Item: None
 Type: Steel
 
 New Moves:
+- Rock Slide (TM)
 - Spark (Level)
+- Stone Edge (TM)
 
 Level Up Moves:
 01 - Thunder Shock
@@ -19388,7 +19452,10 @@ Held Item: None
 Type: Steel
 
 New Moves:
+- Earthquake (TM)
+- Rock Slide (TM)
 - Spark (Level)
+- Stone Edge (TM)
 
 Level Up Moves:
 01 - Thunder Shock
@@ -19737,6 +19804,9 @@ Base Stats: 95/130/80/70/80/50 (505)
 Held Item: Aspear Berry (50%)
 Type: Ice
 
+New Moves:
+- Waterfall (HM)
+
 Level Up Moves:
 01 - Aqua Jet
 01 - Night Slash
@@ -19824,6 +19894,9 @@ Abilities: Hydration / Sticky Hold / Unburden
 Base Stats: 80/70/40/100/60/145 (495)
 Held Item: None
 Type: Bug
+
+New Moves:
+- Acrobatics (TM)
 
 Level Up Moves:
 01 - Toxic Spikes
@@ -20277,7 +20350,7 @@ Level Up Moves:
 45 - Scary Face
 50 - Dragon Rush
 56 - Hyper Voice
-62 - Nasty Plot
+62 - Head Smash
 68 - Outrage
 
 -------------------
@@ -20305,7 +20378,7 @@ Level Up Moves:
 45 - Scary Face
 50 - Dragon Rush
 56 - Hyper Voice
-62 - Nasty Plot
+62 - Head Smash
 68 - Outrage
 
 -------------------

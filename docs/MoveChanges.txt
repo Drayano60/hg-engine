@@ -8,9 +8,9 @@ Some moves have also received further changes which are listed below. Changes ar
 -------------------
 Newly Added Moves
 -------------------
-Aurora Crystal contains 106 new moves in addition to the 467 in Heart Gold and Soul Silver normally. 101 of these are moves that were introduced in later generation games, and the remaining 5 are custom signature moves for a few Pokémon.
+Aurora Crystal contains 111 new moves in addition to the 467 in Heart Gold and Soul Silver normally. 106 of these are moves that were introduced in later generation games, and the remaining 5 are custom signature moves for a few Pokémon.
 
-Gen 5 Moves (39)
+Gen 5 Moves (44)
 -------------------
 Acid Spray
 Acrobatics
@@ -23,13 +23,17 @@ Drill Run
 Dual Chop
 Echoed Voice
 Electroweb
+Fiery Dance
 Flame Charge
 Foul Play
 Frost Breath
+Gear Grind
+Head Charge
 Heat Crash
 Heavy Slam
 Hex
 Hone Claws
+Horn Leech
 Hurricane
 Icicle Crash
 Incinerate
@@ -41,6 +45,7 @@ Razor Shell
 Sacred Sword
 Scald
 Shell Smash
+Shift Gear
 Sludge Wave
 Snarl
 Steamroller
@@ -347,6 +352,9 @@ As usual, the move begins at 40 BP and gains an extra 40 BP for each consecutive
 
 - Freeze-Dry:
 This is not super-effective against Water-types, but it does do quadruple damage against Water-types for roughly the same result.
+
+- Horn Leech:
+This works almost entirely fine, but can still be used even under the effects of Heal Block.
 
 - Ice Spinner:
 This now has no additional effect, as terrains don't exist in this game.

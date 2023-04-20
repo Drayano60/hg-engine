@@ -575,11 +575,11 @@ The user creates a\nshock by splashing.\nThis does more damage\nthe more the use
 Slams the foe with its\nflame-covered body.\nThis does more damage\nthe more the user\noutweighs the foe.
 The user swings both\narms at the target.\nThe target’s stat\nchanges do not affect\nthis move’s damage.
 The user attacks the\ntarget by throwing a\nclump of special mud\nthat eliminates all\nstat changes.
-FOR AI ONLY
-FOR AI ONLY
-FOR AI ONLY
-FOR AI ONLY
-FOR AI ONLY
+Cloaked in flames,\nthe user dances and\nflaps its wings.\nThis has a 50% chance\nto raise Sp. Atk.
+The user attacks by\ngrinding the target\nbetween steel gears\ntwice in a row.
+The user charges into\nthe foe, using its\npowerful guard hair.\nThe user is hurt by\n25% of damage dealt.
+Drains a foe’s energy\nby using its horns.\nThe user’s HP is\nrestored by half the\ndamage dealt.
+The user rotates its\ngears, raising its\nAttack stat and\nsharply raising its\nSpeed stat.
 FOR AI ONLY
 FOR AI ONLY
 FOR AI ONLY

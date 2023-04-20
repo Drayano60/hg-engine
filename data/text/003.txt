@@ -1729,21 +1729,21 @@ The foe’s {STRVAR_1 1, 0, 0} used\nDarkest Lariat!
 {STRVAR_1 1, 0, 0} used\nClear Smog!
 The wild {STRVAR_1 1, 0, 0} used\nClear Smog!
 The foe’s {STRVAR_1 1, 0, 0} used\nClear Smog!
-{STRVAR_1 1, 0, 0} used\nHidden Power!
-The wild {STRVAR_1 1, 0, 0} used\nHidden Power!
-The foe’s {STRVAR_1 1, 0, 0} used\nHidden Power!
-{STRVAR_1 1, 0, 0} used\nHidden Power!
-The wild {STRVAR_1 1, 0, 0} used\nHidden Power!
-The foe’s {STRVAR_1 1, 0, 0} used\nHidden Power!
-{STRVAR_1 1, 0, 0} used\nHidden Power!
-The wild {STRVAR_1 1, 0, 0} used\nHidden Power!
-The foe’s {STRVAR_1 1, 0, 0} used\nHidden Power!
-{STRVAR_1 1, 0, 0} used\nHidden Power!
-The wild {STRVAR_1 1, 0, 0} used\nHidden Power!
-The foe’s {STRVAR_1 1, 0, 0} used\nHidden Power!
-{STRVAR_1 1, 0, 0} used\nHidden Power!
-The wild {STRVAR_1 1, 0, 0} used\nHidden Power!
-The foe’s {STRVAR_1 1, 0, 0} used\nHidden Power!
+{STRVAR_1 1, 0, 0} used\nFiery Dance!
+The wild {STRVAR_1 1, 0, 0} used\nFiery Dance!
+The foe’s {STRVAR_1 1, 0, 0} used\nFiery Dance!
+{STRVAR_1 1, 0, 0} used\nGear Grind!
+The wild {STRVAR_1 1, 0, 0} used\nGear Grind!
+The foe’s {STRVAR_1 1, 0, 0} used\nGear Grind!
+{STRVAR_1 1, 0, 0} used\nHead Charge!
+The wild {STRVAR_1 1, 0, 0} used\nHead Charge!
+The foe’s {STRVAR_1 1, 0, 0} used\nHead Charge!
+{STRVAR_1 1, 0, 0} used\nHorn Leech!
+The wild {STRVAR_1 1, 0, 0} used\nHorn Leech!
+The foe’s {STRVAR_1 1, 0, 0} used\nHorn Leech!
+{STRVAR_1 1, 0, 0} used\nShift Gear!
+The wild {STRVAR_1 1, 0, 0} used\nShift Gear!
+The foe’s {STRVAR_1 1, 0, 0} used\nShift Gear!
 {STRVAR_1 1, 0, 0} used\nHidden Power!
 The wild {STRVAR_1 1, 0, 0} used\nHidden Power!
 The foe’s {STRVAR_1 1, 0, 0} used\nHidden Power!

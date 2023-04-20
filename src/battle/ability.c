@@ -1306,8 +1306,8 @@ BOOL MummyAbilityCheck(struct BattleStruct *sp)
     switch(GetBattlerAbility(sp, sp->attack_client))
     {
         case ABILITY_MULTITYPE:
-        /*
         case ABILITY_ZEN_MODE:
+        /*
         case ABILITY_STANCE_CHANGE:
         case ABILITY_SCHOOLING:
         case ABILITY_BATTLE_BOND:
@@ -1580,7 +1580,7 @@ BOOL MoveHitDefenderAbilityCheck(void *bw, struct BattleStruct *sp, int *seq_no)
         case ABILITY_ROUGH_SKIN:
         // Ice Needles is a new ability for Glaceon that acts as a Rough Skin clone
         case ABILITY_ICE_NEEDLES:
-        // case ABILITY_IRON_BARBS:
+        case ABILITY_IRON_BARBS:
             if ((sp->battlemon[sp->attack_client].hp)
                 && (GetBattlerAbility(sp, sp->attack_client) != ABILITY_MAGIC_GUARD)
                 && ((sp->waza_status_flag & WAZA_STATUS_FLAG_NO_OUT) == 0)
@@ -1811,7 +1811,6 @@ BOOL MoveHitDefenderAbilityCheck(void *bw, struct BattleStruct *sp, int *seq_no)
                 ret = TRUE;
             }
             break;
-        /*
         case ABILITY_MUMMY:
             if (((sp->waza_status_flag & WAZA_STATUS_FLAG_NO_OUT) == 0)
                 && ((sp->server_status_flag & SERVER_STATUS_FLAG_x20) == 0)
@@ -1828,6 +1827,7 @@ BOOL MoveHitDefenderAbilityCheck(void *bw, struct BattleStruct *sp, int *seq_no)
                 ret = TRUE;
             }
             break;
+        /*
         case ABILITY_WATER_COMPACTION:
             if ((sp->battlemon[sp->defence_client].hp)
                 && (sp->battlemon[sp->defence_client].states[STAT_DEFENSE] < 12)

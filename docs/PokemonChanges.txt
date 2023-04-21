@@ -4502,6 +4502,36 @@ Level Up Moves:
 52 - Iron Head
 
 -------------------
+900 - Kleavor
+-------------------
+Abilities: Swarm / Sheer Force / Sharpness
+Base Stats: 70/130/95/45/75/85 (500)
+Held Item: None
+Type: Bug / Rock
+
+New Moves:
+- None
+
+Level Up Moves:
+01 - Stone Axe
+01 - Quick Attack
+01 - Leer
+01 - Feint
+04 - Pursuit
+08 - Fury Cutter
+12 - False Swipe
+16 - Double Team
+20 - Rock Slide
+24 - Double Hit
+28 - Focus Energy
+32 - Slash
+36 - X-Scissor
+40 - Night Slash
+44 - Agility
+48 - Swords Dance
+52 - Stone Edge
+
+-------------------
 238 - Smoochum
 -------------------
 Abilities: Oblivious / Forewarn / Hydration
@@ -8070,12 +8100,48 @@ Level Up Moves:
 01 - Lick
 03 - Play Nice
 06 - Fake Tears
-09 - Baby-Doll Eyes
+09 - Hone Claws
 12 - Fury Swipes
 16 - Feint Attack
 20 - Bulldoze
 24 - Slash
-28 - Charm
+28 - Scary Face
+34 - Rest
+34 - Snore
+39 - Crunch
+44 - Thrash
+49 - High Horsepower
+54 - Play Rough
+59 - Double-Edge
+
+-------------------
+901 - Ursaluna
+-------------------
+Abilities: Guts / Bulletproof / Unnerve
+Base Stats: 130/140/105/45/80/50 (550)
+Held Item: None
+Type: Ground / Normal
+
+New Moves:
+- Focus Energy (Tutor) (HOME)
+
+Level Up Moves:
+01 - Headlong Rush
+01 - Night Slash
+01 - Hammer Arm
+01 - Yawn
+01 - Covet
+01 - Scratch
+01 - Leer
+01 - Lick
+03 - Play Nice
+06 - Fake Tears
+09 - Hone Claws
+12 - Fury Swipes
+16 - Feint Attack
+20 - Bulldoze
+24 - Slash
+28 - Scary Face
 34 - Rest
 34 - Snore
 39 - Crunch
@@ -8652,6 +8718,42 @@ Level Up Moves:
 44 - Psychic
 48 - Captivate
 52 - Double-Edge
+
+-------------------
+899 - Wyrdeer
+-------------------
+Abilities: Intimidate / Frisk / Sap Sipper
+Base Stats: 103/105/72/105/75/65 (525)
+Held Item: None
+Type: Normal / Psychic
+
+New Moves:
+- None
+
+Level Up Moves:
+01 - Extrasensory
+01 - Light Screen
+01 - Reflect
+01 - Me First
+01 - Imprison
+01 - Tackle
+01 - Leer
+01 - Disable
+03 - Sand Attack
+06 - Astonish
+09 - Hypnosis
+12 - Stomp
+16 - Confuse Ray
+20 - Role Play
+24 - Take Down
+28 - Calm Mind
+32 - Zen Headbutt
+36 - Psyshield Bash
+40 - Jump Kick
+44 - Psychic
+48 - Captivate
+52 - Double-Edge
+56 - Megahorn
 
 -------------------
 235 - Smeargle

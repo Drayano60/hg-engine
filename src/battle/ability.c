@@ -1089,12 +1089,12 @@ int SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
                 for (i = 0; i < client_set_max; i++)
                 {
                     client_no = sp->turn_order[i];
-                    if ((sp->battlemon[client_no].air_lock_flag == 0)
+                    if ((sp->battlemon[client_no].text_on_ability_entry_flag == 0)
                         && (sp->battlemon[client_no].hp)
                         && ((GetBattlerAbility(sp, client_no) == ABILITY_CLOUD_NINE) ||
                             (GetBattlerAbility(sp, client_no) == ABILITY_AIR_LOCK)))
                     {
-                        sp->battlemon[client_no].air_lock_flag = 1;
+                        sp->battlemon[client_no].text_on_ability_entry_flag = 1;
                         sp->client_work = client_no;
 
                         scriptnum = SUB_SEQ_HANDLE_AIR_LOCK_MESSAGE;
@@ -1113,11 +1113,11 @@ int SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
                 for (i = 0; i < client_set_max; i++)
                 {
                     client_no = sp->turn_order[i];
-                    if ((sp->battlemon[client_no].air_lock_flag == 0)
+                    if ((sp->battlemon[client_no].text_on_ability_entry_flag == 0)
                         && (sp->battlemon[client_no].hp)
                         && ((GetBattlerAbility(sp, client_no) == ABILITY_SUPREME_OVERLORD)))
                     {
-                        sp->battlemon[client_no].air_lock_flag = 1;
+                        sp->battlemon[client_no].text_on_ability_entry_flag = 1;
                         sp->client_work = client_no;
 
                         scriptnum = SUB_SEQ_HANDLE_AIR_LOCK_MESSAGE;

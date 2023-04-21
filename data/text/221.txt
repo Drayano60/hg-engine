@@ -583,3 +583,6 @@ One of a variety of Mega Stones.\nIt will Mega Evolve Gallade when held.
 One of a variety of Mega Stones.\nIt will Mega Evolve Audino when held.
 One of a variety of Mega Stones.\nIt will Mega Evolve Diancie when held.
 An item to be held by a Pokémon.\nIt is a stone tablet that boosts the\npower of Fairy-type moves by 20%.
+A glassy black stone that produces\na sharp cutting edge when split.\nIt is loved by a certain Pokémon.
+A shard of what appears to be an old\nblade of some sort.\nIt is loved by a certain Pokémon.
+A block of muddy material that can be\nused as fuel for burning when dried.\nIt is loved by a certain Pokémon.

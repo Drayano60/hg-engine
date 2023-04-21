@@ -583,3 +583,6 @@ a {COLOR 255}Galladite{COLOR 0}
 an {COLOR 255}Audinite{COLOR 0}
 a {COLOR 255}Diancite{COLOR 0}
 a {COLOR 255}Pixie Plate{COLOR 0}
+a {COLOR 255}Black Augurite{COLOR 0}
+a {COLOR 255}Leader’s Crest{COLOR 0}
+a {COLOR 255}Peat Block{COLOR 0}

@@ -597,12 +597,16 @@
 #define ITEM_MEGA_STONE_DIANCIE (ITEM_MEGA_STONES_START + 46)
 #define ITEM_PIXIE_PLATE (ITEM_MEGA_STONES_START + 47)
 
-#define NUM_MEGA_STONES 48 // includes the pixie plate
+#define ITEM_BLACK_AUGURITE (ITEM_MEGA_STONES_START + 48)
+#define ITEM_LEADERS_CREST (ITEM_MEGA_STONES_START + 49)
+#define ITEM_PEAT_BLOCK (ITEM_MEGA_STONES_START + 50)
+
+#define NUM_MEGA_STONES 51 // includes the pixie plate
 
 #define NUM_UNKNOWN_SLOTS 22 // used to adjust in data/itemdata.c
 #define NUM_UNKNOWN_SLOTS_EXPLORER_KIT (NUM_UNKNOWN_SLOTS+1) // used to adjust in data/itemdata.c
 
-#define NEW_ITEM_MAX ITEM_PIXIE_PLATE
+#define NEW_ITEM_MAX ITEM_PEAT_BLOCK
 
 
 

@@ -18007,76 +18007,77 @@ mondata SPECIES_KOMMO_O
     tmdata SPECIES_KOMMO_O_TM_DATA_0, SPECIES_KOMMO_O_TM_DATA_1, SPECIES_KOMMO_O_TM_DATA_2, SPECIES_KOMMO_O_TM_DATA_3
 
 
-mondata SPECIES_TAPU_KOKO
-    basestats 70, 115, 85, 130, 95, 75
-    types TYPE_ELECTRIC, TYPE_FAIRY
-    catchrate 3
-    baseexp 257
-    evyields 0, 0, 0, 3, 0, 0
-    items ITEM_NONE, ITEM_NONE
-    genderratio 255
-    eggcycles 15
-    basefriendship 70
-    growthrate GROWTH_SLOW
-    egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
-    abilities ABILITY_ELECTRIC_SURGE,  ABILITY_NONE
-    runchance 0
-    colorflip BODY_COLOR_YELLOW, 0
-    tmdata SPECIES_TAPU_KOKO_TM_DATA_0, SPECIES_TAPU_KOKO_TM_DATA_1, SPECIES_TAPU_KOKO_TM_DATA_2, SPECIES_TAPU_KOKO_TM_DATA_3
-
-
-mondata SPECIES_TAPU_LELE
-    basestats 70, 85, 75, 95, 130, 115
-    types TYPE_PSYCHIC, TYPE_FAIRY
-    catchrate 3
-    baseexp 257
-    evyields 0, 0, 0, 0, 3, 0
-    items ITEM_NONE, ITEM_NONE
-    genderratio 255
-    eggcycles 15
-    basefriendship 70
-    growthrate GROWTH_SLOW
-    egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
-    abilities ABILITY_PSYCHIC_SURGE,  ABILITY_NONE
-    runchance 0
-    colorflip BODY_COLOR_PINK, 0
-    tmdata SPECIES_TAPU_LELE_TM_DATA_0, SPECIES_TAPU_LELE_TM_DATA_1, SPECIES_TAPU_LELE_TM_DATA_2, SPECIES_TAPU_LELE_TM_DATA_3
-
-
-mondata SPECIES_TAPU_BULU
-    basestats 70, 130, 115, 75, 85, 95
-    types TYPE_GRASS, TYPE_FAIRY
-    catchrate 3
-    baseexp 257
+mondata SPECIES_ANNIHILAPE
+    basestats 110, 115, 80, 90, 50, 90
+    types TYPE_FIGHTING, TYPE_GHOST
+    catchrate 45
+    baseexp 0
     evyields 0, 3, 0, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
-    genderratio 255
-    eggcycles 15
+    genderratio 127
+    eggcycles 20
     basefriendship 70
-    growthrate GROWTH_SLOW
-    egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
-    abilities ABILITY_GRASSY_SURGE,  ABILITY_NONE
+    growthrate GROWTH_MEDIUM_FAST
+    egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
+    abilities ABILITY_VITAL_SPIRIT, ABILITY_INNER_FOCUS
+    runchance 0
+    colorflip BODY_COLOR_GRAY, 0
+    tmdata SPECIES_ANNIHILAPE_TM_DATA_0, SPECIES_ANNIHILAPE_TM_DATA_1, SPECIES_ANNIHILAPE_TM_DATA_2, SPECIES_ANNIHILAPE_TM_DATA_3
+
+/* Neither Cud Chew or Armor Tail exist */
+mondata SPECIES_FARIGIRAF
+    basestats 120, 90, 70, 60, 110, 70
+    types TYPE_NORMAL, TYPE_PSYCHIC
+    catchrate 45
+    baseexp 0
+    evyields 3, 0, 0, 0, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 127
+    eggcycles 20
+    basefriendship 70
+    growthrate GROWTH_MEDIUM_FAST
+    egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
+    abilities ABILITY_SAP_SIPPER, ABILITY_SAP_SIPPER
+    runchance 60
+    colorflip BODY_COLOR_BROWN, 0
+    tmdata SPECIES_FARIGIRAF_TM_DATA_0, SPECIES_FARIGIRAF_TM_DATA_1, SPECIES_FARIGIRAF_TM_DATA_2, SPECIES_FARIGIRAF_TM_DATA_3
+
+
+mondata SPECIES_DUDUNSPARCE
+    basestats 125, 100, 80, 55, 85, 75
+    types TYPE_NORMAL, TYPE_NORMAL
+    catchrate 45
+    baseexp 0
+    evyields 2, 0, 0, 0, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 127
+    eggcycles 20
+    basefriendship 70
+    growthrate GROWTH_MEDIUM_FAST
+    egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
+    abilities ABILITY_SERENE_GRACE, ABILITY_RUN_AWAY
+    runchance 0
+    colorflip BODY_COLOR_YELLOW, 0
+    tmdata SPECIES_DUDUNSPARCE_TM_DATA_0, SPECIES_DUDUNSPARCE_TM_DATA_1, SPECIES_DUDUNSPARCE_TM_DATA_2, SPECIES_DUDUNSPARCE_TM_DATA_3
+
+
+/* Supreme Overlord does not exist */
+mondata SPECIES_KINGAMBIT
+    basestats 100, 135, 120, 50, 60, 85
+    types TYPE_DARK, TYPE_STEEL
+    catchrate 25
+    baseexp 0
+    evyields 0, 3, 0, 0, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 127
+    eggcycles 20
+    basefriendship 35
+    growthrate GROWTH_MEDIUM_FAST
+    egggroups EGG_GROUP_HUMAN_LIKE, EGG_GROUP_HUMAN_LIKE
+    abilities ABILITY_DEFIANT, ABILITY_INNER_FOCUS
     runchance 0
     colorflip BODY_COLOR_RED, 0
-    tmdata SPECIES_TAPU_BULU_TM_DATA_0, SPECIES_TAPU_BULU_TM_DATA_1, SPECIES_TAPU_BULU_TM_DATA_2, SPECIES_TAPU_BULU_TM_DATA_3
-
-
-mondata SPECIES_TAPU_FINI
-    basestats 70, 75, 115, 85, 95, 130
-    types TYPE_WATER, TYPE_FAIRY
-    catchrate 3
-    baseexp 257
-    evyields 0, 0, 0, 0, 0, 3
-    items ITEM_NONE, ITEM_NONE
-    genderratio 255
-    eggcycles 15
-    basefriendship 70
-    growthrate GROWTH_SLOW
-    egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
-    abilities ABILITY_MISTY_SURGE,  ABILITY_NONE
-    runchance 0
-    colorflip BODY_COLOR_PURPLE, 0
-    tmdata SPECIES_TAPU_FINI_TM_DATA_0, SPECIES_TAPU_FINI_TM_DATA_1, SPECIES_TAPU_FINI_TM_DATA_2, SPECIES_TAPU_FINI_TM_DATA_3
+    tmdata SPECIES_KINGAMBIT_TM_DATA_0, SPECIES_KINGAMBIT_TM_DATA_1, SPECIES_KINGAMBIT_TM_DATA_2, SPECIES_KINGAMBIT_TM_DATA_3
 
 
 mondata SPECIES_COSMOG

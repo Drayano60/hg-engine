@@ -98,7 +98,7 @@
 //.halfword SPECIES_STEENEE
 //.halfword SPECIES_TSAREENA
 //.halfword SPECIES_DHELMISE
-//.halfword SPECIES_TAPU_BULU
+//.halfword SPECIES_DUDUNSPARCE
 //.halfword SPECIES_KARTANA
 //.halfword SPECIES_GROOKEY
 //.halfword SPECIES_THWACKEY

@@ -840,10 +840,10 @@
 /* SPECIES_JANGMO_O                    */ .halfword ABILITY_OVERCOAT
 /* SPECIES_HAKAMO_O                    */ .halfword ABILITY_OVERCOAT
 /* SPECIES_KOMMO_O                     */ .halfword ABILITY_OVERCOAT
-/* SPECIES_TAPU_KOKO                   */ .halfword ABILITY_TELEPATHY
-/* SPECIES_TAPU_LELE                   */ .halfword ABILITY_TELEPATHY
-/* SPECIES_TAPU_BULU                   */ .halfword ABILITY_TELEPATHY
-/* SPECIES_TAPU_FINI                   */ .halfword ABILITY_TELEPATHY
+/* SPECIES_ANNIHILAPE                  */ .halfword ABILITY_DEFIANT
+/* SPECIES_FARIGIRAF                   */ .halfword ABILITY_SAP_SIPPER
+/* SPECIES_DUDUNSPARCE                 */ .halfword ABILITY_RATTLED
+/* SPECIES_KINGAMBIT                   */ .halfword ABILITY_PRESSURE
 /* SPECIES_COSMOG                      */ .halfword ABILITY_NONE
 /* SPECIES_COSMOEM                     */ .halfword ABILITY_NONE
 /* SPECIES_SOLGALEO                    */ .halfword ABILITY_NONE

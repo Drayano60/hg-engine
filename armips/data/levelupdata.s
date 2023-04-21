@@ -17659,88 +17659,20 @@ levelup SPECIES_KOMMO_O
 	learnset MOVE_CLOSE_COMBAT, 75
 	terminatelearnset
 
-levelup SPECIES_TAPU_KOKO
-	learnset MOVE_ELECTRIC_TERRAIN, 1
-	learnset MOVE_BRAVE_BIRD, 1
-	learnset MOVE_POWER_SWAP, 1
-	learnset MOVE_MEAN_LOOK, 1
-	learnset MOVE_QUICK_ATTACK, 1
-	learnset MOVE_FALSE_SWIPE, 1
-	learnset MOVE_WITHDRAW, 1
-	learnset MOVE_THUNDER_SHOCK, 1
-	learnset MOVE_SPARK, 8
-	learnset MOVE_SHOCK_WAVE, 14
-	learnset MOVE_SCREECH, 20
-	learnset MOVE_CHARGE, 26
-	learnset MOVE_WILD_CHARGE, 32
-	learnset MOVE_MIRROR_MOVE, 38
-	learnset MOVE_NATURES_MADNESS, 43
-	learnset MOVE_DISCHARGE, 48
-	learnset MOVE_AGILITY, 53
-	learnset MOVE_ELECTRO_BALL, 58
+levelup SPECIES_ANNIHILAPE
+	learnset MOVE_TACKLE, 1
 	terminatelearnset
 
-levelup SPECIES_TAPU_LELE
-	learnset MOVE_PSYCHIC_TERRAIN, 1
-	learnset MOVE_AROMATIC_MIST, 1
-	learnset MOVE_AROMATHERAPY, 1
-	learnset MOVE_MEAN_LOOK, 1
-	learnset MOVE_DRAINING_KISS, 1
-	learnset MOVE_ASTONISH, 1
-	learnset MOVE_WITHDRAW, 1
-	learnset MOVE_CONFUSION, 1
-	learnset MOVE_PSYWAVE, 8
-	learnset MOVE_PSYBEAM, 14
-	learnset MOVE_SWEET_SCENT, 20
-	learnset MOVE_SKILL_SWAP, 26
-	learnset MOVE_PSYSHOCK, 32
-	learnset MOVE_TICKLE, 38
-	learnset MOVE_NATURES_MADNESS, 43
-	learnset MOVE_EXTRASENSORY, 48
-	learnset MOVE_FLATTER, 53
-	learnset MOVE_MOONBLAST, 58
+levelup SPECIES_FARIGIRAF
+	learnset MOVE_TACKLE, 1
 	terminatelearnset
 
-levelup SPECIES_TAPU_BULU
-	learnset MOVE_GRASSY_TERRAIN, 1
-	learnset MOVE_WOOD_HAMMER, 1
-	learnset MOVE_SUPERPOWER, 1
-	learnset MOVE_MEAN_LOOK, 1
-	learnset MOVE_DISABLE, 1
-	learnset MOVE_WHIRLWIND, 1
-	learnset MOVE_WITHDRAW, 1
-	learnset MOVE_LEAFAGE, 1
-	learnset MOVE_HORN_ATTACK, 8
-	learnset MOVE_GIGA_DRAIN, 14
-	learnset MOVE_SCARY_FACE, 20
-	learnset MOVE_LEECH_SEED, 26
-	learnset MOVE_HORN_LEECH, 32
-	learnset MOVE_ROTOTILLER, 38
-	learnset MOVE_NATURES_MADNESS, 43
-	learnset MOVE_ZEN_HEADBUTT, 48
-	learnset MOVE_MEGAHORN, 53
-	learnset MOVE_SKULL_BASH, 58
+levelup SPECIES_DUDUNSPARCE
+	learnset MOVE_TACKLE, 1
 	terminatelearnset
 
-levelup SPECIES_TAPU_FINI
-	learnset MOVE_MISTY_TERRAIN, 1
-	learnset MOVE_MOONBLAST, 1
-	learnset MOVE_HEAL_PULSE, 1
-	learnset MOVE_MEAN_LOOK, 1
-	learnset MOVE_HAZE, 1
-	learnset MOVE_MIST, 1
-	learnset MOVE_WITHDRAW, 1
-	learnset MOVE_WATER_GUN, 1
-	learnset MOVE_WATER_PULSE, 8
-	learnset MOVE_WHIRLPOOL, 14
-	learnset MOVE_SOAK, 20
-	learnset MOVE_REFRESH, 26
-	learnset MOVE_BRINE, 32
-	learnset MOVE_DEFOG, 38
-	learnset MOVE_NATURES_MADNESS, 43
-	learnset MOVE_MUDDY_WATER, 48
-	learnset MOVE_AQUA_RING, 53
-	learnset MOVE_HYDRO_PUMP, 58
+levelup SPECIES_KINGAMBIT
+	learnset MOVE_TACKLE, 1
 	terminatelearnset
 
 levelup SPECIES_COSMOG

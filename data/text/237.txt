@@ -833,10 +833,10 @@ Dhelmise
 Jangmo-o
 Hakamo-o
 Kommo-o
-Tapu Koko
-Tapu Lele
-Tapu Bulu
-Tapu Fini
+Annihilape
+Farigiraf
+Dudnsparce
+Kingambit
 Cosmog
 Cosmoem
 Solgaleo

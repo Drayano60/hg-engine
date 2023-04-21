@@ -42,10 +42,10 @@
 //.halfword SPECIES_PHANTUMP
 //.halfword SPECIES_DIANCIE
 //.halfword SPECIES_HOOPA
-//.halfword SPECIES_TAPU_KOKO
-//.halfword SPECIES_TAPU_LELE
-//.halfword SPECIES_TAPU_BULU
-//.halfword SPECIES_TAPU_FINI
+//.halfword SPECIES_ANNIHILAPE
+//.halfword SPECIES_FARIGIRAF
+//.halfword SPECIES_DUDUNSPARCE
+//.halfword SPECIES_KINGAMBIT
 //.halfword SPECIES_NECROZMA
 //.halfword SPECIES_CHANDELURE
 //.halfword SPECIES_CURSOLA

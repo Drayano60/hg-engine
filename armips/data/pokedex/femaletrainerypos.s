@@ -842,10 +842,10 @@
 /* SPECIES_JANGMO_O        */ .halfword 8
 /* SPECIES_HAKAMO_O        */ .halfword 8
 /* SPECIES_KOMMO_O         */ .halfword 8
-/* SPECIES_TAPU_KOKO       */ .halfword 8
-/* SPECIES_TAPU_LELE       */ .halfword 8
-/* SPECIES_TAPU_BULU       */ .halfword 8
-/* SPECIES_TAPU_FINI       */ .halfword 8
+/* SPECIES_ANNIHILAPE      */ .halfword 8
+/* SPECIES_FARIGIRAF       */ .halfword 8
+/* SPECIES_DUDUNSPARCE     */ .halfword 8
+/* SPECIES_KINGAMBIT       */ .halfword 8
 /* SPECIES_COSMOG          */ .halfword 8
 /* SPECIES_COSMOEM         */ .halfword 8
 /* SPECIES_SOLGALEO        */ .halfword 8

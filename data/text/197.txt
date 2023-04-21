@@ -1396,3 +1396,6 @@ The foe’s {STRVAR_1 1, 0, 0}’s stat changes\nwere removed!
 {STRVAR_1 1, 0, 0}’s Supreme Overlord\nlet it gain strength from the fallen!
 The wild {STRVAR_1 1, 0, 0}’s Supreme Overlord\nlet it gain strength from the fallen!
 The foe’s {STRVAR_1 1, 0, 0}’s Supreme Overlord\nlet it gain strength from the fallen!
+Armor Tail blocks {STRVAR_1 1, 0, 0}\nfrom using {STRVAR_1 6, 2, 0}!
+Armor Tail blocks the wild {STRVAR_1 1, 0, 0}\nfrom using {STRVAR_1 6, 2, 0}!
+Armor Tail blocks the foe’s {STRVAR_1 1, 0, 0}\nfrom using {STRVAR_1 6, 2, 0}!

@@ -228,6 +228,24 @@ int MoveCheckDamageNegatingAbilities(struct BattleStruct *sp, int attacker, int 
         }
     }
 
+    // Handle Armor Tail
+    // Block any natural priority move or a move made faster by Prankster if the target or the target's ally has Armor Tail
+    if (
+        (MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_ARMOR_TAIL) == TRUE) ||
+        (MoldBreakerAbilityCheck(sp, attacker, BATTLER_ALLY(defender), ABILITY_ARMOR_TAIL) == TRUE)
+    ) {
+        if (
+            (sp->moveTbl[sp->current_move_index].priority > 0) ||
+            (
+                GetBattlerAbility(sp, attacker) == ABILITY_PRANKSTER &&
+                sp->moveTbl[sp->current_move_index].split == SPLIT_STATUS &&
+                sp->moveTbl[sp->current_move_index].priority >= 0
+            )
+        ) {
+            scriptnum = SUB_SEQ_HANDLE_ARMOR_TAIL;
+        }
+    }
+
     /* Section for type checks */
     /* This works fine here despite not being an ability even in the case of things like Gastro Acid */
     /* Not sure if the priority order for the checks is correct though */

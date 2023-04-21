@@ -1117,13 +1117,30 @@ int SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
                         && (sp->battlemon[client_no].hp)
                         && ((GetBattlerAbility(sp, client_no) == ABILITY_SUPREME_OVERLORD)))
                     {
-                        sp->battlemon[client_no].text_on_ability_entry_flag = 1;
-                        sp->client_work = client_no;
+                        struct POKEPARTY *party = BattleWorkPokePartyGet(bw, client_no);
+                        int count = party->PokeCount;
 
-                        scriptnum = SUB_SEQ_HANDLE_AIR_LOCK_MESSAGE;
+                        int faintedCount = 0;
+                        int i;
 
-                        ret = SWITCH_IN_CHECK_MOVE_SCRIPT;
-                        break;
+                        for (i = 0; i < count; i++) {
+                            if (GetMonData(PokeParty_GetMemberPointer(BattleWorkPokePartyGet(bw, client_no), i), ID_PARA_hp, NULL) == 0) {
+                                faintedCount++;
+                            }
+                        }
+
+                        // Message doesn't show if nothing has fainted
+                        if (faintedCount < 1) {
+                            continue;
+                        } else {
+                            sp->battlemon[client_no].text_on_ability_entry_flag = 1;
+                            sp->client_work = client_no;
+
+                            scriptnum = SUB_SEQ_HANDLE_AIR_LOCK_MESSAGE;
+
+                            ret = SWITCH_IN_CHECK_MOVE_SCRIPT;
+                            break;
+                        }
                     }
                 }
                 if (i == client_set_max)

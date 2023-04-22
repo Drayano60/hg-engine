@@ -415,7 +415,8 @@ u8 CalcSpeed(void *bw, struct BattleStruct *sp, int client1, int client2, int fl
     {
         if (sp->battlemon[client1].condition & STATUS_FLAG_PARALYZED)
         {
-            speed1 /= 4;
+            // speed1 /= 4;
+            speed1 /= 2;
         }
     }
 
@@ -497,7 +498,8 @@ u8 CalcSpeed(void *bw, struct BattleStruct *sp, int client1, int client2, int fl
     {
         if (sp->battlemon[client2].condition & STATUS_FLAG_PARALYZED)
         {
-            speed2 /= 4;
+            // speed2 /= 4;
+            speed2 /= 2;
         }
     }
 

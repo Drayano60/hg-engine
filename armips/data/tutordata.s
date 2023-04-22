@@ -9154,7 +9154,7 @@ tutordata SPECIES_KOMMO_O, \
                   0
 
 
-tutordata SPECIES_TAPU_KOKO, \
+tutordata SPECIES_ANNIHILAPE, \
                   \
                   \
                   \
@@ -9165,7 +9165,7 @@ tutordata SPECIES_TAPU_KOKO, \
                   0
 
 
-tutordata SPECIES_TAPU_LELE, \
+tutordata SPECIES_FARIGIRAF, \
                   \
                   \
                   \
@@ -9176,7 +9176,7 @@ tutordata SPECIES_TAPU_LELE, \
                   0
 
 
-tutordata SPECIES_TAPU_BULU, \
+tutordata SPECIES_DUDUNSPARCE, \
                   \
                   \
                   \
@@ -9187,7 +9187,7 @@ tutordata SPECIES_TAPU_BULU, \
                   0
 
 
-tutordata SPECIES_TAPU_FINI, \
+tutordata SPECIES_KINGAMBIT, \
                   \
                   \
                   \

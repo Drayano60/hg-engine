@@ -79,7 +79,7 @@
 //.halfword SPECIES_HOOPA
 //.halfword SPECIES_ORANGURU
 //.halfword SPECIES_BRUXISH
-//.halfword SPECIES_TAPU_LELE
+//.halfword SPECIES_FARIGIRAF
 //.halfword SPECIES_COSMOG
 //.halfword SPECIES_COSMOEM
 //.halfword SPECIES_SOLGALEO

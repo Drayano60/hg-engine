@@ -1382,10 +1382,10 @@ struct OVERWORLD_TAG gOWTagToFileNum[] = // skip down a bit to see the parts tha
     { .tag = 1511, .gfx = 1166, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_JANGMO_O
     { .tag = 1512, .gfx = 1167, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_HAKAMO_O
     { .tag = 1513, .gfx = 1168, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_KOMMO_O
-    { .tag = 1514, .gfx = 1169, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_TAPU_KOKO
-    { .tag = 1515, .gfx = 1170, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_TAPU_LELE
-    { .tag = 1516, .gfx = 1171, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_TAPU_BULU
-    { .tag = 1517, .gfx = 1172, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_TAPU_FINI
+    { .tag = 1514, .gfx = 1169, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_ANNIHILAPE
+    { .tag = 1515, .gfx = 1170, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_FARIGIRAF
+    { .tag = 1516, .gfx = 1171, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_DUDUNSPARCE
+    { .tag = 1517, .gfx = 1172, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_KINGAMBIT
     { .tag = 1518, .gfx = 1173, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_COSMOG
     { .tag = 1519, .gfx = 1174, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_COSMOEM
     { .tag = 1520, .gfx = 1175, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_SOLGALEO

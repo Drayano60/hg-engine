@@ -193,3 +193,5 @@ Mummy
 Iron Barbs
 Zen Mode
 Transistor
+S. Overlord
+Armor Tail

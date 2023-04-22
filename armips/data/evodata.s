@@ -695,7 +695,7 @@ evodata SPECIES_MANKEY
     terminateevodata
 
 evodata SPECIES_PRIMEAPE
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_KNOWS_MOVE, MOVE_RAGE_FIST, SPECIES_ANNIHILAPE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -2467,7 +2467,7 @@ evodata SPECIES_WOBBUFFET
     terminateevodata
 
 evodata SPECIES_GIRAFARIG
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_KNOWS_MOVE, MOVE_TWIN_BEAM, SPECIES_FARIGIRAF
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -2503,7 +2503,7 @@ evodata SPECIES_FORRETRESS
     terminateevodata
 
 evodata SPECIES_DUNSPARCE
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_KNOWS_MOVE, MOVE_HYPER_DRILL, SPECIES_DUDUNSPARCE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -8181,7 +8181,7 @@ evodata SPECIES_PAWNIARD
     terminateevodata
 
 evodata SPECIES_BISHARP
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_USE_ITEM, ITEM_LEADERS_CREST, SPECIES_KINGAMBIT
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -10106,7 +10106,7 @@ evodata SPECIES_KOMMO_O
     evolution EVO_NONE, 0, SPECIES_NONE
 terminateevodata
 
-evodata SPECIES_TAPU_KOKO
+evodata SPECIES_ANNIHILAPE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -10118,7 +10118,7 @@ evodata SPECIES_TAPU_KOKO
     evolution EVO_NONE, 0, SPECIES_NONE
 terminateevodata
 
-evodata SPECIES_TAPU_LELE
+evodata SPECIES_FARIGIRAF
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -10130,7 +10130,7 @@ evodata SPECIES_TAPU_LELE
     evolution EVO_NONE, 0, SPECIES_NONE
 terminateevodata
 
-evodata SPECIES_TAPU_BULU
+evodata SPECIES_DUDUNSPARCE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -10142,7 +10142,7 @@ evodata SPECIES_TAPU_BULU
     evolution EVO_NONE, 0, SPECIES_NONE
 terminateevodata
 
-evodata SPECIES_TAPU_FINI
+evodata SPECIES_KINGAMBIT
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE

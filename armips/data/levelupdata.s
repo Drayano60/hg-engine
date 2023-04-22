@@ -1579,6 +1579,28 @@ levelup SPECIES_PRIMEAPE
     learnset MOVE_CLOSE_COMBAT, 54
     terminatelearnset
 
+levelup SPECIES_ANNIHILAPE
+    learnset MOVE_SHADOW_PUNCH, 1
+    learnset MOVE_COUNTER, 1
+    learnset MOVE_FLING, 1
+    learnset MOVE_COVET, 1
+    learnset MOVE_SCRATCH, 1
+    learnset MOVE_LEER, 1
+    learnset MOVE_FOCUS_ENERGY, 4
+    learnset MOVE_LOW_KICK, 8
+    learnset MOVE_FURY_SWIPES, 12
+    learnset MOVE_SEISMIC_TOSS, 16
+    learnset MOVE_ASSURANCE, 20
+    learnset MOVE_CROSS_CHOP, 24
+    learnset MOVE_RAGE, 28
+    learnset MOVE_SWAGGER, 29
+    learnset MOVE_PUNISHMENT, 34
+    learnset MOVE_THRASH, 39
+    learnset MOVE_RAGE_FIST, 44
+    learnset MOVE_OUTRAGE, 49
+    learnset MOVE_CLOSE_COMBAT, 54
+	terminatelearnset
+
 levelup SPECIES_GROWLITHE
     learnset MOVE_ROAR, 1
     learnset MOVE_LEER, 1
@@ -5595,6 +5617,29 @@ levelup SPECIES_GIRAFARIG
     learnset MOVE_FUTURE_SIGHT, 56
     terminatelearnset
 
+levelup SPECIES_FARIGIRAF
+    learnset MOVE_POWER_SWAP, 1
+    learnset MOVE_GUARD_SWAP, 1
+    learnset MOVE_DOUBLE_HIT, 1
+    learnset MOVE_ASTONISH, 1
+    learnset MOVE_TACKLE, 1
+    learnset MOVE_GROWL, 1
+    learnset MOVE_CONFUSION, 4
+    learnset MOVE_ODOR_SLEUTH, 8
+    learnset MOVE_ASSURANCE, 12
+    learnset MOVE_STOMP, 16
+    learnset MOVE_PSYBEAM, 20
+    learnset MOVE_AGILITY, 24
+    learnset MOVE_PSYCHIC_FANGS, 28
+    learnset MOVE_TWIN_BEAM, 32
+    learnset MOVE_CRUNCH, 36
+    learnset MOVE_PSYCHIC, 40
+    learnset MOVE_HYPER_VOICE, 44
+    learnset MOVE_BATON_PASS, 48
+    learnset MOVE_NASTY_PLOT, 52
+    learnset MOVE_FUTURE_SIGHT, 56
+    terminatelearnset
+
 // NEW: Shell Smash, Steamroller
 levelup SPECIES_PINECO
     learnset MOVE_BIDE, 1
@@ -5669,6 +5714,31 @@ levelup SPECIES_DUNSPARCE
     learnset MOVE_DRAGON_RUSH, 45
     learnset MOVE_DOUBLE_EDGE, 48
     learnset MOVE_ENDEAVOR, 51
+    terminatelearnset
+
+levelup SPECIES_DUDUNSPARCE
+    learnset MOVE_RAGE, 1
+    learnset MOVE_FLAIL, 1
+    learnset MOVE_DEFENSE_CURL, 1
+    learnset MOVE_MUD_SLAP, 3
+    learnset MOVE_PURSUIT, 6
+    learnset MOVE_SPITE, 9
+    learnset MOVE_GLARE, 12
+    learnset MOVE_ROLLOUT, 15
+    learnset MOVE_SCREECH, 18
+    learnset MOVE_BODY_SLAM, 21
+    learnset MOVE_ANCIENT_POWER, 24
+    learnset MOVE_DRILL_RUN, 27
+    learnset MOVE_YAWN, 30
+    learnset MOVE_HYPER_DRILL, 33
+    learnset MOVE_AIR_SLASH, 36
+    learnset MOVE_ROOST, 39
+    learnset MOVE_COIL, 42
+    learnset MOVE_DRAGON_RUSH, 45
+    learnset MOVE_DOUBLE_EDGE, 48
+    learnset MOVE_ENDEAVOR, 51
+    learnset MOVE_HURRICANE, 54
+    learnset MOVE_BOOMBURST, 57
     terminatelearnset
 
 levelup SPECIES_GLIGAR
@@ -14780,6 +14850,29 @@ levelup SPECIES_BISHARP
     learnset MOVE_GUILLOTINE, 62
     terminatelearnset
 
+levelup SPECIES_KINGAMBIT
+    learnset MOVE_KOWTOW_CLEAVE, 1
+    learnset MOVE_METAL_BURST, 1
+    learnset MOVE_SCRATCH, 1
+    learnset MOVE_LEER, 1
+    learnset MOVE_PURSUIT, 3
+    learnset MOVE_TORMENT, 6
+    learnset MOVE_METAL_CLAW, 9
+    learnset MOVE_FURY_CUTTER, 12
+    learnset MOVE_FEINT_ATTACK, 15
+    learnset MOVE_SLASH, 18
+    learnset MOVE_EMBARGO, 21
+    learnset MOVE_ASSURANCE, 24
+    learnset MOVE_SCARY_FACE, 27
+    learnset MOVE_METAL_SOUND, 30
+    learnset MOVE_NIGHT_SLASH, 33
+    learnset MOVE_IRON_HEAD, 38
+    learnset MOVE_IRON_DEFENSE, 44
+    learnset MOVE_SUCKER_PUNCH, 50
+    learnset MOVE_SWORDS_DANCE, 56
+    learnset MOVE_GUILLOTINE, 62
+    terminatelearnset
+
 levelup SPECIES_BOUFFALANT
     learnset MOVE_TACKLE, 1
     learnset MOVE_LEER, 1
@@ -17657,90 +17750,6 @@ levelup SPECIES_KOMMO_O
 	learnset MOVE_DRAGON_DANCE, 59
 	learnset MOVE_OUTRAGE, 67
 	learnset MOVE_CLOSE_COMBAT, 75
-	terminatelearnset
-
-levelup SPECIES_TAPU_KOKO
-	learnset MOVE_ELECTRIC_TERRAIN, 1
-	learnset MOVE_BRAVE_BIRD, 1
-	learnset MOVE_POWER_SWAP, 1
-	learnset MOVE_MEAN_LOOK, 1
-	learnset MOVE_QUICK_ATTACK, 1
-	learnset MOVE_FALSE_SWIPE, 1
-	learnset MOVE_WITHDRAW, 1
-	learnset MOVE_THUNDER_SHOCK, 1
-	learnset MOVE_SPARK, 8
-	learnset MOVE_SHOCK_WAVE, 14
-	learnset MOVE_SCREECH, 20
-	learnset MOVE_CHARGE, 26
-	learnset MOVE_WILD_CHARGE, 32
-	learnset MOVE_MIRROR_MOVE, 38
-	learnset MOVE_NATURES_MADNESS, 43
-	learnset MOVE_DISCHARGE, 48
-	learnset MOVE_AGILITY, 53
-	learnset MOVE_ELECTRO_BALL, 58
-	terminatelearnset
-
-levelup SPECIES_TAPU_LELE
-	learnset MOVE_PSYCHIC_TERRAIN, 1
-	learnset MOVE_AROMATIC_MIST, 1
-	learnset MOVE_AROMATHERAPY, 1
-	learnset MOVE_MEAN_LOOK, 1
-	learnset MOVE_DRAINING_KISS, 1
-	learnset MOVE_ASTONISH, 1
-	learnset MOVE_WITHDRAW, 1
-	learnset MOVE_CONFUSION, 1
-	learnset MOVE_PSYWAVE, 8
-	learnset MOVE_PSYBEAM, 14
-	learnset MOVE_SWEET_SCENT, 20
-	learnset MOVE_SKILL_SWAP, 26
-	learnset MOVE_PSYSHOCK, 32
-	learnset MOVE_TICKLE, 38
-	learnset MOVE_NATURES_MADNESS, 43
-	learnset MOVE_EXTRASENSORY, 48
-	learnset MOVE_FLATTER, 53
-	learnset MOVE_MOONBLAST, 58
-	terminatelearnset
-
-levelup SPECIES_TAPU_BULU
-	learnset MOVE_GRASSY_TERRAIN, 1
-	learnset MOVE_WOOD_HAMMER, 1
-	learnset MOVE_SUPERPOWER, 1
-	learnset MOVE_MEAN_LOOK, 1
-	learnset MOVE_DISABLE, 1
-	learnset MOVE_WHIRLWIND, 1
-	learnset MOVE_WITHDRAW, 1
-	learnset MOVE_LEAFAGE, 1
-	learnset MOVE_HORN_ATTACK, 8
-	learnset MOVE_GIGA_DRAIN, 14
-	learnset MOVE_SCARY_FACE, 20
-	learnset MOVE_LEECH_SEED, 26
-	learnset MOVE_HORN_LEECH, 32
-	learnset MOVE_ROTOTILLER, 38
-	learnset MOVE_NATURES_MADNESS, 43
-	learnset MOVE_ZEN_HEADBUTT, 48
-	learnset MOVE_MEGAHORN, 53
-	learnset MOVE_SKULL_BASH, 58
-	terminatelearnset
-
-levelup SPECIES_TAPU_FINI
-	learnset MOVE_MISTY_TERRAIN, 1
-	learnset MOVE_MOONBLAST, 1
-	learnset MOVE_HEAL_PULSE, 1
-	learnset MOVE_MEAN_LOOK, 1
-	learnset MOVE_HAZE, 1
-	learnset MOVE_MIST, 1
-	learnset MOVE_WITHDRAW, 1
-	learnset MOVE_WATER_GUN, 1
-	learnset MOVE_WATER_PULSE, 8
-	learnset MOVE_WHIRLPOOL, 14
-	learnset MOVE_SOAK, 20
-	learnset MOVE_REFRESH, 26
-	learnset MOVE_BRINE, 32
-	learnset MOVE_DEFOG, 38
-	learnset MOVE_NATURES_MADNESS, 43
-	learnset MOVE_MUDDY_WATER, 48
-	learnset MOVE_AQUA_RING, 53
-	learnset MOVE_HYDRO_PUMP, 58
 	terminatelearnset
 
 levelup SPECIES_COSMOG

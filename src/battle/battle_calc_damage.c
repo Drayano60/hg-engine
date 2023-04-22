@@ -942,6 +942,25 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
             movepower /= 2;
         }
     }
+
+    if (GetBattlerAbility(sp, attacker) == ABILITY_SUPREME_OVERLORD)
+    {
+        struct POKEPARTY *party = BattleWorkPokePartyGet(bw, attacker);
+        int count = party->PokeCount;
+
+        int faintedCount = 0;
+        int i;
+
+        for (i = 0; i < count; i++) {
+            if (GetMonData(PokeParty_GetMemberPointer(BattleWorkPokePartyGet(bw, attacker), i), ID_PARA_hp, NULL) == 0) {
+                faintedCount++;
+            }
+        }
+
+        if (faintedCount > 0) {
+            movepower = movepower * (100 + (faintedCount * 10)) / 100;
+        }
+    }
     
     // handle simple
     if (AttackingMon.ability == ABILITY_SIMPLE)

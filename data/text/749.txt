@@ -580,7 +580,7 @@ The user attacks by\ngrinding the target\nbetween steel gears\ntwice in a row.
 The user charges into\nthe foe, using its\npowerful guard hair.\nThe user is hurt by\n25% of damage dealt.
 Drains a foe’s energy\nby using its horns.\nThe user’s HP is\nrestored by half the\ndamage dealt.
 The user rotates its\ngears, raising its\nAttack stat and\nsharply raising its\nSpeed stat.
-FOR AI ONLY
+The user kowtows to\nmake the foe let down\nits guard, and then\nslashes at the foe.\nThis never misses.
 FOR AI ONLY
 FOR AI ONLY
 FOR AI ONLY

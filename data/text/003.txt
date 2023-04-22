@@ -1744,9 +1744,9 @@ The foe’s {STRVAR_1 1, 0, 0} used\nHorn Leech!
 {STRVAR_1 1, 0, 0} used\nShift Gear!
 The wild {STRVAR_1 1, 0, 0} used\nShift Gear!
 The foe’s {STRVAR_1 1, 0, 0} used\nShift Gear!
-{STRVAR_1 1, 0, 0} used\nHidden Power!
-The wild {STRVAR_1 1, 0, 0} used\nHidden Power!
-The foe’s {STRVAR_1 1, 0, 0} used\nHidden Power!
+{STRVAR_1 1, 0, 0} used\nKowtow Cleave!
+The wild {STRVAR_1 1, 0, 0} used\nKowtow Cleave!
+The foe’s {STRVAR_1 1, 0, 0} used\nKowtow Cleave!
 {STRVAR_1 1, 0, 0} used\nHidden Power!
 The wild {STRVAR_1 1, 0, 0} used\nHidden Power!
 The foe’s {STRVAR_1 1, 0, 0} used\nHidden Power!

@@ -107,7 +107,7 @@
 .halfword SPECIES_VENUSAUR
 //.halfword SPECIES_URSHIFU
 //.halfword SPECIES_INTELEON
-//.halfword SPECIES_TAPU_BULU
+//.halfword SPECIES_DUDUNSPARCE
 //.halfword SPECIES_TYPE_NULL
 .halfword SPECIES_TERRAKION
 .halfword SPECIES_SAWSBUCK
@@ -125,7 +125,7 @@
 //.halfword SPECIES_DRACOZOLT
 //.halfword SPECIES_BLACEPHALON
 //.halfword SPECIES_PHEROMOSA
-//.halfword SPECIES_TAPU_KOKO
+//.halfword SPECIES_ANNIHILAPE
 //.halfword SPECIES_ARAQUANID
 //.halfword SPECIES_PRIMARINA
 //.halfword SPECIES_INCINEROAR
@@ -277,7 +277,7 @@
 //.halfword SPECIES_FROSMOTH
 //.halfword SPECIES_BARRASKEWDA
 //.halfword SPECIES_DUBWOOL
-//.halfword SPECIES_TAPU_FINI
+//.halfword SPECIES_KINGAMBIT
 //.halfword SPECIES_PALOSSAND
 //.halfword SPECIES_AMAURA
 //.halfword SPECIES_CLAWITZER
@@ -310,7 +310,7 @@
 //.halfword SPECIES_CUFANT
 //.halfword SPECIES_THIEVUL
 //.halfword SPECIES_NIHILEGO
-//.halfword SPECIES_TAPU_LELE
+//.halfword SPECIES_FARIGIRAF
 //.halfword SPECIES_HAKAMO_O
 //.halfword SPECIES_TSAREENA
 //.halfword SPECIES_SALAZZLE

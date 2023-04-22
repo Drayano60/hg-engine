@@ -841,10 +841,10 @@
 /* SPECIES_JANGMO_O        */ .word 0 // come back and do this right
 /* SPECIES_HAKAMO_O        */ .word 0 // come back and do this right
 /* SPECIES_KOMMO_O         */ .word 0 // come back and do this right
-/* SPECIES_TAPU_KOKO       */ .word 0 // come back and do this right
-/* SPECIES_TAPU_LELE       */ .word 0 // come back and do this right
-/* SPECIES_TAPU_BULU       */ .word 0 // come back and do this right
-/* SPECIES_TAPU_FINI       */ .word 0 // come back and do this right
+/* SPECIES_ANNIHILAPE      */ .word 560
+/* SPECIES_FARIGIRAF       */ .word 1600
+/* SPECIES_DUDUNSPARCE     */ .word 474 /* Using 3 segment */
+/* SPECIES_KINGAMBIT       */ .word 1200
 /* SPECIES_COSMOG          */ .word 0 // come back and do this right
 /* SPECIES_COSMOEM         */ .word 0 // come back and do this right
 /* SPECIES_SOLGALEO        */ .word 0 // come back and do this right

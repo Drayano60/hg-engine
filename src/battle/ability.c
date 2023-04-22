@@ -228,6 +228,24 @@ int MoveCheckDamageNegatingAbilities(struct BattleStruct *sp, int attacker, int 
         }
     }
 
+    // Handle Armor Tail
+    // Block any natural priority move or a move made faster by Prankster if the target or the target's ally has Armor Tail
+    if (
+        (MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_ARMOR_TAIL) == TRUE) ||
+        (MoldBreakerAbilityCheck(sp, attacker, BATTLER_ALLY(defender), ABILITY_ARMOR_TAIL) == TRUE)
+    ) {
+        if (
+            (sp->moveTbl[sp->current_move_index].priority > 0) ||
+            (
+                GetBattlerAbility(sp, attacker) == ABILITY_PRANKSTER &&
+                sp->moveTbl[sp->current_move_index].split == SPLIT_STATUS &&
+                sp->moveTbl[sp->current_move_index].priority >= 0
+            )
+        ) {
+            scriptnum = SUB_SEQ_HANDLE_ARMOR_TAIL;
+        }
+    }
+
     /* Section for type checks */
     /* This works fine here despite not being an ability even in the case of things like Gastro Acid */
     /* Not sure if the priority order for the checks is correct though */
@@ -294,6 +312,7 @@ enum
     SWITCH_IN_CHECK_AURA_BREAK,
     SWITCH_IN_CHECK_IMPOSTER,
     SWITCH_IN_CHECK_AIR_LOCK,
+    SWITCH_IN_CHECK_SUPREME_OVERLORD,
     SWITCH_IN_CHECK_END,
 };
 
@@ -1088,18 +1107,58 @@ int SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
                 for (i = 0; i < client_set_max; i++)
                 {
                     client_no = sp->turn_order[i];
-                    if ((sp->battlemon[client_no].air_lock_flag == 0)
+                    if ((sp->battlemon[client_no].text_on_ability_entry_flag == 0)
                         && (sp->battlemon[client_no].hp)
                         && ((GetBattlerAbility(sp, client_no) == ABILITY_CLOUD_NINE) ||
                             (GetBattlerAbility(sp, client_no) == ABILITY_AIR_LOCK)))
                     {
-                        sp->battlemon[client_no].air_lock_flag = 1;
+                        sp->battlemon[client_no].text_on_ability_entry_flag = 1;
                         sp->client_work = client_no;
 
                         scriptnum = SUB_SEQ_HANDLE_AIR_LOCK_MESSAGE;
 
                         ret = SWITCH_IN_CHECK_MOVE_SCRIPT;
                         break;
+                    }
+                }
+                if (i == client_set_max)
+                {
+                    sp->switch_in_check_seq_no++;
+                }
+
+                break;
+            case SWITCH_IN_CHECK_SUPREME_OVERLORD:
+                for (i = 0; i < client_set_max; i++)
+                {
+                    client_no = sp->turn_order[i];
+                    if ((sp->battlemon[client_no].text_on_ability_entry_flag == 0)
+                        && (sp->battlemon[client_no].hp)
+                        && ((GetBattlerAbility(sp, client_no) == ABILITY_SUPREME_OVERLORD)))
+                    {
+                        struct POKEPARTY *party = BattleWorkPokePartyGet(bw, client_no);
+                        int count = party->PokeCount;
+
+                        int faintedCount = 0;
+                        int i;
+
+                        for (i = 0; i < count; i++) {
+                            if (GetMonData(PokeParty_GetMemberPointer(BattleWorkPokePartyGet(bw, client_no), i), ID_PARA_hp, NULL) == 0) {
+                                faintedCount++;
+                            }
+                        }
+
+                        // Message doesn't show if nothing has fainted
+                        if (faintedCount < 1) {
+                            continue;
+                        } else {
+                            sp->battlemon[client_no].text_on_ability_entry_flag = 1;
+                            sp->client_work = client_no;
+
+                            scriptnum = SUB_SEQ_HANDLE_AIR_LOCK_MESSAGE;
+
+                            ret = SWITCH_IN_CHECK_MOVE_SCRIPT;
+                            break;
+                        }
                     }
                 }
                 if (i == client_set_max)

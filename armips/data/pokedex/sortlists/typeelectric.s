@@ -49,7 +49,7 @@
 //.halfword SPECIES_VIKAVOLT
 //.halfword SPECIES_ORICORIO
 //.halfword SPECIES_TOGEDEMARU
-//.halfword SPECIES_TAPU_KOKO
+//.halfword SPECIES_ANNIHILAPE
 //.halfword SPECIES_XURKITREE
 //.halfword SPECIES_ZERARORA
 //.halfword SPECIES_YAMPER

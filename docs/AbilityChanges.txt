@@ -13,7 +13,15 @@ For official abilities, the following are included and used in the game:
 * The following abilities from Gen 6: Aerilate, Bulletproof, Competitive, Fur Coat, Gooey, Mega Launcher, Pixilate, Protean, Refrigerate, Strong Jaw, Tough Claws.
 * The following abilities from Gen 7: Fluffy, Galvanize, Merciless, Slush Rush, Tangling Hair, Triage.
 * The following abilities from Gen 8: Transistor.
-* The following abilities from Gen 9: Sharpness.
+* The following abilities from Gen 9: Armor Tail, Sharpness, Supreme Overlord.
+
+-------------------
+Inaccurate Abilities
+-------------------
+- Supreme Overlord:
+This gives the user an additive 10% boost based on the amount of fainted Pokémon when it uses a move.
+This differs from S/V which instead checks how many times Pokémon have fainted on that side of the field during the battle (capping at 5), and is unchanged by reviving allies.
+This means that in the Aurora Crystal version, you will lose power if you revive an ally mid-battle, but also that you can, for example, enter a battle with five fainted allies and immediately get a 50% boost.
 
 -------------------
 Updated Abilities

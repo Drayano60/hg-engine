@@ -831,9 +831,32 @@ void ServerHPCalc(void *bw, struct BattleStruct *sp)
 
         sp->client_no_hit[sp->defence_client] = sp->attack_client;
 
-        if ((sp->battlemon[sp->defence_client].condition2 & CONDITION2_SUBSTITUTE)
-         && (sp->damage < 0)
-         && (GetBattlerAbility(sp, sp->attack_client) != ABILITY_INFILTRATOR))
+        if
+        (
+            (sp->battlemon[sp->defence_client].condition2 & CONDITION2_SUBSTITUTE)
+            && (sp->damage < 0)
+            && (GetBattlerAbility(sp, sp->attack_client) != ABILITY_INFILTRATOR)
+            /* Sound moves ignore a substitute - very bad code but I'm lazy */
+            && (sp->current_move_index != MOVE_BOOMBURST)
+            && (sp->current_move_index != MOVE_BUG_BUZZ)
+            && (sp->current_move_index != MOVE_CHATTER)
+            && (sp->current_move_index != MOVE_CONFIDE)
+            && (sp->current_move_index != MOVE_DISARMING_VOICE)
+            && (sp->current_move_index != MOVE_ECHOED_VOICE)
+            && (sp->current_move_index != MOVE_GRASS_WHISTLE)
+            && (sp->current_move_index != MOVE_GROWL)
+            && (sp->current_move_index != MOVE_HYPER_VOICE)
+            && (sp->current_move_index != MOVE_METAL_SOUND)
+            && (sp->current_move_index != MOVE_NOBLE_ROAR)
+            && (sp->current_move_index != MOVE_PERISH_SONG)
+            && (sp->current_move_index != MOVE_ROAR)
+            && (sp->current_move_index != MOVE_SCREECH)
+            && (sp->current_move_index != MOVE_SING)
+            && (sp->current_move_index != MOVE_SNARL)
+            && (sp->current_move_index != MOVE_SNORE)
+            && (sp->current_move_index != MOVE_SUPERSONIC)
+            && (sp->current_move_index != MOVE_UPROAR)
+        )
         {
             if ((sp->battlemon[sp->defence_client].moveeffect.substitute_hp + sp->damage) <= 0)
             {

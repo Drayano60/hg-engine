@@ -247,8 +247,8 @@ Notes: A Rock Head clone that's more thematically fitting for Flareon, thanks to
 Heat Up
 -------------------
 Users: Cyndaquil, Quilava, Typhlosion.
-Effect: If the user KOs a Pokémon, its Special Attack stat is increased.
-Notes: A special attacking clone of Moxie that weakly leans into Cyndaquil's anime appearance often requiring it to get its flame ready to start using Fire-moves. I couldn't really think of an impactful third ability for Cyndaquil, so I made one up!
+Effect: If a Pokémon with Heat Up knocks out any Pokémon on the field with a Fire-type move, its Special Attack stat is increased by one stage.
+Notes: A less general special attacking clone of Moxie that weakly leans into Cyndaquil's anime appearance often requiring it to get its flame ready to start using Fire-moves. I couldn't really think of an impactful third ability for Cyndaquil, so I made one up!
 
 Huge Impact
 -------------------

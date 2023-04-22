@@ -1528,7 +1528,7 @@ BOOL MoveHitAttackerAbilityCheck(void *bw, struct BattleStruct *sp, int *seq_no)
         */
         case ABILITY_MOXIE:
             if ((sp->defence_client == sp->fainting_client)
-                && BATTLERS_ON_DIFFERENT_SIDE(sp->attack_client, sp->fainting_client)
+                // && BATTLERS_ON_DIFFERENT_SIDE(sp->attack_client, sp->fainting_client)
                 && ((sp->server_status_flag2 & SERVER_STATUS2_FLAG_x10) == 0)
                 && (sp->battlemon[sp->attack_client].hp)
                 && ((sp->waza_status_flag & WAZA_STATUS_FLAG_NO_OUT) == 0))
@@ -1549,11 +1549,15 @@ BOOL MoveHitAttackerAbilityCheck(void *bw, struct BattleStruct *sp, int *seq_no)
         case ABILITY_AS_ONE_SPECTRIER:
         */
         case ABILITY_HEAT_UP:
-            if ((sp->defence_client == sp->fainting_client)
-                && BATTLERS_ON_DIFFERENT_SIDE(sp->attack_client, sp->fainting_client)
-                && ((sp->server_status_flag2 & SERVER_STATUS2_FLAG_x10) == 0)
-                && (sp->battlemon[sp->attack_client].hp)
-                && ((sp->waza_status_flag & WAZA_STATUS_FLAG_NO_OUT) == 0))
+            if 
+                (
+                    (sp->defence_client == sp->fainting_client)
+                    // && BATTLERS_ON_DIFFERENT_SIDE(sp->attack_client, sp->fainting_client)
+                    && ((sp->server_status_flag2 & SERVER_STATUS2_FLAG_x10) == 0)
+                    && (sp->battlemon[sp->attack_client].hp)
+                    && ((sp->waza_status_flag & WAZA_STATUS_FLAG_NO_OUT) == 0)
+                    && (sp->moveTbl[sp->current_move_index].type == TYPE_FIRE)
+                )
             {
 
                 if (sp->battlemon[sp->attack_client].states[STAT_SPATK] < 12)

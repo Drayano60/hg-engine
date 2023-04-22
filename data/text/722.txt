@@ -177,7 +177,7 @@ The Pokémon’s fur stops\nit taking recoil damage.
 Odd steps foul a foe’s aim,\nreducing accuracy by 20%.
 Contact with the Pokémon\nwill burn the foe.
 Powers up sound-based\nmoves by 33%.
-Boosts the Sp. Atk stat\nafter KOing any Pokémon.
+Boosts Sp. Atk if a foe is\nKOed with a Fire move.
 Powers up aura and pulse\nmoves by 33%.
 Powers up moves used by\nallies by 25%.
 Contact damages the foe\nby 12.5% of their max HP.

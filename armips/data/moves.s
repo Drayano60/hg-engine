@@ -8914,20 +8914,19 @@ movedata MOVE_SHIFT_GEAR
     contesttype 0
     terminatedata
 
-// Copy of Hidden Power with fixed type, for AI use only
-movedata MOVE_HIDDEN_POWER_FIRE
-    battleeffect 0
-    pss SPLIT_SPECIAL
-    basepower 60
-    type TYPE_FIRE
-    accuracy 100
-    pp 15
+movedata MOVE_KOWTOW_CLEAVE
+    battleeffect 17
+    pss SPLIT_PHYSICAL
+    basepower 85
+    type TYPE_DARK
+    accuracy 0
+    pp 10
     effectchance 0
     target MOVE_TARGET_SELECTED
     priority 0
-    flags FLAG_KINGS_ROCK | FLAG_MIRROR_MOVE | FLAG_PROTECT
-    appeal 0x17
-    contesttype CONTEST_SMART
+    flags FLAG_KINGS_ROCK | FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
+    appeal 0
+    contesttype 0
     terminatedata
 
 // Copy of Hidden Power with fixed type, for AI use only

@@ -14851,6 +14851,7 @@ levelup SPECIES_BISHARP
     terminatelearnset
 
 levelup SPECIES_KINGAMBIT
+    learnset MOVE_KOWTOW_CLEAVE, 1
     learnset MOVE_METAL_BURST, 1
     learnset MOVE_SCRATCH, 1
     learnset MOVE_LEER, 1

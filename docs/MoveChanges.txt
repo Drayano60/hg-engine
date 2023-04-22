@@ -8,7 +8,7 @@ Some moves have also received further changes which are listed below. Changes ar
 -------------------
 Newly Added Moves
 -------------------
-Aurora Crystal contains 111 new moves in addition to the 467 in Heart Gold and Soul Silver normally. 106 of these are moves that were introduced in later generation games, and the remaining 5 are custom signature moves for a few Pokémon.
+Aurora Crystal contains 112 new moves in addition to the 467 in Heart Gold and Soul Silver normally. 107 of these are moves that were introduced in later generation games, and the remaining 5 are custom signature moves for a few Pokémon.
 
 Gen 5 Moves (44)
 -------------------
@@ -118,13 +118,14 @@ Stone Axe
 Triple Axel
 Wave Crash
 
-Gen 9 Moves (10)
+Gen 9 Moves (11)
 -------------------
 Aqua Cutter
 Chilling Water
 Comeuppance
 Hyper Drill
 Ice Spinner
+Kowtow Cleave
 Pounce
 Rage Fist
 Raging Bull

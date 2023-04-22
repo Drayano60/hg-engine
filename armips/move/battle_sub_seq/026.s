@@ -14,7 +14,7 @@
 a001_026:
     abilitycheck 0x0, BATTLER_xFF, ABILITY_MAGIC_GUARD, _00A8
     changemondatabyvar VAR_OP_GET_RESULT, BATTLER_xFF, 0x30, VAR_HP_TEMP
-    damagediv 32, 8
+    damagediv 32, 16 /* Updated to 1/16 HP each turn instead of 1/8 */
     abilitycheck 0x1, BATTLER_xFF, ABILITY_HEATPROOF, _0054
     damagediv 32, 2
 _0054:

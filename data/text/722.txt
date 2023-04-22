@@ -195,3 +195,4 @@ The Pokémon changes form\nwhen its HP is 50% or less.
 Powers up Electric-type\nmoves by 50%.
 Powers up moves by 10%\nfor each fainted ally.
 Blocks priority moves used\nagainst it or its ally.
+Blocks priority moves used\nagainst it or its ally.

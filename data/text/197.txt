@@ -1399,3 +1399,6 @@ The foe’s {STRVAR_1 1, 0, 0}’s Supreme Overlord\nlet it gain strength from t
 Armor Tail blocks {STRVAR_1 1, 0, 0}\nfrom using {STRVAR_1 6, 2, 0}!
 Armor Tail blocks the wild {STRVAR_1 1, 0, 0}\nfrom using {STRVAR_1 6, 2, 0}!
 Armor Tail blocks the foe’s {STRVAR_1 1, 0, 0}\nfrom using {STRVAR_1 6, 2, 0}!
+Dazzling blocks {STRVAR_1 1, 0, 0}\nfrom using {STRVAR_1 6, 2, 0}!
+Dazzling blocks the wild {STRVAR_1 1, 0, 0}\nfrom using {STRVAR_1 6, 2, 0}!
+Dazzling blocks the foe’s {STRVAR_1 1, 0, 0}\nfrom using {STRVAR_1 6, 2, 0}!

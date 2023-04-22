@@ -246,6 +246,25 @@ int MoveCheckDamageNegatingAbilities(struct BattleStruct *sp, int attacker, int 
         }
     }
 
+    // Handle Dazzling
+    // Block any natural priority move or a move made faster by Prankster if the target or the target's ally has Dazzling
+    // Duplicated because not sure if text has parameter support for an ally ability
+    if (
+        (MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_DAZZLING) == TRUE) ||
+        (MoldBreakerAbilityCheck(sp, attacker, BATTLER_ALLY(defender), ABILITY_DAZZLING) == TRUE)
+    ) {
+        if (
+            (sp->moveTbl[sp->current_move_index].priority > 0) ||
+            (
+                GetBattlerAbility(sp, attacker) == ABILITY_PRANKSTER &&
+                sp->moveTbl[sp->current_move_index].split == SPLIT_STATUS &&
+                sp->moveTbl[sp->current_move_index].priority >= 0
+            )
+        ) {
+            scriptnum = SUB_SEQ_HANDLE_DAZZLING;
+        }
+    }
+
     /* Section for type checks */
     /* This works fine here despite not being an ability even in the case of things like Gastro Acid */
     /* Not sure if the priority order for the checks is correct though */

@@ -15763,7 +15763,7 @@ Level Up Moves:
 -------------------
 456 - Finneon
 -------------------
-Abilities: Swift Swim / Storm Drain / Water Veil ⟶ Swift Swim / Storm Drain / Illuminate**
+Abilities: Swift Swim / Storm Drain / Water Veil ⟶ Swift Swim / Storm Drain / Dazzling**
 Base Stats: 49/49/56/49/61/66 (330) ⟶ 49/39*/56/59*/61/66 (330)
 Held Item: Rindo Berry (5%)
 Type: Water
@@ -15799,7 +15799,7 @@ Level Up Moves:
 -------------------
 457 - Lumineon
 -------------------
-Abilities: Swift Swim / Storm Drain / Water Veil ⟶ Swift Swim / Storm Drain / Illuminate**
+Abilities: Swift Swim / Storm Drain / Water Veil ⟶ Swift Swim / Storm Drain / Dazzling**
 Base Stats: 69/69/76/69/86/91 (460) ⟶ 69/59*/86*/89*/86/91 (480)
 Held Item: Rindo Berry (5%)
 Type: Water

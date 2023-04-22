@@ -57,7 +57,8 @@ _01DC:
 _0250:
     setstatus2effect BATTLER_ADDL_EFFECT, 0x1
     waitmessage
-    random 3, 2
+    // random 3, 2 /* Sleep lasts for 1-4 actions, with the Pokemon waking up on the next action */
+    random 2, 2 /* Sleep lasts for 1-3 actions, with the Pokemon waking up on the next action */
     changemondatabyvar VAR_OP_SETMASK, BATTLER_ADDL_EFFECT, 0x34, VAR_09
     if IF_EQUAL, VAR_05, 0x3, _02AC
     printmessage 0x2F, 0x2, 0x7, "NaN", "NaN", "NaN", "NaN", "NaN"

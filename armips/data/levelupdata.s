@@ -1579,6 +1579,10 @@ levelup SPECIES_PRIMEAPE
     learnset MOVE_CLOSE_COMBAT, 54
     terminatelearnset
 
+levelup SPECIES_ANNIHILAPE
+	learnset MOVE_TACKLE, 1
+	terminatelearnset
+
 levelup SPECIES_GROWLITHE
     learnset MOVE_ROAR, 1
     learnset MOVE_LEER, 1
@@ -5595,6 +5599,10 @@ levelup SPECIES_GIRAFARIG
     learnset MOVE_FUTURE_SIGHT, 56
     terminatelearnset
 
+levelup SPECIES_FARIGIRAF
+	learnset MOVE_TACKLE, 1
+	terminatelearnset
+
 // NEW: Shell Smash, Steamroller
 levelup SPECIES_PINECO
     learnset MOVE_BIDE, 1
@@ -5670,6 +5678,10 @@ levelup SPECIES_DUNSPARCE
     learnset MOVE_DOUBLE_EDGE, 48
     learnset MOVE_ENDEAVOR, 51
     terminatelearnset
+
+levelup SPECIES_DUDUNSPARCE
+	learnset MOVE_TACKLE, 1
+	terminatelearnset
 
 levelup SPECIES_GLIGAR
     learnset MOVE_POISON_STING, 1
@@ -14780,6 +14792,10 @@ levelup SPECIES_BISHARP
     learnset MOVE_GUILLOTINE, 62
     terminatelearnset
 
+levelup SPECIES_KINGAMBIT
+	learnset MOVE_TACKLE, 1
+	terminatelearnset
+
 levelup SPECIES_BOUFFALANT
     learnset MOVE_TACKLE, 1
     learnset MOVE_LEER, 1
@@ -17657,22 +17673,6 @@ levelup SPECIES_KOMMO_O
 	learnset MOVE_DRAGON_DANCE, 59
 	learnset MOVE_OUTRAGE, 67
 	learnset MOVE_CLOSE_COMBAT, 75
-	terminatelearnset
-
-levelup SPECIES_ANNIHILAPE
-	learnset MOVE_TACKLE, 1
-	terminatelearnset
-
-levelup SPECIES_FARIGIRAF
-	learnset MOVE_TACKLE, 1
-	terminatelearnset
-
-levelup SPECIES_DUDUNSPARCE
-	learnset MOVE_TACKLE, 1
-	terminatelearnset
-
-levelup SPECIES_KINGAMBIT
-	learnset MOVE_TACKLE, 1
 	terminatelearnset
 
 levelup SPECIES_COSMOG

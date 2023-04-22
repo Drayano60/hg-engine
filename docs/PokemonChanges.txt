@@ -1947,6 +1947,38 @@ Level Up Moves:
 54 - Close Combat
 
 -------------------
+979 - Annihilape
+-------------------
+Abilities: Vital Spirit / Inner Focus / Defiant
+Base Stats: 110/115/80/50/90/90 (535)
+Held Item: None
+Type: Fighting / Ghost
+
+New Moves:
+- None
+
+Level Up Moves:
+01 - Shadow Punch
+01 - Counter
+01 - Fling
+01 - Covet
+01 - Scratch
+01 - Leer
+04 - Focus Energy
+08 - Low Kick
+12 - Fury Swipes
+16 - Seismic Toss
+20 - Assurance
+24 - Cross Chop
+28 - Rage
+29 - Swagger
+34 - Punishment
+39 - Thrash
+44 - Rage Fist
+49 - Outrage
+54 - Close Combat
+
+-------------------
 058 - Growlithe
 -------------------
 Abilities: Intimidate / Flash Fire / Justified
@@ -7604,8 +7636,42 @@ Held Item: Persim Berry (5%)
 Type: Normal / Psychic
 
 New Moves:
-- Dark Pulse (TM)
 - High Horsepower (Tutor)
+
+Level Up Moves:
+01 - Power Swap
+01 - Guard Swap
+01 - Double Hit
+01 - Astonish
+01 - Tackle
+01 - Growl
+04 - Confusion
+08 - Odor Sleuth
+12 - Assurance
+16 - Stomp
+20 - Psybeam
+24 - Agility
+28 - Psychic Fangs
+32 - Twin Beam
+36 - Crunch
+40 - Psychic
+44 - Hyper Voice
+48 - Baton Pass
+52 - Nasty Plot
+56 - Future Sight
+
+-------------------
+981 - Farigiraf
+-------------------
+Abilities: Cud Chew / Armor Tail / Sap Sipper ⟶ Armor Tail / Armor Tail / Sap Sipper
+Base Stats: 120/90/70/110/70/60 (520)
+Held Item: None
+Type: Normal / Psychic
+
+New Moves:
+- High Horsepower (Tutor)
+
+Notes: Cud Chew can't be added to the game yet, so it has been replaced with Armor Tail.
 
 Level Up Moves:
 01 - Power Swap
@@ -7736,6 +7802,45 @@ Level Up Moves:
 45 - Dragon Rush
 48 - Double-Edge
 51 - Endeavor
+
+-------------------
+982 - Dudunsparce
+-------------------
+Abilities: Serene Grace / Run Away / Rattled
+Base Stats: 125/100/80/85/75/55 (520)
+Held Item: None
+Type: Normal
+
+New Moves:
+- Dragon Dance (Tutor)
+
+Notes:
+Only the three-segment form of Dudunsparce has been added to the game.
+This Pokémon's name is written as "Dudnsparce" in the game due to the 10 character limit.
+
+Level Up Moves:
+01 - Rage
+01 - Flail
+01 - Defense Curl
+03 - Mud-Slap
+06 - Pursuit
+09 - Spite
+12 - Glare
+15 - Rollout
+18 - Screech
+21 - Body Slam
+24 - Ancient Power
+27 - Drill Run
+30 - Yawn
+33 - Hyper Drill
+36 - Air Slash
+39 - Roost
+42 - Coil
+45 - Dragon Rush
+48 - Double-Edge
+51 - Endeavor
+54 - Hurricane
+57 - Boomburst
 
 -------------------
 207 - Gligar
@@ -20227,6 +20332,36 @@ Held Item: None
 Type: Dark / Steel
 
 Level Up Moves:
+01 - Metal Burst
+01 - Scratch
+01 - Leer
+03 - Pursuit
+06 - Torment
+09 - Metal Claw
+12 - Fury Cutter
+15 - Feint Attack
+18 - Slash
+21 - Embargo
+24 - Assurance
+27 - Scary Face
+30 - Metal Sound
+33 - Night Slash
+38 - Iron Head
+44 - Iron Defense
+50 - Sucker Punch
+56 - Swords Dance
+62 - Guillotine
+
+-------------------
+983 - Kingambit
+-------------------
+Abilities: Defiant / Supreme Overlord / Pressure
+Base Stats: 100/135/120/60/85/50 (550)
+Held Item: None
+Type: Dark / Steel
+
+Level Up Moves:
+01 - Kowtow Cleave
 01 - Metal Burst
 01 - Scratch
 01 - Leer

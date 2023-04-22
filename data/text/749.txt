@@ -118,7 +118,7 @@ The user takes a\ndeep breath and\nfocuses to raise the\ncritical-hit ratio of\n
 The user endures\nattacks for two\nturns, then strikes\nback to cause double\nthe damage taken.
 The user waggles a\nfinger and stimulates\nthe brain into\nrandomly using nearly\nany move.
 The user counters\nthe foe by mimicking\nthe move last used\nby the foe.
-The user blows up to\ninflict damage on all\nPokémon in battle.\nThe user faints upon\nusing this move.
+The user blows up.\nAll Pokémon in battle\ntake damage based on\nhalf of their Defense.\nThe user then faints.
 A large egg is hurled\nat the foe, which\nthen explodes to\ninflict damage.
 The foe is licked with\na long tongue, which\ncauses damage.\nThis has a 30% chance\nto paralyze the foe.
 The foe is attacked\nwith a discharge of\nfilthy gases.\nThis has a 40% chance\nto poison the foe.
@@ -151,7 +151,7 @@ The foe is attacked\nwith an odd, hot\nenergy wave.\nThe attack varies in\ninten
 The user just flops\nand splashes around\nto no effect at all...\n\n
 The user alters its\ncellular structure to\nliquefy itself,\nsharply raising its\nDefense stat.
 The foe is hammered\nwith a large pincer.\nThis move has a high\ncritical-hit ratio.\n
-The user explodes to\ninflict damage on all\nPokémon in battle.\nThe user faints upon\nusing this move.
+The user explodes.\nAll Pokémon in battle\ntake damage based on\nhalf of their Defense.\nThe user then faints.
 The foe is raked with\nsharp claws or\nscythes for two to\nfive times in quick\nsuccession.
 The user throws the\nbone it holds. The\nbone loops to hit the\nfoe twice, coming and\ngoing.
 The user goes to\nsleep for two turns.\nIt fully restores the\nuser’s HP and heals\nany status problem.

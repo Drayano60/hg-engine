@@ -598,6 +598,25 @@ u8 CalcSpeed(void *bw, struct BattleStruct *sp, int client1, int client2, int fl
             priority2++;
         }
 
+        /* Handle Gale Wings - not going to include 100% HP condition */
+        if
+        (
+            GetBattlerAbility(sp, client1) == ABILITY_GALE_WINGS
+            && sp->moveTbl[move1].type == TYPE_FLYING
+            // && sp->battlemon[client1].hp == sp->battlemon[client1].maxhp
+        ) {
+            priority1++;
+        }
+
+        if
+        (
+            GetBattlerAbility(sp, client2) == ABILITY_GALE_WINGS
+            && sp->moveTbl[move2].type == TYPE_FLYING
+            // && sp->battlemon[client2].hp == sp->battlemon[client2].maxhp
+        ) {
+            priority2++;
+        }
+
         // handle triage
         if (GetBattlerAbility(sp, client1) == ABILITY_TRIAGE) {
             for (i = 0; i < NELEMS(TriageMoveEffects); i++)

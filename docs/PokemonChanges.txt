@@ -19028,7 +19028,7 @@ Level Up Moves:
 -------------------
 580 - Ducklett
 -------------------
-Abilities: Keen Eye / Big Pecks / Hydration
+Abilities: Keen Eye / Big Pecks / Hydration ⟶ Keen Eye / Big Pecks / Gale Wings**
 Base Stats: 62/44/50/44/50/55 (305) ⟶ 62/34*/50/54*/50/55 (305)
 Held Item: None
 Type: Water / Flying
@@ -19055,7 +19055,7 @@ Level Up Moves:
 -------------------
 581 - Swanna
 -------------------
-Abilities: Keen Eye / Big Pecks / Hydration
+Abilities: Keen Eye / Big Pecks / Hydration ⟶ Keen Eye / Big Pecks / Gale Wings**
 Base Stats: 75/87/63/87/63/98 (473)
 Held Item: None
 Type: Water / Flying

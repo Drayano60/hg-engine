@@ -635,8 +635,8 @@
 /* SPECIES_SOLOSIS                     */ .halfword ABILITY_REGENERATOR
 /* SPECIES_DUOSION                     */ .halfword ABILITY_REGENERATOR
 /* SPECIES_REUNICLUS                   */ .halfword ABILITY_REGENERATOR
-/* SPECIES_DUCKLETT                    */ .halfword ABILITY_HYDRATION
-/* SPECIES_SWANNA                      */ .halfword ABILITY_HYDRATION
+/* SPECIES_DUCKLETT                    */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_GALE_WINGS : ABILITY_HYDRATION
+/* SPECIES_SWANNA                      */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_GALE_WINGS : ABILITY_HYDRATION
 /* SPECIES_VANILLITE                   */ .halfword ABILITY_WEAK_ARMOR
 /* SPECIES_VANILLISH                   */ .halfword ABILITY_WEAK_ARMOR
 /* SPECIES_VANILLUXE                   */ .halfword ABILITY_WEAK_ARMOR

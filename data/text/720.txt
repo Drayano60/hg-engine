@@ -196,3 +196,4 @@ Transistor
 S. Overlord
 Armor Tail
 Dazzling
+Gale Wings

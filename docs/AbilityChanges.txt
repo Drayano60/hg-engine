@@ -10,7 +10,7 @@ The abilities each Pokémon has are listed in the Pokémon Changes document, tho
 For official abilities, the following are included and used in the game:
 * All abilities from Gen 3 - Gen 4.
 * Almost all abilities from Gen 5, excluding Victory Star, Turboblaze and Teravolt.
-* The following abilities from Gen 6: Aerilate, Bulletproof, Competitive, Fur Coat, Gooey, Mega Launcher, Pixilate, Protean, Refrigerate, Strong Jaw, Tough Claws.
+* The following abilities from Gen 6: Aerilate, Bulletproof, Competitive, Fur Coat, Gale Wings, Gooey, Mega Launcher, Pixilate, Protean, Refrigerate, Strong Jaw, Tough Claws.
 * The following abilities from Gen 7: Dazzling, Fluffy, Galvanize, Merciless, Slush Rush, Tangling Hair, Triage.
 * The following abilities from Gen 8: Transistor.
 * The following abilities from Gen 9: Armor Tail, Sharpness, Supreme Overlord.
@@ -18,6 +18,9 @@ For official abilities, the following are included and used in the game:
 -------------------
 Inaccurate Abilities
 -------------------
+- Gale Wings:
+This intentionally does not have the maximum HP requirement from Gen 7+, so Flying-type moves used by a Pokémon with this ability will always have +1 priority.
+
 - Supreme Overlord:
 This gives the user an additive 10% boost based on the amount of fainted Pokémon when it uses a move.
 This differs from S/V which instead checks how many times Pokémon have fainted on that side of the field during the battle (capping at 5), and is unchanged by reviving allies.

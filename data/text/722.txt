@@ -196,3 +196,4 @@ Powers up Electric-type\nmoves by 50%.
 Powers up moves by 10%\nfor each fainted ally.
 Blocks priority moves used\nagainst it or its ally.
 Blocks priority moves used\nagainst it or its ally.
+Gives +1 priority to\nFlying-type moves.

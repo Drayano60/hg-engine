@@ -235,10 +235,17 @@ int MoveCheckDamageNegatingAbilities(struct BattleStruct *sp, int attacker, int 
         (MoldBreakerAbilityCheck(sp, attacker, BATTLER_ALLY(defender), ABILITY_ARMOR_TAIL) == TRUE)
     ) {
         if (
-            (sp->moveTbl[sp->current_move_index].priority > 0) ||
+            (sp->moveTbl[sp->current_move_index].priority > 0)
+            ||
             (
                 GetBattlerAbility(sp, attacker) == ABILITY_PRANKSTER &&
                 sp->moveTbl[sp->current_move_index].split == SPLIT_STATUS &&
+                sp->moveTbl[sp->current_move_index].priority >= 0
+            )
+            ||
+            (
+                GetBattlerAbility(sp, attacker) == ABILITY_GALE_WINGS &&
+                sp->moveTbl[sp->current_move_index].type == TYPE_FLYING &&
                 sp->moveTbl[sp->current_move_index].priority >= 0
             )
         ) {
@@ -254,10 +261,17 @@ int MoveCheckDamageNegatingAbilities(struct BattleStruct *sp, int attacker, int 
         (MoldBreakerAbilityCheck(sp, attacker, BATTLER_ALLY(defender), ABILITY_DAZZLING) == TRUE)
     ) {
         if (
-            (sp->moveTbl[sp->current_move_index].priority > 0) ||
+            (sp->moveTbl[sp->current_move_index].priority > 0)
+            ||
             (
                 GetBattlerAbility(sp, attacker) == ABILITY_PRANKSTER &&
                 sp->moveTbl[sp->current_move_index].split == SPLIT_STATUS &&
+                sp->moveTbl[sp->current_move_index].priority >= 0
+            )
+            ||
+            (
+                GetBattlerAbility(sp, attacker) == ABILITY_GALE_WINGS &&
+                sp->moveTbl[sp->current_move_index].type == TYPE_FLYING &&
                 sp->moveTbl[sp->current_move_index].priority >= 0
             )
         ) {

@@ -185,6 +185,7 @@ static const u16 SharpnessMovesTable[] = {
     MOVE_CROSS_POISON,
     MOVE_CUT,
     MOVE_FURY_CUTTER,
+    MOVE_KOWTOW_CLEAVE,
     MOVE_LEAF_BLADE,
     MOVE_NIGHT_SLASH,
     MOVE_PSYCHO_CUT,

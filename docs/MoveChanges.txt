@@ -6,6 +6,23 @@ Aurora Crystal features moves from the original Heart Gold and Soul Silver as we
 Some moves have also received further changes which are listed below. Changes are shown relative to a move's values after being updated to modern generation mechanics.
 
 -------------------
+Status Conditions
+-------------------
+Some status conditions have been modified to better fit their modern generation counterparts.
+
+- Confusion:
+A Pokémon that is confused still has a 50% chance to hit itself each turn (this could not be changed to 33% because of some technical complications). To compensate for this, a Pokémon will stay confused for 1-3 of its turns (down from 1-4), and then snap out of confusion on its following turn.
+
+- Burn:
+A Pokémon that is burned will take damage equal to 1/16 of its max HP (down from 1/8) at the end of each turn.
+
+- Paralysis:
+A Pokémon that is paralyzed has its effective speed halved in battle (instead of quartered).
+
+- Sleep:
+A Pokémon will now be fast asleep for 1-3 (down from 1-4) of its turns, and then wake up and attack on its following turn.
+
+-------------------
 Newly Added Moves
 -------------------
 Aurora Crystal contains 112 new moves in addition to the 467 in Heart Gold and Soul Silver normally. 107 of these are moves that were introduced in later generation games, and the remaining 5 are custom signature moves for a few Pokémon.
@@ -285,6 +302,9 @@ This now drops the targets' Speed stat by two stages instead of one.
 - Sweet Scent:
 This now drops the targets' evasiveness by two stages instead of one.
 
+- Substitute:
+A Pokémon behind a Substitute can now be attacked directly by any sound-based moves (Hyper Voice, Growl, etc.) or by any Pokémon with the ability Infiltrator.
+
 - Teleport:
 Now switches out the user in a Trainer battle, has -6 priority. Ends wild battles.
 
@@ -304,10 +324,9 @@ If the user is holding a Grip Claw, the duration is fixed at six turns instead o
 Due to the way the Gen 4 game engine handles the binding status, it cannot currently be any longer than six turns of damage.
 
 - Encore:
-The effect of Encore now always applies on the turn it is used and the subsequent three turns, with the effect ending after the third turn. The duration is no longer randomized.
-This differs slightly from Scarlet & Violet where it affects the target for three moves instead of three turns, which can include the same turn Encore is used if the target is slower.
-In Aurora Crystal, the target will be forced to use its last used move on the turn they receive an encore (if they have yet to move), and then on the three turns after that.
-Additionally, in a double battle, a Pokémon with an encore is still unable to choose the target of their encored attack (as is the case in regular HG/SS) as this can't be changed currently.
+The effect of Encore now always lasts for 3 turns (instead of 3-7), NOT including the turn it gets applied. The effect will then wear off at the end of the third turn.
+This differs slightly from Scarlet & Violet, where it applies for three of the target's actions, so the total amount of turns will depend on the Encore user's Speed stat.
+Additionally, in a double battle, a Pokémon under the effect of Encore is still unable to choose the target of their attack (as is the case in regular HG/SS) as this can't be changed currently.
 
 - Dragon Rush:
 This now does double damage if the opponent has used Minimize. However, it is not a guaranteed hit in that case.
@@ -321,20 +340,39 @@ It's currently unknown how to change this so it is still the case in Aurora Crys
 This now deals double damage if the target has a held item (unless the item is the Griseous Orb, or the target has the Multitype ability).
 However, it still "disables" the item during the battle instead of outright deleting it, as the item would otherwise be lost permanently.
 
+- Taunt:
+The effect of Taunt now always lasts for 3 turns (instead of 3-5), NOT including the turn it gets applied. The effect will then wear off at the end of the third turn.
+This differs slightly from Scarlet & Violet, where it applies for three of the target's actions, so the total amount of turns will depend on the Taunt user's Speed stat.
+
 Moves Not Updated
 --------------------------------------
-The following moves have NOT had their effects updated and still work as they do in Heart Gold and Soul Silver:
+The following moves have NOT had their effects updated (generally due to not knowing how to do so yet) and still work as they do in Heart Gold and Soul Silver:
 
 (Note: This may not be an exhuastive list; if a move's effect did change between generations and it's not mentioned anywhere, then there's a very good chance it still acts the same as it does in HG/SS normally. If you do find a case like this, please let me know and I'll add it to the list!)
+
+- Aromatherapy:
+This still cures Pokémon behind a substitute, does not list the Pokémon that are healed, and cannot activate an ally's Sap Sipper ability.
+
+- Baton Pass:
+If a Pokémon under the effect of Mean Look uses Baton Pass, the Pokémon that comes out is also under the effect of Mean Look (which is not the case as of Gen 5).
 
 - Beat Up:
 This still uses the original damage calculation.
 
+- Conversion 2:
+The effect is still based on the last move the Pokémon was hit with.
+
+- Destiny Bond:
+This does not have a chance of failing on consecutive uses.
+
 - Doom Desire/Future Sight:
 These moves still deal typeless damage (so are not affected by STAB and do not deal super effective damage) and are unaffected by Life Orb. The damage is still calculated when the move is selected.
 
-- Conversion 2:
-The effect is still based on the last move the Pokémon was hit with.
+- Explosion/Self-Destruct
+These moves still calculate the damage dealt based on half of the target's Defense stat. (This particular aspect has been kept in the game intentionally, and the move description has been updated to match.)
+
+- Me First:
+Me First still cannot be used by a Pokémon under the effects of Taunt.
 
 - Multi-strike Moves:
 Moves such as Icicle Spear, Double Slap etc still have a 37.5% chance to hit 2 times, 37.5% to hit 3 times, 12.5% to hit 4 times and 12.5% to hit 5 times.
@@ -356,6 +394,9 @@ This does not boost the user's Special Attack by 3 stages; it still only boosts 
 
 - Tailwind:
 The effect of Tailwind still only lasts for 3 turns (including the turn where it is used). This can't currently be increased to four turns due to the way the game keeps track of Tailwind turns.
+
+- Wish:
+This still heals for 50% of the recepient's max HP instead of 50% of the user's max HP.
 
 New Moves Added Inaccurately
 --------------------------------------

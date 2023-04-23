@@ -235,10 +235,17 @@ int MoveCheckDamageNegatingAbilities(struct BattleStruct *sp, int attacker, int 
         (MoldBreakerAbilityCheck(sp, attacker, BATTLER_ALLY(defender), ABILITY_ARMOR_TAIL) == TRUE)
     ) {
         if (
-            (sp->moveTbl[sp->current_move_index].priority > 0) ||
+            (sp->moveTbl[sp->current_move_index].priority > 0)
+            ||
             (
                 GetBattlerAbility(sp, attacker) == ABILITY_PRANKSTER &&
                 sp->moveTbl[sp->current_move_index].split == SPLIT_STATUS &&
+                sp->moveTbl[sp->current_move_index].priority >= 0
+            )
+            ||
+            (
+                GetBattlerAbility(sp, attacker) == ABILITY_GALE_WINGS &&
+                sp->moveTbl[sp->current_move_index].type == TYPE_FLYING &&
                 sp->moveTbl[sp->current_move_index].priority >= 0
             )
         ) {
@@ -254,10 +261,17 @@ int MoveCheckDamageNegatingAbilities(struct BattleStruct *sp, int attacker, int 
         (MoldBreakerAbilityCheck(sp, attacker, BATTLER_ALLY(defender), ABILITY_DAZZLING) == TRUE)
     ) {
         if (
-            (sp->moveTbl[sp->current_move_index].priority > 0) ||
+            (sp->moveTbl[sp->current_move_index].priority > 0)
+            ||
             (
                 GetBattlerAbility(sp, attacker) == ABILITY_PRANKSTER &&
                 sp->moveTbl[sp->current_move_index].split == SPLIT_STATUS &&
+                sp->moveTbl[sp->current_move_index].priority >= 0
+            )
+            ||
+            (
+                GetBattlerAbility(sp, attacker) == ABILITY_GALE_WINGS &&
+                sp->moveTbl[sp->current_move_index].type == TYPE_FLYING &&
                 sp->moveTbl[sp->current_move_index].priority >= 0
             )
         ) {
@@ -2225,8 +2239,7 @@ BOOL ServerFlinchCheck(void *bw, struct BattleStruct *sp)
     if (GetBattlerAbility(sp, sp->attack_client) == ABILITY_SERENE_GRACE) {
         atk = atk * 2;
     }
-
-    // This may still stack on moves that can flinch anyway?
+    
     if (sp->defence_client != 0xFF)
     {
         if ((heldeffect == HOLD_EFFECT_INCREASE_FLINCH)
@@ -2234,7 +2247,19 @@ BOOL ServerFlinchCheck(void *bw, struct BattleStruct *sp)
          && ((sp->oneSelfFlag[sp->defence_client].physical_damage)
           || (sp->oneSelfFlag[sp->defence_client].special_damage))
          && ((BattleRand(bw) % 100) < atk)
-         && (sp->moveTbl[sp->current_move_index].flag & FLAG_KINGS_ROCK)
+         /* Ignore King's Rock flag and just don't activate for flinching move effects */
+         // && (sp->moveTbl[sp->current_move_index].flag & FLAG_KINGS_ROCK)
+         && (sp->moveTbl[sp->current_move_index].effect != MOVE_EFFECT_FLINCH_HIT)
+         && (sp->moveTbl[sp->current_move_index].effect != MOVE_EFFECT_FLINCH_FREEZE_HIT)
+         && (sp->moveTbl[sp->current_move_index].effect != MOVE_EFFECT_FLINCH_PARALYZE_HIT)
+         && (sp->moveTbl[sp->current_move_index].effect != MOVE_EFFECT_FLINCH_BURN_HIT)
+         && (sp->moveTbl[sp->current_move_index].effect != MOVE_EFFECT_FLINCH_BURN_HIT_2)
+         && (sp->moveTbl[sp->current_move_index].effect != MOVE_EFFECT_FLINCH_MINIMIZE_DOUBLE_HIT)
+         && (sp->moveTbl[sp->current_move_index].effect != MOVE_EFFECT_SECRET_POWER) // Possibly inaccurate
+         && (sp->moveTbl[sp->current_move_index].effect != MOVE_EFFECT_SKY_ATTACK)
+         && (sp->moveTbl[sp->current_move_index].effect != MOVE_EFFECT_SNORE)
+         && (sp->moveTbl[sp->current_move_index].effect != MOVE_EFFECT_FLINCH_DOUBLE_DAMAGE_FLY_OR_BOUNCE)
+         && (sp->current_move_index != MOVE_FAKE_OUT) // First Impression shares same effect but should flinch
          && (sp->battlemon[sp->defence_client].hp))
         {
             sp->state_client = sp->defence_client;

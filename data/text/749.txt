@@ -118,7 +118,7 @@ The user takes a\ndeep breath and\nfocuses to raise the\ncritical-hit ratio of\n
 The user endures\nattacks for two\nturns, then strikes\nback to cause double\nthe damage taken.
 The user waggles a\nfinger and stimulates\nthe brain into\nrandomly using nearly\nany move.
 The user counters\nthe foe by mimicking\nthe move last used\nby the foe.
-The user blows up to\ninflict damage on all\nPokémon in battle.\nThe user faints upon\nusing this move.
+The user blows up.\nAll Pokémon in battle\ntake damage based on\nhalf of their Defense.\nThe user then faints.
 A large egg is hurled\nat the foe, which\nthen explodes to\ninflict damage.
 The foe is licked with\na long tongue, which\ncauses damage.\nThis has a 30% chance\nto paralyze the foe.
 The foe is attacked\nwith a discharge of\nfilthy gases.\nThis has a 40% chance\nto poison the foe.
@@ -151,7 +151,7 @@ The foe is attacked\nwith an odd, hot\nenergy wave.\nThe attack varies in\ninten
 The user just flops\nand splashes around\nto no effect at all...\n\n
 The user alters its\ncellular structure to\nliquefy itself,\nsharply raising its\nDefense stat.
 The foe is hammered\nwith a large pincer.\nThis move has a high\ncritical-hit ratio.\n
-The user explodes to\ninflict damage on all\nPokémon in battle.\nThe user faints upon\nusing this move.
+The user explodes.\nAll Pokémon in battle\ntake damage based on\nhalf of their Defense.\nThe user then faints.
 The foe is raked with\nsharp claws or\nscythes for two to\nfive times in quick\nsuccession.
 The user throws the\nbone it holds. The\nbone loops to hit the\nfoe twice, coming and\ngoing.
 The user goes to\nsleep for two turns.\nIt fully restores the\nuser’s HP and heals\nany status problem.
@@ -267,11 +267,11 @@ This attack inflicts\ndouble damage on a\nparalyzed foe. It\nalso cures the foe�
 The user draws\nattention to itself,\nmaking all foes take\naim only at the user.\n
 An attack that makes\nuse of nature’s\npower. Its effects\nvary depending on the\nuser’s environment.
 The user boosts the\npower of the Electric\nmove it uses next.\nIt also raises the\nuser’s Sp. Def stat.
-The foe is taunted\ninto a rage that\nallows it to use only\nattack moves for two\nto four turns.
+The foe is taunted\ninto a rage that\nallows it to use only\nattack moves for\nthree turns.
 A move that boosts\nthe power of the\nally’s attack in a\nDouble Battle.\n
 The user catches the\nfoe off guard and\nswaps the foe’s held\nitem with its own.\n
 The user mimics the\nfoe completely,\ncopying the foe’s\nnatural ability.\n
-A self-healing move.\nThe user restores its\nown HP by up to half\nof its maximum HP\nin the next turn.
+One turn after using\nthe move, the user or\nits replacement is\nhealed by half of\nits max HP. 
 The user hurriedly\nand randomly uses a\nmove among those\nknown by other\nPokémon in the party.
 The user lays roots\nthat restore HP on\nevery turn.\nBecause it is rooted,\nit can’t switch out.
 The user attacks the\nfoe with great power.\nHowever, it also\nlowers the user’s\nAttack and Defense.

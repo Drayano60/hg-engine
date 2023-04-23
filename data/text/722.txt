@@ -83,7 +83,7 @@ Lowers foe’s accuracy\nby 20% in a hailstorm.
 Berries eaten at 25% HP\nare now eaten at 50% HP.
 Maximises Attack upon\ntaking a critical hit.
 Doubles Speed if a\nheld item is used.
-Halves the damage taken\nfrom Fire-type moves.
+Halves damage taken from\nFire-type moves or burns.
 The effects of any stat\nchanges are doubled.
 Hates sun or Fire moves.\nLoves rain or Water moves.
 Adjusts power according\nto a foe’s stats.

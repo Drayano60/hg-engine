@@ -337,7 +337,7 @@ The user tenses its muscles to bulk up\nits body, boosting both its Attack and\n
 The target is drenched with a poisonous\nliquid. Its power is doubled if the\ntarget is poisoned.
 A variable move that changes type\ndepending on the Pokémon using it.
 The user intensifies the sun for\nfive turns, powering up Fire-type\nmoves.
-The foe is taunted into a rage that\nallows it to use only attack moves for\ntwo to four turns.
+The foe is taunted into a rage that\nallows it to use only attack moves for\nthree turns.
 The foe is struck with an icy-cold\nbeam of energy. It has a 10% chance\nto freeze the target solid.
 A howling blizzard is summoned to\nstrike the foe. It has a 10% chance\nto freeze the target solid.
 The foe is attacked with a powerful\nbeam. The user must rest on the next\nturn to regain its energy.

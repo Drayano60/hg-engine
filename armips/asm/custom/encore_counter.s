@@ -2,7 +2,9 @@
 .thumb
 
 // Aurora Crystal specific change
-// Limits Encore effect to exactly three turns like modern generations
+
+/* Encore is now always 3 turns + turn it gets applied */
+/* Differs from S/V where it's for 3 of the target's actions, so the amount of turns depends on if the Encore user is faster */
 
 .open "base/overlay/overlay_0012.bin", 0x022378C0
 

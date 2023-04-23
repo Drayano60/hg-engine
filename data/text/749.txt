@@ -271,7 +271,7 @@ The foe is taunted\ninto a rage that\nallows it to use only\nattack moves for\nt
 A move that boosts\nthe power of the\nally’s attack in a\nDouble Battle.\n
 The user catches the\nfoe off guard and\nswaps the foe’s held\nitem with its own.\n
 The user mimics the\nfoe completely,\ncopying the foe’s\nnatural ability.\n
-A self-healing move.\nThe user restores its\nown HP by up to half\nof its maximum HP\nin the next turn.
+One turn after using\nthe move, the user or\nits replacement is\nhealed by half of\nits max HP. 
 The user hurriedly\nand randomly uses a\nmove among those\nknown by other\nPokémon in the party.
 The user lays roots\nthat restore HP on\nevery turn.\nBecause it is rooted,\nit can’t switch out.
 The user attacks the\nfoe with great power.\nHowever, it also\nlowers the user’s\nAttack and Defense.

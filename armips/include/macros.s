@@ -1,3 +1,5 @@
+.loadtable "armips/include/utf-8.txt"
+
 // level up learnset macros
 
 .macro levelup,species
@@ -29,8 +31,8 @@
 
 // mon data macros
 
-.macro mondata,species
-
+.macro mondata,species,name
+    monname species, name
 	.if species < 10
 		.create "build/a002/mondata_000" + tostring(species),0
 	.elseif species < 100
@@ -377,7 +379,8 @@
 
 // trainer data macros
 
-.macro trainerdata,num
+.macro trainerdata,num,name
+    trainername num, name
 	.if num < 10
 		.create "build/a055/5_00" + tostring(num),0
 	.elseif num < 100
@@ -584,3 +587,52 @@
 .macro encounter,species,minlevel,maxlevel
 	encounterwithform species, 0, minlevel, maxlevel
 .endmacro
+
+.macro msgbankappend,file,msg
+    .create file, 0
+    .stringn msg
+    .close
+.endmacro
+
+.macro writestring,subfile,id,str
+	.if id < 10
+	    msgbankappend "build/rawtext/" + subfile + "/000" + tostring(id) + ".txt", str
+	.elseif id < 100
+		msgbankappend "build/rawtext/" + subfile + "/00" + tostring(id) + ".txt", str
+	.elseif id < 1000
+    	msgbankappend "build/rawtext/" + subfile + "/0" + tostring(id) + ".txt", str
+	.else
+		msgbankappend "build/rawtext/" + subfile + "/" + tostring(id) + ".txt", str
+	.endif
+.endmacro
+
+.macro trainername,id,name
+    writestring "729", id, name
+.endmacro
+
+.macro monname,id,name
+    writestring "237", id, name
+    writestring "238", id, name
+    writestring "817", id, name
+.endmacro
+
+.macro mondexentry,id,description
+    writestring "803", id, description
+.endmacro
+
+.macro mondexclassification,id,classification
+    writestring "816", id, classification
+.endmacro
+
+.macro mondexheight,id,height
+    writestring "814", id, height
+    writestring "815", id, height
+.endmacro
+
+.macro mondexweight,id,weight
+    writestring "812", id, weight
+    writestring "813", id, weight
+.endmacro
+
+
+//note to self: 237.txt would be species names

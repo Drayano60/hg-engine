@@ -94,7 +94,7 @@ def sanitize(ability: str, sanitation_dict: dict[str, str]) -> str:
 #print(dir(currentMon))
 
 dump_template = """
-movedata MOVE_{name}
+movedata MOVE_{name}, "{real_name}"
     battleeffect 0
     pss SPLIT_{split}
     basepower {basepower}
@@ -121,8 +121,14 @@ for i in range(560, 921):
         type_1 = "TYPE_" + str(type_1[0])
         type_1_fairy = 0
 
+    for i in range(0, len(currentMove.names)-1):
+        if ('en' in str(currentMove.names[i].language.name)):
+            realName = str(currentMove.names[i].name)
+            break
+
     dump_data = dump_template.format(
         name=sanitize(str(currentMove.name).upper(), IRREGULAR_NULL),
+        real_name=realName,
         split=str(currentMove.damage_class.name).upper(),
         basepower=str(currentMove.power) if 'None' not in str(currentMove.power) else "0",
         type1=type_1,

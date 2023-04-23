@@ -1,4 +1,10 @@
-.macro movedata,movenum
+.macro movedata,movenum,name
+
+    movename movenum, name
+    movenamecaps movenum, name
+    userusedmovename 3*movenum, "{STRVAR_1 1, 0, 0} used\\n" + name + "!"
+    userusedmovename 3*movenum+1, "The wild {STRVAR_1 1, 0, 0} used\\n" + name + "!"
+    userusedmovename 3*movenum+2, "The foe’s {STRVAR_1 1, 0, 0} used\\n" + name + "!"
 
 	.if movenum < 10
 		.create "build/a011/move_00" + tostring(movenum),0
@@ -8,6 +14,18 @@
 		.create "build/a011/move_" + tostring(movenum),0
 	.endif
 	
+.endmacro
+
+.macro movedatanoname, movenum
+
+	.if movenum < 10
+		.create "build/a011/move_00" + tostring(movenum),0
+	.elseif movenum < 100
+		.create "build/a011/move_0" + tostring(movenum),0
+	.else
+		.create "build/a011/move_" + tostring(movenum),0
+	.endif
+
 .endmacro
 
 .macro battleeffect,num
@@ -62,6 +80,22 @@
 	.halfword 0
 	
 	.close
+.endmacro
+
+.macro movename,id,name
+    writestring "750", id, name
+.endmacro
+
+.macro movenamecaps,id,name
+    writestring "751", id, name
+.endmacro
+
+.macro userusedmovename,id,name
+    writestring "003", id, name
+.endmacro
+
+.macro movedescription,id,description
+    writestring "749", id, description
 .endmacro
 
 // physical/special split

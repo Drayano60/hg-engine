@@ -9,6 +9,8 @@
 
 .create "build/move/battle_sub_seq/1_037", 0
 
+// Handle confusion infliction
+
 a001_037:
     if IF_NOTEQUAL, VAR_05, 0x5, _005C
     abilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_OWN_TEMPO, _0194
@@ -35,7 +37,8 @@ _00C8:
 _0134:
     setstatus2effect BATTLER_ADDL_EFFECT, 0x6
     waitmessage
-    random 3, 2
+    // random 3, 2
+    random 2, 2 /* Custom change, make confusion last 1-3 turns instead */
     changemondatabyvar VAR_OP_SETMASK, BATTLER_ADDL_EFFECT, 0x35, VAR_09
     if IF_EQUAL, VAR_05, 0x4, _02E8
     printmessage 0x9C, 0x2, 0x7, "NaN", "NaN", "NaN", "NaN", "NaN"

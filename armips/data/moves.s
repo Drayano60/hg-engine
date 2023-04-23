@@ -10,7 +10,7 @@
 // MOVE_CHANGES_IMPLEMENTED flag is used for most changes
 // This does not apply to battle effect changes or effect chances
 
-movedata MOVE_NONE
+movedata MOVE_NONE, "-"
     battleeffect 0
     pss SPLIT_PHYSICAL
     basepower 0
@@ -24,8 +24,9 @@ movedata MOVE_NONE
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_NONE, "\n\n\n\n"
 
-movedata MOVE_POUND
+movedata MOVE_POUND, "Pound"
     battleeffect 0
     pss SPLIT_PHYSICAL
     basepower 40
@@ -39,8 +40,9 @@ movedata MOVE_POUND
     appeal 0x05
     contesttype CONTEST_TOUGH
     terminatedata
+    movedescription MOVE_POUND, "The foe is physically\npounded with a long\ntail or a foreleg,\netc.\n"
 
-movedata MOVE_KARATE_CHOP
+movedata MOVE_KARATE_CHOP, "Karate Chop"
     battleeffect 43
     pss SPLIT_PHYSICAL
     basepower 50
@@ -54,10 +56,11 @@ movedata MOVE_KARATE_CHOP
     appeal 0x05
     contesttype CONTEST_TOUGH
     terminatedata
+    movedescription MOVE_KARATE_CHOP, "The foe is attacked\nwith a sharp chop.\nIt has a high\ncritical-hit ratio.\n"
 
 // POWER: 15 >> 20
 // ACCURACY: 85 >> 100
-movedata MOVE_DOUBLE_SLAP
+movedata MOVE_DOUBLE_SLAP, "Double Slap"
     battleeffect 29
     pss SPLIT_PHYSICAL
     basepower MOVE_CHANGES_IMPLEMENTED ? 20 : 15
@@ -71,10 +74,11 @@ movedata MOVE_DOUBLE_SLAP
     appeal 0x07
     contesttype CONTEST_TOUGH
     terminatedata
+    movedescription MOVE_DOUBLE_SLAP, "The foe is slapped\nrepeatedly, back\nand forth, two to\nfive times in a row.\n"
 
 // POWER: 18 >> 20
 // ACCURACY: 85 >> 100
-movedata MOVE_COMET_PUNCH
+movedata MOVE_COMET_PUNCH, "Comet Punch"
     battleeffect 29
     pss SPLIT_PHYSICAL
     basepower MOVE_CHANGES_IMPLEMENTED ? 20 : 18
@@ -88,9 +92,10 @@ movedata MOVE_COMET_PUNCH
     appeal 0x07
     contesttype CONTEST_TOUGH
     terminatedata
+    movedescription MOVE_COMET_PUNCH, "The foe is hit with\na flurry of punches\nthat strike two to\nfive times in a row.\n"
 
 // ACCURACY: 85 >> 100
-movedata MOVE_MEGA_PUNCH
+movedata MOVE_MEGA_PUNCH, "Mega Punch"
     battleeffect 0
     pss SPLIT_PHYSICAL
     basepower 80
@@ -104,9 +109,10 @@ movedata MOVE_MEGA_PUNCH
     appeal 0x12
     contesttype CONTEST_TOUGH
     terminatedata
+    movedescription MOVE_MEGA_PUNCH, "The foe is slugged\nby a punch thrown\nwith muscle-packed\npower.\n"
 
 // POWER: 40 >> 60
-movedata MOVE_PAY_DAY
+movedata MOVE_PAY_DAY, "Pay Day"
     battleeffect 34
     pss SPLIT_PHYSICAL
     basepower MOVE_CHANGES_IMPLEMENTED ? 60 : 40
@@ -120,8 +126,9 @@ movedata MOVE_PAY_DAY
     appeal 0x17
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_PAY_DAY, "Numerous coins are\nhurled at the foe to\ninflict damage.\nMoney is earned\nafter battle."
 
-movedata MOVE_FIRE_PUNCH
+movedata MOVE_FIRE_PUNCH, "Fire Punch"
     battleeffect 4
     pss SPLIT_PHYSICAL
     basepower 75
@@ -135,8 +142,9 @@ movedata MOVE_FIRE_PUNCH
     appeal 0x11
     contesttype CONTEST_BEAUTY
     terminatedata
+    movedescription MOVE_FIRE_PUNCH, "The foe is punched\nwith a fiery fist.\nThis has a 10% chance\nto burn the foe."
 
-movedata MOVE_ICE_PUNCH
+movedata MOVE_ICE_PUNCH, "Ice Punch"
     battleeffect 5
     pss SPLIT_PHYSICAL
     basepower 75
@@ -150,8 +158,9 @@ movedata MOVE_ICE_PUNCH
     appeal 0x11
     contesttype CONTEST_BEAUTY
     terminatedata
+    movedescription MOVE_ICE_PUNCH, "The foe is punched\nwith an icy fist.\nThis has a 10% chance\nto freeze the foe."
 
-movedata MOVE_THUNDER_PUNCH
+movedata MOVE_THUNDER_PUNCH, "Thunder Punch"
     battleeffect 6
     pss SPLIT_PHYSICAL
     basepower 75
@@ -165,8 +174,9 @@ movedata MOVE_THUNDER_PUNCH
     appeal 0x11
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_THUNDER_PUNCH, "The foe is punched\nwith an electrified\nfist.\nThis has a 10% chance\nto paralyze the foe."
 
-movedata MOVE_SCRATCH
+movedata MOVE_SCRATCH, "Scratch"
     battleeffect 0
     pss SPLIT_PHYSICAL
     basepower 40
@@ -180,9 +190,10 @@ movedata MOVE_SCRATCH
     appeal 0x05
     contesttype CONTEST_TOUGH
     terminatedata
+    movedescription MOVE_SCRATCH, "Hard, pointed, and\nsharp claws rake the\nfoe to inflict damage.\n\n"
 
 // TYPE: Normal >> Steel
-movedata MOVE_VICE_GRIP
+movedata MOVE_VICE_GRIP, "Vise Grip"
     battleeffect 0
     pss SPLIT_PHYSICAL
     basepower 55
@@ -196,8 +207,9 @@ movedata MOVE_VICE_GRIP
     appeal 0x05
     contesttype CONTEST_TOUGH
     terminatedata
+    movedescription MOVE_VICE_GRIP, "Huge, impressive\npincers grip and\nsqueeze the foe.\n\n"
 
-movedata MOVE_GUILLOTINE
+movedata MOVE_GUILLOTINE, "Guillotine"
     battleeffect 38
     pss SPLIT_PHYSICAL
     basepower 1
@@ -211,11 +223,12 @@ movedata MOVE_GUILLOTINE
     appeal 0x09
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_GUILLOTINE, "A vicious, tearing\nattack with pincers.\nThe foe will faint\ninstantly if this\nattack hits."
 
 // EFFECT: Two-turn high crit >> High crit
 // POWER: 80 >> 90
 // TYPE: Normal >> Flying
-movedata MOVE_RAZOR_WIND
+movedata MOVE_RAZOR_WIND, "Razor Wind"
     battleeffect 43
     pss SPLIT_SPECIAL
     basepower MOVE_CHANGES_IMPLEMENTED ? 90 : 80
@@ -229,8 +242,9 @@ movedata MOVE_RAZOR_WIND
     appeal 0x06
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_RAZOR_WIND, "Blades of wind hit\nopposing Pokémon.\nCritical hits land\nmore easily."
 
-movedata MOVE_SWORDS_DANCE
+movedata MOVE_SWORDS_DANCE, "Swords Dance"
     battleeffect 50
     pss SPLIT_STATUS
     basepower 0
@@ -244,13 +258,14 @@ movedata MOVE_SWORDS_DANCE
     appeal 0x0B
     contesttype CONTEST_BEAUTY
     terminatedata
+    movedescription MOVE_SWORDS_DANCE, "A frenetic dance to\nuplift the fighting\nspirit. It sharply\nraises the user’s\nAttack stat."
 
 // EFFECT: High crit
 // POWER: 50 >> 70
 // ACCURACY: 95 >> 100
 // PP: 30 >> 20
 // TYPE: Normal >> Steel
-movedata MOVE_CUT
+movedata MOVE_CUT, "Cut"
     battleeffect 43
     pss SPLIT_PHYSICAL
     basepower MOVE_CHANGES_IMPLEMENTED ? 70 : 50
@@ -264,8 +279,9 @@ movedata MOVE_CUT
     appeal 0x05
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_CUT, "The foe is cut with a\nscythe or a claw,\nwielded like a blade.\nCritical hits land\nmore easily."
 
-movedata MOVE_GUST
+movedata MOVE_GUST, "Gust"
     battleeffect 149
     pss SPLIT_SPECIAL
     basepower 40
@@ -279,8 +295,9 @@ movedata MOVE_GUST
     appeal 0x05
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_GUST, "A gust of wind is\nwhipped up by wings\nand launched at the\nfoe to inflict damage.\n"
 
-movedata MOVE_WING_ATTACK
+movedata MOVE_WING_ATTACK, "Wing Attack"
     battleeffect 0
     pss SPLIT_PHYSICAL
     basepower 60
@@ -294,9 +311,10 @@ movedata MOVE_WING_ATTACK
     appeal 0x05
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_WING_ATTACK, "The foe is struck\nwith large, imposing\nwings spread wide\nto inflict damage.\n"
 
 // EFFECT: Updated to Gen 5 style (level check)
-movedata MOVE_WHIRLWIND
+movedata MOVE_WHIRLWIND, "Whirlwind"
     battleeffect 28
     pss SPLIT_STATUS
     basepower 0
@@ -310,9 +328,10 @@ movedata MOVE_WHIRLWIND
     appeal 0x09
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_WHIRLWIND, "The foe is blown away,\nto be replaced by\nanother Pokémon\nin its party. In the\nwild, the battle ends."
 
 // POWER: 90 >> 80 (Due to greater distribution)
-movedata MOVE_FLY
+movedata MOVE_FLY, "Fly"
     battleeffect 155
     pss SPLIT_PHYSICAL
     basepower MOVE_CHANGES_IMPLEMENTED ? 80 : 90
@@ -326,9 +345,10 @@ movedata MOVE_FLY
     appeal 0x06
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_FLY, "The user soars, then\nstrikes on the second\nturn. It can also be\nused for flying to\nany familiar town."
 
 // POWER: 15 >> 35
-movedata MOVE_BIND
+movedata MOVE_BIND, "Bind"
     battleeffect 42
     pss SPLIT_PHYSICAL
     basepower MOVE_CHANGES_IMPLEMENTED ? 30 : 15
@@ -342,9 +362,10 @@ movedata MOVE_BIND
     appeal 0x15
     contesttype CONTEST_TOUGH
     terminatedata
+    movedescription MOVE_BIND, "A long body or\ntentacles are used\nto bind and squeeze\nthe foe for four to\nfive turns."
 
 // ACCURACY: 75 >> 90
-movedata MOVE_SLAM
+movedata MOVE_SLAM, "Slam"
     battleeffect 0
     pss SPLIT_PHYSICAL
     basepower 80
@@ -358,8 +379,9 @@ movedata MOVE_SLAM
     appeal 0x05
     contesttype CONTEST_TOUGH
     terminatedata
+    movedescription MOVE_SLAM, "The foe is slammed\nwith a long tail,\nvines, etc., to inflict\ndamage.\n"
 
-movedata MOVE_VINE_WHIP
+movedata MOVE_VINE_WHIP, "Vine Whip"
     battleeffect 0
     pss SPLIT_PHYSICAL
     basepower 45
@@ -373,8 +395,9 @@ movedata MOVE_VINE_WHIP
     appeal 0x05
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_VINE_WHIP, "The foe is struck\nwith slender, whiplike\nvines to inflict\ndamage.\n"
 
-movedata MOVE_STOMP
+movedata MOVE_STOMP, "Stomp"
     battleeffect 150
     pss SPLIT_PHYSICAL
     basepower 65
@@ -388,8 +411,9 @@ movedata MOVE_STOMP
     appeal 0x05
     contesttype CONTEST_TOUGH
     terminatedata
+    movedescription MOVE_STOMP, "The foe is stomped\nwith a big foot.\nThis has a 30% chance\nto flinch the foe."
 
-movedata MOVE_DOUBLE_KICK
+movedata MOVE_DOUBLE_KICK, "Double Kick"
     battleeffect 44
     pss SPLIT_PHYSICAL
     basepower 30
@@ -403,9 +427,10 @@ movedata MOVE_DOUBLE_KICK
     appeal 0x07
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_DOUBLE_KICK, "The foe is quickly\nkicked twice in\nsuccession using both\nfeet.\n"
 
 // ACCURACY: 75 >> 85
-movedata MOVE_MEGA_KICK
+movedata MOVE_MEGA_KICK, "Mega Kick"
     battleeffect 0
     pss SPLIT_PHYSICAL
     basepower 120
@@ -419,8 +444,9 @@ movedata MOVE_MEGA_KICK
     appeal 0x12
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_MEGA_KICK, "The foe is attacked\nby a kick launched\nwith muscle-packed\npower.\n"
 
-movedata MOVE_JUMP_KICK
+movedata MOVE_JUMP_KICK, "Jump Kick"
     battleeffect 45
     pss SPLIT_PHYSICAL
     basepower 100
@@ -434,9 +460,10 @@ movedata MOVE_JUMP_KICK
     appeal 0x05
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_JUMP_KICK, "The user jumps up\nhigh, then strikes\nwith a kick. If the\nkick misses, the\nuser hurts itself."
 
 // ACCURACY: 85 >> 100
-movedata MOVE_ROLLING_KICK
+movedata MOVE_ROLLING_KICK, "Rolling Kick"
     battleeffect 31
     pss SPLIT_PHYSICAL
     basepower 60
@@ -450,8 +477,9 @@ movedata MOVE_ROLLING_KICK
     appeal 0x05
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_ROLLING_KICK, "The user lashes out\nwith a quick, spinning\nkick.\nThis has a 30% chance\nto flinch the foe."
 
-movedata MOVE_SAND_ATTACK
+movedata MOVE_SAND_ATTACK, "Sand Attack"
     battleeffect 23
     pss SPLIT_STATUS
     basepower 0
@@ -465,8 +493,9 @@ movedata MOVE_SAND_ATTACK
     appeal 0x13
     contesttype CONTEST_CUTE
     terminatedata
+    movedescription MOVE_SAND_ATTACK, "Sand is hurled in the\nfoe’s face, reducing\nits accuracy.\n\n"
 
-movedata MOVE_HEADBUTT
+movedata MOVE_HEADBUTT, "Headbutt"
     battleeffect 31
     pss SPLIT_PHYSICAL
     basepower 70
@@ -480,8 +509,9 @@ movedata MOVE_HEADBUTT
     appeal 0x05
     contesttype CONTEST_TOUGH
     terminatedata
+    movedescription MOVE_HEADBUTT, "The user charges into\nthe foe with its head\nsticking out.\nThis has a 30% chance\nto flinch the foe."
 
-movedata MOVE_HORN_ATTACK
+movedata MOVE_HORN_ATTACK, "Horn Attack"
     battleeffect 0
     pss SPLIT_PHYSICAL
     basepower 65
@@ -495,10 +525,11 @@ movedata MOVE_HORN_ATTACK
     appeal 0x05
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_HORN_ATTACK, "The foe is jabbed\nwith a sharply\npointed horn to\ninflict damage.\n"
 
 // POWER: 15 >> 20
 // ACCURACY: 85 >> 100
-movedata MOVE_FURY_ATTACK
+movedata MOVE_FURY_ATTACK, "Fury Attack"
     battleeffect 29
     pss SPLIT_PHYSICAL
     basepower MOVE_CHANGES_IMPLEMENTED ? 20 : 15
@@ -512,8 +543,9 @@ movedata MOVE_FURY_ATTACK
     appeal 0x07
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_FURY_ATTACK, "The foe is jabbed\nrepeatedly with a\nhorn or beak two to\nfive times in a row.\n"
 
-movedata MOVE_HORN_DRILL
+movedata MOVE_HORN_DRILL, "Horn Drill"
     battleeffect 38
     pss SPLIT_PHYSICAL
     basepower 1
@@ -527,8 +559,9 @@ movedata MOVE_HORN_DRILL
     appeal 0x09
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_HORN_DRILL, "The foe is stabbed\nwith a horn rotating\nlike a drill.\nThe foe instantly\nfaints if it hits."
 
-movedata MOVE_TACKLE
+movedata MOVE_TACKLE, "Tackle"
     battleeffect 0
     pss SPLIT_PHYSICAL
     basepower 40
@@ -542,8 +575,9 @@ movedata MOVE_TACKLE
     appeal 0x05
     contesttype CONTEST_TOUGH
     terminatedata
+    movedescription MOVE_TACKLE, "A physical attack\nin which the user\ncharges and slams\ninto the foe with\nits whole body."
 
-movedata MOVE_BODY_SLAM
+movedata MOVE_BODY_SLAM, "Body Slam"
     battleeffect 6
     pss SPLIT_PHYSICAL
     basepower 85
@@ -557,9 +591,10 @@ movedata MOVE_BODY_SLAM
     appeal 0x05
     contesttype CONTEST_TOUGH
     terminatedata
+    movedescription MOVE_BODY_SLAM, "The user drops onto\nthe foe with its full\nbody weight.\nThis has a 30% chance\nto paralyze the foe."
 
 // POWER: 15 >> 35
-movedata MOVE_WRAP
+movedata MOVE_WRAP, "Wrap"
     battleeffect 42
     pss SPLIT_PHYSICAL
     basepower MOVE_CHANGES_IMPLEMENTED ? 35 : 15
@@ -573,10 +608,11 @@ movedata MOVE_WRAP
     appeal 0x15
     contesttype CONTEST_TOUGH
     terminatedata
+    movedescription MOVE_WRAP, "A long body or vines\nare used to wrap and\nsqueeze the foe for\nfour to five turns.\n"
 
 // POWER: 90 >> 95
 // ACCURACY: 85 >> 100
-movedata MOVE_TAKE_DOWN
+movedata MOVE_TAKE_DOWN, "Take Down"
     battleeffect 48
     pss SPLIT_PHYSICAL
     basepower MOVE_CHANGES_IMPLEMENTED ? 95 : 90
@@ -590,8 +626,9 @@ movedata MOVE_TAKE_DOWN
     appeal 0x05
     contesttype CONTEST_TOUGH
     terminatedata
+    movedescription MOVE_TAKE_DOWN, "A reckless, full-body\ncharge attack for\nslamming into the foe.\nThe user is hurt by\n25% of damage dealt."
 
-movedata MOVE_THRASH
+movedata MOVE_THRASH, "Thrash"
     battleeffect 27
     pss SPLIT_PHYSICAL
     basepower 120
@@ -605,8 +642,9 @@ movedata MOVE_THRASH
     appeal 0x07
     contesttype CONTEST_TOUGH
     terminatedata
+    movedescription MOVE_THRASH, "The user rampages\nand attacks for two\nto three turns.\nIt then becomes\nconfused, however."
 
-movedata MOVE_DOUBLE_EDGE
+movedata MOVE_DOUBLE_EDGE, "Double-Edge"
     battleeffect 198
     pss SPLIT_PHYSICAL
     basepower 120
@@ -620,8 +658,9 @@ movedata MOVE_DOUBLE_EDGE
     appeal 0x09
     contesttype CONTEST_TOUGH
     terminatedata
+    movedescription MOVE_DOUBLE_EDGE, "The user rushes the\nfoe in a reckless,\nlife-risking tackle.\nThe user is hurt by\n33% of damage dealt."
 
-movedata MOVE_TAIL_WHIP
+movedata MOVE_TAIL_WHIP, "Tail Whip"
     battleeffect 19
     pss SPLIT_STATUS
     basepower 0
@@ -635,9 +674,10 @@ movedata MOVE_TAIL_WHIP
     appeal 0x13
     contesttype CONTEST_CUTE
     terminatedata
+    movedescription MOVE_TAIL_WHIP, "The user wags its tail\ncutely, making the\nfoe less wary.\nThe target’s Defense\nstat is lowered."
 
 // POWER: 15 >> 40
-movedata MOVE_POISON_STING
+movedata MOVE_POISON_STING, "Poison Sting"
     battleeffect 2
     pss SPLIT_PHYSICAL
     basepower MOVE_CHANGES_IMPLEMENTED ? 40 : 15
@@ -651,9 +691,10 @@ movedata MOVE_POISON_STING
     appeal 0x13
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_POISON_STING, "The foe is stabbed\nwith a poisonous\nbarb of some sort.\nThis has a 30% chance\nto poison the foe."
 
 // POWER: 25 >> 35
-movedata MOVE_TWINEEDLE
+movedata MOVE_TWINEEDLE, "Twineedle"
     battleeffect 77
     pss SPLIT_PHYSICAL
     basepower MOVE_CHANGES_IMPLEMENTED ? 35 : 25
@@ -667,9 +708,10 @@ movedata MOVE_TWINEEDLE
     appeal 0x07
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_TWINEEDLE, "The foe is stabbed\ntwice by a pair of\nstingers. Each hit\nhas a 20% chance\nto poison the foe."
 
 // ACCURACY: 95 >> 100
-movedata MOVE_PIN_MISSILE
+movedata MOVE_PIN_MISSILE, "Pin Missile"
     battleeffect 29
     pss SPLIT_PHYSICAL
     basepower 25
@@ -683,8 +725,9 @@ movedata MOVE_PIN_MISSILE
     appeal 0x07
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_PIN_MISSILE, "Sharp pins are shot\nat the foe in rapid\nsuccession.\nThey hit two to five\ntimes in a row."
 
-movedata MOVE_LEER
+movedata MOVE_LEER, "Leer"
     battleeffect 19
     pss SPLIT_STATUS
     basepower 0
@@ -698,8 +741,9 @@ movedata MOVE_LEER
     appeal 0x13
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_LEER, "The foe is given an\nintimidating leer with\nsharp eyes.\nThe target’s Defense\nstat is reduced."
 
-movedata MOVE_BITE
+movedata MOVE_BITE, "Bite"
     battleeffect 31
     pss SPLIT_PHYSICAL
     basepower 60
@@ -713,8 +757,9 @@ movedata MOVE_BITE
     appeal 0x05
     contesttype CONTEST_TOUGH
     terminatedata
+    movedescription MOVE_BITE, "The foe is bitten with\nviciously sharp fangs.\nThis has a 30% chance\nto flinch the foe."
 
-movedata MOVE_GROWL
+movedata MOVE_GROWL, "Growl"
     battleeffect 18
     pss SPLIT_STATUS
     basepower 0
@@ -728,9 +773,10 @@ movedata MOVE_GROWL
     appeal 0x13
     contesttype CONTEST_CUTE
     terminatedata
+    movedescription MOVE_GROWL, "The user growls in an\nendearing way, making\nthe foe less wary.\nThe target’s Attack\nstat is lowered."
 
 // EFFECT: Updated to Gen 5 style (level check)
-movedata MOVE_ROAR
+movedata MOVE_ROAR, "Roar"
     battleeffect 28
     pss SPLIT_STATUS
     basepower 0
@@ -744,8 +790,9 @@ movedata MOVE_ROAR
     appeal 0x13
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_ROAR, "The foe is scared off,\nto be replaced by\nanother Pokémon in\nits party. In the\nwild, the battle ends."
 
-movedata MOVE_SING
+movedata MOVE_SING, "Sing"
     battleeffect 1
     pss SPLIT_STATUS
     basepower 0
@@ -759,8 +806,9 @@ movedata MOVE_SING
     appeal 0x13
     contesttype CONTEST_CUTE
     terminatedata
+    movedescription MOVE_SING, "A soothing lullaby is\nsung in a calming\nvoice that puts the\nfoe into a deep\nslumber."
 
-movedata MOVE_SUPERSONIC
+movedata MOVE_SUPERSONIC, "Supersonic"
     battleeffect 49
     pss SPLIT_STATUS
     basepower 0
@@ -774,8 +822,9 @@ movedata MOVE_SUPERSONIC
     appeal 0x13
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_SUPERSONIC, "The user generates\nodd sound waves from\nits body.\nIt may confuse the\ntarget."
 
-movedata MOVE_SONIC_BOOM
+movedata MOVE_SONIC_BOOM, "Sonic Boom"
     battleeffect 130
     pss SPLIT_SPECIAL
     basepower 1
@@ -789,8 +838,9 @@ movedata MOVE_SONIC_BOOM
     appeal 0x05
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_SONIC_BOOM, "The foe is hit with a\ndestructive shock\nwave that always\ninflicts 20 HP damage.\n"
 
-movedata MOVE_DISABLE
+movedata MOVE_DISABLE, "Disable"
     battleeffect 86
     pss SPLIT_STATUS
     basepower 0
@@ -804,8 +854,9 @@ movedata MOVE_DISABLE
     appeal 0x13
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_DISABLE, "For several turns,\nthis move prevents\nthe foe from using\nthe move it last\nused."
 
-movedata MOVE_ACID
+movedata MOVE_ACID, "Acid"
     battleeffect 72
     pss SPLIT_SPECIAL
     basepower 40
@@ -819,8 +870,9 @@ movedata MOVE_ACID
     appeal 0x05
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_ACID, "The foe is attacked\nwith a spray of harsh\nacid.\nThis has a 10% chance\nto lower Sp. Def."
 
-movedata MOVE_EMBER
+movedata MOVE_EMBER, "Ember"
     battleeffect 4
     pss SPLIT_SPECIAL
     basepower 40
@@ -834,8 +886,9 @@ movedata MOVE_EMBER
     appeal 0x05
     contesttype CONTEST_BEAUTY
     terminatedata
+    movedescription MOVE_EMBER, "The foe is attacked\nwith small flames.\nThis has a 10% chance\nto burn the foe."
 
-movedata MOVE_FLAMETHROWER
+movedata MOVE_FLAMETHROWER, "Flamethrower"
     battleeffect 4
     pss SPLIT_SPECIAL
     basepower 90
@@ -849,8 +902,9 @@ movedata MOVE_FLAMETHROWER
     appeal 0x11
     contesttype CONTEST_BEAUTY
     terminatedata
+    movedescription MOVE_FLAMETHROWER, "The foe is scorched\nwith an intense blast\nof fire.\nThis has a 10% chance\nto burn the foe."
 
-movedata MOVE_MIST
+movedata MOVE_MIST, "Mist"
     battleeffect 46
     pss SPLIT_STATUS
     basepower 0
@@ -864,8 +918,9 @@ movedata MOVE_MIST
     appeal 0x0D
     contesttype CONTEST_BEAUTY
     terminatedata
+    movedescription MOVE_MIST, "The user cloaks its\nbody with a white mist\nthat prevents any of\nits stats from being\ncut for five turns."
 
-movedata MOVE_WATER_GUN
+movedata MOVE_WATER_GUN, "Water Gun"
     battleeffect 0
     pss SPLIT_SPECIAL
     basepower 40
@@ -879,8 +934,9 @@ movedata MOVE_WATER_GUN
     appeal 0x05
     contesttype CONTEST_CUTE
     terminatedata
+    movedescription MOVE_WATER_GUN, "The foe is blasted\nwith a forceful shot\nof water.\n\n"
 
-movedata MOVE_HYDRO_PUMP
+movedata MOVE_HYDRO_PUMP, "Hydro Pump"
     battleeffect 0
     pss SPLIT_SPECIAL
     basepower 110
@@ -894,8 +950,9 @@ movedata MOVE_HYDRO_PUMP
     appeal 0x11
     contesttype CONTEST_BEAUTY
     terminatedata
+    movedescription MOVE_HYDRO_PUMP, "The foe is blasted by\na huge volume of\nwater launched under\ngreat pressure.\n"
 
-movedata MOVE_SURF
+movedata MOVE_SURF, "Surf"
     battleeffect 257
     pss SPLIT_SPECIAL
     basepower 90
@@ -909,8 +966,9 @@ movedata MOVE_SURF
     appeal 0x11
     contesttype CONTEST_BEAUTY
     terminatedata
+    movedescription MOVE_SURF, "It swamps the entire\nbattlefield with a\ngiant wave.\nIt can also be used\nfor crossing water."
 
-movedata MOVE_ICE_BEAM
+movedata MOVE_ICE_BEAM, "Ice Beam"
     battleeffect 5
     pss SPLIT_SPECIAL
     basepower 90
@@ -924,8 +982,9 @@ movedata MOVE_ICE_BEAM
     appeal 0x11
     contesttype CONTEST_BEAUTY
     terminatedata
+    movedescription MOVE_ICE_BEAM, "The foe is struck\nwith an icy-cold\nbeam of energy.\nThis has a 10% chance\nto freeze the foe."
 
-movedata MOVE_BLIZZARD
+movedata MOVE_BLIZZARD, "Blizzard"
     battleeffect 260
     pss SPLIT_SPECIAL
     basepower 110
@@ -939,8 +998,9 @@ movedata MOVE_BLIZZARD
     appeal 0x11
     contesttype CONTEST_BEAUTY
     terminatedata
+    movedescription MOVE_BLIZZARD, "A howling blizzard is\nsummoned to strike\nthe foe.\nThis has a 10% chance\nto freeze the foe."
 
-movedata MOVE_PSYBEAM
+movedata MOVE_PSYBEAM, "Psybeam"
     battleeffect 76
     pss SPLIT_SPECIAL
     basepower 65
@@ -954,8 +1014,9 @@ movedata MOVE_PSYBEAM
     appeal 0x11
     contesttype CONTEST_BEAUTY
     terminatedata
+    movedescription MOVE_PSYBEAM, "The foe is attacked\nwith a peculiar ray.\nThis has a 10% chance\nto confuse the foe."
 
-movedata MOVE_BUBBLE_BEAM
+movedata MOVE_BUBBLE_BEAM, "Bubble Beam"
     battleeffect 70
     pss SPLIT_SPECIAL
     basepower 65
@@ -969,8 +1030,9 @@ movedata MOVE_BUBBLE_BEAM
     appeal 0x02
     contesttype CONTEST_BEAUTY
     terminatedata
+    movedescription MOVE_BUBBLE_BEAM, "A spray of bubbles is\nforcefully ejected\nat the foe.\nThis has a 10% chance\nto lower Speed."
 
-movedata MOVE_AURORA_BEAM
+movedata MOVE_AURORA_BEAM, "Aurora Beam"
     battleeffect 68
     pss SPLIT_SPECIAL
     basepower 65
@@ -984,8 +1046,9 @@ movedata MOVE_AURORA_BEAM
     appeal 0x11
     contesttype CONTEST_BEAUTY
     terminatedata
+    movedescription MOVE_AURORA_BEAM, "The foe is hit with a\nrainbow-colored beam.\nThis has a 10% chance\nto lower Attack."
 
-movedata MOVE_HYPER_BEAM
+movedata MOVE_HYPER_BEAM, "Hyper Beam"
     battleeffect 80
     pss SPLIT_SPECIAL
     basepower 150
@@ -999,9 +1062,10 @@ movedata MOVE_HYPER_BEAM
     appeal 0x16
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_HYPER_BEAM, "The foe is attacked\nwith a powerful beam.\nThe user must rest\non the next turn to\nregain its energy."
 
 // POWER: 35 >> 40
-movedata MOVE_PECK
+movedata MOVE_PECK, "Peck"
     battleeffect 0
     pss SPLIT_PHYSICAL
     basepower MOVE_CHANGES_IMPLEMENTED ? 40 : 35
@@ -1015,9 +1079,10 @@ movedata MOVE_PECK
     appeal 0x05
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_PECK, "The foe is jabbed\nwith a sharply\npointed beak or\nhorn.\n"
 
 // EFFECT: Now has a high crit ratio
-movedata MOVE_DRILL_PECK
+movedata MOVE_DRILL_PECK, "Drill Peck"
     battleeffect 43
     pss SPLIT_PHYSICAL
     basepower 80
@@ -1031,10 +1096,11 @@ movedata MOVE_DRILL_PECK
     appeal 0x05
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_DRILL_PECK, "A corkscrewing move\nwith a sharp beak\nacting as a drill.\nCritical hits will\nland more easily."
 
 // POWER: 80 >> 85
 // ACCURACY: 80 >> 100
-movedata MOVE_SUBMISSION
+movedata MOVE_SUBMISSION, "Submission"
     battleeffect 48
     pss SPLIT_PHYSICAL
     basepower MOVE_CHANGES_IMPLEMENTED ? 85 : 80
@@ -1048,8 +1114,9 @@ movedata MOVE_SUBMISSION
     appeal 0x05
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_SUBMISSION, "The user grabs the\nfoe and recklessly\ndives for the ground.\nThe user is hurt by\n25% of damage dealt."
 
-movedata MOVE_LOW_KICK
+movedata MOVE_LOW_KICK, "Low Kick"
     battleeffect 196
     pss SPLIT_PHYSICAL
     basepower 1
@@ -1063,8 +1130,9 @@ movedata MOVE_LOW_KICK
     appeal 0x05
     contesttype CONTEST_TOUGH
     terminatedata
+    movedescription MOVE_LOW_KICK, "A powerful low kick\nthat makes the foe\nfall over. It inflicts\ngreater damage on\nheavier foes."
 
-movedata MOVE_COUNTER
+movedata MOVE_COUNTER, "Counter"
     battleeffect 89
     pss SPLIT_PHYSICAL
     basepower 1
@@ -1078,8 +1146,9 @@ movedata MOVE_COUNTER
     appeal 0x0F
     contesttype CONTEST_TOUGH
     terminatedata
+    movedescription MOVE_COUNTER, "A retaliation move\nthat counters any\nphysical attack,\ninflicting double the\ndamage taken."
 
-movedata MOVE_SEISMIC_TOSS
+movedata MOVE_SEISMIC_TOSS, "Seismic Toss"
     battleeffect 87
     pss SPLIT_PHYSICAL
     basepower 1
@@ -1093,11 +1162,12 @@ movedata MOVE_SEISMIC_TOSS
     appeal 0x05
     contesttype CONTEST_TOUGH
     terminatedata
+    movedescription MOVE_SEISMIC_TOSS, "The foe is thrown\nusing the power of\ngravity. It inflicts\ndamage equal to\nthe user’s level."
 
 // EFFECT: Now has a 20% chance to boost Attack.
 // POWER: 80 >> 100
 // PP: 15 >> 10
-movedata MOVE_STRENGTH
+movedata MOVE_STRENGTH, "Strength"
     battleeffect 139
     pss SPLIT_PHYSICAL
     basepower MOVE_CHANGES_IMPLEMENTED ? 100 : 80
@@ -1111,9 +1181,10 @@ movedata MOVE_STRENGTH
     appeal 0x05
     contesttype CONTEST_TOUGH
     terminatedata
+    movedescription MOVE_STRENGTH, "The foe is slugged\nwith a punch thrown\nat maximum power.\nThis has a 20% chance\nto raise Attack."
 
 // POWER: 20 >> 35
-movedata MOVE_ABSORB
+movedata MOVE_ABSORB, "Absorb"
     battleeffect 3
     pss SPLIT_SPECIAL
     basepower MOVE_CHANGES_IMPLEMENTED ? 35 : 20
@@ -1127,9 +1198,10 @@ movedata MOVE_ABSORB
     appeal 0x14
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_ABSORB, "A nutrient-draining\nattack. The user’s\nHP is restored by\nhalf the damage taken\nby the target."
 
 // POWER: 40 >> 55
-movedata MOVE_MEGA_DRAIN
+movedata MOVE_MEGA_DRAIN, "Mega Drain"
     battleeffect 3
     pss SPLIT_SPECIAL
     basepower MOVE_CHANGES_IMPLEMENTED ? 55 : 40
@@ -1143,8 +1215,9 @@ movedata MOVE_MEGA_DRAIN
     appeal 0x14
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_MEGA_DRAIN, "A nutrient-draining\nattack. The user’s\nHP is restored by\nhalf the damage taken\nby the target."
 
-movedata MOVE_LEECH_SEED
+movedata MOVE_LEECH_SEED, "Leech Seed"
     battleeffect 84
     pss SPLIT_STATUS
     basepower 0
@@ -1158,9 +1231,10 @@ movedata MOVE_LEECH_SEED
     appeal 0x15
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_LEECH_SEED, "A seed is planted on\nthe foe. It steals\nsome HP from the foe\nto heal the user on\nevery turn."
 
 // EFFECT: Updated to Gen 5 (+1 Atk/SpAtk, +2 in sunlight)
-movedata MOVE_GROWTH
+movedata MOVE_GROWTH, "Growth"
     battleeffect 13
     pss SPLIT_STATUS
     basepower 0
@@ -1174,8 +1248,9 @@ movedata MOVE_GROWTH
     appeal 0x0B
     contesttype CONTEST_BEAUTY
     terminatedata
+    movedescription MOVE_GROWTH, "The user’s body\ngrows all at once.\nIt raises the user’s\nAttack and Sp. Atk\nstats."
 
-movedata MOVE_RAZOR_LEAF
+movedata MOVE_RAZOR_LEAF, "Razor Leaf"
     battleeffect 43
     pss SPLIT_PHYSICAL
     basepower 55
@@ -1189,8 +1264,9 @@ movedata MOVE_RAZOR_LEAF
     appeal 0x05
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_RAZOR_LEAF, "Sharp-edged leaves\nare launched to slash\nat the foe. It has a\nhigh critical-hit\nratio."
 
-movedata MOVE_SOLAR_BEAM
+movedata MOVE_SOLAR_BEAM, "Solar Beam"
     battleeffect 151
     pss SPLIT_SPECIAL
     basepower 120
@@ -1204,8 +1280,9 @@ movedata MOVE_SOLAR_BEAM
     appeal 0x06
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_SOLAR_BEAM, "A two-turn attack.\nThe user gathers\nlight, then blasts a\nbundled beam on the\nsecond turn."
 
-movedata MOVE_POISON_POWDER
+movedata MOVE_POISON_POWDER, "Poison Powder"
     battleeffect 66
     pss SPLIT_STATUS
     basepower 0
@@ -1219,8 +1296,9 @@ movedata MOVE_POISON_POWDER
     appeal 0x13
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_POISON_POWDER, "A cloud of poisonous\ndust is scattered on\nthe foe.\nIt may poison the\ntarget."
 
-movedata MOVE_STUN_SPORE
+movedata MOVE_STUN_SPORE, "Stun Spore"
     battleeffect 67
     pss SPLIT_STATUS
     basepower 0
@@ -1234,8 +1312,9 @@ movedata MOVE_STUN_SPORE
     appeal 0x13
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_STUN_SPORE, "The user scatters a\ncloud of paralyzing\npowder.\nIt may paralyze the\ntarget."
 
-movedata MOVE_SLEEP_POWDER
+movedata MOVE_SLEEP_POWDER, "Sleep Powder"
     battleeffect 1
     pss SPLIT_STATUS
     basepower 0
@@ -1249,8 +1328,9 @@ movedata MOVE_SLEEP_POWDER
     appeal 0x13
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_SLEEP_POWDER, "The user scatters a\nbig cloud of sleep-\ninducing dust around\nthe foe.\n"
 
-movedata MOVE_PETAL_DANCE
+movedata MOVE_PETAL_DANCE, "Petal Dance"
     battleeffect 27
     pss SPLIT_SPECIAL
     basepower 120
@@ -1264,8 +1344,9 @@ movedata MOVE_PETAL_DANCE
     appeal 0x15
     contesttype CONTEST_BEAUTY
     terminatedata
+    movedescription MOVE_PETAL_DANCE, "The user attacks by\nscattering petals for\ntwo to three turns.\nThe user then\nbecomes confused."
 
-movedata MOVE_STRING_SHOT
+movedata MOVE_STRING_SHOT, "String Shot"
     battleeffect 60
     pss SPLIT_STATUS
     basepower 0
@@ -1279,8 +1360,9 @@ movedata MOVE_STRING_SHOT
     appeal 0x13
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_STRING_SHOT, "The foe is bound with\nsilk blown from the\nuser’s mouth. This\nsharply reduces the\ntarget’s Speed stat."
 
-movedata MOVE_DRAGON_RAGE
+movedata MOVE_DRAGON_RAGE, "Dragon Rage"
     battleeffect 41
     pss SPLIT_SPECIAL
     basepower 1
@@ -1294,9 +1376,10 @@ movedata MOVE_DRAGON_RAGE
     appeal 0x05
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_DRAGON_RAGE, "The foe is stricken\nby a shock wave.\nThis attack always\ninflicts 40 HP\ndamage."
 
 // POWER: 35 >> 55
-movedata MOVE_FIRE_SPIN
+movedata MOVE_FIRE_SPIN, "Fire Spin"
     battleeffect 42
     pss SPLIT_SPECIAL
     basepower MOVE_CHANGES_IMPLEMENTED ? 55 : 35
@@ -1310,8 +1393,9 @@ movedata MOVE_FIRE_SPIN
     appeal 0x15
     contesttype CONTEST_BEAUTY
     terminatedata
+    movedescription MOVE_FIRE_SPIN, "The foe becomes\ntrapped within a\nfierce vortex of fire\nthat rages for four\nto five turns."
 
-movedata MOVE_THUNDER_SHOCK
+movedata MOVE_THUNDER_SHOCK, "Thunder Shock"
     battleeffect 6
     pss SPLIT_SPECIAL
     basepower 40
@@ -1325,8 +1409,9 @@ movedata MOVE_THUNDER_SHOCK
     appeal 0x05
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_THUNDER_SHOCK, "A jolt of electricity\nis hurled at the foe\nto inflict damage.\nThis has a 10% chance\nto paralyze the foe."
 
-movedata MOVE_THUNDERBOLT
+movedata MOVE_THUNDERBOLT, "Thunderbolt"
     battleeffect 6
     pss SPLIT_SPECIAL
     basepower 90
@@ -1340,8 +1425,9 @@ movedata MOVE_THUNDERBOLT
     appeal 0x11
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_THUNDERBOLT, "A strong electric\nblast is loosed at\nthe foe.\nThis has a 10% chance\nto paralyze the foe."
 
-movedata MOVE_THUNDER_WAVE
+movedata MOVE_THUNDER_WAVE, "Thunder Wave"
     battleeffect 67
     pss SPLIT_STATUS
     basepower 0
@@ -1355,8 +1441,9 @@ movedata MOVE_THUNDER_WAVE
     appeal 0x13
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_THUNDER_WAVE, "A weak electric\ncharge is launched at\nthe foe.\nIt causes paralysis if\nit hits."
 
-movedata MOVE_THUNDER
+movedata MOVE_THUNDER, "Thunder"
     battleeffect 152
     pss SPLIT_SPECIAL
     basepower 110
@@ -1370,9 +1457,10 @@ movedata MOVE_THUNDER
     appeal 0x11
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_THUNDER, "A wicked thunderbolt\nis dropped on the foe\nto inflict damage.\nThis has a 30% chance\nto paralyze the foe."
 
 // ACCURACY: 90 >> 100
-movedata MOVE_ROCK_THROW
+movedata MOVE_ROCK_THROW, "Rock Throw"
     battleeffect 0
     pss SPLIT_PHYSICAL
     basepower 50
@@ -1386,8 +1474,9 @@ movedata MOVE_ROCK_THROW
     appeal 0x05
     contesttype CONTEST_TOUGH
     terminatedata
+    movedescription MOVE_ROCK_THROW, "The user picks up\nand throws a small\nrock at the foe to\nattack.\n"
 
-movedata MOVE_EARTHQUAKE
+movedata MOVE_EARTHQUAKE, "Earthquake"
     battleeffect 147
     pss SPLIT_PHYSICAL
     basepower 100
@@ -1401,8 +1490,9 @@ movedata MOVE_EARTHQUAKE
     appeal 0x12
     contesttype CONTEST_TOUGH
     terminatedata
+    movedescription MOVE_EARTHQUAKE, "The user sets off an\nearthquake that hits\nall the Pokémon in\nthe battle.\n"
 
-movedata MOVE_FISSURE
+movedata MOVE_FISSURE, "Fissure"
     battleeffect 38
     pss SPLIT_PHYSICAL
     basepower 1
@@ -1416,8 +1506,9 @@ movedata MOVE_FISSURE
     appeal 0x09
     contesttype CONTEST_TOUGH
     terminatedata
+    movedescription MOVE_FISSURE, "The user opens up a\nfissure in the ground\nand drops the foe in.\nThe target instantly\nfaints if it hits."
 
-movedata MOVE_DIG
+movedata MOVE_DIG, "Dig"
     battleeffect 256
     pss SPLIT_PHYSICAL
     basepower 80
@@ -1431,9 +1522,10 @@ movedata MOVE_DIG
     appeal 0x06
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_DIG, "The user burrows,\nthen attacks on the\nsecond turn.\nIt can also be used\nto exit dungeons."
 
 // EFFECT: Updated so Poison types cannot miss. This is handled in other_battle_calculators
-movedata MOVE_TOXIC
+movedata MOVE_TOXIC, "Toxic"
     battleeffect 33
     pss SPLIT_STATUS
     basepower 0
@@ -1447,8 +1539,9 @@ movedata MOVE_TOXIC
     appeal 0x13
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_TOXIC, "A move that leaves\nthe target badly\npoisoned.\nIts poison damage\nworsens every turn."
 
-movedata MOVE_CONFUSION
+movedata MOVE_CONFUSION, "Confusion"
     battleeffect 76
     pss SPLIT_SPECIAL
     basepower 50
@@ -1462,8 +1555,9 @@ movedata MOVE_CONFUSION
     appeal 0x05
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_CONFUSION, "The foe is hit by a\nweak telekinetic\nforce.\nThis has a 10% chance\nto confuse the foe."
 
-movedata MOVE_PSYCHIC
+movedata MOVE_PSYCHIC, "Psychic"
     battleeffect 72
     pss SPLIT_SPECIAL
     basepower 90
@@ -1477,8 +1571,9 @@ movedata MOVE_PSYCHIC
     appeal 0x11
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_PSYCHIC, "The foe is hit by a\nstrong telekinetic\nforce.\nThis has a 10% chance\nto lower Sp. Def."
 
-movedata MOVE_HYPNOSIS
+movedata MOVE_HYPNOSIS, "Hypnosis"
     battleeffect 1
     pss SPLIT_STATUS
     basepower 0
@@ -1492,10 +1587,11 @@ movedata MOVE_HYPNOSIS
     appeal 0x13
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_HYPNOSIS, "The user employs\nhypnotic suggestion\nto make the target\nfall into a deep\nsleep."
 
 // EFFECT: Now also boosts accuracy.
 // PP: 40 >> 20
-movedata MOVE_MEDITATE
+movedata MOVE_MEDITATE, "Meditate"
     battleeffect 50
     pss SPLIT_STATUS
     basepower 0
@@ -1509,8 +1605,9 @@ movedata MOVE_MEDITATE
     appeal 0x0B
     contesttype CONTEST_BEAUTY
     terminatedata
+    movedescription MOVE_MEDITATE, "The user meditates\nto awaken the power\ndeep within its body.\nIt raises the user’s\nAttack and accuracy."
 
-movedata MOVE_AGILITY
+movedata MOVE_AGILITY, "Agility"
     battleeffect 52
     pss SPLIT_STATUS
     basepower 0
@@ -1524,8 +1621,9 @@ movedata MOVE_AGILITY
     appeal 0x01
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_AGILITY, "The user relaxes and\nlightens its body to\nmove faster.\nIt sharply boosts\nthe Speed stat."
 
-movedata MOVE_QUICK_ATTACK
+movedata MOVE_QUICK_ATTACK, "Quick Attack"
     battleeffect 103
     pss SPLIT_PHYSICAL
     basepower 40
@@ -1539,8 +1637,9 @@ movedata MOVE_QUICK_ATTACK
     appeal 0x01
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_QUICK_ATTACK, "The user lunges at\nthe foe at a speed\nthat makes it almost\ninvisible. It is sure\nto strike first."
 
-movedata MOVE_RAGE
+movedata MOVE_RAGE, "Rage"
     battleeffect 81
     pss SPLIT_PHYSICAL
     basepower 20
@@ -1554,9 +1653,10 @@ movedata MOVE_RAGE
     appeal 0x0B
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_RAGE, "While this move is in\nuse, it gains attack\npower each time the\nuser is hit in battle.\n"
 
 // EFFECT: Updated to Gen 8 effect.
-movedata MOVE_TELEPORT
+movedata MOVE_TELEPORT, "Teleport"
     battleeffect 153
     pss SPLIT_STATUS
     basepower 0
@@ -1570,8 +1670,9 @@ movedata MOVE_TELEPORT
     appeal 0x01
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_TELEPORT, "The user switches\nplaces with a party\nPokémon in waiting.\nIn the wild, the\nbattle ends instead."
 
-movedata MOVE_NIGHT_SHADE
+movedata MOVE_NIGHT_SHADE, "Night Shade"
     battleeffect 87
     pss SPLIT_SPECIAL
     basepower 1
@@ -1585,8 +1686,9 @@ movedata MOVE_NIGHT_SHADE
     appeal 0x05
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_NIGHT_SHADE, "The user makes the\nfoe see a mirage.\nIt inflicts damage\nmatching the user’s\nlevel."
 
-movedata MOVE_MIMIC
+movedata MOVE_MIMIC, "Mimic"
     battleeffect 82
     pss SPLIT_STATUS
     basepower 0
@@ -1600,8 +1702,9 @@ movedata MOVE_MIMIC
     appeal 0x0C
     contesttype CONTEST_CUTE
     terminatedata
+    movedescription MOVE_MIMIC, "The user copies the\nmove last used by\nthe foe. The move can\nbe used for the rest\nof the battle."
 
-movedata MOVE_SCREECH
+movedata MOVE_SCREECH, "Screech"
     battleeffect 59
     pss SPLIT_STATUS
     basepower 0
@@ -1615,8 +1718,9 @@ movedata MOVE_SCREECH
     appeal 0x0A
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_SCREECH, "An earsplitting\nscreech is emitted to\nsharply reduce the\nfoe’s Defense stat.\n"
 
-movedata MOVE_DOUBLE_TEAM
+movedata MOVE_DOUBLE_TEAM, "Double Team"
     battleeffect 16
     pss SPLIT_STATUS
     basepower 0
@@ -1630,8 +1734,9 @@ movedata MOVE_DOUBLE_TEAM
     appeal 0x01
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_DOUBLE_TEAM, "By moving rapidly, the\nuser makes illusory\ncopies of itself to\nraise its evasiveness.\n"
 
-movedata MOVE_RECOVER
+movedata MOVE_RECOVER, "Recover"
     battleeffect 32
     pss SPLIT_STATUS
     basepower 0
@@ -1645,8 +1750,9 @@ movedata MOVE_RECOVER
     appeal 0x08
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_RECOVER, "A self-healing move.\nThe user restores its\nown HP by up to half\nof its max HP.\n"
 
-movedata MOVE_HARDEN
+movedata MOVE_HARDEN, "Harden"
     battleeffect 11
     pss SPLIT_STATUS
     basepower 0
@@ -1660,9 +1766,10 @@ movedata MOVE_HARDEN
     appeal 0x0D
     contesttype CONTEST_TOUGH
     terminatedata
+    movedescription MOVE_HARDEN, "The user stiffens all\nthe muscles in its\nbody to raise its\nDefense stat.\n"
 
 // EFFECT: Updated to sharply raise evasion as in Gen 5
-movedata MOVE_MINIMIZE
+movedata MOVE_MINIMIZE, "Minimize"
     battleeffect 108
     pss SPLIT_STATUS
     basepower 0
@@ -1676,8 +1783,9 @@ movedata MOVE_MINIMIZE
     appeal 0x0D
     contesttype CONTEST_CUTE
     terminatedata
+    movedescription MOVE_MINIMIZE, "The user compresses\nits body to make\nitself look smaller.\nThe user’s evasion\nis sharply raised."
 
-movedata MOVE_SMOKESCREEN
+movedata MOVE_SMOKESCREEN, "Smokescreen"
     battleeffect 23
     pss SPLIT_STATUS
     basepower 0
@@ -1691,8 +1799,9 @@ movedata MOVE_SMOKESCREEN
     appeal 0x0A
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_SMOKESCREEN, "The user releases an\nobscuring cloud of\nsmoke or ink.\nIt reduces the foe’s\naccuracy."
 
-movedata MOVE_CONFUSE_RAY
+movedata MOVE_CONFUSE_RAY, "Confuse Ray"
     battleeffect 49
     pss SPLIT_STATUS
     basepower 0
@@ -1706,8 +1815,9 @@ movedata MOVE_CONFUSE_RAY
     appeal 0x0A
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_CONFUSE_RAY, "The foe is exposed\nto a sinister ray\nthat triggers\nconfusion.\n"
 
-movedata MOVE_WITHDRAW
+movedata MOVE_WITHDRAW, "Withdraw"
     battleeffect 11
     pss SPLIT_STATUS
     basepower 0
@@ -1721,8 +1831,9 @@ movedata MOVE_WITHDRAW
     appeal 0x0D
     contesttype CONTEST_CUTE
     terminatedata
+    movedescription MOVE_WITHDRAW, "The user withdraws\nits body into its hard\nshell, raising its\nDefense stat.\n"
 
-movedata MOVE_DEFENSE_CURL
+movedata MOVE_DEFENSE_CURL, "Defense Curl"
     battleeffect 156
     pss SPLIT_STATUS
     basepower 0
@@ -1736,8 +1847,9 @@ movedata MOVE_DEFENSE_CURL
     appeal 0x0D
     contesttype CONTEST_CUTE
     terminatedata
+    movedescription MOVE_DEFENSE_CURL, "The user curls up to\nconceal weak spots\nand raise its Defense\nstat.\n"
 
-movedata MOVE_BARRIER
+movedata MOVE_BARRIER, "Barrier"
     battleeffect 51
     pss SPLIT_STATUS
     basepower 0
@@ -1751,8 +1863,9 @@ movedata MOVE_BARRIER
     appeal 0x0D
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_BARRIER, "The user throws up a\nsturdy wall that\nsharply raises its\nDefense stat.\n"
 
-movedata MOVE_LIGHT_SCREEN
+movedata MOVE_LIGHT_SCREEN, "Light Screen"
     battleeffect 35
     pss SPLIT_STATUS
     basepower 0
@@ -1766,8 +1879,9 @@ movedata MOVE_LIGHT_SCREEN
     appeal 0x0D
     contesttype CONTEST_BEAUTY
     terminatedata
+    movedescription MOVE_LIGHT_SCREEN, "A wondrous wall of\nlight is put up to\nsuppress damage from\nspecial attacks for\nfive turns."
 
-movedata MOVE_HAZE
+movedata MOVE_HAZE, "Haze"
     battleeffect 25
     pss SPLIT_STATUS
     basepower 0
@@ -1781,8 +1895,9 @@ movedata MOVE_HAZE
     appeal 0x0D
     contesttype CONTEST_BEAUTY
     terminatedata
+    movedescription MOVE_HAZE, "The user creates a\nhaze that eliminates\nevery stat change\namong all the Pokémon\nengaged in battle."
 
-movedata MOVE_REFLECT
+movedata MOVE_REFLECT, "Reflect"
     battleeffect 65
     pss SPLIT_STATUS
     basepower 0
@@ -1796,8 +1911,9 @@ movedata MOVE_REFLECT
     appeal 0x0D
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_REFLECT, "A wondrous wall of\nlight is put up to\nsuppress damage from\nphysical attacks for\nfive turns."
 
-movedata MOVE_FOCUS_ENERGY
+movedata MOVE_FOCUS_ENERGY, "Focus Energy"
     battleeffect 47
     pss SPLIT_STATUS
     basepower 0
@@ -1811,8 +1927,9 @@ movedata MOVE_FOCUS_ENERGY
     appeal 0x0B
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_FOCUS_ENERGY, "The user takes a\ndeep breath and\nfocuses to raise the\ncritical-hit ratio of\nits attacks."
 
-movedata MOVE_BIDE
+movedata MOVE_BIDE, "Bide"
     battleeffect 26
     pss SPLIT_PHYSICAL
     basepower 1
@@ -1826,8 +1943,9 @@ movedata MOVE_BIDE
     appeal 0x0F
     contesttype CONTEST_TOUGH
     terminatedata
+    movedescription MOVE_BIDE, "The user endures\nattacks for two\nturns, then strikes\nback to cause double\nthe damage taken."
 
-movedata MOVE_METRONOME
+movedata MOVE_METRONOME, "Metronome"
     battleeffect 83
     pss SPLIT_STATUS
     basepower 0
@@ -1841,8 +1959,9 @@ movedata MOVE_METRONOME
     appeal 0x0E
     contesttype CONTEST_CUTE
     terminatedata
+    movedescription MOVE_METRONOME, "The user waggles a\nfinger and stimulates\nthe brain into\nrandomly using nearly\nany move."
 
-movedata MOVE_MIRROR_MOVE
+movedata MOVE_MIRROR_MOVE, "Mirror Move"
     battleeffect 9
     pss SPLIT_STATUS
     basepower 0
@@ -1856,8 +1975,9 @@ movedata MOVE_MIRROR_MOVE
     appeal 0x0F
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_MIRROR_MOVE, "The user counters\nthe foe by mimicking\nthe move last used\nby the foe."
 
-movedata MOVE_SELF_DESTRUCT
+movedata MOVE_SELF_DESTRUCT, "Self-Destruct"
     battleeffect 7
     pss SPLIT_PHYSICAL
     basepower 200
@@ -1871,10 +1991,11 @@ movedata MOVE_SELF_DESTRUCT
     appeal 0x09
     contesttype CONTEST_BEAUTY
     terminatedata
+    movedescription MOVE_SELF_DESTRUCT, "The user blows up.\nAll Pokémon in battle\ntake damage based on\nhalf of their Defense.\nThe user then faints."
 
 // SPLIT: Physical >> Special
 // ACCURACY: 75 >> 90
-movedata MOVE_EGG_BOMB
+movedata MOVE_EGG_BOMB, "Egg Bomb"
     battleeffect 0
     pss MOVE_CHANGES_IMPLEMENTED ? SPLIT_SPECIAL : SPLIT_PHYSICAL
     basepower 100
@@ -1888,9 +2009,10 @@ movedata MOVE_EGG_BOMB
     appeal 0x05
     contesttype CONTEST_TOUGH
     terminatedata
+    movedescription MOVE_EGG_BOMB, "A large egg is hurled\nat the foe, which\nthen explodes to\ninflict damage."
 
 // POWER: 30 >> 40
-movedata MOVE_LICK
+movedata MOVE_LICK, "Lick"
     battleeffect 6
     pss SPLIT_PHYSICAL
     basepower MOVE_CHANGES_IMPLEMENTED ? 40 : 30
@@ -1904,10 +2026,11 @@ movedata MOVE_LICK
     appeal 0x10
     contesttype CONTEST_TOUGH
     terminatedata
+    movedescription MOVE_LICK, "The foe is licked with\na long tongue, which\ncauses damage.\nThis has a 30% chance\nto paralyze the foe."
 
 // POWER: 30 >> 50
 // ACCURACY: 70 >> 90
-movedata MOVE_SMOG
+movedata MOVE_SMOG, "Smog"
     battleeffect 2
     pss SPLIT_SPECIAL
     basepower MOVE_CHANGES_IMPLEMENTED ? 50 : 30
@@ -1921,8 +2044,9 @@ movedata MOVE_SMOG
     appeal 0x05
     contesttype CONTEST_TOUGH
     terminatedata
+    movedescription MOVE_SMOG, "The foe is attacked\nwith a discharge of\nfilthy gases.\nThis has a 40% chance\nto poison the foe."
 
-movedata MOVE_SLUDGE
+movedata MOVE_SLUDGE, "Sludge"
     battleeffect 2
     pss SPLIT_SPECIAL
     basepower 65
@@ -1936,9 +2060,10 @@ movedata MOVE_SLUDGE
     appeal 0x12
     contesttype CONTEST_TOUGH
     terminatedata
+    movedescription MOVE_SLUDGE, "Unsanitary sludge is\nhurled at the foe.\nThis has a 30% chance\nto poison the foe."
 
 // ACCURACY: 85 >> 100
-movedata MOVE_BONE_CLUB
+movedata MOVE_BONE_CLUB, "Bone Club"
     battleeffect 31
     pss SPLIT_PHYSICAL
     basepower 65
@@ -1952,8 +2077,9 @@ movedata MOVE_BONE_CLUB
     appeal 0x05
     contesttype CONTEST_TOUGH
     terminatedata
+    movedescription MOVE_BONE_CLUB, "The user clubs the\nfoe with a bone.\nThis has a 10% chance\nto flinch the foe."
 
-movedata MOVE_FIRE_BLAST
+movedata MOVE_FIRE_BLAST, "Fire Blast"
     battleeffect 4
     pss SPLIT_SPECIAL
     basepower 110
@@ -1967,8 +2093,9 @@ movedata MOVE_FIRE_BLAST
     appeal 0x11
     contesttype CONTEST_BEAUTY
     terminatedata
+    movedescription MOVE_FIRE_BLAST, "The foe is attacked\nwith an intense blast\nof all-consuming fire.\nThis has a 10% chance\nto burn the foe."
 
-movedata MOVE_WATERFALL
+movedata MOVE_WATERFALL, "Waterfall"
     battleeffect 31
     pss SPLIT_PHYSICAL
     basepower 80
@@ -1982,9 +2109,10 @@ movedata MOVE_WATERFALL
     appeal 0x05
     contesttype CONTEST_TOUGH
     terminatedata
+    movedescription MOVE_WATERFALL, "The user charges at\nthe foe at an\nawesome speed.\nThis has a 20% chance\nto flinch the foe."
 
 // POWER: 35 >> 55
-movedata MOVE_CLAMP
+movedata MOVE_CLAMP, "Clamp"
     battleeffect 42
     pss SPLIT_PHYSICAL
     basepower MOVE_CHANGES_IMPLEMENTED ? 55 : 35
@@ -1998,8 +2126,9 @@ movedata MOVE_CLAMP
     appeal 0x05
     contesttype CONTEST_TOUGH
     terminatedata
+    movedescription MOVE_CLAMP, "The foe is clamped\nand squeezed by\nthe user’s very thick\nand sturdy shell for\nfour to five turns."
 
-movedata MOVE_SWIFT
+movedata MOVE_SWIFT, "Swift"
     battleeffect 17
     pss SPLIT_SPECIAL
     basepower 60
@@ -2013,8 +2142,9 @@ movedata MOVE_SWIFT
     appeal 0x11
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_SWIFT, "Star-shaped rays are\nshot at the foe.\nThis attack never\nmisses.\n"
 
-movedata MOVE_SKULL_BASH
+movedata MOVE_SKULL_BASH, "Skull Bash"
     battleeffect 145
     pss SPLIT_PHYSICAL
     basepower 130
@@ -2028,8 +2158,9 @@ movedata MOVE_SKULL_BASH
     appeal 0x06
     contesttype CONTEST_TOUGH
     terminatedata
+    movedescription MOVE_SKULL_BASH, "The user tucks in its\nhead to raise its\nDefense in the first\nturn, then rams the\nfoe on the next turn."
 
-movedata MOVE_SPIKE_CANNON
+movedata MOVE_SPIKE_CANNON, "Spike Cannon"
     battleeffect 29
     pss SPLIT_PHYSICAL
     basepower 20
@@ -2043,9 +2174,10 @@ movedata MOVE_SPIKE_CANNON
     appeal 0x07
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_SPIKE_CANNON, "Sharp spikes are\nfired at the foe to\nstrike two to five\ntimes in rapid\nsuccession."
 
 // POWER: 10 >> 30
-movedata MOVE_CONSTRICT
+movedata MOVE_CONSTRICT, "Constrict"
     battleeffect 70
     pss SPLIT_PHYSICAL
     basepower MOVE_CHANGES_IMPLEMENTED ? 30 : 10
@@ -2059,8 +2191,9 @@ movedata MOVE_CONSTRICT
     appeal 0x15
     contesttype CONTEST_TOUGH
     terminatedata
+    movedescription MOVE_CONSTRICT, "The foe is attacked\nwith long, creeping\ntentacles or vines.\nThis has a 10% chance\nto lower Speed."
 
-movedata MOVE_AMNESIA
+movedata MOVE_AMNESIA, "Amnesia"
     battleeffect 54
     pss SPLIT_STATUS
     basepower 0
@@ -2074,8 +2207,9 @@ movedata MOVE_AMNESIA
     appeal 0x0B
     contesttype CONTEST_CUTE
     terminatedata
+    movedescription MOVE_AMNESIA, "The user temporarily\nempties its mind to\nforget its concerns.\nIt sharply raises the\nuser’s Sp. Def stat."
 
-movedata MOVE_KINESIS
+movedata MOVE_KINESIS, "Kinesis"
     battleeffect 23
     pss SPLIT_STATUS
     basepower 0
@@ -2089,8 +2223,9 @@ movedata MOVE_KINESIS
     appeal 0x0B
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_KINESIS, "The user distracts\nthe foe by bending a\nspoon.\nIt may lower the\ntarget’s accuracy."
 
-movedata MOVE_SOFT_BOILED
+movedata MOVE_SOFT_BOILED, "Soft-Boiled"
     battleeffect 32
     pss SPLIT_STATUS
     basepower 0
@@ -2104,8 +2239,9 @@ movedata MOVE_SOFT_BOILED
     appeal 0x08
     contesttype CONTEST_BEAUTY
     terminatedata
+    movedescription MOVE_SOFT_BOILED, "The user restores its\nown HP by up to half\nof its maximum HP.\nIt may also be used\nto heal an ally’s HP."
 
-movedata MOVE_HI_JUMP_KICK
+movedata MOVE_HI_JUMP_KICK, "High Jump Kick"
     battleeffect 45
     pss SPLIT_PHYSICAL
     basepower 130
@@ -2119,8 +2255,9 @@ movedata MOVE_HI_JUMP_KICK
     appeal 0x05
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_HI_JUMP_KICK, "The foe is attacked\nwith a knee kick from\na jump. If it misses,\nthe user is hurt\ninstead."
 
-movedata MOVE_GLARE
+movedata MOVE_GLARE, "Glare"
     battleeffect 67
     pss SPLIT_STATUS
     basepower 0
@@ -2134,8 +2271,9 @@ movedata MOVE_GLARE
     appeal 0x13
     contesttype CONTEST_TOUGH
     terminatedata
+    movedescription MOVE_GLARE, "The user intimidates\nthe foe with the\npattern on its belly\nto cause paralysis.\n"
 
-movedata MOVE_DREAM_EATER
+movedata MOVE_DREAM_EATER, "Dream Eater"
     battleeffect 8
     pss SPLIT_SPECIAL
     basepower 100
@@ -2149,8 +2287,9 @@ movedata MOVE_DREAM_EATER
     appeal 0x14
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_DREAM_EATER, "An attack that works\nonly on a sleeping\nfoe. It absorbs half\nthe damage caused to\nheal the user’s HP."
 
-movedata MOVE_POISON_GAS
+movedata MOVE_POISON_GAS, "Poison Gas"
     battleeffect 66
     pss SPLIT_STATUS
     basepower 0
@@ -2164,10 +2303,11 @@ movedata MOVE_POISON_GAS
     appeal 0x05
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_POISON_GAS, "A cloud of poison gas\nis sprayed in the\nfoe’s face.\nIt may poison the\ntarget."
 
 // POWER: 15 >> 20
 // ACCURACY: 85 >> 100
-movedata MOVE_BARRAGE
+movedata MOVE_BARRAGE, "Barrage"
     battleeffect 29
     pss SPLIT_PHYSICAL
     basepower MOVE_CHANGES_IMPLEMENTED ? 20 : 15
@@ -2181,8 +2321,9 @@ movedata MOVE_BARRAGE
     appeal 0x07
     contesttype CONTEST_TOUGH
     terminatedata
+    movedescription MOVE_BARRAGE, "Round objects are\nhurled at the foe to\nstrike two to five\ntimes in a row.\n"
 
-movedata MOVE_LEECH_LIFE
+movedata MOVE_LEECH_LIFE, "Leech Life"
     battleeffect 3
     pss SPLIT_PHYSICAL
     basepower 80
@@ -2196,8 +2337,9 @@ movedata MOVE_LEECH_LIFE
     appeal 0x14
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_LEECH_LIFE, "A blood-draining\nattack. The user’s\nHP is restored by\nhalf the damage taken\nby the target."
 
-movedata MOVE_LOVELY_KISS
+movedata MOVE_LOVELY_KISS, "Lovely Kiss"
     battleeffect 1
     pss SPLIT_STATUS
     basepower 0
@@ -2211,8 +2353,9 @@ movedata MOVE_LOVELY_KISS
     appeal 0x13
     contesttype CONTEST_BEAUTY
     terminatedata
+    movedescription MOVE_LOVELY_KISS, "With a scary face, the\nuser tries to force a\nkiss on the foe. If it\nsucceeds, the target\nfalls asleep."
 
-movedata MOVE_SKY_ATTACK
+movedata MOVE_SKY_ATTACK, "Sky Attack"
     battleeffect 75
     pss SPLIT_PHYSICAL
     basepower 140
@@ -2226,8 +2369,9 @@ movedata MOVE_SKY_ATTACK
     appeal 0x06
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_SKY_ATTACK, "A second-turn attack\nmove with a high\ncritical-hit ratio.\nThis has a 30% chance\nto flinch the foe."
 
-movedata MOVE_TRANSFORM
+movedata MOVE_TRANSFORM, "Transform"
     battleeffect 57
     pss SPLIT_STATUS
     basepower 0
@@ -2241,8 +2385,9 @@ movedata MOVE_TRANSFORM
     appeal 0x17
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_TRANSFORM, "The user transforms\ninto a copy of the\nfoe right down to\nhaving the same move\nset."
 
-movedata MOVE_BUBBLE
+movedata MOVE_BUBBLE, "Bubble"
     battleeffect 70
     pss SPLIT_SPECIAL
     basepower 40
@@ -2256,8 +2401,9 @@ movedata MOVE_BUBBLE
     appeal 0x02
     contesttype CONTEST_CUTE
     terminatedata
+    movedescription MOVE_BUBBLE, "A spray of countless\nbubbles is jetted at\nthe foe.\nThis has a 10% chance\nto lower Speed."
 
-movedata MOVE_DIZZY_PUNCH
+movedata MOVE_DIZZY_PUNCH, "Dizzy Punch"
     battleeffect 76
     pss SPLIT_PHYSICAL
     basepower 70
@@ -2271,8 +2417,9 @@ movedata MOVE_DIZZY_PUNCH
     appeal 0x10
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_DIZZY_PUNCH, "The foe is hit with\nrhythmically launched\npunches.\nThis has a 20% chance\nto confuse the foe."
 
-movedata MOVE_SPORE
+movedata MOVE_SPORE, "Spore"
     battleeffect 1
     pss SPLIT_STATUS
     basepower 0
@@ -2286,8 +2433,9 @@ movedata MOVE_SPORE
     appeal 0x0A
     contesttype CONTEST_BEAUTY
     terminatedata
+    movedescription MOVE_SPORE, "The user scatters\nbursts of spores\nthat induce sleep.\n\n"
 
-movedata MOVE_FLASH
+movedata MOVE_FLASH, "Flash"
     battleeffect 23
     pss SPLIT_STATUS
     basepower 0
@@ -2301,8 +2449,9 @@ movedata MOVE_FLASH
     appeal 0x0A
     contesttype CONTEST_BEAUTY
     terminatedata
+    movedescription MOVE_FLASH, "The user flashes a\nlight that cuts the\nfoe’s accuracy.\nIt can also be used\nto illuminate caves."
 
-movedata MOVE_PSYWAVE
+movedata MOVE_PSYWAVE, "Psywave"
     battleeffect 88
     pss SPLIT_SPECIAL
     basepower 1
@@ -2316,8 +2465,9 @@ movedata MOVE_PSYWAVE
     appeal 0x05
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_PSYWAVE, "The foe is attacked\nwith an odd, hot\nenergy wave.\nThe attack varies in\nintensity."
 
-movedata MOVE_SPLASH
+movedata MOVE_SPLASH, "Splash"
     battleeffect 85
     pss SPLIT_STATUS
     basepower 0
@@ -2331,8 +2481,9 @@ movedata MOVE_SPLASH
     appeal 0x10
     contesttype CONTEST_CUTE
     terminatedata
+    movedescription MOVE_SPLASH, "The user just flops\nand splashes around\nto no effect at all...\n\n"
 
-movedata MOVE_ACID_ARMOR
+movedata MOVE_ACID_ARMOR, "Acid Armor"
     battleeffect 51
     pss SPLIT_STATUS
     basepower 0
@@ -2346,8 +2497,9 @@ movedata MOVE_ACID_ARMOR
     appeal 0x0B
     contesttype CONTEST_TOUGH
     terminatedata
+    movedescription MOVE_ACID_ARMOR, "The user alters its\ncellular structure to\nliquefy itself,\nsharply raising its\nDefense stat."
 
-movedata MOVE_CRABHAMMER
+movedata MOVE_CRABHAMMER, "Crabhammer"
     battleeffect 43
     pss SPLIT_PHYSICAL
     basepower 100
@@ -2361,8 +2513,9 @@ movedata MOVE_CRABHAMMER
     appeal 0x12
     contesttype CONTEST_TOUGH
     terminatedata
+    movedescription MOVE_CRABHAMMER, "The foe is hammered\nwith a large pincer.\nThis move has a high\ncritical-hit ratio.\n"
 
-movedata MOVE_EXPLOSION
+movedata MOVE_EXPLOSION, "Explosion"
     battleeffect 7
     pss SPLIT_PHYSICAL
     basepower 250
@@ -2376,10 +2529,11 @@ movedata MOVE_EXPLOSION
     appeal 0x09
     contesttype CONTEST_BEAUTY
     terminatedata
+    movedescription MOVE_EXPLOSION, "The user explodes.\nAll Pokémon in battle\ntake damage based on\nhalf of their Defense.\nThe user then faints."
 
 // POWER: 18 >> 20
 // ACCURACY: 80 >> 100
-movedata MOVE_FURY_SWIPES
+movedata MOVE_FURY_SWIPES, "Fury Swipes"
     battleeffect 29
     pss SPLIT_PHYSICAL
     basepower 18
@@ -2393,8 +2547,9 @@ movedata MOVE_FURY_SWIPES
     appeal 0x07
     contesttype CONTEST_TOUGH
     terminatedata
+    movedescription MOVE_FURY_SWIPES, "The foe is raked with\nsharp claws or\nscythes for two to\nfive times in quick\nsuccession."
 
-movedata MOVE_BONEMERANG
+movedata MOVE_BONEMERANG, "Bonemerang"
     battleeffect 44
     pss SPLIT_PHYSICAL
     basepower 50
@@ -2408,8 +2563,9 @@ movedata MOVE_BONEMERANG
     appeal 0x07
     contesttype CONTEST_TOUGH
     terminatedata
+    movedescription MOVE_BONEMERANG, "The user throws the\nbone it holds. The\nbone loops to hit the\nfoe twice, coming and\ngoing."
 
-movedata MOVE_REST
+movedata MOVE_REST, "Rest"
     battleeffect 37
     pss SPLIT_STATUS
     basepower 0
@@ -2423,8 +2579,9 @@ movedata MOVE_REST
     appeal 0x08
     contesttype CONTEST_CUTE
     terminatedata
+    movedescription MOVE_REST, "The user goes to\nsleep for two turns.\nIt fully restores the\nuser’s HP and heals\nany status problem."
 
-movedata MOVE_ROCK_SLIDE
+movedata MOVE_ROCK_SLIDE, "Rock Slide"
     battleeffect 31
     pss SPLIT_PHYSICAL
     basepower 75
@@ -2438,8 +2595,9 @@ movedata MOVE_ROCK_SLIDE
     appeal 0x05
     contesttype CONTEST_TOUGH
     terminatedata
+    movedescription MOVE_ROCK_SLIDE, "Large boulders are\nhurled at the foe to\ninflict damage.\nThis has a 30% chance\nto flinch the foe."
 
-movedata MOVE_HYPER_FANG
+movedata MOVE_HYPER_FANG, "Hyper Fang"
     battleeffect 31
     pss SPLIT_PHYSICAL
     basepower 80
@@ -2453,8 +2611,9 @@ movedata MOVE_HYPER_FANG
     appeal 0x12
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_HYPER_FANG, "The user bites hard\non the foe with its\nsharp front fangs.\nThis has a 10% chance\nto flinch the foe."
 
-movedata MOVE_SHARPEN
+movedata MOVE_SHARPEN, "Sharpen"
     battleeffect 10
     pss SPLIT_STATUS
     basepower 0
@@ -2468,8 +2627,9 @@ movedata MOVE_SHARPEN
     appeal 0x0B
     contesttype CONTEST_CUTE
     terminatedata
+    movedescription MOVE_SHARPEN, "The user reduces its\npolygon count to\nmake itself more\njagged, raising the\nAttack stat."
 
-movedata MOVE_CONVERSION
+movedata MOVE_CONVERSION, "Conversion"
     battleeffect 30
     pss SPLIT_STATUS
     basepower 0
@@ -2483,8 +2643,9 @@ movedata MOVE_CONVERSION
     appeal 0x17
     contesttype CONTEST_BEAUTY
     terminatedata
+    movedescription MOVE_CONVERSION, "The user changes its\ntype to become the\nsame type as one of\nits moves.\n"
 
-movedata MOVE_TRI_ATTACK
+movedata MOVE_TRI_ATTACK, "Tri Attack"
     battleeffect 36
     pss SPLIT_SPECIAL
     basepower 80
@@ -2498,8 +2659,9 @@ movedata MOVE_TRI_ATTACK
     appeal 0x05
     contesttype CONTEST_BEAUTY
     terminatedata
+    movedescription MOVE_TRI_ATTACK, "The user strikes with\na three-beam attack.\nIt has a 20% chance\nto paralyze, burn, or\nfreeze the target."
 
-movedata MOVE_SUPER_FANG
+movedata MOVE_SUPER_FANG, "Super Fang"
     battleeffect 40
     pss SPLIT_PHYSICAL
     basepower 1
@@ -2513,8 +2675,9 @@ movedata MOVE_SUPER_FANG
     appeal 0x05
     contesttype CONTEST_TOUGH
     terminatedata
+    movedescription MOVE_SUPER_FANG, "The user chomps hard\non the foe with its\nsharp front fangs.\nIt cuts the target’s\nHP to half."
 
-movedata MOVE_SLASH
+movedata MOVE_SLASH, "Slash"
     battleeffect 43
     pss SPLIT_PHYSICAL
     basepower 70
@@ -2528,8 +2691,9 @@ movedata MOVE_SLASH
     appeal 0x05
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_SLASH, "The foe is attacked\nwith a slash of\nclaws, etc.\nIt has a high\ncritical-hit ratio."
 
-movedata MOVE_SUBSTITUTE
+movedata MOVE_SUBSTITUTE, "Substitute"
     battleeffect 79
     pss SPLIT_STATUS
     basepower 0
@@ -2543,8 +2707,9 @@ movedata MOVE_SUBSTITUTE
     appeal 0x17
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_SUBSTITUTE, "The user makes a\ncopy of itself using\nsome of its HP.\nThe copy serves as\nthe user’s decoy."
 
-movedata MOVE_STRUGGLE
+movedata MOVE_STRUGGLE, "Struggle"
     battleeffect 254
     pss SPLIT_PHYSICAL
     basepower 50
@@ -2558,8 +2723,9 @@ movedata MOVE_STRUGGLE
     appeal 0x05
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_STRUGGLE, "An attack that is\nused in desperation\nonly if the user has\nno PP. It also hurts\nthe user slightly."
 
-movedata MOVE_SKETCH
+movedata MOVE_SKETCH, "Sketch"
     battleeffect 95
     pss SPLIT_STATUS
     basepower 0
@@ -2573,10 +2739,11 @@ movedata MOVE_SKETCH
     appeal 0x17
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_SKETCH, "It enables the user\nto permanently learn\nthe move last used by\nthe foe. Once used,\nSketch disappears."
 
 // EFFECT: Now gains +15 BP each hit (up from 10).
 // POWER: 10 >> 15
-movedata MOVE_TRIPLE_KICK
+movedata MOVE_TRIPLE_KICK, "Triple Kick"
     battleeffect 104
     pss SPLIT_PHYSICAL
     basepower MOVE_CHANGES_IMPLEMENTED ? 15 : 10
@@ -2590,8 +2757,9 @@ movedata MOVE_TRIPLE_KICK
     appeal 0x07
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_TRIPLE_KICK, "A consecutive three-\nkick attack that\nbecomes more\npowerful with each \nsuccessive hit."
 
-movedata MOVE_THIEF
+movedata MOVE_THIEF, "Thief"
     battleeffect 105
     pss SPLIT_PHYSICAL
     basepower 60
@@ -2605,8 +2773,9 @@ movedata MOVE_THIEF
     appeal 0x0C
     contesttype CONTEST_TOUGH
     terminatedata
+    movedescription MOVE_THIEF, "The user attacks and\nsteals the foe’s held\nitem simultaneously.\nIt can’t steal if the\nuser holds an item."
 
-movedata MOVE_SPIDER_WEB
+movedata MOVE_SPIDER_WEB, "Spider Web"
     battleeffect 106
     pss SPLIT_STATUS
     basepower 0
@@ -2620,8 +2789,9 @@ movedata MOVE_SPIDER_WEB
     appeal 0x0D
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_SPIDER_WEB, "The user ensnares\nthe foe with a thin,\ngooey silk so it can’t\nflee from battle.\n"
 
-movedata MOVE_MIND_READER
+movedata MOVE_MIND_READER, "Mind Reader"
     battleeffect 94
     pss SPLIT_STATUS
     basepower 0
@@ -2635,8 +2805,9 @@ movedata MOVE_MIND_READER
     appeal 0x14
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_MIND_READER, "The user senses the\nfoe’s movements\nwith its mind to\nensure its next\nattack does not miss."
 
-movedata MOVE_NIGHTMARE
+movedata MOVE_NIGHTMARE, "Nightmare"
     battleeffect 107
     pss SPLIT_STATUS
     basepower 0
@@ -2650,8 +2821,9 @@ movedata MOVE_NIGHTMARE
     appeal 0x13
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_NIGHTMARE, "A sleeping foe is\nshown a nightmare\nthat inflicts some\ndamage every turn.\n"
 
-movedata MOVE_FLAME_WHEEL
+movedata MOVE_FLAME_WHEEL, "Flame Wheel"
     battleeffect 125
     pss SPLIT_PHYSICAL
     basepower 60
@@ -2665,8 +2837,9 @@ movedata MOVE_FLAME_WHEEL
     appeal 0x07
     contesttype CONTEST_BEAUTY
     terminatedata
+    movedescription MOVE_FLAME_WHEEL, "The user cloaks\nitself in fire and\ncharges at the foe.\nThis has a 10% chance\nto burn the foe."
 
-movedata MOVE_SNORE
+movedata MOVE_SNORE, "Snore"
     battleeffect 92
     pss SPLIT_SPECIAL
     basepower 50
@@ -2680,8 +2853,9 @@ movedata MOVE_SNORE
     appeal 0x05
     contesttype CONTEST_CUTE
     terminatedata
+    movedescription MOVE_SNORE, "An attack that can\nbe used only if the\nuser is asleep.\nThis has a 30% chance\nto flinch the foe."
 
-movedata MOVE_CURSE
+movedata MOVE_CURSE, "Curse"
     battleeffect 109
     pss SPLIT_STATUS
     basepower 0
@@ -2695,8 +2869,9 @@ movedata MOVE_CURSE
     appeal 0x15
     contesttype CONTEST_TOUGH
     terminatedata
+    movedescription MOVE_CURSE, "A move that works\ndifferently for the\nGhost type than for\nall the other types.\n"
 
-movedata MOVE_FLAIL
+movedata MOVE_FLAIL, "Flail"
     battleeffect 99
     pss SPLIT_PHYSICAL
     basepower 1
@@ -2710,9 +2885,10 @@ movedata MOVE_FLAIL
     appeal 0x0F
     contesttype CONTEST_CUTE
     terminatedata
+    movedescription MOVE_FLAIL, "The user flails about\naimlessly to attack.\nIt becomes more\npowerful the less HP\nthe user has."
 
 // This still uses the Gen 4 effect for now.
-movedata MOVE_CONVERSION_2
+movedata MOVE_CONVERSION_2, "Conversion 2"
     battleeffect 93
     pss SPLIT_STATUS
     basepower 0
@@ -2726,9 +2902,10 @@ movedata MOVE_CONVERSION_2
     appeal 0x17
     contesttype CONTEST_BEAUTY
     terminatedata
+    movedescription MOVE_CONVERSION_2, "The user changes its\ntype to make itself\nresistant to the type\nof the attack it\nlast took."
 
 // ACCURACY: 95 >> 100
-movedata MOVE_AEROBLAST
+movedata MOVE_AEROBLAST, "Aeroblast"
     battleeffect 43
     pss SPLIT_SPECIAL
     basepower 100
@@ -2742,8 +2919,9 @@ movedata MOVE_AEROBLAST
     appeal 0x16
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_AEROBLAST, "A vortex of air is\nshot at the foe to\ninflict damage.\nIt has a high\ncritical-hit ratio."
 
-movedata MOVE_COTTON_SPORE
+movedata MOVE_COTTON_SPORE, "Cotton Spore"
     battleeffect 60
     pss SPLIT_STATUS
     basepower 0
@@ -2757,8 +2935,9 @@ movedata MOVE_COTTON_SPORE
     appeal 0x01
     contesttype CONTEST_BEAUTY
     terminatedata
+    movedescription MOVE_COTTON_SPORE, "The user releases\ncottonlike spores\nthat cling to the\nfoe, sharply reducing\nits Speed stat."
 
-movedata MOVE_REVERSAL
+movedata MOVE_REVERSAL, "Reversal"
     battleeffect 99
     pss SPLIT_PHYSICAL
     basepower 1
@@ -2772,8 +2951,9 @@ movedata MOVE_REVERSAL
     appeal 0x0F
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_REVERSAL, "An all-out attack\nthat becomes more\npowerful the less\nHP the user has.\n"
 
-movedata MOVE_SPITE
+movedata MOVE_SPITE, "Spite"
     battleeffect 100
     pss SPLIT_STATUS
     basepower 0
@@ -2787,8 +2967,9 @@ movedata MOVE_SPITE
     appeal 0x13
     contesttype CONTEST_TOUGH
     terminatedata
+    movedescription MOVE_SPITE, "The user looses its\ngrudge on the move\nlast used by the foe\nby cutting 4 PP from\nit."
 
-movedata MOVE_POWDER_SNOW
+movedata MOVE_POWDER_SNOW, "Powder Snow"
     battleeffect 5
     pss SPLIT_SPECIAL
     basepower 40
@@ -2802,8 +2983,9 @@ movedata MOVE_POWDER_SNOW
     appeal 0x05
     contesttype CONTEST_BEAUTY
     terminatedata
+    movedescription MOVE_POWDER_SNOW, "The user attacks with\na chilling gust of\npowdery snow.\nThis has a 10% chance\nto freeze the foe."
 
-movedata MOVE_PROTECT
+movedata MOVE_PROTECT, "Protect"
     battleeffect 111
     pss SPLIT_STATUS
     basepower 0
@@ -2817,8 +2999,9 @@ movedata MOVE_PROTECT
     appeal 0x10
     contesttype CONTEST_CUTE
     terminatedata
+    movedescription MOVE_PROTECT, "It enables the user\nto evade all attacks.\nIts chance of failing\nrises if it is used in\nsuccession."
 
-movedata MOVE_MACH_PUNCH
+movedata MOVE_MACH_PUNCH, "Mach Punch"
     battleeffect 103
     pss SPLIT_PHYSICAL
     basepower 40
@@ -2832,8 +3015,9 @@ movedata MOVE_MACH_PUNCH
     appeal 0x01
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_MACH_PUNCH, "The user throws a\npunch at blinding\nspeed.\nIt is certain to\nstrike first."
 
-movedata MOVE_SCARY_FACE
+movedata MOVE_SCARY_FACE, "Scary Face"
     battleeffect 60
     pss SPLIT_STATUS
     basepower 0
@@ -2847,8 +3031,9 @@ movedata MOVE_SCARY_FACE
     appeal 0x02
     contesttype CONTEST_TOUGH
     terminatedata
+    movedescription MOVE_SCARY_FACE, "The user frightens\nthe foe with a scary\nface to sharply\nreduce its Speed\nstat."
 
-movedata MOVE_FEINT_ATTACK
+movedata MOVE_FEINT_ATTACK, "Feint Attack"
     battleeffect 17
     pss SPLIT_PHYSICAL
     basepower 60
@@ -2862,8 +3047,9 @@ movedata MOVE_FEINT_ATTACK
     appeal 0x12
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_FEINT_ATTACK, "The user draws up to\nthe foe disarmingly,\nthen throws a sucker\npunch.\nIt hits without fail."
 
-movedata MOVE_SWEET_KISS
+movedata MOVE_SWEET_KISS, "Sweet Kiss"
     battleeffect 49
     pss SPLIT_STATUS
     basepower 0
@@ -2877,8 +3063,9 @@ movedata MOVE_SWEET_KISS
     appeal 0x13
     contesttype CONTEST_CUTE
     terminatedata
+    movedescription MOVE_SWEET_KISS, "The user kisses the\nfoe with a sweet,\nangelic cuteness that\ncauses confusion.\n"
 
-movedata MOVE_BELLY_DRUM
+movedata MOVE_BELLY_DRUM, "Belly Drum"
     battleeffect 142
     pss SPLIT_STATUS
     basepower 0
@@ -2892,8 +3079,9 @@ movedata MOVE_BELLY_DRUM
     appeal 0x0B
     contesttype CONTEST_CUTE
     terminatedata
+    movedescription MOVE_BELLY_DRUM, "The user maximizes\nits Attack stat in\nexchange for HP\nequal to half its max\nHP."
 
-movedata MOVE_SLUDGE_BOMB
+movedata MOVE_SLUDGE_BOMB, "Sludge Bomb"
     battleeffect 2
     pss SPLIT_SPECIAL
     basepower 90
@@ -2907,9 +3095,10 @@ movedata MOVE_SLUDGE_BOMB
     appeal 0x12
     contesttype CONTEST_TOUGH
     terminatedata
+    movedescription MOVE_SLUDGE_BOMB, "The user attacks by\nhurling filthy sludge\nat the foe.\nThis has a 10% chance\nto poison the foe."
 
 // POWER: 20 >> 30
-movedata MOVE_MUD_SLAP
+movedata MOVE_MUD_SLAP, "Mud-Slap"
     battleeffect 73
     pss SPLIT_SPECIAL
     basepower MOVE_CHANGES_IMPLEMENTED ? 30 : 20
@@ -2923,9 +3112,10 @@ movedata MOVE_MUD_SLAP
     appeal 0x05
     contesttype CONTEST_CUTE
     terminatedata
+    movedescription MOVE_MUD_SLAP, "The user hurls mud in\nthe foe’s face to\ninflict damage and\nlower its accuracy.\n"
 
 // POWER: 65 >> 75
-movedata MOVE_OCTAZOOKA
+movedata MOVE_OCTAZOOKA, "Octazooka"
     battleeffect 73
     pss SPLIT_SPECIAL
     basepower MOVE_CHANGES_IMPLEMENTED ? 75 : 65
@@ -2939,8 +3129,9 @@ movedata MOVE_OCTAZOOKA
     appeal 0x04
     contesttype CONTEST_TOUGH
     terminatedata
+    movedescription MOVE_OCTAZOOKA, "The user attacks by\nspraying ink in the\nfoe’s face or eyes.\nThis has a 50% chance\nto lower accuracy."
 
-movedata MOVE_SPIKES
+movedata MOVE_SPIKES, "Spikes"
     battleeffect 112
     pss SPLIT_STATUS
     basepower 0
@@ -2954,8 +3145,9 @@ movedata MOVE_SPIKES
     appeal 0x0D
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_SPIKES, "The user lays a trap\nof spikes at the\nfoe’s feet. The trap\nhurts foes that\nswitch into battle."
 
-movedata MOVE_ZAP_CANNON
+movedata MOVE_ZAP_CANNON, "Zap Cannon"
     battleeffect 6
     pss SPLIT_SPECIAL
     basepower 120
@@ -2969,8 +3161,9 @@ movedata MOVE_ZAP_CANNON
     appeal 0x04
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_ZAP_CANNON, "The user fires an\nelectric blast like a\ncannon to inflict\ndamage and cause\nparalysis."
 
-movedata MOVE_FORESIGHT
+movedata MOVE_FORESIGHT, "Foresight"
     battleeffect 113
     pss SPLIT_STATUS
     basepower 0
@@ -2984,8 +3177,9 @@ movedata MOVE_FORESIGHT
     appeal 0x14
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_FORESIGHT, "Enables the user to\nhit a Ghost type with\nany type of move. It\nalso enables the user\nto hit an evasive foe."
 
-movedata MOVE_DESTINY_BOND
+movedata MOVE_DESTINY_BOND, "Destiny Bond"
     battleeffect 98
     pss SPLIT_STATUS
     basepower 0
@@ -2999,8 +3193,9 @@ movedata MOVE_DESTINY_BOND
     appeal 0x09
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_DESTINY_BOND, "When this move is\nused, if the user\nfaints, the foe that\nlanded the knockout\nhit also faints."
 
-movedata MOVE_PERISH_SONG
+movedata MOVE_PERISH_SONG, "Perish Song"
     battleeffect 114
     pss SPLIT_STATUS
     basepower 0
@@ -3014,8 +3209,9 @@ movedata MOVE_PERISH_SONG
     appeal 0x0A
     contesttype CONTEST_BEAUTY
     terminatedata
+    movedescription MOVE_PERISH_SONG, "Any Pokémon that\nhears this song\nfaints in three turns,\nunless it switches\nout of battle."
 
-movedata MOVE_ICY_WIND
+movedata MOVE_ICY_WIND, "Icy Wind"
     battleeffect 70
     pss SPLIT_SPECIAL
     basepower 55
@@ -3029,8 +3225,9 @@ movedata MOVE_ICY_WIND
     appeal 0x02
     contesttype CONTEST_BEAUTY
     terminatedata
+    movedescription MOVE_ICY_WIND, "The user attacks with\na gust of chilled air.\nIt also lowers the\ntarget’s Speed stat.\n"
 
-movedata MOVE_DETECT
+movedata MOVE_DETECT, "Detect"
     battleeffect 111
     pss SPLIT_STATUS
     basepower 0
@@ -3044,8 +3241,9 @@ movedata MOVE_DETECT
     appeal 0x10
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_DETECT, "It enables the user\nto evade all attacks.\nIts chance of failing\nrises if it is used in\nsuccession."
 
-movedata MOVE_BONE_RUSH
+movedata MOVE_BONE_RUSH, "Bone Rush"
     battleeffect 29
     pss SPLIT_PHYSICAL
     basepower 25
@@ -3059,8 +3257,9 @@ movedata MOVE_BONE_RUSH
     appeal 0x07
     contesttype CONTEST_TOUGH
     terminatedata
+    movedescription MOVE_BONE_RUSH, "The user strikes at\nthe foe with a hard\nbone two to five\ntimes in a row.\n"
 
-movedata MOVE_LOCK_ON
+movedata MOVE_LOCK_ON, "Lock-On"
     battleeffect 94
     pss SPLIT_STATUS
     basepower 0
@@ -3074,8 +3273,9 @@ movedata MOVE_LOCK_ON
     appeal 0x14
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_LOCK_ON, "The user takes sure\naim at the foe.\nIt ensures the next\nattack does not fail\nto hit the target."
 
-movedata MOVE_OUTRAGE
+movedata MOVE_OUTRAGE, "Outrage"
     battleeffect 27
     pss SPLIT_PHYSICAL
     basepower 120
@@ -3089,8 +3289,9 @@ movedata MOVE_OUTRAGE
     appeal 0x07
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_OUTRAGE, "The user rampages\nand attacks for two\nto three turns.\nHowever, it then\nbecomes confused."
 
-movedata MOVE_SANDSTORM
+movedata MOVE_SANDSTORM, "Sandstorm"
     battleeffect 115
     pss SPLIT_STATUS
     basepower 0
@@ -3104,8 +3305,9 @@ movedata MOVE_SANDSTORM
     appeal 0x0D
     contesttype CONTEST_TOUGH
     terminatedata
+    movedescription MOVE_SANDSTORM, "A five-turn sand-\nstorm is summoned\nto hurt all combatant\ntypes except Rock, \nGround, and Steel."
 
-movedata MOVE_GIGA_DRAIN
+movedata MOVE_GIGA_DRAIN, "Giga Drain"
     battleeffect 3
     pss SPLIT_SPECIAL
     basepower 75
@@ -3119,8 +3321,9 @@ movedata MOVE_GIGA_DRAIN
     appeal 0x14
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_GIGA_DRAIN, "A nutrient-draining\nattack. The user’s\nHP is restored by\nhalf the damage taken\nby the target."
 
-movedata MOVE_ENDURE
+movedata MOVE_ENDURE, "Endure"
     battleeffect 116
     pss SPLIT_STATUS
     basepower 0
@@ -3134,8 +3337,9 @@ movedata MOVE_ENDURE
     appeal 0x0D
     contesttype CONTEST_TOUGH
     terminatedata
+    movedescription MOVE_ENDURE, "The user endures any\nattack with at least\n1 HP. Its chance of\nfailing rises if it is\nused in succession."
 
-movedata MOVE_CHARM
+movedata MOVE_CHARM, "Charm"
     battleeffect 58
     pss SPLIT_STATUS
     basepower 0
@@ -3149,8 +3353,9 @@ movedata MOVE_CHARM
     appeal 0x13
     contesttype CONTEST_CUTE
     terminatedata
+    movedescription MOVE_CHARM, "The user charmingly\nstares at the foe,\nmaking it less wary.\nThe target’s Attack\nis sharply lowered."
 
-movedata MOVE_ROLLOUT
+movedata MOVE_ROLLOUT, "Rollout"
     battleeffect 117
     pss SPLIT_PHYSICAL
     basepower 30
@@ -3164,8 +3369,9 @@ movedata MOVE_ROLLOUT
     appeal 0x07
     contesttype CONTEST_TOUGH
     terminatedata
+    movedescription MOVE_ROLLOUT, "The user continually\nrolls into the foe\nover five turns. It\nbecomes stronger\neach time it hits."
 
-movedata MOVE_FALSE_SWIPE
+movedata MOVE_FALSE_SWIPE, "False Swipe"
     battleeffect 101
     pss SPLIT_PHYSICAL
     basepower 40
@@ -3179,8 +3385,9 @@ movedata MOVE_FALSE_SWIPE
     appeal 0x10
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_FALSE_SWIPE, "A restrained attack\nthat prevents the\nfoe from fainting.\nThe target is left\nwith at least 1 HP."
 
-movedata MOVE_SWAGGER
+movedata MOVE_SWAGGER, "Swagger"
     battleeffect 118
     pss SPLIT_STATUS
     basepower 0
@@ -3194,8 +3401,9 @@ movedata MOVE_SWAGGER
     appeal 0x13
     contesttype CONTEST_CUTE
     terminatedata
+    movedescription MOVE_SWAGGER, "The user enrages the\nfoe into confusion.\nHowever, it also\nsharply raises the\nfoe’s Attack stat."
 
-movedata MOVE_MILK_DRINK
+movedata MOVE_MILK_DRINK, "Milk Drink"
     battleeffect 32
     pss SPLIT_STATUS
     basepower 0
@@ -3209,8 +3417,9 @@ movedata MOVE_MILK_DRINK
     appeal 0x08
     contesttype CONTEST_CUTE
     terminatedata
+    movedescription MOVE_MILK_DRINK, "The user restores its\nown HP by up to half\nof its maximum HP.\nIt may also be used\nto heal an ally’s HP."
 
-movedata MOVE_SPARK
+movedata MOVE_SPARK, "Spark"
     battleeffect 6
     pss SPLIT_PHYSICAL
     basepower 65
@@ -3224,10 +3433,11 @@ movedata MOVE_SPARK
     appeal 0x05
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_SPARK, "The user throws an\nelectrically charged\ntackle at the foe.\nThis has a 30% chance\nto paralyze the foe."
 
 // POWER: 40 >> 30 (This is not optional)
 // Done as you can switch moves without losing the counter in Gen 4 and I cant change it
-movedata MOVE_FURY_CUTTER
+movedata MOVE_FURY_CUTTER, "Fury Cutter"
     battleeffect 119
     pss SPLIT_PHYSICAL
     basepower 30
@@ -3241,11 +3451,12 @@ movedata MOVE_FURY_CUTTER
     appeal 0x07
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_FURY_CUTTER, "The user attacks\nby slashing the foe.\nIts power doubles\nafter each use, up\nto a maximum of 120."
 
 // POWER: 70 >> 80
 // ACCURACY: 90 >> 100
 // PP: 25 >> 20
-movedata MOVE_STEEL_WING
+movedata MOVE_STEEL_WING, "Steel Wing"
     battleeffect 138
     pss SPLIT_PHYSICAL
     basepower MOVE_CHANGES_IMPLEMENTED ? 80 : 70
@@ -3259,8 +3470,9 @@ movedata MOVE_STEEL_WING
     appeal 0x05
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_STEEL_WING, "The foe is hit with\nwings of steel.\nThis has a 10% chance\nto raise Defense."
 
-movedata MOVE_MEAN_LOOK
+movedata MOVE_MEAN_LOOK, "Mean Look"
     battleeffect 106
     pss SPLIT_STATUS
     basepower 0
@@ -3274,8 +3486,9 @@ movedata MOVE_MEAN_LOOK
     appeal 0x0A
     contesttype CONTEST_BEAUTY
     terminatedata
+    movedescription MOVE_MEAN_LOOK, "The user affixes the\nfoe with a dark,\narresting look.\nThe target becomes\nunable to flee."
 
-movedata MOVE_ATTRACT
+movedata MOVE_ATTRACT, "Attract"
     battleeffect 120
     pss SPLIT_STATUS
     basepower 0
@@ -3289,8 +3502,9 @@ movedata MOVE_ATTRACT
     appeal 0x13
     contesttype CONTEST_CUTE
     terminatedata
+    movedescription MOVE_ATTRACT, "If it is the opposite\ngender of the user,\nthe foe becomes\ninfatuated and less\nlikely to attack."
 
-movedata MOVE_SLEEP_TALK
+movedata MOVE_SLEEP_TALK, "Sleep Talk"
     battleeffect 97
     pss SPLIT_STATUS
     basepower 0
@@ -3304,8 +3518,9 @@ movedata MOVE_SLEEP_TALK
     appeal 0x05
     contesttype CONTEST_CUTE
     terminatedata
+    movedescription MOVE_SLEEP_TALK, "While it is asleep, the\nuser randomly uses\none of the moves it\nknows.\n"
 
-movedata MOVE_HEAL_BELL
+movedata MOVE_HEAL_BELL, "Heal Bell"
     battleeffect 102
     pss SPLIT_STATUS
     basepower 0
@@ -3319,8 +3534,9 @@ movedata MOVE_HEAL_BELL
     appeal 0x08
     contesttype CONTEST_BEAUTY
     terminatedata
+    movedescription MOVE_HEAL_BELL, "The user makes a\nsoothing bell chime\nto heal the status\nproblems of all the\nparty Pokémon."
 
-movedata MOVE_RETURN
+movedata MOVE_RETURN, "Return"
     battleeffect 121
     pss SPLIT_PHYSICAL
     basepower 1
@@ -3334,9 +3550,10 @@ movedata MOVE_RETURN
     appeal 0x11
     contesttype CONTEST_CUTE
     terminatedata
+    movedescription MOVE_RETURN, "A full-power attack\nthat grows more\npowerful the more\nthe user likes its\nTrainer."
 
 // ACCURACY: 90 >> 100
-movedata MOVE_PRESENT
+movedata MOVE_PRESENT, "Present"
     battleeffect 122
     pss SPLIT_PHYSICAL
     basepower 1
@@ -3350,8 +3567,9 @@ movedata MOVE_PRESENT
     appeal 0x10
     contesttype CONTEST_CUTE
     terminatedata
+    movedescription MOVE_PRESENT, "The user attacks by\ngiving the foe a\nbooby-trapped gift.\nIt restores HP\nsometimes, however."
 
-movedata MOVE_FRUSTRATION
+movedata MOVE_FRUSTRATION, "Frustration"
     battleeffect 123
     pss SPLIT_PHYSICAL
     basepower 1
@@ -3365,8 +3583,9 @@ movedata MOVE_FRUSTRATION
     appeal 0x12
     contesttype CONTEST_CUTE
     terminatedata
+    movedescription MOVE_FRUSTRATION, "A full-power attack\nthat grows more\npowerful the less\nthe user likes its\nTrainer."
 
-movedata MOVE_SAFEGUARD
+movedata MOVE_SAFEGUARD, "Safeguard"
     battleeffect 124
     pss SPLIT_STATUS
     basepower 0
@@ -3380,8 +3599,9 @@ movedata MOVE_SAFEGUARD
     appeal 0x0D
     contesttype CONTEST_BEAUTY
     terminatedata
+    movedescription MOVE_SAFEGUARD, "The user creates a\nprotective field that\nprevents status\nproblems for five\nturns."
 
-movedata MOVE_PAIN_SPLIT
+movedata MOVE_PAIN_SPLIT, "Pain Split"
     battleeffect 91
     pss SPLIT_STATUS
     basepower 0
@@ -3395,9 +3615,10 @@ movedata MOVE_PAIN_SPLIT
     appeal 0x0A
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_PAIN_SPLIT, "The user adds its HP\nto the foe’s HP, then\nequally shares the\ncombined HP with the\nfoe."
 
 // ACCURACY: 95 >> 100
-movedata MOVE_SACRED_FIRE
+movedata MOVE_SACRED_FIRE, "Sacred Fire"
     battleeffect 125
     pss SPLIT_PHYSICAL
     basepower 100
@@ -3411,8 +3632,9 @@ movedata MOVE_SACRED_FIRE
     appeal 0x16
     contesttype CONTEST_BEAUTY
     terminatedata
+    movedescription MOVE_SACRED_FIRE, "The foe is razed with\na mystical fire of\ngreat intensity.\nThis has a 50% chance\nto burn the foe."
 
-movedata MOVE_MAGNITUDE
+movedata MOVE_MAGNITUDE, "Magnitude"
     battleeffect 126
     pss SPLIT_PHYSICAL
     basepower 1
@@ -3426,8 +3648,9 @@ movedata MOVE_MAGNITUDE
     appeal 0x12
     contesttype CONTEST_TOUGH
     terminatedata
+    movedescription MOVE_MAGNITUDE, "The user looses a\nground-shaking quake\naffecting everyone in\nbattle. Its power\nvaries."
 
-movedata MOVE_DYNAMIC_PUNCH
+movedata MOVE_DYNAMIC_PUNCH, "Dynamic Punch"
     battleeffect 76
     pss SPLIT_PHYSICAL
     basepower 100
@@ -3441,8 +3664,9 @@ movedata MOVE_DYNAMIC_PUNCH
     appeal 0x12
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_DYNAMIC_PUNCH, "The foe is punched\nwith the user’s full,\nconcentrated power.\nIt confuses the foe\nif it hits."
 
-movedata MOVE_MEGAHORN
+movedata MOVE_MEGAHORN, "Megahorn"
     battleeffect 0
     pss SPLIT_PHYSICAL
     basepower 120
@@ -3456,8 +3680,9 @@ movedata MOVE_MEGAHORN
     appeal 0x12
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_MEGAHORN, "Using its tough\nand impressive\nhorn, the user\nrams into the foe \nwith no letup.\n"
 
-movedata MOVE_DRAGON_BREATH
+movedata MOVE_DRAGON_BREATH, "Dragon Breath"
     battleeffect 6
     pss SPLIT_SPECIAL
     basepower 60
@@ -3471,8 +3696,9 @@ movedata MOVE_DRAGON_BREATH
     appeal 0x11
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_DRAGON_BREATH, "The user exhales\na mighty gust that\ninflicts damage.\nThis has a 30% chance\nto paralyze the foe."
 
-movedata MOVE_BATON_PASS
+movedata MOVE_BATON_PASS, "Baton Pass"
     battleeffect 127
     pss SPLIT_STATUS
     basepower 0
@@ -3486,8 +3712,9 @@ movedata MOVE_BATON_PASS
     appeal 0x10
     contesttype CONTEST_CUTE
     terminatedata
+    movedescription MOVE_BATON_PASS, "The user switches\nplaces with a party\nPokémon in waiting,\npassing along any\nstat changes."
 
-movedata MOVE_ENCORE
+movedata MOVE_ENCORE, "Encore"
     battleeffect 90
     pss SPLIT_STATUS
     basepower 0
@@ -3501,8 +3728,9 @@ movedata MOVE_ENCORE
     appeal 0x14
     contesttype CONTEST_CUTE
     terminatedata
+    movedescription MOVE_ENCORE, "The user compels the\nfoe to keep using the\nmove it last used, for\nthe current turn and\nthe next three turns."
 
-movedata MOVE_PURSUIT
+movedata MOVE_PURSUIT, "Pursuit"
     battleeffect 128
     pss SPLIT_PHYSICAL
     basepower 40
@@ -3516,9 +3744,10 @@ movedata MOVE_PURSUIT
     appeal 0x14
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_PURSUIT, "An attack move that\ninflicts double damage\nif used on a foe that\nis switching out of\nbattle."
 
 // EFFECT: Updated to include +Spd effect
-movedata MOVE_RAPID_SPIN
+movedata MOVE_RAPID_SPIN, "Rapid Spin"
     battleeffect 129
     pss SPLIT_PHYSICAL
     basepower 50
@@ -3532,8 +3761,9 @@ movedata MOVE_RAPID_SPIN
     appeal 0x11
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_RAPID_SPIN, "A spin attack that\nraises the user’s\nSpeed, and eliminates\nthe effects of\ncertain moves."
 
-movedata MOVE_SWEET_SCENT
+movedata MOVE_SWEET_SCENT, "Sweet Scent"
     battleeffect 24
     pss SPLIT_STATUS
     basepower 0
@@ -3547,10 +3777,11 @@ movedata MOVE_SWEET_SCENT
     appeal 0x13
     contesttype CONTEST_CUTE
     terminatedata
+    movedescription MOVE_SWEET_SCENT, "A sweet scent that\nharshly lowers the\nfoe’s evasiveness.\nIt can also be used\nto lure wild Pokémon."
 
 // ACCURACY: 75 >> 85
 // EFFECT CHANCE: 30 >> 20
-movedata MOVE_IRON_TAIL
+movedata MOVE_IRON_TAIL, "Iron Tail"
     battleeffect 69
     pss SPLIT_PHYSICAL
     basepower 100
@@ -3564,9 +3795,10 @@ movedata MOVE_IRON_TAIL
     appeal 0x12
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_IRON_TAIL, "The foe is slammed\nwith a steel-hard\ntail.\nThis has a 20% chance\nto lower Defense."
 
 // ACCURACY: 95 >> 100
-movedata MOVE_METAL_CLAW
+movedata MOVE_METAL_CLAW, "Metal Claw"
     battleeffect 139
     pss SPLIT_PHYSICAL
     basepower 50
@@ -3580,8 +3812,9 @@ movedata MOVE_METAL_CLAW
     appeal 0x12
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_METAL_CLAW, "The foe is raked\nwith steel claws.\nThis has a 10% chance\nto raise Attack."
 
-movedata MOVE_VITAL_THROW
+movedata MOVE_VITAL_THROW, "Vital Throw"
     battleeffect 78
     pss SPLIT_PHYSICAL
     basepower 70
@@ -3595,8 +3828,9 @@ movedata MOVE_VITAL_THROW
     appeal 0x02
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_VITAL_THROW, "The user allows the\nfoe to attack first.\nIn return, this throw\nmove is guaranteed\nnot to miss."
 
-movedata MOVE_MORNING_SUN
+movedata MOVE_MORNING_SUN, "Morning Sun"
     battleeffect 132
     pss SPLIT_STATUS
     basepower 0
@@ -3610,8 +3844,9 @@ movedata MOVE_MORNING_SUN
     appeal 0x08
     contesttype CONTEST_BEAUTY
     terminatedata
+    movedescription MOVE_MORNING_SUN, "The user restores its\nown HP.\nThe amount of HP\nregained varies with\nthe weather."
 
-movedata MOVE_SYNTHESIS
+movedata MOVE_SYNTHESIS, "Synthesis"
     battleeffect 132
     pss SPLIT_STATUS
     basepower 0
@@ -3625,8 +3860,9 @@ movedata MOVE_SYNTHESIS
     appeal 0x08
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_SYNTHESIS, "The user restores its\nown HP.\nThe amount of HP\nregained varies with\nthe weather."
 
-movedata MOVE_MOONLIGHT
+movedata MOVE_MOONLIGHT, "Moonlight"
     battleeffect 132
     pss SPLIT_STATUS
     basepower 0
@@ -3640,9 +3876,10 @@ movedata MOVE_MOONLIGHT
     appeal 0x08
     contesttype CONTEST_BEAUTY
     terminatedata
+    movedescription MOVE_MOONLIGHT, "The user restores its\nown HP.\nThe amount of HP\nregained varies with\nthe weather."
 
 // EFFECT: Now fixed at 60 power; done by editing hiddenpowercalc
-movedata MOVE_HIDDEN_POWER
+movedata MOVE_HIDDEN_POWER, "Hidden Power"
     battleeffect 135
     pss SPLIT_SPECIAL
     basepower 60
@@ -3656,8 +3893,9 @@ movedata MOVE_HIDDEN_POWER
     appeal 0x17
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_HIDDEN_POWER, "A unique attack that\nvaries in type,\ndepending on the\nPokémon using it."
 
-movedata MOVE_CROSS_CHOP
+movedata MOVE_CROSS_CHOP, "Cross Chop"
     battleeffect 43
     pss SPLIT_PHYSICAL
     basepower 100
@@ -3671,8 +3909,9 @@ movedata MOVE_CROSS_CHOP
     appeal 0x12
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_CROSS_CHOP, "The user delivers a\ndouble chop with its\nforearms crossed.\nIt has a high\ncritical-hit ratio."
 
-movedata MOVE_TWISTER
+movedata MOVE_TWISTER, "Twister"
     battleeffect 146
     pss SPLIT_SPECIAL
     basepower 40
@@ -3686,8 +3925,9 @@ movedata MOVE_TWISTER
     appeal 0x05
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_TWISTER, "The user whips up a\nvicious tornado to\ntear at the foe.\nThis has a 20% chance\nto flinch the foe."
 
-movedata MOVE_RAIN_DANCE
+movedata MOVE_RAIN_DANCE, "Rain Dance"
     battleeffect 136
     pss SPLIT_STATUS
     basepower 0
@@ -3701,8 +3941,9 @@ movedata MOVE_RAIN_DANCE
     appeal 0x0D
     contesttype CONTEST_TOUGH
     terminatedata
+    movedescription MOVE_RAIN_DANCE, "The user summons a\nheavy rain that falls\nfor five turns,\npowering up Water-\ntype moves."
 
-movedata MOVE_SUNNY_DAY
+movedata MOVE_SUNNY_DAY, "Sunny Day"
     battleeffect 137
     pss SPLIT_STATUS
     basepower 0
@@ -3716,8 +3957,9 @@ movedata MOVE_SUNNY_DAY
     appeal 0x0D
     contesttype CONTEST_BEAUTY
     terminatedata
+    movedescription MOVE_SUNNY_DAY, "The user intensifies\nthe sun for five\nturns, powering up\nFire-type moves.\n"
 
-movedata MOVE_CRUNCH
+movedata MOVE_CRUNCH, "Crunch"
     battleeffect 69
     pss SPLIT_PHYSICAL
     basepower 80
@@ -3731,8 +3973,9 @@ movedata MOVE_CRUNCH
     appeal 0x12
     contesttype CONTEST_TOUGH
     terminatedata
+    movedescription MOVE_CRUNCH, "The user crunches up\nthe foe with sharp\nfangs.\nThis has a 20% chance\nto lower Defense."
 
-movedata MOVE_MIRROR_COAT
+movedata MOVE_MIRROR_COAT, "Mirror Coat"
     battleeffect 144
     pss SPLIT_SPECIAL
     basepower 1
@@ -3746,8 +3989,9 @@ movedata MOVE_MIRROR_COAT
     appeal 0x0F
     contesttype CONTEST_BEAUTY
     terminatedata
+    movedescription MOVE_MIRROR_COAT, "A retaliation move\nthat counters any\nspecial attack,\ninflicting double the\ndamage taken."
 
-movedata MOVE_PSYCH_UP
+movedata MOVE_PSYCH_UP, "Psych Up"
     battleeffect 143
     pss SPLIT_STATUS
     basepower 0
@@ -3761,8 +4005,9 @@ movedata MOVE_PSYCH_UP
     appeal 0x0B
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_PSYCH_UP, "The user hypnotizes\nitself into copying\nany stat change\nmade by the foe.\n"
 
-movedata MOVE_EXTREME_SPEED
+movedata MOVE_EXTREME_SPEED, "Extreme Speed"
     battleeffect 103
     pss SPLIT_PHYSICAL
     basepower 80
@@ -3776,9 +4021,10 @@ movedata MOVE_EXTREME_SPEED
     appeal 0x01
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_EXTREME_SPEED, "The user charges the\nfoe at blinding speed.\nThis attack always\ngoes before any\nother move."
 
 // POWER: 60 >> 65
-movedata MOVE_ANCIENT_POWER
+movedata MOVE_ANCIENT_POWER, "Ancient Power"
     battleeffect 140
     pss SPLIT_SPECIAL
     basepower MOVE_CHANGES_IMPLEMENTED ? 65 : 60
@@ -3792,8 +4038,9 @@ movedata MOVE_ANCIENT_POWER
     appeal 0x12
     contesttype CONTEST_TOUGH
     terminatedata
+    movedescription MOVE_ANCIENT_POWER, "The user attacks with\na prehistoric power.\nThis has a 10% chance\nto raise every stat\nat once."
 
-movedata MOVE_SHADOW_BALL
+movedata MOVE_SHADOW_BALL, "Shadow Ball"
     battleeffect 72
     pss SPLIT_SPECIAL
     basepower 80
@@ -3807,8 +4054,9 @@ movedata MOVE_SHADOW_BALL
     appeal 0x11
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_SHADOW_BALL, "The user hurls a\nshadowy blob at the\nfoe.\nThis has a 20% chance\nto lower Sp. Def."
 
-movedata MOVE_FUTURE_SIGHT
+movedata MOVE_FUTURE_SIGHT, "Future Sight"
     battleeffect 148
     pss SPLIT_SPECIAL
     basepower 120
@@ -3822,10 +4070,11 @@ movedata MOVE_FUTURE_SIGHT
     appeal 0x11
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_FUTURE_SIGHT, "Two turns after this\nmove is used, the foe\nis attacked with a\nhunk of psychic\nenergy."
 
 // POWER: 40 >> 50
 // EFFECT CHANCE: 50 >> 100
-movedata MOVE_ROCK_SMASH
+movedata MOVE_ROCK_SMASH, "Rock Smash"
     battleeffect 69
     pss SPLIT_PHYSICAL
     basepower MOVE_CHANGES_IMPLEMENTED ? 50 : 40
@@ -3839,9 +4088,10 @@ movedata MOVE_ROCK_SMASH
     appeal 0x12
     contesttype CONTEST_TOUGH
     terminatedata
+    movedescription MOVE_ROCK_SMASH, "The user hits the foe\nwith a shattering\npunch. This always\nlowers the foe’s\nDefense stat."
 
 // POWER: 35 >> 55
-movedata MOVE_WHIRLPOOL
+movedata MOVE_WHIRLPOOL, "Whirlpool"
     battleeffect 261
     pss SPLIT_SPECIAL
     basepower MOVE_CHANGES_IMPLEMENTED ? 55 : 35
@@ -3855,9 +4105,10 @@ movedata MOVE_WHIRLPOOL
     appeal 0x15
     contesttype CONTEST_BEAUTY
     terminatedata
+    movedescription MOVE_WHIRLPOOL, "Traps the foe inside a\nwhirlpool that lasts\nfor four to five turns.\nThe user can pass\nthrough whirlpools."
 
 // This still uses the Gen 4 effect for now.
-movedata MOVE_BEAT_UP
+movedata MOVE_BEAT_UP, "Beat Up"
     battleeffect 154
     pss SPLIT_PHYSICAL
     basepower 10
@@ -3871,8 +4122,9 @@ movedata MOVE_BEAT_UP
     appeal 0x07
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_BEAT_UP, "The user gets all the\nparty Pokémon to\nattack the foe. The\nmore party Pokémon,\nthe more damage."
 
-movedata MOVE_FAKE_OUT
+movedata MOVE_FAKE_OUT, "Fake Out"
     battleeffect 158
     pss SPLIT_PHYSICAL
     basepower 40
@@ -3886,8 +4138,9 @@ movedata MOVE_FAKE_OUT
     appeal 0x11
     contesttype CONTEST_CUTE
     terminatedata
+    movedescription MOVE_FAKE_OUT, "An attack that hits\nfirst and makes the\ntarget flinch. It only\nworks the first turn\nthe user is in battle."
 
-movedata MOVE_UPROAR
+movedata MOVE_UPROAR, "Uproar"
     battleeffect 159
     pss SPLIT_SPECIAL
     basepower 90
@@ -3901,8 +4154,9 @@ movedata MOVE_UPROAR
     appeal 0x0A
     contesttype CONTEST_CUTE
     terminatedata
+    movedescription MOVE_UPROAR, "The user attacks in\nan uproar for two to\nfive turns. Over that\ntime, no one can fall\nasleep."
 
-movedata MOVE_STOCKPILE
+movedata MOVE_STOCKPILE, "Stockpile"
     battleeffect 160
     pss SPLIT_STATUS
     basepower 0
@@ -3916,8 +4170,9 @@ movedata MOVE_STOCKPILE
     appeal 0x0B
     contesttype CONTEST_TOUGH
     terminatedata
+    movedescription MOVE_STOCKPILE, "The user charges\nup power, and raises\nboth its Defense and\nSp. Def. The move can\nbe used three times."
 
-movedata MOVE_SPIT_UP
+movedata MOVE_SPIT_UP, "Spit Up"
     battleeffect 161
     pss SPLIT_SPECIAL
     basepower 1
@@ -3931,8 +4186,9 @@ movedata MOVE_SPIT_UP
     appeal 0x12
     contesttype CONTEST_TOUGH
     terminatedata
+    movedescription MOVE_SPIT_UP, "The power stored\nusing the move\nStockpile is released\nat once in an attack.\n"
 
-movedata MOVE_SWALLOW
+movedata MOVE_SWALLOW, "Swallow"
     battleeffect 162
     pss SPLIT_STATUS
     basepower 0
@@ -3946,8 +4202,9 @@ movedata MOVE_SWALLOW
     appeal 0x08
     contesttype CONTEST_TOUGH
     terminatedata
+    movedescription MOVE_SWALLOW, "The power stored\nusing the move\nStockpile is absorbed\nby the user to heal\nits HP."
 
-movedata MOVE_HEAT_WAVE
+movedata MOVE_HEAT_WAVE, "Heat Wave"
     battleeffect 4
     pss SPLIT_SPECIAL
     basepower 95
@@ -3961,8 +4218,9 @@ movedata MOVE_HEAT_WAVE
     appeal 0x11
     contesttype CONTEST_BEAUTY
     terminatedata
+    movedescription MOVE_HEAT_WAVE, "The user exhales a\nheated breath on the\nfoe to attack.\nThis has a 10% chance\nto burn the foe."
 
-movedata MOVE_HAIL
+movedata MOVE_HAIL, "Hail"
     battleeffect 164
     pss SPLIT_STATUS
     basepower 0
@@ -3976,8 +4234,9 @@ movedata MOVE_HAIL
     appeal 0x0D
     contesttype CONTEST_BEAUTY
     terminatedata
+    movedescription MOVE_HAIL, "The user summons a\nhailstorm lasting five\nturns. It damages all\nPokémon except the\nIce type."
 
-movedata MOVE_TORMENT
+movedata MOVE_TORMENT, "Torment"
     battleeffect 165
     pss SPLIT_STATUS
     basepower 0
@@ -3991,8 +4250,9 @@ movedata MOVE_TORMENT
     appeal 0x10
     contesttype CONTEST_TOUGH
     terminatedata
+    movedescription MOVE_TORMENT, "The user torments\nand enrages the foe,\nmaking it incapable of\nusing the same move\ntwice in a row."
 
-movedata MOVE_FLATTER
+movedata MOVE_FLATTER, "Flatter"
     battleeffect 166
     pss SPLIT_STATUS
     basepower 0
@@ -4006,8 +4266,9 @@ movedata MOVE_FLATTER
     appeal 0x13
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_FLATTER, "Flattery is used to\nconfuse the foe.\nHowever, it also\nraises the target’s\nSp. Atk stat."
 
-movedata MOVE_WILL_O_WISP
+movedata MOVE_WILL_O_WISP, "Will-O-Wisp"
     battleeffect 167
     pss SPLIT_STATUS
     basepower 0
@@ -4021,8 +4282,9 @@ movedata MOVE_WILL_O_WISP
     appeal 0x11
     contesttype CONTEST_BEAUTY
     terminatedata
+    movedescription MOVE_WILL_O_WISP, "The user shoots a\nsinister, bluish white\nflame at the foe to\ninflict a burn.\n"
 
-movedata MOVE_MEMENTO
+movedata MOVE_MEMENTO, "Memento"
     battleeffect 168
     pss SPLIT_STATUS
     basepower 0
@@ -4036,8 +4298,9 @@ movedata MOVE_MEMENTO
     appeal 0x09
     contesttype CONTEST_TOUGH
     terminatedata
+    movedescription MOVE_MEMENTO, "The user faints upon\nusing this move.\nIn return, it sharply\nlowers the target’s\nAttack and Sp. Atk."
 
-movedata MOVE_FACADE
+movedata MOVE_FACADE, "Facade"
     battleeffect 169
     pss SPLIT_PHYSICAL
     basepower 70
@@ -4051,8 +4314,9 @@ movedata MOVE_FACADE
     appeal 0x0F
     contesttype CONTEST_CUTE
     terminatedata
+    movedescription MOVE_FACADE, "An attack move that\ndoubles its power if\nthe user is poisoned,\nparalyzed, or has a\nburn."
 
-movedata MOVE_FOCUS_PUNCH
+movedata MOVE_FOCUS_PUNCH, "Focus Punch"
     battleeffect 170
     pss SPLIT_PHYSICAL
     basepower 150
@@ -4066,8 +4330,9 @@ movedata MOVE_FOCUS_PUNCH
     appeal 0x06
     contesttype CONTEST_TOUGH
     terminatedata
+    movedescription MOVE_FOCUS_PUNCH, "The user focuses its\nmind before launching\na punch. It will fail\nif the user is hit\nbefore it is used."
 
-movedata MOVE_SMELLING_SALT
+movedata MOVE_SMELLING_SALT, "Smelling Salts"
     battleeffect 171
     pss SPLIT_PHYSICAL
     basepower 70
@@ -4081,8 +4346,9 @@ movedata MOVE_SMELLING_SALT
     appeal 0x10
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_SMELLING_SALT, "This attack inflicts\ndouble damage on a\nparalyzed foe. It\nalso cures the foe’s\nparalysis, however."
 
-movedata MOVE_FOLLOW_ME
+movedata MOVE_FOLLOW_ME, "Follow Me"
     battleeffect 172
     pss SPLIT_STATUS
     basepower 0
@@ -4096,8 +4362,9 @@ movedata MOVE_FOLLOW_ME
     appeal 0x0E
     contesttype CONTEST_CUTE
     terminatedata
+    movedescription MOVE_FOLLOW_ME, "The user draws\nattention to itself,\nmaking all foes take\naim only at the user.\n"
 
-movedata MOVE_NATURE_POWER
+movedata MOVE_NATURE_POWER, "Nature Power"
     battleeffect 173
     pss SPLIT_STATUS
     basepower 0
@@ -4111,8 +4378,9 @@ movedata MOVE_NATURE_POWER
     appeal 0x0E
     contesttype CONTEST_BEAUTY
     terminatedata
+    movedescription MOVE_NATURE_POWER, "An attack that makes\nuse of nature’s\npower. Its effects\nvary depending on the\nuser’s environment."
 
-movedata MOVE_CHARGE
+movedata MOVE_CHARGE, "Charge"
     battleeffect 174
     pss SPLIT_STATUS
     basepower 0
@@ -4126,8 +4394,9 @@ movedata MOVE_CHARGE
     appeal 0x0B
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_CHARGE, "The user boosts the\npower of the Electric\nmove it uses next.\nIt also raises the\nuser’s Sp. Def stat."
 
-movedata MOVE_TAUNT
+movedata MOVE_TAUNT, "Taunt"
     battleeffect 175
     pss SPLIT_STATUS
     basepower 0
@@ -4141,8 +4410,9 @@ movedata MOVE_TAUNT
     appeal 0x10
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_TAUNT, "The foe is taunted\ninto a rage that\nallows it to use only\nattack moves for\nthree turns."
 
-movedata MOVE_HELPING_HAND
+movedata MOVE_HELPING_HAND, "Helping Hand"
     battleeffect 176
     pss SPLIT_STATUS
     basepower 0
@@ -4156,8 +4426,9 @@ movedata MOVE_HELPING_HAND
     appeal 0x14
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_HELPING_HAND, "A move that boosts\nthe power of the\nally’s attack in a\nDouble Battle.\n"
 
-movedata MOVE_TRICK
+movedata MOVE_TRICK, "Trick"
     battleeffect 177
     pss SPLIT_STATUS
     basepower 0
@@ -4171,8 +4442,9 @@ movedata MOVE_TRICK
     appeal 0x0C
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_TRICK, "The user catches the\nfoe off guard and\nswaps the foe’s held\nitem with its own.\n"
 
-movedata MOVE_ROLE_PLAY
+movedata MOVE_ROLE_PLAY, "Role Play"
     battleeffect 178
     pss SPLIT_STATUS
     basepower 0
@@ -4186,8 +4458,9 @@ movedata MOVE_ROLE_PLAY
     appeal 0x17
     contesttype CONTEST_CUTE
     terminatedata
+    movedescription MOVE_ROLE_PLAY, "The user mimics the\nfoe completely,\ncopying the foe’s\nnatural ability.\n"
 
-movedata MOVE_WISH
+movedata MOVE_WISH, "Wish"
     battleeffect 179
     pss SPLIT_STATUS
     basepower 0
@@ -4201,8 +4474,9 @@ movedata MOVE_WISH
     appeal 0x08
     contesttype CONTEST_CUTE
     terminatedata
+    movedescription MOVE_WISH, "One turn after using\nthe move, the user or\nits replacement is\nhealed by half of\nits max HP. "
 
-movedata MOVE_ASSIST
+movedata MOVE_ASSIST, "Assist"
     battleeffect 180
     pss SPLIT_STATUS
     basepower 0
@@ -4216,8 +4490,9 @@ movedata MOVE_ASSIST
     appeal 0x0E
     contesttype CONTEST_CUTE
     terminatedata
+    movedescription MOVE_ASSIST, "The user hurriedly\nand randomly uses a\nmove among those\nknown by other\nPokémon in the party."
 
-movedata MOVE_INGRAIN
+movedata MOVE_INGRAIN, "Ingrain"
     battleeffect 181
     pss SPLIT_STATUS
     basepower 0
@@ -4231,8 +4506,9 @@ movedata MOVE_INGRAIN
     appeal 0x15
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_INGRAIN, "The user lays roots\nthat restore HP on\nevery turn.\nBecause it is rooted,\nit can’t switch out."
 
-movedata MOVE_SUPERPOWER
+movedata MOVE_SUPERPOWER, "Superpower"
     battleeffect 182
     pss SPLIT_PHYSICAL
     basepower 120
@@ -4246,8 +4522,9 @@ movedata MOVE_SUPERPOWER
     appeal 0x12
     contesttype CONTEST_TOUGH
     terminatedata
+    movedescription MOVE_SUPERPOWER, "The user attacks the\nfoe with great power.\nHowever, it also\nlowers the user’s\nAttack and Defense."
 
-movedata MOVE_MAGIC_COAT
+movedata MOVE_MAGIC_COAT, "Magic Coat"
     battleeffect 183
     pss SPLIT_STATUS
     basepower 0
@@ -4261,8 +4538,9 @@ movedata MOVE_MAGIC_COAT
     appeal 0x0F
     contesttype CONTEST_BEAUTY
     terminatedata
+    movedescription MOVE_MAGIC_COAT, "A barrier reflects\nback to the foe\nmoves like Leech\nSeed and moves\nthat damage status."
 
-movedata MOVE_RECYCLE
+movedata MOVE_RECYCLE, "Recycle"
     battleeffect 184
     pss SPLIT_STATUS
     basepower 0
@@ -4276,8 +4554,9 @@ movedata MOVE_RECYCLE
     appeal 0x0C
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_RECYCLE, "The user recycles a\nheld item that\nhas been used in\nbattle so it can be\nused again."
 
-movedata MOVE_REVENGE
+movedata MOVE_REVENGE, "Revenge"
     battleeffect 185
     pss SPLIT_PHYSICAL
     basepower 60
@@ -4291,8 +4570,9 @@ movedata MOVE_REVENGE
     appeal 0x0F
     contesttype CONTEST_TOUGH
     terminatedata
+    movedescription MOVE_REVENGE, "An attack move that\ninflicts double the\ndamage if the user\nhas been hurt by the\nfoe in the same turn."
 
-movedata MOVE_BRICK_BREAK
+movedata MOVE_BRICK_BREAK, "Brick Break"
     battleeffect 186
     pss SPLIT_PHYSICAL
     basepower 75
@@ -4306,8 +4586,9 @@ movedata MOVE_BRICK_BREAK
     appeal 0x05
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_BRICK_BREAK, "The user attacks with\ntough fists, etc. It\ncan also break any\nbarrier such as Light\nScreen and Reflect."
 
-movedata MOVE_YAWN
+movedata MOVE_YAWN, "Yawn"
     battleeffect 187
     pss SPLIT_STATUS
     basepower 0
@@ -4321,9 +4602,10 @@ movedata MOVE_YAWN
     appeal 0x13
     contesttype CONTEST_CUTE
     terminatedata
+    movedescription MOVE_YAWN, "The user lets loose a\nhuge yawn that lulls\nthe foe into falling\nasleep on the next\nturn."
 
 // EFFECT: Updated to include the x2 damage when knocking off
-movedata MOVE_KNOCK_OFF
+movedata MOVE_KNOCK_OFF, "Knock Off"
     battleeffect 188
     pss SPLIT_PHYSICAL
     basepower 65
@@ -4337,8 +4619,9 @@ movedata MOVE_KNOCK_OFF
     appeal 0x05
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_KNOCK_OFF, "The user slaps down\nthe foe’s held item,\nmaking it unusable.\nThe damage is doubled\nif the foe has an item."
 
-movedata MOVE_ENDEAVOR
+movedata MOVE_ENDEAVOR, "Endeavor"
     battleeffect 189
     pss SPLIT_PHYSICAL
     basepower 1
@@ -4352,8 +4635,9 @@ movedata MOVE_ENDEAVOR
     appeal 0x0F
     contesttype CONTEST_TOUGH
     terminatedata
+    movedescription MOVE_ENDEAVOR, "An attack move that\ncuts down the foe’s\nHP to equal the\nuser’s HP.\n"
 
-movedata MOVE_ERUPTION
+movedata MOVE_ERUPTION, "Eruption"
     battleeffect 190
     pss SPLIT_SPECIAL
     basepower 150
@@ -4367,8 +4651,9 @@ movedata MOVE_ERUPTION
     appeal 0x12
     contesttype CONTEST_BEAUTY
     terminatedata
+    movedescription MOVE_ERUPTION, "The user attacks in\nan explosive fury.\nThe lower the user’s\nHP, the less powerful\nthis attack becomes."
 
-movedata MOVE_SKILL_SWAP
+movedata MOVE_SKILL_SWAP, "Skill Swap"
     battleeffect 191
     pss SPLIT_STATUS
     basepower 0
@@ -4382,8 +4667,9 @@ movedata MOVE_SKILL_SWAP
     appeal 0x0C
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_SKILL_SWAP, "The user employs its\npsychic power to\nexchange abilities\nwith the foe.\n"
 
-movedata MOVE_IMPRISON
+movedata MOVE_IMPRISON, "Imprison"
     battleeffect 192
     pss SPLIT_STATUS
     basepower 0
@@ -4397,8 +4683,9 @@ movedata MOVE_IMPRISON
     appeal 0x14
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_IMPRISON, "If the foe knows any\nmove also known by\nthe user, the foe\nis prevented\nfrom using it."
 
-movedata MOVE_REFRESH
+movedata MOVE_REFRESH, "Refresh"
     battleeffect 193
     pss SPLIT_STATUS
     basepower 0
@@ -4412,8 +4699,9 @@ movedata MOVE_REFRESH
     appeal 0x08
     contesttype CONTEST_CUTE
     terminatedata
+    movedescription MOVE_REFRESH, "The user rests\nto cure itself of a\npoisoning, burn, or\nparalysis.\n"
 
-movedata MOVE_GRUDGE
+movedata MOVE_GRUDGE, "Grudge"
     battleeffect 194
     pss SPLIT_STATUS
     basepower 0
@@ -4427,8 +4715,9 @@ movedata MOVE_GRUDGE
     appeal 0x0A
     contesttype CONTEST_TOUGH
     terminatedata
+    movedescription MOVE_GRUDGE, "If the user faints,\nthe user’s grudge\nfully depletes the PP\nof the foe’s move\nthat knocked it out."
 
-movedata MOVE_SNATCH
+movedata MOVE_SNATCH, "Snatch"
     battleeffect 195
     pss SPLIT_STATUS
     basepower 0
@@ -4442,8 +4731,9 @@ movedata MOVE_SNATCH
     appeal 0x0C
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_SNATCH, "The user steals the\neffects of any\nhealing or stat-\nchanging move the foe\nattempts to use."
 
-movedata MOVE_SECRET_POWER
+movedata MOVE_SECRET_POWER, "Secret Power"
     battleeffect 197
     pss SPLIT_PHYSICAL
     basepower 70
@@ -4457,11 +4747,12 @@ movedata MOVE_SECRET_POWER
     appeal 0x0E
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_SECRET_POWER, "The user attacks with\na secret power. Its\nadded effects vary\ndepending on the\nuser’s environment."
 
 // EFFECT: Now a one-turn move.
 // POWER: 80 >> 60
 // PP: 10 >> 20
-movedata MOVE_DIVE
+movedata MOVE_DIVE, "Dive"
     battleeffect 0
     pss SPLIT_PHYSICAL
     basepower MOVE_CHANGES_IMPLEMENTED ? 60 : 80
@@ -4475,9 +4766,10 @@ movedata MOVE_DIVE
     appeal 0x06
     contesttype CONTEST_BEAUTY
     terminatedata
+    movedescription MOVE_DIVE, "The user dives\nunderwater, then\nfloats up and\nattacks the foe."
 
 // POWER: 15 >> 25
-movedata MOVE_ARM_THRUST
+movedata MOVE_ARM_THRUST, "Arm Thrust"
     battleeffect 29
     pss SPLIT_PHYSICAL
     basepower MOVE_CHANGES_IMPLEMENTED ? 25 : 15
@@ -4491,8 +4783,9 @@ movedata MOVE_ARM_THRUST
     appeal 0x07
     contesttype CONTEST_TOUGH
     terminatedata
+    movedescription MOVE_ARM_THRUST, "The user looses a\nflurry of open-palmed\narm thrusts that hit\ntwo to five times in a\nrow."
 
-movedata MOVE_CAMOUFLAGE
+movedata MOVE_CAMOUFLAGE, "Camouflage"
     battleeffect 213
     pss SPLIT_STATUS
     basepower 0
@@ -4506,8 +4799,9 @@ movedata MOVE_CAMOUFLAGE
     appeal 0x0D
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_CAMOUFLAGE, "The user’s type is\nchanged depending on\nits environment, such\nas at water’s edge, in\ngrass, or in a cave."
 
-movedata MOVE_TAIL_GLOW
+movedata MOVE_TAIL_GLOW, "Tail Glow"
     battleeffect 53
     pss SPLIT_STATUS
     basepower 0
@@ -4522,9 +4816,10 @@ movedata MOVE_TAIL_GLOW
     appeal 0x0B
     contesttype CONTEST_BEAUTY
     terminatedata
+    movedescription MOVE_TAIL_GLOW, "The user stares at\nflashing lights to\nfocus its mind,\nsharply raising its\nSp. Atk stat."
 
 // POWER: 70 >> 80
-movedata MOVE_LUSTER_PURGE
+movedata MOVE_LUSTER_PURGE, "Luster Purge"
     battleeffect 72
     pss SPLIT_SPECIAL
     basepower MOVE_CHANGES_IMPLEMENTED ? 80 : 70
@@ -4538,9 +4833,10 @@ movedata MOVE_LUSTER_PURGE
     appeal 0x16
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_LUSTER_PURGE, "The user looses a\ndamaging burst of\nlight.\nThis has a 50% chance\nto lower Sp. Def."
 
 // POWER: 70 >> 80
-movedata MOVE_MIST_BALL
+movedata MOVE_MIST_BALL, "Mist Ball"
     battleeffect 71
     pss SPLIT_SPECIAL
     basepower MOVE_CHANGES_IMPLEMENTED ? 80 : 70
@@ -4554,8 +4850,9 @@ movedata MOVE_MIST_BALL
     appeal 0x16
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_MIST_BALL, "A mistlike flurry of\ndown envelops and\ndamages the foe.\nThis has a 50% chance\nto lower Sp. Atk."
 
-movedata MOVE_FEATHER_DANCE
+movedata MOVE_FEATHER_DANCE, "Feather Dance"
     battleeffect 58
     pss SPLIT_STATUS
     basepower 0
@@ -4569,8 +4866,9 @@ movedata MOVE_FEATHER_DANCE
     appeal 0x13
     contesttype CONTEST_BEAUTY
     terminatedata
+    movedescription MOVE_FEATHER_DANCE, "The user covers the\nfoe with a mass of\ndown that sharply\nlowers the Attack\nstat."
 
-movedata MOVE_TEETER_DANCE
+movedata MOVE_TEETER_DANCE, "Teeter Dance"
     battleeffect 199
     pss SPLIT_STATUS
     basepower 0
@@ -4584,10 +4882,11 @@ movedata MOVE_TEETER_DANCE
     appeal 0x0E
     contesttype CONTEST_CUTE
     terminatedata
+    movedescription MOVE_TEETER_DANCE, "The user performs a\nwobbly dance that\nconfuses all the\nPokémon in battle.\n"
 
 // POWER: 85 >> 90
 // ACCURACY: 90 >> 100
-movedata MOVE_BLAZE_KICK
+movedata MOVE_BLAZE_KICK, "Blaze Kick"
     battleeffect 200
     pss SPLIT_PHYSICAL
     basepower MOVE_CHANGES_IMPLEMENTED ? 90 : 85
@@ -4601,8 +4900,9 @@ movedata MOVE_BLAZE_KICK
     appeal 0x11
     contesttype CONTEST_BEAUTY
     terminatedata
+    movedescription MOVE_BLAZE_KICK, "The user launches a\nkick with a high\ncritical-hit ratio.\nThis has a 10% chance\nto burn the foe."
 
-movedata MOVE_MUD_SPORT
+movedata MOVE_MUD_SPORT, "Mud Sport"
     battleeffect 201
     pss SPLIT_STATUS
     basepower 0
@@ -4616,8 +4916,9 @@ movedata MOVE_MUD_SPORT
     appeal 0x0D
     contesttype CONTEST_CUTE
     terminatedata
+    movedescription MOVE_MUD_SPORT, "The user covers\nitself with mud. It\nweakens Electric-\ntype moves while the\nuser is in the battle."
 
-movedata MOVE_ICE_BALL
+movedata MOVE_ICE_BALL, "Ice Ball"
     battleeffect 117
     pss SPLIT_PHYSICAL
     basepower 30
@@ -4631,10 +4932,11 @@ movedata MOVE_ICE_BALL
     appeal 0x07
     contesttype CONTEST_BEAUTY
     terminatedata
+    movedescription MOVE_ICE_BALL, "The user continually\nrolls into the foe\nover five turns. It\nbecomes stronger\neach time it hits."
 
 // EFFECT: Now adds Spikes to the field instead of poisoning.
 // POWER: 60 >> 80
-movedata MOVE_NEEDLE_ARM
+movedata MOVE_NEEDLE_ARM, "Needle Arm"
     battleeffect 312
     pss SPLIT_PHYSICAL
     basepower MOVE_CHANGES_IMPLEMENTED ? 80 : 60
@@ -4648,8 +4950,9 @@ movedata MOVE_NEEDLE_ARM
     appeal 0x05
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_NEEDLE_ARM, "The user attacks by\nswinging thorny arms.\nEach use of the move\nscatters spikes on\nthe target’s field."
 
-movedata MOVE_SLACK_OFF
+movedata MOVE_SLACK_OFF, "Slack Off"
     battleeffect 32
     pss SPLIT_STATUS
     basepower 0
@@ -4663,8 +4966,9 @@ movedata MOVE_SLACK_OFF
     appeal 0x08
     contesttype CONTEST_CUTE
     terminatedata
+    movedescription MOVE_SLACK_OFF, "The user slacks off,\nrestoring its own HP\nby up to half of its\nmaximum HP.\n"
 
-movedata MOVE_HYPER_VOICE
+movedata MOVE_HYPER_VOICE, "Hyper Voice"
     battleeffect 0
     pss SPLIT_SPECIAL
     basepower 90
@@ -4678,10 +4982,11 @@ movedata MOVE_HYPER_VOICE
     appeal 0x05
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_HYPER_VOICE, "The user lets loose\na horribly echoing\nshout with the\npower to inflict\ndamage."
 
 // POWER: 50 >> 65
 // EFFECT CHANCE: 50 >> 30
-movedata MOVE_POISON_FANG
+movedata MOVE_POISON_FANG, "Poison Fang"
     battleeffect 202
     pss SPLIT_PHYSICAL
     basepower MOVE_CHANGES_IMPLEMENTED ? 65 : 50
@@ -4695,9 +5000,10 @@ movedata MOVE_POISON_FANG
     appeal 0x04
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_POISON_FANG, "The user bites the\nfoe with toxic fangs.\nThis has a 30% chance\nto badly poison the\nfoe."
 
 // ACCURACY: 95 >> 100
-movedata MOVE_CRUSH_CLAW
+movedata MOVE_CRUSH_CLAW, "Crush Claw"
     battleeffect 69
     pss SPLIT_PHYSICAL
     basepower 75
@@ -4711,8 +5017,9 @@ movedata MOVE_CRUSH_CLAW
     appeal 0x05
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_CRUSH_CLAW, "The user slashes the\nfoe with hard and\nsharp claws.\nThis has a 50% chance\nto lower Defense."
 
-movedata MOVE_BLAST_BURN
+movedata MOVE_BLAST_BURN, "Blast Burn"
     battleeffect 80
     pss SPLIT_SPECIAL
     basepower 150
@@ -4726,8 +5033,9 @@ movedata MOVE_BLAST_BURN
     appeal 0x16
     contesttype CONTEST_BEAUTY
     terminatedata
+    movedescription MOVE_BLAST_BURN, "The foe is razed by\na fiery explosion.\nThe user must rest\non the next turn,\nhowever."
 
-movedata MOVE_HYDRO_CANNON
+movedata MOVE_HYDRO_CANNON, "Hydro Cannon"
     battleeffect 80
     pss SPLIT_SPECIAL
     basepower 150
@@ -4741,9 +5049,10 @@ movedata MOVE_HYDRO_CANNON
     appeal 0x16
     contesttype CONTEST_BEAUTY
     terminatedata
+    movedescription MOVE_HYDRO_CANNON, "The foe is hit with\na watery blast.\nThe user must rest\non the next turn,\nhowever."
 
 // POWER: 90 >> 100
-movedata MOVE_METEOR_MASH
+movedata MOVE_METEOR_MASH, "Meteor Mash"
     battleeffect 139
     pss SPLIT_PHYSICAL
     basepower MOVE_CHANGES_IMPLEMENTED ? 100 : 90
@@ -4757,9 +5066,10 @@ movedata MOVE_METEOR_MASH
     appeal 0x12
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_METEOR_MASH, "The foe is hit with a\nhard punch fired\nlike a meteor.\nThis has a 20% chance\nto raise Attack."
 
 // POWER: 30 >> 40
-movedata MOVE_ASTONISH
+movedata MOVE_ASTONISH, "Astonish"
     battleeffect 31
     pss SPLIT_PHYSICAL
     basepower MOVE_CHANGES_IMPLEMENTED ? 40 : 30
@@ -4773,8 +5083,9 @@ movedata MOVE_ASTONISH
     appeal 0x05
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_ASTONISH, "The user attacks the\nfoe while shouting in\na startling fashion.\nThis has a 30% chance\nto flinch the foe."
 
-movedata MOVE_WEATHER_BALL
+movedata MOVE_WEATHER_BALL, "Weather Ball"
     battleeffect 203
     pss SPLIT_SPECIAL
     basepower 50
@@ -4788,8 +5099,9 @@ movedata MOVE_WEATHER_BALL
     appeal 0x04
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_WEATHER_BALL, "An attack move that\nvaries in power and\ntype depending on\nthe weather.\n"
 
-movedata MOVE_AROMATHERAPY
+movedata MOVE_AROMATHERAPY, "Aromatherapy"
     battleeffect 102
     pss SPLIT_STATUS
     basepower 0
@@ -4803,8 +5115,9 @@ movedata MOVE_AROMATHERAPY
     appeal 0x08
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_AROMATHERAPY, "The user releases a\nsoothing scent that\nheals all status\nproblems affecting\nthe user’s party."
 
-movedata MOVE_FAKE_TEARS
+movedata MOVE_FAKE_TEARS, "Fake Tears"
     battleeffect 62
     pss SPLIT_STATUS
     basepower 0
@@ -4818,8 +5131,9 @@ movedata MOVE_FAKE_TEARS
     appeal 0x13
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_FAKE_TEARS, "The user feigns\ncrying to make the\nfoe feel flustered,\nsharply lowering its\nSp. Def stat."
 
-movedata MOVE_AIR_CUTTER
+movedata MOVE_AIR_CUTTER, "Air Cutter"
     battleeffect 43
     pss SPLIT_SPECIAL
     basepower 60
@@ -4833,8 +5147,9 @@ movedata MOVE_AIR_CUTTER
     appeal 0x05
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_AIR_CUTTER, "The user launches\nrazorlike wind to\nslash the foe.\nIt has a high\ncritical-hit ratio."
 
-movedata MOVE_OVERHEAT
+movedata MOVE_OVERHEAT, "Overheat"
     battleeffect 204
     pss SPLIT_SPECIAL
     basepower 130
@@ -4848,8 +5163,9 @@ movedata MOVE_OVERHEAT
     appeal 0x16
     contesttype CONTEST_BEAUTY
     terminatedata
+    movedescription MOVE_OVERHEAT, "The user attacks the\nfoe at full power.\nThe attack’s recoil\nsharply reduces the\nuser’s Sp. Atk stat."
 
-movedata MOVE_ODOR_SLEUTH
+movedata MOVE_ODOR_SLEUTH, "Odor Sleuth"
     battleeffect 113
     pss SPLIT_STATUS
     basepower 0
@@ -4863,9 +5179,10 @@ movedata MOVE_ODOR_SLEUTH
     appeal 0x14
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_ODOR_SLEUTH, "Enables the user to\nhit a Ghost type with\nany type of move. It\nalso enables the user\nto hit an evasive foe."
 
 // ACCURACY: 95 >> 100
-movedata MOVE_ROCK_TOMB
+movedata MOVE_ROCK_TOMB, "Rock Tomb"
     battleeffect 70
     pss SPLIT_PHYSICAL
     basepower 60
@@ -4879,9 +5196,10 @@ movedata MOVE_ROCK_TOMB
     appeal 0x02
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_ROCK_TOMB, "Boulders are hurled\nat the foe. It also\nlowers the foe’s\nSpeed by preventing\nits movement."
 
 // POWER: 60 >> 65
-movedata MOVE_SILVER_WIND
+movedata MOVE_SILVER_WIND, "Silver Wind"
     battleeffect 140
     pss SPLIT_SPECIAL
     basepower MOVE_CHANGES_IMPLEMENTED ? 65 : 60
@@ -4895,8 +5213,9 @@ movedata MOVE_SILVER_WIND
     appeal 0x04
     contesttype CONTEST_BEAUTY
     terminatedata
+    movedescription MOVE_SILVER_WIND, "The foe is attacked\nwith powdery scales.\nThis has a 10% chance\nto raise every stat\nat once."
 
-movedata MOVE_METAL_SOUND
+movedata MOVE_METAL_SOUND, "Metal Sound"
     battleeffect 62
     pss SPLIT_STATUS
     basepower 0
@@ -4910,9 +5229,10 @@ movedata MOVE_METAL_SOUND
     appeal 0x0A
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_METAL_SOUND, "A horrible sound like\nscraping metal is\nemitted to sharply\nreduce the foe’s\nSp. Def stat."
 
 // ACCURACY: 55 >> 65
-movedata MOVE_GRASS_WHISTLE
+movedata MOVE_GRASS_WHISTLE, "Grass Whistle"
     battleeffect 1
     pss SPLIT_STATUS
     basepower 0
@@ -4926,8 +5246,9 @@ movedata MOVE_GRASS_WHISTLE
     appeal 0x13
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_GRASS_WHISTLE, "The user plays a\npleasant melody that\nlulls the foe into a\ndeep sleep.\n"
 
-movedata MOVE_TICKLE
+movedata MOVE_TICKLE, "Tickle"
     battleeffect 205
     pss SPLIT_STATUS
     basepower 0
@@ -4941,8 +5262,9 @@ movedata MOVE_TICKLE
     appeal 0x13
     contesttype CONTEST_CUTE
     terminatedata
+    movedescription MOVE_TICKLE, "The user tickles the\nfoe into laughing,\nreducing its Attack\nand Defense stats.\n"
 
-movedata MOVE_COSMIC_POWER
+movedata MOVE_COSMIC_POWER, "Cosmic Power"
     battleeffect 206
     pss SPLIT_STATUS
     basepower 0
@@ -4956,8 +5278,9 @@ movedata MOVE_COSMIC_POWER
     appeal 0x0B
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_COSMIC_POWER, "The user absorbs a\nmystical power from\nspace to raise its\nDefense and Sp. Def\nstats."
 
-movedata MOVE_WATER_SPOUT
+movedata MOVE_WATER_SPOUT, "Water Spout"
     battleeffect 190
     pss SPLIT_SPECIAL
     basepower 150
@@ -4971,8 +5294,9 @@ movedata MOVE_WATER_SPOUT
     appeal 0x16
     contesttype CONTEST_BEAUTY
     terminatedata
+    movedescription MOVE_WATER_SPOUT, "The user spouts\nwater to damage the\nfoe. The lower the\nuser’s HP, the less\npowerful it becomes."
 
-movedata MOVE_SIGNAL_BEAM
+movedata MOVE_SIGNAL_BEAM, "Signal Beam"
     battleeffect 76
     pss SPLIT_SPECIAL
     basepower 75
@@ -4986,9 +5310,10 @@ movedata MOVE_SIGNAL_BEAM
     appeal 0x04
     contesttype CONTEST_BEAUTY
     terminatedata
+    movedescription MOVE_SIGNAL_BEAM, "The user attacks with\na sinister beam of\nlight.\nThis has a 10% chance\nto confuse the foe."
 
 // POWER: 60 >> 80
-movedata MOVE_SHADOW_PUNCH
+movedata MOVE_SHADOW_PUNCH, "Shadow Punch"
     battleeffect 17
     pss SPLIT_PHYSICAL
     basepower MOVE_CHANGES_IMPLEMENTED ? 80 : 60
@@ -5002,8 +5327,9 @@ movedata MOVE_SHADOW_PUNCH
     appeal 0x11
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_SHADOW_PUNCH, "The user throws a\npunch at the foe from\nthe shadows.\nThe punch lands\nwithout fail."
 
-movedata MOVE_EXTRASENSORY
+movedata MOVE_EXTRASENSORY, "Extrasensory"
     battleeffect 31
     pss SPLIT_SPECIAL
     basepower 80
@@ -5017,9 +5343,10 @@ movedata MOVE_EXTRASENSORY
     appeal 0x11
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_EXTRASENSORY, "The user attacks with\nan odd, unseeable\npower.\nThis has a 10% chance\nto flinch the foe."
 
 // ACCURACY: 90 >> 100
-movedata MOVE_SKY_UPPERCUT
+movedata MOVE_SKY_UPPERCUT, "Sky Uppercut"
     battleeffect 207
     pss SPLIT_PHYSICAL
     basepower 85
@@ -5033,9 +5360,10 @@ movedata MOVE_SKY_UPPERCUT
     appeal 0x11
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_SKY_UPPERCUT, "The user attacks the\nfoe with an uppercut\nthrown skyward\nwith force.\n"
 
 // POWER: 35 >> 55
-movedata MOVE_SAND_TOMB
+movedata MOVE_SAND_TOMB, "Sand Tomb"
     battleeffect 42
     pss SPLIT_PHYSICAL
     basepower MOVE_CHANGES_IMPLEMENTED ? 55 : 35
@@ -5049,8 +5377,9 @@ movedata MOVE_SAND_TOMB
     appeal 0x15
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_SAND_TOMB, "The user traps the\nfoe inside a harshly\nraging sandstorm for\nfour to five turns.\n"
 
-movedata MOVE_SHEER_COLD
+movedata MOVE_SHEER_COLD, "Sheer Cold"
     battleeffect 38
     pss SPLIT_SPECIAL
     basepower 1
@@ -5064,8 +5393,9 @@ movedata MOVE_SHEER_COLD
     appeal 0x09
     contesttype CONTEST_BEAUTY
     terminatedata
+    movedescription MOVE_SHEER_COLD, "The foe is attacked\nwith a blast of\nabsolute-zero cold.\nThe foe instantly\nfaints if it hits."
 
-movedata MOVE_MUDDY_WATER
+movedata MOVE_MUDDY_WATER, "Muddy Water"
     battleeffect 73
     pss SPLIT_SPECIAL
     basepower 90
@@ -5079,8 +5409,9 @@ movedata MOVE_MUDDY_WATER
     appeal 0x12
     contesttype CONTEST_TOUGH
     terminatedata
+    movedescription MOVE_MUDDY_WATER, "The user attacks by\nshooting out muddy\nwater.\nThis has a 30% chance\nto lower accuracy."
 
-movedata MOVE_BULLET_SEED
+movedata MOVE_BULLET_SEED, "Bullet Seed"
     battleeffect 29
     pss SPLIT_PHYSICAL
     basepower 25
@@ -5094,8 +5425,9 @@ movedata MOVE_BULLET_SEED
     appeal 0x07
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_BULLET_SEED, "The user forcefully\nshoots seeds at the\nfoe. Two to five\nseeds are shot in\nrapid succession."
 
-movedata MOVE_AERIAL_ACE
+movedata MOVE_AERIAL_ACE, "Aerial Ace"
     battleeffect 17
     pss SPLIT_PHYSICAL
     basepower 60
@@ -5109,8 +5441,9 @@ movedata MOVE_AERIAL_ACE
     appeal 0x11
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_AERIAL_ACE, "The user confounds\nthe foe with speed,\nthen slashes.\nThe attack lands\nwithout fail."
 
-movedata MOVE_ICICLE_SPEAR
+movedata MOVE_ICICLE_SPEAR, "Icicle Spear"
     battleeffect 29
     pss SPLIT_PHYSICAL
     basepower 25
@@ -5124,8 +5457,9 @@ movedata MOVE_ICICLE_SPEAR
     appeal 0x07
     contesttype CONTEST_BEAUTY
     terminatedata
+    movedescription MOVE_ICICLE_SPEAR, "The user launches\nsharp icicles at the\nfoe. It strikes two\nto five times in a\nrow."
 
-movedata MOVE_IRON_DEFENSE
+movedata MOVE_IRON_DEFENSE, "Iron Defense"
     battleeffect 51
     pss SPLIT_STATUS
     basepower 0
@@ -5139,8 +5473,9 @@ movedata MOVE_IRON_DEFENSE
     appeal 0x0D
     contesttype CONTEST_TOUGH
     terminatedata
+    movedescription MOVE_IRON_DEFENSE, "The user hardens\nits body’s surface\nlike iron, sharply\nraising its Defense\nstat."
 
-movedata MOVE_BLOCK
+movedata MOVE_BLOCK, "Block"
     battleeffect 106
     pss SPLIT_STATUS
     basepower 0
@@ -5154,8 +5489,9 @@ movedata MOVE_BLOCK
     appeal 0x0D
     contesttype CONTEST_CUTE
     terminatedata
+    movedescription MOVE_BLOCK, "The user blocks the\nfoe’s way with arms\nspread wide to\nprevent escape.\n"
 
-movedata MOVE_HOWL
+movedata MOVE_HOWL, "Howl"
     battleeffect 10
     pss SPLIT_STATUS
     basepower 0
@@ -5169,9 +5505,10 @@ movedata MOVE_HOWL
     appeal 0x0B
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_HOWL, "The user howls loudly\nto raise its spirit,\nboosting its Attack\nstat.\n"
 
 // EFFECT: Now has a high crit ratio (PLA)
-movedata MOVE_DRAGON_CLAW
+movedata MOVE_DRAGON_CLAW, "Dragon Claw"
     battleeffect 43
     pss SPLIT_PHYSICAL
     basepower 80
@@ -5185,8 +5522,9 @@ movedata MOVE_DRAGON_CLAW
     appeal 0x11
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_DRAGON_CLAW, "The user slashes the\nfoe with huge, sharp\nclaws. Critical hits\nland more easily."
 
-movedata MOVE_FRENZY_PLANT
+movedata MOVE_FRENZY_PLANT, "Frenzy Plant"
     battleeffect 80
     pss SPLIT_SPECIAL
     basepower 150
@@ -5200,8 +5538,9 @@ movedata MOVE_FRENZY_PLANT
     appeal 0x16
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_FRENZY_PLANT, "The foe is slammed\nwith an enormous\ntree.\nThe user can’t move\non the next turn."
 
-movedata MOVE_BULK_UP
+movedata MOVE_BULK_UP, "Bulk Up"
     battleeffect 208
     pss SPLIT_STATUS
     basepower 0
@@ -5215,9 +5554,10 @@ movedata MOVE_BULK_UP
     appeal 0x0B
     contesttype CONTEST_BEAUTY
     terminatedata
+    movedescription MOVE_BULK_UP, "The user tenses its\nmuscles to bulk up\nits body, boosting\nboth its Attack and\nDefense stats."
 
 // ACCURACY: 85 >> 95
-movedata MOVE_BOUNCE
+movedata MOVE_BOUNCE, "Bounce"
     battleeffect 263
     pss SPLIT_PHYSICAL
     basepower 85
@@ -5231,8 +5571,9 @@ movedata MOVE_BOUNCE
     appeal 0x06
     contesttype CONTEST_CUTE
     terminatedata
+    movedescription MOVE_BOUNCE, "A two-turn attack.\nThe user bounces up,\nthen down on the foe.\nThis has a 30% chance\nto paralyze the foe."
 
-movedata MOVE_MUD_SHOT
+movedata MOVE_MUD_SHOT, "Mud Shot"
     battleeffect 70
     pss SPLIT_SPECIAL
     basepower 55
@@ -5246,11 +5587,12 @@ movedata MOVE_MUD_SHOT
     appeal 0x02
     contesttype CONTEST_TOUGH
     terminatedata
+    movedescription MOVE_MUD_SHOT, "The user attacks by\nhurling a blob of mud\nat the foe.\nIt also reduces the\ntarget’s Speed."
 
 // POWER: 50 >> 70
 // PP: 25 >> 20
 // EFFECT CHANCE: 10% >> 30%
-movedata MOVE_POISON_TAIL
+movedata MOVE_POISON_TAIL, "Poison Tail"
     battleeffect 209
     pss SPLIT_PHYSICAL
     basepower MOVE_CHANGES_IMPLEMENTED ? 70 : 50
@@ -5264,9 +5606,10 @@ movedata MOVE_POISON_TAIL
     appeal 0x04
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_POISON_TAIL, "A tail attack.\nIt has a 30% chance\nto poison the foe.\nCritical hits land\nmore easily."
 
 // TYPE: Normal >> Fairy
-movedata MOVE_COVET
+movedata MOVE_COVET, "Covet"
     battleeffect 105
     pss SPLIT_PHYSICAL
     basepower 60
@@ -5280,8 +5623,9 @@ movedata MOVE_COVET
     appeal 0x0C
     contesttype CONTEST_CUTE
     terminatedata
+    movedescription MOVE_COVET, "The user endearingly\napproaches the foe,\nthen steals the item\nthe foe is holding.\n"
 
-movedata MOVE_VOLT_TACKLE
+movedata MOVE_VOLT_TACKLE, "Volt Tackle"
     battleeffect 262
     pss SPLIT_PHYSICAL
     basepower 120
@@ -5295,8 +5639,9 @@ movedata MOVE_VOLT_TACKLE
     appeal 0x16
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_VOLT_TACKLE, "An electrified charge.\nThe user is hurt by\n33% of damage dealt.\nThis has a 10% chance\nto paralyze the foe."
 
-movedata MOVE_MAGICAL_LEAF
+movedata MOVE_MAGICAL_LEAF, "Magical Leaf"
     battleeffect 17
     pss SPLIT_SPECIAL
     basepower 60
@@ -5310,8 +5655,9 @@ movedata MOVE_MAGICAL_LEAF
     appeal 0x11
     contesttype CONTEST_BEAUTY
     terminatedata
+    movedescription MOVE_MAGICAL_LEAF, "The user scatters\ncurious leaves that\nchase the foe.\nThis attack will not\nmiss."
 
-movedata MOVE_WATER_SPORT
+movedata MOVE_WATER_SPORT, "Water Sport"
     battleeffect 210
     pss SPLIT_STATUS
     basepower 0
@@ -5325,8 +5671,9 @@ movedata MOVE_WATER_SPORT
     appeal 0x0D
     contesttype CONTEST_CUTE
     terminatedata
+    movedescription MOVE_WATER_SPORT, "The user soaks itself\nwith water. The move\nweakens Fire-type\nmoves while the user\nis in the battle."
 
-movedata MOVE_CALM_MIND
+movedata MOVE_CALM_MIND, "Calm Mind"
     battleeffect 211
     pss SPLIT_STATUS
     basepower 0
@@ -5340,8 +5687,9 @@ movedata MOVE_CALM_MIND
     appeal 0x0B
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_CALM_MIND, "The user quietly\nfocuses its mind and\ncalms its spirit to\nraise its Sp. Atk and\nSp. Def stats."
 
-movedata MOVE_LEAF_BLADE
+movedata MOVE_LEAF_BLADE, "Leaf Blade"
     battleeffect 43
     pss SPLIT_PHYSICAL
     basepower 90
@@ -5355,8 +5703,9 @@ movedata MOVE_LEAF_BLADE
     appeal 0x11
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_LEAF_BLADE, "The foe is slashed\nwith a sharp leaf.\nIt has a high\ncritical-hit ratio.\n"
 
-movedata MOVE_DRAGON_DANCE
+movedata MOVE_DRAGON_DANCE, "Dragon Dance"
     battleeffect 212
     pss SPLIT_STATUS
     basepower 0
@@ -5370,8 +5719,9 @@ movedata MOVE_DRAGON_DANCE
     appeal 0x0B
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_DRAGON_DANCE, "The user vigorously\nperforms a mystic,\npowerful dance that\nboosts its Attack and\nSpeed stats."
 
-movedata MOVE_ROCK_BLAST
+movedata MOVE_ROCK_BLAST, "Rock Blast"
     battleeffect 29
     pss SPLIT_PHYSICAL
     basepower 25
@@ -5385,8 +5735,9 @@ movedata MOVE_ROCK_BLAST
     appeal 0x07
     contesttype CONTEST_TOUGH
     terminatedata
+    movedescription MOVE_ROCK_BLAST, "The user hurls hard\nrocks at the foe.\nTwo to five rocks are\nlaunched in quick\nsuccession."
 
-movedata MOVE_SHOCK_WAVE
+movedata MOVE_SHOCK_WAVE, "Shock Wave"
     battleeffect 17
     pss SPLIT_SPECIAL
     basepower 60
@@ -5400,8 +5751,9 @@ movedata MOVE_SHOCK_WAVE
     appeal 0x11
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_SHOCK_WAVE, "The user strikes the\nfoe with a quick jolt\nof electricity.\nThis attack cannot be\nevaded."
 
-movedata MOVE_WATER_PULSE
+movedata MOVE_WATER_PULSE, "Water Pulse"
     battleeffect 76
     pss SPLIT_SPECIAL
     basepower 60
@@ -5415,8 +5767,9 @@ movedata MOVE_WATER_PULSE
     appeal 0x11
     contesttype CONTEST_BEAUTY
     terminatedata
+    movedescription MOVE_WATER_PULSE, "The user attacks the\nfoe with a pulsing\nblast of water.\nThis has a 20% chance\nto confuse the foe."
 
-movedata MOVE_DOOM_DESIRE
+movedata MOVE_DOOM_DESIRE, "Doom Desire"
     battleeffect 148
     pss SPLIT_SPECIAL
     basepower 140
@@ -5430,8 +5783,9 @@ movedata MOVE_DOOM_DESIRE
     appeal 0x11
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_DOOM_DESIRE, "Two turns after this\nmove is used, the\nuser blasts the foe\nwith a concentrated\nbundle of light."
 
-movedata MOVE_PSYCHO_BOOST
+movedata MOVE_PSYCHO_BOOST, "Psycho Boost"
     battleeffect 204
     pss SPLIT_SPECIAL
     basepower 140
@@ -5445,8 +5799,9 @@ movedata MOVE_PSYCHO_BOOST
     appeal 0x16
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_PSYCHO_BOOST, "The user attacks the\nfoe at full power.\nThe attack’s recoil\nsharply reduces the\nuser’s Sp. Atk stat."
 
-movedata MOVE_ROOST
+movedata MOVE_ROOST, "Roost"
     battleeffect 214
     pss SPLIT_STATUS
     basepower 0
@@ -5460,8 +5815,9 @@ movedata MOVE_ROOST
     appeal 0x08
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_ROOST, "The user lands and\nrests its body.\nIt restores the\nuser’s HP by up to\nhalf of its max HP."
 
-movedata MOVE_GRAVITY
+movedata MOVE_GRAVITY, "Gravity"
     battleeffect 215
     pss SPLIT_STATUS
     basepower 0
@@ -5475,8 +5831,9 @@ movedata MOVE_GRAVITY
     appeal 0x0D
     contesttype CONTEST_BEAUTY
     terminatedata
+    movedescription MOVE_GRAVITY, "Gravity is intensified\nfor five turns, making\nmoves involving flying\nunusable and\nnegating Levitation."
 
-movedata MOVE_MIRACLE_EYE
+movedata MOVE_MIRACLE_EYE, "Miracle Eye"
     battleeffect 216
     pss SPLIT_STATUS
     basepower 0
@@ -5490,8 +5847,9 @@ movedata MOVE_MIRACLE_EYE
     appeal 0x14
     contesttype CONTEST_CUTE
     terminatedata
+    movedescription MOVE_MIRACLE_EYE, "Enables the user to\nhit a Dark type with\nany type of move. It\nalso enables the user\nto hit an evasive foe."
 
-movedata MOVE_WAKE_UP_SLAP
+movedata MOVE_WAKE_UP_SLAP, "Wake-Up Slap"
     battleeffect 217
     pss SPLIT_PHYSICAL
     basepower 70
@@ -5505,8 +5863,9 @@ movedata MOVE_WAKE_UP_SLAP
     appeal 0x10
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_WAKE_UP_SLAP, "This attack inflicts\nhigh damage on a\nsleeping foe. It\nalso wakes the foe\nup, however."
 
-movedata MOVE_HAMMER_ARM
+movedata MOVE_HAMMER_ARM, "Hammer Arm"
     battleeffect 218
     pss SPLIT_PHYSICAL
     basepower 100
@@ -5520,9 +5879,10 @@ movedata MOVE_HAMMER_ARM
     appeal 0x02
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_HAMMER_ARM, "The user swings and\nhits with its strong\nand heavy fist.\nIt lowers the user’s\nSpeed, however."
 
 // PP: 5 >> 10
-movedata MOVE_GYRO_BALL
+movedata MOVE_GYRO_BALL, "Gyro Ball"
     battleeffect 219
     pss SPLIT_PHYSICAL
     basepower 1
@@ -5536,8 +5896,9 @@ movedata MOVE_GYRO_BALL
     appeal 0x0F
     contesttype CONTEST_BEAUTY
     terminatedata
+    movedescription MOVE_GYRO_BALL, "The user tackles the\nfoe with a high-speed\nspin. The slower the\nuser, the greater\nthe damage."
 
-movedata MOVE_HEALING_WISH
+movedata MOVE_HEALING_WISH, "Healing Wish"
     battleeffect 220
     pss SPLIT_STATUS
     basepower 0
@@ -5551,8 +5912,9 @@ movedata MOVE_HEALING_WISH
     appeal 0x08
     contesttype CONTEST_CUTE
     terminatedata
+    movedescription MOVE_HEALING_WISH, "The user faints. In\nreturn, the Pokémon\ntaking its place will\nhave its HP restored\nand status cured."
 
-movedata MOVE_BRINE
+movedata MOVE_BRINE, "Brine"
     battleeffect 221
     pss SPLIT_SPECIAL
     basepower 65
@@ -5566,8 +5928,9 @@ movedata MOVE_BRINE
     appeal 0x04
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_BRINE, "If the foe’s HP is\ndown to about half,\nthis attack will hit\nwith double the\npower."
 
-movedata MOVE_NATURAL_GIFT
+movedata MOVE_NATURAL_GIFT, "Natural Gift"
     battleeffect 222
     pss SPLIT_PHYSICAL
     basepower 1
@@ -5581,9 +5944,10 @@ movedata MOVE_NATURAL_GIFT
     appeal 0x12
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_NATURAL_GIFT, "The user draws power\nto attack by using\nits held Berry.\nThe Berry determines\nits type and power."
 
 // EFFECT: Updated to newer gen effect - no longer fails if enemy isnt protecting
-movedata MOVE_FEINT
+movedata MOVE_FEINT, "Feint"
     battleeffect 223
     pss SPLIT_PHYSICAL
     basepower 30
@@ -5597,8 +5961,9 @@ movedata MOVE_FEINT
     appeal 0x10
     contesttype CONTEST_BEAUTY
     terminatedata
+    movedescription MOVE_FEINT, "An attack able to hit\na foe using Protect\nor Detect. It also\nlifts the effects of\nthose moves."
 
-movedata MOVE_PLUCK
+movedata MOVE_PLUCK, "Pluck"
     battleeffect 224
     pss SPLIT_PHYSICAL
     basepower 60
@@ -5612,8 +5977,9 @@ movedata MOVE_PLUCK
     appeal 0x0C
     contesttype CONTEST_CUTE
     terminatedata
+    movedescription MOVE_PLUCK, "The user pecks the\nfoe. If the foe is\nholding a Berry, the\nuser plucks it and\ngains its effect."
 
-movedata MOVE_TAILWIND
+movedata MOVE_TAILWIND, "Tailwind"
     battleeffect 225
     pss SPLIT_STATUS
     basepower 0
@@ -5627,8 +5993,9 @@ movedata MOVE_TAILWIND
     appeal 0x01
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_TAILWIND, "The user whips up a\nturbulent wind that\ndoubles the Speed\nof all party Pokémon\nfor three turns."
 
-movedata MOVE_ACUPRESSURE
+movedata MOVE_ACUPRESSURE, "Acupressure"
     battleeffect 226
     pss SPLIT_STATUS
     basepower 0
@@ -5642,8 +6009,9 @@ movedata MOVE_ACUPRESSURE
     appeal 0x0B
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_ACUPRESSURE, "The user applies\npressure to stress\npoints, sharply\nboosting one of its\nstats."
 
-movedata MOVE_METAL_BURST
+movedata MOVE_METAL_BURST, "Metal Burst"
     battleeffect 227
     pss SPLIT_PHYSICAL
     basepower 1
@@ -5657,8 +6025,9 @@ movedata MOVE_METAL_BURST
     appeal 0x0F
     contesttype CONTEST_BEAUTY
     terminatedata
+    movedescription MOVE_METAL_BURST, "The user retaliates\nagainst the foe that\nlast inflicted damage\non it with much\ngreater power."
 
-movedata MOVE_U_TURN
+movedata MOVE_U_TURN, "U-turn"
     battleeffect 228
     pss SPLIT_PHYSICAL
     basepower 70
@@ -5672,8 +6041,9 @@ movedata MOVE_U_TURN
     appeal 0x10
     contesttype CONTEST_CUTE
     terminatedata
+    movedescription MOVE_U_TURN, "After making its\nattack, the user\nrushes back to switch\nplaces with a party\nPokémon in waiting."
 
-movedata MOVE_CLOSE_COMBAT
+movedata MOVE_CLOSE_COMBAT, "Close Combat"
     battleeffect 229
     pss SPLIT_PHYSICAL
     basepower 120
@@ -5687,8 +6057,9 @@ movedata MOVE_CLOSE_COMBAT
     appeal 0x16
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_CLOSE_COMBAT, "The user fights the\nfoe up close without\nguarding itself. It\nalso cuts the user’s\nDefense and Sp. Def."
 
-movedata MOVE_PAYBACK
+movedata MOVE_PAYBACK, "Payback"
     battleeffect 230
     pss SPLIT_PHYSICAL
     basepower 50
@@ -5702,8 +6073,9 @@ movedata MOVE_PAYBACK
     appeal 0x06
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_PAYBACK, "If the user can use\nthis attack after the\nfoe attacks, its\npower is doubled.\n"
 
-movedata MOVE_ASSURANCE
+movedata MOVE_ASSURANCE, "Assurance"
     battleeffect 231
     pss SPLIT_PHYSICAL
     basepower 60
@@ -5717,8 +6089,9 @@ movedata MOVE_ASSURANCE
     appeal 0x0F
     contesttype CONTEST_BEAUTY
     terminatedata
+    movedescription MOVE_ASSURANCE, "If the foe has\nalready taken some\ndamage in the same\nturn, this attack’s\npower is doubled."
 
-movedata MOVE_EMBARGO
+movedata MOVE_EMBARGO, "Embargo"
     battleeffect 232
     pss SPLIT_STATUS
     basepower 0
@@ -5732,8 +6105,9 @@ movedata MOVE_EMBARGO
     appeal 0x0D
     contesttype CONTEST_CUTE
     terminatedata
+    movedescription MOVE_EMBARGO, "It prevents the foe\nfrom using its held\nitem. Its Trainer is\nalso prevented from\nusing items on it."
 
-movedata MOVE_FLING
+movedata MOVE_FLING, "Fling"
     battleeffect 233
     pss SPLIT_PHYSICAL
     basepower 1
@@ -5747,8 +6121,9 @@ movedata MOVE_FLING
     appeal 0x17
     contesttype CONTEST_TOUGH
     terminatedata
+    movedescription MOVE_FLING, "The user flings its\nheld item at the foe\nto attack. Its power\nand effects depend\non the item."
 
-movedata MOVE_PSYCHO_SHIFT
+movedata MOVE_PSYCHO_SHIFT, "Psycho Shift"
     battleeffect 234
     pss SPLIT_STATUS
     basepower 0
@@ -5762,8 +6137,9 @@ movedata MOVE_PSYCHO_SHIFT
     appeal 0x10
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_PSYCHO_SHIFT, "Using its psychic\npower of suggestion,\nthe user transfers\nits status problems\nto the target."
 
-movedata MOVE_TRUMP_CARD
+movedata MOVE_TRUMP_CARD, "Trump Card"
     battleeffect 235
     pss SPLIT_SPECIAL
     basepower 1
@@ -5777,8 +6153,9 @@ movedata MOVE_TRUMP_CARD
     appeal 0x15
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_TRUMP_CARD, "The fewer PP this\nmove has, the more\npower it has for\nattack.\n"
 
-movedata MOVE_HEAL_BLOCK
+movedata MOVE_HEAL_BLOCK, "Heal Block"
     battleeffect 236
     pss SPLIT_STATUS
     basepower 0
@@ -5792,8 +6169,9 @@ movedata MOVE_HEAL_BLOCK
     appeal 0x0D
     contesttype CONTEST_CUTE
     terminatedata
+    movedescription MOVE_HEAL_BLOCK, "The user prevents\nthe foe from using\nany HP-recovery\nmoves for five turns.\n"
 
-movedata MOVE_WRING_OUT
+movedata MOVE_WRING_OUT, "Wring Out"
     battleeffect 237
     pss SPLIT_SPECIAL
     basepower 1
@@ -5807,8 +6185,9 @@ movedata MOVE_WRING_OUT
     appeal 0x16
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_WRING_OUT, "The user powerfully\nwrings the foe.\nThe more HP the foe\nhas, the greater this\nattack’s power."
 
-movedata MOVE_POWER_TRICK
+movedata MOVE_POWER_TRICK, "Power Trick"
     battleeffect 238
     pss SPLIT_STATUS
     basepower 0
@@ -5822,8 +6201,9 @@ movedata MOVE_POWER_TRICK
     appeal 0x10
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_POWER_TRICK, "The user employs its\npsychic power to\nswitch its Attack\nwith its Defense\nstat."
 
-movedata MOVE_GASTRO_ACID
+movedata MOVE_GASTRO_ACID, "Gastro Acid"
     battleeffect 239
     pss SPLIT_STATUS
     basepower 0
@@ -5837,8 +6217,9 @@ movedata MOVE_GASTRO_ACID
     appeal 0x0D
     contesttype CONTEST_BEAUTY
     terminatedata
+    movedescription MOVE_GASTRO_ACID, "The user hurls up its\nstomach acids on\nthe foe. The fluid\neliminates the effect\nof the foe’s ability."
 
-movedata MOVE_LUCKY_CHANT
+movedata MOVE_LUCKY_CHANT, "Lucky Chant"
     battleeffect 240
     pss SPLIT_STATUS
     basepower 0
@@ -5852,8 +6233,9 @@ movedata MOVE_LUCKY_CHANT
     appeal 0x0D
     contesttype CONTEST_CUTE
     terminatedata
+    movedescription MOVE_LUCKY_CHANT, "The user chants an\nincantation toward\nthe sky, preventing\nthe foe from landing\ncritical hits."
 
-movedata MOVE_ME_FIRST
+movedata MOVE_ME_FIRST, "Me First"
     battleeffect 241
     pss SPLIT_STATUS
     basepower 0
@@ -5867,8 +6249,9 @@ movedata MOVE_ME_FIRST
     appeal 0x01
     contesttype CONTEST_CUTE
     terminatedata
+    movedescription MOVE_ME_FIRST, "The user tries to cut\nahead of the foe to\nsteal and use the\nfoe’s intended move\nwith greater power."
 
-movedata MOVE_COPYCAT
+movedata MOVE_COPYCAT, "Copycat"
     battleeffect 242
     pss SPLIT_STATUS
     basepower 0
@@ -5882,8 +6265,9 @@ movedata MOVE_COPYCAT
     appeal 0x0C
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_COPYCAT, "The user mimics the\nmove used immediately\nbefore it. The move\nfails if no other move\nhas been used yet."
 
-movedata MOVE_POWER_SWAP
+movedata MOVE_POWER_SWAP, "Power Swap"
     battleeffect 243
     pss SPLIT_STATUS
     basepower 0
@@ -5897,8 +6281,9 @@ movedata MOVE_POWER_SWAP
     appeal 0x10
     contesttype CONTEST_BEAUTY
     terminatedata
+    movedescription MOVE_POWER_SWAP, "The user employs its\npsychic power to\nswitch changes to\nits Attack and\nSp. Atk with the foe."
 
-movedata MOVE_GUARD_SWAP
+movedata MOVE_GUARD_SWAP, "Guard Swap"
     battleeffect 244
     pss SPLIT_STATUS
     basepower 0
@@ -5912,8 +6297,9 @@ movedata MOVE_GUARD_SWAP
     appeal 0x10
     contesttype CONTEST_CUTE
     terminatedata
+    movedescription MOVE_GUARD_SWAP, "The user employs its\npsychic power to\nswitch changes to\nits Defense and\nSp. Def with the foe."
 
-movedata MOVE_PUNISHMENT
+movedata MOVE_PUNISHMENT, "Punishment"
     battleeffect 245
     pss SPLIT_PHYSICAL
     basepower 1
@@ -5927,8 +6313,9 @@ movedata MOVE_PUNISHMENT
     appeal 0x17
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_PUNISHMENT, "This attack’s power\nincreases the more\nthe foe has powered\nup with stat changes.\n"
 
-movedata MOVE_LAST_RESORT
+movedata MOVE_LAST_RESORT, "Last Resort"
     battleeffect 246
     pss SPLIT_PHYSICAL
     basepower 140
@@ -5942,8 +6329,9 @@ movedata MOVE_LAST_RESORT
     appeal 0x15
     contesttype CONTEST_CUTE
     terminatedata
+    movedescription MOVE_LAST_RESORT, "This move can be used\nonly after the user\nhas used all the\nother moves it knows\nin the battle."
 
-movedata MOVE_WORRY_SEED
+movedata MOVE_WORRY_SEED, "Worry Seed"
     battleeffect 247
     pss SPLIT_STATUS
     basepower 0
@@ -5957,8 +6345,9 @@ movedata MOVE_WORRY_SEED
     appeal 0x13
     contesttype CONTEST_BEAUTY
     terminatedata
+    movedescription MOVE_WORRY_SEED, "A seed that causes\nworry is planted on\nthe foe. It prevents\nsleep by making its\nability Insomnia."
 
-movedata MOVE_SUCKER_PUNCH
+movedata MOVE_SUCKER_PUNCH, "Sucker Punch"
     battleeffect 248
     pss SPLIT_PHYSICAL
     basepower 70
@@ -5972,8 +6361,9 @@ movedata MOVE_SUCKER_PUNCH
     appeal 0x01
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_SUCKER_PUNCH, "This move enables the\nuser to attack first.\nIt fails if the foe is\nnot readying an\nattack, however."
 
-movedata MOVE_TOXIC_SPIKES
+movedata MOVE_TOXIC_SPIKES, "Toxic Spikes"
     battleeffect 249
     pss SPLIT_STATUS
     basepower 0
@@ -5987,8 +6377,9 @@ movedata MOVE_TOXIC_SPIKES
     appeal 0x0D
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_TOXIC_SPIKES, "The user lays a trap\nof poison spikes at\nthe foe’s feet. They\npoison foes that\nswitch into battle."
 
-movedata MOVE_HEART_SWAP
+movedata MOVE_HEART_SWAP, "Heart Swap"
     battleeffect 250
     pss SPLIT_STATUS
     basepower 0
@@ -6002,8 +6393,9 @@ movedata MOVE_HEART_SWAP
     appeal 0x10
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_HEART_SWAP, "The user employs its\npsychic power to\nswitch stat changes\nwith the foe.\n"
 
-movedata MOVE_AQUA_RING
+movedata MOVE_AQUA_RING, "Aqua Ring"
     battleeffect 251
     pss SPLIT_STATUS
     basepower 0
@@ -6017,8 +6409,9 @@ movedata MOVE_AQUA_RING
     appeal 0x08
     contesttype CONTEST_BEAUTY
     terminatedata
+    movedescription MOVE_AQUA_RING, "The user envelops\nitself in a veil made\nof water. It regains\nsome HP on every\nturn."
 
-movedata MOVE_MAGNET_RISE
+movedata MOVE_MAGNET_RISE, "Magnet Rise"
     battleeffect 252
     pss SPLIT_STATUS
     basepower 0
@@ -6032,8 +6425,9 @@ movedata MOVE_MAGNET_RISE
     appeal 0x0D
     contesttype CONTEST_CUTE
     terminatedata
+    movedescription MOVE_MAGNET_RISE, "The user levitates\nusing electrically\ngenerated magnetism\nfor five turns.\n"
 
-movedata MOVE_FLARE_BLITZ
+movedata MOVE_FLARE_BLITZ, "Flare Blitz"
     battleeffect 253
     pss SPLIT_PHYSICAL
     basepower 120
@@ -6047,8 +6441,9 @@ movedata MOVE_FLARE_BLITZ
     appeal 0x16
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_FLARE_BLITZ, "A firecloaked charge.\nThe user is hurt by\n33% of damage dealt.\nThis has a 10% chance\nto burn the foe."
 
-movedata MOVE_FORCE_PALM
+movedata MOVE_FORCE_PALM, "Force Palm"
     battleeffect 6
     pss SPLIT_PHYSICAL
     basepower 60
@@ -6062,8 +6457,9 @@ movedata MOVE_FORCE_PALM
     appeal 0x12
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_FORCE_PALM, "The foe is attacked\nwith a shock wave.\nThis has a 10% chance\nto paralyze the foe."
 
-movedata MOVE_AURA_SPHERE
+movedata MOVE_AURA_SPHERE, "Aura Sphere"
     battleeffect 17
     pss SPLIT_SPECIAL
     basepower 80
@@ -6077,8 +6473,9 @@ movedata MOVE_AURA_SPHERE
     appeal 0x11
     contesttype CONTEST_BEAUTY
     terminatedata
+    movedescription MOVE_AURA_SPHERE, "The user looses a\nblast of aura power\nfrom deep within its\nbody. This move is\ncertain to hit."
 
-movedata MOVE_ROCK_POLISH
+movedata MOVE_ROCK_POLISH, "Rock Polish"
     battleeffect 52
     pss SPLIT_STATUS
     basepower 0
@@ -6092,8 +6489,9 @@ movedata MOVE_ROCK_POLISH
     appeal 0x01
     contesttype CONTEST_TOUGH
     terminatedata
+    movedescription MOVE_ROCK_POLISH, "The user polishes its\nbody to reduce drag.\nIt can sharply raise\nthe Speed stat.\n"
 
-movedata MOVE_POISON_JAB
+movedata MOVE_POISON_JAB, "Poison Jab"
     battleeffect 2
     pss SPLIT_PHYSICAL
     basepower 80
@@ -6107,8 +6505,9 @@ movedata MOVE_POISON_JAB
     appeal 0x04
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_POISON_JAB, "The foe is stabbed\nwith a poison-steeped\narm, tentacle, etc.\nThis has a 30% chance\nto poison the foe."
 
-movedata MOVE_DARK_PULSE
+movedata MOVE_DARK_PULSE, "Dark Pulse"
     battleeffect 31
     pss SPLIT_SPECIAL
     basepower 80
@@ -6122,8 +6521,9 @@ movedata MOVE_DARK_PULSE
     appeal 0x11
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_DARK_PULSE, "The user releases a\nhorrible aura imbued\nwith dark thoughts.\nThis has a 20% chance\nto flinch the foe."
 
-movedata MOVE_NIGHT_SLASH
+movedata MOVE_NIGHT_SLASH, "Night Slash"
     battleeffect 43
     pss SPLIT_PHYSICAL
     basepower 70
@@ -6137,8 +6537,9 @@ movedata MOVE_NIGHT_SLASH
     appeal 0x05
     contesttype CONTEST_BEAUTY
     terminatedata
+    movedescription MOVE_NIGHT_SLASH, "The user slashes the\nfoe the instant an\nopportunity arises.\nIt has a high\ncritical-hit ratio."
 
-movedata MOVE_AQUA_TAIL
+movedata MOVE_AQUA_TAIL, "Aqua Tail"
     battleeffect 0
     pss SPLIT_PHYSICAL
     basepower 90
@@ -6152,8 +6553,9 @@ movedata MOVE_AQUA_TAIL
     appeal 0x05
     contesttype CONTEST_CUTE
     terminatedata
+    movedescription MOVE_AQUA_TAIL, "The user attacks by\nswinging its tail as if\nit were a vicious wave\nin a raging storm.\n"
 
-movedata MOVE_SEED_BOMB
+movedata MOVE_SEED_BOMB, "Seed Bomb"
     battleeffect 0
     pss SPLIT_PHYSICAL
     basepower 80
@@ -6167,8 +6569,9 @@ movedata MOVE_SEED_BOMB
     appeal 0x05
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_SEED_BOMB, "The user slams a\nbarrage of hard-\nshelled seeds\ndown on the foe\nfrom above."
 
-movedata MOVE_AIR_SLASH
+movedata MOVE_AIR_SLASH, "Air Slash"
     battleeffect 31
     pss SPLIT_SPECIAL
     basepower 75
@@ -6182,9 +6585,10 @@ movedata MOVE_AIR_SLASH
     appeal 0x11
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_AIR_SLASH, "The user attacks with\na blade of air that\nslices even the sky.\nThis has a 30% chance\nto flinch the foe."
 
 // EFFECT: Now has a high crit ratio (PLA)
-movedata MOVE_X_SCISSOR
+movedata MOVE_X_SCISSOR, "X-Scissor"
     battleeffect 43
     pss SPLIT_PHYSICAL
     basepower 80
@@ -6198,8 +6602,9 @@ movedata MOVE_X_SCISSOR
     appeal 0x11
     contesttype CONTEST_BEAUTY
     terminatedata
+    movedescription MOVE_X_SCISSOR, "The user slashes at\nthe foe by crossing\nits scythes or claws\nlike scissors. Critical\nhits land more easily."
 
-movedata MOVE_BUG_BUZZ
+movedata MOVE_BUG_BUZZ, "Bug Buzz"
     battleeffect 72
     pss SPLIT_SPECIAL
     basepower 90
@@ -6213,8 +6618,9 @@ movedata MOVE_BUG_BUZZ
     appeal 0x04
     contesttype CONTEST_CUTE
     terminatedata
+    movedescription MOVE_BUG_BUZZ, "The user vibrates its\nwings to generate a\ndamaging sound wave.\nThis has a 10% chance\nto lower Sp. Def."
 
-movedata MOVE_DRAGON_PULSE
+movedata MOVE_DRAGON_PULSE, "Dragon Pulse"
     battleeffect 0
     pss SPLIT_SPECIAL
     basepower 85
@@ -6228,9 +6634,10 @@ movedata MOVE_DRAGON_PULSE
     appeal 0x04
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_DRAGON_PULSE, "The foe is attacked\nwith a shock wave\ngenerated by the\nuser’s gaping mouth.\n"
 
 // ACCURACY: 75 >> 85
-movedata MOVE_DRAGON_RUSH
+movedata MOVE_DRAGON_RUSH, "Dragon Rush"
     battleeffect 150
     pss SPLIT_PHYSICAL
     basepower 100
@@ -6244,9 +6651,10 @@ movedata MOVE_DRAGON_RUSH
     appeal 0x12
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_DRAGON_RUSH, "The user tackles the\nfoe while exhibiting\noverwhelming menace.\nThis has a 20% chance\nto flinch the foe."
 
 // EFFECT: Now has a 10% chance to drop Sp. Def
-movedata MOVE_POWER_GEM
+movedata MOVE_POWER_GEM, "Power Gem"
     battleeffect 72
     pss SPLIT_SPECIAL
     basepower 80
@@ -6260,8 +6668,9 @@ movedata MOVE_POWER_GEM
     appeal 0x05
     contesttype CONTEST_BEAUTY
     terminatedata
+    movedescription MOVE_POWER_GEM, "The user attacks with\na ray of light that\nsparkles like gems.\nThis has a 10% chance\nto lower Sp. Def."
 
-movedata MOVE_DRAIN_PUNCH
+movedata MOVE_DRAIN_PUNCH, "Drain Punch"
     battleeffect 3
     pss SPLIT_PHYSICAL
     basepower 75
@@ -6275,8 +6684,9 @@ movedata MOVE_DRAIN_PUNCH
     appeal 0x14
     contesttype CONTEST_BEAUTY
     terminatedata
+    movedescription MOVE_DRAIN_PUNCH, "An energy-draining\npunch. The user’s\nHP is restored by\nhalf the damage taken\nby the target."
 
-movedata MOVE_VACUUM_WAVE
+movedata MOVE_VACUUM_WAVE, "Vacuum Wave"
     battleeffect 103
     pss SPLIT_SPECIAL
     basepower 40
@@ -6290,8 +6700,9 @@ movedata MOVE_VACUUM_WAVE
     appeal 0x01
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_VACUUM_WAVE, "The user whirls its\nfists to send a wave\nof pure vacuum at\nthe foe. This move\nalways goes first."
 
-movedata MOVE_FOCUS_BLAST
+movedata MOVE_FOCUS_BLAST, "Focus Blast"
     battleeffect 72
     pss SPLIT_SPECIAL
     basepower 120
@@ -6305,8 +6716,9 @@ movedata MOVE_FOCUS_BLAST
     appeal 0x11
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_FOCUS_BLAST, "The user heightens\nits mental focus and\nunleashes its power.\nThis has a 10% chance\nto lower Sp. Def."
 
-movedata MOVE_ENERGY_BALL
+movedata MOVE_ENERGY_BALL, "Energy Ball"
     battleeffect 72
     pss SPLIT_SPECIAL
     basepower 90
@@ -6320,8 +6732,9 @@ movedata MOVE_ENERGY_BALL
     appeal 0x11
     contesttype CONTEST_BEAUTY
     terminatedata
+    movedescription MOVE_ENERGY_BALL, "The user draws power\nfrom nature and\nfires it at the foe.\nThis has a 10% chance\nto lower Sp. Def."
 
-movedata MOVE_BRAVE_BIRD
+movedata MOVE_BRAVE_BIRD, "Brave Bird"
     battleeffect 198
     pss SPLIT_PHYSICAL
     basepower 120
@@ -6335,8 +6748,9 @@ movedata MOVE_BRAVE_BIRD
     appeal 0x12
     contesttype CONTEST_CUTE
     terminatedata
+    movedescription MOVE_BRAVE_BIRD, "The user tucks in\nits wings and charges\nfrom a low altitude.\nThe user is hurt by\n33% of damage dealt."
 
-movedata MOVE_EARTH_POWER
+movedata MOVE_EARTH_POWER, "Earth Power"
     battleeffect 72
     pss SPLIT_SPECIAL
     basepower 90
@@ -6350,8 +6764,9 @@ movedata MOVE_EARTH_POWER
     appeal 0x12
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_EARTH_POWER, "The user makes the\nground under the foe\nerupt with power.\nThis has a 10% chance\nto lower Sp. Def."
 
-movedata MOVE_SWITCHEROO
+movedata MOVE_SWITCHEROO, "Switcheroo"
     battleeffect 177
     pss SPLIT_STATUS
     basepower 0
@@ -6365,8 +6780,9 @@ movedata MOVE_SWITCHEROO
     appeal 0x0C
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_SWITCHEROO, "The user trades held\nitems with the foe\nfaster than the eye\ncan follow.\n"
 
-movedata MOVE_GIGA_IMPACT
+movedata MOVE_GIGA_IMPACT, "Giga Impact"
     battleeffect 80
     pss SPLIT_PHYSICAL
     basepower 150
@@ -6380,8 +6796,9 @@ movedata MOVE_GIGA_IMPACT
     appeal 0x16
     contesttype CONTEST_BEAUTY
     terminatedata
+    movedescription MOVE_GIGA_IMPACT, "The user charges at\nthe foe using every\nbit of its power.\nThe user must rest\non the next turn."
 
-movedata MOVE_NASTY_PLOT
+movedata MOVE_NASTY_PLOT, "Nasty Plot"
     battleeffect 53
     pss SPLIT_STATUS
     basepower 0
@@ -6395,8 +6812,9 @@ movedata MOVE_NASTY_PLOT
     appeal 0x0B
     contesttype CONTEST_CUTE
     terminatedata
+    movedescription MOVE_NASTY_PLOT, "The user stimulates\nits brain by thinking\nbad thoughts.\nIt sharply raises the\nuser’s Sp. Atk."
 
-movedata MOVE_BULLET_PUNCH
+movedata MOVE_BULLET_PUNCH, "Bullet Punch"
     battleeffect 103
     pss SPLIT_PHYSICAL
     basepower 40
@@ -6410,8 +6828,9 @@ movedata MOVE_BULLET_PUNCH
     appeal 0x01
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_BULLET_PUNCH, "The user strikes\nwith a tough punch as\nfast as a bullet.\nThis move always goes\nfirst."
 
-movedata MOVE_AVALANCHE
+movedata MOVE_AVALANCHE, "Avalanche"
     battleeffect 185
     pss SPLIT_PHYSICAL
     basepower 60
@@ -6425,8 +6844,9 @@ movedata MOVE_AVALANCHE
     appeal 0x0F
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_AVALANCHE, "An attack move that\ninflicts double the\ndamage if the user\nhas been hurt by the\nfoe in the same turn."
 
-movedata MOVE_ICE_SHARD
+movedata MOVE_ICE_SHARD, "Ice Shard"
     battleeffect 103
     pss SPLIT_PHYSICAL
     basepower 40
@@ -6440,9 +6860,10 @@ movedata MOVE_ICE_SHARD
     appeal 0x01
     contesttype CONTEST_BEAUTY
     terminatedata
+    movedescription MOVE_ICE_SHARD, "The user flash\nfreezes chunks of\nice and hurls them.\nThis move always goes\nfirst."
 
 // POWER: 70 >> 80
-movedata MOVE_SHADOW_CLAW
+movedata MOVE_SHADOW_CLAW, "Shadow Claw"
     battleeffect 43
     pss SPLIT_PHYSICAL
     basepower MOVE_CHANGES_IMPLEMENTED ? 80 : 70
@@ -6456,10 +6877,11 @@ movedata MOVE_SHADOW_CLAW
     appeal 0x11
     contesttype CONTEST_CUTE
     terminatedata
+    movedescription MOVE_SHADOW_CLAW, "The user slashes with\na sharp claw made\nfrom shadows.\nIt has a high\ncritical-hit ratio."
 
 // POWER: 65 >> 75
 // ACCURACY: 95 >> 100
-movedata MOVE_THUNDER_FANG
+movedata MOVE_THUNDER_FANG, "Thunder Fang"
     battleeffect 275
     pss SPLIT_PHYSICAL
     basepower MOVE_CHANGES_IMPLEMENTED ? 75 : 65
@@ -6473,10 +6895,11 @@ movedata MOVE_THUNDER_FANG
     appeal 0x05
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_THUNDER_FANG, "The user bites with\nelectrified fangs.\nThis has a 10% chance\neach to paralyze or\nflinch the foe."
 
 // POWER: 65 >> 75
 // ACCURACY: 95 >> 100
-movedata MOVE_ICE_FANG
+movedata MOVE_ICE_FANG, "Ice Fang"
     battleeffect 274
     pss SPLIT_PHYSICAL
     basepower MOVE_CHANGES_IMPLEMENTED ? 75 : 65
@@ -6490,10 +6913,11 @@ movedata MOVE_ICE_FANG
     appeal 0x05
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_ICE_FANG, "The user bites with\ncold-infused fangs.\nThis has a 10% chance\neach to freeze or\nflinch the foe."
 
 // POWER: 65 >> 75
 // ACCURACY: 95 >> 100
-movedata MOVE_FIRE_FANG
+movedata MOVE_FIRE_FANG, "Fire Fang"
     battleeffect 314 // Changed from 273 to fix Wonder Guard glitch
     pss SPLIT_PHYSICAL
     basepower MOVE_CHANGES_IMPLEMENTED ? 75 : 65
@@ -6507,8 +6931,9 @@ movedata MOVE_FIRE_FANG
     appeal 0x05
     contesttype CONTEST_BEAUTY
     terminatedata
+    movedescription MOVE_FIRE_FANG, "The user bites with\nflame-cloaked fangs.\nThis has a 10% chance\neach to burn or\nflinch the foe."
 
-movedata MOVE_SHADOW_SNEAK
+movedata MOVE_SHADOW_SNEAK, "Shadow Sneak"
     battleeffect 103
     pss SPLIT_PHYSICAL
     basepower 40
@@ -6522,9 +6947,10 @@ movedata MOVE_SHADOW_SNEAK
     appeal 0x01
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_SHADOW_SNEAK, "The user extends its\nshadow and attacks\nthe foe from behind.\nThis move always goes\nfirst."
 
 // ACCURACY: 85 >> 95
-movedata MOVE_MUD_BOMB
+movedata MOVE_MUD_BOMB, "Mud Bomb"
     battleeffect 73
     pss SPLIT_SPECIAL
     basepower 65
@@ -6538,8 +6964,9 @@ movedata MOVE_MUD_BOMB
     appeal 0x12
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_MUD_BOMB, "The user launches a\nhard-packed mud ball\nto attack.\nThis has a 30% chance\nto lower accuracy."
 
-movedata MOVE_PSYCHO_CUT
+movedata MOVE_PSYCHO_CUT, "Psycho Cut"
     battleeffect 43
     pss SPLIT_PHYSICAL
     basepower 70
@@ -6553,9 +6980,10 @@ movedata MOVE_PSYCHO_CUT
     appeal 0x11
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_PSYCHO_CUT, "The user tears at\nthe foe with blades\nformed by psychic\npower. It has a high\ncritical-hit ratio."
 
 // ACCURACY: 90 >> 100
-movedata MOVE_ZEN_HEADBUTT
+movedata MOVE_ZEN_HEADBUTT, "Zen Headbutt"
     battleeffect 31
     pss SPLIT_PHYSICAL
     basepower 80
@@ -6569,9 +6997,10 @@ movedata MOVE_ZEN_HEADBUTT
     appeal 0x12
     contesttype CONTEST_BEAUTY
     terminatedata
+    movedescription MOVE_ZEN_HEADBUTT, "The user focuses its\nwillpower to its head\nand rams the foe.\nThis has a 20% chance\nto flinch the foe."
 
 // ACCURACY: 85 >> 100
-movedata MOVE_MIRROR_SHOT
+movedata MOVE_MIRROR_SHOT, "Mirror Shot"
     battleeffect 73
     pss SPLIT_SPECIAL
     basepower 65
@@ -6585,8 +7014,9 @@ movedata MOVE_MIRROR_SHOT
     appeal 0x11
     contesttype CONTEST_CUTE
     terminatedata
+    movedescription MOVE_MIRROR_SHOT, "The user looses a\nflash of energy from\nits polished body.\nThis has a 30% chance\nto lower accuracy."
 
-movedata MOVE_FLASH_CANNON
+movedata MOVE_FLASH_CANNON, "Flash Cannon"
     battleeffect 72
     pss SPLIT_SPECIAL
     basepower 80
@@ -6600,10 +7030,11 @@ movedata MOVE_FLASH_CANNON
     appeal 0x11
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_FLASH_CANNON, "The user gathers all\nits light energy and\nreleases it at once.\nThis has a 10% chance\nto lower Sp. Def."
 
 // TYPE: NORMAL >> ROCK
 // ACCURACY: 85 >> 90
-movedata MOVE_ROCK_CLIMB
+movedata MOVE_ROCK_CLIMB, "Rock Climb"
     battleeffect 76
     pss SPLIT_PHYSICAL
     basepower 90
@@ -6617,8 +7048,9 @@ movedata MOVE_ROCK_CLIMB
     appeal 0x12
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_ROCK_CLIMB, "A charging attack\nable to scale rocky\nwalls.\nIt has a 20% chance\nto flinch the foe."
 
-movedata MOVE_DEFOG
+movedata MOVE_DEFOG, "Defog"
     battleeffect 258
     pss SPLIT_STATUS
     basepower 0
@@ -6632,8 +7064,9 @@ movedata MOVE_DEFOG
     appeal 0x0D
     contesttype CONTEST_BEAUTY
     terminatedata
+    movedescription MOVE_DEFOG, "It reduces the foe’s\nevasion stat. It also\nremoves the foe’s\nbarriers and any\ntraps on the field."
 
-movedata MOVE_TRICK_ROOM
+movedata MOVE_TRICK_ROOM, "Trick Room"
     battleeffect 259
     pss SPLIT_STATUS
     basepower 0
@@ -6647,8 +7080,9 @@ movedata MOVE_TRICK_ROOM
     appeal 0x0E
     contesttype CONTEST_CUTE
     terminatedata
+    movedescription MOVE_TRICK_ROOM, "The user creates a\nbizarre area in which\nslower Pokémon get\nto move first for five\nturns."
 
-movedata MOVE_DRACO_METEOR
+movedata MOVE_DRACO_METEOR, "Draco Meteor"
     battleeffect 204
     pss SPLIT_SPECIAL
     basepower 130
@@ -6662,8 +7096,9 @@ movedata MOVE_DRACO_METEOR
     appeal 0x16
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_DRACO_METEOR, "Comets are summoned\ndown from the sky.\nThe attack’s recoil\nsharply reduces the\nuser’s Sp. Atk stat."
 
-movedata MOVE_DISCHARGE
+movedata MOVE_DISCHARGE, "Discharge"
     battleeffect 6
     pss SPLIT_SPECIAL
     basepower 80
@@ -6677,8 +7112,9 @@ movedata MOVE_DISCHARGE
     appeal 0x11
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_DISCHARGE, "A flare of electricity\nis loosed to strike\nall Pokémon in battle.\nThis has a 30% chance\nto paralyze targets."
 
-movedata MOVE_LAVA_PLUME
+movedata MOVE_LAVA_PLUME, "Lava Plume"
     battleeffect 4
     pss SPLIT_SPECIAL
     basepower 80
@@ -6692,8 +7128,9 @@ movedata MOVE_LAVA_PLUME
     appeal 0x11
     contesttype CONTEST_TOUGH
     terminatedata
+    movedescription MOVE_LAVA_PLUME, "An inferno of scarlet\nflames washes over\nall Pokémon in battle.\nThis has a 30% chance\nto burn targets."
 
-movedata MOVE_LEAF_STORM
+movedata MOVE_LEAF_STORM, "Leaf Storm"
     battleeffect 204
     pss SPLIT_SPECIAL
     basepower 130
@@ -6707,8 +7144,9 @@ movedata MOVE_LEAF_STORM
     appeal 0x16
     contesttype CONTEST_CUTE
     terminatedata
+    movedescription MOVE_LEAF_STORM, "A storm of sharp\nleaves is whipped up.\nThe attack’s recoil\nsharply reduces the\nuser’s Sp. Atk stat."
 
-movedata MOVE_POWER_WHIP
+movedata MOVE_POWER_WHIP, "Power Whip"
     battleeffect 0
     pss SPLIT_PHYSICAL
     basepower 120
@@ -6722,8 +7160,9 @@ movedata MOVE_POWER_WHIP
     appeal 0x05
     contesttype CONTEST_BEAUTY
     terminatedata
+    movedescription MOVE_POWER_WHIP, "The user violently\nwhirls its vines or\ntentacles to harshly\nlash the foe.\n"
 
-movedata MOVE_ROCK_WRECKER
+movedata MOVE_ROCK_WRECKER, "Rock Wrecker"
     battleeffect 80
     pss SPLIT_PHYSICAL
     basepower 150
@@ -6737,10 +7176,11 @@ movedata MOVE_ROCK_WRECKER
     appeal 0x16
     contesttype CONTEST_TOUGH
     terminatedata
+    movedescription MOVE_ROCK_WRECKER, "The user launches a\nhuge boulder at the\nfoe to attack.\nIt must rest on the\nnext turn, however."
 
 // POWER: 70 >> 90
 // PP: 20 >> 15
-movedata MOVE_CROSS_POISON
+movedata MOVE_CROSS_POISON, "Cross Poison"
     battleeffect 209
     pss SPLIT_PHYSICAL
     basepower MOVE_CHANGES_IMPLEMENTED ? 90 : 70
@@ -6754,8 +7194,9 @@ movedata MOVE_CROSS_POISON
     appeal 0x05
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_CROSS_POISON, "A slashing attack.\nCritical hits land\nmore easily.\nIt has a 10% chance\nto poison the foe."
 
-movedata MOVE_GUNK_SHOT
+movedata MOVE_GUNK_SHOT, "Gunk Shot"
     battleeffect 2
     pss SPLIT_PHYSICAL
     basepower 120
@@ -6769,8 +7210,9 @@ movedata MOVE_GUNK_SHOT
     appeal 0x05
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_GUNK_SHOT, "The user shoots\nfilthy garbage at the\nfoe to attack.\nThis has a 30% chance\nto poison the foe."
 
-movedata MOVE_IRON_HEAD
+movedata MOVE_IRON_HEAD, "Iron Head"
     battleeffect 31
     pss SPLIT_PHYSICAL
     basepower 80
@@ -6784,8 +7226,9 @@ movedata MOVE_IRON_HEAD
     appeal 0x12
     contesttype CONTEST_TOUGH
     terminatedata
+    movedescription MOVE_IRON_HEAD, "The foe slams the\ntarget with its\nsteel-hard head.\nThis has a 30% chance\nto flinch the foe."
 
-movedata MOVE_MAGNET_BOMB
+movedata MOVE_MAGNET_BOMB, "Magnet Bomb"
     battleeffect 17
     pss SPLIT_PHYSICAL
     basepower 60
@@ -6799,8 +7242,9 @@ movedata MOVE_MAGNET_BOMB
     appeal 0x05
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_MAGNET_BOMB, "The user launches a\nsteel bomb that\nsticks to the target.\nThis attack will not\nmiss."
 
-movedata MOVE_STONE_EDGE
+movedata MOVE_STONE_EDGE, "Stone Edge"
     battleeffect 43
     pss SPLIT_PHYSICAL
     basepower 100
@@ -6814,8 +7258,9 @@ movedata MOVE_STONE_EDGE
     appeal 0x04
     contesttype CONTEST_TOUGH
     terminatedata
+    movedescription MOVE_STONE_EDGE, "The user stabs the\nfoe with a sharpened\nstone. It has a high\ncritical-hit ratio.\n"
 
-movedata MOVE_CAPTIVATE
+movedata MOVE_CAPTIVATE, "Captivate"
     battleeffect 265
     pss SPLIT_STATUS
     basepower 0
@@ -6829,8 +7274,9 @@ movedata MOVE_CAPTIVATE
     appeal 0x13
     contesttype CONTEST_BEAUTY
     terminatedata
+    movedescription MOVE_CAPTIVATE, "If it is the opposite\ngender of the user,\nthe foe is charmed\ninto sharply lowering\nits Sp. Atk stat."
 
-movedata MOVE_STEALTH_ROCK
+movedata MOVE_STEALTH_ROCK, "Stealth Rock"
     battleeffect 266
     pss SPLIT_STATUS
     basepower 0
@@ -6844,8 +7290,9 @@ movedata MOVE_STEALTH_ROCK
     appeal 0x0D
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_STEALTH_ROCK, "The user lays a trap\nof levitating stones\naround the foe. The\ntrap hurts foes that\nswitch into battle."
 
-movedata MOVE_GRASS_KNOT
+movedata MOVE_GRASS_KNOT, "Grass Knot"
     battleeffect 196
     pss SPLIT_SPECIAL
     basepower 1
@@ -6859,11 +7306,12 @@ movedata MOVE_GRASS_KNOT
     appeal 0x04
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_GRASS_KNOT, "The user snares the\nfoe with grass and\ntrips it. The heavier\nthe foe, the greater\nthe damage."
 
 // EFFECT: Updated to always confuse
 // POWER: 65 >> 75
 // PP: 20 >> 15
-movedata MOVE_CHATTER
+movedata MOVE_CHATTER, "Chatter"
     battleeffect 76
     pss SPLIT_SPECIAL
     basepower MOVE_CHANGES_IMPLEMENTED ? 75 : 65
@@ -6877,8 +7325,9 @@ movedata MOVE_CHATTER
     appeal 0x17
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_CHATTER, "The user attacks\nusing a sound wave\nbased on words it has\nlearned. This always\nconfuses the target."
 
-movedata MOVE_JUDGMENT
+movedata MOVE_JUDGMENT, "Judgment"
     battleeffect 268
     pss SPLIT_SPECIAL
     basepower 100
@@ -6892,8 +7341,9 @@ movedata MOVE_JUDGMENT
     appeal 0x0E
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_JUDGMENT, "The user releases\ncountless shots of\nlight. Its type varies\nwith the kind of Plate\nthe user is holding."
 
-movedata MOVE_BUG_BITE
+movedata MOVE_BUG_BITE, "Bug Bite"
     battleeffect 224
     pss SPLIT_PHYSICAL
     basepower 60
@@ -6907,8 +7357,9 @@ movedata MOVE_BUG_BITE
     appeal 0x0C
     contesttype CONTEST_TOUGH
     terminatedata
+    movedescription MOVE_BUG_BITE, "The user bites the\nfoe. If the foe is\nholding a Berry, the\nuser eats it and\ngains its effect."
 
-movedata MOVE_CHARGE_BEAM
+movedata MOVE_CHARGE_BEAM, "Charge Beam"
     battleeffect 276
     pss SPLIT_SPECIAL
     basepower 50
@@ -6922,8 +7373,9 @@ movedata MOVE_CHARGE_BEAM
     appeal 0x11
     contesttype CONTEST_BEAUTY
     terminatedata
+    movedescription MOVE_CHARGE_BEAM, "The user attacks the\nfoe with an electric\ncharge. This has a\n70% chance to raise\nthe user’s Sp. Atk."
 
-movedata MOVE_WOOD_HAMMER
+movedata MOVE_WOOD_HAMMER, "Wood Hammer"
     battleeffect 198
     pss SPLIT_PHYSICAL
     basepower 120
@@ -6937,8 +7389,9 @@ movedata MOVE_WOOD_HAMMER
     appeal 0x12
     contesttype CONTEST_TOUGH
     terminatedata
+    movedescription MOVE_WOOD_HAMMER, "The user slams its\nrugged body into the\nfoe to attack.\nThe user is hurt by\n33% of damage dealt."
 
-movedata MOVE_AQUA_JET
+movedata MOVE_AQUA_JET, "Aqua Jet"
     battleeffect 103
     pss SPLIT_PHYSICAL
     basepower 40
@@ -6952,8 +7405,9 @@ movedata MOVE_AQUA_JET
     appeal 0x01
     contesttype CONTEST_BEAUTY
     terminatedata
+    movedescription MOVE_AQUA_JET, "The user lunges at\nthe foe at a speed\nthat makes it almost\ninvisible. It is sure\nto strike first."
 
-movedata MOVE_ATTACK_ORDER
+movedata MOVE_ATTACK_ORDER, "Attack Order"
     battleeffect 43
     pss SPLIT_PHYSICAL
     basepower 90
@@ -6967,8 +7421,9 @@ movedata MOVE_ATTACK_ORDER
     appeal 0x04
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_ATTACK_ORDER, "The user calls out\nits underlings to\npummel the foe.\nIt has a high\ncritical-hit ratio."
 
-movedata MOVE_DEFEND_ORDER
+movedata MOVE_DEFEND_ORDER, "Defend Order"
     battleeffect 206
     pss SPLIT_STATUS
     basepower 0
@@ -6982,8 +7437,9 @@ movedata MOVE_DEFEND_ORDER
     appeal 0x0B
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_DEFEND_ORDER, "The user calls out\nits underlings to\nshield its body,\nraising its Defense\nand Sp. Def stats."
 
-movedata MOVE_HEAL_ORDER
+movedata MOVE_HEAL_ORDER, "Heal Order"
     battleeffect 32
     pss SPLIT_STATUS
     basepower 0
@@ -6997,8 +7453,9 @@ movedata MOVE_HEAL_ORDER
     appeal 0x08
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_HEAL_ORDER, "The user calls out\nits underlings to heal\nit. The user regains\nup to half of its\nmax HP."
 
-movedata MOVE_HEAD_SMASH
+movedata MOVE_HEAD_SMASH, "Head Smash"
     battleeffect 269
     pss SPLIT_PHYSICAL
     basepower 150
@@ -7012,9 +7469,10 @@ movedata MOVE_HEAD_SMASH
     appeal 0x16
     contesttype CONTEST_TOUGH
     terminatedata
+    movedescription MOVE_HEAD_SMASH, "The user delivers a\nlife-endangering\nattack at full power.\nThe user is hurt by\n50% of damage dealt."
 
 // ACCURACY: 90 >> 100
-movedata MOVE_DOUBLE_HIT
+movedata MOVE_DOUBLE_HIT, "Double Hit"
     battleeffect 44
     pss SPLIT_PHYSICAL
     basepower 35
@@ -7028,8 +7486,9 @@ movedata MOVE_DOUBLE_HIT
     appeal 0x07
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_DOUBLE_HIT, "The user slams the\nfoe with a long tail,\nvines, etc. The\ntarget is hit\ntwice in a row."
 
-movedata MOVE_ROAR_OF_TIME
+movedata MOVE_ROAR_OF_TIME, "Roar of Time"
     battleeffect 80
     pss SPLIT_SPECIAL
     basepower 150
@@ -7043,8 +7502,9 @@ movedata MOVE_ROAR_OF_TIME
     appeal 0x16
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_ROAR_OF_TIME, "The user blasts the\nfoe with power that\ndistorts even time.\nThe user must rest\non the next turn."
 
-movedata MOVE_SPACIAL_REND
+movedata MOVE_SPACIAL_REND, "Spacial Rend"
     battleeffect 43
     pss SPLIT_SPECIAL
     basepower 100
@@ -7058,8 +7518,9 @@ movedata MOVE_SPACIAL_REND
     appeal 0x04
     contesttype CONTEST_TOUGH
     terminatedata
+    movedescription MOVE_SPACIAL_REND, "The user tears the\nfoe along with the\nspace around it.\nThis move has a high\ncritical-hit ratio."
 
-movedata MOVE_LUNAR_DANCE
+movedata MOVE_LUNAR_DANCE, "Lunar Dance"
     battleeffect 270
     pss SPLIT_STATUS
     basepower 0
@@ -7073,8 +7534,9 @@ movedata MOVE_LUNAR_DANCE
     appeal 0x08
     contesttype CONTEST_BEAUTY
     terminatedata
+    movedescription MOVE_LUNAR_DANCE, "The user faints. In\nreturn, the Pokémon\ntaking its place will\nhave its status and\nHP fully restored."
 
-movedata MOVE_CRUSH_GRIP
+movedata MOVE_CRUSH_GRIP, "Crush Grip"
     battleeffect 237
     pss SPLIT_PHYSICAL
     basepower 1
@@ -7088,8 +7550,9 @@ movedata MOVE_CRUSH_GRIP
     appeal 0x0F
     contesttype CONTEST_TOUGH
     terminatedata
+    movedescription MOVE_CRUSH_GRIP, "The foe is crushed\nwith great force.\nThe attack is more\npowerful the more HP\nthe foe has left."
 
-movedata MOVE_MAGMA_STORM
+movedata MOVE_MAGMA_STORM, "Magma Storm"
     battleeffect 42
     pss SPLIT_SPECIAL
     basepower 100
@@ -7103,9 +7566,10 @@ movedata MOVE_MAGMA_STORM
     appeal 0x07
     contesttype CONTEST_TOUGH
     terminatedata
+    movedescription MOVE_MAGMA_STORM, "The foe becomes\ntrapped within a\nmaelstrom of fire\nthat rages for four\nto five turns."
 
 // ACCURACY: 50 >> 80
-movedata MOVE_DARK_VOID
+movedata MOVE_DARK_VOID, "Dark Void"
     battleeffect 1
     pss SPLIT_STATUS
     basepower 0
@@ -7119,8 +7583,9 @@ movedata MOVE_DARK_VOID
     appeal 0x13
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_DARK_VOID, "The foe is dragged\ninto a world of total\ndarkness that puts it\nto sleep.\n"
 
-movedata MOVE_SEED_FLARE
+movedata MOVE_SEED_FLARE, "Seed Flare"
     battleeffect 271
     pss SPLIT_SPECIAL
     basepower 120
@@ -7134,9 +7599,10 @@ movedata MOVE_SEED_FLARE
     appeal 0x16
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_SEED_FLARE, "The user generates\na shock wave from\nwithin its body.\nThis has a 40% chance\nto lower Sp. Def."
 
 // POWER: 60 >> 65
-movedata MOVE_OMINOUS_WIND
+movedata MOVE_OMINOUS_WIND, "Ominous Wind"
     battleeffect 140
     pss SPLIT_SPECIAL
     basepower MOVE_CHANGES_IMPLEMENTED ? 65 : 60
@@ -7150,8 +7616,9 @@ movedata MOVE_OMINOUS_WIND
     appeal 0x0B
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_OMINOUS_WIND, "The user attacks\nwith repulsive wind.\nThis has a 10% chance\nto raise every stat\nat once."
 
-movedata MOVE_SHADOW_FORCE
+movedata MOVE_SHADOW_FORCE, "Shadow Force"
     battleeffect 272
     pss SPLIT_PHYSICAL
     basepower 120
@@ -7165,8 +7632,9 @@ movedata MOVE_SHADOW_FORCE
     appeal 0x16
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_SHADOW_FORCE, "The user disappears,\nthen strikes the foe\non the second turn.\nIt hits even if the\nfoe protects itself."
 
-movedata MOVE_SHADOW_FORCE+1
+movedata MOVE_SHADOW_FORCE+1, "--"
     battleeffect 0
     pss SPLIT_SPECIAL
     basepower 100
@@ -7180,8 +7648,9 @@ movedata MOVE_SHADOW_FORCE+1
     appeal 0x10
     contesttype CONTEST_BEAUTY
     terminatedata
+    movedescription MOVE_SHADOW_FORCE+1, "--"
 
-movedata MOVE_SHADOW_FORCE+2
+movedata MOVE_SHADOW_FORCE+2, "--"
     battleeffect 0
     pss SPLIT_SPECIAL
     basepower 100
@@ -7195,8 +7664,9 @@ movedata MOVE_SHADOW_FORCE+2
     appeal 0x11
     contesttype CONTEST_CUTE
     terminatedata
+    movedescription MOVE_SHADOW_FORCE+2, "--"
 
-movedata MOVE_SHADOW_FORCE+3
+movedata MOVE_SHADOW_FORCE+3, "--"
     battleeffect 0
     pss SPLIT_SPECIAL
     basepower 100
@@ -7210,8 +7680,9 @@ movedata MOVE_SHADOW_FORCE+3
     appeal 0x12
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_SHADOW_FORCE+3, "--"
 
-movedata MOVE_HONE_CLAWS
+movedata MOVE_HONE_CLAWS, "Hone Claws"
     battleeffect 50 // NOTE: This is for AI reasons, it still uses the Hone Claws effect.
     pss SPLIT_STATUS
     basepower 0
@@ -7225,8 +7696,9 @@ movedata MOVE_HONE_CLAWS
     appeal 0x00
     contesttype CONTEST_CUTE
     terminatedata
+    movedescription MOVE_HONE_CLAWS, "The user sharpens\nits claws to boost\nits Attack stat and\naccuracy."
 
-movedata MOVE_PSYSHOCK
+movedata MOVE_PSYSHOCK, "Psyshock"
     battleeffect 293
     pss SPLIT_SPECIAL
     basepower 80
@@ -7240,8 +7712,9 @@ movedata MOVE_PSYSHOCK
     appeal 0x00
     contesttype 0
     terminatedata
+    movedescription MOVE_PSYSHOCK, "The user materializes\nan odd psychic wave\nto attack the foe.\nThis attack does\nphysical damage."
 
-movedata MOVE_VENOSHOCK
+movedata MOVE_VENOSHOCK, "Venoshock"
     battleeffect 280
     pss SPLIT_SPECIAL
     basepower 65
@@ -7255,9 +7728,10 @@ movedata MOVE_VENOSHOCK
     appeal 0x00
     contesttype 0
     terminatedata
+    movedescription MOVE_VENOSHOCK, "The foe is drenched\nwith a poisonous\nliquid. Its power is\ndoubled if the foe\nis poisoned."
 
 // POWER: 60 >> 45 (Due to 2x crit multiplier) - this is not optional
-movedata MOVE_STORM_THROW
+movedata MOVE_STORM_THROW, "Storm Throw"
     battleeffect 282
     pss SPLIT_PHYSICAL
     basepower 45
@@ -7271,8 +7745,9 @@ movedata MOVE_STORM_THROW
     appeal 0x00
     contesttype 0
     terminatedata
+    movedescription MOVE_STORM_THROW, "The user strikes\nthe target with a\nfierce blow.\nThis move is always\na critical hit."
 
-movedata MOVE_SLUDGE_WAVE
+movedata MOVE_SLUDGE_WAVE, "Sludge Wave"
     battleeffect 2
     pss SPLIT_SPECIAL
     basepower 95
@@ -7286,8 +7761,9 @@ movedata MOVE_SLUDGE_WAVE
     appeal 0x00
     contesttype 0
     terminatedata
+    movedescription MOVE_SLUDGE_WAVE, "It swamps the area\naround the user with\na giant sludge wave.\nThis has a 10% chance\nto poison foes."
 
-movedata MOVE_QUIVER_DANCE
+movedata MOVE_QUIVER_DANCE, "Quiver Dance"
     battleeffect 53 // NOTE: This is for AI reasons, it still uses the Quiver Dance effect.
     pss SPLIT_STATUS
     basepower 0
@@ -7301,8 +7777,9 @@ movedata MOVE_QUIVER_DANCE
     appeal 0x00
     contesttype 0
     terminatedata
+    movedescription MOVE_QUIVER_DANCE, "The user performs a\nbeautiful, mystic\ndance. It boosts the\nuser’s Sp. Atk,\nSp. Def, and Speed."
 
-movedata MOVE_HEAVY_SLAM
+movedata MOVE_HEAVY_SLAM, "Heavy Slam"
     battleeffect 302
     pss SPLIT_PHYSICAL
     basepower 1
@@ -7316,8 +7793,9 @@ movedata MOVE_HEAVY_SLAM
     appeal 0x00
     contesttype 0
     terminatedata
+    movedescription MOVE_HEAVY_SLAM, "The user slams into\nthe target. The more\nthe user outweighs\nthe foe, the greater\nthe damage."
 
-movedata MOVE_FLAME_CHARGE
+movedata MOVE_FLAME_CHARGE, "Flame Charge"
     battleeffect 285
     pss SPLIT_PHYSICAL
     basepower 50
@@ -7331,8 +7809,9 @@ movedata MOVE_FLAME_CHARGE
     appeal 0x00
     contesttype 0
     terminatedata
+    movedescription MOVE_FLAME_CHARGE, "The user cloaks\nitself with flame and\nattacks. Building up\npower, it raises the\nuser’s Speed stat."
 
-movedata MOVE_COIL
+movedata MOVE_COIL, "Coil"
     battleeffect 50 // NOTE: This is for AI reasons, it still uses the Coil effect.
     pss SPLIT_STATUS
     basepower 0
@@ -7346,8 +7825,9 @@ movedata MOVE_COIL
     appeal 0x00
     contesttype 0
     terminatedata
+    movedescription MOVE_COIL, "The user coils up and\nconcentrates. This\nraises its Attack and\nDefense stats as well\nas its accuracy."
 
-movedata MOVE_LOW_SWEEP
+movedata MOVE_LOW_SWEEP, "Low Sweep"
     battleeffect 70
     pss SPLIT_PHYSICAL
     basepower 65
@@ -7361,8 +7841,9 @@ movedata MOVE_LOW_SWEEP
     appeal 0x00
     contesttype 0
     terminatedata
+    movedescription MOVE_LOW_SWEEP, "The user attacks the\ntarget’s legs swiftly,\nreducing the target’s\nSpeed stat."
 
-movedata MOVE_ACID_SPRAY
+movedata MOVE_ACID_SPRAY, "Acid Spray"
     battleeffect 271
     pss SPLIT_SPECIAL
     basepower 40
@@ -7376,8 +7857,9 @@ movedata MOVE_ACID_SPRAY
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_ACID_SPRAY, "The user spits out\nfluid that works to\nmelt the target.\nIt harshly lowers the\nfoe’s Sp. Def stat."
 
-movedata MOVE_FOUL_PLAY
+movedata MOVE_FOUL_PLAY, "Foul Play"
     battleeffect 294
     pss SPLIT_PHYSICAL
     basepower 95
@@ -7391,8 +7873,9 @@ movedata MOVE_FOUL_PLAY
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_FOUL_PLAY, "The user turns the\nfoe’s power against\nit. The higher the\nfoe’s Attack, the\ngreater the damage."
 
-movedata MOVE_ECHOED_VOICE
+movedata MOVE_ECHOED_VOICE, "Echoed Voice"
     battleeffect 313
     pss SPLIT_SPECIAL
     basepower 40
@@ -7406,8 +7889,9 @@ movedata MOVE_ECHOED_VOICE
     appeal 0x00
     contesttype 0
     terminatedata
+    movedescription MOVE_ECHOED_VOICE, "The user attacks\nwith an echoing voice.\nIts power increases\nby 40 after each use,\nto a maximum of 120."
 
-movedata MOVE_SCALD
+movedata MOVE_SCALD, "Scald"
     battleeffect 125
     pss SPLIT_SPECIAL
     basepower 80
@@ -7421,8 +7905,9 @@ movedata MOVE_SCALD
     appeal 0x00
     contesttype 0
     terminatedata
+    movedescription MOVE_SCALD, "The user shoots\nboiling hot water\nat the foe.\nThis has a 30% chance\nto burn the foe."
 
-movedata MOVE_SHELL_SMASH
+movedata MOVE_SHELL_SMASH, "Shell Smash"
     battleeffect 53 // NOTE: This is for AI reasons, it still uses the Shell Smash effect.
     pss SPLIT_STATUS
     basepower 0
@@ -7436,8 +7921,9 @@ movedata MOVE_SHELL_SMASH
     appeal 0x00
     contesttype 0
     terminatedata
+    movedescription MOVE_SHELL_SMASH, "User’s shell breaks,\nlowering its Defense\nand Sp. Def but its\nAttack, Sp. Atk, and\nSpeed sharply raise."
 
-movedata MOVE_HEX
+movedata MOVE_HEX, "Hex "
     battleeffect 287
     pss SPLIT_SPECIAL
     basepower 65
@@ -7451,8 +7937,9 @@ movedata MOVE_HEX
     appeal 0x00
     contesttype 0
     terminatedata
+    movedescription MOVE_HEX, "This relentless\nattack does massive\ndamage to a target\naffected by status\nconditions."
 
-movedata MOVE_INCINERATE
+movedata MOVE_INCINERATE, "Incinerate"
     battleeffect 297
     pss SPLIT_SPECIAL
     basepower 60
@@ -7466,8 +7953,9 @@ movedata MOVE_INCINERATE
     appeal 0x00
     contesttype 0
     terminatedata
+    movedescription MOVE_INCINERATE, "The user attacks\nthe foe with fire.\nIf the foe is holding\na Berry, it becomes\nburnt and unusable."
 
-movedata MOVE_ACROBATICS
+movedata MOVE_ACROBATICS, "Acrobatics"
     battleeffect 289
     pss SPLIT_PHYSICAL
     basepower 55
@@ -7481,8 +7969,9 @@ movedata MOVE_ACROBATICS
     appeal 0x00
     contesttype 0
     terminatedata
+    movedescription MOVE_ACROBATICS, "The user nimbly\nstrikes the target.\nThis attack’s damage\nis doubled if the user\nisn’t holding an item."
 
-movedata MOVE_INFERNO
+movedata MOVE_INFERNO, "Inferno"
     battleeffect 4
     pss SPLIT_SPECIAL
     basepower 100
@@ -7496,8 +7985,9 @@ movedata MOVE_INFERNO
     appeal 0x00
     contesttype 0
     terminatedata
+    movedescription MOVE_INFERNO, "The user attacks\nby engulfing the foe\nin an intense fire.\nIt leaves the foe\nwith a burn."
 
-movedata MOVE_VOLT_SWITCH
+movedata MOVE_VOLT_SWITCH, "Volt Switch"
     battleeffect 228
     pss SPLIT_SPECIAL
     basepower 70
@@ -7511,8 +8001,9 @@ movedata MOVE_VOLT_SWITCH
     appeal 0x00
     contesttype 0
     terminatedata
+    movedescription MOVE_VOLT_SWITCH, "After making its\nattack, the user\nrushes back to switch\nplaces with a party\nPokémon in waiting."
 
-movedata MOVE_STRUGGLE_BUG
+movedata MOVE_STRUGGLE_BUG, "Struggle Bug"
     battleeffect 71
     pss SPLIT_SPECIAL
     basepower 50
@@ -7526,8 +8017,9 @@ movedata MOVE_STRUGGLE_BUG
     appeal 0x00
     contesttype 0
     terminatedata
+    movedescription MOVE_STRUGGLE_BUG, "While resisting, the\nuser attacks the\nopposing Pokémon.\nThis lowers their\nSp. Atk stats."
 
-movedata MOVE_BULLDOZE
+movedata MOVE_BULLDOZE, "Bulldoze"
     battleeffect 70
     pss SPLIT_PHYSICAL
     basepower 60
@@ -7541,9 +8033,10 @@ movedata MOVE_BULLDOZE
     appeal 0x00
     contesttype 0
     terminatedata
+    movedescription MOVE_BULLDOZE, "The user stomps on\nthe ground, striking\neverything around it.\nThis lowers the Speed\nstat of those hit."
 
 // POWER: 60 >> 45 (Due to 2x crit multiplier) - this is not optional
-movedata MOVE_FROST_BREATH
+movedata MOVE_FROST_BREATH, "Frost Breath"
     battleeffect 282
     pss SPLIT_SPECIAL
     basepower 45
@@ -7557,8 +8050,9 @@ movedata MOVE_FROST_BREATH
     appeal 0x00
     contesttype 0
     terminatedata
+    movedescription MOVE_FROST_BREATH, "The user blows a\ncold breath on the\ntarget. This move will\nalways land a critical\nhit."
 
-movedata MOVE_DRAGON_TAIL
+movedata MOVE_DRAGON_TAIL, "Dragon Tail"
     battleeffect 300
     pss SPLIT_PHYSICAL
     basepower 60
@@ -7572,8 +8066,9 @@ movedata MOVE_DRAGON_TAIL
     appeal 0x00
     contesttype 0
     terminatedata
+    movedescription MOVE_DRAGON_TAIL, "The foe is knocked\naway and replaced by\nanother Pokémon\nin its party. In the\nwild, the battle ends."
 
-movedata MOVE_WORK_UP
+movedata MOVE_WORK_UP, "Work Up"
     battleeffect 53 // NOTE: This is for AI reasons, it still uses the Work Up effect.
     pss SPLIT_STATUS
     basepower 0
@@ -7587,8 +8082,9 @@ movedata MOVE_WORK_UP
     appeal 0x00
     contesttype 0
     terminatedata
+    movedescription MOVE_WORK_UP, "The user is roused,\nand its Attack and\nSp. Atk stats\nincrease."
 
-movedata MOVE_ELECTROWEB
+movedata MOVE_ELECTROWEB, "Electroweb"
     battleeffect 70
     pss SPLIT_SPECIAL
     basepower 55
@@ -7602,9 +8098,10 @@ movedata MOVE_ELECTROWEB
     appeal 0x00
     contesttype 0
     terminatedata
+    movedescription MOVE_ELECTROWEB, "The foe is captured\nin an electric net\nand takes damage.\nThis reduces the\nfoe’s Speed stat."
 
 // POWER: 90 >> 95
-movedata MOVE_WILD_CHARGE
+movedata MOVE_WILD_CHARGE, "Wild Charge"
     battleeffect 48
     pss SPLIT_PHYSICAL
     basepower MOVE_CHANGES_IMPLEMENTED ? 95 : 90
@@ -7618,9 +8115,10 @@ movedata MOVE_WILD_CHARGE
     appeal 0x00
     contesttype 0
     terminatedata
+    movedescription MOVE_WILD_CHARGE, "The user is shrouded\nin electricity and\nsmashes into the foe.\nThe user is hurt by\n25% of damage dealt."
 
 // ACCURACY: 95 >> 100
-movedata MOVE_DRILL_RUN
+movedata MOVE_DRILL_RUN, "Drill Run"
     battleeffect 43
     pss SPLIT_PHYSICAL
     basepower 80
@@ -7634,9 +8132,10 @@ movedata MOVE_DRILL_RUN
     appeal 0x00
     contesttype 0
     terminatedata
+    movedescription MOVE_DRILL_RUN, "The user crashes into\nits foe, rotating its\nbody like a drill.\nIt has a high\ncritical-hit ratio."
 
 // ACCURACY: 90 >> 100
-movedata MOVE_DUAL_CHOP
+movedata MOVE_DUAL_CHOP, "Dual Chop"
     battleeffect 44
     pss SPLIT_PHYSICAL
     basepower 40
@@ -7650,8 +8149,9 @@ movedata MOVE_DUAL_CHOP
     appeal 0x00
     contesttype 0
     terminatedata
+    movedescription MOVE_DUAL_CHOP, "The user attacks its\ntarget by hitting it\nwith brutal strikes.\nThe target is hit\ntwice in a row."
 
-movedata MOVE_SACRED_SWORD
+movedata MOVE_SACRED_SWORD, "Sacred Sword"
     battleeffect 295
     pss SPLIT_PHYSICAL
     basepower 90
@@ -7665,9 +8165,10 @@ movedata MOVE_SACRED_SWORD
     appeal 0x00
     contesttype 0
     terminatedata
+    movedescription MOVE_SACRED_SWORD, "The user attacks by\nslicing with a sword.\nThe target’s stat\nchanges do not affect\nthis move’s damage."
 
 // ACCURACY: 95 >> 100
-movedata MOVE_RAZOR_SHELL
+movedata MOVE_RAZOR_SHELL, "Razor Shell"
     battleeffect 69
     pss SPLIT_PHYSICAL
     basepower 75
@@ -7681,9 +8182,10 @@ movedata MOVE_RAZOR_SHELL
     appeal 0x00
     contesttype 0
     terminatedata
+    movedescription MOVE_RAZOR_SHELL, "The user cuts its foe\nwith sharp shells.\nIt has a 50% chance\nto lower the foe’s\nDefense stat."
 
 // EFFECT: Gives +2 Defense instead of +3. Not sure how to do drastic raise + might be a bit unbalanced.
-movedata MOVE_COTTON_GUARD
+movedata MOVE_COTTON_GUARD, "Cotton Guard"
     battleeffect 51
     pss SPLIT_STATUS
     basepower 0
@@ -7698,9 +8200,10 @@ movedata MOVE_COTTON_GUARD
     appeal 0x00
     contesttype 0
     terminatedata
+    movedescription MOVE_COTTON_GUARD, "The user protects\nitself by wrapping\nits body in cotton,\nsharply raising\nthe user’s Defense."
 
 // ACCURACY: 85 >> 100
-movedata MOVE_TAIL_SLAP
+movedata MOVE_TAIL_SLAP, "Tail Slap"
     battleeffect 29
     pss SPLIT_PHYSICAL
     basepower 25
@@ -7714,8 +8217,9 @@ movedata MOVE_TAIL_SLAP
     appeal 0x00
     contesttype 0
     terminatedata
+    movedescription MOVE_TAIL_SLAP, "The user attacks\nby striking the foe\nwith its hard tail,\ntwo to five times\nin a row."
 
-movedata MOVE_HURRICANE
+movedata MOVE_HURRICANE, "Hurricane"
     battleeffect 152 // Note: This is modified to use confusion for Hurricane instead
     pss SPLIT_SPECIAL
     basepower 110
@@ -7729,8 +8233,9 @@ movedata MOVE_HURRICANE
     appeal 0x00
     contesttype 0
     terminatedata
+    movedescription MOVE_HURRICANE, "The user attacks by\nwrapping its opponent\nin a fierce wind.\nThis has a 30% chance\nto confuse the foe."
 
-movedata MOVE_SNARL
+movedata MOVE_SNARL, "Snarl"
     battleeffect 71
     pss SPLIT_SPECIAL
     basepower 55
@@ -7744,8 +8249,9 @@ movedata MOVE_SNARL
     appeal 0x00
     contesttype 0
     terminatedata
+    movedescription MOVE_SNARL, "The user yells as if\nit is ranting about\nsomething, making the\ntarget’s Sp. Atk stat\ndecrease."
 
-movedata MOVE_ICICLE_CRASH
+movedata MOVE_ICICLE_CRASH, "Icicle Crash"
     battleeffect 31
     pss SPLIT_PHYSICAL
     basepower 85
@@ -7759,8 +8265,9 @@ movedata MOVE_ICICLE_CRASH
     appeal 0x00
     contesttype 0
     terminatedata
+    movedescription MOVE_ICICLE_CRASH, "The user attacks by\nharshly dropping\nicicles onto the foe.\nThis has a 30% chance\nto flinch the foe."
 
-movedata MOVE_PHANTOM_FORCE
+movedata MOVE_PHANTOM_FORCE, "Phantom Force"
     battleeffect 272
     pss SPLIT_PHYSICAL
     basepower 90
@@ -7774,8 +8281,9 @@ movedata MOVE_PHANTOM_FORCE
     appeal 0x00
     contesttype 0
     terminatedata
+    movedescription MOVE_PHANTOM_FORCE, "The user vanishes,\nthen strikes the foe\non the second turn.\nIt hits even if the\nfoe protects itself."
 
-movedata MOVE_NOBLE_ROAR
+movedata MOVE_NOBLE_ROAR, "Noble Roar"
     battleeffect 58 // NOTE: For AI purposes, still uses intended effect
     pss SPLIT_STATUS
     basepower 0
@@ -7789,8 +8297,9 @@ movedata MOVE_NOBLE_ROAR
     appeal 0x00
     contesttype 0
     terminatedata
+    movedescription MOVE_NOBLE_ROAR, "Letting out a roar,\nthe user intimidates\nthe target and lowers\nboth its Attack and\nSp. Atk stats."
 
-movedata MOVE_PETAL_BLIZZARD
+movedata MOVE_PETAL_BLIZZARD, "Petal Blizzard"
     battleeffect 0
     pss SPLIT_PHYSICAL
     basepower 90
@@ -7804,10 +8313,11 @@ movedata MOVE_PETAL_BLIZZARD
     appeal 0x00
     contesttype 0
     terminatedata
+    movedescription MOVE_PETAL_BLIZZARD, "The user stirs up a\nfierce petal blizzard,\nattacking everything\naround it."
 
 // EFFECT: Just quadruples damage against Water-types instead of being SE due to technical limits
 // This is not an exact replica but should be the same damage
-movedata MOVE_FREEZE_DRY
+movedata MOVE_FREEZE_DRY, "Freeze-Dry"
     battleeffect 299
     pss SPLIT_SPECIAL
     basepower 70
@@ -7821,8 +8331,9 @@ movedata MOVE_FREEZE_DRY
     appeal 0x00
     contesttype 0
     terminatedata
+    movedescription MOVE_FREEZE_DRY, "Foe is rapidly cooled.\nThis has a 30% chance\nto freeze the foe.\nWater types take four\ntimes as much damage."
 
-movedata MOVE_DISARMING_VOICE
+movedata MOVE_DISARMING_VOICE, "Disarming Voice"
     battleeffect 17
     pss SPLIT_SPECIAL
     basepower 40
@@ -7836,10 +8347,11 @@ movedata MOVE_DISARMING_VOICE
     appeal 0x00
     contesttype 0
     terminatedata
+    movedescription MOVE_DISARMING_VOICE, "With a charming cry,\nthe user does\nemotional damage.\nThis attack never\nmisses."
 
 // EFFECT: 50% HP drain instead of 75%
 // POWER: 50 >> 65
-movedata MOVE_DRAINING_KISS
+movedata MOVE_DRAINING_KISS, "Draining Kiss"
     battleeffect 3 // NOTE: 50% drain instead
     pss SPLIT_SPECIAL
     basepower MOVE_CHANGES_IMPLEMENTED ? 65 : 50
@@ -7853,9 +8365,10 @@ movedata MOVE_DRAINING_KISS
     appeal 0x00
     contesttype 0
     terminatedata
+    movedescription MOVE_DRAINING_KISS, "The user steals the\nfoe’s energy with a\nkiss. The user’s HP\nis restored by half\nthe damage dealt."
 
 // ACCURACY: 90 >> 100
-movedata MOVE_PLAY_ROUGH
+movedata MOVE_PLAY_ROUGH, "Play Rough"
     battleeffect 68
     pss SPLIT_PHYSICAL
     basepower 90
@@ -7869,8 +8382,9 @@ movedata MOVE_PLAY_ROUGH
     appeal 0x00
     contesttype 0
     terminatedata
+    movedescription MOVE_PLAY_ROUGH, "The user plays rough\nwith the target and\nattacks it.\nThis has a 10% chance\nto lower Attack."
 
-movedata MOVE_FAIRY_WIND
+movedata MOVE_FAIRY_WIND, "Fairy Wind"
     battleeffect 0
     pss SPLIT_SPECIAL
     basepower 40
@@ -7884,8 +8398,9 @@ movedata MOVE_FAIRY_WIND
     appeal 0x00
     contesttype 0
     terminatedata
+    movedescription MOVE_FAIRY_WIND, "The user stirs up a\nfairy wind and hits\nthe target with it."
 
-movedata MOVE_MOONBLAST
+movedata MOVE_MOONBLAST, "Moonblast"
     battleeffect 71
     pss SPLIT_SPECIAL
     basepower 95
@@ -7899,8 +8414,9 @@ movedata MOVE_MOONBLAST
     appeal 0x00
     contesttype 0
     terminatedata
+    movedescription MOVE_MOONBLAST, "The user attacks the\nfoe with the power of\nthe moon.\nThis has a 30% chance\nto lower Sp. Atk."
     
-movedata MOVE_BOOMBURST
+movedata MOVE_BOOMBURST, "Boomburst"
     battleeffect 0
     pss SPLIT_SPECIAL
     basepower 140
@@ -7914,8 +8430,9 @@ movedata MOVE_BOOMBURST
     appeal 0x00
     contesttype 0
     terminatedata
+    movedescription MOVE_BOOMBURST, "The user attacks\neverything around it\nwith the destructive\npower of a terrible,\nexplosive sound."
 
-movedata MOVE_MYSTICAL_FIRE
+movedata MOVE_MYSTICAL_FIRE, "Mystical Fire"
     battleeffect 71
     pss SPLIT_SPECIAL
     basepower 75
@@ -7929,8 +8446,9 @@ movedata MOVE_MYSTICAL_FIRE
     appeal 0x00
     contesttype 0
     terminatedata
+    movedescription MOVE_MYSTICAL_FIRE, "The user attacks by\nbreathing a special,\nhot fire. This also\nlowers the target’s\nSp. Atk stat."
 
-movedata MOVE_EERIE_IMPULSE
+movedata MOVE_EERIE_IMPULSE, "Eerie Impulse"
     battleeffect 61
     pss SPLIT_STATUS
     basepower 0
@@ -7944,8 +8462,9 @@ movedata MOVE_EERIE_IMPULSE
     appeal 0x00
     contesttype 0
     terminatedata
+    movedescription MOVE_EERIE_IMPULSE, "The user generates\nan eerie impulse.\nExposing the foe to\nit harshly lowers the\nfoe’s Sp. Atk stat."
 
-movedata MOVE_DAZZLING_GLEAM
+movedata MOVE_DAZZLING_GLEAM, "Dazzling Gleam"
     battleeffect 0
     pss SPLIT_SPECIAL
     basepower 80
@@ -7959,8 +8478,9 @@ movedata MOVE_DAZZLING_GLEAM
     appeal 0x00
     contesttype 0
     terminatedata
+    movedescription MOVE_DAZZLING_GLEAM, "The user damages\nopposing Pokémon by\nemitting a powerful\nflash."
 
-movedata MOVE_BABY_DOLL_EYES
+movedata MOVE_BABY_DOLL_EYES, "Baby-Doll Eyes"
     battleeffect 18
     pss SPLIT_STATUS
     basepower 0
@@ -7974,8 +8494,9 @@ movedata MOVE_BABY_DOLL_EYES
     appeal 0x00
     contesttype 0
     terminatedata
+    movedescription MOVE_BABY_DOLL_EYES, "The user stares\nadorably at the foe,\nreducing its Attack.\nThis move always goes\nfirst."
 
-movedata MOVE_NUZZLE
+movedata MOVE_NUZZLE, "Nuzzle"
     battleeffect 6
     pss SPLIT_PHYSICAL
     basepower 20
@@ -7989,8 +8510,9 @@ movedata MOVE_NUZZLE
     appeal 0x00
     contesttype 0
     terminatedata
+    movedescription MOVE_NUZZLE, "The user attacks by\nnuzzling electrified\ncheeks against the\ntarget. This leaves\nthe target paralyzed."
 
-movedata MOVE_POWER_UP_PUNCH
+movedata MOVE_POWER_UP_PUNCH, "Power-Up Punch"
     battleeffect 139
     pss SPLIT_PHYSICAL
     basepower 40
@@ -8004,8 +8526,9 @@ movedata MOVE_POWER_UP_PUNCH
     appeal 0x00
     contesttype 0
     terminatedata
+    movedescription MOVE_POWER_UP_PUNCH, "Striking opponents\nrepeatedly makes the\nuser’s fists harder.\nThis also raises the\nuser’s Attack stat."
 
-movedata MOVE_FIRST_IMPRESSION
+movedata MOVE_FIRST_IMPRESSION, "F. Impression"
     battleeffect 158
     pss SPLIT_PHYSICAL
     basepower 90
@@ -8019,9 +8542,10 @@ movedata MOVE_FIRST_IMPRESSION
     appeal 0x00
     contesttype 0
     terminatedata
+    movedescription MOVE_FIRST_IMPRESSION, "Although this move\nhas great power, it\nonly works the first\nturn each time the\nuser enters battle."
 
 // ACCURACY: 95 >> 100
-movedata MOVE_HIGH_HORSEPOWER
+movedata MOVE_HIGH_HORSEPOWER, "High Horsepower"
     battleeffect 0
     pss SPLIT_PHYSICAL
     basepower 95
@@ -8035,8 +8559,9 @@ movedata MOVE_HIGH_HORSEPOWER
     appeal 0x00
     contesttype 0
     terminatedata
+    movedescription MOVE_HIGH_HORSEPOWER, "The user fiercely\nattacks the target\nwith its entire body."
 
-movedata MOVE_SOLAR_BLADE
+movedata MOVE_SOLAR_BLADE, "Solar Blade"
     battleeffect 151
     pss SPLIT_PHYSICAL
     basepower 125
@@ -8050,8 +8575,9 @@ movedata MOVE_SOLAR_BLADE
     appeal 0x00
     contesttype 0
     terminatedata
+    movedescription MOVE_SOLAR_BLADE, "A two-turn attack.\nThe user gathers\nlight and attacks\nwith a blade filled\nwith light energy."
 
-movedata MOVE_LEAFAGE
+movedata MOVE_LEAFAGE, "Leafage"
     battleeffect 0
     pss SPLIT_PHYSICAL
     basepower 40
@@ -8065,8 +8591,9 @@ movedata MOVE_LEAFAGE
     appeal 0x00
     contesttype 0
     terminatedata
+    movedescription MOVE_LEAFAGE, "The user attacks\nby pelting the foe\nwith leaves."
 
-movedata MOVE_POLLEN_PUFF
+movedata MOVE_POLLEN_PUFF, "Pollen Puff"
     battleeffect 70 // NOTE: Lowers Speed in lieu of ally healing effect
     pss SPLIT_SPECIAL
     basepower 90
@@ -8080,8 +8607,9 @@ movedata MOVE_POLLEN_PUFF
     appeal 0x00
     contesttype 0
     terminatedata
+    movedescription MOVE_POLLEN_PUFF, "The user attacks the\nfoe with a pollen\npuff that explodes.\nThis has a 30% chance\nto lower Speed."
 
-movedata MOVE_LUNGE
+movedata MOVE_LUNGE, "Lunge"
     battleeffect 68
     pss SPLIT_PHYSICAL
     basepower 80
@@ -8095,8 +8623,9 @@ movedata MOVE_LUNGE
     appeal 0x00
     contesttype 0
     terminatedata
+    movedescription MOVE_LUNGE, "The user lunges at\nthe foe, attacking\nwith full force.\nThis lowers the foe’s\nAttack stat."
 
-movedata MOVE_SMART_STRIKE
+movedata MOVE_SMART_STRIKE, "Smart Strike"
     battleeffect 17
     pss SPLIT_PHYSICAL
     basepower 70
@@ -8110,8 +8639,9 @@ movedata MOVE_SMART_STRIKE
     appeal 0x00
     contesttype 0
     terminatedata
+    movedescription MOVE_SMART_STRIKE, "The user stabs the\nfoe with a sharp horn.\nThis attack never\nmisses."
 
-movedata MOVE_BRUTAL_SWING
+movedata MOVE_BRUTAL_SWING, "Brutal Swing"
     battleeffect 0
     pss SPLIT_PHYSICAL
     basepower 60
@@ -8125,10 +8655,11 @@ movedata MOVE_BRUTAL_SWING
     appeal 0x00
     contesttype 0
     terminatedata
+    movedescription MOVE_BRUTAL_SWING, "The user swings its\nbody around violently\nto inflict damage on\neverything in its\nvicinity."
 
 // EFFECT: This sets up Reflect and Light Screen separately rather than its own thing
 // Very similar effect but not an exact replica
-movedata MOVE_AURORA_VEIL
+movedata MOVE_AURORA_VEIL, "Aurora Veil"
     battleeffect 65 // Reflect eff_seq for AI but it changes effect for Aurora Veil
     pss SPLIT_STATUS
     basepower 0
@@ -8142,8 +8673,9 @@ movedata MOVE_AURORA_VEIL
     appeal 0x00
     contesttype 0
     terminatedata
+    movedescription MOVE_AURORA_VEIL, "This move reduces\ndamage from all moves\nfor five turns.\nThis can be used\nonly in a hailstorm."
 
-movedata MOVE_PSYCHIC_FANGS
+movedata MOVE_PSYCHIC_FANGS, "Psychic Fangs"
     battleeffect 186
     pss SPLIT_PHYSICAL
     basepower 85
@@ -8157,8 +8689,9 @@ movedata MOVE_PSYCHIC_FANGS
     appeal 0x00
     contesttype 0
     terminatedata
+    movedescription MOVE_PSYCHIC_FANGS, "The user bites the\ntarget with its\npsychic capabilities.\nThis destroys Reflect\nand Light Screen."
 
-movedata MOVE_LIQUIDATION
+movedata MOVE_LIQUIDATION, "Liquidation"
     battleeffect 69
     pss SPLIT_PHYSICAL
     basepower 85
@@ -8172,8 +8705,9 @@ movedata MOVE_LIQUIDATION
     appeal 0x00
     contesttype 0
     terminatedata
+    movedescription MOVE_LIQUIDATION, "The user slams into\nthe foe using a full\nforce blast of water.\nThis has a 20% chance\nto lower Defense."
 
-movedata MOVE_BODY_PRESS
+movedata MOVE_BODY_PRESS, "Body Press"
     battleeffect 296
     pss SPLIT_PHYSICAL
     basepower 80
@@ -8187,8 +8721,9 @@ movedata MOVE_BODY_PRESS
     appeal 0x00
     contesttype 0
     terminatedata
+    movedescription MOVE_BODY_PRESS, "The user slams its\nbody into the foe.\nThe higher the user’s\ndefense, the higher\nthe damage dealt."
 
-movedata MOVE_BREAKING_SWIPE
+movedata MOVE_BREAKING_SWIPE, "Breaking Swipe"
     battleeffect 68
     pss SPLIT_PHYSICAL
     basepower 60
@@ -8202,8 +8737,9 @@ movedata MOVE_BREAKING_SWIPE
     appeal 0x00
     contesttype 0
     terminatedata
+    movedescription MOVE_BREAKING_SWIPE, "The user swings its\ntough tail wildly\nand attacks the foe.\nThis also lowers the\nfoe’s Attack stat."
 
-movedata MOVE_SPIRIT_BREAK
+movedata MOVE_SPIRIT_BREAK, "Spirit Break"
     battleeffect 71
     pss SPLIT_PHYSICAL
     basepower 75
@@ -8217,8 +8753,9 @@ movedata MOVE_SPIRIT_BREAK
     appeal 0x00
     contesttype 0
     terminatedata
+    movedescription MOVE_SPIRIT_BREAK, "The user attacks with\nenough force to harm\nthe foe’s spirit.\nThis lowers the foe’s\nSp. Atk stat."
 
-movedata MOVE_STEEL_BEAM
+movedata MOVE_STEEL_BEAM, "Steel Beam"
     battleeffect 304
     pss SPLIT_SPECIAL
     basepower 140
@@ -8232,10 +8769,11 @@ movedata MOVE_STEEL_BEAM
     appeal 0x00
     contesttype 0
     terminatedata
+    movedescription MOVE_STEEL_BEAM, "The user fires a\nbeam, using steel\ntaken from itself.\nThis also damages\nthe user."
 
 // EFFECT: The stat change happens after the first hit instead of the last.
 // Its a bit janky but seems to be the best I can manage for now. Same effect though.
-movedata MOVE_SCALE_SHOT
+movedata MOVE_SCALE_SHOT, "Scale Shot"
     battleeffect 301
     pss SPLIT_PHYSICAL
     basepower 25
@@ -8249,11 +8787,12 @@ movedata MOVE_SCALE_SHOT
     appeal 0x00
     contesttype 0
     terminatedata
+    movedescription MOVE_SCALE_SHOT, "Shoots scales two to\nfive times in a row.\nThis move boosts the\nuser’s Speed but\nlowers its Defense."
 
 // EFFECT: Now a one-turn move with a 20% chance to increase Sp. Atk
 // POWER: 120 >> 110 - this is not optional
 // ACCURACY: 90 >> 80 - this is not optional
-movedata MOVE_METEOR_BEAM
+movedata MOVE_METEOR_BEAM, "Meteor Beam"
     battleeffect 276 // NOTE: Opted for 20% SpAtk increase over the two-turn
     pss SPLIT_SPECIAL
     basepower 110
@@ -8267,9 +8806,10 @@ movedata MOVE_METEOR_BEAM
     appeal 0x00
     contesttype 0
     terminatedata
+    movedescription MOVE_METEOR_BEAM, "The user gathers\nspace power and\nattacks the target.\nThis has a 20% chance\nto raise Sp. Atk."
 
 // ACCURACY: 90 >> 100
-movedata MOVE_SKITTER_SMACK
+movedata MOVE_SKITTER_SMACK, "Skitter Smack"
     battleeffect 71
     pss SPLIT_PHYSICAL
     basepower 70
@@ -8283,8 +8823,9 @@ movedata MOVE_SKITTER_SMACK
     appeal 0x00
     contesttype 0
     terminatedata
+    movedescription MOVE_SKITTER_SMACK, "The user skitters\nbehind the foe\nto attack.\nThis also lowers the\nfoe’s Sp. Atk stat."
 
-movedata MOVE_FLIP_TURN
+movedata MOVE_FLIP_TURN, "Flip Turn"
     battleeffect 228
     pss SPLIT_PHYSICAL
     basepower 60
@@ -8298,8 +8839,9 @@ movedata MOVE_FLIP_TURN
     appeal 0x00
     contesttype 0
     terminatedata
+    movedescription MOVE_FLIP_TURN, "After making its\nattack, the user\nrushes back to switch\nplaces with a party\nPokémon in waiting."
 
-movedata MOVE_TRIPLE_AXEL
+movedata MOVE_TRIPLE_AXEL, "Triple Axel"
     battleeffect 307
     pss SPLIT_PHYSICAL
     basepower 20
@@ -8313,9 +8855,10 @@ movedata MOVE_TRIPLE_AXEL
     appeal 0x00
     contesttype 0
     terminatedata
+    movedescription MOVE_TRIPLE_AXEL, "A consecutive three-\nkick attack that\nbecomes more\npowerful with each\nsuccessive hit."
 
 // ACCURACY: 90 >> 100
-movedata MOVE_DUAL_WINGBEAT
+movedata MOVE_DUAL_WINGBEAT, "Dual Wingbeat"
     battleeffect 44
     pss SPLIT_PHYSICAL
     basepower 40
@@ -8329,8 +8872,9 @@ movedata MOVE_DUAL_WINGBEAT
     appeal 0x00
     contesttype 0
     terminatedata
+    movedescription MOVE_DUAL_WINGBEAT, "The user slams the\nfoe with its wings.\nThe target is hit\ntwice in a row."
 
-movedata MOVE_SCORCHING_SANDS
+movedata MOVE_SCORCHING_SANDS, "Scorching Sands"
     battleeffect 125
     pss SPLIT_PHYSICAL
     basepower 70
@@ -8344,8 +8888,9 @@ movedata MOVE_SCORCHING_SANDS
     appeal 0x00
     contesttype 0
     terminatedata
+    movedescription MOVE_SCORCHING_SANDS, "The user throws\nscorching sand at the\ntarget to attack.\nIt has a 30% chance\nto burn the foe."
 
-movedata MOVE_PSYSHIELD_BASH
+movedata MOVE_PSYSHIELD_BASH, "Psyshield Bash"
     battleeffect 138
     pss SPLIT_PHYSICAL
     basepower 70
@@ -8359,8 +8904,9 @@ movedata MOVE_PSYSHIELD_BASH
     appeal 0x00
     contesttype 0
     terminatedata
+    movedescription MOVE_PSYSHIELD_BASH, "Cloaked in psychic\nenergy, the user\nslams into the foe.\nThis boosts the\nuser’s Defense stat."
 
-movedata MOVE_STONE_AXE
+movedata MOVE_STONE_AXE, "Stone Axe"
     battleeffect 305
     pss SPLIT_PHYSICAL
     basepower 65
@@ -8374,8 +8920,9 @@ movedata MOVE_STONE_AXE
     appeal 0x00
     contesttype 0
     terminatedata
+    movedescription MOVE_STONE_AXE, "The user swings its\nstone axes to attack.\nStone splinters left\nbehind will float\naround the foe."
     
-movedata MOVE_RAGING_FURY
+movedata MOVE_RAGING_FURY, "Raging Fury"
     battleeffect 27
     pss SPLIT_PHYSICAL
     basepower 120
@@ -8389,8 +8936,9 @@ movedata MOVE_RAGING_FURY
     appeal 0x00
     contesttype 0
     terminatedata
+    movedescription MOVE_RAGING_FURY, "The user rampages,\nspewing flames for\ntwo to three turns,\nbut then becomes\nconfused."
 
-movedata MOVE_WAVE_CRASH
+movedata MOVE_WAVE_CRASH, "Wave Crash"
     battleeffect 198
     pss SPLIT_PHYSICAL
     basepower 120
@@ -8404,8 +8952,9 @@ movedata MOVE_WAVE_CRASH
     appeal 0x00
     contesttype 0
     terminatedata
+    movedescription MOVE_WAVE_CRASH, "The user is shrouded\nin water and slams\ninto the target.\nThe user is hurt by\n33% of damage dealt."
 
-movedata MOVE_HEADLONG_RUSH
+movedata MOVE_HEADLONG_RUSH, "Headlong Rush"
     battleeffect 229
     pss SPLIT_PHYSICAL
     basepower 120
@@ -8419,8 +8968,9 @@ movedata MOVE_HEADLONG_RUSH
     appeal 0x00
     contesttype 0
     terminatedata
+    movedescription MOVE_HEADLONG_RUSH, "The user smashes into\nthe target in a\nfull-body tackle. It\nalso cuts the user’s\nDefense and Sp. Def."
 
-movedata MOVE_BARB_BARRAGE
+movedata MOVE_BARB_BARRAGE, "Barb Barrage"
     battleeffect 306
     pss SPLIT_PHYSICAL
     basepower 60
@@ -8434,8 +8984,9 @@ movedata MOVE_BARB_BARRAGE
     appeal 0x00
     contesttype 0
     terminatedata
+    movedescription MOVE_BARB_BARRAGE, "Toxic barbs are fired\nat the foe. This has a\n50% chance to poison.\nPower is doubled if\nthe foe is poisoned."
 
-movedata MOVE_ESPER_WING
+movedata MOVE_ESPER_WING, "Esper Wing"
     battleeffect 308
     pss SPLIT_SPECIAL
     basepower 80
@@ -8449,8 +9000,9 @@ movedata MOVE_ESPER_WING
     appeal 0x00
     contesttype 0
     terminatedata
+    movedescription MOVE_ESPER_WING, "Slashes the foe with\naura-enriched wings.\nCritical hits land\nmore easily. Raises\nthe user’s Speed."
 
-movedata MOVE_ICE_SPINNER
+movedata MOVE_ICE_SPINNER, "Ice Spinner"
     battleeffect 0 // NOTE: Terrain doesnt exist
     pss SPLIT_PHYSICAL
     basepower 80
@@ -8464,8 +9016,9 @@ movedata MOVE_ICE_SPINNER
     appeal 0x00
     contesttype 0
     terminatedata
+    movedescription MOVE_ICE_SPINNER, "The user covers\nits feet in ice\nand twirls around,\nslamming into the\ntarget."
 
-movedata MOVE_RAGING_BULL
+movedata MOVE_RAGING_BULL, "Raging Bull"
     battleeffect 186 // NOTE: Doesnt include type change but no Paldean Tauros to use
     pss SPLIT_PHYSICAL
     basepower 90
@@ -8479,8 +9032,9 @@ movedata MOVE_RAGING_BULL
     appeal 0x00
     contesttype 0
     terminatedata
+    movedescription MOVE_RAGING_BULL, "The user performs\na tackle like a\nraging bull.\nThis destroys Reflect\nand Light Screen."
 
-movedata MOVE_TRAILBLAZE
+movedata MOVE_TRAILBLAZE, "Trailblaze"
     battleeffect 285
     pss SPLIT_PHYSICAL
     basepower 50
@@ -8494,8 +9048,9 @@ movedata MOVE_TRAILBLAZE
     appeal 0x00
     contesttype 0
     terminatedata
+    movedescription MOVE_TRAILBLAZE, "The user suddenly\nattacks, as if leaping\nout from grass.\nThis raises the\nuser’s Speed stat."
 
-movedata MOVE_CHILLING_WATER
+movedata MOVE_CHILLING_WATER, "Chilling Water"
     battleeffect 68
     pss SPLIT_SPECIAL
     basepower 50
@@ -8509,8 +9064,9 @@ movedata MOVE_CHILLING_WATER
     appeal 0x00
     contesttype 0
     terminatedata
+    movedescription MOVE_CHILLING_WATER, "The user attacks\nthe foe with very\ncold water.\nThis lowers the foe’s\nAttack stat."
 
-movedata MOVE_HYPER_DRILL
+movedata MOVE_HYPER_DRILL, "Hyper Drill"
     battleeffect 0
     pss SPLIT_PHYSICAL
     basepower 100
@@ -8524,9 +9080,10 @@ movedata MOVE_HYPER_DRILL
     appeal 0x00
     contesttype 0
     terminatedata
+    movedescription MOVE_HYPER_DRILL, "The user spins its\npointed body at high\nspeed. This attack\ncan hit a foe using\nProtect or Detect."
 
 // POWER: 40 >> 45
-movedata MOVE_TWIN_BEAM
+movedata MOVE_TWIN_BEAM, "Twin Beam"
     battleeffect 44
     pss SPLIT_SPECIAL
     basepower MOVE_CHANGES_IMPLEMENTED ? 45 : 40
@@ -8540,10 +9097,11 @@ movedata MOVE_TWIN_BEAM
     appeal 0x00
     contesttype 0
     terminatedata
+    movedescription MOVE_TWIN_BEAM, "The user shoots\nmystical beams from\nits eyes.\nThe target is hit\ntwice in a row."
 
 // EFFECT: Now works like Rage where using it and being attacked will boost Attack
 // The actual effect cant be done, but I need Rage Fist for the Primeape evolution method
-movedata MOVE_RAGE_FIST
+movedata MOVE_RAGE_FIST, "Rage Fist"
     battleeffect 81 // NOTE: Cant get actual effect, using Rage one
     pss SPLIT_PHYSICAL
     basepower 50
@@ -8557,8 +9115,9 @@ movedata MOVE_RAGE_FIST
     appeal 0x00
     contesttype 0
     terminatedata
+    movedescription MOVE_RAGE_FIST, "The user converts\nits rage into energy\nto attack. The user’s\nAttack rises each\ntime it is hit."
 
-movedata MOVE_AQUA_CUTTER
+movedata MOVE_AQUA_CUTTER, "Aqua Cutter"
     battleeffect 43
     pss SPLIT_PHYSICAL
     basepower 70
@@ -8572,10 +9131,11 @@ movedata MOVE_AQUA_CUTTER
     appeal 0x00
     contesttype 0
     terminatedata
+    movedescription MOVE_AQUA_CUTTER, "The user expels\npressurized water\nto cut the foe.\nIt has a high\ncritical-hit ratio."
 
 // This is a custom move for Meganium
 // Noble Roar that affects both targets
-movedata MOVE_SOOTHING_AROMA
+movedata MOVE_SOOTHING_AROMA, "Soothing Aroma"
     battleeffect 58 // NOTE: For AI purposes, still uses intended effect
     pss SPLIT_STATUS
     basepower 0
@@ -8589,10 +9149,11 @@ movedata MOVE_SOOTHING_AROMA
     appeal 0x00
     contesttype 0
     terminatedata
+    movedescription MOVE_SOOTHING_AROMA, "Foes are calmed by\nan aroma, lowering\ntheir Attack and\nSp. Atk stats."
 
 // This is a custom move for Typhlosion
 // High chance to burn
-movedata MOVE_INFERNAL_BLAST
+movedata MOVE_INFERNAL_BLAST, "Infernal Blast"
     battleeffect 4
     pss SPLIT_SPECIAL
     basepower 100
@@ -8606,10 +9167,11 @@ movedata MOVE_INFERNAL_BLAST
     appeal 0x00
     contesttype 0
     terminatedata
+    movedescription MOVE_INFERNAL_BLAST, "The user rubs its\nblazing fur together,\ncausing an explosion.\nIt has a 50% chance\nto burn what it hits."
 
 // This is a custom move for Feraligatr
 // Guaranteed defense drop
-movedata MOVE_SAVAGE_REND
+movedata MOVE_SAVAGE_REND, "Savage Rend"
     battleeffect 69
     pss SPLIT_PHYSICAL
     basepower 80
@@ -8623,10 +9185,11 @@ movedata MOVE_SAVAGE_REND
     appeal 0x00
     contesttype 0
     terminatedata
+    movedescription MOVE_SAVAGE_REND, "The user tears up the\nfoe underwater with\nits powerful jaws.\nThe foe’s Defense\nstat is also lowered."
 
 // This is a custom move for Ledian
 // Same effect as Population Bomb, but weaker
-movedata MOVE_PIDDLY_PUNCHES
+movedata MOVE_PIDDLY_PUNCHES, "Piddly Punches"
     battleeffect 310
     pss SPLIT_PHYSICAL
     basepower 10
@@ -8640,8 +9203,9 @@ movedata MOVE_PIDDLY_PUNCHES
     appeal 0x00
     contesttype 0
     terminatedata
+    movedescription MOVE_PIDDLY_PUNCHES, "The user throws many\npiddly punches using\nall of its arms. This\ncan hit the foe up to\nten times in a row."
 
-movedata MOVE_TOXIC_THREAD
+movedata MOVE_TOXIC_THREAD, "Toxic Thread"
     battleeffect 311
     pss SPLIT_STATUS
     basepower 0
@@ -8655,8 +9219,9 @@ movedata MOVE_TOXIC_THREAD
     appeal 0x00
     contesttype 0
     terminatedata
+    movedescription MOVE_TOXIC_THREAD, "The user shoots\npoisonous threads\nto poison the foe\nand lower the foe’s\nSpeed stat."
 
-movedata MOVE_TEARFUL_LOOK
+movedata MOVE_TEARFUL_LOOK, "Tearful Look"
     battleeffect 58 // NOTE: For AI purposes, still uses intended effect
     pss SPLIT_STATUS
     basepower 0
@@ -8670,8 +9235,9 @@ movedata MOVE_TEARFUL_LOOK
     appeal 0
     contesttype 0
     terminatedata
+    movedescription MOVE_TEARFUL_LOOK, "The user gets teary-\neyed to make the foe\nlose its will to fight.\nThis lowers the foe’s\nAttack and Sp. Atk. "
     
-movedata MOVE_COMEUPPANCE
+movedata MOVE_COMEUPPANCE, "Comeuppance"
     battleeffect 227
     pss SPLIT_PHYSICAL
     basepower 1
@@ -8685,9 +9251,10 @@ movedata MOVE_COMEUPPANCE
     appeal 0
     contesttype 0
     terminatedata
+    movedescription MOVE_COMEUPPANCE, "The user retaliates\nagainst the foe that\nlast inflicted damage\non it with much\ngreater power."
 
 // POWER: 65 >> 75    
-movedata MOVE_STEAMROLLER
+movedata MOVE_STEAMROLLER, "Steamroller"
     battleeffect 150
     pss SPLIT_PHYSICAL
     basepower MOVE_CHANGES_IMPLEMENTED ? 75 : 65
@@ -8701,8 +9268,9 @@ movedata MOVE_STEAMROLLER
     appeal 0
     contesttype 0
     terminatedata
+    movedescription MOVE_STEAMROLLER, "The user crushes the\nfoe by rolling over\nthem with its body.\nThis has a 30% chance\nto flinch the foe."
 
-movedata MOVE_DRAGON_HAMMER
+movedata MOVE_DRAGON_HAMMER, "Dragon Hammer"
     battleeffect 0
     pss SPLIT_PHYSICAL
     basepower 90
@@ -8716,8 +9284,9 @@ movedata MOVE_DRAGON_HAMMER
     appeal 0
     contesttype 0
     terminatedata
+    movedescription MOVE_DRAGON_HAMMER, "The user uses its\nbody like a hammer\nto attack the target\nand inflict damage."
 
-movedata MOVE_PLAY_NICE
+movedata MOVE_PLAY_NICE, "Play Nice"
     battleeffect 18
     pss SPLIT_STATUS
     basepower 0
@@ -8731,8 +9300,9 @@ movedata MOVE_PLAY_NICE
     appeal 0
     contesttype 0
     terminatedata
+    movedescription MOVE_PLAY_NICE, "The user and foe\nbecome friends, and\nthe foe loses its will\nto fight. This lowers\nthe foe’s Attack."
 
-movedata MOVE_CONFIDE
+movedata MOVE_CONFIDE, "Confide"
     battleeffect 21
     pss SPLIT_STATUS
     basepower 0
@@ -8746,8 +9316,9 @@ movedata MOVE_CONFIDE
     appeal 0
     contesttype 0
     terminatedata
+    movedescription MOVE_CONFIDE, "The user tells the\nfoe a secret, so they\ncan’t concentrate.\nThis lowers the foe’s\nSp. Atk stat."
 
-movedata MOVE_SHADOW_BONE
+movedata MOVE_SHADOW_BONE, "Shadow Bone"
     battleeffect 69
     pss SPLIT_PHYSICAL
     basepower 85
@@ -8761,8 +9332,9 @@ movedata MOVE_SHADOW_BONE
     appeal 0
     contesttype 0
     terminatedata
+    movedescription MOVE_SHADOW_BONE, "The user beats the\nfoe with a bone that\ncontains a spirit.\nThis has a 20% chance\nto lower Defense."
 
-movedata MOVE_POUNCE
+movedata MOVE_POUNCE, "Pounce"
     battleeffect 70
     pss SPLIT_PHYSICAL
     basepower 50
@@ -8776,10 +9348,11 @@ movedata MOVE_POUNCE
     appeal 0
     contesttype 0
     terminatedata
+    movedescription MOVE_POUNCE, "The user attacks by\npouncing on the foe.\nThis also lowers the\nfoe’s Speed stat."
 
 // Custom move for Wailord
 // Water-type Heavy Slam clone, works with its custom ability
-movedata MOVE_SPLASH_CRASH
+movedata MOVE_SPLASH_CRASH, "Splash Crash"
     battleeffect 302
     pss SPLIT_PHYSICAL
     basepower 1
@@ -8793,8 +9366,9 @@ movedata MOVE_SPLASH_CRASH
     appeal 0x00
     contesttype 0
     terminatedata
+    movedescription MOVE_SPLASH_CRASH, "The user creates a\nshock by splashing.\nThis does more damage\nthe more the user\noutweighs the foe."
 
-movedata MOVE_HEAT_CRASH
+movedata MOVE_HEAT_CRASH, "Heat Crash"
     battleeffect 302
     pss SPLIT_PHYSICAL
     basepower 1
@@ -8808,8 +9382,9 @@ movedata MOVE_HEAT_CRASH
     appeal 0x00
     contesttype 0
     terminatedata
+    movedescription MOVE_HEAT_CRASH, "Slams the foe with its\nflame-covered body.\nThis does more damage\nthe more the user\noutweighs the foe."
 
-movedata MOVE_DARKEST_LARIAT
+movedata MOVE_DARKEST_LARIAT, "Darkest Lariat"
     battleeffect 295
     pss SPLIT_PHYSICAL
     basepower 85
@@ -8823,8 +9398,9 @@ movedata MOVE_DARKEST_LARIAT
     appeal 0x00
     contesttype 0
     terminatedata
+    movedescription MOVE_DARKEST_LARIAT, "The user swings both\narms at the target.\nThe target’s stat\nchanges do not affect\nthis move’s damage."
 
-movedata MOVE_CLEAR_SMOG
+movedata MOVE_CLEAR_SMOG, "Clear Smog"
     battleeffect 315
     pss SPLIT_SPECIAL
     basepower 50
@@ -8838,8 +9414,9 @@ movedata MOVE_CLEAR_SMOG
     appeal 0x00
     contesttype 0
     terminatedata
+    movedescription MOVE_CLEAR_SMOG, "The user attacks the\ntarget by throwing a\nclump of special mud\nthat eliminates all\nstat changes."
 
-movedata MOVE_FIERY_DANCE
+movedata MOVE_FIERY_DANCE, "Fiery Dance"
     battleeffect 276
     pss SPLIT_SPECIAL
     basepower 80
@@ -8853,8 +9430,9 @@ movedata MOVE_FIERY_DANCE
     appeal 0x00
     contesttype 0
     terminatedata
+    movedescription MOVE_FIERY_DANCE, "Cloaked in flames,\nthe user dances and\nflaps its wings.\nThis has a 50% chance\nto raise Sp. Atk."
 
-movedata MOVE_GEAR_GRIND
+movedata MOVE_GEAR_GRIND, "Gear Grind"
     battleeffect 44
     pss SPLIT_PHYSICAL
     basepower 50
@@ -8868,8 +9446,9 @@ movedata MOVE_GEAR_GRIND
     appeal 0x00
     contesttype 0
     terminatedata
+    movedescription MOVE_GEAR_GRIND, "The user attacks by\ngrinding the target\nbetween steel gears\ntwice in a row."
 
-movedata MOVE_HEAD_CHARGE
+movedata MOVE_HEAD_CHARGE, "Head Charge"
     battleeffect 48
     pss SPLIT_PHYSICAL
     basepower 120
@@ -8883,8 +9462,9 @@ movedata MOVE_HEAD_CHARGE
     appeal 0
     contesttype 0
     terminatedata
+    movedescription MOVE_HEAD_CHARGE, "The user charges into\nthe foe, using its\npowerful guard hair.\nThe user is hurt by\n25% of damage dealt."
 
-movedata MOVE_HORN_LEECH
+movedata MOVE_HORN_LEECH, "Horn Leech"
     battleeffect 3
     pss SPLIT_PHYSICAL
     basepower 75
@@ -8898,8 +9478,9 @@ movedata MOVE_HORN_LEECH
     appeal 0
     contesttype 0
     terminatedata
+    movedescription MOVE_HORN_LEECH, "Drains a foe’s energy\nby using its horns.\nThe user’s HP is\nrestored by half the\ndamage dealt."
 
-movedata MOVE_SHIFT_GEAR
+movedata MOVE_SHIFT_GEAR, "Shift Gear"
     battleeffect 288
     pss SPLIT_STATUS
     basepower 0
@@ -8913,8 +9494,9 @@ movedata MOVE_SHIFT_GEAR
     appeal 0x00
     contesttype 0
     terminatedata
+    movedescription MOVE_SHIFT_GEAR, "The user rotates its\ngears, raising its\nAttack stat and\nsharply raising its\nSpeed stat."
 
-movedata MOVE_KOWTOW_CLEAVE
+movedata MOVE_KOWTOW_CLEAVE, "Kowtow Cleave"
     battleeffect 17
     pss SPLIT_PHYSICAL
     basepower 85
@@ -8928,9 +9510,10 @@ movedata MOVE_KOWTOW_CLEAVE
     appeal 0
     contesttype 0
     terminatedata
+    movedescription MOVE_KOWTOW_CLEAVE, "The user kowtows to\nmake the foe let down\nits guard, and then\nslashes at the foe.\nThis never misses."
 
 // Copy of Hidden Power with fixed type, for AI use only
-movedata MOVE_HIDDEN_POWER_WATER
+movedata MOVE_HIDDEN_POWER_WATER, "Hidden Power"
     battleeffect 0
     pss SPLIT_SPECIAL
     basepower 60
@@ -8944,9 +9527,10 @@ movedata MOVE_HIDDEN_POWER_WATER
     appeal 0x17
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_HIDDEN_POWER_WATER, "FOR AI ONLY"
 
 // Copy of Hidden Power with fixed type, for AI use only
-movedata MOVE_HIDDEN_POWER_GRASS
+movedata MOVE_HIDDEN_POWER_GRASS, "Hidden Power"
     battleeffect 0
     pss SPLIT_SPECIAL
     basepower 60
@@ -8960,9 +9544,10 @@ movedata MOVE_HIDDEN_POWER_GRASS
     appeal 0x17
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_HIDDEN_POWER_GRASS, "FOR AI ONLY"
 
 // Copy of Hidden Power with fixed type, for AI use only
-movedata MOVE_HIDDEN_POWER_ELECTRIC
+movedata MOVE_HIDDEN_POWER_ELECTRIC, "Hidden Power"
     battleeffect 0
     pss SPLIT_SPECIAL
     basepower 60
@@ -8976,9 +9561,10 @@ movedata MOVE_HIDDEN_POWER_ELECTRIC
     appeal 0x17
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_HIDDEN_POWER_ELECTRIC, "FOR AI ONLY"
 
 // Copy of Hidden Power with fixed type, for AI use only
-movedata MOVE_HIDDEN_POWER_PSYCHIC
+movedata MOVE_HIDDEN_POWER_PSYCHIC, "Hidden Power"
     battleeffect 0
     pss SPLIT_SPECIAL
     basepower 60
@@ -8992,9 +9578,10 @@ movedata MOVE_HIDDEN_POWER_PSYCHIC
     appeal 0x17
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_HIDDEN_POWER_PSYCHIC, "FOR AI ONLY"
 
 // Copy of Hidden Power with fixed type, for AI use only
-movedata MOVE_HIDDEN_POWER_ICE
+movedata MOVE_HIDDEN_POWER_ICE, "Hidden Power"
     battleeffect 0
     pss SPLIT_SPECIAL
     basepower 60
@@ -9008,9 +9595,10 @@ movedata MOVE_HIDDEN_POWER_ICE
     appeal 0x17
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_HIDDEN_POWER_ICE, "FOR AI ONLY"
 
 // Copy of Hidden Power with fixed type, for AI use only
-movedata MOVE_HIDDEN_POWER_DRAGON
+movedata MOVE_HIDDEN_POWER_DRAGON, "Hidden Power"
     battleeffect 0
     pss SPLIT_SPECIAL
     basepower 60
@@ -9024,9 +9612,10 @@ movedata MOVE_HIDDEN_POWER_DRAGON
     appeal 0x17
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_HIDDEN_POWER_DRAGON, "FOR AI ONLY"
 
 // Copy of Hidden Power with fixed type, for AI use only
-movedata MOVE_HIDDEN_POWER_DARK
+movedata MOVE_HIDDEN_POWER_DARK, "Hidden Power"
     battleeffect 0
     pss SPLIT_SPECIAL
     basepower 60
@@ -9040,9 +9629,10 @@ movedata MOVE_HIDDEN_POWER_DARK
     appeal 0x17
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_HIDDEN_POWER_DARK, "FOR AI ONLY"
 
 // Copy of Hidden Power with fixed type, for AI use only
-movedata MOVE_HIDDEN_POWER_FIGHTING
+movedata MOVE_HIDDEN_POWER_FIGHTING, "Hidden Power"
     battleeffect 0
     pss SPLIT_SPECIAL
     basepower 60
@@ -9056,9 +9646,10 @@ movedata MOVE_HIDDEN_POWER_FIGHTING
     appeal 0x17
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_HIDDEN_POWER_FIGHTING, "FOR AI ONLY"
 
 // Copy of Hidden Power with fixed type, for AI use only
-movedata MOVE_HIDDEN_POWER_FLYING
+movedata MOVE_HIDDEN_POWER_FLYING, "Hidden Power"
     battleeffect 0
     pss SPLIT_SPECIAL
     basepower 60
@@ -9072,8 +9663,9 @@ movedata MOVE_HIDDEN_POWER_FLYING
     appeal 0x17
     contesttype CONTEST_SMART
     terminatedata
+    movedescription MOVE_HIDDEN_POWER_FLYING, "FOR AI ONLY"
 
-movedata NUM_OF_MOVES+1
+movedatanoname NUM_OF_MOVES+1
     battleeffect 0
     pss SPLIT_SPECIAL
     basepower 100

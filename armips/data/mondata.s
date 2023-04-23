@@ -20483,92 +20483,92 @@ mondata SPECIES_KOMMO_O, "Kommo-o"
     mondexweight SPECIES_KOMMO_O, "172.4 lbs."
 
 
-mondata SPECIES_TAPU_KOKO, "Tapu Koko"
-    basestats 70, 115, 85, 130, 95, 75
-    types TYPE_ELECTRIC, TYPE_FAIRY
-    catchrate 3
-    baseexp 0 // defined in baseexp.s
-    evyields 0, 0, 0, 3, 0, 0
-    items ITEM_NONE, ITEM_NONE
-    genderratio 255
-    eggcycles 15
-    basefriendship 50
-    growthrate GROWTH_SLOW
-    egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
-    abilities ABILITY_ELECTRIC_SURGE, ABILITY_NONE
-    runchance 0
-    colorflip BODY_COLOR_YELLOW, 0
-    tmdata SPECIES_TAPU_KOKO_TM_DATA_0, SPECIES_TAPU_KOKO_TM_DATA_1, SPECIES_TAPU_KOKO_TM_DATA_2, SPECIES_TAPU_KOKO_TM_DATA_3
-    mondexentry SPECIES_TAPU_KOKO, "Although it’s called a guardian deity, if a person\nor Pokémon puts it in a bad mood, it will become\na malevolent deity and attack."
-    mondexclassification SPECIES_TAPU_KOKO, "Land Spirit Pokémon"
-    mondexheight SPECIES_TAPU_KOKO, "5’11”"
-    mondexweight SPECIES_TAPU_KOKO, "45.2 lbs."
-
-
-mondata SPECIES_TAPU_LELE, "Tapu Lele"
-    basestats 70, 85, 75, 95, 130, 115
-    types TYPE_PSYCHIC, TYPE_FAIRY
-    catchrate 3
-    baseexp 0 // defined in baseexp.s
-    evyields 0, 0, 0, 0, 3, 0
-    items ITEM_NONE, ITEM_NONE
-    genderratio 255
-    eggcycles 15
-    basefriendship 50
-    growthrate GROWTH_SLOW
-    egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
-    abilities ABILITY_PSYCHIC_SURGE, ABILITY_NONE
-    runchance 0
-    colorflip BODY_COLOR_PINK, 0
-    tmdata SPECIES_TAPU_LELE_TM_DATA_0, SPECIES_TAPU_LELE_TM_DATA_1, SPECIES_TAPU_LELE_TM_DATA_2, SPECIES_TAPU_LELE_TM_DATA_3
-    mondexentry SPECIES_TAPU_LELE, "Although called a guardian deity, Tapu Lele is\ndevoid of guilt about its cruel disposition and\ncan be described as nature incarnate."
-    mondexclassification SPECIES_TAPU_LELE, "Land Spirit Pokémon"
-    mondexheight SPECIES_TAPU_LELE, "3’11”"
-    mondexweight SPECIES_TAPU_LELE, "41.0 lbs."
-
-
-mondata SPECIES_TAPU_BULU, "Tapu Bulu"
-    basestats 70, 130, 115, 75, 85, 95
-    types TYPE_GRASS, TYPE_FAIRY
-    catchrate 3
-    baseexp 0 // defined in baseexp.s
+mondata SPECIES_ANNIHILAPE, "Annihilape"
+    basestats 110, 115, 80, 90, 50, 90
+    types TYPE_FIGHTING, TYPE_GHOST
+    catchrate 45
+    baseexp 0
     evyields 0, 3, 0, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
-    genderratio 255
-    eggcycles 15
-    basefriendship 50
-    growthrate GROWTH_SLOW
-    egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
-    abilities ABILITY_GRASSY_SURGE, ABILITY_NONE
+    genderratio 127
+    eggcycles 20
+    basefriendship 70
+    growthrate GROWTH_MEDIUM_FAST
+    egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
+    abilities ABILITY_VITAL_SPIRIT, ABILITY_INNER_FOCUS
+    runchance 0
+    colorflip BODY_COLOR_GRAY, 0
+    tmdata SPECIES_ANNIHILAPE_TM_DATA_0, SPECIES_ANNIHILAPE_TM_DATA_1, SPECIES_ANNIHILAPE_TM_DATA_2, SPECIES_ANNIHILAPE_TM_DATA_3
+    mondexentry SPECIES_ANNIHILAPE, "Annihilape Dex Entry"
+    mondexclassification SPECIES_ANNIHILAPE, "Rage Monkey Pokémon"
+    mondexheight SPECIES_ANNIHILAPE, "3’11”"
+    mondexweight SPECIES_ANNIHILAPE, "123.5 lbs."
+
+
+mondata SPECIES_FARIGIRAF, "Farigiraf"
+    basestats 120, 90, 70, 60, 110, 70
+    types TYPE_NORMAL, TYPE_PSYCHIC
+    catchrate 45
+    baseexp 0
+    evyields 3, 0, 0, 0, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 127
+    eggcycles 20
+    basefriendship 70
+    growthrate GROWTH_MEDIUM_FAST
+    egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
+    abilities ABILITY_ARMOR_TAIL, ABILITY_ARMOR_TAIL
+    runchance 60
+    colorflip BODY_COLOR_BROWN, 0
+    tmdata SPECIES_FARIGIRAF_TM_DATA_0, SPECIES_FARIGIRAF_TM_DATA_1, SPECIES_FARIGIRAF_TM_DATA_2, SPECIES_FARIGIRAF_TM_DATA_3
+    mondexentry SPECIES_FARIGIRAF, "Farigiraf Dex Entry"
+    mondexclassification SPECIES_FARIGIRAF, "Long Neck Pokémon"
+    mondexheight SPECIES_FARIGIRAF, "10’06”"
+    mondexweight SPECIES_FARIGIRAF, "352.7 lbs."
+
+
+mondata SPECIES_DUDUNSPARCE, "Dudnsparce"
+    basestats 125, 100, 80, 55, 85, 75
+    types TYPE_NORMAL, TYPE_NORMAL
+    catchrate 45
+    baseexp 0
+    evyields 2, 0, 0, 0, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 127
+    eggcycles 20
+    basefriendship 70
+    growthrate GROWTH_MEDIUM_FAST
+    egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
+    abilities ABILITY_SERENE_GRACE, ABILITY_RUN_AWAY
+    runchance 0
+    colorflip BODY_COLOR_YELLOW, 0
+    tmdata SPECIES_DUDUNSPARCE_TM_DATA_0, SPECIES_DUDUNSPARCE_TM_DATA_1, SPECIES_DUDUNSPARCE_TM_DATA_2, SPECIES_DUDUNSPARCE_TM_DATA_3
+    mondexentry SPECIES_DUDUNSPARCE, "Dudunsparce Dex Entry"
+    mondexclassification SPECIES_DUDUNSPARCE, "Land Snake Pokémon"
+    mondexheight SPECIES_DUDUNSPARCE, "14’09”" // Three-Segment
+    mondexweight SPECIES_DUDUNSPARCE, "104.5 lbs." // Three-Segment
+
+
+mondata SPECIES_KINGAMBIT, "Kingambit"
+    basestats 100, 135, 120, 50, 60, 85
+    types TYPE_DARK, TYPE_STEEL
+    catchrate 25
+    baseexp 0
+    evyields 0, 3, 0, 0, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 127
+    eggcycles 20
+    basefriendship 35
+    growthrate GROWTH_MEDIUM_FAST
+    egggroups EGG_GROUP_HUMAN_LIKE, EGG_GROUP_HUMAN_LIKE
+    abilities ABILITY_DEFIANT, ABILITY_SUPREME_OVERLORD
     runchance 0
     colorflip BODY_COLOR_RED, 0
-    tmdata SPECIES_TAPU_BULU_TM_DATA_0, SPECIES_TAPU_BULU_TM_DATA_1, SPECIES_TAPU_BULU_TM_DATA_2, SPECIES_TAPU_BULU_TM_DATA_3
-    mondexentry SPECIES_TAPU_BULU, "It makes ringing sounds with its tail to let others\nknow where it is, avoiding unneeded conflicts.\nThis guardian deity of Ula’ula controls plants."
-    mondexclassification SPECIES_TAPU_BULU, "Land Spirit Pokémon"
-    mondexheight SPECIES_TAPU_BULU, "6’03”"
-    mondexweight SPECIES_TAPU_BULU, "100.3 lbs."
-
-
-mondata SPECIES_TAPU_FINI, "Tapu Fini"
-    basestats 70, 75, 115, 85, 95, 130
-    types TYPE_WATER, TYPE_FAIRY
-    catchrate 3
-    baseexp 0 // defined in baseexp.s
-    evyields 0, 0, 0, 0, 0, 3
-    items ITEM_NONE, ITEM_NONE
-    genderratio 255
-    eggcycles 15
-    basefriendship 50
-    growthrate GROWTH_SLOW
-    egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
-    abilities ABILITY_MISTY_SURGE, ABILITY_NONE
-    runchance 0
-    colorflip BODY_COLOR_PURPLE, 0
-    tmdata SPECIES_TAPU_FINI_TM_DATA_0, SPECIES_TAPU_FINI_TM_DATA_1, SPECIES_TAPU_FINI_TM_DATA_2, SPECIES_TAPU_FINI_TM_DATA_3
-    mondexentry SPECIES_TAPU_FINI, "The dense fog it creates brings the downfall\nand destruction of its confused enemies.\nOcean currents are the source of its energy."
-    mondexclassification SPECIES_TAPU_FINI, "Land Spirit Pokémon"
-    mondexheight SPECIES_TAPU_FINI, "4’03”"
-    mondexweight SPECIES_TAPU_FINI, "46.7 lbs."
+    tmdata SPECIES_KINGAMBIT_TM_DATA_0, SPECIES_KINGAMBIT_TM_DATA_1, SPECIES_KINGAMBIT_TM_DATA_2, SPECIES_KINGAMBIT_TM_DATA_3
+    mondexentry SPECIES_KINGAMBIT, "Kingambit Dex Entry"
+    mondexclassification SPECIES_KINGAMBIT, "Big Blade Pokémon"
+    mondexheight SPECIES_KINGAMBIT, "6’07”"
+    mondexweight SPECIES_KINGAMBIT, "264.6 lbs."
 
 
 mondata SPECIES_COSMOG, "Cosmog"

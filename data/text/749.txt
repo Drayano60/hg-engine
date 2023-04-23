@@ -267,7 +267,7 @@ This attack inflicts\ndouble damage on a\nparalyzed foe. It\nalso cures the foe�
 The user draws\nattention to itself,\nmaking all foes take\naim only at the user.\n
 An attack that makes\nuse of nature’s\npower. Its effects\nvary depending on the\nuser’s environment.
 The user boosts the\npower of the Electric\nmove it uses next.\nIt also raises the\nuser’s Sp. Def stat.
-The foe is taunted\ninto a rage that\nallows it to use only\nattack moves for two\nto four turns.
+The foe is taunted\ninto a rage that\nallows it to use only\nattack moves for\nthree turns.
 A move that boosts\nthe power of the\nally’s attack in a\nDouble Battle.\n
 The user catches the\nfoe off guard and\nswaps the foe’s held\nitem with its own.\n
 The user mimics the\nfoe completely,\ncopying the foe’s\nnatural ability.\n

@@ -3888,9 +3888,14 @@ mondata SPECIES_CHIKORITA, "Chikorita"
     mondexweight SPECIES_CHIKORITA, "14.1 lbs."
 
 
+// STATS: 63 >> 73 SpAtk | 60 >> 50 Speed
 // ABILITY: Natural Cure (2), Triage (HA)
 mondata SPECIES_BAYLEEF, "Bayleef"
-    basestats 60, 62, 80, 60, 63, 80
+    .if STAT_CHANGES_IMPLEMENTED
+        basestats 60, 62, 80, 50, 73, 80
+    .else
+        basestats 60, 62, 80, 60, 63, 80
+    .endif
     types TYPE_GRASS, TYPE_GRASS
     catchrate 45
     baseexp 0 // defined in baseexp.s
@@ -12384,7 +12389,11 @@ mondata SPECIES_PROBOPASS, "Probopass"
 // STATS: 100 >> 110 Atk | 525 >> 535 BST
 // ABILITY: Iron Fist (HA)
 mondata SPECIES_DUSKNOIR, "Dusknoir"
-    basestats 45, 100, 135, 45, 65, 135
+    .if STAT_CHANGES_IMPLEMENTED
+        basestats 45, 110, 135, 45, 65, 135
+    .else
+        basestats 45, 100, 135, 45, 65, 135
+    .endif
     types TYPE_GHOST, TYPE_GHOST
     catchrate 45
     baseexp 0 // defined in baseexp.s

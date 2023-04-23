@@ -324,10 +324,9 @@ If the user is holding a Grip Claw, the duration is fixed at six turns instead o
 Due to the way the Gen 4 game engine handles the binding status, it cannot currently be any longer than six turns of damage.
 
 - Encore:
-The effect of Encore now always applies on the turn it is used and the subsequent three turns, with the effect ending after the third turn. The duration is no longer randomized.
-This differs slightly from Scarlet & Violet where it affects the target for three moves instead of three turns, which can include the same turn Encore is used if the target is slower.
-In Aurora Crystal, the target will be forced to use its last used move on the turn they receive an encore (if they have yet to move), and then on the three turns after that.
-Additionally, in a double battle, a Pokémon with an encore is still unable to choose the target of their encored attack (as is the case in regular HG/SS) as this can't be changed currently.
+The effect of Encore now always lasts for 3 turns (instead of 3-7), NOT including the turn it gets applied. The effect will then wear off at the end of the third turn.
+This differs slightly from Scarlet & Violet, where it applies for three of the target's actions, so the total amount of turns will depend on the Encore user's Speed stat.
+Additionally, in a double battle, a Pokémon under the effect of Encore is still unable to choose the target of their attack (as is the case in regular HG/SS) as this can't be changed currently.
 
 - Dragon Rush:
 This now does double damage if the opponent has used Minimize. However, it is not a guaranteed hit in that case.
@@ -342,8 +341,8 @@ This now deals double damage if the target has a held item (unless the item is t
 However, it still "disables" the item during the battle instead of outright deleting it, as the item would otherwise be lost permanently.
 
 - Taunt:
-The effect of Taunt now always lasts for 3 turns (instead of between 3 to 5 randomly), including the turn it gets applied, even if the taunt is applied after the target has moved.
-This differs slightly from Scarlet & Violet, where it applies for three of the target's turns instead of just overall turns.
+The effect of Taunt now always lasts for 3 turns (instead of 3-5), NOT including the turn it gets applied. The effect will then wear off at the end of the third turn.
+This differs slightly from Scarlet & Violet, where it applies for three of the target's actions, so the total amount of turns will depend on the Taunt user's Speed stat.
 
 Moves Not Updated
 --------------------------------------

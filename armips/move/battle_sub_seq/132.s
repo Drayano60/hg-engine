@@ -17,7 +17,9 @@ a001_132:
     if IF_MASK, VAR_10, 0x10001, _0074
     gotosubscript 76
     // random 2, 3
-    random 0, 3 /* Taunt is now always 3 turns */
+    /* Taunt is now always 3 turns + turn it gets applied */
+    /* Differs from S/V where it's for 3 of the target's actions, so the amount of turns depends on if the Taunt user is faster */
+    random 0, 4 
     changemondatabyvar VAR_OP_SET, BATTLER_DEFENDER, 0x40, VAR_09
     printmessage 0x1F4, 0x2, 0x2, "NaN", "NaN", "NaN", "NaN", "NaN"
     waitmessage

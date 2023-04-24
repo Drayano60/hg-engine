@@ -147,11 +147,6 @@ Justification: This is mostly just a tie-in to Altaria; going from Normal/Flying
 Type: Dragon / Flying ⟶ Dragon / Fairy
 Justification: Copied from Mega Altaria. It's a bit hard to define exactly what is Fairy-type about it so it's honestly mostly just pulled from its Mega. However, it does also give Altaria a completely unique typing that's not been seen anywhere else in the series (as of S/V), so it's nice for gameplay purposes.
 
-336 - Seviper
--------------------
-Type: Poison ⟶ Poison / Dark
-Justification: ?
-
 350 - Milotic
 -------------------
 Type: Water ⟶ Water / Fairy

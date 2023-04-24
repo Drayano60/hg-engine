@@ -2516,7 +2516,7 @@ Level Up Moves:
 -------------------
 074 - Geodude
 -------------------
-Abilities: Rock Head / Sturdy / Sand Veil
+Abilities: Rock Head / Sturdy / Sand Veil 
 Base Stats: 40/80/100/30/30/20 (300)
 Held Item: Everstone (5%)
 Type: Rock / Ground
@@ -8667,7 +8667,7 @@ Level Up Moves:
 -------------------
 228 - Houndour
 -------------------
-Abilities: Early Bird / Flash Fire / Unnerve ⟶ Intimidate** / Flash Fire / Solar Power**
+Abilities: Early Bird / Flash Fire / Unnerve ⟶ Intimidate** / Flash Fire / Unnerve
 Base Stats: 45/60/30/80/50/65 (330)
 Held Item: None
 Type: Dark / Fire
@@ -8699,7 +8699,7 @@ Level Up Moves:
 -------------------
 229 - Houndoom
 -------------------
-Abilities: Early Bird / Flash Fire / Unnerve ⟶ Intimidate** / Flash Fire / Solar Power**
+Abilities: Early Bird / Flash Fire / Unnerve ⟶ Intimidate** / Flash Fire / Unnerve
 Base Stats: 75/90/50/110/80/95 (500)
 Held Item: None
 Type: Dark / Fire
@@ -10330,7 +10330,7 @@ Level Up Moves:
 -------------------
 287 - Slakoth
 -------------------
-Abilities: Truant / Truant / Truant ⟶ Truant / Truant / Stall**
+Abilities: Truant / Truant / Truant
 Base Stats: 60/60/60/35/35/30 (280)
 Held Item: None
 Type: Normal
@@ -10356,8 +10356,8 @@ Level Up Moves:
 -------------------
 288 - Vigoroth
 -------------------
-Abilities: Vital Spirit / Vital Spirit / Vital Spirit ⟶ Vital Spirit / Vital Spirit / Anger Point**
-Base Stats: 80/80/80/55/55/90 (440) ⟶ 80/90*/80/55/55/90 (450)
+Abilities: Vital Spirit / Vital Spirit / Vital Spirit
+Base Stats: 80/80/80/55/55/90 (440) ⟶ 80/100*/80/55/55/90 (460)
 Held Item: None
 Type: Normal
 
@@ -10383,7 +10383,7 @@ Level Up Moves:
 -------------------
 289 - Slaking
 -------------------
-Abilities: Truant / Truant / Truant ⟶ Truant / Truant / Stall**
+Abilities: Truant / Truant / Truant
 Base Stats: 150/160/100/95/65/100 (670)
 Held Item: None
 Type: Normal
@@ -11669,7 +11669,7 @@ Level Up Moves:
 -------------------
 325 - Spoink
 -------------------
-Abilities: Thick Fat / Own Tempo / Gluttony ⟶ Thick Fat / Gluttony / Magic Bounce**
+Abilities: Thick Fat / Own Tempo / Gluttony ⟶ Thick Fat / Own Tempo / Magic Bounce**
 Base Stats: 60/25/35/70/80/60 (330)
 Held Item: Tanga Berry (5%)
 Type: Psychic
@@ -11699,7 +11699,7 @@ Level Up Moves:
 -------------------
 326 - Grumpig
 -------------------
-Abilities: Thick Fat / Own Tempo / Gluttony ⟶ Thick Fat / Gluttony / Magic Bounce**
+Abilities: Thick Fat / Own Tempo / Gluttony ⟶ Thick Fat / Own Tempo / Magic Bounce**
 Base Stats: 80/45/65/90/110/80 (470) ⟶ 80/45/65/100*/110/80 (480)
 Held Item: Tanga Berry (5%)
 Type: Psychic
@@ -11733,7 +11733,7 @@ Level Up Moves:
 -------------------
 327 - Spinda
 -------------------
-Abilities: Own Tempo / Tangled Feet / Contrary ⟶ Own Tempo / Contrary / Totter Steps**
+Abilities: Own Tempo / Tangled Feet / Contrary ⟶ Own Tempo / Totter Steps** / Contrary
 Base Stats: 60/60/60/60/60/60 (420) ⟶ 75*/75*/75*/75*/75*/75* (450)
 Held Item: Chesto Berry (5%)
 Type: Normal
@@ -12037,7 +12037,7 @@ Level Up Moves:
 Abilities: Shed Skin / Shed Skin / Infiltrator ⟶ Shed Skin / Infiltrator / Merciless**
 Base Stats: 73/100/60/100/60/65 (458) ⟶ 73/110*/60/90*/60/75* (468)
 Held Item: None
-Type: Poison ⟶ Poison / Dark
+Type: Poison
 
 New Moves:
 - Breaking Swipe (Tutor)
@@ -12268,7 +12268,7 @@ Level Up Moves:
 343 - Baltoy
 -------------------
 Abilities: Levitate / Levitate / Levitate
-Base Stats: 40/40/55/40/70/55 (300) ⟶ 40/55*/55/55*/70/55 (330)
+Base Stats: 40/40/55/40/70/55 (300) ⟶ 40/50*/55/50*/70/55 (320)
 Held Item: None
 Type: Ground / Psychic
 
@@ -12303,7 +12303,7 @@ Level Up Moves:
 344 - Claydol
 -------------------
 Abilities: Levitate / Levitate / Levitate
-Base Stats: 60/70/105/70/120/75 (500) ⟶ 60/75*/105/75*/120/75 (510)
+Base Stats: 60/70/105/70/120/75 (500)
 Held Item: None
 Type: Ground / Psychic
 
@@ -15378,7 +15378,7 @@ Level Up Moves:
 -------------------
 443 - Gible
 -------------------
-Abilities: Sand Veil / Sand Veil / Rough Skin ⟶ Sand Veil / Rough Skin / Sand Force**
+Abilities: Sand Veil / Sand Veil / Rough Skin
 Base Stats: 58/70/45/40/45/42 (300)
 Held Item: Haban Berry (5%)
 Type: Dragon / Ground
@@ -15406,7 +15406,7 @@ Level Up Moves:
 -------------------
 444 - Gabite
 -------------------
-Abilities: Sand Veil / Sand Veil / Rough Skin ⟶ Sand Veil / Rough Skin / Sand Force**
+Abilities: Sand Veil / Sand Veil / Rough Skin
 Base Stats: 68/90/65/50/55/82 (410)
 Held Item: Haban Berry (5%)
 Type: Dragon / Ground
@@ -15435,7 +15435,7 @@ Level Up Moves:
 -------------------
 445 - Garchomp
 -------------------
-Abilities: Sand Veil / Sand Veil / Rough Skin ⟶ Sand Veil / Rough Skin / Sand Force**
+Abilities: Sand Veil / Sand Veil / Rough Skin
 Base Stats: 108/130/95/80/85/102 (600)
 Held Item: Haban Berry (5%)
 Type: Dragon / Ground

@@ -81,7 +81,7 @@
 /* SPECIES_TENTACRUEL                  */ .halfword ABILITY_RAIN_DISH
 /* SPECIES_GEODUDE                     */ .halfword ABILITY_SAND_VEIL
 /* SPECIES_GRAVELER                    */ .halfword ABILITY_SAND_VEIL
-/* SPECIES_GOLEM                       */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_SAND_STREAM : ABILITY_SAND_VEIL
+/* SPECIES_GOLEM                       */ .halfword ABILITY_SAND_VEIL
 /* SPECIES_PONYTA                      */ .halfword ABILITY_FLAME_BODY
 /* SPECIES_RAPIDASH                    */ .halfword ABILITY_FLAME_BODY
 /* SPECIES_SLOWPOKE                    */ .halfword ABILITY_REGENERATOR
@@ -233,8 +233,8 @@
 /* SPECIES_DELIBIRD                    */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_TECHNICIAN : ABILITY_INSOMNIA
 /* SPECIES_MANTINE                     */ .halfword ABILITY_WATER_VEIL
 /* SPECIES_SKARMORY                    */ .halfword ABILITY_WEAK_ARMOR
-/* SPECIES_HOUNDOUR                    */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_SOLAR_POWER : ABILITY_UNNERVE
-/* SPECIES_HOUNDOOM                    */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_SOLAR_POWER : ABILITY_UNNERVE
+/* SPECIES_HOUNDOUR                    */ .halfword ABILITY_UNNERVE
+/* SPECIES_HOUNDOOM                    */ .halfword ABILITY_UNNERVE
 /* SPECIES_KINGDRA                     */ .halfword ABILITY_DAMP
 /* SPECIES_PHANPY                      */ .halfword ABILITY_SAND_VEIL
 /* SPECIES_DONPHAN                     */ .halfword ABILITY_SAND_VEIL
@@ -292,9 +292,9 @@
 /* SPECIES_MASQUERAIN                  */ .halfword ABILITY_UNNERVE
 /* SPECIES_SHROOMISH                   */ .halfword ABILITY_QUICK_FEET
 /* SPECIES_BRELOOM                     */ .halfword ABILITY_TECHNICIAN
-/* SPECIES_SLAKOTH                     */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_STALL : ABILITY_NONE
-/* SPECIES_VIGOROTH                    */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_ANGER_POINT : ABILITY_NONE
-/* SPECIES_SLAKING                     */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_STALL : ABILITY_NONE
+/* SPECIES_SLAKOTH                     */ .halfword ABILITY_NONE
+/* SPECIES_VIGOROTH                    */ .halfword ABILITY_NONE
+/* SPECIES_SLAKING                     */ .halfword ABILITY_NONE
 /* SPECIES_NINCADA                     */ .halfword ABILITY_RUN_AWAY
 /* SPECIES_NINJASK                     */ .halfword ABILITY_INFILTRATOR
 /* SPECIES_SHEDINJA                    */ .halfword ABILITY_NONE
@@ -332,7 +332,7 @@
 /* SPECIES_TORKOAL                     */ .halfword ABILITY_SHELL_ARMOR
 /* SPECIES_SPOINK                      */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_MAGIC_BOUNCE : ABILITY_GLUTTONY
 /* SPECIES_GRUMPIG                     */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_MAGIC_BOUNCE : ABILITY_GLUTTONY
-/* SPECIES_SPINDA                      */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_TOTTER_STEPS : ABILITY_CONTRARY
+/* SPECIES_SPINDA                      */ .halfword ABILITY_CONTRARY
 /* SPECIES_TRAPINCH                    */ .halfword ABILITY_SHEER_FORCE
 /* SPECIES_VIBRAVA                     */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_TINTED_LENS : ABILITY_NONE
 /* SPECIES_FLYGON                      */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_TINTED_LENS : ABILITY_NONE
@@ -448,9 +448,9 @@
 /* SPECIES_HAPPINY                     */ .halfword ABILITY_FRIEND_GUARD
 /* SPECIES_CHATOT                      */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_CACOPHONY : ABILITY_BIG_PECKS
 /* SPECIES_SPIRITOMB                   */ .halfword ABILITY_INFILTRATOR
-/* SPECIES_GIBLE                       */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_SAND_FORCE : ABILITY_ROUGH_SKIN
-/* SPECIES_GABITE                      */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_SAND_FORCE : ABILITY_ROUGH_SKIN
-/* SPECIES_GARCHOMP                    */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_SAND_FORCE : ABILITY_ROUGH_SKIN
+/* SPECIES_GIBLE                       */ .halfword ABILITY_ROUGH_SKIN
+/* SPECIES_GABITE                      */ .halfword ABILITY_ROUGH_SKIN
+/* SPECIES_GARCHOMP                    */ .halfword ABILITY_ROUGH_SKIN
 /* SPECIES_MUNCHLAX                    */ .halfword ABILITY_GLUTTONY
 /* SPECIES_RIOLU                       */ .halfword ABILITY_PRANKSTER
 /* SPECIES_LUCARIO                     */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_AURA_MASTER : ABILITY_JUSTIFIED

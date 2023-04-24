@@ -177,7 +177,7 @@ mondata SPECIES_CHARMELEON, "Charmeleon"
 
 // STATS: 78 >> 79 HP | 84 >> 104 Atk | 78 >> 68 Def | 85 >> 75 SpDef | 534 >> 535 BST
 // TYPES: Fire/Flying >> Fire/Dragon
-// ABILITY: Tough Claws (2), Levitate (HA, if type changes enabled also)
+// ABILITY: Tough Claws (2)
 mondata SPECIES_CHARIZARD, "Charizard"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 79, 104, 68, 100, 109, 75
@@ -1987,7 +1987,6 @@ mondata SPECIES_GRAVELER, "Graveler"
 
 
 // STATS: 65 >> 75 SpDef | 495 >> 505 BST
-// ABILITY: Sand Stream (HA)
 mondata SPECIES_GOLEM, "Golem"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 80, 120, 130, 45, 55, 75
@@ -7421,7 +7420,6 @@ mondata SPECIES_BRELOOM, "Breloom"
     mondexweight SPECIES_BRELOOM, "86.4 lbs."
 
 
-// ABILITY: Stall (HA)
 mondata SPECIES_SLAKOTH, "Slakoth"
     basestats 60, 60, 60, 30, 35, 35
     types TYPE_NORMAL, TYPE_NORMAL
@@ -7444,11 +7442,10 @@ mondata SPECIES_SLAKOTH, "Slakoth"
     mondexweight SPECIES_SLAKOTH, "52.9 lbs."
 
 
-// STATS: 80 >> 90 Atk | 440 >> 450 BST
-// ABILITY: Anger Point (HA)
+// STATS: 80 >> 100 Atk | 440 >> 460 BST
 mondata SPECIES_VIGOROTH, "Vigoroth"
     .if STAT_CHANGES_IMPLEMENTED
-        basestats 80, 90, 80, 90, 55, 55
+        basestats 80, 100, 80, 90, 55, 55
     .else
         basestats 80, 80, 80, 90, 55, 55
     .endif
@@ -7472,7 +7469,6 @@ mondata SPECIES_VIGOROTH, "Vigoroth"
     mondexweight SPECIES_VIGOROTH, "102.5 lbs."
 
 
-// ABILITY: Stall (HA)
 mondata SPECIES_SLAKING, "Slaking"
     basestats 150, 160, 100, 100, 95, 65
     types TYPE_NORMAL, TYPE_NORMAL
@@ -8454,7 +8450,7 @@ mondata SPECIES_TORKOAL, "Torkoal"
     mondexweight SPECIES_TORKOAL, "177.2 lbs."
 
 
-// ABILITY: Gluttony (2), Magic Bounce (HA)
+// ABILITY: Magic Bounce (HA)
 mondata SPECIES_SPOINK, "Spoink"
     basestats 60, 25, 35, 60, 70, 80
     types TYPE_PSYCHIC, TYPE_PSYCHIC
@@ -8467,11 +8463,7 @@ mondata SPECIES_SPOINK, "Spoink"
     basefriendship 70
     growthrate GROWTH_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_THICK_FAT, ABILITY_GLUTTONY
-    .else
-        abilities ABILITY_THICK_FAT, ABILITY_OWN_TEMPO
-    .endif
+    abilities ABILITY_THICK_FAT, ABILITY_OWN_TEMPO
     runchance 25
     colorflip BODY_COLOR_BLACK, 0
     tmdata SPECIES_SPOINK_TM_DATA_0, SPECIES_SPOINK_TM_DATA_1, SPECIES_SPOINK_TM_DATA_2, SPECIES_SPOINK_TM_DATA_3
@@ -8482,7 +8474,7 @@ mondata SPECIES_SPOINK, "Spoink"
 
 
 // STATS: 90 >> 100 SpAtk | 470 >> 480 BST
-// ABILITY: Gluttony (2), Magic Bounce (HA)
+// ABILITY: Magic Bounce (HA)
 mondata SPECIES_GRUMPIG, "Grumpig"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 80, 45, 65, 80, 100, 110
@@ -8499,11 +8491,7 @@ mondata SPECIES_GRUMPIG, "Grumpig"
     basefriendship 70
     growthrate GROWTH_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_THICK_FAT, ABILITY_GLUTTONY
-    .else
-        abilities ABILITY_THICK_FAT, ABILITY_OWN_TEMPO
-    .endif
+    abilities ABILITY_THICK_FAT, ABILITY_OWN_TEMPO
     runchance 25
     colorflip BODY_COLOR_PURPLE, 0
     tmdata SPECIES_GRUMPIG_TM_DATA_0, SPECIES_GRUMPIG_TM_DATA_1, SPECIES_GRUMPIG_TM_DATA_2, SPECIES_GRUMPIG_TM_DATA_3
@@ -8514,7 +8502,7 @@ mondata SPECIES_GRUMPIG, "Grumpig"
 
 
 // STATS: 60 >> 75 HP | 60 >> 75 Atk | 60 >> 75 Def | 60 >> 75 SpAtk | 60 >> 75 SpDef | 60 >> 75 Spd | 360 >> 450 BST
-// ABILITY: Contrary (2), Totter Steps (HA, New)
+// ABILITY: Totter Steps (2, New)
 mondata SPECIES_SPINDA, "Spinda"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 75, 75, 75, 75, 75, 75
@@ -8532,7 +8520,7 @@ mondata SPECIES_SPINDA, "Spinda"
     growthrate GROWTH_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_HUMAN_LIKE
     .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_OWN_TEMPO, ABILITY_CONTRARY
+        abilities ABILITY_OWN_TEMPO, ABILITY_TOTTER_STEPS
     .else
         abilities ABILITY_OWN_TEMPO, ABILITY_TANGLED_FEET
     .endif
@@ -8812,7 +8800,6 @@ mondata SPECIES_ZANGOOSE, "Zangoose"
 
 
 // STATS: 100 >> 110 Atk | 100 >> 90 SpAtk | 65 >> 75 Speed | 458 >> 468 BST
-// TYPES: Poison >> Poison/Dark
 // ABILITY: Infiltrator (2), Merciless (HA)
 mondata SPECIES_SEVIPER, "Seviper"
     .if STAT_CHANGES_IMPLEMENTED
@@ -8820,11 +8807,7 @@ mondata SPECIES_SEVIPER, "Seviper"
     .else
         basestats 73, 100, 60, 65, 100, 60
     .endif
-   .if TYPE_CHANGES_IMPLEMENTED
-        types TYPE_POISON, TYPE_DARK
-    .else
-        types TYPE_POISON, TYPE_POISON
-    .endif
+    types TYPE_POISON, TYPE_POISON
     catchrate 90
     baseexp 0 // defined in baseexp.s
     evyields 0, 1, 0, 0, 1, 0
@@ -9002,10 +8985,10 @@ mondata SPECIES_CRAWDAUNT, "Crawdaunt"
     mondexweight SPECIES_CRAWDAUNT, "72.3 lbs."
 
 
-// STATS: 40 >> 55 Atk | 40 >> 55 SpAtk | 300 >> 330 BST
+// STATS: 40 >> 50 Atk | 40 >> 50 SpAtk | 300 >> 320 BST
 mondata SPECIES_BALTOY, "Baltoy"
     .if STAT_CHANGES_IMPLEMENTED
-        basestats 40, 55, 55, 55, 55, 70
+        basestats 40, 50, 55, 55, 50, 70
     .else
         basestats 40, 40, 55, 55, 40, 70
     .endif
@@ -9029,13 +9012,8 @@ mondata SPECIES_BALTOY, "Baltoy"
     mondexweight SPECIES_BALTOY, "47.4 lbs."
 
 
-// STATS: 70 >> 75 Atk | 70 >> 75 SpAtk | 500 >> 510 BST
 mondata SPECIES_CLAYDOL, "Claydol"
-    .if STAT_CHANGES_IMPLEMENTED
-        basestats 60, 75, 105, 75, 75, 120
-    .else
-        basestats 60, 70, 105, 75, 70, 120
-    .endif
+    basestats 60, 70, 105, 75, 70, 120
     types TYPE_GROUND, TYPE_PSYCHIC
     catchrate 90
     baseexp 0 // defined in baseexp.s
@@ -11566,7 +11544,6 @@ mondata SPECIES_SPIRITOMB, "Spiritomb"
     mondexweight SPECIES_SPIRITOMB, "238.1 lbs."
 
 
-// ABILITY: Rough Skin (2), Sand Force (HA)
 mondata SPECIES_GIBLE, "Gible"
     basestats 58, 70, 45, 42, 40, 45
     types TYPE_DRAGON, TYPE_GROUND
@@ -11593,7 +11570,6 @@ mondata SPECIES_GIBLE, "Gible"
     mondexweight SPECIES_GIBLE, "45.2 lbs."
 
 
-// ABILITY: Rough Skin (2), Sand Force (HA)
 mondata SPECIES_GABITE, "Gabite"
     basestats 68, 90, 65, 82, 50, 55
     types TYPE_DRAGON, TYPE_GROUND
@@ -11620,7 +11596,6 @@ mondata SPECIES_GABITE, "Gabite"
     mondexweight SPECIES_GABITE, "123.5 lbs."
 
 
-// ABILITY: Rough Skin (2), Sand Force (HA)
 mondata SPECIES_GARCHOMP, "Garchomp"
     basestats 108, 130, 95, 102, 80, 85
     types TYPE_DRAGON, TYPE_GROUND

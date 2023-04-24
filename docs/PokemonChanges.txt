@@ -104,6 +104,9 @@ Held Item: None
 Type: Fire
 
 New Moves:
+- None
+
+Level Up Moves:
 01 - Scratch
 01 - Growl 
 03 - Ember
@@ -130,6 +133,9 @@ Held Item: None
 Type: Fire
 
 New Moves:
+- None
+
+Level Up Moves:
 01 - Scratch
 01 - Growl 
 03 - Ember
@@ -16548,11 +16554,6 @@ Level Up Moves:
 100 - Judgment
 
 -------------------
-494 - Victini
--------------------
-Victini is not available in Aurora Crystal.
-
--------------------
 495 - Snivy
 -------------------
 Abilities: Overgrow / Overgrow / Contrary ⟶ Overgrow / Shed Skin** / Contrary
@@ -16653,6 +16654,9 @@ Base Stats: 65/63/45/45/45/45 (308)
 Held Item: None
 Type: Fire
 
+New Moves:
+- None
+
 Level Up Moves:
 01 - Tackle
 01 - Tail Whip
@@ -16678,6 +16682,9 @@ Abilities: Blaze / Blaze / Reckless ⟶ Blaze / Thick Fat / Reckless**
 Base Stats: 90/93/55/70/55/55 (418)
 Held Item: None
 Type: Fire / Fighting
+
+New Moves:
+- None
 
 Level Up Moves:
 01 - Tackle
@@ -16705,6 +16712,9 @@ Abilities: Blaze / Blaze / Reckless ⟶ Blaze / Thick Fat** / Reckless
 Base Stats: 110/123/65/100/65/65 (528) ⟶ 110/130*/65/100/65/65 (535)
 Held Item: None
 Type: Fire / Fighting
+
+New Moves:
+- None
 
 Level Up Moves:
 01 - Sucker Punch
@@ -16737,6 +16747,9 @@ Base Stats: 55/55/45/63/45/45 (308) ⟶ 55/63*/45/55*/45/45 (308)
 Held Item: None
 Type: Water
 
+New Moves:
+- None
+
 Level Up Moves:
 01 - Tackle
 01 - Tail Whip
@@ -16762,6 +16775,9 @@ Abilities: Torrent / Torrent / Shell Armor ⟶ Torrent / Shell Armor / Sharpness
 Base Stats: 75/75/60/83/60/60 (413) ⟶ 75/83*/60/75*/60/60 (413)
 Held Item: None
 Type: Water ⟶ Water / Fighting
+
+New Moves:
+- None
 
 Level Up Moves:
 01 - Tackle
@@ -16789,6 +16805,9 @@ Abilities: Torrent / Torrent / Shell Armor ⟶ Torrent / Shell Armor / Sharpness
 Base Stats: 95/100/85/108/70/70 (528) ⟶ 95/110*/80*/100*/65*/85* (535)
 Held Item: None
 Type: Water ⟶ Water / Fighting
+
+New Moves:
+- None
 
 Level Up Moves:
 01 - Smart Strike
@@ -16821,6 +16840,9 @@ Base Stats: 45/55/39/35/39/42 (255)
 Held Item: None
 Type: Normal
 
+New Moves:
+- None
+
 Level Up Moves:
 01 - Sand Attack
 01 - Tackle
@@ -16847,6 +16869,9 @@ Abilities: Illuminate / Keen Eye / Analytic
 Base Stats: 60/85/69/60/69/77 (420) ⟶ 70*/95*/69/60/69/77 (430)
 Held Item: None
 Type: Normal
+
+New Moves:
+- None
 
 Level Up Moves:
 01 - Assurance
@@ -16971,6 +16996,9 @@ Base Stats: 41/50/37/50/37/66 (281)
 Held Item: None
 Type: Dark
 
+New Moves:
+- None
+
 Level Up Moves:
 01 - Scratch
 01 - Growl
@@ -17000,6 +17028,9 @@ Abilities: Limber / Unburden / Prankster
 Base Stats: 64/88/50/88/50/106 (446) ⟶ 64/90*/50/90*/50/106 (450)
 Held Item: None
 Type: Dark
+
+New Moves:
+- None
 
 Level Up Moves:
 01 - Hone Claws
@@ -17243,6 +17274,9 @@ Base Stats: 76/25/45/67/55/24 (292)
 Held Item: None
 Type: Psychic
 
+New Moves:
+- None
+
 Level Up Moves:
 01 - Psywave
 01 - Defense Curl
@@ -17267,6 +17301,9 @@ Abilities: Forewarn / Synchronize / Telepathy
 Base Stats: 116/55/85/107/95/29 (487)
 Held Item: None
 Type: Psychic
+
+New Moves:
+- None
 
 Level Up Moves:
 01 - Magic Coat
@@ -17295,6 +17332,9 @@ Base Stats: 50/55/50/36/30/43 (264)
 Held Item: None
 Type: Normal / Flying
 
+New Moves:
+- None
+
 Level Up Moves:
 01 - Gust
 01 - Growl
@@ -17320,6 +17360,9 @@ Base Stats: 62/77/62/50/42/65 (358)
 Held Item: None
 Type: Normal / Flying
 
+New Moves:
+- None
+
 Level Up Moves:
 01 - Gust
 01 - Growl
@@ -17344,6 +17387,9 @@ Abilities: Big Pecks / Super Luck / Rivalry
 Base Stats: 80/115/80/65/55/93 (488) ⟶ 85*/115/80/65/55/98* (498)
 Held Item: None
 Type: Normal / Flying
+
+New Moves:
+- None
 
 Level Up Moves:
 01 - Night Slash
@@ -17525,6 +17571,9 @@ Base Stats: 65/45/43/55/43/72 (323)
 Held Item: None
 Type: Psychic / Flying
 
+New Moves:
+- None
+
 Level Up Moves:
 01 - Gust
 01 - Supersonic
@@ -17550,6 +17599,9 @@ Abilities: Unaware / Klutz / Simple
 Base Stats: 67/57/55/77/55/114 (425) ⟶ 67/67*/60*/87*/60*/114 (455)
 Held Item: None
 Type: Psychic / Flying
+
+New Moves:
+- None
 
 Level Up Moves:
 01 - Gust
@@ -17577,6 +17629,9 @@ Base Stats: 60/85/40/30/45/68 (328)
 Held Item: None
 Type: Ground
 
+New Moves:
+- None
+
 Level Up Moves:
 01 - Scratch
 01 - Mud-Slap
@@ -17601,6 +17656,9 @@ Abilities: Sand Rush / Sand Force / Mold Breaker
 Base Stats: 110/135/60/50/65/88 (508)
 Held Item: None
 Type: Ground
+
+New Moves:
+- None
 
 Level Up Moves:
 01 - Submission
@@ -17630,6 +17688,9 @@ Abilities: Healer / Regenerator / Klutz
 Base Stats: 103/60/86/60/86/50 (445) ⟶ 103/60/86/80*/86/50 (465)
 Held Item: Oran Berry (50%), Sitrus Berry (5%)
 Type: Normal ⟶ Normal / Fairy
+
+New Moves:
+- None
 
 Level Up Moves:
 01 - Pound
@@ -17746,6 +17807,9 @@ Base Stats: 50/50/40/50/40/64 (294)
 Held Item: Pecha Berry (50%)
 Type: Water
 
+New Moves:
+- None
+
 Level Up Moves:
 01 - Bubble
 01 - Growl
@@ -17771,6 +17835,9 @@ Base Stats: 75/65/55/65/55/69 (384)
 Held Item: Pecha Berry (50%)
 Type: Water / Ground
 
+New Moves:
+- None
+
 Level Up Moves:
 01 - Bubble
 01 - Growl
@@ -17795,6 +17862,9 @@ Abilities: Swift Swim / Poison Touch / Water Absorb
 Base Stats: 105/95/75/85/75/74 (509)
 Held Item: Pecha Berry (50%)
 Type: Water / Ground
+
+New Moves:
+- None
 
 Level Up Moves:
 01 - Drain Punch
@@ -17824,6 +17894,9 @@ Base Stats: 120/110/85/30/85/45 (465)
 Held Item: Black Belt (5%)
 Type: Fighting
 
+New Moves:
+- None
+
 Level Up Moves:
 01 - Bind
 01 - Leer
@@ -17847,6 +17920,9 @@ Abilities: Sturdy / Inner Focus / Mold Breaker
 Base Stats: 75/125/75/30/75/85 (465)
 Held Item: Black Belt (5%)
 Type: Fighting
+
+New Moves:
+- None
 
 Level Up Moves:
 01 - Karate Chop
@@ -17872,6 +17948,9 @@ Base Stats: 45/53/70/40/60/42 (310)
 Held Item: Mental Herb (5%)
 Type: Bug / Grass
 
+New Moves:
+- None
+
 Level Up Moves:
 01 - Tackle
 01 - String Shot
@@ -17890,6 +17969,9 @@ Base Stats: 55/63/90/50/80/42 (380)
 Held Item: Mental Herb (5%)
 Type: Bug / Grass
 
+New Moves:
+- None
+
 Level Up Moves:
 01 - Grass Whistle
 01 - Tackle
@@ -17905,6 +17987,9 @@ Abilities: Swarm / Chlorophyll / Overcoat
 Base Stats: 75/103/80/70/80/92 (500)
 Held Item: Mental Herb (5%)
 Type: Bug / Grass
+
+New Moves:
+- None
 
 Level Up Moves:
 01 - Grass Whistle
@@ -17931,6 +18016,9 @@ Base Stats: 30/45/59/30/39/57 (260)
 Held Item: Poison Barb (5%)
 Type: Bug / Poison
 
+New Moves:
+- None
+
 Level Up Moves:
 01 - Poison Sting
 01 - Defense Curl
@@ -17954,6 +18042,9 @@ Abilities: Poison Point / Swarm / Speed Boost
 Base Stats: 40/55/99/40/79/47 (360)
 Held Item: Poison Barb (5%)
 Type: Bug / Poison
+
+New Moves:
+- None
 
 Level Up Moves:
 01 - Poison Sting
@@ -17979,6 +18070,9 @@ Abilities: Poison Point / Swarm / Speed Boost
 Base Stats: 60/100/89/55/69/112 (485)
 Held Item: Poison Barb (5%)
 Type: Bug / Poison
+
+New Moves:
+- None
 
 Level Up Moves:
 01 - Poison Sting
@@ -18006,6 +18100,9 @@ Base Stats: 40/27/60/37/50/66 (280)
 Held Item: None
 Type: Grass / Fairy
 
+New Moves:
+- None
+
 Level Up Moves:
 01 - Helping Hand
 01 - Absorb
@@ -18032,6 +18129,9 @@ Abilities: Prankster / Infiltrator / Chlorophyll
 Base Stats: 60/67/85/77/75/116 (480)
 Held Item: None
 Type: Grass / Fairy
+
+New Moves:
+- None
 
 Level Up Moves:
 01 - Helping Hand
@@ -18128,6 +18228,9 @@ Base Stats: 70/92/65/80/55/98 (460)
 Held Item: Deep Sea Tooth (5%)
 Type: Water
 
+New Moves:
+- None
+
 Level Up Moves:
 01 - Tackle
 01 - Tail Whip
@@ -18153,6 +18256,9 @@ Base Stats: 70/92/65/80/55/98 (460)
 Held Item: None
 Type: Water
 
+New Moves:
+- None
+
 Level Up Moves:
 01 - Tackle
 01 - Tail Whip
@@ -18177,6 +18283,9 @@ Abilities: Intimidate / Moxie / Anger Point
 Base Stats: 50/72/35/35/35/65 (292)
 Held Item: None
 Type: Ground / Dark
+
+New Moves:
+- None
 
 Level Up Moves:
 01 - Rage
@@ -18207,6 +18316,9 @@ Base Stats: 60/82/45/45/45/74 (351)
 Held Item: None
 Type: Ground / Dark
 
+New Moves:
+- None
+
 Level Up Moves:
 01 - Rage
 01 - Leer
@@ -18235,6 +18347,9 @@ Abilities: Intimidate / Moxie / Anger Point
 Base Stats: 95/117/80/65/70/92 (519)
 Held Item: None
 Type: Ground / Dark
+
+New Moves:
+- None
 
 Level Up Moves:
 01 - Fire Fang
@@ -18268,6 +18383,9 @@ Base Stats: 70/90/45/15/45/50 (315)
 Held Item: Rawst Berry (50%)
 Type: Fire
 
+New Moves:
+- None
+
 Level Up Moves:
 01 - Tackle
 01 - Taunt
@@ -18292,6 +18410,9 @@ Abilities: Sheer Force / Sheer Force / Zen Mode
 Base Stats: 105/140/55/30/55/95 (480)
 Held Item: Rawst Berry (50%)
 Type: Fire
+
+New Moves:
+- None
 
 Level Up Moves:
 01 - Tackle
@@ -18319,6 +18440,9 @@ Base Stats: 105/30/105/140/105/55 (540)
 Held Item: None
 Type: Fire / Psychic
 
+New Moves:
+- None
+
 Level Up Moves:
 01 - Tackle
 01 - Taunt
@@ -18344,6 +18468,9 @@ Abilities: Water Absorb / Chlorophyll / Storm Drain
 Base Stats: 75/86/67/106/67/60 (461) ⟶ 75/86/67/116*/67/60 (471)
 Held Item: Miracle Seed (5%)
 Type: Grass
+
+New Moves:
+- None
 
 Level Up Moves:
 01 - Grass Whistle
@@ -18377,6 +18504,9 @@ Base Stats: 50/65/85/35/35/55 (325)
 Held Item: Hard Stone (5%)
 Type: Bug / Rock
 
+New Moves:
+- None
+
 Level Up Moves:
 01 - Fury Cutter
 01 - Sand Attack
@@ -18403,6 +18533,9 @@ Abilities: Sturdy / Shell Armor / Weak Armor
 Base Stats: 70/105/125/65/75/45 (485)
 Held Item: Hard Stone (5%)
 Type: Bug / Rock
+
+New Moves:
+- None
 
 Level Up Moves:
 01 - Night Slash
@@ -18432,6 +18565,9 @@ Base Stats: 50/75/70/35/70/48 (348)
 Held Item: Shed Shell (5%)
 Type: Dark / Fighting
 
+New Moves:
+- None
+
 Level Up Moves:
 01 - Headbutt
 01 - Leer
@@ -18457,6 +18593,9 @@ Abilities: Shed Skin / Moxie / Intimidate
 Base Stats: 65/90/115/45/115/58 (488)
 Held Item: Shed Shell (5%)
 Type: Dark / Fighting
+
+New Moves:
+- None
 
 Level Up Moves:
 01 - Zen Headbutt
@@ -18485,6 +18624,9 @@ Abilities: Wonder Skin / Magic Guard / Tinted Lens
 Base Stats: 72/58/80/103/80/97 (490)
 Held Item: None
 Type: Psychic / Flying
+
+New Moves:
+- None
 
 Level Up Moves:
 01 - Psycho Shift
@@ -18516,6 +18658,9 @@ Abilities: Mummy / Mummy / Mummy
 Base Stats: 38/30/85/55/65/30 (303)
 Held Item: Spell Tag (5%)
 Type: Ghost
+
+New Moves:
+- None
 
 Level Up Moves:
 01 - Astonish
@@ -18634,6 +18779,9 @@ Base Stats: 55/112/45/74/45/70 (401)
 Held Item: None
 Type: Rock / Flying
 
+New Moves:
+- None
+
 Level Up Moves:
 01 - Quick Attack
 01 - Leer
@@ -18660,6 +18808,9 @@ Abilities: Defeatist / Defeatist / Defeatist
 Base Stats: 75/140/65/112/65/110 (567)
 Held Item: None
 Type: Rock / Flying
+
+New Moves:
+- None
 
 Level Up Moves:
 01 - Dragon Claw
@@ -18689,6 +18840,9 @@ Base Stats: 50/50/62/40/62/65 (329)
 Held Item: Black Sludge (5%)
 Type: Poison
 
+New Moves:
+- None
+
 Level Up Moves:
 01 - Pound
 01 - Recycle
@@ -18715,6 +18869,9 @@ Abilities: Stench / Sticky Hold / Aftermath
 Base Stats: 80/95/82/60/82/75 (474) ⟶ 80/105*/87*/60/87*/75 (494)
 Held Item: Black Sludge (5%)
 Type: Poison
+
+New Moves:
+- None
 
 Level Up Moves:
 01 - Self-Destruct
@@ -18746,6 +18903,9 @@ Base Stats: 40/65/40/80/40/65 (330)
 Held Item: None
 Type: Dark
 
+New Moves:
+- None
+
 Level Up Moves:
 01 - Scratch
 01 - Leer
@@ -18774,6 +18934,9 @@ Abilities: Illusion / Illusion / Illusion
 Base Stats: 60/105/60/120/60/105 (510)
 Held Item: None
 Type: Dark
+
+New Moves:
+- None
 
 Level Up Moves:
 01 - Extrasensory
@@ -18807,6 +18970,9 @@ Base Stats: 55/50/40/40/40/75 (300)
 Held Item: Chesto Berry (50%)
 Type: Normal
 
+New Moves:
+- None
+
 Level Up Moves:
 01 - Pound
 01 - Tail Whip
@@ -18832,6 +18998,9 @@ Abilities: Cute Charm / Technician / Skill Link
 Base Stats: 75/95/60/65/60/115 (470)
 Held Item: Chesto Berry (50%)
 Type: Normal
+
+New Moves:
+- None
 
 Level Up Moves:
 01 - Bullet Seed
@@ -18861,6 +19030,9 @@ Base Stats: 45/30/50/55/65/45 (290)
 Held Item: Persim Berry (50%)
 Type: Psychic
 
+New Moves:
+- None
+
 Level Up Moves:
 01 - Pound
 01 - Confusion
@@ -18888,6 +19060,9 @@ Base Stats: 60/45/70/75/85/55 (390)
 Held Item: Persim Berry (50%)
 Type: Psychic
 
+New Moves:
+- None
+
 Level Up Moves:
 01 - Pound
 01 - Confusion
@@ -18914,6 +19089,9 @@ Abilities: Frisk / Competitive / Shadow Tag ⟶ Frisk / Competitive / Magic Boun
 Base Stats: 70/55/95/95/110/65 (490)
 Held Item: Persim Berry (50%)
 Type: Psychic
+
+New Moves:
+- None
 
 Level Up Moves:
 01 - Miracle Eye
@@ -18946,6 +19124,9 @@ Base Stats: 45/30/40/105/50/20 (290)
 Held Item: Persim Berry (50%)
 Type: Psychic
 
+New Moves:
+- None
+
 Level Up Moves:
 01 - Confusion
 01 - Protect
@@ -18974,6 +19155,9 @@ Base Stats: 65/40/50/125/60/30 (370)
 Held Item: Persim Berry (50%)
 Type: Psychic
 
+New Moves:
+- None
+
 Level Up Moves:
 01 - Confusion
 01 - Protect
@@ -19001,6 +19185,9 @@ Abilities: Overcoat / Magic Guard / Regenerator
 Base Stats: 110/65/75/125/85/30 (490)
 Held Item: Persim Berry (50%)
 Type: Psychic
+
+New Moves:
+- None
 
 Level Up Moves:
 01 - Dizzy Punch
@@ -19032,6 +19219,9 @@ Abilities: Keen Eye / Big Pecks / Hydration ⟶ Keen Eye / Big Pecks / Gale Wing
 Base Stats: 62/44/50/44/50/55 (305) ⟶ 62/34*/50/54*/50/55 (305)
 Held Item: None
 Type: Water / Flying
+
+New Moves:
+- None
 
 Level Up Moves:
 01 - Water Gun
@@ -19287,6 +19477,9 @@ Base Stats: 50/75/45/40/45/60 (315)
 Held Item: None
 Type: Bug
 
+New Moves:
+- None
+
 Level Up Moves:
 01 - Peck
 01 - Leer
@@ -19314,6 +19507,9 @@ Abilities: Swarm / Shell Armor / Overcoat
 Base Stats: 70/135/105/60/105/20 (495)
 Held Item: None
 Type: Bug / Steel
+
+New Moves:
+- None
 
 Level Up Moves:
 01 - Smart Strike
@@ -19347,6 +19543,9 @@ Base Stats: 69/55/45/55/55/15 (294)
 Held Item: None
 Type: Grass / Poison
 
+New Moves:
+- None
+
 Level Up Moves:
 01 - Absorb
 01 - Growth
@@ -19373,6 +19572,9 @@ Base Stats: 114/85/70/85/80/30 (464)
 Held Item: None
 Type: Grass / Poison
 
+New Moves:
+- None
+
 Level Up Moves:
 01 - Absorb
 01 - Growth
@@ -19398,6 +19600,9 @@ Abilities: Water Absorb / Cursed Body / Damp
 Base Stats: 55/40/50/65/85/40 (335)
 Held Item: None
 Type: Water / Ghost
+
+New Moves:
+- None
 
 Level Up Moves:
 01 - Bubble
@@ -19428,6 +19633,9 @@ Base Stats: 100/60/70/85/105/60 (480)
 Held Item: None
 Type: Water / Ghost
 
+New Moves:
+- None
+
 Level Up Moves:
 01 - Bubble
 01 - Water Sport
@@ -19457,6 +19665,9 @@ Base Stats: 165/75/80/40/45/65 (470)
 Held Item: None
 Type: Water
 
+New Moves:
+- None
+
 Level Up Moves:
 01 - Helping Hand
 01 - Pound
@@ -19483,6 +19694,9 @@ Abilities: Compound Eyes / Unnerve / Swarm
 Base Stats: 50/47/50/57/50/65 (319)
 Held Item: None
 Type: Bug / Electric
+
+New Moves:
+- None
 
 Level Up Moves:
 01 - Spider Web
@@ -19511,6 +19725,9 @@ Abilities: Compound Eyes / Unnerve / Swarm
 Base Stats: 70/77/60/97/60/108 (472)
 Held Item: None
 Type: Bug / Electric
+
+New Moves:
+- None
 
 Level Up Moves:
 01 - Lunge
@@ -19541,6 +19758,9 @@ Base Stats: 44/50/91/24/86/10 (305)
 Held Item: Sticky Barb (5%)
 Type: Grass / Steel
 
+New Moves:
+- None
+
 Level Up Moves:
 01 - Spikes
 01 - Tackle
@@ -19569,6 +19789,9 @@ Abilities: Iron Barbs / Iron Barbs / Anticipation ⟶ Iron Barbs / Iron Barbs / 
 Base Stats: 74/94/131/54/116/20 (489)
 Held Item: Sticky Barb (5%)
 Type: Grass / Steel
+
+New Moves:
+- None
 
 Level Up Moves:
 01 - Heavy Slam
@@ -19692,6 +19915,9 @@ Base Stats: 35/55/40/45/40/60 (275)
 Held Item: None
 Type: Electric
 
+New Moves:
+- None
+
 Level Up Moves:
 01 - Tackle
 01 - Thunder Wave
@@ -19705,6 +19931,9 @@ Abilities: Levitate / Levitate / Levitate
 Base Stats: 65/85/70/75/70/40 (405)
 Held Item: None
 Type: Electric
+
+New Moves:
+- None
 
 Level Up Moves:
 01 - Bind
@@ -19731,6 +19960,9 @@ Abilities: Levitate / Levitate / Levitate
 Base Stats: 85/115/80/105/80/50 (515)
 Held Item: None
 Type: Electric
+
+New Moves:
+- None
 
 Level Up Moves:
 01 - Crush Claw
@@ -19759,6 +19991,9 @@ Base Stats: 55/55/55/85/55/30 (335)
 Held Item: None
 Type: Psychic
 
+New Moves:
+- None
+
 Level Up Moves:
 01 - Teleport
 01 - Confusion
@@ -19783,6 +20018,9 @@ Abilities: Telepathy / Synchronize / Analytic
 Base Stats: 75/75/75/125/95/40 (485)
 Held Item: None
 Type: Psychic
+
+New Moves:
+- None
 
 Level Up Moves:
 01 - Cosmic Power
@@ -19814,6 +20052,9 @@ Base Stats: 50/30/55/65/55/20 (275)
 Held Item: None
 Type: Ghost / Fire
 
+New Moves:
+- None
+
 Level Up Moves:
 01 - Astonish
 01 - Smog
@@ -19843,6 +20084,9 @@ Base Stats: 60/40/60/95/60/55 (370)
 Held Item: None
 Type: Ghost / Fire
 
+New Moves:
+- None
+
 Level Up Moves:
 01 - Astonish
 01 - Smog
@@ -19871,6 +20115,9 @@ Abilities: Flash Fire / Flame Body / Infiltrator
 Base Stats: 60/55/90/145/90/80 (520)
 Held Item: None
 Type: Ghost / Fire
+
+New Moves:
+- None
 
 Level Up Moves:
 01 - Clear Smog
@@ -19902,6 +20149,9 @@ Base Stats: 46/87/60/30/40/57 (320)
 Held Item: None
 Type: Dragon
 
+New Moves:
+- None
+
 Level Up Moves:
 01 - Scratch
 01 - Leer
@@ -19929,6 +20179,9 @@ Base Stats: 66/117/70/40/50/67 (410)
 Held Item: None
 Type: Dragon
 
+New Moves:
+- None
+
 Level Up Moves:
 01 - Scratch
 01 - Leer
@@ -19955,6 +20208,9 @@ Abilities: Rivalry / Mold Breaker / Unnerve
 Base Stats: 76/147/90/60/70/97 (540)
 Held Item: None
 Type: Dragon
+
+New Moves:
+- None
 
 Level Up Moves:
 01 - First Impression
@@ -19984,6 +20240,9 @@ Abilities: Snow Cloak / Slush Rush / Rattled
 Base Stats: 55/70/40/60/40/40 (305)
 Held Item: Aspear Berry (50%)
 Type: Ice
+
+New Moves:
+- None
 
 Level Up Moves:
 01 - Powder Snow
@@ -20049,6 +20308,9 @@ Base Stats: 80/50/50/95/135/105 (515)
 Held Item: Never-Melt Ice (5%)
 Type: Ice
 
+New Moves:
+- None
+
 Level Up Moves:
 01 - Bind
 01 - Sharpen
@@ -20078,6 +20340,9 @@ Abilities: Hydration / Shell Armor / Overcoat
 Base Stats: 50/40/85/40/65/25 (305)
 Held Item: None
 Type: Bug
+
+New Moves:
+- None
 
 Level Up Moves:
 01 - Absorb
@@ -20136,6 +20401,9 @@ Base Stats: 109/66/84/81/99/32 (471)
 Held Item: Soft Sand (5%)
 Type: Ground / Electric
 
+New Moves:
+- None
+
 Level Up Moves:
 01 - Mud Sport
 01 - Mud-Slap
@@ -20165,6 +20433,9 @@ Base Stats: 45/85/50/55/50/65 (350)
 Held Item: None
 Type: Fighting
 
+New Moves:
+- None
+
 Level Up Moves:
 01 - Pound
 01 - Meditate
@@ -20190,6 +20461,9 @@ Abilities: Inner Focus / Regenerator / Reckless
 Base Stats: 65/125/60/95/60/105 (510)
 Held Item: None
 Type: Fighting
+
+New Moves:
+- None
 
 Level Up Moves:
 01 - Me First
@@ -20217,6 +20491,9 @@ Abilities: Rough Skin / Sheer Force / Mold Breaker
 Base Stats: 77/120/90/60/90/48 (485)
 Held Item: Dragon Fang (5%)
 Type: Dragon
+
+New Moves:
+- None
 
 Level Up Moves:
 01 - Scratch
@@ -20246,6 +20523,9 @@ Base Stats: 59/74/50/35/50/35 (303)
 Held Item: Light Clay (5%)
 Type: Ground / Ghost
 
+New Moves:
+- None
+
 Level Up Moves:
 01 - Pound
 01 - Astonish
@@ -20271,6 +20551,9 @@ Abilities: Iron Fist / Klutz / No Guard
 Base Stats: 89/124/80/55/80/55 (483)
 Held Item: Light Clay (5%)
 Type: Ground / Ghost
+
+New Moves:
+- None
 
 Level Up Moves:
 01 - High Horsepower
@@ -20303,6 +20586,9 @@ Base Stats: 45/85/70/40/40/60 (340)
 Held Item: None
 Type: Dark / Steel
 
+New Moves:
+- None
+
 Level Up Moves:
 01 - Scratch
 01 - Leer
@@ -20330,6 +20616,9 @@ Abilities: Defiant / Inner Focus / Pressure
 Base Stats: 65/125/100/60/70/70 (490)
 Held Item: None
 Type: Dark / Steel
+
+New Moves:
+- None
 
 Level Up Moves:
 01 - Metal Burst
@@ -20359,6 +20648,9 @@ Abilities: Defiant / Supreme Overlord / Pressure
 Base Stats: 100/135/120/60/85/50 (550)
 Held Item: None
 Type: Dark / Steel
+
+New Moves:
+- None
 
 Level Up Moves:
 01 - Kowtow Cleave
@@ -20390,6 +20682,9 @@ Base Stats: 95/110/95/40/95/55 (490)
 Held Item: None
 Type: Normal
 
+New Moves:
+- None
+
 Level Up Moves:
 01 - Tackle
 01 - Leer
@@ -20418,6 +20713,9 @@ Base Stats: 70/83/50/37/50/60 (350)
 Held Item: None
 Type: Normal / Flying
 
+New Moves:
+- None
+
 Level Up Moves:
 01 - Peck
 01 - Leer
@@ -20441,6 +20739,9 @@ Abilities: Keen Eye / Sheer Force / Defiant
 Base Stats: 100/123/75/57/75/80 (510)
 Held Item: None
 Type: Normal / Flying
+
+New Moves:
+- None
 
 Level Up Moves:
 01 - Peck
@@ -20468,6 +20769,9 @@ Base Stats: 70/55/75/45/65/60 (370)
 Held Item: None
 Type: Dark / Flying
 
+New Moves:
+- None
+
 Level Up Moves:
 01 - Gust
 01 - Leer
@@ -20491,6 +20795,9 @@ Abilities: Big Pecks / Overcoat / Weak Armor
 Base Stats: 110/65/105/55/95/80 (510)
 Held Item: None
 Type: Dark / Flying
+
+New Moves:
+- None
 
 Level Up Moves:
 01 - Foul Play
@@ -20521,6 +20828,9 @@ Base Stats: 85/97/66/105/66/65 (484)
 Held Item: None
 Type: Fire
 
+New Moves:
+- None
+
 Level Up Moves:
 01 - Lick
 01 - Tackle
@@ -20549,6 +20859,9 @@ Base Stats: 58/109/112/48/48/109 (484)
 Held Item: None
 Type: Bug / Steel
 
+New Moves:
+- None
+
 Level Up Moves:
 01 - Vise Grip
 01 - Sand Attack
@@ -20573,6 +20886,9 @@ Abilities: Hustle / Hustle / Hustle
 Base Stats: 52/65/50/45/50/38 (300)
 Held Item: None
 Type: Dark / Dragon
+
+New Moves:
+- None
 
 Level Up Moves:
 01 - Tackle
@@ -20601,6 +20917,9 @@ Base Stats: 72/85/70/65/70/58 (420)
 Held Item: None
 Type: Dark / Dragon
 
+New Moves:
+- None
+
 Level Up Moves:
 01 - Tackle
 01 - Focus Energy
@@ -20628,6 +20947,9 @@ Abilities: Levitate / Levitate / Levitate
 Base Stats: 92/105/90/125/90/98 (600)
 Held Item: None
 Type: Dark / Dragon
+
+New Moves:
+- None
 
 Level Up Moves:
 01 - Dragon Pulse
@@ -20660,6 +20982,9 @@ Base Stats: 55/85/55/50/55/60 (360)
 Held Item: None
 Type: Bug / Fire
 
+New Moves:
+- None
+
 Level Up Moves:
 01 - Ember
 01 - String Shot
@@ -20682,6 +21007,9 @@ Abilities: Flame Body / Flame Body / Swarm
 Base Stats: 85/60/65/135/105/100 (550)
 Held Item: Silver Powder (100%)
 Type: Bug / Fire
+
+New Moves:
+- None
 
 Level Up Moves:
 01 - Morning Sun

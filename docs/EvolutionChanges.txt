@@ -1,4 +1,5 @@
 All Pokémon that evolve into their final forms by level can be fully evolved by Level 40, except for psuedo legends, Fraxure and Larvesta (and Vibrava if stat changes are not applied).
+Friendship evolutions still happen once the Pokémon reaches 220+ friendship and levels up.
 
 All methods listed below replace the original evolution method unless explicitly stated otherwise.
 

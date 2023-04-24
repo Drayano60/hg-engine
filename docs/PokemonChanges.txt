@@ -1,3 +1,5 @@
+The base friendship remains as it was in earlier generations (so those with a base friendship of 50 will have 70 here).
+
 -------------------
 001 - Bulbasaur
 -------------------

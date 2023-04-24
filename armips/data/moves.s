@@ -7634,7 +7634,7 @@ movedata MOVE_SHADOW_FORCE, "Shadow Force"
     terminatedata
     movedescription MOVE_SHADOW_FORCE, "The user disappears,\nthen strikes the foe\non the second turn.\nIt hits even if the\nfoe protects itself."
 
-movedata MOVE_SHADOW_FORCE+1, "--"
+movedata MOVE_468, "--1"
     battleeffect 0
     pss SPLIT_SPECIAL
     basepower 100
@@ -7648,9 +7648,9 @@ movedata MOVE_SHADOW_FORCE+1, "--"
     appeal 0x10
     contesttype CONTEST_BEAUTY
     terminatedata
-    movedescription MOVE_SHADOW_FORCE+1, "--"
+    movedescription MOVE_468, "---1"
 
-movedata MOVE_SHADOW_FORCE+2, "--"
+movedata MOVE_469, "--2"
     battleeffect 0
     pss SPLIT_SPECIAL
     basepower 100
@@ -7664,9 +7664,9 @@ movedata MOVE_SHADOW_FORCE+2, "--"
     appeal 0x11
     contesttype CONTEST_CUTE
     terminatedata
-    movedescription MOVE_SHADOW_FORCE+2, "--"
+    movedescription MOVE_469, "---2"
 
-movedata MOVE_SHADOW_FORCE+3, "--"
+movedata MOVE_470, "--3"
     battleeffect 0
     pss SPLIT_SPECIAL
     basepower 100
@@ -7680,7 +7680,7 @@ movedata MOVE_SHADOW_FORCE+3, "--"
     appeal 0x12
     contesttype CONTEST_SMART
     terminatedata
-    movedescription MOVE_SHADOW_FORCE+3, "--"
+    movedescription MOVE_470, "---3"
 
 movedata MOVE_HONE_CLAWS, "Hone Claws"
     battleeffect 50 // NOTE: This is for AI reasons, it still uses the Hone Claws effect.

@@ -1,4 +1,6 @@
 The base friendship remains as it was in earlier generations (so those with a base friendship of 50 will have 70 here).
+Egg groups are updated to match modern gens (affects the Ralts and Trapinch lines).
+All Pokémon have been set to have a run chance value of 25 (out of 255) in the Safari Zone, which means on any turn they will have a ~10% chance to flee (before any bait/mud modifiers).
 
 -------------------
 001 - Bulbasaur

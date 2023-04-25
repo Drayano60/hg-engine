@@ -26,12 +26,12 @@ Level Up Moves:
 20 - Sweet Scent
 24 - Take Down
 28 - Seed Bomb
-34 - Synthesis
-39 - Nature Power
-44 - Worry Seed
-49 - Power Whip
-54 - Double-Edge
-59 - Solar Beam
+35 - Synthesis
+40 - Nature Power
+45 - Worry Seed
+50 - Power Whip
+55 - Double-Edge
+60 - Solar Beam
 
 -------------------
 002 - Ivysaur
@@ -58,12 +58,12 @@ Level Up Moves:
 20 - Sweet Scent
 24 - Take Down
 28 - Seed Bomb
-34 - Synthesis
-39 - Nature Power
-44 - Worry Seed
-49 - Power Whip
-54 - Double-Edge
-59 - Solar Beam
+35 - Synthesis
+40 - Nature Power
+45 - Worry Seed
+50 - Power Whip
+55 - Double-Edge
+60 - Solar Beam
 
 -------------------
 003 - Venusaur
@@ -92,12 +92,12 @@ Level Up Moves:
 24 - Take Down
 28 - Seed Bomb
 32 - Petal Dance
-34 - Synthesis
-39 - Nature Power
-44 - Worry Seed
-49 - Power Whip
-54 - Double-Edge
-59 - Solar Beam
+35 - Synthesis
+40 - Nature Power
+45 - Worry Seed
+50 - Power Whip
+55 - Double-Edge
+60 - Solar Beam
 
 -------------------
 004 - Charmander
@@ -122,11 +122,11 @@ Level Up Moves:
 24 - Fire Fang
 28 - Slash
 32 - Flamethrower
-39 - Hone Claws
-44 - Dragon Rush
-49 - Belly Drum
-54 - Inferno
-59 - Flare Blitz
+40 - Hone Claws
+45 - Dragon Rush
+50 - Belly Drum
+55 - Inferno
+60 - Flare Blitz
 
 -------------------
 005 - Charmeleon
@@ -152,11 +152,11 @@ Level Up Moves:
 24 - Fire Fang
 28 - Slash
 32 - Flamethrower
-39 - Hone Claws
-44 - Dragon Rush
-49 - Belly Drum
-54 - Inferno
-59 - Flare Blitz
+40 - Hone Claws
+45 - Dragon Rush
+50 - Belly Drum
+55 - Inferno
+60 - Flare Blitz
 
 -------------------
 006 - Charizard
@@ -187,11 +187,11 @@ Level Up Moves:
 28 - Slash
 32 - Flamethrower
 36 - Air Slash
-39 - Hone Claws
-44 - Dragon Rush
-49 - Belly Drum
-54 - Inferno
-59 - Flare Blitz
+40 - Hone Claws
+45 - Dragon Rush
+50 - Belly Drum
+55 - Inferno
+60 - Flare Blitz
 
 -------------------
 007 - Squirtle
@@ -217,11 +217,11 @@ Level Up Moves:
 24 - Yawn
 28 - Aqua Tail
 32 - Rain Dance
-39 - Iron Defense
-44 - Skull Bash
-49 - Hydro Pump
-54 - Shell Smash
-59 - Water Spout
+40 - Iron Defense
+45 - Skull Bash
+50 - Hydro Pump
+55 - Shell Smash
+60 - Water Spout
 
 -------------------
 008 - Wartortle
@@ -248,11 +248,11 @@ Level Up Moves:
 24 - Yawn
 28 - Aqua Tail
 32 - Rain Dance
-39 - Iron Defense
-44 - Skull Bash
-49 - Hydro Pump
-54 - Shell Smash
-59 - Water Spout
+40 - Iron Defense
+45 - Skull Bash
+50 - Hydro Pump
+55 - Shell Smash
+60 - Water Spout
 
 -------------------
 009 - Blastoise
@@ -282,11 +282,11 @@ Level Up Moves:
 28 - Aqua Tail
 32 - Rain Dance
 36 - Flash Cannon
-39 - Iron Defense
-44 - Skull Bash
-49 - Hydro Pump
-54 - Shell Smash
-59 - Water Spout
+40 - Iron Defense
+45 - Skull Bash
+50 - Hydro Pump
+55 - Shell Smash
+60 - Water Spout
 
 -------------------
 010 - Caterpie
@@ -445,13 +445,13 @@ Level Up Moves:
 24 - Air Slash
 28 - Feather Dance
 32 - Agility
-39 - Roost
-44 - Tailwind
-49 - Mirror Move
-54 - Hurricane*
-59 - Sky Attack
+40 - Roost
+45 - Tailwind
+50 - Mirror Move
+55 - Hurricane*
+60 - Sky Attack
 
-* If stat changes are removed, Pidgey instead learns Wing Attack at Lv. 12 and Brave Bird at Lv. 54.
+* If stat changes are removed, Pidgey instead learns Wing Attack at Lv. 12 and Brave Bird at Lv. 55.
 
 -------------------
 017 - Pidgeotto
@@ -478,13 +478,13 @@ Level Up Moves:
 24 - Air Slash
 28 - Feather Dance
 32 - Agility
-39 - Roost
-44 - Tailwind
-49 - Mirror Move
-54 - Hurricane*
-59 - Sky Attack
+40 - Roost
+45 - Tailwind
+50 - Mirror Move
+55 - Hurricane*
+60 - Sky Attack
 
-* If stat changes are removed, Pidgeotto instead learns Wing Attack at Lv. 12 and Brave Bird at Lv. 54.
+* If stat changes are removed, Pidgeotto instead learns Wing Attack at Lv. 12 and Brave Bird at Lv. 55.
 
 -------------------
 018 - Pidgeot
@@ -515,13 +515,13 @@ Level Up Moves:
 28 - Feather Dance
 32 - Agility
 36 - Razor Wind
-39 - Roost
-44 - Tailwind
-49 - Mirror Move
-54 - Hurricane*
-59 - Sky Attack
+40 - Roost
+45 - Tailwind
+50 - Mirror Move
+55 - Hurricane*
+60 - Sky Attack
 
-* If stat changes are removed, Pidgeot instead learns Wing Attack at Lv. 12 and Brave Bird at Lv. 54.
+* If stat changes are removed, Pidgeot instead learns Wing Attack at Lv. 12 and Brave Bird at Lv. 55.
 
 -------------------
 019 - Rattata
@@ -967,9 +967,9 @@ Level Up Moves:
 36 - Crunch
 40 - Captivate
 44 - Earth Power
-49 - Body Slam
-54 - Superpower
-59 - Double-Edge
+50 - Body Slam
+56 - Superpower
+62 - Double-Edge
 
 -------------------
 032 - Nidoran♂
@@ -1055,9 +1055,9 @@ Level Up Moves:
 36 - Drill Run
 40 - Captivate
 44 - Horn Drill
-49 - Thrash
-54 - Megahorn
-59 - Head Smash
+50 - Thrash
+56 - Megahorn
+62 - Head Smash
 
 -------------------
 173 - Cleffa
@@ -1921,13 +1921,13 @@ Level Up Moves:
 16 - Seismic Toss
 20 - Assurance
 24 - Cross Chop
-29 - Swagger
-34 - Punishment
-39 - Thrash
-44 - U-turn
-49 - Outrage
-54 - Close Combat
-59 - Final Gambit
+30 - Swagger
+35 - Punishment
+40 - Thrash
+45 - U-turn
+50 - Outrage
+55 - Close Combat
+60 - Final Gambit
 
 -------------------
 057 - Primeape
@@ -1952,13 +1952,13 @@ Level Up Moves:
 20 - Assurance
 24 - Cross Chop
 28 - Rage
-29 - Swagger
-34 - Punishment
-39 - Thrash
-44 - Rage Fist
-49 - Outrage
-54 - Close Combat
-59 - Final Gambit
+30 - Swagger
+35 - Punishment
+40 - Thrash
+45 - Rage Fist
+50 - Outrage
+55 - Close Combat
+60 - Final Gambit
 
 -------------------
 979 - Annihilape
@@ -1985,13 +1985,13 @@ Level Up Moves:
 20 - Assurance
 24 - Cross Chop
 28 - Rage
-29 - Swagger
-34 - Punishment
-39 - Thrash
-44 - Rage Fist
-49 - Outrage
-54 - Close Combat
-59 - Final Gambit
+30 - Swagger
+35 - Punishment
+40 - Thrash
+45 - Rage Fist
+50 - Outrage
+55 - Close Combat
+60 - Final Gambit
 
 -------------------
 058 - Growlithe
@@ -2277,13 +2277,13 @@ Level Up Moves:
 18 - Vital Throw
 21 - Knock Off
 24 - Revenge
-29 - Dual Chop
-34 - Submission
-39 - Bulk Up
-44 - Cross Chop
-49 - Scary Face
-54 - Dynamic Punch
-59 - Close Combat
+30 - Dual Chop
+35 - Submission
+40 - Bulk Up
+45 - Cross Chop
+50 - Scary Face
+55 - Dynamic Punch
+60 - Close Combat
 
 -------------------
 067 - Machoke
@@ -2307,13 +2307,13 @@ Level Up Moves:
 18 - Vital Throw
 21 - Knock Off
 24 - Revenge
-29 - Dual Chop
-34 - Submission
-39 - Bulk Up
-44 - Cross Chop
-49 - Scary Face
-54 - Dynamic Punch
-59 - Close Combat
+30 - Dual Chop
+35 - Submission
+40 - Bulk Up
+45 - Cross Chop
+50 - Scary Face
+55 - Dynamic Punch
+60 - Close Combat
 
 -------------------
 068 - Machamp
@@ -2341,13 +2341,13 @@ Level Up Moves:
 18 - Vital Throw
 21 - Knock Off
 24 - Revenge
-29 - Dual Chop
-34 - Submission
-39 - Bulk Up
-44 - Cross Chop
-49 - Scary Face
-54 - Dynamic Punch
-59 - Close Combat
+30 - Dual Chop
+35 - Submission
+40 - Bulk Up
+45 - Cross Chop
+50 - Scary Face
+55 - Dynamic Punch
+60 - Close Combat
 
 -------------------
 069 - Bellsprout
@@ -2544,13 +2544,13 @@ Level Up Moves:
 18 - Magnitude
 21 - Self-Destruct
 24 - Stealth Rock
-29 - Rock Blast
-34 - Hammer Arm
-39 - Earthquake
-44 - Stone Edge
-49 - Double-Edge
-54 - Head Smash
-59 - Explosion
+30 - Rock Blast
+35 - Hammer Arm
+40 - Earthquake
+45 - Stone Edge
+50 - Double-Edge
+55 - Head Smash
+60 - Explosion
 
 -------------------
 075 - Graveler
@@ -2576,13 +2576,13 @@ Level Up Moves:
 18 - Magnitude
 21 - Self-Destruct
 24 - Stealth Rock
-29 - Rock Blast
-34 - Hammer Arm
-39 - Earthquake
-44 - Stone Edge
-49 - Double-Edge
-54 - Head Smash
-59 - Explosion
+30 - Rock Blast
+35 - Hammer Arm
+40 - Earthquake
+45 - Stone Edge
+50 - Double-Edge
+55 - Head Smash
+60 - Explosion
 
 -------------------
 076 - Golem
@@ -2612,13 +2612,13 @@ Level Up Moves:
 18 - Magnitude
 21 - Self-Destruct
 24 - Stealth Rock
-29 - Rock Blast
-34 - Hammer Arm
-39 - Earthquake
-44 - Stone Edge
-49 - Double-Edge
-54 - Head Smash
-59 - Explosion
+30 - Rock Blast
+35 - Hammer Arm
+40 - Earthquake
+45 - Stone Edge
+50 - Double-Edge
+55 - Head Smash
+60 - Explosion
 
 -------------------
 077 - Ponyta
@@ -2645,10 +2645,10 @@ Level Up Moves:
 24 - Agility
 28 - Fire Spin
 32 - Blaze Kick
-39 - Jump Kick
-44 - Inferno
-49 - Bounce
-54 - Flare Blitz
+40 - Jump Kick
+45 - Inferno
+50 - Bounce
+55 - Flare Blitz
 
 -------------------
 078 - Rapidash
@@ -2680,11 +2680,11 @@ Level Up Moves:
 28 - Fire Spin
 32 - Blaze Kick
 35 - Smart Strike
-39 - Jump Kick
-44 - Inferno
-49 - Bounce
-54 - Flare Blitz
-59 - Extreme Speed
+40 - Jump Kick
+45 - Inferno
+50 - Bounce
+55 - Flare Blitz
+60 - Extreme Speed
 
 -------------------
 079 - Slowpoke
@@ -2802,12 +2802,12 @@ Level Up Moves:
 20 - Charge Beam
 24 - Mirror Shot
 28 - Magnet Rise
-34 - Flash Cannon
-39 - Discharge
-44 - Metal Sound
-49 - Light Screen
-54 - Lock-On
-59 - Zap Cannon
+35 - Flash Cannon
+40 - Discharge
+45 - Metal Sound
+50 - Light Screen
+55 - Lock-On
+60 - Zap Cannon
 
 -------------------
 082 - Magneton
@@ -2832,12 +2832,12 @@ Level Up Moves:
 24 - Mirror Shot
 28 - Magnet Rise
 30 - Tri Attack
-34 - Flash Cannon
-39 - Discharge
-44 - Metal Sound
-49 - Light Screen
-54 - Lock-On
-59 - Zap Cannon
+35 - Flash Cannon
+40 - Discharge
+45 - Metal Sound
+50 - Light Screen
+55 - Lock-On
+60 - Zap Cannon
 
 -------------------
 462 - Magnezone
@@ -2865,13 +2865,13 @@ Level Up Moves:
 24 - Mirror Shot
 28 - Magnet Rise
 30 - Tri Attack
-34 - Flash Cannon
-39 - Discharge
-44 - Metal Sound
-49 - Light Screen
-54 - Lock-On
-59 - Zap Cannon
-64 - Hyper Beam
+35 - Flash Cannon
+40 - Discharge
+45 - Metal Sound
+50 - Light Screen
+55 - Lock-On
+60 - Zap Cannon
+65 - Hyper Beam
 
 -------------------
 083 - Farfetch’d
@@ -3214,13 +3214,13 @@ Level Up Moves:
 18 - Curse
 21 - Hex
 24 - Sucker Punch
-29 - Nightmare
-34 - Shadow Ball
-39 - Dark Pulse
-44 - Sludge Wave
-49 - Dream Eater
-54 - Nasty Plot
-59 - Destiny Bond
+30 - Nightmare
+35 - Shadow Ball
+40 - Dark Pulse
+45 - Sludge Wave
+50 - Dream Eater
+55 - Nasty Plot
+60 - Destiny Bond
 
 -------------------
 093 - Haunter
@@ -3248,13 +3248,13 @@ Level Up Moves:
 21 - Hex
 24 - Sucker Punch
 25 - Shadow Punch
-29 - Nightmare
-34 - Shadow Ball
-39 - Dark Pulse
-44 - Sludge Wave
-49 - Dream Eater
-54 - Nasty Plot
-59 - Destiny Bond
+30 - Nightmare
+35 - Shadow Ball
+40 - Dark Pulse
+45 - Sludge Wave
+50 - Dream Eater
+55 - Nasty Plot
+60 - Destiny Bond
 
 -------------------
 094 - Gengar
@@ -3285,13 +3285,13 @@ Level Up Moves:
 21 - Hex
 24 - Sucker Punch
 25 - Shadow Punch
-29 - Nightmare
-34 - Shadow Ball
-39 - Dark Pulse
-44 - Sludge Wave
-49 - Dream Eater
-54 - Nasty Plot
-59 - Destiny Bond
+30 - Nightmare
+35 - Shadow Ball
+40 - Dark Pulse
+45 - Sludge Wave
+50 - Dream Eater
+55 - Nasty Plot
+60 - Destiny Bond
 
 -------------------
 095 - Onix
@@ -3389,13 +3389,13 @@ Level Up Moves:
 18 - Headbutt
 21 - Wake-Up Slap
 24 - Zen Headbutt
-29 - Psyshock
-34 - Psych Up
-39 - Psychic
-44 - Barrier
-49 - Nasty Plot
-54 - Belly Drum
-59 - Future Sight
+30 - Psyshock
+35 - Psych Up
+40 - Psychic
+45 - Barrier
+50 - Nasty Plot
+55 - Belly Drum
+60 - Future Sight
 
 -------------------
 097 - Hypno
@@ -3426,13 +3426,13 @@ Level Up Moves:
 18 - Headbutt
 21 - Wake-Up Slap
 24 - Zen Headbutt
-29 - Psyshock
-34 - Psych Up
-39 - Psychic
-44 - Barrier
-49 - Nasty Plot
-54 - Belly Drum
-59 - Future Sight
+30 - Psyshock
+35 - Psych Up
+40 - Psychic
+45 - Barrier
+50 - Nasty Plot
+55 - Belly Drum
+60 - Future Sight
 
 -------------------
 098 - Krabby
@@ -3654,13 +3654,13 @@ Level Up Moves:
 16 - Rage
 20 - Revenge
 24 - Bonemerang
-29 - Brutal Swing
-34 - Focus Energy
-39 - Bone Rush
-44 - Thrash
-49 - Endeavor
-54 - Double-Edge
-59 - Skull Bash
+30 - Brutal Swing
+35 - Focus Energy
+40 - Bone Rush
+45 - Thrash
+50 - Endeavor
+55 - Double-Edge
+60 - Skull Bash
 
 -------------------
 105 - Marowak
@@ -3685,13 +3685,13 @@ Level Up Moves:
 16 - Rage
 20 - Revenge
 24 - Bonemerang
-29 - Brutal Swing
-34 - Focus Energy
-39 - Bone Rush
-44 - Thrash
-49 - Endeavor
-54 - Double-Edge
-59 - Skull Bash
+30 - Brutal Swing
+35 - Focus Energy
+40 - Bone Rush
+45 - Thrash
+50 - Endeavor
+55 - Double-Edge
+60 - Skull Bash
 
 -------------------
 236 - Tyrogue
@@ -3901,11 +3901,11 @@ Level Up Moves:
 24 - Haze
 28 - Sludge Bomb
 32 - Self-Destruct
-39 - Pain Split
-44 - Explosion
-49 - Memento
-54 - Gunk Shot
-59 - Destiny Bond
+40 - Pain Split
+45 - Explosion
+50 - Memento
+55 - Gunk Shot
+60 - Destiny Bond
 
 -------------------
 110 - Weezing
@@ -3932,11 +3932,11 @@ Level Up Moves:
 28 - Sludge Bomb
 32 - Self-Destruct
 35 - Double Hit
-39 - Pain Split
-44 - Explosion
-49 - Memento
-54 - Gunk Shot
-59 - Destiny Bond
+40 - Pain Split
+45 - Explosion
+50 - Memento
+55 - Gunk Shot
+60 - Destiny Bond
 
 -------------------
 111 - Rhyhorn
@@ -4670,11 +4670,11 @@ Level Up Moves:
 21 - Low Kick
 24 - Thunder Punch
 28 - Screech
-34 - Discharge
-39 - Cross Chop
-44 - Thunderbolt
-49 - Light Screen
-54 - Thunder
+35 - Discharge
+40 - Cross Chop
+45 - Thunderbolt
+50 - Light Screen
+55 - Thunder
 
 -------------------
 125 - Electabuzz
@@ -4699,12 +4699,11 @@ Level Up Moves:
 21 - Low Kick
 24 - Thunder Punch
 28 - Screech
-34 - Discharge
-39 - Cross Chop
-44 - Thunderbolt
-49 - Light Screen
-54 - Thunder
-59 - Giga Impact
+35 - Discharge
+40 - Cross Chop
+45 - Thunderbolt
+50 - Light Screen
+55 - Thunder
 
 -------------------
 466 - Electivire
@@ -4737,15 +4736,15 @@ Level Up Moves:
 21 - Low Kick
 24 - Thunder Punch
 28 - Screech
-34 - Discharge
-39 - Cross Chop
-44 - Thunderbolt
-49 - Light Screen
-54 - Close Combat*
-59 - Giga Impact
-64 - Volt Tackle
+35 - Discharge
+40 - Cross Chop
+45 - Wild Charge
+50 - Light Screen
+55 - Close Combat*
+60 - Volt Tackle
+65 - Giga Impact
 
-* If type changes are removed, Electivire instead learns Thunder at Lv. 54.
+* If type changes are removed, Electivire instead learns Thunder at Lv. 55.
 
 -------------------
 240 - Magby
@@ -4770,11 +4769,11 @@ Level Up Moves:
 21 - Low Kick
 24 - Fire Punch
 28 - Scary Face
-34 - Lava Plume
-39 - Cross Chop
-44 - Flamethrower
-49 - Sunny Day
-54 - Fire Blast
+35 - Lava Plume
+40 - Cross Chop
+45 - Flamethrower
+50 - Sunny Day
+55 - Fire Blast
 
 -------------------
 126 - Magmar
@@ -4799,12 +4798,11 @@ Level Up Moves:
 21 - Low Kick
 24 - Fire Punch
 28 - Scary Face
-34 - Lava Plume
-39 - Cross Chop
-44 - Flamethrower
-49 - Sunny Day
-54 - Fire Blast
-59 - Hyper Beam
+35 - Lava Plume
+40 - Cross Chop
+45 - Flamethrower
+50 - Sunny Day
+55 - Fire Blast
 
 -------------------
 467 - Magmortar
@@ -4835,13 +4833,13 @@ Level Up Moves:
 21 - Low Kick
 24 - Fire Punch
 28 - Scary Face
-34 - Lava Plume
-39 - Cross Chop
-44 - Flamethrower
-49 - Sunny Day
-54 - Fire Blast
-59 - Hyper Beam
-64 - Magma Storm
+35 - Lava Plume
+40 - Cross Chop
+45 - Flamethrower
+50 - Sunny Day
+55 - Fire Blast
+60 - Magma Storm
+65 - Hyper Beam
 
 -------------------
 127 - Pinsir
@@ -5757,13 +5755,13 @@ Level Up Moves:
 20 - Slam
 24 - Dragon Rage
 28 - Scale Shot
-34 - Aqua Tail
-39 - Safeguard
-44 - Rain Dance
-49 - Dragon Rush
-54 - Dragon Dance
-60 - Outrage
-66 - Hyper Beam
+35 - Aqua Tail
+40 - Safeguard
+45 - Rain Dance
+50 - Dragon Rush
+56 - Dragon Dance
+62 - Outrage
+68 - Hyper Beam
 
 -------------------
 148 - Dragonair
@@ -5786,13 +5784,13 @@ Level Up Moves:
 20 - Slam
 24 - Dragon Rage
 28 - Scale Shot
-34 - Aqua Tail
-39 - Safeguard
-44 - Rain Dance
-49 - Dragon Rush
-54 - Dragon Dance
-60 - Outrage
-66 - Hyper Beam
+35 - Aqua Tail
+40 - Safeguard
+45 - Rain Dance
+50 - Dragon Rush
+56 - Dragon Dance
+62 - Outrage
+68 - Hyper Beam
 
 -------------------
 149 - Dragonite
@@ -5822,15 +5820,15 @@ Level Up Moves:
 20 - Slam
 24 - Dragon Rage
 28 - Scale Shot
-34 - Aqua Tail
-39 - Safeguard
-44 - Rain Dance
-49 - Dragon Rush
-54 - Dragon Dance
+35 - Aqua Tail
+40 - Safeguard
+45 - Rain Dance
+50 - Dragon Rush
 55 - Hurricane
-60 - Outrage
-66 - Hyper Beam
-72 - Giga Impact
+56 - Dragon Dance
+62 - Outrage
+68 - Hyper Beam
+74 - Giga Impact
 
 -------------------
 150 - Mewtwo
@@ -5930,14 +5928,14 @@ Level Up Moves:
 20 - Safeguard
 24 - Draining Kiss*
 28 - Grass Whistle
-34 - Nature Power
-39 - Body Slam
-44 - Moonblast*
-49 - Aromatherapy
-54 - Solar Beam
-59 - Leaf Storm
+35 - Nature Power
+40 - Body Slam
+45 - Moonblast*
+50 - Aromatherapy
+55 - Solar Beam
+60 - Leaf Storm
 
-* If type changes are removed, Chikorita instead learns Natural Gift at Lv. 24 and Energy Ball at Lv. 44.
+* If type changes are removed, Chikorita instead learns Natural Gift at Lv. 24 and Energy Ball at Lv. 45.
 
 -------------------
 153 - Bayleef
@@ -5975,14 +5973,14 @@ Level Up Moves:
 20 - Safeguard
 24 - Draining Kiss*
 28 - Grass Whistle
-34 - Nature Power
-39 - Body Slam
-44 - Moonblast*
-49 - Aromatherapy
-54 - Solar Beam
-59 - Leaf Storm
+35 - Nature Power
+40 - Body Slam
+45 - Moonblast*
+50 - Aromatherapy
+55 - Solar Beam
+60 - Leaf Storm
 
-* If type changes are removed, Bayleef instead learns Natural Gift at Lv. 24 and Energy Ball at Lv. 44.
+* If type changes are removed, Bayleef instead learns Natural Gift at Lv. 24 and Energy Ball at Lv. 45.
 
 -------------------
 154 - Meganium
@@ -6027,14 +6025,14 @@ Level Up Moves:
 24 - Draining Kiss*
 28 - Grass Whistle
 32 - Soothing Aroma
-34 - Nature Power
-39 - Body Slam
-44 - Moonblast*
-49 - Aromatherapy
-54 - Solar Beam
-59 - Leaf Storm
+35 - Nature Power
+40 - Body Slam
+45 - Moonblast*
+50 - Aromatherapy
+55 - Solar Beam
+60 - Leaf Storm
 
-* If type changes are removed, Meganium instead learns Natural Gift at Lv. 24 and Energy Ball at Lv. 44.
+* If type changes are removed, Meganium instead learns Natural Gift at Lv. 24 and Energy Ball at Lv. 45.
 
 -------------------
 155 - Cyndaquil
@@ -6060,11 +6058,11 @@ Level Up Moves:
 24 - Rollout
 28 - Lava Plume
 32 - Sunny Day
-39 - Flamethrower
-44 - Earth Power
-49 - Double-Edge
-54 - Inferno
-59 - Eruption
+40 - Flamethrower
+45 - Earth Power
+50 - Double-Edge
+55 - Inferno
+60 - Eruption
 
 -------------------
 156 - Quilava
@@ -6091,11 +6089,11 @@ Level Up Moves:
 24 - Rollout
 28 - Lava Plume
 32 - Sunny Day
-39 - Flamethrower
-44 - Earth Power
-49 - Double-Edge
-54 - Inferno
-59 - Eruption
+40 - Flamethrower
+45 - Earth Power
+50 - Double-Edge
+55 - Inferno
+60 - Eruption
 
 -------------------
 157 - Typhlosion
@@ -6133,11 +6131,11 @@ Level Up Moves:
 28 - Lava Plume
 32 - Sunny Day
 36 - Infernal Blast
-39 - Flamethrower
-44 - Earth Power
-49 - Double-Edge
-54 - Inferno
-59 - Eruption
+40 - Flamethrower
+45 - Earth Power
+50 - Double-Edge
+55 - Inferno
+60 - Eruption
 
 -------------------
 158 - Totodile
@@ -6165,12 +6163,12 @@ Level Up Moves:
 20 - Aqua Cutter
 24 - Screech
 28 - Slash
-34 - Crunch
-39 - Thrash
-44 - Aqua Tail
-49 - Superpower
-54 - Dragon Dance
-59 - Wave Crash
+35 - Crunch
+40 - Thrash
+45 - Aqua Tail
+50 - Superpower
+55 - Dragon Dance
+60 - Wave Crash
 
 -------------------
 159 - Croconaw
@@ -6199,12 +6197,12 @@ Level Up Moves:
 20 - Aqua Cutter
 24 - Screech
 28 - Slash
-34 - Crunch
-39 - Thrash
-44 - Aqua Tail
-49 - Superpower
-54 - Dragon Dance
-59 - Wave Crash
+35 - Crunch
+40 - Thrash
+45 - Aqua Tail
+50 - Superpower
+55 - Dragon Dance
+60 - Wave Crash
 
 -------------------
 160 - Feraligatr
@@ -6243,12 +6241,12 @@ Level Up Moves:
 24 - Screech
 28 - Slash
 30 - Savage Rend
-34 - Crunch
-39 - Thrash
-44 - Aqua Tail
-49 - Superpower
-54 - Dragon Dance
-59 - Wave Crash
+35 - Crunch
+40 - Thrash
+45 - Aqua Tail
+50 - Superpower
+55 - Dragon Dance
+60 - Wave Crash
 
 -------------------
 161 - Sentret
@@ -6573,12 +6571,12 @@ Level Up Moves:
 16 - Confuse Ray
 20 - Charge Beam
 24 - Signal Beam
-29 - Discharge
-34 - Aqua Ring
-39 - Charge
-44 - Flail
-49 - Take Down
-54 - Hydro Pump
+30 - Discharge
+35 - Aqua Ring
+40 - Charge
+45 - Flail
+50 - Take Down
+55 - Hydro Pump
 
 -------------------
 171 - Lanturn
@@ -6609,12 +6607,12 @@ Level Up Moves:
 20 - Charge Beam
 24 - Signal Beam
 27 - Dazzling Gleam
-29 - Discharge
-34 - Aqua Ring
-39 - Charge
-44 - Flail
-49 - Take Down
-54 - Hydro Pump
+30 - Discharge
+35 - Aqua Ring
+40 - Charge
+45 - Flail
+50 - Take Down
+55 - Hydro Pump
 
 -------------------
 175 - Togepi
@@ -6749,12 +6747,12 @@ Level Up Moves:
 18 - Miracle Eye
 21 - Psyshock
 24 - Me First
-29 - Psycho Shift
-34 - Esper Wing
-39 - Baton Pass
-44 - Psychic
-49 - Wish
-54 - Future Sight
+30 - Psycho Shift
+35 - Esper Wing
+40 - Baton Pass
+45 - Psychic
+50 - Wish
+55 - Future Sight
 
 -------------------
 178 - Xatu
@@ -6788,12 +6786,12 @@ Level Up Moves:
 21 - Psyshock
 24 - Me First
 25 - Air Slash
-29 - Psycho Shift
-34 - Esper Wing
-39 - Baton Pass
-44 - Psychic
-49 - Wish
-54 - Future Sight
+30 - Psycho Shift
+35 - Esper Wing
+40 - Baton Pass
+45 - Psychic
+50 - Wish
+55 - Future Sight
 
 -------------------
 179 - Mareep
@@ -8195,13 +8193,13 @@ Level Up Moves:
 20 - Bulldoze
 24 - Slash
 28 - Charm
-34 - Rest
-34 - Snore
-39 - Crunch
-44 - Thrash
-49 - High Horsepower
-54 - Play Rough
-59 - Double-Edge
+35 - Rest
+35 - Snore
+40 - Crunch
+45 - Thrash
+50 - High Horsepower
+55 - Play Rough
+60 - Double-Edge
 
 -------------------
 217 - Ursaring
@@ -8230,13 +8228,13 @@ Level Up Moves:
 20 - Bulldoze
 24 - Slash
 28 - Scary Face
-34 - Rest
-34 - Snore
-39 - Crunch
-44 - Thrash
-49 - High Horsepower
-54 - Play Rough
-59 - Double-Edge
+35 - Rest
+35 - Snore
+40 - Crunch
+45 - Thrash
+50 - High Horsepower
+55 - Play Rough
+60 - Double-Edge
 
 -------------------
 901 - Ursaluna
@@ -8266,13 +8264,13 @@ Level Up Moves:
 20 - Bulldoze
 24 - Slash
 28 - Scary Face
-34 - Rest
-34 - Snore
-39 - Crunch
-44 - Thrash
-49 - High Horsepower
-54 - Play Rough
-59 - Double-Edge
+35 - Rest
+35 - Snore
+40 - Crunch
+45 - Thrash
+50 - High Horsepower
+55 - Play Rough
+60 - Double-Edge
 
 -------------------
 218 - Slugma
@@ -8299,14 +8297,13 @@ Level Up Moves:
 16 - Ancient Power
 20 - Lava Plume
 24 - Acid Armor
-29 - Recover
-33 - Amnesia
-37 - Power Gem
-41 - Flamethrower
+30 - Power Gem
+35 - Recover
+40 - Flamethrower
 45 - Earth Power
-49 - Inferno
-53 - Memento
-57 - Magma Storm
+50 - Inferno
+55 - Amnesia
+60 - Magma Storm
 
 -------------------
 219 - Magcargo
@@ -8338,14 +8335,13 @@ Level Up Moves:
 20 - Lava Plume
 24 - Acid Armor
 28 - Shell Smash
-29 - Recover
-33 - Amnesia
-37 - Power Gem
-41 - Flamethrower
+30 - Power Gem
+35 - Recover
+40 - Flamethrower
 45 - Earth Power
-49 - Inferno
-53 - Memento
-57 - Magma Storm
+50 - Inferno
+55 - Amnesia
+60 - Magma Storm
 
 -------------------
 220 - Swinub
@@ -8501,13 +8497,13 @@ Level Up Moves:
 16 - Mud Shot
 20 - Bubble Beam
 24 - Aurora Beam
-29 - Bullet Seed
-34 - Signal Beam
-39 - Ice Beam
-44 - Gunk Shot
-49 - Hydro Pump
-54 - Hyper Beam
-59 - Water Spout
+30 - Bullet Seed
+35 - Signal Beam
+40 - Ice Beam
+45 - Gunk Shot
+50 - Hydro Pump
+55 - Hyper Beam
+60 - Water Spout
 
 -------------------
 224 - Octillery
@@ -8535,13 +8531,13 @@ Level Up Moves:
 20 - Bubble Beam
 24 - Aurora Beam
 25 - Octazooka
-29 - Bullet Seed
-34 - Signal Beam
-39 - Ice Beam
-44 - Gunk Shot
-49 - Hydro Pump
-54 - Hyper Beam
-59 - Water Spout
+30 - Bullet Seed
+35 - Signal Beam
+40 - Ice Beam
+45 - Gunk Shot
+50 - Hydro Pump
+55 - Hyper Beam
+60 - Water Spout
 
 -------------------
 225 - Delibird
@@ -9052,12 +9048,12 @@ Level Up Moves:
 20 - Rock Slide
 24 - Screech
 28 - Payback
-34 - Crunch
-39 - Thrash
-44 - Earthquake
-49 - Stone Edge
-54 - Dragon Dance
-60 - Hyper Beam
+35 - Crunch
+40 - Thrash
+45 - Earthquake
+50 - Stone Edge
+56 - Dragon Dance
+62 - Hyper Beam
 
 -------------------
 247 - Pupitar
@@ -9081,12 +9077,12 @@ Level Up Moves:
 24 - Screech
 28 - Payback
 30 - Iron Defense
-34 - Crunch
-39 - Thrash
-44 - Earthquake
-49 - Stone Edge
-54 - Dragon Dance
-60 - Hyper Beam
+35 - Crunch
+40 - Thrash
+45 - Earthquake
+50 - Stone Edge
+56 - Dragon Dance
+62 - Hyper Beam
 
 -------------------
 248 - Tyranitar
@@ -9113,13 +9109,13 @@ Level Up Moves:
 24 - Screech
 28 - Payback
 30 - Iron Defense
-34 - Crunch
-39 - Thrash
-44 - Earthquake
-49 - Stone Edge
-54 - Dragon Dance
-60 - Hyper Beam
-66 - Giga Impact
+35 - Crunch
+40 - Thrash
+45 - Earthquake
+50 - Stone Edge
+56 - Dragon Dance
+62 - Hyper Beam
+68 - Giga Impact
 
 -------------------
 249 - Lugia
@@ -9232,11 +9228,11 @@ Level Up Moves:
 24 - Slam
 28 - Giga Drain
 32 - Double Team
-39 - Energy Ball
-44 - Screech
-49 - Agility
-54 - Endeavor
-59 - Leaf Storm
+40 - Energy Ball
+45 - Screech
+50 - Agility
+55 - Endeavor
+60 - Leaf Storm
 
 -------------------
 253 - Grovyle
@@ -9263,11 +9259,11 @@ Level Up Moves:
 24 - Slam
 28 - Leaf Blade
 32 - Double Team
-39 - X-Scissor
-44 - Screech
-49 - Agility
-54 - Endeavor
-59 - Leaf Storm
+40 - X-Scissor
+45 - Screech
+50 - Agility
+55 - Endeavor
+60 - Leaf Storm
 
 -------------------
 254 - Sceptile
@@ -9298,11 +9294,11 @@ Level Up Moves:
 28 - Leaf Blade
 32 - Double Team
 36 - Dual Chop
-39 - X-Scissor
-44 - Screech
-49 - Agility
-54 - Endeavor
-59 - Leaf Storm
+40 - X-Scissor
+45 - Screech
+50 - Agility
+55 - Endeavor
+60 - Leaf Storm
 
 -------------------
 255 - Torchic
@@ -9327,11 +9323,11 @@ Level Up Moves:
 24 - Slash
 28 - Mirror Move
 32 - Focus Energy
-39 - Flamethrower
-44 - Feather Dance
-49 - Reversal
-54 - Bounce
-59 - Flare Blitz
+40 - Flamethrower
+45 - Feather Dance
+50 - Reversal
+55 - Bounce
+60 - Flare Blitz
 
 -------------------
 256 - Combusken
@@ -9357,11 +9353,11 @@ Level Up Moves:
 24 - Slash
 28 - Blaze Kick
 32 - Focus Energy
-39 - Sky Uppercut
-44 - Bulk Up
-49 - Reversal
-54 - Bounce
-59 - Flare Blitz
+40 - Sky Uppercut
+45 - Bulk Up
+50 - Reversal
+55 - Bounce
+60 - Flare Blitz
 
 -------------------
 257 - Blaziken
@@ -9390,12 +9386,12 @@ Level Up Moves:
 28 - Blaze Kick
 32 - Focus Energy
 36 - Jump Kick
-39 - Sky Uppercut
-44 - Bulk Up
-49 - Reversal
-54 - Brave Bird
-59 - Flare Blitz
-64 - High Jump Kick
+40 - Sky Uppercut
+45 - Bulk Up
+50 - Reversal
+55 - Brave Bird
+60 - Flare Blitz
+65 - High Jump Kick
 
 -------------------
 258 - Mudkip
@@ -9420,11 +9416,11 @@ Level Up Moves:
 24 - Rock Slide
 28 - Water Pulse
 32 - Amnesia
-39 - Screech
-44 - Earth Power
-49 - Superpower
-54 - Hydro Pump
-59 - Endeavor
+40 - Screech
+45 - Earth Power
+50 - Superpower
+55 - Hydro Pump
+60 - Endeavor
 
 -------------------
 259 - Marshtomp
@@ -9450,11 +9446,11 @@ Level Up Moves:
 24 - Rock Slide
 28 - Muddy Water
 32 - Amnesia
-39 - Screech
-44 - Earthquake
-49 - Superpower
-54 - Hydro Pump
-59 - Endeavor
+40 - Screech
+45 - Earthquake
+50 - Superpower
+55 - Hydro Pump
+60 - Endeavor
 
 -------------------
 260 - Swampert
@@ -9483,11 +9479,11 @@ Level Up Moves:
 28 - Muddy Water
 32 - Amnesia
 36 - Liquidation
-39 - Screech
-44 - Earthquake
-49 - Superpower
-54 - Hydro Pump
-59 - Endeavor
+40 - Screech
+45 - Earthquake
+50 - Superpower
+55 - Hydro Pump
+60 - Endeavor
 
 -------------------
 261 - Poochyena
@@ -10032,13 +10028,14 @@ Level Up Moves:
 18 - Aerial Ace
 21 - Pursuit
 24 - Air Slash
-29 - Agility
-33 - Mist
-37 - Roost
-41 - Tailwind
-45 - Aqua Ring
-49 - Hurricane
-53 - Hydro Pump
+28 - Agility
+32 - Mist
+36 - Roost
+40 - Defog
+44 - Tailwind
+48 - Aqua Ring
+52 - Hurricane
+56 - Hydro Pump
 
 -------------------
 279 - Pelipper
@@ -10065,15 +10062,16 @@ Level Up Moves:
 21 - Payback
 24 - Air Slash
 25 - Protect
-29 - Brine
-33 - Stockpile
-33 - Spit Up
-33 - Swallow
-37 - Roost
-41 - Tailwind
-45 - Aqua Ring
-49 - Hurricane
-53 - Hydro Pump
+28 - Brine
+32 - Stockpile
+32 - Spit Up
+32 - Swallow
+36 - Roost
+40 - Defog
+44 - Tailwind
+48 - Aqua Ring
+52 - Hurricane
+56 - Hydro Pump
 
 -------------------
 280 - Ralts
@@ -10098,11 +10096,11 @@ Level Up Moves:
 18 - Psybeam
 22 - Magical Leaf
 26 - Charm
-34 - Calm Mind
-39 - Psychic
-44 - Imprison
-49 - Dream Eater
-54 - Future Sight
+35 - Calm Mind
+40 - Psychic
+45 - Imprison
+50 - Dream Eater
+55 - Future Sight
 
 -------------------
 281 - Kirlia
@@ -10127,11 +10125,11 @@ Level Up Moves:
 18 - Psybeam
 22 - Magical Leaf
 26 - Charm
-34 - Calm Mind
-39 - Psychic
-44 - Imprison
-49 - Dream Eater
-54 - Future Sight
+35 - Calm Mind
+40 - Psychic
+45 - Imprison
+50 - Dream Eater
+55 - Future Sight
 
 -------------------
 282 - Gardevoir
@@ -10161,12 +10159,12 @@ Level Up Moves:
 22 - Magical Leaf
 26 - Charm
 30 - Dazzling Gleam
-34 - Calm Mind
-39 - Psychic
-44 - Moonblast
-49 - Dream Eater
-54 - Future Sight
-59 - Healing Wish
+35 - Calm Mind
+40 - Psychic
+45 - Moonblast
+50 - Dream Eater
+55 - Future Sight
+60 - Healing Wish
 
 -------------------
 475 - Gallade
@@ -10200,12 +10198,12 @@ Level Up Moves:
 22 - False Swipe
 26 - Protect
 30 - Psycho Cut
-34 - Bulk Up
-39 - Zen Headbutt
-44 - Sacred Sword
-49 - Swords Dance
-54 - Close Combat
-59 - Memento
+35 - Bulk Up
+40 - Zen Headbutt
+45 - Sacred Sword
+50 - Swords Dance
+55 - Close Combat
+60 - Memento
 
 -------------------
 283 - Surskit
@@ -11408,15 +11406,15 @@ Level Up Moves:
 16 - Sludge
 20 - Encore
 24 - Toxic
-29 - Stockpile
-29 - Spit Up
-29 - Swallow
-34 - Sludge Bomb
-39 - Gastro Acid
-44 - Acid Armor
-49 - Pain Split
-54 - Gunk Shot
-59 - Wring Out
+30 - Stockpile
+30 - Spit Up
+30 - Swallow
+35 - Sludge Bomb
+40 - Gastro Acid
+45 - Acid Armor
+50 - Pain Split
+55 - Gunk Shot
+60 - Wring Out
 
 -------------------
 317 - Swalot
@@ -11442,15 +11440,15 @@ Level Up Moves:
 20 - Encore
 24 - Toxic
 26 - Body Slam
-29 - Stockpile
-29 - Spit Up
-29 - Swallow
-34 - Sludge Bomb
-39 - Gastro Acid
-44 - Acid Armor
-49 - Pain Split
-54 - Gunk Shot
-59 - Wring Out
+30 - Stockpile
+30 - Spit Up
+30 - Swallow
+35 - Sludge Bomb
+40 - Gastro Acid
+45 - Acid Armor
+50 - Pain Split
+55 - Gunk Shot
+60 - Wring Out
 
 -------------------
 318 - Carvanha
@@ -11476,11 +11474,11 @@ Level Up Moves:
 21 - Ice Fang
 24 - Screech
 28 - Swagger
-34 - Crunch
-39 - Agility
-44 - Liquidation
-49 - Take Down
-54 - Wave Crash
+35 - Crunch
+40 - Agility
+45 - Liquidation
+50 - Take Down
+55 - Wave Crash
 
 -------------------
 319 - Sharpedo
@@ -11512,11 +11510,11 @@ Level Up Moves:
 24 - Screech
 28 - Swagger
 30 - Slash
-34 - Crunch
-39 - Agility
-44 - Liquidation
-49 - Skull Bash
-54 - Wave Crash
+35 - Crunch
+40 - Agility
+45 - Liquidation
+50 - Skull Bash
+55 - Wave Crash
 
 -------------------
 320 - Wailmer
@@ -11606,10 +11604,10 @@ Level Up Moves:
 24 - Lava Plume
 28 - Earth Power
 32 - Yawn
-37 - Take Down
-43 - Earthquake
-49 - Flamethrower
-55 - Double-Edge
+38 - Take Down
+44 - Earthquake
+50 - Flamethrower
+56 - Double-Edge
 
 -------------------
 323 - Camerupt
@@ -11639,11 +11637,11 @@ Level Up Moves:
 28 - Earth Power
 32 - Yawn
 33 - Rock Slide
-37 - Take Down
-43 - Earthquake
-49 - Flamethrower
-55 - Eruption
-61 - Fissure
+38 - Take Down
+44 - Earthquake
+50 - Flamethrower
+56 - Eruption
+62 - Fissure
 
 -------------------
 324 - Torkoal
@@ -11698,13 +11696,13 @@ Level Up Moves:
 20 - Confuse Ray
 24 - Extrasensory
 28 - Magic Coat
-34 - Power Gem
-39 - Psychic
-44 - Rest
-44 - Snore
-49 - Payback
-54 - Bounce
-59 - Future Sight
+35 - Power Gem
+40 - Psychic
+45 - Rest
+45 - Snore
+50 - Payback
+55 - Bounce
+60 - Future Sight
 
 -------------------
 326 - Grumpig
@@ -11732,13 +11730,13 @@ Level Up Moves:
 24 - Extrasensory
 28 - Magic Coat
 32 - Teeter Dance
-34 - Power Gem
-39 - Psychic
-44 - Rest
-44 - Snore
-49 - Payback
-54 - Bounce
-59 - Future Sight
+35 - Power Gem
+40 - Psychic
+45 - Rest
+45 - Snore
+50 - Payback
+55 - Bounce
+60 - Future Sight
 
 -------------------
 327 - Spinda
@@ -12169,13 +12167,13 @@ Level Up Moves:
 20 - Magnitude
 24 - Aqua Tail
 28 - Amnesia
-34 - Rest
-34 - Snore
-39 - Earthquake
-44 - Muddy Water
-49 - Dragon Dance
-54 - Future Sight
-59 - Fissure
+35 - Rest
+35 - Snore
+40 - Earthquake
+45 - Muddy Water
+50 - Dragon Dance
+55 - Future Sight
+60 - Fissure
 
 -------------------
 340 - Whiscash
@@ -12202,13 +12200,13 @@ Level Up Moves:
 24 - Aqua Tail
 28 - Amnesia
 30 - Thrash
-34 - Rest
-34 - Snore
-39 - Earthquake
-44 - Muddy Water
-49 - Dragon Dance
-54 - Future Sight
-59 - Fissure
+35 - Rest
+35 - Snore
+40 - Earthquake
+45 - Muddy Water
+50 - Dragon Dance
+55 - Future Sight
+60 - Fissure
 
 -------------------
 341 - Corphish
@@ -13290,13 +13288,13 @@ Level Up Moves:
 20 - Fire Fang
 24 - Focus Energy
 28 - Dragon Claw
-34 - Zen Headbutt
-39 - Flamethrower
-44 - Crunch
-49 - Dragon Rush
-56 - Dragon Dance
-62 - Double-Edge
-68 - Outrage
+35 - Zen Headbutt
+40 - Flamethrower
+45 - Crunch
+52 - Dragon Rush
+58 - Dragon Dance
+64 - Double-Edge
+70 - Outrage
 
 -------------------
 372 - Shelgon
@@ -13321,13 +13319,13 @@ Level Up Moves:
 24 - Focus Energy
 28 - Dragon Claw
 30 - Protect
-34 - Zen Headbutt
-39 - Flamethrower
-44 - Crunch
-49 - Dragon Rush
-56 - Dragon Dance
-62 - Double-Edge
-68 - Outrage
+35 - Zen Headbutt
+40 - Flamethrower
+45 - Crunch
+52 - Dragon Rush
+58 - Dragon Dance
+64 - Double-Edge
+70 - Outrage
 
 -------------------
 373 - Salamence
@@ -13357,14 +13355,14 @@ Level Up Moves:
 24 - Focus Energy
 28 - Dragon Claw
 30 - Protect
-34 - Zen Headbutt
-39 - Flamethrower
-44 - Crunch
-49 - Dragon Rush
+35 - Zen Headbutt
+40 - Flamethrower
+45 - Crunch
 50 - Fly
-56 - Dragon Dance
-62 - Double-Edge
-68 - Outrage
+52 - Dragon Rush
+58 - Dragon Dance
+64 - Double-Edge
+70 - Outrage
 
 -------------------
 374 - Beldum
@@ -14355,11 +14353,11 @@ Level Up Moves:
 20 - Roar
 24 - Thunder Fang
 28 - Swagger
-34 - Crunch
-39 - Wild Charge
-44 - Play Rough
-49 - Scary Face
-54 - Volt Tackle
+35 - Crunch
+40 - Wild Charge
+45 - Play Rough
+50 - Scary Face
+55 - Volt Tackle
 
 -------------------
 404 - Luxio
@@ -14384,11 +14382,11 @@ Level Up Moves:
 20 - Roar
 24 - Thunder Fang
 28 - Swagger
-34 - Crunch
-39 - Wild Charge
-44 - Play Rough
-49 - Scary Face
-54 - Volt Tackle
+35 - Crunch
+40 - Wild Charge
+45 - Play Rough
+50 - Scary Face
+55 - Volt Tackle
 
 -------------------
 405 - Luxray
@@ -14417,11 +14415,11 @@ Level Up Moves:
 20 - Roar
 24 - Thunder Fang
 28 - Swagger
-34 - Crunch
-39 - Wild Charge
-44 - Play Rough
-49 - Scary Face
-54 - Volt Tackle
+35 - Crunch
+40 - Wild Charge
+45 - Play Rough
+50 - Scary Face
+55 - Volt Tackle
 
 -------------------
 408 - Cranidos
@@ -14872,25 +14870,29 @@ Type: Grass
 New Moves:
 - Double-Edge (Tutor) (PLA)
 - Mega Drain (Tutor)
+- Sleep Powder (Level) (PLA)
+- Stun Spore (Level) (PLA)
 - Trailblaze (Tutor)
 
 Level Up Moves:
 01 - Morning Sun
 01 - Tackle
 01 - Growth
-04 - Leafage
-08 - Helping Hand
-12 - Leech Seed
-16 - Magical Leaf
-20 - Draining Kiss
-24 - Lucky Chant
-29 - Sweet Scent
-34 - Take Down
-39 - Petal Blizzard
-44 - Worry Seed
-49 - Aromatherapy
-54 - Solar Beam
-59 - Healing Wish
+03 - Leafage
+06 - Leech Seed
+09 - Stun Spore
+12 - Helping Hand
+15 - Magical Leaf
+18 - Draining Kiss
+21 - Lucky Chant
+24 - Take Down
+28 - Sweet Scent
+32 - Sleep Powder
+36 - Energy Ball
+40 - Worry Seed
+44 - Aromatherapy
+48 - Healing Wish
+52 - Solar Beam
 
 -------------------
 421 - Cherrim
@@ -14903,29 +14905,34 @@ Type: Grass
 New Moves:
 - Double-Edge (Tutor) (PLA)
 - Mega Drain (Tutor)
+- Sleep Powder (Level) (PLA)
+- Stun Spore (Level) (PLA)
 - Trailblaze (Tutor)
 
 Level Up Moves:
 01 - Sunny Day
 01 - Grass Whistle
+01 - Petal Blizzard
 01 - Weather Ball
 01 - Morning Sun
 01 - Tackle
 01 - Growth
-04 - Leafage
-08 - Helping Hand
-12 - Leech Seed
-16 - Magical Leaf
-20 - Draining Kiss
-24 - Lucky Chant
+03 - Leafage
+06 - Leech Seed
+09 - Helping Hand
+12 - Stun Spore
+15 - Magical Leaf
+18 - Draining Kiss
+21 - Lucky Chant
 25 - Petal Dance
-29 - Sweet Scent
-34 - Take Down
-39 - Petal Blizzard
-44 - Worry Seed
-49 - Aromatherapy
-54 - Solar Beam
-59 - Healing Wish
+24 - Take Down
+28 - Sweet Scent
+32 - Sleep Powder
+36 - Energy Ball
+40 - Worry Seed
+44 - Aromatherapy
+48 - Healing Wish
+52 - Solar Beam
 
 -------------------
 422 - Shellos
@@ -14950,13 +14957,14 @@ Level Up Moves:
 21 - Recover
 24 - Yawn
 28 - Body Slam
-34 - Muddy Water
-39 - Earth Power
-44 - Rain Dance
-49 - Stockpile
-49 - Swallow
-49 - Spit Up
-54 - Memento
+35 - Muddy Water
+40 - Earth Power
+45 - Rain Dance
+50 - Stockpile
+50 - Swallow
+50 - Spit Up
+55 - Memento
+60 - Fissure
 
 -------------------
 423 - Gastrodon
@@ -14982,13 +14990,14 @@ Level Up Moves:
 21 - Recover
 24 - Yawn
 28 - Body Slam
-34 - Muddy Water
-39 - Earth Power
-44 - Rain Dance
-49 - Stockpile
-49 - Swallow
-49 - Spit Up
-54 - Memento
+35 - Muddy Water
+40 - Earth Power
+45 - Rain Dance
+50 - Stockpile
+50 - Swallow
+50 - Spit Up
+55 - Memento
+60 - Fissure
 
 -------------------
 425 - Drifloon
@@ -15014,13 +15023,13 @@ Level Up Moves:
 20 - Swallow
 20 - Spit Up
 24 - Hex
-29 - Self-Destruct
-34 - Shadow Ball
-39 - Baton Pass
-44 - Hypnosis
-49 - Tailwind
-54 - Explosion
-59 - Destiny Bond
+30 - Self-Destruct
+35 - Shadow Ball
+40 - Baton Pass
+45 - Hypnosis
+50 - Tailwind
+55 - Explosion
+60 - Destiny Bond
 
 -------------------
 426 - Drifblim
@@ -15051,13 +15060,13 @@ Level Up Moves:
 20 - Spit Up
 24 - Hex
 28 - Air Slash
-29 - Self-Destruct
-34 - Shadow Ball
-39 - Baton Pass
-44 - Hypnosis
-49 - Tailwind
-54 - Explosion
-59 - Destiny Bond
+30 - Self-Destruct
+35 - Shadow Ball
+40 - Baton Pass
+45 - Hypnosis
+50 - Tailwind
+55 - Explosion
+60 - Destiny Bond
 
 -------------------
 427 - Buneary
@@ -16596,11 +16605,11 @@ Level Up Moves:
 24 - Glare
 28 - Leaf Blade
 32 - Coil
-39 - Giga Drain
-44 - Gastro Acid
-49 - Captivate
-54 - Wring Out
-59 - Leaf Storm
+40 - Giga Drain
+45 - Gastro Acid
+50 - Captivate
+55 - Wring Out
+60 - Leaf Storm
 
 -------------------
 496 - Servine
@@ -16626,11 +16635,11 @@ Level Up Moves:
 24 - Glare
 28 - Leaf Blade
 32 - Coil
-39 - Giga Drain
-44 - Gastro Acid
-49 - Captivate
-54 - Wring Out
-59 - Leaf Storm
+40 - Giga Drain
+45 - Gastro Acid
+50 - Captivate
+55 - Wring Out
+60 - Leaf Storm
 
 -------------------
 497 - Serperior
@@ -16660,11 +16669,11 @@ Level Up Moves:
 28 - Leaf Blade
 32 - Coil
 36 - Dragon Pulse
-39 - Giga Drain
-44 - Gastro Acid
-49 - Captivate
-54 - Wring Out
-59 - Leaf Storm
+40 - Giga Drain
+45 - Gastro Acid
+50 - Captivate
+55 - Wring Out
+60 - Leaf Storm
 
 -------------------
 498 - Tepig
@@ -16689,11 +16698,11 @@ Level Up Moves:
 24 - Take Down
 28 - Assurance
 32 - Heat Crash
-39 - Endeavor
-44 - Flamethrower
-49 - Heavy Slam
-54 - Head Smash
-59 - Flare Blitz
+40 - Endeavor
+45 - Flamethrower
+50 - Heavy Slam
+55 - Head Smash
+60 - Flare Blitz
 
 -------------------
 499 - Pignite
@@ -16719,11 +16728,11 @@ Level Up Moves:
 24 - Take Down
 28 - Assurance
 32 - Heat Crash
-39 - Endeavor
-44 - Flamethrower
-49 - Heavy Slam
-54 - Head Smash
-59 - Flare Blitz
+40 - Endeavor
+45 - Flamethrower
+50 - Heavy Slam
+55 - Head Smash
+60 - Flare Blitz
 
 -------------------
 500 - Emboar
@@ -16753,11 +16762,11 @@ Level Up Moves:
 28 - Assurance
 32 - Heat Crash
 36 - Hammer Arm
-39 - Endeavor
-44 - Flamethrower
-49 - Heavy Slam
-54 - Head Smash
-59 - Flare Blitz
+40 - Endeavor
+45 - Flamethrower
+50 - Heavy Slam
+55 - Head Smash
+60 - Flare Blitz
 
 -------------------
 501 - Oshawott
@@ -16768,7 +16777,7 @@ Held Item: None
 Type: Water
 
 New Moves:
-- None
+- Wave Crash (Level)
 
 Level Up Moves:
 01 - Tackle
@@ -16782,11 +16791,11 @@ Level Up Moves:
 24 - Aerial Ace
 28 - Revenge
 32 - Encore
-39 - Aqua Tail
-44 - X-Scissor
-49 - Night Slash
-54 - Swords Dance
-59 - Hydro Pump
+40 - Aqua Tail
+45 - X-Scissor
+50 - Night Slash
+55 - Swords Dance
+60 - Wave Crash
 
 -------------------
 502 - Dewott
@@ -16797,7 +16806,7 @@ Held Item: None
 Type: Water ⟶ Water / Fighting
 
 New Moves:
-- None
+- Wave Crash (Level)
 
 Level Up Moves:
 01 - Tackle
@@ -16812,11 +16821,11 @@ Level Up Moves:
 24 - Aerial Ace
 28 - Revenge
 32 - Encore
-39 - Aqua Tail
-44 - X-Scissor
-49 - Night Slash
-54 - Swords Dance
-59 - Hydro Pump
+40 - Aqua Tail
+45 - X-Scissor
+50 - Night Slash
+55 - Swords Dance
+60 - Wave Crash
 
 -------------------
 503 - Samurott
@@ -16827,7 +16836,7 @@ Held Item: None
 Type: Water ⟶ Water / Fighting
 
 New Moves:
-- None
+- Wave Crash (Level)
 
 Level Up Moves:
 01 - Smart Strike
@@ -16846,11 +16855,11 @@ Level Up Moves:
 28 - Revenge
 32 - Encore
 36 - Sacred Sword
-39 - Aqua Tail
-44 - X-Scissor
-49 - Night Slash
-54 - Swords Dance
-59 - Hydro Pump
+40 - Aqua Tail
+45 - X-Scissor
+50 - Night Slash
+55 - Swords Dance
+60 - Wave Crash
 
 -------------------
 504 - Patrat
@@ -17753,13 +17762,13 @@ Level Up Moves:
 16 - Focus Energy
 20 - Slam
 24 - Scary Face
-29 - Rock Slide
-34 - Dynamic Punch
-39 - Bulk Up
-44 - Hammer Arm
-49 - Stone Edge
-54 - Superpower
-59 - Focus Punch
+30 - Rock Slide
+35 - Dynamic Punch
+40 - Bulk Up
+45 - Hammer Arm
+50 - Stone Edge
+55 - Superpower
+60 - Focus Punch
 
 -------------------
 533 - Gurdurr
@@ -17781,13 +17790,13 @@ Level Up Moves:
 16 - Focus Energy
 20 - Slam
 24 - Scary Face
-29 - Rock Slide
-34 - Dynamic Punch
-39 - Bulk Up
-44 - Hammer Arm
-49 - Stone Edge
-54 - Superpower
-59 - Focus Punch
+30 - Rock Slide
+35 - Dynamic Punch
+40 - Bulk Up
+45 - Hammer Arm
+50 - Stone Edge
+55 - Superpower
+60 - Focus Punch
 
 -------------------
 534 - Conkeldurr
@@ -17811,13 +17820,13 @@ Level Up Moves:
 16 - Focus Energy
 20 - Slam
 24 - Scary Face
-29 - Rock Slide
-34 - Dynamic Punch
-39 - Bulk Up
-44 - Hammer Arm
-49 - Stone Edge
-54 - Superpower
-59 - Focus Punch
+30 - Rock Slide
+35 - Dynamic Punch
+40 - Bulk Up
+45 - Hammer Arm
+50 - Stone Edge
+55 - Superpower
+60 - Focus Punch
 
 -------------------
 535 - Tympole
@@ -18325,10 +18334,10 @@ Level Up Moves:
 31 - Swagger
 35 - Crunch
 39 - Scary Face
-44 - Foul Play
-49 - Earthquake
-54 - Sandstorm
-59 - Thrash
+45 - Foul Play
+50 - Earthquake
+55 - Sandstorm
+60 - Thrash
 
 -------------------
 552 - Krokorok
@@ -18357,10 +18366,10 @@ Level Up Moves:
 31 - Swagger
 35 - Crunch
 39 - Scary Face
-44 - Foul Play
-49 - Earthquake
-54 - Sandstorm
-59 - Thrash
+45 - Foul Play
+50 - Earthquake
+55 - Sandstorm
+60 - Thrash
 
 -------------------
 553 - Krookodile
@@ -18392,10 +18401,10 @@ Level Up Moves:
 31 - Swagger
 35 - Crunch
 39 - Scary Face
-44 - Foul Play
-49 - Earthquake
-54 - Sandstorm
-59 - Thrash
+45 - Foul Play
+50 - Earthquake
+55 - Sandstorm
+60 - Thrash
 
 -------------------
 554 - Darumaka
@@ -18878,11 +18887,11 @@ Level Up Moves:
 24 - Swallow
 28 - Take Down
 32 - Sludge Bomb
-39 - Toxic
-44 - Amnesia
-49 - Pain Split
-54 - Gunk Shot
-59 - Explosion
+40 - Toxic
+45 - Amnesia
+50 - Pain Split
+55 - Gunk Shot
+60 - Explosion
 
 -------------------
 569 - Garbodor
@@ -18911,11 +18920,11 @@ Level Up Moves:
 28 - Take Down
 32 - Sludge Bomb
 36 - Metal Claw
-39 - Toxic
-44 - Amnesia
-49 - Pain Split
-54 - Gunk Shot
-59 - Explosion
+40 - Toxic
+45 - Amnesia
+50 - Pain Split
+55 - Gunk Shot
+60 - Explosion
 
 -------------------
 570 - Zorua
@@ -19256,13 +19265,14 @@ Level Up Moves:
 18 - Feather Dance
 21 - Aqua Ring
 24 - Air Slash
-29 - Roost
-33 - Brine
-37 - Tailwind
-41 - Rain Dance
-45 - Mirror Move
-49 - Brave Bird
-53 - Hurricane
+28 - Roost
+32 - Brine
+36 - Me First
+40 - Tailwind
+44 - Rain Dance
+48 - Mirror Move
+52 - Brave Bird
+56 - Hurricane
 
 -------------------
 581 - Swanna
@@ -19277,6 +19287,7 @@ New Moves:
 
 Level Up Moves:
 01 - Aqua Jet
+01 - Lucky Chant
 01 - Water Gun
 01 - Water Sport
 03 - Defog
@@ -19287,13 +19298,14 @@ Level Up Moves:
 18 - Feather Dance
 21 - Aqua Ring
 24 - Air Slash
-29 - Roost
-33 - Brine
-37 - Tailwind
-41 - Rain Dance
-45 - Mirror Move
-49 - Brave Bird
-53 - Hurricane
+28 - Roost
+32 - Brine
+36 - Me First
+40 - Tailwind
+44 - Rain Dance
+48 - Mirror Move
+52 - Brave Bird
+56 - Hurricane
 
 -------------------
 582 - Vanillite
@@ -19734,11 +19746,11 @@ Level Up Moves:
 24 - Slash
 28 - Signal Beam
 32 - Sucker Punch
-39 - Discharge
+38 - Discharge
 44 - Bug Buzz
-49 - Gastro Acid
-54 - Screech
-59 - Thunder
+50 - Gastro Acid
+56 - Screech
+62 - Thunder
 
 -------------------
 596 - Galvantula
@@ -19766,11 +19778,11 @@ Level Up Moves:
 24 - Slash
 28 - Signal Beam
 32 - Sucker Punch
-39 - Discharge
+38 - Discharge
 44 - Bug Buzz
-49 - Gastro Acid
-54 - Screech
-59 - Thunder
+50 - Gastro Acid
+56 - Screech
+62 - Thunder
 
 -------------------
 597 - Ferroseed
@@ -20027,11 +20039,11 @@ Level Up Moves:
 20 - Miracle Eye
 24 - Heal Block
 28 - Psyshock
-34 - Recover
-39 - Psychic
-44 - Psych Up
-49 - Calm Mind
-54 - Meteor Beam
+35 - Recover
+40 - Psychic
+45 - Psych Up
+50 - Calm Mind
+55 - Meteor Beam
 
 -------------------
 606 - Beheeyem
@@ -20059,12 +20071,12 @@ Level Up Moves:
 20 - Miracle Eye
 24 - Heal Block
 28 - Psyshock
-34 - Recover
-39 - Psychic
-44 - Psych Up
-49 - Calm Mind
-54 - Meteor Beam
-59 - Future Sight
+35 - Recover
+40 - Psychic
+45 - Psych Up
+50 - Calm Mind
+55 - Meteor Beam
+60 - Future Sight
 
 -------------------
 607 - Litwick
@@ -20750,10 +20762,10 @@ Level Up Moves:
 24 - Slash
 28 - Tailwind
 32 - Hone Claws
-39 - Crush Claw
-44 - Whirlwind
-49 - Thrash
-54 - Brave Bird
+40 - Crush Claw
+45 - Whirlwind
+50 - Thrash
+55 - Brave Bird
 
 -------------------
 628 - Braviary
@@ -20778,11 +20790,11 @@ Level Up Moves:
 28 - Tailwind
 32 - Hone Claws
 36 - Superpower
-39 - Crush Claw
-44 - Whirlwind
-49 - Thrash
-54 - Brave Bird
-59 - Sky Attack
+40 - Crush Claw
+45 - Whirlwind
+50 - Thrash
+55 - Brave Bird
+60 - Sky Attack
 
 -------------------
 629 - Vullaby
@@ -20806,10 +20818,10 @@ Level Up Moves:
 24 - Punishment
 28 - Tailwind
 32 - Nasty Plot
-39 - Dark Pulse
-44 - Whirlwind
-49 - Mirror Move
-54 - Brave Bird
+40 - Dark Pulse
+45 - Whirlwind
+50 - Mirror Move
+55 - Brave Bird
 
 -------------------
 630 - Mandibuzz
@@ -20837,11 +20849,11 @@ Level Up Moves:
 28 - Tailwind
 32 - Nasty Plot
 36 - Bone Rush
-39 - Dark Pulse
-44 - Whirlwind
-49 - Mirror Move
-54 - Brave Bird
-59 - Sky Attack
+40 - Dark Pulse
+45 - Whirlwind
+50 - Mirror Move
+55 - Brave Bird
+60 - Sky Attack
 
 -------------------
 631 - Heatmor

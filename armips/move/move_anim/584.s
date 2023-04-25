@@ -9,6 +9,9 @@
 
 .create "build/move/move_anim/0_584", 0
 
+// Jet Punch
+// Ice Punch fist + Dive second half
+
 a010_584:
     initspriteresource
     loadspriteresource 0
@@ -20,30 +23,37 @@ a010_584:
     loadspritemaybe 6, 0, 2, 2
     loadspritemaybe 7, 0, 3, 3
     callfunction 78, 1, 0, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
-    loadparticle 0, 255
+    loadparticle 0, 39
     waitstate
     unloadspriteresource
     resetsprite 0
     resetsprite 1
     resetsprite 2
     resetsprite 3
-    callfunction 33, 5, 0, 1, 0, 12, 0, "NaN", "NaN", "NaN", "NaN", "NaN"
+    addparticle 0, 2, 4
+
+    // Dive part
+    loadparticle 0, 309
     waitstate
-    playsepan 1927, -117
-    addparticle 0, 1, 3
-    wait 40
-    playsepan 2015, -117
-    wait 40
-    addparticle 0, 2, 3
-    addparticle 0, 3, 3
-    addparticle 0, 4, 3
-    addparticle 0, 0, 3
-    playsepanmod 1990, -117, 117, 4, 2
-    wait 5
+    unloadspriteresource
+    repeatse 2060, 117, 3, 4
+    addparticle 0, 1, 17
+    cmd37 6, 0, 2, 5, 0, 0, 0, "NaN", "NaN"
+    cmd37 4, 1, 0, -3440, 0, "NaN", "NaN", "NaN", "NaN"
+    addparticle 0, 0, 17
+    cmd37 6, 0, 2, 5, 0, 0, 0, "NaN", "NaN"
+    cmd37 4, 1, 0, -3440, 0, "NaN", "NaN", "NaN", "NaN"
+    addparticle 0, 2, 17
+    cmd37 6, 0, 2, 5, 0, 0, 0, "NaN", "NaN"
+    cmd37 4, 1, 0, -3440, 0, "NaN", "NaN", "NaN", "NaN"
     callfunction 36, 5, 2, 0, 1, 2, 264, "NaN", "NaN", "NaN", "NaN", "NaN"
+    wait 15
+    callfunction 40, 2, 2, 0, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
+
+    callfunction 36, 5, 1, 0, 1, 2, 264, "NaN", "NaN", "NaN", "NaN", "NaN"
+
     waitparticle
     unloadparticle 0
-    callfunction 33, 5, 0, 1, 12, 0, 0, "NaN", "NaN", "NaN", "NaN", "NaN"
     waitstate
     end
 

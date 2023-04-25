@@ -1659,12 +1659,13 @@ levelup SPECIES_POLIWAG
     learnset MOVE_BUBBLE_BEAM, 16
     learnset MOVE_MUD_BOMB, 20
     learnset MOVE_RAIN_DANCE, 24
-    learnset MOVE_BODY_SLAM, 29
-    learnset MOVE_WAKE_UP_SLAP, 34
-    learnset MOVE_EARTH_POWER, 39
-    learnset MOVE_BELLY_DRUM, 44
-    learnset MOVE_HYDRO_PUMP, 49
-    learnset MOVE_DOUBLE_EDGE, 54
+    learnset MOVE_WAKE_UP_SLAP, 30
+    learnset MOVE_BODY_SLAM, 35
+    learnset MOVE_EARTH_POWER, 40
+    learnset MOVE_ENDEAVOR, 45
+    learnset MOVE_BELLY_DRUM, 50
+    learnset MOVE_HYDRO_PUMP, 55
+    learnset MOVE_DOUBLE_EDGE, 60
     terminatelearnset
 
 levelup SPECIES_POLIWHIRL
@@ -1677,20 +1678,20 @@ levelup SPECIES_POLIWHIRL
     learnset MOVE_BUBBLE_BEAM, 16
     learnset MOVE_MUD_BOMB, 20
     learnset MOVE_RAIN_DANCE, 24
-    learnset MOVE_BODY_SLAM, 29
-    learnset MOVE_WAKE_UP_SLAP, 34
-    learnset MOVE_EARTH_POWER, 39
-    learnset MOVE_BELLY_DRUM, 44
-    learnset MOVE_HYDRO_PUMP, 49
-    learnset MOVE_DOUBLE_EDGE, 54
+    learnset MOVE_WAKE_UP_SLAP, 30
+    learnset MOVE_BODY_SLAM, 35
+    learnset MOVE_EARTH_POWER, 40
+    learnset MOVE_ENDEAVOR, 45
+    learnset MOVE_BELLY_DRUM, 50
+    learnset MOVE_HYDRO_PUMP, 55
+    learnset MOVE_DOUBLE_EDGE, 60
     terminatelearnset
 
-// NEW: Storm Throw, Wave Crash
+// NEW: Jet Punch, Storm Throw, Wave Crash
 levelup SPECIES_POLIWRATH
+    learnset MOVE_JET_PUNCH, 1
     learnset MOVE_DYNAMIC_PUNCH, 1
     learnset MOVE_MIND_READER, 1
-    learnset MOVE_STORM_THROW, 1
-    learnset MOVE_SUBMISSION, 1
     learnset MOVE_WATER_SPORT, 1
     learnset MOVE_POUND, 1
     learnset MOVE_HYPNOSIS, 1
@@ -1700,13 +1701,13 @@ levelup SPECIES_POLIWRATH
     learnset MOVE_BUBBLE_BEAM, 16
     learnset MOVE_MUD_BOMB, 20
     learnset MOVE_RAIN_DANCE, 24
-    learnset MOVE_BODY_SLAM, 29
-    learnset MOVE_WAKE_UP_SLAP, 34
-    learnset MOVE_EARTH_POWER, 39
-    learnset MOVE_BELLY_DRUM, 44
-    learnset MOVE_LIQUIDATION, 49
-    learnset MOVE_CLOSE_COMBAT, 54
-    learnset MOVE_WAVE_CRASH, 59
+    learnset MOVE_SUBMISSION, 30
+    learnset MOVE_BODY_SLAM, 35
+    learnset MOVE_EARTH_POWER, 40
+    learnset MOVE_STORM_THROW, 45
+    learnset MOVE_BELLY_DRUM, 50
+    learnset MOVE_WAVE_CRASH, 55
+    learnset MOVE_CLOSE_COMBAT, 60
     terminatelearnset
 
 levelup SPECIES_POLITOED
@@ -1722,12 +1723,13 @@ levelup SPECIES_POLITOED
     learnset MOVE_BUBBLE_BEAM, 16
     learnset MOVE_MUD_BOMB, 20
     learnset MOVE_RAIN_DANCE, 24
-    learnset MOVE_BODY_SLAM, 29
-    learnset MOVE_WAKE_UP_SLAP, 34
-    learnset MOVE_EARTH_POWER, 39
-    learnset MOVE_BELLY_DRUM, 44
-    learnset MOVE_HYDRO_PUMP, 49
-    learnset MOVE_HYPER_VOICE, 54
+    learnset MOVE_WAKE_UP_SLAP, 30
+    learnset MOVE_BODY_SLAM, 35
+    learnset MOVE_EARTH_POWER, 40
+    learnset MOVE_HYPER_VOICE, 45
+    learnset MOVE_BELLY_DRUM, 50
+    learnset MOVE_HYDRO_PUMP, 55
+    learnset MOVE_DOUBLE_EDGE, 60
     terminatelearnset
 
 levelup SPECIES_ABRA

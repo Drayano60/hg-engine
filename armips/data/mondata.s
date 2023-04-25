@@ -1658,14 +1658,9 @@ mondata SPECIES_POLIWHIRL, "Poliwhirl"
     mondexweight SPECIES_POLIWHIRL, "44.1 lbs."
 
 
-// STATS: 95 >> 105 Atk | 70 >> 60 SpAtk 
 // ABILITY: Iron Fist (2)
 mondata SPECIES_POLIWRATH, "Poliwrath"
-    .if STAT_CHANGES_IMPLEMENTED
-        basestats 90, 105, 95, 70, 60, 90
-    .else
-        basestats 90, 95, 95, 70, 70, 90
-    .endif
+    basestats 90, 95, 95, 70, 70, 90
     types TYPE_WATER, TYPE_FIGHTING
     catchrate 45
     baseexp 0 // defined in baseexp.s

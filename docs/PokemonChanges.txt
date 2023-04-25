@@ -2077,12 +2077,13 @@ Level Up Moves:
 16 - Bubble Beam
 20 - Mud Bomb
 24 - Rain Dance
-29 - Body Slam
-34 - Wake-Up Slap
-39 - Earth Power
-44 - Belly Drum
-49 - Hydro Pump
-54 - Double-Edge
+30 - Wake-Up Slap
+35 - Body Slam
+40 - Earth Power
+45 - Endeavor
+50 - Belly Drum
+55 - Hydro Pump
+60 - Double-Edge
 
 -------------------
 061 - Poliwhirl
@@ -2105,31 +2106,32 @@ Level Up Moves:
 16 - Bubble Beam
 20 - Mud Bomb
 24 - Rain Dance
-29 - Body Slam
-34 - Wake-Up Slap
-39 - Earth Power
-44 - Belly Drum
-49 - Hydro Pump
-54 - Double-Edge
+30 - Wake-Up Slap
+35 - Body Slam
+40 - Earth Power
+45 - Endeavor
+50 - Belly Drum
+55 - Hydro Pump
+60 - Double-Edge
 
 -------------------
 062 - Poliwrath
 -------------------
 Abilities: Water Absorb / Damp / Swift Swim ⟶ Water Absorb / Iron Fist** / Swift Swim
-Base Stats: 90/95/95/70/90/70 (510) ⟶ 90/105*/95/60*/90/70 (510)
+Base Stats: 90/95/95/70/90/70 (510)
 Held Item: King's Rock (5%)
 Type: Water / Fighting
 
 New Moves:
 - Chilling Water (Tutor)
+- Jet Punch (Level)
 - Storm Throw (Level)
 - Wave Crash (Level)
 
 Level Up Moves:
+01 - Jet Punch
 01 - Dynamic Punch
 01 - Mind Reader
-01 - Storm Throw
-01 - Submission
 01 - Water Sport
 01 - Pound
 01 - Hypnosis
@@ -2139,13 +2141,13 @@ Level Up Moves:
 16 - Bubble Beam
 20 - Mud Bomb
 24 - Rain Dance
-29 - Body Slam
-34 - Wake-Up Slap
-39 - Earth Power
-44 - Belly Drum
-49 - Liquidation
-54 - Close Combat
-59 - Wave Crash
+30 - Submission
+35 - Body Slam
+40 - Earth Power
+45 - Storm Throw
+50 - Belly Drum
+55 - Wave Crash
+60 - Close Combat
 
 -------------------
 186 - Politoed
@@ -2171,12 +2173,13 @@ Level Up Moves:
 16 - Bubble Beam
 20 - Mud Bomb
 24 - Rain Dance
-29 - Body Slam
-34 - Wake-Up Slap
-39 - Earth Power
-44 - Belly Drum
-49 - Hydro Pump
-54 - Hyper Voice
+30 - Wake-Up Slap
+35 - Body Slam
+40 - Earth Power
+45 - Hyper Voice
+50 - Belly Drum
+55 - Hydro Pump
+60 - Double-Edge
 
 -------------------
 063 - Abra

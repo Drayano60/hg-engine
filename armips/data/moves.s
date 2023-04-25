@@ -9529,21 +9529,21 @@ movedata MOVE_FINAL_GAMBIT, "Final Gambit"
     movedescription MOVE_FINAL_GAMBIT, "The user risks all\nto attack its target.\nThe user does damage\nequal to its current\nHP, but then faints."
 
 // Copy of Hidden Power with fixed type, for AI use only
-movedata MOVE_HIDDEN_POWER_GRASS, "Hidden Power"
-    battleeffect 0
-    pss SPLIT_SPECIAL
+movedata MOVE_JET_PUNCH, "Jet Punch"
+    battleeffect 103
+    pss SPLIT_PHYSICAL
     basepower 60
-    type TYPE_GRASS
+    type TYPE_WATER
     accuracy 100
     pp 15
     effectchance 0
     target MOVE_TARGET_SELECTED
-    priority 0
-    flags FLAG_KINGS_ROCK | FLAG_MIRROR_MOVE | FLAG_PROTECT
-    appeal 0x17
-    contesttype CONTEST_SMART
+    priority 1
+    flags FLAG_KINGS_ROCK | FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
+    appeal 0
+    contesttype 0
     terminatedata
-    movedescription MOVE_HIDDEN_POWER_GRASS, "FOR AI ONLY"
+    movedescription MOVE_JET_PUNCH, "The user summons a\ntorrent around its\nfist and punches at\nspeed. This move\nalways goes first."
 
 // Copy of Hidden Power with fixed type, for AI use only
 movedata MOVE_HIDDEN_POWER_ELECTRIC, "Hidden Power"

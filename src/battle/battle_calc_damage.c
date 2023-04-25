@@ -138,6 +138,7 @@ static const u16 IronFistMovesTable[] = {
     MOVE_HAMMER_ARM,
     MOVE_HEADLONG_RUSH, // Japanese name is a sumo term, apparently??
     MOVE_ICE_PUNCH,
+    MOVE_JET_PUNCH,
     MOVE_MACH_PUNCH,
     MOVE_MEGA_PUNCH,
     MOVE_METEOR_MASH,

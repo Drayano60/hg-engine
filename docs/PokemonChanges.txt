@@ -551,7 +551,7 @@ Level Up Moves:
 40 - Sucker Punch
 44 - Double-Edge
 48 - Endeavor
-52 - Last Resort
+52 - Final Gambit
 
 -------------------
 020 - Raticate
@@ -589,7 +589,7 @@ Level Up Moves:
 40 - Sucker Punch
 44 - Double-Edge
 48 - Endeavor
-52 - Last Resort
+52 - Final Gambit
 
 -------------------
 021 - Spearow
@@ -1730,6 +1730,7 @@ Level Up Moves:
 44 - Earthquake
 48 - Memento
 52 - Fissure
+56 - Final Gambit
 
 -------------------
 051 - Dugtrio
@@ -1764,6 +1765,7 @@ Level Up Moves:
 44 - Earthquake
 48 - Memento
 52 - Fissure
+56 - Final Gambit
 
 -------------------
 052 - Meowth
@@ -1925,6 +1927,7 @@ Level Up Moves:
 44 - U-turn
 49 - Outrage
 54 - Close Combat
+59 - Final Gambit
 
 -------------------
 057 - Primeape
@@ -1955,6 +1958,7 @@ Level Up Moves:
 44 - Rage Fist
 49 - Outrage
 54 - Close Combat
+59 - Final Gambit
 
 -------------------
 979 - Annihilape
@@ -1987,6 +1991,7 @@ Level Up Moves:
 44 - Rage Fist
 49 - Outrage
 54 - Close Combat
+59 - Final Gambit
 
 -------------------
 058 - Growlithe
@@ -2899,6 +2904,7 @@ Level Up Moves:
 48 - Agility
 52 - Brave Bird
 56 - Close Combat
+60 - Final Gambit
 
 -------------------
 084 - Doduo
@@ -10474,7 +10480,7 @@ Level Up Moves:
 42 - Swords Dance
 46 - First Impression
 50 - Extreme Speed
-54 - Substitute
+54 - Final Gambit
 
 -------------------
 292 - Shedinja
@@ -10506,6 +10512,7 @@ Level Up Moves:
 42 - Bug Buzz
 46 - Grudge
 50 - Phantom Force
+54 - Final Gambit
 
 -------------------
 293 - Whismur
@@ -12030,6 +12037,7 @@ Level Up Moves:
 44 - Taunt
 48 - Swords Dance
 52 - Close Combat
+56 - Final Gambit
 
 -------------------
 336 - Seviper
@@ -12067,6 +12075,7 @@ Level Up Moves:
 44 - Coil
 48 - Wring Out
 52 - Gunk Shot
+56 - Final Gambit
 
 -------------------
 337 - Lunatone
@@ -14134,6 +14143,7 @@ Level Up Moves:
 45 - Feather Dance
 50 - Brave Bird
 55 - Double-Edge
+60 - Final Gambit
 
 -------------------
 397 - Staravia
@@ -14163,6 +14173,7 @@ Level Up Moves:
 45 - Feather Dance
 50 - Brave Bird
 55 - Double-Edge
+60 - Final Gambit
 
 -------------------
 398 - Staraptor
@@ -14194,7 +14205,8 @@ Level Up Moves:
 45 - Feather Dance
 50 - Brave Bird
 55 - Double-Edge
-60 - Giga Impact
+60 - Final Gambit
+65 - Giga Impact
 
 -------------------
 399 - Bidoof
@@ -15494,6 +15506,7 @@ Level Up Moves:
 48 - Copycat
 52 - Nasty Plot
 56 - Reversal
+60 - Final Gambit
 
 -------------------
 448 - Lucario
@@ -18248,9 +18261,10 @@ Level Up Moves:
 32 - Aqua Tail
 36 - Crunch
 40 - Thrash
-44 - Double-Edge
-48 - Head Smash
+44 - Final Gambit
+48 - Double-Edge
 52 - Wave Crash
+56 - Head Smash
 
 -------------------
 550.2 - Basculin (Blue-Striped Form)
@@ -18276,9 +18290,10 @@ Level Up Moves:
 32 - Aqua Tail
 36 - Crunch
 40 - Thrash
-44 - Double-Edge
-48 - Head Smash
+44 - Final Gambit
+48 - Double-Edge
 52 - Wave Crash
+56 - Head Smash
 
 -------------------
 551 - Sandile
@@ -20362,9 +20377,9 @@ Level Up Moves:
 32 - Giga Drain
 36 - Bug Buzz
 40 - Body Slam
-44 - Gastro Acid
-48 - Mind Reader
-52 - Recover
+44 - Recover
+48 - Gastro Acid
+52 - Final Gambit
 
 -------------------
 617 - Accelgor
@@ -20378,6 +20393,7 @@ New Moves:
 - Acrobatics (TM)
 
 Level Up Moves:
+01 - Mind Reader
 01 - Toxic Spikes
 01 - Spikes
 01 - Absorb
@@ -20393,9 +20409,9 @@ Level Up Moves:
 32 - Giga Drain
 36 - Bug Buzz
 40 - U-turn
-44 - Toxic
-48 - Mind Reader
-52 - Recover
+44 - Recover
+48 - Toxic
+52 - Final Gambit
 
 -------------------
 618 - Stunfisk

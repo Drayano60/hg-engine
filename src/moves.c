@@ -175,6 +175,7 @@ u32 move_effect_to_subscripts[] =
     [161] = 340, // new steel beam subscript
     [162] = 344, // new toxic thread subscript
     [163] = 348, // new clear smog subscript
+    [164] = 351, // new final gambit subscript
 };
 
 

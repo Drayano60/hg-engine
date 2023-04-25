@@ -377,7 +377,7 @@ levelup SPECIES_RATTATA
     learnset MOVE_SUCKER_PUNCH, 40
     learnset MOVE_DOUBLE_EDGE, 44
     learnset MOVE_ENDEAVOR, 48
-    learnset MOVE_LAST_RESORT, 52
+    learnset MOVE_FINAL_GAMBIT, 52
     terminatelearnset
 
 levelup SPECIES_RATTATA_ALOLAN
@@ -418,7 +418,7 @@ levelup SPECIES_RATICATE
     learnset MOVE_SUCKER_PUNCH, 40
     learnset MOVE_DOUBLE_EDGE, 44
     learnset MOVE_ENDEAVOR, 48
-    learnset MOVE_LAST_RESORT, 52
+    learnset MOVE_FINAL_GAMBIT, 52
     terminatelearnset
 
 levelup SPECIES_RATICATE_ALOLAN
@@ -1331,6 +1331,7 @@ levelup SPECIES_DIGLETT
     learnset MOVE_EARTHQUAKE, 44
     learnset MOVE_MEMENTO, 48
     learnset MOVE_FISSURE, 52
+    learnset MOVE_FINAL_GAMBIT, 56
     terminatelearnset
 
 levelup SPECIES_DIGLETT_ALOLAN
@@ -1375,6 +1376,7 @@ levelup SPECIES_DUGTRIO
     learnset MOVE_EARTHQUAKE, 44
     learnset MOVE_MEMENTO, 48
     learnset MOVE_FISSURE, 52
+    learnset MOVE_FINAL_GAMBIT, 56
     terminatelearnset
 
 levelup SPECIES_DUGTRIO_ALOLAN
@@ -1557,6 +1559,7 @@ levelup SPECIES_MANKEY
     learnset MOVE_U_TURN, 44
     learnset MOVE_OUTRAGE, 49
     learnset MOVE_CLOSE_COMBAT, 54
+    learnset MOVE_FINAL_GAMBIT, 59
     terminatelearnset
 
 levelup SPECIES_PRIMEAPE
@@ -1577,6 +1580,7 @@ levelup SPECIES_PRIMEAPE
     learnset MOVE_RAGE_FIST, 44
     learnset MOVE_OUTRAGE, 49
     learnset MOVE_CLOSE_COMBAT, 54
+    learnset MOVE_FINAL_GAMBIT, 59
     terminatelearnset
 
 levelup SPECIES_ANNIHILAPE
@@ -1599,6 +1603,7 @@ levelup SPECIES_ANNIHILAPE
     learnset MOVE_RAGE_FIST, 44
     learnset MOVE_OUTRAGE, 49
     learnset MOVE_CLOSE_COMBAT, 54
+    learnset MOVE_FINAL_GAMBIT, 59
 	terminatelearnset
 
 levelup SPECIES_GROWLITHE
@@ -2273,6 +2278,7 @@ levelup SPECIES_FARFETCHD
     learnset MOVE_AGILITY, 48
     learnset MOVE_BRAVE_BIRD, 52
     learnset MOVE_CLOSE_COMBAT, 56
+    learnset MOVE_FINAL_GAMBIT, 60
     terminatelearnset
 
 // NEW: Double Kick
@@ -7504,7 +7510,7 @@ levelup SPECIES_NINJASK
     learnset MOVE_SWORDS_DANCE, 42
     learnset MOVE_FIRST_IMPRESSION, 46
     learnset MOVE_EXTREME_SPEED, 50
-    learnset MOVE_SUBSTITUTE, 54
+    learnset MOVE_FINAL_GAMBIT, 54
     terminatelearnset
 
 levelup SPECIES_SHEDINJA
@@ -7526,6 +7532,7 @@ levelup SPECIES_SHEDINJA
     learnset MOVE_BUG_BUZZ, 42
     learnset MOVE_GRUDGE, 46
     learnset MOVE_PHANTOM_FORCE, 50
+    learnset MOVE_FINAL_GAMBIT, 54
     terminatelearnset
 
 levelup SPECIES_WHISMUR
@@ -8569,6 +8576,7 @@ levelup SPECIES_ZANGOOSE
     learnset MOVE_TAUNT, 44
     learnset MOVE_SWORDS_DANCE, 48
     learnset MOVE_CLOSE_COMBAT, 52
+    learnset MOVE_FINAL_GAMBIT, 56
     terminatelearnset
 
 levelup SPECIES_SEVIPER
@@ -8590,6 +8598,7 @@ levelup SPECIES_SEVIPER
     learnset MOVE_COIL, 44
     learnset MOVE_WRING_OUT, 48
     learnset MOVE_GUNK_SHOT, 52
+    learnset MOVE_FINAL_GAMBIT, 56
     terminatelearnset
 
 levelup SPECIES_LUNATONE
@@ -10033,6 +10042,7 @@ levelup SPECIES_STARLY
     learnset MOVE_FEATHER_DANCE, 45
     learnset MOVE_BRAVE_BIRD, 50
     learnset MOVE_DOUBLE_EDGE, 55
+    learnset MOVE_FINAL_GAMBIT, 60
     terminatelearnset
 
 // NEW: Thrash
@@ -10052,6 +10062,7 @@ levelup SPECIES_STARAVIA
     learnset MOVE_FEATHER_DANCE, 45
     learnset MOVE_BRAVE_BIRD, 50
     learnset MOVE_DOUBLE_EDGE, 55
+    learnset MOVE_FINAL_GAMBIT, 60
     terminatelearnset
 
 // NEW: Thrash
@@ -10072,7 +10083,8 @@ levelup SPECIES_STARAPTOR
     learnset MOVE_FEATHER_DANCE, 45
     learnset MOVE_BRAVE_BIRD, 50
     learnset MOVE_DOUBLE_EDGE, 55
-    learnset MOVE_GIGA_IMPACT, 60
+    learnset MOVE_FINAL_GAMBIT, 60
+    learnset MOVE_GIGA_IMPACT, 65
     terminatelearnset
 
 levelup SPECIES_BIDOOF
@@ -11014,6 +11026,7 @@ levelup SPECIES_RIOLU
     learnset MOVE_COPYCAT, 48
     learnset MOVE_NASTY_PLOT, 52
     learnset MOVE_REVERSAL, 56
+    learnset MOVE_FINAL_GAMBIT, 60
     terminatelearnset
 
 // NEW: Mach Punch (PLA)
@@ -13000,9 +13013,10 @@ levelup SPECIES_BASCULIN
     learnset MOVE_AQUA_TAIL, 32
     learnset MOVE_CRUNCH, 36
     learnset MOVE_THRASH, 40
-    learnset MOVE_DOUBLE_EDGE, 44
-    learnset MOVE_HEAD_SMASH, 48
+    learnset MOVE_FINAL_GAMBIT, 44
+    learnset MOVE_DOUBLE_EDGE, 48
     learnset MOVE_WAVE_CRASH, 52
+    learnset MOVE_HEAD_SMASH, 56
     terminatelearnset
 
 levelup SPECIES_BASCULIN_BLUE_STRIPED
@@ -13018,9 +13032,10 @@ levelup SPECIES_BASCULIN_BLUE_STRIPED
     learnset MOVE_AQUA_TAIL, 32
     learnset MOVE_CRUNCH, 36
     learnset MOVE_THRASH, 40
-    learnset MOVE_DOUBLE_EDGE, 44
-    learnset MOVE_HEAD_SMASH, 48
+    learnset MOVE_FINAL_GAMBIT, 44
+    learnset MOVE_DOUBLE_EDGE, 48
     learnset MOVE_WAVE_CRASH, 52
+    learnset MOVE_HEAD_SMASH, 56
     terminatelearnset
 
 levelup SPECIES_SANDILE
@@ -14650,13 +14665,14 @@ levelup SPECIES_SHELMET
     learnset MOVE_GIGA_DRAIN, 32
     learnset MOVE_BUG_BUZZ, 36
     learnset MOVE_BODY_SLAM, 40
-    learnset MOVE_GASTRO_ACID, 44
-    learnset MOVE_MIND_READER, 48
-    learnset MOVE_RECOVER, 52
+    learnset MOVE_RECOVER, 44
+    learnset MOVE_GASTRO_ACID, 48
+    learnset MOVE_FINAL_GAMBIT, 52
     terminatelearnset
 
 // Evolution: Linking Cord
 levelup SPECIES_ACCELGOR
+    learnset MOVE_MIND_READER, 1
     learnset MOVE_TOXIC_SPIKES, 1
     learnset MOVE_SPIKES, 1
     learnset MOVE_ABSORB, 1
@@ -14672,9 +14688,9 @@ levelup SPECIES_ACCELGOR
     learnset MOVE_GIGA_DRAIN, 32
     learnset MOVE_BUG_BUZZ, 36
     learnset MOVE_U_TURN, 40
-    learnset MOVE_TOXIC, 44
-    learnset MOVE_MIND_READER, 48
-    learnset MOVE_RECOVER, 52
+    learnset MOVE_RECOVER, 44
+    learnset MOVE_TOXIC, 48
+    learnset MOVE_FINAL_GAMBIT, 52
     terminatelearnset
 
 levelup SPECIES_STUNFISK

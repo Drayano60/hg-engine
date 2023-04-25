@@ -9512,22 +9512,21 @@ movedata MOVE_KOWTOW_CLEAVE, "Kowtow Cleave"
     terminatedata
     movedescription MOVE_KOWTOW_CLEAVE, "The user kowtows to\nmake the foe let down\nits guard, and then\nslashes at the foe.\nThis never misses."
 
-// Copy of Hidden Power with fixed type, for AI use only
-movedata MOVE_HIDDEN_POWER_WATER, "Hidden Power"
-    battleeffect 0
-    pss SPLIT_SPECIAL
-    basepower 60
-    type TYPE_WATER
+movedata MOVE_FINAL_GAMBIT, "Final Gambit"
+    battleeffect 316
+    pss SPLIT_PHYSICAL
+    basepower 1
+    type TYPE_FIGHTING
     accuracy 100
-    pp 15
+    pp 5
     effectchance 0
     target MOVE_TARGET_SELECTED
     priority 0
-    flags FLAG_KINGS_ROCK | FLAG_MIRROR_MOVE | FLAG_PROTECT
-    appeal 0x17
-    contesttype CONTEST_SMART
+    flags FLAG_KINGS_ROCK | FLAG_PROTECT
+    appeal 0
+    contesttype 0
     terminatedata
-    movedescription MOVE_HIDDEN_POWER_WATER, "FOR AI ONLY"
+    movedescription MOVE_FINAL_GAMBIT, "The user risks all\nto attack its target.\nThe user does damage\nequal to its current\nHP, but then faints."
 
 // Copy of Hidden Power with fixed type, for AI use only
 movedata MOVE_HIDDEN_POWER_GRASS, "Hidden Power"

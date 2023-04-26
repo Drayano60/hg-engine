@@ -31,11 +31,13 @@ Level Evolutions
 #575 Gothorita ⟶ #576 Gothitelle: Evolves at Level 38.
 #577 Solosis ⟶ #578 Duosion: Evolves at Level 24.
 #578 Duosion ⟶ #579 Reuniclus: Evolves at Level 38.
-#580 Ducklett ⟶ #581 Swanna: Evolves at Level 27.
+#580 Ducklett ⟶ #581 Swanna: Evolves at Level 30.
 #582 Vanillite ⟶ #583 Vanillish: Evolves at Level 28.
 #583 Vanillish ⟶ #584 Vanilluxe: Evolves at Level 40.
 #590 Foongus ⟶ #591 Amoonguss: Evolves at Level 36.
 #592 Frillish ⟶ #593 Jellicent: Evolves at Level 36.
+#595 Joltik ⟶ #596 Galvantula: Evolves at Level 33.
+#597 Ferroseed ⟶ #598 Ferrothorn: Evolves at Level 36.
 #599 Klink ⟶ #600 Klang: Evolves at Level 28.
 #600 Klang ⟶ #601 Klinklang: Evolves at Level 40.
 #602 Tynamo ⟶ #603 Eelektrik: Evolves at Level 30.

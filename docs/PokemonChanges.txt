@@ -10576,7 +10576,7 @@ Level Up Moves:
 295 - Exploud
 -------------------
 Abilities: Soundproof / Soundproof / Scrappy ⟶ Soundproof / Scrappy / Cacophony**
-Base Stats: 104/91/63/91/73/68 (490) ⟶ 114*/101*/63/101*/73/68 (520)
+Base Stats: 104/91/63/91/73/68 (490) ⟶ 114*/101*/73*/101*/73/68 (530)
 Held Item: Chesto Berry (5%)
 Type: Normal
 
@@ -19246,7 +19246,7 @@ Level Up Moves:
 580 - Ducklett
 -------------------
 Abilities: Keen Eye / Big Pecks / Hydration ⟶ Keen Eye / Big Pecks / Gale Wings**
-Base Stats: 62/44/50/44/50/55 (305) ⟶ 62/34*/50/54*/50/55 (305)
+Base Stats: 62/44/50/44/50/55 (305)
 Held Item: None
 Type: Water / Flying
 
@@ -19256,14 +19256,14 @@ New Moves:
 Level Up Moves:
 01 - Water Gun
 01 - Water Sport
-03 - Defog
-06 - Wing Attack
-09 - Water Pulse
-12 - Aerial Ace
-15 - Bubble Beam
-18 - Feather Dance
-21 - Aqua Ring
-24 - Air Slash
+04 - Defog
+07 - Wing Attack
+10 - Water Pulse
+13 - Aerial Ace
+16 - Bubble Beam
+19 - Feather Dance
+22 - Aqua Ring
+25 - Air Slash
 28 - Roost
 32 - Brine
 36 - Me First
@@ -19289,14 +19289,14 @@ Level Up Moves:
 01 - Lucky Chant
 01 - Water Gun
 01 - Water Sport
-03 - Defog
-06 - Wing Attack
-09 - Water Pulse
-12 - Aerial Ace
-15 - Bubble Beam
-18 - Feather Dance
-21 - Aqua Ring
-24 - Air Slash
+04 - Defog
+07 - Wing Attack
+10 - Water Pulse
+13 - Aerial Ace
+16 - Bubble Beam
+19 - Feather Dance
+22 - Aqua Ring
+25 - Air Slash
 28 - Roost
 32 - Brine
 36 - Me First
@@ -19798,22 +19798,22 @@ Level Up Moves:
 01 - Spikes
 01 - Tackle
 01 - Harden
-03 - Rollout
-06 - Curse
-09 - Leech Seed
-12 - Metal Claw
-15 - Pin Missile
-18 - Bullet Seed
-21 - Iron Defense
-24 - Self-Destruct
-28 - Gyro Ball
-32 - Seed Bomb
-36 - Mirror Shot
-40 - Power Whip
+04 - Rollout
+07 - Curse
+10 - Leech Seed
+13 - Metal Claw
+16 - Bullet Seed
+19 - Pin Missile
+22 - Gyro Ball
+25 - Iron Defense
+28 - Mirror Shot
+31 - Self-Destruct
+34 - Ingrain
+38 - Payback
 42 - Iron Head
-48 - Payback
-54 - Ingrain
-60 - Explosion
+46 - Seed Bomb
+50 - Flash Cannon
+54 - Explosion
 
 -------------------
 598 - Ferrothorn
@@ -19827,27 +19827,27 @@ New Moves:
 - None
 
 Level Up Moves:
-01 - Heavy Slam
 01 - Brutal Swing
+01 - Rock Climb
 01 - Spikes
 01 - Tackle
 01 - Harden
-03 - Rollout
-06 - Curse
-09 - Leech Seed
-12 - Metal Claw
-15 - Pin Missile
-18 - Bullet Seed
-21 - Iron Defense
-24 - Self-Destruct
-28 - Gyro Ball
-32 - Seed Bomb
-36 - Mirror Shot
-40 - Power Whip
+04 - Rollout
+07 - Curse
+10 - Leech Seed
+13 - Metal Claw
+16 - Bullet Seed
+19 - Pin Missile
+22 - Gyro Ball
+25 - Iron Defense
+28 - Mirror Shot
+31 - Self-Destruct
+34 - Ingrain
+38 - Payback
 42 - Iron Head
-48 - Payback
-54 - Ingrain
-60 - Explosion
+46 - Power Whip
+50 - Flash Cannon
+54 - Explosion
 
 -------------------
 599 - Klink
@@ -21046,6 +21046,7 @@ New Moves:
 - None
 
 Level Up Moves:
+01 - Fiery Dance
 01 - Morning Sun
 01 - Silver Wind
 01 - Fire Spin
@@ -21062,7 +21063,7 @@ Level Up Moves:
 35 - Take Down
 40 - Bug Buzz
 45 - Amnesia
-50 - Fiery Dance
+50 - Quiver Dance
 54 - Heat Wave
 60 - Hurricane
-66 - Quiver Dance
+66 - Fire Blast

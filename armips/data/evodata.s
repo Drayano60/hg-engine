@@ -7623,7 +7623,7 @@ evodata SPECIES_REUNICLUS
 
 evodata SPECIES_DUCKLETT
     // evolution EVO_LEVEL_UP, 35, SPECIES_SWANNA
-    evolution EVO_LEVEL_UP, 27, SPECIES_SWANNA
+    evolution EVO_LEVEL_UP, 30, SPECIES_SWANNA
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -7809,7 +7809,8 @@ evodata SPECIES_ALOMOMOLA
     terminateevodata
 
 evodata SPECIES_JOLTIK
-    evolution EVO_LEVEL_UP, 36, SPECIES_GALVANTULA
+    // evolution EVO_LEVEL_UP, 36, SPECIES_GALVANTULA
+    evolution EVO_LEVEL_UP, 33, SPECIES_GALVANTULA
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -7833,7 +7834,8 @@ evodata SPECIES_GALVANTULA
     terminateevodata
 
 evodata SPECIES_FERROSEED
-    evolution EVO_LEVEL_UP, 40, SPECIES_FERROTHORN
+    // evolution EVO_LEVEL_UP, 40, SPECIES_FERROTHORN
+    evolution EVO_LEVEL_UP, 36, SPECIES_FERROTHORN
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE

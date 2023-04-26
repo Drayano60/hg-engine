@@ -7611,11 +7611,11 @@ mondata SPECIES_LOUDRED, "Loudred"
     mondexweight SPECIES_LOUDRED, "89.3 lbs."
 
 
-// STATS: 104 >> 114 HP | 91 >> 101 Atk | 91 >> 101 SpAtk | 490 >> 520 BST
+// STATS: 104 >> 114 HP | 91 >> 101 Atk | 63 >> 73 Def | 91 >> 101 SpAtk | 490 >> 530 BST
 // ABILITY: Scrappy (2), Cacophony (HA, New)
 mondata SPECIES_EXPLOUD, "Exploud"
     .if STAT_CHANGES_IMPLEMENTED
-        basestats 114, 101, 63, 68, 101, 73
+        basestats 114, 101, 73, 68, 101, 73
     .else
         basestats 104, 91, 63, 68, 91, 73
     .endif

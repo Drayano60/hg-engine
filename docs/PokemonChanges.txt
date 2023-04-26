@@ -19074,14 +19074,14 @@ Level Up Moves:
 15 - Charm
 18 - Embargo
 21 - Hypnosis
-24 - Psyshock
-28 - Feint Attack
-32 - Fake Tears
-38 - Psychic
-44 - Flatter
-50 - Psych Up
-56 - Heal Block
-62 - Future Sight
+25 - Psyshock
+29 - Feint Attack
+33 - Fake Tears
+37 - Psychic
+42 - Flatter
+48 - Psych Up
+54 - Heal Block
+60 - Future Sight
 
 -------------------
 575 - Gothorita
@@ -19104,14 +19104,14 @@ Level Up Moves:
 15 - Charm
 18 - Embargo
 21 - Hypnosis
-24 - Psyshock
-28 - Feint Attack
-32 - Fake Tears
-38 - Psychic
-44 - Flatter
-50 - Psych Up
-56 - Heal Block
-62 - Future Sight
+25 - Psyshock
+29 - Feint Attack
+33 - Fake Tears
+37 - Psychic
+42 - Flatter
+48 - Psych Up
+54 - Heal Block
+60 - Future Sight
 
 -------------------
 576 - Gothitelle
@@ -19137,15 +19137,14 @@ Level Up Moves:
 15 - Charm
 18 - Embargo
 21 - Hypnosis
-24 - Psyshock
-28 - Feint Attack
-32 - Fake Tears
-36 - Captivate
-38 - Psychic
-44 - Flatter
-50 - Psych Up
-56 - Heal Block
-62 - Future Sight
+25 - Psyshock
+29 - Feint Attack
+33 - Fake Tears
+37 - Psychic
+42 - Flatter
+48 - Psych Up
+54 - Heal Block
+60 - Future Sight
 
 -------------------
 577 - Solosis
@@ -19169,14 +19168,14 @@ Level Up Moves:
 18 - Charm
 21 - Light Screen
 21 - Reflect
-24 - Psyshock
-28 - Recover
-32 - Pain Split
-38 - Psychic
-44 - Endeavor
-50 - Skill Swap
-56 - Heal Block
-62 - Future Sight
+25 - Psyshock
+29 - Recover
+33 - Pain Split
+37 - Psychic
+42 - Endeavor
+48 - Skill Swap
+54 - Heal Block
+60 - Future Sight
 
 -------------------
 578 - Duosion
@@ -19200,14 +19199,14 @@ Level Up Moves:
 18 - Charm
 21 - Light Screen
 21 - Reflect
-24 - Psyshock
-28 - Recover
-32 - Pain Split
-38 - Psychic
-44 - Endeavor
-50 - Skill Swap
-56 - Heal Block
-62 - Future Sight
+25 - Psyshock
+29 - Recover
+33 - Pain Split
+37 - Psychic
+42 - Endeavor
+48 - Skill Swap
+54 - Heal Block
+60 - Future Sight
 
 -------------------
 579 - Reuniclus
@@ -19233,15 +19232,15 @@ Level Up Moves:
 18 - Charm
 21 - Light Screen
 21 - Reflect
-24 - Psyshock
-28 - Recover
-32 - Pain Split
-36 - Hammer Arm
-38 - Psychic
-44 - Endeavor
-50 - Skill Swap
-56 - Heal Block
-62 - Future Sight
+25 - Psyshock
+29 - Recover
+33 - Pain Split
+37 - Psychic
+38 - Hammer Arm
+42 - Endeavor
+48 - Skill Swap
+54 - Heal Block
+60 - Future Sight
 
 -------------------
 580 - Ducklett

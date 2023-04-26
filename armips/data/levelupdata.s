@@ -13560,7 +13560,7 @@ levelup SPECIES_CINCCINO
     learnset MOVE_LAST_RESORT, 52
     terminatelearnset
 
-// Evolution: 25 -> 36
+// Evolution: 24 -> 38
 levelup SPECIES_GOTHITA
     learnset MOVE_POUND, 1
     learnset MOVE_CONFUSION, 1
@@ -13571,17 +13571,17 @@ levelup SPECIES_GOTHITA
     learnset MOVE_CHARM, 15
     learnset MOVE_EMBARGO, 18
     learnset MOVE_HYPNOSIS, 21
-    learnset MOVE_PSYSHOCK, 24
-    learnset MOVE_FEINT_ATTACK, 28
-    learnset MOVE_FAKE_TEARS, 32
-    learnset MOVE_PSYCHIC, 40
-    learnset MOVE_FLATTER, 45
-    learnset MOVE_PSYCH_UP, 50
-    learnset MOVE_HEAL_BLOCK, 55
+    learnset MOVE_PSYSHOCK, 25
+    learnset MOVE_FEINT_ATTACK, 29
+    learnset MOVE_FAKE_TEARS, 33
+    learnset MOVE_PSYCHIC, 37
+    learnset MOVE_FLATTER, 42
+    learnset MOVE_PSYCH_UP, 48
+    learnset MOVE_HEAL_BLOCK, 54
     learnset MOVE_FUTURE_SIGHT, 60
     terminatelearnset
 
-// Evolution: 25 -> 36
+// Evolution: 24 -> 38
 levelup SPECIES_GOTHORITA
     learnset MOVE_POUND, 1
     learnset MOVE_CONFUSION, 1
@@ -13592,17 +13592,17 @@ levelup SPECIES_GOTHORITA
     learnset MOVE_CHARM, 15
     learnset MOVE_EMBARGO, 18
     learnset MOVE_HYPNOSIS, 21
-    learnset MOVE_PSYSHOCK, 24
-    learnset MOVE_FEINT_ATTACK, 28
-    learnset MOVE_FAKE_TEARS, 32
-    learnset MOVE_PSYCHIC, 38
-    learnset MOVE_FLATTER, 44
-    learnset MOVE_PSYCH_UP, 50
-    learnset MOVE_HEAL_BLOCK, 56
-    learnset MOVE_FUTURE_SIGHT, 62
+    learnset MOVE_PSYSHOCK, 25
+    learnset MOVE_FEINT_ATTACK, 29
+    learnset MOVE_FAKE_TEARS, 33
+    learnset MOVE_PSYCHIC, 37
+    learnset MOVE_FLATTER, 42
+    learnset MOVE_PSYCH_UP, 48
+    learnset MOVE_HEAL_BLOCK, 54
+    learnset MOVE_FUTURE_SIGHT, 60
     terminatelearnset
 
-// Evolution: 25 -> 36
+// Evolution: 24 -> 38
 levelup SPECIES_GOTHITELLE
     learnset MOVE_MIRACLE_EYE, 1
     learnset MOVE_MIRROR_COAT, 1
@@ -13616,18 +13616,17 @@ levelup SPECIES_GOTHITELLE
     learnset MOVE_PSYBEAM, 15
     learnset MOVE_CHARM, 18
     learnset MOVE_HYPNOSIS, 21
-    learnset MOVE_PSYSHOCK, 24
-    learnset MOVE_FEINT_ATTACK, 28
-    learnset MOVE_FAKE_TEARS, 32
-    learnset MOVE_CAPTIVATE, 36
-    learnset MOVE_PSYCHIC, 38
-    learnset MOVE_FLATTER, 44
-    learnset MOVE_PSYCH_UP, 50
-    learnset MOVE_HEAL_BLOCK, 56
-    learnset MOVE_FUTURE_SIGHT, 62
+    learnset MOVE_PSYSHOCK, 25
+    learnset MOVE_FEINT_ATTACK, 29
+    learnset MOVE_FAKE_TEARS, 33
+    learnset MOVE_PSYCHIC, 37
+    learnset MOVE_FLATTER, 42
+    learnset MOVE_PSYCH_UP, 48
+    learnset MOVE_HEAL_BLOCK, 54
+    learnset MOVE_FUTURE_SIGHT, 60
     terminatelearnset
 
-// Evolution: 25 -> 36
+// Evolution: 24 -> 38
 levelup SPECIES_SOLOSIS
     learnset MOVE_CONFUSION, 1
     learnset MOVE_PROTECT, 1
@@ -13639,17 +13638,17 @@ levelup SPECIES_SOLOSIS
     learnset MOVE_CHARM, 18
     learnset MOVE_LIGHT_SCREEN, 21
     learnset MOVE_REFLECT, 21
-    learnset MOVE_PSYSHOCK, 24
-    learnset MOVE_RECOVER, 28
-    learnset MOVE_PAIN_SPLIT, 32
-    learnset MOVE_PSYCHIC, 38
-    learnset MOVE_ENDEAVOR, 44
-    learnset MOVE_SKILL_SWAP, 50
-    learnset MOVE_HEAL_BLOCK, 56
-    learnset MOVE_FUTURE_SIGHT, 62
+    learnset MOVE_PSYSHOCK, 25
+    learnset MOVE_RECOVER, 29
+    learnset MOVE_PAIN_SPLIT, 33
+    learnset MOVE_PSYCHIC, 37
+    learnset MOVE_ENDEAVOR, 42
+    learnset MOVE_SKILL_SWAP, 48
+    learnset MOVE_HEAL_BLOCK, 54
+    learnset MOVE_FUTURE_SIGHT, 60
     terminatelearnset
 
-// Evolution: 25 -> 36
+// Evolution: 24 -> 38
 levelup SPECIES_DUOSION
     learnset MOVE_CONFUSION, 1
     learnset MOVE_PROTECT, 1
@@ -13661,17 +13660,17 @@ levelup SPECIES_DUOSION
     learnset MOVE_CHARM, 18
     learnset MOVE_LIGHT_SCREEN, 21
     learnset MOVE_REFLECT, 21
-    learnset MOVE_PSYSHOCK, 24
-    learnset MOVE_RECOVER, 28
-    learnset MOVE_PAIN_SPLIT, 32
-    learnset MOVE_PSYCHIC, 38
-    learnset MOVE_ENDEAVOR, 44
-    learnset MOVE_SKILL_SWAP, 50
-    learnset MOVE_HEAL_BLOCK, 56
-    learnset MOVE_FUTURE_SIGHT, 62
+    learnset MOVE_PSYSHOCK, 25
+    learnset MOVE_RECOVER, 29
+    learnset MOVE_PAIN_SPLIT, 33
+    learnset MOVE_PSYCHIC, 37
+    learnset MOVE_ENDEAVOR, 42
+    learnset MOVE_SKILL_SWAP, 48
+    learnset MOVE_HEAL_BLOCK, 54
+    learnset MOVE_FUTURE_SIGHT, 60
     terminatelearnset
 
-// Evolution: 25 -> 36
+// Evolution: 24 -> 38
 levelup SPECIES_REUNICLUS
     learnset MOVE_DIZZY_PUNCH, 1
     learnset MOVE_ACID_ARMOR, 1
@@ -13685,15 +13684,15 @@ levelup SPECIES_REUNICLUS
     learnset MOVE_CHARM, 18
     learnset MOVE_LIGHT_SCREEN, 21
     learnset MOVE_REFLECT, 21
-    learnset MOVE_PSYSHOCK, 24
-    learnset MOVE_RECOVER, 28
-    learnset MOVE_PAIN_SPLIT, 32
-    learnset MOVE_HAMMER_ARM, 36
-    learnset MOVE_PSYCHIC, 38
-    learnset MOVE_ENDEAVOR, 44
-    learnset MOVE_SKILL_SWAP, 50
-    learnset MOVE_HEAL_BLOCK, 56
-    learnset MOVE_FUTURE_SIGHT, 62
+    learnset MOVE_PSYSHOCK, 25
+    learnset MOVE_RECOVER, 29
+    learnset MOVE_PAIN_SPLIT, 33
+    learnset MOVE_PSYCHIC, 37
+    learnset MOVE_HAMMER_ARM, 38
+    learnset MOVE_ENDEAVOR, 42
+    learnset MOVE_SKILL_SWAP, 48
+    learnset MOVE_HEAL_BLOCK, 54
+    learnset MOVE_FUTURE_SIGHT, 60
     terminatelearnset
 
 // Evolution: 27

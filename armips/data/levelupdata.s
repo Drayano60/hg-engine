@@ -4309,7 +4309,7 @@ levelup SPECIES_DRATINI
     learnset MOVE_AGILITY, 16
     learnset MOVE_SLAM, 20
     learnset MOVE_DRAGON_RAGE, 24
-    learnset MOVE_SCALE_SHOT, 28
+    learnset MOVE_BREAKING_SWIPE, 28
     learnset MOVE_AQUA_TAIL, 35
     learnset MOVE_SAFEGUARD, 40
     learnset MOVE_RAIN_DANCE, 45
@@ -4328,7 +4328,7 @@ levelup SPECIES_DRAGONAIR
     learnset MOVE_AGILITY, 16
     learnset MOVE_SLAM, 20
     learnset MOVE_DRAGON_RAGE, 24
-    learnset MOVE_SCALE_SHOT, 28
+    learnset MOVE_BREAKING_SWIPE, 28
     learnset MOVE_AQUA_TAIL, 35
     learnset MOVE_SAFEGUARD, 40
     learnset MOVE_RAIN_DANCE, 45
@@ -4354,7 +4354,7 @@ levelup SPECIES_DRAGONITE
     learnset MOVE_AGILITY, 16
     learnset MOVE_SLAM, 20
     learnset MOVE_DRAGON_RAGE, 24
-    learnset MOVE_SCALE_SHOT, 28
+    learnset MOVE_BREAKING_SWIPE, 28
     learnset MOVE_AQUA_TAIL, 35
     learnset MOVE_SAFEGUARD, 40
     learnset MOVE_RAIN_DANCE, 45

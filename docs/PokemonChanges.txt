@@ -5755,7 +5755,7 @@ Level Up Moves:
 16 - Agility
 20 - Slam
 24 - Dragon Rage
-28 - Scale Shot
+28 - Breaking Swipe
 35 - Aqua Tail
 40 - Safeguard
 45 - Rain Dance
@@ -5784,7 +5784,7 @@ Level Up Moves:
 16 - Agility
 20 - Slam
 24 - Dragon Rage
-28 - Scale Shot
+28 - Breaking Swipe
 35 - Aqua Tail
 40 - Safeguard
 45 - Rain Dance
@@ -5820,7 +5820,7 @@ Level Up Moves:
 16 - Agility
 20 - Slam
 24 - Dragon Rage
-28 - Scale Shot
+28 - Breaking Swipe
 35 - Aqua Tail
 40 - Safeguard
 45 - Rain Dance

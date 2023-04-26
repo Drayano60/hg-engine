@@ -6,6 +6,41 @@ Aurora Crystal features moves from the original Heart Gold and Soul Silver as we
 Some moves have also received further changes which are listed below. Changes are shown relative to a move's values after being updated to modern generation mechanics.
 
 -------------------
+Critical Hits
+-------------------
+In Aurora Crystal, a critical hit still deals double damage (or triple damage if the Pokémon has the Sniper ability). This can't currently be changed to the x1.5 rate for technical reasons.
+
+The probability of critical hits has been adjusted to be somewhere between Generation 4 and modern generations due to the higher damage per crit. The new probability rates for each critical hit stage are as follows (before the arrow is standard HG/SS, after the arrow is the new value):
+
+Stage +0: 1/16 ⟶ 1/24
+Stage +1: 1/8 ⟶ 1/8
+Stage +2: 1/4 ⟶ 1/3
+Stage +3: 1/3 ⟶ 1/2
+Stage +4: 1/2 ⟶ 1/1
+
+As a reminder, a Pokémon can raise its critical rate stages in the following ways:
+
++0:
+- This is the standard stage that all Pokémon have by default.
+
++1:
+- Using a move with a high chance of landing a critical hit, such as Slash, Leaf Blade, Night Slash etc.
+- Holding a general item that boosts critical hit rate, such as the Razor Claw or Scope Lens.
+- Having the Super Luck ability.
+
++2:
+- After using the move Focus Energy, or consuming the Lansat Berry, or having the item Dire Hit used on it. (Only one of these works at a time.)
+- If the Pokémon is a Chansey, by holding the Lucky Punch item.
+- If the Pokémon is a Farfetch'd, by holding the Leek item.
+
+There are no ways to instantly achieve the +3 or +4 stages, but all of these effects are additive. For example:
+- A Honchkrow with Super Luck (+1), that holds a Scope Lens (+1) and uses Night Slash (+1) will have a 50% chance to cause a critical hit that does DOUBLE damage.
+- A Kingdra that has used Focus Energy (+2), that holds a Scope Lens (+1) and has the Sniper ability will have a 50% chance to cause a critical hit that does TRIPLE damage.
+- A Farfetch'd that holds a Leek (+2) and has used Focus Energy (+2) will have a 100% chance to cause a critical hit that does DOUBLE damage.
+
+As with other stats, boosts to the critical hit rate are lost upon switching out (with the exception of Baton Pass, where the Pokémon that switches in receives the boosts).
+
+-------------------
 Status Conditions
 -------------------
 Some status conditions have been modified to better fit their modern generation counterparts.

@@ -731,7 +731,7 @@ u8 CalcSpeed(void *bw, struct BattleStruct *sp, int client1, int client2, int fl
     return ret;
 }
 
-
+/* Old crit rate table
 const u8 CriticalRateTable[] =
 {
 	16,
@@ -740,6 +740,10 @@ const u8 CriticalRateTable[] =
     3,
     2,
 };
+*/
+
+/* Not quite identical to later gens to account for the 2x crit multipler */
+const u8 CriticalRateTable[] = {24, 8, 3, 2, 1};
 
 // calculates the critical hit multiplier
 int CalcCritical(void *bw, struct BattleStruct *sp, int attacker, int defender, int critical_count, u32 side_condition)

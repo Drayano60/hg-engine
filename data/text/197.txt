@@ -772,7 +772,7 @@ The foe’s {STRVAR_1 1, 0, 0}’s stats\nwon’t go any higher!
 {STRVAR_1 1, 0, 0}’s stats won’t\ngo any lower!
 The wild {STRVAR_1 1, 0, 0}’s stats\nwon’t go any lower!
 The foe’s {STRVAR_1 1, 0, 0}’s stats\nwon’t go any lower!
-A critical hit!
+{COLOR 1}A critical hit!{COLOR 0}
 It’s a one-hit KO!
 1, 2, and... ... ... Poof!
 And...

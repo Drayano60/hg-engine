@@ -2893,14 +2893,15 @@ Level Up Moves:
 01 - Feint
 01 - Peck
 01 - Sand Attack
-04 - Leer
-08 - Fury Cutter
-12 - Fury Attack
-16 - False Swipe
-20 - Aerial Ace
-24 - Revenge
+03 - Leer
+06 - Fury Cutter
+09 - Fury Attack
+12 - False Swipe
+16 - Aerial Ace
+20 - Revenge
+24 - Slash
 28 - Knock Off
-32 - Slash
+32 - Focus Energy
 36 - Sacred Sword
 40 - Swords Dance
 44 - First Impression

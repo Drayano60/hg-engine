@@ -197,7 +197,7 @@
 /* SPECIES_JUMPLUFF                    */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_AERILATE : ABILITY_INFILTRATOR
 /* SPECIES_AIPOM                       */ .halfword ABILITY_SKILL_LINK
 /* SPECIES_SUNKERN                     */ .halfword ABILITY_EARLY_BIRD
-/* SPECIES_SUNFLORA                    */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_DROUGHT : ABILITY_EARLY_BIRD
+/* SPECIES_SUNFLORA                    */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_SUNNY_MOOD : ABILITY_EARLY_BIRD
 /* SPECIES_YANMA                       */ .halfword ABILITY_FRISK
 /* SPECIES_WOOPER                      */ .halfword ABILITY_UNAWARE
 /* SPECIES_QUAGSIRE                    */ .halfword ABILITY_UNAWARE

@@ -287,6 +287,12 @@ Users: Vespiquen.
 Effect: The Pokémon takes 50% reduced damage while at full HP.
 Notes: A Multiscale clone for Vespiquen. The idea is that it could command its Combee followers to get in the way of an attack and reduce the power.
 
+Sunny Mood
+-------------------
+Users: Sunflora.
+Effect: Upon entering the battle, the weather becomes harsh sunlight for three turns (or six turns if the Pokémon is holding a Heat Rock). Additionally, the Pokémon's Speed stat is doubled in harsh sunlight.
+Notes: A play on "sun"flower and Sunflora's cheery look, this ability is a slightly weaker Drought combined with Chlorophyll, which should hopefully let Sunflora actually take advantage of its own sun somewhat (though it is likely to still be quite slow without Speed investment). This effectively also gives it temporary Fire-type STAB which you can combine with Weather Ball, while not actually being a Fire-type (which is a common change but one I'm not that fond of.) I would have liked to have called this ability "Sunny Disposition" instead, but alas, character limits!
+
 Totter Steps
 -------------------
 Users: Spinda.

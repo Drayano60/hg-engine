@@ -7259,26 +7259,19 @@ Level Up Moves:
 -------------------
 192 - Sunflora
 -------------------
-Abilities: Chlorophyll / Solar Power / Drought**
+Abilities: Chlorophyll / Solar Power / Early Bird ⟶ Sunny Mood*** / Sunny Mood*** / Sunny Mood***
 Base Stats: 75/75/55/105/85/30 (425) ⟶ 75/75/75*/125*/95*/30 (475)
 Held Item: None
-Type: Grass ⟶ Grass / Fire
+Type: Grass
 
 New Moves:
-- Fire Blast* (TM)
-- Flamethrower* (TM)
 - Leaf Blade (Tutor) (HOME)
-- Mystical Fire (Level/TM)
-- Overheat* (TM)
+- Mystical Fire (TM)
 - Pollen Puff (Tutor)
 - Weather Ball (Level/Tutor) (HOME)
-- Will-O-Wisp* (TM)
-
-* If type changes are removed, Sunflora cannot learn these moves.
 
 Level Up Moves:
 01 - Petal Blizzard
-01 - Mystical Fire
 01 - Nature Power
 01 - Weather Ball
 01 - Morning Sun

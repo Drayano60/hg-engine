@@ -4953,19 +4953,14 @@ mondata SPECIES_SUNKERN, "Sunkern"
 
 
 // STATS: 55 >> 75 Def | 105 >> 125 SpAtk | 85 >> 95 SpDef | 425 >> 475 BST
-// TYPES: Grass >> Grass/Fire
-// ABILITY: Drought (HA)
+// ABILITY: Sunny Mood (1, New), Sunny Mood (2, New), Sunny Mood (HA, New)
 mondata SPECIES_SUNFLORA, "Sunflora"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 75, 75, 75, 30, 125, 95
     .else
         basestats 75, 75, 55, 30, 105, 85
     .endif
-    .if TYPE_CHANGES_IMPLEMENTED
-        types TYPE_GRASS, TYPE_FIRE
-    .else
-        types TYPE_GRASS, TYPE_GRASS
-    .endif
+    types TYPE_GRASS, TYPE_GRASS
     catchrate 120
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 2, 0
@@ -4975,7 +4970,11 @@ mondata SPECIES_SUNFLORA, "Sunflora"
     basefriendship 70
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_GRASS, EGG_GROUP_GRASS
-    abilities ABILITY_CHLOROPHYLL, ABILITY_SOLAR_POWER
+    .if ABILITY_CHANGES_IMPLEMENTED
+        abilities ABILITY_SUNNY_MOOD, ABILITY_SUNNY_MOOD
+    .else
+        abilities ABILITY_CHLOROPHYLL, ABILITY_SOLAR_POWER
+    .endif
     runchance 25
     colorflip BODY_COLOR_YELLOW, 0
     .if TYPE_CHANGES_IMPLEMENTED

@@ -1,6 +1,6 @@
  -
 Has a 10% chance to make\nthe target flinch.
-The Pokémon makes it rain\nfor five turns upon entry.
+The Pokémon makes it rain\nfor 5 turns upon entry.
 Its Speed stat is\ngradually boosted.
 The Pokémon is protected\nagainst critical hits.
 It cannot be knocked out\nwith one hit.
@@ -43,7 +43,7 @@ Prevents the Pokémon\nfrom getting a burn.
 Prevents Steel-type\nPokémon from escaping.
 Gives full immunity to all\nsound-based moves.
 Recovers 6.25% of its max\nHP each turn in rain.
-Summons a sandstorm for\nfive turns upon entry.
+Summons a sandstorm for\n5 turns upon entry.
 The Pokémon doubles\nthe foe’s PP usage.
 Halves damage from Fire\nand Ice-type moves.
 The Pokémon awakens\nquickly from sleep.
@@ -68,7 +68,7 @@ Ups Fire moves by 10%.\n50% if at 33% HP or less.
 Ups Water moves by 10%.\n50% if at 33% HP or less.
 Ups Bug moves by 10%.\n50% if at 33% HP or less.
 Protects the Pokémon\nfrom recoil damage.
-Turns the sunlight harsh\nfor five turns upon entry.
+Turns the sunlight harsh\nfor 5 turns upon entry.
 Prevents the foe from\nfleeing.
 Prevents the Pokémon\nfrom falling asleep.
 Prevents its stats from\nbeing lowered.
@@ -90,7 +90,7 @@ Adjusts power according\nto a foe’s stats.
 Powers up punching moves\nby 33%.
 Recovers 12.5% of its HP\neach turn while poisoned.
 Moves matching type are\ninstead doubled in power.
-Multi-strike moves will\nalways hit five times.
+Multi-strike moves will\nalways hit 5 times.
 Heals status problems if\nit is raining.
 In sun, boosts Sp. Atk by\n50% but loses 12.5% HP.
 Boosts Speed by 50% if\nthere is a status problem.
@@ -110,12 +110,12 @@ Determines the foe’s\nmost powerful move.
 When attacking, ignores\nthe foe’s stat changes. 
 Doubles the power of “not\nvery effective” moves.
 Lowers damage from super\neffective attacks by 25%.
-Halves Attack and Speed\nstats for five turns.
+Halves Attack and Speed\nstats for 5 turns.
 Ignores Ghost immunities.\nUnaffected by Intimidate.
 Draws in all Water-type\nmoves to up Sp. Attack.
 Recovers 6.25% of its max\nHP each turn in hail.
 Lowers damage from super\neffective attacks by 25%.
-Summons a hailstorm for\nfive turns upon entry.
+Summons a hailstorm for\n5 turns upon entry.
 The Pokémon may gather\nHoney from somewhere.
 The Pokémon can check\nthe foe’s held item.
 Powers up moves that\ncause recoil by 33%.
@@ -199,3 +199,4 @@ Blocks priority moves used\nagainst it or its ally.
 Gives +1 priority to\nFlying-type moves.
 Contact has a 30% chance\nto poison the attacker.
 Powers up Dark-type\nmoves by 50%.
+Sun is harsh for 3 turns.\nDoubles Speed in sunshine.

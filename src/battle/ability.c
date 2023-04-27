@@ -531,6 +531,16 @@ int SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
                                     ret = SWITCH_IN_CHECK_MOVE_SCRIPT;
                                 }
                                 break;
+                            // Custom ability for Sunflora
+                            case ABILITY_SUNNY_MOOD:
+                                sp->battlemon[client_no].appear_check_flag = 1;
+                                // Changed from checking only permanent sun to any sun
+                                if ((sp->field_condition & WEATHER_SUNNY_ANY) == 0)
+                                {
+                                    scriptnum = SUB_SEQ_HANDLE_SUNNY_MOOD;
+                                    ret = SWITCH_IN_CHECK_MOVE_SCRIPT;
+                                }
+                                break;
                             case ABILITY_SNOW_WARNING:
                                 sp->battlemon[client_no].appear_check_flag = 1;
                                 // Changed from checking only permanent hail to any hail

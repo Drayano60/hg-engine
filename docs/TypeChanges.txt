@@ -87,11 +87,6 @@ Justification: Mostly pulled from it having a large amount of Psychic-type moves
 Type: Electric ⟶ Electric / Dragon
 Justification: Copied from Mega Ampharos. The regular Ampharos also has some references for being Dragon-type; its Mega entries talk about it having "long-sleeping dragon's blood" (which I guess isn't sleeping anymore?) and its Japanese name including the word for dragon within it.
 
-192 - Sunflora
--------------------
-Type: Grass ⟶ Grass / Fire
-Justification: Mostly due to the sun link by virtue of being a sunflower, but this one does feel a little weak.
-
 200/429 - Misdreavus & Mismagius
 -------------------
 Type: Ghost ⟶ Ghost / Fairy

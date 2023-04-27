@@ -1402,3 +1402,6 @@ Armor Tail blocks the foe’s {STRVAR_1 1, 0, 0}\nfrom using {STRVAR_1 6, 2, 0}!
 Dazzling blocks {STRVAR_1 1, 0, 0}\nfrom using {STRVAR_1 6, 2, 0}!
 Dazzling blocks the wild {STRVAR_1 1, 0, 0}\nfrom using {STRVAR_1 6, 2, 0}!
 Dazzling blocks the foe’s {STRVAR_1 1, 0, 0}\nfrom using {STRVAR_1 6, 2, 0}!
+{STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nbrightened up the day!\rThe sunlight turned harsh!\r
+The wild {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nbrightened up the day!\rThe sunlight turned harsh!\r
+The foe’s {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nbrightened up the day!\rThe sunlight turned harsh!\r

@@ -611,6 +611,14 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
 
     movesplit = sp->moveTbl[moveno].split;
 
+    if (AttackingMon.ability == ABILITY_HYPER_CUTTER) {
+        attack = attack * 11 / 10;
+    }
+
+    if (DefendingMon.ability == ABILITY_BIG_PECKS) {
+        defense = defense * 11 / 10;
+    }
+
     // handle huge power + pure power
     if ((AttackingMon.ability == ABILITY_HUGE_POWER) || (AttackingMon.ability == ABILITY_PURE_POWER))
         attack = attack * 2;

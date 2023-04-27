@@ -4977,11 +4977,7 @@ mondata SPECIES_SUNFLORA, "Sunflora"
     .endif
     runchance 25
     colorflip BODY_COLOR_YELLOW, 0
-    .if TYPE_CHANGES_IMPLEMENTED
-        tmdata SPECIES_SUNFLORA_TM_DATA_0, SPECIES_SUNFLORA_FIRE_TM_DATA_1, SPECIES_SUNFLORA_TM_DATA_2, SPECIES_SUNFLORA_TM_DATA_3
-    .else
-        tmdata SPECIES_SUNFLORA_TM_DATA_0, SPECIES_SUNFLORA_TM_DATA_1, SPECIES_SUNFLORA_TM_DATA_2, SPECIES_SUNFLORA_TM_DATA_3
-    .endif
+    tmdata SPECIES_SUNFLORA_TM_DATA_0, SPECIES_SUNFLORA_TM_DATA_1, SPECIES_SUNFLORA_TM_DATA_2, SPECIES_SUNFLORA_TM_DATA_3
     mondexentry SPECIES_SUNFLORA, "It converts sunlight into energy.\nIn the darkness after sunset, it\ncloses its petals and becomes still."
     mondexclassification SPECIES_SUNFLORA, "Sun Pokémon"
     mondexheight SPECIES_SUNFLORA, "2’07”"

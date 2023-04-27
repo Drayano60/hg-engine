@@ -50,7 +50,7 @@ The Pokémon awakens\nquickly from sleep.
 Contact has a 30% chance\nto burn the attacker.
 Enables sure getaway\nfrom wild Pokémon.
 Boosts accuracy by 20%.\nPrevents accuracy drops.
-Prevents the Attack\nstat from being lowered.
+Boosts Attack by 10%.\nAttack can’t be lowered.
 The Pokémon may\npick up items.
 Pokémon can’t attack\non consecutive turns.
 Ups Attack by 50%. Lowers\nphysical accuracy by 20%.
@@ -142,7 +142,7 @@ Every turn, raises one\nstat and lowers another.
 Prevents weather damage\nand powder effects.
 Contact moves have a 30%\nchance to cause poison.
 Restores 33% of its HP\nif withdrawn from battle.
-Protects the Pokémon from\nDefense-lowering attacks.
+Boosts Defense by 10%.\nDefense can’t be lowered.
 Doubles the Pokémon’s\nSpeed stat in a sandstorm.
 Status moves used on it\nare 50% less accurate.
 Boosts move power by 30%\nif the Pokémon goes last.

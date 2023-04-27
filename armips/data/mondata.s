@@ -2924,7 +2924,6 @@ mondata SPECIES_CHANSEY, "Chansey"
     mondexweight SPECIES_CHANSEY, "76.3 lbs."
 
 
-// ABILITY: Tangling Hair (2)
 mondata SPECIES_TANGELA, "Tangela"
     basestats 65, 55, 115, 60, 100, 40
     types TYPE_GRASS, TYPE_GRASS
@@ -2937,11 +2936,7 @@ mondata SPECIES_TANGELA, "Tangela"
     basefriendship 70 // raised up again
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_GRASS, EGG_GROUP_GRASS
-    .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_CHLOROPHYLL, ABILITY_TANGLING_HAIR
-    .else
-        abilities ABILITY_CHLOROPHYLL, ABILITY_LEAF_GUARD
-    .endif
+    abilities ABILITY_CHLOROPHYLL, ABILITY_LEAF_GUARD
     runchance 25
     colorflip BODY_COLOR_BLUE, 0
     tmdata SPECIES_TANGELA_TM_DATA_0, SPECIES_TANGELA_TM_DATA_1, SPECIES_TANGELA_TM_DATA_2, SPECIES_TANGELA_TM_DATA_3
@@ -3844,7 +3839,7 @@ mondata SPECIES_MEW, "Mew"
     mondexweight SPECIES_MEW, "8.8 lbs."
 
 
-// ABILITY: Natural Cure (2), Triage (HA)
+// ABILITY: Leaf Guard (2), Triage (HA)
 mondata SPECIES_CHIKORITA, "Chikorita"
     basestats 45, 49, 65, 45, 49, 65
     types TYPE_GRASS, TYPE_GRASS
@@ -3858,7 +3853,7 @@ mondata SPECIES_CHIKORITA, "Chikorita"
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_GRASS
     .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_OVERGROW, ABILITY_NATURAL_CURE
+        abilities ABILITY_OVERGROW, ABILITY_LEAF_GUARD
     .else
         abilities ABILITY_OVERGROW, ABILITY_NONE
     .endif
@@ -3872,7 +3867,7 @@ mondata SPECIES_CHIKORITA, "Chikorita"
 
 
 // STATS: 63 >> 73 SpAtk | 60 >> 50 Speed
-// ABILITY: Natural Cure (2), Triage (HA)
+// ABILITY: Leaf Guard (2), Triage (HA)
 mondata SPECIES_BAYLEEF, "Bayleef"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 60, 62, 80, 50, 73, 80
@@ -3890,7 +3885,7 @@ mondata SPECIES_BAYLEEF, "Bayleef"
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_GRASS
     .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_OVERGROW, ABILITY_NATURAL_CURE
+        abilities ABILITY_OVERGROW, ABILITY_LEAF_GUARD
     .else
         abilities ABILITY_OVERGROW, ABILITY_NONE
     .endif
@@ -3905,7 +3900,7 @@ mondata SPECIES_BAYLEEF, "Bayleef"
 
 // STATS: 100 >> 110 Def | 83 >> 93 SpAtk | 100 >> 110 SpDef | 80 >> 60 Spd | 525 >> 535 BST
 // TYPES: Grass >> Grass/Fairy
-// ABILITY: Natural Cure (2), Triage (HA)
+// ABILITY: Leaf Guard (2), Triage (HA)
 mondata SPECIES_MEGANIUM, "Meganium"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 80, 82, 110, 60, 93, 110
@@ -3927,7 +3922,7 @@ mondata SPECIES_MEGANIUM, "Meganium"
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_GRASS
     .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_OVERGROW, ABILITY_NATURAL_CURE
+        abilities ABILITY_OVERGROW, ABILITY_LEAF_GUARD
     .else
         abilities ABILITY_OVERGROW, ABILITY_NONE
     .endif
@@ -4813,7 +4808,7 @@ mondata SPECIES_POLITOED, "Politoed"
 
 
 // STATS: 35 >> 40 Atk | 35 >> 40 SpAtk | 55 >> 65 SpDef | 50 >> 60 Speed | 250 >> 280 BST
-// ABILITY: Infiltrator (2), Aerilate (HA)
+// ABILITY: Aerilate (HA)
 mondata SPECIES_HOPPIP, "Hoppip"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 35, 40, 40, 60, 40, 65
@@ -4830,11 +4825,7 @@ mondata SPECIES_HOPPIP, "Hoppip"
     basefriendship 70
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_FAIRY, EGG_GROUP_GRASS
-    .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_CHLOROPHYLL, ABILITY_INFILTRATOR
-    .else
-        abilities ABILITY_CHLOROPHYLL, ABILITY_LEAF_GUARD
-    .endif
+    abilities ABILITY_CHLOROPHYLL, ABILITY_LEAF_GUARD
     runchance 25
     colorflip BODY_COLOR_PINK, 0
     tmdata SPECIES_HOPPIP_TM_DATA_0, SPECIES_HOPPIP_TM_DATA_1, SPECIES_HOPPIP_TM_DATA_2, SPECIES_HOPPIP_TM_DATA_3
@@ -4845,7 +4836,7 @@ mondata SPECIES_HOPPIP, "Hoppip"
 
 
 // STATS: 45 >> 55 Atk | 45 >> 55 SpAtk | 65 >> 75 SpDef | 80 >> 90 Speed | 340 >> 380 BST
-// ABILITY: Infiltrator (2), Aerilate (HA)
+// ABILITY: Aerilate (HA)
 mondata SPECIES_SKIPLOOM, "Skiploom"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 55, 55, 50, 90, 55, 75
@@ -4862,11 +4853,7 @@ mondata SPECIES_SKIPLOOM, "Skiploom"
     basefriendship 70
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_FAIRY, EGG_GROUP_GRASS
-    .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_CHLOROPHYLL, ABILITY_INFILTRATOR
-    .else
-        abilities ABILITY_CHLOROPHYLL, ABILITY_LEAF_GUARD
-    .endif
+    abilities ABILITY_CHLOROPHYLL, ABILITY_LEAF_GUARD
     runchance 25
     colorflip BODY_COLOR_GREEN, 0
     tmdata SPECIES_SKIPLOOM_TM_DATA_0, SPECIES_SKIPLOOM_TM_DATA_1, SPECIES_SKIPLOOM_TM_DATA_2, SPECIES_SKIPLOOM_TM_DATA_3
@@ -4877,7 +4864,7 @@ mondata SPECIES_SKIPLOOM, "Skiploom"
 
 
 // STATS: 55 >> 70 Atk | 55 >> 70 SpAtk | 460 >> 490 BST
-// ABILITY: Infiltrator (2), Aerilate (HA)
+// ABILITY: Aerilate (HA)
 mondata SPECIES_JUMPLUFF, "Jumpluff"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 75, 70, 70, 110, 70, 95
@@ -4894,11 +4881,7 @@ mondata SPECIES_JUMPLUFF, "Jumpluff"
     basefriendship 70
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_FAIRY, EGG_GROUP_GRASS
-    .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_CHLOROPHYLL, ABILITY_INFILTRATOR
-    .else
-        abilities ABILITY_CHLOROPHYLL, ABILITY_LEAF_GUARD
-    .endif
+    abilities ABILITY_CHLOROPHYLL, ABILITY_LEAF_GUARD
     runchance 25
     colorflip BODY_COLOR_BLUE, 0
     tmdata SPECIES_JUMPLUFF_TM_DATA_0, SPECIES_JUMPLUFF_TM_DATA_1, SPECIES_JUMPLUFF_TM_DATA_2, SPECIES_JUMPLUFF_TM_DATA_3
@@ -12050,7 +12033,6 @@ mondata SPECIES_RHYPERIOR, "Rhyperior"
     mondexweight SPECIES_RHYPERIOR, "623.5 lbs."
 
 
-// ABILITY: Tangling Hair (2)
 mondata SPECIES_TANGROWTH, "Tangrowth"
     basestats 100, 100, 125, 50, 110, 50
     types TYPE_GRASS, TYPE_GRASS
@@ -12063,11 +12045,7 @@ mondata SPECIES_TANGROWTH, "Tangrowth"
     basefriendship 70 // raised up again
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_GRASS, EGG_GROUP_GRASS
-    .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_CHLOROPHYLL, ABILITY_TANGLING_HAIR
-    .else
-        abilities ABILITY_CHLOROPHYLL, ABILITY_LEAF_GUARD
-    .endif
+    abilities ABILITY_CHLOROPHYLL, ABILITY_LEAF_GUARD
     runchance 25
     colorflip BODY_COLOR_BLUE, 0
     tmdata SPECIES_TANGROWTH_TM_DATA_0, SPECIES_TANGROWTH_TM_DATA_1, SPECIES_TANGROWTH_TM_DATA_2, SPECIES_TANGROWTH_TM_DATA_3

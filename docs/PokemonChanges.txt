@@ -4115,7 +4115,7 @@ Level Up Moves:
 -------------------
 114 - Tangela
 -------------------
-Abilities: Chlorophyll / Leaf Guard / Regenerator ⟶ Chlorophyll / Tangling Hair** / Regenerator
+Abilities: Chlorophyll / Leaf Guard / Regenerator
 Base Stats: 65/55/115/100/40/60 (435)
 Held Item: None
 Type: Grass
@@ -4147,7 +4147,7 @@ Level Up Moves:
 -------------------
 465 - Tangrowth
 -------------------
-Abilities: Chlorophyll / Leaf Guard / Regenerator ⟶ Chlorophyll / Tangling Hair** / Regenerator
+Abilities: Chlorophyll / Leaf Guard / Regenerator
 Base Stats: 100/100/125/110/50/50 (535)
 Held Item: None
 Type: Grass
@@ -5894,7 +5894,7 @@ Level Up Moves:
 -------------------
 152 - Chikorita
 -------------------
-Abilities: Overgrow / Overgrow / Leaf Guard ⟶ Overgrow / Natural Cure** / Triage**
+Abilities: Overgrow / Overgrow / Leaf Guard ⟶ Overgrow / Leaf Guard / Triage**
 Base Stats: 45/49/65/49/65/45 (318)
 Held Item: None
 Type: Grass
@@ -5938,7 +5938,7 @@ Level Up Moves:
 -------------------
 153 - Bayleef
 -------------------
-Abilities: Overgrow / Overgrow / Leaf Guard ⟶ Overgrow / Natural Cure** / Triage**
+Abilities: Overgrow / Overgrow / Leaf Guard ⟶ Overgrow / Leaf Guard / Triage**
 Base Stats: 60/62/80/63/80/60 (405) ⟶ 60/62/80/73*/80/50* (405)
 Held Item: None
 Type: Grass
@@ -5983,7 +5983,7 @@ Level Up Moves:
 -------------------
 154 - Meganium
 -------------------
-Abilities: Overgrow / Overgrow / Leaf Guard ⟶ Overgrow / Natural Cure** / Triage**
+Abilities: Overgrow / Overgrow / Leaf Guard ⟶ Overgrow / Leaf Guard / Triage**
 Base Stats: 80/82/100/83/100/80 (525) ⟶ 80/82/110/93*/110/60* (535)
 Held Item: None
 Type: Grass ⟶ Grass / Fairy
@@ -7034,7 +7034,7 @@ Level Up Moves:
 -------------------
 187 - Hoppip
 -------------------
-Abilities: Chlorophyll / Leaf Guard / Infiltrator ⟶ Chlorophyll / Infiltrator / Aerilate**
+Abilities: Chlorophyll / Leaf Guard / Infiltrator ⟶ Chlorophyll / Leaf Guard / Aerilate**
 Base Stats: 35/35/40/35/55/50 (250) ⟶ 35/40*/40/40*/65*/60* (280)
 Held Item: None
 Type: Grass / Flying
@@ -7074,7 +7074,7 @@ Level Up Moves:
 -------------------
 188 - Skiploom
 -------------------
-Abilities: Chlorophyll / Leaf Guard / Infiltrator ⟶ Chlorophyll / Infiltrator / Aerilate**
+Abilities: Chlorophyll / Leaf Guard / Infiltrator ⟶ Chlorophyll / Leaf Guard / Aerilate**
 Base Stats: 55/45/50/45/65/80 (340) ⟶ 55/55*/50/55*/75*/90* (380)
 Held Item: None
 Type: Grass / Flying
@@ -7114,7 +7114,7 @@ Level Up Moves:
 -------------------
 189 - Jumpluff
 -------------------
-Abilities: Chlorophyll / Leaf Guard / Infiltrator ⟶ Chlorophyll / Infiltrator / Aerilate**
+Abilities: Chlorophyll / Leaf Guard / Infiltrator ⟶ Chlorophyll / Leaf Guard / Aerilate**
 Base Stats: 75/55/70/55/95/110 (460) ⟶ 75/70*/70/70*/95/110 (490)
 Held Item: None
 Type: Grass / Flying

@@ -100,7 +100,7 @@ The Pokémon only takes\ndamage from attacks.
 Ensures attacks by or\nagainst the Pokémon land. 
 The Pokémon moves after\neven slower foes.
 Moves of 60 power or less\nare 50% more powerful.
-Prevents any status\nconditions when sunny.
+Blocks critical hits. In\nsun, also blocks status.
 The Pokémon can’t use\nany held items.
 Moves used will ignore\nthe target’s Ability.
 Boosts the critical-hit\nratios of moves.

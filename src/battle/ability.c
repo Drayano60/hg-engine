@@ -1516,6 +1516,32 @@ BOOL MoveHitAttackerAbilityCheck(void *bw, struct BattleStruct *sp, int *seq_no)
                 ret = TRUE;
             }
             break;
+        /* New ability for Glaceon, drops Sp. Def of Steel-types hit by its Ice-type move by one stage */
+        case ABILITY_DEEP_FREEZE:
+            if
+            (
+                (sp->battlemon[sp->defence_client].hp)
+                && ((sp->waza_status_flag & WAZA_STATUS_FLAG_NO_OUT) == 0)
+                && ((sp->server_status_flag & SERVER_STATUS_FLAG_x20) == 0)
+                && ((sp->server_status_flag2 & SERVER_STATUS2_FLAG_x10) == 0)
+                && ((sp->oneSelfFlag[sp->defence_client].physical_damage) ||
+                    (sp->oneSelfFlag[sp->defence_client].special_damage))
+                && (sp->moveTbl[sp->current_move_index].type == TYPE_ICE)
+                && (CheckSubstitute(sp, sp->defence_client) == FALSE)
+                && ((BattlePokemonParamGet(sp, sp->defence_client, BATTLE_MON_DATA_TYPE1, NULL) == TYPE_STEEL) || (BattlePokemonParamGet(sp, sp->defence_client, BATTLE_MON_DATA_TYPE2, NULL) == TYPE_STEEL))
+            )
+            {
+                if (sp->battlemon[sp->defence_client].states[STAT_SPDEF] > 0)
+                {
+                    sp->addeffect_param = ADD_STATE_SP_DEF_DOWN;
+                    sp->addeffect_type = ADD_EFFECT_PRINT_WORK_ABILITY;
+                    sp->state_client = sp->defence_client;
+                    sp->client_work = sp->attack_client;
+                    seq_no[0] = SUB_SEQ_STAT_STAGE_CHANGE;
+                    ret = TRUE;
+                }
+            }
+            break;
         /*
         case ABILITY_BEAST_BOOST:
             if ((sp->defence_client == sp->fainting_client)
@@ -1671,8 +1697,6 @@ BOOL MoveHitDefenderAbilityCheck(void *bw, struct BattleStruct *sp, int *seq_no)
             }
             break;
         case ABILITY_ROUGH_SKIN:
-        // Ice Needles is a new ability for Glaceon that acts as a Rough Skin clone
-        case ABILITY_ICE_NEEDLES:
         case ABILITY_IRON_BARBS:
             if ((sp->battlemon[sp->attack_client].hp)
                 && (GetBattlerAbility(sp, sp->attack_client) != ABILITY_MAGIC_GUARD)
@@ -1720,6 +1744,7 @@ BOOL MoveHitDefenderAbilityCheck(void *bw, struct BattleStruct *sp, int *seq_no)
             }
             break;
         case ABILITY_POISON_POINT:
+        case ABILITY_POISON_SWEAT:
             if ((sp->battlemon[sp->attack_client].hp)
                 && (sp->battlemon[sp->attack_client].condition == 0)
                 && ((sp->waza_status_flag & WAZA_STATUS_FLAG_NO_OUT) == 0)

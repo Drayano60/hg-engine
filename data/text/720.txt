@@ -180,7 +180,7 @@ Cacophony
 Heat Up
 Aura Master
 Cheerleader
-Ice Needles
+Deep Freeze
 Bombardier
 Wind Whipper
 Toxic Scales
@@ -197,3 +197,5 @@ S. Overlord
 Armor Tail
 Dazzling
 Gale Wings
+Poison Sweat
+Gothic Style

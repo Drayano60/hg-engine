@@ -7,7 +7,7 @@ It cannot be knocked out\nwith one hit.
 Prevents combatants\nfrom self-destructing.
 The Pokémon is protected\nfrom paralysis.
 Lowers foe’s accuracy\nby 20% in a sandstorm.
-Contact has a 30% chance\nof causing paralysis.
+Contact has a 30% chance\nto paralyze the attacker.
 Restores 25% HP if hit by\nan Electric-type move.
 Restores 25% HP if hit by\na Water-type move.
 It cannot be infatuated,\ntaunted, or intimidated.
@@ -36,7 +36,7 @@ Doubles the Pokémon’s\nSpeed in sunshine.
 Boosts accuracy by 20%.\nAttracts wild Pokémon.
 The Pokémon copies the\nfoe’s ability.
 Doubles the Pokémon’s\nAttack stat in battle.
-Contact has a 30% chance\nof causing poison.
+Contact has a 30% chance\nto poison the attacker.
 The Pokémon cannot be\nflinched or intimidated.
 Prevents freeze. Halves\ndamage from Water or Ice.
 Prevents the Pokémon\nfrom getting a burn.
@@ -47,14 +47,14 @@ Summons a sandstorm for\nfive turns upon entry.
 The Pokémon doubles\nthe foe’s PP usage.
 Halves damage from Fire\nand Ice-type moves.
 The Pokémon awakens\nquickly from sleep.
-Contact has a 30% chance\nof causing a burn.
+Contact has a 30% chance\nto burn the attacker.
 Enables sure getaway\nfrom wild Pokémon.
 Boosts accuracy by 20%.\nPrevents accuracy drops.
 Prevents the Attack\nstat from being lowered.
 The Pokémon may\npick up items.
 Pokémon can’t attack\non consecutive turns.
 Ups Attack by 50%. Lowers\nphysical accuracy by 20%.
-Contact has a 30% chance\nof causing infatuation.
+Contact has a 30% chance\nto infatuate the foe.
 Boosts Sp. Atk by 50% if\na Pokémon has Minus.
 Boosts Sp. Atk by 50% if\na Pokémon has Plus.
 Transforms with weather.\nUps Weather Ball by 50%.
@@ -175,12 +175,12 @@ Contact with it lowers the\nattacker’s Speed stat.
 Powers up slicing moves\nby 33%.
 The Pokémon’s fur stops\nit taking recoil damage.
 Odd steps foul a foe’s aim,\nreducing accuracy by 20%.
-Contact with the Pokémon\nwill burn the foe.
+Contact is guaranteed to\nburn the attacker.
 Powers up sound-based\nmoves by 33%.
 Boosts Sp. Atk if a foe is\nKOed with a Fire move.
 Powers up aura and pulse\nmoves by 33%.
 Powers up moves used by\nallies by 25%.
-Contact damages the foe\nby 12.5% of their max HP.
+Ice-type moves lower the\nSp. Def of Steel-types.
 Powers up ball, bomb and\ncannon moves by 33%.
 Powers up wind-based\nmoves by 33%.
 Contact has a 30% chance\nof badly poisoning the foe.
@@ -197,3 +197,5 @@ Powers up moves by 10%\nfor each fainted ally.
 Blocks priority moves used\nagainst it or its ally.
 Blocks priority moves used\nagainst it or its ally.
 Gives +1 priority to\nFlying-type moves.
+Contact has a 30% chance\nto poison the attacker.
+Powers up Dark-type\nmoves by 50%.

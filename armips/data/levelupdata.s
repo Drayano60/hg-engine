@@ -13624,6 +13624,7 @@ levelup SPECIES_GOTHORITA
 
 // Evolution: 24 -> 38
 levelup SPECIES_GOTHITELLE
+    learnset MOVE_DARK_PULSE, 1
     learnset MOVE_MIRACLE_EYE, 1
     learnset MOVE_MIRROR_COAT, 1
     learnset MOVE_FAKE_OUT, 1

@@ -322,7 +322,7 @@ Level Up Moves:
 -------------------
 012 - Butterfree
 -------------------
-Abilities: Compound Eyes / Compound Eyes / Tinted Lens ⟶ Compound Eyes / Tinted Lens / Befuddle**
+Abilities: Compound Eyes / Compound Eyes / Tinted Lens ⟶ Compound Eyes / Tinted Lens / Befuddle***
 Base Stats: 60/45/50/90/80/70 (395) ⟶ 60/45/50/100*/90*/80* (425)
 Held Item: Silver Powder (5%)
 Type: Bug / Flying
@@ -1232,7 +1232,7 @@ Level Up Moves:
 -------------------
 174 - Igglybuff
 -------------------
-Abilities: Cute Charm / Competitive / Friend Guard ⟶ Cute Charm / Competitive / Cacophony**
+Abilities: Cute Charm / Competitive / Friend Guard ⟶ Cute Charm / Competitive / Cacophony***
 Base Stats: 90/30/15/40/20/15 (210)
 Held Item: None
 Type: Normal / Fairy
@@ -1254,7 +1254,7 @@ Level Up Moves:
 -------------------
 039 - Jigglypuff
 -------------------
-Abilities: Cute Charm / Competitive / Friend Guard ⟶ Cute Charm / Competitive / Cacophony**
+Abilities: Cute Charm / Competitive / Friend Guard ⟶ Cute Charm / Competitive / Cacophony***
 Base Stats: 115/45/20/45/25/20 (270) ⟶ 125*/55*/30*/55*/35*/20 (320)
 Held Item: None
 Type: Normal / Fairy
@@ -1290,7 +1290,7 @@ Level Up Moves:
 -------------------
 040 - Wigglytuff
 -------------------
-Abilities: Cute Charm / Competitive / Frisk ⟶ Cute Charm / Competitive / Cacophony**
+Abilities: Cute Charm / Competitive / Frisk ⟶ Cute Charm / Competitive / Cacophony***
 Base Stats: 140/70/45/85/50/45 (435) ⟶ 150*/80*/55*/95*/55*/45 (480)
 Held Item: None
 Type: Normal / Fairy
@@ -1659,7 +1659,7 @@ Level Up Moves:
 -------------------
 049 - Venomoth
 -------------------
-Abilities: Shield Dust / Tinted Lens / Wonder Skin ⟶ Shield Dust / Tinted Lens / Toxic Scales**
+Abilities: Shield Dust / Tinted Lens / Wonder Skin ⟶ Shield Dust / Tinted Lens / Toxic Scales***
 Base Stats: 70/65/60/90/75/90 (450) ⟶ 70/65/60/100*/85*/100* (480)
 Held Item: Shed Shell (5%)
 Type: Bug / Poison
@@ -5097,7 +5097,7 @@ Level Up Moves:
 -------------------
 136 - Flareon
 -------------------
-Abilities: Flash Fire / Flash Fire / Guts ⟶ Flash Fire / Guts / Fur Cushion**
+Abilities: Flash Fire / Flash Fire / Guts ⟶ Flash Fire / Guts / Fur Cushion***
 Base Stats: 65/130/60/95/110/65 (525) ⟶ 65/130/60/65*/110/95*
 Held Item: None
 Type: Fire
@@ -5167,7 +5167,7 @@ Level Up Moves:
 -------------------
 197 - Umbreon
 -------------------
-Abilities: Synchronize / Synchronize / Inner Focus ⟶ Synchronize / Inner Focus / Analytic**
+Abilities: Synchronize / Synchronize / Inner Focus ⟶ Synchronize / Inner Focus / Poison Sweat***
 Base Stats: 95/65/110/60/130/65 (525)
 Held Item: None
 Type: Dark
@@ -5240,8 +5240,8 @@ Level Up Moves:
 -------------------
 471 - Glaceon
 -------------------
-Abilities: Snow Cloak / Snow Cloak / Ice Body ⟶ Snow Cloak / Slush Rush** / Ice Needles**
-Base Stats: 65/60/110/130/95/65 (525) ⟶ 65/60/110/130/65*/95*
+Abilities: Snow Cloak / Snow Cloak / Ice Body ⟶ Snow Cloak / Slush Rush** / Deep Freeze***
+Base Stats: 65/60/110/130/95/65 (525) ⟶ 65/60/110/130/65*/95* (525)
 Held Item: None
 Type: Ice
 
@@ -6035,7 +6035,7 @@ Level Up Moves:
 -------------------
 155 - Cyndaquil
 -------------------
-Abilities: Blaze / Blaze / Flash Fire ⟶ Blaze / Flash Fire / Heat Up**
+Abilities: Blaze / Blaze / Flash Fire ⟶ Blaze / Flash Fire / Heat Up***
 Base Stats: 39/52/43/60/50/65 (309)
 Held Item: None
 Type: Fire
@@ -6065,7 +6065,7 @@ Level Up Moves:
 -------------------
 156 - Quilava
 -------------------
-Abilities: Blaze / Blaze / Flash Fire ⟶ Blaze / Flash Fire / Heat Up**
+Abilities: Blaze / Blaze / Flash Fire ⟶ Blaze / Flash Fire / Heat Up***
 Base Stats: 58/64/58/80/65/80 (405) ⟶ 58/64/53*/90*/60*/80 (405)
 Held Item: None
 Type: Fire
@@ -6096,7 +6096,7 @@ Level Up Moves:
 -------------------
 157 - Typhlosion
 -------------------
-Abilities: Blaze / Blaze / Flash Fire ⟶ Blaze / Flash Fire / Heat Up**
+Abilities: Blaze / Blaze / Flash Fire ⟶ Blaze / Flash Fire / Heat Up***
 Base Stats: 78/84/78/109/85/100 (534) ⟶ 79*/84/73*/119*/80*/100
 Held Item: None
 Type: Fire ⟶ Fire / Ground
@@ -8276,7 +8276,7 @@ Level Up Moves:
 -------------------
 218 - Slugma
 -------------------
-Abilities: Magma Armor / Flame Body / Weak Armor ⟶ Magma Armor / Flame Body / Infernal Body**
+Abilities: Magma Armor / Flame Body / Weak Armor ⟶ Magma Armor / Flame Body / Infernal Body***
 Base Stats: 40/40/40/70/40/20 (250) ⟶ 50*/40/50*/80*/50*/20 (290)
 Held Item: None
 Type: Fire
@@ -8311,7 +8311,7 @@ Level Up Moves:
 -------------------
 219 - Magcargo
 -------------------
-Abilities: Magma Armor / Flame Body / Weak Armor ⟶ Magma Armor / Flame Body / Infernal Body**
+Abilities: Magma Armor / Flame Body / Weak Armor ⟶ Magma Armor / Flame Body / Infernal Body***
 Base Stats: 60/50/120/90/80/30 (430) ⟶ 70*/50/120/110*/100*/30 (480)
 Held Item: None
 Type: Fire / Rock
@@ -8511,7 +8511,7 @@ Level Up Moves:
 -------------------
 224 - Octillery
 -------------------
-Abilities: Suction Cups / Sniper / Moody ⟶ Suction Cups / Sniper / Bombardier**
+Abilities: Suction Cups / Sniper / Moody ⟶ Suction Cups / Sniper / Bombardier***
 Base Stats: 75/105/75/105/75/45 (480)
 Held Item: None
 Type: Water
@@ -9716,7 +9716,7 @@ Level Up Moves:
 -------------------
 269 - Dustox
 -------------------
-Abilities: Shield Dust / Shield Dust / Compound Eyes ⟶ Shield Dust / Compound Eyes / Toxic Scales**
+Abilities: Shield Dust / Shield Dust / Compound Eyes ⟶ Shield Dust / Compound Eyes / Toxic Scales***
 Base Stats: 60/50/70/50/90/65 (385) ⟶ 60/50/80*/70*/100*/65
 Held Item: Shed Shell (5%)
 Type: Bug / Poison
@@ -9910,7 +9910,7 @@ Level Up Moves:
 -------------------
 275 - Shiftry
 -------------------
-Abilities: Chlorophyll / Early Bird / Pickpocket ⟶ Chlorophyll / Early Bird / Wind Whipper**
+Abilities: Chlorophyll / Early Bird / Pickpocket ⟶ Chlorophyll / Early Bird / Wind Whipper***
 Base Stats: 90/100/60/90/60/80 (480) ⟶ 90/100/60/100*/80/80 (490)
 Held Item: None
 Type: Grass / Dark
@@ -10521,7 +10521,7 @@ Level Up Moves:
 -------------------
 293 - Whismur
 -------------------
-Abilities: Soundproof / Soundproof / Rattled ⟶ Soundproof / Rattled / Cacophony**
+Abilities: Soundproof / Soundproof / Rattled ⟶ Soundproof / Rattled / Cacophony***
 Base Stats: 64/51/23/51/23/28 (240)
 Held Item: Chesto Berry (5%)
 Type: Normal
@@ -10549,7 +10549,7 @@ Level Up Moves:
 -------------------
 294 - Loudred
 -------------------
-Abilities: Soundproof / Soundproof / Scrappy ⟶ Soundproof / Scrappy / Cacophony**
+Abilities: Soundproof / Soundproof / Scrappy ⟶ Soundproof / Scrappy / Cacophony***
 Base Stats: 84/71/43/71/43/48 (360)
 Held Item: Chesto Berry (5%)
 Type: Normal
@@ -10578,7 +10578,7 @@ Level Up Moves:
 -------------------
 295 - Exploud
 -------------------
-Abilities: Soundproof / Soundproof / Scrappy ⟶ Soundproof / Scrappy / Cacophony**
+Abilities: Soundproof / Soundproof / Scrappy ⟶ Soundproof / Scrappy / Cacophony***
 Base Stats: 104/91/63/91/73/68 (490) ⟶ 114*/101*/73*/101*/73/68 (530)
 Held Item: Chesto Berry (5%)
 Type: Normal
@@ -11159,7 +11159,7 @@ Level Up Moves:
 -------------------
 311 - Plusle
 -------------------
-Abilities: Plus / Plus / Lightning Rod ⟶ Plus / Lightning Rod / Cheerleader**
+Abilities: Plus / Plus / Lightning Rod ⟶ Plus / Lightning Rod / Cheerleader***
 Base Stats: 60/50/40/85/75/95 (405) ⟶ 60/50/50*/85/85*/105* (435)
 Held Item: None
 Type: Electric
@@ -11193,7 +11193,7 @@ Level Up Moves:
 -------------------
 312 - Minun
 -------------------
-Abilities: Minus / Minus / Volt Absorb ⟶ Minus / Volt Absorb / Cheerleader**
+Abilities: Minus / Minus / Volt Absorb ⟶ Minus / Volt Absorb / Cheerleader***
 Base Stats: 60/40/50/75/85/95 (405) ⟶ 60/50*/50/85*/85/105* (435)
 Held Item: None
 Type: Electric
@@ -11744,7 +11744,7 @@ Level Up Moves:
 -------------------
 327 - Spinda
 -------------------
-Abilities: Own Tempo / Tangled Feet / Contrary ⟶ Own Tempo / Totter Steps** / Contrary
+Abilities: Own Tempo / Tangled Feet / Contrary ⟶ Own Tempo / Totter Steps*** / Contrary
 Base Stats: 60/60/60/60/60/60 (420) ⟶ 75*/75*/75*/75*/75*/75* (450)
 Held Item: Chesto Berry (5%)
 Type: Normal
@@ -12811,7 +12811,7 @@ Level Up Moves:
 -------------------
 433 - Chingling
 -------------------
-Abilities: Levitate / Levitate / Levitate ⟶ Levitate / Levitate / Cacophony**
+Abilities: Levitate / Levitate / Levitate ⟶ Levitate / Levitate / Cacophony***
 Base Stats: 45/30/50/65/50/45 (285)
 Held Item: Colbur Berry (5%)
 Type: Psychic
@@ -12835,7 +12835,7 @@ Level Up Moves:
 -------------------
 358 - Chimecho
 -------------------
-Abilities: Levitate / Levitate / Levitate ⟶ Levitate / Levitate / Cacophony**
+Abilities: Levitate / Levitate / Levitate ⟶ Levitate / Levitate / Cacophony***
 Base Stats: 75/50/80/95/90/65 (455) ⟶ 75/50/90*/95/90/65 (465)
 Held Item: Colbur Berry (5%)
 Type: Psychic
@@ -14278,7 +14278,7 @@ Level Up Moves:
 -------------------
 401 - Kricketot
 -------------------
-Abilities: Shed Skin / Shed Skin / Run Away ⟶ Shed Skin / Run Away / Cacophony**
+Abilities: Shed Skin / Shed Skin / Run Away ⟶ Shed Skin / Run Away / Cacophony***
 Base Stats: 37/25/41/25/41/25 (194)
 Held Item: Metronome (5%)
 Type: Bug
@@ -14296,7 +14296,7 @@ Level Up Moves:
 -------------------
 402 - Kricketune
 -------------------
-Abilities: Shed Skin / Shed Skin / Technician ⟶ Shed Skin / Technician / Cacophony**
+Abilities: Shed Skin / Shed Skin / Technician ⟶ Shed Skin / Technician / Cacophony***
 Base Stats: 77/85/51/55/51/65 (384) ⟶ 77/85/51/85*/51/75* (424)
 Held Item: Metronome (5%)
 Type: Bug
@@ -14746,7 +14746,7 @@ Level Up Moves:
 -------------------
 416 - Vespiquen
 -------------------
-Abilities: Pressure / Pressure / Unnerve ⟶ Pressure / Swarm** / Royal Order**
+Abilities: Pressure / Pressure / Unnerve ⟶ Pressure / Swarm** / Royal Order***
 Base Stats: 70/80/102/80/102/40 (474) ⟶ 80*/90*/102/90*/102/30* (494)
 Held Item: Poison Barb (5%)
 Type: Bug / Flying
@@ -15355,7 +15355,7 @@ Level Up Moves:
 -------------------
 441 - Chatot
 -------------------
-Abilities: Keen Eye / Tangled Feet / Big Pecks ⟶ Keen Eye / Tangled Feet / Cacophony**
+Abilities: Keen Eye / Tangled Feet / Big Pecks ⟶ Keen Eye / Tangled Feet / Cacophony***
 Base Stats: 76/65/45/92/42/91 (411) ⟶ 76/55*/65*/102*/62*/91 (451)
 Held Item: Metronome (5%)
 Type: Normal / Flying
@@ -15543,7 +15543,7 @@ Level Up Moves:
 -------------------
 448 - Lucario
 -------------------
-Abilities: Steadfast / Inner Focus / Justified ⟶ Steadfast / Inner Focus / Aura Master**
+Abilities: Steadfast / Inner Focus / Justified ⟶ Steadfast / Inner Focus / Aura Master***
 Base Stats: 70/110/70/115/70/90 (525)
 Held Item: None
 Type: Fighting / Steel
@@ -19076,7 +19076,7 @@ Level Up Moves:
 -------------------
 574 - Gothita
 -------------------
-Abilities: Frisk / Competitive / Shadow Tag ⟶ Frisk / Competitive / Magic Bounce**
+Abilities: Frisk / Competitive / Shadow Tag ⟶ Frisk / Competitive / Gothic Style***
 Base Stats: 45/30/50/55/65/45 (290)
 Held Item: Persim Berry (50%)
 Type: Psychic
@@ -19106,7 +19106,7 @@ Level Up Moves:
 -------------------
 575 - Gothorita
 -------------------
-Abilities: Frisk / Competitive / Shadow Tag ⟶ Frisk / Competitive / Magic Bounce**
+Abilities: Frisk / Competitive / Shadow Tag ⟶ Frisk / Competitive / Gothic Style***
 Base Stats: 60/45/70/75/85/55 (390)
 Held Item: Persim Berry (50%)
 Type: Psychic
@@ -19136,7 +19136,7 @@ Level Up Moves:
 -------------------
 576 - Gothitelle
 -------------------
-Abilities: Frisk / Competitive / Shadow Tag ⟶ Frisk / Competitive / Magic Bounce**
+Abilities: Frisk / Competitive / Shadow Tag ⟶ Frisk / Competitive / Gothic Style***
 Base Stats: 70/55/95/95/110/65 (490)
 Held Item: Persim Berry (50%)
 Type: Psychic

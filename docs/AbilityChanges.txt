@@ -230,7 +230,7 @@ Cacophony
 Users: Igglybuff, Jigglypuff, Wigglytuff, Politoed, Whismur, Loudred, Exploud, Chingling, Chimecho, Kricketot, Kricketune, Chatot.
 Effect: Sound-based moves have their power increased by 33%.
 Moves Affected: Boomburst, Bug Buzz, Chatter, Disarming Voice, Echoed Voice, Hyper Voice, Snarl, Uproar.
-Notes: An ability for a move theme that doesn't have one yet, given to a lot of Pokémon with a sound aesthetic. (It might admittedly be a bit overkill when it comes to Boomburst!)
+Notes: An ability for a move theme that doesn't have one yet, given to a lot of Pokémon with a sound aesthetic. (It might admittedly be a bit overkill when it comes to Boomburst!) The Cacophony name comes from the unused ability in Gen 3 (which was then coded as a Soundproof clone) that was later removed.
 
 Cheerleader
 -------------------
@@ -238,11 +238,23 @@ Users: Plusle, Minun.
 Effect: In a double battle, the partner's moves have their power increased by 25%.
 Notes: A slightly weaker clone of Power Spot. This gives Plusle and Minun the ability to actually do something unique in double battles.
 
+Deep Freeze
+-------------------
+Users: Glaceon.
+Effect: Dealing damage to a Steel-type foe with an Ice-type move will also lower the foe's Special Defense by one stage.
+Notes: Based on certain metals becoming a lot more brittle when exposed to cold temperatures. This isn't anything specific to Glaceon, but I wanted to give it something cool to use and there was no obvious choice. It's also a way to make up for removing Earth Power from it compared to my previous hacks as it really doesn't fit!
+
 Fur Cushion
 -------------------
 Users: Flareon.
 Effect: Protects the Pokémon from recoil damage.
 Notes: A Rock Head clone that's more thematically fitting for Flareon, thanks to its fluffy fur. This means it can use Flare Blitz without having to worry about its weak HP stat.
+
+Gothic Style
+-------------------
+Users: Gothita, Gothorita, Gothitelle.
+Effect: Powers up Dark-type moves by 50%.
+Notes: This is a bit of a compromise between actually giving the Gothita line the Dark-type and it being able to take advantage of its Dark-type moves. While I have made it Psychic/Dark in the past, it's not really much of a Dark-type lorewise and Psychic/Dark relative to Psychic isn't a huge upgrade anyway (no resistances and an immunity to a type that was already resisted!). However, people over in the west have made a link between goth = dark quite a few times, so this is a way to appeal to that.
 
 Heat Up
 -------------------
@@ -263,11 +275,11 @@ Users: Slugma, Magcargo.
 Effect: If an opponent attacks the Pokémon with Infernal Body with a contact move, they will be burned.
 Notes: Given their bodies are literally made of magma, Flame Body feels a little weak for the theme. This is just a Flame Body clone that always works.
 
-Ice Needles
+Poison Sweat
 -------------------
-Users: Glaceon.
-Effect: If an opponent attacks the Pokémon with Ice Needles with a contact move, they will take damage equal to 12.5% of their max HP.
-Notes: Leans into Glaceon's Pokédex entries that say it can freeze its fur as a defensive tactic.
+Users: Umbreon.
+Effect: If an opponent attacks the Pokémon with Poison Sweat with a contact move, they have a 30% chance of becoming poisoned.
+Notes: A simple Poison Point clone to fit with Umbreon's Pokédex entries that mention it secreting poisonous sweat.
 
 Royal Order
 -------------------

@@ -5087,7 +5087,7 @@ mondata SPECIES_ESPEON, "Espeon"
     mondexweight SPECIES_ESPEON, "58.4 lbs."
 
 
-// ABILITY: Inner Focus (2), Analytic (HA)
+// ABILITY: Inner Focus (2), Poison Sweat (HA, New)
 mondata SPECIES_UMBREON, "Umbreon"
     basestats 95, 65, 110, 65, 60, 130
     types TYPE_DARK, TYPE_DARK
@@ -12218,7 +12218,7 @@ mondata SPECIES_LEAFEON, "Leafeon"
 
 
 // STATS: 95 >> 65 SpDef | 65 >> 95 Spd
-// ABILITY: Slush Rush (2), Ice Needles (HA, New)
+// ABILITY: Slush Rush (2), Deep Freeze (HA, New)
 mondata SPECIES_GLACEON, "Glaceon"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 65, 60, 110, 95, 130, 65
@@ -15779,7 +15779,7 @@ mondata SPECIES_CINCCINO, "Cinccino"
     mondexweight SPECIES_CINCCINO, "16.5 lbs."
 
 
-// ABILITY: Magic Bounce (HA)
+// ABILITY: Gothic Style (HA, New)
 mondata SPECIES_GOTHITA, "Gothita"
     basestats 45, 30, 50, 45, 55, 65
     types TYPE_PSYCHIC, TYPE_PSYCHIC
@@ -15802,7 +15802,7 @@ mondata SPECIES_GOTHITA, "Gothita"
     mondexweight SPECIES_GOTHITA, "12.8 lbs."
 
 
-// ABILITY: Magic Bounce (HA)
+// ABILITY: Gothic Style (HA, New)
 mondata SPECIES_GOTHORITA, "Gothorita"
     basestats 60, 45, 70, 55, 75, 85
     types TYPE_PSYCHIC, TYPE_PSYCHIC
@@ -15825,7 +15825,7 @@ mondata SPECIES_GOTHORITA, "Gothorita"
     mondexweight SPECIES_GOTHORITA, "39.7 lbs."
 
 
-// ABILITY: Magic Bounce (HA)
+// ABILITY: Gothic Style (HA, New)
 mondata SPECIES_GOTHITELLE, "Gothitelle"
     basestats 70, 55, 95, 65, 95, 110
     types TYPE_PSYCHIC, TYPE_PSYCHIC

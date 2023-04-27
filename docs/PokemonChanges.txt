@@ -1199,14 +1199,12 @@ Held Item: Rawst Berry (100%)
 Type: Fire ⟶ Fire / Fairy
 
 New Moves:
-- Dazzling Gleam** (Level/TM)
+- Dazzling Gleam* (Level/TM)
 - Moonblast* (Level)
 
 * If type changes are removed, Ninetales cannot learn these moves.
-** If type changes are removed, Ninetales can only learn Dazzling Gleam by TM.
 
 Level Up Moves:
-01 - Dazzling Gleam**
 01 - Mystical Fire
 01 - Roar
 01 - Ember
@@ -1230,7 +1228,6 @@ Level Up Moves:
 60 - Fire Blast
 
 * If type changes are removed, Ninetales instead learns Heat Wave at Lv. 44.
-** If type changes are removed, Ninetales does not learn Dazzling Gleam at Lv. 1.
 
 -------------------
 174 - Igglybuff
@@ -2117,7 +2114,7 @@ Level Up Moves:
 -------------------
 062 - Poliwrath
 -------------------
-Abilities: Water Absorb / Damp / Swift Swim ⟶ Water Absorb / Iron Fist** / Swift Swim
+Abilities: Water Absorb / Damp / Swift Swim
 Base Stats: 90/95/95/70/90/70 (510)
 Held Item: King's Rock (5%)
 Type: Water / Fighting
@@ -2152,7 +2149,7 @@ Level Up Moves:
 -------------------
 186 - Politoed
 -------------------
-Abilities: Water Absorb / Damp / Drizzle ⟶ Water Absorb / Cacophony** / Drizzle
+Abilities: Water Absorb / Damp / Drizzle
 Base Stats: 90/75/75/90/100/70 (500)
 Held Item: King's Rock (5%)
 Type: Water
@@ -2378,8 +2375,8 @@ Level Up Moves:
 36 - Leaf Blade
 40 - Knock Off
 44 - Slam
-48 - Power Whip
-52 - Wring Out
+48 - Wring Out
+52 - Power Whip
 56 - Solar Blade
 
 -------------------
@@ -2412,15 +2409,15 @@ Level Up Moves:
 36 - Leaf Blade
 40 - Knock Off
 44 - Slam
-48 - Power Whip
-52 - Wring Out
+48 - Wring Out
+52 - Power Whip
 56 - Solar Blade
 
 -------------------
 071 - Victreebel
 -------------------
 Abilities: Chlorophyll / Chlorophyll / Gluttony
-Base Stats: 80/105/65/100/70/70 (490) ⟶ 80/110*/65/95*/70/70 (490)
+Base Stats: 80/105/65/100/70/70 (490)
 Held Item: None
 Type: Grass / Poison
 
@@ -2449,8 +2446,8 @@ Level Up Moves:
 36 - Leaf Blade
 40 - Knock Off
 44 - Slam
-48 - Power Whip
-52 - Wring Out
+48 - Wring Out
+52 - Power Whip
 56 - Solar Blade
 60 - Leaf Storm
 
@@ -2983,8 +2980,8 @@ Level Up Moves:
 -------------------
 086 - Seel
 -------------------
-Abilities: Thick Fat / Hydration / Ice Body ⟶ Thick Fat / Swift Swim** / Ice Body 
-Base Stats: 65/45/55/45/70/45 (325) ⟶ 65/70*/55/45/70/45 (350)
+Abilities: Thick Fat / Hydration / Ice Body ⟶ Thick Fat / Swift Swim** / Refrigerate**
+Base Stats: 65/45/55/45/70/45 (325) ⟶ 65/65*/55/45/70/45 (345)
 Held Item: None
 Type: Water
 
@@ -3021,8 +3018,8 @@ Level Up Moves:
 -------------------
 087 - Dewgong
 -------------------
-Abilities: Thick Fat / Hydration / Ice Body ⟶ Thick Fat / Swift Swim** / Ice Body 
-Base Stats: 90/70/80/70/95/70 (475) ⟶ 90/95*/80/70/95/70 (500)
+Abilities: Thick Fat / Hydration / Ice Body ⟶ Thick Fat / Swift Swim** / Refrigerate**
+Base Stats: 90/70/80/70/95/70 (475) ⟶ 90/90*/80/70/95/70 (495)
 Held Item: None
 Type: Water / Ice
 
@@ -3367,7 +3364,7 @@ Level Up Moves:
 -------------------
 096 - Drowzee
 -------------------
-Abilities: Insomnia / Forewarn / Inner Focus
+Abilities: Insomnia / Forewarn / Inner Focus ⟶ Insomnia / Forewarn / Bad Dreams**
 Base Stats: 60/48/45/43/90/42 (328)
 Held Item: None
 Type: Psychic
@@ -3402,7 +3399,7 @@ Level Up Moves:
 097 - Hypno
 -------------------
 Abilities: Insomnia / Forewarn / Inner Focus ⟶ Insomnia / Forewarn / Bad Dreams**
-Base Stats: 85/73/70/73/115/67 (483) ⟶ 85/83*/70/83*/115/47* (483)
+Base Stats: 85/73/70/73/115/67 (483)
 Held Item: None
 Type: Psychic
 
@@ -4941,8 +4938,8 @@ Level Up Moves:
 24 - Ice Fang
 28 - Dragon Rage
 32 - Scary Face
-36 - Aqua Tail
-40 - Dragon Tail
+36 - Dragon Tail
+40 - Aqua Tail
 44 - Crunch
 48 - Hydro Pump
 52 - Dragon Dance
@@ -5023,8 +5020,8 @@ Level Up Moves:
 20 - Refresh
 24 - Yawn
 28 - Copycat
-32 - Baton Pass
-36 - Take Down
+32 - Take Down
+36 - Baton Pass
 40 - Charm
 44 - Wish
 48 - Double-Edge
@@ -5127,7 +5124,7 @@ Level Up Moves:
 20 - Flame Wheel
 24 - Yawn
 28 - Fire Fang
-32 - Fire Spin
+32 - Take Down
 36 - Lava Plume
 40 - Scary Face
 44 - Wish
@@ -5279,7 +5276,7 @@ Level Up Moves:
 -------------------
 700 - Sylveon
 -------------------
-Abilities: Cute Charm / Cute Charm / Pixilate
+Abilities: Cute Charm / Cute Charm / Pixilate ⟶ Cute Charm / Wonder Skin** / Pixilate
 Base Stats: 95/65/65/110/130/60 (525)
 Held Item: None
 Type: Fairy
@@ -6698,6 +6695,7 @@ New Moves:
 
 Level Up Moves:
 01 - Aura Sphere
+01 - Extrasensory
 01 - Extreme Speed
 01 - Magical Leaf
 01 - Sky Attack
@@ -7939,6 +7937,7 @@ Type: Fairy
 
 New Moves:
 - Spirit Break (Level)
+- Trailblaze (Tutor)
 
 Level Up Moves:
 01 - Rage
@@ -7973,6 +7972,7 @@ Type: Fairy ⟶ Fairy / Fighting
 New Moves:
 - Psychic Fangs (Tutor) (HOME)
 - Spirit Break (Level)
+- Trailblaze (Tutor)
 
 Level Up Moves:
 01 - Ice Fang
@@ -7990,7 +7990,7 @@ Level Up Moves:
 15 - Headbutt
 18 - Roar
 21 - Taunt
-23 - Brick Break
+23 - Power-Up Punch
 25 - Spirit Break
 29 - Take Down
 33 - Crunch
@@ -8079,7 +8079,6 @@ New Moves:
 - None
 
 Level Up Moves:
-01 - Arm Thrust
 01 - Tackle
 01 - Leer
 01 - Endure
@@ -8087,16 +8086,17 @@ Level Up Moves:
 08 - Fury Attack
 12 - Bug Bite
 16 - Aerial Ace
-20 - Brick Break
+20 - Arm Thrust
 24 - Take Down
-28 - Pin Missile
-32 - Night Slash
-36 - Counter
-40 - Thrash
-44 - Megahorn
-48 - Swords Dance
-52 - Close Combat
-56 - Reversal
+28 - Brick Break
+32 - Pin Missile
+36 - Night Slash
+40 - Counter
+44 - Thrash
+48 - Megahorn
+52 - Swords Dance
+56 - Close Combat
+60 - Reversal
 
 -------------------
 215 - Sneasel
@@ -8290,27 +8290,29 @@ New Moves:
 Level Up Moves:
 01 - Smog
 01 - Yawn
-01 - Ember
-03 - Harden
-06 - Rock Throw
-09 - Incinerate
-12 - Clear Smog
-16 - Ancient Power
-20 - Lava Plume
-24 - Acid Armor
-30 - Power Gem
-35 - Recover
-40 - Flamethrower
-45 - Earth Power
-50 - Inferno
-55 - Amnesia
-60 - Magma Storm
+04 - Ember
+07 - Harden
+10 - Rock Throw
+13 - Incinerate
+16 - Clear Smog
+19 - Ancient Power
+22 - Lava Plume
+25 - Rock Slide
+28 - Body Slam
+31 - Acid Armor
+35 - Power Gem
+39 - Flamethrower
+43 - Earth Power
+47 - Recover
+51 - Amnesia
+55 - Inferno
+59 - Magma Storm
 
 -------------------
 219 - Magcargo
 -------------------
 Abilities: Magma Armor / Flame Body / Weak Armor ⟶ Magma Armor / Flame Body / Infernal Body**
-Base Stats: 60/50/120/90/80/30 (430) ⟶ 75*/50/120/110*/90*/30 (475)
+Base Stats: 60/50/120/90/80/30 (430) ⟶ 70*/50/120/110*/100*/30 (480)
 Held Item: None
 Type: Fire / Rock
 
@@ -8323,26 +8325,26 @@ New Moves:
 - Skitter Smack (Tutor) (HOME)
 
 Level Up Moves:
-01 - Rock Slide
-01 - Body Slam
 01 - Smog
 01 - Yawn
-01 - Ember
-03 - Harden
-06 - Rock Throw
-09 - Incinerate
-12 - Clear Smog
-16 - Ancient Power
-20 - Lava Plume
-24 - Acid Armor
-28 - Shell Smash
-30 - Power Gem
-35 - Recover
-40 - Flamethrower
-45 - Earth Power
-50 - Inferno
-55 - Amnesia
-60 - Magma Storm
+04 - Ember
+07 - Harden
+10 - Rock Throw
+13 - Incinerate
+16 - Clear Smog
+19 - Ancient Power
+22 - Lava Plume
+25 - Rock Slide
+28 - Body Slam
+31 - Acid Armor
+32 - Shell Smash
+35 - Power Gem
+39 - Flamethrower
+43 - Earth Power
+47 - Recover
+51 - Amnesia
+55 - Inferno
+59 - Magma Storm
 
 -------------------
 220 - Swinub
@@ -9671,7 +9673,7 @@ New Moves:
 - Dual Wingbeat (Tutor) (HOME)
 - Fly (HM)
 - Hurricane (Tutor)
-- Leech Life (Level/TM) (BDSP)
+- Leech Life (TM) (BDSP)
 - Pollen Puff (Tutor)
 - Pounce (Tutor)
 
@@ -11520,7 +11522,7 @@ Level Up Moves:
 -------------------
 320 - Wailmer
 -------------------
-Abilities: Water Veil / Oblivious / Pressure ⟶ Water Veil / Oblivious / Damp**
+Abilities: Water Veil / Oblivious / Pressure ⟶ Water Veil / Oblivious / Sheer Force**
 Base Stats: 130/70/35/70/35/60 (400)
 Held Item: None
 Type: Water
@@ -11549,8 +11551,8 @@ Level Up Moves:
 -------------------
 321 - Wailord
 -------------------
-Abilities: Water Veil / Oblivious / Pressure ⟶ Water Veil / Oblivious / Huge Impact**
-Base Stats: 170/90/45/90/45/60 (500) ⟶ 200*/100*/50*/100*/50*/50* (550)
+Abilities: Water Veil / Oblivious / Pressure ⟶ Water Veil / Oblivious / Sheer Force**
+Base Stats: 170/90/45/90/45/60 (500) ⟶ 170/100*/55*/100*/55*/60 (540)
 Held Item: None
 Type: Water
 
@@ -11874,7 +11876,7 @@ Level Up Moves:
 -------------------
 331 - Cacnea
 -------------------
-Abilities: Sand Veil / Sand Veil / Water Absorb ⟶ Sand Veil / Water Absorb / Heatproof**
+Abilities: Sand Veil / Sand Veil / Water Absorb ⟶ Sand Veil / Water Absorb / Unnerve**
 Base Stats: 50/85/40/85/40/35 ()
 Held Item: Sticky Barb (5%)
 Type: Grass
@@ -11909,7 +11911,7 @@ Level Up Moves:
 -------------------
 332 - Cacturne
 -------------------
-Abilities: Sand Veil / Sand Veil / Water Absorb ⟶ Sand Veil / Water Absorb / Heatproof**
+Abilities: Sand Veil / Sand Veil / Water Absorb ⟶ Sand Veil / Water Absorb / Unnerve**
 Base Stats: 70/115/60/115/60/55 (475) ⟶ 70/125*/75*/105*/75*/50* (500)
 Held Item: Sticky Barb (5%)
 Type: Grass / Dark
@@ -14138,7 +14140,7 @@ Level Up Moves:
 12 - Double Team
 16 - Whirlwind
 20 - Take Down
-24 - Aerial Ace
+24 - Revenge
 28 - Endeavor
 32 - Agility
 40 - Thrash
@@ -14168,7 +14170,7 @@ Level Up Moves:
 12 - Double Team
 16 - Whirlwind
 20 - Take Down
-24 - Aerial Ace
+24 - Revenge
 28 - Endeavor
 32 - Agility
 40 - Thrash
@@ -14199,7 +14201,7 @@ Level Up Moves:
 12 - Double Team
 16 - Whirlwind
 20 - Take Down
-24 - Aerial Ace
+24 - Revenge
 28 - Endeavor
 32 - Agility
 34 - Close Combat
@@ -14340,25 +14342,30 @@ Held Item: None
 Type: Electric
 
 New Moves:
-- Double-Edge (Tutor)
+- Double-Edge (Level/Tutor)
 - Volt Tackle (Level)
 
 Level Up Moves:
 01 - Tackle
 01 - Leer
 03 - Thunder Shock
-06 - Baby-Doll Eyes
+05 - Baby-Doll Eyes
+07 - Quick Attack
 09 - Charge
-12 - Spark
-16 - Bite
-20 - Roar
-24 - Thunder Fang
+11 - Bite
+13 - Spark
+16 - Roar
+19 - Double Kick
+22 - Thunder Fang
+25 - Take Down
 28 - Swagger
-35 - Crunch
+32 - Crunch
+36 - Discharge
 40 - Wild Charge
-45 - Play Rough
-50 - Scary Face
-55 - Volt Tackle
+44 - Scary Face
+48 - Play Rough
+52 - Double-Edge
+56 - Volt Tackle
 
 -------------------
 404 - Luxio
@@ -14369,25 +14376,31 @@ Held Item: None
 Type: Electric
 
 New Moves:
-- Double-Edge (Tutor)
+- Double-Edge (Level/Tutor)
 - Volt Tackle (Level)
 
 Level Up Moves:
 01 - Tackle
 01 - Leer
 03 - Thunder Shock
-06 - Baby-Doll Eyes
+05 - Baby-Doll Eyes
+07 - Quick Attack
 09 - Charge
-12 - Spark
-16 - Bite
-20 - Roar
-24 - Thunder Fang
+11 - Bite
+13 - Spark
+15 - Howl
+16 - Roar
+19 - Double Kick
+22 - Thunder Fang
+25 - Take Down
 28 - Swagger
-35 - Crunch
+32 - Crunch
+36 - Discharge
 40 - Wild Charge
-45 - Play Rough
-50 - Scary Face
-55 - Volt Tackle
+44 - Scary Face
+48 - Play Rough
+52 - Double-Edge
+56 - Volt Tackle
 
 -------------------
 405 - Luxray
@@ -14399,7 +14412,7 @@ Type: Electric ⟶ Electric / Dark
 
 New Moves:
 - Dark Pulse (TM)
-- Double-Edge (Tutor)
+- Double-Edge (Level/Tutor)
 - Volt Tackle (Level)
 
 Level Up Moves:
@@ -14409,18 +14422,24 @@ Level Up Moves:
 01 - Tackle
 01 - Leer
 03 - Thunder Shock
-06 - Baby-Doll Eyes
+05 - Baby-Doll Eyes
+07 - Quick Attack
 09 - Charge
-12 - Spark
-16 - Bite
-20 - Roar
-24 - Thunder Fang
+11 - Bite
+13 - Spark
+15 - Howl
+16 - Roar
+19 - Double Kick
+22 - Thunder Fang
+25 - Take Down
 28 - Swagger
-35 - Crunch
+32 - Crunch
+36 - Discharge
 40 - Wild Charge
-45 - Play Rough
-50 - Scary Face
-55 - Volt Tackle
+44 - Scary Face
+48 - Play Rough
+52 - Double-Edge
+56 - Volt Tackle
 
 -------------------
 408 - Cranidos
@@ -15072,7 +15091,7 @@ Level Up Moves:
 -------------------
 427 - Buneary
 -------------------
-Abilities: Run Away / Klutz / Limber ⟶ Run Away / Klutz / Scrappy**
+Abilities: Run Away / Klutz / Limber ⟶ Run Away / Limber / Scrappy**
 Base Stats: 55/66/44/44/56/85 (350)
 Held Item: Chople Berry (5%)
 Type: Normal
@@ -15103,7 +15122,7 @@ Level Up Moves:
 -------------------
 428 - Lopunny
 -------------------
-Abilities: Cute Charm / Klutz / Limber ⟶ Cute Charm / Klutz / Scrappy**
+Abilities: Cute Charm / Klutz / Limber ⟶ Cute Charm / Limber / Scrappy**
 Base Stats: 65/76/84/54/96/105 (480) ⟶ 65/96*/84/54/96/105 (500)
 Held Item: Chople Berry (5%)
 Type: Normal ⟶ Normal / Fighting
@@ -15622,7 +15641,7 @@ Level Up Moves:
 -------------------
 451 - Skorupi
 -------------------
-Abilities: Battle Armor / Sniper / Keen Eye
+Abilities: Battle Armor / Sniper / Keen Eye ⟶ Battle Armor / Sniper / Tough Claws**
 Base Stats: 40/50/90/30/55/65 (330)
 Held Item: Poison Barb (5%)
 Type: Poison / Bug
@@ -15655,7 +15674,7 @@ Level Up Moves:
 -------------------
 452 - Drapion
 -------------------
-Abilities: Battle Armor / Sniper / Keen Eye
+Abilities: Battle Armor / Sniper / Keen Eye ⟶ Battle Armor / Sniper / Tough Claws**
 Base Stats: 70/90/110/60/75/95 (500)
 Held Item: Poison Barb (5%)
 Type: Poison / Dark

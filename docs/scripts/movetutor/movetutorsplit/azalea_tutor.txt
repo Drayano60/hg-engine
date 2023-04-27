@@ -2806,6 +2806,10 @@ Function 2161:
     JumpIf EQUAL Function#2162
     CompareVarValue 0x8004 182
     JumpIf EQUAL Function#2162
+    CompareVarValue 0x8004 209
+    JumpIf EQUAL Function#2162
+    CompareVarValue 0x8004 210
+    JumpIf EQUAL Function#2162
     CompareVarValue 0x8004 252
     JumpIf EQUAL Function#2162
     CompareVarValue 0x8004 253

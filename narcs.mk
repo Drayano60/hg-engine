@@ -38,16 +38,15 @@ MOVEDATA_DIR := $(BUILD)/a011
 MOVEDATA_NARC := $(BUILD_NARC)/a011.narc
 MOVEDATA_TARGET := $(FILESYS)/a/0/1/1
 MOVEDATA_DEPENDENCIES := armips/data/moves.s
-MOVEDATA_NAMES_DIR := $(BUILD)/rawtext/750 $(BUILD)/rawtext/751 $(BUILD)/rawtext/003
-MOVEDATA_DESCRIPTIONS_DIR := $(BUILD)/rawtext/749
+MOVEDATA_NAMES_DIR := $(BUILD)/rawtext/750 $(BUILD)/rawtext/751 $(BUILD)/rawtext/003 $(BUILD)/rawtext/749
 
 $(MOVEDATA_NARC): $(MOVEDATA_DEPENDENCIES)
-	mkdir -p $(MOVEDATA_NAMES_DIR) $(MOVEDATA_DESCRIPTIONS_DIR)
+	mkdir -p $(MOVEDATA_NAMES_DIR)
 	$(ARMIPS) $^
 	$(NARCHIVE) create $@ $(MOVEDATA_DIR) -nf
 
 NARC_FILES += $(MOVEDATA_NARC)
-MSGDATA_COMPILETIME_DEPENDENCIES += $(BUILD)/rawtext/749.txt $(BUILD)/rawtext/750.txt $(BUILD)/rawtext/751.txt $(BUILD)/rawtext/003.txt
+MSGDATA_COMPILETIME_DEPENDENCIES += $(BUILD)/rawtext/750.txt $(BUILD)/rawtext/751.txt $(BUILD)/rawtext/003.txt $(BUILD)/rawtext/749.txt
 
 MOVEPARTICLES_DIR := $(BUILD)/a029
 MOVEPARTICLES_NARC := $(BUILD_NARC)/a029.narc
@@ -93,7 +92,7 @@ $(MONDATA_NARC): $(MONDATA_DEPENDENCIES)
 	$(NARCHIVE) create $@ $(MONDATA_DIR) -nf
 
 NARC_FILES += $(MONDATA_NARC)
-MSGDATA_COMPILETIME_DEPENDENCIES += $(BUILD)/rawtext/237.txt $(BUILD)/rawtext/238.txt $(BUILD)/rawtext/812.txt $(BUILD)/rawtext/813.txt $(BUILD)/rawtext/814.txt $(BUILD)/rawtext/815.txt $(BUILD)/rawtext/817.txt
+MSGDATA_COMPILETIME_DEPENDENCIES += $(BUILD)/rawtext/237.txt $(BUILD)/rawtext/238.txt $(BUILD)/rawtext/803.txt $(BUILD)/rawtext/812.txt $(BUILD)/rawtext/813.txt $(BUILD)/rawtext/814.txt $(BUILD)/rawtext/815.txt $(BUILD)/rawtext/817.txt
 
 
 SPRITEOFFSETS_DIR := $(BUILD)/a180

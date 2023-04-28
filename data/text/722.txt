@@ -57,7 +57,7 @@ Ups Attack by 50%. Lowers\nphysical accuracy by 20%.
 Contact has a 30% chance\nto infatuate the foe.
 Boosts Sp. Atk by 50% if\na Pokémon has Minus.
 Boosts Sp. Atk by 50% if\na Pokémon has Plus.
-Transforms with weather.\nUps Weather Ball by 50%.
+Transforms with weather.\nUps Weather Ball by 20%.
 Protects the Pokémon\nfrom item theft.
 On a turn, has 33% chance\nof curing status problems.
 Boosts Attack by 50% if\nthere is a status problem.
@@ -77,7 +77,7 @@ The Pokémon is protected\nagainst critical hits.
 Negates the effects of\nweather while in battle.
 Halves foe’s accuracy if\nthis Pokémon is confused.
 Raises Speed if hit by an\nElectric-type move.
-Deals 20% more damage to\nfoes of the same gender.
+Deals 10% more damage to\nfoes of the same gender.
 Raises Speed each time\nthe Pokémon flinches.
 Lowers foe’s accuracy\nby 20% in a hailstorm.
 Berries eaten at 25% HP\nare now eaten at 50% HP.

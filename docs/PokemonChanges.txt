@@ -1,6 +1,12 @@
 The base friendship remains as it was in earlier generations (so those with a base friendship of 50 will have 70 here).
+
 Egg groups are updated to match modern gens (affects the Ralts and Trapinch lines).
+
 All Pokémon have been set to have a run chance value of 25 (out of 255) in the Safari Zone, which means on any turn they will have a ~10% chance to flee (before any bait/mud modifiers).
+
+Every Pokémon has up to three ability slots. All slots are listed even if the same ability is shared between them. The third slot matches with the Hidden Ability slot in later generations.
+
+Any Pokémon encountered or received has a 20% chance to have its Hidden Ability, otherwise they have the usual 50% rate of either ability one or two, i.e. Slots 1/2/3 have a 40%/40%/20% chance each.
 
 -------------------
 001 - Bulbasaur

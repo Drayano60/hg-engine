@@ -145,6 +145,7 @@ Cherrim's ability to transform into its Sunshine Form is still unaffected by whe
 
 - Forecast:
 This does not revert Castform back to its normal form if the ability is somehow lost or disabled (e.g. Gastro Acid).
+(Forecast also has a modified effect and is listed in a different section.)
 
 - Frisk:
 Frisk will still only show one opponent's item in a double battle, with the opponent chosen randomly.
@@ -320,6 +321,10 @@ Big Pecks
 -------------------
 This now boosts the Pokémon's Defense stat by 10% in battle, in addition to preventing any Defense stat drops that aren't self-inflicted.
 
+Forecast
+-------------------
+Forecast now boosts the power of Weather Ball by 20%, in addition to its normal effects.
+
 Hyper Cutter
 -------------------
 This now boosts the Pokémon's Attack stat by 10% in battle, in addition to preventing any Attack stat drops that aren't self-inflicted.
@@ -337,7 +342,7 @@ Increases the likelihood of encountering a Pokémon.
 
 Rivalry
 -------------------
-Boosts the strength of the Pokémon's moves against a target of the same gender by 20%.
+Boosts the strength of the Pokémon's moves against a target of the same gender by 10%.
 (The negative effect against opposite gender targets no longer applies.)
 
 Magma Armor

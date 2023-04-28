@@ -1038,11 +1038,11 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
     spdefstate += 6;
 
     // Handle Rivalry
-    // Negative effect removed but positive effect nerfed to 20%.
+    // Negative effect removed but positive effect nerfed to 10%.
     if ((AttackingMon.ability == ABILITY_RIVALRY) &&
         (AttackingMon.sex == DefendingMon.sex) && (AttackingMon.sex != POKEMON_GENDER_UNKNOWN) && (DefendingMon.sex != POKEMON_GENDER_UNKNOWN))
     {
-        movepower = movepower * 120 / 100;
+        movepower = movepower * 110 / 100;
     }
 
     // if ((AttackingMon.ability == ABILITY_RIVALRY) &&

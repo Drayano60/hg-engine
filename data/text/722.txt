@@ -179,7 +179,7 @@ Contact is guaranteed to\nburn the attacker.
 Powers up sound-based\nmoves by 33%.
 Boosts Sp. Atk if a foe is\nKOed with a Fire move.
 Powers up aura and pulse\nmoves by 33%.
-Powers up moves used by\nallies by 25%.
+Powers up moves used by\nallies by 15%.
 Ice-type moves lower the\nSp. Def of Steel-types.
 Powers up ball, bomb and\ncannon moves by 33%.
 Powers up wind-based\nmoves by 33%.

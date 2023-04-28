@@ -238,8 +238,8 @@ Notes: An ability for a move theme that doesn't have one yet, given to a lot of 
 Cheerleader
 -------------------
 Users: Plusle, Minun.
-Effect: In a double battle, the partner's moves have their power increased by 25%.
-Notes: A slightly weaker clone of Power Spot. This gives Plusle and Minun the ability to actually do something unique in double battles.
+Effect: In a double battle, the partner's moves have their power increased by 15%.
+Notes: A weaker clone of Power Spot. This gives Plusle and Minun the ability to actually do something unique in double battles.
 
 Deep Freeze
 -------------------

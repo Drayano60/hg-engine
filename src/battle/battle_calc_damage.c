@@ -938,7 +938,7 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
     // Handle Cheerleader, a new ability for Plusle and Minun
     if ((GetBattlerAbility(sp, BATTLER_ALLY(attacker)) == ABILITY_CHEERLEADER) == TRUE)
     {
-        movepower = movepower * 125 / 100;
+        movepower = movepower * 115 / 100;
     }
 
     // handle heatproof/dry skin

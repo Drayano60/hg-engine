@@ -2844,8 +2844,9 @@ void __attribute__((long_call)) SetBoxMonAbility(void *boxmon) // actually takes
     pid = GetBoxMonData(boxmon, ID_PARA_personal_rnd, NULL);
     form = GetBoxMonData(boxmon, ID_PARA_form_no, NULL);
 
-    // Set hidden ability at a 20% chance or if the relevant flag is set.
-    if (CheckScriptFlag(HIDDEN_ABILITIES_FLAG) == 1 || (gf_rand() % 5 == 0))
+    // Set hidden ability if the relevant flag is set.
+    // No 20% chance here since this gets used during evolution.
+    if (CheckScriptFlag(HIDDEN_ABILITIES_FLAG) == 1)
     {
         SET_BOX_MON_HIDDEN_ABILITY_BIT(boxmon)
         has_hidden_ability = 1;
@@ -4449,7 +4450,7 @@ void MakeTrainerPokemonParty(struct BATTLE_PARAM *bp, int num, int heapID)
 
 void set_starter_hidden_ability(struct PokeParty *party, struct PartyPokemon *pp)
 {
-    if (CheckScriptFlag(HIDDEN_ABILITIES_STARTERS_FLAG) == 1)
+    if (CheckScriptFlag(HIDDEN_ABILITIES_STARTERS_FLAG) == 1 || (gf_rand() % 5 == 0))
     {
         SET_MON_HIDDEN_ABILITY_BIT(pp)
         SetBoxMonAbility((void *)&pp->box);
@@ -4494,7 +4495,7 @@ BOOL ScrCmd_GiveEgg(SCRIPTCONTEXT *ctx)
         ClearMonMoves(pokemon);
         InitBoxMonMoveset(&pokemon->box);
 
-        if (CheckScriptFlag(HIDDEN_ABILITIES_FLAG) == 1) // add HA capability
+        if (CheckScriptFlag(HIDDEN_ABILITIES_FLAG) == 1 || (gf_rand() % 5 == 0)) // add HA capability
         {
             SET_MON_HIDDEN_ABILITY_BIT(pokemon)
             ResetPartyPokemonAbility(pokemon);
@@ -4552,7 +4553,7 @@ BOOL ScrCmd_GiveTogepiEgg(SCRIPTCONTEXT *ctx) {
     pp = GetMonData(togepi, ID_PARA_pp_max1 + i, 0);
     SetMonData(togepi, ID_PARA_pp_count1 + i, &pp);
 
-    if (CheckScriptFlag(HIDDEN_ABILITIES_FLAG) == 1) // add HA capability
+    if (CheckScriptFlag(HIDDEN_ABILITIES_FLAG) == 1 || (gf_rand() % 5 == 0)) // add HA capability
     {
         SET_MON_HIDDEN_ABILITY_BIT(togepi)
         ResetPartyPokemonAbility(togepi);

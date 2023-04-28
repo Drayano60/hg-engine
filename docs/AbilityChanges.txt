@@ -253,24 +253,11 @@ Users: Flareon.
 Effect: Protects the Pokémon from recoil damage.
 Notes: A Rock Head clone that's more thematically fitting for Flareon, thanks to its fluffy fur. This means it can use Flare Blitz without having to worry about its weak HP stat.
 
-Gothic Style
--------------------
-Users: Gothita, Gothorita, Gothitelle.
-Effect: Powers up Dark-type moves by 50%.
-Notes: This is a bit of a compromise between actually giving the Gothita line the Dark-type and it being able to take advantage of its Dark-type moves. While I have made it Psychic/Dark in the past, it's not really much of a Dark-type lorewise and Psychic/Dark relative to Psychic isn't a huge upgrade anyway (no resistances and an immunity to a type that was already resisted!). However, people over in the west have made a link between goth = dark quite a few times, so this is a way to appeal to that.
-
 Heat Up
 -------------------
 Users: Cyndaquil, Quilava, Typhlosion.
 Effect: If a Pokémon with Heat Up knocks out any Pokémon on the field with a Fire-type move, its Special Attack stat is increased by one stage.
 Notes: A less general special attacking clone of Moxie that weakly leans into Cyndaquil's anime appearance often requiring it to get its flame ready to start using Fire-moves. I couldn't really think of an impactful third ability for Cyndaquil, so I made one up!
-
-Huge Impact
--------------------
-Users: Wailord.
-Effect: Moves that normally have their power derived from the weight difference between user and target will always be 120 BP.
-Moves Affected: Heavy Slam, Splash Crash.
-Notes: This leans into Wailord's Pokédex entries that talk about the shock waves it can produce from diving into the water. Splash Crash is a new move that Wailord gets to use in tandem with this ability; it's a Water-type clone of Heavy Slam.
 
 Infernal Body
 -------------------

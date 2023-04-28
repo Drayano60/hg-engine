@@ -629,9 +629,9 @@
 /* SPECIES_ZOROARK                     */ .halfword ABILITY_NONE
 /* SPECIES_MINCCINO                    */ .halfword ABILITY_SKILL_LINK
 /* SPECIES_CINCCINO                    */ .halfword ABILITY_SKILL_LINK
-/* SPECIES_GOTHITA                     */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_GOTHIC_STYLE : ABILITY_SHADOW_TAG
-/* SPECIES_GOTHORITA                   */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_GOTHIC_STYLE : ABILITY_SHADOW_TAG
-/* SPECIES_GOTHITELLE                  */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_GOTHIC_STYLE : ABILITY_SHADOW_TAG
+/* SPECIES_GOTHITA                     */ .halfword ABILITY_SHADOW_TAG
+/* SPECIES_GOTHORITA                   */ .halfword ABILITY_SHADOW_TAG
+/* SPECIES_GOTHITELLE                  */ .halfword ABILITY_SHADOW_TAG
 /* SPECIES_SOLOSIS                     */ .halfword ABILITY_REGENERATOR
 /* SPECIES_DUOSION                     */ .halfword ABILITY_REGENERATOR
 /* SPECIES_REUNICLUS                   */ .halfword ABILITY_REGENERATOR

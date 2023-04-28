@@ -13584,15 +13584,16 @@ levelup SPECIES_CINCCINO
 levelup SPECIES_GOTHITA
     learnset MOVE_POUND, 1
     learnset MOVE_CONFUSION, 1
-    learnset MOVE_PLAY_NICE, 3
-    learnset MOVE_TICKLE, 6
-    learnset MOVE_DOUBLE_SLAP, 9
-    learnset MOVE_PSYBEAM, 12
-    learnset MOVE_CHARM, 15
-    learnset MOVE_EMBARGO, 18
+    learnset MOVE_PLAY_NICE, 1
+    learnset MOVE_TICKLE, 3
+    learnset MOVE_DOUBLE_SLAP, 6
+    learnset MOVE_FEINT_ATTACK, 9
+    learnset MOVE_EMBARGO, 12
+    learnset MOVE_PSYBEAM, 15
+    learnset MOVE_CHARM, 18
     learnset MOVE_HYPNOSIS, 21
     learnset MOVE_PSYSHOCK, 25
-    learnset MOVE_FEINT_ATTACK, 29
+    learnset MOVE_FOUL_PLAY, 29
     learnset MOVE_FAKE_TEARS, 33
     learnset MOVE_PSYCHIC, 37
     learnset MOVE_FLATTER, 42
@@ -13605,15 +13606,16 @@ levelup SPECIES_GOTHITA
 levelup SPECIES_GOTHORITA
     learnset MOVE_POUND, 1
     learnset MOVE_CONFUSION, 1
-    learnset MOVE_PLAY_NICE, 3
-    learnset MOVE_TICKLE, 6
-    learnset MOVE_DOUBLE_SLAP, 9
-    learnset MOVE_PSYBEAM, 12
-    learnset MOVE_CHARM, 15
-    learnset MOVE_EMBARGO, 18
+    learnset MOVE_PLAY_NICE, 1
+    learnset MOVE_TICKLE, 3
+    learnset MOVE_DOUBLE_SLAP, 6
+    learnset MOVE_FEINT_ATTACK, 9
+    learnset MOVE_EMBARGO, 12
+    learnset MOVE_PSYBEAM, 15
+    learnset MOVE_CHARM, 18
     learnset MOVE_HYPNOSIS, 21
     learnset MOVE_PSYSHOCK, 25
-    learnset MOVE_FEINT_ATTACK, 29
+    learnset MOVE_FOUL_PLAY, 29
     learnset MOVE_FAKE_TEARS, 33
     learnset MOVE_PSYCHIC, 37
     learnset MOVE_FLATTER, 42
@@ -13624,23 +13626,25 @@ levelup SPECIES_GOTHORITA
 
 // Evolution: 24 -> 38
 levelup SPECIES_GOTHITELLE
-    learnset MOVE_DARK_PULSE, 1
     learnset MOVE_MIRACLE_EYE, 1
     learnset MOVE_MIRROR_COAT, 1
+    learnset MOVE_TRICK_ROOM, 1
     learnset MOVE_FAKE_OUT, 1
     learnset MOVE_POUND, 1
     learnset MOVE_CONFUSION, 1
-    learnset MOVE_PLAY_NICE, 3
-    learnset MOVE_TICKLE, 6
-    learnset MOVE_DOUBLE_SLAP, 9
+    learnset MOVE_PLAY_NICE, 1
+    learnset MOVE_TICKLE, 3
+    learnset MOVE_DOUBLE_SLAP, 6
+    learnset MOVE_FEINT_ATTACK, 9
     learnset MOVE_EMBARGO, 12
     learnset MOVE_PSYBEAM, 15
     learnset MOVE_CHARM, 18
     learnset MOVE_HYPNOSIS, 21
     learnset MOVE_PSYSHOCK, 25
-    learnset MOVE_FEINT_ATTACK, 29
+    learnset MOVE_FOUL_PLAY, 29
     learnset MOVE_FAKE_TEARS, 33
     learnset MOVE_PSYCHIC, 37
+    learnset MOVE_DARK_PULSE, 38
     learnset MOVE_FLATTER, 42
     learnset MOVE_PSYCH_UP, 48
     learnset MOVE_HEAL_BLOCK, 54
@@ -13649,6 +13653,7 @@ levelup SPECIES_GOTHITELLE
 
 // Evolution: 24 -> 38
 levelup SPECIES_SOLOSIS
+    learnset MOVE_ASTONISH, 1
     learnset MOVE_CONFUSION, 1
     learnset MOVE_PROTECT, 1
     learnset MOVE_PSYWAVE, 3
@@ -13671,6 +13676,7 @@ levelup SPECIES_SOLOSIS
 
 // Evolution: 24 -> 38
 levelup SPECIES_DUOSION
+    learnset MOVE_ASTONISH, 1
     learnset MOVE_CONFUSION, 1
     learnset MOVE_PROTECT, 1
     learnset MOVE_PSYWAVE, 3
@@ -13695,6 +13701,8 @@ levelup SPECIES_DUOSION
 levelup SPECIES_REUNICLUS
     learnset MOVE_DIZZY_PUNCH, 1
     learnset MOVE_ACID_ARMOR, 1
+    learnset MOVE_TRICK_ROOM, 1
+    learnset MOVE_ASTONISH, 1
     learnset MOVE_CONFUSION, 1
     learnset MOVE_PROTECT, 1
     learnset MOVE_PSYWAVE, 3

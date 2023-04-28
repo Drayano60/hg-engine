@@ -19069,10 +19069,10 @@ Level Up Moves:
 -------------------
 574 - Gothita
 -------------------
-Abilities: Frisk / Competitive / Shadow Tag ⟶ Frisk / Competitive / Gothic Style***
+Abilities: Frisk / Competitive / Shadow Tag
 Base Stats: 45/30/50/55/65/45 (290)
 Held Item: Persim Berry (50%)
-Type: Psychic
+Type: Psychic ⟶ Psychic / Dark
 
 New Moves:
 - None
@@ -19080,15 +19080,16 @@ New Moves:
 Level Up Moves:
 01 - Pound
 01 - Confusion
-03 - Play Nice
-06 - Tickle
-09 - Double Slap
-12 - Psybeam
-15 - Charm
-18 - Embargo
+01 - Play Nice
+03 - Tickle
+06 - Double Slap
+09 - Feint Attack
+12 - Embargo
+15 - Psybeam
+18 - Charm
 21 - Hypnosis
 25 - Psyshock
-29 - Feint Attack
+29 - Foul Play
 33 - Fake Tears
 37 - Psychic
 42 - Flatter
@@ -19099,10 +19100,10 @@ Level Up Moves:
 -------------------
 575 - Gothorita
 -------------------
-Abilities: Frisk / Competitive / Shadow Tag ⟶ Frisk / Competitive / Gothic Style***
+Abilities: Frisk / Competitive / Shadow Tag
 Base Stats: 60/45/70/75/85/55 (390)
 Held Item: Persim Berry (50%)
-Type: Psychic
+Type: Psychic ⟶ Psychic / Dark
 
 New Moves:
 - None
@@ -19110,15 +19111,16 @@ New Moves:
 Level Up Moves:
 01 - Pound
 01 - Confusion
-03 - Play Nice
-06 - Tickle
-09 - Double Slap
-12 - Psybeam
-15 - Charm
-18 - Embargo
+01 - Play Nice
+03 - Tickle
+06 - Double Slap
+09 - Feint Attack
+12 - Embargo
+15 - Psybeam
+18 - Charm
 21 - Hypnosis
 25 - Psyshock
-29 - Feint Attack
+29 - Foul Play
 33 - Fake Tears
 37 - Psychic
 42 - Flatter
@@ -19129,10 +19131,10 @@ Level Up Moves:
 -------------------
 576 - Gothitelle
 -------------------
-Abilities: Frisk / Competitive / Shadow Tag ⟶ Frisk / Competitive / Gothic Style***
+Abilities: Frisk / Competitive / Shadow Tag
 Base Stats: 70/55/95/95/110/65 (490)
 Held Item: Persim Berry (50%)
-Type: Psychic
+Type: Psychic ⟶ Psychic / Dark
 
 New Moves:
 - None
@@ -19140,20 +19142,23 @@ New Moves:
 Level Up Moves:
 01 - Miracle Eye
 01 - Mirror Coat
+01 - Trick Room
 01 - Fake Out
 01 - Pound
 01 - Confusion
-03 - Play Nice
-06 - Tickle
-09 - Double Slap
-12 - Psybeam
-15 - Charm
-18 - Embargo
+01 - Play Nice
+03 - Tickle
+06 - Double Slap
+09 - Feint Attack
+12 - Embargo
+15 - Psybeam
+18 - Charm
 21 - Hypnosis
 25 - Psyshock
-29 - Feint Attack
+29 - Foul Play
 33 - Fake Tears
 37 - Psychic
+38 - Dark Pulse
 42 - Flatter
 48 - Psych Up
 54 - Heal Block
@@ -19171,6 +19176,7 @@ New Moves:
 - None
 
 Level Up Moves:
+01 - Astonish
 01 - Confusion
 01 - Protect
 03 - Psywave
@@ -19202,6 +19208,7 @@ New Moves:
 - None
 
 Level Up Moves:
+01 - Astonish
 01 - Confusion
 01 - Protect
 03 - Psywave
@@ -19235,6 +19242,8 @@ New Moves:
 Level Up Moves:
 01 - Dizzy Punch
 01 - Acid Armor
+01 - Trick Room
+01 - Astonish
 01 - Confusion
 01 - Protect
 03 - Psywave

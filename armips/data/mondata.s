@@ -15752,10 +15752,14 @@ mondata SPECIES_CINCCINO, "Cinccino"
     mondexweight SPECIES_CINCCINO, "16.5 lbs."
 
 
-// ABILITY: Gothic Style (HA, New)
+// TYPES: Psychic >> Psychic/Dark
 mondata SPECIES_GOTHITA, "Gothita"
     basestats 45, 30, 50, 45, 55, 65
-    types TYPE_PSYCHIC, TYPE_PSYCHIC
+    .if TYPE_CHANGES_IMPLEMENTED
+        types TYPE_PSYCHIC, TYPE_DARK
+    .else
+        types TYPE_PSYCHIC, TYPE_PSYCHIC
+    .endif
     catchrate 200
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 0, 1
@@ -15775,10 +15779,14 @@ mondata SPECIES_GOTHITA, "Gothita"
     mondexweight SPECIES_GOTHITA, "12.8 lbs."
 
 
-// ABILITY: Gothic Style (HA, New)
+// TYPES: Psychic >> Psychic/Dark
 mondata SPECIES_GOTHORITA, "Gothorita"
     basestats 60, 45, 70, 55, 75, 85
-    types TYPE_PSYCHIC, TYPE_PSYCHIC
+    .if TYPE_CHANGES_IMPLEMENTED
+        types TYPE_PSYCHIC, TYPE_DARK
+    .else
+        types TYPE_PSYCHIC, TYPE_PSYCHIC
+    .endif
     catchrate 100
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 0, 2
@@ -15798,10 +15806,14 @@ mondata SPECIES_GOTHORITA, "Gothorita"
     mondexweight SPECIES_GOTHORITA, "39.7 lbs."
 
 
-// ABILITY: Gothic Style (HA, New)
+// TYPES: Psychic >> Psychic/Dark
 mondata SPECIES_GOTHITELLE, "Gothitelle"
     basestats 70, 55, 95, 65, 95, 110
-    types TYPE_PSYCHIC, TYPE_PSYCHIC
+    .if TYPE_CHANGES_IMPLEMENTED
+        types TYPE_PSYCHIC, TYPE_DARK
+    .else
+        types TYPE_PSYCHIC, TYPE_PSYCHIC
+    .endif
     catchrate 50
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 0, 3

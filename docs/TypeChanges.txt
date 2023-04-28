@@ -47,7 +47,7 @@ Justification: Copied from Mega Charizard X. It also looks draconic, and Fire/Dr
 Type: Fire ⟶ Fire / Fairy
 Justification: Copied from its Alola form. Also draws inspiration from the stories of it being able to inflict curses. (You admittedly could argue Ghost would be a better fit for that part!)
 
-054/055 - Psyduck & Golduck
+054/055 - Psyduck/Golduck
 -------------------
 Type: Water ⟶ Water / Psychic
 Justification: Psyduck and Golduck are often mentioned and shown to have psychic powers; this just leans into that.
@@ -77,7 +77,7 @@ Justification: Mostly came out of wanting to give the Johto starters secondary t
 Type: Water ⟶ Water / Dark
 Justification: Mostly came out of wanting to give the Johto starters secondary types, but also draws from its aggressive, savage and intimidating nature as mentioned in the Pokédex. It also ties in well to its biting focused movepool.
 
-163/164 - Hoothoot & Noctowl
+163/164 - Hoothoot/Noctowl
 -------------------
 Type: Normal / Flying ⟶ Psychic / Flying
 Justification: Mostly pulled from it having a large amount of Psychic-type moves, as well as being particularly known for its common use of Hypnosis. Also helps to break the monotony of Normal/Flying regional birds in the early generations. It's now a more defensive counterpart to Xatu's offensive stat spread. 
@@ -87,7 +87,7 @@ Justification: Mostly pulled from it having a large amount of Psychic-type moves
 Type: Electric ⟶ Electric / Dragon
 Justification: Copied from Mega Ampharos. The regular Ampharos also has some references for being Dragon-type; its Mega entries talk about it having "long-sleeping dragon's blood" (which I guess isn't sleeping anymore?) and its Japanese name including the word for dragon within it.
 
-200/429 - Misdreavus & Mismagius
+200/429 - Misdreavus/Mismagius
 -------------------
 Type: Ghost ⟶ Ghost / Fairy
 Justification: Pulled from Misdreavus's design having some origins in folklore (such as the banshee), as well as Mismagius having a witch aesthetic which is closely related to Fairy-type being seen as magical (e.g. Mystical Fire). On top of this, it now also pulls from Misdreavus's paradox form - Flutter Mane - which also sports a Ghost/Fairy typing.
@@ -127,7 +127,7 @@ Justification: Draws from its use of aromas and association with lights (albeit 
 Type: Ground ⟶ Bug / Ground
 Justification: Its design is based on an insect (an antlion), and it's also one of the very few non Bug-type Pokémon to be part of the Bug egg group so it's considered to be close already. Also ties into the type change of its evolutions.
 
-329/330 - Vibrava & Flygon 
+329/330 - Vibrava/Flygon 
 -------------------
 Type: Ground / Dragon ⟶ Bug / Dragon
 Justification: Their designs are based on an insect (an antlion). With the antlion specifically, the Ground typing makes just as much sense, but changing to a Bug-type gives Vibrava and Flygon a key separation from the Gible line (and providing the generally weak Bug-type with another strong Pokémon to boot). The reasons that apply to Trapinch also apply here, and their movepool also includes quite a few Bug moves (including Bug Buzz which very few non Bug-types learn).
@@ -181,3 +181,28 @@ Justification: Pulls from its habit of close quarters combat, punching habits (s
 -------------------
 Type: Psychic ⟶ Psychic / Fairy
 Justification: All three members of the Lake Trio share names with and appear to be based off of creatures from fantasy, which makes the Fairy typing a decent fit.
+
+497 - Serperior
+-------------------
+Type: Grass ⟶ Grass / Dragon
+Justification: Given as a result of Serperior's regal and serpentine appearance (e.g. Dragonair), with a lot of snakes also at least being tangentially related to dragons (such as Arbok and Seviper being in the Dragon egg group). Serperior also learns a fairly large quantity of Dragon-type moves. It also just makes Serperior a lot more interesting to use and pairs extremely well with its Contrary ability due to the Draco Meteor access (if not too much!). 
+
+502/503 - Dewott/Samurott
+-------------------
+Type: Water ⟶ Water / Fighting
+Justification: This one is given due to the samurai aesthetic and Samurott's sword usage, which has been shown by moves like Sacred Sword to align with the Fighting-type. This change starts from Dewott mostly just because of how it looks!
+
+531 - Audino
+-------------------
+Type: Normal ⟶ Normal / Fairy
+Justification: Copied from Mega Audino, in addition to its regular appearance also fitting the pink blob that a lot of Fairy-types have (Wigglytuff, Clefable...).
+
+563 - Cofagrigus
+-------------------
+Type: Ghost ⟶ Ghost/Steel
+Justification: Added because of its body being quite literally a big chunk of gold. You could argue that Ghost/Rock would be more appropriate on that basis, but Ghost/Steel makes for a much stronger typing overall whereas Ghost/Rock is arguably worse than being pure Ghost. It also gets Cofagrigus bring something unique to the table as the Honedge line don't exist in this game. Now that Dark and Ghost still hit it super effectively, it's not quite as overpowered as the Blaze Black days!
+
+574/575/576 - Gothita/Gothorita/Gothitelle
+-------------------
+Type: Psychic ⟶ Psychic / Dark
+Justification: Added because of goth style being associated with dark colours and gloomy attire. Your mileage may vary on how appropriate this is, particularly since the line is inspired by the Japanese version of the style rather than the western and there's no "evil" lore about the line (except maybe some of Gothorita's entries), but it does let Gothitelle bring something unique to the table as Malamar and Hoopa aren't present. It's also one of those changes that seem to get brought up a lot!

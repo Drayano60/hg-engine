@@ -11,7 +11,7 @@ For official abilities, the following are included and used in the game:
 * All abilities from Gen 3 - Gen 4.
 * Almost all abilities from Gen 5, excluding Victory Star, Turboblaze and Teravolt.
 * The following abilities from Gen 6: Aerilate, Bulletproof, Competitive, Fur Coat, Gale Wings, Gooey, Mega Launcher, Pixilate, Protean, Refrigerate, Strong Jaw, Tough Claws.
-* The following abilities from Gen 7: Berserk, Dazzling, Fluffy, Galvanize, Merciless, Slush Rush, Tangling Hair, Triage.
+* The following abilities from Gen 7: Berserk, Dazzling, Fluffy, Galvanize, Merciless, Queenly Majesty, Slush Rush, Tangling Hair, Triage.
 * The following abilities from Gen 8: Cotton Down, Transistor.
 * The following abilities from Gen 9: Armor Tail, Sharpness, Supreme Overlord.
 
@@ -275,12 +275,6 @@ Poison Sweat
 Users: Umbreon.
 Effect: If an opponent attacks the Pokémon with Poison Sweat with a contact move, they have a 30% chance of becoming poisoned.
 Notes: A simple Poison Point clone to fit with Umbreon's Pokédex entries that mention it secreting poisonous sweat.
-
-Royal Order
--------------------
-Users: Vespiquen.
-Effect: The Pokémon takes 50% reduced damage while at full HP.
-Notes: A Multiscale clone for Vespiquen. The idea is that it could command its Combee followers to get in the way of an attack and reduce the power.
 
 Sunny Mood
 -------------------

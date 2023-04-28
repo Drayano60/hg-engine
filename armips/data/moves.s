@@ -7923,7 +7923,7 @@ movedata MOVE_SHELL_SMASH, "Shell Smash"
     terminatedata
     movedescription MOVE_SHELL_SMASH, "User’s shell breaks,\nlowering its Defense\nand Sp. Def but its\nAttack, Sp. Atk, and\nSpeed sharply raise."
 
-movedata MOVE_HEX, "Hex "
+movedata MOVE_HEX, "Hex"
     battleeffect 287
     pss SPLIT_SPECIAL
     basepower 65

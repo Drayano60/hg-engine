@@ -6857,7 +6857,7 @@ mondata SPECIES_SILCOON, "Silcoon"
 
 
 // STATS: 70 >> 80 Atk | 65 >> 85 Spd | 395 >> 425 BST
-// ABILITY: Rivalry (2), Hustle (HA)
+// ABILITY: Rivalry (2), Berserk (HA)
 mondata SPECIES_BEAUTIFLY, "Beautifly"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 60, 80, 50, 85, 100, 50

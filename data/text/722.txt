@@ -200,3 +200,4 @@ Gives +1 priority to\nFlying-type moves.
 Contact has a 30% chance\nto poison the attacker.
 Powers up Dark-type\nmoves by 50%.
 Sun is harsh for 3 turns.\nDoubles Speed in sunshine.
+Boosts Sp. Atk when a hit\nmakes its HP half or less.

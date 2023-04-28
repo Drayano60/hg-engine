@@ -9656,7 +9656,7 @@ Level Up Moves:
 -------------------
 267 - Beautifly
 -------------------
-Abilities: Swarm / Swarm / Rivalry ⟶ Swarm / Rivalry / Hustle**
+Abilities: Swarm / Swarm / Rivalry ⟶ Swarm / Rivalry / Berserk**
 Base Stats: 60/70/50/100/50/65 (395) ⟶ 60/80*/50/100/50/85* (425)
 Held Item: Shed Shell (5%)
 Type: Bug / Flying

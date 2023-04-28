@@ -404,6 +404,7 @@ BOOL btl_scr_cmd_24_jumptocurmoveeffectscript(void *bw, struct BattleStruct *sp)
             case MOVE_EFFECT_LOWER_SP_DEF_HIT:
             case MOVE_EFFECT_BURN_HIT:
             case MOVE_EFFECT_FLINCH_BURN_HIT:
+            case MOVE_EFFECT_FLINCH_BURN_HIT_2:
             case MOVE_EFFECT_RAISE_SPEED_HIT:
             case MOVE_EFFECT_POISON_HIT:
             case MOVE_EFFECT_FREEZE_HIT:
@@ -423,6 +424,7 @@ BOOL btl_scr_cmd_24_jumptocurmoveeffectscript(void *bw, struct BattleStruct *sp)
             case MOVE_EFFECT_FLINCH_MINIMIZE_DOUBLE_HIT:
             case MOVE_EFFECT_RANDOM_PRIMARY_STATUS_HIT:
             case MOVE_EFFECT_STONE_AXE:
+            case MOVE_EFFECT_SPIKES_ON_HIT: // for needle arm, based on ceaseless edge
                 effect = MOVE_EFFECT_HIT;
                 sp->battlemon[sp->attack_client].sheer_force_flag = 1;
                 break;

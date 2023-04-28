@@ -11,13 +11,16 @@ For official abilities, the following are included and used in the game:
 * All abilities from Gen 3 - Gen 4.
 * Almost all abilities from Gen 5, excluding Victory Star, Turboblaze and Teravolt.
 * The following abilities from Gen 6: Aerilate, Bulletproof, Competitive, Fur Coat, Gale Wings, Gooey, Mega Launcher, Pixilate, Protean, Refrigerate, Strong Jaw, Tough Claws.
-* The following abilities from Gen 7: Dazzling, Fluffy, Galvanize, Merciless, Slush Rush, Tangling Hair, Triage.
+* The following abilities from Gen 7: Berserk, Dazzling, Fluffy, Galvanize, Merciless, Slush Rush, Tangling Hair, Triage.
 * The following abilities from Gen 8: Transistor.
 * The following abilities from Gen 9: Armor Tail, Sharpness, Supreme Overlord.
 
 -------------------
 Inaccurate Abilities
 -------------------
+- Berserk:
+This works slightly differently when it comes to multi-hit moves; Berserk activates immediately after whichever individual hit drops the Pokémon's HP below half, instead of after the multi-hit move has concluded. Otherwise, it works the same as in modern generations.
+
 - Gale Wings:
 This intentionally does not have the maximum HP requirement from Gen 7+, so Flying-type moves used by a Pokémon with this ability will always have +1 priority.
 

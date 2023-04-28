@@ -137,8 +137,7 @@
 #define SUB_SEQ_HANDLE_DAZZLING (350)
 #define SUB_SEQ_HANDLE_SUNNY_MOOD (352)
 #define SUB_SEQ_HANDLE_COTTON_DOWN (353)
-
-
+#define SUB_SEQ_HANDLE_QUEENLY_MAJESTY (354)
 
 
 // additional effect constants

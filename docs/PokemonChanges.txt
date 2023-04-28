@@ -14739,7 +14739,7 @@ Level Up Moves:
 -------------------
 416 - Vespiquen
 -------------------
-Abilities: Pressure / Pressure / Unnerve ⟶ Pressure / Swarm** / Royal Order***
+Abilities: Pressure / Pressure / Unnerve ⟶ Queenly Majesty** / Swarm** / Intimidate**
 Base Stats: 70/80/102/80/102/40 (474) ⟶ 80*/90*/102/90*/102/30* (494)
 Held Item: Poison Barb (5%)
 Type: Bug / Flying

@@ -177,6 +177,7 @@ Blocks priority moves used\nagainst it or its ally.
 Halves damage on contact.\nDoubles Fire damage taken.
 Normal-type moves become\nElectric and do 20% more.
 Attacks on poisoned foes\nbecome critical hits.
+Blocks priority moves used\nagainst it or its ally.
 Doubles the Pokémon’s\nSpeed stat in a hailstorm.
 Contact with it lowers the\nattacker’s Speed stat.
 Gives +3 priority to the\nPokémon’s healing moves.
@@ -196,7 +197,6 @@ The Pokémon’s fur stops\nit taking recoil damage.
 Boosts Sp. Atk if a foe is\nKOed with a Fire move.
 Contact is guaranteed to\nburn the attacker.
 Contact has a 30% chance\nto poison the attacker.
-Reduces damage by 50%\nwhen HP is full.
 Sun is harsh for 3 turns.\nDoubles Speed in sunshine.
 Odd steps foul a foe’s aim,\nreducing accuracy by 10%.
 Contact has a 30% chance\nof badly poisoning the foe.

@@ -177,6 +177,7 @@ Dazzling
 Fluffy
 Galvanize
 Merciless
+Q. Majesty
 Slush Rush
 Tangling Hair
 Triage
@@ -196,7 +197,6 @@ Fur Cushion
 Heat Up
 Infernal Body
 Poison Sweat
-Royal Order
 Sunny Mood
 Totter Steps
 Toxic Scales

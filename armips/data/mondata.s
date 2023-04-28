@@ -10841,7 +10841,7 @@ mondata SPECIES_COMBEE, "Combee"
 
 
 // STATS: 70 >> 80 HP | 80 >> 90 Atk | 80 >> 90 SpAtk | 40 >> 30 Speed | 474 >> 494 BST
-// ABILITY: Swarm (2), Royal Order (HA, New)
+// ABILITY: Queenly Majesty (1), Swarm (2), Intimidate (HA)
 mondata SPECIES_VESPIQUEN, "Vespiquen"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 80, 90, 102, 30, 90, 102
@@ -10859,7 +10859,7 @@ mondata SPECIES_VESPIQUEN, "Vespiquen"
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_BUG, EGG_GROUP_BUG
     .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_PRESSURE, ABILITY_SWARM
+        abilities ABILITY_QUEENLY_MAJESTY, ABILITY_SWARM
     .else
         abilities ABILITY_PRESSURE, ABILITY_NONE
     .endif

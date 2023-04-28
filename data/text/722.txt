@@ -110,7 +110,7 @@ Determines the foe’s\nmost powerful move.
 When attacking, ignores\nthe foe’s stat changes. 
 Doubles the power of “not\nvery effective” moves.
 Lowers damage from super\neffective attacks by 25%.
-Halves Attack and Speed\nstats for 5 turns.
+Halves Attack and Speed\nstats for 3 turns.
 Ignores Ghost immunities.\nUnaffected by Intimidate.
 Draws in all Water-type\nmoves to up Sp. Attack.
 Recovers 6.25% of its max\nHP each turn in hail.

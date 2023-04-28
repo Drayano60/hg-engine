@@ -423,7 +423,7 @@ u8 CalcSpeed(void *bw, struct BattleStruct *sp, int client1, int client2, int fl
     }
 
     if ((ability1 == ABILITY_SLOW_START)
-     && ((sp->total_turn - sp->battlemon[client1].moveeffect.slow_start_count) < 5))
+     && ((sp->total_turn - sp->battlemon[client1].moveeffect.slow_start_count) < 3))
     {
         speed1 /= 2;
     }
@@ -506,7 +506,7 @@ u8 CalcSpeed(void *bw, struct BattleStruct *sp, int client1, int client2, int fl
     }
 
     if ((ability2 == ABILITY_SLOW_START)
-     && ((sp->total_turn - sp->battlemon[client2].moveeffect.slow_start_count) < 5))
+     && ((sp->total_turn - sp->battlemon[client2].moveeffect.slow_start_count) < 3))
     {
         speed2 /= 2;
     }

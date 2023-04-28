@@ -1110,9 +1110,9 @@ The foe’s {STRVAR_1 1, 1, 0}’s\n{STRVAR_1 5, 0, 0} made it shudder!
 {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nalerted it to {STRVAR_1 6, 2, 0}!
 The wild {STRVAR_1 1, 0, 0}’s Forewarn\nalerted it to {STRVAR_1 6, 2, 0}!
 The foe’s {STRVAR_1 1, 0, 0}’s Forewarn\nalerted it to {STRVAR_1 6, 2, 0}!
-{STRVAR_1 1, 0, 0} can’t get it\ngoing because of its {STRVAR_1 5, 1, 0}!
-The wild {STRVAR_1 1, 0, 0} can’t get it\ngoing because of its {STRVAR_1 5, 1, 0}!
-The foe’s {STRVAR_1 1, 0, 0} can’t get it\ngoing because of its {STRVAR_1 5, 1, 0}!
+{STRVAR_1 1, 0, 0} can’t get it going\nbecause of its {STRVAR_1 5, 1, 0}!
+The wild {STRVAR_1 1, 0, 0} can’t get it going\nbecause of its {STRVAR_1 5, 1, 0}!
+The foe’s {STRVAR_1 1, 0, 0} can’t get it going\nbecause of its {STRVAR_1 5, 1, 0}!
 {STRVAR_1 1, 0, 0} finally got\nits act together!
 The wild {STRVAR_1 1, 0, 0} finally got\nits act together!
 The foe’s {STRVAR_1 1, 0, 0} finally got\nits act together!

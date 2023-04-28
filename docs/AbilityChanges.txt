@@ -345,6 +345,10 @@ Rivalry
 Boosts the strength of the Pokémon's moves against a target of the same gender by 10%.
 (The negative effect against opposite gender targets no longer applies.)
 
+Slow Start
+-------------------
+Slow Start now lasts for 3 turns (instead of 5 turns).
+
 Magma Armor
 -------------------
 Halves the power of Water or Ice-type moves used against this Pokémon.

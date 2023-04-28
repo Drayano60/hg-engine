@@ -299,7 +299,7 @@ Notes: A play on "sun"flower and Sunflora's cheery look, this ability is a sligh
 Totter Steps
 -------------------
 Users: Spinda.
-Effect: All moves used against this Pokémon have 80% of their original accuracy.
+Effect: All moves used against this Pokémon have 90% of their original accuracy.
 Notes: Leans into Spinda's Pokédex entries about its unusual movements often letting it dodge attacks. This could admittedly be an irritating ability, but hopefully the fact Spinda is quite weak will make up for it.
 
 Toxic Scales

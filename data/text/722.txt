@@ -180,7 +180,7 @@ Attacks on poisoned foes\nbecome critical hits.
 Doubles the Pokémon’s\nSpeed stat in a hailstorm.
 Contact with it lowers the\nattacker’s Speed stat.
 Gives +3 priority to the\nPokémon’s healing moves.
-Cotton Down
+Lowers the Speed of every\nother Pokémon when hit.
 Powers up Electric-type\nmoves by 50%.
 Blocks priority moves used\nagainst it or its ally.
 Powers up slicing moves\nby 33%.

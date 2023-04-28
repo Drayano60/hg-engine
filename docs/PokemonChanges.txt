@@ -7034,7 +7034,7 @@ Level Up Moves:
 -------------------
 187 - Hoppip
 -------------------
-Abilities: Chlorophyll / Leaf Guard / Infiltrator ⟶ Chlorophyll / Leaf Guard / Aerilate**
+Abilities: Chlorophyll / Leaf Guard / Infiltrator ⟶ Chlorophyll / Cotton Down** / Aerilate**
 Base Stats: 35/35/40/35/55/50 (250) ⟶ 35/40*/40/40*/65*/60* (280)
 Held Item: None
 Type: Grass / Flying
@@ -7074,7 +7074,7 @@ Level Up Moves:
 -------------------
 188 - Skiploom
 -------------------
-Abilities: Chlorophyll / Leaf Guard / Infiltrator ⟶ Chlorophyll / Leaf Guard / Aerilate**
+Abilities: Chlorophyll / Leaf Guard / Infiltrator ⟶ Chlorophyll / Cotton Down** / Aerilate**
 Base Stats: 55/45/50/45/65/80 (340) ⟶ 55/55*/50/55*/75*/90* (380)
 Held Item: None
 Type: Grass / Flying
@@ -7114,7 +7114,7 @@ Level Up Moves:
 -------------------
 189 - Jumpluff
 -------------------
-Abilities: Chlorophyll / Leaf Guard / Infiltrator ⟶ Chlorophyll / Leaf Guard / Aerilate**
+Abilities: Chlorophyll / Leaf Guard / Infiltrator ⟶ Chlorophyll / Cotton Down** / Aerilate**
 Base Stats: 75/55/70/55/95/110 (460) ⟶ 75/70*/70/70*/95/110 (490)
 Held Item: None
 Type: Grass / Flying

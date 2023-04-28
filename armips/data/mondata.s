@@ -2487,13 +2487,9 @@ mondata SPECIES_ONIX, "Onix"
     mondexweight SPECIES_ONIX, "463.0 lbs."
 
 
-// STATS: 43 >> 48 SpAtk | 42 >> 37 Speed
+// ABILITY: Inner Focus (2), Bad Dreams (HA)
 mondata SPECIES_DROWZEE, "Drowzee"
-    .if STAT_CHANGES_IMPLEMENTED
-        basestats 60, 48, 45, 37, 48, 90
-    .else
-        basestats 60, 48, 45, 42, 43, 90
-    .endif
+    basestats 60, 48, 45, 42, 43, 90
     types TYPE_PSYCHIC, TYPE_PSYCHIC
     catchrate 190
     baseexp 0 // defined in baseexp.s
@@ -2504,7 +2500,11 @@ mondata SPECIES_DROWZEE, "Drowzee"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_HUMAN_LIKE, EGG_GROUP_HUMAN_LIKE
-    abilities ABILITY_INSOMNIA, ABILITY_FOREWARN
+    .if ABILITY_CHANGES_IMPLEMENTED
+        abilities ABILITY_INSOMNIA, ABILITY_INNER_FOCUS
+    .else
+        abilities ABILITY_INSOMNIA, ABILITY_FOREWARN
+    .endif
     runchance 25
     colorflip BODY_COLOR_YELLOW, 0
     tmdata SPECIES_DROWZEE_TM_DATA_0, SPECIES_DROWZEE_TM_DATA_1, SPECIES_DROWZEE_TM_DATA_2, SPECIES_DROWZEE_TM_DATA_3
@@ -2514,7 +2514,7 @@ mondata SPECIES_DROWZEE, "Drowzee"
     mondexweight SPECIES_DROWZEE, "71.4 lbs."
 
 
-// ABILITY: Bad Dreams (HA)
+// ABILITY: Inner Focus (2), Bad Dreams (HA)
 mondata SPECIES_HYPNO, "Hypno"
     basestats 85, 73, 70, 67, 73, 115
     types TYPE_PSYCHIC, TYPE_PSYCHIC
@@ -2527,7 +2527,11 @@ mondata SPECIES_HYPNO, "Hypno"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_HUMAN_LIKE, EGG_GROUP_HUMAN_LIKE
-    abilities ABILITY_INSOMNIA, ABILITY_FOREWARN
+    .if ABILITY_CHANGES_IMPLEMENTED
+        abilities ABILITY_INSOMNIA, ABILITY_INNER_FOCUS
+    .else
+        abilities ABILITY_INSOMNIA, ABILITY_FOREWARN
+    .endif
     runchance 25
     colorflip BODY_COLOR_YELLOW, 0
     tmdata SPECIES_HYPNO_TM_DATA_0, SPECIES_HYPNO_TM_DATA_1, SPECIES_HYPNO_TM_DATA_2, SPECIES_HYPNO_TM_DATA_3
@@ -3158,6 +3162,7 @@ mondata SPECIES_SCYTHER, "Scyther"
 
 
 // STATS: 115 SpAtk >> 125 SpAtk | 35 >> 45 Def | 455 >> 475 BST
+// ABILITY: Own Tempo (2)
 mondata SPECIES_JYNX, "Jynx"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 65, 50, 45, 95, 125, 95
@@ -3174,7 +3179,11 @@ mondata SPECIES_JYNX, "Jynx"
     basefriendship 70 // raised up again
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_HUMAN_LIKE, EGG_GROUP_HUMAN_LIKE
-    abilities ABILITY_OBLIVIOUS, ABILITY_FOREWARN
+    .if ABILITY_CHANGES_IMPLEMENTED
+        abilities ABILITY_OBLIVIOUS, ABILITY_OWN_TEMPO
+    .else
+        abilities ABILITY_OBLIVIOUS, ABILITY_FOREWARN
+    .endif
     runchance 25
     colorflip BODY_COLOR_RED, 0
     tmdata SPECIES_JYNX_TM_DATA_0, SPECIES_JYNX_TM_DATA_1, SPECIES_JYNX_TM_DATA_2, SPECIES_JYNX_TM_DATA_3
@@ -6109,6 +6118,7 @@ mondata SPECIES_HITMONTOP, "Hitmontop"
     mondexweight SPECIES_HITMONTOP, "105.8 lbs."
 
 
+// ABILITY: Own Tempo (2)
 mondata SPECIES_SMOOCHUM, "Smoochum"
     basestats 45, 30, 15, 65, 85, 65
     types TYPE_ICE, TYPE_PSYCHIC
@@ -6121,7 +6131,11 @@ mondata SPECIES_SMOOCHUM, "Smoochum"
     basefriendship 70 // raised up again
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
-    abilities ABILITY_OBLIVIOUS, ABILITY_FOREWARN
+    .if ABILITY_CHANGES_IMPLEMENTED
+        abilities ABILITY_OBLIVIOUS, ABILITY_OWN_TEMPO
+    .else
+        abilities ABILITY_OBLIVIOUS, ABILITY_FOREWARN
+    .endif
     runchance 25
     colorflip BODY_COLOR_PINK, 0
     tmdata SPECIES_SMOOCHUM_TM_DATA_0, SPECIES_SMOOCHUM_TM_DATA_1, SPECIES_SMOOCHUM_TM_DATA_2, SPECIES_SMOOCHUM_TM_DATA_3
@@ -14490,6 +14504,7 @@ mondata SPECIES_SIMIPOUR, "Simipour"
     mondexweight SPECIES_SIMIPOUR, "63.9 lbs."
 
 
+// ABILITY: Levitate (1, 2, HA)
 mondata SPECIES_MUNNA, "Munna"
     basestats 76, 25, 45, 24, 67, 55
     types TYPE_PSYCHIC, TYPE_PSYCHIC
@@ -14502,7 +14517,11 @@ mondata SPECIES_MUNNA, "Munna"
     basefriendship 70 // raised up again
     growthrate GROWTH_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_FOREWARN, ABILITY_SYNCHRONIZE
+    .if ABILITY_CHANGES_IMPLEMENTED
+        abilities ABILITY_LEVITATE, ABILITY_LEVITATE
+    .else
+        abilities ABILITY_FOREWARN, ABILITY_SYNCHRONIZE
+    .endif
     runchance 25
     colorflip BODY_COLOR_PINK, 0
     tmdata SPECIES_MUNNA_TM_DATA_0, SPECIES_MUNNA_TM_DATA_1, SPECIES_MUNNA_TM_DATA_2, SPECIES_MUNNA_TM_DATA_3
@@ -14512,6 +14531,7 @@ mondata SPECIES_MUNNA, "Munna"
     mondexweight SPECIES_MUNNA, "51.4 lbs."
 
 
+// ABILITY: Levitate (1, 2, HA)
 mondata SPECIES_MUSHARNA, "Musharna"
     basestats 116, 55, 85, 29, 107, 95
     types TYPE_PSYCHIC, TYPE_PSYCHIC
@@ -14524,7 +14544,11 @@ mondata SPECIES_MUSHARNA, "Musharna"
     basefriendship 70 // raised up again
     growthrate GROWTH_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_FOREWARN, ABILITY_SYNCHRONIZE
+    .if ABILITY_CHANGES_IMPLEMENTED
+        abilities ABILITY_LEVITATE, ABILITY_LEVITATE
+    .else
+        abilities ABILITY_FOREWARN, ABILITY_SYNCHRONIZE
+    .endif
     runchance 25
     colorflip BODY_COLOR_PINK, 0
     tmdata SPECIES_MUSHARNA_TM_DATA_0, SPECIES_MUSHARNA_TM_DATA_1, SPECIES_MUSHARNA_TM_DATA_2, SPECIES_MUSHARNA_TM_DATA_3

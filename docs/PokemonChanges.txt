@@ -3370,7 +3370,7 @@ Level Up Moves:
 -------------------
 096 - Drowzee
 -------------------
-Abilities: Insomnia / Forewarn / Inner Focus ⟶ Insomnia / Forewarn / Bad Dreams**
+Abilities: Insomnia / Forewarn / Inner Focus ⟶ Insomnia / Inner Focus / Bad Dreams**
 Base Stats: 60/48/45/43/90/42 (328)
 Held Item: None
 Type: Psychic
@@ -3404,7 +3404,7 @@ Level Up Moves:
 -------------------
 097 - Hypno
 -------------------
-Abilities: Insomnia / Forewarn / Inner Focus ⟶ Insomnia / Forewarn / Bad Dreams**
+Abilities: Insomnia / Forewarn / Inner Focus ⟶ Insomnia / Inner Focus / Bad Dreams**
 Base Stats: 85/73/70/73/115/67 (483)
 Held Item: None
 Type: Psychic
@@ -4589,7 +4589,7 @@ Level Up Moves:
 -------------------
 238 - Smoochum
 -------------------
-Abilities: Oblivious / Forewarn / Hydration
+Abilities: Oblivious / Forewarn / Hydration ⟶ Oblivious / Own Tempo** / Hydration
 Base Stats: 45/30/15/85/65/65 (305)
 Held Item: Aspear Berry (100%)
 Type: Ice / Psychic
@@ -4619,7 +4619,7 @@ Level Up Moves:
 -------------------
 124 - Jynx
 -------------------
-Abilities: Oblivious / Forewarn / Dry Skin
+Abilities: Oblivious / Forewarn / Dry Skin ⟶ Oblivious / Own Tempo** / Dry Skin
 Base Stats: 65/50/35/115/95/95 (455) ⟶ 65/50/45*/125*/95/95 (475)
 Held Item: Aspear Berry (100%)
 Type: Ice / Psychic
@@ -17317,7 +17317,7 @@ Level Up Moves:
 -------------------
 517 - Munna
 -------------------
-Abilities: Forewarn / Synchronize / Telepathy
+Abilities: Forewarn / Synchronize / Telepathy ⟶ Levitate** / Levitate** / Levitate**
 Base Stats: 76/25/45/67/55/24 (292)
 Held Item: None
 Type: Psychic
@@ -17345,7 +17345,7 @@ Level Up Moves:
 -------------------
 518 - Musharna
 -------------------
-Abilities: Forewarn / Synchronize / Telepathy
+Abilities: Forewarn / Synchronize / Telepathy ⟶ Levitate** / Levitate** / Levitate**
 Base Stats: 116/55/85/107/95/29 (487)
 Held Item: None
 Type: Psychic

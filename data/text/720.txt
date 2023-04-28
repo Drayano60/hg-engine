@@ -1,4 +1,4 @@
- -
+-
 Stench
 Drizzle
 Speed Boost
@@ -155,49 +155,49 @@ Magic Bounce
 Sap Sipper
 Prankster
 Sand Force
-Protean
-Fur Coat
-Bulletproof
-Competitive
-Strong Jaw
-Refrigerate
-M. Launcher
-Tough Claws
-Pixilate
-Gooey
-Aerilate
-Merciless
-Slush Rush
-Triage
-Galvanize
-Fluffy
-Tangling Hair
-Sharpness
-Fur Cushion
-Totter Steps
-Infernal Body
-Cacophony
-Heat Up
-Aura Master
-Cheerleader
-Deep Freeze
-Bombardier
-Wind Whipper
-Toxic Scales
-Huge Impact
-Royal Order
-Befuddle
 Defeatist
 Illusion
 Mummy
 Iron Barbs
 Zen Mode
-Transistor
-S. Overlord
-Armor Tail
-Dazzling
+Aerilate
+Bulletproof
+Competitive
+Fur Coat
 Gale Wings
-Poison Sweat
-Gothic Style
-Sunny Mood
+Gooey
+M. Launcher
+Pixilate
+Protean
+Refrigerate
+Strong Jaw
+Tough Claws
 Berserk
+Dazzling
+Fluffy
+Galvanize
+Merciless
+Slush Rush
+Tangling Hair
+Triage
+Cotton Down
+Transistor
+Armor Tail
+Sharpness
+Supreme Overlord
+-
+Aura Master
+Befuddle
+Bombardier
+Cacophony
+Cheerleader
+Deep Freeze
+Fur Cushion
+Heat Up
+Infernal Body
+Poison Sweat
+Royal Order
+Sunny Mood
+Totter Steps
+Toxic Scales
+Wind Whipper

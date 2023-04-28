@@ -1,4 +1,4 @@
- -
+-
 Has a 10% chance to make\nthe target flinch.
 The Pokémon makes it rain\nfor 5 turns upon entry.
 Its Speed stat is\ngradually boosted.
@@ -154,50 +154,50 @@ Dark, Ghost or Bug moves\nboost its Speed stat.
 Reflects status moves\ninstead of being hit.
 Grass moves do no damage\nand boost its Attack.
 Gives +1 priority to the\nPokémon’s status moves.
-Rock, Steel, Ground moves\nare 50% stronger in sand.
-Changes the Pokémon’s\ntype to its move’s type.
-Halves the damage from\nphysical moves.
-Gives full immunity to some\nball and bomb moves.
-Boosts its Sp. Atk sharply\nif its stats are lowered.
-Powers up biting moves\nby 33%.
-Normal-type moves become\nIce and do 20% more.
-Powers up aura and pulse\nmoves by 33%.
-Powers up moves that\nmake contact by 20%.
-Normal-type moves become\nFairy and do 20% more.
-Contact with it lowers the\nattacker’s Speed stat.
-Normal-type moves become\nFlying and do 20% more.
-Attacks on poisoned foes\nbecome critical hits.
-Doubles the Pokémon’s\nSpeed stat in a hailstorm.
-Gives +3 priority to the\nPokémon’s healing moves.
-Normal-type moves become\nElectric and do 20% more.
-Halves damage on contact.\nDoubles Fire damage taken.
-Contact with it lowers the\nattacker’s Speed stat.
-Powers up slicing moves\nby 33%.
-The Pokémon’s fur stops\nit taking recoil damage.
-Odd steps foul a foe’s aim,\nreducing accuracy by 10%.
-Contact is guaranteed to\nburn the attacker.
-Powers up sound-based\nmoves by 33%.
-Boosts Sp. Atk if a foe is\nKOed with a Fire move.
-Powers up aura and pulse\nmoves by 33%.
-Powers up moves used by\nallies by 15%.
-Ice-type moves lower the\nSp. Def of Steel-types.
-Powers up ball, bomb and\ncannon moves by 33%.
-Powers up wind-based\nmoves by 33%.
-Contact has a 30% chance\nof badly poisoning the foe.
-Damage based on weight\ndifference is maximized.
-Reduces damage by 50%\nwhen HP is full.
-Bug moves have a 30% rate\nto cause a status effect.
+Rock, Steel, Ground moves\nare 30% stronger in sand.
 When below 50% HP, Attack\nand Sp. Atk are halved.
 Comes out disguised as the\nPokémon in the last spot.
 Replaces an attacker’s\nability on contact.
 Contact damages the foe\nby 12.5% of their max HP.
 The Pokémon changes form\nwhen its HP is 50% or less.
-Powers up Electric-type\nmoves by 50%.
-Powers up moves by 10%\nfor each fainted ally.
-Blocks priority moves used\nagainst it or its ally.
-Blocks priority moves used\nagainst it or its ally.
+Normal-type moves become\nFlying and do 20% more.
+Gives full immunity to some\nball and bomb moves.
+Boosts its Sp. Atk sharply\nif its stats are lowered.
+Halves the damage from\nphysical moves.
 Gives +1 priority to\nFlying-type moves.
-Contact has a 30% chance\nto poison the attacker.
-Powers up Dark-type\nmoves by 50%.
-Sun is harsh for 3 turns.\nDoubles Speed in sunshine.
+Contact with it lowers the\nattacker’s Speed stat.
+Powers up aura and pulse\nmoves by 33%.
+Normal-type moves become\nFairy and do 20% more.
+Changes the Pokémon’s\ntype to its move’s type.
+Normal-type moves become\nIce and do 20% more.
+Powers up biting moves\nby 33%.
+Powers up moves that\nmake contact by 20%.
 Boosts Sp. Atk when a hit\nmakes its HP half or less.
+Blocks priority moves used\nagainst it or its ally.
+Halves damage on contact.\nDoubles Fire damage taken.
+Normal-type moves become\nElectric and do 20% more.
+Attacks on poisoned foes\nbecome critical hits.
+Doubles the Pokémon’s\nSpeed stat in a hailstorm.
+Contact with it lowers the\nattacker’s Speed stat.
+Gives +3 priority to the\nPokémon’s healing moves.
+Cotton Down
+Powers up Electric-type\nmoves by 50%.
+Blocks priority moves used\nagainst it or its ally.
+Powers up slicing moves\nby 33%.
+Powers up moves by 10%\nfor each fainted ally.
+-
+Powers up aura and pulse\nmoves by 33%.
+Bug moves have 30% chance\nto cause a status effect.
+Powers up ball, bomb and\ncannon moves by 33%.
+Powers up sound-based\nmoves by 33%.
+Powers up moves used by\nallies by 15%.
+Ice-type moves lower the\nSp. Def of Steel-types.
+The Pokémon’s fur stops\nit taking recoil damage.
+Boosts Sp. Atk if a foe is\nKOed with a Fire move.
+Contact is guaranteed to\nburn the attacker.
+Contact has a 30% chance\nto poison the attacker.
+Reduces damage by 50%\nwhen HP is full.
+Sun is harsh for 3 turns.\nDoubles Speed in sunshine.
+Odd steps foul a foe’s aim,\nreducing accuracy by 10%.
+Contact has a 30% chance\nof badly poisoning the foe.
+Powers up wind-based\nmoves by 33%.

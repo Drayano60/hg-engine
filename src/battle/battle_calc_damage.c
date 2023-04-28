@@ -901,12 +901,6 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
         movepower = movepower * 150 / 100;
     }
 
-    //handle new gothic style
-    if(GetBattlerAbility(sp, attacker) == ABILITY_GOTHIC_STYLE && (movetype == TYPE_DARK))
-    {
-        movepower = movepower * 150 / 100;
-    }
-
     // if dark aura is present but not aura break
     if ((movetype == TYPE_DARK) && (CheckSideAbility(bw, sp, CHECK_ALL_BATTLER_ALIVE, 0, ABILITY_DARK_AURA) != 0)
       && (CheckSideAbility(bw, sp, CHECK_ALL_BATTLER_ALIVE, 0, ABILITY_AURA_BREAK) == 0)) 

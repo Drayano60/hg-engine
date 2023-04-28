@@ -105,7 +105,7 @@ The Pokémon can’t use\nany held items.
 Moves used will ignore\nthe target’s Ability.
 Boosts the critical-hit\nratios of moves.
 If defeated by contact,\nfoe takes 25% HP damage.
-Senses the foe’s\ndangerous moves. 
+Sensing a dangerous move\nboosts evasion for 1 turn.
 Determines the foe’s\nmost powerful move.
 When attacking, ignores\nthe foe’s stat changes. 
 Doubles the power of “not\nvery effective” moves.

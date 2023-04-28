@@ -10732,6 +10732,7 @@ mondata SPECIES_BASTIODON, "Bastiodon"
     mondexweight SPECIES_BASTIODON, "329.6 lbs."
 
 
+// ABILITY: Run Away (2)
 mondata SPECIES_BURMY, "Burmy"
     basestats 40, 29, 45, 36, 29, 45
     types TYPE_BUG, TYPE_BUG
@@ -10744,7 +10745,11 @@ mondata SPECIES_BURMY, "Burmy"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_BUG, EGG_GROUP_BUG
-    abilities ABILITY_SHED_SKIN, ABILITY_NONE
+    .if ABILITY_CHANGES_IMPLEMENTED
+        abilities ABILITY_SHED_SKIN, ABILITY_RUN_AWAY
+    .else
+        abilities ABILITY_SHED_SKIN, ABILITY_NONE
+    .endif
     runchance 25
     colorflip BODY_COLOR_GREEN, 0
     tmdata SPECIES_BURMY_TM_DATA_0, SPECIES_BURMY_TM_DATA_1, SPECIES_BURMY_TM_DATA_2, SPECIES_BURMY_TM_DATA_3
@@ -10755,7 +10760,7 @@ mondata SPECIES_BURMY, "Burmy"
 
 
 // STATS: 60 >> 70 HP | 85 >> 95 Def | 79 >> 89 SpAtk | 424 >> 454 BST
-// ABILITY: Leaf Guard (1)
+// ABILITY: Leaf Guard (2)
 mondata SPECIES_WORMADAM, "Wormadam"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 70, 59, 95, 36, 89, 105
@@ -10773,7 +10778,7 @@ mondata SPECIES_WORMADAM, "Wormadam"
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_BUG, EGG_GROUP_BUG
     .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_LEAF_GUARD, ABILITY_NONE
+        abilities ABILITY_ANTICIPATION, ABILITY_LEAF_GUARD
     .else
         abilities ABILITY_ANTICIPATION, ABILITY_NONE
     .endif
@@ -10787,6 +10792,7 @@ mondata SPECIES_WORMADAM, "Wormadam"
 
 
 // STATS: 94 >> 99 Atk | 94 >> 99 SpAtk | 66 >> 86 Speed | 424 >> 454 BST
+// ABILITY: Shield Dust (2)
 mondata SPECIES_MOTHIM, "Mothim"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 70, 99, 50, 86, 99, 50
@@ -10803,7 +10809,11 @@ mondata SPECIES_MOTHIM, "Mothim"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_BUG, EGG_GROUP_BUG
-    abilities ABILITY_SWARM, ABILITY_NONE
+    .if ABILITY_CHANGES_IMPLEMENTED
+        abilities ABILITY_SWARM, ABILITY_SHIELD_DUST
+    .else
+        abilities ABILITY_SWARM, ABILITY_NONE
+    .endif
     runchance 25
     colorflip BODY_COLOR_YELLOW, 0
     tmdata SPECIES_MOTHIM_TM_DATA_0, SPECIES_MOTHIM_TM_DATA_1, SPECIES_MOTHIM_TM_DATA_2, SPECIES_MOTHIM_TM_DATA_3
@@ -12865,7 +12875,7 @@ mondata SPECIES_DEOXYS_SPEED, "-----"
 
 
 // STATS: 60 >> 70 HP | 79 >> 59 Atk | 59 >> 89 SpAtk | 85 >> 95 SpDef | 424 >> 454 BST
-// ABILITY: Sand Veil (1)
+// ABILITY: Sturdy (2)
 mondata SPECIES_WORMADAM_SANDY, "-----"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 70, 59, 105, 36, 89, 95
@@ -12883,7 +12893,7 @@ mondata SPECIES_WORMADAM_SANDY, "-----"
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_BUG, EGG_GROUP_BUG
     .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_SAND_VEIL, ABILITY_NONE
+        abilities ABILITY_ANTICIPATION, ABILITY_STURDY
     .else
         abilities ABILITY_ANTICIPATION, ABILITY_NONE
     .endif
@@ -12897,7 +12907,7 @@ mondata SPECIES_WORMADAM_SANDY, "-----"
 
 
 // STATS: 60 >> 70 HP | 69 >> 59 Atk | 95 >> 100 Def | 69 >> 89 SpAtk | 95 >> 100 SpDef | 424 >> 454 BST
-// ABILITY: Weak Armor (1)
+// ABILITY: Weak Armor (2)
 mondata SPECIES_WORMADAM_TRASHY, "-----"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 70, 59, 100, 36, 89, 100
@@ -12915,7 +12925,7 @@ mondata SPECIES_WORMADAM_TRASHY, "-----"
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_BUG, EGG_GROUP_BUG
     .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_WEAK_ARMOR, ABILITY_NONE
+        abilities ABILITY_ANTICIPATION, ABILITY_WEAK_ARMOR
     .else
         abilities ABILITY_ANTICIPATION, ABILITY_NONE
     .endif
@@ -16314,6 +16324,7 @@ mondata SPECIES_FERROSEED, "Ferroseed"
     mondexweight SPECIES_FERROSEED, "41.4 lbs."
 
 
+// ABILITY: None/Iron Barbs (HA)
 mondata SPECIES_FERROTHORN, "Ferrothorn"
     basestats 74, 94, 131, 20, 54, 116
     types TYPE_GRASS, TYPE_STEEL

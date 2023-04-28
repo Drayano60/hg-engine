@@ -139,6 +139,8 @@
 #define SUB_SEQ_HANDLE_COTTON_DOWN (353)
 #define SUB_SEQ_HANDLE_QUEENLY_MAJESTY (354)
 
+#define SUB_SEQ_HANDLE_POST_ANTICIPATION (355)
+
 
 // additional effect constants
 #define ADD_STATUS_NONE (0)

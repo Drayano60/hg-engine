@@ -14574,7 +14574,7 @@ Level Up Moves:
 -------------------
 412 - Burmy
 -------------------
-Abilities: Shed Skin / Shed Skin / Overcoat
+Abilities: Shed Skin / Shed Skin / Overcoat ⟶ Shed Skin / Run Away** / Overcoat
 Base Stats: 40/29/45/29/45/36 (224)
 Held Item: None
 Type: Bug
@@ -14592,7 +14592,7 @@ Level Up Moves:
 -------------------
 413.1 - Wormadam (Plant Cloak)
 -------------------
-Abilities: Anticipation / Anticipation / Overcoat ⟶ Leaf Guard** / Leaf Guard** / Overcoat
+Abilities: Anticipation / Anticipation / Overcoat ⟶ Anticipation / Leaf Guard** / Overcoat
 Base Stats: 60/59/85/79/105/36 (424) ⟶ 70*/59/95*/89*/105/36 (454)
 Held Item: Silver Powder (5%)
 Type: Bug / Grass
@@ -14624,7 +14624,7 @@ Level Up Moves:
 -------------------
 413.2 - Wormadam (Sandy Cloak)
 -------------------
-Abilities: Anticipation / Anticipation / Overcoat ⟶ Sand Veil** / Sand Veil** / Overcoat
+Abilities: Anticipation / Anticipation / Overcoat ⟶ Anticipation / Sturdy** / Overcoat
 Base Stats: 60/79/105/59/85/36 (424) ⟶ 70*/59*/105/89*/95*/36 (454)
 Held Item: Silver Powder (5%)
 Type: Bug / Ground
@@ -14654,12 +14654,12 @@ Level Up Moves:
 47 - Fissure
 50 - Quiver Dance
 
-* If stat changes are removed, Pidgey instead learns Rock Blast at Lv. 20 and Earthquake at Lv. 38.
+* If stat changes are removed, Wormadam instead learns Rock Blast at Lv. 20 and Earthquake at Lv. 38.
 
 -------------------
 413.3 - Wormadam (Trash Cloak)
 -------------------
-Abilities: Anticipation / Anticipation / Overcoat ⟶ Weak Armor** / Weak Armor** / Overcoat
+Abilities: Anticipation / Anticipation / Overcoat ⟶ Anticipation / Weak Armor** / Overcoat
 Base Stats: 60/69/95/69/95/36 (424) ⟶ 70*/59*/100*/89*/100*/36 (454)
 Held Item: Silver Powder (5%)
 Type: Bug / Steel
@@ -14691,7 +14691,7 @@ Level Up Moves:
 -------------------
 414 - Mothim
 -------------------
-Abilities: Swarm / Swarm / Tinted Lens
+Abilities: Swarm / Swarm / Tinted Lens ⟶ Swarm / Shield Dust** / Tinted Lens
 Base Stats: 70/94/50/94/50/66 (424) ⟶ 70/99*/50/99*/50/86* (454)
 Held Item: Silver Powder (5%)
 Type: Bug / Flying

@@ -1104,9 +1104,9 @@ The foe’s {STRVAR_1 1, 2, 0} was hurt by\n{STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 
 The wild {STRVAR_1 1, 2, 0} was hurt by the\nwild {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}!
 {STRVAR_1 1, 2, 0} was hurt by the foe’s\n{STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}!
 The foe’s {STRVAR_1 1, 2, 0} was hurt by\nthe foe’s {STRVAR_1 1, 0, 0}’s\f{STRVAR_1 5, 1, 0}!
-{STRVAR_1 1, 1, 0}’s {STRVAR_1 5, 0, 0} made\nit shudder!
-The wild {STRVAR_1 1, 1, 0}’s\n{STRVAR_1 5, 0, 0} made it shudder!
-The foe’s {STRVAR_1 1, 1, 0}’s\n{STRVAR_1 5, 0, 0} made it shudder!
+{STRVAR_1 1, 1, 0} began to shudder!\nIt’s anticipating a move!
+The wild {STRVAR_1 1, 1, 0} began to shudder!\nIt’s anticipating a move!
+The foe’s {STRVAR_1 1, 1, 0} began to shudder!\nIt’s anticipating a move!
 {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nalerted it to {STRVAR_1 6, 2, 0}!
 The wild {STRVAR_1 1, 0, 0}’s Forewarn\nalerted it to {STRVAR_1 6, 2, 0}!
 The foe’s {STRVAR_1 1, 0, 0}’s Forewarn\nalerted it to {STRVAR_1 6, 2, 0}!
@@ -1408,3 +1408,6 @@ The foe’s {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nbrightened up the day!\rT
 Queenly Majesty blocks {STRVAR_1 1, 0, 0}\nfrom using {STRVAR_1 6, 2, 0}!
 Queenly Majesty blocks the wild\n{STRVAR_1 1, 0, 0} from using {STRVAR_1 6, 2, 0}!
 Queenly Majesty blocks the foe’s\n{STRVAR_1 1, 0, 0} from using {STRVAR_1 6, 2, 0}!
+{STRVAR_1 1, 1, 0} stopped shuddering.
+The wild {STRVAR_1 1, 1, 0} stopped shuddering.
+The foe’s {STRVAR_1 1, 1, 0} stopped shuddering.

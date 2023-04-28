@@ -133,6 +133,7 @@ Some abilities are not updated at all and still work exactly as they do in Gen 4
 
 - Anticipation:
 The list of moves that can cause the shudder is still the same as in Gen 4. This means that Selfdestruct and Explosion can cause the shudder text, while Counter, Hidden Power, Metal Burst and Mirror Coat cannot.
+(Anticipation also has a modified effect and is listed in a different section.)
 
 - Arena Trap:
 This still causes Ghost-type Pokémon (who don't have Levitate) to be trapped.
@@ -316,6 +317,12 @@ Iron Fist, Mega Launcher, Reckless, Sharpness, Strong Jaw
 -------------------
 Boosts the strength of the Pokémon's moves that are of the relevant theme by 33%.
 (The abilities that were previously 50% are now available to a lot more Pokémon, hence the nerf!)
+
+Anticipation
+-------------------
+When the condition is fulfilled that makes the Pokémon shudder, the Pokémon's evasiveness now raises one stage.
+At the end of the following turn, the Pokémon's evasiveness then drops one stage. (i.e. Its evasion is raised for one turn).
+Both of these effects have been given new text to match.
 
 Big Pecks
 -------------------

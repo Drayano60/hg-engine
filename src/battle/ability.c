@@ -664,11 +664,16 @@ int SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
                 for (i = 0; i < client_set_max; i++)
                 {
                     client_no = sp->turn_order[i];
-                    if ((sp->battlemon[client_no].anticipation_flag == 0)
+                    if 
+                    (
+                        (sp->battlemon[client_no].anticipation_flag == 0)
+                        && (sp->battlemon[client_no].text_on_ability_entry_flag == 0)
                         && (sp->battlemon[client_no].hp)
-                        && (GetBattlerAbility(sp, client_no) == ABILITY_ANTICIPATION))
+                        && (GetBattlerAbility(sp, client_no) == ABILITY_ANTICIPATION)
+                    )
                     {
                         sp->battlemon[client_no].anticipation_flag = 1;
+
                         {
                             int num, pos;
                             u16 movenum;
@@ -703,6 +708,9 @@ int SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
                             }
                             if (ret == SWITCH_IN_CHECK_MOVE_SCRIPT)
                             {
+                                sp->battlemon[client_no].text_on_ability_entry_flag = 1;
+
+                                sp->state_client = client_no;
                                 sp->client_work = client_no;
                                 scriptnum = SUB_SEQ_HANDLE_ANTICIPATION;
                             }
@@ -1279,6 +1287,22 @@ u32 TurnEndAbilityCheck(void *bw, struct BattleStruct *sp, int client_no)
                 ret = TRUE;
             }
             break;
+        case ABILITY_ANTICIPATION:
+            if
+            (
+                (sp->battlemon[client_no].hp) &&
+                (sp->battlemon[client_no].anticipation_flag == 1) &&
+                (sp->battlemon[client_no].text_on_ability_entry_flag == 1)
+            )
+            {
+                sp->battlemon[client_no].anticipation_flag = 0;
+                
+                sp->state_client = client_no;
+                sp->client_work = client_no;
+                seq_no = SUB_SEQ_HANDLE_POST_ANTICIPATION;
+                ret = TRUE;
+            }
+            break;  
         case ABILITY_SHED_SKIN:
             if ((sp->battlemon[client_no].condition & STATUS_ANY_PERSISTENT)
                 && (sp->battlemon[client_no].hp)

@@ -10,9 +10,54 @@
 .create "build/move/move_anim/0_539", 0
 
 // Meteor Beam
-// Hyper Beam with Cosmic Power background
+// Solar Beam with Cosmic Power background + Hyper Beam with Cosmic Power background
 
 a010_539:
+    initspriteresource
+    loadspriteresource 0
+    loadspriteresource 1
+    loadspriteresource 2
+    loadspriteresource 3
+    loadspritemaybe 4, 0, 0, 0
+    loadspritemaybe 5, 0, 1, 1
+    loadspritemaybe 6, 0, 2, 2
+    loadspritemaybe 7, 0, 3, 3
+    callfunction 78, 1, 0, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
+    loadparticle 0, 107
+    waitstate
+    unloadspriteresource
+    resetsprite 0
+    resetsprite 1
+    resetsprite 2
+    resetsprite 3
+    checkturn _00C8, _0174
+    end
+_00C8:
+    cmd0C 4, 0
+    cmd0C 0, 0
+    cmd0C 1, 1
+    changebg 56, 0x20001
+    waitforchangebg
+
+    waitstate
+    addparticle 0, 19, 3
+    wait 10
+    playsepan 2113, -117
+    wait 20
+    callfunction 34, 6, 2, 0, 2, 13311, 10, 0, "NaN", "NaN", "NaN", "NaN"
+    waitparticle
+    unloadparticle 0
+    waitstate
+
+    cmd0C 4, 0
+    cmd0C 0, 0
+    cmd0C 1, 1
+    resetbg 56, 0x40001
+    waitforchangebg
+    
+    waitstate
+    end
+_0174:
     initspriteresource
     loadspriteresource 0
     loadspriteresource 1

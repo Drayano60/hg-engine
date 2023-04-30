@@ -1411,3 +1411,6 @@ Queenly Majesty blocks the foe’s\n{STRVAR_1 1, 0, 0} from using {STRVAR_1 6, 2
 {STRVAR_1 1, 1, 0} stopped shuddering.
 The wild {STRVAR_1 1, 1, 0} stopped shuddering.
 The foe’s {STRVAR_1 1, 1, 0} stopped shuddering.
+{STRVAR_1 1, 0, 0} is overflowing with\nspace power!
+The wild {STRVAR_1 1, 0, 0} is overflowing with\nspace power!
+The foe’s {STRVAR_1 1, 0, 0} is overflowing with\nspace power!

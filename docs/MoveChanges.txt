@@ -60,9 +60,9 @@ A Pokémon will now be fast asleep for 1-3 (down from 1-4) of its turns, and the
 -------------------
 Newly Added Moves
 -------------------
-Aurora Crystal contains 112 new moves in addition to the 467 in Heart Gold and Soul Silver normally. 107 of these are moves that were introduced in later generation games, and the remaining 5 are custom signature moves for a few Pokémon.
+Aurora Crystal contains 114 new moves in addition to the 467 in Heart Gold and Soul Silver normally. 109 of these are moves that were introduced in later generation games, and the remaining 5 are custom signature moves for a few Pokémon.
 
-Gen 5 Moves (44)
+Gen 5 Moves (45)
 -------------------
 Acid Spray
 Acrobatics
@@ -76,6 +76,7 @@ Dual Chop
 Echoed Voice
 Electroweb
 Fiery Dance
+Final Gambit
 Flame Charge
 Foul Play
 Frost Breath
@@ -170,13 +171,14 @@ Stone Axe
 Triple Axel
 Wave Crash
 
-Gen 9 Moves (11)
+Gen 9 Moves (12)
 -------------------
 Aqua Cutter
 Chilling Water
 Comeuppance
 Hyper Drill
 Ice Spinner
+Jet Punch
 Kowtow Cleave
 Pounce
 Rage Fist
@@ -264,11 +266,6 @@ Pokémon that are not Ice-types will still take 1/16 HP damage each turn.
 
 - Meditate:
 This now boosts both the user's Attack stat and accuracy by one stage each.
-
-- Meteor Beam:
-This is now a one-turn move.
-It has a chance (20%) to raise the user's Special Attack stat by one stage.
-(Previously, it had a charge turn that also boosted Special Attack).
 
 - Needle Arm:
 This now adds a layer of Spikes to the target's field if it hits.
@@ -900,9 +897,7 @@ Accuracy: 90% ⟶ 100%
 
 Meteor Beam
 -------------------
-Power: 120 ⟶ 110
-Accuracy: 90% ⟶ 80%
-Notes: These changes are due to Meteor Beam's new effect.
+Accuracy: 90% ⟶ 100%
 
 Skitter Smack
 -------------------

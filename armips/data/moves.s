@@ -8789,24 +8789,22 @@ movedata MOVE_SCALE_SHOT, "Scale Shot"
     terminatedata
     movedescription MOVE_SCALE_SHOT, "Shoots scales two to\nfive times in a row.\nThis move boosts the\nuser’s Speed but\nlowers its Defense."
 
-// EFFECT: Now a one-turn move with a 20% chance to increase Sp. Atk
-// POWER: 120 >> 110 - this is not optional
-// ACCURACY: 90 >> 80 - this is not optional
+// ACCURACY: 90 >> 100
 movedata MOVE_METEOR_BEAM, "Meteor Beam"
-    battleeffect 276 // NOTE: Opted for 20% SpAtk increase over the two-turn
+    battleeffect 317
     pss SPLIT_SPECIAL
-    basepower 110
+    basepower 120
     type TYPE_ROCK
-    accuracy 80
+    accuracy MOVE_CHANGES_IMPLEMENTED ? 100 : 90
     pp 10
-    effectchance 20
+    effectchance 100
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
     appeal 0x00
     contesttype 0
     terminatedata
-    movedescription MOVE_METEOR_BEAM, "The user gathers\nspace power and\nattacks the target.\nThis has a 20% chance\nto raise Sp. Atk."
+    movedescription MOVE_METEOR_BEAM, "The user gathers\nspace power on the\nfirst turn to raise\nits Sp. Atk, and then\nattacks on the next."
 
 // ACCURACY: 90 >> 100
 movedata MOVE_SKITTER_SMACK, "Skitter Smack"

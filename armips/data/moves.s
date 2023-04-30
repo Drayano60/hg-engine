@@ -8594,20 +8594,20 @@ movedata MOVE_LEAFAGE, "Leafage"
     movedescription MOVE_LEAFAGE, "The user attacks\nby pelting the foe\nwith leaves."
 
 movedata MOVE_POLLEN_PUFF, "Pollen Puff"
-    battleeffect 70 // NOTE: Lowers Speed in lieu of ally healing effect
+    battleeffect 318
     pss SPLIT_SPECIAL
     basepower 90
     type TYPE_BUG
     accuracy 100
     pp 15
-    effectchance 30
+    effectchance 0
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
     appeal 0x00
     contesttype 0
     terminatedata
-    movedescription MOVE_POLLEN_PUFF, "The user attacks the\nfoe with a pollen\npuff that explodes.\nThis has a 30% chance\nto lower Speed."
+    movedescription MOVE_POLLEN_PUFF, "The user attacks the\nfoe with a pollen puff\nthat explodes. When \ntargeting an ally, it\nheals the ally’s HP."
 
 movedata MOVE_LUNGE, "Lunge"
     battleeffect 68

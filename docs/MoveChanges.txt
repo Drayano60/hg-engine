@@ -271,10 +271,6 @@ This now boosts both the user's Attack stat and accuracy by one stage each.
 This now adds a layer of Spikes to the target's field if it hits.
 It no longer has a chance to poison.
 
-- Pollen Puff:
-This now has a chance (30%) to lower the target's Speed by 1 stage.
-It does not heal an ally's HP.
-
 - Power Gem:
 This now has a chance (10%) to lower the target's Special Defense by 1 stage.
 
@@ -453,6 +449,9 @@ This works almost entirely fine, but can still be used even under the effects of
 
 - Ice Spinner:
 This now has no additional effect, as terrains don't exist in this game.
+
+- Pollen Puff:
+This works almost entirely fine, but is not currently blocked by Heal Block (whether a Pokémon uses it on their ally or vice-versa).
 
 - Raging Bull:
 This is now always a Normal-type move. Paldean Tauros isn't in the game anyway though!

@@ -49,6 +49,8 @@ _0110:
     if IF_MASK, VAR_06, 0x800, _018C
     if IF_AND, VAR_10, 0x6, _018C
     if IF_NOTMASK, VAR_10, 0x2, _0160
+    if IF_EQUAL, VAR_CURRENT_MOVE, MOVE_POLLEN_PUFF, _PollenPuffMessage
+_return:
     /* It's super effective! */
     printmessage 0x30C, 0x0, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
     goto _0180
@@ -66,5 +68,9 @@ _SturdyMessage:
     waitmessage
     wait 0x1E
     goto _0110
+_PollenPuffMessage:
+    /* Pollen Puff shouldn't say super effective if it's being used on an ally */
+    checkonsameteam BATTLER_ATTACKER, BATTLER_DEFENDER, _018C
+    goto _return
 
 .close

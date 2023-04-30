@@ -176,6 +176,7 @@ u32 move_effect_to_subscripts[] =
     [162] = 344, // new toxic thread subscript
     [163] = 348, // new clear smog subscript
     [164] = 351, // new final gambit subscript
+    [165] = 356, // new pollen puff subscript
 };
 
 

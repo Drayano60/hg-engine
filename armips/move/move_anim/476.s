@@ -30,22 +30,25 @@ a010_476:
     resetsprite 1
     resetsprite 2
     resetsprite 3
+
+    callfunction 33, 5, 0, 1, 0, 12, 0, "NaN", "NaN", "NaN", "NaN", "NaN"
+
     playsepan 2041, -117
     addparticle 0, 1, 3
     addparticle 0, 0, 3
-    callfunction 52, 3, 16, 12, 258, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
+
+    callfunction 52, 3, 16, 8, 258, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
     waitstate
-    callfunction 52, 3, 16, -12, 258, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
+    callfunction 52, 3, 16, -16, 258, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
     waitstate
-    callfunction 52, 3, 16, -12, 258, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
+    callfunction 52, 3, 16, 8, 258, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
     waitstate
-    callfunction 52, 3, 16, 12, 258, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
-    waitstate
-    playsepan 2041, -117
-    addparticle 0, 1, 3
-    addparticle 0, 0, 3
+
     waitparticle
     unloadparticle 0
+
+    callfunction 33, 5, 0, 1, 12, 0, 0, "NaN", "NaN", "NaN", "NaN", "NaN"
+
     waitstate
     end
     

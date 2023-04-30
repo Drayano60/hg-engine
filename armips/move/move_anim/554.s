@@ -10,7 +10,7 @@
 .create "build/move/move_anim/0_554", 0
 
 // Trailblaze
-// Quick Attack animation
+// Quick Attack animation with some Leaf Blade leaves
 
 a010_554:
     initspriteresource
@@ -40,15 +40,18 @@ a010_554:
     loadspritemaybe 2, 0, 4, 4
     cmd52 2, 0, 4
     callfunction 8, 0, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
-    wait 15
+
+
+    // leaves
+    loadparticle 0, 366
+    addparticle 0, 0, 4
+
+    wait 20
     playsepan 1827, 117
-    resetsprite 0
-    resetsprite 1
-    unloadspriteresource
     cmd53 0
     resetsprite 4
-    addparticle 0, 1, 4
-    addparticle 0, 0, 4
+
+
     callfunction 36, 5, 2, 0, 1, 1, 264, "NaN", "NaN", "NaN", "NaN", "NaN"
     waitstate
     waitparticle

@@ -228,8 +228,8 @@
 /* SPECIES_SWINUB                      */ .halfword ABILITY_THICK_FAT
 /* SPECIES_PILOSWINE                   */ .halfword ABILITY_THICK_FAT
 /* SPECIES_CORSOLA                     */ .halfword ABILITY_REGENERATOR
-/* SPECIES_REMORAID                    */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_NO_GUARD : ABILITY_MOODY
-/* SPECIES_OCTILLERY                   */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_BOMBARDIER : ABILITY_MOODY
+/* SPECIES_REMORAID                    */ .halfword ABILITY_MOODY
+/* SPECIES_OCTILLERY                   */ .halfword ABILITY_MOODY
 /* SPECIES_DELIBIRD                    */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_TECHNICIAN : ABILITY_INSOMNIA
 /* SPECIES_MANTINE                     */ .halfword ABILITY_WATER_VEIL
 /* SPECIES_SKARMORY                    */ .halfword ABILITY_WEAK_ARMOR
@@ -366,8 +366,8 @@
 /* SPECIES_CHIMECHO                    */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_CACOPHONY : ABILITY_NONE
 /* SPECIES_ABSOL                       */ .halfword ABILITY_JUSTIFIED
 /* SPECIES_WYNAUT                      */ .halfword ABILITY_TELEPATHY
-/* SPECIES_SNORUNT                     */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_REFRIGERATE : ABILITY_MOODY
-/* SPECIES_GLALIE                      */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_REFRIGERATE : ABILITY_MOODY
+/* SPECIES_SNORUNT                     */ .halfword ABILITY_MOODY
+/* SPECIES_GLALIE                      */ .halfword ABILITY_MOODY
 /* SPECIES_SPHEAL                      */ .halfword ABILITY_OBLIVIOUS
 /* SPECIES_SEALEO                      */ .halfword ABILITY_OBLIVIOUS
 /* SPECIES_WALREIN                     */ .halfword ABILITY_OBLIVIOUS

@@ -5750,7 +5750,6 @@ mondata SPECIES_CORSOLA, "Corsola"
     mondexweight SPECIES_CORSOLA, "11.0 lbs."
 
 
-// ABILITY: No Guard (HA)
 mondata SPECIES_REMORAID, "Remoraid"
     basestats 35, 65, 35, 65, 65, 35
     types TYPE_WATER, TYPE_WATER
@@ -5773,7 +5772,7 @@ mondata SPECIES_REMORAID, "Remoraid"
     mondexweight SPECIES_REMORAID, "26.5 lbs."
 
 
-// ABILITY: Bombardier (HA, New)
+// ABILITY: Bombardier (2, New)
 mondata SPECIES_OCTILLERY, "Octillery"
     basestats 75, 105, 75, 45, 105, 75
     types TYPE_WATER, TYPE_WATER
@@ -5786,7 +5785,11 @@ mondata SPECIES_OCTILLERY, "Octillery"
     basefriendship 70 // raised up again
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_WATER_2
-    abilities ABILITY_SUCTION_CUPS, ABILITY_SNIPER
+    .if ABILITY_CHANGES_IMPLEMENTED
+        abilities ABILITY_SUCTION_CUPS, ABILITY_BOMBARDIER
+    .else
+        abilities ABILITY_SUCTION_CUPS, ABILITY_SNIPER
+    .endif
     runchance 25
     colorflip BODY_COLOR_RED, 0
     tmdata SPECIES_OCTILLERY_TM_DATA_0, SPECIES_OCTILLERY_TM_DATA_1, SPECIES_OCTILLERY_TM_DATA_2, SPECIES_OCTILLERY_TM_DATA_3
@@ -9445,7 +9448,6 @@ mondata SPECIES_WYNAUT, "Wynaut"
     mondexweight SPECIES_WYNAUT, "30.9 lbs."
 
 
-// ABILITY: Refrigerate (HA)
 mondata SPECIES_SNORUNT, "Snorunt"
     basestats 50, 50, 50, 50, 50, 50
     types TYPE_ICE, TYPE_ICE
@@ -9470,7 +9472,7 @@ mondata SPECIES_SNORUNT, "Snorunt"
 
 // STATS: 80 >> 110 Atk | 80 >> 60 SpAtk | 80 >> 90 Speed | 480 >> 500 BST
 // TYPES: Ice >> Ice/Rock
-// ABILITY: Levitate (1), Levitate (2), Refrigerate (HA)
+// ABILITY: Solid Rock (1), Refrigerate (2)
 mondata SPECIES_GLALIE, "Glalie"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 80, 110, 80, 90, 60, 80
@@ -9492,7 +9494,7 @@ mondata SPECIES_GLALIE, "Glalie"
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FAIRY, EGG_GROUP_MINERAL
     .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_LEVITATE, ABILITY_LEVITATE
+        abilities ABILITY_SOLID_ROCK, ABILITY_REFRIGERATE
     .else
         abilities ABILITY_INNER_FOCUS, ABILITY_ICE_BODY
     .endif
@@ -12401,7 +12403,6 @@ mondata SPECIES_DUSKNOIR, "Dusknoir"
     mondexweight SPECIES_DUSKNOIR, "235.0 lbs."
 
 
-// ABILITY: Levitate (1), Levitate (2)
 mondata SPECIES_FROSLASS, "Froslass"
     basestats 70, 80, 70, 110, 80, 70
     types TYPE_ICE, TYPE_GHOST
@@ -12414,11 +12415,7 @@ mondata SPECIES_FROSLASS, "Froslass"
     basefriendship 70 // raised up again
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FAIRY, EGG_GROUP_MINERAL
-    .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_LEVITATE, ABILITY_LEVITATE
-    .else
-        abilities ABILITY_SNOW_CLOAK, ABILITY_SNOW_CLOAK
-    .endif
+    abilities ABILITY_SNOW_CLOAK, ABILITY_SNOW_CLOAK
     runchance 25
     colorflip BODY_COLOR_WHITE, 0
     tmdata SPECIES_FROSLASS_TM_DATA_0, SPECIES_FROSLASS_TM_DATA_1, SPECIES_FROSLASS_TM_DATA_2, SPECIES_FROSLASS_TM_DATA_3

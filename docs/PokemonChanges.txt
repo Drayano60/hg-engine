@@ -8480,7 +8480,7 @@ Level Up Moves:
 -------------------
 223 - Remoraid
 -------------------
-Abilities: Hustle / Sniper / Moody ⟶ Hustle / Sniper / No Guard**
+Abilities: Hustle / Sniper / Moody
 Base Stats: 35/65/35/65/35/65 (300)
 Held Item: None
 Type: Water
@@ -8510,7 +8510,7 @@ Level Up Moves:
 -------------------
 224 - Octillery
 -------------------
-Abilities: Suction Cups / Sniper / Moody ⟶ Suction Cups / Sniper / Bombardier***
+Abilities: Suction Cups / Sniper / Moody ⟶ Suction Cups / Bombardier*** / Moody
 Base Stats: 75/105/75/105/75/45 (480)
 Held Item: None
 Type: Water
@@ -12902,7 +12902,7 @@ Level Up Moves:
 -------------------
 361 - Snorunt
 -------------------
-Abilities: Inner Focus / Ice Body / Moody ⟶ Inner Focus / Ice Body / Refrigerate**
+Abilities: Inner Focus / Ice Body / Moody
 Base Stats: 50/50/50/50/50/50 (300)
 Held Item: Babiri Berry (5%)
 Type: Ice
@@ -12932,7 +12932,7 @@ Level Up Moves:
 -------------------
 362 - Glalie
 -------------------
-Abilities: Inner Focus / Ice Body / Moody ⟶ Levitate** / Levitate** / Refrigerate**
+Abilities: Inner Focus / Ice Body / Moody ⟶ Solid Rock** / Refrigerate** / Moody
 Base Stats: 80/80/80/80/80/80 (480) ⟶ 80/110*/80/60*/80/90* (500)
 Held Item: Babiri Berry (5%)
 Type: Ice ⟶ Ice / Rock
@@ -12970,7 +12970,7 @@ Level Up Moves:
 -------------------
 478 - Froslass
 -------------------
-Abilities: Snow Cloak / Snow Cloak / Cursed Body ⟶ Levitate** / Levitate** / Cursed Body
+Abilities: Snow Cloak / Snow Cloak / Cursed Body
 Base Stats: 70/80/70/80/70/110 (480)
 Held Item: Babiri Berry (5%)
 Type: Ice / Ghost

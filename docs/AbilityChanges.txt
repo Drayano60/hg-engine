@@ -29,6 +29,9 @@ Instead of affecting all Pokémon except the user, it now affects all Pokémon o
 - Gale Wings:
 This intentionally does not have the maximum HP requirement from Gen 7+, so Flying-type moves used by a Pokémon with this ability will always have +1 priority.
 
+- Moody:
+Moody has been intentionally nerfed to only boost a stat by +1 instead of +2 each turn. As is the case in later generations, it cannot raise or lower accuracy or evasion.
+
 - Supreme Overlord:
 This gives the user an additive 10% boost based on the amount of fainted Pokémon when it uses a move.
 This differs from S/V which instead checks how many times Pokémon have fainted on that side of the field during the battle (capping at 5), and is unchanged by reviving allies.

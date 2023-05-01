@@ -2773,7 +2773,7 @@ movedata MOVE_THIEF, "Thief"
     appeal 0x0C
     contesttype CONTEST_TOUGH
     terminatedata
-    movedescription MOVE_THIEF, "The user attacks and\nsteals the foe’s held\nitem simultaneously.\nIt can’t steal if the\nuser holds an item."
+    movedescription MOVE_THIEF, "The user attacks the\nfoe. In a wild battle,\nthis steals the foe’s\nheld item if the user\nisn’t holding an item."
 
 movedata MOVE_SPIDER_WEB, "Spider Web"
     battleeffect 106
@@ -5623,7 +5623,7 @@ movedata MOVE_COVET, "Covet"
     appeal 0x0C
     contesttype CONTEST_CUTE
     terminatedata
-    movedescription MOVE_COVET, "The user endearingly\napproaches the foe,\nthen steals the item\nthe foe is holding.\n"
+    movedescription MOVE_COVET, "The user attacks the\nfoe. In a wild battle,\nthis steals the foe’s\nheld item if the user\nisn’t holding an item."
 
 movedata MOVE_VOLT_TACKLE, "Volt Tackle"
     battleeffect 262

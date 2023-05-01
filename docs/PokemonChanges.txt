@@ -1815,7 +1815,6 @@ New Moves:
 Level Up Moves:
 01 - Foul Play
 01 - Night Slash
-01 - Switcheroo
 01 - Swift
 01 - Fake Out
 01 - Assist
@@ -1834,7 +1833,7 @@ Level Up Moves:
 38 - Screech
 42 - Captivate
 46 - Play Rough
-50 - Nasty Plot
+50 - Switcheroo
 54 - Double-Edge
 
 -------------------
@@ -2221,10 +2220,10 @@ Level Up Moves:
 32 - Reflect
 36 - Recover
 40 - Psychic
-44 - Trick
-48 - Hypnosis
-52 - Role Play
-56 - Future Sight
+44 - Hypnosis
+48 - Role Play
+52 - Future Sight
+56 - Trick
 
 -------------------
 065 - Alakazam
@@ -2253,10 +2252,10 @@ Level Up Moves:
 32 - Reflect
 36 - Recover
 40 - Psychic
-44 - Trick
-48 - Hypnosis
-52 - Role Play
-56 - Future Sight
+44 - Hypnosis
+48 - Role Play
+52 - Future Sight
+56 - Trick
 
 -------------------
 066 - Machop
@@ -3393,11 +3392,12 @@ Level Up Moves:
 18 - Headbutt
 21 - Wake-Up Slap
 24 - Zen Headbutt
-30 - Psyshock
-35 - Psych Up
+28 - Psyshock
+32 - Psych Up
+36 - Barrier
 40 - Psychic
-45 - Barrier
-50 - Nasty Plot
+45 - Nasty Plot
+50 - Flatter
 55 - Belly Drum
 60 - Future Sight
 
@@ -3418,7 +3418,6 @@ New Moves:
 Level Up Moves:
 01 - Dream Eater
 01 - Confuse Ray
-01 - Switcheroo
 01 - Nightmare
 01 - Pound
 01 - Hypnosis
@@ -3433,8 +3432,8 @@ Level Up Moves:
 30 - Psyshock
 35 - Psych Up
 40 - Psychic
-45 - Barrier
-50 - Nasty Plot
+45 - Nasty Plot
+50 - Switcheroo
 55 - Belly Drum
 60 - Future Sight
 
@@ -4455,11 +4454,11 @@ Level Up Moves:
 28 - Reflect
 28 - Safeguard
 32 - Dazzling Gleam
-36 - Trick
+36 - Teeter Dance
 40 - Psychic
 44 - Baton Pass
-48 - Teeter Dance
-52 - Substitute
+48 - Substitute
+52 - Trick
 
 -------------------
 122 - Mr. Mime
@@ -4490,11 +4489,11 @@ Level Up Moves:
 28 - Reflect
 28 - Safeguard
 32 - Dazzling Gleam
-36 - Trick
+36 - Teeter Dance
 40 - Psychic
 44 - Baton Pass
-48 - Teeter Dance
-52 - Substitute
+48 - Substitute
+52 - Trick
 
 -------------------
 123 - Scyther
@@ -7074,8 +7073,9 @@ Level Up Moves:
 41 - Bounce
 45 - Baton Pass
 49 - Cotton Guard
-53 - Double-Edge
-57 - Memento
+53 - Switcheroo
+57 - Double-Edge
+61 - Memento
 
 -------------------
 188 - Skiploom
@@ -7114,8 +7114,9 @@ Level Up Moves:
 41 - Bounce
 45 - Baton Pass
 49 - Cotton Guard
-53 - Double-Edge
-57 - Memento
+53 - Switcheroo
+57 - Double-Edge
+61 - Memento
 
 -------------------
 189 - Jumpluff
@@ -7133,7 +7134,6 @@ New Moves:
 - Uproar (Tutor)
 
 Level Up Moves:
-01 - Switcheroo
 01 - Splash
 01 - Tackle
 01 - Tail Whip
@@ -7158,8 +7158,9 @@ Level Up Moves:
 41 - Bounce
 45 - Baton Pass
 49 - Cotton Guard
-53 - Double-Edge
-57 - Memento
+53 - Switcheroo
+57 - Double-Edge
+61 - Memento
 
 -------------------
 190 - Aipom
@@ -7191,8 +7192,9 @@ Level Up Moves:
 40 - U-turn
 44 - Tail Slap
 48 - Foul Play
-52 - Nasty Plot
-56 - Last Resort
+52 - Switcheroo
+56 - Nasty Plot
+60 - Last Resort
 
 -------------------
 424 - Ambipom
@@ -7209,7 +7211,6 @@ New Moves:
 Level Up Moves:
 01 - Arm Thrust
 01 - Dual Chop
-01 - Switcheroo
 01 - Fake Out
 01 - Tickle
 01 - Scratch
@@ -7228,8 +7229,9 @@ Level Up Moves:
 40 - U-turn
 44 - Tail Slap
 48 - Foul Play
-52 - Nasty Plot
-56 - Last Resort
+52 - Switcheroo
+56 - Nasty Plot
+60 - Last Resort
 
 -------------------
 191 - Sunkern
@@ -9589,8 +9591,9 @@ Level Up Moves:
 34 - Fling
 38 - Play Rough
 42 - Belly Drum
-46 - Double-Edge
-50 - Last Resort
+46 - Rock Climb
+50 - Double-Edge
+54 - Last Resort
 
 -------------------
 264 - Linoone
@@ -9605,7 +9608,6 @@ New Moves:
 
 Level Up Moves:
 01 - Extreme Speed
-01 - Switcheroo
 01 - Tickle
 01 - Mud Sport
 01 - Tackle
@@ -9624,8 +9626,9 @@ Level Up Moves:
 34 - Fling
 38 - Play Rough
 42 - Belly Drum
-46 - Double-Edge
-50 - Last Resort
+46 - Switcheroo
+50 - Double-Edge
+54 - Last Resort
 
 -------------------
 265 - Wurmple
@@ -11174,20 +11177,21 @@ Level Up Moves:
 01 - Quick Attack
 04 - Thunder Shock
 07 - Helping Hand
-10 - Encore
-13 - Skill Swap
+10 - Copycat
+13 - Tearful Look
 16 - Swift
 19 - Spark
-22 - Fake Tears
-25 - Copycat
+22 - Encore
+25 - Fake Tears
 28 - Charm
 31 - Charge
 34 - Discharge
 37 - Baton Pass
-40 - Agility
-43 - Thunder
-46 - Nasty Plot
-49 - Last Resort
+40 - Skill Swap
+43 - Agility
+46 - Thunder
+49 - Nasty Plot
+52 - Last Resort
 
 -------------------
 312 - Minun
@@ -11208,20 +11212,21 @@ Level Up Moves:
 01 - Quick Attack
 04 - Thunder Shock
 07 - Helping Hand
-10 - Encore
-13 - Switcheroo
+10 - Copycat
+13 - Tearful Look
 16 - Swift
 19 - Spark
-22 - Fake Tears
-25 - Copycat
+22 - Encore
+25 - Fake Tears
 28 - Charm
 31 - Charge
 34 - Discharge
 37 - Baton Pass
-40 - Agility
-43 - Thunder
-46 - Nasty Plot
-49 - Trump Card
+40 - Switcheroo
+43 - Agility
+46 - Thunder
+49 - Nasty Plot
+52 - Trump Card
 
 -------------------
 313 - Volbeat
@@ -12254,7 +12259,6 @@ New Moves:
 - Chilling Water (Tutor)
 
 Level Up Moves:
-01 - Switcheroo
 01 - Bubble
 01 - Harden
 04 - Leer
@@ -14840,9 +14844,9 @@ Level Up Moves:
 32 - Aqua Tail
 36 - Agility
 40 - Me First
-44 - Tail Slap
-48 - Hydro Pump
-52 - Wave Crash
+45 - Tail Slap
+50 - Switcheroo
+55 - Wave Crash
 
 -------------------
 419 - Floatzel
@@ -14858,7 +14862,6 @@ New Moves:
 
 Level Up Moves:
 01 - Ice Fang
-01 - Switcheroo
 01 - Sonic Boom
 01 - Growl
 03 - Water Sport
@@ -14874,9 +14877,9 @@ Level Up Moves:
 32 - Aqua Tail
 36 - Agility
 40 - Me First
-44 - Tail Slap
-48 - Hydro Pump
-52 - Wave Crash
+45 - Tail Slap
+50 - Switcheroo
+55 - Wave Crash
 
 -------------------
 420 - Cherubi
@@ -15969,7 +15972,6 @@ New Moves:
 - None
 
 Level Up Moves:
-01 - Trick
 01 - Thunder Shock
 01 - Double Team
 01 - Astonish
@@ -15985,6 +15987,7 @@ Level Up Moves:
 45 - Dark Pulse
 50 - Substitute
 55 - Thunder
+60 - Trick
 
 -------------------
 479.2 - Rotom (Heat Rotom)
@@ -15998,7 +16001,6 @@ New Moves:
 - None
 
 Level Up Moves:
-01 - Trick
 01 - Thunder Shock
 01 - Double Team
 01 - Astonish
@@ -16014,6 +16016,7 @@ Level Up Moves:
 45 - Dark Pulse
 50 - Substitute
 55 - Thunder
+60 - Trick
 
 -------------------
 479.3 - Rotom (Wash Rotom)
@@ -16027,7 +16030,6 @@ New Moves:
 - None
 
 Level Up Moves:
-01 - Trick
 01 - Thunder Shock
 01 - Double Team
 01 - Astonish
@@ -16043,6 +16045,7 @@ Level Up Moves:
 45 - Dark Pulse
 50 - Substitute
 55 - Thunder
+60 - Trick
 
 -------------------
 479.4 - Rotom (Frost Rotom)
@@ -16056,7 +16059,6 @@ New Moves:
 - None
 
 Level Up Moves:
-01 - Trick
 01 - Thunder Shock
 01 - Double Team
 01 - Astonish
@@ -16072,6 +16074,7 @@ Level Up Moves:
 45 - Dark Pulse
 50 - Substitute
 55 - Thunder
+60 - Trick
 
 -------------------
 479.5 - Rotom (Fan Rotom)
@@ -16085,7 +16088,6 @@ New Moves:
 - None
 
 Level Up Moves:
-01 - Trick
 01 - Thunder Shock
 01 - Double Team
 01 - Astonish
@@ -16101,6 +16103,7 @@ Level Up Moves:
 45 - Dark Pulse
 50 - Substitute
 55 - Thunder
+60 - Trick
 
 -------------------
 479.6 - Rotom (Mow Rotom)
@@ -16114,7 +16117,6 @@ New Moves:
 - None
 
 Level Up Moves:
-01 - Trick
 01 - Thunder Shock
 01 - Double Team
 01 - Astonish
@@ -16130,6 +16132,7 @@ Level Up Moves:
 45 - Dark Pulse
 50 - Substitute
 55 - Thunder
+60 - Trick
 
 -------------------
 480 - Uxie

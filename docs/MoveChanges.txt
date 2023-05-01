@@ -254,6 +254,12 @@ The following moves have been given new effects:
 These moves now have a high critical-hit ratio.
 Dragon Claw and X-Scissor have this effect pulled from Legends: Arceus.
 
+- Covet/Thief:
+These moves can now only steal held items in battles with wild Pokémon. In battles with trainers, the moves will only deal damage with no secondary effect.
+This is for balance reasons because Gen 4 allows you to permanently steal the held items of trainers, and it's not yet known how to make it temporary like Gen 5+.
+As Covet/Thief also act as solid damage moves in the early parts of the game, it seemed better to restrict it this way instead of restricting the Pokémon who get the move.
+(With all that said, you can still use Trick and Switcheroo in trainer battles to permanently steal items, but these are obtained significantly later in the game!)
+
 - Dive:
 This is now a one-turn move (with no additional effects).
 

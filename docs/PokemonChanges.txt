@@ -14820,7 +14820,7 @@ Level Up Moves:
 -------------------
 418 - Buizel
 -------------------
-Abilities: Swift Swim / Swift Swim / Water Veil ⟶ Swift Swim / Water Veil / Technician**
+Abilities: Swift Swim / Swift Swim / Water Veil
 Base Stats: 55/65/35/60/30/85 (330)
 Held Item: Wacan Berry (5%)
 Type: Water
@@ -14851,7 +14851,7 @@ Level Up Moves:
 -------------------
 419 - Floatzel
 -------------------
-Abilities: Swift Swim / Swift Swim / Water Veil ⟶ Swift Swim / Water Veil / Technician**
+Abilities: Swift Swim / Swift Swim / Water Veil
 Base Stats: 85/105/55/85/50/115 (495)
 Held Item: Wacan Berry (5%)
 Type: Water

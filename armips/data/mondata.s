@@ -10931,7 +10931,6 @@ mondata SPECIES_PACHIRISU, "Pachirisu"
     mondexweight SPECIES_PACHIRISU, "8.6 lbs."
 
 
-// ABILITY: Water Veil (2), Technician (HA)
 mondata SPECIES_BUIZEL, "Buizel"
     basestats 55, 65, 35, 85, 60, 30
     types TYPE_WATER, TYPE_WATER
@@ -10944,11 +10943,7 @@ mondata SPECIES_BUIZEL, "Buizel"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_FIELD
-    .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_SWIFT_SWIM, ABILITY_WATER_VEIL
-    .else
-        abilities ABILITY_SWIFT_SWIM, ABILITY_NONE
-    .endif
+    abilities ABILITY_SWIFT_SWIM, ABILITY_NONE
     runchance 25
     colorflip BODY_COLOR_BROWN, 0
     tmdata SPECIES_BUIZEL_TM_DATA_0, SPECIES_BUIZEL_TM_DATA_1, SPECIES_BUIZEL_TM_DATA_2, SPECIES_BUIZEL_TM_DATA_3
@@ -10958,7 +10953,6 @@ mondata SPECIES_BUIZEL, "Buizel"
     mondexweight SPECIES_BUIZEL, "65.0 lbs."
 
 
-// ABILITY: Water Veil (2), Technician (HA)
 mondata SPECIES_FLOATZEL, "Floatzel"
     basestats 85, 105, 55, 115, 85, 50
     types TYPE_WATER, TYPE_WATER
@@ -10971,11 +10965,7 @@ mondata SPECIES_FLOATZEL, "Floatzel"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_FIELD
-    .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_SWIFT_SWIM, ABILITY_WATER_VEIL
-    .else
-        abilities ABILITY_SWIFT_SWIM, ABILITY_NONE
-    .endif
+    abilities ABILITY_SWIFT_SWIM, ABILITY_NONE
     runchance 25
     colorflip BODY_COLOR_BROWN, 0
     tmdata SPECIES_FLOATZEL_TM_DATA_0, SPECIES_FLOATZEL_TM_DATA_1, SPECIES_FLOATZEL_TM_DATA_2, SPECIES_FLOATZEL_TM_DATA_3

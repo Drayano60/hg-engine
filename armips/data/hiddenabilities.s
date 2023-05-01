@@ -423,8 +423,8 @@
 /* SPECIES_COMBEE                      */ .halfword ABILITY_HUSTLE
 /* SPECIES_VESPIQUEN                   */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_INTIMIDATE : ABILITY_UNNERVE
 /* SPECIES_PACHIRISU                   */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_FUR_COAT : ABILITY_VOLT_ABSORB
-/* SPECIES_BUIZEL                      */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_TECHNICIAN : ABILITY_WATER_VEIL
-/* SPECIES_FLOATZEL                    */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_TECHNICIAN : ABILITY_WATER_VEIL
+/* SPECIES_BUIZEL                      */ .halfword ABILITY_WATER_VEIL
+/* SPECIES_FLOATZEL                    */ .halfword ABILITY_WATER_VEIL
 /* SPECIES_CHERUBI                     */ .halfword ABILITY_NONE
 /* SPECIES_CHERRIM                     */ .halfword ABILITY_NONE
 /* SPECIES_SHELLOS                     */ .halfword ABILITY_SAND_FORCE

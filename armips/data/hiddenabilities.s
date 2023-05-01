@@ -586,7 +586,7 @@
 /* SPECIES_SWOOBAT                     */ .halfword ABILITY_SIMPLE
 /* SPECIES_DRILBUR                     */ .halfword ABILITY_MOLD_BREAKER
 /* SPECIES_EXCADRILL                   */ .halfword ABILITY_MOLD_BREAKER
-/* SPECIES_AUDINO                      */ .halfword ABILITY_KLUTZ
+/* SPECIES_AUDINO                      */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_TRIAGE : ABILITY_KLUTZ
 /* SPECIES_TIMBURR                     */ .halfword ABILITY_IRON_FIST
 /* SPECIES_GURDURR                     */ .halfword ABILITY_IRON_FIST
 /* SPECIES_CONKELDURR                  */ .halfword ABILITY_IRON_FIST

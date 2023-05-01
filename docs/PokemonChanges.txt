@@ -17617,7 +17617,7 @@ Level Up Moves:
 -------------------
 527 - Woobat
 -------------------
-Abilities: Unaware / Klutz / Simple
+Abilities: Unaware / Klutz / Simple ⟶ Unaware / Unaware / Simple
 Base Stats: 65/45/43/55/43/72 (323)
 Held Item: None
 Type: Psychic / Flying
@@ -17646,7 +17646,7 @@ Level Up Moves:
 -------------------
 528 - Swoobat
 -------------------
-Abilities: Unaware / Klutz / Simple
+Abilities: Unaware / Klutz / Simple ⟶ Unaware / Unaware / Simple
 Base Stats: 67/57/55/77/55/114 (425) ⟶ 67/67*/60*/87*/60*/114 (455)
 Held Item: None
 Type: Psychic / Flying
@@ -17733,7 +17733,7 @@ Level Up Moves:
 -------------------
 531 - Audino
 -------------------
-Abilities: Healer / Regenerator / Klutz
+Abilities: Healer / Regenerator / Klutz ⟶ Healer / Regenerator / Triage**
 Base Stats: 103/60/86/60/86/50 (445) ⟶ 103/60/86/80*/86/50 (465)
 Held Item: Oran Berry (50%), Sitrus Berry (5%)
 Type: Normal ⟶ Normal / Fairy
@@ -20581,7 +20581,7 @@ Level Up Moves:
 -------------------
 622 - Golett
 -------------------
-Abilities: Iron Fist / Klutz / No Guard
+Abilities: Iron Fist / Klutz / No Guard ⟶ Iron Fist / Iron Fist / No Guard
 Base Stats: 59/74/50/35/50/35 (303)
 Held Item: Light Clay (5%)
 Type: Ground / Ghost
@@ -20610,7 +20610,7 @@ Level Up Moves:
 -------------------
 623 - Golurk
 -------------------
-Abilities: Iron Fist / Klutz / No Guard
+Abilities: Iron Fist / Klutz / No Guard ⟶ Iron Fist / Iron Fist / No Guard
 Base Stats: 89/124/80/55/80/55 (483)
 Held Item: Light Clay (5%)
 Type: Ground / Ghost

@@ -14727,6 +14727,7 @@ mondata SPECIES_GIGALITH, "Gigalith"
     mondexweight SPECIES_GIGALITH, "573.2 lbs."
 
 
+// ABILITY: Unaware (2)
 mondata SPECIES_WOOBAT, "Woobat"
     basestats 65, 45, 43, 72, 55, 43
     types TYPE_PSYCHIC, TYPE_FLYING
@@ -14739,7 +14740,11 @@ mondata SPECIES_WOOBAT, "Woobat"
     basefriendship 70 // raised up again
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FLYING, EGG_GROUP_FIELD
-    abilities ABILITY_UNAWARE, ABILITY_KLUTZ
+    .if ABILITY_CHANGES_IMPLEMENTED
+        abilities ABILITY_UNAWARE, ABILITY_UNAWARE
+    .else
+        abilities ABILITY_UNAWARE, ABILITY_KLUTZ
+    .endif
     runchance 25
     colorflip BODY_COLOR_BLUE, 0
     tmdata SPECIES_WOOBAT_TM_DATA_0, SPECIES_WOOBAT_TM_DATA_1, SPECIES_WOOBAT_TM_DATA_2, SPECIES_WOOBAT_TM_DATA_3
@@ -14750,6 +14755,7 @@ mondata SPECIES_WOOBAT, "Woobat"
 
 
 // STATS: 57 >> 67 Atk | 55 >> 60 Def | 77 >> 87 SpAtk | 55 >> 60 SpDef | 425 >> 455 BST
+// ABILITY: Unaware (2)
 mondata SPECIES_SWOOBAT, "Swoobat"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 67, 67, 60, 114, 87, 60
@@ -14766,7 +14772,11 @@ mondata SPECIES_SWOOBAT, "Swoobat"
     basefriendship 70 // raised up again
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FLYING, EGG_GROUP_FIELD
-    abilities ABILITY_UNAWARE, ABILITY_KLUTZ
+    .if ABILITY_CHANGES_IMPLEMENTED
+        abilities ABILITY_UNAWARE, ABILITY_UNAWARE
+    .else
+        abilities ABILITY_UNAWARE, ABILITY_KLUTZ
+    .endif
     runchance 25
     colorflip BODY_COLOR_BLUE, 0
     tmdata SPECIES_SWOOBAT_TM_DATA_0, SPECIES_SWOOBAT_TM_DATA_1, SPECIES_SWOOBAT_TM_DATA_2, SPECIES_SWOOBAT_TM_DATA_3
@@ -14822,6 +14832,7 @@ mondata SPECIES_EXCADRILL, "Excadrill"
 
 // STATS: 60 >> 80 SpAtk | 445 >> 465 BST
 // TYPES: Normal >> Normal/Fairy
+// ABILITY: Triage (HA)
 mondata SPECIES_AUDINO, "Audino"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 103, 60, 86, 50, 80, 86
@@ -16880,6 +16891,7 @@ mondata SPECIES_DRUDDIGON, "Druddigon"
     mondexweight SPECIES_DRUDDIGON, "306.4 lbs."
 
 
+// ABILITY: Iron Fist (2)
 mondata SPECIES_GOLETT, "Golett"
     basestats 59, 74, 50, 35, 35, 50
     types TYPE_GROUND, TYPE_GHOST
@@ -16892,7 +16904,11 @@ mondata SPECIES_GOLETT, "Golett"
     basefriendship 70 // raised up again
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MINERAL, EGG_GROUP_MINERAL
-    abilities ABILITY_IRON_FIST, ABILITY_KLUTZ
+    .if ABILITY_CHANGES_IMPLEMENTED
+        abilities ABILITY_IRON_FIST, ABILITY_IRON_FIST
+    .else
+        abilities ABILITY_IRON_FIST, ABILITY_KLUTZ
+    .endif
     runchance 25
     colorflip BODY_COLOR_GREEN, 0
     tmdata SPECIES_GOLETT_TM_DATA_0, SPECIES_GOLETT_TM_DATA_1, SPECIES_GOLETT_TM_DATA_2, SPECIES_GOLETT_TM_DATA_3
@@ -16902,6 +16918,7 @@ mondata SPECIES_GOLETT, "Golett"
     mondexweight SPECIES_GOLETT, "202.8 lbs."
 
 
+// ABILITY: Iron Fist (2)
 mondata SPECIES_GOLURK, "Golurk"
     basestats 89, 124, 80, 55, 55, 80
     types TYPE_GROUND, TYPE_GHOST
@@ -16914,7 +16931,11 @@ mondata SPECIES_GOLURK, "Golurk"
     basefriendship 70 // raised up again
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MINERAL, EGG_GROUP_MINERAL
-    abilities ABILITY_IRON_FIST, ABILITY_KLUTZ
+    .if ABILITY_CHANGES_IMPLEMENTED
+        abilities ABILITY_IRON_FIST, ABILITY_IRON_FIST
+    .else
+        abilities ABILITY_IRON_FIST, ABILITY_KLUTZ
+    .endif
     runchance 25
     colorflip BODY_COLOR_GREEN, 0
     tmdata SPECIES_GOLURK_TM_DATA_0, SPECIES_GOLURK_TM_DATA_1, SPECIES_GOLURK_TM_DATA_2, SPECIES_GOLURK_TM_DATA_3

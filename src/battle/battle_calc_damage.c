@@ -606,7 +606,7 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
         movepower = movepower * 15 / 10;
 
     // handle technician
-    if ((AttackingMon.ability == ABILITY_TECHNICIAN) && (movepower <= 60))
+    if ((AttackingMon.ability == ABILITY_TECHNICIAN) && (movepower <= 60) && (sp->moveTbl[moveno].effect != MOVE_EFFECT_TRIPLE_AXEL))
         movepower = movepower * 15 / 10;
 
     movesplit = sp->moveTbl[moveno].split;

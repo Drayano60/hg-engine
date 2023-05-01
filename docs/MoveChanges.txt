@@ -282,8 +282,9 @@ The actual effect can't currently be implemented.
 This is now a one-turn move.
 It still has a high critical-hit ratio.
 
-- Triple Kick:
-This now gains +15 base power on each consecutive hit (raised from +10).
+- Triple Axel/Triple Kick:
+These moves are no longer boosted by Technician (due to the insane power boost it would give).
+Triple Kick now gains +20 BP per hit (and has been buffed to 20 BP), matching Triple Axel.
 
 - Strength:
 This now has a chance (10%) to boost the user's Attack stat by one stage.
@@ -676,7 +677,7 @@ PP: 25 ⟶ 20
 
 Triple Kick
 -------------------
-Power: 10 ⟶ 15
+Power: 10 ⟶ 20
 
 Whirlpool
 -------------------

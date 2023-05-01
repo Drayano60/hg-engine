@@ -2741,12 +2741,12 @@ movedata MOVE_SKETCH, "Sketch"
     terminatedata
     movedescription MOVE_SKETCH, "It enables the user\nto permanently learn\nthe move last used by\nthe foe. Once used,\nSketch disappears."
 
-// EFFECT: Now gains +15 BP each hit (up from 10).
-// POWER: 10 >> 15
+// EFFECT: Now gains +20 BP each hit (up from 10).
+// POWER: 10 >> 20
 movedata MOVE_TRIPLE_KICK, "Triple Kick"
-    battleeffect 104
+    battleeffect 307
     pss SPLIT_PHYSICAL
-    basepower MOVE_CHANGES_IMPLEMENTED ? 15 : 10
+    basepower MOVE_CHANGES_IMPLEMENTED ? 20 : 10
     type TYPE_FIGHTING
     accuracy 90
     pp 10
@@ -2757,7 +2757,7 @@ movedata MOVE_TRIPLE_KICK, "Triple Kick"
     appeal 0x07
     contesttype CONTEST_COOL
     terminatedata
-    movedescription MOVE_TRIPLE_KICK, "A consecutive three-\nkick attack that\nbecomes more\npowerful with each \nsuccessive hit."
+    movedescription MOVE_TRIPLE_KICK, "A three-kick attack\nthat gains an extra\n20 power on each hit.\n(Technician does not\naffect this move.)"
 
 movedata MOVE_THIEF, "Thief"
     battleeffect 105
@@ -8853,7 +8853,7 @@ movedata MOVE_TRIPLE_AXEL, "Triple Axel"
     appeal 0x00
     contesttype 0
     terminatedata
-    movedescription MOVE_TRIPLE_AXEL, "A consecutive three-\nkick attack that\nbecomes more\npowerful with each\nsuccessive hit."
+    movedescription MOVE_TRIPLE_AXEL, "A three-kick attack\nthat gains an extra\n20 power on each hit.\n(Technician does not\naffect this move.)"
 
 // ACCURACY: 90 >> 100
 movedata MOVE_DUAL_WINGBEAT, "Dual Wingbeat"

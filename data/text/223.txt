@@ -588,3 +588,4 @@ a {COLOR 255}Leader’s Crest{COLOR 0}
 a {COLOR 255}Peat Block{COLOR 0}
 an {COLOR 255}Eviolite{COLOR 0}
 an {COLOR 255}Assault Vest{COLOR 0}
+a {COLOR 255}Roseli Berry{COLOR 0}

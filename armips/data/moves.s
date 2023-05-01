@@ -1164,7 +1164,7 @@ movedata MOVE_SEISMIC_TOSS, "Seismic Toss"
     terminatedata
     movedescription MOVE_SEISMIC_TOSS, "The foe is thrown\nusing the power of\ngravity. It inflicts\ndamage equal to\nthe user’s level."
 
-// EFFECT: Now has a 20% chance to boost Attack.
+// EFFECT: Now has a 10% chance to boost Attack.
 // POWER: 80 >> 100
 // PP: 15 >> 10
 movedata MOVE_STRENGTH, "Strength"
@@ -1174,7 +1174,7 @@ movedata MOVE_STRENGTH, "Strength"
     type TYPE_NORMAL
     accuracy 100
     pp MOVE_CHANGES_IMPLEMENTED ? 10 : 15
-    effectchance 20
+    effectchance 10
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_KINGS_ROCK | FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT

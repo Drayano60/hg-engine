@@ -286,7 +286,7 @@ It still has a high critical-hit ratio.
 This now gains +15 base power on each consecutive hit (raised from +10).
 
 - Strength:
-This now has a chance (20%) to boost the user's Attack stat by one stage.
+This now has a chance (10%) to boost the user's Attack stat by one stage.
 
 Moves Updated Accurately
 --------------------------------------

@@ -8250,10 +8250,8 @@ levelup SPECIES_WAILMER
     learnset MOVE_HYDRO_PUMP, 60
     terminatelearnset
 
-// NEW: Splash Crash (Custom)
 levelup SPECIES_WAILORD
     learnset MOVE_SELF_DESTRUCT, 1
-    learnset MOVE_NOBLE_ROAR, 1
     learnset MOVE_CLEAR_SMOG, 1
     learnset MOVE_FISSURE, 1
     learnset MOVE_SPLASH, 1
@@ -8268,7 +8266,7 @@ levelup SPECIES_WAILORD
     learnset MOVE_DIVE, 28
     learnset MOVE_BOUNCE, 32
     learnset MOVE_WATER_SPOUT, 36
-    learnset MOVE_SPLASH_CRASH, 40
+    learnset MOVE_NOBLE_ROAR, 40
     learnset MOVE_BODY_SLAM, 42
     learnset MOVE_REST, 48
     learnset MOVE_AMNESIA, 54

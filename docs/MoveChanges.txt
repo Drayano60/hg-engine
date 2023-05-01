@@ -60,7 +60,7 @@ A Pokémon will now be fast asleep for 1-3 (down from 1-4) of its turns, and the
 -------------------
 Newly Added Moves
 -------------------
-Aurora Crystal contains 114 new moves in addition to the 467 in Heart Gold and Soul Silver normally. 109 of these are moves that were introduced in later generation games, and the remaining 5 are custom signature moves for a few Pokémon.
+Aurora Crystal contains 114 new moves in addition to the 467 in Heart Gold and Soul Silver normally. 110 of these are moves that were introduced in later generation games, and the remaining 4 are custom signature moves for a few Pokémon.
 
 Gen 5 Moves (45)
 -------------------
@@ -150,7 +150,7 @@ Solar Blade
 Tearful Look
 Toxic Thread
 
-Gen 8 Moves (18)
+Gen 8 Moves (19)
 -------------------
 Barb Barrage
 Body Press
@@ -160,6 +160,7 @@ Esper Wing
 Flip Turn
 Headlong Rush
 Meteor Beam
+Poltergeist
 Psyshield Bash
 Raging Fury
 Scale Shot
@@ -186,13 +187,12 @@ Raging Bull
 Trailblaze
 Twin Beam
 
-New Moves (5)
+New Moves (4)
 -------------------
 Infernal Blast
 Piddly Punches
 Savage Rend
 Soothing Aroma
-Splash Crash
 
 -------------------
 New Moves

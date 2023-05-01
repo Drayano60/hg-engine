@@ -9348,23 +9348,21 @@ movedata MOVE_POUNCE, "Pounce"
     terminatedata
     movedescription MOVE_POUNCE, "The user attacks by\npouncing on the foe.\nThis also lowers the\nfoe’s Speed stat."
 
-// Custom move for Wailord
-// Water-type Heavy Slam clone, works with its custom ability
-movedata MOVE_SPLASH_CRASH, "Splash Crash"
-    battleeffect 302
+movedata MOVE_POLTERGEIST, "Poltergeist"
+    battleeffect 319
     pss SPLIT_PHYSICAL
-    basepower 1
-    type TYPE_WATER
-    accuracy 100
-    pp 10
+    basepower 110
+    type TYPE_GHOST
+    accuracy 90
+    pp 5
     effectchance 0
     target MOVE_TARGET_SELECTED
     priority 0
-    flags FLAG_CONTACT | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
-    appeal 0x00
+    flags FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
+    appeal 0
     contesttype 0
     terminatedata
-    movedescription MOVE_SPLASH_CRASH, "The user creates a\nshock by splashing.\nThis does more damage\nthe more the user\noutweighs the foe."
+    movedescription MOVE_POLTERGEIST, "The user attacks the\nfoe by controlling the\nfoe’s item. This move\nfails if the foe does\nnot have an item."
 
 movedata MOVE_HEAT_CRASH, "Heat Crash"
     battleeffect 302
@@ -9676,3 +9674,26 @@ movedatanoname NUM_OF_MOVES+1
     appeal 0x10
     contesttype CONTEST_BEAUTY
     terminatedata
+
+
+/* Moves I didn't use afterwards
+--
+
+// Custom move for Wailord
+// Water-type Heavy Slam clone, works with its custom ability
+movedata MOVE_SPLASH_CRASH, "Splash Crash"
+    battleeffect 302
+    pss SPLIT_PHYSICAL
+    basepower 1
+    type TYPE_WATER
+    accuracy 100
+    pp 10
+    effectchance 0
+    target MOVE_TARGET_SELECTED
+    priority 0
+    flags FLAG_CONTACT | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
+    appeal 0x00
+    contesttype 0
+    terminatedata
+    movedescription MOVE_SPLASH_CRASH, "The user creates a\nshock by splashing.\nThis does more damage\nthe more the user\noutweighs the foe."
+*/

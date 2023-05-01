@@ -22,7 +22,7 @@ a030_188:
     ifmonstat IF_EQUAL, BATTLER_DEFENDER, MON_DATA_ABILITY, ABILITY_MULTITYPE, End
     ifmonstat IF_EQUAL, BATTLER_DEFENDER, MON_DATA_ITEM, ITEM_GRISEOUS_ORB, End
 DoubleDamage:
-    changevar VAR_OP_SET, VAR_DAMAGE_MULT, 1     // x2 Damage
+    changevar VAR_OP_SET, VAR_DAMAGE_MULT, 20     // x2 Damage
 End:
     gotosubscript 343
     endscript

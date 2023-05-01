@@ -15,7 +15,7 @@ For official abilities, the following are included and used in the game:
 * The following abilities from Gen 8: Cotton Down, Transistor.
 * The following abilities from Gen 9: Armor Tail, Sharpness, Supreme Overlord.
 
-Forewarn and Klutz have been removed from all Pokémon that have it due to their relative uselessness and lack of purpose.
+Forewarn and Klutz have been removed from all Pokémon that have it due to their relative uselessness and lack of purpose, whereas a lot of other weak abilities have been given extra effects to compensate.
 
 -------------------
 Inaccurate Abilities

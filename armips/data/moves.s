@@ -4410,7 +4410,7 @@ movedata MOVE_TAUNT, "Taunt"
     appeal 0x10
     contesttype CONTEST_SMART
     terminatedata
-    movedescription MOVE_TAUNT, "The foe is taunted\ninto a rage that\nallows it to use only\nattack moves for\nthree turns."
+    movedescription MOVE_TAUNT, "The user taunts the\nfoe into using only\nattacking moves for\nthe current turn and\nthe next three turns."
 
 movedata MOVE_HELPING_HAND, "Helping Hand"
     battleeffect 176

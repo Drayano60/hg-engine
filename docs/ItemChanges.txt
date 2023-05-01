@@ -2,14 +2,15 @@
 Included Items
 -------------------
 - Everything from Gen 4
-- Eviolite (replaces Works Key)
-- Assault Vest (makes status moves fail instead of being unselectable) (replaces Galactic Key)
 - Devon Scope (replaces Rule Book)
 - GS Ball (replaces Contest Pass)
 - Ice Stone (replaces Coupon 1)
 - Prism Scale (replaces Coupon 2)
 - Linking Cord (replaces Coupon 3)
-- Pixie Plate (doesn't replace)
+- Pixie Plate
+- Eviolite 
+- Assault Vest (makes status moves fail instead of being unselectable)
+- Roseli Berry (can't be planted)
 
 -------------------
 Cost Changes

@@ -3,6 +3,7 @@
 
 .include "armips/include/battlescriptcmd.s"
 .include "armips/include/abilities.s"
+.include "armips/include/constants.s"
 .include "armips/include/itemnums.s"
 .include "armips/include/monnums.s"
 .include "armips/include/movenums.s"
@@ -40,6 +41,7 @@ _0088:
     if IF_EQUAL, VAR_43, 0x1F, _0370
     if IF_EQUAL, VAR_43, 0x20, _038C
     if IF_EQUAL, VAR_43, 0x21, _03A8
+    if IF_EQUAL, VAR_43, 150, _Roseli
     if IF_EQUAL, VAR_43, 0x22, _03C4
     goto _041C
 _0204:
@@ -89,6 +91,9 @@ _038C:
     goto _041C
 _03A8:
     if IF_EQUAL, VAR_09, 0x11, _03D8
+    goto _041C
+_Roseli:
+    if IF_EQUAL, VAR_09, TYPE_FAIRY, _03D8
     goto _041C
 _03C4:
     if IF_NOTEQUAL, VAR_09, 0x8, _041C

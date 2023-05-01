@@ -8100,7 +8100,7 @@ Level Up Moves:
 -------------------
 215 - Sneasel
 -------------------
-Abilities: Inner Focus / Keen Eye / Pickpocket
+Abilities: Pressure / Pressure / Pickpocket ⟶ Inner Focus / Keen Eye / Technician**
 Base Stats: 55/95/55/35/75/115 (430)
 Held Item: Grip Claw (50%), Quick Claw (5%)
 Type: Dark / Ice
@@ -8132,7 +8132,7 @@ Level Up Moves:
 -------------------
 461 - Weavile
 -------------------
-Abilities: Pressure / Pressure / Pickpocket ⟶ Inner Focus** / Keen Eye** / Pickpocket
+Abilities: Pressure / Pressure / Pickpocket ⟶ Inner Focus** / Keen Eye** / Technician**
 Base Stats: 70/120/65/45/85/125 (510)
 Held Item: Grip Claw (50%), Quick Claw (5%)
 Type: Dark / Ice
@@ -9851,7 +9851,7 @@ Level Up Moves:
 -------------------
 273 - Seedot
 -------------------
-Abilities: Chlorophyll / Early Bird / Pickpocket
+Abilities: Chlorophyll / Early Bird / Pickpocket ⟶ Chlorophyll / Early Bird / Frisk**
 Base Stats: 40/40/50/30/30/30 (220)
 Held Item: None
 Type: Grass / Dark
@@ -9878,7 +9878,7 @@ Level Up Moves:
 -------------------
 274 - Nuzleaf
 -------------------
-Abilities: Chlorophyll / Early Bird / Pickpocket
+Abilities: Chlorophyll / Early Bird / Pickpocket ⟶ Chlorophyll / Early Bird / Frisk**
 Base Stats: 70/70/40/60/40/60 (340)
 Held Item: None
 Type: Grass / Dark

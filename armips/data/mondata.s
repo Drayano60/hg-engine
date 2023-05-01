@@ -5552,6 +5552,7 @@ mondata SPECIES_HERACROSS, "Heracross"
     mondexweight SPECIES_HERACROSS, "119.0 lbs."
 
 
+// ABILITY: Technician (HA)
 mondata SPECIES_SNEASEL, "Sneasel"
     basestats 55, 95, 55, 115, 35, 75
     types TYPE_DARK, TYPE_ICE
@@ -11978,7 +11979,7 @@ mondata SPECIES_ABOMASNOW, "Abomasnow"
     mondexweight SPECIES_ABOMASNOW, "298.7 lbs."
 
 
-// ABILITY: Inner Focus (1), Keen Eye (2)
+// ABILITY: Inner Focus (1), Keen Eye (2), Technician (HA)
 mondata SPECIES_WEAVILE, "Weavile"
     basestats 70, 120, 65, 125, 45, 85
     types TYPE_DARK, TYPE_ICE

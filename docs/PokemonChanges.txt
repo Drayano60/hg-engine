@@ -17696,7 +17696,7 @@ Level Up Moves:
 28 - Drill Run
 34 - Crush Claw
 40 - Rock Slide
-46 - Swords Dance
+46 - Submission
 52 - Earthquake
 58 - Fissure
 
@@ -17712,8 +17712,6 @@ New Moves:
 - None
 
 Level Up Moves:
-01 - Submission
-01 - Bulldoze
 01 - Scratch
 01 - Mud-Slap
 01 - Mud Sport
@@ -17727,7 +17725,7 @@ Level Up Moves:
 31 - Smart Strike
 34 - Crush Claw
 40 - Rock Slide
-46 - Swords Dance
+46 - Submission
 52 - Earthquake
 58 - Fissure
 64 - Horn Drill

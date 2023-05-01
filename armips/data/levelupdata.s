@@ -12659,14 +12659,12 @@ levelup SPECIES_DRILBUR
     learnset MOVE_DRILL_RUN, 28
     learnset MOVE_CRUSH_CLAW, 34
     learnset MOVE_ROCK_SLIDE, 40
-    learnset MOVE_SWORDS_DANCE, 46
+    learnset MOVE_SUBMISSION, 46
     learnset MOVE_EARTHQUAKE, 52
     learnset MOVE_FISSURE, 58
     terminatelearnset
 
 levelup SPECIES_EXCADRILL
-    learnset MOVE_SUBMISSION, 1
-    learnset MOVE_BULLDOZE, 1
     learnset MOVE_SCRATCH, 1
     learnset MOVE_MUD_SLAP, 1
     learnset MOVE_MUD_SPORT, 1
@@ -12680,7 +12678,7 @@ levelup SPECIES_EXCADRILL
     learnset MOVE_SMART_STRIKE, 31
     learnset MOVE_CRUSH_CLAW, 34
     learnset MOVE_ROCK_SLIDE, 40
-    learnset MOVE_SWORDS_DANCE, 46
+    learnset MOVE_SUBMISSION, 46
     learnset MOVE_EARTHQUAKE, 52
     learnset MOVE_FISSURE, 58
     learnset MOVE_HORN_DRILL, 64

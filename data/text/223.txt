@@ -436,9 +436,9 @@ a {COLOR 255}Seal Case{COLOR 0}
 a {COLOR 255}Fashion Case{COLOR 0}
 a {COLOR 255}Seal Bag{COLOR 0}
 a {COLOR 255}Pal Pad{COLOR 0}
-an {COLOR 255}Eviolite{COLOR 0}
+a {COLOR 255}Works Key{COLOR 0}
 an {COLOR 255}Old Charm{COLOR 0}
-an {COLOR 255}Assault Vest{COLOR 0}
+a {COLOR 255}Galactic Key{COLOR 0}
 a {COLOR 255}Red Chain{COLOR 0}
 a {COLOR 255}Town Map{COLOR 0}
 a {COLOR 255}Vs. Seeker{COLOR 0}
@@ -586,3 +586,5 @@ a {COLOR 255}Pixie Plate{COLOR 0}
 a {COLOR 255}Black Augurite{COLOR 0}
 a {COLOR 255}Leader’s Crest{COLOR 0}
 a {COLOR 255}Peat Block{COLOR 0}
+an {COLOR 255}Eviolite{COLOR 0}
+an {COLOR 255}Assault Vest{COLOR 0}

@@ -444,9 +444,9 @@
 #define ITEM_FASHION_CASE    435
 #define ITEM_SEAL_BAG        436
 #define ITEM_PAL_PAD         437
-#define ITEM_EVIOLITE        438
+#define ITEM_WORKS_KEY       438
 #define ITEM_OLD_CHARM       439
-#define ITEM_ASSAULT_VEST    440
+#define ITEM_GALACTIC_KEY    440
 #define ITEM_RED_CHAIN       441
 #define ITEM_TOWN_MAP        442
 #define ITEM_VS_SEEKER       443
@@ -597,16 +597,19 @@
 #define ITEM_MEGA_STONE_DIANCIE (ITEM_MEGA_STONES_START + 46)
 #define ITEM_PIXIE_PLATE (ITEM_MEGA_STONES_START + 47)
 
+/* New items */
 #define ITEM_BLACK_AUGURITE (ITEM_MEGA_STONES_START + 48)
 #define ITEM_LEADERS_CREST (ITEM_MEGA_STONES_START + 49)
 #define ITEM_PEAT_BLOCK (ITEM_MEGA_STONES_START + 50)
+#define ITEM_EVIOLITE (ITEM_MEGA_STONES_START + 51)
+#define ITEM_ASSAULT_VEST (ITEM_MEGA_STONES_START + 52)
 
-#define NUM_MEGA_STONES 51 // includes the pixie plate
+#define NUM_MEGA_STONES 47 + 6 // includes the pixie plate
 
 #define NUM_UNKNOWN_SLOTS 22 // used to adjust in data/itemdata.c
 #define NUM_UNKNOWN_SLOTS_EXPLORER_KIT (NUM_UNKNOWN_SLOTS+1) // used to adjust in data/itemdata.c
 
-#define NEW_ITEM_MAX ITEM_PEAT_BLOCK
+#define NEW_ITEM_MAX ITEM_ASSAULT_VEST
 
 
 

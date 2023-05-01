@@ -436,9 +436,9 @@ A case for storing Seals that can be\napplied to the Capsule cases of\nPoké Bal
 A fancy case for the tidy arrangement\nand storage of whimsical Pokémon\nAccessories.
 A tiny bag that can hold ten Seals for\ndecorating Poké Balls.
 A convenient notepad that is used for\nregistering your friends, Friend Codes,\nand keeping a record of game play.
-A mysterious evolutionary lump. When\nheld by a Pokémon that can still evolve,\nit boosts Defense and Sp. Def by 50%.
+A large key for operating the doors of\nthe Valley Windworks in the canyon.\nIt was held by a Team Galactic Grunt.
 An ancient good-luck charm made of\nPokémon bones to be taken to the elder\nof Celestic Town.
-An item to be held by a Pokémon. This\nvest boosts the holder’s Sp. Def by\n50%, but makes its status moves fail.
+A card key for disengaging security\nsystems in the Galactic HQ. Losing it\ncan result in punishment, apparently.
 A mythical chain that is said to link\nthe legendary Pokémon that created\nthe Sinnoh region.
 A very convenient map that can be\nviewed anytime. It even shows your\npresent location.
 A device that indicates Trainers who\nwant to battle. Its battery charges\nwhile you walk.
@@ -586,3 +586,5 @@ An item to be held by a Pokémon.\nIt is a stone tablet that boosts the\npower o
 A glassy black stone that produces\na sharp cutting edge when split.\nIt is loved by a certain Pokémon.
 A shard of what appears to be an old\nblade of some sort.\nIt is loved by a certain Pokémon.
 A block of muddy material that can be\nused as fuel for burning when dried.\nIt is loved by a certain Pokémon.
+A mysterious evolutionary lump. When\nheld by a Pokémon that can still evolve,\nit boosts Defense and Sp. Def by 50%.
+An item to be held by a Pokémon. This\nvest boosts the holder’s Sp. Def by\n50%, but makes its status moves fail.

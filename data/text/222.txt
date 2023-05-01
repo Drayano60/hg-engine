@@ -586,3 +586,5 @@ Pixie Plate
 Black Augurite
 Leader’s Crest
 Peat Block
+Eviolite
+Assault Vest

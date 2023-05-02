@@ -150,3 +150,6 @@ FLAG_MIRROR_MOVE equ 0x10
 FLAG_KINGS_ROCK  equ 0x20
 FLAG_KEEP_HP_BAR equ 0x40
 FLAG_HIDE_SHADOW equ 0x80
+
+// Repurposed as Kings Rock one isnt used now
+FLAG_SOUND 	     equ 0x20

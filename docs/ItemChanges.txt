@@ -12,6 +12,7 @@ Included Items
 - Assault Vest (makes status moves fail instead of being unselectable)
 - Roseli Berry (can't be planted)
 - Rocky Helmet
+- Throat Spray (activates even if battle is about to end)
 
 -------------------
 Cost Changes

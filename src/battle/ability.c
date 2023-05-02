@@ -16,31 +16,6 @@
 
 extern const u8 StatBoostModifiers[][2];
 
-const u16 SoundproofMoveList[] =
-{
-    MOVE_BOOMBURST,
-    MOVE_BUG_BUZZ,
-    MOVE_CHATTER,
-    MOVE_CONFIDE,
-    MOVE_DISARMING_VOICE,
-    MOVE_ECHOED_VOICE,
-    MOVE_GRASS_WHISTLE,
-    MOVE_GROWL,
-    MOVE_HEAL_BELL,
-    MOVE_HOWL,
-    MOVE_HYPER_VOICE,
-    MOVE_METAL_SOUND,
-    MOVE_NOBLE_ROAR,
-    MOVE_PERISH_SONG,
-    MOVE_ROAR,
-    MOVE_SCREECH,
-    MOVE_SING,
-    MOVE_SNARL,
-    MOVE_SNORE,
-    MOVE_SUPERSONIC,
-    MOVE_UPROAR,
-};
-
 const u16 BulletproofMoveList[] =
 {
     MOVE_ACID_SPRAY,
@@ -127,14 +102,8 @@ int MoveCheckDamageNegatingAbilities(struct BattleStruct *sp, int attacker, int 
     if (MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_SOUNDPROOF) == TRUE)
     {
         {
-            u32 i;
-
-            for (i = 0; i < NELEMS(SoundproofMoveList); i++){
-                if (SoundproofMoveList[i] == sp->current_move_index)
-                {
-                    scriptnum = SUB_SEQ_HANDLE_SOUNDPROOF;
-                    break;
-                }
+            if (sp->moveTbl[sp->current_move_index].flag & FLAG_SOUND) {
+                scriptnum = SUB_SEQ_HANDLE_SOUNDPROOF;
             }
         }
     }

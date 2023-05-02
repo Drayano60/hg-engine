@@ -68,19 +68,6 @@ static const u8 HeldItemPowerUpTable[][2]={
 #endif
 };
 
-// Copy of Soundproof list but offensive moves only
-static const u16 CacophonyMovesTable[] =
-{
-    MOVE_BOOMBURST,
-    MOVE_BUG_BUZZ,
-    MOVE_CHATTER,
-    MOVE_DISARMING_VOICE,
-    MOVE_ECHOED_VOICE,
-    MOVE_HYPER_VOICE,
-    MOVE_SNARL,
-    MOVE_UPROAR,
-};
-
 static const u16 WindWhipperMovesTable[] =
 {
     MOVE_AIR_CUTTER,
@@ -1179,14 +1166,10 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
     }
 
     // Handle Cacophony, a new ability for various sound-based Pokémon
-    if (AttackingMon.ability == ABILITY_CACOPHONY) {
-        for (i = 0; i < NELEMS(CacophonyMovesTable); i++) {
-            if (CacophonyMovesTable[i] == moveno) {
-                movepower = movepower * 133 / 100;
-                break;
-            }
-        }
-    }
+    if ((AttackingMon.ability == ABILITY_CACOPHONY) && (sp->moveTbl[sp->current_move_index].flag & FLAG_SOUND))
+    {
+        movepower = movepower * 133 / 100;
+    }   
 
     // Handle Bombardier, a new ability for Octillery
     if (AttackingMon.ability == ABILITY_BOMBARDIER) {

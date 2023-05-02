@@ -251,6 +251,9 @@
 #define FLAG_KEEP_HP_BAR (0x40)
 #define FLAG_HIDE_SHADOW (0x80)
 
+// repurposed
+#define FLAG_SOUND       (0x20)
+
 #define BATTLER_ALLY(client) (client ^ 2)
 #define BATTLER_OPPONENT(client) (client ^ 1)
 #define BATTLER_ACROSS(client) (client ^ 3)

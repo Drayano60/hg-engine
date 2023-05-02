@@ -222,7 +222,7 @@ u32 ServerWazaHitAfterCheckAct(void *bw, struct BattleStruct *sp)
                     ((sp->battlemon[sp->attack_client].states[STAT_SPATK] < 12) && (GetBattlerAbility(sp,sp->attack_client) != ABILITY_CONTRARY))
                     || ((sp->battlemon[sp->attack_client].states[STAT_SPATK] > 0) && (GetBattlerAbility(sp,sp->attack_client) == ABILITY_CONTRARY))
                 )
-                // Add condition to check for sound move
+                && (sp->moveTbl[sp->current_move_index].flag & FLAG_SOUND)
                 && (sp->battlemon[sp->attack_client].hp)
             )
             {

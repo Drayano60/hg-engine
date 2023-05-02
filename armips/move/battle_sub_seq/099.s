@@ -13,6 +13,7 @@ a001_099:
     abilitycheck 0x0, BATTLER_REPLACE, ABILITY_MAGIC_GUARD, _01A8
     if IF_MASK, VAR_FIELD_EFFECT, 0x7000, _0098
     checkitemeffect 0x0, BATTLER_REPLACE, 0x6A, _0098
+    checkitemeffect 0x0, BATTLER_REPLACE, 154, _0158 /* Air Balloon ignores spikes and toxic spikes */
     abilitycheck 0x0, BATTLER_REPLACE, ABILITY_LEVITATE, _0158
     ifmonstat IF_EQUAL, BATTLER_REPLACE, MON_DATA_TYPE_1, 0x2, _0158
     ifmonstat IF_EQUAL, BATTLER_REPLACE, MON_DATA_TYPE_2, 0x2, _0158

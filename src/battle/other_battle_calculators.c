@@ -50,6 +50,14 @@ static const u16 TriageMoveEffects[] = {
     MOVE_EFFECT_HEALING_WISH,
 };
 
+const u16 PowderMovesList[] = {
+    MOVE_COTTON_SPORE,
+    MOVE_POISON_POWDER,
+    MOVE_SLEEP_POWDER,
+    MOVE_SPORE,
+    MOVE_STUN_SPORE,
+};
+
 // set sp->waza_status_flag |= MOVE_STATUS_FLAG_MISS if a miss
 BOOL CalcAccuracy(void *bw, struct BattleStruct *sp, int attacker, int defender, int move_no)
 {
@@ -80,8 +88,24 @@ BOOL CalcAccuracy(void *bw, struct BattleStruct *sp, int attacker, int defender,
      && sp->moveTbl[move_no].split == SPLIT_STATUS // move is actually status
      && (attacker & 1) != (defender & 1)) // used on an enemy
     {
-        sp->waza_status_flag |= MOVE_STATUS_FLAG_FAILED;
+        sp->waza_status_flag |= MOVE_STATUS_FLAG_NOT_EFFECTIVE;
         return FALSE;
+    }
+
+    int i;
+
+    for (i = 0; i < NELEMS(PowderMovesList); i++) {
+        if (sp->current_move_index == PowderMovesList[i]) {
+            if
+            (
+                (BattlePokemonParamGet(sp, sp->defence_client, BATTLE_MON_DATA_TYPE1, NULL) == TYPE_GRASS) ||
+                (BattlePokemonParamGet(sp, sp->defence_client, BATTLE_MON_DATA_TYPE2, NULL) == TYPE_GRASS)
+            )
+            {
+                sp->waza_status_flag |= MOVE_STATUS_FLAG_NOT_EFFECTIVE;
+                return FALSE;
+            }
+        }
     }
 
     if (GetBattlerAbility(sp, attacker) == ABILITY_NORMALIZE)

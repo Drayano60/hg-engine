@@ -40,8 +40,7 @@ const u16 BulletproofMoveList[] =
     MOVE_ZAP_CANNON,
 };
 
-const u16 PowderMoveList[] =
-{
+const u16 PowderMoveList[] = {
     MOVE_COTTON_SPORE,
     MOVE_POISON_POWDER,
     MOVE_SLEEP_POWDER,
@@ -274,47 +273,8 @@ int MoveCheckDamageNegatingAbilities(struct BattleStruct *sp, int attacker, int 
         }
     }
 
-    /* Section for type checks */
-    /* This works fine here despite not being an ability even in the case of things like Gastro Acid */
-    /* Not sure if the priority order for the checks is correct though */
-
-    /* Handle Grass Pokémon immunity against powder based moves */
-    if ((BattlePokemonParamGet(sp, sp->defence_client, BATTLE_MON_DATA_TYPE1, NULL) == TYPE_GRASS) ||
-        (BattlePokemonParamGet(sp, sp->defence_client, BATTLE_MON_DATA_TYPE2, NULL) == TYPE_GRASS)) {
-        {
-            u32 i;
-
-            for (i = 0; i < NELEMS(PowderMoveList); i++) {
-                if (PowderMoveList[i] == sp->current_move_index)
-                {
-                    scriptnum = SUB_SEQ_HANDLE_IMMUNITY;
-                    break;
-                }
-            }
-        }
-    }
-
-
-    /*
-    Commented out because Blu added code for this in other_battle_calculators.c
-    
-    Dark-types are immune to status moves affected by Prankster (unless they are self-targeting)
-    This may not work properly with the Assist interaction? Needs testing
-    if (GetBattlerAbility(sp, attacker) == ABILITY_PRANKSTER && sp->moveTbl[sp->current_move_index].split == SPLIT_STATUS) {
-        if (
-            ((BattlePokemonParamGet(sp, sp->defence_client, BATTLE_MON_DATA_TYPE1, NULL) == TYPE_DARK) ||
-            (BattlePokemonParamGet(sp, sp->defence_client, BATTLE_MON_DATA_TYPE2, NULL) == TYPE_DARK)) &&
-            (sp->attack_client != sp->defence_client)
-        ) {
-            scriptnum = SUB_SEQ_HANDLE_IMMUNITY;
-        }
-    }
-    */
-
     return scriptnum;
 }
-
-
 
 enum
 {

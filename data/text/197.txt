@@ -1417,3 +1417,9 @@ The foe’s {STRVAR_1 1, 0, 0} is overflowing with\nspace power!
 {STRVAR_1 1, 0, 0} is about to be\nattacked by its {STRVAR_1 8, 1, 0}!\r 
 The wild {STRVAR_1 1, 0, 0} is about to be\nattacked by its {STRVAR_1 8, 1, 0}!\r 
 The foe’s {STRVAR_1 1, 0, 0} is about to be\nattacked by its {STRVAR_1 8, 1, 0}!\r 
+{STRVAR_1 1, 0, 0} floats in the air\nwith its {STRVAR_1 8, 1, 0}!
+The wild {STRVAR_1 1, 0, 0} floats in the air\nwith its {STRVAR_1 8, 1, 0}!
+The foe’s {STRVAR_1 1, 0, 0} floats in the air\nwith its {STRVAR_1 8, 1, 0}!
+{STRVAR_1 1, 0, 0}’s {STRVAR_1 8, 1, 0} popped!
+The wild {STRVAR_1 1, 0, 0}’s {STRVAR_1 8, 1, 0}\npopped!
+The foe’s {STRVAR_1 1, 0, 0}’s {STRVAR_1 8, 1, 0}\npopped!

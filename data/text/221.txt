@@ -592,4 +592,5 @@ If held by a Pokémon, it weakens a foe’s\nsupereffective Fairy-type attack.\n
 An item to be held by a Pokémon. If the\nholder is hit with a contact move, the\nattacker is damaged by a sixth of its HP.
 An item to be held by a Pokémon. If the\nholder uses a sound-based move, this\nthroat spray boosts its Sp. Atk stat.
 An item to be held by a Pokémon. If the\nholder is hit by a move it is weak to,\nits Attack and Sp. Atk sharply increase.
+An item to be held by a Pokémon.\nThe holder floats in the air until hit.\nThis item bursts when the holder is hit.
 -

@@ -139,6 +139,19 @@ u32 MoveHitUTurnHeldItemEffectCheck(void *bw, struct BattleStruct *sp, int *seq_
         ret = TRUE;
     }
 
+    if
+    (
+        (def_hold_eff == HOLD_EFFECT_AIR_BALLOON)
+        && (sp->battlemon[sp->defence_client].hp)
+        && (sp->oneSelfFlag[sp->defence_client].physical_damage || sp->oneSelfFlag[sp->defence_client].special_damage)
+    )
+    {
+        sp->client_work = sp->defence_client;
+        sp->item_work = sp->battlemon[sp->defence_client].item;
+        seq_no[0] = SUB_SEQ_HANDLE_AIR_BALLOON_BURST;
+        ret = TRUE;   
+    }
+
     return ret;
 }
 
@@ -367,6 +380,7 @@ BOOL CheckDefenderItemEffectOnHit(void *bw, struct BattleStruct *sp, int *seq_no
             }
             break;
         // Weakness Policy
+        // The Mold Breaker + Contrary interaction is probably wrong
         case HOLD_EFFECT_WEAKNESS_POLICY:
             if
             (
@@ -388,6 +402,19 @@ BOOL CheckDefenderItemEffectOnHit(void *bw, struct BattleStruct *sp, int *seq_no
                 ret = TRUE;
             }
             break;
+        case HOLD_EFFECT_AIR_BALLOON:
+            if
+            (
+                (sp->battlemon[sp->defence_client].hp)
+                && (sp->oneSelfFlag[sp->defence_client].physical_damage || sp->oneSelfFlag[sp->defence_client].special_damage)
+                && ((sp->server_status_flag2 & SERVER_STATUS_FLAG2_U_TURN) == 0)
+            )
+            {
+                sp->client_work = sp->defence_client;
+                sp->item_work = sp->battlemon[sp->defence_client].item;
+                seq_no[0] = SUB_SEQ_HANDLE_AIR_BALLOON_BURST;
+                ret = TRUE;
+            }
         default:
             break;
     }

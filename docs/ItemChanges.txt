@@ -14,6 +14,7 @@ Included Items
 - Rocky Helmet
 - Throat Spray (activates even if battle is about to end)
 - Weakness Policy
+- Air Balloon
 
 -------------------
 Cost Changes

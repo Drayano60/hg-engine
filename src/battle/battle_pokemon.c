@@ -930,4 +930,5 @@ void ClearBattleMonFlags(struct BattleStruct *sp, int client)
     sp->battlemon[client].imposter_flag = 0;
     sp->battlemon[client].critical_hits = 0;
     sp->battlemon[client].text_on_ability_entry_flag = 0;
+    sp->battlemon[client].text_on_item_entry_flag = 0;
 }

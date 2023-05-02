@@ -341,6 +341,7 @@ enum
     SWITCH_IN_CHECK_IMPOSTER,
     SWITCH_IN_CHECK_AIR_LOCK,
     SWITCH_IN_CHECK_SUPREME_OVERLORD,
+    SWITCH_IN_CHECK_AIR_BALLOON,
     SWITCH_IN_CHECK_END,
 };
 
@@ -1213,6 +1214,26 @@ int SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
                 }
 
                 break;
+            /* Show Air Balloon message if the Pokémon holds one.
+             * This doesn't really feel appropriate here (there's probably some unexposed function that's better) but it seems to work?
+             * If a Pokémon has an Air Balloon and an ability that shows a message, they do both show. */
+            case SWITCH_IN_CHECK_AIR_BALLOON:
+            {
+                for (i = 0; i < client_set_max; i++)
+                {   
+                    client_no = sp->turn_order[i];
+
+                    if (GetBattleMonItem(sp, client_no) == ITEM_AIR_BALLOON && (sp->battlemon[client_no].text_on_item_entry_flag == 0)) {
+                        sp->battlemon[client_no].text_on_item_entry_flag = 1;
+                        sp->client_work = client_no;
+
+                        scriptnum = SUB_SEQ_HANDLE_AIR_BALLOON_MESSAGE;
+
+                        ret = SWITCH_IN_CHECK_MOVE_SCRIPT;
+                        break;
+                    }
+                }
+            }
                 // 02253D78
             case SWITCH_IN_CHECK_END:
                 sp->switch_in_check_seq_no = 0;

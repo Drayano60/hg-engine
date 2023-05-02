@@ -96,6 +96,22 @@ BOOL CalcAccuracy(void *bw, struct BattleStruct *sp, int attacker, int defender,
     {
         move_type = sp->moveTbl[move_no].type;
     }
+
+
+    if
+    (
+        (GetBattleMonItem(sp, defender) == ITEM_AIR_BALLOON)
+        && (move_type == TYPE_GROUND)
+        && (sp->moveTbl[move_no].split != SPLIT_STATUS)
+        && ((sp->field_condition & FIELD_STATUS_GRAVITY) == 0)
+        && ((sp->battlemon[sp->defence_client].effect_of_moves & MOVE_EFFECT_FLAG_INGRAIN) == 0)
+    )
+    {
+        sp->waza_status_flag |= MOVE_STATUS_FLAG_NOT_EFFECTIVE;
+
+        return FALSE;
+    }
+
     move_split = sp->moveTbl[move_no].split;
 
     stat_stage_acc = sp->battlemon[attacker].states[STAT_ACCURACY] - 6;

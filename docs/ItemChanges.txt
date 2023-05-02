@@ -1,3 +1,11 @@
+To add new item sprites:
+- Make 32x32 square in paint with single colour
+- Paste item sprite at top left
+- Copy this image into GIMP, index to 16 colours
+- Open the Colormap dockable dialog, right click and select Rearrange Colormap
+- Drag the colour in the background to be the first colour 
+- Export as PNG and insert into the data/graphics/item folder
+
 -------------------
 Included Items
 -------------------
@@ -7,6 +15,9 @@ Included Items
 - Ice Stone (replaces Coupon 1)
 - Prism Scale (replaces Coupon 2)
 - Linking Cord (replaces Coupon 3)
+- Peat Block
+- Leader's Crest
+- Black Augurite
 - Pixie Plate
 - Eviolite 
 - Assault Vest (makes status moves fail instead of being unselectable)

@@ -143,6 +143,8 @@
 
 #define SUB_SEQ_HANDLE_POST_ANTICIPATION (355)
 
+#define SUB_SEQ_HANDLE_ROCKY_HELMET (357)
+
 
 // additional effect constants
 #define ADD_STATUS_NONE (0)

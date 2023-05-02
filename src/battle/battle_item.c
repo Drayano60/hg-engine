@@ -86,6 +86,19 @@ u32 MoveHitUTurnHeldItemEffectCheck(void *bw, struct BattleStruct *sp, int *seq_
         ret = TRUE;
     }
 
+    if (
+        (def_hold_eff == HOLD_EFFECT_DAMAGE_ON_CONTACT) // rocky helmet
+        && (sp->battlemon[sp->attack_client].hp)
+        && (GetBattlerAbility(sp, sp->attack_client) != ABILITY_MAGIC_GUARD)
+        && (sp->oneSelfFlag[sp->defence_client].physical_damage) || (sp->oneSelfFlag[sp->defence_client].special_damage)
+        && (sp->moveTbl[sp->current_move_index].flag & FLAG_CONTACT)
+    )
+    {
+        sp->hp_calc_work = BattleDamageDivide(sp->battlemon[sp->attack_client].maxhp * -1, def_item_param);
+        seq_no[0] = SUB_SEQ_HANDLE_ROCKY_HELMET;
+        ret = TRUE;
+    }
+
     return ret;
 }
 
@@ -270,6 +283,26 @@ BOOL CheckDefenderItemEffectOnHit(void *bw, struct BattleStruct *sp, int *seq_no
             }
             break;
 
+        case HOLD_EFFECT_DAMAGE_ON_CONTACT:                     // Rocky Helmet
+            // Attacker is alive after the attack
+            if ((sp->battlemon[sp->attack_client].hp)
+                // Attacker does not have Magic Guard
+                && (GetBattlerAbility(sp, sp->attack_client) != ABILITY_MAGIC_GUARD)
+                // Attacker is not holding an item that prevents contact effects, e.g. Protective Pads
+                // && (GetHeldItemHoldEffect(sp, sp->attack_client) != HOLD_EFFECT_PREVENT_CONTACT_EFFECTS)
+                // Damage was dealt
+                && ((sp->oneSelfFlag[sp->defence_client].physical_damage)
+                    || (sp->oneSelfFlag[sp->defence_client].special_damage))
+                // Attacker is not U-turning
+                && ((sp->server_status_flag2 & SERVER_STATUS_FLAG2_U_TURN) == 0)
+                // Attacker used a move that makes contact
+                && (sp->moveTbl[sp->current_move_index].flag & FLAG_CONTACT)) {
+                sp->hp_calc_work = BattleDamageDivide(sp->battlemon[sp->attack_client].maxhp * -1, itemPower);
+                seq_no[0] = SUB_SEQ_HANDLE_ROCKY_HELMET;
+                ret = TRUE;
+            }
+            break;
+
             //these effects are not usable at all yet
 #ifdef LATER_GEN_ITEM_EFFECTS
             // gen5 effects
@@ -347,24 +380,6 @@ BOOL CheckDefenderItemEffectOnHit(void *bw, struct BattleStruct *sp, int *seq_no
                     || (sp->oneSelfFlag[sp->defence_client].special_damage))) {
                 seq_no[0] = SUB_SEQ_HANDLE_RED_CARD;
                 ret       = TRUE;
-            }
-            break;
-
-        case HOLD_EFFECT_DAMAGE_ON_CONTACT:                     // Rocky Helmet
-            // Attacker is alive after the attack
-            if ((sp->battlemon[sp->attack_client].hp)
-                // Attacker does not have Magic Guard
-                && (GetBattlerAbility(sp, sp->attack_client) != ABILITY_MAGIC_GUARD)
-                // Attacker is not holding an item that prevents contact effects, e.g. Protective Pads
-                && (GetHeldItemHoldEffect(sp, sp->attack_client) != HOLD_EFFECT_PREVENT_CONTACT_EFFECTS)
-                // Damage was dealt
-                && ((sp->oneSelfFlag[sp->defence_client].physical_damage)
-                    || (sp->oneSelfFlag[sp->defence_client].special_damage))
-                // Attacker used a move that makes contact
-                && (sp->moveTbl[sp->current_move_index].flag & FLAG_CONTACT)) {
-                sp->hp_calc_work = BattleDamageDivide(sp->battlemon[sp->attack_client].maxhp * -1, itemPower);
-                seq_no[0]                = SUB_SEQ_PHYSICAL_DMG_RECOIL;
-                ret                      = TRUE;
             }
             break;
 

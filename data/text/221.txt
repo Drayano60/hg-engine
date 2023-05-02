@@ -589,3 +589,4 @@ A block of muddy material that can be\nused as fuel for burning when dried.\nIt 
 A mysterious evolutionary lump. When\nheld by a Pokémon that can still evolve,\nit boosts Defense and Sp. Def by 50%.
 An item to be held by a Pokémon. This\nvest boosts the holder’s Sp. Def by\n50%, but makes its status moves fail.
 If held by a Pokémon, it weakens a foe’s\nsupereffective Fairy-type attack.\n(This Berry cannot be planted.)
+An item to be held by a Pokémon. If the\nholder is hit with a contact move, the\nattacker is damaged by a sixth of its HP.

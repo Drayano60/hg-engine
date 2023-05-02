@@ -11,6 +11,7 @@ Included Items
 - Eviolite 
 - Assault Vest (makes status moves fail instead of being unselectable)
 - Roseli Berry (can't be planted)
+- Rocky Helmet
 
 -------------------
 Cost Changes

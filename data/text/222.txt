@@ -436,9 +436,9 @@ Seal Case
 Fashion Case
 Seal Bag
 Pal Pad
-Eviolite
+Works Key
 Old Charm
-Assault Vest
+Galactic Key
 Red Chain
 Town Map
 Vs. Seeker
@@ -589,3 +589,4 @@ Peat Block
 Eviolite
 Assault Vest
 Roseli Berry
+Rocky Helmet

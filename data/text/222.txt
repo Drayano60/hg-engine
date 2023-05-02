@@ -590,3 +590,5 @@ Eviolite
 Assault Vest
 Roseli Berry
 Rocky Helmet
+Throat Spray
+-

@@ -127,6 +127,7 @@ enum
 	SWHAC_RAGE_ATTACK_CHECK=0,
 	SWHAC_HELD_ITEM_SHELL_BELL,
 	SWHAC_HELD_ITEM_LIFE_ORB,
+    SHWAC_HELD_ITEM_THROAT_SPRAY,
 	SWHAC_END
 };
 
@@ -164,7 +165,7 @@ u32 ServerWazaHitAfterCheckAct(void *bw, struct BattleStruct *sp)
             sp->swhac_seq_no++;
             
             if (GetBattlerAbility(sp,sp->attack_client) == ABILITY_SHEER_FORCE && sp->battlemon[sp->attack_client].sheer_force_flag == 1) // skip over shell bell and life orb if sheer force is active
-                sp->swhac_seq_no = SWHAC_END;
+                sp->swhac_seq_no = SHWAC_HELD_ITEM_THROAT_SPRAY;
 
             break;
         case SWHAC_HELD_ITEM_SHELL_BELL:
@@ -205,6 +206,30 @@ u32 ServerWazaHitAfterCheckAct(void *bw, struct BattleStruct *sp)
                 sp->hp_calc_work = BattleDamageDivide(sp->battlemon[sp->attack_client].maxhp * -1, 10);
                 sp->client_work = sp->attack_client;
                 LoadBattleSubSeqScript(sp, FILE_BATTLE_SUB_SCRIPTS, SUB_SEQ_LIFE_ORB);
+                sp->next_server_seq_no = sp->server_seq_no;
+                sp->server_seq_no = 22;
+                ret = 1;
+            }
+            sp->swhac_seq_no++;
+            break;
+        case SHWAC_HELD_ITEM_THROAT_SPRAY:
+            if
+            (
+                (hold_effect == HOLD_EFFECT_SPATK_AFTER_SOUND_MOVE)
+                && ((sp->server_status_flag2 & SERVER_STATUS2_FLAG_x10) == 0) // What does this mean?
+                && (sp->server_status_flag & SERVER_STATUS_FLAG_MOVE_HIT)
+                && (
+                    ((sp->battlemon[sp->attack_client].states[STAT_SPATK] < 12) && (GetBattlerAbility(sp,sp->attack_client) != ABILITY_CONTRARY))
+                    || ((sp->battlemon[sp->attack_client].states[STAT_SPATK] > 0) && (GetBattlerAbility(sp,sp->attack_client) == ABILITY_CONTRARY))
+                )
+                // Add condition to check for sound move
+                && (sp->battlemon[sp->attack_client].hp)
+            )
+            {
+                sp->addeffect_type = ADD_STATUS_SOUBIITEM;
+                sp->state_client = sp->attack_client;
+                sp->item_work = sp->battlemon[sp->attack_client].item;
+                LoadBattleSubSeqScript(sp, FILE_BATTLE_SUB_SCRIPTS, SUB_SEQ_HANDLE_THROAT_SPRAY);
                 sp->next_server_seq_no = sp->server_seq_no;
                 sp->server_seq_no = 22;
                 ret = 1;

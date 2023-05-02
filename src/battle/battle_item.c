@@ -118,6 +118,27 @@ u32 MoveHitUTurnHeldItemEffectCheck(void *bw, struct BattleStruct *sp, int *seq_
         ret = TRUE;
     }
 
+    if
+    (
+        // Weakness Policy
+        (def_hold_eff == HOLD_EFFECT_WEAKNESS_POLICY)
+        && (sp->battlemon[sp->defence_client].hp)
+        && (sp->oneSelfFlag[sp->defence_client].physical_damage || sp->oneSelfFlag[sp->defence_client].special_damage)
+        && (sp->waza_status_flag & MOVE_STATUS_FLAG_SUPER_EFFECTIVE)
+        && (
+            ((GetBattlerAbility(sp,sp->defence_client) == ABILITY_CONTRARY) && (sp->battlemon[sp->defence_client].states[STAT_ATTACK] > 0) && (sp->battlemon[sp->defence_client].states[STAT_SPATK] > 0))
+            ||
+            ((sp->battlemon[sp->defence_client].states[STAT_ATTACK] < 12) && (sp->battlemon[sp->defence_client].states[STAT_SPATK] < 12))
+        )
+    )
+    {
+        sp->addeffect_type = ADD_STATUS_SOUBIITEM;
+        sp->state_client = sp->defence_client;
+        sp->item_work = sp->battlemon[sp->defence_client].item;
+        seq_no[0] = SUB_SEQ_HANDLE_WEAKNESS_POLICY;
+        ret = TRUE;
+    }
+
     return ret;
 }
 
@@ -218,12 +239,13 @@ u32 ServerWazaHitAfterCheckAct(void *bw, struct BattleStruct *sp)
                 (hold_effect == HOLD_EFFECT_SPATK_AFTER_SOUND_MOVE)
                 && ((sp->server_status_flag2 & SERVER_STATUS2_FLAG_x10) == 0) // What does this mean?
                 && (sp->server_status_flag & SERVER_STATUS_FLAG_MOVE_HIT)
-                && (
-                    ((sp->battlemon[sp->attack_client].states[STAT_SPATK] < 12) && (GetBattlerAbility(sp,sp->attack_client) != ABILITY_CONTRARY))
-                    || ((sp->battlemon[sp->attack_client].states[STAT_SPATK] > 0) && (GetBattlerAbility(sp,sp->attack_client) == ABILITY_CONTRARY))
-                )
                 && (sp->moveTbl[sp->current_move_index].flag & FLAG_SOUND)
                 && (sp->battlemon[sp->attack_client].hp)
+                && (
+                    ((GetBattlerAbility(sp,sp->attack_client) == ABILITY_CONTRARY) && (sp->battlemon[sp->attack_client].states[STAT_SPATK] > 0))
+                    ||
+                    ((sp->battlemon[sp->attack_client].states[STAT_SPATK] < 12))
+                )
             )
             {
                 sp->addeffect_type = ADD_STATUS_SOUBIITEM;
@@ -341,6 +363,28 @@ BOOL CheckDefenderItemEffectOnHit(void *bw, struct BattleStruct *sp, int *seq_no
             ) {
                 sp->hp_calc_work = BattleDamageDivide(sp->battlemon[sp->attack_client].maxhp * -1, itemPower);
                 seq_no[0] = SUB_SEQ_HANDLE_ROCKY_HELMET;
+                ret = TRUE;
+            }
+            break;
+        // Weakness Policy
+        case HOLD_EFFECT_WEAKNESS_POLICY:
+            if
+            (
+                (sp->battlemon[sp->defence_client].hp)
+                && (sp->oneSelfFlag[sp->defence_client].physical_damage || sp->oneSelfFlag[sp->defence_client].special_damage)
+                && (sp->waza_status_flag & MOVE_STATUS_FLAG_SUPER_EFFECTIVE)
+                && ((sp->server_status_flag2 & SERVER_STATUS_FLAG2_U_TURN) == 0)
+                && (
+                    ((GetBattlerAbility(sp,sp->defence_client) == ABILITY_CONTRARY) && (sp->battlemon[sp->defence_client].states[STAT_ATTACK] > 0) && (sp->battlemon[sp->defence_client].states[STAT_SPATK] > 0))
+                    ||
+                    ((sp->battlemon[sp->defence_client].states[STAT_ATTACK] < 12) && (sp->battlemon[sp->defence_client].states[STAT_SPATK] < 12))
+                )
+            )
+            {
+                sp->addeffect_type = ADD_STATUS_SOUBIITEM;
+                sp->state_client = sp->defence_client;
+                sp->item_work = sp->battlemon[sp->defence_client].item;
+                seq_no[0] = SUB_SEQ_HANDLE_WEAKNESS_POLICY;
                 ret = TRUE;
             }
             break;

@@ -606,9 +606,10 @@
 #define ITEM_ROSELI_BERRY (ITEM_MEGA_STONES_START + 53)
 #define ITEM_ROCKY_HELMET (ITEM_MEGA_STONES_START + 54)
 #define ITEM_THROAT_SPRAY (ITEM_MEGA_STONES_START + 55)
-#define ITEM_BUFFER (ITEM_MEGA_STONES_START + 56)
+#define ITEM_WEAKNESS_POLICY (ITEM_MEGA_STONES_START + 56)
+#define ITEM_BUFFER (ITEM_MEGA_STONES_START + 57)
 
-#define NUM_MEGA_STONES 47 + 10 // includes the pixie plate
+#define NUM_MEGA_STONES 47 + 11 // includes the pixie plate
 
 #define NUM_UNKNOWN_SLOTS 22 // used to adjust in data/itemdata.c
 #define NUM_UNKNOWN_SLOTS_EXPLORER_KIT (NUM_UNKNOWN_SLOTS+1) // used to adjust in data/itemdata.c

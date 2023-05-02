@@ -591,4 +591,5 @@ An item to be held by a Pokémon. This\nvest boosts the holder’s Sp. Def by\n5
 If held by a Pokémon, it weakens a foe’s\nsupereffective Fairy-type attack.\n(This Berry cannot be planted.)
 An item to be held by a Pokémon. If the\nholder is hit with a contact move, the\nattacker is damaged by a sixth of its HP.
 An item to be held by a Pokémon. If the\nholder uses a sound-based move, this\nthroat spray boosts its Sp. Atk stat.
+An item to be held by a Pokémon. If the\nholder is hit by a move it is weak to,\nits Attack and Sp. Atk sharply increase.
 -

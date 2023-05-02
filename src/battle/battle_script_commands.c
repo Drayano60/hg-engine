@@ -798,7 +798,19 @@ BOOL btl_scr_cmd_33_statbuffchange(void *bw, struct BattleStruct *sp)
             }
             else if (sp->addeffect_type == ADD_EFFECT_HELD_ITEM)
             {
-                sp->mp.msg_id = BATTLE_MSG_ITEM_RAISED_STAT;
+                switch (statchange)
+                {
+                case 1:
+                    sp->mp.msg_id = BATTLE_MSG_ITEM_RAISED_STAT;
+                    break;
+                case 2:
+                    sp->mp.msg_id = BATTLE_MSG_ITEM_SHARPLY_RAISED_STAT;
+                    break;
+                default:
+                    sp->mp.msg_id = BATTLE_MSG_STAT_RAISED_DRASTICALLY;
+                    break;
+                }
+
                 sp->mp.msg_tag = TAG_NICK_ITEM_STAT;
                 sp->mp.msg_para[0] = TagNickParaMake(sp, sp->state_client);
                 sp->mp.msg_para[1] = sp->item_work;

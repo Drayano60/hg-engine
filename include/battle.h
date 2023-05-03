@@ -399,7 +399,12 @@ struct __attribute__((packed)) BattleMove
     u16 target; //0x8
     s8 priority; //0xA
     u8 flag; //0xB
-    u8 unk[4]; //0xC, length = 4
+
+    /* Pulled from the initial unk[4] */
+    u8 appeal; //0xC
+    u8 contestType; //0xD
+    
+    u8 unk[2]; //0xE, length = 2
 
     //this takes up 0x10
 };

@@ -271,6 +271,12 @@ Users: Glaceon.
 Effect: A Pokémon that attacks Glaceon with a contact move will take damage equal to 1/8 of its max HP.
 Notes: A clone of Rough Skin for Glaceon specifically, inspired by several Pokédex entries mentioning its ability to freeze its fur into spikes as a protective technique. This should also pair nicely with Glaceon's naturally good defensive stats.
 
+Lunar Energy
+-------------------
+Users: Lunatone
+Effect: Powers up Fairy-type moves by 50%.
+Notes: Inspired by Steelworker, gives what is essentially a third STAB to Lunatone to fit with the moon theme without changing its type. (Fairy seems most aligned with the moon, eg Moonlight, Moonblast, Clefairy in general etc.)
+
 Infernal Body
 -------------------
 Users: Slugma, Magcargo.
@@ -282,6 +288,12 @@ Poison Sweat
 Users: Umbreon.
 Effect: If an opponent attacks the Pokémon with Poison Sweat with a contact move, they have a 30% chance of becoming poisoned.
 Notes: A simple Poison Point clone to fit with Umbreon's Pokédex entries that mention it secreting poisonous sweat.
+
+Solar Energy
+-------------------
+Users: Solrock
+Effect: Powers up Fire-type moves by 50%.
+Notes: Inspired by Steelworker, gives what is essentially a third STAB to Solrock to fit with the sun theme without changing its type.
 
 Sunny Mood
 -------------------

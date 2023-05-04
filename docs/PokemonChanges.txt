@@ -12088,7 +12088,7 @@ Level Up Moves:
 -------------------
 337 - Lunatone
 -------------------
-Abilities: Levitate / Levitate / Levitate
+Abilities: Levitate / Levitate / Levitate ⟶ Levitate / Levitate / Lunar Energy***
 Base Stats: 90/55/65/95/85/70 (460) ⟶ 90/50*/65/110*/90*/70 (475)
 Held Item: Moon Stone (5%)
 Type: Rock / Psychic
@@ -12121,7 +12121,7 @@ Level Up Moves:
 -------------------
 338 - Solrock
 -------------------
-Abilities: Levitate / Levitate / Levitate
+Abilities: Levitate / Levitate / Levitate ⟶ Levitate / Levitate / Solar Energy***
 Base Stats: 90/95/85/55/65/70 (460) ⟶ 90/110*/90*/50*/65/70 (475)
 Held Item: Sun Stone (5%)
 Type: Rock / Psychic

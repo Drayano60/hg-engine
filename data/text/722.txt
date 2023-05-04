@@ -196,7 +196,9 @@ The Pokémon’s fur stops\nit taking recoil damage.
 Boosts Sp. Atk if a foe is\nKOed with a Fire move.
 Contact damages the foe\nby 12.5% of their max HP.
 Contact is guaranteed to\nburn the attacker.
+Powers up Fairy-type\nmoves by 50%.
 Contact has a 30% chance\nto poison the attacker.
+Powers up Fire-type\nmoves by 50%.
 Sun is harsh for 3 turns.\nDoubles Speed in sunshine.
 Odd steps foul a foe’s aim,\nreducing accuracy by 10%.
 Contact has a 30% chance\nof badly poisoning the foe.

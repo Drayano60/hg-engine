@@ -476,7 +476,7 @@
 /* SPECIES_TOGEKISS                    */ .halfword ABILITY_SUPER_LUCK
 /* SPECIES_YANMEGA                     */ .halfword ABILITY_FRISK
 /* SPECIES_LEAFEON                     */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_SHARPNESS : ABILITY_CHLOROPHYLL
-/* SPECIES_GLACEON                     */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_DEEP_FREEZE : ABILITY_ICE_BODY
+/* SPECIES_GLACEON                     */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_ICE_SPIKES : ABILITY_ICE_BODY
 /* SPECIES_GLISCOR                     */ .halfword ABILITY_POISON_HEAL
 /* SPECIES_MAMOSWINE                   */ .halfword ABILITY_THICK_FAT
 /* SPECIES_PORYGON_Z                   */ .halfword ABILITY_ANALYTIC

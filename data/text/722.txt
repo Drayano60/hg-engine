@@ -192,9 +192,9 @@ Bug moves have 30% chance\nto cause a status effect.
 Powers up ball, bomb and\ncannon moves by 33%.
 Powers up sound-based\nmoves by 33%.
 Powers up moves used by\nallies by 15%.
-Ice-type moves lower the\nSp. Def of Steel-types.
 The Pokémon’s fur stops\nit taking recoil damage.
 Boosts Sp. Atk if a foe is\nKOed with a Fire move.
+Contact damages the foe\nby 12.5% of their max HP.
 Contact is guaranteed to\nburn the attacker.
 Contact has a 30% chance\nto poison the attacker.
 Sun is harsh for 3 turns.\nDoubles Speed in sunshine.

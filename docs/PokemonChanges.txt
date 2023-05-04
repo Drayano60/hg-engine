@@ -5245,8 +5245,8 @@ Level Up Moves:
 -------------------
 471 - Glaceon
 -------------------
-Abilities: Snow Cloak / Snow Cloak / Ice Body ⟶ Snow Cloak / Slush Rush** / Deep Freeze***
-Base Stats: 65/60/110/130/95/65 (525) ⟶ 65/60/110/130/65*/95* (525)
+Abilities: Snow Cloak / Snow Cloak / Ice Body ⟶ Ice Body / Slush Rush** / Ice Spikes***
+Base Stats: 65/60/110/130/95/65 (525)
 Held Item: None
 Type: Ice
 

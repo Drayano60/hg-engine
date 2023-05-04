@@ -12219,14 +12219,9 @@ mondata SPECIES_LEAFEON, "Leafeon"
     mondexweight SPECIES_LEAFEON, "56.2 lbs."
 
 
-// STATS: 95 >> 65 SpDef | 65 >> 95 Spd
-// ABILITY: Slush Rush (2), Deep Freeze (HA, New)
+// ABILITY: Ice Body (1), Slush Rush (2), Ice Spikes (HA, New)
 mondata SPECIES_GLACEON, "Glaceon"
-    .if STAT_CHANGES_IMPLEMENTED
-        basestats 65, 60, 110, 95, 130, 65
-    .else
-        basestats 65, 60, 110, 65, 130, 95
-    .endif
+    basestats 65, 60, 110, 65, 130, 95
     types TYPE_ICE, TYPE_ICE
     catchrate 45
     baseexp 0 // defined in baseexp.s
@@ -12238,7 +12233,7 @@ mondata SPECIES_GLACEON, "Glaceon"
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_SNOW_CLOAK, ABILITY_SLUSH_RUSH
+        abilities ABILITY_ICE_BODY, ABILITY_SLUSH_RUSH
     .else
         abilities ABILITY_SNOW_CLOAK, ABILITY_SNOW_CLOAK
     .endif

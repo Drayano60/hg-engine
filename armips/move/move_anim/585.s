@@ -9,6 +9,9 @@
 
 .create "build/move/move_anim/0_585", 0
 
+// Stored Power
+// Bit of Psycho Shift + Hidden Power
+
 a010_585:
     initspriteresource
     loadspriteresource 0
@@ -20,6 +23,25 @@ a010_585:
     loadspritemaybe 6, 0, 2, 2
     loadspritemaybe 7, 0, 3, 3
     callfunction 78, 1, 0, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
+
+    callfunction 33, 5, 0, 1, 0, 12, 0, "NaN", "NaN", "NaN", "NaN", "NaN"
+
+
+    loadparticle 0, 393
+    waitstate
+    unloadspriteresource
+    resetsprite 0
+    resetsprite 1
+    resetsprite 2
+    resetsprite 3
+    playsepan 2076, -117
+    addparticle 0, 0, 17
+    cmd37 6, 0, 2, 1, 0, 0, 0, "NaN", "NaN"
+    addparticle 0, 2, 17
+    cmd37 6, 0, 2, 1, 0, 0, 0, "NaN", "NaN"
+
+    wait 40
+
     loadparticle 0, 255
     waitstate
     unloadspriteresource
@@ -27,13 +49,7 @@ a010_585:
     resetsprite 1
     resetsprite 2
     resetsprite 3
-    callfunction 33, 5, 0, 1, 0, 12, 0, "NaN", "NaN", "NaN", "NaN", "NaN"
     waitstate
-    playsepan 1927, -117
-    addparticle 0, 1, 3
-    wait 40
-    playsepan 2015, -117
-    wait 40
     addparticle 0, 2, 3
     addparticle 0, 3, 3
     addparticle 0, 4, 3

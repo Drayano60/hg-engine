@@ -1480,3 +1480,7 @@ MOVE_DATA_CONTEST_TYPE equ 11
 .macro echoedvoicedamagecalc
     .word 0xE4
 .endmacro
+
+.macro storedpowerdamagecalc
+    .word 0xE5
+.endmacro

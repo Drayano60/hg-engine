@@ -9540,14 +9540,13 @@ movedata MOVE_JET_PUNCH, "Jet Punch"
     terminatedata
     movedescription MOVE_JET_PUNCH, "The user summons a\ntorrent around its\nfist and punches at\nspeed. This move\nalways goes first."
 
-// Copy of Hidden Power with fixed type, for AI use only
-movedata MOVE_HIDDEN_POWER_ELECTRIC, "Hidden Power"
-    battleeffect 0
+movedata MOVE_STORED_POWER, "Stored Power"
+    battleeffect 320
     pss SPLIT_SPECIAL
-    basepower 60
-    type TYPE_ELECTRIC
+    basepower 20
+    type TYPE_PSYCHIC
     accuracy 100
-    pp 15
+    pp 10
     effectchance 0
     target MOVE_TARGET_SELECTED
     priority 0
@@ -9555,7 +9554,7 @@ movedata MOVE_HIDDEN_POWER_ELECTRIC, "Hidden Power"
     appeal 0
     contesttype 0
     terminatedata
-    movedescription MOVE_HIDDEN_POWER_ELECTRIC, "FOR AI ONLY"
+    movedescription MOVE_STORED_POWER, "The user attacks with\nits stored power. For\neach stat boost the\nuser has, this move\ngains 20 more power."
 
 // Copy of Hidden Power with fixed type, for AI use only
 movedata MOVE_HIDDEN_POWER_PSYCHIC, "Hidden Power"

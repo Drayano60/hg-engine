@@ -18,6 +18,7 @@ BOOL btl_scr_cmd_E1_reduceweight(void *bw, struct BattleStruct *sp);
 BOOL btl_scr_cmd_E2_heavyslamdamagecalc(void *bw, struct BattleStruct *sp);
 BOOL btl_scr_cmd_E3_isuserlowerlevel(void *bw, struct BattleStruct *sp);
 BOOL btl_scr_cmd_E4_echoedvoicedamagecalc(void *bw, struct BattleStruct *sp);
+BOOL btl_scr_cmd_E5_storedpowerdamagecalc(void *bw, struct BattleStruct *sp);
 
 typedef BOOL (*btl_scr_cmd_func)(void *bw, struct BattleStruct *sp);
 #define START_OF_NEW_BTL_SCR_CMDS 0xE1
@@ -267,6 +268,7 @@ const btl_scr_cmd_func NewBattleScriptCmdTable[] =
     [0xE2 - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_E2_heavyslamdamagecalc,
     [0xE3 - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_E3_isuserlowerlevel,
     [0xE4 - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_E4_echoedvoicedamagecalc,
+    [0xE5 - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_E5_storedpowerdamagecalc,
 };
 
 
@@ -1321,6 +1323,45 @@ BOOL btl_scr_cmd_E4_echoedvoicedamagecalc(void *bw, struct BattleStruct *sp)
         /* Max of base power x 3, should be 120 */
         sp->damage_power = GetMoveData(sp->current_move_index, MOVE_DATA_BASE_POWER) * (sp->battlemon[sp->attack_client].moveeffect.renzokugiri_count);
     }
+
+    return FALSE;
+}
+
+BOOL btl_scr_cmd_E5_storedpowerdamagecalc(void *bw, struct BattleStruct *sp)
+{
+    IncrementBattleScriptPtr(sp, 1);
+
+    int i = 0;
+
+    if (sp->battlemon[sp->attack_client].states[STAT_ATTACK] > 6) {
+        i = (i + sp->battlemon[sp->attack_client].states[STAT_ATTACK]) - 6;
+    }
+
+    if (sp->battlemon[sp->attack_client].states[STAT_DEFENSE] > 6) {
+        i = (i + sp->battlemon[sp->attack_client].states[STAT_DEFENSE]) - 6;
+    }
+
+    if (sp->battlemon[sp->attack_client].states[STAT_SPATK] > 6) {
+        i = (i + sp->battlemon[sp->attack_client].states[STAT_SPATK]) - 6;
+    }
+
+    if (sp->battlemon[sp->attack_client].states[STAT_SPDEF] > 6) {
+        i = (i + sp->battlemon[sp->attack_client].states[STAT_SPDEF]) - 6;
+    }
+
+    if (sp->battlemon[sp->attack_client].states[STAT_SPEED] > 6) {
+        i = (i + sp->battlemon[sp->attack_client].states[STAT_SPEED]) - 6;
+    }
+
+    if (sp->battlemon[sp->attack_client].states[STAT_ACCURACY] > 6) {
+        i = (i + sp->battlemon[sp->attack_client].states[STAT_ACCURACY]) - 6;
+    }
+
+    if (sp->battlemon[sp->attack_client].states[STAT_EVASION] > 6) {
+        i = (i + sp->battlemon[sp->attack_client].states[STAT_EVASION]) - 6;
+    }
+
+    sp->damage_power = GetMoveData(sp->current_move_index, MOVE_DATA_BASE_POWER) + (i * 20);
 
     return FALSE;
 }

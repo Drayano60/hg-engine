@@ -89,7 +89,7 @@ movedata MOVE_COMET_PUNCH, "Comet Punch"
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_KEEP_HP_BAR | FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
-    appeal 0
+    appeal FLAG_PUNCH
     contesttype 0
     terminatedata
     movedescription MOVE_COMET_PUNCH, "The foe is hit with\na flurry of punches\nthat strike two to\nfive times in a row.\n"
@@ -106,7 +106,7 @@ movedata MOVE_MEGA_PUNCH, "Mega Punch"
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
-    appeal 0
+    appeal FLAG_PUNCH
     contesttype 0
     terminatedata
     movedescription MOVE_MEGA_PUNCH, "The foe is slugged\nby a punch thrown\nwith muscle-packed\npower.\n"
@@ -139,7 +139,7 @@ movedata MOVE_FIRE_PUNCH, "Fire Punch"
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
-    appeal 0
+    appeal FLAG_PUNCH
     contesttype 0
     terminatedata
     movedescription MOVE_FIRE_PUNCH, "The foe is punched\nwith a fiery fist.\nThis has a 10% chance\nto burn the foe."
@@ -155,7 +155,7 @@ movedata MOVE_ICE_PUNCH, "Ice Punch"
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
-    appeal 0
+    appeal FLAG_PUNCH
     contesttype 0
     terminatedata
     movedescription MOVE_ICE_PUNCH, "The foe is punched\nwith an icy fist.\nThis has a 10% chance\nto freeze the foe."
@@ -171,7 +171,7 @@ movedata MOVE_THUNDER_PUNCH, "Thunder Punch"
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
-    appeal 0
+    appeal FLAG_PUNCH
     contesttype 0
     terminatedata
     movedescription MOVE_THUNDER_PUNCH, "The foe is punched\nwith an electrified\nfist.\nThis has a 10% chance\nto paralyze the foe."
@@ -239,7 +239,7 @@ movedata MOVE_RAZOR_WIND, "Razor Wind"
     target MOVE_TARGET_BOTH
     priority 0
     flags FLAG_MIRROR_MOVE | FLAG_PROTECT
-    appeal 0
+    appeal FLAG_WIND // assumed
     contesttype 0
     terminatedata
     movedescription MOVE_RAZOR_WIND, "Blades of wind hit\nopposing Pokémon.\nCritical hits land\nmore easily."
@@ -276,7 +276,7 @@ movedata MOVE_CUT, "Cut"
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_KEEP_HP_BAR | FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
-    appeal 0
+    appeal FLAG_CUTTING
     contesttype 0
     terminatedata
     movedescription MOVE_CUT, "The foe is cut with a\nscythe or a claw,\nwielded like a blade.\nCritical hits land\nmore easily."
@@ -292,7 +292,7 @@ movedata MOVE_GUST, "Gust"
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_MIRROR_MOVE | FLAG_PROTECT
-    appeal 0
+    appeal FLAG_WIND
     contesttype 0
     terminatedata
     movedescription MOVE_GUST, "A gust of wind is\nwhipped up by wings\nand launched at the\nfoe to inflict damage.\n"
@@ -754,7 +754,7 @@ movedata MOVE_BITE, "Bite"
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
-    appeal 0
+    appeal FLAG_BITING
     contesttype 0
     terminatedata
     movedescription MOVE_BITE, "The foe is bitten with\nviciously sharp fangs.\nThis has a 30% chance\nto flinch the foe."
@@ -995,7 +995,7 @@ movedata MOVE_BLIZZARD, "Blizzard"
     target MOVE_TARGET_BOTH
     priority 0
     flags FLAG_HIDE_SHADOW | FLAG_MIRROR_MOVE | FLAG_PROTECT
-    appeal 0
+    appeal FLAG_WIND
     contesttype 0
     terminatedata
     movedescription MOVE_BLIZZARD, "A howling blizzard is\nsummoned to strike\nthe foe.\nThis has a 10% chance\nto freeze the foe."
@@ -1261,7 +1261,7 @@ movedata MOVE_RAZOR_LEAF, "Razor Leaf"
     target MOVE_TARGET_BOTH
     priority 0
     flags FLAG_MIRROR_MOVE | FLAG_PROTECT
-    appeal 0
+    appeal FLAG_CUTTING
     contesttype 0
     terminatedata
     movedescription MOVE_RAZOR_LEAF, "Sharp-edged leaves\nare launched to slash\nat the foe. It has a\nhigh critical-hit\nratio."
@@ -1293,7 +1293,7 @@ movedata MOVE_POISON_POWDER, "Poison Powder"
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_KEEP_HP_BAR | FLAG_MIRROR_MOVE | FLAG_MAGIC_COAT | FLAG_PROTECT
-    appeal 0
+    appeal FLAG_POWDER
     contesttype 0
     terminatedata
     movedescription MOVE_POISON_POWDER, "A cloud of poisonous\ndust is scattered on\nthe foe.\nIt may poison the\ntarget."
@@ -1309,7 +1309,7 @@ movedata MOVE_STUN_SPORE, "Stun Spore"
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_KEEP_HP_BAR | FLAG_MIRROR_MOVE | FLAG_MAGIC_COAT | FLAG_PROTECT
-    appeal 0
+    appeal FLAG_POWDER
     contesttype 0
     terminatedata
     movedescription MOVE_STUN_SPORE, "The user scatters a\ncloud of paralyzing\npowder.\nIt may paralyze the\ntarget."
@@ -1325,7 +1325,7 @@ movedata MOVE_SLEEP_POWDER, "Sleep Powder"
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_KEEP_HP_BAR | FLAG_MIRROR_MOVE | FLAG_MAGIC_COAT | FLAG_PROTECT
-    appeal 0
+    appeal FLAG_POWDER
     contesttype 0
     terminatedata
     movedescription MOVE_SLEEP_POWDER, "The user scatters a\nbig cloud of sleep-\ninducing dust around\nthe foe.\n"
@@ -2006,7 +2006,7 @@ movedata MOVE_EGG_BOMB, "Egg Bomb"
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_MIRROR_MOVE | FLAG_PROTECT
-    appeal 0
+    appeal FLAG_BALL
     contesttype 0
     terminatedata
     movedescription MOVE_EGG_BOMB, "A large egg is hurled\nat the foe, which\nthen explodes to\ninflict damage."
@@ -2171,7 +2171,7 @@ movedata MOVE_SPIKE_CANNON, "Spike Cannon"
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_MIRROR_MOVE | FLAG_PROTECT
-    appeal 0
+    appeal FLAG_CANNON
     contesttype 0
     terminatedata
     movedescription MOVE_SPIKE_CANNON, "Sharp spikes are\nfired at the foe to\nstrike two to five\ntimes in rapid\nsuccession."
@@ -2318,7 +2318,7 @@ movedata MOVE_BARRAGE, "Barrage"
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_KEEP_HP_BAR | FLAG_MIRROR_MOVE | FLAG_PROTECT
-    appeal 0
+    appeal FLAG_BALL
     contesttype 0
     terminatedata
     movedescription MOVE_BARRAGE, "Round objects are\nhurled at the foe to\nstrike two to five\ntimes in a row.\n"
@@ -2414,7 +2414,7 @@ movedata MOVE_DIZZY_PUNCH, "Dizzy Punch"
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
-    appeal 0
+    appeal FLAG_PUNCH
     contesttype 0
     terminatedata
     movedescription MOVE_DIZZY_PUNCH, "The foe is hit with\nrhythmically launched\npunches.\nThis has a 20% chance\nto confuse the foe."
@@ -2430,7 +2430,7 @@ movedata MOVE_SPORE, "Spore"
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_MIRROR_MOVE | FLAG_MAGIC_COAT | FLAG_PROTECT
-    appeal 0
+    appeal FLAG_POWDER
     contesttype 0
     terminatedata
     movedescription MOVE_SPORE, "The user scatters\nbursts of spores\nthat induce sleep.\n\n"
@@ -2608,7 +2608,7 @@ movedata MOVE_HYPER_FANG, "Hyper Fang"
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
-    appeal 0
+    appeal FLAG_BITING
     contesttype 0
     terminatedata
     movedescription MOVE_HYPER_FANG, "The user bites hard\non the foe with its\nsharp front fangs.\nThis has a 10% chance\nto flinch the foe."
@@ -2688,7 +2688,7 @@ movedata MOVE_SLASH, "Slash"
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_KEEP_HP_BAR | FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
-    appeal 0
+    appeal FLAG_CUTTING
     contesttype 0
     terminatedata
     movedescription MOVE_SLASH, "The foe is attacked\nwith a slash of\nclaws, etc.\nIt has a high\ncritical-hit ratio."
@@ -2932,7 +2932,7 @@ movedata MOVE_COTTON_SPORE, "Cotton Spore"
     target MOVE_TARGET_BOTH
     priority 0
     flags FLAG_KEEP_HP_BAR | FLAG_MIRROR_MOVE | FLAG_MAGIC_COAT | FLAG_PROTECT
-    appeal 0
+    appeal FLAG_POWDER
     contesttype 0
     terminatedata
     movedescription MOVE_COTTON_SPORE, "The user releases\ncottonlike spores\nthat cling to the\nfoe, sharply reducing\nits Speed stat."
@@ -3012,7 +3012,7 @@ movedata MOVE_MACH_PUNCH, "Mach Punch"
     target MOVE_TARGET_SELECTED
     priority 1
     flags FLAG_KEEP_HP_BAR | FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
-    appeal 0
+    appeal FLAG_PUNCH
     contesttype 0
     terminatedata
     movedescription MOVE_MACH_PUNCH, "The user throws a\npunch at blinding\nspeed.\nIt is certain to\nstrike first."
@@ -3092,7 +3092,7 @@ movedata MOVE_SLUDGE_BOMB, "Sludge Bomb"
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_MIRROR_MOVE | FLAG_PROTECT
-    appeal 0
+    appeal FLAG_BALL
     contesttype 0
     terminatedata
     movedescription MOVE_SLUDGE_BOMB, "The user attacks by\nhurling filthy sludge\nat the foe.\nThis has a 10% chance\nto poison the foe."
@@ -3126,7 +3126,7 @@ movedata MOVE_OCTAZOOKA, "Octazooka"
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_MIRROR_MOVE | FLAG_PROTECT
-    appeal 0
+    appeal FLAG_BALL
     contesttype 0
     terminatedata
     movedescription MOVE_OCTAZOOKA, "The user attacks by\nspraying ink in the\nfoe’s face or eyes.\nThis has a 50% chance\nto lower accuracy."
@@ -3158,7 +3158,7 @@ movedata MOVE_ZAP_CANNON, "Zap Cannon"
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_HIDE_SHADOW | FLAG_MIRROR_MOVE | FLAG_PROTECT
-    appeal 0
+    appeal FLAG_BALL
     contesttype 0
     terminatedata
     movedescription MOVE_ZAP_CANNON, "The user fires an\nelectric blast like a\ncannon to inflict\ndamage and cause\nparalysis."
@@ -3222,7 +3222,7 @@ movedata MOVE_ICY_WIND, "Icy Wind"
     target MOVE_TARGET_BOTH
     priority 0
     flags FLAG_MIRROR_MOVE | FLAG_PROTECT
-    appeal 0
+    appeal FLAG_WIND
     contesttype 0
     terminatedata
     movedescription MOVE_ICY_WIND, "The user attacks with\na gust of chilled air.\nIt also lowers the\ntarget’s Speed stat.\n"
@@ -3448,7 +3448,7 @@ movedata MOVE_FURY_CUTTER, "Fury Cutter"
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_KEEP_HP_BAR | FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
-    appeal 0
+    appeal FLAG_CUTTING
     contesttype 0
     terminatedata
     movedescription MOVE_FURY_CUTTER, "The user attacks\nby slashing the foe.\nIts power doubles\nafter each use, up\nto a maximum of 120."
@@ -3661,7 +3661,7 @@ movedata MOVE_DYNAMIC_PUNCH, "Dynamic Punch"
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_HIDE_SHADOW | FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
-    appeal 0
+    appeal FLAG_PUNCH
     contesttype 0
     terminatedata
     movedescription MOVE_DYNAMIC_PUNCH, "The foe is punched\nwith the user’s full,\nconcentrated power.\nIt confuses the foe\nif it hits."
@@ -3922,7 +3922,7 @@ movedata MOVE_TWISTER, "Twister"
     target MOVE_TARGET_BOTH
     priority 0
     flags FLAG_MIRROR_MOVE | FLAG_PROTECT
-    appeal 0
+    appeal FLAG_WIND
     contesttype 0
     terminatedata
     movedescription MOVE_TWISTER, "The user whips up a\nvicious tornado to\ntear at the foe.\nThis has a 20% chance\nto flinch the foe."
@@ -3970,7 +3970,7 @@ movedata MOVE_CRUNCH, "Crunch"
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
-    appeal 0
+    appeal FLAG_BITING
     contesttype 0
     terminatedata
     movedescription MOVE_CRUNCH, "The user crunches up\nthe foe with sharp\nfangs.\nThis has a 20% chance\nto lower Defense."
@@ -4051,7 +4051,7 @@ movedata MOVE_SHADOW_BALL, "Shadow Ball"
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_MIRROR_MOVE | FLAG_PROTECT
-    appeal 0
+    appeal FLAG_BALL
     contesttype 0
     terminatedata
     movedescription MOVE_SHADOW_BALL, "The user hurls a\nshadowy blob at the\nfoe.\nThis has a 20% chance\nto lower Sp. Def."
@@ -4215,7 +4215,7 @@ movedata MOVE_HEAT_WAVE, "Heat Wave"
     target MOVE_TARGET_BOTH
     priority 0
     flags FLAG_MIRROR_MOVE | FLAG_PROTECT
-    appeal 0
+    appeal FLAG_WIND
     contesttype 0
     terminatedata
     movedescription MOVE_HEAT_WAVE, "The user exhales a\nheated breath on the\nfoe to attack.\nThis has a 10% chance\nto burn the foe."
@@ -4327,7 +4327,7 @@ movedata MOVE_FOCUS_PUNCH, "Focus Punch"
     target MOVE_TARGET_SELECTED
     priority -3
     flags FLAG_HIDE_SHADOW | FLAG_PROTECT | FLAG_CONTACT
-    appeal 0
+    appeal FLAG_PUNCH
     contesttype 0
     terminatedata
     movedescription MOVE_FOCUS_PUNCH, "The user focuses its\nmind before launching\na punch. It will fail\nif the user is hit\nbefore it is used."
@@ -4847,7 +4847,7 @@ movedata MOVE_MIST_BALL, "Mist Ball"
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_HIDE_SHADOW | FLAG_MIRROR_MOVE | FLAG_PROTECT
-    appeal 0
+    appeal FLAG_BALL
     contesttype 0
     terminatedata
     movedescription MOVE_MIST_BALL, "A mistlike flurry of\ndown envelops and\ndamages the foe.\nThis has a 50% chance\nto lower Sp. Atk."
@@ -4929,7 +4929,7 @@ movedata MOVE_ICE_BALL, "Ice Ball"
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
-    appeal 0
+    appeal FLAG_BALL
     contesttype 0
     terminatedata
     movedescription MOVE_ICE_BALL, "The user continually\nrolls into the foe\nover five turns. It\nbecomes stronger\neach time it hits."
@@ -4997,7 +4997,7 @@ movedata MOVE_POISON_FANG, "Poison Fang"
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
-    appeal 0
+    appeal FLAG_BITING
     contesttype 0
     terminatedata
     movedescription MOVE_POISON_FANG, "The user bites the\nfoe with toxic fangs.\nThis has a 30% chance\nto badly poison the\nfoe."
@@ -5046,7 +5046,7 @@ movedata MOVE_HYDRO_CANNON, "Hydro Cannon"
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_HIDE_SHADOW | FLAG_MIRROR_MOVE | FLAG_PROTECT
-    appeal 0
+    appeal FLAG_CANNON
     contesttype 0
     terminatedata
     movedescription MOVE_HYDRO_CANNON, "The foe is hit with\na watery blast.\nThe user must rest\non the next turn,\nhowever."
@@ -5063,7 +5063,7 @@ movedata MOVE_METEOR_MASH, "Meteor Mash"
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
-    appeal 0
+    appeal FLAG_PUNCH
     contesttype 0
     terminatedata
     movedescription MOVE_METEOR_MASH, "The foe is hit with a\nhard punch fired\nlike a meteor.\nThis has a 20% chance\nto raise Attack."
@@ -5096,7 +5096,7 @@ movedata MOVE_WEATHER_BALL, "Weather Ball"
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_MIRROR_MOVE | FLAG_PROTECT
-    appeal 0
+    appeal FLAG_BALL
     contesttype 0
     terminatedata
     movedescription MOVE_WEATHER_BALL, "An attack move that\nvaries in power and\ntype depending on\nthe weather.\n"
@@ -5144,7 +5144,7 @@ movedata MOVE_AIR_CUTTER, "Air Cutter"
     target MOVE_TARGET_BOTH
     priority 0
     flags FLAG_MIRROR_MOVE | FLAG_PROTECT
-    appeal 0
+    appeal FLAG_WIND | FLAG_CUTTING
     contesttype 0
     terminatedata
     movedescription MOVE_AIR_CUTTER, "The user launches\nrazorlike wind to\nslash the foe.\nIt has a high\ncritical-hit ratio."
@@ -5210,7 +5210,7 @@ movedata MOVE_SILVER_WIND, "Silver Wind"
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_MIRROR_MOVE | FLAG_PROTECT
-    appeal 0
+    appeal FLAG_WIND // assumed
     contesttype 0
     terminatedata
     movedescription MOVE_SILVER_WIND, "The foe is attacked\nwith powdery scales.\nThis has a 10% chance\nto raise every stat\nat once."
@@ -5324,7 +5324,7 @@ movedata MOVE_SHADOW_PUNCH, "Shadow Punch"
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
-    appeal 0
+    appeal FLAG_PUNCH
     contesttype 0
     terminatedata
     movedescription MOVE_SHADOW_PUNCH, "The user throws a\npunch at the foe from\nthe shadows.\nThe punch lands\nwithout fail."
@@ -5357,7 +5357,7 @@ movedata MOVE_SKY_UPPERCUT, "Sky Uppercut"
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_HIDE_SHADOW | FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
-    appeal 0
+    appeal FLAG_PUNCH
     contesttype 0
     terminatedata
     movedescription MOVE_SKY_UPPERCUT, "The user attacks the\nfoe with an uppercut\nthrown skyward\nwith force.\n"
@@ -5422,7 +5422,7 @@ movedata MOVE_BULLET_SEED, "Bullet Seed"
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_KEEP_HP_BAR | FLAG_MIRROR_MOVE | FLAG_PROTECT
-    appeal 0
+    appeal FLAG_BALL
     contesttype 0
     terminatedata
     movedescription MOVE_BULLET_SEED, "The user forcefully\nshoots seeds at the\nfoe. Two to five\nseeds are shot in\nrapid succession."
@@ -5438,7 +5438,7 @@ movedata MOVE_AERIAL_ACE, "Aerial Ace"
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
-    appeal 0
+    appeal FLAG_CUTTING
     contesttype 0
     terminatedata
     movedescription MOVE_AERIAL_ACE, "The user confounds\nthe foe with speed,\nthen slashes.\nThe attack lands\nwithout fail."
@@ -5700,7 +5700,7 @@ movedata MOVE_LEAF_BLADE, "Leaf Blade"
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
-    appeal 0
+    appeal FLAG_CUTTING
     contesttype 0
     terminatedata
     movedescription MOVE_LEAF_BLADE, "The foe is slashed\nwith a sharp leaf.\nIt has a high\ncritical-hit ratio.\n"
@@ -5732,7 +5732,7 @@ movedata MOVE_ROCK_BLAST, "Rock Blast"
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_MIRROR_MOVE | FLAG_PROTECT
-    appeal 0
+    appeal FLAG_BALL
     contesttype 0
     terminatedata
     movedescription MOVE_ROCK_BLAST, "The user hurls hard\nrocks at the foe.\nTwo to five rocks are\nlaunched in quick\nsuccession."
@@ -5764,7 +5764,7 @@ movedata MOVE_WATER_PULSE, "Water Pulse"
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_HIDE_SHADOW | FLAG_MIRROR_MOVE | FLAG_PROTECT
-    appeal 0
+    appeal FLAG_PULSE
     contesttype 0
     terminatedata
     movedescription MOVE_WATER_PULSE, "The user attacks the\nfoe with a pulsing\nblast of water.\nThis has a 20% chance\nto confuse the foe."
@@ -5876,7 +5876,7 @@ movedata MOVE_HAMMER_ARM, "Hammer Arm"
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
-    appeal 0
+    appeal FLAG_PUNCH
     contesttype 0
     terminatedata
     movedescription MOVE_HAMMER_ARM, "The user swings and\nhits with its strong\nand heavy fist.\nIt lowers the user’s\nSpeed, however."
@@ -5893,7 +5893,7 @@ movedata MOVE_GYRO_BALL, "Gyro Ball"
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
-    appeal 0
+    appeal FLAG_BALL
     contesttype 0
     terminatedata
     movedescription MOVE_GYRO_BALL, "The user tackles the\nfoe with a high-speed\nspin. The slower the\nuser, the greater\nthe damage."
@@ -6470,7 +6470,7 @@ movedata MOVE_AURA_SPHERE, "Aura Sphere"
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_HIDE_SHADOW | FLAG_MIRROR_MOVE | FLAG_PROTECT
-    appeal 0
+    appeal FLAG_BALL | FLAG_PULSE
     contesttype 0
     terminatedata
     movedescription MOVE_AURA_SPHERE, "The user looses a\nblast of aura power\nfrom deep within its\nbody. This move is\ncertain to hit."
@@ -6518,7 +6518,7 @@ movedata MOVE_DARK_PULSE, "Dark Pulse"
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_MIRROR_MOVE | FLAG_PROTECT
-    appeal 0
+    appeal FLAG_PULSE
     contesttype 0
     terminatedata
     movedescription MOVE_DARK_PULSE, "The user releases a\nhorrible aura imbued\nwith dark thoughts.\nThis has a 20% chance\nto flinch the foe."
@@ -6534,7 +6534,7 @@ movedata MOVE_NIGHT_SLASH, "Night Slash"
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
-    appeal 0
+    appeal FLAG_CUTTING
     contesttype 0
     terminatedata
     movedescription MOVE_NIGHT_SLASH, "The user slashes the\nfoe the instant an\nopportunity arises.\nIt has a high\ncritical-hit ratio."
@@ -6566,7 +6566,7 @@ movedata MOVE_SEED_BOMB, "Seed Bomb"
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_MIRROR_MOVE | FLAG_PROTECT
-    appeal 0
+    appeal FLAG_BALL
     contesttype 0
     terminatedata
     movedescription MOVE_SEED_BOMB, "The user slams a\nbarrage of hard-\nshelled seeds\ndown on the foe\nfrom above."
@@ -6582,7 +6582,7 @@ movedata MOVE_AIR_SLASH, "Air Slash"
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_MIRROR_MOVE | FLAG_PROTECT
-    appeal 0
+    appeal FLAG_CUTTING
     contesttype 0
     terminatedata
     movedescription MOVE_AIR_SLASH, "The user attacks with\na blade of air that\nslices even the sky.\nThis has a 30% chance\nto flinch the foe."
@@ -6599,7 +6599,7 @@ movedata MOVE_X_SCISSOR, "X-Scissor"
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
-    appeal 0
+    appeal FLAG_CUTTING
     contesttype 0
     terminatedata
     movedescription MOVE_X_SCISSOR, "The user slashes at\nthe foe by crossing\nits scythes or claws\nlike scissors. Critical\nhits land more easily."
@@ -6631,7 +6631,7 @@ movedata MOVE_DRAGON_PULSE, "Dragon Pulse"
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_MIRROR_MOVE | FLAG_PROTECT
-    appeal 0
+    appeal FLAG_PULSE
     contesttype 0
     terminatedata
     movedescription MOVE_DRAGON_PULSE, "The foe is attacked\nwith a shock wave\ngenerated by the\nuser’s gaping mouth.\n"
@@ -6681,7 +6681,7 @@ movedata MOVE_DRAIN_PUNCH, "Drain Punch"
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
-    appeal 0
+    appeal FLAG_PUNCH
     contesttype 0
     terminatedata
     movedescription MOVE_DRAIN_PUNCH, "An energy-draining\npunch. The user’s\nHP is restored by\nhalf the damage taken\nby the target."
@@ -6713,7 +6713,7 @@ movedata MOVE_FOCUS_BLAST, "Focus Blast"
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_HIDE_SHADOW | FLAG_MIRROR_MOVE | FLAG_PROTECT
-    appeal 0
+    appeal FLAG_BALL
     contesttype 0
     terminatedata
     movedescription MOVE_FOCUS_BLAST, "The user heightens\nits mental focus and\nunleashes its power.\nThis has a 10% chance\nto lower Sp. Def."
@@ -6729,7 +6729,7 @@ movedata MOVE_ENERGY_BALL, "Energy Ball"
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_MIRROR_MOVE | FLAG_PROTECT
-    appeal 0
+    appeal FLAG_BALL
     contesttype 0
     terminatedata
     movedescription MOVE_ENERGY_BALL, "The user draws power\nfrom nature and\nfires it at the foe.\nThis has a 10% chance\nto lower Sp. Def."
@@ -6825,7 +6825,7 @@ movedata MOVE_BULLET_PUNCH, "Bullet Punch"
     target MOVE_TARGET_SELECTED
     priority 1
     flags FLAG_KEEP_HP_BAR | FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
-    appeal 0
+    appeal FLAG_PUNCH
     contesttype 0
     terminatedata
     movedescription MOVE_BULLET_PUNCH, "The user strikes\nwith a tough punch as\nfast as a bullet.\nThis move always goes\nfirst."
@@ -6892,7 +6892,7 @@ movedata MOVE_THUNDER_FANG, "Thunder Fang"
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
-    appeal 0
+    appeal FLAG_BITING
     contesttype 0
     terminatedata
     movedescription MOVE_THUNDER_FANG, "The user bites with\nelectrified fangs.\nThis has a 10% chance\neach to paralyze or\nflinch the foe."
@@ -6910,7 +6910,7 @@ movedata MOVE_ICE_FANG, "Ice Fang"
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
-    appeal 0
+    appeal FLAG_BITING
     contesttype 0
     terminatedata
     movedescription MOVE_ICE_FANG, "The user bites with\ncold-infused fangs.\nThis has a 10% chance\neach to freeze or\nflinch the foe."
@@ -6928,7 +6928,7 @@ movedata MOVE_FIRE_FANG, "Fire Fang"
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
-    appeal 0
+    appeal FLAG_BITING
     contesttype 0
     terminatedata
     movedescription MOVE_FIRE_FANG, "The user bites with\nflame-cloaked fangs.\nThis has a 10% chance\neach to burn or\nflinch the foe."
@@ -6961,7 +6961,7 @@ movedata MOVE_MUD_BOMB, "Mud Bomb"
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_MIRROR_MOVE | FLAG_PROTECT
-    appeal 0
+    appeal FLAG_BALL
     contesttype 0
     terminatedata
     movedescription MOVE_MUD_BOMB, "The user launches a\nhard-packed mud ball\nto attack.\nThis has a 30% chance\nto lower accuracy."
@@ -6977,7 +6977,7 @@ movedata MOVE_PSYCHO_CUT, "Psycho Cut"
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_MIRROR_MOVE | FLAG_PROTECT
-    appeal 0
+    appeal FLAG_CUTTING
     contesttype 0
     terminatedata
     movedescription MOVE_PSYCHO_CUT, "The user tears at\nthe foe with blades\nformed by psychic\npower. It has a high\ncritical-hit ratio."
@@ -7027,7 +7027,7 @@ movedata MOVE_FLASH_CANNON, "Flash Cannon"
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_MIRROR_MOVE | FLAG_PROTECT
-    appeal 0
+    appeal FLAG_CANNON
     contesttype 0
     terminatedata
     movedescription MOVE_FLASH_CANNON, "The user gathers all\nits light energy and\nreleases it at once.\nThis has a 10% chance\nto lower Sp. Def."
@@ -7173,7 +7173,7 @@ movedata MOVE_ROCK_WRECKER, "Rock Wrecker"
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_HIDE_SHADOW | FLAG_MIRROR_MOVE | FLAG_PROTECT
-    appeal 0
+    appeal FLAG_BALL
     contesttype 0
     terminatedata
     movedescription MOVE_ROCK_WRECKER, "The user launches a\nhuge boulder at the\nfoe to attack.\nIt must rest on the\nnext turn, however."
@@ -7191,7 +7191,7 @@ movedata MOVE_CROSS_POISON, "Cross Poison"
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
-    appeal 0
+    appeal FLAG_CUTTING
     contesttype 0
     terminatedata
     movedescription MOVE_CROSS_POISON, "A slashing attack.\nCritical hits land\nmore easily.\nIt has a 10% chance\nto poison the foe."
@@ -7239,7 +7239,7 @@ movedata MOVE_MAGNET_BOMB, "Magnet Bomb"
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_MIRROR_MOVE | FLAG_PROTECT
-    appeal 0
+    appeal FLAG_BALL
     contesttype 0
     terminatedata
     movedescription MOVE_MAGNET_BOMB, "The user launches a\nsteel bomb that\nsticks to the target.\nThis attack will not\nmiss."
@@ -7613,7 +7613,7 @@ movedata MOVE_OMINOUS_WIND, "Ominous Wind"
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_MIRROR_MOVE | FLAG_PROTECT
-    appeal 0
+    appeal FLAG_WIND // assumed
     contesttype 0
     terminatedata
     movedescription MOVE_OMINOUS_WIND, "The user attacks\nwith repulsive wind.\nThis has a 10% chance\nto raise every stat\nat once."
@@ -7854,7 +7854,7 @@ movedata MOVE_ACID_SPRAY, "Acid Spray"
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_PROTECT | FLAG_MIRROR_MOVE
-    appeal 0
+    appeal FLAG_BALL
     contesttype 0
     terminatedata
     movedescription MOVE_ACID_SPRAY, "The user spits out\nfluid that works to\nmelt the target.\nIt harshly lowers the\nfoe’s Sp. Def stat."
@@ -8162,7 +8162,7 @@ movedata MOVE_SACRED_SWORD, "Sacred Sword"
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_CONTACT | FLAG_PROTECT | FLAG_MIRROR_MOVE
-    appeal 0
+    appeal FLAG_CUTTING
     contesttype 0
     terminatedata
     movedescription MOVE_SACRED_SWORD, "The user attacks by\nslicing with a sword.\nThe target’s stat\nchanges do not affect\nthis move’s damage."
@@ -8179,7 +8179,7 @@ movedata MOVE_RAZOR_SHELL, "Razor Shell"
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_CONTACT | FLAG_PROTECT | FLAG_MIRROR_MOVE
-    appeal 0
+    appeal FLAG_CUTTING
     contesttype 0
     terminatedata
     movedescription MOVE_RAZOR_SHELL, "The user cuts its foe\nwith sharp shells.\nIt has a 50% chance\nto lower the foe’s\nDefense stat."
@@ -8230,7 +8230,7 @@ movedata MOVE_HURRICANE, "Hurricane"
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_PROTECT | FLAG_MIRROR_MOVE
-    appeal 0
+    appeal FLAG_WIND
     contesttype 0
     terminatedata
     movedescription MOVE_HURRICANE, "The user attacks by\nwrapping its opponent\nin a fierce wind.\nThis has a 30% chance\nto confuse the foe."
@@ -8310,7 +8310,7 @@ movedata MOVE_PETAL_BLIZZARD, "Petal Blizzard"
     target MOVE_TARGET_FOES_AND_ALLY
     priority 0
     flags FLAG_PROTECT | FLAG_MIRROR_MOVE
-    appeal 0
+    appeal FLAG_WIND
     contesttype 0
     terminatedata
     movedescription MOVE_PETAL_BLIZZARD, "The user stirs up a\nfierce petal blizzard,\nattacking everything\naround it."
@@ -8395,7 +8395,7 @@ movedata MOVE_FAIRY_WIND, "Fairy Wind"
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_PROTECT | FLAG_MIRROR_MOVE
-    appeal 0
+    appeal FLAG_WIND
     contesttype 0
     terminatedata
     movedescription MOVE_FAIRY_WIND, "The user stirs up a\nfairy wind and hits\nthe target with it."
@@ -8523,7 +8523,7 @@ movedata MOVE_POWER_UP_PUNCH, "Power-Up Punch"
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_CONTACT | FLAG_PROTECT | FLAG_MIRROR_MOVE
-    appeal 0
+    appeal FLAG_PUNCH
     contesttype 0
     terminatedata
     movedescription MOVE_POWER_UP_PUNCH, "Striking opponents\nrepeatedly makes the\nuser’s fists harder.\nThis also raises the\nuser’s Attack stat."
@@ -8572,7 +8572,7 @@ movedata MOVE_SOLAR_BLADE, "Solar Blade"
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_CONTACT | FLAG_PROTECT | FLAG_MIRROR_MOVE
-    appeal 0
+    appeal FLAG_CUTTING
     contesttype 0
     terminatedata
     movedescription MOVE_SOLAR_BLADE, "A two-turn attack.\nThe user gathers\nlight and attacks\nwith a blade filled\nwith light energy."
@@ -8686,7 +8686,7 @@ movedata MOVE_PSYCHIC_FANGS, "Psychic Fangs"
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_CONTACT | FLAG_PROTECT | FLAG_MIRROR_MOVE
-    appeal 0
+    appeal FLAG_BITING
     contesttype 0
     terminatedata
     movedescription MOVE_PSYCHIC_FANGS, "The user bites the\ntarget with its\npsychic capabilities.\nThis destroys Reflect\nand Light Screen."
@@ -8915,7 +8915,7 @@ movedata MOVE_STONE_AXE, "Stone Axe"
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_CONTACT | FLAG_PROTECT | FLAG_MIRROR_MOVE
-    appeal 0
+    appeal FLAG_CUTTING
     contesttype 0
     terminatedata
     movedescription MOVE_STONE_AXE, "The user swings its\nstone axes to attack.\nStone splinters left\nbehind will float\naround the foe."
@@ -8963,7 +8963,7 @@ movedata MOVE_HEADLONG_RUSH, "Headlong Rush"
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_HIDE_SHADOW | FLAG_CONTACT | FLAG_PROTECT | FLAG_MIRROR_MOVE
-    appeal 0
+    appeal FLAG_PUNCH
     contesttype 0
     terminatedata
     movedescription MOVE_HEADLONG_RUSH, "The user smashes into\nthe target in a\nfull-body tackle. It\nalso cuts the user’s\nDefense and Sp. Def."
@@ -9110,7 +9110,7 @@ movedata MOVE_RAGE_FIST, "Rage Fist"
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_CONTACT | FLAG_PROTECT | FLAG_MIRROR_MOVE
-    appeal 0
+    appeal FLAG_PUNCH
     contesttype 0
     terminatedata
     movedescription MOVE_RAGE_FIST, "The user converts\nits rage into energy\nto attack. The user’s\nAttack rises each\ntime it is hit."
@@ -9126,7 +9126,7 @@ movedata MOVE_AQUA_CUTTER, "Aqua Cutter"
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_PROTECT | FLAG_MIRROR_MOVE
-    appeal 0
+    appeal FLAG_CUTTING
     contesttype 0
     terminatedata
     movedescription MOVE_AQUA_CUTTER, "The user expels\npressurized water\nto cut the foe.\nIt has a high\ncritical-hit ratio."
@@ -9180,7 +9180,7 @@ movedata MOVE_SAVAGE_REND, "Savage Rend"
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
-    appeal 0
+    appeal FLAG_BITING
     contesttype 0
     terminatedata
     movedescription MOVE_SAVAGE_REND, "The user tears up the\nfoe underwater with\nits powerful jaws.\nThe foe’s Defense\nstat is also lowered."
@@ -9198,7 +9198,7 @@ movedata MOVE_PIDDLY_PUNCHES, "Piddly Punches"
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
-    appeal 0
+    appeal FLAG_PUNCH
     contesttype 0
     terminatedata
     movedescription MOVE_PIDDLY_PUNCHES, "The user throws many\npiddly punches using\nall of its arms. This\ncan hit the foe up to\nten times in a row."
@@ -9503,7 +9503,7 @@ movedata MOVE_KOWTOW_CLEAVE, "Kowtow Cleave"
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
-    appeal 0
+    appeal FLAG_CUTTING
     contesttype 0
     terminatedata
     movedescription MOVE_KOWTOW_CLEAVE, "The user kowtows to\nmake the foe let down\nits guard, and then\nslashes at the foe.\nThis never misses."
@@ -9524,7 +9524,6 @@ movedata MOVE_FINAL_GAMBIT, "Final Gambit"
     terminatedata
     movedescription MOVE_FINAL_GAMBIT, "The user risks all\nto attack its target.\nThe user does damage\nequal to its current\nHP, but then faints."
 
-// Copy of Hidden Power with fixed type, for AI use only
 movedata MOVE_JET_PUNCH, "Jet Punch"
     battleeffect 103
     pss SPLIT_PHYSICAL
@@ -9536,7 +9535,7 @@ movedata MOVE_JET_PUNCH, "Jet Punch"
     target MOVE_TARGET_SELECTED
     priority 1
     flags FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
-    appeal 0
+    appeal FLAG_PUNCH
     contesttype 0
     terminatedata
     movedescription MOVE_JET_PUNCH, "The user summons a\ntorrent around its\nfist and punches at\nspeed. This move\nalways goes first."

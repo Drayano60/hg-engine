@@ -13,40 +13,7 @@
 #include "../../include/constants/battle_message_constants.h"
 #include "../../include/constants/file.h"
 
-
 extern const u8 StatBoostModifiers[][2];
-
-const u16 BulletproofMoveList[] =
-{
-    MOVE_ACID_SPRAY,
-    MOVE_AURA_SPHERE,
-    MOVE_BARRAGE,
-    MOVE_BULLET_SEED,
-    MOVE_EGG_BOMB,
-    MOVE_ENERGY_BALL,
-    MOVE_FOCUS_BLAST,
-    MOVE_GYRO_BALL,
-    MOVE_ICE_BALL,
-    MOVE_MAGNET_BOMB,
-    MOVE_MIST_BALL,
-    MOVE_MUD_BOMB,
-    MOVE_OCTAZOOKA,
-    MOVE_ROCK_BLAST,
-    MOVE_ROCK_WRECKER,
-    MOVE_SEED_BOMB,
-    MOVE_SHADOW_BALL,
-    MOVE_SLUDGE_BOMB,
-    MOVE_WEATHER_BALL,
-    MOVE_ZAP_CANNON,
-};
-
-const u16 PowderMoveList[] = {
-    MOVE_COTTON_SPORE,
-    MOVE_POISON_POWDER,
-    MOVE_SLEEP_POWDER,
-    MOVE_SPORE,
-    MOVE_STUN_SPORE,
-};
 
 int MoveCheckDamageNegatingAbilities(struct BattleStruct *sp, int attacker, int defender)
 {
@@ -108,17 +75,10 @@ int MoveCheckDamageNegatingAbilities(struct BattleStruct *sp, int attacker, int 
     }
 
     // Handle Bulletproof. Soundproof SUB_SEQ works perfectly for this too.
-    if (MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_BULLETPROOF) == TRUE)
-    {
+    if (MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_BULLETPROOF) == TRUE) {
         {
-            u32 i;
-
-            for (i = 0; i < NELEMS(BulletproofMoveList); i++){
-                if (BulletproofMoveList[i] == sp->current_move_index)
-                {
-                    scriptnum = SUB_SEQ_HANDLE_SOUNDPROOF;
-                    break;
-                }
+            if (sp->moveTbl[sp->current_move_index].appeal & FLAG_BALL) {
+                scriptnum = SUB_SEQ_HANDLE_SOUNDPROOF;
             }
         }
     }
@@ -181,17 +141,10 @@ int MoveCheckDamageNegatingAbilities(struct BattleStruct *sp, int attacker, int 
     }
 
     // Handle Overcoat's powder blocking effect
-    if (MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_OVERCOAT) == TRUE)
-    {
+    if (MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_OVERCOAT) == TRUE) {
         {
-            u32 i;
-
-            for (i = 0; i < NELEMS(PowderMoveList); i++){
-                if (PowderMoveList[i] == sp->current_move_index)
-                {
-                    scriptnum = SUB_SEQ_HANDLE_SOUNDPROOF;
-                    break;
-                }
+            if (sp->moveTbl[sp->current_move_index].appeal & FLAG_POWDER) {
+                scriptnum = SUB_SEQ_HANDLE_SOUNDPROOF;
             }
         }
     }

@@ -68,75 +68,6 @@ static const u8 HeldItemPowerUpTable[][2]={
 #endif
 };
 
-static const u16 WindWhipperMovesTable[] =
-{
-    MOVE_AIR_CUTTER,
-    MOVE_BLIZZARD,
-    MOVE_FAIRY_WIND,
-    MOVE_GUST,
-    MOVE_HEAT_WAVE,
-    MOVE_HURRICANE,
-    MOVE_ICY_WIND,
-    MOVE_PETAL_BLIZZARD,
-    MOVE_TWISTER,
-    // Snapped moves that likely always apply
-    MOVE_RAZOR_WIND,
-    MOVE_SILVER_WIND,
-    MOVE_OMINOUS_WIND,
-};
-
-// Copy of Bulletproof list
-static const u16 BombardierMovesTable[] =
-{
-    MOVE_ACID_SPRAY,
-    MOVE_AURA_SPHERE,
-    MOVE_BARRAGE,
-    MOVE_BULLET_SEED,
-    MOVE_EGG_BOMB,
-    MOVE_ENERGY_BALL,
-    MOVE_FOCUS_BLAST,
-    MOVE_GYRO_BALL,
-    MOVE_ICE_BALL,
-    MOVE_MAGNET_BOMB,
-    MOVE_MIST_BALL,
-    MOVE_MUD_BOMB,
-    MOVE_OCTAZOOKA,
-    MOVE_ROCK_BLAST,
-    MOVE_ROCK_WRECKER,
-    MOVE_SEED_BOMB,
-    MOVE_SHADOW_BALL,
-    MOVE_SLUDGE_BOMB,
-    MOVE_WEATHER_BALL,
-    MOVE_ZAP_CANNON,
-    // Moves not blocked by Bulletproof
-    MOVE_FLASH_CANNON,
-    MOVE_HYDRO_CANNON,
-    MOVE_SPIKE_CANNON,
-};
-
-static const u16 IronFistMovesTable[] = {
-    MOVE_BULLET_PUNCH,
-    MOVE_COMET_PUNCH,
-    MOVE_DIZZY_PUNCH,
-    MOVE_DRAIN_PUNCH,
-    MOVE_DYNAMIC_PUNCH,
-    MOVE_FIRE_PUNCH,
-    MOVE_FOCUS_PUNCH,
-    MOVE_HAMMER_ARM,
-    MOVE_HEADLONG_RUSH, // Japanese name is a sumo term, apparently??
-    MOVE_ICE_PUNCH,
-    MOVE_JET_PUNCH,
-    MOVE_MACH_PUNCH,
-    MOVE_MEGA_PUNCH,
-    MOVE_METEOR_MASH,
-    MOVE_POWER_UP_PUNCH,
-    MOVE_RAGE_FIST,
-    MOVE_SHADOW_PUNCH,
-    MOVE_SKY_UPPERCUT,
-    MOVE_THUNDER_PUNCH,
-    MOVE_PIDDLY_PUNCHES, // Custom move for Ledian
-};
-
 static const u16 RecklessMoveEffectsTable[] = {
     MOVE_EFFECT_RECOIL_ON_MISS,
     MOVE_EFFECT_ONE_QUARTER_RECOIL,
@@ -144,46 +75,6 @@ static const u16 RecklessMoveEffectsTable[] = {
     MOVE_EFFECT_RECOIL_BURN_HIT,
     MOVE_EFFECT_RECOIL_PARALYZE_HIT,
     MOVE_EFFECT_ONE_HALF_RECOIL,
-};
-
-static const u16 StrongJawMovesTable[] = {
-    MOVE_BITE,
-    MOVE_CRUNCH,
-    MOVE_FIRE_FANG,
-    MOVE_HYPER_FANG,
-    MOVE_ICE_FANG,
-    MOVE_POISON_FANG,
-    MOVE_PSYCHIC_FANGS,
-    MOVE_THUNDER_FANG,
-    MOVE_SAVAGE_REND, // Custom move for Feraligatr
-};
-
-static const u16 MegaLauncherMovesTable[] = {
-    MOVE_AURA_SPHERE,
-    MOVE_DARK_PULSE,
-    MOVE_DRAGON_PULSE,
-    MOVE_WATER_PULSE,
-};
-
-static const u16 SharpnessMovesTable[] = {
-    MOVE_AERIAL_ACE,
-    MOVE_AIR_CUTTER,
-    MOVE_AIR_SLASH,
-    MOVE_AQUA_CUTTER,
-    MOVE_CROSS_POISON,
-    MOVE_CUT,
-    MOVE_FURY_CUTTER,
-    MOVE_KOWTOW_CLEAVE,
-    MOVE_LEAF_BLADE,
-    MOVE_NIGHT_SLASH,
-    MOVE_PSYCHO_CUT,
-    MOVE_RAZOR_LEAF,
-    MOVE_RAZOR_SHELL,
-    MOVE_SACRED_SWORD,
-    MOVE_SLASH,
-    MOVE_SOLAR_BLADE,
-    MOVE_STONE_AXE,
-    MOVE_X_SCISSOR,
 };
 
 //int NormalTypeChangeAbilityHelper(int ability)
@@ -808,13 +699,8 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
     // These abilities have been standardized to 33%.
 
     // Handle Iron Fist
-    if (AttackingMon.ability == ABILITY_IRON_FIST) {
-        for (i = 0; i < NELEMS(IronFistMovesTable); i++) {
-            if (IronFistMovesTable[i] == moveno) {
-                movepower = movepower * 133 / 100;
-                break;
-            }
-        }
+    if ((AttackingMon.ability == ABILITY_IRON_FIST) && (sp->moveTbl[sp->current_move_index].appeal & FLAG_PUNCH)) {
+        movepower = movepower * 133 / 100;
     }
 
     // Handle Reckless
@@ -829,59 +715,44 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
 
     // Handle Mega Launcher
     // Also handle Aura Master, a new ability for Lucario with the same effect
-    if (AttackingMon.ability == ABILITY_MEGA_LAUNCHER || AttackingMon.ability == ABILITY_AURA_MASTER) {
-        for (i = 0; i < NELEMS(MegaLauncherMovesTable); i++) {
-            if (MegaLauncherMovesTable[i] == moveno) {
-                movepower = movepower * 133 / 100;
-                break;
-            }
-        }
+    if
+    (
+        ((AttackingMon.ability == ABILITY_WIND_WHIPPER) || (AttackingMon.ability == ABILITY_AURA_MASTER)) &&
+        (sp->moveTbl[sp->current_move_index].appeal & FLAG_PULSE)
+    )
+    {
+        movepower = movepower * 133 / 100;
     }
 
     // Handle Strong Jaw
-    if (AttackingMon.ability == ABILITY_STRONG_JAW) {
-        for (i = 0; i < NELEMS(StrongJawMovesTable); i++) {
-            if (StrongJawMovesTable[i] == moveno) {
-                movepower = movepower * 133 / 100;
-                break;
-            }
-        }
+    if ((AttackingMon.ability == ABILITY_STRONG_JAW) && (sp->moveTbl[sp->current_move_index].appeal & FLAG_BITING)) {
+        movepower = movepower * 133 / 100;
     }
 
     // Handle Sharpness
-    if (AttackingMon.ability == ABILITY_SHARPNESS) {
-        for (i = 0; i < NELEMS(SharpnessMovesTable); i++) {
-            if (SharpnessMovesTable[i] == moveno) {
-                movepower = movepower * 133 / 100;
-                break;
-            }
-        }
+    if ((AttackingMon.ability == ABILITY_SHARPNESS) && (sp->moveTbl[sp->current_move_index].appeal & FLAG_CUTTING)) {
+        movepower = movepower * 133 / 100;
     }
 
     // Handle Cacophony, a new ability for various sound-based Pokémon
-    if ((AttackingMon.ability == ABILITY_CACOPHONY) && (sp->moveTbl[sp->current_move_index].flag & FLAG_SOUND))
-    {
+    if ((AttackingMon.ability == ABILITY_CACOPHONY) && (sp->moveTbl[sp->current_move_index].flag & FLAG_SOUND)) {
         movepower = movepower * 133 / 100;
     }   
 
     // Handle Bombardier, a new ability for Octillery
-    if (AttackingMon.ability == ABILITY_BOMBARDIER) {
-        for (i = 0; i < NELEMS(BombardierMovesTable); i++) {
-            if (BombardierMovesTable[i] == moveno) {
-                movepower = movepower * 133 / 100;
-                break;
-            }
-        }
+    if
+    (
+        (AttackingMon.ability == ABILITY_BOMBARDIER) &&
+        ((sp->moveTbl[sp->current_move_index].appeal & FLAG_BALL) ||
+        (sp->moveTbl[sp->current_move_index].appeal & FLAG_CANNON))     
+    )
+    {
+        movepower = movepower * 133 / 100;
     }
 
     // Handle Wind Whipper, a new ability for Shiftry
-    if (AttackingMon.ability == ABILITY_WIND_WHIPPER) {
-        for (i = 0; i < NELEMS(WindWhipperMovesTable); i++) {
-            if (WindWhipperMovesTable[i] == moveno) {
-                movepower = movepower * 133 / 100;
-                break;
-            }
-        }
+    if ((AttackingMon.ability == ABILITY_WIND_WHIPPER) && (sp->moveTbl[sp->current_move_index].appeal & FLAG_WIND)) {
+        movepower = movepower * 133 / 100;
     }
 
     // //handles water bubble

@@ -254,6 +254,16 @@
 // repurposed
 #define FLAG_SOUND       (0x20)
 
+// used in appeal field
+#define FLAG_BITING      (0x01)
+#define FLAG_BALL        (0x02)
+#define FLAG_CANNON      (0x04)
+#define FLAG_CUTTING     (0x08)
+#define FLAG_POWDER      (0x10)
+#define FLAG_PULSE       (0x20)
+#define FLAG_PUNCH       (0x40)
+#define FLAG_WIND        (0x80)
+
 #define BATTLER_ALLY(client) (client ^ 2)
 #define BATTLER_OPPONENT(client) (client ^ 1)
 #define BATTLER_ACROSS(client) (client ^ 3)

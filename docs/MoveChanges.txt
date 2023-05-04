@@ -320,6 +320,9 @@ The crash damage is now always equal to half of the user's maximum HP (rounded d
 - Minimize:
 This now boosts evasion by two stages instead of one.
 
+- Natural Gift:
+The power of the move for each berry has been updated to match Gen 6+.
+
 - Phazing Moves (Roar/Whirlwind):
 In wild battles, the move will now always fail if the user is of a lower level than the target.
 In trainer battles, the move will always succeed.

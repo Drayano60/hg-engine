@@ -6728,7 +6728,7 @@ Level Up Moves:
 -------------------
 177 - Natu
 -------------------
-Abilities: Synchronize / Early Bird / Magic Bounce
+Abilities: Synchronize / Early Bird / Magic Bounce ⟶ Synchronize / Keen Eye** / Magic Bounce
 Base Stats: 40/50/45/70/45/70 (320)
 Held Item: None
 Type: Psychic / Flying
@@ -6761,7 +6761,7 @@ Level Up Moves:
 -------------------
 178 - Xatu
 -------------------
-Abilities: Synchronize / Early Bird / Magic Bounce
+Abilities: Synchronize / Early Bird / Magic Bounce ⟶ Synchronize / Keen Eye** / Magic Bounce
 Base Stats: 65/75/70/95/70/95 (470) ⟶ 65/75/70/115*/70/95 (490)
 Held Item: None
 Type: Psychic / Flying

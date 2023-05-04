@@ -4556,6 +4556,7 @@ mondata SPECIES_TOGETIC, "Togetic"
     mondexweight SPECIES_TOGETIC, "7.1 lbs."
 
 
+// ABILITY: Keen Eye (2)
 mondata SPECIES_NATU, "Natu"
     basestats 40, 50, 45, 70, 70, 45
     types TYPE_PSYCHIC, TYPE_FLYING
@@ -4568,7 +4569,11 @@ mondata SPECIES_NATU, "Natu"
     basefriendship 70 // raised up again
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FLYING, EGG_GROUP_FLYING
-    abilities ABILITY_SYNCHRONIZE, ABILITY_EARLY_BIRD
+    .if ABILITY_CHANGES_IMPLEMENTED
+        abilities ABILITY_SYNCHRONIZE, ABILITY_KEEN_EYE
+    .else
+        abilities ABILITY_SYNCHRONIZE, ABILITY_EARLY_BIRD
+    .endif
     runchance 25
     colorflip BODY_COLOR_GREEN, 0
     tmdata SPECIES_NATU_TM_DATA_0, SPECIES_NATU_TM_DATA_1, SPECIES_NATU_TM_DATA_2, SPECIES_NATU_TM_DATA_3
@@ -4579,6 +4584,7 @@ mondata SPECIES_NATU, "Natu"
 
 
 // STATS: 95 >> 115 SpAtk | 470 >> 490 BST
+// ABILITY: Keen Eye (2)
 mondata SPECIES_XATU, "Xatu"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 65, 75, 70, 95, 115, 70
@@ -4595,7 +4601,11 @@ mondata SPECIES_XATU, "Xatu"
     basefriendship 70 // raised up again
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FLYING, EGG_GROUP_FLYING
-    abilities ABILITY_SYNCHRONIZE, ABILITY_EARLY_BIRD
+    .if ABILITY_CHANGES_IMPLEMENTED
+        abilities ABILITY_SYNCHRONIZE, ABILITY_KEEN_EYE
+    .else
+        abilities ABILITY_SYNCHRONIZE, ABILITY_EARLY_BIRD
+    .endif
     runchance 25
     colorflip BODY_COLOR_GREEN, 0
     tmdata SPECIES_XATU_TM_DATA_0, SPECIES_XATU_TM_DATA_1, SPECIES_XATU_TM_DATA_2, SPECIES_XATU_TM_DATA_3

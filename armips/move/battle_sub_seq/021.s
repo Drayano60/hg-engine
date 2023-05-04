@@ -19,9 +19,12 @@ _0030:
     if IF_NOTMASK, VAR_10, 0x100, _0098
 
     /* Sturdy sets both the item and ability held on flags so we can differentiate it from Endure */
-    if IF_MASK, VAR_10, 0x180, _SturdyMessage
-    
+    /* Check the ability flag first, then confirm the item flag exists too, return here if not */
+    if IF_MASK, VAR_10, 0x100, _SturdyMessage
+_return2:
+    /* Skip the item activation animation if Sturdy as it takes priority. Message already shown. */
     ifmonstat IF_EQUAL, BATTLER_DEFENDER, MON_DATA_ABILITY, ABILITY_STURDY, _018C
+
     setstatus2effect BATTLER_DEFENDER, 0xA
     waitmessage
     /* Hung on using its... */
@@ -64,6 +67,7 @@ _0180:
 _018C:
     endscript
 _SturdyMessage:
+    if IF_NOTMASK, VAR_10, 0x80, _return2
     printmessage 1386, 0xB, 0xFF, 0x15, "NaN", "NaN", "NaN", "NaN"
     waitmessage
     wait 0x1E

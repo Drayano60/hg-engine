@@ -1189,7 +1189,7 @@ BOOL btl_scr_cmd_d0_checkshouldleavewith1hp(void *bw, struct BattleStruct *sp)
             if (flag != 2)
                 sp->waza_status_flag |= MOVE_STATUS_FLAG_HELD_ON_ITEM;
             else
-                sp->waza_status_flag |= MOVE_STATUS_FLAG_HELD_ON_ABILITY;
+                sp->waza_status_flag = sp->waza_status_flag | MOVE_STATUS_FLAG_HELD_ON_ITEM | MOVE_STATUS_FLAG_HELD_ON_ABILITY;
         }
     }
 

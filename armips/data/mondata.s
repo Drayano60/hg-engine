@@ -4250,6 +4250,7 @@ mondata SPECIES_NOCTOWL, "Noctowl"
 
 
 // STATS: 20 >> 40 Atk | 55 > 65 Speed | 265 >> 295 BST
+// ABILITY: Rattled (2), Aerilate (HA)
 mondata SPECIES_LEDYBA, "Ledyba"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 40, 40, 30, 65, 40, 80
@@ -4266,7 +4267,11 @@ mondata SPECIES_LEDYBA, "Ledyba"
     basefriendship 70
     growthrate GROWTH_FAST
     egggroups EGG_GROUP_BUG, EGG_GROUP_BUG
-    abilities ABILITY_SWARM, ABILITY_EARLY_BIRD
+    .if ABILITY_CHANGES_IMPLEMENTED
+        abilities ABILITY_SWARM, ABILITY_RATTLED
+    .else
+        abilities ABILITY_SWARM, ABILITY_EARLY_BIRD
+    .endif
     runchance 25
     colorflip BODY_COLOR_RED, 0
     tmdata SPECIES_LEDYBA_TM_DATA_0, SPECIES_LEDYBA_TM_DATA_1, SPECIES_LEDYBA_TM_DATA_2, SPECIES_LEDYBA_TM_DATA_3
@@ -4277,6 +4282,7 @@ mondata SPECIES_LEDYBA, "Ledyba"
 
 
 // STATS: 35 >> 90 Atk | 55 >> 50 SpAtk | 85 >> 95 Speed | 390 >> 450 BST
+// ABILITY: Iron Fist (2), Aerilate (HA)
 mondata SPECIES_LEDIAN, "Ledian"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 55, 90, 50, 95, 50, 110
@@ -4293,7 +4299,11 @@ mondata SPECIES_LEDIAN, "Ledian"
     basefriendship 70
     growthrate GROWTH_FAST
     egggroups EGG_GROUP_BUG, EGG_GROUP_BUG
-    abilities ABILITY_SWARM, ABILITY_EARLY_BIRD
+    .if ABILITY_CHANGES_IMPLEMENTED
+        abilities ABILITY_SWARM, ABILITY_IRON_FIST
+    .else
+        abilities ABILITY_SWARM, ABILITY_EARLY_BIRD
+    .endif
     runchance 25
     colorflip BODY_COLOR_RED, 0
     tmdata SPECIES_LEDIAN_TM_DATA_0, SPECIES_LEDIAN_TM_DATA_1, SPECIES_LEDIAN_TM_DATA_2, SPECIES_LEDIAN_TM_DATA_3

@@ -6391,7 +6391,7 @@ Level Up Moves:
 -------------------
 165 - Ledyba
 -------------------
-Abilities: Swarm / Early Bird / Rattled
+Abilities: Swarm / Early Bird / Rattled ⟶ Swarm / Rattled / Aerilate**
 Base Stats: 40/20/30/55/40/80 (265) ⟶ 40/40*/30/40/80/65* (295)
 Held Item: None
 Type: Bug / Flying
@@ -6429,7 +6429,7 @@ Level Up Moves:
 -------------------
 166 - Ledian
 -------------------
-Abilities: Swarm / Early Bird / Iron Fist
+Abilities: Swarm / Early Bird / Iron Fist ⟶ Swarm / Iron Fist / Aerilate**
 Base Stats: 55/35/50/55/110/85 (390) ⟶ 55/90*/50/50*/110/95* (450)
 Held Item: None
 Type: Bug / Flying

@@ -6044,19 +6044,19 @@ levelup SPECIES_URSALUNA
     terminatelearnset
 
 // NEW: Power Gem, Magma Storm
-// Evolution: 32
+// Evolution: 28
 levelup SPECIES_SLUGMA
     learnset MOVE_SMOG, 1
     learnset MOVE_YAWN, 1
-    learnset MOVE_EMBER, 4
-    learnset MOVE_HARDEN, 7
-    learnset MOVE_ROCK_THROW, 10
-    learnset MOVE_INCINERATE, 13
-    learnset MOVE_CLEAR_SMOG, 16
-    learnset MOVE_ANCIENT_POWER, 19
-    learnset MOVE_LAVA_PLUME, 22
-    learnset MOVE_ROCK_SLIDE, 25
-    learnset MOVE_BODY_SLAM, 28
+    learnset MOVE_EMBER, 3
+    learnset MOVE_HARDEN, 6
+    learnset MOVE_ROCK_THROW, 9
+    learnset MOVE_INCINERATE, 12
+    learnset MOVE_CLEAR_SMOG, 15
+    learnset MOVE_ANCIENT_POWER, 18
+    learnset MOVE_LAVA_PLUME, 21
+    learnset MOVE_ROCK_SLIDE, 24
+    learnset MOVE_BODY_SLAM, 27
     learnset MOVE_ACID_ARMOR, 31
     learnset MOVE_POWER_GEM, 35
     learnset MOVE_FLAMETHROWER, 39
@@ -6068,21 +6068,21 @@ levelup SPECIES_SLUGMA
     terminatelearnset
 
 // NEW: Power Gem, Magma Storm
-// Evolution: 32
+// Evolution: 28
 levelup SPECIES_MAGCARGO
     learnset MOVE_SMOG, 1
     learnset MOVE_YAWN, 1
-    learnset MOVE_EMBER, 4
-    learnset MOVE_HARDEN, 7
-    learnset MOVE_ROCK_THROW, 10
-    learnset MOVE_INCINERATE, 13
-    learnset MOVE_CLEAR_SMOG, 16
-    learnset MOVE_ANCIENT_POWER, 19
-    learnset MOVE_LAVA_PLUME, 22
-    learnset MOVE_ROCK_SLIDE, 25
-    learnset MOVE_BODY_SLAM, 28
+    learnset MOVE_EMBER, 3
+    learnset MOVE_HARDEN, 6
+    learnset MOVE_ROCK_THROW, 9
+    learnset MOVE_INCINERATE, 12
+    learnset MOVE_CLEAR_SMOG, 15
+    learnset MOVE_ANCIENT_POWER, 18
+    learnset MOVE_LAVA_PLUME, 21
+    learnset MOVE_ROCK_SLIDE, 24
+    learnset MOVE_BODY_SLAM, 27
+    learnset MOVE_SHELL_SMASH, 28
     learnset MOVE_ACID_ARMOR, 31
-    learnset MOVE_SHELL_SMASH, 32
     learnset MOVE_POWER_GEM, 35
     learnset MOVE_FLAMETHROWER, 39
     learnset MOVE_EARTH_POWER, 43

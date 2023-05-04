@@ -5620,7 +5620,7 @@ mondata SPECIES_URSARING, "Ursaring"
 
 
 // STATS: 40 >> 50 HP | 40 >> 50 Def | 70 >> 80 SpAtk | 40 >> 50 SpDef | 250 >> 290 BST
-// ABILITY: Infernal Body (HA, New)
+// ABILITY: Infernal Body (1, 2, HA, New)
 mondata SPECIES_SLUGMA, "Slugma"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 50, 40, 50, 20, 80, 50
@@ -5637,7 +5637,11 @@ mondata SPECIES_SLUGMA, "Slugma"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_AMORPHOUS, EGG_GROUP_AMORPHOUS
-    abilities ABILITY_MAGMA_ARMOR, ABILITY_FLAME_BODY
+    .if ABILITY_CHANGES_IMPLEMENTED
+        abilities ABILITY_INFERNAL_BODY, ABILITY_INFERNAL_BODY
+    .else
+        abilities ABILITY_MAGMA_ARMOR, ABILITY_FLAME_BODY
+    .endif
     runchance 25
     colorflip BODY_COLOR_RED, 0
     tmdata SPECIES_SLUGMA_TM_DATA_0, SPECIES_SLUGMA_TM_DATA_1, SPECIES_SLUGMA_TM_DATA_2, SPECIES_SLUGMA_TM_DATA_3
@@ -5647,11 +5651,11 @@ mondata SPECIES_SLUGMA, "Slugma"
     mondexweight SPECIES_SLUGMA, "77.2 lbs."
 
 
-// STATS: 60 >> 75 HP | 90 >> 110 SpAtk | 80 >> 90 SpDef | 430 >> 470 BST
-// ABILITY: Infernal Body (HA, New)
+// STATS: 60 >> 70 HP | 90 >> 110 SpAtk | 80 >> 90 SpDef | 430 >> 470 BST
+// ABILITY: Infernal Body (1, 2, HA, New)
 mondata SPECIES_MAGCARGO, "Magcargo"
     .if STAT_CHANGES_IMPLEMENTED
-        basestats 75, 50, 120, 30, 110, 90
+        basestats 70, 50, 120, 30, 110, 90
     .else
         basestats 60, 50, 120, 30, 90, 80
     .endif
@@ -5665,7 +5669,11 @@ mondata SPECIES_MAGCARGO, "Magcargo"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_AMORPHOUS, EGG_GROUP_AMORPHOUS
-    abilities ABILITY_MAGMA_ARMOR, ABILITY_FLAME_BODY
+    .if ABILITY_CHANGES_IMPLEMENTED
+        abilities ABILITY_INFERNAL_BODY, ABILITY_INFERNAL_BODY
+    .else
+        abilities ABILITY_MAGMA_ARMOR, ABILITY_FLAME_BODY
+    .endif
     runchance 25
     colorflip BODY_COLOR_RED, 0
     tmdata SPECIES_MAGCARGO_TM_DATA_0, SPECIES_MAGCARGO_TM_DATA_1, SPECIES_MAGCARGO_TM_DATA_2, SPECIES_MAGCARGO_TM_DATA_3

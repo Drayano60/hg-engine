@@ -12,7 +12,7 @@ Level Evolutions
 #140 Kabuto ⟶ #141 Kabutops: Evolves at Level 30.
 #167 Spinarak ⟶ #168 Ariados: Evolves at Level 18.
 #180 Flaaffy ⟶ #181 Ampharos: Evolves at Level 35.
-#218 Slugma ⟶ #219 Magcargo: Evolves at Level 32.
+#218 Slugma ⟶ #219 Magcargo: Evolves at Level 28.
 #304 Aron ⟶ #305 Lairon: Evolves at Level 28.
 #305 Lairon ⟶ #306 Aggron: Evolves at Level 40.
 #307 Meditite ⟶ #308 Medicham: Evolves at Level 33.

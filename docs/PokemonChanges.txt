@@ -8277,7 +8277,7 @@ Level Up Moves:
 -------------------
 218 - Slugma
 -------------------
-Abilities: Magma Armor / Flame Body / Weak Armor ⟶ Magma Armor / Flame Body / Infernal Body***
+Abilities: Magma Armor / Flame Body / Weak Armor ⟶ Infernal Body*** / Infernal Body*** / Infernal Body***
 Base Stats: 40/40/40/70/40/20 (250) ⟶ 50*/40/50*/80*/50*/20 (290)
 Held Item: None
 Type: Fire
@@ -8291,15 +8291,15 @@ New Moves:
 Level Up Moves:
 01 - Smog
 01 - Yawn
-04 - Ember
-07 - Harden
-10 - Rock Throw
-13 - Incinerate
-16 - Clear Smog
-19 - Ancient Power
-22 - Lava Plume
-25 - Rock Slide
-28 - Body Slam
+03 - Ember
+06 - Harden
+09 - Rock Throw
+12 - Incinerate
+15 - Clear Smog
+18 - Ancient Power
+21 - Lava Plume
+24 - Rock Slide
+27 - Body Slam
 31 - Acid Armor
 35 - Power Gem
 39 - Flamethrower
@@ -8312,8 +8312,8 @@ Level Up Moves:
 -------------------
 219 - Magcargo
 -------------------
-Abilities: Magma Armor / Flame Body / Weak Armor ⟶ Magma Armor / Flame Body / Infernal Body***
-Base Stats: 60/50/120/90/80/30 (430) ⟶ 70*/50/120/110*/100*/30 (480)
+Abilities: Magma Armor / Flame Body / Weak Armor ⟶ Infernal Body*** / Infernal Body*** / Infernal Body***
+Base Stats: 60/50/120/90/80/30 (430) ⟶ 70*/50/120/110*/90*/30 (470)
 Held Item: None
 Type: Fire / Rock
 
@@ -8328,17 +8328,17 @@ New Moves:
 Level Up Moves:
 01 - Smog
 01 - Yawn
-04 - Ember
-07 - Harden
-10 - Rock Throw
-13 - Incinerate
-16 - Clear Smog
-19 - Ancient Power
-22 - Lava Plume
-25 - Rock Slide
-28 - Body Slam
+03 - Ember
+06 - Harden
+09 - Rock Throw
+12 - Incinerate
+15 - Clear Smog
+18 - Ancient Power
+21 - Lava Plume
+24 - Rock Slide
+27 - Body Slam
+28 - Shell Smash
 31 - Acid Armor
-32 - Shell Smash
 35 - Power Gem
 39 - Flamethrower
 43 - Earth Power

@@ -280,8 +280,8 @@ Notes: Inspired by Steelworker, gives what is essentially a third STAB to Lunato
 Infernal Body
 -------------------
 Users: Slugma, Magcargo.
-Effect: If an opponent attacks the Pokémon with Infernal Body with a contact move, they will be burned.
-Notes: Given their bodies are literally made of magma, Flame Body feels a little weak for the theme. This is just a Flame Body clone that always works.
+Effect: If an opponent attacks the Pokémon with Infernal Body with a contact move, they will always be burned.
+Notes: Given their bodies are literally made of magma, Flame Body feels a little weak for the theme. This is just a Flame Body clone that always works. Do note that it does not halve hatch distance like Flame Body (mainly because I don't know how to do that yet!).
 
 Poison Sweat
 -------------------

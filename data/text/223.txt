@@ -593,4 +593,7 @@ a {COLOR 255}Rocky Helmet{COLOR 0}
 a {COLOR 255}Throat Spray{COLOR 0}
 a {COLOR 255}Weakness Policy{COLOR 0}
 an {COLOR 255}Air Balloon{COLOR 0}
+the {COLOR 255}Heavy-Duty Boots{COLOR 0}
+a {COLOR 255}Cover Fossil{COLOR 0}
+a {COLOR 255}Plume Fossil{COLOR 0}
 -

@@ -26,6 +26,9 @@ Included Items
 - Throat Spray (activates even if battle is about to end)
 - Weakness Policy
 - Air Balloon
+- Heavy-Duty Boots (written as Heavy Boots due to character limit)
+- Cover Fossil
+- Plume Fossil
 
 -------------------
 Cost Changes

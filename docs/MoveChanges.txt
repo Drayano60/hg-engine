@@ -341,6 +341,9 @@ This now drops the targets' evasiveness by two stages instead of one.
 - Substitute:
 A Pokémon behind a Substitute can now be attacked directly by any sound-based moves (Hyper Voice, Growl, etc.) or by any Pokémon with the ability Infiltrator.
 
+- Tail Glow:
+This now boosts the user's Special Attack by three stages instead of two.
+
 - Teleport:
 Now switches out the user in a Trainer battle, has -6 priority. Ends wild battles.
 
@@ -428,9 +431,6 @@ This still deals damage based on its original damage formula from Gen 4.
 - Stomp:
 This does not have a guaranteed hit against minimized targets.
 
-- Tail Glow:
-This does not boost the user's Special Attack by 3 stages; it still only boosts Special Attack by two stages.
-
 - Tailwind:
 The effect of Tailwind still only lasts for 3 turns (including the turn where it is used). This can't currently be increased to four turns due to the way the game keeps track of Tailwind turns.
 
@@ -443,9 +443,6 @@ The following moves brought in from later generations have not been implemented 
 
 - Aurora Veil:
 It sets up a Reflect and Light Screen in the same turn, instead of it being its own field effect. However, the damage reduction should be the same. It still has the restriction of only working within Hail.
-
-- Cotton Guard:
-This boosts the user's Defense by two stages, instead of three stages.
 
 - Echoed Voice:
 This instead acts like Fury Cutter where each individual Pokémon has its own consecutive use counter (as opposed to any Pokémon using Echoed Voice during the turn increasing the damage).

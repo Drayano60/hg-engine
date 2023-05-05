@@ -177,6 +177,8 @@ u32 move_effect_to_subscripts[] =
     [163] = 348, // new clear smog subscript
     [164] = 351, // new final gambit subscript
     [165] = 356, // new pollen puff subscript
+    [166] = 362, // new tail glow subscript
+    [167] = 363, // new cotton guard subscript
 };
 
 

@@ -692,8 +692,15 @@ BOOL btl_scr_cmd_33_statbuffchange(void *bw, struct BattleStruct *sp)
 
     sp->server_status_flag &= ~(SERVER_STATUS_FLAG_STAT_CHANGE_NEGATIVE);
 
-        //2 steps down
-    if (sp->addeffect_param >= ADD_STATE_ATTACK_DOWN_2)
+    // 3 steps up -- new
+    if (sp->addeffect_param >= ADD_STATE_ATTACK_UP_3)
+    {
+        stattochange = sp->addeffect_param - ADD_STATE_ATTACK_UP_3;
+        statchange = 3;
+        sp->temp_work = STATUS_EFF_UP;
+    }
+    // 2 steps down
+    else if (sp->addeffect_param >= ADD_STATE_ATTACK_DOWN_2)
     {
         stattochange = sp->addeffect_param - ADD_STATE_ATTACK_DOWN_2;
         statchange = -2;

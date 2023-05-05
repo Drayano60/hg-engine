@@ -6566,7 +6566,11 @@ Type: Water / Electric
 
 New Moves:
 - Chilling Water (Tutor)
+- Tail Glow (Level)
 - Thunder Shock (Level)
+
+Notes:
+Tail Glow is because of the bioluminesence, similar to Manaphy.
 
 Level Up Moves:
 01 - Flash
@@ -6578,12 +6582,13 @@ Level Up Moves:
 16 - Confuse Ray
 20 - Charge Beam
 24 - Signal Beam
-30 - Discharge
-35 - Aqua Ring
+32 - Discharge
+36 - Aqua Ring
 40 - Charge
-45 - Flail
-50 - Take Down
-55 - Hydro Pump
+44 - Flail
+48 - Take Down
+52 - Tail Glow
+56 - Hydro Pump
 
 -------------------
 171 - Lanturn
@@ -6597,6 +6602,9 @@ New Moves:
 - Chilling Water (Tutor)
 - Tail Glow (Level)
 - Thunder Shock (Level)
+
+Notes:
+Tail Glow is because of the bioluminesence, similar to Manaphy.
 
 Level Up Moves:
 01 - Tail Glow
@@ -6614,12 +6622,13 @@ Level Up Moves:
 20 - Charge Beam
 24 - Signal Beam
 27 - Dazzling Gleam
-30 - Discharge
-35 - Aqua Ring
+32 - Discharge
+36 - Aqua Ring
 40 - Charge
-45 - Flail
-50 - Take Down
-55 - Hydro Pump
+44 - Flail
+48 - Take Down
+52 - Tail Glow
+56 - Hydro Pump
 
 -------------------
 175 - Togepi
@@ -6827,8 +6836,8 @@ Level Up Moves:
 32 - Power Gem
 38 - Signal Beam
 44 - Dazzling Gleam
-50 - Cotton Guard
-56 - Light Screen
+50 - Light Screen
+56 - Cotton Guard
 62 - Thunder
 
 -------------------
@@ -6856,8 +6865,8 @@ Level Up Moves:
 32 - Power Gem
 38 - Signal Beam
 44 - Dazzling Gleam
-50 - Cotton Guard
-56 - Light Screen
+50 - Light Screen
+56 - Cotton Guard
 62 - Thunder
 
 -------------------
@@ -6891,8 +6900,8 @@ Level Up Moves:
 35 - Dragon Pulse
 38 - Signal Beam
 44 - Dazzling Gleam
-50 - Cotton Guard
-56 - Light Screen
+50 - Light Screen
+56 - Tail Glow
 62 - Thunder
 
 -------------------
@@ -11263,9 +11272,9 @@ Level Up Moves:
 15 - Silver Wind
 18 - Charge Beam
 21 - Moonlight
-24 - Tail Glow
-28 - Signal Beam
-32 - Discharge
+24 - Signal Beam
+28 - Discharge
+32 - Tail Glow
 36 - Zen Headbutt
 40 - Bug Buzz
 44 - Moonblast
@@ -11303,8 +11312,8 @@ Level Up Moves:
 18 - Draining Kiss
 21 - Moonlight
 24 - Wish
-28 - Encore
-32 - Dazzling Gleam
+28 - Dazzling Gleam
+32 - Encore
 36 - Zen Headbutt
 40 - Bug Buzz
 44 - Moonblast

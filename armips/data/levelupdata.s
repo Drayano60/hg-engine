@@ -4870,17 +4870,17 @@ levelup SPECIES_CHINCHOU
     learnset MOVE_CONFUSE_RAY, 16
     learnset MOVE_CHARGE_BEAM, 20
     learnset MOVE_SIGNAL_BEAM, 24
-    learnset MOVE_DISCHARGE, 30
-    learnset MOVE_AQUA_RING, 35
+    learnset MOVE_DISCHARGE, 32
+    learnset MOVE_AQUA_RING, 36
     learnset MOVE_CHARGE, 40
-    learnset MOVE_FLAIL, 45
-    learnset MOVE_TAKE_DOWN, 50
-    learnset MOVE_HYDRO_PUMP, 55
+    learnset MOVE_FLAIL, 44
+    learnset MOVE_TAKE_DOWN, 48
+    learnset MOVE_TAIL_GLOW, 52
+    learnset MOVE_HYDRO_PUMP, 56
     terminatelearnset
 
 // NEW: Tail Glow, Thunder Shock
 levelup SPECIES_LANTURN
-    learnset MOVE_TAIL_GLOW, 1
     learnset MOVE_STOCKPILE, 1
     learnset MOVE_SWALLOW, 1
     learnset MOVE_SPIT_UP, 1
@@ -4895,12 +4895,13 @@ levelup SPECIES_LANTURN
     learnset MOVE_CHARGE_BEAM, 20
     learnset MOVE_SIGNAL_BEAM, 24
     learnset MOVE_DAZZLING_GLEAM, 27
-    learnset MOVE_DISCHARGE, 30
-    learnset MOVE_AQUA_RING, 35
+    learnset MOVE_DISCHARGE, 32
+    learnset MOVE_AQUA_RING, 36
     learnset MOVE_CHARGE, 40
-    learnset MOVE_FLAIL, 45
-    learnset MOVE_TAKE_DOWN, 50
-    learnset MOVE_HYDRO_PUMP, 55
+    learnset MOVE_FLAIL, 44
+    learnset MOVE_TAKE_DOWN, 48
+    learnset MOVE_TAIL_GLOW, 52
+    learnset MOVE_HYDRO_PUMP, 56
     terminatelearnset
 
 // NEW: Fairy Wind (PLA), Baby-Doll Eyes (PLA), Moonblast (PLA)
@@ -5044,8 +5045,8 @@ levelup SPECIES_MAREEP
     learnset MOVE_POWER_GEM, 32
     learnset MOVE_SIGNAL_BEAM, 38
     learnset MOVE_DAZZLING_GLEAM, 44
-    learnset MOVE_COTTON_GUARD, 50
-    learnset MOVE_LIGHT_SCREEN, 56
+    learnset MOVE_LIGHT_SCREEN, 50
+    learnset MOVE_COTTON_GUARD, 56
     learnset MOVE_THUNDER, 62
     terminatelearnset
 
@@ -5064,15 +5065,14 @@ levelup SPECIES_FLAAFFY
     learnset MOVE_POWER_GEM, 32
     learnset MOVE_SIGNAL_BEAM, 38
     learnset MOVE_DAZZLING_GLEAM, 44
-    learnset MOVE_COTTON_GUARD, 50
-    learnset MOVE_LIGHT_SCREEN, 56
+    learnset MOVE_LIGHT_SCREEN, 50
+    learnset MOVE_COTTON_GUARD, 56
     learnset MOVE_THUNDER, 62
     terminatelearnset
 
 // NEW: Tail Glow
 // Second Evolution: 35
 levelup SPECIES_AMPHAROS
-    learnset MOVE_TAIL_GLOW, 1
     learnset MOVE_FIRE_PUNCH, 1
     learnset MOVE_THUNDER_PUNCH, 1
     learnset MOVE_ZAP_CANNON, 1
@@ -5090,8 +5090,8 @@ levelup SPECIES_AMPHAROS
     learnset MOVE_DRAGON_PULSE, 35
     learnset MOVE_SIGNAL_BEAM, 38
     learnset MOVE_DAZZLING_GLEAM, 44
-    learnset MOVE_COTTON_GUARD, 50
-    learnset MOVE_LIGHT_SCREEN, 56
+    learnset MOVE_LIGHT_SCREEN, 50
+    learnset MOVE_TAIL_GLOW, 56
     learnset MOVE_THUNDER, 62
     terminatelearnset
 
@@ -8061,9 +8061,9 @@ levelup SPECIES_VOLBEAT
     learnset MOVE_SILVER_WIND, 15
     learnset MOVE_CHARGE_BEAM, 18
     learnset MOVE_MOONLIGHT, 21
-    learnset MOVE_TAIL_GLOW, 24
-    learnset MOVE_SIGNAL_BEAM, 28
-    learnset MOVE_DISCHARGE, 32
+    learnset MOVE_SIGNAL_BEAM, 24
+    learnset MOVE_DISCHARGE, 28
+    learnset MOVE_TAIL_GLOW, 32
     learnset MOVE_ZEN_HEADBUTT, 36
     learnset MOVE_BUG_BUZZ, 40
     learnset MOVE_MOONBLAST, 44
@@ -8085,8 +8085,8 @@ levelup SPECIES_ILLUMISE
     learnset MOVE_DRAINING_KISS, 18
     learnset MOVE_MOONLIGHT, 21
     learnset MOVE_WISH, 24
-    learnset MOVE_ENCORE, 28
-    learnset MOVE_DAZZLING_GLEAM, 32
+    learnset MOVE_DAZZLING_GLEAM, 28
+    learnset MOVE_ENCORE, 32
     learnset MOVE_ZEN_HEADBUTT, 36
     learnset MOVE_BUG_BUZZ, 40
     learnset MOVE_MOONBLAST, 44

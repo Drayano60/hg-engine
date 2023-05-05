@@ -4809,14 +4809,13 @@ movedata MOVE_TAIL_GLOW, "Tail Glow"
     accuracy 0
     pp 20
     effectchance 0
-    ; effectchance 100 -- This was use for the +2/+1 idea
     target MOVE_TARGET_USER
     priority 0
     flags FLAG_SNATCH
     appeal 0
     contesttype 0
     terminatedata
-    movedescription MOVE_TAIL_GLOW, "The user stares at\nflashing lights to\nfocus its mind,\nsharply raising its\nSp. Atk stat."
+    movedescription MOVE_TAIL_GLOW, "The user stares at\nflashing lights to\nfocus its mind,\ndrastically raising\nits Sp. Atk stat."
 
 // POWER: 70 >> 80
 movedata MOVE_LUSTER_PURGE, "Luster Purge"
@@ -8184,7 +8183,6 @@ movedata MOVE_RAZOR_SHELL, "Razor Shell"
     terminatedata
     movedescription MOVE_RAZOR_SHELL, "The user cuts its foe\nwith sharp shells.\nIt has a 50% chance\nto lower the foe’s\nDefense stat."
 
-// EFFECT: Gives +2 Defense instead of +3. Not sure how to do drastic raise + might be a bit unbalanced.
 movedata MOVE_COTTON_GUARD, "Cotton Guard"
     battleeffect 51
     pss SPLIT_STATUS
@@ -8193,14 +8191,13 @@ movedata MOVE_COTTON_GUARD, "Cotton Guard"
     accuracy 0
     pp 10
     effectchance 0
-    ; effectchance 100 -- This was use for the +2/+1 idea
     target MOVE_TARGET_USER
     priority 0
     flags FLAG_KEEP_HP_BAR | FLAG_SNATCH
     appeal 0
     contesttype 0
     terminatedata
-    movedescription MOVE_COTTON_GUARD, "The user protects\nitself by wrapping\nits body in cotton,\nsharply raising\nthe user’s Defense."
+    movedescription MOVE_COTTON_GUARD, "The user protects\nitself by wrapping\nits body in cotton,\ndrastically raising\nthe user’s Defense."
 
 // ACCURACY: 85 >> 100
 movedata MOVE_TAIL_SLAP, "Tail Slap"

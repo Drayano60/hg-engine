@@ -78,6 +78,13 @@
 #define ADD_STATE_ACCURACY_DOWN_2 0x33
 #define ADD_STATE_EVASION_DOWN_2 0x34
 
+#define ADD_STATE_ATTACK_UP_3 0x35
+#define ADD_STATE_DEFENSE_UP_3 0x36
+#define ADD_STATE_SPEED_UP_3 0x37
+#define ADD_STATE_SP_ATK_UP_3 0x38
+#define ADD_STATE_SP_DEF_UP_3 0x39
+#define ADD_STATE_ACCURACY_UP_3 0x3A
+#define ADD_STATE_EVASION_UP_3 0x3B
 
 // defines that i believe are straight from source
 #define SERVER_STATUS_FLAG2_U_TURN          (0x00000010)        //u-turn flag

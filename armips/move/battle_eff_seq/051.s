@@ -10,18 +10,16 @@
 .create "build/move/battle_eff_seq/0_051", 0
 
 // Sharply raise def effect
-// For Cotton Guard, we also add a secondary effect of +1 def
-// The normal +2 def and extra +1 def combine to the drastic +3 def raise in later gens
-// Not sure how to do one singular +3 boost yet
+// For Cotton Guard, we instead do +3
+// Placed here because of AI scoring
 
 a030_051:
     gotosubscript 341
-    // if IF_EQUAL, VAR_CURRENT_MOVE, MOVE_COTTON_GUARD, _ExtraDefUp
+    if IF_EQUAL, VAR_CURRENT_MOVE, MOVE_COTTON_GUARD, CottonGuard
     changevar VAR_OP_SET, VAR_ADD_STATUS1, 0x40000028
     endscript
-_ExtraDefUp:
-    changevar VAR_OP_SET, VAR_ADD_STATUS1, 0x40000028
-    changevar VAR_OP_SET, VAR_ADD_STATUS2, 0x40000010
+CottonGuard:
+    changevar VAR_OP_SET, VAR_ADD_STATUS1, ADD_STATUS_COTTON_GUARD | ADD_STATUS_ATTACKER
     endscript
 
 .close

@@ -191,6 +191,6 @@ Other (4)
 --------------
 Should I?
 --------------
-- Power Trip
-- Stored Power
-- Poltergeist
+- Power Trip (prob not enough pokes to be worth it)
+- Stored Power (could do)
+- Poltergeist (necessary?)

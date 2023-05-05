@@ -626,6 +626,7 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
         }
     }
     
+    /* Simple now doubles the stat boost at point of increase/decrease instead of during calculation
     // handle simple
     if (AttackingMon.ability == ABILITY_SIMPLE)
     {
@@ -670,6 +671,7 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
             spdefstate = 6;
         }
     }
+    */
 
     // handle unaware
     if (CheckDefenceAbility(sp, attacker, defender, ABILITY_UNAWARE) == TRUE)

@@ -380,7 +380,6 @@ BOOL CheckDefenderItemEffectOnHit(void *bw, struct BattleStruct *sp, int *seq_no
             }
             break;
         // Weakness Policy
-        // The Mold Breaker + Contrary interaction is probably wrong
         case HOLD_EFFECT_WEAKNESS_POLICY:
             if
             (

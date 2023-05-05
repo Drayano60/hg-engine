@@ -89,6 +89,11 @@ This now also prevents Intimidate from working on the Pokémon.
 - Serene Grace:
 This now also doubles the chance of the King's Rock or Razor Claw taking effect.
 
+- Simple:
+A Pokémon with Simple now has its stat changes doubled at the moment they happen, so it will actually show "Attack sharply rose!" instead of "Attack rose!" etc.
+This also means that Psych Up can copy the doubled stat changes, and if a stat is increased or dropped by a Pokémon with Mold Breaker, the change is not doubled.
+(In standard Gen 4, the Simple Pokémon's stat changes appear normal, but the effect is doubled during battle calculations instead.)
+
 - Stench:
 This now gives any damaging move a 10% chance to flinch in addition to its normal effect (unless the move already has a chance to flinch). It does not stack with King's Rock or Razor Fang.
 
@@ -192,10 +197,6 @@ This does not have any effect during battle (i.e. it does not pick up a used ite
 - Pressure:
 An ally of the Pokémon with Pressure will still use an additional 1 PP if it targets the Pokémon with Pressure with a move.
 Pressure has no effect on the PP consumption of moves that don't directly target the Pokémon (e.g. Imprison, Snatch).
-
-- Simple:
-A Pokémon with Simple will still display its stats going up or down the regular amount, but the effect of the stat changes will be doubled during damage calculation (up to +6 or -6 stages).
-As a result, Psych Up only copies the normal stat changes instead of the doubled ones.
 
 - Skill Link:
 Skill Link does not have any effect on multi-hit moves that have individual accuracy checks for each hit (Triple Kick, Triple Axel, the new Piddly Punches).

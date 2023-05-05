@@ -719,8 +719,14 @@ BOOL btl_scr_cmd_33_statbuffchange(void *bw, struct BattleStruct *sp)
         sp->temp_work = STATUS_EFF_UP;
     }
 
-    if (battlemon->ability == ABILITY_CONTRARY)
-    {
+    // Simple outright doubles the stat boost at point of increase/decrease now,
+    // unless the stat change is inflicted by a Pokémon with Mold Breaker etc.
+    if (MoldBreakerAbilityCheck(sp, sp->attack_client, sp->state_client, ABILITY_SIMPLE) == TRUE) {
+        statchange = statchange * 2;
+    }
+
+    /* Contrary reserves all stat changes unless dealt by a Pokémon with Mold Breaker etc. */
+    if (MoldBreakerAbilityCheck(sp, sp->attack_client, sp->state_client, ABILITY_CONTRARY) == TRUE) {
         //statchange
         statchange = -statchange;
 

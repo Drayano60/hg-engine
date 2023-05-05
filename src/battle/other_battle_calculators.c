@@ -130,6 +130,8 @@ BOOL CalcAccuracy(void *bw, struct BattleStruct *sp, int attacker, int defender,
     stat_stage_acc = sp->battlemon[attacker].states[STAT_ACCURACY] - 6;
     stat_stage_evasion = 6 - sp->battlemon[defender].states[STAT_EVASION];
 
+    /* Simple now doubles the stat at point of increase/decrease instead of during calculation.
+       That means Mold Breaker can no longer bypass the evasion increase.
     if (GetBattlerAbility(sp, attacker) == ABILITY_SIMPLE)
     {
         stat_stage_acc *= 2;
@@ -139,6 +141,7 @@ BOOL CalcAccuracy(void *bw, struct BattleStruct *sp, int attacker, int defender,
     {
         stat_stage_evasion *= 2;
     }
+    */
     
     if (MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_UNAWARE) == TRUE)
     {
@@ -370,6 +373,7 @@ u8 CalcSpeed(void *bw, struct BattleStruct *sp, int client1, int client2, int fl
     stat_stage_spd1 = sp->battlemon[client1].states[STAT_SPEED];
     stat_stage_spd2 = sp->battlemon[client2].states[STAT_SPEED];
 
+    /* Simple now doubles the stat at point of increase/decrease instead of at calculation.
     if (GetBattlerAbility(sp, client1) == ABILITY_SIMPLE)
     {
         stat_stage_spd1 = 6 + ((stat_stage_spd1 - 6) * 2);
@@ -394,7 +398,8 @@ u8 CalcSpeed(void *bw, struct BattleStruct *sp, int client1, int client2, int fl
             stat_stage_spd2 = 0;
         }
     }
-    
+    */
+
     speed1 = sp->battlemon[client1].speed * StatBoostModifiers[stat_stage_spd1][0] / StatBoostModifiers[stat_stage_spd1][1];
     speed2 = sp->battlemon[client2].speed * StatBoostModifiers[stat_stage_spd2][0] / StatBoostModifiers[stat_stage_spd2][1];
 

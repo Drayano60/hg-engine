@@ -407,6 +407,9 @@ These moves still deal typeless damage (so are not affected by STAB and do not d
 - Explosion/Self-Destruct
 These moves still calculate the damage dealt based on half of the target's Defense stat. (This particular aspect has been kept in the game intentionally, and the move description has been updated to match.)
 
+- Heal Block:
+The effects of Heal Block still work as they do in Generation 4. This means the only things it prevents are moves specifically used for recovery (Recover, Soft-Boiled etc), and it only blocks healing from Leech Seed or moves with HP drain effects like Absorb. It does not prevent HP recovery from abilities or items.
+
 - Me First:
 Me First still cannot be used by a Pokémon under the effects of Taunt.
 
@@ -451,9 +454,6 @@ As usual, the move begins at 40 BP and gains an extra 40 BP for each consecutive
 
 - Freeze-Dry:
 This is not super-effective against Water-types, but it does do quadruple damage against Water-types for roughly the same result.
-
-- Horn Leech:
-This works almost entirely fine, but can still be used even under the effects of Heal Block.
 
 - Ice Spinner:
 This now has no additional effect, as terrains don't exist in this game.

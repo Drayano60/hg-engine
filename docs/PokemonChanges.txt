@@ -1119,8 +1119,9 @@ Level Up Moves:
 40 - Moonblast
 44 - Gravity
 48 - Meteor Mash
-52 - Light Screen
-56 - Healing Wish
+52 - Stored Power
+56 - Light Screen
+60 - Healing Wish
 
 -------------------
 036 - Clefable
@@ -1156,8 +1157,9 @@ Level Up Moves:
 40 - Moonblast
 44 - Gravity
 48 - Meteor Mash
-52 - Light Screen
-56 - Healing Wish
+52 - Stored Power
+56 - Light Screen
+60 - Healing Wish
 
 -------------------
 037 - Vulpix
@@ -1975,6 +1977,7 @@ New Moves:
 
 Level Up Moves:
 01 - Shadow Punch
+01 - Power Trip
 01 - Counter
 01 - Fling
 01 - Covet
@@ -2238,6 +2241,7 @@ New Moves:
 - Hypnosis (Level) (PLA)
 
 Level Up Moves:
+01 - Stored Power
 01 - Psycho Cut
 01 - Calm Mind
 01 - Barrier
@@ -2716,7 +2720,7 @@ Level Up Moves:
 40 - Psychic
 45 - Amnesia
 50 - Rain Dance
-55 - Trick Room
+55 - Stored Power
 
 -------------------
 080 - Slowbro
@@ -2747,7 +2751,7 @@ Level Up Moves:
 40 - Psychic
 45 - Amnesia
 50 - Rain Dance
-55 - Trick Room
+55 - Stored Power
 
 -------------------
 199 - Slowking
@@ -2780,7 +2784,7 @@ Level Up Moves:
 40 - Psychic
 45 - Amnesia
 50 - Nasty Plot
-55 - Trick Room
+55 - Stored Power
 
 -------------------
 081 - Magnemite
@@ -6773,6 +6777,7 @@ New Moves:
 - Mega Drain (Tutor)
 
 Level Up Moves:
+01 - Stored Power
 01 - Feather Dance
 01 - Power Swap
 01 - Guard Swap
@@ -10148,6 +10153,7 @@ New Moves:
 - None
 
 Level Up Moves:
+01 - Stored Power
 01 - Mystical Fire
 01 - Captivate
 01 - Imprison
@@ -10184,6 +10190,7 @@ New Moves:
 - Spirit Break (Level)
 
 Level Up Moves:
+01 - Stored Power
 01 - Aqua Cutter
 01 - Leaf Blade
 01 - Night Slash
@@ -11929,6 +11936,7 @@ New Moves:
 
 Level Up Moves:
 01 - Revenge
+01 - Power Trip
 01 - Teeter Dance
 01 - Poison Sting
 01 - Leer
@@ -12037,9 +12045,9 @@ Level Up Moves:
 12 - Metal Claw
 16 - Pursuit
 20 - Slash
-24 - False Swipe
+24 - Embargo
 28 - Crush Claw
-32 - Embargo
+32 - Power Trip
 36 - X-Scissor
 40 - Detect
 44 - Taunt
@@ -12849,6 +12857,7 @@ New Moves:
 - Teleport (Tutor)
 
 Level Up Moves:
+01 - Stored Power
 01 - Heal Bell
 01 - Wrap
 01 - Growl
@@ -12865,11 +12874,11 @@ Level Up Moves:
 30 - Wish
 33 - Recover
 36 - Psychic
-39 - Safeguard
-42 - Hyper Voice
-45 - Healing Wish
-48 - Perish Song
-51 - Boomburst
+40 - Safeguard
+44 - Hyper Voice
+48 - Healing Wish
+52 - Perish Song
+56 - Boomburst
 
 -------------------
 359 - Absol
@@ -13545,6 +13554,7 @@ New Moves:
 - None
 
 Level Up Moves:
+01 - Stored Power
 01 - Twister
 01 - Psywave
 01 - Charm
@@ -13575,6 +13585,7 @@ New Moves:
 - None
 
 Level Up Moves:
+01 - Stored Power
 01 - Twister
 01 - Psywave
 01 - Dragon Dance
@@ -14100,6 +14111,7 @@ New Moves:
 Level Up Moves:
 01 - Aqua Jet
 01 - Steel Wing
+01 - Power Trip
 01 - Swords Dance
 01 - Swagger
 01 - Tackle
@@ -17329,8 +17341,9 @@ New Moves:
 - None
 
 Level Up Moves:
-01 - Psywave
+01 - Dream Eater
 01 - Defense Curl
+01 - Psywave
 04 - Lucky Chant
 08 - Hypnosis
 12 - Psybeam
@@ -17342,7 +17355,7 @@ Level Up Moves:
 36 - Yawn
 40 - Psychic
 44 - Moonblast
-48 - Dream Eater
+48 - Stored Power
 52 - Future Sight
 
 -------------------
@@ -17360,6 +17373,7 @@ Level Up Moves:
 01 - Magic Coat
 01 - Barrier
 01 - Psywave
+01 - Dream Eater
 01 - Defense Curl
 04 - Lucky Chant
 08 - Hypnosis
@@ -17372,7 +17386,7 @@ Level Up Moves:
 36 - Yawn
 40 - Psychic
 44 - Moonblast
-48 - Dream Eater
+48 - Stored Power
 52 - Future Sight
 
 -------------------
@@ -17655,6 +17669,8 @@ New Moves:
 - None
 
 Level Up Moves:
+01 - Stored Power
+01 - Tailwind
 01 - Gust
 01 - Supersonic
 01 - Odor Sleuth
@@ -18405,6 +18421,7 @@ New Moves:
 Level Up Moves:
 01 - Fire Fang
 01 - Thunder Fang
+01 - Power Trip
 01 - Counter
 01 - Rage
 01 - Leer
@@ -18694,12 +18711,12 @@ Level Up Moves:
 24 - Gravity
 28 - Tailwind
 32 - Air Slash
-36 - Light Screech
+36 - Light Screen
 36 - Reflect
 40 - Psychic
 44 - Mirror Move
-48 - Skill Swap
-52 - Future Sight
+48 - Stored Power
+52 - Skill Swap
 56 - Sky Attack
 
 -------------------
@@ -19147,6 +19164,7 @@ New Moves:
 - None
 
 Level Up Moves:
+01 - Stored Power
 01 - Miracle Eye
 01 - Mirror Coat
 01 - Trick Room
@@ -19247,6 +19265,7 @@ New Moves:
 - None
 
 Level Up Moves:
+01 - Stored Power
 01 - Dizzy Punch
 01 - Acid Armor
 01 - Trick Room
@@ -20085,6 +20104,7 @@ New Moves:
 - None
 
 Level Up Moves:
+01 - Stored Power
 01 - Cosmic Power
 01 - Skill Swap
 01 - Trick Room

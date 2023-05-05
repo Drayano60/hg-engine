@@ -9554,24 +9554,23 @@ movedata MOVE_STORED_POWER, "Stored Power"
     appeal 0
     contesttype 0
     terminatedata
-    movedescription MOVE_STORED_POWER, "The user attacks with\nits stored power. For\neach stat boost the\nuser has, this move\ngains 20 more power."
+    movedescription MOVE_STORED_POWER, "The user attacks\nwith stored power.\nThis move has 20 more\npower for each of the\nuser’s stat boosts."
 
-// Copy of Hidden Power with fixed type, for AI use only
-movedata MOVE_HIDDEN_POWER_PSYCHIC, "Hidden Power"
-    battleeffect 0
-    pss SPLIT_SPECIAL
-    basepower 60
-    type TYPE_PSYCHIC
+movedata MOVE_POWER_TRIP, "Power Trip"
+    battleeffect 320
+    pss SPLIT_PHYSICAL
+    basepower 20
+    type TYPE_DARK
     accuracy 100
-    pp 15
+    pp 10
     effectchance 0
     target MOVE_TARGET_SELECTED
     priority 0
-    flags FLAG_MIRROR_MOVE | FLAG_PROTECT
+    flags FLAG_CONTACT |  FLAG_MIRROR_MOVE | FLAG_PROTECT
     appeal 0
     contesttype 0
     terminatedata
-    movedescription MOVE_HIDDEN_POWER_PSYCHIC, "FOR AI ONLY"
+    movedescription MOVE_POWER_TRIP, "The user boasts its\npower and attacks.\nThis move has 20 more\npower for each of the\nuser’s stat boosts."
 
 // Copy of Hidden Power with fixed type, for AI use only
 movedata MOVE_HIDDEN_POWER_ICE, "Hidden Power"

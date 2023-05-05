@@ -282,10 +282,6 @@ It no longer has a chance to poison.
 - Power Gem:
 This now has a chance (10%) to lower the target's Special Defense by 1 stage.
 
-- Rage Fist:
-This instead works like the move Rage, where the user's Attack is boosted if it gets hit after using Rage Fist.
-The actual effect can't currently be implemented.
-
 - Razor Wind:
 This is now a one-turn move.
 It still has a high critical-hit ratio.
@@ -440,7 +436,7 @@ This still heals for 50% of the recepient's max HP instead of 50% of the user's 
 
 New Moves Added Inaccurately
 --------------------------------------
-The following moves brought in from later generations have not been implemented completely accurately (and were not intentionally changed):
+The following moves brought in from later generations have not been implemented completely accurately (and were generally not intentionally changed):
 
 - Aurora Veil:
 It sets up a Reflect and Light Screen in the same turn, instead of it being its own field effect. However, the damage reduction should be the same. It still has the restriction of only working within Hail.
@@ -464,6 +460,12 @@ This now has no additional effect, as terrains don't exist in this game.
 
 - Pollen Puff:
 This works almost entirely fine, but is not currently blocked by Heal Block (whether a Pokémon uses it on their ally or vice-versa).
+
+- Rage Fist:
+This works similar to its Scarlet & Violet counterpart where the move starts at 50 BP, and each hit the user has taken increases it by another 50 BP.
+However, there are two key differences compared to the Scarlet & Violet version.
+First, the amount of hits registered is capped at 3 instead of 6 for balance reasons. This means the maximum power Rage Fist can be is 200 BP, after taking three hits (instead of 350 BP after six hits).
+Second, the hit counter is reset if the Pokémon faints or switches out, i.e. Rage Fist's power increase will NOT persist if the user leaves the field. This is a technical restriction but also a balance change, so it won't be fixed in the future even if it becomes possible to do so.
 
 - Raging Bull:
 This is now always a Normal-type move. Paldean Tauros isn't in the game anyway though!

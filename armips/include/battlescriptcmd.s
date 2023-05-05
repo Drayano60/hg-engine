@@ -1484,3 +1484,7 @@ MOVE_DATA_CONTEST_TYPE equ 11
 .macro storedpowerdamagecalc
     .word 0xE5
 .endmacro
+
+.macro ragefistdamagecalc
+    .word 0xE6
+.endmacro

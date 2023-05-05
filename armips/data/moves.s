@@ -9097,10 +9097,8 @@ movedata MOVE_TWIN_BEAM, "Twin Beam"
     terminatedata
     movedescription MOVE_TWIN_BEAM, "The user shoots\nmystical beams from\nits eyes.\nThe target is hit\ntwice in a row."
 
-// EFFECT: Now works like Rage where using it and being attacked will boost Attack
-// The actual effect cant be done, but I need Rage Fist for the Primeape evolution method
 movedata MOVE_RAGE_FIST, "Rage Fist"
-    battleeffect 81 // NOTE: Cant get actual effect, using Rage one
+    battleeffect 321
     pss SPLIT_PHYSICAL
     basepower 50
     type TYPE_GHOST
@@ -9113,7 +9111,7 @@ movedata MOVE_RAGE_FIST, "Rage Fist"
     appeal FLAG_PUNCH
     contesttype 0
     terminatedata
-    movedescription MOVE_RAGE_FIST, "The user converts\nits rage into energy\nto attack. The user’s\nAttack rises each\ntime it is hit."
+    movedescription MOVE_RAGE_FIST, "Each time the user is\nhit, this move gets an\nextra 50 base power,\nfor up to three hits.\nResets on switch-out."
 
 movedata MOVE_AQUA_CUTTER, "Aqua Cutter"
     battleeffect 43

@@ -19,6 +19,7 @@ BOOL btl_scr_cmd_E2_heavyslamdamagecalc(void *bw, struct BattleStruct *sp);
 BOOL btl_scr_cmd_E3_isuserlowerlevel(void *bw, struct BattleStruct *sp);
 BOOL btl_scr_cmd_E4_echoedvoicedamagecalc(void *bw, struct BattleStruct *sp);
 BOOL btl_scr_cmd_E5_storedpowerdamagecalc(void *bw, struct BattleStruct *sp);
+BOOL btl_scr_cmd_E6_ragefistdamagecalc(void *bw, struct BattleStruct *sp);
 
 typedef BOOL (*btl_scr_cmd_func)(void *bw, struct BattleStruct *sp);
 #define START_OF_NEW_BTL_SCR_CMDS 0xE1
@@ -269,6 +270,7 @@ const btl_scr_cmd_func NewBattleScriptCmdTable[] =
     [0xE3 - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_E3_isuserlowerlevel,
     [0xE4 - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_E4_echoedvoicedamagecalc,
     [0xE5 - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_E5_storedpowerdamagecalc,
+    [0xE6 - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_E6_ragefistdamagecalc,
 };
 
 
@@ -1368,6 +1370,25 @@ BOOL btl_scr_cmd_E5_storedpowerdamagecalc(void *bw, struct BattleStruct *sp)
     }
 
     sp->damage_power = GetMoveData(sp->current_move_index, MOVE_DATA_BASE_POWER) + (i * 20);
+
+    return FALSE;
+}
+
+BOOL btl_scr_cmd_E6_ragefistdamagecalc(void *bw, struct BattleStruct *sp) {
+    IncrementBattleScriptPtr(sp, 1);
+
+    // This resets on switch-out!
+    u8 hit_count = sp->battlemon[sp->attack_client].hit_count;
+
+    // if (hit_count > 6) {
+    //     hit_count = 6;
+    // }
+
+    if (hit_count > 3) {
+        hit_count = 3;
+    }
+
+    sp->damage_power = GetMoveData(sp->current_move_index, MOVE_DATA_BASE_POWER) + (50 * hit_count);
 
     return FALSE;
 }

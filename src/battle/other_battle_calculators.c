@@ -97,6 +97,13 @@ BOOL CalcAccuracy(void *bw, struct BattleStruct *sp, int attacker, int defender,
         }
     }
 
+    /* This is the "but nothing happened" flag that doesn't affect damage moves whatsoever
+     * This is here just so we can force Freeze-Dry to activate the sub_seq that prints NVE/SE even for neutral effectiveness
+     * This way we can make it show Super Effective against Water-types despite not actually being so (albeit the sound is wrong) */
+    if (sp->current_move_index == MOVE_FREEZE_DRY) {
+        sp->waza_status_flag |= WAZA_STATUS_FLAG_NANIMOOKORAN;
+    }
+
     if (GetBattlerAbility(sp, attacker) == ABILITY_NORMALIZE)
     {
         move_type = TYPE_NORMAL;

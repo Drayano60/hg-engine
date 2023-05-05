@@ -450,7 +450,9 @@ However, also like Fury Cutter (in Gen 4), Echoed Voice will retain its damage m
 As usual, the move begins at 40 BP and gains an extra 40 BP for each consecutive use. Due to the above, it now caps at 120 BP (3+ uses) instead of the 200 BP it normally would.
 
 - Freeze-Dry:
-This is not super-effective against Water-types, but it does do quadruple damage against Water-types for roughly the same result.
+This is a bit of a strange case where the move isn't actually super effective against Water-type Pokémon as I've been unable to figure out how to do that, but it's been faked to look like it is by quadrupling its damage against any Water-type targets, and showing the "It's super effective!" message instead when appropriate.
+Notably, it still uses the damage sound effect based on the type effectiveness from the true calculation, which may not necessarily line up with the text.
+The move should work out the same as the real deal (except for the sound part), but this sort of implementation could be bugged and will hopefully be improved in the future.
 
 - Ice Spinner:
 This now has no additional effect, as terrains don't exist in this game.

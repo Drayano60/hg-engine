@@ -8328,7 +8328,7 @@ movedata MOVE_FREEZE_DRY, "Freeze-Dry"
     appeal 0
     contesttype 0
     terminatedata
-    movedescription MOVE_FREEZE_DRY, "Foe is rapidly cooled.\nThis has a 30% chance\nto freeze the foe.\nWater types take four\ntimes as much damage."
+    movedescription MOVE_FREEZE_DRY, "The foe is cooled.\nThis has a 10% chance\nto freeze the foe.\nWater-types are weak\nto this move."
 
 movedata MOVE_DISARMING_VOICE, "Disarming Voice"
     battleeffect 17

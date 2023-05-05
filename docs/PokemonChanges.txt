@@ -4715,7 +4715,7 @@ Level Up Moves:
 -------------------
 466 - Electivire
 -------------------
-Abilities: Static / Static / Vital Spirit ⟶ Static / Vital Spirit / Iron Fist**
+Abilities: Motor Drive / Static / Vital Spirit ⟶ Motor Drive / Vital Spirit / Iron Fist**
 Base Stats: 75/123/67/95/85/95 (540)
 Held Item: Electirizer (5%)
 Type: Electric ⟶ Electric / Fighting

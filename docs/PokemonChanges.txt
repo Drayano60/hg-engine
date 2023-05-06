@@ -9419,7 +9419,7 @@ Level Up Moves:
 -------------------
 258 - Mudkip
 -------------------
-Abilities: Torrent / Torrent / Damp ⟶ Torrent / Damp / Anticipation**
+Abilities: Torrent / Torrent / Damp ⟶ Torrent / Damp / Regenerator**
 Base Stats: 50/70/50/50/50/40 (310)
 Held Item: None
 Type: Water
@@ -9440,15 +9440,15 @@ Level Up Moves:
 28 - Water Pulse
 32 - Amnesia
 40 - Screech
-45 - Earth Power
-50 - Superpower
-55 - Hydro Pump
-60 - Endeavor
+45 - Endeavor
+50 - Earthquake
+55 - Superpower
+60 - Hydro Pump
 
 -------------------
 259 - Marshtomp
 -------------------
-Abilities: Torrent / Torrent / Damp ⟶ Torrent / Damp / Anticipation**
+Abilities: Torrent / Torrent / Damp ⟶ Torrent / Damp / Regenerator**
 Base Stats: 70/85/70/60/70/50 (405)
 Held Item: None
 Type: Water / Ground
@@ -9470,15 +9470,15 @@ Level Up Moves:
 28 - Muddy Water
 32 - Amnesia
 40 - Screech
-45 - Earthquake
-50 - Superpower
-55 - Hydro Pump
-60 - Endeavor
+45 - Endeavor
+50 - Earthquake
+55 - Superpower
+60 - Hydro Pump
 
 -------------------
 260 - Swampert
 -------------------
-Abilities: Torrent / Torrent / Damp ⟶ Torrent / Damp / Swift Swim**
+Abilities: Torrent / Torrent / Damp ⟶ Torrent / Damp / Regenerator**
 Base Stats: 100/110/90/85/90/60 (535)
 Held Item: None
 Type: Water / Ground
@@ -9503,10 +9503,10 @@ Level Up Moves:
 32 - Amnesia
 36 - Liquidation
 40 - Screech
-45 - Earthquake
-50 - Superpower
-55 - Hydro Pump
-60 - Endeavor
+45 - Endeavor
+50 - Earthquake
+55 - Superpower
+60 - Hydro Pump
 
 -------------------
 261 - Poochyena

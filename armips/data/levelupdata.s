@@ -6824,10 +6824,10 @@ levelup SPECIES_MUDKIP
     learnset MOVE_WATER_PULSE, 28
     learnset MOVE_AMNESIA, 32
     learnset MOVE_SCREECH, 40
-    learnset MOVE_EARTH_POWER, 45
-    learnset MOVE_SUPERPOWER, 50
-    learnset MOVE_HYDRO_PUMP, 55
-    learnset MOVE_ENDEAVOR, 60
+    learnset MOVE_ENDEAVOR, 45
+    learnset MOVE_EARTH_POWER, 50
+    learnset MOVE_SUPERPOWER, 55
+    learnset MOVE_HYDRO_PUMP, 60
     terminatelearnset
 
 levelup SPECIES_MARSHTOMP
@@ -6844,10 +6844,10 @@ levelup SPECIES_MARSHTOMP
     learnset MOVE_MUDDY_WATER, 28
     learnset MOVE_AMNESIA, 32
     learnset MOVE_SCREECH, 40
-    learnset MOVE_EARTHQUAKE, 45
-    learnset MOVE_SUPERPOWER, 50
-    learnset MOVE_HYDRO_PUMP, 55
-    learnset MOVE_ENDEAVOR, 60
+    learnset MOVE_ENDEAVOR, 45
+    learnset MOVE_EARTHQUAKE, 50
+    learnset MOVE_SUPERPOWER, 55
+    learnset MOVE_HYDRO_PUMP, 60
     terminatelearnset
 
 levelup SPECIES_SWAMPERT
@@ -6867,10 +6867,10 @@ levelup SPECIES_SWAMPERT
     learnset MOVE_AMNESIA, 32
     learnset MOVE_LIQUIDATION, 36
     learnset MOVE_SCREECH, 40
-    learnset MOVE_EARTHQUAKE, 45
-    learnset MOVE_SUPERPOWER, 50
-    learnset MOVE_HYDRO_PUMP, 55
-    learnset MOVE_ENDEAVOR, 60
+    learnset MOVE_ENDEAVOR, 45
+    learnset MOVE_EARTHQUAKE, 50
+    learnset MOVE_SUPERPOWER, 55
+    learnset MOVE_HYDRO_PUMP, 60
     terminatelearnset
 
 // NEW: Comeuppance

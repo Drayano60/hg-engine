@@ -130,8 +130,8 @@
 /* SPECIES_MR_MIME                     */ .halfword ABILITY_TECHNICIAN
 /* SPECIES_SCYTHER                     */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_SHARPNESS : ABILITY_STEADFAST
 /* SPECIES_JYNX                        */ .halfword ABILITY_DRY_SKIN
-/* SPECIES_ELECTABUZZ                  */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_VOLT_ABSORB : ABILITY_VITAL_SPIRIT
-/* SPECIES_MAGMAR                      */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_FLASH_FIRE : ABILITY_VITAL_SPIRIT
+/* SPECIES_ELECTABUZZ                  */ .halfword ABILITY_VITAL_SPIRIT
+/* SPECIES_MAGMAR                      */ .halfword ABILITY_VITAL_SPIRIT
 /* SPECIES_PINSIR                      */ .halfword ABILITY_MOXIE
 /* SPECIES_TAUROS                      */ .halfword ABILITY_SHEER_FORCE
 /* SPECIES_MAGIKARP                    */ .halfword ABILITY_RATTLED
@@ -244,8 +244,8 @@
 /* SPECIES_TYROGUE                     */ .halfword ABILITY_VITAL_SPIRIT
 /* SPECIES_HITMONTOP                   */ .halfword ABILITY_STEADFAST
 /* SPECIES_SMOOCHUM                    */ .halfword ABILITY_HYDRATION
-/* SPECIES_ELEKID                      */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_VOLT_ABSORB : ABILITY_VITAL_SPIRIT
-/* SPECIES_MAGBY                       */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_FLASH_FIRE : ABILITY_VITAL_SPIRIT
+/* SPECIES_ELEKID                      */ .halfword ABILITY_VITAL_SPIRIT
+/* SPECIES_MAGBY                       */ .halfword ABILITY_VITAL_SPIRIT
 /* SPECIES_MILTANK                     */ .halfword ABILITY_SAP_SIPPER
 /* SPECIES_BLISSEY                     */ .halfword ABILITY_HEALER
 /* SPECIES_RAIKOU                      */ .halfword ABILITY_INNER_FOCUS

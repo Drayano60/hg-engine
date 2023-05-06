@@ -3193,7 +3193,6 @@ mondata SPECIES_JYNX, "Jynx"
     mondexweight SPECIES_JYNX, "89.5 lbs."
 
 
-// ABILITY: Vital Spirit (2), Volt Absorb (HA)
 mondata SPECIES_ELECTABUZZ, "Electabuzz"
     basestats 65, 83, 57, 105, 95, 85
     types TYPE_ELECTRIC, TYPE_ELECTRIC
@@ -3206,11 +3205,7 @@ mondata SPECIES_ELECTABUZZ, "Electabuzz"
     basefriendship 70 // raised up again
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_HUMAN_LIKE, EGG_GROUP_HUMAN_LIKE
-    .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_STATIC, ABILITY_VITAL_SPIRIT
-    .else
-        abilities ABILITY_STATIC, ABILITY_NONE
-    .endif
+    abilities ABILITY_STATIC, ABILITY_NONE
     runchance 25
     colorflip BODY_COLOR_YELLOW, 0
     tmdata SPECIES_ELECTABUZZ_TM_DATA_0, SPECIES_ELECTABUZZ_TM_DATA_1, SPECIES_ELECTABUZZ_TM_DATA_2, SPECIES_ELECTABUZZ_TM_DATA_3
@@ -3220,7 +3215,6 @@ mondata SPECIES_ELECTABUZZ, "Electabuzz"
     mondexweight SPECIES_ELECTABUZZ, "66.1 lbs."
 
 
-// ABILITY: Vital Spirit (2), Flash Fire (HA)
 mondata SPECIES_MAGMAR, "Magmar"
     basestats 65, 95, 57, 93, 100, 85
     types TYPE_FIRE, TYPE_FIRE
@@ -3233,11 +3227,7 @@ mondata SPECIES_MAGMAR, "Magmar"
     basefriendship 70 // raised up again
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_HUMAN_LIKE, EGG_GROUP_HUMAN_LIKE
-    .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_FLAME_BODY, ABILITY_VITAL_SPIRIT
-    .else
-        abilities ABILITY_FLAME_BODY, ABILITY_NONE
-    .endif
+    abilities ABILITY_FLAME_BODY, ABILITY_NONE
     runchance 25
     colorflip BODY_COLOR_RED, 0
     tmdata SPECIES_MAGMAR_TM_DATA_0, SPECIES_MAGMAR_TM_DATA_1, SPECIES_MAGMAR_TM_DATA_2, SPECIES_MAGMAR_TM_DATA_3
@@ -6177,7 +6167,6 @@ mondata SPECIES_SMOOCHUM, "Smoochum"
     mondexweight SPECIES_SMOOCHUM, "13.2 lbs."
 
 
-// ABILITY: Vital Spirit (2), Volt Absorb (HA)
 mondata SPECIES_ELEKID, "Elekid"
     basestats 45, 63, 37, 95, 65, 55
     types TYPE_ELECTRIC, TYPE_ELECTRIC
@@ -6190,11 +6179,7 @@ mondata SPECIES_ELEKID, "Elekid"
     basefriendship 70 // raised up again
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
-    .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_STATIC, ABILITY_VITAL_SPIRIT
-    .else
-        abilities ABILITY_STATIC, ABILITY_NONE
-    .endif
+    abilities ABILITY_STATIC, ABILITY_NONE
     runchance 25
     colorflip BODY_COLOR_YELLOW, 0
     tmdata SPECIES_ELEKID_TM_DATA_0, SPECIES_ELEKID_TM_DATA_1, SPECIES_ELEKID_TM_DATA_2, SPECIES_ELEKID_TM_DATA_3
@@ -6204,7 +6189,6 @@ mondata SPECIES_ELEKID, "Elekid"
     mondexweight SPECIES_ELEKID, "51.8 lbs."
 
 
-// ABILITY: Vital Spirit (2), Flash Fire (HA)
 mondata SPECIES_MAGBY, "Magby"
     basestats 45, 75, 37, 83, 70, 55
     types TYPE_FIRE, TYPE_FIRE
@@ -6217,11 +6201,7 @@ mondata SPECIES_MAGBY, "Magby"
     basefriendship 70 // raised up again
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
-    .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_FLAME_BODY, ABILITY_VITAL_SPIRIT
-    .else
-        abilities ABILITY_FLAME_BODY, ABILITY_NONE
-    .endif
+    abilities ABILITY_FLAME_BODY, ABILITY_NONE
     runchance 25
     colorflip BODY_COLOR_RED, 0
     tmdata SPECIES_MAGBY_TM_DATA_0, SPECIES_MAGBY_TM_DATA_1, SPECIES_MAGBY_TM_DATA_2, SPECIES_MAGBY_TM_DATA_3
@@ -12113,7 +12093,7 @@ mondata SPECIES_TANGROWTH, "Tangrowth"
 
 
 // TYPES: Electric >> Electric/Fighting
-// ABILITY: Vital Spirit (2), Iron Fist (HA)
+// ABILITY: Iron Fist (HA)
 mondata SPECIES_ELECTIVIRE, "Electivire"
     basestats 75, 123, 67, 95, 95, 85
     .if TYPE_CHANGES_IMPLEMENTED
@@ -12130,11 +12110,7 @@ mondata SPECIES_ELECTIVIRE, "Electivire"
     basefriendship 70 // raised up again
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_HUMAN_LIKE, EGG_GROUP_HUMAN_LIKE
-    .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_MOTOR_DRIVE, ABILITY_VITAL_SPIRIT
-    .else
-        abilities ABILITY_MOTOR_DRIVE, ABILITY_NONE
-    .endif
+    abilities ABILITY_MOTOR_DRIVE, ABILITY_NONE
     runchance 25
     colorflip BODY_COLOR_YELLOW, 0
     tmdata SPECIES_ELECTIVIRE_TM_DATA_0, SPECIES_ELECTIVIRE_TM_DATA_1, SPECIES_ELECTIVIRE_TM_DATA_2, SPECIES_ELECTIVIRE_TM_DATA_3
@@ -12144,7 +12120,7 @@ mondata SPECIES_ELECTIVIRE, "Electivire"
     mondexweight SPECIES_ELECTIVIRE, "305.6 lbs."
 
 
-// ABILITY: Vital Spirit (2), Mega Launcher (HA)
+// ABILITY: Quick Draw (1), Mega Launcher (HA)
 mondata SPECIES_MAGMORTAR, "Magmortar"
     basestats 75, 95, 67, 83, 125, 95
     types TYPE_FIRE, TYPE_FIRE
@@ -12158,7 +12134,7 @@ mondata SPECIES_MAGMORTAR, "Magmortar"
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_HUMAN_LIKE, EGG_GROUP_HUMAN_LIKE
     .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_FLAME_BODY, ABILITY_VITAL_SPIRIT
+        abilities ABILITY_QUICK_DRAW, ABILITY_NONE
     .else
         abilities ABILITY_FLAME_BODY, ABILITY_NONE
     .endif

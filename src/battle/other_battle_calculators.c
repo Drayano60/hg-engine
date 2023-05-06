@@ -481,19 +481,31 @@ u8 CalcSpeed(void *bw, struct BattleStruct *sp, int client1, int client2, int fl
         speed1 *= 2;
     }
 
-    if (hold_effect1 == HOLD_EFFECT_QUICK_CLAW)
+    if (ability1 == ABILITY_QUICK_DRAW) {
+        if (BattleRand(bw) % 10 < 3) { // 30%
+            quick_claw1 = 1;
+
+            if (flag == 0) {
+                sp->battlemon[client1].moveeffect.raise_speed_once = 1;
+                sp->battlemon[client1].moveeffect.quick_claw_flag = 1;
+            }
+        }
+    }
+
+    if ((hold_effect1 == HOLD_EFFECT_QUICK_CLAW) && (quick_claw1 == 0))
     {
         if ((sp->agi_rand[client1] % (100 / hold_atk1)) == 0)
         {
             quick_claw1 = 1;
             if (flag == 0)
             {
+                // MON_DATA_86
                 sp->battlemon[client1].moveeffect.quick_claw_flag = 1;
             }
         }
     }
     
-    if (hold_effect1 == HOLD_EFFECT_RAISE_SPEED_IN_PINCH)
+    if ((hold_effect1 == HOLD_EFFECT_RAISE_SPEED_IN_PINCH) && (quick_claw1 == 0))
     {
         if (GetBattlerAbility(sp, client1) == ABILITY_GLUTTONY)
         {
@@ -504,6 +516,7 @@ u8 CalcSpeed(void *bw, struct BattleStruct *sp, int client1, int client2, int fl
             quick_claw1 = 1;
             if (flag == 0)
             {
+                // MON_DATA_85
                 sp->battlemon[client1].moveeffect.raise_speed_once = 1;
             }
         }
@@ -564,7 +577,18 @@ u8 CalcSpeed(void *bw, struct BattleStruct *sp, int client1, int client2, int fl
         speed2 *= 2;
     }
 
-    if (hold_effect2 == HOLD_EFFECT_QUICK_CLAW)
+    if (ability2 == ABILITY_QUICK_DRAW) {
+        if (BattleRand(bw) % 10 < 3) { // 30%
+            quick_claw2 = 1;
+
+            if (flag == 0) {
+                sp->battlemon[client2].moveeffect.raise_speed_once = 1;
+                sp->battlemon[client2].moveeffect.quick_claw_flag = 1;
+            }
+        }
+    }
+
+    if ((hold_effect2 == HOLD_EFFECT_QUICK_CLAW) && (quick_claw2 == 0))
     {
         if ((sp->agi_rand[client2] % (100 / hold_atk2)) == 0)
         {
@@ -576,7 +600,7 @@ u8 CalcSpeed(void *bw, struct BattleStruct *sp, int client1, int client2, int fl
         }
     }
 
-    if (hold_effect2 == HOLD_EFFECT_RAISE_SPEED_IN_PINCH)
+    if ((hold_effect2 == HOLD_EFFECT_RAISE_SPEED_IN_PINCH) && (quick_claw2 == 0))
     {
         if (GetBattlerAbility(sp, client2) == ABILITY_GLUTTONY)
         {

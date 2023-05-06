@@ -182,11 +182,11 @@ Doubles the Pokémon’s\nSpeed stat in a hailstorm.
 Contact with it lowers the\nattacker’s Speed stat.
 Gives +3 priority to the\nPokémon’s healing moves.
 Lowers the Speed of every\nother Pokémon when hit.
+Enables the Pokémon to go\nfirst 30% of the time.
 Powers up Electric-type\nmoves by 50%.
 Blocks priority moves used\nagainst it or its ally.
 Powers up slicing moves\nby 33%.
 Powers up moves by 10%\nfor each fainted ally.
--
 Powers up aura and pulse\nmoves by 33%.
 Bug moves have 30% chance\nto cause a status effect.
 Powers up ball, bomb and\ncannon moves by 33%.

@@ -12,7 +12,7 @@ For official abilities, the following are included and used in the game:
 * Almost all abilities from Gen 5, excluding Victory Star, Turboblaze and Teravolt.
 * The following abilities from Gen 6: Aerilate, Bulletproof, Competitive, Fur Coat, Gale Wings, Gooey, Mega Launcher, Pixilate, Protean, Refrigerate, Strong Jaw, Tough Claws.
 * The following abilities from Gen 7: Berserk, Dazzling, Fluffy, Galvanize, Merciless, Queenly Majesty, Slush Rush, Tangling Hair, Triage.
-* The following abilities from Gen 8: Cotton Down, Transistor.
+* The following abilities from Gen 8: Cotton Down, Quick Draw, Transistor.
 * The following abilities from Gen 9: Armor Tail, Sharpness, Supreme Overlord.
 
 Forewarn and Klutz have been removed from all Pokémon that have it due to their relative uselessness and lack of purpose, whereas a lot of other weak abilities have been given extra effects to compensate.

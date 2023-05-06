@@ -64,6 +64,7 @@ The following items were updated:
 - All TMs can now be used an infinite amount of times, and cannot be sold.
 - The Stick, Lunar Wing and Secret Potion are known as the Leek, Lunar Feather and Secret Medicine respectively (as is the case in Gen 8). Spelling is updated for all items.
 - Evolution items that are normally for trade evolutions only can now be used like an evolution stone.
+- The Quick Claw now displays a message when it activates.
 
 The following items are somewhat updated:
 - The Grip Claw fixes the duration of a binding move to six turns instead of seven. (This is because the way the game stores the data means six is the maximum turns possible).

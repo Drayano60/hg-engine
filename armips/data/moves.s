@@ -3114,13 +3114,13 @@ movedata MOVE_MUD_SLAP, "Mud-Slap"
     terminatedata
     movedescription MOVE_MUD_SLAP, "The user hurls mud in\nthe foe’s face to\ninflict damage and\nlower its accuracy.\n"
 
-// POWER: 65 >> 75
+// ACCURACY: 85 >> 100
 movedata MOVE_OCTAZOOKA, "Octazooka"
     battleeffect 73
     pss SPLIT_SPECIAL
-    basepower MOVE_CHANGES_IMPLEMENTED ? 75 : 65
+    basepower 65
     type TYPE_WATER
-    accuracy 85
+    accuracy MOVE_CHANGES_IMPLEMENTED ? 100 : 85
     pp 10
     effectchance 50
     target MOVE_TARGET_SELECTED

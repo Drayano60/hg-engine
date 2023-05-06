@@ -166,7 +166,7 @@ Boosts its Sp. Atk sharply\nif its stats are lowered.
 Halves the damage from\nphysical moves.
 Gives +1 priority to\nFlying-type moves.
 Contact with it lowers the\nattacker’s Speed stat.
-Powers up aura and pulse\nmoves by 33%.
+Powers up aura and pulse\nmoves by 50%.
 Normal-type moves become\nFairy and do 20% more.
 Changes the Pokémon’s\ntype to its move’s type.
 Normal-type moves become\nIce and do 20% more.
@@ -187,10 +187,10 @@ Powers up Electric-type\nmoves by 50%.
 Blocks priority moves used\nagainst it or its ally.
 Powers up slicing moves\nby 33%.
 Powers up moves by 10%\nfor each fainted ally.
-Powers up aura and pulse\nmoves by 33%.
+Powers up aura and pulse\nmoves by 50%.
 Bug moves have 30% chance\nto cause a status effect.
-Powers up ball, bomb and\ncannon moves by 33%.
-Powers up sound-based\nmoves by 33%.
+Powers up ball, bomb and\ncannon moves by 50%.
+Powers up sound-based\nmoves by 20%.
 Powers up moves used by\nallies by 15%.
 The Pokémon’s fur stops\nit taking recoil damage.
 Boosts Sp. Atk if a foe is\nKOed with a Fire move.
@@ -202,4 +202,4 @@ Powers up Fire-type\nmoves by 50%.
 Sun is harsh for 3 turns.\nDoubles Speed in sunshine.
 Odd steps foul a foe’s aim,\nreducing accuracy by 10%.
 Contact has a 30% chance\nof badly poisoning the foe.
-Powers up wind-based\nmoves by 33%.
+Powers up wind-based\nmoves by 50%.

@@ -4231,19 +4231,19 @@ New Moves:
 Level Up Moves:
 01 - Bubble
 01 - Leer
-03 - Twister
-06 - Smokescreen
+03 - Smokescreen
+06 - Twister
 09 - Focus Energy
-12 - Clear Smog
-16 - Bubble Beam
-20 - Dragon Rage
-24 - Dragon Breath
-28 - Octazooka
-35 - Agility
-40 - Whirlpool
-45 - Dragon Pulse
-50 - Rain Dance
-55 - Dragon Dance
+12 - Dragon Breath
+15 - Bubble Beam
+18 - Dragon Rage
+22 - Clear Smog
+26 - Octazooka
+30 - Agility
+36 - Whirlpool
+42 - Dragon Pulse
+48 - Rain Dance
+54 - Dragon Dance
 60 - Hydro Pump
 
 -------------------
@@ -4260,19 +4260,19 @@ New Moves:
 Level Up Moves:
 01 - Bubble
 01 - Leer
-03 - Twister
-06 - Smokescreen
+03 - Smokescreen
+06 - Twister
 09 - Focus Energy
-12 - Clear Smog
-16 - Bubble Beam
-20 - Dragon Rage
-24 - Dragon Breath
-28 - Octazooka
-35 - Agility
-40 - Whirlpool
-45 - Dragon Pulse
-50 - Rain Dance
-55 - Dragon Dance
+12 - Dragon Breath
+15 - Bubble Beam
+18 - Dragon Rage
+22 - Clear Smog
+26 - Octazooka
+30 - Agility
+36 - Whirlpool
+42 - Dragon Pulse
+48 - Rain Dance
+54 - Dragon Dance
 60 - Hydro Pump
 
 -------------------
@@ -4290,19 +4290,19 @@ Level Up Moves:
 01 - Yawn
 01 - Bubble
 01 - Leer
-03 - Twister
-06 - Smokescreen
+03 - Smokescreen
+06 - Twister
 09 - Focus Energy
-12 - Clear Smog
-16 - Bubble Beam
-20 - Dragon Rage
-24 - Dragon Breath
-28 - Octazooka
-35 - Agility
-40 - Whirlpool
-45 - Dragon Pulse
-50 - Rain Dance
-55 - Dragon Dance
+12 - Dragon Breath
+15 - Bubble Beam
+18 - Dragon Rage
+22 - Clear Smog
+26 - Octazooka
+30 - Agility
+36 - Whirlpool
+42 - Dragon Pulse
+48 - Rain Dance
+54 - Dragon Dance
 60 - Hydro Pump
 
 -------------------
@@ -5759,8 +5759,8 @@ Level Up Moves:
 08 - Thunder Wave
 12 - Dragon Breath
 16 - Agility
-20 - Slam
-24 - Dragon Rage
+20 - Dragon Rage
+24 - Slam
 28 - Breaking Swipe
 35 - Aqua Tail
 40 - Safeguard
@@ -5788,8 +5788,8 @@ Level Up Moves:
 08 - Thunder Wave
 12 - Dragon Breath
 16 - Agility
-20 - Slam
-24 - Dragon Rage
+20 - Dragon Rage
+24 - Slam
 28 - Breaking Swipe
 35 - Aqua Tail
 40 - Safeguard
@@ -5824,8 +5824,8 @@ Level Up Moves:
 08 - Thunder Wave
 12 - Dragon Breath
 16 - Agility
-20 - Slam
-24 - Dragon Rage
+20 - Dragon Rage
+24 - Slam
 28 - Breaking Swipe
 35 - Aqua Tail
 40 - Safeguard
@@ -15566,7 +15566,7 @@ Level Up Moves:
 -------------------
 448 - Lucario
 -------------------
-Abilities: Steadfast / Inner Focus / Justified ⟶ Steadfast / Inner Focus / Aura Master***
+Abilities: Steadfast / Inner Focus / Justified ⟶ Steadfast / Inner Focus / Aura Guardian***
 Base Stats: 70/110/70/115/70/90 (525)
 Held Item: None
 Type: Fighting / Steel

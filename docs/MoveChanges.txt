@@ -666,7 +666,7 @@ Power: 20 ⟶ 30
 
 Octazooka
 -------------------
-Power: 65 ⟶ 75
+Accuracy: 85% ⟶ 100%
 
 Rock Smash
 -------------------

@@ -221,10 +221,10 @@ New Abilities
 -------------------
 Aurora Crystal includes a handful of brand new abilities. Some of these are clones of existing abilities that work a lot better thematically with the Pokémon in question, while some have unique effects of their own. The name of each new ability is listed below along with the Pokémon that get it, its effect, the affected moves (for abilities that interact with specific moves), and some commentary on how it came to exist.
 
-Aura Master
+Aura Guardian
 -------------------
 Users: Lucario.
-Effect: Aura and pulse moves have their power increased by 33%.
+Effect: Aura and pulse moves have their power increased by 50%.
 Affected Moves: Aura Sphere, Dark Pulse, Dragon Pulse, Water Pulse.
 Notes: A clone of Mega Launcher that's a bit more thematically fitting for Lucario, since it is THE Aura Sphere Pokémon (and also learns all of the pulse moves).
 
@@ -237,16 +237,16 @@ Notes: A nod to Butterfree's unique Gigantamax move. I needed a third ability fo
 Bombardier
 -------------------
 Users: Octillery.
-Effect: Ball, bomb and cannon moves have their power increased by 33%.
+Effect: Ball, bomb and cannon moves have their power increased by 50%.
 Moves Affected: Acid Spray, Aura Sphere, Barrage, Bullet Seed, Egg Bomb, Energy Ball, Flash Cannon, Focus Blast, Gyro Ball, Hydro Cannon, Ice Ball, Magnet Bomb, Mist Ball, Mud Bomb, Octazooka, Rock Blast, Rock Wrecker, Seed Bomb, Shadow Ball, Sludge Bomb, Spike Cannon, Weather Ball, Zap Cannon.
 Notes: A nod to Octillery's tank inspirations. The moves affected are taken from what Bulletproof blocks (as well as a few extras). 
 
 Cacophony
 -------------------
-Users: Igglybuff, Jigglypuff, Wigglytuff, Politoed, Whismur, Loudred, Exploud, Chingling, Chimecho, Kricketot, Kricketune, Chatot.
-Effect: Sound-based moves have their power increased by 33%.
+Users: Igglybuff, Jigglypuff, Wigglytuff, Whismur, Loudred, Exploud, Chingling, Chimecho, Kricketot, Kricketune, Chatot.
+Effect: Sound-based moves have their power increased by 20%.
 Moves Affected: Boomburst, Bug Buzz, Chatter, Disarming Voice, Echoed Voice, Hyper Voice, Snarl, Uproar.
-Notes: An ability for a move theme that doesn't have one yet, given to a lot of Pokémon with a sound aesthetic. (It might admittedly be a bit overkill when it comes to Boomburst!) The Cacophony name comes from the unused ability in Gen 3 (which was then coded as a Soundproof clone) that was later removed.
+Notes: An ability for a move theme that doesn't have one yet, given to a lot of Pokémon with a sound aesthetic. The boost this ability provides is a bit weaker than similar abilities due to Boomburst. The Cacophony name comes from the unused ability in Gen 3 (which was then coded as a Soundproof clone) that was later removed.
 
 Cheerleader
 -------------------
@@ -317,7 +317,7 @@ Notes: A more deadly version of Poison Point, fitting for poisonous insects with
 Wind Whipper
 -------------------
 Users: Shiftry.
-Effect: Wind-based moves have their power increased by 33%.
+Effect: Wind-based moves have their power increased by 50%.
 Moves Affected: Air Cutter, Blizzard, Fairy Wind, Gust, Heat Wave, Hurricane, Icy Wind, Ominous Wind, Petal Blizzard, Razor Wind, Silver Wind, Twister.
 Notes: An ability for a move theme that doesn't have one yet, given to Shiftry due to its Pokédex entries mentioning it can create terrific windstorms. The affected moves are drawn from Gen 9's Wind Power and Wind Rider abilities (as well as a few assumptions for snapped moves like Razor Wind). 
 
@@ -331,7 +331,7 @@ Blaze, Torrent, Overgrow, Swarm
 Boosts the strength of the Pokémon's moves that are of the relevant type by 10%.
 If the Pokémon is at 33% or lower HP, this boost is 50% instead.
 
-Iron Fist, Mega Launcher, Reckless, Sharpness, Strong Jaw
+Iron Fist, Reckless, Sharpness, Strong Jaw
 -------------------
 Boosts the strength of the Pokémon's moves that are of the relevant theme by 33%.
 (The abilities that were previously 50% are now available to a lot more Pokémon, hence the nerf!)
@@ -387,4 +387,4 @@ Protects the user from taking damage in a sandstorm (this is the new bit!).
 Tough Claws
 -------------------
 Boosts the strength of the Pokémon's moves that make contact by 20%.
-(This is nerfed from its original 30% because a lot more Pokémon have it now.)
+(This is nerfed from its original 30% because a lot more Pokémon have it now, and it affects a LOT of moves.)

@@ -726,14 +726,14 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
     }
 
     // Handle Mega Launcher
-    // Also handle Aura Master, a new ability for Lucario with the same effect
+    // Also handle Aura Guardian, a new ability for Lucario with the same effect
     if
     (
-        ((AttackingMon.ability == ABILITY_WIND_WHIPPER) || (AttackingMon.ability == ABILITY_AURA_MASTER)) &&
+        ((AttackingMon.ability == ABILITY_MEGA_LAUNCHER) || (AttackingMon.ability == ABILITY_AURA_GUARDIAN)) &&
         (sp->moveTbl[sp->current_move_index].appeal & FLAG_PULSE)
     )
     {
-        movepower = movepower * 133 / 100;
+        movepower = movepower * 150 / 100;
     }
 
     // Handle Strong Jaw
@@ -748,7 +748,7 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
 
     // Handle Cacophony, a new ability for various sound-based Pokémon
     if ((AttackingMon.ability == ABILITY_CACOPHONY) && (sp->moveTbl[sp->current_move_index].flag & FLAG_SOUND)) {
-        movepower = movepower * 133 / 100;
+        movepower = movepower * 120 / 100;
     }   
 
     // Handle Bombardier, a new ability for Octillery
@@ -759,12 +759,12 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
         (sp->moveTbl[sp->current_move_index].appeal & FLAG_CANNON))     
     )
     {
-        movepower = movepower * 133 / 100;
+        movepower = movepower * 150 / 100;
     }
 
     // Handle Wind Whipper, a new ability for Shiftry
     if ((AttackingMon.ability == ABILITY_WIND_WHIPPER) && (sp->moveTbl[sp->current_move_index].appeal & FLAG_WIND)) {
-        movepower = movepower * 133 / 100;
+        movepower = movepower * 150 / 100;
     }
 
     // //handles water bubble

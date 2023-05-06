@@ -3270,38 +3270,38 @@ levelup SPECIES_KANGASKHAN
 levelup SPECIES_HORSEA
     learnset MOVE_BUBBLE, 1
     learnset MOVE_LEER, 1
-    learnset MOVE_TWISTER, 3
-    learnset MOVE_SMOKESCREEN, 6
+    learnset MOVE_SMOKESCREEN, 3
+    learnset MOVE_TWISTER, 6
     learnset MOVE_FOCUS_ENERGY, 9
-    learnset MOVE_CLEAR_SMOG, 12
-    learnset MOVE_BUBBLE_BEAM, 16
-    learnset MOVE_DRAGON_RAGE, 20
-    learnset MOVE_DRAGON_BREATH, 24
-    learnset MOVE_OCTAZOOKA, 28
-    learnset MOVE_AGILITY, 35
-    learnset MOVE_WHIRLPOOL, 40
-    learnset MOVE_DRAGON_PULSE, 45
-    learnset MOVE_RAIN_DANCE, 50
-    learnset MOVE_DRAGON_DANCE, 55
+    learnset MOVE_DRAGON_BREATH, 12
+    learnset MOVE_BUBBLE_BEAM, 15
+    learnset MOVE_DRAGON_RAGE, 18
+    learnset MOVE_CLEAR_SMOG, 22
+    learnset MOVE_OCTAZOOKA, 26
+    learnset MOVE_AGILITY, 30
+    learnset MOVE_WHIRLPOOL, 36
+    learnset MOVE_DRAGON_PULSE, 42
+    learnset MOVE_RAIN_DANCE, 48
+    learnset MOVE_DRAGON_DANCE, 54
     learnset MOVE_HYDRO_PUMP, 60
     terminatelearnset
 
 levelup SPECIES_SEADRA
     learnset MOVE_BUBBLE, 1
     learnset MOVE_LEER, 1
-    learnset MOVE_TWISTER, 3
-    learnset MOVE_SMOKESCREEN, 6
+    learnset MOVE_SMOKESCREEN, 3
+    learnset MOVE_TWISTER, 6
     learnset MOVE_FOCUS_ENERGY, 9
-    learnset MOVE_CLEAR_SMOG, 12
-    learnset MOVE_BUBBLE_BEAM, 16
-    learnset MOVE_DRAGON_RAGE, 20
-    learnset MOVE_DRAGON_BREATH, 24
-    learnset MOVE_OCTAZOOKA, 28
-    learnset MOVE_AGILITY, 35
-    learnset MOVE_WHIRLPOOL, 40
-    learnset MOVE_DRAGON_PULSE, 45
-    learnset MOVE_RAIN_DANCE, 50
-    learnset MOVE_DRAGON_DANCE, 55
+    learnset MOVE_DRAGON_BREATH, 12
+    learnset MOVE_BUBBLE_BEAM, 15
+    learnset MOVE_DRAGON_RAGE, 18
+    learnset MOVE_CLEAR_SMOG, 22
+    learnset MOVE_OCTAZOOKA, 26
+    learnset MOVE_AGILITY, 30
+    learnset MOVE_WHIRLPOOL, 36
+    learnset MOVE_DRAGON_PULSE, 42
+    learnset MOVE_RAIN_DANCE, 48
+    learnset MOVE_DRAGON_DANCE, 54
     learnset MOVE_HYDRO_PUMP, 60
     terminatelearnset
 
@@ -3309,19 +3309,19 @@ levelup SPECIES_KINGDRA
     learnset MOVE_YAWN, 1 
     learnset MOVE_BUBBLE, 1
     learnset MOVE_LEER, 1
-    learnset MOVE_TWISTER, 3
-    learnset MOVE_SMOKESCREEN, 6
+    learnset MOVE_SMOKESCREEN, 3
+    learnset MOVE_TWISTER, 6
     learnset MOVE_FOCUS_ENERGY, 9
-    learnset MOVE_CLEAR_SMOG, 12
-    learnset MOVE_BUBBLE_BEAM, 16
-    learnset MOVE_DRAGON_RAGE, 20
-    learnset MOVE_DRAGON_BREATH, 24
-    learnset MOVE_OCTAZOOKA, 28
-    learnset MOVE_AGILITY, 35
-    learnset MOVE_WHIRLPOOL, 40
-    learnset MOVE_DRAGON_PULSE, 45
-    learnset MOVE_RAIN_DANCE, 50
-    learnset MOVE_DRAGON_DANCE, 55
+    learnset MOVE_DRAGON_BREATH, 12
+    learnset MOVE_BUBBLE_BEAM, 15
+    learnset MOVE_DRAGON_RAGE, 18
+    learnset MOVE_CLEAR_SMOG, 22
+    learnset MOVE_OCTAZOOKA, 26
+    learnset MOVE_AGILITY, 30
+    learnset MOVE_WHIRLPOOL, 36
+    learnset MOVE_DRAGON_PULSE, 42
+    learnset MOVE_RAIN_DANCE, 48
+    learnset MOVE_DRAGON_DANCE, 54
     learnset MOVE_HYDRO_PUMP, 60
     terminatelearnset
 
@@ -4310,8 +4310,8 @@ levelup SPECIES_DRATINI
     learnset MOVE_THUNDER_WAVE, 8
     learnset MOVE_DRAGON_BREATH, 12
     learnset MOVE_AGILITY, 16
-    learnset MOVE_SLAM, 20
-    learnset MOVE_DRAGON_RAGE, 24
+    learnset MOVE_DRAGON_RAGE, 20
+    learnset MOVE_SLAM, 24
     learnset MOVE_BREAKING_SWIPE, 28
     learnset MOVE_AQUA_TAIL, 35
     learnset MOVE_SAFEGUARD, 40
@@ -4329,8 +4329,8 @@ levelup SPECIES_DRAGONAIR
     learnset MOVE_THUNDER_WAVE, 8
     learnset MOVE_DRAGON_BREATH, 12
     learnset MOVE_AGILITY, 16
-    learnset MOVE_SLAM, 20
-    learnset MOVE_DRAGON_RAGE, 24
+    learnset MOVE_DRAGON_RAGE, 20
+    learnset MOVE_SLAM, 24
     learnset MOVE_BREAKING_SWIPE, 28
     learnset MOVE_AQUA_TAIL, 35
     learnset MOVE_SAFEGUARD, 40
@@ -4355,8 +4355,8 @@ levelup SPECIES_DRAGONITE
     learnset MOVE_THUNDER_WAVE, 8
     learnset MOVE_DRAGON_BREATH, 12
     learnset MOVE_AGILITY, 16
-    learnset MOVE_SLAM, 20
-    learnset MOVE_DRAGON_RAGE, 24
+    learnset MOVE_DRAGON_RAGE, 20
+    learnset MOVE_SLAM, 24
     learnset MOVE_BREAKING_SWIPE, 28
     learnset MOVE_AQUA_TAIL, 35
     learnset MOVE_SAFEGUARD, 40

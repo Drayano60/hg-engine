@@ -4657,7 +4657,7 @@ Level Up Moves:
 -------------------
 239 - Elekid
 -------------------
-Abilities: Static / Static / Vital Spirit ⟶ Static / Vital Spirit / Volt Absorb**
+Abilities: Static / Static / Vital Spirit
 Base Stats: 45/63/37/65/55/95 (360)
 Held Item: None
 Type: Electric
@@ -4686,7 +4686,7 @@ Level Up Moves:
 -------------------
 125 - Electabuzz
 -------------------
-Abilities: Static / Static / Vital Spirit ⟶ Static / Vital Spirit / Volt Absorb**
+Abilities: Static / Static / Vital Spirit
 Base Stats: 65/83/57/95/85/105 (490)
 Held Item: None
 Type: Electric
@@ -4715,7 +4715,7 @@ Level Up Moves:
 -------------------
 466 - Electivire
 -------------------
-Abilities: Motor Drive / Static / Vital Spirit ⟶ Motor Drive / Vital Spirit / Iron Fist**
+Abilities: Motor Drive / Motor Drive / Vital Spirit ⟶ Motor Drive / Motor Drive / Iron Fist**
 Base Stats: 75/123/67/95/85/95 (540)
 Held Item: Electirizer (5%)
 Type: Electric ⟶ Electric / Fighting
@@ -4756,7 +4756,7 @@ Level Up Moves:
 -------------------
 240 - Magby
 -------------------
-Abilities: Flame Body / Flame Body / Vital Spirit ⟶ Flame Body / Vital Spirit / Flash Fire**
+Abilities: Flame Body / Flame Body / Vital Spirit
 Base Stats: 45/75/37/70/55/83 (365)
 Held Item: None
 Type: Fire
@@ -4785,7 +4785,7 @@ Level Up Moves:
 -------------------
 126 - Magmar
 -------------------
-Abilities: Flame Body / Flame Body / Vital Spirit ⟶ Flame Body / Vital Spirit / Flash Fire**
+Abilities: Flame Body / Flame Body / Vital Spirit
 Base Stats: 65/95/57/100/85/93 (495)
 Held Item: None
 Type: Fire
@@ -4814,7 +4814,7 @@ Level Up Moves:
 -------------------
 467 - Magmortar
 -------------------
-Abilities: Flame Body / Flame Body / Vital Spirit ⟶ Flame Body / Vital Spirit / Mega Launcher**
+Abilities: Flame Body / Flame Body / Vital Spirit ⟶ Quick Draw** / Quick Draw** / Mega Launcher**
 Base Stats: 75/95/67/125/95/83 (540)
 Held Item: None
 Type: Fire

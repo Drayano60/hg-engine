@@ -244,9 +244,9 @@ Notes: A nod to Octillery's tank inspirations. The moves affected are taken from
 Cacophony
 -------------------
 Users: Igglybuff, Jigglypuff, Wigglytuff, Whismur, Loudred, Exploud, Chingling, Chimecho, Kricketot, Kricketune, Chatot.
-Effect: Sound-based moves have their power increased by 20%.
+Effect: Sound-based moves have their power increased by 30%.
 Moves Affected: Boomburst, Bug Buzz, Chatter, Disarming Voice, Echoed Voice, Hyper Voice, Snarl, Uproar.
-Notes: An ability for a move theme that doesn't have one yet, given to a lot of Pokémon with a sound aesthetic. The boost this ability provides is a bit weaker than similar abilities due to Boomburst. The Cacophony name comes from the unused ability in Gen 3 (which was then coded as a Soundproof clone) that was later removed.
+Notes: A half clone of Punk Rock that can be given out more generally. The Cacophony name comes from the unused ability in Gen 3 (though back then, it was a Soundproof clone!).
 
 Cheerleader
 -------------------
@@ -331,10 +331,9 @@ Blaze, Torrent, Overgrow, Swarm
 Boosts the strength of the Pokémon's moves that are of the relevant type by 10%.
 If the Pokémon is at 33% or lower HP, this boost is 50% instead.
 
-Iron Fist, Reckless, Sharpness, Strong Jaw
+Iron Fist, Reckless
 -------------------
-Boosts the strength of the Pokémon's moves that are of the relevant theme by 33%.
-(The abilities that were previously 50% are now available to a lot more Pokémon, hence the nerf!)
+These now boost the power of the relevant moves by 30% (increased from 20%).
 
 Anticipation
 -------------------

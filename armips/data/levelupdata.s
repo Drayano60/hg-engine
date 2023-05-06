@@ -371,8 +371,8 @@ levelup SPECIES_RATTATA
     learnset MOVE_HYPER_FANG, 15
     learnset MOVE_ASSURANCE, 18
     learnset MOVE_HONE_CLAWS, 24
-    learnset MOVE_CRUNCH, 28
-    learnset MOVE_REVERSAL, 32
+    learnset MOVE_REVERSAL, 28
+    learnset MOVE_CRUNCH, 32
     learnset MOVE_SUPER_FANG, 36
     learnset MOVE_SUCKER_PUNCH, 40
     learnset MOVE_DOUBLE_EDGE, 44
@@ -390,8 +390,8 @@ levelup SPECIES_RATTATA_ALOLAN
     learnset MOVE_HYPER_FANG, 15
     learnset MOVE_ASSURANCE, 18
     learnset MOVE_HONE_CLAWS, 24
-    learnset MOVE_CRUNCH, 28
-    learnset MOVE_REVERSAL, 32
+    learnset MOVE_REVERSAL, 28
+    learnset MOVE_CRUNCH, 32
     learnset MOVE_SUPER_FANG, 36
     learnset MOVE_SUCKER_PUNCH, 40
     learnset MOVE_DOUBLE_EDGE, 44
@@ -1033,9 +1033,10 @@ levelup SPECIES_JIGGLYPUFF
     learnset MOVE_REST, 32
     learnset MOVE_HYPER_VOICE, 36
     learnset MOVE_MOONBLAST, 40
-    learnset MOVE_GYRO_BALL, 44
-    learnset MOVE_DOUBLE_EDGE, 48
-    learnset MOVE_BOOMBURST, 52
+    learnset MOVE_BOUNCE, 44
+    learnset MOVE_GYRO_BALL, 48
+    learnset MOVE_DOUBLE_EDGE, 52
+    learnset MOVE_BOOMBURST, 56
     terminatelearnset
 
 // NEW: Boomburst, Moonblast, Noble Roar
@@ -1061,9 +1062,10 @@ levelup SPECIES_WIGGLYTUFF
     learnset MOVE_REST, 32
     learnset MOVE_HYPER_VOICE, 36
     learnset MOVE_MOONBLAST, 40
-    learnset MOVE_GYRO_BALL, 44
-    learnset MOVE_DOUBLE_EDGE, 48
-    learnset MOVE_BOOMBURST, 52
+    learnset MOVE_BOUNCE, 44
+    learnset MOVE_GYRO_BALL, 48
+    learnset MOVE_DOUBLE_EDGE, 52
+    learnset MOVE_BOOMBURST, 56
     terminatelearnset
 
 levelup SPECIES_ZUBAT
@@ -6884,8 +6886,8 @@ levelup SPECIES_POOCHYENA
     learnset MOVE_SCARY_FACE, 15
     learnset MOVE_ASSURANCE, 20
     learnset MOVE_TAKE_DOWN, 24
-    learnset MOVE_CRUNCH, 28
-    learnset MOVE_YAWN, 32
+    learnset MOVE_YAWN, 28
+    learnset MOVE_CRUNCH, 32
     learnset MOVE_SWAGGER, 36
     learnset MOVE_PLAY_ROUGH, 40
     learnset MOVE_FOUL_PLAY, 44
@@ -6914,8 +6916,8 @@ levelup SPECIES_MIGHTYENA
     learnset MOVE_SNARL, 18
     learnset MOVE_ASSURANCE, 20
     learnset MOVE_TAKE_DOWN, 24
-    learnset MOVE_CRUNCH, 28
-    learnset MOVE_YAWN, 32
+    learnset MOVE_YAWN, 28
+    learnset MOVE_CRUNCH, 32
     learnset MOVE_SWAGGER, 36
     learnset MOVE_PLAY_ROUGH, 40
     learnset MOVE_FOUL_PLAY, 44
@@ -10115,17 +10117,18 @@ levelup SPECIES_BIDOOF
     learnset MOVE_DEFENSE_CURL, 3
     learnset MOVE_ROLLOUT, 6
     learnset MOVE_HEADBUTT, 9
-    learnset MOVE_HYPER_FANG, 12
-    learnset MOVE_YAWN, 16
-    learnset MOVE_CRUNCH, 20
-    learnset MOVE_AQUA_TAIL, 24
-    learnset MOVE_TAKE_DOWN, 28
-    learnset MOVE_SUPER_FANG, 32
-    learnset MOVE_SWORDS_DANCE, 36
-    learnset MOVE_AMNESIA, 40
-    learnset MOVE_CURSE, 44
-    learnset MOVE_SUPERPOWER, 48
-    learnset MOVE_DOUBLE_EDGE, 52
+    learnset MOVE_TAUNT, 12
+    learnset MOVE_HYPER_FANG, 16
+    learnset MOVE_YAWN, 20
+    learnset MOVE_CRUNCH, 24
+    learnset MOVE_AQUA_TAIL, 28
+    learnset MOVE_TAKE_DOWN, 32
+    learnset MOVE_SUPER_FANG, 36
+    learnset MOVE_SWORDS_DANCE, 40
+    learnset MOVE_AMNESIA, 44
+    learnset MOVE_CURSE, 48
+    learnset MOVE_SUPERPOWER, 52
+    learnset MOVE_DOUBLE_EDGE, 56
     terminatelearnset
 
 levelup SPECIES_BIBAREL
@@ -10137,18 +10140,19 @@ levelup SPECIES_BIBAREL
     learnset MOVE_DEFENSE_CURL, 3
     learnset MOVE_ROLLOUT, 6
     learnset MOVE_HEADBUTT, 9
-    learnset MOVE_HYPER_FANG, 12
+    learnset MOVE_TAUNT, 12
     learnset MOVE_WATER_GUN, 15
-    learnset MOVE_YAWN, 16
-    learnset MOVE_CRUNCH, 20
-    learnset MOVE_AQUA_TAIL, 24
-    learnset MOVE_TAKE_DOWN, 28
-    learnset MOVE_SUPER_FANG, 32
-    learnset MOVE_SWORDS_DANCE, 36
-    learnset MOVE_AMNESIA, 40
-    learnset MOVE_CURSE, 44
-    learnset MOVE_SUPERPOWER, 48
-    learnset MOVE_DOUBLE_EDGE, 52
+    learnset MOVE_HYPER_FANG, 16
+    learnset MOVE_YAWN, 20
+    learnset MOVE_CRUNCH, 24
+    learnset MOVE_AQUA_TAIL, 28
+    learnset MOVE_TAKE_DOWN, 32
+    learnset MOVE_SUPER_FANG, 36
+    learnset MOVE_SWORDS_DANCE, 40
+    learnset MOVE_AMNESIA, 44
+    learnset MOVE_CURSE, 48
+    learnset MOVE_SUPERPOWER, 52
+    learnset MOVE_DOUBLE_EDGE, 56
     terminatelearnset
 
 levelup SPECIES_KRICKETOT

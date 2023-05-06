@@ -6769,11 +6769,11 @@ mondata SPECIES_POOCHYENA, "Poochyena"
     mondexweight SPECIES_POOCHYENA, "30.0 lbs."
 
 
-// STATS: 90 >> 110 Atk | 60 >> 50 SpAtk | 70 >> 90 Spd | 420 >> 450 BST
+// STATS: 90 >> 100 Atk | 70 >> 90 Spd | 420 >> 450 BST
 // ABILITY: Strong Jaw (2)
 mondata SPECIES_MIGHTYENA, "Mightyena"
     .if STAT_CHANGES_IMPLEMENTED
-        basestats 70, 110, 70, 90, 50, 60
+        basestats 70, 100, 70, 90, 60, 60
     .else
         basestats 70, 90, 70, 70, 60, 60
     .endif
@@ -12201,14 +12201,9 @@ mondata SPECIES_YANMEGA, "Yanmega"
     mondexweight SPECIES_YANMEGA, "113.5 lbs."
 
 
-// STATS: 110 >> 130 Atk | 130 >> 110 Def
 // ABILITY: Chlorophyll (2), Sharpness (HA)
 mondata SPECIES_LEAFEON, "Leafeon"
-    .if STAT_CHANGES_IMPLEMENTED
-        basestats 65, 130, 110, 95, 60, 65
-    .else
-        basestats 65, 110, 130, 95, 60, 65
-    .endif
+    basestats 65, 110, 130, 95, 60, 65
     types TYPE_GRASS, TYPE_GRASS
     catchrate 45
     baseexp 0 // defined in baseexp.s

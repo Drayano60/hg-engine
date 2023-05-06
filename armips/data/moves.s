@@ -6878,12 +6878,11 @@ movedata MOVE_SHADOW_CLAW, "Shadow Claw"
     terminatedata
     movedescription MOVE_SHADOW_CLAW, "The user slashes with\na sharp claw made\nfrom shadows.\nIt has a high\ncritical-hit ratio."
 
-// POWER: 65 >> 75
 // ACCURACY: 95 >> 100
 movedata MOVE_THUNDER_FANG, "Thunder Fang"
     battleeffect 275
     pss SPLIT_PHYSICAL
-    basepower MOVE_CHANGES_IMPLEMENTED ? 75 : 65
+    basepower 65
     type TYPE_ELECTRIC
     accuracy MOVE_CHANGES_IMPLEMENTED ? 100 : 95
     pp 15
@@ -6896,12 +6895,11 @@ movedata MOVE_THUNDER_FANG, "Thunder Fang"
     terminatedata
     movedescription MOVE_THUNDER_FANG, "The user bites with\nelectrified fangs.\nThis has a 10% chance\neach to paralyze or\nflinch the foe."
 
-// POWER: 65 >> 75
 // ACCURACY: 95 >> 100
 movedata MOVE_ICE_FANG, "Ice Fang"
     battleeffect 274
     pss SPLIT_PHYSICAL
-    basepower MOVE_CHANGES_IMPLEMENTED ? 75 : 65
+    basepower 65
     type TYPE_ICE
     accuracy MOVE_CHANGES_IMPLEMENTED ? 100 : 95
     pp 15
@@ -6914,12 +6912,11 @@ movedata MOVE_ICE_FANG, "Ice Fang"
     terminatedata
     movedescription MOVE_ICE_FANG, "The user bites with\ncold-infused fangs.\nThis has a 10% chance\neach to freeze or\nflinch the foe."
 
-// POWER: 65 >> 75
 // ACCURACY: 95 >> 100
 movedata MOVE_FIRE_FANG, "Fire Fang"
     battleeffect 314 // Changed from 273 to fix Wonder Guard glitch
     pss SPLIT_PHYSICAL
-    basepower MOVE_CHANGES_IMPLEMENTED ? 75 : 65
+    basepower 65
     type TYPE_FIRE
     accuracy MOVE_CHANGES_IMPLEMENTED ? 100 : 95
     pp 15

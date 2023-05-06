@@ -708,18 +708,17 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
     // }
 
     /* Handle specific move/move effect multipliers */
-    // These abilities have been standardized to 33%.
 
     // Handle Iron Fist
     if ((AttackingMon.ability == ABILITY_IRON_FIST) && (sp->moveTbl[sp->current_move_index].appeal & FLAG_PUNCH)) {
-        movepower = movepower * 133 / 100;
+        movepower = movepower * 130 / 100;
     }
 
     // Handle Reckless
     if (AttackingMon.ability == ABILITY_RECKLESS) {
         for (i = 0; i < NELEMS(RecklessMoveEffectsTable); i++) {
             if (RecklessMoveEffectsTable[i] == sp->moveTbl[moveno].effect) {
-                movepower = movepower * 133 / 100;
+                movepower = movepower * 130 / 100;
                 break;
             }
         }
@@ -738,17 +737,17 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
 
     // Handle Strong Jaw
     if ((AttackingMon.ability == ABILITY_STRONG_JAW) && (sp->moveTbl[sp->current_move_index].appeal & FLAG_BITING)) {
-        movepower = movepower * 133 / 100;
+        movepower = movepower * 150 / 100;
     }
 
     // Handle Sharpness
     if ((AttackingMon.ability == ABILITY_SHARPNESS) && (sp->moveTbl[sp->current_move_index].appeal & FLAG_CUTTING)) {
-        movepower = movepower * 133 / 100;
+        movepower = movepower * 150 / 100;
     }
 
     // Handle Cacophony, a new ability for various sound-based Pokémon
     if ((AttackingMon.ability == ABILITY_CACOPHONY) && (sp->moveTbl[sp->current_move_index].flag & FLAG_SOUND)) {
-        movepower = movepower * 120 / 100;
+        movepower = movepower * 130 / 100;
     }   
 
     // Handle Bombardier, a new ability for Octillery

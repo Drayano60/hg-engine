@@ -551,8 +551,8 @@ Level Up Moves:
 15 - Hyper Fang
 18 - Assurance
 24 - Hone Claws
-28 - Crunch
-32 - Reversal
+28 - Reversal
+32 - Crunch
 36 - Super Fang
 40 - Sucker Punch
 44 - Double-Edge
@@ -589,8 +589,8 @@ Level Up Moves:
 18 - Assurance
 20 - Scary Face
 24 - Hone Claws
-28 - Crunch
-32 - Reversal
+28 - Reversal
+32 - Crunch
 36 - Super Fang
 40 - Sucker Punch
 44 - Double-Edge
@@ -1291,9 +1291,10 @@ Level Up Moves:
 32 - Rest
 36 - Hyper Voice
 40 - Moonblast
-44 - Gyro Ball
-48 - Double-Edge
-52 - Boomburst
+44 - Bounce
+48 - Gyro Ball
+52 - Double-Edge
+56 - Boomburst
 
 -------------------
 040 - Wigglytuff
@@ -1331,9 +1332,10 @@ Level Up Moves:
 32 - Rest
 36 - Hyper Voice
 40 - Moonblast
-44 - Gyro Ball
-48 - Double-Edge
-52 - Boomburst
+44 - Bounce
+48 - Gyro Ball
+52 - Double-Edge
+56 - Boomburst
 
 -------------------
 041 - Zubat
@@ -5216,7 +5218,7 @@ Level Up Moves:
 470 - Leafeon
 -------------------
 Abilities: Leaf Guard / Leaf Guard / Chlorophyll ⟶ Leaf Guard / Chlorophyll / Sharpness**
-Base Stats: 65/110/130/60/65/95 (525) ⟶ 65/130*/110*/60/65/95 (525)
+Base Stats: 65/110/130/60/65/95 (525)
 Held Item: None
 Type: Grass
 
@@ -9531,8 +9533,8 @@ Level Up Moves:
 15 - Scary Face
 20 - Assurance
 24 - Take Down
-28 - Crunch
-32 - Yawn
+28 - Yawn
+32 - Crunch
 36 - Swagger
 40 - Play Rough
 44 - Foul Play
@@ -9543,7 +9545,7 @@ Level Up Moves:
 262 - Mightyena
 -------------------
 Abilities: Intimidate / Quick Feet / Moxie ⟶ Intimidate / Strong Jaw** / Moxie
-Base Stats: 70/90/70/60/60/70 (420) ⟶ 70/110*/70/50*/60/90* (450)
+Base Stats: 70/90/70/60/60/70 (420) ⟶ 70/100*/70/60/60/90* (450)
 Held Item: Pecha Berry (5%)
 Type: Dark
 
@@ -9572,8 +9574,8 @@ Level Up Moves:
 18 - Snarl
 20 - Assurance
 24 - Take Down
-28 - Crunch
-32 - Yawn
+28 - Yawn
+32 - Crunch
 36 - Swagger
 40 - Play Rough
 44 - Foul Play
@@ -14257,17 +14259,18 @@ Level Up Moves:
 03 - Defense Curl
 06 - Rollout
 09 - Headbutt
-12 - Hyper Fang
-16 - Yawn
-20 - Crunch
-24 - Aqua Tail
-28 - Take Down
-32 - Super Fang
-36 - Swords Dance
-40 - Amnesia
-44 - Curse
-48 - Superpower
-52 - Double-Edge
+12 - Taunt
+16 - Hyper Fang
+20 - Yawn
+24 - Crunch
+28 - Aqua Tail
+32 - Take Down
+36 - Super Fang
+40 - Swords Dance
+44 - Amnesia
+48 - Curse
+52 - Superpower
+56 - Double-Edge
 
 -------------------
 400 - Bibarel
@@ -14289,18 +14292,19 @@ Level Up Moves:
 03 - Defense Curl
 06 - Rollout
 09 - Headbutt
-12 - Hyper Fang
+12 - Taunt
 15 - Water Gun
-16 - Yawn
-20 - Crunch
-24 - Aqua Tail
-28 - Take Down
-32 - Super Fang
-36 - Swords Dance
-40 - Amnesia
-44 - Curse
-48 - Superpower
-52 - Double-Edge
+16 - Hyper Fang
+20 - Yawn
+24 - Crunch
+28 - Aqua Tail
+32 - Take Down
+36 - Super Fang
+40 - Swords Dance
+44 - Amnesia
+48 - Curse
+52 - Superpower
+56 - Double-Edge
 
 -------------------
 401 - Kricketot

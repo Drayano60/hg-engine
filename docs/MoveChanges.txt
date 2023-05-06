@@ -802,7 +802,6 @@ Accuracy: 75% ⟶ 85%
 
 Fire Fang
 -------------------
-Power: 65 ⟶ 75
 Accuracy: 95% ⟶ 100%
 
 Gyro Ball
@@ -811,7 +810,6 @@ PP: 5 ⟶ 10
 
 Ice Fang
 -------------------
-Power: 65 ⟶ 75
 Accuracy: 95% ⟶ 100%
 
 Mirror Shot
@@ -837,7 +835,6 @@ Power: 70 ⟶ 80
 
 Thunder Fang
 -------------------
-Power: 65 ⟶ 75
 Accuracy: 95% ⟶ 100%
 
 Zen Headbutt

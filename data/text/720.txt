@@ -187,7 +187,7 @@ Transistor
 Armor Tail
 Sharpness
 Supreme Overlord
-Aura Master
+Aura Guardian
 Befuddle
 Bombardier
 Cacophony

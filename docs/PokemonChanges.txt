@@ -3508,7 +3508,7 @@ Level Up Moves:
 -------------------
 100 - Voltorb
 -------------------
-Abilities: Soundproof / Static / Aftermath
+Abilities: Soundproof / Static / Aftermath ⟶ Aftermath / Static / Galvanize**
 Base Stats: 40/30/50/55/55/100 (330)
 Held Item: None
 Type: Electric
@@ -3522,27 +3522,29 @@ New Moves:
 Level Up Moves:
 01 - Charge
 01 - Tackle
-01 - Screech
-03 - Thunder Shock
-06 - Eerie Impulse
-09 - Sonic Boom
-12 - Spark
-15 - Swift
-18 - Rollout
-21 - Charge Beam
-24 - Self-Destruct
-27 - Light Screen
+01 - Thunder Shock
+04 - Sonic Boom
+07 - Rollout
+10 - Spark
+13 - Swift
+16 - Screech
+19 - Charge Beam
+22 - Eerie Impulse
+25 - Self-Destruct
+28 - Light Screen
 32 - Magnet Rise
-36 - Gyro Ball
-40 - Discharge
-44 - Mirror Coat
-48 - Explosion
-52 - Boomburst
+36 - Discharge
+40 - Gyro Ball
+44 - Thunderbolt
+48 - Metal Sound
+52 - Mirror Coat
+56 - Boomburst
+60 - Explosion
 
 -------------------
 101 - Electrode
 -------------------
-Abilities: Soundproof / Static / Aftermath
+Abilities: Soundproof / Static / Aftermath ⟶ Aftermath / Static / Galvanize**
 Base Stats: 60/50/70/80/80/150 (490)
 Held Item: None
 Type: Electric
@@ -3554,26 +3556,27 @@ New Moves:
 - Teleport (Tutor) (LGPE)
 
 Level Up Moves:
-01 - Metal Sound
 01 - Charge
 01 - Tackle
-01 - Screech
-03 - Thunder Shock
-06 - Eerie Impulse
-09 - Sonic Boom
-12 - Spark
-15 - Swift
-18 - Rollout
-21 - Charge Beam
-24 - Self-Destruct
-27 - Light Screen
+01 - Thunder Shock
+04 - Sonic Boom
+07 - Rollout
+10 - Spark
+13 - Swift
+16 - Screech
+19 - Charge Beam
+22 - Eerie Impulse
+25 - Self-Destruct
+28 - Light Screen
 30 - Volt Switch
 32 - Magnet Rise
-36 - Gyro Ball
-40 - Discharge
-44 - Mirror Coat
-48 - Explosion
-52 - Boomburst
+36 - Discharge
+40 - Gyro Ball
+44 - Thunderbolt
+48 - Metal Sound
+52 - Mirror Coat
+56 - Boomburst
+60 - Explosion
 
 -------------------
 102 - Exeggcute

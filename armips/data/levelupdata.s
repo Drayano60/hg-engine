@@ -2737,46 +2737,49 @@ levelup SPECIES_KINGLER
 levelup SPECIES_VOLTORB
     learnset MOVE_CHARGE, 1
     learnset MOVE_TACKLE, 1
-    learnset MOVE_SCREECH, 1
-    learnset MOVE_THUNDER_SHOCK, 3
-    learnset MOVE_EERIE_IMPULSE, 6
-    learnset MOVE_SONIC_BOOM, 9
-    learnset MOVE_SPARK, 12
-    learnset MOVE_SWIFT, 15
-    learnset MOVE_ROLLOUT, 18
-    learnset MOVE_CHARGE_BEAM, 21
-    learnset MOVE_SELF_DESTRUCT, 24
-    learnset MOVE_LIGHT_SCREEN, 27
+    learnset MOVE_THUNDER_SHOCK, 1
+    learnset MOVE_SONIC_BOOM, 4
+    learnset MOVE_ROLLOUT, 7
+    learnset MOVE_SPARK, 10
+    learnset MOVE_SWIFT, 13
+    learnset MOVE_SCREECH, 16
+    learnset MOVE_CHARGE_BEAM, 19
+    learnset MOVE_EERIE_IMPULSE, 22
+    learnset MOVE_SELF_DESTRUCT, 25
+    learnset MOVE_LIGHT_SCREEN, 28
     learnset MOVE_MAGNET_RISE, 32
-    learnset MOVE_GYRO_BALL, 36
-    learnset MOVE_DISCHARGE, 40
-    learnset MOVE_MIRROR_COAT, 44
-    learnset MOVE_EXPLOSION, 48
-    learnset MOVE_BOOMBURST, 52
+    learnset MOVE_DISCHARGE, 36
+    learnset MOVE_GYRO_BALL, 40
+    learnset MOVE_THUNDERBOLT, 44
+    learnset MOVE_METAL_SOUND, 48
+    learnset MOVE_MIRROR_COAT, 52
+    learnset MOVE_BOOMBURST, 56
+    learnset MOVE_EXPLOSION, 60
     terminatelearnset
 
 // NEW: Boomburst
 levelup SPECIES_ELECTRODE
-    learnset MOVE_METAL_SOUND, 1
     learnset MOVE_CHARGE, 1
     learnset MOVE_TACKLE, 1
-    learnset MOVE_SCREECH, 1
-    learnset MOVE_THUNDER_SHOCK, 3
-    learnset MOVE_EERIE_IMPULSE, 6
-    learnset MOVE_SONIC_BOOM, 9
-    learnset MOVE_SPARK, 12
-    learnset MOVE_SWIFT, 15
-    learnset MOVE_ROLLOUT, 18
-    learnset MOVE_CHARGE_BEAM, 21
-    learnset MOVE_SELF_DESTRUCT, 24
-    learnset MOVE_LIGHT_SCREEN, 27
+    learnset MOVE_THUNDER_SHOCK, 1
+    learnset MOVE_SONIC_BOOM, 4
+    learnset MOVE_ROLLOUT, 7
+    learnset MOVE_SPARK, 10
+    learnset MOVE_SWIFT, 13
+    learnset MOVE_SCREECH, 16
+    learnset MOVE_CHARGE_BEAM, 19
+    learnset MOVE_EERIE_IMPULSE, 22
+    learnset MOVE_SELF_DESTRUCT, 25
+    learnset MOVE_LIGHT_SCREEN, 28
     learnset MOVE_VOLT_SWITCH, 30
     learnset MOVE_MAGNET_RISE, 32
-    learnset MOVE_GYRO_BALL, 36
-    learnset MOVE_DISCHARGE, 40
-    learnset MOVE_MIRROR_COAT, 44
-    learnset MOVE_EXPLOSION, 48
-    learnset MOVE_BOOMBURST, 52
+    learnset MOVE_DISCHARGE, 36
+    learnset MOVE_GYRO_BALL, 40
+    learnset MOVE_THUNDERBOLT, 44
+    learnset MOVE_METAL_SOUND, 48
+    learnset MOVE_MIRROR_COAT, 52
+    learnset MOVE_BOOMBURST, 56
+    learnset MOVE_EXPLOSION, 60
     terminatelearnset
     
 levelup SPECIES_EXEGGCUTE

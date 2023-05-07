@@ -1,16 +1,22 @@
-All Pokémon that evolve into their final forms by level can be fully evolved by Level 40, except for psuedo legends, Fraxure and Larvesta (and Vibrava if stat changes are not applied).
 Friendship evolutions still happen once the Pokémon reaches 220+ friendship and levels up.
 
 All methods listed below replace the original evolution method unless explicitly stated otherwise.
 
 Level Evolutions
+---
+A significant number of level evolutions have been adjusted. The majority of these brings the evolution level down somewhat to make the final evolution more accessible.
+
+All Pokémon that evolve into their final forms by level can be fully evolved by Level 40, except for psuedo legends, Fraxure and Larvesta (and Vibrava if stat changes are not applied).
+
+There are also two cases where the evolution level is instead pushed up, as the Pokémon post-evolution has received significant buffs.
+
 #077 Ponyta ⟶ #078 Rapidash: Evolves at Level 35.
 #079 Slowpoke ⟶ #080 Slowbro: Evolves at Level 33.
 #088 Grimer ⟶ #089 Muk: Evolves at Level 35.
 #111 Rhyhorn ⟶ #112 Rhydon: Evolves at Level 36.
 #138 Omanyte ⟶ #139 Omastar: Evolves at Level 30.
 #140 Kabuto ⟶ #141 Kabutops: Evolves at Level 30.
-#167 Spinarak ⟶ #168 Ariados: Evolves at Level 18.
+#165 Ledyba ⟶ #166 Ledian: Evolves at Level 22.
 #180 Flaaffy ⟶ #181 Ampharos: Evolves at Level 35.
 #218 Slugma ⟶ #219 Magcargo: Evolves at Level 28.
 #304 Aron ⟶ #305 Lairon: Evolves at Level 28.

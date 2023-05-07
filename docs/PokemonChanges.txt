@@ -6410,25 +6410,24 @@ New Moves:
 - Pounce (Tutor)
 
 Level Up Moves:
-01 - Swift
-01 - Tackle
+01 - Comet Punch
 01 - Supersonic
-03 - Bug Bite
-06 - Comet Punch
+03 - Swift
+06 - Bug Bite
 09 - Power-Up Punch
 12 - Light Screen
 12 - Reflect
 12 - Safeguard
 15 - Mach Punch
-20 - Acrobatics
-24 - Baton Pass
-28 - Agility
-32 - Lunge
-36 - Dual Wingbeat
-40 - First Impression
-44 - Meteor Mash
-48 - Double-Edge
-52 - Dynamic Punch
+18 - Baton Pass
+21 - Acrobatics
+25 - Agility
+29 - Lunge
+33 - Dual Wingbeat
+37 - First Impression
+41 - Meteor Mash
+45 - Dynamic Punch
+49 - Double-Edge
 
 -------------------
 166 - Ledian
@@ -6453,26 +6452,25 @@ Level Up Moves:
 01 - Bullet Punch
 01 - Dizzy Punch
 01 - Encore
-01 - Swift
-01 - Tackle
+01 - Comet Punch
 01 - Supersonic
-03 - Bug Bite
-06 - Comet Punch
+03 - Swift
+06 - Bug Bite
 09 - Power-Up Punch
 12 - Light Screen
 12 - Reflect
 12 - Safeguard
 15 - Mach Punch
-18 - Piddly Punches
-20 - Acrobatics
-24 - Baton Pass
-28 - Agility
-32 - Lunge
-36 - Dual Wingbeat
-40 - First Impression
-44 - Meteor Mash
-48 - Double-Edge
-52 - Dynamic Punch
+18 - Baton Pass
+21 - Acrobatics
+22 - Piddly Punches
+25 - Agility
+29 - Lunge
+33 - Dual Wingbeat
+37 - First Impression
+41 - Meteor Mash
+45 - Dynamic Punch
+49 - Double-Edge
 
 -------------------
 167 - Spinarak
@@ -6502,15 +6500,15 @@ Level Up Moves:
 09 - Shadow Sneak
 12 - Scary Face
 15 - Poison Fang
-20 - Toxic Thread
-24 - Fury Swipes
-28 - Poison Jab
-32 - Lunge
-36 - Agility
-40 - First Impression
-44 - Sucker Punch
-48 - Cross Poison
-52 - Megahorn
+18 - Fury Swipes
+21 - Toxic Thread
+25 - Poison Jab
+29 - Lunge
+33 - Agility
+37 - First Impression
+41 - Sucker Punch
+45 - Cross Poison
+49 - Megahorn
 
 -------------------
 168 - Ariados
@@ -6545,16 +6543,16 @@ Level Up Moves:
 09 - Shadow Sneak
 12 - Scary Face
 15 - Poison Fang
-18 - Skitter Smack
-20 - Toxic Thread
-24 - Fury Swipes
-28 - Poison Jab
-32 - Lunge
-36 - Agility
-40 - First Impression
-44 - Sucker Punch
-48 - Cross Poison
-52 - Megahorn
+18 - Fury Swipes
+21 - Toxic Thread
+22 - Skitter Smack
+25 - Poison Jab
+29 - Lunge
+33 - Agility
+37 - First Impression
+41 - Sucker Punch
+45 - Cross Poison
+49 - Megahorn
 
 -------------------
 170 - Chinchou

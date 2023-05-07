@@ -2010,7 +2010,8 @@ evodata SPECIES_NOCTOWL
     terminateevodata
 
 evodata SPECIES_LEDYBA
-    evolution EVO_LEVEL_UP, 18, SPECIES_LEDIAN
+    // evolution EVO_LEVEL_UP, 18, SPECIES_LEDIAN
+    evolution EVO_LEVEL_UP, 22, SPECIES_LEDIAN
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -2034,8 +2035,7 @@ evodata SPECIES_LEDIAN
     terminateevodata
 
 evodata SPECIES_SPINARAK
-    // evolution EVO_LEVEL_UP, 22, SPECIES_ARIADOS
-    evolution EVO_LEVEL_UP, 18, SPECIES_ARIADOS
+    evolution EVO_LEVEL_UP, 22, SPECIES_ARIADOS
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE

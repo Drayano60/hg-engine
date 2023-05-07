@@ -2921,7 +2921,7 @@ Level Up Moves:
 -------------------
 084 - Doduo
 -------------------
-Abilities: Run Away / Early Bird / Tangled Feet ⟶ Run Away / Early Bird / Moxie**
+Abilities: Run Away / Early Bird / Tangled Feet ⟶ Quick Feet** / Early Bird / Speed Boost**
 Base Stats: 35/85/45/35/35/75 (310)
 Held Item: Sharp Beak (5%)
 Type: Normal / Flying
@@ -2954,7 +2954,7 @@ Level Up Moves:
 -------------------
 085 - Dodrio
 -------------------
-Abilities: Run Away / Early Bird / Tangled Feet ⟶ Quick Feet / Early Bird / Moxie**
+Abilities: Run Away / Early Bird / Tangled Feet ⟶ Quick Feet** / Early Bird / Speed Boost**
 Base Stats: 60/110/70/60/60/110 (470)
 Held Item: Sharp Beak (5%)
 Type: Normal / Flying

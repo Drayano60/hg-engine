@@ -2181,7 +2181,7 @@ mondata SPECIES_FARFETCHD, "Farfetch’d"
     mondexweight SPECIES_FARFETCHD, "33.1 lbs."
 
 
-// ABILITY: Moxie (HA)
+// ABILITY: Quick Feet (1), Speed Boost (HA)
 mondata SPECIES_DODUO, "Doduo"
     basestats 35, 85, 45, 75, 35, 35
     types TYPE_NORMAL, TYPE_FLYING
@@ -2194,7 +2194,11 @@ mondata SPECIES_DODUO, "Doduo"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FLYING, EGG_GROUP_FLYING
-    abilities ABILITY_RUN_AWAY, ABILITY_EARLY_BIRD
+    .if ABILITY_CHANGES_IMPLEMENTED
+        abilities ABILITY_QUICK_FEET, ABILITY_EARLY_BIRD
+    .else
+        abilities ABILITY_RUN_AWAY, ABILITY_EARLY_BIRD
+    .endif
     runchance 25
     colorflip BODY_COLOR_BROWN, 0
     tmdata SPECIES_DODUO_TM_DATA_0, SPECIES_DODUO_TM_DATA_1, SPECIES_DODUO_TM_DATA_2, SPECIES_DODUO_TM_DATA_3
@@ -2204,7 +2208,7 @@ mondata SPECIES_DODUO, "Doduo"
     mondexweight SPECIES_DODUO, "86.4 lbs."
 
 
-// ABILITY: Quick Feet (1), Moxie (HA)
+// ABILITY: Quick Feet (1), Speed Boost (HA)
 mondata SPECIES_DODRIO, "Dodrio"
     basestats 60, 110, 70, 110, 60, 60
     types TYPE_NORMAL, TYPE_FLYING

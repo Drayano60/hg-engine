@@ -22,3 +22,9 @@ arm9 sPocketCounts 08077C14
 
 0001 gOWTagToFileNum 021F92FC
 0001 gOWTagToFileNum 021FA280
+
+# Combo table for battle music
+arm9 MainTableCombo 080517C8
+arm9 MainTableCombo+2 080517E4
+arm9 PokemonMusicTable 080518D4
+arm9 TrainerMusicTable 08051890

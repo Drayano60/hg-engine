@@ -249,9 +249,3 @@ arm9 FieldMsgPrintInit 0205B4EC 2
 arm9 WindowClose 02041190 0
 
 #endif
-
-# Combo table for battle music
-arm9 MainTableCombo 080517C8 0
-arm9 MainTableCombo+2 080517E4 0
-arm9 PokemonMusicTable 080518D4 0
-arm9 TrainerMusicTable 08051890 0

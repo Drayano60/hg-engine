@@ -9,6 +9,9 @@
 
 .create "build/move/move_anim/0_588", 0
 
+// Night Daze
+// Dark Pulse but dark bg instead of monochrome
+
 a010_588:
     initspriteresource
     loadspriteresource 0
@@ -20,31 +23,43 @@ a010_588:
     loadspritemaybe 6, 0, 2, 2
     loadspritemaybe 7, 0, 3, 3
     callfunction 78, 1, 0, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
-    loadparticle 0, 255
+    loadparticle 0, 417
     waitstate
     unloadspriteresource
     resetsprite 0
     resetsprite 1
     resetsprite 2
     resetsprite 3
+
     callfunction 33, 5, 0, 1, 0, 12, 0, "NaN", "NaN", "NaN", "NaN", "NaN"
-    waitstate
-    playsepan 1927, -117
-    addparticle 0, 1, 3
-    wait 40
-    playsepan 2015, -117
-    wait 40
-    addparticle 0, 2, 3
-    addparticle 0, 3, 3
-    addparticle 0, 4, 3
+
+    wait 1
+    initspriteresource
+    loadspriteresource 0
+    loadspriteresource 1
+    playsepanmod 2086, -117, 117, 4, 2
+    loadspritemaybe 0, 0, 0, 0
+    loadspritemaybe 2, 0, 1, 1
+    callfunction 75, 5, 0, 30, 3, 0, 0, "NaN", "NaN", "NaN", "NaN", "NaN"
+    callfunction 75, 5, 1, 30, 3, 0, 2, "NaN", "NaN", "NaN", "NaN", "NaN"
+    wait 1
     addparticle 0, 0, 3
-    playsepanmod 1990, -117, 117, 4, 2
-    wait 5
-    callfunction 36, 5, 2, 0, 1, 2, 264, "NaN", "NaN", "NaN", "NaN", "NaN"
-    waitparticle
-    unloadparticle 0
+    addparticle 0, 1, 3
+    // callfunction 74, 1, 1, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
+    // enablemonsprite 0, 0x0
+    // enablemonsprite 1, 0x0
+    callfunction 36, 5, 1, 0, 1, 6, 264, "NaN", "NaN", "NaN", "NaN", "NaN"
+    callfunction 34, 6, 8, 0, 1, 8296, 14, 0, "NaN", "NaN", "NaN", "NaN"
+    waitstate
+    // callfunction 74, 1, 0, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
+
     callfunction 33, 5, 0, 1, 12, 0, 0, "NaN", "NaN", "NaN", "NaN", "NaN"
     waitstate
+    resetsprite 0
+    resetsprite 1
+    unloadspriteresource
+    waitparticle
+    unloadparticle 0
     end
 
 .close

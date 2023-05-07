@@ -60,9 +60,9 @@ A Pokémon will now be fast asleep for 1-3 (down from 1-4) of its turns, and the
 -------------------
 Newly Added Moves
 -------------------
-Aurora Crystal contains 117 new moves in addition to the 467 in Heart Gold and Soul Silver normally. 113 of these are moves that were introduced in later generation games, and the remaining 4 are custom signature moves for a few Pokémon.
+Aurora Crystal contains 118 new moves in addition to the 467 in Heart Gold and Soul Silver normally. 114 of these are moves that were introduced in later generation games, and the remaining 4 are custom signature moves for a few Pokémon.
 
-Gen 5 Moves (47)
+Gen 5 Moves (48)
 -------------------
 Acid Spray
 Acrobatics
@@ -92,6 +92,7 @@ Icicle Crash
 Incinerate
 Inferno
 Low Sweep
+Night Daze
 Psyshock
 Psystrike
 Quiver Dance
@@ -847,6 +848,10 @@ Frost Breath
 -------------------
 Power: 60 ⟶ 45
 Notes: This is because the critical hit multiplier is still x2.0 (instead of x1.5).
+
+Night Daze
+-------------------
+Accuracy: 95% ⟶ 100%
 
 Razor Shell
 -------------------

@@ -9580,22 +9580,22 @@ movedata MOVE_PSYSTRIKE, "Psystrike"
     terminatedata
     movedescription MOVE_PSYSTRIKE, "The user materializes\nan odd psychic wave\nto attack the foe.\nThis attack does\nphysical damage."
 
-// Copy of Hidden Power with fixed type, for AI use only
-movedata MOVE_HIDDEN_POWER_DRAGON, "Hidden Power"
-    battleeffect 0
+// ACCURACY: 95 >> 100
+movedata MOVE_NIGHT_DAZE, "Night Daze"
+    battleeffect 73
     pss SPLIT_SPECIAL
-    basepower 60
-    type TYPE_DRAGON
-    accuracy 100
-    pp 15
-    effectchance 0
+    basepower 85
+    type TYPE_DARK
+    accuracy MOVE_CHANGES_IMPLEMENTED ? 100 : 95
+    pp 10
+    effectchance 40
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_MIRROR_MOVE | FLAG_PROTECT
     appeal 0
     contesttype 0
     terminatedata
-    movedescription MOVE_HIDDEN_POWER_DRAGON, "FOR AI ONLY"
+    movedescription MOVE_NIGHT_DAZE, "The user lets loose\na pitch-black shock\nwave at its foe.\nThis has a 40% chance\nto lower accuracy."
 
 // Copy of Hidden Power with fixed type, for AI use only
 movedata MOVE_HIDDEN_POWER_DARK, "Hidden Power"

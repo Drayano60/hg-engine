@@ -13525,7 +13525,7 @@ levelup SPECIES_ZORUA
     learnset MOVE_AGILITY, 32
     learnset MOVE_EMBARGO, 36
     learnset MOVE_IMPRISON, 40
-    learnset MOVE_DARK_PULSE, 44
+    learnset MOVE_NIGHT_DAZE, 44
     learnset MOVE_PUNISHMENT, 48
     learnset MOVE_NASTY_PLOT, 52
     learnset MOVE_FOUL_PLAY, 56
@@ -13550,7 +13550,7 @@ levelup SPECIES_ZOROARK
     learnset MOVE_AGILITY, 32
     learnset MOVE_EMBARGO, 36
     learnset MOVE_IMPRISON, 40
-    learnset MOVE_DARK_PULSE, 44
+    learnset MOVE_NIGHT_DAZE, 44
     learnset MOVE_PUNISHMENT, 48
     learnset MOVE_NASTY_PLOT, 52
     learnset MOVE_FOUL_PLAY, 56

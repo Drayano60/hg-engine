@@ -18997,7 +18997,7 @@ Level Up Moves:
 32 - Agility
 36 - Embargo
 40 - Imprison
-44 - Dark Pulse
+44 - Night Daze
 48 - Punishment
 52 - Nasty Plot
 56 - Foul Play
@@ -19032,7 +19032,7 @@ Level Up Moves:
 32 - Agility
 36 - Embargo
 40 - Imprison
-44 - Dark Pulse
+44 - Night Daze
 48 - Punishment
 52 - Nasty Plot
 56 - Foul Play

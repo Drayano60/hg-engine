@@ -9564,22 +9564,21 @@ movedata MOVE_POWER_TRIP, "Power Trip"
     terminatedata
     movedescription MOVE_POWER_TRIP, "The user boasts its\npower and attacks.\nThis move has 20 more\npower for each of the\nuser’s stat boosts."
 
-// Copy of Hidden Power with fixed type, for AI use only
-movedata MOVE_HIDDEN_POWER_ICE, "Hidden Power"
-    battleeffect 0
+movedata MOVE_PSYSTRIKE, "Psystrike"
+    battleeffect 293
     pss SPLIT_SPECIAL
-    basepower 60
-    type TYPE_ICE
+    basepower 100
+    type TYPE_PSYCHIC
     accuracy 100
-    pp 15
+    pp 10
     effectchance 0
     target MOVE_TARGET_SELECTED
     priority 0
-    flags FLAG_MIRROR_MOVE | FLAG_PROTECT
+    flags FLAG_PROTECT | FLAG_MIRROR_MOVE
     appeal 0
     contesttype 0
     terminatedata
-    movedescription MOVE_HIDDEN_POWER_ICE, "FOR AI ONLY"
+    movedescription MOVE_PSYSTRIKE, "The user materializes\nan odd psychic wave\nto attack the foe.\nThis attack does\nphysical damage."
 
 // Copy of Hidden Power with fixed type, for AI use only
 movedata MOVE_HIDDEN_POWER_DRAGON, "Hidden Power"

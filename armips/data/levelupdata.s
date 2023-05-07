@@ -4374,7 +4374,6 @@ levelup SPECIES_DRAGONITE
     learnset MOVE_GIGA_IMPACT, 74
     terminatelearnset
 
-// NEW: Psycho Boost
 levelup SPECIES_MEWTWO
     learnset MOVE_PSYWAVE, 1
     learnset MOVE_ME_FIRST, 1
@@ -4393,8 +4392,8 @@ levelup SPECIES_MEWTWO
     learnset MOVE_POWER_SWAP, 56
     learnset MOVE_GUARD_SWAP, 56
     learnset MOVE_MIST, 64
-    learnset MOVE_PSYCHO_BOOST, 72
-    learnset MOVE_RECOVER, 80
+    learnset MOVE_RECOVER, 72
+    learnset MOVE_PSYSTRIKE, 80
     learnset MOVE_FUTURE_SIGHT, 88
     terminatelearnset
 

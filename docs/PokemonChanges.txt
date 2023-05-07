@@ -5851,7 +5851,6 @@ Held Item: None
 Type: Psychic
 
 New Moves:
-- Psycho Boost (Level)
 - Teleport (Tutor) (LGPE)
 
 Level Up Moves:
@@ -5872,8 +5871,8 @@ Level Up Moves:
 56 - Power Swap
 56 - Guard Swap
 64 - Mist
-72 - Psycho Boost
-80 - Recover
+72 - Recover
+80 - Psystrike
 88 - Future Sight
 
 -------------------

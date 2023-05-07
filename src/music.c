@@ -3,6 +3,7 @@
 
 // Tables for connecting music to Pokemon Species and Trainer Classes
 // Thank you BluRose for the repoints and Senate for helping me set it up (and giving me the vanilla table)!
+// Remember to increment the relevant variables in bytereplacement when adding entries to the tables.
 
 struct MonBattleMusic
 {
@@ -21,8 +22,33 @@ struct MonBattleMusic PokemonMusicTable[] = {
     {.species = SPECIES_KYOGRE, .combo = 27},
     {.species = SPECIES_RAYQUAZA, .combo = 27},
     {.species = SPECIES_MEWTWO, .combo = 28},
-    {.species = SPECIES_LATIOS, .combo = 28},
-    {.species = SPECIES_LATIAS, .combo = 28},
+    {.species = SPECIES_LATIOS, .combo = 47}, // Changed from 28
+    {.species = SPECIES_LATIAS, .combo = 47}, // Changed from 28
+    // New Entries
+    {.species = SPECIES_ARTICUNO, .combo = 28},
+    {.species = SPECIES_ZAPDOS, .combo = 28},
+    {.species = SPECIES_MOLTRES, .combo = 28},
+    {.species = SPECIES_MEW, .combo = 28},
+    {.species = SPECIES_CELEBI, .combo = 45},
+    {.species = SPECIES_REGIROCK, .combo = 46},
+    {.species = SPECIES_REGICE, .combo = 46},
+    {.species = SPECIES_REGISTEEL, .combo = 46},
+    {.species = SPECIES_JIRACHI, .combo = 47},
+    {.species = SPECIES_DEOXYS, .combo = 48},
+    {.species = SPECIES_UXIE, .combo = 49},
+    {.species = SPECIES_MESPRIT, .combo = 49},
+    {.species = SPECIES_AZELF, .combo = 49},
+    {.species = SPECIES_DIALGA, .combo = 50},
+    {.species = SPECIES_PALKIA, .combo = 50},
+    {.species = SPECIES_HEATRAN, .combo = 51},
+    {.species = SPECIES_REGIGIGAS, .combo = 46},
+    {.species = SPECIES_GIRATINA, .combo = 52},
+    {.species = SPECIES_CRESSELIA, .combo = 51},
+    {.species = SPECIES_PHIONE, .combo = 53},
+    {.species = SPECIES_MANAPHY, .combo = 53},
+    {.species = SPECIES_DARKRAI, .combo = 51},
+    {.species = SPECIES_SHAYMIN, .combo = 53},
+    {.species = SPECIES_ARCEUS, .combo = 54},
 };
 
 // Trainer combo is trainer class ID followed by (combo ID * 4)
@@ -77,6 +103,19 @@ u8 TrainerMusicTable[][2] = {
 #define VS_LUGIA 1133
 #define VS_FRONTIER_BRAIN 1147
 #define VS_HOENN_LEGENDARY 1174
+#define VS_ARCEUS 1176
+
+// Inserted tracks (thanks Dragokai!)
+#define VS_SINNOH_BOX_LEGENDARY 2379
+#define VS_REGI 2380
+#define VS_LAKE_LEGENDARY 2381
+#define VS_SINNOH_LEGENDARY 2382
+#define VS_GIRATINA 2383
+#define VS_CYNTHIA 2384 // Thanks AdAstra for composing this one!
+#define VS_DEOXYS 2385
+#define VS_HOENN_WILD_POKEMON 2386
+#define VS_SINNOH_WILD_POKEMON 2387
+#define LOOKER_THEME 2388
 
 // First byte is effect (pre-battle VS banners etc), second byte is music (music ID)
 const u16 MainTableCombo[][2] = {
@@ -102,9 +141,9 @@ const u16 MainTableCombo[][2] = {
     {0x20, VS_JOHTO_GYM_LEADER}, // combo 19 Karen
     {0x21, VS_CHAMPION}, // combo 20 Lance
     {0x1C, VS_RIVAL}, // combo 21 Silver, Passerby Boy
-    {0xFFFF, VS_RAIKOU}, // combo 22 Raikou (no special animation)
-    {0xFFFF, VS_ENTEI}, // combo 23 Entei (no special animation)
-    {0xFFFF, VS_SUICUNE}, // combo 24 Suicune (no special animation)
+    {34, VS_RAIKOU}, // combo 22 Raikou (no special animation) - changed from FFFF 34
+    {34, VS_ENTEI}, // combo 23 Entei (no special animation) - changed from FFFF to 34
+    {34, VS_SUICUNE}, // combo 24 Suicune (no special animation) - changed from FFFF to 34
     {0x23, VS_HOOH}, // combo 25 Ho-Oh
     {0x24, VS_LUGIA}, // combo 26 Lugia
     {0x22, VS_HOENN_LEGENDARY}, // combo 27 Groudon, Kyogre, Rayquaza
@@ -125,4 +164,15 @@ const u16 MainTableCombo[][2] = {
     {0xFFFF, VS_JOHTO_WILD_POKEMON}, // combo 42 Johto Wild theme (no special animation?)
     {0x2D, VS_JOHTO_TRAINER}, // combo 43 Kimono Girl
     {0x2E, VS_CHAMPION}, // combo 44 Red (***END OF VANILLA ENTRIES***)
+    // New Entries
+    {34, VS_JOHTO_WILD_POKEMON}, // Combo 45
+    {34, VS_REGI}, // Combo 46
+    {34, VS_HOENN_WILD_POKEMON}, // Combo 47
+    {34, VS_DEOXYS}, // Combo 48
+    {34, VS_LAKE_LEGENDARY}, // Combo 49
+    {34, VS_SINNOH_BOX_LEGENDARY}, // Combo 50
+    {34, VS_SINNOH_LEGENDARY}, // Combo 51
+    {34, VS_GIRATINA}, // Combo 52
+    {34, VS_SINNOH_WILD_POKEMON}, // Combo 53
+    {34, VS_ARCEUS}, // Combo 54
 };

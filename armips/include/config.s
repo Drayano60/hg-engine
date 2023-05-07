@@ -14,7 +14,7 @@ FAIRY_TYPE_IMPLEMENTED equ 1
 // .definelabel ALLOW_SAVE_CHANGES, 0
 
 // CRY_PSEUDOBANK_START defines the first pseudobank to be used as cries in the sdat.  cries are loaded differently to save on RAM space
-CRY_PSEUDOBANK_START equ 778
+CRY_PSEUDOBANK_START equ 788 // Pushed ahead from 778
 
 // DEBUG_NEEDS_TESTING defines in progress implementations that may not necessarily function.
 DEBUG_NEEDS_TESTING equ 0

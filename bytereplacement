@@ -89,12 +89,12 @@ arm9 080541DC 60 B4 C0 46
 # push {r5-r6}
 arm9 020CA054 60 00 2D E9
 
-# Music Combo Table Count
-arm9 080517AA 45
-arm9 080517D4 45
+# Music Combo Table Count 
+arm9 080517AA 55
+arm9 080517D4 55
 
 # Pokemon Music Table Count
-arm9 080518D4 11
+arm9 080518CA 35
 
 # Trainer Music Table Count
 arm9 08051886 32

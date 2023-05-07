@@ -4094,12 +4094,12 @@ mondata SPECIES_CROCONAW, "Croconaw"
     mondexweight SPECIES_CROCONAW, "55.1 lbs."
 
 
-// STATS: 105 >> 115 Attack | 79 >> 69 SpAtk | 78 >> 83 Speed | 530 >> 535 BST
+// STATS: 105 >> 110 Attack | 79 >> 74 SpAtk | 78 >> 83 Speed | 530 >> 535 BST
 // TYPES: Water >> Water/Dark
 // ABILITY: Strong Jaw (2)
 mondata SPECIES_FERALIGATR, "Feraligatr"
     .if STAT_CHANGES_IMPLEMENTED
-        basestats 85, 115, 100, 83, 69, 83
+        basestats 85, 110, 100, 83, 74, 83
     .else
         basestats 85, 105, 100, 78, 79, 83
     .endif

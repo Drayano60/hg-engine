@@ -220,8 +220,8 @@ Savage Rend
 -------------------
 Savage Rend is a new signature move for Feraligatr.
 It's a physical Water-type move with 80 base power, 100% accuracy and 10 PP that targets one Pokémon.
-Any Pokémon hit by this move will have its Defense lowered by 1 stage.
-This move has 33% increased power (becoming 106 BP) if used by a Pokémon with Strong Jaw.
+Any Pokémon hit by this move has a 50% chance of having its Defense lowered by 1 stage.
+This move has 50% increased power (becoming 120 BP) if used by a Pokémon with Strong Jaw.
 
 This move is inspired by Feraligatr's Pokédex entries mentioning it "savagely tears its victim up".
 
@@ -230,19 +230,9 @@ Piddly Punches
 Piddly Punches is a new signature move for Ledian.
 It's a physical Bug-type move with 10 base power, 90% accuracy and 10 PP that targets one Pokémon.
 This move will continue hitting until it either misses or has hit 10 times in a row.
-Each hit of this move has 33% increased power (each hit becomes 13 BP) if used by a Pokémon with Iron Fist.
+Each hit of this move has 30% increased power (each hit becomes 13 BP) if used by a Pokémon with Iron Fist.
 
 This move is inspired by Ledian's Pokédex entries mentioning it throws a large quantity of "piddly" punches. Mechanically, it's based on (but not identical) to Maushold's Population Bomb.
-
-Splash Crash
--------------------
-Splash Crash is a new signature move for Wailord.
-It's a physical Water-type move with variable power, 100% accuracy and 10 PP.
-It targets a single other Pokémon on the field.
-The power of this move depends on the weight difference between user and target (using the same formula as Heavy Slam). Its damage is doubled if used against a target that has used Minimize.
-This move becomes a fixed 120 BP if used by a Pokémon with the new Huge Impact ability (which Wailord also has).
-
-This move is inspired by Wailord's Pokédex entries mentioning it can "knock out opponents with the shock created by breaching and crashing its big body into the water". It's a Water-type clone of Heavy Slam.
 
 -------------------
 Move Effect Updates

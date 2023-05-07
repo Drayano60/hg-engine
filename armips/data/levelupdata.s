@@ -4488,9 +4488,9 @@ levelup SPECIES_BAYLEEF
 
 // NEW: Soothing Aroma (Custom), Draining Kiss, Moonblast
 levelup SPECIES_MEGANIUM
+    learnset MOVE_PETAL_DANCE, 1
     learnset MOVE_PETAL_BLIZZARD, 1
     learnset MOVE_NATURAL_GIFT, 1
-    learnset MOVE_PETAL_DANCE, 1
     learnset MOVE_COUNTER, 1
     learnset MOVE_TACKLE, 1
     learnset MOVE_GROWL, 1
@@ -4570,11 +4570,9 @@ levelup SPECIES_QUILAVA
     learnset MOVE_ERUPTION, 60
     terminatelearnset
 
-// NEW: Infernal Blast (Custom), Raging Fury, Morning Sun, Earth Power
+// NEW: Infernal Blast (Custom), Earth Power
 levelup SPECIES_TYPHLOSION
-    learnset MOVE_RAGING_FURY, 1
     learnset MOVE_EXTRASENSORY, 1
-    learnset MOVE_MORNING_SUN, 1
     learnset MOVE_GYRO_BALL, 1
     learnset MOVE_TACKLE, 1
     learnset MOVE_LEER, 1
@@ -4610,9 +4608,9 @@ levelup SPECIES_TOTODILE
     learnset MOVE_AQUA_CUTTER, 20
     learnset MOVE_SCREECH, 24
     learnset MOVE_SLASH, 28
-    learnset MOVE_CRUNCH, 35
-    learnset MOVE_THRASH, 40
-    learnset MOVE_AQUA_TAIL, 45
+    learnset MOVE_AQUA_TAIL, 35
+    learnset MOVE_CRUNCH, 40
+    learnset MOVE_THRASH, 45
     learnset MOVE_SUPERPOWER, 50
     learnset MOVE_DRAGON_DANCE, 55
     learnset MOVE_WAVE_CRASH, 60
@@ -4628,23 +4626,21 @@ levelup SPECIES_CROCONAW
     learnset MOVE_BITE, 9
     learnset MOVE_FLAIL, 12
     learnset MOVE_ICE_FANG, 15
-    learnset MOVE_AQUA_JET, 16
+    learnset MOVE_AQUA_JET, 18
     learnset MOVE_AQUA_CUTTER, 20
     learnset MOVE_SCREECH, 24
     learnset MOVE_SLASH, 28
-    learnset MOVE_CRUNCH, 35
-    learnset MOVE_THRASH, 40
-    learnset MOVE_AQUA_TAIL, 45
+    learnset MOVE_AQUA_TAIL, 35
+    learnset MOVE_CRUNCH, 40
+    learnset MOVE_THRASH, 45
     learnset MOVE_SUPERPOWER, 50
     learnset MOVE_DRAGON_DANCE, 55
     learnset MOVE_WAVE_CRASH, 60
     terminatelearnset
 
-// NEW: Savage Rend (Custom), Psychic Fangs (HOME Datamine)
-// NEW: Aqua Cutter, Poison Fang, Wave Crash
+// NEW: Savage Rend (Custom), Aqua Cutter, Wave Crash
 levelup SPECIES_FERALIGATR 
-    learnset MOVE_PSYCHIC_FANGS, 1
-    learnset MOVE_POISON_FANG, 1
+    learnset MOVE_LOW_KICK, 1
     learnset MOVE_AGILITY, 1
     learnset MOVE_SCRATCH, 1
     learnset MOVE_LEER, 1
@@ -4654,14 +4650,14 @@ levelup SPECIES_FERALIGATR
     learnset MOVE_BITE, 9
     learnset MOVE_FLAIL, 12
     learnset MOVE_ICE_FANG, 15
-    learnset MOVE_AQUA_JET, 16
+    learnset MOVE_AQUA_JET, 18
     learnset MOVE_AQUA_CUTTER, 20
     learnset MOVE_SCREECH, 24
     learnset MOVE_SLASH, 28
     learnset MOVE_SAVAGE_REND, 30
-    learnset MOVE_CRUNCH, 35
-    learnset MOVE_THRASH, 40
-    learnset MOVE_AQUA_TAIL, 45
+    learnset MOVE_AQUA_TAIL, 35
+    learnset MOVE_CRUNCH, 40
+    learnset MOVE_THRASH, 45
     learnset MOVE_SUPERPOWER, 50
     learnset MOVE_DRAGON_DANCE, 55
     learnset MOVE_WAVE_CRASH, 60

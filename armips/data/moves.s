@@ -9160,7 +9160,7 @@ movedata MOVE_INFERNAL_BLAST, "Infernal Blast"
     movedescription MOVE_INFERNAL_BLAST, "The user rubs its\nblazing fur together,\ncausing an explosion.\nIt has a 50% chance\nto burn what it hits."
 
 // This is a custom move for Feraligatr
-// Guaranteed defense drop
+// Chance to drop defense
 movedata MOVE_SAVAGE_REND, "Savage Rend"
     battleeffect 69
     pss SPLIT_PHYSICAL
@@ -9168,14 +9168,14 @@ movedata MOVE_SAVAGE_REND, "Savage Rend"
     type TYPE_WATER
     accuracy 100
     pp 10
-    effectchance 100
+    effectchance 50
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
     appeal FLAG_BITING
     contesttype 0
     terminatedata
-    movedescription MOVE_SAVAGE_REND, "The user tears up the\nfoe underwater with\nits powerful jaws.\nThe foe’s Defense\nstat is also lowered."
+    movedescription MOVE_SAVAGE_REND, "The user tears up the\nfoe underwater with\nits powerful jaws.\nThis has a 50% chance\nto lower Defense."
 
 // This is a custom move for Ledian
 // Same effect as Population Bomb, but weaker

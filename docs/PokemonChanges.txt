@@ -6018,9 +6018,9 @@ New Moves:
 ** If type changes are removed, Meganium can only learn Draining Kiss by Move Tutor.
 
 Level Up Moves:
+01 - Petal Dance
 01 - Petal Blizzard
 01 - Natural Gift
-01 - Petal Dance
 01 - Counter
 01 - Tackle
 01 - Growl
@@ -6118,16 +6118,13 @@ Type: Fire ⟶ Fire / Ground
 New Moves:
 - Infernal Blast (Level) (New Move)
 - Earth Power (Level/Tutor)
-- Morning Sun (Level)
 - Mystical Fire (TM) (HOME)
-- Raging Fury (Level/Tutor)
+- Raging Fury (Tutor)
 - Scorching Sands (Tutor) (HOME)
 - Thunderbolt (TM)
 
 Level Up Moves:
-01 - Raging Fury
 01 - Extrasensory
-01 - Morning Sun
 01 - Gyro Ball
 01 - Tackle
 01 - Leer
@@ -6175,9 +6172,9 @@ Level Up Moves:
 20 - Aqua Cutter
 24 - Screech
 28 - Slash
-35 - Crunch
-40 - Thrash
-45 - Aqua Tail
+35 - Aqua Tail
+40 - Crunch
+45 - Thrash
 50 - Superpower
 55 - Dragon Dance
 60 - Wave Crash
@@ -6205,13 +6202,13 @@ Level Up Moves:
 09 - Bite
 12 - Flail
 15 - Ice Fang
-16 - Aqua Jet
+18 - Aqua Jet
 20 - Aqua Cutter
 24 - Screech
 28 - Slash
-35 - Crunch
-40 - Thrash
-45 - Aqua Tail
+35 - Aqua Tail
+40 - Crunch
+45 - Thrash
 50 - Superpower
 55 - Dragon Dance
 60 - Wave Crash
@@ -6220,7 +6217,7 @@ Level Up Moves:
 160 - Feraligatr
 -------------------
 Abilities: Torrent / Torrent / Sheer Force ⟶ Torrent / Strong Jaw** / Sheer Force
-Base Stats: 85/105/100/79/83/78 (530) ⟶ 85/115*/100/69*/83/83* (535)
+Base Stats: 85/105/100/79/83/78 (530) ⟶ 85/110*/100/74*/83/83* (535)
 Held Item: None
 Type: Water ⟶ Water / Dark
 
@@ -6231,14 +6228,12 @@ New Moves:
 - Chilling Water (Tutor)
 - Flip Turn (Tutor)
 - Muddy Water (Tutor) (HOME)
-- Poison Fang (Level)
-- Psychic Fangs (Level/Tutor) (HOME)
+- Psychic Fangs (Tutor) (HOME)
 - Scale Shot (Tutor) (HOME)
 - Wave Crash (Level)
 
 Level Up Moves:
-01 - Psychic Fangs
-01 - Poison Fang
+01 - Low Kick
 01 - Agility
 01 - Scratch
 01 - Leer
@@ -6248,14 +6243,14 @@ Level Up Moves:
 09 - Bite
 12 - Flail
 15 - Ice Fang
-16 - Aqua Jet
+18 - Aqua Jet
 20 - Aqua Cutter
 24 - Screech
 28 - Slash
 30 - Savage Rend
-35 - Crunch
-40 - Thrash
-45 - Aqua Tail
+35 - Aqua Tail
+40 - Crunch
+45 - Thrash
 50 - Superpower
 55 - Dragon Dance
 60 - Wave Crash

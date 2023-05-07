@@ -1585,8 +1585,8 @@ Level Up Moves:
 09 - Poison Powoder
 12 - Mega Drain
 15 - Bug Bite
-18 - Spore
-21 - Slash
+18 - Slash
+21 - Spore
 26 - Skitter Smack
 30 - Leech Seed
 34 - Leech Life
@@ -1624,8 +1624,8 @@ Level Up Moves:
 09 - Poison Powoder
 12 - Mega Drain
 15 - Bug Bite
-18 - Spore
-21 - Slash
+18 - Slash
+21 - Spore
 26 - Skitter Smack
 30 - Leech Seed
 34 - Leech Life

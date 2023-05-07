@@ -1232,8 +1232,8 @@ levelup SPECIES_PARAS
     learnset MOVE_POISON_POWDER, 9
     learnset MOVE_MEGA_DRAIN, 12
     learnset MOVE_BUG_BITE, 15
-    learnset MOVE_SPORE, 18
-    learnset MOVE_SLASH, 21
+    learnset MOVE_SLASH, 18
+    learnset MOVE_SPORE, 21
     learnset MOVE_SKITTER_SMACK, 26
     learnset MOVE_LEECH_SEED, 30
     learnset MOVE_LEECH_LIFE, 34
@@ -1257,8 +1257,8 @@ levelup SPECIES_PARASECT
     learnset MOVE_POISON_POWDER, 9
     learnset MOVE_MEGA_DRAIN, 12
     learnset MOVE_BUG_BITE, 15
-    learnset MOVE_SPORE, 18
-    learnset MOVE_SLASH, 21
+    learnset MOVE_SLASH, 18
+    learnset MOVE_SPORE, 21
     learnset MOVE_SKITTER_SMACK, 26
     learnset MOVE_LEECH_SEED, 30
     learnset MOVE_LEECH_LIFE, 34

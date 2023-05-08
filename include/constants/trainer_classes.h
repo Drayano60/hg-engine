@@ -131,4 +131,13 @@
 #define CLASS_PKMN_TRAINER_13   127
 #define CLASS_PKMN_TRAINER_14   128
 
+// Added
+#define CLASS_CHERYL 90
+#define CLASS_RILEY 91
+#define CLASS_MARLEY 92
+#define CLASS_BUCK 93
+#define CLASS_MIRA 94
+#define CLASS_STEVEN 95
+#define CLASS_CYNTHIA 96
+
 #endif

@@ -13,8 +13,8 @@ struct TrainerMoney
 
 struct TrainerMoney PrizeMoney [] = // 0x34C04 in Overlay 12; 2 bytes for trainer class ID, 2 bytes for modifier; 516 bytes in total in vanilla
 {
-   {.class = CLASS_PKMN_TRAINER_0,   .multiplier = 0}, // Entry 0, Ethan
-   {.class = CLASS_PKMN_TRAINER_1,   .multiplier = 0}, // Entry 1, Lyra
+   {.class = CLASS_PKMN_TRAINER_0,   .multiplier = 16}, // Entry 0, Ethan (0 -> 16)
+   {.class = CLASS_PKMN_TRAINER_1,   .multiplier = 16}, // Entry 1, Lyra (0 -> 16)
    {.class = CLASS_YOUNGSTER,        .multiplier = 4}, // Entry 2
    {.class = CLASS_LASS,             .multiplier = 4}, // Entry 3
    {.class = CLASS_CAMPER,           .multiplier = 4}, // Entry 4
@@ -103,13 +103,13 @@ struct TrainerMoney PrizeMoney [] = // 0x34C04 in Overlay 12; 2 bytes for traine
    {.class = CLASS_ELITE_FOUR_0,     .multiplier = 40}, // Entry 87 Will
    {.class = CLASS_ELITE_FOUR_1,     .multiplier = 40}, // Entry 88 Karen
    {.class = CLASS_ELITE_FOUR_2,     .multiplier = 40}, // Entry 89 Koga
-   {.class = CLASS_PKMN_TRAINER_2,   .multiplier = 30}, // Entry 90 Aroma Lady 2
-   {.class = CLASS_PKMN_TRAINER_3,   .multiplier = 30}, // Entry 91 Rich Boy 2
-   {.class = CLASS_PKMN_TRAINER_4,   .multiplier = 30}, // Entry 92 Picnicker 2
-   {.class = CLASS_PKMN_TRAINER_5,   .multiplier = 30}, // Entry 93 Camper 2
-   {.class = CLASS_PKMN_TRAINER_6,   .multiplier = 30}, // Entry 94 Poke Kid 2
-   {.class = CLASS_PKMN_TRAINER_7,   .multiplier = 25}, // Entry 95 DP Lucas -- (repurposed for Steven)
-   {.class = CLASS_PKMN_TRAINER_8,   .multiplier = 25}, // Entry 96 DP Dawn -- (repurposed for Cynthia)
+   {.class = CLASS_CHERYL,           .multiplier = 30}, // Entry 90 Aroma Lady 2 (Cheryl?)
+   {.class = CLASS_RILEY,            .multiplier = 30}, // Entry 91 Rich Boy 2 (Riley?)
+   {.class = CLASS_MARLEY,           .multiplier = 30}, // Entry 92 Picnicker 2 (Marley?)
+   {.class = CLASS_BUCK,             .multiplier = 30}, // Entry 93 Camper 2 (Buck?)
+   {.class = CLASS_MIRA,             .multiplier = 30}, // Entry 94 Poke Kid 2 (Mira?)
+   {.class = CLASS_STEVEN,           .multiplier = 50}, // Entry 95 DP Lucas -- (repurposed for Steven) (25 -> 50)
+   {.class = CLASS_CYNTHIA,          .multiplier = 50}, // Entry 96 DP Dawn -- (repurposed for Cynthia) (25 -> 50)
    {.class = CLASS_TOWER_TYCOON,     .multiplier = 0}, // Entry 97 Palmer
    {.class = CLASS_LEADER_5,         .multiplier = 30}, // Entry 98 Brock
    {.class = CLASS_HALL_MATRON,      .multiplier = 0}, // Entry 99 Argenta

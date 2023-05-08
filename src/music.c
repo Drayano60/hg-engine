@@ -2,7 +2,7 @@
 #include "../include/constants/species.h"
 
 // Tables for connecting music to Pokemon Species and Trainer Classes
-// Thank you BluRose for the repoints and Senate for helping me set it up (and giving me the vanilla table)!
+// Thank you AdAstra for the original tutorial, BluRose for the repoint syntax and Senate for helping me set it up (and giving me the vanilla table)!
 // Remember to increment the relevant variables in bytereplacement when adding entries to the tables.
 
 struct MonBattleMusic

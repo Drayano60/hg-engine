@@ -84,7 +84,10 @@ u8 TrainerMusicTable[][2] = {
     {0x37, 0x74}, // Team Rocket Grunt (Male), 29
     {0x3E, 0x74}, // Team Rocket Grunt (Female), 30
     {0x2F, 0xAC}, // Kimono Girl 1, 31
-    {0x6D, 0xB0}, // Red, 32 (***END OF VANILLA ENTRIES***)    
+    {0x6D, 0xB0}, // Red, 32 (***END OF VANILLA ENTRIES***)
+    // New Entries
+    {95, 220}, // Steven (DP Lucas)
+    {96, 224}, // Cynthia (DP Dawn)
 };
 
 // Trainer Battle Music IDs
@@ -175,4 +178,6 @@ const u16 MainTableCombo[][2] = {
     {34, VS_GIRATINA}, // Combo 52
     {34, VS_SINNOH_WILD_POKEMON}, // Combo 53
     {34, VS_ARCEUS}, // Combo 54
+    {0xFFFF, VS_CHAMPION}, // Combo 55
+    {0xFFFF, VS_CYNTHIA}, // Combo 56
 };

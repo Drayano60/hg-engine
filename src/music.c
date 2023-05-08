@@ -86,7 +86,7 @@ u8 TrainerMusicTable[][2] = {
     {0x2F, 0xAC}, // Kimono Girl 1, 31
     {0x6D, 0xB0}, // Red, 32 (***END OF VANILLA ENTRIES***)
     // New Entries
-    {95, 220}, // Steven (DP Lucas)
+    {95, 220}, // Steven (DP Lucas) (uses HGSS Champion theme as I don't have Steven's music yet)
     {96, 224}, // Cynthia (DP Dawn)
 };
 

@@ -539,7 +539,7 @@ Type: Normal
 
 New Moves:
 - Flame Charge (TM)
-- Hone Claws (TM)
+- Hone Claws (Level/TM)
 
 Level Up Moves:
 01 - Tackle
@@ -571,7 +571,7 @@ New Moves:
 - Close Combat (Tutor) (HOME)
 - Fire Fang (Tutor)
 - Flame Charge (TM)
-- Hone Claws (TM)
+- Hone Claws (Level/TM)
 - Ice Fang (Tutor)
 - Psychic Fangs (Tutor) (HOME)
 - Thunder Fang (Tutor)
@@ -1164,7 +1164,7 @@ Level Up Moves:
 -------------------
 037 - Vulpix
 -------------------
-Abilities: Flash Fire / Cute Charm** / Run Away**
+Abilities: Flash Fire / Flash Fire / Drought ⟶ Flash Fire / Cute Charm** / Run Away**
 Base Stats: 38/41/40/50/65/65 (299)
 Held Item: Rawst Berry (100%)
 Type: Fire
@@ -1201,7 +1201,7 @@ Level Up Moves:
 -------------------
 038 - Ninetales
 -------------------
-Abilities: Flash Fire / Cursed Body** / Drought
+Abilities: Flash Fire / Flash Fire / Drought ⟶ Flash Fire / Cursed Body** / Drought
 Base Stats: 73/76/75/81/100/100 (505) ⟶ 73/67*/75/81/100/109* (505)
 Held Item: Rawst Berry (100%)
 Type: Fire ⟶ Fire / Fairy
@@ -6110,7 +6110,7 @@ Level Up Moves:
 157 - Typhlosion
 -------------------
 Abilities: Blaze / Blaze / Flash Fire ⟶ Blaze / Flash Fire / Heat Up***
-Base Stats: 78/84/78/109/85/100 (534) ⟶ 79*/84/73*/119*/80*/100
+Base Stats: 78/84/78/109/85/100 (534) ⟶ 79*/84/73*/119*/80*/100 (535)
 Held Item: None
 Type: Fire ⟶ Fire / Ground
 
@@ -8022,7 +8022,7 @@ Held Item: Poison Barb (5%)
 Type: Water / Poison
 
 New Moves:
-- Gunk Shot (Level/Tutor)
+- None
 
 Level Up Moves:
 01 - Toxic Spikes
@@ -8113,7 +8113,7 @@ Level Up Moves:
 -------------------
 215 - Sneasel
 -------------------
-Abilities: Pressure / Pressure / Pickpocket ⟶ Inner Focus / Keen Eye / Technician**
+Abilities: Inner Focus / Keen Eye / Pickpocket ⟶ Inner Focus / Keen Eye / Technician**
 Base Stats: 55/95/55/35/75/115 (430)
 Held Item: Grip Claw (50%), Quick Claw (5%)
 Type: Dark / Ice
@@ -8172,7 +8172,7 @@ Level Up Moves:
 21 - Feint Attack
 24 - Hone Claws
 28 - Ice Punch
-32 - Slash
+32 - Night Slash
 36 - Screech
 40 - Punishment
 44 - Icicle Crash
@@ -18511,7 +18511,7 @@ Level Up Moves:
 -------------------
 555.2 - Darmanitan (Zen Mode)
 -------------------
-Abilities: Sheer Force / Sheer Force / Zen Mode
+Abilities: Zen Mode / Zen Mode / Zen Mode
 Base Stats: 105/30/105/140/105/55 (540)
 Held Item: None
 Type: Fire / Psychic

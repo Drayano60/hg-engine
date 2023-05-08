@@ -6660,7 +6660,7 @@ mondata SPECIES_BLAZIKEN, "Blaziken"
     mondexweight SPECIES_BLAZIKEN, "114.6 lbs."
 
 
-// ABILITY: Damp (2), Regenerator (HA)
+// ABILITY: Damp (2), Anticipation (HA)
 mondata SPECIES_MUDKIP, "Mudkip"
     basestats 50, 70, 50, 40, 50, 50
     types TYPE_WATER, TYPE_WATER
@@ -6687,7 +6687,7 @@ mondata SPECIES_MUDKIP, "Mudkip"
     mondexweight SPECIES_MUDKIP, "16.8 lbs."
 
 
-// ABILITY: Damp (2), Regenerator (HA)
+// ABILITY: Damp (2), Anticipation (HA)
 mondata SPECIES_MARSHTOMP, "Marshtomp"
     basestats 70, 85, 70, 50, 60, 70
     types TYPE_WATER, TYPE_GROUND
@@ -6714,7 +6714,7 @@ mondata SPECIES_MARSHTOMP, "Marshtomp"
     mondexweight SPECIES_MARSHTOMP, "61.7 lbs."
 
 
-// ABILITY: Damp (2), Regenerator (HA)
+// ABILITY: Damp (2), Swift Swim (HA)
 mondata SPECIES_SWAMPERT, "Swampert"
     basestats 100, 110, 90, 60, 85, 90
     types TYPE_WATER, TYPE_GROUND

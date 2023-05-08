@@ -28,3 +28,6 @@ arm9 MainTableCombo 080517C8
 arm9 MainTableCombo+2 080517E4
 arm9 PokemonMusicTable 080518D4
 arm9 TrainerMusicTable 08051890
+
+# Table for trainer class prize money
+0012 PrizeMoney 08008380

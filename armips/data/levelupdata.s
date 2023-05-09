@@ -1420,8 +1420,8 @@ levelup SPECIES_MEOWTH
     learnset MOVE_FURY_SWIPES, 20
     learnset MOVE_HYPNOSIS, 24
     learnset MOVE_SLASH, 30
-    learnset MOVE_ASSURANCE, 34
-    learnset MOVE_SCREECH, 38
+    learnset MOVE_SCREECH, 34
+    learnset MOVE_NIGHT_SLASH, 38
     learnset MOVE_CAPTIVATE, 42
     learnset MOVE_PLAY_ROUGH, 46
     learnset MOVE_NASTY_PLOT, 50
@@ -1451,7 +1451,6 @@ levelup SPECIES_MEOWTH_ALOLAN
 
 levelup SPECIES_PERSIAN
     learnset MOVE_FOUL_PLAY, 1
-    learnset MOVE_NIGHT_SLASH, 1
     learnset MOVE_SWIFT, 1
     learnset MOVE_FAKE_OUT, 1
     learnset MOVE_ASSIST, 1
@@ -1466,8 +1465,8 @@ levelup SPECIES_PERSIAN
     learnset MOVE_HYPNOSIS, 24
     learnset MOVE_POWER_GEM, 28
     learnset MOVE_SLASH, 30
-    learnset MOVE_ASSURANCE, 34
-    learnset MOVE_SCREECH, 38
+    learnset MOVE_SCREECH, 34
+    learnset MOVE_NIGHT_SLASH, 38
     learnset MOVE_CAPTIVATE, 42
     learnset MOVE_PLAY_ROUGH, 46
     learnset MOVE_SWITCHEROO, 50
@@ -10964,7 +10963,7 @@ levelup SPECIES_CHATOT
     learnset MOVE_MIMIC, 28
     learnset MOVE_AIR_SLASH, 32
     learnset MOVE_HYPER_VOICE, 36
-    learnset MOVE_ROOST, 40
+    learnset MOVE_PARTING_SHOT, 40
     learnset MOVE_NASTY_PLOT, 44
     learnset MOVE_FEATHER_DANCE, 48
     learnset MOVE_BOOMBURST, 52

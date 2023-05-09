@@ -9,6 +9,8 @@
 
 .create "build/move/battle_sub_seq/1_148", 0
 
+// Tickle
+
 a001_148:
     ifmonstat IF_NOTEQUAL, BATTLER_ADDL_EFFECT, MON_DATA_STAT_STAGE_ATTACK, 0x0, _0030
     ifmonstat IF_EQUAL, BATTLER_ADDL_EFFECT, MON_DATA_STAT_STAGE_DEFENSE, 0x0, _00CC

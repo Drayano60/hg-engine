@@ -152,6 +152,26 @@ u32 MoveHitUTurnHeldItemEffectCheck(void *bw, struct BattleStruct *sp, int *seq_
         ret = TRUE;   
     }
 
+    if
+    (
+        (atk_hold_eff == HOLD_EFFECT_SPATK_AFTER_SOUND_MOVE)
+        && ((sp->waza_status_flag & MOVE_STATUS_FLAG_MISS) == 0)
+        && (sp->moveTbl[sp->current_move_index].flag & FLAG_SOUND)
+        && (sp->battlemon[sp->attack_client].hp)
+        && (
+            ((GetBattlerAbility(sp,sp->attack_client) == ABILITY_CONTRARY) && (sp->battlemon[sp->attack_client].states[STAT_SPATK] > 0))
+            ||
+            ((sp->battlemon[sp->attack_client].states[STAT_SPATK] < 12))
+        )
+    )
+    {
+        sp->addeffect_type = ADD_STATUS_SOUBIITEM;
+        sp->state_client = sp->attack_client;
+        sp->item_work = sp->battlemon[sp->attack_client].item;
+        seq_no[0] = SUB_SEQ_HANDLE_THROAT_SPRAY;
+        ret = TRUE;
+    }
+
     return ret;
 }
 
@@ -251,7 +271,8 @@ u32 ServerWazaHitAfterCheckAct(void *bw, struct BattleStruct *sp)
             (
                 (hold_effect == HOLD_EFFECT_SPATK_AFTER_SOUND_MOVE)
                 && ((sp->server_status_flag2 & SERVER_STATUS2_FLAG_x10) == 0) // What does this mean?
-                && (sp->server_status_flag & SERVER_STATUS_FLAG_MOVE_HIT)
+                // This can activate on status moves too so we use this. FLAG_HIT only works for damaging moves it seems like?
+                && ((sp->waza_status_flag & MOVE_STATUS_FLAG_MISS) == 0)
                 && (sp->moveTbl[sp->current_move_index].flag & FLAG_SOUND)
                 && (sp->battlemon[sp->attack_client].hp)
                 && (

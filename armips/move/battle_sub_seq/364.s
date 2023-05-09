@@ -3,17 +3,48 @@
 
 .include "armips/include/battlescriptcmd.s"
 .include "armips/include/abilities.s"
+.include "armips/include/constants.s"
 .include "armips/include/itemnums.s"
 .include "armips/include/monnums.s"
 .include "armips/include/movenums.s"
 
-.create "build/move/battle_sub_seq/1_175", 0
+.create "build/move/battle_sub_seq/1_364", 0
 
-// U-turn effect
+// Parting Shot
+// Adapted U-turn effect. Likely a lot of unnecessary leftovers in here relating to HP checks
 
-a001_175:
-    checkwipeout BATTLER_DEFENDER, _02B4
-    tryswitchinmon BATTLER_ATTACKER, 0x1, _02B4
+a001_364:
+    /* Fail if it misses, as per status moves (see Tickle, Role Play etc) */
+    if IF_MASK, VAR_10, 0x10001, _Failed
+
+    /* If Atk/SpAtk are already -6, fail */
+    /* This should check if equal to 12 for Contrary... */
+    ifmonstat IF_NOTEQUAL, BATTLER_ADDL_EFFECT, MON_DATA_STAT_STAGE_ATTACK, 0x0, _Move
+    ifmonstat IF_EQUAL, BATTLER_ADDL_EFFECT, MON_DATA_STAT_STAGE_SPATK, 0x0, _Failed
+_Move:
+    printattackmessage
+    waitmessage
+    playanimation BATTLER_ATTACKER
+    waitmessage
+
+    /* Stat changes */
+    changevar VAR_OP_SETMASK, VAR_60, 0x80
+    changevar VAR_OP_SET, VAR_34, ATTACK_DOWN
+    gotosubscript 12
+    changevar VAR_OP_SETMASK, VAR_06, 0x200000
+    changevar VAR_OP_SET, VAR_34, SPATK_DOWN
+    gotosubscript 12
+    changevar VAR_OP_CLEARMASK, VAR_60, 0x2
+    changevar VAR_OP_CLEARMASK, VAR_60, 0x80
+
+    /* If stat change is blocked by ability or Mist, fail after animation */
+    /* Probably isn't exhaustive eg Hyper Cutter mon already has -6 SpAtk, but whatever */
+    ifmonstat IF_EQUAL, BATTLER_ADDL_EFFECT, MON_DATA_ABILITY, ABILITY_CLEAR_BODY, _EndScript
+    ifmonstat IF_EQUAL, BATTLER_ADDL_EFFECT, MON_DATA_ABILITY, ABILITY_WHITE_SMOKE, _EndScript
+    checksidecondition BATTLER_DEFENDER, 0x1, SIDE_STATUS_MIST, _EndScript
+_Switch:
+    // checkwipeout BATTLER_DEFENDER, _EndScript
+    tryswitchinmon BATTLER_ATTACKER, 0x1, _EndScript
     abilityeffectcheckonhit _002C
     gotosubscript2 43
 _002C:
@@ -48,13 +79,13 @@ _0140:
     wait 0x1E
 _01A0:
     changevar2 VAR_OP_SET, VAR_FAINTED_BATTLER, VAR_ITEM_TEMP
-    ifmonstat IF_EQUAL, BATTLER_ATTACKER, MON_DATA_HP, 0x0, _02B4
+    ifmonstat IF_EQUAL, BATTLER_ATTACKER, MON_DATA_HP, 0x0, _EndScript
     changevar2 VAR_OP_SET, VAR_SWITCHED_BATTLER, VAR_ATTACKER
     printmessage 0x42B, 0x12, 0x6, 0x6, "NaN", "NaN", "NaN", "NaN"
     waitmessage
     wait 0x1E
     gotosubscript 153
-    ifmonstat IF_EQUAL, BATTLER_ATTACKER, MON_DATA_HP, 0x0, _02B4
+    ifmonstat IF_EQUAL, BATTLER_ATTACKER, MON_DATA_HP, 0x0, _EndScript
     trynaturalcure BATTLER_ATTACKER, _0238
     changemondatabyvalue VAR_OP_SET, BATTLER_ATTACKER, 0x34, 0x0
 _0238:
@@ -70,7 +101,10 @@ _0238:
     changevar VAR_OP_CLEARMASK, VAR_06, 0x80
     changevar VAR_OP_SET, VAR_47, 0x0
     jumptosubseq 10
-_02B4:
+_EndScript:
+    endscript
+_Failed:
+    changevar VAR_OP_SETMASK, VAR_10, 0x40
     endscript
 
 .close

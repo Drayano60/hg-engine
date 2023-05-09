@@ -1798,8 +1798,8 @@ Level Up Moves:
 20 - Fury Swipes
 24 - Hypnosis
 30 - Slash
-34 - Assurance
-38 - Screech
+34 - Screech
+38 - Night Slash
 42 - Captivate
 46 - Play Rough
 50 - Nasty Plot
@@ -1818,7 +1818,6 @@ New Moves:
 
 Level Up Moves:
 01 - Foul Play
-01 - Night Slash
 01 - Swift
 01 - Fake Out
 01 - Assist
@@ -1833,7 +1832,8 @@ Level Up Moves:
 24 - Hypnosis
 28 - Power Gem
 30 - Slash
-34 - Assurance
+34 - Screech
+38 - Night Slash
 38 - Screech
 42 - Captivate
 46 - Play Rough
@@ -15387,6 +15387,7 @@ New Moves:
 - Air Slash (Level/TM) (PLA)
 - Double-Edge (Tutor)
 - Dual Wingbeat (Tutor) (HOME)
+- Parting Shot (Level) (BDSP)
 
 Level Up Moves:
 01 - Confide
@@ -15403,7 +15404,7 @@ Level Up Moves:
 28 - Mimic
 32 - Air Slash
 36 - Hyper Voice
-40 - Roost
+40 - Parting Shot
 44 - Nasty Plot
 48 - Feather Dance
 52 - Boomburst

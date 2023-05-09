@@ -9597,22 +9597,21 @@ movedata MOVE_NIGHT_DAZE, "Night Daze"
     terminatedata
     movedescription MOVE_NIGHT_DAZE, "The user lets loose\na pitch-black shock\nwave at its foe.\nThis has a 40% chance\nto lower accuracy."
 
-// Copy of Hidden Power with fixed type, for AI use only
-movedata MOVE_HIDDEN_POWER_DARK, "Hidden Power"
-    battleeffect 0
-    pss SPLIT_SPECIAL
-    basepower 60
+movedata MOVE_PARTING_SHOT, "Parting Shot"
+    battleeffect 322
+    pss SPLIT_STATUS
+    basepower 0
     type TYPE_DARK
     accuracy 100
-    pp 15
+    pp 20
     effectchance 0
     target MOVE_TARGET_SELECTED
     priority 0
-    flags FLAG_MIRROR_MOVE | FLAG_PROTECT
+    flags FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_SOUND | FLAG_MAGIC_COAT
     appeal 0
     contesttype 0
     terminatedata
-    movedescription MOVE_HIDDEN_POWER_DARK, "FOR AI ONLY"
+    movedescription MOVE_PARTING_SHOT, "With a threat, the\nuser lowers the foe’s\nAttack and Sp. Atk,\nand then switches\nwith a party Pokémon." 
 
 // Copy of Hidden Power with fixed type, for AI use only
 movedata MOVE_HIDDEN_POWER_FIGHTING, "Hidden Power"

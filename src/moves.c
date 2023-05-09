@@ -179,6 +179,7 @@ u32 move_effect_to_subscripts[] =
     [165] = 356, // new pollen puff subscript
     [166] = 362, // new tail glow subscript
     [167] = 363, // new cotton guard subscript
+    [168] = 364, // new parting shot subscript
 };
 
 

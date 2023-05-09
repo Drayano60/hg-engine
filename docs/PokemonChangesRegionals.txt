@@ -324,12 +324,12 @@ Level Up Moves:
 20 - Fury Swipes
 24 - Hypnosis
 30 - Night Slash
-34 - Assurance
-38 - Screech
+34 - Screech
+38 - Slash
 42 - Captivate
-46 - Play Rough
+46 - Dark Pulse
 50 - Nasty Plot
-54 - Dark Pulse
+54 - Parting Shot
 
 -------------------
 052.3 - Meowth (Galarian Form)
@@ -353,8 +353,8 @@ Level Up Moves:
 20 - Fury Swipes
 24 - Hone Claws
 30 - Slash
-34 - Swagger
-38 - Screech
+34 - Screech
+38 - Swagger
 42 - Crunch
 46 - Play Rough
 50 - Metal Sound
@@ -388,12 +388,12 @@ Level Up Moves:
 24 - Hypnosis
 28 - Power Gem
 30 - Night Slash
-34 - Assurance
-38 - Screech
+34 - Screech
+38 - Slash
 42 - Captivate
-46 - Play Rough
+46 - Dark Pulse
 50 - Switcheroo
-54 - Dark Pulse
+54 - Parting Shot
 
 -------------------
 863 - Perrserker
@@ -420,8 +420,8 @@ Level Up Moves:
 24 - Hone Claws
 28 - Iron Head
 30 - Slash
-34 - Swagger
-38 - Screech
+34 - Screech
+38 - Swagger
 42 - Crunch
 46 - Play Rough
 50 - Metal Sound

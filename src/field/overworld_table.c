@@ -91,8 +91,8 @@ struct OVERWORLD_TAG gOWTagToFileNum[] = // skip down a bit to see the parts tha
     { .tag =  168, .gfx =  57, .callback_params = 0x0000},
     { .tag =  169, .gfx =  61, .callback_params = 0x0000},
     { .tag =  175, .gfx =  55, .callback_params = 0x0000},
-    { .tag =  176, .gfx =  75, .callback_params = 0x20A0},
-    { .tag =  177, .gfx =  76, .callback_params = 0x20A0},
+    { .tag =  176, .gfx =  75, .callback_params = 0x0420}, // Gold Poke Ball
+    { .tag =  177, .gfx =  76, .callback_params = 0x20A0}, // Invisible
     { .tag =  180, .gfx =  77, .callback_params = 0x28C0},
     { .tag =  181, .gfx =  78, .callback_params = 0x28C0},
     { .tag =  178, .gfx =  73, .callback_params = 0x24E0},

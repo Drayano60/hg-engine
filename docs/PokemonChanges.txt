@@ -2027,7 +2027,9 @@ Level Up Moves:
 36 - Flamethrower
 40 - Reversal
 44 - Play Rough
-48 - Flare Blitz
+48 - Outrage
+52 - Flare Blitz
+56 - Double-Edge
 
 -------------------
 059 - Arcanine
@@ -2043,6 +2045,7 @@ New Moves:
 Level Up Moves:
 01 - Extreme Speed
 01 - Thunder Fang
+01 - Morning Sun
 01 - Roar
 01 - Leer
 01 - Ember
@@ -2058,8 +2061,8 @@ Level Up Moves:
 36 - Flamethrower
 40 - Reversal
 44 - Play Rough
-48 - Flare Blitz
-52 - Outrage
+48 - Outrage
+52 - Flare Blitz
 56 - Double-Edge
 60 - Raging Fury
 
@@ -2083,9 +2086,9 @@ Level Up Moves:
 12 - Mud Shot
 16 - Bubble Beam
 20 - Mud Bomb
-24 - Rain Dance
+24 - Body Slam
 30 - Wake-Up Slap
-35 - Body Slam
+35 - Rain Dance
 40 - Earth Power
 45 - Endeavor
 50 - Belly Drum
@@ -2112,9 +2115,9 @@ Level Up Moves:
 12 - Mud Shot
 16 - Bubble Beam
 20 - Mud Bomb
-24 - Rain Dance
+24 - Body Slam
 30 - Wake-Up Slap
-35 - Body Slam
+35 - Rain Dance
 40 - Earth Power
 45 - Endeavor
 50 - Belly Drum
@@ -2147,9 +2150,9 @@ Level Up Moves:
 12 - Mud Shot
 16 - Bubble Beam
 20 - Mud Bomb
-24 - Rain Dance
+24 - Body Slam
 30 - Submission
-35 - Body Slam
+35 - Rain Dance
 40 - Earth Power
 45 - Storm Throw
 50 - Belly Drum
@@ -2179,9 +2182,9 @@ Level Up Moves:
 12 - Mud Shot
 16 - Bubble Beam
 20 - Mud Bomb
-24 - Rain Dance
+24 - Body Slam
 30 - Wake-Up Slap
-35 - Body Slam
+35 - Rain Dance
 40 - Earth Power
 45 - Hyper Voice
 50 - Belly Drum
@@ -2653,10 +2656,10 @@ Level Up Moves:
 24 - Agility
 28 - Fire Spin
 32 - Blaze Kick
-40 - Jump Kick
-45 - Inferno
-50 - Bounce
-55 - Flare Blitz
+38 - Jump Kick
+44 - Bounce
+50 - Inferno
+56 - Flare Blitz
 
 -------------------
 078 - Rapidash
@@ -2688,11 +2691,11 @@ Level Up Moves:
 28 - Fire Spin
 32 - Blaze Kick
 35 - Smart Strike
-40 - Jump Kick
-45 - Inferno
-50 - Bounce
-55 - Flare Blitz
-60 - Extreme Speed
+38 - Jump Kick
+44 - Bounce
+50 - Inferno
+56 - Flare Blitz
+62 - Extreme Speed
 
 -------------------
 079 - Slowpoke
@@ -2769,6 +2772,7 @@ New Moves:
 Level Up Moves:
 01 - Hidden Power
 01 - Trump Card
+01 - Swagger
 01 - Curse
 01 - Tackle
 03 - Growl
@@ -2895,9 +2899,6 @@ New Moves:
 - Sacred Sword (Level)
 
 Level Up Moves:
-01 - Leaf Blade
-01 - Night Slash
-01 - Poison Jab
 01 - Feint
 01 - Peck
 01 - Sand Attack
@@ -2908,7 +2909,7 @@ Level Up Moves:
 16 - Aerial Ace
 20 - Revenge
 24 - Slash
-28 - Knock Off
+28 - Night Slash
 32 - Focus Energy
 36 - Sacred Sword
 40 - Swords Dance
@@ -3536,9 +3537,9 @@ Level Up Moves:
 28 - Light Screen
 32 - Magnet Rise
 36 - Discharge
-40 - Gyro Ball
+40 - Metal Sound
 44 - Thunderbolt
-48 - Metal Sound
+48 - Gyro Ball
 52 - Mirror Coat
 56 - Boomburst
 60 - Explosion
@@ -3573,9 +3574,9 @@ Level Up Moves:
 30 - Volt Switch
 32 - Magnet Rise
 36 - Discharge
-40 - Gyro Ball
+40 - Metal Sound
 44 - Thunderbolt
-48 - Metal Sound
+48 - Gyro Ball
 52 - Mirror Coat
 56 - Boomburst
 60 - Explosion
@@ -3905,19 +3906,20 @@ Level Up Moves:
 01 - Poison Gas
 01 - Tackle
 01 - Smog
-04 - Smokescreen
-08 - Clear Smog
-12 - Gyro Ball
-16 - Assurance
-20 - Sludge
-24 - Haze
+03 - Smokescreen
+06 - Clear Smog
+09 - Gyro Ball
+12 - Assurance
+16 - Sludge
+20 - Haze
+24 - Self-Destruct
 28 - Sludge Bomb
-32 - Self-Destruct
-40 - Pain Split
-45 - Explosion
-50 - Memento
-55 - Gunk Shot
-60 - Destiny Bond
+32 - Pain Split
+38 - Toxic
+44 - Memento
+50 - Gunk Shot
+56 - Explosion
+62 - Destiny Bond
 
 -------------------
 110 - Weezing
@@ -3935,20 +3937,21 @@ Level Up Moves:
 01 - Poison Gas
 01 - Tackle
 01 - Smog
-04 - Smokescreen
-08 - Clear Smog
-12 - Gyro Ball
-16 - Assurance
-20 - Sludge
-24 - Haze
+03 - Smokescreen
+06 - Clear Smog
+09 - Gyro Ball
+12 - Assurance
+16 - Sludge
+20 - Haze
+24 - Self-Destruct
 28 - Sludge Bomb
-32 - Self-Destruct
+32 - Pain Split
 35 - Double Hit
-40 - Pain Split
-45 - Explosion
-50 - Memento
-55 - Gunk Shot
-60 - Destiny Bond
+38 - Toxic
+44 - Memento
+50 - Gunk Shot
+56 - Explosion
+62 - Destiny Bond
 
 -------------------
 111 - Rhyhorn
@@ -4465,9 +4468,10 @@ Level Up Moves:
 32 - Dazzling Gleam
 36 - Teeter Dance
 40 - Psychic
-44 - Baton Pass
-48 - Substitute
-52 - Trick
+44 - Sucker Punch
+48 - Baton Pass
+52 - Substitute
+56 - Trick
 
 -------------------
 122 - Mr. Mime
@@ -4485,6 +4489,7 @@ Level Up Moves:
 01 - Magical Leaf
 01 - Power Swap
 01 - Guard Swap
+01 - Recycle
 01 - Pound
 01 - Barrier
 01 - Copycat
@@ -4500,9 +4505,10 @@ Level Up Moves:
 32 - Dazzling Gleam
 36 - Teeter Dance
 40 - Psychic
-44 - Baton Pass
-48 - Substitute
-52 - Trick
+44 - Sucker Punch
+48 - Baton Pass
+52 - Substitute
+56 - Trick
 
 -------------------
 123 - Scyther
@@ -4908,10 +4914,10 @@ Level Up Moves:
 24 - Take Down
 28 - Zen Headbutt
 32 - Raging Bull
-36 - Rest
-40 - Body Slam
-44 - Swagger
-48 - Thrash
+36 - Body Slam
+40 - Rest
+44 - Thrash
+48 - Swagger
 52 - Outrage
 56 - Double-Edge
 60 - Giga Impact
@@ -7411,12 +7417,10 @@ Level Up Moves:
 18 - Slam
 22 - Yawn
 26 - Aqua Tail
-30 - Stockpile
-30 - Swallow
-30 - Spit Up
+30 - Amnesia
 34 - Earthquake
-38 - Rain Dance
-42 - Muddy Water
+38 - Muddy Water
+42 - Amnesia
 46 - Mist
 46 - Haze
 50 - Recover
@@ -7425,7 +7429,7 @@ Level Up Moves:
 195 - Quagsire
 -------------------
 Abilities: Damp / Water Absorb / Unaware
-Base Stats: 95/85/85/65/65/35 (430) ⟶ 105*/95*/95*/65/65/25* (450)
+Base Stats: 95/85/85/65/65/35 (430) ⟶ 95/95*/95*/65/65/35 (450)
 Held Item: None
 Type: Water / Ground
 
@@ -7441,15 +7445,12 @@ Level Up Moves:
 12 - Water Pulse
 15 - Mud Bomb
 18 - Slam
-20 - Amnesia
 22 - Yawn
 26 - Aqua Tail
-30 - Stockpile
-30 - Swallow
-30 - Spit Up
+30 - Amnesia
 34 - Earthquake
-38 - Rain Dance
-42 - Muddy Water
+38 - Muddy Water
+42 - Amnesia
 46 - Mist
 46 - Haze
 50 - Recover
@@ -8039,13 +8040,13 @@ Level Up Moves:
 18 - Barb Barrage
 21 - Pin Missile
 24 - Revenge
-28 - Aqua Tail
-32 - Poison Jab
-36 - Stockpile
-36 - Spit Up
+28 - Poison Jab
+32 - Stockpile
+32 - Spit Up
+36 - Aqua Tail
 40 - Toxic
-44 - Gunk Shot
-48 - Acupressure
+44 - Acupressure
+48 - Gunk Shot
 52 - Destiny Bond
 
 -------------------
@@ -8125,8 +8126,8 @@ Level Up Moves:
 01 - Fake Out
 01 - Scratch
 01 - Leer
-01 - Taunt
-03 - Bite
+01 - Bite
+03 - Taunt
 06 - Snatch
 09 - Quick Attack
 12 - Ice Shard
@@ -8162,8 +8163,8 @@ Level Up Moves:
 01 - Fake Out
 01 - Scratch
 01 - Leer
-01 - Taunt
-03 - Bite
+01 - Bite
+03 - Taunt
 06 - Snatch
 09 - Quick Attack
 12 - Ice Shard
@@ -9054,9 +9055,9 @@ New Moves:
 - None
 
 Level Up Moves:
-01 - Bite
+01 - Tackle
 01 - Leer
-04 - Sandstorm
+04 - Bite
 08 - Rock Throw
 12 - Scary Face
 16 - Bulldoze
@@ -9082,9 +9083,9 @@ New Moves:
 - None
 
 Level Up Moves:
-01 - Bite
+01 - Tackle
 01 - Leer
-04 - Sandstorm
+04 - Bite
 08 - Rock Throw
 12 - Scary Face
 16 - Bulldoze
@@ -9114,9 +9115,9 @@ Level Up Moves:
 01 - Thunder Fang
 01 - Ice Fang
 01 - Fire Fang
-01 - Bite
+01 - Tackle
 01 - Leer
-04 - Sandstorm
+04 - Bite
 08 - Rock Throw
 12 - Scary Face
 16 - Bulldoze
@@ -9600,7 +9601,7 @@ Level Up Moves:
 26 - Flail
 30 - Rest
 34 - Fling
-38 - Play Rough
+38 - Dig
 42 - Belly Drum
 46 - Rock Climb
 50 - Double-Edge
@@ -18463,6 +18464,7 @@ New Moves:
 - None
 
 Level Up Moves:
+01 - Ember
 01 - Tackle
 01 - Taunt
 04 - Rage
@@ -18491,6 +18493,7 @@ New Moves:
 - None
 
 Level Up Moves:
+01 - Ember
 01 - Tackle
 01 - Taunt
 04 - Rage

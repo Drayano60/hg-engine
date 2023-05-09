@@ -454,7 +454,9 @@ Level Up Moves:
 36 - Flamethrower
 40 - Reversal
 44 - Stone Edge
-48 - Flare Blitz
+48 - Outrage
+52 - Flare Blitz
+56 - Head Smash
 
 -------------------
 059.2 - Arcanine (Hisuian Form)
@@ -485,8 +487,8 @@ Level Up Moves:
 36 - Flamethrower
 40 - Reversal
 44 - Stone Edge
-48 - Flare Blitz
-52 - Outrage
+48 - Outrage
+52 - Flare Blitz
 56 - Head Smash
 60 - Raging Fury
 
@@ -611,10 +613,10 @@ Level Up Moves:
 24 - Agility
 28 - Zen Headbutt
 32 - Dazzling Gleam
-40 - Jump Kick
-45 - Psychic
-50 - Bounce
-55 - Healing Wish
+38 - Jump Kick
+44 - Bounce
+50 - Psychic
+56 - Healing Wish
 
 -------------------
 078.2 - Rapidash (Galarian Form)
@@ -644,11 +646,11 @@ Level Up Moves:
 28 - Zen Headbutt
 32 - Dazzling Gleam
 35 - Psycho Cut
-40 - Jump Kick
-45 - Psychic
-50 - Bounce
-55 - Healing Wish
-60 - Extreme Speed
+38 - Jump Kick
+44 - Bounce
+50 - Psychic
+56 - Healing Wish
+62 - Extreme Speed
 
 -------------------
 079.2 - Slowpoke (Galarian Form)
@@ -759,9 +761,6 @@ New Moves:
 - Sacred Sword (Level)
 
 Level Up Moves:
-01 - Leaf Blade
-01 - Night Slash
-01 - Poison Jab
 01 - Feint
 01 - Peck
 01 - Sand Attack
@@ -772,7 +771,7 @@ Level Up Moves:
 16 - Brutal Swing
 20 - Revenge
 24 - Brick Break
-28 - Knock Off
+28 - Night Slash
 32 - Focus Energy
 36 - Sacred Sword
 40 - Swords Dance
@@ -793,9 +792,6 @@ New Moves:
 - Sacred Sword (Level)
 
 Level Up Moves:
-01 - Leaf Blade
-01 - Night Slash
-01 - Poison Jab
 01 - Feint
 01 - Peck
 01 - Sand Attack
@@ -806,7 +802,7 @@ Level Up Moves:
 16 - Brutal Swing
 20 - Revenge
 24 - Brick Break
-28 - Knock Off
+28 - Night Slash
 32 - Focus Energy
 36 - Sacred Sword
 40 - Swords Dance
@@ -914,9 +910,9 @@ Level Up Moves:
 28 - Reflect
 32 - Seed Bomb
 36 - Discharge
-40 - Gyro Ball
+40 - Energy Ball
 44 - Thunderbolt
-48 - Energy Ball
+48 - Gyro Ball
 52 - Worry Seed
 56 - Solar Beam
 60 - Explosion
@@ -948,9 +944,9 @@ Level Up Moves:
 30 - Volt Switch
 32 - Seed Bomb
 36 - Discharge
-40 - Gyro Ball
+40 - Energy Ball
 44 - Thunderbolt
-48 - Energy Ball
+48 - Gyro Ball
 52 - Worry Seed
 56 - Chloroblast
 60 - Explosion
@@ -1038,22 +1034,24 @@ Level Up Moves:
 01 - Strange Steam
 01 - Heat Wave
 01 - Defog
+01 - Poison Gas
 01 - Tackle
+01 - Smog
 01 - Fairy Wind
-04 - Smokescreen
-08 - Clear Smog
-12 - Gyro Ball
-16 - Assurance
-20 - Sludge
-24 - Aromatherapy
+03 - Smokescreen
+06 - Clear Smog
+09 - Gyro Ball
+12 - Assurance
+16 - Sludge
+20 - Aromatherapy
+24 - Self-Destruct
 28 - Sludge Bomb
-32 - Self-Destruct
-35 - Double Hit
-40 - Pain Split
-45 - Explosion
-50 - Memento
-55 - Play Rough
-60 - Destiny Bond
+32 - Pain Split
+38 - Toxic
+44 - Memento
+50 - Play Rough
+56 - Explosion
+62 - Destiny Bond
 
 -------------------
 122.2 - Mr. Mime (Galarian Form)
@@ -1071,6 +1069,7 @@ Level Up Moves:
 01 - Double Kick
 01 - Power Swap
 01 - Guard Swap
+01 - Recycle
 01 - Pound
 01 - Barrier
 01 - Copycat
@@ -1084,9 +1083,10 @@ Level Up Moves:
 32 - Freeze-Dry
 36 - Teeter Dance
 40 - Psychic
-44 - Baton Pass
-48 - Substitute
-52 - Blizzard
+45 - Sucker Punch
+50 - Baton Pass
+55 - Substitute
+60 - Blizzard
 
 -------------------
 866 - Mr. Rime
@@ -1100,7 +1100,6 @@ New Moves:
 - Teleport (Tutor)
 
 Level Up Moves:
-01 - Sucker Punch
 01 - Fake Tears
 01 - Slack Off
 01 - Block
@@ -1108,6 +1107,7 @@ Level Up Moves:
 01 - Double Kick
 01 - Power Swap
 01 - Guard Swap
+01 - Recycle
 01 - Pound
 01 - Barrier
 01 - Copycat
@@ -1121,9 +1121,10 @@ Level Up Moves:
 32 - Freeze-Dry
 36 - Teeter Dance
 40 - Psychic
-44 - Baton Pass
-48 - Substitute
-52 - Blizzard
+45 - Sucker Punch
+50 - Baton Pass
+55 - Substitute
+60 - Blizzard
 
 -------------------
 128.2 - Tauros (Paldean Form) (Combat Breed)
@@ -1151,10 +1152,10 @@ Level Up Moves:
 24 - Take Down
 28 - Zen Headbutt
 32 - Raging Bull
-36 - Rest
-40 - Body Press
-44 - Swagger
-48 - Thrash
+36 - Body Press
+40 - Rest
+44 - Thrash
+48 - Swagger
 52 - Close Combat
 56 - Double-Edge
 60 - Giga Impact
@@ -1185,10 +1186,10 @@ Level Up Moves:
 24 - Take Down
 28 - Zen Headbutt
 32 - Raging Bull
-36 - Rest
-40 - Body Press
-44 - Swagger
-48 - Thrash
+36 - Body Press
+40 - Rest
+44 - Thrash
+48 - Swagger
 52 - Close Combat
 56 - Flare Blitz
 60 - Giga Impact
@@ -1219,10 +1220,10 @@ Level Up Moves:
 24 - Take Down
 28 - Zen Headbutt
 32 - Raging Bull
-36 - Rest
-40 - Body Press
-44 - Swagger
-48 - Thrash
+36 - Body Press
+40 - Rest
+44 - Thrash
+48 - Swagger
 52 - Close Combat
 56 - Wave Crash
 60 - Giga Impact
@@ -1377,9 +1378,7 @@ Level Up Moves:
 18 - Slam
 22 - Yawn
 26 - Poison Jab
-30 - Stockpile
-30 - Swallow
-30 - Spit Up
+30 - Amnesia
 34 - Earthquake
 38 - Toxic Spikes
 42 - Sludge Wave
@@ -1408,17 +1407,16 @@ Level Up Moves:
 12 - Poison Tail
 15 - Mud Bomb
 18 - Slam
-20 - Amnesia
 22 - Yawn
 26 - Poison Jab
-30 - Stockpile
-30 - Swallow
-30 - Spit Up
+30 - Amnesia
 34 - Earthquake
 38 - Toxic Spikes
 42 - Sludge Wave
-46 - Megahorn
+46 - Mist
+46 - Haze
 50 - Recover
+54 - Megahorn
 
 -------------------
 211.2 - Qwilfish (Hisuian Form)
@@ -1445,13 +1443,13 @@ Level Up Moves:
 18 - Barb Barrage
 21 - Pin Missile
 24 - Reversal
-28 - Crunch
-32 - Poison Jab
-36 - Stockpile
-36 - Spit Up
+28 - Poison Jab
+32 - Stockpile
+32 - Spit Up
+36 - Crunch
 40 - Toxic
-44 - Gunk Shot
-48 - Acupressure
+44 - Acupressure
+48 - Gunk Shot
 52 - Destiny Bond
 
 -------------------
@@ -1479,13 +1477,13 @@ Level Up Moves:
 18 - Barb Barrage
 21 - Pin Missile
 24 - Reversal
-28 - Crunch
-32 - Poison Jab
-36 - Stockpile
-36 - Spit Up
+28 - Poison Jab
+32 - Stockpile
+32 - Spit Up
+36 - Crunch
 40 - Toxic
-44 - Gunk Shot
-48 - Acupressure
+44 - Acupressure
+48 - Gunk Shot
 52 - Destiny Bond
 
 -------------------
@@ -1888,6 +1886,7 @@ New Moves:
 - Rage (Level)
 
 Level Up Moves:
+01 - Powder Snow
 01 - Tackle
 01 - Taunt
 04 - Rage
@@ -1919,6 +1918,7 @@ Notes:
 Gorilla Tactics is not implemented, so Galarian Darmanitan has Sheer Force instead.
 
 Level Up Moves:
+01 - Powder Snow
 01 - Tackle
 01 - Taunt
 04 - Rage

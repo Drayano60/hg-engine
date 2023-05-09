@@ -5056,10 +5056,10 @@ mondata SPECIES_WOOPER, "Wooper"
     mondexweight SPECIES_WOOPER, "18.7 lbs."
 
 
-// STATS: 95 >> 105 HP | 85 >> 95 Atk | 85 >> 95 Def | 35 >> 25 Speed | 430 >> 450 BST
+// STATS: 85 >> 95 Atk | 85 >> 95 Def | 430 >> 450 BST
 mondata SPECIES_QUAGSIRE, "Quagsire"
     .if STAT_CHANGES_IMPLEMENTED
-        basestats 105, 95, 95, 25, 65, 65
+        basestats 95, 95, 95, 35, 65, 65
     .else
         basestats 95, 85, 85, 35, 65, 65
     .endif

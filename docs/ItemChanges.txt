@@ -69,6 +69,7 @@ The following items were updated:
 The following items are somewhat updated:
 - The Grip Claw fixes the duration of a binding move to six turns instead of seven. (This is because the way the game stores the data means six is the maximum turns possible).
 - The Life Orb now displays a message after it activates. However, the Life Orb's interaction with Future Sight and Doom Desire is unchanged, and the user is not damaged if attacking into a substitute.
+- The Figy, Wiki, Mago, Aguav and Iapapa Berries now activate at 25% HP or less (instead of 50%), and restore the Pokémon's HP by a third (instead of an eighth). However, Pokémon with the Gluttony ability currently will still eat these berries at 25% HP instead of the 50% HP it should be.
 
 The following items are not updated:
 - All Poké Balls retain their catch rates from Gen 4. It's also unclear if the Moon Ball works on newly added Moon Stone evolutions (e.g. Eevee).

@@ -8945,7 +8945,7 @@ const ITEMDATA __data[] =
 {
     .price = 20,
     .holdEffect = HOLD_EFFECT_HP_RESTORE_SPICY,
-    .holdEffectParam = 8,
+    .holdEffectParam = 3, // 8,
     .pluckEffect = 11,
     .flingEffect = 11,
     .flingPower = 10,
@@ -9010,7 +9010,7 @@ const ITEMDATA __data[] =
 {
     .price = 20,
     .holdEffect = HOLD_EFFECT_HP_RESTORE_DRY,
-    .holdEffectParam = 8,
+    .holdEffectParam = 3, // 8,
     .pluckEffect = 12,
     .flingEffect = 12,
     .flingPower = 10,
@@ -9075,7 +9075,7 @@ const ITEMDATA __data[] =
 {
     .price = 20,
     .holdEffect = HOLD_EFFECT_HP_RESTORE_SWEET,
-    .holdEffectParam = 8,
+    .holdEffectParam = 3, // 8,
     .pluckEffect = 13,
     .flingEffect = 13,
     .flingPower = 10,
@@ -9140,7 +9140,7 @@ const ITEMDATA __data[] =
 {
     .price = 20,
     .holdEffect = HOLD_EFFECT_HP_RESTORE_BITTER,
-    .holdEffectParam = 8,
+    .holdEffectParam = 3, // 8,
     .pluckEffect = 14,
     .flingEffect = 14,
     .flingPower = 10,
@@ -9205,7 +9205,7 @@ const ITEMDATA __data[] =
 {
     .price = 20,
     .holdEffect = HOLD_EFFECT_HP_RESTORE_SOUR,
-    .holdEffectParam = 8,
+    .holdEffectParam = 3, // 8,
     .pluckEffect = 15,
     .flingEffect = 15,
     .flingPower = 10,

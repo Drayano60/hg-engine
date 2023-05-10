@@ -152,27 +152,27 @@ It may be used or held by a Pokémon to\nrecover from sleep.
 It may be used or held by a Pokémon to\nrecover from poison.
 It may be used or held by a Pokémon to\nrecover from a burn.
 It may be used or held by a Pokémon to\ndefrost it.\n
-It may be used or held by a Pokémon to\nrestore a move’s PP by 10.
-It may be used or held by a Pokémon to\nheal the user by just 10 HP.
+It can restore 10 PP to a move.\nIn a battle, a Pokémon holding it can\nrestore 10 PP to a move with no PP left.
+It can heal a Pokémon for just 10 HP.\nIn a battle, a Pokémon can hold it to\nheal 10 HP if it drops below 50% HP.
 It may be used or held by a Pokémon to\nrecover from confusion.
 It may be used or held by a Pokémon to\nrecover from any status problem.
-It may be used or held by a Pokémon to\nheal the user’s HP a little.
-If held by a Pokémon, it restores the\nuser’s HP in a pinch, but will cause\nconfusion if it hates spicy food.
-If held by a Pokémon, it restores the\nuser’s HP in a pinch, but will cause\nconfusion if it hates dry food.
-If held by a Pokémon, it restores the\nuser’s HP in a pinch, but will cause\nconfusion if it hates sweet food.
-If held by a Pokémon, it restores the\nuser’s HP in a pinch, but will cause\nconfusion if it hates bitter food.
-If held by a Pokémon, it restores the\nuser’s HP in a pinch, but may cause\nconfusion if it hates sour food.
+It can heal a Pokémon for 25% of its HP.\nIn a battle, a Pokémon can hold it to\nheal 25% HP if it drops below 50% HP.
+Restores 33% HP when under 25% HP.\nConfuses Pokémon that hate spicy food.\n(This does not work with Gluttony yet.)
+Restores 33% HP when under 25% HP.\nConfuses Pokémon that hate dry food.\n(This does not work with Gluttony yet.)
+Restores 33% HP when under 25% HP.\nConfuses Pokémon that hate sweet food.\n(This does not work with Gluttony yet.)
+Restores 33% HP when under 25% HP.\nConfuses Pokémon that hate bitter food.\n(This does not work with Gluttony yet.)
+Restores 33% HP when under 25% HP.\nConfuses Pokémon that hate sour food.\n(This does not work with Gluttony yet.)
 In the Sinnoh region, they like to make\nsweets known as Poffins with this Berry\nand feed them to their Pokémon.
 In the Sinnoh region, they like to make\nsweets known as Poffins with this Berry\nand feed them to their Pokémon.
 In the Sinnoh region, they like to make\nsweets known as Poffins with this Berry\nand feed them to their Pokémon.
 In the Sinnoh region, they like to make\nsweets known as Poffins with this Berry\nand feed them to their Pokémon.
 In the Sinnoh region, they like to make\nsweets known as Poffins with this Berry\nand feed them to their Pokémon.
-Using it on a Pokémon makes it more\nfriendly, but it also lowers its base HP.
-Using it on a Pokémon makes it more\nfriendly, but it also lowers its base\nAttack stat.
-Using it on a Pokémon makes it more\nfriendly, but it also lowers its base\nDefense stat.
-Using it on a Pokémon makes it more\nfriendly, but it also lowers its base\nSp. Atk stat.
-Using it on a Pokémon makes it more\nfriendly, but it also lowers its base\nSp. Def stat.
-Using it on a Pokémon makes it more\nfriendly, but it also lowers its base\nSpeed stat.
+It can make a Pokémon more friendly.\nIt also lowers their HP EVs to 100,\nor by 10 EVs if it’s lower than 110 EVs.
+It can make a Pokémon more friendly.\nIt also lowers their Attack EVs to 100,\nor by 10 EVs if it’s lower than 110 EVs.
+It can make a Pokémon more friendly.\nIt also lowers their Defense EVs to 100,\nor by 10 EVs if it’s lower than 110 EVs.
+It can make a Pokémon more friendly.\nIt also lowers their Sp. Atk EVs to 100,\nor by 10 EVs if it’s lower than 110 EVs.
+It can make a Pokémon more friendly.\nIt also lowers their Sp. Def EVs to 100,\nor by 10 EVs if it’s lower than 110 EVs.
+It can make a Pokémon more friendly.\nIt also lowers their Speed EVs to 100,\nor by 10 EVs if it’s lower than 110 EVs.
 In the Sinnoh region, they like to make\nsweets known as Poffins with this Berry\nand feed them to their Pokémon.
 In the Sinnoh region, they like to make\nsweets known as Poffins with this Berry\nand feed them to their Pokémon.
 In the Sinnoh region, they like to make\nsweets known as Poffins with this Berry\nand feed them to their Pokémon.
@@ -182,35 +182,35 @@ In the Sinnoh region, they like to make\nsweets known as Poffins with this Berry
 In the Sinnoh region, they like to make\nsweets known as Poffins with this Berry\nand feed them to their Pokémon.
 In the Sinnoh region, they like to make\nsweets known as Poffins with this Berry\nand feed them to their Pokémon.
 In the Sinnoh region, they like to make\nsweets known as Poffins with this Berry\nand feed them to their Pokémon.
-If held by a Pokémon, it weakens a foe’s\nsupereffective Fire-type attack.
-If held by a Pokémon, it weakens a foe’s\nsupereffective Water-type attack.
-If held by a Pokémon, it weakens a foe’s\nsupereffective Electric-type attack.
-If held by a Pokémon, it weakens a foe’s\nsupereffective Grass-type attack.
-If held by a Pokémon, it weakens a foe’s\nsupereffective Ice-type attack.
-If held by a Pokémon, it weakens a foe’s\nsupereffective Fighting-type attack.
-If held by a Pokémon, it weakens a foe’s\nsupereffective Poison-type attack.
-If held by a Pokémon, it weakens a foe’s\nsupereffective Ground-type attack.
-If held by a Pokémon, it weakens a foe’s\nsupereffective Flying-type attack.
-If held by a Pokémon, it weakens a foe’s\nsupereffective Psychic-type attack.
-If held by a Pokémon, it weakens a foe’s\nsupereffective Bug-type attack.
-If held by a Pokémon, it weakens a foe’s\nsupereffective Rock-type attack.
-If held by a Pokémon, it weakens a foe’s\nsupereffective Ghost-type attack.
-If held by a Pokémon, it weakens a foe’s\nsupereffective Dragon-type attack.
-If held by a Pokémon, it weakens a foe’s\nsupereffective Dark-type attack.
-If held by a Pokémon, it weakens a foe’s\nsupereffective Steel-type attack.
-If held by a Pokémon, it weakens a foe’s\nNormal-type attack.
-If held by a Pokémon, it raises its\nAttack stat in a pinch.
-If held by a Pokémon, it raises its\nDefense stat in a pinch.
-If held by a Pokémon, it raises its\nSpeed stat in a pinch.
-If held by a Pokémon, it raises its\nSp. Atk stat in a pinch.
-If held by a Pokémon, it raises its\nSp. Def stat in a pinch.
-If held by a Pokémon, it raises its\ncritical-hit ratio in a pinch.
-If held by a Pokémon, it sharply raises\none of its stats in a pinch.
-If held by a Pokémon, it restores\nits HP if it is hit by a foe’s\nsupereffective attack.
-If held by a Pokémon, it raises the\naccuracy of a move just once in a pinch.
-If held by a Pokémon, it gets to move\nfirst just once in a pinch.
-If held by a Pokémon and a foe’s\nphysical attack lands, the foe also\ntakes damage.
-If held by a Pokémon and a foe’s\nspecial attack lands, the foe also\ntakes damage.
+If held, it halves the damage taken from\na supereffective Fire-type attack.
+If held, it halves the damage taken from\na supereffective Water-type attack.
+If held, it halves the damage taken from\na supereffective Electric-type attack.
+If held, it halves the damage taken from\na supereffective Grass-type attack.
+If held, it halves the damage taken from\na supereffective Ice-type attack.
+If held, it halves the damage taken from\na supereffective Fighting-type attack.
+If held, it halves the damage taken from\na supereffective Poison-type attack.
+If held, it halves the damage taken from\na supereffective Ground-type attack.
+If held, it halves the damage taken from\na supereffective Flying-type attack.
+If held, it halves the damage taken from\na supereffective Psychic-type attack.
+If held, it halves the damage taken from\na supereffective Bug-type attack.
+If held, it halves the damage taken from\na supereffective Rock-type attack.
+If held, it halves the damage taken from\na supereffective Ghost-type attack.
+If held, it halves the damage taken from\na supereffective Dragon-type attack.
+If held, it halves the damage taken from\na supereffective Dark-type attack.
+If held, it halves the damage taken from\na supereffective Steel-type attack.
+If held, it halves the damage taken from\na Normal-type attack.
+If held by a Pokémon, it raises its\nAttack stat if its HP drops to 25%\nor less.
+If held by a Pokémon, it raises its\nDefense stat if its HP drops to 25%\nor less.
+If held by a Pokémon, it raises its\nSpeed stat if its HP drops to 25%\nor less.
+If held by a Pokémon, it raises its\nSp. Atk stat if its HP drops to 25%\nor less.
+If held by a Pokémon, it raises its\nSp. Def stat if its HP drops to 25%\nor less.
+If held by a Pokémon, it raises its\ncritical-hit ratio if its HP drops\nto 25% or less.
+If held by a Pokémon, it sharply raises\none of its stats at random if its HP\ndrops to 25% or less.
+If held by a Pokémon, it restores\n25% of its HP if it is hit by a foe’s\nsupereffective attack.
+If held by a Pokémon, it raises the\naccuracy of its next move by 20% if\nits HP drops to 25% or less.
+If held by a Pokémon, it gets to move\nfirst just once if its HP drops to 25%\nor less.
+If held by a Pokémon and a foe’s\nphysical attack lands, the foe also\ntakes damage equal to 12.5% of its HP.
+If held by a Pokémon and a foe’s\nspecial attack lands, the foe also\ntakes damage equal to 12.5% of its HP.
 An item to be held by a Pokémon.\nIt casts a tricky glare that lowers\nthe opponent’s accuracy by 10%.
 An item to be held by a Pokémon.\nIt restores any lowered stat in\nbattle. It can be used only once.
 A held item that awards a Pokémon\ndouble EVs when it gains experience.\nHowever, it reduces Speed in battle.
@@ -588,7 +588,7 @@ A shard of what appears to be an old\nblade of some sort.\nIt is loved by a cert
 A block of muddy material that can be\nused as fuel for burning when dried.\nIt is loved by a certain Pokémon.
 A mysterious evolutionary lump. When\nheld by a Pokémon that can still evolve,\nit boosts Defense and Sp. Def by 50%.
 An item to be held by a Pokémon. This\nvest boosts the holder’s Sp. Def by\n50%, but makes its status moves fail.
-If held by a Pokémon, it weakens a foe’s\nsupereffective Fairy-type attack.\n(This Berry cannot be planted.)
+If held, it halves the damage taken from\na supereffective Fairy-type attack.\n(This Berry cannot be planted.)
 An item to be held by a Pokémon. If the\nholder is hit with a contact move, the\nattacker is damaged by a sixth of its HP.
 An item to be held by a Pokémon. If the\nholder uses a sound-based move, this\nthroat spray boosts its Sp. Atk stat.
 An item to be held by a Pokémon. If the\nholder is hit by a move it is weak to,\nits Attack and Sp. Atk sharply increase.

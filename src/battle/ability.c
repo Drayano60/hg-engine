@@ -1543,7 +1543,7 @@ BOOL MoveHitAttackerAbilityCheck(void *bw, struct BattleStruct *sp, int *seq_no)
                     sp->addeffect_param = ADD_STATE_ATTACK_UP;
                     sp->addeffect_type = ADD_EFFECT_ABILITY;
                     sp->state_client = sp->attack_client;
-                    seq_no[0] = SUB_SEQ_STAT_STAGE_CHANGE;
+                    seq_no[0] = SUB_SEQ_HANDLE_BUFF_ON_KO;
                     ret = TRUE;
                 }
             }
@@ -1568,7 +1568,7 @@ BOOL MoveHitAttackerAbilityCheck(void *bw, struct BattleStruct *sp, int *seq_no)
                     sp->addeffect_param = ADD_STATE_SP_ATK_UP;
                     sp->addeffect_type = ADD_EFFECT_ABILITY;
                     sp->state_client = sp->attack_client;
-                    seq_no[0] = SUB_SEQ_STAT_STAGE_CHANGE;
+                    seq_no[0] = SUB_SEQ_HANDLE_BUFF_ON_KO;
                     ret = TRUE;
                 }
             }

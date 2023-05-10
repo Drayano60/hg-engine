@@ -846,10 +846,13 @@ heightentry SPECIES_DHELMISE, 0, 0, 0, 0
 heightentry SPECIES_JANGMO_O, 0, 0, 0, 0
 heightentry SPECIES_HAKAMO_O, 0, 0, 0, 0
 heightentry SPECIES_KOMMO_O, 0, 0, 0, 0
-heightentry SPECIES_TAPU_KOKO, 0, 0, 0, 0
-heightentry SPECIES_TAPU_LELE, 0, 0, 0, 0
-heightentry SPECIES_TAPU_BULU, 0, 0, 0, 0
-heightentry SPECIES_TAPU_FINI, 0, 0, 0, 0
+
+// Tapus replaced
+heightentry SPECIES_ANNIHILAPE, 0, 0, 0, 0
+heightentry SPECIES_FARIGIRAF, 0, 0, 0, 0
+heightentry SPECIES_DUDUNSPARCE, 0, 0, 0, 0
+heightentry SPECIES_KINGAMBIT, 0, 0, 0, 0
+
 heightentry SPECIES_COSMOG, 0, 0, 0, 0
 heightentry SPECIES_COSMOEM, 0, 0, 0, 0
 heightentry SPECIES_SOLGALEO, 0, 0, 0, 0

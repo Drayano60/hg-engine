@@ -1,6 +1,17 @@
 - Sort out cliff edge gate
 - headbutt r47, r27, r26, rest of kanto
 
+---
+
+Encounter methods have been simplified a bit:
+- Morning and day encounters are now identical.
+- Only one fishing table is used.
+- Only one set of headbutt encounters is used. All trees that can drop encounters now always will.
+
+The Hoenn and Sinnoh Sounds have been removed and replaced with the Unova Sound. As before, while the music is active, two additional encounters are added which replace some of the existing ones temporarily. The game has been modified so you are now able to turn this radio station on at any time by going into the Pokégear, going to the radio and selecting the top left button.
+
+(The music isn't actually a Unova song yet - maybe in the future!)
+
 ==============================
 Johto
 ==============================
@@ -1336,218 +1347,230 @@ The encounters you can get from object placement are the same as vanilla HG/SS.
 Plains
 -----------
 Grass (Day/Night):
-[10%/Lv. 35 - 35] Dodrio
-[10%/Lv. 35 - 35] Manectric
-[10%/Lv. 35 - 35] Girafarig
-[10%/Lv. 34 - 34] Illumise
-[10%/Lv. 35 - 35] Miltank
-[10%/Lv. 35 - 35] Rapidash
-[10%/Lv. 34 - 34] Smeargle
-[10%/Lv. 34 - 34] Spinda
-[10%/Lv. 34 - 34] Volbeat
-[10%/Lv. 35 - 35] Linoone
+[10%/Lv. 30 - 30] Deerling
+[10%/Lv. 30 - 30] Doduo
+[10%/Lv. 30 - 30] Joltik
+[10%/Lv. 30 - 30] Lillipup
+[10%/Lv. 30 - 30] Miltank
+[10%/Lv. 30 - 30] Minccino
+[10%/Lv. 30 - 30] Patrat
+[10%/Lv. 30 - 30] Pidove
+[10%/Lv. 30 - 30] Purrloin
+[10%/Lv. 30 - 30] Spinda
 
 Meadow
 -----------
 Grass (Day/Night):
-[10%/Lv. 35 - 35] Cherrim
-[10%/Lv. 34 - 34] Kirlia
-[10%/Lv. 34 - 34] Chansey
-[10%/Lv. 34 - 34] Skiploom
-[10%/Lv. 33 - 33] Jigglypuff
-[10%/Lv. 33 - 33] Riolu
-[10%/Lv. 34 - 34] Roselia
-[10%/Lv. 35 - 35] Vespiquen
-[10%/Lv. 35 - 35] Sunflora
-[10%/Lv. 34 - 34] Togetic
+[10%/Lv. 30 - 30] Audino
+[10%/Lv. 30 - 30] Cottonee
+[10%/Lv. 30 - 30] Gothita
+[10%/Lv. 30 - 30] Happiny
+[10%/Lv. 30 - 30] Igglybuff
+[10%/Lv. 30 - 30] Munna
+[10%/Lv. 30 - 30] Petilil
+[10%/Lv. 30 - 30] Riolu
+[10%/Lv. 30 - 30] Solosis
+[10%/Lv. 30 - 30] Togepi
 
 Surfing:
-[40%/Lv. 35 - 35] Azumarill
-[30%/Lv. 35 - 35] Quagsire
-[30%/Lv. 34 - 34] Lombre
+[20%/Lv. 30 - 30] Azurill
+[20%/Lv. 30 - 30] Ducklett
+[20%/Lv. 30 - 30] Hoppip
+[20%/Lv. 30 - 30] Surskit
+[20%/Lv. 30 - 30] Wooper
 
 Fishing:
-[50%/Lv. 33 - 33] Poliwag
-[50%/Lv. 34 - 34] Poliwhirl
+[30%/Lv. 30 - 30] Magikarp
+[30%/Lv. 30 - 30] Poliwag
+[20%/Lv. 30 - 30] Basculin (Red-Striped)
+[20%/Lv. 30 - 30] Basculin (Blue-Striped)
+
 
 Savannah
 -----------
 Grass (Day/Night):
-[10%/Lv. 35 - 35] Girafarig
-[10%/Lv. 35 - 35] Houndoom
-[10%/Lv. 35 - 35] Persian
-[10%/Lv. 34 - 34] Nidorina
-[10%/Lv. 34 - 34] Nidorino
-[10%/Lv. 35 - 35] Donphan
-[10%/Lv. 35 - 35] Mightyena
-[10%/Lv. 33 - 33] Rhyhorn
-[10%/Lv. 34 - 34] Luxio
-[10%/Lv. 35 - 35] Tauros
+[10%/Lv. 30 - 30] Blitzle
+[10%/Lv. 30 - 30] Bouffalant
+[10%/Lv. 30 - 30] Electrike
+[10%/Lv. 30 - 30] Elgyem
+[10%/Lv. 30 - 30] Houndour
+[10%/Lv. 30 - 30] Nidoran F
+[10%/Lv. 30 - 30] Nidoran M
+[10%/Lv. 30 - 30] Rhyhorn
+[10%/Lv. 30 - 30] Scraggy
+[10%/Lv. 30 - 30] Tauros
 
 Peak
 -----------
 Grass (Day/Night):
-[10%/Lv. 35 - 35] Bronzong
-[10%/Lv. 33 - 33] Clefairy
-[10%/Lv. 34 - 34] Electabuzz
-[10%/Lv. 35 - 35] Fearow
-[10%/Lv. 34 - 34] Graveler
-[10%/Lv. 34 - 34] Magmar
-[10%/Lv. 34 - 34] Magneton
-[10%/Lv. 34 - 34] Metang
-[10%/Lv. 35 - 35] Skarmory
-[10%/Lv. 35 - 35] Zangoose
+[10%/Lv. 30 - 30] Beldum
+[10%/Lv. 30 - 30] Bronzor
+[10%/Lv. 30 - 30] Cleffa
+[10%/Lv. 30 - 30] Elekid
+[10%/Lv. 30 - 30] Klink
+[10%/Lv. 30 - 30] Magby
+[10%/Lv. 30 - 30] Magnemite
+[10%/Lv. 30 - 30] Mienfoo
+[10%/Lv. 30 - 30] Roggenrola
+[10%/Lv. 30 - 30] Skarmory
 
 Rocky Beach
 -----------
 Grass (Day/Night):
-[10%/Lv. 35 - 35] Floatzel
-[10%/Lv. 33 - 33] Exeggcute
-[10%/Lv. 35 - 35] Kingler
-[10%/Lv. 34 - 34] Pachirisu
-[10%/Lv. 35 - 35] Golduck
-[10%/Lv. 35 - 35] Gastrodon (West Sea)
-[10%/Lv. 34 - 34] Shuckle
-[10%/Lv. 33 - 33] Slowpoke
-[10%/Lv. 35 - 35] Swellow
-[10%/Lv. 35 - 35] Pelipper
+[10%/Lv. 30 - 30] Buizel
+[10%/Lv. 30 - 30] Dwebble
+[10%/Lv. 30 - 30] Krabby
+[10%/Lv. 30 - 30] Pachirisu
+[10%/Lv. 30 - 30] Sawk
+[10%/Lv. 30 - 30] Scraggy
+[10%/Lv. 30 - 30] Shuckle
+[10%/Lv. 30 - 30] Taillow
+[10%/Lv. 30 - 30] Throh
+[10%/Lv. 30 - 30] Tynamo
 
 Surfing:
-[20%/Lv. 35 - 35] Tentacruel
-[20%/Lv. 35 - 35] Pelipper
-[20%/Lv. 35 - 35] Mantine
-[20%/Lv. 33 - 33] Staryu
-[20%/Lv. 35 - 35] Lapras
+[30%/Lv. 30 - 30] Wingull
+[20%/Lv. 30 - 30] Tynamo
+[20%/Lv. 30 - 30] Frillish
+[20%/Lv. 30 - 30] Alomomola
+[10%/Lv. 30 - 30] Lapras
 
 Fishing:
-[20%/Lv. 34 - 34] Corsola
-[20%/Lv. 33 - 33] Wailmer
-[20%/Lv. 35 - 35] Sharpedo
-[20%/Lv. 35 - 35] Lanturn
-[20%/Lv. 33 - 33] Clamperl
+[20%/Lv. 30 - 30] Basculin (Red-Striped)
+[20%/Lv. 30 - 30] Basculin (Blue-Striped)
+[20%/Lv. 30 - 30] Clamperl
+[20%/Lv. 30 - 30] Wailmer
+[10%/Lv. 30 - 30] Alomomola
+[10%/Lv. 30 - 30] Corsola
 
 Wetland
 -----------
 Grass (Day/Night):
-[10%/Lv. 35 - 35] Carnivine
-[10%/Lv. 35 - 35] Toxicroak
-[10%/Lv. 35 - 35] Ditto
-[10%/Lv. 35 - 35] Azumarill
-[10%/Lv. 35 - 35] Parasect
-[10%/Lv. 35 - 35] Breloom
-[10%/Lv. 35 - 35] Drapion
-[10%/Lv. 35 - 35] Masquerain
-[10%/Lv. 35 - 35] Quagsire
-[10%/Lv. 34 - 34] Yanma
+[10%/Lv. 30 - 30] Croagunk
+[10%/Lv. 30 - 30] Ditto
+[10%/Lv. 30 - 30] Ducklett
+[10%/Lv. 30 - 30] Farfetch'd
+[10%/Lv. 30 - 30] Karrablast 
+[10%/Lv. 30 - 30] Lotad
+[10%/Lv. 30 - 30] Shelmet
+[10%/Lv. 30 - 30] Skorupi
+[10%/Lv. 30 - 30] Stunfisk
+[10%/Lv. 30 - 30] Tympole
 
 Surfing:
-[40%/Lv. 35 - 35] Quagsire 
-[30%/Lv. 34 - 34] Poliwhirl
-[30%/Lv. 35 - 35] Masquerain
+[30%/Lv. 30 - 30] Poliwag
+[30%/Lv. 30 - 30] Surskit
+[30%/Lv. 30 - 30] Wooper
+[10%/Lv. 30 - 30] Stunfisk
 
 Fishing:
-[100%/Lv. 35 - 35] Whiscash
+[70%/Lv. 30 - 30] Barboach
+[30%/Lv. 30 - 30] Stunfisk
 
 Forest
 -----------
 Grass (Day/Night):
-[10%/Lv. 35 - 35] Lopunny
-[10%/Lv. 35 - 35] Noctowl
-[10%/Lv. 34 - 34] Misdreavus
-[10%/Lv. 34 - 34] Murkrow
-[10%/Lv. 35 - 35] Ninjask
-[10%/Lv. 34 - 34] Gloom
-[10%/Lv. 34 - 34] Pikachu
-[10%/Lv. 34 - 34] Nuzleaf
-[10%/Lv. 35 - 35] Venomoth
-[10%/Lv. 34 - 34] Vigoroth
+[10%/Lv. 30 - 30] Emolga
+[10%/Lv. 30 - 30] Foongus
+[10%/Lv. 30 - 30] Panpour
+[10%/Lv. 30 - 30] Pansage
+[10%/Lv. 30 - 30] Pansear
+[10%/Lv. 30 - 30] Pichu
+[10%/Lv. 30 - 30] Sewaddle
+[10%/Lv. 30 - 30] Slakoth
+[10%/Lv. 30 - 30] Venipede
+[10%/Lv. 30 - 30] Zorua
 
 Swamp
 -----------
 Grass (Day/Night):
-[10%/Lv. 34 - 34] Weepinbell
-[10%/Lv. 35 - 35] Carnivine
-[10%/Lv. 35 - 35] Toxicroak
-[10%/Lv. 35 - 35] Hypno
-[10%/Lv. 35 - 35] Arbok
-[10%/Lv. 34 - 34] Haunter
-[10%/Lv. 34 - 34] Murkrow
-[10%/Lv. 35 - 35] Parasect
-[10%/Lv. 35 - 35] Drapion
-[10%/Lv. 35 - 35] Quagsire
+[10%/Lv. 30 - 30] Bellsprout
+[10%/Lv. 30 - 30] Carnivine
+[10%/Lv. 30 - 30] Drowzee
+[10%/Lv. 30 - 30] Ekans
+[10%/Lv. 30 - 30] Gastly
+[10%/Lv. 30 - 30] Karrablast
+[10%/Lv. 30 - 30] Litwick
+[10%/Lv. 30 - 30] Paras
+[10%/Lv. 30 - 30] Shelmet
+[10%/Lv. 30 - 30] Skorupi
 
 Surfing:
-[50%/Lv. 35 - 35] Quagsire
-[50%/Lv. 35 - 35] Seaking
+[40%/Lv. 30 - 30] Goldeen
+[40%/Lv. 30 - 30] Wooper
+[20%/Lv. 30 - 30] Stunfisk
 
 Fishing:
-[40%/Lv. 34 - 34] Poliwhirl
-[40%/Lv. 35 - 35] Whiscash
-[20%/Lv. 34 - 34] Dragonair
+[30%/Lv. 30 - 30] Barboach
+[30%/Lv. 30 - 30] Poliwag
+[30%/Lv. 30 - 30] Stunfisk
+[10%/Lv. 30 - 30] Dratini
 
 Marshland
 -----------
-Grass (Day/Night);
-[10%/Lv. 35 - 35] Carnivine
-[10%/Lv. 35 - 35] Toxicroak
-[10%/Lv. 35 - 35] Dusclops
-[10%/Lv. 35 - 35] Arbok
-[10%/Lv. 35 - 35] Muk
-[10%/Lv. 35 - 35] Weezing
-[10%/Lv. 34 - 34] Roselia
-[10%/Lv. 35 - 35] Seviper
-[10%/Lv. 35 - 35] Banette
-[10%/Lv. 35 - 35] Tropius
+Grass (Day/Night):
+[10%/Lv. 30 - 30] Bidoof
+[10%/Lv. 30 - 30] Budew
+[10%/Lv. 30 - 30] Carnivine
+[10%/Lv. 30 - 30] Croagunk
+[10%/Lv. 30 - 30] Duskull
+[10%/Lv. 30 - 30] Grimer
+[10%/Lv. 30 - 30] Koffing
+[10%/Lv. 30 - 30] Shuppet
+[10%/Lv. 30 - 30] Tropius
+[10%/Lv. 30 - 30] Trubbish
 
 Surfing:
-[50%/Lv. 35 - 35] Quagsire
-[50%/Lv. 35 - 35] Muk
+[40%/Lv. 30 - 30] Grimer
+[40%/Lv. 30 - 30] Wooper
+[20%/Lv. 30 - 30] Stunfisk
 
 Fishing:
-[50%/Lv. 35 - 35] Whiscash
-[50%/Lv. 35 - 35] Muk
+[40%/Lv. 30 - 30] Barboach
+[30%/Lv. 30 - 30] Grimer
+[30%/Lv. 30 - 30] Stunfisk
 
 Wasteland
 -----------
-Grass (Day/Night);
-[10%/Lv. 35 - 35] Marowak
-[10%/Lv. 35 - 35] Kangaskhan
-[10%/Lv. 34 - 34] Machoke
-[10%/Lv. 35 - 35] Primeape
-[10%/Lv. 35 - 35] Camerupt
-[10%/Lv. 34 - 34] Onix
-[10%/Lv. 35 - 35] Drapion
-[10%/Lv. 35 - 35] Magcargo
-[10%/Lv. 35 - 35] Fearow
-[10%/Lv. 35 - 35] Grumpig
+Grass (Day/Night):
+[10%/Lv. 30 - 30] Axew
+[10%/Lv. 30 - 30] Cubone
+[10%/Lv. 30 - 30] Kangaskhan
+[10%/Lv. 30 - 30] Numel
+[10%/Lv. 30 - 30] Pawniard
+[10%/Lv. 30 - 30] Rufflet
+[10%/Lv. 30 - 30] Slugma
+[10%/Lv. 30 - 30] Torkoal
+[10%/Lv. 30 - 30] Vullaby
+[10%/Lv. 30 - 30] Yamask
 
 Mountain
 -----------
-Grass (Day/Night);
-[10%/Lv. 34 - 34] Lairon
-[10%/Lv. 34 - 34] Shelgon
-[10%/Lv. 35 - 35] Chimecho
-[10%/Lv. 34 - 34] Pupitar
-[10%/Lv. 35 - 35] Lunatone
-[10%/Lv. 35 - 35] Hariyama
-[10%/Lv. 35 - 35] Medicham
-[10%/Lv. 34 - 34] Nosepass
-[10%/Lv. 35 - 35] Magcargo
-[10%/Lv. 35 - 35] Solrock
+Grass (Day/Night):
+[10%/Lv. 30 - 30] Bagon
+[10%/Lv. 30 - 30] Deino
+[10%/Lv. 30 - 30] Drilbur
+[10%/Lv. 30 - 30] Druddigon
+[10%/Lv. 30 - 30] Durant
+[10%/Lv. 30 - 30] Ferroseed
+[10%/Lv. 30 - 30] Heatmor
+[10%/Lv. 30 - 30] Larvitar
+[10%/Lv. 30 - 30] Timburr
+[10%/Lv. 30 - 30] Woobat
 
 Desert
 -----------
-Grass (Day/Night);
-[10%/Lv. 33 - 33] Baltoy
-[10%/Lv. 33 - 33] Cacnea
-[10%/Lv. 35 - 35] Marowak
-[10%/Lv. 35 - 35] Dugtrio
-[10%/Lv. 34 - 34] Gabite
-[10%/Lv. 33 - 33] Hippopotas
-[10%/Lv. 35 - 35] Sandslash
-[10%/Lv. 33 - 33] Rhyhorn
-[10%/Lv. 35 - 35] Torkoal
-[10%/Lv. 33 - 33] Trapinch
+Grass (Day/Night):
+[10%/Lv. 30 - 30] Cacnea
+[10%/Lv. 30 - 30] Darumaka
+[10%/Lv. 30 - 30] Gible
+[10%/Lv. 30 - 30] Golett
+[10%/Lv. 30 - 30] Hippopotas
+[10%/Lv. 30 - 30] Larvesta
+[10%/Lv. 30 - 30] Maractus
+[10%/Lv. 30 - 30] Sandile
+[10%/Lv. 30 - 30] Sigilyph
+[10%/Lv. 30 - 30] Trapinch
 
 -------------------
 Route 43

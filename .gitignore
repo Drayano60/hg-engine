@@ -81,3 +81,6 @@ sdat/*
 tools/swav2swar.exe
 
 *:Zone.Identifier
+
+# Probably best not to commit these
+narcs/*

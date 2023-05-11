@@ -9194,7 +9194,6 @@ levelup SPECIES_CHINGLING
 
 // NEW: Ominous Wind (PLA), Boomburst
 levelup SPECIES_CHIMECHO
-    learnset MOVE_STORED_POWER, 1
     learnset MOVE_HEAL_BELL, 1
     learnset MOVE_WRAP, 1
     learnset MOVE_GROWL, 1
@@ -9211,11 +9210,12 @@ levelup SPECIES_CHIMECHO
     learnset MOVE_WISH, 30
     learnset MOVE_RECOVER, 33
     learnset MOVE_PSYCHIC, 36
-    learnset MOVE_SAFEGUARD, 40
-    learnset MOVE_HYPER_VOICE, 44
+    learnset MOVE_SAFEGUARD, 39
+    learnset MOVE_HYPER_VOICE, 42
+    learnset MOVE_STORED_POWER, 45
     learnset MOVE_HEALING_WISH, 48
-    learnset MOVE_PERISH_SONG, 52
-    learnset MOVE_BOOMBURST, 56
+    learnset MOVE_PERISH_SONG, 51
+    learnset MOVE_BOOMBURST, 54
     terminatelearnset
 
 levelup SPECIES_ABSOL

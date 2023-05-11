@@ -12859,12 +12859,12 @@ Held Item: Colbur Berry (5%)
 Type: Psychic
 
 New Moves:
+- Air Slash (TM)
 - Boomburst (Level)
 - Ominous Wind (Level/Tutor) (PLA)
 - Teleport (Tutor)
 
 Level Up Moves:
-01 - Stored Power
 01 - Heal Bell
 01 - Wrap
 01 - Growl
@@ -12881,11 +12881,12 @@ Level Up Moves:
 30 - Wish
 33 - Recover
 36 - Psychic
-40 - Safeguard
-44 - Hyper Voice
+39 - Safeguard
+42 - Hyper Voice
+45 - Stored Power
 48 - Healing Wish
-52 - Perish Song
-56 - Boomburst
+51 - Perish Song
+54 - Boomburst
 
 -------------------
 359 - Absol

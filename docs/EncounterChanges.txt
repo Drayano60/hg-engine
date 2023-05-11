@@ -709,7 +709,7 @@ Unova Sound:
 [20%/Lv. 17 - 18] Petilil
 
 -------------------
-National Park (Contest)
+National Park (Bug-Catching Contest)
 -------------------
 Grass (Day/Night):
 [20%/Lv. 20 - 20] Paras
@@ -1023,53 +1023,6 @@ Fishing:
 Unova Sound:
 [20%/Lv. 28 - 29] Drilbur
 [20%/Lv. 28 - 29] Gurdurr
-
--------------------
-Ruins of Alph (Outside - Lower Half)
--------------------
-(This grass is only accessible via Union Cave's basement.)
-
-Grass (Day):
-[20%/Lv. 28 - 29] Xatu
-[20%/Lv. 27 - 28] Baltoy*
-[20%/Lv. 27 - 28] Bronzor*
-[20%/Lv. 28 - 28] Kirlia
-[10%/Lv. 28 - 29] Mr. Mime
-[10%/Lv. 28 - 29] Smeargle
-
-* These Pokémon will not appear if the Unova Sound is active.
-
-Grass (Night):
-[20%/Lv. 28 - 29] Quagsire
-[20%/Lv. 27 - 28] Baltoy*
-[20%/Lv. 27 - 28] Bronzor*
-[20%/Lv. 28 - 28] Kirlia
-[10%/Lv. 28 - 29] Mr. Mime
-[10%/Lv. 28 - 29] Smeargle
-
-* These Pokémon will not appear if the Unova Sound is active.
-
-Headbutt:
-[40%/Lv. 05 - 10] Hoothoot
-[40%/Lv. 05 - 10] Natu
-[20%/Lv. 05 - 10] Exeggcute
-
-Rock Smash:
-[70%/Lv. 10 - 14] Geodude
-[30%/Lv. 10 - 14] Nosepass
-
-Surfing:
-[80%/Lv. 25 - 25] Wooper
-[20%/Lv. 30 - 30] Quagsire
-
-Fishing:
-[40%/Lv. 05 - 10] Magikarp
-[40%/Lv. 08 - 10] Poliwag
-[20%/Lv. 08 - 10] Corphish
-
-Unova Sound:
-[20%/Lv. 27 - 28] Golett
-[20%/Lv. 27 - 28] Sigilyph
 
 -------------------
 Slowpoke Well (Lower Floor)

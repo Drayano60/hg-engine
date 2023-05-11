@@ -305,7 +305,7 @@ Headbutt:
 
 Unova Sound:
 [20%/Lv. 10 - 11] Klink
-[20%/Lv. 10 - 11] Joltik
+[20%/Lv. 10 - 11] Pidove
 
 -------------------
 Ruins of Alph (Outside - Upper Half)
@@ -701,20 +701,20 @@ Unova Sound:
 National Park (Contest)
 -------------------
 Grass (Day/Night):
-[20%/Lv. 16 - 18] Paras
-[20%/Lv. 16 - 18] Venonat
-[10%/Lv. 16 - 18] Surskit
-[10%/Lv. 16 - 18] Skorupi
-[10%/Lv. 18 - 20] Ledian
-[10%/Lv. 18 - 20] Ariados
-[05%/Lv. 16 - 18] Trapinch
-[05%/Lv. 18 - 20] Heracross
-[05%/Lv. 18 - 20] Scyther
-[05%/Lv. 18 - 20] Pinsir
+[20%/Lv. 20 - 20] Paras
+[20%/Lv. 20 - 20] Venonat
+[10%/Lv. 20 - 20] Skorupi
+[10%/Lv. 20 - 20] Joltik
+[10%/Lv. 20 - 20] Karrablast
+[10%/Lv. 20 - 20] Shelmet
+[05%/Lv. 20 - 20] Trapinch
+[05%/Lv. 20 - 20] Larvesta
+[05%/Lv. 20 - 20] Scyther
+[05%/Lv. 20 - 20] Pinsir
 
-* Catching a Paras, Venonat, Surskit or Skorupi will award you the fewest points.
-* Ledian and Ariados are worth a middle amount of points.
-* Trapinch, Heracross, Scyther and Pinsir are worth the most points.
+* Catching a Paras or Venonat will award you the fewest points from the contest judge.
+* Skorupi, Joltik, Karrablast and Shelmet are worth a middling amount of points from the contest judge.
+* Trapinch, Larvesta, Scyther and Pinsir are worth the most points from the contest judge.
 
 -------------------
 Route 36 (West)

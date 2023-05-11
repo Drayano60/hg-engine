@@ -1108,7 +1108,7 @@ pokemon SPECIES_MAGNEMITE
 
 // hoenn encounter slots
 pokemon SPECIES_KLINK
-pokemon SPECIES_JOLTIK
+pokemon SPECIES_PIDOVE
 
 // sinnoh encounter slots
 pokemon SPECIES_NONE

@@ -4044,7 +4044,7 @@ mondata SPECIES_TYPHLOSION, "Typhlosion"
     mondexweight SPECIES_TYPHLOSION, "175.3 lbs."
 
 
-// ABILITY: Strong Jaw (2)
+// ABILITY: Sheer Force (2), Strong Jaw (HA)
 mondata SPECIES_TOTODILE, "Totodile"
     basestats 50, 65, 64, 43, 44, 48
     types TYPE_WATER, TYPE_WATER
@@ -4058,7 +4058,7 @@ mondata SPECIES_TOTODILE, "Totodile"
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_WATER_1
     .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_TORRENT, ABILITY_STRONG_JAW
+        abilities ABILITY_TORRENT, ABILITY_SHEER_FORCE
     .else
         abilities ABILITY_TORRENT, ABILITY_NONE
     .endif
@@ -4071,7 +4071,7 @@ mondata SPECIES_TOTODILE, "Totodile"
     mondexweight SPECIES_TOTODILE, "20.9 lbs."
 
 
-// ABILITY: Strong Jaw (2)
+// ABILITY: Sheer Force (2), Strong Jaw (HA)
 mondata SPECIES_CROCONAW, "Croconaw"
     basestats 65, 80, 80, 58, 59, 63
     types TYPE_WATER, TYPE_WATER
@@ -4085,7 +4085,7 @@ mondata SPECIES_CROCONAW, "Croconaw"
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_WATER_1
     .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_TORRENT, ABILITY_STRONG_JAW
+        abilities ABILITY_TORRENT, ABILITY_SHEER_FORCE
     .else
         abilities ABILITY_TORRENT, ABILITY_NONE
     .endif
@@ -4100,7 +4100,7 @@ mondata SPECIES_CROCONAW, "Croconaw"
 
 // STATS: 105 >> 110 Attack | 79 >> 74 SpAtk | 78 >> 83 Speed | 530 >> 535 BST
 // TYPES: Water >> Water/Dark
-// ABILITY: Strong Jaw (2)
+// ABILITY: Sheer Force (2), Strong Jaw (HA)
 mondata SPECIES_FERALIGATR, "Feraligatr"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 85, 110, 100, 83, 74, 83
@@ -4122,7 +4122,7 @@ mondata SPECIES_FERALIGATR, "Feraligatr"
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_WATER_1
     .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_TORRENT, ABILITY_STRONG_JAW
+        abilities ABILITY_TORRENT, ABILITY_SHEER_FORCE
     .else
         abilities ABILITY_TORRENT, ABILITY_NONE
     .endif

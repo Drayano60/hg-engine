@@ -6159,7 +6159,7 @@ Level Up Moves:
 -------------------
 158 - Totodile
 -------------------
-Abilities: Torrent / Torrent / Sheer Force ⟶ Torrent / Strong Jaw** / Sheer Force
+Abilities: Torrent / Torrent / Sheer Force ⟶ Torrent / Sheer Force / Strong Jaw**
 Base Stats: 50/65/64/44/48/43 (314)
 Held Item: None
 Type: Water
@@ -6192,7 +6192,7 @@ Level Up Moves:
 -------------------
 159 - Croconaw
 -------------------
-Abilities: Torrent / Torrent / Sheer Force ⟶ Torrent / Strong Jaw** / Sheer Force
+Abilities: Torrent / Torrent / Sheer Force ⟶ Torrent / Sheer Force / Strong Jaw**
 Base Stats: 65/80/80/59/63/58 (405)
 Held Item: None
 Type: Water
@@ -6226,7 +6226,7 @@ Level Up Moves:
 -------------------
 160 - Feraligatr
 -------------------
-Abilities: Torrent / Torrent / Sheer Force ⟶ Torrent / Strong Jaw** / Sheer Force
+Abilities: Torrent / Torrent / Sheer Force ⟶ Torrent / Sheer Force / Strong Jaw**
 Base Stats: 85/105/100/79/83/78 (530) ⟶ 85/110*/100/74*/83/83* (535)
 Held Item: None
 Type: Water ⟶ Water / Dark

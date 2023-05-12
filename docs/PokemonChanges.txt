@@ -1926,8 +1926,9 @@ Level Up Moves:
 01 - Covet
 01 - Scratch
 01 - Leer
+01 - Low Kick
 04 - Focus Energy
-08 - Low Kick
+08 - Karate Chop
 12 - Fury Swipes
 16 - Seismic Toss
 20 - Assurance
@@ -1956,8 +1957,9 @@ Level Up Moves:
 01 - Covet
 01 - Scratch
 01 - Leer
+01 - Low Kick
 04 - Focus Energy
-08 - Low Kick
+08 - Karate Chop
 12 - Fury Swipes
 16 - Seismic Toss
 20 - Assurance
@@ -1990,8 +1992,9 @@ Level Up Moves:
 01 - Covet
 01 - Scratch
 01 - Leer
+01 - Low Kick
 04 - Focus Energy
-08 - Low Kick
+08 - Karate Chop
 12 - Fury Swipes
 16 - Seismic Toss
 20 - Assurance
@@ -14859,13 +14862,14 @@ New Moves:
 Level Up Moves:
 01 - Sonic Boom
 01 - Growl
+01 - Water Gun
 03 - Water Sport
 06 - Quick Attack
-09 - Water Gun
+09 - Aqua Jet
 12 - Pursuit
-15 - Bite
-18 - Swift
-21 - Aqua Jet
+15 - Dive
+18 - Bite
+21 - Swift
 24 - Double Hit
 28 - Whirlpool
 32 - Aqua Tail
@@ -14891,13 +14895,14 @@ Level Up Moves:
 01 - Ice Fang
 01 - Sonic Boom
 01 - Growl
+01 - Water Gun
 03 - Water Sport
 06 - Quick Attack
-09 - Water Gun
+09 - Aqua Jet
 12 - Pursuit
-15 - Bite
-18 - Swift
-21 - Aqua Jet
+15 - Dive
+18 - Bite
+21 - Swift
 24 - Double Hit
 26 - Crunch
 28 - Whirlpool

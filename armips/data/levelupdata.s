@@ -1548,8 +1548,9 @@ levelup SPECIES_MANKEY
     learnset MOVE_COVET, 1
     learnset MOVE_SCRATCH, 1
     learnset MOVE_LEER, 1
+    learnset MOVE_LOW_KICK, 1
     learnset MOVE_FOCUS_ENERGY, 4
-    learnset MOVE_LOW_KICK, 8
+    learnset MOVE_KARATE_CHOP, 8
     learnset MOVE_FURY_SWIPES, 12
     learnset MOVE_SEISMIC_TOSS, 16
     learnset MOVE_ASSURANCE, 20
@@ -1568,8 +1569,9 @@ levelup SPECIES_PRIMEAPE
     learnset MOVE_COVET, 1
     learnset MOVE_SCRATCH, 1
     learnset MOVE_LEER, 1
+    learnset MOVE_LOW_KICK, 1
     learnset MOVE_FOCUS_ENERGY, 4
-    learnset MOVE_LOW_KICK, 8
+    learnset MOVE_KARATE_CHOP, 8
     learnset MOVE_FURY_SWIPES, 12
     learnset MOVE_SEISMIC_TOSS, 16
     learnset MOVE_ASSURANCE, 20
@@ -1592,8 +1594,9 @@ levelup SPECIES_ANNIHILAPE
     learnset MOVE_COVET, 1
     learnset MOVE_SCRATCH, 1
     learnset MOVE_LEER, 1
+    learnset MOVE_LOW_KICK, 1
     learnset MOVE_FOCUS_ENERGY, 4
-    learnset MOVE_LOW_KICK, 8
+    learnset MOVE_KARATE_CHOP, 8
     learnset MOVE_FURY_SWIPES, 12
     learnset MOVE_SEISMIC_TOSS, 16
     learnset MOVE_ASSURANCE, 20
@@ -10512,13 +10515,14 @@ levelup SPECIES_PACHIRISU
 levelup SPECIES_BUIZEL
     learnset MOVE_SONIC_BOOM, 1
     learnset MOVE_GROWL, 1
+    learnset MOVE_WATER_GUN, 1
     learnset MOVE_WATER_SPORT, 3
     learnset MOVE_QUICK_ATTACK, 6
-    learnset MOVE_WATER_GUN, 9
+    learnset MOVE_AQUA_JET, 9
     learnset MOVE_PURSUIT, 12
-    learnset MOVE_BITE, 15
-    learnset MOVE_SWIFT, 18
-    learnset MOVE_AQUA_JET, 21
+    learnset MOVE_DIVE, 15
+    learnset MOVE_BITE, 18
+    learnset MOVE_SWIFT, 21
     learnset MOVE_DOUBLE_HIT, 24
     learnset MOVE_WHIRLPOOL, 28
     learnset MOVE_AQUA_TAIL, 32
@@ -10533,13 +10537,14 @@ levelup SPECIES_FLOATZEL
     learnset MOVE_ICE_FANG, 1
     learnset MOVE_SONIC_BOOM, 1
     learnset MOVE_GROWL, 1
+    learnset MOVE_WATER_GUN, 1
     learnset MOVE_WATER_SPORT, 3
     learnset MOVE_QUICK_ATTACK, 6
-    learnset MOVE_WATER_GUN, 9
+    learnset MOVE_AQUA_JET, 9
     learnset MOVE_PURSUIT, 12
-    learnset MOVE_BITE, 15
-    learnset MOVE_SWIFT, 18
-    learnset MOVE_AQUA_JET, 21
+    learnset MOVE_DIVE, 15
+    learnset MOVE_BITE, 18
+    learnset MOVE_SWIFT, 21
     learnset MOVE_DOUBLE_HIT, 24
     learnset MOVE_CRUNCH, 26
     learnset MOVE_WHIRLPOOL, 28

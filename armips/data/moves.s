@@ -4072,12 +4072,11 @@ movedata MOVE_FUTURE_SIGHT, "Future Sight"
     terminatedata
     movedescription MOVE_FUTURE_SIGHT, "Two turns after this\nmove is used, the foe\nis attacked with a\nhunk of psychic\nenergy."
 
-// POWER: 40 >> 50
 // EFFECT CHANCE: 50 >> 100
 movedata MOVE_ROCK_SMASH, "Rock Smash"
     battleeffect 69
     pss SPLIT_PHYSICAL
-    basepower MOVE_CHANGES_IMPLEMENTED ? 50 : 40
+    basepower 40
     type TYPE_FIGHTING
     accuracy 100
     pp 15

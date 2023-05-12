@@ -662,7 +662,6 @@ Accuracy: 85% ⟶ 100%
 
 Rock Smash
 -------------------
-Power: 40 ⟶ 50
 Effect (%): 50% ⟶ 100%
 
 Present

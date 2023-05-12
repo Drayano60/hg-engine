@@ -5888,9 +5888,9 @@ levelup SPECIES_SHUCKLE
     learnset MOVE_STRUGGLE_BUG, 8
     learnset MOVE_SAFEGUARD, 12
     learnset MOVE_ROLLOUT, 16
-    learnset MOVE_REST, 20
-    learnset MOVE_ENCORE, 24
-    learnset MOVE_BUG_BITE, 28
+    learnset MOVE_BUG_BITE, 20
+    learnset MOVE_REST, 24
+    learnset MOVE_ENCORE, 28
     learnset MOVE_ROCK_SLIDE, 32
     learnset MOVE_GASTRO_ACID, 36
     learnset MOVE_POWER_TRICK, 40

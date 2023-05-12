@@ -1587,7 +1587,7 @@ Level Up Moves:
 03 - Absorb
 06 - Fury Cutter
 09 - Stun Spore
-09 - Poison Powoder
+09 - Poison Powder
 12 - Mega Drain
 15 - Bug Bite
 18 - Slash
@@ -8078,9 +8078,9 @@ Level Up Moves:
 08 - Struggle Bug
 12 - Safeguard
 16 - Rollout
-20 - Rest
-24 - Encore
-28 - Bug Bite
+20 - Bug Bite
+24 - Rest
+28 - Encore
 32 - Rock Slide
 36 - Gastro Acid
 40 - Power Trick
@@ -9744,7 +9744,7 @@ Held Item: Shed Shell (5%)
 Type: Bug / Poison
 
 New Moves:
-- Acid Spray (Level/Tutor)
+- Acid Spray (Tutor)
 - Dual Wingbeat (Tutor) (HOME)
 - Fly (HM)
 - Hurricane (Tutor)

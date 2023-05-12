@@ -3736,6 +3736,273 @@ party 106
     ballseal 0
 endparty
 
+/******************************************** Route 33 ********************************************/
+
+trainerdata 61, "Anthony"
+    trainermontype TRAINER_MON_TYPE_FLAGS
+    trainerclass CLASS_HIKER
+    battletype 0
+    nummons 3
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype2 SINGLE_BATTLE
+    endentry
+
+party 61
+    ivs 0
+    abilityslot 0
+    level 18
+    pokemon SPECIES_GEODUDE
+    item 0
+    move MOVE_MAGNITUDE
+    move MOVE_ROCK_TOMB
+    move 0
+    move 0
+    ability ABILITY_STURDY
+    ball ITEM_POKE_BALL
+    setivs 15, 15, 15, 15, 15, 15
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level 18
+    pokemon SPECIES_MACHOP
+    item 0
+    move MOVE_LOW_SWEEP
+    move MOVE_ROCK_TOMB
+    move MOVE_FORESIGHT
+    move MOVE_LEER
+    ability ABILITY_NO_GUARD
+    ball ITEM_POKE_BALL
+    setivs 15, 15, 15, 15, 15, 15
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level 18
+    pokemon SPECIES_NOSEPASS
+    item 0
+    move MOVE_ROCK_TOMB
+    move MOVE_SPARK
+    move MOVE_REST
+    move MOVE_HARDEN
+    ability ABILITY_STURDY
+    ball ITEM_POKE_BALL
+    setivs 15, 15, 15, 15, 15, 15
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+endparty
+
+trainerdata 100, "Anthony"
+    trainermontype TRAINER_MON_TYPE_FLAGS
+    trainerclass CLASS_HIKER
+    battletype 0
+    nummons 3
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype2 SINGLE_BATTLE
+    endentry
+
+party 100
+    ivs 0
+    abilityslot 0
+    level REMATCH_LEVEL_1
+    pokemon SPECIES_GRAVELER
+    item 0
+    move MOVE_EARTHQUAKE
+    move MOVE_STONE_EDGE
+    move MOVE_HAMMER_ARM
+    move MOVE_SELF_DESTRUCT
+    ability ABILITY_STURDY
+    ball ITEM_POKE_BALL
+    setivs 15, 15, 15, 15, 15, 15
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level REMATCH_LEVEL_1
+    pokemon SPECIES_MACHOKE
+    item 0
+    move MOVE_CROSS_CHOP
+    move MOVE_ROCK_SLIDE
+    move MOVE_KNOCK_OFF
+    move MOVE_DUAL_CHOP
+    ability ABILITY_NO_GUARD
+    ball ITEM_POKE_BALL
+    setivs 15, 15, 15, 15, 15, 15
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level REMATCH_LEVEL_1
+    pokemon SPECIES_PROBOPASS
+    item 0
+    move MOVE_FLASH_CANNON
+    move MOVE_POWER_GEM
+    move MOVE_DISCHARGE
+    move MOVE_SANDSTORM
+    ability ABILITY_STURDY
+    ball ITEM_POKE_BALL
+    setivs 15, 15, 15, 15, 15, 15
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+endparty
+
+trainerdata 155, "Anthony"
+    trainermontype TRAINER_MON_TYPE_FLAGS
+    trainerclass CLASS_HIKER
+    battletype 0
+    nummons 3
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype2 SINGLE_BATTLE
+    endentry
+
+party 155
+    ivs 0
+    abilityslot 0
+    level REMATCH_LEVEL_2
+    pokemon SPECIES_GOLEM
+    item 0
+    move MOVE_EARTHQUAKE
+    move MOVE_STONE_EDGE
+    move MOVE_HAMMER_ARM
+    move MOVE_SELF_DESTRUCT
+    ability ABILITY_STURDY
+    ball ITEM_POKE_BALL
+    setivs 15, 15, 15, 15, 15, 15
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level REMATCH_LEVEL_2
+    pokemon SPECIES_MACHAMP
+    item 0
+    move MOVE_CROSS_CHOP
+    move MOVE_ROCK_SLIDE
+    move MOVE_KNOCK_OFF
+    move MOVE_DUAL_CHOP
+    ability ABILITY_NO_GUARD
+    ball ITEM_POKE_BALL
+    setivs 15, 15, 15, 15, 15, 15
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level REMATCH_LEVEL_2
+    pokemon SPECIES_PROBOPASS
+    item 0
+    move MOVE_FLASH_CANNON
+    move MOVE_POWER_GEM
+    move MOVE_DISCHARGE
+    move MOVE_SANDSTORM
+    ability ABILITY_STURDY
+    ball ITEM_POKE_BALL
+    setivs 15, 15, 15, 15, 15, 15
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+endparty
+
+trainerdata 523, "Anthony"
+    trainermontype TRAINER_MON_TYPE_FLAGS
+    trainerclass CLASS_HIKER
+    battletype 0
+    nummons 3
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype2 SINGLE_BATTLE
+    endentry
+
+party 523
+    ivs 0
+    abilityslot 0
+    level REMATCH_LEVEL_3
+    pokemon SPECIES_GOLEM
+    item 0
+    move MOVE_EARTHQUAKE
+    move MOVE_STONE_EDGE
+    move MOVE_HAMMER_ARM
+    move MOVE_SELF_DESTRUCT
+    ability ABILITY_STURDY
+    ball ITEM_POKE_BALL
+    setivs 15, 15, 15, 15, 15, 15
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level REMATCH_LEVEL_3
+    pokemon SPECIES_MACHAMP
+    item 0
+    move MOVE_CROSS_CHOP
+    move MOVE_ROCK_SLIDE
+    move MOVE_KNOCK_OFF
+    move MOVE_DUAL_CHOP
+    ability ABILITY_NO_GUARD
+    ball ITEM_POKE_BALL
+    setivs 15, 15, 15, 15, 15, 15
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level REMATCH_LEVEL_3
+    pokemon SPECIES_PROBOPASS
+    item 0
+    move MOVE_FLASH_CANNON
+    move MOVE_POWER_GEM
+    move MOVE_DISCHARGE
+    move MOVE_SANDSTORM
+    ability ABILITY_STURDY
+    ball ITEM_POKE_BALL
+    setivs 15, 15, 15, 15, 15, 15
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+endparty
+
+
 /******************************************** Not Set ********************************************/
 
 trainerdata 0, "-"
@@ -4976,35 +5243,6 @@ trainerdata 59, "Kyle"
         ballseal 0
     endparty
 
-trainerdata 61, "Anthony"
-    trainermontype TRAINER_DATA_TYPE_NOTHING
-    trainerclass CLASS_HIKER
-    battletype SINGLE_BATTLE
-    nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_PRIORITIZE_DAMAGE | 0
-    battletype2 0
-    endentry
-
-    party 61
-        // mon 0
-        ivs 0
-        abilityslot 0
-        level 11
-        pokemon SPECIES_GEODUDE
-        ballseal 0
-
-        // mon 1
-        ivs 0
-        abilityslot 32
-        level 11
-        pokemon SPECIES_MACHOP
-        ballseal 0
-    endparty
-
 trainerdata 62, "Samuel"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_YOUNGSTER
@@ -6134,35 +6372,6 @@ trainerdata 99, "Matthew"
         abilityslot 0
         level 23
         pokemon SPECIES_KRABBY
-        ballseal 0
-    endparty
-
-trainerdata 100, "Anthony"
-    trainermontype TRAINER_DATA_TYPE_NOTHING
-    trainerclass CLASS_HIKER
-    battletype SINGLE_BATTLE
-    nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_PRIORITIZE_DAMAGE | 0
-    battletype2 0
-    endentry
-
-    party 100
-        // mon 0
-        ivs 0
-        abilityslot 0
-        level 33
-        pokemon SPECIES_GRAVELER
-        ballseal 0
-
-        // mon 1
-        ivs 0
-        abilityslot 32
-        level 32
-        pokemon SPECIES_MACHOKE
         ballseal 0
     endparty
 
@@ -7744,42 +7953,6 @@ trainerdata 153, "Sharon"
         abilityslot 32
         level 43
         pokemon SPECIES_RAPIDASH
-        ballseal 0
-    endparty
-
-trainerdata 155, "Anthony"
-    trainermontype TRAINER_DATA_TYPE_NOTHING
-    trainerclass CLASS_HIKER
-    battletype SINGLE_BATTLE
-    nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_PRIORITIZE_DAMAGE | 0
-    battletype2 0
-    endentry
-
-    party 155
-        // mon 0
-        ivs 0
-        abilityslot 0
-        level 37
-        pokemon SPECIES_GRAVELER
-        ballseal 0
-
-        // mon 1
-        ivs 0
-        abilityslot 0
-        level 38
-        pokemon SPECIES_GRAVELER
-        ballseal 0
-
-        // mon 2
-        ivs 0
-        abilityslot 32
-        level 40
-        pokemon SPECIES_MACHOKE
         ballseal 0
     endparty
 
@@ -20252,42 +20425,6 @@ trainerdata 522, "Tiffany"
         move MOVE_METRONOME
         move MOVE_BLIZZARD
         move MOVE_THUNDER
-        ballseal 0
-    endparty
-
-trainerdata 523, "Anthony"
-    trainermontype TRAINER_DATA_TYPE_NOTHING
-    trainerclass CLASS_HIKER
-    battletype SINGLE_BATTLE
-    nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_PRIORITIZE_DAMAGE | 0
-    battletype2 0
-    endentry
-
-    party 523
-        // mon 0
-        ivs 0
-        abilityslot 0
-        level 41
-        pokemon SPECIES_GRAVELER
-        ballseal 0
-
-        // mon 1
-        ivs 0
-        abilityslot 0
-        level 49
-        pokemon SPECIES_GOLEM
-        ballseal 0
-
-        // mon 2
-        ivs 0
-        abilityslot 32
-        level 55
-        pokemon SPECIES_MACHAMP
         ballseal 0
     endparty
 

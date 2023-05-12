@@ -3,13 +3,15 @@
 
 .include "armips/include/abilities.s"
 .include "armips/include/constants.s"
+.include "armips/include/config.s"
 .include "armips/include/itemnums.s"
 .include "armips/include/macros.s"
 .include "armips/include/movenums.s"
 .include "armips/include/monnums.s"
 
-TRAINER_MON_TYPE_FLAGS equ TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_BALL | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET | TRAINER_DATA_TYPE_SHINY_LOCK
+ALLOW_ILLEGAL_MOVES equ 1
 
+TRAINER_MON_TYPE_FLAGS equ TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_BALL | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET | TRAINER_DATA_TYPE_SHINY_LOCK
 TRAINER_AI_FLAGS equ F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
 
 /********************** Cherrygrove City **********************/
@@ -133,7 +135,7 @@ party 739
     item 0
     move MOVE_BUBBLE
     move MOVE_TAIL_WHIP
-    move MOVE_DISARMING_VOICE
+    move ALLOW_ILLEGAL_MOVES ? MOVE_DISARMING_VOICE : MOVE_NONE
     move 0
     ability ABILITY_HUGE_POWER
     ball ITEM_POKE_BALL
@@ -182,7 +184,7 @@ party 740
     item 0
     move MOVE_BUBBLE
     move MOVE_TAIL_WHIP
-    move MOVE_DISARMING_VOICE
+    move ALLOW_ILLEGAL_MOVES ? MOVE_DISARMING_VOICE : MOVE_NONE
     move 0
     ability ABILITY_HUGE_POWER
     ball ITEM_POKE_BALL
@@ -231,7 +233,7 @@ party 741
     item 0
     move MOVE_BUBBLE
     move MOVE_TAIL_WHIP
-    move MOVE_DISARMING_VOICE
+    move ALLOW_ILLEGAL_MOVES ? MOVE_DISARMING_VOICE : MOVE_NONE
     move 0
     ability ABILITY_HUGE_POWER
     ball ITEM_POKE_BALL
@@ -280,7 +282,7 @@ party 742
     item 0
     move MOVE_BUBBLE
     move MOVE_TAIL_WHIP
-    move MOVE_DISARMING_VOICE
+    move ALLOW_ILLEGAL_MOVES ? MOVE_DISARMING_VOICE : MOVE_NONE
     move 0
     ability ABILITY_HUGE_POWER
     ball ITEM_POKE_BALL
@@ -329,7 +331,7 @@ party 743
     item 0
     move MOVE_BUBBLE
     move MOVE_TAIL_WHIP
-    move MOVE_DISARMING_VOICE
+    move ALLOW_ILLEGAL_MOVES ? MOVE_DISARMING_VOICE : MOVE_NONE
     move 0
     ability ABILITY_HUGE_POWER
     ball ITEM_POKE_BALL
@@ -378,7 +380,7 @@ party 744
     item 0
     move MOVE_BUBBLE
     move MOVE_TAIL_WHIP
-    move MOVE_DISARMING_VOICE
+    move ALLOW_ILLEGAL_MOVES ? MOVE_DISARMING_VOICE : MOVE_NONE
     move 0
     ability ABILITY_HUGE_POWER
     ball ITEM_POKE_BALL
@@ -489,7 +491,7 @@ party 47
     ballseal 0
 endparty
 
-// New, was a Mickey
+// New, Mickey
 trainerdata 11, "Bernie"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_LASS

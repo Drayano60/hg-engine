@@ -10461,9 +10461,10 @@ New Moves:
 Level Up Moves:
 01 - Scratch
 01 - Harden
-03 - Sand Attack
-06 - Absorb
-09 - Mud-Slap
+01 - Sand Attack
+03 - Absorb
+06 - Mud-Slap
+09 - Bug Bite
 12 - False Swipe
 15 - Metal Claw
 18 - Fury Swipes
@@ -10488,12 +10489,12 @@ New Moves:
 
 Level Up Moves:
 01 - Aerial Ace
-01 - Bug Bite
 01 - Scratch
 01 - Harden
-03 - Sand Attack
-06 - Absorb
-09 - Agility
+01 - Sand Attack
+03 - Absorb
+06 - Agility
+09 - Bug Bite
 12 - False Swipe
 15 - Metal Claw
 18 - Fury Swipes
@@ -10526,9 +10527,10 @@ Level Up Moves:
 01 - Spite
 01 - Scratch
 01 - Harden
-03 - Sand Attack
-06 - Absorb
-09 - Confuse Ray
+01 - Sand Attack
+03 - Absorb
+06 - Confuse Ray
+09 - Bug Bite
 12 - False Swipe
 15 - Metal Claw
 18 - Fury Swipes

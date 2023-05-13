@@ -7487,9 +7487,10 @@ levelup SPECIES_SLAKING
 levelup SPECIES_NINCADA
     learnset MOVE_SCRATCH, 1
     learnset MOVE_HARDEN, 1
-    learnset MOVE_SAND_ATTACK, 3
-    learnset MOVE_ABSORB, 6
-    learnset MOVE_MUD_SLAP, 9
+    learnset MOVE_SAND_ATTACK, 1
+    learnset MOVE_ABSORB, 3
+    learnset MOVE_MUD_SLAP, 6
+    learnset MOVE_BUG_BITE, 9
     learnset MOVE_FALSE_SWIPE, 12
     learnset MOVE_METAL_CLAW, 15
     learnset MOVE_FURY_SWIPES, 18
@@ -7505,9 +7506,10 @@ levelup SPECIES_NINJASK
     learnset MOVE_BUG_BITE, 1
     learnset MOVE_SCRATCH, 1
     learnset MOVE_HARDEN, 1
-    learnset MOVE_SAND_ATTACK, 3
-    learnset MOVE_ABSORB, 6
-    learnset MOVE_AGILITY, 9
+    learnset MOVE_SAND_ATTACK, 1
+    learnset MOVE_ABSORB, 3
+    learnset MOVE_AGILITY, 6
+    learnset MOVE_BUG_BITE, 9
     learnset MOVE_FALSE_SWIPE, 12
     learnset MOVE_METAL_CLAW, 15
     learnset MOVE_FURY_SWIPES, 18
@@ -7530,9 +7532,10 @@ levelup SPECIES_SHEDINJA
     learnset MOVE_SPITE, 1
     learnset MOVE_SCRATCH, 1
     learnset MOVE_HARDEN, 1
-    learnset MOVE_SAND_ATTACK, 3
-    learnset MOVE_ABSORB, 6
-    learnset MOVE_CONFUSE_RAY, 9
+    learnset MOVE_SAND_ATTACK, 1
+    learnset MOVE_ABSORB, 3
+    learnset MOVE_CONFUSE_RAY, 6
+    learnset MOVE_BUG_BITE, 9
     learnset MOVE_FALSE_SWIPE, 12
     learnset MOVE_METAL_CLAW, 15
     learnset MOVE_FURY_SWIPES, 18

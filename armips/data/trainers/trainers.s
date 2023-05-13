@@ -5391,7 +5391,7 @@ party 409
     ballseal 0
 endparty
 
-trainerdata 65, "-"
+trainerdata 65, "Gina"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_PICNICKER
     battletype 0

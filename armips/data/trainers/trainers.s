@@ -6894,6 +6894,238 @@ party 525
     ballseal 0
 endparty
 
+/******************************************** Goldenrod Underground ********************************************/
+
+trainerdata 233, "Eric"
+    trainermontype TRAINER_MON_TYPE_FLAGS
+    trainerclass CLASS_SUPER_NERD
+    battletype 0
+    nummons 3
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype2 SINGLE_BATTLE
+    endentry
+
+party 233
+    ivs 0
+    abilityslot 0
+    level 23
+    pokemon SPECIES_GRIMER
+    item 0
+    move MOVE_SLUDGE
+    move MOVE_MUD_BOMB
+    move MOVE_PAYBACK
+    move MOVE_POISON_GAS
+    ability ABILITY_STENCH
+    ball ITEM_POKE_BALL
+    setivs 15, 15, 15, 15, 15, 15
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level 23
+    pokemon SPECIES_KOFFING
+    item 0
+    move MOVE_CLEAR_SMOG
+    move MOVE_GYRO_BALL
+    move MOVE_ASSURANCE
+    move MOVE_POISON_GAS
+    ability SET_ME
+    ball ITEM_POKE_BALL
+    setivs 15, 15, 15, 15, 15, 15
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level 23
+    pokemon SPECIES_TRUBBISH
+    item 0
+    move MOVE_SLUDGE
+    move MOVE_PAYBACK
+    move MOVE_DOUBLE_SLAP
+    move MOVE_POISON_GAS
+    ability SET_ME
+    ball ITEM_POKE_BALL
+    setivs 15, 15, 15, 15, 15, 15
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+endparty
+
+trainerdata 391, "Issac"
+    trainermontype TRAINER_MON_TYPE_FLAGS
+    trainerclass CLASS_POKE_MANIAC
+    battletype 0
+    nummons 1
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype2 SINGLE_BATTLE
+    endentry
+
+party 391
+    ivs 0
+    abilityslot 0
+    level 24
+    pokemon SPECIES_LICKITUNG
+    item 0
+    move MOVE_STOMP
+    move MOVE_KNOCK_OFF
+    move MOVE_LICK
+    move MOVE_CUT
+    ability ABILITY_OBLIVIOUS
+    ball ITEM_POKE_BALL
+    setivs 15, 15, 15, 15, 15, 15
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+endparty
+
+trainerdata 393, "Teru"
+    trainermontype TRAINER_MON_TYPE_FLAGS
+    trainerclass CLASS_SUPER_NERD
+    battletype 0
+    nummons 3
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype2 SINGLE_BATTLE
+    endentry
+
+party NUMBER
+    ivs 0
+    abilityslot 0
+    level 23
+    pokemon SPECIES_VOLTORB
+    item 0
+    move MOVE_CHARGE_BEAM
+    move MOVE_SONIC_BOOM
+    move MOVE_ROLLOUT
+    move MOVE_EERIE_IMPULSE
+    ability ABILITY_STATIC
+    ball ITEM_POKE_BALL
+    setivs 15, 15, 15, 15, 15, 15
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level 23
+    pokemon SPECIES_MAGNEMITE
+    item 0
+    move MOVE_CHARGE_BEAM
+    move MOVE_SONIC_BOOM
+    move MOVE_MAGNET_BOMB
+    move MOVE_THUNDER_WAVE
+    ability ABILITY_STURDY
+    ball ITEM_POKE_BALL
+    setivs 15, 15, 15, 15, 15, 15
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level 23
+    pokemon SPECIES_PORYGON
+    item 0
+    move MOVE_CHARGE_BEAM
+    move MOVE_SWIFT
+    move MOVE_PSYBEAM
+    move MOVE_CONVERSION
+    ability ABILITY_DOWNLOAD
+    ball ITEM_POKE_BALL
+    setivs 15, 15, 15, 15, 15, 15
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+endparty
+
+trainerdata 392, "Donald"
+    trainermontype TRAINER_MON_TYPE_FLAGS
+    trainerclass CLASS_POKE_MANIAC
+    battletype 0
+    nummons 3
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype2 SINGLE_BATTLE
+    endentry
+
+party 392
+    ivs 0
+    abilityslot 0
+    level 23
+    pokemon SPECIES_CHARMELEON
+    item 0
+    move MOVE_FIRE_SPIN
+    move MOVE_DRAGON_RAGE
+    move MOVE_METAL_CLAW
+    move MOVE_SMOKESCREEN
+    ability ABILITY_BLAZE
+    ball ITEM_POKE_BALL
+    setivs 15, 15, 15, 15, 15, 15
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level 23
+    pokemon SPECIES_NIDORINO
+    item 0
+    move ALLOW_ILLEGAL_MOVES ? MOVE_POISON_FANG : MOVE_POISON_STING
+    move MOVE_HORN_ATTACK
+    move MOVE_DOUBLE_KICK
+    move MOVE_SHOCK_WAVE
+    ability ABILITY_RIVALRY
+    ball ITEM_POKE_BALL
+    setivs 15, 15, 15, 15, 15, 15
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level 23
+    pokemon SPECIES_LOUDRED
+    item 0
+    move MOVE_UPROAR
+    move MOVE_ASTONISH
+    move MOVE_DISARMING_VOICE
+    move MOVE_SUPERSONIC
+    ability ABILITY_SCRAPPY
+    ball ITEM_POKE_BALL
+    setivs 15, 15, 15, 15, 15, 15
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+endparty
+
 /******************************************** Not Set ********************************************/
 
 trainerdata 0, "-"
@@ -12494,35 +12726,6 @@ trainerdata 232, "Vincent"
         move MOVE_SUPERSONIC
         move MOVE_THUNDER_WAVE
         move MOVE_MAGNET_BOMB
-        ballseal 0
-    endparty
-
-trainerdata 233, "Eric"
-    trainermontype TRAINER_DATA_TYPE_NOTHING
-    trainerclass CLASS_SUPER_NERD
-    battletype SINGLE_BATTLE
-    nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
-    battletype2 0
-    endentry
-
-    party 233
-        // mon 0
-        ivs 0
-        abilityslot 0
-        level 11
-        pokemon SPECIES_GRIMER
-        ballseal 0
-
-        // mon 1
-        ivs 0
-        abilityslot 0
-        level 11
-        pokemon SPECIES_GRIMER
         ballseal 0
     endparty
 
@@ -18135,104 +18338,6 @@ trainerdata 389, "Nelson"
         move MOVE_HEADBUTT
         move MOVE_WATER_GUN
         move MOVE_CONFUSION
-        ballseal 0
-    endparty
-
-trainerdata 391, "Issac"
-    trainermontype TRAINER_DATA_TYPE_MOVES
-    trainerclass CLASS_POKE_MANIAC
-    battletype SINGLE_BATTLE
-    nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_PRIORITIZE_DAMAGE | 0
-    battletype2 0
-    endentry
-
-    party 391
-        // mon 0
-        ivs 0
-        abilityslot 0
-        level 12
-        pokemon SPECIES_LICKITUNG
-        move MOVE_LICK
-        move MOVE_SUPERSONIC
-        move MOVE_CUT
-        move MOVE_NONE
-        ballseal 0
-    endparty
-
-trainerdata 392, "Donald"
-    trainermontype TRAINER_DATA_TYPE_NOTHING
-    trainerclass CLASS_POKE_MANIAC
-    battletype SINGLE_BATTLE
-    nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_PRIORITIZE_DAMAGE | 0
-    battletype2 0
-    endentry
-
-    party 392
-        // mon 0
-        ivs 0
-        abilityslot 32
-        level 11
-        pokemon SPECIES_SLOWPOKE
-        ballseal 0
-
-        // mon 1
-        ivs 0
-        abilityslot 32
-        level 11
-        pokemon SPECIES_SLOWPOKE
-        ballseal 0
-    endparty
-
-trainerdata 393, "Teru"
-    trainermontype TRAINER_DATA_TYPE_NOTHING
-    trainerclass CLASS_SUPER_NERD
-    battletype SINGLE_BATTLE
-    nummons 4
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
-    battletype2 0
-    endentry
-
-    party 393
-        // mon 0
-        ivs 0
-        abilityslot 0
-        level 7
-        pokemon SPECIES_MAGNEMITE
-        ballseal 0
-
-        // mon 1
-        ivs 0
-        abilityslot 0
-        level 11
-        pokemon SPECIES_VOLTORB
-        ballseal 0
-
-        // mon 2
-        ivs 0
-        abilityslot 32
-        level 7
-        pokemon SPECIES_MAGNEMITE
-        ballseal 0
-
-        // mon 3
-        ivs 0
-        abilityslot 0
-        level 9
-        pokemon SPECIES_MAGNEMITE
         ballseal 0
     endparty
 

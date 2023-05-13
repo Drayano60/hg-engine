@@ -4833,6 +4833,142 @@ party 21
     ballseal 0
 endparty
 
+/******************************************** Ilex Forest ********************************************/
+
+// New, Mickey
+trainerdata 165, "Wayne"
+    trainermontype TRAINER_MON_TYPE_FLAGS
+    trainerclass CLASS_BUG_CATCHER
+    battletype 0
+    nummons 3
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype2 SINGLE_BATTLE
+    endentry
+
+party 165
+    ivs 0
+    abilityslot 0
+    level 22
+    pokemon SPECIES_PARAS
+    item 0
+    move MOVE_BUG_BITE
+    move MOVE_BULLET_SEED
+    move MOVE_SLASH
+    move MOVE_SPORE
+    ability ABILITY_EFFECT_SPORE
+    ball ITEM_NET_BALL
+    setivs 15, 15, 15, 15, 15, 15
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level 22
+    pokemon SPECIES_NINCADA
+    item 0
+    move MOVE_FURY_SWIPES
+    move MOVE_METAL_CLAW
+    move MOVE_BUG_BITE
+    move MOVE_ABSORB
+    ability ABILITY_EFFECT_SPORE
+    ball ITEM_NET_BALL
+    setivs 15, 15, 15, 15, 15, 15
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level 22
+    pokemon SPECIES_LEDIAN
+    item 0
+    move MOVE_COMET_PUNCH
+    move MOVE_POWER_UP_PUNCH
+    move MOVE_LIGHT_SCREEN
+    move MOVE_SAFEGUARD
+    ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_AERILATE : ABILITY_IRON_FIST
+    ball ITEM_NET_BALL
+    setivs 15, 15, 15, 15, 15, 15
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+endparty
+
+// New, Mickey
+trainerdata 166, "Marianne"
+    trainermontype TRAINER_MON_TYPE_FLAGS
+    trainerclass CLASS_ACE_TRAINER_F
+    battletype 0
+    nummons 3
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype2 SINGLE_BATTLE
+    endentry
+
+party 166
+    ivs 0
+    abilityslot 0
+    level 23
+    pokemon SPECIES_FURRET
+    item 0
+    move MOVE_SLAM
+    move MOVE_BRUTAL_SWING
+    move MOVE_QUICK_ATTACK
+    move MOVE_COIL
+    ability ABILITY_KEEN_EYE
+    ball ITEM_ULTRA_BALL
+    setivs 25, 25, 25, 25, 25, 25
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level 23
+    pokemon SPECIES_QUAGSIRE
+    item 0
+    move MOVE_BULLDOZE
+    move MOVE_CHILLING_WATER
+    move MOVE_SLAM
+    move MOVE_YAWN
+    ability ABILITY_KEEN_EYE
+    ball ITEM_ULTRA_BALL
+    setivs 25, 25, 25, 25, 25, 25
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level 23
+    pokemon SPECIES_SUNFLORA
+    item 0
+    move MOVE_MAGICAL_LEAF
+    move MOVE_WEATHER_BALL
+    move MOVE_MORNING_SUN
+    move MOVE_GRASS_WHISTLE
+    ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_SUNNY_MOOD : ABILITY_CHLOROPHYLL
+    ball ITEM_ULTRA_BALL
+    setivs 25, 25, 25, 25, 25, 25
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+endparty
+
 /******************************************** Not Set ********************************************/
 
 trainerdata 0, "-"
@@ -8694,50 +8830,6 @@ trainerdata 164, "Miki"
         move MOVE_FIRE_BLAST
         move MOVE_QUICK_ATTACK
         move MOVE_WILL_O_WISP
-        ballseal 0
-    endparty
-
-trainerdata 165, "Mickey"
-    trainermontype TRAINER_DATA_TYPE_NOTHING
-    trainerclass CLASS_SWIMMER_F
-    battletype SINGLE_BATTLE
-    nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
-    battletype2 0
-    endentry
-
-    party 165
-        // mon 0
-        ivs 0
-        abilityslot 0
-        level 28
-        pokemon SPECIES_JYNX
-        ballseal 0
-    endparty
-
-trainerdata 166, "Mickey"
-    trainermontype TRAINER_DATA_TYPE_NOTHING
-    trainerclass CLASS_SWIMMER_F
-    battletype SINGLE_BATTLE
-    nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
-    battletype2 0
-    endentry
-
-    party 166
-        // mon 0
-        ivs 0
-        abilityslot 0
-        level 29
-        pokemon SPECIES_DEWGONG
         ballseal 0
     endparty
 

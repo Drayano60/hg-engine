@@ -9043,6 +9043,391 @@ party 615
     ballseal 0
 endparty
 
+/******************************************** Route 36 ********************************************/
+
+trainerdata 395, "Mark"
+    trainermontype TRAINER_MON_TYPE_FLAGS
+    trainerclass CLASS_PSYCHIC_M
+    battletype 0
+    nummons 3
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype2 SINGLE_BATTLE
+    endentry
+
+party 395
+    ivs 0
+    abilityslot 0
+    level 24
+    pokemon SPECIES_SOLOSIS
+    item 0
+    move MOVE_PSYBEAM
+    move MOVE_CONFUSE_RAY
+    move MOVE_LIGHT_SCREEN
+    move MOVE_REFLECT
+    ability ABILITY_OVERCOAT
+    ball ITEM_POKE_BALL
+    setivs 20, 20, 20, 20, 20, 20
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level 24
+    pokemon SPECIES_GOTHITA
+    item 0
+    move MOVE_PSYBEAM
+    move MOVE_FEINT_ATTACK
+    move MOVE_HYPNOSIS
+    move MOVE_CHARM
+    ability ABILITY_COMPETITIVE
+    ball ITEM_POKE_BALL
+    setivs 20, 20, 20, 20, 20, 20
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level 24
+    pokemon SPECIES_KADABRA
+    item 0
+    move MOVE_PSYBEAM
+    move MOVE_KINESIS
+    move MOVE_DISABLE
+    move MOVE_TELEPORT
+    ability ABILITY_SYNCHRONIZE
+    ball ITEM_POKE_BALL
+    setivs 20, 20, 20, 20, 20, 20
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+endparty
+
+trainerdata 24, "Alan"
+    trainermontype TRAINER_MON_TYPE_FLAGS
+    trainerclass CLASS_SCHOOL_KID_M
+    battletype 0
+    nummons 3
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype2 SINGLE_BATTLE
+    endentry
+
+party 24
+    ivs 0
+    abilityslot 0
+    level 23
+    pokemon SPECIES_NATU
+    item 0
+    move MOVE_PSYSHOCK
+    move MOVE_AIR_CUTTER
+    move MOVE_OMINOUS_WIND
+    move MOVE_MIRACLE_EYE
+    ability ABILITY_SYNCHRONIZE
+    ball ITEM_POKE_BALL
+    setivs 15, 15, 15, 15, 15, 15
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level 23
+    pokemon SPECIES_YANMA
+    item 0
+    move MOVE_SILVER_WIND
+    move MOVE_AIR_CUTTER
+    move MOVE_SONIC_BOOM
+    move MOVE_QUICK_ATTACK
+    ability ABILITY_SPEED_BOOST
+    ball ITEM_POKE_BALL
+    setivs 15, 15, 15, 15, 15, 15
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level 23
+    pokemon SPECIES_TANGELA
+    item 0
+    move MOVE_MEGA_DRAIN
+    move MOVE_CONSTRICT
+    move MOVE_INGRAIN
+    move MOVE_STUN_SPORE
+    ability ABILITY_LEAF_GUARD
+    ball ITEM_POKE_BALL
+    setivs 15, 15, 15, 15, 15, 15
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+endparty
+
+/************ Rematches ************/
+
+trainerdata 432, "Alan"
+    trainermontype TRAINER_MON_TYPE_FLAGS
+    trainerclass CLASS_SCHOOL_KID_M
+    battletype 0
+    nummons 4
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype2 SINGLE_BATTLE
+    endentry
+
+party 432
+    ivs 0
+    abilityslot 0
+    level REMATCH_LEVEL_1
+    pokemon SPECIES_XATU
+    item 0
+    move MOVE_PSYSHOCK
+    move MOVE_AIR_SLASH
+    move MOVE_OMINOUS_WIND
+    move MOVE_MIRACLE_EYE
+    ability ABILITY_SYNCHRONIZE
+    ball ITEM_POKE_BALL
+    setivs 15, 15, 15, 15, 15, 15
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level REMATCH_LEVEL_1
+    pokemon SPECIES_YANMEGA
+    item 0
+    move MOVE_BUG_BUZZ
+    move MOVE_AIR_SLASH
+    move MOVE_ANCIENT_POWER
+    move MOVE_QUICK_ATTACK
+    ability ABILITY_SPEED_BOOST
+    ball ITEM_POKE_BALL
+    setivs 15, 15, 15, 15, 15, 15
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level REMATCH_LEVEL_1
+    pokemon SPECIES_QUAGSIRE
+    item 0
+    move MOVE_AQUA_TAIL
+    move MOVE_EARTHQUAKE
+    move MOVE_EERIE_IMPULSE
+    move MOVE_RECOVER
+    ability ABILITY_WATER_ABSORB
+    ball ITEM_POKE_BALL
+    setivs 15, 15, 15, 15, 15, 15
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level REMATCH_LEVEL_1
+    pokemon SPECIES_TANGROWTH
+    item 0
+    move MOVE_POWER_WHIP
+    move MOVE_EARTHQUAKE
+    move MOVE_ANCIENT_POWER
+    move MOVE_WRING_OUT
+    ability ABILITY_LEAF_GUARD
+    ball ITEM_POKE_BALL
+    setivs 15, 15, 15, 15, 15, 15
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+endparty
+
+trainerdata 433, "Alan"
+    trainermontype TRAINER_MON_TYPE_FLAGS
+    trainerclass CLASS_SCHOOL_KID_M
+    battletype 0
+    nummons 4
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype2 SINGLE_BATTLE
+    endentry
+
+party 433
+    ivs 0
+    abilityslot 0
+    level REMATCH_LEVEL_2
+    pokemon SPECIES_XATU
+    item 0
+    move MOVE_PSYSHOCK
+    move MOVE_AIR_SLASH
+    move MOVE_OMINOUS_WIND
+    move MOVE_MIRACLE_EYE
+    ability ABILITY_SYNCHRONIZE
+    ball ITEM_POKE_BALL
+    setivs 15, 15, 15, 15, 15, 15
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level REMATCH_LEVEL_2
+    pokemon SPECIES_YANMEGA
+    item 0
+    move MOVE_BUG_BUZZ
+    move MOVE_AIR_SLASH
+    move MOVE_ANCIENT_POWER
+    move MOVE_QUICK_ATTACK
+    ability ABILITY_SPEED_BOOST
+    ball ITEM_POKE_BALL
+    setivs 15, 15, 15, 15, 15, 15
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level REMATCH_LEVEL_2
+    pokemon SPECIES_QUAGSIRE
+    item 0
+    move MOVE_AQUA_TAIL
+    move MOVE_EARTHQUAKE
+    move MOVE_EERIE_IMPULSE
+    move MOVE_RECOVER
+    ability ABILITY_WATER_ABSORB
+    ball ITEM_POKE_BALL
+    setivs 15, 15, 15, 15, 15, 15
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level REMATCH_LEVEL_2
+    pokemon SPECIES_TANGROWTH
+    item 0
+    move MOVE_POWER_WHIP
+    move MOVE_EARTHQUAKE
+    move MOVE_ANCIENT_POWER
+    move MOVE_WRING_OUT
+    ability ABILITY_LEAF_GUARD
+    ball ITEM_POKE_BALL
+    setivs 15, 15, 15, 15, 15, 15
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+endparty
+
+trainerdata 505, "Alan"
+    trainermontype TRAINER_MON_TYPE_FLAGS
+    trainerclass CLASS_SCHOOL_KID_M
+    battletype 0
+    nummons 4
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype2 SINGLE_BATTLE
+    endentry
+
+party 505
+    ivs 0
+    abilityslot 0
+    level REMATCH_LEVEL_3
+    pokemon SPECIES_XATU
+    item 0
+    move MOVE_PSYSHOCK
+    move MOVE_AIR_SLASH
+    move MOVE_OMINOUS_WIND
+    move MOVE_MIRACLE_EYE
+    ability ABILITY_SYNCHRONIZE
+    ball ITEM_POKE_BALL
+    setivs 15, 15, 15, 15, 15, 15
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level REMATCH_LEVEL_3
+    pokemon SPECIES_YANMEGA
+    item 0
+    move MOVE_BUG_BUZZ
+    move MOVE_AIR_SLASH
+    move MOVE_ANCIENT_POWER
+    move MOVE_QUICK_ATTACK
+    ability ABILITY_SPEED_BOOST
+    ball ITEM_POKE_BALL
+    setivs 15, 15, 15, 15, 15, 15
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level REMATCH_LEVEL_3
+    pokemon SPECIES_QUAGSIRE
+    item 0
+    move MOVE_AQUA_TAIL
+    move MOVE_EARTHQUAKE
+    move MOVE_EERIE_IMPULSE
+    move MOVE_RECOVER
+    ability ABILITY_WATER_ABSORB
+    ball ITEM_POKE_BALL
+    setivs 15, 15, 15, 15, 15, 15
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level REMATCH_LEVEL_3
+    pokemon SPECIES_TANGROWTH
+    item 0
+    move MOVE_POWER_WHIP
+    move MOVE_EARTHQUAKE
+    move MOVE_ANCIENT_POWER
+    move MOVE_WRING_OUT
+    ability ABILITY_LEAF_GUARD
+    ball ITEM_POKE_BALL
+    setivs 15, 15, 15, 15, 15, 15
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+endparty
+
 /******************************************** Not Set ********************************************/
 
 trainerdata 0, "-"
@@ -9315,28 +9700,6 @@ trainerdata 22, "Carrie"
         move MOVE_CHARM
         move MOVE_BITE
         move MOVE_LICK
-        ballseal 0
-    endparty
-
-trainerdata 24, "Alan"
-    trainermontype TRAINER_DATA_TYPE_NOTHING
-    trainerclass CLASS_SCHOOL_KID_M
-    battletype SINGLE_BATTLE
-    nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
-    battletype2 0
-    endentry
-
-    party 24
-        // mon 0
-        ivs 0
-        abilityslot 0
-        level 17
-        pokemon SPECIES_TANGELA
         ballseal 0
     endparty
 
@@ -19883,54 +20246,6 @@ trainerdata 394, "Mickey"
         ballseal 0
     endparty
 
-trainerdata 395, "Mark"
-    trainermontype TRAINER_DATA_TYPE_MOVES
-    trainerclass CLASS_PSYCHIC_M
-    battletype SINGLE_BATTLE
-    nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
-    battletype2 0
-    endentry
-
-    party 395
-        // mon 0
-        ivs 0
-        abilityslot 0
-        level 14
-        pokemon SPECIES_ABRA
-        move MOVE_TELEPORT
-        move MOVE_FLASH
-        move MOVE_NONE
-        move MOVE_NONE
-        ballseal 0
-
-        // mon 1
-        ivs 0
-        abilityslot 0
-        level 14
-        pokemon SPECIES_ABRA
-        move MOVE_TELEPORT
-        move MOVE_FLASH
-        move MOVE_NONE
-        move MOVE_NONE
-        ballseal 0
-
-        // mon 2
-        ivs 0
-        abilityslot 0
-        level 16
-        pokemon SPECIES_KADABRA
-        move MOVE_TELEPORT
-        move MOVE_KINESIS
-        move MOVE_CONFUSION
-        move MOVE_NONE
-        ballseal 0
-    endparty
-
 trainerdata 396, "Horton"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_JUGGLER
@@ -20997,77 +21312,6 @@ trainerdata 429, "Ricky"
         ballseal 0
     endparty
 
-trainerdata 432, "Alan"
-    trainermontype TRAINER_DATA_TYPE_NOTHING
-    trainerclass CLASS_SCHOOL_KID_M
-    battletype SINGLE_BATTLE
-    nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
-    battletype2 0
-    endentry
-
-    party 432
-        // mon 0
-        ivs 0
-        abilityslot 0
-        level 32
-        pokemon SPECIES_TANGELA
-        ballseal 0
-
-        // mon 1
-        ivs 0
-        abilityslot 0
-        level 30
-        pokemon SPECIES_YANMA
-        ballseal 0
-    endparty
-
-trainerdata 433, "Alan"
-    trainermontype TRAINER_DATA_TYPE_NOTHING
-    trainerclass CLASS_SCHOOL_KID_M
-    battletype SINGLE_BATTLE
-    nummons 4
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
-    battletype2 0
-    endentry
-
-    party 433
-        // mon 0
-        ivs 0
-        abilityslot 0
-        level 32
-        pokemon SPECIES_XATU
-        ballseal 0
-
-        // mon 1
-        ivs 0
-        abilityslot 0
-        level 36
-        pokemon SPECIES_TANGROWTH
-        ballseal 0
-
-        // mon 2
-        ivs 0
-        abilityslot 0
-        level 32
-        pokemon SPECIES_QUAGSIRE
-        ballseal 0
-
-        // mon 3
-        ivs 0
-        abilityslot 0
-        level 34
-        pokemon SPECIES_YANMEGA
-        ballseal 0
-    endparty
 
 trainerdata 434, "Chad"
     trainermontype TRAINER_DATA_TYPE_NOTHING
@@ -23171,49 +23415,6 @@ trainerdata 504, "Mickey"
         move MOVE_SLEEP_POWDER
         move MOVE_ACID
         move MOVE_MOONLIGHT
-        ballseal 0
-    endparty
-
-trainerdata 505, "Alan"
-    trainermontype TRAINER_DATA_TYPE_NOTHING
-    trainerclass CLASS_SCHOOL_KID_M
-    battletype SINGLE_BATTLE
-    nummons 4
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
-    battletype2 0
-    endentry
-
-    party 505
-        // mon 0
-        ivs 0
-        abilityslot 0
-        level 47
-        pokemon SPECIES_XATU
-        ballseal 0
-
-        // mon 1
-        ivs 0
-        abilityslot 0
-        level 54
-        pokemon SPECIES_TANGROWTH
-        ballseal 0
-
-        // mon 2
-        ivs 0
-        abilityslot 0
-        level 47
-        pokemon SPECIES_QUAGSIRE
-        ballseal 0
-
-        // mon 3
-        ivs 0
-        abilityslot 0
-        level 54
-        pokemon SPECIES_YANMEGA
         ballseal 0
     endparty
 

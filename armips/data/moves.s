@@ -2760,7 +2760,7 @@ movedata MOVE_TRIPLE_KICK, "Triple Kick"
     movedescription MOVE_TRIPLE_KICK, "A three-kick attack\nthat gains an extra\n20 power on each hit.\n(Technician does not\naffect this move.)"
 
 movedata MOVE_THIEF, "Thief"
-    battleeffect 105
+    battleeffect 323 // Reassigned so AI doesnt discourage it
     pss SPLIT_PHYSICAL
     basepower 60
     type TYPE_DARK
@@ -5608,7 +5608,7 @@ movedata MOVE_POISON_TAIL, "Poison Tail"
 
 // TYPE: Normal >> Fairy
 movedata MOVE_COVET, "Covet"
-    battleeffect 105
+    battleeffect 323 // Reassigned so AI doesnt discourage it
     pss SPLIT_PHYSICAL
     basepower 60
     type MOVE_CHANGES_IMPLEMENTED ? TYPE_FAIRY : TYPE_NORMAL

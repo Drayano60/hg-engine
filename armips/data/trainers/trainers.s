@@ -9842,6 +9842,152 @@ party 30
     ballseal 0
 endparty
 
+/******************************************** Route 37 ********************************************/
+
+trainerdata 386, "Greg"
+    trainermontype TRAINER_MON_TYPE_FLAGS
+    trainerclass CLASS_PSYCHIC_M
+    battletype 0
+    nummons 1
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype2 SINGLE_BATTLE
+    endentry
+
+party 386
+    ivs 0
+    abilityslot 0
+    level 27
+    pokemon SPECIES_HYPNO
+    item 0
+    move MOVE_DREAM_EATER
+    move MOVE_WAKE_UP_SLAP
+    move MOVE_NIGHTMARE
+    move MOVE_HYPNOSIS
+    ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_BAD_DREAMS : ABILITY_INNER_FOCUS
+    ball ITEM_POKE_BALL
+    setivs 20, 20, 20, 20, 20, 20
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+endparty
+
+trainerdata 81, "Tori & Til"
+    trainermontype TRAINER_MON_TYPE_FLAGS
+    trainerclass CLASS_TWINS
+    battletype 0
+    nummons 2
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype2 DOUBLE_BATTLE
+    endentry
+
+party 81
+    ivs 0
+    abilityslot 0
+    level 26
+    pokemon SPECIES_SPINDA
+    item 0
+    move MOVE_DIZZY_PUNCH
+    move MOVE_FEINT_ATTACK
+    move MOVE_PSYBEAM
+    move MOVE_FAKE_OUT
+    ability ABILITY_OWN_TEMPO
+    ball ITEM_POKE_BALL
+    setivs 15, 15, 15, 15, 15, 15
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level 26
+    pokemon SPECIES_SPINDA
+    item 0
+    move MOVE_DIZZY_PUNCH
+    move MOVE_FEINT_ATTACK
+    move MOVE_PSYBEAM
+    move MOVE_FAKE_OUT
+    ability ABILITY_OWN_TEMPO
+    ball ITEM_POKE_BALL
+    setivs 15, 15, 15, 15, 15, 15
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+endparty
+
+trainerdata 679, "Callie"
+    trainermontype TRAINER_MON_TYPE_FLAGS
+    trainerclass CLASS_BEAUTY
+    battletype 0
+    nummons 1
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype2 SINGLE_BATTLE
+    endentry
+
+party 679
+    ivs 0
+    abilityslot 0
+    level 27
+    pokemon SPECIES_WHIMSICOTT
+    item 0
+    move MOVE_RAZOR_LEAF
+    move MOVE_FAIRY_WIND
+    move MOVE_TAILWIND
+    move MOVE_CHARM
+    ability ABILITY_PRANKSTER
+    ball ITEM_POKE_BALL
+    setivs 15, 15, 15, 15, 15, 15
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+endparty
+
+trainerdata 680, "Kassandra"
+    trainermontype TRAINER_MON_TYPE_FLAGS
+    trainerclass CLASS_BEAUTY
+    battletype 0
+    nummons 1
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype2 SINGLE_BATTLE
+    endentry
+
+party 680
+    ivs 0
+    abilityslot 0
+    level 27
+    pokemon SPECIES_LILLIGANT
+    item 0
+    move MOVE_MAGICAL_LEAF
+    move MOVE_TEETER_DANCE
+    move MOVE_STUN_SPORE
+    move MOVE_CHARM
+    ability ABILITY_OWN_TEMPO
+    ball ITEM_POKE_BALL
+    setivs 15, 15, 15, 15, 15, 15
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+endparty
 
 /******************************************** Not Set ********************************************/
 
@@ -10790,35 +10936,6 @@ trainerdata 79, "Ken"
         abilityslot 32
         level 40
         pokemon SPECIES_PINSIR
-        ballseal 0
-    endparty
-
-trainerdata 81, "Tori & Til"
-    trainermontype TRAINER_DATA_TYPE_NOTHING
-    trainerclass CLASS_TWINS
-    battletype SINGLE_BATTLE
-    nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
-    battletype2 2
-    endentry
-
-    party 81
-        // mon 0
-        ivs 0
-        abilityslot 0
-        level 16
-        pokemon SPECIES_MARILL
-        ballseal 0
-
-        // mon 1
-        ivs 0
-        abilityslot 0
-        level 16
-        pokemon SPECIES_MAREEP
         ballseal 0
     endparty
 
@@ -20294,61 +20411,6 @@ trainerdata 385, "Dara & Dia"
         ballseal 0
     endparty
 
-trainerdata 386, "Greg"
-    trainermontype TRAINER_DATA_TYPE_MOVES
-    trainerclass CLASS_PSYCHIC_M
-    battletype SINGLE_BATTLE
-    nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
-    battletype2 0
-    endentry
-
-    party 386
-        // mon 0
-        ivs 0
-        abilityslot 0
-        level 17
-        pokemon SPECIES_DROWZEE
-        move MOVE_HYPNOSIS
-        move MOVE_DISABLE
-        move MOVE_DREAM_EATER
-        move MOVE_NONE
-        ballseal 0
-    endparty
-
-trainerdata 387, "Amy & Mimi"
-    trainermontype TRAINER_DATA_TYPE_NOTHING
-    trainerclass CLASS_TWINS
-    battletype SINGLE_BATTLE
-    nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
-    battletype2 2
-    endentry
-
-    party 387
-        // mon 0
-        ivs 10
-        abilityslot 32
-        level 10
-        pokemon SPECIES_LEDYBA
-        ballseal 0
-
-        // mon 1
-        ivs 10
-        abilityslot 32
-        level 10
-        pokemon SPECIES_SPINARAK
-        ballseal 0
-    endparty
-
 trainerdata 389, "Nelson"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_PSYCHIC_M
@@ -28827,80 +28889,6 @@ trainerdata 678, "Joy"
         move MOVE_SPIKE_CANNON
         move MOVE_AURORA_BEAM
         move MOVE_ATTRACT
-        ballseal 0
-    endparty
-
-trainerdata 679, "Callie"
-    trainermontype TRAINER_DATA_TYPE_MOVES
-    trainerclass CLASS_BEAUTY
-    battletype SINGLE_BATTLE
-    nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
-    battletype2 0
-    endentry
-
-    party 679
-        // mon 0
-        ivs 0
-        abilityslot 0
-        level 16
-        pokemon SPECIES_CLEFABLE
-        move MOVE_GROWL
-        move MOVE_ENCORE
-        move MOVE_DOUBLE_SLAP
-        move MOVE_METRONOME
-        ballseal 0
-
-        // mon 1
-        ivs 0
-        abilityslot 0
-        level 16
-        pokemon SPECIES_WIGGLYTUFF
-        move MOVE_SING
-        move MOVE_DEFENSE_CURL
-        move MOVE_POUND
-        move MOVE_DISABLE
-        ballseal 0
-    endparty
-
-trainerdata 680, "Kassandra"
-    trainermontype TRAINER_DATA_TYPE_MOVES
-    trainerclass CLASS_BEAUTY
-    battletype SINGLE_BATTLE
-    nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
-    battletype2 0
-    endentry
-
-    party 680
-        // mon 0
-        ivs 0
-        abilityslot 0
-        level 16
-        pokemon SPECIES_WIGGLYTUFF
-        move MOVE_SING
-        move MOVE_DEFENSE_CURL
-        move MOVE_POUND
-        move MOVE_DISABLE
-        ballseal 0
-
-        // mon 1
-        ivs 0
-        abilityslot 0
-        level 16
-        pokemon SPECIES_CLEFABLE
-        move MOVE_GROWL
-        move MOVE_ENCORE
-        move MOVE_DOUBLE_SLAP
-        move MOVE_METRONOME
         ballseal 0
     endparty
 

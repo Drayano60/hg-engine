@@ -9989,6 +9989,57 @@ party 680
     ballseal 0
 endparty
 
+/******************************************** Ecruteak City ********************************************/
+
+trainerdata 601, "Grunt"
+    trainermontype TRAINER_MON_TYPE_FLAGS
+    trainerclass CLASS_TEAM_ROCKET
+    battletype 0
+    nummons 2
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype2 SINGLE_BATTLE
+    endentry
+
+party 601
+    ivs 0
+    abilityslot 0
+    level 27
+    pokemon SPECIES_KOFFING
+    item 0
+    move MOVE_VENOSHOCK
+    move MOVE_INCINERATE
+    move MOVE_POISON_GAS
+    move MOVE_SELF_DESTRUCT
+    ability ABILITY_LEVITATE
+    ball ITEM_POKE_BALL
+    setivs 20, 20, 20, 20, 20, 20
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level 27
+    pokemon SPECIES_RATICATE
+    item 0
+    move MOVE_HYPER_FANG
+    move MOVE_ASSURANCE
+    move MOVE_FLAME_WHEEL
+    move MOVE_FOCUS_ENERGY
+    ability ABILITY_HUSTLE
+    ball ITEM_POKE_BALL
+    setivs 20, 20, 20, 20, 20, 20
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+endparty
+
 /******************************************** Not Set ********************************************/
 
 trainerdata 0, "-"
@@ -26356,28 +26407,6 @@ trainerdata 600, "Selina"
         abilityslot 0
         level 42
         pokemon SPECIES_CHERUBI
-        ballseal 0
-    endparty
-
-trainerdata 601, "Grunt"
-    trainermontype TRAINER_DATA_TYPE_NOTHING
-    trainerclass CLASS_TEAM_ROCKET
-    battletype SINGLE_BATTLE
-    nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
-    battletype2 0
-    endentry
-
-    party 601
-        // mon 0
-        ivs 30
-        abilityslot 0
-        level 12
-        pokemon SPECIES_KOFFING
         ballseal 0
     endparty
 

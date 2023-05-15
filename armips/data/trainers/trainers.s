@@ -12012,6 +12012,92 @@ party 612
     ballseal 0
 endparty
 
+/******************************************** Ice Path - Upper ********************************************/
+
+// New
+trainerdata 770, "Will"
+    trainermontype TRAINER_MON_TYPE_FLAGS
+    trainerclass CLASS_ELITE_FOUR_0
+    battletype 0
+    nummons 4
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype2 SINGLE_BATTLE
+    endentry
+
+party 770
+    ivs 0
+    abilityslot 0
+    level 32
+    pokemon SPECIES_JYNX
+    item ITEM_WIDE_LENS
+    move MOVE_FROST_BREATH
+    move MOVE_PSYSHOCK
+    move MOVE_FAKE_TEARS
+    move MOVE_LOVELY_KISS
+    ability ABILITY_DRY_SKIN
+    ball ITEM_ULTRA_BALL
+    setivs 30, 30, 30, 30, 30, 30
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_TIMID
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level 32
+    pokemon SPECIES_SLOWBRO
+    item ITEM_LEFTOVERS
+    move MOVE_SCALD
+    move MOVE_PSYSHOCK
+    move MOVE_INCINERATE
+    move MOVE_DRAIN_PUNCH
+    ability ABILITY_OWN_TEMPO
+    ball ITEM_ULTRA_BALL
+    setivs 30, 30, 30, 30, 30, 30
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_QUIET
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level 32
+    pokemon SPECIES_EXEGGUTOR
+    item ITEM_SITRUS_BERRY
+    move MOVE_SEED_BOMB
+    move MOVE_PSYSHOCK
+    move MOVE_REFLECT
+    move MOVE_LEECH_SEED
+    ability ABILITY_HARVEST
+    ball ITEM_ULTRA_BALL
+    setivs 30, 30, 30, 30, 30, 30
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_QUIET
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level 33
+    pokemon SPECIES_XATU
+    item ITEM_EXPERT_BELT
+    move MOVE_PSYSHOCK
+    move MOVE_AIR_SLASH
+    move MOVE_GIGA_DRAIN
+    move MOVE_DAZZLING_GLEAM
+    ability ABILITY_MAGIC_BOUNCE
+    ball ITEM_ULTRA_BALL
+    setivs 30, 30, 30, 30, 30, 30
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_TIMID
+    shinylock 0
+    ballseal 0
+endparty
+
 /******************************************** Not Set ********************************************/
 /************ Rematches ************/
 

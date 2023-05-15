@@ -10753,13 +10753,13 @@ party 537
     ivs 0
     abilityslot 0
     level 27
-    pokemon SPECIES_KANGASKHAN
+    pokemon SPECIES_ONIX
     item 0
-    move MOVE_DIZZY_PUNCH
-    move MOVE_BITE
-    move MOVE_GROWL
-    move MOVE_FAKE_OUT
-    ability ABILITY_SCRAPPY
+    move MOVE_ROCK_SLIDE
+    move MOVE_DIG
+    move MOVE_BIND
+    move MOVE_ROCK_POLISH
+    ability ABILITY_WEAK_ARMOR
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
     setevs 0, 0, 0, 0, 0, 0
@@ -10818,7 +10818,425 @@ party 170
     ballseal 0
 endparty
 
+/******************************************** Route 42 ********************************************/
+
+trainerdata 123, "Tully"
+    trainermontype TRAINER_MON_TYPE_FLAGS
+    trainerclass CLASS_FISHERMAN
+    battletype 0
+    nummons 3
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype2 SINGLE_BATTLE
+    endentry
+
+party 123
+    ivs 0
+    abilityslot 0
+    level 27
+    pokemon SPECIES_BASCULIN
+    item 0
+    move MOVE_AQUA_JET
+    move MOVE_HEADBUTT
+    move MOVE_FLAIL
+    move MOVE_BITE
+    ability ABILITY_ADAPTABILITY
+    ball ITEM_LURE_BALL
+    setivs 15, 15, 15, 15, 15, 15
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level 27
+    pokemon SPECIES_QWILFISH
+    item 0
+    move MOVE_BARB_BARRAGE
+    move MOVE_PIN_MISSILE
+    move MOVE_AQUA_JET
+    move MOVE_REVENGE
+    ability ABILITY_INTIMIDATE
+    ball ITEM_LURE_BALL
+    setivs 15, 15, 15, 15, 15, 15
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level 27
+    monwithform SPECIES_BASCULIN, 1
+    item 0
+    move MOVE_AQUA_JET
+    move MOVE_HEADBUTT
+    move MOVE_FLAIL
+    move MOVE_BITE
+    ability ABILITY_ADAPTABILITY
+    ball ITEM_LURE_BALL
+    setivs 15, 15, 15, 15, 15, 15
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+endparty
+
+trainerdata 129, "Shane"
+    trainermontype TRAINER_MON_TYPE_FLAGS
+    trainerclass CLASS_POKE_MANIAC
+    battletype 0
+    nummons 1
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype2 SINGLE_BATTLE
+    endentry
+
+party 129
+    ivs 0
+    abilityslot 0
+    level 29
+    pokemon SPECIES_KANGASKHAN
+    item 0
+    move MOVE_DIZZY_PUNCH
+    move MOVE_BITE
+    move MOVE_GROWL
+    move MOVE_FAKE_OUT
+    ability ABILITY_SCRAPPY
+    ball ITEM_POKE_BALL
+    setivs 15, 15, 15, 15, 15, 15
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+endparty
+
+trainerdata 134, "Benjamin"
+    trainermontype TRAINER_MON_TYPE_FLAGS
+    trainerclass CLASS_HIKER
+    battletype 0
+    nummons 3
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype2 SINGLE_BATTLE
+    endentry
+
+party 134
+    ivs 0
+    abilityslot 0
+    level 27
+    pokemon SPECIES_GRAVELER
+    item 0
+    move MOVE_MAGNITUDE
+    move MOVE_ROLLOUT
+    move MOVE_STEALTH_ROCK
+    move MOVE_SELF_DESTRUCT
+    ability ABILITY_ROCK_HEAD
+    ball ITEM_POKE_BALL
+    setivs 15, 15, 15, 15, 15, 15
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level 27
+    pokemon SPECIES_DUGTRIO
+    item 0
+    move MOVE_MAGNITUDE
+    move MOVE_ROCK_TOMB
+    move MOVE_SUCKER_PUNCH
+    move MOVE_SAND_ATTACK
+    ability ABILITY_ARENA_TRAP
+    ball ITEM_POKE_BALL
+    setivs 15, 15, 15, 15, 15, 15
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level 27
+    pokemon SPECIES_BOLDORE
+    item 0
+    move MOVE_ROCK_SLIDE
+    move MOVE_HEADBUTT
+    move MOVE_MUD_SLAP
+    move MOVE_IRON_DEFENSE
+    ability ABILITY_WEAK_ARMOR
+    ball ITEM_POKE_BALL
+    setivs 15, 15, 15, 15, 15, 15
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+endparty
+
+/************ Rematches ************/
+
+trainerdata 323, "Tully"
+    trainermontype TRAINER_MON_TYPE_FLAGS
+    trainerclass CLASS_FISHERMAN
+    battletype 0
+    nummons 4
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype2 SINGLE_BATTLE
+    endentry
+
+party 323
+    ivs 0
+    abilityslot 0
+    level REMATCH_LEVEL_1
+    pokemon SPECIES_BASCULIN
+    item 0
+    move MOVE_AQUA_TAIL
+    move MOVE_CRUNCH
+    move MOVE_DOUBLE_EDGE
+    move MOVE_AQUA_JET
+    ability ABILITY_ADAPTABILITY
+    ball ITEM_LURE_BALL
+    setivs 15, 15, 15, 15, 15, 15
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level REMATCH_LEVEL_1
+    pokemon SPECIES_QWILFISH
+    item 0
+    move MOVE_GUNK_SHOT
+    move MOVE_PIN_MISSILE
+    move MOVE_AQUA_TAIL
+    move MOVE_REVENGE
+    ability ABILITY_INTIMIDATE
+    ball ITEM_LURE_BALL
+    setivs 15, 15, 15, 15, 15, 15
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level REMATCH_LEVEL_1
+    pokemon SPECIES_SEAKING
+    item 0
+    move MOVE_WATERFALL
+    move MOVE_POISON_JAB
+    move MOVE_MEGAHORN
+    move MOVE_AGILITY
+    ability ABILITY_LIGHTNING_ROD
+    ball ITEM_LURE_BALL
+    setivs 15, 15, 15, 15, 15, 15
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level REMATCH_LEVEL_1
+    monwithform SPECIES_BASCULIN, 1
+    item 0
+    move MOVE_AQUA_TAIL
+    move MOVE_CRUNCH
+    move MOVE_DOUBLE_EDGE
+    move MOVE_AQUA_JET
+    ability ABILITY_ADAPTABILITY
+    ball ITEM_LURE_BALL
+    setivs 15, 15, 15, 15, 15, 15
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+endparty
+
+trainerdata 324, "Tully"
+    trainermontype TRAINER_MON_TYPE_FLAGS
+    trainerclass CLASS_FISHERMAN
+    battletype 0
+    nummons 4
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype2 SINGLE_BATTLE
+    endentry
+
+party 324
+    ivs 0
+    abilityslot 0
+    level REMATCH_LEVEL_2
+    pokemon SPECIES_BASCULIN
+    item 0
+    move MOVE_AQUA_TAIL
+    move MOVE_CRUNCH
+    move MOVE_DOUBLE_EDGE
+    move MOVE_AQUA_JET
+    ability ABILITY_ADAPTABILITY
+    ball ITEM_LURE_BALL
+    setivs 15, 15, 15, 15, 15, 15
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level REMATCH_LEVEL_2
+    pokemon SPECIES_QWILFISH
+    item 0
+    move MOVE_GUNK_SHOT
+    move MOVE_PIN_MISSILE
+    move MOVE_AQUA_TAIL
+    move MOVE_REVENGE
+    ability ABILITY_INTIMIDATE
+    ball ITEM_LURE_BALL
+    setivs 15, 15, 15, 15, 15, 15
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level REMATCH_LEVEL_2
+    pokemon SPECIES_SEAKING
+    item 0
+    move MOVE_WATERFALL
+    move MOVE_POISON_JAB
+    move MOVE_MEGAHORN
+    move MOVE_AGILITY
+    ability ABILITY_LIGHTNING_ROD
+    ball ITEM_LURE_BALL
+    setivs 15, 15, 15, 15, 15, 15
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level REMATCH_LEVEL_2
+    monwithform SPECIES_BASCULIN, 1
+    item 0
+    move MOVE_AQUA_TAIL
+    move MOVE_CRUNCH
+    move MOVE_DOUBLE_EDGE
+    move MOVE_AQUA_JET
+    ability ABILITY_ADAPTABILITY
+    ball ITEM_LURE_BALL
+    setivs 15, 15, 15, 15, 15, 15
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+endparty
+
+trainerdata 517, "Tully"
+    trainermontype TRAINER_MON_TYPE_FLAGS
+    trainerclass CLASS_FISHERMAN
+    battletype 0
+    nummons 4
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype2 SINGLE_BATTLE
+    endentry
+
+party 517
+    ivs 0
+    abilityslot 0
+    level REMATCH_LEVEL_3
+    pokemon SPECIES_BASCULIN
+    item 0
+    move MOVE_AQUA_TAIL
+    move MOVE_CRUNCH
+    move MOVE_DOUBLE_EDGE
+    move MOVE_AQUA_JET
+    ability ABILITY_ADAPTABILITY
+    ball ITEM_LURE_BALL
+    setivs 15, 15, 15, 15, 15, 15
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level REMATCH_LEVEL_3
+    pokemon SPECIES_QWILFISH
+    item 0
+    move MOVE_GUNK_SHOT
+    move MOVE_PIN_MISSILE
+    move MOVE_AQUA_TAIL
+    move MOVE_REVENGE
+    ability ABILITY_INTIMIDATE
+    ball ITEM_LURE_BALL
+    setivs 15, 15, 15, 15, 15, 15
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level REMATCH_LEVEL_3
+    pokemon SPECIES_SEAKING
+    item 0
+    move MOVE_WATERFALL
+    move MOVE_POISON_JAB
+    move MOVE_MEGAHORN
+    move MOVE_AGILITY
+    ability ABILITY_LIGHTNING_ROD
+    ball ITEM_LURE_BALL
+    setivs 15, 15, 15, 15, 15, 15
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level REMATCH_LEVEL_3
+    monwithform SPECIES_BASCULIN, 1
+    item 0
+    move MOVE_AQUA_TAIL
+    move MOVE_CRUNCH
+    move MOVE_DOUBLE_EDGE
+    move MOVE_AQUA_JET
+    ability ABILITY_ADAPTABILITY
+    ball ITEM_LURE_BALL
+    setivs 15, 15, 15, 15, 15, 15
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+endparty
+
 /******************************************** Not Set ********************************************/
+/************ Rematches ************/
 
 trainerdata 0, "-"
     trainermontype TRAINER_DATA_TYPE_NOTHING
@@ -12840,28 +13258,6 @@ trainerdata 122, "Marvin"
         ballseal 0
     endparty
 
-trainerdata 123, "Tully"
-    trainermontype TRAINER_DATA_TYPE_NOTHING
-    trainerclass CLASS_FISHERMAN
-    battletype SINGLE_BATTLE
-    nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
-    battletype2 0
-    endentry
-
-    party 123
-        // mon 0
-        ivs 0
-        abilityslot 0
-        level 19
-        pokemon SPECIES_QWILFISH
-        ballseal 0
-    endparty
-
 trainerdata 124, "Wilton"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FISHERMAN
@@ -13043,35 +13439,6 @@ trainerdata 128, "Jonah"
         ballseal 0
     endparty
 
-trainerdata 129, "Shane"
-    trainermontype TRAINER_DATA_TYPE_NOTHING
-    trainerclass CLASS_POKE_MANIAC
-    battletype SINGLE_BATTLE
-    nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_PRIORITIZE_DAMAGE | 0
-    battletype2 0
-    endentry
-
-    party 129
-        // mon 0
-        ivs 0
-        abilityslot 0
-        level 17
-        pokemon SPECIES_NIDORINA
-        ballseal 0
-
-        // mon 1
-        ivs 0
-        abilityslot 0
-        level 17
-        pokemon SPECIES_NIDORINO
-        ballseal 0
-    endparty
-
 trainerdata 130, "Beckett"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_POKE_MANIAC
@@ -13171,42 +13538,6 @@ trainerdata 133, "Morgan"
         abilityslot 32
         level 39
         pokemon SPECIES_RHYDON
-        ballseal 0
-    endparty
-
-trainerdata 134, "Benjamin"
-    trainermontype TRAINER_DATA_TYPE_NOTHING
-    trainerclass CLASS_HIKER
-    battletype SINGLE_BATTLE
-    nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_PRIORITIZE_DAMAGE | 0
-    battletype2 0
-    endentry
-
-    party 134
-        // mon 0
-        ivs 0
-        abilityslot 0
-        level 15
-        pokemon SPECIES_DIGLETT
-        ballseal 0
-
-        // mon 1
-        ivs 0
-        abilityslot 32
-        level 15
-        pokemon SPECIES_GEODUDE
-        ballseal 0
-
-        // mon 2
-        ivs 0
-        abilityslot 0
-        level 17
-        pokemon SPECIES_DUGTRIO
         ballseal 0
     endparty
 
@@ -19299,64 +19630,6 @@ trainerdata 322, "Barney"
         ballseal 0
     endparty
 
-trainerdata 323, "Tully"
-    trainermontype TRAINER_DATA_TYPE_NOTHING
-    trainerclass CLASS_FISHERMAN
-    battletype SINGLE_BATTLE
-    nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
-    battletype2 0
-    endentry
-
-    party 323
-        // mon 0
-        ivs 0
-        abilityslot 0
-        level 33
-        pokemon SPECIES_QWILFISH
-        ballseal 0
-    endparty
-
-trainerdata 324, "Tully"
-    trainermontype TRAINER_DATA_TYPE_NOTHING
-    trainerclass CLASS_FISHERMAN
-    battletype SINGLE_BATTLE
-    nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
-    battletype2 0
-    endentry
-
-    party 324
-        // mon 0
-        ivs 0
-        abilityslot 0
-        level 30
-        pokemon SPECIES_GOLDEEN
-        ballseal 0
-
-        // mon 1
-        ivs 0
-        abilityslot 0
-        level 30
-        pokemon SPECIES_GOLDEEN
-        ballseal 0
-
-        // mon 2
-        ivs 0
-        abilityslot 0
-        level 38
-        pokemon SPECIES_QWILFISH
-        ballseal 0
-    endparty
-
 trainerdata 325, "Wilton"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FISHERMAN
@@ -24377,54 +24650,6 @@ trainerdata 516, "Mickey"
         move MOVE_FLAIL
         move MOVE_FURY_ATTACK
         move MOVE_WATERFALL
-        ballseal 0
-    endparty
-
-trainerdata 517, "Tully"
-    trainermontype TRAINER_DATA_TYPE_MOVES
-    trainerclass CLASS_FISHERMAN
-    battletype SINGLE_BATTLE
-    nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
-    battletype2 0
-    endentry
-
-    party 517
-        // mon 0
-        ivs 0
-        abilityslot 0
-        level 41
-        pokemon SPECIES_SEAKING
-        move MOVE_WATER_PULSE
-        move MOVE_RAIN_DANCE
-        move MOVE_WATERFALL
-        move MOVE_AQUA_RING
-        ballseal 0
-
-        // mon 1
-        ivs 0
-        abilityslot 0
-        level 50
-        pokemon SPECIES_SEAKING
-        move MOVE_WATER_PULSE
-        move MOVE_RAIN_DANCE
-        move MOVE_WATERFALL
-        move MOVE_MEGAHORN
-        ballseal 0
-
-        // mon 2
-        ivs 0
-        abilityslot 0
-        level 53
-        pokemon SPECIES_QWILFISH
-        move MOVE_ROLLOUT
-        move MOVE_SURF
-        move MOVE_AQUA_TAIL
-        move MOVE_MINIMIZE
         ballseal 0
     endparty
 

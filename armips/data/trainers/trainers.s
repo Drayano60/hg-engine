@@ -12098,6 +12098,310 @@ party 770
     ballseal 0
 endparty
 
+/******************************************** Burned Tower ********************************************/
+
+trainerdata 263, "Silver"
+    trainermontype TRAINER_MON_TYPE_FLAGS
+    trainerclass CLASS_RIVAL
+    battletype 0
+    nummons 4
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype2 SINGLE_BATTLE
+    endentry
+
+party 263
+    ivs 0
+    abilityslot 0
+    level 32
+    pokemon SPECIES_GOLBAT
+    item 0
+    move MOVE_POISON_FANG
+    move MOVE_WING_ATTACK
+    move MOVE_CRUNCH
+    move MOVE_CONFUSE_RAY
+    ability ABILITY_INFILTRATOR
+    ball ITEM_POKE_BALL
+    setivs 30, 30, 30, 30, 30, 30
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_JOLLY
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level 32
+    pokemon SPECIES_HAUNTER
+    item 0
+    move MOVE_HEX
+    move MOVE_CLEAR_SMOG
+    move ALLOW_ILLEGAL_MOVES ? MOVE_MEGA_DRAIN : MOVE_NIGHT_SHADE
+    move MOVE_CONFUSE_RAY
+    ability ABILITY_LEVITATE
+    ball ITEM_POKE_BALL
+    setivs 30, 30, 30, 30, 30, 30
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_TIMID
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level 32
+    pokemon SPECIES_MAGMAR
+    item 0
+    move MOVE_INCINERATE
+    move MOVE_LOW_SWEEP
+    move MOVE_CLEAR_SMOG
+    move MOVE_CONFUSE_RAY
+    ability ABILITY_FLAME_BODY
+    ball ITEM_POKE_BALL
+    setivs 30, 30, 30, 30, 30, 30
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_HASTY
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level 32
+    pokemon SPECIES_KADABRA
+    item 0
+    move MOVE_PSYSHOCK
+    move MOVE_SHOCK_WAVE
+    move MOVE_DAZZLING_GLEAM
+    move MOVE_REFLECT
+    ability ABILITY_MAGIC_GUARD
+    ball ITEM_POKE_BALL
+    setivs 30, 30, 30, 30, 30, 30
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_TIMID
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level 33
+    pokemon SPECIES_BAYLEEF
+    item ITEM_MIRACLE_SEED
+    move MOVE_MAGICAL_LEAF
+    move ALLOW_ILLEGAL_MOVES ? MOVE_DRAINING_KISS : MOVE_ECHOED_VOICE
+    move MOVE_ANCIENT_POWER
+    move MOVE_GRASS_WHISTLE
+    ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_TRIAGE : ABILITY_OVERGROW
+    ball ITEM_POKE_BALL
+    setivs 30, 30, 30, 30, 30, 30
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_MODEST
+    shinylock 0
+    ballseal 0
+endparty
+
+trainerdata 267, "Silver"
+    trainermontype TRAINER_MON_TYPE_FLAGS
+    trainerclass CLASS_RIVAL
+    battletype 0
+    nummons 4
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype2 SINGLE_BATTLE
+    endentry
+
+party 267
+    ivs 0
+    abilityslot 0
+    level 32
+    pokemon SPECIES_GOLBAT
+    item 0
+    move MOVE_POISON_FANG
+    move MOVE_WING_ATTACK
+    move MOVE_CRUNCH
+    move MOVE_CONFUSE_RAY
+    ability ABILITY_INFILTRATOR
+    ball ITEM_POKE_BALL
+    setivs 30, 30, 30, 30, 30, 30
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_JOLLY
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level 32
+    pokemon SPECIES_HAUNTER
+    item 0
+    move MOVE_HEX
+    move MOVE_CLEAR_SMOG
+    move ALLOW_ILLEGAL_MOVES ? MOVE_MEGA_DRAIN : MOVE_NIGHT_SHADE
+    move MOVE_CONFUSE_RAY
+    ability ABILITY_LEVITATE
+    ball ITEM_POKE_BALL
+    setivs 30, 30, 30, 30, 30, 30
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_TIMID
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level 32
+    pokemon SPECIES_SEADRA
+    item 0
+    move MOVE_OCTAZOOKA
+    move MOVE_ICY_WIND
+    move MOVE_CLEAR_SMOG
+    move MOVE_DRAGON_BREATH
+    ability ABILITY_SNIPER
+    ball ITEM_POKE_BALL
+    setivs 30, 30, 30, 30, 30, 30
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_TIMID
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level 32
+    pokemon SPECIES_KADABRA
+    item 0
+    move MOVE_PSYSHOCK
+    move MOVE_SHOCK_WAVE
+    move MOVE_DAZZLING_GLEAM
+    move MOVE_REFLECT
+    ability ABILITY_MAGIC_GUARD
+    ball ITEM_POKE_BALL
+    setivs 30, 30, 30, 30, 30, 30
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_TIMID
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level 33
+    pokemon SPECIES_QUILAVA
+    item ITEM_CHARCOAL
+    move MOVE_LAVA_PLUME
+    move MOVE_BRICK_BREAK
+    move MOVE_AERIAL_ACE
+    move MOVE_SMOKESCREEN
+    ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_HEAT_UP : ABILITY_BLAZE
+    ball ITEM_POKE_BALL
+    setivs 30, 30, 30, 30, 30, 30
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_TIMID
+    shinylock 0
+    ballseal 0
+endparty
+
+trainerdata 270, "Silver"
+    trainermontype TRAINER_MON_TYPE_FLAGS
+    trainerclass CLASS_RIVAL
+    battletype 0
+    nummons 4
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype2 SINGLE_BATTLE
+    endentry
+
+party 267
+    ivs 0
+    abilityslot 0
+    level 32
+    pokemon SPECIES_GOLBAT
+    item 0
+    move MOVE_POISON_FANG
+    move MOVE_WING_ATTACK
+    move MOVE_CRUNCH
+    move MOVE_CONFUSE_RAY
+    ability ABILITY_INFILTRATOR
+    ball ITEM_POKE_BALL
+    setivs 30, 30, 30, 30, 30, 30
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_JOLLY
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level 32
+    pokemon SPECIES_HAUNTER
+    item 0
+    move MOVE_HEX
+    move MOVE_CLEAR_SMOG
+    move ALLOW_ILLEGAL_MOVES ? MOVE_MEGA_DRAIN : MOVE_NIGHT_SHADE
+    move MOVE_CONFUSE_RAY
+    ability ABILITY_LEVITATE
+    ball ITEM_POKE_BALL
+    setivs 30, 30, 30, 30, 30, 30
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_TIMID
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level 32
+    pokemon SPECIES_ELECTABUZZ
+    item 0
+    move MOVE_THUNDER_PUNCH
+    move MOVE_LOW_KICK
+    move MOVE_QUICK_ATTACK
+    move MOVE_THUNDER_WAVE
+    ability ABILITY_STATIC
+    ball ITEM_POKE_BALL
+    setivs 30, 30, 30, 30, 30, 30
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_JOLLY
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level 32
+    pokemon SPECIES_KADABRA
+    item 0
+    move MOVE_PSYSHOCK
+    move MOVE_SHOCK_WAVE
+    move MOVE_DAZZLING_GLEAM
+    move MOVE_REFLECT
+    ability ABILITY_MAGIC_GUARD
+    ball ITEM_POKE_BALL
+    setivs 30, 30, 30, 30, 30, 30
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_TIMID
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level 33
+    pokemon SPECIES_CROCONAW
+    item ITEM_MYSTIC_WATER
+    move ALLOW_ILLEGAL_MOVES ? MOVE_AQUA_CUTTER : MOVE_DIVE
+    move MOVE_BITE
+    move MOVE_ICE_FANG
+    move MOVE_AQUA_JET
+    ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_STRONG_JAW : ABILITY_TORRENT
+    ball ITEM_POKE_BALL
+    setivs 30, 30, 30, 30, 30, 30
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_JOLLY
+    shinylock 0
+    ballseal 0
+endparty
+
+// Need to do Ned + Richard
+
 /******************************************** Not Set ********************************************/
 /************ Rematches ************/
 
@@ -18272,65 +18576,6 @@ trainerdata 262, "Mickey"
         ballseal 0
     endparty
 
-trainerdata 263, "Silver"
-    trainermontype TRAINER_DATA_TYPE_MOVES
-    trainerclass CLASS_RIVAL
-    battletype SINGLE_BATTLE
-    nummons 4
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_PRIORITIZE_DAMAGE | 0
-    battletype2 0
-    endentry
-
-    party 263
-        // mon 0
-        ivs 80
-        abilityslot 0
-        level 20
-        pokemon SPECIES_GASTLY
-        move MOVE_LICK
-        move MOVE_CONFUSE_RAY
-        move MOVE_MEAN_LOOK
-        move MOVE_CURSE
-        ballseal 0
-
-        // mon 1
-        ivs 80
-        abilityslot 0
-        level 18
-        pokemon SPECIES_MAGNEMITE
-        move MOVE_THUNDER_WAVE
-        move MOVE_THUNDER_SHOCK
-        move MOVE_SUPERSONIC
-        move MOVE_SONIC_BOOM
-        ballseal 0
-
-        // mon 2
-        ivs 80
-        abilityslot 0
-        level 20
-        pokemon SPECIES_ZUBAT
-        move MOVE_ASTONISH
-        move MOVE_SUPERSONIC
-        move MOVE_BITE
-        move MOVE_WING_ATTACK
-        ballseal 0
-
-        // mon 3
-        ivs 80
-        abilityslot 0
-        level 22
-        pokemon SPECIES_BAYLEEF
-        move MOVE_SYNTHESIS
-        move MOVE_REFLECT
-        move MOVE_MAGICAL_LEAF
-        move MOVE_POISON_POWDER
-        ballseal 0
-    endparty
-
 trainerdata 264, "Silver"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_RIVAL
@@ -18434,65 +18679,6 @@ trainerdata 265, "Silver"
         ballseal 0
     endparty
 
-trainerdata 267, "Silver"
-    trainermontype TRAINER_DATA_TYPE_MOVES
-    trainerclass CLASS_RIVAL
-    battletype SINGLE_BATTLE
-    nummons 4
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_PRIORITIZE_DAMAGE | 0
-    battletype2 0
-    endentry
-
-    party 267
-        // mon 0
-        ivs 80
-        abilityslot 0
-        level 20
-        pokemon SPECIES_GASTLY
-        move MOVE_LICK
-        move MOVE_CONFUSE_RAY
-        move MOVE_MEAN_LOOK
-        move MOVE_CURSE
-        ballseal 0
-
-        // mon 1
-        ivs 80
-        abilityslot 0
-        level 18
-        pokemon SPECIES_MAGNEMITE
-        move MOVE_THUNDER_WAVE
-        move MOVE_THUNDER_SHOCK
-        move MOVE_SUPERSONIC
-        move MOVE_SONIC_BOOM
-        ballseal 0
-
-        // mon 2
-        ivs 80
-        abilityslot 0
-        level 20
-        pokemon SPECIES_ZUBAT
-        move MOVE_ASTONISH
-        move MOVE_SUPERSONIC
-        move MOVE_BITE
-        move MOVE_WING_ATTACK
-        ballseal 0
-
-        // mon 3
-        ivs 80
-        abilityslot 0
-        level 22
-        pokemon SPECIES_QUILAVA
-        move MOVE_FLAME_WHEEL
-        move MOVE_SMOKESCREEN
-        move MOVE_EMBER
-        move MOVE_QUICK_ATTACK
-        ballseal 0
-    endparty
-
 trainerdata 268, "Silver"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_RIVAL
@@ -18571,65 +18757,6 @@ trainerdata 268, "Silver"
         move MOVE_SWIFT
         move MOVE_QUICK_ATTACK
         move MOVE_FLAME_WHEEL
-        ballseal 0
-    endparty
-
-trainerdata 270, "Silver"
-    trainermontype TRAINER_DATA_TYPE_MOVES
-    trainerclass CLASS_RIVAL
-    battletype SINGLE_BATTLE
-    nummons 4
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_PRIORITIZE_DAMAGE | 0
-    battletype2 0
-    endentry
-
-    party 270
-        // mon 0
-        ivs 80
-        abilityslot 0
-        level 20
-        pokemon SPECIES_GASTLY
-        move MOVE_LICK
-        move MOVE_CONFUSE_RAY
-        move MOVE_MEAN_LOOK
-        move MOVE_CURSE
-        ballseal 0
-
-        // mon 1
-        ivs 80
-        abilityslot 0
-        level 18
-        pokemon SPECIES_MAGNEMITE
-        move MOVE_THUNDER_WAVE
-        move MOVE_THUNDER_SHOCK
-        move MOVE_SUPERSONIC
-        move MOVE_SONIC_BOOM
-        ballseal 0
-
-        // mon 2
-        ivs 80
-        abilityslot 0
-        level 20
-        pokemon SPECIES_ZUBAT
-        move MOVE_ASTONISH
-        move MOVE_SUPERSONIC
-        move MOVE_BITE
-        move MOVE_WING_ATTACK
-        ballseal 0
-
-        // mon 3
-        ivs 80
-        abilityslot 0
-        level 22
-        pokemon SPECIES_CROCONAW
-        move MOVE_SCARY_FACE
-        move MOVE_ICE_FANG
-        move MOVE_WATER_GUN
-        move MOVE_BITE
         ballseal 0
     endparty
 

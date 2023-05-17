@@ -98,3 +98,6 @@ arm9 080518CA 23
 
 # Trainer Music Table Count (hex)
 arm9 08051886 22
+
+# expand move tutor heap
+arm9 0203DFF4 8A 02

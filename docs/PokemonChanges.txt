@@ -3283,7 +3283,8 @@ New Moves:
 - Mega Drain (Tutor) (LGPE)
 - Poison Gas (Level) (LGPE)
 
-Notes: Gengar keeps its Levitate ability from Gen IV in all versions of the game.
+Notes:
+Gengar keeps its Levitate ability from Gen IV in all versions of the game.
 
 Level Up Moves:
 01 - Perish Song
@@ -3907,6 +3908,9 @@ Type: Poison
 New Moves:
 - Gunk Shot (Level/Tutor)
 
+Notes:
+Neutralizing Gas isn't implemented, so Koffing retains its earlier generation ability settings.
+
 Level Up Moves:
 01 - Poison Gas
 01 - Tackle
@@ -3936,6 +3940,9 @@ Type: Poison
 
 New Moves:
 - Gunk Shot (Level/Tutor)
+
+Notes:
+Neutralizing Gas isn't implemented, so Weezing retains its earlier generation ability settings.
 
 Level Up Moves:
 01 - Heat Wave
@@ -11899,7 +11906,7 @@ Level Up Moves:
 331 - Cacnea
 -------------------
 Abilities: Sand Veil / Sand Veil / Water Absorb ⟶ Sand Veil / Water Absorb / Unnerve**
-Base Stats: 50/85/40/85/40/35 ()
+Base Stats: 50/85/40/85/40/35 (335)
 Held Item: Sticky Barb (5%)
 Type: Grass
 

@@ -1882,7 +1882,7 @@ Held Item: None
 Type: Water ⟶ Water / Psychic
 
 New Moves:
-- Psycho Cut (Tutor)
+- Psycho Cut (TM)
 
 Level Up Moves:
 01 - Aqua Jet
@@ -5237,7 +5237,7 @@ New Moves:
 - Cut (HM)
 - Leafage (Level) (PLA)
 - Mega Drain (Tutor)
-- Psycho Cut (Tutor)
+- Psycho Cut (TM)
 
 Level Up Moves:
 01 - Covet
@@ -12146,7 +12146,7 @@ Held Item: Sun Stone (5%)
 Type: Rock / Psychic
 
 New Moves:
-- Psycho Cut (Tutor)
+- Psycho Cut (TM)
 - Solar Blade (Tutor)
 - Teleport (Tutor)
 

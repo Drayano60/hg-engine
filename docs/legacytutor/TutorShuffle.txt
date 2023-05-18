@@ -155,7 +155,14 @@ MOVED TO TM (6) -- These are previously Move Tutor but are now TMs
 - Psycho Cut
 - Scale Shot
 - Scorching Sands
-  
+
+TM32 -> Pollen Puff
+TM58 -> Body Press
+TM72 -> Ice Spinner
+TM78 -> Scorching Sands
+TM85 -> Psycho Cut
+TM90 -> Scale Shot
+
 (Shuffling TM32, TM58, TM72, TM74, TM85, TM90)
 
 MOVED TO TUTOR NPC (3+1) -- These were Move Tutors/TMs but are now NPC tutors

@@ -58,9 +58,9 @@ PALETTE_BUG equ 610
 // Replace TM28 Dig with TM28 Leech Life
 .halfword MOVE_LEECH_LIFE
 
-// Replace TM32 Double Team with TM32 Play Rough
+// Replace TM32 Double Team with TM32 Pollen Puff
 .skip (2 * 3)
-.halfword MOVE_PLAY_ROUGH
+.halfword MOVE_POLLEN_PUFF
 
 // Replace TM34 Shock Wave with TM34 Sludge Wave
 .skip (2 * 1)
@@ -82,8 +82,12 @@ PALETTE_BUG equ 610
 // Cancelled
 .halfword MOVE_FLING
 
+// Replace TM58 Endure with TM58 Body Press
+.skip (2 * 1)
+.halfword MOVE_BODY_PRESS
+
 // Replace TM62 Silver Wind with TM62 Acrobatics
-.skip (2 * 5)
+.skip (2 * 3)
 .halfword MOVE_ACROBATICS
 
 // Replace TM63 Embargo with TM63 Nasty Plot
@@ -97,24 +101,33 @@ PALETTE_BUG equ 610
 .skip (2 * 2)
 .halfword MOVE_MYSTICAL_FIRE
 
+// Replace TM72 Avalanche with TM72 Ice Spinner
+.skip (2 * 1)
+.halfword MOVE_ICE_SPINNER
+
 // Replace TM76 Stealth Rock with TM76 Struggle Bug (cancelled)
-.skip (2 * 5)
+.skip (2 * 3)
 .halfword MOVE_STEALTH_ROCK
 
-// Replace TM78 Captivate with TM78 Bulldoze
+// Replace TM78 Captivate with TM78 Scorching Sands
 .skip (2 * 1)
-.halfword MOVE_BULLDOZE
+.halfword MOVE_SCORCHING_SANDS
 
 // Replace TM83 Natural Gift with TM83 Work Up
 .skip (2 * 4)
 .halfword MOVE_WORK_UP
 
+// Replace TM85 Dream Eater with TM85 Psycho Cut
+.skip (2 * 1)
+.halfword MOVE_PSYCHO_CUT
+
 // Replace TM88 Pluck with TM88 Air Slash
-.skip (2 * 4)
+.skip (2 * 2)
 .halfword MOVE_AIR_SLASH
 
-
-
+// Replace TM90 Substitute with TM90 Scale Shot
+.skip (2 * 1)
+.halfword MOVE_SCALE_SHOT
 
 // Start of TM Palette Table
 .org 0x02100BD6
@@ -161,10 +174,10 @@ PALETTE_BUG equ 610
 .halfword PALETTE_BUG
 .skip 4
 
-// Change TM32 to Psychic palette (Do not have Fairy)
+// Change TM32 to Bug palette
 .skip (8 * 3)
 .skip 2
-.halfword PALETTE_PSYCHIC
+.halfword PALETTE_BUG
 .skip 4
 
 // Change TM34 to Poison palette
@@ -197,8 +210,14 @@ PALETTE_BUG equ 610
 .halfword PALETTE_DARK
 .skip 4
 
+// Change TM58 to Fighting palette
+.skip (8 * 1)
+.skip 2
+.halfword PALETTE_FIGHTING
+.skip 4
+
 // Change TM62 to Flying palette
-.skip (8 * 5)
+.skip (8 * 3)
 .skip 2
 .halfword PALETTE_FLYING
 .skip 4
@@ -220,6 +239,8 @@ PALETTE_BUG equ 610
 .halfword PALETTE_FIRE
 .skip 4
 
+/* TM72 is already Ice */
+
 // Change TM76 to Bug palette (cancelled)
 .skip (8 * 5)
 .skip 2
@@ -238,10 +259,18 @@ PALETTE_BUG equ 610
 .skip 2 // No change needed here
 .skip 4
 
+/* TM85 is already Psychic */
+
 // Change TM88 to Flying palette
 .skip (8 * 4)
 .skip 2
 .halfword PALETTE_FLYING
+.skip 4
+
+// Change TM90 to Dragon palette
+.skip (8 * 1)
+.skip 2
+.halfword PALETTE_DRAGON
 .skip 4
 
 .close

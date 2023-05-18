@@ -10720,7 +10720,7 @@ Held Item: Hard Stone (5%)
 Type: Rock
 
 New Moves:
-- Body Press (Tutor) (HOME)
+- Body Press (TM) (HOME)
 - Head Smash (Level)
 - Meteor Beam (Tutor) (HOME)
 - Thunder Shock (Level)
@@ -10754,7 +10754,7 @@ Held Item: Hard Stone (5%)
 Type: Rock / Steel
 
 New Moves:
-- Body Press (Tutor) (BDSP)
+- Body Press (TM) (BDSP)
 - Head Smash (Level)
 - Meteor Beam (Tutor) (HOME)
 - Mirror Shot (Level)
@@ -14579,7 +14579,7 @@ Held Item: None
 Type: Rock / Steel
 
 New Moves:
-- Body Press (Tutor)
+- Body Press (TM)
 - Meteor Beam (Tutor) (HOME)
 
 Level Up Moves:

@@ -3017,7 +3017,7 @@ New Moves:
 - Hydro Pump (Tutor) (HOME)
 - Ice Spinner (TM)
 - Megahorn (Tutor) (LGPE)
-- Play Rough (TM)
+- Play Rough (Tutor)
 - Triple Axel (Tutor) (HOME)
 - Wave Crash (Level)
 
@@ -13769,7 +13769,7 @@ Held Item: None
 Type: Grass
 
 New Moves:
-- Bulldoze (TM) (PLA)
+- Bulldoze (Tutor) (PLA)
 - Shell Smash (Level)
 - Trailblaze (Tutor)
 

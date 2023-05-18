@@ -214,7 +214,7 @@ Type: Water
 
 New Moves:
 - Chilling Water (Tutor)
-- Ice Spinner (Tutor)
+- Ice Spinner (TM)
 
 Level Up Moves:
 01 - Tackle
@@ -244,7 +244,7 @@ Type: Water
 
 New Moves:
 - Chilling Water (Tutor)
-- Ice Spinner (Tutor)
+- Ice Spinner (TM)
 
 Level Up Moves:
 01 - Tackle
@@ -275,7 +275,7 @@ Type: Water
 
 New Moves:
 - Chilling Water (Tutor)
-- Ice Spinner (Tutor)
+- Ice Spinner (TM)
 
 Level Up Moves:
 01 - Aura Sphere
@@ -839,7 +839,6 @@ Type: Ground
 
 New Moves:
 - Fissure (Level) (RBY VC)
-- Ice Spinner (Tutor)
 
 Level Up Moves:
 01 - Scratch
@@ -870,7 +869,6 @@ Type: Ground
 
 New Moves:
 - Fissure (Level) (RBY VC)
-- Ice Spinner (Tutor)
 
 Level Up Moves:
 01 - Hone Claws
@@ -1102,7 +1100,7 @@ Type: Fairy
 
 New Moves:
 - Chilling Water (Tutor)
-- Ice Spinner (Tutor)
+- Ice Spinner (TM)
 - Teleport (Tutor) (LGPE)
 - Trailblaze (Tutor)
 
@@ -1138,7 +1136,7 @@ Type: Fairy
 
 New Moves:
 - Chilling Water (Tutor)
-- Ice Spinner (Tutor)
+- Ice Spinner (TM)
 - Teleport (Tutor) (LGPE)
 - Trailblaze (Tutor)
 
@@ -3008,7 +3006,7 @@ New Moves:
 - Belly Drum (Level)
 - Chilling Water (Tutor)
 - Flip Turn (Tutor) (HOME)
-- Ice Spinner (Tutor)
+- Ice Spinner (TM)
 - Megahorn (Tutor) (LGPE)
 - Play Rough (TM)
 - Wave Crash (Level)
@@ -3047,7 +3045,7 @@ New Moves:
 - Chilling Water (Tutor)
 - Flip Turn (Tutor) (HOME)
 - Hydro Pump (Tutor) (HOME)
-- Ice Spinner (Tutor)
+- Ice Spinner (TM)
 - Megahorn (Tutor) (LGPE)
 - Play Rough (TM)
 - Triple Axel (Tutor) (HOME)
@@ -3810,7 +3808,7 @@ Held Item: None
 Type: Fighting
 
 New Moves:
-- Ice Spinner (Tutor)
+- Ice Spinner (TM)
 - Power-Up Punch (Level/Tutor)
 
 Level Up Moves:
@@ -4390,7 +4388,7 @@ Type: Water
 
 New Moves:
 - Chilling Water (Tutor)
-- Ice Spinner (Tutor)
+- Ice Spinner (TM)
 - Teleport (Tutor) (LGPE)
 
 Level Up Moves:
@@ -4423,7 +4421,7 @@ Type: Water / Psychic
 
 New Moves:
 - Chilling Water (Tutor)
-- Ice Spinner (Tutor)
+- Ice Spinner (TM)
 - Teleport (Tutor) (LGPE)
 
 Level Up Moves:
@@ -8375,7 +8373,7 @@ Held Item: None
 Type: Ice / Ground
 
 New Moves:
-- Ice Spinner (Tutor)
+- Ice Spinner (TM)
 
 Level Up Moves:
 01 - Tackle
@@ -8404,10 +8402,10 @@ Held Item: None
 Type: Ice / Ground
 
 New Moves:
-- Ice Spinner (Tutor)
+- Ice Spinner (TM)
 
 Notes:
-Piloswine can learn Ancient Power from the Move Tutor in Olivine City after obtaining the Mineral Badge.
+Piloswine can learn Ancient Power from the Move Tutor in the Pokémon Center.
 
 Level Up Moves:
 01 - Fury Attack
@@ -8441,7 +8439,7 @@ Type: Ice / Ground
 
 New Moves:
 - Headlong Rush (Level)
-- Ice Spinner (Tutor)
+- Ice Spinner (TM)
 
 Level Up Moves:
 01 - Double Hit
@@ -12310,7 +12308,7 @@ Held Item: None
 Type: Ground / Psychic
 
 New Moves:
-- Ice Spinner (Tutor)
+- Ice Spinner (TM)
 - Mud Bomb (Level)
 - Recover (Level)
 
@@ -12346,7 +12344,7 @@ Type: Ground / Psychic
 
 New Moves:
 - Fly (HM)
-- Ice Spinner (Tutor)
+- Ice Spinner (TM)
 - Mud Bomb (Level)
 - Recover (Level)
 
@@ -13041,7 +13039,7 @@ Type: Ice / Water
 
 New Moves:
 - Chilling Water (Tutor)
-- Ice Spinner (Tutor)
+- Ice Spinner (TM)
 - Slack Off (Level)
 
 Level Up Moves:
@@ -13075,7 +13073,7 @@ Type: Ice / Water
 
 New Moves:
 - Chilling Water (Tutor)
-- Ice Spinner (Tutor)
+- Ice Spinner (TM)
 - Slack Off (Level)
 
 Level Up Moves:
@@ -13110,7 +13108,7 @@ Type: Ice / Water
 
 New Moves:
 - Chilling Water (Tutor)
-- Ice Spinner (Tutor)
+- Ice Spinner (TM)
 - Slack Off (Level)
 
 Level Up Moves:
@@ -19383,6 +19381,7 @@ Type: Ice
 
 New Moves:
 - Dazzling Gleam (TM)
+- Ice Spinner (TM)
 
 Level Up Moves:
 01 - Powder Snow
@@ -19415,6 +19414,7 @@ Type: Ice
 
 New Moves:
 - Dazzling Gleam (TM)
+- Ice Spinner (TM)
 
 Level Up Moves:
 01 - Powder Snow
@@ -19447,6 +19447,7 @@ Type: Ice
 
 New Moves:
 - Dazzling Gleam (TM)
+- Ice Spinner (TM)
 
 Level Up Moves:
 01 - Aurora Veil

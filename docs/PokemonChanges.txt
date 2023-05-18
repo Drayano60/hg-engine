@@ -1684,7 +1684,6 @@ New Moves:
 - Fly (HM)
 - Hurricane (Tutor)
 - Mega Drain (Tutor) (LGPE)
-- Pollen Puff (Tutor)
 - Teleport (Tutor) (LGPE)
 
 Level Up Moves:
@@ -5932,7 +5931,7 @@ New Moves:
 - Mega Drain (Tutor)
 - Moonblast* (Level)
 - Play Rough (TM)
-- Pollen Puff (Tutor) (HOME)
+- Pollen Puff (TM) (HOME)
 - Solar Blade (Tutor) (HOME)
 - Trailblaze (Tutor)
 
@@ -5976,7 +5975,7 @@ New Moves:
 - Mega Drain (Tutor)
 - Moonblast* (Level)
 - Play Rough (TM)
-- Pollen Puff (Tutor) (HOME)
+- Pollen Puff (TM) (HOME)
 - Solar Blade (Tutor) (HOME)
 - Trailblaze (Tutor)
 
@@ -6022,7 +6021,7 @@ New Moves:
 - Mega Drain (Tutor)
 - Moonblast* (Level)
 - Play Rough (TM)
-- Pollen Puff (Tutor) (HOME)
+- Pollen Puff (TM) (HOME)
 - Power Whip (Tutor)
 - Solar Blade (Tutor) (HOME)
 - Trailblaze (Tutor)
@@ -6419,7 +6418,7 @@ New Moves:
 - Lunge (Level)
 - Mega Drain (Tutor)
 - Meteor Mash (Level)
-- Pollen Puff (Tutor)
+- Pollen Puff (TM)
 - Pounce (Tutor)
 
 Level Up Moves:
@@ -6458,7 +6457,7 @@ New Moves:
 - Lunge (Level)
 - Mega Drain (Tutor)
 - Meteor Mash (Level)
-- Pollen Puff (Tutor)
+- Pollen Puff (TM)
 - Pounce (Tutor)
 
 Level Up Moves:
@@ -7300,7 +7299,7 @@ Type: Grass
 New Moves:
 - Leaf Blade (Tutor) (HOME)
 - Mystical Fire (TM)
-- Pollen Puff (Tutor)
+- Pollen Puff (TM)
 - Weather Ball (Level/Tutor) (HOME)
 
 Level Up Moves:
@@ -9696,7 +9695,7 @@ New Moves:
 - Fly (HM)
 - Hurricane (Tutor)
 - Leech Life (TM) (BDSP)
-- Pollen Puff (Tutor)
+- Pollen Puff (TM)
 - Pounce (Tutor)
 
 Level Up Moves:
@@ -9751,7 +9750,6 @@ New Moves:
 - Leech Life (TM) (BDSP)
 - Mega Drain (Tutor)
 - Moonblast (Level)
-- Pollen Puff (Tutor)
 - Pounce (Tutor)
 - Sleep Powder (Level)
 
@@ -11265,7 +11263,6 @@ New Moves:
 - Dual Wingbeat (Tutor) (HOME)
 - Mega Drain (Tutor)
 - Moonblast (Level)
-- Pollen Puff (Tutor)
 - Pounce (Tutor)
 
 Level Up Moves:
@@ -11302,8 +11299,7 @@ New Moves:
 - Dual Wingbeat (Tutor) (HOME)
 - Mega Drain (Tutor)
 - Moonblast (Level)
-- Pollen Puff (Tutor)
-- Pollen Puff (Tutor) (HOME)
+- Pollen Puff (TM) (HOME)
 - Quiver Dance (Level)
 - Pounce (Tutor)
 
@@ -14738,7 +14734,6 @@ New Moves:
 - First Impression (Level)
 - Hurricane (Tutor)
 - Mega Drain (Tutor)
-- Pollen Puff (Tutor)
 
 Level Up Moves:
 01 - Silver Wind
@@ -14769,7 +14764,7 @@ Held Item: Honey (100%)
 Type: Bug / Flying
 
 New Moves:
-- Pollen Puff (Tutor)
+- None
 
 Level Up Moves:
 01 - Sweet Scent
@@ -14789,7 +14784,6 @@ Type: Bug / Flying
 New Moves:
 - Double-Edge (Tutor)
 - Leech Life (TM)
-- Pollen Puff (Tutor)
 
 Level Up Moves:
 01 - Poison Sting

@@ -22,7 +22,6 @@ Held Item: None
 Type: Grass / Poison
 
 New Moves:
-- Mega Drain (Tutor) (LGPE)
 - Trailblaze (Tutor)
 
 Level Up Moves:
@@ -53,7 +52,6 @@ Held Item: None
 Type: Grass / Poison
 
 New Moves:
-- Mega Drain (Tutor) (LGPE)
 - Trailblaze (Tutor)
 
 Level Up Moves:
@@ -85,7 +83,6 @@ Held Item: None
 Type: Grass / Poison
 
 New Moves:
-- Mega Drain (Tutor) (LGPE)
 - Trailblaze (Tutor)
 
 Level Up Moves:
@@ -178,7 +175,7 @@ Held Item: None
 Type: Fire / Flying ⟶ Fire / Dragon
 
 New Moves:
-- Raging Fury (Tutor)
+- None
 
 Level Up Moves:
 01 - Heat Wave
@@ -340,8 +337,6 @@ Type: Bug / Flying
 
 New Moves:
 - Fly (HM)
-- Mega Drain (Tutor) (LGPE)
-- Teleport (Tutor) (LGPE)
 - Pounce (Tutor)
 
 Level Up Moves:
@@ -407,11 +402,9 @@ New Moves:
 - Cross Poison (Level/Tutor) (HOME)
 - Dual Wingbeat (Tutor) (HOME)
 - Lunge (Level)
-- Mega Drain (Tutor) (LGPE)
 - Megahorn (Tutor)
 - Outrage (Tutor) (LGPE)
 - Pounce (Tutor)
-- Screech (Tutor) (HOME)
 - Smart Strike (TM)
 
 Level Up Moves:
@@ -509,7 +502,6 @@ New Moves:
 - Dual Wingbeat (Tutor) (HOME)
 - Hyper Voice (Tutor)
 - Icy Wind (Tutor)
-- Tri Attack (Level/Tutor)
 
 Level Up Moves:
 01 - Heat Wave
@@ -574,12 +566,9 @@ Type: Normal
 
 New Moves:
 - Close Combat (Tutor) (HOME)
-- Fire Fang (Tutor)
 - Flame Charge (TM)
 - Hone Claws (Level/TM)
-- Ice Fang (Tutor)
 - Psychic Fangs (Tutor) (HOME)
-- Thunder Fang (Tutor)
 
 Level Up Moves:
 01 - Swords Dance
@@ -640,7 +629,7 @@ Held Item: None
 Type: Normal / Flying
 
 New Moves:
-- Brave Bird (Level/Tutor) (HOME)
+- Brave Bird (Level) (HOME)
 - Dual Wingbeat (Tutor) (HOME)
 - Night Slash (Level)
 
@@ -675,12 +664,9 @@ Type: Poison
 
 New Moves:
 - Breaking Swipe (Tutor)
-- Dragon Dance (Tutor)
-- Mega Drain (Tutor) (LGPE)
 - Pounce (Tutor)
 - Power Whip (Tutor)
 - Scale Shot (TM) (HOME)
-- Skitter Smack (Tutor) (HOME)
 
 Level Up Moves:
 01 - Wrap 
@@ -713,12 +699,9 @@ Type: Poison
 
 New Moves:
 - Breaking Swipe (Tutor)
-- Dragon Dance (Tutor)
-- Mega Drain (Tutor) (LGPE)
 - Pounce (Tutor)
 - Power Whip (Tutor)
 - Scale Shot (TM) (HOME)
-- Skitter Smack (Tutor) (HOME)
 
 Level Up Moves:
 01 - Ice Fang
@@ -1101,7 +1084,6 @@ Type: Fairy
 New Moves:
 - Chilling Water (Tutor)
 - Ice Spinner (TM)
-- Teleport (Tutor) (LGPE)
 - Trailblaze (Tutor)
 
 Level Up Moves:
@@ -1137,7 +1119,6 @@ Type: Fairy
 New Moves:
 - Chilling Water (Tutor)
 - Ice Spinner (TM)
-- Teleport (Tutor) (LGPE)
 - Trailblaze (Tutor)
 
 Level Up Moves:
@@ -1273,7 +1254,6 @@ Type: Normal / Fairy
 New Moves:
 - Boomburst (Level)
 - Moonblast (Level)
-- Teleport (Tutor) (LGPE)
 
 Level Up Moves:
 01 - Pound
@@ -1311,7 +1291,6 @@ New Moves:
 - Boomburst (Level)
 - Moonblast (Level)
 - Noble Roar (Level)
-- Teleport (Tutor) (LGPE)
 
 Level Up Moves:
 01 - Body Slam
@@ -1349,7 +1328,7 @@ Held Item: None
 Type: Poison / Flying
 
 New Moves:
-- Mega Drain (Level/Tutor) (LGPE)
+- Mega Drain (Level) (LGPE)
 
 Level Up Moves:
 01 - Absorb
@@ -1379,7 +1358,7 @@ Held Item: None
 Type: Poison / Flying
 
 New Moves:
-- Mega Drain (Level/Tutor) (LGPE)
+- Mega Drain (Level) (LGPE)
 
 Level Up Moves:
 01 - Screech
@@ -1411,7 +1390,7 @@ Held Item: None
 Type: Poison / Flying
 
 New Moves:
-- Mega Drain (Level/Tutor) (LGPE)
+- Mega Drain (Level) (LGPE)
 
 Level Up Moves:
 01 - Cross Poison
@@ -1574,9 +1553,9 @@ Type: Bug / Grass
 
 New Moves:
 - First Impression (Level)
-- Mega Drain (Level/Tutor) (LGPE)
+- Mega Drain (Level) (LGPE)
 - Pounce (Tutor)
-- Skitter Smack (Level/Tutor) (HOME)
+- Skitter Smack (Level) (HOME)
 - Trailblaze (Tutor)
 
 Level Up Moves:
@@ -1609,10 +1588,10 @@ Type: Bug / Grass
 
 New Moves:
 - First Impression (Level)
-- Mega Drain (Level/Tutor) (LGPE)
+- Mega Drain (Level) (LGPE)
 - Pounce (Tutor)
 - Shadow Claw (Level/TM)
-- Skitter Smack (Level/Tutor) (HOME)
+- Skitter Smack (Level) (HOME)
 - Trailblaze (Tutor)
 
 Level Up Moves:
@@ -1647,7 +1626,7 @@ Held Item: None
 Type: Bug / Poison
 
 New Moves:
-- Mega Drain (Tutor) (LGPE)
+- None
 
 Level Up Moves:
 01 - Tackle
@@ -1681,8 +1660,6 @@ New Moves:
 - Dual Wingbeat (Tutor) (HOME)
 - Fly (HM)
 - Hurricane (Tutor)
-- Mega Drain (Tutor) (LGPE)
-- Teleport (Tutor) (LGPE)
 
 Level Up Moves:
 01 - Morning Sun
@@ -2045,7 +2022,7 @@ Held Item: Rawst Berry (100%)
 Type: Fire
 
 New Moves:
-- Teleport (Tutor) (LGPE)
+- None
 
 Level Up Moves:
 01 - Extreme Speed
@@ -2374,8 +2351,7 @@ Held Item: None
 Type: Grass / Poison
 
 New Moves:
-- Leaf Blade (Level/Tutor)
-- Mega Drain (Tutor) (LGPE)
+- Leaf Blade (Level)
 - Trailblaze (Tutor)
 
 Level Up Moves:
@@ -2407,9 +2383,8 @@ Held Item: None
 Type: Grass / Poison
 
 New Moves:
-- Leaf Blade (Level/Tutor)
-- Mega Drain (Tutor) (LGPE)
-- Solar Blade (Tutor) (HOME)
+- Leaf Blade (Level)
+- Solar Blade (Level) (HOME)
 - Trailblaze (Tutor)
 
 Level Up Moves:
@@ -2441,8 +2416,7 @@ Held Item: None
 Type: Grass / Poison
 
 New Moves:
-- Mega Drain (Tutor) (LGPE)
-- Solar Blade (Tutor) (HOME)
+- Solar Blade (Level) (HOME)
 - Trailblaze (Tutor)
 
 Level Up Moves:
@@ -2480,7 +2454,6 @@ Type: Water / Poison
 
 New Moves:
 - Chilling Water (Tutor)
-- Mega Drain (Tutor) (LGPE)
 
 Level Up Moves:
 01 - Poison Sting
@@ -2512,7 +2485,6 @@ Type: Water / Poison
 
 New Moves:
 - Chilling Water (Tutor)
-- Mega Drain (Tutor) (LGPE)
 - Power Whip (Tutor)
 
 Level Up Moves:
@@ -2578,7 +2550,6 @@ Type: Rock / Ground
 
 New Moves:
 - Head Smash (Level)
-- High Horsepower (Tutor) (HOME)
 - Scorching Sands (TM) (HOME)
 
 Level Up Moves:
@@ -2610,8 +2581,6 @@ Type: Rock / Ground
 
 New Moves:
 - Head Smash (Level)
-- Heat Crash (Tutor)
-- High Horsepower (Tutor) (HOME)
 - Meteor Beam (Tutor) (HOME)
 - Scorching Sands (TM) (HOME)
 
@@ -2645,7 +2614,7 @@ Held Item: Shuca Berry (5%)
 Type: Fire
 
 New Moves:
-- Blaze Kick (Level/Tutor)
+- Blaze Kick (Level)
 - Jump Kick (Level)
 - Low Sweep (TM)
 
@@ -2675,7 +2644,7 @@ Held Item: Shuca Berry (5%)
 Type: Fire
 
 New Moves:
-- Blaze Kick (Level/Tutor)
+- Blaze Kick (Level)
 - Extreme Speed (Level)
 - Jump Kick (Level)
 - Low Sweep (TM)
@@ -2711,7 +2680,7 @@ Held Item: None
 Type: Water / Psychic
 
 New Moves:
-- Teleport (Tutor) (LGPE)
+- None
 
 Level Up Moves:
 01 - Curse
@@ -2741,7 +2710,7 @@ Held Item: King's Rock (5%)
 Type: Water / Psychic
 
 New Moves:
-- Teleport (Tutor) (LGPE)
+- None
 
 Level Up Moves:
 01 - Curse
@@ -2772,7 +2741,7 @@ Held Item: King's Rock (5%)
 Type: Water / Psychic
 
 New Moves:
-- Teleport (Tutor) (LGPE)
+- None
 
 Level Up Moves:
 01 - Hidden Power
@@ -2806,7 +2775,7 @@ Held Item: Metal Coat (5%)
 Type: Electric / Steel
 
 New Moves:
-- Teleport (Tutor) (LGPE)
+- None
 
 Level Up Moves:
 01 - Tackle
@@ -2835,7 +2804,7 @@ Held Item: Metal Coat (5%)
 Type: Electric / Steel
 
 New Moves:
-- Teleport (Tutor) (LGPE)
+- None
 
 Level Up Moves:
 01 - Tackle
@@ -2866,7 +2835,7 @@ Type: Electric / Steel
 
 New Moves:
 - Fly (HM)
-- Teleport (Tutor) (LGPE)
+- None
 
 Level Up Moves:
 01 - Mirror Coat
@@ -2934,7 +2903,6 @@ Type: Normal / Flying
 
 New Moves:
 - Double Kick (Level)
-- Tri Attack (Tutor) (HOME)
 
 Level Up Moves:
 01 - Peck
@@ -3008,7 +2976,7 @@ New Moves:
 - Flip Turn (Tutor) (HOME)
 - Ice Spinner (TM)
 - Megahorn (Tutor) (LGPE)
-- Play Rough (TM)
+- Play Rough (Tutor)
 - Wave Crash (Level)
 
 Level Up Moves:
@@ -3083,8 +3051,7 @@ Held Item: Nugget (5%)
 Type: Poison
 
 New Moves:
-- Mega Drain (Tutor) (LGPE)
-- Skitter Smack (Tutor) (HOME)
+- None
 
 Level Up Moves:
 01 - Pound
@@ -3115,8 +3082,7 @@ Held Item: Nugget (5%)
 Type: Poison
 
 New Moves:
-- Mega Drain (Tutor) (LGPE)
-- Skitter Smack (Tutor) (HOME)
+- None
 
 Level Up Moves:
 01 - Shadow Punch
@@ -3149,7 +3115,7 @@ Held Item: Pearl (50%), Big Pearl (5%)
 Type: Water
 
 New Moves:
-- Teleport (Tutor) (LGPE)
+- None
 
 Level Up Moves:
 01 - Tackle
@@ -3179,7 +3145,7 @@ Held Item: Pearl (50%), Big Pearl (5%)
 Type: Water / Ice
 
 New Moves:
-- Teleport (Tutor) (LGPE)
+- None
 
 Level Up Moves:
 01 - Spike Cannon
@@ -3213,7 +3179,6 @@ Held Item: None
 Type: Ghost / Poison
 
 New Moves:
-- Mega Drain (Tutor) (LGPE)
 - Poison Gas (Level) (LGPE)
 
 Level Up Moves:
@@ -3246,7 +3211,6 @@ Held Item: None
 Type: Ghost / Poison
 
 New Moves:
-- Mega Drain (Tutor) (LGPE)
 - Poison Gas (Level) (LGPE)
 
 Level Up Moves:
@@ -3280,7 +3244,6 @@ Held Item: None
 Type: Ghost / Poison
 
 New Moves:
-- Mega Drain (Tutor) (LGPE)
 - Poison Gas (Level) (LGPE)
 
 Notes:
@@ -3389,9 +3352,6 @@ Type: Psychic
 
 New Moves:
 - Belly Drum (Level) (G3 Event)
-- Draining Kiss (Tutor) (HOME)
-- Tri Attack (Tutor) (HOME)
-- Teleport (Tutor) (LGPE)
 
 Level Up Moves:
 01 - Dream Eater
@@ -3424,9 +3384,6 @@ Type: Psychic
 
 New Moves:
 - Belly Drum (Level) (G3 Event)
-- Draining Kiss (Tutor) (HOME)
-- Tri Attack (Tutor) (HOME)
-- Teleport (Tutor) (LGPE)
 
 Level Up Moves:
 01 - Dream Eater
@@ -3526,7 +3483,6 @@ New Moves:
 - Boomburst (Level)
 - Nasty Plot (TM)
 - Overheat (TM)
-- Teleport (Tutor) (LGPE)
 
 Level Up Moves:
 01 - Charge
@@ -3562,7 +3518,6 @@ New Moves:
 - Boomburst (Level)
 - Nasty Plot (TM)
 - Overheat (TM)
-- Teleport (Tutor) (LGPE)
 
 Level Up Moves:
 01 - Charge
@@ -3596,7 +3551,7 @@ Held Item: None
 Type: Grass / Psychic
 
 New Moves:
-- Teleport (Tutor) (LGPE)
+- None
 
 Level Up Moves:
 01 - Hypnosis
@@ -3627,7 +3582,7 @@ Held Item: None
 Type: Grass / Psychic
 
 New Moves:
-- Teleport (Tutor) (LGPE)
+- None
 
 Level Up Moves:
 01 - Stomp
@@ -3721,7 +3676,7 @@ Held Item: None
 Type: Fighting
 
 New Moves:
-- Power-Up Punch (Level/Tutor)
+- Power-Up Punch (Level)
 
 Level Up Moves:
 01 - Tackle
@@ -3810,7 +3765,7 @@ Type: Fighting
 
 New Moves:
 - Ice Spinner (TM)
-- Power-Up Punch (Level/Tutor)
+- Power-Up Punch (Level)
 
 Level Up Moves:
 01 - Rolling Kick
@@ -4088,7 +4043,7 @@ Held Item: Oval Stone (50%), Lucky Egg (5%)
 Type: Normal
 
 New Moves:
-- Teleport (Tutor) (LGPE)
+- None
 
 Level Up Moves:
 01 - Pound
@@ -4118,7 +4073,7 @@ Held Item: Oval Stone (50%), Lucky Egg (5%)
 Type: Normal
 
 New Moves:
-- Teleport (Tutor) (LGPE)
+- None
 
 Level Up Moves:
 01 - Aromatherapy
@@ -4396,7 +4351,6 @@ Type: Water
 New Moves:
 - Chilling Water (Tutor)
 - Ice Spinner (TM)
-- Teleport (Tutor) (LGPE)
 
 Level Up Moves:
 01 - Tackle
@@ -4429,7 +4383,6 @@ Type: Water / Psychic
 New Moves:
 - Chilling Water (Tutor)
 - Ice Spinner (TM)
-- Teleport (Tutor) (LGPE)
 
 Level Up Moves:
 01 - Signal Beam
@@ -4495,7 +4448,6 @@ Type: Psychic / Fairy
 
 New Moves:
 - Fairy Wind (Level)
-- Teleport (Tutor) (LGPE)
 
 Level Up Moves:
 01 - Magical Leaf
@@ -4653,7 +4605,6 @@ Type: Ice / Psychic
 New Moves:
 - Chilling Water (Tutor)
 - Psycho Boost (Level)
-- Teleport (Tutor) (LGPE)
 
 Level Up Moves:
 01 - Lick
@@ -4715,7 +4666,7 @@ Held Item: None
 Type: Electric
 
 New Moves:
-- Teleport (Tutor) (LGPE)
+- None
 
 Level Up Moves:
 01 - Quick Attack
@@ -4747,7 +4698,6 @@ New Moves:
 - Bulk Up (TM)
 - Close Combat* (Level/Tutor)
 - Drain Punch (TM)
-- Teleport (Tutor) (LGPE)
 - Volt Tackle (Level)
 
 * If type changes are removed, Electivire can only learn Close Combat by Move Tutor.
@@ -4814,7 +4764,7 @@ Held Item: None
 Type: Fire
 
 New Moves:
-- Teleport (Tutor) (LGPE)
+- None
 
 Level Up Moves:
 01 - Smog
@@ -4847,7 +4797,6 @@ New Moves:
 - Dark Pulse (TM)
 - Magma Storm (Level)
 - Nasty Plot (TM)
-- Teleport (Tutor) (LGPE)
 
 Level Up Moves:
 01 - Thunder Punch
@@ -4988,7 +4937,6 @@ Type: Water / Ice
 
 New Moves:
 - Aqua Ring (Level)
-- Aurora Veil (Tutor)
 - Calm Mind (TM)
 - Chilling Water (Tutor)
 
@@ -5137,7 +5085,7 @@ Type: Fire
 New Moves:
 - Flame Wheel (Level)
 - Grass Knot (TM)
-- Play Rough (TM)
+- Play Rough (Tutor)
 - Wild Charge (Tutor)
 
 Level Up Moves:
@@ -5172,7 +5120,7 @@ Held Item: None
 Type: Psychic
 
 New Moves:
-- Teleport (Tutor)
+- None
 
 Level Up Moves:
 01 - Covet
@@ -5243,7 +5191,6 @@ Type: Grass
 New Moves:
 - Cut (HM)
 - Leafage (Level) (PLA)
-- Mega Drain (Tutor)
 - Psycho Cut (TM)
 
 Level Up Moves:
@@ -5347,7 +5294,7 @@ Held Item: None
 Type: Normal
 
 New Moves:
-- Teleport (Tutor) (LGPE)
+- None
 
 Level Up Moves:
 01 - Conversion 2
@@ -5379,7 +5326,7 @@ Held Item: None
 Type: Normal
 
 New Moves:
-- Teleport (Tutor) (LGPE)
+- None
 
 Level Up Moves:
 01 - Defense Curl
@@ -5412,7 +5359,7 @@ Held Item: None
 Type: Normal
 
 New Moves:
-- Teleport (Tutor) (LGPE)
+- None
 
 Level Up Moves:
 01 - Nasty Plot
@@ -5622,7 +5569,7 @@ Held Item: Leftovers (100%)
 Type: Normal
 
 New Moves:
-- Gastro Acid (Tutor) (BDSP)
+- None
 
 Level Up Moves:
 01 - Metronome
@@ -5869,7 +5816,7 @@ Held Item: None
 Type: Psychic
 
 New Moves:
-- Teleport (Tutor) (LGPE)
+- None
 
 Level Up Moves:
 01 - Psywave

@@ -679,7 +679,7 @@ New Moves:
 - Mega Drain (Tutor) (LGPE)
 - Pounce (Tutor)
 - Power Whip (Tutor)
-- Scale Shot (Tutor) (HOME)
+- Scale Shot (TM) (HOME)
 - Skitter Smack (Tutor) (HOME)
 
 Level Up Moves:
@@ -717,7 +717,7 @@ New Moves:
 - Mega Drain (Tutor) (LGPE)
 - Pounce (Tutor)
 - Power Whip (Tutor)
-- Scale Shot (Tutor) (HOME)
+- Scale Shot (TM) (HOME)
 - Skitter Smack (Tutor) (HOME)
 
 Level Up Moves:
@@ -6239,7 +6239,7 @@ New Moves:
 - Flip Turn (Tutor)
 - Muddy Water (Tutor) (HOME)
 - Psychic Fangs (Tutor) (HOME)
-- Scale Shot (Tutor) (HOME)
+- Scale Shot (TM) (HOME)
 - Wave Crash (Level)
 
 Level Up Moves:
@@ -12080,7 +12080,7 @@ New Moves:
 - Dragon Dance (Tutor)
 - Mega Drain (Tutor)
 - Power Whip (Tutor) (HOME)
-- Scale Shot (Tutor) (HOME)
+- Scale Shot (TM) (HOME)
 - Skitter Smack (Tutor) (HOME)
 
 Level Up Moves:
@@ -12597,7 +12597,7 @@ Held Item: Persim Berry (5%)
 Type: Normal
 
 New Moves:
-- Scale Shot (Tutor) (HOME)
+- Scale Shot (TM) (HOME)
 
 Level Up Moves:
 01 - Fake Out
@@ -13167,7 +13167,7 @@ New Moves:
 - Flip Turn (Tutor) (HOME)
 - Poison Fang (Level)
 - Razor Shell (Level - Clamperl only)
-- Scale Shot (Tutor) (HOME)
+- Scale Shot (TM) (HOME)
 
 Level Up Moves:
 01 - Poison Fang
@@ -13201,7 +13201,7 @@ New Moves:
 - Flip Turn (Tutor) (HOME)
 - Leech Life (Level/TM)
 - Razor Shell (Level - Clamperl only)
-- Scale Shot (Tutor) (HOME)
+- Scale Shot (TM) (HOME)
 
 Level Up Moves:
 01 - Leech Life
@@ -13267,7 +13267,7 @@ New Moves:
 - Healing Wish (Level)
 - Lovely Kiss (Level)
 - Moonblast (Level)
-- Scale Shot (Tutor) (HOME)
+- Scale Shot (TM) (HOME)
 - Tearful Look (Level) (BDSP)
 
 Level Up Moves:
@@ -13363,7 +13363,7 @@ Held Item: Dragon Fang (5%)
 Type: Dragon / Flying
 
 New Moves:
-- None
+- Scale Shot (TM)
 
 Level Up Moves:
 01 - Fire Fang
@@ -15857,7 +15857,7 @@ New Moves:
 - Dual Wingbeat (Tutor) (HOME)
 - Flip Turn (Tutor) (HOME)
 - Quiver Dance (Level)
-- Scale Shot (Tutor) (HOME)
+- Scale Shot (TM) (HOME)
 
 Level Up Moves:
 01 - Pound
@@ -15894,7 +15894,7 @@ New Moves:
 - Flip Turn (Tutor) (HOME)
 - Hurricane (Tutor)
 - Quiver Dance (Level)
-- Scale Shot (Tutor) (HOME)
+- Scale Shot (TM) (HOME)
 - Triple Axel (Tutor) (HOME)
 
 Level Up Moves:
@@ -16700,6 +16700,7 @@ Type: Grass ⟶ Grass / Dragon
 
 New Moves:
 - Breaking Swipe (Level/Tutor)
+- Scale Shot (TM) (HOME)
 
 Level Up Moves:
 01 - Dragon Tail
@@ -19768,7 +19769,7 @@ Held Item: None
 Type: Water
 
 New Moves:
-- None
+- Scale Shot (TM) (HOME)
 
 Level Up Moves:
 01 - Helping Hand

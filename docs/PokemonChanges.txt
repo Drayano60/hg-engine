@@ -5880,11 +5880,9 @@ Type: Grass
 New Moves:
 - Dazzling Gleam (TM)
 - Draining Kiss** (Level/Tutor)
-- Mega Drain (Tutor)
 - Moonblast* (Level)
-- Play Rough (TM)
+- Play Rough (Tutor)
 - Pollen Puff (TM) (HOME)
-- Solar Blade (Tutor) (HOME)
 - Trailblaze (Tutor)
 
 * If type changes are removed, Chikorita cannot learn these moves.
@@ -5924,11 +5922,9 @@ Type: Grass
 New Moves:
 - Dazzling Gleam (TM)
 - Draining Kiss** (Level/Tutor)
-- Mega Drain (Tutor)
 - Moonblast* (Level)
-- Play Rough (TM)
+- Play Rough (Tutor)
 - Pollen Puff (TM) (HOME)
-- Solar Blade (Tutor) (HOME)
 - Trailblaze (Tutor)
 
 * If type changes are removed, Bayleef cannot learn these moves.
@@ -5970,12 +5966,10 @@ New Moves:
 - Soothing Aroma (Level) (New Move)
 - Dazzling Gleam (TM)
 - Draining Kiss** (Level/Tutor)
-- Mega Drain (Tutor)
 - Moonblast* (Level)
-- Play Rough (TM)
+- Play Rough (Tutor)
 - Pollen Puff (TM) (HOME)
 - Power Whip (Tutor)
-- Solar Blade (Tutor) (HOME)
 - Trailblaze (Tutor)
 
 * If type changes are removed, Meganium cannot learn these moves.
@@ -6083,7 +6077,6 @@ New Moves:
 - Infernal Blast (Level) (New Move)
 - Earth Power (Level/Tutor)
 - Mystical Fire (TM) (HOME)
-- Raging Fury (Tutor)
 - Scorching Sands (TM) (HOME)
 - Thunderbolt (TM)
 
@@ -6191,7 +6184,6 @@ New Moves:
 - Breaking Swipe (Level/Tutor) (HOME)
 - Chilling Water (Tutor)
 - Flip Turn (Tutor)
-- Muddy Water (Tutor) (HOME)
 - Psychic Fangs (Tutor) (HOME)
 - Scale Shot (TM) (HOME)
 - Wave Crash (Level)
@@ -6228,8 +6220,8 @@ Held Item: Oran Berry (5%)
 Type: Normal
 
 New Moves:
-- Play Rough (TM)
-- Tail Slap (Level/Tutor) (HOME)
+- Play Rough (Tutor)
+- Tail Slap (Level) (HOME)
 
 Level Up Moves:
 01 - Helping Hand
@@ -6261,9 +6253,9 @@ Type: Normal
 New Moves:
 - Extreme Speed (Level)
 - Flame Charge (TM)
-- Play Rough (TM)
+- Play Rough (Tutor)
 - Power Whip (Tutor)
-- Tail Slap (Level/Tutor) (HOME)
+- Tail Slap (Level) (HOME)
 
 Level Up Moves:
 01 - Brutal Swing
@@ -6368,7 +6360,6 @@ New Moves:
 - Dual Wingbeat (Level/Tutor) (HOME)
 - First Impression (Level)
 - Lunge (Level)
-- Mega Drain (Tutor)
 - Meteor Mash (Level)
 - Pollen Puff (TM)
 - Pounce (Tutor)
@@ -6407,7 +6398,6 @@ New Moves:
 - Dual Wingbeat (Level/Tutor) (HOME)
 - First Impression (Level)
 - Lunge (Level)
-- Mega Drain (Tutor)
 - Meteor Mash (Level)
 - Pollen Puff (TM)
 - Pounce (Tutor)
@@ -6447,12 +6437,9 @@ Type: Bug / Poison
 New Moves: 
 - First Impression (Level)
 - Gunk Shot (Tutor)
-- Mega Drain (Tutor)
 - Poison Fang (Level)
 - Pounce (Tutor)
 - Psychic Fangs (Tutor)
-- Screech (Tutor) (HOME)
-- Skitter Smack (Tutor) (HOME)
 
 Level Up Moves:
 01 - Spider Web
@@ -6486,12 +6473,10 @@ New Moves:
 - Drill Run (Tutor)
 - First Impression (Level)
 - Gunk Shot (Tutor)
-- Mega Drain (Tutor)
 - Poison Fang (Level)
 - Pounce (Tutor)
 - Psychic Fangs (Tutor)
-- Screech (Tutor) (HOME)
-- Skitter Smack (Tutor) (HOME)
+- Skitter Smack (Level) (HOME)
 
 Level Up Moves:
 01 - Swords Dance
@@ -6711,7 +6696,6 @@ Type: Psychic / Flying
 New Moves:
 - Confusion (Level)
 - Esper Wing (Level)
-- Mega Drain (Tutor)
 
 Level Up Moves:
 01 - Teleport
@@ -6745,7 +6729,6 @@ New Moves:
 - Confusion (Level)
 - Esper Wing (Level)
 - Hurricane (Tutor)
-- Mega Drain (Tutor)
 
 Level Up Moves:
 01 - Stored Power
@@ -7023,7 +7006,6 @@ Type: Grass / Flying
 New Moves:
 - Growth (Level)
 - Hyper Voice (Tutor)
-- Uproar (Tutor)
 
 Level Up Moves:
 01 - Splash
@@ -7064,7 +7046,6 @@ Type: Grass / Flying
 New Moves:
 - Growth (Level)
 - Hyper Voice (Tutor)
-- Uproar (Tutor)
 
 Level Up Moves:
 01 - Splash
@@ -7106,8 +7087,7 @@ New Moves:
 - Fly (HM)
 - Growth (Level)
 - Hyper Voice (Tutor)
-- Play Rough (TM)
-- Uproar (Tutor)
+- Play Rough (Tutor)
 
 Level Up Moves:
 01 - Splash
@@ -7147,7 +7127,7 @@ Held Item: None
 Type: Normal
 
 New Moves:
-- Fake Tears (Tutor) (HOME)
+- None
 
 Level Up Moves:
 01 - Fake Out
@@ -7182,7 +7162,6 @@ Type: Normal
 
 New Moves:
 - Arm Thrust (Level)
-- Fake Tears (Tutor) (HOME)
 
 Level Up Moves:
 01 - Arm Thrust
@@ -7249,7 +7228,6 @@ Held Item: None
 Type: Grass
 
 New Moves:
-- Leaf Blade (Tutor) (HOME)
 - Mystical Fire (TM)
 - Pollen Puff (TM)
 - Weather Ball (Level/Tutor) (HOME)
@@ -7289,7 +7267,6 @@ Type: Bug / Flying
 New Moves: 
 - Dual Wingbeat (Tutor) (HOME)
 - Hurricane (Level/Tutor) (HOME)
-- Mega Drain (Tutor)
 - Pounce (Tutor)
 
 Level Up Moves:
@@ -7322,11 +7299,9 @@ Type: Bug / Flying
 
 New Moves: 
 - Boomburst (Level)
-- Crunch (Tutor) (PLA)
 - Dual Wingbeat (Tutor) (HOME)
 - Fly (HM)
 - Hurricane (Level/Tutor) (HOME)
-- Mega Drain (Tutor)
 - Pounce (Tutor)
 
 Level Up Moves:
@@ -7489,7 +7464,6 @@ New Moves:
 - Disarming Voice (Level)
 - Hypnosis (Level) (PLA)
 - Moonblast* (Level)
-- Skitter Smack (Tutor) (HOME)
 
 * If type changes are removed, Misdreavus cannot learn these moves.
 
@@ -7527,7 +7501,6 @@ New Moves:
 - Disarming Voice (Level)
 - Hypnosis (Level) (PLA)
 - Moonblast* (Level)
-- Skitter Smack (Tutor) (HOME)
 
 * If type changes are removed, Mismagius cannot learn these moves.
 
@@ -7624,7 +7597,7 @@ Held Item: Persim Berry (5%)
 Type: Normal / Psychic
 
 New Moves:
-- High Horsepower (Tutor)
+- None
 
 Level Up Moves:
 01 - Power Swap
@@ -7657,7 +7630,7 @@ Held Item: None
 Type: Normal / Psychic
 
 New Moves:
-- High Horsepower (Tutor)
+- None
 
 Notes: Cud Chew can't be added to the game yet, so it has been replaced with Armor Tail.
 
@@ -7692,7 +7665,6 @@ Held Item: None
 Type: Bug
 
 New Moves:
-- Mega Drain (Tutor)
 - Shell Smash (Level)
 - Steamroller (Level)
 
@@ -7726,7 +7698,6 @@ Held Item: None
 Type: Bug / Steel
 
 New Moves:
-- Mega Drain (Tutor)
 - Shell Smash (Level)
 - Steamroller (Level)
 
@@ -7767,7 +7738,7 @@ Held Item: None
 Type: Normal
 
 New Moves:
-- Dragon Dance (Tutor)
+- None
 
 Level Up Moves:
 01 - Rage
@@ -7800,7 +7771,7 @@ Held Item: None
 Type: Normal
 
 New Moves:
-- Dragon Dance (Tutor)
+- None
 
 Notes:
 Only the three-segment form of Dudunsparce has been added to the game.
@@ -7873,7 +7844,6 @@ New Moves:
 - Dual Wingbeat (Tutor) (HOME)
 - Power Whip (Tutor) (HOME)
 - Psychic Fangs (Tutor) (HOME)
-- Scary Face (Tutor) (HOME)
 
 Level Up Moves:
 01 - Poison Jab
@@ -8079,7 +8049,7 @@ Held Item: Grip Claw (50%), Quick Claw (5%)
 Type: Dark / Ice
 
 New Moves:
-- Crunch (Level/Tutor)
+- Crunch (Level)
 
 Level Up Moves:
 01 - Fake Out
@@ -8111,7 +8081,7 @@ Held Item: Grip Claw (50%), Quick Claw (5%)
 Type: Dark / Ice
 
 New Moves:
-- Crunch (Level/Tutor)
+- Crunch (Level)
 
 Level Up Moves:
 01 - Nasty Plot
@@ -8148,8 +8118,7 @@ Held Item: None
 Type: Normal
 
 New Moves:
-- Focus Energy (Tutor) (HOME)
-- High Horsepower (Level/Tutor) (PLA)
+- High Horsepower (Level) (PLA)
 
 Level Up Moves:
 01 - Sweet Scent
@@ -8183,7 +8152,7 @@ Held Item: None
 Type: Normal
 
 New Moves:
-- Focus Energy (Tutor) (HOME)
+- None
 
 Level Up Moves:
 01 - Night Slash
@@ -8218,7 +8187,7 @@ Held Item: None
 Type: Ground / Normal
 
 New Moves:
-- Focus Energy (Tutor) (HOME)
+- None
 
 Level Up Moves:
 01 - Headlong Rush
@@ -8257,7 +8226,6 @@ New Moves:
 - Magma Storm (Level)
 - Power Gem (Level/Tutor)
 - Scorching Sands (TM) (HOME)
-- Skitter Smack (Tutor) (HOME)
 
 Level Up Moves:
 01 - Smog
@@ -8289,12 +8257,10 @@ Held Item: None
 Type: Fire / Rock
 
 New Moves:
-- Heat Crash (Tutor) (HOME)
 - Magma Storm (Level)
 - Meteor Beam (Tutor)
 - Power Gem (Level/Tutor)
 - Scorching Sands (TM) (HOME)
-- Skitter Smack (Tutor) (HOME)
 
 Level Up Moves:
 01 - Smog
@@ -8556,7 +8522,6 @@ Type: Water / Flying
 
 New Moves:
 - Chilling Water (Tutor)
-- Double-Edge (Tutor) (PLA)
 
 Level Up Moves:
 01 - Water Sport
@@ -9101,7 +9066,7 @@ Held Item: None
 Type: Psychic / Flying
 
 New Moves:
-- Mega Drain (Tutor)
+- None
 
 Level Up Moves:
 01 - Dragon Rush
@@ -9131,7 +9096,7 @@ Held Item: Sacred Ash (100%)
 Type: Fire / Flying
 
 New Moves:
-- Mega Drain (Tutor)
+- None
 
 Level Up Moves:
 01 - Brave Bird
@@ -9161,8 +9126,7 @@ Held Item: Lum Berry (100%)
 Type: Grass / Psychic
 
 New Moves:
-- Mega Drain (Tutor)
-- Teleport (Tutor)
+- None
 
 Level Up Moves:
 01 - Confusion

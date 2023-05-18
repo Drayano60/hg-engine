@@ -2547,7 +2547,7 @@ Type: Rock / Ground
 
 New Moves:
 - Head Smash (Level)
-- Scorching Sands (Tutor) (HOME)
+- Scorching Sands (TM) (HOME)
 
 Level Up Moves:
 01 - Tackle
@@ -2579,7 +2579,7 @@ Type: Rock / Ground
 New Moves:
 - Head Smash (Level)
 - High Horsepower (Tutor) (HOME)
-- Scorching Sands (Tutor) (HOME)
+- Scorching Sands (TM) (HOME)
 
 Level Up Moves:
 01 - Tackle
@@ -2613,7 +2613,7 @@ New Moves:
 - Heat Crash (Tutor)
 - High Horsepower (Tutor) (HOME)
 - Meteor Beam (Tutor) (HOME)
-- Scorching Sands (Tutor) (HOME)
+- Scorching Sands (TM) (HOME)
 
 Level Up Moves:
 01 - Heavy Slam
@@ -6130,7 +6130,7 @@ New Moves:
 - Earth Power (Level/Tutor)
 - Mystical Fire (TM) (HOME)
 - Raging Fury (Tutor)
-- Scorching Sands (Tutor) (HOME)
+- Scorching Sands (TM) (HOME)
 - Thunderbolt (TM)
 
 Level Up Moves:
@@ -8302,7 +8302,7 @@ Type: Fire
 New Moves:
 - Magma Storm (Level)
 - Power Gem (Level/Tutor)
-- Scorching Sands (Tutor) (HOME)
+- Scorching Sands (TM) (HOME)
 - Skitter Smack (Tutor) (HOME)
 
 Level Up Moves:
@@ -8339,7 +8339,7 @@ New Moves:
 - Magma Storm (Level)
 - Meteor Beam (Tutor)
 - Power Gem (Level/Tutor)
-- Scorching Sands (Tutor) (HOME)
+- Scorching Sands (TM) (HOME)
 - Skitter Smack (Tutor) (HOME)
 
 Level Up Moves:
@@ -8732,7 +8732,7 @@ Type: Dark / Fire
 
 New Moves:
 - Poison Fang (Level)
-- Scorching Sands (Tutor) (HOME)
+- Scorching Sands (TM) (HOME)
 
 Level Up Moves:
 01 - Thunder Fang
@@ -8767,7 +8767,7 @@ Held Item: Passho Berry (5%)
 Type: Ground
 
 New Moves:
-- Scorching Sands (Tutor) (HOME)
+- Scorching Sands (TM) (HOME)
 - Water Gun (Level) (Crystal VC)
 
 Level Up Moves:
@@ -8799,7 +8799,7 @@ New Moves:
 - Close Combat (Tutor)
 - Headlong Rush (Level)
 - Power Whip (Tutor) (HOME)
-- Scorching Sands (Tutor) (HOME)
+- Scorching Sands (TM) (HOME)
 - Steamroller (Level)
 - Water Gun (Level) (Crystal VC)
 
@@ -11615,7 +11615,7 @@ Type: Fire / Ground
 
 New Moves:
 - Heat Crash (Tutor) (HOME)
-- Scorching Sands (Tutor) (HOME)
+- Scorching Sands (TM) (HOME)
 
 Level Up Moves:
 01 - Tackle
@@ -11645,7 +11645,7 @@ Type: Fire / Ground
 New Moves:
 - Heat Crash (Tutor) (HOME)
 - High Horsepower (Tutor) (HOME)
-- Scorching Sands (Tutor) (HOME)
+- Scorching Sands (TM) (HOME)
 
 Level Up Moves:
 01 - Heavy Slam
@@ -11907,7 +11907,7 @@ New Moves:
 - Cotton Guard (Level)
 - Earth Power (Tutor)
 - Mega Drain (Tutor)
-- Scorching Sands (Tutor)
+- Scorching Sands (TM)
 
 Level Up Moves:
 01 - Poison Sting
@@ -11943,7 +11943,7 @@ New Moves:
 - Cotton Guard (Level)
 - Earth Power (Tutor)
 - Mega Drain (Tutor)
-- Scorching Sands (Tutor)
+- Scorching Sands (TM)
 
 Level Up Moves:
 01 - Revenge
@@ -16792,7 +16792,7 @@ Held Item: None
 Type: Fire / Fighting
 
 New Moves:
-- None
+- Scorching Sands (TM) (HOME)
 
 Level Up Moves:
 01 - Sucker Punch
@@ -17250,6 +17250,7 @@ Type: Fire
 New Moves:
 - Lava Plume (Level)
 - Play Rough (TM)
+- Scorching Sands (TM) (HOME)
 
 Level Up Moves:
 01 - Fire Spin

@@ -1,0 +1,171 @@
+I opted to use the ingame tutor system instead of a messy script one afterwards, but it left me with a max of 64 moves so I had to cut a significant amount of them from my initial plans.
+
+This is a record of what's changed.
+
+NEW (5) -- These were not previously Move Tutor but are now
+- Bulldoze
+- Gyro Ball
+- Play Rough
+- Poltergeist
+- Stored Power
+
+KEPT (59) -- These were previously Move Tutor and still are
+- Acid Spray
+- Air Cutter
+- Ancient Power
+- Aqua Tail
+- Aura Sphere
+- Breaking Swipe
+- Brutal Swing
+- Charm
+- Chilling Water
+- Close Combat
+- Cross Poison
+- Double-Edge
+- Dragon Tail
+- Draining Kiss
+- Drill Run
+- Dual Wingbeat
+- Earth Power
+- Electroweb
+- Fire Punch
+- Flare Blitz
+- Flip Turn
+- Foul Play
+- Gunk Shot
+- Headbutt
+- Heat Wave
+- Heavy Slam
+- Hex
+- Hurricane
+- Hydro Pump
+- Hyper Voice
+- Ice Punch
+- Icy Wind
+- Incinerate
+- Iron Head
+- Knock Off
+- Low Kick
+- Magical Leaf
+- Megahorn
+- Meteor Beam
+- Ominous Wind
+- Outrage
+- Pounce
+- Power Gem
+- Power Whip
+- Psybeam
+- Psychic Fangs
+- Seed Bomb
+- Shock Wave
+- Signal Beam
+- Silver Wind
+- Sucker Punch
+- Superpower
+- Thunder Punch
+- Trailblaze
+- Triple Axel
+- Volt Switch
+- Water Pulse
+- Wild Charge
+- Zen Headbutt
+
+CUT (76) -- These were previously Move Tutor and no longer are
+- Amnesia
+- Aurora Veil
+- Blaze Kick
+- Block
+- Body Slam
+- Bounce
+- Brave Bird
+- Brine
+- Bug Bite
+- Bullet Seed
+- Captivate
+- Confide
+- Crunch
+- Curse
+- Darkest Lariat
+- Disable
+- Dive
+- Dragon Dance
+- Dual Chop
+- Eerie Impulse
+- Endeavor
+- Fake Tears
+- Fire Fang
+- Focus Energy
+- Focus Punch
+- Fury Cutter
+- Gastro Acid
+- Gravity
+- Heal Bell
+- Heat Crash
+- Helping Hand
+- High Horsepower
+- Ice Fang
+- Iron Defense
+- Last Resort
+- Leaf Blade
+- Leaf Storm
+- Liquidation
+- Magic Coat
+- Magnet Rise
+- Mega Drain
+- Metronome
+- Mud-Slap
+- Muddy Water
+- Pain Split
+- Pluck
+- Power-Up Punch
+- Raging Fury
+- Recycle
+- Role Play
+- Rollout
+- Scary Face
+- Screech
+- Skitter Smack
+- Sky Attack
+- Snatch
+- Snore
+- Solar Blade
+- Spikes
+- Spite
+- String Shot
+- Struggle Bug
+- Super Fang
+- Swift
+- Synthesis
+- Tail Slap
+- Tailwind
+- Teleport
+- Thunder Fang
+- Toxic Spikes
+- Tri Attack
+- Trick
+- Twister
+- Uproar
+- Vacuum Wave
+- Worry Seed
+  
+MOVED TO TM (6) -- These are previously Move Tutor but are now TMs
+- Body Press
+- Ice Spinner
+- Pollen Puff
+- Psycho Cut
+- Scale Shot
+- Scorching Sands
+  
+(Shuffling TM32, TM58, TM72, TM74, TM85, TM90)
+
+MOVED TO TUTOR NPC (3+1) -- These were Move Tutors/TMs but are now NPC tutors
+- Dig
+- Flash
+- Steel Beam
+- Substitute (from TM90)
+
+CUT FROM TMs (4) -- These are moves that were TMs but have been replaced altogether
+- Double Team
+- Endure
+- Avalanche
+- Dream Eater

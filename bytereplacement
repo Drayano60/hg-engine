@@ -101,3 +101,7 @@ arm9 08051886 22
 
 # expand move tutor heap
 arm9 0203DFF4 8A 02
+
+# move tutor limiter (normally 0x34 = 52, changed to 0x40 = 64)
+0001 02202C12 40
+0001 02202DEA 40

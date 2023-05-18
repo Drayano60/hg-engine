@@ -10626,6 +10626,7 @@ Type: Rock
 New Moves:
 - Body Press (TM) (HOME)
 - Head Smash (Level)
+- Meteor Beam (Tutor) (HOME)
 - Thunder Shock (Level)
 
 Level Up Moves:
@@ -13726,9 +13727,8 @@ Held Item: None
 Type: Grass
 
 New Moves:
-- Bulldoze (TM) (PLA)
+- Bulldoze (Tutor) (PLA)
 - Shell Smash (Level)
-- Skitter Smack (Tutor) (HOME)
 - Trailblaze (Tutor)
 
 Level Up Moves:
@@ -13760,7 +13760,6 @@ Type: Grass
 New Moves:
 - Bulldoze (TM) (PLA)
 - Shell Smash (Level)
-- Skitter Smack (Tutor) (HOME)
 - Trailblaze (Tutor)
 
 Level Up Moves:
@@ -13793,7 +13792,6 @@ Type: Grass / Ground
 New Moves:
 - Headlong Rush (Level) (PLA)
 - Shell Smash (Level)
-- Skitter Smack (Tutor) (HOME)
 - Trailblaze (Tutor)
 
 Level Up Moves:
@@ -13890,7 +13888,7 @@ New Moves:
 - Aura Sphere (Tutor)
 - Double-Edge (Tutor) (PLA)
 - Drain Punch (TM) (PLA)
-- Raging Fury (Level/Tutor) (PLA)
+- Raging Fury (Level) (PLA)
 
 Level Up Moves:
 01 - Fire Punch
@@ -13928,7 +13926,6 @@ Type: Water
 New Moves:
 - Chilling Water (Tutor)
 - Double-Edge (Tutor) (PLA)
-- Flip Turn (Tutor)
 - Roost (TM) (PLA)
 
 Level Up Moves:
@@ -13961,7 +13958,6 @@ New Moves:
 - Chilling Water (Tutor)
 - Double-Edge (Tutor) (PLA)
 - Dual Wingbeat (Tutor)
-- Flip Turn (Tutor)
 - Roost (TM) (PLA)
 
 Level Up Moves:
@@ -14129,7 +14125,7 @@ Held Item: None
 Type: Normal
 
 New Moves:
-- Chilling Water (Tutor)
+- None
 
 Level Up Moves:
 01 - Mud Sport
@@ -14216,7 +14212,6 @@ New Moves:
 - Boomburst (Level)
 - Disarming Voice (Level)
 - Double-Edge (Tutor)
-- Mega Drain (Tutor)
 - Snarl (TM)
 
 Level Up Moves:
@@ -14510,7 +14505,6 @@ Type: Bug / Grass
 
 New Moves:
 - Dual Wingbeat (Tutor) (HOME)
-- Mega Drain (Tutor)
 
 Level Up Moves:
 01 - Sucker Punch
@@ -14542,7 +14536,6 @@ Type: Bug / Ground
 
 New Moves:
 - Dual Wingbeat (Tutor) (HOME)
-- Mega Drain (Tutor)
 - Mud Bomb (Level)
 
 Level Up Moves:
@@ -14577,7 +14570,6 @@ Type: Bug / Steel
 
 New Moves:
 - Dual Wingbeat (Tutor) (HOME)
-- Mega Drain (Tutor)
 
 Level Up Moves:
 01 - Sucker Punch
@@ -14612,7 +14604,6 @@ New Moves:
 - Dual Wingbeat (Tutor) (HOME)
 - First Impression (Level)
 - Hurricane (Tutor)
-- Mega Drain (Tutor)
 
 Level Up Moves:
 01 - Silver Wind
@@ -14798,7 +14789,6 @@ Type: Grass
 
 New Moves:
 - Double-Edge (Tutor) (PLA)
-- Mega Drain (Tutor)
 - Sleep Powder (Level) (PLA)
 - Stun Spore (Level) (PLA)
 - Trailblaze (Tutor)
@@ -14833,7 +14823,6 @@ Type: Grass
 
 New Moves:
 - Double-Edge (Tutor) (PLA)
-- Mega Drain (Tutor)
 - Sleep Powder (Level) (PLA)
 - Stun Spore (Level) (PLA)
 - Trailblaze (Tutor)
@@ -14853,8 +14842,8 @@ Level Up Moves:
 15 - Magical Leaf
 18 - Draining Kiss
 21 - Lucky Chant
-25 - Petal Dance
 24 - Take Down
+25 - Petal Dance
 28 - Sweet Scent
 32 - Sleep Powder
 36 - Energy Ball
@@ -15072,7 +15061,7 @@ Held Item: Cheri Berry (5%)
 Type: Normal
 
 New Moves:
-- Double-Edge (Level) (PLA)
+- Double-Edge (Level/Tutor) (PLA)
 - Night Slash (Level) (PLA)
 
 Level Up Moves:
@@ -15105,7 +15094,7 @@ Held Item: Cheri Berry (5%)
 Type: Normal
 
 New Moves:
-- Double-Edge (Level) (PLA)
+- Double-Edge (Level/Tutor) (PLA)
 - Night Slash (Level) (PLA)
 
 Level Up Moves:
@@ -15305,7 +15294,6 @@ Type: Ghost / Dark
 
 New Moves:
 - Giga Drain (TM)
-- Mega Drain (Tutor)
 
 Level Up Moves:
 01 - Pursuit
@@ -15697,8 +15685,7 @@ Type: Grass
 New Moves:
 - Dark Pulse (TM)
 - Double-Edge (Tutor)
-- Mega Drain (Tutor)
-- Leaf Blade (Level/Tutor)
+- Leaf Blade (Level)
 - Leech Life (Level/TM) (PLA)
 - Poison Fang (Level)
 - Trailblaze (Tutor)
@@ -15773,7 +15760,6 @@ New Moves:
 - Double-Edge (Tutor)
 - Dual Wingbeat (Tutor) (HOME)
 - Flip Turn (Tutor) (HOME)
-- Hurricane (Tutor)
 - Quiver Dance (Level)
 - Scale Shot (TM) (HOME)
 - Triple Axel (Tutor) (HOME)
@@ -15813,7 +15799,6 @@ Type: Grass / Ice
 
 New Moves:
 - Icicle Crash (Level) (PLA)
-- Mega Drain (Tutor)
 
 Level Up Moves:
 01 - Powder Snow
@@ -15844,7 +15829,6 @@ Type: Grass / Ice
 
 New Moves:
 - Icicle Crash (Level) (PLA)
-- Mega Drain (Tutor)
 
 Level Up Moves:
 01 - Avalanche
@@ -16052,9 +16036,8 @@ Type: Psychic ⟶ Psychic / Fairy
 
 New Moves:
 - Double-Edge (Tutor)
-- Mega Drain (Tutor)
 - Moonblast (Level)
-- Teleport (Level/Tutor)
+- Teleport (Level)
 
 Level Up Moves:
 01 - Teleport
@@ -16086,7 +16069,7 @@ Type: Psychic ⟶ Psychic / Fairy
 New Moves:
 - Double-Edge (Tutor)
 - Moonblast (Level)
-- Teleport (Level/Tutor)
+- Teleport (Level)
 
 Level Up Moves:
 01 - Teleport
@@ -16118,7 +16101,7 @@ Type: Psychic ⟶ Psychic / Fairy
 New Moves:
 - Double-Edge (Tutor)
 - Moonblast (Level)
-- Teleport (Level/Tutor)
+- Teleport (Level)
 
 Level Up Moves:
 01 - Teleport
@@ -16438,7 +16421,6 @@ Type: Grass
 
 New Moves:
 - Double-Edge (Tutor)
-- Mega Drain (Tutor)
 - Trailblaze (Tutor)
 
 Level Up Moves:
@@ -16465,7 +16447,6 @@ Type: Grass / Flying
 
 New Moves:
 - Double-Edge (Tutor)
-- Mega Drain (Tutor)
 - Trailblaze (Tutor)
 
 Level Up Moves:
@@ -16492,7 +16473,6 @@ Type: Normal
 
 New Moves:
 - Double-Edge (Tutor)
-- Mega Drain (Tutor)
 
 Level Up Moves:
 01 - Ancient Power

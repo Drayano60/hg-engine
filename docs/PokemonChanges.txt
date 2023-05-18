@@ -2617,6 +2617,7 @@ New Moves:
 - Blaze Kick (Level)
 - Jump Kick (Level)
 - Low Sweep (TM)
+- Trailblaze (Tutor)
 
 Level Up Moves:
 01 - Tackle
@@ -2648,6 +2649,7 @@ New Moves:
 - Extreme Speed (Level)
 - Jump Kick (Level)
 - Low Sweep (TM)
+- Trailblaze (Tutor)
 
 Level Up Moves:
 01 - Fury Attack
@@ -7462,6 +7464,7 @@ New Moves:
 - Disarming Voice (Level)
 - Hypnosis (Level) (PLA)
 - Moonblast* (Level)
+- Poltergeist (Tutor) (HOME)
 
 * If type changes are removed, Misdreavus cannot learn these moves.
 
@@ -7499,6 +7502,7 @@ New Moves:
 - Disarming Voice (Level)
 - Hypnosis (Level) (PLA)
 - Moonblast* (Level)
+- Poltergeist (Tutor) (HOME)
 
 * If type changes are removed, Mismagius cannot learn these moves.
 
@@ -11695,6 +11699,7 @@ Type: Ground ⟶ Bug / Ground
 
 New Moves:
 - Lunge (Level)
+- Pounce (Tutor)
 
 Level Up Moves:
 01 - Feint
@@ -11725,6 +11730,7 @@ Type: Ground / Dragon ⟶ Bug / Dragon
 
 New Moves:
 - Lunge (Level)
+- Pounce (Tutor)
 
 Level Up Moves:
 01 - Silver Wind
@@ -11759,6 +11765,7 @@ Type: Ground / Dragon ⟶ Bug / Dragon
 New Moves:
 - Lunge (Level)
 - Hurricane (Tutor)
+- Pounce (Tutor)
 
 Level Up Moves:
 01 - First Impression
@@ -12514,7 +12521,7 @@ Held Item: Spell Tag (5%)
 Type: Ghost ⟶ Ghost / Normal
 
 New Moves:
-- None
+- Poltergeist (Tutor) (HOME)
 
 Level Up Moves:
 01 - Astonish
@@ -12546,6 +12553,7 @@ Held Item: Spell Tag (5%)
 Type: Ghost ⟶ Ghost / Normal
 
 New Moves:
+- Poltergeist (Tutor) (HOME)
 - Slash (Level)
 
 Level Up Moves:
@@ -12581,6 +12589,7 @@ Type: Ghost
 
 New Moves:
 - Leech Life (TM) (PLA)
+- Pounce (Tutor)
 
 Level Up Moves:
 01 - Astonish
@@ -12611,6 +12620,7 @@ Type: Ghost
 
 New Moves:
 - Leech Life (TM) (PLA)
+- Pounce (Tutor)
 
 Level Up Moves:
 01 - Dark Pulse
@@ -12650,6 +12660,7 @@ New Moves:
 - Drain Punch (TM)
 - Leech Life (TM) (PLA)
 - Phantom Force (Level)
+- Pounce (Tutor)
 
 Level Up Moves:
 01 - Phantom Force
@@ -16502,6 +16513,8 @@ Type: Grass
 
 New Moves:
 - Breaking Swipe (Tutor)
+- Double-Edge (Tutor)
+- Trailblaze (Tutor)
 
 Level Up Moves:
 01 - Tackle
@@ -16531,6 +16544,8 @@ Type: Grass
 
 New Moves:
 - Breaking Swipe (Level/Tutor)
+- Double-Edge (Tutor)
+- Trailblaze (Tutor)
 
 Level Up Moves:
 01 - Tackle
@@ -16561,7 +16576,9 @@ Type: Grass ⟶ Grass / Dragon
 
 New Moves:
 - Breaking Swipe (Level/Tutor)
+- Double-Edge (Tutor)
 - Scale Shot (TM) (HOME)
+- Trailblaze (Tutor)
 
 Level Up Moves:
 01 - Dragon Tail
@@ -16595,7 +16612,7 @@ Held Item: None
 Type: Fire
 
 New Moves:
-- None
+- Double-Edge (Tutor)
 
 Level Up Moves:
 01 - Tackle
@@ -16624,7 +16641,7 @@ Held Item: None
 Type: Fire / Fighting
 
 New Moves:
-- None
+- Double-Edge (Tutor)
 
 Level Up Moves:
 01 - Tackle
@@ -16654,6 +16671,7 @@ Held Item: None
 Type: Fire / Fighting
 
 New Moves:
+- Double-Edge (Tutor)
 - Scorching Sands (TM) (HOME)
 
 Level Up Moves:
@@ -16688,6 +16706,8 @@ Held Item: None
 Type: Water
 
 New Moves:
+- Chilling Water (Tutor)
+- Double-Edge (Tutor)
 - Wave Crash (Level)
 
 Level Up Moves:
@@ -16781,7 +16801,8 @@ Held Item: None
 Type: Normal
 
 New Moves:
-- None
+- Double-Edge (Tutor)
+- Trailblaze (Tutor)
 
 Level Up Moves:
 01 - Sand Attack
@@ -16811,7 +16832,8 @@ Held Item: None
 Type: Normal
 
 New Moves:
-- None
+- Double-Edge (Tutor)
+- Trailblaze (Tutor)
 
 Level Up Moves:
 01 - Assurance
@@ -16847,6 +16869,7 @@ Type: Normal
 
 New Moves:
 - Double-Edge (Level/Tutor)
+- Trailblaze (Tutor)
 
 Level Up Moves:
 01 - Tackle
@@ -16876,6 +16899,7 @@ Type: Normal
 
 New Moves:
 - Double-Edge (Level/Tutor)
+- Trailblaze (Tutor)
 
 Level Up Moves:
 01 - Tackle
@@ -16905,6 +16929,7 @@ Type: Normal
 
 New Moves:
 - Double-Edge (Level/Tutor)
+- Trailblaze (Tutor)
 
 Level Up Moves:
 01 - Thunder Fang
@@ -16937,7 +16962,8 @@ Held Item: None
 Type: Dark
 
 New Moves:
-- None
+- Double-Edge (Tutor)
+- Trailblaze (Tutor)
 
 Level Up Moves:
 01 - Scratch
@@ -16970,7 +16996,9 @@ Held Item: None
 Type: Dark
 
 New Moves:
-- None
+- Double-Edge (Tutor)
+- Trailblaze (Tutor)
+- Pounce (Tutor)
 
 Level Up Moves:
 01 - Hone Claws
@@ -17008,8 +17036,10 @@ Held Item: Oran Berry (50%), Occa Berry (5%)
 Type: Grass
 
 New Moves:
-- Play Rough (TM)
+- Double-Edge (Tutor)
+- Play Rough (Tutor)
 - Power Whip (Level/Tutor)
+- Trailblaze (Tutor)
 
 Level Up Moves:
 01 - Play Nice
@@ -17041,8 +17071,10 @@ Held Item: Oran Berry (50%), Occa Berry (5%)
 Type: Grass
 
 New Moves:
-- Play Rough (TM)
+- Double-Edge (Tutor)
+- Play Rough (Tutor)
 - Power Whip (Level/Tutor)
+- Trailblaze (Tutor)
 
 Level Up Moves:
 01 - Grass Whistle
@@ -17077,8 +17109,10 @@ Held Item: Oran Berry (50%), Passho Berry (5%)
 Type: Fire
 
 New Moves:
+- Double-Edge (Tutor)
 - Lava Plume (Level)
-- Play Rough (TM)
+- Play Rough (Tutor)
+- Trailblaze (Tutor)
 
 Level Up Moves:
 01 - Play Nice
@@ -17110,9 +17144,11 @@ Held Item: Oran Berry (50%), Passho Berry (5%)
 Type: Fire
 
 New Moves:
+- Double-Edge (Tutor)
 - Lava Plume (Level)
-- Play Rough (TM)
+- Play Rough (Tutor)
 - Scorching Sands (TM) (HOME)
+- Trailblaze (Tutor)
 
 Level Up Moves:
 01 - Fire Spin
@@ -17147,7 +17183,11 @@ Held Item: Oran Berry (50%), Rindo Berry (5%)
 Type: Water
 
 New Moves:
-- Play Rough (TM)
+- Chilling Water (Tutor)
+- Double-Edge (Tutor)
+- Flip Turn (Tutor) (HOME)
+- Play Rough (Tutor)
+- Trailblaze (Tutor)
 - Water Spout (Level)
 
 Level Up Moves:
@@ -17180,7 +17220,11 @@ Held Item: Oran Berry (50%), Rindo Berry (5%)
 Type: Water
 
 New Moves:
-- Play Rough (TM)
+- Chilling Water (Tutor)
+- Double-Edge (Tutor)
+- Flip Turn (Tutor) (HOME)
+- Play Rough (Tutor)
+- Trailblaze (Tutor)
 - Water Spout (Level)
 
 Level Up Moves:
@@ -17276,7 +17320,7 @@ Held Item: None
 Type: Normal / Flying
 
 New Moves:
-- None
+- Double-Edge (Tutor)
 
 Level Up Moves:
 01 - Gust
@@ -17304,7 +17348,7 @@ Held Item: None
 Type: Normal / Flying
 
 New Moves:
-- None
+- Double-Edge (Tutor)
 
 Level Up Moves:
 01 - Gust
@@ -17332,7 +17376,7 @@ Held Item: None
 Type: Normal / Flying
 
 New Moves:
-- None
+- Double-Edge (Tutor)
 
 Level Up Moves:
 01 - Night Slash
@@ -17365,6 +17409,7 @@ Type: Electric
 New Moves:
 - Jump Kick (Level)
 - Low Sweep (TM)
+- Trailblaze (Tutor)
 - Volt Tackle (Level)
 
 Level Up Moves:
@@ -17400,6 +17445,7 @@ New Moves:
 - Extreme Speed (Level)
 - Jump Kick (Level)
 - Low Sweep (TM)
+- Trailblaze (Tutor)
 - Volt Tackle (Level)
 
 Level Up Moves:
@@ -17432,6 +17478,7 @@ Held Item: Everstone (50%), Hard Stone (5%)
 Type: Rock
 
 New Moves:
+- Double-Edge (Tutor)
 - Rock Climb (HM)
 
 Level Up Moves:
@@ -17459,6 +17506,7 @@ Held Item: Everstone (50%), Hard Stone (5%)
 Type: Rock
 
 New Moves:
+- Double-Edge (Tutor)
 - Rock Climb (HM)
 
 Level Up Moves:
@@ -17487,6 +17535,7 @@ Held Item: Everstone (50%), Hard Stone (5%)
 Type: Rock
 
 New Moves:
+- Double-Edge (Tutor)
 - Rock Climb (HM)
 
 Level Up Moves:
@@ -17515,7 +17564,7 @@ Held Item: None
 Type: Psychic / Flying
 
 New Moves:
-- None
+- Double-Edge (Tutor)
 
 Level Up Moves:
 01 - Gust
@@ -17544,7 +17593,8 @@ Held Item: None
 Type: Psychic / Flying
 
 New Moves:
-- None
+- Double-Edge (Tutor)
+- Hurricane (Tutor)
 
 Level Up Moves:
 01 - Stored Power
@@ -17575,7 +17625,7 @@ Held Item: None
 Type: Ground
 
 New Moves:
-- None
+- Double-Edge (Tutor)
 
 Level Up Moves:
 01 - Scratch
@@ -17603,7 +17653,7 @@ Held Item: None
 Type: Ground
 
 New Moves:
-- None
+- Double-Edge (Tutor)
 
 Level Up Moves:
 01 - Scratch
@@ -17633,7 +17683,7 @@ Held Item: Oran Berry (50%), Sitrus Berry (5%)
 Type: Normal ⟶ Normal / Fairy
 
 New Moves:
-- None
+- Chilling Water (Tutor)
 
 Level Up Moves:
 01 - Pound
@@ -17665,6 +17715,7 @@ Held Item: None
 Type: Fighting
 
 New Moves:
+- Double-Edge (Tutor)
 - Rock Climb (HM)
 
 Level Up Moves:
@@ -17693,6 +17744,7 @@ Held Item: None
 Type: Fighting
 
 New Moves:
+- Double-Edge (Tutor)
 - Rock Climb (HM)
 
 Level Up Moves:
@@ -17721,6 +17773,7 @@ Held Item: None
 Type: Fighting
 
 New Moves:
+- Double-Edge (Tutor)
 - Rock Climb (HM)
 
 Level Up Moves:
@@ -17751,7 +17804,7 @@ Held Item: Pecha Berry (50%)
 Type: Water
 
 New Moves:
-- None
+- Double-Edge (Tutor)
 
 Level Up Moves:
 01 - Bubble
@@ -17779,7 +17832,7 @@ Held Item: Pecha Berry (50%)
 Type: Water / Ground
 
 New Moves:
-- None
+- Double-Edge (Tutor)
 
 Level Up Moves:
 01 - Bubble
@@ -17807,7 +17860,7 @@ Held Item: Pecha Berry (50%)
 Type: Water / Ground
 
 New Moves:
-- None
+- Double-Edge (Tutor)
 
 Level Up Moves:
 01 - Drain Punch
@@ -17838,7 +17891,7 @@ Held Item: Black Belt (5%)
 Type: Fighting
 
 New Moves:
-- None
+- Double-Edge (Tutor)
 
 Level Up Moves:
 01 - Bind
@@ -17865,7 +17918,7 @@ Held Item: Black Belt (5%)
 Type: Fighting
 
 New Moves:
-- None
+- Double-Edge (Tutor)
 
 Level Up Moves:
 01 - Karate Chop
@@ -17932,7 +17985,9 @@ Held Item: Mental Herb (5%)
 Type: Bug / Grass
 
 New Moves:
-- None
+- Double-Edge (Tutor)
+- Pounce (Tutor)
+- Trailblaze (Tutor)
 
 Level Up Moves:
 01 - Grass Whistle
@@ -17960,7 +18015,7 @@ Held Item: Poison Barb (5%)
 Type: Bug / Poison
 
 New Moves:
-- None
+- Pounce (Tutor)
 
 Level Up Moves:
 01 - Poison Sting
@@ -17987,7 +18042,7 @@ Held Item: Poison Barb (5%)
 Type: Bug / Poison
 
 New Moves:
-- None
+- Pounce (Tutor)
 
 Level Up Moves:
 01 - Poison Sting
@@ -18015,7 +18070,7 @@ Held Item: Poison Barb (5%)
 Type: Bug / Poison
 
 New Moves:
-- None
+- Pounce (Tutor)
 
 Level Up Moves:
 01 - Poison Sting
@@ -18044,7 +18099,8 @@ Held Item: None
 Type: Grass / Fairy
 
 New Moves:
-- None
+- Double-Edge (Tutor)
+- Trailblaze (Tutor)
 
 Level Up Moves:
 01 - Helping Hand
@@ -18074,7 +18130,8 @@ Held Item: None
 Type: Grass / Fairy
 
 New Moves:
-- None
+- Double-Edge (Tutor)
+- Trailblaze (Tutor)
 
 Level Up Moves:
 01 - Helping Hand
@@ -18109,6 +18166,7 @@ Type: Grass
 
 New Moves:
 - Dazzling Gleam (TM)
+- Double-Edge (Tutor)
 
 Level Up Moves:
 01 - Helping Hand
@@ -18139,6 +18197,7 @@ Type: Grass
 
 New Moves:
 - Dazzling Gleam (TM)
+- Double-Edge (Tutor)
 
 Level Up Moves:
 01 - Petal Blizzard
@@ -18330,7 +18389,7 @@ Held Item: Rawst Berry (50%)
 Type: Fire
 
 New Moves:
-- None
+- Double-Edge (Tutor)
 
 Level Up Moves:
 01 - Ember
@@ -18359,7 +18418,7 @@ Held Item: Rawst Berry (50%)
 Type: Fire
 
 New Moves:
-- None
+- Double-Edge (Tutor)
 
 Level Up Moves:
 01 - Ember
@@ -18389,7 +18448,7 @@ Held Item: None
 Type: Fire / Psychic
 
 New Moves:
-- None
+- Double-Edge (Tutor)
 
 Level Up Moves:
 01 - Tackle
@@ -18418,7 +18477,8 @@ Held Item: Miracle Seed (5%)
 Type: Grass
 
 New Moves:
-- None
+- Double-Edge (Tutor)
+- Trailblaze (Tutor)
 
 Level Up Moves:
 01 - Grass Whistle
@@ -18453,7 +18513,8 @@ Held Item: Hard Stone (5%)
 Type: Bug / Rock
 
 New Moves:
-- None
+- Double-Edge (Tutor)
+- Pounce (Tutor)
 
 Level Up Moves:
 01 - Fury Cutter
@@ -18483,7 +18544,8 @@ Held Item: Hard Stone (5%)
 Type: Bug / Rock
 
 New Moves:
-- None
+- Double-Edge (Tutor)
+- Pounce (Tutor)
 
 Level Up Moves:
 01 - Night Slash
@@ -18514,7 +18576,7 @@ Held Item: Shed Shell (5%)
 Type: Dark / Fighting
 
 New Moves:
-- None
+- Double-Edge (Tutor)
 
 Level Up Moves:
 01 - Headbutt
@@ -18543,7 +18605,7 @@ Held Item: Shed Shell (5%)
 Type: Dark / Fighting
 
 New Moves:
-- None
+- Double-Edge (Tutor)
 
 Level Up Moves:
 01 - Zen Headbutt
@@ -18574,7 +18636,7 @@ Held Item: None
 Type: Psychic / Flying
 
 New Moves:
-- None
+- Double-Edge (Tutor)
 
 Level Up Moves:
 01 - Psycho Shift
@@ -18667,6 +18729,8 @@ Held Item: None
 Type: Water / Rock
 
 New Moves:
+- Chilling Water (Tutor)
+- Double-Edge (Tutor)
 - Wave Crash (Level)
 
 Level Up Moves:
@@ -18697,6 +18761,8 @@ Held Item: None
 Type: Water / Rock
 
 New Moves:
+- Chilling Water (Tutor)
+- Double-Edge (Tutor)
 - Wave Crash (Level)
 
 Level Up Moves:
@@ -18728,7 +18794,7 @@ Held Item: None
 Type: Rock / Flying
 
 New Moves:
-- None
+- Double-Edge (Tutor)
 
 Level Up Moves:
 01 - Quick Attack
@@ -18758,7 +18824,7 @@ Held Item: None
 Type: Rock / Flying
 
 New Moves:
-- None
+- Double-Edge (Tutor)
 
 Level Up Moves:
 01 - Dragon Claw
@@ -18789,7 +18855,7 @@ Held Item: Black Sludge (5%)
 Type: Poison
 
 New Moves:
-- None
+- Double-Edge (Tutor)
 
 Level Up Moves:
 01 - Pound
@@ -18819,7 +18885,7 @@ Held Item: Black Sludge (5%)
 Type: Poison
 
 New Moves:
-- None
+- Double-Edge (Tutor)
 
 Level Up Moves:
 01 - Self-Destruct
@@ -18852,7 +18918,7 @@ Held Item: None
 Type: Dark
 
 New Moves:
-- None
+- Double-Edge (Tutor)
 
 Level Up Moves:
 01 - Scratch
@@ -18884,7 +18950,7 @@ Held Item: None
 Type: Dark
 
 New Moves:
-- None
+- Double-Edge (Tutor)
 
 Level Up Moves:
 01 - Extrasensory
@@ -18919,7 +18985,7 @@ Held Item: Chesto Berry (50%)
 Type: Normal
 
 New Moves:
-- None
+- Double-Edge (Tutor)
 
 Level Up Moves:
 01 - Pound
@@ -18948,7 +19014,7 @@ Held Item: Chesto Berry (50%)
 Type: Normal
 
 New Moves:
-- None
+- Double-Edge (Tutor)
 
 Level Up Moves:
 01 - Bullet Seed
@@ -19179,7 +19245,9 @@ Held Item: None
 Type: Water / Flying
 
 New Moves:
-- None
+- Chilling Water (Tutor)
+- Double-Edge (Tutor)
+- Dual Wingbeat (Tutor) (HOME)
 
 Level Up Moves:
 01 - Water Gun
@@ -19210,7 +19278,10 @@ Held Item: None
 Type: Water / Flying
 
 New Moves:
+- Chilling Water (Tutor)
 - Blizzard (TM)
+- Double-Edge (Tutor)
+- Dual Wingbeat (Tutor) (HOME)
 
 Level Up Moves:
 01 - Aqua Jet
@@ -19243,6 +19314,7 @@ Held Item: None
 Type: Ice
 
 New Moves:
+- Chilling Water (Tutor)
 - Dazzling Gleam (TM)
 - Ice Spinner (TM)
 
@@ -19276,6 +19348,7 @@ Held Item: None
 Type: Ice
 
 New Moves:
+- Chilling Water (Tutor)
 - Dazzling Gleam (TM)
 - Ice Spinner (TM)
 
@@ -19309,6 +19382,7 @@ Held Item: None
 Type: Ice
 
 New Moves:
+- Chilling Water (Tutor)
 - Dazzling Gleam (TM)
 - Ice Spinner (TM)
 
@@ -19412,6 +19486,7 @@ Held Item: Cheri Berry (100%)
 Type: Electric / Flying
 
 New Moves:
+- Double-Edge (Tutor)
 - Volt Tackle (Level)
 
 Level Up Moves:
@@ -19442,7 +19517,7 @@ Held Item: None
 Type: Bug
 
 New Moves:
-- None
+- Pounce (Tutor)
 
 Level Up Moves:
 01 - Peck
@@ -19473,7 +19548,7 @@ Held Item: None
 Type: Bug / Steel
 
 New Moves:
-- None
+- Pounce (Tutor)
 
 Level Up Moves:
 01 - Smart Strike
@@ -19566,7 +19641,7 @@ Held Item: None
 Type: Water / Ghost
 
 New Moves:
-- None
+- Chilling Water (Tutor)
 
 Level Up Moves:
 01 - Bubble
@@ -19598,7 +19673,7 @@ Held Item: None
 Type: Water / Ghost
 
 New Moves:
-- None
+- Chilling Water (Tutor)
 
 Level Up Moves:
 01 - Bubble
@@ -19630,6 +19705,7 @@ Held Item: None
 Type: Water
 
 New Moves:
+- Double-Edge (Tutor)
 - Scale Shot (TM) (HOME)
 
 Level Up Moves:
@@ -19660,7 +19736,8 @@ Held Item: None
 Type: Bug / Electric
 
 New Moves:
-- None
+- Double-Edge (Tutor)
+- Pounce (Tutor)
 
 Level Up Moves:
 01 - Spider Web
@@ -19691,7 +19768,8 @@ Held Item: None
 Type: Bug / Electric
 
 New Moves:
-- None
+- Double-Edge (Tutor)
+- Pounce (Tutor)
 
 Level Up Moves:
 01 - Lunge
@@ -19789,6 +19867,7 @@ Held Item: None
 Type: Steel
 
 New Moves:
+- Double-Edge (Tutor)
 - Rock Slide (TM)
 - Spark (Level)
 - Stone Edge (TM)
@@ -19819,6 +19898,7 @@ Held Item: None
 Type: Steel
 
 New Moves:
+- Double-Edge (Tutor)
 - Rock Slide (TM)
 - Spark (Level)
 - Stone Edge (TM)
@@ -19849,6 +19929,7 @@ Held Item: None
 Type: Steel
 
 New Moves:
+- Double-Edge (Tutor)
 - Earthquake (TM)
 - Rock Slide (TM)
 - Spark (Level)
@@ -19897,7 +19978,7 @@ Held Item: None
 Type: Electric
 
 New Moves:
-- None
+- Double-Edge (Tutor)
 
 Level Up Moves:
 01 - Bind
@@ -19926,7 +20007,7 @@ Held Item: None
 Type: Electric
 
 New Moves:
-- None
+- Double-Edge (Tutor)
 
 Level Up Moves:
 01 - Crush Claw
@@ -20115,7 +20196,7 @@ Held Item: None
 Type: Dragon
 
 New Moves:
-- None
+- Double-Edge (Tutor)
 
 Level Up Moves:
 01 - Scratch
@@ -20145,7 +20226,7 @@ Held Item: None
 Type: Dragon
 
 New Moves:
-- None
+- Double-Edge (Tutor)
 
 Level Up Moves:
 01 - Scratch
@@ -20175,7 +20256,7 @@ Held Item: None
 Type: Dragon
 
 New Moves:
-- None
+- Double-Edge (Tutor)
 
 Level Up Moves:
 01 - First Impression
@@ -20207,7 +20288,7 @@ Held Item: Aspear Berry (50%)
 Type: Ice
 
 New Moves:
-- None
+- Double-Edge (Tutor)
 
 Level Up Moves:
 01 - Powder Snow
@@ -20239,6 +20320,7 @@ Held Item: Aspear Berry (50%)
 Type: Ice
 
 New Moves:
+- Double-Edge (Tutor)
 - Waterfall (HM)
 
 Level Up Moves:
@@ -20307,7 +20389,7 @@ Held Item: None
 Type: Bug
 
 New Moves:
-- None
+- Pounce (Tutor)
 
 Level Up Moves:
 01 - Absorb
@@ -20337,6 +20419,7 @@ Type: Bug
 
 New Moves:
 - Acrobatics (TM)
+- Pounce (Tutor)
 
 Level Up Moves:
 01 - Mind Reader
@@ -20400,7 +20483,7 @@ Held Item: None
 Type: Fighting
 
 New Moves:
-- None
+- Double-Edge (Tutor)
 
 Level Up Moves:
 01 - Pound
@@ -20429,7 +20512,7 @@ Held Item: None
 Type: Fighting
 
 New Moves:
-- None
+- Double-Edge (Tutor)
 
 Level Up Moves:
 01 - Me First
@@ -20459,7 +20542,7 @@ Held Item: Dragon Fang (5%)
 Type: Dragon
 
 New Moves:
-- None
+- Double-Edge (Tutor)
 
 Level Up Moves:
 01 - Scratch
@@ -20490,7 +20573,7 @@ Held Item: Light Clay (5%)
 Type: Ground / Ghost
 
 New Moves:
-- None
+- Double-Edge (Tutor)
 
 Level Up Moves:
 01 - Pound
@@ -20519,7 +20602,7 @@ Held Item: Light Clay (5%)
 Type: Ground / Ghost
 
 New Moves:
-- None
+- Double-Edge (Tutor)
 
 Level Up Moves:
 01 - High Horsepower
@@ -20553,7 +20636,7 @@ Held Item: None
 Type: Dark / Steel
 
 New Moves:
-- None
+- Double-Edge (Tutor)
 
 Level Up Moves:
 01 - Scratch
@@ -20584,7 +20667,7 @@ Held Item: None
 Type: Dark / Steel
 
 New Moves:
-- None
+- Double-Edge (Tutor)
 
 Level Up Moves:
 01 - Metal Burst
@@ -20616,7 +20699,7 @@ Held Item: None
 Type: Dark / Steel
 
 New Moves:
-- None
+- Double-Edge (Tutor)
 
 Level Up Moves:
 01 - Kowtow Cleave
@@ -20649,7 +20732,7 @@ Held Item: None
 Type: Normal
 
 New Moves:
-- None
+- Double-Edge (Tutor)
 
 Level Up Moves:
 01 - Tackle
@@ -20680,7 +20763,7 @@ Held Item: None
 Type: Normal / Flying
 
 New Moves:
-- None
+- Double-Edge (Tutor)
 
 Level Up Moves:
 01 - Peck
@@ -20707,7 +20790,7 @@ Held Item: None
 Type: Normal / Flying
 
 New Moves:
-- None
+- Double-Edge (Tutor)
 
 Level Up Moves:
 01 - Peck
@@ -20736,7 +20819,7 @@ Held Item: None
 Type: Dark / Flying
 
 New Moves:
-- None
+- Double-Edge (Tutor)
 
 Level Up Moves:
 01 - Gust
@@ -20763,7 +20846,7 @@ Held Item: None
 Type: Dark / Flying
 
 New Moves:
-- None
+- Double-Edge (Tutor)
 
 Level Up Moves:
 01 - Foul Play
@@ -20795,7 +20878,7 @@ Held Item: None
 Type: Fire
 
 New Moves:
-- None
+- Double-Edge (Tutor)
 
 Level Up Moves:
 01 - Lick
@@ -20826,7 +20909,8 @@ Held Item: None
 Type: Bug / Steel
 
 New Moves:
-- None
+- Double-Edge (Tutor)
+- Pounce (Tutor)
 
 Level Up Moves:
 01 - Vise Grip
@@ -20854,7 +20938,7 @@ Held Item: None
 Type: Dark / Dragon
 
 New Moves:
-- None
+- Double-Edge (Tutor)
 
 Level Up Moves:
 01 - Tackle
@@ -20884,7 +20968,7 @@ Held Item: None
 Type: Dark / Dragon
 
 New Moves:
-- None
+- Double-Edge (Tutor)
 
 Level Up Moves:
 01 - Tackle
@@ -20915,7 +20999,7 @@ Held Item: None
 Type: Dark / Dragon
 
 New Moves:
-- None
+- Double-Edge (Tutor)
 
 Level Up Moves:
 01 - Dragon Pulse

@@ -6114,7 +6114,6 @@ Type: Water
 New Moves:
 - Aqua Cutter (Level)
 - Chilling Water (Tutor)
-- Flip Turn (Tutor)
 - Wave Crash (Level)
 
 Level Up Moves:
@@ -6147,7 +6146,6 @@ Type: Water
 New Moves:
 - Aqua Cutter (Level)
 - Chilling Water (Tutor)
-- Flip Turn (Tutor)
 - Wave Crash (Level)
 
 Level Up Moves:
@@ -9664,7 +9662,6 @@ New Moves:
 - Fly (HM)
 - Hurricane (Tutor)
 - Leech Life (TM) (BDSP)
-- Mega Drain (Tutor)
 - Moonblast (Level)
 - Pounce (Tutor)
 - Sleep Powder (Level)
@@ -9888,7 +9885,6 @@ Type: Normal / Flying
 
 New Moves:
 - Dual Wingbeat (Tutor) (HOME)
-- Uproar (Tutor)
 
 Level Up Moves:
 01 - Peck
@@ -9921,7 +9917,6 @@ Type: Normal / Flying
 New Moves:
 - Dual Wingbeat (Tutor) (HOME)
 - Extreme Speed (Level)
-- Uproar (Tutor)
 
 Level Up Moves:
 01 - Pluck
@@ -10115,7 +10110,6 @@ Held Item: None
 Type: Psychic / Fighting
 
 New Moves:
-- Focus Energy (Tutor) (PLA)
 - Spirit Break (Level)
 
 Level Up Moves:
@@ -10155,7 +10149,7 @@ Held Item: None
 Type: Bug / Water
 
 New Moves:
-- Mega Drain (Tutor)
+- None
 
 Level Up Moves:
 01 - Bubble
@@ -10184,7 +10178,6 @@ Type: Bug / Flying ⟶ Bug / Water
 New Moves:
 - Dual Wingbeat (Tutor) (HOME)
 - Fly (HM)
-- Mega Drain (Tutor)
 - Supersonic (Level) (BDSP)
 
 Level Up Moves:
@@ -10337,7 +10330,6 @@ Held Item: None
 Type: Normal
 
 New Moves:
-- High Horsepower (Tutor) (HOME)
 - Thrash (Level - Vigoroth only)
 
 Level Up Moves:
@@ -10370,7 +10362,7 @@ Held Item: None
 Type: Bug / Ground
 
 New Moves:
-- Mega Drain (Tutor)
+- None
 
 Level Up Moves:
 01 - Scratch
@@ -10398,7 +10390,6 @@ Type: Bug / Flying
 New Moves:
 - Extreme Speed (Level)
 - First Impression (Level)
-- Mega Drain (Tutor)
 - Pounce (Tutor)
 
 Level Up Moves:
@@ -10434,7 +10425,7 @@ Held Item: None
 Type: Bug / Ghost
 
 New Moves:
-- Mega Drain (Tutor)
+- None
 
 Level Up Moves:
 01 - Shadow Sneak
@@ -10595,10 +10586,7 @@ Held Item: King's Rock (5%)
 Type: Fighting
 
 New Moves:
-- Darkest Lariat (Tutor)
-- Heat Crash (Tutor) (HOME)
-- High Horsepower (Tutor) (HOME)
-- Liquidation (Tutor)
+- None
 
 Level Up Moves:
 01 - Wake-Up Slap
@@ -10638,7 +10626,6 @@ Type: Rock
 New Moves:
 - Body Press (TM) (HOME)
 - Head Smash (Level)
-- Meteor Beam (Tutor) (HOME)
 - Thunder Shock (Level)
 
 Level Up Moves:
@@ -10711,7 +10698,6 @@ New Moves:
 - Draining Kiss (Tutor) (HOME)
 - Moonblast (Level)
 - Nasty Plot (TM) (BDSP)
-- Tail Slap (Tutor) (HOME)
 
 Level Up Moves:
 01 - Fake Out
@@ -10753,7 +10739,6 @@ New Moves:
 - Draining Kiss (Tutor) (HOME)
 - Moonblast (Level)
 - Nasty Plot (TM) (BDSP)
-- Tail Slap (Tutor) (HOME)
 
 Level Up Moves:
 01 - Cosmic Power
@@ -10792,7 +10777,7 @@ Held Item: None
 Type: Dark / Ghost
 
 New Moves:
-- Mega Drain (Tutor)
+- None
 
 Level Up Moves:
 01 - Scratch
@@ -10960,7 +10945,7 @@ Held Item: None
 Type: Fighting / Psychic
 
 New Moves:
-- Teleport (Tutor)
+- None
 
 Level Up Moves:
 01 - Bide
@@ -10994,8 +10979,7 @@ Held Item: None
 Type: Fighting / Psychic
 
 New Moves:
-- Blaze Kick (Tutor) (HOME)
-- Teleport (Tutor)
+- None
 
 Level Up Moves:
 01 - Dynamic Punch
@@ -11177,7 +11161,6 @@ Type: Bug ⟶ Bug / Electric
 New Moves:
 - Discharge (Level)
 - Dual Wingbeat (Tutor) (HOME)
-- Mega Drain (Tutor)
 - Moonblast (Level)
 - Pounce (Tutor)
 
@@ -11213,7 +11196,6 @@ Type: Bug ⟶ Bug / Fairy
 New Moves: 
 - Draining Kiss (Level/Tutor)
 - Dual Wingbeat (Tutor) (HOME)
-- Mega Drain (Tutor)
 - Moonblast (Level)
 - Pollen Puff (TM) (HOME)
 - Quiver Dance (Level)
@@ -11335,8 +11317,6 @@ Held Item: Big Pearl (5%)
 Type: Poison
 
 New Moves:
-- Mega Drain (Tutor)
-- Skitter Smack (Tutor) (HOME)
 - Thunderbolt (TM)
 
 Level Up Moves:
@@ -11368,8 +11348,6 @@ Held Item: Big Pearl (5%)
 Type: Poison
 
 New Moves:
-- Mega Drain (Tutor)
-- Skitter Smack (Tutor) (HOME)
 - Thunderbolt (TM)
 
 Level Up Moves:
@@ -11532,7 +11510,6 @@ Held Item: Rawst Berry (100%)
 Type: Fire / Ground
 
 New Moves:
-- Heat Crash (Tutor) (HOME)
 - Scorching Sands (TM) (HOME)
 
 Level Up Moves:
@@ -11561,8 +11538,6 @@ Held Item: Rawst Berry (100%)
 Type: Fire / Ground
 
 New Moves:
-- Heat Crash (Tutor) (HOME)
-- High Horsepower (Tutor) (HOME)
 - Scorching Sands (TM) (HOME)
 
 Level Up Moves:
@@ -11626,7 +11601,7 @@ Held Item: Tanga Berry (5%)
 Type: Psychic
 
 New Moves:
-- Teleport (Tutor)
+- None
 
 Level Up Moves:
 01 - Splash
@@ -11656,8 +11631,7 @@ Held Item: Tanga Berry (5%)
 Type: Psychic
 
 New Moves:
-- Muddy Water (Tutor)
-- Teleport (Tutor)
+- None
 
 Level Up Moves:
 01 - Psyshock
@@ -11691,7 +11665,6 @@ Type: Normal
 
 New Moves:
 - Psycho Boost (Level)
-- Tri Attack (Tutor)
 
 Level Up Moves:
 01 - Fake Out
@@ -11721,7 +11694,6 @@ Type: Ground ⟶ Bug / Ground
 
 New Moves:
 - Lunge (Level)
-- Mega Drain (Tutor)
 
 Level Up Moves:
 01 - Feint
@@ -11752,7 +11724,6 @@ Type: Ground / Dragon ⟶ Bug / Dragon
 
 New Moves:
 - Lunge (Level)
-- Mega Drain (Tutor)
 
 Level Up Moves:
 01 - Silver Wind
@@ -11787,7 +11758,6 @@ Type: Ground / Dragon ⟶ Bug / Dragon
 New Moves:
 - Lunge (Level)
 - Hurricane (Tutor)
-- Mega Drain (Tutor)
 
 Level Up Moves:
 01 - First Impression
@@ -11824,7 +11794,6 @@ Type: Grass
 New Moves:
 - Cotton Guard (Level)
 - Earth Power (Tutor)
-- Mega Drain (Tutor)
 - Scorching Sands (TM)
 
 Level Up Moves:
@@ -11860,7 +11829,6 @@ New Moves:
 - Close Combat (Tutor)
 - Cotton Guard (Level)
 - Earth Power (Tutor)
-- Mega Drain (Tutor)
 - Scorching Sands (TM)
 
 Level Up Moves:
@@ -11963,7 +11931,7 @@ Held Item: Quick Claw (5%)
 Type: Normal
 
 New Moves:
-- Mega Drain (Tutor)
+- None
 
 Level Up Moves:
 01 - Hone Claws
@@ -11995,11 +11963,8 @@ Type: Poison
 New Moves:
 - Breaking Swipe (Tutor)
 - Cross Poison (Tutor)
-- Dragon Dance (Tutor)
-- Mega Drain (Tutor)
 - Power Whip (Tutor) (HOME)
 - Scale Shot (TM) (HOME)
-- Skitter Smack (Tutor) (HOME)
 
 Level Up Moves:
 01 - Swagger
@@ -12031,7 +11996,7 @@ Held Item: Moon Stone (5%)
 Type: Rock / Psychic
 
 New Moves:
-- Teleport (Tutor)
+- None
 
 Level Up Moves:
 01 - Moonlight
@@ -12065,8 +12030,6 @@ Type: Rock / Psychic
 
 New Moves:
 - Psycho Cut (TM)
-- Solar Blade (Tutor)
-- Teleport (Tutor)
 
 Level Up Moves:
 01 - Morning Sun
@@ -12128,7 +12091,7 @@ Held Item: None
 Type: Water / Ground
 
 New Moves:
-- Wild Charge (Tutor) (HOME)
+- Wild Charge (Tutor)
 
 Level Up Moves:
 01 - Zen Headbutt
@@ -12484,7 +12447,7 @@ Type: Normal
 New Moves:
 - Chilling Water (Tutor)
 - Nasty Plot (TM)
-- Tri Attack (Level/Tutor)
+- Tri Attack (Level)
 
 Level Up Moves:
 01 - Clear Smog
@@ -12550,7 +12513,7 @@ Held Item: Spell Tag (5%)
 Type: Ghost ⟶ Ghost / Normal
 
 New Moves:
-- Skitter Smack (Tutor) (HOME)
+- None
 
 Level Up Moves:
 01 - Astonish
@@ -12582,7 +12545,6 @@ Held Item: Spell Tag (5%)
 Type: Ghost ⟶ Ghost / Normal
 
 New Moves:
-- Skitter Smack (Tutor) (HOME)
 - Slash (Level)
 
 Level Up Moves:
@@ -12725,7 +12687,6 @@ Type: Grass / Flying
 
 New Moves:
 - Dual Wingbeat (Tutor) (HOME)
-- Mega Drain (Tutor)
 
 Level Up Moves:
 01 - Gust
@@ -12757,9 +12718,7 @@ Held Item: Colbur Berry (5%)
 Type: Psychic
 
 New Moves:
-- Double-Edge (Tutor)
 - Ominous Wind (Tutor) (PLA)
-- Teleport (Tutor)
 
 Level Up Moves:
 01 - Heal Bell
@@ -12784,7 +12743,6 @@ New Moves:
 - Air Slash (TM)
 - Boomburst (Level)
 - Ominous Wind (Level/Tutor) (PLA)
-- Teleport (Tutor)
 
 Level Up Moves:
 01 - Heal Bell
@@ -13062,6 +13020,7 @@ Held Item: Big Pearl (5%)
 Type: Water
 
 New Moves:
+- Chilling Water (Tutor)
 - Razor Shell (Level)
 
 Level Up Moves:
@@ -13624,7 +13583,7 @@ Held Item: Star Piece (100%)
 Type: Steel / Psychic
 
 New Moves:
-- Teleport (Tutor)
+- None
 
 Level Up Moves:
 01 - Confusion
@@ -13653,6 +13612,7 @@ Held Item: None
 Type: Psychic
 
 New Moves:
+- Meteor Beam (Tutor) (HOME)
 - Nasty Plot (TM) (BDSP)
 
 Level Up Moves:
@@ -13680,6 +13640,7 @@ Held Item: None
 Type: Psychic
 
 New Moves:
+- Meteor Beam (Tutor) (HOME)
 - Nasty Plot (TM) (BDSP)
 
 Level Up Moves:
@@ -13707,6 +13668,7 @@ Held Item: None
 Type: Psychic
 
 New Moves:
+- Meteor Beam (Tutor) (HOME)
 - Nasty Plot (TM) (BDSP)
 
 Level Up Moves:
@@ -13736,6 +13698,7 @@ Held Item: None
 Type: Psychic
 
 New Moves:
+- Meteor Beam (Tutor) (HOME)
 - Nasty Plot (TM) (BDSP)
 
 Level Up Moves:

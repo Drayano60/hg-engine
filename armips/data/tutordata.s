@@ -7,5593 +7,2231 @@
 
 // the tutor move learnset for each mon.  look into the moves in constants.s to see how to format
 
-
-tutordata SPECIES_BULBASAUR, \
-                  TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | \
-                  TUTOR_SNORE | \
-                  TUTOR_SYNTHESIS | \
-                  TUTOR_SEED_BOMB | 0, \
-                  TUTOR_KNOCK_OFF | \
-                  TUTOR_STRING_SHOT | TUTOR_WORRY_SEED | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_IVYSAUR, \
-                  TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | \
-                  TUTOR_SNORE | \
-                  TUTOR_SYNTHESIS | \
-                  TUTOR_SEED_BOMB | 0, \
-                  TUTOR_KNOCK_OFF | \
-                  TUTOR_STRING_SHOT | TUTOR_WORRY_SEED | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_VENUSAUR, \
-                  TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | \
-                  TUTOR_SNORE | \
-                  TUTOR_OUTRAGE  | TUTOR_SYNTHESIS | \
-                  TUTOR_SEED_BOMB | 0, \
-                  TUTOR_KNOCK_OFF | \
-                  TUTOR_STRING_SHOT | TUTOR_WORRY_SEED | \
-                  TUTOR_BLOCK | TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_CHARMANDER, \
-                  TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | \
-                  TUTOR_SNORE | \
-                  \
-                  0, \
-                  TUTOR_HEAT_WAVE | TUTOR_SWIFT | \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_CHARMELEON, \
-                  TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | \
-                  TUTOR_SNORE | \
-                  \
-                  0, \
-                  TUTOR_HEAT_WAVE | TUTOR_SWIFT | \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_CHARIZARD, \
-                  TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | \
-                  TUTOR_OMINOUS_WIND | TUTOR_SNORE | TUTOR_AIR_CUTTER | \
-                  TUTOR_OUTRAGE  | \
-                  TUTOR_TWISTER  | 0, \
-                  TUTOR_HEAT_WAVE | TUTOR_SWIFT | \
-                  TUTOR_TAILWIND | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_SQUIRTLE, \
-                  TUTOR_DIVE | TUTOR_MUD_SLAP | TUTOR_ICY_WIND | TUTOR_ROLLOUT | \
-                  TUTOR_ICE_PUNCH | TUTOR_AQUA_TAIL | TUTOR_SNORE | \
-                  TUTOR_ZEN_HEADBUTT | \
-                  TUTOR_IRON_DEFENSE | 0, \
-                  \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_WARTORTLE, \
-                  TUTOR_DIVE | TUTOR_MUD_SLAP | TUTOR_ICY_WIND | TUTOR_ROLLOUT | \
-                  TUTOR_ICE_PUNCH | TUTOR_AQUA_TAIL | TUTOR_SNORE | \
-                  TUTOR_ZEN_HEADBUTT | \
-                  TUTOR_IRON_DEFENSE | 0, \
-                  \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_BLASTOISE, \
-                  TUTOR_DIVE | TUTOR_MUD_SLAP | TUTOR_ICY_WIND | TUTOR_ROLLOUT | \
-                  TUTOR_ICE_PUNCH | TUTOR_AQUA_TAIL | TUTOR_SNORE | \
-                  TUTOR_OUTRAGE  | TUTOR_SIGNAL_BEAM | TUTOR_ZEN_HEADBUTT | \
-                  TUTOR_IRON_DEFENSE | 0, \
-                  \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_CATERPIE, \
-                  \
-                  TUTOR_SNORE | \
-                  \
-                  0, \
-                  \
-                  TUTOR_STRING_SHOT | \
-                  TUTOR_BUG_BITE | \
-                  0
-
-
-tutordata SPECIES_METAPOD, \
-                  \
-                  \
-                  \
-                  TUTOR_IRON_DEFENSE | 0, \
-                  \
-                  TUTOR_STRING_SHOT | \
-                  TUTOR_BUG_BITE | \
-                  0
-
-
-tutordata SPECIES_BUTTERFREE, \
-                  \
-                  TUTOR_OMINOUS_WIND | TUTOR_SNORE | TUTOR_AIR_CUTTER | \
-                  TUTOR_SIGNAL_BEAM | \
-                  TUTOR_TWISTER  | 0, \
-                  TUTOR_SWIFT | \
-                  TUTOR_STRING_SHOT | TUTOR_TAILWIND | \
-                  TUTOR_BUG_BITE | \
-                  0
-
-
-tutordata SPECIES_WEEDLE, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  TUTOR_STRING_SHOT | \
-                  TUTOR_BUG_BITE | \
-                  0
-
-
-tutordata SPECIES_KAKUNA, \
-                  \
-                  \
-                  \
-                  TUTOR_IRON_DEFENSE | 0, \
-                  \
-                  TUTOR_STRING_SHOT | \
-                  TUTOR_BUG_BITE | \
-                  0
-
-
-tutordata SPECIES_BEEDRILL, \
-                  TUTOR_FURY_CUTTER | \
-                  TUTOR_OMINOUS_WIND | TUTOR_SNORE | TUTOR_AIR_CUTTER | \
-                  TUTOR_ENDEAVOR | \
-                  0, \
-                  TUTOR_KNOCK_OFF | TUTOR_SWIFT | \
-                  TUTOR_STRING_SHOT | TUTOR_TAILWIND | \
-                  TUTOR_BUG_BITE | \
-                  0
-
-
-tutordata SPECIES_PIDGEY, \
-                  TUTOR_MUD_SLAP | \
-                  TUTOR_OMINOUS_WIND | TUTOR_SNORE | TUTOR_AIR_CUTTER | \
-                  \
-                  TUTOR_TWISTER  | 0, \
-                  TUTOR_HEAT_WAVE | TUTOR_SWIFT | TUTOR_UPROAR | \
-                  TUTOR_TAILWIND | \
-                  \
-                  0
-
-
-tutordata SPECIES_PIDGEOTTO, \
-                  TUTOR_MUD_SLAP | \
-                  TUTOR_OMINOUS_WIND | TUTOR_SNORE | TUTOR_AIR_CUTTER | \
-                  \
-                  TUTOR_TWISTER  | 0, \
-                  TUTOR_HEAT_WAVE | TUTOR_SWIFT | TUTOR_UPROAR | \
-                  TUTOR_TAILWIND | \
-                  \
-                  0
-
-
-tutordata SPECIES_PIDGEOT, \
-                  TUTOR_MUD_SLAP | \
-                  TUTOR_OMINOUS_WIND | TUTOR_SNORE | TUTOR_AIR_CUTTER | \
-                  \
-                  TUTOR_TWISTER  | 0, \
-                  TUTOR_HEAT_WAVE | TUTOR_SWIFT | TUTOR_UPROAR | \
-                  TUTOR_TAILWIND | \
-                  TUTOR_SKY_ATTACK | \
-                  0
-
-
-tutordata SPECIES_RATTATA, \
-                  TUTOR_MUD_SLAP | TUTOR_ICY_WIND | \
-                  TUTOR_SNORE | \
-                  TUTOR_ENDEAVOR | TUTOR_ZEN_HEADBUTT | \
-                  TUTOR_LAST_RESORT | 0, \
-                  TUTOR_SUCKER_PUNCH | TUTOR_SWIFT | TUTOR_SUPER_FANG | \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_RATICATE, \
-                  TUTOR_MUD_SLAP | TUTOR_ICY_WIND | \
-                  TUTOR_SNORE | \
-                  TUTOR_ENDEAVOR | TUTOR_ZEN_HEADBUTT | \
-                  TUTOR_LAST_RESORT | 0, \
-                  TUTOR_SUCKER_PUNCH | TUTOR_SWIFT | TUTOR_SUPER_FANG | \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_SPEAROW, \
-                  TUTOR_MUD_SLAP | \
-                  TUTOR_OMINOUS_WIND | TUTOR_SNORE | TUTOR_AIR_CUTTER | \
-                  \
-                  TUTOR_TWISTER  | 0, \
-                  TUTOR_HEAT_WAVE | TUTOR_SWIFT | \
-                  TUTOR_TAILWIND | \
-                  \
-                  0
-
-
-tutordata SPECIES_FEAROW, \
-                  TUTOR_MUD_SLAP | \
-                  TUTOR_OMINOUS_WIND | TUTOR_SNORE | TUTOR_AIR_CUTTER | \
-                  \
-                  TUTOR_TWISTER  | 0, \
-                  TUTOR_HEAT_WAVE | TUTOR_SWIFT | \
-                  TUTOR_TAILWIND | \
-                  TUTOR_SKY_ATTACK | \
-                  0
-
-
-tutordata SPECIES_EKANS, \
-                  \
-                  TUTOR_AQUA_TAIL | TUTOR_GASTRO_ACID | TUTOR_SNORE | TUTOR_SPITE | \
-                  \
-                  TUTOR_GUNK_SHOT | TUTOR_SEED_BOMB | 0, \
-                  \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_ARBOK, \
-                  \
-                  TUTOR_AQUA_TAIL | TUTOR_GASTRO_ACID | TUTOR_SNORE | TUTOR_SPITE | \
-                  \
-                  TUTOR_GUNK_SHOT | TUTOR_SEED_BOMB | 0, \
-                  \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_PIKACHU, \
-                  TUTOR_MUD_SLAP | TUTOR_ROLLOUT | TUTOR_THUNDER_PUNCH | \
-                  TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | TUTOR_SIGNAL_BEAM | \
-                  TUTOR_MAGNET_RISE | 0, \
-                  TUTOR_KNOCK_OFF | TUTOR_SWIFT | \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_RAICHU, \
-                  TUTOR_MUD_SLAP | TUTOR_ROLLOUT | TUTOR_THUNDER_PUNCH | \
-                  TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | TUTOR_SIGNAL_BEAM | \
-                  TUTOR_MAGNET_RISE | 0, \
-                  TUTOR_KNOCK_OFF | TUTOR_SWIFT | \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_SANDSHREW, \
-                  TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | TUTOR_ROLLOUT | \
-                  TUTOR_SNORE | \
-                  \
-                  TUTOR_EARTH_POWER | 0, \
-                  TUTOR_KNOCK_OFF | TUTOR_SWIFT | TUTOR_SUPER_FANG | \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_SANDSLASH, \
-                  TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | TUTOR_ROLLOUT | \
-                  TUTOR_SNORE | \
-                  \
-                  TUTOR_EARTH_POWER | 0, \
-                  TUTOR_KNOCK_OFF | TUTOR_SWIFT | TUTOR_SUPER_FANG | \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_NIDORAN_F, \
-                  TUTOR_MUD_SLAP | \
-                  TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | \
-                  0, \
-                  TUTOR_SUPER_FANG | \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_NIDORINA, \
-                  TUTOR_MUD_SLAP | \
-                  TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | \
-                  0, \
-                  TUTOR_SUPER_FANG | \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_NIDOQUEEN, \
-                  TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | TUTOR_ICY_WIND | TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | TUTOR_SUPERPOWER | \
-                  TUTOR_ICE_PUNCH | TUTOR_AQUA_TAIL | TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | TUTOR_OUTRAGE  | \
-                  TUTOR_EARTH_POWER | 0, \
-                  TUTOR_UPROAR | TUTOR_SUPER_FANG | \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_NIDORAN_M, \
-                  TUTOR_MUD_SLAP | \
-                  TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | \
-                  0, \
-                  TUTOR_SUCKER_PUNCH | TUTOR_SUPER_FANG | \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_NIDORINO, \
-                  TUTOR_MUD_SLAP | \
-                  TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | \
-                  0, \
-                  TUTOR_SUCKER_PUNCH | TUTOR_SUPER_FANG | \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_NIDOKING, \
-                  TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | TUTOR_ICY_WIND | TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | TUTOR_SUPERPOWER | \
-                  TUTOR_ICE_PUNCH | TUTOR_AQUA_TAIL | TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | TUTOR_OUTRAGE  | \
-                  TUTOR_EARTH_POWER | 0, \
-                  TUTOR_SUCKER_PUNCH | TUTOR_UPROAR | TUTOR_SUPER_FANG | \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_CLEFAIRY, \
-                  TUTOR_MUD_SLAP | TUTOR_ICY_WIND | TUTOR_ROLLOUT | TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | \
-                  TUTOR_ICE_PUNCH | TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | TUTOR_ENDEAVOR | TUTOR_SIGNAL_BEAM | TUTOR_ZEN_HEADBUTT | \
-                  TUTOR_LAST_RESORT | TUTOR_BOUNCE | 0, \
-                  TUTOR_TRICK | TUTOR_KNOCK_OFF | \
-                  TUTOR_GRAVITY  | TUTOR_MAGIC_COAT | TUTOR_ROLE_PLAY | TUTOR_HEAL_BELL | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_CLEFABLE, \
-                  TUTOR_MUD_SLAP | TUTOR_ICY_WIND | TUTOR_ROLLOUT | TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | \
-                  TUTOR_ICE_PUNCH | TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | TUTOR_ENDEAVOR | TUTOR_SIGNAL_BEAM | TUTOR_ZEN_HEADBUTT | \
-                  TUTOR_LAST_RESORT | TUTOR_BOUNCE | 0, \
-                  TUTOR_TRICK | TUTOR_KNOCK_OFF | \
-                  TUTOR_GRAVITY  | TUTOR_MAGIC_COAT | TUTOR_ROLE_PLAY | TUTOR_HEAL_BELL | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_VULPIX, \
-                  \
-                  TUTOR_OMINOUS_WIND | TUTOR_SNORE | TUTOR_SPITE | \
-                  TUTOR_ZEN_HEADBUTT | \
-                  0, \
-                  TUTOR_HEAT_WAVE | TUTOR_SWIFT | TUTOR_PAIN_SPLIT | \
-                  TUTOR_ROLE_PLAY | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_NINETALES, \
-                  \
-                  TUTOR_OMINOUS_WIND | TUTOR_SNORE | TUTOR_SPITE | \
-                  TUTOR_ZEN_HEADBUTT | \
-                  0, \
-                  TUTOR_HEAT_WAVE | TUTOR_SWIFT | TUTOR_PAIN_SPLIT | \
-                  TUTOR_ROLE_PLAY | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_JIGGLYPUFF, \
-                  TUTOR_MUD_SLAP | TUTOR_ICY_WIND | TUTOR_ROLLOUT | TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | \
-                  TUTOR_ICE_PUNCH | TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | TUTOR_ENDEAVOR | \
-                  TUTOR_LAST_RESORT | TUTOR_BOUNCE | 0, \
-                  TUTOR_KNOCK_OFF | TUTOR_PAIN_SPLIT | \
-                  TUTOR_GRAVITY  | TUTOR_MAGIC_COAT | TUTOR_ROLE_PLAY | TUTOR_HEAL_BELL | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_WIGGLYTUFF, \
-                  TUTOR_MUD_SLAP | TUTOR_ICY_WIND | TUTOR_ROLLOUT | TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | \
-                  TUTOR_ICE_PUNCH | TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | TUTOR_ENDEAVOR | \
-                  TUTOR_LAST_RESORT | TUTOR_BOUNCE | 0, \
-                  TUTOR_KNOCK_OFF | TUTOR_PAIN_SPLIT | \
-                  TUTOR_GRAVITY  | TUTOR_MAGIC_COAT | TUTOR_ROLE_PLAY | TUTOR_HEAL_BELL | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_ZUBAT, \
-                  \
-                  TUTOR_OMINOUS_WIND | TUTOR_SNORE | TUTOR_AIR_CUTTER | \
-                  TUTOR_ZEN_HEADBUTT | \
-                  TUTOR_TWISTER  | 0, \
-                  TUTOR_HEAT_WAVE | TUTOR_SWIFT | TUTOR_UPROAR | TUTOR_SUPER_FANG | \
-                  TUTOR_TAILWIND | \
-                  \
-                  0
-
-
-tutordata SPECIES_GOLBAT, \
-                  \
-                  TUTOR_OMINOUS_WIND | TUTOR_SNORE | TUTOR_AIR_CUTTER | \
-                  TUTOR_ZEN_HEADBUTT | \
-                  TUTOR_TWISTER  | 0, \
-                  TUTOR_HEAT_WAVE | TUTOR_SWIFT | TUTOR_UPROAR | TUTOR_SUPER_FANG | \
-                  TUTOR_TAILWIND | \
-                  \
-                  0
-
-
-tutordata SPECIES_ODDISH, \
-                  \
-                  TUTOR_GASTRO_ACID | TUTOR_SNORE | \
-                  TUTOR_SYNTHESIS | \
-                  TUTOR_SEED_BOMB | 0, \
-                  \
-                  TUTOR_WORRY_SEED | \
-                  \
-                  0
-
-
-tutordata SPECIES_GLOOM, \
-                  \
-                  TUTOR_GASTRO_ACID | TUTOR_SNORE | \
-                  TUTOR_SYNTHESIS | \
-                  TUTOR_SEED_BOMB | 0, \
-                  \
-                  TUTOR_WORRY_SEED | \
-                  \
-                  0
-
-
-tutordata SPECIES_VILEPLUME, \
-                  \
-                  TUTOR_GASTRO_ACID | TUTOR_SNORE | \
-                  TUTOR_SYNTHESIS | \
-                  TUTOR_SEED_BOMB | 0, \
-                  \
-                  TUTOR_WORRY_SEED | \
-                  \
-                  0
-
-
-tutordata SPECIES_PARAS, \
-                  TUTOR_FURY_CUTTER | \
-                  TUTOR_SNORE | \
-                  TUTOR_SYNTHESIS | \
-                  TUTOR_SEED_BOMB | 0, \
-                  TUTOR_KNOCK_OFF | \
-                  TUTOR_STRING_SHOT | TUTOR_WORRY_SEED | \
-                  TUTOR_BUG_BITE | \
-                  0
-
-
-tutordata SPECIES_PARASECT, \
-                  TUTOR_FURY_CUTTER | \
-                  TUTOR_SNORE | \
-                  TUTOR_SYNTHESIS | \
-                  TUTOR_SEED_BOMB | 0, \
-                  TUTOR_KNOCK_OFF | \
-                  TUTOR_STRING_SHOT | TUTOR_WORRY_SEED | \
-                  TUTOR_BUG_BITE | \
-                  0
-
-
-tutordata SPECIES_VENONAT, \
-                  \
-                  TUTOR_SNORE | \
-                  TUTOR_SIGNAL_BEAM | TUTOR_ZEN_HEADBUTT | \
-                  0, \
-                  TUTOR_SWIFT | \
-                  TUTOR_STRING_SHOT | \
-                  TUTOR_BUG_BITE | \
-                  0
-
-
-tutordata SPECIES_VENOMOTH, \
-                  \
-                  TUTOR_OMINOUS_WIND | TUTOR_SNORE | TUTOR_AIR_CUTTER | \
-                  TUTOR_SIGNAL_BEAM | TUTOR_ZEN_HEADBUTT | \
-                  TUTOR_TWISTER  | 0, \
-                  TUTOR_SWIFT | \
-                  TUTOR_STRING_SHOT | TUTOR_TAILWIND | \
-                  TUTOR_BUG_BITE | \
-                  0
-
-
-tutordata SPECIES_DIGLETT, \
-                  TUTOR_MUD_SLAP | \
-                  TUTOR_SNORE | \
-                  \
-                  TUTOR_EARTH_POWER | 0, \
-                  TUTOR_SUCKER_PUNCH | \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_DUGTRIO, \
-                  TUTOR_MUD_SLAP | \
-                  TUTOR_SNORE | \
-                  \
-                  TUTOR_EARTH_POWER | 0, \
-                  TUTOR_SUCKER_PUNCH | \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_MEOWTH, \
-                  TUTOR_MUD_SLAP | TUTOR_ICY_WIND | \
-                  TUTOR_SNORE | TUTOR_SPITE | \
-                  \
-                  TUTOR_GUNK_SHOT | TUTOR_SEED_BOMB | TUTOR_LAST_RESORT | 0, \
-                  TUTOR_KNOCK_OFF | TUTOR_SWIFT | TUTOR_UPROAR | \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_PERSIAN, \
-                  TUTOR_MUD_SLAP | TUTOR_ICY_WIND | \
-                  TUTOR_SNORE | TUTOR_SPITE | \
-                  \
-                  TUTOR_GUNK_SHOT | TUTOR_SEED_BOMB | TUTOR_LAST_RESORT | 0, \
-                  TUTOR_KNOCK_OFF | TUTOR_SWIFT | TUTOR_UPROAR | \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_PSYDUCK, \
-                  TUTOR_DIVE | TUTOR_MUD_SLAP | TUTOR_ICY_WIND | \
-                  TUTOR_ICE_PUNCH | TUTOR_AQUA_TAIL | TUTOR_SNORE | \
-                  TUTOR_SIGNAL_BEAM | TUTOR_ZEN_HEADBUTT | \
-                  0, \
-                  TUTOR_SWIFT | \
-                  TUTOR_WORRY_SEED | TUTOR_ROLE_PLAY | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_GOLDUCK, \
-                  TUTOR_DIVE | TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | TUTOR_ICY_WIND | \
-                  TUTOR_ICE_PUNCH | TUTOR_AQUA_TAIL | TUTOR_SNORE | \
-                  TUTOR_SIGNAL_BEAM | TUTOR_ZEN_HEADBUTT | \
-                  0, \
-                  TUTOR_SWIFT | \
-                  TUTOR_WORRY_SEED | TUTOR_ROLE_PLAY | TUTOR_LOW_KICK | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_MANKEY, \
-                  TUTOR_MUD_SLAP | TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | \
-                  TUTOR_ICE_PUNCH | TUTOR_SPITE | \
-                  TUTOR_HELPING_HAND | TUTOR_ENDEAVOR | TUTOR_OUTRAGE  | TUTOR_VACUUM_WAVE | \
-                  TUTOR_GUNK_SHOT | TUTOR_SEED_BOMB | 0, \
-                  TUTOR_SWIFT | TUTOR_UPROAR | \
-                  TUTOR_ROLE_PLAY | TUTOR_LOW_KICK | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_PRIMEAPE, \
-                  TUTOR_MUD_SLAP | TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | \
-                  TUTOR_ICE_PUNCH | TUTOR_SPITE | \
-                  TUTOR_HELPING_HAND | TUTOR_ENDEAVOR | TUTOR_OUTRAGE  | TUTOR_VACUUM_WAVE | \
-                  TUTOR_GUNK_SHOT | TUTOR_SEED_BOMB | 0, \
-                  TUTOR_SWIFT | TUTOR_UPROAR | \
-                  TUTOR_ROLE_PLAY | TUTOR_LOW_KICK | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_GROWLITHE, \
-                  TUTOR_MUD_SLAP | \
-                  TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | \
-                  0, \
-                  TUTOR_HEAT_WAVE | TUTOR_SWIFT | \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_ARCANINE, \
-                  TUTOR_MUD_SLAP | \
-                  TUTOR_IRON_HEAD | TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | \
-                  0, \
-                  TUTOR_HEAT_WAVE | TUTOR_SWIFT | \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_POLIWAG, \
-                  TUTOR_DIVE | TUTOR_ICY_WIND | \
-                  TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | \
-                  0, \
-                  \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_POLIWHIRL, \
-                  TUTOR_DIVE | TUTOR_MUD_SLAP | TUTOR_ICY_WIND | \
-                  TUTOR_ICE_PUNCH | TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | \
-                  0, \
-                  \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_POLIWRATH, \
-                  TUTOR_DIVE | TUTOR_MUD_SLAP | TUTOR_ICY_WIND | \
-                  TUTOR_ICE_PUNCH | TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | TUTOR_VACUUM_WAVE | \
-                  0, \
-                  \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_ABRA, \
-                  TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | \
-                  TUTOR_ICE_PUNCH | TUTOR_SNORE | \
-                  TUTOR_SIGNAL_BEAM | TUTOR_ZEN_HEADBUTT | \
-                  0, \
-                  TUTOR_TRICK | TUTOR_KNOCK_OFF | \
-                  TUTOR_GRAVITY  | TUTOR_MAGIC_COAT | TUTOR_ROLE_PLAY | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_KADABRA, \
-                  TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | \
-                  TUTOR_ICE_PUNCH | TUTOR_SNORE | \
-                  TUTOR_SIGNAL_BEAM | TUTOR_ZEN_HEADBUTT | \
-                  0, \
-                  TUTOR_TRICK | TUTOR_KNOCK_OFF | \
-                  TUTOR_GRAVITY  | TUTOR_MAGIC_COAT | TUTOR_ROLE_PLAY | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_ALAKAZAM, \
-                  TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | \
-                  TUTOR_ICE_PUNCH | TUTOR_SNORE | \
-                  TUTOR_SIGNAL_BEAM | TUTOR_ZEN_HEADBUTT | \
-                  0, \
-                  TUTOR_TRICK | TUTOR_KNOCK_OFF | \
-                  TUTOR_GRAVITY  | TUTOR_MAGIC_COAT | TUTOR_ROLE_PLAY | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_MACHOP, \
-                  TUTOR_MUD_SLAP | TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | TUTOR_SUPERPOWER | \
-                  TUTOR_ICE_PUNCH | TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | TUTOR_VACUUM_WAVE | \
-                  0, \
-                  \
-                  TUTOR_ROLE_PLAY | TUTOR_LOW_KICK | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_MACHOKE, \
-                  TUTOR_MUD_SLAP | TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | TUTOR_SUPERPOWER | \
-                  TUTOR_ICE_PUNCH | TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | TUTOR_VACUUM_WAVE | \
-                  0, \
-                  \
-                  TUTOR_ROLE_PLAY | TUTOR_LOW_KICK | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_MACHAMP, \
-                  TUTOR_MUD_SLAP | TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | TUTOR_SUPERPOWER | \
-                  TUTOR_ICE_PUNCH | TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | TUTOR_VACUUM_WAVE | \
-                  0, \
-                  \
-                  TUTOR_ROLE_PLAY | TUTOR_LOW_KICK | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_BELLSPROUT, \
-                  \
-                  TUTOR_GASTRO_ACID | TUTOR_SNORE | \
-                  TUTOR_SYNTHESIS | \
-                  TUTOR_SEED_BOMB | 0, \
-                  TUTOR_KNOCK_OFF | TUTOR_SUCKER_PUNCH | \
-                  TUTOR_WORRY_SEED | \
-                  \
-                  0
-
-
-tutordata SPECIES_WEEPINBELL, \
-                  \
-                  TUTOR_GASTRO_ACID | TUTOR_SNORE | \
-                  TUTOR_SYNTHESIS | \
-                  TUTOR_SEED_BOMB | 0, \
-                  TUTOR_KNOCK_OFF | TUTOR_SUCKER_PUNCH | \
-                  TUTOR_WORRY_SEED | \
-                  \
-                  0
-
-
-tutordata SPECIES_VICTREEBEL, \
-                  \
-                  TUTOR_GASTRO_ACID | TUTOR_SNORE | \
-                  TUTOR_SYNTHESIS | \
-                  TUTOR_SEED_BOMB | 0, \
-                  TUTOR_KNOCK_OFF | TUTOR_SUCKER_PUNCH | \
-                  TUTOR_WORRY_SEED | \
-                  \
-                  0
-
-
-tutordata SPECIES_TENTACOOL, \
-                  TUTOR_DIVE | TUTOR_ICY_WIND | \
-                  TUTOR_SNORE | \
-                  \
-                  0, \
-                  TUTOR_KNOCK_OFF | \
-                  TUTOR_MAGIC_COAT | \
-                  \
-                  0
-
-
-tutordata SPECIES_TENTACRUEL, \
-                  TUTOR_DIVE | TUTOR_ICY_WIND | \
-                  TUTOR_SNORE | \
-                  \
-                  0, \
-                  TUTOR_KNOCK_OFF | \
-                  TUTOR_MAGIC_COAT | \
-                  \
-                  0
-
-
-tutordata SPECIES_GEODUDE, \
-                  TUTOR_MUD_SLAP | TUTOR_ROLLOUT | TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | TUTOR_SUPERPOWER | \
-                  TUTOR_SNORE | \
-                  TUTOR_ANCIENT_POWER | \
-                  TUTOR_EARTH_POWER | 0, \
-                  TUTOR_SUCKER_PUNCH | \
-                  \
-                  TUTOR_BLOCK | TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_GRAVELER, \
-                  TUTOR_MUD_SLAP | TUTOR_ROLLOUT | TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | TUTOR_SUPERPOWER | \
-                  TUTOR_SNORE | \
-                  TUTOR_ANCIENT_POWER | \
-                  TUTOR_EARTH_POWER | 0, \
-                  TUTOR_SUCKER_PUNCH | \
-                  \
-                  TUTOR_BLOCK | TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_GOLEM, \
-                  TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | TUTOR_ROLLOUT | TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | TUTOR_SUPERPOWER | \
-                  TUTOR_IRON_HEAD | TUTOR_SNORE | \
-                  TUTOR_ANCIENT_POWER | \
-                  TUTOR_EARTH_POWER | 0, \
-                  TUTOR_SUCKER_PUNCH | \
-                  \
-                  TUTOR_BLOCK | TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_PONYTA, \
-                  \
-                  TUTOR_SNORE | \
-                  \
-                  TUTOR_BOUNCE | 0, \
-                  TUTOR_HEAT_WAVE | TUTOR_SWIFT | \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_RAPIDASH, \
-                  \
-                  TUTOR_SNORE | \
-                  \
-                  TUTOR_BOUNCE | 0, \
-                  TUTOR_HEAT_WAVE | TUTOR_SWIFT | \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_SLOWPOKE, \
-                  TUTOR_DIVE | TUTOR_MUD_SLAP | TUTOR_ICY_WIND | \
-                  TUTOR_AQUA_TAIL | TUTOR_SNORE | \
-                  TUTOR_SIGNAL_BEAM | TUTOR_ZEN_HEADBUTT | \
-                  0, \
-                  TUTOR_TRICK | TUTOR_SWIFT | \
-                  TUTOR_MAGIC_COAT | \
-                  TUTOR_BLOCK | TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_SLOWBRO, \
-                  TUTOR_DIVE | TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | TUTOR_ICY_WIND | \
-                  TUTOR_ICE_PUNCH | TUTOR_AQUA_TAIL | TUTOR_SNORE | \
-                  TUTOR_SIGNAL_BEAM | TUTOR_ZEN_HEADBUTT | \
-                  TUTOR_IRON_DEFENSE | 0, \
-                  TUTOR_TRICK | TUTOR_SWIFT | \
-                  TUTOR_MAGIC_COAT | \
-                  TUTOR_BLOCK | TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_MAGNEMITE, \
-                  TUTOR_ROLLOUT | \
-                  TUTOR_SNORE | \
-                  TUTOR_SIGNAL_BEAM | \
-                  TUTOR_IRON_DEFENSE | TUTOR_MAGNET_RISE | 0, \
-                  TUTOR_SWIFT | \
-                  TUTOR_GRAVITY  | TUTOR_MAGIC_COAT | \
-                  \
-                  0
-
-
-tutordata SPECIES_MAGNETON, \
-                  TUTOR_ROLLOUT | \
-                  TUTOR_SNORE | \
-                  TUTOR_SIGNAL_BEAM | \
-                  TUTOR_IRON_DEFENSE | TUTOR_MAGNET_RISE | 0, \
-                  TUTOR_SWIFT | \
-                  TUTOR_GRAVITY  | TUTOR_MAGIC_COAT | \
-                  \
-                  0
-
-
-tutordata SPECIES_FARFETCHD, \
-                  TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | \
-                  TUTOR_OMINOUS_WIND | TUTOR_SNORE | TUTOR_AIR_CUTTER | \
-                  \
-                  TUTOR_TWISTER  | TUTOR_LAST_RESORT | 0, \
-                  TUTOR_HEAT_WAVE | TUTOR_KNOCK_OFF | TUTOR_SWIFT | TUTOR_UPROAR | \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_DODUO, \
-                  TUTOR_MUD_SLAP | \
-                  TUTOR_SNORE | TUTOR_AIR_CUTTER | \
-                  TUTOR_ENDEAVOR | \
-                  0, \
-                  TUTOR_KNOCK_OFF | TUTOR_SWIFT | TUTOR_UPROAR | \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_DODRIO, \
-                  TUTOR_MUD_SLAP | \
-                  TUTOR_SNORE | TUTOR_AIR_CUTTER | \
-                  TUTOR_ENDEAVOR | \
-                  0, \
-                  TUTOR_KNOCK_OFF | TUTOR_SWIFT | TUTOR_UPROAR | \
-                  \
-                  TUTOR_SKY_ATTACK | \
-                  0
-
-
-tutordata SPECIES_SEEL, \
-                  TUTOR_DIVE | TUTOR_ICY_WIND | \
-                  TUTOR_AQUA_TAIL | TUTOR_SNORE | \
-                  TUTOR_SIGNAL_BEAM | \
-                  0, \
-                  \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_DEWGONG, \
-                  TUTOR_DIVE | TUTOR_ICY_WIND | \
-                  TUTOR_AQUA_TAIL | TUTOR_SNORE | \
-                  TUTOR_SIGNAL_BEAM | \
-                  0, \
-                  \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_GRIMER, \
-                  TUTOR_MUD_SLAP | TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | \
-                  TUTOR_ICE_PUNCH | TUTOR_SNORE | \
-                  \
-                  TUTOR_GUNK_SHOT | 0, \
-                  TUTOR_PAIN_SPLIT | \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_MUK, \
-                  TUTOR_MUD_SLAP | TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | \
-                  TUTOR_ICE_PUNCH | TUTOR_SNORE | \
-                  \
-                  TUTOR_GUNK_SHOT | 0, \
-                  TUTOR_PAIN_SPLIT | \
-                  \
-                  TUTOR_BLOCK | \
-                  0
-
-
-tutordata SPECIES_SHELLDER, \
-                  TUTOR_DIVE | TUTOR_ICY_WIND | \
-                  TUTOR_SNORE | \
-                  \
-                  TUTOR_IRON_DEFENSE | 0, \
-                  TUTOR_SWIFT | \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_CLOYSTER, \
-                  TUTOR_DIVE | TUTOR_ICY_WIND | \
-                  TUTOR_SNORE | \
-                  TUTOR_SIGNAL_BEAM | \
-                  TUTOR_IRON_DEFENSE | 0, \
-                  TUTOR_SWIFT | \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_GASTLY, \
-                  TUTOR_ICY_WIND | TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | \
-                  TUTOR_ICE_PUNCH | TUTOR_OMINOUS_WIND | TUTOR_SNORE | TUTOR_SPITE | \
-                  \
-                  0, \
-                  TUTOR_TRICK | TUTOR_KNOCK_OFF | TUTOR_SUCKER_PUNCH | TUTOR_UPROAR | TUTOR_PAIN_SPLIT | \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_HAUNTER, \
-                  TUTOR_ICY_WIND | TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | \
-                  TUTOR_ICE_PUNCH | TUTOR_OMINOUS_WIND | TUTOR_SNORE | TUTOR_SPITE | \
-                  \
-                  0, \
-                  TUTOR_TRICK | TUTOR_KNOCK_OFF | TUTOR_SUCKER_PUNCH | TUTOR_UPROAR | TUTOR_PAIN_SPLIT | \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_GENGAR, \
-                  TUTOR_ICY_WIND | TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | \
-                  TUTOR_ICE_PUNCH | TUTOR_OMINOUS_WIND | TUTOR_SNORE | TUTOR_SPITE | \
-                  \
-                  0, \
-                  TUTOR_TRICK | TUTOR_KNOCK_OFF | TUTOR_SUCKER_PUNCH | TUTOR_UPROAR | TUTOR_PAIN_SPLIT | \
-                  TUTOR_ROLE_PLAY | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_ONIX, \
-                  TUTOR_MUD_SLAP | TUTOR_ROLLOUT | \
-                  TUTOR_IRON_HEAD | TUTOR_SNORE | \
-                  TUTOR_ANCIENT_POWER | \
-                  TUTOR_EARTH_POWER | TUTOR_TWISTER  | 0, \
-                  \
-                  \
-                  TUTOR_BLOCK | TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_DROWZEE, \
-                  TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | \
-                  TUTOR_ICE_PUNCH | \
-                  TUTOR_SIGNAL_BEAM | TUTOR_ZEN_HEADBUTT | \
-                  0, \
-                  TUTOR_TRICK | \
-                  TUTOR_MAGIC_COAT | TUTOR_ROLE_PLAY | TUTOR_LOW_KICK | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_HYPNO, \
-                  TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | \
-                  TUTOR_ICE_PUNCH | \
-                  TUTOR_SIGNAL_BEAM | TUTOR_ZEN_HEADBUTT | \
-                  0, \
-                  TUTOR_TRICK | \
-                  TUTOR_MAGIC_COAT | TUTOR_ROLE_PLAY | TUTOR_LOW_KICK | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_KRABBY, \
-                  TUTOR_DIVE | TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | TUTOR_ICY_WIND | TUTOR_SUPERPOWER | \
-                  TUTOR_SNORE | \
-                  TUTOR_ANCIENT_POWER | \
-                  TUTOR_IRON_DEFENSE | 0, \
-                  TUTOR_KNOCK_OFF | \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_KINGLER, \
-                  TUTOR_DIVE | TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | TUTOR_ICY_WIND | TUTOR_SUPERPOWER | \
-                  TUTOR_SNORE | \
-                  TUTOR_ANCIENT_POWER | \
-                  TUTOR_IRON_DEFENSE | 0, \
-                  TUTOR_KNOCK_OFF | \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_VOLTORB, \
-                  TUTOR_ROLLOUT | \
-                  TUTOR_SNORE | \
-                  TUTOR_SIGNAL_BEAM | \
-                  TUTOR_MAGNET_RISE | 0, \
-                  TUTOR_SUCKER_PUNCH | TUTOR_SWIFT | \
-                  TUTOR_MAGIC_COAT | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_ELECTRODE, \
-                  TUTOR_ROLLOUT | \
-                  TUTOR_SNORE | \
-                  TUTOR_SIGNAL_BEAM | \
-                  TUTOR_MAGNET_RISE | 0, \
-                  TUTOR_SUCKER_PUNCH | TUTOR_SWIFT | \
-                  TUTOR_MAGIC_COAT | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_EXEGGCUTE, \
-                  TUTOR_ROLLOUT | \
-                  TUTOR_SNORE | \
-                  TUTOR_ANCIENT_POWER | TUTOR_SYNTHESIS | \
-                  TUTOR_SEED_BOMB | 0, \
-                  TUTOR_UPROAR | \
-                  TUTOR_GRAVITY  | TUTOR_WORRY_SEED | \
-                  \
-                  0
-
-
-tutordata SPECIES_EXEGGUTOR, \
-                  TUTOR_ROLLOUT | \
-                  TUTOR_SNORE | \
-                  TUTOR_ANCIENT_POWER | TUTOR_SYNTHESIS | TUTOR_ZEN_HEADBUTT | \
-                  TUTOR_SEED_BOMB | 0, \
-                  \
-                  TUTOR_GRAVITY  | TUTOR_WORRY_SEED | TUTOR_LOW_KICK | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_CUBONE, \
-                  TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | TUTOR_ICY_WIND | TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | \
-                  TUTOR_SNORE | \
-                  TUTOR_ENDEAVOR | \
-                  TUTOR_EARTH_POWER | TUTOR_IRON_DEFENSE | 0, \
-                  TUTOR_KNOCK_OFF | TUTOR_UPROAR | \
-                  TUTOR_LOW_KICK | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_MAROWAK, \
-                  TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | TUTOR_ICY_WIND | TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | \
-                  TUTOR_SNORE | \
-                  TUTOR_ENDEAVOR | TUTOR_OUTRAGE  | \
-                  TUTOR_EARTH_POWER | TUTOR_IRON_DEFENSE | 0, \
-                  TUTOR_KNOCK_OFF | TUTOR_UPROAR | \
-                  TUTOR_LOW_KICK | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_HITMONLEE, \
-                  TUTOR_MUD_SLAP | TUTOR_SUPERPOWER | \
-                  TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | TUTOR_VACUUM_WAVE | \
-                  TUTOR_BOUNCE | 0, \
-                  TUTOR_KNOCK_OFF | TUTOR_SUCKER_PUNCH | TUTOR_SWIFT | \
-                  TUTOR_ROLE_PLAY | TUTOR_LOW_KICK | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_HITMONCHAN, \
-                  TUTOR_MUD_SLAP | TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | \
-                  TUTOR_ICE_PUNCH | TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | TUTOR_VACUUM_WAVE | \
-                  0, \
-                  TUTOR_SWIFT | \
-                  TUTOR_ROLE_PLAY | TUTOR_LOW_KICK | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_LICKITUNG, \
-                  TUTOR_MUD_SLAP | TUTOR_ICY_WIND | TUTOR_ROLLOUT | TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | \
-                  TUTOR_ICE_PUNCH | TUTOR_AQUA_TAIL | TUTOR_SNORE | \
-                  TUTOR_ZEN_HEADBUTT | \
-                  0, \
-                  TUTOR_KNOCK_OFF | \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_KOFFING, \
-                  TUTOR_ROLLOUT | \
-                  TUTOR_SNORE | TUTOR_SPITE | \
-                  \
-                  0, \
-                  TUTOR_UPROAR | TUTOR_PAIN_SPLIT | \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_WEEZING, \
-                  TUTOR_ROLLOUT | \
-                  TUTOR_SNORE | TUTOR_SPITE | \
-                  \
-                  0, \
-                  TUTOR_UPROAR | TUTOR_PAIN_SPLIT | \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_RHYHORN, \
-                  TUTOR_MUD_SLAP | TUTOR_ICY_WIND | TUTOR_ROLLOUT | TUTOR_SUPERPOWER | \
-                  TUTOR_AQUA_TAIL | TUTOR_SNORE | TUTOR_SPITE | \
-                  TUTOR_ENDEAVOR | TUTOR_ANCIENT_POWER | \
-                  TUTOR_EARTH_POWER | 0, \
-                  TUTOR_UPROAR | \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_RHYDON, \
-                  TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | TUTOR_ICY_WIND | TUTOR_ROLLOUT | TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | TUTOR_SUPERPOWER | \
-                  TUTOR_ICE_PUNCH | TUTOR_AQUA_TAIL | TUTOR_SNORE | TUTOR_SPITE | \
-                  TUTOR_ENDEAVOR | TUTOR_OUTRAGE  | TUTOR_ANCIENT_POWER | \
-                  TUTOR_EARTH_POWER | 0, \
-                  TUTOR_UPROAR | \
-                  \
-                  TUTOR_BLOCK | TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_CHANSEY, \
-                  TUTOR_MUD_SLAP | TUTOR_ICY_WIND | TUTOR_ROLLOUT | TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | \
-                  TUTOR_ICE_PUNCH | TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | TUTOR_ENDEAVOR | TUTOR_ZEN_HEADBUTT | \
-                  TUTOR_LAST_RESORT | 0, \
-                  \
-                  TUTOR_GRAVITY  | TUTOR_HEAL_BELL | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_TANGELA, \
-                  \
-                  TUTOR_SNORE | \
-                  TUTOR_ANCIENT_POWER | TUTOR_SYNTHESIS | \
-                  TUTOR_SEED_BOMB | 0, \
-                  TUTOR_KNOCK_OFF | TUTOR_PAIN_SPLIT | \
-                  TUTOR_WORRY_SEED | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_KANGASKHAN, \
-                  TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | TUTOR_ICY_WIND | TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | \
-                  TUTOR_ICE_PUNCH | TUTOR_AQUA_TAIL | TUTOR_SNORE | TUTOR_SPITE | \
-                  TUTOR_HELPING_HAND | TUTOR_ENDEAVOR | TUTOR_OUTRAGE  | \
-                  0, \
-                  TUTOR_SUCKER_PUNCH | TUTOR_UPROAR | \
-                  TUTOR_LOW_KICK | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_HORSEA, \
-                  TUTOR_DIVE | TUTOR_ICY_WIND | \
-                  TUTOR_SNORE | \
-                  TUTOR_OUTRAGE  | TUTOR_SIGNAL_BEAM | \
-                  TUTOR_TWISTER  | TUTOR_BOUNCE | 0, \
-                  TUTOR_SWIFT | \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_SEADRA, \
-                  TUTOR_DIVE | TUTOR_ICY_WIND | \
-                  TUTOR_SNORE | \
-                  TUTOR_OUTRAGE  | TUTOR_SIGNAL_BEAM | \
-                  TUTOR_TWISTER  | TUTOR_BOUNCE | 0, \
-                  TUTOR_SWIFT | \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_GOLDEEN, \
-                  TUTOR_DIVE | TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | TUTOR_ICY_WIND | \
-                  TUTOR_AQUA_TAIL | TUTOR_SNORE | \
-                  \
-                  TUTOR_BOUNCE | 0, \
-                  TUTOR_KNOCK_OFF | TUTOR_SWIFT | \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_SEAKING, \
-                  TUTOR_DIVE | TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | TUTOR_ICY_WIND | \
-                  TUTOR_AQUA_TAIL | TUTOR_SNORE | \
-                  \
-                  TUTOR_BOUNCE | 0, \
-                  TUTOR_KNOCK_OFF | TUTOR_SWIFT | \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_STARYU, \
-                  TUTOR_DIVE | TUTOR_ICY_WIND | TUTOR_ROLLOUT | \
-                  TUTOR_SNORE | \
-                  TUTOR_SIGNAL_BEAM | \
-                  TUTOR_TWISTER  | 0, \
-                  TUTOR_SWIFT | TUTOR_PAIN_SPLIT | \
-                  TUTOR_GRAVITY  | TUTOR_MAGIC_COAT | \
-                  \
-                  0
-
-
-tutordata SPECIES_STARMIE, \
-                  TUTOR_DIVE | TUTOR_ICY_WIND | TUTOR_ROLLOUT | \
-                  TUTOR_SNORE | \
-                  TUTOR_SIGNAL_BEAM | \
-                  TUTOR_TWISTER  | 0, \
-                  TUTOR_TRICK | TUTOR_SWIFT | TUTOR_PAIN_SPLIT | \
-                  TUTOR_GRAVITY  | TUTOR_MAGIC_COAT | \
-                  \
-                  0
-
-
-tutordata SPECIES_MR_MIME, \
-                  TUTOR_MUD_SLAP | TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | \
-                  TUTOR_ICE_PUNCH | TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | TUTOR_SIGNAL_BEAM | TUTOR_ZEN_HEADBUTT | \
-                  TUTOR_IRON_DEFENSE | 0, \
-                  TUTOR_TRICK | \
-                  TUTOR_MAGIC_COAT | TUTOR_ROLE_PLAY | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_SCYTHER, \
-                  TUTOR_FURY_CUTTER | \
-                  TUTOR_OMINOUS_WIND | TUTOR_SNORE | \
-                  \
-                  0, \
-                  TUTOR_KNOCK_OFF | TUTOR_SWIFT | \
-                  TUTOR_TAILWIND | \
-                  TUTOR_BUG_BITE | TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_JYNX, \
-                  TUTOR_MUD_SLAP | TUTOR_ICY_WIND | \
-                  TUTOR_ICE_PUNCH | TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | TUTOR_SIGNAL_BEAM | TUTOR_ZEN_HEADBUTT | \
-                  0, \
-                  TUTOR_TRICK | \
-                  TUTOR_MAGIC_COAT | TUTOR_ROLE_PLAY | TUTOR_HEAL_BELL | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_ELECTABUZZ, \
-                  TUTOR_MUD_SLAP | TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | \
-                  TUTOR_ICE_PUNCH | TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | TUTOR_SIGNAL_BEAM | \
-                  TUTOR_MAGNET_RISE | 0, \
-                  TUTOR_SWIFT | \
-                  TUTOR_LOW_KICK | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_MAGMAR, \
-                  TUTOR_MUD_SLAP | TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | \
-                  TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | \
-                  0, \
-                  TUTOR_HEAT_WAVE | \
-                  TUTOR_LOW_KICK | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_PINSIR, \
-                  TUTOR_FURY_CUTTER | TUTOR_SUPERPOWER | \
-                  TUTOR_SNORE | \
-                  \
-                  TUTOR_IRON_DEFENSE | 0, \
-                  TUTOR_KNOCK_OFF | \
-                  TUTOR_STRING_SHOT | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_TAUROS, \
-                  TUTOR_ICY_WIND | \
-                  TUTOR_IRON_HEAD | TUTOR_SNORE | TUTOR_SPITE | \
-                  TUTOR_HELPING_HAND | TUTOR_ENDEAVOR | TUTOR_OUTRAGE  | TUTOR_ZEN_HEADBUTT | \
-                  0, \
-                  TUTOR_UPROAR | \
-                  TUTOR_ROLE_PLAY | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_MAGIKARP, \
-                  \
-                  \
-                  \
-                  TUTOR_BOUNCE | 0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_GYARADOS, \
-                  TUTOR_DIVE | TUTOR_ICY_WIND | \
-                  TUTOR_IRON_HEAD | TUTOR_AQUA_TAIL | TUTOR_SNORE | TUTOR_SPITE | \
-                  TUTOR_OUTRAGE  | \
-                  TUTOR_TWISTER  | TUTOR_BOUNCE | 0, \
-                  TUTOR_UPROAR | \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_LAPRAS, \
-                  TUTOR_DIVE | TUTOR_ICY_WIND | \
-                  TUTOR_IRON_HEAD | TUTOR_AQUA_TAIL | TUTOR_SNORE | \
-                  TUTOR_OUTRAGE  | TUTOR_ANCIENT_POWER | TUTOR_SIGNAL_BEAM | TUTOR_ZEN_HEADBUTT | \
-                  0, \
-                  \
-                  TUTOR_HEAL_BELL | \
-                  TUTOR_BLOCK | TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_DITTO, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_EEVEE, \
-                  TUTOR_MUD_SLAP | \
-                  TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | \
-                  TUTOR_LAST_RESORT | 0, \
-                  TUTOR_SWIFT | \
-                  TUTOR_HEAL_BELL | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_VAPOREON, \
-                  TUTOR_DIVE | TUTOR_MUD_SLAP | TUTOR_ICY_WIND | \
-                  TUTOR_AQUA_TAIL | TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | TUTOR_SIGNAL_BEAM | \
-                  TUTOR_LAST_RESORT | 0, \
-                  TUTOR_SWIFT | \
-                  TUTOR_HEAL_BELL | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_JOLTEON, \
-                  TUTOR_MUD_SLAP | \
-                  TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | TUTOR_SIGNAL_BEAM | \
-                  TUTOR_MAGNET_RISE | TUTOR_LAST_RESORT | 0, \
-                  TUTOR_SWIFT | \
-                  TUTOR_HEAL_BELL | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_FLAREON, \
-                  TUTOR_MUD_SLAP | TUTOR_SUPERPOWER | \
-                  TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | \
-                  TUTOR_LAST_RESORT | 0, \
-                  TUTOR_HEAT_WAVE | TUTOR_SWIFT | \
-                  TUTOR_HEAL_BELL | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_PORYGON, \
-                  TUTOR_ICY_WIND | \
-                  TUTOR_SNORE | \
-                  TUTOR_SIGNAL_BEAM | TUTOR_ZEN_HEADBUTT | \
-                  TUTOR_LAST_RESORT | 0, \
-                  TUTOR_TRICK | TUTOR_SWIFT | TUTOR_PAIN_SPLIT | \
-                  TUTOR_GRAVITY  | TUTOR_MAGIC_COAT | \
-                  \
-                  0
-
-
-tutordata SPECIES_OMANYTE, \
-                  TUTOR_DIVE | TUTOR_ICY_WIND | TUTOR_ROLLOUT | \
-                  TUTOR_SNORE | \
-                  TUTOR_ANCIENT_POWER | \
-                  TUTOR_EARTH_POWER | TUTOR_IRON_DEFENSE | 0, \
-                  TUTOR_KNOCK_OFF | \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_OMASTAR, \
-                  TUTOR_DIVE | TUTOR_ICY_WIND | TUTOR_ROLLOUT | \
-                  TUTOR_SNORE | \
-                  TUTOR_ANCIENT_POWER | \
-                  TUTOR_EARTH_POWER | TUTOR_IRON_DEFENSE | 0, \
-                  TUTOR_KNOCK_OFF | \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_KABUTO, \
-                  TUTOR_MUD_SLAP | TUTOR_ICY_WIND | TUTOR_ROLLOUT | \
-                  TUTOR_SNORE | \
-                  TUTOR_ANCIENT_POWER | \
-                  TUTOR_EARTH_POWER | TUTOR_IRON_DEFENSE | 0, \
-                  TUTOR_KNOCK_OFF | \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_KABUTOPS, \
-                  TUTOR_DIVE | TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | TUTOR_ICY_WIND | TUTOR_ROLLOUT | TUTOR_SUPERPOWER | \
-                  TUTOR_AQUA_TAIL | TUTOR_SNORE | \
-                  TUTOR_ANCIENT_POWER | \
-                  TUTOR_EARTH_POWER | TUTOR_IRON_DEFENSE | 0, \
-                  TUTOR_KNOCK_OFF | \
-                  TUTOR_LOW_KICK | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_AERODACTYL, \
-                  \
-                  TUTOR_IRON_HEAD | TUTOR_AQUA_TAIL | TUTOR_OMINOUS_WIND | TUTOR_SNORE | TUTOR_AIR_CUTTER | \
-                  TUTOR_ANCIENT_POWER | \
-                  TUTOR_EARTH_POWER | TUTOR_TWISTER  | 0, \
-                  TUTOR_HEAT_WAVE | TUTOR_SWIFT | \
-                  TUTOR_TAILWIND | \
-                  TUTOR_SKY_ATTACK | TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_SNORLAX, \
-                  TUTOR_MUD_SLAP | TUTOR_ICY_WIND | TUTOR_ROLLOUT | TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | TUTOR_SUPERPOWER | \
-                  TUTOR_ICE_PUNCH | TUTOR_IRON_HEAD | TUTOR_SNORE | \
-                  TUTOR_OUTRAGE  | TUTOR_ZEN_HEADBUTT | \
-                  TUTOR_GUNK_SHOT | TUTOR_SEED_BOMB | TUTOR_LAST_RESORT | 0, \
-                  \
-                  \
-                  TUTOR_BLOCK | TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_ARTICUNO, \
-                  TUTOR_MUD_SLAP | TUTOR_ICY_WIND | \
-                  TUTOR_OMINOUS_WIND | TUTOR_SNORE | TUTOR_AIR_CUTTER | \
-                  TUTOR_ANCIENT_POWER | TUTOR_SIGNAL_BEAM | \
-                  TUTOR_TWISTER  | 0, \
-                  TUTOR_SWIFT | \
-                  TUTOR_TAILWIND | \
-                  TUTOR_SKY_ATTACK | \
-                  0
-
-
-tutordata SPECIES_ZAPDOS, \
-                  TUTOR_MUD_SLAP | \
-                  TUTOR_OMINOUS_WIND | TUTOR_SNORE | TUTOR_AIR_CUTTER | \
-                  TUTOR_ANCIENT_POWER | TUTOR_SIGNAL_BEAM | \
-                  TUTOR_TWISTER  | 0, \
-                  TUTOR_HEAT_WAVE | TUTOR_SWIFT | \
-                  TUTOR_TAILWIND | \
-                  TUTOR_SKY_ATTACK | \
-                  0
-
-
-tutordata SPECIES_MOLTRES, \
-                  TUTOR_MUD_SLAP | \
-                  TUTOR_OMINOUS_WIND | TUTOR_SNORE | TUTOR_AIR_CUTTER | \
-                  TUTOR_ANCIENT_POWER | \
-                  TUTOR_TWISTER  | 0, \
-                  TUTOR_HEAT_WAVE | TUTOR_SWIFT | \
-                  TUTOR_TAILWIND | \
-                  TUTOR_SKY_ATTACK | \
-                  0
-
-
-tutordata SPECIES_DRATINI, \
-                  TUTOR_ICY_WIND | \
-                  TUTOR_AQUA_TAIL | TUTOR_SNORE | \
-                  TUTOR_OUTRAGE  | \
-                  TUTOR_TWISTER  | 0, \
-                  TUTOR_SWIFT | \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_DRAGONAIR, \
-                  TUTOR_ICY_WIND | \
-                  TUTOR_AQUA_TAIL | TUTOR_SNORE | \
-                  TUTOR_OUTRAGE  | \
-                  TUTOR_TWISTER  | 0, \
-                  TUTOR_SWIFT | \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_DRAGONITE, \
-                  TUTOR_DIVE | TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | TUTOR_ICY_WIND | TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | TUTOR_SUPERPOWER | \
-                  TUTOR_ICE_PUNCH | TUTOR_IRON_HEAD | TUTOR_AQUA_TAIL | TUTOR_OMINOUS_WIND | TUTOR_SNORE | TUTOR_AIR_CUTTER | \
-                  TUTOR_OUTRAGE  | \
-                  TUTOR_TWISTER  | 0, \
-                  TUTOR_HEAT_WAVE | TUTOR_SWIFT | \
-                  TUTOR_TAILWIND | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_MEWTWO, \
-                  TUTOR_MUD_SLAP | TUTOR_ICY_WIND | TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | \
-                  TUTOR_ICE_PUNCH | TUTOR_AQUA_TAIL | TUTOR_SNORE | \
-                  TUTOR_SIGNAL_BEAM | TUTOR_ZEN_HEADBUTT | \
-                  0, \
-                  TUTOR_TRICK | TUTOR_SWIFT | \
-                  TUTOR_GRAVITY  | TUTOR_MAGIC_COAT | TUTOR_ROLE_PLAY | TUTOR_LOW_KICK | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_MEW, \
-                  TUTOR_DIVE | TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | TUTOR_ICY_WIND | TUTOR_ROLLOUT | TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | TUTOR_SUPERPOWER | \
-                  TUTOR_ICE_PUNCH | TUTOR_IRON_HEAD | TUTOR_AQUA_TAIL | TUTOR_OMINOUS_WIND | TUTOR_GASTRO_ACID | TUTOR_SNORE | TUTOR_SPITE | TUTOR_AIR_CUTTER | \
-                  TUTOR_HELPING_HAND | TUTOR_ENDEAVOR | TUTOR_OUTRAGE  | TUTOR_ANCIENT_POWER | TUTOR_SYNTHESIS | TUTOR_SIGNAL_BEAM | TUTOR_ZEN_HEADBUTT | TUTOR_VACUUM_WAVE | \
-                  TUTOR_EARTH_POWER | TUTOR_GUNK_SHOT | TUTOR_TWISTER  | TUTOR_SEED_BOMB | TUTOR_IRON_DEFENSE | TUTOR_MAGNET_RISE | TUTOR_LAST_RESORT | TUTOR_BOUNCE | 0, \
-                  TUTOR_TRICK | TUTOR_HEAT_WAVE | TUTOR_KNOCK_OFF | TUTOR_SUCKER_PUNCH | TUTOR_SWIFT | TUTOR_UPROAR | TUTOR_SUPER_FANG | TUTOR_PAIN_SPLIT | \
-                  TUTOR_STRING_SHOT | TUTOR_TAILWIND | TUTOR_GRAVITY  | TUTOR_WORRY_SEED | TUTOR_MAGIC_COAT | TUTOR_ROLE_PLAY | TUTOR_HEAL_BELL | TUTOR_LOW_KICK | \
-                  TUTOR_SKY_ATTACK | TUTOR_BLOCK | TUTOR_BUG_BITE | TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_CHIKORITA, \
-                  TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | \
-                  TUTOR_SNORE | \
-                  TUTOR_ANCIENT_POWER | TUTOR_SYNTHESIS | \
-                  TUTOR_SEED_BOMB | 0, \
-                  \
-                  TUTOR_WORRY_SEED | TUTOR_MAGIC_COAT | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_BAYLEEF, \
-                  TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | \
-                  TUTOR_SNORE | \
-                  TUTOR_ANCIENT_POWER | TUTOR_SYNTHESIS | \
-                  TUTOR_SEED_BOMB | 0, \
-                  \
-                  TUTOR_WORRY_SEED | TUTOR_MAGIC_COAT | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_MEGANIUM, \
-                  TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | \
-                  TUTOR_SNORE | \
-                  TUTOR_OUTRAGE  | TUTOR_ANCIENT_POWER | TUTOR_SYNTHESIS | \
-                  TUTOR_SEED_BOMB | 0, \
-                  \
-                  TUTOR_WORRY_SEED | TUTOR_MAGIC_COAT | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_CYNDAQUIL, \
-                  TUTOR_MUD_SLAP | TUTOR_ROLLOUT | \
-                  TUTOR_SNORE | \
-                  \
-                  0, \
-                  TUTOR_HEAT_WAVE | TUTOR_SWIFT | \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_QUILAVA, \
-                  TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | TUTOR_ROLLOUT | \
-                  TUTOR_SNORE | \
-                  \
-                  0, \
-                  TUTOR_HEAT_WAVE | TUTOR_SWIFT | \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_TYPHLOSION, \
-                  TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | TUTOR_ROLLOUT | TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | \
-                  TUTOR_SNORE | \
-                  \
-                  0, \
-                  TUTOR_HEAT_WAVE | TUTOR_SWIFT | \
-                  TUTOR_LOW_KICK | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_TOTODILE, \
-                  TUTOR_DIVE | TUTOR_MUD_SLAP | TUTOR_ICY_WIND | TUTOR_SUPERPOWER | \
-                  TUTOR_ICE_PUNCH | TUTOR_AQUA_TAIL | TUTOR_SNORE | TUTOR_SPITE | \
-                  TUTOR_ANCIENT_POWER | \
-                  0, \
-                  TUTOR_UPROAR | \
-                  TUTOR_LOW_KICK | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_CROCONAW, \
-                  TUTOR_DIVE | TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | TUTOR_ICY_WIND | TUTOR_SUPERPOWER | \
-                  TUTOR_ICE_PUNCH | TUTOR_SNORE | TUTOR_SPITE | \
-                  TUTOR_ANCIENT_POWER | \
-                  0, \
-                  TUTOR_UPROAR | \
-                  TUTOR_LOW_KICK | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_FERALIGATR, \
-                  TUTOR_DIVE | TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | TUTOR_ICY_WIND | TUTOR_SUPERPOWER | \
-                  TUTOR_ICE_PUNCH | TUTOR_AQUA_TAIL | TUTOR_SNORE | TUTOR_SPITE | \
-                  TUTOR_OUTRAGE  | TUTOR_ANCIENT_POWER | \
-                  0, \
-                  TUTOR_UPROAR | \
-                  TUTOR_LOW_KICK | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_SENTRET, \
-                  TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | TUTOR_ROLLOUT | TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | \
-                  TUTOR_ICE_PUNCH | TUTOR_AQUA_TAIL | TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | \
-                  TUTOR_LAST_RESORT | 0, \
-                  TUTOR_KNOCK_OFF | TUTOR_SUCKER_PUNCH | TUTOR_SWIFT | TUTOR_UPROAR | TUTOR_SUPER_FANG | \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_FURRET, \
-                  TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | TUTOR_ROLLOUT | TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | \
-                  TUTOR_ICE_PUNCH | TUTOR_AQUA_TAIL | TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | \
-                  TUTOR_LAST_RESORT | 0, \
-                  TUTOR_KNOCK_OFF | TUTOR_SUCKER_PUNCH | TUTOR_SWIFT | TUTOR_UPROAR | TUTOR_SUPER_FANG | \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_HOOTHOOT, \
-                  TUTOR_MUD_SLAP | \
-                  TUTOR_OMINOUS_WIND | TUTOR_AIR_CUTTER | \
-                  TUTOR_ZEN_HEADBUTT | \
-                  TUTOR_TWISTER  | 0, \
-                  TUTOR_HEAT_WAVE | TUTOR_SWIFT | TUTOR_UPROAR | \
-                  TUTOR_TAILWIND | TUTOR_MAGIC_COAT | \
-                  \
-                  0
-
-
-tutordata SPECIES_NOCTOWL, \
-                  TUTOR_MUD_SLAP | \
-                  TUTOR_OMINOUS_WIND | TUTOR_AIR_CUTTER | \
-                  TUTOR_ZEN_HEADBUTT | \
-                  TUTOR_TWISTER  | 0, \
-                  TUTOR_HEAT_WAVE | TUTOR_SWIFT | TUTOR_UPROAR | \
-                  TUTOR_TAILWIND | TUTOR_MAGIC_COAT | \
-                  TUTOR_SKY_ATTACK | \
-                  0
-
-
-tutordata SPECIES_LEDYBA, \
-                  TUTOR_ROLLOUT | TUTOR_THUNDER_PUNCH | \
-                  TUTOR_ICE_PUNCH | TUTOR_OMINOUS_WIND | TUTOR_SNORE | TUTOR_AIR_CUTTER | \
-                  \
-                  0, \
-                  TUTOR_KNOCK_OFF | TUTOR_SWIFT | TUTOR_UPROAR | \
-                  TUTOR_STRING_SHOT | TUTOR_TAILWIND | \
-                  TUTOR_BUG_BITE | TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_LEDIAN, \
-                  TUTOR_ROLLOUT | TUTOR_THUNDER_PUNCH | \
-                  TUTOR_ICE_PUNCH | TUTOR_OMINOUS_WIND | TUTOR_SNORE | TUTOR_AIR_CUTTER | \
-                  \
-                  0, \
-                  TUTOR_KNOCK_OFF | TUTOR_SWIFT | TUTOR_UPROAR | \
-                  TUTOR_STRING_SHOT | TUTOR_TAILWIND | \
-                  TUTOR_BUG_BITE | TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_SPINARAK, \
-                  \
-                  \
-                  TUTOR_SIGNAL_BEAM | \
-                  TUTOR_BOUNCE | 0, \
-                  TUTOR_SUCKER_PUNCH | \
-                  TUTOR_STRING_SHOT | \
-                  TUTOR_BUG_BITE | \
-                  0
-
-
-tutordata SPECIES_ARIADOS, \
-                  \
-                  \
-                  TUTOR_SIGNAL_BEAM | \
-                  TUTOR_BOUNCE | 0, \
-                  TUTOR_SUCKER_PUNCH | \
-                  TUTOR_STRING_SHOT | \
-                  TUTOR_BUG_BITE | \
-                  0
-
-
-tutordata SPECIES_CROBAT, \
-                  \
-                  TUTOR_OMINOUS_WIND | TUTOR_SNORE | TUTOR_AIR_CUTTER | \
-                  TUTOR_ZEN_HEADBUTT | \
-                  TUTOR_TWISTER  | 0, \
-                  TUTOR_HEAT_WAVE | TUTOR_SWIFT | TUTOR_UPROAR | TUTOR_SUPER_FANG | \
-                  TUTOR_TAILWIND | \
-                  TUTOR_SKY_ATTACK | \
-                  0
-
-
-tutordata SPECIES_CHINCHOU, \
-                  TUTOR_DIVE | TUTOR_ICY_WIND | \
-                  TUTOR_SNORE | \
-                  TUTOR_SIGNAL_BEAM | \
-                  TUTOR_BOUNCE | 0, \
-                  TUTOR_SUCKER_PUNCH | \
-                  TUTOR_HEAL_BELL | \
-                  \
-                  0
-
-
-tutordata SPECIES_LANTURN, \
-                  TUTOR_DIVE | TUTOR_ICY_WIND | \
-                  TUTOR_AQUA_TAIL | TUTOR_SNORE | \
-                  TUTOR_SIGNAL_BEAM | \
-                  TUTOR_BOUNCE | 0, \
-                  TUTOR_SUCKER_PUNCH | \
-                  TUTOR_HEAL_BELL | \
-                  \
-                  0
-
-
-tutordata SPECIES_PICHU, \
-                  TUTOR_MUD_SLAP | TUTOR_ROLLOUT | \
-                  TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | TUTOR_SIGNAL_BEAM | \
-                  TUTOR_MAGNET_RISE | 0, \
-                  TUTOR_SWIFT | TUTOR_UPROAR | \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_CLEFFA, \
-                  TUTOR_MUD_SLAP | TUTOR_ICY_WIND | TUTOR_ROLLOUT | \
-                  TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | TUTOR_ENDEAVOR | TUTOR_SIGNAL_BEAM | TUTOR_ZEN_HEADBUTT | \
-                  TUTOR_LAST_RESORT | 0, \
-                  TUTOR_TRICK | TUTOR_UPROAR | \
-                  TUTOR_GRAVITY  | TUTOR_MAGIC_COAT | TUTOR_ROLE_PLAY | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_IGGLYBUFF, \
-                  TUTOR_MUD_SLAP | TUTOR_ICY_WIND | TUTOR_ROLLOUT | \
-                  TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | TUTOR_ENDEAVOR | \
-                  TUTOR_LAST_RESORT | TUTOR_BOUNCE | 0, \
-                  TUTOR_UPROAR | TUTOR_PAIN_SPLIT | \
-                  TUTOR_GRAVITY  | TUTOR_MAGIC_COAT | TUTOR_ROLE_PLAY | TUTOR_HEAL_BELL | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_TOGEPI, \
-                  TUTOR_MUD_SLAP | TUTOR_ROLLOUT | \
-                  TUTOR_SNORE | \
-                  TUTOR_ENDEAVOR | TUTOR_ANCIENT_POWER | TUTOR_SIGNAL_BEAM | TUTOR_ZEN_HEADBUTT | \
-                  TUTOR_LAST_RESORT | 0, \
-                  TUTOR_TRICK | TUTOR_SWIFT | TUTOR_UPROAR | \
-                  TUTOR_MAGIC_COAT | TUTOR_HEAL_BELL | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_TOGETIC, \
-                  TUTOR_MUD_SLAP | TUTOR_ROLLOUT | \
-                  TUTOR_OMINOUS_WIND | TUTOR_SNORE | TUTOR_AIR_CUTTER | \
-                  TUTOR_ENDEAVOR | TUTOR_ANCIENT_POWER | TUTOR_SIGNAL_BEAM | TUTOR_ZEN_HEADBUTT | \
-                  TUTOR_TWISTER  | TUTOR_LAST_RESORT | 0, \
-                  TUTOR_TRICK | TUTOR_HEAT_WAVE | TUTOR_SWIFT | \
-                  TUTOR_TAILWIND | TUTOR_MAGIC_COAT | TUTOR_HEAL_BELL | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_NATU, \
-                  \
-                  TUTOR_OMINOUS_WIND | TUTOR_SNORE | TUTOR_AIR_CUTTER | \
-                  TUTOR_SIGNAL_BEAM | TUTOR_ZEN_HEADBUTT | \
-                  TUTOR_TWISTER  | 0, \
-                  TUTOR_TRICK | TUTOR_HEAT_WAVE | TUTOR_SUCKER_PUNCH | TUTOR_SWIFT | TUTOR_PAIN_SPLIT | \
-                  TUTOR_TAILWIND | TUTOR_MAGIC_COAT | \
-                  \
-                  0
-
-
-tutordata SPECIES_XATU, \
-                  \
-                  TUTOR_OMINOUS_WIND | TUTOR_SNORE | TUTOR_AIR_CUTTER | \
-                  TUTOR_SIGNAL_BEAM | TUTOR_ZEN_HEADBUTT | \
-                  TUTOR_TWISTER  | 0, \
-                  TUTOR_TRICK | TUTOR_HEAT_WAVE | TUTOR_SUCKER_PUNCH | TUTOR_SWIFT | TUTOR_PAIN_SPLIT | \
-                  TUTOR_TAILWIND | TUTOR_MAGIC_COAT | \
-                  TUTOR_SKY_ATTACK | \
-                  0
-
-
-tutordata SPECIES_MAREEP, \
-                  \
-                  TUTOR_SNORE | \
-                  TUTOR_SIGNAL_BEAM | \
-                  TUTOR_MAGNET_RISE | 0, \
-                  TUTOR_SWIFT | \
-                  TUTOR_HEAL_BELL | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_FLAAFFY, \
-                  TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | \
-                  TUTOR_SNORE | \
-                  TUTOR_SIGNAL_BEAM | \
-                  TUTOR_MAGNET_RISE | 0, \
-                  TUTOR_SWIFT | \
-                  TUTOR_HEAL_BELL | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_AMPHAROS, \
-                  TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | \
-                  TUTOR_SNORE | \
-                  TUTOR_OUTRAGE  | TUTOR_SIGNAL_BEAM | \
-                  TUTOR_MAGNET_RISE | 0, \
-                  TUTOR_SWIFT | \
-                  TUTOR_HEAL_BELL | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_BELLOSSOM, \
-                  \
-                  TUTOR_GASTRO_ACID | TUTOR_SNORE | \
-                  TUTOR_SYNTHESIS | \
-                  TUTOR_SEED_BOMB | 0, \
-                  TUTOR_UPROAR | \
-                  TUTOR_WORRY_SEED | \
-                  \
-                  0
-
-
-tutordata SPECIES_MARILL, \
-                  TUTOR_DIVE | TUTOR_MUD_SLAP | TUTOR_ICY_WIND | TUTOR_ROLLOUT | TUTOR_SUPERPOWER | \
-                  TUTOR_ICE_PUNCH | TUTOR_AQUA_TAIL | TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | \
-                  0, \
-                  TUTOR_KNOCK_OFF | TUTOR_SWIFT | \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_AZUMARILL, \
-                  TUTOR_DIVE | TUTOR_MUD_SLAP | TUTOR_ICY_WIND | TUTOR_ROLLOUT | TUTOR_SUPERPOWER | \
-                  TUTOR_ICE_PUNCH | TUTOR_AQUA_TAIL | TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | \
-                  0, \
-                  TUTOR_KNOCK_OFF | TUTOR_SWIFT | \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_SUDOWOODO, \
-                  TUTOR_MUD_SLAP | TUTOR_ROLLOUT | TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | \
-                  TUTOR_ICE_PUNCH | TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | \
-                  TUTOR_EARTH_POWER | 0, \
-                  TUTOR_SUCKER_PUNCH | \
-                  TUTOR_ROLE_PLAY | TUTOR_LOW_KICK | \
-                  TUTOR_BLOCK | TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_POLITOED, \
-                  TUTOR_DIVE | TUTOR_MUD_SLAP | TUTOR_ICY_WIND | \
-                  TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | \
-                  TUTOR_BOUNCE | 0, \
-                  \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_HOPPIP, \
-                  \
-                  TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | TUTOR_SYNTHESIS | \
-                  TUTOR_SEED_BOMB | TUTOR_BOUNCE | 0, \
-                  \
-                  TUTOR_WORRY_SEED | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_SKIPLOOM, \
-                  \
-                  TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | TUTOR_SYNTHESIS | \
-                  TUTOR_SEED_BOMB | TUTOR_BOUNCE | 0, \
-                  \
-                  TUTOR_WORRY_SEED | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_JUMPLUFF, \
-                  \
-                  TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | TUTOR_SYNTHESIS | \
-                  TUTOR_SEED_BOMB | TUTOR_BOUNCE | 0, \
-                  \
-                  TUTOR_WORRY_SEED | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_AIPOM, \
-                  TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | \
-                  TUTOR_ICE_PUNCH | TUTOR_SNORE | TUTOR_SPITE | \
-                  \
-                  TUTOR_GUNK_SHOT | TUTOR_SEED_BOMB | TUTOR_LAST_RESORT | TUTOR_BOUNCE | 0, \
-                  TUTOR_KNOCK_OFF | TUTOR_SWIFT | TUTOR_UPROAR | \
-                  TUTOR_ROLE_PLAY | TUTOR_LOW_KICK | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_SUNKERN, \
-                  \
-                  TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | TUTOR_ENDEAVOR | TUTOR_SYNTHESIS | \
-                  TUTOR_EARTH_POWER | TUTOR_SEED_BOMB | 0, \
-                  TUTOR_UPROAR | \
-                  TUTOR_WORRY_SEED | \
-                  \
-                  0
-
-
-tutordata SPECIES_SUNFLORA, \
-                  \
-                  TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | TUTOR_ENDEAVOR | TUTOR_SYNTHESIS | \
-                  TUTOR_EARTH_POWER | TUTOR_SEED_BOMB | 0, \
-                  TUTOR_UPROAR | \
-                  TUTOR_WORRY_SEED | \
-                  \
-                  0
-
-
-tutordata SPECIES_YANMA, \
-                  \
-                  TUTOR_OMINOUS_WIND | TUTOR_SNORE | TUTOR_AIR_CUTTER | \
-                  TUTOR_ANCIENT_POWER | TUTOR_SIGNAL_BEAM | \
-                  0, \
-                  TUTOR_SWIFT | TUTOR_UPROAR | \
-                  TUTOR_STRING_SHOT | TUTOR_TAILWIND | \
-                  TUTOR_BUG_BITE | TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_WOOPER, \
-                  TUTOR_DIVE | TUTOR_MUD_SLAP | TUTOR_ICY_WIND | TUTOR_ROLLOUT | \
-                  TUTOR_ICE_PUNCH | TUTOR_AQUA_TAIL | TUTOR_SNORE | \
-                  TUTOR_ANCIENT_POWER | \
-                  TUTOR_EARTH_POWER | 0, \
-                  \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_QUAGSIRE, \
-                  TUTOR_DIVE | TUTOR_MUD_SLAP | TUTOR_ICY_WIND | TUTOR_ROLLOUT | \
-                  TUTOR_ICE_PUNCH | TUTOR_AQUA_TAIL | TUTOR_SNORE | \
-                  TUTOR_ANCIENT_POWER | \
-                  TUTOR_EARTH_POWER | 0, \
-                  \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_ESPEON, \
-                  TUTOR_MUD_SLAP | \
-                  TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | TUTOR_SIGNAL_BEAM | TUTOR_ZEN_HEADBUTT | \
-                  TUTOR_LAST_RESORT | 0, \
-                  TUTOR_TRICK | TUTOR_SWIFT | \
-                  TUTOR_MAGIC_COAT | TUTOR_HEAL_BELL | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_UMBREON, \
-                  TUTOR_MUD_SLAP | \
-                  TUTOR_SNORE | TUTOR_SPITE | \
-                  TUTOR_HELPING_HAND | \
-                  TUTOR_LAST_RESORT | 0, \
-                  TUTOR_SUCKER_PUNCH | TUTOR_SWIFT | \
-                  TUTOR_HEAL_BELL | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_MURKROW, \
-                  TUTOR_MUD_SLAP | TUTOR_ICY_WIND | \
-                  TUTOR_OMINOUS_WIND | TUTOR_SPITE | TUTOR_AIR_CUTTER | \
-                  \
-                  TUTOR_TWISTER  | 0, \
-                  TUTOR_HEAT_WAVE | TUTOR_SUCKER_PUNCH | TUTOR_SWIFT | TUTOR_UPROAR | \
-                  TUTOR_TAILWIND | \
-                  \
-                  0
-
-
-tutordata SPECIES_SLOWKING, \
-                  TUTOR_DIVE | TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | TUTOR_ICY_WIND | \
-                  TUTOR_ICE_PUNCH | TUTOR_AQUA_TAIL | TUTOR_SNORE | \
-                  TUTOR_SIGNAL_BEAM | TUTOR_ZEN_HEADBUTT | \
-                  TUTOR_IRON_DEFENSE | 0, \
-                  TUTOR_TRICK | TUTOR_SWIFT | \
-                  TUTOR_MAGIC_COAT | \
-                  TUTOR_BLOCK | TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_MISDREAVUS, \
-                  TUTOR_ICY_WIND | \
-                  TUTOR_OMINOUS_WIND | TUTOR_SNORE | TUTOR_SPITE | \
-                  \
-                  0, \
-                  TUTOR_TRICK | TUTOR_SUCKER_PUNCH | TUTOR_SWIFT | TUTOR_UPROAR | TUTOR_PAIN_SPLIT | \
-                  TUTOR_MAGIC_COAT | TUTOR_HEAL_BELL | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_UNOWN, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_WOBBUFFET, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_GIRAFARIG, \
-                  TUTOR_MUD_SLAP | \
-                  TUTOR_SNORE | \
-                  TUTOR_SIGNAL_BEAM | TUTOR_ZEN_HEADBUTT | \
-                  0, \
-                  TUTOR_TRICK | TUTOR_SUCKER_PUNCH | TUTOR_SWIFT | TUTOR_UPROAR | \
-                  TUTOR_GRAVITY  | TUTOR_MAGIC_COAT | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_PINECO, \
-                  TUTOR_ROLLOUT | \
-                  TUTOR_SNORE | \
-                  \
-                  TUTOR_IRON_DEFENSE | 0, \
-                  TUTOR_PAIN_SPLIT | \
-                  TUTOR_STRING_SHOT | TUTOR_GRAVITY  | \
-                  TUTOR_BUG_BITE | TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_FORRETRESS, \
-                  TUTOR_ROLLOUT | \
-                  TUTOR_SNORE | \
-                  TUTOR_SIGNAL_BEAM | \
-                  TUTOR_IRON_DEFENSE | TUTOR_MAGNET_RISE | 0, \
-                  TUTOR_PAIN_SPLIT | \
-                  TUTOR_STRING_SHOT | TUTOR_GRAVITY  | \
-                  TUTOR_BLOCK | TUTOR_BUG_BITE | TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_DUNSPARCE, \
-                  TUTOR_MUD_SLAP | TUTOR_ROLLOUT | \
-                  TUTOR_AQUA_TAIL | TUTOR_SNORE | TUTOR_SPITE | \
-                  TUTOR_ENDEAVOR | TUTOR_ANCIENT_POWER | TUTOR_ZEN_HEADBUTT | \
-                  TUTOR_LAST_RESORT | 0, \
-                  TUTOR_PAIN_SPLIT | \
-                  TUTOR_MAGIC_COAT | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_GLIGAR, \
-                  TUTOR_FURY_CUTTER | \
-                  TUTOR_AQUA_TAIL | TUTOR_SNORE | \
-                  \
-                  TUTOR_EARTH_POWER | 0, \
-                  TUTOR_KNOCK_OFF | TUTOR_SWIFT | \
-                  TUTOR_TAILWIND | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_STEELIX, \
-                  TUTOR_MUD_SLAP | TUTOR_ROLLOUT | \
-                  TUTOR_IRON_HEAD | TUTOR_AQUA_TAIL | TUTOR_SNORE | \
-                  TUTOR_ANCIENT_POWER | \
-                  TUTOR_EARTH_POWER | TUTOR_TWISTER  | TUTOR_MAGNET_RISE | 0, \
-                  \
-                  \
-                  TUTOR_BLOCK | TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_SNUBBULL, \
-                  TUTOR_MUD_SLAP | TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | TUTOR_SUPERPOWER | \
-                  TUTOR_ICE_PUNCH | TUTOR_SNORE | \
-                  \
-                  TUTOR_LAST_RESORT | 0, \
-                  TUTOR_SUPER_FANG | \
-                  TUTOR_HEAL_BELL | TUTOR_LOW_KICK | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_GRANBULL, \
-                  TUTOR_MUD_SLAP | TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | TUTOR_SUPERPOWER | \
-                  TUTOR_ICE_PUNCH | TUTOR_SNORE | \
-                  \
-                  TUTOR_LAST_RESORT | 0, \
-                  TUTOR_SUPER_FANG | \
-                  TUTOR_HEAL_BELL | TUTOR_LOW_KICK | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_QWILFISH, \
-                  TUTOR_DIVE | TUTOR_ICY_WIND | TUTOR_ROLLOUT | \
-                  TUTOR_AQUA_TAIL | TUTOR_SNORE | \
-                  TUTOR_SIGNAL_BEAM | \
-                  TUTOR_BOUNCE | 0, \
-                  TUTOR_SWIFT | TUTOR_PAIN_SPLIT | \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_SCIZOR, \
-                  TUTOR_FURY_CUTTER | TUTOR_SUPERPOWER | \
-                  TUTOR_IRON_HEAD | TUTOR_OMINOUS_WIND | TUTOR_SNORE | \
-                  \
-                  TUTOR_IRON_DEFENSE | 0, \
-                  TUTOR_KNOCK_OFF | TUTOR_SWIFT | \
-                  TUTOR_TAILWIND | \
-                  TUTOR_BUG_BITE | TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_SHUCKLE, \
-                  TUTOR_MUD_SLAP | TUTOR_ROLLOUT | \
-                  TUTOR_GASTRO_ACID | TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | TUTOR_ANCIENT_POWER | \
-                  TUTOR_EARTH_POWER | 0, \
-                  \
-                  TUTOR_STRING_SHOT | \
-                  TUTOR_BUG_BITE | TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_HERACROSS, \
-                  TUTOR_FURY_CUTTER | \
-                  TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | TUTOR_VACUUM_WAVE | \
-                  TUTOR_IRON_DEFENSE | 0, \
-                  TUTOR_KNOCK_OFF | \
-                  TUTOR_LOW_KICK | \
-                  TUTOR_BUG_BITE | TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_SNEASEL, \
-                  TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | TUTOR_ICY_WIND | \
-                  TUTOR_ICE_PUNCH | TUTOR_SNORE | TUTOR_SPITE | \
-                  \
-                  0, \
-                  TUTOR_KNOCK_OFF | TUTOR_SWIFT | \
-                  TUTOR_LOW_KICK | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_TEDDIURSA, \
-                  TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | TUTOR_ROLLOUT | TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | TUTOR_SUPERPOWER | \
-                  TUTOR_ICE_PUNCH | TUTOR_SNORE | \
-                  \
-                  TUTOR_GUNK_SHOT | TUTOR_SEED_BOMB | TUTOR_LAST_RESORT | 0, \
-                  TUTOR_SWIFT | \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_URSARING, \
-                  TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | TUTOR_ROLLOUT | TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | TUTOR_SUPERPOWER | \
-                  TUTOR_ICE_PUNCH | TUTOR_SNORE | \
-                  \
-                  TUTOR_GUNK_SHOT | TUTOR_SEED_BOMB | TUTOR_LAST_RESORT | 0, \
-                  TUTOR_SWIFT | TUTOR_UPROAR | \
-                  TUTOR_LOW_KICK | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_SLUGMA, \
-                  TUTOR_MUD_SLAP | TUTOR_ROLLOUT | \
-                  TUTOR_SNORE | \
-                  TUTOR_ANCIENT_POWER | \
-                  TUTOR_EARTH_POWER | TUTOR_IRON_DEFENSE | 0, \
-                  TUTOR_HEAT_WAVE | TUTOR_PAIN_SPLIT | \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_MAGCARGO, \
-                  TUTOR_MUD_SLAP | TUTOR_ROLLOUT | \
-                  TUTOR_SNORE | \
-                  TUTOR_ANCIENT_POWER | \
-                  TUTOR_EARTH_POWER | TUTOR_IRON_DEFENSE | 0, \
-                  TUTOR_HEAT_WAVE | TUTOR_PAIN_SPLIT | \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_SWINUB, \
-                  TUTOR_MUD_SLAP | TUTOR_ICY_WIND | TUTOR_SUPERPOWER | \
-                  TUTOR_SNORE | \
-                  TUTOR_ENDEAVOR | TUTOR_ANCIENT_POWER | \
-                  TUTOR_EARTH_POWER | 0, \
-                  \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_PILOSWINE, \
-                  TUTOR_MUD_SLAP | TUTOR_ICY_WIND | TUTOR_SUPERPOWER | \
-                  TUTOR_SNORE | \
-                  TUTOR_ENDEAVOR | TUTOR_ANCIENT_POWER | \
-                  TUTOR_EARTH_POWER | 0, \
-                  \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_CORSOLA, \
-                  TUTOR_MUD_SLAP | TUTOR_ICY_WIND | TUTOR_ROLLOUT | \
-                  TUTOR_SNORE | \
-                  TUTOR_ENDEAVOR | TUTOR_ANCIENT_POWER | \
-                  TUTOR_EARTH_POWER | 0, \
-                  TUTOR_SUCKER_PUNCH | \
-                  TUTOR_MAGIC_COAT | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_REMORAID, \
-                  TUTOR_DIVE | TUTOR_MUD_SLAP | TUTOR_ICY_WIND | \
-                  TUTOR_SNORE | \
-                  TUTOR_SIGNAL_BEAM | \
-                  TUTOR_GUNK_SHOT | TUTOR_SEED_BOMB | TUTOR_BOUNCE | 0, \
-                  TUTOR_SWIFT | \
-                  TUTOR_STRING_SHOT | \
-                  \
-                  0
-
-
-tutordata SPECIES_OCTILLERY, \
-                  TUTOR_DIVE | TUTOR_MUD_SLAP | TUTOR_ICY_WIND | \
-                  TUTOR_SNORE | \
-                  TUTOR_SIGNAL_BEAM | \
-                  TUTOR_GUNK_SHOT | TUTOR_SEED_BOMB | TUTOR_BOUNCE | 0, \
-                  TUTOR_SWIFT | \
-                  TUTOR_STRING_SHOT | \
-                  \
-                  0
-
-
-tutordata SPECIES_DELIBIRD, \
-                  TUTOR_MUD_SLAP | TUTOR_ICY_WIND | TUTOR_ROLLOUT | \
-                  \
-                  TUTOR_SIGNAL_BEAM | \
-                  TUTOR_GUNK_SHOT | TUTOR_SEED_BOMB | TUTOR_BOUNCE | 0, \
-                  TUTOR_SWIFT | \
-                  \
-                  TUTOR_SKY_ATTACK | TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_MANTINE, \
-                  TUTOR_DIVE | TUTOR_MUD_SLAP | TUTOR_ICY_WIND | \
-                  TUTOR_IRON_HEAD | TUTOR_AQUA_TAIL | TUTOR_SNORE | TUTOR_AIR_CUTTER | \
-                  TUTOR_HELPING_HAND | TUTOR_SIGNAL_BEAM | \
-                  TUTOR_GUNK_SHOT | TUTOR_SEED_BOMB | TUTOR_BOUNCE | 0, \
-                  TUTOR_SWIFT | \
-                  TUTOR_STRING_SHOT | TUTOR_TAILWIND | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_SKARMORY, \
-                  TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | TUTOR_ICY_WIND | \
-                  TUTOR_OMINOUS_WIND | TUTOR_SNORE | TUTOR_AIR_CUTTER | \
-                  \
-                  TUTOR_TWISTER  | TUTOR_IRON_DEFENSE | 0, \
-                  TUTOR_SWIFT | \
-                  TUTOR_TAILWIND | \
-                  TUTOR_SKY_ATTACK | \
-                  0
-
-
-tutordata SPECIES_HOUNDOUR, \
-                  TUTOR_MUD_SLAP | \
-                  TUTOR_SNORE | TUTOR_SPITE | \
-                  \
-                  0, \
-                  TUTOR_HEAT_WAVE | TUTOR_SUCKER_PUNCH | TUTOR_SWIFT | TUTOR_UPROAR | TUTOR_SUPER_FANG | \
-                  TUTOR_ROLE_PLAY | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_HOUNDOOM, \
-                  TUTOR_MUD_SLAP | \
-                  TUTOR_SNORE | TUTOR_SPITE | \
-                  \
-                  0, \
-                  TUTOR_HEAT_WAVE | TUTOR_SUCKER_PUNCH | TUTOR_SWIFT | TUTOR_UPROAR | TUTOR_SUPER_FANG | \
-                  TUTOR_ROLE_PLAY | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_KINGDRA, \
-                  TUTOR_DIVE | TUTOR_ICY_WIND | \
-                  TUTOR_IRON_HEAD | TUTOR_SNORE | \
-                  TUTOR_OUTRAGE  | TUTOR_SIGNAL_BEAM | \
-                  TUTOR_TWISTER  | TUTOR_BOUNCE | 0, \
-                  TUTOR_SWIFT | \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_PHANPY, \
-                  TUTOR_MUD_SLAP | TUTOR_ROLLOUT | TUTOR_SUPERPOWER | \
-                  TUTOR_SNORE | \
-                  TUTOR_ENDEAVOR | TUTOR_ANCIENT_POWER | \
-                  TUTOR_EARTH_POWER | TUTOR_GUNK_SHOT | TUTOR_SEED_BOMB | 0, \
-                  TUTOR_KNOCK_OFF | \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_DONPHAN, \
-                  TUTOR_MUD_SLAP | TUTOR_ROLLOUT | TUTOR_SUPERPOWER | \
-                  TUTOR_SNORE | \
-                  TUTOR_ENDEAVOR | TUTOR_ANCIENT_POWER | \
-                  TUTOR_EARTH_POWER | TUTOR_GUNK_SHOT | TUTOR_SEED_BOMB | TUTOR_IRON_DEFENSE | TUTOR_BOUNCE | 0, \
-                  TUTOR_KNOCK_OFF | \
-                  \
-                  TUTOR_BLOCK | TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_PORYGON2, \
-                  TUTOR_ICY_WIND | \
-                  TUTOR_SNORE | \
-                  TUTOR_SIGNAL_BEAM | TUTOR_ZEN_HEADBUTT | \
-                  TUTOR_LAST_RESORT | 0, \
-                  TUTOR_TRICK | TUTOR_SWIFT | TUTOR_PAIN_SPLIT | \
-                  TUTOR_GRAVITY  | TUTOR_MAGIC_COAT | \
-                  \
-                  0
-
-
-tutordata SPECIES_STANTLER, \
-                  TUTOR_MUD_SLAP | \
-                  TUTOR_SNORE | TUTOR_SPITE | \
-                  TUTOR_SIGNAL_BEAM | TUTOR_ZEN_HEADBUTT | \
-                  TUTOR_LAST_RESORT | TUTOR_BOUNCE | 0, \
-                  TUTOR_SUCKER_PUNCH | TUTOR_SWIFT | TUTOR_UPROAR | \
-                  TUTOR_GRAVITY  | TUTOR_ROLE_PLAY | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_SMEARGLE, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_TYROGUE, \
-                  TUTOR_MUD_SLAP | \
-                  TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | TUTOR_VACUUM_WAVE | \
-                  0, \
-                  TUTOR_SWIFT | TUTOR_UPROAR | \
-                  TUTOR_ROLE_PLAY | TUTOR_LOW_KICK | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_HITMONTOP, \
-                  TUTOR_MUD_SLAP | TUTOR_ROLLOUT | \
-                  TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | TUTOR_ENDEAVOR | TUTOR_VACUUM_WAVE | \
-                  TUTOR_TWISTER  | 0, \
-                  TUTOR_SUCKER_PUNCH | TUTOR_SWIFT | \
-                  TUTOR_ROLE_PLAY | TUTOR_LOW_KICK | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_SMOOCHUM, \
-                  TUTOR_MUD_SLAP | TUTOR_ICY_WIND | \
-                  TUTOR_ICE_PUNCH | TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | TUTOR_SIGNAL_BEAM | TUTOR_ZEN_HEADBUTT | \
-                  0, \
-                  TUTOR_TRICK | TUTOR_UPROAR | \
-                  TUTOR_MAGIC_COAT | TUTOR_ROLE_PLAY | TUTOR_HEAL_BELL | \
-                  \
-                  0
-
-
-tutordata SPECIES_ELEKID, \
-                  TUTOR_MUD_SLAP | TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | \
-                  TUTOR_ICE_PUNCH | TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | TUTOR_SIGNAL_BEAM | \
-                  TUTOR_MAGNET_RISE | 0, \
-                  TUTOR_SWIFT | TUTOR_UPROAR | \
-                  TUTOR_LOW_KICK | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_MAGBY, \
-                  TUTOR_MUD_SLAP | TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | \
-                  TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | \
-                  0, \
-                  TUTOR_HEAT_WAVE | TUTOR_UPROAR | \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_MILTANK, \
-                  TUTOR_MUD_SLAP | TUTOR_ICY_WIND | TUTOR_ROLLOUT | TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | \
-                  TUTOR_ICE_PUNCH | TUTOR_IRON_HEAD | TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | TUTOR_ZEN_HEADBUTT | \
-                  0, \
-                  \
-                  TUTOR_HEAL_BELL | \
-                  TUTOR_BLOCK | TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_BLISSEY, \
-                  TUTOR_MUD_SLAP | TUTOR_ICY_WIND | TUTOR_ROLLOUT | TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | \
-                  TUTOR_ICE_PUNCH | TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | TUTOR_ENDEAVOR | TUTOR_ZEN_HEADBUTT | \
-                  TUTOR_LAST_RESORT | 0, \
-                  \
-                  TUTOR_GRAVITY  | TUTOR_HEAL_BELL | \
-                  TUTOR_BLOCK | TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_RAIKOU, \
-                  TUTOR_MUD_SLAP | \
-                  TUTOR_IRON_HEAD | TUTOR_SNORE | \
-                  TUTOR_SIGNAL_BEAM | \
-                  TUTOR_MAGNET_RISE | 0, \
-                  TUTOR_SWIFT | \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_ENTEI, \
-                  TUTOR_MUD_SLAP | \
-                  TUTOR_IRON_HEAD | TUTOR_SNORE | \
-                  \
-                  0, \
-                  TUTOR_HEAT_WAVE | TUTOR_SWIFT | \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_SUICUNE, \
-                  TUTOR_DIVE | TUTOR_MUD_SLAP | TUTOR_ICY_WIND | \
-                  TUTOR_IRON_HEAD | TUTOR_OMINOUS_WIND | TUTOR_SNORE | \
-                  TUTOR_SIGNAL_BEAM | \
-                  0, \
-                  TUTOR_SWIFT | \
-                  TUTOR_TAILWIND | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_LARVITAR, \
-                  TUTOR_MUD_SLAP | TUTOR_SUPERPOWER | \
-                  TUTOR_IRON_HEAD | TUTOR_SNORE | TUTOR_SPITE | \
-                  TUTOR_ANCIENT_POWER | \
-                  TUTOR_EARTH_POWER | 0, \
-                  TUTOR_UPROAR | \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_PUPITAR, \
-                  TUTOR_MUD_SLAP | TUTOR_SUPERPOWER | \
-                  TUTOR_IRON_HEAD | TUTOR_SNORE | TUTOR_SPITE | \
-                  TUTOR_ANCIENT_POWER | \
-                  TUTOR_EARTH_POWER | TUTOR_IRON_DEFENSE | 0, \
-                  TUTOR_UPROAR | \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_TYRANITAR, \
-                  TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | TUTOR_SUPERPOWER | \
-                  TUTOR_ICE_PUNCH | TUTOR_IRON_HEAD | TUTOR_AQUA_TAIL | TUTOR_SNORE | TUTOR_SPITE | \
-                  TUTOR_OUTRAGE  | TUTOR_ANCIENT_POWER | \
-                  TUTOR_EARTH_POWER | 0, \
-                  TUTOR_UPROAR | \
-                  TUTOR_LOW_KICK | \
-                  TUTOR_BLOCK | TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_LUGIA, \
-                  TUTOR_DIVE | TUTOR_MUD_SLAP | TUTOR_ICY_WIND | \
-                  TUTOR_IRON_HEAD | TUTOR_AQUA_TAIL | TUTOR_OMINOUS_WIND | TUTOR_SNORE | TUTOR_AIR_CUTTER | \
-                  TUTOR_ANCIENT_POWER | TUTOR_SIGNAL_BEAM | TUTOR_ZEN_HEADBUTT | \
-                  TUTOR_EARTH_POWER | TUTOR_TWISTER  | 0, \
-                  TUTOR_TRICK | TUTOR_SWIFT | \
-                  TUTOR_TAILWIND | \
-                  TUTOR_SKY_ATTACK | TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_HO_OH, \
-                  TUTOR_MUD_SLAP | \
-                  TUTOR_IRON_HEAD | TUTOR_OMINOUS_WIND | TUTOR_SNORE | TUTOR_AIR_CUTTER | \
-                  TUTOR_ANCIENT_POWER | TUTOR_SIGNAL_BEAM | TUTOR_ZEN_HEADBUTT | \
-                  TUTOR_EARTH_POWER | TUTOR_TWISTER  | 0, \
-                  TUTOR_HEAT_WAVE | TUTOR_SWIFT | \
-                  TUTOR_TAILWIND | \
-                  TUTOR_SKY_ATTACK | \
-                  0
-
-
-tutordata SPECIES_CELEBI, \
-                  TUTOR_MUD_SLAP | \
-                  TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | TUTOR_ANCIENT_POWER | TUTOR_SYNTHESIS | TUTOR_SIGNAL_BEAM | TUTOR_ZEN_HEADBUTT | \
-                  TUTOR_EARTH_POWER | TUTOR_SEED_BOMB | TUTOR_LAST_RESORT | 0, \
-                  TUTOR_TRICK | TUTOR_SUCKER_PUNCH | TUTOR_SWIFT | TUTOR_UPROAR | \
-                  TUTOR_WORRY_SEED | TUTOR_MAGIC_COAT | TUTOR_HEAL_BELL | \
-                  \
-                  0
-
-
-tutordata SPECIES_TREECKO, \
-                  TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | TUTOR_THUNDER_PUNCH | \
-                  TUTOR_SNORE | \
-                  TUTOR_ENDEAVOR | TUTOR_SYNTHESIS | \
-                  TUTOR_SEED_BOMB | 0, \
-                  TUTOR_SWIFT | \
-                  TUTOR_WORRY_SEED | TUTOR_LOW_KICK | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_GROVYLE, \
-                  TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | TUTOR_THUNDER_PUNCH | \
-                  TUTOR_SNORE | \
-                  TUTOR_ENDEAVOR | TUTOR_SYNTHESIS | \
-                  TUTOR_SEED_BOMB | 0, \
-                  TUTOR_SWIFT | \
-                  TUTOR_WORRY_SEED | TUTOR_LOW_KICK | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_SCEPTILE, \
-                  TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | TUTOR_THUNDER_PUNCH | \
-                  TUTOR_SNORE | \
-                  TUTOR_ENDEAVOR | TUTOR_OUTRAGE  | TUTOR_SYNTHESIS | \
-                  TUTOR_SEED_BOMB | 0, \
-                  TUTOR_SWIFT | \
-                  TUTOR_WORRY_SEED | TUTOR_LOW_KICK | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_TORCHIC, \
-                  TUTOR_MUD_SLAP | \
-                  TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | \
-                  TUTOR_LAST_RESORT | TUTOR_BOUNCE | 0, \
-                  TUTOR_HEAT_WAVE | TUTOR_SWIFT | \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_COMBUSKEN, \
-                  TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | \
-                  TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | TUTOR_VACUUM_WAVE | \
-                  TUTOR_LAST_RESORT | TUTOR_BOUNCE | 0, \
-                  TUTOR_HEAT_WAVE | TUTOR_SWIFT | \
-                  TUTOR_LOW_KICK | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_BLAZIKEN, \
-                  TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | TUTOR_SUPERPOWER | \
-                  TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | TUTOR_VACUUM_WAVE | \
-                  TUTOR_LAST_RESORT | TUTOR_BOUNCE | 0, \
-                  TUTOR_HEAT_WAVE | TUTOR_KNOCK_OFF | TUTOR_SWIFT | \
-                  TUTOR_ROLE_PLAY | TUTOR_LOW_KICK | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_MUDKIP, \
-                  TUTOR_DIVE | TUTOR_MUD_SLAP | TUTOR_ICY_WIND | TUTOR_ROLLOUT | TUTOR_SUPERPOWER | \
-                  TUTOR_AQUA_TAIL | TUTOR_SNORE | \
-                  TUTOR_ENDEAVOR | TUTOR_ANCIENT_POWER | \
-                  TUTOR_EARTH_POWER | 0, \
-                  \
-                  TUTOR_LOW_KICK | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_MARSHTOMP, \
-                  TUTOR_DIVE | TUTOR_MUD_SLAP | TUTOR_ICY_WIND | TUTOR_ROLLOUT | TUTOR_SUPERPOWER | \
-                  TUTOR_ICE_PUNCH | TUTOR_AQUA_TAIL | TUTOR_SNORE | \
-                  TUTOR_ENDEAVOR | TUTOR_ANCIENT_POWER | \
-                  TUTOR_EARTH_POWER | 0, \
-                  \
-                  TUTOR_LOW_KICK | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_SWAMPERT, \
-                  TUTOR_DIVE | TUTOR_MUD_SLAP | TUTOR_ICY_WIND | TUTOR_ROLLOUT | TUTOR_SUPERPOWER | \
-                  TUTOR_ICE_PUNCH | TUTOR_AQUA_TAIL | TUTOR_SNORE | \
-                  TUTOR_ENDEAVOR | TUTOR_OUTRAGE  | TUTOR_ANCIENT_POWER | \
-                  TUTOR_EARTH_POWER | 0, \
-                  \
-                  TUTOR_LOW_KICK | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_POOCHYENA, \
-                  TUTOR_MUD_SLAP | \
-                  TUTOR_SNORE | TUTOR_SPITE | \
-                  \
-                  0, \
-                  TUTOR_SUCKER_PUNCH | TUTOR_UPROAR | TUTOR_SUPER_FANG | \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_MIGHTYENA, \
-                  TUTOR_MUD_SLAP | \
-                  TUTOR_SNORE | TUTOR_SPITE | \
-                  \
-                  0, \
-                  TUTOR_SUCKER_PUNCH | TUTOR_UPROAR | TUTOR_SUPER_FANG | \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_ZIGZAGOON, \
-                  TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | TUTOR_ICY_WIND | TUTOR_ROLLOUT | \
-                  TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | \
-                  TUTOR_GUNK_SHOT | TUTOR_SEED_BOMB | TUTOR_LAST_RESORT | 0, \
-                  TUTOR_TRICK | TUTOR_SWIFT | TUTOR_SUPER_FANG | \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_LINOONE, \
-                  TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | TUTOR_ICY_WIND | TUTOR_ROLLOUT | \
-                  TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | \
-                  TUTOR_GUNK_SHOT | TUTOR_SEED_BOMB | TUTOR_LAST_RESORT | 0, \
-                  TUTOR_TRICK | TUTOR_SWIFT | TUTOR_SUPER_FANG | \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_WURMPLE, \
-                  \
-                  TUTOR_SNORE | \
-                  \
-                  0, \
-                  \
-                  TUTOR_STRING_SHOT | \
-                  TUTOR_BUG_BITE | \
-                  0
-
-
-tutordata SPECIES_SILCOON, \
-                  \
-                  \
-                  \
-                  TUTOR_IRON_DEFENSE | 0, \
-                  \
-                  TUTOR_STRING_SHOT | \
-                  TUTOR_BUG_BITE | \
-                  0
-
-
-tutordata SPECIES_BEAUTIFLY, \
-                  \
-                  TUTOR_OMINOUS_WIND | TUTOR_SNORE | TUTOR_AIR_CUTTER | \
-                  TUTOR_SIGNAL_BEAM | \
-                  TUTOR_TWISTER  | 0, \
-                  TUTOR_SWIFT | \
-                  TUTOR_STRING_SHOT | TUTOR_TAILWIND | \
-                  TUTOR_BUG_BITE | \
-                  0
-
-
-tutordata SPECIES_CASCOON, \
-                  \
-                  \
-                  \
-                  TUTOR_IRON_DEFENSE | 0, \
-                  \
-                  TUTOR_STRING_SHOT | \
-                  TUTOR_BUG_BITE | \
-                  0
-
-
-tutordata SPECIES_DUSTOX, \
-                  \
-                  TUTOR_OMINOUS_WIND | TUTOR_SNORE | TUTOR_AIR_CUTTER | \
-                  TUTOR_SIGNAL_BEAM | \
-                  TUTOR_TWISTER  | 0, \
-                  TUTOR_SWIFT | \
-                  TUTOR_STRING_SHOT | TUTOR_TAILWIND | \
-                  TUTOR_BUG_BITE | \
-                  0
-
-
-tutordata SPECIES_LOTAD, \
-                  TUTOR_ICY_WIND | \
-                  TUTOR_SNORE | \
-                  TUTOR_SYNTHESIS | TUTOR_ZEN_HEADBUTT | \
-                  TUTOR_SEED_BOMB | 0, \
-                  TUTOR_UPROAR | \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_LOMBRE, \
-                  TUTOR_DIVE | TUTOR_MUD_SLAP | TUTOR_ICY_WIND | TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | \
-                  TUTOR_ICE_PUNCH | TUTOR_SNORE | \
-                  TUTOR_SYNTHESIS | TUTOR_ZEN_HEADBUTT | \
-                  TUTOR_SEED_BOMB | 0, \
-                  TUTOR_UPROAR | \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_LUDICOLO, \
-                  TUTOR_DIVE | TUTOR_MUD_SLAP | TUTOR_ICY_WIND | TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | \
-                  TUTOR_ICE_PUNCH | TUTOR_SNORE | \
-                  TUTOR_SYNTHESIS | TUTOR_ZEN_HEADBUTT | \
-                  TUTOR_SEED_BOMB | 0, \
-                  TUTOR_UPROAR | \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_SEEDOT, \
-                  TUTOR_ROLLOUT | \
-                  TUTOR_SNORE | TUTOR_SPITE | \
-                  TUTOR_SYNTHESIS | \
-                  TUTOR_SEED_BOMB | 0, \
-                  \
-                  TUTOR_WORRY_SEED | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_NUZLEAF, \
-                  TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | TUTOR_ROLLOUT | \
-                  TUTOR_SNORE | TUTOR_SPITE | \
-                  TUTOR_SYNTHESIS | \
-                  TUTOR_SEED_BOMB | 0, \
-                  TUTOR_SWIFT | \
-                  TUTOR_WORRY_SEED | TUTOR_LOW_KICK | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_SHIFTRY, \
-                  TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | TUTOR_ICY_WIND | TUTOR_ROLLOUT | \
-                  TUTOR_OMINOUS_WIND | TUTOR_SNORE | TUTOR_SPITE | TUTOR_AIR_CUTTER | \
-                  TUTOR_SYNTHESIS | \
-                  TUTOR_TWISTER  | TUTOR_SEED_BOMB | TUTOR_BOUNCE | 0, \
-                  TUTOR_KNOCK_OFF | TUTOR_SUCKER_PUNCH | TUTOR_SWIFT | \
-                  TUTOR_TAILWIND | TUTOR_WORRY_SEED | TUTOR_LOW_KICK | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_TAILLOW, \
-                  TUTOR_MUD_SLAP | \
-                  TUTOR_OMINOUS_WIND | TUTOR_SNORE | TUTOR_AIR_CUTTER | \
-                  TUTOR_ENDEAVOR | \
-                  TUTOR_TWISTER  | 0, \
-                  TUTOR_HEAT_WAVE | TUTOR_SWIFT | \
-                  TUTOR_TAILWIND | \
-                  \
-                  0
-
-
-tutordata SPECIES_SWELLOW, \
-                  TUTOR_MUD_SLAP | \
-                  TUTOR_OMINOUS_WIND | TUTOR_SNORE | TUTOR_AIR_CUTTER | \
-                  TUTOR_ENDEAVOR | \
-                  TUTOR_TWISTER  | 0, \
-                  TUTOR_HEAT_WAVE | TUTOR_SWIFT | \
-                  TUTOR_TAILWIND | \
-                  TUTOR_SKY_ATTACK | \
-                  0
-
-
-tutordata SPECIES_WINGULL, \
-                  TUTOR_MUD_SLAP | TUTOR_ICY_WIND | \
-                  TUTOR_OMINOUS_WIND | TUTOR_SNORE | TUTOR_AIR_CUTTER | \
-                  \
-                  TUTOR_TWISTER  | 0, \
-                  TUTOR_KNOCK_OFF | TUTOR_SWIFT | TUTOR_UPROAR | \
-                  TUTOR_TAILWIND | \
-                  \
-                  0
-
-
-tutordata SPECIES_PELIPPER, \
-                  TUTOR_MUD_SLAP | TUTOR_ICY_WIND | \
-                  TUTOR_OMINOUS_WIND | TUTOR_SNORE | TUTOR_AIR_CUTTER | \
-                  \
-                  TUTOR_GUNK_SHOT | TUTOR_TWISTER  | TUTOR_SEED_BOMB | 0, \
-                  TUTOR_KNOCK_OFF | TUTOR_SWIFT | TUTOR_UPROAR | \
-                  TUTOR_TAILWIND | \
-                  TUTOR_SKY_ATTACK | \
-                  0
-
-
-tutordata SPECIES_RALTS, \
-                  TUTOR_MUD_SLAP | TUTOR_ICY_WIND | TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | \
-                  TUTOR_ICE_PUNCH | TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | TUTOR_SIGNAL_BEAM | TUTOR_ZEN_HEADBUTT | \
-                  0, \
-                  TUTOR_TRICK | TUTOR_SWIFT | TUTOR_PAIN_SPLIT | \
-                  TUTOR_MAGIC_COAT | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_KIRLIA, \
-                  TUTOR_MUD_SLAP | TUTOR_ICY_WIND | TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | \
-                  TUTOR_ICE_PUNCH | TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | TUTOR_SIGNAL_BEAM | TUTOR_ZEN_HEADBUTT | \
-                  0, \
-                  TUTOR_TRICK | TUTOR_SWIFT | TUTOR_PAIN_SPLIT | \
-                  TUTOR_MAGIC_COAT | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_GARDEVOIR, \
-                  TUTOR_MUD_SLAP | TUTOR_ICY_WIND | TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | \
-                  TUTOR_ICE_PUNCH | TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | TUTOR_SIGNAL_BEAM | TUTOR_ZEN_HEADBUTT | \
-                  0, \
-                  TUTOR_TRICK | TUTOR_SWIFT | TUTOR_PAIN_SPLIT | \
-                  TUTOR_MAGIC_COAT | TUTOR_HEAL_BELL | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_SURSKIT, \
-                  TUTOR_MUD_SLAP | TUTOR_ICY_WIND | \
-                  TUTOR_SNORE | \
-                  TUTOR_SIGNAL_BEAM | \
-                  0, \
-                  TUTOR_SWIFT | \
-                  TUTOR_STRING_SHOT | \
-                  TUTOR_BUG_BITE | \
-                  0
-
-
-tutordata SPECIES_MASQUERAIN, \
-                  TUTOR_MUD_SLAP | TUTOR_ICY_WIND | \
-                  TUTOR_OMINOUS_WIND | TUTOR_SNORE | TUTOR_AIR_CUTTER | \
-                  TUTOR_SIGNAL_BEAM | \
-                  TUTOR_TWISTER  | 0, \
-                  TUTOR_SWIFT | \
-                  TUTOR_STRING_SHOT | TUTOR_TAILWIND | \
-                  TUTOR_BUG_BITE | \
-                  0
-
-
-tutordata SPECIES_SHROOMISH, \
-                  \
-                  TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | TUTOR_SYNTHESIS | \
-                  TUTOR_SEED_BOMB | 0, \
-                  \
-                  TUTOR_WORRY_SEED | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_BRELOOM, \
-                  TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | TUTOR_THUNDER_PUNCH | TUTOR_SUPERPOWER | \
-                  TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | TUTOR_SYNTHESIS | TUTOR_VACUUM_WAVE | \
-                  TUTOR_SEED_BOMB | 0, \
-                  \
-                  TUTOR_WORRY_SEED | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_SLAKOTH, \
-                  TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | TUTOR_ICY_WIND | TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | \
-                  TUTOR_ICE_PUNCH | TUTOR_SNORE | \
-                  \
-                  TUTOR_GUNK_SHOT | 0, \
-                  TUTOR_SUCKER_PUNCH | \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_VIGOROTH, \
-                  TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | TUTOR_ICY_WIND | TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | \
-                  TUTOR_ICE_PUNCH | \
-                  \
-                  TUTOR_GUNK_SHOT | 0, \
-                  TUTOR_SUCKER_PUNCH | TUTOR_UPROAR | \
-                  TUTOR_LOW_KICK | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_SLAKING, \
-                  TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | TUTOR_ICY_WIND | TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | \
-                  TUTOR_ICE_PUNCH | TUTOR_SNORE | \
-                  \
-                  TUTOR_GUNK_SHOT | 0, \
-                  TUTOR_SUCKER_PUNCH | \
-                  TUTOR_LOW_KICK | \
-                  TUTOR_BLOCK | TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_NINCADA, \
-                  TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | \
-                  TUTOR_SNORE | TUTOR_SPITE | \
-                  \
-                  0, \
-                  \
-                  TUTOR_STRING_SHOT | \
-                  TUTOR_BUG_BITE | \
-                  0
-
-
-tutordata SPECIES_NINJASK, \
-                  TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | \
-                  TUTOR_OMINOUS_WIND | TUTOR_SNORE | TUTOR_SPITE | TUTOR_AIR_CUTTER | \
-                  \
-                  0, \
-                  TUTOR_SWIFT | TUTOR_UPROAR | \
-                  TUTOR_STRING_SHOT | \
-                  TUTOR_BUG_BITE | \
-                  0
-
-
-tutordata SPECIES_SHEDINJA, \
-                  TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | \
-                  TUTOR_SNORE | TUTOR_SPITE | \
-                  \
-                  0, \
-                  TUTOR_TRICK | TUTOR_SUCKER_PUNCH | \
-                  TUTOR_STRING_SHOT | \
-                  TUTOR_BUG_BITE | \
-                  0
-
-
-tutordata SPECIES_WHISMUR, \
-                  TUTOR_MUD_SLAP | TUTOR_ICY_WIND | TUTOR_ROLLOUT | TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | \
-                  TUTOR_ICE_PUNCH | TUTOR_SNORE | \
-                  TUTOR_ZEN_HEADBUTT | \
-                  0, \
-                  TUTOR_UPROAR | \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_LOUDRED, \
-                  TUTOR_MUD_SLAP | TUTOR_ICY_WIND | TUTOR_ROLLOUT | TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | \
-                  TUTOR_ICE_PUNCH | TUTOR_SNORE | \
-                  TUTOR_ZEN_HEADBUTT | \
-                  0, \
-                  TUTOR_UPROAR | \
-                  TUTOR_LOW_KICK | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_EXPLOUD, \
-                  TUTOR_MUD_SLAP | TUTOR_ICY_WIND | TUTOR_ROLLOUT | TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | \
-                  TUTOR_ICE_PUNCH | TUTOR_SNORE | \
-                  TUTOR_OUTRAGE  | TUTOR_ZEN_HEADBUTT | \
-                  0, \
-                  TUTOR_UPROAR | \
-                  TUTOR_LOW_KICK | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_MAKUHITA, \
-                  TUTOR_MUD_SLAP | TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | TUTOR_SUPERPOWER | \
-                  TUTOR_ICE_PUNCH | TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | TUTOR_VACUUM_WAVE | \
-                  0, \
-                  TUTOR_KNOCK_OFF | \
-                  TUTOR_ROLE_PLAY | TUTOR_LOW_KICK | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_HARIYAMA, \
-                  TUTOR_MUD_SLAP | TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | TUTOR_SUPERPOWER | \
-                  TUTOR_ICE_PUNCH | TUTOR_IRON_HEAD | TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | TUTOR_VACUUM_WAVE | \
-                  0, \
-                  TUTOR_KNOCK_OFF | \
-                  TUTOR_ROLE_PLAY | TUTOR_LOW_KICK | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_AZURILL, \
-                  TUTOR_MUD_SLAP | TUTOR_ICY_WIND | TUTOR_ROLLOUT | \
-                  TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | \
-                  0, \
-                  TUTOR_KNOCK_OFF | TUTOR_SWIFT | TUTOR_UPROAR | \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_NOSEPASS, \
-                  TUTOR_MUD_SLAP | TUTOR_ROLLOUT | TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | \
-                  TUTOR_ICE_PUNCH | TUTOR_SNORE | \
-                  TUTOR_ANCIENT_POWER | \
-                  TUTOR_EARTH_POWER | TUTOR_IRON_DEFENSE | TUTOR_MAGNET_RISE | 0, \
-                  TUTOR_PAIN_SPLIT | \
-                  TUTOR_GRAVITY  | TUTOR_MAGIC_COAT | \
-                  TUTOR_BLOCK | TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_SKITTY, \
-                  TUTOR_MUD_SLAP | TUTOR_ICY_WIND | TUTOR_ROLLOUT | \
-                  TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | TUTOR_ZEN_HEADBUTT | \
-                  TUTOR_LAST_RESORT | 0, \
-                  TUTOR_SUCKER_PUNCH | TUTOR_SWIFT | \
-                  TUTOR_HEAL_BELL | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_DELCATTY, \
-                  TUTOR_MUD_SLAP | TUTOR_ICY_WIND | TUTOR_ROLLOUT | \
-                  TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | TUTOR_ZEN_HEADBUTT | \
-                  TUTOR_LAST_RESORT | 0, \
-                  TUTOR_SUCKER_PUNCH | TUTOR_SWIFT | \
-                  TUTOR_HEAL_BELL | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_SABLEYE, \
-                  TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | TUTOR_ICY_WIND | TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | \
-                  TUTOR_ICE_PUNCH | TUTOR_OMINOUS_WIND | TUTOR_SNORE | TUTOR_SPITE | \
-                  TUTOR_SIGNAL_BEAM | TUTOR_ZEN_HEADBUTT | \
-                  0, \
-                  TUTOR_TRICK | TUTOR_KNOCK_OFF | TUTOR_SUCKER_PUNCH | TUTOR_PAIN_SPLIT | \
-                  TUTOR_GRAVITY  | TUTOR_MAGIC_COAT | TUTOR_ROLE_PLAY | TUTOR_LOW_KICK | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_MAWILE, \
-                  TUTOR_MUD_SLAP | TUTOR_ICY_WIND | TUTOR_THUNDER_PUNCH | \
-                  TUTOR_ICE_PUNCH | TUTOR_IRON_HEAD | TUTOR_SNORE | \
-                  TUTOR_ANCIENT_POWER | \
-                  TUTOR_IRON_DEFENSE | TUTOR_MAGNET_RISE | 0, \
-                  TUTOR_KNOCK_OFF | TUTOR_SUCKER_PUNCH | TUTOR_SUPER_FANG | TUTOR_PAIN_SPLIT | \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_ARON, \
-                  TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | TUTOR_ROLLOUT | TUTOR_SUPERPOWER | \
-                  TUTOR_IRON_HEAD | TUTOR_SNORE | TUTOR_SPITE | \
-                  TUTOR_ENDEAVOR | TUTOR_ANCIENT_POWER | \
-                  TUTOR_EARTH_POWER | TUTOR_IRON_DEFENSE | TUTOR_MAGNET_RISE | 0, \
-                  TUTOR_UPROAR | \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_LAIRON, \
-                  TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | TUTOR_ROLLOUT | TUTOR_SUPERPOWER | \
-                  TUTOR_IRON_HEAD | TUTOR_SNORE | TUTOR_SPITE | \
-                  TUTOR_ENDEAVOR | TUTOR_ANCIENT_POWER | \
-                  TUTOR_EARTH_POWER | TUTOR_IRON_DEFENSE | TUTOR_MAGNET_RISE | 0, \
-                  TUTOR_UPROAR | \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_AGGRON, \
-                  TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | TUTOR_ICY_WIND | TUTOR_ROLLOUT | TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | TUTOR_SUPERPOWER | \
-                  TUTOR_ICE_PUNCH | TUTOR_IRON_HEAD | TUTOR_AQUA_TAIL | TUTOR_SNORE | TUTOR_SPITE | \
-                  TUTOR_ENDEAVOR | TUTOR_OUTRAGE  | TUTOR_ANCIENT_POWER | \
-                  TUTOR_EARTH_POWER | TUTOR_IRON_DEFENSE | TUTOR_MAGNET_RISE | 0, \
-                  TUTOR_UPROAR | \
-                  TUTOR_LOW_KICK | \
-                  TUTOR_BLOCK | TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_MEDITITE, \
-                  TUTOR_MUD_SLAP | TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | \
-                  TUTOR_ICE_PUNCH | TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | TUTOR_SIGNAL_BEAM | TUTOR_ZEN_HEADBUTT | TUTOR_VACUUM_WAVE | \
-                  0, \
-                  TUTOR_TRICK | TUTOR_SWIFT | TUTOR_PAIN_SPLIT | \
-                  TUTOR_GRAVITY  | TUTOR_MAGIC_COAT | TUTOR_ROLE_PLAY | TUTOR_LOW_KICK | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_MEDICHAM, \
-                  TUTOR_MUD_SLAP | TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | \
-                  TUTOR_ICE_PUNCH | TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | TUTOR_SIGNAL_BEAM | TUTOR_ZEN_HEADBUTT | TUTOR_VACUUM_WAVE | \
-                  0, \
-                  TUTOR_TRICK | TUTOR_SWIFT | TUTOR_PAIN_SPLIT | \
-                  TUTOR_GRAVITY  | TUTOR_MAGIC_COAT | TUTOR_ROLE_PLAY | TUTOR_LOW_KICK | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_ELECTRIKE, \
-                  TUTOR_MUD_SLAP | \
-                  TUTOR_SNORE | \
-                  TUTOR_SIGNAL_BEAM | \
-                  TUTOR_MAGNET_RISE | 0, \
-                  TUTOR_SWIFT | \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_MANECTRIC, \
-                  TUTOR_MUD_SLAP | \
-                  TUTOR_SNORE | \
-                  TUTOR_SIGNAL_BEAM | \
-                  TUTOR_MAGNET_RISE | 0, \
-                  TUTOR_SWIFT | \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_PLUSLE, \
-                  TUTOR_MUD_SLAP | TUTOR_ROLLOUT | TUTOR_THUNDER_PUNCH | \
-                  TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | TUTOR_SIGNAL_BEAM | \
-                  TUTOR_MAGNET_RISE | TUTOR_LAST_RESORT | 0, \
-                  TUTOR_SWIFT | TUTOR_UPROAR | \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_MINUN, \
-                  TUTOR_MUD_SLAP | TUTOR_ROLLOUT | TUTOR_THUNDER_PUNCH | \
-                  TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | TUTOR_SIGNAL_BEAM | \
-                  TUTOR_MAGNET_RISE | TUTOR_LAST_RESORT | 0, \
-                  TUTOR_SWIFT | TUTOR_UPROAR | \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_VOLBEAT, \
-                  TUTOR_MUD_SLAP | TUTOR_THUNDER_PUNCH | \
-                  TUTOR_ICE_PUNCH | TUTOR_OMINOUS_WIND | TUTOR_SNORE | TUTOR_AIR_CUTTER | \
-                  TUTOR_HELPING_HAND | TUTOR_SIGNAL_BEAM | TUTOR_ZEN_HEADBUTT | \
-                  0, \
-                  TUTOR_SWIFT | \
-                  TUTOR_STRING_SHOT | TUTOR_TAILWIND | \
-                  TUTOR_BUG_BITE | \
-                  0
-
-
-tutordata SPECIES_ILLUMISE, \
-                  TUTOR_MUD_SLAP | TUTOR_THUNDER_PUNCH | \
-                  TUTOR_ICE_PUNCH | TUTOR_OMINOUS_WIND | TUTOR_SNORE | TUTOR_AIR_CUTTER | \
-                  TUTOR_HELPING_HAND | TUTOR_ZEN_HEADBUTT | \
-                  0, \
-                  TUTOR_SWIFT | \
-                  TUTOR_STRING_SHOT | TUTOR_TAILWIND | \
-                  TUTOR_BUG_BITE | \
-                  0
-
-
-tutordata SPECIES_ROSELIA, \
-                  TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | \
-                  TUTOR_SNORE | \
-                  TUTOR_SYNTHESIS | \
-                  TUTOR_SEED_BOMB | 0, \
-                  TUTOR_SWIFT | \
-                  TUTOR_WORRY_SEED | \
-                  \
-                  0
-
-
-tutordata SPECIES_GULPIN, \
-                  TUTOR_MUD_SLAP | TUTOR_ROLLOUT | TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | \
-                  TUTOR_ICE_PUNCH | TUTOR_GASTRO_ACID | TUTOR_SNORE | \
-                  \
-                  TUTOR_GUNK_SHOT | TUTOR_SEED_BOMB | 0, \
-                  TUTOR_PAIN_SPLIT | \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_SWALOT, \
-                  TUTOR_MUD_SLAP | TUTOR_ROLLOUT | TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | \
-                  TUTOR_ICE_PUNCH | TUTOR_GASTRO_ACID | TUTOR_SNORE | \
-                  \
-                  TUTOR_GUNK_SHOT | TUTOR_SEED_BOMB | 0, \
-                  TUTOR_PAIN_SPLIT | \
-                  \
-                  TUTOR_BLOCK | TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_CARVANHA, \
-                  TUTOR_DIVE | TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | TUTOR_ICY_WIND | \
-                  TUTOR_SNORE | TUTOR_SPITE | \
-                  TUTOR_ANCIENT_POWER | TUTOR_ZEN_HEADBUTT | \
-                  TUTOR_BOUNCE | 0, \
-                  TUTOR_SWIFT | TUTOR_UPROAR | TUTOR_SUPER_FANG | \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_SHARPEDO, \
-                  TUTOR_DIVE | TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | TUTOR_ICY_WIND | \
-                  TUTOR_SNORE | TUTOR_SPITE | \
-                  TUTOR_ANCIENT_POWER | TUTOR_ZEN_HEADBUTT | \
-                  TUTOR_BOUNCE | 0, \
-                  TUTOR_SWIFT | TUTOR_UPROAR | TUTOR_SUPER_FANG | \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_WAILMER, \
-                  TUTOR_DIVE | TUTOR_ICY_WIND | TUTOR_ROLLOUT | \
-                  TUTOR_SNORE | \
-                  \
-                  TUTOR_BOUNCE | 0, \
-                  \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_WAILORD, \
-                  TUTOR_DIVE | TUTOR_ICY_WIND | TUTOR_ROLLOUT | \
-                  TUTOR_IRON_HEAD | TUTOR_SNORE | \
-                  \
-                  TUTOR_BOUNCE | 0, \
-                  \
-                  \
-                  TUTOR_BLOCK | TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_NUMEL, \
-                  TUTOR_MUD_SLAP | TUTOR_ROLLOUT | \
-                  TUTOR_SNORE | \
-                  \
-                  TUTOR_EARTH_POWER | 0, \
-                  TUTOR_HEAT_WAVE | \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_CAMERUPT, \
-                  TUTOR_MUD_SLAP | TUTOR_ROLLOUT | \
-                  TUTOR_IRON_HEAD | TUTOR_SNORE | \
-                  \
-                  TUTOR_EARTH_POWER | 0, \
-                  TUTOR_HEAT_WAVE | \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_TORKOAL, \
-                  TUTOR_MUD_SLAP | TUTOR_ROLLOUT | \
-                  TUTOR_SNORE | \
-                  \
-                  TUTOR_EARTH_POWER | TUTOR_IRON_DEFENSE | 0, \
-                  TUTOR_HEAT_WAVE | \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_SPOINK, \
-                  TUTOR_ICY_WIND | \
-                  TUTOR_SNORE | \
-                  TUTOR_SIGNAL_BEAM | TUTOR_ZEN_HEADBUTT | \
-                  TUTOR_BOUNCE | 0, \
-                  TUTOR_TRICK | TUTOR_SWIFT | \
-                  TUTOR_MAGIC_COAT | TUTOR_ROLE_PLAY | TUTOR_HEAL_BELL | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_GRUMPIG, \
-                  TUTOR_MUD_SLAP | TUTOR_ICY_WIND | TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | \
-                  TUTOR_ICE_PUNCH | TUTOR_SNORE | \
-                  TUTOR_SIGNAL_BEAM | TUTOR_ZEN_HEADBUTT | \
-                  TUTOR_BOUNCE | 0, \
-                  TUTOR_TRICK | TUTOR_SWIFT | \
-                  TUTOR_MAGIC_COAT | TUTOR_ROLE_PLAY | TUTOR_HEAL_BELL | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_SPINDA, \
-                  TUTOR_MUD_SLAP | TUTOR_ICY_WIND | TUTOR_ROLLOUT | TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | \
-                  TUTOR_ICE_PUNCH | TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | TUTOR_ZEN_HEADBUTT | \
-                  TUTOR_LAST_RESORT | 0, \
-                  TUTOR_SUCKER_PUNCH | TUTOR_SWIFT | TUTOR_UPROAR | \
-                  TUTOR_ROLE_PLAY | TUTOR_LOW_KICK | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_TRAPINCH, \
-                  TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | \
-                  TUTOR_SNORE | \
-                  \
-                  TUTOR_EARTH_POWER | 0, \
-                  \
-                  \
-                  TUTOR_BUG_BITE | TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_VIBRAVA, \
-                  TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | \
-                  TUTOR_OMINOUS_WIND | TUTOR_SNORE | TUTOR_AIR_CUTTER | \
-                  TUTOR_OUTRAGE  | \
-                  TUTOR_EARTH_POWER | TUTOR_TWISTER  | 0, \
-                  TUTOR_HEAT_WAVE | TUTOR_SWIFT | \
-                  TUTOR_TAILWIND | \
-                  TUTOR_BUG_BITE | TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_FLYGON, \
-                  TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | \
-                  TUTOR_OMINOUS_WIND | TUTOR_SNORE | TUTOR_AIR_CUTTER | \
-                  TUTOR_OUTRAGE  | \
-                  TUTOR_EARTH_POWER | TUTOR_TWISTER  | 0, \
-                  TUTOR_HEAT_WAVE | TUTOR_SWIFT | \
-                  TUTOR_TAILWIND | \
-                  TUTOR_BUG_BITE | TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_CACNEA, \
-                  TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | TUTOR_THUNDER_PUNCH | \
-                  TUTOR_SNORE | TUTOR_SPITE | \
-                  TUTOR_SYNTHESIS | \
-                  TUTOR_SEED_BOMB | 0, \
-                  TUTOR_SUCKER_PUNCH | \
-                  TUTOR_WORRY_SEED | TUTOR_ROLE_PLAY | TUTOR_LOW_KICK | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_CACTURNE, \
-                  TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | TUTOR_THUNDER_PUNCH | TUTOR_SUPERPOWER | \
-                  TUTOR_SNORE | TUTOR_SPITE | \
-                  TUTOR_SYNTHESIS | \
-                  TUTOR_SEED_BOMB | 0, \
-                  TUTOR_SUCKER_PUNCH | \
-                  TUTOR_WORRY_SEED | TUTOR_ROLE_PLAY | TUTOR_LOW_KICK | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_SWABLU, \
-                  TUTOR_MUD_SLAP | \
-                  TUTOR_OMINOUS_WIND | TUTOR_SNORE | TUTOR_AIR_CUTTER | \
-                  TUTOR_OUTRAGE  | \
-                  TUTOR_TWISTER  | 0, \
-                  TUTOR_HEAT_WAVE | TUTOR_SWIFT | TUTOR_UPROAR | \
-                  TUTOR_TAILWIND | TUTOR_HEAL_BELL | \
-                  \
-                  0
-
-
-tutordata SPECIES_ALTARIA, \
-                  TUTOR_MUD_SLAP | \
-                  TUTOR_OMINOUS_WIND | TUTOR_SNORE | TUTOR_AIR_CUTTER | \
-                  TUTOR_OUTRAGE  | \
-                  TUTOR_TWISTER  | 0, \
-                  TUTOR_HEAT_WAVE | TUTOR_SWIFT | TUTOR_UPROAR | \
-                  TUTOR_TAILWIND | TUTOR_HEAL_BELL | \
-                  TUTOR_SKY_ATTACK | \
-                  0
-
-
-tutordata SPECIES_ZANGOOSE, \
-                  TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | TUTOR_ICY_WIND | TUTOR_ROLLOUT | TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | \
-                  TUTOR_ICE_PUNCH | TUTOR_SNORE | \
-                  TUTOR_ENDEAVOR | \
-                  TUTOR_LAST_RESORT | 0, \
-                  TUTOR_KNOCK_OFF | TUTOR_SWIFT | \
-                  TUTOR_LOW_KICK | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_SEVIPER, \
-                  TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | \
-                  TUTOR_AQUA_TAIL | TUTOR_SNORE | \
-                  \
-                  0, \
-                  TUTOR_KNOCK_OFF | TUTOR_SUCKER_PUNCH | TUTOR_SWIFT | \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_LUNATONE, \
-                  TUTOR_ROLLOUT | \
-                  TUTOR_IRON_HEAD | TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | TUTOR_ANCIENT_POWER | TUTOR_SIGNAL_BEAM | TUTOR_ZEN_HEADBUTT | \
-                  TUTOR_EARTH_POWER | 0, \
-                  TUTOR_SWIFT | TUTOR_PAIN_SPLIT | \
-                  TUTOR_GRAVITY  | TUTOR_MAGIC_COAT | \
-                  \
-                  0
-
-
-tutordata SPECIES_SOLROCK, \
-                  TUTOR_ROLLOUT | \
-                  TUTOR_IRON_HEAD | TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | TUTOR_ANCIENT_POWER | TUTOR_SIGNAL_BEAM | TUTOR_ZEN_HEADBUTT | \
-                  TUTOR_EARTH_POWER | TUTOR_IRON_DEFENSE | 0, \
-                  TUTOR_SWIFT | TUTOR_PAIN_SPLIT | \
-                  TUTOR_GRAVITY  | TUTOR_MAGIC_COAT | \
-                  \
-                  0
-
-
-tutordata SPECIES_BARBOACH, \
-                  TUTOR_DIVE | TUTOR_MUD_SLAP | TUTOR_ICY_WIND | \
-                  TUTOR_AQUA_TAIL | TUTOR_SNORE | \
-                  \
-                  TUTOR_EARTH_POWER | TUTOR_BOUNCE | 0, \
-                  \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_WHISCASH, \
-                  TUTOR_DIVE | TUTOR_MUD_SLAP | TUTOR_ICY_WIND | \
-                  TUTOR_AQUA_TAIL | TUTOR_SNORE | \
-                  TUTOR_ZEN_HEADBUTT | \
-                  TUTOR_EARTH_POWER | TUTOR_BOUNCE | 0, \
-                  \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_CORPHISH, \
-                  TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | TUTOR_ICY_WIND | TUTOR_SUPERPOWER | \
-                  TUTOR_SNORE | TUTOR_SPITE | \
-                  TUTOR_ENDEAVOR | TUTOR_ANCIENT_POWER | \
-                  TUTOR_IRON_DEFENSE | 0, \
-                  TUTOR_KNOCK_OFF | \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_CRAWDAUNT, \
-                  TUTOR_DIVE | TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | TUTOR_ICY_WIND | TUTOR_SUPERPOWER | \
-                  TUTOR_SNORE | TUTOR_SPITE | \
-                  TUTOR_ENDEAVOR | TUTOR_ANCIENT_POWER | \
-                  TUTOR_IRON_DEFENSE | 0, \
-                  TUTOR_KNOCK_OFF | TUTOR_SWIFT | \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_BALTOY, \
-                  TUTOR_MUD_SLAP | \
-                  TUTOR_SNORE | \
-                  TUTOR_ANCIENT_POWER | TUTOR_SIGNAL_BEAM | TUTOR_ZEN_HEADBUTT | \
-                  TUTOR_EARTH_POWER | 0, \
-                  TUTOR_TRICK | \
-                  TUTOR_GRAVITY  | TUTOR_MAGIC_COAT | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_CLAYDOL, \
-                  TUTOR_MUD_SLAP | \
-                  TUTOR_SNORE | \
-                  TUTOR_ANCIENT_POWER | TUTOR_SIGNAL_BEAM | TUTOR_ZEN_HEADBUTT | \
-                  TUTOR_EARTH_POWER | 0, \
-                  TUTOR_TRICK | \
-                  TUTOR_GRAVITY  | TUTOR_MAGIC_COAT | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_LILEEP, \
-                  TUTOR_MUD_SLAP | \
-                  TUTOR_GASTRO_ACID | TUTOR_SNORE | \
-                  TUTOR_ANCIENT_POWER | TUTOR_SYNTHESIS | \
-                  TUTOR_EARTH_POWER | TUTOR_SEED_BOMB | 0, \
-                  TUTOR_PAIN_SPLIT | \
-                  TUTOR_STRING_SHOT | TUTOR_WORRY_SEED | \
-                  \
-                  0
-
-
-tutordata SPECIES_CRADILY, \
-                  TUTOR_MUD_SLAP | \
-                  TUTOR_GASTRO_ACID | TUTOR_SNORE | \
-                  TUTOR_ANCIENT_POWER | TUTOR_SYNTHESIS | \
-                  TUTOR_EARTH_POWER | TUTOR_SEED_BOMB | 0, \
-                  TUTOR_PAIN_SPLIT | \
-                  TUTOR_STRING_SHOT | TUTOR_WORRY_SEED | \
-                  TUTOR_BLOCK | TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_ANORITH, \
-                  TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | \
-                  TUTOR_SNORE | \
-                  TUTOR_ANCIENT_POWER | \
-                  TUTOR_EARTH_POWER | TUTOR_IRON_DEFENSE | 0, \
-                  TUTOR_KNOCK_OFF | \
-                  TUTOR_STRING_SHOT | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_ARMALDO, \
-                  TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | TUTOR_SUPERPOWER | \
-                  TUTOR_AQUA_TAIL | TUTOR_SNORE | \
-                  TUTOR_ANCIENT_POWER | \
-                  TUTOR_EARTH_POWER | TUTOR_IRON_DEFENSE | 0, \
-                  TUTOR_KNOCK_OFF | \
-                  TUTOR_STRING_SHOT | TUTOR_LOW_KICK | \
-                  TUTOR_BLOCK | TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_FEEBAS, \
-                  TUTOR_DIVE | TUTOR_ICY_WIND | \
-                  TUTOR_SNORE | \
-                  \
-                  0, \
-                  TUTOR_SWIFT | \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_MILOTIC, \
-                  TUTOR_DIVE | TUTOR_MUD_SLAP | TUTOR_ICY_WIND | \
-                  TUTOR_IRON_HEAD | TUTOR_AQUA_TAIL | TUTOR_SNORE | \
-                  \
-                  TUTOR_TWISTER  | 0, \
-                  TUTOR_SWIFT | \
-                  TUTOR_MAGIC_COAT | \
-                  \
-                  0
-
-
-tutordata SPECIES_CASTFORM, \
-                  TUTOR_ICY_WIND | \
-                  TUTOR_OMINOUS_WIND | TUTOR_SNORE | \
-                  \
-                  TUTOR_LAST_RESORT | 0, \
-                  TUTOR_SWIFT | \
-                  TUTOR_TAILWIND | \
-                  \
-                  0
-
-
-tutordata SPECIES_KECLEON, \
-                  TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | TUTOR_ICY_WIND | TUTOR_ROLLOUT | TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | \
-                  TUTOR_ICE_PUNCH | TUTOR_AQUA_TAIL | TUTOR_SNORE | \
-                  TUTOR_ANCIENT_POWER | \
-                  TUTOR_LAST_RESORT | 0, \
-                  TUTOR_TRICK | TUTOR_KNOCK_OFF | TUTOR_SUCKER_PUNCH | TUTOR_SWIFT | \
-                  TUTOR_MAGIC_COAT | TUTOR_ROLE_PLAY | TUTOR_LOW_KICK | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_SHUPPET, \
-                  TUTOR_ICY_WIND | \
-                  TUTOR_OMINOUS_WIND | TUTOR_SPITE | \
-                  \
-                  0, \
-                  TUTOR_TRICK | TUTOR_KNOCK_OFF | TUTOR_SUCKER_PUNCH | TUTOR_PAIN_SPLIT | \
-                  TUTOR_MAGIC_COAT | TUTOR_ROLE_PLAY | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_BANETTE, \
-                  TUTOR_MUD_SLAP | TUTOR_ICY_WIND | \
-                  TUTOR_OMINOUS_WIND | TUTOR_SPITE | \
-                  \
-                  0, \
-                  TUTOR_TRICK | TUTOR_KNOCK_OFF | TUTOR_SUCKER_PUNCH | TUTOR_PAIN_SPLIT | \
-                  TUTOR_MAGIC_COAT | TUTOR_ROLE_PLAY | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_DUSKULL, \
-                  TUTOR_ICY_WIND | \
-                  TUTOR_OMINOUS_WIND | TUTOR_SNORE | TUTOR_SPITE | \
-                  \
-                  0, \
-                  TUTOR_TRICK | TUTOR_SUCKER_PUNCH | TUTOR_PAIN_SPLIT | \
-                  TUTOR_GRAVITY  | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_DUSCLOPS, \
-                  TUTOR_MUD_SLAP | TUTOR_ICY_WIND | TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | \
-                  TUTOR_ICE_PUNCH | TUTOR_OMINOUS_WIND | TUTOR_SNORE | TUTOR_SPITE | \
-                  \
-                  0, \
-                  TUTOR_TRICK | TUTOR_SUCKER_PUNCH | TUTOR_PAIN_SPLIT | \
-                  TUTOR_GRAVITY  | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_TROPIUS, \
-                  TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | \
-                  TUTOR_OMINOUS_WIND | TUTOR_SNORE | TUTOR_AIR_CUTTER | \
-                  TUTOR_OUTRAGE  | TUTOR_SYNTHESIS | \
-                  TUTOR_TWISTER  | 0, \
-                  \
-                  TUTOR_TAILWIND | TUTOR_WORRY_SEED | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_CHIMECHO, \
-                  TUTOR_ICY_WIND | TUTOR_ROLLOUT | \
-                  TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | TUTOR_SIGNAL_BEAM | TUTOR_ZEN_HEADBUTT | \
-                  TUTOR_LAST_RESORT | 0, \
-                  TUTOR_TRICK | TUTOR_KNOCK_OFF | TUTOR_UPROAR | \
-                  TUTOR_GRAVITY  | TUTOR_MAGIC_COAT | TUTOR_HEAL_BELL | \
-                  \
-                  0
-
-
-tutordata SPECIES_ABSOL, \
-                  TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | TUTOR_ICY_WIND | TUTOR_SUPERPOWER | \
-                  TUTOR_SNORE | TUTOR_SPITE | \
-                  TUTOR_ZEN_HEADBUTT | \
-                  TUTOR_BOUNCE | 0, \
-                  TUTOR_KNOCK_OFF | TUTOR_SUCKER_PUNCH | TUTOR_SWIFT | \
-                  TUTOR_MAGIC_COAT | TUTOR_ROLE_PLAY | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_WYNAUT, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_SNORUNT, \
-                  TUTOR_ICY_WIND | TUTOR_ROLLOUT | \
-                  TUTOR_SNORE | TUTOR_SPITE | \
-                  \
-                  0, \
-                  \
-                  \
-                  TUTOR_BLOCK | TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_GLALIE, \
-                  TUTOR_ICY_WIND | TUTOR_ROLLOUT | \
-                  TUTOR_IRON_HEAD | TUTOR_SNORE | TUTOR_SPITE | \
-                  TUTOR_SIGNAL_BEAM | \
-                  0, \
-                  TUTOR_SUPER_FANG | \
-                  \
-                  TUTOR_BLOCK | TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_SPHEAL, \
-                  TUTOR_DIVE | TUTOR_MUD_SLAP | TUTOR_ICY_WIND | TUTOR_ROLLOUT | \
-                  TUTOR_AQUA_TAIL | TUTOR_SNORE | \
-                  TUTOR_SIGNAL_BEAM | \
-                  0, \
-                  TUTOR_SUPER_FANG | \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_SEALEO, \
-                  TUTOR_DIVE | TUTOR_MUD_SLAP | TUTOR_ICY_WIND | TUTOR_ROLLOUT | \
-                  TUTOR_AQUA_TAIL | TUTOR_SNORE | \
-                  TUTOR_SIGNAL_BEAM | \
-                  0, \
-                  TUTOR_SUPER_FANG | \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_WALREIN, \
-                  TUTOR_DIVE | TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | TUTOR_ICY_WIND | TUTOR_ROLLOUT | \
-                  TUTOR_IRON_HEAD | TUTOR_AQUA_TAIL | TUTOR_SNORE | \
-                  TUTOR_SIGNAL_BEAM | \
-                  0, \
-                  TUTOR_SUPER_FANG | \
-                  \
-                  TUTOR_BLOCK | TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_CLAMPERL, \
-                  TUTOR_DIVE | TUTOR_ICY_WIND | \
-                  TUTOR_SNORE | \
-                  \
-                  TUTOR_IRON_DEFENSE | 0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_HUNTAIL, \
-                  TUTOR_DIVE | TUTOR_MUD_SLAP | TUTOR_ICY_WIND | \
-                  TUTOR_AQUA_TAIL | TUTOR_SNORE | \
-                  \
-                  TUTOR_BOUNCE | 0, \
-                  TUTOR_SUCKER_PUNCH | TUTOR_SWIFT | TUTOR_SUPER_FANG | \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_GOREBYSS, \
-                  TUTOR_DIVE | TUTOR_MUD_SLAP | TUTOR_ICY_WIND | \
-                  TUTOR_AQUA_TAIL | TUTOR_SNORE | \
-                  TUTOR_SIGNAL_BEAM | \
-                  TUTOR_BOUNCE | 0, \
-                  TUTOR_SWIFT | \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_RELICANTH, \
-                  TUTOR_DIVE | TUTOR_MUD_SLAP | TUTOR_ICY_WIND | \
-                  TUTOR_AQUA_TAIL | TUTOR_SNORE | \
-                  TUTOR_ANCIENT_POWER | \
-                  TUTOR_EARTH_POWER | TUTOR_BOUNCE | 0, \
-                  \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_LUVDISC, \
-                  TUTOR_DIVE | TUTOR_ICY_WIND | \
-                  TUTOR_SNORE | \
-                  \
-                  TUTOR_BOUNCE | 0, \
-                  TUTOR_SWIFT | \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_BAGON, \
-                  TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | \
-                  TUTOR_SNORE | \
-                  TUTOR_OUTRAGE  | TUTOR_ZEN_HEADBUTT | \
-                  TUTOR_TWISTER  | 0, \
-                  \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_SHELGON, \
-                  TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | TUTOR_ROLLOUT | \
-                  TUTOR_SNORE | \
-                  TUTOR_OUTRAGE  | TUTOR_ZEN_HEADBUTT | \
-                  TUTOR_TWISTER  | TUTOR_IRON_DEFENSE | 0, \
-                  \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_SALAMENCE, \
-                  TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | TUTOR_ROLLOUT | \
-                  TUTOR_AQUA_TAIL | TUTOR_OMINOUS_WIND | TUTOR_SNORE | TUTOR_AIR_CUTTER | \
-                  TUTOR_OUTRAGE  | TUTOR_ZEN_HEADBUTT | \
-                  TUTOR_TWISTER  | 0, \
-                  TUTOR_HEAT_WAVE | TUTOR_SWIFT | \
-                  TUTOR_TAILWIND | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_BELDUM, \
-                  \
-                  TUTOR_IRON_HEAD | \
-                  TUTOR_ZEN_HEADBUTT | \
-                  TUTOR_IRON_DEFENSE | 0, \
-                  \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_METANG, \
-                  TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | TUTOR_ICY_WIND | TUTOR_ROLLOUT | TUTOR_THUNDER_PUNCH | \
-                  TUTOR_ICE_PUNCH | TUTOR_IRON_HEAD | TUTOR_SNORE | \
-                  TUTOR_SIGNAL_BEAM | TUTOR_ZEN_HEADBUTT | \
-                  TUTOR_IRON_DEFENSE | TUTOR_MAGNET_RISE | 0, \
-                  TUTOR_TRICK | TUTOR_SWIFT | \
-                  TUTOR_GRAVITY  | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_METAGROSS, \
-                  TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | TUTOR_ICY_WIND | TUTOR_ROLLOUT | TUTOR_THUNDER_PUNCH | \
-                  TUTOR_ICE_PUNCH | TUTOR_IRON_HEAD | TUTOR_SNORE | \
-                  TUTOR_SIGNAL_BEAM | TUTOR_ZEN_HEADBUTT | \
-                  TUTOR_IRON_DEFENSE | TUTOR_MAGNET_RISE | 0, \
-                  TUTOR_TRICK | TUTOR_SWIFT | \
-                  TUTOR_GRAVITY  | \
-                  TUTOR_BLOCK | TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_REGIROCK, \
-                  TUTOR_MUD_SLAP | TUTOR_ROLLOUT | TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | TUTOR_SUPERPOWER | \
-                  TUTOR_ICE_PUNCH | TUTOR_IRON_HEAD | TUTOR_SNORE | \
-                  TUTOR_ANCIENT_POWER | \
-                  TUTOR_EARTH_POWER | 0, \
-                  \
-                  TUTOR_GRAVITY  | \
-                  TUTOR_BLOCK | TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_REGICE, \
-                  TUTOR_MUD_SLAP | TUTOR_ICY_WIND | TUTOR_ROLLOUT | TUTOR_THUNDER_PUNCH | TUTOR_SUPERPOWER | \
-                  TUTOR_ICE_PUNCH | TUTOR_IRON_HEAD | TUTOR_SNORE | \
-                  TUTOR_ANCIENT_POWER | TUTOR_SIGNAL_BEAM | \
-                  0, \
-                  \
-                  TUTOR_GRAVITY  | \
-                  TUTOR_BLOCK | TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_REGISTEEL, \
-                  TUTOR_MUD_SLAP | TUTOR_ROLLOUT | TUTOR_THUNDER_PUNCH | TUTOR_SUPERPOWER | \
-                  TUTOR_ICE_PUNCH | TUTOR_IRON_HEAD | TUTOR_SNORE | \
-                  TUTOR_ANCIENT_POWER | \
-                  TUTOR_IRON_DEFENSE | TUTOR_MAGNET_RISE | 0, \
-                  \
-                  TUTOR_GRAVITY  | \
-                  TUTOR_BLOCK | TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_LATIAS, \
-                  TUTOR_DIVE | TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | TUTOR_ICY_WIND | \
-                  TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | TUTOR_OUTRAGE  | TUTOR_ZEN_HEADBUTT | \
-                  TUTOR_TWISTER  | TUTOR_LAST_RESORT | 0, \
-                  TUTOR_TRICK | TUTOR_SUCKER_PUNCH | TUTOR_SWIFT | \
-                  TUTOR_TAILWIND | TUTOR_MAGIC_COAT | TUTOR_ROLE_PLAY | \
-                  \
-                  0
-
-
-tutordata SPECIES_LATIOS, \
-                  TUTOR_DIVE | TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | TUTOR_ICY_WIND | \
-                  TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | TUTOR_OUTRAGE  | TUTOR_ZEN_HEADBUTT | \
-                  TUTOR_TWISTER  | TUTOR_LAST_RESORT | 0, \
-                  TUTOR_TRICK | TUTOR_SWIFT | \
-                  TUTOR_TAILWIND | TUTOR_MAGIC_COAT | \
-                  \
-                  0
-
-
-tutordata SPECIES_KYOGRE, \
-                  TUTOR_DIVE | TUTOR_MUD_SLAP | TUTOR_ICY_WIND | \
-                  TUTOR_IRON_HEAD | TUTOR_AQUA_TAIL | TUTOR_SNORE | \
-                  TUTOR_ANCIENT_POWER | TUTOR_SIGNAL_BEAM | \
-                  0, \
-                  TUTOR_SWIFT | TUTOR_UPROAR | \
-                  \
-                  TUTOR_BLOCK | TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_GROUDON, \
-                  TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | TUTOR_ROLLOUT | TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | \
-                  TUTOR_IRON_HEAD | TUTOR_SNORE | \
-                  TUTOR_ANCIENT_POWER | \
-                  TUTOR_EARTH_POWER | 0, \
-                  TUTOR_SWIFT | TUTOR_UPROAR | \
-                  \
-                  TUTOR_BLOCK | TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_RAYQUAZA, \
-                  TUTOR_DIVE | TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | TUTOR_ICY_WIND | \
-                  TUTOR_IRON_HEAD | TUTOR_AQUA_TAIL | TUTOR_SNORE | \
-                  TUTOR_OUTRAGE  | TUTOR_ANCIENT_POWER | \
-                  TUTOR_EARTH_POWER | TUTOR_TWISTER  | 0, \
-                  TUTOR_SWIFT | TUTOR_UPROAR | \
-                  TUTOR_TAILWIND | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_JIRACHI, \
-                  TUTOR_MUD_SLAP | TUTOR_ICY_WIND | TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | \
-                  TUTOR_ICE_PUNCH | TUTOR_IRON_HEAD | TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | TUTOR_ANCIENT_POWER | TUTOR_SIGNAL_BEAM | TUTOR_ZEN_HEADBUTT | \
-                  TUTOR_IRON_DEFENSE | TUTOR_LAST_RESORT | 0, \
-                  TUTOR_TRICK | TUTOR_SWIFT | TUTOR_UPROAR | \
-                  TUTOR_GRAVITY  | TUTOR_MAGIC_COAT | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_DEOXYS, \
-                  TUTOR_MUD_SLAP | TUTOR_ICY_WIND | TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | \
-                  TUTOR_ICE_PUNCH | TUTOR_SNORE | \
-                  TUTOR_SIGNAL_BEAM | TUTOR_ZEN_HEADBUTT | \
-                  0, \
-                  TUTOR_TRICK | TUTOR_KNOCK_OFF | TUTOR_SWIFT | \
-                  TUTOR_GRAVITY  | TUTOR_MAGIC_COAT | TUTOR_ROLE_PLAY | TUTOR_LOW_KICK | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_TURTWIG, \
-                  TUTOR_MUD_SLAP | TUTOR_SUPERPOWER | \
-                  TUTOR_SNORE | \
-                  TUTOR_SYNTHESIS | \
-                  TUTOR_EARTH_POWER | TUTOR_SEED_BOMB | 0, \
-                  \
-                  TUTOR_WORRY_SEED | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_GROTLE, \
-                  TUTOR_MUD_SLAP | TUTOR_SUPERPOWER | \
-                  TUTOR_SNORE | \
-                  TUTOR_SYNTHESIS | \
-                  TUTOR_EARTH_POWER | TUTOR_SEED_BOMB | 0, \
-                  \
-                  TUTOR_WORRY_SEED | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_TORTERRA, \
-                  TUTOR_MUD_SLAP | TUTOR_SUPERPOWER | \
-                  TUTOR_IRON_HEAD | TUTOR_SNORE | \
-                  TUTOR_OUTRAGE  | TUTOR_SYNTHESIS | \
-                  TUTOR_EARTH_POWER | TUTOR_SEED_BOMB | 0, \
-                  \
-                  TUTOR_WORRY_SEED | \
-                  TUTOR_BLOCK | TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_CHIMCHAR, \
-                  TUTOR_MUD_SLAP | TUTOR_ROLLOUT | TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | \
-                  TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | TUTOR_ENDEAVOR | TUTOR_VACUUM_WAVE | \
-                  TUTOR_GUNK_SHOT | 0, \
-                  TUTOR_HEAT_WAVE | TUTOR_SWIFT | TUTOR_UPROAR | \
-                  TUTOR_ROLE_PLAY | TUTOR_LOW_KICK | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_MONFERNO, \
-                  TUTOR_MUD_SLAP | TUTOR_ROLLOUT | TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | \
-                  TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | TUTOR_ENDEAVOR | TUTOR_VACUUM_WAVE | \
-                  TUTOR_GUNK_SHOT | 0, \
-                  TUTOR_HEAT_WAVE | TUTOR_SWIFT | \
-                  TUTOR_ROLE_PLAY | TUTOR_LOW_KICK | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_INFERNAPE, \
-                  TUTOR_MUD_SLAP | TUTOR_ROLLOUT | TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | \
-                  TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | TUTOR_ENDEAVOR | TUTOR_VACUUM_WAVE | \
-                  TUTOR_GUNK_SHOT | 0, \
-                  TUTOR_HEAT_WAVE | TUTOR_SWIFT | \
-                  TUTOR_ROLE_PLAY | TUTOR_LOW_KICK | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_PIPLUP, \
-                  TUTOR_DIVE | TUTOR_MUD_SLAP | TUTOR_ICY_WIND | \
-                  TUTOR_SNORE | \
-                  TUTOR_SIGNAL_BEAM | \
-                  0, \
-                  \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_PRINPLUP, \
-                  TUTOR_DIVE | TUTOR_MUD_SLAP | TUTOR_ICY_WIND | \
-                  TUTOR_SNORE | \
-                  TUTOR_SIGNAL_BEAM | \
-                  0, \
-                  \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_EMPOLEON, \
-                  TUTOR_DIVE | TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | TUTOR_ICY_WIND | \
-                  TUTOR_SNORE | \
-                  TUTOR_SIGNAL_BEAM | \
-                  TUTOR_IRON_DEFENSE | 0, \
-                  TUTOR_KNOCK_OFF | \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_STARLY, \
-                  TUTOR_MUD_SLAP | \
-                  TUTOR_OMINOUS_WIND | TUTOR_SNORE | TUTOR_AIR_CUTTER | \
-                  TUTOR_ENDEAVOR | \
-                  TUTOR_TWISTER  | 0, \
-                  TUTOR_HEAT_WAVE | TUTOR_SWIFT | \
-                  TUTOR_TAILWIND | \
-                  \
-                  0
-
-
-tutordata SPECIES_STARAVIA, \
-                  TUTOR_MUD_SLAP | \
-                  TUTOR_OMINOUS_WIND | TUTOR_SNORE | TUTOR_AIR_CUTTER | \
-                  TUTOR_ENDEAVOR | \
-                  TUTOR_TWISTER  | 0, \
-                  TUTOR_HEAT_WAVE | TUTOR_SWIFT | \
-                  TUTOR_TAILWIND | \
-                  \
-                  0
-
-
-tutordata SPECIES_STARAPTOR, \
-                  TUTOR_MUD_SLAP | \
-                  TUTOR_OMINOUS_WIND | TUTOR_SNORE | TUTOR_AIR_CUTTER | \
-                  TUTOR_ENDEAVOR | \
-                  TUTOR_TWISTER  | 0, \
-                  TUTOR_HEAT_WAVE | TUTOR_SWIFT | \
-                  TUTOR_TAILWIND | \
-                  TUTOR_SKY_ATTACK | \
-                  0
-
-
-tutordata SPECIES_BIDOOF, \
-                  TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | TUTOR_ICY_WIND | TUTOR_ROLLOUT | TUTOR_SUPERPOWER | \
-                  TUTOR_AQUA_TAIL | TUTOR_SNORE | \
-                  \
-                  TUTOR_LAST_RESORT | 0, \
-                  TUTOR_SWIFT | TUTOR_SUPER_FANG | \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_BIBAREL, \
-                  TUTOR_DIVE | TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | TUTOR_ICY_WIND | TUTOR_ROLLOUT | TUTOR_SUPERPOWER | \
-                  TUTOR_AQUA_TAIL | TUTOR_SNORE | \
-                  \
-                  TUTOR_LAST_RESORT | 0, \
-                  TUTOR_SWIFT | TUTOR_SUPER_FANG | \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_KRICKETOT, \
-                  TUTOR_MUD_SLAP | \
-                  TUTOR_SNORE | \
-                  TUTOR_ENDEAVOR | \
-                  0, \
-                  TUTOR_UPROAR | \
-                  TUTOR_STRING_SHOT | \
-                  TUTOR_BUG_BITE | \
-                  0
-
-
-tutordata SPECIES_KRICKETUNE, \
-                  TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | \
-                  TUTOR_SNORE | \
-                  TUTOR_ENDEAVOR | \
-                  0, \
-                  TUTOR_KNOCK_OFF | TUTOR_UPROAR | \
-                  TUTOR_STRING_SHOT | \
-                  TUTOR_BUG_BITE | \
-                  0
-
-
-tutordata SPECIES_SHINX, \
-                  TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | \
-                  TUTOR_SNORE | \
-                  TUTOR_SIGNAL_BEAM | \
-                  TUTOR_MAGNET_RISE | 0, \
-                  TUTOR_SWIFT | \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_LUXIO, \
-                  TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | \
-                  TUTOR_SNORE | \
-                  TUTOR_SIGNAL_BEAM | \
-                  TUTOR_MAGNET_RISE | 0, \
-                  TUTOR_SWIFT | \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_LUXRAY, \
-                  TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | TUTOR_SUPERPOWER | \
-                  TUTOR_SNORE | \
-                  TUTOR_SIGNAL_BEAM | \
-                  TUTOR_MAGNET_RISE | 0, \
-                  TUTOR_SWIFT | \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_BUDEW, \
-                  TUTOR_MUD_SLAP | \
-                  TUTOR_SNORE | \
-                  TUTOR_SYNTHESIS | \
-                  TUTOR_SEED_BOMB | 0, \
-                  TUTOR_SWIFT | TUTOR_UPROAR | \
-                  TUTOR_WORRY_SEED | \
-                  \
-                  0
-
-
-tutordata SPECIES_ROSERADE, \
-                  TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | \
-                  TUTOR_SNORE | \
-                  TUTOR_SYNTHESIS | \
-                  TUTOR_SEED_BOMB | 0, \
-                  TUTOR_SWIFT | \
-                  TUTOR_WORRY_SEED | \
-                  \
-                  0
-
-
-tutordata SPECIES_CRANIDOS, \
-                  TUTOR_MUD_SLAP | TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | TUTOR_SUPERPOWER | \
-                  TUTOR_IRON_HEAD | TUTOR_SNORE | TUTOR_SPITE | \
-                  TUTOR_ENDEAVOR | TUTOR_ANCIENT_POWER | TUTOR_ZEN_HEADBUTT | \
-                  TUTOR_EARTH_POWER | 0, \
-                  TUTOR_UPROAR | \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_RAMPARDOS, \
-                  TUTOR_MUD_SLAP | TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | TUTOR_SUPERPOWER | \
-                  TUTOR_IRON_HEAD | TUTOR_SNORE | TUTOR_SPITE | \
-                  TUTOR_ENDEAVOR | TUTOR_OUTRAGE  | TUTOR_ANCIENT_POWER | TUTOR_ZEN_HEADBUTT | \
-                  TUTOR_EARTH_POWER | 0, \
-                  TUTOR_UPROAR | TUTOR_PAIN_SPLIT | \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_SHIELDON, \
-                  TUTOR_MUD_SLAP | \
-                  TUTOR_IRON_HEAD | TUTOR_SNORE | \
-                  TUTOR_ANCIENT_POWER | \
-                  TUTOR_EARTH_POWER | TUTOR_IRON_DEFENSE | TUTOR_MAGNET_RISE | 0, \
-                  \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_BASTIODON, \
-                  TUTOR_MUD_SLAP | \
-                  TUTOR_IRON_HEAD | TUTOR_SNORE | \
-                  TUTOR_OUTRAGE  | TUTOR_ANCIENT_POWER | \
-                  TUTOR_EARTH_POWER | TUTOR_IRON_DEFENSE | TUTOR_MAGNET_RISE | 0, \
-                  \
-                  TUTOR_MAGIC_COAT | \
-                  TUTOR_BLOCK | TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_BURMY, \
-                  \
-                  TUTOR_SNORE | \
-                  \
-                  0, \
-                  \
-                  TUTOR_STRING_SHOT | \
-                  TUTOR_BUG_BITE | \
-                  0
-
-
-tutordata SPECIES_WORMADAM, \
-                  \
-                  TUTOR_SNORE | \
-                  TUTOR_ENDEAVOR | TUTOR_SYNTHESIS | TUTOR_SIGNAL_BEAM | \
-                  TUTOR_SEED_BOMB | 0, \
-                  TUTOR_SUCKER_PUNCH | TUTOR_UPROAR | \
-                  TUTOR_STRING_SHOT | TUTOR_WORRY_SEED | \
-                  TUTOR_BUG_BITE | \
-                  0
-
-
-tutordata SPECIES_MOTHIM, \
-                  TUTOR_MUD_SLAP | \
-                  TUTOR_OMINOUS_WIND | TUTOR_SNORE | TUTOR_AIR_CUTTER | \
-                  TUTOR_SIGNAL_BEAM | \
-                  TUTOR_TWISTER  | 0, \
-                  TUTOR_SWIFT | \
-                  TUTOR_STRING_SHOT | TUTOR_TAILWIND | \
-                  TUTOR_BUG_BITE | \
-                  0
-
-
-tutordata SPECIES_COMBEE, \
-                  TUTOR_MUD_SLAP | \
-                  TUTOR_OMINOUS_WIND | TUTOR_SNORE | TUTOR_AIR_CUTTER | \
-                  TUTOR_ENDEAVOR | \
-                  0, \
-                  TUTOR_SWIFT | \
-                  TUTOR_STRING_SHOT | TUTOR_TAILWIND | \
-                  TUTOR_BUG_BITE | \
-                  0
-
-
-tutordata SPECIES_VESPIQUEN, \
-                  TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | \
-                  TUTOR_OMINOUS_WIND | TUTOR_SNORE | TUTOR_AIR_CUTTER | \
-                  TUTOR_ENDEAVOR | TUTOR_SIGNAL_BEAM | \
-                  0, \
-                  TUTOR_SWIFT | \
-                  TUTOR_STRING_SHOT | TUTOR_TAILWIND | \
-                  TUTOR_BUG_BITE | \
-                  0
-
-
-tutordata SPECIES_PACHIRISU, \
-                  TUTOR_MUD_SLAP | TUTOR_ROLLOUT | TUTOR_THUNDER_PUNCH | \
-                  TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | \
-                  TUTOR_GUNK_SHOT | TUTOR_SEED_BOMB | TUTOR_MAGNET_RISE | TUTOR_LAST_RESORT | 0, \
-                  TUTOR_SWIFT | TUTOR_UPROAR | TUTOR_SUPER_FANG | \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_BUIZEL, \
-                  TUTOR_DIVE | TUTOR_MUD_SLAP | TUTOR_ICY_WIND | \
-                  TUTOR_ICE_PUNCH | TUTOR_SNORE | \
-                  \
-                  0, \
-                  TUTOR_SWIFT | \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_FLOATZEL, \
-                  TUTOR_DIVE | TUTOR_MUD_SLAP | TUTOR_ICY_WIND | \
-                  TUTOR_ICE_PUNCH | TUTOR_AQUA_TAIL | TUTOR_SNORE | \
-                  \
-                  0, \
-                  TUTOR_SWIFT | \
-                  TUTOR_LOW_KICK | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_CHERUBI, \
-                  TUTOR_ROLLOUT | \
-                  TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | TUTOR_SYNTHESIS | \
-                  TUTOR_SEED_BOMB | 0, \
-                  \
-                  TUTOR_WORRY_SEED | \
-                  \
-                  0
-
-
-tutordata SPECIES_CHERRIM, \
-                  TUTOR_ROLLOUT | \
-                  TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | TUTOR_SYNTHESIS | \
-                  TUTOR_SEED_BOMB | 0, \
-                  \
-                  TUTOR_WORRY_SEED | \
-                  \
-                  0
-
-
-tutordata SPECIES_SHELLOS, \
-                  TUTOR_DIVE | TUTOR_MUD_SLAP | TUTOR_ICY_WIND | \
-                  TUTOR_SNORE | \
-                  TUTOR_ANCIENT_POWER | \
-                  TUTOR_EARTH_POWER | 0, \
-                  TUTOR_PAIN_SPLIT | \
-                  TUTOR_STRING_SHOT | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_GASTRODON, \
-                  TUTOR_DIVE | TUTOR_MUD_SLAP | TUTOR_ICY_WIND | \
-                  TUTOR_SNORE | \
-                  TUTOR_ANCIENT_POWER | \
-                  TUTOR_EARTH_POWER | 0, \
-                  TUTOR_PAIN_SPLIT | \
-                  TUTOR_STRING_SHOT | \
-                  TUTOR_BLOCK | TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_AMBIPOM, \
-                  TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | \
-                  TUTOR_ICE_PUNCH | TUTOR_SNORE | TUTOR_SPITE | \
-                  \
-                  TUTOR_GUNK_SHOT | TUTOR_SEED_BOMB | TUTOR_LAST_RESORT | TUTOR_BOUNCE | 0, \
-                  TUTOR_KNOCK_OFF | TUTOR_SWIFT | TUTOR_UPROAR | \
-                  TUTOR_ROLE_PLAY | TUTOR_LOW_KICK | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_DRIFLOON, \
-                  TUTOR_MUD_SLAP | TUTOR_ICY_WIND | TUTOR_ROLLOUT | \
-                  TUTOR_OMINOUS_WIND | TUTOR_SNORE | TUTOR_SPITE | TUTOR_AIR_CUTTER | \
-                  \
-                  0, \
-                  TUTOR_TRICK | TUTOR_KNOCK_OFF | TUTOR_SUCKER_PUNCH | TUTOR_SWIFT | TUTOR_PAIN_SPLIT | \
-                  TUTOR_TAILWIND | TUTOR_MAGIC_COAT | \
-                  \
-                  0
-
-
-tutordata SPECIES_DRIFBLIM, \
-                  TUTOR_MUD_SLAP | TUTOR_ICY_WIND | TUTOR_ROLLOUT | \
-                  TUTOR_OMINOUS_WIND | TUTOR_SNORE | TUTOR_SPITE | TUTOR_AIR_CUTTER | \
-                  \
-                  0, \
-                  TUTOR_TRICK | TUTOR_KNOCK_OFF | TUTOR_SUCKER_PUNCH | TUTOR_SWIFT | TUTOR_PAIN_SPLIT | \
-                  TUTOR_TAILWIND | TUTOR_MAGIC_COAT | \
-                  \
-                  0
-
-
-tutordata SPECIES_BUNEARY, \
-                  TUTOR_MUD_SLAP | \
-                  TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | TUTOR_ENDEAVOR | \
-                  TUTOR_LAST_RESORT | TUTOR_BOUNCE | 0, \
-                  TUTOR_SWIFT | TUTOR_UPROAR | \
-                  TUTOR_MAGIC_COAT | TUTOR_HEAL_BELL | TUTOR_LOW_KICK | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_LOPUNNY, \
-                  TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | \
-                  TUTOR_ICE_PUNCH | TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | TUTOR_ENDEAVOR | \
-                  TUTOR_LAST_RESORT | TUTOR_BOUNCE | 0, \
-                  TUTOR_SWIFT | TUTOR_UPROAR | \
-                  TUTOR_MAGIC_COAT | TUTOR_HEAL_BELL | TUTOR_LOW_KICK | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_MISMAGIUS, \
-                  TUTOR_ICY_WIND | \
-                  TUTOR_OMINOUS_WIND | TUTOR_SNORE | TUTOR_SPITE | \
-                  \
-                  0, \
-                  TUTOR_TRICK | TUTOR_SUCKER_PUNCH | TUTOR_SWIFT | TUTOR_UPROAR | TUTOR_PAIN_SPLIT | \
-                  TUTOR_MAGIC_COAT | TUTOR_HEAL_BELL | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_HONCHKROW, \
-                  TUTOR_MUD_SLAP | TUTOR_SUPERPOWER | \
-                  TUTOR_OMINOUS_WIND | TUTOR_SPITE | TUTOR_AIR_CUTTER | \
-                  \
-                  TUTOR_TWISTER  | 0, \
-                  TUTOR_HEAT_WAVE | TUTOR_SUCKER_PUNCH | TUTOR_SWIFT | TUTOR_UPROAR | \
-                  TUTOR_TAILWIND | \
-                  TUTOR_SKY_ATTACK | \
-                  0
-
-
-tutordata SPECIES_GLAMEOW, \
-                  TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | \
-                  TUTOR_SNORE | \
-                  \
-                  TUTOR_LAST_RESORT | 0, \
-                  TUTOR_KNOCK_OFF | TUTOR_SUCKER_PUNCH | TUTOR_SWIFT | TUTOR_SUPER_FANG | \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_PURUGLY, \
-                  TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | TUTOR_ROLLOUT | \
-                  TUTOR_SNORE | \
-                  \
-                  TUTOR_LAST_RESORT | 0, \
-                  TUTOR_KNOCK_OFF | TUTOR_SUCKER_PUNCH | TUTOR_SWIFT | TUTOR_SUPER_FANG | \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_CHINGLING, \
-                  TUTOR_ICY_WIND | TUTOR_ROLLOUT | \
-                  TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | TUTOR_SIGNAL_BEAM | TUTOR_ZEN_HEADBUTT | \
-                  TUTOR_LAST_RESORT | 0, \
-                  TUTOR_TRICK | TUTOR_KNOCK_OFF | TUTOR_SWIFT | TUTOR_UPROAR | \
-                  TUTOR_GRAVITY  | TUTOR_MAGIC_COAT | TUTOR_HEAL_BELL | \
-                  \
-                  0
-
-
-tutordata SPECIES_STUNKY, \
-                  TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | \
-                  TUTOR_SNORE | \
-                  \
-                  0, \
-                  TUTOR_SUCKER_PUNCH | TUTOR_SWIFT | \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_SKUNTANK, \
-                  TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | \
-                  TUTOR_SNORE | \
-                  \
-                  0, \
-                  TUTOR_SUCKER_PUNCH | TUTOR_SWIFT | \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_BRONZOR, \
-                  TUTOR_ROLLOUT | \
-                  TUTOR_SNORE | \
-                  TUTOR_ANCIENT_POWER | TUTOR_SIGNAL_BEAM | \
-                  0, \
-                  TUTOR_TRICK | \
-                  TUTOR_GRAVITY  | \
-                  \
-                  0
-
-
-tutordata SPECIES_BRONZONG, \
-                  TUTOR_ROLLOUT | \
-                  TUTOR_IRON_HEAD | TUTOR_SNORE | \
-                  TUTOR_ANCIENT_POWER | TUTOR_SIGNAL_BEAM | TUTOR_ZEN_HEADBUTT | \
-                  0, \
-                  TUTOR_TRICK | \
-                  TUTOR_GRAVITY  | \
-                  TUTOR_BLOCK | \
-                  0
-
-
-tutordata SPECIES_BONSLY, \
-                  TUTOR_ROLLOUT | \
-                  TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | \
-                  TUTOR_EARTH_POWER | 0, \
-                  TUTOR_SUCKER_PUNCH | TUTOR_UPROAR | \
-                  TUTOR_ROLE_PLAY | TUTOR_LOW_KICK | \
-                  TUTOR_BLOCK | TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_MIMEJR, \
-                  TUTOR_MUD_SLAP | \
-                  TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | TUTOR_SIGNAL_BEAM | \
-                  0, \
-                  TUTOR_TRICK | TUTOR_UPROAR | \
-                  TUTOR_MAGIC_COAT | TUTOR_ROLE_PLAY | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_HAPPINY, \
-                  TUTOR_MUD_SLAP | TUTOR_ICY_WIND | TUTOR_ROLLOUT | \
-                  TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | TUTOR_ENDEAVOR | TUTOR_ZEN_HEADBUTT | \
-                  TUTOR_LAST_RESORT | 0, \
-                  TUTOR_UPROAR | \
-                  TUTOR_GRAVITY  | TUTOR_HEAL_BELL | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_CHATOT, \
-                  TUTOR_MUD_SLAP | \
-                  TUTOR_OMINOUS_WIND | TUTOR_SNORE | TUTOR_AIR_CUTTER | \
-                  \
-                  TUTOR_TWISTER  | 0, \
-                  TUTOR_HEAT_WAVE | TUTOR_SWIFT | TUTOR_UPROAR | \
-                  TUTOR_TAILWIND | TUTOR_ROLE_PLAY | \
-                  TUTOR_SKY_ATTACK | \
-                  0
-
-
-tutordata SPECIES_SPIRITOMB, \
-                  TUTOR_ICY_WIND | \
-                  TUTOR_OMINOUS_WIND | TUTOR_SNORE | TUTOR_SPITE | \
-                  \
-                  0, \
-                  TUTOR_TRICK | TUTOR_SUCKER_PUNCH | TUTOR_UPROAR | TUTOR_PAIN_SPLIT | \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_GIBLE, \
-                  TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | \
-                  TUTOR_IRON_HEAD | TUTOR_SNORE | \
-                  TUTOR_OUTRAGE  | \
-                  TUTOR_EARTH_POWER | TUTOR_TWISTER  | 0, \
-                  TUTOR_SWIFT | \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_GABITE, \
-                  TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | \
-                  TUTOR_IRON_HEAD | TUTOR_SNORE | \
-                  TUTOR_OUTRAGE  | \
-                  TUTOR_EARTH_POWER | TUTOR_TWISTER  | 0, \
-                  TUTOR_SWIFT | \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_GARCHOMP, \
-                  TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | \
-                  TUTOR_IRON_HEAD | TUTOR_AQUA_TAIL | TUTOR_SNORE | \
-                  TUTOR_OUTRAGE  | \
-                  TUTOR_EARTH_POWER | TUTOR_TWISTER  | 0, \
-                  TUTOR_SWIFT | \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_MUNCHLAX, \
-                  TUTOR_MUD_SLAP | TUTOR_ICY_WIND | TUTOR_ROLLOUT | TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | TUTOR_SUPERPOWER | \
-                  TUTOR_ICE_PUNCH | TUTOR_SNORE | \
-                  TUTOR_ZEN_HEADBUTT | \
-                  TUTOR_GUNK_SHOT | TUTOR_SEED_BOMB | TUTOR_LAST_RESORT | 0, \
-                  TUTOR_UPROAR | \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_RIOLU, \
-                  TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | TUTOR_THUNDER_PUNCH | \
-                  TUTOR_ICE_PUNCH | TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | TUTOR_ZEN_HEADBUTT | TUTOR_VACUUM_WAVE | \
-                  TUTOR_IRON_DEFENSE | TUTOR_MAGNET_RISE | 0, \
-                  TUTOR_SWIFT | \
-                  TUTOR_ROLE_PLAY | TUTOR_LOW_KICK | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_LUCARIO, \
-                  TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | TUTOR_THUNDER_PUNCH | \
-                  TUTOR_ICE_PUNCH | TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | TUTOR_ZEN_HEADBUTT | TUTOR_VACUUM_WAVE | \
-                  TUTOR_IRON_DEFENSE | TUTOR_MAGNET_RISE | 0, \
-                  TUTOR_SWIFT | \
-                  TUTOR_ROLE_PLAY | TUTOR_LOW_KICK | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_HIPPOPOTAS, \
-                  TUTOR_MUD_SLAP | TUTOR_SUPERPOWER | \
-                  TUTOR_SNORE | \
-                  \
-                  TUTOR_EARTH_POWER | 0, \
-                  \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_HIPPOWDON, \
-                  TUTOR_MUD_SLAP | TUTOR_SUPERPOWER | \
-                  TUTOR_IRON_HEAD | TUTOR_SNORE | \
-                  \
-                  TUTOR_EARTH_POWER | 0, \
-                  \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_SKORUPI, \
-                  TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | \
-                  TUTOR_AQUA_TAIL | TUTOR_SNORE | \
-                  \
-                  0, \
-                  TUTOR_KNOCK_OFF | \
-                  \
-                  TUTOR_BUG_BITE | TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_DRAPION, \
-                  TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | \
-                  TUTOR_AQUA_TAIL | TUTOR_SNORE | \
-                  \
-                  0, \
-                  TUTOR_KNOCK_OFF | \
-                  \
-                  TUTOR_BUG_BITE | TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_CROAGUNK, \
-                  TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | TUTOR_ICY_WIND | TUTOR_THUNDER_PUNCH | \
-                  TUTOR_ICE_PUNCH | TUTOR_SNORE | TUTOR_SPITE | \
-                  TUTOR_HELPING_HAND | TUTOR_VACUUM_WAVE | \
-                  TUTOR_GUNK_SHOT | TUTOR_BOUNCE | 0, \
-                  TUTOR_KNOCK_OFF | TUTOR_SUCKER_PUNCH | TUTOR_SUPER_FANG | \
-                  TUTOR_ROLE_PLAY | TUTOR_LOW_KICK | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_TOXICROAK, \
-                  TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | TUTOR_ICY_WIND | TUTOR_THUNDER_PUNCH | \
-                  TUTOR_ICE_PUNCH | TUTOR_SNORE | TUTOR_SPITE | \
-                  TUTOR_HELPING_HAND | TUTOR_VACUUM_WAVE | \
-                  TUTOR_GUNK_SHOT | TUTOR_BOUNCE | 0, \
-                  TUTOR_KNOCK_OFF | TUTOR_SUCKER_PUNCH | TUTOR_SUPER_FANG | \
-                  TUTOR_ROLE_PLAY | TUTOR_LOW_KICK | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_CARNIVINE, \
-                  TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | \
-                  TUTOR_GASTRO_ACID | TUTOR_SNORE | \
-                  TUTOR_SYNTHESIS | \
-                  TUTOR_SEED_BOMB | 0, \
-                  TUTOR_KNOCK_OFF | \
-                  TUTOR_WORRY_SEED | \
-                  TUTOR_BUG_BITE | \
-                  0
-
-
-tutordata SPECIES_FINNEON, \
-                  TUTOR_DIVE | TUTOR_ICY_WIND | \
-                  TUTOR_AQUA_TAIL | TUTOR_OMINOUS_WIND | TUTOR_SNORE | TUTOR_AIR_CUTTER | \
-                  \
-                  TUTOR_TWISTER  | TUTOR_BOUNCE | 0, \
-                  TUTOR_SWIFT | \
-                  TUTOR_TAILWIND | \
-                  \
-                  0
-
-
-tutordata SPECIES_LUMINEON, \
-                  TUTOR_DIVE | TUTOR_ICY_WIND | \
-                  TUTOR_AQUA_TAIL | TUTOR_OMINOUS_WIND | TUTOR_SNORE | TUTOR_AIR_CUTTER | \
-                  \
-                  TUTOR_TWISTER  | TUTOR_BOUNCE | 0, \
-                  TUTOR_SWIFT | \
-                  TUTOR_TAILWIND | \
-                  \
-                  0
-
-
-tutordata SPECIES_MANTYKE, \
-                  TUTOR_DIVE | TUTOR_MUD_SLAP | TUTOR_ICY_WIND | \
-                  TUTOR_SNORE | TUTOR_AIR_CUTTER | \
-                  TUTOR_HELPING_HAND | \
-                  TUTOR_BOUNCE | 0, \
-                  TUTOR_SWIFT | \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_SNOVER, \
-                  TUTOR_MUD_SLAP | TUTOR_ICY_WIND | \
-                  TUTOR_ICE_PUNCH | TUTOR_SNORE | \
-                  TUTOR_SYNTHESIS | \
-                  TUTOR_SEED_BOMB | 0, \
-                  \
-                  TUTOR_WORRY_SEED | TUTOR_ROLE_PLAY | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_ABOMASNOW, \
-                  TUTOR_MUD_SLAP | TUTOR_ICY_WIND | \
-                  TUTOR_ICE_PUNCH | TUTOR_SNORE | \
-                  TUTOR_OUTRAGE  | TUTOR_SYNTHESIS | \
-                  TUTOR_SEED_BOMB | 0, \
-                  \
-                  TUTOR_WORRY_SEED | TUTOR_ROLE_PLAY | \
-                  TUTOR_BLOCK | TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_WEAVILE, \
-                  TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | TUTOR_ICY_WIND | \
-                  TUTOR_ICE_PUNCH | TUTOR_SNORE | TUTOR_SPITE | \
-                  \
-                  0, \
-                  TUTOR_KNOCK_OFF | TUTOR_SWIFT | \
-                  TUTOR_LOW_KICK | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_MAGNEZONE, \
-                  TUTOR_ROLLOUT | \
-                  TUTOR_IRON_HEAD | TUTOR_SNORE | \
-                  TUTOR_SIGNAL_BEAM | \
-                  TUTOR_IRON_DEFENSE | TUTOR_MAGNET_RISE | 0, \
-                  TUTOR_SWIFT | \
-                  TUTOR_GRAVITY  | TUTOR_MAGIC_COAT | \
-                  \
-                  0
-
-
-tutordata SPECIES_LICKILICKY, \
-                  TUTOR_MUD_SLAP | TUTOR_ICY_WIND | TUTOR_ROLLOUT | TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | \
-                  TUTOR_ICE_PUNCH | TUTOR_AQUA_TAIL | TUTOR_SNORE | \
-                  TUTOR_ZEN_HEADBUTT | \
-                  0, \
-                  TUTOR_KNOCK_OFF | \
-                  \
-                  TUTOR_BLOCK | TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_RHYPERIOR, \
-                  TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | TUTOR_ICY_WIND | TUTOR_ROLLOUT | TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | TUTOR_SUPERPOWER | \
-                  TUTOR_ICE_PUNCH | TUTOR_IRON_HEAD | TUTOR_AQUA_TAIL | TUTOR_SNORE | TUTOR_SPITE | \
-                  TUTOR_ENDEAVOR | TUTOR_OUTRAGE  | TUTOR_ANCIENT_POWER | \
-                  TUTOR_EARTH_POWER | 0, \
-                  TUTOR_UPROAR | \
-                  \
-                  TUTOR_BLOCK | TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_TANGROWTH, \
-                  TUTOR_MUD_SLAP | \
-                  TUTOR_SNORE | \
-                  TUTOR_ANCIENT_POWER | TUTOR_SYNTHESIS | \
-                  TUTOR_SEED_BOMB | 0, \
-                  TUTOR_KNOCK_OFF | TUTOR_PAIN_SPLIT | \
-                  TUTOR_WORRY_SEED | \
-                  TUTOR_BLOCK | TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_ELECTIVIRE, \
-                  TUTOR_MUD_SLAP | TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | \
-                  TUTOR_ICE_PUNCH | TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | TUTOR_SIGNAL_BEAM | \
-                  TUTOR_MAGNET_RISE | 0, \
-                  TUTOR_SWIFT | \
-                  TUTOR_LOW_KICK | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_MAGMORTAR, \
-                  TUTOR_MUD_SLAP | TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | \
-                  TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | \
-                  0, \
-                  TUTOR_HEAT_WAVE | \
-                  TUTOR_LOW_KICK | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_TOGEKISS, \
-                  TUTOR_MUD_SLAP | TUTOR_ROLLOUT | \
-                  TUTOR_OMINOUS_WIND | TUTOR_SNORE | TUTOR_AIR_CUTTER | \
-                  TUTOR_ENDEAVOR | TUTOR_ANCIENT_POWER | TUTOR_SIGNAL_BEAM | TUTOR_ZEN_HEADBUTT | \
-                  TUTOR_TWISTER  | TUTOR_LAST_RESORT | 0, \
-                  TUTOR_TRICK | TUTOR_HEAT_WAVE | TUTOR_SWIFT | \
-                  TUTOR_TAILWIND | TUTOR_MAGIC_COAT | TUTOR_HEAL_BELL | \
-                  TUTOR_SKY_ATTACK | TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_YANMEGA, \
-                  TUTOR_MUD_SLAP | \
-                  TUTOR_OMINOUS_WIND | TUTOR_SNORE | TUTOR_AIR_CUTTER | \
-                  TUTOR_ANCIENT_POWER | TUTOR_SIGNAL_BEAM | \
-                  0, \
-                  TUTOR_SWIFT | TUTOR_UPROAR | \
-                  TUTOR_STRING_SHOT | TUTOR_TAILWIND | \
-                  TUTOR_BUG_BITE | TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_LEAFEON, \
-                  TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | \
-                  TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | TUTOR_SYNTHESIS | \
-                  TUTOR_SEED_BOMB | TUTOR_LAST_RESORT | 0, \
-                  TUTOR_KNOCK_OFF | TUTOR_SWIFT | \
-                  TUTOR_WORRY_SEED | TUTOR_HEAL_BELL | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_GLACEON, \
-                  TUTOR_MUD_SLAP | TUTOR_ICY_WIND | \
-                  TUTOR_AQUA_TAIL | TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | TUTOR_SIGNAL_BEAM | \
-                  TUTOR_LAST_RESORT | 0, \
-                  TUTOR_SWIFT | \
-                  TUTOR_HEAL_BELL | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_GLISCOR, \
-                  TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | \
-                  TUTOR_AQUA_TAIL | TUTOR_SNORE | \
-                  \
-                  TUTOR_EARTH_POWER | 0, \
-                  TUTOR_KNOCK_OFF | TUTOR_SWIFT | \
-                  TUTOR_TAILWIND | \
-                  TUTOR_SKY_ATTACK | TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_MAMOSWINE, \
-                  TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | TUTOR_ICY_WIND | TUTOR_SUPERPOWER | \
-                  TUTOR_IRON_HEAD | TUTOR_SNORE | \
-                  TUTOR_ENDEAVOR | TUTOR_ANCIENT_POWER | \
-                  TUTOR_EARTH_POWER | 0, \
-                  TUTOR_KNOCK_OFF | \
-                  \
-                  TUTOR_BLOCK | TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_PORYGON_Z, \
-                  TUTOR_ICY_WIND | \
-                  TUTOR_SNORE | \
-                  TUTOR_SIGNAL_BEAM | TUTOR_ZEN_HEADBUTT | \
-                  TUTOR_LAST_RESORT | 0, \
-                  TUTOR_TRICK | TUTOR_SWIFT | TUTOR_UPROAR | TUTOR_PAIN_SPLIT | \
-                  TUTOR_GRAVITY  | TUTOR_MAGIC_COAT | \
-                  \
-                  0
-
-
-tutordata SPECIES_GALLADE, \
-                  TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | \
-                  TUTOR_ICE_PUNCH | TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | TUTOR_SIGNAL_BEAM | TUTOR_ZEN_HEADBUTT | TUTOR_VACUUM_WAVE | \
-                  0, \
-                  TUTOR_TRICK | TUTOR_KNOCK_OFF | TUTOR_SWIFT | TUTOR_PAIN_SPLIT | \
-                  TUTOR_MAGIC_COAT | TUTOR_LOW_KICK | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_PROBOPASS, \
-                  TUTOR_MUD_SLAP | TUTOR_ROLLOUT | TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | \
-                  TUTOR_ICE_PUNCH | TUTOR_IRON_HEAD | TUTOR_SNORE | \
-                  TUTOR_ANCIENT_POWER | \
-                  TUTOR_EARTH_POWER | TUTOR_IRON_DEFENSE | TUTOR_MAGNET_RISE | 0, \
-                  TUTOR_PAIN_SPLIT | \
-                  TUTOR_GRAVITY  | TUTOR_MAGIC_COAT | \
-                  TUTOR_BLOCK | TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_DUSKNOIR, \
-                  TUTOR_MUD_SLAP | TUTOR_ICY_WIND | TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | \
-                  TUTOR_ICE_PUNCH | TUTOR_OMINOUS_WIND | TUTOR_SNORE | TUTOR_SPITE | \
-                  \
-                  0, \
-                  TUTOR_TRICK | TUTOR_SUCKER_PUNCH | TUTOR_PAIN_SPLIT | \
-                  TUTOR_GRAVITY  | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_FROSLASS, \
-                  TUTOR_MUD_SLAP | TUTOR_ICY_WIND | TUTOR_ROLLOUT | \
-                  TUTOR_ICE_PUNCH | TUTOR_OMINOUS_WIND | TUTOR_SNORE | TUTOR_SPITE | \
-                  TUTOR_SIGNAL_BEAM | \
-                  0, \
-                  TUTOR_TRICK | TUTOR_SUCKER_PUNCH | TUTOR_PAIN_SPLIT | \
-                  \
-                  TUTOR_BLOCK | TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_ROTOM, \
-                  TUTOR_MUD_SLAP | \
-                  TUTOR_OMINOUS_WIND | TUTOR_SNORE | TUTOR_SPITE | \
-                  TUTOR_SIGNAL_BEAM | \
-                  0, \
-                  TUTOR_TRICK | TUTOR_SUCKER_PUNCH | TUTOR_SWIFT | TUTOR_UPROAR | TUTOR_PAIN_SPLIT | \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_UXIE, \
-                  TUTOR_MUD_SLAP | TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | \
-                  TUTOR_ICE_PUNCH | TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | TUTOR_SIGNAL_BEAM | TUTOR_ZEN_HEADBUTT | \
-                  0, \
-                  TUTOR_TRICK | TUTOR_KNOCK_OFF | TUTOR_SWIFT | \
-                  TUTOR_MAGIC_COAT | TUTOR_ROLE_PLAY | TUTOR_HEAL_BELL | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_MESPRIT, \
-                  TUTOR_MUD_SLAP | TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | \
-                  TUTOR_ICE_PUNCH | TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | TUTOR_SIGNAL_BEAM | TUTOR_ZEN_HEADBUTT | \
-                  0, \
-                  TUTOR_TRICK | TUTOR_KNOCK_OFF | TUTOR_SWIFT | \
-                  TUTOR_MAGIC_COAT | TUTOR_ROLE_PLAY | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_AZELF, \
-                  TUTOR_MUD_SLAP | TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | \
-                  TUTOR_ICE_PUNCH | TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | TUTOR_SIGNAL_BEAM | TUTOR_ZEN_HEADBUTT | \
-                  TUTOR_LAST_RESORT | 0, \
-                  TUTOR_TRICK | TUTOR_KNOCK_OFF | TUTOR_SWIFT | TUTOR_UPROAR | \
-                  TUTOR_MAGIC_COAT | TUTOR_ROLE_PLAY | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_DIALGA, \
-                  TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | \
-                  TUTOR_IRON_HEAD | TUTOR_SNORE | \
-                  TUTOR_OUTRAGE  | TUTOR_ANCIENT_POWER | \
-                  TUTOR_EARTH_POWER | TUTOR_TWISTER  | TUTOR_IRON_DEFENSE | TUTOR_MAGNET_RISE | 0, \
-                  TUTOR_SWIFT | \
-                  TUTOR_GRAVITY  | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_PALKIA, \
-                  TUTOR_DIVE | TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | \
-                  TUTOR_AQUA_TAIL | TUTOR_SNORE | \
-                  TUTOR_OUTRAGE  | TUTOR_ANCIENT_POWER | \
-                  TUTOR_EARTH_POWER | TUTOR_TWISTER  | 0, \
-                  TUTOR_SWIFT | \
-                  TUTOR_GRAVITY  | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_HEATRAN, \
-                  TUTOR_MUD_SLAP | \
-                  TUTOR_IRON_HEAD | TUTOR_SNORE | \
-                  TUTOR_ANCIENT_POWER | \
-                  TUTOR_EARTH_POWER | TUTOR_IRON_DEFENSE | 0, \
-                  TUTOR_HEAT_WAVE | TUTOR_UPROAR | \
-                  \
-                  TUTOR_BUG_BITE | TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_REGIGIGAS, \
-                  TUTOR_MUD_SLAP | TUTOR_ICY_WIND | TUTOR_THUNDER_PUNCH | TUTOR_FIRE_PUNCH | TUTOR_SUPERPOWER | \
-                  TUTOR_ICE_PUNCH | TUTOR_IRON_HEAD | TUTOR_SNORE | \
-                  TUTOR_ANCIENT_POWER | TUTOR_ZEN_HEADBUTT | \
-                  TUTOR_EARTH_POWER | 0, \
-                  \
-                  TUTOR_GRAVITY  | \
-                  TUTOR_BLOCK | TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_GIRATINA, \
-                  TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | TUTOR_ICY_WIND | \
-                  TUTOR_IRON_HEAD | TUTOR_AQUA_TAIL | TUTOR_OMINOUS_WIND | TUTOR_SNORE | TUTOR_SPITE | TUTOR_AIR_CUTTER | \
-                  TUTOR_OUTRAGE  | TUTOR_ANCIENT_POWER | \
-                  TUTOR_EARTH_POWER | TUTOR_TWISTER  | 0, \
-                  TUTOR_SWIFT | TUTOR_PAIN_SPLIT | \
-                  TUTOR_GRAVITY  | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_CRESSELIA, \
-                  TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | TUTOR_ICY_WIND | \
-                  TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | TUTOR_SIGNAL_BEAM | TUTOR_ZEN_HEADBUTT | \
-                  0, \
-                  TUTOR_TRICK | TUTOR_SWIFT | \
-                  TUTOR_GRAVITY  | TUTOR_MAGIC_COAT | \
-                  \
-                  0
-
-
-tutordata SPECIES_PHIONE, \
-                  TUTOR_DIVE | TUTOR_MUD_SLAP | TUTOR_ICY_WIND | \
-                  TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | TUTOR_ANCIENT_POWER | TUTOR_SIGNAL_BEAM | \
-                  TUTOR_LAST_RESORT | TUTOR_BOUNCE | 0, \
-                  TUTOR_KNOCK_OFF | TUTOR_SWIFT | TUTOR_UPROAR | \
-                  TUTOR_HEAL_BELL | \
-                  \
-                  0
-
-
-tutordata SPECIES_MANAPHY, \
-                  TUTOR_DIVE | TUTOR_MUD_SLAP | TUTOR_ICY_WIND | \
-                  TUTOR_SNORE | \
-                  TUTOR_HELPING_HAND | TUTOR_ANCIENT_POWER | TUTOR_SIGNAL_BEAM | \
-                  TUTOR_LAST_RESORT | TUTOR_BOUNCE | 0, \
-                  TUTOR_KNOCK_OFF | TUTOR_SWIFT | TUTOR_UPROAR | \
-                  TUTOR_HEAL_BELL | \
-                  \
-                  0
-
-
-tutordata SPECIES_DARKRAI, \
-                  TUTOR_MUD_SLAP | TUTOR_ICY_WIND | \
-                  TUTOR_OMINOUS_WIND | TUTOR_SNORE | TUTOR_SPITE | \
-                  \
-                  TUTOR_LAST_RESORT | 0, \
-                  TUTOR_TRICK | TUTOR_KNOCK_OFF | TUTOR_SUCKER_PUNCH | TUTOR_SWIFT | \
-                  \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_SHAYMIN, \
-                  TUTOR_MUD_SLAP | \
-                  TUTOR_SNORE | \
-                  TUTOR_ENDEAVOR | TUTOR_SYNTHESIS | TUTOR_ZEN_HEADBUTT | \
-                  TUTOR_EARTH_POWER | TUTOR_SEED_BOMB | TUTOR_LAST_RESORT | 0, \
-                  TUTOR_SWIFT | \
-                  TUTOR_WORRY_SEED | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_ARCEUS, \
-                  TUTOR_DIVE | TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | TUTOR_ICY_WIND | \
-                  TUTOR_IRON_HEAD | TUTOR_AQUA_TAIL | TUTOR_OMINOUS_WIND | TUTOR_SNORE | \
-                  TUTOR_OUTRAGE  | TUTOR_ANCIENT_POWER | TUTOR_SIGNAL_BEAM | TUTOR_ZEN_HEADBUTT | \
-                  TUTOR_EARTH_POWER | TUTOR_TWISTER  | TUTOR_IRON_DEFENSE | TUTOR_LAST_RESORT | 0, \
-                  TUTOR_TRICK | TUTOR_HEAT_WAVE | TUTOR_SWIFT | \
-                  TUTOR_TAILWIND | TUTOR_GRAVITY  | TUTOR_MAGIC_COAT | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_EGG, \
-                  TUTOR_MUD_SLAP | TUTOR_SUPERPOWER | \
-                  TUTOR_SNORE | \
-                  TUTOR_SIGNAL_BEAM | TUTOR_ZEN_HEADBUTT | \
-                  0, \
-                  TUTOR_TRICK | \
-                  TUTOR_GRAVITY  | TUTOR_MAGIC_COAT | TUTOR_ROLE_PLAY | TUTOR_LOW_KICK | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_BAD_EGG, \
-                  TUTOR_MUD_SLAP | \
-                  TUTOR_SNORE | \
-                  TUTOR_SIGNAL_BEAM | TUTOR_ZEN_HEADBUTT | \
-                  TUTOR_IRON_DEFENSE | 0, \
-                  TUTOR_TRICK | TUTOR_KNOCK_OFF | \
-                  TUTOR_GRAVITY  | TUTOR_MAGIC_COAT | TUTOR_ROLE_PLAY | TUTOR_LOW_KICK | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_DEOXYS_ATTACK, \
-                  TUTOR_MUD_SLAP | \
-                  TUTOR_SNORE | \
-                  TUTOR_SIGNAL_BEAM | TUTOR_ZEN_HEADBUTT | \
-                  0, \
-                  TUTOR_TRICK | TUTOR_KNOCK_OFF | TUTOR_SWIFT | \
-                  TUTOR_GRAVITY  | TUTOR_MAGIC_COAT | TUTOR_ROLE_PLAY | TUTOR_LOW_KICK | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_DEOXYS_DEFENSE, \
-                  TUTOR_MUD_SLAP | TUTOR_ROLLOUT | \
-                  TUTOR_SNORE | \
-                  TUTOR_ENDEAVOR | TUTOR_SIGNAL_BEAM | \
-                  TUTOR_EARTH_POWER | 0, \
-                  TUTOR_SUCKER_PUNCH | TUTOR_UPROAR | \
-                  TUTOR_STRING_SHOT | \
-                  TUTOR_BUG_BITE | \
-                  0
-
-
-tutordata SPECIES_DEOXYS_SPEED, \
-                  \
-                  TUTOR_IRON_HEAD | TUTOR_SNORE | \
-                  TUTOR_ENDEAVOR | TUTOR_SIGNAL_BEAM | \
-                  TUTOR_GUNK_SHOT | TUTOR_IRON_DEFENSE | TUTOR_MAGNET_RISE | 0, \
-                  TUTOR_SUCKER_PUNCH | TUTOR_UPROAR | \
-                  TUTOR_STRING_SHOT | \
-                  TUTOR_BUG_BITE | \
-                  0
-
-
-tutordata SPECIES_WORMADAM_SANDY, \
-                  TUTOR_MUD_SLAP | TUTOR_FURY_CUTTER | TUTOR_ICY_WIND | \
-                  TUTOR_IRON_HEAD | TUTOR_AQUA_TAIL | TUTOR_OMINOUS_WIND | TUTOR_SNORE | TUTOR_SPITE | TUTOR_AIR_CUTTER | \
-                  TUTOR_OUTRAGE  | TUTOR_ANCIENT_POWER | \
-                  TUTOR_EARTH_POWER | TUTOR_TWISTER  | 0, \
-                  TUTOR_SWIFT | \
-                  TUTOR_TAILWIND | TUTOR_GRAVITY  | TUTOR_MAGIC_COAT | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_WORMADAM_TRASHY, \
-                  TUTOR_MUD_SLAP | \
-                  TUTOR_OMINOUS_WIND | TUTOR_SNORE | TUTOR_AIR_CUTTER | \
-                  TUTOR_SYNTHESIS | TUTOR_ZEN_HEADBUTT | \
-                  TUTOR_SEED_BOMB | TUTOR_LAST_RESORT | 0, \
-                  TUTOR_SWIFT | \
-                  TUTOR_TAILWIND | TUTOR_WORRY_SEED | \
-                  TUTOR_HEADBUTT | \
-                  0
-
-
-tutordata SPECIES_GIRATINA_ORIGIN, \
-                  TUTOR_MUD_SLAP | \
-                  TUTOR_OMINOUS_WIND | TUTOR_SNORE | TUTOR_SPITE | \
-                  TUTOR_SIGNAL_BEAM | \
-                  0, \
-                  TUTOR_TRICK | TUTOR_SUCKER_PUNCH | TUTOR_SWIFT | TUTOR_UPROAR | TUTOR_PAIN_SPLIT | \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_SHAYMIN_SKY, \
-                  TUTOR_MUD_SLAP | \
-                  TUTOR_OMINOUS_WIND | TUTOR_SNORE | TUTOR_SPITE | \
-                  TUTOR_SIGNAL_BEAM | \
-                  0, \
-                  TUTOR_TRICK | TUTOR_SUCKER_PUNCH | TUTOR_SWIFT | TUTOR_UPROAR | TUTOR_PAIN_SPLIT | \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_ROTOM_HEAT, \
-                  TUTOR_MUD_SLAP | \
-                  TUTOR_OMINOUS_WIND | TUTOR_SNORE | TUTOR_SPITE | \
-                  TUTOR_SIGNAL_BEAM | \
-                  0, \
-                  TUTOR_TRICK | TUTOR_SUCKER_PUNCH | TUTOR_SWIFT | TUTOR_UPROAR | TUTOR_PAIN_SPLIT | \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_ROTOM_WASH, \
-                  TUTOR_MUD_SLAP | \
-                  TUTOR_OMINOUS_WIND | TUTOR_SNORE | TUTOR_SPITE | \
-                  TUTOR_SIGNAL_BEAM | \
-                  0, \
-                  TUTOR_TRICK | TUTOR_SUCKER_PUNCH | TUTOR_SWIFT | TUTOR_UPROAR | TUTOR_PAIN_SPLIT | \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_ROTOM_FROST, \
-                  TUTOR_MUD_SLAP | \
-                  TUTOR_OMINOUS_WIND | TUTOR_SNORE | TUTOR_SPITE | \
-                  TUTOR_SIGNAL_BEAM | \
-                  0, \
-                  TUTOR_TRICK | TUTOR_SUCKER_PUNCH | TUTOR_SWIFT | TUTOR_UPROAR | TUTOR_PAIN_SPLIT | \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_ROTOM_FAN, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_ROTOM_MOW, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_ROTOM_MOW, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
+// NEW: Trailblaze
+tutordata SPECIES_BULBASAUR,\
+TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_MAGICAL_LEAF | TUTOR_MOVE_CHARM | TUTOR_MOVE_TRAILBLAZE,\
+TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_POWER_WHIP
+
+// NEW: Trailblaze
+tutordata SPECIES_IVYSAUR,\
+TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_MAGICAL_LEAF | TUTOR_MOVE_CHARM | TUTOR_MOVE_TRAILBLAZE,\
+TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_POWER_WHIP
+
+// NEW: Trailblaze
+tutordata SPECIES_VENUSAUR,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_MAGICAL_LEAF | TUTOR_MOVE_CHARM | TUTOR_MOVE_TRAILBLAZE,\
+TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_OUTRAGE | TUTOR_MOVE_POWER_WHIP
+
+tutordata SPECIES_CHARMANDER,\
+TUTOR_MOVE_AIR_CUTTER | TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_DRAGON_TAIL | TUTOR_MOVE_FIRE_PUNCH | TUTOR_MOVE_HEAT_WAVE,\
+TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_FLARE_BLITZ | TUTOR_MOVE_OUTRAGE
+
+tutordata SPECIES_CHARMELEON,\
+TUTOR_MOVE_AIR_CUTTER | TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_DRAGON_TAIL | TUTOR_MOVE_FIRE_PUNCH | TUTOR_MOVE_HEAT_WAVE,\
+TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_FLARE_BLITZ | TUTOR_MOVE_OUTRAGE
+
+tutordata SPECIES_CHARIZARD,\
+TUTOR_MOVE_AIR_CUTTER | TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_BREAKING_SWIPE | TUTOR_MOVE_BRUTAL_SWING | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_OMINOUS_WIND | TUTOR_MOVE_DRAGON_TAIL | TUTOR_MOVE_DUAL_WINGBEAT | TUTOR_MOVE_FIRE_PUNCH | TUTOR_MOVE_HEAT_WAVE,\
+TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_FLARE_BLITZ | TUTOR_MOVE_HURRICANE | TUTOR_MOVE_OUTRAGE
+
+// NEW: Chilling Water
+tutordata SPECIES_SQUIRTLE,\
+TUTOR_MOVE_GYRO_BALL | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_AURA_SPHERE | TUTOR_MOVE_FLIP_TURN | TUTOR_MOVE_CHILLING_WATER,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HYDRO_PUMP
+
+// NEW: Chilling Water
+tutordata SPECIES_WARTORTLE,\
+TUTOR_MOVE_GYRO_BALL | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_AURA_SPHERE | TUTOR_MOVE_FLIP_TURN | TUTOR_MOVE_CHILLING_WATER,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HYDRO_PUMP
+
+// NEW: Chilling Water
+tutordata SPECIES_BLASTOISE,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_GYRO_BALL | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_AURA_SPHERE | TUTOR_MOVE_DRAGON_TAIL | TUTOR_MOVE_FLIP_TURN | TUTOR_MOVE_CHILLING_WATER,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HYDRO_PUMP | TUTOR_MOVE_OUTRAGE
+
+tutordata SPECIES_CATERPIE,\
+TUTOR_MOVE_ELECTROWEB,\
+0
+
+tutordata SPECIES_METAPOD,\
+TUTOR_MOVE_ELECTROWEB,\
+0
+
+// NEW: Pounce
+tutordata SPECIES_BUTTERFREE,\
+TUTOR_MOVE_AIR_CUTTER | TUTOR_MOVE_DRAINING_KISS | TUTOR_MOVE_ELECTROWEB | TUTOR_MOVE_OMINOUS_WIND | TUTOR_MOVE_PSYBEAM | TUTOR_MOVE_SILVER_WIND | TUTOR_MOVE_DUAL_WINGBEAT | TUTOR_MOVE_POUNCE,\
+TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HURRICANE
+
+tutordata SPECIES_WEEDLE,\
+TUTOR_MOVE_ELECTROWEB,\
+0
+
+tutordata SPECIES_KAKUNA,\
+TUTOR_MOVE_ELECTROWEB,\
+0
+
+// NEW: Cross Poison, Dual Wingbeat (HOME), Megahorn, Outrage, Pounce
+tutordata SPECIES_BEEDRILL,\
+TUTOR_MOVE_AIR_CUTTER | TUTOR_MOVE_BRUTAL_SWING | TUTOR_MOVE_ELECTROWEB | TUTOR_MOVE_OMINOUS_WIND | TUTOR_MOVE_SILVER_WIND | TUTOR_MOVE_DRILL_RUN | TUTOR_MOVE_CROSS_POISON | TUTOR_MOVE_DUAL_WINGBEAT | TUTOR_MOVE_POUNCE,\
+TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_MEGAHORN | TUTOR_MOVE_OUTRAGE
+
+// NEW: Dual Wingbeat (HOME), Hyper Voice
+tutordata SPECIES_PIDGEY,\
+TUTOR_MOVE_AIR_CUTTER | TUTOR_MOVE_OMINOUS_WIND | TUTOR_MOVE_HEAT_WAVE | TUTOR_MOVE_DUAL_WINGBEAT,\
+TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HURRICANE | TUTOR_MOVE_HYPER_VOICE
+
+// NEW: Dual Wingbeat (HOME), Hyper Voice
+tutordata SPECIES_PIDGEOTTO,\
+TUTOR_MOVE_AIR_CUTTER | TUTOR_MOVE_OMINOUS_WIND | TUTOR_MOVE_HEAT_WAVE | TUTOR_MOVE_DUAL_WINGBEAT,\
+TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HURRICANE | TUTOR_MOVE_HYPER_VOICE
+
+// NEW: Dual Wingbeat (HOME), Hyper Voice, Icy Wind
+tutordata SPECIES_PIDGEOT,\
+TUTOR_MOVE_AIR_CUTTER | TUTOR_MOVE_OMINOUS_WIND | TUTOR_MOVE_HEAT_WAVE | TUTOR_MOVE_DUAL_WINGBEAT | TUTOR_ICY_WIND,\
+TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HURRICANE | TUTOR_MOVE_HYPER_VOICE
+
+tutordata SPECIES_RATTATA,\
+TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_SHOCK_WAVE,\
+TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_WILD_CHARGE
+
+// NEW: Close Combat (HOME), Psychic Fangs (HOME)
+tutordata SPECIES_RATICATE,\
+TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_SHOCK_WAVE,\
+TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_WILD_CHARGE | TUTOR_MOVE_CLOSE_COMBAT | TUTOR_MOVE_PSYCHIC_FANGS
+
+// NEW: Dual Wingbeat (HOME)
+tutordata SPECIES_SPEAROW,\
+TUTOR_MOVE_AIR_CUTTER | TUTOR_MOVE_OMINOUS_WIND | TUTOR_MOVE_DRILL_RUN | TUTOR_MOVE_HEAT_WAVE | TUTOR_MOVE_DUAL_WINGBEAT,\
+TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Dual Wingbeat (HOME)
+tutordata SPECIES_FEAROW,\
+TUTOR_MOVE_AIR_CUTTER | TUTOR_MOVE_OMINOUS_WIND | TUTOR_MOVE_DRILL_RUN | TUTOR_MOVE_HEAT_WAVE | TUTOR_MOVE_DUAL_WINGBEAT,\
+TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Breaking Swipe, Pounce, Power Whip
+tutordata SPECIES_EKANS,\
+TUTOR_MOVE_ACID_SPRAY | TUTOR_MOVE_BRUTAL_SWING | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_BREAKING_SWIPE | TUTOR_MOVE_POUNCE,\
+TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_GUNK_SHOT | TUTOR_MOVE_POWER_WHIP
+
+// NEW: Breaking Swipe, Pounce, Power Whip
+tutordata SPECIES_ARBOK,\
+TUTOR_MOVE_ACID_SPRAY | TUTOR_MOVE_BRUTAL_SWING | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_DRAGON_TAIL | TUTOR_MOVE_BREAKING_SWIPE | TUTOR_MOVE_POUNCE,\
+TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_GUNK_SHOT | TUTOR_MOVE_POWER_WHIP
+
+tutordata SPECIES_PIKACHU,\
+TUTOR_MOVE_DRAINING_KISS | TUTOR_MOVE_ELECTROWEB | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_CHARM,\
+TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_VOLT_SWITCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_PLAY_ROUGH | TUTOR_MOVE_WILD_CHARGE
+
+tutordata SPECIES_RAICHU,\
+TUTOR_MOVE_BRUTAL_SWING | TUTOR_MOVE_DRAINING_KISS | TUTOR_MOVE_ELECTROWEB | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_CHARM,\
+TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_VOLT_SWITCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_PLAY_ROUGH | TUTOR_MOVE_WILD_CHARGE
+
+tutordata SPECIES_SANDSHREW,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_GYRO_BALL | TUTOR_MOVE_HEADBUTT,\
+TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER
+
+tutordata SPECIES_SANDSLASH,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_GYRO_BALL | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_DRILL_RUN,\
+TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER
+
+tutordata SPECIES_NIDORAN_F,\
+TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_CHARM,\
+TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER
+
+tutordata SPECIES_NIDORINA,\
+TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_CHARM,\
+TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER
+
+tutordata SPECIES_NIDOQUEEN,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_CHARM | TUTOR_MOVE_DRAGON_TAIL | TUTOR_MOVE_DRILL_RUN | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_HEX | TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_OUTRAGE | TUTOR_MOVE_SUPERPOWER
+
+tutordata SPECIES_NIDORAN_M,\
+TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_DRILL_RUN,\
+TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER
+
+tutordata SPECIES_NIDORINO,\
+TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_DRILL_RUN,\
+TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER
+
+tutordata SPECIES_NIDOKING,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_DRAGON_TAIL | TUTOR_MOVE_DRILL_RUN | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_HEX | TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_MEGAHORN | TUTOR_MOVE_OUTRAGE | TUTOR_MOVE_SUPERPOWER
+
+// NEW: Trailblaze, Chilling Water
+tutordata SPECIES_CLEFAIRY,\
+TUTOR_MOVE_DRAINING_KISS | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_MAGICAL_LEAF | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_CHARM | TUTOR_MOVE_DUAL_WINGBEAT | TUTOR_MOVE_FIRE_PUNCH | TUTOR_MOVE_CHILLING_WATER,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_METEOR_BEAM | TUTOR_MOVE_PLAY_ROUGH | TUTOR_MOVE_STORED_POWER
+
+// NEW: Trailblaze, Chilling Water
+tutordata SPECIES_CLEFABLE,\
+TUTOR_MOVE_DRAINING_KISS | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_MAGICAL_LEAF | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_CHARM | TUTOR_MOVE_DUAL_WINGBEAT | TUTOR_MOVE_FIRE_PUNCH | TUTOR_MOVE_CHILLING_WATER,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_METEOR_BEAM | TUTOR_MOVE_PLAY_ROUGH | TUTOR_MOVE_STORED_POWER
+
+tutordata SPECIES_VULPIX,\
+TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_OMINOUS_WIND | TUTOR_MOVE_HEAT_WAVE,\
+TUTOR_MOVE_HEX | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_FLARE_BLITZ | TUTOR_MOVE_FOUL_PLAY
+
+tutordata SPECIES_NINETALES,\
+TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_OMINOUS_WIND | TUTOR_MOVE_HEAT_WAVE,\
+TUTOR_MOVE_HEX | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_FLARE_BLITZ | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_STORED_POWER
+
+tutordata SPECIES_JIGGLYPUFF,\
+TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_DRAINING_KISS | TUTOR_MOVE_GYRO_BALL | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_MAGICAL_LEAF | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_CHARM | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_PLAY_ROUGH | TUTOR_MOVE_STORED_POWER | TUTOR_MOVE_WILD_CHARGE
+
+tutordata SPECIES_WIGGLYTUFF,\
+TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_DRAINING_KISS | TUTOR_MOVE_GYRO_BALL | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_MAGICAL_LEAF | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_CHARM | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_PLAY_ROUGH | TUTOR_MOVE_STORED_POWER | TUTOR_MOVE_WILD_CHARGE
+
+tutordata SPECIES_ZUBAT,\
+TUTOR_MOVE_AIR_CUTTER | TUTOR_MOVE_OMINOUS_WIND | TUTOR_MOVE_DUAL_WINGBEAT | TUTOR_MOVE_HEAT_WAVE,\
+TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE
+
+tutordata SPECIES_GOLBAT,\
+TUTOR_MOVE_AIR_CUTTER | TUTOR_MOVE_OMINOUS_WIND | TUTOR_MOVE_DUAL_WINGBEAT | TUTOR_MOVE_HEAT_WAVE,\
+TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Trailblaze
+tutordata SPECIES_ODDISH,\
+TUTOR_MOVE_CHARM | TUTOR_MOVE_TRAILBLAZE,\
+TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Trailblaze
+tutordata SPECIES_GLOOM,\
+TUTOR_MOVE_CHARM | TUTOR_MOVE_TRAILBLAZE,\
+TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Trailblaze
+tutordata SPECIES_VILEPLUME,\
+TUTOR_MOVE_CHARM | TUTOR_MOVE_TRAILBLAZE,\
+TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Pounce, Trailblaze
+tutordata SPECIES_PARAS,\
+TUTOR_MOVE_PSYBEAM | TUTOR_MOVE_CROSS_POISON | TUTOR_MOVE_POUNCE | TUTOR_MOVE_TRAILBLAZE,\
+TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Pounce, Trailblaze
+tutordata SPECIES_PARASECT,\
+TUTOR_MOVE_PSYBEAM | TUTOR_MOVE_CROSS_POISON | TUTOR_MOVE_POUNCE | TUTOR_MOVE_TRAILBLAZE,\
+TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_DOUBLE_EDGE
+
+tutordata SPECIES_VENONAT,\
+TUTOR_MOVE_ACID_SPRAY | TUTOR_MOVE_POUNCE | TUTOR_MOVE_PSYBEAM,\
+TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Dual Wingbeat (HOME), Hurricane
+tutordata SPECIES_VENOMOTH,\
+TUTOR_MOVE_ACID_SPRAY | TUTOR_MOVE_AIR_CUTTER | TUTOR_MOVE_OMINOUS_WIND | TUTOR_MOVE_POUNCE | TUTOR_MOVE_PSYBEAM | TUTOR_MOVE_SILVER_WIND | TUTOR_MOVE_DUAL_WINGBEAT,\
+TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HURRICANE
+
+tutordata SPECIES_DIGLETT,\
+TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_CHARM,\
+TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_FOUL_PLAY
+
+tutordata SPECIES_DUGTRIO,\
+TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_CHARM,\
+TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_FOUL_PLAY
+
+tutordata SPECIES_MEOWTH,\
+TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_CHARM,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_POWER_GEM | TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_GUNK_SHOT | TUTOR_MOVE_PLAY_ROUGH
+
+tutordata SPECIES_PERSIAN,\
+TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_CHARM,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_POWER_GEM | TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_GUNK_SHOT | TUTOR_MOVE_PLAY_ROUGH
+
+tutordata SPECIES_PSYDUCK,\
+TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_PSYBEAM | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AQUA_TAIL,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HYDRO_PUMP
+
+tutordata SPECIES_GOLDUCK,\
+TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_PSYBEAM | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_FLIP_TURN,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_POWER_GEM | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HYDRO_PUMP
+
+tutordata SPECIES_MANKEY,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_CLOSE_COMBAT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_GUNK_SHOT | TUTOR_MOVE_OUTRAGE
+
+tutordata SPECIES_PRIMEAPE,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_CLOSE_COMBAT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_GUNK_SHOT | TUTOR_MOVE_OUTRAGE
+
+tutordata SPECIES_GROWLITHE,\
+TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_CHARM | TUTOR_MOVE_HEAT_WAVE,\
+TUTOR_MOVE_PSYCHIC_FANGS | TUTOR_MOVE_CLOSE_COMBAT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_FLARE_BLITZ | TUTOR_MOVE_OUTRAGE | TUTOR_MOVE_PLAY_ROUGH | TUTOR_MOVE_WILD_CHARGE
+
+tutordata SPECIES_ARCANINE,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_CHARM | TUTOR_MOVE_HEAT_WAVE,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_PSYCHIC_FANGS | TUTOR_MOVE_CLOSE_COMBAT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_FLARE_BLITZ | TUTOR_MOVE_OUTRAGE | TUTOR_MOVE_PLAY_ROUGH | TUTOR_MOVE_WILD_CHARGE
+
+// NEW: Chilling Water
+tutordata SPECIES_POLIWAG,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_CHILLING_WATER,\
+TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_HYDRO_PUMP
+
+// NEW: Chilling Water
+tutordata SPECIES_POLIWHIRL,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_CHILLING_WATER,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_HYDRO_PUMP
+
+// NEW: Chilling Water
+tutordata SPECIES_POLIWRATH,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_CHILLING_WATER,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_CLOSE_COMBAT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_HYDRO_PUMP | TUTOR_MOVE_SUPERPOWER
+
+tutordata SPECIES_ABRA,\
+TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_FOUL_PLAY
+
+tutordata SPECIES_KADABRA,\
+TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_PSYBEAM | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_FOUL_PLAY
+
+// NEW: Aura Sphere
+tutordata SPECIES_ALAKAZAM,\
+TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_PSYBEAM | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_FIRE_PUNCH | TUTOR_MOVE_AURA_SPHERE,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_STORED_POWER
+
+tutordata SPECIES_MACHOP,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_CLOSE_COMBAT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HEAVY_SLAM | TUTOR_MOVE_SUPERPOWER
+
+tutordata SPECIES_MACHOKE,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_CLOSE_COMBAT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HEAVY_SLAM | TUTOR_MOVE_SUPERPOWER
+
+tutordata SPECIES_MACHAMP,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_CROSS_POISON | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_CLOSE_COMBAT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HEAVY_SLAM | TUTOR_MOVE_SUPERPOWER
+
+// NEW: Trailblaze
+tutordata SPECIES_BELLSPROUT,\
+TUTOR_MOVE_ACID_SPRAY | TUTOR_MOVE_MAGICAL_LEAF | TUTOR_MOVE_TRAILBLAZE,\
+TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_POWER_WHIP
+
+// NEW: Trailblaze
+tutordata SPECIES_WEEPINBELL,\
+TUTOR_MOVE_ACID_SPRAY | TUTOR_MOVE_MAGICAL_LEAF | TUTOR_MOVE_TRAILBLAZE,\
+TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_POWER_WHIP
+
+// NEW: Trailblaze
+tutordata SPECIES_VICTREEBEL,\
+TUTOR_MOVE_ACID_SPRAY | TUTOR_MOVE_MAGICAL_LEAF | TUTOR_MOVE_TRAILBLAZE,\
+TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_POWER_WHIP
+
+// NEW: Chilling Water
+tutordata SPECIES_TENTACOOL,\
+TUTOR_MOVE_ACID_SPRAY | TUTOR_MOVE_BRUTAL_SWING | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_CROSS_POISON | TUTOR_MOVE_CHILLING_WATER,\
+TUTOR_MOVE_HEX | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HYDRO_PUMP
+
+// NEW: Chilling Water, Power Whip
+tutordata SPECIES_TENTACRUEL,\
+TUTOR_MOVE_ACID_SPRAY | TUTOR_MOVE_BRUTAL_SWING | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_CROSS_POISON | TUTOR_MOVE_CHILLING_WATER,\
+TUTOR_MOVE_HEX | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HYDRO_PUMP | TUTOR_MOVE_POWER_WHIP
+
+tutordata SPECIES_GEODUDE,\
+TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_GYRO_BALL | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_SUPERPOWER
+
+tutordata SPECIES_GRAVELER,\
+TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_GYRO_BALL | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_SUPERPOWER
+
+// NEW: Meteor Beam
+tutordata SPECIES_GOLEM,\
+TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_GYRO_BALL | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_HEAVY_SLAM | TUTOR_MOVE_SUPERPOWER | TUTOR_MOVE_METEOR_BEAM
+
+// NEW: Trailblaze
+tutordata SPECIES_PONYTA,\
+TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_CHARM | TUTOR_MOVE_HEAT_WAVE | TUTOR_MOVE_TRAILBLAZE,\
+TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_FLARE_BLITZ | TUTOR_MOVE_PLAY_ROUGH | TUTOR_MOVE_WILD_CHARGE
+
+// NEW: Trailblaze
+tutordata SPECIES_RAPIDASH,\
+TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_CHARM | TUTOR_MOVE_DRILL_RUN | TUTOR_MOVE_HEAT_WAVE | TUTOR_MOVE_TRAILBLAZE,\
+TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_FLARE_BLITZ | TUTOR_MOVE_MEGAHORN | TUTOR_MOVE_PLAY_ROUGH | TUTOR_MOVE_WILD_CHARGE
+
+tutordata SPECIES_SLOWPOKE,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_PSYBEAM | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AQUA_TAIL,\
+TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_HYDRO_PUMP | TUTOR_MOVE_STORED_POWER
+
+tutordata SPECIES_SLOWBRO,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_PSYBEAM | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AQUA_TAIL,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_HYDRO_PUMP | TUTOR_MOVE_STORED_POWER
+
+tutordata SPECIES_MAGNEMITE,\
+TUTOR_MOVE_ELECTROWEB | TUTOR_MOVE_GYRO_BALL | TUTOR_MOVE_SHOCK_WAVE,\
+TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_VOLT_SWITCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HEAVY_SLAM | TUTOR_MOVE_WILD_CHARGE
+
+tutordata SPECIES_MAGNETON,\
+TUTOR_MOVE_ELECTROWEB | TUTOR_MOVE_GYRO_BALL | TUTOR_MOVE_SHOCK_WAVE,\
+TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_VOLT_SWITCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HEAVY_SLAM | TUTOR_MOVE_WILD_CHARGE
+
+tutordata SPECIES_FARFETCHD,\
+TUTOR_MOVE_AIR_CUTTER | TUTOR_MOVE_BRUTAL_SWING | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_OMINOUS_WIND | TUTOR_MOVE_DUAL_WINGBEAT | TUTOR_MOVE_HEAT_WAVE,\
+TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_CLOSE_COMBAT | TUTOR_MOVE_DOUBLE_EDGE
+
+tutordata SPECIES_DODUO,\
+TUTOR_MOVE_AIR_CUTTER,\
+TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_DOUBLE_EDGE
+
+tutordata SPECIES_DODRIO,\
+TUTOR_MOVE_AIR_CUTTER,\
+TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Chilling Water, Flip Turn (HOME), Megahorn (LGPE), Play Rough
+tutordata SPECIES_SEEL,\
+TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_DRILL_RUN | TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_FLIP_TURN,\
+TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_MEGAHORN | TUTOR_MOVE_PLAY_ROUGH
+
+// NEW: Chilling Water, Flip Turn (HOME), Megahorn (LGPE), Play Rough, Triple Axel (HOME), Hydro Pump (HOME)
+tutordata SPECIES_DEWGONG,\
+TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_DRILL_RUN | TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_FLIP_TURN,\
+TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_MEGAHORN | TUTOR_MOVE_PLAY_ROUGH | TUTOR_MOVE_TRIPLE_AXEL | TUTOR_MOVE_HYDRO_PUMP
+
+tutordata SPECIES_GRIMER,\
+TUTOR_MOVE_ACID_SPRAY | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_HEX | TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_GUNK_SHOT
+
+tutordata SPECIES_MUK,\
+TUTOR_MOVE_ACID_SPRAY | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_HEX | TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_GUNK_SHOT
+
+tutordata SPECIES_SHELLDER,\
+TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_WATER_PULSE,\
+TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HYDRO_PUMP
+
+tutordata SPECIES_CLOYSTER,\
+TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_DRILL_RUN,\
+TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HYDRO_PUMP
+
+tutordata SPECIES_GASTLY,\
+TUTOR_MOVE_ACID_SPRAY | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_OMINOUS_WIND | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_HEX | TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_GUNK_SHOT | TUTOR_MOVE_POLTERGEIST
+
+tutordata SPECIES_HAUNTER,\
+TUTOR_MOVE_ACID_SPRAY | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_OMINOUS_WIND | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_HEX | TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_GUNK_SHOT | TUTOR_MOVE_POLTERGEIST
+
+tutordata SPECIES_GENGAR,\
+TUTOR_MOVE_ACID_SPRAY | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_OMINOUS_WIND | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_HEX | TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_GUNK_SHOT | TUTOR_MOVE_POLTERGEIST
+
+// NEW: Power Whip
+tutordata SPECIES_ONIX,\
+TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_BREAKING_SWIPE | TUTOR_MOVE_BRUTAL_SWING | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_GYRO_BALL | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_DRAGON_TAIL | TUTOR_MOVE_DRILL_RUN,\
+TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_HEAVY_SLAM | TUTOR_MOVE_METEOR_BEAM | TUTOR_MOVE_POWER_WHIP
+
+tutordata SPECIES_DROWZEE,\
+TUTOR_MOVE_DRAINING_KISS | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_PSYBEAM | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_STORED_POWER
+
+tutordata SPECIES_HYPNO,\
+TUTOR_MOVE_DRAINING_KISS | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_PSYBEAM | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_HEX | TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_STORED_POWER
+
+// NEW: Chilling Water
+tutordata SPECIES_KRABBY,\
+TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_CHILLING_WATER,\
+TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_SUPERPOWER
+
+// NEW: Chilling Water
+tutordata SPECIES_KINGLER,\
+TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_BRUTAL_SWING | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_CHILLING_WATER,\
+TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HYDRO_PUMP | TUTOR_MOVE_SUPERPOWER
+
+tutordata SPECIES_VOLTORB,\
+TUTOR_MOVE_GYRO_BALL | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_SHOCK_WAVE,\
+TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_VOLT_SWITCH | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_WILD_CHARGE
+
+tutordata SPECIES_ELECTRODE,\
+TUTOR_MOVE_GYRO_BALL | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_SHOCK_WAVE,\
+TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_VOLT_SWITCH | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_WILD_CHARGE
+
+tutordata SPECIES_EXEGGCUTE,\
+TUTOR_MOVE_ANCIENT_POWER,\
+TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_DOUBLE_EDGE
+
+tutordata SPECIES_EXEGGUTOR,\
+TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_MAGICAL_LEAF,\
+TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE
+
+tutordata SPECIES_CUBONE,\
+TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_BRUTAL_SWING | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER
+
+tutordata SPECIES_MAROWAK,\
+TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_BRUTAL_SWING | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_OUTRAGE
+
+tutordata SPECIES_HITMONLEE,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_AURA_SPHERE,\
+TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_CLOSE_COMBAT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_SUPERPOWER
+
+tutordata SPECIES_HITMONCHAN,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_AURA_SPHERE | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_CLOSE_COMBAT | TUTOR_MOVE_DOUBLE_EDGE
+
+tutordata SPECIES_LICKITUNG,\
+TUTOR_MOVE_BRUTAL_SWING | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_DRAGON_TAIL | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HYDRO_PUMP | TUTOR_MOVE_POWER_WHIP
+
+// NEW: Gunk Shot
+tutordata SPECIES_KOFFING,\
+TUTOR_MOVE_GYRO_BALL | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_PSYBEAM | TUTOR_MOVE_SHOCK_WAVE,\
+TUTOR_MOVE_GUNK_SHOT
+
+tutordata SPECIES_WEEZING,\
+TUTOR_MOVE_GYRO_BALL | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_PSYBEAM | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_HEAT_WAVE,\
+TUTOR_MOVE_GUNK_SHOT
+
+tutordata SPECIES_RHYHORN,\
+TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_DRILL_RUN,\
+TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_MEGAHORN | TUTOR_MOVE_SUPERPOWER
+
+tutordata SPECIES_RHYDON,\
+TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_BREAKING_SWIPE | TUTOR_MOVE_BRUTAL_SWING | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_DRAGON_TAIL | TUTOR_MOVE_DRILL_RUN | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_HEAVY_SLAM | TUTOR_MOVE_HYDRO_PUMP | TUTOR_MOVE_MEGAHORN | TUTOR_MOVE_METEOR_BEAM | TUTOR_MOVE_OUTRAGE | TUTOR_MOVE_SUPERPOWER
+
+tutordata SPECIES_CHANSEY,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_CHARM | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_STORED_POWER | TUTOR_MOVE_WILD_CHARGE
+
+// NEW: Trailblaze
+tutordata SPECIES_TANGELA,\
+TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_TRAILBLAZE,\
+TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_POWER_WHIP
+
+tutordata SPECIES_KANGASKHAN,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HYDRO_PUMP | TUTOR_MOVE_OUTRAGE
+
+// NEW: Chilling Water
+tutordata SPECIES_HORSEA,\
+TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_FLIP_TURN | TUTOR_MOVE_CHILLING_WATER,\
+TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HYDRO_PUMP | TUTOR_MOVE_OUTRAGE
+
+// NEW: Chilling Water
+tutordata SPECIES_SEADRA,\
+TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_FLIP_TURN | TUTOR_MOVE_CHILLING_WATER,\
+TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HYDRO_PUMP | TUTOR_MOVE_OUTRAGE
+
+tutordata SPECIES_GOLDEEN,\
+TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_PSYBEAM | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_DRILL_RUN | TUTOR_MOVE_FLIP_TURN,\
+TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HYDRO_PUMP | TUTOR_MOVE_MEGAHORN
+
+tutordata SPECIES_SEAKING,\
+TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_DRILL_RUN | TUTOR_MOVE_FLIP_TURN,\
+TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HYDRO_PUMP | TUTOR_MOVE_MEGAHORN
+
+// NEW: Chilling Water
+tutordata SPECIES_STARYU,\
+TUTOR_MOVE_GYRO_BALL | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_PSYBEAM | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_FLIP_TURN | TUTOR_MOVE_CHILLING_WATER,\
+TUTOR_MOVE_POWER_GEM | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HYDRO_PUMP
+
+// NEW: Chilling Water
+tutordata SPECIES_STARMIE,\
+TUTOR_MOVE_GYRO_BALL | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_PSYBEAM | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_FLIP_TURN | TUTOR_MOVE_CHILLING_WATER,\
+TUTOR_MOVE_POWER_GEM | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HYDRO_PUMP | TUTOR_MOVE_METEOR_BEAM
+
+tutordata SPECIES_MR_MIME,\
+TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_MAGICAL_LEAF | TUTOR_MOVE_PSYBEAM | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_CHARM | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_STORED_POWER
+
+tutordata SPECIES_SCYTHER,\
+TUTOR_MOVE_AIR_CUTTER | TUTOR_MOVE_BRUTAL_SWING | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_OMINOUS_WIND | TUTOR_MOVE_POUNCE | TUTOR_MOVE_SILVER_WIND | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_CROSS_POISON | TUTOR_MOVE_DUAL_WINGBEAT,\
+TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_CLOSE_COMBAT | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Chilling Water
+tutordata SPECIES_JYNX,\
+TUTOR_MOVE_DRAINING_KISS | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_CHARM | TUTOR_MOVE_CHILLING_WATER,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_STORED_POWER | TUTOR_MOVE_TRIPLE_AXEL
+
+tutordata SPECIES_ELECTABUZZ,\
+TUTOR_MOVE_ELECTROWEB | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_VOLT_SWITCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_WILD_CHARGE
+
+tutordata SPECIES_MAGMAR,\
+TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_FIRE_PUNCH | TUTOR_MOVE_HEAT_WAVE,\
+TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_FLARE_BLITZ
+
+// NEW: Megahorn, Outrage (LGPE), Pounce
+tutordata SPECIES_PINSIR,\
+TUTOR_MOVE_BRUTAL_SWING | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_POUNCE,\
+TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_CLOSE_COMBAT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_SUPERPOWER | TUTOR_MOVE_MEGAHORN | TUTOR_MOVE_OUTRAGE
+
+// NEW: Flare Blitz
+tutordata SPECIES_TAUROS,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_WATER_PULSE,\
+TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_CLOSE_COMBAT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_MEGAHORN | TUTOR_MOVE_OUTRAGE | TUTOR_MOVE_WILD_CHARGE | TUTOR_MOVE_FLARE_BLITZ
+
+tutordata SPECIES_MAGIKARP,\
+0,\
+TUTOR_MOVE_HYDRO_PUMP
+
+tutordata SPECIES_GYARADOS,\
+TUTOR_MOVE_BRUTAL_SWING | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_DRAGON_TAIL,\
+TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HURRICANE | TUTOR_MOVE_HYDRO_PUMP | TUTOR_MOVE_OUTRAGE | TUTOR_MOVE_POWER_WHIP
+
+// NEW: Chilling Water
+tutordata SPECIES_LAPRAS,\
+TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_CHARM | TUTOR_MOVE_DRILL_RUN | TUTOR_MOVE_CHILLING_WATER,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HYDRO_PUMP | TUTOR_MOVE_MEGAHORN | TUTOR_MOVE_OUTRAGE
+
+tutordata SPECIES_DITTO,\
+0,\
+0
+
+tutordata SPECIES_EEVEE,\
+TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_CHARM,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_STORED_POWER
+
+tutordata SPECIES_VAPOREON,\
+TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_CHARM | TUTOR_MOVE_FLIP_TURN,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HYDRO_PUMP | TUTOR_MOVE_STORED_POWER
+
+tutordata SPECIES_JOLTEON,\
+TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_CHARM,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_VOLT_SWITCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_STORED_POWER | TUTOR_MOVE_WILD_CHARGE
+
+// NEW: Wild Charge, Play Rough
+tutordata SPECIES_FLAREON,\
+TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_CHARM | TUTOR_MOVE_HEAT_WAVE,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_FLARE_BLITZ | TUTOR_MOVE_STORED_POWER | TUTOR_MOVE_SUPERPOWER | TUTOR_MOVE_WILD_CHARGE | TUTOR_MOVE_PLAY_ROUGH
+
+tutordata SPECIES_PORYGON,\
+TUTOR_MOVE_ELECTROWEB | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_PSYBEAM | TUTOR_MOVE_SHOCK_WAVE,\
+TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_FOUL_PLAY
+
+// NEW: Chilling Water, Power Gem
+tutordata SPECIES_OMANYTE,\
+TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_GYRO_BALL | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_CHILLING_WATER,\
+TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_HYDRO_PUMP | TUTOR_MOVE_METEOR_BEAM | TUTOR_MOVE_POWER_GEM
+
+// NEW: Chilling Water, Power Gem
+tutordata SPECIES_OMASTAR,\
+TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_GYRO_BALL | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_CHILLING_WATER,\
+TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_HYDRO_PUMP | TUTOR_MOVE_METEOR_BEAM | TUTOR_MOVE_POWER_GEM
+
+// NEW: Chilling Water
+tutordata SPECIES_KABUTO,\
+TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_CHILLING_WATER,\
+TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_HYDRO_PUMP | TUTOR_MOVE_METEOR_BEAM
+
+// NEW: Chilling Water
+tutordata SPECIES_KABUTOPS,\
+TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_CROSS_POISON | TUTOR_MOVE_FLIP_TURN | TUTOR_MOVE_CHILLING_WATER,\
+TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_HYDRO_PUMP | TUTOR_MOVE_METEOR_BEAM | TUTOR_MOVE_SUPERPOWER
+
+tutordata SPECIES_AERODACTYL,\
+TUTOR_MOVE_AIR_CUTTER | TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_BRUTAL_SWING | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_OMINOUS_WIND | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_DUAL_WINGBEAT | TUTOR_MOVE_HEAT_WAVE,\
+TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_PSYCHIC_FANGS | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_HURRICANE | TUTOR_MOVE_METEOR_BEAM
+
+tutordata SPECIES_SNORLAX,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_CHARM | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_GUNK_SHOT | TUTOR_MOVE_HEAVY_SLAM | TUTOR_MOVE_HYDRO_PUMP | TUTOR_MOVE_OUTRAGE | TUTOR_MOVE_SUPERPOWER | TUTOR_MOVE_WILD_CHARGE
+
+tutordata SPECIES_ARTICUNO,\
+TUTOR_MOVE_AIR_CUTTER | TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_OMINOUS_WIND | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_DUAL_WINGBEAT,\
+TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HURRICANE | TUTOR_MOVE_TRIPLE_AXEL
+
+tutordata SPECIES_ZAPDOS,\
+TUTOR_MOVE_AIR_CUTTER | TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_OMINOUS_WIND | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_DUAL_WINGBEAT | TUTOR_MOVE_HEAT_WAVE,\
+TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_VOLT_SWITCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HURRICANE | TUTOR_MOVE_WILD_CHARGE
+
+tutordata SPECIES_MOLTRES,\
+TUTOR_MOVE_AIR_CUTTER | TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_OMINOUS_WIND | TUTOR_MOVE_DUAL_WINGBEAT | TUTOR_MOVE_HEAT_WAVE,\
+TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_FLARE_BLITZ | TUTOR_MOVE_HURRICANE
+
+tutordata SPECIES_DRATINI,\
+TUTOR_MOVE_BREAKING_SWIPE | TUTOR_MOVE_BRUTAL_SWING | TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_DRAGON_TAIL,\
+TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HYDRO_PUMP | TUTOR_MOVE_OUTRAGE
+
+tutordata SPECIES_DRAGONAIR,\
+TUTOR_MOVE_BREAKING_SWIPE | TUTOR_MOVE_BRUTAL_SWING | TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_DRAGON_TAIL,\
+TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HYDRO_PUMP | TUTOR_MOVE_OUTRAGE
+
+tutordata SPECIES_DRAGONITE,\
+TUTOR_MOVE_AIR_CUTTER | TUTOR_MOVE_BREAKING_SWIPE | TUTOR_MOVE_BRUTAL_SWING | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_OMINOUS_WIND | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_DRAGON_TAIL | TUTOR_MOVE_DUAL_WINGBEAT | TUTOR_MOVE_FIRE_PUNCH | TUTOR_MOVE_HEAT_WAVE,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HURRICANE | TUTOR_MOVE_HYDRO_PUMP | TUTOR_MOVE_OUTRAGE | TUTOR_MOVE_SUPERPOWER
+
+tutordata SPECIES_MEWTWO,\
+TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_BRUTAL_SWING | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_PSYBEAM | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_AURA_SPHERE | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_HEX | TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_POWER_GEM | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_HURRICANE | TUTOR_MOVE_STORED_POWER
+
+tutordata SPECIES_MEW,\
+TUTOR_MOVE_ACID_SPRAY | TUTOR_MOVE_AIR_CUTTER | TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_BREAKING_SWIPE | TUTOR_MOVE_BRUTAL_SWING | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_DRAINING_KISS | TUTOR_MOVE_ELECTROWEB | TUTOR_MOVE_GYRO_BALL | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_MAGICAL_LEAF | TUTOR_MOVE_OMINOUS_WIND | TUTOR_MOVE_POUNCE | TUTOR_MOVE_PSYBEAM | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_SILVER_WIND | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_AURA_SPHERE | TUTOR_MOVE_CHARM | TUTOR_MOVE_CROSS_POISON | TUTOR_MOVE_DRAGON_TAIL | TUTOR_MOVE_DRILL_RUN | TUTOR_MOVE_DUAL_WINGBEAT | TUTOR_MOVE_FIRE_PUNCH | TUTOR_MOVE_FLIP_TURN | TUTOR_MOVE_HEAT_WAVE,\
+TUTOR_MOVE_HEX | TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_POWER_GEM | TUTOR_MOVE_PSYCHIC_FANGS | TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_VOLT_SWITCH | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_CLOSE_COMBAT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_FLARE_BLITZ | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_GUNK_SHOT | TUTOR_MOVE_HEAVY_SLAM | TUTOR_MOVE_HURRICANE | TUTOR_MOVE_HYDRO_PUMP | TUTOR_MOVE_MEGAHORN | TUTOR_MOVE_METEOR_BEAM | TUTOR_MOVE_OUTRAGE | TUTOR_MOVE_PLAY_ROUGH | TUTOR_MOVE_POLTERGEIST | TUTOR_MOVE_POWER_WHIP | TUTOR_MOVE_STORED_POWER | TUTOR_MOVE_SUPERPOWER | TUTOR_MOVE_TRIPLE_AXEL | TUTOR_MOVE_WILD_CHARGE
+
+// NEW: Draining Kiss, Play Rough, Trailblaze
+tutordata SPECIES_CHIKORITA,\
+TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_MAGICAL_LEAF | TUTOR_MOVE_DRAINING_KISS | TUTOR_MOVE_TRAILBLAZE,\
+TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_PLAY_ROUGH
+
+// NEW: Draining Kiss, Play Rough, Trailblaze
+tutordata SPECIES_BAYLEEF,\
+TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_MAGICAL_LEAF | TUTOR_MOVE_DRAINING_KISS | TUTOR_MOVE_TRAILBLAZE,\
+TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_PLAY_ROUGH
+
+// NEW: Draining Kiss, Play Rough, Trailblaze, Power Whip
+tutordata SPECIES_MEGANIUM,\
+TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_MAGICAL_LEAF | TUTOR_MOVE_DRAGON_TAIL | TUTOR_MOVE_DRAINING_KISS | TUTOR_MOVE_TRAILBLAZE,\
+TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_OUTRAGE | TUTOR_MOVE_PLAY_ROUGH | TUTOR_MOVE_POWER_WHIP
+
+tutordata SPECIES_CYNDAQUIL,\
+TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_HEAT_WAVE,\
+TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_FLARE_BLITZ | TUTOR_MOVE_PLAY_ROUGH | TUTOR_MOVE_WILD_CHARGE
+
+tutordata SPECIES_QUILAVA,\
+TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_HEAT_WAVE,\
+TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_FLARE_BLITZ | TUTOR_MOVE_PLAY_ROUGH | TUTOR_MOVE_WILD_CHARGE
+
+// NEW: Earth Power
+tutordata SPECIES_TYPHLOSION,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_GYRO_BALL | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_FIRE_PUNCH | TUTOR_MOVE_HEAT_WAVE,\
+TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_FLARE_BLITZ | TUTOR_MOVE_PLAY_ROUGH | TUTOR_MOVE_WILD_CHARGE | TUTOR_MOVE_EARTH_POWER
+
+// NEW: Chilling Water
+tutordata SPECIES_TOTODILE,\
+TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_CHILLING_WATER,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HYDRO_PUMP | TUTOR_MOVE_SUPERPOWER
+
+// NEW: Chilling Water
+tutordata SPECIES_CROCONAW,\
+TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_CHILLING_WATER,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HYDRO_PUMP | TUTOR_MOVE_SUPERPOWER
+
+// NEW: Chilling Water, Flip Turn, Breaking Swipe (HOME), Psychic Fangs (HOME)
+tutordata SPECIES_FERALIGATR,\
+TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_DRAGON_TAIL | TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_FLIP_TURN | TUTOR_MOVE_BREAKING_SWIPE,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HYDRO_PUMP | TUTOR_MOVE_OUTRAGE | TUTOR_MOVE_SUPERPOWER | TUTOR_MOVE_PSYCHIC_FANGS
+
+// NEW: Play Rough
+tutordata SPECIES_SENTRET,\
+TUTOR_MOVE_BRUTAL_SWING | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_CHARM | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_PLAY_ROUGH
+
+// NEW: Play Rough, Power Whip
+tutordata SPECIES_FURRET,\
+TUTOR_MOVE_BRUTAL_SWING | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_CHARM | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_PLAY_ROUGH | TUTOR_MOVE_POWER_WHIP
+
+tutordata SPECIES_HOOTHOOT,\
+TUTOR_MOVE_AIR_CUTTER | TUTOR_MOVE_OMINOUS_WIND | TUTOR_MOVE_SILVER_WIND | TUTOR_MOVE_DUAL_WINGBEAT | TUTOR_MOVE_HEAT_WAVE,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HURRICANE | TUTOR_MOVE_STORED_POWER
+
+tutordata SPECIES_NOCTOWL,\
+TUTOR_MOVE_AIR_CUTTER | TUTOR_MOVE_OMINOUS_WIND | TUTOR_MOVE_SILVER_WIND | TUTOR_MOVE_DUAL_WINGBEAT | TUTOR_MOVE_HEAT_WAVE,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HURRICANE | TUTOR_MOVE_STORED_POWER
+
+// NEW: Dual Wingbeat (HOME), Pounce
+tutordata SPECIES_LEDYBA,\
+TUTOR_MOVE_AIR_CUTTER | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_OMINOUS_WIND | TUTOR_MOVE_PSYBEAM | TUTOR_MOVE_SILVER_WIND | TUTOR_MOVE_DUAL_WINGBEAT | TUTOR_MOVE_POUNCE,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Dual Wingbeat (HOME), Pounce
+tutordata SPECIES_LEDIAN,\
+TUTOR_MOVE_AIR_CUTTER | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_OMINOUS_WIND | TUTOR_MOVE_PSYBEAM | TUTOR_MOVE_SILVER_WIND | TUTOR_MOVE_DUAL_WINGBEAT | TUTOR_MOVE_POUNCE,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Gunk Shot, Pounce, Psychic Fangs
+tutordata SPECIES_SPINARAK,\
+TUTOR_MOVE_ELECTROWEB | TUTOR_MOVE_PSYBEAM | TUTOR_MOVE_CROSS_POISON | TUTOR_MOVE_POUNCE,\
+TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_MEGAHORN | TUTOR_MOVE_GUNK_SHOT | TUTOR_MOVE_PSYCHIC_FANGS
+
+// NEW: Gunk Shot, Pounce, Psychic Fangs, Drill Run
+tutordata SPECIES_ARIADOS,\
+TUTOR_MOVE_ELECTROWEB | TUTOR_MOVE_PSYBEAM | TUTOR_MOVE_CROSS_POISON | TUTOR_MOVE_POUNCE | TUTOR_MOVE_DRILL_RUN,\
+TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_MEGAHORN | TUTOR_MOVE_GUNK_SHOT | TUTOR_MOVE_POUNCE
+
+tutordata SPECIES_CROBAT,\
+TUTOR_MOVE_AIR_CUTTER | TUTOR_MOVE_OMINOUS_WIND | TUTOR_MOVE_CROSS_POISON | TUTOR_MOVE_DUAL_WINGBEAT | TUTOR_MOVE_HEAT_WAVE,\
+TUTOR_MOVE_HEX | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HURRICANE
+
+// NEW: Chilling Water
+tutordata SPECIES_CHINCHOU,\
+TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_PSYBEAM | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_CHILLING_WATER,\
+TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_VOLT_SWITCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HYDRO_PUMP | TUTOR_MOVE_WILD_CHARGE
+
+// NEW: Chilling Water
+tutordata SPECIES_LANTURN,\
+TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_PSYBEAM | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_CHILLING_WATER,\
+TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_VOLT_SWITCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HYDRO_PUMP | TUTOR_MOVE_WILD_CHARGE
+
+tutordata SPECIES_PICHU,\
+TUTOR_MOVE_ELECTROWEB | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_CHARM,\
+TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_VOLT_SWITCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_PLAY_ROUGH | TUTOR_MOVE_WILD_CHARGE
+
+// NEW: Trailblaze
+tutordata SPECIES_CLEFFA,\
+TUTOR_MOVE_DRAINING_KISS | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_MAGICAL_LEAF | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_CHARM,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_PLAY_ROUGH | TUTOR_MOVE_STORED_POWER
+
+tutordata SPECIES_IGGLYBUFF,\
+TUTOR_MOVE_DRAINING_KISS | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_CHARM,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_PLAY_ROUGH | TUTOR_MOVE_WILD_CHARGE
+
+tutordata SPECIES_TOGEPI,\
+TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_DRAINING_KISS | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_CHARM,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_PLAY_ROUGH | TUTOR_MOVE_STORED_POWER
+
+tutordata SPECIES_TOGETIC,\
+TUTOR_MOVE_AIR_CUTTER | TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_DRAINING_KISS | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_MAGICAL_LEAF | TUTOR_MOVE_OMINOUS_WIND | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_SILVER_WIND | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_CHARM | TUTOR_MOVE_DUAL_WINGBEAT | TUTOR_MOVE_HEAT_WAVE,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_PLAY_ROUGH | TUTOR_MOVE_STORED_POWER
+
+tutordata SPECIES_NATU,\
+TUTOR_MOVE_AIR_CUTTER | TUTOR_MOVE_OMINOUS_WIND | TUTOR_MOVE_SILVER_WIND | TUTOR_MOVE_DUAL_WINGBEAT | TUTOR_MOVE_HEAT_WAVE,\
+TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_STORED_POWER
+
+// NEW: Hurricane
+tutordata SPECIES_XATU,\
+TUTOR_MOVE_AIR_CUTTER | TUTOR_MOVE_OMINOUS_WIND | TUTOR_MOVE_SILVER_WIND | TUTOR_MOVE_DUAL_WINGBEAT | TUTOR_MOVE_HEAT_WAVE,\
+TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_STORED_POWER | TUTOR_MOVE_HURRICANE
+
+tutordata SPECIES_MAREEP,\
+TUTOR_MOVE_ELECTROWEB | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_TRAILBLAZE,\
+TUTOR_MOVE_POWER_GEM | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_VOLT_SWITCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_WILD_CHARGE
+
+tutordata SPECIES_FLAAFFY,\
+TUTOR_MOVE_ELECTROWEB | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_POWER_GEM | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_VOLT_SWITCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_WILD_CHARGE
+
+tutordata SPECIES_AMPHAROS,\
+TUTOR_MOVE_BRUTAL_SWING | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_ELECTROWEB | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_DRAGON_TAIL | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_POWER_GEM | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_VOLT_SWITCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_OUTRAGE | TUTOR_MOVE_WILD_CHARGE
+
+// NEW: Trailblaze
+tutordata SPECIES_BELLOSSOM,\
+TUTOR_MOVE_MAGICAL_LEAF | TUTOR_MOVE_CHARM | TUTOR_MOVE_TRAILBLAZE,\
+TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_PLAY_ROUGH
+
+tutordata SPECIES_MARILL,\
+TUTOR_MOVE_BRUTAL_SWING | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_DRAINING_KISS | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_CHARM,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HYDRO_PUMP | TUTOR_MOVE_PLAY_ROUGH | TUTOR_MOVE_SUPERPOWER
+
+tutordata SPECIES_AZUMARILL,\
+TUTOR_MOVE_BRUTAL_SWING | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_DRAINING_KISS | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_CHARM,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HYDRO_PUMP | TUTOR_MOVE_PLAY_ROUGH | TUTOR_MOVE_SUPERPOWER
+
+tutordata SPECIES_SUDOWOODO,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_POWER_GEM | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_METEOR_BEAM
+
+// NEW: Chilling Water
+tutordata SPECIES_POLITOED,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_CHILLING_WATER,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_HYDRO_PUMP
+
+// NEW: Hyper Voice
+tutordata SPECIES_HOPPIP,\
+TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_MAGICAL_LEAF | TUTOR_MOVE_SILVER_WIND | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_CHARM,\
+TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HYPER_VOICE
+
+// NEW: Hyper Voice
+tutordata SPECIES_SKIPLOOM,\
+TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_MAGICAL_LEAF | TUTOR_MOVE_SILVER_WIND | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_CHARM,\
+TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HYPER_VOICE
+
+// NEW: Hyper Voice, Play Rough
+tutordata SPECIES_JUMPLUFF,\
+TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_MAGICAL_LEAF | TUTOR_MOVE_SILVER_WIND | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_CHARM,\
+TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_PLAY_ROUGH
+
+tutordata SPECIES_AIPOM,\
+TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_GUNK_SHOT
+
+tutordata SPECIES_SUNKERN,\
+TUTOR_MOVE_MAGICAL_LEAF | TUTOR_MOVE_TRAILBLAZE,\
+TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER
+
+tutordata SPECIES_SUNFLORA,\
+TUTOR_MOVE_MAGICAL_LEAF | TUTOR_MOVE_TRAILBLAZE,\
+TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER
+
+// NEW: Dual Wingbeat (HOME), Hurricane (HOME), Pounce
+tutordata SPECIES_YANMA,\
+TUTOR_MOVE_AIR_CUTTER | TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_OMINOUS_WIND | TUTOR_MOVE_SILVER_WIND | TUTOR_MOVE_DUAL_WINGBEAT | TUTOR_MOVE_POUNCE,\
+TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HURRICANE
+
+tutordata SPECIES_WOOPER,\
+TUTOR_MOVE_ACID_SPRAY | TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AQUA_TAIL,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_HYDRO_PUMP
+
+tutordata SPECIES_QUAGSIRE,\
+TUTOR_MOVE_ACID_SPRAY | TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AQUA_TAIL,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_HYDRO_PUMP
+
+tutordata SPECIES_ESPEON,\
+TUTOR_MOVE_DRAINING_KISS | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_MAGICAL_LEAF | TUTOR_MOVE_PSYBEAM | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_CHARM,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_POWER_GEM | TUTOR_MOVE_PSYCHIC_FANGS | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_STORED_POWER
+
+tutordata SPECIES_UMBREON,\
+TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_CHARM,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_STORED_POWER
+
+// NEW: Dual Wingbeat (HOME)
+tutordata SPECIES_MURKROW,\
+TUTOR_MOVE_AIR_CUTTER | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_OMINOUS_WIND | TUTOR_MOVE_HEAT_WAVE | TUTOR_MOVE_DUAL_WINGBEAT,\
+TUTOR_MOVE_HEX | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_HURRICANE
+
+tutordata SPECIES_SLOWKING,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_PSYBEAM | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_DRAGON_TAIL | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_POWER_GEM | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_HYDRO_PUMP | TUTOR_MOVE_STORED_POWER
+
+// NEW: Poltergeist
+tutordata SPECIES_MISDREAVUS,\
+TUTOR_MOVE_DRAINING_KISS | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_MAGICAL_LEAF | TUTOR_MOVE_OMINOUS_WIND | TUTOR_MOVE_PSYBEAM | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_CHARM,\
+TUTOR_MOVE_HEX | TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_POWER_GEM | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_STORED_POWER | TUTOR_MOVE_POLTERGEIST
+
+tutordata SPECIES_UNOWN,\
+0,\
+0
+
+tutordata SPECIES_WOBBUFFET,\
+TUTOR_MOVE_CHARM,\
+0
+
+tutordata SPECIES_GIRAFARIG,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_PSYBEAM | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_TRAILBLAZE,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_PSYCHIC_FANGS | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_STORED_POWER
+
+tutordata SPECIES_PINECO,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_GYRO_BALL | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_POUNCE | TUTOR_MOVE_DRILL_RUN,\
+TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_DOUBLE_EDGE
+
+tutordata SPECIES_FORRETRESS,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_GYRO_BALL | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_POUNCE | TUTOR_MOVE_DRILL_RUN,\
+TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_VOLT_SWITCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_HEAVY_SLAM
+
+tutordata SPECIES_DUNSPARCE,\
+TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_GYRO_BALL | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_POUNCE | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_DRILL_RUN | TUTOR_MOVE_DUAL_WINGBEAT,\
+TUTOR_MOVE_HEX | TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_STORED_POWER | TUTOR_MOVE_WILD_CHARGE
+
+// NEW: Dual Wingbeat (HOME), Power Whip (HOME)
+tutordata SPECIES_GLIGAR,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_CROSS_POISON | TUTOR_MOVE_DUAL_WINGBEAT,\
+TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_POWER_WHIP
+
+// NEW: Power Whip
+tutordata SPECIES_STEELIX,\
+TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_BREAKING_SWIPE | TUTOR_MOVE_BRUTAL_SWING | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_GYRO_BALL | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_DRAGON_TAIL | TUTOR_MOVE_DRILL_RUN,\
+TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_PSYCHIC_FANGS | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_HEAVY_SLAM | TUTOR_MOVE_METEOR_BEAM | TUTOR_MOVE_POWER_WHIP
+
+// NEW: Trailblaze
+tutordata SPECIES_SNUBBULL,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_CHARM | TUTOR_MOVE_FIRE_PUNCH | TUTOR_MOVE_TRAILBLAZE,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_CLOSE_COMBAT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_PLAY_ROUGH | TUTOR_MOVE_SUPERPOWER | TUTOR_MOVE_WILD_CHARGE
+
+// NEW: Trailblaze, Psychic Fangs (HOME)
+tutordata SPECIES_GRANBULL,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_CHARM | TUTOR_MOVE_FIRE_PUNCH | TUTOR_MOVE_TRAILBLAZE,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_OUTRAGE | TUTOR_MOVE_PLAY_ROUGH | TUTOR_MOVE_SUPERPOWER | TUTOR_MOVE_WILD_CHARGE | TUTOR_MOVE_PSYCHIC_FANGS
+
+tutordata SPECIES_QWILFISH,\
+TUTOR_MOVE_ACID_SPRAY | TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_GYRO_BALL | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AQUA_TAIL,\
+TUTOR_MOVE_HEX | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_GUNK_SHOT | TUTOR_MOVE_HYDRO_PUMP
+
+tutordata SPECIES_SCIZOR,\
+TUTOR_MOVE_AIR_CUTTER | TUTOR_MOVE_BRUTAL_SWING | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_OMINOUS_WIND | TUTOR_MOVE_POUNCE | TUTOR_MOVE_SILVER_WIND | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_CROSS_POISON | TUTOR_MOVE_DUAL_WINGBEAT,\
+TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_CLOSE_COMBAT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_SUPERPOWER
+
+tutordata SPECIES_SHUCKLE,\
+TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_GYRO_BALL | TUTOR_MOVE_HEADBUTT,\
+TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_METEOR_BEAM
+
+tutordata SPECIES_HERACROSS,\
+TUTOR_MOVE_BRUTAL_SWING | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_POUNCE | TUTOR_MOVE_TRAILBLAZE,\
+TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_CLOSE_COMBAT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_MEGAHORN
+
+tutordata SPECIES_SNEASEL,\
+TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_WATER_PULSE,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_TRIPLE_AXEL
+
+tutordata SPECIES_TEDDIURSA,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_CHARM | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_CLOSE_COMBAT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_GUNK_SHOT | TUTOR_MOVE_PLAY_ROUGH | TUTOR_MOVE_SUPERPOWER
+
+tutordata SPECIES_URSARING,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_CHARM | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_CLOSE_COMBAT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_GUNK_SHOT | TUTOR_MOVE_PLAY_ROUGH | TUTOR_MOVE_SUPERPOWER
+
+// NEW: Power Gem
+tutordata SPECIES_SLUGMA,\
+TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_HEAT_WAVE,\
+TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_POWER_GEM
+
+// NEW: Power Gem, Meteor Beam
+tutordata SPECIES_MAGCARGO,\
+TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_GYRO_BALL | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_HEAT_WAVE,\
+TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_POWER_GEM | TUTOR_MOVE_METEOR_BEAM
+
+tutordata SPECIES_SWINUB,\
+TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND,\
+TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_SUPERPOWER
+
+tutordata SPECIES_PILOSWINE,\
+TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND,\
+TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_SUPERPOWER
+
+// NEW: Chilling Water
+tutordata SPECIES_CORSOLA,\
+TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_CHILLING_WATER,\
+TUTOR_MOVE_POWER_GEM | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_HYDRO_PUMP | TUTOR_MOVE_METEOR_BEAM
+
+// NEW: Chilling Water
+tutordata SPECIES_REMORAID,\
+TUTOR_MOVE_ACID_SPRAY | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_PSYBEAM | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_CHILLING_WATER,\
+TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_GUNK_SHOT | TUTOR_MOVE_HYDRO_PUMP
+
+// NEW: Chilling Water
+tutordata SPECIES_OCTILLERY,\
+TUTOR_MOVE_ACID_SPRAY | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_PSYBEAM | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_CHILLING_WATER,\
+TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_GUNK_SHOT | TUTOR_MOVE_HYDRO_PUMP
+
+// NEW: Hydro Pump
+tutordata SPECIES_DELIBIRD,\
+TUTOR_MOVE_AIR_CUTTER | TUTOR_MOVE_BRUTAL_SWING | TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_DRILL_RUN | TUTOR_MOVE_DUAL_WINGBEAT,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_GUNK_SHOT | TUTOR_MOVE_TRIPLE_AXEL | TUTOR_MOVE_HYDRO_PUMP
+
+// NEW: Chilling Water
+tutordata SPECIES_MANTINE,\
+TUTOR_MOVE_AIR_CUTTER | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_PSYBEAM | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_DUAL_WINGBEAT | TUTOR_MOVE_CHILLING_WATER,\
+TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_GUNK_SHOT | TUTOR_MOVE_HURRICANE | TUTOR_MOVE_HYDRO_PUMP
+
+tutordata SPECIES_SKARMORY,\
+TUTOR_MOVE_AIR_CUTTER | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_OMINOUS_WIND | TUTOR_MOVE_DUAL_WINGBEAT,\
+TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_DOUBLE_EDGE
+
+tutordata SPECIES_HOUNDOUR,\
+TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_HEAT_WAVE,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_PSYCHIC_FANGS | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_FLARE_BLITZ | TUTOR_MOVE_FOUL_PLAY
+
+tutordata SPECIES_HOUNDOOM,\
+TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_HEAT_WAVE,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_PSYCHIC_FANGS | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_FLARE_BLITZ | TUTOR_MOVE_FOUL_PLAY
+
+// NEW: Chilling Water
+tutordata SPECIES_KINGDRA,\
+TUTOR_MOVE_BREAKING_SWIPE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_FLIP_TURN | TUTOR_MOVE_CHILLING_WATER,\
+TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HURRICANE | TUTOR_MOVE_HYDRO_PUMP | TUTOR_MOVE_OUTRAGE
+
+tutordata SPECIES_PHANPY,\
+TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_CHARM,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_GUNK_SHOT | TUTOR_MOVE_HEAVY_SLAM | TUTOR_MOVE_PLAY_ROUGH | TUTOR_MOVE_SUPERPOWER
+
+// NEW: Close Combat, Power Whip (HOME)
+tutordata SPECIES_DONPHAN,\
+TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_BRUTAL_SWING | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_GYRO_BALL | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_CHARM,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_GUNK_SHOT | TUTOR_MOVE_HEAVY_SLAM | TUTOR_MOVE_PLAY_ROUGH | TUTOR_MOVE_SUPERPOWER | TUTOR_MOVE_CLOSE_COMBAT | TUTOR_MOVE_POWER_WHIP
+
+tutordata SPECIES_PORYGON2,\
+TUTOR_MOVE_ELECTROWEB | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_PSYBEAM | TUTOR_MOVE_SHOCK_WAVE,\
+TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_FOUL_PLAY
+
+tutordata SPECIES_STANTLER,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_PSYBEAM | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_TRAILBLAZE,\
+TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_MEGAHORN | TUTOR_MOVE_STORED_POWER | TUTOR_MOVE_WILD_CHARGE
+
+tutordata SPECIES_SMEARGLE,\
+0,\
+0
+
+tutordata SPECIES_TYROGUE,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_LOW_KICK,\
+TUTOR_MOVE_DOUBLE_EDGE
+
+tutordata SPECIES_HITMONTOP,\
+TUTOR_MOVE_BRUTAL_SWING | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_GYRO_BALL | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_DRILL_RUN,\
+TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_CLOSE_COMBAT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_TRIPLE_AXEL
+
+// NEW: Chilling Water
+tutordata SPECIES_SMOOCHUM,\
+TUTOR_MOVE_DRAINING_KISS | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_CHARM | TUTOR_MOVE_CHILLING_WATER,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_STORED_POWER
+
+tutordata SPECIES_ELEKID,\
+TUTOR_MOVE_ELECTROWEB | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_VOLT_SWITCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_WILD_CHARGE
+
+tutordata SPECIES_MAGBY,\
+TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_FIRE_PUNCH | TUTOR_MOVE_HEAT_WAVE,\
+TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_FLARE_BLITZ
+
+tutordata SPECIES_MILTANK,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_GYRO_BALL | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_CHARM | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HEAVY_SLAM | TUTOR_MOVE_PLAY_ROUGH
+
+tutordata SPECIES_BLISSEY,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_CHARM | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_STORED_POWER | TUTOR_MOVE_WILD_CHARGE
+
+tutordata SPECIES_RAIKOU,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_AURA_SPHERE,\
+TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_VOLT_SWITCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_WILD_CHARGE
+
+tutordata SPECIES_ENTEI,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_HEAT_WAVE,\
+TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_FLARE_BLITZ
+
+// NEW: Chilling Water, Hurricane
+tutordata SPECIES_SUICUNE,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_OMINOUS_WIND | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_CHILLING_WATER,\
+TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HYDRO_PUMP | TUTOR_MOVE_HURRICANE
+
+tutordata SPECIES_LARVITAR,\
+TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT,\
+TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_OUTRAGE | TUTOR_MOVE_SUPERPOWER
+
+tutordata SPECIES_PUPITAR,\
+TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT,\
+TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_OUTRAGE | TUTOR_MOVE_SUPERPOWER
+
+tutordata SPECIES_TYRANITAR,\
+TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_BREAKING_SWIPE | TUTOR_MOVE_BRUTAL_SWING | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_DRAGON_TAIL | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_POWER_GEM | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_HEAVY_SLAM | TUTOR_MOVE_HYDRO_PUMP | TUTOR_MOVE_OUTRAGE | TUTOR_MOVE_SUPERPOWER
+
+tutordata SPECIES_LUGIA,\
+TUTOR_MOVE_AIR_CUTTER | TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_OMINOUS_WIND | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_DRAGON_TAIL | TUTOR_MOVE_DUAL_WINGBEAT,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_HURRICANE | TUTOR_MOVE_HYDRO_PUMP
+
+tutordata SPECIES_HO_OH,\
+TUTOR_MOVE_AIR_CUTTER | TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_OMINOUS_WIND | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_DUAL_WINGBEAT | TUTOR_MOVE_HEAT_WAVE,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_FLARE_BLITZ
+
+tutordata SPECIES_CELEBI,\
+TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_MAGICAL_LEAF | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_SILVER_WIND | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AURA_SPHERE | TUTOR_MOVE_DUAL_WINGBEAT,\
+TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER
+
+// NEW: Trailblaze
+tutordata SPECIES_TREECKO,\
+TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_MAGICAL_LEAF | TUTOR_MOVE_TRAILBLAZE,\
+TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Trailblaze
+tutordata SPECIES_GROVYLE,\
+TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_MAGICAL_LEAF | TUTOR_MOVE_TRAILBLAZE,\
+TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Trailblaze
+tutordata SPECIES_SCEPTILE,\
+TUTOR_MOVE_BREAKING_SWIPE | TUTOR_MOVE_BRUTAL_SWING | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_MAGICAL_LEAF | TUTOR_MOVE_CROSS_POISON | TUTOR_MOVE_TRAILBLAZE,\
+TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_OUTRAGE
+
+tutordata SPECIES_TORCHIC,\
+TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_HEAT_WAVE,\
+TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_FLARE_BLITZ
+
+tutordata SPECIES_COMBUSKEN,\
+TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_FIRE_PUNCH | TUTOR_MOVE_HEAT_WAVE,\
+TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_FLARE_BLITZ
+
+tutordata SPECIES_BLAZIKEN,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_AURA_SPHERE | TUTOR_MOVE_FIRE_PUNCH | TUTOR_MOVE_HEAT_WAVE,\
+TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_CLOSE_COMBAT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_FLARE_BLITZ | TUTOR_MOVE_SUPERPOWER
+
+// NEW: Chilling Water
+tutordata SPECIES_MUDKIP,\
+TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_CHILLING_WATER,\
+TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_HYDRO_PUMP | TUTOR_MOVE_SUPERPOWER
+
+// NEW: Chilling Water
+tutordata SPECIES_MARSHTOMP,\
+TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_CHILLING_WATER,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_HYDRO_PUMP | TUTOR_MOVE_SUPERPOWER
+
+// NEW: Chilling Water
+tutordata SPECIES_SWAMPERT,\
+TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_FLIP_TURN | TUTOR_MOVE_CHILLING_WATER,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_HYDRO_PUMP | TUTOR_MOVE_OUTRAGE | TUTOR_MOVE_SUPERPOWER
+
+// NEW: Psychic Fangs (HOME)
+tutordata SPECIES_POOCHYENA,\
+TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_INCINERATE,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_PLAY_ROUGH | TUTOR_MOVE_PSYCHIC_FANGS
+
+// NEW: Psychic Fangs (HOME)
+tutordata SPECIES_MIGHTYENA,\
+TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_INCINERATE,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_PLAY_ROUGH | TUTOR_MOVE_PSYCHIC_FANGS
+
+tutordata SPECIES_ZIGZAGOON,\
+TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_CHARM,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_GUNK_SHOT
+
+tutordata SPECIES_LINOONE,\
+TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_CHARM,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_GUNK_SHOT | TUTOR_MOVE_PLAY_ROUGH
+
+tutordata SPECIES_WURMPLE,\
+TUTOR_MOVE_ELECTROWEB,\
+0
+
+tutordata SPECIES_SILCOON,\
+TUTOR_MOVE_ELECTROWEB,\
+0
+
+// NEW: Dual Wingbeat (HOME), Hurricane, Pounce
+tutordata SPECIES_BEAUTIFLY,\
+TUTOR_MOVE_AIR_CUTTER | TUTOR_MOVE_ELECTROWEB | TUTOR_MOVE_OMINOUS_WIND | TUTOR_MOVE_SILVER_WIND | TUTOR_MOVE_DUAL_WINGBEAT | TUTOR_MOVE_POUNCE,\
+TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HURRICANE
+
+tutordata SPECIES_CASCOON,\
+TUTOR_MOVE_ELECTROWEB,\
+0
+
+// NEW: Acid Spray, Dual Wingbeat (HOME), Hurricane, Pounce
+tutordata SPECIES_DUSTOX,\
+TUTOR_MOVE_AIR_CUTTER | TUTOR_MOVE_ELECTROWEB | TUTOR_MOVE_OMINOUS_WIND | TUTOR_MOVE_PSYBEAM | TUTOR_MOVE_SILVER_WIND | TUTOR_MOVE_ACID_SPRAY | TUTOR_MOVE_DUAL_WINGBEAT | TUTOR_MOVE_POUNCE,\
+TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HURRICANE
+
+// NEW: Chilling Water, Trailblaze
+tutordata SPECIES_LOTAD,\
+TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_TRAILBLAZE,\
+TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Chilling Water, Trailblaze
+tutordata SPECIES_LOMBRE,\
+TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_FIRE_PUNCH | TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_TRAILBLAZE,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HYDRO_PUMP
+
+// NEW: Chilling Water, Trailblaze
+tutordata SPECIES_LUDICOLO,\
+TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_FIRE_PUNCH | TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_TRAILBLAZE,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HYDRO_PUMP
+
+// NEW: Trailblaze
+tutordata SPECIES_SEEDOT,\
+TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_TRAILBLAZE,\
+TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_FOUL_PLAY
+
+// NEW: Trailblaze
+tutordata SPECIES_NUZLEAF,\
+TUTOR_MOVE_AIR_CUTTER | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_TRAILBLAZE,\
+TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_FOUL_PLAY
+
+// NEW: Trailblaze
+tutordata SPECIES_SHIFTRY,\
+TUTOR_MOVE_AIR_CUTTER | TUTOR_MOVE_BRUTAL_SWING | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_OMINOUS_WIND | TUTOR_MOVE_SILVER_WIND | TUTOR_MOVE_HEAT_WAVE | TUTOR_MOVE_TRAILBLAZE,\
+TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_HURRICANE
+
+// NEW: Dual Wingbeat (HOME)
+tutordata SPECIES_TAILLOW,\
+TUTOR_MOVE_AIR_CUTTER | TUTOR_MOVE_OMINOUS_WIND | TUTOR_MOVE_HEAT_WAVE | TUTOR_MOVE_DUAL_WINGBEAT,\
+TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HURRICANE
+
+// NEW: Dual Wingbeat (HOME)
+tutordata SPECIES_SWELLOW,\
+TUTOR_MOVE_AIR_CUTTER | TUTOR_MOVE_OMINOUS_WIND | TUTOR_MOVE_HEAT_WAVE | TUTOR_MOVE_DUAL_WINGBEAT,\
+TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HURRICANE
+
+tutordata SPECIES_WINGULL,\
+TUTOR_MOVE_AIR_CUTTER | TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_OMINOUS_WIND | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_DUAL_WINGBEAT,\
+TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HURRICANE | TUTOR_MOVE_HYDRO_PUMP
+
+tutordata SPECIES_PELIPPER,\
+TUTOR_MOVE_AIR_CUTTER | TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_OMINOUS_WIND | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_DUAL_WINGBEAT,\
+TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_GUNK_SHOT | TUTOR_MOVE_HURRICANE | TUTOR_MOVE_HYDRO_PUMP
+
+tutordata SPECIES_RALTS,\
+TUTOR_MOVE_DRAINING_KISS | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_MAGICAL_LEAF | TUTOR_MOVE_PSYBEAM | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_CHARM | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_STORED_POWER
+
+tutordata SPECIES_KIRLIA,\
+TUTOR_MOVE_DRAINING_KISS | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_MAGICAL_LEAF | TUTOR_MOVE_PSYBEAM | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_CHARM | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_STORED_POWER | TUTOR_MOVE_TRIPLE_AXEL
+
+tutordata SPECIES_GARDEVOIR,\
+TUTOR_MOVE_DRAINING_KISS | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_MAGICAL_LEAF | TUTOR_MOVE_PSYBEAM | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_AURA_SPHERE | TUTOR_MOVE_CHARM | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_STORED_POWER | TUTOR_MOVE_TRIPLE_AXEL
+
+tutordata SPECIES_SURSKIT,\
+TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_POUNCE | TUTOR_MOVE_PSYBEAM | TUTOR_MOVE_WATER_PULSE,\
+TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HYDRO_PUMP
+
+// NEW: Dual Wingbeat (HOME)
+tutordata SPECIES_MASQUERAIN,\
+TUTOR_MOVE_AIR_CUTTER | TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_OMINOUS_WIND | TUTOR_MOVE_POUNCE | TUTOR_MOVE_PSYBEAM | TUTOR_MOVE_SILVER_WIND | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_DUAL_WINGBEAT,\
+TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_HURRICANE | TUTOR_MOVE_HYDRO_PUMP
+
+tutordata SPECIES_SHROOMISH,\
+TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_MAGICAL_LEAF | TUTOR_MOVE_POUNCE | TUTOR_MOVE_CHARM,\
+TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_GUNK_SHOT
+
+tutordata SPECIES_BRELOOM,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_MAGICAL_LEAF | TUTOR_MOVE_POUNCE | TUTOR_MOVE_CHARM,\
+TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_CLOSE_COMBAT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_GUNK_SHOT | TUTOR_MOVE_SUPERPOWER
+
+tutordata SPECIES_SLAKOTH,\
+TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_GUNK_SHOT | TUTOR_MOVE_PLAY_ROUGH
+
+tutordata SPECIES_VIGOROTH,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_GUNK_SHOT | TUTOR_MOVE_OUTRAGE | TUTOR_MOVE_PLAY_ROUGH
+
+tutordata SPECIES_SLAKING,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_POUNCE | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_GUNK_SHOT | TUTOR_MOVE_HEAVY_SLAM | TUTOR_MOVE_OUTRAGE | TUTOR_MOVE_PLAY_ROUGH | TUTOR_MOVE_WILD_CHARGE
+
+tutordata SPECIES_NINCADA,\
+TUTOR_MOVE_SILVER_WIND,\
+TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Pounce
+tutordata SPECIES_NINJASK,\
+TUTOR_MOVE_AIR_CUTTER | TUTOR_MOVE_OMINOUS_WIND | TUTOR_MOVE_SILVER_WIND | TUTOR_MOVE_DUAL_WINGBEAT | TUTOR_MOVE_POUNCE,\
+TUTOR_MOVE_DOUBLE_EDGE
+
+tutordata SPECIES_SHEDINJA,\
+TUTOR_MOVE_SILVER_WIND,\
+TUTOR_MOVE_HEX | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_POLTERGEIST
+
+tutordata SPECIES_WHISMUR,\
+TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE
+
+tutordata SPECIES_LOUDRED,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE
+
+tutordata SPECIES_EXPLOUD,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HYDRO_PUMP | TUTOR_MOVE_OUTRAGE
+
+tutordata SPECIES_MAKUHITA,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_CLOSE_COMBAT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HEAVY_SLAM | TUTOR_MOVE_SUPERPOWER
+
+tutordata SPECIES_HARIYAMA,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_CLOSE_COMBAT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HEAVY_SLAM | TUTOR_MOVE_SUPERPOWER
+
+tutordata SPECIES_AZURILL,\
+TUTOR_MOVE_BRUTAL_SWING | TUTOR_MOVE_DRAINING_KISS | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_CHARM,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Meteor Beam (HOME)
+tutordata SPECIES_NOSEPASS,\
+TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_POWER_GEM | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_VOLT_SWITCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_METEOR_BEAM
+
+// NEW: Draining Kiss (HOME)
+tutordata SPECIES_SKITTY,\
+TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_CHARM | TUTOR_MOVE_DRAINING_KISS,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_PLAY_ROUGH | TUTOR_MOVE_WILD_CHARGE
+
+// NEW: Draining Kiss (HOME)
+tutordata SPECIES_DELCATTY,\
+TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_CHARM | TUTOR_MOVE_DRAINING_KISS,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_WILD_CHARGE
+
+tutordata SPECIES_SABLEYE,\
+TUTOR_MOVE_GYRO_BALL | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_OMINOUS_WIND | TUTOR_MOVE_PSYBEAM | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_HEX | TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_POWER_GEM | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_POLTERGEIST
+
+tutordata SPECIES_MAWILE,\
+TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_BRUTAL_SWING | TUTOR_MOVE_DRAINING_KISS | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_INCINERATE,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_PSYCHIC_FANGS | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_PLAY_ROUGH
+
+tutordata SPECIES_ARON,\
+TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_WATER_PULSE,\
+TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_HEAVY_SLAM | TUTOR_MOVE_SUPERPOWER
+
+tutordata SPECIES_LAIRON,\
+TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_WATER_PULSE,\
+TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_HEAVY_SLAM | TUTOR_MOVE_SUPERPOWER
+
+// NEW: Megahorn
+tutordata SPECIES_AGGRON,\
+TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_BRUTAL_SWING | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_DRAGON_TAIL | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_HEAVY_SLAM | TUTOR_MOVE_HYDRO_PUMP | TUTOR_MOVE_METEOR_BEAM | TUTOR_MOVE_OUTRAGE | TUTOR_MOVE_SUPERPOWER | TUTOR_MOVE_MEGAHORN
+
+tutordata SPECIES_MEDITITE,\
+TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_PSYBEAM | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_CLOSE_COMBAT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_STORED_POWER
+
+tutordata SPECIES_MEDICHAM,\
+TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_PSYBEAM | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_AURA_SPHERE | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_CLOSE_COMBAT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_STORED_POWER
+
+// NEW: Trailblaze
+tutordata SPECIES_ELECTRIKE,\
+TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_TRAILBLAZE,\
+TUTOR_MOVE_PSYCHIC_FANGS | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_VOLT_SWITCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_WILD_CHARGE
+
+// NEW: Trailblaze
+tutordata SPECIES_MANECTRIC,\
+TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_TRAILBLAZE,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_PSYCHIC_FANGS | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_VOLT_SWITCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_WILD_CHARGE
+
+tutordata SPECIES_PLUSLE,\
+TUTOR_MOVE_ELECTROWEB | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_CHARM,\
+TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_VOLT_SWITCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_WILD_CHARGE
+
+tutordata SPECIES_MINUN,\
+TUTOR_MOVE_ELECTROWEB | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_CHARM,\
+TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_VOLT_SWITCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_WILD_CHARGE
+
+// NEW: Dual Wingbeat (HOME), Pounce
+tutordata SPECIES_VOLBEAT,\
+TUTOR_MOVE_AIR_CUTTER | TUTOR_MOVE_OMINOUS_WIND | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_SILVER_WIND | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_DUAL_WINGBEAT | TUTOR_MOVE_POUNCE,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_PLAY_ROUGH
+
+// NEW: Dual Wingbeat (HOME), Pounce
+tutordata SPECIES_ILLUMISE,\
+TUTOR_MOVE_AIR_CUTTER | TUTOR_MOVE_OMINOUS_WIND | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_SILVER_WIND | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_CHARM | TUTOR_MOVE_DUAL_WINGBEAT | TUTOR_MOVE_POUNCE,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_PLAY_ROUGH
+
+// NEW: Trailblaze
+tutordata SPECIES_ROSELIA,\
+TUTOR_MOVE_MAGICAL_LEAF | TUTOR_MOVE_TRAILBLAZE,\
+TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_POWER_WHIP
+
+tutordata SPECIES_GULPIN,\
+TUTOR_MOVE_ACID_SPRAY | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_GUNK_SHOT
+
+tutordata SPECIES_SWALOT,\
+TUTOR_MOVE_ACID_SPRAY | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_GUNK_SHOT
+
+// NEW: Chilling Water
+tutordata SPECIES_CARVANHA,\
+TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_FLIP_TURN | TUTOR_MOVE_CHILLING_WATER,\
+TUTOR_MOVE_PSYCHIC_FANGS | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HYDRO_PUMP
+
+// NEW: Chilling Water
+tutordata SPECIES_SHARPEDO,\
+TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_FLIP_TURN | TUTOR_MOVE_CHILLING_WATER,\
+TUTOR_MOVE_PSYCHIC_FANGS | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_CLOSE_COMBAT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HYDRO_PUMP
+
+// NEW: Chilling Water
+tutordata SPECIES_WAILMER,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_CHILLING_WATER,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HEAVY_SLAM | TUTOR_MOVE_HYDRO_PUMP
+
+// NEW: Chilling Water
+tutordata SPECIES_WAILORD,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_CHILLING_WATER,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HEAVY_SLAM | TUTOR_MOVE_HYDRO_PUMP
+
+tutordata SPECIES_NUMEL,\
+TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_CHARM | TUTOR_MOVE_HEAT_WAVE,\
+TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_FLARE_BLITZ | TUTOR_MOVE_HEAVY_SLAM
+
+tutordata SPECIES_CAMERUPT,\
+TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_CHARM | TUTOR_MOVE_HEAT_WAVE,\
+TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_FLARE_BLITZ | TUTOR_MOVE_HEAVY_SLAM
+
+tutordata SPECIES_TORKOAL,\
+TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_GYRO_BALL | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_HEAT_WAVE,\
+TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_FLARE_BLITZ | TUTOR_MOVE_HEAVY_SLAM | TUTOR_MOVE_SUPERPOWER
+
+tutordata SPECIES_SPOINK,\
+TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_PSYBEAM | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_TRAILBLAZE,\
+TUTOR_MOVE_POWER_GEM | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_STORED_POWER
+
+tutordata SPECIES_GRUMPIG,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_PSYBEAM | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_POWER_GEM | TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_STORED_POWER
+
+tutordata SPECIES_SPINDA,\
+TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_PSYBEAM | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_SUPERPOWER | TUTOR_MOVE_WILD_CHARGE
+
+// NEW: Pounce
+tutordata SPECIES_TRAPINCH,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_POUNCE,\
+TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_SUPERPOWER
+
+// NEW: Pounce
+tutordata SPECIES_VIBRAVA,\
+TUTOR_MOVE_AIR_CUTTER | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_OMINOUS_WIND | TUTOR_MOVE_SILVER_WIND | TUTOR_MOVE_DRAGON_TAIL | TUTOR_MOVE_DUAL_WINGBEAT | TUTOR_MOVE_HEAT_WAVE | TUTOR_MOVE_POUNCE,\
+TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_OUTRAGE | TUTOR_MOVE_SUPERPOWER
+
+// NEW: Hurricane, Pounce
+tutordata SPECIES_FLYGON,\
+TUTOR_MOVE_AIR_CUTTER | TUTOR_MOVE_BREAKING_SWIPE | TUTOR_MOVE_BRUTAL_SWING | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_OMINOUS_WIND | TUTOR_MOVE_SILVER_WIND | TUTOR_MOVE_DRAGON_TAIL | TUTOR_MOVE_DUAL_WINGBEAT | TUTOR_MOVE_FIRE_PUNCH | TUTOR_MOVE_HEAT_WAVE | TUTOR_MOVE_POUNCE,\
+TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_OUTRAGE | TUTOR_MOVE_SUPERPOWER | TUTOR_MOVE_HURRICANE
+
+// NEW: Earth Power
+tutordata SPECIES_CACNEA,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_MAGICAL_LEAF | TUTOR_MOVE_TRAILBLAZE,\
+TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_EARTH_POWER
+
+// NEW: Earth Power, Close Combat
+tutordata SPECIES_CACTURNE,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_MAGICAL_LEAF | TUTOR_MOVE_TRAILBLAZE,\
+TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_SUPERPOWER | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_CLOSE_COMBAT
+
+tutordata SPECIES_SWABLU,\
+TUTOR_MOVE_AIR_CUTTER | TUTOR_MOVE_OMINOUS_WIND | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_DUAL_WINGBEAT | TUTOR_MOVE_HEAT_WAVE,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HURRICANE | TUTOR_MOVE_OUTRAGE | TUTOR_MOVE_PLAY_ROUGH
+
+tutordata SPECIES_ALTARIA,\
+TUTOR_MOVE_AIR_CUTTER | TUTOR_MOVE_BREAKING_SWIPE | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_OMINOUS_WIND | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_DUAL_WINGBEAT | TUTOR_MOVE_HEAT_WAVE,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HURRICANE | TUTOR_MOVE_OUTRAGE | TUTOR_MOVE_PLAY_ROUGH
+
+tutordata SPECIES_ZANGOOSE,\
+TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AURA_SPHERE | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_CLOSE_COMBAT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_GUNK_SHOT
+
+// NEW: Breaking Swipe, Cross Poison, Power Whip (HOME)
+tutordata SPECIES_SEVIPER,\
+TUTOR_MOVE_ACID_SPRAY | TUTOR_MOVE_BRUTAL_SWING | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_POUNCE | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_DRAGON_TAIL | TUTOR_MOVE_BREAKING_SWIPE | TUTOR_MOVE_CROSS_POISON,\
+TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_PSYCHIC_FANGS | TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_GUNK_SHOT | TUTOR_MOVE_POWER_WHIP
+
+tutordata SPECIES_LUNATONE,\
+TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_GYRO_BALL | TUTOR_MOVE_ICY_WIND,\
+TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_POWER_GEM | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_METEOR_BEAM | TUTOR_MOVE_STORED_POWER
+
+tutordata SPECIES_SOLROCK,\
+TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_GYRO_BALL | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_HEAT_WAVE,\
+TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_FLARE_BLITZ | TUTOR_MOVE_METEOR_BEAM | TUTOR_MOVE_STORED_POWER
+
+tutordata SPECIES_BARBOACH,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AQUA_TAIL,\
+TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_HYDRO_PUMP | TUTOR_MOVE_OUTRAGE
+
+// NEW: Wild Charge
+tutordata SPECIES_WHISCASH,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AQUA_TAIL,\
+TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_HYDRO_PUMP | TUTOR_MOVE_OUTRAGE | TUTOR_MOVE_WILD_CHARGE
+
+// NEW: Chilling Water
+tutordata SPECIES_CORPHISH,\
+TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_CHILLING_WATER,\
+TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HYDRO_PUMP | TUTOR_MOVE_SUPERPOWER
+
+// NEW: Chilling Water
+tutordata SPECIES_CRAWDAUNT,\
+TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_CHILLING_WATER,\
+TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_CLOSE_COMBAT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HYDRO_PUMP | TUTOR_MOVE_SUPERPOWER
+
+tutordata SPECIES_BALTOY,\
+TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_GYRO_BALL | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_PSYBEAM | TUTOR_MOVE_DRILL_RUN,\
+TUTOR_MOVE_HEX | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER
+
+tutordata SPECIES_CLAYDOL,\
+TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_GYRO_BALL | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_PSYBEAM | TUTOR_MOVE_DRILL_RUN,\
+TUTOR_MOVE_HEX | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_STORED_POWER
+
+// NEW: Power Gem
+tutordata SPECIES_LILEEP,\
+TUTOR_MOVE_ANCIENT_POWER,\
+TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_METEOR_BEAM | TUTOR_MOVE_POWER_GEM
+
+// NEW: Power Gem
+tutordata SPECIES_CRADILY,\
+TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT,\
+TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_METEOR_BEAM | TUTOR_MOVE_POWER_WHIP | TUTOR_MOVE_POWER_GEM
+
+// NEW: Pounce
+tutordata SPECIES_ANORITH,\
+TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_CROSS_POISON | TUTOR_MOVE_POUNCE,\
+TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_METEOR_BEAM
+
+// NEW: Pounce
+tutordata SPECIES_ARMALDO,\
+TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_BRUTAL_SWING | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_CROSS_POISON | TUTOR_MOVE_POUNCE,\
+TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_METEOR_BEAM | TUTOR_MOVE_SUPERPOWER
+
+tutordata SPECIES_FEEBAS,\
+TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_WATER_PULSE,\
+TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Chilling Water
+tutordata SPECIES_MILOTIC,\
+TUTOR_MOVE_BREAKING_SWIPE | TUTOR_MOVE_BRUTAL_SWING | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_DRAGON_TAIL | TUTOR_MOVE_FLIP_TURN | TUTOR_MOVE_CHILLING_WATER,\
+TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HYDRO_PUMP | TUTOR_MOVE_TRIPLE_AXEL
+
+// NEW: Chilling Water
+tutordata SPECIES_CASTFORM,\
+TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_OMINOUS_WIND | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_CHILLING_WATER,\
+TUTOR_MOVE_HEX | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HURRICANE | TUTOR_MOVE_HYDRO_PUMP
+
+tutordata SPECIES_KECLEON,\
+TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_PSYBEAM | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_FOUL_PLAY
+
+// NEW: Poltergeist
+tutordata SPECIES_SHUPPET,\
+TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_OMINOUS_WIND | TUTOR_MOVE_POUNCE | TUTOR_MOVE_PSYBEAM | TUTOR_MOVE_SHOCK_WAVE,\
+TUTOR_MOVE_HEX | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_GUNK_SHOT | TUTOR_MOVE_POLTERGEIST
+
+// NEW: Poltergeist
+tutordata SPECIES_BANETTE,\
+TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_OMINOUS_WIND | TUTOR_MOVE_POUNCE | TUTOR_MOVE_PSYBEAM | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_TRAILBLAZE,\
+TUTOR_MOVE_HEX | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_GUNK_SHOT | TUTOR_MOVE_POLTERGEIST
+
+// NEW: Pounce
+tutordata SPECIES_DUSKULL,\
+TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_OMINOUS_WIND | TUTOR_MOVE_POUNCE,\
+TUTOR_MOVE_HEX | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_POLTERGEIST
+
+// NEW: Pounce
+tutordata SPECIES_DUSCLOPS,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_OMINOUS_WIND | TUTOR_MOVE_FIRE_PUNCH | TUTOR_MOVE_POUNCE,\
+TUTOR_MOVE_HEX | TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_POLTERGEIST
+
+// NEW: Dual Wingbeat
+tutordata SPECIES_TROPIUS,\
+TUTOR_MOVE_AIR_CUTTER | TUTOR_MOVE_BRUTAL_SWING | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_MAGICAL_LEAF | TUTOR_MOVE_OMINOUS_WIND | TUTOR_MOVE_SILVER_WIND | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_DRAGON_TAIL | TUTOR_MOVE_DUAL_WINGBEAT,\
+TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HURRICANE | TUTOR_MOVE_OUTRAGE
+
+// NEW: Ominous Wind (PLA)
+tutordata SPECIES_CHIMECHO,\
+TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_OMINOUS_WIND,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_STORED_POWER
+
+tutordata SPECIES_ABSOL,\
+TUTOR_MOVE_BRUTAL_SWING | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_WATER_PULSE,\
+TUTOR_MOVE_HEX | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_CLOSE_COMBAT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_MEGAHORN | TUTOR_MOVE_PLAY_ROUGH | TUTOR_MOVE_SUPERPOWER
+
+tutordata SPECIES_WYNAUT,\
+TUTOR_MOVE_CHARM,\
+0
+
+tutordata SPECIES_SNORUNT,\
+TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_WATER_PULSE,\
+TUTOR_MOVE_HEX | TUTOR_MOVE_DOUBLE_EDGE
+
+tutordata SPECIES_GLALIE,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_GYRO_BALL | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_WATER_PULSE,\
+TUTOR_MOVE_HEX | TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_FOUL_PLAY
+
+// NEW: Chilling Water
+tutordata SPECIES_SPHEAL,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_CHILLING_WATER,\
+TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Chilling Water
+tutordata SPECIES_SEALEO,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_CHILLING_WATER,\
+TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Chilling Water
+tutordata SPECIES_WALREIN,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_CHILLING_WATER,\
+TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HEAVY_SLAM | TUTOR_MOVE_HYDRO_PUMP
+
+// NEW: Chilling Water
+tutordata SPECIES_CLAMPERL,\
+TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_CHILLING_WATER,\
+TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Chilling Water, Flip Turn (HOME)
+tutordata SPECIES_HUNTAIL,\
+TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_FLIP_TURN,\
+TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HYDRO_PUMP
+
+// NEW: Chilling Water, Flip Turn (HOME)
+tutordata SPECIES_GOREBYSS,\
+TUTOR_MOVE_DRAINING_KISS | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_FLIP_TURN,\
+TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HYDRO_PUMP
+
+// NEW: Chilling Water
+tutordata SPECIES_RELICANTH,\
+TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_CHILLING_WATER,\
+TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_HYDRO_PUMP | TUTOR_MOVE_METEOR_BEAM
+
+// NEW: Flip Turn (HOME)
+tutordata SPECIES_LUVDISC,\
+TUTOR_MOVE_DRAINING_KISS | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_CHARM | TUTOR_MOVE_FLIP_TURN,\
+TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HYDRO_PUMP
+
+tutordata SPECIES_BAGON,\
+TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_DRAGON_TAIL,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HYDRO_PUMP | TUTOR_MOVE_OUTRAGE
+
+tutordata SPECIES_SHELGON,\
+TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_DRAGON_TAIL,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HYDRO_PUMP | TUTOR_MOVE_OUTRAGE
+
+tutordata SPECIES_SALAMENCE,\
+TUTOR_MOVE_AIR_CUTTER | TUTOR_MOVE_BREAKING_SWIPE | TUTOR_MOVE_BRUTAL_SWING | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_OMINOUS_WIND | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_DRAGON_TAIL | TUTOR_MOVE_DUAL_WINGBEAT | TUTOR_MOVE_HEAT_WAVE,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_PSYCHIC_FANGS | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HURRICANE | TUTOR_MOVE_HYDRO_PUMP | TUTOR_MOVE_OUTRAGE
+
+tutordata SPECIES_BELDUM,\
+TUTOR_MOVE_HEADBUTT,\
+TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_ZEN_HEADBUTT
+
+tutordata SPECIES_METANG,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_GYRO_BALL | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_METEOR_BEAM
+
+tutordata SPECIES_METAGROSS,\
+TUTOR_MOVE_BRUTAL_SWING | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_GYRO_BALL | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_METEOR_BEAM
+
+tutordata SPECIES_REGIROCK,\
+TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_HEAVY_SLAM | TUTOR_MOVE_METEOR_BEAM | TUTOR_MOVE_SUPERPOWER
+
+tutordata SPECIES_REGICE,\
+TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_SHOCK_WAVE,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HEAVY_SLAM | TUTOR_MOVE_SUPERPOWER
+
+tutordata SPECIES_REGISTEEL,\
+TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_SHOCK_WAVE,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HEAVY_SLAM | TUTOR_MOVE_METEOR_BEAM | TUTOR_MOVE_SUPERPOWER
+
+tutordata SPECIES_LATIAS,\
+TUTOR_MOVE_BREAKING_SWIPE | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AURA_SPHERE | TUTOR_MOVE_CHARM | TUTOR_MOVE_DUAL_WINGBEAT,\
+TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_OUTRAGE | TUTOR_MOVE_STORED_POWER
+
+tutordata SPECIES_LATIOS,\
+TUTOR_MOVE_BREAKING_SWIPE | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AURA_SPHERE | TUTOR_MOVE_DUAL_WINGBEAT,\
+TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_OUTRAGE | TUTOR_MOVE_STORED_POWER
+
+tutordata SPECIES_KYOGRE,\
+TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AQUA_TAIL,\
+TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HEAVY_SLAM | TUTOR_MOVE_HYDRO_PUMP
+
+tutordata SPECIES_GROUDON,\
+TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_BRUTAL_SWING | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_DRAGON_TAIL | TUTOR_MOVE_FIRE_PUNCH | TUTOR_MOVE_HEAT_WAVE,\
+TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_HEAVY_SLAM
+
+tutordata SPECIES_RAYQUAZA,\
+TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_BREAKING_SWIPE | TUTOR_MOVE_BRUTAL_SWING | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_GYRO_BALL | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_DRAGON_TAIL,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_HURRICANE | TUTOR_MOVE_HYDRO_PUMP | TUTOR_MOVE_METEOR_BEAM | TUTOR_MOVE_OUTRAGE | TUTOR_MOVE_WILD_CHARGE
+
+tutordata SPECIES_JIRACHI,\
+TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AURA_SPHERE | TUTOR_MOVE_CHARM | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_METEOR_BEAM | TUTOR_MOVE_PLAY_ROUGH | TUTOR_MOVE_STORED_POWER
+
+// NEW: Meteor Beam
+tutordata SPECIES_DEOXYS,\
+TUTOR_MOVE_BRUTAL_SWING | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_SUPERPOWER | TUTOR_MOVE_METEOR_BEAM
+
+// NEW: Bulldoze (PLA), Trailblaze
+tutordata SPECIES_TURTWIG,\
+TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_TRAILBLAZE,\
+TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_HEAVY_SLAM | TUTOR_MOVE_SUPERPOWER
+
+// NEW: Bulldoze (PLA), Trailblaze
+tutordata SPECIES_GROTLE,\
+TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_TRAILBLAZE,\
+TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_HEAVY_SLAM | TUTOR_MOVE_SUPERPOWER
+
+// NEW: Trailblaze
+tutordata SPECIES_TORTERRA,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_TRAILBLAZE,\
+TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_HEAVY_SLAM | TUTOR_MOVE_OUTRAGE | TUTOR_MOVE_SUPERPOWER
+
+// NEW: Double-Edge (PLA)
+tutordata SPECIES_CHIMCHAR,\
+TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_FIRE_PUNCH | TUTOR_MOVE_HEAT_WAVE,\
+TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_GUNK_SHOT | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Double-Edge (PLA)
+tutordata SPECIES_MONFERNO,\
+TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_FIRE_PUNCH | TUTOR_MOVE_HEAT_WAVE,\
+TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_CLOSE_COMBAT | TUTOR_MOVE_FLARE_BLITZ | TUTOR_MOVE_GUNK_SHOT | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Double-Edge (PLA), Aura Sphere
+tutordata SPECIES_INFERNAPE,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_FIRE_PUNCH | TUTOR_MOVE_HEAT_WAVE | TUTOR_MOVE_AURA_SPHERE,\
+TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_CLOSE_COMBAT | TUTOR_MOVE_FLARE_BLITZ | TUTOR_MOVE_GUNK_SHOT | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Chilling Water, Double-Edge (PLA)
+tutordata SPECIES_PIPLUP,\
+TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_CHILLING_WATER,\
+TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_HYDRO_PUMP | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Chilling Water, Double-Edge (PLA), Dual Wingbeat
+tutordata SPECIES_PRINPLUP,\
+TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_DUAL_WINGBEAT,\
+TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_HYDRO_PUMP | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Chilling Water, Double-Edge (PLA), Dual Wingbeat, Iron Head, Flip Turn
+tutordata SPECIES_EMPOLEON,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_DUAL_WINGBEAT | TUTOR_MOVE_FLIP_TURN, \
+TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_HYDRO_PUMP | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_IRON_HEAD
+
+// NEW: Dual Wingbeat (HOME)
+tutordata SPECIES_STARLY,\
+TUTOR_MOVE_AIR_CUTTER | TUTOR_MOVE_OMINOUS_WIND | TUTOR_MOVE_HEAT_WAVE | TUTOR_MOVE_DUAL_WINGBEAT,\
+TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HURRICANE
+
+// NEW: Dual Wingbeat (HOME)
+tutordata SPECIES_STARAVIA,\
+TUTOR_MOVE_AIR_CUTTER | TUTOR_MOVE_OMINOUS_WIND | TUTOR_MOVE_HEAT_WAVE | TUTOR_MOVE_DUAL_WINGBEAT,\
+TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HURRICANE
+
+// NEW: Dual Wingbeat (HOME)
+tutordata SPECIES_STARAPTOR,\
+TUTOR_MOVE_AIR_CUTTER | TUTOR_MOVE_OMINOUS_WIND | TUTOR_MOVE_HEAT_WAVE | TUTOR_MOVE_DUAL_WINGBEAT,\
+TUTOR_MOVE_CLOSE_COMBAT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HURRICANE
+
+tutordata SPECIES_BIDOOF,\
+TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_AQUA_TAIL,\
+TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_SUPERPOWER
+
+// NEW: Chilling Water
+tutordata SPECIES_BIBAREL,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_CHILLING_WATER,\
+TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_SUPERPOWER
+
+tutordata SPECIES_KRICKETOT,\
+0,\
+0
+
+// NEW: Double-Edge
+tutordata SPECIES_KRICKETUNE,\
+TUTOR_MOVE_POUNCE | TUTOR_MOVE_SILVER_WIND | TUTOR_MOVE_TRAILBLAZE,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Double-Edge
+tutordata SPECIES_SHINX,\
+TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_TRAILBLAZE,\
+TUTOR_MOVE_PSYCHIC_FANGS | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_VOLT_SWITCH | TUTOR_MOVE_PLAY_ROUGH | TUTOR_MOVE_WILD_CHARGE | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Double-Edge
+tutordata SPECIES_LUXIO,\
+TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_TRAILBLAZE,\
+TUTOR_MOVE_PSYCHIC_FANGS | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_VOLT_SWITCH | TUTOR_MOVE_PLAY_ROUGH | TUTOR_MOVE_WILD_CHARGE | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Double-Edge
+tutordata SPECIES_LUXRAY,\
+TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_TRAILBLAZE,\
+TUTOR_MOVE_PSYCHIC_FANGS | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_VOLT_SWITCH | TUTOR_MOVE_PLAY_ROUGH | TUTOR_MOVE_SUPERPOWER | TUTOR_MOVE_WILD_CHARGE | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Trailblaze
+tutordata SPECIES_BUDEW,\
+TUTOR_MOVE_TRAILBLAZE,\
+TUTOR_MOVE_SEED_BOMB
+
+// NEW: Trailblaze
+tutordata SPECIES_ROSERADE,\
+TUTOR_MOVE_MAGICAL_LEAF | TUTOR_MOVE_TRAILBLAZE,\
+TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_POWER_WHIP
+
+// NEW: Meteor Beam (HOME)
+tutordata SPECIES_CRANIDOS,\
+TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_SUPERPOWER | TUTOR_MOVE_METEOR_BEAM
+
+// NEW: Meteor Beam (HOME)
+tutordata SPECIES_RAMPARDOS,\
+TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_DRAGON_TAIL | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_OUTRAGE | TUTOR_MOVE_SUPERPOWER | TUTOR_MOVE_METEOR_BEAM
+
+// NEW: Meteor Beam (HOME)
+tutordata SPECIES_SHIELDON,\
+TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_SHOCK_WAVE,\
+TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_HEAVY_SLAM | TUTOR_MOVE_METEOR_BEAM
+
+// NEW: Meteor Beam (HOME)
+tutordata SPECIES_BASTIODON,\
+TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_SHOCK_WAVE,\
+TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_HEAVY_SLAM | TUTOR_MOVE_OUTRAGE | TUTOR_MOVE_METEOR_BEAM
+
+tutordata SPECIES_BURMY,\
+TUTOR_MOVE_ELECTROWEB,\
+0
+
+// NEW: Dual Wingbeat (HOME)
+tutordata SPECIES_WORMADAM,\
+TUTOR_MOVE_ELECTROWEB | TUTOR_MOVE_PSYBEAM | TUTOR_MOVE_DUAL_WINGBEAT,\
+TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_SUCKER_PUNCH
+
+// NEW: Double-Edge, Dual Wingbeat (HOME), Hurricane
+tutordata SPECIES_MOTHIM,\
+TUTOR_MOVE_AIR_CUTTER | TUTOR_MOVE_ELECTROWEB | TUTOR_MOVE_OMINOUS_WIND | TUTOR_MOVE_PSYBEAM | TUTOR_MOVE_SILVER_WIND | TUTOR_MOVE_DUAL_WINGBEAT,\
+TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HURRICANE
+
+tutordata SPECIES_COMBEE,\
+TUTOR_MOVE_AIR_CUTTER | TUTOR_MOVE_OMINOUS_WIND | TUTOR_MOVE_DUAL_WINGBEAT,\
+0
+
+// NEW: Double-Edge
+tutordata SPECIES_VESPIQUEN,\
+TUTOR_MOVE_AIR_CUTTER | TUTOR_MOVE_OMINOUS_WIND | TUTOR_MOVE_POUNCE | TUTOR_MOVE_SILVER_WIND | TUTOR_MOVE_CROSS_POISON | TUTOR_MOVE_DUAL_WINGBEAT,\
+TUTOR_MOVE_HEX | TUTOR_MOVE_POWER_GEM | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_HURRICANE | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Double-Edge
+tutordata SPECIES_PACHIRISU,\
+TUTOR_MOVE_ELECTROWEB | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_CHARM,\
+TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_VOLT_SWITCH | TUTOR_MOVE_GUNK_SHOT | TUTOR_MOVE_PLAY_ROUGH | TUTOR_MOVE_WILD_CHARGE | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Double-Edge, Flip Turn (HOME)
+tutordata SPECIES_BUIZEL,\
+TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_FLIP_TURN,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_HYDRO_PUMP | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Double-Edge, Flip Turn (HOME)
+tutordata SPECIES_FLOATZEL,\
+TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_FLIP_TURN,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_HYDRO_PUMP | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Double-Edge (PLA), Trailblaze
+tutordata SPECIES_CHERUBI,\
+TUTOR_MOVE_DRAINING_KISS | TUTOR_MOVE_MAGICAL_LEAF | TUTOR_MOVE_TRAILBLAZE,\
+TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Double-Edge (PLA), Trailblaze
+tutordata SPECIES_CHERRIM,\
+TUTOR_MOVE_DRAINING_KISS | TUTOR_MOVE_MAGICAL_LEAF | TUTOR_MOVE_TRAILBLAZE,\
+TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_PLAY_ROUGH | TUTOR_MOVE_DOUBLE_EDGE
+
+tutordata SPECIES_SHELLOS,\
+TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_WATER_PULSE,\
+TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_HYDRO_PUMP
+
+tutordata SPECIES_GASTRODON,\
+TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_WATER_PULSE,\
+TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_HYDRO_PUMP
+
+tutordata SPECIES_AMBIPOM,\
+TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_GUNK_SHOT
+
+tutordata SPECIES_DRIFLOON,\
+TUTOR_MOVE_AIR_CUTTER | TUTOR_MOVE_BRUTAL_SWING | TUTOR_MOVE_GYRO_BALL | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_OMINOUS_WIND | TUTOR_MOVE_PSYBEAM | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_SILVER_WIND,\
+TUTOR_MOVE_HEX | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_STORED_POWER
+
+// NEW: Hurricane
+tutordata SPECIES_DRIFBLIM,\
+TUTOR_MOVE_AIR_CUTTER | TUTOR_MOVE_BRUTAL_SWING | TUTOR_MOVE_GYRO_BALL | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_OMINOUS_WIND | TUTOR_MOVE_PSYBEAM | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_SILVER_WIND,\
+TUTOR_MOVE_HEX | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_STORED_POWER | TUTOR_MOVE_HURRICANE
+
+// NEW: Double-Edge (PLA)
+tutordata SPECIES_BUNEARY,\
+TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_CHARM | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_PLAY_ROUGH | TUTOR_MOVE_TRIPLE_AXEL | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Double-Edge (PLA)
+tutordata SPECIES_LOPUNNY,\
+TUTOR_MOVE_BRUTAL_SWING | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AURA_SPHERE | TUTOR_MOVE_CHARM | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_CLOSE_COMBAT | TUTOR_MOVE_PLAY_ROUGH | TUTOR_MOVE_TRIPLE_AXEL | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Poltergeist
+tutordata SPECIES_MISMAGIUS,\
+TUTOR_MOVE_DRAINING_KISS | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_MAGICAL_LEAF | TUTOR_MOVE_OMINOUS_WIND | TUTOR_MOVE_PSYBEAM | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_CHARM,\
+TUTOR_MOVE_HEX | TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_POWER_GEM | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_STORED_POWER | TUTOR_MOVE_POLTERGEIST
+
+// NEW: Dual Wingbeat (HOME)
+tutordata SPECIES_HONCHKROW,\
+TUTOR_MOVE_AIR_CUTTER | TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_OMINOUS_WIND | TUTOR_MOVE_HEAT_WAVE | TUTOR_MOVE_DUAL_WINGBEAT,\
+TUTOR_MOVE_HEX | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_HURRICANE | TUTOR_MOVE_SUPERPOWER
+
+// NEW: Double-Edge (PLA)
+tutordata SPECIES_GLAMEOW,\
+TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_CHARM,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_PLAY_ROUGH | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Double-Edge (PLA)
+tutordata SPECIES_PURUGLY,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_CHARM,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Ominous Wind (PLA)
+tutordata SPECIES_CHINGLING,\
+TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_OMINOUS_WIND,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_STORED_POWER
+
+tutordata SPECIES_STUNKY,\
+TUTOR_MOVE_ACID_SPRAY | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_TRAILBLAZE,\
+TUTOR_MOVE_HEX | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_GUNK_SHOT | TUTOR_MOVE_PLAY_ROUGH
+
+tutordata SPECIES_SKUNTANK,\
+TUTOR_MOVE_ACID_SPRAY | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_TRAILBLAZE,\
+TUTOR_MOVE_HEX | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_GUNK_SHOT | TUTOR_MOVE_PLAY_ROUGH
+
+tutordata SPECIES_BRONZOR,\
+TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_GYRO_BALL,\
+TUTOR_MOVE_HEX | TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_POWER_GEM | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_HEAVY_SLAM | TUTOR_MOVE_STORED_POWER
+
+tutordata SPECIES_BRONZONG,\
+TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_GYRO_BALL | TUTOR_MOVE_PSYBEAM,\
+TUTOR_MOVE_HEX | TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_POWER_GEM | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_HEAVY_SLAM | TUTOR_MOVE_METEOR_BEAM | TUTOR_MOVE_STORED_POWER
+
+tutordata SPECIES_BONSLY,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_TRAILBLAZE,\
+TUTOR_MOVE_POWER_GEM | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_FOUL_PLAY
+
+tutordata SPECIES_MIMEJR,\
+TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_PSYBEAM | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_CHARM,\
+TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_STORED_POWER
+
+tutordata SPECIES_HAPPINY,\
+TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_CHARM,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_STORED_POWER
+
+// NEW: Double-Edge, Dual Wingbeat (HOME)
+tutordata SPECIES_CHATOT,\
+TUTOR_MOVE_AIR_CUTTER | TUTOR_MOVE_OMINOUS_WIND | TUTOR_MOVE_HEAT_WAVE | TUTOR_MOVE_DUAL_WINGBEAT,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_DOUBLE_EDGE
+
+tutordata SPECIES_SPIRITOMB,\
+TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_OMINOUS_WIND | TUTOR_MOVE_PSYBEAM | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_SILVER_WIND | TUTOR_MOVE_WATER_PULSE,\
+TUTOR_MOVE_HEX | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_POLTERGEIST | TUTOR_MOVE_STORED_POWER
+
+tutordata SPECIES_GIBLE,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_DRAGON_TAIL,\
+TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_OUTRAGE
+
+tutordata SPECIES_GABITE,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_DRAGON_TAIL,\
+TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_POWER_GEM | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_OUTRAGE
+
+tutordata SPECIES_GARCHOMP,\
+TUTOR_MOVE_BREAKING_SWIPE | TUTOR_MOVE_BRUTAL_SWING | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_DRAGON_TAIL,\
+TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_POWER_GEM | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_OUTRAGE
+
+tutordata SPECIES_MUNCHLAX,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_CHARM | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_GUNK_SHOT | TUTOR_MOVE_HYDRO_PUMP | TUTOR_MOVE_SUPERPOWER
+
+// NEW: Double-Edge, Aura Sphere (PLA)
+tutordata SPECIES_RIOLU,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_AURA_SPHERE,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_CLOSE_COMBAT | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Double-Edge
+tutordata SPECIES_LUCARIO,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AURA_SPHERE,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_CLOSE_COMBAT | TUTOR_MOVE_DOUBLE_EDGE
+
+tutordata SPECIES_HIPPOPOTAS,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_WATER_PULSE,\
+TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_SUPERPOWER
+
+tutordata SPECIES_HIPPOWDON,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_WATER_PULSE,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_HEAVY_SLAM | TUTOR_MOVE_SUPERPOWER
+
+// NEW: Double-Edge, Pounce
+tutordata SPECIES_SKORUPI,\
+TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_CROSS_POISON | TUTOR_MOVE_POUNCE,\
+TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Double-Edge, Pounce
+tutordata SPECIES_DRAPION,\
+TUTOR_MOVE_BRUTAL_SWING | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_CROSS_POISON | TUTOR_MOVE_POUNCE,\
+TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Double-Edge
+tutordata SPECIES_CROAGUNK,\
+TUTOR_MOVE_ACID_SPRAY | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_LOW_KICK,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_GUNK_SHOT | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Double-Edge
+tutordata SPECIES_TOXICROAK,\
+TUTOR_MOVE_ACID_SPRAY | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_CROSS_POISON,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_CLOSE_COMBAT | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_GUNK_SHOT | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Double-Edge, Trailblaze
+tutordata SPECIES_CARNIVINE,\
+TUTOR_MOVE_ACID_SPRAY | TUTOR_MOVE_MAGICAL_LEAF | TUTOR_MOVE_TRAILBLAZE,\
+TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_POWER_WHIP | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Double-Edge, Dual Wingbeat (HOME), Flip Turn (HOME)
+tutordata SPECIES_FINNEON,\
+TUTOR_MOVE_AIR_CUTTER | TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_OMINOUS_WIND | TUTOR_MOVE_PSYBEAM | TUTOR_MOVE_SILVER_WIND | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_CHARM | TUTOR_MOVE_DUAL_WINGBEAT | TUTOR_MOVE_FLIP_TURN,\
+TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_HYDRO_PUMP | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Double-Edge, Dual Wingbeat (HOME), Flip Turn (HOME), Triple Axel (HOME)
+tutordata SPECIES_LUMINEON,\
+TUTOR_MOVE_AIR_CUTTER | TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_OMINOUS_WIND | TUTOR_MOVE_PSYBEAM | TUTOR_MOVE_SILVER_WIND | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_CHARM | TUTOR_MOVE_DUAL_WINGBEAT | TUTOR_MOVE_FLIP_TURN,\
+TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_HYDRO_PUMP | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HURRICANE | TUTOR_MOVE_TRIPLE_AXEL
+
+// NEW: Chilling Water
+tutordata SPECIES_MANTYKE,\
+TUTOR_MOVE_AIR_CUTTER | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_CHILLING_WATER,\
+TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_HYDRO_PUMP
+
+tutordata SPECIES_SNOVER,\
+TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_MAGICAL_LEAF | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_WATER_PULSE,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_DOUBLE_EDGE
+
+tutordata SPECIES_ABOMASNOW,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_MAGICAL_LEAF | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_WATER_PULSE,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_OUTRAGE
+
+tutordata SPECIES_WEAVILE,\
+TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_WATER_PULSE,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_TRIPLE_AXEL
+
+tutordata SPECIES_MAGNEZONE,\
+TUTOR_MOVE_ELECTROWEB | TUTOR_MOVE_GYRO_BALL | TUTOR_MOVE_SHOCK_WAVE,\
+TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_VOLT_SWITCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HEAVY_SLAM | TUTOR_MOVE_WILD_CHARGE
+
+tutordata SPECIES_LICKILICKY,\
+TUTOR_MOVE_BRUTAL_SWING | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_GYRO_BALL | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_DRAGON_TAIL | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HYDRO_PUMP | TUTOR_MOVE_POWER_WHIP
+
+tutordata SPECIES_RHYPERIOR,\
+TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_BREAKING_SWIPE | TUTOR_MOVE_BRUTAL_SWING | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_DRAGON_TAIL | TUTOR_MOVE_DRILL_RUN | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_HEAVY_SLAM | TUTOR_MOVE_HYDRO_PUMP | TUTOR_MOVE_MEGAHORN | TUTOR_MOVE_METEOR_BEAM | TUTOR_MOVE_OUTRAGE | TUTOR_MOVE_SUPERPOWER
+
+// NEW: Trailblaze
+tutordata SPECIES_TANGROWTH,\
+TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_BRUTAL_SWING | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_TRAILBLAZE,\
+TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_POWER_WHIP
+
+// NEW: Close Combat
+tutordata SPECIES_ELECTIVIRE,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_ELECTROWEB | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_VOLT_SWITCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_WILD_CHARGE | TUTOR_MOVE_CLOSE_COMBAT
+
+// NEW: Aura Sphere
+tutordata SPECIES_MAGMORTAR,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_FIRE_PUNCH | TUTOR_MOVE_HEAT_WAVE | TUTOR_MOVE_AURA_SPHERE,\
+TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_FLARE_BLITZ
+
+tutordata SPECIES_TOGEKISS,\
+TUTOR_MOVE_AIR_CUTTER | TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_DRAINING_KISS | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_MAGICAL_LEAF | TUTOR_MOVE_OMINOUS_WIND | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_SILVER_WIND | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AURA_SPHERE | TUTOR_MOVE_CHARM | TUTOR_MOVE_DUAL_WINGBEAT | TUTOR_MOVE_HEAT_WAVE,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_PLAY_ROUGH | TUTOR_MOVE_STORED_POWER
+
+// NEW: Dual Wingbeat (HOME), Hurricane (HOME), Pounce
+tutordata SPECIES_YANMEGA,\
+TUTOR_MOVE_AIR_CUTTER | TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_OMINOUS_WIND | TUTOR_MOVE_SILVER_WIND | TUTOR_MOVE_DUAL_WINGBEAT | TUTOR_MOVE_POUNCE,\
+TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HURRICANE
+
+tutordata SPECIES_LEAFEON,\
+TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_MAGICAL_LEAF | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_CHARM,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_STORED_POWER
+
+// NEW: Power Gem
+tutordata SPECIES_GLACEON,\
+TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_CHARM,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_STORED_POWER | TUTOR_MOVE_TRIPLE_AXEL | TUTOR_MOVE_POWER_GEM
+
+// NEW: Dual Wingbeat (HOME), Power Whip (HOME), Psychic Fangs (HOME)
+tutordata SPECIES_GLISCOR,\
+TUTOR_MOVE_BRUTAL_SWING | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_CROSS_POISON | TUTOR_MOVE_DUAL_WINGBEAT,\
+TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_POWER_WHIP | TUTOR_MOVE_PSYCHIC_FANGS
+
+tutordata SPECIES_MAMOSWINE,\
+TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND,\
+TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_HEAVY_SLAM | TUTOR_MOVE_SUPERPOWER
+
+tutordata SPECIES_PORYGON_Z,\
+TUTOR_MOVE_ELECTROWEB | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_PSYBEAM | TUTOR_MOVE_SHOCK_WAVE,\
+TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_FOUL_PLAY
+
+tutordata SPECIES_GALLADE,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_DRAINING_KISS | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_MAGICAL_LEAF | TUTOR_MOVE_PSYBEAM | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_AURA_SPHERE | TUTOR_MOVE_CHARM | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_HEX | TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_CLOSE_COMBAT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_STORED_POWER | TUTOR_MOVE_TRIPLE_AXEL
+
+// NEW: Meteor Beam (HOME)
+tutordata SPECIES_PROBOPASS,\
+TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_POWER_GEM | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_VOLT_SWITCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_METEOR_BEAM
+
+// NEW: Pounce
+tutordata SPECIES_DUSKNOIR,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_OMINOUS_WIND | TUTOR_MOVE_FIRE_PUNCH | TUTOR_MOVE_POUNCE,\
+TUTOR_MOVE_HEX | TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_POLTERGEIST
+
+tutordata SPECIES_FROSLASS,\
+TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_DRAINING_KISS | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_OMINOUS_WIND | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_CHARM,\
+TUTOR_MOVE_HEX | TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_POLTERGEIST | TUTOR_MOVE_TRIPLE_AXEL
+
+tutordata SPECIES_ROTOM,\
+TUTOR_MOVE_ELECTROWEB | TUTOR_MOVE_OMINOUS_WIND | TUTOR_MOVE_SHOCK_WAVE,\
+TUTOR_MOVE_HEX | TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_VOLT_SWITCH | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_POLTERGEIST | TUTOR_MOVE_STORED_POWER
+
+// NEW: Double-Edge
+tutordata SPECIES_UXIE,\
+TUTOR_MOVE_DRAINING_KISS | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_PSYBEAM | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_PLAY_ROUGH | TUTOR_MOVE_STORED_POWER | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Double-Edge
+tutordata SPECIES_MESPRIT,\
+TUTOR_MOVE_DRAINING_KISS | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_PSYBEAM | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_CHARM | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_PLAY_ROUGH | TUTOR_MOVE_STORED_POWER | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Double-Edge
+tutordata SPECIES_AZELF,\
+TUTOR_MOVE_DRAINING_KISS | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_PSYBEAM | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_PLAY_ROUGH | TUTOR_MOVE_STORED_POWER | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Double-Edge
+tutordata SPECIES_DIALGA,\
+TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_BREAKING_SWIPE | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_AURA_SPHERE | TUTOR_MOVE_DRAGON_TAIL,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_POWER_GEM | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_HEAVY_SLAM | TUTOR_MOVE_OUTRAGE | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Double-Edge
+tutordata SPECIES_PALKIA,\
+TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_BREAKING_SWIPE | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_AURA_SPHERE | TUTOR_MOVE_DRAGON_TAIL | TUTOR_MOVE_DUAL_WINGBEAT,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_POWER_GEM | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_HEAVY_SLAM | TUTOR_MOVE_HYDRO_PUMP | TUTOR_MOVE_OUTRAGE | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Double-Edge
+tutordata SPECIES_HEATRAN,\
+TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_POUNCE | TUTOR_MOVE_HEAT_WAVE,\
+TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_POWER_GEM | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_FLARE_BLITZ | TUTOR_MOVE_HEAVY_SLAM | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Double-Edge
+tutordata SPECIES_REGIGIGAS,\
+TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_HEAVY_SLAM | TUTOR_MOVE_SUPERPOWER | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Double-Edge
+tutordata SPECIES_GIRATINA,\
+TUTOR_MOVE_AIR_CUTTER | TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_BREAKING_SWIPE | TUTOR_MOVE_BRUTAL_SWING | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_OMINOUS_WIND | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_SILVER_WIND | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_AURA_SPHERE | TUTOR_MOVE_DRAGON_TAIL | TUTOR_MOVE_DUAL_WINGBEAT,\
+TUTOR_MOVE_HEX | TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_OUTRAGE | TUTOR_MOVE_POLTERGEIST | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Double-Edge
+tutordata SPECIES_CRESSELIA,\
+TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_PSYBEAM,\
+TUTOR_MOVE_POWER_GEM | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_STORED_POWER | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Chilling Water, Double-Edge, Flip Turn (HOME), Hydro Pump (PLA), Zen Headbutt (PLA)
+tutordata SPECIES_PHIONE,\
+TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_CHARM | TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_FLIP_TURN,\
+TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HYDRO_PUMP | TUTOR_MOVE_ZEN_HEADBUTT
+
+// NEW: Chilling Water, Double-Edge, Flip Turn (HOME), Hydro Pump (PLA), Zen Headbutt (PLA)
+tutordata SPECIES_MANAPHY,\
+TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_CHARM | TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_FLIP_TURN,\
+TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HYDRO_PUMP | TUTOR_MOVE_ZEN_HEADBUTT
+
+tutordata SPECIES_DARKRAI,\
+TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_OMINOUS_WIND | TUTOR_MOVE_SHOCK_WAVE,\
+TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_FOUL_PLAY
+
+// NEW: Double-Edge, Trailblaze
+tutordata SPECIES_SHAYMIN,\
+TUTOR_MOVE_AIR_CUTTER | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_MAGICAL_LEAF | TUTOR_MOVE_OMINOUS_WIND | TUTOR_MOVE_TRAILBLAZE,\
+TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Double-Edge
+tutordata SPECIES_ARCEUS,\
+TUTOR_MOVE_ACID_SPRAY | TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_MAGICAL_LEAF | TUTOR_MOVE_OMINOUS_WIND | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_SILVER_WIND | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_AURA_SPHERE | TUTOR_MOVE_DRAGON_TAIL | TUTOR_MOVE_HEAT_WAVE,\
+TUTOR_MOVE_HEX | TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_POWER_GEM | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_FLARE_BLITZ | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_GUNK_SHOT | TUTOR_MOVE_HEAVY_SLAM | TUTOR_MOVE_HURRICANE | TUTOR_MOVE_HYDRO_PUMP | TUTOR_MOVE_OUTRAGE | TUTOR_MOVE_STORED_POWER | TUTOR_MOVE_WILD_CHARGE | TUTOR_MOVE_DOUBLE_EDGE
+
+tutordata SPECIES_EGG, 0, 0
+tutordata SPECIES_BAD_EGG, 0, 0
+
+// NEW: Meteor Beam
+tutordata SPECIES_DEOXYS_ATTACK, TUTOR_MOVE_BRUTAL_SWING | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_FIRE_PUNCH, TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_SUPERPOWER | TUTOR_MOVE_METEOR_BEAM
+tutordata SPECIES_DEOXYS_DEFENSE, TUTOR_MOVE_BRUTAL_SWING | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_FIRE_PUNCH, TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_SUPERPOWER | TUTOR_MOVE_METEOR_BEAM
+tutordata SPECIES_DEOXYS_SPEED, TUTOR_MOVE_BRUTAL_SWING | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_FIRE_PUNCH, TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_SUPERPOWER | TUTOR_MOVE_METEOR_BEAM
+
+// NEW: Dual Wingbeat (HOME)
+tutordata SPECIES_WORMADAM_SANDY, TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_ELECTROWEB | TUTOR_MOVE_PSYBEAM | TUTOR_MOVE_DUAL_WINGBEAT, TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_EARTH_POWER
+tutordata SPECIES_WORMADAM_TRASHY, TUTOR_MOVE_ELECTROWEB | TUTOR_MOVE_GYRO_BALL | TUTOR_MOVE_PSYBEAM | TUTOR_MOVE_DUAL_WINGBEAT, TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_GUNK_SHOT
+
+// NEW: Double-Edge
+tutordata SPECIES_GIRATINA_ORIGIN, TUTOR_MOVE_AIR_CUTTER | TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_BREAKING_SWIPE | TUTOR_MOVE_BRUTAL_SWING | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_OMINOUS_WIND | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_SILVER_WIND | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_AURA_SPHERE | TUTOR_MOVE_DRAGON_TAIL | TUTOR_MOVE_DUAL_WINGBEAT, TUTOR_MOVE_HEX | TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_OUTRAGE | TUTOR_MOVE_POLTERGEIST | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Double-Edge, Trailblaze
+tutordata SPECIES_SHAYMIN_SKY, TUTOR_MOVE_AIR_CUTTER | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_MAGICAL_LEAF | TUTOR_MOVE_OMINOUS_WIND | TUTOR_MOVE_TRAILBLAZE, TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_DOUBLE_EDGE
+
+tutordata SPECIES_ROTOM_HEAT, TUTOR_MOVE_ELECTROWEB | TUTOR_MOVE_OMINOUS_WIND | TUTOR_MOVE_SHOCK_WAVE, TUTOR_MOVE_HEX | TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_VOLT_SWITCH | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_POLTERGEIST | TUTOR_MOVE_STORED_POWER
+tutordata SPECIES_ROTOM_WASH, TUTOR_MOVE_ELECTROWEB | TUTOR_MOVE_OMINOUS_WIND | TUTOR_MOVE_SHOCK_WAVE, TUTOR_MOVE_HEX | TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_VOLT_SWITCH | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_POLTERGEIST | TUTOR_MOVE_STORED_POWER
+tutordata SPECIES_ROTOM_FROST, TUTOR_MOVE_ELECTROWEB | TUTOR_MOVE_OMINOUS_WIND | TUTOR_MOVE_SHOCK_WAVE, TUTOR_MOVE_HEX | TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_VOLT_SWITCH | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_POLTERGEIST | TUTOR_MOVE_STORED_POWER
+tutordata SPECIES_ROTOM_FAN, TUTOR_MOVE_ELECTROWEB | TUTOR_MOVE_OMINOUS_WIND | TUTOR_MOVE_SHOCK_WAVE, TUTOR_MOVE_HEX | TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_VOLT_SWITCH | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_POLTERGEIST | TUTOR_MOVE_STORED_POWER
+tutordata SPECIES_ROTOM_MOW, TUTOR_MOVE_ELECTROWEB | TUTOR_MOVE_OMINOUS_WIND | TUTOR_MOVE_SHOCK_WAVE, TUTOR_MOVE_HEX | TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_VOLT_SWITCH | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_POLTERGEIST | TUTOR_MOVE_STORED_POWER
 
 tutordata SPECIES_508, \
                   \
@@ -5965,1577 +2603,688 @@ tutordata SPECIES_VICTINI, \
                   \
                   0
 
-tutordata SPECIES_SNIVY, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-tutordata SPECIES_SERVINE, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_SERPERIOR, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_TEPIG, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_PIGNITE, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_EMBOAR, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_OSHAWOTT, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_DEWOTT, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_SAMUROTT, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_PATRAT, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_WATCHOG, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_LILLIPUP, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_HERDIER, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_STOUTLAND, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_PURRLOIN, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_LIEPARD, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_PANSAGE, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_SIMISAGE, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_PANSEAR, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_SIMISEAR, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_PANPOUR, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_SIMIPOUR, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_MUNNA, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_MUSHARNA, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_PIDOVE, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_TRANQUILL, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_UNFEZANT, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_BLITZLE, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_ZEBSTRIKA, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_ROGGENROLA, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_BOLDORE, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_GIGALITH, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_WOOBAT, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_SWOOBAT, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_DRILBUR, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_EXCADRILL, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_AUDINO, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_TIMBURR, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_GURDURR, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_CONKELDURR, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_TYMPOLE, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_PALPITOAD, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_SEISMITOAD, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_THROH, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_SAWK, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_SEWADDLE, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_SWADLOON, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_LEAVANNY, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_VENIPEDE, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_WHIRLIPEDE, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_SCOLIPEDE, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_COTTONEE, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_WHIMSICOTT, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_PETILIL, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_LILLIGANT, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_BASCULIN, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_SANDILE, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_KROKOROK, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_KROOKODILE, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_DARUMAKA, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_DARMANITAN, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_MARACTUS, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_DWEBBLE, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_CRUSTLE, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_SCRAGGY, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_SCRAFTY, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_SIGILYPH, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_YAMASK, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_COFAGRIGUS, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_TIRTOUGA, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_CARRACOSTA, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_ARCHEN, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_ARCHEOPS, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_TRUBBISH, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_GARBODOR, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_ZORUA, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_ZOROARK, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_MINCCINO, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_CINCCINO, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_GOTHITA, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_GOTHORITA, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_GOTHITELLE, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_SOLOSIS, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_DUOSION, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_REUNICLUS, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_DUCKLETT, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_SWANNA, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_VANILLITE, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_VANILLISH, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_VANILLUXE, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_DEERLING, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_SAWSBUCK, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_EMOLGA, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_KARRABLAST, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_ESCAVALIER, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_FOONGUS, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_AMOONGUSS, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_FRILLISH, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_JELLICENT, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_ALOMOMOLA, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_JOLTIK, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_GALVANTULA, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_FERROSEED, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_FERROTHORN, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_KLINK, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_KLANG, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_KLINKLANG, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_TYNAMO, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_EELEKTRIK, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_EELEKTROSS, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_ELGYEM, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_BEHEEYEM, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_LITWICK, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_LAMPENT, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_CHANDELURE, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_AXEW, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_FRAXURE, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_HAXORUS, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_CUBCHOO, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_BEARTIC, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_CRYOGONAL, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_SHELMET, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_ACCELGOR, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_STUNFISK, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_MIENFOO, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_MIENSHAO, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_DRUDDIGON, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_GOLETT, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_GOLURK, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_PAWNIARD, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_BISHARP, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_BOUFFALANT, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_RUFFLET, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_BRAVIARY, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_VULLABY, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_MANDIBUZZ, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_HEATMOR, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_DURANT, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_DEINO, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_ZWEILOUS, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_HYDREIGON, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_LARVESTA, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_VOLCARONA, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
+// NEW: Breaking Swipe, Double-Edge, Trailblaze
+tutordata SPECIES_SNIVY,\
+TUTOR_MOVE_MAGICAL_LEAF | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_BREAKING_SWIPE | TUTOR_MOVE_TRAILBLAZE,\
+TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Breaking Swipe, Double-Edge, Trailblaze
+tutordata SPECIES_SERVINE,\
+TUTOR_MOVE_MAGICAL_LEAF | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_BREAKING_SWIPE | TUTOR_MOVE_TRAILBLAZE,\
+TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Breaking Swipe, Double-Edge, Trailblaze
+tutordata SPECIES_SERPERIOR,\
+TUTOR_MOVE_BRUTAL_SWING | TUTOR_MOVE_MAGICAL_LEAF | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_DRAGON_TAIL | TUTOR_MOVE_BREAKING_SWIPE | TUTOR_MOVE_TRAILBLAZE,\
+TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_OUTRAGE | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Double-Edge
+tutordata SPECIES_TEPIG,\
+TUTOR_MOVE_GYRO_BALL | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_HEAT_WAVE,\
+TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_FLARE_BLITZ | TUTOR_MOVE_HEAVY_SLAM | TUTOR_MOVE_SUPERPOWER | TUTOR_MOVE_WILD_CHARGE | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Double-Edge
+tutordata SPECIES_PIGNITE,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_GYRO_BALL | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_FIRE_PUNCH | TUTOR_MOVE_HEAT_WAVE,\
+TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_FLARE_BLITZ | TUTOR_MOVE_HEAVY_SLAM | TUTOR_MOVE_SUPERPOWER | TUTOR_MOVE_WILD_CHARGE | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Double-Edge
+tutordata SPECIES_EMBOAR,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_GYRO_BALL | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_FIRE_PUNCH | TUTOR_MOVE_HEAT_WAVE,\
+TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_FLARE_BLITZ | TUTOR_MOVE_HEAVY_SLAM | TUTOR_MOVE_SUPERPOWER | TUTOR_MOVE_WILD_CHARGE | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Chilling Water, Double-Edge
+tutordata SPECIES_OSHAWOTT,\
+TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_CHILLING_WATER,\
+TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_HYDRO_PUMP | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Chilling Water, Double-Edge
+tutordata SPECIES_DEWOTT,\
+TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_CHILLING_WATER,\
+TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_HYDRO_PUMP | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Chilling Water, Double-Edge
+tutordata SPECIES_SAMUROTT,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_DRAGON_TAIL | TUTOR_MOVE_DRILL_RUN | TUTOR_MOVE_CHILLING_WATER,\
+TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_HYDRO_PUMP | TUTOR_MOVE_MEGAHORN | TUTOR_MOVE_SUPERPOWER | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Double-Edge, Trailblaze
+tutordata SPECIES_PATRAT,\
+TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_TRAILBLAZE,\
+TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_GUNK_SHOT | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Double-Edge, Trailblaze
+tutordata SPECIES_WATCHOG,\
+TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_FIRE_PUNCH | TUTOR_MOVE_TRAILBLAZE,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_GUNK_SHOT | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Double-Edge, Trailblaze
+tutordata SPECIES_LILLIPUP,\
+TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_CHARM | TUTOR_MOVE_TRAILBLAZE,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_PSYCHIC_FANGS | TUTOR_MOVE_PLAY_ROUGH | TUTOR_MOVE_WILD_CHARGE | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Double-Edge, Trailblaze
+tutordata SPECIES_HERDIER,\
+TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_CHARM | TUTOR_MOVE_TRAILBLAZE,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_PSYCHIC_FANGS | TUTOR_MOVE_PLAY_ROUGH | TUTOR_MOVE_WILD_CHARGE | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Double-Edge, Trailblaze
+tutordata SPECIES_STOUTLAND,\
+TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_CHARM | TUTOR_MOVE_TRAILBLAZE,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_PSYCHIC_FANGS | TUTOR_MOVE_PLAY_ROUGH | TUTOR_MOVE_SUPERPOWER | TUTOR_MOVE_WILD_CHARGE | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Double-Edge, Trailblaze
+tutordata SPECIES_PURRLOIN,\
+TUTOR_MOVE_CHARM | TUTOR_MOVE_TRAILBLAZE,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_GUNK_SHOT | TUTOR_MOVE_PLAY_ROUGH | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Double-Edge, Trailblaze, Pounce
+tutordata SPECIES_LIEPARD,\
+TUTOR_MOVE_CHARM | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_POUNCE,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_GUNK_SHOT | TUTOR_MOVE_PLAY_ROUGH | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Double-Edge, Play Rough, Power Whip, Trailblaze
+tutordata SPECIES_PANSAGE,\
+TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_MAGICAL_LEAF | TUTOR_MOVE_TRAILBLAZE,\
+TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_GUNK_SHOT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_PLAY_ROUGH | TUTOR_MOVE_POWER_WHIP
+
+// NEW: Double-Edge, Play Rough, Power Whip, Trailblaze
+tutordata SPECIES_SIMISAGE,\
+TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_MAGICAL_LEAF | TUTOR_MOVE_TRAILBLAZE,\
+TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_GUNK_SHOT | TUTOR_MOVE_SUPERPOWER | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_PLAY_ROUGH | TUTOR_MOVE_POWER_WHIP
+
+// NEW: Double-Edge, Play Rough, Trailblaze
+tutordata SPECIES_PANSEAR,\
+TUTOR_MOVE_INCINERATE | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_FIRE_PUNCH | TUTOR_MOVE_HEAT_WAVE | TUTOR_MOVE_TRAILBLAZE,\
+TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_FLARE_BLITZ | TUTOR_MOVE_GUNK_SHOT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_PLAY_ROUGH
+
+// NEW: Double-Edge, Play Rough, Trailblaze
+tutordata SPECIES_SIMISEAR,\
+TUTOR_MOVE_INCINERATE | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_FIRE_PUNCH | TUTOR_MOVE_HEAT_WAVE | TUTOR_MOVE_TRAILBLAZE,\
+TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_FLARE_BLITZ | TUTOR_MOVE_GUNK_SHOT | TUTOR_MOVE_SUPERPOWER | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_PLAY_ROUGH
+
+// NEW: Chilling Water, Double-Edge, Play Rough, Trailblaze, Flip Turn (HOME)
+tutordata SPECIES_PANPOUR,\
+TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_FLIP_TURN,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_GUNK_SHOT | TUTOR_MOVE_HYDRO_PUMP | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_PLAY_ROUGH
+
+// NEW: Chilling Water, Double-Edge, Play Rough, Trailblaze, Flip Turn (HOME)
+tutordata SPECIES_SIMIPOUR,\
+TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_FLIP_TURN,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_GUNK_SHOT | TUTOR_MOVE_HYDRO_PUMP | TUTOR_MOVE_SUPERPOWER | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_PLAY_ROUGH
+
+tutordata SPECIES_MUNNA,\
+TUTOR_MOVE_GYRO_BALL | TUTOR_MOVE_PSYBEAM | TUTOR_MOVE_SHOCK_WAVE,\
+TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_STORED_POWER
+
+tutordata SPECIES_MUSHARNA,\
+TUTOR_MOVE_GYRO_BALL | TUTOR_MOVE_PSYBEAM | TUTOR_MOVE_SHOCK_WAVE,\
+TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_STORED_POWER
+
+// NEW: Double-Edge
+tutordata SPECIES_PIDOVE,\
+TUTOR_MOVE_AIR_CUTTER | TUTOR_MOVE_DUAL_WINGBEAT | TUTOR_MOVE_HEAT_WAVE,\
+TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Double-Edge
+tutordata SPECIES_TRANQUILL,\
+TUTOR_MOVE_AIR_CUTTER | TUTOR_MOVE_DUAL_WINGBEAT | TUTOR_MOVE_HEAT_WAVE,\
+TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Double-Edge
+tutordata SPECIES_UNFEZANT,\
+TUTOR_MOVE_AIR_CUTTER | TUTOR_MOVE_DUAL_WINGBEAT | TUTOR_MOVE_HEAT_WAVE,\
+TUTOR_MOVE_HURRICANE | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Trailblaze
+tutordata SPECIES_BLITZLE,\
+TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_TRAILBLAZE,\
+TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_VOLT_SWITCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_WILD_CHARGE
+
+// NEW: Trailblaze
+tutordata SPECIES_ZEBSTRIKA,\
+TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_TRAILBLAZE,\
+TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_VOLT_SWITCH | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_WILD_CHARGE
+
+// NEW: Double-Edge
+tutordata SPECIES_ROGGENROLA,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT,\
+TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_HEAVY_SLAM | TUTOR_MOVE_METEOR_BEAM | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Double-Edge
+tutordata SPECIES_BOLDORE,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT,\
+TUTOR_MOVE_POWER_GEM | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_HEAVY_SLAM | TUTOR_MOVE_METEOR_BEAM | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Double-Edge
+tutordata SPECIES_GIGALITH,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT,\
+TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_POWER_GEM | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_HEAVY_SLAM | TUTOR_MOVE_METEOR_BEAM | TUTOR_MOVE_SUPERPOWER | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Double-Edge
+tutordata SPECIES_WOOBAT,\
+TUTOR_MOVE_AIR_CUTTER | TUTOR_MOVE_GYRO_BALL | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_CHARM | TUTOR_MOVE_DUAL_WINGBEAT | TUTOR_MOVE_HEAT_WAVE,\
+TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_STORED_POWER | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Double-Edge, Hurricane
+tutordata SPECIES_SWOOBAT,\
+TUTOR_MOVE_AIR_CUTTER | TUTOR_MOVE_GYRO_BALL | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_CHARM | TUTOR_MOVE_DUAL_WINGBEAT | TUTOR_MOVE_HEAT_WAVE,\
+TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_PSYCHIC_FANGS | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_STORED_POWER | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HURRICANE
+
+// NEW: Double-Edge
+tutordata SPECIES_DRILBUR,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_DRILL_RUN,\
+TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Double-Edge
+tutordata SPECIES_EXCADRILL,\
+TUTOR_MOVE_BRUTAL_SWING | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_DRILL_RUN,\
+TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Chilling Water
+tutordata SPECIES_AUDINO,\
+TUTOR_MOVE_DRAINING_KISS | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_FIRE_PUNCH | TUTOR_MOVE_CHILLING_WATER,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_WILD_CHARGE
+
+// NEW: Double-Edge
+tutordata SPECIES_TIMBURR,\
+TUTOR_MOVE_BRUTAL_SWING | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_SUPERPOWER | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Double-Edge
+tutordata SPECIES_GURDURR,\
+TUTOR_MOVE_BRUTAL_SWING | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_CLOSE_COMBAT | TUTOR_MOVE_SUPERPOWER | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Double-Edge
+tutordata SPECIES_CONKELDURR,\
+TUTOR_MOVE_BRUTAL_SWING | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_CLOSE_COMBAT | TUTOR_MOVE_SUPERPOWER | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Double-Edge, Chilling Water
+tutordata SPECIES_TYMPOLE,\
+TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_CHILLING_WATER,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_HYDRO_PUMP | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Double-Edge, Chilling Water
+tutordata SPECIES_PALPITOAD,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_CHILLING_WATER,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_HYDRO_PUMP | TUTOR_MOVE_POWER_WHIP | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Double-Edge, Chilling Water
+tutordata SPECIES_SEISMITOAD,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_CHILLING_WATER,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_HYDRO_PUMP | TUTOR_MOVE_POWER_WHIP | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Double-Edge
+tutordata SPECIES_THROH,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_SUPERPOWER | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Double-Edge
+tutordata SPECIES_SAWK,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_CLOSE_COMBAT | TUTOR_MOVE_SUPERPOWER | TUTOR_MOVE_DOUBLE_EDGE
+
+tutordata SPECIES_SEWADDLE,\
+TUTOR_MOVE_ELECTROWEB | TUTOR_MOVE_SILVER_WIND,\
+TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_SIGNAL_BEAM
+
+tutordata SPECIES_SWADLOON,\
+TUTOR_MOVE_ELECTROWEB | TUTOR_MOVE_SILVER_WIND,\
+TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_SIGNAL_BEAM
+
+// NEW: Double-Edge, Trailblaze, Pounce
+tutordata SPECIES_LEAVANNY,\
+TUTOR_MOVE_ELECTROWEB | TUTOR_MOVE_SILVER_WIND | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_POUNCE,\
+TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Pounce
+tutordata SPECIES_VENIPEDE,\
+TUTOR_MOVE_GYRO_BALL | TUTOR_MOVE_POUNCE,\
+TUTOR_MOVE_HEX | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Pounce
+tutordata SPECIES_WHIRLIPEDE,\
+TUTOR_MOVE_GYRO_BALL | TUTOR_MOVE_POUNCE,\
+TUTOR_MOVE_HEX | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Pounce
+tutordata SPECIES_SCOLIPEDE,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_GYRO_BALL | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_CROSS_POISON | TUTOR_MOVE_POUNCE,\
+TUTOR_MOVE_HEX | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_MEGAHORN | TUTOR_MOVE_SUPERPOWER
+
+// NEW: Double-Edge, Trailblaze
+tutordata SPECIES_COTTONEE,\
+TUTOR_MOVE_CHARM | TUTOR_MOVE_TRAILBLAZE,\
+TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Double-Edge, Trailblaze
+tutordata SPECIES_WHIMSICOTT,\
+TUTOR_MOVE_CHARM | TUTOR_MOVE_TRAILBLAZE,\
+TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_HURRICANE | TUTOR_MOVE_PLAY_ROUGH | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Double-Edge
+tutordata SPECIES_PETILIL,\
+TUTOR_MOVE_MAGICAL_LEAF | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_CHARM,\
+TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Double-Edge
+tutordata SPECIES_LILLIGANT,\
+TUTOR_MOVE_MAGICAL_LEAF | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_CHARM,\
+TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_DOUBLE_EDGE
+
+tutordata SPECIES_BASCULIN,\
+TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_FLIP_TURN,\
+TUTOR_MOVE_PSYCHIC_FANGS | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HYDRO_PUMP | TUTOR_MOVE_SUPERPOWER
+
+tutordata SPECIES_SANDILE,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_AQUA_TAIL,\
+TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_FOUL_PLAY
+
+tutordata SPECIES_KROKOROK,\
+TUTOR_MOVE_BRUTAL_SWING | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_DRAGON_TAIL,\
+TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_FOUL_PLAY
+
+tutordata SPECIES_KROOKODILE,\
+TUTOR_MOVE_BRUTAL_SWING | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_DRAGON_TAIL,\
+TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_CLOSE_COMBAT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_GUNK_SHOT | TUTOR_MOVE_OUTRAGE | TUTOR_MOVE_SUPERPOWER
+
+// NEW: Double-Edge
+tutordata SPECIES_DARUMAKA,\
+TUTOR_MOVE_GYRO_BALL | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_FIRE_PUNCH | TUTOR_MOVE_HEAT_WAVE,\
+TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_FLARE_BLITZ | TUTOR_MOVE_SUPERPOWER | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Double-Edge
+tutordata SPECIES_DARMANITAN,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_GYRO_BALL | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_FIRE_PUNCH | TUTOR_MOVE_HEAT_WAVE,\
+TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_FLARE_BLITZ | TUTOR_MOVE_SUPERPOWER | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Double-Edge, Trailblaze
+tutordata SPECIES_MARACTUS,\
+TUTOR_MOVE_TRAILBLAZE,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Double-Edge, Pounce
+tutordata SPECIES_DWEBBLE,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_POUNCE,\
+TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Double-Edge, Pounce
+tutordata SPECIES_CRUSTLE,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_POUNCE,\
+TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_HEAVY_SLAM | TUTOR_MOVE_METEOR_BEAM | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Double-Edge
+tutordata SPECIES_SCRAGGY,\
+TUTOR_MOVE_ACID_SPRAY | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_DRAGON_TAIL | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Double-Edge
+tutordata SPECIES_SCRAFTY,\
+TUTOR_MOVE_ACID_SPRAY | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_DRAGON_TAIL | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_CLOSE_COMBAT | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_OUTRAGE | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Double-Edge
+tutordata SPECIES_SIGILYPH,\
+TUTOR_MOVE_AIR_CUTTER | TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_PSYBEAM | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_DUAL_WINGBEAT | TUTOR_MOVE_HEAT_WAVE,\
+TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_STORED_POWER | TUTOR_MOVE_DOUBLE_EDGE
+
+tutordata SPECIES_YAMASK,\
+TUTOR_MOVE_OMINOUS_WIND | TUTOR_MOVE_SHOCK_WAVE,\
+TUTOR_MOVE_HEX | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_POLTERGEIST
+
+tutordata SPECIES_COFAGRIGUS,\
+TUTOR_MOVE_OMINOUS_WIND | TUTOR_MOVE_SHOCK_WAVE,\
+TUTOR_MOVE_HEX | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_POLTERGEIST
+
+// NEW: Chilling Water, Double-Edge
+tutordata SPECIES_TIRTOUGA,\
+TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_CHILLING_WATER,\
+TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_HYDRO_PUMP | TUTOR_MOVE_METEOR_BEAM | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Chilling Water, Double-Edge
+tutordata SPECIES_CARRACOSTA,\
+TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_CHILLING_WATER,\
+TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_HYDRO_PUMP | TUTOR_MOVE_METEOR_BEAM | TUTOR_MOVE_SUPERPOWER | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Double-Edge
+tutordata SPECIES_ARCHEN,\
+TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_DUAL_WINGBEAT | TUTOR_MOVE_HEAT_WAVE,\
+TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_METEOR_BEAM | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Double-Edge
+tutordata SPECIES_ARCHEOPS,\
+TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_DRAGON_TAIL | TUTOR_MOVE_DUAL_WINGBEAT | TUTOR_MOVE_HEAT_WAVE,\
+TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_METEOR_BEAM | TUTOR_MOVE_OUTRAGE | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Double-Edge
+tutordata SPECIES_TRUBBISH,\
+TUTOR_MOVE_ACID_SPRAY,\
+TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_GUNK_SHOT | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Double-Edge
+tutordata SPECIES_GARBODOR,\
+TUTOR_MOVE_ACID_SPRAY | TUTOR_MOVE_CROSS_POISON,\
+TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_GUNK_SHOT | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Double-Edge
+tutordata SPECIES_ZORUA,\
+TUTOR_MOVE_INCINERATE,\
+TUTOR_MOVE_HEX | TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Double-Edge
+tutordata SPECIES_ZOROARK,\
+TUTOR_MOVE_INCINERATE | TUTOR_MOVE_LOW_KICK,\
+TUTOR_MOVE_HEX | TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Double-Edge
+tutordata SPECIES_MINCCINO,\
+TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_CHARM,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_GUNK_SHOT | TUTOR_MOVE_PLAY_ROUGH | TUTOR_MOVE_TRIPLE_AXEL | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Double-Edge
+tutordata SPECIES_CINCCINO,\
+TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_CHARM,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_GUNK_SHOT | TUTOR_MOVE_PLAY_ROUGH | TUTOR_MOVE_TRIPLE_AXEL | TUTOR_MOVE_DOUBLE_EDGE
+
+tutordata SPECIES_GOTHITA,\
+TUTOR_MOVE_PSYBEAM | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_CHARM,\
+TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_STORED_POWER
+
+tutordata SPECIES_GOTHORITA,\
+TUTOR_MOVE_PSYBEAM | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_CHARM,\
+TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_STORED_POWER
+
+tutordata SPECIES_GOTHITELLE,\
+TUTOR_MOVE_PSYBEAM | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_CHARM,\
+TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_STORED_POWER
+
+tutordata SPECIES_SOLOSIS,\
+TUTOR_MOVE_GYRO_BALL | TUTOR_MOVE_PSYBEAM | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_CHARM,\
+TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_STORED_POWER
+
+tutordata SPECIES_DUOSION,\
+TUTOR_MOVE_GYRO_BALL | TUTOR_MOVE_PSYBEAM | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_CHARM,\
+TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_STORED_POWER
+
+tutordata SPECIES_REUNICLUS,\
+TUTOR_MOVE_GYRO_BALL | TUTOR_MOVE_PSYBEAM | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_CHARM | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_STORED_POWER | TUTOR_MOVE_SUPERPOWER
+
+// NEW: Chilling Water, Double-Edge, Dual Wingbeat (HOME)
+tutordata SPECIES_DUCKLETT,\
+TUTOR_MOVE_AIR_CUTTER | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_DUAL_WINGBEAT,\
+TUTOR_MOVE_HURRICANE | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Chilling Water, Double-Edge, Dual Wingbeat (HOME)
+tutordata SPECIES_SWANNA,\
+TUTOR_MOVE_AIR_CUTTER | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_DUAL_WINGBEAT,\
+TUTOR_MOVE_HURRICANE | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Chilling Water
+tutordata SPECIES_VANILLITE,\
+TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_CHILLING_WATER,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_SIGNAL_BEAM
+
+// NEW: Chilling Water
+tutordata SPECIES_VANILLISH,\
+TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_CHILLING_WATER,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_SIGNAL_BEAM
+
+// NEW: Chilling Water
+tutordata SPECIES_VANILLUXE,\
+TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_CHILLING_WATER,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_SIGNAL_BEAM
+
+tutordata SPECIES_DEERLING,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_MAGICAL_LEAF | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_CHARM,\
+TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_PLAY_ROUGH | TUTOR_MOVE_WILD_CHARGE
+
+tutordata SPECIES_SAWSBUCK,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_MAGICAL_LEAF | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_CHARM,\
+TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_MEGAHORN | TUTOR_MOVE_PLAY_ROUGH | TUTOR_MOVE_WILD_CHARGE
+
+// NEW: Double-Edge
+tutordata SPECIES_EMOLGA,\
+TUTOR_MOVE_ELECTROWEB | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_CHARM | TUTOR_MOVE_DUAL_WINGBEAT,\
+TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_VOLT_SWITCH | TUTOR_MOVE_WILD_CHARGE | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Pounce
+tutordata SPECIES_KARRABLAST,\
+TUTOR_MOVE_ACID_SPRAY | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_DRILL_RUN | TUTOR_MOVE_POUNCE,\
+TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_MEGAHORN
+
+// NEW: Pounce
+tutordata SPECIES_ESCAVALIER,\
+TUTOR_MOVE_ACID_SPRAY | TUTOR_MOVE_BRUTAL_SWING | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_DRILL_RUN | TUTOR_MOVE_POUNCE,\
+TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_CLOSE_COMBAT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_MEGAHORN
+
+tutordata SPECIES_FOONGUS,\
+TUTOR_MOVE_MAGICAL_LEAF,\
+TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_FOUL_PLAY
+
+tutordata SPECIES_AMOONGUSS,\
+TUTOR_MOVE_MAGICAL_LEAF,\
+TUTOR_MOVE_HEX | TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_FOUL_PLAY
+
+// NEW: Chilling Water
+tutordata SPECIES_FRILLISH,\
+TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_OMINOUS_WIND | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_CHILLING_WATER,\
+TUTOR_MOVE_HEX | TUTOR_MOVE_HYDRO_PUMP | TUTOR_MOVE_POLTERGEIST
+
+// NEW: Chilling Water
+tutordata SPECIES_JELLICENT,\
+TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_OMINOUS_WIND | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_CHILLING_WATER,\
+TUTOR_MOVE_HEX | TUTOR_MOVE_HYDRO_PUMP | TUTOR_MOVE_POLTERGEIST
+
+// NEW: Double-Edge
+tutordata SPECIES_ALOMOMOLA,\
+TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_WATER_PULSE,\
+TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_HYDRO_PUMP | TUTOR_MOVE_PLAY_ROUGH | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Double-Edge, Pounce
+tutordata SPECIES_JOLTIK,\
+TUTOR_MOVE_ELECTROWEB | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_CROSS_POISON | TUTOR_MOVE_POUNCE,\
+TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_VOLT_SWITCH | TUTOR_MOVE_WILD_CHARGE | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Double-Edge, Pounce
+tutordata SPECIES_GALVANTULA,\
+TUTOR_MOVE_ELECTROWEB | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_CROSS_POISON | TUTOR_MOVE_POUNCE,\
+TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_VOLT_SWITCH | TUTOR_MOVE_WILD_CHARGE | TUTOR_MOVE_DOUBLE_EDGE
+
+tutordata SPECIES_FERROSEED,\
+TUTOR_MOVE_ACID_SPRAY | TUTOR_MOVE_GYRO_BALL,\
+TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SEED_BOMB
+
+tutordata SPECIES_FERROTHORN,\
+TUTOR_MOVE_ACID_SPRAY | TUTOR_MOVE_BRUTAL_SWING | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_GYRO_BALL,\
+TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_HEAVY_SLAM | TUTOR_MOVE_POWER_WHIP
+
+// NEW: Double-Edge
+tutordata SPECIES_KLINK,\
+TUTOR_MOVE_SHOCK_WAVE,\
+TUTOR_MOVE_POWER_GEM | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_VOLT_SWITCH | TUTOR_MOVE_WILD_CHARGE | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Double-Edge
+tutordata SPECIES_KLANG,\
+TUTOR_MOVE_SHOCK_WAVE,\
+TUTOR_MOVE_POWER_GEM | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_VOLT_SWITCH | TUTOR_MOVE_WILD_CHARGE | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Double-Edge
+tutordata SPECIES_KLINKLANG,\
+TUTOR_MOVE_SHOCK_WAVE,\
+TUTOR_MOVE_POWER_GEM | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_VOLT_SWITCH | TUTOR_MOVE_WILD_CHARGE | TUTOR_MOVE_DOUBLE_EDGE
+
+tutordata SPECIES_TYNAMO,\
+0,\
+0
+
+// NEW: Double-Edge
+tutordata SPECIES_EELEKTRIK,\
+TUTOR_MOVE_ACID_SPRAY | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_AQUA_TAIL,\
+TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_VOLT_SWITCH | TUTOR_MOVE_WILD_CHARGE | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Double-Edge
+tutordata SPECIES_EELEKTROSS,\
+TUTOR_MOVE_ACID_SPRAY | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_DRAGON_TAIL | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_HEX | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_VOLT_SWITCH | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_CLOSE_COMBAT | TUTOR_MOVE_HEAVY_SLAM | TUTOR_MOVE_OUTRAGE | TUTOR_MOVE_SUPERPOWER | TUTOR_MOVE_WILD_CHARGE | TUTOR_MOVE_DOUBLE_EDGE
+
+tutordata SPECIES_ELGYEM,\
+TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_PSYBEAM | TUTOR_MOVE_SHOCK_WAVE,\
+TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_METEOR_BEAM | TUTOR_MOVE_STORED_POWER
+
+tutordata SPECIES_BEHEEYEM,\
+TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_PSYBEAM | TUTOR_MOVE_SHOCK_WAVE,\
+TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_METEOR_BEAM | TUTOR_MOVE_STORED_POWER
+
+tutordata SPECIES_LITWICK,\
+TUTOR_MOVE_INCINERATE | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_HEAT_WAVE,\
+TUTOR_MOVE_HEX | TUTOR_MOVE_POLTERGEIST
+
+tutordata SPECIES_LAMPENT,\
+TUTOR_MOVE_INCINERATE | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_HEAT_WAVE,\
+TUTOR_MOVE_HEX | TUTOR_MOVE_POLTERGEIST
+
+tutordata SPECIES_CHANDELURE,\
+TUTOR_MOVE_INCINERATE | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_HEAT_WAVE,\
+TUTOR_MOVE_HEX | TUTOR_MOVE_POLTERGEIST
+
+// NEW: Double-Edge
+tutordata SPECIES_AXEW,\
+TUTOR_MOVE_BREAKING_SWIPE | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_DRAGON_TAIL,\
+TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_OUTRAGE | TUTOR_MOVE_SUPERPOWER | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Double-Edge
+tutordata SPECIES_FRAXURE,\
+TUTOR_MOVE_BREAKING_SWIPE | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_DRAGON_TAIL,\
+TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_OUTRAGE | TUTOR_MOVE_SUPERPOWER | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Double-Edge
+tutordata SPECIES_HAXORUS,\
+TUTOR_MOVE_BREAKING_SWIPE | TUTOR_MOVE_BRUTAL_SWING | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_DRAGON_TAIL,\
+TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_CLOSE_COMBAT | TUTOR_MOVE_OUTRAGE | TUTOR_MOVE_SUPERPOWER | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Double-Edge
+tutordata SPECIES_CUBCHOO,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_CHARM,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_HEAVY_SLAM | TUTOR_MOVE_PLAY_ROUGH | TUTOR_MOVE_SUPERPOWER | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Double-Edge
+tutordata SPECIES_BEARTIC,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_CHARM,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_CLOSE_COMBAT | TUTOR_MOVE_HEAVY_SLAM | TUTOR_MOVE_PLAY_ROUGH | TUTOR_MOVE_SUPERPOWER | TUTOR_MOVE_DOUBLE_EDGE
+
+tutordata SPECIES_CRYOGONAL,\
+TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_WATER_PULSE,\
+TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_TRIPLE_AXEL
+
+// NEW: Pounce
+tutordata SPECIES_SHELMET,\
+TUTOR_MOVE_POUNCE,\
+TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Pounce
+tutordata SPECIES_ACCELGOR,\
+TUTOR_MOVE_ACID_SPRAY | TUTOR_MOVE_POUNCE,\
+TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_DOUBLE_EDGE
+
+tutordata SPECIES_STUNFISK,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_ELECTROWEB | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AQUA_TAIL,\
+TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_FOUL_PLAY
+
+// NEW: Double-Edge
+tutordata SPECIES_MIENFOO,\
+TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_AURA_SPHERE,\
+TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_CLOSE_COMBAT | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Double-Edge
+tutordata SPECIES_MIENSHAO,\
+TUTOR_MOVE_BRUTAL_SWING | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_AURA_SPHERE,\
+TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_CLOSE_COMBAT | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Double-Edge
+tutordata SPECIES_DRUDDIGON,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_DRAGON_TAIL | TUTOR_MOVE_DUAL_WINGBEAT | TUTOR_MOVE_FIRE_PUNCH | TUTOR_MOVE_HEAT_WAVE,\
+TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_GUNK_SHOT | TUTOR_MOVE_OUTRAGE | TUTOR_MOVE_SUPERPOWER | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Double-Edge
+tutordata SPECIES_GOLETT,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_GYRO_BALL | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_HEAVY_SLAM | TUTOR_MOVE_POLTERGEIST | TUTOR_MOVE_SUPERPOWER | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Double-Edge
+tutordata SPECIES_GOLURK,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_GYRO_BALL | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_CLOSE_COMBAT | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_HEAVY_SLAM | TUTOR_MOVE_POLTERGEIST | TUTOR_MOVE_SUPERPOWER | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Double-Edge
+tutordata SPECIES_PAWNIARD,\
+TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_LOW_KICK,\
+TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Double-Edge
+tutordata SPECIES_BISHARP,\
+TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_LOW_KICK,\
+TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Double-Edge
+tutordata SPECIES_BOUFFALANT,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT,\
+TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_CLOSE_COMBAT | TUTOR_MOVE_MEGAHORN | TUTOR_MOVE_OUTRAGE | TUTOR_MOVE_SUPERPOWER | TUTOR_MOVE_WILD_CHARGE | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Double-Edge
+tutordata SPECIES_RUFFLET,\
+TUTOR_MOVE_AIR_CUTTER | TUTOR_MOVE_DUAL_WINGBEAT | TUTOR_MOVE_HEAT_WAVE,\
+TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_CLOSE_COMBAT | TUTOR_MOVE_HURRICANE | TUTOR_MOVE_SUPERPOWER | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Double-Edge
+tutordata SPECIES_BRAVIARY,\
+TUTOR_MOVE_AIR_CUTTER | TUTOR_MOVE_DUAL_WINGBEAT | TUTOR_MOVE_HEAT_WAVE,\
+TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_CLOSE_COMBAT | TUTOR_MOVE_HURRICANE | TUTOR_MOVE_SUPERPOWER | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Double-Edge
+tutordata SPECIES_VULLABY,\
+TUTOR_MOVE_INCINERATE | TUTOR_MOVE_DUAL_WINGBEAT | TUTOR_MOVE_HEAT_WAVE,\
+TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Double-Edge
+tutordata SPECIES_MANDIBUZZ,\
+TUTOR_MOVE_INCINERATE | TUTOR_MOVE_DUAL_WINGBEAT | TUTOR_MOVE_HEAT_WAVE,\
+TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Double-Edge
+tutordata SPECIES_HEATMOR,\
+TUTOR_MOVE_BRUTAL_SWING | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_FIRE_PUNCH | TUTOR_MOVE_HEAT_WAVE,\
+TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_FLARE_BLITZ | TUTOR_MOVE_SUPERPOWER | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Double-Edge, Pounce
+tutordata SPECIES_DURANT,\
+TUTOR_MOVE_POUNCE,\
+TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_SUPERPOWER | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Double-Edge
+tutordata SPECIES_DEINO,\
+TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_DRAGON_TAIL,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_OUTRAGE | TUTOR_MOVE_SUPERPOWER | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Double-Edge
+tutordata SPECIES_ZWEILOUS,\
+TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_DRAGON_TAIL,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_OUTRAGE | TUTOR_MOVE_SUPERPOWER | TUTOR_MOVE_DOUBLE_EDGE
+
+// NEW: Double-Edge
+tutordata SPECIES_HYDREIGON,\
+TUTOR_MOVE_BREAKING_SWIPE | TUTOR_MOVE_BRUTAL_SWING | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_DRAGON_TAIL | TUTOR_MOVE_DUAL_WINGBEAT | TUTOR_MOVE_HEAT_WAVE,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_HYDRO_PUMP | TUTOR_MOVE_OUTRAGE | TUTOR_MOVE_SUPERPOWER | TUTOR_MOVE_DOUBLE_EDGE
+
+tutordata SPECIES_LARVESTA,\
+TUTOR_MOVE_INCINERATE | TUTOR_MOVE_POUNCE | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_HEAT_WAVE,\
+TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_FLARE_BLITZ | TUTOR_MOVE_WILD_CHARGE
+
+tutordata SPECIES_VOLCARONA,\
+TUTOR_MOVE_AIR_CUTTER | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_POUNCE | TUTOR_MOVE_SILVER_WIND | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_DUAL_WINGBEAT | TUTOR_MOVE_HEAT_WAVE,\
+TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_FLARE_BLITZ | TUTOR_MOVE_HURRICANE | TUTOR_MOVE_WILD_CHARGE
 
 tutordata SPECIES_COBALION, \
                   \
@@ -8218,17 +3967,9 @@ tutordata SPECIES_AURORUS, \
                   \
                   0
 
-
-tutordata SPECIES_SYLVEON, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
+tutordata SPECIES_SYLVEON,\
+TUTOR_MOVE_DRAINING_KISS | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_MAGICAL_LEAF | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_CHARM,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_PLAY_ROUGH | TUTOR_MOVE_STORED_POWER
 
 tutordata SPECIES_HAWLUCHA, \
                   \
@@ -9153,50 +4894,22 @@ tutordata SPECIES_KOMMO_O, \
                   \
                   0
 
+tutordata SPECIES_ANNIHILAPE,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_CLOSE_COMBAT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_GUNK_SHOT | TUTOR_MOVE_OUTRAGE
 
-tutordata SPECIES_ANNIHILAPE, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
+tutordata SPECIES_FARIGIRAF,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_PSYBEAM | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_TRAILBLAZE,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_PSYCHIC_FANGS | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_STORED_POWER
 
+tutordata SPECIES_DUDUNSPARCE,\
+TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_GYRO_BALL | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_POUNCE | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_DRAGON_TAIL | TUTOR_MOVE_DRILL_RUN | TUTOR_MOVE_DUAL_WINGBEAT,\
+TUTOR_MOVE_HEX | TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_HEAVY_SLAM | TUTOR_MOVE_HURRICANE | TUTOR_MOVE_OUTRAGE | TUTOR_MOVE_STORED_POWER | TUTOR_MOVE_WILD_CHARGE
 
-tutordata SPECIES_FARIGIRAF, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_DUDUNSPARCE, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_KINGAMBIT, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
+// NEW: Double-Edge
+tutordata SPECIES_KINGAMBIT,\
+TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_LOW_KICK,\
+TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_DOUBLE_EDGE
 
 tutordata SPECIES_COSMOG, \
                   \
@@ -10407,39 +6120,17 @@ tutordata SPECIES_CALYREX, \
                   \
                   0
 
+tutordata SPECIES_WYRDEER,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_PSYBEAM | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_TRAILBLAZE,\
+TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_MEGAHORN | TUTOR_MOVE_STORED_POWER | TUTOR_MOVE_WILD_CHARGE
 
-tutordata SPECIES_WYRDEER, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
+tutordata SPECIES_KLEAVOR,\
+TUTOR_MOVE_AIR_CUTTER | TUTOR_MOVE_BRUTAL_SWING | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_OMINOUS_WIND | TUTOR_MOVE_POUNCE | TUTOR_MOVE_SILVER_WIND | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_CROSS_POISON | TUTOR_MOVE_DUAL_WINGBEAT,\
+TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_CLOSE_COMBAT | TUTOR_MOVE_DOUBLE_EDGE
 
-
-tutordata SPECIES_KLEAVOR, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_URSALUNA, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
+tutordata SPECIES_URSALUNA,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_CHARM | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_CLOSE_COMBAT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_GUNK_SHOT | TUTOR_MOVE_HEAVY_SLAM | TUTOR_MOVE_PLAY_ROUGH | TUTOR_MOVE_SUPERPOWER
 
 tutordata SPECIES_BASCULEGION, \
                   \

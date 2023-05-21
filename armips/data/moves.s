@@ -8600,7 +8600,7 @@ movedata MOVE_POLLEN_PUFF, "Pollen Puff"
     appeal 0
     contesttype 0
     terminatedata
-    movedescription MOVE_POLLEN_PUFF, "The user attacks the\nfoe with a pollen puff\nthat explodes. When \ntargeting an ally, it\nheals the ally’s HP."
+    movedescription MOVE_POLLEN_PUFF, "The user attacks the\nfoe with a pollen puff\nthat explodes. When\ntargeting an ally, it\nheals the ally’s HP."
 
 movedata MOVE_LUNGE, "Lunge"
     battleeffect 68

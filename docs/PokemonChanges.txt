@@ -13078,7 +13078,7 @@ Level Up Moves:
 -------------------
 362 - Glalie
 -------------------
-Abilities: Inner Focus / Ice Body / Moody ⟶ Solid Rock** / Refrigerate** / Moody
+Abilities: Inner Focus / Ice Body / Moody ⟶ Levitate** / Levitate** / Refrigerate**
 Base Stats: 80/80/80/80/80/80 (480) ⟶ 80/110*/80/60*/80/90* (500)
 Held Item: Babiri Berry (5%)
 Type: Ice ⟶ Ice / Rock
@@ -13116,18 +13116,16 @@ Level Up Moves:
 -------------------
 478 - Froslass
 -------------------
-Abilities: Snow Cloak / Snow Cloak / Cursed Body
+Abilities: Snow Cloak / Snow Cloak / Cursed Body ⟶ Levitate** / Levitate** / Refrigerate
 Base Stats: 70/80/70/80/70/110 (480)
 Held Item: Babiri Berry (5%)
 Type: Ice / Ghost
 
 New Moves:
-- Freeze-Dry (Level)
-- Sheer Cold (Level)
+- None
 
 Level Up Moves:
 01 - Aurora Veil
-01 - Freeze-Dry
 01 - Ominous Wind
 01 - Wake-Up Slap
 01 - Powder Snow
@@ -13149,7 +13147,6 @@ Level Up Moves:
 49 - Captivate
 53 - Blizzard
 57 - Destiny Bond
-61 - Sheer Cold
 
 -------------------
 363 - Spheal

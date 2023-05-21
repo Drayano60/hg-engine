@@ -9495,7 +9495,7 @@ mondata SPECIES_SNORUNT, "Snorunt"
 
 // STATS: 80 >> 110 Atk | 80 >> 60 SpAtk | 80 >> 90 Speed | 480 >> 500 BST
 // TYPES: Ice >> Ice/Rock
-// ABILITY: Solid Rock (1), Refrigerate (2)
+// ABILITY: Levitate (1, 2), Refrigerate (HA)
 mondata SPECIES_GLALIE, "Glalie"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 80, 110, 80, 90, 60, 80
@@ -9517,7 +9517,7 @@ mondata SPECIES_GLALIE, "Glalie"
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FAIRY, EGG_GROUP_MINERAL
     .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_SOLID_ROCK, ABILITY_REFRIGERATE
+        abilities ABILITY_LEVITATE, ABILITY_LEVITATE
     .else
         abilities ABILITY_INNER_FOCUS, ABILITY_ICE_BODY
     .endif
@@ -12402,6 +12402,7 @@ mondata SPECIES_DUSKNOIR, "Dusknoir"
     mondexweight SPECIES_DUSKNOIR, "235.0 lbs."
 
 
+// ABILITY: Levitate (1, 2)
 mondata SPECIES_FROSLASS, "Froslass"
     basestats 70, 80, 70, 110, 80, 70
     types TYPE_ICE, TYPE_GHOST
@@ -12414,7 +12415,11 @@ mondata SPECIES_FROSLASS, "Froslass"
     basefriendship 70 // raised up again
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FAIRY, EGG_GROUP_MINERAL
-    abilities ABILITY_SNOW_CLOAK, ABILITY_SNOW_CLOAK
+    .if ABILITY_CHANGES_IMPLEMENTED
+        abilities ABILITY_LEVITATE, ABILITY_LEVITATE
+    .else
+        abilities ABILITY_SNOW_CLOAK, ABILITY_SNOW_CLOAK
+    .endif
     runchance 25
     colorflip BODY_COLOR_WHITE, 0
     tmdata SPECIES_FROSLASS_TM_DATA_0, SPECIES_FROSLASS_TM_DATA_1, SPECIES_FROSLASS_TM_DATA_2, SPECIES_FROSLASS_TM_DATA_3

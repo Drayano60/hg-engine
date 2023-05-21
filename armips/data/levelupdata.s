@@ -9532,10 +9532,8 @@ levelup SPECIES_GLALIE
     learnset MOVE_SHEER_COLD, 61
     terminatelearnset
 
-// NEW: Freeze-Dry, Sheer Cold
 levelup SPECIES_FROSLASS
     learnset MOVE_AURORA_VEIL, 1
-    learnset MOVE_FREEZE_DRY, 1
     learnset MOVE_OMINOUS_WIND, 1
     learnset MOVE_WAKE_UP_SLAP, 1
     learnset MOVE_POWDER_SNOW, 1
@@ -9557,7 +9555,6 @@ levelup SPECIES_FROSLASS
     learnset MOVE_CAPTIVATE, 49
     learnset MOVE_BLIZZARD, 53
     learnset MOVE_DESTINY_BOND, 57
-    learnset MOVE_SHEER_COLD, 61
     terminatelearnset
 
 // NEW: Slack Off

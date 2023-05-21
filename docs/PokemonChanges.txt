@@ -876,6 +876,7 @@ New Moves:
 
 Level Up Moves:
 01 - Hone Claws
+01 - Spikes
 01 - Scratch
 01 - Defense Curl 
 03 - Poison Sting 
@@ -2584,9 +2585,9 @@ Level Up Moves:
 15 - Rollout
 18 - Magnitude
 21 - Self-Destruct
-24 - Stealth Rock
-30 - Rock Blast
-35 - Hammer Arm
+24 - Rock Slide
+30 - Stealth Rock
+35 - Rock Blast
 40 - Earthquake
 45 - Stone Edge
 50 - Double-Edge
@@ -2615,9 +2616,9 @@ Level Up Moves:
 15 - Rollout
 18 - Magnitude
 21 - Self-Destruct
-24 - Stealth Rock
-30 - Rock Blast
-35 - Hammer Arm
+24 - Rock Slide
+30 - Stealth Rock
+35 - Rock Blast
 40 - Earthquake
 45 - Stone Edge
 50 - Double-Edge
@@ -2638,6 +2639,7 @@ New Moves:
 - Scorching Sands (TM) (HOME)
 
 Level Up Moves:
+01 - Hammer Arm
 01 - Heavy Slam
 01 - Steamroller
 01 - Tackle
@@ -2649,9 +2651,9 @@ Level Up Moves:
 15 - Rollout
 18 - Magnitude
 21 - Self-Destruct
-24 - Stealth Rock
-30 - Rock Blast
-35 - Hammer Arm
+24 - Rock Slide
+30 - Stealth Rock
+35 - Rock Blast
 40 - Earthquake
 45 - Stone Edge
 50 - Double-Edge
@@ -3368,8 +3370,8 @@ Level Up Moves:
 20 - Dig
 24 - Rock Slide
 28 - Rock Polish
-32 - Slam
-36 - Iron Tail
+32 - Stealth Rock
+36 - Slam
 40 - Coil
 44 - Earthquake
 48 - Stone Edge
@@ -7083,9 +7085,10 @@ Level Up Moves:
 20 - Mimic
 24 - Feint Attack
 28 - Rock Slide
-32 - Sucker Punch
-36 - Counter
-40 - Double-Edge
+32 - Stealth Rock
+36 - Sucker Punch
+40 - Counter
+44 - Double-Edge
 
 -------------------
 185 - Sudowoodo
@@ -7111,9 +7114,9 @@ Level Up Moves:
 20 - Mimic
 24 - Feint Attack
 28 - Rock Slide
-32 - Sucker Punch
-36 - Counter
-40 - Double-Edge
+32 - Stealth Rock
+36 - Sucker Punch
+40 - Counter
 44 - Wood Hammer
 48 - Hammer Arm
 52 - Head Smash
@@ -14686,8 +14689,8 @@ Level Up Moves:
 21 - Rock Blast
 24 - Metal Burst
 27 - Ancient Power
-33 - Endure
-37 - Swagger
+33 - Stealth Rock
+37 - Endure
 41 - Iron Head
 45 - Screech
 49 - Stone Edge
@@ -14719,8 +14722,8 @@ Level Up Moves:
 24 - Metal Burst
 27 - Ancient Power
 30 - Block
-33 - Endure
-37 - Swagger
+33 - Stealth Rock
+37 - Endure
 41 - Iron Head
 45 - Screech
 49 - Stone Edge
@@ -17774,8 +17777,8 @@ Level Up Moves:
 16 - Rock Tomb
 20 - Iron Defense
 24 - Rock Slide
-30 - Rock Blast
-36 - Stealth Rock
+30 - Stealth Rock
+36 - Rock Blast
 42 - Sandstorm
 48 - Stone Edge
 54 - Heavy Slam
@@ -17803,8 +17806,8 @@ Level Up Moves:
 20 - Iron Defense
 24 - Rock Slide
 25 - Power Gem
-30 - Rock Blast
-36 - Stealth Rock
+30 - Stealth Rock
+36 - Rock Blast
 42 - Sandstorm
 48 - Stone Edge
 54 - Heavy Slam
@@ -17833,8 +17836,8 @@ Level Up Moves:
 20 - Iron Defense
 24 - Rock Slide
 25 - Power Gem
-30 - Rock Blast
-36 - Stealth Rock
+30 - Stealth Rock
+36 - Rock Blast
 42 - Sandstorm
 48 - Stone Edge
 54 - Heavy Slam
@@ -18836,8 +18839,8 @@ Level Up Moves:
 18 - Slash
 21 - Sand Tomb
 24 - Rock Slide
-28 - Stealth Rock
-32 - X-Scissor
+28 - X-Scissor
+32 - Stealth Rock
 38 - Rock Blast
 44 - Rock Polish
 50 - Stone Edge
@@ -18869,8 +18872,8 @@ Level Up Moves:
 18 - Slash
 21 - Sand Tomb
 24 - Rock Slide
-28 - Stealth Rock
-32 - X-Scissor
+28 - X-Scissor
+32 - Stealth Rock
 38 - Rock Blast
 44 - Rock Polish
 50 - Stone Edge

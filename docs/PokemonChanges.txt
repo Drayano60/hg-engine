@@ -2275,11 +2275,10 @@ New Moves:
 - Hypnosis (Level) (PLA)
 
 Level Up Moves:
-01 - Stored Power
-01 - Tri Attack
 01 - Psycho Cut
-01 - Calm Mind
+01 - Tri Attack
 01 - Magic Coat
+01 - Calm Mind
 01 - Barrier
 01 - Gravity
 01 - Teleport
@@ -2756,7 +2755,7 @@ Level Up Moves:
 40 - Psychic
 45 - Amnesia
 50 - Rain Dance
-55 - Stored Power
+55 - Future Sight
 
 -------------------
 080 - Slowbro
@@ -2789,7 +2788,7 @@ Level Up Moves:
 40 - Psychic
 45 - Amnesia
 50 - Rain Dance
-55 - Stored Power
+55 - Future Sight
 
 -------------------
 199 - Slowking
@@ -2825,7 +2824,7 @@ Level Up Moves:
 40 - Psychic
 45 - Amnesia
 50 - Nasty Plot
-55 - Stored Power
+55 - Future Sight
 
 -------------------
 081 - Magnemite
@@ -10213,7 +10212,8 @@ Level Up Moves:
 40 - Psychic
 45 - Imprison
 50 - Dream Eater
-55 - Future Sight
+55 - Stored Power
+60 - Future Sight
 
 -------------------
 281 - Kirlia
@@ -10242,7 +10242,8 @@ Level Up Moves:
 40 - Psychic
 45 - Imprison
 50 - Dream Eater
-55 - Future Sight
+55 - Stored Power
+60 - Future Sight
 
 -------------------
 282 - Gardevoir
@@ -10256,7 +10257,6 @@ New Moves:
 - None
 
 Level Up Moves:
-01 - Stored Power
 01 - Mystical Fire
 01 - Captivate
 01 - Imprison
@@ -10277,8 +10277,9 @@ Level Up Moves:
 40 - Psychic
 45 - Moonblast
 50 - Dream Eater
-55 - Future Sight
-60 - Healing Wish
+55 - Stored Power
+60 - Future Sight
+65 - Healing Wish
 
 -------------------
 475 - Gallade
@@ -10293,7 +10294,6 @@ New Moves:
 - Spirit Break (Level)
 
 Level Up Moves:
-01 - Stored Power
 01 - Aqua Cutter
 01 - Leaf Blade
 01 - Night Slash
@@ -10318,8 +10318,9 @@ Level Up Moves:
 40 - Zen Headbutt
 45 - Sacred Sword
 50 - Swords Dance
-55 - Close Combat
-60 - Memento
+55 - Stored Power
+60 - Close Combat
+65 - Memento
 
 -------------------
 283 - Surskit
@@ -17849,6 +17850,7 @@ Type: Psychic / Flying
 
 New Moves:
 - Double-Edge (Tutor)
+- Esper Wing (Level)
 
 Level Up Moves:
 01 - Gust
@@ -17862,12 +17864,13 @@ Level Up Moves:
 24 - Psyshock
 28 - Air Slash
 32 - Captivate
-36 - Amnesia
-40 - Psychic
-44 - Endeavor
+36 - Esper Wing
+40 - Amnesia
+44 - Psychic
 48 - Calm Mind
-52 - Super Fang
-56 - Future Sight
+52 - Endeavor
+56 - Super Fang
+60 - Future Sight
 
 -------------------
 528 - Swoobat
@@ -17879,10 +17882,10 @@ Type: Psychic / Flying
 
 New Moves:
 - Double-Edge (Tutor)
+- Esper Wing (Level)
 - Hurricane (Tutor)
 
 Level Up Moves:
-01 - Stored Power
 01 - Tailwind
 01 - Gust
 01 - Supersonic
@@ -17895,12 +17898,13 @@ Level Up Moves:
 24 - Psyshock
 28 - Air Slash
 32 - Captivate
-36 - Amnesia
-40 - Psychic
-44 - Endeavor
+36 - Esper Wing
+40 - Amnesia
+44 - Psychic
 48 - Calm Mind
-52 - Super Fang
-56 - Future Sight
+52 - Endeavor
+56 - Super Fang
+60 - Future Sight
 
 -------------------
 529 - Drilbur
@@ -18947,7 +18951,7 @@ New Moves:
 - Double-Edge (Tutor)
 
 Level Up Moves:
-01 - Psycho Shift
+01 - Ancient Power
 01 - Miracle Eye
 01 - Magic Coat
 01 - Gust
@@ -18965,8 +18969,8 @@ Level Up Moves:
 36 - Light Screen
 36 - Reflect
 40 - Psychic
-44 - Mirror Move
-48 - Stored Power
+44 - Psycho Shift
+48 - Mirror Move
 52 - Skill Swap
 56 - Sky Attack
 
@@ -19424,7 +19428,6 @@ New Moves:
 - None
 
 Level Up Moves:
-01 - Stored Power
 01 - Miracle Eye
 01 - Mirror Coat
 01 - Magic Coat
@@ -19527,7 +19530,6 @@ New Moves:
 - None
 
 Level Up Moves:
-01 - Stored Power
 01 - Dizzy Punch
 01 - Acid Armor
 01 - Magic Coat
@@ -20404,10 +20406,9 @@ New Moves:
 - None
 
 Level Up Moves:
-01 - Stored Power
+01 - Trick Room
 01 - Cosmic Power
 01 - Skill Swap
-01 - Trick Room
 01 - Barrier
 01 - Gravity
 01 - Teleport

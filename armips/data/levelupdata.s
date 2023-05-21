@@ -1814,11 +1814,10 @@ levelup SPECIES_KADABRA
 
 // NEW: Hypnosis (PLA)
 levelup SPECIES_ALAKAZAM
-    learnset MOVE_STORED_POWER, 1
-    learnset MOVE_TRI_ATTACK, 1
     learnset MOVE_PSYCHO_CUT, 1
-    learnset MOVE_CALM_MIND, 1
+    learnset MOVE_TRI_ATTACK, 1
     learnset MOVE_MAGIC_COAT, 1
+    learnset MOVE_CALM_MIND, 1
     learnset MOVE_BARRIER, 1
     learnset MOVE_GRAVITY, 1
     learnset MOVE_TELEPORT, 1
@@ -2215,7 +2214,7 @@ levelup SPECIES_SLOWPOKE
     learnset MOVE_PSYCHIC, 40
     learnset MOVE_AMNESIA, 45
     learnset MOVE_RAIN_DANCE, 50
-    learnset MOVE_STORED_POWER, 55
+    learnset MOVE_FUTURE_SIGHT, 55
     terminatelearnset
 
 // NEW: Teleport (LGPE)
@@ -2240,7 +2239,7 @@ levelup SPECIES_SLOWBRO
     learnset MOVE_PSYCHIC, 40
     learnset MOVE_AMNESIA, 45
     learnset MOVE_RAIN_DANCE, 50
-    learnset MOVE_STORED_POWER, 55
+    learnset MOVE_FUTURE_SIGHT, 55
     terminatelearnset
 
 // NEW: Teleport (LGPE)
@@ -2267,7 +2266,7 @@ levelup SPECIES_SLOWKING
     learnset MOVE_PSYCHIC, 40
     learnset MOVE_AMNESIA, 45
     learnset MOVE_NASTY_PLOT, 50
-    learnset MOVE_STORED_POWER, 55
+    learnset MOVE_FUTURE_SIGHT, 55
     terminatelearnset
 
 levelup SPECIES_MAGNEMITE
@@ -7443,7 +7442,8 @@ levelup SPECIES_RALTS
     learnset MOVE_PSYCHIC, 40
     learnset MOVE_IMPRISON, 45
     learnset MOVE_DREAM_EATER, 50
-    learnset MOVE_FUTURE_SIGHT, 55
+    learnset MOVE_STORED_POWER, 55
+    learnset MOVE_FUTURE_SIGHT, 60
     terminatelearnset
 
 levelup SPECIES_KIRLIA
@@ -7462,11 +7462,11 @@ levelup SPECIES_KIRLIA
     learnset MOVE_PSYCHIC, 40
     learnset MOVE_IMPRISON, 45
     learnset MOVE_DREAM_EATER, 50
-    learnset MOVE_FUTURE_SIGHT, 55
+    learnset MOVE_STORED_POWER, 55
+    learnset MOVE_FUTURE_SIGHT, 60
     terminatelearnset
 
 levelup SPECIES_GARDEVOIR
-    learnset MOVE_STORED_POWER, 1
     learnset MOVE_MYSTICAL_FIRE, 1
     learnset MOVE_CAPTIVATE, 1
     learnset MOVE_IMPRISON, 1
@@ -7487,13 +7487,13 @@ levelup SPECIES_GARDEVOIR
     learnset MOVE_PSYCHIC, 40
     learnset MOVE_MOONBLAST, 45
     learnset MOVE_DREAM_EATER, 50
-    learnset MOVE_FUTURE_SIGHT, 55
-    learnset MOVE_HEALING_WISH, 60
+    learnset MOVE_STORED_POWER, 55
+    learnset MOVE_FUTURE_SIGHT, 60
+    learnset MOVE_HEALING_WISH, 65
     terminatelearnset
 
 // NEW: Spirit Break
 levelup SPECIES_GALLADE
-    learnset MOVE_STORED_POWER, 1
     learnset MOVE_AQUA_CUTTER, 1
     learnset MOVE_LEAF_BLADE, 1
     learnset MOVE_NIGHT_SLASH, 1
@@ -7518,8 +7518,9 @@ levelup SPECIES_GALLADE
     learnset MOVE_ZEN_HEADBUTT, 40
     learnset MOVE_SACRED_SWORD, 45
     learnset MOVE_SWORDS_DANCE, 50
-    learnset MOVE_CLOSE_COMBAT, 55
-    learnset MOVE_MEMENTO, 60
+    learnset MOVE_STORED_POWER, 55
+    learnset MOVE_CLOSE_COMBAT, 60
+    learnset MOVE_MEMENTO, 65
     terminatelearnset
 
 levelup SPECIES_SURSKIT
@@ -12910,6 +12911,7 @@ levelup SPECIES_GIGALITH
     learnset MOVE_EXPLOSION, 60
     terminatelearnset
 
+// NEW: Esper Wing
 levelup SPECIES_WOOBAT
     learnset MOVE_GUST, 1
     learnset MOVE_SUPERSONIC, 1
@@ -12922,16 +12924,17 @@ levelup SPECIES_WOOBAT
     learnset MOVE_PSYSHOCK, 24
     learnset MOVE_AIR_SLASH, 28
     learnset MOVE_CAPTIVATE, 32
-    learnset MOVE_AMNESIA, 36
-    learnset MOVE_PSYCHIC, 40
-    learnset MOVE_ENDEAVOR, 44
+    learnset MOVE_ESPER_WING, 36
+    learnset MOVE_AMNESIA, 40
+    learnset MOVE_PSYCHIC, 44
     learnset MOVE_CALM_MIND, 48
-    learnset MOVE_SUPER_FANG, 52
-    learnset MOVE_FUTURE_SIGHT, 56
+    learnset MOVE_ENDEAVOR, 52
+    learnset MOVE_SUPER_FANG, 56
+    learnset MOVE_FUTURE_SIGHT, 60
     terminatelearnset
 
+// NEW: Esper Wing
 levelup SPECIES_SWOOBAT
-    learnset MOVE_STORED_POWER, 1
     learnset MOVE_TAILWIND, 1
     learnset MOVE_GUST, 1
     learnset MOVE_SUPERSONIC, 1
@@ -12944,12 +12947,13 @@ levelup SPECIES_SWOOBAT
     learnset MOVE_PSYSHOCK, 24
     learnset MOVE_AIR_SLASH, 28
     learnset MOVE_CAPTIVATE, 32
-    learnset MOVE_AMNESIA, 36
-    learnset MOVE_PSYCHIC, 40
-    learnset MOVE_ENDEAVOR, 44
+    learnset MOVE_ESPER_WING, 36
+    learnset MOVE_AMNESIA, 40
+    learnset MOVE_PSYCHIC, 44
     learnset MOVE_CALM_MIND, 48
-    learnset MOVE_SUPER_FANG, 52
-    learnset MOVE_FUTURE_SIGHT, 56
+    learnset MOVE_ENDEAVOR, 52
+    learnset MOVE_SUPER_FANG, 56
+    learnset MOVE_FUTURE_SIGHT, 60
     terminatelearnset
 
 levelup SPECIES_DRILBUR
@@ -13637,7 +13641,7 @@ levelup SPECIES_SCRAFTY
     terminatelearnset
 
 levelup SPECIES_SIGILYPH
-    learnset MOVE_PSYCHO_SHIFT, 1
+    learnset MOVE_ANCIENT_POWER, 1
     learnset MOVE_MIRACLE_EYE, 1
     learnset MOVE_MAGIC_COAT, 1
     learnset MOVE_GUST, 1
@@ -13655,8 +13659,8 @@ levelup SPECIES_SIGILYPH
     learnset MOVE_LIGHT_SCREEN, 36
     learnset MOVE_REFLECT, 36
     learnset MOVE_PSYCHIC, 40
-    learnset MOVE_MIRROR_MOVE, 44
-    learnset MOVE_STORED_POWER, 48
+    learnset MOVE_PSYCHO_SHIFT, 44
+    learnset MOVE_MIRROR_MOVE, 48
     learnset MOVE_SKILL_SWAP, 52
     learnset MOVE_SKY_ATTACK, 56
     terminatelearnset
@@ -13965,7 +13969,6 @@ levelup SPECIES_GOTHORITA
 
 // Evolution: 24 -> 38
 levelup SPECIES_GOTHITELLE
-    learnset MOVE_STORED_POWER, 1
     learnset MOVE_MIRACLE_EYE, 1
     learnset MOVE_MIRROR_COAT, 1
     learnset MOVE_MAGIC_COAT, 1
@@ -14041,7 +14044,6 @@ levelup SPECIES_DUOSION
 
 // Evolution: 24 -> 38
 levelup SPECIES_REUNICLUS
-    learnset MOVE_STORED_POWER, 1
     learnset MOVE_DIZZY_PUNCH, 1
     learnset MOVE_ACID_ARMOR, 1
     learnset MOVE_MAGIC_COAT, 1
@@ -14837,10 +14839,9 @@ levelup SPECIES_ELGYEM
 
 // Evolution: 32
 levelup SPECIES_BEHEEYEM
-    learnset MOVE_STORED_POWER, 1
+    learnset MOVE_TRICK_ROOM, 1
     learnset MOVE_COSMIC_POWER, 1
     learnset MOVE_SKILL_SWAP, 1
-    learnset MOVE_TRICK_ROOM, 1
     learnset MOVE_BARRIER, 1
     learnset MOVE_GRAVITY, 1
     learnset MOVE_TELEPORT, 1

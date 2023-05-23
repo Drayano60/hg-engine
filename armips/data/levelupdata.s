@@ -6922,8 +6922,8 @@ levelup SPECIES_TORCHIC
     learnset MOVE_AERIAL_ACE, 20
     learnset MOVE_SLASH, 24
     learnset MOVE_MIRROR_MOVE, 28
-    learnset MOVE_FOCUS_ENERGY, 32
-    learnset MOVE_FLAMETHROWER, 38
+    learnset MOVE_FLAMETHROWER, 32
+    learnset MOVE_FOCUS_ENERGY, 38
     learnset MOVE_FEATHER_DANCE, 44
     learnset MOVE_REVERSAL, 50
     learnset MOVE_BOUNCE, 56
@@ -6942,15 +6942,14 @@ levelup SPECIES_COMBUSKEN
     learnset MOVE_AERIAL_ACE, 20
     learnset MOVE_SLASH, 24
     learnset MOVE_BLAZE_KICK, 28
-    learnset MOVE_FOCUS_ENERGY, 32
-    learnset MOVE_SKY_UPPERCUT, 38
+    learnset MOVE_SKY_UPPERCUT, 32
+    learnset MOVE_FOCUS_ENERGY, 38
     learnset MOVE_BULK_UP, 44
     learnset MOVE_REVERSAL, 50
     learnset MOVE_BOUNCE, 56
     learnset MOVE_FLARE_BLITZ, 62
     terminatelearnset
 
-// NEW: Jump Kick
 levelup SPECIES_BLAZIKEN
     learnset MOVE_FIRE_PUNCH, 1
     learnset MOVE_NIGHT_SLASH, 1
@@ -6966,14 +6965,13 @@ levelup SPECIES_BLAZIKEN
     learnset MOVE_AERIAL_ACE, 20
     learnset MOVE_SLASH, 24
     learnset MOVE_BLAZE_KICK, 28
-    learnset MOVE_FOCUS_ENERGY, 32
-    learnset MOVE_JUMP_KICK, 36
-    learnset MOVE_SKY_UPPERCUT, 38
+    learnset MOVE_SKY_UPPERCUT, 32
+    learnset MOVE_HIGH_JUMP_KICK, 36
+    learnset MOVE_FOCUS_ENERGY, 38
     learnset MOVE_BULK_UP, 44
     learnset MOVE_REVERSAL, 50
     learnset MOVE_BRAVE_BIRD, 56
     learnset MOVE_FLARE_BLITZ, 62
-    learnset MOVE_HI_JUMP_KICK, 68
     terminatelearnset
 
 levelup SPECIES_MUDKIP
@@ -12292,7 +12290,6 @@ levelup SPECIES_PIGNITE
 levelup SPECIES_EMBOAR
     learnset MOVE_POWER_UP_PUNCH, 1
     learnset MOVE_SUCKER_PUNCH, 1
-    learnset MOVE_ZEN_HEADBUTT, 1
     learnset MOVE_BODY_SLAM, 1
     learnset MOVE_TACKLE, 1
     learnset MOVE_TAIL_WHIP, 1

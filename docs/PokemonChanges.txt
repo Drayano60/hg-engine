@@ -9433,8 +9433,8 @@ Level Up Moves:
 20 - Aerial Ace
 24 - Slash
 28 - Mirror Move
-32 - Focus Energy
-38 - Flamethrower
+32 - Flamethrower
+38 - Focus Energy
 44 - Feather Dance
 50 - Reversal
 56 - Bounce
@@ -9463,8 +9463,8 @@ Level Up Moves:
 20 - Aerial Ace
 24 - Slash
 28 - Blaze Kick
-32 - Focus Energy
-38 - Sky Uppercut
+32 - Sky Uppercut
+38 - Focus Energy
 44 - Bulk Up
 50 - Reversal
 56 - Bounce
@@ -9479,7 +9479,7 @@ Held Item: None
 Type: Fire / Fighting
 
 New Moves:
-- Jump Kick (Level)
+- None
 
 Level Up Moves:
 01 - Fire Punch
@@ -9496,9 +9496,9 @@ Level Up Moves:
 20 - Aerial Ace
 24 - Slash
 28 - Blaze Kick
-32 - Focus Energy
-36 - Jump Kick
-38 - Sky Uppercut
+32 - Sky Uppercut
+36 - High Jump Kick
+38 - Focus Energy
 44 - Bulk Up
 50 - Reversal
 56 - Brave Bird
@@ -16957,7 +16957,6 @@ New Moves:
 Level Up Moves:
 01 - Power-Up Punch
 01 - Sucker Punch
-01 - Zen Headbutt
 01 - Body Slam
 01 - Tackle
 01 - Tail Whip

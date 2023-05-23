@@ -16939,7 +16939,7 @@ Level Up Moves:
 500 - Emboar
 -------------------
 Abilities: Blaze / Blaze / Reckless ⟶ Blaze / Thick Fat** / Reckless
-Base Stats: 110/123/65/100/65/65 (528) ⟶ 110/130*/65/100/65/65 (535)
+Base Stats: 110/123/65/100/65/65 (528) ⟶ 110/130*/75*/80*/75*/65 (535)
 Held Item: None
 Type: Fire / Fighting
 
@@ -17569,7 +17569,7 @@ Level Up Moves:
 Abilities: Forewarn / Synchronize / Telepathy ⟶ Levitate** / Levitate** / Levitate**
 Base Stats: 116/55/85/107/95/29 (487)
 Held Item: None
-Type: Psychic
+Type: Psychic ⟶ Psychic / Fairy
 
 New Moves:
 - None

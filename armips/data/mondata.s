@@ -14071,11 +14071,11 @@ mondata SPECIES_PIGNITE, "Pignite"
     mondexweight SPECIES_PIGNITE, "122.4 lbs."
 
 
-// STATS: 123 >> 130 Atk | 528 >> 535 BST
+// STATS: 123 >> 130 Atk | 65 >> 75 Def | 100 >> 80 SpAtk | 65 >> 75 SpDef | 528 >> 535 BST
 // ABILITY: Thick Fat (2), Reckless (HA)
 mondata SPECIES_EMBOAR, "Emboar"
     .if STAT_CHANGES_IMPLEMENTED
-        basestats 110, 130, 65, 65, 100, 65
+        basestats 110, 130, 75, 65, 80, 75
     .else
         basestats 110, 123, 65, 65, 100, 65
     .endif
@@ -14533,9 +14533,14 @@ mondata SPECIES_MUNNA, "Munna"
 
 
 // ABILITY: Levitate (1, 2, HA)
+// TYPES: Psychic >> Psychic/Fairy
 mondata SPECIES_MUSHARNA, "Musharna"
     basestats 116, 55, 85, 29, 107, 95
-    types TYPE_PSYCHIC, TYPE_PSYCHIC
+    .if TYPE_CHANGES_IMPLEMENTED
+        types TYPE_PSYCHIC, TYPE_FAIRY
+    .else
+        types TYPE_PSYCHIC, TYPE_PSYCHIC
+    .endif
     catchrate 75
     baseexp 0 // defined in baseexp.s
     evyields 2, 0, 0, 0, 0, 0

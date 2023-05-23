@@ -9503,7 +9503,6 @@ Level Up Moves:
 50 - Reversal
 56 - Brave Bird
 62 - Flare Blitz
-68 - High Jump Kick
 
 -------------------
 258 - Mudkip

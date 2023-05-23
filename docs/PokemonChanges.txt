@@ -8993,6 +8993,9 @@ Type: Normal
 New Moves:
 - None
 
+Notes:
+As a quality of life improvement, Smeargle is now able to learn any move taught by TM, HM or move tutor.
+
 Level Up Moves:
 01 - Sketch
 11 - Sketch

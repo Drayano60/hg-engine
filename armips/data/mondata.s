@@ -2839,7 +2839,7 @@ mondata SPECIES_KOFFING, "Koffing"
     basefriendship 70 // raised up again
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_AMORPHOUS, EGG_GROUP_AMORPHOUS
-    abilities ABILITY_LEVITATE, ABILITY_NEUTRALIZING_GAS
+    abilities ABILITY_LEVITATE, ABILITY_LEVITATE /* Removed Neutralizing Gas */
     runchance 25
     colorflip BODY_COLOR_PURPLE, 0
     tmdata SPECIES_KOFFING_TM_DATA_0, SPECIES_KOFFING_TM_DATA_1, SPECIES_KOFFING_TM_DATA_2, SPECIES_KOFFING_TM_DATA_3
@@ -2866,7 +2866,7 @@ mondata SPECIES_WEEZING, "Weezing"
     basefriendship 70 // raised up again
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_AMORPHOUS, EGG_GROUP_AMORPHOUS
-    abilities ABILITY_LEVITATE, ABILITY_NEUTRALIZING_GAS
+    abilities ABILITY_LEVITATE, ABILITY_LEVITATE /* Removed Neutralizing Gas */
     runchance 25
     colorflip BODY_COLOR_PURPLE, 0
     tmdata SPECIES_WEEZING_TM_DATA_0, SPECIES_WEEZING_TM_DATA_1, SPECIES_WEEZING_TM_DATA_2, SPECIES_WEEZING_TM_DATA_3

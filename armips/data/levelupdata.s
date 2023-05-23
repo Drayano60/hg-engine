@@ -6966,7 +6966,7 @@ levelup SPECIES_BLAZIKEN
     learnset MOVE_SLASH, 24
     learnset MOVE_BLAZE_KICK, 28
     learnset MOVE_SKY_UPPERCUT, 32
-    learnset MOVE_HIGH_JUMP_KICK, 36
+    learnset MOVE_HI_JUMP_KICK, 36
     learnset MOVE_FOCUS_ENERGY, 38
     learnset MOVE_BULK_UP, 44
     learnset MOVE_REVERSAL, 50

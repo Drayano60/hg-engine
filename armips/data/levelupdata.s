@@ -12267,6 +12267,7 @@ levelup SPECIES_TEPIG
     learnset MOVE_FLARE_BLITZ, 62
     terminatelearnset
 
+// NEW: Close Combat
 levelup SPECIES_PIGNITE
     learnset MOVE_TACKLE, 1
     learnset MOVE_TAIL_WHIP, 1
@@ -12282,12 +12283,12 @@ levelup SPECIES_PIGNITE
     learnset MOVE_HEAT_CRASH, 32
     learnset MOVE_ENDEAVOR, 38
     learnset MOVE_FLAMETHROWER, 44
-    learnset MOVE_HEAVY_SLAM, 50
+    learnset MOVE_CLOSE_COMBAT, 50
     learnset MOVE_HEAD_SMASH, 56
     learnset MOVE_FLARE_BLITZ, 62
     terminatelearnset
 
-// NEW: Headlong Rush
+// NEW: Close Combat, Headlong Rush
 levelup SPECIES_EMBOAR
     learnset MOVE_POWER_UP_PUNCH, 1
     learnset MOVE_SUCKER_PUNCH, 1
@@ -12308,7 +12309,7 @@ levelup SPECIES_EMBOAR
     learnset MOVE_HAMMER_ARM, 36
     learnset MOVE_ENDEAVOR, 38
     learnset MOVE_FLAMETHROWER, 44
-    learnset MOVE_HEAVY_SLAM, 50
+    learnset MOVE_CLOSE_COMBAT, 50
     learnset MOVE_HEAD_SMASH, 56
     learnset MOVE_FLARE_BLITZ, 62
     learnset MOVE_HEADLONG_RUSH, 68
@@ -12818,8 +12819,8 @@ levelup SPECIES_BLITZLE
     learnset MOVE_PURSUIT, 6
     learnset MOVE_SHOCK_WAVE, 9
     learnset MOVE_THUNDER_WAVE, 12
-    learnset MOVE_FLAME_CHARGE, 15
-    learnset MOVE_DOUBLE_KICK, 18
+    learnset MOVE_DOUBLE_KICK, 15
+    learnset MOVE_FLAME_CHARGE, 18
     learnset MOVE_SPARK, 21
     learnset MOVE_STOMP, 24
     learnset MOVE_DISCHARGE, 28
@@ -12832,8 +12833,9 @@ levelup SPECIES_BLITZLE
     learnset MOVE_VOLT_TACKLE, 56
     terminatelearnset
 
-// NEW: Extreme Speed, Jump Kick, Volt Tackle
+// NEW: Extreme Speed, Jump Kick, Volt Tackle, High Horsepower
 levelup SPECIES_ZEBSTRIKA
+    learnset MOVE_HIGH_HORSEPOWER, 1
     learnset MOVE_VOLT_SWITCH, 1
     learnset MOVE_SCREECH, 1
     learnset MOVE_QUICK_ATTACK, 1
@@ -12842,8 +12844,8 @@ levelup SPECIES_ZEBSTRIKA
     learnset MOVE_PURSUIT, 6
     learnset MOVE_SHOCK_WAVE, 9
     learnset MOVE_THUNDER_WAVE, 12
-    learnset MOVE_FLAME_CHARGE, 15
-    learnset MOVE_DOUBLE_KICK, 18
+    learnset MOVE_DOUBLE_KICK, 15
+    learnset MOVE_FLAME_CHARGE, 18
     learnset MOVE_SPARK, 21
     learnset MOVE_STOMP, 24
     learnset MOVE_DISCHARGE, 28

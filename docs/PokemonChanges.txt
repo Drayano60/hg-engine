@@ -16917,6 +16917,7 @@ Held Item: None
 Type: Fire / Fighting
 
 New Moves:
+- Close Combat (Level/Tutor)
 - Double-Edge (Tutor)
 
 Level Up Moves:
@@ -16934,7 +16935,7 @@ Level Up Moves:
 32 - Heat Crash
 38 - Endeavor
 44 - Flamethrower
-50 - Heavy Slam
+50 - Close Combat
 56 - Head Smash
 62 - Flare Blitz
 
@@ -16947,6 +16948,7 @@ Held Item: None
 Type: Fire / Fighting
 
 New Moves:
+- Close Combat (Level/Tutor)
 - Double-Edge (Tutor)
 - Drain Punch (TM)
 - Headlong Rush (Level)
@@ -16972,7 +16974,7 @@ Level Up Moves:
 36 - Hammer Arm
 38 - Endeavor
 44 - Flamethrower
-50 - Heavy Slam
+50 - Close Combat
 56 - Head Smash
 62 - Flare Blitz
 68 - Headlong Rush
@@ -17707,8 +17709,8 @@ Level Up Moves:
 06 - Pursuit
 09 - Shock Wave
 12 - Thunder Wave
-15 - Flame Charge
-18 - Double Kick
+15 - Double Kick
+18 - Flame Charge
 21 - Spark
 24 - Stomp
 28 - Discharge
@@ -17731,12 +17733,14 @@ Type: Electric
 
 New Moves:
 - Extreme Speed (Level)
+- High Horsepower (Level)
 - Jump Kick (Level)
 - Low Sweep (TM)
 - Trailblaze (Tutor)
 - Volt Tackle (Level)
 
 Level Up Moves:
+01 - High Horsepower
 01 - Volt Switch
 01 - Screech
 01 - Quick Attack
@@ -17745,8 +17749,8 @@ Level Up Moves:
 06 - Pursuit
 09 - Shock Wave
 12 - Thunder Wave
-15 - Flame Charge
-18 - Double Kick
+15 - Double Kick
+18 - Flame Charge
 21 - Spark
 24 - Stomp
 28 - Discharge

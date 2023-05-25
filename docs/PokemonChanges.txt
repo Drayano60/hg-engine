@@ -8,6 +8,8 @@ Every Pokémon has up to three ability slots. All slots are listed even if the s
 
 Any Pokémon encountered or received has a 20% chance to have its Hidden Ability, otherwise they have the usual 50% rate of either ability one or two, i.e. Slots 1/2/3 have a 40%/40%/20% chance each.
 
+All Pokémon originally in the game use their standard sprites from HG/SS, with the exceptions of Vaporeon, Jolteon, Snorlax and Tyranitar who instead use their sprites from Platinum.
+
 The following Pokémon are included in the game:
 * All Pokémon from Gens 1-4, as usual.
 * All Pokémon from Gen 5 except for legendaries and mythicals (i.e. from Snivy to Volcarona). These can be found using the Unova Sound, in the Bug-Catching Contest, in the Safari Zone, or through certain events.

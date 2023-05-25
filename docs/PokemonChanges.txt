@@ -3387,7 +3387,7 @@ Level Up Moves:
 -------------------
 208 - Steelix
 -------------------
-Abilities: Rock Head / Sturdy / Weak Armor ⟶ Strong Jaw** / Sturdy / Sheer Force
+Abilities: Rock Head / Sturdy / Weak Armor ⟶ Strong Jaw** / Sturdy / Sheer Force**
 Base Stats: 75/85/200/55/65/30 (510) ⟶ 75/105*/200/55/65/30 (530)
 Held Item: Metal Coat (5%)
 Type: Steel / Ground
@@ -6077,7 +6077,7 @@ Level Up Moves:
 154 - Meganium
 -------------------
 Abilities: Overgrow / Overgrow / Leaf Guard ⟶ Overgrow / Leaf Guard / Triage**
-Base Stats: 80/82/100/83/100/80 (525) ⟶ 80/82/110/93*/110/60* (535)
+Base Stats: 80/82/100/83/100/80 (525) ⟶ 80/82/110*/93*/110*/60* (535)
 Held Item: None
 Type: Grass ⟶ Grass / Fairy
 
@@ -6300,7 +6300,7 @@ Type: Water ⟶ Water / Dark
 New Moves:
 - Savage Rend (Level) (New Move)
 - Aqua Cutter (Level)
-- Breaking Swipe (Level/Tutor) (HOME)
+- Breaking Swipe (Tutor) (HOME)
 - Chilling Water (Tutor)
 - Flip Turn (Tutor)
 - Psychic Fangs (Tutor) (HOME)

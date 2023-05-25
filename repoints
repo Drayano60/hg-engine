@@ -31,3 +31,9 @@ arm9 TrainerMusicTable 08051890
 
 # Table for trainer class prize money
 0012 PrizeMoney 08008380
+
+# Move Tutor Table
+0001 MoveTutorTable 02202C20
+0001 MoveTutorTable 02202DFC
+0001 MoveTutorTable 0220304C
+0001 MoveTutorTable+2 02202C24

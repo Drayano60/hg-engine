@@ -1325,19 +1325,11 @@ BOOL btl_scr_cmd_E4_echoedvoicedamagecalc(void *bw, struct BattleStruct *sp)
 {
     IncrementBattleScriptPtr(sp, 1);
 
-    /* We use the Fury Cutter count for this too as it works kind of similar */
-    /* Unfortunately it doesn't clear if a different move is used, just going to have to own it */
-    /* It does also mean that using Echoed Voice after Fury Cutter or vice-versa uses the same multiplier! */
-    if (sp->battlemon[sp->attack_client].moveeffect.renzokugiri_count < 3) {
-        sp->battlemon[sp->attack_client].moveeffect.renzokugiri_count++;
+    if (sp->battlemon[sp->attack_client].echoed_voice_count < 5) {
+        sp->battlemon[sp->attack_client].echoed_voice_count++;
     }
 
-    if (sp->battlemon[sp->attack_client].moveeffect.renzokugiri_count == 0) {
-        sp->damage_power = GetMoveData(sp->current_move_index, MOVE_DATA_BASE_POWER);
-    } else {
-        /* Max of base power x 3, should be 120 */
-        sp->damage_power = GetMoveData(sp->current_move_index, MOVE_DATA_BASE_POWER) * (sp->battlemon[sp->attack_client].moveeffect.renzokugiri_count);
-    }
+    sp->damage_power = GetMoveData(sp->current_move_index, MOVE_DATA_BASE_POWER) * sp->battlemon[sp->attack_client].echoed_voice_count;
 
     return FALSE;
 }

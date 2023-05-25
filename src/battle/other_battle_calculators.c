@@ -809,7 +809,7 @@ const u8 CriticalRateTable[] =
 };
 */
 
-/* Not quite identical to later gens to account for the 2x crit multipler */
+/* Not quite identical to later gens to account for the 2x crit multiplier */
 const u8 CriticalRateTable[] = {24, 8, 3, 2, 1};
 
 // calculates the critical hit multiplier
@@ -885,6 +885,17 @@ void ServerHPCalc(void *bw, struct BattleStruct *sp)
 {
     int	eqp;
     int	atk;
+
+
+    // Clear Fury Cutter count if it's not Fury Cutter (as Gen 4 doesn't do this normally!)
+    if (sp->current_move_index != MOVE_FURY_CUTTER) {
+        sp->battlemon[sp->attack_client].moveeffect.renzokugiri_count = 0;
+    }
+
+    // Clear Echoed Voice count if it's not Echoed Voice
+    if (sp->current_move_index != MOVE_ECHOED_VOICE) {
+        sp->battlemon[sp->attack_client].echoed_voice_count = 0;
+    }
 
     if (sp->waza_status_flag & MOVE_STATUS_FLAG_OHKO_HIT)
     {

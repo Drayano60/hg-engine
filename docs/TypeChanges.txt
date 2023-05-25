@@ -192,6 +192,11 @@ Justification: Given as a result of Serperior's regal and serpentine appearance 
 Type: Water ⟶ Water / Fighting
 Justification: This one is given due to the samurai aesthetic and Samurott's sword usage, which has been shown by moves like Sacred Sword to align with the Fighting-type. This change starts from Dewott mostly just because of how it looks!
 
+518 - Musharna
+-------------------
+Type: Psychic ⟶ Psychic / Fairy
+Justification: Added for a few reasons such as the mythical creature basis, its mist aesthetic (think Misty Terrain), learning some moon related things naturally such as Moonlight and Moonblast, evolving via the Moon Stone etc. It's also a more defensive variation on the type compared to Gardevoir and Mr. Mime being more offensively based. This is a change AphexCubed made in Blaze Black 2 / Volt White 2 Redux that I quite liked and decided to keep.
+
 531 - Audino
 -------------------
 Type: Normal ⟶ Normal / Fairy
@@ -206,3 +211,9 @@ Justification: Added because of its body being quite literally a big chunk of go
 -------------------
 Type: Psychic ⟶ Psychic / Dark
 Justification: Added because of goth style being associated with dark colours and gloomy attire. Your mileage may vary on how appropriate this is, particularly since the line is inspired by the Japanese version of the style rather than the western and there's no "evil" lore about the line (except maybe some of Gothorita's entries), but it does let Gothitelle bring something unique to the table as Malamar and Hoopa aren't present. It's also one of those changes that seem to get brought up a lot!
+
+Changes I decided against:
+- Grass/Fairy Bellossom
+- Water/Fairy Lumineon
+- Fire/Ground Emboar
+- Ice/Fighting Beartic

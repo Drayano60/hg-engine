@@ -2839,7 +2839,7 @@ mondata SPECIES_KOFFING, "Koffing"
     basefriendship 70 // raised up again
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_AMORPHOUS, EGG_GROUP_AMORPHOUS
-    abilities ABILITY_LEVITATE, ABILITY_NEUTRALIZING_GAS
+    abilities ABILITY_LEVITATE, ABILITY_LEVITATE /* Removed Neutralizing Gas */
     runchance 25
     colorflip BODY_COLOR_PURPLE, 0
     tmdata SPECIES_KOFFING_TM_DATA_0, SPECIES_KOFFING_TM_DATA_1, SPECIES_KOFFING_TM_DATA_2, SPECIES_KOFFING_TM_DATA_3
@@ -2866,7 +2866,7 @@ mondata SPECIES_WEEZING, "Weezing"
     basefriendship 70 // raised up again
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_AMORPHOUS, EGG_GROUP_AMORPHOUS
-    abilities ABILITY_LEVITATE, ABILITY_NEUTRALIZING_GAS
+    abilities ABILITY_LEVITATE, ABILITY_LEVITATE /* Removed Neutralizing Gas */
     runchance 25
     colorflip BODY_COLOR_PURPLE, 0
     tmdata SPECIES_WEEZING_TM_DATA_0, SPECIES_WEEZING_TM_DATA_1, SPECIES_WEEZING_TM_DATA_2, SPECIES_WEEZING_TM_DATA_3
@@ -9495,7 +9495,7 @@ mondata SPECIES_SNORUNT, "Snorunt"
 
 // STATS: 80 >> 110 Atk | 80 >> 60 SpAtk | 80 >> 90 Speed | 480 >> 500 BST
 // TYPES: Ice >> Ice/Rock
-// ABILITY: Solid Rock (1), Refrigerate (2)
+// ABILITY: Levitate (1, 2), Refrigerate (HA)
 mondata SPECIES_GLALIE, "Glalie"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 80, 110, 80, 90, 60, 80
@@ -9517,7 +9517,7 @@ mondata SPECIES_GLALIE, "Glalie"
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FAIRY, EGG_GROUP_MINERAL
     .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_SOLID_ROCK, ABILITY_REFRIGERATE
+        abilities ABILITY_LEVITATE, ABILITY_LEVITATE
     .else
         abilities ABILITY_INNER_FOCUS, ABILITY_ICE_BODY
     .endif
@@ -12402,6 +12402,7 @@ mondata SPECIES_DUSKNOIR, "Dusknoir"
     mondexweight SPECIES_DUSKNOIR, "235.0 lbs."
 
 
+// ABILITY: Levitate (1, 2)
 mondata SPECIES_FROSLASS, "Froslass"
     basestats 70, 80, 70, 110, 80, 70
     types TYPE_ICE, TYPE_GHOST
@@ -12414,7 +12415,11 @@ mondata SPECIES_FROSLASS, "Froslass"
     basefriendship 70 // raised up again
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FAIRY, EGG_GROUP_MINERAL
-    abilities ABILITY_SNOW_CLOAK, ABILITY_SNOW_CLOAK
+    .if ABILITY_CHANGES_IMPLEMENTED
+        abilities ABILITY_LEVITATE, ABILITY_LEVITATE
+    .else
+        abilities ABILITY_SNOW_CLOAK, ABILITY_SNOW_CLOAK
+    .endif
     runchance 25
     colorflip BODY_COLOR_WHITE, 0
     tmdata SPECIES_FROSLASS_TM_DATA_0, SPECIES_FROSLASS_TM_DATA_1, SPECIES_FROSLASS_TM_DATA_2, SPECIES_FROSLASS_TM_DATA_3
@@ -14066,11 +14071,11 @@ mondata SPECIES_PIGNITE, "Pignite"
     mondexweight SPECIES_PIGNITE, "122.4 lbs."
 
 
-// STATS: 123 >> 130 Atk | 528 >> 535 BST
+// STATS: 123 >> 130 Atk | 65 >> 75 Def | 100 >> 80 SpAtk | 65 >> 75 SpDef | 528 >> 535 BST
 // ABILITY: Thick Fat (2), Reckless (HA)
 mondata SPECIES_EMBOAR, "Emboar"
     .if STAT_CHANGES_IMPLEMENTED
-        basestats 110, 130, 65, 65, 100, 65
+        basestats 110, 130, 75, 65, 80, 75
     .else
         basestats 110, 123, 65, 65, 100, 65
     .endif
@@ -14528,9 +14533,14 @@ mondata SPECIES_MUNNA, "Munna"
 
 
 // ABILITY: Levitate (1, 2, HA)
+// TYPES: Psychic >> Psychic/Fairy
 mondata SPECIES_MUSHARNA, "Musharna"
     basestats 116, 55, 85, 29, 107, 95
-    types TYPE_PSYCHIC, TYPE_PSYCHIC
+    .if TYPE_CHANGES_IMPLEMENTED
+        types TYPE_PSYCHIC, TYPE_FAIRY
+    .else
+        types TYPE_PSYCHIC, TYPE_PSYCHIC
+    .endif
     catchrate 75
     baseexp 0 // defined in baseexp.s
     evyields 2, 0, 0, 0, 0, 0

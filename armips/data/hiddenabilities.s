@@ -114,8 +114,8 @@
 /* SPECIES_HITMONLEE                   */ .halfword ABILITY_UNBURDEN
 /* SPECIES_HITMONCHAN                  */ .halfword ABILITY_INNER_FOCUS
 /* SPECIES_LICKITUNG                   */ .halfword ABILITY_CLOUD_NINE
-/* SPECIES_KOFFING                     */ .halfword ABILITY_STENCH
-/* SPECIES_WEEZING                     */ .halfword ABILITY_STENCH
+/* SPECIES_KOFFING                     */ .halfword ABILITY_LEVITATE /* Changed back to Levitate */
+/* SPECIES_WEEZING                     */ .halfword ABILITY_LEVITATE /* Changed back to Levitate */
 /* SPECIES_RHYHORN                     */ .halfword ABILITY_RECKLESS
 /* SPECIES_RHYDON                      */ .halfword ABILITY_RECKLESS
 /* SPECIES_CHANSEY                     */ .halfword ABILITY_HEALER
@@ -367,7 +367,7 @@
 /* SPECIES_ABSOL                       */ .halfword ABILITY_JUSTIFIED
 /* SPECIES_WYNAUT                      */ .halfword ABILITY_TELEPATHY
 /* SPECIES_SNORUNT                     */ .halfword ABILITY_MOODY
-/* SPECIES_GLALIE                      */ .halfword ABILITY_MOODY
+/* SPECIES_GLALIE                      */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_REFRIGERATE : ABILITY_MOODY
 /* SPECIES_SPHEAL                      */ .halfword ABILITY_OBLIVIOUS
 /* SPECIES_SEALEO                      */ .halfword ABILITY_OBLIVIOUS
 /* SPECIES_WALREIN                     */ .halfword ABILITY_OBLIVIOUS

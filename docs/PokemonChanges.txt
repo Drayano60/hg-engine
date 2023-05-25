@@ -17580,6 +17580,7 @@ New Moves:
 - None
 
 Level Up Moves:
+01 - Dazzling Gleam
 01 - Magic Coat
 01 - Heal Bell
 01 - Barrier

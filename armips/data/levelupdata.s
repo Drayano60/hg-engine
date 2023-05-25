@@ -12708,6 +12708,7 @@ levelup SPECIES_MUNNA
     terminatelearnset
 
 levelup SPECIES_MUSHARNA
+    learnset MOVE_DAZZLING_GLEAM, 1
     learnset MOVE_MAGIC_COAT, 1
     learnset MOVE_HEAL_BELL, 1
     learnset MOVE_BARRIER, 1

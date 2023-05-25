@@ -301,6 +301,11 @@ This now boosts both Attack and Special Attack by one stage. In sunlight, it boo
 - Feint:
 This attack can still hit even if the opponent doesn't use Protect or Detect.
 
+- Fury Cutter:
+This now reaches its maximum damage after three uses (instead of five) like in later generations.
+It also now loses its power boost if any move other than Fury Cutter is used.
+(In vanilla Gen 4, the multiplier remains until the Pokémon misses or fails a move; strangely, switching between moves was OK.).
+
 - Hidden Power:
 This is now fixed at 60 base power. The type is still determined by the user's IVs.
 
@@ -361,11 +366,6 @@ Additionally, in a double battle, a Pokémon under the effect of Encore is still
 
 - Dragon Rush:
 This now does double damage if the opponent has used Minimize. However, it is not a guaranteed hit in that case.
-
-- Fury Cutter:
-This now reaches its maximum damage after three uses (instead of five) like in later generations.
-However, in Gen 4, Fury Cutter will retain its damage boost even if you swap to a different move (as long as that different move doesn't fail for whatever reason).
-It's currently unknown how to change this so it is still the case in Aurora Crystal; Fury Cutter's maximum power has been nerfed to compensate.
 
 - Knock Off:
 This now deals double damage if the target has a held item (unless the item is the Griseous Orb, or the target has the Multitype ability).
@@ -437,9 +437,8 @@ The following moves brought in from later generations have not been implemented 
 It sets up a Reflect and Light Screen in the same turn, instead of it being its own field effect. However, the damage reduction should be the same. It still has the restriction of only working within Hail.
 
 - Echoed Voice:
-This instead acts like Fury Cutter where each individual Pokémon has its own consecutive use counter (as opposed to any Pokémon using Echoed Voice during the turn increasing the damage).
-However, also like Fury Cutter (in Gen 4), Echoed Voice will retain its damage multiplier even if the Pokémon uses a different move, unless that move misses or fails for whatever reason.
-As usual, the move begins at 40 BP and gains an extra 40 BP for each consecutive use. Due to the above, it now caps at 120 BP (3+ uses) instead of the 200 BP it normally would.
+This instead acts like Fury Cutter where each individual Pokémon has its own consecutive use counter (instead of any Pokémon using Echoed Voice during the turn increasing the damage).
+However, accurate to how it normally works and unlike Fury Cutter, the Echoed Voice counter will not reset until a different move is used or the Pokémon switches out, i.e. the power boost is not lost even if Echoed Voice misses or fails for some reason.
 
 - Freeze-Dry:
 This is a bit of a strange case where the move isn't actually super effective against Water-type Pokémon as I've been unable to figure out how to do that, but it's been faked to look like it is by quadrupling its damage against any Water-type targets, and showing the "It's super effective!" message instead when appropriate.
@@ -535,11 +534,6 @@ Fury Attack
 -------------------
 Power: 15 ⟶ 20
 Accuracy: 85% ⟶ 100%
-
-Fury Cutter
--------------------
-Power: 40 ⟶ 30
-Notes: This nerf (relative to later generations) is because Fury Cutter does not lose its damage boost if you swap moves in Gen 4, and it's unknown how to correct it currently. Additionally, the power is now maxed out after three uses instead of five, going 30 -> 60 -> 120 base power.
 
 Fury Swipes
 -------------------

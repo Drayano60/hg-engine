@@ -374,7 +374,7 @@ If it is the opposite gender of the\nuser, the foe becomes infatuated\nand less 
 The user attacks the foe. In a wild\nbattle, this steals the foe’s held item\nif the user isn’t holding an item.
 The foe is hit with wings of steel.\nThis has a 10% chance to raise the\nuser’s Defense stat.
 The user employs its psychic power to\nexchange abilities with the foe.\n
-The user attacks the foe with an\nechoing voice. Its power increases\nif it hits in succession.
+The user attacks with an echoing voice.\nThis move gains 40 more power on each\nconsecutive hit, up to a maximum of 200.
 The user attacks the foe at full\npower using fiery energy. It also\nsharply reduces the user’s Sp. Atk.
 The user lands and rests its body.\nIt restores the user’s HP by up to\nhalf of its max HP.
 The user attacks at full power.\nThis has a 10% chance to lower the\nfoe’s Sp. Def stat if it hits.

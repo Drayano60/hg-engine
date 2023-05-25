@@ -3435,12 +3435,11 @@ movedata MOVE_SPARK, "Spark"
     terminatedata
     movedescription MOVE_SPARK, "The user throws an\nelectrically charged\ntackle at the foe.\nThis has a 30% chance\nto paralyze the foe."
 
-// POWER: 40 >> 30 (This is not optional)
-// Done as you can switch moves without losing the counter in Gen 4 and I cant change it
+// This now clears the count after using any other move
 movedata MOVE_FURY_CUTTER, "Fury Cutter"
     battleeffect 119
     pss SPLIT_PHYSICAL
-    basepower 30
+    basepower 40
     type TYPE_BUG
     accuracy 95
     pp 20
@@ -3451,7 +3450,7 @@ movedata MOVE_FURY_CUTTER, "Fury Cutter"
     appeal FLAG_CUTTING
     contesttype 0
     terminatedata
-    movedescription MOVE_FURY_CUTTER, "The user attacks\nby slashing the foe.\nIts power doubles\nafter each use, up\nto a maximum of 120."
+    movedescription MOVE_FURY_CUTTER, "A slashing attack.\nThis move’s power is\ndoubled on each\nconsecutive hit, up\nto a maximum of 160."
 
 // POWER: 70 >> 80
 // ACCURACY: 90 >> 100
@@ -7884,7 +7883,7 @@ movedata MOVE_ECHOED_VOICE, "Echoed Voice"
     appeal 0
     contesttype 0
     terminatedata
-    movedescription MOVE_ECHOED_VOICE, "The user attacks\nwith an echoing voice.\nIts power increases\nby 40 after each use,\nto a maximum of 120."
+    movedescription MOVE_ECHOED_VOICE, "Uses an echoing voice\nto attack. This move\ngains 40 power on\neach consecutive hit,\nup to a max of 200."
 
 movedata MOVE_SCALD, "Scald"
     battleeffect 125

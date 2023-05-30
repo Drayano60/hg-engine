@@ -18960,6 +18960,7 @@ Type: Psychic / Flying
 
 New Moves:
 - Double-Edge (Tutor)
+- Esper Wing (Level)
 
 Level Up Moves:
 01 - Ancient Power
@@ -18977,13 +18978,14 @@ Level Up Moves:
 24 - Gravity
 28 - Tailwind
 32 - Air Slash
-36 - Light Screen
-36 - Reflect
-40 - Psychic
-44 - Psycho Shift
-48 - Mirror Move
-52 - Skill Swap
-56 - Sky Attack
+36 - Esper Wing
+40 - Light Screen
+40 - Reflect
+44 - Psychic
+48 - Psycho Shift
+52 - Mirror Move
+56 - Skill Swap
+60 - Sky Attack
 
 -------------------
 562 - Yamask

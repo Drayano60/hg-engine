@@ -13640,6 +13640,7 @@ levelup SPECIES_SCRAFTY
     learnset MOVE_FOCUS_PUNCH, 62
     terminatelearnset
 
+// NEW: Esper Wing
 levelup SPECIES_SIGILYPH
     learnset MOVE_ANCIENT_POWER, 1
     learnset MOVE_MIRACLE_EYE, 1
@@ -13656,13 +13657,14 @@ levelup SPECIES_SIGILYPH
     learnset MOVE_GRAVITY, 24
     learnset MOVE_TAILWIND, 28
     learnset MOVE_AIR_SLASH, 32
-    learnset MOVE_LIGHT_SCREEN, 36
-    learnset MOVE_REFLECT, 36
-    learnset MOVE_PSYCHIC, 40
-    learnset MOVE_PSYCHO_SHIFT, 44
-    learnset MOVE_MIRROR_MOVE, 48
-    learnset MOVE_SKILL_SWAP, 52
-    learnset MOVE_SKY_ATTACK, 56
+    learnset MOVE_ESPER_WING, 36
+    learnset MOVE_LIGHT_SCREEN, 40
+    learnset MOVE_REFLECT, 40
+    learnset MOVE_PSYCHIC, 44
+    learnset MOVE_PSYCHO_SHIFT, 48
+    learnset MOVE_MIRROR_MOVE, 52
+    learnset MOVE_SKILL_SWAP, 56
+    learnset MOVE_SKY_ATTACK, 60
     terminatelearnset
 
 levelup SPECIES_YAMASK

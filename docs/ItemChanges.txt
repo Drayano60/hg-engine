@@ -77,7 +77,6 @@ The following items are not updated:
 - X items still only raise a stat by one stage.
 - Repels do not prompt you to use another one when they run out.
 - Escape Ropes are still consumable items instead of a key item.
-- The Figy, Wiki, Mago, Aguav and Iapapa Berries still recover 12.5% max HP when the Pokémon's HP reaches 50% or below.
 - The Pomeg, Kelpsy, Qualot, Hondew, Grepa and Tamato Berries still eliminate all EVs for a stat if that stat has 110 EVs or lower.
 - The Pomeg, Kelpsy, Qualot, Hondew, Grepa and Tamato Berries still give +2 friendship points if used on a Pokémon above 200 friendship.
 - The Exp. Share still works as it does in Gen 4.

@@ -357,7 +357,7 @@ A blood-draining attack. The user’s HP\nis restored by half the damage taken\n
 The foe is hit by a strong telekinetic\nforce. It has a 10% chance to lower\nthe foe’s Sp. Def stat.
 The user hurls a shadowy blob at the\nfoe. It has a 20% chance to lower the\nfoe’s Sp. Def stat.
 The user attacks with tough fists,\netc. It can also break any barrier\nsuch as Light Screen and Reflect.
-The user attacks the foe with a pollen\npuff that explodes. When targeting\nan ally, it heals the ally’s HP.
+The user strikes with a three-beam\nattack. It has a 20% chance to\nparalyze, burn, or freeze the target.
 A wondrous wall of light is put up to\nsuppress damage from physical attacks\nfor five turns.
 It swamps the area around the user\nwith a giant sludge wave. This has a\n10% chance to poison foes.
 The foe is scorched with an intense\nblast of fire. This has a 10% chance\nto leave the target with a burn.
@@ -399,7 +399,7 @@ The user attacks by breathing a\nspecial, hot fire. This also lowers\nthe target
 The user stabs the foe with a\nsharpened stone from below. It has\na high critical-hit ratio.
 The user covers its feet in ice and\ntwirls around, slamming into the target.
 A weak electric charge is launched\nat the foe. It causes paralysis if it\nhits.
-The user tackles the foe from a\nhigh-speed spin. The slower the user,\nthe greater the damage.
+The user attacks the foe with a pollen\npuff that explodes. When targeting\nan ally, it heals the ally’s HP.
 A frenetic dance to uplift the fighting\nspirit. It sharply raises the user’s\nAttack stat.
 While resisting, the user attacks the\nopposing Pokémon. This lowers the\ntargets’ Sp. Atk stats.
 The user hypnotizes itself into\ncopying any stat change made\nby the foe.

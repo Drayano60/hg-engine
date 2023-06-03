@@ -337,7 +337,6 @@ levelup SPECIES_PIDGEOTTO
 
 // NEW: Tri Attack
 levelup SPECIES_PIDGEOT
-    learnset MOVE_TRI_ATTACK, 1
     learnset MOVE_HEAT_WAVE, 1
     learnset MOVE_WHIRLWIND, 1
     learnset MOVE_TWISTER, 1
@@ -885,7 +884,6 @@ levelup SPECIES_CLEFAIRY
 // NEW: Teleport (LGPE)
 levelup SPECIES_CLEFABLE
     learnset MOVE_AROMATHERAPY, 1
-    learnset MOVE_TRI_ATTACK, 1
     learnset MOVE_TELEPORT, 1
     learnset MOVE_WISH, 1
     learnset MOVE_HELPING_HAND, 1
@@ -1075,7 +1073,6 @@ levelup SPECIES_JIGGLYPUFF
 // NEW: Boomburst, Moonblast, Noble Roar
 levelup SPECIES_WIGGLYTUFF
     learnset MOVE_BODY_SLAM, 1
-    learnset MOVE_TRI_ATTACK, 1
     learnset MOVE_NOBLE_ROAR, 1
     learnset MOVE_GRAVITY, 1
     learnset MOVE_HELPING_HAND, 1
@@ -1816,7 +1813,6 @@ levelup SPECIES_KADABRA
 // NEW: Hypnosis (PLA)
 levelup SPECIES_ALAKAZAM
     learnset MOVE_PSYCHO_CUT, 1
-    learnset MOVE_TRI_ATTACK, 1
     learnset MOVE_MAGIC_COAT, 1
     learnset MOVE_CALM_MIND, 1
     learnset MOVE_BARRIER, 1
@@ -3282,7 +3278,6 @@ levelup SPECIES_CHANSEY
 levelup SPECIES_BLISSEY
     learnset MOVE_AROMATHERAPY, 1
     learnset MOVE_COUNTER, 1
-    learnset MOVE_TRI_ATTACK, 1
     learnset MOVE_HELPING_HAND, 1
     learnset MOVE_POUND, 1
     learnset MOVE_GROWL, 1

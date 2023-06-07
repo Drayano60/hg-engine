@@ -2942,6 +2942,7 @@ mondata SPECIES_CHANSEY, "Chansey"
     mondexweight SPECIES_CHANSEY, "76.3 lbs."
 
 
+// ABILITY: Tangling Hair (1)
 mondata SPECIES_TANGELA, "Tangela"
     basestats 65, 55, 115, 60, 100, 40
     types TYPE_GRASS, TYPE_GRASS
@@ -2954,7 +2955,11 @@ mondata SPECIES_TANGELA, "Tangela"
     basefriendship 70 // raised up again
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_GRASS, EGG_GROUP_GRASS
-    abilities ABILITY_CHLOROPHYLL, ABILITY_LEAF_GUARD
+    .if ABILITY_CHANGES_IMPLEMENTED
+        abilities ABILITY_TANGLING_HAIR, ABILITY_LEAF_GUARD
+    .else
+        abilities ABILITY_CHLOROPHYLL, ABILITY_LEAF_GUARD
+    .endif
     runchance 25
     colorflip BODY_COLOR_BLUE, 0
     tmdata SPECIES_TANGELA_TM_DATA_0, SPECIES_TANGELA_TM_DATA_1, SPECIES_TANGELA_TM_DATA_2, SPECIES_TANGELA_TM_DATA_3
@@ -9574,13 +9579,8 @@ mondata SPECIES_SEALEO, "Sealeo"
     mondexweight SPECIES_SEALEO, "193.1 lbs."
 
 
-// STATS: 80 >> 90 Atk | 530 >> 540 BST
 mondata SPECIES_WALREIN, "Walrein"
-    .if STAT_CHANGES_IMPLEMENTED
-        basestats 110, 90, 90, 65, 95, 90
-    .else
-        basestats 110, 80, 90, 65, 95, 90
-    .endif
+    basestats 110, 80, 90, 65, 95, 90
     types TYPE_ICE, TYPE_WATER
     catchrate 45
     baseexp 0 // defined in baseexp.s
@@ -11749,6 +11749,7 @@ mondata SPECIES_HIPPOWDON, "Hippowdon"
     mondexweight SPECIES_HIPPOWDON, "661.4 lbs."
 
 
+// ABILITY: Merciless (HA)
 mondata SPECIES_SKORUPI, "Skorupi"
     basestats 40, 50, 90, 65, 30, 55
     types TYPE_POISON, TYPE_BUG
@@ -11771,6 +11772,7 @@ mondata SPECIES_SKORUPI, "Skorupi"
     mondexweight SPECIES_SKORUPI, "26.5 lbs."
 
 
+// ABILITY: Merciless (HA)
 mondata SPECIES_DRAPION, "Drapion"
     basestats 70, 90, 110, 95, 60, 75
     types TYPE_POISON, TYPE_DARK
@@ -12084,6 +12086,7 @@ mondata SPECIES_RHYPERIOR, "Rhyperior"
     mondexweight SPECIES_RHYPERIOR, "623.5 lbs."
 
 
+// ABILITY: Tangling Hair (1)
 mondata SPECIES_TANGROWTH, "Tangrowth"
     basestats 100, 100, 125, 50, 110, 50
     types TYPE_GRASS, TYPE_GRASS
@@ -12096,7 +12099,11 @@ mondata SPECIES_TANGROWTH, "Tangrowth"
     basefriendship 70 // raised up again
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_GRASS, EGG_GROUP_GRASS
-    abilities ABILITY_CHLOROPHYLL, ABILITY_LEAF_GUARD
+    .if ABILITY_CHANGES_IMPLEMENTED
+        abilities ABILITY_TANGLING_HAIR, ABILITY_LEAF_GUARD
+    .else
+        abilities ABILITY_CHLOROPHYLL, ABILITY_LEAF_GUARD
+    .endif
     runchance 25
     colorflip BODY_COLOR_BLUE, 0
     tmdata SPECIES_TANGROWTH_TM_DATA_0, SPECIES_TANGROWTH_TM_DATA_1, SPECIES_TANGROWTH_TM_DATA_2, SPECIES_TANGROWTH_TM_DATA_3
@@ -12402,9 +12409,14 @@ mondata SPECIES_DUSKNOIR, "Dusknoir"
     mondexweight SPECIES_DUSKNOIR, "235.0 lbs."
 
 
+// STATS: 80 >> 90 Atk | 80 >> 90 SpAtk | 480 >> 500 BST
 // ABILITY: Levitate (1, 2)
 mondata SPECIES_FROSLASS, "Froslass"
-    basestats 70, 80, 70, 110, 80, 70
+    .if STAT_CHANGES_IMPLEMENTED
+        basestats 70, 90, 70, 110, 90, 70
+    .else
+        basestats 70, 80, 70, 110, 80, 70
+    .endif
     types TYPE_ICE, TYPE_GHOST
     catchrate 75
     baseexp 0 // defined in baseexp.s
@@ -16535,6 +16547,7 @@ mondata SPECIES_EELEKTROSS, "Eelektross"
     mondexweight SPECIES_EELEKTROSS, "117.5 lbs."
 
 
+// ABILITY: Download (1)
 mondata SPECIES_ELGYEM, "Elgyem"
     basestats 55, 55, 55, 30, 85, 55
     types TYPE_PSYCHIC, TYPE_PSYCHIC
@@ -16547,7 +16560,11 @@ mondata SPECIES_ELGYEM, "Elgyem"
     basefriendship 70 // raised up again
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_HUMAN_LIKE, EGG_GROUP_HUMAN_LIKE
-    abilities ABILITY_TELEPATHY, ABILITY_SYNCHRONIZE
+    .if ABILITY_CHANGES_IMPLEMENTED
+        abilities ABILITY_DOWNLOAD, ABILITY_SYNCHRONIZE
+    .else
+        abilities ABILITY_TELEPATHY, ABILITY_SYNCHRONIZE
+    .endif
     runchance 25
     colorflip BODY_COLOR_BLUE, 0
     tmdata SPECIES_ELGYEM_TM_DATA_0, SPECIES_ELGYEM_TM_DATA_1, SPECIES_ELGYEM_TM_DATA_2, SPECIES_ELGYEM_TM_DATA_3
@@ -16557,6 +16574,7 @@ mondata SPECIES_ELGYEM, "Elgyem"
     mondexweight SPECIES_ELGYEM, "19.8 lbs."
 
 
+// ABILITY: Download (1)
 mondata SPECIES_BEHEEYEM, "Beheeyem"
     basestats 75, 75, 75, 40, 125, 95
     types TYPE_PSYCHIC, TYPE_PSYCHIC
@@ -16569,7 +16587,11 @@ mondata SPECIES_BEHEEYEM, "Beheeyem"
     basefriendship 70 // raised up again
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_HUMAN_LIKE, EGG_GROUP_HUMAN_LIKE
-    abilities ABILITY_TELEPATHY, ABILITY_SYNCHRONIZE
+    .if ABILITY_CHANGES_IMPLEMENTED
+        abilities ABILITY_DOWNLOAD, ABILITY_SYNCHRONIZE
+    .else
+        abilities ABILITY_TELEPATHY, ABILITY_SYNCHRONIZE
+    .endif
     runchance 25
     colorflip BODY_COLOR_BROWN, 0
     tmdata SPECIES_BEHEEYEM_TM_DATA_0, SPECIES_BEHEEYEM_TM_DATA_1, SPECIES_BEHEEYEM_TM_DATA_2, SPECIES_BEHEEYEM_TM_DATA_3
@@ -16821,6 +16843,7 @@ mondata SPECIES_ACCELGOR, "Accelgor"
     mondexweight SPECIES_ACCELGOR, "55.8 lbs."
 
 
+// ABILITY: Static (2)
 mondata SPECIES_STUNFISK, "Stunfisk"
     basestats 109, 66, 84, 32, 81, 99
     types TYPE_GROUND, TYPE_ELECTRIC
@@ -16833,7 +16856,11 @@ mondata SPECIES_STUNFISK, "Stunfisk"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_AMORPHOUS
-    abilities ABILITY_STATIC, ABILITY_LIMBER
+    .if ABILITY_CHANGES_IMPLEMENTED
+        abilities ABILITY_STATIC, ABILITY_STATIC
+    .else
+        abilities ABILITY_STATIC, ABILITY_LIMBER
+    .endif
     runchance 25
     colorflip BODY_COLOR_BROWN, 0
     tmdata SPECIES_STUNFISK_TM_DATA_0, SPECIES_STUNFISK_TM_DATA_1, SPECIES_STUNFISK_TM_DATA_2, SPECIES_STUNFISK_TM_DATA_3

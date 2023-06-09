@@ -170,7 +170,7 @@ Powers up aura and pulse\nmoves by 50%.
 Normal-type moves become\nFairy and do 20% more.
 Changes the Pokémon’s\ntype to its move’s type.
 Normal-type moves become\nIce and do 20% more.
-Powers up biting moves\nby 50%.
+Powers up biting moves\nby 30%.
 Powers up moves that\nmake contact by 20%.
 Boosts Sp. Atk when a hit\nmakes its HP half or less.
 Blocks priority moves used\nagainst it or its ally.
@@ -190,7 +190,7 @@ Powers up moves by 10%\nfor each fainted ally.
 Powers up aura and pulse\nmoves by 50%.
 Bug moves have 30% chance\nto cause a status effect.
 Powers up ball, bomb and\ncannon moves by 50%.
-Powers up sound-based\nmoves by 30%.
+Ups sound moves by 20%.\nHalves damage from them.
 Powers up moves used by\nallies by 15%.
 The Pokémon’s fur stops\nit taking recoil damage.
 Boosts Sp. Atk if a foe is\nKOed with a Fire move.
@@ -203,3 +203,4 @@ Sun is harsh for 3 turns.\nDoubles Speed in sunshine.
 Odd steps foul a foe’s aim,\nreducing accuracy by 10%.
 Contact has a 30% chance\nof badly poisoning the foe.
 Powers up wind-based\nmoves by 50%.
+Powers up its own and its\nally’s sound moves by 50%.

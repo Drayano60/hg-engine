@@ -246,7 +246,7 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
         movepower = movepower * 15 / 10;
 
     // handle technician
-    if ((AttackingMon.ability == ABILITY_TECHNICIAN) && (movepower <= 60) && (sp->moveTbl[moveno].effect != MOVE_EFFECT_TRIPLE_AXEL))
+    if ((AttackingMon.ability == ABILITY_TECHNICIAN) && (movepower <= 60))
         movepower = movepower * 15 / 10;
 
     movesplit = sp->moveTbl[moveno].split;
@@ -736,8 +736,9 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
     }
 
     // Handle Strong Jaw
+    // Intentionally nerfed due to distribution
     if ((AttackingMon.ability == ABILITY_STRONG_JAW) && (sp->moveTbl[sp->current_move_index].appeal & FLAG_BITING)) {
-        movepower = movepower * 150 / 100;
+        movepower = movepower * 130 / 100;
     }
 
     // Handle Sharpness
@@ -746,9 +747,26 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
     }
 
     // Handle Cacophony, a new ability for various sound-based Pokémon
+    // Boosts outgoing sound by 20%, reduces incoming sound by 50%.
     if ((AttackingMon.ability == ABILITY_CACOPHONY) && (sp->moveTbl[sp->current_move_index].flag & FLAG_SOUND)) {
-        movepower = movepower * 130 / 100;
-    }   
+        movepower = movepower * 120 / 100;
+    }
+    if ((DefendingMon.ability == ABILITY_CACOPHONY) && (sp->moveTbl[sp->current_move_index].flag & FLAG_SOUND)) {
+        movepower = movepower * 50 / 100;
+    }
+
+    // Handle Conductor, a new ability for Kricketune that boosts its and its ally's sound moves
+    if
+    (
+        (sp->moveTbl[sp->current_move_index].flag & FLAG_SOUND) &&
+        (
+            (AttackingMon.ability == ABILITY_CONDUCTOR) ||
+            ((GetBattlerAbility(sp, BATTLER_ALLY(attacker)) == ABILITY_CONDUCTOR) == TRUE)
+        )
+    )
+    {
+        movepower = movepower * 150 / 100;
+    }
 
     // Handle Bombardier, a new ability for Octillery
     if

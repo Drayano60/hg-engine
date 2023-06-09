@@ -1493,12 +1493,12 @@ mondata SPECIES_PSYDUCK, "Psyduck"
     mondexweight SPECIES_PSYDUCK, "43.2 lbs."
 
 
-// STATS: 82 >> 92 Atk | 85 >> 95 Speed | 500 BST >> 520 BST
+// STATS: 82 >> 97 Atk | 78 >> 73 Def | 85 >> 105 SpAtk | 80 >> 75 SpDef | 85 >> 90 Speed | 500 BST >> 520 BST
 // TYPES: Water >> Water/Psychic
 // ABILITY: Swift Swim (1), Competitive (HA)
 mondata SPECIES_GOLDUCK, "Golduck"
     .if STAT_CHANGES_IMPLEMENTED
-        basestats 80, 92, 78, 95, 95, 80
+        basestats 80, 97, 73, 90, 105, 75
     .else
         basestats 80, 82, 78, 85, 95, 80
     .endif
@@ -5581,7 +5581,7 @@ mondata SPECIES_HERACROSS, "Heracross"
     mondexweight SPECIES_HERACROSS, "119.0 lbs."
 
 
-// ABILITY: Technician (HA)
+// ABILITY: Infiltrator (HA)
 mondata SPECIES_SNEASEL, "Sneasel"
     basestats 55, 95, 55, 115, 35, 75
     types TYPE_DARK, TYPE_ICE
@@ -6478,11 +6478,11 @@ mondata SPECIES_CELEBI, "Celebi"
     mondexweight SPECIES_CELEBI, "11.0 lbs."
 
 
-// STATS: 45 >> 65 Atk | 65 >> 45 SpAtk
+// STATS: 45 >> 55 Atk | 35 >> 30 Def | 55 >> 50 SpDef
 // ABILITY: Unburden (2), Steadfast (HA)
 mondata SPECIES_TREECKO, "Treecko"
     .if STAT_CHANGES_IMPLEMENTED
-        basestats 40, 65, 35, 70, 45, 55
+        basestats 40, 55, 30, 70, 65, 50
     .else
         basestats 40, 45, 35, 70, 65, 55
     .endif
@@ -6510,11 +6510,11 @@ mondata SPECIES_TREECKO, "Treecko"
     mondexweight SPECIES_TREECKO, "11.0 lbs."
 
 
-// STATS: 65 >> 85 Atk | 85 >> 65 SpAtk
+// STATS: 65 >> 75 Atk | 45 >> 40 Def | 65 >> 60 SpDef
 // ABILITY: Unburden (2), Steadfast (HA)
 mondata SPECIES_GROVYLE, "Grovyle"
     .if STAT_CHANGES_IMPLEMENTED
-        basestats 50, 85, 45, 95, 65, 65
+        basestats 50, 75, 40, 95, 85, 60
     .else
         basestats 50, 65, 45, 95, 85, 65
     .endif
@@ -6542,12 +6542,12 @@ mondata SPECIES_GROVYLE, "Grovyle"
     mondexweight SPECIES_GROVYLE, "47.6 lbs."
 
 
-// STATS: 85 >> 105 Atk | 105 >> 90 SpAtk | 530 >> 535 BST
+// STATS: 85 >> 100 Atk | 65 >> 60 Def | 85 >> 80 SpDef | 530 >> 535 BST
 // TYPES: Grass >> Grass/Dragon
 // ABILITY: Unburden (2), Sharpness (HA)
 mondata SPECIES_SCEPTILE, "Sceptile"
     .if STAT_CHANGES_IMPLEMENTED
-        basestats 70, 105, 65, 120, 90, 85
+        basestats 70, 100, 60, 120, 105, 80
     .else
         basestats 70, 85, 65, 120, 105, 85
     .endif
@@ -6719,7 +6719,7 @@ mondata SPECIES_MARSHTOMP, "Marshtomp"
     mondexweight SPECIES_MARSHTOMP, "61.7 lbs."
 
 
-// ABILITY: Damp (2), Swift Swim (HA)
+// ABILITY: Damp (2), Iron Fist (HA)
 mondata SPECIES_SWAMPERT, "Swampert"
     basestats 100, 110, 90, 60, 85, 90
     types TYPE_WATER, TYPE_GROUND
@@ -10506,11 +10506,11 @@ mondata SPECIES_KRICKETOT, "Kricketot"
     mondexweight SPECIES_KRICKETOT, "4.9 lbs."
 
 
-// STATS: 55 >> 85 SpAtk | 65 >> 75 Spd | 384 >> 424 BST
-// ABILITY: Technician (2), Cacophony (HA, New)
+// STATS: 77 >> 67 HP | 85 >> 90 Atk | 55 >> 90 SpAtk | 65 >> 75 Spd | 384 >> 424 BST
+// ABILITY: Technician (2), Conductor (HA, New)
 mondata SPECIES_KRICKETUNE, "Kricketune"
     .if STAT_CHANGES_IMPLEMENTED
-        basestats 77, 85, 51, 75, 85, 51
+        basestats 67, 90, 51, 75, 90, 51
     .else
         basestats 77, 85, 51, 65, 55, 51
     .endif
@@ -10890,7 +10890,7 @@ mondata SPECIES_COMBEE, "Combee"
 
 
 // STATS: 70 >> 80 HP | 80 >> 90 Atk | 80 >> 90 SpAtk | 40 >> 30 Speed | 474 >> 494 BST
-// ABILITY: Queenly Majesty (1), Swarm (2), Intimidate (HA)
+// ABILITY: Intimidate (1), Swarm (2), Queenly Majesty (HA)
 mondata SPECIES_VESPIQUEN, "Vespiquen"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 80, 90, 102, 30, 90, 102
@@ -10908,7 +10908,7 @@ mondata SPECIES_VESPIQUEN, "Vespiquen"
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_BUG, EGG_GROUP_BUG
     .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_QUEENLY_MAJESTY, ABILITY_SWARM
+        abilities ABILITY_INTIMIDATE, ABILITY_SWARM
     .else
         abilities ABILITY_PRESSURE, ABILITY_NONE
     .endif
@@ -11993,7 +11993,7 @@ mondata SPECIES_ABOMASNOW, "Abomasnow"
     mondexweight SPECIES_ABOMASNOW, "298.7 lbs."
 
 
-// ABILITY: Inner Focus (1), Keen Eye (2), Technician (HA)
+// ABILITY: Inner Focus (1), Keen Eye (2), Infiltrator (HA)
 mondata SPECIES_WEAVILE, "Weavile"
     basestats 70, 120, 65, 125, 45, 85
     types TYPE_DARK, TYPE_ICE

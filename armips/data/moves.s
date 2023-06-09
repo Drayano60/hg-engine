@@ -9161,7 +9161,7 @@ movedata MOVE_INFERNAL_BLAST, "Infernal Blast"
     pss SPLIT_SPECIAL
     basepower 100
     type TYPE_FIRE
-    accuracy 75
+    accuracy 80
     pp 5
     effectchance 50
     target MOVE_TARGET_FOES_AND_ALLY

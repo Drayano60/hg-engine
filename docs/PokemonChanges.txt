@@ -209,7 +209,7 @@ Level Up Moves:
 007 - Squirtle
 -------------------
 Abilities: Torrent / Torrent / Rain Dish ⟶ Torrent / Shell Armor** / Rain Dish
-Base Stats: 44/48/65/50/65/43 (314)
+Base Stats: 44/48/65/50/64/43 (314)
 Held Item: None
 Type: Water
 
@@ -641,7 +641,7 @@ Level Up Moves:
 022 - Fearow
 -------------------
 Abilities: Keen Eye / Keen Eye / Sniper ⟶ Keen Eye / Sniper / Intimidate**
-Base Stats: 65/90/65/61/61/100 (442) ⟶ 70*/100*/70*/100/61/61 (462)
+Base Stats: 65/90/65/61/61/100 (442) ⟶ 70*/100*/70*/61/61/100 (462)
 Held Item: None
 Type: Normal / Flying
 
@@ -1858,7 +1858,6 @@ Level Up Moves:
 30 - Slash
 34 - Screech
 38 - Night Slash
-38 - Screech
 42 - Captivate
 46 - Play Rough
 50 - Switcheroo
@@ -2903,7 +2902,6 @@ Type: Electric / Steel
 
 New Moves:
 - Fly (HM)
-- None
 
 Level Up Moves:
 01 - Eerie Impulse
@@ -3128,7 +3126,7 @@ Held Item: Nugget (5%)
 Type: Poison
 
 New Moves:
-- None
+- None.
 
 Level Up Moves:
 01 - Pound
@@ -3387,7 +3385,7 @@ Level Up Moves:
 -------------------
 208 - Steelix
 -------------------
-Abilities: Rock Head / Sturdy / Weak Armor ⟶ Strong Jaw** / Sturdy / Sheer Force**
+Abilities: Rock Head / Sturdy / Weak Armor ⟶ Strong Jaw** / Sturdy / Sheer Force
 Base Stats: 75/85/200/55/65/30 (510) ⟶ 75/105*/200/55/65/30 (530)
 Held Item: Metal Coat (5%)
 Type: Steel / Ground
@@ -3480,11 +3478,12 @@ Level Up Moves:
 18 - Headbutt
 21 - Wake-Up Slap
 24 - Zen Headbutt
-30 - Psyshock
-35 - Psych Up
+28 - Psyshock
+32 - Psych Up
+36 - Barrier
 40 - Psychic
 45 - Nasty Plot
-50 - Switcheroo
+50 - Flatter
 55 - Belly Drum
 60 - Future Sight
 
@@ -3724,7 +3723,7 @@ Level Up Moves:
 105 - Marowak
 -------------------
 Abilities: Rock Head / Lightning Rod / Battle Armor
-Base Stats: 60/80/110/50/80/40 (425)
+Base Stats: 60/80/110/50/80/45 (425)
 Held Item: Thick Club (5%)
 Type: Ground
 
@@ -5182,7 +5181,7 @@ Level Up Moves:
 136 - Flareon
 -------------------
 Abilities: Flash Fire / Flash Fire / Guts ⟶ Flash Fire / Guts / Fur Cushion***
-Base Stats: 65/130/60/95/110/65 (525) ⟶ 65/130/60/65*/110/95*
+Base Stats: 65/130/60/95/110/65 (525) ⟶ 65/130/60/65*/110/95* (525)
 Held Item: None
 Type: Fire
 
@@ -5352,6 +5351,7 @@ Level Up Moves:
 32 - Hail
 36 - Freeze-Dry
 40 - Mirror Coat
+40 - Barrier
 44 - Wish
 48 - Blizzard
 52 - Last Resort
@@ -5671,7 +5671,7 @@ Level Up Moves:
 52 - Stone Edge
 56 - Dragon Dance
 60 - Head Smash
-66 - Sky Attack
+64 - Sky Attack
 
 -------------------
 446 - Munchlax
@@ -5894,7 +5894,7 @@ Held Item: Dragon Scale (5%)
 Type: Dragon / Flying
 
 New Moves:
-- Fly (HM)
+- None.
 
 Level Up Moves:
 01 - Dragon Claw
@@ -6471,7 +6471,7 @@ Level Up Moves:
 165 - Ledyba
 -------------------
 Abilities: Swarm / Early Bird / Rattled ⟶ Swarm / Rattled / Aerilate**
-Base Stats: 40/20/30/55/40/80 (265) ⟶ 40/40*/30/40/80/65* (295)
+Base Stats: 40/20/30/40/80/55 (265) ⟶ 40/40*/30/40/80/65* (295)
 Held Item: None
 Type: Bug / Flying
 
@@ -6703,7 +6703,7 @@ Level Up Moves:
 -------------------
 175 - Togepi
 -------------------
-Abilities: Hustle / Serene Grace / Super Luck ⟶ Super Luck / Serene Grace / Hustle
+Abilities: Hustle / Serene Grace / Super Luck
 Base Stats: 35/20/65/40/65/20 (245)
 Held Item: None
 Type: Fairy
@@ -6737,7 +6737,7 @@ Level Up Moves:
 -------------------
 176 - Togetic
 -------------------
-Abilities: Hustle / Serene Grace / Super Luck ⟶ Super Luck / Serene Grace / Hustle
+Abilities: Hustle / Serene Grace / Super Luck
 Base Stats: 55/40/85/80/105/40 (405)
 Held Item: None
 Type: Fairy / Flying
@@ -6774,7 +6774,7 @@ Level Up Moves:
 -------------------
 468 - Togekiss
 -------------------
-Abilities: Hustle / Serene Grace / Super Luck ⟶ Super Luck / Serene Grace / Hustle
+Abilities: Hustle / Serene Grace / Super Luck
 Base Stats: 85/50/95/120/115/80 (545)
 Held Item: None
 Type: Fairy / Flying
@@ -7562,7 +7562,7 @@ Level Up Moves:
 -------------------
 430 - Honchkrow
 -------------------
-Abilities: Insomnia / Super Luck / Prankster
+Abilities: Insomnia / Super Luck / Moxie
 Base Stats: 100/125/52/105/52/71 (505)
 Held Item: None
 Type: Dark / Flying
@@ -7911,7 +7911,7 @@ Level Up Moves:
 51 - Endeavor
 
 -------------------
-982 - Dudunsparce
+981 - Dudunsparce
 -------------------
 Abilities: Serene Grace / Run Away / Rattled
 Base Stats: 125/100/80/85/75/55 (520)
@@ -9709,7 +9709,7 @@ Level Up Moves:
 264 - Linoone
 -------------------
 Abilities: Pickup / Gluttony / Quick Feet
-Base Stats: 78/70/61/50/61/100 (420) ⟶ 78/80/61/50/61/110 (440)
+Base Stats: 78/70/61/50/61/100 (420) ⟶ 78/80*/61/50/61/110* (440)
 Held Item: Oran Berry (50%), Sitrus Berry (5%)
 Type: Normal
 
@@ -9781,7 +9781,7 @@ Held Item: Shed Shell (5%)
 Type: Bug / Flying
 
 New Moves:
-- Air Slash (Level/TM) (HOME)
+- Air Slash (Level/TM) (PLA)
 - Dual Wingbeat (Tutor) (HOME)
 - Fly (HM)
 - Hurricane (Tutor)
@@ -9830,7 +9830,7 @@ Level Up Moves:
 269 - Dustox
 -------------------
 Abilities: Shield Dust / Shield Dust / Compound Eyes ⟶ Shield Dust / Compound Eyes / Toxic Scales***
-Base Stats: 60/50/70/50/90/65 (385) ⟶ 60/50/80*/70*/100*/65
+Base Stats: 60/50/70/50/90/65 (385) ⟶ 60/50/80*/70*/100*/65 (425)
 Held Item: Shed Shell (5%)
 Type: Bug / Poison
 
@@ -10029,7 +10029,7 @@ Level Up Moves:
 275 - Shiftry
 -------------------
 Abilities: Chlorophyll / Early Bird / Pickpocket ⟶ Chlorophyll / Early Bird / Wind Whipper***
-Base Stats: 90/100/60/90/60/80 (480) ⟶ 90/100/60/100*/80/80 (490)
+Base Stats: 90/100/60/90/60/80 (480) ⟶ 90/100/60/100*/60/80 (490)
 Held Item: None
 Type: Grass / Dark
 
@@ -13266,7 +13266,7 @@ Level Up Moves:
 366 - Clamperl
 -------------------
 Abilities: Shell Armor / Shell Armor / Rattled ⟶ Shell Armor / Rattled / Overcoat**
-Base Stats: 
+Base Stats: 35/64/85/74/55/32 (345)
 Held Item: Big Pearl (5%)
 Type: Water
 
@@ -13804,7 +13804,7 @@ Level Up Moves:
 384 - Rayquaza
 -------------------
 Abilities: Air Lock / Air Lock / Air Lock
-Base Stats: 195/150/90/150/90/95 (680)
+Base Stats: 105/150/90/150/90/95 (680)
 Held Item: None
 Type: Dragon / Flying
 
@@ -13839,6 +13839,7 @@ New Moves:
 - Teleport (Level)
 
 Level Up Moves:
+01 - Teleport
 01 - Confusion
 01 - Wish
 05 - Swift
@@ -16455,7 +16456,7 @@ Level Up Moves:
 56 - Aqua Tail
 63 - Earth Power
 70 - Spacial Rend
-77 - Roar of Time
+77 - Hydro Pump
 
 -------------------
 485 - Heatran
@@ -16547,7 +16548,7 @@ Level Up Moves:
 -------------------
 487.2 - Giratina (Origin Forme)
 -------------------
-Abilities: Pressure / Pressure / Telepathy
+Abilities: Levitate / Levitate / Levitate
 Base Stats: 150/120/100/120/100/90 (680)
 Held Item: None
 Type: Ghost / Dragon
@@ -16988,7 +16989,6 @@ Held Item: None
 Type: Water
 
 New Moves:
-- Chilling Water (Tutor)
 - Double-Edge (Tutor)
 - Wave Crash (Level)
 
@@ -17019,6 +17019,7 @@ Held Item: None
 Type: Water ⟶ Water / Fighting
 
 New Moves:
+- Double-Edge (Tutor)
 - Wave Crash (Level)
 
 Level Up Moves:
@@ -17049,6 +17050,7 @@ Held Item: None
 Type: Water ⟶ Water / Fighting
 
 New Moves:
+- Double-Edge (Tutor)
 - Wave Crash (Level)
 
 Level Up Moves:
@@ -17719,7 +17721,6 @@ Level Up Moves:
 36 - Wild Charge
 40 - Jump Kick
 44 - Agility
-48 - Thrash
 48 - Bounce
 52 - Thrash
 56 - Volt Tackle
@@ -17951,7 +17952,7 @@ Level Up Moves:
 Abilities: Sand Rush / Sand Force / Mold Breaker
 Base Stats: 110/135/60/50/65/88 (508)
 Held Item: None
-Type: Ground
+Type: Ground / Steel
 
 New Moves:
 - Double-Edge (Tutor)
@@ -18107,6 +18108,7 @@ Held Item: Pecha Berry (50%)
 Type: Water
 
 New Moves:
+- Chilling Water (Tutor)
 - Double-Edge (Tutor)
 
 Level Up Moves:
@@ -18135,6 +18137,7 @@ Held Item: Pecha Berry (50%)
 Type: Water / Ground
 
 New Moves:
+- Chilling Water (Tutor)
 - Double-Edge (Tutor)
 
 Level Up Moves:
@@ -18163,6 +18166,7 @@ Held Item: Pecha Berry (50%)
 Type: Water / Ground
 
 New Moves:
+- Chilling Water (Tutor)
 - Double-Edge (Tutor)
 
 Level Up Moves:
@@ -18189,7 +18193,7 @@ Level Up Moves:
 538 - Throh
 -------------------
 Abilities: Guts / Inner Focus / Mold Breaker
-Base Stats: 120/110/85/30/85/45 (465)
+Base Stats: 120/100/85/30/85/45 (465)
 Held Item: Black Belt (5%)
 Type: Fighting
 

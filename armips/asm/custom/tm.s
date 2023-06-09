@@ -58,9 +58,9 @@ PALETTE_BUG equ 610
 // Replace TM28 Dig with TM28 Leech Life
 .halfword MOVE_LEECH_LIFE
 
-// Replace TM32 Double Team with TM32 Pollen Puff
+// Replace TM32 Double Team with TM32 Tri Attack
 .skip (2 * 3)
-.halfword MOVE_POLLEN_PUFF
+.halfword MOVE_TRI_ATTACK
 
 // Replace TM34 Shock Wave with TM34 Sludge Wave
 .skip (2 * 1)
@@ -105,8 +105,12 @@ PALETTE_BUG equ 610
 .skip (2 * 1)
 .halfword MOVE_ICE_SPINNER
 
+// Replace TM74 Gyro Ball with TM74 Pollen Puff
+.skip (2 * 1)
+.halfword MOVE_POLLEN_PUFF
+
 // Replace TM76 Stealth Rock with TM76 Struggle Bug (cancelled)
-.skip (2 * 3)
+.skip (2 * 1)
 .halfword MOVE_STEALTH_ROCK
 
 // Replace TM78 Captivate with TM78 Scorching Sands
@@ -174,10 +178,10 @@ PALETTE_BUG equ 610
 .halfword PALETTE_BUG
 .skip 4
 
-// Change TM32 to Bug palette
+// Change TM32 to Normal palette (changed to a Normal move later)
 .skip (8 * 3)
 .skip 2
-.halfword PALETTE_BUG
+.halfword PALETTE_NORMAL
 .skip 4
 
 // Change TM34 to Poison palette
@@ -241,8 +245,14 @@ PALETTE_BUG equ 610
 
 /* TM72 is already Ice */
 
+// Change TM74 to Bug palette
+.skip (8 * 3)
+.skip 2
+.halfword PALETTE_BUG
+.skip 4
+
 // Change TM76 to Bug palette (cancelled)
-.skip (8 * 5)
+.skip (8 * 1)
 .skip 2
 .halfword PALETTE_ROCK
 .skip 4

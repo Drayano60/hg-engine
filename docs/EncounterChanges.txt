@@ -25,7 +25,7 @@ Headbutt:
 [20%/Lv. 05 - 10] Starly
 
 Surfing:
-[80%/Lv. 25 - 30] Tentacool
+[80%/Lv. 25 - 25] Tentacool
 [20%/Lv. 30 - 30] Tentacruel
 
 Fishing:
@@ -1131,6 +1131,10 @@ Grass (Night):
 
 * These Pokémon will not appear if the Unova Sound is active.
 
+Rock Smash:
+[70%/Lv. 27 - 29] Krabby
+[30%/Lv. 27 - 29] Shuckle
+
 Surfing:
 [40%/Lv. 26 - 28] Wingull
 [40%/Lv. 26 - 28] Tentacool
@@ -1214,7 +1218,7 @@ Surfing:
 
 Fishing:
 [40%/Lv. 29 - 32] Chinchou
-[40%/Lv. 20 - 32] Shellder
+[40%/Lv. 29 - 32] Shellder
 [20%/Lv. 29 - 32] Luvdisc
 
 Unova Sound:
@@ -1278,6 +1282,11 @@ Grass (Night):
 [05%/Lv. 33 - 33] Chansey
 
 * These Pokémon will not appear if the Unova Sound is active.
+
+Headbutt:
+[40%/Lv. 30 - 32] Spearow
+[40%/Lv. 30 - 32] Aipom
+[20%/Lv. 30 - 32] Heracross
 
 Unova Sound:
 [20%/Lv. 32 - 33] Audino
@@ -1589,7 +1598,7 @@ Cave (Day/Night):
 [20%/Lv. 42 - 43] Golbat
 [20%/Lv. 42 - 43] Dewgong*
 [20%/Lv. 42 - 43] Kingler*
-[20%/Lv. 42 - 43] Sealeo
+[10%/Lv. 42 - 43] Sealeo
 [10%/Lv. 43 - 43] Golduck
 [10%/Lv. 43 - 43] Slowbro
 [05%/Lv. 43 - 43] Gastrodon (West Sea)
@@ -1606,7 +1615,7 @@ Surfing:
 Fishing:
 [40%/Lv. 42 - 43] Seadra
 [40%/Lv. 42 - 43] Kingler
-[40%/Lv. 42 - 43] Relicanth
+[20%/Lv. 42 - 43] Relicanth
 
 Unova Sound:
 [20%/Lv. 42 - 43] Swoobat
@@ -1742,10 +1751,10 @@ Cave (Day):
 [10%/Lv. 50 - 50] Lunatone*
 [10%/Lv. 50 - 50] Marowak
 [10%/Lv. 47 - 47] Riolu
-[10%/Lv. 50 - 50] Hitmonlee
-[10%/Lv. 50 - 50] Hitmontop
-[10%/Lv. 50 - 50] Hitmonchan
-[10%/Lv. 50 - 50] Kangaskhan
+[05%/Lv. 50 - 50] Hitmonlee
+[05%/Lv. 50 - 50] Hitmontop
+[05%/Lv. 50 - 50] Hitmonchan
+[05%/Lv. 50 - 50] Kangaskhan
 
 * These Pokémon will not appear if the Unova Sound is active.
 
@@ -1758,10 +1767,10 @@ Cave (Night):
 [10%/Lv. 50 - 50] Lunatone*
 [10%/Lv. 50 - 50] Marowak
 [10%/Lv. 47 - 47] Clefairy
-[10%/Lv. 50 - 50] Hitmonlee
-[10%/Lv. 50 - 50] Hitmontop
-[10%/Lv. 50 - 50] Hitmonchan
-[10%/Lv. 50 - 50] Kangaskhan
+[05%/Lv. 50 - 50] Hitmonlee
+[05%/Lv. 50 - 50] Hitmontop
+[05%/Lv. 50 - 50] Hitmonchan
+[05%/Lv. 50 - 50] Kangaskhan
 
 * These Pokémon will not appear if the Unova Sound is active.
 

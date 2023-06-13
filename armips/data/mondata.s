@@ -3980,7 +3980,7 @@ mondata SPECIES_CYNDAQUIL, "Cyndaquil"
     mondexweight SPECIES_CYNDAQUIL, "17.4 lbs."
 
 
-// STATS: 58 >> 53 Def | 65 >> 60 SpDef | 80 >> 90 SpAtk
+// STATS: 58 >> 53 Def | 80 >> 90 SpAtk | 65 >> 60 SpDef
 // ABILITY: Flash Fire (2), Heat Up (HA, New)
 mondata SPECIES_QUILAVA, "Quilava"
     .if STAT_CHANGES_IMPLEMENTED
@@ -4076,9 +4076,14 @@ mondata SPECIES_TOTODILE, "Totodile"
     mondexweight SPECIES_TOTODILE, "20.9 lbs."
 
 
+// STATS: 80 >> 85 Atk | 59 >> 54 SpAtk
 // ABILITY: Strong Jaw (2)
 mondata SPECIES_CROCONAW, "Croconaw"
-    basestats 65, 80, 80, 58, 59, 63
+    .if STAT_CHANGES_IMPLEMENTED
+        basestats 65, 85, 80, 58, 54, 63
+    .else
+        basestats 65, 80, 80, 58, 59, 63
+    .endif
     types TYPE_WATER, TYPE_WATER
     catchrate 45
     baseexp 0 // defined in baseexp.s
@@ -4103,7 +4108,7 @@ mondata SPECIES_CROCONAW, "Croconaw"
     mondexweight SPECIES_CROCONAW, "55.1 lbs."
 
 
-// STATS: 105 >> 115 Attack | 79 >> 69 SpAtk | 78 >> 83 Speed | 530 >> 535 BST
+// STATS: 105 >> 115 Atk | 79 >> 69 SpAtk | 78 >> 83 Speed | 530 >> 535 BST
 // TYPES: Water >> Water/Dark
 // ABILITY: Strong Jaw (2)
 mondata SPECIES_FERALIGATR, "Feraligatr"
@@ -8675,11 +8680,11 @@ mondata SPECIES_CACNEA, "Cacnea"
     mondexweight SPECIES_CACNEA, "113.1 lbs."
 
 
-// STATS: 115 >> 125 Atk | 60 >> 75 Def | 115 >> 105 SpAtk | 60 >> 75 SpDef | 55 >> 50 Spd | 475 >> 500 BST
+// STATS: 70 >> 80 HP | 60 >> 80 Def | 60 >> 80 SpDef | 55 >> 45 Speed | 475 >> 515 BST
 // ABILITY: Water Absorb (2), Heatproof (HA)
 mondata SPECIES_CACTURNE, "Cacturne"
     .if STAT_CHANGES_IMPLEMENTED
-        basestats 70, 125, 75, 50, 105, 75
+        basestats 80, 115, 80, 55, 115, 80
     .else
         basestats 70, 115, 60, 55, 115, 60
     .endif
@@ -14385,6 +14390,7 @@ mondata SPECIES_LIEPARD, "Liepard"
     mondexweight SPECIES_LIEPARD, "82.7 lbs."
 
 
+// ABILITY: Overgrow (2), Adaptability (HA)
 mondata SPECIES_PANSAGE, "Pansage"
     basestats 50, 53, 48, 64, 53, 48
     types TYPE_GRASS, TYPE_GRASS
@@ -14397,7 +14403,11 @@ mondata SPECIES_PANSAGE, "Pansage"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_GLUTTONY, ABILITY_NONE
+    .if ABILITY_CHANGES_IMPLEMENTED
+        abilities ABILITY_GLUTTONY, ABILITY_OVERGROW
+    .else
+        abilities ABILITY_GLUTTONY, ABILITY_NONE
+    .endif
     runchance 25
     colorflip BODY_COLOR_GREEN, 0
     tmdata SPECIES_PANSAGE_TM_DATA_0, SPECIES_PANSAGE_TM_DATA_1, SPECIES_PANSAGE_TM_DATA_2, SPECIES_PANSAGE_TM_DATA_3
@@ -14407,6 +14417,7 @@ mondata SPECIES_PANSAGE, "Pansage"
     mondexweight SPECIES_PANSAGE, "23.1 lbs."
 
 
+// ABILITY: Overgrow (2), Adaptability (HA)
 mondata SPECIES_SIMISAGE, "Simisage"
     basestats 75, 98, 63, 101, 98, 63
     types TYPE_GRASS, TYPE_GRASS
@@ -14419,7 +14430,11 @@ mondata SPECIES_SIMISAGE, "Simisage"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_GLUTTONY, ABILITY_NONE
+    .if ABILITY_CHANGES_IMPLEMENTED
+        abilities ABILITY_GLUTTONY, ABILITY_OVERGROW
+    .else
+        abilities ABILITY_GLUTTONY, ABILITY_NONE
+    .endif
     runchance 25
     colorflip BODY_COLOR_GREEN, 0
     tmdata SPECIES_SIMISAGE_TM_DATA_0, SPECIES_SIMISAGE_TM_DATA_1, SPECIES_SIMISAGE_TM_DATA_2, SPECIES_SIMISAGE_TM_DATA_3
@@ -14429,6 +14444,7 @@ mondata SPECIES_SIMISAGE, "Simisage"
     mondexweight SPECIES_SIMISAGE, "67.2 lbs."
 
 
+// ABILITY: Blaze (2), Adaptability (HA)
 mondata SPECIES_PANSEAR, "Pansear"
     basestats 50, 53, 48, 64, 53, 48
     types TYPE_FIRE, TYPE_FIRE
@@ -14441,7 +14457,11 @@ mondata SPECIES_PANSEAR, "Pansear"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_GLUTTONY, ABILITY_NONE
+    .if ABILITY_CHANGES_IMPLEMENTED
+        abilities ABILITY_GLUTTONY, ABILITY_BLAZE
+    .else
+        abilities ABILITY_GLUTTONY, ABILITY_NONE
+    .endif
     runchance 25
     colorflip BODY_COLOR_RED, 0
     tmdata SPECIES_PANSEAR_TM_DATA_0, SPECIES_PANSEAR_TM_DATA_1, SPECIES_PANSEAR_TM_DATA_2, SPECIES_PANSEAR_TM_DATA_3
@@ -14451,6 +14471,7 @@ mondata SPECIES_PANSEAR, "Pansear"
     mondexweight SPECIES_PANSEAR, "24.3 lbs."
 
 
+// ABILITY: Blaze (2), Adaptability (HA)
 mondata SPECIES_SIMISEAR, "Simisear"
     basestats 75, 98, 63, 101, 98, 63
     types TYPE_FIRE, TYPE_FIRE
@@ -14463,7 +14484,11 @@ mondata SPECIES_SIMISEAR, "Simisear"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_GLUTTONY, ABILITY_NONE
+    .if ABILITY_CHANGES_IMPLEMENTED
+        abilities ABILITY_GLUTTONY, ABILITY_BLAZE
+    .else
+        abilities ABILITY_GLUTTONY, ABILITY_NONE
+    .endif
     runchance 25
     colorflip BODY_COLOR_RED, 0
     tmdata SPECIES_SIMISEAR_TM_DATA_0, SPECIES_SIMISEAR_TM_DATA_1, SPECIES_SIMISEAR_TM_DATA_2, SPECIES_SIMISEAR_TM_DATA_3
@@ -14473,6 +14498,7 @@ mondata SPECIES_SIMISEAR, "Simisear"
     mondexweight SPECIES_SIMISEAR, "61.7 lbs."
 
 
+// ABILITY: Torrent (2), Adaptability (HA)
 mondata SPECIES_PANPOUR, "Panpour"
     basestats 50, 53, 48, 64, 53, 48
     types TYPE_WATER, TYPE_WATER
@@ -14485,7 +14511,11 @@ mondata SPECIES_PANPOUR, "Panpour"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_GLUTTONY, ABILITY_NONE
+    .if ABILITY_CHANGES_IMPLEMENTED
+        abilities ABILITY_GLUTTONY, ABILITY_TORRENT
+    .else
+        abilities ABILITY_GLUTTONY, ABILITY_NONE
+    .endif
     runchance 25
     colorflip BODY_COLOR_BLUE, 0
     tmdata SPECIES_PANPOUR_TM_DATA_0, SPECIES_PANPOUR_TM_DATA_1, SPECIES_PANPOUR_TM_DATA_2, SPECIES_PANPOUR_TM_DATA_3
@@ -14495,6 +14525,7 @@ mondata SPECIES_PANPOUR, "Panpour"
     mondexweight SPECIES_PANPOUR, "29.8 lbs."
 
 
+// ABILITY: Torrent (2), Adaptability (HA)
 mondata SPECIES_SIMIPOUR, "Simipour"
     basestats 75, 98, 63, 101, 98, 63
     types TYPE_WATER, TYPE_WATER
@@ -14507,7 +14538,11 @@ mondata SPECIES_SIMIPOUR, "Simipour"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_GLUTTONY, ABILITY_NONE
+    .if ABILITY_CHANGES_IMPLEMENTED
+        abilities ABILITY_GLUTTONY, ABILITY_TORRENT
+    .else
+        abilities ABILITY_GLUTTONY, ABILITY_NONE
+    .endif
     runchance 25
     colorflip BODY_COLOR_BLUE, 0
     tmdata SPECIES_SIMIPOUR_TM_DATA_0, SPECIES_SIMIPOUR_TM_DATA_1, SPECIES_SIMIPOUR_TM_DATA_2, SPECIES_SIMIPOUR_TM_DATA_3

@@ -682,6 +682,7 @@ levelup SPECIES_SANDSHREW_ALOLAN
 // NEW: Fissure (RBY)
 levelup SPECIES_SANDSLASH
     learnset MOVE_HONE_CLAWS, 1
+    learnset MOVE_PIN_MISSILE, 1
     learnset MOVE_SPIKES, 1
     learnset MOVE_SCRATCH, 1
     learnset MOVE_DEFENSE_CURL, 1
@@ -2583,10 +2584,10 @@ levelup SPECIES_SHELLDER
     terminatelearnset
 
 levelup SPECIES_CLOYSTER
+    learnset MOVE_PIN_MISSILE, 1
+    learnset MOVE_ROCK_BLAST, 1
     learnset MOVE_SPIKE_CANNON, 1
     learnset MOVE_TOXIC_SPIKES, 1
-    learnset MOVE_ROCK_BLAST, 1
-    learnset MOVE_TWINEEDLE, 1
     learnset MOVE_TACKLE, 1
     learnset MOVE_WITHDRAW, 1
     learnset MOVE_SUPERSONIC, 1
@@ -7032,8 +7033,8 @@ levelup SPECIES_MUDKIP
     learnset MOVE_WATER_PULSE, 28
     learnset MOVE_AMNESIA, 32
     learnset MOVE_SCREECH, 38
-    learnset MOVE_ENDEAVOR, 44
-    learnset MOVE_EARTH_POWER, 50
+    learnset MOVE_EARTH_POWER, 44
+    learnset MOVE_ENDEAVOR, 50
     learnset MOVE_SUPERPOWER, 56
     learnset MOVE_HYDRO_PUMP, 62
     terminatelearnset
@@ -7052,8 +7053,8 @@ levelup SPECIES_MARSHTOMP
     learnset MOVE_MUDDY_WATER, 28
     learnset MOVE_AMNESIA, 32
     learnset MOVE_SCREECH, 38
-    learnset MOVE_ENDEAVOR, 44
-    learnset MOVE_EARTHQUAKE, 50
+    learnset MOVE_EARTHQUAKE, 44
+    learnset MOVE_ENDEAVOR, 50
     learnset MOVE_SUPERPOWER, 56
     learnset MOVE_HYDRO_PUMP, 62
     terminatelearnset
@@ -7076,8 +7077,8 @@ levelup SPECIES_SWAMPERT
     learnset MOVE_AMNESIA, 32
     learnset MOVE_LIQUIDATION, 36
     learnset MOVE_SCREECH, 38
-    learnset MOVE_ENDEAVOR, 44
-    learnset MOVE_EARTHQUAKE, 50
+    learnset MOVE_EARTHQUAKE, 44
+    learnset MOVE_ENDEAVOR, 50
     learnset MOVE_SUPERPOWER, 56
     learnset MOVE_HYDRO_PUMP, 62
     terminatelearnset

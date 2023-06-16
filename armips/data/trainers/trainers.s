@@ -4309,11 +4309,11 @@ party 486
     move MOVE_FEINT_ATTACK
     move MOVE_POISON_STING
     move MOVE_LEECH_SEED
-    ability ABILITY_WATER_ABSORB
+    ability ABILITY_HEATPROOF
     ball ITEM_DUSK_BALL
     setivs 30, 30, 30, 30, 30, 30
     setevs 0, 0, 0, 0, 0, 0
-    nature NATURE_ADAMANT
+    nature NATURE_BRAVE
     shinylock 0
     ballseal 0
 

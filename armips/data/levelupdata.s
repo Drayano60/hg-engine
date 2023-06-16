@@ -5480,14 +5480,14 @@ levelup SPECIES_AIPOM
     learnset MOVE_ASTONISH, 6
     learnset MOVE_COVET, 9
     learnset MOVE_SWIFT, 12
-    learnset MOVE_BATON_PASS, 15 
+    learnset MOVE_PURSUIT, 15 
     learnset MOVE_FURY_SWIPES, 18
     learnset MOVE_SCREECH, 21
     learnset MOVE_AGILITY, 24
     learnset MOVE_DOUBLE_HIT, 28
     learnset MOVE_ACROBATICS, 32
-    learnset MOVE_FLING, 36
-    learnset MOVE_U_TURN, 40
+    learnset MOVE_BATON_PASS, 36
+    learnset MOVE_FLING, 40
     learnset MOVE_TAIL_SLAP, 44
     learnset MOVE_FOUL_PLAY, 48
     learnset MOVE_SWITCHEROO, 52
@@ -5500,6 +5500,7 @@ levelup SPECIES_AMBIPOM
     learnset MOVE_ARM_THRUST, 1
     learnset MOVE_BOUNCE, 1
     learnset MOVE_DUAL_CHOP, 1
+    learnset MOVE_POWER_UP_PUNCH, 1
     learnset MOVE_FAKE_OUT, 1
     learnset MOVE_TICKLE, 1
     learnset MOVE_SCRATCH, 1
@@ -5508,14 +5509,14 @@ levelup SPECIES_AMBIPOM
     learnset MOVE_ASTONISH, 6
     learnset MOVE_COVET, 9
     learnset MOVE_SWIFT, 12
-    learnset MOVE_BATON_PASS, 15 
+    learnset MOVE_PURSUIT, 15 
     learnset MOVE_FURY_SWIPES, 18
     learnset MOVE_SCREECH, 21
     learnset MOVE_AGILITY, 24
     learnset MOVE_DOUBLE_HIT, 28
     learnset MOVE_ACROBATICS, 32
-    learnset MOVE_FLING, 36
-    learnset MOVE_U_TURN, 40
+    learnset MOVE_BATON_PASS, 36
+    learnset MOVE_FLING, 40
     learnset MOVE_TAIL_SLAP, 44
     learnset MOVE_FOUL_PLAY, 48
     learnset MOVE_SWITCHEROO, 52
@@ -8808,8 +8809,8 @@ levelup SPECIES_SWABLU
     learnset MOVE_MOONBLAST, 42
     learnset MOVE_COTTON_GUARD, 46
     learnset MOVE_FEATHER_DANCE, 50
-    learnset MOVE_PERISH_SONG, 54
-    learnset MOVE_BRAVE_BIRD, 58
+    learnset MOVE_BRAVE_BIRD, 54
+    learnset MOVE_PERISH_SONG, 58
     terminatelearnset
 
 levelup SPECIES_ALTARIA
@@ -8835,8 +8836,8 @@ levelup SPECIES_ALTARIA
     learnset MOVE_MOONBLAST, 42
     learnset MOVE_COTTON_GUARD, 46
     learnset MOVE_DRAGON_DANCE, 50
-    learnset MOVE_PERISH_SONG, 54
-    learnset MOVE_BRAVE_BIRD, 58
+    learnset MOVE_BRAVE_BIRD, 54
+    learnset MOVE_PERISH_SONG, 58
     learnset MOVE_SKY_ATTACK, 62
     terminatelearnset
 

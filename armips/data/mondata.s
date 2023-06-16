@@ -8819,7 +8819,7 @@ mondata SPECIES_ZANGOOSE, "Zangoose"
 
 
 // STATS: 100 >> 110 Atk | 100 >> 90 SpAtk | 65 >> 75 Speed | 458 >> 468 BST
-// ABILITY: Infiltrator (2), Merciless (HA)
+// ABILITY: Infiltrator (2), Sharpness (HA)
 mondata SPECIES_SEVIPER, "Seviper"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 73, 110, 60, 75, 90, 60

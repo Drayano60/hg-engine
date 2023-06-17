@@ -175,12 +175,12 @@ mondata SPECIES_CHARMELEON, "Charmeleon"
     mondexweight SPECIES_CHARMELEON, "41.9 lbs."
 
 
-// STATS: 78 >> 79 HP | 84 >> 104 Atk | 78 >> 68 Def | 85 >> 75 SpDef | 534 >> 535 BST
+// STATS: 78 >> 79 HP | 84 >> 94 Atk | 78 >> 73 Def | 85 >> 80 SpDef | 534 >> 535 BST
 // TYPES: Fire/Flying >> Fire/Dragon
 // ABILITY: Tough Claws (2)
 mondata SPECIES_CHARIZARD, "Charizard"
     .if STAT_CHANGES_IMPLEMENTED
-        basestats 79, 104, 68, 100, 109, 75
+        basestats 79, 94, 73, 100, 109, 80
     .else
         basestats 78, 84, 78, 100, 109, 85
     .endif
@@ -23232,8 +23232,13 @@ mondata SPECIES_ENAMORUS, "Enamorus"
     mondexweight SPECIES_ENAMORUS, "105.8 lbs."
 
 
+// STATS: 122 >> 132 SpAtk | 625 >> 635 BST
 mondata SPECIES_MEGA_VENUSAUR, "-----"
-    basestats 80,100,123,80,122,120
+    .if STAT_CHANGES_IMPLEMENTED
+        basestats 80, 100, 123, 80, 132, 120
+    .else
+        basestats 80, 100, 123, 80, 122, 120
+    .endif
     types TYPE_GRASS, TYPE_POISON
     catchrate 45
     baseexp 208
@@ -23249,8 +23254,14 @@ mondata SPECIES_MEGA_VENUSAUR, "-----"
     colorflip BODY_COLOR_BLUE, 0
     tmdata SPECIES_NONE_TM_DATA_0, SPECIES_NONE_TM_DATA_1, SPECIES_NONE_TM_DATA_2, SPECIES_NONE_TM_DATA_3
 
+
+// STATS: 78 >> 79 HP | 634 >> 635 BST
 mondata SPECIES_MEGA_CHARIZARD_X, "-----"
-    basestats 78, 130, 111, 100, 130, 85
+    .if STAT_CHANGES_IMPLEMENTED
+        basestats 79, 130, 111, 100, 130, 85
+    .else
+        basestats 78, 130, 111, 100, 130, 85
+    .endif
     types TYPE_FIRE, TYPE_DRAGON
     catchrate 45
     baseexp 209
@@ -23261,13 +23272,19 @@ mondata SPECIES_MEGA_CHARIZARD_X, "-----"
     basefriendship 70 // raised up again
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_DRAGON
-    abilities ABILITY_PRESSURE, ABILITY_NONE
+    abilities ABILITY_TOUGH_CLAWS, ABILITY_NONE
     runchance 25
     colorflip 0, 0
     tmdata SPECIES_NONE_TM_DATA_0, SPECIES_NONE_TM_DATA_1, SPECIES_NONE_TM_DATA_2, SPECIES_NONE_TM_DATA_3
 
+
+// STATS: 78 >> 79 HP | 634 >> 635 BST
 mondata SPECIES_MEGA_CHARIZARD_Y, "-----"
-    basestats 78, 104, 78, 100, 159, 115
+    .if STAT_CHANGES_IMPLEMENTED
+        basestats 79, 104, 78, 100, 159, 115
+    .else
+        basestats 78, 104, 78, 100, 159, 115
+    .endif
     types TYPE_FIRE, TYPE_FLYING
     catchrate 45
     baseexp 209
@@ -23283,8 +23300,13 @@ mondata SPECIES_MEGA_CHARIZARD_Y, "-----"
     colorflip 0, 0
     tmdata SPECIES_NONE_TM_DATA_0, SPECIES_NONE_TM_DATA_1, SPECIES_NONE_TM_DATA_2, SPECIES_NONE_TM_DATA_3
 
+// STATS: 115 >> 120 SpDef | 630 >> 635 BST
 mondata SPECIES_MEGA_BLASTOISE, "-----"
-    basestats 79, 103, 120, 78, 135, 115
+    .if STAT_CHANGES_IMPLEMENTED
+        basestats 79, 103, 120, 78, 135, 120
+    .else
+        basestats 79, 103, 120, 78, 135, 115
+    .endif
     types TYPE_WATER, TYPE_WATER
     catchrate 45
     baseexp 210
@@ -23295,13 +23317,18 @@ mondata SPECIES_MEGA_BLASTOISE, "-----"
     basefriendship 70 // raised up again
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_WATER_1
-    abilities ABILITY_SWIFT_SWIM, ABILITY_NONE //ABILITY_MEGALAUNCHER, ABILITY_NONE
+    abilities ABILITY_MEGA_LAUNCHER, ABILITY_NONE
     runchance 25
     colorflip 0, 0
     tmdata SPECIES_NONE_TM_DATA_0, SPECIES_NONE_TM_DATA_1, SPECIES_NONE_TM_DATA_2, SPECIES_NONE_TM_DATA_3
 
+// 40 >> 50 Def | 80 >> 100 SpDef | 495 >> 525 BST
 mondata SPECIES_MEGA_BEEDRILL, "-----"
-    basestats 65, 150, 40, 145, 15, 80
+    .if STAT_CHANGES_IMPLEMENTED
+        basestats 65, 150, 50, 145, 15, 100
+    .else
+        basestats 65, 150, 40, 145, 15, 80
+    .endif
     types TYPE_BUG, TYPE_POISON
     catchrate 45
     baseexp 159
@@ -23317,8 +23344,13 @@ mondata SPECIES_MEGA_BEEDRILL, "-----"
     colorflip 0, 0
     tmdata SPECIES_NONE_TM_DATA_0, SPECIES_NONE_TM_DATA_1, SPECIES_NONE_TM_DATA_2, SPECIES_NONE_TM_DATA_3
 
+// 80 >> 90 Def | 135 >> 155 SpAtk | 80 >> 90 SpDef | 579 >> 619 BST
 mondata SPECIES_MEGA_PIDGEOT, "-----"
-    basestats 83, 80, 80, 121, 135, 80
+    .if STAT_CHANGES_IMPLEMENTED
+        basestats 83, 80, 90, 121, 155, 90
+    .else
+        basestats 83, 80, 80, 121, 135, 80
+    .endif
     types TYPE_NORMAL, TYPE_FLYING
     catchrate 45
     baseexp 172
@@ -23329,7 +23361,7 @@ mondata SPECIES_MEGA_PIDGEOT, "-----"
     basefriendship 70 // raised up again
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_FLYING, EGG_GROUP_FLYING
-    abilities ABILITY_NO_GUARD, ABILITY_NO_GUARD
+    abilities ABILITY_NO_GUARD, ABILITY_NONE
     runchance 25
     colorflip 0, 0
     tmdata SPECIES_NONE_TM_DATA_0, SPECIES_NONE_TM_DATA_1, SPECIES_NONE_TM_DATA_2, SPECIES_NONE_TM_DATA_3
@@ -23346,7 +23378,7 @@ mondata SPECIES_MEGA_ALAKAZAM, "-----"
     basefriendship 70 // raised up again
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_HUMAN_LIKE, EGG_GROUP_HUMAN_LIKE
-    abilities ABILITY_TRACE, ABILITY_TRACE
+    abilities ABILITY_TRACE, ABILITY_NONE
     runchance 25
     colorflip 0, 0
     tmdata SPECIES_NONE_TM_DATA_0, SPECIES_NONE_TM_DATA_1, SPECIES_NONE_TM_DATA_2, SPECIES_NONE_TM_DATA_3
@@ -23363,7 +23395,7 @@ mondata SPECIES_MEGA_SLOWBRO, "-----"
     basefriendship 70 // raised up again
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_WATER_1
-    abilities ABILITY_SHELL_ARMOR, ABILITY_SHELL_ARMOR
+    abilities ABILITY_SHELL_ARMOR, ABILITY_NONE
     runchance 25
     colorflip 0, 0
     tmdata SPECIES_NONE_TM_DATA_0, SPECIES_NONE_TM_DATA_1, SPECIES_NONE_TM_DATA_2, SPECIES_NONE_TM_DATA_3
@@ -23385,8 +23417,14 @@ mondata SPECIES_MEGA_GENGAR, "-----"
     colorflip 0, 0
     tmdata SPECIES_NONE_TM_DATA_0, SPECIES_NONE_TM_DATA_1, SPECIES_NONE_TM_DATA_2, SPECIES_NONE_TM_DATA_3
 
+
+// STATS: 125 >> 135 Atk | 590 >> 600 BST
 mondata SPECIES_MEGA_KANGASKHAN, "-----"
-    basestats 105, 125, 100, 100, 60, 100
+    .if STAT_CHANGES_IMPLEMENTED
+        basestats 105, 135, 100, 100, 60, 100
+    .else
+        basestats 105, 125, 100, 100, 60, 100
+    .endif
     types TYPE_NORMAL, TYPE_NORMAL
     catchrate 45
     baseexp 175
@@ -23397,7 +23435,7 @@ mondata SPECIES_MEGA_KANGASKHAN, "-----"
     basefriendship 70 // raised up again
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_MONSTER
-    abilities ABILITY_PURE_POWER, ABILITY_PURE_POWER //ABILITY_PARENTAL_BOND, ABILITY_PARENTAL_BOND
+    abilities ABILITY_PARENTAL_BOND, ABILITY_NONE
     runchance 25
     colorflip 0, 0
     tmdata SPECIES_NONE_TM_DATA_0, SPECIES_NONE_TM_DATA_1, SPECIES_NONE_TM_DATA_2, SPECIES_NONE_TM_DATA_3
@@ -23414,7 +23452,7 @@ mondata SPECIES_MEGA_PINSIR, "-----"
     basefriendship 70 // raised up again
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_BUG, EGG_GROUP_BUG
-    abilities ABILITY_PURE_POWER, ABILITY_PURE_POWER //ABILITY_AERILATE, ABILITY_AERILATE
+    abilities ABILITY_AERILATE, ABILITY_NONE
     runchance 25
     colorflip 0, 0
     tmdata SPECIES_NONE_TM_DATA_0, SPECIES_NONE_TM_DATA_1, SPECIES_NONE_TM_DATA_2, SPECIES_NONE_TM_DATA_3
@@ -23448,7 +23486,7 @@ mondata SPECIES_MEGA_AERODACTYL, "-----"
     basefriendship 70 // raised up again
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_FLYING, EGG_GROUP_FLYING
-    abilities ABILITY_PRESSURE, ABILITY_PRESSURE
+    abilities ABILITY_TOUGH_CLAWS, ABILITY_NONE
     runchance 25
     colorflip 0, 0
     tmdata SPECIES_NONE_TM_DATA_0, SPECIES_NONE_TM_DATA_1, SPECIES_NONE_TM_DATA_2, SPECIES_NONE_TM_DATA_3
@@ -23487,8 +23525,14 @@ mondata SPECIES_MEGA_MEWTWO_Y, "-----"
     colorflip 0, 0
     tmdata SPECIES_NONE_TM_DATA_0, SPECIES_NONE_TM_DATA_1, SPECIES_NONE_TM_DATA_2, SPECIES_NONE_TM_DATA_3
 
+
+// STATS: 105 >> 115 Def | 110 >> 120 SpDef | 610 >> 630 BST
 mondata SPECIES_MEGA_AMPHAROS, "-----"
-    basestats 90, 95, 105, 45, 165, 110
+    .if STAT_CHANGES_IMPLEMENTED
+        basestats 90, 95, 115, 45, 165, 120
+    .else
+        basestats 90, 95, 105, 45, 165, 110
+    .endif
     types TYPE_ELECTRIC, TYPE_DRAGON
     catchrate 45
     baseexp 194
@@ -23504,8 +23548,14 @@ mondata SPECIES_MEGA_AMPHAROS, "-----"
     colorflip 0, 0
     tmdata SPECIES_NONE_TM_DATA_0, SPECIES_NONE_TM_DATA_1, SPECIES_NONE_TM_DATA_2, SPECIES_NONE_TM_DATA_3
 
+
+// STATS: 125 >> 135 Atk | 95 >> 105 SpDef | 610 >> 630 BST 
 mondata SPECIES_MEGA_STEELIX, "-----"
-    basestats 75, 125, 230, 30, 55, 95
+    .if STAT_CHANGES_IMPLEMENTED
+        basestats 75, 135, 230, 30, 55, 105
+    .else
+        basestats 75, 125, 230, 30, 55, 95
+    .endif
     types TYPE_STEEL, TYPE_GROUND
     catchrate 25
     baseexp 196
@@ -23516,7 +23566,7 @@ mondata SPECIES_MEGA_STEELIX, "-----"
     basefriendship 70 // raised up again
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MINERAL, EGG_GROUP_MINERAL
-    abilities ABILITY_PRESSURE, ABILITY_PRESSURE
+    abilities ABILITY_SAND_FORCE, ABILITY_NONE
     runchance 25
     colorflip 0, 0
     tmdata SPECIES_NONE_TM_DATA_0, SPECIES_NONE_TM_DATA_1, SPECIES_NONE_TM_DATA_2, SPECIES_NONE_TM_DATA_3
@@ -23533,7 +23583,7 @@ mondata SPECIES_MEGA_SCIZOR, "-----"
     basefriendship 70 // raised up again
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_BUG, EGG_GROUP_BUG
-    abilities ABILITY_TECHNICIAN, ABILITY_TECHNICIAN
+    abilities ABILITY_TECHNICIAN, ABILITY_NONE
     runchance 25
     colorflip 0, 0
     tmdata SPECIES_NONE_TM_DATA_0, SPECIES_NONE_TM_DATA_1, SPECIES_NONE_TM_DATA_2, SPECIES_NONE_TM_DATA_3
@@ -23550,7 +23600,7 @@ mondata SPECIES_MEGA_HERACROSS, "-----"
     basefriendship 70 // raised up again
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_BUG, EGG_GROUP_BUG
-    abilities ABILITY_SKILL_LINK, ABILITY_SKILL_LINK
+    abilities ABILITY_SKILL_LINK, ABILITY_NONE
     runchance 25
     colorflip 0, 0
     tmdata SPECIES_NONE_TM_DATA_0, SPECIES_NONE_TM_DATA_1, SPECIES_NONE_TM_DATA_2, SPECIES_NONE_TM_DATA_3
@@ -23567,7 +23617,7 @@ mondata SPECIES_MEGA_HOUNDOOM, "-----"
     basefriendship 35
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_SOLAR_POWER, ABILITY_SOLAR_POWER
+    abilities ABILITY_SOLAR_POWER, ABILITY_NONE
     runchance 25
     colorflip 0, 0
     tmdata SPECIES_NONE_TM_DATA_0, SPECIES_NONE_TM_DATA_1, SPECIES_NONE_TM_DATA_2, SPECIES_NONE_TM_DATA_3
@@ -23589,8 +23639,14 @@ mondata SPECIES_MEGA_TYRANITAR, "-----"
     colorflip 0, 0
     tmdata SPECIES_NONE_TM_DATA_0, SPECIES_NONE_TM_DATA_1, SPECIES_NONE_TM_DATA_2, SPECIES_NONE_TM_DATA_3
 
+
+// STATS: 110 >> 115 Atk | 630 >> 635 BST
 mondata SPECIES_MEGA_SCEPTILE, "-----"
-    basestats 70, 110, 75, 145, 145, 85
+    .if STAT_CHANGES_IMPLEMENTED
+        basestats 70, 115, 75, 145, 145, 85
+    .else
+        basestats 70, 110, 75, 145, 145, 85
+    .endif
     types TYPE_GRASS, TYPE_DRAGON
     catchrate 45
     baseexp 208
@@ -23606,8 +23662,13 @@ mondata SPECIES_MEGA_SCEPTILE, "-----"
     colorflip 0, 0
     tmdata SPECIES_NONE_TM_DATA_0, SPECIES_NONE_TM_DATA_1, SPECIES_NONE_TM_DATA_2, SPECIES_NONE_TM_DATA_3
 
+// STATS: 130 >> 135 SpAtk | 630 >> 635 BST
 mondata SPECIES_MEGA_BLAZIKEN, "-----"
-    basestats 80, 160, 80, 100, 130, 80
+    .if STAT_CHANGES_IMPLEMENTED
+        basestats 80, 160, 80, 100, 135, 80
+    .else
+        basestats 80, 160, 80, 100, 130, 80
+    .endif
     types TYPE_FIRE, TYPE_FIGHTING
     catchrate 45
     baseexp 209
@@ -23652,13 +23713,19 @@ mondata SPECIES_MEGA_GARDEVOIR, "-----"
     basefriendship 35
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_AMORPHOUS, EGG_GROUP_AMORPHOUS
-    abilities ABILITY_SYNCHRONIZE, ABILITY_TRACE //ABILITY_PIXILATE, ABILITY_PIXILATE
+    abilities ABILITY_PIXILATE, ABILITY_NONE
     runchance 25
     colorflip 0, 0
     tmdata SPECIES_NONE_TM_DATA_0, SPECIES_NONE_TM_DATA_1, SPECIES_NONE_TM_DATA_2, SPECIES_NONE_TM_DATA_3
 
+
+// STATS: 85 >> 95 Atk | 125 >> 145 Def | 85 >> 95 SpAtk | 115 >> 135 SpDef | 480 >> 540 BST
 mondata SPECIES_MEGA_SABLEYE, "-----"
-    basestats 50, 85, 125, 20, 85, 115
+    .if STAT_CHANGES_IMPLEMENTED
+        basestats 50, 95, 145, 20, 95, 135
+    .else
+        basestats 50, 85, 125, 20, 85, 115
+    .endif
     types TYPE_DARK, TYPE_GHOST
     catchrate 45
     baseexp 98
@@ -23669,11 +23736,14 @@ mondata SPECIES_MEGA_SABLEYE, "-----"
     basefriendship 35
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_HUMAN_LIKE, EGG_GROUP_HUMAN_LIKE
-    abilities ABILITY_PRESSURE, ABILITY_FRISK //ABILITY_MAGIC_BOUNCE, ABILITY_MAGIC_BOUNCE
+    abilities ABILITY_MAGIC_BOUNCE, ABILITY_NONE
     runchance 25
     colorflip 0, 0
     tmdata SPECIES_NONE_TM_DATA_0, SPECIES_NONE_TM_DATA_1, SPECIES_NONE_TM_DATA_2, SPECIES_NONE_TM_DATA_3
 
+
+// ugh
+// STATS: 125 >> 145 Def | 55 >> 75 SpAtk | 95 >> 115 SpDef | 480 >> 540 BST
 mondata SPECIES_MEGA_MAWILE, "-----"
     basestats 50, 105, 125, 50, 55, 95
     types TYPE_STEEL, TYPE_FAIRY
@@ -23686,7 +23756,7 @@ mondata SPECIES_MEGA_MAWILE, "-----"
     basefriendship 70 // raised up again
     growthrate GROWTH_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FAIRY
-    abilities ABILITY_HUGE_POWER, ABILITY_HUGE_POWER
+    abilities ABILITY_HUGE_POWER, ABILITY_NONE
     runchance 25
     colorflip 0, 0
     tmdata SPECIES_NONE_TM_DATA_0, SPECIES_NONE_TM_DATA_1, SPECIES_NONE_TM_DATA_2, SPECIES_NONE_TM_DATA_3
@@ -23708,8 +23778,14 @@ mondata SPECIES_MEGA_AGGRON, "-----"
     colorflip 0, 0
     tmdata SPECIES_NONE_TM_DATA_0, SPECIES_NONE_TM_DATA_1, SPECIES_NONE_TM_DATA_2, SPECIES_NONE_TM_DATA_3
 
+
+// STATS: 80 >> 100 SpAtk | 510 >> 530 BST
 mondata SPECIES_MEGA_MEDICHAM, "-----"
-    basestats 60, 100, 85, 100, 80, 85
+    .if STAT_CHANGES_IMPLEMENTED
+        basestats 60, 100, 85, 100, 100, 85
+    .else
+        basestats 60, 100, 85, 100, 80, 85
+    .endif
     types TYPE_FIGHTING, TYPE_PSYCHIC
     catchrate 90
     baseexp 153
@@ -23725,8 +23801,14 @@ mondata SPECIES_MEGA_MEDICHAM, "-----"
     colorflip 0, 0
     tmdata SPECIES_NONE_TM_DATA_0, SPECIES_NONE_TM_DATA_1, SPECIES_NONE_TM_DATA_2, SPECIES_NONE_TM_DATA_3
 
+
+// STATS: 75 >> 100 Atk | 575 >> 600 BST
 mondata SPECIES_MEGA_MANECTRIC, "-----"
-    basestats 70, 75, 80, 135, 135, 80
+    .if STAT_CHANGES_IMPLEMENTED
+        basestats 70, 100, 80, 135, 135, 80
+    .else
+        basestats 70, 75, 80, 135, 135, 80
+    .endif
     types TYPE_ELECTRIC, TYPE_ELECTRIC
     catchrate 45
     baseexp 168
@@ -23737,13 +23819,19 @@ mondata SPECIES_MEGA_MANECTRIC, "-----"
     basefriendship 70 // raised up again
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_INTIMIDATE, ABILITY_INTIMIDATE
+    abilities ABILITY_INTIMIDATE, ABILITY_NONE
     runchance 25
     colorflip 0, 0
     tmdata SPECIES_NONE_TM_DATA_0, SPECIES_NONE_TM_DATA_1, SPECIES_NONE_TM_DATA_2, SPECIES_NONE_TM_DATA_3
 
+
+// STATS: 70 >> 75 Def | 65 >> 70 SpDef | 105 >> 115 Speed | 560 >> 580 BST
 mondata SPECIES_MEGA_SHARPEDO, "-----"
-    basestats 70, 140, 70, 105, 110, 65
+    .if STAT_CHANGES_IMPLEMENTED
+        basestats 70, 140, 75, 115, 110, 70
+    .else
+        basestats 70, 140, 70, 105, 110, 65
+    .endif
     types TYPE_WATER, TYPE_DARK
     catchrate 60
     baseexp 175
@@ -23754,13 +23842,19 @@ mondata SPECIES_MEGA_SHARPEDO, "-----"
     basefriendship 35
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_WATER_2, EGG_GROUP_WATER_2
-    abilities ABILITY_SPEED_BOOST, ABILITY_NONE //ABILITY_STRONG_JAW, ABILITY_NONE
+    abilities ABILITY_STRONG_JAW, ABILITY_NONE
     runchance 25
     colorflip 0, 0
     tmdata SPECIES_NONE_TM_DATA_0, SPECIES_NONE_TM_DATA_1, SPECIES_NONE_TM_DATA_2, SPECIES_NONE_TM_DATA_3
 
+
+// STATS: 100 >> 110 Def | 105 >> 115 SpDef | 560 >> 580 BST
 mondata SPECIES_MEGA_CAMERUPT, "-----"
-    basestats 70, 120, 100, 20, 145, 105
+    .if STAT_CHANGES_IMPLEMENTED
+        basestats 70, 120, 110, 20, 145, 115
+    .else
+        basestats 70, 120, 100, 20, 145, 105
+    .endif
     types TYPE_FIRE, TYPE_GROUND
     catchrate 150
     baseexp 175
@@ -23771,13 +23865,19 @@ mondata SPECIES_MEGA_CAMERUPT, "-----"
     basefriendship 70 // raised up again
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_MAGMA_ARMOR, ABILITY_SOLID_ROCK //ABILITY_SHEER_FORCE, ABILITY_SHEER_FORCE
+    abilities ABILITY_SHEER_FORCE, ABILITY_NONE
     runchance 25
     colorflip 0, 0
     tmdata SPECIES_NONE_TM_DATA_0, SPECIES_NONE_TM_DATA_1, SPECIES_NONE_TM_DATA_2, SPECIES_NONE_TM_DATA_3
 
+
+// STATS: 110 >> 115 Atk | 110 >> 115 Def | 110 >> 115 SpAtk | 105 >> 120 SpDef | 590 >> 620 BST
 mondata SPECIES_MEGA_ALTARIA, "-----"
-    basestats 75, 110, 110, 80, 110, 105
+    .if STAT_CHANGES_IMPLEMENTED
+        basestats 75, 115, 115, 80, 115, 120
+    .else
+        basestats 75, 110, 110, 80, 110, 105
+    .endif
     types TYPE_DRAGON, TYPE_FAIRY
     catchrate 45
     baseexp 188
@@ -23788,14 +23888,20 @@ mondata SPECIES_MEGA_ALTARIA, "-----"
     basefriendship 70 // raised up again
     growthrate GROWTH_ERRATIC
     egggroups EGG_GROUP_FLYING, EGG_GROUP_DRAGON
-    abilities ABILITY_PRESSURE, ABILITY_NONE //ABILITY_PIXILATE, ABILITY_NONE
+    abilities ABILITY_PIXILATE, ABILITY_NONE
     runchance 25
     colorflip 0, 0
     tmdata SPECIES_NONE_TM_DATA_0, SPECIES_NONE_TM_DATA_1, SPECIES_NONE_TM_DATA_2, SPECIES_NONE_TM_DATA_3
 
+// STATS: 75 >> 80 Def | 83 >> 88 SpDef | 75 >> 85 Speed | 555 >> 575 BST
+// TYPES: Ghost >> Ghost/Normal
 mondata SPECIES_MEGA_BANETTE, "-----"
     basestats 64, 165, 75, 75, 93, 83
-    types TYPE_GHOST, TYPE_GHOST
+    .if TYPE_CHANGES_IMPLEMENTED
+        types TYPE_GHOST, TYPE_NORMAL
+    .else
+        types TYPE_GHOST, TYPE_GHOST
+    .endif
     catchrate 45
     baseexp 179
     evyields 0, 2, 0, 0, 0, 0
@@ -23805,13 +23911,18 @@ mondata SPECIES_MEGA_BANETTE, "-----"
     basefriendship 35
     growthrate GROWTH_FAST
     egggroups EGG_GROUP_AMORPHOUS, EGG_GROUP_AMORPHOUS
-    abilities ABILITY_FRISK, ABILITY_FRISK //ABILITY_PRANKSTER, ABILITY_PRANKSTER
+    abilities ABILITY_PRANKSTER, ABILITY_NONE
     runchance 25
     colorflip 0, 0
     tmdata SPECIES_NONE_TM_DATA_0, SPECIES_NONE_TM_DATA_1, SPECIES_NONE_TM_DATA_2, SPECIES_NONE_TM_DATA_3
 
+// STATS: 115 >> 125 Speed | 565 >> 575 BST
 mondata SPECIES_MEGA_ABSOL, "-----"
-    basestats 65, 150, 60, 115, 115, 60
+    .if STAT_CHANGES_IMPLEMENTED
+        basestats 65, 150, 60, 125, 115, 60
+    .else
+        basestats 65, 150, 60, 115, 115, 60
+    .endif
     types TYPE_DARK, TYPE_DARK
     catchrate 30
     baseexp 174
@@ -23822,14 +23933,24 @@ mondata SPECIES_MEGA_ABSOL, "-----"
     basefriendship 35
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_PRESSURE, ABILITY_PRESSURE //ABILITY_MAGIC_BOUNCE, ABILITY_MAGIC_BOUNCE
+    abilities ABILITY_MAGIC_BOUNCE, ABILITY_NONE
     runchance 25
     colorflip 0, 0
     tmdata SPECIES_NONE_TM_DATA_0, SPECIES_NONE_TM_DATA_1, SPECIES_NONE_TM_DATA_2, SPECIES_NONE_TM_DATA_3
 
+// STATS: 120 >> 140 Atk | 580 >> 600 BST
+// TYPES: Ice >> Ice/Rock
 mondata SPECIES_MEGA_GLALIE, "-----"
-    basestats 80, 120, 80, 100, 120, 80
-    types TYPE_ICE, TYPE_ICE
+    .if STAT_CHANGES_IMPLEMENTED
+        basestats 80, 140, 80, 100, 120, 80
+    .else
+        basestats 80, 120, 80, 100, 120, 80
+    .endif
+    .if TYPE_CHANGES_IMPLEMENTED
+        types TYPE_ICE, TYPE_ROCK
+    .else
+        types TYPE_ICE, TYPE_ICE
+    .endif
     catchrate 75
     baseexp 187
     evyields 2, 0, 0, 0, 0, 0
@@ -23839,7 +23960,7 @@ mondata SPECIES_MEGA_GLALIE, "-----"
     basefriendship 70 // raised up again
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FAIRY, EGG_GROUP_MINERAL
-    abilities ABILITY_INNER_FOCUS, ABILITY_ICE_BODY //ABILITY_REFRIGERATE, ABILITY_REFRIGERATE
+    abilities ABILITY_REFRIGERATE, ABILITY_NONE
     runchance 25
     colorflip 0, 0
     tmdata SPECIES_NONE_TM_DATA_0, SPECIES_NONE_TM_DATA_1, SPECIES_NONE_TM_DATA_2, SPECIES_NONE_TM_DATA_3
@@ -23856,7 +23977,7 @@ mondata SPECIES_MEGA_SALAMENCE, "-----"
     basefriendship 35
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_DRAGON, EGG_GROUP_DRAGON
-    abilities ABILITY_PRESSURE, ABILITY_NONE //ABILITY_AERILATE, ABILITY_NONE
+    abilities ABILITY_AERILATE, ABILITY_NONE
     runchance 25
     colorflip 0, 0
     tmdata SPECIES_NONE_TM_DATA_0, SPECIES_NONE_TM_DATA_1, SPECIES_NONE_TM_DATA_2, SPECIES_NONE_TM_DATA_3
@@ -23873,7 +23994,7 @@ mondata SPECIES_MEGA_METAGROSS, "-----"
     basefriendship 35
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_MINERAL, EGG_GROUP_MINERAL
-    abilities ABILITY_PRESSURE, ABILITY_NONE
+    abilities ABILITY_TOUGH_CLAWS, ABILITY_NONE
     runchance 25
     colorflip 0, 0
     tmdata SPECIES_NONE_TM_DATA_0, SPECIES_NONE_TM_DATA_1, SPECIES_NONE_TM_DATA_2, SPECIES_NONE_TM_DATA_3
@@ -23924,13 +24045,18 @@ mondata SPECIES_MEGA_RAYQUAZA, "-----"
     basefriendship 0
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
-    abilities ABILITY_CLOUD_NINE /*ABILITY_DELTA_STREAM*/, ABILITY_NONE
+    abilities ABILITY_AIR_LOCK, ABILITY_NONE  // No Delta Stream yet
     runchance 25
     colorflip 0, 0
     tmdata SPECIES_NONE_TM_DATA_0, SPECIES_NONE_TM_DATA_1, SPECIES_NONE_TM_DATA_2, SPECIES_NONE_TM_DATA_3
 
+// STATS: 94 >> 104 Def | 96 >> 106 SpDef | 580 >> 600 BST
 mondata SPECIES_MEGA_LOPUNNY, "-----"
-    basestats 65, 136, 94, 135, 54, 96
+    .if STAT_CHANGES_IMPLEMENTED
+        basestats 65, 136, 104, 135, 54, 106
+    .else
+        basestats 65, 136, 94, 135, 54, 96
+    .endif    
     types TYPE_NORMAL, TYPE_FIGHTING
     catchrate 60
     baseexp 168
@@ -23941,7 +24067,7 @@ mondata SPECIES_MEGA_LOPUNNY, "-----"
     basefriendship 70 // raised up again
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_HUMAN_LIKE
-    abilities ABILITY_SCRAPPY, ABILITY_SCRAPPY
+    abilities ABILITY_SCRAPPY, ABILITY_NONE
     runchance 25
     colorflip 0, 0
     tmdata SPECIES_NONE_TM_DATA_0, SPECIES_NONE_TM_DATA_1, SPECIES_NONE_TM_DATA_2, SPECIES_NONE_TM_DATA_3
@@ -23958,7 +24084,7 @@ mondata SPECIES_MEGA_GARCHOMP, "-----"
     basefriendship 70 // raised up again
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_DRAGON, EGG_GROUP_MONSTER
-    abilities ABILITY_PRESSURE, ABILITY_NONE
+    abilities ABILITY_SAND_FORCE, ABILITY_NONE
     runchance 25
     colorflip 0, 0
     tmdata SPECIES_NONE_TM_DATA_0, SPECIES_NONE_TM_DATA_1, SPECIES_NONE_TM_DATA_2, SPECIES_NONE_TM_DATA_3
@@ -23975,13 +24101,18 @@ mondata SPECIES_MEGA_LUCARIO, "-----"
     basefriendship 70 // raised up again
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_FIELD, EGG_GROUP_HUMAN_LIKE
-    abilities ABILITY_ADAPTABILITY, ABILITY_ADAPTABILITY
+    abilities ABILITY_ADAPTABILITY, ABILITY_NONE
     runchance 25
     colorflip 0, 0
     tmdata SPECIES_NONE_TM_DATA_0, SPECIES_NONE_TM_DATA_1, SPECIES_NONE_TM_DATA_2, SPECIES_NONE_TM_DATA_3
 
+// STATS: 90 >> 100 HP | 132 >> 142 Atk | 105 >> 115 Def | 132 >> 142 SpAtk | 105 >> 115 SpDef | 30 >> 20 Speed | 594 >> 634 BST
 mondata SPECIES_MEGA_ABOMASNOW, "-----"
-    basestats 90, 132, 105, 30, 132, 105
+    .if STAT_CHANGES_IMPLEMENTED
+        basestats 100, 142, 115, 20, 142, 115
+    .else
+        basestats 90, 132, 105, 30, 132, 105
+    .endif
     types TYPE_GRASS, TYPE_ICE
     catchrate 60
     baseexp 214
@@ -23997,6 +24128,8 @@ mondata SPECIES_MEGA_ABOMASNOW, "-----"
     colorflip 0, 0
     tmdata SPECIES_NONE_TM_DATA_0, SPECIES_NONE_TM_DATA_1, SPECIES_NONE_TM_DATA_2, SPECIES_NONE_TM_DATA_3
 
+
+// ABILITY: Sharpness
 mondata SPECIES_MEGA_GALLADE, "-----"
     basestats 68, 165, 95, 110, 65, 115
     types TYPE_PSYCHIC, TYPE_FIGHTING
@@ -24009,13 +24142,23 @@ mondata SPECIES_MEGA_GALLADE, "-----"
     basefriendship 35
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_WATER_1
-    abilities ABILITY_INNER_FOCUS, ABILITY_NONE
+    .if ABILITY_CHANGES_IMPLEMENTED
+        abilities ABILITY_SHARPNESS, ABILITY_NONE
+    .else
+        abilities ABILITY_INNER_FOCUS, ABILITY_NONE
+    .endif
     runchance 25
     colorflip 0, 0
     tmdata SPECIES_NONE_TM_DATA_0, SPECIES_NONE_TM_DATA_1, SPECIES_NONE_TM_DATA_2, SPECIES_NONE_TM_DATA_3
 
+
+// STATS: 80 >> 100 SpAtk | 545 >> 565 BST
 mondata SPECIES_MEGA_AUDINO, "-----"
-    basestats 103, 60, 126, 50, 80, 126
+    .if STAT_CHANGES_IMPLEMENTED
+        basestats 103, 60, 126, 50, 100, 126
+    .else
+        basestats 103, 60, 126, 50, 80, 126
+    .endif
     types TYPE_NORMAL, TYPE_FAIRY
     catchrate 255
     baseexp 245
@@ -24026,7 +24169,11 @@ mondata SPECIES_MEGA_AUDINO, "-----"
     basefriendship 70 // raised up again
     growthrate GROWTH_FAST
     egggroups EGG_GROUP_FAIRY, EGG_GROUP_FAIRY
-    abilities ABILITY_HEALER, ABILITY_HEALER
+    .if ABILITY_CHANGES_IMPLEMENTED
+        abilities ABILITY_REGENERATOR, ABILITY_NONE
+    .else
+        abilities ABILITY_HEALER, ABILITY_NONE
+    .endif
     runchance 25
     colorflip 0, 0
     tmdata SPECIES_NONE_TM_DATA_0, SPECIES_NONE_TM_DATA_1, SPECIES_NONE_TM_DATA_2, SPECIES_NONE_TM_DATA_3
@@ -24060,7 +24207,7 @@ mondata SPECIES_GROUDON_PRIMAL, "-----"
     basefriendship 0
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
-    abilities ABILITY_DESOLATE_LAND, ABILITY_NONE
+    abilities ABILITY_DROUGHT, ABILITY_NONE // No Desolate Land yet
     runchance 25
     colorflip 0, 0
     tmdata SPECIES_NONE_TM_DATA_0, SPECIES_NONE_TM_DATA_1, SPECIES_NONE_TM_DATA_2, SPECIES_NONE_TM_DATA_3
@@ -24077,7 +24224,7 @@ mondata SPECIES_KYOGRE_PRIMAL, "-----"
     basefriendship 0
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
-    abilities ABILITY_PRIMORDIAL_SEA, ABILITY_NONE
+    abilities ABILITY_DRIZZLE, ABILITY_NONE // No Primordial Sea yet
     runchance 25
     colorflip 0, 0
     tmdata SPECIES_NONE_TM_DATA_0, SPECIES_NONE_TM_DATA_1, SPECIES_NONE_TM_DATA_2, SPECIES_NONE_TM_DATA_3

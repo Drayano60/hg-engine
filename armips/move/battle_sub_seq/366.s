@@ -10,17 +10,35 @@
 
 .create "build/move/battle_sub_seq/1_366", 0
 
+/*
 // Damaging move redirection subscript
 //
 // All battle_eff_seq files used for damaging moves (critcalc/damagecalc)
 // make a call to here, either directly or from subscript 343.
 //
-// This is used for the type changing abilities like Pixilate,
-// as Im unsure how to change the type at the point of calculation.
-//
-// Conveniently, this also means abilities etc treat it correctly.
+// This was used for the type changing abilities like Pixilate, until it was implemented properly.
+// Commenting the code out is easier than untying all the files, so it's been left here.
+*/
 
 a001_366:
+    critcalc
+
+    // Beat Up and Spit Up use different damagecalc functions.
+    if IF_EQUAL, VAR_CURRENT_MOVE, MOVE_BEAT_UP, BeatUpDamageCalc
+    if IF_EQUAL, VAR_CURRENT_MOVE, MOVE_SPIT_UP, SpitUpDamageCalc
+
+    damagecalc
+    endscript
+BeatUpDamageCalc:
+    beatupdamagecalc
+    endscript
+SpitUpDamageCalc:
+    damagecalc2
+    endscript
+
+.close
+
+/**
     // This places the move type into VAR_09.
     getmoveparameter 0x3
 
@@ -62,20 +80,4 @@ Boost:
     changevar VAR_OP_DIV, VAR_DAMAGE_MULT, 100
     goto End
 End:
-    critcalc
-
-    // Beat Up and Spit Up use different damagecalc functions.
-    if IF_EQUAL, VAR_CURRENT_MOVE, MOVE_BEAT_UP, BeatUpDamageCalc
-    if IF_EQUAL, VAR_CURRENT_MOVE, MOVE_SPIT_UP, SpitUpDamageCalc
-
-    damagecalc
-    goto EndScript
-BeatUpDamageCalc:
-    beatupdamagecalc
-    goto EndScript
-SpitUpDamageCalc:
-    damagecalc2
-EndScript:
-    endscript
-
-.close
+**/

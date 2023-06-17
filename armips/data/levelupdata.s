@@ -3038,7 +3038,7 @@ levelup SPECIES_HITMONLEE
     learnset MOVE_MEGA_KICK, 40
     learnset MOVE_CLOSE_COMBAT, 44
     learnset MOVE_REVERSAL, 48
-    learnset MOVE_HI_JUMP_KICK, 52
+    learnset MOVE_HIGH_JUMP_KICK, 52
     terminatelearnset
 
 // NEW: Meteor Mash
@@ -7013,7 +7013,7 @@ levelup SPECIES_BLAZIKEN
     learnset MOVE_SLASH, 24
     learnset MOVE_BLAZE_KICK, 28
     learnset MOVE_SKY_UPPERCUT, 32
-    learnset MOVE_HI_JUMP_KICK, 36
+    learnset MOVE_HIGH_JUMP_KICK, 36
     learnset MOVE_FOCUS_ENERGY, 38
     learnset MOVE_BULK_UP, 44
     learnset MOVE_REVERSAL, 50
@@ -8151,7 +8151,7 @@ levelup SPECIES_MEDITITE
     learnset MOVE_CALM_MIND, 24
     learnset MOVE_MIND_READER, 27
     learnset MOVE_ZEN_HEADBUTT, 30
-    learnset MOVE_HI_JUMP_KICK, 35
+    learnset MOVE_HIGH_JUMP_KICK, 35
     learnset MOVE_PSYCH_UP, 39
     learnset MOVE_ACUPRESSURE, 43
     learnset MOVE_POWER_TRICK, 47
@@ -8183,7 +8183,7 @@ levelup SPECIES_MEDICHAM
     learnset MOVE_CALM_MIND, 24
     learnset MOVE_MIND_READER, 27
     learnset MOVE_ZEN_HEADBUTT, 30
-    learnset MOVE_HI_JUMP_KICK, 35
+    learnset MOVE_HIGH_JUMP_KICK, 35
     learnset MOVE_PSYCH_UP, 39
     learnset MOVE_ACUPRESSURE, 43
     learnset MOVE_POWER_TRICK, 47
@@ -11122,7 +11122,7 @@ levelup SPECIES_LOPUNNY
     learnset MOVE_FLATTER, 40
     learnset MOVE_BOUNCE, 44
     learnset MOVE_HEALING_WISH, 48
-    learnset MOVE_HI_JUMP_KICK, 52
+    learnset MOVE_HIGH_JUMP_KICK, 52
     learnset MOVE_MEGA_KICK, 56
     terminatelearnset
 
@@ -11420,7 +11420,7 @@ levelup SPECIES_LUCARIO
     learnset MOVE_METEOR_MASH, 48
     learnset MOVE_CLOSE_COMBAT, 52
     learnset MOVE_EXTREME_SPEED, 56
-    learnset MOVE_HI_JUMP_KICK, 60
+    learnset MOVE_HIGH_JUMP_KICK, 60
     terminatelearnset
 
 // NEW: Headlong Rush
@@ -13669,7 +13669,7 @@ levelup SPECIES_SCRAGGY
     learnset MOVE_SCARY_FACE, 28
     learnset MOVE_FACADE, 32
     learnset MOVE_CRUNCH, 38
-    learnset MOVE_HI_JUMP_KICK, 44
+    learnset MOVE_HIGH_JUMP_KICK, 44
     learnset MOVE_DRAGON_DANCE, 50
     learnset MOVE_HEAD_SMASH, 56
     learnset MOVE_FOCUS_PUNCH, 62
@@ -13693,7 +13693,7 @@ levelup SPECIES_SCRAFTY
     learnset MOVE_SCARY_FACE, 28
     learnset MOVE_FACADE, 32
     learnset MOVE_CRUNCH, 38
-    learnset MOVE_HI_JUMP_KICK, 44
+    learnset MOVE_HIGH_JUMP_KICK, 44
     learnset MOVE_DRAGON_DANCE, 50
     learnset MOVE_HEAD_SMASH, 56
     learnset MOVE_FOCUS_PUNCH, 62
@@ -15213,7 +15213,7 @@ levelup SPECIES_MIENFOO
     learnset MOVE_KNOCK_OFF, 42
     learnset MOVE_BOUNCE, 46
     learnset MOVE_AURA_SPHERE, 50
-    learnset MOVE_HI_JUMP_KICK, 54
+    learnset MOVE_HIGH_JUMP_KICK, 54
     terminatelearnset
 
 // Evolution: 35
@@ -15236,7 +15236,7 @@ levelup SPECIES_MIENSHAO
     learnset MOVE_KNOCK_OFF, 42
     learnset MOVE_BOUNCE, 46
     learnset MOVE_AURA_SPHERE, 50
-    learnset MOVE_HI_JUMP_KICK, 54
+    learnset MOVE_HIGH_JUMP_KICK, 54
     terminatelearnset
 
 levelup SPECIES_DRUDDIGON
@@ -16664,7 +16664,7 @@ levelup SPECIES_HAWLUCHA
 	learnset MOVE_BOUNCE, 32
 	learnset MOVE_ENDEAVOR, 36
 	learnset MOVE_FEATHER_DANCE, 40
-	learnset MOVE_HI_JUMP_KICK, 44
+	learnset MOVE_HIGH_JUMP_KICK, 44
 	learnset MOVE_SKY_ATTACK, 48
 	learnset MOVE_SKY_DROP, 55
 	learnset MOVE_SWORDS_DANCE, 60
@@ -17866,7 +17866,7 @@ levelup SPECIES_TSAREENA
 	learnset MOVE_CAPTIVATE, 37
 	learnset MOVE_AROMATHERAPY, 41
 	learnset MOVE_LEAF_STORM, 45
-	learnset MOVE_HI_JUMP_KICK, 49
+	learnset MOVE_HIGH_JUMP_KICK, 49
 	learnset MOVE_POWER_WHIP, 53
 	terminatelearnset
 
@@ -18379,7 +18379,7 @@ levelup SPECIES_PHEROMOSA
 	learnset MOVE_LUNGE, 47
 	learnset MOVE_BUG_BUZZ, 53
 	learnset MOVE_ME_FIRST, 59
-	learnset MOVE_HI_JUMP_KICK, 67
+	learnset MOVE_HIGH_JUMP_KICK, 67
 	learnset MOVE_SPEED_SWAP, 73
 	terminatelearnset
 
@@ -20732,7 +20732,7 @@ levelup SPECIES_MEGA_MEDICHAM
     learnset MOVE_FEINT, 22 
     learnset MOVE_CALM_MIND, 25 
     learnset MOVE_FORCE_PALM, 29 
-    learnset MOVE_HI_JUMP_KICK, 32 
+    learnset MOVE_HIGH_JUMP_KICK, 32 
     learnset MOVE_PSYCH_UP, 36 
     learnset MOVE_POWER_TRICK, 42 
     learnset MOVE_REVERSAL, 49 

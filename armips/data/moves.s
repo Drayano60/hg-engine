@@ -2246,7 +2246,7 @@ movedata MOVE_SOFT_BOILED, "Soft-Boiled"
     terminatedata
     movedescription MOVE_SOFT_BOILED, "The user restores its\nown HP by up to half\nof its maximum HP.\nIt may also be used\nto heal an ally’s HP."
 
-movedata MOVE_HI_JUMP_KICK, "High Jump Kick"
+movedata MOVE_HIGH_JUMP_KICK, "High Jump Kick"
     battleeffect 45
     pss SPLIT_PHYSICAL
     basepower 130
@@ -2260,7 +2260,7 @@ movedata MOVE_HI_JUMP_KICK, "High Jump Kick"
     appeal 0
     contesttype 0
     terminatedata
-    movedescription MOVE_HI_JUMP_KICK, "The foe is attacked\nwith a knee kick from\na jump. If it misses,\nthe user is hurt\ninstead."
+    movedescription MOVE_HIGH_JUMP_KICK, "The foe is attacked\nwith a knee kick from\na jump. If it misses,\nthe user is hurt\ninstead."
 
 movedata MOVE_GLARE, "Glare"
     battleeffect 67
@@ -6923,7 +6923,7 @@ movedata MOVE_ICE_FANG, "Ice Fang"
 // POWER: 65 >> 75
 // ACCURACY: 95 >> 100
 movedata MOVE_FIRE_FANG, "Fire Fang"
-    battleeffect 314 // Changed from 273 to fix Wonder Guard glitch
+    battleeffect 273
     pss SPLIT_PHYSICAL
     basepower MOVE_CHANGES_IMPLEMENTED ? 75 : 65
     type TYPE_FIRE

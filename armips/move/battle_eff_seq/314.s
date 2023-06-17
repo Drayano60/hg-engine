@@ -12,6 +12,7 @@
 // Chance to flinch or burn
 // Fire Fang
 // Shifted from the original to fix the Fire Fang x Wonder Guard glitch
+// Not used as the glitch was fixed properly
 
 a030_314:
     changevar VAR_OP_SET, VAR_ADD_STATUS2, 0xA000008B

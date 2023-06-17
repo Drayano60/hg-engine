@@ -312,3 +312,165 @@ strb r2, [r1, r0]
 
 ldr r3, =0x0224E9A0 | 1
 bx r3
+
+.pool
+
+
+// get_client_no is r7.  we have to figure out how to run the exp task that pushes forward
+.global Task_DistributeExp_capture_experience_hook
+Task_DistributeExp_capture_experience_hook:
+// set up the arguments
+ldr r0, [sp, #0x10] // arg0 w/e tf it is
+mov r1, r4 // expcalc structure
+mov r2, r7 // get_client_no
+
+push {r1-r7}
+
+bl Task_DistributeExp_capture_experience
+
+pop {r1-r7}
+
+cmp r0, #1
+bne fully_return
+
+// if r0 is TRUE, set up case and return
+ldr r0, [r4, #8]
+mov r1, #7
+ldr r2, =0x02232F60|1 // BM_SceneStateGet
+bl bx_r2
+cmp r0, #0
+bne return_to_224689E
+ldr r2, =0x02246896|1
+bx r2
+
+return_to_224689E:
+ldr r2, =0x224689E|1
+bx r2
+
+fully_return: // hope this works to fully return
+ldr r2, =0x02247216|1
+//bx r2
+// fallthrough to bx_r2
+
+bx_r2:
+bx r2
+
+.pool
+
+
+.global gKeepStructureCallbackIntact
+gKeepStructureCallbackIntact:
+.word 0
+
+
+.global DontFreeMemoryIfCatchExp
+DontFreeMemoryIfCatchExp:
+ldr r0, =gKeepStructureCallbackIntact
+ldr r0, [r0]
+cmp r0, #0
+bne dontFreeAnything
+mov r0, #0x5E
+ldr r1, [r4, #4]
+mov r2, #0
+lsl r0, #2
+str r2, [r1, r0] // store null at pointer
+mov r0, r4
+ldr r2, =0x201AB0C|1 // free memory
+bl bx_r2
+ldr r0, [sp, #0x14]
+ldr r2, =0x200E390|1 // delete task
+bl bx_r2
+dontFreeAnything:
+ldr r0, =gKeepStructureCallbackIntact
+mov r1, #0
+str r1, [r0]
+ldr r0, =0x022463B6|1
+bx r0
+
+.pool
+
+
+.global DealWithCriticalCaptureShakes_hook
+DealWithCriticalCaptureShakes_hook:
+ldr r1, [r4, #4]
+bl CalculateBallShakes
+mov r1, r0 // shakes
+mov r0, r4 // expcalc
+bl DealWithCriticalCaptureShakes
+ldr r1, =0x0224676C|1
+bx r1
+
+.pool
+
+
+.global MakeSureDoublesBitIsSet
+MakeSureDoublesBitIsSet:
+ldr r0, [sp, #4]
+ldr r2, =0x0223A7E0 | 1 // BattleTypeGet or whatever it is
+bl bx_r2
+cmp r0, #2
+bne _set_double_to_0
+mov r0, #1
+b _skip_set_double
+
+_set_double_to_0:
+mov r0, #0
+
+_skip_set_double:
+add r1, sp, #0x10
+strb r0, [r1, #1]
+mov r0, #0
+strb r0, [r1, #2]
+strb r0, [r1, #3]
+
+ldr r2, =0x02263298 | 1
+bx r2
+
+
+.global ServerDoTypeCalcMod_hook
+ServerDoTypeCalcMod_hook:
+ldr r5, =ServerDoTypeCalcMod_return_address
+mov r6, lr
+str r6, [r5]
+pop {r5-r6}
+bl ServerDoTypeCalcMod
+ldr r1, =ServerDoTypeCalcMod_return_address
+ldr r1, [r1]
+mov pc, r1
+
+.pool
+
+ServerDoTypeCalcMod_return_address:
+.word 0
+
+
+.global AITypeCalc_hook
+AITypeCalc_hook:
+ldr r5, =AITypeCalc_return_address
+mov r6, lr
+str r6, [r5]
+pop {r5-r6}
+bl AITypeCalc
+ldr r1, =AITypeCalc_return_address
+ldr r1, [r1]
+mov pc, r1
+
+.pool
+
+AITypeCalc_return_address:
+.word 0
+
+
+// r0 is sp, r1, is client already
+.global GrabMoveTypeForConversion2
+GrabMoveTypeForConversion2:
+mov r2, #0xC1
+lsl r2, #6 // 0x3040
+add r2, #4 // fucking 0x3044
+ldr r2, [r5, r2] // sp->current_move_index
+bl GetAdjustedMoveType
+mov r4, r0
+ldr r0, =0x0224DD9C | 1
+bx r0
+
+.pool

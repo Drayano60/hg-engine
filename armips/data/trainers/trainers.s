@@ -14927,7 +14927,7 @@ trainerdata 418, "Bruno"
         item ITEM_NONE
         move MOVE_SWAGGER
         move MOVE_FOCUS_ENERGY
-        move MOVE_HI_JUMP_KICK
+        move MOVE_HIGH_JUMP_KICK
         move MOVE_BLAZE_KICK
         ballseal 0
 
@@ -25766,7 +25766,7 @@ trainerdata 718, "Chuck"
         level 54
         pokemon SPECIES_MEDICHAM
         item ITEM_SITRUS_BERRY
-        move MOVE_HI_JUMP_KICK
+        move MOVE_HIGH_JUMP_KICK
         move MOVE_PSYCHO_CUT
         move MOVE_ATTRACT
         move MOVE_THUNDER_PUNCH
@@ -25790,7 +25790,7 @@ trainerdata 718, "Chuck"
         level 55
         pokemon SPECIES_HITMONLEE
         item ITEM_NONE
-        move MOVE_HI_JUMP_KICK
+        move MOVE_HIGH_JUMP_KICK
         move MOVE_FAKE_OUT
         move MOVE_BLAZE_KICK
         move MOVE_BULK_UP

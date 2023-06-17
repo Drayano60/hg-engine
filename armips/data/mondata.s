@@ -23222,8 +23222,8 @@ mondata SPECIES_ENAMORUS, "Enamorus"
     basefriendship 70
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
-    abilities ABILITY_HEALER, ABILITY_HEALER
-    runchance 25
+    abilities ABILITY_CUTE_CHARM, ABILITY_CUTE_CHARM
+    runchance 0
     colorflip BODY_COLOR_PINK, 0
     tmdata SPECIES_ENAMORUS_TM_DATA_0, SPECIES_ENAMORUS_TM_DATA_1, SPECIES_ENAMORUS_TM_DATA_2, SPECIES_ENAMORUS_TM_DATA_3
     mondexentry SPECIES_ENAMORUS, "When it flies to this land from across the sea,\nthe bitter winter comes to an end. This Pokémon’s\nlove gives rise to the budding of fresh life."
@@ -27591,7 +27591,7 @@ mondata SPECIES_ENAMORUS_THERIAN, "-----"
     basefriendship 70
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
-    abilities ABILITY_CONTRARY, ABILITY_CONTRARY
+    abilities ABILITY_OVERCOAT, ABILITY_OVERCOAT
     runchance 25
     colorflip BODY_COLOR_PINK, 0
     tmdata SPECIES_NONE_TM_DATA_0, SPECIES_NONE_TM_DATA_1, SPECIES_NONE_TM_DATA_2, SPECIES_NONE_TM_DATA_3

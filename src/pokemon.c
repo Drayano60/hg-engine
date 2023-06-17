@@ -4707,3 +4707,107 @@ u32 GrabCryNumSpeciesForm(u32 species, u32 form)
     }
     return species;
 }
+
+
+// double battles triggerable
+
+extern u32 gTriggerDouble;
+
+u32 WildEncSingle(FieldSystem *fsys, struct PartyPokemon *pp, void *bw, void *encData, void *encArea, void *encInfo)
+{
+    u32 ret;
+    ret = SetEncountData(pp, 255, encInfo, encArea, 0, 1, bw);
+    
+#ifdef IMPLEMENT_WILD_DOUBLE_BATTLES
+
+    if (gTriggerDouble)
+    {
+        ret = SetEncountData(pp, 255, encInfo, encArea, 0, 1, bw); // add another mon to the enemy party
+    }
+
+#endif
+
+    return ret;
+}
+
+
+// variable names are fucked but that's just gotta be okay
+u32 WildWaterEncSingle(FieldSystem *fsys, struct PartyPokemon *pp, void *bw, void *encArea, void *encInfo, BOOL smth)
+{
+    u32 ret;
+    if (smth)
+    {
+        ret = SetEncountDataSwarm_maybe(fsys, pp, 255, encInfo, 1, 1, bw);
+    
+#ifdef IMPLEMENT_WILD_DOUBLE_BATTLES
+    
+        if (gTriggerDouble)
+        {
+            ret = SetEncountDataSwarm_maybe(fsys, pp, 255, encInfo, 1, 1, bw); // add another mon to the enemy party
+        }
+
+#endif
+    }
+    else
+    {
+        ret = SetEncountData(pp, 255, encInfo, encArea, 1, 1, bw);
+    
+#ifdef IMPLEMENT_WILD_DOUBLE_BATTLES
+
+        if (gTriggerDouble)
+        {
+            ret = SetEncountData(pp, 255, encInfo, encArea, 1, 1, bw); // add another mon to the enemy party
+        }
+
+#endif
+    }
+    
+    return ret;
+}
+
+
+u32 CheckCanUseBallOnDoublesFromBag(struct BattleStruct *sp)
+{
+    if (sp->battlemon[1].hp && sp->battlemon[3].hp)
+    {
+        return FALSE;
+    }
+    return TRUE;
+}
+
+
+// grab tutor entry based on species and forme
+u32 SpeciesAndFormeToWazaOshieIndex(u32 species, u32 form)
+{
+    u32 ret = species;
+    switch (species)
+    {
+    case SPECIES_DEOXYS:
+        if (form)
+            ret = 494 + form - 1;
+        break;
+    case SPECIES_WORMADAM:
+        if (form)
+            ret = 497 + form - 1;
+        break;
+    case SPECIES_GIRATINA:
+        if (form)
+            ret = 499 + form - 1;
+        break;
+    case SPECIES_SHAYMIN:
+        if (form)
+            ret = 500 + form - 1;
+        break;
+    case SPECIES_ROTOM:
+        if (form)
+            ret = 591 + form - 1;
+        break;
+    default:
+        if (form)
+            ret = PokeOtherFormMonsNoGet(species, form);
+        break;
+    }
+
+    ret--;
+    return ret;
+}

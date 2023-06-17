@@ -50,6 +50,19 @@ static const u16 TriageMoveEffects[] = {
     MOVE_EFFECT_HEALING_WISH,
 };
 
+/*
+const u16 PowderMovesList[] = {
+    MOVE_COTTON_SPORE,
+    MOVE_POISON_POWDER,
+    MOVE_SLEEP_POWDER,
+    MOVE_STUN_SPORE,
+    MOVE_SPORE,
+    MOVE_POWDER,
+    MOVE_RAGE_POWDER,
+    MOVE_MAGIC_POWDER,
+};
+*/
+
 // set sp->waza_status_flag |= MOVE_STATUS_FLAG_MISS if a miss
 BOOL CalcAccuracy(void *bw, struct BattleStruct *sp, int attacker, int defender, int move_no)
 {
@@ -74,7 +87,7 @@ BOOL CalcAccuracy(void *bw, struct BattleStruct *sp, int attacker, int defender,
         sp->waza_status_flag |= MOVE_STATUS_FLAG_MISS;
         return FALSE;
     }
-    
+
     if (GetBattlerAbility(sp, attacker) == ABILITY_PRANKSTER // prankster ability
      && (sp->battlemon[defender].type1 == TYPE_DARK || sp->battlemon[defender].type2 == TYPE_DARK) // used on a dark type
      && sp->moveTbl[move_no].split == SPLIT_STATUS // move is actually status
@@ -104,19 +117,7 @@ BOOL CalcAccuracy(void *bw, struct BattleStruct *sp, int attacker, int defender,
         sp->waza_status_flag |= WAZA_STATUS_FLAG_NANIMOOKORAN;
     }
 
-    if (GetBattlerAbility(sp, attacker) == ABILITY_NORMALIZE)
-    {
-        move_type = TYPE_NORMAL;
-    }
-    else if (sp->move_type)
-    {
-        move_type = sp->move_type;
-    }
-    else
-    {
-        move_type = sp->moveTbl[move_no].type;
-    }
-
+    move_type = GetAdjustedMoveType(sp, attacker, move_no);
 
     if
     (
@@ -131,7 +132,7 @@ BOOL CalcAccuracy(void *bw, struct BattleStruct *sp, int attacker, int defender,
 
         return FALSE;
     }
-
+    
     move_split = sp->moveTbl[move_no].split;
 
     stat_stage_acc = sp->battlemon[attacker].states[STAT_ACCURACY] - 6;
@@ -302,18 +303,13 @@ BOOL CalcAccuracy(void *bw, struct BattleStruct *sp, int attacker, int defender,
         accuracy = accuracy * 10 / 6;
     }
 
-#ifdef DEBUG_ADJUSTED_ACCURACY
-    *((u32 *)(0x23DF000 + 0xC*2 + 0x8*(attacker&1))) = sp->moveTbl[move_no].accuracy;
-    *((u32 *)(0x23DF004 + 0xC*2 + 0x8*(attacker&1))) = accuracy;
-#endif
-
     //Toxic when used by a poison type
     if (move_no == MOVE_TOXIC
-    && (BattlePokemonParamGet(sp, attacker, BATTLE_MON_DATA_TYPE1, NULL) == TYPE_POISON
-    || BattlePokemonParamGet(sp, attacker, BATTLE_MON_DATA_TYPE2, NULL) == TYPE_POISON))
+     && (BattlePokemonParamGet(sp, attacker, BATTLE_MON_DATA_TYPE1, NULL) == TYPE_POISON
+      || BattlePokemonParamGet(sp, attacker, BATTLE_MON_DATA_TYPE2, NULL) == TYPE_POISON))
     {
         return FALSE;
-    } 
+    }
 
     if (((BattleRand(bw) % 100) + 1) > accuracy)
     {
@@ -323,7 +319,8 @@ BOOL CalcAccuracy(void *bw, struct BattleStruct *sp, int attacker, int defender,
     return FALSE;
 }
 
-const u8 DecreaseSpeedHoldEffects[] = 
+
+const u8 DecreaseSpeedHoldEffects[] =
 {
     HOLD_EFFECT_DOUBLE_EV_GAIN,
     HOLD_EFFECT_HALVE_SPEED,
@@ -459,7 +456,7 @@ u8 CalcSpeed(void *bw, struct BattleStruct *sp, int client1, int client2, int fl
         if (sp->battlemon[client1].condition & STATUS_FLAG_PARALYZED)
         {
             // speed1 /= 4;
-            speed1 /= 2;
+            speed1 /= 2; // gen 7 on only halves speed for paralysis
         }
     }
 
@@ -555,7 +552,7 @@ u8 CalcSpeed(void *bw, struct BattleStruct *sp, int client1, int client2, int fl
         if (sp->battlemon[client2].condition & STATUS_FLAG_PARALYZED)
         {
             // speed2 /= 4;
-            speed2 /= 2;
+            speed2 /= 2; // gen 7 on only halves speed for paralysis
         }
     }
 
@@ -630,7 +627,7 @@ u8 CalcSpeed(void *bw, struct BattleStruct *sp, int client1, int client2, int fl
         command2 = sp->client_act_work[client2][3];
         move_pos1 = sp->waza_no_pos[client1];
         move_pos2 = sp->waza_no_pos[client2];
-        
+
         if(command1 == SELECT_FIGHT_COMMAND)
         {
             if(sp->oneTurnFlag[client1].struggle_flag)
@@ -655,13 +652,13 @@ u8 CalcSpeed(void *bw, struct BattleStruct *sp, int client1, int client2, int fl
         }
         priority1 = sp->moveTbl[move1].priority;
         priority2 = sp->moveTbl[move2].priority;
-                
+
         // handle prankster
         if (GetBattlerAbility(sp, client1) == ABILITY_PRANKSTER && sp->moveTbl[move1].split == SPLIT_STATUS)
         {
             priority1++;
         }
-        
+
         if (GetBattlerAbility(sp, client2) == ABILITY_PRANKSTER && sp->moveTbl[move2].split == SPLIT_STATUS)
         {
             priority2++;
@@ -801,7 +798,7 @@ u8 CalcSpeed(void *bw, struct BattleStruct *sp, int client1, int client2, int fl
 /* Old crit rate table
 const u8 CriticalRateTable[] =
 {
-	16,
+    16,
     8,
     4,
     3,
@@ -867,7 +864,7 @@ int CalcCritical(void *bw, struct BattleStruct *sp, int attacker, int defender, 
     {
         multiplier = 3;
     }
-    
+
     if (multiplier > 1) // log critical hits for current pokemon
     {
         sp->battlemon[attacker].critical_hits++;
@@ -883,8 +880,8 @@ int CalcCritical(void *bw, struct BattleStruct *sp, int attacker, int defender, 
 
 void ServerHPCalc(void *bw, struct BattleStruct *sp)
 {
-    int	eqp;
-    int	atk;
+    int eqp;
+    int atk;
 
 
     // Clear Fury Cutter count if it's not Fury Cutter (as Gen 4 doesn't do this normally!)
@@ -1078,4 +1075,144 @@ u16 gf_p_rand(const u16 denominator)
         val = gf_rand() / per;
         return val;
     }
+}
+
+
+// return modified damage
+int ServerDoTypeCalcMod(void *bw, struct BattleStruct *sp, int move_no, int move_type, int attack_client, int defence_client, int damage, u32 *flag)
+{
+    int i;
+    int modifier;
+    u32 base_power;
+    u8  eqp_a;
+    u8  eqp_d;
+    u8  atk_a;
+    u8  atk_d;
+
+    modifier = 1;
+
+    if (move_no == MOVE_STRUGGLE)
+        return damage;
+
+    eqp_a = HeldItemHoldEffectGet(sp, attack_client);
+    atk_a = HeldItemAtkGet(sp, attack_client, ATK_CHECK_NORMAL);
+    eqp_d = HeldItemHoldEffectGet(sp, defence_client);
+    atk_d = HeldItemAtkGet(sp, defence_client, ATK_CHECK_NORMAL);
+
+    move_type = GetAdjustedMoveType(sp, attack_client, move_no); // new normalize checks
+    base_power = sp->moveTbl[move_no].power;
+
+    if (((sp->server_status_flag & SERVER_STATUS_FLAG_TYPE_FLAT) == 0)
+     && ((BattlePokemonParamGet(sp, attack_client, BATTLE_MON_DATA_TYPE1, NULL) == move_type) || (BattlePokemonParamGet(sp, attack_client, BATTLE_MON_DATA_TYPE2, NULL) == move_type)))
+    {
+        if (GetBattlerAbility(sp,attack_client) == ABILITY_ADAPTABILITY)
+        {
+            damage *= 2;
+        }
+        else
+        {
+            damage = damage * 15 / 10;
+        }
+    }
+
+    if ((MoldBreakerAbilityCheck(sp, attack_client, defence_client, ABILITY_LEVITATE) == TRUE)
+     && (move_type == TYPE_GROUND)
+     && (eqp_d != HOLD_EFFECT_HALVE_SPEED)) // iron ball halves speed and grounds
+    {
+        flag[0] |= MOVE_STATUS_FLAG_LEVITATE_MISS;
+    }
+
+    else if ((sp->battlemon[defence_client].moveeffect.magnet_rise_count)
+          && ((sp->battlemon[defence_client].effect_of_moves & MOVE_EFFECT_FLAG_INGRAIN) == 0)
+          && (move_type == TYPE_GROUND)
+          && (eqp_d != HOLD_EFFECT_HALVE_SPEED))
+    {
+        flag[0] |= MOVE_STATUS_FLAG_MAGNET_RISE_MISS;
+    }
+    else
+    {
+        i = 0;
+        while (TypeEffectivenessTable[i][0] != 0xff)
+        {
+            if (TypeEffectivenessTable[i][0] == 0xfe) // handle foresight
+            {
+                if ((sp->battlemon[defence_client].condition2 & STATUS2_FLAG_FORESIGHT) || (GetBattlerAbility(sp, attack_client) == ABILITY_SCRAPPY))
+                {
+                    break;
+                }
+                else
+                {
+                    i++;
+                    continue;
+                }
+            }
+            if (TypeEffectivenessTable[i][0] == move_type)
+            {
+                if (TypeEffectivenessTable[i][1] == BattlePokemonParamGet(sp, defence_client, BATTLE_MON_DATA_TYPE1, NULL))
+                {
+                    if (ShouldUseNormalTypeEffCalc(sp, attack_client, defence_client, i) == TRUE)
+                    {
+                        damage = TypeCheckCalc(sp, attack_client, TypeEffectivenessTable[i][2], damage, base_power, flag);
+                        if (TypeEffectivenessTable[i][2] == 20) // seems to be useless, modifier isn't used elsewhere
+                        {
+                            modifier *= 2;
+                        }
+                    }
+                }
+                if ((TypeEffectivenessTable[i][1] == BattlePokemonParamGet(sp, defence_client, BATTLE_MON_DATA_TYPE2, NULL))
+                 && (BattlePokemonParamGet(sp, defence_client, BATTLE_MON_DATA_TYPE1, NULL) != BattlePokemonParamGet(sp, defence_client, BATTLE_MON_DATA_TYPE2, NULL)))
+                {
+                    if (ShouldUseNormalTypeEffCalc(sp, attack_client, defence_client, i) == TRUE)
+                    {
+                        damage = TypeCheckCalc(sp, attack_client, TypeEffectivenessTable[i][2], damage, base_power, flag);
+                        if (TypeEffectivenessTable[i][2] == 20) // seems to be useless, modifier isn't used elsewhere
+                        {
+                            modifier *= 2;
+                        }
+                    }
+                }
+            }
+            i++;
+        }
+    }
+
+    if ((MoldBreakerAbilityCheck(sp, attack_client, defence_client, ABILITY_WONDER_GUARD) == TRUE)
+     && (ShouldDelayTurnEffectivenessChecking(sp, move_no)) // check supereffectiveness later, 2-turn move
+     && (((flag[0] & MOVE_STATUS_FLAG_SUPER_EFFECTIVE) == 0) || ((flag[0] & (MOVE_STATUS_FLAG_SUPER_EFFECTIVE | MOVE_STATUS_FLAG_NOT_VERY_EFFECTIVE)) == (MOVE_STATUS_FLAG_SUPER_EFFECTIVE | MOVE_STATUS_FLAG_NOT_VERY_EFFECTIVE)))
+     && (base_power))
+    {
+        flag[0] |= MOVE_STATUS_FLAG_MISS_WONDER_GUARD;
+    }
+    else
+    {
+        if (((sp->server_status_flag & SERVER_STATUS_FLAG_TYPE_FLAT) == 0)
+         && ((sp->server_status_flag & SERVER_STATUS_FLAG_TYPE_NONE) == 0))
+        {
+            if ((flag[0] & MOVE_STATUS_FLAG_SUPER_EFFECTIVE) && (base_power))
+            {
+                if ((MoldBreakerAbilityCheck(sp, attack_client, defence_client, ABILITY_FILTER) == TRUE) || (MoldBreakerAbilityCheck(sp, attack_client, defence_client, ABILITY_SOLID_ROCK) == TRUE))
+                {
+                    damage = BattleDamageDivide(damage * 3, 4);
+                }
+                if (eqp_a == HOLD_EFFECT_POWER_UP_SE)
+                {
+                    damage = damage * (100 + atk_a) / 100;
+                }
+            }
+            if ((flag[0] & MOVE_STATUS_FLAG_NOT_VERY_EFFECTIVE) && (base_power))
+            {
+                if (GetBattlerAbility(sp, attack_client) == ABILITY_TINTED_LENS)
+                {
+                    damage *= 2;
+                }
+            }
+        }
+        else
+        {
+            flag[0] &= (MOVE_STATUS_FLAG_SUPER_EFFECTIVE ^ 0xFFFFFFFF);
+            flag[0] &= (MOVE_STATUS_FLAG_NOT_VERY_EFFECTIVE ^ 0xFFFFFFFF);
+        }
+    }
+
+    return damage;
 }

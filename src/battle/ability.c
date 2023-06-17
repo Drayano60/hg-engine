@@ -15,23 +15,85 @@
 
 extern const u8 StatBoostModifiers[][2];
 
+/* I've used the appeal field as extra move flags so these aren't needed
+const u16 SoundproofMoveList[] =
+{
+    MOVE_GROWL,
+    MOVE_ROAR,
+    MOVE_SING,
+    MOVE_SUPERSONIC,
+    MOVE_SCREECH,
+    MOVE_SNORE,
+    MOVE_UPROAR,
+    MOVE_METAL_SOUND,
+    MOVE_GRASS_WHISTLE,
+    MOVE_HYPER_VOICE,
+    MOVE_BUG_BUZZ,
+    MOVE_CHATTER,
+    MOVE_BOOMBURST,
+    MOVE_CLANGING_SCALES,
+    MOVE_CLANGOROUS_SOUL,
+    //MOVE_CLANGOROUS_SOULBLAZE,
+    MOVE_CONFIDE,
+    MOVE_DISARMING_VOICE,
+    MOVE_ECHOED_VOICE,
+    MOVE_EERIE_SPELL,
+    //MOVE_HEAL_BELL,
+    //MOVE_HOWL,
+    MOVE_HYPER_VOICE,
+    MOVE_NOBLE_ROAR,
+    MOVE_OVERDRIVE,
+    MOVE_PARTING_SHOT,
+    MOVE_PERISH_SONG,
+    MOVE_RELIC_SONG,
+    MOVE_ROUND,
+    //MOVE_SHADOW_PANIC,
+    MOVE_SNARL,
+    MOVE_SPARKLING_ARIA,
+};
+
+const u16 BulletproofMoveList[] =
+{
+    MOVE_ACID_SPRAY,
+    MOVE_AURA_SPHERE,
+    MOVE_BARRAGE,
+    MOVE_BULLET_SEED,
+    MOVE_EGG_BOMB,
+    MOVE_ENERGY_BALL,
+    MOVE_FOCUS_BLAST,
+    MOVE_GYRO_BALL,
+    MOVE_ICE_BALL,
+    MOVE_MAGNET_BOMB,
+    MOVE_MIST_BALL,
+    MOVE_MUD_BOMB,
+    MOVE_OCTAZOOKA,
+    MOVE_ROCK_BLAST,
+    MOVE_ROCK_WRECKER,
+    MOVE_SEED_BOMB,
+    MOVE_SHADOW_BALL,
+    MOVE_SLUDGE_BOMB,
+    MOVE_WEATHER_BALL,
+    MOVE_ZAP_CANNON,
+};
+
+const u16 PowderMoveList[] = {
+    MOVE_COTTON_SPORE,
+    MOVE_POISON_POWDER,
+    MOVE_SLEEP_POWDER,
+    MOVE_STUN_SPORE,	
+    MOVE_SPORE,
+    MOVE_POWDER,
+    MOVE_RAGE_POWDER,
+    MOVE_MAGIC_POWDER,
+};
+*/
+
 int MoveCheckDamageNegatingAbilities(struct BattleStruct *sp, int attacker, int defender)
 {
     int scriptnum = 0;
     int movetype;
 
-    if (GetBattlerAbility(sp, attacker) == ABILITY_NORMALIZE)
-    {
-        movetype = TYPE_NORMAL;
-    }
-    else if (sp->move_type) // 02252EE0
-    {
-        movetype = sp->move_type;
-    }
-    else
-    {
-        movetype = sp->moveTbl[sp->current_move_index].type;
-    }
+    movetype = GetAdjustedMoveType(sp, attacker, sp->current_move_index); // new normalize checks
 
     // 02252EF4
     if (MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_VOLT_ABSORB) == TRUE)
@@ -57,6 +119,7 @@ int MoveCheckDamageNegatingAbilities(struct BattleStruct *sp, int attacker, int 
     if (MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_FLASH_FIRE) == TRUE)
     {
         if ((movetype == TYPE_FIRE)
+         //&& ((sp->battlemon[defender].condition & STATUS_FLAG_FROZEN) == 0) // gen 5 does not prevent flash fire from working
          && ((sp->server_status_flag & SERVER_STATUS_FLAG_x20) == 0)
          && ((sp->moveTbl[sp->current_move_index].power) || (sp->current_move_index == MOVE_WILL_O_WISP)))
         {
@@ -1638,13 +1701,7 @@ BOOL MoveHitDefenderAbilityCheck(void *bw, struct BattleStruct *sp, int *seq_no)
 
                 u8 movetype;
 
-                if (GetBattlerAbility(sp, sp->attack_client) == ABILITY_NORMALIZE) {
-                    movetype = TYPE_NORMAL;
-                } else if (sp->move_type) {
-                    movetype = sp->move_type;
-                } else {
-                    movetype = sp->moveTbl[sp->current_move_index].type;
-                }
+                movetype = GetAdjustedMoveType(sp, sp->attack_client, sp->current_move_index); // new normalize checks
 
                 if ((sp->battlemon[sp->defence_client].hp)
                     && ((sp->waza_status_flag & WAZA_STATUS_FLAG_NO_OUT) == 0)
@@ -1839,13 +1896,7 @@ BOOL MoveHitDefenderAbilityCheck(void *bw, struct BattleStruct *sp, int *seq_no)
             {
                 u8 movetype;
 
-                if (GetBattlerAbility(sp, sp->attack_client) == ABILITY_NORMALIZE) {
-                    movetype = TYPE_NORMAL;
-                } else if (sp->move_type) {
-                    movetype = sp->move_type;
-                } else {
-                    movetype = sp->moveTbl[sp->current_move_index].type;
-                }
+                movetype = GetAdjustedMoveType(sp, sp->attack_client, sp->current_move_index); // new normalize checks
 
                 if ((movetype == TYPE_DARK) || (movetype == TYPE_GHOST) || (movetype == TYPE_BUG))
                 {
@@ -1971,13 +2022,7 @@ BOOL MoveHitDefenderAbilityCheck(void *bw, struct BattleStruct *sp, int *seq_no)
             {
                 u8 movetype;
 
-                if (GetBattlerAbility(sp, sp->attack_client) == ABILITY_NORMALIZE) {
-                    movetype = TYPE_NORMAL;
-                } else if (sp->move_type) {
-                    movetype = sp->move_type;
-                } else {
-                    movetype = sp->moveTbl[sp->current_move_index].type;
-                }
+                movetype = GetAdjustedMoveType(sp, sp->attack_client, sp->current_move_index); // new normalize checks
 
                 if(movetype == TYPE_WATER)
                 {
@@ -2014,13 +2059,7 @@ BOOL MoveHitDefenderAbilityCheck(void *bw, struct BattleStruct *sp, int *seq_no)
             {
                 u8 movetype;
 
-                if (GetBattlerAbility(sp, sp->attack_client) == ABILITY_NORMALIZE) {
-                    movetype = TYPE_NORMAL;
-                } else if (sp->move_type) {
-                    movetype = sp->move_type;
-                } else {
-                    movetype = sp->moveTbl[sp->current_move_index].type;
-                }
+                movetype = GetAdjustedMoveType(sp, sp->attack_client, sp->current_move_index); // new normalize checks
 
                 if (movetype == TYPE_DARK)
                 {
@@ -2549,4 +2588,162 @@ u32 ServerWazaKoyuuCheck(void *bw, struct BattleStruct *sp)
     }
 
     return FALSE;
+}
+
+
+enum
+{
+    SWOAK_SEQ_VANISH_ON_OFF=0,
+    SWOAK_SEQ_SYNCHRONIZE_CHECK,
+    SWOAK_SEQ_POKE_APPEAR_CHECK,
+    SWOAK_SEQ_CHECK_HELD_ITEM_EFFECT_ATTACKER,
+    SWOAK_SEQ_CHECK_HELD_ITEM_EFFECT_DEFENDER,
+    SWOAK_SEQ_CHECK_DEFENDER_ITEM_ON_HIT,
+    SWOAK_SEQ_THAW_ICE,
+    SWOAK_SEQ_CHECK_HEALING_ITEMS,
+};
+
+
+// this is primarily added to add scald's melting of the opponent
+void ServerDoPostMoveEffects(void *bw, struct BattleStruct *sp)
+{
+    switch(sp->swoak_seq_no)
+    {
+    case SWOAK_SEQ_VANISH_ON_OFF:
+        {
+            int ret = 0;
+            while(sp->swoak_work < BattleWorkClientSetMaxGet(bw))
+            {
+                if (((sp->battlemon[sp->swoak_work].effect_of_moves & (MOVE_EFFECT_FLAG_FLYING_IN_AIR | MOVE_EFFECT_FLAG_DIGGING | MOVE_EFFECT_FLAG_IS_DIVING | MOVE_EFFECT_FLAG_SHADOW_FORCE)) == 0)
+                 && (sp->battlemon[sp->swoak_work].effect_of_moves_temp & (MOVE_EFFECT_FLAG_FLYING_IN_AIR | MOVE_EFFECT_FLAG_DIGGING | MOVE_EFFECT_FLAG_IS_DIVING | MOVE_EFFECT_FLAG_SHADOW_FORCE)))
+                {
+                    sp->battlemon[sp->swoak_work].effect_of_moves_temp &= ~(MOVE_EFFECT_FLAG_FLYING_IN_AIR | MOVE_EFFECT_FLAG_DIGGING | MOVE_EFFECT_FLAG_IS_DIVING | MOVE_EFFECT_FLAG_SHADOW_FORCE);
+                    LoadBattleSubSeqScript(sp, ARC_SUB_SEQ, SUB_SEQ_MON_REAPPEAR);
+                    sp->client_work = sp->swoak_work;
+                    sp->next_server_seq_no = sp->server_seq_no;
+                    sp->server_seq_no = 22;
+                    ret = 1;
+                }
+
+                sp->swoak_work++;
+
+                if (ret)
+                    return;
+            }
+        }
+        sp->swoak_seq_no++;
+        sp->swoak_work=0;
+
+    case SWOAK_SEQ_SYNCHRONIZE_CHECK:
+        sp->swoak_seq_no++;
+        if (SynchroniseAbilityCheck(bw, sp, sp->server_seq_no) == TRUE)
+            return;
+
+    case SWOAK_SEQ_POKE_APPEAR_CHECK:
+        {
+            int seq_no;
+
+            seq_no = ST_ServerPokeAppearCheck(bw,sp);
+
+            if (seq_no)
+            {
+                LoadBattleSubSeqScript(sp, ARC_SUB_SEQ, seq_no);
+                sp->next_server_seq_no = sp->server_seq_no;
+                sp->server_seq_no = 22;
+                return;
+            }
+        }
+        sp->swoak_seq_no++;
+
+    case SWOAK_SEQ_CHECK_HELD_ITEM_EFFECT_ATTACKER:
+        sp->swoak_seq_no++;
+        if (HeldItemEffectCheck(bw, sp, sp->attack_client) == TRUE) // will eventually need HeldItemEffectCheck anyway.  generic berry function thing
+            return;
+
+    case SWOAK_SEQ_CHECK_HELD_ITEM_EFFECT_DEFENDER:
+        sp->swoak_seq_no++;
+        if (sp->defence_client != 0xFF)
+        {
+            if (HeldItemEffectCheck(bw, sp, sp->defence_client) == TRUE)
+                return;
+        }
+    case SWOAK_SEQ_CHECK_DEFENDER_ITEM_ON_HIT:
+        {
+            int seq_no;
+
+            sp->swoak_seq_no++;
+            if (CheckDefenderItemEffectOnHit(bw, sp, &seq_no) == TRUE)
+            {
+                LoadBattleSubSeqScript(sp, ARC_SUB_SEQ, seq_no);
+                sp->next_server_seq_no = sp->server_seq_no;
+                sp->server_seq_no = 22;
+                return;
+            }
+        }
+    case SWOAK_SEQ_THAW_ICE:
+        {
+            int movetype;
+
+            movetype = GetAdjustedMoveType(sp, sp->attack_client, sp->current_move_index); // new normalize checks
+
+            sp->swoak_seq_no++;
+
+            if (sp->defence_client != 0xFF)
+            {
+                if ((sp->battlemon[sp->defence_client].condition & STATUS_FLAG_FROZEN)
+                 && ((sp->waza_status_flag & MOVE_STATUS_FLAG_FURY_CUTTER_MISS) == 0)
+                 && (sp->defence_client != sp->attack_client)
+                 && ((sp->oneSelfFlag[sp->defence_client].physical_damage) || (sp->oneSelfFlag[sp->defence_client].special_damage))
+                 && (sp->battlemon[sp->defence_client].hp)
+                 && ((movetype == TYPE_FIRE) || (sp->current_move_index == MOVE_SCALD) || (sp->current_move_index == MOVE_SCORCHING_SANDS))) // scald can also melt opponents as of gen 6, so can scorching sands
+                {
+                    sp->client_work = sp->defence_client;
+                    LoadBattleSubSeqScript(sp, ARC_SUB_SEQ, SUB_SEQ_THAW_WORK_BATTLER_BY_MOVE);
+                    sp->next_server_seq_no = sp->server_seq_no;
+                    sp->server_seq_no = 22;
+                    return;
+                }
+            }
+        }
+    case SWOAK_SEQ_CHECK_HEALING_ITEMS:
+        {
+            int client_no;
+            int ret=0;
+            int seq_no;
+
+            while (sp->swoak_work < BattleWorkClientSetMaxGet(bw))
+            {
+                client_no = sp->turn_order[sp->swoak_work];
+                if (sp->no_reshuffle_client & No2Bit(client_no))
+                {
+                    sp->swoak_work++;
+                    continue;
+                }
+
+                sp->swoak_work++;
+
+                if (HeldItemHealStatusCheck(bw, sp, client_no, &seq_no) == TRUE) // will also probably need this one too
+                {
+                    sp->client_work = client_no;
+                    LoadBattleSubSeqScript(sp, ARC_SUB_SEQ, seq_no);
+                    sp->next_server_seq_no = sp->server_seq_no;
+                    sp->server_seq_no = 22;
+                    ret = 1;
+                    break;
+                }
+            }
+
+            if (ret == 0)
+            {
+                sp->swoak_seq_no++;
+                sp->swoak_work = 0;
+            }
+        }
+        break;
+    default:
+        break;
+    }
+    sp->swoak_seq_no = 0;
+    sp->swoak_work = 0;
+    sp->server_seq_no = 32;
 }

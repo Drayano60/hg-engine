@@ -38,6 +38,7 @@
 .include "armips/asm/custom/vitamins.s"
 .include "armips/asm/custom/force_radio.s"
 .include "armips/asm/custom/confusion_berries.s"
+.include "armips/asm/custom/hp_bar_speed.s"
 
 .if FAIRY_TYPE_IMPLEMENTED == 1
 

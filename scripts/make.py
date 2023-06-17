@@ -435,6 +435,7 @@ def offset():
                 rom.close()
 
 
+# 101 added for the radio channel change
 OVERLAYS_TO_DECOMPRESS = [1, 2, 6, 7, 8, 10, 12, 14, 15, 18, 63, 96, 101, 112]
 
 

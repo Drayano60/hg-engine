@@ -9,11 +9,13 @@
 
 .create "build/move/battle_eff_seq/0_077", 0
 
+// Twineedle
+
 a030_077:
     changevar VAR_OP_SET, VAR_ADD_STATUS2, 0x80000002
     setmultihit 0x2, 0xFD
     changevar VAR_OP_SET, VAR_SUCCESSIVE_HIT, 0x1
-    gotosubscript 343
+    gotosubscript 366
     endscript
 
 .close

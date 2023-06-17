@@ -22,7 +22,7 @@ _0060:
     gotosubscript 292
     if IF_EQUAL, VAR_DEFENDER, 0xFF, _0084
 _007C:
-    gotosubscript 343
+    gotosubscript 366
 _0084:
     gotosubscript 259
     endscript

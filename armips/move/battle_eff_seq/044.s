@@ -9,10 +9,12 @@
 
 .create "build/move/battle_eff_seq/0_044", 0
 
+// Multi-strike moves that always hit twice
+
 a030_044:
     setmultihit 0x2, 0xFD
     changevar VAR_OP_SET, VAR_SUCCESSIVE_HIT, 0x1
-    gotosubscript 343
+    gotosubscript 366
     endscript
 
 .close

@@ -9,6 +9,8 @@
 
 .create "build/move/battle_eff_seq/0_151", 0
 
+// Solar Beam + Solar Blade
+
 a030_151:
     checkcloudnine _001C
     if IF_MASK, VAR_FIELD_EFFECT, 0x30, _0074
@@ -23,7 +25,7 @@ _006C:
 _0074:
     if IF_EQUAL, VAR_DEFENDER, 0xFF, _0090
 _0088:
-    gotosubscript 343
+    gotosubscript 366
 _0090:
     gotosubscript 259
     endscript

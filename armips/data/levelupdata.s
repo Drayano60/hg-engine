@@ -932,11 +932,12 @@ levelup SPECIES_VULPIX
     learnset MOVE_INCINERATE, 15
     learnset MOVE_CONFUSE_RAY, 18
     learnset MOVE_FIRE_SPIN, 21
-    learnset MOVE_IMPRISON, 24
-    learnset MOVE_WILL_O_WISP, 28
-    learnset MOVE_EXTRASENSORY, 32
+    learnset MOVE_HEX, 24
+    learnset MOVE_SAFEGUARD, 27
+    learnset MOVE_WILL_O_WISP, 30
+    learnset MOVE_EXTRASENSORY, 33
     learnset MOVE_FLAMETHROWER, 36
-    learnset MOVE_SAFEGUARD, 40
+    learnset MOVE_IMPRISON, 40
 
     .if TYPE_CHANGES_IMPLEMENTED
         learnset MOVE_MOONBLAST, 44
@@ -973,18 +974,10 @@ levelup SPECIES_VULPIX_ALOLAN
     learnset MOVE_SHEER_COLD, 60
     terminatelearnset
 
-// NEW: Dazzling Gleam, Moonblast
+// NEW: Moonblast
 levelup SPECIES_NINETALES
     learnset MOVE_MYSTICAL_FIRE, 1
-
-    .if TYPE_CHANGES_IMPLEMENTED
-        learnset MOVE_DAZZLING_GLEAM, 1
-    .else
-        learnset MOVE_MYSTICAL_FIRE, 1
-    .endif
-
     learnset MOVE_HYPNOSIS, 1
-    learnset MOVE_HEX, 1
     learnset MOVE_ROAR, 1
     learnset MOVE_EMBER, 1
     learnset MOVE_TAIL_WHIP, 1
@@ -994,10 +987,11 @@ levelup SPECIES_NINETALES
     learnset MOVE_SPITE, 12
     learnset MOVE_INCINERATE, 15
     learnset MOVE_CONFUSE_RAY, 18
-    learnset MOVE_SAFEGUARD, 21
-    learnset MOVE_FIRE_SPIN, 24
-    learnset MOVE_WILL_O_WISP, 28
-    learnset MOVE_EXTRASENSORY, 32
+    learnset MOVE_FIRE_SPIN, 21
+    learnset MOVE_HEX, 24
+    learnset MOVE_SAFEGUARD, 27
+    learnset MOVE_WILL_O_WISP, 30
+    learnset MOVE_EXTRASENSORY, 33
     learnset MOVE_FLAMETHROWER, 36
     learnset MOVE_IMPRISON, 40
 

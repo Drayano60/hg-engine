@@ -255,6 +255,7 @@ levelup SPECIES_KAKUNA
 
 // NEW: Cross Poison (HOME Datamine), Lunge
 levelup SPECIES_BEEDRILL
+    learnset MOVE_STRUGGLE_BUG, 1
     learnset MOVE_FURY_CUTTER, 1
     learnset MOVE_POISON_STING, 1 
     learnset MOVE_STRING_SHOT, 1 
@@ -503,6 +504,7 @@ levelup SPECIES_FEAROW
     learnset MOVE_SKY_ATTACK, 56
     terminatelearnset
 
+// NEW: Dragon Dance
 levelup SPECIES_EKANS
     learnset MOVE_WRAP, 1
     learnset MOVE_LEER, 1
@@ -522,10 +524,11 @@ levelup SPECIES_EKANS
     learnset MOVE_POISON_JAB, 38
     learnset MOVE_COIL, 42
     learnset MOVE_HAZE, 46
-    learnset MOVE_GUNK_SHOT, 50
+    learnset MOVE_DRAGON_DANCE, 50
+    learnset MOVE_GUNK_SHOT, 54
     terminatelearnset
 
-// NEW: Skitter Smack (HOME Datamine)
+// NEW: Skitter Smack (HOME Datamine), Dragon Dance
 levelup SPECIES_ARBOK
     learnset MOVE_SKITTER_SMACK, 1
     learnset MOVE_ICE_FANG, 1 
@@ -550,7 +553,8 @@ levelup SPECIES_ARBOK
     learnset MOVE_POISON_JAB, 38
     learnset MOVE_COIL, 42
     learnset MOVE_HAZE, 46
-    learnset MOVE_GUNK_SHOT, 50
+    learnset MOVE_DRAGON_DANCE, 50
+    learnset MOVE_GUNK_SHOT, 54
     terminatelearnset
 
 levelup SPECIES_PICHU
@@ -8858,10 +8862,11 @@ levelup SPECIES_ZANGOOSE
     learnset MOVE_TAUNT, 44
     learnset MOVE_SWORDS_DANCE, 48
     learnset MOVE_CLOSE_COMBAT, 52
-    learnset MOVE_FINAL_GAMBIT, 56
+    learnset MOVE_BELLY_DRUM, 56
+    learnset MOVE_FINAL_GAMBIT, 60
     terminatelearnset
 
-// NEW: Skitter Smack (HOME Datamine)
+// NEW: Skitter Smack (HOME Datamine), Dragon Dance
 levelup SPECIES_SEVIPER
     learnset MOVE_SKITTER_SMACK, 1
     learnset MOVE_SWAGGER, 1
@@ -8882,11 +8887,12 @@ levelup SPECIES_SEVIPER
     learnset MOVE_GASTRO_ACID, 28
     learnset MOVE_NIGHT_SLASH, 32
     learnset MOVE_POISON_JAB, 36
-    learnset MOVE_CRUNCH, 40
-    learnset MOVE_COIL, 44
-    learnset MOVE_WRING_OUT, 48
-    learnset MOVE_GUNK_SHOT, 52
-    learnset MOVE_FINAL_GAMBIT, 56
+    learnset MOVE_COIL, 40
+    learnset MOVE_CRUNCH, 44
+    learnset MOVE_DRAGON_DANCE, 48
+    learnset MOVE_WRING_OUT, 52
+    learnset MOVE_GUNK_SHOT, 56
+    learnset MOVE_FINAL_GAMBIT, 60
     terminatelearnset
 
 levelup SPECIES_LUNATONE

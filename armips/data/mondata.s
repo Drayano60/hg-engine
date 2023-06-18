@@ -175,12 +175,12 @@ mondata SPECIES_CHARMELEON, "Charmeleon"
     mondexweight SPECIES_CHARMELEON, "41.9 lbs."
 
 
-// STATS: 78 >> 79 HP | 84 >> 94 Atk | 78 >> 73 Def | 85 >> 80 SpDef | 534 >> 535 BST
+// STATS: 78 >> 79 HP | 84 >> 104 Atk | 78 >> 68 Def | 85 >> 75 SpDef | 534 >> 535 BST
 // TYPES: Fire/Flying >> Fire/Dragon
 // ABILITY: Tough Claws (2)
 mondata SPECIES_CHARIZARD, "Charizard"
     .if STAT_CHANGES_IMPLEMENTED
-        basestats 79, 94, 73, 100, 109, 80
+        basestats 79, 104, 68, 100, 109, 75
     .else
         basestats 78, 84, 78, 100, 109, 85
     .endif
@@ -1129,7 +1129,7 @@ mondata SPECIES_WIGGLYTUFF, "Wigglytuff"
     mondexweight SPECIES_WIGGLYTUFF, "26.5 lbs."
 
 
-// ABILITY: Sniper (2)
+// ABILITY: Infiltrator (2), Merciless (HA)
 mondata SPECIES_ZUBAT, "Zubat"
     basestats 40, 45, 35, 55, 30, 40
     types TYPE_POISON, TYPE_FLYING
@@ -1143,7 +1143,7 @@ mondata SPECIES_ZUBAT, "Zubat"
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FLYING, EGG_GROUP_FLYING
     .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_INNER_FOCUS, ABILITY_SNIPER
+        abilities ABILITY_INNER_FOCUS, ABILITY_INFILTRATOR
     .else
         abilities ABILITY_INNER_FOCUS, ABILITY_NONE
     .endif
@@ -1156,7 +1156,7 @@ mondata SPECIES_ZUBAT, "Zubat"
     mondexweight SPECIES_ZUBAT, "16.5 lbs."
 
 
-// ABILITY: Sniper (2)
+// ABILITY: Infiltrator (2), Merciless (HA)
 mondata SPECIES_GOLBAT, "Golbat"
     basestats 75, 80, 70, 90, 65, 75
     types TYPE_POISON, TYPE_FLYING
@@ -1170,7 +1170,7 @@ mondata SPECIES_GOLBAT, "Golbat"
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FLYING, EGG_GROUP_FLYING
     .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_INNER_FOCUS, ABILITY_SNIPER
+        abilities ABILITY_INNER_FOCUS, ABILITY_INFILTRATOR
     .else
         abilities ABILITY_INNER_FOCUS, ABILITY_NONE
     .endif
@@ -1865,8 +1865,13 @@ mondata SPECIES_WEEPINBELL, "Weepinbell"
     mondexweight SPECIES_WEEPINBELL, "14.1 lbs."
 
 
+// STATS: 105 >> 115 Atk | 65 >> 60 Def | 70 >> 65 SpDef
 mondata SPECIES_VICTREEBEL, "Victreebel"
-    basestats 80, 105, 65, 70, 100, 70
+    .if STAT_CHANGES_IMPLEMENTED
+        basestats 80, 115, 60, 70, 100, 65
+    .else
+        basestats 80, 105, 65, 70, 100, 70
+    .endif
     types TYPE_GRASS, TYPE_POISON
     catchrate 45
     baseexp 0 // defined in baseexp.s
@@ -4383,7 +4388,7 @@ mondata SPECIES_ARIADOS, "Ariados"
     mondexweight SPECIES_ARIADOS, "73.9 lbs."
 
 
-// ABILITY: Sniper (2)
+// ABILITY: Infiltrator (2), Merciless (HA)
 mondata SPECIES_CROBAT, "Crobat"
     basestats 85, 90, 80, 130, 70, 80
     types TYPE_POISON, TYPE_FLYING
@@ -4397,7 +4402,7 @@ mondata SPECIES_CROBAT, "Crobat"
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FLYING, EGG_GROUP_FLYING
     .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_INNER_FOCUS, ABILITY_SNIPER
+        abilities ABILITY_INNER_FOCUS, ABILITY_INFILTRATOR
     .else
         abilities ABILITY_INNER_FOCUS, ABILITY_NONE
     .endif
@@ -5815,9 +5820,14 @@ mondata SPECIES_REMORAID, "Remoraid"
     mondexweight SPECIES_REMORAID, "26.5 lbs."
 
 
+// STATS: 105 >> 115 Atk | 105 >> 115 SpAtk | 45 >> 25 Speed
 // ABILITY: Bombardier (2, New)
 mondata SPECIES_OCTILLERY, "Octillery"
-    basestats 75, 105, 75, 45, 105, 75
+    .if STAT_CHANGES_IMPLEMENTED
+        basestats 75, 115, 75, 25, 115, 75
+    .else
+        basestats 75, 105, 75, 45, 105, 75
+    .endif
     types TYPE_WATER, TYPE_WATER
     catchrate 75
     baseexp 0 // defined in baseexp.s
@@ -8819,6 +8829,7 @@ mondata SPECIES_ZANGOOSE, "Zangoose"
 
 
 // STATS: 100 >> 110 Atk | 100 >> 90 SpAtk | 65 >> 75 Speed | 458 >> 468 BST
+// TYPES: Poison >> Poison/Dark
 // ABILITY: Infiltrator (2), Sharpness (HA)
 mondata SPECIES_SEVIPER, "Seviper"
     .if STAT_CHANGES_IMPLEMENTED
@@ -8826,7 +8837,11 @@ mondata SPECIES_SEVIPER, "Seviper"
     .else
         basestats 73, 100, 60, 65, 100, 60
     .endif
-    types TYPE_POISON, TYPE_POISON
+    .if TYPE_CHANGES_IMPLEMENTED
+        types TYPE_POISON, TYPE_DARK
+    .else
+        types TYPE_POISON, TYPE_POISON
+    .endif
     catchrate 90
     baseexp 0 // defined in baseexp.s
     evyields 0, 1, 0, 0, 1, 0
@@ -9264,15 +9279,10 @@ mondata SPECIES_KECLEON, "Kecleon"
     mondexweight SPECIES_KECLEON, "48.5 lbs."
 
 
-// TYPES: Ghost >> Ghost/Normal
 // ABILITY: Cursed Body (2), Prankster (HA)
 mondata SPECIES_SHUPPET, "Shuppet"
     basestats 44, 75, 35, 45, 63, 33
-    .if TYPE_CHANGES_IMPLEMENTED
-        types TYPE_GHOST, TYPE_NORMAL
-    .else
-        types TYPE_GHOST, TYPE_GHOST
-    .endif
+    types TYPE_GHOST, TYPE_GHOST
     catchrate 225
     baseexp 0 // defined in baseexp.s
     evyields 0, 1, 0, 0, 0, 0
@@ -9584,8 +9594,13 @@ mondata SPECIES_SEALEO, "Sealeo"
     mondexweight SPECIES_SEALEO, "193.1 lbs."
 
 
+// STATS: 80 >> 90 Atk | 530 >> 540 BST
 mondata SPECIES_WALREIN, "Walrein"
-    basestats 110, 80, 90, 65, 95, 90
+    .if STAT_CHANGES_IMPLEMENTED
+        basestats 110, 90, 90, 65, 95, 90
+    .else
+        basestats 110, 80, 90, 65, 95, 90
+    .endif
     types TYPE_ICE, TYPE_WATER
     catchrate 45
     baseexp 0 // defined in baseexp.s

@@ -8610,7 +8610,7 @@ movedata MOVE_POLLEN_PUFF, "Pollen Puff"
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_PROTECT | FLAG_MIRROR_MOVE
-    appeal 0
+    appeal FLAG_BALL
     contesttype 0
     terminatedata
     movedescription MOVE_POLLEN_PUFF, "The user attacks the\nfoe with a pollen puff\nthat explodes. When\ntargeting an ally, it\nheals the ally’s HP."

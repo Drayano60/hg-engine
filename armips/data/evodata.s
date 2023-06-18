@@ -12312,7 +12312,8 @@ evodata SPECIES_GEODUDE_ALOLAN
 terminateevodata
 
 evodata SPECIES_GRAVELER_ALOLAN
-    evolution EVO_TRADE, 0, SPECIES_GOLEM
+    // evolution EVO_TRADE, 0, SPECIES_GOLEM
+    evolution EVO_USE_ITEM, ITEM_LINKING_CORD, SPECIES_GOLEM
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE

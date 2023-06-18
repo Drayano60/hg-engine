@@ -797,11 +797,11 @@ mondata SPECIES_SANDSHREW, "Sandshrew"
     mondexweight SPECIES_SANDSHREW, "26.5 lbs."
 
 
-// STATS: 110 >> 120 Def | 450 >> 460 BST
+// STATS: 110 >> 120 Def | 45 >> 35 SpAtk | 65 >> 75 Speed | 450 >> 460 BST
 // ABILITY: Tough Claws (2)
 mondata SPECIES_SANDSLASH, "Sandslash"
     .if STAT_CHANGES_IMPLEMENTED
-        basestats 75, 100, 120, 65, 45, 55
+        basestats 75, 100, 120, 75, 35, 55
     .else
         basestats 75, 100, 110, 65, 45, 55
     .endif
@@ -24262,8 +24262,13 @@ mondata SPECIES_RATTATA_ALOLAN, "-----"
     tmdata SPECIES_NONE_TM_DATA_0, SPECIES_NONE_TM_DATA_1, SPECIES_NONE_TM_DATA_2, SPECIES_NONE_TM_DATA_3
 
 
+// STATS: 75 >> 85 HP | 71 >> 81 Atk | 413 >> 433 BST
 mondata SPECIES_RATICATE_ALOLAN, "-----"
-    basestats 75, 71, 70, 77, 40, 80
+    .if STAT_CHANGES_IMPLEMENTED
+        basestats 85, 81, 70, 77, 40, 80
+    .else
+        basestats 75, 71, 70, 77, 40, 80
+    .endif
     types TYPE_DARK, TYPE_NORMAL
     catchrate 127
     baseexp 145
@@ -24280,8 +24285,14 @@ mondata SPECIES_RATICATE_ALOLAN, "-----"
     tmdata SPECIES_NONE_TM_DATA_0, SPECIES_NONE_TM_DATA_1, SPECIES_NONE_TM_DATA_2, SPECIES_NONE_TM_DATA_3
 
 
+// STATS: 110 >> 120 Speed | 485 >> 495 BST
+// ABILITY: Levitate (1, 2, HA) -- Surge Surfer replaced with Static/Lightning Rod
 mondata SPECIES_RAICHU_ALOLAN, "-----"
-    basestats 60, 85, 50, 110, 95, 85
+    .if STAT_CHANGES_IMPLEMENTED
+        basestats 60, 85, 50, 120, 95, 85
+    .else
+        basestats 60, 85, 50, 110, 95, 85
+    .endif
     types TYPE_ELECTRIC, TYPE_PSYCHIC
     catchrate 75
     baseexp 218
@@ -24292,12 +24303,17 @@ mondata SPECIES_RAICHU_ALOLAN, "-----"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FAIRY
-    abilities ABILITY_SURGE_SURFER, ABILITY_NONE
+    .if ABILITY_CHANGES_IMPLEMENTED
+        abilities ABILITY_LEVITATE, ABILITY_NONE
+    .else
+        abilities ABILITY_STATIC, ABILITY_NONE
+    .endif
     runchance 25
     colorflip BODY_COLOR_BROWN, 0
     tmdata SPECIES_NONE_TM_DATA_0, SPECIES_NONE_TM_DATA_1, SPECIES_NONE_TM_DATA_2, SPECIES_NONE_TM_DATA_3
 
 
+// ABILITY: Tough Claws (2)
 mondata SPECIES_SANDSHREW_ALOLAN, "-----"
     basestats 50, 75, 90, 40, 10, 35
     types TYPE_ICE, TYPE_STEEL
@@ -24310,14 +24326,24 @@ mondata SPECIES_SANDSHREW_ALOLAN, "-----"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_SNOW_CLOAK,  ABILITY_NONE
+    .if ABILITY_CHANGES_IMPLEMENTED
+        abilities ABILITY_SNOW_CLOAK, ABILITY_TOUGH_CLAWS
+    .else
+        abilities ABILITY_SNOW_CLOAK, ABILITY_NONE
+    .endif
     runchance 25
     colorflip BODY_COLOR_BLUE, 0
     tmdata SPECIES_NONE_TM_DATA_0, SPECIES_NONE_TM_DATA_1, SPECIES_NONE_TM_DATA_2, SPECIES_NONE_TM_DATA_3
 
 
+// STATS: 65 >> 75 SpDef | 450 >> 460 BST
+// ABILITY: Tough Claws (2)
 mondata SPECIES_SANDSLASH_ALOLAN, "-----"
-    basestats 75, 100, 120, 65, 25, 65
+    .if STAT_CHANGES_IMPLEMENTED
+        basestats 75, 100, 120, 65, 25, 75
+    .else
+        basestats 75, 100, 120, 65, 25, 65
+    .endif
     types TYPE_ICE, TYPE_STEEL
     catchrate 90
     baseexp 158
@@ -24328,12 +24354,17 @@ mondata SPECIES_SANDSLASH_ALOLAN, "-----"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_SNOW_CLOAK,  ABILITY_NONE
+    .if ABILITY_CHANGES_IMPLEMENTED
+        abilities ABILITY_SNOW_CLOAK, ABILITY_TOUGH_CLAWS
+    .else
+        abilities ABILITY_SNOW_CLOAK, ABILITY_NONE
+    .endif
     runchance 25
     colorflip BODY_COLOR_BLUE, 0
     tmdata SPECIES_NONE_TM_DATA_0, SPECIES_NONE_TM_DATA_1, SPECIES_NONE_TM_DATA_2, SPECIES_NONE_TM_DATA_3
 
 
+// ABILITY: Cute Charm (2), Run Away (HA)
 mondata SPECIES_VULPIX_ALOLAN, "-----"
     basestats 38, 41, 40, 65, 50, 65
     types TYPE_ICE, TYPE_ICE
@@ -24346,12 +24377,17 @@ mondata SPECIES_VULPIX_ALOLAN, "-----"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_SNOW_CLOAK,  ABILITY_NONE
+    .if ABILITY_CHANGES_IMPLEMENTED
+        abilities ABILITY_SNOW_CLOAK, ABILITY_CUTE_CHARM
+    .else
+        abilities ABILITY_SNOW_CLOAK, ABILITY_NONE
+    .endif
     runchance 25
     colorflip BODY_COLOR_BLUE, 0
     tmdata SPECIES_NONE_TM_DATA_0, SPECIES_NONE_TM_DATA_1, SPECIES_NONE_TM_DATA_2, SPECIES_NONE_TM_DATA_3
 
 
+// ABILITY: Cursed Body (2)
 mondata SPECIES_NINETALES_ALOLAN, "-----"
     basestats 73, 67, 75, 109, 81, 100
     types TYPE_ICE, TYPE_FAIRY
@@ -24364,7 +24400,11 @@ mondata SPECIES_NINETALES_ALOLAN, "-----"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_SNOW_CLOAK,  ABILITY_NONE
+    .if ABILITY_CHANGES_IMPLEMENTED
+        abilities ABILITY_SNOW_CLOAK, ABILITY_CURSED_BODY
+    .else
+        abilities ABILITY_SNOW_CLOAK, ABILITY_NONE
+    .endif
     runchance 25
     colorflip BODY_COLOR_BLUE, 0
     tmdata SPECIES_NONE_TM_DATA_0, SPECIES_NONE_TM_DATA_1, SPECIES_NONE_TM_DATA_2, SPECIES_NONE_TM_DATA_3
@@ -24382,14 +24422,19 @@ mondata SPECIES_DIGLETT_ALOLAN, "-----"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_SAND_VEIL,  ABILITY_TANGLING_HAIR
+    abilities ABILITY_SAND_VEIL, ABILITY_TANGLING_HAIR
     runchance 25
     colorflip BODY_COLOR_BROWN, 0
     tmdata SPECIES_NONE_TM_DATA_0, SPECIES_NONE_TM_DATA_1, SPECIES_NONE_TM_DATA_2, SPECIES_NONE_TM_DATA_3
 
 
+// STATS: 35 >> 55 HP | 70 >> 75 SpDef | 425 >> 450 BST
 mondata SPECIES_DUGTRIO_ALOLAN, "-----"
-    basestats 35, 100, 60, 110, 50, 70
+    .if STAT_CHANGES_IMPLEMENTED
+        basestats 55, 100, 60, 110, 50, 75
+    .else
+        basestats 35, 100, 60, 110, 50, 70
+    .endif
     types TYPE_GROUND, TYPE_STEEL
     catchrate 50
     baseexp 149
@@ -24400,12 +24445,13 @@ mondata SPECIES_DUGTRIO_ALOLAN, "-----"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_SAND_VEIL,  ABILITY_TANGLING_HAIR
+    abilities ABILITY_SAND_VEIL, ABILITY_TANGLING_HAIR
     runchance 25
     colorflip BODY_COLOR_BROWN, 1
     tmdata SPECIES_NONE_TM_DATA_0, SPECIES_NONE_TM_DATA_1, SPECIES_NONE_TM_DATA_2, SPECIES_NONE_TM_DATA_3
 
 
+// ABILITY: Super Luck (HA)
 mondata SPECIES_MEOWTH_ALOLAN, "-----"
     basestats 40, 35, 35, 90, 50, 40
     types TYPE_DARK, TYPE_DARK
@@ -24418,14 +24464,20 @@ mondata SPECIES_MEOWTH_ALOLAN, "-----"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_PICKUP,  ABILITY_TECHNICIAN
+    abilities ABILITY_PICKUP, ABILITY_TECHNICIAN
     runchance 25
     colorflip BODY_COLOR_GRAY, 0
     tmdata SPECIES_NONE_TM_DATA_0, SPECIES_NONE_TM_DATA_1, SPECIES_NONE_TM_DATA_2, SPECIES_NONE_TM_DATA_3
 
 
+// STATS: 60 >> 70 Atk | 75 >> 85 SpAtk | 440 >> 460 BST
+// ABILITY: Super Luck (HA)
 mondata SPECIES_PERSIAN_ALOLAN, "-----"
-    basestats 65, 60, 60, 115, 75, 65
+    .if STAT_CHANGES_IMPLEMENTED
+        basestats 65, 70, 60, 115, 85, 65
+    .else
+        basestats 65, 60, 60, 115, 75, 65
+    .endif
     types TYPE_DARK, TYPE_DARK
     catchrate 90
     baseexp 154
@@ -24436,12 +24488,13 @@ mondata SPECIES_PERSIAN_ALOLAN, "-----"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_FUR_COAT,  ABILITY_TECHNICIAN
+    abilities ABILITY_FUR_COAT, ABILITY_TECHNICIAN
     runchance 25
     colorflip BODY_COLOR_GRAY, 0
     tmdata SPECIES_NONE_TM_DATA_0, SPECIES_NONE_TM_DATA_1, SPECIES_NONE_TM_DATA_2, SPECIES_NONE_TM_DATA_3
 
 
+// ABILITY: Rock Head (1)
 mondata SPECIES_GEODUDE_ALOLAN, "-----"
     basestats 40, 80, 100, 20, 30, 30
     types TYPE_ROCK, TYPE_ELECTRIC
@@ -24454,12 +24507,17 @@ mondata SPECIES_GEODUDE_ALOLAN, "-----"
     basefriendship 70
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_MINERAL, EGG_GROUP_MINERAL
-    abilities ABILITY_MAGNET_PULL,  ABILITY_STURDY
+    .if ABILITY_CHANGES_IMPLEMENTED
+        abilities ABILITY_ROCK_HEAD, ABILITY_STURDY
+    .else
+        abilities ABILITY_MAGNET_PULL, ABILITY_STURDY
+    .endif
     runchance 25
     colorflip BODY_COLOR_BROWN, 0
     tmdata SPECIES_NONE_TM_DATA_0, SPECIES_NONE_TM_DATA_1, SPECIES_NONE_TM_DATA_2, SPECIES_NONE_TM_DATA_3
 
 
+// ABILITY: Rock Head (1)
 mondata SPECIES_GRAVELER_ALOLAN, "-----"
     basestats 55, 95, 115, 35, 45, 45
     types TYPE_ROCK, TYPE_ELECTRIC
@@ -24472,14 +24530,24 @@ mondata SPECIES_GRAVELER_ALOLAN, "-----"
     basefriendship 70
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_MINERAL, EGG_GROUP_MINERAL
-    abilities ABILITY_MAGNET_PULL,  ABILITY_STURDY
+    .if ABILITY_CHANGES_IMPLEMENTED
+        abilities ABILITY_ROCK_HEAD, ABILITY_STURDY
+    .else
+        abilities ABILITY_MAGNET_PULL, ABILITY_STURDY
+    .endif
     runchance 25
     colorflip BODY_COLOR_BROWN, 0
     tmdata SPECIES_NONE_TM_DATA_0, SPECIES_NONE_TM_DATA_1, SPECIES_NONE_TM_DATA_2, SPECIES_NONE_TM_DATA_3
 
 
+// STATS: 65 >> 75 SpDef | 495 >> 505 BST
+// ABILITY: Rock Head (1)
 mondata SPECIES_GOLEM_ALOLAN, "-----"
-    basestats 80, 120, 130, 45, 55, 65
+    .if STAT_CHANGES_IMPLEMENTED
+        basestats 80, 120, 130, 45, 55, 75
+    .else
+        basestats 80, 120, 130, 45, 55, 65
+    .endif
     types TYPE_ROCK, TYPE_ELECTRIC
     catchrate 45
     baseexp 223
@@ -24490,12 +24558,17 @@ mondata SPECIES_GOLEM_ALOLAN, "-----"
     basefriendship 70
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_MINERAL, EGG_GROUP_MINERAL
-    abilities ABILITY_MAGNET_PULL,  ABILITY_STURDY
+    .if ABILITY_CHANGES_IMPLEMENTED
+        abilities ABILITY_ROCK_HEAD, ABILITY_STURDY
+    .else
+        abilities ABILITY_MAGNET_PULL, ABILITY_STURDY
+    .endif
     runchance 25
     colorflip BODY_COLOR_BROWN, 0
     tmdata SPECIES_NONE_TM_DATA_0, SPECIES_NONE_TM_DATA_1, SPECIES_NONE_TM_DATA_2, SPECIES_NONE_TM_DATA_3
 
 
+// ABILITY: Gooey (HA) -- No HA if abilities removed, no Power of Alchemy
 mondata SPECIES_GRIMER_ALOLAN, "-----"
     basestats 80, 80, 50, 25, 40, 50
     types TYPE_POISON, TYPE_DARK
@@ -24514,6 +24587,7 @@ mondata SPECIES_GRIMER_ALOLAN, "-----"
     tmdata SPECIES_NONE_TM_DATA_0, SPECIES_NONE_TM_DATA_1, SPECIES_NONE_TM_DATA_2, SPECIES_NONE_TM_DATA_3
 
 
+// ABILITY: Gooey (HA) -- No HA if abilities removed, no Power of Alchemy
 mondata SPECIES_MUK_ALOLAN, "-----"
     basestats 105, 105, 75, 50, 65, 100
     types TYPE_POISON, TYPE_DARK
@@ -24532,6 +24606,7 @@ mondata SPECIES_MUK_ALOLAN, "-----"
     tmdata SPECIES_NONE_TM_DATA_0, SPECIES_NONE_TM_DATA_1, SPECIES_NONE_TM_DATA_2, SPECIES_NONE_TM_DATA_3
 
 
+// ABILITY: Solar Power (2)
 mondata SPECIES_EXEGGUTOR_ALOLAN, "-----"
     basestats 95, 105, 85, 45, 125, 75
     types TYPE_GRASS, TYPE_DRAGON
@@ -24544,7 +24619,11 @@ mondata SPECIES_EXEGGUTOR_ALOLAN, "-----"
     basefriendship 70
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_GRASS, EGG_GROUP_GRASS
-    abilities ABILITY_FRISK,  ABILITY_NONE
+    .if ABILITY_CHANGES_IMPLEMENTED
+        abilities ABILITY_FRISK, ABILITY_SOLAR_POWER
+    .else
+        abilities ABILITY_FRISK, ABILITY_NONE
+    .endif
     runchance 25
     colorflip BODY_COLOR_YELLOW, 0
     tmdata SPECIES_NONE_TM_DATA_0, SPECIES_NONE_TM_DATA_1, SPECIES_NONE_TM_DATA_2, SPECIES_NONE_TM_DATA_3

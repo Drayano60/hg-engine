@@ -13587,6 +13587,7 @@ levelup SPECIES_DARMANITAN
     terminatelearnset
 
 levelup SPECIES_DARMANITAN_ZEN_MODE
+    learnset MOVE_EMBER, 1
     learnset MOVE_TACKLE, 1
     learnset MOVE_TAUNT, 1
     learnset MOVE_RAGE, 4

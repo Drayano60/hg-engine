@@ -8626,8 +8626,8 @@ levelup SPECIES_SPOINK
     learnset MOVE_ODOR_SLEUTH, 16
     learnset MOVE_CONFUSE_RAY, 20
     learnset MOVE_EXTRASENSORY, 24
-    learnset MOVE_MAGIC_COAT, 28
-    learnset MOVE_POWER_GEM, 35
+    learnset MOVE_POWER_GEM, 28
+    learnset MOVE_MAGIC_COAT, 35
     learnset MOVE_PSYCHIC, 40
     learnset MOVE_REST, 45
     learnset MOVE_SNORE, 45
@@ -8651,9 +8651,9 @@ levelup SPECIES_GRUMPIG
     learnset MOVE_ODOR_SLEUTH, 16
     learnset MOVE_CONFUSE_RAY, 20
     learnset MOVE_EXTRASENSORY, 24
-    learnset MOVE_MAGIC_COAT, 28
+    learnset MOVE_POWER_GEM, 28
     learnset MOVE_TEETER_DANCE, 32
-    learnset MOVE_POWER_GEM, 35
+    learnset MOVE_MAGIC_COAT, 35
     learnset MOVE_PSYCHIC, 40
     learnset MOVE_REST, 45
     learnset MOVE_SNORE, 45

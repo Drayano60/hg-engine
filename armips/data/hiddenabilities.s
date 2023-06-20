@@ -242,7 +242,7 @@
 /* SPECIES_STANTLER                    */ .halfword ABILITY_SAP_SIPPER
 /* SPECIES_SMEARGLE                    */ .halfword ABILITY_MOODY
 /* SPECIES_TYROGUE                     */ .halfword ABILITY_VITAL_SPIRIT
-/* SPECIES_HITMONTOP                   */ .halfword ABILITY_STEADFAST
+/* SPECIES_HITMONTOP                   */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_CONTRARY : ABILITY_STEADFAST
 /* SPECIES_SMOOCHUM                    */ .halfword ABILITY_HYDRATION
 /* SPECIES_ELEKID                      */ .halfword ABILITY_VITAL_SPIRIT
 /* SPECIES_MAGBY                       */ .halfword ABILITY_VITAL_SPIRIT

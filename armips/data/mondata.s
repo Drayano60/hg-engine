@@ -7844,11 +7844,11 @@ mondata SPECIES_DELCATTY, "Delcatty"
     mondexweight SPECIES_DELCATTY, "71.9 lbs."
 
 
-// STATS: 75 >> 85 Atk | 75 >> 85 Def | 65 >> 85 SpAtk | 65 >> 85 SpDef | 380 >> 440 BST
+// STATS: 75 >> 85 Atk | 75 >> 85 Def | 65 >> 75 SpAtk | 65 >> 75 SpDef | 50 >> 30 Speed | 380 >> 400 BST
 // ABILITY: Tough Claws (2)
 mondata SPECIES_SABLEYE, "Sableye"
     .if STAT_CHANGES_IMPLEMENTED
-        basestats 50, 85, 85, 50, 85, 85
+        basestats 50, 85, 85, 30, 75, 75
     .else
         basestats 50, 75, 75, 50, 65, 65
     .endif
@@ -7876,11 +7876,11 @@ mondata SPECIES_SABLEYE, "Sableye"
     mondexweight SPECIES_SABLEYE, "24.3 lbs."
 
 
-// STATS: 85 >> 105 Atk | 85 >> 105 Def | 55 >> 75 SpDef | 380 >> 440 BST
+// STATS: 85 >> 95 Atk | 85 >> 95 Def | 55 >> 75 SpDef | 50 >> 30 Speed | 380 >> 400 BST
 // ABILITY: Strong Jaw (1)
 mondata SPECIES_MAWILE, "Mawile"
     .if STAT_CHANGES_IMPLEMENTED
-        basestats 50, 105, 105, 50, 55, 75
+        basestats 50, 95, 95, 30, 55, 75
     .else
         basestats 50, 85, 85, 50, 55, 55
     .endif
@@ -23734,10 +23734,10 @@ mondata SPECIES_MEGA_GARDEVOIR, "-----"
     tmdata SPECIES_NONE_TM_DATA_0, SPECIES_NONE_TM_DATA_1, SPECIES_NONE_TM_DATA_2, SPECIES_NONE_TM_DATA_3
 
 
-// STATS: 85 >> 95 Atk | 125 >> 145 Def | 85 >> 95 SpAtk | 115 >> 135 SpDef | 480 >> 540 BST
+// STATS: 125 >> 135 Def | 115 >> 125 SpDef | 480 >> 500 BST
 mondata SPECIES_MEGA_SABLEYE, "-----"
     .if STAT_CHANGES_IMPLEMENTED
-        basestats 50, 95, 145, 20, 95, 135
+        basestats 50, 85, 135, 20, 85, 125
     .else
         basestats 50, 85, 125, 20, 85, 115
     .endif
@@ -23757,10 +23757,12 @@ mondata SPECIES_MEGA_SABLEYE, "-----"
     tmdata SPECIES_NONE_TM_DATA_0, SPECIES_NONE_TM_DATA_1, SPECIES_NONE_TM_DATA_2, SPECIES_NONE_TM_DATA_3
 
 
-// ugh
-// STATS: 125 >> 145 Def | 55 >> 75 SpAtk | 95 >> 115 SpDef | 480 >> 540 BST
+// STATS: 55 >> 75 SpAtk | 480 >> 500 BST
 mondata SPECIES_MEGA_MAWILE, "-----"
-    basestats 50, 105, 125, 50, 55, 95
+        basestats 50, 105, 125, 50, 75, 95
+    .else
+        basestats 50, 105, 125, 50, 55, 95
+    .endif
     types TYPE_STEEL, TYPE_FAIRY
     catchrate 45
     baseexp 98

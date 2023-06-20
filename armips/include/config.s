@@ -35,7 +35,7 @@ ALWAYS_UNCAPPED_FRAME_RATE equ 0
 BATTLES_UNCAPPED_FRAME_RATE equ 1
 
 // FAST_TEXT_PRINTING will make the text print quickly, almost instantly
-FAST_TEXT_PRINTING equ 0
+FAST_TEXT_PRINTING equ 1
 
 // Custom configs for Aurora Crystal to toggle non-canon stuff
 STAT_CHANGES_IMPLEMENTED equ 1

@@ -204,3 +204,4 @@ Odd steps foul a foe’s aim,\nreducing accuracy by 10%.
 Contact has a 30% chance\nof badly poisoning the foe.
 Powers up wind-based\nmoves by 50%.
 Powers up its own and its\nally’s sound moves by 50%.
+Damaging moves hit twice.\nSecond hit is 25% damage.

@@ -9,10 +9,12 @@
 
 .create "build/move/battle_eff_seq/0_029", 0
 
+// Standard 2-5 hits multi-hit
+
 a030_029:
     setmultihit 0x0, 0xFD
     changevar VAR_OP_SET, VAR_SUCCESSIVE_HIT, 0x1
-    gotosubscript 343
+    gotosubscript 366
     endscript
 
 .close

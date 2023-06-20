@@ -231,6 +231,8 @@ ST_ServerQueCheck = 0x0224ED48 | 1;
 SCIO_StatusEffectSet = 0x02263848 | 1;
 SCIO_LevelUpEffectSet = 0x0226399C | 1;
 BattleWorkPlaceIDGet = 0x0223AB60 | 1;
+HeldItemEffectCheck = 0x0225471C | 1;
+HeldItemHealStatusCheck = 0x02254E7C | 1;
 
 /*Battle Script Functions*/
 IncrementBattleScriptPtr = 0x02245508 | 1;
@@ -410,3 +412,22 @@ GX_EngineAToggleLayers = 0x02022C60 | 1;
 WeatherBGAlphaDef = 0x021EB818 | 1;
 WeatherMoveReq = 0x021EB830 | 1;
 WeatherMoveMain = 0x021EB840 | 1;
+
+SetEncountData = 0x02247B64 | 1;
+SetEncountDataSwarm_maybe = 0x02247DA0 | 1;
+
+gSafariBallRateTable = 0x0226C3CE;
+BattleWorkGroundIDGet = 0x0223AB40 | 1;
+Battle_CheckIfHasCaughtMon = 0x0223C330 | 1;
+Battle_GetTimeOfDay = 0x0223B520 | 1;
+Battle_IsFishingEncounter = 0x0223AAB8 | 1;
+GetCaughtMonCount = 0x02029E84 | 1;
+BallToSpaIDs = 0x0223746C;
+GetBallID_ov7 = 0x0223251C | 1;
+
+TypeEffectivenessTable = 0x0226CC3C;
+TypeCheckCalc = 0x022583B4 | 1;
+ShouldDelayTurnEffectivenessChecking = 0x02258440 | 1;
+ShouldUseNormalTypeEffCalc = 0x02251C74 | 1;
+AI_TypeCheckCalc = 0x022521C8 | 1;
+AI_ShouldUseNormalTypeEffCalc = 0x02252178 | 1;

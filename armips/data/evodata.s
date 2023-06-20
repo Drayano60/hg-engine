@@ -12168,7 +12168,7 @@ evodata SPECIES_GROUDON_PRIMAL
 terminateevodata
 
 evodata SPECIES_RATTATA_ALOLAN
-    evolution EVO_LEVEL_UP, 20, SPECIES_RATICATE
+    evolutionwithform EVO_LEVEL_UP, 20, SPECIES_RATICATE, 1
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -12204,7 +12204,7 @@ evodata SPECIES_RAICHU_ALOLAN
 terminateevodata
 
 evodata SPECIES_SANDSHREW_ALOLAN
-    evolution EVO_LEVEL_ICY_STONE, 0, SPECIES_SANDSLASH
+    evolutionwithform EVO_USE_ITEM, ITEM_ICE_STONE, SPECIES_SANDSLASH, 1
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -12228,7 +12228,7 @@ evodata SPECIES_SANDSLASH_ALOLAN
 terminateevodata
 
 evodata SPECIES_VULPIX_ALOLAN
-    evolution EVO_LEVEL_ICY_STONE, 0, SPECIES_NINETALES
+    evolutionwithform EVO_USE_ITEM, ITEM_ICE_STONE, SPECIES_NINETALES, 1
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -12252,7 +12252,7 @@ evodata SPECIES_NINETALES_ALOLAN
 terminateevodata
 
 evodata SPECIES_DIGLETT_ALOLAN
-    evolution EVO_LEVEL_UP, 26, SPECIES_DUGTRIO
+    evolutionwithform EVO_LEVEL_UP, 26, SPECIES_DUGTRIO, 1
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -12276,7 +12276,7 @@ evodata SPECIES_DUGTRIO_ALOLAN
 terminateevodata
 
 evodata SPECIES_MEOWTH_ALOLAN
-    evolution EVO_HAPPINESS, 28, SPECIES_PERSIAN
+    evolutionwithform EVO_HAPPINESS, 0, SPECIES_PERSIAN, 1
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -12300,7 +12300,7 @@ evodata SPECIES_PERSIAN_ALOLAN
 terminateevodata
 
 evodata SPECIES_GEODUDE_ALOLAN
-    evolution EVO_LEVEL_UP, 25, SPECIES_GRAVELER
+    evolutionwithform EVO_LEVEL_UP, 25, SPECIES_GRAVELER, 1
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -12312,7 +12312,8 @@ evodata SPECIES_GEODUDE_ALOLAN
 terminateevodata
 
 evodata SPECIES_GRAVELER_ALOLAN
-    evolution EVO_TRADE, 0, SPECIES_GOLEM
+    // evolution EVO_TRADE, 0, SPECIES_GOLEM
+    evolutionwithform EVO_USE_ITEM, ITEM_LINKING_CORD, SPECIES_GOLEM, 1
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -12336,7 +12337,8 @@ evodata SPECIES_GOLEM_ALOLAN
 terminateevodata
 
 evodata SPECIES_GRIMER_ALOLAN
-    evolution EVO_LEVEL_UP, 38, SPECIES_MUK
+    // evolutionwithform EVO_LEVEL_UP, 38, SPECIES_MUK, 1
+    evolutionwithform EVO_LEVEL_UP, 35, SPECIES_MUK, 1
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE

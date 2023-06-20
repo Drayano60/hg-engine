@@ -9,6 +9,8 @@
 
 .create "build/move/battle_eff_seq/0_145", 0
 
+// Skull Bash
+
 a030_145:
     ifmonstat IF_MASK, BATTLER_ATTACKER, MON_DATA_STATUS_2, 0x1000, _007C
     checkitemeffect 0x0, BATTLER_ATTACKER, 0x63, _0060
@@ -20,7 +22,7 @@ _0060:
     gotosubscript 292
     if IF_EQUAL, VAR_DEFENDER, 0xFF, _0084
 _007C:
-    gotosubscript 343
+    gotosubscript 366
 _0084:
     gotosubscript 259
     endscript

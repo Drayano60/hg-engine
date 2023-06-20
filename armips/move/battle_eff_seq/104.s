@@ -9,11 +9,13 @@
 
 .create "build/move/battle_eff_seq/0_104", 0
 
+// Triple Kick
+
 a030_104:
     setmultihit 0x3, 0xDD
     changevar VAR_OP_SET, VAR_SUCCESSIVE_HIT, 0x1
     changevar VAR_OP_ADD, VAR_ABILITY_TEMP, 10
-    gotosubscript 343
+    gotosubscript 366
     endscript
 
 .close

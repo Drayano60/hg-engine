@@ -579,7 +579,7 @@ void CT_SwitchInMessageParamMake(void *bw, struct CLIENT_PARAM *cp, struct SWITC
     }
 }
 
-// seriously FUCK illusion
+
 void CT_EncountSendOutMessageParamMake(void *bw, struct CLIENT_PARAM *cp, struct ENCOUNT_SEND_OUT_MESSAGE_PARAM *esomp, MESSAGE_PARAM *mp)
 {
     u32 fight_type;
@@ -601,22 +601,22 @@ void CT_EncountSendOutMessageParamMake(void *bw, struct CLIENT_PARAM *cp, struct
             client2 = client1;
         }
 
-        { // fuck fuck fuck fuck
+        {
             struct POKEPARTY *party;
             u32 count = 0;
             u32 species = 0;
 
             party = BattleWorkPokePartyGet(bw, client1);
 
-            species = GetMonData(PokeParty_GetMemberPointer(party, esomp->sel_mons_no[client1]), ID_PARA_monsno, NULL); // WHY HAS GOD ABANDONED US
-            if (species == SPECIES_ZORUA || species == SPECIES_ZOROARK) // this check is fuckin failing.  i don't know what to do
+            species = GetMonData(PokeParty_GetMemberPointer(party, esomp->sel_mons_no[client1]), ID_PARA_monsno, NULL);
+            if (species == SPECIES_ZORUA || species == SPECIES_ZOROARK)
             {
                 esomp->sel_mons_no[client1] = party->PokeCount - 1;
             }
         }
 
         if (client1 != client2)
-        { // why has god abandoned us
+        {
             struct POKEPARTY *party;
             u32 count = 0;
             u32 species = 0;
@@ -704,7 +704,7 @@ void CT_EncountSendOutMessageParamMake(void *bw, struct CLIENT_PARAM *cp, struct
     }
     else
     {
-        if (fight_type & BATTLE_TYPE_WIRELESS) // fuck wireless battles
+        if (fight_type & BATTLE_TYPE_WIRELESS)
         {
             u8 sio_id = BattleWorkCommIDGet(bw);
 
@@ -751,7 +751,7 @@ void CT_EncountSendOutMessageParamMake(void *bw, struct CLIENT_PARAM *cp, struct
             client2 = client1;
         }
 
-        { // FUCK FUCK FUCK FUCK
+        {
             struct POKEPARTY *party;
             u32 count = 0;
             u32 species = 0;
@@ -932,4 +932,50 @@ void ClearBattleMonFlags(struct BattleStruct *sp, int client)
     sp->battlemon[client].text_on_ability_entry_flag = 0;
     sp->battlemon[client].text_on_item_entry_flag = 0;
     sp->battlemon[client].echoed_voice_count = 0;
+}
+
+
+// needed for the AI.  doesn't have client access, just move ability type
+u32 GetAdjustedMoveTypeBasics(struct BattleStruct *sp, u32 move, u32 ability, u32 type)
+{
+    u32 typeLocal;
+
+    if (ability == ABILITY_NORMALIZE)
+    {
+        typeLocal = TYPE_NORMAL;
+    }
+    else if (sp->moveTbl[move].type == TYPE_NORMAL)
+    {
+        if (ability == ABILITY_PIXILATE)
+        {
+            typeLocal = TYPE_FAIRY;
+        }
+        else if (ability == ABILITY_REFRIGERATE)
+        {
+            typeLocal = TYPE_ICE;
+        }
+        else if (ability == ABILITY_AERILATE)
+        {
+            typeLocal = TYPE_FLYING;
+        }
+        else if (ability == ABILITY_GALVANIZE)
+        {
+            typeLocal = TYPE_ELECTRIC;
+        }
+    }
+    else if (type)
+    {
+        typeLocal = type;
+    }
+    else
+    {
+        typeLocal = sp->moveTbl[move].type;
+    }
+
+    return typeLocal;
+}
+
+u32 GetAdjustedMoveType(struct BattleStruct *sp, u32 client, u32 move)
+{
+    return GetAdjustedMoveTypeBasics(sp, move, GetBattlerAbility(sp, client), sp->move_type);
 }

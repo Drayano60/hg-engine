@@ -77,6 +77,85 @@ static const u16 RecklessMoveEffectsTable[] = {
     MOVE_EFFECT_ONE_HALF_RECOIL,
 };
 
+/* I've used the appeal field as extra move flags so these aren't needed
+static const u16 IronFistMovesTable[] = {
+    MOVE_ICE_PUNCH,
+    MOVE_FIRE_PUNCH,
+    MOVE_THUNDER_PUNCH,
+    MOVE_MACH_PUNCH,
+    MOVE_FOCUS_PUNCH,
+    MOVE_DIZZY_PUNCH,
+    MOVE_DYNAMIC_PUNCH,
+    MOVE_HAMMER_ARM,
+    MOVE_MEGA_PUNCH,
+    MOVE_COMET_PUNCH,
+    MOVE_METEOR_MASH,
+    MOVE_SHADOW_PUNCH,
+    MOVE_DRAIN_PUNCH,
+    MOVE_BULLET_PUNCH,
+    MOVE_SKY_UPPERCUT,	
+    MOVE_DOUBLE_IRON_BASH,
+    MOVE_ICE_HAMMER,
+    MOVE_POWER_UP_PUNCH,
+    MOVE_PLASMA_FISTS,
+    MOVE_RAGE_FIST,
+    MOVE_SURGING_STRIKES,
+    MOVE_WICKED_BLOW,	
+    MOVE_HEADLONG_RUSH,		
+    MOVE_JET_PUNCH,	
+};
+
+static const u16 StrongJawMovesTable[] = {
+        MOVE_BITE,
+        MOVE_CRUNCH,
+        MOVE_FIRE_FANG,
+        MOVE_HYPER_FANG,
+        MOVE_ICE_FANG,
+        MOVE_POISON_FANG,
+        MOVE_THUNDER_FANG,
+        MOVE_PSYCHIC_FANGS,
+        MOVE_FISHIOUS_REND,
+        MOVE_JAW_LOCK,
+};
+
+static const u16 MegaLauncherMovesTable[] = {
+        MOVE_AURA_SPHERE,
+        MOVE_DARK_PULSE,
+        MOVE_DRAGON_PULSE,
+        MOVE_WATER_PULSE,
+        MOVE_HEAL_PULSE,		
+//        MOVE_ORIGIN_PULSE,
+//        MOVE_TERRAIN_PULSE,
+};
+
+static const u16 SharpnessMovesTable[] = {
+        MOVE_AERIAL_ACE,
+        MOVE_AIR_CUTTER,
+        MOVE_AIR_SLASH,
+        MOVE_AQUA_CUTTER,
+        MOVE_CEASELESS_EDGE,
+        MOVE_FURY_CUTTER,
+        MOVE_LEAF_BLADE,
+        MOVE_NIGHT_SLASH,
+        MOVE_PSYCHO_CUT,
+        MOVE_RAZOR_SHELL,
+        MOVE_SACRED_SWORD,
+        MOVE_SECRET_SWORD,		
+        MOVE_SLASH,
+        MOVE_STONE_AXE,
+        MOVE_X_SCISSOR,
+        MOVE_BEHEMOTH_BLADE,
+        MOVE_BITTER_BLADE,
+        MOVE_CROSS_POISON,
+        MOVE_CUT,
+        MOVE_KOWTOW_CLEAVE,
+        MOVE_PSYBLADE,		
+        MOVE_RAZOR_LEAF,
+        MOVE_SOLAR_BLADE,
+        MOVE_POPULATION_BOMB,		
+};
+*/
+
 //int NormalTypeChangeAbilityHelper(int ability)
 //{
 //    int movetype;
@@ -223,18 +302,7 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
         movepower = pow;
 
     // get the type
-    if (AttackingMon.ability == ABILITY_NORMALIZE)
-        movetype = TYPE_NORMAL;
-//    else if (NormalTypeChangeAbilityCheck(AttackingMon.ability) == TRUE)
-//    {
-//        movetype = NormalTypeChangeAbilityHelper(AttackingMon.ability);
-//        movepower = (movepower * 12) / 10;
-//    }
-    else if (type == 0)
-        movetype = sp->moveTbl[moveno].type;
-    else
-        movetype = type & 0x3f;
-
+    movetype = GetAdjustedMoveType(sp, attacker, moveno);
     movepower = movepower * sp->damage_value / 10;
 
     // handle charge
@@ -499,7 +567,6 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
         defense *= 2;
     }
 
-
     // handle mud/water sport
     if ((movetype == TYPE_ELECTRIC) && (CheckFieldMoveEffect(bw, sp, MOVE_EFFECT_FLAG_MUD_SPORT)))
     {
@@ -533,6 +600,12 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
         movepower *= 2;
     }
 
+    //handle steelworker
+    if(GetBattlerAbility(sp, attacker) == ABILITY_STEELWORKER && (movetype == TYPE_STEEL))
+    {
+        movepower = movepower * 150 / 100;
+    }
+
     //handle dragon's maw
     if(GetBattlerAbility(sp, attacker) == ABILITY_DRAGONS_MAW && (movetype == TYPE_DRAGON))
     {
@@ -552,6 +625,12 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
 
     // Handle Solar Energy (Solrock)
     if ((GetBattlerAbility(sp, attacker) == ABILITY_SOLAR_ENERGY) && (movetype == TYPE_FIRE)) {
+        movepower = movepower * 150 / 100;
+    }
+    
+    //handle rocky payload
+    if(GetBattlerAbility(sp, attacker) == ABILITY_ROCKY_PAYLOAD && (movetype == TYPE_ROCK))
+    {
         movepower = movepower * 150 / 100;
     }
 
@@ -577,10 +656,58 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
         movepower = movepower * 100 / 133;
 #endif
 
+    //handle steely spirit
+    if ((movetype == TYPE_STEEL) && (CheckSideAbility(bw, sp, CHECK_PLAYER_SIDE_ALIVE, attacker, ABILITY_STEELY_SPIRIT)))
+    {
+        movepower = movepower * 15 / 10;
+    }
+
+    //handle battery
+    if ((GetBattlerAbility(sp, BATTLER_ALLY(attacker)) == ABILITY_BATTERY) == TRUE)
+    {
+        sp_attack = sp_attack * 130 / 100;
+    }
+
+    //handle power spot
+    if ((GetBattlerAbility(sp, BATTLER_ALLY(attacker)) == ABILITY_POWER_SPOT) == TRUE)
+    {
+        movepower = movepower * 130 / 100;
+    }
+
     //handle friend guard
     if ((GetBattlerAbility(sp, BATTLER_ALLY(defender)) == ABILITY_FRIEND_GUARD) == TRUE)
     {
         movepower = movepower * 75 / 100;
+    }
+    
+    // handle aerilate - 20% boost if a normal type move was changed to a flying type move.  does not boost flying type moves themselves
+    if (GetBattlerAbility(sp, attacker) == ABILITY_AERILATE && movetype == TYPE_FLYING && sp->moveTbl[moveno].type == TYPE_NORMAL)
+    {
+        movepower = movepower * 120 / 100;
+    }
+    
+    // handle pixilate - 20% boost if a normal type move was changed to a fairy type move.  does not boost fairy type moves themselves
+    if (GetBattlerAbility(sp, attacker) == ABILITY_PIXILATE && movetype == TYPE_FAIRY && sp->moveTbl[moveno].type == TYPE_NORMAL)
+    {
+        movepower = movepower * 120 / 100;
+    }
+    
+    // handle galvanize - 20% boost if a normal type move was changed to an electric type move.  does not boost electric type moves themselves
+    if (GetBattlerAbility(sp, attacker) == ABILITY_GALVANIZE && movetype == TYPE_ELECTRIC && sp->moveTbl[moveno].type == TYPE_NORMAL)
+    {
+        movepower = movepower * 120 / 100;
+    }
+    
+    // handle refrigerate - 20% boost if a normal type move was changed to an ice type move.  does not boost ice type moves themselves
+    if (GetBattlerAbility(sp, attacker) == ABILITY_REFRIGERATE && movetype == TYPE_ICE && sp->moveTbl[moveno].type == TYPE_NORMAL)
+    {
+        movepower = movepower * 120 / 100;
+    }
+    
+    // handle normalize - 20% boost if a normal type move is used (and it changes types to normal too)
+    if (GetBattlerAbility(sp, attacker) == ABILITY_NORMALIZE && movetype == TYPE_NORMAL)
+    {
+        movepower = movepower * 120 / 100;
     }
 
     // Handle Cheerleader, a new ability for Plusle and Minun
@@ -740,6 +867,18 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
     if ((AttackingMon.ability == ABILITY_STRONG_JAW) && (sp->moveTbl[sp->current_move_index].appeal & FLAG_BITING)) {
         movepower = movepower * 130 / 100;
     }
+	
+    /*
+	// handle sharpness
+    for (i = 0; i < NELEMS(SharpnessMovesTable); i++)
+    {
+        if ((SharpnessMovesTable[i] == moveno) && (AttackingMon.ability == ABILITY_SHARPNESS))
+        {
+            movepower = movepower * 15 / 10;
+            break;
+        }
+    }
+    */
 
     // Handle Sharpness
     if ((AttackingMon.ability == ABILITY_SHARPNESS) && (sp->moveTbl[sp->current_move_index].appeal & FLAG_CUTTING)) {
@@ -803,6 +942,13 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
         {
             sp_defense = sp_defense * 15 / 10;
         }
+        /*
+        if ((field_cond & WEATHER_HAIL_ANY) &&
+            ((DefendingMon.type1 == TYPE_ICE) || (DefendingMon.type2 == TYPE_ICE)))
+        {
+            defense = defense * 15 / 10;
+        }
+        */		
         if ((field_cond & WEATHER_SUNNY_ANY) &&
             (CheckSideAbility(bw, sp, CHECK_PLAYER_SIDE_ALIVE, attacker, ABILITY_FLOWER_GIFT)))
         {
@@ -871,8 +1017,8 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
         damage /= damage2;
         damage /= 50;
 
-        // burns halve physical damage
-        if ((AttackingMon.condition & STATUS_FLAG_BURNED) && (AttackingMon.ability != ABILITY_GUTS))
+        // burns halve physical damage.  this is ignored by guts and facade (as of gen 6)
+        if ((AttackingMon.condition & STATUS_FLAG_BURNED) && (AttackingMon.ability != ABILITY_GUTS) && (moveno != MOVE_FACADE))
         {
             damage /= 2;
         }

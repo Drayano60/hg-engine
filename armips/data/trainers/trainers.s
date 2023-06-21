@@ -20359,6 +20359,251 @@ trainerdata 475, "Konado"
 
 /* There should also be a Mickey here called something about Sada/Turo. Female class. */
 
+
+trainerdata 268, "Silver"
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass CLASS_RIVAL
+    battletype SINGLE_BATTLE
+    nummons 6
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype2 0
+    endentry
+
+    party 268
+        // mon 0
+        ivs 160
+        abilityslot 0
+        level 36
+        pokemon SPECIES_SNEASEL
+        move MOVE_QUICK_ATTACK
+        move MOVE_ICY_WIND
+        move MOVE_FEINT_ATTACK
+        move MOVE_FURY_SWIPES
+        ballseal 0
+
+        // mon 1
+        ivs 160
+        abilityslot 0
+        level 38
+        pokemon SPECIES_GOLBAT
+        move MOVE_ASTONISH
+        move MOVE_BITE
+        move MOVE_CONFUSE_RAY
+        move MOVE_AIR_CUTTER
+        ballseal 0
+
+        // mon 2
+        ivs 160
+        abilityslot 0
+        level 37
+        pokemon SPECIES_MAGNETON
+        move MOVE_SPARK
+        move MOVE_SUPERSONIC
+        move MOVE_THUNDER_WAVE
+        move MOVE_MAGNET_BOMB
+        ballseal 0
+
+        // mon 3
+        ivs 160
+        abilityslot 0
+        level 37
+        pokemon SPECIES_HAUNTER
+        move MOVE_MEAN_LOOK
+        move MOVE_CURSE
+        move MOVE_SHADOW_BALL
+        move MOVE_CONFUSE_RAY
+        ballseal 0
+
+        // mon 4
+        ivs 160
+        abilityslot 0
+        level 37
+        pokemon SPECIES_KADABRA
+        move MOVE_DISABLE
+        move MOVE_PSYBEAM
+        move MOVE_RECOVER
+        move MOVE_REFLECT
+        ballseal 0
+
+        // mon 5
+        ivs 160
+        abilityslot 0
+        level 40
+        pokemon SPECIES_TYPHLOSION
+        move MOVE_LAVA_PLUME
+        move MOVE_SWIFT
+        move MOVE_QUICK_ATTACK
+        move MOVE_FLAME_WHEEL
+        ballseal 0
+    endparty
+
+trainerdata 272, "Silver"
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass CLASS_RIVAL
+    battletype SINGLE_BATTLE
+    nummons 6
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype2 0
+    endentry
+
+    party 272
+        // mon 0
+        ivs 160
+        abilityslot 0
+        level 36
+        pokemon SPECIES_SNEASEL
+        move MOVE_QUICK_ATTACK
+        move MOVE_ICY_WIND
+        move MOVE_FEINT_ATTACK
+        move MOVE_FURY_SWIPES
+        ballseal 0
+
+        // mon 1
+        ivs 160
+        abilityslot 0
+        level 38
+        pokemon SPECIES_GOLBAT
+        move MOVE_ASTONISH
+        move MOVE_BITE
+        move MOVE_CONFUSE_RAY
+        move MOVE_AIR_CUTTER
+        ballseal 0
+
+        // mon 2
+        ivs 160
+        abilityslot 0
+        level 37
+        pokemon SPECIES_MAGNETON
+        move MOVE_SPARK
+        move MOVE_SUPERSONIC
+        move MOVE_THUNDER_WAVE
+        move MOVE_MAGNET_BOMB
+        ballseal 0
+
+        // mon 3
+        ivs 160
+        abilityslot 0
+        level 37
+        pokemon SPECIES_HAUNTER
+        move MOVE_MEAN_LOOK
+        move MOVE_CURSE
+        move MOVE_SHADOW_BALL
+        move MOVE_CONFUSE_RAY
+        ballseal 0
+
+        // mon 4
+        ivs 160
+        abilityslot 0
+        level 37
+        pokemon SPECIES_KADABRA
+        move MOVE_DISABLE
+        move MOVE_PSYBEAM
+        move MOVE_RECOVER
+        move MOVE_REFLECT
+        ballseal 0
+
+        // mon 5
+        ivs 160
+        abilityslot 0
+        level 40
+        pokemon SPECIES_FERALIGATR
+        move MOVE_WATERFALL
+        move MOVE_ICE_FANG
+        move MOVE_CRUNCH
+        move MOVE_SLASH
+        ballseal 0
+    endparty
+
+
+trainerdata 264, "Silver"
+    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainerclass CLASS_RIVAL
+    battletype SINGLE_BATTLE
+    nummons 6
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype2 0
+    endentry
+
+    party 264
+        // mon 0
+        ivs 160
+        abilityslot 0
+        level 36
+        pokemon SPECIES_SNEASEL
+        move MOVE_QUICK_ATTACK
+        move MOVE_ICY_WIND
+        move MOVE_FEINT_ATTACK
+        move MOVE_FURY_SWIPES
+        ballseal 0
+
+        // mon 1
+        ivs 160
+        abilityslot 0
+        level 38
+        pokemon SPECIES_GOLBAT
+        move MOVE_ASTONISH
+        move MOVE_BITE
+        move MOVE_CONFUSE_RAY
+        move MOVE_AIR_CUTTER
+        ballseal 0
+
+        // mon 2
+        ivs 160
+        abilityslot 0
+        level 37
+        pokemon SPECIES_MAGNETON
+        move MOVE_SPARK
+        move MOVE_SUPERSONIC
+        move MOVE_THUNDER_WAVE
+        move MOVE_MAGNET_BOMB
+        ballseal 0
+
+        // mon 3
+        ivs 160
+        abilityslot 0
+        level 37
+        pokemon SPECIES_HAUNTER
+        move MOVE_MEAN_LOOK
+        move MOVE_CURSE
+        move MOVE_SHADOW_BALL
+        move MOVE_CONFUSE_RAY
+        ballseal 0
+
+        // mon 4
+        ivs 160
+        abilityslot 0
+        level 37
+        pokemon SPECIES_KADABRA
+        move MOVE_DISABLE
+        move MOVE_PSYBEAM
+        move MOVE_RECOVER
+        move MOVE_REFLECT
+        ballseal 0
+
+        // mon 5
+        ivs 160
+        abilityslot 0
+        level 40
+        pokemon SPECIES_MEGANIUM
+        move MOVE_REFLECT
+        move MOVE_PETAL_DANCE
+        move MOVE_POISON_POWDER
+        move MOVE_SYNTHESIS
+        ballseal 0
+    endparty
+
 /** These Mickeys were set up but not used **/
 trainerdata 347, "Mickey"
     trainermontype TRAINER_DATA_TYPE_NOTHING
@@ -22705,87 +22950,6 @@ trainerdata 261, "Blue"
         ballseal 0
     endparty
 
-trainerdata 264, "Silver"
-    trainermontype TRAINER_DATA_TYPE_MOVES
-    trainerclass CLASS_RIVAL
-    battletype SINGLE_BATTLE
-    nummons 6
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
-    battletype2 0
-    endentry
-
-    party 264
-        // mon 0
-        ivs 160
-        abilityslot 0
-        level 36
-        pokemon SPECIES_SNEASEL
-        move MOVE_QUICK_ATTACK
-        move MOVE_ICY_WIND
-        move MOVE_FEINT_ATTACK
-        move MOVE_FURY_SWIPES
-        ballseal 0
-
-        // mon 1
-        ivs 160
-        abilityslot 0
-        level 38
-        pokemon SPECIES_GOLBAT
-        move MOVE_ASTONISH
-        move MOVE_BITE
-        move MOVE_CONFUSE_RAY
-        move MOVE_AIR_CUTTER
-        ballseal 0
-
-        // mon 2
-        ivs 160
-        abilityslot 0
-        level 37
-        pokemon SPECIES_MAGNETON
-        move MOVE_SPARK
-        move MOVE_SUPERSONIC
-        move MOVE_THUNDER_WAVE
-        move MOVE_MAGNET_BOMB
-        ballseal 0
-
-        // mon 3
-        ivs 160
-        abilityslot 0
-        level 37
-        pokemon SPECIES_HAUNTER
-        move MOVE_MEAN_LOOK
-        move MOVE_CURSE
-        move MOVE_SHADOW_BALL
-        move MOVE_CONFUSE_RAY
-        ballseal 0
-
-        // mon 4
-        ivs 160
-        abilityslot 0
-        level 37
-        pokemon SPECIES_KADABRA
-        move MOVE_DISABLE
-        move MOVE_PSYBEAM
-        move MOVE_RECOVER
-        move MOVE_REFLECT
-        ballseal 0
-
-        // mon 5
-        ivs 160
-        abilityslot 0
-        level 40
-        pokemon SPECIES_MEGANIUM
-        move MOVE_REFLECT
-        move MOVE_PETAL_DANCE
-        move MOVE_POISON_POWDER
-        move MOVE_SYNTHESIS
-        ballseal 0
-    endparty
-
 trainerdata 265, "Silver"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_RIVAL
@@ -22805,168 +22969,6 @@ trainerdata 265, "Silver"
         abilityslot 0
         level 5
         pokemon SPECIES_CHIKORITA
-        ballseal 0
-    endparty
-
-trainerdata 268, "Silver"
-    trainermontype TRAINER_DATA_TYPE_MOVES
-    trainerclass CLASS_RIVAL
-    battletype SINGLE_BATTLE
-    nummons 6
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
-    battletype2 0
-    endentry
-
-    party 268
-        // mon 0
-        ivs 160
-        abilityslot 0
-        level 36
-        pokemon SPECIES_SNEASEL
-        move MOVE_QUICK_ATTACK
-        move MOVE_ICY_WIND
-        move MOVE_FEINT_ATTACK
-        move MOVE_FURY_SWIPES
-        ballseal 0
-
-        // mon 1
-        ivs 160
-        abilityslot 0
-        level 38
-        pokemon SPECIES_GOLBAT
-        move MOVE_ASTONISH
-        move MOVE_BITE
-        move MOVE_CONFUSE_RAY
-        move MOVE_AIR_CUTTER
-        ballseal 0
-
-        // mon 2
-        ivs 160
-        abilityslot 0
-        level 37
-        pokemon SPECIES_MAGNETON
-        move MOVE_SPARK
-        move MOVE_SUPERSONIC
-        move MOVE_THUNDER_WAVE
-        move MOVE_MAGNET_BOMB
-        ballseal 0
-
-        // mon 3
-        ivs 160
-        abilityslot 0
-        level 37
-        pokemon SPECIES_HAUNTER
-        move MOVE_MEAN_LOOK
-        move MOVE_CURSE
-        move MOVE_SHADOW_BALL
-        move MOVE_CONFUSE_RAY
-        ballseal 0
-
-        // mon 4
-        ivs 160
-        abilityslot 0
-        level 37
-        pokemon SPECIES_KADABRA
-        move MOVE_DISABLE
-        move MOVE_PSYBEAM
-        move MOVE_RECOVER
-        move MOVE_REFLECT
-        ballseal 0
-
-        // mon 5
-        ivs 160
-        abilityslot 0
-        level 40
-        pokemon SPECIES_TYPHLOSION
-        move MOVE_LAVA_PLUME
-        move MOVE_SWIFT
-        move MOVE_QUICK_ATTACK
-        move MOVE_FLAME_WHEEL
-        ballseal 0
-    endparty
-
-trainerdata 272, "Silver"
-    trainermontype TRAINER_DATA_TYPE_MOVES
-    trainerclass CLASS_RIVAL
-    battletype SINGLE_BATTLE
-    nummons 6
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
-    battletype2 0
-    endentry
-
-    party 272
-        // mon 0
-        ivs 160
-        abilityslot 0
-        level 36
-        pokemon SPECIES_SNEASEL
-        move MOVE_QUICK_ATTACK
-        move MOVE_ICY_WIND
-        move MOVE_FEINT_ATTACK
-        move MOVE_FURY_SWIPES
-        ballseal 0
-
-        // mon 1
-        ivs 160
-        abilityslot 0
-        level 38
-        pokemon SPECIES_GOLBAT
-        move MOVE_ASTONISH
-        move MOVE_BITE
-        move MOVE_CONFUSE_RAY
-        move MOVE_AIR_CUTTER
-        ballseal 0
-
-        // mon 2
-        ivs 160
-        abilityslot 0
-        level 37
-        pokemon SPECIES_MAGNETON
-        move MOVE_SPARK
-        move MOVE_SUPERSONIC
-        move MOVE_THUNDER_WAVE
-        move MOVE_MAGNET_BOMB
-        ballseal 0
-
-        // mon 3
-        ivs 160
-        abilityslot 0
-        level 37
-        pokemon SPECIES_HAUNTER
-        move MOVE_MEAN_LOOK
-        move MOVE_CURSE
-        move MOVE_SHADOW_BALL
-        move MOVE_CONFUSE_RAY
-        ballseal 0
-
-        // mon 4
-        ivs 160
-        abilityslot 0
-        level 37
-        pokemon SPECIES_KADABRA
-        move MOVE_DISABLE
-        move MOVE_PSYBEAM
-        move MOVE_RECOVER
-        move MOVE_REFLECT
-        ballseal 0
-
-        // mon 5
-        ivs 160
-        abilityslot 0
-        level 40
-        pokemon SPECIES_FERALIGATR
-        move MOVE_WATERFALL
-        move MOVE_ICE_FANG
-        move MOVE_CRUNCH
-        move MOVE_SLASH
         ballseal 0
     endparty
 

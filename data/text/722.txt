@@ -59,7 +59,7 @@ Boosts Sp. Atk by 50% if\na Pokémon has Minus.
 Boosts Sp. Atk by 50% if\na Pokémon has Plus.
 Transforms with weather.\nUps Weather Ball by 20%.
 Protects the Pokémon\nfrom item theft.
-On a turn, has 33% chance\nof curing status problems.
+Has a 33% chance to cure\nits status on each turn.
 Boosts Attack by 50% if\nthere is a status problem.
 Boosts Defense by 50% if\nthere is a status problem.
 Inflicts damage on foes\nusing any draining move.

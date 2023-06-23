@@ -1966,6 +1966,7 @@ levelup SPECIES_WEEPINBELL
 
 // NEW: Solar Blade (HOME Datamine)
 levelup SPECIES_VICTREEBEL
+    learnset MOVE_LEAF_TORNADO, 1
     learnset MOVE_CLEAR_SMOG, 1
     learnset MOVE_SYNTHESIS, 1
     learnset MOVE_STOCKPILE, 1 
@@ -7371,6 +7372,7 @@ levelup SPECIES_NUZLEAF
     terminatelearnset
 
 levelup SPECIES_SHIFTRY
+    learnset MOVE_LEAF_TORNADO, 1
     learnset MOVE_DEFOG, 1
     learnset MOVE_RAZOR_WIND, 1
     learnset MOVE_WHIRLWIND, 1
@@ -9477,17 +9479,18 @@ levelup SPECIES_TROPIUS
     learnset MOVE_STOMP, 8
     learnset MOVE_MAGICAL_LEAF, 12
     learnset MOVE_WHIRLWIND, 16
-    learnset MOVE_SLAM, 20
-    learnset MOVE_NATURAL_GIFT, 24
-    learnset MOVE_AIR_SLASH, 28
-    learnset MOVE_BODY_SLAM, 32
-    learnset MOVE_LEAF_BLADE, 36
-    learnset MOVE_SYNTHESIS, 40
+    learnset MOVE_LEAF_TORNADO, 20
+    learnset MOVE_SLAM, 24
+    learnset MOVE_NATURAL_GIFT, 28
+    learnset MOVE_AIR_SLASH, 32
+    learnset MOVE_BODY_SLAM, 36
+    learnset MOVE_LEAF_BLADE, 40
     learnset MOVE_DRAGON_HAMMER, 44
-    learnset MOVE_DRAGON_DANCE, 48
-    learnset MOVE_SOLAR_BEAM, 52
-    learnset MOVE_HURRICANE, 56
-    learnset MOVE_LEAF_STORM, 60
+    learnset MOVE_SYNTHESIS, 48
+    learnset MOVE_DRAGON_DANCE, 52
+    learnset MOVE_SOLAR_BEAM, 56
+    learnset MOVE_HURRICANE, 60
+    learnset MOVE_LEAF_STORM, 64
     terminatelearnset
 
 levelup SPECIES_CHINGLING
@@ -11596,8 +11599,9 @@ levelup SPECIES_CARNIVINE
     learnset MOVE_VINE_WHIP, 6
     learnset MOVE_ACID_SPRAY, 9
     learnset MOVE_SWEET_SCENT, 12
-    learnset MOVE_RAZOR_LEAF, 16
-    learnset MOVE_FEINT_ATTACK, 20
+    learnset MOVE_RAZOR_LEAF, 15
+    learnset MOVE_FEINT_ATTACK, 18
+    learnset MOVE_LEAF_TORNADO, 21
     learnset MOVE_SLEEP_POWDER, 24
     learnset MOVE_STUN_SPORE, 24
     learnset MOVE_STOCKPILE, 28
@@ -12263,8 +12267,8 @@ levelup SPECIES_SNIVY
     learnset MOVE_VINE_WHIP, 3
     learnset MOVE_GROWTH, 6
     learnset MOVE_WRAP, 9
-    learnset MOVE_MEGA_DRAIN, 12
-    learnset MOVE_LEECH_SEED, 15
+    learnset MOVE_LEECH_SEED, 12
+    learnset MOVE_LEAF_TORNADO, 15
     learnset MOVE_SLAM, 20
     learnset MOVE_GLARE, 24
     learnset MOVE_LEAF_BLADE, 28
@@ -12282,8 +12286,8 @@ levelup SPECIES_SERVINE
     learnset MOVE_VINE_WHIP, 3
     learnset MOVE_GROWTH, 6
     learnset MOVE_WRAP, 9
-    learnset MOVE_MEGA_DRAIN, 12
-    learnset MOVE_LEECH_SEED, 15
+    learnset MOVE_LEECH_SEED, 12
+    learnset MOVE_LEAF_TORNADO, 15
     learnset MOVE_TWISTER, 17
     learnset MOVE_SLAM, 20
     learnset MOVE_GLARE, 24
@@ -12306,8 +12310,8 @@ levelup SPECIES_SERPERIOR
     learnset MOVE_VINE_WHIP, 3
     learnset MOVE_GROWTH, 6
     learnset MOVE_WRAP, 9
-    learnset MOVE_MEGA_DRAIN, 12
-    learnset MOVE_LEECH_SEED, 15
+    learnset MOVE_LEECH_SEED, 12
+    learnset MOVE_LEAF_TORNADO, 15
     learnset MOVE_TWISTER, 17
     learnset MOVE_SLAM, 20
     learnset MOVE_GLARE, 24
@@ -13347,6 +13351,7 @@ levelup SPECIES_SCOLIPEDE
     learnset MOVE_MEGAHORN, 55
     terminatelearnset
 
+// NEW: Leaf Tornado
 levelup SPECIES_COTTONEE
     learnset MOVE_HELPING_HAND, 1
     learnset MOVE_ABSORB, 1
@@ -13355,7 +13360,7 @@ levelup SPECIES_COTTONEE
     learnset MOVE_STUN_SPORE, 4
     learnset MOVE_MEGA_DRAIN, 8
     learnset MOVE_COTTON_SPORE, 12
-    learnset MOVE_RAZOR_LEAF, 16
+    learnset MOVE_LEAF_TORNADO, 16
     learnset MOVE_POISON_POWDER, 20
     learnset MOVE_CHARM, 24
     learnset MOVE_GIGA_DRAIN, 28
@@ -13367,6 +13372,7 @@ levelup SPECIES_COTTONEE
     learnset MOVE_SOLAR_BEAM, 52
     terminatelearnset
 
+// NEW: Leaf Tornado
 levelup SPECIES_WHIMSICOTT
     learnset MOVE_WORRY_SEED, 1
     learnset MOVE_FAKE_TEARS, 1
@@ -13379,7 +13385,7 @@ levelup SPECIES_WHIMSICOTT
     learnset MOVE_STUN_SPORE, 4
     learnset MOVE_MEGA_DRAIN, 8
     learnset MOVE_COTTON_SPORE, 12
-    learnset MOVE_RAZOR_LEAF, 16
+    learnset MOVE_LEAF_TORNADO, 16
     learnset MOVE_POISON_POWDER, 20
     learnset MOVE_CHARM, 24
     learnset MOVE_GIGA_DRAIN, 28

@@ -23759,6 +23759,7 @@ mondata SPECIES_MEGA_SABLEYE, "-----"
 
 // STATS: 55 >> 75 SpAtk | 480 >> 500 BST
 mondata SPECIES_MEGA_MAWILE, "-----"
+    .if STAT_CHANGES_IMPLEMENTED
         basestats 50, 105, 125, 50, 75, 95
     .else
         basestats 50, 105, 125, 50, 55, 95

@@ -24,7 +24,7 @@ _SheerCold:
     tryonehitko
     endscript
 _NoEffect:
-    changevar VAR_OP_SETMASK, VAR_10, 0x8 /* This makes the no effect message pop up */
+    changevar VAR_OP_SETMASK, VAR_MOVE_STATUS, 0x8 /* This makes the no effect message pop up */
     endscript
 
 .close

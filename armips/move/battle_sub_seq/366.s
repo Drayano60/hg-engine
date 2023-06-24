@@ -39,11 +39,11 @@ SpitUpDamageCalc:
 .close
 
 /**
-    // This places the move type into VAR_09.
+    // This places the move type into VAR_CALCULATION_WORK.
     getmoveparameter 0x3
 
     // Just proceed if the move isnt Normal or is an unaffected move.
-    if IF_NOTEQUAL, VAR_09, TYPE_NORMAL, End
+    if IF_NOTEQUAL, VAR_CALCULATION_WORK, TYPE_NORMAL, End
     if IF_EQUAL, VAR_CURRENT_MOVE, MOVE_HIDDEN_POWER, End
     if IF_EQUAL, VAR_CURRENT_MOVE, MOVE_JUDGMENT, End
     if IF_EQUAL, VAR_CURRENT_MOVE, MOVE_NATURAL_GIFT, End

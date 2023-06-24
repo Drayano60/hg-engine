@@ -13,7 +13,7 @@
 
 a001_344:
     // Speed down
-    changevar VAR_OP_SET, VAR_34, SPEED_DOWN
+    changevar VAR_OP_SET, VAR_ADD_EFFECT_ATTRIBUTE, SPEED_DOWN
     gotosubscript 12
 
     // Normal poison

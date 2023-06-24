@@ -42,3 +42,9 @@ STAT_CHANGES_IMPLEMENTED equ 1
 TYPE_CHANGES_IMPLEMENTED equ 1
 ABILITY_CHANGES_IMPLEMENTED equ 1
 MOVE_CHANGES_IMPLEMENTED equ 1
+
+//REUSABLE_TMS will make TMs infinite and hide the quantity number.
+REUSABLE_TMS equ 0
+
+//DELETABLE_HMS Allows HMs to be forgotten, this also makes their quantity reduce, but the infinite TMs change prevents this.
+DELETABLE_HMS equ 0

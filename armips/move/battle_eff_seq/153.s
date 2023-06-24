@@ -13,7 +13,7 @@
 
 a030_153:
     gotosubscript 341
-    if IF_MASK, VAR_10, 0x40, Failed // Required to skip over things set before natural failure happens
+    if IF_MASK, VAR_MOVE_STATUS, 0x40, Failed // Required to skip over things set before natural failure happens
     if IF_EQUAL, VAR_BATTLE_TYPE, 0x0, WildBattleTeleport
     tryswitchinmon BATTLER_ATTACKER, 0x1, Failed
     gotosubscript 76
@@ -24,16 +24,16 @@ _0038:
     waitmessage
     preparehpgaugeslide BATTLER_ATTACKER
     waitmessage
-    changevar VAR_OP_SETMASK, VAR_60, 0x10
-    changevar VAR_OP_CLEARMASK, VAR_06, 0x80
-    changevar VAR_OP_SET, VAR_47, 0x0
+    changevar VAR_OP_SETMASK, VAR_SERVER_STATUS2, 0x10
+    changevar VAR_OP_CLEARMASK, VAR_SERVER_STATUS1, 0x80
+    changevar VAR_OP_SET, VAR_ATTACKER_STATUS, 0x0
     jumptosubseq 10
     endscript
 WildBattleTeleport:
     changevar VAR_OP_SET, VAR_ADD_STATUS1, 0x20000065
     endscript
 Failed:
-    changevar VAR_OP_SETMASK, VAR_10, 0x40
+    changevar VAR_OP_SETMASK, VAR_MOVE_STATUS, 0x40
     endscript
 
 .close

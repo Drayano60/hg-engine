@@ -13,7 +13,7 @@
 // Adjustments have been made to try and fix this but not sure if foolproof
 
 a001_091:
-    if IF_MASK, VAR_10, 0x10000, _failed
+    if IF_MASK, VAR_MOVE_STATUS, 0x10000, _failed
     moldbreakerabilitycheck 0x0, BATTLER_DEFENDER, ABILITY_SUCTION_CUPS, _suctionCupsMessage
     ifmonstat IF_EQUAL, BATTLER_DEFENDER, MON_DATA_MOVE_STATE, 0x400, _ingrainMessage
     if IF_EQUAL, VAR_BATTLE_TYPE, 0x4A, _failed
@@ -54,7 +54,7 @@ _0110:
     changevar VAR_OP_SETMASK, VAR_BATTLE_RESULT, 0x5
     endscript
 _failed:
-    changevar VAR_OP_SETMASK, VAR_10, 0x40
+    changevar VAR_OP_SETMASK, VAR_MOVE_STATUS, 0x40
     endscript
 _suctionCupsMessage:
     preparemessage 0x293, 0xB, 0x2, 0x2, "NaN", "NaN", "NaN", "NaN"
@@ -68,7 +68,7 @@ _016C:
     printpreparedmessage
     waitmessage
     wait 0x1E
-    changevar VAR_OP_SETMASK, VAR_10, 0x80000000
+    changevar VAR_OP_SETMASK, VAR_MOVE_STATUS, 0x80000000
     endscript
 _isWildBattle:
     isuserlowerlevel _failed

@@ -12,7 +12,7 @@
 // Damage equal to level
 
 a030_087:
-    changevar VAR_OP_SETMASK, VAR_06, 0x800
+    changevar VAR_OP_SETMASK, VAR_SERVER_STATUS1, 0x800
     changemondatabyvar VAR_OP_GET_RESULT, BATTLER_ATTACKER, 0x2B, VAR_DAMAGE
     changevar VAR_OP_MUL, VAR_DAMAGE, 0xFFFFFFFF
     endscript

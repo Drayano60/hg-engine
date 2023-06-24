@@ -12,7 +12,7 @@
 
 a001_186:
     wait 0xF
-    changevar VAR_OP_SET, VAR_39, 0x0
+    changevar VAR_OP_SET, VAR_CLIENT_NO_AGI, 0x0
     changevar2 VAR_OP_SET, VAR_ITEM_TEMP, VAR_ATTACKER
     changevar2 VAR_OP_SET, VAR_ATTACKER, VAR_BATTLER_SOMETHING
 _0038:
@@ -27,17 +27,17 @@ _0038:
     abilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_INNER_FOCUS, _AbilityBlocks
     abilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_SCRAPPY, _AbilityBlocks 
 
-    changevar VAR_OP_SET, VAR_34, 0x16
-    changevar VAR_OP_SET, VAR_05, 0x3
+    changevar VAR_OP_SET, VAR_ADD_EFFECT_ATTRIBUTE, 0x16
+    changevar VAR_OP_SET, VAR_ADD_EFFECT_TYPE, 0x3
     gotosubscript 12
 
     /* If intimidating something with Rattled, their Speed also gets raised */
     abilitycheck 0x1, BATTLER_ADDL_EFFECT, ABILITY_RATTLED, _009C
-    changevar VAR_OP_SET, VAR_34, 0x11
-    changevar VAR_OP_SET, VAR_05, 0x3
+    changevar VAR_OP_SET, VAR_ADD_EFFECT_ATTRIBUTE, 0x11
+    changevar VAR_OP_SET, VAR_ADD_EFFECT_TYPE, 0x3
     gotosubscript 12
 _009C:
-    changevar VAR_OP_ADD, VAR_39, 0x1
+    changevar VAR_OP_ADD, VAR_CLIENT_NO_AGI, 0x1
     jumpifvarisvalidbattler 0x27, _0038
     changevar2 VAR_OP_SET, VAR_ATTACKER, VAR_ITEM_TEMP
     endscript
@@ -45,7 +45,7 @@ _AbilityBlocks:
     printmessage 0x55A, 0xB, 0x7, 0x7, "NaN", "NaN", "NaN", "NaN"
     waitmessage
     wait 0x1E
-    changevar VAR_OP_ADD, VAR_39, 0x1
+    changevar VAR_OP_ADD, VAR_CLIENT_NO_AGI, 0x1
     jumpifvarisvalidbattler 0x27, _0038
     changevar2 VAR_OP_SET, VAR_ATTACKER, VAR_ITEM_TEMP
     endscript

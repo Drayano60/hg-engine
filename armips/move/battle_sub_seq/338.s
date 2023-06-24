@@ -17,19 +17,19 @@ a001_338:
     if IF_EQUAL, VAR_CRIT_CHANCE, 16, End
 
     // -1 Defense
-    changevar VAR_OP_SET, VAR_34, 0x17
+    changevar VAR_OP_SET, VAR_ADD_EFFECT_ATTRIBUTE, 0x17
     gotosubscript 12
 
     // Allows the stat up animation to play
-    changevar VAR_OP_SETMASK, VAR_06, 0x4001
-    changevar VAR_OP_SETMASK, VAR_60, 0x80
+    changevar VAR_OP_SETMASK, VAR_SERVER_STATUS1, 0x4001
+    changevar VAR_OP_SETMASK, VAR_SERVER_STATUS2, 0x80
 
     // +1 Speed
-    changevar VAR_OP_SET, VAR_34, 0x11
+    changevar VAR_OP_SET, VAR_ADD_EFFECT_ATTRIBUTE, 0x11
     gotosubscript 12
 
-    changevar VAR_OP_CLEARMASK, VAR_60, 0x2
-    changevar VAR_OP_CLEARMASK, VAR_60, 0x80
+    changevar VAR_OP_CLEARMASK, VAR_SERVER_STATUS2, 0x2
+    changevar VAR_OP_CLEARMASK, VAR_SERVER_STATUS2, 0x80
 
     // VAR_CRIT_CHANCE is used as a flag of sorts to specify that the stat boost has happened, and not to do it again on the subsequent hits.
     // VAR_CRIT_CHANCE gets cleared after the current move ends so each use of Scale Shot can still give a stat boost.

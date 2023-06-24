@@ -29,7 +29,7 @@ a001_185:
     /* 0x70 is Heat Rock effect */
     checkitemeffect 0x1, BATTLER_xFF, 0x70, _End
     getitempower BATTLER_xFF, 0x9
-    changevar2 VAR_OP_ADD, VAR_WEATHER_TURNS, VAR_09
+    changevar2 VAR_OP_ADD, VAR_WEATHER_TURNS, VAR_CALCULATION_WORK
 _End:
     endscript
 

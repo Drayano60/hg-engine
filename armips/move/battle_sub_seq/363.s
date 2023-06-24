@@ -10,7 +10,7 @@
 .create "build/move/battle_sub_seq/1_363", 0
 
 a001_363:
-    changevar VAR_OP_SET, VAR_34, DEFENCE_UP_3
+    changevar VAR_OP_SET, VAR_ADD_EFFECT_ATTRIBUTE, DEFENCE_UP_3
     gotosubscript 12
     endscript
 

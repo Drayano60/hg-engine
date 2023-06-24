@@ -15,7 +15,7 @@ a001_355:
     wait 0x1E
 
     /* Raise evasion */
-    changevar VAR_OP_SET, VAR_34, EVASION_DOWN
+    changevar VAR_OP_SET, VAR_ADD_EFFECT_ATTRIBUTE, EVASION_DOWN
     gotosubscript 12
 
     endscript

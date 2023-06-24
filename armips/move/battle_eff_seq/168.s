@@ -13,18 +13,18 @@
 
 a030_168:
     gotosubscript 341
-    if IF_MASK, VAR_10, 0x40, Failed // Required to skip over things set before natural failure happens
-    changevar VAR_OP_SET, VAR_09, 0x10000000
-    changevar2 VAR_OP_LSH, VAR_09, VAR_ATTACKER
-    changevar2 VAR_OP_SETMASK, VAR_06, VAR_09
+    if IF_MASK, VAR_MOVE_STATUS, 0x40, Failed // Required to skip over things set before natural failure happens
+    changevar VAR_OP_SET, VAR_CALCULATION_WORK, 0x10000000
+    changevar2 VAR_OP_LSH, VAR_CALCULATION_WORK, VAR_ATTACKER
+    changevar2 VAR_OP_SETMASK, VAR_SERVER_STATUS1, VAR_CALCULATION_WORK
     changemondatabyvalue VAR_OP_SET, BATTLER_ATTACKER, 0x2F, 0x0
     changevar VAR_OP_SET, VAR_HP_TEMP, 0x7FFF
     healthbarupdate BATTLER_ATTACKER
-    changevar VAR_OP_SETMASK, VAR_06, 0x8001C
+    changevar VAR_OP_SETMASK, VAR_SERVER_STATUS1, 0x8001C
     changevar VAR_OP_SET, VAR_ADD_STATUS1, 0xA000006B
     endscript
 Failed:
-    changevar VAR_OP_SETMASK, VAR_10, 0x40
+    changevar VAR_OP_SETMASK, VAR_MOVE_STATUS, 0x40
     endscript
     
 .close

@@ -14,19 +14,19 @@
 a001_132:
     moldbreakerabilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_OBLIVIOUS, _Oblivious
     ifmonstat IF_NOTEQUAL, BATTLER_DEFENDER, MON_DATA_TAUNT_COUNTER, 0x0, _0074
-    if IF_MASK, VAR_10, 0x10001, _0074
+    if IF_MASK, VAR_MOVE_STATUS, 0x10001, _0074
     gotosubscript 76
     // random 2, 3
     /* Taunt is now always 3 turns + turn it gets applied */
     /* Differs from S/V where it's for 3 of the target's actions, so the amount of turns depends on if the Taunt user is faster */
     random 0, 4 
-    changemondatabyvar VAR_OP_SET, BATTLER_DEFENDER, 0x40, VAR_09
+    changemondatabyvar VAR_OP_SET, BATTLER_DEFENDER, 0x40, VAR_CALCULATION_WORK
     printmessage 0x1F4, 0x2, 0x2, "NaN", "NaN", "NaN", "NaN", "NaN"
     waitmessage
     wait 0x1E
     endscript
 _0074:
-    changevar VAR_OP_SETMASK, VAR_10, 0x40
+    changevar VAR_OP_SETMASK, VAR_MOVE_STATUS, 0x40
     endscript
 _Oblivious:
     printattackmessage

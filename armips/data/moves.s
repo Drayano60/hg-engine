@@ -9626,22 +9626,22 @@ movedata MOVE_PARTING_SHOT, "Parting Shot"
     terminatedata
     movedescription MOVE_PARTING_SHOT, "With a threat, the\nuser lowers the foe’s\nAttack and Sp. Atk,\nand then switches\nwith a party Pokémon." 
 
-// Copy of Hidden Power with fixed type, for AI use only
-movedata MOVE_HIDDEN_POWER_FIGHTING, "Hidden Power"
-    battleeffect 0
+// ACCURACY: 90 >> 100
+movedata MOVE_LEAF_TORNADO, "Leaf Tornado"
+    battleeffect 73
     pss SPLIT_SPECIAL
-    basepower 60
-    type TYPE_FIGHTING
-    accuracy 100
-    pp 15
-    effectchance 0
+    basepower 65
+    type TYPE_GRASS
+    accuracy MOVE_CHANGES_IMPLEMENTED ? 100 : 90
+    pp 10
+    effectchance 50
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_MIRROR_MOVE | FLAG_PROTECT
-    appeal 0
+    appeal FLAG_WIND // assumed
     contesttype 0
     terminatedata
-    movedescription MOVE_HIDDEN_POWER_FIGHTING, "FOR AI ONLY"
+    movedescription MOVE_LEAF_TORNADO, "The user attacks the\nfoe by encircling it\nin sharp leaves.\nThis has a 50% chance\nto lower accuracy."
 
 // Copy of Hidden Power with fixed type, for AI use only
 movedata MOVE_HIDDEN_POWER_FLYING, "Hidden Power"

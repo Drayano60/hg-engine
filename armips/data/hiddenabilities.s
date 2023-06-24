@@ -601,8 +601,8 @@
 /* SPECIES_VENIPEDE                    */ .halfword ABILITY_SPEED_BOOST
 /* SPECIES_WHIRLIPEDE                  */ .halfword ABILITY_SPEED_BOOST
 /* SPECIES_SCOLIPEDE                   */ .halfword ABILITY_SPEED_BOOST
-/* SPECIES_COTTONEE                    */ .halfword ABILITY_CHLOROPHYLL
-/* SPECIES_WHIMSICOTT                  */ .halfword ABILITY_CHLOROPHYLL
+/* SPECIES_COTTONEE                    */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_COTTON_DOWN : ABILITY_CHLOROPHYLL
+/* SPECIES_WHIMSICOTT                  */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_COTTON_DOWN : ABILITY_CHLOROPHYLL
 /* SPECIES_PETILIL                     */ .halfword ABILITY_LEAF_GUARD
 /* SPECIES_LILLIGANT                   */ .halfword ABILITY_LEAF_GUARD
 /* SPECIES_BASCULIN                    */ .halfword ABILITY_MOLD_BREAKER

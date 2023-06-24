@@ -186,7 +186,7 @@ Quick Draw
 Transistor
 Armor Tail
 Sharpness
-Supreme Overlord
+S. Overlord
 Aura Guardian
 Befuddle
 Bombardier
@@ -205,3 +205,4 @@ Toxic Scales
 Wind Whipper
 Conductor
 Parental Bond
+Wind Rider

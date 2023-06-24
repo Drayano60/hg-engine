@@ -59,6 +59,7 @@ const u16 BulletproofMoveList[] =
     MOVE_BARRAGE,
     MOVE_BULLET_SEED,
     MOVE_EGG_BOMB,
+    MOVE_ELECTRO_BALL,
     MOVE_ENERGY_BALL,
     MOVE_FOCUS_BLAST,
     MOVE_GYRO_BALL,
@@ -67,8 +68,11 @@ const u16 BulletproofMoveList[] =
     MOVE_MIST_BALL,
     MOVE_MUD_BOMB,
     MOVE_OCTAZOOKA,
+    MOVE_POLLEN_PUFF,
+    MOVE_PYRO_BALL,
     MOVE_ROCK_BLAST,
     MOVE_ROCK_WRECKER,
+    MOVE_SEARING_SHOT,
     MOVE_SEED_BOMB,
     MOVE_SHADOW_BALL,
     MOVE_SLUDGE_BOMB,
@@ -142,6 +146,15 @@ int MoveCheckDamageNegatingAbilities(struct BattleStruct *sp, int attacker, int 
         {
             if (sp->moveTbl[sp->current_move_index].appeal & FLAG_BALL) {
                 scriptnum = SUB_SEQ_HANDLE_SOUNDPROOF;
+            }
+        }
+    }
+
+    // Handle Wind Rider. Sap Sipper SUB_SEQ works perfectly for this too.
+    if (MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_WIND_RIDER) == TRUE) {
+        {
+            if (sp->moveTbl[sp->current_move_index].appeal & FLAG_WIND) {
+                scriptnum = SUB_SEQ_HANDLE_SAP_SIPPER;
             }
         }
     }
@@ -1366,7 +1379,7 @@ u32 TurnEndAbilityCheck(void *bw, struct BattleStruct *sp, int client_no)
                 {
                     sp->calc_work = 8; // skip the raising if this is the case
                 }
-                sp->calc_work = temp; // VAR_09
+                sp->calc_work = temp;
 
                 /* 7 includes accuracy/evasion which isn't accurate */
                 // temp = BattleRand(bw) % 7;

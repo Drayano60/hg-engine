@@ -31,7 +31,7 @@ _PlayAnimationIfCanClearEffect:
     /* This means the animation plays even if the target's evasiveness is minimum */
     gotosubscript 76
 _DropEvasion:
-    changevar VAR_OP_SET, VAR_34, 0x1C
+    changevar VAR_OP_SET, VAR_ADD_EFFECT_ATTRIBUTE, 0x1C
     gotosubscript 12
 _ReflectOpponentSide:
     checksidecondition BATTLER_DEFENDER, 0x0, 0x0, _LightScreenOpponentSide

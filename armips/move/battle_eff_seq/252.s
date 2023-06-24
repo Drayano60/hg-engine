@@ -13,7 +13,7 @@
 
 a030_252:
     gotosubscript 341
-    if IF_MASK, VAR_10, 0x40, Failed // Required to skip over things set before natural failure happens
+    if IF_MASK, VAR_MOVE_STATUS, 0x40, Failed // Required to skip over things set before natural failure happens
     ifmonstat IF_NOTEQUAL, BATTLER_ATTACKER, MON_DATA_79, 0x0, Failed
     abilitycheck 0x0, BATTLER_ATTACKER, ABILITY_LEVITATE, Failed
     ifmonstat IF_MASK, BATTLER_ATTACKER, MON_DATA_MOVE_STATE, 0x400, Failed
@@ -23,7 +23,7 @@ a030_252:
     changevar VAR_OP_SET, VAR_ADD_STATUS1, 0x2000005A
     endscript
 Failed:
-    changevar VAR_OP_SETMASK, VAR_10, 0x40
+    changevar VAR_OP_SETMASK, VAR_MOVE_STATUS, 0x40
     endscript
 
 .close

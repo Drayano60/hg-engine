@@ -225,13 +225,13 @@ movedata MOVE_GUILLOTINE, "Guillotine"
     terminatedata
     movedescription MOVE_GUILLOTINE, "A vicious, tearing\nattack with pincers.\nThe foe will faint\ninstantly if this\nattack hits."
 
-// EFFECT: Two-turn high crit >> High crit
-// POWER: 80 >> 90
+// EFFECT: Two-turn high crit >> Two-turn guaranteed crit
+// POWER: 80 >> 100
 // TYPE: Normal >> Flying
 movedata MOVE_RAZOR_WIND, "Razor Wind"
-    battleeffect 43
+    battleeffect 39
     pss SPLIT_SPECIAL
-    basepower MOVE_CHANGES_IMPLEMENTED ? 90 : 80
+    basepower MOVE_CHANGES_IMPLEMENTED ? 100 : 80
     type MOVE_CHANGES_IMPLEMENTED ? TYPE_FLYING : TYPE_NORMAL
     accuracy 100
     pp 10
@@ -239,10 +239,10 @@ movedata MOVE_RAZOR_WIND, "Razor Wind"
     target MOVE_TARGET_BOTH
     priority 0
     flags FLAG_MIRROR_MOVE | FLAG_PROTECT
-    appeal FLAG_WIND // assumed
+    appeal FLAG_CUTTING | FLAG_WIND // assumed
     contesttype 0
     terminatedata
-    movedescription MOVE_RAZOR_WIND, "Blades of wind hit\nopposing Pokémon.\nCritical hits land\nmore easily."
+    movedescription MOVE_RAZOR_WIND, "A two-turn attack.\nBlades of wind hit the\nfoe on the next turn.\nThis move will always\nland a critical hit."
 
 movedata MOVE_SWORDS_DANCE, "Swords Dance"
     battleeffect 50

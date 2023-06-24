@@ -2294,12 +2294,13 @@ movedata MOVE_DREAM_EATER, "Dream Eater"
     terminatedata
     movedescription MOVE_DREAM_EATER, "An attack that works\nonly on a sleeping\nfoe. It absorbs half\nthe damage caused to\nheal the user’s HP."
 
+// ACCURACY: 90 >> 100
 movedata MOVE_POISON_GAS, "Poison Gas"
     battleeffect 66
     pss SPLIT_STATUS
     basepower 0
     type TYPE_POISON
-    accuracy 90
+    accuracy MOVE_CHANGES_IMPLEMENTED ? 100 : 90
     pp 40
     effectchance 0
     target MOVE_TARGET_BOTH
@@ -8830,10 +8831,11 @@ movedata MOVE_SKITTER_SMACK, "Skitter Smack"
     terminatedata
     movedescription MOVE_SKITTER_SMACK, "The user skitters\nbehind the foe\nto attack.\nThis also lowers the\nfoe’s Sp. Atk stat."
 
+// POWER: 60 >> 70
 movedata MOVE_FLIP_TURN, "Flip Turn"
     battleeffect 228
     pss SPLIT_PHYSICAL
-    basepower 60
+    basepower MOVE_CHANGES_IMPLEMENTED ? 70 : 60
     type TYPE_WATER
     accuracy 100
     pp 20

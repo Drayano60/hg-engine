@@ -905,17 +905,9 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
         movepower = movepower * 50 / 100;
     }
 
-    // Handle Conductor, a new ability for Kricketune that boosts its and its ally's sound moves
-    if
-    (
-        (sp->moveTbl[sp->current_move_index].flag & FLAG_SOUND) &&
-        (
-            (AttackingMon.ability == ABILITY_CONDUCTOR) ||
-            ((GetBattlerAbility(sp, BATTLER_ALLY(attacker)) == ABILITY_CONDUCTOR) == TRUE)
-        )
-    )
-    {
-        movepower = movepower * 150 / 100;
+    // Handle Conductor, a new ability for Kricketune that boosts its sound moves heavily
+    if ((sp->moveTbl[sp->current_move_index].flag & FLAG_SOUND) && (AttackingMon.ability == ABILITY_CONDUCTOR)) {
+        movepower = movepower * 2;
     }
 
     // Handle Bombardier, a new ability for Octillery

@@ -237,7 +237,7 @@
 /* SPECIES_HOUNDOOM                    */ .halfword ABILITY_UNNERVE
 /* SPECIES_KINGDRA                     */ .halfword ABILITY_DAMP
 /* SPECIES_PHANPY                      */ .halfword ABILITY_SAND_VEIL
-/* SPECIES_DONPHAN                     */ .halfword ABILITY_SAND_VEIL
+/* SPECIES_DONPHAN                     */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_BULLETPROOF : ABILITY_SAND_VEIL
 /* SPECIES_PORYGON2                    */ .halfword ABILITY_ANALYTIC
 /* SPECIES_STANTLER                    */ .halfword ABILITY_SAP_SIPPER
 /* SPECIES_SMEARGLE                    */ .halfword ABILITY_MOODY
@@ -364,7 +364,7 @@
 /* SPECIES_DUSCLOPS                    */ .halfword ABILITY_FRISK
 /* SPECIES_TROPIUS                     */ .halfword ABILITY_HARVEST
 /* SPECIES_CHIMECHO                    */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_CACOPHONY : ABILITY_NONE
-/* SPECIES_ABSOL                       */ .halfword ABILITY_JUSTIFIED
+/* SPECIES_ABSOL                       */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_SHARPNESS : ABILITY_JUSTIFIED
 /* SPECIES_WYNAUT                      */ .halfword ABILITY_TELEPATHY
 /* SPECIES_SNORUNT                     */ .halfword ABILITY_MOODY
 /* SPECIES_GLALIE                      */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_REFRIGERATE : ABILITY_MOODY
@@ -423,8 +423,8 @@
 /* SPECIES_COMBEE                      */ .halfword ABILITY_HUSTLE
 /* SPECIES_VESPIQUEN                   */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_QUEENLY_MAJESTY : ABILITY_UNNERVE
 /* SPECIES_PACHIRISU                   */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_FUR_COAT : ABILITY_VOLT_ABSORB
-/* SPECIES_BUIZEL                      */ .halfword ABILITY_WATER_VEIL
-/* SPECIES_FLOATZEL                    */ .halfword ABILITY_WATER_VEIL
+/* SPECIES_BUIZEL                      */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_TECHNICIAN : ABILITY_WATER_VEIL
+/* SPECIES_FLOATZEL                    */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_TECHNICIAN : ABILITY_WATER_VEIL
 /* SPECIES_CHERUBI                     */ .halfword ABILITY_NONE
 /* SPECIES_CHERRIM                     */ .halfword ABILITY_NONE
 /* SPECIES_SHELLOS                     */ .halfword ABILITY_SAND_FORCE

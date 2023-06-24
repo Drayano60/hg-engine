@@ -152,7 +152,7 @@ Boosts the Attack stat\nafter KOing any Pokémon.
 Raises Attack when hit\nby a Dark-type move.
 Dark, Ghost or Bug moves\nboost its Speed stat.
 Reflects status moves\ninstead of being hit.
-Grass moves do no damage\nand boost its Attack.
+Grass moves do no damage\nand boost its Attack stat.
 Gives +1 priority to the\nPokémon’s status moves.
 Rock, Steel, Ground moves\nare 30% stronger in sand.
 When below 50% HP, Attack\nand Sp. Atk are halved.
@@ -205,3 +205,4 @@ Contact has a 30% chance\nof badly poisoning the foe.
 Powers up wind-based\nmoves by 50%.
 Powers up its own and its\nally’s sound moves by 50%.
 Damaging moves hit twice.\nSecond hit is 25% damage.
+Wind moves do no damage\nand boost its Attack stat.

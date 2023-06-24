@@ -150,6 +150,15 @@ int MoveCheckDamageNegatingAbilities(struct BattleStruct *sp, int attacker, int 
         }
     }
 
+    // Handle Wind Rider. Sap Sipper SUB_SEQ works perfectly for this too.
+    if (MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_WIND_RIDER) == TRUE) {
+        {
+            if (sp->moveTbl[sp->current_move_index].appeal & FLAG_WIND) {
+                scriptnum = SUB_SEQ_HANDLE_SAP_SIPPER;
+            }
+        }
+    }
+
     // Handle Vaporize, a new ability for Magcargo that negates Water attacks
     // if (MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_VAPORIZE) == TRUE)
     // {

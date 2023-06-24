@@ -4856,7 +4856,7 @@ mondata SPECIES_POLITOED, "Politoed"
 
 
 // STATS: 35 >> 40 Atk | 35 >> 40 SpAtk | 55 >> 65 SpDef | 50 >> 60 Speed | 250 >> 280 BST
-// ABILITY: Cotton Down (2), Aerilate (HA)
+// ABILITY: Wind Rider (2), Aerilate (HA)
 mondata SPECIES_HOPPIP, "Hoppip"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 35, 40, 40, 60, 40, 65
@@ -4874,7 +4874,7 @@ mondata SPECIES_HOPPIP, "Hoppip"
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_FAIRY, EGG_GROUP_GRASS
     .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_CHLOROPHYLL, ABILITY_COTTON_DOWN
+        abilities ABILITY_CHLOROPHYLL, ABILITY_WIND_RIDER
     .else
         abilities ABILITY_CHLOROPHYLL, ABILITY_LEAF_GUARD
     .endif
@@ -4888,7 +4888,7 @@ mondata SPECIES_HOPPIP, "Hoppip"
 
 
 // STATS: 45 >> 55 Atk | 45 >> 55 SpAtk | 65 >> 75 SpDef | 80 >> 90 Speed | 340 >> 380 BST
-// ABILITY: Cotton Down (2), Aerilate (HA)
+// ABILITY: Wind Rider (2), Aerilate (HA)
 mondata SPECIES_SKIPLOOM, "Skiploom"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 55, 55, 50, 90, 55, 75
@@ -4906,7 +4906,7 @@ mondata SPECIES_SKIPLOOM, "Skiploom"
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_FAIRY, EGG_GROUP_GRASS
     .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_CHLOROPHYLL, ABILITY_COTTON_DOWN
+        abilities ABILITY_CHLOROPHYLL, ABILITY_WIND_RIDER
     .else
         abilities ABILITY_CHLOROPHYLL, ABILITY_LEAF_GUARD
     .endif
@@ -4920,7 +4920,7 @@ mondata SPECIES_SKIPLOOM, "Skiploom"
 
 
 // STATS: 55 >> 70 Atk | 55 >> 70 SpAtk | 460 >> 490 BST
-// ABILITY: Cotton Down (2), Aerilate (HA)
+// ABILITY: Wind Rider (2), Aerilate (HA)
 mondata SPECIES_JUMPLUFF, "Jumpluff"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 75, 70, 70, 110, 70, 95
@@ -4938,7 +4938,7 @@ mondata SPECIES_JUMPLUFF, "Jumpluff"
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_FAIRY, EGG_GROUP_GRASS
     .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_CHLOROPHYLL, ABILITY_COTTON_DOWN
+        abilities ABILITY_CHLOROPHYLL, ABILITY_WIND_RIDER
     .else
         abilities ABILITY_CHLOROPHYLL, ABILITY_LEAF_GUARD
     .endif
@@ -15251,6 +15251,7 @@ mondata SPECIES_SCOLIPEDE, "Scolipede"
     mondexweight SPECIES_SCOLIPEDE, "442.0 lbs."
 
 
+// ABILITY: Cotton Down (HA)
 mondata SPECIES_COTTONEE, "Cottonee"
     basestats 40, 27, 60, 66, 37, 50
     types TYPE_GRASS, TYPE_FAIRY
@@ -15273,6 +15274,7 @@ mondata SPECIES_COTTONEE, "Cottonee"
     mondexweight SPECIES_COTTONEE, "1.3 lbs."
 
 
+// ABILITY: Cotton Down (HA)
 mondata SPECIES_WHIMSICOTT, "Whimsicott"
     basestats 60, 67, 85, 116, 77, 75
     types TYPE_GRASS, TYPE_FAIRY

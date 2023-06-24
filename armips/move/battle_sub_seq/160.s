@@ -15,14 +15,25 @@
 */
 
 a001_160:
-    if IF_MASK, VAR_SIDE_EFFECT_PLAYER, 0x300, _004C
+    if IF_MASK, VAR_SIDE_EFFECT_PLAYER, 0x300, _Failed
     gotosubscript 76
     printmessage 0x4CE, 0x1, 0x1, "NaN", "NaN", "NaN", "NaN", "NaN"
     waitmessage
     wait 0x1E
     changevar VAR_OP_SETMASK, VAR_SIDE_EFFECT_PLAYER, 0x300
+_WindRider:
+    orderbattlersbyspeed 0x11
+    ifmonstat IF_EQUAL, BATTLER_ADDL_EFFECT, MON_DATA_ABILITY, ABILITY_WIND_RIDER, _BoostAttack
+    goto _Continue
+_BoostAttack:
+    changevar VAR_OP_SET, VAR_ADD_EFFECT_ATTRIBUTE, ATTACK_UP
+    changevar VAR_OP_SET, VAR_ADD_EFFECT_TYPE, 0x3 // Ability
+    gotosubscript 12
+_Continue:
+    changevar VAR_OP_ADD, VAR_CLIENT_NO_AGI, 0x1
+    jumpifvarisvalidbattler VAR_CLIENT_NO_AGI, _WindRider
     endscript
-_004C:
+_Failed:
     changevar VAR_OP_SETMASK, VAR_MOVE_STATUS, 0x40
     endscript
 

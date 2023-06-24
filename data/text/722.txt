@@ -203,6 +203,6 @@ Sun is harsh for 3 turns.\nDoubles Speed in sunshine.
 Odd steps foul a foe’s aim,\nreducing accuracy by 10%.
 Contact has a 30% chance\nof badly poisoning the foe.
 Powers up wind-based\nmoves by 50%.
-Powers up its own and its\nally’s sound moves by 50%.
+Doubles the power of its\nsound-based moves.
 Damaging moves hit twice.\nSecond hit is 25% damage.
 Wind moves do no damage\nand boost its Attack stat.

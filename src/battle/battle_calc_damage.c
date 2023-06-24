@@ -737,13 +737,6 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
     {
         movepower = movepower * 125 / 100;
     }
-    
-    // Magma Armor now halves the power of incoming Water and Ice moves
-    if (CheckDefenceAbility(sp, attacker, defender, ABILITY_MAGMA_ARMOR) == TRUE) {
-        if (movetype == TYPE_WATER || movetype == TYPE_ICE) {
-            movepower /= 2;
-        }
-    }
 
     if (GetBattlerAbility(sp, attacker) == ABILITY_SUPREME_OVERLORD)
     {
@@ -849,14 +842,14 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
 
     // Handle Iron Fist
     if ((AttackingMon.ability == ABILITY_IRON_FIST) && (sp->moveTbl[sp->current_move_index].appeal & FLAG_PUNCH)) {
-        movepower = movepower * 130 / 100;
+        movepower = movepower * 133 / 100;
     }
 
     // Handle Reckless
     if (AttackingMon.ability == ABILITY_RECKLESS) {
         for (i = 0; i < NELEMS(RecklessMoveEffectsTable); i++) {
             if (RecklessMoveEffectsTable[i] == sp->moveTbl[moveno].effect) {
-                movepower = movepower * 130 / 100;
+                movepower = movepower * 120 / 100;
                 break;
             }
         }
@@ -876,7 +869,7 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
     // Handle Strong Jaw
     // Intentionally nerfed due to distribution
     if ((AttackingMon.ability == ABILITY_STRONG_JAW) && (sp->moveTbl[sp->current_move_index].appeal & FLAG_BITING)) {
-        movepower = movepower * 130 / 100;
+        movepower = movepower * 133 / 100;
     }
 	
     /*
@@ -892,8 +885,9 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
     */
 
     // Handle Sharpness
+    // Intentionally nerfed due to distribution
     if ((AttackingMon.ability == ABILITY_SHARPNESS) && (sp->moveTbl[sp->current_move_index].appeal & FLAG_CUTTING)) {
-        movepower = movepower * 150 / 100;
+        movepower = movepower * 133 / 100;
     }
 
     // Handle Cacophony, a new ability for various sound-based Pokémon

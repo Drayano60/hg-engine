@@ -7716,7 +7716,7 @@ party 75
     move MOVE_CRUSH_CLAW
     move MOVE_FURY_CUTTER
     move MOVE_ROLLOUT
-    ability ABILITY_SAND_VEIL
+    ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_ROUGH_SKIN : ABILITY_SAND_VEIL
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
     setevs 0, 0, 0, 0, 0, 0
@@ -16692,7 +16692,7 @@ party 226
     move MOVE_CRUSH_CLAW
     move MOVE_FURY_CUTTER
     move MOVE_RAPID_SPIN
-    ability ABILITY_SAND_VEIL
+    ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_ROUGH_SKIN : ABILITY_SAND_VEIL
     ball ITEM_POKE_BALL
     setivs 20, 20, 20, 20, 20, 20
     setevs 0, 0, 0, 0, 0, 0

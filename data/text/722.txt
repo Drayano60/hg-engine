@@ -38,7 +38,7 @@ The Pokémon copies the\nfoe’s ability.
 Doubles the Pokémon’s\nAttack stat in battle.
 Contact has a 30% chance\nto poison the attacker.
 The Pokémon cannot be\nflinched or intimidated.
-Prevents freeze. Halves\ndamage from Water or Ice.
+Prevents the Pokémon\nfrom becoming frozen.
 Prevents the Pokémon\nfrom getting a burn.
 Prevents Steel-type\nPokémon from escaping.
 Gives full immunity to all\nsound-based moves.
@@ -87,7 +87,7 @@ Halves damage taken from\nFire-type moves or burns.
 The effects of any stat\nchanges are doubled.
 Hates sun or Fire moves.\nLoves rain or Water moves.
 Adjusts power according\nto a foe’s stats.
-Powers up punching moves\nby 30%.
+Powers up punching moves\nby 33%.
 Recovers 12.5% of its HP\neach turn while poisoned.
 Moves matching type are\ninstead doubled in power.
 Multi-strike moves will\nalways hit 5 times.
@@ -118,7 +118,7 @@ Lowers damage from super\neffective attacks by 25%.
 Summons a hailstorm for\n5 turns upon entry.
 The Pokémon may gather\nHoney from somewhere.
 The Pokémon can check\nthe foe’s held item.
-Powers up moves that\ncause recoil by 30%.
+Powers up moves that\ncause recoil by 20%.
 Changes type to match\nthe held Plate.
 Ups Attack and Sp. Def of\nitself and ally when sunny.
 Deals 12.5% HP damage to\nsleeping foes each turn.
@@ -170,7 +170,7 @@ Powers up aura and pulse\nmoves by 50%.
 Normal-type moves become\nFairy and do 20% more.
 Changes the Pokémon’s\ntype to its move’s type.
 Normal-type moves become\nIce and do 20% more.
-Powers up biting moves\nby 30%.
+Powers up biting moves\nby 33%.
 Powers up moves that\nmake contact by 20%.
 Boosts Sp. Atk when a hit\nmakes its HP half or less.
 Blocks priority moves used\nagainst it or its ally.
@@ -185,7 +185,7 @@ Lowers the Speed of every\nother Pokémon when hit.
 Enables the Pokémon to go\nfirst 30% of the time.
 Powers up Electric-type\nmoves by 50%.
 Blocks priority moves used\nagainst it or its ally.
-Powers up slicing moves\nby 50%.
+Powers up slicing moves\nby 33%.
 Powers up moves by 10%\nfor each fainted ally.
 Powers up aura and pulse\nmoves by 50%.
 Bug moves have 30% chance\nto cause a status effect.

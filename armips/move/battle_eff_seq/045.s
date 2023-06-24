@@ -10,7 +10,7 @@
 .create "build/move/battle_eff_seq/0_045", 0
 
 a030_045:
-    changevar VAR_OP_SETMASK, VAR_06, 0x1000
+    changevar VAR_OP_SETMASK, VAR_SERVER_STATUS1, 0x1000
     gotosubscript 343
     endscript
 

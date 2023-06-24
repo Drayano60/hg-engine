@@ -13,7 +13,7 @@
 
 a030_242:
     gotosubscript 341
-    if IF_MASK, VAR_10, 0x40, Failed // Required to skip over things set before natural failure happens
+    if IF_MASK, VAR_MOVE_STATUS, 0x40, Failed // Required to skip over things set before natural failure happens
     trycopycat Failed
     printattackmessage
     waitmessage
@@ -21,7 +21,7 @@ a030_242:
     waitmessage
     jumptoeffectscript 0
 Failed:
-    changevar VAR_OP_SETMASK, VAR_10, 0x40
+    changevar VAR_OP_SETMASK, VAR_MOVE_STATUS, 0x40
     endscript
 
 .close

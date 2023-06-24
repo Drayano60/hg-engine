@@ -15,7 +15,7 @@
 
 a001_364:
     /* Fail if it misses, as per status moves (see Tickle, Role Play etc) */
-    if IF_MASK, VAR_10, 0x10001, _Failed
+    if IF_MASK, VAR_MOVE_STATUS, 0x10001, _Failed
 
     /* If Atk/SpAtk are already -6, fail */
     /* This should check if equal to 12 for Contrary... */
@@ -28,14 +28,14 @@ _Move:
     waitmessage
 
     /* Stat changes */
-    changevar VAR_OP_SETMASK, VAR_60, 0x80
-    changevar VAR_OP_SET, VAR_34, ATTACK_DOWN
+    changevar VAR_OP_SETMASK, VAR_SERVER_STATUS2, 0x80
+    changevar VAR_OP_SET, VAR_ADD_EFFECT_ATTRIBUTE, ATTACK_DOWN
     gotosubscript 12
-    changevar VAR_OP_SETMASK, VAR_06, 0x200000
-    changevar VAR_OP_SET, VAR_34, SPATK_DOWN
+    changevar VAR_OP_SETMASK, VAR_SERVER_STATUS1, 0x200000
+    changevar VAR_OP_SET, VAR_ADD_EFFECT_ATTRIBUTE, SPATK_DOWN
     gotosubscript 12
-    changevar VAR_OP_CLEARMASK, VAR_60, 0x2
-    changevar VAR_OP_CLEARMASK, VAR_60, 0x80
+    changevar VAR_OP_CLEARMASK, VAR_SERVER_STATUS2, 0x2
+    changevar VAR_OP_CLEARMASK, VAR_SERVER_STATUS2, 0x80
 
     /* If stat change is blocked by ability or Mist, fail after animation */
     /* Probably isn't exhaustive eg Hyper Cutter mon already has -6 SpAtk, but whatever */
@@ -59,7 +59,7 @@ _003C:
     changemondatabyvar VAR_OP_GET_RESULT, BATTLER_ATTACKER, 0x2F, VAR_HP_TEMP
     changevar VAR_OP_MUL, VAR_HP_TEMP, 0xFFFFFFFF
     changevar2 VAR_OP_SET, VAR_BATTLER_SOMETHING, VAR_ATTACKER
-    changevar VAR_OP_SETMASK, VAR_06, 0x40
+    changevar VAR_OP_SETMASK, VAR_SERVER_STATUS1, 0x40
     gotosubscript 2
     dofaintanimation
     waitmessage
@@ -89,7 +89,7 @@ _01A0:
     trynaturalcure BATTLER_ATTACKER, _0238
     changemondatabyvalue VAR_OP_SET, BATTLER_ATTACKER, 0x34, 0x0
 _0238:
-    changevar VAR_OP_CLEARMASK, VAR_06, 0x4000
+    changevar VAR_OP_CLEARMASK, VAR_SERVER_STATUS1, 0x4000
     changevar VAR_OP_SET, VAR_MOVE_EFFECT, 0x1
     playanimation BATTLER_ATTACKER
     waitmessage
@@ -97,14 +97,14 @@ _0238:
     waitmessage
     preparehpgaugeslide BATTLER_ATTACKER
     waitmessage
-    changevar VAR_OP_SETMASK, VAR_60, 0x10
-    changevar VAR_OP_CLEARMASK, VAR_06, 0x80
-    changevar VAR_OP_SET, VAR_47, 0x0
+    changevar VAR_OP_SETMASK, VAR_SERVER_STATUS2, 0x10
+    changevar VAR_OP_CLEARMASK, VAR_SERVER_STATUS1, 0x80
+    changevar VAR_OP_SET, VAR_ATTACKER_STATUS, 0x0
     jumptosubseq 10
 _EndScript:
     endscript
 _Failed:
-    changevar VAR_OP_SETMASK, VAR_10, 0x40
+    changevar VAR_OP_SETMASK, VAR_MOVE_STATUS, 0x40
     endscript
 
 .close

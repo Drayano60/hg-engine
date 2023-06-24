@@ -16,7 +16,7 @@ a030_317:
     checkitemeffect 0x0, BATTLER_ATTACKER, 0x63, _0060
     changevar VAR_OP_SET, VAR_ADD_STATUS1, 0x4000000C
     changevar VAR_OP_SET, VAR_ADD_STATUS2, 0x40000000 | SPATK_UP
-    changevar VAR_OP_SETMASK, VAR_06, 0x23
+    changevar VAR_OP_SETMASK, VAR_SERVER_STATUS1, 0x23
     endscript
 _0060:
     gotosubscript 292

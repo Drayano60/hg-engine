@@ -15,7 +15,7 @@ a001_358:
     checkwipeout BATTLER_DEFENDER, _End /* Don't use the item if the battle is about to end */
     setstatus2effect BATTLER_ATTACKER, 0xA
     waitmessage
-    changevar VAR_OP_SET, VAR_34, SPATK_UP
+    changevar VAR_OP_SET, VAR_ADD_EFFECT_ATTRIBUTE, SPATK_UP
     gotosubscript 12
     removeitem BATTLER_ATTACKER
 _End:

@@ -16,18 +16,18 @@ a001_335:
     ifmonstat IF_NOTEQUAL, BATTLER_ADDL_EFFECT, MON_DATA_STAT_STAGE_ATTACK, 0x0, _0030
     ifmonstat IF_EQUAL, BATTLER_ADDL_EFFECT, MON_DATA_STAT_STAGE_SPATK, 0x0, _00CC
 _0030:
-    if IF_MASK, VAR_10, 0x10001, _00B8
-    changevar VAR_OP_SETMASK, VAR_60, 0x80
-    changevar VAR_OP_SET, VAR_34, 0x16
+    if IF_MASK, VAR_MOVE_STATUS, 0x10001, _00B8
+    changevar VAR_OP_SETMASK, VAR_SERVER_STATUS2, 0x80
+    changevar VAR_OP_SET, VAR_ADD_EFFECT_ATTRIBUTE, 0x16
     gotosubscript 12
-    changevar VAR_OP_SETMASK, VAR_06, 0x200000
-    changevar VAR_OP_SET, VAR_34, 0x19
+    changevar VAR_OP_SETMASK, VAR_SERVER_STATUS1, 0x200000
+    changevar VAR_OP_SET, VAR_ADD_EFFECT_ATTRIBUTE, 0x19
     gotosubscript 12
-    changevar VAR_OP_CLEARMASK, VAR_60, 0x2
-    changevar VAR_OP_CLEARMASK, VAR_60, 0x80
+    changevar VAR_OP_CLEARMASK, VAR_SERVER_STATUS2, 0x2
+    changevar VAR_OP_CLEARMASK, VAR_SERVER_STATUS2, 0x80
     endscript
 _00B8:
-    changevar VAR_OP_SETMASK, VAR_10, 0x40
+    changevar VAR_OP_SETMASK, VAR_MOVE_STATUS, 0x40
     endscript
 _00CC:
     printattackmessage
@@ -36,7 +36,7 @@ _00CC:
     printmessage 0x303, 0x2, 0x7, "NaN", "NaN", "NaN", "NaN", "NaN"
     waitmessage
     wait 0x1E
-    changevar VAR_OP_SETMASK, VAR_10, 0x80000000
+    changevar VAR_OP_SETMASK, VAR_MOVE_STATUS, 0x80000000
     endscript
 
 .close

@@ -4573,7 +4573,7 @@ BOOL ScrCmd_GiveTogepiEgg(SCRIPTCONTEXT *ctx) {
     SetMonData(togepi, ID_PARA_waza1 + i, &moveData);
 
     pp = GetMonData(togepi, ID_PARA_pp_max1 + i, 0);
-    SetMonData(togepi, ID_PARA_pp_count1 + i, &pp);
+    SetMonData(togepi, ID_PARA_pp1 + i, &pp);
 
     if (CheckScriptFlag(HIDDEN_ABILITIES_FLAG) == 1 || (gf_rand() % 5 == 0)) // add HA capability
     {

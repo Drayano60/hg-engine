@@ -29,7 +29,7 @@ a001_183:
     /* 0x71 is Damp Rock effect */
     checkitemeffect 0x1, BATTLER_xFF, 0x71, _End
     getitempower BATTLER_xFF, 0x9
-    changevar2 VAR_OP_ADD, VAR_WEATHER_TURNS, VAR_09
+    changevar2 VAR_OP_ADD, VAR_WEATHER_TURNS, VAR_CALCULATION_WORK
 _End:
     endscript
 

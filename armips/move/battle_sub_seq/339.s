@@ -26,7 +26,7 @@ _LightScreen:
 _End:
     endscript
 _Failed:
-    changevar VAR_OP_SETMASK, VAR_10, 0x40
+    changevar VAR_OP_SETMASK, VAR_MOVE_STATUS, 0x40
     endscript
 
 .close

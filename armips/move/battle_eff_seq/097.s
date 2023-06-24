@@ -13,14 +13,14 @@
 
 a030_097:
     gotosubscript 341
-    if IF_MASK, VAR_10, 0x40, Failed // Required to skip over things set before natural failure happens
+    if IF_MASK, VAR_MOVE_STATUS, 0x40, Failed // Required to skip over things set before natural failure happens
     ifmonstat IF_NOTMASK, BATTLER_ATTACKER, MON_DATA_STATUS_1, 0x7, Failed
     gotosubscript 20
     trysleeptalk Failed
     gotosubscript 76
     jumptoeffectscript 0
 Failed:
-    changevar VAR_OP_SETMASK, VAR_10, 0x40
+    changevar VAR_OP_SETMASK, VAR_MOVE_STATUS, 0x40
     endscript
 
 .close

@@ -20,7 +20,7 @@ _Paralyze:
 _Confusion:
     changevar VAR_OP_SET, VAR_ADD_STATUS2, 0x80000007
 _Rest:
-    changevar VAR_OP_SETMASK, VAR_06, 0x4
+    changevar VAR_OP_SETMASK, VAR_SERVER_STATUS1, 0x4
     gotosubscript 343
     endscript
 

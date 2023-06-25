@@ -18999,143 +18999,200 @@ endparty
 /******************************************** Lake of Rage ********************************************/
 
 trainerdata 126, "Andre"
-    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_FISHERMAN
-    battletype SINGLE_BATTLE
+    battletype 0
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
-    battletype2 0
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype2 SINGLE_BATTLE
     endentry
 
-    party 126
-        // mon 0
-        ivs 0
-        abilityslot 0
-        level 27
-        pokemon SPECIES_GYARADOS
-        ballseal 0
-    endparty
-
+party 126
+    ivs 0
+    abilityslot 0
+    level 42
+    pokemon SPECIES_GYARADOS
+    item 0
+    move MOVE_AQUA_TAIL
+    move MOVE_ICE_FANG
+    move MOVE_CRUNCH
+    move MOVE_THRASH
+    ability ABILITY_INTIMIDATE
+    ball ITEM_POKE_BALL
+    setivs 15, 15, 15, 15, 15, 15
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+endparty
 
 trainerdata 127, "Raymond"
-    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_FISHERMAN
-    battletype SINGLE_BATTLE
-    nummons 4
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
-    battletype2 0
+    battletype 0
+    nummons 1
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype2 SINGLE_BATTLE
     endentry
 
-    party 127
-        // mon 0
-        ivs 0
-        abilityslot 0
-        level 22
-        pokemon SPECIES_MAGIKARP
-        ballseal 0
-
-        // mon 1
-        ivs 0
-        abilityslot 0
-        level 22
-        pokemon SPECIES_MAGIKARP
-        ballseal 0
-
-        // mon 2
-        ivs 0
-        abilityslot 0
-        level 22
-        pokemon SPECIES_MAGIKARP
-        ballseal 0
-
-        // mon 3
-        ivs 0
-        abilityslot 0
-        level 22
-        pokemon SPECIES_MAGIKARP
-        ballseal 0
-    endparty
+party 127
+    ivs 0
+    abilityslot 0
+    level 42
+    pokemon SPECIES_MILOTIC
+    item 0
+    move MOVE_WATER_PULSE
+    move MOVE_DISARMING_VOICE
+    move MOVE_CAPTIVATE
+    move MOVE_RECOVER
+    ability ABILITY_MARVEL_SCALE
+    ball ITEM_POKE_BALL
+    setivs 15, 15, 15, 15, 15, 15
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+endparty
 
 trainerdata 116, "Lois"
-    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_ACE_TRAINER_F
-    battletype SINGLE_BATTLE
-    nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
-    battletype2 0
+    battletype 0
+    nummons 3
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype2 SINGLE_BATTLE
     endentry
 
-    party 116
-        // mon 0
-        ivs 50
-        abilityslot 0
-        level 25
-        pokemon SPECIES_MAREEP
-        move MOVE_THUNDER_SHOCK
-        move MOVE_COTTON_SPORE
-        move MOVE_THUNDER_WAVE
-        move MOVE_CHARGE
-        ballseal 0
+party 116
+    ivs 0
+    abilityslot 0
+    level 43
+    pokemon SPECIES_NINETALES
+    item 0
+    move MOVE_FLAMETHROWER
+    move ABILITY_CHANGES_IMPLEMENTED ? MOVE_DAZZLING_GLEAM : MOVE_SHADOW_BALL
+    move MOVE_ENERGY_BALL
+    move MOVE_CONFUSE_RAY
+    ability ABILITY_DROUGHT
+    ball ITEM_POKE_BALL
+    setivs 25, 25, 25, 25, 25, 25
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
 
-        // mon 1
-        ivs 50
-        abilityslot 0
-        level 25
-        pokemon SPECIES_NINETALES
-        move MOVE_FLAMETHROWER
-        move MOVE_QUICK_ATTACK
-        move MOVE_CONFUSE_RAY
-        move MOVE_NASTY_PLOT
-        ballseal 0
-    endparty
+    ivs 0
+    abilityslot 0
+    level 43
+    pokemon SPECIES_JUMPLUFF
+    item 0
+    move MOVE_SEED_BOMB
+    move MOVE_ACROBATICS
+    move MOVE_U_TURN
+    move MOVE_LEECH_SEED
+    ability ABILITY_CHLOROPHYLL
+    ball ITEM_POKE_BALL
+    setivs 25, 25, 25, 25, 25, 25
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level 43
+    pokemon SPECIES_AMPHAROS
+    item 0
+    move MOVE_THUNDERBOLT
+    move MOVE_DRAGON_PULSE
+    move MOVE_SIGNAL_BEAM
+    move MOVE_POWER_GEM
+    ability ABILITY_STATIC
+    ball ITEM_POKE_BALL
+    setivs 25, 25, 25, 25, 25, 25
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+endparty
 
 trainerdata 109, "Alton"
-    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_ACE_TRAINER_M
-    battletype SINGLE_BATTLE
+    battletype 0
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
-    battletype2 0
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype2 SINGLE_BATTLE
     endentry
 
-    party 109
-        // mon 0
-        ivs 50
-        abilityslot 0
-        level 24
-        pokemon SPECIES_IVYSAUR
-        ballseal 0
+party 109
+    ivs 0
+    abilityslot 0
+    level 43
+    pokemon SPECIES_SCEPTILE
+    item 0
+    move MOVE_LEAF_BLADE
+    move MOVE_DRAGON_CLAW
+    move MOVE_X_SCISSOR
+    move MOVE_DETECT
+    ability ABILITY_OVERGROW
+    ball ITEM_POKE_BALL
+    setivs 25, 25, 25, 25, 25, 25
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
 
-        // mon 1
-        ivs 50
-        abilityslot 0
-        level 24
-        pokemon SPECIES_CHARMELEON
-        ballseal 0
+    ivs 0
+    abilityslot 0
+    level 43
+    pokemon SPECIES_BLAZIKEN
+    item 0
+    move MOVE_BLAZE_KICK
+    move MOVE_HIGH_JUMP_KICK
+    move MOVE_AERIAL_ACE
+    move MOVE_FOCUS_ENERGY
+    ability ABILITY_BLAZE
+    ball ITEM_POKE_BALL
+    setivs 25, 25, 25, 25, 25, 25
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
 
-        // mon 2
-        ivs 50
-        abilityslot 0
-        level 24
-        pokemon SPECIES_WARTORTLE
-        ballseal 0
-    endparty
+    ivs 0
+    abilityslot 0
+    level 43
+    pokemon SPECIES_SWAMPERT
+    item 0
+    move MOVE_MUDDY_WATER
+    move MOVE_BULLDOZE
+    move MOVE_HAMMER_ARM
+    move MOVE_ROCK_SLIDE
+    ability ABILITY_TORRENT
+    ball ITEM_POKE_BALL
+    setivs 25, 25, 25, 25, 25, 25
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+endparty
 
 /******************************************** Team Rocket HQ ********************************************/
 

@@ -20546,212 +20546,400 @@ endparty
 /******************************************** Mahogany Gym ********************************************/
 
 trainerdata 480, "Diana"
-    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_SKIER
-    battletype SINGLE_BATTLE
-    nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
-    battletype2 0
+    battletype 0
+    nummons 3
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype2 SINGLE_BATTLE
     endentry
 
-    party 480
-        // mon 0
-        ivs 10
-        abilityslot 0
-        level 29
-        pokemon SPECIES_JYNX
-        ballseal 0
-    endparty
+party 480
+    ivs 0
+    abilityslot 0
+    level 43
+    pokemon SPECIES_JYNX
+    item ITEM_NEVERMELTICE
+    move MOVE_FROST_BREATH
+    move MOVE_PSYCHIC
+    move MOVE_CAPTIVATE
+    move MOVE_LOVELY_KISS
+    ability ABILITY_OBLIVIOUS
+    ball ITEM_POKE_BALL
+    setivs 20, 20, 20, 20, 20, 20
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level 43
+    pokemon SPECIES_DELIBIRD
+    item ITEM_NEVERMELTICE
+    move MOVE_ICE_BEAM
+    move MOVE_AIR_SLASH
+    move MOVE_WATER_PULSE
+    move MOVE_ICE_SHARD
+    ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_TECHNICIAN : ABILITY_VITAL_SPIRIT
+    ball ITEM_POKE_BALL
+    setivs 20, 20, 20, 20, 20, 20
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level 43
+    pokemon SPECIES_WEAVILE
+    item ITEM_NEVERMELTICE
+    move MOVE_ICE_PUNCH
+    move MOVE_NIGHT_SHADE
+    move MOVE_METAL_CLAW
+    move MOVE_QUICK_ATTACK
+    ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_INNER_FOCUS : ABILITY_PRESSURE
+    ball ITEM_POKE_BALL
+    setivs 20, 20, 20, 20, 20, 20
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+endparty
 
 trainerdata 483, "Patton"
-    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_BOARDER
-    battletype SINGLE_BATTLE
-    nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
-    battletype2 0
-    endentry
-
-    party 483
-        // mon 0
-        ivs 10
-        abilityslot 0
-        level 27
-        pokemon SPECIES_SWINUB
-        ballseal 0
-
-        // mon 1
-        ivs 10
-        abilityslot 0
-        level 27
-        pokemon SPECIES_SWINUB
-        ballseal 0
-    endparty
-
-trainerdata 482, "Deandre"
-    trainermontype TRAINER_DATA_TYPE_NOTHING
-    trainerclass CLASS_BOARDER
-    battletype SINGLE_BATTLE
+    battletype 0
     nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
-    battletype2 0
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype2 SINGLE_BATTLE
     endentry
 
-    party 482
-        // mon 0
-        ivs 10
-        abilityslot 0
-        level 25
-        pokemon SPECIES_SEEL
-        ballseal 0
+party 483
+    ivs 0
+    abilityslot 0
+    level 43
+    pokemon SPECIES_PILOSWINE
+    item ITEM_NEVERMELTICE
+    move MOVE_ICICLE_CRASH
+    move MOVE_BULLDOZE
+    move MOVE_FURY_ATTACK
+    move MOVE_ICE_SHARD
+    ability ABILITY_OBLIVIOUS
+    ball ITEM_POKE_BALL
+    setivs 20, 20, 20, 20, 20, 20
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
 
-        // mon 1
-        ivs 10
-        abilityslot 0
-        level 26
-        pokemon SPECIES_DEWGONG
-        ballseal 0
+    ivs 0
+    abilityslot 0
+    level 43
+    pokemon SPECIES_CRYOGONAL
+    item ITEM_NEVERMELTICE
+    move MOVE_FROST_BREATH
+    move MOVE_ANCIENT_POWER
+    move MOVE_CHILLING_WATER
+    move MOVE_SIGNAL_BEAM
+    ability ABILITY_LEVITATE
+    ball ITEM_POKE_BALL
+    setivs 20, 20, 20, 20, 20, 20
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
 
-        // mon 2
-        ivs 10
-        abilityslot 0
-        level 25
-        pokemon SPECIES_SEEL
-        ballseal 0
-    endparty
+    ivs 0
+    abilityslot 0
+    level 43
+    pokemon SPECIES_GLALIE
+    item ITEM_NEVERMELTICE
+    move MOVE_ICE_SPINNER
+    move ALLOW_ILLEGAL_MOVES ? MOVE_ROCK_SLIDE : MOVE_BULLDOZE
+    move MOVE_CRUNCH
+    move MOVE_GYRO_BALL
+    ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_LEVITATE : ABILITY_INNER_FOCUS
+    ball ITEM_POKE_BALL
+    setivs 20, 20, 20, 20, 20, 20
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+endparty
+
+trainerdata 482, "Patton"
+    trainermontype TRAINER_MON_TYPE_FLAGS
+    trainerclass CLASS_BOARDER
+    battletype 0
+    nummons 2
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype2 SINGLE_BATTLE
+    endentry
+
+party 482
+    ivs 0
+    abilityslot 0
+    level 43
+    pokemon SPECIES_DEWGONG
+    item ITEM_NEVERMELTICE
+    move MOVE_AQUA_TAIL
+    move MOVE_ICICLE_SPEAR
+    move MOVE_TAKE_DOWN
+    move MOVE_ENCORE
+    ability ABILITY_THICK_FAT
+    ball ITEM_POKE_BALL
+    setivs 20, 20, 20, 20, 20, 20
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level 43
+    pokemon SPECIES_BEARTIC
+    item ITEM_NEVERMELTICE
+    move MOVE_ICICLE_CRASH
+    move MOVE_NIGHT_SLASH
+    move MOVE_AQUA_JET
+    move MOVE_YAWN
+    ability ABILITY_SNOW_CLOAK
+    ball ITEM_POKE_BALL
+    setivs 20, 20, 20, 20, 20, 20
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+endparty
 
 trainerdata 481, "Jill"
-    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_SKIER
-    battletype SINGLE_BATTLE
-    nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
-    battletype2 0
+    battletype 0
+    nummons 2
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype2 SINGLE_BATTLE
     endentry
 
-    party 481
-        // mon 0
-        ivs 10
-        abilityslot 0
-        level 29
-        pokemon SPECIES_DEWGONG
-        ballseal 0
-    endparty
+party 481
+    ivs 0
+    abilityslot 0
+    level 43
+    pokemon SPECIES_VANILLUXE
+    item ITEM_NEVERMELTICE
+    move MOVE_FREEZE_DRY
+    move MOVE_FLASH_CANNON
+    move MOVE_WATER_PULSE
+    move MOVE_ACID_ARMOR
+    ability ABILITY_SNOW_WARNING
+    ball ITEM_POKE_BALL
+    setivs 20, 20, 20, 20, 20, 20
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level 43
+    pokemon SPECIES_GLACEON
+    item ITEM_NEVERMELTICE
+    move MOVE_FREEZE_DRY
+    move MOVE_SHADOW_BALL
+    move MOVE_MIRROR_COAT
+    move MOVE_BABY_DOLL_EYES
+    ability ABILITY_ICE_BODY
+    ball ITEM_POKE_BALL
+    setivs 20, 20, 20, 20, 20, 20
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+endparty
 
 trainerdata 484, "Gerardo"
-    trainermontype TRAINER_DATA_TYPE_MOVES
-    trainerclass CLASS_BOARDER
-    battletype SINGLE_BATTLE
-    nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
-    battletype2 0
+    trainermontype TRAINER_MON_TYPE_FLAGS
+    trainerclass CLASS_SKIER
+    battletype 0
+    nummons 2
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype2 SINGLE_BATTLE
     endentry
 
-    party 484
-        // mon 0
-        ivs 10
-        abilityslot 0
-        level 25
-        pokemon SPECIES_SHELLDER
-        move MOVE_ICE_SHARD
-        move MOVE_SUPERSONIC
-        move MOVE_ICICLE_SPEAR
-        move MOVE_LEER
-        ballseal 0
+party 484
+    ivs 0
+    abilityslot 0
+    level 43
+    pokemon SPECIES_CLOYSTER
+    item ITEM_NEVERMELTICE
+    move MOVE_SURF
+    move MOVE_ICE_BEAM
+    move MOVE_SIGNAL_BEAM
+    move MOVE_ICE_SHARD
+    ability ABILITY_SHELL_ARMOR
+    ball ITEM_POKE_BALL
+    setivs 20, 20, 20, 20, 20, 20
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
 
-        // mon 1
-        ivs 10
-        abilityslot 0
-        level 26
-        pokemon SPECIES_CLOYSTER
-        move MOVE_ICE_SHARD
-        move MOVE_AURORA_BEAM
-        move MOVE_SUPERSONIC
-        move MOVE_TOXIC_SPIKES
-        ballseal 0
-
-        // mon 2
-        ivs 10
-        abilityslot 0
-        level 25
-        pokemon SPECIES_SEEL
-        move MOVE_ICE_SHARD
-        move MOVE_AQUA_RING
-        move MOVE_ENCORE
-        move MOVE_ICY_WIND
-        ballseal 0
-    endparty
+    ivs 0
+    abilityslot 0
+    level 43
+    pokemon SPECIES_WALREIN
+    item ITEM_NEVERMELTICE
+    move MOVE_LIQUIDATION
+    move MOVE_ICE_FANG
+    move MOVE_CRUNCH
+    move MOVE_HAIL
+    ability ABILITY_ICE_BODY
+    ball ITEM_POKE_BALL
+    setivs 20, 20, 20, 20, 20, 20
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+endparty
 
 trainerdata 32, "Pryce"
-    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
+    trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_LEADER_1
-    battletype SINGLE_BATTLE
-    nummons 3
-    item ITEM_HYPER_POTION
-    item ITEM_FULL_RESTORE
-    item ITEM_NONE
-    item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | F_USE_WEATHER | 0
-    battletype2 0
+    battletype 0
+    nummons 6
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype2 SINGLE_BATTLE
     endentry
 
-    party 32
-        // mon 0
-        ivs 150
-        abilityslot 0
-        level 30
-        pokemon SPECIES_SEEL
-        item ITEM_NONE
-        move MOVE_SNORE
-        move MOVE_HAIL
-        move MOVE_ICY_WIND
-        move MOVE_REST
-        ballseal 0
+party 32
+    ivs 0
+    abilityslot 0
+    level 45
+    pokemon SPECIES_ABOMASNOW
+    item ITEM_ICY_ROCK
+    move MOVE_BLIZZARD
+    move MOVE_WOOD_HAMMER
+    move MOVE_EARTHQUAKE
+    move MOVE_AURORA_VEIL
+    ability ABILITY_SNOW_WARNING
+    ball ITEM_POKE_BALL
+    setivs 30, 30, 30, 30, 30, 30
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_QUIET
+    shinylock 0
+    ballseal 0
 
-        // mon 1
-        ivs 150
-        abilityslot 0
-        level 32
-        pokemon SPECIES_DEWGONG
-        item ITEM_NONE
-        move MOVE_SLEEP_TALK
-        move MOVE_ICE_SHARD
-        move MOVE_AURORA_BEAM
-        move MOVE_REST
-        ballseal 0
+    ivs 0
+    abilityslot 0
+    level 45
+    pokemon SPECIES_DEWGONG
+    item ITEM_AGUAV_BERRY
+    move MOVE_ICE_SPINNER
+    move MOVE_LIQUIDATION
+    move ALLOW_ILLEGAL_MOVES ? MOVE_PLAY_ROUGH : MOVE_SMART_STRIKE
+    move MOVE_FAKE_OUT
+    ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_REFRIGERATE : ABILITY_ICE_BODY
+    ball ITEM_POKE_BALL
+    setivs 30, 30, 30, 30, 30, 30
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_ADAMANT
+    shinylock 0
+    ballseal 0
 
-        // mon 2
-        ivs 150
-        abilityslot 32
-        level 34
-        pokemon SPECIES_PILOSWINE
-        item ITEM_SITRUS_BERRY
-        move MOVE_HAIL
-        move MOVE_ICE_FANG
-        move MOVE_MUD_BOMB
-        move MOVE_BLIZZARD
-        ballseal 0
-    endparty
+    ivs 0
+    abilityslot 0
+    level 45
+    pokemon SPECIES_CLOYSTER
+    item ITEM_FOCUS_SASH
+    move MOVE_ICICLE_SPEAR
+    move MOVE_ROCK_BLAST
+    move MOVE_PIN_MISSILE
+    move MOVE_SHELL_SMASH
+    ability ABILITY_SKILL_LINK
+    ball ITEM_POKE_BALL
+    setivs 30, 30, 30, 30, 30, 30
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_JOLLY
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level 45
+    pokemon SPECIES_LAPRAS
+    item ITEM_ASSAULT_VEST
+    move MOVE_BLIZZARD
+    move MOVE_SURF
+    move MOVE_THUNDERBOLT
+    move MOVE_PSYCHIC
+    ability ABILITY_SHELL_ARMOR
+    ball ITEM_POKE_BALL
+    setivs 30, 30, 30, 30, 30, 30
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_MODEST
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level 45
+    pokemon SPECIES_FROSLASS
+    item ITEM_EXPERT_BELT
+    move MOVE_BLIZZARD
+    move MOVE_SHADOW_BALL
+    move MOVE_THUNDERBOLT
+    move MOVE_HAIL
+    ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_LEVITATE : ABILITY_CURSED_BODY
+    ball ITEM_POKE_BALL
+    setivs 30, 30, 30, 30, 30, 30
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_TIMID
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level 46
+    pokemon SPECIES_MAMOSWINE
+    item ITEM_LIFE_ORB
+    move MOVE_ICICLE_CRASH
+    move MOVE_EARTHQUAKE
+    move MOVE_ROCK_SLIDE
+    move MOVE_ICE_SHARD
+    ability ABILITY_THICK_FAT
+    ball ITEM_POKE_BALL
+    setivs 30, 30, 30, 30, 30, 30
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_JOLLY
+    shinylock 0
+    ballseal 0
+endparty
 
 /******************************************** Ice Path - Lower Floors ********************************************/
 

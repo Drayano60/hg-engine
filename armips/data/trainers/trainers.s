@@ -20944,94 +20944,205 @@ endparty
 /******************************************** Ice Path - Lower Floors ********************************************/
 
 // New, Mickey
-trainerdata 307, "Haar"
-    trainermontype TRAINER_DATA_TYPE_NOTHING
+trainerdata 307, "Ruben"
+    trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_ACE_TRAINER_M
-    battletype SINGLE_BATTLE
-    nummons 4
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
-    battletype2 0
+    battletype 0
+    nummons 3
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype2 SINGLE_BATTLE
     endentry
 
-    party 307
-        // mon 0
-        ivs 0
-        abilityslot 0
-        level 33
-        pokemon SPECIES_GRAVELER
-        ballseal 0
+party 307
+    ivs 0
+    abilityslot 0
+    level 46
+    pokemon SPECIES_EELEKTROSS
+    item 0
+    move MOVE_THUNDERBOLT
+    move MOVE_LIQUIDATION
+    move MOVE_GIGA_DRAIN
+    move MOVE_CRUNCH
+    ability ABILITY_LEVITATE
+    ball ITEM_POKE_BALL
+    setivs 25, 25, 25, 25, 25, 25
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
 
-        // mon 1
-        ivs 0
-        abilityslot 0
-        level 36
-        pokemon SPECIES_GRAVELER
-        ballseal 0
+    ivs 0
+    abilityslot 0
+    level 46
+    pokemon SPECIES_ALAKAZAM
+    item 0
+    move MOVE_PSYCHIC
+    move MOVE_SHADOW_BALL
+    move MOVE_MIRACLE_EYE
+    move MOVE_BARRIER
+    ability ABILITY_INNER_FOCUS
+    ball ITEM_POKE_BALL
+    setivs 25, 25, 25, 25, 25, 25
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
 
-        // mon 2
-        ivs 0
-        abilityslot 0
-        level 40
-        pokemon SPECIES_GOLBAT
-        ballseal 0
-
-        // mon 3
-        ivs 0
-        abilityslot 0
-        level 42
-        pokemon SPECIES_GOLDUCK
-        ballseal 0
-    endparty
+    ivs 0
+    abilityslot 0
+    level 46
+    pokemon SPECIES_GLISCOR
+    item 0
+    move MOVE_BULLDOZE
+    move MOVE_ACROBATICS
+    move MOVE_X_SCISSOR
+    move MOVE_SKY_UPPERCUT
+    ability ABILITY_HYPER_CUTTER
+    ball ITEM_POKE_BALL
+    setivs 25, 25, 25, 25, 25, 25
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+endparty
 
 // New, Mickey
-trainerdata 338, "Jill"
-    trainermontype TRAINER_DATA_TYPE_NOTHING
+trainerdata 338, "Gillian"
+    trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_ACE_TRAINER_F
-    battletype SINGLE_BATTLE
-    nummons 1
-    item ITEM_FULL_RESTORE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
-    battletype2 0
+    battletype 0
+    nummons 3
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype2 SINGLE_BATTLE
     endentry
 
-    party 338
-        // mon 0
-        ivs 0
-        abilityslot 0
-        level 20
-        pokemon SPECIES_PONYTA
-        ballseal 0
-    endparty
+party 338
+    ivs 0
+    abilityslot 0
+    level 46
+    pokemon SPECIES_BLISSEY
+    item 0
+    move MOVE_EGG_BOMB
+    move MOVE_SHADOW_BALL
+    move MOVE_SING
+    move MOVE_SOFT_BOILED
+    ability ABILITY_SERENE_GRACE
+    ball ITEM_POKE_BALL
+    setivs 25, 25, 25, 25, 25, 25
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level 46
+    pokemon SPECIES_ROSERADE
+    item 0
+    move MOVE_MAGICAL_LEAF
+    move MOVE_SLUDGE_BOMB
+    move MOVE_EXTRASENSORY
+    move MOVE_SYNTHESIS
+    ability ABILITY_TECHNICIAN
+    ball ITEM_POKE_BALL
+    setivs 25, 25, 25, 25, 25, 25
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level 46
+    pokemon SPECIES_GARDEVOIR
+    item 0
+    move MOVE_PSYCHIC
+    move MOVE_MOONBLAST
+    move MOVE_MYSTICAL_FIRE
+    move MOVE_WISH
+    ability ABILITY_TRACE
+    ball ITEM_POKE_BALL
+    setivs 25, 25, 25, 25, 25, 25
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+endparty
 
 // New, Mickey
 trainerdata 340, "Marcia"
-    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_ACE_TRAINER_F
-    battletype SINGLE_BATTLE
-    nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
-    battletype2 0
+    battletype 0
+    nummons 3
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype2 SINGLE_BATTLE
     endentry
 
-    party 340
-        // mon 0
-        ivs 0
-        abilityslot 0
-        level 15
-        pokemon SPECIES_SENTRET
-        ballseal 0
-    endparty
+party 340
+    ivs 0
+    abilityslot 0
+    level 46
+    pokemon SPECIES_OMASTAR
+    item 0
+    move MOVE_MUDDY_WATER
+    move MOVE_POWER_GEM
+    move MOVE_EARTH_POWER
+    move MOVE_WITHDRAW
+    ability ABILITY_WEAK_ARMOR
+    ball ITEM_POKE_BALL
+    setivs 25, 25, 25, 25, 25, 25
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level 46
+    pokemon SPECIES_ALTARIA
+    item 0
+    move MOVE_MOONBLAST
+    move MOVE_DRAGON_PULSE
+    move MOVE_DUAL_WINGBEAT
+    move MOVE_SAFEGUARD
+    ability ABILITY_NATURAL_CURE
+    ball ITEM_POKE_BALL
+    setivs 25, 25, 25, 25, 25, 25
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level 46
+    pokemon SPECIES_CHANDELURE
+    item 0
+    move MOVE_HEAT_WAVE
+    move MOVE_SHADOW_BALL
+    move MOVE_CLEAR_SMOG
+    move MOVE_WILL_O_WISP
+    ability ABILITY_FLAME_BODY
+    ball ITEM_POKE_BALL
+    setivs 25, 25, 25, 25, 25, 25
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+endparty
 
 /******************************************** Route 45 - North ********************************************/
 

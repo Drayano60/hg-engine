@@ -24224,12 +24224,12 @@ party 110
     ivs 0
     abilityslot 0
     level 52
-    pokemon SPECIES_SEADRA
+    pokemon SPECIES_GABITE
     item ITEM_DRAGON_FANG
-    move MOVE_SURF
-    move MOVE_DRAGON_PULSE
-    move MOVE_WHIRLPOOL
-    move MOVE_AGILITY
+    move MOVE_DRAGON_RUSH
+    move MOVE_EARTHQUAKE
+    move MOVE_TAKE_DOWN
+    move MOVE_BITE
     ability ABILITY_DAMP
     ball ITEM_POKE_BALL
     setivs 25, 25, 25, 25, 25, 25
@@ -24640,116 +24640,118 @@ endparty
 /******************************************** Dragon's Den ********************************************/
 
 trainerdata 500, "Kobe"
-    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_ACE_TRAINER_M
-    battletype SINGLE_BATTLE
+    battletype 0
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
-    battletype2 0
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype2 SINGLE_BATTLE
     endentry
 
-    party 500
-        // mon 0
-        ivs 50
-        abilityslot 0
-        level 37
-        pokemon SPECIES_DRAGONAIR
-        move MOVE_THUNDER
-        move MOVE_SURF
-        move MOVE_DRAGON_RAGE
-        move MOVE_IRON_TAIL
-        ballseal 0
-    endparty
+party 500
+    ivs 0
+    abilityslot 0
+    level 54
+    pokemon SPECIES_DRUDDIGON
+    item 0
+    move MOVE_DRAGON_CLAW
+    move MOVE_CRUNCH
+    move MOVE_IRON_HEAD
+    move MOVE_REVENGE
+    ability ABILITY_MOLD_BREAKER
+    ball ITEM_POKE_BALL
+    setivs 25, 25, 25, 25, 25, 25
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+endparty
 
 trainerdata 501, "Piper"
-    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_ACE_TRAINER_F
-    battletype SINGLE_BATTLE
-    nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
-    battletype2 0
+    battletype 0
+    nummons 1
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype2 SINGLE_BATTLE
     endentry
 
-    party 501
-        // mon 0
-        ivs 50
-        abilityslot 32
-        level 33
-        pokemon SPECIES_HORSEA
-        move MOVE_SMOKESCREEN
-        move MOVE_LEER
-        move MOVE_BRINE
-        move MOVE_TWISTER
-        ballseal 0
-
-        // mon 1
-        ivs 50
-        abilityslot 32
-        level 33
-        pokemon SPECIES_HORSEA
-        move MOVE_SMOKESCREEN
-        move MOVE_LEER
-        move MOVE_BRINE
-        move MOVE_TWISTER
-        ballseal 0
-
-        // mon 2
-        ivs 50
-        abilityslot 32
-        level 35
-        pokemon SPECIES_SEADRA
-        move MOVE_AGILITY
-        move MOVE_LEER
-        move MOVE_WATERFALL
-        move MOVE_TWISTER
-        ballseal 0
-    endparty
+party 501
+    ivs 0
+    abilityslot 0
+    level 54
+    pokemon SPECIES_ALTARIA
+    item 0
+    move MOVE_DRAGON_CLAW
+    move MOVE_PLAY_ROUGH
+    move MOVE_BRAVE_BIRD
+    move MOVE_DRAGON_DANCE
+    ability ABILITY_NATURAL_CURE
+    ball ITEM_POKE_BALL
+    setivs 25, 25, 25, 25, 25, 25
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+endparty
 
 // Reclassed and renamed
 trainerdata 502, "Deb & Pete"
-    trainermontype TRAINER_DATA_TYPE_MOVES
+    trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_DOUBLE_TEAM
-    battletype SINGLE_BATTLE
+    battletype 0
     nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
-    battletype2 2
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype2 SINGLE_BATTLE
     endentry
 
-    party 502
-        // mon 0
-        ivs 0
-        abilityslot 0
-        level 35
-        pokemon SPECIES_DRATINI
-        move MOVE_THUNDER_WAVE
-        move MOVE_TWISTER
-        move MOVE_THUNDERBOLT
-        move MOVE_HEADBUTT
-        ballseal 0
+party 502
+    ivs 0
+    abilityslot 0
+    level 54
+    pokemon SPECIES_MILOTIC
+    item 0
+    move MOVE_MUDDY_WATER
+    move MOVE_ICY_WIND
+    move MOVE_CAPTIVATE
+    move MOVE_RAIN_DANCE
+    ability ABILITY_COMPETITIVE
+    ball ITEM_POKE_BALL
+    setivs 25, 25, 25, 25, 25, 25
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
 
-        // mon 1
-        ivs 0
-        abilityslot 0
-        level 35
-        pokemon SPECIES_DRATINI
-        move MOVE_THUNDER_WAVE
-        move MOVE_TWISTER
-        move MOVE_SURF
-        move MOVE_HEADBUTT
-        ballseal 0
-    endparty
+    ivs 0
+    abilityslot 0
+    level 54
+    pokemon SPECIES_GYARADOS
+    item 0
+    move MOVE_AQUA_TAIL
+    move MOVE_ICE_FANG
+    move MOVE_HURRICANE
+    move MOVE_DRAGON_TAIL
+    ability ABILITY_INTIMIDATE
+    ball ITEM_POKE_BALL
+    setivs 25, 25, 25, 25, 25, 25
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+endparty
 
 /******************************************** Ecruteak Dance Theater ********************************************/
 /* Kimono Girls */

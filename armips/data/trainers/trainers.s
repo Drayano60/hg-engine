@@ -24758,223 +24758,263 @@ endparty
 
 
 trainerdata 162, "Zuki"
-    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
+    trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_KIMONO_GIRL
-    battletype SINGLE_BATTLE
+    battletype 0
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
-    battletype2 0
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype2 SINGLE_BATTLE
     endentry
 
-    party 162
-        // mon 0
-        ivs 150
-        abilityslot 0
-        level 38
-        pokemon SPECIES_UMBREON
-        item ITEM_NONE
-        move MOVE_LAST_RESORT
-        move MOVE_DARK_PULSE
-        move MOVE_CONFUSE_RAY
-        move MOVE_SHADOW_BALL
-        ballseal 0
-    endparty
+party 162
+    ivs 0
+    abilityslot 0
+    level 55
+    pokemon SPECIES_UMBREON
+    item ITEM_LIGHT_CLAY
+    move MOVE_FOUL_PLAY
+    move MOVE_REFLECT
+    move MOVE_LIGHT_SCREEN
+    move MOVE_HELPING_HAND
+    ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_POISON_SWEAT : ABILITY_INNER_FOCUS
+    ball ITEM_POKE_BALL
+    setivs 30, 30, 30, 30, 30, 30
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_JOLLY
+    shinylock 0
+    ballseal 0
+endparty
 
 trainerdata 160, "Naoko"
-    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
+    trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_KIMONO_GIRL
-    battletype SINGLE_BATTLE
+    battletype 0
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
-    battletype2 0
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype2 SINGLE_BATTLE
     endentry
 
-    party 160
-        // mon 0
-        ivs 150
-        abilityslot 0
-        level 38
-        pokemon SPECIES_ESPEON
-        item ITEM_NONE
-        move MOVE_LAST_RESORT
-        move MOVE_PSYCHIC
-        move MOVE_PSYCH_UP
-        move MOVE_SWIFT
-        ballseal 0
-    endparty
+party 160
+    ivs 0
+    abilityslot 0
+    level 55
+    pokemon SPECIES_ESPEON
+    item ITEM_WISE_GLASSES
+    move MOVE_PSYCHIC
+    move MOVE_POWER_GEM
+    move MOVE_SHADOW_BALL
+    move MOVE_DAZZLING_GLEAM
+    ability ABILITY_MAGIC_BOUNCE
+    ball ITEM_POKE_BALL
+    setivs 30, 30, 30, 30, 30, 30
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_TIMID
+    shinylock 0
+    ballseal 0
+endparty
 
 trainerdata 164, "Miki"
-    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
+    trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_KIMONO_GIRL
-    battletype SINGLE_BATTLE
+    battletype 0
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
-    battletype2 0
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype2 SINGLE_BATTLE
     endentry
 
-    party 164
-        // mon 0
-        ivs 150
-        abilityslot 0
-        level 38
-        pokemon SPECIES_FLAREON
-        item ITEM_NONE
-        move MOVE_LAST_RESORT
-        move MOVE_FIRE_BLAST
-        move MOVE_QUICK_ATTACK
-        move MOVE_WILL_O_WISP
-        ballseal 0
-    endparty
+party 164
+    ivs 0
+    abilityslot 0
+    level 55
+    pokemon SPECIES_FLAREON
+    item ITEM_WHITE_HERB
+    move MOVE_FLARE_BLITZ
+    move MOVE_SUPERPOWER
+    move MOVE_TRAILBLAZE
+    move ALLOW_ILLEGAL_MOVES ? MOVE_WILD_CHARGE : MOVE_DOUBLE_EDGE
+    ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_FUR_CUSHION : ABILITY_GUTS
+    ball ITEM_POKE_BALL
+    setivs 30, 30, 30, 30, 30, 30
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_JOLLY
+    shinylock 0
+    ballseal 0
+endparty
 
 trainerdata 163, "Kuni"
-    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
+    trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_KIMONO_GIRL
-    battletype SINGLE_BATTLE
+    battletype 0
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
-    battletype2 0
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype2 SINGLE_BATTLE
     endentry
 
-    party 163
-        // mon 0
-        ivs 150
-        abilityslot 0
-        level 38
-        pokemon SPECIES_VAPOREON
-        item ITEM_NONE
-        move MOVE_LAST_RESORT
-        move MOVE_SURF
-        move MOVE_QUICK_ATTACK
-        move MOVE_AURORA_BEAM
-        ballseal 0
-    endparty
+party 163
+    ivs 0
+    abilityslot 0
+    level 55
+    pokemon SPECIES_VAPOREON
+    item ITEM_RINDO_BERRY
+    move MOVE_HYDRO_PUMP
+    move MOVE_ICY_WIND
+    move MOVE_HELPING_HAND
+    move MOVE_BABY_DOLL_EYES
+    ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_STORM_DRAIN : ABILITY_WATER_ABSORB
+    ball ITEM_POKE_BALL
+    setivs 30, 30, 30, 30, 30, 30
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_MODEST
+    shinylock 0
+    ballseal 0
+endparty
 
 // New
 trainerdata 999, "Natsuko"
-    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
+    trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_KIMONO_GIRL
-    battletype SINGLE_BATTLE
+    battletype 0
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
-    battletype2 0
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype2 SINGLE_BATTLE
     endentry
 
-    party 999
-        // mon 0
-        ivs 150
-        abilityslot 0
-        level 38
-        pokemon SPECIES_LEAFEON
-        item ITEM_NONE
-        move MOVE_LAST_RESORT
-        move MOVE_THUNDERBOLT
-        move MOVE_DOUBLE_TEAM
-        move MOVE_THUNDER_WAVE
-        ballseal 0
-    endparty
+party 999
+    ivs 0
+    abilityslot 0
+    level 55
+    pokemon SPECIES_LEAFEON
+    item ITEM_SCOPE_LENS
+    move MOVE_LEAF_BLADE
+    move MOVE_X_SCISSOR
+    move MOVE_AERIAL_ACE
+    move ALLOW_ILLEGAL_MOVES ? MOVE_SACRED_SWORD : MOVE_DOUBLE_KICK
+    ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_SHARPNESS : ABILITY_LEAF_GUARD
+    ball ITEM_POKE_BALL
+    setivs 30, 30, 30, 30, 30, 30
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_JOLLY
+    shinylock 0
+    ballseal 0
+endparty
 
 // New
 trainerdata 999, "Fuyuko"
-    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
+    trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_KIMONO_GIRL
-    battletype SINGLE_BATTLE
+    battletype 0
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
-    battletype2 0
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype2 SINGLE_BATTLE
     endentry
 
-    party 999
-        // mon 0
-        ivs 150
-        abilityslot 0
-        level 38
-        pokemon SPECIES_GLACEON
-        item ITEM_NONE
-        move MOVE_LAST_RESORT
-        move MOVE_THUNDERBOLT
-        move MOVE_DOUBLE_TEAM
-        move MOVE_THUNDER_WAVE
-        ballseal 0
-    endparty
+party 999
+    ivs 0
+    abilityslot 0
+    level 55
+    pokemon SPECIES_GLACEON
+    item ITEM_ROCKY_HELMET
+    move MOVE_BLIZZARD
+    move MOVE_CHILLING_WATER
+    move MOVE_HELPING_HAND
+    move MOVE_BABY_DOLL_EYES
+    ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_ICE_SPIKES : ABILITY_SNOW_CLOAK
+    ball ITEM_POKE_BALL
+    setivs 30, 30, 30, 30, 30, 30
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_MODEST
+    shinylock 0
+    ballseal 0
+endparty
 
 trainerdata 161, "Sayo"
-    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
+    trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_KIMONO_GIRL
-    battletype SINGLE_BATTLE
+    battletype 0
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
-    battletype2 0
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype2 SINGLE_BATTLE
     endentry
 
-    party 161
-        // mon 0
-        ivs 150
-        abilityslot 0
-        level 38
-        pokemon SPECIES_JOLTEON
-        item ITEM_NONE
-        move MOVE_LAST_RESORT
-        move MOVE_THUNDERBOLT
-        move MOVE_DOUBLE_TEAM
-        move MOVE_THUNDER_WAVE
-        ballseal 0
-    endparty
+party 161
+    ivs 0
+    abilityslot 0
+    level 55
+    pokemon SPECIES_JOLTEON
+    item ITEM_WISE_GLASSES
+    move MOVE_THUNDERBOLT
+    move MOVE_GRASS_KNOT
+    move MOVE_CHARM
+    move MOVE_HELPING_HAND
+    ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_STATIC : ABILITY_VOLT_ABSORB
+    ball ITEM_POKE_BALL
+    setivs 30, 30, 30, 30, 30, 30
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_TIMID
+    shinylock 0
+    ballseal 0
+endparty
 
 // New
 trainerdata 999, "Haruko"
-    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
+    trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_KIMONO_GIRL
-    battletype SINGLE_BATTLE
+    battletype 0
     nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
-    battletype2 0
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype2 SINGLE_BATTLE
     endentry
 
-    party 999
-        // mon 0
-        ivs 150
-        abilityslot 0
-        level 38
-        pokemon SPECIES_SYLVEON
-        item ITEM_NONE
-        move MOVE_LAST_RESORT
-        move MOVE_THUNDERBOLT
-        move MOVE_DOUBLE_TEAM
-        move MOVE_THUNDER_WAVE
-        ballseal 0
-    endparty
+party 999
+    ivs 0
+    abilityslot 0
+    level 55
+    pokemon SPECIES_SYLVEON
+    item ITEM_THROAT_SPRAY
+    move MOVE_HYPER_VOICE
+    move MOVE_SHADOW_BALL
+    move MOVE_MYSTICAL_FIRE
+    move MOVE_BABY_DOLL_EYES
+    ability ABILITY_PIXILATE
+    ball ITEM_POKE_BALL
+    setivs 30, 30, 30, 30, 30, 30
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_MODEST
+    shinylock 0
+    ballseal 0
+endparty
 
 /******************************************** Bellchime Trail ********************************************/
 
@@ -24993,7 +25033,107 @@ trainerdata 999, "Eusine"
     endentry
 
 party 999
-    /* ... */
+    ivs 0
+    abilityslot 0
+    level 54
+    pokemon SPECIES_HYPNO
+    item ITEM_ZOOM_LENS
+    move MOVE_PSYCHIC
+    move MOVE_FOCUS_BLAST
+    move MOVE_HYPNOSIS
+    move MOVE_NASTY_PLOT
+    ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_BAD_DREAMS : ABILITY_INNER_FOCUS
+    ball ITEM_POKE_BALL
+    setivs 30, 30, 30, 30, 30, 30
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_RELAXED
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level 54
+    pokemon SPECIES_JUMPLUFF
+    item ITEM_ZOOM_LENS
+    move MOVE_ACROBATICS
+    move MOVE_U_TURN
+    move MOVE_TAILWIND
+    move MOVE_SLEEP_POWDER
+    ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_WIND_RIDER : ABILITY_LEAF_GUARD
+    ball ITEM_POKE_BALL
+    setivs 30, 30, 30, 30, 30, 30
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_ADAMANT
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level 54
+    pokemon SPECIES_GENGAR
+    item ITEM_WISE_GLASSES
+    move MOVE_SHADOW_BALL
+    move MOVE_SLUDGE_WAVE
+    move MOVE_FOCUS_BLAST
+    move MOVE_WILL_O_WISP
+    ability ABILITY_LEVITATE
+    ball ITEM_POKE_BALL
+    setivs 30, 30, 30, 30, 30, 30
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_MODEST
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level 54
+    pokemon SPECIES_ELECTRODE
+    item ITEM_AIR_BALLOON
+    move MOVE_VOLT_SWITCH
+    move ALLOW_ILLEGAL_MOVES ? MOVE_BOOMBURST : MOVE_SIGNAL_BEAM
+    move MOVE_EXPLOSION
+    move MOVE_MIRROR_COAT
+    ability ABILITY_STATIC
+    ball ITEM_POKE_BALL
+    setivs 30, 30, 30, 30, 30, 30
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_MODEST
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level 54
+    pokemon SPECIES_NINETALES
+    item ITEM_WISE_GLASSES
+    move MOVE_MYSTICAL_FIRE
+    move ALLOW_ILLEGAL_MOVES ? MOVE_MOONBLAST : MOVE_PSYSHOCK
+    move MOVE_SOLAR_BEAM
+    move MOVE_NASTY_PLOT
+    ability ABILITY_DROUGHT
+    ball ITEM_POKE_BALL
+    setivs 30, 30, 30, 30, 30, 30
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_TIMID
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level 54
+    pokemon SPECIES_POLITOED
+    item ITEM_THROAT_SPRAY
+    move MOVE_HYDRO_PUMP
+    move MOVE_HYPER_VOICE
+    move MOVE_EARTH_POWER
+    move MOVE_PERISH_SONG
+    ability ABILITY_DRIZZLE
+    ball ITEM_POKE_BALL
+    setivs 30, 30, 30, 30, 30, 30
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_TIMID
+    shinylock 0
+    ballseal 0
 endparty
 
 /******************************************** Route 27 ********************************************/

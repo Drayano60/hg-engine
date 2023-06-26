@@ -18086,16 +18086,16 @@ party 33
     abilityslot 0
     level 41
     pokemon SPECIES_BRONZONG
-    item ITEM_LIGHT_CLAY
-    move MOVE_IRON_HEAD
+    item ITEM_DAMP_ROCK
+    move MOVE_GYRO_BALL
     move MOVE_LIGHT_SCREEN
-    move MOVE_REFLECT
+    move MOVE_RAIN_DANCE
     move MOVE_TRICK_ROOM
-    ability ABILITY_LEVITATE
+    ability ABILITY_HEATPROOF
     ball ITEM_POKE_BALL
     setivs 30, 30, 30, 30, 30, 30
     setevs 0, 0, 0, 0, 0, 0
-    nature NATURE_ADAMANT
+    nature NATURE_BRAVE
     shinylock 0
     ballseal 0
 
@@ -18120,10 +18120,10 @@ party 33
     abilityslot 0
     level 41
     pokemon SPECIES_FORRETRESS
-    item ITEM_CUSTAP_BERRY
+    item ITEM_ASSAULT_VEST
     move MOVE_IRON_HEAD
-    move MOVE_TOXIC_SPIKES
-    move MOVE_STEALTH_ROCK
+    move MOVE_EARTHQUAKE
+    move MOVE_ICE_SPINNER
     move MOVE_SELF_DESTRUCT
     ability ABILITY_STURDY
     ball ITEM_POKE_BALL
@@ -18137,9 +18137,9 @@ party 33
     abilityslot 0
     level 41
     pokemon SPECIES_EXCADRILL
-    item ITEM_MUSCLE_BAND
+    item ITEM_OCCA_BERRY
     move MOVE_DRILL_RUN
-    move MOVE_SMART_STRIKE
+    move MOVE_IRON_HEAD
     move MOVE_ROCK_SLIDE
     move MOVE_HONE_CLAWS
     ability ABILITY_MOLD_BREAKER
@@ -18156,8 +18156,8 @@ party 33
     pokemon SPECIES_LUCARIO
     item ITEM_EXPERT_BELT
     move MOVE_IRON_TAIL
-    move MOVE_DRAIN_PUNCH
-    move MOVE_BLAZE_KICK
+    move MOVE_AURA_SPHERE
+    move MOVE_WATER_PULSE
     move MOVE_BULLET_PUNCH
     ability ABILITY_INNER_FOCUS
     ball ITEM_POKE_BALL
@@ -18171,12 +18171,12 @@ party 33
     abilityslot 0
     level 42
     pokemon SPECIES_STEELIX
-    item ITEM_LIFE_ORB
+    item ITEM_CUSTAP_BERRY
     move MOVE_IRON_TAIL
     move MOVE_EARTHQUAKE
     move MOVE_ROCK_SLIDE
-    move MOVE_CRUNCH
-    ability ABILITY_SHEER_FORCE
+    move ALLOW_ILLEGAL_MOVES ? MOVE_COIL : MOVE_CURSE
+    ability ABILITY_STURDY
     ball ITEM_POKE_BALL
     setivs 30, 30, 30, 30, 30, 30
     setevs 0, 0, 0, 0, 0, 0
@@ -29353,7 +29353,7 @@ party 418
     pokemon SPECIES_LUCARIO
     item ITEM_LIFE_ORB
     move MOVE_AURA_SPHERE
-    move MOVE_METEOR_MASH
+    move MOVE_STEEL_BEAM
     move MOVE_DARK_PULSE
     move MOVE_EXTREME_SPEED
     ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_AURA_GUARDIAN : ABILITY_STEADFAST
@@ -29471,7 +29471,7 @@ party 999
     pokemon SPECIES_LUCARIO
     item ITEM_LIFE_ORB
     move MOVE_AURA_SPHERE
-    move MOVE_METEOR_MASH
+    move MOVE_STEEL_BEAM
     move MOVE_DARK_PULSE
     move MOVE_EXTREME_SPEED
     ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_AURA_GUARDIAN : ABILITY_STEADFAST

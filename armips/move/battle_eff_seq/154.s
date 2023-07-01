@@ -12,11 +12,13 @@
 // This used beatupdamagecalc.
 // Any other moves using this need to be added to subscript 366.
 
+// Above now updated after HG-Engine added modern Beat Up effect.
+// No need to call 366 so it just isnt here.
+
 a030_154:
-    changevar VAR_OP_SETMASK, VAR_SERVER_STATUS1, 0x8000
-    gotosubscript 366
-    changevar VAR_OP_SET, VAR_ADD_STATUS1, 0x20000066
-    changevar VAR_OP_SETMASK, VAR_SERVER_STATUS1, 0x10000
+    beatupdamagecalc
+    critcalc
+    damagecalc
     endscript
 
 .close

@@ -24,7 +24,8 @@ a001_366:
     critcalc
 
     // Beat Up and Spit Up use different damagecalc functions.
-    if IF_EQUAL, VAR_CURRENT_MOVE, MOVE_BEAT_UP, BeatUpDamageCalc
+    // Beat Up no longer call this though.
+    // if IF_EQUAL, VAR_CURRENT_MOVE, MOVE_BEAT_UP, BeatUpDamageCalc
     if IF_EQUAL, VAR_CURRENT_MOVE, MOVE_SPIT_UP, SpitUpDamageCalc
 
     damagecalc

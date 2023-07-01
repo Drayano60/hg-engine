@@ -171,7 +171,7 @@ pokemon SPECIES_ZIGZAGOON
 pokemon SPECIES_ZIGZAGOON
 
 // hoenn encounter slots
-pokemon SPECIES_PATRAT
+pokemon SPECIES_SCATTERBUG
 pokemon SPECIES_LILLIPUP
 
 // sinnoh encounter slots
@@ -276,7 +276,7 @@ pokemon SPECIES_CLEFFA
 
 // hoenn encounter slots
 pokemon SPECIES_PATRAT
-pokemon SPECIES_LILLIPUP
+pokemon SPECIES_BUNNELBY
 
 // sinnoh encounter slots
 pokemon SPECIES_NONE
@@ -588,7 +588,7 @@ pokemon SPECIES_SHINX
 
 // hoenn encounter slots
 pokemon SPECIES_PIDOVE
-pokemon SPECIES_PURRLOIN
+pokemon SPECIES_FLETCHLING
 
 // sinnoh encounter slots
 pokemon SPECIES_NONE
@@ -1003,8 +1003,8 @@ pokemon SPECIES_PLUSLE
 pokemon SPECIES_MINUN
 
 // hoenn encounter slots
-pokemon SPECIES_GOTHITA
-pokemon SPECIES_SOLOSIS
+pokemon SPECIES_SPRITZEE
+pokemon SPECIES_SWIRLIX
 
 // sinnoh encounter slots
 pokemon SPECIES_NONE
@@ -1107,8 +1107,8 @@ pokemon SPECIES_MAGNEMITE
 pokemon SPECIES_MAGNEMITE
 
 // hoenn encounter slots
-pokemon SPECIES_KLINK
-pokemon SPECIES_PIDOVE
+pokemon SPECIES_PANCHAM
+pokemon SPECIES_LITLEO
 
 // sinnoh encounter slots
 pokemon SPECIES_NONE
@@ -1524,7 +1524,7 @@ pokemon SPECIES_PACHIRISU
 
 // hoenn encounter slots
 pokemon SPECIES_SCRAGGY
-pokemon SPECIES_DWEBBLE
+pokemon SPECIES_INKAY
 
 // sinnoh encounter slots
 pokemon SPECIES_NONE
@@ -1835,8 +1835,8 @@ pokemon SPECIES_MISDREAVUS
 pokemon SPECIES_MISDREAVUS
 
 // hoenn encounter slots
-pokemon SPECIES_SEWADDLE
-pokemon SPECIES_VENIPEDE
+pokemon SPECIES_PHANTUMP
+pokemon SPECIES_PUMPKABOO
 
 // sinnoh encounter slots
 pokemon SPECIES_NONE
@@ -1939,7 +1939,7 @@ monwithform SPECIES_SHELLOS, 1
 monwithform SPECIES_SHELLOS, 1
 
 // hoenn encounter slots
-pokemon SPECIES_WOOBAT
+pokemon SPECIES_DWEBBLE
 pokemon SPECIES_WOOBAT
 
 // sinnoh encounter slots
@@ -2147,8 +2147,8 @@ pokemon SPECIES_KADABRA
 pokemon SPECIES_KADABRA
 
 // hoenn encounter slots
-pokemon SPECIES_EMOLGA
-pokemon SPECIES_EMOLGA
+pokemon SPECIES_FOONGUS
+pokemon SPECIES_ESPURR
 
 // sinnoh encounter slots
 pokemon SPECIES_NONE
@@ -2355,8 +2355,8 @@ pokemon SPECIES_PLUSLE
 pokemon SPECIES_MINUN
 
 // hoenn encounter slots
-pokemon SPECIES_GOTHITA
-pokemon SPECIES_SOLOSIS
+pokemon SPECIES_SPRITZEE
+pokemon SPECIES_SWIRLIX
 
 // sinnoh encounter slots
 pokemon SPECIES_NONE
@@ -2668,7 +2668,7 @@ pokemon SPECIES_TAUROS
 
 // hoenn encounter slots
 pokemon SPECIES_BLITZLE
-pokemon SPECIES_HERDIER
+pokemon SPECIES_SKIDDO
 
 // sinnoh encounter slots
 pokemon SPECIES_NONE
@@ -2772,7 +2772,7 @@ pokemon SPECIES_ZANGOOSE
 
 // hoenn encounter slots
 pokemon SPECIES_MIENFOO
-pokemon SPECIES_MIENFOO
+pokemon SPECIES_HELIOPTILE
 
 // sinnoh encounter slots
 pokemon SPECIES_NONE
@@ -2876,7 +2876,7 @@ pokemon SPECIES_KANGASKHAN
 
 // hoenn encounter slots
 pokemon SPECIES_FERROSEED
-pokemon SPECIES_ROGGENROLA
+pokemon SPECIES_CARBINK
 
 // sinnoh encounter slots
 pokemon SPECIES_NONE
@@ -2980,7 +2980,7 @@ pokemon SPECIES_DELIBIRD
 
 // hoenn encounter slots
 pokemon SPECIES_KLINK
-pokemon SPECIES_VANILLITE
+pokemon SPECIES_CUBCHOO
 
 // sinnoh encounter slots
 pokemon SPECIES_NONE
@@ -3083,7 +3083,7 @@ pokemon SPECIES_SNORUNT
 pokemon SPECIES_BELDUM
 
 // hoenn encounter slots
-pokemon SPECIES_CUBCHOO
+pokemon SPECIES_BERGMITE
 pokemon SPECIES_VANILLITE
 
 // sinnoh encounter slots
@@ -3500,7 +3500,7 @@ pokemon SPECIES_SLOWKING
 pokemon SPECIES_SLOWKING
 
 // hoenn encounter slots
-pokemon SPECIES_SWOOBAT
+pokemon SPECIES_DWEBBLE
 pokemon SPECIES_SWOOBAT
 
 // sinnoh encounter slots
@@ -3605,7 +3605,7 @@ pokemon SPECIES_TAUROS
 
 // hoenn encounter slots
 pokemon SPECIES_BLITZLE
-pokemon SPECIES_HERDIER
+pokemon SPECIES_SKIDDO
 
 // sinnoh encounter slots
 pokemon SPECIES_NONE
@@ -4332,7 +4332,7 @@ pokemon SPECIES_MISDREAVUS
 pokemon SPECIES_MISDREAVUS
 
 // hoenn encounter slots
-pokemon SPECIES_BOLDORE
+pokemon SPECIES_BINACLE
 pokemon SPECIES_CRUSTLE
 
 // sinnoh encounter slots
@@ -4748,7 +4748,7 @@ monwithform SPECIES_GASTRODON, 0
 monwithform SPECIES_GASTRODON, 1
 
 // hoenn encounter slots
-pokemon SPECIES_SWOOBAT
+pokemon SPECIES_NOIBAT
 pokemon SPECIES_EELEKTRIK
 
 // sinnoh encounter slots
@@ -5373,8 +5373,8 @@ pokemon SPECIES_HITMONCHAN
 pokemon SPECIES_KANGASKHAN
 
 // hoenn encounter slots
-pokemon SPECIES_BOLDORE
 pokemon SPECIES_FERROTHORN
+pokemon SPECIES_CARBINK
 
 // sinnoh encounter slots
 pokemon SPECIES_NONE
@@ -5685,8 +5685,8 @@ pokemon SPECIES_PURUGLY
 pokemon SPECIES_PURUGLY
 
 // hoenn encounter slots
-pokemon SPECIES_SAWK
-pokemon SPECIES_THROH
+pokemon SPECIES_SCRAFTY
+pokemon SPECIES_MALAMAR
 
 // sinnoh encounter slots
 pokemon SPECIES_NONE

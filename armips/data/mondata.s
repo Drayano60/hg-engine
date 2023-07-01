@@ -17984,7 +17984,8 @@ mondata SPECIES_FLETCHLING, "Fletchling"
     mondexweight SPECIES_FLETCHLING, "3.7 lbs."
 
 
-mondata SPECIES_FLETCHINDER, "Fletchinder"
+// Name changed due to 10 char limit
+mondata SPECIES_FLETCHINDER, "Flechinder"
     basestats 62, 73, 55, 84, 56, 52
     types TYPE_FIRE, TYPE_FLYING
     catchrate 120

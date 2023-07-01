@@ -708,9 +708,9 @@
 /* SPECIES_CHESPIN                     */ .halfword ABILITY_BULLETPROOF
 /* SPECIES_QUILLADIN                   */ .halfword ABILITY_BULLETPROOF
 /* SPECIES_CHESNAUGHT                  */ .halfword ABILITY_BULLETPROOF
-/* SPECIES_FENNEKIN                    */ .halfword ABILITY_MAGICIAN
-/* SPECIES_BRAIXEN                     */ .halfword ABILITY_MAGICIAN
-/* SPECIES_DELPHOX                     */ .halfword ABILITY_MAGICIAN
+/* SPECIES_FENNEKIN                    */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_MAGIC_GUARD : ABILITY_MAGICIAN
+/* SPECIES_BRAIXEN                     */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_MAGIC_GUARD : ABILITY_MAGICIAN
+/* SPECIES_DELPHOX                     */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_MAGIC_GUARD : ABILITY_MAGICIAN
 /* SPECIES_FROAKIE                     */ .halfword ABILITY_PROTEAN
 /* SPECIES_FROGADIER                   */ .halfword ABILITY_PROTEAN
 /* SPECIES_GRENINJA                    */ .halfword ABILITY_PROTEAN
@@ -724,9 +724,9 @@
 /* SPECIES_VIVILLON                    */ .halfword ABILITY_FRIEND_GUARD
 /* SPECIES_LITLEO                      */ .halfword ABILITY_MOXIE
 /* SPECIES_PYROAR                      */ .halfword ABILITY_MOXIE
-/* SPECIES_FLABEBE                     */ .halfword ABILITY_SYMBIOSIS
-/* SPECIES_FLOETTE                     */ .halfword ABILITY_SYMBIOSIS
-/* SPECIES_FLORGES                     */ .halfword ABILITY_SYMBIOSIS
+/* SPECIES_FLABEBE                     */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_FLOWER_VEIL : ABILITY_SYMBIOSIS
+/* SPECIES_FLOETTE                     */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_FLOWER_VEIL : ABILITY_SYMBIOSIS
+/* SPECIES_FLORGES                     */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_FLOWER_VEIL : ABILITY_SYMBIOSIS
 /* SPECIES_SKIDDO                      */ .halfword ABILITY_GRASS_PELT
 /* SPECIES_GOGOAT                      */ .halfword ABILITY_GRASS_PELT
 /* SPECIES_PANCHAM                     */ .halfword ABILITY_SCRAPPY
@@ -743,8 +743,8 @@
 /* SPECIES_SLURPUFF                    */ .halfword ABILITY_UNBURDEN
 /* SPECIES_INKAY                       */ .halfword ABILITY_INFILTRATOR
 /* SPECIES_MALAMAR                     */ .halfword ABILITY_INFILTRATOR
-/* SPECIES_BINACLE                     */ .halfword ABILITY_PICKPOCKET
-/* SPECIES_BARBARACLE                  */ .halfword ABILITY_PICKPOCKET
+/* SPECIES_BINACLE                     */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_FRISK : ABILITY_PICKPOCKET
+/* SPECIES_BARBARACLE                  */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_FRISK : ABILITY_PICKPOCKET
 /* SPECIES_SKRELP                      */ .halfword ABILITY_ADAPTABILITY
 /* SPECIES_DRAGALGE                    */ .halfword ABILITY_ADAPTABILITY
 /* SPECIES_CLAUNCHER                   */ .halfword ABILITY_NONE
@@ -762,15 +762,15 @@
 /* SPECIES_GOOMY                       */ .halfword ABILITY_GOOEY
 /* SPECIES_SLIGGOO                     */ .halfword ABILITY_GOOEY
 /* SPECIES_GOODRA                      */ .halfword ABILITY_GOOEY
-/* SPECIES_KLEFKI                      */ .halfword ABILITY_MAGICIAN
+/* SPECIES_KLEFKI                      */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_PRANKSTER : ABILITY_MAGICIAN
 /* SPECIES_PHANTUMP                    */ .halfword ABILITY_HARVEST
 /* SPECIES_TREVENANT                   */ .halfword ABILITY_HARVEST
-/* SPECIES_PUMPKABOO                   */ .halfword ABILITY_INSOMNIA
-/* SPECIES_GOURGEIST                   */ .halfword ABILITY_INSOMNIA
+/* SPECIES_PUMPKABOO                   */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_FLARE_BOOST : ABILITY_INSOMNIA
+/* SPECIES_GOURGEIST                   */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_FLARE_BOOST : ABILITY_INSOMNIA
 /* SPECIES_BERGMITE                    */ .halfword ABILITY_STURDY
 /* SPECIES_AVALUGG                     */ .halfword ABILITY_STURDY
-/* SPECIES_NOIBAT                      */ .halfword ABILITY_TELEPATHY
-/* SPECIES_NOIVERN                     */ .halfword ABILITY_TELEPATHY
+/* SPECIES_NOIBAT                      */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_CACOPHONY : ABILITY_TELEPATHY
+/* SPECIES_NOIVERN                     */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_CACOPHONY : ABILITY_TELEPATHY
 /* SPECIES_XERNEAS                     */ .halfword ABILITY_NONE
 /* SPECIES_YVELTAL                     */ .halfword ABILITY_NONE
 /* SPECIES_ZYGARDE                     */ .halfword ABILITY_NONE
@@ -1135,12 +1135,12 @@
 /* SPECIES_FURFROU_KABUKI              */ .halfword ABILITY_NONE
 /* SPECIES_FURFROU_PHARAOH             */ .halfword ABILITY_NONE
 /* SPECIES_AEGISLASH_BLADE             */ .halfword ABILITY_NONE
-/* SPECIES_PUMPKABOO_SMALL             */ .halfword ABILITY_NONE
-/* SPECIES_PUMPKABOO_LARGE             */ .halfword ABILITY_NONE
-/* SPECIES_PUMPKABOO_SUPER             */ .halfword ABILITY_NONE
-/* SPECIES_GOURGEIST_SMALL             */ .halfword ABILITY_NONE
-/* SPECIES_GOURGEIST_LARGE             */ .halfword ABILITY_NONE
-/* SPECIES_GOURGEIST_SUPER             */ .halfword ABILITY_NONE
+/* SPECIES_PUMPKABOO_SMALL             */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_FLARE_BOOST : ABILITY_INSOMNIA
+/* SPECIES_PUMPKABOO_LARGE             */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_FLARE_BOOST : ABILITY_INSOMNIA
+/* SPECIES_PUMPKABOO_SUPER             */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_FLARE_BOOST : ABILITY_INSOMNIA
+/* SPECIES_GOURGEIST_SMALL             */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_FLARE_BOOST : ABILITY_INSOMNIA
+/* SPECIES_GOURGEIST_LARGE             */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_FLARE_BOOST : ABILITY_INSOMNIA
+/* SPECIES_GOURGEIST_SUPER             */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_FLARE_BOOST : ABILITY_INSOMNIA
 /* SPECIES_XERNEAS_ACTIVE              */ .halfword ABILITY_NONE
 /* SPECIES_ZYGARDE_10                  */ .halfword ABILITY_NONE
 /* SPECIES_ZYGARDE_10_POWER_CONSTRUCT  */ .halfword ABILITY_NONE

@@ -8780,7 +8780,8 @@ evodata SPECIES_GOGOAT
 terminateevodata
 
 evodata SPECIES_PANCHAM
-    evolution EVO_LEVEL_DARK_TYPE_MON_IN_PARTY, 32, SPECIES_PANGORO
+    // evolution EVO_LEVEL_DARK_TYPE_MON_IN_PARTY, 32, SPECIES_PANGORO
+    evolution EVO_LEVEL_UP, 32, SPECIES_PANGORO
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -8876,7 +8877,8 @@ evodata SPECIES_AEGISLASH
 terminateevodata
 
 evodata SPECIES_SPRITZEE
-    evolution EVO_TRADE, 0, SPECIES_AROMATISSE
+    // evolution EVO_TRADE, 0, SPECIES_AROMATISSE
+    evolution EVO_USE_ITEM, ITEM_SHINY_STONE, SPECIES_AROMATISSE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -8900,7 +8902,8 @@ evodata SPECIES_AROMATISSE
 terminateevodata
 
 evodata SPECIES_SWIRLIX
-    evolution EVO_TRADE, 0, SPECIES_SLURPUFF
+    // evolution EVO_TRADE, 0, SPECIES_SLURPUFF
+    evolution EVO_USE_ITEM, ITEM_SHINY_STONE, SPECIES_SLURPUFF
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -8972,7 +8975,8 @@ evodata SPECIES_BARBARACLE
 terminateevodata
 
 evodata SPECIES_SKRELP
-    evolution EVO_LEVEL_UP, 48, SPECIES_DRAGALGE
+    // evolution EVO_LEVEL_UP, 48, SPECIES_DRAGALGE
+    evolution EVO_LEVEL_UP, 36, SPECIES_DRAGALGE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -8996,7 +9000,8 @@ evodata SPECIES_DRAGALGE
 terminateevodata
 
 evodata SPECIES_CLAUNCHER
-    evolution EVO_LEVEL_UP, 37, SPECIES_CLAWITZER
+    // evolution EVO_LEVEL_UP, 37, SPECIES_CLAWITZER
+    evolution EVO_LEVEL_UP, 33, SPECIES_CLAWITZER
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -9044,7 +9049,8 @@ evodata SPECIES_HELIOLISK
 terminateevodata
 
 evodata SPECIES_TYRUNT
-    evolution EVO_LEVEL_DAY, 39, SPECIES_TYRANTRUM
+    // evolution EVO_LEVEL_DAY, 39, SPECIES_TYRANTRUM
+    evolution EVO_LEVEL_UP, 35, SPECIES_TYRANTRUM
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -9068,7 +9074,8 @@ evodata SPECIES_TYRANTRUM
 terminateevodata
 
 evodata SPECIES_AMAURA
-    evolution EVO_LEVEL_UP, 39, SPECIES_AURORUS
+    // evolution EVO_LEVEL_UP, 39, SPECIES_AURORUS
+    evolution EVO_LEVEL_UP, 35, SPECIES_AURORUS
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -9140,7 +9147,8 @@ evodata SPECIES_CARBINK
 terminateevodata
 
 evodata SPECIES_GOOMY
-    evolution EVO_LEVEL_UP, 40, SPECIES_SLIGGOO
+    // evolution EVO_LEVEL_UP, 40, SPECIES_SLIGGOO
+    evolution EVO_LEVEL_UP, 30, SPECIES_SLIGGOO
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -9152,7 +9160,8 @@ evodata SPECIES_GOOMY
 terminateevodata
 
 evodata SPECIES_SLIGGOO
-    evolution EVO_LEVEL_RAIN, 50, SPECIES_GOODRA
+    // evolution EVO_LEVEL_RAIN, 50, SPECIES_GOODRA
+    evolution EVO_LEVEL_UP, 50, SPECIES_GOODRA
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -9188,7 +9197,8 @@ evodata SPECIES_KLEFKI
 terminateevodata
 
 evodata SPECIES_PHANTUMP
-    evolution EVO_TRADE, 0, SPECIES_TREVENANT
+    // evolution EVO_TRADE, 0, SPECIES_TREVENANT
+    evolution EVO_USE_ITEM, ITEM_LINKING_CORD, SPECIES_TREVENANT
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -9212,7 +9222,8 @@ evodata SPECIES_TREVENANT
 terminateevodata
 
 evodata SPECIES_PUMPKABOO
-    evolution EVO_TRADE, 0, SPECIES_GOURGEIST
+    // evolution EVO_TRADE, 0, SPECIES_GOURGEIST
+    evolutionwithform, EVO_USE_ITEM, ITEM_LINKING_CORD, SPECIES_GOURGEIST, 0
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -9236,7 +9247,8 @@ evodata SPECIES_GOURGEIST
 terminateevodata
 
 evodata SPECIES_BERGMITE
-    evolution EVO_LEVEL_UP, 37, SPECIES_AVALUGG
+    // evolution EVO_LEVEL_UP, 37, SPECIES_AVALUGG
+    evolution EVO_LEVEL_UP, 35, SPECIES_BERGMITE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -9260,7 +9272,8 @@ evodata SPECIES_AVALUGG
 terminateevodata
 
 evodata SPECIES_NOIBAT
-    evolution EVO_LEVEL_UP, 48, SPECIES_NOIVERN
+    // evolution EVO_LEVEL_UP, 48, SPECIES_NOIVERN
+    evolution EVO_LEVEL_UP, 38, SPECIES_NOIVERN
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -13658,7 +13671,8 @@ evodata SPECIES_AEGISLASH_BLADE
 terminateevodata
 
 evodata SPECIES_PUMPKABOO_SMALL
-    evolution EVO_TRADE, 0, SPECIES_GOURGEIST
+    // evolution EVO_TRADE, 0, SPECIES_GOURGEIST
+    evolutionwithform, EVO_USE_ITEM, ITEM_LINKING_CORD, SPECIES_GOURGEIST, 1
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -13670,7 +13684,8 @@ evodata SPECIES_PUMPKABOO_SMALL
 terminateevodata
 
 evodata SPECIES_PUMPKABOO_LARGE
-    evolution EVO_TRADE, 0, SPECIES_GOURGEIST
+    // evolution EVO_TRADE, 0, SPECIES_GOURGEIST
+    evolutionwithform, EVO_USE_ITEM, ITEM_LINKING_CORD, SPECIES_GOURGEIST, 2
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -13682,7 +13697,8 @@ evodata SPECIES_PUMPKABOO_LARGE
 terminateevodata
 
 evodata SPECIES_PUMPKABOO_SUPER
-    evolution EVO_TRADE, 0, SPECIES_GOURGEIST
+    // evolution EVO_TRADE, 0, SPECIES_GOURGEIST
+    evolutionwithform, EVO_USE_ITEM, ITEM_LINKING_CORD, SPECIES_GOURGEIST, 3
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE

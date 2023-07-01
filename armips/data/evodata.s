@@ -8722,7 +8722,7 @@ evodata SPECIES_PYROAR
 terminateevodata
 
 evodata SPECIES_FLABEBE
-    evolution EVO_LEVEL_UP, 19, SPECIES_FLOETTE
+    evolutionwithform EVO_LEVEL_UP, 19, SPECIES_FLOETTE, 0
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -8734,7 +8734,7 @@ evodata SPECIES_FLABEBE
 terminateevodata
 
 evodata SPECIES_FLOETTE
-    evolution EVO_USE_ITEM, ITEM_SHINY_STONE, SPECIES_FLORGES
+    evolutionwithform EVO_USE_ITEM, ITEM_SHINY_STONE, SPECIES_FLORGES, 0
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -8953,7 +8953,8 @@ evodata SPECIES_MALAMAR
 terminateevodata
 
 evodata SPECIES_BINACLE
-    evolution EVO_LEVEL_UP, 39, SPECIES_BARBARACLE
+    // evolution EVO_LEVEL_UP, 39, SPECIES_BARBARACLE
+    evolution EVO_LEVEL_UP, 35, SPECIES_BARBARACLE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -13397,7 +13398,7 @@ evodata SPECIES_VIVILLON_POKE_BALL
 terminateevodata
 
 evodata SPECIES_FLABEBE_YELLOW_FLOWER
-    evolution EVO_LEVEL_UP, 19, SPECIES_FLOETTE
+    evolutionwithform EVO_LEVEL_UP, 19, SPECIES_FLOETTE, 1
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -13409,7 +13410,7 @@ evodata SPECIES_FLABEBE_YELLOW_FLOWER
 terminateevodata
 
 evodata SPECIES_FLABEBE_ORANGE_FLOWER
-    evolution EVO_LEVEL_UP, 19, SPECIES_FLOETTE
+    evolutionwithform EVO_LEVEL_UP, 19, SPECIES_FLOETTE, 2
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -13421,7 +13422,7 @@ evodata SPECIES_FLABEBE_ORANGE_FLOWER
 terminateevodata
 
 evodata SPECIES_FLABEBE_BLUE_FLOWER
-    evolution EVO_LEVEL_UP, 19, SPECIES_FLOETTE
+    evolutionwithform EVO_LEVEL_UP, 19, SPECIES_FLOETTE, 3
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -13433,7 +13434,7 @@ evodata SPECIES_FLABEBE_BLUE_FLOWER
 terminateevodata
 
 evodata SPECIES_FLABEBE_WHITE_FLOWER
-    evolution EVO_LEVEL_UP, 19, SPECIES_FLOETTE
+    evolutionwithform EVO_LEVEL_UP, 19, SPECIES_FLOETTE, 4
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -13445,7 +13446,7 @@ evodata SPECIES_FLABEBE_WHITE_FLOWER
 terminateevodata
 
 evodata SPECIES_FLOETTE_YELLOW_FLOWER
-    evolution EVO_USE_ITEM, ITEM_SHINY_STONE, SPECIES_FLORGES
+    evolutionwithform EVO_USE_ITEM, ITEM_SHINY_STONE, SPECIES_FLORGES, 1
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -13457,7 +13458,7 @@ evodata SPECIES_FLOETTE_YELLOW_FLOWER
 terminateevodata
 
 evodata SPECIES_FLOETTE_ORANGE_FLOWER
-    evolution EVO_USE_ITEM, ITEM_SHINY_STONE, SPECIES_FLORGES
+    evolutionwithform EVO_USE_ITEM, ITEM_SHINY_STONE, SPECIES_FLORGES, 2
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -13469,7 +13470,7 @@ evodata SPECIES_FLOETTE_ORANGE_FLOWER
 terminateevodata
 
 evodata SPECIES_FLOETTE_BLUE_FLOWER
-    evolution EVO_USE_ITEM, ITEM_SHINY_STONE, SPECIES_FLORGES
+    evolutionwithform EVO_USE_ITEM, ITEM_SHINY_STONE, SPECIES_FLORGES, 3
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -13481,7 +13482,7 @@ evodata SPECIES_FLOETTE_BLUE_FLOWER
 terminateevodata
 
 evodata SPECIES_FLOETTE_WHITE_FLOWER
-    evolution EVO_USE_ITEM, ITEM_SHINY_STONE, SPECIES_FLORGES
+    evolutionwithform EVO_USE_ITEM, ITEM_SHINY_STONE, SPECIES_FLORGES, 4
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE

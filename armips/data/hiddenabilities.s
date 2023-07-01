@@ -724,9 +724,9 @@
 /* SPECIES_VIVILLON                    */ .halfword ABILITY_FRIEND_GUARD
 /* SPECIES_LITLEO                      */ .halfword ABILITY_MOXIE
 /* SPECIES_PYROAR                      */ .halfword ABILITY_MOXIE
-/* SPECIES_FLABEBE                     */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_FLOWER_VEIL : ABILITY_SYMBIOSIS
-/* SPECIES_FLOETTE                     */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_FLOWER_VEIL : ABILITY_SYMBIOSIS
-/* SPECIES_FLORGES                     */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_FLOWER_VEIL : ABILITY_SYMBIOSIS
+/* SPECIES_FLABEBE                     */ .halfword ABILITY_NONE // No Symbiosis
+/* SPECIES_FLOETTE                     */ .halfword ABILITY_NONE // No Symbiosis
+/* SPECIES_FLORGES                     */ .halfword ABILITY_NONE // No Symbiosis
 /* SPECIES_SKIDDO                      */ .halfword ABILITY_GRASS_PELT
 /* SPECIES_GOGOAT                      */ .halfword ABILITY_GRASS_PELT
 /* SPECIES_PANCHAM                     */ .halfword ABILITY_SCRAPPY

@@ -7430,7 +7430,8 @@ evodata SPECIES_COFAGRIGUS
     terminateevodata
 
 evodata SPECIES_TIRTOUGA
-    evolution EVO_LEVEL_UP, 37, SPECIES_CARRACOSTA
+    // evolution EVO_LEVEL_UP, 37, SPECIES_CARRACOSTA
+    evolution EVO_LEVEL_UP, 35, SPECIES_CARRACOSTA
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -7454,7 +7455,8 @@ evodata SPECIES_CARRACOSTA
     terminateevodata
 
 evodata SPECIES_ARCHEN
-    evolution EVO_LEVEL_UP, 37, SPECIES_ARCHEOPS
+    // evolution EVO_LEVEL_UP, 37, SPECIES_ARCHEOPS
+    evolution EVO_LEVEL_UP, 35, SPECIES_ARCHEOPS
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE

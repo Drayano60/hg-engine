@@ -13840,11 +13840,11 @@ levelup SPECIES_TIRTOUGA
     learnset MOVE_ROCK_SLIDE, 24
     learnset MOVE_AQUA_TAIL, 28
     learnset MOVE_CURSE, 32
-    learnset MOVE_CRUNCH, 36
-    learnset MOVE_IRON_DEFENSE, 42
-    learnset MOVE_SHELL_SMASH, 48
-    learnset MOVE_WAVE_CRASH, 54
-    learnset MOVE_HYDRO_PUMP, 60
+    learnset MOVE_CRUNCH, 38
+    learnset MOVE_IRON_DEFENSE, 44
+    learnset MOVE_SHELL_SMASH, 50
+    learnset MOVE_WAVE_CRASH, 56
+    learnset MOVE_HYDRO_PUMP, 62
     terminatelearnset
 
 // NEW: Wave Crash
@@ -13863,11 +13863,11 @@ levelup SPECIES_CARRACOSTA
     learnset MOVE_ROCK_SLIDE, 24
     learnset MOVE_AQUA_TAIL, 28
     learnset MOVE_CURSE, 32
-    learnset MOVE_CRUNCH, 36
-    learnset MOVE_IRON_DEFENSE, 42
-    learnset MOVE_SHELL_SMASH, 48
-    learnset MOVE_WAVE_CRASH, 54
-    learnset MOVE_HYDRO_PUMP, 60
+    learnset MOVE_CRUNCH, 38
+    learnset MOVE_IRON_DEFENSE, 44
+    learnset MOVE_SHELL_SMASH, 50
+    learnset MOVE_WAVE_CRASH, 56
+    learnset MOVE_HYDRO_PUMP, 62
     terminatelearnset
 
 levelup SPECIES_ARCHEN
@@ -13883,11 +13883,11 @@ levelup SPECIES_ARCHEN
     learnset MOVE_ROCK_SLIDE, 24
     learnset MOVE_ACROBATICS, 28
     learnset MOVE_AGILITY, 32
-    learnset MOVE_CRUNCH, 36
-    learnset MOVE_THRASH, 42
-    learnset MOVE_TAILWIND, 48
-    learnset MOVE_ENDEAVOR, 54
-    learnset MOVE_HEAD_SMASH, 60
+    learnset MOVE_CRUNCH, 38
+    learnset MOVE_THRASH, 44
+    learnset MOVE_TAILWIND, 50
+    learnset MOVE_ENDEAVOR, 56
+    learnset MOVE_HEAD_SMASH, 62
     terminatelearnset
 
 levelup SPECIES_ARCHEOPS
@@ -13904,12 +13904,12 @@ levelup SPECIES_ARCHEOPS
     learnset MOVE_ROCK_SLIDE, 24
     learnset MOVE_ACROBATICS, 28
     learnset MOVE_AGILITY, 32
-    learnset MOVE_CRUNCH, 36
-    learnset MOVE_THRASH, 42
-    learnset MOVE_TAILWIND, 48
-    learnset MOVE_ENDEAVOR, 54
-    learnset MOVE_HEAD_SMASH, 60
-    learnset MOVE_SKY_ATTACK, 66
+    learnset MOVE_CRUNCH, 38
+    learnset MOVE_THRASH, 44
+    learnset MOVE_TAILWIND, 50
+    learnset MOVE_ENDEAVOR, 56
+    learnset MOVE_HEAD_SMASH, 62
+    learnset MOVE_SKY_ATTACK, 68
     terminatelearnset
 
 levelup SPECIES_TRUBBISH

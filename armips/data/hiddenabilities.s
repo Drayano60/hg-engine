@@ -737,8 +737,8 @@
 /* SPECIES_HONEDGE                     */ .halfword ABILITY_NONE
 /* SPECIES_DOUBLADE                    */ .halfword ABILITY_NONE
 /* SPECIES_AEGISLASH                   */ .halfword ABILITY_NONE
-/* SPECIES_SPRITZEE                    */ .halfword ABILITY_AROMA_VEIL
-/* SPECIES_AROMATISSE                  */ .halfword ABILITY_AROMA_VEIL
+/* SPECIES_SPRITZEE                    */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_TRIAGE : ABILITY_AROMA_VEIL
+/* SPECIES_AROMATISSE                  */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_TRIAGE : ABILITY_AROMA_VEIL
 /* SPECIES_SWIRLIX                     */ .halfword ABILITY_UNBURDEN
 /* SPECIES_SLURPUFF                    */ .halfword ABILITY_UNBURDEN
 /* SPECIES_INKAY                       */ .halfword ABILITY_INFILTRATOR

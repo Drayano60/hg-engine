@@ -18443,6 +18443,7 @@ mondata SPECIES_AEGISLASH, "Aegislash"
     mondexweight SPECIES_AEGISLASH, "116.8 lbs."
 
 
+// ABILITY: Aroma Veil (1, 2), Triage (HA)
 mondata SPECIES_SPRITZEE, "Spritzee"
     basestats 78, 52, 60, 23, 63, 65
     types TYPE_FAIRY, TYPE_FAIRY
@@ -18455,7 +18456,11 @@ mondata SPECIES_SPRITZEE, "Spritzee"
     basefriendship 70 // raised up again
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FAIRY, EGG_GROUP_FAIRY
-    abilities ABILITY_HEALER, ABILITY_NONE
+    .if ABILITY_CHANGES_IMPLEMENTED
+        abilities ABILITY_AROMA_VEIL, ABILITY_AROMA_VEIL
+    .else
+        abilities ABILITY_HEALER, ABILITY_NONE
+    .endif
     runchance 25
     colorflip BODY_COLOR_PINK, 0
     tmdata SPECIES_SPRITZEE_TM_DATA_0, SPECIES_SPRITZEE_TM_DATA_1, SPECIES_SPRITZEE_TM_DATA_2, SPECIES_SPRITZEE_TM_DATA_3
@@ -18466,6 +18471,7 @@ mondata SPECIES_SPRITZEE, "Spritzee"
 
 
 // STATS: 89 >> 99 SpDef | 462 >> 472 BST
+// ABILITY: Aroma Veil (1, 2), Triage (HA)
 mondata SPECIES_AROMATISSE, "Aromatisse"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 101, 72, 72, 29, 99, 99
@@ -18482,7 +18488,11 @@ mondata SPECIES_AROMATISSE, "Aromatisse"
     basefriendship 70 // raised up again
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FAIRY, EGG_GROUP_FAIRY
-    abilities ABILITY_HEALER, ABILITY_NONE
+    .if ABILITY_CHANGES_IMPLEMENTED
+        abilities ABILITY_AROMA_VEIL, ABILITY_AROMA_VEIL
+    .else
+        abilities ABILITY_HEALER, ABILITY_NONE
+    .endif
     runchance 25
     colorflip BODY_COLOR_PINK, 0
     tmdata SPECIES_AROMATISSE_TM_DATA_0, SPECIES_AROMATISSE_TM_DATA_1, SPECIES_AROMATISSE_TM_DATA_2, SPECIES_AROMATISSE_TM_DATA_3

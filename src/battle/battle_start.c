@@ -337,7 +337,7 @@ void ServerWazaBefore(void *bw, struct BattleStruct *sp)
         case SEQ_DEFENCE_CHANGE_CHECK:
             ST_ServerDefenceClientTokuseiCheck(bw, sp, sp->attack_client, sp->current_move_index);//8019158h
             sp->wb_seq_no++;
-            break;
+            // break;
         case SEQ_PROTEAN_CHECK:
             if (sp->battlemon[sp->attack_client].ability == ABILITY_PROTEAN
                 && (sp->battlemon[sp->attack_client].type1 != sp->moveTbl[sp->current_move_index].type  // if either type is not the move's type
@@ -359,7 +359,8 @@ void ServerWazaBefore(void *bw, struct BattleStruct *sp)
         case SEQ_STANCE_CHANGE_CHECK: //TODO test this - no clue if this actually will work
             if (sp->battlemon[sp->attack_client].ability == ABILITY_STANCE_CHANGE && sp->battlemon[sp->attack_client].species == SPECIES_AEGISLASH)
             {
-                if (sp->current_move_index == MOVE_KINGS_SHIELD && sp->battlemon[sp->attack_client].form_no == 1)
+                // if (sp->current_move_index == MOVE_KINGS_SHIELD && sp->battlemon[sp->attack_client].form_no == 1)
+                if (sp->current_move_index == MOVE_PROTECT && sp->battlemon[sp->attack_client].form_no == 1) // Protect is used as King's Shield isn't in
                 {
                     //CODE HAS NOT BEEN TESTED
                     sp->battlemon[sp->client_work].form_no = 0;

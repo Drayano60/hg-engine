@@ -13111,7 +13111,7 @@ trainerdata 46, "Martha"
     battletype2 SINGLE_BATTLE
     endentry
 
-party 493
+party 46
     ivs 0
     abilityslot 0
     level 31

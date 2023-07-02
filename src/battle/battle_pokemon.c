@@ -961,6 +961,7 @@ void ClearBattleMonFlags(struct BattleStruct *sp, int client)
     sp->battlemon[client].text_on_ability_entry_flag = 0;
     sp->battlemon[client].text_on_item_entry_flag = 0;
     sp->battlemon[client].echoed_voice_count = 0;
+    sp->battlemon[client].protean_flag = 0;
 }
 
 

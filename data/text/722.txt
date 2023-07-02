@@ -168,7 +168,7 @@ Gives +1 priority to\nFlying-type moves.
 Contact with it lowers the\nattacker’s Speed stat.
 Powers up aura and pulse\nmoves by 50%.
 Normal-type moves become\nFairy and do 20% more.
-Changes the Pokémon’s\ntype to its move’s type.
+Once per switch-in, it will\nbecome its move’s type.
 Normal-type moves become\nIce and do 20% more.
 Powers up biting moves\nby 33%.
 Powers up moves that\nmake contact by 20%.

@@ -1423,3 +1423,6 @@ The foe’s {STRVAR_1 1, 0, 0} floats in the air\nwith its {STRVAR_1 8, 1, 0}!
 {STRVAR_1 1, 0, 0}’s {STRVAR_1 8, 1, 0} popped!
 The wild {STRVAR_1 1, 0, 0}’s {STRVAR_1 8, 1, 0}\npopped!
 The foe’s {STRVAR_1 1, 0, 0}’s {STRVAR_1 8, 1, 0}\npopped!
+{STRVAR_1 1, 0, 0} surrounded itself\nwith a veil of petals!
+The wild {STRVAR_1 1, 0, 0} surrounded\nitself with a veil of petals!
+The foe’s {STRVAR_1 1, 0, 0} surrounded\nitself with a veil of petals!

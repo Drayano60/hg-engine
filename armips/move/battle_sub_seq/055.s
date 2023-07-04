@@ -52,6 +52,7 @@ _0108:
     goto _0250
 _018C:
     wait 0x1E
+    abilitycheck 0x0, BATTLER_ATTACKER, ABILITY_SWEET_VEIL, _SweetVeilMsg
     printmessage 0x149, 0xB, 0x1, 0x1, "NaN", "NaN", "NaN", "NaN"
     goto _0240
 _01B0:
@@ -76,5 +77,8 @@ _0250:
     waitmessage
     wait 0x1E
     endscript
+_SweetVeilMsg:
+    printmessage 1431, 0xB, 0x1, 0x1, "NaN", "NaN", "NaN", "NaN" 
+    goto _0240
 
 .close

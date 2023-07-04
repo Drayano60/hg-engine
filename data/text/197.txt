@@ -1429,3 +1429,6 @@ The foe’s {STRVAR_1 1, 0, 0} surrounded\nitself with a veil of petals!
 {STRVAR_1 1, 0, 0} is protected\nby an aromatic veil!
 The wild {STRVAR_1 1, 0, 0} is protected\nby an aromatic veil!
 The foe’s {STRVAR_1 1, 0, 0} is protected\nby an aromatic veil!
+{STRVAR_1 1, 0, 0} can’t fall asleep\ndue to a veil of sweetness!
+The wild {STRVAR_1 1, 0, 0} can’t fall asleep\ndue to a veil of sweetness!
+The foe’s {STRVAR_1 1, 0, 0} can’t fall asleep\ndue to a veil of sweetness!

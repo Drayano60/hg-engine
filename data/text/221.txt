@@ -595,5 +595,9 @@ An item to be held by a Pokémon. If the\nholder is hit by a move it is weak to,
 An item to be held by a Pokémon.\nThe holder floats in the air until hit.\nThis item bursts when the holder is hit.
 Also known as the Heavy-Duty Boots.\nThese boots protect the holder from\ntraps set on the battlefield.
 A fossil of an ancient Pokémon that\nlived in the sea. It appears to be\npart of its back.
-A fossil of an ancient Pokémon that\nlived in the sea. It appears to be\npart of its wing.
+A fossil of an ancient Pokémon that\nlived in the sky. It appears to be\npart of its wing.
+A fossil of an ancient Pokémon that\nlived on the land. It appears to be\npart of a large jaw.
+A fossil of an ancient Pokémon that\nlived in the land. It appears to be\nan impression of a skin sail.
+A soft and sweet treat made of fluffy,\npuffy, whipped, and whirled cream.\nIt’s loved by a certain Pokémon. 
+A sachet filled with fragrant perfumes\nthat are just slightly too overwhelming.\nIt’s loved by a certain Pokémon.
 -

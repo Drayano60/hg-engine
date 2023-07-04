@@ -18149,7 +18149,7 @@ mondata SPECIES_PYROAR, "Pyroar"
     mondexweight SPECIES_PYROAR, "179.7 lbs."
 
 
-// ABILITY: Flower Veil (HA)
+// ABILITY: Serene Grace (HA)
 mondata SPECIES_FLABEBE, "Flabébé"
     basestats 44, 38, 39, 42, 61, 79
     types TYPE_FAIRY, TYPE_FAIRY
@@ -18172,7 +18172,7 @@ mondata SPECIES_FLABEBE, "Flabébé"
     mondexweight SPECIES_FLABEBE, "0.2 lbs."
 
 
-// ABILITY: Flower Veil (HA)
+// ABILITY: Serene Grace (HA)
 mondata SPECIES_FLOETTE, "Floette"
     basestats 54, 45, 47, 52, 75, 98
     types TYPE_FAIRY, TYPE_FAIRY
@@ -18195,7 +18195,7 @@ mondata SPECIES_FLOETTE, "Floette"
     mondexweight SPECIES_FLOETTE, "2.0 lbs."
 
 
-// ABILITY: Flower Veil (HA)
+// ABILITY: Serene Grace (HA)
 mondata SPECIES_FLORGES, "Florges"
     basestats 78, 65, 68, 75, 112, 154
     types TYPE_FAIRY, TYPE_FAIRY

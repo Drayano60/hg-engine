@@ -30,7 +30,8 @@ a010_514:
     resetsprite 1
     resetsprite 2
     resetsprite 3
-    playsepan 2037, 0
+    playsepan 1914, 0
+    playsepan 2041, 0
     // addparticle 0, 0, 17
     // cmd37 6, 0, 2, 3, 0, 0, 0, "NaN", "NaN"
     // cmd37 4, 1, -2000, 8000, 0, "NaN", "NaN", "NaN", "NaN"
@@ -40,6 +41,8 @@ a010_514:
     callfunction 34, 5, 16, 0, 2, 23199, 12, "NaN", "NaN", "NaN", "NaN", "NaN"
     waitparticle
     unloadparticle 0
+    stopse 1914
+    stopse 2041
     end
     
 

@@ -16,6 +16,7 @@ a001_055:
     waitmessage
     abilitycheck 0x0, BATTLER_ATTACKER, ABILITY_INSOMNIA, _018C
     abilitycheck 0x0, BATTLER_ATTACKER, ABILITY_VITAL_SPIRIT, _018C
+    abilitycheck 0x0, BATTLER_ATTACKER, ABILITY_SWEET_VEIL, _018C
 
     /* Leaf Guard should also prevent Rest in sunlight */
     checkcloudnine _SoundproofUproarCheck

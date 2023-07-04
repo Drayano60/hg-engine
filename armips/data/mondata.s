@@ -18457,7 +18457,7 @@ mondata SPECIES_SPRITZEE, "Spritzee"
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FAIRY, EGG_GROUP_FAIRY
     .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_AROMA_VEIL, ABILITY_AROMA_VEIL
+        abilities ABILITY_AROMA_VEIL, ABILITY_NONE
     .else
         abilities ABILITY_HEALER, ABILITY_NONE
     .endif
@@ -18489,7 +18489,7 @@ mondata SPECIES_AROMATISSE, "Aromatisse"
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FAIRY, EGG_GROUP_FAIRY
     .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_AROMA_VEIL, ABILITY_AROMA_VEIL
+        abilities ABILITY_AROMA_VEIL, ABILITY_NONE
     .else
         abilities ABILITY_HEALER, ABILITY_NONE
     .endif

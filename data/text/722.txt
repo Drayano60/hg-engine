@@ -207,7 +207,7 @@ Doubles the power of its\nsound-based moves.
 Damaging moves hit twice.\nSecond hit is 25% damage.
 Wind moves do no damage\nand boost its Attack stat.
 Protects itself and allies\nfrom a foe’s stat drops.
-Protects itself and allies\nfrom move choice limits.
-Prevents itself and allies\nfrom falling asleep.
+Protects the Pokémon\nfrom Taunt, Attract, etc.
+Prevents the Pokémon\nfrom falling asleep.
 Changes form when it uses\nProtect or if it attacks.
 Boosts the Pokémon’s\nDefense stat by 20%.

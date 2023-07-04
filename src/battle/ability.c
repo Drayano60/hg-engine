@@ -1859,6 +1859,7 @@ BOOL MoveHitDefenderAbilityCheck(void *bw, struct BattleStruct *sp, int *seq_no)
                 && ((sp->oneSelfFlag[sp->defence_client].physical_damage) ||
                     (sp->oneSelfFlag[sp->defence_client].special_damage))
                 && (sp->moveTbl[sp->current_move_index].flag & FLAG_CONTACT)
+                && (GetBattlerAbility(sp, sp->attack_client) != ABILITY_AROMA_VEIL) // Aroma Veil prevents Cute Charm from working
                 && (sp->battlemon[sp->defence_client].hp)
                 && (BattleRand(bw) % 10 < 3)) {
                 sp->addeffect_type = ADD_STATUS_ABILITY;
@@ -2154,6 +2155,7 @@ BOOL MoveHitDefenderAbilityCheck(void *bw, struct BattleStruct *sp, int *seq_no)
              && sp->battlemon[sp->attack_client].pp[move_pos] != 0 // pp is nonzero
              && sp->current_move_index != 0 // a move has already been used
              && sp->moveTbl[sp->current_move_index].power != 0
+             && (GetBattlerAbility(sp, sp->attack_client) != ABILITY_AROMA_VEIL) // Aroma Veil prevents Cursed Body from working
              && BattleRand(bw) % 10 < 3)
             {
                 sp->waza_work = sp->current_move_index;

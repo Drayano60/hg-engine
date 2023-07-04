@@ -878,6 +878,7 @@ levelup SPECIES_CLEFFA
     learnset MOVE_MAGICAL_LEAF, 25
     terminatelearnset
 
+// NEW: Lunar Dance
 levelup SPECIES_CLEFAIRY
     learnset MOVE_HELPING_HAND, 1
     learnset MOVE_POUND, 1
@@ -902,7 +903,7 @@ levelup SPECIES_CLEFAIRY
     learnset MOVE_LUNAR_DANCE, 60
     terminatelearnset
 
-// NEW: Teleport (LGPE)
+// NEW: Teleport (LGPE), Lunar Dance
 levelup SPECIES_CLEFABLE
     learnset MOVE_AROMATHERAPY, 1
     learnset MOVE_HEALING_WISH, 1

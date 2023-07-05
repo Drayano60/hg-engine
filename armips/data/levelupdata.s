@@ -15212,6 +15212,7 @@ levelup SPECIES_SHELMET
 
 // Evolution: Linking Cord
 levelup SPECIES_ACCELGOR
+    learnset MOVE_WATER_SHURIKEN, 1
     learnset MOVE_SKITTER_SMACK, 1
     learnset MOVE_MIND_READER, 1
     learnset MOVE_TOXIC_SPIKES, 1

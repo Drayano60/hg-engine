@@ -9645,38 +9645,37 @@ movedata MOVE_LEAF_TORNADO, "Leaf Tornado"
     terminatedata
     movedescription MOVE_LEAF_TORNADO, "The user attacks the\nfoe by encircling it\nin sharp leaves.\nThis has a 50% chance\nto lower accuracy."
 
-// Copy of Hidden Power with fixed type, for AI use only
-movedata MOVE_HIDDEN_POWER_FLYING, "Hidden Power"
-    battleeffect 0
+movedata MOVE_PARABOLIC_CHARGE, "Parabolic Chrg."
+    battleeffect 3
     pss SPLIT_SPECIAL
-    basepower 60
-    type TYPE_FLYING
+    basepower 65
+    type TYPE_ELECTRIC
     accuracy 100
-    pp 15
+    pp 20
     effectchance 0
-    target MOVE_TARGET_SELECTED
+    target MOVE_TARGET_FOES_AND_ALLY
     priority 0
     flags FLAG_MIRROR_MOVE | FLAG_PROTECT
     appeal 0
     contesttype 0
     terminatedata
-    movedescription MOVE_HIDDEN_POWER_FLYING, "FOR AI ONLY"
+    movedescription MOVE_PARABOLIC_CHARGE, "The user attacks all\nother Pokémon. The\nuser’s HP is restored\nby half the damage\ntaken by those hit."
 
-movedatanoname NUM_OF_MOVES+1
-    battleeffect 0
+movedata MOVE_WATER_SHURIKEN, "Water Shuriken"
+    battleeffect 29
     pss SPLIT_SPECIAL
-    basepower 100
-    type TYPE_NORMAL
+    basepower 15
+    type TYPE_WATER
     accuracy 100
-    pp 10
+    pp 20
     effectchance 0
-    target 0x0000
-    priority 0
-    flags 0x32
+    target MOVE_TARGET_SELECTED
+    priority 1
+    flags FLAG_MIRROR_MOVE | FLAG_PROTECT
     appeal 0
     contesttype 0
     terminatedata
-
+    movedescription MOVE_WATER_SHURIKEN, "The user hits the foe\nwith throwing stars\ntwo to five times in\na row. This move\nalways goes first."
 
 /* Moves I didn't use afterwards
 --

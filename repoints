@@ -37,3 +37,15 @@ arm9 TrainerMusicTable 08051890
 0001 MoveTutorTable 02202DFC
 0001 MoveTutorTable 0220304C
 0001 MoveTutorTable+2 02202C24
+
+# repoint the type effectiveness table
+0012 TypeEffectivenessTable+1 02251D20
+0012 TypeEffectivenessTable+2 02251D24
+0012 TypeEffectivenessTable 0225204C
+0012 TypeEffectivenessTable 02252174
+0012 TypeEffectivenessTable+1 022521C0
+0012 TypeEffectivenessTable+2 022521C4
+0012 TypeEffectivenessTable 02252640
+0012 TypeEffectivenessTable+1 02252644
+0012 TypeEffectivenessTable+2 02252648
+0012 TypeEffectivenessTable 02252694

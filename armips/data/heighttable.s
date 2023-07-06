@@ -749,7 +749,7 @@ heightentry SPECIES_SWIRLIX, 9, 9, 0, 0
 heightentry SPECIES_SLURPUFF, 3, 3, 13, 13
 heightentry SPECIES_INKAY, 11, 11, 0, 0
 heightentry SPECIES_MALAMAR, 0, 0, 0, 0
-heightentry SPECIES_BINACLE, 5, 5, 0, 0
+heightentry SPECIES_BINACLE, 5, 5, 14, 14
 heightentry SPECIES_BARBARACLE, 4, 4, 0, 0
 heightentry SPECIES_SKRELP, 3, 3, 0, 0
 heightentry SPECIES_DRAGALGE, 0, 0, 0, 0

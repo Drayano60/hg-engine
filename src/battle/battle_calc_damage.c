@@ -323,8 +323,12 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
         attack = attack * 11 / 10;
     }
 
-    if (DefendingMon.ability == ABILITY_BIG_PECKS) {
+    if (CheckDefenceAbility(sp, attacker, defender, ABILITY_BIG_PECKS) == TRUE) {
         defense = defense * 11 / 10;
+    }
+
+    if (CheckDefenceAbility(sp, attacker, defender, ABILITY_GRASS_PELT) == TRUE) {
+        defense = defense * 12 / 10;
     }
 
     // handle huge power + pure power
@@ -514,7 +518,7 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
     }    
 
     // Handle Fluffy
-    if (DefendingMon.ability == ABILITY_FLUFFY) {
+    if ((CheckDefenceAbility(sp, attacker, defender, ABILITY_FLUFFY) == TRUE)) {
         if (sp->moveTbl[sp->current_move_index].flag & FLAG_CONTACT) {
             movepower = movepower * 50 / 100;
         }
@@ -884,7 +888,7 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
     if ((AttackingMon.ability == ABILITY_CACOPHONY) && (sp->moveTbl[sp->current_move_index].flag & FLAG_SOUND)) {
         movepower = movepower * 120 / 100;
     }
-    if ((DefendingMon.ability == ABILITY_CACOPHONY) && (sp->moveTbl[sp->current_move_index].flag & FLAG_SOUND)) {
+    if ((CheckDefenceAbility(sp, attacker, defender, ABILITY_CACOPHONY) == TRUE) && (sp->moveTbl[sp->current_move_index].flag & FLAG_SOUND)) {
         movepower = movepower * 50 / 100;
     }
 
@@ -1150,7 +1154,7 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
 
     //handles multiscale
     // Handle Royal Order, a new ability for Vespiquen
-    if ((DefendingMon.ability == ABILITY_MULTISCALE) && (DefendingMon.hp == DefendingMon.maxhp))
+    if ((CheckDefenceAbility(sp, attacker, defender, ABILITY_MULTISCALE) == TRUE) && (DefendingMon.hp == DefendingMon.maxhp))
     {
         damage /= 2;
     }

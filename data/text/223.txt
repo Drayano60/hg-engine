@@ -596,4 +596,8 @@ an {COLOR 255}Air Balloon{COLOR 0}
 the {COLOR 255}Heavy-Duty Boots{COLOR 0}
 a {COLOR 255}Cover Fossil{COLOR 0}
 a {COLOR 255}Plume Fossil{COLOR 0}
+a {COLOR 255}Jaw Fossil{COLOR 0}
+a {COLOR 255}Sail Fossil{COLOR 0}
+a {COLOR 255}Whipped Dream{COLOR 0}
+a {COLOR 255}Sachet{COLOR 0}
 -

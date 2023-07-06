@@ -16,6 +16,7 @@ a001_018:
     if IF_NOTEQUAL, VAR_ADD_EFFECT_TYPE, 0x4, _00E0
     abilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_INSOMNIA, _032C
     abilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_VITAL_SPIRIT, _032C
+    abilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_SWEET_VEIL, _032C
     checkcloudnine _0080
     if IF_NOTMASK, VAR_FIELD_EFFECT, 0x30, _0080
     abilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_LEAF_GUARD, _032C
@@ -29,6 +30,7 @@ _00C0:
 _00E0:
     moldbreakerabilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_INSOMNIA, _032C
     moldbreakerabilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_VITAL_SPIRIT, _032C
+    moldbreakerabilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_SWEET_VEIL, _032C
     checkcloudnine _0138
     if IF_NOTMASK, VAR_FIELD_EFFECT, 0x30, _0138
     moldbreakerabilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_LEAF_GUARD, _032C
@@ -87,6 +89,7 @@ _032C:
     waitmessage
     wait 0x1E
 _0378:
+    abilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_SWEET_VEIL, _SweetVeilMsg
     printmessage 0x149, 0xB, 0x7, 0x7, "NaN", "NaN", "NaN", "NaN"
     goto _052C
     printmessage 0x2D7, 0x35, 0x7, 0x7, 0xFF, 0x15, "NaN", "NaN"
@@ -130,5 +133,8 @@ _052C:
     changevar VAR_OP_SETMASK, VAR_MOVE_STATUS, 0x80000000
 _0548:
     endscript
+_SweetVeilMsg:
+    printmessage 1431, 0xB, 0x7, 0x7, "NaN", "NaN", "NaN", "NaN" 
+    goto _052C
 
 .close

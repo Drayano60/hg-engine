@@ -961,6 +961,7 @@ void ClearBattleMonFlags(struct BattleStruct *sp, int client)
     sp->battlemon[client].text_on_ability_entry_flag = 0;
     sp->battlemon[client].text_on_item_entry_flag = 0;
     sp->battlemon[client].echoed_voice_count = 0;
+    sp->battlemon[client].protean_flag = 0;
 }
 
 
@@ -970,7 +971,7 @@ u16 SoundProofMovesList[] = {
     MOVE_CHATTER,
     MOVE_CLANGING_SCALES,
     MOVE_CLANGOROUS_SOUL,
-    MOVE_CLANGOROUS_SOULBLAZE,
+    // MOVE_CLANGOROUS_SOULBLAZE,
     MOVE_CONFIDE,
     MOVE_DISARMING_VOICE,
     MOVE_ECHOED_VOICE,
@@ -995,7 +996,7 @@ u16 SoundProofMovesList[] = {
     MOVE_SNORE,
     MOVE_SPARKLING_ARIA,
     MOVE_SUPERSONIC,
-    MOVE_TORCH_SONG,
+    // MOVE_TORCH_SONG,
     MOVE_UPROAR
 };
 

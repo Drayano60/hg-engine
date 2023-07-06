@@ -337,15 +337,17 @@ void ServerWazaBefore(void *bw, struct BattleStruct *sp)
         case SEQ_DEFENCE_CHANGE_CHECK:
             ST_ServerDefenceClientTokuseiCheck(bw, sp, sp->attack_client, sp->current_move_index);//8019158h
             sp->wb_seq_no++;
-            break;
+            // break;
         case SEQ_PROTEAN_CHECK:
             if (sp->battlemon[sp->attack_client].ability == ABILITY_PROTEAN
+                && (sp->battlemon[sp->attack_client].protean_flag == 0) // Gen IX once per switch-in
                 && (sp->battlemon[sp->attack_client].type1 != sp->moveTbl[sp->current_move_index].type  // if either type is not the move's type
                     || sp->battlemon[sp->attack_client].type2 != sp->moveTbl[sp->current_move_index].type)
                 && sp->moveTbl[sp->current_move_index].power != 0) // the move has to have power in order for it to change the type
             {
                 sp->battlemon[sp->attack_client].type1 = sp->moveTbl[sp->current_move_index].type;
                 sp->battlemon[sp->attack_client].type2 = sp->moveTbl[sp->current_move_index].type;
+                sp->battlemon[sp->attack_client].protean_flag = 1;
                 LoadBattleSubSeqScript(sp, FILE_BATTLE_SUB_SCRIPTS, SUB_SEQ_HANDLE_PROTEAN_MESSAGE);
                 sp->msg_work = sp->battlemon[sp->attack_client].type1;
                 sp->client_work = sp->attack_client;
@@ -359,7 +361,8 @@ void ServerWazaBefore(void *bw, struct BattleStruct *sp)
         case SEQ_STANCE_CHANGE_CHECK: //TODO test this - no clue if this actually will work
             if (sp->battlemon[sp->attack_client].ability == ABILITY_STANCE_CHANGE && sp->battlemon[sp->attack_client].species == SPECIES_AEGISLASH)
             {
-                if (sp->current_move_index == MOVE_KINGS_SHIELD && sp->battlemon[sp->attack_client].form_no == 1)
+                // if (sp->current_move_index == MOVE_KINGS_SHIELD && sp->battlemon[sp->attack_client].form_no == 1)
+                if (sp->current_move_index == MOVE_PROTECT && sp->battlemon[sp->attack_client].form_no == 1) // Protect is used as King's Shield isn't in
                 {
                     //CODE HAS NOT BEEN TESTED
                     sp->battlemon[sp->client_work].form_no = 0;

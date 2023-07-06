@@ -168,7 +168,7 @@ Gives +1 priority to\nFlying-type moves.
 Contact with it lowers the\nattacker’s Speed stat.
 Powers up aura and pulse\nmoves by 50%.
 Normal-type moves become\nFairy and do 20% more.
-Changes the Pokémon’s\ntype to its move’s type.
+Once per switch-in, it will\nbecome its move’s type.
 Normal-type moves become\nIce and do 20% more.
 Powers up biting moves\nby 33%.
 Powers up moves that\nmake contact by 20%.
@@ -206,3 +206,9 @@ Powers up wind-based\nmoves by 50%.
 Doubles the power of its\nsound-based moves.
 Damaging moves hit twice.\nSecond hit is 25% damage.
 Wind moves do no damage\nand boost its Attack stat.
+Protects itself and allies\nfrom a foe’s stat drops.
+Protects the Pokémon\nfrom Taunt, Attract, etc.
+Prevents the Pokémon\nfrom falling asleep.
+Changes form when it uses\nProtect or if it attacks.
+Boosts the Pokémon’s\nDefense stat by 20%.
+Restores 33% HP as well\nwhen it eats a Berry.

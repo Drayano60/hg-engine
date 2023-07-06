@@ -607,7 +607,8 @@ struct __attribute__((packed)) BattlePokemon
                u32 text_on_ability_entry_flag : 1;
                u32 text_on_item_entry_flag : 1; // for air balloon
                u32 echoed_voice_count : 3;
-               u32 : 7; // need to add to ClearBattleMonFlags when added to here as well
+               u32 protean_flag: 1;
+               u32 : 6; // need to add to ClearBattleMonFlags when added to here as well
     /* 0x2c */ u8 pp[4];
     /* 0x30 */ u8 pp_count[4];
     /* 0x34 */ u8 level;

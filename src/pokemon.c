@@ -3214,6 +3214,22 @@ void __attribute__((long_call)) UpdatePassiveForms(struct PartyPokemon *pp)
         case SPECIES_PYROAR:
             form = (gf_rand() % 8 != 0); // 1/8 male
             break;
+        /*
+        Handlers for forms of Flabebe/Pumpkaboo lines
+        Currently disabled as sprite assets are missing for the alt forms
+        
+        // Allow any flowers to show up
+        case SPECIES_FLABEBE:
+        case SPECIES_FLOETTE:
+        case SPECIES_FLORGES:
+            form = gf_rand() % 5;
+            break;
+        // Allow any size to show up
+        case SPECIES_PUMPKABOO:
+        case SPECIES_GOURGEIST:
+            form = gf_rand() % 4;
+            break;
+        */
         default:
             shouldUpdate = FALSE;
     }

@@ -1423,3 +1423,15 @@ The foe’s {STRVAR_1 1, 0, 0} floats in the air\nwith its {STRVAR_1 8, 1, 0}!
 {STRVAR_1 1, 0, 0}’s {STRVAR_1 8, 1, 0} popped!
 The wild {STRVAR_1 1, 0, 0}’s {STRVAR_1 8, 1, 0}\npopped!
 The foe’s {STRVAR_1 1, 0, 0}’s {STRVAR_1 8, 1, 0}\npopped!
+{STRVAR_1 1, 0, 0} surrounded itself\nwith a veil of petals!
+The wild {STRVAR_1 1, 0, 0} surrounded\nitself with a veil of petals!
+The foe’s {STRVAR_1 1, 0, 0} surrounded\nitself with a veil of petals!
+{STRVAR_1 1, 0, 0} is protected\nby an aromatic veil!
+The wild {STRVAR_1 1, 0, 0} is protected\nby an aromatic veil!
+The foe’s {STRVAR_1 1, 0, 0} is protected\nby an aromatic veil!
+{STRVAR_1 1, 0, 0} can’t fall asleep\ndue to a veil of sweetness!
+The wild {STRVAR_1 1, 0, 0} can’t fall asleep\ndue to a veil of sweetness!
+The foe’s {STRVAR_1 1, 0, 0} can’t fall asleep\ndue to a veil of sweetness!
+{STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nrestored its HP!
+The wild {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nrestored its HP!
+The foe’s {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nrestored its HP!

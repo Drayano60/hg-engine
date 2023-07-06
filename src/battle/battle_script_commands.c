@@ -994,9 +994,7 @@ BOOL btl_scr_cmd_33_statbuffchange(void *bw, struct BattleStruct *sp)
                 }
                 else if ((MoldBreakerAbilityCheck(sp, sp->attack_client, sp->state_client, ABILITY_CLEAR_BODY) == TRUE)
                       || (MoldBreakerAbilityCheck(sp, sp->attack_client, sp->state_client, ABILITY_WHITE_SMOKE) == TRUE)
-                      || (GetBattlerAbility(sp, sp->state_client) == ABILITY_FULL_METAL_BODY)   // Full Metal Body cannot be ignored
-                      || ((MoldBreakerAbilityCheck(sp, sp->attack_client, sp->state_client, ABILITY_FLOWER_VEIL) == TRUE) &&
-                            (sp->battlemon[sp->attack_client].type1 == TYPE_GRASS || sp->battlemon[sp->attack_client].type2 == TYPE_GRASS)))
+                      || (GetBattlerAbility(sp, sp->state_client) == ABILITY_FULL_METAL_BODY))   // Full Metal Body cannot be ignored
                     {
                     if (sp->addeffect_type == ADD_EFFECT_ABILITY)
                     {
@@ -1014,6 +1012,18 @@ BOOL btl_scr_cmd_33_statbuffchange(void *bw, struct BattleStruct *sp)
                         sp->mp.msg_para[0] = TagNickParaMake(sp, sp->state_client);
                         sp->mp.msg_para[1] = sp->battlemon[sp->state_client].ability;
                     }
+                    flag = 1;
+                }
+                else if
+                (
+                    (MoldBreakerAbilityCheck(sp, sp->attack_client, sp->state_client, ABILITY_FLOWER_VEIL) == TRUE) ||
+                    (MoldBreakerAbilityCheck(sp, sp->attack_client, BATTLER_ALLY(sp->state_client), ABILITY_FLOWER_VEIL) == TRUE)
+                )
+                {
+                    sp->mp.msg_id = BATTLE_MSG_FLOWER_VEIL;
+                    sp->mp.msg_tag = TAG_NICK;
+                    sp->mp.msg_para[0] = TagNickParaMake(sp, sp->state_client);
+
                     flag = 1;
                 }
                 else if (((MoldBreakerAbilityCheck(sp, sp->attack_client, sp->state_client, ABILITY_KEEN_EYE) == TRUE)

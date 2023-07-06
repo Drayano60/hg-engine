@@ -1432,3 +1432,6 @@ The foe’s {STRVAR_1 1, 0, 0} is protected\nby an aromatic veil!
 {STRVAR_1 1, 0, 0} can’t fall asleep\ndue to a veil of sweetness!
 The wild {STRVAR_1 1, 0, 0} can’t fall asleep\ndue to a veil of sweetness!
 The foe’s {STRVAR_1 1, 0, 0} can’t fall asleep\ndue to a veil of sweetness!
+{STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nrestored its HP!
+The wild {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nrestored its HP!
+The foe’s {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nrestored its HP!

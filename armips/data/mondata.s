@@ -17901,7 +17901,6 @@ mondata SPECIES_GRENINJA, "Greninja"
     mondexweight SPECIES_GRENINJA, "88.2 lbs."
 
 
-// ABILITY: Gluttony (2)
 mondata SPECIES_BUNNELBY, "Bunnelby"
     basestats 38, 36, 38, 57, 32, 36
     types TYPE_NORMAL, TYPE_NORMAL
@@ -17914,12 +17913,7 @@ mondata SPECIES_BUNNELBY, "Bunnelby"
     basefriendship 70 // raised up again
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_PICKUP, ABILITY_GLUTTONY
-    .else
-        abilities ABILITY_PICKUP, ABILITY_PICKUP
-        // abilities ABILITY_PICKUP, ABILITY_CHEEK_POUCH
-    .endif
+    abilities ABILITY_PICKUP, ABILITY_CHEEK_POUCH
     runchance 25
     colorflip BODY_COLOR_BROWN, 0
     tmdata SPECIES_BUNNELBY_TM_DATA_0, SPECIES_BUNNELBY_TM_DATA_1, SPECIES_BUNNELBY_TM_DATA_2, SPECIES_BUNNELBY_TM_DATA_3
@@ -17930,7 +17924,6 @@ mondata SPECIES_BUNNELBY, "Bunnelby"
 
 
 // STATS: 85 >> 95 HP | 423 >> 433 BST
-// ABILITY: Gluttony (2)
 mondata SPECIES_DIGGERSBY, "Diggersby"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 95, 56, 77, 78, 50, 77
@@ -17947,12 +17940,7 @@ mondata SPECIES_DIGGERSBY, "Diggersby"
     basefriendship 70 // raised up again
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_PICKUP, ABILITY_GLUTTONY
-    .else
-        abilities ABILITY_PICKUP, ABILITY_PICKUP
-        // abilities ABILITY_PICKUP, ABILITY_CHEEK_POUCH
-    .endif
+    abilities ABILITY_PICKUP, ABILITY_CHEEK_POUCH
     runchance 25
     colorflip BODY_COLOR_BROWN, 0
     tmdata SPECIES_DIGGERSBY_TM_DATA_0, SPECIES_DIGGERSBY_TM_DATA_1, SPECIES_DIGGERSBY_TM_DATA_2, SPECIES_DIGGERSBY_TM_DATA_3
@@ -18916,7 +18904,6 @@ mondata SPECIES_HAWLUCHA, "Hawlucha"
 
 
 // STATS: 81 >> 85 SpAtk | 431 >> 435 BST
-// ABILITY: Gluttony (1)
 mondata SPECIES_DEDENNE, "Dedenne"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 67, 58, 57, 101, 85, 67
@@ -18933,12 +18920,7 @@ mondata SPECIES_DEDENNE, "Dedenne"
     basefriendship 70 // raised up again
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FAIRY
-    .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_GLUTTONY, ABILITY_PICKUP
-    .else
-        abilities ABILITY_PICKUP, ABILITY_PICKUP
-        // abilities ABILITY_CHEEK_POUCH, ABILITY_PICKUP
-    .endif
+    abilities ABILITY_CHEEK_POUCH, ABILITY_PICKUP
     runchance 25
     colorflip BODY_COLOR_YELLOW, 0
     tmdata SPECIES_DEDENNE_TM_DATA_0, SPECIES_DEDENNE_TM_DATA_1, SPECIES_DEDENNE_TM_DATA_2, SPECIES_DEDENNE_TM_DATA_3

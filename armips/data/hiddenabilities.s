@@ -757,7 +757,7 @@
 /* SPECIES_AURORUS                     */ .halfword ABILITY_SNOW_WARNING
 /* SPECIES_SYLVEON                     */ .halfword ABILITY_PIXILATE
 /* SPECIES_HAWLUCHA                    */ .halfword ABILITY_MOLD_BREAKER
-/* SPECIES_DEDENNE                     */ .halfword ABILITY_PLUS
+/* SPECIES_DEDENNE                     */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_LIGHTNING_ROD : ABILITY_PLUS
 /* SPECIES_CARBINK                     */ .halfword ABILITY_STURDY
 /* SPECIES_GOOMY                       */ .halfword ABILITY_GOOEY
 /* SPECIES_SLIGGOO                     */ .halfword ABILITY_GOOEY

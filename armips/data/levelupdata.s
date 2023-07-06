@@ -16946,13 +16946,14 @@ levelup SPECIES_TREVENANT
     learnset MOVE_GRUDGE, 52
 	terminatelearnset
 
+// NEW: Mega Drain
 levelup SPECIES_PUMPKABOO
 	learnset MOVE_ASTONISH, 1
     learnset MOVE_SHADOW_SNEAK, 1
-    learnset MOVE_SPITE, 4
+    learnset MOVE_RAZOR_LEAF, 4
     learnset MOVE_LEECH_SEED, 8
     learnset MOVE_CONFUSE_RAY, 12
-    learnset MOVE_RAZOR_LEAF, 16
+    learnset MOVE_MEGA_DRAIN, 16
     learnset MOVE_BULLET_SEED, 20
     learnset MOVE_SCARY_FACE, 24
     learnset MOVE_SEED_BOMB, 28
@@ -16964,16 +16965,17 @@ levelup SPECIES_PUMPKABOO
     learnset MOVE_TRICK, 52
 	terminatelearnset
 
+// NEW: Mega Drain
 levelup SPECIES_GOURGEIST
     learnset MOVE_PHANTOM_FORCE, 1
     learnset MOVE_MYSTICAL_FIRE, 1
     learnset MOVE_MOONBLAST, 1
 	learnset MOVE_ASTONISH, 1
     learnset MOVE_SHADOW_SNEAK, 1
-    learnset MOVE_SPITE, 4
+    learnset MOVE_RAZOR_LEAF, 4
     learnset MOVE_LEECH_SEED, 8
     learnset MOVE_CONFUSE_RAY, 12
-    learnset MOVE_RAZOR_LEAF, 16
+    learnset MOVE_MEGA_DRAIN, 16
     learnset MOVE_BULLET_SEED, 20
     learnset MOVE_SCARY_FACE, 24
     learnset MOVE_SEED_BOMB, 28
@@ -22917,13 +22919,14 @@ levelup SPECIES_AEGISLASH_BLADE
 	learnset MOVE_SACRED_SWORD, 1
 	terminatelearnset
 
+// NEW: Mega Drain
 levelup SPECIES_PUMPKABOO_SMALL
 	learnset MOVE_ASTONISH, 1
     learnset MOVE_SHADOW_SNEAK, 1
-    learnset MOVE_SPITE, 4
+    learnset MOVE_RAZOR_LEAF, 4
     learnset MOVE_LEECH_SEED, 8
     learnset MOVE_CONFUSE_RAY, 12
-    learnset MOVE_RAZOR_LEAF, 16
+    learnset MOVE_MEGA_DRAIN, 16
     learnset MOVE_BULLET_SEED, 20
     learnset MOVE_SCARY_FACE, 24
     learnset MOVE_SEED_BOMB, 28
@@ -22935,13 +22938,14 @@ levelup SPECIES_PUMPKABOO_SMALL
     learnset MOVE_TRICK, 52
 	terminatelearnset
 
+// NEW: Mega Drain
 levelup SPECIES_PUMPKABOO_LARGE
 	learnset MOVE_ASTONISH, 1
     learnset MOVE_SHADOW_SNEAK, 1
-    learnset MOVE_SPITE, 4
+    learnset MOVE_RAZOR_LEAF, 4
     learnset MOVE_LEECH_SEED, 8
     learnset MOVE_CONFUSE_RAY, 12
-    learnset MOVE_RAZOR_LEAF, 16
+    learnset MOVE_MEGA_DRAIN, 16
     learnset MOVE_BULLET_SEED, 20
     learnset MOVE_SCARY_FACE, 24
     learnset MOVE_SEED_BOMB, 28
@@ -22953,13 +22957,14 @@ levelup SPECIES_PUMPKABOO_LARGE
     learnset MOVE_TRICK, 52
 	terminatelearnset
 
+// NEW: Mega Drain
 levelup SPECIES_PUMPKABOO_SUPER
 	learnset MOVE_ASTONISH, 1
     learnset MOVE_SHADOW_SNEAK, 1
-    learnset MOVE_SPITE, 4
+    learnset MOVE_RAZOR_LEAF, 4
     learnset MOVE_LEECH_SEED, 8
     learnset MOVE_CONFUSE_RAY, 12
-    learnset MOVE_RAZOR_LEAF, 16
+    learnset MOVE_MEGA_DRAIN, 16
     learnset MOVE_BULLET_SEED, 20
     learnset MOVE_SCARY_FACE, 24
     learnset MOVE_SEED_BOMB, 28
@@ -22971,16 +22976,17 @@ levelup SPECIES_PUMPKABOO_SUPER
     learnset MOVE_TRICK, 52
 	terminatelearnset
 
+// NEW: Mega Drain
 levelup SPECIES_GOURGEIST_SMALL
     learnset MOVE_PHANTOM_FORCE, 1
     learnset MOVE_MYSTICAL_FIRE, 1
     learnset MOVE_MOONBLAST, 1
 	learnset MOVE_ASTONISH, 1
     learnset MOVE_SHADOW_SNEAK, 1
-    learnset MOVE_SPITE, 4
+    learnset MOVE_RAZOR_LEAF, 4
     learnset MOVE_LEECH_SEED, 8
     learnset MOVE_CONFUSE_RAY, 12
-    learnset MOVE_RAZOR_LEAF, 16
+    learnset MOVE_MEGA_DRAIN, 16
     learnset MOVE_BULLET_SEED, 20
     learnset MOVE_SCARY_FACE, 24
     learnset MOVE_SEED_BOMB, 28
@@ -22993,16 +22999,17 @@ levelup SPECIES_GOURGEIST_SMALL
     learnset MOVE_EXPLOSION, 56
 	terminatelearnset
 
+// NEW: Mega Drain
 levelup SPECIES_GOURGEIST_LARGE
     learnset MOVE_PHANTOM_FORCE, 1
     learnset MOVE_MYSTICAL_FIRE, 1
     learnset MOVE_MOONBLAST, 1
 	learnset MOVE_ASTONISH, 1
     learnset MOVE_SHADOW_SNEAK, 1
-    learnset MOVE_SPITE, 4
+    learnset MOVE_RAZOR_LEAF, 4
     learnset MOVE_LEECH_SEED, 8
     learnset MOVE_CONFUSE_RAY, 12
-    learnset MOVE_RAZOR_LEAF, 16
+    learnset MOVE_MEGA_DRAIN, 16
     learnset MOVE_BULLET_SEED, 20
     learnset MOVE_SCARY_FACE, 24
     learnset MOVE_SEED_BOMB, 28
@@ -23015,16 +23022,17 @@ levelup SPECIES_GOURGEIST_LARGE
     learnset MOVE_EXPLOSION, 56
 	terminatelearnset
 
+// NEW: Mega Drain
 levelup SPECIES_GOURGEIST_SUPER
     learnset MOVE_PHANTOM_FORCE, 1
     learnset MOVE_MYSTICAL_FIRE, 1
     learnset MOVE_MOONBLAST, 1
 	learnset MOVE_ASTONISH, 1
     learnset MOVE_SHADOW_SNEAK, 1
-    learnset MOVE_SPITE, 4
+    learnset MOVE_RAZOR_LEAF, 4
     learnset MOVE_LEECH_SEED, 8
     learnset MOVE_CONFUSE_RAY, 12
-    learnset MOVE_RAZOR_LEAF, 16
+    learnset MOVE_MEGA_DRAIN, 16
     learnset MOVE_BULLET_SEED, 20
     learnset MOVE_SCARY_FACE, 24
     learnset MOVE_SEED_BOMB, 28

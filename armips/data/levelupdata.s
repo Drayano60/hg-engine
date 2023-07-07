@@ -6992,7 +6992,7 @@ levelup SPECIES_SCEPTILE
     learnset MOVE_DOUBLE_TEAM, 32
     learnset MOVE_DUAL_CHOP, 36
     learnset MOVE_X_SCISSOR, 38
-    learnset MOVE_SCREECH, 44
+    learnset MOVE_DRAGON_RUSH, 44
     learnset MOVE_AGILITY, 50
     learnset MOVE_DRAGON_DANCE, 56
     learnset MOVE_LEAF_STORM, 62
@@ -16789,7 +16789,7 @@ levelup SPECIES_HAWLUCHA
     learnset MOVE_ENCORE, 40
     learnset MOVE_ROOST, 44
     learnset MOVE_HIGH_JUMP_KICK, 48
-    learnset MOVE_SWORDS_DANCE, 52
+    learnset MOVE_BRAVE_BIRD, 52
     learnset MOVE_ENDEAVOR, 56
     learnset MOVE_SKY_ATTACK, 60
 	terminatelearnset

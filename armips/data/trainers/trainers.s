@@ -7865,7 +7865,7 @@ party 7
     move MOVE_SONIC_BOOM
     move MOVE_ROLLOUT
     move MOVE_SELF_DESTRUCT
-    ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_GALVANIZE : ABILITY_AFTERMATH
+    ability ABILITY_AFTERMATH
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
     setevs 0, 0, 0, 0, 0, 0
@@ -7899,7 +7899,7 @@ party 7
     move MOVE_SONIC_BOOM
     move MOVE_ROLLOUT
     move MOVE_SELF_DESTRUCT
-    ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_GALVANIZE : ABILITY_AFTERMATH
+    ability ABILITY_AFTERMATH
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
     setevs 0, 0, 0, 0, 0, 0
@@ -8180,7 +8180,7 @@ party 454
     move MOVE_METAL_SOUND
     move MOVE_MIRROR_COAT
     move MOVE_EXPLOSION
-    ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_GALVANIZE : ABILITY_AFTERMATH
+    ability ABILITY_AFTERMATH
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
     setevs 0, 0, 0, 0, 0, 0
@@ -8214,7 +8214,7 @@ party 454
     move MOVE_METAL_SOUND
     move MOVE_MIRROR_COAT
     move MOVE_EXPLOSION
-    ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_GALVANIZE : ABILITY_AFTERMATH
+    ability ABILITY_AFTERMATH
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
     setevs 0, 0, 0, 0, 0, 0
@@ -8246,7 +8246,7 @@ party 455
     move MOVE_METAL_SOUND
     move MOVE_MIRROR_COAT
     move MOVE_EXPLOSION
-    ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_GALVANIZE : ABILITY_AFTERMATH
+    ability ABILITY_AFTERMATH
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
     setevs 0, 0, 0, 0, 0, 0
@@ -8280,7 +8280,7 @@ party 455
     move MOVE_METAL_SOUND
     move MOVE_MIRROR_COAT
     move MOVE_EXPLOSION
-    ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_GALVANIZE : ABILITY_AFTERMATH
+    ability ABILITY_AFTERMATH
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
     setevs 0, 0, 0, 0, 0, 0
@@ -8312,7 +8312,7 @@ party 527
     move MOVE_METAL_SOUND
     move MOVE_MIRROR_COAT
     move MOVE_EXPLOSION
-    ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_GALVANIZE : ABILITY_AFTERMATH
+    ability ABILITY_AFTERMATH
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
     setevs 0, 0, 0, 0, 0, 0
@@ -8346,7 +8346,7 @@ party 527
     move MOVE_METAL_SOUND
     move MOVE_MIRROR_COAT
     move MOVE_EXPLOSION
-    ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_GALVANIZE : ABILITY_AFTERMATH
+    ability ABILITY_AFTERMATH
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
     setevs 0, 0, 0, 0, 0, 0
@@ -25401,7 +25401,7 @@ party 115
     move MOVE_EARTHQUAKE
     move MOVE_WILD_CHARGE
     move MOVE_MILK_DRINK
-    ability ABILITY_GRASS_PELT
+    ability ABILITY_SAP_SIPPER
     ball ITEM_POKE_BALL
     setivs 25, 25, 25, 25, 25, 25
     setevs 0, 0, 0, 0, 0, 0

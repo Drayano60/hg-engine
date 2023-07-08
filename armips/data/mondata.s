@@ -2594,7 +2594,6 @@ mondata SPECIES_KINGLER, "Kingler"
     mondexweight SPECIES_KINGLER, "132.3 lbs."
 
 
-// ABILITY: Aftermath (1), Galvanize (HA)
 mondata SPECIES_VOLTORB, "Voltorb"
     basestats 40, 30, 50, 100, 55, 55
     types TYPE_ELECTRIC, TYPE_ELECTRIC
@@ -2607,11 +2606,7 @@ mondata SPECIES_VOLTORB, "Voltorb"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MINERAL, EGG_GROUP_MINERAL
-    .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_AFTERMATH, ABILITY_STATIC
-    .else
-        abilities ABILITY_SOUNDPROOF, ABILITY_STATIC
-    .endif
+    abilities ABILITY_SOUNDPROOF, ABILITY_STATIC
     runchance 25
     colorflip BODY_COLOR_RED, 0
     tmdata SPECIES_VOLTORB_TM_DATA_0, SPECIES_VOLTORB_TM_DATA_1, SPECIES_VOLTORB_TM_DATA_2, SPECIES_VOLTORB_TM_DATA_3
@@ -2621,7 +2616,6 @@ mondata SPECIES_VOLTORB, "Voltorb"
     mondexweight SPECIES_VOLTORB, "22.9 lbs."
 
 
-// ABILITY: Aftermath (1), Galvanize (HA)
 mondata SPECIES_ELECTRODE, "Electrode"
     basestats 60, 50, 70, 150, 80, 80
     types TYPE_ELECTRIC, TYPE_ELECTRIC
@@ -2634,11 +2628,7 @@ mondata SPECIES_ELECTRODE, "Electrode"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MINERAL, EGG_GROUP_MINERAL
-    .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_AFTERMATH, ABILITY_STATIC
-    .else
-        abilities ABILITY_SOUNDPROOF, ABILITY_STATIC
-    .endif
+    abilities ABILITY_SOUNDPROOF, ABILITY_STATIC
     runchance 25
     colorflip BODY_COLOR_RED, 0
     tmdata SPECIES_ELECTRODE_TM_DATA_0, SPECIES_ELECTRODE_TM_DATA_1, SPECIES_ELECTRODE_TM_DATA_2, SPECIES_ELECTRODE_TM_DATA_3
@@ -7785,7 +7775,6 @@ mondata SPECIES_NOSEPASS, "Nosepass"
     mondexweight SPECIES_NOSEPASS, "213.8 lbs."
 
 
-// ABILITY: Adaptability (2)
 mondata SPECIES_SKITTY, "Skitty"
     basestats 50, 45, 45, 50, 35, 35
     types TYPE_NORMAL, TYPE_NORMAL
@@ -7798,11 +7787,7 @@ mondata SPECIES_SKITTY, "Skitty"
     basefriendship 70
     growthrate GROWTH_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FAIRY
-    .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_CUTE_CHARM, ABILITY_ADAPTABILITY
-    .else
-        abilities ABILITY_CUTE_CHARM, ABILITY_NORMALIZE
-    .endif
+    abilities ABILITY_CUTE_CHARM, ABILITY_NORMALIZE
     runchance 25
     colorflip BODY_COLOR_PINK, 0
     tmdata SPECIES_SKITTY_TM_DATA_0, SPECIES_SKITTY_TM_DATA_1, SPECIES_SKITTY_TM_DATA_2, SPECIES_SKITTY_TM_DATA_3
@@ -12431,7 +12416,7 @@ mondata SPECIES_PROBOPASS, "Probopass"
 
 
 // STATS: 100 >> 110 Atk | 525 >> 535 BST
-// ABILITY: Iron Fist (HA)
+// ABILITY: Levitate (1, 2), Iron Fist (HA)
 mondata SPECIES_DUSKNOIR, "Dusknoir"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 45, 110, 135, 45, 65, 135
@@ -12448,7 +12433,13 @@ mondata SPECIES_DUSKNOIR, "Dusknoir"
     basefriendship 35
     growthrate GROWTH_FAST
     egggroups EGG_GROUP_AMORPHOUS, EGG_GROUP_AMORPHOUS
-    abilities ABILITY_PRESSURE, ABILITY_NONE
+
+    .if ABILITY_CHANGES_IMPLEMENTED
+        abilities ABILITY_LEVITATE, ABILITY_NONE
+    .else
+        abilities ABILITY_PRESSURE, ABILITY_NONE
+    .endif
+
     runchance 25
     colorflip BODY_COLOR_BLACK, 0
     tmdata SPECIES_DUSKNOIR_TM_DATA_0, SPECIES_DUSKNOIR_TM_DATA_1, SPECIES_DUSKNOIR_TM_DATA_2, SPECIES_DUSKNOIR_TM_DATA_3
@@ -16902,9 +16893,16 @@ mondata SPECIES_SHELMET, "Shelmet"
     mondexweight SPECIES_SHELMET, "17.0 lbs."
 
 
+// TYPES: Bug >> Bug/Dark
 mondata SPECIES_ACCELGOR, "Accelgor"
     basestats 80, 70, 40, 145, 100, 60
-    types TYPE_BUG, TYPE_BUG
+    
+    .if TYPE_CHANGES_IMPLEMENTED
+        types TYPE_BUG, TYPE_DARK
+    .else
+        types TYPE_BUG, TYPE_BUG
+    .endif
+
     catchrate 75
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 2, 0, 0
@@ -17815,7 +17813,7 @@ mondata SPECIES_DELPHOX, "Delphox"
     mondexweight SPECIES_DELPHOX, "86.0 lbs."
 
 
-// ABILITY: Skill Link (2)
+// ABILITY: Infiltrator (2)
 mondata SPECIES_FROAKIE, "Froakie"
     basestats 41, 56, 40, 71, 62, 44
     types TYPE_WATER, TYPE_WATER
@@ -17829,7 +17827,7 @@ mondata SPECIES_FROAKIE, "Froakie"
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_WATER_1
     .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_TORRENT, ABILITY_SKILL_LINK
+        abilities ABILITY_TORRENT, ABILITY_INFILTRATOR
     .else
         abilities ABILITY_TORRENT, ABILITY_NONE
     .endif
@@ -17842,7 +17840,7 @@ mondata SPECIES_FROAKIE, "Froakie"
     mondexweight SPECIES_FROAKIE, "15.4 lbs."
 
 
-// ABILITY: Skill Link (2)
+// ABILITY: Infiltrator (2)
 mondata SPECIES_FROGADIER, "Frogadier"
     basestats 54, 63, 52, 97, 83, 56
     types TYPE_WATER, TYPE_WATER
@@ -17856,7 +17854,7 @@ mondata SPECIES_FROGADIER, "Frogadier"
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_WATER_1
     .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_TORRENT, ABILITY_SKILL_LINK
+        abilities ABILITY_TORRENT, ABILITY_INFILTRATOR
     .else
         abilities ABILITY_TORRENT, ABILITY_NONE
     .endif
@@ -17870,7 +17868,7 @@ mondata SPECIES_FROGADIER, "Frogadier"
 
 
 // STATS: 95 >> 100 Atk | 530 >> 535 BST
-// ABILITY: Skill Link (2)
+// ABILITY: Infiltrator (2)
 mondata SPECIES_GRENINJA, "Greninja"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 72, 100, 67, 122, 103, 71
@@ -17888,7 +17886,7 @@ mondata SPECIES_GRENINJA, "Greninja"
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_WATER_1
     .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_TORRENT, ABILITY_SKILL_LINK
+        abilities ABILITY_TORRENT, ABILITY_INFILTRATOR
     .else
         abilities ABILITY_TORRENT, ABILITY_NONE
     .endif

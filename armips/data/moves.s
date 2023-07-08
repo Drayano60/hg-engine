@@ -2587,12 +2587,13 @@ movedata MOVE_REST, "Rest"
     terminatedata
     movedescription MOVE_REST, "The user goes to\nsleep for two turns.\nIt fully restores the\nuser’s HP and heals\nany status problem."
 
+// ACCURACY: 90 >> 100
 movedata MOVE_ROCK_SLIDE, "Rock Slide"
     battleeffect 31
     pss SPLIT_PHYSICAL
     basepower 75
     type TYPE_ROCK
-    accuracy 90
+    accuracy MOVE_CHANGES_IMPLEMENTED ? 100 : 90
     pp 10
     effectchance 30
     target MOVE_TARGET_BOTH

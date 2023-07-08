@@ -1966,10 +1966,11 @@ levelup SPECIES_WEEPINBELL
     learnset MOVE_SOLAR_BLADE, 56
     terminatelearnset
 
-// NEW: Solar Blade (HOME Datamine)
+// NEW: Solar Blade (HOME Datamine), Crunch
 levelup SPECIES_VICTREEBEL
     learnset MOVE_LEAF_TORNADO, 1
     learnset MOVE_CLEAR_SMOG, 1
+    learnset MOVE_CRUNCH, 1
     learnset MOVE_SYNTHESIS, 1
     learnset MOVE_STOCKPILE, 1 
     learnset MOVE_SWALLOW, 1 
@@ -10615,7 +10616,7 @@ levelup SPECIES_LUXRAY
     learnset MOVE_VOLT_TACKLE, 56
     terminatelearnset
 
-// NEW: Tackle (PLA)
+// NEW: Tackle (PLA), Headlong Rush
 levelup SPECIES_CRANIDOS
     learnset MOVE_TACKLE, 1
     learnset MOVE_LEER, 1
@@ -10633,12 +10634,13 @@ levelup SPECIES_CRANIDOS
     learnset MOVE_CRUNCH, 41
     learnset MOVE_THRASH, 45
     learnset MOVE_IRON_HEAD, 49
-    learnset MOVE_HAMMER_ARM, 53
+    learnset MOVE_HEADLONG_RUSH, 53
     learnset MOVE_HEAD_SMASH, 57
     terminatelearnset
 
-// NEW: Tackle (PLA), Raging Fury, Skull Bash
+// NEW: Tackle (PLA), Raging Fury, Skull Bash, Headlong Rush
 levelup SPECIES_RAMPARDOS
+    learnset MOVE_HAMMER_ARM, 1
     learnset MOVE_SKULL_BASH, 1
     learnset MOVE_TACKLE, 1
     learnset MOVE_LEER, 1
@@ -10657,7 +10659,7 @@ levelup SPECIES_RAMPARDOS
     learnset MOVE_CRUNCH, 41
     learnset MOVE_THRASH, 45
     learnset MOVE_RAGING_FURY, 49
-    learnset MOVE_HAMMER_ARM, 53
+    learnset MOVE_HEADLONG_RUSH, 53
     learnset MOVE_HEAD_SMASH, 57
     terminatelearnset
 
@@ -15211,6 +15213,7 @@ levelup SPECIES_SHELMET
     terminatelearnset
 
 // Evolution: Linking Cord
+// NEW: Dark Pulse
 levelup SPECIES_ACCELGOR
     learnset MOVE_WATER_SHURIKEN, 1
     learnset MOVE_SKITTER_SMACK, 1
@@ -15229,7 +15232,7 @@ levelup SPECIES_ACCELGOR
     learnset MOVE_AGILITY, 28
     learnset MOVE_GIGA_DRAIN, 32
     learnset MOVE_BUG_BUZZ, 36
-    learnset MOVE_U_TURN, 40
+    learnset MOVE_DARK_PULSE, 40
     learnset MOVE_RECOVER, 44
     learnset MOVE_TOXIC, 48
     learnset MOVE_FINAL_GAMBIT, 52

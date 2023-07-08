@@ -105,8 +105,8 @@
 /* SPECIES_HYPNO                       */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_BAD_DREAMS : ABILITY_INNER_FOCUS
 /* SPECIES_KRABBY                      */ .halfword ABILITY_SHEER_FORCE
 /* SPECIES_KINGLER                     */ .halfword ABILITY_SHEER_FORCE
-/* SPECIES_VOLTORB                     */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_GALVANIZE : ABILITY_AFTERMATH
-/* SPECIES_ELECTRODE                   */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_GALVANIZE : ABILITY_AFTERMATH
+/* SPECIES_VOLTORB                     */ .halfword ABILITY_AFTERMATH
+/* SPECIES_ELECTRODE                   */ .halfword ABILITY_AFTERMATH
 /* SPECIES_EXEGGCUTE                   */ .halfword ABILITY_HARVEST
 /* SPECIES_EXEGGUTOR                   */ .halfword ABILITY_HARVEST
 /* SPECIES_CUBONE                      */ .halfword ABILITY_BATTLE_ARMOR

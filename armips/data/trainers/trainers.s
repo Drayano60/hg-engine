@@ -14302,7 +14302,7 @@ trainerdata 213, "Kent"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_SAILOR
     battletype 0
-    nummons 1
+    nummons 2
     item 0 
     item 0 
     item 0 
@@ -14314,7 +14314,24 @@ trainerdata 213, "Kent"
 party 213
     ivs 0
     abilityslot 0
-    level 35
+    level 34
+    pokemon SPECIES_BINACLE
+    item 0
+    move MOVE_RAZOR_SHELL
+    move MOVE_ROCK_TOMB
+    move MOVE_FURY_SWIPES
+    move MOVE_HONE_CLAWS
+    ability ABILITY_TOUGH_CLAWS
+    ball ITEM_POKE_BALL
+    setivs 15, 15, 15, 15, 15, 15
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level 34
     pokemon SPECIES_CRAWDAUNT
     item 0
     move MOVE_RAZOR_SHELL
@@ -30051,7 +30068,7 @@ party 999
     move MOVE_IRON_TAIL
     move MOVE_EARTHQUAKE
     move MOVE_THUNDER_FANG
-    move MOVE_COIL
+    move ALLOW_ILLEGAL_MOVES ? MOVE_COIL : MOVE_ROCK_POLISH
     ability ABILITY_SHEER_FORCE
     ball ITEM_POKE_BALL
     setivs 30, 30, 30, 30, 30, 30
@@ -30233,8 +30250,8 @@ party 999
     pokemon SPECIES_UMBREON
     item ITEM_LEFTOVERS
     move MOVE_FOUL_PLAY
-    move MOVE_THUNDER_WAVE
     move MOVE_CONFUSE_RAY
+    move MOVE_THUNDER_WAVE
     move MOVE_MOONLIGHT
     ability ABILITY_INNER_FOCUS
     ball ITEM_POKE_BALL
@@ -30281,13 +30298,13 @@ party 999
     ivs 0
     abilityslot 0
     level 59
-    pokemon SPECIES_PERSIAN
-    item ITEM_SCOPE_LENS
-    move MOVE_SLASH
-    move MOVE_PLAY_ROUGH
-    move MOVE_SWAGGER
+    monwithform SPECIES_PERSIAN, 1
+    item ITEM_AGUAV_BERRY
+    move MOVE_FOUL_PLAY
+    move MOVE_TORMENT
     move MOVE_THUNDER_WAVE
-    ability ABILITY_SUPER_LUCK
+    move MOVE_PARTING_SHOT
+    ability ABILITY_FUR_COAT
     ball ITEM_POKE_BALL
     setivs 30, 30, 30, 30, 30, 30
     setevs 0, 0, 0, 0, 0, 0

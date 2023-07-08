@@ -6679,7 +6679,7 @@ trainerdata 118, "Kate"
     battletype2 SINGLE_BATTLE
     endentry
 
-party 120
+party 118
     ivs 0
     abilityslot 0
     level 33
@@ -12067,7 +12067,7 @@ party 408
     ballseal 0
 endparty
 
-trainerdata 409, "Allen"
+trainerdata 407, "Allen"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_ACE_TRAINER_M
     battletype 0
@@ -12080,7 +12080,7 @@ trainerdata 409, "Allen"
     battletype2 SINGLE_BATTLE
     endentry
 
-party 408
+party 407
     ivs 0
     abilityslot 0
     level 30
@@ -12412,7 +12412,7 @@ trainerdata 448, "Vance"
     battletype2 SINGLE_BATTLE
     endentry
 
-party 447
+party 448
     ivs 0
     abilityslot 0
     level REMATCH_LEVEL_2
@@ -12849,7 +12849,7 @@ trainerdata 270, "Silver"
     battletype2 SINGLE_BATTLE
     endentry
 
-party 267
+party 270
     ivs 0
     abilityslot 0
     level 32
@@ -12981,7 +12981,7 @@ trainerdata 281, "Richard"
     battletype2 SINGLE_BATTLE
     endentry
 
-party 282
+party 281
     ivs 0
     abilityslot 0
     level 30
@@ -14548,7 +14548,7 @@ party 214
 endparty
 
 // New, Mickey
-trainerdata 214, "Jonathan"
+trainerdata 180, "Jonathan"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_ACE_TRAINER_M
     battletype 0
@@ -14561,7 +14561,7 @@ trainerdata 214, "Jonathan"
     battletype2 SINGLE_BATTLE
     endentry
 
-party 212
+party 180
     ivs 0
     abilityslot 0
     level 35
@@ -43392,3 +43392,1889 @@ trainerdata 737, "Silver"
         ballseal 0
     endparty
 
+/* Seems unused but required for proper structure */
+trainerdata 387, "Amy & Mimi"
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass CLASS_TWINS
+    battletype 0
+    nummons 2
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    battletype2 DOUBLE_BATTLE
+    endentry
+
+    party 387
+        // mon 0
+        ivs 10
+        abilityslot 32
+        level 10
+        pokemon SPECIES_LEDYBA
+        ballseal 0
+
+        // mon 1
+        ivs 10
+        abilityslot 32
+        level 10
+        pokemon SPECIES_SPINARAK
+        ballseal 0
+    endparty
+
+trainerdata 738, "-"
+    trainermontype TRAINER_DATA_TYPE_NOTHING
+    trainerclass CLASS_PKMN_TRAINER_0
+    battletype 0
+    nummons 0
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags 0
+    battletype2 SINGLE_BATTLE
+    endentry
+
+    party 738
+        // mon 0
+        ivs 0
+        abilityslot 0
+        level 0
+        pokemon SPECIES_NONE
+        ballseal 0
+    endparty
+
+
+/* Level/EV Trainer */
+
+TRAINING_LEVEL_EV equ 1
+TRAINING_LEVEL_BADGE_0 equ 5
+TRAINING_LEVEL_BADGE_1 equ 10
+TRAINING_LEVEL_BADGE_2 equ 15
+TRAINING_LEVEL_BADGE_3 equ 20
+TRAINING_LEVEL_BADGE_4 equ 25
+TRAINING_LEVEL_BADGE_5 equ 30
+TRAINING_LEVEL_BADGE_6 equ 35
+TRAINING_LEVEL_BADGE_7 equ 40
+TRAINING_LEVEL_BADGE_8 equ 50
+TRAINING_LEVEL_CHAMPION equ 60
+TRAINING_LEVEL_BADGE_16 equ 75
+
+/* HP EVs */
+trainerdata 746, "Traynor"
+    trainermontype TRAINER_MON_TYPE_FLAGS
+    trainerclass CLASS_WAITER
+    battletype 0
+    nummons 6
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype2 SINGLE_BATTLE
+    endentry
+
+party 746
+    ivs 0
+    abilityslot 0
+    level TRAINING_LEVEL_EV
+    pokemon SPECIES_WIGGLYTUFF
+    item 0
+    move MOVE_MEMENTO
+    move 0
+    move 0
+    move 0
+    ability ABILITY_NONE
+    ball ITEM_POKE_BALL
+    setivs 0, 0, 0, 0, 0, 0
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level TRAINING_LEVEL_EV
+    pokemon SPECIES_WIGGLYTUFF
+    item 0
+    move MOVE_MEMENTO
+    move 0
+    move 0
+    move 0
+    ability ABILITY_NONE
+    ball ITEM_POKE_BALL
+    setivs 0, 0, 0, 0, 0, 0
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level TRAINING_LEVEL_EV
+    pokemon SPECIES_WIGGLYTUFF
+    item 0
+    move MOVE_MEMENTO
+    move 0
+    move 0
+    move 0
+    ability ABILITY_NONE
+    ball ITEM_POKE_BALL
+    setivs 0, 0, 0, 0, 0, 0
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level TRAINING_LEVEL_EV
+    pokemon SPECIES_WIGGLYTUFF
+    item 0
+    move MOVE_MEMENTO
+    move 0
+    move 0
+    move 0
+    ability ABILITY_NONE
+    ball ITEM_POKE_BALL
+    setivs 0, 0, 0, 0, 0, 0
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level TRAINING_LEVEL_EV
+    pokemon SPECIES_WIGGLYTUFF
+    item 0
+    move MOVE_MEMENTO
+    move 0
+    move 0
+    move 0
+    ability ABILITY_NONE
+    ball ITEM_POKE_BALL
+    setivs 0, 0, 0, 0, 0, 0
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level TRAINING_LEVEL_EV
+    pokemon SPECIES_WIGGLYTUFF
+    item 0
+    move MOVE_MEMENTO
+    move 0
+    move 0
+    move 0
+    ability ABILITY_NONE
+    ball ITEM_POKE_BALL
+    setivs 0, 0, 0, 0, 0, 0
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+endparty
+
+/* Attack EVs */
+trainerdata 747, "Traynor"
+    trainermontype TRAINER_MON_TYPE_FLAGS
+    trainerclass CLASS_WAITER
+    battletype 0
+    nummons 6
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype2 SINGLE_BATTLE
+    endentry
+
+party 747
+    ivs 0
+    abilityslot 0
+    level TRAINING_LEVEL_EV
+    pokemon SPECIES_STARAPTOR
+    item 0
+    move MOVE_MEMENTO
+    move 0
+    move 0
+    move 0
+    ability ABILITY_NONE
+    ball ITEM_POKE_BALL
+    setivs 0, 0, 0, 0, 0, 0
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level TRAINING_LEVEL_EV
+    pokemon SPECIES_STARAPTOR
+    item 0
+    move MOVE_MEMENTO
+    move 0
+    move 0
+    move 0
+    ability ABILITY_NONE
+    ball ITEM_POKE_BALL
+    setivs 0, 0, 0, 0, 0, 0
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level TRAINING_LEVEL_EV
+    pokemon SPECIES_STARAPTOR
+    item 0
+    move MOVE_MEMENTO
+    move 0
+    move 0
+    move 0
+    ability ABILITY_NONE
+    ball ITEM_POKE_BALL
+    setivs 0, 0, 0, 0, 0, 0
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level TRAINING_LEVEL_EV
+    pokemon SPECIES_STARAPTOR
+    item 0
+    move MOVE_MEMENTO
+    move 0
+    move 0
+    move 0
+    ability ABILITY_NONE
+    ball ITEM_POKE_BALL
+    setivs 0, 0, 0, 0, 0, 0
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level TRAINING_LEVEL_EV
+    pokemon SPECIES_STARAPTOR
+    item 0
+    move MOVE_MEMENTO
+    move 0
+    move 0
+    move 0
+    ability ABILITY_NONE
+    ball ITEM_POKE_BALL
+    setivs 0, 0, 0, 0, 0, 0
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level TRAINING_LEVEL_EV
+    pokemon SPECIES_STARAPTOR
+    item 0
+    move MOVE_MEMENTO
+    move 0
+    move 0
+    move 0
+    ability ABILITY_NONE
+    ball ITEM_POKE_BALL
+    setivs 0, 0, 0, 0, 0, 0
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+endparty
+
+/* Defense EVs */
+trainerdata 748, "Traynor"
+    trainermontype TRAINER_MON_TYPE_FLAGS
+    trainerclass CLASS_WAITER
+    battletype 0
+    nummons 6
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype2 SINGLE_BATTLE
+    endentry
+
+party 748
+    ivs 0
+    abilityslot 0
+    level TRAINING_LEVEL_EV
+    pokemon SPECIES_GOLEM
+    item 0
+    move MOVE_MEMENTO
+    move 0
+    move 0
+    move 0
+    ability ABILITY_NONE
+    ball ITEM_POKE_BALL
+    setivs 0, 0, 0, 0, 0, 0
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level TRAINING_LEVEL_EV
+    pokemon SPECIES_GOLEM
+    item 0
+    move MOVE_MEMENTO
+    move 0
+    move 0
+    move 0
+    ability ABILITY_NONE
+    ball ITEM_POKE_BALL
+    setivs 0, 0, 0, 0, 0, 0
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level TRAINING_LEVEL_EV
+    pokemon SPECIES_GOLEM
+    item 0
+    move MOVE_MEMENTO
+    move 0
+    move 0
+    move 0
+    ability ABILITY_NONE
+    ball ITEM_POKE_BALL
+    setivs 0, 0, 0, 0, 0, 0
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level TRAINING_LEVEL_EV
+    pokemon SPECIES_GOLEM
+    item 0
+    move MOVE_MEMENTO
+    move 0
+    move 0
+    move 0
+    ability ABILITY_NONE
+    ball ITEM_POKE_BALL
+    setivs 0, 0, 0, 0, 0, 0
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level TRAINING_LEVEL_EV
+    pokemon SPECIES_GOLEM
+    item 0
+    move MOVE_MEMENTO
+    move 0
+    move 0
+    move 0
+    ability ABILITY_NONE
+    ball ITEM_POKE_BALL
+    setivs 0, 0, 0, 0, 0, 0
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level TRAINING_LEVEL_EV
+    pokemon SPECIES_GOLEM
+    item 0
+    move MOVE_MEMENTO
+    move 0
+    move 0
+    move 0
+    ability ABILITY_NONE
+    ball ITEM_POKE_BALL
+    setivs 0, 0, 0, 0, 0, 0
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+endparty
+
+/* Speed EVs */
+trainerdata 749, "Traynor"
+    trainermontype TRAINER_MON_TYPE_FLAGS
+    trainerclass CLASS_WAITER
+    battletype 0
+    nummons 6
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype2 SINGLE_BATTLE
+    endentry
+
+party 749
+    ivs 0
+    abilityslot 0
+    level TRAINING_LEVEL_EV
+    pokemon SPECIES_RAICHU
+    item 0
+    move MOVE_MEMENTO
+    move 0
+    move 0
+    move 0
+    ability ABILITY_NONE
+    ball ITEM_POKE_BALL
+    setivs 0, 0, 0, 0, 0, 0
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level TRAINING_LEVEL_EV
+    pokemon SPECIES_RAICHU
+    item 0
+    move MOVE_MEMENTO
+    move 0
+    move 0
+    move 0
+    ability ABILITY_NONE
+    ball ITEM_POKE_BALL
+    setivs 0, 0, 0, 0, 0, 0
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level TRAINING_LEVEL_EV
+    pokemon SPECIES_RAICHU
+    item 0
+    move MOVE_MEMENTO
+    move 0
+    move 0
+    move 0
+    ability ABILITY_NONE
+    ball ITEM_POKE_BALL
+    setivs 0, 0, 0, 0, 0, 0
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level TRAINING_LEVEL_EV
+    pokemon SPECIES_RAICHU
+    item 0
+    move MOVE_MEMENTO
+    move 0
+    move 0
+    move 0
+    ability ABILITY_NONE
+    ball ITEM_POKE_BALL
+    setivs 0, 0, 0, 0, 0, 0
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level TRAINING_LEVEL_EV
+    pokemon SPECIES_RAICHU
+    item 0
+    move MOVE_MEMENTO
+    move 0
+    move 0
+    move 0
+    ability ABILITY_NONE
+    ball ITEM_POKE_BALL
+    setivs 0, 0, 0, 0, 0, 0
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level TRAINING_LEVEL_EV
+    pokemon SPECIES_RAICHU
+    item 0
+    move MOVE_MEMENTO
+    move 0
+    move 0
+    move 0
+    ability ABILITY_NONE
+    ball ITEM_POKE_BALL
+    setivs 0, 0, 0, 0, 0, 0
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+endparty
+
+/* Special Attack EVs */
+trainerdata 750, "Traynor"
+    trainermontype TRAINER_MON_TYPE_FLAGS
+    trainerclass CLASS_WAITER
+    battletype 0
+    nummons 6
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype2 SINGLE_BATTLE
+    endentry
+
+party 750
+    ivs 0
+    abilityslot 0
+    level TRAINING_LEVEL_EV
+    pokemon SPECIES_BEAUTIFLY
+    item 0
+    move MOVE_MEMENTO
+    move 0
+    move 0
+    move 0
+    ability ABILITY_NONE
+    ball ITEM_POKE_BALL
+    setivs 0, 0, 0, 0, 0, 0
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level TRAINING_LEVEL_EV
+    pokemon SPECIES_BEAUTIFLY
+    item 0
+    move MOVE_MEMENTO
+    move 0
+    move 0
+    move 0
+    ability ABILITY_NONE
+    ball ITEM_POKE_BALL
+    setivs 0, 0, 0, 0, 0, 0
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level TRAINING_LEVEL_EV
+    pokemon SPECIES_BEAUTIFLY
+    item 0
+    move MOVE_MEMENTO
+    move 0
+    move 0
+    move 0
+    ability ABILITY_NONE
+    ball ITEM_POKE_BALL
+    setivs 0, 0, 0, 0, 0, 0
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level TRAINING_LEVEL_EV
+    pokemon SPECIES_BEAUTIFLY
+    item 0
+    move MOVE_MEMENTO
+    move 0
+    move 0
+    move 0
+    ability ABILITY_NONE
+    ball ITEM_POKE_BALL
+    setivs 0, 0, 0, 0, 0, 0
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level TRAINING_LEVEL_EV
+    pokemon SPECIES_BEAUTIFLY
+    item 0
+    move MOVE_MEMENTO
+    move 0
+    move 0
+    move 0
+    ability ABILITY_NONE
+    ball ITEM_POKE_BALL
+    setivs 0, 0, 0, 0, 0, 0
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level TRAINING_LEVEL_EV
+    pokemon SPECIES_BEAUTIFLY
+    item 0
+    move MOVE_MEMENTO
+    move 0
+    move 0
+    move 0
+    ability ABILITY_NONE
+    ball ITEM_POKE_BALL
+    setivs 0, 0, 0, 0, 0, 0
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+endparty
+
+/* Special Defense EVs */
+trainerdata 751, "Traynor"
+    trainermontype TRAINER_MON_TYPE_FLAGS
+    trainerclass CLASS_WAITER
+    battletype 0
+    nummons 6
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype2 SINGLE_BATTLE
+    endentry
+
+party 751
+    ivs 0
+    abilityslot 0
+    level TRAINING_LEVEL_EV
+    pokemon SPECIES_DUSTOX
+    item 0
+    move MOVE_MEMENTO
+    move 0
+    move 0
+    move 0
+    ability ABILITY_NONE
+    ball ITEM_POKE_BALL
+    setivs 0, 0, 0, 0, 0, 0
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level TRAINING_LEVEL_EV
+    pokemon SPECIES_DUSTOX
+    item 0
+    move MOVE_MEMENTO
+    move 0
+    move 0
+    move 0
+    ability ABILITY_NONE
+    ball ITEM_POKE_BALL
+    setivs 0, 0, 0, 0, 0, 0
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level TRAINING_LEVEL_EV
+    pokemon SPECIES_DUSTOX
+    item 0
+    move MOVE_MEMENTO
+    move 0
+    move 0
+    move 0
+    ability ABILITY_NONE
+    ball ITEM_POKE_BALL
+    setivs 0, 0, 0, 0, 0, 0
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level TRAINING_LEVEL_EV
+    pokemon SPECIES_DUSTOX
+    item 0
+    move MOVE_MEMENTO
+    move 0
+    move 0
+    move 0
+    ability ABILITY_NONE
+    ball ITEM_POKE_BALL
+    setivs 0, 0, 0, 0, 0, 0
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level TRAINING_LEVEL_EV
+    pokemon SPECIES_DUSTOX
+    item 0
+    move MOVE_MEMENTO
+    move 0
+    move 0
+    move 0
+    ability ABILITY_NONE
+    ball ITEM_POKE_BALL
+    setivs 0, 0, 0, 0, 0, 0
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level TRAINING_LEVEL_EV
+    pokemon SPECIES_DUSTOX
+    item 0
+    move MOVE_MEMENTO
+    move 0
+    move 0
+    move 0
+    ability ABILITY_NONE
+    ball ITEM_POKE_BALL
+    setivs 0, 0, 0, 0, 0, 0
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+endparty
+
+/* Level Training - 0 Badges */
+trainerdata 752, "Traynor"
+    trainermontype TRAINER_MON_TYPE_FLAGS
+    trainerclass CLASS_WAITER
+    battletype 0
+    nummons 3
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype2 SINGLE_BATTLE
+    endentry
+
+party 752
+    ivs 0
+    abilityslot 0
+    level TRAINING_LEVEL_BADGE_0
+    pokemon SPECIES_HAPPINY
+    item 0
+    move MOVE_MEMENTO
+    move 0
+    move 0
+    move 0
+    ability ABILITY_NONE
+    ball ITEM_POKE_BALL
+    setivs 0, 0, 0, 0, 0, 0
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level TRAINING_LEVEL_BADGE_0
+    pokemon SPECIES_HAPPINY
+    item 0
+    move MOVE_MEMENTO
+    move 0
+    move 0
+    move 0
+    ability ABILITY_NONE
+    ball ITEM_POKE_BALL
+    setivs 0, 0, 0, 0, 0, 0
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level TRAINING_LEVEL_BADGE_0
+    pokemon SPECIES_HAPPINY
+    item 0
+    move MOVE_MEMENTO
+    move 0
+    move 0
+    move 0
+    ability ABILITY_NONE
+    ball ITEM_POKE_BALL
+    setivs 0, 0, 0, 0, 0, 0
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+endparty
+
+/* Level Training - 1 Badges */
+trainerdata 753, "Traynor"
+    trainermontype TRAINER_MON_TYPE_FLAGS
+    trainerclass CLASS_WAITER
+    battletype 0
+    nummons 3
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype2 SINGLE_BATTLE
+    endentry
+
+party 753
+    ivs 0
+    abilityslot 0
+    level TRAINING_LEVEL_BADGE_1
+    pokemon SPECIES_HAPPINY
+    item 0
+    move MOVE_MEMENTO
+    move 0
+    move 0
+    move 0
+    ability ABILITY_NONE
+    ball ITEM_POKE_BALL
+    setivs 0, 0, 0, 0, 0, 0
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level TRAINING_LEVEL_BADGE_1
+    pokemon SPECIES_HAPPINY
+    item 0
+    move MOVE_MEMENTO
+    move 0
+    move 0
+    move 0
+    ability ABILITY_NONE
+    ball ITEM_POKE_BALL
+    setivs 0, 0, 0, 0, 0, 0
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level TRAINING_LEVEL_BADGE_1
+    pokemon SPECIES_HAPPINY
+    item 0
+    move MOVE_MEMENTO
+    move 0
+    move 0
+    move 0
+    ability ABILITY_NONE
+    ball ITEM_POKE_BALL
+    setivs 0, 0, 0, 0, 0, 0
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+endparty
+
+/* Level Training - 2 Badges */
+trainerdata 754, "Traynor"
+    trainermontype TRAINER_MON_TYPE_FLAGS
+    trainerclass CLASS_WAITER
+    battletype 0
+    nummons 4
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype2 SINGLE_BATTLE
+    endentry
+
+party 754
+    ivs 0
+    abilityslot 0
+    level TRAINING_LEVEL_BADGE_2
+    pokemon SPECIES_HAPPINY
+    item 0
+    move MOVE_MEMENTO
+    move 0
+    move 0
+    move 0
+    ability ABILITY_NONE
+    ball ITEM_POKE_BALL
+    setivs 0, 0, 0, 0, 0, 0
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level TRAINING_LEVEL_BADGE_2
+    pokemon SPECIES_HAPPINY
+    item 0
+    move MOVE_MEMENTO
+    move 0
+    move 0
+    move 0
+    ability ABILITY_NONE
+    ball ITEM_POKE_BALL
+    setivs 0, 0, 0, 0, 0, 0
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level TRAINING_LEVEL_BADGE_2
+    pokemon SPECIES_HAPPINY
+    item 0
+    move MOVE_MEMENTO
+    move 0
+    move 0
+    move 0
+    ability ABILITY_NONE
+    ball ITEM_POKE_BALL
+    setivs 0, 0, 0, 0, 0, 0
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level TRAINING_LEVEL_BADGE_2
+    pokemon SPECIES_HAPPINY
+    item 0
+    move MOVE_MEMENTO
+    move 0
+    move 0
+    move 0
+    ability ABILITY_NONE
+    ball ITEM_POKE_BALL
+    setivs 0, 0, 0, 0, 0, 0
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+endparty
+
+/* Level Training - 3 Badges */
+trainerdata 755, "Traynor"
+    trainermontype TRAINER_MON_TYPE_FLAGS
+    trainerclass CLASS_WAITER
+    battletype 0
+    nummons 4
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype2 SINGLE_BATTLE
+    endentry
+
+party 755
+    ivs 0
+    abilityslot 0
+    level TRAINING_LEVEL_BADGE_3
+    pokemon SPECIES_CHANSEY
+    item 0
+    move MOVE_MEMENTO
+    move 0
+    move 0
+    move 0
+    ability ABILITY_NONE
+    ball ITEM_POKE_BALL
+    setivs 0, 0, 0, 0, 0, 0
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level TRAINING_LEVEL_BADGE_3
+    pokemon SPECIES_CHANSEY
+    item 0
+    move MOVE_MEMENTO
+    move 0
+    move 0
+    move 0
+    ability ABILITY_NONE
+    ball ITEM_POKE_BALL
+    setivs 0, 0, 0, 0, 0, 0
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level TRAINING_LEVEL_BADGE_3
+    pokemon SPECIES_CHANSEY
+    item 0
+    move MOVE_MEMENTO
+    move 0
+    move 0
+    move 0
+    ability ABILITY_NONE
+    ball ITEM_POKE_BALL
+    setivs 0, 0, 0, 0, 0, 0
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level TRAINING_LEVEL_BADGE_3
+    pokemon SPECIES_CHANSEY
+    item 0
+    move MOVE_MEMENTO
+    move 0
+    move 0
+    move 0
+    ability ABILITY_NONE
+    ball ITEM_POKE_BALL
+    setivs 0, 0, 0, 0, 0, 0
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+endparty
+
+/* Level Training - 4 Badges */
+trainerdata 756, "Traynor"
+    trainermontype TRAINER_MON_TYPE_FLAGS
+    trainerclass CLASS_WAITER
+    battletype 0
+    nummons 5
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype2 SINGLE_BATTLE
+    endentry
+
+party 756
+    ivs 0
+    abilityslot 0
+    level TRAINING_LEVEL_BADGE_4
+    pokemon SPECIES_CHANSEY
+    item 0
+    move MOVE_MEMENTO
+    move 0
+    move 0
+    move 0
+    ability ABILITY_NONE
+    ball ITEM_POKE_BALL
+    setivs 0, 0, 0, 0, 0, 0
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level TRAINING_LEVEL_BADGE_4
+    pokemon SPECIES_CHANSEY
+    item 0
+    move MOVE_MEMENTO
+    move 0
+    move 0
+    move 0
+    ability ABILITY_NONE
+    ball ITEM_POKE_BALL
+    setivs 0, 0, 0, 0, 0, 0
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level TRAINING_LEVEL_BADGE_4
+    pokemon SPECIES_CHANSEY
+    item 0
+    move MOVE_MEMENTO
+    move 0
+    move 0
+    move 0
+    ability ABILITY_NONE
+    ball ITEM_POKE_BALL
+    setivs 0, 0, 0, 0, 0, 0
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level TRAINING_LEVEL_BADGE_4
+    pokemon SPECIES_CHANSEY
+    item 0
+    move MOVE_MEMENTO
+    move 0
+    move 0
+    move 0
+    ability ABILITY_NONE
+    ball ITEM_POKE_BALL
+    setivs 0, 0, 0, 0, 0, 0
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level TRAINING_LEVEL_BADGE_4
+    pokemon SPECIES_CHANSEY
+    item 0
+    move MOVE_MEMENTO
+    move 0
+    move 0
+    move 0
+    ability ABILITY_NONE
+    ball ITEM_POKE_BALL
+    setivs 0, 0, 0, 0, 0, 0
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+endparty
+
+/* Level Training - 5 Badges */
+trainerdata 757, "Traynor"
+    trainermontype TRAINER_MON_TYPE_FLAGS
+    trainerclass CLASS_WAITER
+    battletype 0
+    nummons 6
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype2 SINGLE_BATTLE
+    endentry
+
+party 757
+    ivs 0
+    abilityslot 0
+    level TRAINING_LEVEL_BADGE_5
+    pokemon SPECIES_CHANSEY
+    item 0
+    move MOVE_MEMENTO
+    move 0
+    move 0
+    move 0
+    ability ABILITY_NONE
+    ball ITEM_POKE_BALL
+    setivs 0, 0, 0, 0, 0, 0
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level TRAINING_LEVEL_BADGE_5
+    pokemon SPECIES_CHANSEY
+    item 0
+    move MOVE_MEMENTO
+    move 0
+    move 0
+    move 0
+    ability ABILITY_NONE
+    ball ITEM_POKE_BALL
+    setivs 0, 0, 0, 0, 0, 0
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level TRAINING_LEVEL_BADGE_5
+    pokemon SPECIES_CHANSEY
+    item 0
+    move MOVE_MEMENTO
+    move 0
+    move 0
+    move 0
+    ability ABILITY_NONE
+    ball ITEM_POKE_BALL
+    setivs 0, 0, 0, 0, 0, 0
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level TRAINING_LEVEL_BADGE_5
+    pokemon SPECIES_CHANSEY
+    item 0
+    move MOVE_MEMENTO
+    move 0
+    move 0
+    move 0
+    ability ABILITY_NONE
+    ball ITEM_POKE_BALL
+    setivs 0, 0, 0, 0, 0, 0
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level TRAINING_LEVEL_BADGE_5
+    pokemon SPECIES_CHANSEY
+    item 0
+    move MOVE_MEMENTO
+    move 0
+    move 0
+    move 0
+    ability ABILITY_NONE
+    ball ITEM_POKE_BALL
+    setivs 0, 0, 0, 0, 0, 0
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level TRAINING_LEVEL_BADGE_5
+    pokemon SPECIES_CHANSEY
+    item 0
+    move MOVE_MEMENTO
+    move 0
+    move 0
+    move 0
+    ability ABILITY_NONE
+    ball ITEM_POKE_BALL
+    setivs 0, 0, 0, 0, 0, 0
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+endparty
+
+/* Level Training - 6 Badges */
+trainerdata 758, "Traynor"
+    trainermontype TRAINER_MON_TYPE_FLAGS
+    trainerclass CLASS_WAITER
+    battletype 0
+    nummons 6
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype2 SINGLE_BATTLE
+    endentry
+
+party 758
+    ivs 0
+    abilityslot 0
+    level TRAINING_LEVEL_BADGE_6
+    pokemon SPECIES_CHANSEY
+    item 0
+    move MOVE_MEMENTO
+    move 0
+    move 0
+    move 0
+    ability ABILITY_NONE
+    ball ITEM_POKE_BALL
+    setivs 0, 0, 0, 0, 0, 0
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level TRAINING_LEVEL_BADGE_6
+    pokemon SPECIES_CHANSEY
+    item 0
+    move MOVE_MEMENTO
+    move 0
+    move 0
+    move 0
+    ability ABILITY_NONE
+    ball ITEM_POKE_BALL
+    setivs 0, 0, 0, 0, 0, 0
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level TRAINING_LEVEL_BADGE_6
+    pokemon SPECIES_CHANSEY
+    item 0
+    move MOVE_MEMENTO
+    move 0
+    move 0
+    move 0
+    ability ABILITY_NONE
+    ball ITEM_POKE_BALL
+    setivs 0, 0, 0, 0, 0, 0
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level TRAINING_LEVEL_BADGE_6
+    pokemon SPECIES_CHANSEY
+    item 0
+    move MOVE_MEMENTO
+    move 0
+    move 0
+    move 0
+    ability ABILITY_NONE
+    ball ITEM_POKE_BALL
+    setivs 0, 0, 0, 0, 0, 0
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level TRAINING_LEVEL_BADGE_6
+    pokemon SPECIES_CHANSEY
+    item 0
+    move MOVE_MEMENTO
+    move 0
+    move 0
+    move 0
+    ability ABILITY_NONE
+    ball ITEM_POKE_BALL
+    setivs 0, 0, 0, 0, 0, 0
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level TRAINING_LEVEL_BADGE_6
+    pokemon SPECIES_CHANSEY
+    item 0
+    move MOVE_MEMENTO
+    move 0
+    move 0
+    move 0
+    ability ABILITY_NONE
+    ball ITEM_POKE_BALL
+    setivs 0, 0, 0, 0, 0, 0
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+endparty
+
+/* Level Training - 7 Badges */
+trainerdata 759, "Traynor"
+    trainermontype TRAINER_MON_TYPE_FLAGS
+    trainerclass CLASS_WAITER
+    battletype 0
+    nummons 6
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype2 SINGLE_BATTLE
+    endentry
+
+party 759
+    ivs 0
+    abilityslot 0
+    level TRAINING_LEVEL_BADGE_7
+    pokemon SPECIES_BLISSEY
+    item 0
+    move MOVE_MEMENTO
+    move 0
+    move 0
+    move 0
+    ability ABILITY_NONE
+    ball ITEM_POKE_BALL
+    setivs 0, 0, 0, 0, 0, 0
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level TRAINING_LEVEL_BADGE_7
+    pokemon SPECIES_BLISSEY
+    item 0
+    move MOVE_MEMENTO
+    move 0
+    move 0
+    move 0
+    ability ABILITY_NONE
+    ball ITEM_POKE_BALL
+    setivs 0, 0, 0, 0, 0, 0
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level TRAINING_LEVEL_BADGE_7
+    pokemon SPECIES_BLISSEY
+    item 0
+    move MOVE_MEMENTO
+    move 0
+    move 0
+    move 0
+    ability ABILITY_NONE
+    ball ITEM_POKE_BALL
+    setivs 0, 0, 0, 0, 0, 0
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level TRAINING_LEVEL_BADGE_7
+    pokemon SPECIES_BLISSEY
+    item 0
+    move MOVE_MEMENTO
+    move 0
+    move 0
+    move 0
+    ability ABILITY_NONE
+    ball ITEM_POKE_BALL
+    setivs 0, 0, 0, 0, 0, 0
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level TRAINING_LEVEL_BADGE_7
+    pokemon SPECIES_BLISSEY
+    item 0
+    move MOVE_MEMENTO
+    move 0
+    move 0
+    move 0
+    ability ABILITY_NONE
+    ball ITEM_POKE_BALL
+    setivs 0, 0, 0, 0, 0, 0
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level TRAINING_LEVEL_BADGE_7
+    pokemon SPECIES_BLISSEY
+    item 0
+    move MOVE_MEMENTO
+    move 0
+    move 0
+    move 0
+    ability ABILITY_NONE
+    ball ITEM_POKE_BALL
+    setivs 0, 0, 0, 0, 0, 0
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+endparty
+
+/* Level Training - 8 Badges */
+trainerdata 760, "Traynor"
+    trainermontype TRAINER_MON_TYPE_FLAGS
+    trainerclass CLASS_WAITER
+    battletype 0
+    nummons 6
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype2 SINGLE_BATTLE
+    endentry
+
+party 760
+    ivs 0
+    abilityslot 0
+    level TRAINING_LEVEL_BADGE_8
+    pokemon SPECIES_BLISSEY
+    item 0
+    move MOVE_MEMENTO
+    move 0
+    move 0
+    move 0
+    ability ABILITY_NONE
+    ball ITEM_POKE_BALL
+    setivs 0, 0, 0, 0, 0, 0
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level TRAINING_LEVEL_BADGE_8
+    pokemon SPECIES_BLISSEY
+    item 0
+    move MOVE_MEMENTO
+    move 0
+    move 0
+    move 0
+    ability ABILITY_NONE
+    ball ITEM_POKE_BALL
+    setivs 0, 0, 0, 0, 0, 0
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level TRAINING_LEVEL_BADGE_8
+    pokemon SPECIES_BLISSEY
+    item 0
+    move MOVE_MEMENTO
+    move 0
+    move 0
+    move 0
+    ability ABILITY_NONE
+    ball ITEM_POKE_BALL
+    setivs 0, 0, 0, 0, 0, 0
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level TRAINING_LEVEL_BADGE_8
+    pokemon SPECIES_BLISSEY
+    item 0
+    move MOVE_MEMENTO
+    move 0
+    move 0
+    move 0
+    ability ABILITY_NONE
+    ball ITEM_POKE_BALL
+    setivs 0, 0, 0, 0, 0, 0
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level TRAINING_LEVEL_BADGE_8
+    pokemon SPECIES_BLISSEY
+    item 0
+    move MOVE_MEMENTO
+    move 0
+    move 0
+    move 0
+    ability ABILITY_NONE
+    ball ITEM_POKE_BALL
+    setivs 0, 0, 0, 0, 0, 0
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level TRAINING_LEVEL_BADGE_8
+    pokemon SPECIES_BLISSEY
+    item 0
+    move MOVE_MEMENTO
+    move 0
+    move 0
+    move 0
+    ability ABILITY_NONE
+    ball ITEM_POKE_BALL
+    setivs 0, 0, 0, 0, 0, 0
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+endparty
+
+/* Level Training - Champion */
+trainerdata 761, "Traynor"
+    trainermontype TRAINER_MON_TYPE_FLAGS
+    trainerclass CLASS_WAITER
+    battletype 0
+    nummons 6
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype2 SINGLE_BATTLE
+    endentry
+
+party 761
+    ivs 0
+    abilityslot 0
+    level TRAINING_LEVEL_CHAMPION
+    pokemon SPECIES_BLISSEY
+    item 0
+    move MOVE_MEMENTO
+    move 0
+    move 0
+    move 0
+    ability ABILITY_NONE
+    ball ITEM_POKE_BALL
+    setivs 0, 0, 0, 0, 0, 0
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level TRAINING_LEVEL_CHAMPION
+    pokemon SPECIES_BLISSEY
+    item 0
+    move MOVE_MEMENTO
+    move 0
+    move 0
+    move 0
+    ability ABILITY_NONE
+    ball ITEM_POKE_BALL
+    setivs 0, 0, 0, 0, 0, 0
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level TRAINING_LEVEL_CHAMPION
+    pokemon SPECIES_BLISSEY
+    item 0
+    move MOVE_MEMENTO
+    move 0
+    move 0
+    move 0
+    ability ABILITY_NONE
+    ball ITEM_POKE_BALL
+    setivs 0, 0, 0, 0, 0, 0
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level TRAINING_LEVEL_CHAMPION
+    pokemon SPECIES_BLISSEY
+    item 0
+    move MOVE_MEMENTO
+    move 0
+    move 0
+    move 0
+    ability ABILITY_NONE
+    ball ITEM_POKE_BALL
+    setivs 0, 0, 0, 0, 0, 0
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level TRAINING_LEVEL_CHAMPION
+    pokemon SPECIES_BLISSEY
+    item 0
+    move MOVE_MEMENTO
+    move 0
+    move 0
+    move 0
+    ability ABILITY_NONE
+    ball ITEM_POKE_BALL
+    setivs 0, 0, 0, 0, 0, 0
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level TRAINING_LEVEL_CHAMPION
+    pokemon SPECIES_BLISSEY
+    item 0
+    move MOVE_MEMENTO
+    move 0
+    move 0
+    move 0
+    ability ABILITY_NONE
+    ball ITEM_POKE_BALL
+    setivs 0, 0, 0, 0, 0, 0
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+endparty
+
+/* Level Training - 16 Badges */
+trainerdata 762, "Traynor"
+    trainermontype TRAINER_MON_TYPE_FLAGS
+    trainerclass CLASS_WAITER
+    battletype 0
+    nummons 6
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype2 SINGLE_BATTLE
+    endentry
+
+party 762
+    ivs 0
+    abilityslot 0
+    level TRAINING_LEVEL_BADGE_16
+    pokemon SPECIES_BLISSEY
+    item 0
+    move MOVE_MEMENTO
+    move 0
+    move 0
+    move 0
+    ability ABILITY_NONE
+    ball ITEM_POKE_BALL
+    setivs 0, 0, 0, 0, 0, 0
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level TRAINING_LEVEL_BADGE_16
+    pokemon SPECIES_BLISSEY
+    item 0
+    move MOVE_MEMENTO
+    move 0
+    move 0
+    move 0
+    ability ABILITY_NONE
+    ball ITEM_POKE_BALL
+    setivs 0, 0, 0, 0, 0, 0
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level TRAINING_LEVEL_BADGE_16
+    pokemon SPECIES_BLISSEY
+    item 0
+    move MOVE_MEMENTO
+    move 0
+    move 0
+    move 0
+    ability ABILITY_NONE
+    ball ITEM_POKE_BALL
+    setivs 0, 0, 0, 0, 0, 0
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level TRAINING_LEVEL_BADGE_16
+    pokemon SPECIES_BLISSEY
+    item 0
+    move MOVE_MEMENTO
+    move 0
+    move 0
+    move 0
+    ability ABILITY_NONE
+    ball ITEM_POKE_BALL
+    setivs 0, 0, 0, 0, 0, 0
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level TRAINING_LEVEL_BADGE_16
+    pokemon SPECIES_BLISSEY
+    item 0
+    move MOVE_MEMENTO
+    move 0
+    move 0
+    move 0
+    ability ABILITY_NONE
+    ball ITEM_POKE_BALL
+    setivs 0, 0, 0, 0, 0, 0
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level TRAINING_LEVEL_BADGE_16
+    pokemon SPECIES_BLISSEY
+    item 0
+    move MOVE_MEMENTO
+    move 0
+    move 0
+    move 0
+    ability ABILITY_NONE
+    ball ITEM_POKE_BALL
+    setivs 0, 0, 0, 0, 0, 0
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+endparty

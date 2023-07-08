@@ -220,7 +220,7 @@
 /* SPECIES_SCIZOR                      */ .halfword ABILITY_LIGHT_METAL
 /* SPECIES_SHUCKLE                     */ .halfword ABILITY_CONTRARY
 /* SPECIES_HERACROSS                   */ .halfword ABILITY_MOXIE
-/* SPECIES_SNEASEL                     */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_INFILTRATOR : ABILITY_PICKPOCKET
+/* SPECIES_SNEASEL                     */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_INFILTRATOR : ABILITY_NONE // Pickpocket removed
 /* SPECIES_TEDDIURSA                   */ .halfword ABILITY_HONEY_GATHER
 /* SPECIES_URSARING                    */ .halfword ABILITY_UNNERVE
 /* SPECIES_SLUGMA                      */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_INFERNAL_BODY : ABILITY_WEAK_ARMOR
@@ -278,9 +278,9 @@
 /* SPECIES_LOTAD                       */ .halfword ABILITY_OWN_TEMPO
 /* SPECIES_LOMBRE                      */ .halfword ABILITY_OWN_TEMPO
 /* SPECIES_LUDICOLO                    */ .halfword ABILITY_OWN_TEMPO
-/* SPECIES_SEEDOT                      */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_FRISK : ABILITY_PICKPOCKET
-/* SPECIES_NUZLEAF                     */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_FRISK : ABILITY_PICKPOCKET
-/* SPECIES_SHIFTRY                     */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_WIND_WHIPPER : ABILITY_PICKPOCKET
+/* SPECIES_SEEDOT                      */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_FRISK : ABILITY_NONE // Pickpocket removed
+/* SPECIES_NUZLEAF                     */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_FRISK : ABILITY_NONE // Pickpocket removed
+/* SPECIES_SHIFTRY                     */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_WIND_WHIPPER : ABILITY_NONE // Pickpocket removed
 /* SPECIES_TAILLOW                     */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_DEFIANT : ABILITY_SCRAPPY
 /* SPECIES_SWELLOW                     */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_DEFIANT : ABILITY_SCRAPPY
 /* SPECIES_WINGULL                     */ .halfword ABILITY_RAIN_DISH
@@ -466,7 +466,7 @@
 /* SPECIES_MANTYKE                     */ .halfword ABILITY_WATER_VEIL
 /* SPECIES_SNOVER                      */ .halfword ABILITY_SOUNDPROOF
 /* SPECIES_ABOMASNOW                   */ .halfword ABILITY_SOUNDPROOF
-/* SPECIES_WEAVILE                     */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_INFILTRATOR : ABILITY_PICKPOCKET
+/* SPECIES_WEAVILE                     */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_INFILTRATOR : ABILITY_NONE // Pickpocket removed
 /* SPECIES_MAGNEZONE                   */ .halfword ABILITY_ANALYTIC
 /* SPECIES_LICKILICKY                  */ .halfword ABILITY_CLOUD_NINE
 /* SPECIES_RHYPERIOR                   */ .halfword ABILITY_RECKLESS
@@ -708,9 +708,9 @@
 /* SPECIES_CHESPIN                     */ .halfword ABILITY_BULLETPROOF
 /* SPECIES_QUILLADIN                   */ .halfword ABILITY_BULLETPROOF
 /* SPECIES_CHESNAUGHT                  */ .halfword ABILITY_BULLETPROOF
-/* SPECIES_FENNEKIN                    */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_MAGIC_GUARD : ABILITY_MAGICIAN
-/* SPECIES_BRAIXEN                     */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_MAGIC_GUARD : ABILITY_MAGICIAN
-/* SPECIES_DELPHOX                     */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_MAGIC_GUARD : ABILITY_MAGICIAN
+/* SPECIES_FENNEKIN                    */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_MAGIC_GUARD : ABILITY_NONE // No Magician
+/* SPECIES_BRAIXEN                     */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_MAGIC_GUARD : ABILITY_NONE // No Magician
+/* SPECIES_DELPHOX                     */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_MAGIC_GUARD : ABILITY_NONE // No Magician
 /* SPECIES_FROAKIE                     */ .halfword ABILITY_PROTEAN
 /* SPECIES_FROGADIER                   */ .halfword ABILITY_PROTEAN
 /* SPECIES_GRENINJA                    */ .halfword ABILITY_PROTEAN
@@ -727,8 +727,8 @@
 /* SPECIES_FLABEBE                     */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_SERENE_GRACE : ABILITY_NONE // No Symbiosis
 /* SPECIES_FLOETTE                     */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_SERENE_GRACE : ABILITY_NONE // No Symbiosis
 /* SPECIES_FLORGES                     */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_SERENE_GRACE : ABILITY_NONE // No Symbiosis
-/* SPECIES_SKIDDO                      */ .halfword ABILITY_GRASS_PELT
-/* SPECIES_GOGOAT                      */ .halfword ABILITY_GRASS_PELT
+/* SPECIES_SKIDDO                      */ .halfword ABILITY_NONE // No Grass Pelt
+/* SPECIES_GOGOAT                      */ .halfword ABILITY_NONE // No Grass Pelt
 /* SPECIES_PANCHAM                     */ .halfword ABILITY_SCRAPPY
 /* SPECIES_PANGORO                     */ .halfword ABILITY_SCRAPPY
 /* SPECIES_FURFROU                     */ .halfword ABILITY_NONE
@@ -743,8 +743,8 @@
 /* SPECIES_SLURPUFF                    */ .halfword ABILITY_UNBURDEN
 /* SPECIES_INKAY                       */ .halfword ABILITY_INFILTRATOR
 /* SPECIES_MALAMAR                     */ .halfword ABILITY_INFILTRATOR
-/* SPECIES_BINACLE                     */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_FRISK : ABILITY_PICKPOCKET
-/* SPECIES_BARBARACLE                  */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_FRISK : ABILITY_PICKPOCKET
+/* SPECIES_BINACLE                     */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_FRISK : ABILITY_NONE // Pickpocket removed
+/* SPECIES_BARBARACLE                  */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_FRISK : ABILITY_NONE // Pickpocket removed
 /* SPECIES_SKRELP                      */ .halfword ABILITY_ADAPTABILITY
 /* SPECIES_DRAGALGE                    */ .halfword ABILITY_ADAPTABILITY
 /* SPECIES_CLAUNCHER                   */ .halfword ABILITY_NONE
@@ -762,7 +762,7 @@
 /* SPECIES_GOOMY                       */ .halfword ABILITY_GOOEY
 /* SPECIES_SLIGGOO                     */ .halfword ABILITY_GOOEY
 /* SPECIES_GOODRA                      */ .halfword ABILITY_GOOEY
-/* SPECIES_KLEFKI                      */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_PRANKSTER : ABILITY_MAGICIAN
+/* SPECIES_KLEFKI                      */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_PRANKSTER : ABILITY_NONE // No Magician
 /* SPECIES_PHANTUMP                    */ .halfword ABILITY_HARVEST
 /* SPECIES_TREVENANT                   */ .halfword ABILITY_HARVEST
 /* SPECIES_PUMPKABOO                   */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_FLARE_BOOST : ABILITY_INSOMNIA

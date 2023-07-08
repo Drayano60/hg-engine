@@ -24483,7 +24483,7 @@ mondata SPECIES_RATICATE_ALOLAN, "-----"
 
 
 // STATS: 110 >> 120 Speed | 485 >> 495 BST
-// ABILITY: Levitate (1, 2, HA) -- Surge Surfer replaced with Static/Lightning Rod
+// ABILITY: Levitate (1, 2, HA) -- Surge Surfer replaced with Static
 mondata SPECIES_RAICHU_ALOLAN, "-----"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 60, 85, 50, 120, 95, 85

@@ -9,6 +9,8 @@
 
 .create "build/move/battle_sub_seq/1_205", 0
 
+/* Persim/Lum Berry? */
+
 a001_205:
     setstatus2effect BATTLER_xFF, 0xA
     waitmessage

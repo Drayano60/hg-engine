@@ -9,6 +9,8 @@
 
 .create "build/move/battle_sub_seq/1_211", 0
 
+/* White Herb? */
+
 a001_211:
     setstatus2effect BATTLER_xFF, 0xA
     waitmessage

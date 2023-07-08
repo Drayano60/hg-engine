@@ -9,6 +9,8 @@
 
 .create "build/move/battle_sub_seq/1_208", 0
 
+/* ??? What is this? */
+
 a001_208:
     setstatus2effect BATTLER_xFF, 0xA
     waitmessage

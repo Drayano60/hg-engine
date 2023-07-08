@@ -9,6 +9,8 @@
 
 .create "build/move/battle_sub_seq/1_200", 0
 
+/* Chesto/Lum Berry? */
+
 a001_200:
     setstatus2effect BATTLER_xFF, 0xA
     waitmessage

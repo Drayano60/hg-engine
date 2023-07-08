@@ -9,6 +9,8 @@
 
 .create "build/move/battle_sub_seq/1_212", 0
 
+/* Lum Berry for other conditions...? */
+
 a001_212:
     setstatus2effect BATTLER_xFF, 0xA
     waitmessage

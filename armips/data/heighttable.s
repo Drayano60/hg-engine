@@ -848,9 +848,9 @@ heightentry SPECIES_HAKAMO_O, 0, 0, 0, 0
 heightentry SPECIES_KOMMO_O, 0, 0, 0, 0
 
 // Tapus replaced
-heightentry SPECIES_ANNIHILAPE, 0, 0, 0, 0
+heightentry SPECIES_ANNIHILAPE, 4, 4, 4, 4
 heightentry SPECIES_FARIGIRAF, 0, 0, 0, 0
-heightentry SPECIES_DUDUNSPARCE, 0, 0, 0, 0
+heightentry SPECIES_DUDUNSPARCE, 4, 4, 22, 22
 heightentry SPECIES_KINGAMBIT, 0, 0, 0, 0
 
 heightentry SPECIES_COSMOG, 0, 0, 0, 0

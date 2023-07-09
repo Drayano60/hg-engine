@@ -1385,7 +1385,7 @@ struct OVERWORLD_TAG gOWTagToFileNum[] = // skip down a bit to see the parts tha
     { .tag = 1514, .gfx = 1169, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_ANNIHILAPE
     { .tag = 1515, .gfx = 1170, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_FARIGIRAF
     { .tag = 1516, .gfx = 1171, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_DUDUNSPARCE
-    { .tag = 1517, .gfx = 1172, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_KINGAMBIT
+    { .tag = 1517, .gfx = 1172, .callback_params = OVERWORLD_SIZE_LARGE}, // SPECIES_KINGAMBIT
     { .tag = 1518, .gfx = 1173, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_COSMOG
     { .tag = 1519, .gfx = 1174, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_COSMOEM
     { .tag = 1520, .gfx = 1175, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_SOLGALEO

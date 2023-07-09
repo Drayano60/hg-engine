@@ -10909,7 +10909,7 @@ mondata SPECIES_COMBEE, "Combee"
 
 
 // STATS: 70 >> 80 HP | 80 >> 90 Atk | 80 >> 90 SpAtk | 40 >> 30 Speed | 474 >> 494 BST
-// ABILITY: Intimidate (1), Supreme Overlord (2), Queenly Majesty (HA)
+// ABILITY: Intimidate (1), Swarm (2), Queenly Majesty (HA)
 mondata SPECIES_VESPIQUEN, "Vespiquen"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 80, 90, 102, 30, 90, 102
@@ -10927,7 +10927,7 @@ mondata SPECIES_VESPIQUEN, "Vespiquen"
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_BUG, EGG_GROUP_BUG
     .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_INTIMIDATE, ABILITY_SUPREME_OVERLORD
+        abilities ABILITY_INTIMIDATE, ABILITY_SWARM
     .else
         abilities ABILITY_PRESSURE, ABILITY_NONE
     .endif
@@ -14425,7 +14425,7 @@ mondata SPECIES_LIEPARD, "Liepard"
     mondexweight SPECIES_LIEPARD, "82.7 lbs."
 
 
-// ABILITY: Overgrow (2), Adaptability (HA)
+// ABILITY: Sap Sipper (2)
 mondata SPECIES_PANSAGE, "Pansage"
     basestats 50, 53, 48, 64, 53, 48
     types TYPE_GRASS, TYPE_GRASS
@@ -14439,7 +14439,7 @@ mondata SPECIES_PANSAGE, "Pansage"
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_GLUTTONY, ABILITY_OVERGROW
+        abilities ABILITY_GLUTTONY, ABILITY_SAP_SIPPER
     .else
         abilities ABILITY_GLUTTONY, ABILITY_NONE
     .endif
@@ -14452,7 +14452,7 @@ mondata SPECIES_PANSAGE, "Pansage"
     mondexweight SPECIES_PANSAGE, "23.1 lbs."
 
 
-// ABILITY: Overgrow (2), Adaptability (HA)
+// ABILITY: Sap Sipper (2)
 mondata SPECIES_SIMISAGE, "Simisage"
     basestats 75, 98, 63, 101, 98, 63
     types TYPE_GRASS, TYPE_GRASS
@@ -14466,7 +14466,7 @@ mondata SPECIES_SIMISAGE, "Simisage"
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_GLUTTONY, ABILITY_OVERGROW
+        abilities ABILITY_GLUTTONY, ABILITY_SAP_SIPPER
     .else
         abilities ABILITY_GLUTTONY, ABILITY_NONE
     .endif
@@ -14479,7 +14479,7 @@ mondata SPECIES_SIMISAGE, "Simisage"
     mondexweight SPECIES_SIMISAGE, "67.2 lbs."
 
 
-// ABILITY: Blaze (2), Adaptability (HA)
+// ABILITY: Flash Fire (2)
 mondata SPECIES_PANSEAR, "Pansear"
     basestats 50, 53, 48, 64, 53, 48
     types TYPE_FIRE, TYPE_FIRE
@@ -14493,7 +14493,7 @@ mondata SPECIES_PANSEAR, "Pansear"
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_GLUTTONY, ABILITY_BLAZE
+        abilities ABILITY_GLUTTONY, ABILITY_FLASH_FIRE
     .else
         abilities ABILITY_GLUTTONY, ABILITY_NONE
     .endif
@@ -14506,7 +14506,7 @@ mondata SPECIES_PANSEAR, "Pansear"
     mondexweight SPECIES_PANSEAR, "24.3 lbs."
 
 
-// ABILITY: Blaze (2), Adaptability (HA)
+// ABILITY: Flash Fire (2)
 mondata SPECIES_SIMISEAR, "Simisear"
     basestats 75, 98, 63, 101, 98, 63
     types TYPE_FIRE, TYPE_FIRE
@@ -14520,7 +14520,7 @@ mondata SPECIES_SIMISEAR, "Simisear"
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_GLUTTONY, ABILITY_BLAZE
+        abilities ABILITY_GLUTTONY, ABILITY_FLASH_FIRE
     .else
         abilities ABILITY_GLUTTONY, ABILITY_NONE
     .endif
@@ -14533,7 +14533,7 @@ mondata SPECIES_SIMISEAR, "Simisear"
     mondexweight SPECIES_SIMISEAR, "61.7 lbs."
 
 
-// ABILITY: Torrent (2), Adaptability (HA)
+// ABILITY: Storm Drain (2)
 mondata SPECIES_PANPOUR, "Panpour"
     basestats 50, 53, 48, 64, 53, 48
     types TYPE_WATER, TYPE_WATER
@@ -14547,7 +14547,7 @@ mondata SPECIES_PANPOUR, "Panpour"
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_GLUTTONY, ABILITY_TORRENT
+        abilities ABILITY_GLUTTONY, ABILITY_STORM_DRAIN
     .else
         abilities ABILITY_GLUTTONY, ABILITY_NONE
     .endif
@@ -14560,7 +14560,7 @@ mondata SPECIES_PANPOUR, "Panpour"
     mondexweight SPECIES_PANPOUR, "29.8 lbs."
 
 
-// ABILITY: Torrent (2), Adaptability (HA)
+// ABILITY: Storm Drain (2)
 mondata SPECIES_SIMIPOUR, "Simipour"
     basestats 75, 98, 63, 101, 98, 63
     types TYPE_WATER, TYPE_WATER
@@ -14574,7 +14574,7 @@ mondata SPECIES_SIMIPOUR, "Simipour"
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_GLUTTONY, ABILITY_TORRENT
+        abilities ABILITY_GLUTTONY, ABILITY_STORM_DRAIN
     .else
         abilities ABILITY_GLUTTONY, ABILITY_NONE
     .endif
@@ -24582,7 +24582,7 @@ mondata SPECIES_VULPIX_ALOLAN, "-----"
     tmdata SPECIES_VULPIX_ALOLAN_TM_DATA_0, SPECIES_VULPIX_ALOLAN_TM_DATA_1, SPECIES_VULPIX_ALOLAN_TM_DATA_2, SPECIES_VULPIX_ALOLAN_TM_DATA_3
 
 
-// ABILITY: Cursed Body (2)
+// ABILITY: Cute Charm (2)
 mondata SPECIES_NINETALES_ALOLAN, "-----"
     basestats 73, 67, 75, 109, 81, 100
     types TYPE_ICE, TYPE_FAIRY
@@ -24596,7 +24596,7 @@ mondata SPECIES_NINETALES_ALOLAN, "-----"
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_SNOW_CLOAK, ABILITY_CURSED_BODY
+        abilities ABILITY_SNOW_CLOAK, ABILITY_CUTE_CHARM
     .else
         abilities ABILITY_SNOW_CLOAK, ABILITY_NONE
     .endif

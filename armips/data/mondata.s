@@ -24480,11 +24480,11 @@ mondata SPECIES_RATICATE_ALOLAN, "-----"
     tmdata SPECIES_RATICATE_ALOLAN_TM_DATA_0, SPECIES_RATICATE_ALOLAN_TM_DATA_1, SPECIES_RATICATE_ALOLAN_TM_DATA_2, SPECIES_RATICATE_ALOLAN_TM_DATA_3
 
 
-// STATS: 110 >> 120 Speed | 485 >> 495 BST
+// STATS: 95 >> 100 SpAtk | 85 >> 90 SpDef | 485 >> 495 BST
 // ABILITY: Levitate (1, 2, HA) -- Surge Surfer replaced with Static
 mondata SPECIES_RAICHU_ALOLAN, "-----"
     .if STAT_CHANGES_IMPLEMENTED
-        basestats 60, 85, 50, 120, 95, 85
+        basestats 60, 85, 50, 110, 100, 90
     .else
         basestats 60, 85, 50, 110, 95, 85
     .endif

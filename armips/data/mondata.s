@@ -20788,7 +20788,7 @@ mondata SPECIES_ANNIHILAPE, "Annihilape"
     runchance 25
     colorflip BODY_COLOR_GRAY, 0
     tmdata SPECIES_ANNIHILAPE_TM_DATA_0, SPECIES_ANNIHILAPE_TM_DATA_1, SPECIES_ANNIHILAPE_TM_DATA_2, SPECIES_ANNIHILAPE_TM_DATA_3
-    mondexentry SPECIES_ANNIHILAPE, "Annihilape Dex Entry"
+    mondexentry SPECIES_ANNIHILAPE, "When its anger rose past a critical\npoint, it gained power unfettered\nby the limits of its physical body."
     mondexclassification SPECIES_ANNIHILAPE, "Rage Monkey Pokémon"
     mondexheight SPECIES_ANNIHILAPE, "3’11”"
     mondexweight SPECIES_ANNIHILAPE, "123.5 lbs."
@@ -20810,7 +20810,7 @@ mondata SPECIES_FARIGIRAF, "Farigiraf"
     runchance 25
     colorflip BODY_COLOR_BROWN, 0
     tmdata SPECIES_FARIGIRAF_TM_DATA_0, SPECIES_FARIGIRAF_TM_DATA_1, SPECIES_FARIGIRAF_TM_DATA_2, SPECIES_FARIGIRAF_TM_DATA_3
-    mondexentry SPECIES_FARIGIRAF, "Farigiraf Dex Entry"
+    mondexentry SPECIES_FARIGIRAF, "Now that the brain waves from its head\nand tail are synced up, this Pokémon’s\npsychic power is 10 times stronger."
     mondexclassification SPECIES_FARIGIRAF, "Long Neck Pokémon"
     mondexheight SPECIES_FARIGIRAF, "10’06”"
     mondexweight SPECIES_FARIGIRAF, "352.7 lbs."
@@ -20832,10 +20832,10 @@ mondata SPECIES_DUDUNSPARCE, "Dudnsparce"
     runchance 25
     colorflip BODY_COLOR_YELLOW, 0
     tmdata SPECIES_DUDUNSPARCE_TM_DATA_0, SPECIES_DUDUNSPARCE_TM_DATA_1, SPECIES_DUDUNSPARCE_TM_DATA_2, SPECIES_DUDUNSPARCE_TM_DATA_3
-    mondexentry SPECIES_DUDUNSPARCE, "Dudunsparce Dex Entry"
+    mondexentry SPECIES_DUDUNSPARCE, "It drives enemies away by sucking\nin enough air to fill its narrow lungs,\nthen releasing it in an intense blast."
     mondexclassification SPECIES_DUDUNSPARCE, "Land Snake Pokémon"
-    mondexheight SPECIES_DUDUNSPARCE, "14’09”" // Three-Segment
-    mondexweight SPECIES_DUDUNSPARCE, "104.5 lbs." // Three-Segment
+    mondexheight SPECIES_DUDUNSPARCE, "11’10”" // Two-Segment
+    mondexweight SPECIES_DUDUNSPARCE, "86.4 lbs." // Two-Segment
 
 
 mondata SPECIES_KINGAMBIT, "Kingambit"
@@ -20854,7 +20854,7 @@ mondata SPECIES_KINGAMBIT, "Kingambit"
     runchance 25
     colorflip BODY_COLOR_RED, 0
     tmdata SPECIES_KINGAMBIT_TM_DATA_0, SPECIES_KINGAMBIT_TM_DATA_1, SPECIES_KINGAMBIT_TM_DATA_2, SPECIES_KINGAMBIT_TM_DATA_3
-    mondexentry SPECIES_KINGAMBIT, "Kingambit Dex Entry"
+    mondexentry SPECIES_KINGAMBIT, "Although it commands a massive army,\nit can’t devise complex strategies.\nIt just pushes with brute strength."
     mondexclassification SPECIES_KINGAMBIT, "Big Blade Pokémon"
     mondexheight SPECIES_KINGAMBIT, "6’07”"
     mondexweight SPECIES_KINGAMBIT, "264.6 lbs."

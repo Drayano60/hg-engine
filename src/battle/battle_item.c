@@ -86,6 +86,75 @@ u32 MoveHitUTurnHeldItemEffectCheck(void *bw, struct BattleStruct *sp, int *seq_
         ret = TRUE;
     }
 
+    /* Below is Aurora Crystal branch only */
+
+    if
+    (
+        // Rocky Helmet
+        (def_hold_eff == HOLD_EFFECT_DAMAGE_ON_CONTACT)
+        && (sp->battlemon[sp->attack_client].hp)
+        && (GetBattlerAbility(sp, sp->attack_client) != ABILITY_MAGIC_GUARD)
+        && (sp->oneSelfFlag[sp->defence_client].physical_damage) || (sp->oneSelfFlag[sp->defence_client].special_damage)
+        && (sp->moveTbl[sp->current_move_index].flag & FLAG_CONTACT)
+    )
+    {
+        sp->hp_calc_work = BattleDamageDivide(sp->battlemon[sp->attack_client].maxhp * -1, def_item_param);
+        seq_no[0] = SUB_SEQ_HANDLE_ROCKY_HELMET;
+        ret = TRUE;
+    }
+
+    if
+    (
+        // Weakness Policy
+        (def_hold_eff == HOLD_EFFECT_BOOST_ATK_AND_SPATK_ON_SE)
+        && (sp->battlemon[sp->defence_client].hp)
+        && (sp->oneSelfFlag[sp->defence_client].physical_damage || sp->oneSelfFlag[sp->defence_client].special_damage)
+        && (sp->waza_status_flag & MOVE_STATUS_FLAG_SUPER_EFFECTIVE)
+        && (
+            ((GetBattlerAbility(sp,sp->defence_client) == ABILITY_CONTRARY) && ((sp->battlemon[sp->defence_client].states[STAT_ATTACK] > 0) || (sp->battlemon[sp->defence_client].states[STAT_SPATK] > 0)))
+            ||
+            ((sp->battlemon[sp->defence_client].states[STAT_ATTACK] < 12) || (sp->battlemon[sp->defence_client].states[STAT_SPATK] < 12))
+        )
+    )
+    {
+        sp->addeffect_type = ADD_STATUS_SOUBIITEM;
+        sp->state_client = sp->defence_client;
+        sp->item_work = sp->battlemon[sp->defence_client].item;
+        seq_no[0] = SUB_SEQ_HANDLE_WEAKNESS_POLICY;
+        ret = TRUE;
+    }
+
+    if
+    (
+        (def_hold_eff == HOLD_EFFECT_UNGROUND_DESTROYED_ON_HIT)
+        && (sp->battlemon[sp->defence_client].hp)
+        && (sp->oneSelfFlag[sp->defence_client].physical_damage || sp->oneSelfFlag[sp->defence_client].special_damage)
+    )
+    {
+        seq_no[0] = SUB_SEQ_HANDLE_AIR_BALLOON_POP;
+        ret = TRUE;   
+    }
+
+    if
+    (
+        (atk_hold_eff == HOLD_EFFECT_THROAT_SPRAY)
+        && ((sp->waza_status_flag & MOVE_STATUS_FLAG_MISS) == 0)
+        && (sp->moveTbl[sp->current_move_index].flag & FLAG_SOUND)
+        && (sp->battlemon[sp->attack_client].hp)
+        && (
+            ((GetBattlerAbility(sp,sp->attack_client) == ABILITY_CONTRARY) && (sp->battlemon[sp->attack_client].states[STAT_SPATK] > 0))
+            ||
+            ((sp->battlemon[sp->attack_client].states[STAT_SPATK] < 12))
+        )
+    )
+    {
+        sp->addeffect_type = ADD_STATUS_SOUBIITEM;
+        sp->state_client = sp->attack_client;
+        sp->item_work = sp->battlemon[sp->attack_client].item;
+        seq_no[0] = SUB_SEQ_HANDLE_THROAT_SPRAY;
+        ret = TRUE;
+    }
+
     return ret;
 }
 
@@ -95,6 +164,7 @@ enum
 	SWHAC_RAGE_ATTACK_CHECK=0,
 	SWHAC_HELD_ITEM_SHELL_BELL,
 	SWHAC_HELD_ITEM_LIFE_ORB,
+    SHWAC_HELD_ITEM_THROAT_SPRAY,
 	SWHAC_END
 };
 
@@ -132,7 +202,7 @@ u32 ServerWazaHitAfterCheckAct(void *bw, struct BattleStruct *sp)
             sp->swhac_seq_no++;
             
             if (GetBattlerAbility(sp,sp->attack_client) == ABILITY_SHEER_FORCE && sp->battlemon[sp->attack_client].sheer_force_flag == 1) // skip over shell bell and life orb if sheer force is active
-                sp->swhac_seq_no = SWHAC_END;
+                sp->swhac_seq_no = SHWAC_HELD_ITEM_THROAT_SPRAY;
 
             break;
         case SWHAC_HELD_ITEM_SHELL_BELL:
@@ -167,6 +237,33 @@ u32 ServerWazaHitAfterCheckAct(void *bw, struct BattleStruct *sp)
                 sp->hp_calc_work = BattleDamageDivide(sp->battlemon[sp->attack_client].maxhp * -1, 10);
                 sp->client_work = sp->attack_client;
                 LoadBattleSubSeqScript(sp, FILE_BATTLE_SUB_SCRIPTS, SUB_SEQ_LIFE_ORB);
+                sp->next_server_seq_no = sp->server_seq_no;
+                sp->server_seq_no = 22;
+                ret = 1;
+            }
+            sp->swhac_seq_no++;
+            break;
+        // Throat Spray, only in AC fork atm
+        case SHWAC_HELD_ITEM_THROAT_SPRAY:
+            if
+            (
+                (hold_effect == HOLD_EFFECT_SPATK_AFTER_SOUND_MOVE)
+                && ((sp->server_status_flag2 & SERVER_STATUS2_FLAG_x10) == 0) // What does this mean?
+                // This can activate on status moves too so we use this. FLAG_HIT only works for damaging moves it seems like?
+                && ((sp->waza_status_flag & MOVE_STATUS_FLAG_MISS) == 0)
+                && (sp->moveTbl[sp->current_move_index].flag & FLAG_SOUND)
+                && (sp->battlemon[sp->attack_client].hp)
+                && (
+                    ((GetBattlerAbility(sp,sp->attack_client) == ABILITY_CONTRARY) && (sp->battlemon[sp->attack_client].states[STAT_SPATK] > 0))
+                    ||
+                    ((sp->battlemon[sp->attack_client].states[STAT_SPATK] < 12))
+                )
+            )
+            {
+                sp->addeffect_type = ADD_STATUS_SOUBIITEM;
+                sp->state_client = sp->attack_client;
+                sp->item_work = sp->battlemon[sp->attack_client].item;
+                LoadBattleSubSeqScript(sp, FILE_BATTLE_SUB_SCRIPTS, SUB_SEQ_HANDLE_THROAT_SPRAY);
                 sp->next_server_seq_no = sp->server_seq_no;
                 sp->server_seq_no = 22;
                 ret = 1;
@@ -304,6 +401,56 @@ BOOL CheckDefenderItemEffectOnHit(void *bw, struct BattleStruct *sp, int *seq_no
             }
             break;
 
+        /* Aurora Crystal fork only */
+
+        // Rocky Helmet
+        case HOLD_EFFECT_DAMAGE_ON_CONTACT:
+            if 
+            (
+                (sp->battlemon[sp->attack_client].hp)
+                && (GetBattlerAbility(sp, sp->attack_client) != ABILITY_MAGIC_GUARD)
+                && ((sp->oneSelfFlag[sp->defence_client].physical_damage) || (sp->oneSelfFlag[sp->defence_client].special_damage))
+                && ((sp->server_status_flag2 & SERVER_STATUS_FLAG2_U_TURN) == 0)
+                && (sp->moveTbl[sp->current_move_index].flag & FLAG_CONTACT)
+            ) {
+                sp->hp_calc_work = BattleDamageDivide(sp->battlemon[sp->attack_client].maxhp * -1, itemPower);
+                seq_no[0] = SUB_SEQ_HANDLE_ROCKY_HELMET;
+                ret = TRUE;
+            }
+            break;
+        // Weakness Policy
+        case HOLD_EFFECT_BOOST_ATK_AND_SPATK_ON_SE:
+            if
+            (
+                (sp->battlemon[sp->defence_client].hp)
+                && (sp->oneSelfFlag[sp->defence_client].physical_damage || sp->oneSelfFlag[sp->defence_client].special_damage)
+                && (sp->waza_status_flag & MOVE_STATUS_FLAG_SUPER_EFFECTIVE)
+                && ((sp->server_status_flag2 & SERVER_STATUS_FLAG2_U_TURN) == 0)
+                && (
+                    ((GetBattlerAbility(sp,sp->defence_client) == ABILITY_CONTRARY) && ((sp->battlemon[sp->defence_client].states[STAT_ATTACK] > 0) || (sp->battlemon[sp->defence_client].states[STAT_SPATK] > 0)))
+                    ||
+                    ((sp->battlemon[sp->defence_client].states[STAT_ATTACK] < 12) || (sp->battlemon[sp->defence_client].states[STAT_SPATK] < 12))
+                )
+            )
+            {
+                sp->addeffect_type = ADD_STATUS_SOUBIITEM;
+                sp->state_client = sp->defence_client;
+                sp->item_work = sp->battlemon[sp->defence_client].item;
+                seq_no[0] = SUB_SEQ_HANDLE_WEAKNESS_POLICY;
+                ret = TRUE;
+            }
+            break;
+        case HOLD_EFFECT_UNGROUND_DESTROYED_ON_HIT:
+            if
+            (
+                (sp->battlemon[sp->defence_client].hp)
+                && (sp->oneSelfFlag[sp->defence_client].physical_damage || sp->oneSelfFlag[sp->defence_client].special_damage)
+                && ((sp->server_status_flag2 & SERVER_STATUS_FLAG2_U_TURN) == 0)
+            )
+            {
+                seq_no[0] = SUB_SEQ_HANDLE_AIR_BALLOON_POP;
+                ret = TRUE;
+            }
 
 #ifdef LATER_GEN_ITEM_EFFECTS
 

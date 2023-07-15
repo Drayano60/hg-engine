@@ -9,7 +9,7 @@
 
 .create "build/move/battle_sub_seq/1_360", 0
 
-// Air Balloon
+// Air Balloon - not used now
 
 a001_360:
     printmessage 1419, TAG_NICK_ITEM, 0xFF, 0x15, "NaN", "NaN", "NaN", "NaN"

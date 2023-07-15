@@ -342,6 +342,7 @@ levelup SPECIES_PIDGEOTTO
 levelup SPECIES_PIDGEOT
     learnset MOVE_DEFOG, 1
     learnset MOVE_HEAT_WAVE, 1
+    learnset MOVE_TRI_ATTACK, 1
     learnset MOVE_WHIRLWIND, 1
     learnset MOVE_TWISTER, 1
     learnset MOVE_TACKLE, 1
@@ -20337,6 +20338,7 @@ levelup SPECIES_MEGA_BEEDRILL
 levelup SPECIES_MEGA_PIDGEOT
     learnset MOVE_DEFOG, 1
     learnset MOVE_HEAT_WAVE, 1
+    learnset MOVE_TRI_ATTACK, 1
     learnset MOVE_WHIRLWIND, 1
     learnset MOVE_TWISTER, 1
     learnset MOVE_TACKLE, 1

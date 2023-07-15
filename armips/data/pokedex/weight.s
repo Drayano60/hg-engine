@@ -843,7 +843,7 @@
 /* SPECIES_KOMMO_O         */ .word 782
 /* SPECIES_ANNIHILAPE      */ .word 560
 /* SPECIES_FARIGIRAF       */ .word 1600
-/* SPECIES_DUDUNSPARCE     */ .word 474 /* Using 3 segment */
+/* SPECIES_DUDUNSPARCE     */ .word 392 /* Using 2 segment */
 /* SPECIES_KINGAMBIT       */ .word 1200
 /* SPECIES_COSMOG          */ .word 1
 /* SPECIES_COSMOEM         */ .word 9999

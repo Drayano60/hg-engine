@@ -7,27 +7,32 @@
 .include "armips/include/monnums.s"
 .include "armips/include/movenums.s"
 
-.create "build/move/battle_sub_seq/1_336", 0
+// subscript for handling the absorb bulb
+// adapted from mashing a few together for berries and such
 
-// sub_seq used for Incinerate
-// trypluck checks for berries so we can reuse this
-// the part about consuming the berry afterwards is removed
-// this would not extend to gems if they are added later
+.create "build/move/battle_sub_seq/1_336", 0x0
 
 a001_336:
-    trypluck Blocked, End // Blocked if eg Sticky Hold, End if no berry, otherwise continue
-    printmessage 0x554, 0xF, 0xFF, 0xFF, "NaN", "NaN", "NaN", "NaN" // Message about item being burnt up
+    ifmonstat IF_EQUAL, BATTLER_DEFENDER, MON_DATA_HP, 0x0, _0028
+    setstatus2effect BATTLER_DEFENDER, 0xA // play the mon ate animation
+    waitmessage
+_0028:
+
+	// raise spatk, skip message
+    changevar VAR_OP_SETMASK, VAR_SERVER_STATUS1, 0x00084001 // use 0x00080000 to skip stat raise message from subscript 12.  it technically is used for hitting shadow force but we repurpose it here
+    changevar VAR_OP_SETMASK, VAR_SERVER_STATUS2, 0x80
+    changevar VAR_OP_SET, VAR_ADD_EFFECT_ATTRIBUTE, 18 // ADD_STATE_SPATK_UP
+    gotosubscript 12
+    changevar VAR_OP_CLEARMASK, VAR_SERVER_STATUS2, 0x2
+    changevar VAR_OP_CLEARMASK, VAR_SERVER_STATUS2, 0x80
+    changevar VAR_OP_CLEARMASK, VAR_SERVER_STATUS1, 0x00080000 // use this to skip stat raise message from subscript 12
+
+    printmessage 1364, TAG_NICK_ITEM, BATTLER_DEFENDER, BATTLER_DEFENDER, "NaN", "NaN", "NaN", "NaN" // print the real message
     waitmessage
     wait 0x1E
-    removeitem BATTLER_DEFENDER
 
-End:
-    endscript
+	removeitem BATTLER_DEFENDER // remove absorb bulb
 
-Blocked:
-    printmessage 0x2CA, 0x25, 0x2, 0x2, 0x1, "NaN", "NaN", "NaN" // Message about failure (Sticky Hold)
-    waitmessage
-    wait 0x1E
     endscript
 
 .close

@@ -1435,3 +1435,12 @@ The foe’s {STRVAR_1 1, 0, 0} can’t fall asleep\ndue to a veil of sweetness!
 {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nrestored its HP!
 The wild {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nrestored its HP!
 The foe’s {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nrestored its HP!
+{STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nraised its Sp. Attack!
+The wild {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nraised its Sp. Attack!
+The foe’s {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nraised its Sp. Attack!
+{STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\npopped!
+The wild {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\npopped!
+The foe’s {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\npopped!
+{STRVAR_1 1, 0, 0} floats in the\nair with its {STRVAR_1 5, 1, 0}!
+The wild {STRVAR_1 1, 0, 0} floats in the\nair with its {STRVAR_1 5, 1, 0}!
+The foe’s {STRVAR_1 1, 0, 0} floats in the\nair with its {STRVAR_1 5, 1, 0}!

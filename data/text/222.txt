@@ -56,10 +56,10 @@ Old Gateau
 Guard Spec.
 Dire Hit
 X Attack
-X Defense
+X Defend
 X Speed
 X Accuracy
-X Sp. Atk
+X Special
 X Sp. Def
 Poké Doll
 Fluffy Tail
@@ -250,7 +250,7 @@ Twisted Spoon
 Charcoal
 Dragon Fang
 Silk Scarf
-Upgrade
+Up-Grade
 Shell Bell
 Sea Incense
 Lax Incense
@@ -428,7 +428,7 @@ HM07
 HM08
 ???
 Loot Sack
-Devon Scope
+Rule Book
 Poké Radar
 Point Card
 Journal
@@ -443,7 +443,7 @@ Red Chain
 Town Map
 Vs. Seeker
 Coin Case
-Fishing Rod
+Old Rod
 Good Rod
 Super Rod
 Sprayduck
@@ -451,23 +451,23 @@ Poffin Case
 Bicycle
 Suite Key
 Oak’s Letter
-Lunar Feather
+Lunar Wing
 Member Card
 Azure Flute
 S.S. Ticket
-GS Ball
+Contest Pass
 Magma Stone
 Parcel
-Ice Stone
-Prism Scale
-Linking Cord
+Coupon 1
+Coupon 2
+Coupon 3
 Storage Key
 Secret Medicine
 Vs. Recorder
 Gracidea
 Secret Key
 Apricorn Box
-UNOWN Report
+Unown Report
 Berry Pots
 Dowsing Machine
 Blue Card
@@ -536,8 +536,8 @@ Red Orb
 Blue Orb
 Enigma Stone
 Venusaurite
-Charizite X
-Charizite Y
+Charizardite X
+Charizardite Y
 Blastoisite
 Beedrillite
 Pidgeotite
@@ -583,21 +583,189 @@ Galladite
 Audinite
 Diancite
 Pixie Plate
-Black Augurite
-Leader’s Crest
-Peat Block
-Eviolite
-Assault Vest
-Roseli Berry
-Rocky Helmet
-Throat Spray
-Weakness Policy
+Absorb Bulb
 Air Balloon
-H-Duty Boots
+Balm Mushroom
+Big Nugget
+Binding Band
+Casteliacone
+Cell Battery
+Comet Shard
+Dream Ball
+Eject Button
+Eviolite
+Float Stone
+Pearl String
+Prism Scale
+Red Card
+Ring Target
+Rocky Helmet
+Sweet Heart
+Ability Capsule
+Assault Vest
+Luminous Moss
+Lumiose Galette
+Sachet
+Safety Goggles
+Shalour Sable
+Snowball
+Weakness Policy
+Whipped Dream
+Adrenaline Orb
+Beast Ball
+Big Malasada
+Bottle Cap
+Gold Bottle Cap
+Electric Seed
+Grassy Seed
+Misty Seed
+Psychic Seed
+Ice Stone
+Protective Pads
+Terrain Ext.
+Ability Patch
+Black Augurite
+Berry Sweet
+Clover Sweet
+Flower Sweet
+Love Sweet
+Ribbon Sweet
+Star Sweet
+StrawberrySweet
+Blunder Policy
+Chipped Pot
+Cracked Pot
+Eject Pack
+Exp. Candy S
+Exp. Candy M
+Exp. Candy L
+Exp. Candy XS
+Exp. Candy XL
+Galarica Cuff
+Galarica Twig
+Galarica Wreath
+HeavyDutyBoots
+Linking Cord
+Moomoo Cheese
+Peat Block
+Room Service
+Rusted Shield
+Rusted Sword
+Sweet Apple
+Tart Apple
+Throat Spray
+Utility Umbrella
+Ability Shield
+Auspicious Armor
+Booster Energy
+Clear Amulet
+Covert Cloak
+Gimmighoul Coin
+Leader’s Crest
+Loaded Dice
+Malicious Armor
+Mirror Herb
+Punching Glove
+Roseli Berry
+Kee Berry
+Maranga Berry
+Burn Drive
+Chill Drive
+Douse Drive
+Shock Drive
 Cover Fossil
 Plume Fossil
 Jaw Fossil
 Sail Fossil
-Whipped Dream
-Sachet
--
+Fossilized Bird
+Fossilized Dino
+Fossilized Drake
+Fossilized Fish
+Normal Gem
+Fighting Gem
+Flying Gem
+Poison Gem
+Ground Gem
+Rock Gem
+Bug Gem
+Ghost Gem
+Steel Gem
+Fire Gem
+Water Gem
+Grass Gem
+Electric Gem
+Psychic Gem
+Ice Gem
+Dragon Gem
+Dark Gem
+Fairy Gem
+Fighting Memory
+Flying Memory
+Poison Memory
+Ground Memory
+Rock Memory
+Bug Memory
+Ghost Memory
+Steel Memory
+Fire Memory
+Water Memory
+Grass Memory
+Electric Memory
+Psychic Memory
+Ice Memory
+Dragon Memory
+Dark Memory
+Fairy Memory
+Red Nectar
+Yellow Nectar
+Pink Nectar
+Purple Nectar
+Blank Plate
+Legend Plate
+Relic Copper
+Relic Silver
+Relic Gold
+Relic Vase
+Relic Band
+Relic Statue
+Relic Crown
+Health Feather
+Muscle Feather
+Resist Feather
+Genius Feather
+Clever Feather
+Swift Feather
+Pretty Feather
+DNA Splicers
+Reveal Glass
+Prison Bottle
+Catching Charm
+Exp. Charm
+Oval Charm
+Shiny Charm
+N Solarizer
+N Lunarizer
+Box Link
+Zygarde Cube
+Sun Flute
+Moon Flute
+Light Stone
+Dark Stone
+Iceroot Carrot
+Shady Carrot
+Reins of Unity
+Wooden Crown
+Rotom Catalog
+Adamant Crystal
+Lustrous Globe
+Griseous Core
+Darkness Scroll
+Waters Scroll
+Mega Ring
+Autograph
+Gold Teeth
+Key Stone
+Lift Key
+Pewter Snacks
+Silph Scope
+Tea

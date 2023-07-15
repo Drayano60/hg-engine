@@ -1018,29 +1018,6 @@ void ServerHPCalc(void *bw, struct BattleStruct *sp)
                 }
             }
 
-            //handle Mimikyu's Disguise
-            if ((sp->battlemon[sp->defence_client].species == SPECIES_MIMIKYU)
-             && (sp->battlemon->form_no == 0))
-            {
-                if (sp->damage)
-                {
-                    sp->damage = 0;
-                    sp->battlemon[sp->defence_client].condition2 |= CONDITION2_SUBSTITUTE;
-                }
-            }
-
-            //handle Eiscue's Ice Face
-            if ((sp->battlemon[sp->defence_client].species == SPECIES_EISCUE)
-                && (sp->battlemon->form_no == 0)
-                && (sp->moveTbl[sp->current_move_index].split == SPLIT_PHYSICAL))
-            {
-                if (sp->damage)
-                {
-                    sp->damage = 0;
-                    sp->battlemon[sp->defence_client].condition2 |= CONDITION2_SUBSTITUTE;
-                }
-            }
-
             /**
              * END OF ORIGINAL AND USER-DEFINED DAMAGE CALCULATIONS.
              * ALL NEW EFFECTS SHOULD BE PLACED ABOVE THIS COMMENT UNLESS YOU WISH TO EDIT THE CODE BELOW.
@@ -1155,13 +1132,21 @@ int ServerDoTypeCalcMod(void *bw, struct BattleStruct *sp, int move_no, int move
     {
         flag[0] |= MOVE_STATUS_FLAG_LEVITATE_MISS;
     }
-
     else if ((sp->battlemon[defence_client].moveeffect.magnet_rise_count)
           && ((sp->battlemon[defence_client].effect_of_moves & MOVE_EFFECT_FLAG_INGRAIN) == 0)
+          && ((sp->field_condition & FIELD_STATUS_GRAVITY) == 0)
           && (move_type == TYPE_GROUND)
           && (eqp_d != HOLD_EFFECT_HALVE_SPEED))
     {
         flag[0] |= MOVE_STATUS_FLAG_MAGNET_RISE_MISS;
+    }
+    else if ((eqp_d == HOLD_EFFECT_UNGROUND_DESTROYED_ON_HIT) // has air balloon
+          && ((sp->battlemon[defence_client].effect_of_moves & MOVE_EFFECT_FLAG_INGRAIN) == 0)
+          && ((sp->field_condition & FIELD_STATUS_GRAVITY) == 0)
+          && (move_type == TYPE_GROUND)
+          && (eqp_d != HOLD_EFFECT_HALVE_SPEED))
+    {
+        flag[0] |= MOVE_STATUS_FLAG_MISS; // air balloon just misses for the moment
     }
     else
     {

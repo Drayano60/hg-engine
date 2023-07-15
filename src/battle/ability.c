@@ -18,19 +18,9 @@ extern const u8 StatBoostModifiers[][2];
 /* I've used the appeal field as extra move flags so these aren't needed
 const u16 SoundproofMoveList[] =
 {
-    MOVE_GROWL,
-    MOVE_ROAR,
-    MOVE_SING,
-    MOVE_SUPERSONIC,
-    MOVE_SCREECH,
-    MOVE_SNORE,
-    MOVE_UPROAR,
-    MOVE_METAL_SOUND,
-    MOVE_GRASS_WHISTLE,
-    MOVE_HYPER_VOICE,
-    MOVE_BUG_BUZZ,
-    MOVE_CHATTER,
     MOVE_BOOMBURST,
+    MOVE_BUG_BUZZ,
+    MOVE_CHATTER,	
     MOVE_CLANGING_SCALES,
     MOVE_CLANGOROUS_SOUL,
     //MOVE_CLANGOROUS_SOULBLAZE,
@@ -38,18 +28,27 @@ const u16 SoundproofMoveList[] =
     MOVE_DISARMING_VOICE,
     MOVE_ECHOED_VOICE,
     MOVE_EERIE_SPELL,
+    MOVE_GRASS_WHISTLE,
+    MOVE_GROWL,
     //MOVE_HEAL_BELL,
     //MOVE_HOWL,
     MOVE_HYPER_VOICE,
+    MOVE_METAL_SOUND,	
     MOVE_NOBLE_ROAR,
     MOVE_OVERDRIVE,
     MOVE_PARTING_SHOT,
     MOVE_PERISH_SONG,
     MOVE_RELIC_SONG,
+    MOVE_ROAR,
     MOVE_ROUND,
+    MOVE_SCREECH,
     //MOVE_SHADOW_PANIC,
+    MOVE_SING,
     MOVE_SNARL,
+    MOVE_SNORE,
     MOVE_SPARKLING_ARIA,
+    MOVE_SUPERSONIC,
+    MOVE_UPROAR,
 };
 
 const u16 BulletproofMoveList[] =
@@ -82,13 +81,13 @@ const u16 BulletproofMoveList[] =
 
 const u16 PowderMoveList[] = {
     MOVE_COTTON_SPORE,
+    MOVE_MAGIC_POWDER,
     MOVE_POISON_POWDER,
-    MOVE_SLEEP_POWDER,
-    MOVE_STUN_SPORE,	
-    MOVE_SPORE,
     MOVE_POWDER,
     MOVE_RAGE_POWDER,
-    MOVE_MAGIC_POWDER,
+    MOVE_SLEEP_POWDER,
+    MOVE_STUN_SPORE,
+    MOVE_SPORE,
 };
 */
 
@@ -330,7 +329,11 @@ enum
     SWITCH_IN_CHECK_IMPOSTER,
     SWITCH_IN_CHECK_AIR_LOCK,
     SWITCH_IN_CHECK_SUPREME_OVERLORD,
+    SWITCH_IN_CHECK_ICE_FACE,
+
+// items that display messages.
     SWITCH_IN_CHECK_AIR_BALLOON,
+
     SWITCH_IN_CHECK_END,
 };
 
@@ -354,6 +357,11 @@ BOOL IntimidateCheckHelper(u16 ability) //TODO adjust Intimidate switch-in check
             return FALSE;
     }
 }
+
+
+// this function is actually sorta just run whenever it can, but it's best to think of it as on switch in
+// other item functions happen when they can and aren't ever really on switch in, so those meant to be covered on switch in are done so here
+
 
 int SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
 {   int i;
@@ -1080,7 +1088,7 @@ int SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
                 }
 
                 sp->attack_client = client_no; // attack transforms into defence
-                sp->current_move_index = MOVE_TRANSFORM;
+                sp->current_move_index = MOVE_TRANSFORM; // force move anim to play
                 if (sp->battlemon[BATTLER_OPPONENT(client_no)].hp != 0 && sp->battlemon[BATTLER_ACROSS(client_no)].hp != 0)
                 {
                     sp->defence_client = (client_no & 1) + ((BattleRand(bw) & 1) * 2); // get random defender
@@ -1125,6 +1133,7 @@ int SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
                 sp->battlemon[sp->attack_client].moveeffect.slow_start_count = sp->total_turn + 1;
                 sp->battlemon[sp->attack_client].slow_start_flag = 0;
                 sp->battlemon[sp->attack_client].slow_start_end_flag = 0;
+                ClearBattleMonFlags(sp, sp->attack_client); // clear extra flags here too
                 
                 for(i = 0; i < 4; i++)
                 {
@@ -1203,26 +1212,62 @@ int SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
                 }
 
                 break;
-            /* Show Air Balloon message if the Pokémon holds one.
-             * This doesn't really feel appropriate here (there's probably some unexposed function that's better) but it seems to work?
-             * If a Pokémon has an Air Balloon and an ability that shows a message, they do both show. */
-            case SWITCH_IN_CHECK_AIR_BALLOON:
-            {
+            case SWITCH_IN_CHECK_ICE_FACE: // rebuild ice face
                 for (i = 0; i < client_set_max; i++)
-                {   
+                {
                     client_no = sp->turn_order[i];
-
-                    if (GetBattleMonItem(sp, client_no) == ITEM_AIR_BALLOON && (sp->battlemon[client_no].text_on_item_entry_flag == 0)) {
-                        sp->battlemon[client_no].text_on_item_entry_flag = 1;
+                    if ((sp->battlemon[client_no].species == SPECIES_EISCUE)
+                     && (sp->battlemon[client_no].hp)
+                     && (sp->battlemon[client_no].form_no == 1)
+                     && (CheckSideAbility(bw, sp, CHECK_ALL_BATTLER_ALIVE, 0, ABILITY_CLOUD_NINE) == 0)
+                     && (CheckSideAbility(bw, sp, CHECK_ALL_BATTLER_ALIVE, 0, ABILITY_AIR_LOCK) == 0)
+                     && (sp->field_condition & WEATHER_HAIL_ANY)               // there is hail this turn
+                     && ((sp->log_hail_for_ice_face & (1 << client_no)) == 0)  // and hail wasn't here last turn/the mon just switched in
+                     && (GetBattlerAbility(sp, client_no) == ABILITY_ICE_FACE)
+                    )
+                    {
                         sp->client_work = client_no;
+                        BattleFormChange(client_no, 0, bw, sp, TRUE);
+                        sp->battlemon[client_no].form_no = 0;
+                        scriptnum = SUB_SEQ_HANDLE_RESTORE_ICE_FACE;
+                        ret = TRUE;
+                    }
 
+                    if (sp->field_condition & WEATHER_HAIL_ANY) // update log_hail_for_ice_face
+                        sp->log_hail_for_ice_face |= (1 << client_no);
+                    else
+                        sp->log_hail_for_ice_face &= ~(1 << client_no);
+
+                    if (ret)
+                        break;
+                }
+                if (i == client_set_max) {
+                    sp->switch_in_check_seq_no++;
+                }
+                break;
+
+
+
+            case SWITCH_IN_CHECK_AIR_BALLOON:
+                for(i = 0; i < client_set_max; i++)
+                {
+                    client_no = sp->turn_order[i];
+                    if ((sp->battlemon[client_no].air_ballon_flag == 0)
+                     && (sp->battlemon[client_no].hp)
+                     && (BattleItemDataGet(sp, sp->battlemon[client_no].item, 1) == HOLD_EFFECT_UNGROUND_DESTROYED_ON_HIT))
+                    {
+                        sp->battlemon[client_no].air_ballon_flag = 1;
+                        sp->client_work = client_no;
                         scriptnum = SUB_SEQ_HANDLE_AIR_BALLOON_MESSAGE;
-
                         ret = SWITCH_IN_CHECK_MOVE_SCRIPT;
                         break;
                     }
                 }
-            }
+                if (i == client_set_max) {
+                    sp->switch_in_check_seq_no++;
+                }
+
+
                 // 02253D78
             case SWITCH_IN_CHECK_END:
                 sp->switch_in_check_seq_no = 0;
@@ -1405,19 +1450,6 @@ u32 TurnEndAbilityCheck(void *bw, struct BattleStruct *sp, int client_no)
                 seq_no = SUB_SEQ_HANDLE_MOODY;
                 ret = TRUE;
             }
-        case ABILITY_ICE_FACE: //TODO test this
-            if ((sp->battlemon[client_no].species == SPECIES_EISCUE)
-             && (sp->battlemon[client_no].hp)
-             && (sp->battlemon[client_no].form_no == 1)
-             && (CheckSideAbility(bw, sp, CHECK_ALL_BATTLER_ALIVE, 0, ABILITY_CLOUD_NINE) == 0)
-             && (CheckSideAbility(bw, sp, CHECK_ALL_BATTLER_ALIVE, 0, ABILITY_AIR_LOCK) == 0)
-             && (sp->field_condition & WEATHER_HAIL_ANY))
-            {
-                sp->battlemon[client_no].form_no = 0;
-                seq_no = SUB_SEQ_HANDLE_RESTORE_ICE_FACE;
-                ret = TRUE;
-            }
-            break;
         default:
             break;
     }
@@ -1460,7 +1492,7 @@ BOOL CanPickpocketStealClientItem(struct BattleStruct *sp, int client_no)
     switch(GetBattleMonItem(sp, client_no))
     {
         case ITEM_GRASS_MAIL ... ITEM_BRICK_MAIL:
-        case ITEM_MEGA_STONE_VENUSAUR ... ITEM_MEGA_STONE_DIANCIE:
+        case ITEM_VENUSAURITE ... ITEM_DIANCITE:
         case ITEM_BLUE_ORB:
         case ITEM_RED_ORB:
         case ITEM_GRISEOUS_ORB:
@@ -2166,22 +2198,37 @@ BOOL MoveHitDefenderAbilityCheck(void *bw, struct BattleStruct *sp, int *seq_no)
                 ret = TRUE;
             } 
             break;
-        /*
-        case ABILITY_DISGUISE: //TODO test this
-        case ABILITY_ICE_FACE:
-            if ((sp->battlemon[sp->defence_client].species == SPECIES_MIMIKYU || (sp->battlemon[sp->defence_client].species == SPECIES_EISCUE && sp->moveTbl[sp->current_move_index].split == SPLIT_PHYSICAL))
+        case ABILITY_DISGUISE:
+            if ((sp->battlemon[sp->defence_client].species == SPECIES_MIMIKYU)
              && (sp->battlemon[sp->defence_client].hp)
              && (sp->battlemon[sp->defence_client].form_no == 0)
-             && (sp->battlemon[sp->defence_client].condition2 & CONDITION2_SUBSTITUTE)
+             && ((sp->waza_status_flag & MOVE_STATUS_FLAG_MISS) == 0) // if move was successful
+             && (sp->moveTbl[sp->current_move_index].power) // if move has power
             )
             {
-                sp->battlemon[sp->defence_client].condition2 &= CONDITION2_SUBSTITUTE_OFF;
+                BattleFormChange(sp->defence_client, 1, bw, sp, TRUE);
+                sp->client_work = sp->defence_client;
                 sp->battlemon[sp->defence_client].form_no = 1;
                 seq_no[0] = SUB_SEQ_HANDLE_DISGUISE_ICE_FACE;
                 ret = TRUE;
             }
             break;
-        */
+        case ABILITY_ICE_FACE:
+            if ((sp->battlemon[sp->defence_client].species == SPECIES_EISCUE)
+             && (sp->battlemon[sp->defence_client].hp)
+             && (sp->battlemon[sp->defence_client].form_no == 0)
+             && ((sp->waza_status_flag & MOVE_STATUS_FLAG_MISS) == 0) // if move was successful
+             && (sp->moveTbl[sp->current_move_index].power != 0)
+             && (sp->moveTbl[sp->current_move_index].split == SPLIT_PHYSICAL)
+            )
+            {
+                BattleFormChange(sp->defence_client, 1, bw, sp, TRUE);
+                sp->client_work = sp->defence_client;
+                sp->battlemon[sp->defence_client].form_no = 1;
+                seq_no[0] = SUB_SEQ_HANDLE_DISGUISE_ICE_FACE;
+                ret = TRUE;
+            }
+            break;
         default:
             break;
     }

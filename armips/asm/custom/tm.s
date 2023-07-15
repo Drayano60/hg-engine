@@ -56,11 +56,12 @@ PALETTE_BUG equ 610
 .halfword MOVE_LOW_SWEEP
 
 // Replace TM28 Dig with TM28 Leech Life
-.halfword MOVE_LEECH_LIFE
+// Cancelled
+.halfword MOVE_DIG
 
-// Replace TM32 Double Team with TM32 Tri Attack
+// Replace TM32 Double Team with TM32 Leech Life
 .skip (2 * 3)
-.halfword MOVE_TRI_ATTACK
+.halfword MOVE_LEECH_LIFE
 
 // Replace TM34 Shock Wave with TM34 Sludge Wave
 .skip (2 * 1)
@@ -173,15 +174,15 @@ PALETTE_BUG equ 610
 .halfword PALETTE_FIGHTING
 .skip 4
 
-// Change TM28 to Bug palette
+// Change TM28 to Ground palette (was previously Bug)
 .skip 2
-.halfword PALETTE_BUG
+.halfword PALETTE_GROUND
 .skip 4
 
-// Change TM32 to Normal palette (changed to a Normal move later)
+// Change TM32 to Bug palette
 .skip (8 * 3)
 .skip 2
-.halfword PALETTE_NORMAL
+.halfword PALETTE_BUG
 .skip 4
 
 // Change TM34 to Poison palette

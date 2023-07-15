@@ -353,11 +353,11 @@ A strong electric blast is loosed at\nthe foe. It has a 10% chance to leave\nthe
 A wicked thunderbolt is dropped on the\nfoe to inflict damage. It has a 30%\nchance to leave the foe paralyzed.
 The user sets off an earthquake\nthat hits all the Pokémon in the\nbattle.
 The user attacks the target’s legs\nswiftly, reducing the target’s Speed\nstat.
-A blood-draining attack. The user’s HP\nis restored by half the damage taken\nby the target.
+The user burrows, then attacks on the\nsecond turn. It can also be used to\nexit dungeons.
 The foe is hit by a strong telekinetic\nforce. It has a 10% chance to lower\nthe foe’s Sp. Def stat.
 The user hurls a shadowy blob at the\nfoe. It has a 20% chance to lower the\nfoe’s Sp. Def stat.
 The user attacks with tough fists,\netc. It can also break any barrier\nsuch as Light Screen and Reflect.
-The user strikes with a three-beam\nattack. It has a 20% chance to\nparalyze, burn, or freeze the target.
+A blood-draining attack. The user’s HP\nis restored by half the damage taken\nby the target.
 A wondrous wall of light is put up to\nsuppress damage from physical attacks\nfor five turns.
 It swamps the area around the user\nwith a giant sludge wave. This has a\n10% chance to poison foes.
 The foe is scorched with an intense\nblast of fire. This has a 10% chance\nto leave the target with a burn.

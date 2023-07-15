@@ -605,9 +605,9 @@ struct __attribute__((packed)) BattlePokemon
                u32 imposter_flag : 1;
                u32 critical_hits : 2; // tracks the amount of critical hits the pokemon has landed while in battle so far
                u32 text_on_ability_entry_flag : 1;
-               u32 text_on_item_entry_flag : 1; // for air balloon
                u32 echoed_voice_count : 3;
                u32 protean_flag: 1;
+               u32 air_ballon_flag : 1;
                u32 : 6; // need to add to ClearBattleMonFlags when added to here as well
     /* 0x2c */ u8 pp[4];
     /* 0x30 */ u8 pp_count[4];
@@ -745,7 +745,7 @@ struct __attribute__((packed)) BattleAIWorkTable
 
     u16 padding_1DCA; //implicit padding here, two bytes
 
-    ITEMDATA *item; //0x1DCC, this is technically also 0x211E in the BattleStruct
+    ITEMDATA *item; //0x1DCC, this is technically also 0x2120 in the BattleStruct
 
     u16 ai_calc_count[CLIENT_MAX]; //0x1DD0
     u16 ai_calc_continue[CLIENT_MAX]; //0x1DD8
@@ -932,7 +932,8 @@ struct __attribute__((packed)) BattleStruct
     /*0x3150*/ int client_working_count;
     /*0x3154*/ u32 battle_progress_flag : 1;
                u32 : 31;
-    /*0x3158*/ u8 padding_3158[0x26]; // padding to get moveTbl to 317E (for convenience of 3180 in asm)
+    /*0x3158*/ u8 log_hail_for_ice_face; // bitfield with 1 << client for if there was hail last turn
+    /*0x3159*/ u8 padding_3159[0x25]; // padding to get moveTbl to 317E (for convenience of 3180 in asm)
     /*0x317E*/ struct BattleMove moveTbl[MAX_MOVE_NUM + 1];
     /*0x    */ u32 gainedExperience[6]; // possible experience gained per party member in order to get level scaling done right
     /*0x    */ u32 gainedExperienceShare[6]; // possible experience gained per party member in order to get level scaling done right
@@ -1171,7 +1172,6 @@ void BattleFormChange(int client, int form_no, void* bw,struct BattleStruct *sp,
 extern struct newBattleStruct newBS;
 extern const u16 TetsunoKobushiTable[0xF];
 
-BOOL __attribute__((long_call)) CheckDefenceAbility(void *, int, int, int);
 int __attribute__((long_call)) BattlePokemonParamGet(void*,int ,int,void*);
 s32 __attribute__((long_call)) BattleItemDataGet(void*,u16,u16);
 u32 __attribute__((long_call)) BattleTypeGet(void*);

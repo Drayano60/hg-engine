@@ -63,8 +63,9 @@ static const u8 HeldItemPowerUpTable[][2]={
     {HOLD_EFFECT_PLATE_BOOST_DRAGON, TYPE_DRAGON},
     {HOLD_EFFECT_PLATE_BOOST_DARK, TYPE_DARK},
     {HOLD_EFFECT_PLATE_BOOST_STEEL, TYPE_STEEL},
+    {HOLD_EFFECT_PLATE_BOOST_NORMAL, TYPE_NORMAL},	
 #if FAIRY_TYPE_IMPLEMENTED == 1
-    {HOLD_EFFECT_PLATE_BOOST_FAIRY, TYPE_FAIRY},
+    {HOLD_EFFECT_PLATE_BOOST_FAIRY, TYPE_FAIRY},	
 #endif
 };
 
@@ -79,53 +80,53 @@ static const u16 RecklessMoveEffectsTable[] = {
 
 /* I've used the appeal field as extra move flags so these aren't needed
 static const u16 IronFistMovesTable[] = {
-    MOVE_ICE_PUNCH,
-    MOVE_FIRE_PUNCH,
-    MOVE_THUNDER_PUNCH,
-    MOVE_MACH_PUNCH,
-    MOVE_FOCUS_PUNCH,
-    MOVE_DIZZY_PUNCH,
-    MOVE_DYNAMIC_PUNCH,
-    MOVE_HAMMER_ARM,
-    MOVE_MEGA_PUNCH,
-    MOVE_COMET_PUNCH,
-    MOVE_METEOR_MASH,
-    MOVE_SHADOW_PUNCH,
-    MOVE_DRAIN_PUNCH,
     MOVE_BULLET_PUNCH,
-    MOVE_SKY_UPPERCUT,	
+    MOVE_COMET_PUNCH,
+    MOVE_DIZZY_PUNCH,
     MOVE_DOUBLE_IRON_BASH,
+    MOVE_DRAIN_PUNCH,
+    MOVE_DYNAMIC_PUNCH,
+    MOVE_FIRE_PUNCH,
+    MOVE_FOCUS_PUNCH,
+    MOVE_HAMMER_ARM,
+    MOVE_HEADLONG_RUSH,
     MOVE_ICE_HAMMER,
-    MOVE_POWER_UP_PUNCH,
+    MOVE_ICE_PUNCH,
+    MOVE_JET_PUNCH,
+    MOVE_MACH_PUNCH,
+    MOVE_MEGA_PUNCH,
+    MOVE_METEOR_MASH,
     MOVE_PLASMA_FISTS,
+    MOVE_POWER_UP_PUNCH,
     MOVE_RAGE_FIST,
+    MOVE_SHADOW_PUNCH,
+    MOVE_SKY_UPPERCUT,
     MOVE_SURGING_STRIKES,
-    MOVE_WICKED_BLOW,	
-    MOVE_HEADLONG_RUSH,		
-    MOVE_JET_PUNCH,	
+    MOVE_THUNDER_PUNCH,
+    MOVE_WICKED_BLOW,
 };
 
 static const u16 StrongJawMovesTable[] = {
         MOVE_BITE,
         MOVE_CRUNCH,
         MOVE_FIRE_FANG,
+        MOVE_FISHIOUS_REND,
         MOVE_HYPER_FANG,
         MOVE_ICE_FANG,
-        MOVE_POISON_FANG,
-        MOVE_THUNDER_FANG,
-        MOVE_PSYCHIC_FANGS,
-        MOVE_FISHIOUS_REND,
         MOVE_JAW_LOCK,
+        MOVE_POISON_FANG,
+        MOVE_PSYCHIC_FANGS,
+        MOVE_THUNDER_FANG,
 };
 
 static const u16 MegaLauncherMovesTable[] = {
         MOVE_AURA_SPHERE,
         MOVE_DARK_PULSE,
         MOVE_DRAGON_PULSE,
+        MOVE_HEAL_PULSE,
+        MOVE_ORIGIN_PULSE,
+        MOVE_TERRAIN_PULSE,
         MOVE_WATER_PULSE,
-        MOVE_HEAL_PULSE,		
-//        MOVE_ORIGIN_PULSE,
-//        MOVE_TERRAIN_PULSE,
 };
 
 static const u16 SharpnessMovesTable[] = {
@@ -133,26 +134,26 @@ static const u16 SharpnessMovesTable[] = {
         MOVE_AIR_CUTTER,
         MOVE_AIR_SLASH,
         MOVE_AQUA_CUTTER,
-        MOVE_CEASELESS_EDGE,
-        MOVE_FURY_CUTTER,
-        MOVE_LEAF_BLADE,
-        MOVE_NIGHT_SLASH,
-        MOVE_PSYCHO_CUT,
-        MOVE_RAZOR_SHELL,
-        MOVE_SACRED_SWORD,
-        MOVE_SECRET_SWORD,		
-        MOVE_SLASH,
-        MOVE_STONE_AXE,
-        MOVE_X_SCISSOR,
         MOVE_BEHEMOTH_BLADE,
         MOVE_BITTER_BLADE,
+        MOVE_CEASELESS_EDGE,
         MOVE_CROSS_POISON,
         MOVE_CUT,
+        MOVE_FURY_CUTTER,
         MOVE_KOWTOW_CLEAVE,
+        MOVE_LEAF_BLADE,
+        MOVE_NIGHT_SLASH,
+        MOVE_POPULATION_BOMB,			
         MOVE_PSYBLADE,		
+        MOVE_PSYCHO_CUT,
+        MOVE_RAZOR_SHELL,
         MOVE_RAZOR_LEAF,
+        MOVE_SACRED_SWORD,
+        MOVE_SECRET_SWORD,
+        MOVE_SLASH,
         MOVE_SOLAR_BLADE,
-        MOVE_POPULATION_BOMB,		
+        MOVE_STONE_AXE,
+        MOVE_X_SCISSOR,
 };
 */
 
@@ -171,7 +172,7 @@ static const u16 SharpnessMovesTable[] = {
 //        case ABILITY_AERILATE:
 //            movetype = TYPE_FLYING;
 //            break;
-//        case ABILITY_REFRIDGERATE:
+//        case ABILITY_REFRIGERATE:
 //            movetype = TYPE_ICE;
 //            break;
 //        default:
@@ -189,7 +190,7 @@ static const u16 SharpnessMovesTable[] = {
 //        case ABILITY_GALVANIZE:
 //        case ABILITY_PIXILATE:
 //        case ABILITY_AERILATE:
-//        case ABILITY_REFRIDGERATE:
+//        case ABILITY_REFRIGERATE:
 //            return TRUE;
 //        default:
 //            return FALSE;
@@ -296,6 +297,9 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
 
     battle_type = BattleTypeGet(bw);
 
+    if ((MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_DISGUISE) == TRUE || (MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_ICE_FACE) == TRUE) && sp->moveTbl[moveno].split == SPLIT_PHYSICAL) && sp->battlemon[defender].form_no == 0)
+        return 0;
+
     if (pow == 0)
         movepower = sp->moveTbl[moveno].power;
     else
@@ -323,12 +327,8 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
         attack = attack * 11 / 10;
     }
 
-    if (CheckDefenceAbility(sp, attacker, defender, ABILITY_BIG_PECKS) == TRUE) {
+    if (MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_BIG_PECKS) == TRUE) {
         defense = defense * 11 / 10;
-    }
-
-    if (CheckDefenceAbility(sp, attacker, defender, ABILITY_GRASS_PELT) == TRUE) {
-        defense = defense * 12 / 10;
     }
 
     // handle huge power + pure power
@@ -439,6 +439,11 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
     if ((DefendingMon.item_held_effect == HOLD_EFFECT_METAL_POWDER) && (DefendingMon.species == SPECIES_DITTO))
         defense *= 2;
 
+    // handle eviolite
+   // if ((DefendingMon.item_held_effect == HOLD_EFFECT_EVIOLITE)
+   //     defense *= 2;
+   //     sp_defense *= 2;	
+
     // handle thick club
     if ((AttackingMon.item_held_effect == HOLD_EFFECT_THICK_CLUB)
      && ((AttackingMon.species == SPECIES_CUBONE)
@@ -480,7 +485,7 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
     }
     
     // handle thick fat
-    if ((CheckDefenceAbility(sp, attacker, defender, ABILITY_THICK_FAT) == TRUE) &&
+    if ((MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_THICK_FAT) == TRUE) &&
         ((movetype == TYPE_FIRE) || (movetype == TYPE_ICE)))
     {
         movepower /= 2;
@@ -518,7 +523,7 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
     }    
 
     // Handle Fluffy
-    if ((CheckDefenceAbility(sp, attacker, defender, ABILITY_FLUFFY) == TRUE)) {
+    if ((MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_FLUFFY) == TRUE)) {
         if (sp->moveTbl[sp->current_move_index].flag & FLAG_CONTACT) {
             movepower = movepower * 50 / 100;
         }
@@ -529,7 +534,7 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
     }
     
     // handle marvel scale
-    if ((CheckDefenceAbility(sp, attacker, defender, ABILITY_MARVEL_SCALE) == TRUE) && (AttackingMon.condition))
+    if ((MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_MARVEL_SCALE) == TRUE) && (AttackingMon.condition))
     {
         defense = defense * 150 / 100;
     }
@@ -566,7 +571,7 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
     }
     
     // handle fur coat - double defense
-    if ((CheckDefenceAbility(sp, attacker, defender, ABILITY_FUR_COAT) == TRUE))
+    if ((MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_FUR_COAT) == TRUE))
     {
         defense *= 2;
     }
@@ -599,7 +604,7 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
     }
 
     // handle ice scales - halve damage if move is special, regardless of if it uses defense stat
-    if (CheckDefenceAbility(sp, attacker, defender, ABILITY_ICE_SCALES) == TRUE && movesplit == SPLIT_SPECIAL)
+    if (MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_ICE_SCALES) == TRUE && movesplit == SPLIT_SPECIAL)
     {
         movepower *= 2;
     }
@@ -721,12 +726,12 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
     }
 
     // handle heatproof/dry skin
-    if ((movetype == TYPE_FIRE) && (CheckDefenceAbility(sp, attacker, defender, ABILITY_HEATPROOF) == TRUE))
+    if ((movetype == TYPE_FIRE) && (MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_HEATPROOF) == TRUE))
     {
         movepower /= 2;
     }
 
-    if ((movetype == TYPE_FIRE) && (CheckDefenceAbility(sp, attacker, defender, ABILITY_DRY_SKIN) == TRUE))
+    if ((movetype == TYPE_FIRE) && (MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_DRY_SKIN) == TRUE))
     {
         movepower = movepower * 125 / 100;
     }
@@ -774,7 +779,7 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
         }
     }
 
-    if (CheckDefenceAbility(sp, attacker, defender, ABILITY_SIMPLE) == TRUE)
+    if (MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_SIMPLE) == TRUE)
     {
         defstate *= 2;
         if (defstate < -6)
@@ -798,7 +803,7 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
     */
 
     // handle unaware
-    if (CheckDefenceAbility(sp, attacker, defender, ABILITY_UNAWARE) == TRUE)
+    if (MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_UNAWARE) == TRUE)
     {
         atkstate = 0;
         spatkstate = 0;
@@ -888,7 +893,7 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
     if ((AttackingMon.ability == ABILITY_CACOPHONY) && (sp->moveTbl[sp->current_move_index].flag & FLAG_SOUND)) {
         movepower = movepower * 120 / 100;
     }
-    if ((CheckDefenceAbility(sp, attacker, defender, ABILITY_CACOPHONY) == TRUE) && (sp->moveTbl[sp->current_move_index].flag & FLAG_SOUND)) {
+    if ((MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_CACOPHONY) == TRUE) && (sp->moveTbl[sp->current_move_index].flag & FLAG_SOUND)) {
         movepower = movepower * 50 / 100;
     }
 
@@ -1154,7 +1159,7 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
 
     //handles multiscale
     // Handle Royal Order, a new ability for Vespiquen
-    if ((CheckDefenceAbility(sp, attacker, defender, ABILITY_MULTISCALE) == TRUE) && (DefendingMon.hp == DefendingMon.maxhp))
+    if ((MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_MULTISCALE) == TRUE) && (DefendingMon.hp == DefendingMon.maxhp))
     {
         damage /= 2;
     }

@@ -9,7 +9,7 @@
 
 .create "build/move/battle_sub_seq/1_361", 0
 
-// Air Balloon burst
+// Air Balloon burst - no longer used
 
 a001_361:
     printmessage 1422, 0xF, 0xFF, 0xFF, "NaN", "NaN", "NaN", "NaN"

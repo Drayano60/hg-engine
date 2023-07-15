@@ -13480,7 +13480,7 @@ levelup SPECIES_LILLIGANT
     learnset MOVE_LEAF_STORM, 52
     terminatelearnset
 
-levelup SPECIES_BASCULIN
+levelup SPECIES_BASCULIN_RED_STRIPED
     learnset MOVE_TACKLE, 1
     learnset MOVE_TAIL_WHIP, 1
     learnset MOVE_WATER_GUN, 4
@@ -22077,7 +22077,7 @@ levelup SPECIES_PALKIA_ORIGIN
     learnset MOVE_TACKLE, 1
     terminatelearnset
 
-levelup SPECIES_BASCULIN_WHITE_STRIPED
+levelup SPECIES_BASCULIN
     learnset MOVE_TACKLE, 1
     terminatelearnset
 

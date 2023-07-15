@@ -10,7 +10,7 @@
 #include "../../include/constants/moves.h"
 #include "../../include/constants/species.h"
 
-__attribute__((aligned(4))) struct ILLUSION_STRUCT gIllusionStruct;
+ALIGN4 struct ILLUSION_STRUCT gIllusionStruct;
 
 u8 TypeEffectivenessTable[][3] =
 {
@@ -1114,9 +1114,11 @@ void ClearBattleMonFlags(struct BattleStruct *sp, int client)
     sp->battlemon[client].imposter_flag = 0;
     sp->battlemon[client].critical_hits = 0;
     sp->battlemon[client].text_on_ability_entry_flag = 0;
-    sp->battlemon[client].text_on_item_entry_flag = 0;
     sp->battlemon[client].echoed_voice_count = 0;
     sp->battlemon[client].protean_flag = 0;
+    sp->battlemon[client].air_ballon_flag = 0;
+
+    sp->log_hail_for_ice_face &= ~(1 << client); // unset log_hail_for_ice_face for client
 }
 
 

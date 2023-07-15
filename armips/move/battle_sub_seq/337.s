@@ -7,42 +7,17 @@
 .include "armips/include/monnums.s"
 .include "armips/include/movenums.s"
 
-.create "build/move/battle_sub_seq/1_337", 0
+// subscript for popping the air balloon
 
-// work up move effect
+.create "build/move/battle_sub_seq/1_337", 0x0
 
 a001_337:
-    // Attack
-    ifmonstat IF_NOTEQUAL, BATTLER_ADDL_EFFECT, MON_DATA_STAT_STAGE_ATTACK, 12, StatusEffect
- 
-    // Sp. Atk
-    ifmonstat IF_EQUAL, BATTLER_ADDL_EFFECT, MON_DATA_STAT_STAGE_SPATK, 12, NoStatusEffect
-    
-StatusEffect:
-    gotosubscript 76
-    changevar VAR_OP_SETMASK, VAR_SERVER_STATUS1, 0x200000
-    changevar VAR_OP_SETMASK, VAR_SERVER_STATUS1, 0x4001
-    changevar VAR_OP_SETMASK, VAR_SERVER_STATUS2, 0x80
-
-    // Attack up
-    changevar VAR_OP_SET, VAR_ADD_EFFECT_ATTRIBUTE, ATTACK_UP
-    gotosubscript 12
-
-    // Sp. Atk up
-    changevar VAR_OP_SET, VAR_ADD_EFFECT_ATTRIBUTE, SPATK_UP
-    gotosubscript 12
-
-    changevar VAR_OP_CLEARMASK, VAR_SERVER_STATUS2, 0x2
-    changevar VAR_OP_CLEARMASK, VAR_SERVER_STATUS2, 0x80
-    endscript
-NoStatusEffect:
-    printattackmessage
+    printmessage 1440, TAG_NICK_ITEM, BATTLER_DEFENDER, BATTLER_DEFENDER, "NaN", "NaN", "NaN", "NaN" // {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\npopped!
     waitmessage
     wait 0x1E
-    printmessage 0x300, 0x2, 0x7, "NaN", "NaN", "NaN", "NaN", "NaN"
-    waitmessage
-    wait 0x1E
-    changevar VAR_OP_SETMASK, VAR_MOVE_STATUS, 0x80000000
+
+	removeitem BATTLER_DEFENDER // remove air balloon
+
     endscript
 
 .close

@@ -68,7 +68,7 @@ _0088:
     if IF_EQUAL, VAR_TEMP_WORK, 33, _checkDark
 
 .if FAIRY_TYPE_IMPLEMENTED == 1
-    if IF_EQUAL, VAR_TEMP_WORK, 150, _checkFairy // roseli berry held effect
+    if IF_EQUAL, VAR_TEMP_WORK, 148, _checkFairy // roseli berry held effect
 .endif
 
     if IF_EQUAL, VAR_TEMP_WORK, 34, _checkSteel

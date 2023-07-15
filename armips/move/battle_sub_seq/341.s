@@ -19,10 +19,10 @@
 // as I am unsure how to make the move unselectable like Taunt works currently.
 
 a001_341:
-    // 149 is the Assault Vest held item effect ID.
+    // 252 is the Assault Vest held item effect ID.
     // If the Pokemon is not holding the Assault Vest or the Pokemon has Klutz, just end the subscript.
     abilitycheck 0x0, BATTLER_ATTACKER, ABILITY_KLUTZ, End
-    checkitemeffect 0x1, BATTLER_ATTACKER, 149, End      
+    checkitemeffect 0x1, BATTLER_ATTACKER, 252, End      
     changevar VAR_OP_SETMASK, VAR_MOVE_STATUS, 0x40
 End:
     endscript

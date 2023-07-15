@@ -610,7 +610,7 @@ heightentry SPECIES_COTTONEE, 0, 0, 0, 0
 heightentry SPECIES_WHIMSICOTT, 0, 0, 0, 0
 heightentry SPECIES_PETILIL, 0, 0, 0, 0
 heightentry SPECIES_LILLIGANT, 0, 0, 0, 0
-heightentry SPECIES_BASCULIN, 0, 0, 0, 0
+heightentry SPECIES_BASCULIN, 3, 3, 0, 0
 heightentry SPECIES_SANDILE, 0, 0, 0, 0
 heightentry SPECIES_KROKOROK, 0, 0, 0, 0
 heightentry SPECIES_KROOKODILE, 0, 0, 0, 0
@@ -786,9 +786,9 @@ heightentry SPECIES_VOLCANION, 2, 2, 0, 0
 heightentry SPECIES_ROWLET, 0, 0, 0, 0
 heightentry SPECIES_DARTRIX, 0, 0, 0, 0
 heightentry SPECIES_DECIDUEYE, 0, 0, 0, 0
-heightentry SPECIES_LITTEN, 0, 0, 0, 0
+heightentry SPECIES_LITTEN, 0, 0, 15, 15
 heightentry SPECIES_TORRACAT, 0, 0, 0, 0
-heightentry SPECIES_INCINEROAR, 0, 0, 0, 0
+heightentry SPECIES_INCINEROAR, 6, 6, 0, 0
 heightentry SPECIES_POPPLIO, 0, 0, 0, 0
 heightentry SPECIES_BRIONNE, 0, 0, 0, 0
 heightentry SPECIES_PRIMARINA, 0, 0, 0, 0
@@ -816,7 +816,7 @@ heightentry SPECIES_DEWPIDER, 0, 0, 0, 0
 heightentry SPECIES_ARAQUANID, 0, 0, 0, 0
 heightentry SPECIES_FOMANTIS, 0, 0, 0, 0
 heightentry SPECIES_LURANTIS, 0, 0, 0, 0
-heightentry SPECIES_MORELULL, 0, 0, 0, 0
+heightentry SPECIES_MORELULL, 0, 0, 14, 14
 heightentry SPECIES_SHIINOTIC, 0, 0, 0, 0
 heightentry SPECIES_SALANDIT, 0, 0, 0, 0
 heightentry SPECIES_SALAZZLE, 0, 0, 0, 0
@@ -839,7 +839,7 @@ heightentry SPECIES_MINIOR, 0, 0, 0, 0
 heightentry SPECIES_KOMALA, 0, 0, 0, 0
 heightentry SPECIES_TURTONATOR, 0, 0, 0, 0
 heightentry SPECIES_TOGEDEMARU, 0, 0, 0, 0
-heightentry SPECIES_MIMIKYU, 0, 0, 0, 0
+heightentry SPECIES_MIMIKYU, 0, 0, 14, 14
 heightentry SPECIES_BRUXISH, 0, 0, 0, 0
 heightentry SPECIES_DRAMPA, 0, 0, 0, 0
 heightentry SPECIES_DHELMISE, 0, 0, 0, 0
@@ -1082,8 +1082,8 @@ heightentry SPECIES_SHELLOS_EAST_SEA, 0, 0, 17, 17
 heightentry SPECIES_GASTRODON_EAST_SEA, 0, 0, 13, 13
 heightentry SPECIES_DIALGA_ORIGIN, 0, 0, 0, 0
 heightentry SPECIES_PALKIA_ORIGIN, 0, 0, 0, 0
-heightentry SPECIES_BASCULIN_BLUE_STRIPED, 8, 8, 0, 0
-heightentry SPECIES_BASCULIN_WHITE_STRIPED, 8, 8, 0, 0
+heightentry SPECIES_BASCULIN_RED_STRIPED, 3, 3, 0, 0
+heightentry SPECIES_BASCULIN_BLUE_STRIPED, 3, 3, 0, 0
 heightentry SPECIES_DARMANITAN_ZEN_MODE, 3, 3, 0, 0
 heightentry SPECIES_DARMANITAN_ZEN_MODE_GALARIAN, 3, 3, 0, 0
 heightentry SPECIES_DEERLING_SUMMER, 3, 3, 0, 0
@@ -1180,7 +1180,7 @@ heightentry SPECIES_MINIOR_CORE_GREEN, 0, 0, 0, 0
 heightentry SPECIES_MINIOR_CORE_BLUE, 0, 0, 0, 0
 heightentry SPECIES_MINIOR_CORE_INDIGO, 0, 0, 0, 0
 heightentry SPECIES_MINIOR_CORE_VIOLET, 0, 0, 0, 0
-heightentry SPECIES_MIMIKYU_BUSTED, 0, 0, 0, 0
+heightentry SPECIES_MIMIKYU_BUSTED, 0, 0, 14, 14
 heightentry SPECIES_NECROZMA_DUSK_MANE, 0, 0, 0, 0
 heightentry SPECIES_NECROZMA_DAWN_WINGS, 0, 0, 0, 0
 heightentry SPECIES_NECROZMA_ULTRA_DUSK_MANE, 0, 0, 0, 0

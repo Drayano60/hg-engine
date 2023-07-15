@@ -719,8 +719,8 @@ void Task_DistributeExp_Extend(void *arg0, void *work)
 #ifdef IMPLEMENT_CAPTURE_EXPERIENCE
 
 extern u32 gKeepStructureCallbackIntact;
-u32 store_current_exp_step = 0;
-u32 store_work_params[7] = {0, 0, 0, 0, 0, 0, 0};
+u32 ALIGN4 store_current_exp_step = 0;
+u32 ALIGN4 store_work_params[7] = {0, 0, 0, 0, 0, 0, 0};
 
 #endif // IMPLEMENT_CAPTURE_EXPERIENCE
 
@@ -1769,6 +1769,13 @@ u32 CalculateBallShakes(void *bw, struct BattleStruct *sp)
         ballRate = 15;
         break;
     //case ITEM_PARK_BALL:
+    //
+    //    break;
+	case ITEM_DREAM_BALL:
+        if (sp->battlemon[sp->defence_client].condition & (STATUS_FLAG_ASLEEP))
+        captureRate *= 4;
+        break;
+	//case ITEM_BEAST_BALL:
     //
     //    break;
     }

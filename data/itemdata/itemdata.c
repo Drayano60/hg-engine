@@ -28460,24 +28460,23 @@ const ITEMDATA __data[] =
         .friendship_mod_hi_param =  0,
     },
 },
-
-[ITEM_ICE_STONE - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
+[ITEM_COUPON_1 - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
-    .price = 3000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
     .flingEffect = 0,
-    .flingPower = 30,
+    .flingPower = 0,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = FALSE,
+    .prevent_toss = TRUE,
     .selectable = FALSE,
-    .fieldPocket = POCKET_ITEMS,
+    .fieldPocket = POCKET_KEY_ITEMS,
     .battlePocket = BATTLE_POCKET_NONE,
-    .fieldUseFunc = 20,
+    .fieldUseFunc = 0,
     .battleUseFunc = 0,
-    .partyUse = 1,
+    .partyUse = 0,
     .partyUseParam = {
         .slp_heal = FALSE,
         .psn_heal = FALSE,
@@ -28490,7 +28489,7 @@ const ITEMDATA __data[] =
         .revive = FALSE,
         .revive_all = FALSE,
         .level_up = FALSE,
-        .evolve = TRUE,
+        .evolve = FALSE,
         .atk_stages = 0,
         .def_stages = 0,
         .spatk_stages = 0,
@@ -28526,23 +28525,23 @@ const ITEMDATA __data[] =
     },
 },
 
-[ITEM_PRISM_SCALE - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
+[ITEM_COUPON_2 - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
-    .price = 3000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
     .flingEffect = 0,
-    .flingPower = 30,
+    .flingPower = 0,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = FALSE,
+    .prevent_toss = TRUE,
     .selectable = FALSE,
-    .fieldPocket = POCKET_ITEMS,
+    .fieldPocket = POCKET_KEY_ITEMS,
     .battlePocket = BATTLE_POCKET_NONE,
-    .fieldUseFunc = 20,
+    .fieldUseFunc = 0,
     .battleUseFunc = 0,
-    .partyUse = 1,
+    .partyUse = 0,
     .partyUseParam = {
         .slp_heal = FALSE,
         .psn_heal = FALSE,
@@ -28555,7 +28554,7 @@ const ITEMDATA __data[] =
         .revive = FALSE,
         .revive_all = FALSE,
         .level_up = FALSE,
-        .evolve = TRUE,
+        .evolve = FALSE,
         .atk_stages = 0,
         .def_stages = 0,
         .spatk_stages = 0,
@@ -28591,23 +28590,23 @@ const ITEMDATA __data[] =
     },
 },
 
-[ITEM_LINKING_CORD - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
+[ITEM_COUPON_3 - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
-    .price = 3000,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
     .flingEffect = 0,
-    .flingPower = 30,
+    .flingPower = 0,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = FALSE,
+    .prevent_toss = TRUE,
     .selectable = FALSE,
-    .fieldPocket = POCKET_ITEMS,
+    .fieldPocket = POCKET_KEY_ITEMS,
     .battlePocket = BATTLE_POCKET_NONE,
-    .fieldUseFunc = 20,
+    .fieldUseFunc = 0,
     .battleUseFunc = 0,
-    .partyUse = 1,
+    .partyUse = 0,
     .partyUseParam = {
         .slp_heal = FALSE,
         .psn_heal = FALSE,
@@ -28620,7 +28619,7 @@ const ITEMDATA __data[] =
         .revive = FALSE,
         .revive_all = FALSE,
         .level_up = FALSE,
-        .evolve = TRUE,
+        .evolve = FALSE,
         .atk_stages = 0,
         .def_stages = 0,
         .spatk_stages = 0,
@@ -38994,7 +38993,8 @@ const ITEMDATA __data[] =
 
 [ITEM_ICE_STONE - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
-    .price = 2100,
+    // .price = 2100,
+    .price = 3000,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -40620,7 +40620,8 @@ const ITEMDATA __data[] =
 
 [ITEM_LINKING_CORD - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
-    .price = 8000,
+    // .price = 8000,
+    .price = 3000,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,

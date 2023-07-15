@@ -4806,7 +4806,7 @@ party 68
     abilityslot 0
     level 20
     pokemon SPECIES_PINECO
-    item ITEM_SILVERPOWDER
+    item ITEM_SILVER_POWDER
     move MOVE_BUG_BITE
     move MOVE_ROLLOUT
     move MOVE_RAPID_SPIN
@@ -4823,7 +4823,7 @@ party 68
     abilityslot 0
     level 20
     pokemon SPECIES_SEWADDLE
-    item ITEM_SILVERPOWDER
+    item ITEM_SILVER_POWDER
     move MOVE_BUG_BITE
     move MOVE_RAZOR_LEAF
     move MOVE_TACKLE
@@ -4840,7 +4840,7 @@ party 68
     abilityslot 0
     level 20
     pokemon SPECIES_BUTTERFREE
-    item ITEM_SILVERPOWDER
+    item ITEM_SILVER_POWDER
     move MOVE_SILVER_WIND
     move MOVE_AIR_CUTTER
     move MOVE_PSYBEAM
@@ -4872,7 +4872,7 @@ party 67
     abilityslot 0
     level 20
     pokemon SPECIES_BURMY
-    item ITEM_SILVERPOWDER
+    item ITEM_SILVER_POWDER
     move MOVE_BUG_BITE
     move MOVE_HIDDEN_POWER
     move MOVE_STRING_SHOT
@@ -4889,7 +4889,7 @@ party 67
     abilityslot 0
     level 20
     pokemon SPECIES_VENIPEDE
-    item ITEM_SILVERPOWDER
+    item ITEM_SILVER_POWDER
     move MOVE_BUG_BITE
     move MOVE_VENOSHOCK
     move MOVE_ROLLOUT
@@ -4906,7 +4906,7 @@ party 67
     abilityslot 0
     level 20
     pokemon SPECIES_BEEDRILL
-    item ITEM_SILVERPOWDER
+    item ITEM_SILVER_POWDER
     move MOVE_TWINEEDLE
     move MOVE_POISON_STING
     move MOVE_PURSUIT
@@ -4938,7 +4938,7 @@ party 69
     abilityslot 0
     level 20
     pokemon SPECIES_PARAS
-    item ITEM_SILVERPOWDER
+    item ITEM_SILVER_POWDER
     move MOVE_BUG_BITE
     move MOVE_MEGA_DRAIN
     move MOVE_STUN_SPORE
@@ -4955,7 +4955,7 @@ party 69
     abilityslot 0
     level 20
     pokemon SPECIES_KARRABLAST
-    item ITEM_SILVERPOWDER
+    item ITEM_SILVER_POWDER
     move MOVE_FURY_CUTTER
     move MOVE_ACID_SPRAY
     move MOVE_HEADBUTT
@@ -4972,7 +4972,7 @@ party 69
     abilityslot 0
     level 20
     pokemon SPECIES_BEAUTIFLY
-    item ITEM_SILVERPOWDER
+    item ITEM_SILVER_POWDER
     move MOVE_SILVER_WIND
     move MOVE_AIR_CUTTER
     move MOVE_MEGA_DRAIN
@@ -5004,7 +5004,7 @@ party 138
     abilityslot 0
     level 20
     pokemon SPECIES_VENONAT
-    item ITEM_SILVERPOWDER
+    item ITEM_SILVER_POWDER
     move MOVE_BUG_BITE
     move MOVE_PSYBEAM
     move MOVE_SUPERSONIC
@@ -5021,7 +5021,7 @@ party 138
     abilityslot 0
     level 20
     pokemon SPECIES_SHELMET
-    item ITEM_SILVERPOWDER
+    item ITEM_SILVER_POWDER
     move MOVE_STRUGGLE_BUG
     move MOVE_MEGA_DRAIN
     move MOVE_PROTECT
@@ -5038,7 +5038,7 @@ party 138
     abilityslot 0
     level 20
     pokemon SPECIES_DUSTOX
-    item ITEM_SILVERPOWDER
+    item ITEM_SILVER_POWDER
     move MOVE_SILVER_WIND
     move MOVE_VENOSHOCK
     move MOVE_PSYBEAM
@@ -5070,7 +5070,7 @@ party 10
     abilityslot 0
     level 20
     pokemon SPECIES_VOLBEAT
-    item ITEM_SILVERPOWDER
+    item ITEM_SILVER_POWDER
     move MOVE_CHARGE_BEAM
     move MOVE_SILVER_WIND
     move MOVE_QUICK_ATTACK
@@ -5087,7 +5087,7 @@ party 10
     abilityslot 0
     level 20
     pokemon SPECIES_ILLUMISE
-    item ITEM_SILVERPOWDER
+    item ITEM_SILVER_POWDER
     move MOVE_DRAINING_KISS
     move MOVE_SILVER_WIND
     move MOVE_QUICK_ATTACK
@@ -5119,7 +5119,7 @@ party 107
     abilityslot 0
     level 21
     pokemon SPECIES_LARVESTA
-    item ITEM_SILVERPOWDER
+    item ITEM_SILVER_POWDER
     move MOVE_POUNCE
     move MOVE_FLAME_CHARGE
     move MOVE_TRAILBLAZE
@@ -5136,7 +5136,7 @@ party 107
     abilityslot 0
     level 21
     pokemon SPECIES_JOLTIK
-    item ITEM_SILVERPOWDER
+    item ITEM_SILVER_POWDER
     move MOVE_ELECTROWEB
     move MOVE_STRUGGLE_BUG
     move MOVE_ABSORB
@@ -5153,7 +5153,7 @@ party 107
     abilityslot 0
     level 21
     pokemon SPECIES_YANMA
-    item ITEM_SILVERPOWDER
+    item ITEM_SILVER_POWDER
     move MOVE_SILVER_WIND
     move MOVE_AIR_CUTTER
     move MOVE_SONIC_BOOM
@@ -5185,7 +5185,7 @@ party 21
     abilityslot 0
     level 22
     pokemon SPECIES_LEDIAN
-    item ITEM_SILVERPOWDER
+    item ITEM_SILVER_POWDER
     move MOVE_U_TURN
     move MOVE_AERIAL_ACE
     move MOVE_MACH_PUNCH
@@ -10809,7 +10809,7 @@ party 82
     abilityslot 0
     level 27
     pokemon SPECIES_FARFETCHD
-    item ITEM_STICK
+    item ITEM_LEEK
     move MOVE_SLASH
     move MOVE_REVENGE
     move MOVE_FURY_CUTTER
@@ -20095,7 +20095,7 @@ party 288
     abilityslot 0
     level 43
     pokemon SPECIES_SNEASEL
-    item ITEM_NEVERMELTICE
+    item ITEM_NEVER_MELT_ICE
     move MOVE_ICE_PUNCH
     move MOVE_KNOCK_OFF
     move MOVE_LOW_KICK
@@ -20212,7 +20212,7 @@ party 289
     abilityslot 0
     level 43
     pokemon SPECIES_SNEASEL
-    item ITEM_NEVERMELTICE
+    item ITEM_NEVER_MELT_ICE
     move MOVE_ICE_PUNCH
     move MOVE_KNOCK_OFF
     move MOVE_LOW_KICK
@@ -20329,7 +20329,7 @@ party 271
     abilityslot 0
     level 43
     pokemon SPECIES_SNEASEL
-    item ITEM_NEVERMELTICE
+    item ITEM_NEVER_MELT_ICE
     move MOVE_ICE_PUNCH
     move MOVE_KNOCK_OFF
     move MOVE_LOW_KICK
@@ -20718,7 +20718,7 @@ party 480
     abilityslot 0
     level 43
     pokemon SPECIES_JYNX
-    item ITEM_NEVERMELTICE
+    item ITEM_NEVER_MELT_ICE
     move MOVE_FROST_BREATH
     move MOVE_PSYCHIC
     move MOVE_CAPTIVATE
@@ -20735,7 +20735,7 @@ party 480
     abilityslot 0
     level 43
     pokemon SPECIES_DELIBIRD
-    item ITEM_NEVERMELTICE
+    item ITEM_NEVER_MELT_ICE
     move MOVE_ICE_BEAM
     move MOVE_AIR_SLASH
     move MOVE_WATER_PULSE
@@ -20752,7 +20752,7 @@ party 480
     abilityslot 0
     level 43
     pokemon SPECIES_WEAVILE
-    item ITEM_NEVERMELTICE
+    item ITEM_NEVER_MELT_ICE
     move MOVE_ICE_PUNCH
     move MOVE_NIGHT_SHADE
     move MOVE_METAL_CLAW
@@ -20784,7 +20784,7 @@ party 483
     abilityslot 0
     level 43
     pokemon SPECIES_PILOSWINE
-    item ITEM_NEVERMELTICE
+    item ITEM_NEVER_MELT_ICE
     move MOVE_ICICLE_CRASH
     move MOVE_BULLDOZE
     move MOVE_FURY_ATTACK
@@ -20801,7 +20801,7 @@ party 483
     abilityslot 0
     level 43
     pokemon SPECIES_CRYOGONAL
-    item ITEM_NEVERMELTICE
+    item ITEM_NEVER_MELT_ICE
     move MOVE_FROST_BREATH
     move MOVE_ANCIENT_POWER
     move MOVE_CHILLING_WATER
@@ -20818,7 +20818,7 @@ party 483
     abilityslot 0
     level 43
     pokemon SPECIES_GLALIE
-    item ITEM_NEVERMELTICE
+    item ITEM_NEVER_MELT_ICE
     move MOVE_ICE_SPINNER
     move ALLOW_ILLEGAL_MOVES ? MOVE_ROCK_SLIDE : MOVE_BULLDOZE
     move MOVE_CRUNCH
@@ -20850,7 +20850,7 @@ party 482
     abilityslot 0
     level 43
     pokemon SPECIES_DEWGONG
-    item ITEM_NEVERMELTICE
+    item ITEM_NEVER_MELT_ICE
     move MOVE_AQUA_TAIL
     move MOVE_ICICLE_SPEAR
     move MOVE_TAKE_DOWN
@@ -20867,7 +20867,7 @@ party 482
     abilityslot 0
     level 43
     pokemon SPECIES_AVALUGG
-    item ITEM_NEVERMELTICE
+    item ITEM_NEVER_MELT_ICE
     move MOVE_AVALANCHE
     move MOVE_BODY_PRESS
     move MOVE_CRUNCH
@@ -20884,7 +20884,7 @@ party 482
     abilityslot 0
     level 43
     pokemon SPECIES_BEARTIC
-    item ITEM_NEVERMELTICE
+    item ITEM_NEVER_MELT_ICE
     move MOVE_ICICLE_CRASH
     move MOVE_NIGHT_SLASH
     move MOVE_AQUA_JET
@@ -20916,7 +20916,7 @@ party 481
     abilityslot 0
     level 43
     pokemon SPECIES_VANILLUXE
-    item ITEM_NEVERMELTICE
+    item ITEM_NEVER_MELT_ICE
     move MOVE_FREEZE_DRY
     move MOVE_FLASH_CANNON
     move MOVE_WATER_PULSE
@@ -20933,7 +20933,7 @@ party 481
     abilityslot 0
     level 43
     monwithform SPECIES_NINETALES, 1
-    item ITEM_NEVERMELTICE
+    item ITEM_NEVER_MELT_ICE
     move MOVE_FREEZE_DRY
     move MOVE_DAZZLING_GLEAM
     move MOVE_EXTRASENSORY
@@ -20950,7 +20950,7 @@ party 481
     abilityslot 0
     level 43
     pokemon SPECIES_GLACEON
-    item ITEM_NEVERMELTICE
+    item ITEM_NEVER_MELT_ICE
     move MOVE_FREEZE_DRY
     move MOVE_SHADOW_BALL
     move MOVE_MIRROR_COAT
@@ -20982,7 +20982,7 @@ party 484
     abilityslot 0
     level 43
     pokemon SPECIES_CLOYSTER
-    item ITEM_NEVERMELTICE
+    item ITEM_NEVER_MELT_ICE
     move MOVE_SURF
     move MOVE_ICE_BEAM
     move MOVE_SIGNAL_BEAM
@@ -20999,7 +20999,7 @@ party 484
     abilityslot 0
     level 43
     monwithform SPECIES_SANDSLASH, 1
-    item ITEM_NEVERMELTICE
+    item ITEM_NEVER_MELT_ICE
     move MOVE_ICICLE_SPEAR
     move MOVE_GYRO_BALL
     move MOVE_PIN_MISSILE
@@ -21016,7 +21016,7 @@ party 484
     abilityslot 0
     level 43
     pokemon SPECIES_WALREIN
-    item ITEM_NEVERMELTICE
+    item ITEM_NEVER_MELT_ICE
     move MOVE_LIQUIDATION
     move MOVE_ICE_FANG
     move MOVE_CRUNCH
@@ -25528,7 +25528,7 @@ party 414
     abilityslot 0
     level 55
     pokemon SPECIES_FARFETCHD
-    item ITEM_STICK
+    item ITEM_LEEK
     move MOVE_BRAVE_BIRD
     move MOVE_CLOSE_COMBAT
     move MOVE_LEAF_BLADE
@@ -25862,7 +25862,7 @@ party 303
     abilityslot 0
     level REMATCH_LEVEL_1A
     pokemon SPECIES_FARFETCHD
-    item ITEM_STICK
+    item ITEM_LEEK
     move MOVE_BRAVE_BIRD
     move MOVE_CLOSE_COMBAT
     move MOVE_LEAF_BLADE
@@ -25945,7 +25945,7 @@ party 446
     abilityslot 0
     level REMATCH_LEVEL_2
     pokemon SPECIES_FARFETCHD
-    item ITEM_STICK
+    item ITEM_LEEK
     move MOVE_BRAVE_BIRD
     move MOVE_CLOSE_COMBAT
     move MOVE_LEAF_BLADE
@@ -26028,7 +26028,7 @@ party 602
     abilityslot 0
     level REMATCH_LEVEL_3
     pokemon SPECIES_FARFETCHD
-    item ITEM_STICK
+    item ITEM_LEEK
     move MOVE_BRAVE_BIRD
     move MOVE_CLOSE_COMBAT
     move MOVE_LEAF_BLADE
@@ -30382,7 +30382,7 @@ party 244
     abilityslot 0
     level 61
     pokemon SPECIES_CHARIZARD
-    item ITEM_MEGA_STONE_CHARIZARD_X
+    item ITEM_CHARIZARDITE_X
     move MOVE_FLARE_BLITZ
     move MOVE_DRAGON_RUSH
     move MOVE_THUNDER_PUNCH
@@ -30500,7 +30500,7 @@ party 999
     abilityslot 0
     level 61
     pokemon SPECIES_CHARIZARD
-    item ITEM_MEGA_STONE_CHARIZARD_X
+    item ITEM_CHARIZARDITE_X
     move MOVE_FLARE_BLITZ
     move MOVE_DRAGON_RUSH
     move MOVE_THUNDER_PUNCH

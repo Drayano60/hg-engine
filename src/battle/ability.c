@@ -2198,6 +2198,7 @@ BOOL MoveHitDefenderAbilityCheck(void *bw, struct BattleStruct *sp, int *seq_no)
                 ret = TRUE;
             } 
             break;
+        /*
         case ABILITY_DISGUISE:
             if ((sp->battlemon[sp->defence_client].species == SPECIES_MIMIKYU)
              && (sp->battlemon[sp->defence_client].hp)
@@ -2229,6 +2230,7 @@ BOOL MoveHitDefenderAbilityCheck(void *bw, struct BattleStruct *sp, int *seq_no)
                 ret = TRUE;
             }
             break;
+        */
         default:
             break;
     }

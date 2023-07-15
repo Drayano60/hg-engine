@@ -80,7 +80,7 @@ EIGHT_BADGES equ 6
 .halfword ITEM_SUN_STONE
 .halfword ITEM_MOON_STONE
 .halfword ITEM_FIRE_STONE
-.halfword ITEM_THUNDERSTONE
+.halfword ITEM_THUNDER_STONE
 .halfword ITEM_WATER_STONE
 .halfword ITEM_LEAF_STONE
 .halfword ITEM_ICE_STONE
@@ -102,8 +102,8 @@ EIGHT_BADGES equ 6
 /* This is repurposed for use in the Safari Zone Gate */
 .org 0x020FBB08
 
-.halfword ITEM_DEEPSEASCALE
-.halfword ITEM_DEEPSEATOOTH
+.halfword ITEM_DEEP_SEA_SCALE
+.halfword ITEM_DEEP_SEA_TOOTH
 .halfword ITEM_KINGS_ROCK
 .halfword ITEM_PRISM_SCALE
 .halfword ITEM_METAL_COAT

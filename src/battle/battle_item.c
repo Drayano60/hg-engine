@@ -247,7 +247,7 @@ u32 ServerWazaHitAfterCheckAct(void *bw, struct BattleStruct *sp)
         case SHWAC_HELD_ITEM_THROAT_SPRAY:
             if
             (
-                (hold_effect == HOLD_EFFECT_SPATK_AFTER_SOUND_MOVE)
+                (hold_effect == HOLD_EFFECT_THROAT_SPRAY)
                 && ((sp->server_status_flag2 & SERVER_STATUS2_FLAG_x10) == 0) // What does this mean?
                 // This can activate on status moves too so we use this. FLAG_HIT only works for damaging moves it seems like?
                 && ((sp->waza_status_flag & MOVE_STATUS_FLAG_MISS) == 0)
@@ -393,6 +393,8 @@ BOOL CheckDefenderItemEffectOnHit(void *bw, struct BattleStruct *sp, int *seq_no
         case HOLD_EFFECT_UNGROUND_DESTROYED_ON_HIT:             // Air Balloon
             // Defender is alive after the attack
             if ((sp->battlemon[sp->defence_client].hp)
+                // Attacker is not U-turning
+                && ((sp->server_status_flag2 & SERVER_STATUS_FLAG2_U_TURN) == 0)
                 // Damage was dealt
                 && ((sp->oneSelfFlag[sp->defence_client].physical_damage)
                     || (sp->oneSelfFlag[sp->defence_client].special_damage))) {
@@ -440,17 +442,6 @@ BOOL CheckDefenderItemEffectOnHit(void *bw, struct BattleStruct *sp, int *seq_no
                 ret = TRUE;
             }
             break;
-        case HOLD_EFFECT_UNGROUND_DESTROYED_ON_HIT:
-            if
-            (
-                (sp->battlemon[sp->defence_client].hp)
-                && (sp->oneSelfFlag[sp->defence_client].physical_damage || sp->oneSelfFlag[sp->defence_client].special_damage)
-                && ((sp->server_status_flag2 & SERVER_STATUS_FLAG2_U_TURN) == 0)
-            )
-            {
-                seq_no[0] = SUB_SEQ_HANDLE_AIR_BALLOON_POP;
-                ret = TRUE;
-            }
 
 #ifdef LATER_GEN_ITEM_EFFECTS
 

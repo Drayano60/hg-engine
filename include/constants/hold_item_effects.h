@@ -171,15 +171,9 @@
 #define HOLD_EFFECT_EVOLVE_SWIRLIX  162               // Whipped Dream
 #define HOLD_EFFECT_EVIOLITE        163               // Eviolite
 
-/* previous
-#define HOLD_EFFECT_EVIOLITE 148
-#define HOLD_EFFECT_ASSAULT_VEST 149
-#define HOLD_EFFECT_WEAKEN_SE_FAIRY 150
-#define HOLD_EFFECT_DAMAGE_ON_CONTACT 151
-#define HOLD_EFFECT_SPATK_AFTER_SOUND_MOVE 152
-#define HOLD_EFFECT_WEAKNESS_POLICY 153
-#define HOLD_EFFECT_AIR_BALLOON 154
-#define HOLD_EFFECT_HEAVY_DUTY_BOOTS 155
-*/
+// Added on Aurora Crystal fork only
+#define HOLD_EFFECT_ASSAULT_VEST                252   // Assault Vest
+#define HOLD_EFFECT_THROAT_SPRAY                253   // Throat Spray
+#define HOLD_EFFECT_HEAVY_DUTY_BOOTS            254   // Heavy-Duty Boots
 
 #endif

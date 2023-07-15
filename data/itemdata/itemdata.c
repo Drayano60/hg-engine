@@ -37194,7 +37194,7 @@ const ITEMDATA __data[] =
 [ITEM_EVIOLITE - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
     .price = 200,
-    .holdEffect = 0,
+    .holdEffect = HOLD_EFFECT_EVIOLITE,
     .holdEffectParam = 0,
     .pluckEffect = 0,
     .flingEffect = 0,
@@ -37779,7 +37779,7 @@ const ITEMDATA __data[] =
 [ITEM_ASSAULT_VEST - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
     .price = 200,
-    .holdEffect = 0,
+    .holdEffect = HOLD_EFFECT_ASSAULT_VEST,
     .holdEffectParam = 0,
     .pluckEffect = 0,
     .flingEffect = 0,
@@ -40509,7 +40509,7 @@ const ITEMDATA __data[] =
 [ITEM_HEAVY_DUTY_BOOTS - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
     .price = 200,
-    .holdEffect = 0,
+    .holdEffect = HOLD_EFFECT_HEAVY_DUTY_BOOTS,
     .holdEffectParam = 0,
     .pluckEffect = 0,
     .flingEffect = 0,
@@ -41094,7 +41094,7 @@ const ITEMDATA __data[] =
 [ITEM_THROAT_SPRAY - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
     .price = 200,
-    .holdEffect = 0,
+    .holdEffect = HOLD_EFFECT_THROAT_SPRAY,
     .holdEffectParam = 0,
     .pluckEffect = 0,
     .flingEffect = 0,

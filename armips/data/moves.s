@@ -9678,6 +9678,37 @@ movedata MOVE_WATER_SHURIKEN, "Water Shuriken"
     terminatedata
     movedescription MOVE_WATER_SHURIKEN, "The user hits the foe\nwith throwing stars\ntwo to five times in\na row. This move\nalways goes first."
 
+movedata MOVE_AUTOTOMIZE, "Autotomize"
+    battleeffect 281
+    pss SPLIT_STATUS
+    basepower 0
+    type TYPE_STEEL
+    accuracy 0
+    pp 15
+    effectchance 0
+    target MOVE_TARGET_USER
+    priority 0
+    flags FLAG_SNATCH
+    appeal 0
+    contesttype 0
+    terminatedata
+    movedescription MOVE_AUTOTOMIZE, "The user sheds part\nof its body, making\nitself lighter and\nsharply raising its\nSpeed stat."
+
+movedatanoname NUM_OF_MOVES+1
+    battleeffect 0
+    pss SPLIT_SPECIAL
+    basepower 100
+    type TYPE_NORMAL
+    accuracy 100
+    pp 10
+    effectchance 0
+    target 0x0000
+    priority 0
+    flags 0x32
+    appeal 0x10
+    contesttype CONTEST_BEAUTY
+    terminatedata
+    
 /* Moves I didn't use afterwards
 --
 

@@ -10,7 +10,6 @@
 .create "build/move/battle_eff_seq/0_281", 0
 
 // Autotomize effect
-// Not used by SacredGold
 
 a030_281:
     gotosubscript 341

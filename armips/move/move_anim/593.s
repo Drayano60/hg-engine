@@ -9,27 +9,21 @@
 
 .create "build/move/move_anim/0_593", 0
 
+/*
+// Autotomize
+Just shakes the user a bit and plays Horn Drill SE.
+Same as Shift Gear, dunno what else to do
+*/
+
 a010_593:
-    loadparticlefromspa 0, 486
-    waitparticle
+    initspriteresource
+    loadspriteresource 0
+    loadspritemaybe 1, 0, 0, 0
 
-    addparticle 0, 2, 3
-    addparticle 0, 1, 3
-    addparticle 0, 1, 3
-    addparticle 0, 0, 3
-    wait 10
+    callfunction 36, 5, 4, 0, 1, 20, 264, "NaN", "NaN", "NaN", "NaN", "NaN"
 
-    addparticle 0, 1, 3
-    addparticle 0, 1, 3
-    wait 10
+    waitse 1850, 117, 3
 
-    addparticle 0, 2, 3
-    addparticle 0, 0, 3
-    waitparticle
-
-    unloadparticle 0
-    waitstate
     end
-    
 
 .close

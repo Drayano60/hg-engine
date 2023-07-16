@@ -1241,5 +1241,28 @@ int ServerDoTypeCalcMod(void *bw, struct BattleStruct *sp, int move_no, int move
         }
     }
 
+
+    /*  Code that sets damage against immunity abilities to 1, encouraging the AI to avoid moves that would go into it. 
+        The AI already has checks for Water Absorb, Volt Absorb, Motor Drive, Flash Fire, Wonder Guard and Levitate so these aren't included.
+        It does check for Soundproof but only for specific move IDs, so that is included here.
+        Overcoat isn't here as this function only happens for damage moves.
+    */
+    if
+    (
+        ((MoldBreakerAbilityCheck(sp, attack_client, defence_client, ABILITY_SOUNDPROOF) == TRUE) && (sp->moveTbl[move_no].appeal & FLAG_SOUND))
+        || ((MoldBreakerAbilityCheck(sp, attack_client, defence_client, ABILITY_LIGHTNING_ROD) == TRUE) && (move_type == TYPE_ELECTRIC))
+        || ((MoldBreakerAbilityCheck(sp, attack_client, defence_client, ABILITY_STORM_DRAIN) == TRUE) && (move_type == TYPE_WATER))
+        || ((MoldBreakerAbilityCheck(sp, attack_client, defence_client, ABILITY_DRY_SKIN) == TRUE) && (move_type == TYPE_WATER))
+        || ((MoldBreakerAbilityCheck(sp, attack_client, defence_client, ABILITY_SAP_SIPPER) == TRUE) && (move_type == TYPE_GRASS))
+        || ((MoldBreakerAbilityCheck(sp, attack_client, defence_client, ABILITY_BULLETPROOF) == TRUE) && (sp->moveTbl[move_no].appeal & FLAG_BALL))
+        || ((MoldBreakerAbilityCheck(sp, attack_client, defence_client, ABILITY_WIND_RIDER) == TRUE) && (sp->moveTbl[move_no].appeal & FLAG_WIND))
+        || ((MoldBreakerAbilityCheck(sp, attack_client, defence_client, ABILITY_ARMOR_TAIL) == TRUE) && (sp->moveTbl[move_no].priority > 0))
+        || ((MoldBreakerAbilityCheck(sp, attack_client, defence_client, ABILITY_DAZZLING) == TRUE) && (sp->moveTbl[move_no].priority > 0))
+        || ((MoldBreakerAbilityCheck(sp, attack_client, defence_client, ABILITY_QUEENLY_MAJESTY) == TRUE) && (sp->moveTbl[move_no].priority > 0))
+    )
+    {
+        damage = 1;
+    }
+
     return damage;
 }

@@ -156,14 +156,14 @@
 #define SUB_SEQ_HANDLE_BUFF_ON_KO (365)
 
 // additional effect constants
-#define ADD_STATUS_NONE (0)
-#define ADD_STATUS_DIRECT (1)
-#define ADD_STATUS_INDIRECT (2)
-#define ADD_STATUS_ABILITY (3)
-#define ADD_STATUS_WAZA_KOUKA (4)
-#define ADD_STATUS_SOUBIITEM (5)
-#define ADD_STATUS_DOKUBISI (6)
-#define ADD_STATUS_IGNORE (7)
+#define ADD_STATUS_NONE (0) // nothing
+#define ADD_STATUS_DIRECT (1) // primary effect of move?
+#define ADD_STATUS_INDIRECT (2) // secondary effect of move
+#define ADD_STATUS_ABILITY (3) // caused by ability eg static
+#define ADD_STATUS_WAZA_KOUKA (4) // caused as effect of move?
+#define ADD_STATUS_SOUBIITEM (5) // caused by item eg toxic orb
+#define ADD_STATUS_DOKUBISI (6) // toxic spikes
+#define ADD_STATUS_IGNORE (7) // caused by pokemon not listening
 
 #define ADD_STAGE_ATTACK_UP (15)
 #define ADD_STAGE_SP_ATK_UP (18)

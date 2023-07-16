@@ -2086,6 +2086,7 @@ levelup SPECIES_GRAVELER
 
 // NEW: Head Smash
 levelup SPECIES_GOLEM
+    learnset MOVE_AUTOTOMIZE, 1
     learnset MOVE_HAMMER_ARM, 1
     learnset MOVE_HEAVY_SLAM, 1
     learnset MOVE_STEAMROLLER, 1
@@ -2152,6 +2153,7 @@ levelup SPECIES_GRAVELER_ALOLAN
 
 // NEW: Head Smash
 levelup SPECIES_GOLEM_ALOLAN
+    learnset MOVE_AUTOTOMIZE, 1
     learnset MOVE_MAGNET_RISE, 1
     learnset MOVE_HEAVY_SLAM, 1
     learnset MOVE_STEAMROLLER, 1
@@ -2739,7 +2741,7 @@ levelup SPECIES_STEELIX
     learnset MOVE_CURSE, 16
     learnset MOVE_DIG, 20
     learnset MOVE_ROCK_SLIDE, 24
-    learnset MOVE_ROCK_POLISH, 28
+    learnset MOVE_AUTOTOMIZE, 28
     learnset MOVE_CRUNCH, 32
     learnset MOVE_IRON_TAIL, 36
     learnset MOVE_COIL, 40
@@ -5901,11 +5903,12 @@ levelup SPECIES_PINECO
 
 // NEW: Shell Smash, Steamroller
 levelup SPECIES_FORRETRESS
-    learnset MOVE_ROCK_BLAST, 1
-    learnset MOVE_TOXIC_SPIKES, 1
+    learnset MOVE_AUTOTOMIZE, 1
     learnset MOVE_MAGNET_RISE, 1
     learnset MOVE_MIRROR_SHOT, 1
     learnset MOVE_POWER_TRICK, 1
+    learnset MOVE_ROCK_BLAST, 1
+    learnset MOVE_TOXIC_SPIKES, 1
     learnset MOVE_BIDE, 1
     learnset MOVE_TACKLE, 1
     learnset MOVE_PROTECT, 1
@@ -6542,16 +6545,17 @@ levelup SPECIES_SKARMORY
     learnset MOVE_PECK, 1
     learnset MOVE_LEER, 1
     learnset MOVE_PURSUIT, 1
-    learnset MOVE_SAND_ATTACK, 4
-    learnset MOVE_FURY_ATTACK, 8
-    learnset MOVE_METAL_CLAW, 12
-    learnset MOVE_AGILITY, 16
-    learnset MOVE_WING_ATTACK, 20
+    learnset MOVE_SAND_ATTACK, 3
+    learnset MOVE_FURY_ATTACK, 6
+    learnset MOVE_METAL_CLAW, 9
+    learnset MOVE_AGILITY, 12
+    learnset MOVE_WING_ATTACK, 16
+    learnset MOVE_METAL_SOUND, 20
     learnset MOVE_SLASH, 24
     learnset MOVE_SPIKES, 28
     learnset MOVE_STEEL_WING, 32
     learnset MOVE_DRILL_PECK, 36
-    learnset MOVE_METAL_SOUND, 40
+    learnset MOVE_AUTOTOMIZE, 40
     learnset MOVE_NIGHT_SLASH, 44
     learnset MOVE_IRON_DEFENSE, 48
     learnset MOVE_BRAVE_BIRD, 52
@@ -8128,7 +8132,7 @@ levelup SPECIES_ARON
     learnset MOVE_METAL_SOUND, 24
     learnset MOVE_IRON_HEAD, 27
     learnset MOVE_TAKE_DOWN, 31
-    learnset MOVE_IRON_TAIL, 35
+    learnset MOVE_AUTOTOMIZE, 35
     learnset MOVE_HEAVY_SLAM, 39
     learnset MOVE_IRON_DEFENSE, 45
     learnset MOVE_METAL_BURST, 50
@@ -8150,7 +8154,7 @@ levelup SPECIES_LAIRON
     learnset MOVE_METAL_SOUND, 24
     learnset MOVE_IRON_HEAD, 27
     learnset MOVE_TAKE_DOWN, 31
-    learnset MOVE_IRON_TAIL, 35
+    learnset MOVE_AUTOTOMIZE, 35
     learnset MOVE_HEAVY_SLAM, 39
     learnset MOVE_IRON_DEFENSE, 45
     learnset MOVE_METAL_BURST, 50
@@ -8173,7 +8177,7 @@ levelup SPECIES_AGGRON
     learnset MOVE_METAL_SOUND, 24
     learnset MOVE_IRON_HEAD, 27
     learnset MOVE_TAKE_DOWN, 31
-    learnset MOVE_IRON_TAIL, 35
+    learnset MOVE_AUTOTOMIZE, 35
     learnset MOVE_HEAVY_SLAM, 39
     learnset MOVE_SMART_STRIKE, 40
     learnset MOVE_IRON_DEFENSE, 45
@@ -13013,6 +13017,7 @@ levelup SPECIES_BOLDORE
     terminatelearnset
 
 levelup SPECIES_GIGALITH
+    learnset MOVE_AUTOTOMIZE, 1
     learnset MOVE_GRAVITY, 1
     learnset MOVE_SAND_ATTACK, 1
     learnset MOVE_TACKLE, 1
@@ -13939,8 +13944,9 @@ levelup SPECIES_TRUBBISH
     terminatelearnset
 
 levelup SPECIES_GARBODOR
-    learnset MOVE_SELF_DESTRUCT, 1
+    learnset MOVE_AUTOTOMIZE, 1
     learnset MOVE_ROCK_BLAST, 1
+    learnset MOVE_SELF_DESTRUCT, 1
     learnset MOVE_SPIKES, 1
     learnset MOVE_POUND, 1
     learnset MOVE_RECYCLE, 1
@@ -14293,6 +14299,7 @@ levelup SPECIES_VANILLISH
 // Evolution: 28 -> 40
 levelup SPECIES_VANILLUXE
     learnset MOVE_AURORA_VEIL, 1
+    learnset MOVE_AUTOTOMIZE, 1
     learnset MOVE_MAGNET_RISE, 1
     learnset MOVE_WEATHER_BALL, 1
     learnset MOVE_POWDER_SNOW, 1
@@ -14833,17 +14840,19 @@ levelup SPECIES_FERROTHORN
     terminatelearnset
 
 // Evolution: 28 -> 40
+// NEW: Spark
 levelup SPECIES_KLINK
     learnset MOVE_THUNDER_SHOCK, 1
     learnset MOVE_VICE_GRIP, 1
-    learnset MOVE_BIND, 4
-    learnset MOVE_CHARGE, 8
-    learnset MOVE_CHARGE_BEAM, 12
+    learnset MOVE_BIND, 3
+    learnset MOVE_CHARGE, 6
+    learnset MOVE_CHARGE_BEAM, 9
+    learnset MOVE_MIRROR_SHOT, 12
     learnset MOVE_METAL_SOUND, 16
-    learnset MOVE_MIRROR_SHOT, 20
-    learnset MOVE_SPARK, 24
-    learnset MOVE_SCREECH, 30
-    learnset MOVE_GEAR_GRIND, 35
+    learnset MOVE_SPARK, 20
+    learnset MOVE_AUTOTOMIZE, 24
+    learnset MOVE_GEAR_GRIND, 30
+    learnset MOVE_SCREECH, 35
     learnset MOVE_DISCHARGE, 42
     learnset MOVE_SHIFT_GEAR, 48
     learnset MOVE_LOCK_ON, 54
@@ -14852,17 +14861,19 @@ levelup SPECIES_KLINK
     terminatelearnset
 
 // Evolution: 28 -> 40
+// NEW: Spark
 levelup SPECIES_KLANG
     learnset MOVE_THUNDER_SHOCK, 1
     learnset MOVE_VICE_GRIP, 1
-    learnset MOVE_BIND, 4
-    learnset MOVE_CHARGE, 8
-    learnset MOVE_CHARGE_BEAM, 12
+    learnset MOVE_BIND, 3
+    learnset MOVE_CHARGE, 6
+    learnset MOVE_CHARGE_BEAM, 9
+    learnset MOVE_MIRROR_SHOT, 12
     learnset MOVE_METAL_SOUND, 16
-    learnset MOVE_MIRROR_SHOT, 20
-    learnset MOVE_SPARK, 24
-    learnset MOVE_SCREECH, 30
-    learnset MOVE_GEAR_GRIND, 35
+    learnset MOVE_SPARK, 20
+    learnset MOVE_AUTOTOMIZE, 24
+    learnset MOVE_GEAR_GRIND, 30
+    learnset MOVE_SCREECH, 35
     learnset MOVE_DISCHARGE, 42
     learnset MOVE_SHIFT_GEAR, 48
     learnset MOVE_LOCK_ON, 54
@@ -14871,20 +14882,22 @@ levelup SPECIES_KLANG
     terminatelearnset
 
 // Evolution: 28 -> 40
+// NEW: Spark
 levelup SPECIES_KLINKLANG
     learnset MOVE_GRAVITY, 1
     learnset MOVE_IRON_DEFENSE, 1
     learnset MOVE_MAGNET_RISE, 1
     learnset MOVE_THUNDER_SHOCK, 1
     learnset MOVE_VICE_GRIP, 1
-    learnset MOVE_BIND, 4
-    learnset MOVE_CHARGE, 8
-    learnset MOVE_CHARGE_BEAM, 12
+    learnset MOVE_BIND, 3
+    learnset MOVE_CHARGE, 6
+    learnset MOVE_CHARGE_BEAM, 9
+    learnset MOVE_MIRROR_SHOT, 12
     learnset MOVE_METAL_SOUND, 16
-    learnset MOVE_MIRROR_SHOT, 20
-    learnset MOVE_SPARK, 24
-    learnset MOVE_SCREECH, 30
-    learnset MOVE_GEAR_GRIND, 35
+    learnset MOVE_SPARK, 20
+    learnset MOVE_AUTOTOMIZE, 24
+    learnset MOVE_GEAR_GRIND, 30
+    learnset MOVE_SCREECH, 35
     learnset MOVE_DISCHARGE, 42
     learnset MOVE_SHIFT_GEAR, 48
     learnset MOVE_LOCK_ON, 54
@@ -16356,7 +16369,8 @@ levelup SPECIES_HONEDGE
     learnset MOVE_PURSUIT, 8
     learnset MOVE_AERIAL_ACE, 12
     learnset MOVE_METAL_SOUND, 16
-    learnset MOVE_SLASH, 20
+    learnset MOVE_AUTOTOMIZE, 20
+    learnset MOVE_SLASH, 24
     learnset MOVE_NIGHT_SLASH, 24
     learnset MOVE_SHADOW_CLAW, 28
     learnset MOVE_IRON_DEFENSE, 32
@@ -16374,7 +16388,8 @@ levelup SPECIES_DOUBLADE
     learnset MOVE_PURSUIT, 8
     learnset MOVE_AERIAL_ACE, 12
     learnset MOVE_METAL_SOUND, 16
-    learnset MOVE_SLASH, 20
+    learnset MOVE_AUTOTOMIZE, 20
+    learnset MOVE_SLASH, 24
     learnset MOVE_NIGHT_SLASH, 24
     learnset MOVE_SHADOW_CLAW, 28
     learnset MOVE_IRON_DEFENSE, 32
@@ -16393,7 +16408,8 @@ levelup SPECIES_AEGISLASH
     learnset MOVE_PURSUIT, 8
     learnset MOVE_AERIAL_ACE, 12
     learnset MOVE_METAL_SOUND, 16
-    learnset MOVE_SLASH, 20
+    learnset MOVE_AUTOTOMIZE, 20
+    learnset MOVE_SLASH, 24
     learnset MOVE_NIGHT_SLASH, 24
     learnset MOVE_SHADOW_CLAW, 28
     learnset MOVE_IRON_DEFENSE, 32
@@ -20613,7 +20629,7 @@ levelup SPECIES_MEGA_STEELIX
     learnset MOVE_CURSE, 16
     learnset MOVE_DIG, 20
     learnset MOVE_ROCK_SLIDE, 24
-    learnset MOVE_ROCK_POLISH, 28
+    learnset MOVE_AUTOTOMIZE, 28
     learnset MOVE_CRUNCH, 32
     learnset MOVE_IRON_TAIL, 36
     learnset MOVE_COIL, 40

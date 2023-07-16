@@ -12380,8 +12380,8 @@ levelup SPECIES_TEPIG
     learnset MOVE_FLARE_BLITZ, 62
     terminatelearnset
 
-// NEW: Close Combat
 levelup SPECIES_PIGNITE
+    learnset MOVE_ARM_THRUST, 1
     learnset MOVE_TACKLE, 1
     learnset MOVE_TAIL_WHIP, 1
     learnset MOVE_EMBER, 3
@@ -12389,23 +12389,25 @@ levelup SPECIES_PIGNITE
     learnset MOVE_DEFENSE_CURL, 9
     learnset MOVE_FLAME_CHARGE, 12
     learnset MOVE_YAWN, 15
-    learnset MOVE_ARM_THRUST, 17
+    learnset MOVE_BULLDOZE, 17
     learnset MOVE_ROLLOUT, 20
     learnset MOVE_TAKE_DOWN, 24
     learnset MOVE_ASSURANCE, 28
     learnset MOVE_HEAT_CRASH, 32
     learnset MOVE_ENDEAVOR, 38
     learnset MOVE_FLAMETHROWER, 44
-    learnset MOVE_CLOSE_COMBAT, 50
+    learnset MOVE_HEAVY_SLAM, 50
     learnset MOVE_HEAD_SMASH, 56
     learnset MOVE_FLARE_BLITZ, 62
     terminatelearnset
 
-// NEW: Close Combat, Headlong Rush
+// NEW: Headlong Rush
 levelup SPECIES_EMBOAR
+    learnset MOVE_HAMMER_ARM, 1
     learnset MOVE_POWER_UP_PUNCH, 1
     learnset MOVE_SUCKER_PUNCH, 1
     learnset MOVE_BODY_SLAM, 1
+    learnset MOVE_ARM_THRUST, 1
     learnset MOVE_TACKLE, 1
     learnset MOVE_TAIL_WHIP, 1
     learnset MOVE_EMBER, 3
@@ -12413,15 +12415,15 @@ levelup SPECIES_EMBOAR
     learnset MOVE_DEFENSE_CURL, 9
     learnset MOVE_FLAME_CHARGE, 12
     learnset MOVE_YAWN, 15
-    learnset MOVE_ARM_THRUST, 17
+    learnset MOVE_BULLDOZE, 17
     learnset MOVE_ROLLOUT, 20
     learnset MOVE_TAKE_DOWN, 24
     learnset MOVE_ASSURANCE, 28
     learnset MOVE_HEAT_CRASH, 32
-    learnset MOVE_HAMMER_ARM, 36
+    learnset MOVE_EARTHQUAKE, 36
     learnset MOVE_ENDEAVOR, 38
     learnset MOVE_FLAMETHROWER, 44
-    learnset MOVE_CLOSE_COMBAT, 50
+    learnset MOVE_HEAVY_SLAM, 50
     learnset MOVE_HEAD_SMASH, 56
     learnset MOVE_FLARE_BLITZ, 62
     learnset MOVE_HEADLONG_RUSH, 68

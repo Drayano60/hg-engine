@@ -14096,10 +14096,17 @@ mondata SPECIES_TEPIG, "Tepig"
     mondexweight SPECIES_TEPIG, "21.8 lbs."
 
 
+// TYPES: Fire/Fighting >> Fire/Ground
 // ABILITY: Thick Fat (2), Reckless (HA)
 mondata SPECIES_PIGNITE, "Pignite"
     basestats 90, 93, 55, 55, 70, 55
-    types TYPE_FIRE, TYPE_FIGHTING
+    
+    .if TYPE_CHANGES_IMPLEMENTED
+        types TYPE_FIRE, TYPE_GROUND
+    .else
+        types TYPE_FIRE, TYPE_FIGHTING
+    .endif
+
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 2, 0, 0, 0, 0
@@ -14124,6 +14131,7 @@ mondata SPECIES_PIGNITE, "Pignite"
 
 
 // STATS: 123 >> 130 Atk | 65 >> 75 Def | 100 >> 80 SpAtk | 65 >> 75 SpDef | 528 >> 535 BST
+// TYPES: Fire/Fighting >> Fire/Ground
 // ABILITY: Thick Fat (2), Reckless (HA)
 mondata SPECIES_EMBOAR, "Emboar"
     .if STAT_CHANGES_IMPLEMENTED
@@ -14131,7 +14139,13 @@ mondata SPECIES_EMBOAR, "Emboar"
     .else
         basestats 110, 123, 65, 65, 100, 65
     .endif
-    types TYPE_FIRE, TYPE_FIGHTING
+
+    .if TYPE_CHANGES_IMPLEMENTED
+        types TYPE_FIRE, TYPE_GROUND
+    .else
+        types TYPE_FIRE, TYPE_FIGHTING
+    .endif
+    
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 3, 0, 0, 0, 0

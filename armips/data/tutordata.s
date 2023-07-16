@@ -3506,10 +3506,11 @@ tutordata SPECIES_SPEWPA,\
 TUTOR_MOVE_ELECTROWEB | TUTOR_MOVE_POUNCE | 0,\
 0
  
+SPECIES_VIVILLON_TUTOR_DATA_1 equ TUTOR_MOVE_AIR_CUTTER | TUTOR_MOVE_DRAINING_KISS | TUTOR_MOVE_ELECTROWEB | TUTOR_MOVE_POUNCE | TUTOR_MOVE_PSYBEAM | TUTOR_MOVE_DUAL_WINGBEAT | 0
+SPECIES_VIVILLON_TUTOR_DATA_2 equ TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_HURRICANE | TUTOR_MOVE_DOUBLE_EDGE | 0
+
 // NEW: Dual Wingbeat (HOME), Double-Edge
-tutordata SPECIES_VIVILLON,\
-TUTOR_MOVE_AIR_CUTTER | TUTOR_MOVE_DRAINING_KISS | TUTOR_MOVE_ELECTROWEB | TUTOR_MOVE_POUNCE | TUTOR_MOVE_PSYBEAM | TUTOR_MOVE_DUAL_WINGBEAT | 0,\
-TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_HURRICANE | TUTOR_MOVE_DOUBLE_EDGE | 0
+tutordata SPECIES_VIVILLON, SPECIES_VIVILLON_TUTOR_DATA_1, SPECIES_VIVILLON_TUTOR_DATA_2
  
 // NEW: Double-Edge
 tutordata SPECIES_LITLEO,\
@@ -3521,17 +3522,20 @@ tutordata SPECIES_PYROAR,\
 TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_HEAT_WAVE | 0,\
 TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_PSYCHIC_FANGS | TUTOR_MOVE_FLARE_BLITZ | TUTOR_MOVE_WILD_CHARGE | TUTOR_MOVE_DOUBLE_EDGE | 0
  
-tutordata SPECIES_FLABEBE,\
-TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_DRAINING_KISS | TUTOR_MOVE_MAGICAL_LEAF | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_CHARM | 0,\
-TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_STORED_POWER | 0
+SPECIES_FLABEBE_TUTOR_DATA_1 equ TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_DRAINING_KISS | TUTOR_MOVE_MAGICAL_LEAF | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_CHARM | 0
+SPECIES_FLABEBE_TUTOR_DATA_2 equ TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_STORED_POWER | 0
+
+tutordata SPECIES_FLABEBE, SPECIES_FLABEBE_TUTOR_DATA_1, SPECIES_FLABEBE_TUTOR_DATA_2
+
+SPECIES_FLOETTE_TUTOR_DATA_1 equ TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_DRAINING_KISS | TUTOR_MOVE_MAGICAL_LEAF | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_CHARM | 0
+SPECIES_FLOETTE_TUTOR_DATA_2 equ TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_STORED_POWER | 0
  
-tutordata SPECIES_FLOETTE,\
-TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_DRAINING_KISS | TUTOR_MOVE_MAGICAL_LEAF | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_CHARM | 0,\
-TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_STORED_POWER | 0
- 
-tutordata SPECIES_FLORGES,\
-TUTOR_MOVE_DRAINING_KISS | TUTOR_MOVE_MAGICAL_LEAF | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_CHARM | 0,\
-TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_STORED_POWER | 0
+tutordata SPECIES_FLOETTE, SPECIES_FLOETTE_TUTOR_DATA_1, SPECIES_FLOETTE_TUTOR_DATA_2
+
+SPECIES_FLORGES_TUTOR_DATA_1 equ TUTOR_MOVE_DRAINING_KISS | TUTOR_MOVE_MAGICAL_LEAF | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_CHARM | 0
+SPECIES_FLORGES_TUTOR_DATA_2 equ TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_STORED_POWER | 0
+
+tutordata SPECIES_FLORGES, SPECIES_FLORGES_TUTOR_DATA_1, SPECIES_FLORGES_TUTOR_DATA_2
  
 tutordata SPECIES_SKIDDO,\
 TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_MAGICAL_LEAF | TUTOR_MOVE_TRAILBLAZE | 0,\
@@ -7117,353 +7121,41 @@ tutordata SPECIES_GRENINJA_ASH, \
                   \
                   0
 
-
-tutordata SPECIES_VIVILLON_POLAR, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_VIVILLON_TUNDRA, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_VIVILLON_CONTINENTAL, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_VIVILLON_GARDEN, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-// NEW: Dual Wingbeat (HOME), Double-Edge
-tutordata SPECIES_VIVILLON_ELEGANT,\
-TUTOR_MOVE_AIR_CUTTER | TUTOR_MOVE_DRAINING_KISS | TUTOR_MOVE_ELECTROWEB | TUTOR_MOVE_POUNCE | TUTOR_MOVE_PSYBEAM | TUTOR_MOVE_DUAL_WINGBEAT | 0,\
-TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_HURRICANE | TUTOR_MOVE_DOUBLE_EDGE | 0
-
-
-tutordata SPECIES_VIVILLON_MEADOW, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_VIVILLON_MODERN, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_VIVILLON_MARINE, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_VIVILLON_ARCHIPELAGO, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_VIVILLON_HIGH_PLAINS, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_VIVILLON_SANDSTORM, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_VIVILLON_RIVER, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_VIVILLON_MONSOON, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_VIVILLON_SAVANNA, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_VIVILLON_SUN, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_VIVILLON_OCEAN, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_VIVILLON_JUNGLE, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_VIVILLON_FANCY, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_VIVILLON_POKE_BALL, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_FLABEBE_YELLOW_FLOWER, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_FLABEBE_ORANGE_FLOWER, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_FLABEBE_BLUE_FLOWER, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_FLABEBE_WHITE_FLOWER, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_FLOETTE_YELLOW_FLOWER, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_FLOETTE_ORANGE_FLOWER, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_FLOETTE_BLUE_FLOWER, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_FLOETTE_WHITE_FLOWER, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_FLOETTE_ETERNAL_FLOWER, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_FLORGES_YELLOW_FLOWER, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_FLORGES_ORANGE_FLOWER, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_FLORGES_BLUE_FLOWER, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_FLORGES_WHITE_FLOWER, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
+tutordata SPECIES_VIVILLON_POLAR, SPECIES_VIVILLON_TUTOR_DATA_1, SPECIES_VIVILLON_TUTOR_DATA_2
+tutordata SPECIES_VIVILLON_TUNDRA, SPECIES_VIVILLON_TUTOR_DATA_1, SPECIES_VIVILLON_TUTOR_DATA_2
+tutordata SPECIES_VIVILLON_CONTINENTAL, SPECIES_VIVILLON_TUTOR_DATA_1, SPECIES_VIVILLON_TUTOR_DATA_2
+tutordata SPECIES_VIVILLON_GARDEN, SPECIES_VIVILLON_TUTOR_DATA_1, SPECIES_VIVILLON_TUTOR_DATA_2
+tutordata SPECIES_VIVILLON_ELEGANT, SPECIES_VIVILLON_TUTOR_DATA_1, SPECIES_VIVILLON_TUTOR_DATA_2
+tutordata SPECIES_VIVILLON_MEADOW, SPECIES_VIVILLON_TUTOR_DATA_1, SPECIES_VIVILLON_TUTOR_DATA_2
+tutordata SPECIES_VIVILLON_MODERN, SPECIES_VIVILLON_TUTOR_DATA_1, SPECIES_VIVILLON_TUTOR_DATA_2
+tutordata SPECIES_VIVILLON_MARINE, SPECIES_VIVILLON_TUTOR_DATA_1, SPECIES_VIVILLON_TUTOR_DATA_2
+tutordata SPECIES_VIVILLON_ARCHIPELAGO, SPECIES_VIVILLON_TUTOR_DATA_1, SPECIES_VIVILLON_TUTOR_DATA_2
+tutordata SPECIES_VIVILLON_HIGH_PLAINS, SPECIES_VIVILLON_TUTOR_DATA_1, SPECIES_VIVILLON_TUTOR_DATA_2
+tutordata SPECIES_VIVILLON_SANDSTORM, SPECIES_VIVILLON_TUTOR_DATA_1, SPECIES_VIVILLON_TUTOR_DATA_2
+tutordata SPECIES_VIVILLON_RIVER, SPECIES_VIVILLON_TUTOR_DATA_1, SPECIES_VIVILLON_TUTOR_DATA_2
+tutordata SPECIES_VIVILLON_MONSOON, SPECIES_VIVILLON_TUTOR_DATA_1, SPECIES_VIVILLON_TUTOR_DATA_2
+tutordata SPECIES_VIVILLON_SAVANNA, SPECIES_VIVILLON_TUTOR_DATA_1, SPECIES_VIVILLON_TUTOR_DATA_2
+tutordata SPECIES_VIVILLON_SUN, SPECIES_VIVILLON_TUTOR_DATA_1, SPECIES_VIVILLON_TUTOR_DATA_2
+tutordata SPECIES_VIVILLON_OCEAN, SPECIES_VIVILLON_TUTOR_DATA_1, SPECIES_VIVILLON_TUTOR_DATA_2
+tutordata SPECIES_VIVILLON_JUNGLE, SPECIES_VIVILLON_TUTOR_DATA_1, SPECIES_VIVILLON_TUTOR_DATA_2
+tutordata SPECIES_VIVILLON_FANCY, SPECIES_VIVILLON_TUTOR_DATA_1, SPECIES_VIVILLON_TUTOR_DATA_2
+tutordata SPECIES_VIVILLON_POKE_BALL, SPECIES_VIVILLON_TUTOR_DATA_1, SPECIES_VIVILLON_TUTOR_DATA_2
+
+tutordata SPECIES_FLABEBE_YELLOW_FLOWER, SPECIES_FLABEBE_TUTOR_DATA_1, SPECIES_FLABEBE_TUTOR_DATA_2
+tutordata SPECIES_FLABEBE_ORANGE_FLOWER, SPECIES_FLABEBE_TUTOR_DATA_1, SPECIES_FLABEBE_TUTOR_DATA_2
+tutordata SPECIES_FLABEBE_BLUE_FLOWER, SPECIES_FLABEBE_TUTOR_DATA_1, SPECIES_FLABEBE_TUTOR_DATA_2
+tutordata SPECIES_FLABEBE_WHITE_FLOWER, SPECIES_FLABEBE_TUTOR_DATA_1, SPECIES_FLABEBE_TUTOR_DATA_2
+
+tutordata SPECIES_FLOETTE_YELLOW_FLOWER, SPECIES_FLOETTE_TUTOR_DATA_1, SPECIES_FLOETTE_TUTOR_DATA_2
+tutordata SPECIES_FLOETTE_ORANGE_FLOWER, SPECIES_FLOETTE_TUTOR_DATA_1, SPECIES_FLOETTE_TUTOR_DATA_2
+tutordata SPECIES_FLOETTE_BLUE_FLOWER, SPECIES_FLOETTE_TUTOR_DATA_1, SPECIES_FLOETTE_TUTOR_DATA_2
+tutordata SPECIES_FLOETTE_WHITE_FLOWER, SPECIES_FLOETTE_TUTOR_DATA_1, SPECIES_FLOETTE_TUTOR_DATA_2
+tutordata SPECIES_FLOETTE_ETERNAL_FLOWER, SPECIES_FLOETTE_TUTOR_DATA_1, SPECIES_FLOETTE_TUTOR_DATA_2
+
+tutordata SPECIES_FLORGES_YELLOW_FLOWER, SPECIES_FLORGES_TUTOR_DATA_1, SPECIES_FLORGES_TUTOR_DATA_2
+tutordata SPECIES_FLORGES_ORANGE_FLOWER, SPECIES_FLORGES_TUTOR_DATA_1, SPECIES_FLORGES_TUTOR_DATA_2
+tutordata SPECIES_FLORGES_BLUE_FLOWER, SPECIES_FLORGES_TUTOR_DATA_1, SPECIES_FLORGES_TUTOR_DATA_2
+tutordata SPECIES_FLORGES_WHITE_FLOWER, SPECIES_FLORGES_TUTOR_DATA_1, SPECIES_FLORGES_TUTOR_DATA_2
 
 tutordata SPECIES_FURFROU_HEART, \
                   \

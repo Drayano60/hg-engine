@@ -26100,8 +26100,13 @@ mondata SPECIES_VIVILLON_GARDEN, "-----"
     tmdata SPECIES_VIVILLON_TM_DATA_0, SPECIES_VIVILLON_TM_DATA_1, SPECIES_VIVILLON_TM_DATA_2, SPECIES_VIVILLON_TM_DATA_3
 
 
+// STATS: 90 >> 100 SpAtk | 89 >> 99 Speed | 411 >> 431 BST
 mondata SPECIES_VIVILLON_ELEGANT, "-----"
-    basestats 80, 52, 50, 89, 90, 50
+    .if STAT_CHANGES_IMPLEMENTED
+        basestats 80, 52, 50, 99, 100, 50
+    .else
+        basestats 80, 52, 50, 89, 90, 50
+    .endif
     types TYPE_BUG, TYPE_FLYING
     catchrate 45
     baseexp 185
@@ -26112,7 +26117,7 @@ mondata SPECIES_VIVILLON_ELEGANT, "-----"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_BUG, EGG_GROUP_BUG
-    abilities ABILITY_SHIELD_DUST,  ABILITY_COMPOUND_EYES
+    abilities ABILITY_SHIELD_DUST, ABILITY_COMPOUND_EYES
     runchance 25
     colorflip BODY_COLOR_PURPLE, 0
     tmdata SPECIES_VIVILLON_TM_DATA_0, SPECIES_VIVILLON_TM_DATA_1, SPECIES_VIVILLON_TM_DATA_2, SPECIES_VIVILLON_TM_DATA_3

@@ -8674,7 +8674,7 @@ evodata SPECIES_SCATTERBUG
 terminateevodata
 
 evodata SPECIES_SPEWPA
-    evolution EVO_LEVEL_UP, 12, SPECIES_VIVILLON
+    evolutionwithform EVO_LEVEL_UP, 12, SPECIES_VIVILLON, 5 /* Elegant Form (it's the form primarily found in Japan) */
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE

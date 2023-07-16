@@ -22261,23 +22261,27 @@ levelup SPECIES_VIVILLON_GARDEN
 	learnset MOVE_POWDER, 55
 	terminatelearnset
 
+// NEW: Silver Wind
 levelup SPECIES_VIVILLON_ELEGANT
-	learnset MOVE_GUST, 1
-	learnset MOVE_POWDER, 1
-	learnset MOVE_SLEEP_POWDER, 1
-	learnset MOVE_POISON_POWDER, 1
-	learnset MOVE_STUN_SPORE, 1
-	learnset MOVE_STRUGGLE_BUG, 1
-	learnset MOVE_LIGHT_SCREEN, 12
-	learnset MOVE_PSYBEAM, 17
-	learnset MOVE_SUPERSONIC, 21
-	learnset MOVE_DRAINING_KISS, 25
-	learnset MOVE_AROMATHERAPY, 31
-	learnset MOVE_BUG_BUZZ, 35
-	learnset MOVE_SAFEGUARD, 41
-	learnset MOVE_QUIVER_DANCE, 45
-	learnset MOVE_HURRICANE, 50
-	learnset MOVE_POWDER, 55
+	learnset MOVE_TACKLE, 1
+    learnset MOVE_STRING_SHOT, 1
+    learnset MOVE_STUN_SPORE, 1
+    learnset MOVE_BUG_BITE, 1
+    learnset MOVE_GUST, 12
+    learnset MOVE_STRUGGLE_BUG, 12
+    learnset MOVE_SUPERSONIC, 14
+    learnset MOVE_POISON_POWDER, 16
+    learnset MOVE_SLEEP_POWDER, 16
+    learnset MOVE_SILVER_WIND, 18
+    learnset MOVE_PSYBEAM, 20
+    learnset MOVE_DRAINING_KISS, 22
+    learnset MOVE_AIR_SLASH, 26
+    learnset MOVE_LIGHT_SCREEN, 30
+    learnset MOVE_BUG_BUZZ, 34
+    learnset MOVE_SAFEGUARD, 38
+    learnset MOVE_AROMATHERAPY, 42
+    learnset MOVE_QUIVER_DANCE, 46
+    learnset MOVE_HURRICANE, 50
 	terminatelearnset
 
 levelup SPECIES_VIVILLON_MEADOW

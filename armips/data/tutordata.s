@@ -7162,15 +7162,10 @@ tutordata SPECIES_VIVILLON_GARDEN, \
                   0
 
 
-tutordata SPECIES_VIVILLON_ELEGANT, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
+// NEW: Dual Wingbeat (HOME), Double-Edge
+tutordata SPECIES_VIVILLON_ELEGANT,\
+TUTOR_MOVE_AIR_CUTTER | TUTOR_MOVE_DRAINING_KISS | TUTOR_MOVE_ELECTROWEB | TUTOR_MOVE_POUNCE | TUTOR_MOVE_PSYBEAM | TUTOR_MOVE_DUAL_WINGBEAT | 0,\
+TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_HURRICANE | TUTOR_MOVE_DOUBLE_EDGE | 0
 
 
 tutordata SPECIES_VIVILLON_MEADOW, \

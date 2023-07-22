@@ -1,0 +1,32 @@
+Introduction
+✓ Changed the title screen logo and background (a/0/4/6), and the cry (overlay_60).
+✓ Changed the background of the intro bits to Soul Silver's (a/1/2/0).
+✓ Changed the text on the initial intro screen to introduce Aurora Crystal.
+✓ Professor Oak's text is changed a bit to shorten it and also detach the character selection from the player's self.
+✓ The Running Shoes are now given in Script File 149 (which is run before the game starts), giving the player access to them instantly.
+✓ Flags 283, 284, 285 and 286 are set just below the running shoes, giving the player access to the Bag, Trainer Card, Save and Options buttons on the bottom screen.
+
+New Bark Town - Player's House
+✓ The mother's dialogue is changed a bit. She now gives you the Bicycle, GB Sounds and Pokégear (Flag 156). The Pokégear is also auto-fitted with the Map Card (UpgradePokegear 1) and Radio Card (UpgradePokegear 2).
+
+New Bark Town
+✓ The trigger for Elm giving you his Pokégear number as you leave town to the left has been changed to check that you've been given the starter (Flag 106) instead of checking for the Pokégear (Flag 156).
+✓ Changed the two Marill overworlds to Azurill.
+✓ The Lyra/Ethan text after leaving ELm's lab initially cuts out the bit about visiting Mom again (as it's no longer needed).
+✓ The Marill on the top floor of Lyra/Ethan's house has been moved out of bounds (as it evolves over the course of the game and it's too annoying to deal with). Lyra/Ethan's dialogue is also edited slightly so it doesn't explicitly mention Marill. Their father's dialogue also no longer says they're playing with their Pokémon.
+✓ Between when you first battle Silver and going to Mr. Pokémon's house, a policeman blocks Elm's Lab.
+
+Elm Pokémon Lab
+✓ The area is now called "Elm Pokémon Lab" instead of "New Bark Town" for Nuzlocke purposes.
+
+Route 29
+✓ The two Cut trees have been moved out of bounds.
+
+Cherrygrove City
+✓ Silver now challenges you immediately when you enter the city. His overworld's flag is set to 0 and moved out of bounds so it works. This battle sets the flags to remove him from New Bark and add the temporary policeman there.
+✓ The Guide Gent's initial tour is removed. A Fisherman now instead talks to you as you leave the city, giving you the Fishing Rod (a renamed Old Rod) which is the only rod used in the game.
+✓ The triggers for the above events (16499) have been shifted so Silver's battle is value: 0, the fishing event is value: 1, and it's set to value: 2 afterwards.
+
+Miscellaneous
+✓ Scripts for overworld usage of HMs has been adjusted.
+✓✓ Script #15 and Function #25 now simply check the starter has been given (Flag 106) and will instantly headbutt a tree if this passes.

@@ -1,0 +1,5 @@
+NPCs:
+2100* - Policeman in front of Elm's Lab after Silver battle but before returning.
+
+2600 - HG-e hidden ability flag.
+2601 - HG-e starter hidden ability flag.

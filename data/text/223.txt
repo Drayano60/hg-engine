@@ -443,7 +443,7 @@ a {COLOR 255}Red Chain{COLOR 0}
 a {COLOR 255}Town Map{COLOR 0}
 a {COLOR 255}Vs. Seeker{COLOR 0}
 a {COLOR 255}Coin Case{COLOR 0}
-an {COLOR 255}Old Rod{COLOR 0}
+a {COLOR 255}Fishing Rod{COLOR 0}
 a {COLOR 255}Good Rod{COLOR 0}
 a {COLOR 255}Super Rod{COLOR 0}
 a {COLOR 255}Sprayduck{COLOR 0}

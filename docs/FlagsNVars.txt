@@ -3,3 +3,8 @@ NPCs:
 
 2600 - HG-e hidden ability flag.
 2601 - HG-e starter hidden ability flag.
+
+Triggers:
+16499/0 - Now used for Cherrygrove Silver rival fight (previously for Guide Gent).
+16499/1 - Now used for Fisherman's Fishing Rod gift as you leave Cherrygrove (previously for Guide Gent map gift?)
+16499/2 - Now used for Eevee gift at Mr. Pokémon's House (previously used for Cherrygrove Silver rival fight).

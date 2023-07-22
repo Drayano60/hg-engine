@@ -27,6 +27,10 @@ Cherrygrove City
 ✓ The Guide Gent's initial tour is removed. A Fisherman now instead talks to you as you leave the city, giving you the Fishing Rod (a renamed Old Rod) which is the only rod used in the game.
 ✓ The triggers for the above events (16499) have been shifted so Silver's battle is value: 0, the fishing event is value: 1, and it's set to value: 2 afterwards.
 
+Route 30 - Mr. Pokémon's House
+✓ Before leaving, Mr. Pokémon now calls you over and gifts you an Eevee. This Eevee always has its hidden ability.
+✓ This map now has its own header name for Nuzlocke purposes. ("Mr. Pokémon's House")
+
 Miscellaneous
 ✓ Scripts for overworld usage of HMs has been adjusted.
 ✓✓ Script #15 and Function #25 now simply check the starter has been given (Flag 106) and will instantly headbutt a tree if this passes.

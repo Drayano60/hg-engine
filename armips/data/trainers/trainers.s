@@ -124,7 +124,7 @@ trainerdata 739, "Ethan"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_PKMN_TRAINER_0
     battletype 0
-    nummons 2
+    nummons 3
     item 0 
     item 0 
     item 0 
@@ -136,7 +136,7 @@ trainerdata 739, "Ethan"
 party 739
     ivs 0
     abilityslot 0
-    level 5
+    level 9
     pokemon SPECIES_AZURILL
     item 0
     move MOVE_BUBBLE
@@ -145,26 +145,43 @@ party 739
     move 0
     ability ABILITY_HUGE_POWER
     ball ITEM_POKE_BALL
-    setivs 15, 15, 15, 15, 15, 15
+    setivs 30, 30, 30, 30, 30, 30
     setevs 0, 0, 0, 0, 0, 0
-    nature NATURE_SERIOUS
+    nature NATURE_ADAMANT
     shinylock 0
     ballseal 0
 
     ivs 0
     abilityslot 0
-    level 5
+    level 9
+    pokemon SPECIES_MAREEP
+    item 0
+    move MOVE_THUNDER_SHOCK
+    move MOVE_TACKLE
+    move MOVE_GROWL
+    move MOVE_THUNDER_WAVE
+    ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_ILLUMINATE : ABILITY_STATIC
+    ball ITEM_POKE_BALL
+    setivs 30, 30, 30, 30, 30, 30
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_QUIET
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level 10
     pokemon SPECIES_CHIKORITA
     item 0
     move MOVE_TACKLE
     move MOVE_GROWL
     move MOVE_RAZOR_LEAF
-    move MOVE_SWEET_SCENT
+    move MOVE_LEECH_SEED
     ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_TRIAGE : ABILITY_OVERGROW
     ball ITEM_POKE_BALL
-    setivs 15, 15, 15, 15, 15, 15
+    setivs 30, 30, 30, 30, 30, 30
     setevs 0, 0, 0, 0, 0, 0
-    nature NATURE_SERIOUS
+    nature NATURE_MODEST
     shinylock 0
     ballseal 0
 endparty
@@ -173,7 +190,7 @@ trainerdata 740, "Ethan"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_PKMN_TRAINER_0
     battletype 0
-    nummons 2
+    nummons 3
     item 0 
     item 0 
     item 0 
@@ -185,7 +202,7 @@ trainerdata 740, "Ethan"
 party 740
     ivs 0
     abilityslot 0
-    level 5
+    level 9
     pokemon SPECIES_AZURILL
     item 0
     move MOVE_BUBBLE
@@ -194,26 +211,43 @@ party 740
     move 0
     ability ABILITY_HUGE_POWER
     ball ITEM_POKE_BALL
-    setivs 15, 15, 15, 15, 15, 15
+    setivs 30, 30, 30, 30, 30, 30
     setevs 0, 0, 0, 0, 0, 0
-    nature NATURE_SERIOUS
+    nature NATURE_ADAMANT
     shinylock 0
     ballseal 0
 
     ivs 0
     abilityslot 0
-    level 5
+    level 9
+    pokemon SPECIES_MAREEP
+    item 0
+    move MOVE_THUNDER_SHOCK
+    move MOVE_TACKLE
+    move MOVE_GROWL
+    move MOVE_THUNDER_WAVE
+    ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_ILLUMINATE : ABILITY_STATIC
+    ball ITEM_POKE_BALL
+    setivs 30, 30, 30, 30, 30, 30
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_QUIET
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level 10
     pokemon SPECIES_CYNDAQUIL
     item 0
     move MOVE_TACKLE
     move MOVE_LEER
     move MOVE_EMBER
-    move MOVE_SMOKESCREEN
+    move MOVE_MUD_SLAP
     ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_HEAT_UP : ABILITY_BLAZE
     ball ITEM_POKE_BALL
-    setivs 15, 15, 15, 15, 15, 15
+    setivs 30, 30, 30, 30, 30, 30
     setevs 0, 0, 0, 0, 0, 0
-    nature NATURE_SERIOUS
+    nature NATURE_TIMID
     shinylock 0
     ballseal 0
 endparty
@@ -222,7 +256,7 @@ trainerdata 741, "Ethan"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_PKMN_TRAINER_0
     battletype 0
-    nummons 2
+    nummons 3
     item 0 
     item 0 
     item 0 
@@ -234,7 +268,7 @@ trainerdata 741, "Ethan"
 party 741
     ivs 0
     abilityslot 0
-    level 5
+    level 9
     pokemon SPECIES_AZURILL
     item 0
     move MOVE_BUBBLE
@@ -243,26 +277,43 @@ party 741
     move 0
     ability ABILITY_HUGE_POWER
     ball ITEM_POKE_BALL
-    setivs 15, 15, 15, 15, 15, 15
+    setivs 30, 30, 30, 30, 30, 30
     setevs 0, 0, 0, 0, 0, 0
-    nature NATURE_SERIOUS
+    nature NATURE_ADAMANT
     shinylock 0
     ballseal 0
 
     ivs 0
     abilityslot 0
-    level 5
+    level 9
+    pokemon SPECIES_MAREEP
+    item 0
+    move MOVE_THUNDER_SHOCK
+    move MOVE_TACKLE
+    move MOVE_GROWL
+    move MOVE_THUNDER_WAVE
+    ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_ILLUMINATE : ABILITY_STATIC
+    ball ITEM_POKE_BALL
+    setivs 30, 30, 30, 30, 30, 30
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_QUIET
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level 10
     pokemon SPECIES_TOTODILE
     item 0
     move MOVE_SCRATCH
     move MOVE_LEER
+    move MOVE_BITE
     move MOVE_WATER_GUN
-    move MOVE_SCARY_FACE
     ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_SHEER_FORCE : ABILITY_TORRENT
     ball ITEM_POKE_BALL
-    setivs 15, 15, 15, 15, 15, 15
+    setivs 30, 30, 30, 30, 30, 30
     setevs 0, 0, 0, 0, 0, 0
-    nature NATURE_SERIOUS
+    nature NATURE_JOLLY
     shinylock 0
     ballseal 0
 endparty
@@ -271,7 +322,7 @@ trainerdata 742, "Lyra"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_PKMN_TRAINER_1
     battletype 0
-    nummons 2
+    nummons 3
     item 0 
     item 0 
     item 0 
@@ -283,7 +334,7 @@ trainerdata 742, "Lyra"
 party 742
     ivs 0
     abilityslot 0
-    level 5
+    level 9
     pokemon SPECIES_AZURILL
     item 0
     move MOVE_BUBBLE
@@ -292,26 +343,43 @@ party 742
     move 0
     ability ABILITY_HUGE_POWER
     ball ITEM_POKE_BALL
-    setivs 15, 15, 15, 15, 15, 15
+    setivs 30, 30, 30, 30, 30, 30
     setevs 0, 0, 0, 0, 0, 0
-    nature NATURE_SERIOUS
+    nature NATURE_ADAMANT
     shinylock 0
     ballseal 0
 
     ivs 0
     abilityslot 0
-    level 5
+    level 9
+    pokemon SPECIES_MAREEP
+    item 0
+    move MOVE_THUNDER_SHOCK
+    move MOVE_TACKLE
+    move MOVE_GROWL
+    move MOVE_THUNDER_WAVE
+    ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_ILLUMINATE : ABILITY_STATIC
+    ball ITEM_POKE_BALL
+    setivs 30, 30, 30, 30, 30, 30
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_QUIET
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level 10
     pokemon SPECIES_CHIKORITA
     item 0
     move MOVE_TACKLE
     move MOVE_GROWL
     move MOVE_RAZOR_LEAF
-    move MOVE_SWEET_SCENT
+    move MOVE_LEECH_SEED
     ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_TRIAGE : ABILITY_OVERGROW
     ball ITEM_POKE_BALL
-    setivs 15, 15, 15, 15, 15, 15
+    setivs 30, 30, 30, 30, 30, 30
     setevs 0, 0, 0, 0, 0, 0
-    nature NATURE_SERIOUS
+    nature NATURE_MODEST
     shinylock 0
     ballseal 0
 endparty
@@ -320,7 +388,7 @@ trainerdata 743, "Lyra"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_PKMN_TRAINER_1
     battletype 0
-    nummons 2
+    nummons 3
     item 0 
     item 0 
     item 0 
@@ -332,7 +400,7 @@ trainerdata 743, "Lyra"
 party 743
     ivs 0
     abilityslot 0
-    level 5
+    level 9
     pokemon SPECIES_AZURILL
     item 0
     move MOVE_BUBBLE
@@ -341,26 +409,43 @@ party 743
     move 0
     ability ABILITY_HUGE_POWER
     ball ITEM_POKE_BALL
-    setivs 15, 15, 15, 15, 15, 15
+    setivs 30, 30, 30, 30, 30, 30
     setevs 0, 0, 0, 0, 0, 0
-    nature NATURE_SERIOUS
+    nature NATURE_ADAMANT
     shinylock 0
     ballseal 0
 
     ivs 0
     abilityslot 0
-    level 5
+    level 9
+    pokemon SPECIES_MAREEP
+    item 0
+    move MOVE_THUNDER_SHOCK
+    move MOVE_TACKLE
+    move MOVE_GROWL
+    move MOVE_THUNDER_WAVE
+    ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_ILLUMINATE : ABILITY_STATIC
+    ball ITEM_POKE_BALL
+    setivs 30, 30, 30, 30, 30, 30
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_QUIET
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level 10
     pokemon SPECIES_CYNDAQUIL
     item 0
     move MOVE_TACKLE
     move MOVE_LEER
     move MOVE_EMBER
-    move MOVE_SMOKESCREEN
+    move MOVE_MUD_SLAP
     ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_HEAT_UP : ABILITY_BLAZE
     ball ITEM_POKE_BALL
-    setivs 15, 15, 15, 15, 15, 15
+    setivs 30, 30, 30, 30, 30, 30
     setevs 0, 0, 0, 0, 0, 0
-    nature NATURE_SERIOUS
+    nature NATURE_TIMID
     shinylock 0
     ballseal 0
 endparty
@@ -369,7 +454,7 @@ trainerdata 744, "Lyra"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_PKMN_TRAINER_1
     battletype 0
-    nummons 2
+    nummons 3
     item 0 
     item 0 
     item 0 
@@ -381,7 +466,7 @@ trainerdata 744, "Lyra"
 party 744
     ivs 0
     abilityslot 0
-    level 5
+    level 9
     pokemon SPECIES_AZURILL
     item 0
     move MOVE_BUBBLE
@@ -390,26 +475,43 @@ party 744
     move 0
     ability ABILITY_HUGE_POWER
     ball ITEM_POKE_BALL
-    setivs 15, 15, 15, 15, 15, 15
+    setivs 30, 30, 30, 30, 30, 30
     setevs 0, 0, 0, 0, 0, 0
-    nature NATURE_SERIOUS
+    nature NATURE_ADAMANT
     shinylock 0
     ballseal 0
 
     ivs 0
     abilityslot 0
-    level 5
+    level 9
+    pokemon SPECIES_MAREEP
+    item 0
+    move MOVE_THUNDER_SHOCK
+    move MOVE_TACKLE
+    move MOVE_GROWL
+    move MOVE_THUNDER_WAVE
+    ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_ILLUMINATE : ABILITY_STATIC
+    ball ITEM_POKE_BALL
+    setivs 30, 30, 30, 30, 30, 30
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_QUIET
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level 10
     pokemon SPECIES_TOTODILE
     item 0
     move MOVE_SCRATCH
     move MOVE_LEER
+    move MOVE_BITE
     move MOVE_WATER_GUN
-    move MOVE_SCARY_FACE
     ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_SHEER_FORCE : ABILITY_TORRENT
     ball ITEM_POKE_BALL
-    setivs 15, 15, 15, 15, 15, 15
+    setivs 30, 30, 30, 30, 30, 30
     setevs 0, 0, 0, 0, 0, 0
-    nature NATURE_SERIOUS
+    nature NATURE_JOLLY
     shinylock 0
     ballseal 0
 endparty
@@ -452,7 +554,7 @@ trainerdata 47, "Mikey"
     trainermontype TRAINER_DATA_TYPE_ADDITIONAL_FLAGS
     trainerclass CLASS_YOUNGSTER
     battletype SINGLE_BATTLE
-    nummons 1
+    nummons 2
     item 0
     item 0
     item 0
@@ -798,13 +900,13 @@ party 40
     ivs 0
     abilityslot 0
     level 9
-    pokemon SPECIES_MAREEP
+    pokemon SPECIES_SNUBBULL
     item 0
-    move MOVE_THUNDER_SHOCK
-    move MOVE_THUNDER_WAVE
     move MOVE_TACKLE
-    move MOVE_GROWL
-    ability ABILITY_STATIC
+    move MOVE_BITE
+    move MOVE_LICK
+    move MOVE_RAGE
+    ability ABILITY_INTIMIDATE
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
     setevs 0, 0, 0, 0, 0, 0

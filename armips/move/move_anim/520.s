@@ -9,8 +9,8 @@
 
 .create "build/move/move_anim/0_520", 0
 
-// Baby-Doll Eyes
-// First half of Covet animation (bouncing around and hearts) - no cute eyes asset
+// Inferno
+// Repeated Fire Spin with Fire Blast background
 
 a010_520:
     initspriteresource
@@ -23,22 +23,38 @@ a010_520:
     loadspritemaybe 6, 0, 2, 2
     loadspritemaybe 7, 0, 3, 3
     callfunction 78, 1, 0, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
-    loadparticle 0, 361
+
+    cmd43
+    cmd0C 7, 1
+    changebg 22, 0x800001
+    waitforchangebg
+
+    loadparticle 0, 114
     waitstate
     unloadspriteresource
     resetsprite 0
     resetsprite 1
     resetsprite 2
     resetsprite 3
-    addparticle 0, 0, 17
-    cmd37 6, 0, 2, 1, 0, 0, 0, "NaN", "NaN"
-    callfunction 27, 1, 0, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
-    repeatse 2025, -117, 2, 4
-    wait 20
-    repeatse 2025, -117, 2, 4
-    wait 10
+    loop 3
+    playsepan 2034, 117
+    addparticle 0, 0, 4
+    addparticle 0, 1, 4
+    callfunction 34, 6, 8, 0, 2, 31, 10, 10, "NaN", "NaN", "NaN", "NaN"
+    callfunction 36, 5, 1, 0, 1, 8, 264, "NaN", "NaN", "NaN", "NaN", "NaN"
+    wait 8
+    doloop
+    waitstate
     waitparticle
     unloadparticle 0
+    
+    wait 5
+
+    cmd0C 7, 1
+    resetbg 22, 0x1000001
+    waitforchangebg
+
     end
+    
 
 .close

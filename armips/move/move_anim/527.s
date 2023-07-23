@@ -9,8 +9,8 @@
 
 .create "build/move/move_anim/0_527", 0
 
-// Pollen Puff
-// Covet bouncing around + Barrage
+// Frost Breath
+// Powder Snow animation
 
 a010_527:
     initspriteresource
@@ -23,28 +23,34 @@ a010_527:
     loadspritemaybe 6, 0, 2, 2
     loadspritemaybe 7, 0, 3, 3
     callfunction 78, 1, 0, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
-    callfunction 27, 1, 0, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
-    repeatse 2025, -117, 2, 4
-    wait 20
-    loadparticle 0, 164
+    loadparticle 0, 201
     waitstate
     unloadspriteresource
     resetsprite 0
     resetsprite 1
     resetsprite 2
     resetsprite 3
-    addparticle2 0, 1, 0, 3
-    callfunction 66, 6, 1, 0, 0, 0, 15, 64, "NaN", "NaN", "NaN", "NaN"
-    playsepanmod 2026, -117, 117, 4, 2
-    addparticle 0, 1, 4
-    addparticle 0, 2, 4
-    wait 15
-    callfunction 68, 5, 0, 5, 1, 3, 0, "NaN", "NaN", "NaN", "NaN", "NaN"
-    callfunction 36, 5, 2, 0, 1, 2, 264, "NaN", "NaN", "NaN", "NaN", "NaN"
-    playsepan 1972, 117
+    callfunction 33, 5, 0, 1, 0, 12, 0, "NaN", "NaN", "NaN", "NaN", "NaN"
     waitstate
+    addparticle 0, 0, 17
+    cmd37 6, 0, 2, 6, 5, 0, 0, "NaN", "NaN"
+    wait 5
+    callfunction 34, 6, 8, 0, 1, 32767, 14, 0, "NaN", "NaN", "NaN", "NaN"
+    callfunction 34, 6, 16, 0, 1, 32767, 14, 0, "NaN", "NaN", "NaN", "NaN"
+    addparticle 0, 1, 20
+    callfunction 36, 5, 2, 0, 1, 10, 264, "NaN", "NaN", "NaN", "NaN", "NaN"
+    callfunction 36, 5, 2, 0, 1, 10, 272, "NaN", "NaN", "NaN", "NaN", "NaN"
+    repeatse 1852, 117, 3, 8
+    wait 50
+    callfunction 34, 6, 8, 0, 1, 32767, 14, 0, "NaN", "NaN", "NaN", "NaN"
+    callfunction 34, 6, 16, 0, 1, 32767, 14, 0, "NaN", "NaN", "NaN", "NaN"
+    callfunction 36, 5, 2, 0, 1, 10, 264, "NaN", "NaN", "NaN", "NaN", "NaN"
+    callfunction 36, 5, 2, 0, 1, 10, 272, "NaN", "NaN", "NaN", "NaN", "NaN"
+    repeatse 2052, 117, 6, 2
     waitparticle
     unloadparticle 0
+    callfunction 33, 5, 0, 1, 12, 0, 0, "NaN", "NaN", "NaN", "NaN", "NaN"
+    waitstate
     end
 
 .close

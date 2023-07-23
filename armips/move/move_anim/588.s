@@ -9,8 +9,8 @@
 
 .create "build/move/move_anim/0_588", 0
 
-// Night Daze
-// Dark Pulse but dark bg instead of monochrome
+// Moonblast
+// Flash Cannon with Moonlight background and a different sound effect
 
 a010_588:
     initspriteresource
@@ -23,43 +23,53 @@ a010_588:
     loadspritemaybe 6, 0, 2, 2
     loadspritemaybe 7, 0, 3, 3
     callfunction 78, 1, 0, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
-    loadparticle 0, 417
+    loadparticle 0, 448
     waitstate
     unloadspriteresource
     resetsprite 0
     resetsprite 1
     resetsprite 2
     resetsprite 3
-
-    callfunction 33, 5, 0, 1, 0, 12, 0, "NaN", "NaN", "NaN", "NaN", "NaN"
-
-    wait 1
-    initspriteresource
-    loadspriteresource 0
-    loadspriteresource 1
-    playsepanmod 2086, -117, 117, 4, 2
-    loadspritemaybe 0, 0, 0, 0
-    loadspritemaybe 2, 0, 1, 1
-    callfunction 75, 5, 0, 30, 3, 0, 0, "NaN", "NaN", "NaN", "NaN", "NaN"
-    callfunction 75, 5, 1, 30, 3, 0, 2, "NaN", "NaN", "NaN", "NaN", "NaN"
-    wait 1
+    
+    // Raise the moon
+    cmd0C 4, 0
+    cmd0C 0, 0
+    cmd0C 1, 1
+    changebg 54, 0x20001
+    waitforchangebg
+    
+    repeatse 1965, -117, 3, 10
+    addparticle 0, 5, 17
+    cmd37 6, 0, 1, 2, 0, 0, 0, "NaN", "NaN"
+    addparticle 0, 3, 17
+    cmd37 6, 0, 1, 2, 0, 0, 0, "NaN", "NaN"
+    addparticle 0, 2, 17
+    cmd37 6, 0, 1, 2, 0, 0, 0, "NaN", "NaN"
+    addparticle 0, 4, 17
+    cmd37 6, 0, 1, 2, 0, 0, 0, "NaN", "NaN"
+    addparticle 0, 6, 17
+    cmd37 6, 0, 1, 2, 0, 0, 0, "NaN", "NaN"
+    addparticle 0, 7, 17
+    cmd37 6, 0, 1, 2, 0, 0, 0, "NaN", "NaN"
+    wait 90
+    repeatse 1859, 117, 2, 2
     addparticle 0, 0, 3
-    addparticle 0, 1, 3
-    // callfunction 74, 1, 1, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
-    // enablemonsprite 0, 0x0
-    // enablemonsprite 1, 0x0
-    callfunction 36, 5, 1, 0, 1, 6, 264, "NaN", "NaN", "NaN", "NaN", "NaN"
-    callfunction 34, 6, 8, 0, 1, 8296, 14, 0, "NaN", "NaN", "NaN", "NaN"
-    waitstate
-    // callfunction 74, 1, 0, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
-
-    callfunction 33, 5, 0, 1, 12, 0, 0, "NaN", "NaN", "NaN", "NaN", "NaN"
-    waitstate
-    resetsprite 0
-    resetsprite 1
-    unloadspriteresource
+    callfunction 65, 6, 0, 0, 0, 0, 10, 64, "NaN", "NaN", "NaN", "NaN"
+    wait 10
+    playsepan 1847, 117
+    callfunction 36, 5, 2, 0, 1, 2, 264, "NaN", "NaN", "NaN", "NaN", "NaN"
+    addparticle 0, 1, 4
     waitparticle
     unloadparticle 0
+
+    // Set the moon
+    cmd0C 4, 0
+    cmd0C 0, 0
+    cmd0C 1, 1
+    cmd0C 4, 1
+    resetbg 54, 0x40001
+    waitforchangebg
+
     end
 
 .close

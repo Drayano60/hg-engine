@@ -9,7 +9,10 @@
 
 .create "build/move/battle_move_seq/0_803", 0
 
+// Meteor Beam
+
 a000_803:
+    preparemessage 1413, 0x2, 0x1, "NaN", "NaN", "NaN", "NaN", "NaN"
     jumptocurmoveeffectscript
 
 .close

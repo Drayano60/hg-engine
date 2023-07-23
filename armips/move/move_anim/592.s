@@ -9,7 +9,8 @@
 
 .create "build/move/move_anim/0_592", 0
 
-// Water Shuriken
+// Play Nice
+// Highly cut down Attract animation, both Pokemon just bounce around simultaneously with sound effect
 
 a010_592:
     initspriteresource
@@ -23,26 +24,20 @@ a010_592:
     loadspritemaybe 7, 0, 3, 3
     callfunction 78, 1, 0, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
 
-    loadparticle 0, 309
+    loadparticle 0, 231
     waitstate
     unloadspriteresource
-    repeatse 2060, 117, 3, 4
-    addparticle 0, 1, 17
-    cmd37 6, 0, 2, 5, 0, 0, 0, "NaN", "NaN"
-    cmd37 4, 1, 0, -3440, 0, "NaN", "NaN", "NaN", "NaN"
-    addparticle 0, 0, 17
-    cmd37 6, 0, 2, 5, 0, 0, 0, "NaN", "NaN"
-    cmd37 4, 1, 0, -3440, 0, "NaN", "NaN", "NaN", "NaN"
-    addparticle 0, 2, 17
-    cmd37 6, 0, 2, 5, 0, 0, 0, "NaN", "NaN"
-    cmd37 4, 1, 0, -3440, 0, "NaN", "NaN", "NaN", "NaN"
-    callfunction 36, 5, 2, 0, 1, 2, 264, "NaN", "NaN", "NaN", "NaN", "NaN"
-    wait 15
-    callfunction 40, 2, 2, 0, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
-
+    resetsprite 0
+    resetsprite 1
+    resetsprite 2
+    resetsprite 3
+    callfunction 25, 1, 1, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
+    callfunction 25, 0, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
+    repeatse 2025, 117, 8, 4
+    waitstate
     waitparticle
     unloadparticle 0
-    waitstate
+
     end
-    
+
 .close

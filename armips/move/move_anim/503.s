@@ -9,8 +9,8 @@
 
 .create "build/move/move_anim/0_503", 0
 
-// Tail Slap
-// Slam animation
+// Stored Power
+// Bit of Psycho Shift + Hidden Power
 
 a010_503:
     initspriteresource
@@ -23,25 +23,44 @@ a010_503:
     loadspritemaybe 6, 0, 2, 2
     loadspritemaybe 7, 0, 3, 3
     callfunction 78, 1, 0, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
-    loadparticle 0, 52
+
+    callfunction 33, 5, 0, 1, 0, 12, 0, "NaN", "NaN", "NaN", "NaN", "NaN"
+
+
+    loadparticle 0, 393
     waitstate
     unloadspriteresource
     resetsprite 0
     resetsprite 1
     resetsprite 2
     resetsprite 3
-    addparticle 0, 0, 4
-    addparticle 0, 1, 4
-    callfunction 57, 4, 2, 14, 4, 258, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
-    wait 1
-    callfunction 57, 4, 2, -14, -4, 264, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
+    playsepan 2076, -117
+    addparticle 0, 0, 17
+    cmd37 6, 0, 2, 1, 0, 0, 0, "NaN", "NaN"
+    addparticle 0, 2, 17
+    cmd37 6, 0, 2, 1, 0, 0, 0, "NaN", "NaN"
+
+    wait 40
+
+    loadparticle 0, 255
     waitstate
-    callfunction 57, 4, 2, -14, -4, 258, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
-    callfunction 57, 4, 4, 14, 4, 264, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
-    playsepan 1920, 117
+    unloadspriteresource
+    resetsprite 0
+    resetsprite 1
+    resetsprite 2
+    resetsprite 3
+    waitstate
+    addparticle 0, 2, 3
+    addparticle 0, 3, 3
+    addparticle 0, 4, 3
+    addparticle 0, 0, 3
+    playsepanmod 1990, -117, 117, 4, 2
+    wait 5
+    callfunction 36, 5, 2, 0, 1, 2, 264, "NaN", "NaN", "NaN", "NaN", "NaN"
     waitparticle
     unloadparticle 0
+    callfunction 33, 5, 0, 1, 12, 0, 0, "NaN", "NaN", "NaN", "NaN", "NaN"
+    waitstate
     end
-    
 
 .close

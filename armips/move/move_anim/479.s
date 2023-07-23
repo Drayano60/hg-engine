@@ -9,36 +9,25 @@
 
 .create "build/move/move_anim/0_479", 0
 
-// Coil
-// Wrap animation
+red equ 239 / 8
+green equ 49 / 8
+blue equ 57 / 8
 
 a010_479:
-    initspriteresource
-    loadspriteresource 0
-    loadspriteresource 1
-    loadspriteresource 2
-    loadspriteresource 3
-    loadspritemaybe 4, 0, 0, 0
-    loadspritemaybe 5, 0, 1, 1
-    loadspritemaybe 6, 0, 2, 2
-    loadspritemaybe 7, 0, 3, 3
-    callfunction 78, 1, 0, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
-    loadparticle 0, 66
-    waitstate
-    unloadspriteresource
-    resetsprite 0
-    resetsprite 1
-    resetsprite 2
-    resetsprite 3
-    loop 2
-    repeatse 1919, 117, 4, 2
-    addparticle 0, 0, 4
-    callfunction 60, 3, 2, 1, 12, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
-    callfunction 42, 8, 264, 100, 70, 100, 100, 100, 1, 327685, "NaN", "NaN"
-    waitstate
-    doloop
+    loadparticlefromspa 0, 493
     waitparticle
+
+    addparticle 0, 2, 3
+    addparticle 0, 1, 3
+    addparticle 0, 0, 3
+    repeatse 1960, -117, 4, 10
+    wait 64
+    callfunction 34, 6, 2, 0, 1, red | green << 5 | blue << 10, 10, 10, "NaN", "NaN", "NaN", "NaN"
+    wait 48
+
     unloadparticle 0
+    waitstate
     end
+    
 
 .close

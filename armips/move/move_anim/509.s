@@ -9,8 +9,8 @@
 
 .create "build/move/move_anim/0_509", 0
 
-// Petal Blizzard
-// Sweet Scent animation with Pokemon getting hit animation
+// Hex
+// Last part of Shadow Force animation (cloud) with Nightmare sound effect
 
 a010_509:
     initspriteresource
@@ -23,44 +23,19 @@ a010_509:
     loadspritemaybe 6, 0, 2, 2
     loadspritemaybe 7, 0, 3, 3
     callfunction 78, 1, 0, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
-    loadparticle 0, 248
+    loadparticle 0, 279
     waitstate
     unloadspriteresource
     resetsprite 0
     resetsprite 1
     resetsprite 2
     resetsprite 3
-    playsepan 2037, 0
-    addparticle 0, 1, 17
-    cmd37 6, 0, 2, 3, 0, 0, 0, "NaN", "NaN"
-    cmd37 4, 1, -2000, 8000, 0, "NaN", "NaN", "NaN", "NaN"
-    addparticle 0, 3, 0
-    addparticle 0, 4, 4
-    callfunction 34, 5, 8, 0, 2, 23199, 12, "NaN", "NaN", "NaN", "NaN", "NaN"
-    callfunction 34, 5, 16, 0, 2, 23199, 12, "NaN", "NaN", "NaN", "NaN", "NaN"
-
-    wait 20
-
-    loadparticle 1, 32
-    playsepan 1827, 117
-    addparticle 1, 1, 4
-    callfunction 51, 3, 1, 4, 264, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
-    wait 8
-    playsepan 1827, 117
-    addparticle 1, 1, 4
-    callfunction 51, 3, 1, -4, 264, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
-    wait 8
-    playsepan 1827, 117
-    addparticle 1, 1, 4
-    callfunction 51, 3, 1, -4, 264, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
-    wait 8
-    playsepan 1827, 117
-    addparticle 1, 1, 4
-    callfunction 51, 3, 1, 4, 264, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
-    wait 8
-
+    addparticle 0, 1, 4
+    repeatse 2009, 117, 2, 4
+    callfunction 36, 5, 2, 0, 1, 2, 264, "NaN", "NaN", "NaN", "NaN", "NaN"
     waitparticle
     unloadparticle 0
     end
     
+
 .close

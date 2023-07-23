@@ -9,8 +9,8 @@
 
 .create "build/move/move_anim/0_491", 0
 
-// Struggle Bug
-// Flail user movement + Spit Up attack hit
+// Flame Charge
+// Flare Blitz + Flame Wheel
 
 a010_491:
     initspriteresource
@@ -23,35 +23,34 @@ a010_491:
     loadspritemaybe 6, 0, 2, 2
     loadspritemaybe 7, 0, 3, 3
     callfunction 78, 1, 0, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
-
-    loadparticle 0, 195
+    loadparticle 0, 412
     waitstate
     unloadspriteresource
     resetsprite 0
     resetsprite 1
     resetsprite 2
     resetsprite 3
-    repeatse 1833, -117, 3, 6
-    callfunction 27, 1, 0, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
-    addparticle 0, 0, 3
+    addparticle 0, 0, 17
+    cmd37 6, 0, 1, 2, 0, 0, 0, "NaN", "NaN"
+    repeatse 1937, -117, 3, 6
+    wait 25
+    callfunction 57, 4, 2, 16, -8, 258, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
+    waitstate
+    callfunction 57, 4, 2, -16, 8, 258, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
     waitstate
     waitparticle
     unloadparticle 0
 
-    loadparticle 0, 273
-    waitstate
-    unloadspriteresource
-    resetsprite 0
-    resetsprite 1
-    resetsprite 2
-    resetsprite 3
+    loadparticle 0, 192
+    addparticle 0, 2, 4
     addparticle 0, 1, 4
-    wait 15
-    repeatse 1920, 117, 2, 3
-    callfunction 36, 5, 2, 0, 1, 4, 264, "NaN", "NaN", "NaN", "NaN", "NaN"
+    callfunction 34, 5, 8, 0, 1, 31, 12, "NaN", "NaN", "NaN", "NaN", "NaN"
+    callfunction 36, 5, 2, 0, 1, 2, 264, "NaN", "NaN", "NaN", "NaN", "NaN"
+    playsepan 2011, 117
+    waitstate
+    waitstate
     waitparticle
     unloadparticle 0
-
     end
     
 

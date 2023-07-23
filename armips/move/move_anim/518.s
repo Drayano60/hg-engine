@@ -9,8 +9,8 @@
 
 .create "build/move/move_anim/0_518", 0
 
-// Eerie Impulse
-// Thunder Wave with Screech sound effect
+// Final Gambit
+// Will-O-Wisp with a darkened background and Double-Edge collision sound
 
 a010_518:
     initspriteresource
@@ -23,31 +23,31 @@ a010_518:
     loadspritemaybe 6, 0, 2, 2
     loadspritemaybe 7, 0, 3, 3
     callfunction 78, 1, 0, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
-    loadparticle 0, 117
+    loadparticle 0, 279
     waitstate
     unloadspriteresource
     resetsprite 0
     resetsprite 1
     resetsprite 2
     resetsprite 3
+
     callfunction 33, 5, 0, 1, 0, 12, 0, "NaN", "NaN", "NaN", "NaN", "NaN"
-    waitstate
-    addparticle 0, 0, 4
+
+    wait 20
+
+    playsepanmod 1937, -117, 117, 4, 2
+    addparticle 0, 0, 17
+    cmd37 6, 0, 2, 6, 1, 16, 0, "NaN", "NaN"
+    cmd37 5, 3, 0, 0, 0, 0, "NaN", "NaN", "NaN"
+    wait 30
     addparticle 0, 1, 4
-    wait 5
-    playsepan 1824, -117
-    callfunction 34, 6, 8, 0, 1, 13311, 14, 0, "NaN", "NaN", "NaN", "NaN"
-    // addparticle 0, 2, 4
-    // callfunction 36, 5, 1, 0, 1, 2, 264, "NaN", "NaN", "NaN", "NaN", "NaN"
-    // waitse 1952, 117, 2
-    // wait 47
-    // callfunction 34, 6, 8, 0, 1, 13311, 14, 0, "NaN", "NaN", "NaN", "NaN"
-    // repeatse 1952, 117, 2, 2
+    playsepan 1847, 117
+    callfunction 36, 5, 2, 0, 1, 2, 264, "NaN", "NaN", "NaN", "NaN", "NaN"
     waitparticle
     unloadparticle 0
+
     callfunction 33, 5, 0, 1, 12, 0, 0, "NaN", "NaN", "NaN", "NaN", "NaN"
-    waitstate
+
     end
-    
 
 .close

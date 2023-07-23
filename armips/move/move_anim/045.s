@@ -29,9 +29,9 @@ a010_045:
     resetsprite 3
     addparticle 0, 1, 3
     addparticle 0, 0, 3
-    // playcry 9, -117, 100
-    // waitcry 0
-    // playcry 10, -117, 127
+    //playcry 9, -117, 100
+    //waitcry 0
+    //playcry 10, -117, 127
     playcry 7, -117, 100
     waitcry 0
     playcry 8, -117, 127

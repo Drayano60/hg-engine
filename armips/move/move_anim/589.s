@@ -9,8 +9,8 @@
 
 .create "build/move/move_anim/0_589", 0
 
-// Parting Shot
-// Chatter with dark bg + U-turn switch out anm
+// Boomburst
+// Hyper Voice played once with screen shaking and Double-Edge background
 
 a010_589:
     initspriteresource
@@ -23,74 +23,44 @@ a010_589:
     loadspritemaybe 6, 0, 2, 2
     loadspritemaybe 7, 0, 3, 3
     callfunction 78, 1, 0, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
-    loadparticle 0, 387
+    loadparticle 0, 322
     waitstate
     unloadspriteresource
     resetsprite 0
     resetsprite 1
     resetsprite 2
     resetsprite 3
-    checkturn _00C8, _0268
-    end
-_00C8:
-    initspriteresource
-    loadspriteresource 0
-    loadspriteresource 1
-    loadspriteresource 2
-    loadspriteresource 3
-    loadspritemaybe 4, 0, 0, 0
-    loadspritemaybe 5, 0, 1, 1
-    loadspritemaybe 6, 0, 2, 2
-    loadspritemaybe 7, 0, 3, 3
-    callfunction 78, 1, 0, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
-    loadparticle 0, 466
+    // playcry 4, -117, 100
+    // waitcry 0
+    // playcry 6, -117, 127
+	playcry 0, -117, 127
+    addparticle 0, 1, 17
+    cmd37 6, 0, 2, 22, 16, 0, 0, "NaN", "NaN"
+    addparticle 0, 0, 4
+
+    cmd43
+    cmd0C 7, 1
+    changebg 6, 0x1
+
+    callfunction 68, 5, 8, 8, 0, 10, 0, "NaN", "NaN", "NaN", "NaN", "NaN"
+
+    callfunction 33, 5, 0, 1, 0, 8, 13311, "NaN", "NaN", "NaN", "NaN", "NaN"
+    callfunction 36, 5, 0, 2, 1, 2, 264, "NaN", "NaN", "NaN", "NaN", "NaN"
+    callfunction 36, 5, 0, 2, 1, 2, 272, "NaN", "NaN", "NaN", "NaN", "NaN"
     waitstate
-    unloadspriteresource
-    resetsprite 0
-    resetsprite 1
-    resetsprite 2
-    resetsprite 3
-
-    callfunction 33, 5, 0, 1, 0, 12, 0, "NaN", "NaN", "NaN", "NaN", "NaN"
-
-    addparticle 0, 1, 3
-    addparticle 0, 0, 3
-    playcry 0, -117, 127
-    loop 2
-    callfunction 52, 3, 8, 8, 258, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
-    wait 8
-    callfunction 52, 3, 16, -16, 258, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
-    wait 16
-    callfunction 52, 3, 8, 8, 258, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
-    wait 8
-    doloop
+    callfunction 33, 5, 0, 1, 8, 0, 13311, "NaN", "NaN", "NaN", "NaN", "NaN"
+    waitstate
     waitcry 0
-    waitstate
-    waitparticle
-    unloadparticle 0
-
-    callfunction 33, 5, 0, 1, 12, 0, 0, "NaN", "NaN", "NaN", "NaN", "NaN"
-
-    end
-_0268:
-    addparticle 0, 0, 3
-    callfunction 40, 2, 2, 1, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
-    playsepan 1839, -117
     wait 10
-    playsepan 1823, -117
-    jumpifside 0, _02CC, _02EC
     waitparticle
     unloadparticle 0
+
+    cmd43
+    cmd0C 7, 1
+    resetbg 6, 0x1
+    waitforchangebg
+
     end
-_02CC:
-    addparticle 0, 6, 3
-    waitparticle
-    unloadparticle 0
-    end
-_02EC:
-    addparticle 0, 7, 3
-    waitparticle
-    unloadparticle 0
-    end
+    
 
 .close

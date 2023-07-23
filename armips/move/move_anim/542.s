@@ -9,8 +9,8 @@
 
 .create "build/move/move_anim/0_542", 0
 
-// Triple Axel
-// Triple Kick with Ice Punch frost effects
+// Night Daze
+// Dark Pulse but dark bg instead of monochrome
 
 a010_542:
     initspriteresource
@@ -23,31 +23,41 @@ a010_542:
     loadspritemaybe 6, 0, 2, 2
     loadspritemaybe 7, 0, 3, 3
     callfunction 78, 1, 0, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
-    loadparticle 0, 188
+    loadparticle 0, 417
     waitstate
     unloadspriteresource
     resetsprite 0
     resetsprite 1
     resetsprite 2
     resetsprite 3
-    repeatse 1907, 117, 2, 2
-    waitse 1827, 117, 4
-    addparticle 0, 0, 4
-    addparticle 0, 1, 4
-    callfunction 36, 5, 1, 0, 1, 2, 264, "NaN", "NaN", "NaN", "NaN", "NaN"
 
-    loadparticle 0, 39
-    wait 10
-    unloadspriteresource
+    callfunction 33, 5, 0, 1, 0, 12, 0, "NaN", "NaN", "NaN", "NaN", "NaN"
+
+    wait 1
+    initspriteresource
+    loadspriteresource 0
+    loadspriteresource 1
+    playsepanmod 2086, -117, 117, 4, 2
+    loadspritemaybe 0, 0, 0, 0
+    loadspritemaybe 2, 0, 1, 1
+    callfunction 75, 5, 0, 30, 3, 0, 0, "NaN", "NaN", "NaN", "NaN", "NaN"
+    callfunction 75, 5, 1, 30, 3, 0, 2, "NaN", "NaN", "NaN", "NaN", "NaN"
+    wait 1
+    addparticle 0, 0, 3
+    addparticle 0, 1, 3
+    // callfunction 74, 1, 1, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
+    // enablemonsprite 0, 0x0
+    // enablemonsprite 1, 0x0
+    callfunction 36, 5, 1, 0, 1, 6, 264, "NaN", "NaN", "NaN", "NaN", "NaN"
+    callfunction 34, 6, 8, 0, 1, 8296, 14, 0, "NaN", "NaN", "NaN", "NaN"
+    waitstate
+    // callfunction 74, 1, 0, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
+
+    callfunction 33, 5, 0, 1, 12, 0, 0, "NaN", "NaN", "NaN", "NaN", "NaN"
+    waitstate
     resetsprite 0
     resetsprite 1
-    resetsprite 2
-    resetsprite 3
-    addparticle 0, 0, 4
-    addparticle 0, 1, 4
-    waitse 2055, 117, 5
-
-    waitstate
+    unloadspriteresource
     waitparticle
     unloadparticle 0
     end

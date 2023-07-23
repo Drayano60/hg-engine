@@ -9,48 +9,39 @@
 
 .create "build/move/move_anim/0_476", 0
 
-// Quiver Dance
-// Refresh animation with some sprite movement adapted from Teeter Dance
+// Psyshock
+// Black background from Extrasensory + repeated hits from HG-Engine implementation
 
 a010_476:
     initspriteresource
     loadspriteresource 0
-    loadspriteresource 1
-    loadspriteresource 2
-    loadspriteresource 3
-    loadspritemaybe 4, 0, 0, 0
-    loadspritemaybe 5, 0, 1, 1
-    loadspritemaybe 6, 0, 2, 2
-    loadspritemaybe 7, 0, 3, 3
-    callfunction 78, 1, 0, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
-    loadparticle 0, 305
+    loadspritemaybe 1, 0, 0, 0
+    callfunction 33, 5, 0, 1, 0, 12, 0, "NaN", "NaN", "NaN", "NaN", "NaN"
+    waitstate
+    callfunction 36, 5, 1, 0, 1, 2, 264, "NaN", "NaN", "NaN", "NaN", "NaN"
+    callfunction 34, 6, 2, 0, 1, 13311, 10, 0, "NaN", "NaN", "NaN", "NaN"
+    wait 10
+    loadspriteresource 4
+    loadspritemaybe 3, 0, 4, 4
+    cmd52 3, 0, 4
+    repeatse 1903, 117, 4, 2
+    callfunction 11, 0, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
+    wait 20
+    cmd43
+    cmd0C 4, 1
     waitstate
     unloadspriteresource
     resetsprite 0
-    resetsprite 1
-    resetsprite 2
-    resetsprite 3
+    cmd53 0
+    resetsprite 4 
 
-    callfunction 33, 5, 0, 1, 0, 12, 0, "NaN", "NaN", "NaN", "NaN", "NaN"
-
-    playsepan 2041, -117
-    addparticle 0, 1, 3
-    addparticle 0, 0, 3
-
-    callfunction 52, 3, 16, 8, 258, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
-    waitstate
-    callfunction 52, 3, 16, -16, 258, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
-    waitstate
-    callfunction 52, 3, 16, 8, 258, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
-    waitstate
-
-    waitparticle
-    unloadparticle 0
+    wait 28
+    repeatse 2119, 0, 2, 9
+    callfunction 36, 5, 3, 0, 1, 10, 264, "NaN", "NaN", "NaN", "NaN", "NaN"
+    wait 72
 
     callfunction 33, 5, 0, 1, 12, 0, 0, "NaN", "NaN", "NaN", "NaN", "NaN"
-
     waitstate
     end
-    
 
 .close

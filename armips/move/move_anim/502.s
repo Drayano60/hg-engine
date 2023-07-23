@@ -9,8 +9,7 @@
 
 .create "build/move/move_anim/0_502", 0
 
-// Cotton Guard
-// Cotton Spore animation
+// Smog clone with grey/white background change
 
 a010_502:
     initspriteresource
@@ -23,18 +22,27 @@ a010_502:
     loadspritemaybe 6, 0, 2, 2
     loadspritemaybe 7, 0, 3, 3
     callfunction 78, 1, 0, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
-    loadparticle 0, 198
+    loadparticle 0, 148
     waitstate
     unloadspriteresource
     resetsprite 0
     resetsprite 1
     resetsprite 2
     resetsprite 3
+
+    callfunction 33, 5, 0, 1, 0, 12, 32631, "NaN", "NaN", "NaN", "NaN", "NaN"
+
     addparticle 0, 0, 4
-    callfunction 34, 6, 8, 0, 3, 32767, 10, 10, "NaN", "NaN", "NaN", "NaN"
-    repeatse 2021, 117, 3, 8
+    repeatse 1985, 117, 4, 3
+    wait 10
+    wait 10
+    callfunction 34, 6, 8, 0, 1, 0, 10, 0, "NaN", "NaN", "NaN", "NaN"
+    waitstate
     waitparticle
     unloadparticle 0
+
+    callfunction 33, 5, 0, 1, 12, 0, 32631, "NaN", "NaN", "NaN", "NaN", "NaN"
+
     end
 
 .close

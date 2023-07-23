@@ -9,8 +9,8 @@
 
 .create "build/move/move_anim/0_546", 0
 
-// Stone Axe
-// Iron Tail ending with Cut sound
+// Head Charge
+// Copy of Head Smash without the rock particles
 
 a010_546:
     initspriteresource
@@ -23,32 +23,31 @@ a010_546:
     loadspritemaybe 6, 0, 2, 2
     loadspritemaybe 7, 0, 3, 3
     callfunction 78, 1, 0, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
-    loadparticle 0, 249
+    loadparticle 0, 475
     waitstate
     unloadspriteresource
     resetsprite 0
     resetsprite 1
     resetsprite 2
     resetsprite 3
-    initspriteresource
-    loadspriteresource 0
-    loadspriteresource 1
-    loadspritemaybe 0, 0, 0, 0
-    loadspritemaybe 0, 0, 1, 0
-    loadspritemaybe 2, 0, 2, 1
-    resetsprite 0
-    resetsprite 1
-    resetsprite 2
-    unloadspriteresource
-    cmd55 6
-    playsepan 1913, 117
-    waitse 1920, 117, 6
-    addparticle 0, 3, 4
-    addparticle 0, 2, 4
-    addparticle 0, 0, 4
-    callfunction 36, 5, 1, 0, 1, 2, 264, "NaN", "NaN", "NaN", "NaN", "NaN"
+    cmd43
+    cmd0C 7, 1
+    changebg 40, 0x1
+    playsepan 1849, 117
+    callfunction 57, 4, 2, 14, -8, 258, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
+    waitstate
+    callfunction 68, 5, 4, 4, 0, 10, 0, "NaN", "NaN", "NaN", "NaN", "NaN"
+    playsepan 1874, 117
+    callfunction 36, 5, 2, 0, 1, 2, 264, "NaN", "NaN", "NaN", "NaN", "NaN"
+    callfunction 57, 4, 2, -14, 8, 258, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
+    callfunction 34, 6, 8, 0, 1, 31, 14, 0, "NaN", "NaN", "NaN", "NaN"
+    waitstate
     waitparticle
     unloadparticle 0
+    cmd43
+    cmd0C 7, 1
+    resetbg 40, 0x1
+    waitforchangebg
     end
 
 .close

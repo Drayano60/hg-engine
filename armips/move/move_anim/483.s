@@ -9,8 +9,8 @@
 
 .create "build/move/move_anim/0_483", 0
 
-// Echoed Voice
-// Hyper Voice animation with shorter delay
+// Storm Throw
+// Vital Throw animation
 
 a010_483:
     initspriteresource
@@ -23,31 +23,22 @@ a010_483:
     loadspritemaybe 6, 0, 2, 2
     loadspritemaybe 7, 0, 3, 3
     callfunction 78, 1, 0, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
-    loadparticle 0, 322
+    loadparticle 0, 251
     waitstate
     unloadspriteresource
     resetsprite 0
     resetsprite 1
     resetsprite 2
     resetsprite 3
-    loop 2
-    wait 2
-    // playcry 4, -117, 100
-    // waitcry 0
-    // playcry 6, -117, 127
-	playcry 0, -117, 127
-    addparticle 0, 1, 17
-    cmd37 6, 0, 2, 22, 16, 0, 0, "NaN", "NaN"
+    callfunction 30, 0, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
+    repeatse 2039, -117, 22, 3
+    wait 66
+    addparticle 0, 1, 4
     addparticle 0, 0, 4
-    callfunction 36, 5, 0, 2, 1, 2, 264, "NaN", "NaN", "NaN", "NaN", "NaN"
-    callfunction 36, 5, 0, 2, 1, 2, 272, "NaN", "NaN", "NaN", "NaN", "NaN"
-    waitstate
-    waitcry 0
-    doloop
-    wait 2
+    playsepan 1827, 117
     waitparticle
     unloadparticle 0
+    waitstate
     end
-    
 
 .close

@@ -30,6 +30,21 @@ Cherrygrove City
 Route 30 - Mr. Pokémon's House
 ✓ Before leaving, Mr. Pokémon now calls you over and gifts you an Eevee. This Eevee always has its hidden ability.
 ✓ This map now has its own header name for Nuzlocke purposes. ("Mr. Pokémon's House")
+✓ The Pokégear call you receive after leaving Mr. Pokémon's House has slightly edited dialogue, and gives you a prompt to teleport back to New Bark Town immediately (placing the player right outside Elm's Lab).
+
+Elm Pokémon Lab 2
+✓ Elm's dialogue is modified slightly to reflect Mr. Pokémon giving you an Eevee. Elm also gives you 30 x Poké Balls.
+✓ Elm's script also sets the variables/flags from the Route 29 tutorial, which stops that tutorial from happening and enables Poké Balls for purchase.
+
+Route 30
+✓ Changed Joey's before battle dialogue to explicitly mention the top percentage Rattata. Also moved Joey to be compulsory.
+✓ Added a new Lass Trainer using a Mickey (11).
+
+Route 31
+✓ The two Cut trees are moved out of bounds.
+✓ Added a compulsory Hiker using a Mickey (19) to the left of Dark Cave.
+✓ Added another Lass using a Mickey (40).
+✓ Ethan/Lyra now battle you when they encounter you in the gatehouse (this battle does not have to be won). Afterwards, they give you TM54, False Swipe (and a quick nod to headbutting/exotic sound encounters) before leaving.
 
 Miscellaneous
 ✓ Scripts for overworld usage of HMs has been adjusted.

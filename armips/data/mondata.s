@@ -5348,6 +5348,7 @@ mondata SPECIES_FORRETRESS, "Forretress"
     mondexweight SPECIES_FORRETRESS, "277.3 lbs."
 
 
+// ABILITY: Serene Grace (2)
 mondata SPECIES_DUNSPARCE, "Dunsparce"
     basestats 100, 70, 70, 45, 65, 65
     types TYPE_NORMAL, TYPE_NORMAL
@@ -5360,7 +5361,13 @@ mondata SPECIES_DUNSPARCE, "Dunsparce"
     basefriendship 70 // raised up again
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_SERENE_GRACE, ABILITY_RUN_AWAY
+    
+    .if ABILITY_CHANGES_IMPLEMENTED
+        abilities ABILITY_SERENE_GRACE, ABILITY_NONE
+    .else
+        abilities ABILITY_SERENE_GRACE, ABILITY_RUN_AWAY
+    .endif
+
     runchance 25
     colorflip BODY_COLOR_YELLOW, 0
     tmdata SPECIES_DUNSPARCE_TM_DATA_0, SPECIES_DUNSPARCE_TM_DATA_1, SPECIES_DUNSPARCE_TM_DATA_2, SPECIES_DUNSPARCE_TM_DATA_3
@@ -20830,6 +20837,7 @@ mondata SPECIES_FARIGIRAF, "Farigiraf"
     mondexweight SPECIES_FARIGIRAF, "352.7 lbs."
 
 
+// ABILITY: Serene Grace (2)
 mondata SPECIES_DUDUNSPARCE, "Dudnsparce"
     basestats 125, 100, 80, 55, 85, 75
     types TYPE_NORMAL, TYPE_NORMAL
@@ -20842,7 +20850,13 @@ mondata SPECIES_DUDUNSPARCE, "Dudnsparce"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_SERENE_GRACE, ABILITY_RUN_AWAY
+    
+    .if ABILITY_CHANGES_IMPLEMENTED
+        abilities ABILITY_SERENE_GRACE, ABILITY_NONE
+    .else
+        abilities ABILITY_SERENE_GRACE, ABILITY_RUN_AWAY
+    .endif
+    
     runchance 25
     colorflip BODY_COLOR_YELLOW, 0
     tmdata SPECIES_DUDUNSPARCE_TM_DATA_0, SPECIES_DUDUNSPARCE_TM_DATA_1, SPECIES_DUDUNSPARCE_TM_DATA_2, SPECIES_DUDUNSPARCE_TM_DATA_3

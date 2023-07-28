@@ -1491,14 +1491,23 @@ MOVE_DATA_CONTEST_TYPE equ 11
     .word ((address - org()) / 4) - 1
 .endmacro
 
+.macro settailwind,battler
+    .word 0xE4, battler
+.endmacro
+
+.macro iftailwindactive,battler,address
+    .word 0xE5, battler
+    .word ((address - org()) / 4) - 1
+.endmacro
+
 .macro echoedvoicedamagecalc
-    .word 0xE4
+    .word 0xE6
 .endmacro
 
 .macro storedpowerdamagecalc
-    .word 0xE5
+    .word 0xE7
 .endmacro
 
 .macro ragefistdamagecalc
-    .word 0xE6
+    .word 0xE8
 .endmacro

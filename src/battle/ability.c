@@ -367,7 +367,7 @@ int SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
 {   int i;
     int scriptnum = 0;
     int ret = SWITCH_IN_CHECK_LOOP;
-    int client_no;
+    int client_no = 0; // initialize
     int client_set_max;
 
     client_set_max = BattleWorkClientSetMaxGet(bw);
@@ -849,7 +849,7 @@ int SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
                     if ((sp->battlemon[client_no].slow_start_flag == 0)
                         && (sp->battlemon[client_no].hp)
                         && (GetBattlerAbility(sp, client_no) == ABILITY_SLOW_START)
-                        && (sp->total_turn <= sp->battlemon[client_no].moveeffect.slow_start_count))
+                        && (sp->total_turn <= sp->battlemon[client_no].moveeffect.slowStartTurns))
                     {
                         sp->battlemon[client_no].slow_start_flag = 1;
                         sp->client_work = client_no;
@@ -862,7 +862,7 @@ int SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
                     if ((sp->battlemon[client_no].slow_start_end_flag == 0)
                         && (sp->battlemon[client_no].hp)
                         && (GetBattlerAbility(sp, client_no) == ABILITY_SLOW_START)
-                        && ((sp->total_turn-sp->battlemon[client_no].moveeffect.slow_start_count) == 3))
+                        && ((sp->total_turn-sp->battlemon[client_no].moveeffect.slowStartTurns) == 3))
                     {
                         sp->battlemon[client_no].slow_start_end_flag = 1;
                         sp->client_work = client_no;
@@ -1104,12 +1104,12 @@ int SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
                 
                 // fuck it get rid of transform script command:
                 sp->battlemon[sp->attack_client].condition2 |= CONDITION2_TRANSFORM;
-                sp->battlemon[sp->attack_client].moveeffect.kanashibari_wazano = 0;
-                sp->battlemon[sp->attack_client].moveeffect.kanashibari_count = 0;
-                sp->battlemon[sp->attack_client].moveeffect.henshin_rnd = sp->battlemon[sp->defence_client].personal_rnd;
-                sp->battlemon[sp->attack_client].moveeffect.henshin_sex = sp->battlemon[sp->defence_client].sex;
-                sp->battlemon[sp->attack_client].moveeffect.monomane_bit = 0;
-                sp->battlemon[sp->attack_client].moveeffect.totteoki_count = 0;
+                sp->battlemon[sp->attack_client].moveeffect.disabledMove = 0;
+                sp->battlemon[sp->attack_client].moveeffect.disabledTurns = 0;
+                sp->battlemon[sp->attack_client].moveeffect.transformPid = sp->battlemon[sp->defence_client].personal_rnd;
+                sp->battlemon[sp->attack_client].moveeffect.transformGender = sp->battlemon[sp->defence_client].sex;
+                sp->battlemon[sp->attack_client].moveeffect.mimickedMoveIndex = 0;
+                sp->battlemon[sp->attack_client].moveeffect.lastResortCount = 0;
 
                 u8 *src, *dest;
                 src = (u8 *)&sp->battlemon[sp->attack_client];
@@ -1129,8 +1129,8 @@ int SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
                 sp->battlemon[sp->attack_client].frisk_flag = 0;
                 sp->battlemon[sp->attack_client].mold_breaker_flag = 0;
                 sp->battlemon[sp->attack_client].pressure_flag = 0;
-                sp->battlemon[sp->attack_client].moveeffect.namake_bit = sp->total_turn & 1;
-                sp->battlemon[sp->attack_client].moveeffect.slow_start_count = sp->total_turn + 1;
+                sp->battlemon[sp->attack_client].moveeffect.truantFlag = sp->total_turn & 1;
+                sp->battlemon[sp->attack_client].moveeffect.slowStartTurns = sp->total_turn + 1;
                 sp->battlemon[sp->attack_client].slow_start_flag = 0;
                 sp->battlemon[sp->attack_client].slow_start_end_flag = 0;
                 ClearBattleMonFlags(sp, sp->attack_client); // clear extra flags here too
@@ -1302,7 +1302,7 @@ u32 TurnEndAbilityCheck(void *bw, struct BattleStruct *sp, int client_no)
         case ABILITY_SPEED_BOOST:
             if ((sp->battlemon[client_no].hp)
                 && (sp->battlemon[client_no].states[STAT_SPEED] < 12)
-                && (sp->battlemon[client_no].moveeffect.fake_out_count != (sp->total_turn + 1)))
+                && (sp->battlemon[client_no].moveeffect.fakeOutCount != (sp->total_turn + 1)))
             {
                 sp->addeffect_param = ADD_STATE_SPEED_UP;
                 sp->addeffect_type = ADD_EFFECT_ABILITY;
@@ -1626,7 +1626,7 @@ BOOL MoveHitAttackerAbilityCheck(void *bw, struct BattleStruct *sp, int *seq_no)
                 u8 stat = BeastBoostGreatestStatHelper(sp, sp->attack_client);
 
                 if ((sp->battlemon[sp->attack_client].states[STAT_ATTACK + stat] < 12)
-                    && (sp->battlemon[sp->attack_client].moveeffect.fake_out_count != (sp->total_turn + 1)))
+                    && (sp->battlemon[sp->attack_client].moveeffect.fakeOutCount != (sp->total_turn + 1)))
                 {
                     sp->addeffect_param = ADD_STATE_ATTACK_UP + stat;
                     sp->addeffect_type = ADD_EFFECT_ABILITY;
@@ -2182,7 +2182,7 @@ BOOL MoveHitDefenderAbilityCheck(void *bw, struct BattleStruct *sp, int *seq_no)
         case ABILITY_CURSED_BODY:
             move_pos = ST_ServerWazaPosGet(&sp->battlemon[sp->attack_client], sp->current_move_index);
             if (sp->battlemon[sp->defence_client].hp != 0
-             && sp->battlemon[sp->attack_client].moveeffect.kanashibari_wazano == 0
+             && sp->battlemon[sp->attack_client].moveeffect.disabledMove == 0
              && move_pos != 4 // is a valid move the mon knows
              && sp->battlemon[sp->attack_client].pp[move_pos] != 0 // pp is nonzero
              && sp->current_move_index != 0 // a move has already been used
@@ -2191,8 +2191,8 @@ BOOL MoveHitDefenderAbilityCheck(void *bw, struct BattleStruct *sp, int *seq_no)
              && BattleRand(bw) % 10 < 3)
             {
                 sp->waza_work = sp->current_move_index;
-                sp->battlemon[sp->attack_client].moveeffect.kanashibari_wazano = sp->waza_work;
-                sp->battlemon[sp->attack_client].moveeffect.kanashibari_count = 4; // cursed body disables for 4 turns every time
+                sp->battlemon[sp->attack_client].moveeffect.disabledMove = sp->waza_work;
+                sp->battlemon[sp->attack_client].moveeffect.disabledTurns = 4; // cursed body disables for 4 turns every time
                 sp->addeffect_type = ADD_EFFECT_ABILITY;
                 seq_no[0] = SUB_SEQ_HANDLE_CURSED_BODY;
                 ret = TRUE;

@@ -7,6 +7,8 @@
 .include "armips/include/monnums.s"
 .include "armips/include/movenums.s"
 
+// set tailwind:  move counter to a different field
+
 .create "build/move/battle_sub_seq/1_160", 0
 
 /*
@@ -15,12 +17,14 @@
 */
 
 a001_160:
-    if IF_MASK, VAR_SIDE_EFFECT_PLAYER, 0x300, _Failed
+    //if IF_MASK, VAR_SIDE_EFFECT_PLAYER, 0x300, _Failed
+    iftailwindactive BATTLER_ATTACKER, _Failed
     gotosubscript 76
-    printmessage 0x4CE, 0x1, 0x1, "NaN", "NaN", "NaN", "NaN", "NaN"
+    printmessage 1230, TAG_NONE_DIR, BATTLER_ATTACKER, "NaN", "NaN", "NaN", "NaN", "NaN" // The tailwind blew from behind\nyour team!
     waitmessage
     wait 0x1E
-    changevar VAR_OP_SETMASK, VAR_SIDE_EFFECT_PLAYER, 0x300
+    //changevar VAR_OP_SETMASK, VAR_SIDE_EFFECT_PLAYER, 0x300
+    settailwind BATTLER_ATTACKER
 _WindRider:
     orderbattlersbyspeed 0x11
     ifmonstat IF_EQUAL, BATTLER_ADDL_EFFECT, MON_DATA_ABILITY, ABILITY_WIND_RIDER, _BoostAttack

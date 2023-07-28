@@ -168,18 +168,18 @@ u32 move_effect_to_subscripts[] =
     [154] = 320, // autotomize
     [155] = 331, // new growth subscript
     [156] = 335, // new noble roar subscript
-    [157] = 367, // new incinerate subscript
-    [158] = 368, // new work up subscript
-    [159] = 369, // new scale shot subscript
-    [160] = 339, // new aurora veil subscript
-    [161] = 340, // new steel beam subscript
-    [162] = 344, // new toxic thread subscript
-    [163] = 348, // new clear smog subscript
-    [164] = 351, // new final gambit subscript
-    [165] = 356, // new pollen puff subscript
-    [166] = 362, // new tail glow subscript
-    [167] = 363, // new cotton guard subscript
-    [168] = 364, // new parting shot subscript
+    [157] = 467, // new incinerate subscript
+    [158] = 468, // new work up subscript
+    [159] = 469, // new scale shot subscript
+    [160] = 439, // new aurora veil subscript
+    [161] = 440, // new steel beam subscript
+    [162] = 444, // new toxic thread subscript
+    [163] = 448, // new clear smog subscript
+    [164] = 451, // new final gambit subscript
+    [165] = 456, // new pollen puff subscript
+    [166] = 462, // new tail glow subscript
+    [167] = 463, // new cotton guard subscript
+    [168] = 464, // new parting shot subscript
 };
 
 

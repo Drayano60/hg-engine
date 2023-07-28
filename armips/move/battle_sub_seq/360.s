@@ -7,14 +7,9 @@
 .include "armips/include/monnums.s"
 .include "armips/include/movenums.s"
 
-.create "build/move/battle_sub_seq/1_360", 0
-
-// Air Balloon - not used now
+.create "build/move/battle_sub_seq/1_360", 0x0
 
 a001_360:
-    printmessage 1419, TAG_NICK_ITEM, 0xFF, 0x15, "NaN", "NaN", "NaN", "NaN"
-    waitmessage
-    wait 0x1E
     endscript
 
 .close

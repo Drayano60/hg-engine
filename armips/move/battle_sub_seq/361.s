@@ -7,15 +7,9 @@
 .include "armips/include/monnums.s"
 .include "armips/include/movenums.s"
 
-.create "build/move/battle_sub_seq/1_361", 0
-
-// Air Balloon burst - no longer used
+.create "build/move/battle_sub_seq/1_361", 0x0
 
 a001_361:
-    printmessage 1422, 0xF, 0xFF, 0xFF, "NaN", "NaN", "NaN", "NaN"
-    waitmessage
-    wait 0x1E
-    removeitem BATTLER_DEFENDER
     endscript
 
 .close

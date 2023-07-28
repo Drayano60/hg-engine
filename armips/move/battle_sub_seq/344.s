@@ -7,18 +7,9 @@
 .include "armips/include/monnums.s"
 .include "armips/include/movenums.s"
 
-.create "build/move/battle_sub_seq/1_344", 0
-
-// Toxic Thread subscript
+.create "build/move/battle_sub_seq/1_344", 0x0
 
 a001_344:
-    // Speed down
-    changevar VAR_OP_SET, VAR_ADD_EFFECT_ATTRIBUTE, SPEED_DOWN
-    gotosubscript 12
-
-    // Normal poison
-    gotosubscript 22
-    
     endscript
 
 .close

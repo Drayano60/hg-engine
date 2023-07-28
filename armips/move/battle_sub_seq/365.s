@@ -7,12 +7,9 @@
 .include "armips/include/monnums.s"
 .include "armips/include/movenums.s"
 
-.create "build/move/battle_sub_seq/1_365", 0
+.create "build/move/battle_sub_seq/1_365", 0x0
 
 a001_365:
-    checkwipeout BATTLER_DEFENDER, _End /* Don't do the stat change if the battle is about to end */
-    gotosubscript 12
-_End:
     endscript
 
 .close

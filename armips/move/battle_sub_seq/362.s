@@ -7,11 +7,9 @@
 .include "armips/include/monnums.s"
 .include "armips/include/movenums.s"
 
-.create "build/move/battle_sub_seq/1_362", 0
+.create "build/move/battle_sub_seq/1_362", 0x0
 
 a001_362:
-    changevar VAR_OP_SET, VAR_ADD_EFFECT_ATTRIBUTE, SPATK_UP_3
-    gotosubscript 12
     endscript
 
 .close

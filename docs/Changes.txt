@@ -44,7 +44,7 @@ Route 31
 ✓ The two Cut trees are moved out of bounds.
 ✓ Added a compulsory Hiker using a Mickey (19) to the left of Dark Cave.
 ✓ Added another Lass using a Mickey (40).
-✓ Ethan/Lyra now battle you when they encounter you in the gatehouse (this battle does not have to be won). Afterwards, they give you TM54, False Swipe (and a quick nod to headbutting/exotic sound encounters) before leaving.
+✓ Ethan/Lyra now battle you when they encounter you in the gatehouse (this battle does not have to be won). Afterwards, they give you TM54, False Swipe (and a quick nod to headbutting/exotic sound encounters) before leaving. The Marill is also an Azurill.
 
 Miscellaneous
 ✓ Scripts for overworld usage of HMs has been adjusted.

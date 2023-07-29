@@ -11,7 +11,7 @@
 
 a030_117:
     rolloutdamagecalc
-    gotosubscript 366
+    gotosubscript 466
     endscript
 
 .close

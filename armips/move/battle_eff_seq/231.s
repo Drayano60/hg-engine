@@ -18,7 +18,7 @@ a030_231:
     changevar2 VAR_OP_SET, VAR_ABILITY_TEMP, VAR_CALCULATION_WORK
     changevar VAR_OP_MUL, VAR_ABILITY_TEMP, 0x2
 _004C:
-    gotosubscript 343
+    gotosubscript 443
     endscript
 
 .close

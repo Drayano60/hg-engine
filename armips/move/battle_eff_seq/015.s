@@ -12,7 +12,7 @@
 // +1 Accuracy
 
 a030_015:
-    gotosubscript 341
+    gotosubscript 441
     changevar VAR_OP_SET, VAR_ADD_STATUS1, 0x40000014
     endscript
 

@@ -12,7 +12,7 @@
 // Spikes
 
 a030_112:
-    gotosubscript 341
+    gotosubscript 441
     if IF_MASK, VAR_MOVE_STATUS, 0x40, Failed // Required to skip over things set before natural failure happens
     tryspikes Failed
     preparemessage 0x1AB, 0x1, 0x13, "NaN", "NaN", "NaN", "NaN", "NaN"

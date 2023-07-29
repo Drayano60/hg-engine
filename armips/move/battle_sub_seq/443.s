@@ -14,7 +14,7 @@
 //
 // All battle_eff_seq files used for damaging moves (critcalc/damagecalc)
 // go to this subscript if Parental Bond is applicable, otherwise they go
-// directly to 366 where critcalc/damagecalc is handled as well as things like Pixilate.
+// directly to 466 where critcalc/damagecalc is handled as well as things like Pixilate.
 //
 // Hoping a more tidy solution for Parental Bond appears eventually!
 
@@ -36,7 +36,7 @@ QuarterDamage:
     changevar VAR_OP_DIV, VAR_DAMAGE_MULT, 100    
     goto ParentalBond2
 DamageCalcSubscript:
-    gotosubscript 366
+    gotosubscript 466
     endscript
 
 .close

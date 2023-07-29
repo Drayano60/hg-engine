@@ -14,7 +14,7 @@
 // Placed here because of AI scoring
 
 a030_051:
-    gotosubscript 341
+    gotosubscript 441
     if IF_EQUAL, VAR_CURRENT_MOVE, MOVE_COTTON_GUARD, CottonGuard
     changevar VAR_OP_SET, VAR_ADD_STATUS1, 0x40000028
     endscript

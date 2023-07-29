@@ -13,7 +13,7 @@
 
 a030_246:
     trylastresort _0014
-    gotosubscript 343
+    gotosubscript 443
     endscript
 _0014:
     changevar VAR_OP_SETMASK, VAR_MOVE_STATUS, 0x40

@@ -12,7 +12,7 @@
 // Swallow
 
 a030_162:
-    gotosubscript 341
+    gotosubscript 441
     if IF_MASK, VAR_MOVE_STATUS, 0x40, _failed // Required to skip over things set before natural failure happens
     ifmonstat IF_EQUAL, BATTLER_ATTACKER, MON_DATA_STOCKPILE_COUNT, 0x0, _013C
     changemondatabyvar VAR_OP_GET_RESULT, BATTLER_ATTACKER, 0x45, VAR_HP_TEMP

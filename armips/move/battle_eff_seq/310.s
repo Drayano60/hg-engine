@@ -14,7 +14,7 @@
 a030_310:
     setmultihit 0xA, 0xDD
     changevar VAR_OP_SET, VAR_SUCCESSIVE_HIT, 0x1
-    gotosubscript 343
+    gotosubscript 443
     endscript
 
 .close

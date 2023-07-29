@@ -11,7 +11,7 @@
 
 a030_135:
     hiddenpowerdamagecalc
-    gotosubscript 343
+    gotosubscript 443
     endscript
 
 .close

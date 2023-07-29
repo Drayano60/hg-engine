@@ -21,7 +21,7 @@ _Confusion:
     changevar VAR_OP_SET, VAR_ADD_STATUS2, 0x80000007
 _Rest:
     changevar VAR_OP_SETMASK, VAR_SERVER_STATUS1, 0x4
-    gotosubscript 343
+    gotosubscript 443
     endscript
 
 .close

@@ -12,7 +12,7 @@
 // Protect
 
 a030_111:
-    gotosubscript 341
+    gotosubscript 441
     changevar VAR_OP_SET, VAR_ADD_STATUS1, 0x50000052
     endscript
 

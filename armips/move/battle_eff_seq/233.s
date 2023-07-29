@@ -16,7 +16,7 @@ a030_233:
     ifmonstat IF_EQUAL, BATTLER_ATTACKER, MON_DATA_ITEM, 0x70, _008C
     tryfling _008C
     changevar VAR_OP_SET, VAR_ADD_STATUS2, 0xA0000088
-    gotosubscript 366
+    gotosubscript 466
     printattackmessage
     waitmessage
     wait 0x1E

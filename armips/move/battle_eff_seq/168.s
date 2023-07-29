@@ -12,7 +12,7 @@
 // Memento
 
 a030_168:
-    gotosubscript 341
+    gotosubscript 441
     if IF_MASK, VAR_MOVE_STATUS, 0x40, Failed // Required to skip over things set before natural failure happens
     changevar VAR_OP_SET, VAR_CALCULATION_WORK, 0x10000000
     changevar2 VAR_OP_LSH, VAR_CALCULATION_WORK, VAR_ATTACKER

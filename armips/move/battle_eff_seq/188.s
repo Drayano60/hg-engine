@@ -24,7 +24,7 @@ a030_188:
 DoubleDamage:
     changevar VAR_OP_SET, VAR_DAMAGE_MULT, 15     // x1.5 Damage
 End:
-    gotosubscript 343
+    gotosubscript 443
     endscript
 
 .close

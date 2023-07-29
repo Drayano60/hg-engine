@@ -26,7 +26,7 @@ _0064:
     if IF_EQUAL, VAR_DEFENDER, 0xFF, _00CC
 _00B4:
     changevar VAR_OP_SET, VAR_ADD_STATUS2, 0x80000005
-    gotosubscript 366
+    gotosubscript 466
 _00CC:
     changemondatabyvalue VAR_OP_CLEARMASK, BATTLER_ATTACKER, 0x3B, 0x200400C0
     gotosubscript 259

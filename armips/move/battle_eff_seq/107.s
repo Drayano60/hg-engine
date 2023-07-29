@@ -12,7 +12,7 @@
 // Nightmare
 
 a030_107:
-    gotosubscript 341
+    gotosubscript 441
     if IF_MASK, VAR_MOVE_STATUS, 0x40, Failed // Required to skip over things set before natural failure happens
     checksubstitute BATTLER_DEFENDER, Failed
     ifmonstat IF_MASK, BATTLER_DEFENDER, MON_DATA_STATUS_2, 0x8000000, Failed

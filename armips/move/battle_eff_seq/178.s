@@ -12,7 +12,7 @@
 // Role Play
 
 a030_178:
-    gotosubscript 341
+    gotosubscript 441
     if IF_MASK, VAR_MOVE_STATUS, 0x40, Failed // Required to skip over things set before natural failure happens
     abilitycheck 0x0, BATTLER_ATTACKER, ABILITY_MULTITYPE, Failed
     ifmonstat IF_EQUAL, BATTLER_ATTACKER, MON_DATA_ITEM, 0x70, Failed

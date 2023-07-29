@@ -20,7 +20,7 @@ a030_299:
 QuadrupleDamage:
     changevar VAR_OP_SET, VAR_DAMAGE_MULT, 40
 End:
-    gotosubscript 343
+    gotosubscript 443
     endscript
 
 .close

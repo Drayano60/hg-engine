@@ -22,7 +22,7 @@ DoubleDamage:
     changevar VAR_OP_SET, VAR_DAMAGE_MULT, 20
 End:
     changevar VAR_OP_SET, VAR_ADD_STATUS2, 0x80000002
-    gotosubscript 343
+    gotosubscript 443
     endscript
 
 .close

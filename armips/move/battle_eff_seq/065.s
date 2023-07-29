@@ -14,11 +14,11 @@
 
 a030_065:
     if IF_EQUAL, VAR_CURRENT_MOVE, MOVE_AURORA_VEIL, AuroraVeil
-    gotosubscript 341
+    gotosubscript 441
     changevar VAR_OP_SET, VAR_ADD_STATUS1, 0x20000044
     endscript
 AuroraVeil:
-    gotosubscript 341
+    gotosubscript 441
     changevar VAR_OP_SET, VAR_ADD_STATUS1, ADD_STATUS_AURORA_VEIL | ADD_STATUS_WORK
     endscript
 

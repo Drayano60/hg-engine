@@ -13,7 +13,7 @@
 
 // ALLOW_SAVE_CHANGES will allow save file field expansions for full feature implementation, but will break compatibility with PKHeX
 // commenting out this define will disable kyurem's forme change method and keep saves compatible with pkhex
-// #define ALLOW_SAVE_CHANGES
+#define ALLOW_SAVE_CHANGES
 
 // CRY_PSEUDOBANK_START defines the first pseudobank to be used as cries in the sdat.  cries are loaded differently to save on RAM space
 #define CRY_PSEUDOBANK_START 788 // Pushed ahead from 778

@@ -12,7 +12,7 @@
 // Stockpile
 
 a030_160:
-    gotosubscript 341
+    gotosubscript 441
     changevar VAR_OP_SET, VAR_ADD_STATUS1, 0x60000067
     endscript
 

@@ -13,7 +13,7 @@
 // For AI purposes, Noble Roar (and Soothing Aroma) are here instead
 
 a030_058:
-    gotosubscript 341
+    gotosubscript 441
     if IF_EQUAL, VAR_CURRENT_MOVE, MOVE_NOBLE_ROAR, AtkSpAtkDown
     if IF_EQUAL, VAR_CURRENT_MOVE, MOVE_SOOTHING_AROMA, AtkSpAtkDown
     if IF_EQUAL, VAR_CURRENT_MOVE, MOVE_TEARFUL_LOOK, AtkSpAtkDown

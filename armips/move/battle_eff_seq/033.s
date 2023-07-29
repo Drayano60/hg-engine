@@ -12,7 +12,7 @@
 // Toxic
 
 a030_033:
-    gotosubscript 341
+    gotosubscript 441
     ifmonstat IF_MASK, BATTLER_DEFENDER, MON_DATA_MOVE_STATE, 0x80, _isDigging
     ifmonstat IF_MASK, BATTLER_DEFENDER, MON_DATA_MOVE_STATE, 0x40, _isFlying
     changevar VAR_OP_SET, VAR_ADD_STATUS1, 0x80000006

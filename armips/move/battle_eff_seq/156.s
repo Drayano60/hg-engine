@@ -12,7 +12,7 @@
 // Defense Curl
 
 a030_156:
-    gotosubscript 341
+    gotosubscript 441
     if IF_MASK, VAR_MOVE_STATUS, 0x40, _failed // Required to skip over things set before natural failure happens
     changemondatabyvalue VAR_OP_SETMASK, BATTLER_ATTACKER, 0x35, 0x40000000
     changevar VAR_OP_SET, VAR_ADD_STATUS1, 0x40000010

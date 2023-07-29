@@ -13,7 +13,7 @@
 
 a030_318:
     checkonsameteam BATTLER_ATTACKER, BATTLER_DEFENDER, _Healing
-    gotosubscript 343
+    gotosubscript 443
     endscript
 _Healing:
     changevar VAR_OP_SET, VAR_ADD_STATUS1, 0x20000000 | 165

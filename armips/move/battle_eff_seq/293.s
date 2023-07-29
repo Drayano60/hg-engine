@@ -12,7 +12,7 @@
 // Effect ID is used for Psyshock in calculator functions
 
 a030_293:
-    gotosubscript 343
+    gotosubscript 443
     endscript
 
 .close

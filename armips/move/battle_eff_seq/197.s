@@ -12,7 +12,7 @@
 // Secret Power
 
 a030_197:
-    gotosubscript 343
+    gotosubscript 443
     dosecretpower
     endscript
 

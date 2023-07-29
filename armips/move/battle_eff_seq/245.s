@@ -13,7 +13,7 @@
 
 a030_245:
     punishmentdamagecalc
-    gotosubscript 343
+    gotosubscript 443
     endscript
 
 .close

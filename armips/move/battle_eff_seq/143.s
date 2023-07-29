@@ -12,7 +12,7 @@
 // Psych Up
 
 a030_143:
-    gotosubscript 341
+    gotosubscript 441
     if IF_MASK, VAR_MOVE_STATUS, 0x40, Failed // Required to skip over things set before natural failure happens
     psychup
     preparemessage 0x1C4, 0x9, 0x1, 0x2, "NaN", "NaN", "NaN", "NaN"

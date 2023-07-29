@@ -14,7 +14,7 @@
 
 a030_219:
     gyroballdamagecalc
-    gotosubscript 343
+    gotosubscript 443
     endscript
 
 .close

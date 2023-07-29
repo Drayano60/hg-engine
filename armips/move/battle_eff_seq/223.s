@@ -15,10 +15,10 @@
 a030_223:
     tryfeint _0024
     changevar VAR_OP_SET, VAR_ADD_STATUS2, 0x2000004F
-    gotosubscript 343
+    gotosubscript 443
     endscript
 _0024:
-    gotosubscript 343
+    gotosubscript 443
     endscript
 
 .close

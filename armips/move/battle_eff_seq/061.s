@@ -12,7 +12,7 @@
 // Sharply lower SpAtk
 
 a030_061:
-    gotosubscript 341
+    gotosubscript 441
     changevar VAR_OP_SET, VAR_ADD_STATUS1, 0x80000031
     endscript
 

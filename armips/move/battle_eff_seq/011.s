@@ -12,7 +12,7 @@
 // Defense +1 effect
 
 a030_011:
-    gotosubscript 341
+    gotosubscript 441
     changevar VAR_OP_SET, VAR_ADD_STATUS1, 0x40000010
     endscript
 

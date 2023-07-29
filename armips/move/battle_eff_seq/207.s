@@ -14,7 +14,7 @@
 
 a030_207:
     changevar VAR_OP_SETMASK, VAR_SERVER_STATUS1, 0x4
-    gotosubscript 343
+    gotosubscript 443
     endscript
 
 .close

@@ -87,7 +87,7 @@ _setDragon:
 _setDark:
     changevar VAR_OP_SET, VAR_MOVE_TYPE, TYPE_DARK
 _return:
-    gotosubscript 343
+    gotosubscript 443
     endscript
 
 .close

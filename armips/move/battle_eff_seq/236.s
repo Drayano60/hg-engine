@@ -12,7 +12,7 @@
 // Heal Block
 
 a030_236:
-    gotosubscript 341
+    gotosubscript 441
     changevar VAR_OP_SET, VAR_ADD_STATUS1, 0xA0000084
     endscript
 

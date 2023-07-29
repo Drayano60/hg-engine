@@ -13,7 +13,7 @@
 
 a030_320:
     storedpowerdamagecalc
-    gotosubscript 343
+    gotosubscript 443
     endscript
 
 .close

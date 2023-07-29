@@ -12,7 +12,7 @@
 // Gravity
 
 a030_215:
-    gotosubscript 341
+    gotosubscript 441
     if IF_MASK, VAR_MOVE_STATUS, 0x40, Failed // Required to skip over things set before natural failure happens
     if IF_MASK, VAR_FIELD_EFFECT, 0x7000, Failed
     changevar VAR_OP_SET, VAR_ADD_STATUS2, 0x20000076

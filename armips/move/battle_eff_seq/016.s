@@ -12,7 +12,7 @@
 // +1 Evasion
 
 a030_016:
-    gotosubscript 341
+    gotosubscript 441
     changevar VAR_OP_SET, VAR_ADD_STATUS1, 0x40000015
     endscript
 

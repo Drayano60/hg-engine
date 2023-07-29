@@ -12,7 +12,7 @@
 // Disable
 
 a030_086:
-    gotosubscript 341
+    gotosubscript 441
     changevar VAR_OP_SETMASK, VAR_ADD_STATUS1, 0xA0000049
     endscript
 

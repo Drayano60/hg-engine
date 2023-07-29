@@ -12,7 +12,7 @@
 // Stealth Rock
 
 a030_266:
-    gotosubscript 341
+    gotosubscript 441
     if IF_MASK, VAR_MOVE_STATUS, 0x40, Failed // Required to skip over things set before natural failure happens
     if IF_MASK, VAR_SIDE_EFFECT_OPPONENT, 0x80, Failed
     changevar VAR_OP_SETMASK, VAR_SIDE_EFFECT_OPPONENT, 0x80

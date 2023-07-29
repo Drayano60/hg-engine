@@ -12,7 +12,7 @@
 // Haze
 
 a030_025:
-    gotosubscript 341
+    gotosubscript 441
     changevar VAR_OP_SET, VAR_ADD_STATUS2, 0x2000003E
     endscript
 

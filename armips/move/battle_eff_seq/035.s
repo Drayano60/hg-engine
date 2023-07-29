@@ -12,7 +12,7 @@
 // Light Screen
 
 a030_035:
-    gotosubscript 341
+    gotosubscript 441
     changevar VAR_OP_SET, VAR_ADD_STATUS1, 0x20000043
     endscript
 

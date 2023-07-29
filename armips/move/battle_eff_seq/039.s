@@ -24,7 +24,7 @@ _0064:
 _0080:
     // changevar VAR_OP_ADD, VAR_CRIT_CHANCE, 0x1
     changevar VAR_OP_SET, VAR_CRIT_CHANCE, 15 // Guaranteed crit with custom code
-    gotosubscript 343
+    gotosubscript 443
 _0098:
     gotosubscript 259
     endscript

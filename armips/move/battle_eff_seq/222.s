@@ -13,7 +13,7 @@
 
 a030_222:
     trynaturalgift _001C
-    gotosubscript 343
+    gotosubscript 443
     removeitem BATTLER_ATTACKER
     endscript
 _001C:

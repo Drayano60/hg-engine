@@ -13,7 +13,7 @@
 // Poison + -1 Speed
 
 a030_311:
-    gotosubscript 341
+    gotosubscript 441
     changevar VAR_OP_SET, VAR_ADD_STATUS1, 0x800000A2
     endscript
 

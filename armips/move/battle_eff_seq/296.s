@@ -12,7 +12,7 @@
 // Effect ID is used for Body Press in calculator functions
 
 a030_296:
-    gotosubscript 343
+    gotosubscript 443
     endscript
 
 .close

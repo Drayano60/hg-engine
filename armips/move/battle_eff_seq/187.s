@@ -12,7 +12,7 @@
 // Yawn
 
 a030_187:
-    gotosubscript 341
+    gotosubscript 441
     changevar VAR_OP_SET, VAR_ADD_STATUS1, 0x90000071
     endscript
 

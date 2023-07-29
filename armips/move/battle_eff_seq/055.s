@@ -12,7 +12,7 @@
 // Sharply raise accuracy
 
 a030_055:
-    gotosubscript 341
+    gotosubscript 441
     changevar VAR_OP_SET, VAR_ADD_STATUS1, 0x4000002C
     endscript
 

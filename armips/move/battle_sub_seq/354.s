@@ -7,17 +7,9 @@
 .include "armips/include/monnums.s"
 .include "armips/include/movenums.s"
 
-.create "build/move/battle_sub_seq/1_354", 0
-
-// Queenly Majesty
+.create "build/move/battle_sub_seq/1_354", 0x0
 
 a001_354:
-    printattackmessage
-    waitmessage
-    wait 0xF
-    printmessage 1407, 0x22, 0x1, 0xFF, 0x1, "NaN", "NaN", "NaN"
-    waitmessage
-    wait 0x1E
     endscript
 
 .close

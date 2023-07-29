@@ -7,18 +7,9 @@
 .include "armips/include/monnums.s"
 .include "armips/include/movenums.s"
 
-.create "build/move/battle_sub_seq/1_358", 0
-
-// Used for Throat Spray
+.create "build/move/battle_sub_seq/1_358", 0x0
 
 a001_358:
-    checkwipeout BATTLER_DEFENDER, _End /* Don't use the item if the battle is about to end */
-    setstatus2effect BATTLER_ATTACKER, 0xA
-    waitmessage
-    changevar VAR_OP_SET, VAR_ADD_EFFECT_ATTRIBUTE, SPATK_UP
-    gotosubscript 12
-    removeitem BATTLER_ATTACKER
-_End:
     endscript
 
 .close

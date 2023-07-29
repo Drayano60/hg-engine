@@ -168,3 +168,18 @@ arm9 0208FEEA 64 28 05 D2 20 1C 8A F7 0C FE
 
 # expand move relearner dedicated heap
 0068 08000002 12
+
+# make the poison check always fail to disable poison in the overworld
+#ifdef UPDATE_OVERWORLD_POISON
+arm9 02054474 00
+#else
+arm9 02054474 88
+#endif
+
+# fix encore to 3 turns
+0012 02240C66 03 20
+# fix disable to 4 turns
+0012 0224099A 04 20
+# cap total fury cutter damage increases to 3 total turns
+# SBA_RESET_FURY_CUTTER handles resetting outside of using fury cutter
+0012 02241F2E 03

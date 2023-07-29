@@ -18005,8 +18005,7 @@ mondata SPECIES_FLETCHLING, "Fletchling"
     mondexweight SPECIES_FLETCHLING, "3.7 lbs."
 
 
-// Name changed due to 10 char limit
-mondata SPECIES_FLETCHINDER, "Flechinder"
+mondata SPECIES_FLETCHINDER, "Fletchindr"
     basestats 62, 73, 55, 84, 56, 52
     types TYPE_FIRE, TYPE_FLYING
     catchrate 120
@@ -19803,7 +19802,7 @@ mondata SPECIES_CRABRAWLER, "Crabrawler"
     mondexweight SPECIES_CRABRAWLER, "15.4 lbs."
 
 
-mondata SPECIES_CRABOMINABLE, "Crabominable"
+mondata SPECIES_CRABOMINABLE, "Crabomnabl"
     basestats 97, 132, 77, 43, 62, 67
     types TYPE_FIGHTING, TYPE_ICE
     catchrate 60
@@ -21262,7 +21261,7 @@ mondata SPECIES_STAKATAKA, "Stakataka"
     mondexweight SPECIES_STAKATAKA, "1807.8 lbs."
 
 
-mondata SPECIES_BLACEPHALON, "Blacephalon"
+mondata SPECIES_BLACEPHALON, "Blacefalon"
     basestats 53, 127, 53, 107, 151, 79
     types TYPE_FIRE, TYPE_GHOST
     catchrate 30
@@ -21636,7 +21635,7 @@ mondata SPECIES_CORVISQUIRE, "Corvisquire"
     mondexweight SPECIES_CORVISQUIRE, "35.3 lbs."
 
 
-mondata SPECIES_CORVIKNIGHT, "Corviknight"
+mondata SPECIES_CORVIKNIGHT, "Corviknite"
     basestats 98, 87, 105, 67, 53, 85
     types TYPE_FLYING, TYPE_STEEL
     catchrate 45
@@ -22164,7 +22163,7 @@ mondata SPECIES_ARROKUDA, "Arrokuda"
     mondexweight SPECIES_ARROKUDA, "2.2 lbs."
 
 
-mondata SPECIES_BARRASKEWDA, "Barraskewda"
+mondata SPECIES_BARRASKEWDA, "Baraskewda"
     basestats 61, 123, 60, 136, 60, 50
     types TYPE_WATER, TYPE_WATER
     catchrate 60
@@ -22252,7 +22251,7 @@ mondata SPECIES_SIZZLIPEDE, "Sizzlipede"
     mondexweight SPECIES_SIZZLIPEDE, "2.2 lbs."
 
 
-mondata SPECIES_CENTISKORCH, "Centiskorch"
+mondata SPECIES_CENTISKORCH, "Centskorch"
     basestats 100, 115, 65, 65, 90, 90
     types TYPE_FIRE, TYPE_BUG
     catchrate 75
@@ -22340,7 +22339,7 @@ mondata SPECIES_SINISTEA, "Sinistea"
     mondexweight SPECIES_SINISTEA, "0.4 lbs."
 
 
-mondata SPECIES_POLTEAGEIST, "Polteageist"
+mondata SPECIES_POLTEAGEIST, "Poltegeist"
     basestats 60, 65, 65, 70, 134, 114
     types TYPE_GHOST, TYPE_GHOST
     catchrate 60
@@ -22758,7 +22757,7 @@ mondata SPECIES_FROSMOTH, "Frosmoth"
     mondexweight SPECIES_FROSMOTH, "92.6 lbs."
 
 
-mondata SPECIES_STONJOURNER, "Stonjourner"
+mondata SPECIES_STONJOURNER, "Stonjorner"
     basestats 100, 125, 135, 70, 20, 20
     types TYPE_ROCK, TYPE_ROCK
     catchrate 60

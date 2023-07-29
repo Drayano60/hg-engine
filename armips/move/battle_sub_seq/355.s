@@ -7,17 +7,9 @@
 .include "armips/include/monnums.s"
 .include "armips/include/movenums.s"
 
-.create "build/move/battle_sub_seq/1_355", 0
+.create "build/move/battle_sub_seq/1_355", 0x0
 
 a001_355:
-    printmessage 1410, 0x17, 0x15, 0xFF, "NaN", "NaN", "NaN", "NaN"
-    waitmessage
-    wait 0x1E
-
-    /* Raise evasion */
-    changevar VAR_OP_SET, VAR_ADD_EFFECT_ATTRIBUTE, EVASION_DOWN
-    gotosubscript 12
-
     endscript
 
 .close

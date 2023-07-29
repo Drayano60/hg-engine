@@ -7,22 +7,29 @@
 .include "armips/include/monnums.s"
 .include "armips/include/movenums.s"
 
-.create "build/move/battle_sub_seq/1_340", 0
+// subscript for handling the eject button and red card
 
-// Sub seq that makes attacking Pokemon lose half of max HP
-// used for Steel Beam
-// adapted from Ghost-type Curse effect
+.create "build/move/battle_sub_seq/1_340", 0x0
 
 a001_340:
-    abilitycheck 0x0, BATTLER_ATTACKER, ABILITY_MAGIC_GUARD, End
-    changemondatabyvar VAR_OP_GET_RESULT, BATTLER_ATTACKER, 0x30, VAR_HP_TEMP
-    changevar VAR_OP_MUL, VAR_HP_TEMP, 0xFFFFFFFF
-    damagediv VAR_HP_TEMP, 2
-    changevar VAR_OP_SETMASK, VAR_SERVER_STATUS1, 0x40
-    changevar2 VAR_OP_SET, VAR_BATTLER_SOMETHING, VAR_ATTACKER
-    gotosubscript 2
-    wait 0x1E
-End:
+    ifmonstat IF_EQUAL, BATTLER_WORK, MON_DATA_HP, 0x0, _0028
+    setstatus2effect BATTLER_WORK, 0xA // play the mon ate animation
+    waitmessage
+
+    ifmonstat IF_EQUAL, BATTLER_WORK, MON_DATA_ITEM, ITEM_RED_CARD, _redCard
+
+    removeitem BATTLER_WORK // remove eject button/red card
+
+_ejectButton: // eject button you choose who replaces the pokémon
+    changevar VAR_OP_SETMASK, VAR_SERVER_STATUS1, 0x00080000 // use 0x00080000 to skip ability checks and such for u-turn subscript.  it technically is used for hitting shadow force but we repurpose it here
+    gotosubscript 175
+    changevar VAR_OP_CLEARMASK, VAR_SERVER_STATUS1, 0x00080000
+    goto _0028
+
+_redCard:
+    gotosubscript 91 // roar subscript randomly switches an ally in
+
+_0028:
     endscript
 
 .close

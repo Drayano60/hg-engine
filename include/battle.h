@@ -2,8 +2,9 @@
 #define BATTLE_H
 
 #include "types.h"
-#include "sprite.h"
 #include "item.h"
+#include "sprite.h"
+#include "task.h"
 
 #define MAX_MOVE_NUM 742 //old 467
 #define CLIENT_MAX 4
@@ -234,6 +235,8 @@
 // side status flags
 #define SIDE_STATUS_REFLECT (0x1)
 #define SIDE_STATUS_LIGHT_SCREEN (0x2)
+#define SIDE_STATUS_SAFEGUARD (0x8)
+#define SIDE_STATUS_MIST (0x40)
 #define SIDE_STATUS_TAILWIND (0x300)
 #define SIDE_STATUS_LUCKY_CHANT (0x7000)
 
@@ -266,6 +269,8 @@
 #define FIELD_STATUS_GRAVITY            (0x00007000)
 #define FIELD_STATUS_FOG                (0x00008000)
 #define FIELD_STATUS_TRICK_ROOM         (0x00070000)
+
+#define WEATHER_ANY_ICONS (WEATHER_RAIN_ANY | WEATHER_SANDSTORM_ANY | WEATHER_SUNNY_ANY | WEATHER_HAIL_ANY | FIELD_STATUS_FOG)
 
 // opponent positions
 #define BATTLER_POSITION_SIDE_RIGHT (0)
@@ -514,51 +519,51 @@ struct __attribute__((packed)) MoveOutCheck
 // so much of this structure sems to be matched in effect_of_moves
 struct __attribute__((packed)) battle_moveflag
 {
-    /* 0x00 */ u32 kanashibari_count : 3;
-               u32 encore_count : 3;
-               u32 juuden_count : 2;
-               u32 chouhatsu_count : 3;
-               u32 success_count : 2;
-               u32 horobinouta_count : 2;
-               u32 korogaru_count : 3;
-               u32 renzokugiri_count : 3;
-               u32 takuwaeru_count : 3;
-               u32 takuwaeru_def_count : 3;
-               u32 takuwaeru_spedef_count : 3;
-               u32 namake_bit : 1;
-               u32 moraibi_flag : 1;
+    /* 0x00 */ u32 disabledTurns : 3;
+               u32 encoredTurns : 3;
+               u32 isCharged : 2;
+               u32 tauntTurns : 3;
+               u32 protectSuccessTurns : 2;
+               u32 perishSongTurns : 2;
+               u32 rolloutCount : 3;
+               u32 furyCutterCount : 3;
+               u32 stockpileCount : 3;
+               u32 stockpileDefCount : 3;
+               u32 stockpileSpDefCount : 3;
+               u32 truantFlag : 1;
+               u32 flashFire : 1;
 
-    /* 0x04 */ u32 lockon_client_no : 2;
-               u32 monomane_bit : 4;
-               u32 shime_client_no : 2;
-               u32 manazashi_client_no : 2;
-               u32 totteoki_count : 3;
-               u32 magnet_rise_count : 3;
-               u32 healblock_count : 3;
-               u32 embargo_count : 3;
-               u32 unburden_flag : 1;
-               u32 metronome_work : 4;
-               u32 boost_accuracy_once : 1;
-               u32 raise_speed_once : 1;
-               u32 quick_claw_flag : 1;
-               u32 sakidori_flag : 1;
+    /* 0x04 */ u32 battlerIdLockOn : 2;
+               u32 mimickedMoveIndex : 4;
+               u32 battlerIdBinding : 2;
+               u32 battlerIdMeanLook : 2;
+               u32 lastResortCount : 3;
+               u32 magnetRiseTurns : 3;
+               u32 healBlockTurns : 3;
+               u32 embargoFlag : 3;
+               u32 knockOffFlag : 1; // used for unburden
+               u32 metronomeTurns : 4;
+               u32 boostedAccuracy : 1;
+               u32 custapBerryFlag : 1;
+               u32 quickClawFlag : 1;
+               u32 meFirstFlag : 1;
                u32 : 1;
 
-    /* 0x08 */ int handou_count;
-    /* 0x0c */ int fake_out_count;
-    /* 0x10 */ int slow_start_count;
-    /* 0x14 */ int sakidori_count;
-    /* 0x18 */ int substitute_hp;
-    /* 0x1c */ u32 henshin_rnd;
-    /* 0x20 */ u16 kanashibari_wazano;
-    /* 0x22 */ u16 shime_wazano;
-    /* 0x24 */ u16 encore_wazano;
-    /* 0x26 */ u16 encore_wazapos;
-    /* 0x28 */ u16 totteoki_wazano[4];
-    /* 0x2a */ u16 kodawari_wazano;
-    /* 0x2c */ u16 henshin_sex;
+    /* 0x08 */ int rechargeCount;
+    /* 0x0c */ int fakeOutCount;
+    /* 0x10 */ int slowStartTurns;
+    /* 0x14 */ int meFirstCount;
+    /* 0x18 */ int substituteHp;
+    /* 0x1c */ u32 transformPid;
+    /* 0x20 */ u16 disabledMove;
+    /* 0x22 */ u16 bindingMove;
+    /* 0x24 */ u16 encoredMove;
+    /* 0x26 */ u16 encoredMoveIndex;
+    /* 0x28 */ u16 lastResortMoves[4];
+    /* 0x2a */ u16 moveNoChoice;
+    /* 0x2c */ u16 transformGender;
 // padding at 2e
-    /* 0x30 */ int item_hp_recover;
+    /* 0x30 */ int itemHpRecover;
 }; // size = 0x34
 
 struct __attribute__((packed)) BattlePokemon
@@ -682,14 +687,14 @@ typedef struct
 
 struct __attribute__((packed)) side_condition_work
 {
-    u32     butsuri_guard_client    : 2;
-    u32     butsuri_guard_count     : 3;
-    u32     tokusyu_guard_client    : 2;
-    u32     tokusyu_guard_count     : 3;
-    u32     shiroikiri_client       : 2;
-    u32     mist_count              : 3;
-    u32     shinpi_client           : 2;
-    u32     shinpi_count            : 3;
+    u32     reflectBattler          : 2;
+    u32     reflectCount            : 3;
+    u32     lightScreenBattler      : 2;
+    u32     lightScreenCount        : 3;
+    u32     mistBattler             : 2;
+    u32     mistCount               : 3;
+    u32     safeguardBattler        : 2;
+    u32     safeguardCount          : 3;
 
     u32     konoyubitomare_flag     : 1;
     u32     konoyubitomare_client   : 2;
@@ -826,7 +831,7 @@ struct __attribute__((packed)) BattleStruct
     /*0x150*/ int total_turn;
     /*0x154*/ int total_hinshi[CLIENT_MAX];
     /*0x164*/ int total_damage[CLIENT_MAX];
-    /*0x174*/ int sakidori_total_turn;
+    /*0x174*/ int me_first_total_turns;
     /*0x178*/ struct tcb_skill_intp_work *tciw;
     /*0x17C*/ void *work;
     /*0x180*/ u32 field_condition;
@@ -933,7 +938,8 @@ struct __attribute__((packed)) BattleStruct
     /*0x3154*/ u32 battle_progress_flag : 1;
                u32 : 31;
     /*0x3158*/ u8 log_hail_for_ice_face; // bitfield with 1 << client for if there was hail last turn
-    /*0x3159*/ u8 padding_3159[0x25]; // padding to get moveTbl to 317E (for convenience of 3180 in asm)
+    /*0x3159*/ u8 tailwindCount[2]; // padding to get moveTbl to 317E (for convenience of 3180 in asm)
+    /*0x315B*/ u8 padding_315B[0x23]; // padding to get moveTbl to 317E (for convenience of 3180 in asm)
     /*0x317E*/ struct BattleMove moveTbl[MAX_MOVE_NUM + 1];
     /*0x    */ u32 gainedExperience[6]; // possible experience gained per party member in order to get level scaling done right
     /*0x    */ u32 gainedExperienceShare[6]; // possible experience gained per party member in order to get level scaling done right
@@ -1006,6 +1012,9 @@ struct __attribute__((packed)) newBattleStruct
 
     CATS_ACT_PTR MegaOAM;
     CATS_ACT_PTR MegaButton;
+    CATS_ACT_PTR WeatherOAM;
+    SysTask *weatherUpdateTask;
+    u32 weather;
     u8 MegaIconLight;
     u8 ChangeBgFlag:4;
     u8 CanMega:4;
@@ -1282,6 +1291,9 @@ BOOL __attribute__((long_call)) ShouldDelayTurnEffectivenessChecking(struct Batt
 BOOL __attribute__((long_call)) ShouldUseNormalTypeEffCalc(struct BattleStruct *sp, int attack_client, int defence_client, int pos);
 int __attribute__((long_call)) Battle_GetClientPartySize(void *bw, int client_no);
 void *__attribute__((long_call)) Battle_GetClientPartyMon(void *bw, int client_no, int mon_index);
+BOOL __attribute__((long_call)) ServerGetExpCheck(struct BattleStruct *sp, u32 seq, u32 seq2);
+BOOL __attribute__((long_call)) ServerZenmetsuCheck(void *bw, struct BattleStruct *sp);
+u32 __attribute__((long_call)) ST_ServerDir2ClientNoGet(void *bw, struct BattleStruct *sp, u32 side);
 
 // AI specific functions
 int __attribute__((long_call)) AI_TypeCheckCalc(struct BattleStruct *sp, int *flag);

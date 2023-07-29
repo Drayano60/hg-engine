@@ -7,24 +7,32 @@
 .include "armips/include/monnums.s"
 .include "armips/include/movenums.s"
 
-.create "build/move/battle_sub_seq/1_341", 0
+// subscript for handling raising defense on hit
+// adapted from mashing a few together for berries and such
 
-// Status move redirection subscript
-//
-// All battle_eff_seq files used for status moves make a call to here.
-// This checks if the Pokemon is holding a particular item effect.
-// If it is, the move is set to fail.
-//
-// This is used as an equivalent to the Assault Vest status move restriction,
-// as I am unsure how to make the move unselectable like Taunt works currently.
+.create "build/move/battle_sub_seq/1_341", 0x0
 
 a001_341:
-    // 252 is the Assault Vest held item effect ID.
-    // If the Pokemon is not holding the Assault Vest or the Pokemon has Klutz, just end the subscript.
-    abilitycheck 0x0, BATTLER_ATTACKER, ABILITY_KLUTZ, End
-    checkitemeffect 0x1, BATTLER_ATTACKER, 252, End      
-    changevar VAR_OP_SETMASK, VAR_MOVE_STATUS, 0x40
-End:
+    ifmonstat IF_EQUAL, BATTLER_DEFENDER, MON_DATA_HP, 0x0, _0028
+    setstatus2effect BATTLER_DEFENDER, 0xA // play the mon ate animation
+    waitmessage
+
+	// raise defense, skip message
+    changevar VAR_OP_SETMASK, VAR_SERVER_STATUS1, 0x00084001 // use 0x00080000 to skip stat raise message from subscript 12.  it technically is used for hitting shadow force but we repurpose it here
+    changevar VAR_OP_SETMASK, VAR_SERVER_STATUS2, 0x80
+    changevar VAR_OP_SET, VAR_ADD_EFFECT_ATTRIBUTE, 16 // ADD_STATE_DEF_UP
+    gotosubscript 12
+    changevar VAR_OP_CLEARMASK, VAR_SERVER_STATUS2, 0x2
+    changevar VAR_OP_CLEARMASK, VAR_SERVER_STATUS2, 0x80
+    changevar VAR_OP_CLEARMASK, VAR_SERVER_STATUS1, 0x00080000 // use this to skip stat raise message from subscript 12
+
+    printmessage 1452, TAG_NICK_ITEM, BATTLER_DEFENDER, BATTLER_DEFENDER, "NaN", "NaN", "NaN", "NaN" // print the real message
+    waitmessage
+    wait 0x1E
+
+	removeitem BATTLER_DEFENDER
+
+_0028:
     endscript
 
 .close

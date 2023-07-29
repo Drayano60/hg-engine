@@ -519,7 +519,7 @@ endparty
 /******************************************** Route 30 ********************************************/
 
 trainerdata 8, "Joey"
-    trainermontype TRAINER_DATA_TYPE_ADDITIONAL_FLAGS
+    trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_YOUNGSTER
     battletype SINGLE_BATTLE
     nummons 1
@@ -551,7 +551,7 @@ party 8
 endparty
 
 trainerdata 47, "Mikey"
-    trainermontype TRAINER_DATA_TYPE_ADDITIONAL_FLAGS
+    trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_YOUNGSTER
     battletype SINGLE_BATTLE
     nummons 2
@@ -718,7 +718,7 @@ endparty
 /************ Rematches ************/
 
 trainerdata 279, "Joey"
-    trainermontype TRAINER_DATA_TYPE_ADDITIONAL_FLAGS
+    trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_YOUNGSTER
     battletype SINGLE_BATTLE
     nummons 1
@@ -750,7 +750,7 @@ party 279
 endparty
 
 trainerdata 280, "Joey"
-    trainermontype TRAINER_DATA_TYPE_ADDITIONAL_FLAGS
+    trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_YOUNGSTER
     battletype SINGLE_BATTLE
     nummons 1
@@ -782,7 +782,7 @@ party 280
 endparty
 
 trainerdata 510, "Joey"
-    trainermontype TRAINER_DATA_TYPE_ADDITIONAL_FLAGS
+    trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_YOUNGSTER
     battletype SINGLE_BATTLE
     nummons 1
@@ -1257,6 +1257,89 @@ party 512
     move MOVE_AIR_SLASH
     move MOVE_QUIVER_DANCE
     ability ABILITY_INTIMIDATE
+    ball ITEM_POKE_BALL
+    setivs 15, 15, 15, 15, 15, 15
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+endparty
+
+/******************************************** Violet City ********************************************/
+
+trainerdata 786, "Forrest"
+    trainermontype TRAINER_MON_TYPE_FLAGS
+    trainerclass CLASS_SCHOOL_KID_M
+    battletype 0
+    nummons 1
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype2 SINGLE_BATTLE
+    endentry
+
+party 786
+    ivs 0
+    abilityslot 0
+    level 10
+    pokemon SPECIES_TEDDIURSA
+    item 0
+    move MOVE_SCRATCH
+    move MOVE_FLING
+    move MOVE_LICK
+    move MOVE_PLAY_NICE
+    ability ABILITY_PICKUP
+    ball ITEM_POKE_BALL
+    setivs 15, 15, 15, 15, 15, 15
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+endparty
+
+trainerdata 787, "Christine"
+    trainermontype TRAINER_MON_TYPE_FLAGS
+    trainerclass CLASS_SCHOOL_KID_F
+    battletype 0
+    nummons 2
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype2 SINGLE_BATTLE
+    endentry
+
+party 787
+    ivs 0
+    abilityslot 0
+    level 10
+    pokemon SPECIES_IGGLYBUFF
+    item 0
+    move MOVE_POUND
+    move MOVE_DISARMING_VOICE
+    move MOVE_SWEET_KISS
+    move MOVE_WORK_UP
+    ability ABILITY_CUTE_CHARM
+    ball ITEM_POKE_BALL
+    setivs 15, 15, 15, 15, 15, 15
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level 10
+    pokemon SPECIES_CLEFFA
+    item 0
+    move MOVE_POUND
+    move MOVE_DISARMING_VOICE
+    move MOVE_SWEET_KISS
+    move MOVE_WORK_UP
+    ability ABILITY_CUTE_CHARM
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
     setevs 0, 0, 0, 0, 0, 0

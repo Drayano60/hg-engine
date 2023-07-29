@@ -13,7 +13,7 @@
 
 a030_237:
     wringoutdamagecalc
-    gotosubscript 343
+    gotosubscript 443
     endscript
 
 .close

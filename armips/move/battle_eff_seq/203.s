@@ -17,7 +17,7 @@ a030_203:
     changevar VAR_OP_SET, VAR_DAMAGE_MULT, 12
 Damage:
     weatherballdamagecalc
-    gotosubscript 343
+    gotosubscript 443
     endscript
 
 .close

@@ -15,7 +15,7 @@ a030_092:
     gotosubscript 20
 _0034:
     changevar VAR_OP_SETMASK, VAR_ADD_STATUS2, 0x80000008
-    gotosubscript 343
+    gotosubscript 443
     endscript
 _0050:
     changevar VAR_OP_SETMASK, VAR_MOVE_STATUS, 0x40

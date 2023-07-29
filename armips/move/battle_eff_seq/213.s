@@ -12,7 +12,7 @@
 // Camouflage
 
 a030_213:
-    gotosubscript 341
+    gotosubscript 441
     if IF_MASK, VAR_MOVE_STATUS, 0x40, Failed // Required to skip over things set before natural failure happens
     trycamouflage Failed
     changemondatabyvalue VAR_OP_SETMASK, BATTLER_ATTACKER, 0x3B, 0x10000000

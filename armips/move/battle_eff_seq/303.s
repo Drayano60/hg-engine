@@ -14,7 +14,7 @@
 // Used by seq_065 for AI purposes instead
 
 a030_303:
-    gotosubscript 341
+    gotosubscript 441
     changevar VAR_OP_SET, VAR_ADD_STATUS1, ADD_STATUS_AURORA_VEIL | ADD_STATUS_WORK
     endscript
 

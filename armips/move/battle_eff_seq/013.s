@@ -13,7 +13,7 @@
 // Replaced with Growth as nothing else uses this
 
 a030_013:
-    gotosubscript 341
+    gotosubscript 441
     changevar VAR_OP_SET, VAR_ADD_STATUS1, ADD_STATUS_ATTACKER | ADD_STATUS_GROWTH
     endscript
 

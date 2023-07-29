@@ -12,7 +12,7 @@
 // Sunny Day
 
 a030_137:
-    gotosubscript 341
+    gotosubscript 441
     if IF_MASK, VAR_MOVE_STATUS, 0x40, Failed // Required to skip over things set before natural failure happens
     if IF_MASK, VAR_FIELD_EFFECT, 0x30, Failed
     preparemessage 0x327, 0x0, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"

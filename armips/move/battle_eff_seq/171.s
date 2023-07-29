@@ -20,7 +20,7 @@ _003C:
     changevar VAR_OP_SET, VAR_DAMAGE_MULT, 0x14
     changevar VAR_OP_SET, VAR_ADD_STATUS2, 0x20000024
 _005C:
-    gotosubscript 343
+    gotosubscript 443
     endscript
 
 .close

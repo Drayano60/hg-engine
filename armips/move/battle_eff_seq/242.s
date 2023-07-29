@@ -12,7 +12,7 @@
 // Copycat
 
 a030_242:
-    gotosubscript 341
+    gotosubscript 441
     if IF_MASK, VAR_MOVE_STATUS, 0x40, Failed // Required to skip over things set before natural failure happens
     trycopycat Failed
     printattackmessage

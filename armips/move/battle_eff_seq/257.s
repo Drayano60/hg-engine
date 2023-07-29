@@ -17,7 +17,7 @@ a030_257:
     ifmonstat IF_NOTMASK, BATTLER_DEFENDER, MON_DATA_MOVE_STATE, 0x40000, _0048
     changevar VAR_OP_SET, VAR_DAMAGE_MULT, 0x14
 _0048:
-    gotosubscript 343
+    gotosubscript 443
     endscript
 
 .close

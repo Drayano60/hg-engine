@@ -12,7 +12,7 @@
 // Power Trick
 
 a030_238:
-    gotosubscript 341
+    gotosubscript 441
     changevar VAR_OP_SET, VAR_ADD_STATUS2, 0x2000007B
     endscript
 

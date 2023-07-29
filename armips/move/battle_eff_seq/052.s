@@ -12,7 +12,7 @@
 // Sharply raise speed
 
 a030_052:
-    gotosubscript 341
+    gotosubscript 441
     changevar VAR_OP_SET, VAR_ADD_STATUS1, 0x40000029
     endscript
 

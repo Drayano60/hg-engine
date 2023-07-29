@@ -13,7 +13,7 @@
 // This has been edited to -2 Evasion since only Sweet Scent uses it
 
 a030_024:
-    gotosubscript 341
+    gotosubscript 441
     changevar VAR_OP_SET, VAR_ADD_STATUS1, 0x80000034
     endscript
 

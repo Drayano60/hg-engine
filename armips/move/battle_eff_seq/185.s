@@ -13,7 +13,7 @@
 
 a030_185:
     revengedamagecalc
-    gotosubscript 343
+    gotosubscript 443
     endscript
 
 .close

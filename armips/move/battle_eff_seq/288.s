@@ -12,7 +12,7 @@
 // Shift Gear effect
 
 a030_288:
-    gotosubscript 341
+    gotosubscript 441
     changevar VAR_OP_SET, VAR_ADD_STATUS1,  ADD_STATUS_SHIFT_GEAR | ADD_STATUS_ATTACKER
     endscript
 

@@ -12,7 +12,7 @@
 // Conversion
 
 a030_030:
-    gotosubscript 341
+    gotosubscript 441
     changevar VAR_OP_SET, VAR_ADD_STATUS1, 0x20000041
     endscript
 

@@ -17,7 +17,7 @@ a030_305:
     preparemessage 0x435, 0x1, 0x13, "NaN", "NaN", "NaN", "NaN", "NaN"
     changevar VAR_OP_SET, VAR_ADD_STATUS2, 0x2000005A
 _Damage:
-    gotosubscript 343
+    gotosubscript 443
     endscript
 
 .close

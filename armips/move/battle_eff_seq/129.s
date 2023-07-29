@@ -11,7 +11,7 @@
 
 a030_129:
     changevar VAR_OP_SET, VAR_ADD_STATUS2, ADD_STATUS_ATTACKER | SPEED_UP
-    gotosubscript 343
+    gotosubscript 443
     endscript
 
 .close

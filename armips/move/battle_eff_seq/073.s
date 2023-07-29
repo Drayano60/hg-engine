@@ -10,7 +10,7 @@
 .create "build/move/battle_eff_seq/0_073", 0
 
 a030_073:
-    gotosubscript 343
+    gotosubscript 443
     changevar VAR_OP_SET, VAR_ADD_STATUS2, 0x8000001B
     endscript
 

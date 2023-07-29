@@ -15,6 +15,6 @@
 
 a030_282:
     changevar VAR_OP_SET, VAR_CRIT_CHANCE, 15
-    gotosubscript 343
+    gotosubscript 443
     endscript
 .close

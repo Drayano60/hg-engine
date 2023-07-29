@@ -12,7 +12,7 @@
 // Psycho Shift
 
 a030_234:
-    gotosubscript 341
+    gotosubscript 441
     if IF_MASK, VAR_MOVE_STATUS, 0x40, Failed // Required to skip over things set before natural failure happens
     trypsychoshift Failed
     changevar VAR_OP_SET, VAR_ADD_STATUS1, 0x80000090

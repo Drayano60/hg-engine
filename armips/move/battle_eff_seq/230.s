@@ -14,7 +14,7 @@
 
 a030_230:
     paybackdamagecalc
-    gotosubscript 343
+    gotosubscript 443
     endscript
 
 .close

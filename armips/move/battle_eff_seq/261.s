@@ -18,7 +18,7 @@ a030_261:
     changevar VAR_OP_SET, VAR_DAMAGE_MULT, 0x14
 _0048:
     changevar VAR_OP_SET, VAR_ADD_STATUS2, 0x8200000D
-    gotosubscript 343
+    gotosubscript 443
     endscript
 
 .close

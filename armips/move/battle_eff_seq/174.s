@@ -13,7 +13,7 @@
 // Charge
 
 a030_174:
-    gotosubscript 341
+    gotosubscript 441
     changevar VAR_OP_SET, VAR_ADD_STATUS2, 0x2000006C
     endscript
 

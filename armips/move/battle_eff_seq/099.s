@@ -11,7 +11,7 @@
 
 a030_099:
     flaildamagecalc
-    gotosubscript 343
+    gotosubscript 443
     endscript
 
 .close

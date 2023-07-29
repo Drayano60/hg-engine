@@ -12,7 +12,7 @@
 // Teeter Dance
 
 a030_199:
-    gotosubscript 341
+    gotosubscript 441
     changevar VAR_OP_SET, VAR_ADD_STATUS1, 0x80000007
     endscript
 

@@ -12,7 +12,7 @@
 // Effect ID is used for Sacred Sword in calculator functions
 
 a030_295:
-    gotosubscript 343
+    gotosubscript 443
     endscript
 
 .close

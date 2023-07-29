@@ -13,7 +13,7 @@
 
 a030_304:
     changevar VAR_OP_SET, VAR_ADD_STATUS2, ADD_STATUS_STEEL_BEAM | ADD_STATUS_WORK
-    gotosubscript 343
+    gotosubscript 443
     endscript
 
 .close

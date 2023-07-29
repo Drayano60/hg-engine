@@ -12,7 +12,7 @@
 // Sleep Talk
 
 a030_097:
-    gotosubscript 341
+    gotosubscript 441
     if IF_MASK, VAR_MOVE_STATUS, 0x40, Failed // Required to skip over things set before natural failure happens
     ifmonstat IF_NOTMASK, BATTLER_ATTACKER, MON_DATA_STATUS_1, 0x7, Failed
     gotosubscript 20

@@ -21,7 +21,7 @@ a030_221:
 _0054:
     changevar VAR_OP_SET, VAR_DAMAGE_MULT, 0xA
 _0064:
-    gotosubscript 343
+    gotosubscript 443
     endscript
 
 .close

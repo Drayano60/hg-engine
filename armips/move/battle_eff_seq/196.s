@@ -14,7 +14,7 @@
 
 a030_196:
     lowkickdamagecalc
-    gotosubscript 343
+    gotosubscript 443
     endscript
 
 .close

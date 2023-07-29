@@ -12,7 +12,7 @@
 // Captivate
 
 a030_265:
-    gotosubscript 341
+    gotosubscript 441
     if IF_MASK, VAR_MOVE_STATUS, 0x40, Failed // Required to skip over things set before natural failure happens
     moldbreakerabilitycheck 0x0, BATTLER_DEFENDER, ABILITY_OBLIVIOUS, _00C4
     ifmonstat IF_EQUAL, BATTLER_ATTACKER, MON_DATA_GENDER, 0x2, _0084

@@ -12,7 +12,7 @@
 // Heal Bell
 
 a030_102:
-    gotosubscript 341
+    gotosubscript 441
     changevar VAR_OP_SET, VAR_ADD_STATUS2, 0x20000053
     endscript
 

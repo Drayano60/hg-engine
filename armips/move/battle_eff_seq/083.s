@@ -12,7 +12,7 @@
 // Metronome
 
 a030_083:
-    gotosubscript 341
+    gotosubscript 441
     if IF_MASK, VAR_MOVE_STATUS, 0x40, Failed // Required to skip over things set before natural failure happens
     printattackmessage
     waitmessage

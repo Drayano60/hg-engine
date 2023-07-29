@@ -13,7 +13,7 @@
 // Not actually used, file 50 is used instead
 
 a030_286:
-    gotosubscript 341
+    gotosubscript 441
     changevar VAR_OP_SET, VAR_ADD_STATUS1,  ADD_STATUS_COIL | ADD_STATUS_ATTACKER
     endscript
 

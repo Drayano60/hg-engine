@@ -10,7 +10,7 @@
 .create "build/move/battle_eff_seq/0_131", 0
 
 a030_131:
-    gotosubscript 343
+    gotosubscript 443
     endscript
 
 .close

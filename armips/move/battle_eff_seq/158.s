@@ -12,7 +12,7 @@
 a030_158:
     ifmonstat2 IF_NOTEQUAL, BATTLER_ATTACKER, VAR_88, 0x19, _0034
     changevar VAR_OP_SET, VAR_ADD_STATUS2, 0x80000008
-    gotosubscript 343
+    gotosubscript 443
     endscript
 _0034:
     changevar VAR_OP_SETMASK, VAR_MOVE_STATUS, 0x40

@@ -12,7 +12,7 @@
 // Magic Coat
 
 a030_183:
-    gotosubscript 341
+    gotosubscript 441
     if IF_MASK, VAR_MOVE_STATUS, 0x40, Failed // Required to skip over things set before natural failure happens
     trysetmagiccoat Failed
     preparemessage 0x23B, 0x2, 0x1, "NaN", "NaN", "NaN", "NaN", "NaN"

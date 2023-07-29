@@ -12,7 +12,7 @@
 // Encore
 
 a030_090:
-    gotosubscript 341
+    gotosubscript 441
     changevar VAR_OP_SET, VAR_ADD_STATUS1, 0x2000004A
     endscript
 

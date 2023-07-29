@@ -11,7 +11,7 @@
 
 a030_045:
     changevar VAR_OP_SETMASK, VAR_SERVER_STATUS1, 0x1000
-    gotosubscript 343
+    gotosubscript 443
     endscript
 
 .close

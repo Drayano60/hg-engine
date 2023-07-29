@@ -13,7 +13,7 @@ a030_159:
     ifmonstat IF_MASK, BATTLER_ATTACKER, MON_DATA_STATUS_2, 0x70, _0028
     changevar VAR_OP_SET, VAR_ADD_STATUS2, 0x2000000A
 _0028:
-    gotosubscript 366
+    gotosubscript 466
     endscript
 
 .close

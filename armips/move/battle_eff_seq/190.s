@@ -13,7 +13,7 @@
 
 a030_190:
     eruptiondamagecalc
-    gotosubscript 343
+    gotosubscript 443
     endscript
 
 .close

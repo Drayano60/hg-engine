@@ -14,7 +14,7 @@
 
 a030_262:
     changevar VAR_OP_SET, VAR_ADD_STATUS2, 0x84000089
-    gotosubscript 343
+    gotosubscript 443
     endscript
 
 .close

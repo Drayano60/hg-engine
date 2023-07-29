@@ -12,7 +12,7 @@
 // Sharply lower defense
 
 a030_059:
-    gotosubscript 341
+    gotosubscript 441
     changevar VAR_OP_SET, VAR_ADD_STATUS1, 0x8000002F
     endscript
 

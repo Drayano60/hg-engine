@@ -19,7 +19,7 @@ a030_319:
     wait 0x1E
     printmessage 1416, TAG_NICK_ITEM, BATTLER_DEFENDER, 0x2, "NaN", "NaN", "NaN", "NaN"
 End:
-    gotosubscript 343
+    gotosubscript 443
     endscript
 Failed:
     printattackmessage

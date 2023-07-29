@@ -21,7 +21,7 @@ a030_007:
     waitmessage
     gotosubscript 76
 _0090:
-    gotosubscript 366
+    gotosubscript 466
     endscript
 _009C:
     printattackmessage

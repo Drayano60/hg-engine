@@ -838,8 +838,8 @@ const u8 CriticalRateTable[] =
 };
 */
 
-/* Not quite identical to later gens to account for the 2x crit multiplier */
-const u8 CriticalRateTable[] = {24, 8, 3, 2, 1};
+/* Now matches Gen 7+ */
+const u8 CriticalRateTable[] = {24, 8, 2, 1, 1};
 
 // calculates the critical hit multiplier
 int CalcCritical(void *bw, struct BattleStruct *sp, int attacker, int defender, int critical_count, u32 side_condition)

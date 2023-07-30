@@ -1559,7 +1559,7 @@ levelup SPECIES_PERSIAN_ALOLAN
     learnset MOVE_SLASH, 38
     learnset MOVE_CAPTIVATE, 42
     learnset MOVE_PLAY_ROUGH, 46
-    learnset MOVE_NASTY_PLOT, 50
+    learnset MOVE_SWITCHEROO, 50
     learnset MOVE_PARTING_SHOT, 54
     terminatelearnset
 

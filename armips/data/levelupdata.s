@@ -12659,7 +12659,7 @@ levelup SPECIES_LIEPARD
     learnset MOVE_SUCKER_PUNCH, 52
     terminatelearnset
 
-// NEW: Power Whip
+// NEW: Parting Shot, Power Whip
 levelup SPECIES_PANSAGE
     learnset MOVE_PLAY_NICE, 1
     learnset MOVE_SCRATCH, 1
@@ -12677,16 +12677,16 @@ levelup SPECIES_PANSAGE
     learnset MOVE_GRASS_KNOT, 36
     learnset MOVE_CRUNCH, 40
     learnset MOVE_RECYCLE, 45
-    learnset MOVE_NASTY_PLOT, 50
+    learnset MOVE_PARTING_SHOT, 50
     learnset MOVE_POWER_WHIP, 55
     learnset MOVE_LEAF_STORM, 60
     terminatelearnset
 
-// NEW: Power Whip
+// NEW: Parting Shot, Power Whip
 levelup SPECIES_SIMISAGE
     learnset MOVE_GRASS_WHISTLE, 1
-    learnset MOVE_ROLE_PLAY, 1
     learnset MOVE_NATURAL_GIFT, 1
+    learnset MOVE_ROLE_PLAY, 1
     learnset MOVE_TICKLE, 1
     learnset MOVE_PLAY_NICE, 1
     learnset MOVE_SCRATCH, 1
@@ -12704,12 +12704,12 @@ levelup SPECIES_SIMISAGE
     learnset MOVE_GRASS_KNOT, 36
     learnset MOVE_CRUNCH, 40
     learnset MOVE_RECYCLE, 45
-    learnset MOVE_NASTY_PLOT, 50
+    learnset MOVE_PARTING_SHOT, 50
     learnset MOVE_POWER_WHIP, 55
     learnset MOVE_LEAF_STORM, 60
     terminatelearnset
 
-// NEW: Lava Plume
+// NEW: Parting Shot, Lava Plume
 levelup SPECIES_PANSEAR
     learnset MOVE_PLAY_NICE, 1
     learnset MOVE_SCRATCH, 1
@@ -12727,16 +12727,16 @@ levelup SPECIES_PANSEAR
     learnset MOVE_FLAMETHROWER, 36
     learnset MOVE_CRUNCH, 40
     learnset MOVE_RECYCLE, 45
-    learnset MOVE_NASTY_PLOT, 50
+    learnset MOVE_PARTING_SHOT, 50
     learnset MOVE_FIRE_BLAST, 55
     learnset MOVE_OVERHEAT, 60
     terminatelearnset
 
-// NEW: Lava Plume
+// NEW: Parting Shot, Lava Plume
 levelup SPECIES_SIMISEAR
     learnset MOVE_FIRE_SPIN, 1
-    learnset MOVE_ROLE_PLAY, 1
     learnset MOVE_NATURAL_GIFT, 1
+    learnset MOVE_ROLE_PLAY, 1
     learnset MOVE_TICKLE, 1
     learnset MOVE_PLAY_NICE, 1
     learnset MOVE_SCRATCH, 1
@@ -12754,12 +12754,12 @@ levelup SPECIES_SIMISEAR
     learnset MOVE_FLAMETHROWER, 36
     learnset MOVE_CRUNCH, 40
     learnset MOVE_RECYCLE, 45
-    learnset MOVE_NASTY_PLOT, 50
+    learnset MOVE_PARTING_SHOT, 50
     learnset MOVE_FIRE_BLAST, 55
     learnset MOVE_OVERHEAT, 60
     terminatelearnset
 
-// NEW: Water Spout
+// NEW: Parting Shot, Water Spout
 levelup SPECIES_PANPOUR
     learnset MOVE_PLAY_NICE, 1
     learnset MOVE_SCRATCH, 1
@@ -12777,16 +12777,16 @@ levelup SPECIES_PANPOUR
     learnset MOVE_BRINE, 36
     learnset MOVE_CRUNCH, 40
     learnset MOVE_RECYCLE, 45
-    learnset MOVE_NASTY_PLOT, 50
+    learnset MOVE_PARTING_SHOT, 50
     learnset MOVE_HYDRO_PUMP, 55
     learnset MOVE_WATER_SPOUT, 60
     terminatelearnset
 
-// NEW: Water Spout
+// NEW: Parting Shot, Water Spout
 levelup SPECIES_SIMIPOUR
     learnset MOVE_AQUA_RING, 1
-    learnset MOVE_ROLE_PLAY, 1
     learnset MOVE_NATURAL_GIFT, 1
+    learnset MOVE_ROLE_PLAY, 1
     learnset MOVE_TICKLE, 1
     learnset MOVE_PLAY_NICE, 1
     learnset MOVE_SCRATCH, 1
@@ -12804,7 +12804,7 @@ levelup SPECIES_SIMIPOUR
     learnset MOVE_BRINE, 36
     learnset MOVE_CRUNCH, 40
     learnset MOVE_RECYCLE, 45
-    learnset MOVE_NASTY_PLOT, 50
+    learnset MOVE_PARTING_SHOT, 50
     learnset MOVE_HYDRO_PUMP, 55
     learnset MOVE_WATER_SPOUT, 60
     terminatelearnset

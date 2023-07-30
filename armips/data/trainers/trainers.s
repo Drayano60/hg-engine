@@ -45463,3 +45463,135 @@ party 762
     shinylock 0
     ballseal 0
 endparty
+
+/* Status Training - Burn */
+trainerdata 788, "Traynor"
+    trainermontype TRAINER_MON_TYPE_FLAGS
+    trainerclass CLASS_WAITER
+    battletype 0
+    nummons 1
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype2 SINGLE_BATTLE
+    endentry
+
+party 788
+    ivs 0
+    abilityslot 0
+    level 1
+    pokemon SPECIES_SMEARGLE
+    item 0
+    move MOVE_WILL_O_WISP
+    move 0
+    move 0
+    move 0
+    ability ABILITY_NO_GUARD
+    ball ITEM_POKE_BALL
+    setivs 0, 0, 0, 0, 0, 0
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+endparty
+
+/* Status Training - Paralysis */
+trainerdata 789, "Traynor"
+    trainermontype TRAINER_MON_TYPE_FLAGS
+    trainerclass CLASS_WAITER
+    battletype 0
+    nummons 1
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype2 SINGLE_BATTLE
+    endentry
+
+party 789
+    ivs 0
+    abilityslot 0
+    level 1
+    pokemon SPECIES_SMEARGLE
+    item 0
+    move MOVE_GLARE
+    move 0
+    move 0
+    move 0
+    ability ABILITY_NO_GUARD
+    ball ITEM_POKE_BALL
+    setivs 0, 0, 0, 0, 0, 0
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+endparty
+
+/* Status Training - Poison */
+trainerdata 790, "Traynor"
+    trainermontype TRAINER_MON_TYPE_FLAGS
+    trainerclass CLASS_WAITER
+    battletype 0
+    nummons 1
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype2 SINGLE_BATTLE
+    endentry
+
+party 790
+    ivs 0
+    abilityslot 0
+    level 1
+    pokemon SPECIES_SMEARGLE
+    item 0
+    move MOVE_POISON_GAS
+    move 0
+    move 0
+    move 0
+    ability ABILITY_NO_GUARD
+    ball ITEM_POKE_BALL
+    setivs 0, 0, 0, 0, 0, 0
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+endparty
+
+/* Status Training - Sleep */
+trainerdata 791, "Traynor"
+    trainermontype TRAINER_MON_TYPE_FLAGS
+    trainerclass CLASS_WAITER
+    battletype 0
+    nummons 1
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype2 SINGLE_BATTLE
+    endentry
+
+party 791
+    ivs 0
+    abilityslot 0
+    level 1
+    pokemon SPECIES_SMEARGLE
+    item 0
+    move MOVE_HYPNOSIS
+    move 0
+    move 0
+    move 0
+    ability ABILITY_NO_GUARD
+    ball ITEM_POKE_BALL
+    setivs 0, 0, 0, 0, 0, 0
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+endparty

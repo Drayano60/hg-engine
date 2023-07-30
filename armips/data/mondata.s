@@ -16345,7 +16345,7 @@ mondata SPECIES_FRILLISH, "Frillish"
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 0, 1
     items ITEM_NONE, ITEM_NONE
-    genderratio 127
+    genderratio 0 // Female Frillish is separate
     eggcycles 20
     basefriendship 70 // raised up again
     growthrate GROWTH_MEDIUM_FAST
@@ -16367,7 +16367,7 @@ mondata SPECIES_JELLICENT, "Jellicent"
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 0, 2
     items ITEM_NONE, ITEM_NONE
-    genderratio 127
+    genderratio 0 // Female Jellicent is separate
     eggcycles 20
     basefriendship 70 // raised up again
     growthrate GROWTH_MEDIUM_FAST

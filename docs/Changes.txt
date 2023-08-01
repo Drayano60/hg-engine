@@ -49,6 +49,21 @@ Route 31
 
 Violet City
 ✓ The school has new two NPCs who battle you at the top right. The left gives you a Silk Scarf, the right gives you TM83 Work Up.
+✓ Primo has been changed to give you a Pansage, Pansear or Panpour, depending on how you answer his question. The monkey also comes equipped with the type boost item matching its type (Miracle Seed, Charcoal or Mystic Water).
+✓ Changed the Juggler outside the Pokémon Center to sell you a berry set for $1,000 containing 5 each of the Cheri, Chesto, Pecha, Rawst, Aspear, Leppa, Oran and Persim Berries.
+✓ Edited dialogue of two NPCs, in a house and in the Pokémon Center, to remove text saying traded Pokémon would disobey (as that mechanic has been removed in Aurora Crystal).
+
+Sprout Tower
+✓ The tile permissions have been changed so battles now display an indoor floor instead of a cave.
+✓ Both floors now use the same encounter file.
+✓ Added an old woman on the ground floor who gives you a Cleanse Tag.
+✓ Added an old woman on the top floor who heals you.
+✓ Rearranged the trainer positions on the top floor.
+✓ Added a Hoothoot next to the Elder with a mild Vietnamese Crystal reference (wild hehe jump out).
+✓ The Elder now awards you TM10, Hidden Power.
+
+Violet City - Gym
+✓ Added two new Trainers using Mickey (63, 87).
 
 Miscellaneous
 ✓ Scripts for overworld usage of HMs has been adjusted.

@@ -2542,9 +2542,9 @@ movedata MOVE_EXPLOSION, "Explosion"
 movedata MOVE_FURY_SWIPES, "Fury Swipes"
     battleeffect 29
     pss SPLIT_PHYSICAL
-    basepower 18
+    basepower MOVE_CHANGES_IMPLEMENTED ? 20 : 18
     type TYPE_NORMAL
-    accuracy 80
+    accuracy MOVE_CHANGES_IMPLEMENTED ? 100 : 80
     pp 15
     effectchance 0
     target MOVE_TARGET_SELECTED

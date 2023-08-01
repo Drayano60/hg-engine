@@ -4,6 +4,8 @@ NPCs:
 2100* - Policeman in front of Elm's Lab after Silver battle but before returning.
 2101 - Silk Scarf gift from NPC in Trainer School.
 2102 - TM83 gift from NPC in Trainer School.
+2103 - Elemental monkey gift from Primo.
+2104 - Cleanse Tag gift in Sprout Tower.
 
 2600 - HG-e hidden ability flag.
 2601 - HG-e starter hidden ability flag.

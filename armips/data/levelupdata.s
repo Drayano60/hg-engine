@@ -16007,8 +16007,8 @@ levelup SPECIES_FLETCHLING
     learnset MOVE_QUICK_ATTACK, 6
     learnset MOVE_EMBER, 9
     learnset MOVE_FLAIL, 12
-    learnset MOVE_AGILITY, 15
-    learnset MOVE_AERIAL_ACE, 20
+    learnset MOVE_AERIAL_ACE, 15
+    learnset MOVE_AGILITY, 20
     learnset MOVE_NATURAL_GIFT, 24
     learnset MOVE_STEEL_WING, 28
     learnset MOVE_ACROBATICS, 32
@@ -16026,9 +16026,9 @@ levelup SPECIES_FLETCHINDER
     learnset MOVE_QUICK_ATTACK, 6
     learnset MOVE_EMBER, 9
     learnset MOVE_FLAIL, 12
-    learnset MOVE_AGILITY, 15
+    learnset MOVE_AERIAL_ACE, 15
     learnset MOVE_FLAME_CHARGE, 17
-    learnset MOVE_AERIAL_ACE, 20
+    learnset MOVE_AGILITY, 20
     learnset MOVE_NATURAL_GIFT, 24
     learnset MOVE_STEEL_WING, 28
     learnset MOVE_ACROBATICS, 32
@@ -16047,9 +16047,9 @@ levelup SPECIES_TALONFLAME
     learnset MOVE_QUICK_ATTACK, 6
     learnset MOVE_EMBER, 9
     learnset MOVE_FLAIL, 12
-    learnset MOVE_AGILITY, 15
+    learnset MOVE_AERIAL_ACE, 15
     learnset MOVE_FLAME_CHARGE, 17
-    learnset MOVE_AERIAL_ACE, 20
+    learnset MOVE_AGILITY, 20
     learnset MOVE_NATURAL_GIFT, 24
     learnset MOVE_STEEL_WING, 28
     learnset MOVE_ACROBATICS, 32
@@ -17061,16 +17061,17 @@ levelup SPECIES_NOIBAT
 	learnset MOVE_SCREECH, 1
     learnset MOVE_TACKLE, 1
     learnset MOVE_ABSORB, 1
-    learnset MOVE_GUST, 3
+    learnset MOVE_GUST, 1
+    learnset MOVE_TWISTER, 3
     learnset MOVE_SUPERSONIC, 6
-    learnset MOVE_DOUBLE_TEAM, 9
+    learnset MOVE_WING_ATTACK, 9
     learnset MOVE_BITE, 12
-    learnset MOVE_WING_ATTACK, 15
-    learnset MOVE_AIR_CUTTER, 18
+    learnset MOVE_AIR_CUTTER, 15
+    learnset MOVE_DOUBLE_TEAM, 18
     learnset MOVE_AGILITY, 21
     learnset MOVE_WHIRLWIND, 24
-    learnset MOVE_SUPER_FANG, 28
-    learnset MOVE_AIR_SLASH, 32
+    learnset MOVE_AIR_SLASH, 28
+    learnset MOVE_SUPER_FANG, 32
     learnset MOVE_ROOST, 36
     learnset MOVE_RAZOR_WIND, 42
     learnset MOVE_TAILWIND, 48
@@ -17081,16 +17082,17 @@ levelup SPECIES_NOIVERN
 	learnset MOVE_SCREECH, 1
     learnset MOVE_TACKLE, 1
     learnset MOVE_ABSORB, 1
-    learnset MOVE_GUST, 3
+    learnset MOVE_GUST, 1
+    learnset MOVE_TWISTER, 3
     learnset MOVE_SUPERSONIC, 6
-    learnset MOVE_DOUBLE_TEAM, 9
+    learnset MOVE_WING_ATTACK, 9
     learnset MOVE_BITE, 12
-    learnset MOVE_WING_ATTACK, 15
-    learnset MOVE_AIR_CUTTER, 18
+    learnset MOVE_AIR_CUTTER, 15
+    learnset MOVE_DOUBLE_TEAM, 18
     learnset MOVE_AGILITY, 21
     learnset MOVE_WHIRLWIND, 24
-    learnset MOVE_SUPER_FANG, 28
-    learnset MOVE_AIR_SLASH, 32
+    learnset MOVE_AIR_SLASH, 28
+    learnset MOVE_SUPER_FANG, 32
     learnset MOVE_ROOST, 36
     learnset MOVE_DRAGON_PULSE, 38
     learnset MOVE_RAZOR_WIND, 42

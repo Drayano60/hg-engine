@@ -1863,13 +1863,13 @@ party 29
     ivs 0
     abilityslot 0
     level 13
-    pokemon SPECIES_PIDGEY
+    pokemon SPECIES_FLETCHLING
     item ITEM_SHARP_BEAK
-    move MOVE_AIR_CUTTER
     move MOVE_QUICK_ATTACK
-    move MOVE_MUD_SLAP
-    move MOVE_NONE
-    ability ABILITY_KEEN_EYE
+    move MOVE_PECK
+    move MOVE_EMBER
+    move MOVE_GROWL
+    ability ABILITY_BIG_PECKS
     ball ITEM_POKE_BALL
     setivs 20, 20, 20, 20, 20, 20
     setevs 0, 0, 0, 0, 0, 0
@@ -1930,13 +1930,13 @@ party 63
     ivs 0
     abilityslot 0
     level 14
-    pokemon SPECIES_ZUBAT
+    pokemon SPECIES_DRIFLOON
     item ITEM_SHARP_BEAK
-    move MOVE_WING_ATTACK
-    move MOVE_CONFUSE_RAY
+    move MOVE_GUST
     move MOVE_ASTONISH
-    move MOVE_ABSORB
-    ability ABILITY_INNER_FOCUS
+    move MOVE_PAYBACK
+    move MOVE_DISABLE
+    ability ABILITY_AFTERMATH
     ball ITEM_POKE_BALL
     setivs 25, 25, 25, 25, 25, 25
     setevs 0, 0, 0, 0, 0, 0
@@ -1947,13 +1947,13 @@ party 63
     ivs 0
     abilityslot 0
     level 14
-    pokemon SPECIES_DRIFLOON
+    pokemon SPECIES_NOIBAT
     item ITEM_SHARP_BEAK
-    move MOVE_GUST
-    move MOVE_ASTONISH
-    move MOVE_PAYBACK
-    move MOVE_DISABLE
-    ability ABILITY_AFTERMATH
+    move MOVE_WING_ATTACK
+    move MOVE_BITE
+    move MOVE_TWISTER
+    move MOVE_SCREECH
+    ability ABILITY_INFILTRATOR
     ball ITEM_POKE_BALL
     setivs 25, 25, 25, 25, 25, 25
     setevs 0, 0, 0, 0, 0, 0
@@ -2098,11 +2098,11 @@ party 20
     abilityslot 0
     level 15
     pokemon SPECIES_NATU
-    item ITEM_POWER_HERB
-    move MOVE_CONFUSION
+    item ITEM_SHARP_BEAK
     move MOVE_AIR_CUTTER
+    move MOVE_CONFUSION
+    move MOVE_GRASS_KNOT
     move MOVE_CONFUSE_RAY
-    move MOVE_SOLAR_BEAM
     ability ABILITY_MAGIC_BOUNCE
     ball ITEM_POKE_BALL
     setivs 30, 30, 30, 30, 30, 30
@@ -2115,9 +2115,9 @@ party 20
     abilityslot 0
     level 15
     pokemon SPECIES_WINGULL
-    item ITEM_SHARP_BEAK
-    move MOVE_WATER_PULSE
+    item ITEM_CHESTO_BERRY
     move MOVE_AIR_CUTTER
+    move MOVE_WATER_PULSE
     move MOVE_SHOCK_WAVE
     move MOVE_QUICK_ATTACK
     ability ABILITY_KEEN_EYE

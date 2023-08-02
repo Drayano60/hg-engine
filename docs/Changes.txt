@@ -8,6 +8,7 @@ Introduction
 
 New Bark Town - Player's House
 ✓ The mother's dialogue is changed a bit. She now gives you the Bicycle, GB Sounds and Pokégear (Flag 156). The Pokégear is also auto-fitted with the Map Card (UpgradePokegear 1) and Radio Card (UpgradePokegear 2).
+✓ Mom's dialogue after getting your starter is also modified a bit as the flag is set earlier.
 
 New Bark Town
 ✓ The trigger for Elm giving you his Pokégear number as you leave town to the left has been changed to check that you've been given the starter (Flag 106) instead of checking for the Pokégear (Flag 156).
@@ -60,10 +61,11 @@ Sprout Tower
 ✓ Added an old woman on the top floor who heals you.
 ✓ Rearranged the trainer positions on the top floor.
 ✓ Added a Hoothoot next to the Elder with a mild Vietnamese Crystal reference (wild hehe jump out).
-✓ The Elder now awards you TM10, Hidden Power.
+✓ The Elder now awards you TM10, Hidden Power. One of the top floor monk's dialogues has been modified to reflect this too.
 
 Violet City - Gym
 ✓ Added two new Trainers using Mickey (63, 87).
+✓ Updated Falkner's dialogue because of obedience/TM mechanic changes.
 
 Miscellaneous
 ✓ Scripts for overworld usage of HMs has been adjusted.

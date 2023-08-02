@@ -769,3 +769,4 @@ Lift Key Description
 Pewter Snacks Description
 Silph Scope Description
 Tea Description
+An enigmatic stone that can make a\ncertain species of Pokémon evolve.\nIts effects are unknown.

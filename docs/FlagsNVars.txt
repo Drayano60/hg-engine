@@ -9,6 +9,12 @@ NPCs:
 
 2600 - HG-e hidden ability flag.
 2601 - HG-e starter hidden ability flag.
+2602 - Not used
+2603 - Not used
+2604 - Mystery Stone Flag 1
+2605 - Mystery Stone Flag 2
+2606 - Mystery Stone Flag 3
+2607 - Mystery Stone Flag 4
 
 Triggers:
 16499/0 - Now used for Cherrygrove Silver rival fight (previously for Guide Gent).

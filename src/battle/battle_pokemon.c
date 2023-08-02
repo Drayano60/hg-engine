@@ -1166,7 +1166,7 @@ u32 GetAdjustedMoveTypeBasics(struct BattleStruct *sp, u32 move, u32 ability, u3
     {
         typeLocal = TYPE_NORMAL;
     }
-    else if (sp->moveTbl[move].type == TYPE_NORMAL)
+    else if (sp->moveTbl[move].type == TYPE_NORMAL && move != MOVE_HIDDEN_POWER)
     {
         if (ability == ABILITY_PIXILATE)
         {

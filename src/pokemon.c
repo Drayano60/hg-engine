@@ -3421,7 +3421,7 @@ u16 __attribute__((long_call)) GetMonEvolution(struct Party *party, struct Party
         int isUmbreonForced = flag1 && flag2 && !flag3 && !flag4; // 1, 1, 0, 0
         int isLeafeonForced = flag1 && !flag2 && flag3 && !flag4; // 1, 0, 1, 0
         int isGlaceonForced = flag1 && !flag2 && !flag3 && flag4; // 1, 0, 0, 1
-        int isSylveonForced = flag1 && flag2 && flag3 && !flag4; // 1, 1, 0, 0
+        int isSylveonForced = flag1 && flag2 && flag3 && !flag4; // 1, 1, 1, 0
 
         if (isNothingForced) {
             int r = gf_rand() % 8;

@@ -53,6 +53,8 @@ Violet City
 ✓ Primo has been changed to give you a Pansage, Pansear or Panpour, depending on how you answer his question. The monkey also comes equipped with the type boost item matching its type (Miracle Seed, Charcoal or Mystic Water).
 ✓ Changed the Juggler outside the Pokémon Center to sell you a berry set for $1,000 containing 5 each of the Cheri, Chesto, Pecha, Rawst, Aspear, Leppa, Oran and Persim Berries.
 ✓ Edited dialogue of two NPCs, in a house and in the Pokémon Center, to remove text saying traded Pokémon would disobey (as that mechanic has been removed in Aurora Crystal).
+✓ Added an NPC and an Eevee in the Pokémon Center who asks you what she should evolve her Eevee into. Picking a specific Eeveelution will make the Mystery Stone always evolve Eevee into the chosen one.
+✓ The Kimono Girl who talks to you after collecting Togepi's Egg now gives you a Mystery Stone, a new item that can evolve Eevee into any of its eight evolutions at random (unless set by the NPC above).
 
 Sprout Tower
 ✓ The tile permissions have been changed so battles now display an indoor floor instead of a cave.

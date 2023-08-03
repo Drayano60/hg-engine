@@ -24,11 +24,11 @@
 
 .halfword ITEM_PEARL
 .halfword ITEM_BIG_PEARL
+.halfword ITEM_COVER_FOSSIL
+.halfword ITEM_PLUME_FOSSIL
+.halfword ITEM_JAW_FOSSIL
+.halfword ITEM_SAIL_FOSSIL
 .halfword ITEM_RARE_BONE
-.halfword ITEM_HEART_SCALE
-.halfword ITEM_HEART_SCALE
-.halfword ITEM_MAX_ETHER
-.halfword ITEM_MAX_ETHER
 .halfword ITEM_STAR_PIECE
 
 /* Any Other Area Table - Not Edited */

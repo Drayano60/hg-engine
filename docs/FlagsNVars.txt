@@ -6,6 +6,7 @@ NPCs:
 2102 - TM83 gift from NPC in Trainer School.
 2103 - Elemental monkey gift from Primo.
 2104 - Cleanse Tag gift in Sprout Tower.
+2105 - Sharp Beak gift in Violet City.
 
 2600 - HG-e hidden ability flag.
 2601 - HG-e starter hidden ability flag.
@@ -15,6 +16,7 @@ NPCs:
 2605 - Mystery Stone Flag 2
 2606 - Mystery Stone Flag 3
 2607 - Mystery Stone Flag 4
+2608 - Sigilyph static encounter.
 
 Triggers:
 16499/0 - Now used for Cherrygrove Silver rival fight (previously for Guide Gent).

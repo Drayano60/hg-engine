@@ -27,6 +27,7 @@ Cherrygrove City
 ✓ Silver now challenges you immediately when you enter the city. His overworld's flag is set to 0 and moved out of bounds so it works. This battle sets the flags to remove him from New Bark and add the temporary policeman there.
 ✓ The Guide Gent's initial tour is removed. A Fisherman now instead talks to you as you leave the city, giving you the Fishing Rod (a renamed Old Rod) which is the only rod used in the game.
 ✓ The triggers for the above events (16499) have been shifted so Silver's battle is value: 0, the fishing event is value: 1, and it's set to value: 2 afterwards.
+✓ Added some smashable rocks on the beach which can yield encounters.
 
 Route 30 - Mr. Pokémon's House
 ✓ Before leaving, Mr. Pokémon now calls you over and gifts you an Eevee. This Eevee always has its hidden ability.
@@ -50,11 +51,12 @@ Route 31
 
 Violet City
 ✓ The school has new two NPCs who battle you at the top right. The left gives you a Silk Scarf, the right gives you TM83 Work Up.
-✓ Primo has been changed to give you a Pansage, Pansear or Panpour, depending on how you answer his question. The monkey also comes equipped with the type boost item matching its type (Miracle Seed, Charcoal or Mystic Water).
+✓ Primo has been changed to give you a Pansage, Pansear or Panpour, depending on how you answer his question.
 ✓ Changed the Juggler outside the Pokémon Center to sell you a berry set for $1,000 containing 5 each of the Cheri, Chesto, Pecha, Rawst, Aspear, Leppa, Oran and Persim Berries.
 ✓ Edited dialogue of two NPCs, in a house and in the Pokémon Center, to remove text saying traded Pokémon would disobey (as that mechanic has been removed in Aurora Crystal).
 ✓ Added an NPC and an Eevee in the Pokémon Center who asks you what she should evolve her Eevee into. Picking a specific Eeveelution will make the Mystery Stone always evolve Eevee into the chosen one.
 ✓ The Kimono Girl who talks to you after collecting Togepi's Egg now gives you a Mystery Stone, a new item that can evolve Eevee into any of its eight evolutions at random (unless set by the NPC above).
+✓ Earl now gives you a Sitrus Berry before leading you to the school if you answer "No".
 
 Sprout Tower
 ✓ The tile permissions have been changed so battles now display an indoor floor instead of a cave.
@@ -69,9 +71,32 @@ Violet City - Gym
 ✓ Added two new Trainers using Mickey (63, 87).
 ✓ Updated Falkner's dialogue because of obedience/TM mechanic changes.
 
+Route 36
+✓ Split the route into West/East. Added grass to the east of Sudowoodo.
+✓ Modified Rock Smash guy's dialogue to reflect that someone else gives you HM06.
+
+Route 32
+✓ Split the route into North/South areas.
+✓ The blocker person now gives you HM06 Rock Smash instead of a Miracle Seed, complete with a quick tutorial about how HMs work in AC.
+
+Ruins of Alph
+✓ Added a patch of grass accesible immediately.
+✓ The interior music is now used everywhere else in the RoA as well.
+✓ Added a ton of smashable rocks to make fossil hunting easier.
+✓ Smashing rocks here now gives a chance for the Gen 1-4 fossils and Rare Bones.
+✓ Added a static Sigilyph encounter at the bottom right, Surf required. It doesn't disappear unless caught.
+✓ Changed the Hyper Potion at the top left to a Rare Bone, giving the player a fossil of their choice for free.
+
+Ruins Research Center
+✓ This is the building inside the Ruins of Alph, which now has its own header name.
+✓ Added another scientist NPC who can revive fossils. Fossils match the correct Pokémon; Aerodactyl is Lv. 40, Gen 5-6 ones are Lv. 25, the rest are Lv. 25 with the Plain Badge, Lv. 10 without.
+✓ Moved one of the other scientists to the bookcases to get him out of the way.
+✓ Added a Ruin Maniac NPC who will give you any of the fossils in exchange for a Rare Bone (which can be found at a low rate by smashing rocks in the Ruins of Alph). The Gen 5-6 fossils require 3 Badges, Aerodactyl requires 7 Badges.
+
 Miscellaneous
 ✓ Scripts for overworld usage of HMs has been adjusted.
 ✓✓ Script #15 and Function #25 now simply check the starter has been given (Flag 106) and will instantly headbutt a tree if this passes.
+✓✓ Script #2 and Function #5 now check for HM06 in the Bag and the Zephyr Badge, and will instantly smash a rock if this passes.
 
 ✓ Added common scripts for use in the Pokémon Center. (Referred to as 9018, 9019, 9020 ingame.) They're used on a Waiter, Maid and Waiter respectively (OW 59 and OW 60).
 ✓✓ One script handles changing things about Pokémon, including move tutors, move reminding, move deletion, nicknaming and checking Hidden Power. The move tutors use Script File 2 still but it's been somewhat adapted.

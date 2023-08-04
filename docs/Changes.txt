@@ -49,6 +49,11 @@ Route 31
 ✓ Ethan/Lyra now battle you when they encounter you in the gatehouse (this battle does not have to be won). Afterwards, they give you TM54, False Swipe (and a quick nod to headbutting/exotic sound encounters) before leaving. The Marill is also an Azurill.
 ✓ NPC just outside Dark Cave has had his dialogue modified to remove the Flash mention.
 
+Dark Cave - Violet Side
+✓ The cave is now low lighting instead of pitch black, so Flash does nothing.
+✓ The Strength boulder initially blocking the right half has been moved.
+✓ An NPC blocks the northern part until the player visits Blackthorn City.
+
 Violet City
 ✓ The school has new two NPCs who battle you at the top right. The left gives you a Silk Scarf, the right gives you TM83 Work Up.
 ✓ Primo has been changed to give you a Pansage, Pansear or Panpour, depending on how you answer his question.
@@ -92,6 +97,16 @@ Ruins Research Center
 ✓ Added another scientist NPC who can revive fossils. Fossils match the correct Pokémon; Aerodactyl is Lv. 40, Gen 5-6 ones are Lv. 25, the rest are Lv. 25 with the Plain Badge, Lv. 10 without.
 ✓ Moved one of the other scientists to the bookcases to get him out of the way.
 ✓ Added a Ruin Maniac NPC who will give you any of the fossils in exchange for a Rare Bone (which can be found at a low rate by smashing rocks in the Ruins of Alph). The Gen 5-6 fossils require 3 Badges, Aerodactyl requires 7 Badges.
+
+Route 46
+✓ Added a Rare Candy just above the ledge, accessible from Dark Cave.
+✓ Moved Hiker Bailey up so you can fight him + the two other Trainers in one go at the ledges if you like.
+
+Route 45
+✓ Split into North/South.
+✓ Modified the map of the southern part to remove some ledges, letting some grass be accessible earlier.
+✓ Changed the Revive to TM40 Aerial Ace and moved it next to the river, moving the hidden item where the Revive was.
+✓ Moved a Hiker that would be accessible from the new area above a ledge.
 
 Miscellaneous
 ✓ Scripts for overworld usage of HMs has been adjusted.

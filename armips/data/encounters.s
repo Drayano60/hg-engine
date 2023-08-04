@@ -691,7 +691,7 @@ pokemon SPECIES_LARVITAR
 pokemon SPECIES_DUNSPARCE
 
 // hoenn encounter slots
-pokemon SPECIES_AXEW
+pokemon SPECIES_NOIBAT
 pokemon SPECIES_ROGGENROLA
 
 // sinnoh encounter slots
@@ -1371,9 +1371,9 @@ encounterdata   7
 walkrate 25
 surfrate 0
 rocksmashrate 0
-oldrodrate 0
-goodrodrate 0
-superrodrate 0
+oldrodrate FISHING_RATE
+goodrodrate FISHING_RATE
+superrodrate FISHING_RATE
 walklevels 11, 12, 11, 12, 11, 12, 11, 11, 11, 12, 11, 12
 
 // morning encounter slots
@@ -4748,7 +4748,7 @@ monwithform SPECIES_GASTRODON, 0
 monwithform SPECIES_GASTRODON, 1
 
 // hoenn encounter slots
-pokemon SPECIES_NOIBAT
+pokemon SPECIES_NOIVERN
 pokemon SPECIES_EELEKTRIK
 
 // sinnoh encounter slots
@@ -5165,7 +5165,7 @@ pokemon SPECIES_PUPITAR
 pokemon SPECIES_DUNSPARCE
 
 // hoenn encounter slots
-pokemon SPECIES_FRAXURE
+pokemon SPECIES_NOIVERN
 pokemon SPECIES_BOLDORE
 
 // sinnoh encounter slots
@@ -5269,7 +5269,7 @@ pokemon SPECIES_DUNSPARCE
 pokemon SPECIES_DUNSPARCE
 
 // hoenn encounter slots
-pokemon SPECIES_ZWEILOUS
+pokemon SPECIES_FRAXURE
 pokemon SPECIES_DRUDDIGON
 
 // sinnoh encounter slots

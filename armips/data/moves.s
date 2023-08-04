@@ -4030,13 +4030,14 @@ movedata MOVE_EXTREME_SPEED, "Extreme Speed"
     movedescription MOVE_EXTREME_SPEED, "The user charges the\nfoe at blinding speed.\nThis attack always\ngoes before any\nother move."
 
 // POWER: 60 >> 65
+// PP: 5 >> 10
 movedata MOVE_ANCIENT_POWER, "Ancient Power"
     battleeffect 140
     pss SPLIT_SPECIAL
     basepower MOVE_CHANGES_IMPLEMENTED ? 65 : 60
     type TYPE_ROCK
     accuracy 100
-    pp 5
+    pp MOVE_CHANGES_IMPLEMENTED ? 10 : 5
     effectchance 10
     target MOVE_TARGET_SELECTED
     priority 0
@@ -5204,13 +5205,14 @@ movedata MOVE_ROCK_TOMB, "Rock Tomb"
     movedescription MOVE_ROCK_TOMB, "Boulders are hurled\nat the foe. It also\nlowers the foe’s\nSpeed by preventing\nits movement."
 
 // POWER: 60 >> 65
+// PP: 5 >> 10
 movedata MOVE_SILVER_WIND, "Silver Wind"
     battleeffect 140
     pss SPLIT_SPECIAL
     basepower MOVE_CHANGES_IMPLEMENTED ? 65 : 60
     type TYPE_BUG
     accuracy 100
-    pp 5
+    pp MOVE_CHANGES_IMPLEMENTED ? 10 : 5
     effectchance 10
     target MOVE_TARGET_SELECTED
     priority 0
@@ -7610,13 +7612,14 @@ movedata MOVE_SEED_FLARE, "Seed Flare"
     movedescription MOVE_SEED_FLARE, "The user generates\na shock wave from\nwithin its body.\nThis has a 40% chance\nto lower Sp. Def."
 
 // POWER: 60 >> 65
+// PP: 5 >> 10
 movedata MOVE_OMINOUS_WIND, "Ominous Wind"
     battleeffect 140
     pss SPLIT_SPECIAL
     basepower MOVE_CHANGES_IMPLEMENTED ? 65 : 60
     type TYPE_GHOST
     accuracy 100
-    pp 5
+    pp MOVE_CHANGES_IMPLEMENTED ? 10 : 5
     effectchance 10
     target MOVE_TARGET_SELECTED
     priority 0

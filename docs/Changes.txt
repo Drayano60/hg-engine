@@ -40,7 +40,7 @@ Elm Pokémon Lab 2
 
 Route 30
 ✓ Changed Joey's before battle dialogue to explicitly mention the top percentage Rattata. Also moved Joey to be compulsory.
-✓ Added a new Lass Trainer using a Mickey (11).
+✓ Added a new optional Lass Trainer using a Mickey (11) next to some grass. Moved the other NPC lady.
 
 Route 31
 ✓ The two Cut trees are moved out of bounds.
@@ -68,7 +68,8 @@ Sprout Tower
 ✓ Both floors now use the same encounter file.
 ✓ Added an old woman on the ground floor who gives you a Cleanse Tag.
 ✓ Added an old woman on the top floor who heals you.
-✓ Rearranged the trainer positions on the top floor.
+✓ Changed Sage Edmond to face down so he's forced.
+✓ Rearranged the trainer positions on the top floor to force them all and allow a double battle for the last two.
 ✓ Added a Hoothoot next to the Elder with a mild Vietnamese Crystal reference (wild hehe jump out).
 ✓ The Elder now awards you TM10, Hidden Power. One of the top floor monk's dialogues has been modified to reflect this too.
 
@@ -80,17 +81,14 @@ Route 36
 ✓ Split the route into West/East. Added grass to the east of Sudowoodo.
 ✓ Modified Rock Smash guy's dialogue to reflect that someone else gives you HM06.
 
-Route 32
-✓ Split the route into North/South areas.
-✓ The blocker person now gives you HM06 Rock Smash instead of a Miracle Seed, complete with a quick tutorial about how HMs work in AC.
-
 Ruins of Alph
-✓ Added a patch of grass accesible immediately.
+✓ Added a patch of grass accessible immediately.
 ✓ The interior music is now used everywhere else in the RoA as well.
 ✓ Added a ton of smashable rocks to make fossil hunting easier.
 ✓ Smashing rocks here now gives a chance for the Gen 1-4 fossils and Rare Bones.
 ✓ Added a static Sigilyph encounter at the bottom right, Surf required. It doesn't disappear unless caught.
 ✓ Changed the Hyper Potion at the top left to a Rare Bone, giving the player a fossil of their choice for free.
+✓ Added a Ruin Maniac Trainer using a Mickey (105).
 
 Ruins Research Center
 ✓ This is the building inside the Ruins of Alph, which now has its own header name.
@@ -108,6 +106,23 @@ Route 45
 ✓ Changed the Revive to TM40 Aerial Ace and moved it next to the river, moving the hidden item where the Revive was.
 ✓ Moved a Hiker that would be accessible from the new area above a ledge.
 
+Route 32
+✓ Split the route into North/South areas.
+✓ The blocker person now gives you HM06 Rock Smash instead of a Miracle Seed, complete with a quick tutorial about how HMs work in AC.
+✓ Cut tree blocking the (previously) Roar guy has been removed.
+✓ Added a Hiker using a Mickey (88) who blocks the path to the TM05 gifter.
+✓ Moved some Trainer positions.
+✓ Added a new Ace Trainer with a Mickey (347) near the Union Cave entrance.
+✓ Changed the TM09 to a Super Potion.
+✓ Removed the Friday sibling and replaced her with a Poison Barb.
+✓ Moved the Fisherman in the PC out of bounds as we already have a Rod.
+
+Union Cave (1F/B1F)
+✓ Moved some trainers.
+✓ Added Black Belt Hideki with a Mickey (106) on B1F, blocking TM39.
+✓ Changed the Awakening to a Hard Stone and moved it slightly.
+✓ Added an Oval Stone item ball on the little island in the pond on 1F.
+
 Miscellaneous
 ✓ Scripts for overworld usage of HMs has been adjusted.
 ✓✓ Script #15 and Function #25 now simply check the starter has been given (Flag 106) and will instantly headbutt a tree if this passes.
@@ -117,3 +132,5 @@ Miscellaneous
 ✓✓ One script handles changing things about Pokémon, including move tutors, move reminding, move deletion, nicknaming and checking Hidden Power. The move tutors use Script File 2 still but it's been somewhat adapted.
 ✓✓ One script handles the new "Wonder Egg" mechanic, letting a player give up a Pokémon in exchange for an Egg which can contain any Pokémon in the game that can hatch from an Egg that's also a base form and is not a legendary (i.e. not Phione or Manaphy). Significant alt forms (Alola forms) and Basculin's blue form are added as an extra entry, whereas Frillish, Flabébé and Shellos decide their form after they get picked.
 ✓✓ One script handles the training NPC, who allows you to train up your levels (with varying Happiny line teams depending on badge count), stats (with full teams of 3 EV awarding Pokémon), or get a status applied to your Pokémon (using a Smeargle with the appropriate status move).
+
+✓ The Pokémon Music channel is edited to play what was the Hoenn Sound at any time/day of the week. The text listed when this plays has also been modified.

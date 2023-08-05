@@ -428,6 +428,7 @@ BOOL btl_scr_cmd_24_jumptocurmoveeffectscript(void *bw, struct BattleStruct *sp)
             //case MOVE_EFFECT_SECRET_POWER: // need a different way of doing this i think
             case MOVE_EFFECT_LOWER_SP_ATK_HIT:
             case MOVE_EFFECT_THUNDER:
+            case MOVE_EFFECT_FAKE_OUT:
             case MOVE_EFFECT_FLINCH_PARALYZE_HIT:
             case MOVE_EFFECT_FLINCH_DOUBLE_DAMAGE_FLY_OR_BOUNCE: // removes the double damage flying too
             case MOVE_EFFECT_LOWER_SP_DEF_2_HIT:

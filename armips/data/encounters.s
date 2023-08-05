@@ -1686,7 +1686,7 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 12, 14, 12, 14, 12, 14, 14, 14, 12, 12, 14, 14
+walklevels 12, 14, 12, 14, 12, 14, 14, 14, 12, 14, 14, 14
 
 // morning encounter slots
 pokemon SPECIES_SPEAROW
@@ -1699,8 +1699,8 @@ pokemon SPECIES_CROAGUNK
 pokemon SPECIES_GULPIN
 pokemon SPECIES_MARILL
 pokemon SPECIES_MARILL
-pokemon SPECIES_MARILL
 pokemon SPECIES_KRICKETUNE
+pokemon SPECIES_LICKITUNG
 
 // day encounter slots
 pokemon SPECIES_SPEAROW
@@ -1713,8 +1713,8 @@ pokemon SPECIES_CROAGUNK
 pokemon SPECIES_GULPIN
 pokemon SPECIES_MARILL
 pokemon SPECIES_MARILL
-pokemon SPECIES_MARILL
 pokemon SPECIES_KRICKETUNE
+pokemon SPECIES_LICKITUNG
 
 // night encounter slots
 pokemon SPECIES_HOUNDOUR
@@ -1727,8 +1727,8 @@ pokemon SPECIES_CROAGUNK
 pokemon SPECIES_GULPIN
 pokemon SPECIES_MARILL
 pokemon SPECIES_MARILL
-pokemon SPECIES_MARILL
 pokemon SPECIES_KRICKETUNE
+pokemon SPECIES_LICKITUNG
 
 // hoenn encounter slots
 pokemon SPECIES_TRUBBISH

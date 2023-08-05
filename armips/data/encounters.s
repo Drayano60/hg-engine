@@ -1790,17 +1790,17 @@ rocksmashrate 0
 oldrodrate FISHING_RATE
 goodrodrate FISHING_RATE
 superrodrate FISHING_RATE
-walklevels 14, 15, 14, 14, 14, 14, 14, 14, 14, 15, 14, 15
+walklevels 14, 15, 14, 15, 14, 15, 14, 14, 14, 15, 14, 15
 
 // morning encounter slots
 pokemon SPECIES_PARAS
 pokemon SPECIES_PARAS
-pokemon SPECIES_PICHU
-pokemon SPECIES_PICHU
-pokemon SPECIES_WEEDLE
 pokemon SPECIES_CATERPIE
+pokemon SPECIES_CATERPIE
+pokemon SPECIES_WEEDLE
+pokemon SPECIES_WEEDLE
+pokemon SPECIES_PICHU
 pokemon SPECIES_NINCADA
-pokemon SPECIES_SLAKOTH
 pokemon SPECIES_METAPOD
 pokemon SPECIES_METAPOD
 pokemon SPECIES_KAKUNA
@@ -1809,12 +1809,12 @@ pokemon SPECIES_KAKUNA
 // day encounter slots
 pokemon SPECIES_PARAS
 pokemon SPECIES_PARAS
-pokemon SPECIES_PICHU
-pokemon SPECIES_PICHU
-pokemon SPECIES_WEEDLE
 pokemon SPECIES_CATERPIE
+pokemon SPECIES_CATERPIE
+pokemon SPECIES_WEEDLE
+pokemon SPECIES_WEEDLE
+pokemon SPECIES_PICHU
 pokemon SPECIES_NINCADA
-pokemon SPECIES_SLAKOTH
 pokemon SPECIES_METAPOD
 pokemon SPECIES_METAPOD
 pokemon SPECIES_KAKUNA
@@ -1827,8 +1827,8 @@ pokemon SPECIES_ODDISH
 pokemon SPECIES_ODDISH
 pokemon SPECIES_VENONAT
 pokemon SPECIES_VENONAT
+pokemon SPECIES_PICHU
 pokemon SPECIES_NINCADA
-pokemon SPECIES_SLAKOTH
 pokemon SPECIES_MURKROW
 pokemon SPECIES_MURKROW
 pokemon SPECIES_MISDREAVUS

@@ -7,6 +7,8 @@ NPCs:
 2103 - Elemental monkey gift from Primo.
 2104 - Cleanse Tag gift in Sprout Tower.
 2105 - Sharp Beak gift in Violet City.
+2106 - Starter gift in Azalea.
+2107 - TM46 Thief gift in Azalea.
 
 2200 - Rare Candy item ball on Route 46.
 2201 - Poison Barb item ball on Route 32.

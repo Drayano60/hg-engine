@@ -123,6 +123,25 @@ Union Cave (1F/B1F)
 ✓ Changed the Awakening to a Hard Stone and moved it slightly.
 ✓ Added an Oval Stone item ball on the little island in the pond on 1F.
 
+Route 33
+✓ No changes.
+
+Azalea Town
+✓ Added Prof Elm's assistant in the Poké Mart, who will give a Lv. 5 starter of the player's choice.
+✓ Added a burglar next to Kurt's house who gives TM46.
+✓ Kurt now gives you HM01 instead of a Fast Ball.
+✓ Kurt now instantly makes the respective Poké Balls when he's given apricorns instead of it being a daily event.
+
+Slowpoke Well
+✓ Added an extra Rocket Grunt F using Mickey (141).
+✓ Removed the Strength boulder and moved Proton further on. Adjusted movement scripts to match.
+✓ Changed Super Potion to a Lagging Tail and moved it.
+✓ Removed some of the Ilex Forest trigger activations from the script.
+✓ You're now healed after the Proton fight (this is applied in Kurt's house afterwards).
+
+Ilex Forest
+✓ Shifted all of the triggers/overworlds involving the Farfetch'd thing to the bottom left, out of bounds. Annoying to do on replays.
+
 Miscellaneous
 ✓ Scripts for overworld usage of HMs has been adjusted.
 ✓✓ Script #15 and Function #25 now simply check the starter has been given (Flag 106) and will instantly headbutt a tree if this passes.

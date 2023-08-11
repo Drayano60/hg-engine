@@ -30,7 +30,9 @@ arm9 PokemonMusicTable 080518D4
 arm9 TrainerMusicTable 08051890
 
 # Table for trainer class prize money
+# Trainer Class Money Table
 0012 PrizeMoney 08008380
+0012 PrizeMoney+2 08008384
 
 # Move Tutor Table
 0001 MoveTutorTable 02202C20

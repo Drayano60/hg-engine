@@ -3343,6 +3343,7 @@ pokemon SPECIES_MAGIKARP
 
 
 /************** Ruins of Alph (Outside - Lower Half) **************/
+/** Unused **/
 encounterdata  54
 
 walkrate 25 // Changed from 10

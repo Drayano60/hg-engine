@@ -6110,6 +6110,7 @@ levelup SPECIES_QWILFISH
     terminatelearnset
 
 levelup SPECIES_SHUCKLE
+    learnset MOVE_DEFENSE_CURL, 1
     learnset MOVE_BIDE, 1
     learnset MOVE_WRAP, 1
     learnset MOVE_WITHDRAW, 1

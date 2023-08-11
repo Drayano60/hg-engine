@@ -95,7 +95,7 @@ Heals status problems if\nit is raining.
 In sun, boosts Sp. Atk by\n50% but loses 12.5% HP.
 Boosts Speed by 50% if\nthere is a status problem.
 All the Pokémon’s moves\nbecome the Normal type.
-Critical hits deal triple\ndamage instead of double.
+Critical hits deal x2.25\ndamage instead of x1.5.
 The Pokémon only takes\ndamage from attacks.
 Ensures attacks by or\nagainst the Pokémon land. 
 The Pokémon moves after\neven slower foes.

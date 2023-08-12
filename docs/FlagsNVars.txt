@@ -18,7 +18,7 @@ NPCs:
 2114 - Sachet gift in Goldenrod
 2115 - Whipped Dream gift in Goldenrod
 2116 - TM21 Dazzling Gleam gift in Ecruteak
-2117 - Morty in front of Burned Tower
+2117 - Morty in front of Burned Tower, and the Eusine/Grunts in Ice Path
 
 2200 - Rare Candy item ball on Route 46.
 2201 - Poison Barb item ball on Route 32.
@@ -30,6 +30,9 @@ NPCs:
 2207 - TM49 Echoed Voice item ball in Radio Tower 1F
 2208 - Wise Glasses item ball in Goldenrod
 2209 - Spell Tag item ball in Ecruteak
+2210 - TM47 Steel Wing item ball on Route 38
+2211 - Black Belt item ball in Mt. Mortar.
+2212 - Never-Melt Ice item ball in Ice Path
 
 2600 - HG-e hidden ability flag.
 2601 - HG-e starter hidden ability flag.

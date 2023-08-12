@@ -218,14 +218,40 @@ Ecruteak City
 ✓ Added an item ball with a Spell Tag at the top left of town. Moved an old man to stop him blocking it.
 ✓ Morty now blocks Burned Tower until some events in Ice Path.
 
+Route 38
+✓ Added a blockade featuring Miltank to block you from moving onto Route 39 until Morty is defeated.
+✓ Added an item ball containing TM47 Steel Wing.
+
 Mt. Mortar
 ✓ The central room now has a Kimono Girl event that forces you to explore the room as far as possible.
+✓ Moved one Trainer and added two new ones using Mickeys (170, 376).
+✓ Ultra Ball -> TM31 Brick Break.
+✓ Added an item ball containing a Black Belt on the right side exit.
+
+Route 42
+✓ Adjusted trainer directions a little.
+
+Mahogany Town
+✓ Route 43 is blocked off until after Jasmine.
+✓ The Rage Candy Bar man + trigger is removed.
+
+Route 44
+✓ Rearranged trainers.
+✓ Ultra Ball -> Dawn Stone and moved a bit.
+✓ Moved hidden Elixir to a mini grass tile on the area near Ice Path's entrance.
+
+Ice Path
+✓ Added an event with Eusine and Rocket Grunts. Following a battle, you get TM03 Psyshock, and then the option to return to Ecruteak (where you can now progress the Burned Tower).
+✓ The NPC blocking you until you pick up Waterfall has been removed. Waterfall itself is still there though.
+✓ B1F now has a blockade until later.
+✓ Added an item ball on 1F containing a Never-Melt Ice.
 
 Miscellaneous
 ✓ Scripts for overworld usage of HMs has been adjusted.
 ✓✓ Script #15 and Function #25 now simply check the starter has been given (Flag 106) and will instantly headbutt a tree if this passes.
 ✓✓ Script #2 and Function #5 now check for HM06 in the Bag and the Zephyr Badge, and will instantly smash a rock if this passes.
 ✓✓ Script #1 and Function #2 now check for HM01 in the Bag and the Hive Badge, and will instantly cut a tree if this passes.
+✓✓ Done for Strength also.
 
 ✓ Added common scripts for use in the Pokémon Center. (Referred to as 9018, 9019, 9020 ingame.) They're used on a Waiter, Maid and Waiter respectively (OW 59 and OW 60).
 ✓✓ One script handles changing things about Pokémon, including move tutors, move reminding, move deletion, nicknaming and checking Hidden Power. The move tutors use Script File 2 still but it's been somewhat adapted.

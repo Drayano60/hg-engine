@@ -387,8 +387,8 @@ levelup SPECIES_RATTATA
     learnset MOVE_HYPER_FANG, 15
     learnset MOVE_ASSURANCE, 18
     learnset MOVE_HONE_CLAWS, 24
-    learnset MOVE_REVERSAL, 28
-    learnset MOVE_CRUNCH, 32
+    learnset MOVE_CRUNCH, 28
+    learnset MOVE_REVERSAL, 32
     learnset MOVE_SUPER_FANG, 36
     learnset MOVE_SUCKER_PUNCH, 40
     learnset MOVE_DOUBLE_EDGE, 44
@@ -434,8 +434,8 @@ levelup SPECIES_RATTATA_ALOLAN
     learnset MOVE_HYPER_FANG, 15
     learnset MOVE_ASSURANCE, 18
     learnset MOVE_HONE_CLAWS, 24
-    learnset MOVE_REVERSAL, 28
-    learnset MOVE_CRUNCH, 32
+    learnset MOVE_CRUNCH, 28
+    learnset MOVE_REVERSAL, 32
     learnset MOVE_SUPER_FANG, 36
     learnset MOVE_SUCKER_PUNCH, 40
     learnset MOVE_DOUBLE_EDGE, 44
@@ -460,8 +460,8 @@ levelup SPECIES_RATICATE_ALOLAN
     learnset MOVE_HYPER_FANG, 15
     learnset MOVE_ASSURANCE, 18
     learnset MOVE_HONE_CLAWS, 24
-    learnset MOVE_REVERSAL, 28
-    learnset MOVE_CRUNCH, 32
+    learnset MOVE_CRUNCH, 28
+    learnset MOVE_REVERSAL, 32
     learnset MOVE_SUPER_FANG, 36
     learnset MOVE_SUCKER_PUNCH, 40
     learnset MOVE_DOUBLE_EDGE, 44

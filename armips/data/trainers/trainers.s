@@ -11626,11 +11626,78 @@ party 537
 endparty
 
 // New, Mickey
+trainerdata 376, "Mathis"
+    trainermontype TRAINER_MON_TYPE_FLAGS
+    trainerclass CLASS_BLACK_BELT
+    battletype 0
+    nummons 3
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype2 SINGLE_BATTLE
+    endentry
+
+party 376
+    ivs 0
+    abilityslot 0
+    level 29
+    pokemon SPECIES_RIOLU
+    item 0
+    move MOVE_BRICK_BREAK
+    move MOVE_METAL_CLAW
+    move MOVE_QUICK_ATTACK
+    move MOVE_SCREECH
+    ability ABILITY_PRANKSTER
+    ball ITEM_POKE_BALL
+    setivs 20, 20, 20, 20, 20, 20
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level 29
+    pokemon SPECIES_MACHOKE
+    item 0
+    move MOVE_BRICK_BREAK
+    move MOVE_DUAL_CHOP
+    move MOVE_KNOCK_OFF
+    move MOVE_BULLDOZE
+    ability ABILITY_NO_GUARD
+    ball ITEM_POKE_BALL
+    setivs 20, 20, 20, 20, 20, 20
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level 29
+    pokemon SPECIES_GURDURR
+    item 0
+    move MOVE_BRICK_BREAK
+    move MOVE_ROCK_SLIDE
+    move MOVE_PAYBACK
+    move MOVE_STRENGTH
+    ability ABILITY_SHEER_FORCE
+    ball ITEM_POKE_BALL
+    setivs 20, 20, 20, 20, 20, 20
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+endparty
+
+// New, Mickey
 trainerdata 170, "Luke"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_ACE_TRAINER_M
     battletype 0
-    nummons 2
+    nummons 3
     item 0 
     item 0 
     item 0 
@@ -11640,6 +11707,23 @@ trainerdata 170, "Luke"
     endentry
 
 party 170
+    ivs 0
+    abilityslot 0
+    level 30
+    pokemon SPECIES_MIGHTYENA
+    item 0
+    move MOVE_SUCKER_PUNCH
+    move MOVE_THUNDER_FANG
+    move MOVE_FIRE_FANG
+    move MOVE_ICE_FANG
+    ability ABILITY_INTIMIDATE
+    ball ITEM_POKE_BALL
+    setivs 25, 25, 25, 25, 25, 25
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
     ivs 0
     abilityslot 0
     level 30
@@ -11694,7 +11778,7 @@ party 123
     ivs 0
     abilityslot 0
     level 28
-    pokemon SPECIES_BASCULIN
+    monwithform SPECIES_BASCULIN, 1
     item 0
     move MOVE_AQUA_JET
     move MOVE_HEADBUTT
@@ -11728,7 +11812,7 @@ party 123
     ivs 0
     abilityslot 0
     level 28
-    monwithform SPECIES_BASCULIN, 1
+    monwithform SPECIES_BASCULIN, 2
     item 0
     move MOVE_AQUA_JET
     move MOVE_HEADBUTT
@@ -12145,13 +12229,13 @@ party 405
     ivs 0
     abilityslot 0
     level 29
-    pokemon SPECIES_SWOOBAT
+    pokemon SPECIES_XATU
     item 0
     move MOVE_PSYSHOCK
-    move MOVE_AIR_CUTTER
-    move MOVE_TAILWIND
-    move MOVE_ATTRACT
-    ability ABILITY_UNAWARE
+    move MOVE_AIR_SLASH
+    move MOVE_OMINOUS_WIND
+    move MOVE_CONFUSE_RAY
+    ability ABILITY_MAGIC_BOUNCE
     ball ITEM_POKE_BALL
     setivs 20, 20, 20, 20, 20, 20
     setevs 0, 0, 0, 0, 0, 0
@@ -12871,7 +12955,141 @@ endparty
 
 /******************************************** Ice Path - Upper ********************************************/
 
+// new
+trainerdata 813, "Grunt"
+    trainermontype TRAINER_MON_TYPE_FLAGS
+    trainerclass CLASS_TEAM_ROCKET
+    battletype 0
+    nummons 3
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype2 SINGLE_BATTLE
+    endentry
+
+party 813
+    ivs 0
+    abilityslot 0
+    level 30
+    monwithform SPECIES_RATICATE, 1
+    item 0
+    move MOVE_HYPER_FANG
+    move MOVE_CRUNCH
+    move MOVE_QUICK_ATTACK
+    move MOVE_SWORDS_DANCE
+    ability ABILITY_THICK_FAT
+    ball ITEM_POKE_BALL
+    setivs 20, 20, 20, 20, 20, 20
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level 30
+    pokemon SPECIES_ARIADOS
+    item 0
+    move MOVE_LEECH_LIFE
+    move MOVE_POISON_JAB
+    move MOVE_SHADOW_SNEAK
+    move MOVE_SWORDS_DANCE
+    ability ABILITY_SWARM
+    ball ITEM_POKE_BALL
+    setivs 20, 20, 20, 20, 20, 20
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level 30
+    pokemon SPECIES_WATCHOG
+    item 0
+    move MOVE_HYPER_FANG
+    move MOVE_CRUNCH
+    move MOVE_LOW_KICK
+    move MOVE_HYPNOSIS
+    ability ABILITY_KEEN_EYE
+    ball ITEM_POKE_BALL
+    setivs 20, 20, 20, 20, 20, 20
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+endparty
+
 // New
+trainerdata 814, "Grunt"
+    trainermontype TRAINER_MON_TYPE_FLAGS
+    trainerclass CLASS_TEAM_ROCKET_1
+    battletype 0
+    nummons 3
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype2 SINGLE_BATTLE
+    endentry
+
+party 814
+    ivs 0
+    abilityslot 0
+    level 30
+    pokemon SPECIES_LIEPARD
+    item 0
+    move MOVE_FOUL_PLAY
+    move MOVE_ASSIST
+    move MOVE_YAWN
+    move MOVE_TORMENT
+    ability ABILITY_PRANKSTER
+    ball ITEM_POKE_BALL
+    setivs 20, 20, 20, 20, 20, 20
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level 30
+    pokemon SPECIES_SEVIPER
+    item 0
+    move MOVE_POISON_TAIL
+    move MOVE_BITE
+    move MOVE_GLARE
+    move MOVE_SCREECH
+    ability ABILITY_INFILTRATOR
+    ball ITEM_POKE_BALL
+    setivs 20, 20, 20, 20, 20, 20
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level 30
+    pokemon SPECIES_TENTACRUEL
+    item 0
+    move MOVE_BRINE
+    move MOVE_ACID_SPRAY
+    move MOVE_HEX
+    move MOVE_CONFUSE_RAY
+    ability ABILITY_CLEAR_BODY
+    ball ITEM_POKE_BALL
+    setivs 20, 20, 20, 20, 20, 20
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+endparty
+
+// New but not used
 trainerdata 770, "Will"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_ELITE_FOUR_0
@@ -29714,43 +29932,6 @@ party 272
     shinylock 0
     ballseal 0
 endparty
-
-/** These Mickeys were set up but not used **/
-trainerdata 376, "Mickey"
-    trainermontype TRAINER_DATA_TYPE_NOTHING
-    trainerclass CLASS_SWIMMER_M
-    battletype SINGLE_BATTLE
-    nummons 3
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
-    battletype2 0
-    endentry
-
-    party 376
-        // mon 0
-        ivs 0
-        abilityslot 0
-        level 13
-        pokemon SPECIES_STARYU
-        ballseal 0
-
-        // mon 1
-        ivs 0
-        abilityslot 0
-        level 18
-        pokemon SPECIES_STARMIE
-        ballseal 0
-
-        // mon 2
-        ivs 0
-        abilityslot 0
-        level 16
-        pokemon SPECIES_HORSEA
-        ballseal 0
-    endparty
 
 /******************************************** Indigo Plateau ********************************************/
 

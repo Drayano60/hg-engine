@@ -227,6 +227,7 @@ Mt. Mortar
 ✓ Moved one Trainer and added two new ones using Mickeys (170, 376).
 ✓ Ultra Ball -> TM31 Brick Break.
 ✓ Added an item ball containing a Black Belt on the right side exit.
+✓ Modified a trainer's dialogue that mentioned the Karate King.
 
 Route 42
 ✓ Adjusted trainer directions a little.
@@ -234,6 +235,7 @@ Route 42
 Mahogany Town
 ✓ Route 43 is blocked off until after Jasmine.
 ✓ The Rage Candy Bar man + trigger is removed.
+✓ Edited dialogue in Pokémon Center to reference this game's version of evolving/level up moves.
 
 Route 44
 ✓ Rearranged trainers.

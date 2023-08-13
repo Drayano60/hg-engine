@@ -11593,13 +11593,13 @@ party 537
     ivs 0
     abilityslot 0
     level 28
-    pokemon SPECIES_NIDORINA
+    pokemon SPECIES_HELIOPTILE
     item 0
-    move MOVE_POISON_FANG
-    move MOVE_DOUBLE_KICK
-    move MOVE_BITE
-    move MOVE_GROWL
-    ability ABILITY_HUSTLE
+    move MOVE_PARABOLIC_CHARGE
+    move MOVE_BULLDOZE
+    move MOVE_SURF
+    move MOVE_THUNDER_WAVE
+    ability ABILITY_DRY_SKIN
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
     setevs 0, 0, 0, 0, 0, 0
@@ -11831,7 +11831,7 @@ trainerdata 129, "Shane"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_POKE_MANIAC
     battletype 0
-    nummons 1
+    nummons 2
     item 0 
     item 0 
     item 0 
@@ -11843,14 +11843,31 @@ trainerdata 129, "Shane"
 party 129
     ivs 0
     abilityslot 0
-    level 29
-    pokemon SPECIES_KANGASKHAN
+    level 28
+    pokemon SPECIES_NIDORINA
     item 0
-    move MOVE_DIZZY_PUNCH
+    move MOVE_POISON_JAB
+    move MOVE_DOUBLE_KICK
     move MOVE_BITE
     move MOVE_GROWL
-    move MOVE_FAKE_OUT
-    ability ABILITY_SCRAPPY
+    ability ABILITY_HUSTLE
+    ball ITEM_POKE_BALL
+    setivs 15, 15, 15, 15, 15, 15
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level 28
+    pokemon SPECIES_NIDORINO
+    item 0
+    move MOVE_POISON_JAB
+    move MOVE_DOUBLE_KICK
+    move MOVE_HORN_ATTACK
+    move MOVE_GROWL
+    ability ABILITY_HUSTLE
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
     setevs 0, 0, 0, 0, 0, 0

@@ -12456,7 +12456,7 @@ trainerdata 408, "Cybil"
 party 408
     ivs 0
     abilityslot 0
-    level 30
+    level 32
     pokemon SPECIES_DRAGONAIR
     item 0
     move MOVE_BREAKING_SWIPE
@@ -12473,7 +12473,7 @@ party 408
     
     ivs 0
     abilityslot 0
-    level 30
+    level 32
     pokemon SPECIES_FLAAFFY
     item 0
     move MOVE_DISCHARGE
@@ -12490,7 +12490,7 @@ party 408
 
     ivs 0
     abilityslot 0
-    level 30
+    level 32
     pokemon SPECIES_BELLOSSOM
     item 0
     move MOVE_PETAL_BLIZZARD
@@ -12522,7 +12522,7 @@ trainerdata 407, "Allen"
 party 407
     ivs 0
     abilityslot 0
-    level 30
+    level 32
     pokemon SPECIES_CHARMELEON
     item 0
     move MOVE_INCINERATE
@@ -12539,7 +12539,7 @@ party 407
     
     ivs 0
     abilityslot 0
-    level 30
+    level 32
     pokemon SPECIES_MAGNETON
     item 0
     move MOVE_CHARGE_BEAM
@@ -12556,7 +12556,7 @@ party 407
 
     ivs 0
     abilityslot 0
-    level 30
+    level 32
     pokemon SPECIES_DONPHAN
     item 0
     move MOVE_BULLDOZE

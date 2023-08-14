@@ -30,8 +30,8 @@ LEVEL_ELDER_LI equ 13
 LEVEL_VIOLET_GYM equ 13
 LEVEL_FALKNER equ 15
 
-LEVEL_ROUTE_32 equ 15
-LEVEL_UNION_CAVE equ 17
+LEVEL_ROUTE_32 equ 15 /* Also for Route 46 */
+LEVEL_UNION_CAVE equ 17 /* Also for Route 33 */
 LEVEL_SLOWPOKE_WELL equ 19
 LEVEL_PROTON_1 equ 21
 LEVEL_AZALEA_GYM equ 20
@@ -2193,7 +2193,7 @@ trainerdata 147, "Ted"
 party 147
     ivs 0
     abilityslot 0
-    level 15
+    level LEVEL_ROUTE_32
     pokemon SPECIES_MANKEY
     item 0
     move MOVE_KARATE_CHOP
@@ -2210,7 +2210,7 @@ party 147
 
     ivs 0
     abilityslot 0
-    level 15
+    level LEVEL_ROUTE_32
     pokemon SPECIES_TEDDIURSA
     item 0
     move MOVE_FURY_SWIPES
@@ -2242,7 +2242,7 @@ trainerdata 151, "Erin"
 party 151
     ivs 0
     abilityslot 0
-    level 15
+    level LEVEL_ROUTE_32
     pokemon SPECIES_PONYTA
     item 0
     move MOVE_FLAME_CHARGE
@@ -2259,7 +2259,7 @@ party 151
 
     ivs 0
     abilityslot 0
-    level 15
+    level LEVEL_ROUTE_32
     pokemon SPECIES_ODDISH
     item 0
     move MOVE_MEGA_DRAIN
@@ -2276,7 +2276,7 @@ party 151
 
     ivs 0
     abilityslot 0
-    level 15
+    level LEVEL_ROUTE_32
     pokemon SPECIES_CHERUBI
     item 0
     move MOVE_MAGICAL_LEAF
@@ -2308,7 +2308,7 @@ trainerdata 154, "Bailey"
 party 154
     ivs 0
     abilityslot 0
-    level 15
+    level LEVEL_ROUTE_32
     pokemon SPECIES_GEODUDE
     item 0
     move MOVE_ROLLOUT
@@ -2325,7 +2325,7 @@ party 154
 
     ivs 0
     abilityslot 0
-    level 15
+    level LEVEL_ROUTE_32
     pokemon SPECIES_ARON
     item 0
     move MOVE_METAL_CLAW
@@ -2342,7 +2342,7 @@ party 154
 
     ivs 0
     abilityslot 0
-    level 15
+    level LEVEL_ROUTE_32
     pokemon SPECIES_ROGGENROLA
     item 0
     move MOVE_ROCK_TOMB
@@ -2627,7 +2627,7 @@ trainerdata 49, "Albert"
 party 49
     ivs 0
     abilityslot 0
-    level 15
+    level LEVEL_ROUTE_32
     pokemon SPECIES_SHINX
     item 0
     move MOVE_SPARK
@@ -2644,7 +2644,7 @@ party 49
 
     ivs 0
     abilityslot 0
-    level 15
+    level LEVEL_ROUTE_32
     pokemon SPECIES_POOCHYENA
     item 0
     move MOVE_TACKLE
@@ -2661,7 +2661,7 @@ party 49
 
     ivs 0
     abilityslot 0
-    level 15
+    level LEVEL_ROUTE_32
     pokemon SPECIES_LILLIPUP
     item 0
     move MOVE_TAKE_DOWN
@@ -2693,7 +2693,7 @@ trainerdata 27, "Liz"
 party 27
     ivs 0
     abilityslot 0
-    level 15
+    level LEVEL_ROUTE_32
     pokemon SPECIES_NIDORAN_F
     item 0
     move MOVE_POISON_FANG
@@ -2710,7 +2710,7 @@ party 27
 
     ivs 0
     abilityslot 0
-    level 15
+    level LEVEL_ROUTE_32
     pokemon SPECIES_BELLSPROUT
     item 0
     move MOVE_RAZOR_LEAF
@@ -2743,7 +2743,7 @@ trainerdata 88, "Colson"
 party 88
     ivs 0
     abilityslot 0
-    level 15
+    level LEVEL_ROUTE_32
     pokemon SPECIES_OMANYTE
     item 0
     move MOVE_ANCIENT_POWER
@@ -2760,7 +2760,7 @@ party 88
 
     ivs 0
     abilityslot 0
-    level 15
+    level LEVEL_ROUTE_32
     pokemon SPECIES_KABUTO
     item 0
     move MOVE_ANCIENT_POWER
@@ -2777,7 +2777,7 @@ party 88
 
     ivs 0
     abilityslot 0
-    level 15
+    level LEVEL_ROUTE_32
     pokemon SPECIES_LILEEP
     item 0
     move MOVE_ANCIENT_POWER
@@ -2794,7 +2794,7 @@ party 88
 
     ivs 0
     abilityslot 0
-    level 15
+    level LEVEL_ROUTE_32
     pokemon SPECIES_ANORITH
     item 0
     move MOVE_ANCIENT_POWER
@@ -2826,7 +2826,7 @@ trainerdata 26, "Roland"
 party 26
     ivs 0
     abilityslot 0
-    level 15
+    level LEVEL_ROUTE_32
     pokemon SPECIES_NIDORAN_M
     item 0
     move ALLOW_ILLEGAL_MOVES ? MOVE_POISON_FANG : MOVE_POISON_STING
@@ -2843,7 +2843,7 @@ party 26
 
     ivs 0
     abilityslot 0
-    level 15
+    level LEVEL_ROUTE_32
     pokemon SPECIES_BUIZEL
     item 0
     move MOVE_AQUA_JET
@@ -2875,7 +2875,7 @@ trainerdata 60, "Henry"
 party 60
     ivs 0
     abilityslot 0
-    level 15
+    level LEVEL_ROUTE_32
     pokemon SPECIES_POLIWAG
     item 0
     move MOVE_BUBBLE
@@ -2892,7 +2892,7 @@ party 60
 
     ivs 0
     abilityslot 0
-    level 15
+    level LEVEL_ROUTE_32
     pokemon SPECIES_CHINCHOU
     item 0
     move MOVE_BUBBLE_BEAM
@@ -2909,7 +2909,7 @@ party 60
 
     ivs 0
     abilityslot 0
-    level 15
+    level LEVEL_ROUTE_32
     pokemon SPECIES_REMORAID
     item 0
     move MOVE_WATER_PULSE
@@ -2941,7 +2941,7 @@ trainerdata 18, "Justin"
 party 18
     ivs 0
     abilityslot 0
-    level 15
+    level LEVEL_ROUTE_32
     pokemon SPECIES_MAGIKARP
     item 0
     move MOVE_TACKLE
@@ -2958,7 +2958,7 @@ party 18
 
     ivs 0
     abilityslot 0
-    level 20
+    level LEVEL_ROUTE_32+5
     pokemon SPECIES_MAGIKARP
     item 0
     move MOVE_TACKLE
@@ -2975,7 +2975,7 @@ party 18
 
     ivs 0
     abilityslot 0
-    level 15
+    level LEVEL_ROUTE_32
     pokemon SPECIES_MAGIKARP
     item 0
     move MOVE_TACKLE
@@ -3007,7 +3007,7 @@ trainerdata 57, "Ralph"
 party 57
     ivs 0
     abilityslot 0
-    level 15
+    level LEVEL_ROUTE_32
     pokemon SPECIES_GOLDEEN
     item 0
     move MOVE_HORN_ATTACK
@@ -3024,7 +3024,7 @@ party 57
 
     ivs 0
     abilityslot 0
-    level 15
+    level LEVEL_ROUTE_32
     pokemon SPECIES_QWILFISH
     item 0
     move MOVE_POISON_STING
@@ -3041,7 +3041,7 @@ party 57
 
     ivs 0
     abilityslot 0
-    level 15
+    level LEVEL_ROUTE_32
     pokemon SPECIES_FINNEON
     item 0
     move MOVE_WATER_PULSE
@@ -3073,7 +3073,7 @@ trainerdata 56, "Gordon"
 party 56
     ivs 0
     abilityslot 0
-    level 15
+    level LEVEL_ROUTE_32
     pokemon SPECIES_WOOPER
     item 0
     move MOVE_WATER_PULSE
@@ -3090,7 +3090,7 @@ party 56
 
     ivs 0
     abilityslot 0
-    level 15
+    level LEVEL_ROUTE_32
     pokemon SPECIES_SANDSHREW
     item 0
     move MOVE_MAGNITUDE
@@ -3107,7 +3107,7 @@ party 56
 
     ivs 0
     abilityslot 0
-    level 15
+    level LEVEL_ROUTE_32
     pokemon SPECIES_DIGLETT
     item 0
     move MOVE_MAGNITUDE
@@ -3139,7 +3139,7 @@ trainerdata 383, "Peter"
 party 383
     ivs 0
     abilityslot 0
-    level 17
+    level LEVEL_ROUTE_32+2
     pokemon SPECIES_MURKROW
     item 0
     move MOVE_WING_ATTACK
@@ -3156,7 +3156,7 @@ party 383
 
     ivs 0
     abilityslot 0
-    level 17
+    level LEVEL_ROUTE_32+2
     pokemon SPECIES_FLETCHINDER
     item 0
     move MOVE_FLAME_CHARGE
@@ -3188,7 +3188,7 @@ trainerdata 347, "Owain"
 party 347
     ivs 0
     abilityslot 0
-    level 17
+    level LEVEL_ROUTE_32+2
     pokemon SPECIES_GROWLITHE
     item 0
     move MOVE_FLAME_WHEEL
@@ -3205,7 +3205,7 @@ party 347
 
     ivs 0
     abilityslot 0
-    level 17
+    level LEVEL_ROUTE_32+2
     pokemon SPECIES_TYMPOLE
     item 0
     move MOVE_BUBBLE_BEAM
@@ -3222,7 +3222,7 @@ party 347
 
     ivs 0
     abilityslot 0
-    level 17
+    level LEVEL_ROUTE_32+2
     pokemon SPECIES_PANCHAM
     item 0
     move MOVE_ROCK_SMASH
@@ -3239,7 +3239,7 @@ party 347
 
     ivs 0
     abilityslot 0
-    level 17
+    level LEVEL_ROUTE_32+2
     pokemon SPECIES_LARVITAR
     item 0
     move MOVE_ROCK_TOMB
@@ -3672,7 +3672,7 @@ trainerdata 384, "Daniel"
 party 384
     ivs 0
     abilityslot 0
-    level 18
+    level LEVEL_UNION_CAVE+1
     pokemon SPECIES_ONIX
     item 0
     move MOVE_ROCK_THROW
@@ -3704,7 +3704,7 @@ trainerdata 25, "Russel"
 party 25
     ivs 0
     abilityslot 0
-    level 17
+    level LEVEL_UNION_CAVE
     pokemon SPECIES_RHYHORN
     item 0
     move MOVE_BULLDOZE
@@ -3721,7 +3721,7 @@ party 25
 
     ivs 0
     abilityslot 0
-    level 17
+    level LEVEL_UNION_CAVE
     pokemon SPECIES_PHANPY
     item 0
     move MOVE_BULLDOZE
@@ -3738,7 +3738,7 @@ party 25
 
     ivs 0
     abilityslot 0
-    level 17
+    level LEVEL_UNION_CAVE
     pokemon SPECIES_DRILBUR
     item 0
     move MOVE_METAL_CLAW
@@ -3770,7 +3770,7 @@ trainerdata 390, "Ray"
 party 390
     ivs 0
     abilityslot 0
-    level 17
+    level LEVEL_UNION_CAVE
     pokemon SPECIES_VULPIX
     item 0
     move MOVE_INCINERATE
@@ -3787,7 +3787,7 @@ party 390
 
     ivs 0
     abilityslot 0
-    level 17
+    level LEVEL_UNION_CAVE
     pokemon SPECIES_MAGBY
     item 0
     move MOVE_FLAME_WHEEL
@@ -3804,7 +3804,7 @@ party 390
 
     ivs 0
     abilityslot 0
-    level 17
+    level LEVEL_UNION_CAVE
     pokemon SPECIES_PANSEAR
     item 0
     move MOVE_INCINERATE
@@ -3836,7 +3836,7 @@ trainerdata 319, "Bill"
 party 319
     ivs 0
     abilityslot 0
-    level 17
+    level LEVEL_UNION_CAVE
     pokemon SPECIES_KOFFING
     item 0
     move MOVE_SLUDGE
@@ -3853,7 +3853,7 @@ party 319
 
     ivs 0
     abilityslot 0
-    level 17
+    level LEVEL_UNION_CAVE
     pokemon SPECIES_SLUGMA
     item 0
     move MOVE_INCINERATE
@@ -3870,7 +3870,7 @@ party 319
 
     ivs 0
     abilityslot 0
-    level 17
+    level LEVEL_UNION_CAVE
     pokemon SPECIES_DARUMAKA
     item 0
     move MOVE_INCINERATE
@@ -3902,7 +3902,7 @@ trainerdata 23, "Larry"
 party 23
     ivs 0
     abilityslot 0
-    level 17
+    level LEVEL_UNION_CAVE
     pokemon SPECIES_CUBONE
     item ITEM_RARE_BONE
     move MOVE_BONE_CLUB
@@ -3919,7 +3919,7 @@ party 23
 
     ivs 0
     abilityslot 0
-    level 17
+    level LEVEL_UNION_CAVE
     pokemon SPECIES_SLOWPOKE
     item 0
     move MOVE_WATER_GUN
@@ -3936,7 +3936,7 @@ party 23
 
     ivs 0
     abilityslot 0
-    level 17
+    level LEVEL_UNION_CAVE
     pokemon SPECIES_AXEW
     item 0
     move MOVE_SCRATCH
@@ -3969,7 +3969,7 @@ trainerdata 106, "Hideki"
 party 106
     ivs 0
     abilityslot 0
-    level 19
+    level LEVEL_UNION_CAVE+2
     pokemon SPECIES_TYROGUE
     item 0
     move MOVE_POWER_UP_PUNCH
@@ -3986,7 +3986,7 @@ party 106
 
     ivs 0
     abilityslot 0
-    level 19
+    level LEVEL_UNION_CAVE+2
     pokemon SPECIES_MAKUHITA
     item 0
     move MOVE_FORCE_PALM
@@ -4003,7 +4003,7 @@ party 106
 
     ivs 0
     abilityslot 0
-    level 19
+    level LEVEL_UNION_CAVE+2
     pokemon SPECIES_TIMBURR
     item 0
     move MOVE_LOW_KICK
@@ -4433,7 +4433,7 @@ trainerdata 61, "Anthony"
 party 61
     ivs 0
     abilityslot 0
-    level 18
+    level LEVEL_UNION_CAVE+1
     pokemon SPECIES_GEODUDE
     item 0
     move MOVE_MAGNITUDE
@@ -4450,7 +4450,7 @@ party 61
 
     ivs 0
     abilityslot 0
-    level 18
+    level LEVEL_UNION_CAVE+1
     pokemon SPECIES_MACHOP
     item 0
     move MOVE_LOW_SWEEP
@@ -4467,7 +4467,7 @@ party 61
 
     ivs 0
     abilityslot 0
-    level 18
+    level LEVEL_UNION_CAVE+1
     pokemon SPECIES_NOSEPASS
     item 0
     move MOVE_ROCK_TOMB
@@ -4701,7 +4701,7 @@ trainerdata 101, "Grunt"
 party 101
     ivs 0
     abilityslot 0
-    level 19
+    level LEVEL_SLOWPOKE_WELL
     pokemon SPECIES_RATTATA
     item 0
     move MOVE_HYPER_FANG
@@ -4718,7 +4718,7 @@ party 101
 
     ivs 0
     abilityslot 0
-    level 19
+    level LEVEL_SLOWPOKE_WELL
     pokemon SPECIES_DROWZEE
     item 0
     move MOVE_PSYBEAM
@@ -4735,7 +4735,7 @@ party 101
 
     ivs 0
     abilityslot 0
-    level 19
+    level LEVEL_SLOWPOKE_WELL
     pokemon SPECIES_HOUNDOUR
     item 0
     move MOVE_INCINERATE
@@ -4767,7 +4767,7 @@ trainerdata 13, "Grunt"
 party 13
     ivs 0
     abilityslot 0
-    level 19
+    level LEVEL_SLOWPOKE_WELL
     pokemon SPECIES_EKANS
     item 0
     move MOVE_POISON_FANG
@@ -4784,7 +4784,7 @@ party 13
 
     ivs 0
     abilityslot 0
-    level 19
+    level LEVEL_SLOWPOKE_WELL
     pokemon SPECIES_ZUBAT
     item 0
     move MOVE_POISON_FANG
@@ -4801,7 +4801,7 @@ party 13
 
     ivs 0
     abilityslot 0
-    level 19
+    level LEVEL_SLOWPOKE_WELL
     pokemon SPECIES_ODDISH
     item 0
     move MOVE_MEGA_DRAIN
@@ -4833,7 +4833,7 @@ trainerdata 12, "Grunt"
 party 12
     ivs 0
     abilityslot 0
-    level 19
+    level LEVEL_SLOWPOKE_WELL
     pokemon SPECIES_GRIMER
     item 0
     move MOVE_SLUDGE
@@ -4850,7 +4850,7 @@ party 12
 
     ivs 0
     abilityslot 0
-    level 19
+    level LEVEL_SLOWPOKE_WELL
     pokemon SPECIES_VOLTORB
     item 0
     move MOVE_CHARGE_BEAM
@@ -4867,7 +4867,7 @@ party 12
 
     ivs 0
     abilityslot 0
-    level 19
+    level LEVEL_SLOWPOKE_WELL
     pokemon SPECIES_GASTLY
     item 0
     move MOVE_CLEAR_SMOG
@@ -4900,7 +4900,7 @@ trainerdata 141, "Grunt"
 party 141
     ivs 0
     abilityslot 0
-    level 19
+    level LEVEL_SLOWPOKE_WELL
     pokemon SPECIES_MEOWTH
     item 0
     move MOVE_PAY_DAY
@@ -4917,7 +4917,7 @@ party 141
 
     ivs 0
     abilityslot 0
-    level 19
+    level LEVEL_SLOWPOKE_WELL
     pokemon SPECIES_TENTACOOL
     item 0
     move MOVE_BUBBLE_BEAM
@@ -4934,7 +4934,7 @@ party 141
 
     ivs 0
     abilityslot 0
-    level 19
+    level LEVEL_SLOWPOKE_WELL
     pokemon SPECIES_POOCHYENA
     item 0
     move MOVE_BITE
@@ -4966,7 +4966,7 @@ trainerdata 486, "Proton"
 party 486
     ivs 0
     abilityslot 0
-    level 21
+    level LEVEL_PROTON_1
     pokemon SPECIES_SCRAGGY
     item ITEM_NONE
     move MOVE_FEINT_ATTACK
@@ -4983,7 +4983,7 @@ party 486
 
     ivs 0
     abilityslot 0
-    level 21
+    level LEVEL_PROTON_1
     pokemon SPECIES_CACNEA
     item ITEM_NONE
     move MOVE_BULLET_SEED
@@ -5000,7 +5000,7 @@ party 486
 
     ivs 0
     abilityslot 0
-    level 21
+    level LEVEL_PROTON_1
     pokemon SPECIES_KOFFING
     item ITEM_NONE
     move MOVE_VENOSHOCK
@@ -5017,7 +5017,7 @@ party 486
 
     ivs 0
     abilityslot 0
-    level 22
+    level LEVEL_PROTON_1+1
     pokemon SPECIES_GOLBAT
     item ITEM_NONE
     move MOVE_WING_ATTACK
@@ -5051,7 +5051,7 @@ trainerdata 68, "Al"
 party 68
     ivs 0
     abilityslot 0
-    level 20
+    level LEVEL_AZALEA_GYM
     pokemon SPECIES_PINECO
     item ITEM_SILVER_POWDER
     move MOVE_BUG_BITE
@@ -5068,7 +5068,7 @@ party 68
 
     ivs 0
     abilityslot 0
-    level 20
+    level LEVEL_AZALEA_GYM
     pokemon SPECIES_SEWADDLE
     item ITEM_SILVER_POWDER
     move MOVE_BUG_BITE
@@ -5085,7 +5085,7 @@ party 68
 
     ivs 0
     abilityslot 0
-    level 20
+    level LEVEL_AZALEA_GYM
     pokemon SPECIES_BUTTERFREE
     item ITEM_SILVER_POWDER
     move MOVE_SILVER_WIND
@@ -5117,7 +5117,7 @@ trainerdata 67, "Benny"
 party 67
     ivs 0
     abilityslot 0
-    level 20
+    level LEVEL_AZALEA_GYM
     pokemon SPECIES_BURMY
     item ITEM_SILVER_POWDER
     move MOVE_BUG_BITE
@@ -5134,7 +5134,7 @@ party 67
 
     ivs 0
     abilityslot 0
-    level 20
+    level LEVEL_AZALEA_GYM
     pokemon SPECIES_VENIPEDE
     item ITEM_SILVER_POWDER
     move MOVE_BUG_BITE
@@ -5151,7 +5151,7 @@ party 67
 
     ivs 0
     abilityslot 0
-    level 20
+    level LEVEL_AZALEA_GYM
     pokemon SPECIES_BEEDRILL
     item ITEM_SILVER_POWDER
     move MOVE_TWINEEDLE
@@ -5183,7 +5183,7 @@ trainerdata 69, "Josh"
 party 69
     ivs 0
     abilityslot 0
-    level 20
+    level LEVEL_AZALEA_GYM
     pokemon SPECIES_PARAS
     item ITEM_SILVER_POWDER
     move MOVE_BUG_BITE
@@ -5200,7 +5200,7 @@ party 69
 
     ivs 0
     abilityslot 0
-    level 20
+    level LEVEL_AZALEA_GYM
     pokemon SPECIES_KARRABLAST
     item ITEM_SILVER_POWDER
     move MOVE_FURY_CUTTER
@@ -5217,7 +5217,7 @@ party 69
 
     ivs 0
     abilityslot 0
-    level 20
+    level LEVEL_AZALEA_GYM
     pokemon SPECIES_BEAUTIFLY
     item ITEM_SILVER_POWDER
     move MOVE_SILVER_WIND
@@ -5250,7 +5250,7 @@ trainerdata 138, "Sammy"
 party 138
     ivs 0
     abilityslot 0
-    level 20
+    level LEVEL_AZALEA_GYM
     pokemon SPECIES_VENONAT
     item ITEM_SILVER_POWDER
     move MOVE_BUG_BITE
@@ -5267,7 +5267,7 @@ party 138
 
     ivs 0
     abilityslot 0
-    level 20
+    level LEVEL_AZALEA_GYM
     pokemon SPECIES_SHELMET
     item ITEM_SILVER_POWDER
     move MOVE_STRUGGLE_BUG
@@ -5284,7 +5284,7 @@ party 138
 
     ivs 0
     abilityslot 0
-    level 20
+    level LEVEL_AZALEA_GYM
     pokemon SPECIES_DUSTOX
     item ITEM_SILVER_POWDER
     move MOVE_SILVER_WIND
@@ -5316,7 +5316,7 @@ trainerdata 10, "Amy & Mimi"
 party 10
     ivs 0
     abilityslot 0
-    level 20
+    level LEVEL_AZALEA_GYM
     pokemon SPECIES_VOLBEAT
     item ITEM_SILVER_POWDER
     move MOVE_CHARGE_BEAM
@@ -5333,7 +5333,7 @@ party 10
 
     ivs 0
     abilityslot 0
-    level 20
+    level LEVEL_AZALEA_GYM
     pokemon SPECIES_ILLUMISE
     item ITEM_SILVER_POWDER
     move MOVE_DRAINING_KISS
@@ -5366,7 +5366,7 @@ trainerdata 375, "Cesar"
 party 375
     ivs 0
     abilityslot 0
-    level 21
+    level LEVEL_AZALEA_GYM+1
     pokemon SPECIES_DWEBBLE
     item ITEM_SILVER_POWDER
     move MOVE_BUG_BITE
@@ -5383,7 +5383,7 @@ party 375
 
     ivs 0
     abilityslot 0
-    level 21
+    level LEVEL_AZALEA_GYM+1
     pokemon SPECIES_SKORUPI
     item ITEM_SILVER_POWDER
     move MOVE_SKITTER_SMACK
@@ -5400,7 +5400,7 @@ party 375
 
     ivs 0
     abilityslot 0
-    level 21
+    level LEVEL_AZALEA_GYM+1
     monwithform SPECIES_VIVILLON, 5
     item ITEM_SILVER_POWDER
     move MOVE_SILVER_WIND
@@ -5433,7 +5433,7 @@ trainerdata 107, "Louise"
 party 107
     ivs 0
     abilityslot 0
-    level 21
+    level LEVEL_AZALEA_GYM+1
     pokemon SPECIES_LARVESTA
     item ITEM_SILVER_POWDER
     move MOVE_POUNCE
@@ -5450,7 +5450,7 @@ party 107
 
     ivs 0
     abilityslot 0
-    level 21
+    level LEVEL_AZALEA_GYM+1
     pokemon SPECIES_JOLTIK
     item ITEM_SILVER_POWDER
     move MOVE_ELECTROWEB
@@ -5467,7 +5467,7 @@ party 107
 
     ivs 0
     abilityslot 0
-    level 21
+    level LEVEL_AZALEA_GYM+1
     pokemon SPECIES_PINSIR
     item ITEM_SILVER_POWDER
     move MOVE_BUG_BITE
@@ -5499,7 +5499,7 @@ trainerdata 21, "Bugsy"
 party 21
     ivs 0
     abilityslot 0
-    level 22
+    level LEVEL_BUGSY
     pokemon SPECIES_YANMA
     item ITEM_SHARP_BEAK
     move MOVE_U_TURN
@@ -5516,7 +5516,7 @@ party 21
 
     ivs 0
     abilityslot 0
-    level 22
+    level LEVEL_BUGSY
     pokemon SPECIES_LEDIAN
     item ITEM_SILVER_POWDER
     move MOVE_U_TURN
@@ -5533,7 +5533,7 @@ party 21
 
     ivs 0
     abilityslot 0
-    level 22
+    level LEVEL_BUGSY
     pokemon SPECIES_ARIADOS
     item ITEM_POISON_BARB
     move ALLOW_ILLEGAL_MOVES ? MOVE_SKITTER_SMACK : MOVE_BUG_BITE
@@ -5550,7 +5550,7 @@ party 21
 
     ivs 0
     abilityslot 0
-    level 22
+    level LEVEL_BUGSY
     pokemon SPECIES_SHUCKLE
     item ITEM_BERRY_JUICE
     move MOVE_STRUGGLE_BUG
@@ -5567,7 +5567,7 @@ party 21
 
     ivs 1 /* Prevents shiny */
     abilityslot 0
-    level 22
+    level LEVEL_BUGSY
     pokemon SPECIES_HERACROSS
     item ITEM_BLACK_BELT
     move MOVE_BUG_BITE
@@ -5584,7 +5584,7 @@ party 21
 
     ivs 0
     abilityslot 0
-    level 23
+    level LEVEL_BUGSY+1
     pokemon SPECIES_SCYTHER
     item ITEM_SITRUS_BERRY
     move MOVE_U_TURN
@@ -5602,7 +5602,7 @@ endparty
 
 /******************************************** Azalea Town ********************************************/
 
-// New
+// New, not used
 trainerdata 763, "Pallardo"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_BURGLAR
@@ -5668,7 +5668,7 @@ trainerdata 1, "Silver"
 party 1
     ivs 0
     abilityslot 0
-    level 22
+    level LEVEL_BUGSY
     pokemon SPECIES_GASTLY
     item 0
     move MOVE_HEX
@@ -5685,7 +5685,7 @@ party 1
 
     ivs 0
     abilityslot 0
-    level 22
+    level LEVEL_BUGSY
     pokemon SPECIES_MAGBY
     item 0
     move MOVE_FLAME_WHEEL
@@ -5702,7 +5702,7 @@ party 1
 
     ivs 0
     abilityslot 0
-    level 22
+    level LEVEL_BUGSY
     pokemon SPECIES_KADABRA
     item 0
     move MOVE_PSYBEAM
@@ -5719,7 +5719,7 @@ party 1
 
     ivs 0
     abilityslot 0
-    level 23
+    level LEVEL_BUGSY+1
     pokemon SPECIES_BAYLEEF
     item ITEM_MIRACLE_SEED
     move MOVE_MAGICAL_LEAF
@@ -5751,7 +5751,7 @@ trainerdata 266, "Silver"
 party 266
     ivs 0
     abilityslot 0
-    level 22
+    level LEVEL_BUGSY
     pokemon SPECIES_GASTLY
     item 0
     move MOVE_HEX
@@ -5768,7 +5768,7 @@ party 266
 
     ivs 0
     abilityslot 0
-    level 22
+    level LEVEL_BUGSY
     pokemon SPECIES_HORSEA
     item 0
     move MOVE_BUBBLE_BEAM
@@ -5785,7 +5785,7 @@ party 266
 
     ivs 0
     abilityslot 0
-    level 22
+    level LEVEL_BUGSY
     pokemon SPECIES_KADABRA
     item 0
     move MOVE_PSYBEAM
@@ -5802,7 +5802,7 @@ party 266
 
     ivs 0
     abilityslot 0
-    level 23
+    level LEVEL_BUGSY+1
     pokemon SPECIES_QUILAVA
     item ITEM_CHARCOAL
     move MOVE_INCINERATE
@@ -5834,7 +5834,7 @@ trainerdata 269, "Silver"
 party 269
     ivs 0
     abilityslot 0
-    level 22
+    level LEVEL_BUGSY
     pokemon SPECIES_GASTLY
     item 0
     move MOVE_HEX
@@ -5851,7 +5851,7 @@ party 269
 
     ivs 0
     abilityslot 0
-    level 22
+    level LEVEL_BUGSY
     pokemon SPECIES_ELEKID
     item 0
     move MOVE_SHOCK_WAVE
@@ -5868,7 +5868,7 @@ party 269
 
     ivs 0
     abilityslot 0
-    level 22
+    level LEVEL_BUGSY
     pokemon SPECIES_KADABRA
     item 0
     move MOVE_PSYBEAM
@@ -5885,7 +5885,7 @@ party 269
 
     ivs 0
     abilityslot 0
-    level 23
+    level LEVEL_BUGSY+1
     pokemon SPECIES_CROCONAW
     item ITEM_MYSTIC_WATER
     move ALLOW_ILLEGAL_MOVES ? MOVE_AQUA_CUTTER : MOVE_WATER_PULSE

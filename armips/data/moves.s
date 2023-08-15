@@ -9882,7 +9882,7 @@ movedata MOVE_DAZZLING_GLEAM, "Dazzling Gleam"
     accuracy 100
     pp 10
     effectchance 0
-    target MOVE_TARGET_FOES_AND_ALLY
+    target MOVE_TARGET_BOTH
     priority 0
     flags FLAG_PROTECT | FLAG_MIRROR_MOVE
     appeal 0

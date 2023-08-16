@@ -19046,7 +19046,7 @@ trainerdata 403, "Spencer"
 party 403
     ivs 0
     abilityslot 0
-    level 40
+    level LEVEL_ROUTE_43
     pokemon SPECIES_SANDSLASH
     item 0
     move MOVE_MAGNITUDE
@@ -19063,7 +19063,7 @@ party 403
 
     ivs 0
     abilityslot 0
-    level 40
+    level LEVEL_ROUTE_43
     pokemon SPECIES_SWOOBAT
     item 0
     move MOVE_ESPER_WING
@@ -19080,7 +19080,7 @@ party 403
 
     ivs 0
     abilityslot 0
-    level 40
+    level LEVEL_ROUTE_43
     pokemon SPECIES_PINSIR
     item 0
     move MOVE_X_SCISSOR
@@ -19112,7 +19112,7 @@ trainerdata 402, "Tiffany"
 party 402
     ivs 0
     abilityslot 0
-    level 40
+    level LEVEL_ROUTE_43
     pokemon SPECIES_CLEFABLE
     item 0
     move MOVE_MOONBLAST
@@ -19129,7 +19129,7 @@ party 402
 
     ivs 0
     abilityslot 0
-    level 40
+    level LEVEL_ROUTE_43
     pokemon SPECIES_AUDINO
     item 0
     move MOVE_HYPER_VOICE
@@ -19146,7 +19146,7 @@ party 402
 
     ivs 0
     abilityslot 0
-    level 40
+    level LEVEL_ROUTE_43
     pokemon SPECIES_WIGGLYTUFF
     item 0
     move ALLOW_ILLEGAL_MOVES ? MOVE_MOONBLAST : MOVE_DAZZLING_GLEAM
@@ -19178,7 +19178,7 @@ trainerdata 131, "Brent"
 party 131
     ivs 0
     abilityslot 0
-    level 40
+    level LEVEL_ROUTE_43
     pokemon SPECIES_NIDOQUEEN
     item 0
     move MOVE_DRILL_RUN
@@ -19195,7 +19195,7 @@ party 131
 
     ivs 0
     abilityslot 0
-    level 40
+    level LEVEL_ROUTE_43
     pokemon SPECIES_TROPIUS
     item 0
     move MOVE_LEAF_BLADE
@@ -19212,7 +19212,7 @@ party 131
 
     ivs 0
     abilityslot 0
-    level 40
+    level LEVEL_ROUTE_43
     pokemon SPECIES_LICKILICKY
     item 0
     move MOVE_BODY_SLAM
@@ -19276,7 +19276,7 @@ trainerdata 130, "Beckett"
 party 130
     ivs 0
     abilityslot 0
-    level 40
+    level LEVEL_ROUTE_43
     pokemon SPECIES_SLOWBRO
     item 0
     move MOVE_SCALD
@@ -19293,7 +19293,7 @@ party 130
 
     ivs 0
     abilityslot 0
-    level 40
+    level LEVEL_ROUTE_43
     pokemon SPECIES_BASTIODON
     item 0
     move MOVE_ROCK_BLAST
@@ -19310,7 +19310,7 @@ party 130
 
     ivs 0
     abilityslot 0
-    level 40
+    level LEVEL_ROUTE_43
     pokemon SPECIES_RHYDON
     item 0
     move MOVE_DRILL_RUN
@@ -19342,7 +19342,7 @@ trainerdata 132, "Ron"
 party 132
     ivs 0
     abilityslot 0
-    level 40
+    level LEVEL_ROUTE_43
     pokemon SPECIES_NIDOKING
     item 0
     move MOVE_POISON_JAB
@@ -19359,7 +19359,7 @@ party 132
 
     ivs 0
     abilityslot 0
-    level 40
+    level LEVEL_ROUTE_43
     pokemon SPECIES_RAMPARDOS
     item 0
     move MOVE_ROCK_SLIDE
@@ -19376,7 +19376,7 @@ party 132
 
     ivs 0
     abilityslot 0
-    level 40
+    level LEVEL_ROUTE_43
     pokemon SPECIES_EXPLOUD
     item 0
     move MOVE_HYPER_VOICE
@@ -19859,7 +19859,7 @@ trainerdata 126, "Andre"
 party 126
     ivs 0
     abilityslot 0
-    level 42
+    level LEVEL_LAKE_OF_RAGE
     pokemon SPECIES_GYARADOS
     item 0
     move MOVE_AQUA_TAIL
@@ -19891,7 +19891,7 @@ trainerdata 127, "Raymond"
 party 127
     ivs 0
     abilityslot 0
-    level 42
+    level LEVEL_LAKE_OF_RAGE
     pokemon SPECIES_MILOTIC
     item 0
     move MOVE_WATER_PULSE
@@ -19923,7 +19923,7 @@ trainerdata 116, "Lois"
 party 116
     ivs 0
     abilityslot 0
-    level 43
+    level LEVEL_LAKE_OF_RAGE+1
     pokemon SPECIES_NINETALES
     item 0
     move MOVE_FLAMETHROWER
@@ -19940,7 +19940,7 @@ party 116
 
     ivs 0
     abilityslot 0
-    level 43
+    level LEVEL_LAKE_OF_RAGE+1
     pokemon SPECIES_JUMPLUFF
     item 0
     move MOVE_SEED_BOMB
@@ -19957,7 +19957,7 @@ party 116
 
     ivs 0
     abilityslot 0
-    level 43
+    level LEVEL_LAKE_OF_RAGE+1
     pokemon SPECIES_AMPHAROS
     item 0
     move MOVE_THUNDERBOLT
@@ -19989,7 +19989,7 @@ trainerdata 109, "Alton"
 party 109
     ivs 0
     abilityslot 0
-    level 43
+    level LEVEL_LAKE_OF_RAGE+1
     pokemon SPECIES_SCEPTILE
     item 0
     move MOVE_LEAF_BLADE
@@ -20006,7 +20006,7 @@ party 109
 
     ivs 0
     abilityslot 0
-    level 43
+    level LEVEL_LAKE_OF_RAGE+1
     pokemon SPECIES_BLAZIKEN
     item 0
     move MOVE_BLAZE_KICK
@@ -20023,7 +20023,7 @@ party 109
 
     ivs 0
     abilityslot 0
-    level 43
+    level LEVEL_LAKE_OF_RAGE+1
     pokemon SPECIES_SWAMPERT
     item 0
     move MOVE_MUDDY_WATER
@@ -20057,7 +20057,7 @@ trainerdata 223, "Grunt"
 party 223
     ivs 0
     abilityslot 0
-    level 41
+    level LEVEL_ROCKET_HIDEOUT
     pokemon SPECIES_GOLBAT
     item 0
     move MOVE_VENOSHOCK
@@ -20074,7 +20074,7 @@ party 223
 
     ivs 0
     abilityslot 0
-    level 41
+    level LEVEL_ROCKET_HIDEOUT
     pokemon SPECIES_HYPNO
     item 0
     move MOVE_PSYSHOCK
@@ -20106,7 +20106,7 @@ trainerdata 224, "Grunt"
 party 224
     ivs 0
     abilityslot 0
-    level 41
+    level LEVEL_ROCKET_HIDEOUT
     pokemon SPECIES_GOLBAT
     item 0
     move MOVE_POISON_FANG
@@ -20123,7 +20123,7 @@ party 224
 
     ivs 0
     abilityslot 0
-    level 41
+    level LEVEL_ROCKET_HIDEOUT
     pokemon SPECIES_MUK
     item 0
     move MOVE_POISON_JAB
@@ -20155,7 +20155,7 @@ trainerdata 216, "Grunt"
 party 216
     ivs 0
     abilityslot 0
-    level 41
+    level LEVEL_ROCKET_HIDEOUT
     pokemon SPECIES_RATICATE
     item 0
     move MOVE_HYPER_FANG
@@ -20172,7 +20172,7 @@ party 216
 
     ivs 0
     abilityslot 0
-    level 41
+    level LEVEL_ROCKET_HIDEOUT
     pokemon SPECIES_NIDORINO
     item 0
     move MOVE_POISON_JAB
@@ -20189,7 +20189,7 @@ party 216
 
     ivs 0
     abilityslot 0
-    level 41
+    level LEVEL_ROCKET_HIDEOUT
     pokemon SPECIES_PRIMEAPE
     item 0
     move MOVE_CROSS_CHOP
@@ -20221,7 +20221,7 @@ trainerdata 470, "Gregg"
 party 470
     ivs 0
     abilityslot 0
-    level 41
+    level LEVEL_ROCKET_HIDEOUT
     pokemon SPECIES_MAGNETON
     item 0
     move MOVE_DISCHARGE
@@ -20238,7 +20238,7 @@ party 470
 
     ivs 0
     abilityslot 0
-    level 41
+    level LEVEL_ROCKET_HIDEOUT
     pokemon SPECIES_KADABRA
     item 0
     move MOVE_PSYCHIC
@@ -20255,7 +20255,7 @@ party 470
 
     ivs 0
     abilityslot 0
-    level 41
+    level LEVEL_ROCKET_HIDEOUT
     pokemon SPECIES_PORYGON2
     item 0
     move MOVE_TRI_ATTACK
@@ -20287,7 +20287,7 @@ trainerdata 220, "Grunt"
 party 220
     ivs 0
     abilityslot 0
-    level 41
+    level LEVEL_ROCKET_HIDEOUT
     pokemon SPECIES_VENOMOTH
     item 0
     move MOVE_BUG_BUZZ
@@ -20304,7 +20304,7 @@ party 220
 
     ivs 0
     abilityslot 0
-    level 41
+    level LEVEL_ROCKET_HIDEOUT
     pokemon SPECIES_ARIADOS
     item 0
     move MOVE_POISON_JAB
@@ -20321,7 +20321,7 @@ party 220
 
     ivs 0
     abilityslot 0
-    level 41
+    level LEVEL_ROCKET_HIDEOUT
     pokemon SPECIES_BEEDRILL
     item 0
     move MOVE_PIN_MISSILE
@@ -20353,7 +20353,7 @@ trainerdata 218, "Grunt"
 party 218
     ivs 0
     abilityslot 0
-    level 41
+    level LEVEL_ROCKET_HIDEOUT
     pokemon SPECIES_GOLBAT
     item 0
     move MOVE_SLUDGE_BOMB
@@ -20370,7 +20370,7 @@ party 218
 
     ivs 0
     abilityslot 0
-    level 41
+    level LEVEL_ROCKET_HIDEOUT
     pokemon SPECIES_MURKROW
     item 0
     move MOVE_DRILL_PECK
@@ -20387,7 +20387,7 @@ party 218
 
     ivs 0
     abilityslot 0
-    level 41
+    level LEVEL_ROCKET_HIDEOUT
     pokemon SPECIES_FEAROW
     item 0
     move MOVE_DRILL_PECK
@@ -20419,7 +20419,7 @@ trainerdata 468, "Ross"
 party 468
     ivs 0
     abilityslot 0
-    level 41
+    level LEVEL_ROCKET_HIDEOUT
     pokemon SPECIES_ELECTRODE
     item 0
     move MOVE_DISCHARGE
@@ -20436,7 +20436,7 @@ party 468
 
     ivs 0
     abilityslot 0
-    level 41
+    level LEVEL_ROCKET_HIDEOUT
     pokemon SPECIES_KLANG
     item 0
     move MOVE_GEAR_GRIND
@@ -20453,7 +20453,7 @@ party 468
 
     ivs 0
     abilityslot 0
-    level 41
+    level LEVEL_ROCKET_HIDEOUT
     pokemon SPECIES_SWALOT
     item 0
     move MOVE_SLUDGE_BOMB
@@ -20485,7 +20485,7 @@ trainerdata 404, "Grunt"
 party 404
     ivs 0
     abilityslot 0
-    level 41
+    level LEVEL_ROCKET_HIDEOUT
     pokemon SPECIES_SEVIPER
     item 0
     move MOVE_POISON_JAB
@@ -20502,7 +20502,7 @@ party 404
 
     ivs 0
     abilityslot 0
-    level 41
+    level LEVEL_ROCKET_HIDEOUT
     pokemon SPECIES_GLOOM
     item 0
     move MOVE_GIGA_DRAIN
@@ -20519,7 +20519,7 @@ party 404
 
     ivs 0
     abilityslot 0
-    level 41
+    level LEVEL_ROCKET_HIDEOUT
     pokemon SPECIES_LIEPARD
     item 0
     move MOVE_FOUL_PLAY
@@ -20551,7 +20551,7 @@ trainerdata 469, "Mitch"
 party 469
     ivs 0
     abilityslot 0
-    level 41
+    level LEVEL_ROCKET_HIDEOUT
     pokemon SPECIES_DITTO
     item 0
     move MOVE_TRANSFORM
@@ -20568,7 +20568,7 @@ party 469
 
     ivs 0
     abilityslot 0
-    level 41
+    level LEVEL_ROCKET_HIDEOUT
     pokemon SPECIES_DITTO
     item 0
     move MOVE_TRANSFORM
@@ -20585,7 +20585,7 @@ party 469
 
     ivs 0
     abilityslot 0
-    level 41
+    level LEVEL_ROCKET_HIDEOUT
     pokemon SPECIES_DITTO
     item 0
     move MOVE_TRANSFORM
@@ -20617,7 +20617,7 @@ trainerdata 222, "Grunt"
 party 222
     ivs 0
     abilityslot 0
-    level 41
+    level LEVEL_ROCKET_HIDEOUT+2
     pokemon SPECIES_RATICATE
     item 0
     move MOVE_HYPER_FANG
@@ -20649,7 +20649,7 @@ trainerdata 219, "Grunt"
 party 219
     ivs 0
     abilityslot 0
-    level 41
+    level LEVEL_ROCKET_HIDEOUT
     pokemon SPECIES_RHYDON
     item 0
     move MOVE_DRILL_RUN
@@ -20666,7 +20666,7 @@ party 219
 
     ivs 0
     abilityslot 0
-    level 41
+    level LEVEL_ROCKET_HIDEOUT
     pokemon SPECIES_TOXICROAK
     item 0
     move MOVE_CROSS_POISON
@@ -20683,7 +20683,7 @@ party 219
 
     ivs 0
     abilityslot 0
-    level 41
+    level LEVEL_ROCKET_HIDEOUT
     pokemon SPECIES_TENTACRUEL
     item 0
     move MOVE_MUDDY_WATER
@@ -20716,7 +20716,7 @@ trainerdata 306, "Grunt"
 party 306
     ivs 0
     abilityslot 0
-    level 41
+    level LEVEL_ROCKET_HIDEOUT
     pokemon SPECIES_PERSIAN
     item 0
     move MOVE_SLASH
@@ -20733,7 +20733,7 @@ party 306
 
     ivs 0
     abilityslot 0
-    level 41
+    level LEVEL_ROCKET_HIDEOUT
     pokemon SPECIES_BANETTE
     item 0
     move MOVE_SHADOW_CLAW
@@ -20750,7 +20750,7 @@ party 306
 
     ivs 0
     abilityslot 0
-    level 41
+    level LEVEL_ROCKET_HIDEOUT
     pokemon SPECIES_GARBODOR
     item 0
     move MOVE_SLUDGE_BOMB
@@ -20783,7 +20783,7 @@ trainerdata 288, "Silver"
 party 288
     ivs 0
     abilityslot 0
-    level 43
+    level LEVEL_SILVER_4
     pokemon SPECIES_SNEASEL
     item ITEM_NEVER_MELT_ICE
     move MOVE_ICE_PUNCH
@@ -20800,7 +20800,7 @@ party 288
 
     ivs 0
     abilityslot 0
-    level 43
+    level LEVEL_SILVER_4
     pokemon SPECIES_GOLBAT
     item ITEM_POISON_BARB
     move MOVE_POISON_FANG
@@ -20817,7 +20817,7 @@ party 288
 
     ivs 0
     abilityslot 0
-    level 43
+    level LEVEL_SILVER_4
     pokemon SPECIES_HAUNTER
     item ITEM_SPELL_TAG
     move MOVE_SHADOW_BALL
@@ -20834,7 +20834,7 @@ party 288
 
     ivs 0
     abilityslot 0
-    level 43
+    level LEVEL_SILVER_4
     pokemon SPECIES_KADABRA
     item ITEM_SPELL_TAG
     move MOVE_PSYCHIC
@@ -20851,7 +20851,7 @@ party 288
 
     ivs 0
     abilityslot 0
-    level 43
+    level LEVEL_SILVER_4
     pokemon SPECIES_MAGMAR
     item ITEM_CHARCOAL
     move MOVE_LAVA_PLUME
@@ -20868,7 +20868,7 @@ party 288
 
     ivs 0
     abilityslot 0
-    level 44
+    level LEVEL_SILVER_4+1
     pokemon SPECIES_MEGANIUM
     item ITEM_MIRACLE_SEED
     move MOVE_GIGA_DRAIN
@@ -20900,7 +20900,7 @@ trainerdata 289, "Silver"
 party 289
     ivs 0
     abilityslot 0
-    level 43
+    level LEVEL_SILVER_4
     pokemon SPECIES_SNEASEL
     item ITEM_NEVER_MELT_ICE
     move MOVE_ICE_PUNCH
@@ -20917,7 +20917,7 @@ party 289
 
     ivs 0
     abilityslot 0
-    level 43
+    level LEVEL_SILVER_4
     pokemon SPECIES_GOLBAT
     item ITEM_POISON_BARB
     move MOVE_POISON_FANG
@@ -20934,7 +20934,7 @@ party 289
 
     ivs 0
     abilityslot 0
-    level 43
+    level LEVEL_SILVER_4
     pokemon SPECIES_HAUNTER
     item ITEM_SPELL_TAG
     move MOVE_SHADOW_BALL
@@ -20951,7 +20951,7 @@ party 289
 
     ivs 0
     abilityslot 0
-    level 43
+    level LEVEL_SILVER_4
     pokemon SPECIES_KADABRA
     item ITEM_SPELL_TAG
     move MOVE_PSYCHIC
@@ -20968,7 +20968,7 @@ party 289
 
     ivs 0
     abilityslot 0
-    level 43
+    level LEVEL_SILVER_4
     pokemon SPECIES_SEADRA
     item ITEM_MYSTIC_WATER
     move MOVE_SURF
@@ -20985,7 +20985,7 @@ party 289
 
     ivs 0
     abilityslot 0
-    level 44
+    level LEVEL_SILVER_4+1
     pokemon SPECIES_TYPHLOSION
     item ITEM_CHARCOAL
     move ALLOW_ILLEGAL_MOVES ? MOVE_INFERNAL_BLAST : MOVE_FLAMETHROWER
@@ -21017,7 +21017,7 @@ trainerdata 271, "Silver"
 party 271
     ivs 0
     abilityslot 0
-    level 43
+    level LEVEL_SILVER_4
     pokemon SPECIES_SNEASEL
     item ITEM_NEVER_MELT_ICE
     move MOVE_ICE_PUNCH
@@ -21034,7 +21034,7 @@ party 271
 
     ivs 0
     abilityslot 0
-    level 43
+    level LEVEL_SILVER_4
     pokemon SPECIES_GOLBAT
     item ITEM_POISON_BARB
     move MOVE_POISON_FANG
@@ -21051,7 +21051,7 @@ party 271
 
     ivs 0
     abilityslot 0
-    level 43
+    level LEVEL_SILVER_4
     pokemon SPECIES_HAUNTER
     item ITEM_SPELL_TAG
     move MOVE_SHADOW_BALL
@@ -21068,7 +21068,7 @@ party 271
 
     ivs 0
     abilityslot 0
-    level 43
+    level LEVEL_SILVER_4
     pokemon SPECIES_KADABRA
     item ITEM_SPELL_TAG
     move MOVE_PSYCHIC
@@ -21085,7 +21085,7 @@ party 271
 
     ivs 0
     abilityslot 0
-    level 43
+    level LEVEL_SILVER_4
     pokemon SPECIES_ELECTABUZZ
     item ITEM_MAGNET
     move MOVE_DISCHARGE
@@ -21102,7 +21102,7 @@ party 271
 
     ivs 0
     abilityslot 0
-    level 44
+    level LEVEL_SILVER_4+1
     pokemon SPECIES_FERALIGATR
     item ITEM_MYSTIC_WATER
     move ALLOW_ILLEGAL_MOVES ? MOVE_SAVAGE_REND : MOVE_AQUA_TAIL
@@ -21134,7 +21134,7 @@ trainerdata 488, "Petrel"
 party 488
     ivs 0
     abilityslot 0
-    level 44
+    level LEVEL_ROCKET_HIDEOUT_ADMIN
     pokemon SPECIES_ZOROARK
     item 0
     move MOVE_NIGHT_SLASH
@@ -21151,7 +21151,7 @@ party 488
 
     ivs 0
     abilityslot 0
-    level 44
+    level LEVEL_ROCKET_HIDEOUT_ADMIN
     pokemon SPECIES_SKUNTANK
     item 0
     move MOVE_POISON_JAB
@@ -21168,7 +21168,7 @@ party 488
     
     ivs 0
     abilityslot 0
-    level 44
+    level LEVEL_ROCKET_HIDEOUT_ADMIN
     pokemon SPECIES_RATICATE
     item 0
     move MOVE_HYPER_FANG
@@ -21185,7 +21185,7 @@ party 488
     
     ivs 0
     abilityslot 0
-    level 44
+    level LEVEL_ROCKET_HIDEOUT_ADMIN
     pokemon SPECIES_SUDOWOODO
     item 0
     move MOVE_ROCK_SLIDE
@@ -21202,7 +21202,7 @@ party 488
     
     ivs 0
     abilityslot 0
-    level 45
+    level LEVEL_ROCKET_HIDEOUT_ADMIN+1
     pokemon SPECIES_WEEZING
     item ITEM_LIFE_ORB
     move MOVE_SLUDGE_WAVE
@@ -21234,7 +21234,7 @@ trainerdata 479, "Ariana"
 party 479
     ivs 0
     abilityslot 0
-    level 44
+    level LEVEL_ROCKET_HIDEOUT_ADMIN
     pokemon SPECIES_ARBOK
     item 0
     move MOVE_POISON_JAB
@@ -21251,7 +21251,7 @@ party 479
 
     ivs 0
     abilityslot 0
-    level 44
+    level LEVEL_ROCKET_HIDEOUT_ADMIN
     pokemon SPECIES_YANMEGA
     item 0
     move MOVE_SIGNAL_BEAM
@@ -21268,7 +21268,7 @@ party 479
     
     ivs 0
     abilityslot 0
-    level 44
+    level LEVEL_ROCKET_HIDEOUT_ADMIN
     pokemon SPECIES_LICKILICKY
     item 0
     move MOVE_BODY_SLAM
@@ -21285,7 +21285,7 @@ party 479
     
     ivs 0
     abilityslot 0
-    level 44
+    level LEVEL_ROCKET_HIDEOUT_ADMIN
     pokemon SPECIES_HONCHKROW
     item 0
     move MOVE_NIGHT_SLASH
@@ -21302,7 +21302,7 @@ party 479
     
     ivs 0
     abilityslot 0
-    level 45
+    level LEVEL_ROCKET_HIDEOUT_ADMIN+1
     pokemon SPECIES_VILEPLUME
     item ITEM_LIFE_ORB
     move MOVE_ENERGY_BALL
@@ -21406,7 +21406,7 @@ trainerdata 480, "Diana"
 party 480
     ivs 0
     abilityslot 0
-    level 43
+    level LEVEL_MAHOGANY_GYM
     pokemon SPECIES_JYNX
     item ITEM_NEVER_MELT_ICE
     move MOVE_FROST_BREATH
@@ -21423,7 +21423,7 @@ party 480
 
     ivs 0
     abilityslot 0
-    level 43
+    level LEVEL_MAHOGANY_GYM
     pokemon SPECIES_DELIBIRD
     item ITEM_NEVER_MELT_ICE
     move MOVE_ICE_BEAM
@@ -21440,7 +21440,7 @@ party 480
 
     ivs 0
     abilityslot 0
-    level 43
+    level LEVEL_MAHOGANY_GYM
     pokemon SPECIES_WEAVILE
     item ITEM_NEVER_MELT_ICE
     move MOVE_ICE_PUNCH
@@ -21472,7 +21472,7 @@ trainerdata 483, "Patton"
 party 483
     ivs 0
     abilityslot 0
-    level 43
+    level LEVEL_MAHOGANY_GYM
     pokemon SPECIES_PILOSWINE
     item ITEM_NEVER_MELT_ICE
     move MOVE_ICICLE_CRASH
@@ -21489,7 +21489,7 @@ party 483
 
     ivs 0
     abilityslot 0
-    level 43
+    level LEVEL_MAHOGANY_GYM
     pokemon SPECIES_CRYOGONAL
     item ITEM_NEVER_MELT_ICE
     move MOVE_FROST_BREATH
@@ -21506,7 +21506,7 @@ party 483
 
     ivs 0
     abilityslot 0
-    level 43
+    level LEVEL_MAHOGANY_GYM
     pokemon SPECIES_GLALIE
     item ITEM_NEVER_MELT_ICE
     move MOVE_ICE_SPINNER
@@ -21538,7 +21538,7 @@ trainerdata 482, "Deandre"
 party 482
     ivs 0
     abilityslot 0
-    level 43
+    level LEVEL_MAHOGANY_GYM
     pokemon SPECIES_DEWGONG
     item ITEM_NEVER_MELT_ICE
     move MOVE_AQUA_TAIL
@@ -21555,7 +21555,7 @@ party 482
 
     ivs 0
     abilityslot 0
-    level 43
+    level LEVEL_MAHOGANY_GYM
     pokemon SPECIES_AVALUGG
     item ITEM_NEVER_MELT_ICE
     move MOVE_AVALANCHE
@@ -21572,7 +21572,7 @@ party 482
 
     ivs 0
     abilityslot 0
-    level 43
+    level LEVEL_MAHOGANY_GYM
     pokemon SPECIES_BEARTIC
     item ITEM_NEVER_MELT_ICE
     move MOVE_ICICLE_CRASH
@@ -21604,7 +21604,7 @@ trainerdata 481, "Jill"
 party 481
     ivs 0
     abilityslot 0
-    level 43
+    level LEVEL_MAHOGANY_GYM
     pokemon SPECIES_VANILLUXE
     item ITEM_NEVER_MELT_ICE
     move MOVE_FREEZE_DRY
@@ -21621,7 +21621,7 @@ party 481
 
     ivs 0
     abilityslot 0
-    level 43
+    level LEVEL_MAHOGANY_GYM
     monwithform SPECIES_NINETALES, 1
     item ITEM_NEVER_MELT_ICE
     move MOVE_FREEZE_DRY
@@ -21638,7 +21638,7 @@ party 481
 
     ivs 0
     abilityslot 0
-    level 43
+    level LEVEL_MAHOGANY_GYM
     pokemon SPECIES_GLACEON
     item ITEM_NEVER_MELT_ICE
     move MOVE_FREEZE_DRY
@@ -21670,7 +21670,7 @@ trainerdata 484, "Gerardo"
 party 484
     ivs 0
     abilityslot 0
-    level 43
+    level LEVEL_MAHOGANY_GYM
     pokemon SPECIES_CLOYSTER
     item ITEM_NEVER_MELT_ICE
     move MOVE_SURF
@@ -21687,7 +21687,7 @@ party 484
 
     ivs 0
     abilityslot 0
-    level 43
+    level LEVEL_MAHOGANY_GYM
     monwithform SPECIES_SANDSLASH, 1
     item ITEM_NEVER_MELT_ICE
     move MOVE_ICICLE_SPEAR
@@ -21704,7 +21704,7 @@ party 484
 
     ivs 0
     abilityslot 0
-    level 43
+    level LEVEL_MAHOGANY_GYM
     pokemon SPECIES_WALREIN
     item ITEM_NEVER_MELT_ICE
     move MOVE_LIQUIDATION
@@ -21736,7 +21736,7 @@ trainerdata 32, "Pryce"
 party 32
     ivs 0
     abilityslot 0
-    level 45
+    level LEVEL_PRYCE
     pokemon SPECIES_ABOMASNOW
     item ITEM_ICY_ROCK
     move MOVE_BLIZZARD
@@ -21753,7 +21753,7 @@ party 32
 
     ivs 0
     abilityslot 0
-    level 45
+    level LEVEL_PRYCE
     pokemon SPECIES_DEWGONG
     item ITEM_AGUAV_BERRY
     move MOVE_ICE_SPINNER
@@ -21770,7 +21770,7 @@ party 32
 
     ivs 0
     abilityslot 0
-    level 45
+    level LEVEL_PRYCE
     pokemon SPECIES_CLOYSTER
     item ITEM_FOCUS_SASH
     move MOVE_ICICLE_SPEAR
@@ -21787,7 +21787,7 @@ party 32
 
     ivs 0
     abilityslot 0
-    level 45
+    level LEVEL_PRYCE
     pokemon SPECIES_LAPRAS
     item ITEM_ASSAULT_VEST
     move MOVE_BLIZZARD
@@ -21804,7 +21804,7 @@ party 32
 
     ivs 0
     abilityslot 0
-    level 45
+    level LEVEL_PRYCE
     pokemon SPECIES_FROSLASS
     item ITEM_EXPERT_BELT
     move MOVE_BLIZZARD
@@ -21821,7 +21821,7 @@ party 32
 
     ivs 0
     abilityslot 0
-    level 46
+    level LEVEL_PRYCE+1
     pokemon SPECIES_MAMOSWINE
     item ITEM_LIFE_ORB
     move MOVE_ICICLE_CRASH

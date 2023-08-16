@@ -248,6 +248,10 @@ Ice Path
 ✓ B1F now has a blockade until later.
 ✓ Added an item ball on 1F containing a Never-Melt Ice.
 
+Burned Tower
+✓ Eusine and Morty's dialogues are modified slightly to reflect the new events.
+✓ HP Up -> Flame Orb. TM12 -> TM61.
+
 Miscellaneous
 ✓ Scripts for overworld usage of HMs has been adjusted.
 ✓✓ Script #15 and Function #25 now simply check the starter has been given (Flag 106) and will instantly headbutt a tree if this passes.

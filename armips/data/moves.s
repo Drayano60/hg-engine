@@ -6001,7 +6001,7 @@ movedata MOVE_TAILWIND, "Tailwind"
     appeal 0
     contesttype 0
     terminatedata
-    movedescription MOVE_TAILWIND, "The user whips up a\nturbulent wind that\ndoubles the Speed\nof all party Pokémon\nfor three turns."
+    movedescription MOVE_TAILWIND, "The user whips up a\nturbulent wind that\ndoubles the Speed\nof all party Pokémon\nfor four turns."
 
 movedata MOVE_ACUPRESSURE, "Acupressure"
     battleeffect 226
@@ -13068,7 +13068,7 @@ movedata MOVE_DUAL_WINGBEAT, "Dual Wingbeat"
 
 movedata MOVE_SCORCHING_SANDS, "Scorching Sands"
     battleeffect 125
-    pss SPLIT_PHYSICAL
+    pss SPLIT_SPECIAL
     basepower 70
     type TYPE_GROUND
     accuracy 100

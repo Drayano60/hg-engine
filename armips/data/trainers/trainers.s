@@ -46,9 +46,11 @@ LEVEL_WHITNEY equ 29
 LEVEL_ROUTE_37 equ 27
 LEVEL_ROUTE_42 equ 28 /* Also used for Ecruteak City, Route 38 and Mt. Mortar */
 LEVEL_ROUTE_44 equ 29 /* Also used for Burned Tower */
-LEVEL_SILVER_3 equ 32
-LEVEL_ECRUTEAK_GYM equ 31
-LEVEL_MORTY equ 33
+LEVEL_SILVER_3 equ 33
+LEVEL_ECRUTEAK_GYM equ 33
+LEVEL_MORTY equ 35
+
+LEVEL_ROUTE_39 equ 33 /* Also Surf areas like Union Cave, Ruins of Alph */
 
 /******************************************** Cherrygrove City ********************************************/
 
@@ -3969,7 +3971,7 @@ trainerdata 106, "Hideki"
 party 106
     ivs 0
     abilityslot 0
-    level LEVEL_UNION_CAVE+2
+    level LEVEL_UNION_CAVE+1
     pokemon SPECIES_TYROGUE
     item 0
     move MOVE_POWER_UP_PUNCH
@@ -3986,7 +3988,7 @@ party 106
 
     ivs 0
     abilityslot 0
-    level LEVEL_UNION_CAVE+2
+    level LEVEL_UNION_CAVE+1
     pokemon SPECIES_MAKUHITA
     item 0
     move MOVE_FORCE_PALM
@@ -4003,7 +4005,7 @@ party 106
 
     ivs 0
     abilityslot 0
-    level LEVEL_UNION_CAVE+2
+    level LEVEL_UNION_CAVE+1
     pokemon SPECIES_TIMBURR
     item 0
     move MOVE_LOW_KICK
@@ -4037,7 +4039,7 @@ trainerdata 201, "Andrew"
 party 201
     ivs 0
     abilityslot 0
-    level 33
+    level LEVEL_ROUTE_39
     pokemon SPECIES_MAROWAK
     item ITEM_THICK_CLUB
     move MOVE_BONEMERANG
@@ -4054,7 +4056,7 @@ party 201
 
     ivs 0
     abilityslot 0
-    level 33
+    level LEVEL_ROUTE_39
     pokemon SPECIES_GABITE
     item 0
     move MOVE_BULLDOZE
@@ -4086,7 +4088,7 @@ trainerdata 202, "Calvin"
 party 202
     ivs 0
     abilityslot 0
-    level 33
+    level LEVEL_ROUTE_39
     pokemon SPECIES_FRAXURE
     item 0
     move MOVE_DUAL_CHOP
@@ -4103,7 +4105,7 @@ party 202
 
     ivs 0
     abilityslot 0
-    level 33
+    level LEVEL_ROUTE_39
     pokemon SPECIES_KANGASKHAN
     item 0
     move MOVE_DIZZY_PUNCH
@@ -4135,7 +4137,7 @@ trainerdata 204, "Leonard"
 party 204
     ivs 0
     abilityslot 0
-    level 33
+    level LEVEL_ROUTE_39
     pokemon SPECIES_MACHOKE
     item 0
     move MOVE_LOW_SWEEP
@@ -4152,7 +4154,7 @@ party 204
 
     ivs 0
     abilityslot 0
-    level 33
+    level LEVEL_ROUTE_39
     pokemon SPECIES_CAMERUPT
     item 0
     move MOVE_LAVA_PLUME
@@ -4184,7 +4186,7 @@ trainerdata 203, "Phillip"
 party 203
     ivs 0
     abilityslot 0
-    level 33
+    level LEVEL_ROUTE_39
     pokemon SPECIES_GURDURR
     item 0
     move MOVE_LOW_SWEEP
@@ -4201,7 +4203,7 @@ party 203
 
     ivs 0
     abilityslot 0
-    level 33
+    level LEVEL_ROUTE_39
     pokemon SPECIES_PROBOPASS
     item 0
     move MOVE_POWER_GEM
@@ -4233,7 +4235,7 @@ trainerdata 205, "Nick"
 party 205
     ivs 0
     abilityslot 0
-    level 34
+    level LEVEL_ROUTE_39+1
     pokemon SPECIES_CHARMELEON
     item 0
     move MOVE_FLAMETHROWER
@@ -4250,7 +4252,7 @@ party 205
 
     ivs 0
     abilityslot 0
-    level 34
+    level LEVEL_ROUTE_39+1
     pokemon SPECIES_WARTORTLE
     item 0
     move MOVE_SURF
@@ -4267,7 +4269,7 @@ party 205
 
     ivs 0
     abilityslot 0
-    level 34
+    level LEVEL_ROUTE_39+1
     pokemon SPECIES_IVYSAUR
     item 0
     move MOVE_SEED_BOMB
@@ -4299,7 +4301,7 @@ trainerdata 206, "Gwen"
 party 206
     ivs 0
     abilityslot 0
-    level 34
+    level LEVEL_ROUTE_39+1
     pokemon SPECIES_VAPOREON
     item 0
     move MOVE_BUBBLE_BEAM
@@ -4316,7 +4318,7 @@ party 206
 
     ivs 0
     abilityslot 0
-    level 34
+    level LEVEL_ROUTE_39+1
     pokemon SPECIES_JOLTEON
     item 0
     move MOVE_CHARGE_BEAM
@@ -4333,7 +4335,7 @@ party 206
 
     ivs 0
     abilityslot 0
-    level 34
+    level LEVEL_ROUTE_39+1
     pokemon SPECIES_FLAREON
     item 0
     move MOVE_FIRE_FANG
@@ -4365,7 +4367,7 @@ trainerdata 363, "Emma"
 party 363
     ivs 0
     abilityslot 0
-    level 34
+    level LEVEL_ROUTE_39+1
     pokemon SPECIES_ESPEON
     item 0
     move MOVE_PSYSHOCK
@@ -4382,7 +4384,7 @@ party 363
 
     ivs 0
     abilityslot 0
-    level 34
+    level LEVEL_ROUTE_39+1
     pokemon SPECIES_UMBREON
     item 0
     move MOVE_PAYBACK
@@ -4399,7 +4401,7 @@ party 363
 
     ivs 0
     abilityslot 0
-    level 34
+    level LEVEL_ROUTE_39+1
     pokemon SPECIES_SYLVEON
     item 0
     move MOVE_DRAINING_KISS
@@ -6883,7 +6885,7 @@ trainerdata 417, "Jenn"
 party 417
     ivs 0
     abilityslot 0
-    level 33
+    level LEVEL_ROUTE_39
     pokemon SPECIES_GOREBYSS
     item 0
     move MOVE_SURF
@@ -6900,7 +6902,7 @@ party 417
 
     ivs 0
     abilityslot 0
-    level 33
+    level LEVEL_ROUTE_39
     pokemon SPECIES_STARMIE
     item 0
     move MOVE_SURF
@@ -6932,7 +6934,7 @@ trainerdata 120, "Irene"
 party 120
     ivs 0
     abilityslot 0
-    level 33
+    level LEVEL_ROUTE_39
     pokemon SPECIES_HUNTAIL
     item 0
     move MOVE_DIVE
@@ -6949,7 +6951,7 @@ party 120
 
     ivs 0
     abilityslot 0
-    level 33
+    level LEVEL_ROUTE_39
     pokemon SPECIES_SEAKING
     item 0
     move MOVE_WATERFALL
@@ -6981,7 +6983,7 @@ trainerdata 118, "Kate"
 party 118
     ivs 0
     abilityslot 0
-    level 33
+    level LEVEL_ROUTE_39
     pokemon SPECIES_POLITOED
     item 0
     move MOVE_SURF
@@ -6998,7 +7000,7 @@ party 118
 
     ivs 0
     abilityslot 0
-    level 33
+    level LEVEL_ROUTE_39
     pokemon SPECIES_CLOYSTER
     item 0
     move MOVE_RAZOR_SHELL
@@ -7015,7 +7017,7 @@ party 118
 
     ivs 0
     abilityslot 0
-    level 33
+    level LEVEL_ROUTE_39
     pokemon SPECIES_LUMINEON
     item 0
     move MOVE_SURF
@@ -8310,7 +8312,7 @@ trainerdata 167, "Jackie"
 party 167
     ivs 0
     abilityslot 0
-    level LEVEL_ROUTE_35+1
+    level LEVEL_ROUTE_35+2
     pokemon SPECIES_SIMISAGE
     item 0
     move MOVE_SEED_BOMB
@@ -8327,7 +8329,7 @@ party 167
 
     ivs 0
     abilityslot 0
-    level LEVEL_ROUTE_35+1
+    level LEVEL_ROUTE_35+2
     pokemon SPECIES_SIMISEAR
     item 0
     move ALLOW_ILLEGAL_MOVES ? MOVE_LAVA_PLUME : MOVE_INCINERATE
@@ -8344,7 +8346,7 @@ party 167
 
     ivs 0
     abilityslot 0
-    level LEVEL_ROUTE_35+1
+    level LEVEL_ROUTE_35+2
     pokemon SPECIES_SIMIPOUR
     item 0
     move MOVE_SCALD
@@ -13918,7 +13920,7 @@ party 31
     shinylock 0
     ballseal 0
 
-    ivs 0
+    ivs 1 // Prevent shiny
     abilityslot 0
     level LEVEL_MORTY
     pokemon SPECIES_DRIFBLIM
@@ -14072,7 +14074,7 @@ trainerdata 42, "Nathan"
 party 42
     ivs 0
     abilityslot 0
-    level 33
+    level LEVEL_ROUTE_39
     pokemon SPECIES_GIRAFARIG
     item 0
     move MOVE_PSYCHIC_FANGS
@@ -14089,7 +14091,7 @@ party 42
 
     ivs 0
     abilityslot 0
-    level 33
+    level LEVEL_ROUTE_39
     pokemon SPECIES_STANTLER
     item 0
     move MOVE_ZEN_HEADBUTT
@@ -14106,7 +14108,7 @@ party 42
 
     ivs 0
     abilityslot 0
-    level 33
+    level LEVEL_ROUTE_39
     pokemon SPECIES_SIGILYPH
     item 0
     move MOVE_PSYSHOCK
@@ -14140,7 +14142,7 @@ trainerdata 389, "Nelson"
 party 389
     ivs 0
     abilityslot 0
-    level 33
+    level LEVEL_ROUTE_39
     pokemon SPECIES_GOTHORITA
     item 0
     move MOVE_PSYSHOCK
@@ -14157,7 +14159,7 @@ party 389
 
     ivs 0
     abilityslot 0
-    level 33
+    level LEVEL_ROUTE_39
     pokemon SPECIES_DUOSION
     item 0
     move MOVE_PSYSHOCK
@@ -14174,7 +14176,7 @@ party 389
 
     ivs 0
     abilityslot 0
-    level 33
+    level LEVEL_ROUTE_39
     pokemon SPECIES_SLOWKING
     item 0
     move MOVE_PSYSHOCK
@@ -14206,7 +14208,7 @@ trainerdata 39, "Eugene"
 party 39
     ivs 0
     abilityslot 0
-    level 33
+    level LEVEL_ROUTE_39
     pokemon SPECIES_PELIPPER
     item 0
     move MOVE_BRINE
@@ -14223,7 +14225,7 @@ party 39
 
     ivs 0
     abilityslot 0
-    level 33
+    level LEVEL_ROUTE_39
     pokemon SPECIES_RATICATE
     item 0
     move MOVE_HYPER_FANG
@@ -14240,7 +14242,7 @@ party 39
 
     ivs 0
     abilityslot 0
-    level 33
+    level LEVEL_ROUTE_39
     pokemon SPECIES_KINGLER
     item 0
     move MOVE_RAZOR_SHELL
@@ -14272,7 +14274,7 @@ trainerdata 44, "Derek"
 party 44
     ivs 0
     abilityslot 0
-    level 33
+    level LEVEL_ROUTE_39
     pokemon SPECIES_RAICHU
     item ITEM_SITRUS_BERRY
     move MOVE_DISCHARGE
@@ -14289,7 +14291,7 @@ party 44
 
     ivs 0
     abilityslot 0
-    level 33
+    level LEVEL_ROUTE_39
     pokemon SPECIES_AZUMARILL
     item ITEM_SITRUS_BERRY
     move MOVE_AQUA_TAIL
@@ -14306,7 +14308,7 @@ party 44
 
     ivs 0
     abilityslot 0
-    level 33
+    level LEVEL_ROUTE_39
     pokemon SPECIES_URSARING
     item ITEM_SITRUS_BERRY
     move MOVE_SLASH
@@ -14338,7 +14340,7 @@ trainerdata 45, "Ruth"
 party 45
     ivs 0
     abilityslot 0
-    level 33
+    level LEVEL_ROUTE_39
     pokemon SPECIES_AMBIPOM
     item ITEM_SITRUS_BERRY
     move MOVE_DOUBLE_HIT
@@ -14355,7 +14357,7 @@ party 45
 
     ivs 0
     abilityslot 0
-    level 33
+    level LEVEL_ROUTE_39
     pokemon SPECIES_SUDOWOODO
     item ITEM_SITRUS_BERRY
     move MOVE_ROCK_SLIDE
@@ -14372,7 +14374,7 @@ party 45
 
     ivs 0
     abilityslot 0
-    level 33
+    level LEVEL_ROUTE_39
     pokemon SPECIES_LEAVANNY
     item ITEM_SITRUS_BERRY
     move MOVE_X_SCISSOR
@@ -14405,7 +14407,7 @@ trainerdata 171, "Taylor"
 party 171
     ivs 0
     abilityslot 0
-    level 33
+    level LEVEL_ROUTE_39
     pokemon SPECIES_BIBAREL
     item 0
     move MOVE_TAKE_DOWN
@@ -14422,7 +14424,7 @@ party 171
 
     ivs 0
     abilityslot 0
-    level 33
+    level LEVEL_ROUTE_39
     pokemon SPECIES_MILTANK
     item 0
     move MOVE_BODY_SLAM
@@ -14455,7 +14457,7 @@ trainerdata 174, "Denver"
 party 174
     ivs 0
     abilityslot 0
-    level 33
+    level LEVEL_ROUTE_39
     pokemon SPECIES_GOLDUCK
     item 0
     move MOVE_AQUA_TAIL
@@ -14472,7 +14474,7 @@ party 174
 
     ivs 0
     abilityslot 0
-    level 33
+    level LEVEL_ROUTE_39
     pokemon SPECIES_TAUROS
     item 0
     move MOVE_RAGING_BULL
@@ -14706,7 +14708,7 @@ trainerdata 728, "Charlotte"
 party 728
     ivs 0
     abilityslot 0
-    level 34
+    level LEVEL_ROUTE_39+1
     pokemon SPECIES_BELLOSSOM
     item 0
     move MOVE_PETAL_BLIZZARD

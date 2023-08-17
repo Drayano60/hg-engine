@@ -50,8 +50,8 @@ LEVEL_SILVER_3 equ 33
 LEVEL_ECRUTEAK_GYM equ 33
 LEVEL_MORTY equ 35
 
-LEVEL_ROUTE_39 equ 33 /* Also Surf areas like Union Cave, Ruins of Alph */
-LEVEL_LIGHTHOUSE equ 34 /* Also for Route 40, 41 */
+LEVEL_ROUTE_39 equ 34 /* Also Surf areas like Union Cave, Ruins of Alph */
+LEVEL_LIGHTHOUSE equ 35 /* Also for Route 40, 41 */
 LEVEL_EUSINE equ 36
 LEVEL_CIANWOOD_GYM equ 36
 LEVEL_CHUCK equ 37 /* Also for Lyra 3 */
@@ -14292,13 +14292,13 @@ party 44
     ivs 0
     abilityslot 0
     level LEVEL_ROUTE_39
-    pokemon SPECIES_RAICHU
+    monwithform SPECIES_RAICHU, 1
     item ITEM_SITRUS_BERRY
     move MOVE_DISCHARGE
-    move MOVE_DOUBLE_KICK
-    move MOVE_AGILITY
+    move MOVE_PSYCHIC
     move MOVE_FAKE_OUT
-    ability ABILITY_STATIC
+    move MOVE_HELPING_HAND
+    ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_LEVITATE : ABILITY_STATIC
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
     setevs 0, 0, 0, 0, 0, 0

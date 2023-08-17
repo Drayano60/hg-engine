@@ -252,12 +252,20 @@ Burned Tower
 ✓ Eusine and Morty's dialogues are modified slightly to reflect the new events.
 ✓ HP Up -> Flame Orb. TM12 -> TM61.
 
+Ecruteak City - Gym
+✓ Modified Morty's dialogue to remove the obedience bit.
+
+Route 39
+✓ Shifted Trainers around.
+✓ Added two new Trainers using Mickeys (171, 174).
+
 Miscellaneous
 ✓ Scripts for overworld usage of HMs has been adjusted.
 ✓✓ Script #15 and Function #25 now simply check the starter has been given (Flag 106) and will instantly headbutt a tree if this passes.
 ✓✓ Script #2 and Function #5 now check for HM06 in the Bag and the Zephyr Badge, and will instantly smash a rock if this passes.
 ✓✓ Script #1 and Function #2 now check for HM01 in the Bag and the Hive Badge, and will instantly cut a tree if this passes.
 ✓✓ Done for Strength also.
+✓✓ Done for Surf also.
 
 ✓ Added common scripts for use in the Pokémon Center. (Referred to as 9018, 9019, 9020 ingame.) They're used on a Waiter, Maid and Waiter respectively (OW 59 and OW 60).
 ✓✓ One script handles changing things about Pokémon, including move tutors, move reminding, move deletion, nicknaming and checking Hidden Power. The move tutors use Script File 2 still but it's been somewhat adapted.

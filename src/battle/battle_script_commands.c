@@ -574,6 +574,9 @@ struct EXP_CALCULATOR
     /* 0x30 */ u32 work[8];
 }; // size = 0x50
 
+// Temporary measure to fix multi-Poke exp distribution
+int f = 0;
+
 // forgot i could do this so fucking nice
 void Task_DistributeExp_Extend(void *arg0, void *work)
 {
@@ -612,10 +615,14 @@ void Task_DistributeExp_Extend(void *arg0, void *work)
             }
         }
     }
-
+    
     // grab the pokémon that is actually gaining the experience
     for (sel_mons_no = expcalc->work[6]; sel_mons_no < BattleWorkPokeCountGet(expcalc->bw, exp_client_no); sel_mons_no++)
     {
+        if (sel_mons_no == 0) {
+            f = mons_getting_exp;
+        }
+
         pp = BattleWorkPokemonParamGet(expcalc->bw, exp_client_no, sel_mons_no);
         item = GetMonData(pp, ID_PARA_item, NULL);
         eqp = GetItemData(item, ITEM_PARAM_HOLD_EFFECT, 5);
@@ -654,7 +661,7 @@ void Task_DistributeExp_Extend(void *arg0, void *work)
     }
     else
     {
-        expcalc->sp->obtained_exp = totalexp / mons_getting_exp;
+        expcalc->sp->obtained_exp = totalexp / f;
         if (expcalc->sp->obtained_exp == 0)
         {
             expcalc->sp->obtained_exp = 1;

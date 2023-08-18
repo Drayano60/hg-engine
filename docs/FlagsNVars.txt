@@ -33,6 +33,8 @@ NPCs:
 2210 - TM47 Steel Wing item ball on Route 38
 2211 - Black Belt item ball in Mt. Mortar.
 2212 - Never-Melt Ice item ball in Ice Path
+2213 - TM11 Sunny Day item ball in Bellchime Trail
+2214 - TM80 Rock Slide item ball in Union Cave
 
 2600 - HG-e hidden ability flag.
 2601 - HG-e starter hidden ability flag.

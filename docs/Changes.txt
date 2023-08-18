@@ -63,6 +63,7 @@ Violet City
 ✓ Added an NPC and an Eevee in the Pokémon Center who asks you what she should evolve her Eevee into. Picking a specific Eeveelution will make the Mystery Stone always evolve Eevee into the chosen one.
 ✓ The Kimono Girl who talks to you after collecting Togepi's Egg now gives you a Mystery Stone, a new item that can evolve Eevee into any of its eight evolutions at random (unless set by the NPC above).
 ✓ Earl now gives you a Sitrus Berry before leading you to the school if you answer "No".
+✓ Rare Candy -> TM19 Giga Drain.
 
 Sprout Tower
 ✓ The tile permissions have been changed so battles now display an indoor floor instead of a cave.
@@ -92,6 +93,7 @@ Ruins of Alph
 ✓ Added a static Sigilyph encounter at the bottom right, Surf required. It doesn't disappear unless caught.
 ✓ Changed the Hyper Potion at the top left to a Rare Bone, giving the player a fossil of their choice for free.
 ✓ Added a Ruin Maniac Trainer using a Mickey (105).
+✓ Heal Powder -> TM16, Energy Root -> TM33 behind LIGHT door.
 
 Ruins Research Center
 ✓ This is the building inside the Ruins of Alph, which now has its own header name.
@@ -256,9 +258,19 @@ Burned Tower
 Ecruteak City - Gym
 ✓ Modified Morty's dialogue to remove the obedience bit.
 
+Bellchime Trail
+✓ Added an item ball containing TM11, Sunny Day.
+
+Union Cave (B2F)
+✓ Elixir -> TM80 Rock Slide. Hyper Potion -> Prism Scale.
+
 Route 39
 ✓ Shifted Trainers around.
 ✓ Added two new Trainers using Mickeys (171, 174).
+
+Route 40
+✓ Added smashable rocks.
+✓ TM88 -> TM78 Scorching Sands.
 
 Miscellaneous
 ✓ Scripts for overworld usage of HMs has been adjusted.

@@ -65,7 +65,7 @@ void ServerBeforeAct(void *bw, struct BattleStruct *sp)
             {
                 if (((sp->battlemon[client_no].condition & 7) != 0)
                  || (ST_ServerSelectWazaGet(sp, client_no) != MOVE_FURY_CUTTER)
-                 || (ST_CheckIfInTruant(sp, client_no) != FALSE) 
+                 // || (ST_CheckIfInTruant(sp, client_no) != FALSE) -- Currently causes a crash
                  || (sp->oneTurnFlag[client_no].struggle_flag != 0))
                 sp->battlemon[client_no].moveeffect.furyCutterCount = 0;
             }
@@ -83,7 +83,7 @@ void ServerBeforeAct(void *bw, struct BattleStruct *sp)
                 sp->sba_work++;
                 if (((sp->battlemon[client_no].condition & 7) == 0) &&
                     (ST_ServerSelectWazaGet(sp, client_no) == MOVE_FOCUS_PUNCH) &&
-                    (ST_CheckIfInTruant(sp, client_no) == FALSE) &&
+                    // (ST_CheckIfInTruant(sp, client_no) == FALSE) && -- Currently causes a crash
                     (sp->oneTurnFlag[client_no].struggle_flag == 0))
                 {
                     SCIO_BlankMessage(bw);

@@ -125,6 +125,7 @@ Union Cave (1F/B1F)
 ✓ Added Black Belt Hideki with a Mickey (106) on B1F, blocking TM39.
 ✓ Changed the Awakening to a Hard Stone and moved it slightly.
 ✓ Added an Oval Stone item ball on the little island in the pond on 1F.
+✓ Added smashable rocks on 1F.
 
 Route 33
 ✓ No changes.

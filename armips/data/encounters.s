@@ -86,11 +86,11 @@ encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_TENTACOOL, 8, 10
-encounter SPECIES_CHINCHOU, 8, 10
-encounter SPECIES_SHELLDER, 8, 10
-encounter SPECIES_SHELLDER, 8, 10
-encounter SPECIES_CHINCHOU, 8, 10
+encounter SPECIES_TENTACOOL, 5, 6
+encounter SPECIES_CHINCHOU, 5, 6
+encounter SPECIES_SHELLDER, 5, 6
+encounter SPECIES_SHELLDER, 5, 6
+encounter SPECIES_CHINCHOU, 5, 6
 
 // good rod encounters
 encounter SPECIES_MAGIKARP, 1, 1
@@ -394,15 +394,15 @@ encounter SPECIES_PELIPPER, 30, 30
 encounter SPECIES_TENTACRUEL, 30, 30
 
 // rock smash encounters
-encounter SPECIES_KRABBY, 10, 14
-encounter SPECIES_STARYU, 10, 14
+encounter SPECIES_KRABBY, 10, 12
+encounter SPECIES_STARYU, 10, 12
 
 // old rod encounters
-encounter SPECIES_KRABBY, 8, 10
-encounter SPECIES_REMORAID, 8, 10
-encounter SPECIES_REMORAID, 8, 10
-encounter SPECIES_CARVANHA, 8, 10
-encounter SPECIES_CARVANHA, 8, 10
+encounter SPECIES_KRABBY, 5, 6
+encounter SPECIES_REMORAID, 5, 6
+encounter SPECIES_REMORAID, 5, 6
+encounter SPECIES_CARVANHA, 5, 6
+encounter SPECIES_CARVANHA, 5, 6
 
 // good rod encounters
 encounter SPECIES_MAGIKARP, 1, 1
@@ -502,11 +502,11 @@ encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 5, 10
-encounter SPECIES_POLIWAG, 8, 10
-encounter SPECIES_POLIWAG, 8, 10
-encounter SPECIES_CORPHISH, 8, 10
-encounter SPECIES_CORPHISH, 8, 10
+encounter SPECIES_MAGIKARP, 5, 6
+encounter SPECIES_POLIWAG, 5, 6
+encounter SPECIES_POLIWAG, 5, 6
+encounter SPECIES_CORPHISH, 5, 6
+encounter SPECIES_CORPHISH, 5, 6
 
 // good rod encounters
 encounter SPECIES_MAGIKARP, 1, 1
@@ -606,11 +606,11 @@ encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 5, 10
-encounter SPECIES_POLIWAG, 8, 10
-encounter SPECIES_POLIWAG, 8, 10
-encounter SPECIES_CORPHISH, 8, 10
-encounter SPECIES_CORPHISH, 8, 10
+encounter SPECIES_MAGIKARP, 5, 8
+encounter SPECIES_POLIWAG, 7, 8
+encounter SPECIES_POLIWAG, 7, 8
+encounter SPECIES_CORPHISH, 7, 8
+encounter SPECIES_CORPHISH, 7, 8
 
 // good rod encounters
 encounter SPECIES_MAGIKARP, 1, 1
@@ -706,15 +706,15 @@ encounter SPECIES_GOLBAT, 30, 30
 encounter SPECIES_GOLBAT, 30, 30
 
 // rock smash encounters
-encounter SPECIES_SLUGMA, 10, 14
-encounter SPECIES_DUNSPARCE, 10, 14
+encounter SPECIES_SLUGMA, 10, 12
+encounter SPECIES_DUNSPARCE, 10, 12
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 5, 10
-encounter SPECIES_GOLDEEN, 8, 10
-encounter SPECIES_GOLDEEN, 8, 10
-encounter SPECIES_BARBOACH, 8, 10
-encounter SPECIES_BARBOACH, 8, 10
+encounter SPECIES_MAGIKARP, 5, 9
+encounter SPECIES_GOLDEEN, 8, 9
+encounter SPECIES_GOLDEEN, 8, 9
+encounter SPECIES_BARBOACH, 8, 9
+encounter SPECIES_BARBOACH, 8, 9
 
 // good rod encounters
 encounter SPECIES_MAGIKARP, 1, 1
@@ -1157,7 +1157,7 @@ pokemon SPECIES_QWILFISH
 
 .close
 
-/************** Ruins of Alph (Outside - Upper Half) **************/
+/************** Ruins of Alph (Outside) **************/
 encounterdata   9
 
 walkrate 25 // Changed from 10
@@ -1226,8 +1226,8 @@ encounter SPECIES_QUAGSIRE, 30, 30
 encounter SPECIES_QUAGSIRE, 30, 30
 
 // rock smash encounters
-encounter SPECIES_GEODUDE, 10, 14
-encounter SPECIES_NOSEPASS, 10, 14
+encounter SPECIES_GEODUDE, 10, 12
+encounter SPECIES_NOSEPASS, 10, 12
 
 // old rod encounters
 encounter SPECIES_MAGIKARP, 5, 10

@@ -1000,10 +1000,13 @@ void ServerHPCalc(void *bw, struct BattleStruct *sp)
                 /* There are four ways to endure hits: Focus Band, Focus Sash, Sturdy, and the move Endure.
                    Focus Band/Endure can prevent dying from any HP, but Focus Sash/Sturdy only can from full HP. 
                    This condition is here to separate them in cases like multi-hit moves or being attacked multiple times in the same turn. */
-                if ((sp->oneTurnFlag[sp->defence_client].prevent_one_hit_ko_ability == 2 && (sp->battlemon[sp->defence_client].hp == sp->battlemon[sp->defence_client].maxhp)) || // Sturdy
-                    (sp->oneSelfFlag[sp->defence_client].prevent_one_hit_ko_item == 2 && (sp->battlemon[sp->defence_client].hp == sp->battlemon[sp->defence_client].maxhp)) || // Focus Sash
-                    (sp->oneTurnFlag[sp->defence_client].prevent_one_hit_ko_ability == 1 && (sp->battlemon[sp->defence_client].hp + sp->damage) <= 0) || // Endure
-                    (sp->oneSelfFlag[sp->defence_client].prevent_one_hit_ko_item == 1 && (sp->battlemon[sp->defence_client].hp + sp->damage) <= 0)) // Focus Band
+                if
+                (
+                    ((sp->oneTurnFlag[sp->defence_client].prevent_one_hit_ko_ability == 2) && (sp->battlemon[sp->defence_client].hp == sp->battlemon[sp->defence_client].maxhp) && ((sp->battlemon[sp->defence_client].hp + sp->damage) <= 0)) || // Sturdy
+                    ((sp->oneSelfFlag[sp->defence_client].prevent_one_hit_ko_item == 2) && (sp->battlemon[sp->defence_client].hp == sp->battlemon[sp->defence_client].maxhp) && ((sp->battlemon[sp->defence_client].hp + sp->damage) <= 0)) || // Focus Sash
+                    ((sp->oneTurnFlag[sp->defence_client].prevent_one_hit_ko_ability == 1) && ((sp->battlemon[sp->defence_client].hp + sp->damage) <= 0)) || // Endure
+                    ((sp->oneSelfFlag[sp->defence_client].prevent_one_hit_ko_item == 1) && ((sp->battlemon[sp->defence_client].hp + sp->damage) <= 0)) // Focus Band
+                )
                 {
                     sp->damage = (sp->battlemon[sp->defence_client].hp - 1) * -1;
                     if (sp->oneTurnFlag[sp->defence_client].prevent_one_hit_ko_ability > 1)

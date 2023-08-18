@@ -466,8 +466,9 @@ BOOL CheckDefenderItemEffectOnHit(void *bw, struct BattleStruct *sp, int *seq_no
             if ((sp->battlemon[sp->defence_client].hp)
                 // Damage was dealt
                 && ((sp->oneSelfFlag[sp->defence_client].physical_damage)
-                    || (sp->oneSelfFlag[sp->defence_client].special_damage))) {
-                u32 temp = sp->attack_client;            // swap attacker and defender so subseq handles it correctly
+                    || (sp->oneSelfFlag[sp->defence_client].special_damage))
+                && sp->multi_hit_count <= 1) {
+                u32 temp = sp->attack_client;                   // swap attacker and defender so subseq handles it correctly
                 sp->client_work = sp->defence_client;
                 sp->attack_client = sp->defence_client;
                 sp->defence_client = temp;
@@ -482,8 +483,9 @@ BOOL CheckDefenderItemEffectOnHit(void *bw, struct BattleStruct *sp, int *seq_no
             if ((sp->battlemon[sp->defence_client].hp)
                 // Damage was dealt
                 && ((sp->oneSelfFlag[sp->defence_client].physical_damage)
-                    || (sp->oneSelfFlag[sp->defence_client].special_damage))) {
-                u32 temp = sp->attack_client;            // swap attacker and defender so subseq handles it correctly
+                    || (sp->oneSelfFlag[sp->defence_client].special_damage))
+                && sp->multi_hit_count <= 1) {
+                u32 temp = sp->attack_client;                   // swap attacker and defender so subseq handles it correctly
                 sp->client_work = sp->defence_client;
                 sp->attack_client = sp->defence_client;
                 sp->defence_client = temp;

@@ -486,10 +486,10 @@ struct __attribute__((packed)) OneSelfTurnEffect
     u32 yobimizu_flag : 1;
     u32 mold_breaker_flag : 1;
     u32 trickroom_flag : 1;
-    u32 prevent_one_hit_ko_item : 1;
+    u32 prevent_one_hit_ko_item : 2;
     u32 korogaru_count : 3;
     u32 defiant_flag : 1; // set (hypothetically) when defiant needs to activate
-    u32 : 22;
+    u32 : 21;
 
     int physical_damage;
     int physical_damager;

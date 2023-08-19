@@ -19,6 +19,7 @@ NPCs:
 2115 - Whipped Dream gift in Goldenrod
 2116 - TM21 Dazzling Gleam gift in Ecruteak
 2117 - Morty in front of Burned Tower, and the Eusine/Grunts in Ice Path
+2118 - Leftovers gift in Olivine
 
 2200 - Rare Candy item ball on Route 46.
 2201 - Poison Barb item ball on Route 32.
@@ -35,6 +36,7 @@ NPCs:
 2212 - Never-Melt Ice item ball in Ice Path
 2213 - TM11 Sunny Day item ball in Bellchime Trail
 2214 - TM80 Rock Slide item ball in Union Cave
+2215 - TM73 Thunder Wave item ball on Route 37
 
 2600 - HG-e hidden ability flag.
 2601 - HG-e starter hidden ability flag.

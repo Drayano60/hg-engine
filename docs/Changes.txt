@@ -183,6 +183,7 @@ Goldenrod City
 ✓ TM49 Echoed Voice is on the first floor of the Radio Tower.
 ✓ Added an NPC in the train station who gives you a Magnet.
 ✓ Edited dialogue in the PC that mentioned communication stuff.
+✓ Bill gives you an Upgrade instead of the Eevee, with some new dialogue to match.
 
 Goldenrod Tunnel
 ✓ The four shopping NPCs now show up every day of the week.
@@ -215,6 +216,10 @@ Pokéathlon Dome
 Goldenrod City - Gym
 ✓ Added two new Trainers, a Hiker (168) and an Ace Trainer (169) using Mickeys.
 ✓ Changed Whitney's dialogue a little bit to reflect new event order.
+
+Route 37
+✓ Added a green apricorn tree.
+✓ Added an item ball containing TM73 Thunder Wave.
 
 Ecruteak City
 ✓ Added an NPC at at the top right of town who gives TM21 Dazzling Gleam.
@@ -268,9 +273,17 @@ Route 39
 ✓ Shifted Trainers around.
 ✓ Added two new Trainers using Mickeys (171, 174).
 
+Olivine City
+✓ Added an NPC in the diner who gives you Leftovers.
+✓ TM57 -> TM91 Flash Cannon.
+
+Lighthouse
+✓ Rare Candy -> TM62 Acrobatics.
+
 Route 40
 ✓ Added smashable rocks.
 ✓ TM88 -> TM78 Scorching Sands.
+✓ Put a hidden Deep Sea Tooth and Deep Sea Scale between some smashable rocks (stolen from Route 20).
 
 Miscellaneous
 ✓ Scripts for overworld usage of HMs has been adjusted.

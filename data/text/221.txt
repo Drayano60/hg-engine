@@ -401,7 +401,7 @@ The user covers its feet in ice and\ntwirls around, slamming into the target.
 A weak electric charge is launched\nat the foe. It causes paralysis if it\nhits.
 The user attacks the foe with a pollen\npuff that explodes. When targeting\nan ally, it heals the ally’s HP.
 A frenetic dance to uplift the fighting\nspirit. It sharply raises the user’s\nAttack stat.
-While resisting, the user attacks the\nopposing Pokémon. This lowers the\ntargets’ Sp. Atk stats.
+The user lays a trap of levitating\nstones around the foe. The trap hurts\nfoes that switch into battle.
 The user hypnotizes itself into\ncopying any stat change made\nby the foe.
 The user throws scorching sand at the\ntarget to attack. It has a 30% chance\nto burn the target.
 The user releases a horrible aura\nimbued with dark thoughts. It has\na 20% chance to make the foe flinch.

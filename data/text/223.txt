@@ -250,7 +250,7 @@ a {COLOR 255}Twisted Spoon{COLOR 0}
 a {COLOR 255}Charcoal{COLOR 0}
 a {COLOR 255}Dragon Fang{COLOR 0}
 a {COLOR 255}Silk Scarf{COLOR 0}
-an {COLOR 255}Up-Grade{COLOR 0}
+an {COLOR 255}Upgrade{COLOR 0}
 a {COLOR 255}Shell Bell{COLOR 0}
 a {COLOR 255}Sea Incense{COLOR 0}
 a {COLOR 255}Lax Incense{COLOR 0}

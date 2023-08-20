@@ -13263,7 +13263,7 @@ trainerdata 263, "Silver"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_RIVAL
     battletype 0
-    nummons 4
+    nummons 5
     item 0 
     item 0 
     item 0 
@@ -13363,7 +13363,7 @@ trainerdata 267, "Silver"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_RIVAL
     battletype 0
-    nummons 4
+    nummons 5
     item 0 
     item 0 
     item 0 
@@ -13463,7 +13463,7 @@ trainerdata 270, "Silver"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_RIVAL
     battletype 0
-    nummons 4
+    nummons 5
     item 0 
     item 0 
     item 0 

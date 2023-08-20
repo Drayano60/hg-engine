@@ -35,6 +35,8 @@ NPCs:
 2131 - Sabrina win
 2132* - Blaine visible
 2133 - Blaine win
+2134 - Eviolite gift in Cianwood City
+2135 - Deep Sea Tooth/Scale gift in Olivine City
 
 2200 - Rare Candy item ball on Route 46.
 2201 - Poison Barb item ball on Route 32.
@@ -54,7 +56,7 @@ NPCs:
 2215 - TM73 Thunder Wave item ball on Route 37
 2216 - Rocky Helmet item ball in Cliff Edge Gate
 2217 - TM37 Sandstorm item ball in Cliff Cave
-2218 - Eviolite item ball in Cianwood City
+2218 - King's Rock item ball in Slowpoke Well
 
 2600 - HG-e hidden ability flag.
 2601 - HG-e starter hidden ability flag.
@@ -66,6 +68,8 @@ NPCs:
 2607 - Mystery Stone Flag 4
 2608 - Sigilyph static encounter.
 2609 - Noctowl static encounter.
+2610 - Lapras static encounter.
+2611 - Slowking static encounter.
 
 Triggers:
 16499/0 - Now used for Cherrygrove Silver rival fight (previously for Guide Gent).

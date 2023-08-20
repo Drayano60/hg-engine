@@ -30,6 +30,7 @@ Cherrygrove City
 ✓ Added some smashable rocks on the beach which can yield encounters.
 ✓ Changed lady's text in Pokemon Center that talked about communication things previously.
 ✓ Removed the second Poké Mart person as their shop has been repurposed.
+✓ Moved the Mystic Water NPC off map.
 
 Route 30 - Mr. Pokémon's House
 ✓ Before leaving, Mr. Pokémon now calls you over and gifts you an Eevee. This Eevee always has its hidden ability.
@@ -149,6 +150,8 @@ Slowpoke Well
 ✓ Changed Super Potion to a Lagging Tail and moved it.
 ✓ Removed some of the Ilex Forest trigger activations from the script.
 ✓ You're now healed after the Proton fight (this is applied in Kurt's house afterwards).
+✓ Deleted the man in the basement and added a King's Rock item ball.
+✓ Added a static Slowking encounter that always has Regenerator.
 
 Azalea Town - Gym 
 ✓ Added three new Trainers, a Bug Catcher (138), an Ace Trainer M (375) and an Ace Trainer F (107). Set flags for these after beating Bugsy.
@@ -170,6 +173,7 @@ Route 34
 ✓ Made some trainers compulsory. The policeman will now challenge you at any time of day (removed the second one that swaps out with him).
 ✓ Added an item ball with the Mystic Water.
 ✓ Added an Ethan/Lyra battle on top of the existing script.
+✓ The Ace Trainers now give you a Bright Powder instead.
 
 Goldenrod City
 ✓ Added an NPC in the Game Corner who can sell you coins for money.
@@ -278,7 +282,9 @@ Bellchime Trail
 ✓ Added an item ball containing TM11, Sunny Day.
 
 Union Cave (B2F)
+✓ Forced some of the trainers to get things (Lapras/items).
 ✓ Elixir -> TM80 Rock Slide. Hyper Potion -> Prism Scale.
+✓ Lapras is now Lv. 30 and can appear every day (but can only be caught once). If it's defeated or run from, it reappears upon reentering the room.
 
 Route 39
 ✓ Shifted Trainers around.
@@ -288,14 +294,17 @@ Olivine City
 ✓ Added an NPC in the diner who gives you Leftovers.
 ✓ TM57 -> TM91 Flash Cannon.
 ✓ Sabrina shows up in the Pokémon Center after abcxyz. She'll battle you and award you TM29 Psychic, but she disappears after becoming Champion.
+✓ Changed the Good Rod guy to give you the Deep Sea items.
+✓ Changed the dialogue of an Ace Trainer F in the harbour as her dialogue didn't make any sense.
 
 Lighthouse
-✓ Rare Candy -> TM62 Acrobatics.
-
+✓ Rare Candy -> TM62 Acrobatics. TM87 -> Rare Candy. Super Repel -> Light Ball.
+✓ Added two trigger points on the outside bit that can cause wild encounters.
+✓ After the outside bit, removed the Ether and added a Nurse Joy.
+✓ Changed the last two Sailors to be Ace Trainers, an M and an F. Edited their dialogue a bit.
 Route 40
 ✓ Added smashable rocks.
 ✓ TM88 -> TM78 Scorching Sands.
-✓ Put a hidden Deep Sea Tooth and Deep Sea Scale between some smashable rocks (stolen from Route 20).
 ✓ Added an NPC to give you a Soft Sand.
 
 Cianwood City
@@ -319,6 +328,9 @@ Goldenrod Tunnel (Rocket)
 
 Ice Path
 ✓ TM72 -> TM13 Ice Beam.
+
+Route 27
+✓ An Ace Trainer blocks the Tohjo Falls entrance until Clair is beaten (at which point, Lyra prevents you until you deal with the legendary event).
 
 Miscellaneous
 ✓ Scripts for overworld usage of HMs has been adjusted.

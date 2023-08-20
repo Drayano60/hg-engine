@@ -14860,9 +14860,9 @@ endparty
 
 trainerdata 73, "Theo"
     trainermontype TRAINER_MON_TYPE_FLAGS
-    trainerclass CLASS_SAILOR
+    trainerclass CLASS_BIRD_KEEPER_1
     battletype 0
-    nummons 1
+    nummons 2
     item 0 
     item 0 
     item 0 
@@ -14874,7 +14874,7 @@ trainerdata 73, "Theo"
 party 73
     ivs 0
     abilityslot 0
-    level LEVEL_LIGHTHOUSE+1
+    level LEVEL_LIGHTHOUSE
     pokemon SPECIES_STARAPTOR
     item 0
     move MOVE_TAKE_DOWN
@@ -14882,6 +14882,23 @@ party 73
     move MOVE_CLOSE_COMBAT
     move MOVE_WHIRLWIND
     ability ABILITY_INTIMIDATE
+    ball ITEM_POKE_BALL
+    setivs 20, 20, 20, 20, 20, 20
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level LEVEL_LIGHTHOUSE
+    pokemon SPECIES_TALONFLAME
+    item 0
+    move MOVE_HEAT_WAVE
+    move MOVE_ACROBATICS
+    move MOVE_STEEL_WING
+    move MOVE_FLAIL
+    ability ABILITY_GALE_WINGS
     ball ITEM_POKE_BALL
     setivs 20, 20, 20, 20, 20, 20
     setevs 0, 0, 0, 0, 0, 0
@@ -15222,12 +15239,12 @@ party 214
     ivs 0
     abilityslot 0
     level LEVEL_LIGHTHOUSE+1
-    pokemon SPECIES_RAPIDASH
+    pokemon SPECIES_MAGMAR
     item 0
-    move ALLOW_ILLEGAL_MOVES ? MOVE_BLAZE_KICK : MOVE_FLAME_WHEEL
-    move MOVE_DOUBLE_KICK
-    move MOVE_POISON_JAB
-    move MOVE_SMART_STRIKE
+    move MOVE_FIRE_PUNCH
+    move MOVE_THUNDER_PUNCH
+    move MOVE_CLEAR_SMOG
+    move MOVE_CONFUSE_RAY
     ability ABILITY_FLAME_BODY
     ball ITEM_POKE_BALL
     setivs 25, 25, 25, 25, 25, 25
@@ -15237,7 +15254,7 @@ party 214
     ballseal 0
 endparty
 
-// New, Mickey
+// New, Mickey, Not Used
 trainerdata 180, "Jonathan"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_ACE_TRAINER_M

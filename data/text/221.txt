@@ -234,7 +234,7 @@ An item to be held by a Pokémon.\nIt is a lens that boosts the holder’s\ncrit
 An item to be held by a Pokémon.\nIt is a special metallic film that ups\nthe power of Steel-type moves by 20%.
 An item to be held by a Pokémon.\nThe holder restores 6.25% of its\nmax HP at the end of each turn.
 A thick and tough scale.\nDragon-type Pokémon may be holding\nthis item when caught.
-An item to be held by Pikachu.\nIt is a puzzling orb that doubles\nits Attack and Sp. Atk stats.
+An item to be held by Pichu or Pikachu.\nIt is a puzzling orb that doubles its\nAttack, Sp. Atk and Speed stats.
 An item to be held by a Pokémon.\nIt is a loose, silky sand that boosts\nthe power of Ground-type moves by 20%.
 An item to be held by a Pokémon.\nIt is an unbreakable stone that ups\nthe power of Rock-type moves by 20%.
 An item to be held by a Pokémon.\nIt is a seed imbued with life that ups\nthe power of Grass-type moves by 20%.

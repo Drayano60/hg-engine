@@ -1212,7 +1212,7 @@ pokemon SPECIES_SMEARGLE
 
 // hoenn encounter slots
 pokemon SPECIES_MUNNA
-pokemon SPECIES_YAMASK
+pokemon SPECIES_GOLETT
 
 // sinnoh encounter slots
 pokemon SPECIES_NONE
@@ -2876,7 +2876,7 @@ pokemon SPECIES_KANGASKHAN
 
 // hoenn encounter slots
 pokemon SPECIES_FERROSEED
-pokemon SPECIES_CARBINK
+pokemon SPECIES_TIMBURR
 
 // sinnoh encounter slots
 pokemon SPECIES_NONE
@@ -5375,7 +5375,7 @@ pokemon SPECIES_KANGASKHAN
 
 // hoenn encounter slots
 pokemon SPECIES_FERROTHORN
-pokemon SPECIES_CARBINK
+pokemon SPECIES_GURDURR
 
 // sinnoh encounter slots
 pokemon SPECIES_NONE
@@ -5433,53 +5433,53 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 48, 50, 48, 49, 48, 50, 49, 49, 49, 50, 49, 50
+walklevels 48, 50, 48, 49, 49, 49, 49, 49, 49, 50, 49, 50
 
 // morning encounter slots
 pokemon SPECIES_RATICATE
 pokemon SPECIES_RATICATE
 pokemon SPECIES_HAUNTER
 pokemon SPECIES_HAUNTER
-pokemon SPECIES_ARIADOS
+pokemon SPECIES_CHIMECHO
 pokemon SPECIES_ARIADOS
 pokemon SPECIES_BANETTE
 pokemon SPECIES_DUSCLOPS
 pokemon SPECIES_BRONZONG
 pokemon SPECIES_BRONZONG
-pokemon SPECIES_CHIMECHO
-pokemon SPECIES_CHIMECHO
+pokemon SPECIES_CLAYDOL
+pokemon SPECIES_CLAYDOL
 
 // day encounter slots
 pokemon SPECIES_RATICATE
 pokemon SPECIES_RATICATE
 pokemon SPECIES_HAUNTER
 pokemon SPECIES_HAUNTER
-pokemon SPECIES_ARIADOS
+pokemon SPECIES_CHIMECHO
 pokemon SPECIES_ARIADOS
 pokemon SPECIES_BANETTE
 pokemon SPECIES_DUSCLOPS
 pokemon SPECIES_BRONZONG
 pokemon SPECIES_BRONZONG
-pokemon SPECIES_CHIMECHO
-pokemon SPECIES_CHIMECHO
+pokemon SPECIES_CLAYDOL
+pokemon SPECIES_CLAYDOL
 
 // night encounter slots
 pokemon SPECIES_RATICATE
 pokemon SPECIES_RATICATE
 pokemon SPECIES_HAUNTER
 pokemon SPECIES_HAUNTER
-pokemon SPECIES_ARIADOS
+pokemon SPECIES_CHIMECHO
 pokemon SPECIES_ARIADOS
 pokemon SPECIES_BANETTE
 pokemon SPECIES_DUSCLOPS
 pokemon SPECIES_BRONZONG
 pokemon SPECIES_BRONZONG
-pokemon SPECIES_CHIMECHO
-pokemon SPECIES_CHIMECHO
+pokemon SPECIES_CLAYDOL
+pokemon SPECIES_CLAYDOL
 
 // hoenn encounter slots
 pokemon SPECIES_LAMPENT
-pokemon SPECIES_BEHEEYEM
+pokemon SPECIES_GOLURK
 
 // sinnoh encounter slots
 pokemon SPECIES_NONE

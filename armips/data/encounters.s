@@ -5694,22 +5694,22 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_PELIPPER, 49, 50
-encounter SPECIES_TENTACRUEL, 49, 50
-encounter SPECIES_TENTACRUEL, 49, 50
-encounter SPECIES_TENTACRUEL, 49, 50
-encounter SPECIES_TENTACRUEL, 49, 50
+encounter SPECIES_WINGULL, 25, 25
+encounter SPECIES_TENTACOOL, 25, 25
+encounter SPECIES_TENTACOOL, 25, 25
+encounter SPECIES_PELIPPER, 30, 30
+encounter SPECIES_TENTACRUEL, 30, 30
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_LANTURN, 49, 50
-encounter SPECIES_CLOYSTER, 49, 50
-encounter SPECIES_CLOYSTER, 49, 50
-encounter SPECIES_LUVDISC, 49, 50
-encounter SPECIES_LUVDISC, 49, 50
+encounter SPECIES_CHINCHOU, 25, 27
+encounter SPECIES_SHELLDER, 25, 27
+encounter SPECIES_SHELLDER, 25, 27
+encounter SPECIES_LUVDISC, 25, 27
+encounter SPECIES_LUVDISC, 25, 27
 
 // good rod encounters
 encounter SPECIES_MAGIKARP, 1, 1

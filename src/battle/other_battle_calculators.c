@@ -481,6 +481,12 @@ u8 CalcSpeed(void *bw, struct BattleStruct *sp, int client1, int client2, int fl
         speed1 *= 2;
     }
 
+    // Light Ball now doubles speed too
+    if ((hold_effect1 == HOLD_EFFECT_LIGHT_BALL) && ((sp->battlemon[client1].species == SPECIES_PIKACHU) || (sp->battlemon[client1].species == SPECIES_PICHU)))
+    {
+        speed1 *= 2;
+    }
+    
     if ((ability1 == ABILITY_QUICK_FEET) && (sp->battlemon[client1].condition & STATUS_ANY_PERSISTENT))
     {
         speed1 = speed1 * 15 / 10;
@@ -571,6 +577,12 @@ u8 CalcSpeed(void *bw, struct BattleStruct *sp, int client1, int client2, int fl
     }
 
     if ((hold_effect2 == HOLD_EFFECT_BOOST_DITTO_SPEED) && (sp->battlemon[client2].species == SPECIES_DITTO))
+    {
+        speed2 *= 2;
+    }
+
+    // Light Ball now doubles speed too
+    if ((hold_effect2 == HOLD_EFFECT_LIGHT_BALL) && ((sp->battlemon[client2].species == SPECIES_PIKACHU) || (sp->battlemon[client2].species == SPECIES_PICHU)))
     {
         speed2 *= 2;
     }

@@ -12518,7 +12518,7 @@ const ITEMDATA __data[] =
 
 [ITEM_WHITE_HERB - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 100,
+    .price = 2000,
     .holdEffect = HOLD_EFFECT_STATDOWN_RESTORE,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -12843,7 +12843,7 @@ const ITEMDATA __data[] =
 
 [ITEM_MENTAL_HERB - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 100,
+    .price = 2000,
     .holdEffect = HOLD_EFFECT_HEAL_INFATUATION,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -16229,7 +16229,7 @@ const ITEMDATA __data[] =
 
 [ITEM_POWER_HERB - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 100,
+    .price = 2000,
     .holdEffect = HOLD_EFFECT_CHARGE_SKIP,
     .holdEffectParam = 0,
     .pluckEffect = 0,

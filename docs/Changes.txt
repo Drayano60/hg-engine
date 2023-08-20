@@ -29,6 +29,7 @@ Cherrygrove City
 ✓ The triggers for the above events (16499) have been shifted so Silver's battle is value: 0, the fishing event is value: 1, and it's set to value: 2 afterwards.
 ✓ Added some smashable rocks on the beach which can yield encounters.
 ✓ Changed lady's text in Pokemon Center that talked about communication things previously.
+✓ Removed the second Poké Mart person as their shop has been repurposed.
 
 Route 30 - Mr. Pokémon's House
 ✓ Before leaving, Mr. Pokémon now calls you over and gifts you an Eevee. This Eevee always has its hidden ability.
@@ -189,6 +190,7 @@ Goldenrod City
 ✓ Edited dialogue in the PC that mentioned communication stuff.
 ✓ Bill gives you an Upgrade instead of the Eevee, with some new dialogue to match.
 ✓ Lt. Surge shows up in the Pokémon Center after abcxyz. He'll battle you and award you TM24 Thunderbolt, but he disappears after becoming Champion.
+✓ Added a herb seller in the flower shop who sells the Power Herb, White Herb and Mental Herbs.
 
 Goldenrod Tunnel
 ✓ The four shopping NPCs now show up every day of the week.

@@ -37,6 +37,19 @@ NPCs:
 2133 - Blaine win
 2134 - Eviolite gift in Cianwood City
 2135 - Deep Sea Tooth/Scale gift in Olivine City
+2136 - Rocket Grunt looking at Safari sign in Cianwood
+2137* - Secret Medicine guy.
+2138 - TM42 Facade gift in Cianwood.
+2139 - Winch button check.
+2140 - TM74 Pollen Puff gift.
+
+2175* - Rocket event active.
+2176 - Rocket event inactive.
+2177 - Cliff Cave battle ended.
+2178* - Ethan/Lyra + Azumarill facing down in Cliff Cave.
+2179* - Silver/Grunt outside Cliff Cave.
+2180 - Hexagon Brothers, Route 48.
+2183 - Safari Zone event completed.
 
 2200 - Rare Candy item ball on Route 46.
 2201 - Poison Barb item ball on Route 32.
@@ -80,3 +93,14 @@ Triggers:
 16690/1 - Used for Cynthia in the Route 34 gatehouse.
 16690/2 - Used for script on entry to Mt. Mortar main room
 16690/3 - Used for script blocking exit to Mt. Mortar until Kimono Girl is found
+16690/4 - Used for Ice Path Rocket/Eusine event.
+16690/5 - Used for Cianwood Gym block until Eusine is beaten.
+16690/6 - ??
+16690/7 - ??
+16690/8 - ??
+16690/9 - Cliff Edge Gate, Ethan/Lyra battle.
+16690/10 - Cliff Cave, Executives battle.
+16690/11 - Route 47, Silver appears.
+16690/12 - Cliff Cave, used to control exits so only top one yields Silver event.
+16690/13 - Route 48, Hexagon Brothers.
+16690/14 - Executive battle, Safari Zone Gate.

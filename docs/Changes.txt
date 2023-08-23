@@ -36,6 +36,7 @@ Route 30 - Mr. Pokémon's House
 ✓ Before leaving, Mr. Pokémon now calls you over and gifts you an Eevee. This Eevee always has its hidden ability.
 ✓ This map now has its own header name for Nuzlocke purposes. ("Mr. Pokémon's House")
 ✓ The Pokégear call you receive after leaving Mr. Pokémon's House has slightly edited dialogue, and gives you a prompt to teleport back to New Bark Town immediately (placing the player right outside Elm's Lab).
+✓ The National Dex is activated immediately.
 
 Elm Pokémon Lab 2
 ✓ Elm's dialogue is modified slightly to reflect Mr. Pokémon giving you an Eevee. Elm also gives you 30 x Poké Balls.
@@ -302,26 +303,79 @@ Lighthouse
 ✓ Added two trigger points on the outside bit that can cause wild encounters.
 ✓ After the outside bit, removed the Ether and added a Nurse Joy.
 ✓ Changed the last two Sailors to be Ace Trainers, an M and an F. Edited their dialogue a bit.
+✓ After healing Amphy, it now sets 0x40A5 to 3 so it skips over the Olivine level script. Jasmine also gives you a Metal Coat before leaving.
+
 Route 40
 ✓ Added smashable rocks.
 ✓ TM88 -> TM78 Scorching Sands.
 ✓ Added an NPC to give you a Soft Sand.
 
+Route 41
+✓ No changes here.
+
 Cianwood City
 ✓ Added an NPC in the top left house who gives the Eviolite.
 ✓ Misty shows up in the Pokémon Center after abcxyz. She'll battle you and award you TM55 Scald, but she disappears after becoming Champion.
+✓ Added a Rocket Grunt in front of the Safari Zone sign for some foreshadowing.
+✓ There's now a trigger in front of the Gym that prevents you going in until you beat Eusine.
+✓ The Eusine script now continues regardless of if you win or lose, and stops the Gym block afterwards. His dialogue is edited slightly to be neutral to the win/loss.
+✓ Added an NPC in the camera house who gives you TM42 Facade.
+✓ No change to the Shuckle gift as I don't know where the data is stored for it.
+
+Cianwood City - Gym
+✓ The winch now can't be turned immediately, a button needs to be pressed on the opposite side first.
+✓ With the above factored in, rearranged the trainers to make them all compulsory.
+✓ Chuck now awards TM08, Bulk Up instead.
+✓ After exiting the Gym and receiving HM02 Fly, Baoba calls you at this point and activates the Rocket events. (This is done using Script 7 in Cianwood City.) (Unlike the Olivine one, this does not set variable 0x40A5 at all.)
 
 Cliff Edge Gate
 ✓ Added an item ball with the Rocky Helmet.
+✓ After beating Chuck, the gate lady is temporarily removed and two Rocket grunts are added.
+✓ A battle with Ethan/Lyra takes place here after defeating Chuck. After the battle, you'll receive a Lucky Egg and see a small event with a Rocket.
 
 Cliff Cave
+✓ Added an event leading to a double battle with Petrel and Proton with Ethan/Lyra as a partner when you enter.
+✓ Made Ethan/Lyra (and Azumarill) stay here to act as a healer for the duration of the Rocket event.
+✓ Modified the script so the Rock Smash rocks are always there regardless of whether the National Dex is obtained or not.
+✓ Added some triggers on each exit to control whether the Silver event on Route 47 happens or not when leaving the Cliff Cave, active after the Executive battle. The one on the top floor's exit activates the Route 47 Silver event. It's technically possible to step on this and then use an Escape Rope/Dig/Teleport? which results in the script activating at the wrong time. Not sure how to fix that, but it's an incredibly unlikely scenario anyway. At least it doesn't crash!
 ✓ Added an item ball with TM37 Sandstorm.
+✓ Modified the items from the smashable rocks.
 
 Route 47
 ✓ Lagging Tail -> TM84 Poison Jab.
+✓ Hid all of the ordinary Trainers here until the Rocket event is over (using Flag 2176).
+✓ Added a bunch of Rocket grunts to fight that appear until the Rocket event is over (using Flag 2175), all using Mickeys.
+✓ Added a small event with Silver when you exit the Cliff Cave from the top exit.
+
+Route 48
+✓ Added a mini event as you cross the bridge with six Rocket Grunts - a reference to the Hexagon Brothers from XD. This is a 6v6 double battle. If the player does not have at least two Pokémon, they'll be turned away.
+✓ Deleted the overworlds that were used to transition into the Safari Zone Gate as it caused issues with the Rocket event. Moved three of them out of view, the old man technically still snaps in but it's a single pixel so it's probably OK.
+✓ Nugget -> TM81 X-Scissor.
+
+Safari Zone Gate (Rocket)
+✓ [THIS IS NOT DONE YET] Set the music to be the Team Rocket one while the relevant flag is active. This was done by stealing the entry from Cerulean Gym.
+✓ Added three Rocket Grunts using Mickeys.
+✓ Added Athena/Archer in front of the Safari Zone entrance. Double battle with them with Silver as a partner. Afterwards, they leave, taking all of the Rockets with them. Silver leaves afterwards, and then Baoba will appear and give you TM17 Protect before warping you into the Safari Zone.
+✓ Added a Rocket in front of the Pokémon Center while the event is active, who heals your Pokémon for a fee.
+
+Safari Zone
+✓ Baoba's initial dialogue has been edited a bit to reflect the new scenario. You're now made the Owner and given access to all 12 slots immediately, but the Object Arrangement stuff still comes later as normal after fulfiling the other requirements. Baoba's dialogue also reveals the Kanto leaders in the various cities.
+✓ Cianwood's pharmacist also makes an appearance here with some dialogue before leaving. He can now be found in Cianwood again and the Secret Medicine collected.
+✓ A Kimono Girl sits here with some basic dialogue. She disappears after beating Jasmine; this is just some setup for later.
+
+Safari Zone Gate (Normal)
+✓ Changed out the no talking lady/Kangaskhan for a Roserade and a shopkeeper that sells the Shiny, Dusk, Dawn and Oval Stones.
+✓ Changed the bottom left lady to give TM62, Pollen Puff. Her Butterfree is now a Jumpluff.
+✓ Added a new shopkeeper that uses Celadon's vitamin shop (as it's identical to the Goldenrod/Safari Zone one, so it's free real estate). This one sells some of the Evolution items that the player has been able to get already: Deep Sea Scale, Deep Sea Tooth, King's Rock, Prism Scale, Metal Coat, and Upgrade.
+
+Olivine City - Gym
+✓ The Gentleman and Lass are now actual Trainers using Mickeys (304, 305).
+✓ Jasmine now mentions the Lake of Rage after being beaten to give the player some direction. The mention about Lv. 70 Pokémon obedience is removed.
 
 Route 43
-✓ Max Ether -> TM74 Pollen Puff.
+✓ Rearranged some Trainers to force some.
+✓ Added a new Bug Catcher with a Mickey (180).
+✓ Fisherman Marvin's dialogue is modified to reflect his new shiny Magikarp.
 
 Goldenrod Tunnel (Rocket)
 ✓ TM82 -> TM63 Nasty Plot.

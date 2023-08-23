@@ -15254,73 +15254,6 @@ party 214
     ballseal 0
 endparty
 
-// New, Mickey, Not Used
-trainerdata 180, "Jonathan"
-    trainermontype TRAINER_MON_TYPE_FLAGS
-    trainerclass CLASS_ACE_TRAINER_M
-    battletype 0
-    nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
-    aiflags TRAINER_AI_FLAGS
-    battletype2 SINGLE_BATTLE
-    endentry
-
-party 180
-    ivs 0
-    abilityslot 0
-    level LEVEL_LIGHTHOUSE+1
-    pokemon SPECIES_MAGMAR
-    item 0
-    move MOVE_FIRE_PUNCH
-    move MOVE_THUNDER_PUNCH
-    move MOVE_CLEAR_SMOG
-    move MOVE_CONFUSE_RAY
-    ability ABILITY_FLAME_BODY
-    ball ITEM_POKE_BALL
-    setivs 25, 25, 25, 25, 25, 25
-    setevs 0, 0, 0, 0, 0, 0
-    nature NATURE_SERIOUS
-    shinylock 0
-    ballseal 0
-
-    ivs 0
-    abilityslot 0
-    level LEVEL_LIGHTHOUSE+1
-    pokemon SPECIES_OCTILLERY
-    item 0
-    move MOVE_OCTAZOOKA
-    move MOVE_AURORA_BEAM
-    move MOVE_ROCK_BLAST
-    move MOVE_ACID_SPRAY
-    ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_BOMBARDIER : ABILITY_SNIPER
-    ball ITEM_POKE_BALL
-    setivs 25, 25, 25, 25, 25, 25
-    setevs 0, 0, 0, 0, 0, 0
-    nature NATURE_SERIOUS
-    shinylock 0
-    ballseal 0
-
-    ivs 0
-    abilityslot 0
-    level LEVEL_LIGHTHOUSE+1
-    pokemon SPECIES_GALVANTULA
-    item 0
-    move MOVE_SIGNAL_BEAM
-    move MOVE_ELECTROWEB
-    move MOVE_SUCKER_PUNCH
-    move MOVE_THUNDER_WAVE
-    ability ABILITY_COMPOUND_EYES
-    ball ITEM_POKE_BALL
-    setivs 25, 25, 25, 25, 25, 25
-    setevs 0, 0, 0, 0, 0, 0
-    nature NATURE_SERIOUS
-    shinylock 0
-    ballseal 0
-endparty
-
 /************ Rematches ************/
 
 trainerdata 672, "Alfred"
@@ -16207,6 +16140,72 @@ endparty
 
 /******************************************** Cianwood Gym ********************************************/
 
+trainerdata 156, "Yoshi"
+    trainermontype TRAINER_MON_TYPE_FLAGS
+    trainerclass CLASS_BLACK_BELT
+    battletype 0
+    nummons 3
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype2 SINGLE_BATTLE
+    endentry
+
+party 156
+    ivs 0
+    abilityslot 0
+    level LEVEL_CIANWOOD_GYM
+    pokemon SPECIES_HITMONLEE
+    item ITEM_BLACK_BELT
+    move MOVE_JUMP_KICK
+    move MOVE_BLAZE_KICK
+    move MOVE_KNOCK_OFF
+    move MOVE_MEDITATE
+    ability ABILITY_RECKLESS
+    ball ITEM_POKE_BALL
+    setivs 20, 20, 20, 20, 20, 20
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level LEVEL_CIANWOOD_GYM
+    pokemon SPECIES_GURDURR
+    item ITEM_BLACK_BELT
+    move MOVE_DYNAMIC_PUNCH
+    move MOVE_ROCK_SLIDE
+    move MOVE_PAYBACK
+    move MOVE_SCARY_FACE
+    ability ABILITY_IRON_FIST
+    ball ITEM_POKE_BALL
+    setivs 20, 20, 20, 20, 20, 20
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level LEVEL_CIANWOOD_GYM
+    pokemon SPECIES_TOXICROAK
+    item ITEM_BLACK_BELT
+    move MOVE_CROSS_POISON
+    move MOVE_DRAIN_PUNCH
+    move MOVE_MUD_BOMB
+    move MOVE_FAKE_OUT
+    ability ABILITY_POISON_TOUCH
+    ball ITEM_POKE_BALL
+    setivs 20, 20, 20, 20, 20, 20
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+endparty
+
 trainerdata 157, "Lao"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_BLACK_BELT
@@ -16224,13 +16223,13 @@ party 157
     ivs 0
     abilityslot 0
     level LEVEL_CIANWOOD_GYM
-    pokemon SPECIES_SCRAFTY
+    pokemon SPECIES_HITMONCHAN
     item ITEM_BLACK_BELT
-    move MOVE_BRICK_BREAK
-    move MOVE_PAYBACK
-    move MOVE_ZEN_HEADBUTT
-    move MOVE_FAKE_OUT
-    ability ABILITY_INTIMIDATE
+    move MOVE_DRAIN_PUNCH
+    move MOVE_THUNDER_PUNCH
+    move MOVE_FIRE_PUNCH
+    move MOVE_ICE_PUNCH
+    ability ABILITY_IRON_FIST
     ball ITEM_POKE_BALL
     setivs 20, 20, 20, 20, 20, 20
     setevs 0, 0, 0, 0, 0, 0
@@ -16258,79 +16257,13 @@ party 157
     ivs 0
     abilityslot 0
     level LEVEL_CIANWOOD_GYM
-    pokemon SPECIES_HITMONCHAN
+    pokemon SPECIES_SCRAFTY
     item ITEM_BLACK_BELT
-    move MOVE_DRAIN_PUNCH
-    move MOVE_THUNDER_PUNCH
-    move MOVE_FIRE_PUNCH
-    move MOVE_ICE_PUNCH
-    ability ABILITY_IRON_FIST
-    ball ITEM_POKE_BALL
-    setivs 20, 20, 20, 20, 20, 20
-    setevs 0, 0, 0, 0, 0, 0
-    nature NATURE_SERIOUS
-    shinylock 0
-    ballseal 0
-endparty
-
-trainerdata 159, "Lung"
-    trainermontype TRAINER_MON_TYPE_FLAGS
-    trainerclass CLASS_BLACK_BELT
-    battletype 0
-    nummons 3
-    item 0 
-    item 0 
-    item 0 
-    item 0
-    aiflags TRAINER_AI_FLAGS
-    battletype2 SINGLE_BATTLE
-    endentry
-
-party 159
-    ivs 0
-    abilityslot 0
-    level LEVEL_CIANWOOD_GYM
-    pokemon SPECIES_HERACROSS
-    item ITEM_BLACK_BELT
-    move MOVE_PIN_MISSILE
     move MOVE_BRICK_BREAK
-    move MOVE_NIGHT_SLASH
-    move MOVE_ROCK_BLAST
-    ability ABILITY_MOXIE
-    ball ITEM_POKE_BALL
-    setivs 20, 20, 20, 20, 20, 20
-    setevs 0, 0, 0, 0, 0, 0
-    nature NATURE_SERIOUS
-    shinylock 0
-    ballseal 0
-
-    ivs 0
-    abilityslot 0
-    level LEVEL_CIANWOOD_GYM
-    pokemon SPECIES_HITMONTOP
-    item ITEM_BLACK_BELT
-    move MOVE_TRIPLE_KICK
-    move MOVE_DRILL_RUN
-    move MOVE_ROCK_SLIDE
+    move MOVE_PAYBACK
+    move MOVE_ZEN_HEADBUTT
     move MOVE_FAKE_OUT
-    ability ABILITY_TECHNICIAN
-    ball ITEM_POKE_BALL
-    setivs 20, 20, 20, 20, 20, 20
-    setevs 0, 0, 0, 0, 0, 0
-    nature NATURE_SERIOUS
-    shinylock 0
-    ballseal 0
-
-    ivs 0
-    abilityslot 0
-    level LEVEL_CIANWOOD_GYM
-    pokemon SPECIES_HAWLUCHA
-    item ITEM_BLACK_BELT
-    move MOVE_LOW_SWEEP
-    move MOVE_AERIAL_ACE
-    move MOVE_IRON_HEAD
-    move MOVE_FEATHER_DANCE
-    ability ABILITY_LIMBER
+    ability ABILITY_INTIMIDATE
     ball ITEM_POKE_BALL
     setivs 20, 20, 20, 20, 20, 20
     setevs 0, 0, 0, 0, 0, 0
@@ -16405,7 +16338,8 @@ party 251
     ballseal 0
 endparty
 
-trainerdata 156, "Yoshi"
+
+trainerdata 159, "Lung"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_BLACK_BELT
     battletype 0
@@ -16418,34 +16352,17 @@ trainerdata 156, "Yoshi"
     battletype2 SINGLE_BATTLE
     endentry
 
-party 156
+party 159
     ivs 0
     abilityslot 0
     level LEVEL_CIANWOOD_GYM
-    pokemon SPECIES_TOXICROAK
+    pokemon SPECIES_HITMONTOP
     item ITEM_BLACK_BELT
-    move MOVE_CROSS_POISON
-    move MOVE_DRAIN_PUNCH
-    move MOVE_MUD_BOMB
-    move MOVE_FAKE_OUT
-    ability ABILITY_POISON_TOUCH
-    ball ITEM_POKE_BALL
-    setivs 20, 20, 20, 20, 20, 20
-    setevs 0, 0, 0, 0, 0, 0
-    nature NATURE_SERIOUS
-    shinylock 0
-    ballseal 0
-
-    ivs 0
-    abilityslot 0
-    level LEVEL_CIANWOOD_GYM
-    pokemon SPECIES_GURDURR
-    item ITEM_BLACK_BELT
-    move MOVE_DYNAMIC_PUNCH
+    move MOVE_TRIPLE_KICK
+    move MOVE_DRILL_RUN
     move MOVE_ROCK_SLIDE
-    move MOVE_PAYBACK
-    move MOVE_SCARY_FACE
-    ability ABILITY_IRON_FIST
+    move MOVE_FAKE_OUT
+    ability ABILITY_TECHNICIAN
     ball ITEM_POKE_BALL
     setivs 20, 20, 20, 20, 20, 20
     setevs 0, 0, 0, 0, 0, 0
@@ -16456,13 +16373,30 @@ party 156
     ivs 0
     abilityslot 0
     level LEVEL_CIANWOOD_GYM
-    pokemon SPECIES_HITMONLEE
+    pokemon SPECIES_HERACROSS
     item ITEM_BLACK_BELT
-    move MOVE_JUMP_KICK
-    move MOVE_BLAZE_KICK
-    move MOVE_KNOCK_OFF
-    move MOVE_MEDITATE
-    ability ABILITY_RECKLESS
+    move MOVE_PIN_MISSILE
+    move MOVE_BRICK_BREAK
+    move MOVE_NIGHT_SLASH
+    move MOVE_ROCK_BLAST
+    ability ABILITY_MOXIE
+    ball ITEM_POKE_BALL
+    setivs 20, 20, 20, 20, 20, 20
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level LEVEL_CIANWOOD_GYM
+    pokemon SPECIES_HAWLUCHA
+    item ITEM_BLACK_BELT
+    move MOVE_LOW_SWEEP
+    move MOVE_AERIAL_ACE
+    move MOVE_IRON_HEAD
+    move MOVE_FEATHER_DANCE
+    ability ABILITY_LIMBER
     ball ITEM_POKE_BALL
     setivs 20, 20, 20, 20, 20, 20
     setevs 0, 0, 0, 0, 0, 0
@@ -16491,9 +16425,9 @@ party 34
     pokemon SPECIES_PRIMEAPE
     item ITEM_EVIOLITE
     move MOVE_CROSS_CHOP
-    move MOVE_ROCK_SLIDE
-    move MOVE_KNOCK_OFF
     move MOVE_POISON_JAB
+    move MOVE_KNOCK_OFF
+    move MOVE_BULK_UP
     ability ABILITY_DEFIANT
     ball ITEM_POKE_BALL
     setivs 30, 30, 30, 30, 30, 30
@@ -16544,7 +16478,7 @@ party 34
     move MOVE_DRAIN_PUNCH
     move MOVE_NIGHT_SLASH
     move MOVE_BULLET_PUNCH
-    move MOVE_POISON_JAB
+    move MOVE_BULK_UP
     ability ABILITY_IRON_FIST
     ball ITEM_POKE_BALL
     setivs 30, 30, 30, 30, 30, 30
@@ -19237,6 +19171,73 @@ party 131
     move MOVE_GYRO_BALL
     move MOVE_DEFENSE_CURL
     ability ABILITY_OWN_TEMPO
+    ball ITEM_POKE_BALL
+    setivs 15, 15, 15, 15, 15, 15
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+endparty
+
+// New, Mickey, Not Used
+trainerdata 180, "Bobby"
+    trainermontype TRAINER_MON_TYPE_FLAGS
+    trainerclass CLASS_BUG_CATCHER
+    battletype 0
+    nummons 3
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype2 SINGLE_BATTLE
+    endentry
+
+party 180
+    ivs 0
+    abilityslot 0
+    level LEVEL_ROUTE_43
+    pokemon SPECIES_KRICKETUNE
+    item 0
+    move MOVE_BUG_BUZZ
+    move MOVE_HYPER_VOICE
+    move ALLOW_ILLEGAL_MOVES ? MOVE_DISARMING_VOICE : MOVE_NONE
+    move MOVE_SING
+    ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_CONDUCTOR : ABILITY_SWARM
+    ball ITEM_POKE_BALL
+    setivs 15, 15, 15, 15, 15, 15
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level LEVEL_ROUTE_43
+    pokemon SPECIES_MASQUERAIN
+    item 0
+    move MOVE_BUG_BUZZ
+    move MOVE_SURF
+    move MOVE_AIR_SLASH
+    move MOVE_GIGA_DRAIN
+    ability ABILITY_INTIMIDATE
+    ball ITEM_POKE_BALL
+    setivs 15, 15, 15, 15, 15, 15
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 1 // prevent shiny
+    abilityslot 0
+    level LEVEL_ROUTE_43
+    pokemon SPECIES_GALVANTULA
+    item 0
+    move MOVE_DISCHARGE
+    move MOVE_SIGNAL_BEAM
+    move MOVE_GIGA_DRAIN
+    move MOVE_SUCKER_PUNCH
+    ability ABILITY_SWARM
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
     setevs 0, 0, 0, 0, 0, 0

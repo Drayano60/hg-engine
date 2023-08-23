@@ -20785,92 +20785,92 @@ mondata SPECIES_KOMMO_O, "Kommo-o"
     mondexweight SPECIES_KOMMO_O, "172.4 lbs."
 
 
-mondata SPECIES_ANNIHILAPE, "Annihilape"
-    basestats 110, 115, 80, 90, 50, 90
-    types TYPE_FIGHTING, TYPE_GHOST
-    catchrate 45
-    baseexp 0
-    evyields 0, 3, 0, 0, 0, 0
+mondata SPECIES_TAPU_KOKO, "Tapu Koko"
+    basestats 70, 115, 85, 130, 95, 75
+    types TYPE_ELECTRIC, (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_ELECTRIC
+    catchrate 3
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 0, 0, 3, 0, 0
     items ITEM_NONE, ITEM_NONE
-    genderratio 127
-    eggcycles 20
-    basefriendship 70
-    growthrate GROWTH_MEDIUM_FAST
-    egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_VITAL_SPIRIT, ABILITY_INNER_FOCUS
-    runchance 25
-    colorflip BODY_COLOR_GRAY, 0
-    tmdata SPECIES_ANNIHILAPE_TM_DATA_0, SPECIES_ANNIHILAPE_TM_DATA_1, SPECIES_ANNIHILAPE_TM_DATA_2, SPECIES_ANNIHILAPE_TM_DATA_3
-    mondexentry SPECIES_ANNIHILAPE, "When its anger rose past a critical\npoint, it gained power unfettered\nby the limits of its physical body."
-    mondexclassification SPECIES_ANNIHILAPE, "Rage Monkey Pokémon"
-    mondexheight SPECIES_ANNIHILAPE, "3’11”"
-    mondexweight SPECIES_ANNIHILAPE, "123.5 lbs."
-
-
-mondata SPECIES_FARIGIRAF, "Farigiraf"
-    basestats 120, 90, 70, 60, 110, 70
-    types TYPE_NORMAL, TYPE_PSYCHIC
-    catchrate 45
-    baseexp 0
-    evyields 3, 0, 0, 0, 0, 0
-    items ITEM_NONE, ITEM_NONE
-    genderratio 127
-    eggcycles 20
-    basefriendship 70
-    growthrate GROWTH_MEDIUM_FAST
-    egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_ARMOR_TAIL, ABILITY_ARMOR_TAIL
-    runchance 25
-    colorflip BODY_COLOR_BROWN, 0
-    tmdata SPECIES_FARIGIRAF_TM_DATA_0, SPECIES_FARIGIRAF_TM_DATA_1, SPECIES_FARIGIRAF_TM_DATA_2, SPECIES_FARIGIRAF_TM_DATA_3
-    mondexentry SPECIES_FARIGIRAF, "Now that the brain waves from its head\nand tail are synced up, this Pokémon’s\npsychic power is 10 times stronger."
-    mondexclassification SPECIES_FARIGIRAF, "Long Neck Pokémon"
-    mondexheight SPECIES_FARIGIRAF, "10’06”"
-    mondexweight SPECIES_FARIGIRAF, "352.7 lbs."
-
-
-mondata SPECIES_DUDUNSPARCE, "Dudnsparce"
-    basestats 125, 100, 80, 55, 85, 75
-    types TYPE_NORMAL, TYPE_NORMAL
-    catchrate 45
-    baseexp 0
-    evyields 2, 0, 0, 0, 0, 0
-    items ITEM_NONE, ITEM_NONE
-    genderratio 127
-    eggcycles 20
-    basefriendship 70
-    growthrate GROWTH_MEDIUM_FAST
-    egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_SERENE_GRACE, ABILITY_RUN_AWAY
-    runchance 25
+    genderratio 255
+    eggcycles 15
+    basefriendship 50
+    growthrate GROWTH_SLOW
+    egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
+    abilities ABILITY_ELECTRIC_SURGE, ABILITY_NONE
+    runchance 0
     colorflip BODY_COLOR_YELLOW, 0
-    tmdata SPECIES_DUDUNSPARCE_TM_DATA_0, SPECIES_DUDUNSPARCE_TM_DATA_1, SPECIES_DUDUNSPARCE_TM_DATA_2, SPECIES_DUDUNSPARCE_TM_DATA_3
-    mondexentry SPECIES_DUDUNSPARCE, "It drives enemies away by sucking\nin enough air to fill its narrow lungs,\nthen releasing it in an intense blast."
-    mondexclassification SPECIES_DUDUNSPARCE, "Land Snake Pokémon"
-    mondexheight SPECIES_DUDUNSPARCE, "11’10”" // Two-Segment
-    mondexweight SPECIES_DUDUNSPARCE, "86.4 lbs." // Two-Segment
+    tmdata SPECIES_TAPU_KOKO_TM_DATA_0, SPECIES_TAPU_KOKO_TM_DATA_1, SPECIES_TAPU_KOKO_TM_DATA_2, SPECIES_TAPU_KOKO_TM_DATA_3
+    mondexentry SPECIES_TAPU_KOKO, "The lightning-wielding guardian deity of\nMelemele, Tapu Koko is brimming with curiosity\nand appears before people from time to time."
+    mondexclassification SPECIES_TAPU_KOKO, "Land Spirit Pokémon"
+    mondexheight SPECIES_TAPU_KOKO, "5’11”"
+    mondexweight SPECIES_TAPU_KOKO, "45.2 lbs."
 
 
-mondata SPECIES_KINGAMBIT, "Kingambit"
-    basestats 100, 135, 120, 50, 60, 85
-    types TYPE_DARK, TYPE_STEEL
-    catchrate 25
-    baseexp 0
+mondata SPECIES_TAPU_LELE, "Tapu Lele"
+    basestats 70, 85, 75, 95, 130, 115
+    types TYPE_PSYCHIC, (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_PSYCHIC
+    catchrate 3
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 0, 0, 0, 3, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 255
+    eggcycles 15
+    basefriendship 50
+    growthrate GROWTH_SLOW
+    egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
+    abilities ABILITY_PSYCHIC_SURGE, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_PINK, 0
+    tmdata SPECIES_TAPU_LELE_TM_DATA_0, SPECIES_TAPU_LELE_TM_DATA_1, SPECIES_TAPU_LELE_TM_DATA_2, SPECIES_TAPU_LELE_TM_DATA_3
+    mondexentry SPECIES_TAPU_LELE, "Although called a guardian deity, Tapu Lele is\ndevoid of guilt about its cruel disposition and\ncan be described as nature incarnate."
+    mondexclassification SPECIES_TAPU_LELE, "Land Spirit Pokémon"
+    mondexheight SPECIES_TAPU_LELE, "3’11”"
+    mondexweight SPECIES_TAPU_LELE, "41.0 lbs."
+
+
+mondata SPECIES_TAPU_BULU, "Tapu Bulu"
+    basestats 70, 130, 115, 75, 85, 95
+    types TYPE_GRASS, (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_GRASS
+    catchrate 3
+    baseexp 0 // defined in baseexp.s
     evyields 0, 3, 0, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
-    genderratio 127
-    eggcycles 20
-    basefriendship 35
-    growthrate GROWTH_MEDIUM_FAST
-    egggroups EGG_GROUP_HUMAN_LIKE, EGG_GROUP_HUMAN_LIKE
-    abilities ABILITY_DEFIANT, ABILITY_SUPREME_OVERLORD
-    runchance 25
+    genderratio 255
+    eggcycles 15
+    basefriendship 50
+    growthrate GROWTH_SLOW
+    egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
+    abilities ABILITY_GRASSY_SURGE, ABILITY_NONE
+    runchance 0
     colorflip BODY_COLOR_RED, 0
-    tmdata SPECIES_KINGAMBIT_TM_DATA_0, SPECIES_KINGAMBIT_TM_DATA_1, SPECIES_KINGAMBIT_TM_DATA_2, SPECIES_KINGAMBIT_TM_DATA_3
-    mondexentry SPECIES_KINGAMBIT, "Although it commands a massive army,\nit can’t devise complex strategies.\nIt just pushes with brute strength."
-    mondexclassification SPECIES_KINGAMBIT, "Big Blade Pokémon"
-    mondexheight SPECIES_KINGAMBIT, "6’07”"
-    mondexweight SPECIES_KINGAMBIT, "264.6 lbs."
+    tmdata SPECIES_TAPU_BULU_TM_DATA_0, SPECIES_TAPU_BULU_TM_DATA_1, SPECIES_TAPU_BULU_TM_DATA_2, SPECIES_TAPU_BULU_TM_DATA_3
+    mondexentry SPECIES_TAPU_BULU, "It makes ringing sounds with its tail to let others\nknow where it is, avoiding unneeded conflicts.\nThis guardian deity of Ula’ula controls plants."
+    mondexclassification SPECIES_TAPU_BULU, "Land Spirit Pokémon"
+    mondexheight SPECIES_TAPU_BULU, "6’03”"
+    mondexweight SPECIES_TAPU_BULU, "100.3 lbs."
+
+
+mondata SPECIES_TAPU_FINI, "Tapu Fini"
+    basestats 70, 75, 115, 85, 95, 130
+    types TYPE_WATER, (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_WATER
+    catchrate 3
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 0, 0, 0, 0, 3
+    items ITEM_NONE, ITEM_NONE
+    genderratio 255
+    eggcycles 15
+    basefriendship 50
+    growthrate GROWTH_SLOW
+    egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
+    abilities ABILITY_MISTY_SURGE, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_PURPLE, 0
+    tmdata SPECIES_TAPU_FINI_TM_DATA_0, SPECIES_TAPU_FINI_TM_DATA_1, SPECIES_TAPU_FINI_TM_DATA_2, SPECIES_TAPU_FINI_TM_DATA_3
+    mondexentry SPECIES_TAPU_FINI, "Although it’s called a guardian deity, terrible\ncalamities sometimes befall those who\nrecklessly approach Tapu Fini."
+    mondexclassification SPECIES_TAPU_FINI, "Land Spirit Pokémon"
+    mondexheight SPECIES_TAPU_FINI, "4’03”"
+    mondexweight SPECIES_TAPU_FINI, "46.7 lbs."
 
 
 mondata SPECIES_COSMOG, "Cosmog"
@@ -21339,21 +21339,21 @@ mondata SPECIES_GROOKEY, "Grookey"
     basestats 50, 65, 50, 65, 40, 40
     types TYPE_GRASS, TYPE_GRASS
     catchrate 45
-    baseexp 62
+    baseexp 0 // defined in baseexp.s
     evyields 0, 1, 0, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
-    genderratio 254
+    genderratio 31
     eggcycles 20
-    basefriendship 70
+    basefriendship 50
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_FIELD, EGG_GROUP_GRASS
-    abilities ABILITY_OVERGROW,  ABILITY_NONE
-    runchance 25
+    abilities ABILITY_OVERGROW, ABILITY_NONE
+    runchance 0
     colorflip BODY_COLOR_GREEN, 0
     tmdata SPECIES_GROOKEY_TM_DATA_0, SPECIES_GROOKEY_TM_DATA_1, SPECIES_GROOKEY_TM_DATA_2, SPECIES_GROOKEY_TM_DATA_3
-    mondexentry SPECIES_GROOKEY, "It attacks with rapid beats of its\nstick. As it strikes with amazing speed,\nit gets more and more pumped."
+    mondexentry SPECIES_GROOKEY, "It attacks with rapid beats of its stick.\nAs it strikes with amazing speed, it gets\nmore and more pumped."
     mondexclassification SPECIES_GROOKEY, "Chimp Pokémon"
-    mondexheight SPECIES_GROOKEY, "0’12”"
+    mondexheight SPECIES_GROOKEY, "1’00”"
     mondexweight SPECIES_GROOKEY, "11.0 lbs."
 
 
@@ -21361,19 +21361,19 @@ mondata SPECIES_THWACKEY, "Thwackey"
     basestats 70, 85, 70, 80, 55, 60
     types TYPE_GRASS, TYPE_GRASS
     catchrate 45
-    baseexp 147
+    baseexp 0 // defined in baseexp.s
     evyields 0, 2, 0, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
-    genderratio 254
+    genderratio 31
     eggcycles 20
-    basefriendship 70
+    basefriendship 50
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_FIELD, EGG_GROUP_GRASS
-    abilities ABILITY_OVERGROW,  ABILITY_NONE
-    runchance 25
+    abilities ABILITY_OVERGROW, ABILITY_NONE
+    runchance 0
     colorflip BODY_COLOR_GREEN, 0
     tmdata SPECIES_THWACKEY_TM_DATA_0, SPECIES_THWACKEY_TM_DATA_1, SPECIES_THWACKEY_TM_DATA_2, SPECIES_THWACKEY_TM_DATA_3
-    mondexentry SPECIES_THWACKEY, "The faster a Thwackey can beat out a\nrhythm with its two sticks, the more respect\nit wins from its peers."
+    mondexentry SPECIES_THWACKEY, "When it’s drumming out rapid beats in battle, it\ngets so caught up in the rhythm that it won’t even\nnotice that it’s already knocked out its opponent."
     mondexclassification SPECIES_THWACKEY, "Beat Pokémon"
     mondexheight SPECIES_THWACKEY, "2’04”"
     mondexweight SPECIES_THWACKEY, "30.9 lbs."
@@ -21383,19 +21383,19 @@ mondata SPECIES_RILLABOOM, "Rillaboom"
     basestats 100, 125, 90, 85, 60, 70
     types TYPE_GRASS, TYPE_GRASS
     catchrate 45
-    baseexp 265
+    baseexp 0 // defined in baseexp.s
     evyields 0, 3, 0, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
-    genderratio 254
+    genderratio 31
     eggcycles 20
-    basefriendship 70
+    basefriendship 50
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_FIELD, EGG_GROUP_GRASS
-    abilities ABILITY_OVERGROW,  ABILITY_NONE
-    runchance 25
+    abilities ABILITY_OVERGROW, ABILITY_NONE
+    runchance 0
     colorflip BODY_COLOR_GREEN, 0
     tmdata SPECIES_RILLABOOM_TM_DATA_0, SPECIES_RILLABOOM_TM_DATA_1, SPECIES_RILLABOOM_TM_DATA_2, SPECIES_RILLABOOM_TM_DATA_3
-    mondexentry SPECIES_RILLABOOM, "By drumming, it taps into the power of\nits special tree stump. The roots of the\nstump follow its direction in battle."
+    mondexentry SPECIES_RILLABOOM, "The one with the best drumming techniques\nbecomes the boss of the troop. It has a gentle\ndisposition and values harmony among its group."
     mondexclassification SPECIES_RILLABOOM, "Drummer Pokémon"
     mondexheight SPECIES_RILLABOOM, "6’11”"
     mondexweight SPECIES_RILLABOOM, "198.4 lbs."
@@ -21405,21 +21405,21 @@ mondata SPECIES_SCORBUNNY, "Scorbunny"
     basestats 50, 71, 40, 69, 40, 40
     types TYPE_FIRE, TYPE_FIRE
     catchrate 45
-    baseexp 62
+    baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 1, 0, 0
     items ITEM_NONE, ITEM_NONE
-    genderratio 254
+    genderratio 31
     eggcycles 20
-    basefriendship 70
+    basefriendship 50
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_FIELD, EGG_GROUP_HUMAN_LIKE
-    abilities ABILITY_BLAZE,  ABILITY_NONE
-    runchance 25
+    abilities ABILITY_BLAZE, ABILITY_NONE
+    runchance 0
     colorflip BODY_COLOR_WHITE, 0
     tmdata SPECIES_SCORBUNNY_TM_DATA_0, SPECIES_SCORBUNNY_TM_DATA_1, SPECIES_SCORBUNNY_TM_DATA_2, SPECIES_SCORBUNNY_TM_DATA_3
-    mondexentry SPECIES_SCORBUNNY, "It has special pads on the backs of\nits feet, and one on its nose. Its\npads radiate tremendous heat."
+    mondexentry SPECIES_SCORBUNNY, "It has special pads on the backs of its feet, and\none on its nose. Once it’s raring to fight, these\npads radiate tremendous heat."
     mondexclassification SPECIES_SCORBUNNY, "Rabbit Pokémon"
-    mondexheight SPECIES_SCORBUNNY, "0’12”"
+    mondexheight SPECIES_SCORBUNNY, "1’00”"
     mondexweight SPECIES_SCORBUNNY, "9.9 lbs."
 
 
@@ -21427,21 +21427,21 @@ mondata SPECIES_RABOOT, "Raboot"
     basestats 65, 86, 60, 94, 55, 60
     types TYPE_FIRE, TYPE_FIRE
     catchrate 45
-    baseexp 147
+    baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 2, 0, 0
     items ITEM_NONE, ITEM_NONE
-    genderratio 254
+    genderratio 31
     eggcycles 20
-    basefriendship 70
+    basefriendship 50
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_FIELD, EGG_GROUP_HUMAN_LIKE
-    abilities ABILITY_BLAZE,  ABILITY_NONE
-    runchance 25
+    abilities ABILITY_BLAZE, ABILITY_NONE
+    runchance 0
     colorflip BODY_COLOR_GRAY, 0
     tmdata SPECIES_RABOOT_TM_DATA_0, SPECIES_RABOOT_TM_DATA_1, SPECIES_RABOOT_TM_DATA_2, SPECIES_RABOOT_TM_DATA_3
-    mondexentry SPECIES_RABOOT, "Its thick and fluffy fur protects it\nfrom the cold and enables it to\nuse hotter fire moves."
+    mondexentry SPECIES_RABOOT, "It kicks berries right off the branches of trees\nand then juggles them with its feet, practicing\nits footwork."
     mondexclassification SPECIES_RABOOT, "Rabbit Pokémon"
-    mondexheight SPECIES_RABOOT, "1’12”"
+    mondexheight SPECIES_RABOOT, "2’00”"
     mondexweight SPECIES_RABOOT, "19.8 lbs."
 
 
@@ -21449,19 +21449,19 @@ mondata SPECIES_CINDERACE, "Cinderace"
     basestats 80, 116, 75, 119, 65, 75
     types TYPE_FIRE, TYPE_FIRE
     catchrate 45
-    baseexp 265
+    baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 3, 0, 0
     items ITEM_NONE, ITEM_NONE
-    genderratio 254
+    genderratio 31
     eggcycles 20
-    basefriendship 70
+    basefriendship 50
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_FIELD, EGG_GROUP_HUMAN_LIKE
-    abilities ABILITY_BLAZE,  ABILITY_NONE
-    runchance 25
+    abilities ABILITY_BLAZE, ABILITY_NONE
+    runchance 0
     colorflip BODY_COLOR_WHITE, 0
     tmdata SPECIES_CINDERACE_TM_DATA_0, SPECIES_CINDERACE_TM_DATA_1, SPECIES_CINDERACE_TM_DATA_2, SPECIES_CINDERACE_TM_DATA_3
-    mondexentry SPECIES_CINDERACE, "It gets pumped up when cheered on.\nBut if it starts showboating, it could put\nitself in a tough spot."
+    mondexentry SPECIES_CINDERACE, "It’s skilled at both offense and defense, and it\ngets pumped up when cheered on. But if it starts\nshowboating, it could put itself in a tough spot."
     mondexclassification SPECIES_CINDERACE, "Striker Pokémon"
     mondexheight SPECIES_CINDERACE, "4’07”"
     mondexweight SPECIES_CINDERACE, "72.8 lbs."
@@ -21471,21 +21471,21 @@ mondata SPECIES_SOBBLE, "Sobble"
     basestats 50, 40, 40, 70, 70, 40
     types TYPE_WATER, TYPE_WATER
     catchrate 45
-    baseexp 62
+    baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 1, 0, 1
     items ITEM_NONE, ITEM_NONE
-    genderratio 254
+    genderratio 31
     eggcycles 20
-    basefriendship 70
+    basefriendship 50
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_FIELD
-    abilities ABILITY_TORRENT,  ABILITY_NONE
-    runchance 25
+    abilities ABILITY_TORRENT, ABILITY_NONE
+    runchance 0
     colorflip BODY_COLOR_BLUE, 0
     tmdata SPECIES_SOBBLE_TM_DATA_0, SPECIES_SOBBLE_TM_DATA_1, SPECIES_SOBBLE_TM_DATA_2, SPECIES_SOBBLE_TM_DATA_3
-    mondexentry SPECIES_SOBBLE, "When it gets wet, its skin changes\ncolor, and this Pokémon becomes\ninvisible as if it were camouflaged."
+    mondexentry SPECIES_SOBBLE, "When it gets wet, its skin changes color,\nand this Pokémon becomes invisible as if\nit were camouflaged."
     mondexclassification SPECIES_SOBBLE, "Water Lizard Pokémon"
-    mondexheight SPECIES_SOBBLE, "0’12”"
+    mondexheight SPECIES_SOBBLE, "1’00”"
     mondexweight SPECIES_SOBBLE, "8.8 lbs."
 
 
@@ -21493,16 +21493,16 @@ mondata SPECIES_DRIZZILE, "Drizzile"
     basestats 65, 60, 55, 90, 95, 55
     types TYPE_WATER, TYPE_WATER
     catchrate 45
-    baseexp 147
+    baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 2, 0
     items ITEM_NONE, ITEM_NONE
-    genderratio 254
+    genderratio 31
     eggcycles 20
-    basefriendship 70
+    basefriendship 50
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_FIELD
-    abilities ABILITY_TORRENT,  ABILITY_NONE
-    runchance 25
+    abilities ABILITY_TORRENT, ABILITY_NONE
+    runchance 0
     colorflip BODY_COLOR_BLUE, 0
     tmdata SPECIES_DRIZZILE_TM_DATA_0, SPECIES_DRIZZILE_TM_DATA_1, SPECIES_DRIZZILE_TM_DATA_2, SPECIES_DRIZZILE_TM_DATA_3
     mondexentry SPECIES_DRIZZILE, "Highly intelligent but also very lazy,\nit keeps enemies out of its territory\nby laying traps everywhere."
@@ -21515,19 +21515,19 @@ mondata SPECIES_INTELEON, "Inteleon"
     basestats 70, 85, 65, 120, 125, 65
     types TYPE_WATER, TYPE_WATER
     catchrate 45
-    baseexp 265
+    baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 3, 0, 0
     items ITEM_NONE, ITEM_NONE
-    genderratio 254
+    genderratio 31
     eggcycles 20
-    basefriendship 70
+    basefriendship 50
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_FIELD
-    abilities ABILITY_TORRENT,  ABILITY_NONE
-    runchance 25
+    abilities ABILITY_TORRENT, ABILITY_NONE
+    runchance 0
     colorflip BODY_COLOR_BLUE, 0
     tmdata SPECIES_INTELEON_TM_DATA_0, SPECIES_INTELEON_TM_DATA_1, SPECIES_INTELEON_TM_DATA_2, SPECIES_INTELEON_TM_DATA_3
-    mondexentry SPECIES_INTELEON, "It picks out foes’ weak points so it\ncan precisely blast them with water\nthat shoots from its fingertips."
+    mondexentry SPECIES_INTELEON, "Its nictitating membranes let it pick out foes’\nweak points so it can precisely blast them with\nwater that shoots from its fingertips at Mach 3."
     mondexclassification SPECIES_INTELEON, "Secret Agent Pokémon"
     mondexheight SPECIES_INTELEON, "6’03”"
     mondexweight SPECIES_INTELEON, "99.6 lbs."
@@ -21537,21 +21537,21 @@ mondata SPECIES_SKWOVET, "Skwovet"
     basestats 70, 55, 55, 25, 35, 35
     types TYPE_NORMAL, TYPE_NORMAL
     catchrate 255
-    baseexp 55
+    baseexp 0 // defined in baseexp.s
     evyields 1, 0, 0, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
     genderratio 127
     eggcycles 20
-    basefriendship 70
+    basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_CHEEK_POUCH,  ABILITY_NONE
-    runchance 25
+    abilities ABILITY_CHEEK_POUCH, ABILITY_NONE
+    runchance 0
     colorflip BODY_COLOR_BROWN, 0
     tmdata SPECIES_SKWOVET_TM_DATA_0, SPECIES_SKWOVET_TM_DATA_1, SPECIES_SKWOVET_TM_DATA_2, SPECIES_SKWOVET_TM_DATA_3
-    mondexentry SPECIES_SKWOVET, "This Pokémon becomes uneasy if its\ncheeks are ever completely empty\nof berries."
+    mondexentry SPECIES_SKWOVET, "It eats berries nonstop: a habit that has made\nit more resilient than it looks. It’ll show up on\nfarms, searching for yet more berries."
     mondexclassification SPECIES_SKWOVET, "Cheeky Pokémon"
-    mondexheight SPECIES_SKWOVET, "0’12”"
+    mondexheight SPECIES_SKWOVET, "1’00”"
     mondexweight SPECIES_SKWOVET, "5.5 lbs."
 
 
@@ -21559,21 +21559,21 @@ mondata SPECIES_GREEDENT, "Greedent"
     basestats 120, 95, 95, 20, 55, 75
     types TYPE_NORMAL, TYPE_NORMAL
     catchrate 90
-    baseexp 161
+    baseexp 0 // defined in baseexp.s
     evyields 2, 0, 0, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
     genderratio 127
     eggcycles 20
-    basefriendship 70
+    basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_CHEEK_POUCH,  ABILITY_NONE
-    runchance 25
+    abilities ABILITY_CHEEK_POUCH, ABILITY_NONE
+    runchance 0
     colorflip BODY_COLOR_BROWN, 0
     tmdata SPECIES_GREEDENT_TM_DATA_0, SPECIES_GREEDENT_TM_DATA_1, SPECIES_GREEDENT_TM_DATA_2, SPECIES_GREEDENT_TM_DATA_3
-    mondexentry SPECIES_GREEDENT, "This Pokémon has strong teeth and\ncan chew through the toughest of\nberry shells."
+    mondexentry SPECIES_GREEDENT, "Common throughout the Galar region, this\nPokémon has strong teeth and can chew\nthrough the toughest of berry shells."
     mondexclassification SPECIES_GREEDENT, "Greedy Pokémon"
-    mondexheight SPECIES_GREEDENT, "1’12”"
+    mondexheight SPECIES_GREEDENT, "2’00”"
     mondexweight SPECIES_GREEDENT, "13.2 lbs."
 
 
@@ -21581,19 +21581,19 @@ mondata SPECIES_ROOKIDEE, "Rookidee"
     basestats 38, 47, 35, 57, 33, 35
     types TYPE_FLYING, TYPE_FLYING
     catchrate 255
-    baseexp 49
+    baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 1, 0, 0
     items ITEM_NONE, ITEM_NONE
     genderratio 127
     eggcycles 15
-    basefriendship 70
+    basefriendship 50
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_FLYING, EGG_GROUP_FLYING
-    abilities ABILITY_KEEN_EYE,  ABILITY_UNNERVE
-    runchance 25
+    abilities ABILITY_KEEN_EYE, ABILITY_UNNERVE
+    runchance 0
     colorflip BODY_COLOR_BLUE, 0
     tmdata SPECIES_ROOKIDEE_TM_DATA_0, SPECIES_ROOKIDEE_TM_DATA_1, SPECIES_ROOKIDEE_TM_DATA_2, SPECIES_ROOKIDEE_TM_DATA_3
-    mondexentry SPECIES_ROOKIDEE, "It will bravely challenge any foe, no\nmatter how powerful. Even suffering\na defeat increases its strength a bit."
+    mondexentry SPECIES_ROOKIDEE, "Jumping nimbly about, this small-bodied\nPokémon takes advantage of even the slightest\nopportunity to disorient larger opponents."
     mondexclassification SPECIES_ROOKIDEE, "Tiny Bird Pokémon"
     mondexheight SPECIES_ROOKIDEE, "0’08”"
     mondexweight SPECIES_ROOKIDEE, "4.0 lbs."
@@ -21603,19 +21603,19 @@ mondata SPECIES_CORVISQUIRE, "Corvisquire"
     basestats 68, 67, 55, 77, 43, 55
     types TYPE_FLYING, TYPE_FLYING
     catchrate 120
-    baseexp 128
+    baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 2, 0, 0
     items ITEM_NONE, ITEM_NONE
     genderratio 127
     eggcycles 15
-    basefriendship 70
+    basefriendship 50
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_FLYING, EGG_GROUP_FLYING
-    abilities ABILITY_KEEN_EYE,  ABILITY_UNNERVE
-    runchance 25
+    abilities ABILITY_KEEN_EYE, ABILITY_UNNERVE
+    runchance 0
     colorflip BODY_COLOR_BLUE, 0
     tmdata SPECIES_CORVISQUIRE_TM_DATA_0, SPECIES_CORVISQUIRE_TM_DATA_1, SPECIES_CORVISQUIRE_TM_DATA_2, SPECIES_CORVISQUIRE_TM_DATA_3
-    mondexentry SPECIES_CORVISQUIRE, "The lessons of many harsh battles\nhave taught it how to accurately judge\nan opponent’s strength."
+    mondexentry SPECIES_CORVISQUIRE, "The lessons of many harsh battles have taught it\nhow to accurately judge an opponent’s strength."
     mondexclassification SPECIES_CORVISQUIRE, "Raven Pokémon"
     mondexheight SPECIES_CORVISQUIRE, "2’07”"
     mondexweight SPECIES_CORVISQUIRE, "35.3 lbs."
@@ -21625,19 +21625,19 @@ mondata SPECIES_CORVIKNIGHT, "Corviknite"
     basestats 98, 87, 105, 67, 53, 85
     types TYPE_FLYING, TYPE_STEEL
     catchrate 45
-    baseexp 248
+    baseexp 0 // defined in baseexp.s
     evyields 0, 0, 3, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
     genderratio 127
     eggcycles 15
-    basefriendship 70
+    basefriendship 50
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_FLYING, EGG_GROUP_FLYING
-    abilities ABILITY_PRESSURE,  ABILITY_UNNERVE
-    runchance 25
+    abilities ABILITY_PRESSURE, ABILITY_UNNERVE
+    runchance 0
     colorflip BODY_COLOR_PURPLE, 0
     tmdata SPECIES_CORVIKNIGHT_TM_DATA_0, SPECIES_CORVIKNIGHT_TM_DATA_1, SPECIES_CORVIKNIGHT_TM_DATA_2, SPECIES_CORVIKNIGHT_TM_DATA_3
-    mondexentry SPECIES_CORVIKNIGHT, "The black luster of its steel body\ncould drive terror into the heart of\nany foe."
+    mondexentry SPECIES_CORVIKNIGHT, "With their great intellect and flying skills, these\nPokémon very successfully act as the Galar\nregion’s airborne taxi service."
     mondexclassification SPECIES_CORVIKNIGHT, "Raven Pokémon"
     mondexheight SPECIES_CORVIKNIGHT, "7’03”"
     mondexweight SPECIES_CORVIKNIGHT, "165.3 lbs."
@@ -21647,19 +21647,19 @@ mondata SPECIES_BLIPBUG, "Blipbug"
     basestats 25, 20, 20, 45, 25, 45
     types TYPE_BUG, TYPE_BUG
     catchrate 255
-    baseexp 36
+    baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 0, 1
     items ITEM_NONE, ITEM_NONE
     genderratio 127
     eggcycles 15
-    basefriendship 70
+    basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_BUG, EGG_GROUP_BUG
-    abilities ABILITY_SWARM,  ABILITY_COMPOUND_EYES
-    runchance 25
+    abilities ABILITY_SWARM, ABILITY_COMPOUND_EYES
+    runchance 0
     colorflip BODY_COLOR_BLUE, 0
     tmdata SPECIES_BLIPBUG_TM_DATA_0, SPECIES_BLIPBUG_TM_DATA_1, SPECIES_BLIPBUG_TM_DATA_2, SPECIES_BLIPBUG_TM_DATA_3
-    mondexentry SPECIES_BLIPBUG, "A constant collector of information,\nthis Pokémon is very smart. Very\nstrong is what it isn’t."
+    mondexentry SPECIES_BLIPBUG, "Often found in gardens, this Pokémon has hairs\non its body that it uses to assess its surroundings."
     mondexclassification SPECIES_BLIPBUG, "Larva Pokémon"
     mondexheight SPECIES_BLIPBUG, "1’04”"
     mondexweight SPECIES_BLIPBUG, "17.6 lbs."
@@ -21669,19 +21669,19 @@ mondata SPECIES_DOTTLER, "Dottler"
     basestats 50, 35, 80, 30, 50, 90
     types TYPE_BUG, TYPE_PSYCHIC
     catchrate 120
-    baseexp 117
+    baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 0, 2
     items ITEM_NONE, ITEM_NONE
     genderratio 127
     eggcycles 15
-    basefriendship 70
+    basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_BUG, EGG_GROUP_BUG
-    abilities ABILITY_SWARM,  ABILITY_COMPOUND_EYES
-    runchance 25
+    abilities ABILITY_SWARM, ABILITY_COMPOUND_EYES
+    runchance 0
     colorflip BODY_COLOR_YELLOW, 0
     tmdata SPECIES_DOTTLER_TM_DATA_0, SPECIES_DOTTLER_TM_DATA_1, SPECIES_DOTTLER_TM_DATA_2, SPECIES_DOTTLER_TM_DATA_3
-    mondexentry SPECIES_DOTTLER, "As it grows inside its shell, it uses\nits psychic abilities to monitor its\nsurroundings and wait for evolution."
+    mondexentry SPECIES_DOTTLER, "As it grows inside its shell, it uses its psychic\nabilities to monitor the outside world and\nprepare for evolution."
     mondexclassification SPECIES_DOTTLER, "Radome Pokémon"
     mondexheight SPECIES_DOTTLER, "1’04”"
     mondexweight SPECIES_DOTTLER, "43.0 lbs."
@@ -21691,19 +21691,19 @@ mondata SPECIES_ORBEETLE, "Orbeetle"
     basestats 60, 45, 110, 90, 80, 120
     types TYPE_BUG, TYPE_PSYCHIC
     catchrate 45
-    baseexp 253
+    baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 0, 3
     items ITEM_NONE, ITEM_NONE
     genderratio 127
     eggcycles 15
-    basefriendship 70
+    basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_BUG, EGG_GROUP_BUG
-    abilities ABILITY_SWARM,  ABILITY_FRISK
-    runchance 25
+    abilities ABILITY_SWARM, ABILITY_FRISK
+    runchance 0
     colorflip BODY_COLOR_RED, 0
     tmdata SPECIES_ORBEETLE_TM_DATA_0, SPECIES_ORBEETLE_TM_DATA_1, SPECIES_ORBEETLE_TM_DATA_2, SPECIES_ORBEETLE_TM_DATA_3
-    mondexentry SPECIES_ORBEETLE, "It’s famous for its high intelligence,\nand the large size of its brain is proof\nthat it has immense psychic power."
+    mondexentry SPECIES_ORBEETLE, "It emits psychic energy to observe and study\nwhat’s around it: and what’s around it can\ninclude things over six miles away."
     mondexclassification SPECIES_ORBEETLE, "Seven Spot Pokémon"
     mondexheight SPECIES_ORBEETLE, "1’04”"
     mondexweight SPECIES_ORBEETLE, "89.9 lbs."
@@ -21713,21 +21713,21 @@ mondata SPECIES_NICKIT, "Nickit"
     basestats 40, 28, 28, 50, 47, 52
     types TYPE_DARK, TYPE_DARK
     catchrate 255
-    baseexp 49
+    baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 0, 1
     items ITEM_NONE, ITEM_NONE
     genderratio 127
     eggcycles 15
-    basefriendship 70
+    basefriendship 50
     growthrate GROWTH_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_RUN_AWAY,  ABILITY_UNBURDEN
-    runchance 25
+    abilities ABILITY_RUN_AWAY, ABILITY_UNBURDEN
+    runchance 0
     colorflip BODY_COLOR_BROWN, 0
     tmdata SPECIES_NICKIT_TM_DATA_0, SPECIES_NICKIT_TM_DATA_1, SPECIES_NICKIT_TM_DATA_2, SPECIES_NICKIT_TM_DATA_3
-    mondexentry SPECIES_NICKIT, "Aided by the soft pads on its feet, it\nsilently raids the food stores of others.\nIt survives off its ill-gotten gains."
+    mondexentry SPECIES_NICKIT, "Cunning and cautious, this Pokémon survives by\nstealing food from others. It erases its tracks with\nswipes of its tail as it makes off with its plunder."
     mondexclassification SPECIES_NICKIT, "Fox Pokémon"
-    mondexheight SPECIES_NICKIT, "1’12”"
+    mondexheight SPECIES_NICKIT, "2’00”"
     mondexweight SPECIES_NICKIT, "19.6 lbs."
 
 
@@ -21735,19 +21735,19 @@ mondata SPECIES_THIEVUL, "Thievul"
     basestats 70, 58, 58, 90, 87, 92
     types TYPE_DARK, TYPE_DARK
     catchrate 127
-    baseexp 159
+    baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 0, 2
     items ITEM_NONE, ITEM_NONE
     genderratio 127
     eggcycles 15
-    basefriendship 70
+    basefriendship 50
     growthrate GROWTH_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_RUN_AWAY,  ABILITY_UNBURDEN
-    runchance 25
+    abilities ABILITY_RUN_AWAY, ABILITY_UNBURDEN
+    runchance 0
     colorflip BODY_COLOR_BROWN, 0
     tmdata SPECIES_THIEVUL_TM_DATA_0, SPECIES_THIEVUL_TM_DATA_1, SPECIES_THIEVUL_TM_DATA_2, SPECIES_THIEVUL_TM_DATA_3
-    mondexentry SPECIES_THIEVUL, "With a lithe body and sharp claws, it\ngoes around stealing food and eggs.\nIt secretly marks its future targets."
+    mondexentry SPECIES_THIEVUL, "With a lithe body and sharp claws, it goes\naround stealing food and eggs. Boltund\nis its natural enemy."
     mondexclassification SPECIES_THIEVUL, "Fox Pokémon"
     mondexheight SPECIES_THIEVUL, "3’11”"
     mondexweight SPECIES_THIEVUL, "43.9 lbs."
@@ -21757,19 +21757,19 @@ mondata SPECIES_GOSSIFLEUR, "Gossifleur"
     basestats 40, 40, 60, 10, 40, 60
     types TYPE_GRASS, TYPE_GRASS
     catchrate 190
-    baseexp 50
+    baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 0, 1
     items ITEM_NONE, ITEM_NONE
     genderratio 127
     eggcycles 20
-    basefriendship 70
+    basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_GRASS, EGG_GROUP_GRASS
-    abilities ABILITY_COTTON_DOWN,  ABILITY_REGENERATOR
-    runchance 25
+    abilities ABILITY_COTTON_DOWN, ABILITY_REGENERATOR
+    runchance 0
     colorflip BODY_COLOR_GREEN, 0
     tmdata SPECIES_GOSSIFLEUR_TM_DATA_0, SPECIES_GOSSIFLEUR_TM_DATA_1, SPECIES_GOSSIFLEUR_TM_DATA_2, SPECIES_GOSSIFLEUR_TM_DATA_3
-    mondexentry SPECIES_GOSSIFLEUR, "It anchors itself in the ground and\nbasks in the sun. After absorbing\nenough sunlight, it blooms vividly."
+    mondexentry SPECIES_GOSSIFLEUR, "It whirls around in the wind while singing a joyous\nsong. This delightful display has charmed many\ninto raising this Pokémon."
     mondexclassification SPECIES_GOSSIFLEUR, "Flowering Pokémon"
     mondexheight SPECIES_GOSSIFLEUR, "1’04”"
     mondexweight SPECIES_GOSSIFLEUR, "4.9 lbs."
@@ -21779,19 +21779,19 @@ mondata SPECIES_ELDEGOSS, "Eldegoss"
     basestats 60, 50, 90, 60, 80, 120
     types TYPE_GRASS, TYPE_GRASS
     catchrate 75
-    baseexp 161
+    baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 0, 2
     items ITEM_NONE, ITEM_NONE
     genderratio 127
     eggcycles 20
-    basefriendship 70
+    basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_GRASS, EGG_GROUP_GRASS
-    abilities ABILITY_COTTON_DOWN,  ABILITY_REGENERATOR
-    runchance 25
+    abilities ABILITY_COTTON_DOWN, ABILITY_REGENERATOR
+    runchance 0
     colorflip BODY_COLOR_GREEN, 0
     tmdata SPECIES_ELDEGOSS_TM_DATA_0, SPECIES_ELDEGOSS_TM_DATA_1, SPECIES_ELDEGOSS_TM_DATA_2, SPECIES_ELDEGOSS_TM_DATA_3
-    mondexentry SPECIES_ELDEGOSS, "The seeds attached to its cotton fluff\nare full of nutrients. It spreads them on\nthe wind so that others can benefit."
+    mondexentry SPECIES_ELDEGOSS, "The cotton on the head of this Pokémon can be\nspun into a glossy, gorgeous yarn: a Galar\nregional specialty."
     mondexclassification SPECIES_ELDEGOSS, "Cotton Bloom Pokémon"
     mondexheight SPECIES_ELDEGOSS, "1’08”"
     mondexweight SPECIES_ELDEGOSS, "5.5 lbs."
@@ -21801,21 +21801,21 @@ mondata SPECIES_WOOLOO, "Wooloo"
     basestats 42, 40, 55, 48, 40, 45
     types TYPE_NORMAL, TYPE_NORMAL
     catchrate 255
-    baseexp 122
+    baseexp 0 // defined in baseexp.s
     evyields 0, 0, 1, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
     genderratio 127
     eggcycles 15
-    basefriendship 70
+    basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_FLUFFY,  ABILITY_RUN_AWAY
-    runchance 25
+    abilities ABILITY_FLUFFY, ABILITY_RUN_AWAY
+    runchance 0
     colorflip BODY_COLOR_WHITE, 0
     tmdata SPECIES_WOOLOO_TM_DATA_0, SPECIES_WOOLOO_TM_DATA_1, SPECIES_WOOLOO_TM_DATA_2, SPECIES_WOOLOO_TM_DATA_3
-    mondexentry SPECIES_WOOLOO, "If its fleece grows too long, it won’t\nbe able to move. Cloth made with\nits wool is surprisingly durable."
+    mondexentry SPECIES_WOOLOO, "If its fleece grows too long, Wooloo won’t be\nable to move. Cloth made with the wool of this\nPokémon is surprisingly strong."
     mondexclassification SPECIES_WOOLOO, "Sheep Pokémon"
-    mondexheight SPECIES_WOOLOO, "1’12”"
+    mondexheight SPECIES_WOOLOO, "2’00”"
     mondexweight SPECIES_WOOLOO, "13.2 lbs."
 
 
@@ -21823,19 +21823,19 @@ mondata SPECIES_DUBWOOL, "Dubwool"
     basestats 72, 80, 100, 88, 60, 90
     types TYPE_NORMAL, TYPE_NORMAL
     catchrate 127
-    baseexp 172
+    baseexp 0 // defined in baseexp.s
     evyields 0, 0, 2, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
     genderratio 127
     eggcycles 15
-    basefriendship 70
+    basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_FLUFFY,  ABILITY_STEADFAST
-    runchance 25
+    abilities ABILITY_FLUFFY, ABILITY_STEADFAST
+    runchance 0
     colorflip BODY_COLOR_WHITE, 0
     tmdata SPECIES_DUBWOOL_TM_DATA_0, SPECIES_DUBWOOL_TM_DATA_1, SPECIES_DUBWOOL_TM_DATA_2, SPECIES_DUBWOOL_TM_DATA_3
-    mondexentry SPECIES_DUBWOOL, "Its majestic horns are meant only to\nimpress the opposite gender. They\nnever see use in battle."
+    mondexentry SPECIES_DUBWOOL, "Its majestic horns are meant only to impress the\nopposite gender. They never see use in battle."
     mondexclassification SPECIES_DUBWOOL, "Sheep Pokémon"
     mondexheight SPECIES_DUBWOOL, "4’03”"
     mondexweight SPECIES_DUBWOOL, "94.8 lbs."
@@ -21845,21 +21845,21 @@ mondata SPECIES_CHEWTLE, "Chewtle"
     basestats 50, 64, 50, 44, 38, 38
     types TYPE_WATER, TYPE_WATER
     catchrate 255
-    baseexp 57
+    baseexp 0 // defined in baseexp.s
     evyields 0, 1, 0, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
     genderratio 127
     eggcycles 20
-    basefriendship 70
+    basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_WATER_1
-    abilities ABILITY_STRONG_JAW,  ABILITY_SHELL_ARMOR
-    runchance 25
+    abilities ABILITY_STRONG_JAW, ABILITY_SHELL_ARMOR
+    runchance 0
     colorflip BODY_COLOR_GREEN, 0
     tmdata SPECIES_CHEWTLE_TM_DATA_0, SPECIES_CHEWTLE_TM_DATA_1, SPECIES_CHEWTLE_TM_DATA_2, SPECIES_CHEWTLE_TM_DATA_3
-    mondexentry SPECIES_CHEWTLE, "Apparently the itch of its teething\nimpels it to snap its jaws at anything\nin front of it."
+    mondexentry SPECIES_CHEWTLE, "It starts off battles by attacking with its rock-hard\nhorn, but as soon as the opponent flinches, this\nPokémon bites down and never lets go."
     mondexclassification SPECIES_CHEWTLE, "Snapping Pokémon"
-    mondexheight SPECIES_CHEWTLE, "0’12”"
+    mondexheight SPECIES_CHEWTLE, "1’00”"
     mondexweight SPECIES_CHEWTLE, "18.7 lbs."
 
 
@@ -21867,19 +21867,19 @@ mondata SPECIES_DREDNAW, "Drednaw"
     basestats 90, 115, 90, 74, 48, 68
     types TYPE_WATER, TYPE_ROCK
     catchrate 75
-    baseexp 170
+    baseexp 0 // defined in baseexp.s
     evyields 0, 2, 0, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
     genderratio 127
     eggcycles 20
-    basefriendship 70
+    basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_WATER_1
-    abilities ABILITY_STRONG_JAW,  ABILITY_SHELL_ARMOR
-    runchance 25
+    abilities ABILITY_STRONG_JAW, ABILITY_SHELL_ARMOR
+    runchance 0
     colorflip BODY_COLOR_GREEN, 0
     tmdata SPECIES_DREDNAW_TM_DATA_0, SPECIES_DREDNAW_TM_DATA_1, SPECIES_DREDNAW_TM_DATA_2, SPECIES_DREDNAW_TM_DATA_3
-    mondexentry SPECIES_DREDNAW, "With jaws that can shear through steel\nrods, this highly aggressive Pokémon\nchomps down on its unfortunate prey."
+    mondexentry SPECIES_DREDNAW, "This Pokémon rapidly extends its retractable neck\nto sink its sharp fangs into distant enemies and\ntake them down."
     mondexclassification SPECIES_DREDNAW, "Bite Pokémon"
     mondexheight SPECIES_DREDNAW, "3’03”"
     mondexweight SPECIES_DREDNAW, "254.6 lbs."
@@ -21889,21 +21889,21 @@ mondata SPECIES_YAMPER, "Yamper"
     basestats 59, 45, 50, 26, 40, 50
     types TYPE_ELECTRIC, TYPE_ELECTRIC
     catchrate 255
-    baseexp 54
+    baseexp 0 // defined in baseexp.s
     evyields 1, 0, 0, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
     genderratio 127
     eggcycles 20
-    basefriendship 70
+    basefriendship 50
     growthrate GROWTH_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_BALL_FETCH,  ABILITY_NONE
-    runchance 25
+    abilities ABILITY_BALL_FETCH, ABILITY_NONE
+    runchance 0
     colorflip BODY_COLOR_YELLOW, 0
     tmdata SPECIES_YAMPER_TM_DATA_0, SPECIES_YAMPER_TM_DATA_1, SPECIES_YAMPER_TM_DATA_2, SPECIES_YAMPER_TM_DATA_3
-    mondexentry SPECIES_YAMPER, "This greedy Pokémon only helps people\nwith their work because it wants treats.\nAs it runs, it crackles with electricity."
+    mondexentry SPECIES_YAMPER, "This gluttonous Pokémon only assists people with\ntheir work because it wants treats. As it runs,\nit crackles with electricity."
     mondexclassification SPECIES_YAMPER, "Puppy Pokémon"
-    mondexheight SPECIES_YAMPER, "0’12”"
+    mondexheight SPECIES_YAMPER, "1’00”"
     mondexweight SPECIES_YAMPER, "29.8 lbs."
 
 
@@ -21911,19 +21911,19 @@ mondata SPECIES_BOLTUND, "Boltund"
     basestats 69, 90, 60, 121, 90, 60
     types TYPE_ELECTRIC, TYPE_ELECTRIC
     catchrate 45
-    baseexp 172
+    baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 2, 0, 0
     items ITEM_NONE, ITEM_NONE
     genderratio 127
     eggcycles 20
-    basefriendship 70
+    basefriendship 50
     growthrate GROWTH_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_STRONG_JAW,  ABILITY_NONE
-    runchance 25
+    abilities ABILITY_STRONG_JAW, ABILITY_NONE
+    runchance 0
     colorflip BODY_COLOR_YELLOW, 0
     tmdata SPECIES_BOLTUND_TM_DATA_0, SPECIES_BOLTUND_TM_DATA_1, SPECIES_BOLTUND_TM_DATA_2, SPECIES_BOLTUND_TM_DATA_3
-    mondexentry SPECIES_BOLTUND, "It sends electricity through its legs\nto boost their strength. Running at\ntop speed, it easily breaks 50 mph."
+    mondexentry SPECIES_BOLTUND, "It sends electricity through its legs to boost their\nstrength. Running at top speed, it easily breaks\n50 mph."
     mondexclassification SPECIES_BOLTUND, "Dog Pokémon"
     mondexheight SPECIES_BOLTUND, "3’03”"
     mondexweight SPECIES_BOLTUND, "75.0 lbs."
@@ -21933,21 +21933,21 @@ mondata SPECIES_ROLYCOLY, "Rolycoly"
     basestats 30, 40, 50, 30, 40, 50
     types TYPE_ROCK, TYPE_ROCK
     catchrate 255
-    baseexp 48
+    baseexp 0 // defined in baseexp.s
     evyields 0, 0, 1, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
     genderratio 127
     eggcycles 15
-    basefriendship 70
+    basefriendship 50
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_MINERAL, EGG_GROUP_MINERAL
-    abilities ABILITY_STEAM_ENGINE,  ABILITY_HEATPROOF
-    runchance 25
+    abilities ABILITY_STEAM_ENGINE, ABILITY_HEATPROOF
+    runchance 0
     colorflip BODY_COLOR_BLACK, 0
     tmdata SPECIES_ROLYCOLY_TM_DATA_0, SPECIES_ROLYCOLY_TM_DATA_1, SPECIES_ROLYCOLY_TM_DATA_2, SPECIES_ROLYCOLY_TM_DATA_3
-    mondexentry SPECIES_ROLYCOLY, "It can race around like a unicycle,\neven on rough, rocky terrain. Burning\ncoal sustains it."
+    mondexentry SPECIES_ROLYCOLY, "It can race around like a unicycle, even on rough,\nrocky terrain. Burning coal sustains it."
     mondexclassification SPECIES_ROLYCOLY, "Coal Pokémon"
-    mondexheight SPECIES_ROLYCOLY, "0’12”"
+    mondexheight SPECIES_ROLYCOLY, "1’00”"
     mondexweight SPECIES_ROLYCOLY, "26.5 lbs."
 
 
@@ -21955,19 +21955,19 @@ mondata SPECIES_CARKOL, "Carkol"
     basestats 80, 60, 90, 50, 60, 70
     types TYPE_ROCK, TYPE_FIRE
     catchrate 120
-    baseexp 144
+    baseexp 0 // defined in baseexp.s
     evyields 0, 0, 2, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
     genderratio 127
     eggcycles 15
-    basefriendship 70
+    basefriendship 50
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_MINERAL, EGG_GROUP_MINERAL
-    abilities ABILITY_STEAM_ENGINE,  ABILITY_FLAME_BODY
-    runchance 25
+    abilities ABILITY_STEAM_ENGINE, ABILITY_FLAME_BODY
+    runchance 0
     colorflip BODY_COLOR_BLACK, 0
     tmdata SPECIES_CARKOL_TM_DATA_0, SPECIES_CARKOL_TM_DATA_1, SPECIES_CARKOL_TM_DATA_2, SPECIES_CARKOL_TM_DATA_3
-    mondexentry SPECIES_CARKOL, "By rapidly rolling its legs, it can\neasily travel at over 18 mph. It\nforms coal inside its body."
+    mondexentry SPECIES_CARKOL, "By rapidly rolling its legs, it can travel at over\n18 mph. The temperature of the flames it\nbreathes exceeds 1,800 degrees Fahrenheit."
     mondexclassification SPECIES_CARKOL, "Coal Pokémon"
     mondexheight SPECIES_CARKOL, "3’07”"
     mondexweight SPECIES_CARKOL, "172.0 lbs."
@@ -21977,19 +21977,19 @@ mondata SPECIES_COALOSSAL, "Coalossal"
     basestats 110, 80, 120, 30, 80, 90
     types TYPE_ROCK, TYPE_FIRE
     catchrate 45
-    baseexp 255
+    baseexp 0 // defined in baseexp.s
     evyields 0, 0, 3, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
     genderratio 127
     eggcycles 15
-    basefriendship 70
+    basefriendship 50
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_MINERAL, EGG_GROUP_MINERAL
-    abilities ABILITY_STEAM_ENGINE,  ABILITY_FLAME_BODY
-    runchance 25
+    abilities ABILITY_STEAM_ENGINE, ABILITY_FLAME_BODY
+    runchance 0
     colorflip BODY_COLOR_BLACK, 0
     tmdata SPECIES_COALOSSAL_TM_DATA_0, SPECIES_COALOSSAL_TM_DATA_1, SPECIES_COALOSSAL_TM_DATA_2, SPECIES_COALOSSAL_TM_DATA_3
-    mondexentry SPECIES_COALOSSAL, "While engaged in battle, its mountain\nof coal will burn bright red, scorching\nthe surrounding area with sparks."
+    mondexentry SPECIES_COALOSSAL, "While it’s engaged in battle, its mountain of coal\nwill burn bright red, sending off sparks that\nscorch the surrounding area."
     mondexclassification SPECIES_COALOSSAL, "Coal Pokémon"
     mondexheight SPECIES_COALOSSAL, "9’02”"
     mondexweight SPECIES_COALOSSAL, "684.5 lbs."
@@ -21999,19 +21999,19 @@ mondata SPECIES_APPLIN, "Applin"
     basestats 40, 40, 80, 20, 40, 40
     types TYPE_GRASS, TYPE_DRAGON
     catchrate 255
-    baseexp 52
+    baseexp 0 // defined in baseexp.s
     evyields 0, 0, 1, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
     genderratio 127
     eggcycles 20
-    basefriendship 70
+    basefriendship 50
     growthrate GROWTH_ERRATIC
     egggroups EGG_GROUP_GRASS, EGG_GROUP_DRAGON
-    abilities ABILITY_RIPEN,  ABILITY_GLUTTONY
-    runchance 25
+    abilities ABILITY_RIPEN, ABILITY_GLUTTONY
+    runchance 0
     colorflip BODY_COLOR_GREEN, 0
     tmdata SPECIES_APPLIN_TM_DATA_0, SPECIES_APPLIN_TM_DATA_1, SPECIES_APPLIN_TM_DATA_2, SPECIES_APPLIN_TM_DATA_3
-    mondexentry SPECIES_APPLIN, "As soon as it’s born, it burrows into\nan apple. the flavor of the apple is\nwhat determines its evolution."
+    mondexentry SPECIES_APPLIN, "As soon as it’s born, it burrows into an apple. Not\nonly does the apple serve as its food source, but\nthe flavor of the fruit determines its evolution."
     mondexclassification SPECIES_APPLIN, "Apple Core Pokémon"
     mondexheight SPECIES_APPLIN, "0’08”"
     mondexweight SPECIES_APPLIN, "1.1 lbs."
@@ -22021,21 +22021,21 @@ mondata SPECIES_FLAPPLE, "Flapple"
     basestats 70, 110, 80, 70, 95, 60
     types TYPE_GRASS, TYPE_DRAGON
     catchrate 45
-    baseexp 170
+    baseexp 0 // defined in baseexp.s
     evyields 0, 2, 0, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
     genderratio 127
     eggcycles 20
-    basefriendship 70
+    basefriendship 50
     growthrate GROWTH_ERRATIC
     egggroups EGG_GROUP_GRASS, EGG_GROUP_DRAGON
-    abilities ABILITY_RIPEN,  ABILITY_GLUTTONY
-    runchance 25
+    abilities ABILITY_RIPEN, ABILITY_GLUTTONY
+    runchance 0
     colorflip BODY_COLOR_GREEN, 0
     tmdata SPECIES_FLAPPLE_TM_DATA_0, SPECIES_FLAPPLE_TM_DATA_1, SPECIES_FLAPPLE_TM_DATA_2, SPECIES_FLAPPLE_TM_DATA_3
-    mondexentry SPECIES_FLAPPLE, "It ate a sour apple, which induced its\nevolution. It stores an acid capable of\ncausing chemical burns in its cheeks."
+    mondexentry SPECIES_FLAPPLE, "It flies on wings of apple skin and spits a\npowerful acid. It can also change its shape\ninto that of an apple."
     mondexclassification SPECIES_FLAPPLE, "Apple Wing Pokémon"
-    mondexheight SPECIES_FLAPPLE, "0’12”"
+    mondexheight SPECIES_FLAPPLE, "1’00”"
     mondexweight SPECIES_FLAPPLE, "2.2 lbs."
 
 
@@ -22043,19 +22043,19 @@ mondata SPECIES_APPLETUN, "Appletun"
     basestats 110, 85, 80, 30, 100, 80
     types TYPE_GRASS, TYPE_DRAGON
     catchrate 45
-    baseexp 170
+    baseexp 0 // defined in baseexp.s
     evyields 2, 0, 0, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
     genderratio 127
     eggcycles 20
-    basefriendship 70
+    basefriendship 50
     growthrate GROWTH_ERRATIC
     egggroups EGG_GROUP_GRASS, EGG_GROUP_DRAGON
-    abilities ABILITY_RIPEN,  ABILITY_GLUTTONY
-    runchance 25
+    abilities ABILITY_RIPEN, ABILITY_GLUTTONY
+    runchance 0
     colorflip BODY_COLOR_GREEN, 0
     tmdata SPECIES_APPLETUN_TM_DATA_0, SPECIES_APPLETUN_TM_DATA_1, SPECIES_APPLETUN_TM_DATA_2, SPECIES_APPLETUN_TM_DATA_3
-    mondexentry SPECIES_APPLETUN, "It ate a sweet apple, which induced\nits evolution. Back in the day, children\nused to have it as a snack."
+    mondexentry SPECIES_APPLETUN, "Its body is covered in sweet nectar, and the\nskin on its back is especially yummy. Children\nused to have it as a snack."
     mondexclassification SPECIES_APPLETUN, "Apple Nectar Pokémon"
     mondexheight SPECIES_APPLETUN, "1’04”"
     mondexweight SPECIES_APPLETUN, "28.7 lbs."
@@ -22065,19 +22065,19 @@ mondata SPECIES_SILICOBRA, "Silicobra"
     basestats 52, 57, 75, 46, 35, 50
     types TYPE_GROUND, TYPE_GROUND
     catchrate 255
-    baseexp 63
+    baseexp 0 // defined in baseexp.s
     evyields 0, 0, 1, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
     genderratio 127
     eggcycles 20
-    basefriendship 70
+    basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_DRAGON
-    abilities ABILITY_SAND_SPIT,  ABILITY_SHED_SKIN
-    runchance 25
+    abilities ABILITY_SAND_SPIT, ABILITY_SHED_SKIN
+    runchance 0
     colorflip BODY_COLOR_GREEN, 0
     tmdata SPECIES_SILICOBRA_TM_DATA_0, SPECIES_SILICOBRA_TM_DATA_1, SPECIES_SILICOBRA_TM_DATA_2, SPECIES_SILICOBRA_TM_DATA_3
-    mondexentry SPECIES_SILICOBRA, "It spews sand from its nostrils. While\nthe enemy is blinded, it burrows into\nthe ground to hide."
+    mondexentry SPECIES_SILICOBRA, "It spews sand from its nostrils. While the enemy\nis blinded, it burrows into the ground to hide."
     mondexclassification SPECIES_SILICOBRA, "Sand Snake Pokémon"
     mondexheight SPECIES_SILICOBRA, "7’03”"
     mondexweight SPECIES_SILICOBRA, "16.8 lbs."
@@ -22087,19 +22087,19 @@ mondata SPECIES_SANDACONDA, "Sandaconda"
     basestats 72, 107, 125, 71, 65, 70
     types TYPE_GROUND, TYPE_GROUND
     catchrate 120
-    baseexp 179
+    baseexp 0 // defined in baseexp.s
     evyields 0, 0, 2, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
     genderratio 127
     eggcycles 20
-    basefriendship 70
+    basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_DRAGON
-    abilities ABILITY_SAND_SPIT,  ABILITY_SHED_SKIN
-    runchance 25
+    abilities ABILITY_SAND_SPIT, ABILITY_SHED_SKIN
+    runchance 0
     colorflip BODY_COLOR_GREEN, 0
     tmdata SPECIES_SANDACONDA_TM_DATA_0, SPECIES_SANDACONDA_TM_DATA_1, SPECIES_SANDACONDA_TM_DATA_2, SPECIES_SANDACONDA_TM_DATA_3
-    mondexentry SPECIES_SANDACONDA, "When it contracts its body, over 220\npounds of sand sprays from its nose.\nIt becomes disheartened if it runs out."
+    mondexentry SPECIES_SANDACONDA, "Its unique style of coiling allows it to blast sand\nout of its sand sac more efficiently."
     mondexclassification SPECIES_SANDACONDA, "Sand Snake Pokémon"
     mondexheight SPECIES_SANDACONDA, "12’06”"
     mondexweight SPECIES_SANDACONDA, "144.4 lbs."
@@ -22109,19 +22109,19 @@ mondata SPECIES_CRAMORANT, "Cramorant"
     basestats 70, 85, 55, 85, 85, 95
     types TYPE_FLYING, TYPE_WATER
     catchrate 45
-    baseexp 166
+    baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 0, 2
     items ITEM_NONE, ITEM_NONE
     genderratio 127
     eggcycles 20
-    basefriendship 70
+    basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_FLYING
     abilities ABILITY_GULP_MISSILE, ABILITY_NONE
-    runchance 25
+    runchance 0
     colorflip BODY_COLOR_BLUE, 0
     tmdata SPECIES_CRAMORANT_TM_DATA_0, SPECIES_CRAMORANT_TM_DATA_1, SPECIES_CRAMORANT_TM_DATA_2, SPECIES_CRAMORANT_TM_DATA_3
-    mondexentry SPECIES_CRAMORANT, "It’s so strong that it can knock out some\nopponents in a single hit, but it also may\nforget what it’s battling midfight."
+    mondexentry SPECIES_CRAMORANT, "This hungry Pokémon swallows Arrokuda whole.\nOccasionally, it makes a mistake and tries to\nswallow a Pokémon other than its preferred prey."
     mondexclassification SPECIES_CRAMORANT, "Gulp Pokémon"
     mondexheight SPECIES_CRAMORANT, "2’07”"
     mondexweight SPECIES_CRAMORANT, "39.7 lbs."
@@ -22131,19 +22131,19 @@ mondata SPECIES_ARROKUDA, "Arrokuda"
     basestats 41, 63, 40, 66, 40, 30
     types TYPE_WATER, TYPE_WATER
     catchrate 255
-    baseexp 56
+    baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 1, 0, 0
     items ITEM_NONE, ITEM_NONE
     genderratio 127
     eggcycles 20
-    basefriendship 70
+    basefriendship 50
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_WATER_2, EGG_GROUP_WATER_2
-    abilities ABILITY_SWIFT_SWIM,  ABILITY_NONE
-    runchance 25
+    abilities ABILITY_SWIFT_SWIM, ABILITY_NONE
+    runchance 0
     colorflip BODY_COLOR_BROWN, 0
     tmdata SPECIES_ARROKUDA_TM_DATA_0, SPECIES_ARROKUDA_TM_DATA_1, SPECIES_ARROKUDA_TM_DATA_2, SPECIES_ARROKUDA_TM_DATA_3
-    mondexentry SPECIES_ARROKUDA, "It becomes extremely sluggish after\neating its fill. That’s when Cramorant\nswallows it up."
+    mondexentry SPECIES_ARROKUDA, "After it’s eaten its fill, its movements become\nextremely sluggish. That’s when Cramorant\nswallows it up."
     mondexclassification SPECIES_ARROKUDA, "Rush Pokémon"
     mondexheight SPECIES_ARROKUDA, "1’08”"
     mondexweight SPECIES_ARROKUDA, "2.2 lbs."
@@ -22153,19 +22153,19 @@ mondata SPECIES_BARRASKEWDA, "Baraskewda"
     basestats 61, 123, 60, 136, 60, 50
     types TYPE_WATER, TYPE_WATER
     catchrate 60
-    baseexp 172
+    baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 2, 0, 0
     items ITEM_NONE, ITEM_NONE
     genderratio 127
     eggcycles 20
-    basefriendship 70
+    basefriendship 50
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_WATER_2, EGG_GROUP_WATER_2
-    abilities ABILITY_SWIFT_SWIM,  ABILITY_NONE
-    runchance 25
+    abilities ABILITY_SWIFT_SWIM, ABILITY_NONE
+    runchance 0
     colorflip BODY_COLOR_BROWN, 0
     tmdata SPECIES_BARRASKEWDA_TM_DATA_0, SPECIES_BARRASKEWDA_TM_DATA_1, SPECIES_BARRASKEWDA_TM_DATA_2, SPECIES_BARRASKEWDA_TM_DATA_3
-    mondexentry SPECIES_BARRASKEWDA, "Its jaw that’s as sharp as a spear and\nas strong as steel. It spins its tail fins\nto surge forward at over 100 knots."
+    mondexentry SPECIES_BARRASKEWDA, "It spins its tail fins to propel itself, surging\nforward at speeds of over 100 knots before\nramming prey and spearing into them."
     mondexclassification SPECIES_BARRASKEWDA, "Skewer Pokémon"
     mondexheight SPECIES_BARRASKEWDA, "4’03”"
     mondexweight SPECIES_BARRASKEWDA, "66.1 lbs."
@@ -22175,19 +22175,19 @@ mondata SPECIES_TOXEL, "Toxel"
     basestats 40, 38, 35, 40, 54, 35
     types TYPE_ELECTRIC, TYPE_POISON
     catchrate 75
-    baseexp 48
+    baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 1, 0
     items ITEM_NONE, ITEM_NONE
     genderratio 127
     eggcycles 25
-    basefriendship 70
+    basefriendship 50
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
-    abilities ABILITY_RATTLED,  ABILITY_STATIC
-    runchance 25
+    abilities ABILITY_RATTLED, ABILITY_STATIC
+    runchance 0
     colorflip BODY_COLOR_PURPLE, 0
     tmdata SPECIES_TOXEL_TM_DATA_0, SPECIES_TOXEL_TM_DATA_1, SPECIES_TOXEL_TM_DATA_2, SPECIES_TOXEL_TM_DATA_3
-    mondexentry SPECIES_TOXEL, "It manipulates the chemical makeup of\nits poison to produce electricity. Despite\na weak voltage, it can cause paralysis."
+    mondexentry SPECIES_TOXEL, "It manipulates the chemical makeup of its poison\nto produce electricity. The voltage is weak, but it\ncan cause a tingling paralysis."
     mondexclassification SPECIES_TOXEL, "Baby Pokémon"
     mondexheight SPECIES_TOXEL, "1’04”"
     mondexweight SPECIES_TOXEL, "24.3 lbs."
@@ -22197,19 +22197,19 @@ mondata SPECIES_TOXTRICITY, "Toxtricity"
     basestats 75, 98, 70, 75, 114, 70
     types TYPE_ELECTRIC, TYPE_POISON
     catchrate 45
-    baseexp 176
+    baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 2, 0
     items ITEM_NONE, ITEM_NONE
     genderratio 127
     eggcycles 25
-    basefriendship 70
+    basefriendship 50
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_HUMAN_LIKE, EGG_GROUP_HUMAN_LIKE
-    abilities ABILITY_PUNK_ROCK,  ABILITY_PLUS
-    runchance 25
+    abilities ABILITY_PUNK_ROCK, ABILITY_PLUS
+    runchance 0
     colorflip BODY_COLOR_PURPLE, 0
     tmdata SPECIES_TOXTRICITY_TM_DATA_0, SPECIES_TOXTRICITY_TM_DATA_1, SPECIES_TOXTRICITY_TM_DATA_2, SPECIES_TOXTRICITY_TM_DATA_3
-    mondexentry SPECIES_TOXTRICITY, "This short-tempered and aggressive\nPokémon chugs stagnant water to\nabsorb any toxins it might contain."
+    mondexentry SPECIES_TOXTRICITY, "This short-tempered and aggressive Pokémon\nchugs stagnant water to absorb any toxins it\nmight contain."
     mondexclassification SPECIES_TOXTRICITY, "Punk Pokémon"
     mondexheight SPECIES_TOXTRICITY, "5’03”"
     mondexweight SPECIES_TOXTRICITY, "88.2 lbs."
@@ -22219,19 +22219,19 @@ mondata SPECIES_SIZZLIPEDE, "Sizzlipede"
     basestats 50, 65, 45, 45, 50, 50
     types TYPE_FIRE, TYPE_BUG
     catchrate 190
-    baseexp 61
+    baseexp 0 // defined in baseexp.s
     evyields 0, 1, 0, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
     genderratio 127
     eggcycles 20
-    basefriendship 70
+    basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_BUG, EGG_GROUP_BUG
-    abilities ABILITY_FLASH_FIRE,  ABILITY_WHITE_SMOKE
-    runchance 25
+    abilities ABILITY_FLASH_FIRE, ABILITY_WHITE_SMOKE
+    runchance 0
     colorflip BODY_COLOR_RED, 0
     tmdata SPECIES_SIZZLIPEDE_TM_DATA_0, SPECIES_SIZZLIPEDE_TM_DATA_1, SPECIES_SIZZLIPEDE_TM_DATA_2, SPECIES_SIZZLIPEDE_TM_DATA_3
-    mondexentry SPECIES_SIZZLIPEDE, "It stores flammable gas in its body\nand uses it to generate heat. It then\ncoils around its prey and cooks it."
+    mondexentry SPECIES_SIZZLIPEDE, "It wraps prey up with its heated body, cooking\nthem in its coils. Once they’re well-done, it will\nvoraciously nibble them down to the last morsel."
     mondexclassification SPECIES_SIZZLIPEDE, "Radiator Pokémon"
     mondexheight SPECIES_SIZZLIPEDE, "2’04”"
     mondexweight SPECIES_SIZZLIPEDE, "2.2 lbs."
@@ -22241,19 +22241,19 @@ mondata SPECIES_CENTISKORCH, "Centskorch"
     basestats 100, 115, 65, 65, 90, 90
     types TYPE_FIRE, TYPE_BUG
     catchrate 75
-    baseexp 184
+    baseexp 0 // defined in baseexp.s
     evyields 0, 2, 0, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
     genderratio 127
     eggcycles 20
-    basefriendship 70
+    basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_BUG, EGG_GROUP_BUG
-    abilities ABILITY_FLASH_FIRE,  ABILITY_WHITE_SMOKE
-    runchance 25
+    abilities ABILITY_FLASH_FIRE, ABILITY_WHITE_SMOKE
+    runchance 0
     colorflip BODY_COLOR_RED, 0
     tmdata SPECIES_CENTISKORCH_TM_DATA_0, SPECIES_CENTISKORCH_TM_DATA_1, SPECIES_CENTISKORCH_TM_DATA_2, SPECIES_CENTISKORCH_TM_DATA_3
-    mondexentry SPECIES_CENTISKORCH, "This excessively hostile Pokémon has\nlarge and very sharp fangs in addition\nto its dangerous burning body. "
+    mondexentry SPECIES_CENTISKORCH, "While its burning body is already dangerous on\nits own, this excessively hostile Pokémon also has\nlarge and very sharp fangs."
     mondexclassification SPECIES_CENTISKORCH, "Radiator Pokémon"
     mondexheight SPECIES_CENTISKORCH, "9’10”"
     mondexweight SPECIES_CENTISKORCH, "264.6 lbs."
@@ -22263,21 +22263,21 @@ mondata SPECIES_CLOBBOPUS, "Clobbopus"
     basestats 50, 68, 60, 32, 50, 50
     types TYPE_FIGHTING, TYPE_FIGHTING
     catchrate 180
-    baseexp 62
+    baseexp 0 // defined in baseexp.s
     evyields 0, 1, 0, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
     genderratio 127
     eggcycles 25
-    basefriendship 70
+    basefriendship 50
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_HUMAN_LIKE
-    abilities ABILITY_LIMBER,  ABILITY_NONE
-    runchance 25
+    abilities ABILITY_LIMBER, ABILITY_NONE
+    runchance 0
     colorflip BODY_COLOR_BROWN, 0
     tmdata SPECIES_CLOBBOPUS_TM_DATA_0, SPECIES_CLOBBOPUS_TM_DATA_1, SPECIES_CLOBBOPUS_TM_DATA_2, SPECIES_CLOBBOPUS_TM_DATA_3
-    mondexentry SPECIES_CLOBBOPUS, "It’s very curious, but its means of\ninvestigating things is to try to punch\nthem with its tentacles."
+    mondexentry SPECIES_CLOBBOPUS, "Its tentacles tear off easily, but it isn’t alarmed\nwhen that happens: it knows they’ll grow back.\nIt’s about as smart as a three-year-old."
     mondexclassification SPECIES_CLOBBOPUS, "Tantrum Pokémon"
-    mondexheight SPECIES_CLOBBOPUS, "1’12”"
+    mondexheight SPECIES_CLOBBOPUS, "2’00”"
     mondexweight SPECIES_CLOBBOPUS, "8.8 lbs."
 
 
@@ -22285,19 +22285,19 @@ mondata SPECIES_GRAPPLOCT, "Grapploct"
     basestats 80, 118, 90, 42, 70, 80
     types TYPE_FIGHTING, TYPE_FIGHTING
     catchrate 45
-    baseexp 168
+    baseexp 0 // defined in baseexp.s
     evyields 0, 2, 0, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
     genderratio 127
     eggcycles 25
-    basefriendship 70
+    basefriendship 50
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_HUMAN_LIKE
-    abilities ABILITY_LIMBER,  ABILITY_NONE
-    runchance 25
+    abilities ABILITY_LIMBER, ABILITY_NONE
+    runchance 0
     colorflip BODY_COLOR_BLUE, 0
     tmdata SPECIES_GRAPPLOCT_TM_DATA_0, SPECIES_GRAPPLOCT_TM_DATA_1, SPECIES_GRAPPLOCT_TM_DATA_2, SPECIES_GRAPPLOCT_TM_DATA_3
-    mondexentry SPECIES_GRAPPLOCT, "Searching for an opponent to test its\nskills against, it emerges onto land. Once\nthe battle is over, it returns to the sea."
+    mondexentry SPECIES_GRAPPLOCT, "Searching for an opponent to test its skills\nagainst, it emerges onto land. Once the battle\nis over, it returns to the sea."
     mondexclassification SPECIES_GRAPPLOCT, "Jujitsu Pokémon"
     mondexheight SPECIES_GRAPPLOCT, "5’03”"
     mondexweight SPECIES_GRAPPLOCT, "86.0 lbs."
@@ -22307,19 +22307,19 @@ mondata SPECIES_SINISTEA, "Sinistea"
     basestats 40, 45, 45, 50, 74, 54
     types TYPE_GHOST, TYPE_GHOST
     catchrate 120
-    baseexp 62
+    baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 1, 0
     items ITEM_NONE, ITEM_NONE
     genderratio 255
     eggcycles 20
-    basefriendship 70
+    basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MINERAL, EGG_GROUP_AMORPHOUS
-    abilities ABILITY_WEAK_ARMOR,  ABILITY_NONE
-    runchance 25
+    abilities ABILITY_WEAK_ARMOR, ABILITY_NONE
+    runchance 0
     colorflip BODY_COLOR_PURPLE, 0
     tmdata SPECIES_SINISTEA_TM_DATA_0, SPECIES_SINISTEA_TM_DATA_1, SPECIES_SINISTEA_TM_DATA_2, SPECIES_SINISTEA_TM_DATA_3
-    mondexentry SPECIES_SINISTEA, "This Pokémon is said to have been\nborn when a lonely spirit possessed\na cold, leftover cup of tea."
+    mondexentry SPECIES_SINISTEA, "The teacup in which this Pokémon makes its\nhome is a famous piece of antique tableware.\nMany forgeries are in circulation."
     mondexclassification SPECIES_SINISTEA, "Black Tea Pokémon"
     mondexheight SPECIES_SINISTEA, "0’04”"
     mondexweight SPECIES_SINISTEA, "0.4 lbs."
@@ -22329,19 +22329,19 @@ mondata SPECIES_POLTEAGEIST, "Poltegeist"
     basestats 60, 65, 65, 70, 134, 114
     types TYPE_GHOST, TYPE_GHOST
     catchrate 60
-    baseexp 178
+    baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 2, 0
     items ITEM_NONE, ITEM_NONE
     genderratio 255
     eggcycles 20
-    basefriendship 70
+    basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MINERAL, EGG_GROUP_AMORPHOUS
-    abilities ABILITY_WEAK_ARMOR,  ABILITY_NONE
-    runchance 25
+    abilities ABILITY_WEAK_ARMOR, ABILITY_NONE
+    runchance 0
     colorflip BODY_COLOR_PURPLE, 0
     tmdata SPECIES_POLTEAGEIST_TM_DATA_0, SPECIES_POLTEAGEIST_TM_DATA_1, SPECIES_POLTEAGEIST_TM_DATA_2, SPECIES_POLTEAGEIST_TM_DATA_3
-    mondexentry SPECIES_POLTEAGEIST, "This species lives in antique teapots.\nMost pots are forgeries, but on rare\noccasions, an authentic work is found."
+    mondexentry SPECIES_POLTEAGEIST, "Leaving leftover black tea unattended is asking\nfor this Pokémon to come along and pour itself\ninto it, turning the tea into a new Polteageist."
     mondexclassification SPECIES_POLTEAGEIST, "Black Tea Pokémon"
     mondexheight SPECIES_POLTEAGEIST, "0’08”"
     mondexweight SPECIES_POLTEAGEIST, "0.9 lbs."
@@ -22351,19 +22351,19 @@ mondata SPECIES_HATENNA, "Hatenna"
     basestats 42, 30, 45, 39, 56, 53
     types TYPE_PSYCHIC, TYPE_PSYCHIC
     catchrate 235
-    baseexp 53
+    baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 1, 0
     items ITEM_NONE, ITEM_NONE
-    genderratio 244
+    genderratio 254
     eggcycles 20
-    basefriendship 70
+    basefriendship 50
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_FAIRY, EGG_GROUP_FAIRY
-    abilities ABILITY_HEALER,  ABILITY_ANTICIPATION
-    runchance 25
+    abilities ABILITY_HEALER, ABILITY_ANTICIPATION
+    runchance 0
     colorflip BODY_COLOR_PINK, 0
     tmdata SPECIES_HATENNA_TM_DATA_0, SPECIES_HATENNA_TM_DATA_1, SPECIES_HATENNA_TM_DATA_2, SPECIES_HATENNA_TM_DATA_3
-    mondexentry SPECIES_HATENNA, "Via the protrusion on its head, it\nsenses other creatures’ emotions.\nIt prefers areas without people."
+    mondexentry SPECIES_HATENNA, "If this Pokémon senses a strong emotion, it\nwill run away as fast as it can. It prefers areas\nwithout people."
     mondexclassification SPECIES_HATENNA, "Calm Pokémon"
     mondexheight SPECIES_HATENNA, "1’04”"
     mondexweight SPECIES_HATENNA, "7.5 lbs."
@@ -22373,41 +22373,41 @@ mondata SPECIES_HATTREM, "Hattrem"
     basestats 57, 40, 65, 49, 86, 73
     types TYPE_PSYCHIC, TYPE_PSYCHIC
     catchrate 120
-    baseexp 130
+    baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 2, 0
     items ITEM_NONE, ITEM_NONE
-    genderratio 244
+    genderratio 254
     eggcycles 20
-    basefriendship 70
+    basefriendship 50
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_FAIRY, EGG_GROUP_FAIRY
-    abilities ABILITY_HEALER,  ABILITY_ANTICIPATION
-    runchance 25
+    abilities ABILITY_HEALER, ABILITY_ANTICIPATION
+    runchance 0
     colorflip BODY_COLOR_PINK, 0
     tmdata SPECIES_HATTREM_TM_DATA_0, SPECIES_HATTREM_TM_DATA_1, SPECIES_HATTREM_TM_DATA_2, SPECIES_HATTREM_TM_DATA_3
-    mondexentry SPECIES_HATTREM, "No matter who you are, if you bring\nstrong emotions near this Pokémon,\nit will silence you violently."
+    mondexentry SPECIES_HATTREM, "Using the braids on its head, it pummels foes to\nget them to quiet down. One blow from those\nbraids would knock out a professional boxer."
     mondexclassification SPECIES_HATTREM, "Serene Pokémon"
-    mondexheight SPECIES_HATTREM, "1’12”"
+    mondexheight SPECIES_HATTREM, "2’00”"
     mondexweight SPECIES_HATTREM, "10.6 lbs."
 
 
 mondata SPECIES_HATTERENE, "Hatterene"
     basestats 57, 90, 95, 29, 136, 103
-    types TYPE_PSYCHIC, TYPE_FAIRY
+    types TYPE_PSYCHIC, (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_PSYCHIC
     catchrate 45
-    baseexp 255
+    baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 3, 0
     items ITEM_NONE, ITEM_NONE
-    genderratio 244
+    genderratio 254
     eggcycles 20
-    basefriendship 70
+    basefriendship 50
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_FAIRY, EGG_GROUP_FAIRY
-    abilities ABILITY_HEALER,  ABILITY_ANTICIPATION
-    runchance 25
+    abilities ABILITY_HEALER, ABILITY_ANTICIPATION
+    runchance 0
     colorflip BODY_COLOR_PINK, 0
     tmdata SPECIES_HATTERENE_TM_DATA_0, SPECIES_HATTERENE_TM_DATA_1, SPECIES_HATTERENE_TM_DATA_2, SPECIES_HATTERENE_TM_DATA_3
-    mondexentry SPECIES_HATTERENE, "Known as the Forest Witch, if you are\ntoo loud around it, you risk being torn\napart by the claws on its tentacle."
+    mondexentry SPECIES_HATTERENE, "If you’re too loud around it, you risk being torn\napart by the claws on its tentacle. This Pokémon\nis also known as the Forest Witch."
     mondexclassification SPECIES_HATTERENE, "Silent Pokémon"
     mondexheight SPECIES_HATTERENE, "6’11”"
     mondexweight SPECIES_HATTERENE, "11.2 lbs."
@@ -22415,21 +22415,21 @@ mondata SPECIES_HATTERENE, "Hatterene"
 
 mondata SPECIES_IMPIDIMP, "Impidimp"
     basestats 45, 45, 30, 50, 55, 40
-    types TYPE_DARK, TYPE_FAIRY
+    types TYPE_DARK, (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_DARK
     catchrate 255
-    baseexp 53
+    baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 1, 0
     items ITEM_NONE, ITEM_NONE
-    genderratio 0
+    genderratio 255
     eggcycles 20
-    basefriendship 70
+    basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FAIRY, EGG_GROUP_HUMAN_LIKE
-    abilities ABILITY_PRANKSTER,  ABILITY_FRISK
-    runchance 25
+    abilities ABILITY_PRANKSTER, ABILITY_FRISK
+    runchance 0
     colorflip BODY_COLOR_PINK, 0
     tmdata SPECIES_IMPIDIMP_TM_DATA_0, SPECIES_IMPIDIMP_TM_DATA_1, SPECIES_IMPIDIMP_TM_DATA_2, SPECIES_IMPIDIMP_TM_DATA_3
-    mondexentry SPECIES_IMPIDIMP, "It sneaks into people’s homes, taking\nand feasting on the negative energy\nof the frustrated occupants."
+    mondexentry SPECIES_IMPIDIMP, "It sneaks into people’s homes, stealing things\nand feasting on the negative energy of the\nfrustrated occupants."
     mondexclassification SPECIES_IMPIDIMP, "Wily Pokémon"
     mondexheight SPECIES_IMPIDIMP, "1’04”"
     mondexweight SPECIES_IMPIDIMP, "12.1 lbs."
@@ -22437,21 +22437,21 @@ mondata SPECIES_IMPIDIMP, "Impidimp"
 
 mondata SPECIES_MORGREM, "Morgrem"
     basestats 65, 60, 45, 70, 75, 55
-    types TYPE_DARK, TYPE_FAIRY
+    types TYPE_DARK, (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_DARK
     catchrate 120
-    baseexp 130
+    baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 2, 0
     items ITEM_NONE, ITEM_NONE
-    genderratio 0
+    genderratio 255
     eggcycles 20
-    basefriendship 70
+    basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FAIRY, EGG_GROUP_HUMAN_LIKE
-    abilities ABILITY_PRANKSTER,  ABILITY_FRISK
-    runchance 25
+    abilities ABILITY_PRANKSTER, ABILITY_FRISK
+    runchance 0
     colorflip BODY_COLOR_PINK, 0
     tmdata SPECIES_MORGREM_TM_DATA_0, SPECIES_MORGREM_TM_DATA_1, SPECIES_MORGREM_TM_DATA_2, SPECIES_MORGREM_TM_DATA_3
-    mondexentry SPECIES_MORGREM, "With sly cunning, it lures people into\nthe woods. Some believe it to have\nthe power to make crops grow."
+    mondexentry SPECIES_MORGREM, "With sly cunning, it tries to lure people into the\nwoods. Some believe it to have the power to\nmake crops grow."
     mondexclassification SPECIES_MORGREM, "Devious Pokémon"
     mondexheight SPECIES_MORGREM, "2’07”"
     mondexweight SPECIES_MORGREM, "27.6 lbs."
@@ -22459,21 +22459,21 @@ mondata SPECIES_MORGREM, "Morgrem"
 
 mondata SPECIES_GRIMMSNARL, "Grimmsnarl"
     basestats 95, 120, 65, 60, 95, 75
-    types TYPE_DARK, TYPE_FAIRY
+    types TYPE_DARK, (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_DARK
     catchrate 45
-    baseexp 255
+    baseexp 0 // defined in baseexp.s
     evyields 0, 3, 0, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
-    genderratio 0
+    genderratio 255
     eggcycles 20
-    basefriendship 70
+    basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FAIRY, EGG_GROUP_HUMAN_LIKE
-    abilities ABILITY_PRANKSTER,  ABILITY_FRISK
-    runchance 25
+    abilities ABILITY_PRANKSTER, ABILITY_FRISK
+    runchance 0
     colorflip BODY_COLOR_PURPLE, 0
     tmdata SPECIES_GRIMMSNARL_TM_DATA_0, SPECIES_GRIMMSNARL_TM_DATA_1, SPECIES_GRIMMSNARL_TM_DATA_2, SPECIES_GRIMMSNARL_TM_DATA_3
-    mondexentry SPECIES_GRIMMSNARL, "Its hairs work like muscle fibers.\nWhen its hairs unfurl, they latch on to\nfoes, ensnaring them like tentacles."
+    mondexentry SPECIES_GRIMMSNARL, "Its hairs work like muscle fibers. When its hairs\nunfurl, they latch on to opponents, ensnaring\nthem as tentacles would."
     mondexclassification SPECIES_GRIMMSNARL, "Bulk Up Pokémon"
     mondexheight SPECIES_GRIMMSNARL, "4’11”"
     mondexweight SPECIES_GRIMMSNARL, "134.5 lbs."
@@ -22483,19 +22483,19 @@ mondata SPECIES_OBSTAGOON, "Obstagoon"
     basestats 93, 90, 101, 95, 60, 81
     types TYPE_DARK, TYPE_NORMAL
     catchrate 45
-    baseexp 260
+    baseexp 0 // defined in baseexp.s
     evyields 0, 0, 3, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
     genderratio 127
     eggcycles 15
-    basefriendship 70
+    basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_RECKLESS,  ABILITY_GUTS
-    runchance 25
+    abilities ABILITY_RECKLESS, ABILITY_GUTS
+    runchance 0
     colorflip BODY_COLOR_GRAY, 0
     tmdata SPECIES_OBSTAGOON_TM_DATA_0, SPECIES_OBSTAGOON_TM_DATA_1, SPECIES_OBSTAGOON_TM_DATA_2, SPECIES_OBSTAGOON_TM_DATA_3
-    mondexentry SPECIES_OBSTAGOON, "It evolved after experiencing numerous\nfights. While crossing its arms, it lets out a\nshout that would make anyone flinch."
+    mondexentry SPECIES_OBSTAGOON, "It evolved after experiencing numerous fights.\nWhile crossing its arms, it lets out a shout that\nwould make any opponent flinch."
     mondexclassification SPECIES_OBSTAGOON, "Blocking Pokémon"
     mondexheight SPECIES_OBSTAGOON, "5’03”"
     mondexweight SPECIES_OBSTAGOON, "101.4 lbs."
@@ -22505,19 +22505,19 @@ mondata SPECIES_PERRSERKER, "Perrserker"
     basestats 70, 110, 100, 50, 50, 60
     types TYPE_STEEL, TYPE_STEEL
     catchrate 90
-    baseexp 154
+    baseexp 0 // defined in baseexp.s
     evyields 0, 2, 0, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
     genderratio 127
     eggcycles 20
-    basefriendship 70
+    basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_BATTLE_ARMOR,  ABILITY_TOUGH_CLAWS
-    runchance 25
+    abilities ABILITY_BATTLE_ARMOR, ABILITY_TOUGH_CLAWS
+    runchance 0
     colorflip BODY_COLOR_BROWN, 0
     tmdata SPECIES_PERRSERKER_TM_DATA_0, SPECIES_PERRSERKER_TM_DATA_1, SPECIES_PERRSERKER_TM_DATA_2, SPECIES_PERRSERKER_TM_DATA_3
-    mondexentry SPECIES_PERRSERKER, "What appears to be an iron helmet is\nactually hardened hair. This Pokémon\nlives for the thrill of battle."
+    mondexentry SPECIES_PERRSERKER, "After many battles, it evolved dangerous\nclaws that come together to form daggers\nwhen extended."
     mondexclassification SPECIES_PERRSERKER, "Viking Pokémon"
     mondexheight SPECIES_PERRSERKER, "2’07”"
     mondexweight SPECIES_PERRSERKER, "61.7 lbs."
@@ -22527,19 +22527,19 @@ mondata SPECIES_CURSOLA, "Cursola"
     basestats 60, 95, 50, 30, 145, 130
     types TYPE_GHOST, TYPE_GHOST
     catchrate 30
-    baseexp 179
+    baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 2, 0
     items ITEM_NONE, ITEM_NONE
-    genderratio 191
+    genderratio 190
     eggcycles 20
-    basefriendship 70
+    basefriendship 50
     growthrate GROWTH_FAST
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_WATER_3
-    abilities ABILITY_WEAK_ARMOR,  ABILITY_NONE
-    runchance 25
+    abilities ABILITY_WEAK_ARMOR, ABILITY_NONE
+    runchance 0
     colorflip BODY_COLOR_WHITE, 0
     tmdata SPECIES_CURSOLA_TM_DATA_0, SPECIES_CURSOLA_TM_DATA_1, SPECIES_CURSOLA_TM_DATA_2, SPECIES_CURSOLA_TM_DATA_3
-    mondexentry SPECIES_CURSOLA, "Be cautious of the ectoplasmic body\nsurrounding its soul. You’ll become stiff\nas stone if you touch it."
+    mondexentry SPECIES_CURSOLA, "Be cautious of the ectoplasmic body\nsurrounding its soul. You’ll become\nstiff as stone if you touch it."
     mondexclassification SPECIES_CURSOLA, "Coral Pokémon"
     mondexheight SPECIES_CURSOLA, "3’03”"
     mondexweight SPECIES_CURSOLA, "0.9 lbs."
@@ -22549,19 +22549,19 @@ mondata SPECIES_SIRFETCHD, "Sirfetch’d"
     basestats 62, 135, 95, 65, 68, 82
     types TYPE_FIGHTING, TYPE_FIGHTING
     catchrate 45
-    baseexp 177
+    baseexp 0 // defined in baseexp.s
     evyields 0, 2, 0, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
     genderratio 127
     eggcycles 20
-    basefriendship 70
+    basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FLYING, EGG_GROUP_FIELD
-    abilities ABILITY_STEADFAST,  ABILITY_NONE
-    runchance 25
+    abilities ABILITY_STEADFAST, ABILITY_NONE
+    runchance 0
     colorflip BODY_COLOR_WHITE, 0
     tmdata SPECIES_SIRFETCHD_TM_DATA_0, SPECIES_SIRFETCHD_TM_DATA_1, SPECIES_SIRFETCHD_TM_DATA_2, SPECIES_SIRFETCHD_TM_DATA_3
-    mondexentry SPECIES_SIRFETCHD, "After deflecting attacks with its hard\nleaf shield, it strikes back with its sharp\nleek stalk."
+    mondexentry SPECIES_SIRFETCHD, "After deflecting attacks with its hard leaf shield,\nit strikes back with its sharp leek stalk. The leek\nstalk is both weapon and food."
     mondexclassification SPECIES_SIRFETCHD, "Wild Duck Pokémon"
     mondexheight SPECIES_SIRFETCHD, "2’07”"
     mondexweight SPECIES_SIRFETCHD, "257.9 lbs."
@@ -22571,19 +22571,19 @@ mondata SPECIES_MR_RIME, "Mr. Rime"
     basestats 80, 85, 75, 70, 110, 100
     types TYPE_ICE, TYPE_PSYCHIC
     catchrate 45
-    baseexp 182
+    baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 3, 0
     items ITEM_NONE, ITEM_NONE
     genderratio 127
     eggcycles 25
-    basefriendship 70
+    basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_HUMAN_LIKE, EGG_GROUP_HUMAN_LIKE
-    abilities ABILITY_TANGLED_FEET,  ABILITY_SCREEN_CLEANER
-    runchance 25
+    abilities ABILITY_TANGLED_FEET, ABILITY_SCREEN_CLEANER
+    runchance 0
     colorflip BODY_COLOR_PURPLE, 0
     tmdata SPECIES_MR_RIME_TM_DATA_0, SPECIES_MR_RIME_TM_DATA_1, SPECIES_MR_RIME_TM_DATA_2, SPECIES_MR_RIME_TM_DATA_3
-    mondexentry SPECIES_MR_RIME, "Its amusing movements make it very\npopular. It releases its psychic power\nfrom the pattern on its belly."
+    mondexentry SPECIES_MR_RIME, "Its amusing movements make it very popular.\nIt releases its psychic power from the pattern\non its belly."
     mondexclassification SPECIES_MR_RIME, "Comedian Pokémon"
     mondexheight SPECIES_MR_RIME, "4’11”"
     mondexweight SPECIES_MR_RIME, "128.3 lbs."
@@ -22593,19 +22593,19 @@ mondata SPECIES_RUNERIGUS, "Runerigus"
     basestats 58, 95, 145, 30, 50, 105
     types TYPE_GROUND, TYPE_GHOST
     catchrate 90
-    baseexp 169
+    baseexp 0 // defined in baseexp.s
     evyields 0, 0, 2, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
     genderratio 127
     eggcycles 25
-    basefriendship 70
+    basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MINERAL, EGG_GROUP_AMORPHOUS
     abilities ABILITY_WANDERING_SPIRIT, ABILITY_NONE
-    runchance 25
+    runchance 0
     colorflip BODY_COLOR_GRAY, 0
     tmdata SPECIES_RUNERIGUS_TM_DATA_0, SPECIES_RUNERIGUS_TM_DATA_1, SPECIES_RUNERIGUS_TM_DATA_2, SPECIES_RUNERIGUS_TM_DATA_3
-    mondexentry SPECIES_RUNERIGUS, "Never touch its shadowlike body, or\nyou’ll be shown the horrific memories\nbehind the picture carved into it."
+    mondexentry SPECIES_RUNERIGUS, "Never touch its shadowlike body, or you’ll be\nshown the horrific memories behind the picture\ncarved into it."
     mondexclassification SPECIES_RUNERIGUS, "Grudge Pokémon"
     mondexheight SPECIES_RUNERIGUS, "5’03”"
     mondexweight SPECIES_RUNERIGUS, "146.8 lbs."
@@ -22613,21 +22613,21 @@ mondata SPECIES_RUNERIGUS, "Runerigus"
 
 mondata SPECIES_MILCERY, "Milcery"
     basestats 45, 40, 40, 34, 50, 61
-    types TYPE_FAIRY, TYPE_FAIRY
+    types (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_NORMAL, (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_NORMAL
     catchrate 200
-    baseexp 54
+    baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 0, 1
     items ITEM_NONE, ITEM_NONE
-    genderratio 244
+    genderratio 254
     eggcycles 20
-    basefriendship 70
+    basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FAIRY, EGG_GROUP_AMORPHOUS
-    abilities ABILITY_SWEET_VEIL,  ABILITY_NONE
-    runchance 25
+    abilities ABILITY_SWEET_VEIL, ABILITY_NONE
+    runchance 0
     colorflip BODY_COLOR_WHITE, 0
     tmdata SPECIES_MILCERY_TM_DATA_0, SPECIES_MILCERY_TM_DATA_1, SPECIES_MILCERY_TM_DATA_2, SPECIES_MILCERY_TM_DATA_3
-    mondexentry SPECIES_MILCERY, "They say that any patisserie visited\nby Milcery is guaranteed success and\ngood fortune."
+    mondexentry SPECIES_MILCERY, "They say that any patisserie visited by Milcery\nis guaranteed success and good fortune."
     mondexclassification SPECIES_MILCERY, "Cream Pokémon"
     mondexheight SPECIES_MILCERY, "0’08”"
     mondexweight SPECIES_MILCERY, "0.7 lbs."
@@ -22635,23 +22635,23 @@ mondata SPECIES_MILCERY, "Milcery"
 
 mondata SPECIES_ALCREMIE, "Alcremie"
     basestats 65, 60, 75, 64, 110, 121
-    types TYPE_FAIRY, TYPE_FAIRY
+    types (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_NORMAL, (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_NORMAL
     catchrate 100
-    baseexp 173
+    baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 0, 2
     items ITEM_NONE, ITEM_NONE
-    genderratio 244
+    genderratio 254
     eggcycles 20
-    basefriendship 70
+    basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FAIRY, EGG_GROUP_AMORPHOUS
-    abilities ABILITY_SWEET_VEIL,  ABILITY_NONE
-    runchance 25
+    abilities ABILITY_SWEET_VEIL, ABILITY_NONE
+    runchance 0
     colorflip BODY_COLOR_WHITE, 0
     tmdata SPECIES_ALCREMIE_TM_DATA_0, SPECIES_ALCREMIE_TM_DATA_1, SPECIES_ALCREMIE_TM_DATA_2, SPECIES_ALCREMIE_TM_DATA_3
-    mondexentry SPECIES_ALCREMIE, "It evolved from a Milcery that held\nonto a Strawberry Sweet. Its flavor\ndepends on how it was mixed."
+    mondexentry SPECIES_ALCREMIE, "When Alcremie is content, the cream it\nsecretes from its hands becomes sweeter\nand richer."
     mondexclassification SPECIES_ALCREMIE, "Cream Pokémon"
-    mondexheight SPECIES_ALCREMIE, "0’12”"
+    mondexheight SPECIES_ALCREMIE, "1’00”"
     mondexweight SPECIES_ALCREMIE, "1.1 lbs."
 
 
@@ -22659,19 +22659,19 @@ mondata SPECIES_FALINKS, "Falinks"
     basestats 65, 100, 100, 75, 70, 60
     types TYPE_FIGHTING, TYPE_FIGHTING
     catchrate 45
-    baseexp 165
+    baseexp 0 // defined in baseexp.s
     evyields 0, 2, 0, 0, 0, 1
     items ITEM_NONE, ITEM_NONE
     genderratio 255
     eggcycles 25
-    basefriendship 70
+    basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FAIRY, EGG_GROUP_MINERAL
-    abilities ABILITY_BATTLE_ARMOR,  ABILITY_NONE
-    runchance 25
+    abilities ABILITY_BATTLE_ARMOR, ABILITY_NONE
+    runchance 0
     colorflip BODY_COLOR_YELLOW, 0
     tmdata SPECIES_FALINKS_TM_DATA_0, SPECIES_FALINKS_TM_DATA_1, SPECIES_FALINKS_TM_DATA_2, SPECIES_FALINKS_TM_DATA_3
-    mondexentry SPECIES_FALINKS, "The six of them work together as one.\nTeamwork is also their battle strategy, and\nthey constantly change their formation."
+    mondexentry SPECIES_FALINKS, "The six of them work together as one Pokémon.\nTeamwork is also their battle strategy, and they\nconstantly change their formation as they fight."
     mondexclassification SPECIES_FALINKS, "Formation Pokémon"
     mondexheight SPECIES_FALINKS, "9’10”"
     mondexweight SPECIES_FALINKS, "136.7 lbs."
@@ -22681,21 +22681,21 @@ mondata SPECIES_PINCURCHIN, "Pincurchin"
     basestats 48, 101, 95, 15, 91, 85
     types TYPE_ELECTRIC, TYPE_ELECTRIC
     catchrate 75
-    baseexp 152
+    baseexp 0 // defined in baseexp.s
     evyields 0, 2, 0, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
     genderratio 127
     eggcycles 20
-    basefriendship 70
+    basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_AMORPHOUS
-    abilities ABILITY_LIGHTNING_ROD,  ABILITY_NONE
-    runchance 25
+    abilities ABILITY_LIGHTNING_ROD, ABILITY_NONE
+    runchance 0
     colorflip BODY_COLOR_PURPLE, 0
     tmdata SPECIES_PINCURCHIN_TM_DATA_0, SPECIES_PINCURCHIN_TM_DATA_1, SPECIES_PINCURCHIN_TM_DATA_2, SPECIES_PINCURCHIN_TM_DATA_3
-    mondexentry SPECIES_PINCURCHIN, "It feeds on seaweed, using its teeth\nto scrape it off rocks. Electric current\nflows from the tips of its spines."
+    mondexentry SPECIES_PINCURCHIN, "It stores electricity in each spine. Even if one gets\nbroken off, it still continues to emit electricity for\nat least three hours."
     mondexclassification SPECIES_PINCURCHIN, "Sea Urchin Pokémon"
-    mondexheight SPECIES_PINCURCHIN, "0’12”"
+    mondexheight SPECIES_PINCURCHIN, "1’00”"
     mondexweight SPECIES_PINCURCHIN, "2.2 lbs."
 
 
@@ -22703,21 +22703,21 @@ mondata SPECIES_SNOM, "Snom"
     basestats 30, 25, 35, 20, 45, 30
     types TYPE_ICE, TYPE_BUG
     catchrate 190
-    baseexp 37
+    baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 1, 0
     items ITEM_NONE, ITEM_NONE
     genderratio 127
     eggcycles 20
-    basefriendship 70
+    basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_BUG, EGG_GROUP_BUG
-    abilities ABILITY_SHIELD_DUST,  ABILITY_NONE
-    runchance 25
+    abilities ABILITY_SHIELD_DUST, ABILITY_NONE
+    runchance 0
     colorflip BODY_COLOR_WHITE, 0
     tmdata SPECIES_SNOM_TM_DATA_0, SPECIES_SNOM_TM_DATA_1, SPECIES_SNOM_TM_DATA_2, SPECIES_SNOM_TM_DATA_3
-    mondexentry SPECIES_SNOM, "It eats snow that piles up on the\nground. The more snow it eats, the\nbigger its spikes grow."
+    mondexentry SPECIES_SNOM, "It eats snow that piles up on the ground.\nThe more snow it eats, the bigger and more\nimpressive the spikes on its back grow."
     mondexclassification SPECIES_SNOM, "Worm Pokémon"
-    mondexheight SPECIES_SNOM, "0’12”"
+    mondexheight SPECIES_SNOM, "1’00”"
     mondexweight SPECIES_SNOM, "8.4 lbs."
 
 
@@ -22725,19 +22725,19 @@ mondata SPECIES_FROSMOTH, "Frosmoth"
     basestats 70, 65, 60, 65, 125, 90
     types TYPE_ICE, TYPE_BUG
     catchrate 75
-    baseexp 166
+    baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 2, 0
     items ITEM_NONE, ITEM_NONE
     genderratio 127
     eggcycles 20
-    basefriendship 70
+    basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_BUG, EGG_GROUP_BUG
-    abilities ABILITY_SHIELD_DUST,  ABILITY_NONE
-    runchance 25
+    abilities ABILITY_SHIELD_DUST, ABILITY_NONE
+    runchance 0
     colorflip BODY_COLOR_WHITE, 0
     tmdata SPECIES_FROSMOTH_TM_DATA_0, SPECIES_FROSMOTH_TM_DATA_1, SPECIES_FROSMOTH_TM_DATA_2, SPECIES_FROSMOTH_TM_DATA_3
-    mondexentry SPECIES_FROSMOTH, "Icy scales fall from its wings\nlike snow as it flies over fields\nand mountains."
+    mondexentry SPECIES_FROSMOTH, "It shows no mercy to any who desecrate fields\nand mountains. It will fly around on its icy wings,\ncausing a blizzard to chase offenders away."
     mondexclassification SPECIES_FROSMOTH, "Frost Moth Pokémon"
     mondexheight SPECIES_FROSMOTH, "4’03”"
     mondexweight SPECIES_FROSMOTH, "92.6 lbs."
@@ -22747,19 +22747,19 @@ mondata SPECIES_STONJOURNER, "Stonjorner"
     basestats 100, 125, 135, 70, 20, 20
     types TYPE_ROCK, TYPE_ROCK
     catchrate 60
-    baseexp 165
+    baseexp 0 // defined in baseexp.s
     evyields 0, 0, 2, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
     genderratio 127
     eggcycles 25
-    basefriendship 70
+    basefriendship 50
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_MINERAL, EGG_GROUP_MINERAL
     abilities ABILITY_POWER_SPOT, ABILITY_NONE
-    runchance 25
+    runchance 0
     colorflip BODY_COLOR_GRAY, 0
     tmdata SPECIES_STONJOURNER_TM_DATA_0, SPECIES_STONJOURNER_TM_DATA_1, SPECIES_STONJOURNER_TM_DATA_2, SPECIES_STONJOURNER_TM_DATA_3
-    mondexentry SPECIES_STONJOURNER, "Once a year, on a specific date and\nat a specific time, they gather out of\nnowhere and form up in a circle."
+    mondexentry SPECIES_STONJOURNER, "Once a year, on a specific date and at a specific\ntime, they gather out of nowhere and form up in\na circle."
     mondexclassification SPECIES_STONJOURNER, "Big Rock Pokémon"
     mondexheight SPECIES_STONJOURNER, "8’02”"
     mondexweight SPECIES_STONJOURNER, "1146.4 lbs."
@@ -22769,19 +22769,19 @@ mondata SPECIES_EISCUE, "Eiscue"
     basestats 75, 80, 110, 50, 65, 90
     types TYPE_ICE, TYPE_ICE
     catchrate 60
-    baseexp 165
+    baseexp 0 // defined in baseexp.s
     evyields 0, 0, 2, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
     genderratio 127
     eggcycles 25
-    basefriendship 70
+    basefriendship 50
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_FIELD
     abilities ABILITY_ICE_FACE, ABILITY_NONE
-    runchance 25
+    runchance 0
     colorflip BODY_COLOR_BLUE, 0
     tmdata SPECIES_EISCUE_TM_DATA_0, SPECIES_EISCUE_TM_DATA_1, SPECIES_EISCUE_TM_DATA_2, SPECIES_EISCUE_TM_DATA_3
-    mondexentry SPECIES_EISCUE, "It drifted in on the flow of ocean\nwaters from a frigid place. It keeps its\nhead iced constantly to stay cold."
+    mondexentry SPECIES_EISCUE, "This Pokémon keeps its heat-sensitive head cool\nwith ice. It fishes for its food, dangling its single\nhair into the sea to lure in prey."
     mondexclassification SPECIES_EISCUE, "Penguin Pokémon"
     mondexheight SPECIES_EISCUE, "4’07”"
     mondexweight SPECIES_EISCUE, "196.2 lbs."
@@ -22791,19 +22791,19 @@ mondata SPECIES_INDEEDEE, "Indeedee"
     basestats 60, 65, 55, 95, 105, 95
     types TYPE_PSYCHIC, TYPE_NORMAL
     catchrate 30
-    baseexp 166
+    baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 2, 0
     items ITEM_NONE, ITEM_NONE
-    genderratio 0
+    genderratio 127
     eggcycles 40
     basefriendship 140
     growthrate GROWTH_FAST
     egggroups EGG_GROUP_FAIRY, EGG_GROUP_FAIRY
-    abilities ABILITY_INNER_FOCUS,  ABILITY_SYNCHRONIZE
-    runchance 25
+    abilities ABILITY_INNER_FOCUS, ABILITY_SYNCHRONIZE
+    runchance 0
     colorflip BODY_COLOR_PURPLE, 0
     tmdata SPECIES_INDEEDEE_TM_DATA_0, SPECIES_INDEEDEE_TM_DATA_1, SPECIES_INDEEDEE_TM_DATA_2, SPECIES_INDEEDEE_TM_DATA_3
-    mondexentry SPECIES_INDEEDEE, "Through its horns, it can pick up on\nthe emotions of creatures around it. Males\nwill act as valets for those they serve."
+    mondexentry SPECIES_INDEEDEE, "Through its horns, it can pick up on the emotions\nof creatures around it. Positive emotions are the\nsource of its strength."
     mondexclassification SPECIES_INDEEDEE, "Emotion Pokémon"
     mondexheight SPECIES_INDEEDEE, "2’11”"
     mondexweight SPECIES_INDEEDEE, "61.7 lbs."
@@ -22813,21 +22813,21 @@ mondata SPECIES_MORPEKO, "Morpeko"
     basestats 58, 95, 58, 97, 70, 58
     types TYPE_ELECTRIC, TYPE_DARK
     catchrate 180
-    baseexp 153
+    baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 2, 0, 0
     items ITEM_NONE, ITEM_NONE
     genderratio 127
     eggcycles 10
-    basefriendship 70
+    basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FAIRY
     abilities ABILITY_HUNGER_SWITCH, ABILITY_NONE
-    runchance 25
+    runchance 0
     colorflip BODY_COLOR_YELLOW, 0
     tmdata SPECIES_MORPEKO_TM_DATA_0, SPECIES_MORPEKO_TM_DATA_1, SPECIES_MORPEKO_TM_DATA_2, SPECIES_MORPEKO_TM_DATA_3
-    mondexentry SPECIES_MORPEKO, "As it eats the seeds stored up in its\npouches, it generates electricity while\nsatisfying its constant hunger."
+    mondexentry SPECIES_MORPEKO, "It carries electrically roasted seeds with it as if\nthey’re precious treasures. No matter how much\nit eats, it always gets hungry again in short order."
     mondexclassification SPECIES_MORPEKO, "Two-Sided Pokémon"
-    mondexheight SPECIES_MORPEKO, "0’12”"
+    mondexheight SPECIES_MORPEKO, "1’00”"
     mondexweight SPECIES_MORPEKO, "6.6 lbs."
 
 
@@ -22835,19 +22835,19 @@ mondata SPECIES_CUFANT, "Cufant"
     basestats 72, 80, 49, 40, 40, 49
     types TYPE_STEEL, TYPE_STEEL
     catchrate 190
-    baseexp 66
+    baseexp 0 // defined in baseexp.s
     evyields 0, 1, 0, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
     genderratio 127
     eggcycles 25
-    basefriendship 70
+    basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_MINERAL
-    abilities ABILITY_SHEER_FORCE,  ABILITY_NONE
-    runchance 25
+    abilities ABILITY_SHEER_FORCE, ABILITY_NONE
+    runchance 0
     colorflip BODY_COLOR_YELLOW, 0
     tmdata SPECIES_CUFANT_TM_DATA_0, SPECIES_CUFANT_TM_DATA_1, SPECIES_CUFANT_TM_DATA_2, SPECIES_CUFANT_TM_DATA_3
-    mondexentry SPECIES_CUFANT, "If a job requires serious strength,\nCufant will excel at it. Its copper body\ntarnishes in the rain, turning green."
+    mondexentry SPECIES_CUFANT, "If a job requires serious strength, this Pokémon\nwill excel at it. Its copper body tarnishes in the\nrain, turning a vibrant green color."
     mondexclassification SPECIES_CUFANT, "Copperderm Pokémon"
     mondexheight SPECIES_CUFANT, "3’11”"
     mondexweight SPECIES_CUFANT, "220.5 lbs."
@@ -22857,19 +22857,19 @@ mondata SPECIES_COPPERAJAH, "Copperajah"
     basestats 122, 130, 69, 30, 80, 69
     types TYPE_STEEL, TYPE_STEEL
     catchrate 90
-    baseexp 175
+    baseexp 0 // defined in baseexp.s
     evyields 0, 2, 0, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
     genderratio 127
     eggcycles 25
-    basefriendship 70
+    basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_MINERAL
-    abilities ABILITY_SHEER_FORCE,  ABILITY_NONE
-    runchance 25
+    abilities ABILITY_SHEER_FORCE, ABILITY_NONE
+    runchance 0
     colorflip BODY_COLOR_GREEN, 0
     tmdata SPECIES_COPPERAJAH_TM_DATA_0, SPECIES_COPPERAJAH_TM_DATA_1, SPECIES_COPPERAJAH_TM_DATA_2, SPECIES_COPPERAJAH_TM_DATA_3
-    mondexentry SPECIES_COPPERAJAH, "These Pokémon live in herds. Their\ntrunks have incredible grip strength,\nstrong enough to crush giant rocks."
+    mondexentry SPECIES_COPPERAJAH, "These Pokémon live in herds. Their trunks have\nincredible grip strength, strong enough to crush\ngiant rocks into powder."
     mondexclassification SPECIES_COPPERAJAH, "Copperderm Pokémon"
     mondexheight SPECIES_COPPERAJAH, "9’10”"
     mondexweight SPECIES_COPPERAJAH, "1433.0 lbs."
@@ -22879,19 +22879,19 @@ mondata SPECIES_DRACOZOLT, "Dracozolt"
     basestats 90, 100, 90, 75, 80, 70
     types TYPE_ELECTRIC, TYPE_DRAGON
     catchrate 45
-    baseexp 177
+    baseexp 0 // defined in baseexp.s
     evyields 0, 2, 0, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
     genderratio 255
     eggcycles 35
-    basefriendship 70
+    basefriendship 50
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
-    abilities ABILITY_VOLT_ABSORB,  ABILITY_HUSTLE
-    runchance 25
+    abilities ABILITY_VOLT_ABSORB, ABILITY_HUSTLE
+    runchance 0
     colorflip BODY_COLOR_GREEN, 0
     tmdata SPECIES_DRACOZOLT_TM_DATA_0, SPECIES_DRACOZOLT_TM_DATA_1, SPECIES_DRACOZOLT_TM_DATA_2, SPECIES_DRACOZOLT_TM_DATA_3
-    mondexentry SPECIES_DRACOZOLT, "The powerful muscles in its tail\ngenerate its electricity. Its upper half\nis entirely too small. "
+    mondexentry SPECIES_DRACOZOLT, "The powerful muscles in its tail generate its\nelectricity. Compared to its lower body,\nits upper half is entirely too small."
     mondexclassification SPECIES_DRACOZOLT, "Fossil Pokémon"
     mondexheight SPECIES_DRACOZOLT, "5’11”"
     mondexweight SPECIES_DRACOZOLT, "418.9 lbs."
@@ -22901,19 +22901,19 @@ mondata SPECIES_ARCTOZOLT, "Arctozolt"
     basestats 90, 100, 90, 55, 90, 80
     types TYPE_ELECTRIC, TYPE_ICE
     catchrate 45
-    baseexp 177
+    baseexp 0 // defined in baseexp.s
     evyields 0, 2, 0, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
     genderratio 255
     eggcycles 35
-    basefriendship 70
+    basefriendship 50
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
-    abilities ABILITY_VOLT_ABSORB,  ABILITY_STATIC
-    runchance 25
+    abilities ABILITY_VOLT_ABSORB, ABILITY_STATIC
+    runchance 0
     colorflip BODY_COLOR_BLUE, 0
     tmdata SPECIES_ARCTOZOLT_TM_DATA_0, SPECIES_ARCTOZOLT_TM_DATA_1, SPECIES_ARCTOZOLT_TM_DATA_2, SPECIES_ARCTOZOLT_TM_DATA_3
-    mondexentry SPECIES_ARCTOZOLT, "The shaking of its freezing upper half\nis what generates its electricity. It has\na hard time walking around."
+    mondexentry SPECIES_ARCTOZOLT, "This Pokémon lived on prehistoric seashores and\nwas able to preserve food with the ice on its\nbody. It went extinct because it moved so slowly."
     mondexclassification SPECIES_ARCTOZOLT, "Fossil Pokémon"
     mondexheight SPECIES_ARCTOZOLT, "7’07”"
     mondexweight SPECIES_ARCTOZOLT, "330.7 lbs."
@@ -22923,19 +22923,19 @@ mondata SPECIES_DRACOVISH, "Dracovish"
     basestats 90, 90, 100, 75, 70, 80
     types TYPE_WATER, TYPE_DRAGON
     catchrate 45
-    baseexp 177
+    baseexp 0 // defined in baseexp.s
     evyields 0, 0, 2, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
     genderratio 255
     eggcycles 35
-    basefriendship 70
+    basefriendship 50
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
-    abilities ABILITY_WATER_ABSORB,  ABILITY_STRONG_JAW
-    runchance 25
+    abilities ABILITY_WATER_ABSORB, ABILITY_STRONG_JAW
+    runchance 0
     colorflip BODY_COLOR_GREEN, 0
     tmdata SPECIES_DRACOVISH_TM_DATA_0, SPECIES_DRACOVISH_TM_DATA_1, SPECIES_DRACOVISH_TM_DATA_2, SPECIES_DRACOVISH_TM_DATA_3
-    mondexentry SPECIES_DRACOVISH, "Its mighty legs are capable of running\nat speeds exceeding 40 mph, but it can’t\nbreathe unless it’s underwater."
+    mondexentry SPECIES_DRACOVISH, "Its mighty legs are capable of running at\nspeeds exceeding 40 mph, but this Pokémon\ncan’t breathe unless it’s underwater."
     mondexclassification SPECIES_DRACOVISH, "Fossil Pokémon"
     mondexheight SPECIES_DRACOVISH, "7’07”"
     mondexweight SPECIES_DRACOVISH, "474.0 lbs."
@@ -22945,19 +22945,19 @@ mondata SPECIES_ARCTOVISH, "Arctovish"
     basestats 90, 90, 100, 55, 80, 90
     types TYPE_WATER, TYPE_ICE
     catchrate 45
-    baseexp 177
+    baseexp 0 // defined in baseexp.s
     evyields 0, 0, 2, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
     genderratio 255
     eggcycles 35
-    basefriendship 70
+    basefriendship 50
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
-    abilities ABILITY_WATER_ABSORB,  ABILITY_ICE_BODY
-    runchance 25
+    abilities ABILITY_WATER_ABSORB, ABILITY_ICE_BODY
+    runchance 0
     colorflip BODY_COLOR_BLUE, 0
     tmdata SPECIES_ARCTOVISH_TM_DATA_0, SPECIES_ARCTOVISH_TM_DATA_1, SPECIES_ARCTOVISH_TM_DATA_2, SPECIES_ARCTOVISH_TM_DATA_3
-    mondexentry SPECIES_ARCTOVISH, "The skin on its face is impervious\nto attack, but breathing difficulties\nmade it go extinct anyway."
+    mondexentry SPECIES_ARCTOVISH, "The skin on its face is impervious to attack, but\nbreathing difficulties made this Pokémon go\nextinct anyway."
     mondexclassification SPECIES_ARCTOVISH, "Fossil Pokémon"
     mondexheight SPECIES_ARCTOVISH, "6’07”"
     mondexweight SPECIES_ARCTOVISH, "385.8 lbs."
@@ -22967,19 +22967,19 @@ mondata SPECIES_DURALUDON, "Duraludon"
     basestats 70, 95, 115, 85, 120, 50
     types TYPE_STEEL, TYPE_DRAGON
     catchrate 45
-    baseexp 187
+    baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 2, 0
     items ITEM_NONE, ITEM_NONE
     genderratio 127
     eggcycles 30
-    basefriendship 70
+    basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MINERAL, EGG_GROUP_DRAGON
-    abilities ABILITY_LIGHT_METAL,  ABILITY_HEAVY_METAL
-    runchance 25
+    abilities ABILITY_LIGHT_METAL, ABILITY_HEAVY_METAL
+    runchance 0
     colorflip BODY_COLOR_WHITE, 0
     tmdata SPECIES_DURALUDON_TM_DATA_0, SPECIES_DURALUDON_TM_DATA_1, SPECIES_DURALUDON_TM_DATA_2, SPECIES_DURALUDON_TM_DATA_3
-    mondexentry SPECIES_DURALUDON, "Its body resembles polished metal,\nand it’s both lightweight and strong.\nHowever, its body rusts easily."
+    mondexentry SPECIES_DURALUDON, "The special metal that composes its body is very\nlight, so this Pokémon has considerable agility.\nIt lives in caves because it dislikes the rain."
     mondexclassification SPECIES_DURALUDON, "Alloy Pokémon"
     mondexheight SPECIES_DURALUDON, "5’11”"
     mondexweight SPECIES_DURALUDON, "88.2 lbs."
@@ -22989,19 +22989,19 @@ mondata SPECIES_DREEPY, "Dreepy"
     basestats 28, 60, 30, 82, 40, 30
     types TYPE_DRAGON, TYPE_GHOST
     catchrate 45
-    baseexp 54
+    baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 1, 0, 0
     items ITEM_NONE, ITEM_NONE
     genderratio 127
     eggcycles 40
-    basefriendship 70
+    basefriendship 50
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_AMORPHOUS, EGG_GROUP_DRAGON
-    abilities ABILITY_CLEAR_BODY,  ABILITY_INFILTRATOR
-    runchance 25
+    abilities ABILITY_CLEAR_BODY, ABILITY_INFILTRATOR
+    runchance 0
     colorflip BODY_COLOR_GREEN, 0
     tmdata SPECIES_DREEPY_TM_DATA_0, SPECIES_DREEPY_TM_DATA_1, SPECIES_DREEPY_TM_DATA_2, SPECIES_DREEPY_TM_DATA_3
-    mondexentry SPECIES_DREEPY, "After being reborn as a ghost, Dreepy\nwanders the areas it used to inhabit back\nwhen it was alive in prehistoric seas."
+    mondexentry SPECIES_DREEPY, "If this weak Pokémon is by itself, a mere child\ncould defeat it. But if Dreepy has friends to help\nit train, it can evolve and become much stronger."
     mondexclassification SPECIES_DREEPY, "Lingering Pokémon"
     mondexheight SPECIES_DREEPY, "1’08”"
     mondexweight SPECIES_DREEPY, "4.4 lbs."
@@ -23011,19 +23011,19 @@ mondata SPECIES_DRAKLOAK, "Drakloak"
     basestats 68, 80, 50, 102, 60, 50
     types TYPE_DRAGON, TYPE_GHOST
     catchrate 45
-    baseexp 144
+    baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 2, 0, 0
     items ITEM_NONE, ITEM_NONE
     genderratio 127
     eggcycles 40
-    basefriendship 70
+    basefriendship 50
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_AMORPHOUS, EGG_GROUP_DRAGON
-    abilities ABILITY_CLEAR_BODY,  ABILITY_INFILTRATOR
-    runchance 25
+    abilities ABILITY_CLEAR_BODY, ABILITY_INFILTRATOR
+    runchance 0
     colorflip BODY_COLOR_GREEN, 0
     tmdata SPECIES_DRAKLOAK_TM_DATA_0, SPECIES_DRAKLOAK_TM_DATA_1, SPECIES_DRAKLOAK_TM_DATA_2, SPECIES_DRAKLOAK_TM_DATA_3
-    mondexentry SPECIES_DRAKLOAK, "It’s capable of flying faster than 120\nmph. It battles alongside Dreepy and\ndotes on them until they evolve."
+    mondexentry SPECIES_DRAKLOAK, "Without a Dreepy to place on its head and\ncare for, it gets so uneasy it’ll try to substitute\nany Pokémon it finds for the missing Dreepy."
     mondexclassification SPECIES_DRAKLOAK, "Caretaker Pokémon"
     mondexheight SPECIES_DRAKLOAK, "4’07”"
     mondexweight SPECIES_DRAKLOAK, "24.3 lbs."
@@ -23033,29 +23033,29 @@ mondata SPECIES_DRAGAPULT, "Dragapult"
     basestats 88, 120, 75, 142, 100, 75
     types TYPE_DRAGON, TYPE_GHOST
     catchrate 45
-    baseexp 300
+    baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 3, 0, 0
     items ITEM_NONE, ITEM_NONE
     genderratio 127
     eggcycles 40
-    basefriendship 70
+    basefriendship 50
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_AMORPHOUS, EGG_GROUP_DRAGON
-    abilities ABILITY_CLEAR_BODY,  ABILITY_INFILTRATOR
-    runchance 25
+    abilities ABILITY_CLEAR_BODY, ABILITY_INFILTRATOR
+    runchance 0
     colorflip BODY_COLOR_GREEN, 0
     tmdata SPECIES_DRAGAPULT_TM_DATA_0, SPECIES_DRAGAPULT_TM_DATA_1, SPECIES_DRAGAPULT_TM_DATA_2, SPECIES_DRAGAPULT_TM_DATA_3
-    mondexentry SPECIES_DRAGAPULT, "Apparently the Dreepy inside its horns\neagerly look forward to being launched\nout at Mach speeds."
+    mondexentry SPECIES_DRAGAPULT, "Apparently the Dreepy inside Dragapult’s\nhorns eagerly look forward to being launched out\nat Mach speeds."
     mondexclassification SPECIES_DRAGAPULT, "Stealth Pokémon"
     mondexheight SPECIES_DRAGAPULT, "9’10”"
     mondexweight SPECIES_DRAGAPULT, "110.2 lbs."
 
 
 mondata SPECIES_ZACIAN, "Zacian"
-    basestats 92, 130, 115, 138, 80, 115
-    types TYPE_FAIRY, TYPE_FAIRY
+    basestats 92, 120, 115, 138, 80, 115
+    types (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_NORMAL, (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_NORMAL
     catchrate 10
-    baseexp 335
+    baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 3, 0, 0
     items ITEM_NONE, ITEM_NONE
     genderratio 255
@@ -23064,20 +23064,20 @@ mondata SPECIES_ZACIAN, "Zacian"
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_INTREPID_SWORD, ABILITY_NONE
-    runchance 25
+    runchance 0
     colorflip BODY_COLOR_BLUE, 0
     tmdata SPECIES_ZACIAN_TM_DATA_0, SPECIES_ZACIAN_TM_DATA_1, SPECIES_ZACIAN_TM_DATA_2, SPECIES_ZACIAN_TM_DATA_3
-    mondexentry SPECIES_ZACIAN, "It has slumbered for many years. Some\nsay it is Zamazenta’s elder sister,\nothers say the two are rivals."
+    mondexentry SPECIES_ZACIAN, "This Pokémon has slumbered for many years.\nSome say it’s Zamazenta’s elder sister: others\nsay the two Pokémon are rivals."
     mondexclassification SPECIES_ZACIAN, "Warrior Pokémon"
     mondexheight SPECIES_ZACIAN, "9’02”"
     mondexweight SPECIES_ZACIAN, "242.5 lbs."
 
 
 mondata SPECIES_ZAMAZENTA, "Zamazenta"
-    basestats 92, 130, 115, 138, 80, 115
+    basestats 92, 120, 115, 138, 80, 115
     types TYPE_FIGHTING, TYPE_FIGHTING
     catchrate 10
-    baseexp 335
+    baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 3, 0, 0
     items ITEM_NONE, ITEM_NONE
     genderratio 255
@@ -23086,10 +23086,10 @@ mondata SPECIES_ZAMAZENTA, "Zamazenta"
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_DAUNTLESS_SHIELD, ABILITY_NONE
-    runchance 25
+    runchance 0
     colorflip BODY_COLOR_RED, 0
     tmdata SPECIES_ZAMAZENTA_TM_DATA_0, SPECIES_ZAMAZENTA_TM_DATA_1, SPECIES_ZAMAZENTA_TM_DATA_2, SPECIES_ZAMAZENTA_TM_DATA_3
-    mondexentry SPECIES_ZAMAZENTA, "It slept for aeons while in the form\nof a statue. It was asleep for so long,\npeople forgot that it ever existed."
+    mondexentry SPECIES_ZAMAZENTA, "This Pokémon slept for aeons while in the form of\na statue. It was asleep for so long, people forgot\nthat it ever existed."
     mondexclassification SPECIES_ZAMAZENTA, "Warrior Pokémon"
     mondexheight SPECIES_ZAMAZENTA, "9’06”"
     mondexweight SPECIES_ZAMAZENTA, "463.0 lbs."
@@ -23099,7 +23099,7 @@ mondata SPECIES_ETERNATUS, "Eternatus"
     basestats 140, 85, 95, 130, 145, 95
     types TYPE_POISON, TYPE_DRAGON
     catchrate 255
-    baseexp 345
+    baseexp 0 // defined in baseexp.s
     evyields 3, 0, 0, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
     genderratio 255
@@ -23108,10 +23108,10 @@ mondata SPECIES_ETERNATUS, "Eternatus"
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_PRESSURE, ABILITY_NONE
-    runchance 25
+    runchance 0
     colorflip BODY_COLOR_PURPLE, 0
     tmdata SPECIES_ETERNATUS_TM_DATA_0, SPECIES_ETERNATUS_TM_DATA_1, SPECIES_ETERNATUS_TM_DATA_2, SPECIES_ETERNATUS_TM_DATA_3
-    mondexentry SPECIES_ETERNATUS, "It was inside a meteorite that fell\n20,000 years ago. The energy that\nits core absorbs allows it to live."
+    mondexentry SPECIES_ETERNATUS, "It was inside a meteorite that fell 20,000 years\nago. There seems to be a connection between\nthis Pokémon and the Dynamax phenomenon."
     mondexclassification SPECIES_ETERNATUS, "Gigantic Pokémon"
     mondexheight SPECIES_ETERNATUS, "65’07”"
     mondexweight SPECIES_ETERNATUS, "2094.4 lbs."
@@ -23121,21 +23121,21 @@ mondata SPECIES_KUBFU, "Kubfu"
     basestats 60, 90, 60, 72, 53, 50
     types TYPE_FIGHTING, TYPE_FIGHTING
     catchrate 3
-    baseexp 77
+    baseexp 0 // defined in baseexp.s
     evyields 0, 1, 0, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
-    genderratio 254
+    genderratio 31
     eggcycles 120
-    basefriendship 70
+    basefriendship 50
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_INNER_FOCUS, ABILITY_NONE
-    runchance 25
+    runchance 0
     colorflip BODY_COLOR_GRAY, 0
     tmdata SPECIES_KUBFU_TM_DATA_0, SPECIES_KUBFU_TM_DATA_1, SPECIES_KUBFU_TM_DATA_2, SPECIES_KUBFU_TM_DATA_3
-    mondexentry SPECIES_KUBFU, "If it pulls the long white hair on\nits head, its fighting spirit heightens and\npower wells up from deep in its belly."
+    mondexentry SPECIES_KUBFU, "If Kubfu pulls the long white hair on its head,\nits fighting spirit heightens and power wells up\nfrom the depths of its belly."
     mondexclassification SPECIES_KUBFU, "Wushu Pokémon"
-    mondexheight SPECIES_KUBFU, "1’12”"
+    mondexheight SPECIES_KUBFU, "2’00”"
     mondexweight SPECIES_KUBFU, "26.5 lbs."
 
 
@@ -23143,19 +23143,19 @@ mondata SPECIES_URSHIFU, "Urshifu"
     basestats 100, 130, 100, 97, 63, 60
     types TYPE_FIGHTING, TYPE_DARK
     catchrate 3
-    baseexp 275
+    baseexp 0 // defined in baseexp.s
     evyields 0, 3, 0, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
-    genderratio 254
+    genderratio 31
     eggcycles 120
-    basefriendship 70
+    basefriendship 50
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_UNSEEN_FIST, ABILITY_NONE
-    runchance 25
+    runchance 0
     colorflip BODY_COLOR_GRAY, 0
     tmdata SPECIES_URSHIFU_TM_DATA_0, SPECIES_URSHIFU_TM_DATA_1, SPECIES_URSHIFU_TM_DATA_2, SPECIES_URSHIFU_TM_DATA_3
-    mondexentry SPECIES_URSHIFU, "Inhabiting the mountains of a distant\nregion, it races across sheer cliffs, training\nits legs and refining its moves."
+    mondexentry SPECIES_URSHIFU, "Inhabiting the mountains of a distant region, this\nPokémon races across sheer cliffs, training its legs\nand refining its moves."
     mondexclassification SPECIES_URSHIFU, "Wushu Pokémon"
     mondexheight SPECIES_URSHIFU, "6’03”"
     mondexweight SPECIES_URSHIFU, "231.5 lbs."
@@ -23165,7 +23165,7 @@ mondata SPECIES_ZARUDE, "Zarude"
     basestats 105, 120, 105, 105, 70, 95
     types TYPE_DARK, TYPE_GRASS
     catchrate 3
-    baseexp 300
+    baseexp 0 // defined in baseexp.s
     evyields 0, 3, 0, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
     genderratio 255
@@ -23174,10 +23174,10 @@ mondata SPECIES_ZARUDE, "Zarude"
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_LEAF_GUARD, ABILITY_NONE
-    runchance 25
+    runchance 0
     colorflip BODY_COLOR_GREEN, 0
     tmdata SPECIES_ZARUDE_TM_DATA_0, SPECIES_ZARUDE_TM_DATA_1, SPECIES_ZARUDE_TM_DATA_2, SPECIES_ZARUDE_TM_DATA_3
-    mondexentry SPECIES_ZARUDE, "Once the vines on its body tear off,\nthey become nutrients in the soil. This helps\nthe plants of the forest grow."
+    mondexentry SPECIES_ZARUDE, "Once the vines on Zarude’s body tear off, they\nbecome nutrients in the soil. This helps the plants\nof the forest grow."
     mondexclassification SPECIES_ZARUDE, "Rogue Monkey Pokémon"
     mondexheight SPECIES_ZARUDE, "5’11”"
     mondexweight SPECIES_ZARUDE, "154.3 lbs."
@@ -23187,7 +23187,7 @@ mondata SPECIES_REGIELEKI, "Regieleki"
     basestats 80, 100, 50, 200, 100, 50
     types TYPE_ELECTRIC, TYPE_ELECTRIC
     catchrate 3
-    baseexp 290
+    baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 3, 0, 0
     items ITEM_NONE, ITEM_NONE
     genderratio 255
@@ -23196,10 +23196,10 @@ mondata SPECIES_REGIELEKI, "Regieleki"
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_TRANSISTOR, ABILITY_NONE
-    runchance 25
+    runchance 0
     colorflip BODY_COLOR_YELLOW, 0
     tmdata SPECIES_REGIELEKI_TM_DATA_0, SPECIES_REGIELEKI_TM_DATA_1, SPECIES_REGIELEKI_TM_DATA_2, SPECIES_REGIELEKI_TM_DATA_3
-    mondexentry SPECIES_REGIELEKI, "Its entire body is made of an organ\nthat generates electricity. It is capable of\ngenerating a region’s worth of electricity."
+    mondexentry SPECIES_REGIELEKI, "Its entire body is made up of a single organ that\ngenerates electrical energy. Regieleki is capable\nof creating all Galar’s electricity."
     mondexclassification SPECIES_REGIELEKI, "Electron Pokémon"
     mondexheight SPECIES_REGIELEKI, "3’11”"
     mondexweight SPECIES_REGIELEKI, "319.7 lbs."
@@ -23209,7 +23209,7 @@ mondata SPECIES_REGIDRAGO, "Regidrago"
     basestats 200, 100, 50, 80, 100, 50
     types TYPE_DRAGON, TYPE_DRAGON
     catchrate 3
-    baseexp 290
+    baseexp 0 // defined in baseexp.s
     evyields 3, 0, 0, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
     genderratio 255
@@ -23218,10 +23218,10 @@ mondata SPECIES_REGIDRAGO, "Regidrago"
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_DRAGONS_MAW, ABILITY_NONE
-    runchance 25
+    runchance 0
     colorflip BODY_COLOR_GREEN, 0
     tmdata SPECIES_REGIDRAGO_TM_DATA_0, SPECIES_REGIDRAGO_TM_DATA_1, SPECIES_REGIDRAGO_TM_DATA_2, SPECIES_REGIDRAGO_TM_DATA_3
-    mondexentry SPECIES_REGIDRAGO, "Its body is composed of crystallized\ndragon energy. It is said to contain the\npower of every Dragon Pokémon."
+    mondexentry SPECIES_REGIDRAGO, "Its body is composed of crystallized dragon\nenergy. Regidrago is said to have the powers of\nevery dragon Pokémon."
     mondexclassification SPECIES_REGIDRAGO, "Dragon Orb Pokémon"
     mondexheight SPECIES_REGIDRAGO, "6’11”"
     mondexweight SPECIES_REGIDRAGO, "440.9 lbs."
@@ -23231,7 +23231,7 @@ mondata SPECIES_GLASTRIER, "Glastrier"
     basestats 100, 145, 130, 30, 65, 110
     types TYPE_ICE, TYPE_ICE
     catchrate 3
-    baseexp 290
+    baseexp 0 // defined in baseexp.s
     evyields 0, 3, 0, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
     genderratio 255
@@ -23240,10 +23240,10 @@ mondata SPECIES_GLASTRIER, "Glastrier"
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_CHILLING_NEIGH, ABILITY_NONE
-    runchance 25
+    runchance 0
     colorflip BODY_COLOR_WHITE, 0
     tmdata SPECIES_GLASTRIER_TM_DATA_0, SPECIES_GLASTRIER_TM_DATA_1, SPECIES_GLASTRIER_TM_DATA_2, SPECIES_GLASTRIER_TM_DATA_3
-    mondexentry SPECIES_GLASTRIER, "Glastrier has tremendous physical\nstrength. The mask covering its face is\n100 times stronger than diamond."
+    mondexentry SPECIES_GLASTRIER, "Glastrier has tremendous physical strength, and\nthe mask of ice covering its face is 100 times\nharder than diamond."
     mondexclassification SPECIES_GLASTRIER, "Wild Horse Pokémon"
     mondexheight SPECIES_GLASTRIER, "7’03”"
     mondexweight SPECIES_GLASTRIER, "1763.7 lbs."
@@ -23253,7 +23253,7 @@ mondata SPECIES_SPECTRIER, "Spectrier"
     basestats 100, 65, 60, 130, 145, 80
     types TYPE_GHOST, TYPE_GHOST
     catchrate 3
-    baseexp 290
+    baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 3, 0
     items ITEM_NONE, ITEM_NONE
     genderratio 255
@@ -23262,10 +23262,10 @@ mondata SPECIES_SPECTRIER, "Spectrier"
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_GRIM_NEIGH, ABILITY_NONE
-    runchance 25
+    runchance 0
     colorflip BODY_COLOR_BLACK, 0
     tmdata SPECIES_SPECTRIER_TM_DATA_0, SPECIES_SPECTRIER_TM_DATA_1, SPECIES_SPECTRIER_TM_DATA_2, SPECIES_SPECTRIER_TM_DATA_3
-    mondexentry SPECIES_SPECTRIER, "As it dashes through the night, it\nabsorbs the life energy of sleeping Pokémon. It\ncraves silence and solitude."
+    mondexentry SPECIES_SPECTRIER, "As it dashes through the night, Spectrier absorbs\nthe life-force of sleeping creatures. It craves\nsilence and solitude."
     mondexclassification SPECIES_SPECTRIER, "Swift Horse Pokémon"
     mondexheight SPECIES_SPECTRIER, "6’07”"
     mondexweight SPECIES_SPECTRIER, "98.1 lbs."
@@ -23275,7 +23275,7 @@ mondata SPECIES_CALYREX, "Calyrex"
     basestats 100, 80, 80, 80, 80, 80
     types TYPE_PSYCHIC, TYPE_GRASS
     catchrate 3
-    baseexp 250
+    baseexp 0 // defined in baseexp.s
     evyields 3, 0, 0, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
     genderratio 255
@@ -23284,10 +23284,10 @@ mondata SPECIES_CALYREX, "Calyrex"
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     abilities ABILITY_UNNERVE, ABILITY_NONE
-    runchance 25
+    runchance 0
     colorflip BODY_COLOR_GREEN, 0
     tmdata SPECIES_CALYREX_TM_DATA_0, SPECIES_CALYREX_TM_DATA_1, SPECIES_CALYREX_TM_DATA_2, SPECIES_CALYREX_TM_DATA_3
-    mondexentry SPECIES_CALYREX, "Its every move is filled with grace\nand dignity. Extremely intelligent, it is said\nto see past, present, and future events."
+    mondexentry SPECIES_CALYREX, "Calyrex is known in legend as a king that ruled\nover Galar in ancient times. It has the power to\ncause hearts to mend and plants to spring forth."
     mondexclassification SPECIES_CALYREX, "King Pokémon"
     mondexheight SPECIES_CALYREX, "3’07”"
     mondexweight SPECIES_CALYREX, "17.0 lbs."
@@ -23297,19 +23297,19 @@ mondata SPECIES_WYRDEER, "Wyrdeer"
     basestats 103, 105, 72, 65, 105, 75
     types TYPE_NORMAL, TYPE_PSYCHIC
     catchrate 135
-    baseexp 165 // stantler
+    baseexp 0 // defined in baseexp.s
     evyields 0, 1, 0, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
     genderratio 127
     eggcycles 0
-    basefriendship 70 // raised up again
+    basefriendship 70
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_INTIMIDATE, ABILITY_FRISK
-    runchance 25
-    colorflip BODY_COLOR_WHITE, 0
+    runchance 0
+    colorflip BODY_COLOR_GRAY, 0
     tmdata SPECIES_WYRDEER_TM_DATA_0, SPECIES_WYRDEER_TM_DATA_1, SPECIES_WYRDEER_TM_DATA_2, SPECIES_WYRDEER_TM_DATA_3
-    mondexentry SPECIES_WYRDEER, "The black orbs shine with uncanny light\nwhen it erects invisible barriers. The\nfur shed from its beard retains heat."
+    mondexentry SPECIES_WYRDEER, "The black orbs shine with an uncanny light when the Pokémon is\nerecting invisible barriers. The fur shed from its beard retains\nheat well and is a highly useful material for winter clothing."
     mondexclassification SPECIES_WYRDEER, "Big Horn Pokémon"
     mondexheight SPECIES_WYRDEER, "5’11”"
     mondexweight SPECIES_WYRDEER, "209.7 lbs."
@@ -23319,8 +23319,8 @@ mondata SPECIES_KLEAVOR, "Kleavor"
     basestats 70, 135, 95, 85, 45, 70
     types TYPE_BUG, TYPE_ROCK
     catchrate 115
-    baseexp 0
-    evyields 0,2,0,0,0,0
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 2, 0, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
     genderratio 127
     eggcycles 0
@@ -23328,10 +23328,10 @@ mondata SPECIES_KLEAVOR, "Kleavor"
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_BUG, EGG_GROUP_BUG
     abilities ABILITY_SWARM, ABILITY_SHEER_FORCE
-    runchance 25
+    runchance 0
     colorflip BODY_COLOR_BROWN, 0
     tmdata SPECIES_KLEAVOR_TM_DATA_0, SPECIES_KLEAVOR_TM_DATA_1, SPECIES_KLEAVOR_TM_DATA_2, SPECIES_KLEAVOR_TM_DATA_3
-    mondexentry SPECIES_KLEAVOR, "A violent creature that fells trees\nwith crude axes and shields itself with\nhard stone."
+    mondexentry SPECIES_KLEAVOR, "A violent creature that fells towering trees with its crude axes\nand shields itself with hard stone. If one should chance upon\nthis Pokémon in the wilds, one's only recourse is to flee."
     mondexclassification SPECIES_KLEAVOR, "Axe Pokémon"
     mondexheight SPECIES_KLEAVOR, "5’11”"
     mondexweight SPECIES_KLEAVOR, "196.2 lbs."
@@ -23341,8 +23341,8 @@ mondata SPECIES_URSALUNA, "Ursaluna"
     basestats 130, 140, 105, 50, 45, 80
     types TYPE_GROUND, TYPE_NORMAL
     catchrate 75
-    baseexp 208
-    evyields 0,3,0,0,0,0
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 3, 0, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
     genderratio 127
     eggcycles 0
@@ -23350,10 +23350,10 @@ mondata SPECIES_URSALUNA, "Ursaluna"
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     abilities ABILITY_GUTS, ABILITY_BULLETPROOF
-    runchance 25
+    runchance 0
     colorflip BODY_COLOR_BROWN, 0
     tmdata SPECIES_URSALUNA_TM_DATA_0, SPECIES_URSALUNA_TM_DATA_1, SPECIES_URSALUNA_TM_DATA_2, SPECIES_URSALUNA_TM_DATA_3
-    mondexentry SPECIES_URSALUNA, "Hisui’s swampy terrain gave Ursaluna its burly\nphysique and newfound capacity to manipulate\npeat at will."
+    mondexentry SPECIES_URSALUNA, "I believe it was Hisui's swampy terrain that gave Ursaluna its\nburly physique and newfound capacity to manipulate peat\nat will."
     mondexclassification SPECIES_URSALUNA, "Peat Pokémon"
     mondexheight SPECIES_URSALUNA, "7’10”"
     mondexweight SPECIES_URSALUNA, "639.3 lbs."
@@ -23363,19 +23363,19 @@ mondata SPECIES_BASCULEGION, "Basculegion"
     basestats 120, 112, 65, 78, 80, 75
     types TYPE_WATER, TYPE_GHOST
     catchrate 135
-    baseexp 208
-    evyields 2,0,0,0,0,0
+    baseexp 0 // defined in baseexp.s
+    evyields 2, 0, 0, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
-    genderratio 0
+    genderratio 127
     eggcycles 0
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_2, EGG_GROUP_WATER_2
-    abilities ABILITY_RATTLED, ABILITY_ADAPTABILITY
-    runchance 25
+    abilities ABILITY_SWIFT_SWIM, ABILITY_ADAPTABILITY
+    runchance 0
     colorflip BODY_COLOR_GREEN, 0
     tmdata SPECIES_BASCULEGION_TM_DATA_0, SPECIES_BASCULEGION_TM_DATA_1, SPECIES_BASCULEGION_TM_DATA_2, SPECIES_BASCULEGION_TM_DATA_3
-    mondexentry SPECIES_BASCULEGION, "Clads itself in souls of comrades\nthat died before journeying\nupstream."
+    mondexentry SPECIES_BASCULEGION, "Clads itself in the souls of comrades that perished before\nfulfilling their goals of journeying upstream. No other species\nthroughout all Hisui's rivers is Basculegion's equal."
     mondexclassification SPECIES_BASCULEGION, "Big Fish Pokémon"
     mondexheight SPECIES_BASCULEGION, "9’10”"
     mondexweight SPECIES_BASCULEGION, "242.5 lbs."
@@ -23385,19 +23385,19 @@ mondata SPECIES_SNEASLER, "Sneasler"
     basestats 80, 130, 60, 120, 40, 80
     types TYPE_FIGHTING, TYPE_POISON
     catchrate 135
-    baseexp 208
-    evyields 0,1,0,1,0,0
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 1, 0, 1, 0, 0
     items ITEM_NONE, ITEM_NONE
     genderratio 127
     eggcycles 0
     basefriendship 70
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_PRESSURE, ABILITY_PRESSURE
-    runchance 25
+    abilities ABILITY_PRESSURE, ABILITY_UNBURDEN
+    runchance 0
     colorflip BODY_COLOR_GRAY, 0
     tmdata SPECIES_SNEASLER_TM_DATA_0, SPECIES_SNEASLER_TM_DATA_1, SPECIES_SNEASLER_TM_DATA_2, SPECIES_SNEASLER_TM_DATA_3
-    mondexentry SPECIES_SNEASLER, "Because of its virulent poison and\nphysical prowess, no other Pokémon\nbests it on the frozen highlands."
+    mondexentry SPECIES_SNEASLER, "Because of Sneasler's virulent poison and daunting physical\nprowess, no other species could hope to best it on the frozen\nhighlands. Preferring solitude, this species does not form packs."
     mondexclassification SPECIES_SNEASLER, "Free Climb Pokémon"
     mondexheight SPECIES_SNEASLER, "4’03”"
     mondexweight SPECIES_SNEASLER, "94.8 lbs."
@@ -23407,8 +23407,8 @@ mondata SPECIES_OVERQWIL, "Overqwil"
     basestats 85, 115, 95, 85, 65, 65
     types TYPE_DARK, TYPE_POISON
     catchrate 135
-    baseexp 208
-    evyields 0,1,0,0,0,0
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 1, 0, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
     genderratio 127
     eggcycles 0
@@ -23416,10 +23416,10 @@ mondata SPECIES_OVERQWIL, "Overqwil"
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_2, EGG_GROUP_WATER_2
     abilities ABILITY_POISON_POINT, ABILITY_SWIFT_SWIM
-    runchance 25
-    colorflip BODY_COLOR_BLUE, 0
+    runchance 0
+    colorflip BODY_COLOR_BLACK, 0
     tmdata SPECIES_OVERQWIL_TM_DATA_0, SPECIES_OVERQWIL_TM_DATA_1, SPECIES_OVERQWIL_TM_DATA_2, SPECIES_OVERQWIL_TM_DATA_3
-    mondexentry SPECIES_OVERQWIL, "Its lancelike spikes and anger have\nearned it the nickname “Sea Fiend.”\nIt slurps up poison to eat."
+    mondexentry SPECIES_OVERQWIL, "Its lancelike spikes and savage temperament have earned it the\nnickname ”sea fiend.” It slurps up poison to nourish itself."
     mondexclassification SPECIES_OVERQWIL, "Pin Cluster Pokémon"
     mondexheight SPECIES_OVERQWIL, "8’02”"
     mondexweight SPECIES_OVERQWIL, "133.4 lbs."
@@ -23427,24 +23427,2532 @@ mondata SPECIES_OVERQWIL, "Overqwil"
 
 mondata SPECIES_ENAMORUS, "Enamorus"
     basestats 74, 115, 70, 106, 135, 80
-    types TYPE_FAIRY, TYPE_FLYING
+    types (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_NORMAL, TYPE_FLYING
     catchrate 3
-    baseexp 208
-    evyields 0,0,0,0,3,0
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 0, 0, 0, 3, 0
     items ITEM_NONE, ITEM_NONE
     genderratio 254
     eggcycles 0
     basefriendship 70
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
-    abilities ABILITY_CUTE_CHARM, ABILITY_CUTE_CHARM
+    abilities ABILITY_CUTE_CHARM, ABILITY_NONE
     runchance 0
     colorflip BODY_COLOR_PINK, 0
     tmdata SPECIES_ENAMORUS_TM_DATA_0, SPECIES_ENAMORUS_TM_DATA_1, SPECIES_ENAMORUS_TM_DATA_2, SPECIES_ENAMORUS_TM_DATA_3
-    mondexentry SPECIES_ENAMORUS, "Its arrival ends the winter.\nAccording to legend, this Pokémon’s love\ngives rise to fresh life."
+    mondexentry SPECIES_ENAMORUS, "When it flies to this land from across the sea, the bitter winter\ncomes to an end. According to legend, this Pokémon's love\ngives rise to the budding of fresh life across Hisui."
     mondexclassification SPECIES_ENAMORUS, "Love-Hate Pokémon"
     mondexheight SPECIES_ENAMORUS, "5’03”"
     mondexweight SPECIES_ENAMORUS, "105.8 lbs."
+
+
+mondata SPECIES_SPRIGATITO, "Sprigatito"
+    basestats 40, 61, 54, 65, 45, 45
+    types TYPE_GRASS, TYPE_GRASS
+    catchrate 45
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 0, 0, 1, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 31
+    eggcycles 20
+    basefriendship 50
+    growthrate GROWTH_MEDIUM_SLOW
+    egggroups EGG_GROUP_FIELD, EGG_GROUP_GRASS
+    abilities ABILITY_OVERGROW, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_GREEN, 0
+    tmdata SPECIES_SPRIGATITO_TM_DATA_0, SPECIES_SPRIGATITO_TM_DATA_1, SPECIES_SPRIGATITO_TM_DATA_2, SPECIES_SPRIGATITO_TM_DATA_3
+    mondexentry SPECIES_SPRIGATITO, "The sweet scent its body gives off mesmerizes those around it. The scent grows stronger when this Pokémon is in the sun."
+    mondexclassification SPECIES_SPRIGATITO, "Grass Cat Pokémon"
+    mondexheight SPECIES_SPRIGATITO, "1’04”"
+    mondexweight SPECIES_SPRIGATITO, "9.0 lbs."
+
+
+mondata SPECIES_FLORAGATO, "Floragato"
+    basestats 61, 80, 63, 83, 60, 63
+    types TYPE_GRASS, TYPE_GRASS
+    catchrate 45
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 0, 0, 2, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 31
+    eggcycles 20
+    basefriendship 50
+    growthrate GROWTH_MEDIUM_SLOW
+    egggroups EGG_GROUP_FIELD, EGG_GROUP_GRASS
+    abilities ABILITY_OVERGROW, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_GREEN, 0
+    tmdata SPECIES_FLORAGATO_TM_DATA_0, SPECIES_FLORAGATO_TM_DATA_1, SPECIES_FLORAGATO_TM_DATA_2, SPECIES_FLORAGATO_TM_DATA_3
+    mondexentry SPECIES_FLORAGATO, "The hardness of Floragato’s fur depends on the Pokémon’s mood. When Floragato is prepared to battle, its fur becomes pointed and needle sharp."
+    mondexclassification SPECIES_FLORAGATO, "Grass Cat Pokémon"
+    mondexheight SPECIES_FLORAGATO, "2’11”"
+    mondexweight SPECIES_FLORAGATO, "26.9 lbs."
+
+
+mondata SPECIES_MEOWSCARADA, "Mewscarada"
+    basestats 76, 110, 70, 123, 81, 70
+    types TYPE_GRASS, TYPE_DARK
+    catchrate 45
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 0, 0, 3, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 31
+    eggcycles 20
+    basefriendship 50
+    growthrate GROWTH_MEDIUM_SLOW
+    egggroups EGG_GROUP_FIELD, EGG_GROUP_GRASS
+    abilities ABILITY_OVERGROW, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_GREEN, 0
+    tmdata SPECIES_MEOWSCARADA_TM_DATA_0, SPECIES_MEOWSCARADA_TM_DATA_1, SPECIES_MEOWSCARADA_TM_DATA_2, SPECIES_MEOWSCARADA_TM_DATA_3
+    mondexentry SPECIES_MEOWSCARADA, "With skillful misdirection, it rigs foes with pollen-packed flower bombs. Meowscarada sets off the bombs before its foes realize what’s going on."
+    mondexclassification SPECIES_MEOWSCARADA, "Magician Pokémon"
+    mondexheight SPECIES_MEOWSCARADA, "4’11”"
+    mondexweight SPECIES_MEOWSCARADA, "68.8 lbs."
+
+
+mondata SPECIES_FUECOCO, "Fuecoco"
+    basestats 67, 45, 59, 36, 63, 40
+    types TYPE_FIRE, TYPE_FIRE
+    catchrate 45
+    baseexp 0 // defined in baseexp.s
+    evyields 1, 0, 0, 0, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 31
+    eggcycles 20
+    basefriendship 50
+    growthrate GROWTH_MEDIUM_SLOW
+    egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
+    abilities ABILITY_BLAZE, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_RED, 0
+    tmdata SPECIES_FUECOCO_TM_DATA_0, SPECIES_FUECOCO_TM_DATA_1, SPECIES_FUECOCO_TM_DATA_2, SPECIES_FUECOCO_TM_DATA_3
+    mondexentry SPECIES_FUECOCO, "Its flame sac is small, so energy is always leaking out. This energy is released from the dent atop Fuecoco’s head and flickers to and fro."
+    mondexclassification SPECIES_FUECOCO, "Fire Croc Pokémon"
+    mondexheight SPECIES_FUECOCO, "1’04”"
+    mondexweight SPECIES_FUECOCO, "21.6 lbs."
+
+
+mondata SPECIES_CROCALOR, "Crocalor"
+    basestats 81, 55, 78, 49, 90, 58
+    types TYPE_FIRE, TYPE_FIRE
+    catchrate 45
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 0, 0, 0, 2, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 31
+    eggcycles 20
+    basefriendship 50
+    growthrate GROWTH_MEDIUM_SLOW
+    egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
+    abilities ABILITY_BLAZE, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_RED, 0
+    tmdata SPECIES_CROCALOR_TM_DATA_0, SPECIES_CROCALOR_TM_DATA_1, SPECIES_CROCALOR_TM_DATA_2, SPECIES_CROCALOR_TM_DATA_3
+    mondexentry SPECIES_CROCALOR, "The valve in Crocalor’s flame sac is closely connected to its vocal cords. This Pokémon utters a guttural cry as it spews flames every which way."
+    mondexclassification SPECIES_CROCALOR, "Fire Croc Pokémon"
+    mondexheight SPECIES_CROCALOR, "3’03”"
+    mondexweight SPECIES_CROCALOR, "67.7 lbs."
+
+
+mondata SPECIES_SKELEDIRGE, "Skeledirge"
+    basestats 104, 75, 100, 66, 110, 75
+    types TYPE_FIRE, TYPE_GHOST
+    catchrate 45
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 0, 0, 0, 3, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 31
+    eggcycles 20
+    basefriendship 50
+    growthrate GROWTH_MEDIUM_SLOW
+    egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
+    abilities ABILITY_BLAZE, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_RED, 0
+    tmdata SPECIES_SKELEDIRGE_TM_DATA_0, SPECIES_SKELEDIRGE_TM_DATA_1, SPECIES_SKELEDIRGE_TM_DATA_2, SPECIES_SKELEDIRGE_TM_DATA_3
+    mondexentry SPECIES_SKELEDIRGE, "Skeledirge’s gentle singing soothes the souls of all that hear it. It burns its enemies to a crisp with flames of over 5,400 degrees Fahrenheit."
+    mondexclassification SPECIES_SKELEDIRGE, "Singer Pokémon"
+    mondexheight SPECIES_SKELEDIRGE, "5’03”"
+    mondexweight SPECIES_SKELEDIRGE, "719.8 lbs."
+
+
+mondata SPECIES_QUAXLY, "Quaxly"
+    basestats 55, 65, 45, 50, 50, 45
+    types TYPE_WATER, TYPE_WATER
+    catchrate 45
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 1, 0, 0, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 31
+    eggcycles 20
+    basefriendship 50
+    growthrate GROWTH_MEDIUM_SLOW
+    egggroups EGG_GROUP_FLYING, EGG_GROUP_WATER_1
+    abilities ABILITY_TORRENT, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_WHITE, 0
+    tmdata SPECIES_QUAXLY_TM_DATA_0, SPECIES_QUAXLY_TM_DATA_1, SPECIES_QUAXLY_TM_DATA_2, SPECIES_QUAXLY_TM_DATA_3
+    mondexentry SPECIES_QUAXLY, "Its strong legs let it easily swim around in even fast-flowing rivers. It likes to keep things tidy and is prone to overthinking things."
+    mondexclassification SPECIES_QUAXLY, "Duckling Pokémon"
+    mondexheight SPECIES_QUAXLY, "1’08”"
+    mondexweight SPECIES_QUAXLY, "13.4 lbs."
+
+
+mondata SPECIES_QUAXWELL, "Quaxwell"
+    basestats 70, 85, 65, 65, 65, 60
+    types TYPE_WATER, TYPE_WATER
+    catchrate 45
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 2, 0, 0, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 31
+    eggcycles 20
+    basefriendship 50
+    growthrate GROWTH_MEDIUM_SLOW
+    egggroups EGG_GROUP_FLYING, EGG_GROUP_WATER_1
+    abilities ABILITY_TORRENT, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_BLUE, 0
+    tmdata SPECIES_QUAXWELL_TM_DATA_0, SPECIES_QUAXWELL_TM_DATA_1, SPECIES_QUAXWELL_TM_DATA_2, SPECIES_QUAXWELL_TM_DATA_3
+    mondexentry SPECIES_QUAXWELL, "The hardworking Quaxwell observes people and Pokémon from various regions and incorporates their movements into its own dance routines."
+    mondexclassification SPECIES_QUAXWELL, "Practicing Pokémon"
+    mondexheight SPECIES_QUAXWELL, "3’11”"
+    mondexweight SPECIES_QUAXWELL, "47.4 lbs."
+
+
+mondata SPECIES_QUAQUAVAL, "Quaquaval"
+    basestats 85, 120, 80, 85, 85, 75
+    types TYPE_WATER, TYPE_FIGHTING
+    catchrate 45
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 3, 0, 0, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 31
+    eggcycles 20
+    basefriendship 50
+    growthrate GROWTH_MEDIUM_SLOW
+    egggroups EGG_GROUP_FLYING, EGG_GROUP_WATER_1
+    abilities ABILITY_TORRENT, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_BLUE, 0
+    tmdata SPECIES_QUAQUAVAL_TM_DATA_0, SPECIES_QUAQUAVAL_TM_DATA_1, SPECIES_QUAQUAVAL_TM_DATA_2, SPECIES_QUAQUAVAL_TM_DATA_3
+    mondexentry SPECIES_QUAQUAVAL, "Dancing in ways that evoke far-away places, this Pokémon mesmerizes all that see it. Flourishes of its decorative water feathers slice into its foes."
+    mondexclassification SPECIES_QUAQUAVAL, "Dancer Pokémon"
+    mondexheight SPECIES_QUAQUAVAL, "5’11”"
+    mondexweight SPECIES_QUAQUAVAL, "136.5 lbs."
+
+
+mondata SPECIES_LECHONK, "Lechonk"
+    basestats 54, 45, 40, 35, 35, 45
+    types TYPE_NORMAL, TYPE_NORMAL
+    catchrate 255
+    baseexp 0 // defined in baseexp.s
+    evyields 1, 0, 0, 0, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 127
+    eggcycles 15
+    basefriendship 50
+    growthrate GROWTH_MEDIUM_FAST
+    egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
+    abilities ABILITY_AROMA_VEIL, ABILITY_GLUTTONY
+    runchance 0
+    colorflip BODY_COLOR_GRAY, 0
+    tmdata SPECIES_LECHONK_TM_DATA_0, SPECIES_LECHONK_TM_DATA_1, SPECIES_LECHONK_TM_DATA_2, SPECIES_LECHONK_TM_DATA_3
+    mondexentry SPECIES_LECHONK, "This Pokémon spurns all but the finest of foods. Its body gives off an herblike scent that bug Pokémon detest."
+    mondexclassification SPECIES_LECHONK, "Hog Pokémon"
+    mondexheight SPECIES_LECHONK, "1’08”"
+    mondexweight SPECIES_LECHONK, "22.5 lbs."
+
+
+mondata SPECIES_OINKOLOGNE, "Oinkologne"
+    basestats 110, 100, 75, 65, 59, 80
+    types TYPE_NORMAL, TYPE_NORMAL
+    catchrate 100
+    baseexp 0 // defined in baseexp.s
+    evyields 2, 0, 0, 0, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 255
+    eggcycles 15
+    basefriendship 50
+    growthrate GROWTH_MEDIUM_FAST
+    egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
+    abilities ABILITY_LINGERING_AROMA, ABILITY_GLUTTONY
+    runchance 0
+    colorflip BODY_COLOR_GRAY, 0
+    tmdata SPECIES_OINKOLOGNE_TM_DATA_0, SPECIES_OINKOLOGNE_TM_DATA_1, SPECIES_OINKOLOGNE_TM_DATA_2, SPECIES_OINKOLOGNE_TM_DATA_3
+    mondexentry SPECIES_OINKOLOGNE, "It entrances female Pokémon with the sweet, alluring scent that wafts from all over its body."
+    mondexclassification SPECIES_OINKOLOGNE, "Hog Pokémon"
+    mondexheight SPECIES_OINKOLOGNE, "3’03”"
+    mondexweight SPECIES_OINKOLOGNE, "264.6 lbs."
+
+
+mondata SPECIES_TAROUNTULA, "Tarountula"
+    basestats 35, 41, 45, 20, 29, 40
+    types TYPE_BUG, TYPE_BUG
+    catchrate 255
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 0, 1, 0, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 127
+    eggcycles 15
+    basefriendship 50
+    growthrate GROWTH_ERRATIC
+    egggroups EGG_GROUP_BUG, EGG_GROUP_BUG
+    abilities ABILITY_INSOMNIA, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_WHITE, 0
+    tmdata SPECIES_TAROUNTULA_TM_DATA_0, SPECIES_TAROUNTULA_TM_DATA_1, SPECIES_TAROUNTULA_TM_DATA_2, SPECIES_TAROUNTULA_TM_DATA_3
+    mondexentry SPECIES_TAROUNTULA, "The thread it secretes from its rear is as strong as wire. The secret behind the thread’s strength is the topic of ongoing research."
+    mondexclassification SPECIES_TAROUNTULA, "String Ball Pokémon"
+    mondexheight SPECIES_TAROUNTULA, "1’00”"
+    mondexweight SPECIES_TAROUNTULA, "8.8 lbs."
+
+
+mondata SPECIES_SPIDOPS, "Spidops"
+    basestats 60, 79, 92, 35, 52, 86
+    types TYPE_BUG, TYPE_BUG
+    catchrate 120
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 0, 2, 0, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 127
+    eggcycles 15
+    basefriendship 50
+    growthrate GROWTH_ERRATIC
+    egggroups EGG_GROUP_BUG, EGG_GROUP_BUG
+    abilities ABILITY_INSOMNIA, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_GREEN, 0
+    tmdata SPECIES_SPIDOPS_TM_DATA_0, SPECIES_SPIDOPS_TM_DATA_1, SPECIES_SPIDOPS_TM_DATA_2, SPECIES_SPIDOPS_TM_DATA_3
+    mondexentry SPECIES_SPIDOPS, "Spidops covers its territory in tough, sticky threads to set up traps for intruders."
+    mondexclassification SPECIES_SPIDOPS, "Trap Pokémon"
+    mondexheight SPECIES_SPIDOPS, "3’03”"
+    mondexweight SPECIES_SPIDOPS, "36.4 lbs."
+
+
+mondata SPECIES_NYMBLE, "Nymble"
+    basestats 33, 46, 40, 45, 21, 25
+    types TYPE_BUG, TYPE_BUG
+    catchrate 190
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 1, 0, 0, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 127
+    eggcycles 20
+    basefriendship 20
+    growthrate GROWTH_MEDIUM_FAST
+    egggroups EGG_GROUP_BUG, EGG_GROUP_BUG
+    abilities ABILITY_SWARM, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_GRAY, 0
+    tmdata SPECIES_NYMBLE_TM_DATA_0, SPECIES_NYMBLE_TM_DATA_1, SPECIES_NYMBLE_TM_DATA_2, SPECIES_NYMBLE_TM_DATA_3
+    mondexentry SPECIES_NYMBLE, "It’s highly skilled at a fighting style in which it uses its jumping capabilities to dodge incoming attacks while also dealing damage to opponents."
+    mondexclassification SPECIES_NYMBLE, "Grasshopper Pokémon"
+    mondexheight SPECIES_NYMBLE, "0’08”"
+    mondexweight SPECIES_NYMBLE, "2.2 lbs."
+
+
+mondata SPECIES_LOKIX, "Lokix"
+    basestats 71, 102, 78, 92, 52, 55
+    types TYPE_BUG, TYPE_DARK
+    catchrate 30
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 2, 0, 0, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 127
+    eggcycles 20
+    basefriendship 0
+    growthrate GROWTH_MEDIUM_FAST
+    egggroups EGG_GROUP_BUG, EGG_GROUP_BUG
+    abilities ABILITY_SWARM, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_GRAY, 0
+    tmdata SPECIES_LOKIX_TM_DATA_0, SPECIES_LOKIX_TM_DATA_1, SPECIES_LOKIX_TM_DATA_2, SPECIES_LOKIX_TM_DATA_3
+    mondexentry SPECIES_LOKIX, "It uses its normally folded third set of legs when in Showdown Mode. This places a huge burden on its body, so it can’t stay in this mode for long."
+    mondexclassification SPECIES_LOKIX, "Grasshopper Pokémon"
+    mondexheight SPECIES_LOKIX, "3’03”"
+    mondexweight SPECIES_LOKIX, "38.6 lbs."
+
+
+mondata SPECIES_PAWMI, "Pawmi"
+    basestats 45, 50, 20, 60, 40, 25
+    types TYPE_ELECTRIC, TYPE_ELECTRIC
+    catchrate 190
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 0, 0, 1, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 127
+    eggcycles 15
+    basefriendship 50
+    growthrate GROWTH_MEDIUM_FAST
+    egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
+    abilities ABILITY_STATIC, ABILITY_NATURAL_CURE
+    runchance 0
+    colorflip BODY_COLOR_YELLOW, 0
+    tmdata SPECIES_PAWMI_TM_DATA_0, SPECIES_PAWMI_TM_DATA_1, SPECIES_PAWMI_TM_DATA_2, SPECIES_PAWMI_TM_DATA_3
+    mondexentry SPECIES_PAWMI, "The pads of its paws are electricity-discharging organs. Pawmi fires electricity from its forepaws while standing unsteadily on its hind legs."
+    mondexclassification SPECIES_PAWMI, "Mouse Pokémon"
+    mondexheight SPECIES_PAWMI, "1’00”"
+    mondexweight SPECIES_PAWMI, "5.5 lbs."
+
+
+mondata SPECIES_PAWMO, "Pawmo"
+    basestats 60, 75, 40, 85, 50, 40
+    types TYPE_ELECTRIC, TYPE_FIGHTING
+    catchrate 80
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 0, 0, 2, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 127
+    eggcycles 15
+    basefriendship 50
+    growthrate GROWTH_MEDIUM_FAST
+    egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
+    abilities ABILITY_VOLT_ABSORB, ABILITY_NATURAL_CURE
+    runchance 0
+    colorflip BODY_COLOR_YELLOW, 0
+    tmdata SPECIES_PAWMO_TM_DATA_0, SPECIES_PAWMO_TM_DATA_1, SPECIES_PAWMO_TM_DATA_2, SPECIES_PAWMO_TM_DATA_3
+    mondexentry SPECIES_PAWMO, "Pawmo uses a unique fighting technique in which it uses its forepaws to strike foes and zap them with electricity from its paw pads simultaneously."
+    mondexclassification SPECIES_PAWMO, "Mouse Pokémon"
+    mondexheight SPECIES_PAWMO, "1’04”"
+    mondexweight SPECIES_PAWMO, "14.3 lbs."
+
+
+mondata SPECIES_PAWMOT, "Pawmot"
+    basestats 70, 115, 70, 105, 70, 60
+    types TYPE_ELECTRIC, TYPE_FIGHTING
+    catchrate 45
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 3, 0, 0, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 127
+    eggcycles 15
+    basefriendship 50
+    growthrate GROWTH_MEDIUM_FAST
+    egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
+    abilities ABILITY_VOLT_ABSORB, ABILITY_NATURAL_CURE
+    runchance 0
+    colorflip BODY_COLOR_YELLOW, 0
+    tmdata SPECIES_PAWMOT_TM_DATA_0, SPECIES_PAWMOT_TM_DATA_1, SPECIES_PAWMOT_TM_DATA_2, SPECIES_PAWMOT_TM_DATA_3
+    mondexentry SPECIES_PAWMOT, "Pawmot’s fluffy fur acts as a battery. It can store the same amount of electricity as an electric car."
+    mondexclassification SPECIES_PAWMOT, "Hands-On Pokémon"
+    mondexheight SPECIES_PAWMOT, "2’11”"
+    mondexweight SPECIES_PAWMOT, "90.4 lbs."
+
+
+mondata SPECIES_TANDEMAUS, "Tandemaus"
+    basestats 50, 50, 45, 75, 40, 45
+    types TYPE_NORMAL, TYPE_NORMAL
+    catchrate 150
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 0, 0, 1, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 255
+    eggcycles 10
+    basefriendship 50
+    growthrate GROWTH_FAST
+    egggroups EGG_GROUP_FIELD, EGG_GROUP_FAIRY
+    abilities ABILITY_RUN_AWAY, ABILITY_PICKUP
+    runchance 0
+    colorflip BODY_COLOR_WHITE, 0
+    tmdata SPECIES_TANDEMAUS_TM_DATA_0, SPECIES_TANDEMAUS_TM_DATA_1, SPECIES_TANDEMAUS_TM_DATA_2, SPECIES_TANDEMAUS_TM_DATA_3
+    mondexentry SPECIES_TANDEMAUS, "The pair sticks together no matter what. They split any food they find exactly in half and then eat it together."
+    mondexclassification SPECIES_TANDEMAUS, "Couple Pokémon"
+    mondexheight SPECIES_TANDEMAUS, "1’00”"
+    mondexweight SPECIES_TANDEMAUS, "4.0 lbs."
+
+
+mondata SPECIES_MAUSHOLD, "Maushold"
+    basestats 74, 75, 70, 111, 65, 75
+    types TYPE_NORMAL, TYPE_NORMAL
+    catchrate 75
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 0, 0, 2, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 255
+    eggcycles 10
+    basefriendship 50
+    growthrate GROWTH_FAST
+    egggroups EGG_GROUP_FIELD, EGG_GROUP_FAIRY
+    abilities ABILITY_FRIEND_GUARD, ABILITY_CHEEK_POUCH
+    runchance 0
+    colorflip BODY_COLOR_WHITE, 0
+    tmdata SPECIES_MAUSHOLD_TM_DATA_0, SPECIES_MAUSHOLD_TM_DATA_1, SPECIES_MAUSHOLD_TM_DATA_2, SPECIES_MAUSHOLD_TM_DATA_3
+    mondexentry SPECIES_MAUSHOLD, "The larger pair protects the little ones during battles. When facing strong opponents, the whole group will join the fight."
+    mondexclassification SPECIES_MAUSHOLD, "Family Pokémon"
+    mondexheight SPECIES_MAUSHOLD, "1’00”"
+    mondexweight SPECIES_MAUSHOLD, "5.1 lbs."
+
+
+mondata SPECIES_FIDOUGH, "Fidough"
+    basestats 37, 55, 70, 65, 30, 55
+    types (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_NORMAL, (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_NORMAL
+    catchrate 190
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 0, 0, 1, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 127
+    eggcycles 20
+    basefriendship 50
+    growthrate GROWTH_MEDIUM_SLOW
+    egggroups EGG_GROUP_FIELD, EGG_GROUP_MINERAL
+    abilities ABILITY_OWN_TEMPO, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_YELLOW, 0
+    tmdata SPECIES_FIDOUGH_TM_DATA_0, SPECIES_FIDOUGH_TM_DATA_1, SPECIES_FIDOUGH_TM_DATA_2, SPECIES_FIDOUGH_TM_DATA_3
+    mondexentry SPECIES_FIDOUGH, "The yeast in Fidough’s breath is useful for cooking, so this Pokémon has been protected by people since long ago."
+    mondexclassification SPECIES_FIDOUGH, "Puppy Pokémon"
+    mondexheight SPECIES_FIDOUGH, "1’00”"
+    mondexweight SPECIES_FIDOUGH, "24.0 lbs."
+
+
+mondata SPECIES_DACHSBUN, "Dachsbun"
+    basestats 57, 80, 115, 95, 50, 80
+    types (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_NORMAL, (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_NORMAL
+    catchrate 90
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 0, 0, 2, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 127
+    eggcycles 20
+    basefriendship 50
+    growthrate GROWTH_MEDIUM_SLOW
+    egggroups EGG_GROUP_FIELD, EGG_GROUP_MINERAL
+    abilities ABILITY_WELL_BAKED_BODY, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_BROWN, 0
+    tmdata SPECIES_DACHSBUN_TM_DATA_0, SPECIES_DACHSBUN_TM_DATA_1, SPECIES_DACHSBUN_TM_DATA_2, SPECIES_DACHSBUN_TM_DATA_3
+    mondexentry SPECIES_DACHSBUN, "The surface of this Pokémon’s skin hardens when exposed to intense heat, and its body has an appetizing aroma."
+    mondexclassification SPECIES_DACHSBUN, "Dog Pokémon"
+    mondexheight SPECIES_DACHSBUN, "1’08”"
+    mondexweight SPECIES_DACHSBUN, "32.8 lbs."
+
+
+mondata SPECIES_SMOLIV, "Smoliv"
+    basestats 41, 35, 45, 30, 58, 51
+    types TYPE_GRASS, TYPE_NORMAL
+    catchrate 255
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 0, 0, 0, 1, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 127
+    eggcycles 20
+    basefriendship 50
+    growthrate GROWTH_MEDIUM_SLOW
+    egggroups EGG_GROUP_GRASS, EGG_GROUP_GRASS
+    abilities ABILITY_EARLY_BIRD, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_GREEN, 0
+    tmdata SPECIES_SMOLIV_TM_DATA_0, SPECIES_SMOLIV_TM_DATA_1, SPECIES_SMOLIV_TM_DATA_2, SPECIES_SMOLIV_TM_DATA_3
+    mondexentry SPECIES_SMOLIV, "This Pokémon converts nutrients into oil, which it stores in the fruit on its head. It can easily go a whole week without eating or drinking."
+    mondexclassification SPECIES_SMOLIV, "Olive Pokémon"
+    mondexheight SPECIES_SMOLIV, "1’00”"
+    mondexweight SPECIES_SMOLIV, "14.3 lbs."
+
+
+mondata SPECIES_DOLLIV, "Dolliv"
+    basestats 52, 53, 60, 33, 78, 78
+    types TYPE_GRASS, TYPE_NORMAL
+    catchrate 120
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 0, 0, 0, 2, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 127
+    eggcycles 20
+    basefriendship 50
+    growthrate GROWTH_MEDIUM_SLOW
+    egggroups EGG_GROUP_GRASS, EGG_GROUP_GRASS
+    abilities ABILITY_EARLY_BIRD, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_GREEN, 0
+    tmdata SPECIES_DOLLIV_TM_DATA_0, SPECIES_DOLLIV_TM_DATA_1, SPECIES_DOLLIV_TM_DATA_2, SPECIES_DOLLIV_TM_DATA_3
+    mondexentry SPECIES_DOLLIV, "It basks in the sun to its heart’s content until the fruits on its head ripen. After that, Dolliv departs from human settlements and goes on a journey."
+    mondexclassification SPECIES_DOLLIV, "Olive Pokémon"
+    mondexheight SPECIES_DOLLIV, "2’00”"
+    mondexweight SPECIES_DOLLIV, "26.2 lbs."
+
+
+mondata SPECIES_ARBOLIVA, "Arboliva"
+    basestats 78, 69, 90, 39, 125, 109
+    types TYPE_GRASS, TYPE_NORMAL
+    catchrate 45
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 0, 0, 0, 3, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 127
+    eggcycles 20
+    basefriendship 50
+    growthrate GROWTH_MEDIUM_SLOW
+    egggroups EGG_GROUP_GRASS, EGG_GROUP_GRASS
+    abilities ABILITY_SEED_SOWER, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_GREEN, 0
+    tmdata SPECIES_ARBOLIVA_TM_DATA_0, SPECIES_ARBOLIVA_TM_DATA_1, SPECIES_ARBOLIVA_TM_DATA_2, SPECIES_ARBOLIVA_TM_DATA_3
+    mondexentry SPECIES_ARBOLIVA, "This Pokémon drives back enemies by launching its rich, aromatic oil at them with enough force to smash a boulder."
+    mondexclassification SPECIES_ARBOLIVA, "Olive Pokémon"
+    mondexheight SPECIES_ARBOLIVA, "4’07”"
+    mondexweight SPECIES_ARBOLIVA, "106.3 lbs."
+
+
+mondata SPECIES_SQUAWKABILLY, "Squawkbily"
+    basestats 82, 96, 51, 92, 45, 51
+    types TYPE_NORMAL, TYPE_FLYING
+    catchrate 190
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 1, 0, 0, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 127
+    eggcycles 15
+    basefriendship 50
+    growthrate GROWTH_ERRATIC
+    egggroups EGG_GROUP_FLYING, EGG_GROUP_FLYING
+    abilities ABILITY_INTIMIDATE, ABILITY_HUSTLE
+    runchance 0
+    colorflip BODY_COLOR_GREEN, 0
+    tmdata SPECIES_SQUAWKABILLY_TM_DATA_0, SPECIES_SQUAWKABILLY_TM_DATA_1, SPECIES_SQUAWKABILLY_TM_DATA_2, SPECIES_SQUAWKABILLY_TM_DATA_3
+    mondexentry SPECIES_SQUAWKABILLY, "Green-feathered flocks hold the most sway. When they’re out searching for food in the mornings and evenings, it gets very noisy."
+    mondexclassification SPECIES_SQUAWKABILLY, "Parrot Pokémon"
+    mondexheight SPECIES_SQUAWKABILLY, "2’00”"
+    mondexweight SPECIES_SQUAWKABILLY, "5.3 lbs."
+
+
+mondata SPECIES_NACLI, "Nacli"
+    basestats 55, 55, 75, 25, 35, 35
+    types TYPE_ROCK, TYPE_ROCK
+    catchrate 255
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 0, 1, 0, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 127
+    eggcycles 20
+    basefriendship 50
+    growthrate GROWTH_MEDIUM_SLOW
+    egggroups EGG_GROUP_MINERAL, EGG_GROUP_MINERAL
+    abilities ABILITY_PURIFYING_SALT, ABILITY_STURDY
+    runchance 0
+    colorflip BODY_COLOR_BROWN, 0
+    tmdata SPECIES_NACLI_TM_DATA_0, SPECIES_NACLI_TM_DATA_1, SPECIES_NACLI_TM_DATA_2, SPECIES_NACLI_TM_DATA_3
+    mondexentry SPECIES_NACLI, "The ground scrapes its body as it travels, causing it to leave salt behind. Salt is constantly being created and replenished inside Nacli’s body."
+    mondexclassification SPECIES_NACLI, "Rock Salt Pokémon"
+    mondexheight SPECIES_NACLI, "1’04”"
+    mondexweight SPECIES_NACLI, "35.3 lbs."
+
+
+mondata SPECIES_NACLSTACK, "Naclstack"
+    basestats 60, 60, 100, 35, 35, 65
+    types TYPE_ROCK, TYPE_ROCK
+    catchrate 120
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 0, 2, 0, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 127
+    eggcycles 20
+    basefriendship 50
+    growthrate GROWTH_MEDIUM_SLOW
+    egggroups EGG_GROUP_MINERAL, EGG_GROUP_MINERAL
+    abilities ABILITY_PURIFYING_SALT, ABILITY_STURDY
+    runchance 0
+    colorflip BODY_COLOR_BROWN, 0
+    tmdata SPECIES_NACLSTACK_TM_DATA_0, SPECIES_NACLSTACK_TM_DATA_1, SPECIES_NACLSTACK_TM_DATA_2, SPECIES_NACLSTACK_TM_DATA_3
+    mondexentry SPECIES_NACLSTACK, "It compresses rock salt inside its body and shoots out hardened salt pellets with enough force to perforate an iron sheet."
+    mondexclassification SPECIES_NACLSTACK, "Rock Salt Pokémon"
+    mondexheight SPECIES_NACLSTACK, "2’00”"
+    mondexweight SPECIES_NACLSTACK, "231.5 lbs."
+
+
+mondata SPECIES_GARGANACL, "Garganacl"
+    basestats 100, 100, 130, 35, 45, 90
+    types TYPE_ROCK, TYPE_ROCK
+    catchrate 45
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 0, 3, 0, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 127
+    eggcycles 20
+    basefriendship 50
+    growthrate GROWTH_MEDIUM_SLOW
+    egggroups EGG_GROUP_MINERAL, EGG_GROUP_MINERAL
+    abilities ABILITY_PURIFYING_SALT, ABILITY_STURDY
+    runchance 0
+    colorflip BODY_COLOR_BROWN, 0
+    tmdata SPECIES_GARGANACL_TM_DATA_0, SPECIES_GARGANACL_TM_DATA_1, SPECIES_GARGANACL_TM_DATA_2, SPECIES_GARGANACL_TM_DATA_3
+    mondexentry SPECIES_GARGANACL, "Many Pokémon gather around Garganacl, hoping to lick at its mineral-rich salt."
+    mondexclassification SPECIES_GARGANACL, "Rock Salt Pokémon"
+    mondexheight SPECIES_GARGANACL, "7’07”"
+    mondexweight SPECIES_GARGANACL, "529.1 lbs."
+
+
+mondata SPECIES_CHARCADET, "Charcadet"
+    basestats 40, 50, 40, 35, 50, 40
+    types TYPE_FIRE, TYPE_FIRE
+    catchrate 90
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 0, 0, 0, 1, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 127
+    eggcycles 35
+    basefriendship 50
+    growthrate GROWTH_SLOW
+    egggroups EGG_GROUP_HUMAN_LIKE, EGG_GROUP_HUMAN_LIKE
+    abilities ABILITY_FLASH_FIRE, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_RED, 0
+    tmdata SPECIES_CHARCADET_TM_DATA_0, SPECIES_CHARCADET_TM_DATA_1, SPECIES_CHARCADET_TM_DATA_2, SPECIES_CHARCADET_TM_DATA_3
+    mondexentry SPECIES_CHARCADET, "Its firepower increases when it fights, reaching over 1,800 degrees Fahrenheit. It likes berries that are rich in fat."
+    mondexclassification SPECIES_CHARCADET, "Fire Child Pokémon"
+    mondexheight SPECIES_CHARCADET, "2’00”"
+    mondexweight SPECIES_CHARCADET, "23.1 lbs."
+
+
+mondata SPECIES_ARMAROUGE, "Armarouge"
+    basestats 85, 60, 100, 75, 125, 80
+    types TYPE_FIRE, TYPE_PSYCHIC
+    catchrate 25
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 0, 0, 0, 2, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 127
+    eggcycles 35
+    basefriendship 20
+    growthrate GROWTH_SLOW
+    egggroups EGG_GROUP_HUMAN_LIKE, EGG_GROUP_HUMAN_LIKE
+    abilities ABILITY_FLASH_FIRE, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_RED, 0
+    tmdata SPECIES_ARMAROUGE_TM_DATA_0, SPECIES_ARMAROUGE_TM_DATA_1, SPECIES_ARMAROUGE_TM_DATA_2, SPECIES_ARMAROUGE_TM_DATA_3
+    mondexentry SPECIES_ARMAROUGE, "This Pokémon clads itself in armor that has been fortified by psychic and fire energy, and it shoots blazing fireballs."
+    mondexclassification SPECIES_ARMAROUGE, "Fire Warrior Pokémon"
+    mondexheight SPECIES_ARMAROUGE, "4’11”"
+    mondexweight SPECIES_ARMAROUGE, "187.4 lbs."
+
+
+mondata SPECIES_CERULEDGE, "Ceruledge"
+    basestats 75, 125, 80, 85, 60, 100
+    types TYPE_FIRE, TYPE_GHOST
+    catchrate 25
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 2, 0, 0, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 127
+    eggcycles 35
+    basefriendship 20
+    growthrate GROWTH_SLOW
+    egggroups EGG_GROUP_HUMAN_LIKE, EGG_GROUP_HUMAN_LIKE
+    abilities ABILITY_FLASH_FIRE, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_BLUE, 0
+    tmdata SPECIES_CERULEDGE_TM_DATA_0, SPECIES_CERULEDGE_TM_DATA_1, SPECIES_CERULEDGE_TM_DATA_2, SPECIES_CERULEDGE_TM_DATA_3
+    mondexentry SPECIES_CERULEDGE, "An old set of armor steeped in grudges caused this Pokémon’s evolution. Ceruledge cuts its enemies to pieces without mercy."
+    mondexclassification SPECIES_CERULEDGE, "Fire Blades Pokémon"
+    mondexheight SPECIES_CERULEDGE, "5’03”"
+    mondexweight SPECIES_CERULEDGE, "136.7 lbs."
+
+
+mondata SPECIES_TADBULB, "Tadbulb"
+    basestats 61, 31, 41, 45, 59, 35
+    types TYPE_ELECTRIC, TYPE_ELECTRIC
+    catchrate 190
+    baseexp 0 // defined in baseexp.s
+    evyields 1, 0, 0, 0, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 127
+    eggcycles 20
+    basefriendship 50
+    growthrate GROWTH_MEDIUM_FAST
+    egggroups EGG_GROUP_WATER_1, EGG_GROUP_WATER_1
+    abilities ABILITY_OWN_TEMPO, ABILITY_STATIC
+    runchance 0
+    colorflip BODY_COLOR_YELLOW, 0
+    tmdata SPECIES_TADBULB_TM_DATA_0, SPECIES_TADBULB_TM_DATA_1, SPECIES_TADBULB_TM_DATA_2, SPECIES_TADBULB_TM_DATA_3
+    mondexentry SPECIES_TADBULB, "It floats using the electricity stored in its body. When thunderclouds are around, Tadbulb will float higher off the ground."
+    mondexclassification SPECIES_TADBULB, "EleTadpole Pokémon"
+    mondexheight SPECIES_TADBULB, "1’00”"
+    mondexweight SPECIES_TADBULB, "0.9 lbs."
+
+
+mondata SPECIES_BELLIBOLT, "Bellibolt"
+    basestats 109, 64, 91, 45, 103, 83
+    types TYPE_ELECTRIC, TYPE_ELECTRIC
+    catchrate 50
+    baseexp 0 // defined in baseexp.s
+    evyields 2, 0, 0, 0, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 127
+    eggcycles 20
+    basefriendship 50
+    growthrate GROWTH_MEDIUM_FAST
+    egggroups EGG_GROUP_WATER_1, EGG_GROUP_WATER_1
+    abilities ABILITY_ELECTROMORPHOSIS, ABILITY_STATIC
+    runchance 0
+    colorflip BODY_COLOR_GREEN, 0
+    tmdata SPECIES_BELLIBOLT_TM_DATA_0, SPECIES_BELLIBOLT_TM_DATA_1, SPECIES_BELLIBOLT_TM_DATA_2, SPECIES_BELLIBOLT_TM_DATA_3
+    mondexentry SPECIES_BELLIBOLT, "What appear to be eyeballs are actually organs for discharging the electricity generated by Bellibolt’s belly-button dynamo."
+    mondexclassification SPECIES_BELLIBOLT, "EleFrog Pokémon"
+    mondexheight SPECIES_BELLIBOLT, "3’11”"
+    mondexweight SPECIES_BELLIBOLT, "249.1 lbs."
+
+
+mondata SPECIES_WATTREL, "Wattrel"
+    basestats 40, 40, 35, 70, 55, 40
+    types TYPE_ELECTRIC, TYPE_FLYING
+    catchrate 180
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 0, 0, 1, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 127
+    eggcycles 20
+    basefriendship 50
+    growthrate GROWTH_MEDIUM_SLOW
+    egggroups EGG_GROUP_WATER_1, EGG_GROUP_FLYING
+    abilities ABILITY_WIND_POWER, ABILITY_VOLT_ABSORB
+    runchance 0
+    colorflip BODY_COLOR_BLACK, 0
+    tmdata SPECIES_WATTREL_TM_DATA_0, SPECIES_WATTREL_TM_DATA_1, SPECIES_WATTREL_TM_DATA_2, SPECIES_WATTREL_TM_DATA_3
+    mondexentry SPECIES_WATTREL, "These Pokémon make their nests on coastal cliffs. The nests have a strange, crackling texture, and they’re a popular delicacy."
+    mondexclassification SPECIES_WATTREL, "Storm Petrel Pokémon"
+    mondexheight SPECIES_WATTREL, "1’04”"
+    mondexweight SPECIES_WATTREL, "7.9 lbs."
+
+
+mondata SPECIES_KILOWATTREL, "Kilowatrel"
+    basestats 70, 70, 60, 125, 105, 60
+    types TYPE_ELECTRIC, TYPE_FLYING
+    catchrate 90
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 0, 0, 2, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 127
+    eggcycles 20
+    basefriendship 50
+    growthrate GROWTH_MEDIUM_SLOW
+    egggroups EGG_GROUP_WATER_1, EGG_GROUP_FLYING
+    abilities ABILITY_WIND_POWER, ABILITY_VOLT_ABSORB
+    runchance 0
+    colorflip BODY_COLOR_YELLOW, 0
+    tmdata SPECIES_KILOWATTREL_TM_DATA_0, SPECIES_KILOWATTREL_TM_DATA_1, SPECIES_KILOWATTREL_TM_DATA_2, SPECIES_KILOWATTREL_TM_DATA_3
+    mondexentry SPECIES_KILOWATTREL, "It uses its throat sac to store electricity generated by its wings. There’s hardly any oil in its feathers, so it is a poor swimmer."
+    mondexclassification SPECIES_KILOWATTREL, "Frigatebird Pokémon"
+    mondexheight SPECIES_KILOWATTREL, "4’07”"
+    mondexweight SPECIES_KILOWATTREL, "85.1 lbs."
+
+
+mondata SPECIES_MASCHIFF, "Maschiff"
+    basestats 60, 78, 60, 51, 40, 51
+    types TYPE_DARK, TYPE_DARK
+    catchrate 150
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 1, 0, 0, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 127
+    eggcycles 20
+    basefriendship 50
+    growthrate GROWTH_MEDIUM_SLOW
+    egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
+    abilities ABILITY_INTIMIDATE, ABILITY_RUN_AWAY
+    runchance 0
+    colorflip BODY_COLOR_BROWN, 0
+    tmdata SPECIES_MASCHIFF_TM_DATA_0, SPECIES_MASCHIFF_TM_DATA_1, SPECIES_MASCHIFF_TM_DATA_2, SPECIES_MASCHIFF_TM_DATA_3
+    mondexentry SPECIES_MASCHIFF, "Its well-developed jaw and fangs are strong enough to crunch through boulders, and its thick fat makes for an excellent defense."
+    mondexclassification SPECIES_MASCHIFF, "Rascal Pokémon"
+    mondexheight SPECIES_MASCHIFF, "1’08”"
+    mondexweight SPECIES_MASCHIFF, "35.3 lbs."
+
+
+mondata SPECIES_MABOSSTIFF, "Mabosstiff"
+    basestats 80, 120, 90, 85, 60, 70
+    types TYPE_DARK, TYPE_DARK
+    catchrate 75
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 2, 0, 0, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 127
+    eggcycles 20
+    basefriendship 50
+    growthrate GROWTH_MEDIUM_SLOW
+    egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
+    abilities ABILITY_INTIMIDATE, ABILITY_GUARD_DOG
+    runchance 0
+    colorflip BODY_COLOR_GRAY, 0
+    tmdata SPECIES_MABOSSTIFF_TM_DATA_0, SPECIES_MABOSSTIFF_TM_DATA_1, SPECIES_MABOSSTIFF_TM_DATA_2, SPECIES_MABOSSTIFF_TM_DATA_3
+    mondexentry SPECIES_MABOSSTIFF, "Mabosstiff loves playing with children. Though usually gentle, it takes on an intimidating look when protecting its family."
+    mondexclassification SPECIES_MABOSSTIFF, "Boss Pokémon"
+    mondexheight SPECIES_MABOSSTIFF, "3’07”"
+    mondexweight SPECIES_MABOSSTIFF, "134.5 lbs."
+
+
+mondata SPECIES_SHROODLE, "Shroodle"
+    basestats 40, 65, 35, 75, 40, 35
+    types TYPE_POISON, TYPE_NORMAL
+    catchrate 190
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 0, 0, 1, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 127
+    eggcycles 20
+    basefriendship 50
+    growthrate GROWTH_MEDIUM_SLOW
+    egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
+    abilities ABILITY_UNBURDEN, ABILITY_PICKPOCKET
+    runchance 0
+    colorflip BODY_COLOR_GRAY, 0
+    tmdata SPECIES_SHROODLE_TM_DATA_0, SPECIES_SHROODLE_TM_DATA_1, SPECIES_SHROODLE_TM_DATA_2, SPECIES_SHROODLE_TM_DATA_3
+    mondexentry SPECIES_SHROODLE, "To keep enemies away from its territory, it paints markings around its nest using a poisonous liquid that has an acrid odor."
+    mondexclassification SPECIES_SHROODLE, "Toxic Mouse Pokémon"
+    mondexheight SPECIES_SHROODLE, "0’08”"
+    mondexweight SPECIES_SHROODLE, "1.5 lbs."
+
+
+mondata SPECIES_GRAFAIAI, "Grafaiai"
+    basestats 63, 95, 65, 110, 80, 72
+    types TYPE_POISON, TYPE_NORMAL
+    catchrate 90
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 0, 0, 2, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 127
+    eggcycles 20
+    basefriendship 50
+    growthrate GROWTH_MEDIUM_SLOW
+    egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
+    abilities ABILITY_UNBURDEN, ABILITY_POISON_TOUCH
+    runchance 0
+    colorflip BODY_COLOR_GRAY, 0
+    tmdata SPECIES_GRAFAIAI_TM_DATA_0, SPECIES_GRAFAIAI_TM_DATA_1, SPECIES_GRAFAIAI_TM_DATA_2, SPECIES_GRAFAIAI_TM_DATA_3
+    mondexentry SPECIES_GRAFAIAI, "Each Grafaiai paints its own individual pattern, and it will paint that same pattern over and over again throughout its life."
+    mondexclassification SPECIES_GRAFAIAI, "Toxic Monkey Pokémon"
+    mondexheight SPECIES_GRAFAIAI, "2’04”"
+    mondexweight SPECIES_GRAFAIAI, "60.0 lbs."
+
+
+mondata SPECIES_BRAMBLIN, "Bramblin"
+    basestats 40, 65, 30, 60, 45, 35
+    types TYPE_GRASS, TYPE_GHOST
+    catchrate 190
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 1, 0, 0, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 127
+    eggcycles 20
+    basefriendship 50
+    growthrate GROWTH_MEDIUM_FAST
+    egggroups EGG_GROUP_GRASS, EGG_GROUP_GRASS
+    abilities ABILITY_WIND_RIDER, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_BROWN, 0
+    tmdata SPECIES_BRAMBLIN_TM_DATA_0, SPECIES_BRAMBLIN_TM_DATA_1, SPECIES_BRAMBLIN_TM_DATA_2, SPECIES_BRAMBLIN_TM_DATA_3
+    mondexentry SPECIES_BRAMBLIN, "Not even Bramblin knows where it is headed as it tumbles across the wilderness, blown by the wind. It loathes getting wet."
+    mondexclassification SPECIES_BRAMBLIN, "Tumbleweed Pokémon"
+    mondexheight SPECIES_BRAMBLIN, "2’00”"
+    mondexweight SPECIES_BRAMBLIN, "1.3 lbs."
+
+
+mondata SPECIES_BRAMBLEGHAST, "Bramblgast"
+    basestats 55, 115, 70, 90, 80, 70
+    types TYPE_GRASS, TYPE_GHOST
+    catchrate 45
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 2, 0, 0, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 127
+    eggcycles 20
+    basefriendship 50
+    growthrate GROWTH_MEDIUM_FAST
+    egggroups EGG_GROUP_GRASS, EGG_GROUP_GRASS
+    abilities ABILITY_WIND_RIDER, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_BROWN, 0
+    tmdata SPECIES_BRAMBLEGHAST_TM_DATA_0, SPECIES_BRAMBLEGHAST_TM_DATA_1, SPECIES_BRAMBLEGHAST_TM_DATA_2, SPECIES_BRAMBLEGHAST_TM_DATA_3
+    mondexentry SPECIES_BRAMBLEGHAST, "Brambleghast wanders around arid regions. On rare occasions, mass outbreaks of these Pokémon will bury an entire town."
+    mondexclassification SPECIES_BRAMBLEGHAST, "Tumbleweed Pokémon"
+    mondexheight SPECIES_BRAMBLEGHAST, "3’11”"
+    mondexweight SPECIES_BRAMBLEGHAST, "13.2 lbs."
+
+
+mondata SPECIES_TOEDSCOOL, "Toedscool"
+    basestats 40, 40, 35, 70, 50, 100
+    types TYPE_GROUND, TYPE_GRASS
+    catchrate 190
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 0, 0, 0, 0, 1
+    items ITEM_NONE, ITEM_NONE
+    genderratio 127
+    eggcycles 20
+    basefriendship 50
+    growthrate GROWTH_MEDIUM_SLOW
+    egggroups EGG_GROUP_GRASS, EGG_GROUP_GRASS
+    abilities ABILITY_MYCELIUM_MIGHT, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_YELLOW, 0
+    tmdata SPECIES_TOEDSCOOL_TM_DATA_0, SPECIES_TOEDSCOOL_TM_DATA_1, SPECIES_TOEDSCOOL_TM_DATA_2, SPECIES_TOEDSCOOL_TM_DATA_3
+    mondexentry SPECIES_TOEDSCOOL, "Though it looks like Tentacool, Toedscool is a completely different species. Its legs may be thin, but it can run at a speed of 30 mph."
+    mondexclassification SPECIES_TOEDSCOOL, "Woodear Pokémon"
+    mondexheight SPECIES_TOEDSCOOL, "2’11”"
+    mondexweight SPECIES_TOEDSCOOL, "72.8 lbs."
+
+
+mondata SPECIES_TOEDSCRUEL, "Toedscruel"
+    basestats 80, 70, 65, 100, 80, 120
+    types TYPE_GROUND, TYPE_GRASS
+    catchrate 90
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 0, 0, 0, 0, 2
+    items ITEM_NONE, ITEM_NONE
+    genderratio 127
+    eggcycles 20
+    basefriendship 50
+    growthrate GROWTH_MEDIUM_SLOW
+    egggroups EGG_GROUP_GRASS, EGG_GROUP_GRASS
+    abilities ABILITY_MYCELIUM_MIGHT, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_BLACK, 0
+    tmdata SPECIES_TOEDSCRUEL_TM_DATA_0, SPECIES_TOEDSCRUEL_TM_DATA_1, SPECIES_TOEDSCRUEL_TM_DATA_2, SPECIES_TOEDSCRUEL_TM_DATA_3
+    mondexentry SPECIES_TOEDSCRUEL, "It coils its 10 tentacles around prey and sucks out their nutrients, causing the prey pain. The folds along the rim of its head are a popular delicacy."
+    mondexclassification SPECIES_TOEDSCRUEL, "Woodear Pokémon"
+    mondexheight SPECIES_TOEDSCRUEL, "6’03”"
+    mondexweight SPECIES_TOEDSCRUEL, "127.9 lbs."
+
+
+mondata SPECIES_KLAWF, "Klawf"
+    basestats 70, 100, 115, 75, 35, 55
+    types TYPE_ROCK, TYPE_ROCK
+    catchrate 120
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 0, 2, 0, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 127
+    eggcycles 35
+    basefriendship 50
+    growthrate GROWTH_MEDIUM_FAST
+    egggroups EGG_GROUP_WATER_3, EGG_GROUP_WATER_3
+    abilities ABILITY_ANGER_SHELL, ABILITY_SHELL_ARMOR
+    runchance 0
+    colorflip BODY_COLOR_RED, 0
+    tmdata SPECIES_KLAWF_TM_DATA_0, SPECIES_KLAWF_TM_DATA_1, SPECIES_KLAWF_TM_DATA_2, SPECIES_KLAWF_TM_DATA_3
+    mondexentry SPECIES_KLAWF, "This Pokémon lives on sheer cliffs. It sidesteps opponents’ attacks, then lunges for their weak spots with its claws."
+    mondexclassification SPECIES_KLAWF, "Ambush Pokémon"
+    mondexheight SPECIES_KLAWF, "4’03”"
+    mondexweight SPECIES_KLAWF, "174.2 lbs."
+
+
+mondata SPECIES_CAPSAKID, "Capsakid"
+    basestats 50, 62, 40, 50, 62, 40
+    types TYPE_GRASS, TYPE_GRASS
+    catchrate 190
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 1, 0, 0, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 127
+    eggcycles 20
+    basefriendship 50
+    growthrate GROWTH_MEDIUM_FAST
+    egggroups EGG_GROUP_GRASS, EGG_GROUP_GRASS
+    abilities ABILITY_CHLOROPHYLL, ABILITY_INSOMNIA
+    runchance 0
+    colorflip BODY_COLOR_GREEN, 0
+    tmdata SPECIES_CAPSAKID_TM_DATA_0, SPECIES_CAPSAKID_TM_DATA_1, SPECIES_CAPSAKID_TM_DATA_2, SPECIES_CAPSAKID_TM_DATA_3
+    mondexentry SPECIES_CAPSAKID, "Traditional Paldean dishes can be extremely spicy because they include the shed front teeth of Capsakid among their ingredients."
+    mondexclassification SPECIES_CAPSAKID, "Spicy Pepper Pokémon"
+    mondexheight SPECIES_CAPSAKID, "1’00”"
+    mondexweight SPECIES_CAPSAKID, "6.6 lbs."
+
+
+mondata SPECIES_SCOVILLAIN, "Scovillain"
+    basestats 65, 108, 65, 75, 108, 65
+    types TYPE_GRASS, TYPE_FIRE
+    catchrate 75
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 2, 0, 0, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 127
+    eggcycles 20
+    basefriendship 50
+    growthrate GROWTH_MEDIUM_FAST
+    egggroups EGG_GROUP_GRASS, EGG_GROUP_GRASS
+    abilities ABILITY_CHLOROPHYLL, ABILITY_INSOMNIA
+    runchance 0
+    colorflip BODY_COLOR_GREEN, 0
+    tmdata SPECIES_SCOVILLAIN_TM_DATA_0, SPECIES_SCOVILLAIN_TM_DATA_1, SPECIES_SCOVILLAIN_TM_DATA_2, SPECIES_SCOVILLAIN_TM_DATA_3
+    mondexentry SPECIES_SCOVILLAIN, "The green head has turned vicious due to the spicy chemicals stimulating its brain. Once it goes on a rampage, there is no stopping it."
+    mondexclassification SPECIES_SCOVILLAIN, "Spicy Pepper Pokémon"
+    mondexheight SPECIES_SCOVILLAIN, "2’11”"
+    mondexweight SPECIES_SCOVILLAIN, "33.1 lbs."
+
+
+mondata SPECIES_RELLOR, "Rellor"
+    basestats 41, 50, 60, 30, 31, 58
+    types TYPE_BUG, TYPE_BUG
+    catchrate 190
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 0, 1, 0, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 127
+    eggcycles 20
+    basefriendship 50
+    growthrate GROWTH_FAST
+    egggroups EGG_GROUP_BUG, EGG_GROUP_BUG
+    abilities ABILITY_COMPOUND_EYES, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_BROWN, 0
+    tmdata SPECIES_RELLOR_TM_DATA_0, SPECIES_RELLOR_TM_DATA_1, SPECIES_RELLOR_TM_DATA_2, SPECIES_RELLOR_TM_DATA_3
+    mondexentry SPECIES_RELLOR, "It rolls its mud ball around while the energy it needs for evolution matures. Eventually the time comes for it to evolve."
+    mondexclassification SPECIES_RELLOR, "Rolling Pokémon"
+    mondexheight SPECIES_RELLOR, "0’08”"
+    mondexweight SPECIES_RELLOR, "2.2 lbs."
+
+
+mondata SPECIES_RABSCA, "Rabsca"
+    basestats 75, 50, 85, 45, 115, 100
+    types TYPE_BUG, TYPE_PSYCHIC
+    catchrate 45
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 0, 0, 0, 2, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 127
+    eggcycles 20
+    basefriendship 50
+    growthrate GROWTH_FAST
+    egggroups EGG_GROUP_BUG, EGG_GROUP_BUG
+    abilities ABILITY_SYNCHRONIZE, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_GREEN, 0
+    tmdata SPECIES_RABSCA_TM_DATA_0, SPECIES_RABSCA_TM_DATA_1, SPECIES_RABSCA_TM_DATA_2, SPECIES_RABSCA_TM_DATA_3
+    mondexentry SPECIES_RABSCA, "An infant sleeps inside the ball. Rabsca rolls the ball soothingly with its legs to ensure the infant sleeps comfortably."
+    mondexclassification SPECIES_RABSCA, "Rolling Pokémon"
+    mondexheight SPECIES_RABSCA, "1’00”"
+    mondexweight SPECIES_RABSCA, "7.7 lbs."
+
+
+mondata SPECIES_FLITTLE, "Flittle"
+    basestats 30, 35, 30, 75, 55, 30
+    types TYPE_PSYCHIC, TYPE_PSYCHIC
+    catchrate 120
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 0, 0, 1, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 127
+    eggcycles 20
+    basefriendship 50
+    growthrate GROWTH_MEDIUM_SLOW
+    egggroups EGG_GROUP_FLYING, EGG_GROUP_FLYING
+    abilities ABILITY_ANTICIPATION, ABILITY_FRISK
+    runchance 0
+    colorflip BODY_COLOR_YELLOW, 0
+    tmdata SPECIES_FLITTLE_TM_DATA_0, SPECIES_FLITTLE_TM_DATA_1, SPECIES_FLITTLE_TM_DATA_2, SPECIES_FLITTLE_TM_DATA_3
+    mondexentry SPECIES_FLITTLE, "It spends its time running around wastelands. If anyone steals its beloved berries, it will chase them down and exact its revenge."
+    mondexclassification SPECIES_FLITTLE, "Frill Pokémon"
+    mondexheight SPECIES_FLITTLE, "0’08”"
+    mondexweight SPECIES_FLITTLE, "3.3 lbs."
+
+
+mondata SPECIES_ESPATHRA, "Espathra"
+    basestats 95, 60, 60, 105, 101, 60
+    types TYPE_PSYCHIC, TYPE_PSYCHIC
+    catchrate 60
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 0, 0, 2, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 127
+    eggcycles 20
+    basefriendship 50
+    growthrate GROWTH_MEDIUM_SLOW
+    egggroups EGG_GROUP_FLYING, EGG_GROUP_FLYING
+    abilities ABILITY_OPPORTUNIST, ABILITY_FRISK
+    runchance 0
+    colorflip BODY_COLOR_YELLOW, 0
+    tmdata SPECIES_ESPATHRA_TM_DATA_0, SPECIES_ESPATHRA_TM_DATA_1, SPECIES_ESPATHRA_TM_DATA_2, SPECIES_ESPATHRA_TM_DATA_3
+    mondexentry SPECIES_ESPATHRA, "It emits psychic power from the gaps between its multicolored frills and sprints at speeds greater than 120 mph."
+    mondexclassification SPECIES_ESPATHRA, "Ostrich Pokémon"
+    mondexheight SPECIES_ESPATHRA, "6’03”"
+    mondexweight SPECIES_ESPATHRA, "198.4 lbs."
+
+
+mondata SPECIES_TINKATINK, "Tinkatink"
+    basestats 50, 45, 45, 58, 35, 64
+    types (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_NORMAL, TYPE_STEEL
+    catchrate 190
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 0, 0, 0, 0, 1
+    items ITEM_NONE, ITEM_NONE
+    genderratio 254
+    eggcycles 20
+    basefriendship 50
+    growthrate GROWTH_MEDIUM_SLOW
+    egggroups EGG_GROUP_FAIRY, EGG_GROUP_FAIRY
+    abilities ABILITY_MOLD_BREAKER, ABILITY_OWN_TEMPO
+    runchance 0
+    colorflip BODY_COLOR_PINK, 0
+    tmdata SPECIES_TINKATINK_TM_DATA_0, SPECIES_TINKATINK_TM_DATA_1, SPECIES_TINKATINK_TM_DATA_2, SPECIES_TINKATINK_TM_DATA_3
+    mondexentry SPECIES_TINKATINK, "This Pokémon pounds iron scraps together to make a hammer. It will remake the hammer again and again until it’s satisfied with the result."
+    mondexclassification SPECIES_TINKATINK, "Metalsmith Pokémon"
+    mondexheight SPECIES_TINKATINK, "1’04”"
+    mondexweight SPECIES_TINKATINK, "19.6 lbs."
+
+
+mondata SPECIES_TINKATUFF, "Tinkatuff"
+    basestats 65, 55, 55, 78, 45, 82
+    types (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_NORMAL, TYPE_STEEL
+    catchrate 90
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 0, 0, 0, 0, 2
+    items ITEM_NONE, ITEM_NONE
+    genderratio 254
+    eggcycles 20
+    basefriendship 50
+    growthrate GROWTH_MEDIUM_SLOW
+    egggroups EGG_GROUP_FAIRY, EGG_GROUP_FAIRY
+    abilities ABILITY_MOLD_BREAKER, ABILITY_OWN_TEMPO
+    runchance 0
+    colorflip BODY_COLOR_PINK, 0
+    tmdata SPECIES_TINKATUFF_TM_DATA_0, SPECIES_TINKATUFF_TM_DATA_1, SPECIES_TINKATUFF_TM_DATA_2, SPECIES_TINKATUFF_TM_DATA_3
+    mondexentry SPECIES_TINKATUFF, "These Pokémon make their homes in piles of scrap metal. They test the strength of each other’s hammers by smashing them together."
+    mondexclassification SPECIES_TINKATUFF, "Hammer Pokémon"
+    mondexheight SPECIES_TINKATUFF, "2’04”"
+    mondexweight SPECIES_TINKATUFF, "130.3 lbs."
+
+
+mondata SPECIES_TINKATON, "Tinkaton"
+    basestats 85, 75, 77, 94, 70, 105
+    types (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_NORMAL, TYPE_STEEL
+    catchrate 45
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 0, 0, 0, 0, 3
+    items ITEM_NONE, ITEM_NONE
+    genderratio 254
+    eggcycles 20
+    basefriendship 50
+    growthrate GROWTH_MEDIUM_SLOW
+    egggroups EGG_GROUP_FAIRY, EGG_GROUP_FAIRY
+    abilities ABILITY_MOLD_BREAKER, ABILITY_OWN_TEMPO
+    runchance 0
+    colorflip BODY_COLOR_PINK, 0
+    tmdata SPECIES_TINKATON_TM_DATA_0, SPECIES_TINKATON_TM_DATA_1, SPECIES_TINKATON_TM_DATA_2, SPECIES_TINKATON_TM_DATA_3
+    mondexentry SPECIES_TINKATON, "The hammer tops 220 pounds, yet it gets swung around easily by Tinkaton as it steals whatever it pleases and carries its plunder back home."
+    mondexclassification SPECIES_TINKATON, "Hammer Pokémon"
+    mondexheight SPECIES_TINKATON, "2’04”"
+    mondexweight SPECIES_TINKATON, "248.7 lbs."
+
+
+mondata SPECIES_WIGLETT, "Wiglett"
+    basestats 10, 55, 25, 95, 35, 25
+    types TYPE_WATER, TYPE_WATER
+    catchrate 255
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 0, 0, 1, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 127
+    eggcycles 20
+    basefriendship 50
+    growthrate GROWTH_MEDIUM_FAST
+    egggroups EGG_GROUP_WATER_3, EGG_GROUP_WATER_3
+    abilities ABILITY_GOOEY, ABILITY_RATTLED
+    runchance 0
+    colorflip BODY_COLOR_WHITE, 0
+    tmdata SPECIES_WIGLETT_TM_DATA_0, SPECIES_WIGLETT_TM_DATA_1, SPECIES_WIGLETT_TM_DATA_2, SPECIES_WIGLETT_TM_DATA_3
+    mondexentry SPECIES_WIGLETT, "Though it looks like Diglett, Wiglett is an entirely different species. The resemblance seems to be a coincidental result of environmental adaptation."
+    mondexclassification SPECIES_WIGLETT, "Garden Eel Pokémon"
+    mondexheight SPECIES_WIGLETT, "3’11”"
+    mondexweight SPECIES_WIGLETT, "4.0 lbs."
+
+
+mondata SPECIES_WUGTRIO, "Wugtrio"
+    basestats 35, 100, 50, 120, 50, 70
+    types TYPE_WATER, TYPE_WATER
+    catchrate 50
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 0, 0, 2, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 127
+    eggcycles 20
+    basefriendship 50
+    growthrate GROWTH_MEDIUM_FAST
+    egggroups EGG_GROUP_WATER_3, EGG_GROUP_WATER_3
+    abilities ABILITY_GOOEY, ABILITY_RATTLED
+    runchance 0
+    colorflip BODY_COLOR_RED, 0
+    tmdata SPECIES_WUGTRIO_TM_DATA_0, SPECIES_WUGTRIO_TM_DATA_1, SPECIES_WUGTRIO_TM_DATA_2, SPECIES_WUGTRIO_TM_DATA_3
+    mondexentry SPECIES_WUGTRIO, "A variety of fish Pokémon, Wugtrio was once considered to be a regional form of Dugtrio."
+    mondexclassification SPECIES_WUGTRIO, "Garden Eel Pokémon"
+    mondexheight SPECIES_WUGTRIO, "3’11”"
+    mondexweight SPECIES_WUGTRIO, "11.9 lbs."
+
+
+mondata SPECIES_BOMBIRDIER, "Bombirdier"
+    basestats 70, 103, 85, 82, 60, 85
+    types TYPE_FLYING, TYPE_DARK
+    catchrate 25
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 2, 0, 0, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 127
+    eggcycles 35
+    basefriendship 50
+    growthrate GROWTH_SLOW
+    egggroups EGG_GROUP_FLYING, EGG_GROUP_FLYING
+    abilities ABILITY_BIG_PECKS, ABILITY_KEEN_EYE
+    runchance 0
+    colorflip BODY_COLOR_WHITE, 0
+    tmdata SPECIES_BOMBIRDIER_TM_DATA_0, SPECIES_BOMBIRDIER_TM_DATA_1, SPECIES_BOMBIRDIER_TM_DATA_2, SPECIES_BOMBIRDIER_TM_DATA_3
+    mondexentry SPECIES_BOMBIRDIER, "Bombirdier uses the apron on its chest to bundle up food, which it carries back to its nest. It enjoys dropping things that make loud noises."
+    mondexclassification SPECIES_BOMBIRDIER, "Item Drop Pokémon"
+    mondexheight SPECIES_BOMBIRDIER, "4’11”"
+    mondexweight SPECIES_BOMBIRDIER, "94.6 lbs."
+
+
+mondata SPECIES_FINIZEN, "Finizen"
+    basestats 70, 45, 40, 75, 45, 40
+    types TYPE_WATER, TYPE_WATER
+    catchrate 200
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 0, 0, 1, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 127
+    eggcycles 40
+    basefriendship 50
+    growthrate GROWTH_SLOW
+    egggroups EGG_GROUP_FIELD, EGG_GROUP_WATER_2
+    abilities ABILITY_WATER_VEIL, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_BLUE, 0
+    tmdata SPECIES_FINIZEN_TM_DATA_0, SPECIES_FINIZEN_TM_DATA_1, SPECIES_FINIZEN_TM_DATA_2, SPECIES_FINIZEN_TM_DATA_3
+    mondexentry SPECIES_FINIZEN, "Its water ring is made from seawater mixed with a sticky fluid that Finizen secretes from its blowhole."
+    mondexclassification SPECIES_FINIZEN, "Dolphin Pokémon"
+    mondexheight SPECIES_FINIZEN, "4’03”"
+    mondexweight SPECIES_FINIZEN, "132.7 lbs."
+
+
+mondata SPECIES_PALAFIN, "Palafin"
+    basestats 100, 70, 72, 100, 53, 62
+    types TYPE_WATER, TYPE_WATER
+    catchrate 45
+    baseexp 0 // defined in baseexp.s
+    evyields 2, 0, 0, 0, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 127
+    eggcycles 40
+    basefriendship 50
+    growthrate GROWTH_SLOW
+    egggroups EGG_GROUP_FIELD, EGG_GROUP_WATER_2
+    abilities ABILITY_ZERO_TO_HERO, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_BLUE, 0
+    tmdata SPECIES_PALAFIN_TM_DATA_0, SPECIES_PALAFIN_TM_DATA_1, SPECIES_PALAFIN_TM_DATA_2, SPECIES_PALAFIN_TM_DATA_3
+    mondexentry SPECIES_PALAFIN, "Its physical capabilities are no different than a Finizen’s, but when its allies are in danger, it transforms and powers itself up."
+    mondexclassification SPECIES_PALAFIN, "Dolphin Pokémon"
+    mondexheight SPECIES_PALAFIN, "4’03”"
+    mondexweight SPECIES_PALAFIN, "132.7 lbs."
+
+
+mondata SPECIES_VAROOM, "Varoom"
+    basestats 45, 70, 63, 47, 30, 45
+    types TYPE_STEEL, TYPE_POISON
+    catchrate 190
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 1, 0, 0, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 127
+    eggcycles 20
+    basefriendship 50
+    growthrate GROWTH_MEDIUM_FAST
+    egggroups EGG_GROUP_MINERAL, EGG_GROUP_MINERAL
+    abilities ABILITY_OVERCOAT, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_GRAY, 0
+    tmdata SPECIES_VAROOM_TM_DATA_0, SPECIES_VAROOM_TM_DATA_1, SPECIES_VAROOM_TM_DATA_2, SPECIES_VAROOM_TM_DATA_3
+    mondexentry SPECIES_VAROOM, "The steel section is Varoom’s actual body. This Pokémon clings to rocks and converts the minerals within into energy to fuel its activities."
+    mondexclassification SPECIES_VAROOM, "Single-Cyl Pokémon"
+    mondexheight SPECIES_VAROOM, "3’03”"
+    mondexweight SPECIES_VAROOM, "77.2 lbs."
+
+
+mondata SPECIES_REVAVROOM, "Revavroom"
+    basestats 80, 119, 90, 90, 54, 67
+    types TYPE_STEEL, TYPE_POISON
+    catchrate 75
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 2, 0, 0, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 127
+    eggcycles 20
+    basefriendship 50
+    growthrate GROWTH_MEDIUM_FAST
+    egggroups EGG_GROUP_MINERAL, EGG_GROUP_MINERAL
+    abilities ABILITY_OVERCOAT, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_GRAY, 0
+    tmdata SPECIES_REVAVROOM_TM_DATA_0, SPECIES_REVAVROOM_TM_DATA_1, SPECIES_REVAVROOM_TM_DATA_2, SPECIES_REVAVROOM_TM_DATA_3
+    mondexentry SPECIES_REVAVROOM, "Revavroom viciously threatens others with the sound of its exhaust. It sticks its tongue out from its cylindrical mouth and sprays toxic fluids."
+    mondexclassification SPECIES_REVAVROOM, "Multi-Cyl Pokémon"
+    mondexheight SPECIES_REVAVROOM, "5’11”"
+    mondexweight SPECIES_REVAVROOM, "264.6 lbs."
+
+
+mondata SPECIES_CYCLIZAR, "Cyclizar"
+    basestats 70, 95, 65, 121, 85, 65
+    types TYPE_DRAGON, TYPE_NORMAL
+    catchrate 190
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 0, 0, 2, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 127
+    eggcycles 30
+    basefriendship 50
+    growthrate GROWTH_MEDIUM_SLOW
+    egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
+    abilities ABILITY_SHED_SKIN, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_GREEN, 0
+    tmdata SPECIES_CYCLIZAR_TM_DATA_0, SPECIES_CYCLIZAR_TM_DATA_1, SPECIES_CYCLIZAR_TM_DATA_2, SPECIES_CYCLIZAR_TM_DATA_3
+    mondexentry SPECIES_CYCLIZAR, "It can sprint at over 70 mph while carrying a human. The rider’s body heat warms Cyclizar’s back and lifts the Pokémon’s spirit."
+    mondexclassification SPECIES_CYCLIZAR, "Mount Pokémon"
+    mondexheight SPECIES_CYCLIZAR, "5’03”"
+    mondexweight SPECIES_CYCLIZAR, "138.9 lbs."
+
+
+mondata SPECIES_ORTHWORM, "Orthworm"
+    basestats 70, 85, 145, 65, 60, 55
+    types TYPE_STEEL, TYPE_STEEL
+    catchrate 25
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 0, 2, 0, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 127
+    eggcycles 35
+    basefriendship 50
+    growthrate GROWTH_SLOW
+    egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
+    abilities ABILITY_EARTH_EATER, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_PINK, 0
+    tmdata SPECIES_ORTHWORM_TM_DATA_0, SPECIES_ORTHWORM_TM_DATA_1, SPECIES_ORTHWORM_TM_DATA_2, SPECIES_ORTHWORM_TM_DATA_3
+    mondexentry SPECIES_ORTHWORM, "This Pokémon lives in arid deserts. It maintains its metal body by consuming iron from the soil."
+    mondexclassification SPECIES_ORTHWORM, "Earthworm Pokémon"
+    mondexheight SPECIES_ORTHWORM, "8’02”"
+    mondexweight SPECIES_ORTHWORM, "683.4 lbs."
+
+
+mondata SPECIES_GLIMMET, "Glimmet"
+    basestats 48, 35, 42, 60, 105, 60
+    types TYPE_ROCK, TYPE_POISON
+    catchrate 70
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 0, 0, 0, 1, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 127
+    eggcycles 30
+    basefriendship 50
+    growthrate GROWTH_MEDIUM_SLOW
+    egggroups EGG_GROUP_MINERAL, EGG_GROUP_MINERAL
+    abilities ABILITY_TOXIC_DEBRIS, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_BLUE, 0
+    tmdata SPECIES_GLIMMET_TM_DATA_0, SPECIES_GLIMMET_TM_DATA_1, SPECIES_GLIMMET_TM_DATA_2, SPECIES_GLIMMET_TM_DATA_3
+    mondexentry SPECIES_GLIMMET, "Glimmet’s toxic mineral crystals look just like flower petals. This Pokémon scatters poisonous powder like pollen to protect itself."
+    mondexclassification SPECIES_GLIMMET, "Ore Pokémon"
+    mondexheight SPECIES_GLIMMET, "2’04”"
+    mondexweight SPECIES_GLIMMET, "17.6 lbs."
+
+
+mondata SPECIES_GLIMMORA, "Glimmora"
+    basestats 83, 55, 90, 86, 130, 81
+    types TYPE_ROCK, TYPE_POISON
+    catchrate 25
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 0, 0, 0, 2, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 127
+    eggcycles 30
+    basefriendship 50
+    growthrate GROWTH_MEDIUM_SLOW
+    egggroups EGG_GROUP_MINERAL, EGG_GROUP_MINERAL
+    abilities ABILITY_TOXIC_DEBRIS, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_BLUE, 0
+    tmdata SPECIES_GLIMMORA_TM_DATA_0, SPECIES_GLIMMORA_TM_DATA_1, SPECIES_GLIMMORA_TM_DATA_2, SPECIES_GLIMMORA_TM_DATA_3
+    mondexentry SPECIES_GLIMMORA, "Glimmora’s petals are made of crystallized poison energy. It has recently become evident that these petals resemble Tera Jewels."
+    mondexclassification SPECIES_GLIMMORA, "Ore Pokémon"
+    mondexheight SPECIES_GLIMMORA, "4’11”"
+    mondexweight SPECIES_GLIMMORA, "99.2 lbs."
+
+
+mondata SPECIES_GREAVARD, "Greavard"
+    basestats 50, 61, 60, 34, 30, 55
+    types TYPE_GHOST, TYPE_GHOST
+    catchrate 120
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 1, 0, 0, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 127
+    eggcycles 20
+    basefriendship 50
+    growthrate GROWTH_MEDIUM_SLOW
+    egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
+    abilities ABILITY_PICKUP, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_WHITE, 0
+    tmdata SPECIES_GREAVARD_TM_DATA_0, SPECIES_GREAVARD_TM_DATA_1, SPECIES_GREAVARD_TM_DATA_2, SPECIES_GREAVARD_TM_DATA_3
+    mondexentry SPECIES_GREAVARD, "This friendly Pokémon doesn’t like being alone. Pay it even the slightest bit of attention, and it will follow you forever."
+    mondexclassification SPECIES_GREAVARD, "Ghost Dog Pokémon"
+    mondexheight SPECIES_GREAVARD, "2’00”"
+    mondexweight SPECIES_GREAVARD, "77.2 lbs."
+
+
+mondata SPECIES_HOUNDSTONE, "Houndstone"
+    basestats 72, 101, 100, 68, 50, 97
+    types TYPE_GHOST, TYPE_GHOST
+    catchrate 60
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 2, 0, 0, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 127
+    eggcycles 20
+    basefriendship 50
+    growthrate GROWTH_MEDIUM_SLOW
+    egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
+    abilities ABILITY_SAND_RUSH, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_WHITE, 0
+    tmdata SPECIES_HOUNDSTONE_TM_DATA_0, SPECIES_HOUNDSTONE_TM_DATA_1, SPECIES_HOUNDSTONE_TM_DATA_2, SPECIES_HOUNDSTONE_TM_DATA_3
+    mondexentry SPECIES_HOUNDSTONE, "A lovingly mourned Pokémon was reborn as Houndstone. It doesn’t like anyone touching the protuberance atop its head."
+    mondexclassification SPECIES_HOUNDSTONE, "Ghost Dog Pokémon"
+    mondexheight SPECIES_HOUNDSTONE, "6’07”"
+    mondexweight SPECIES_HOUNDSTONE, "33.1 lbs."
+
+
+mondata SPECIES_FLAMIGO, "Flamigo"
+    basestats 82, 115, 74, 90, 75, 64
+    types TYPE_FLYING, TYPE_FIGHTING
+    catchrate 100
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 2, 0, 0, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 127
+    eggcycles 20
+    basefriendship 50
+    growthrate GROWTH_MEDIUM_SLOW
+    egggroups EGG_GROUP_FLYING, EGG_GROUP_FLYING
+    abilities ABILITY_SCRAPPY, ABILITY_TANGLED_FEET
+    runchance 0
+    colorflip BODY_COLOR_PINK, 0
+    tmdata SPECIES_FLAMIGO_TM_DATA_0, SPECIES_FLAMIGO_TM_DATA_1, SPECIES_FLAMIGO_TM_DATA_2, SPECIES_FLAMIGO_TM_DATA_3
+    mondexentry SPECIES_FLAMIGO, "Thanks to a behavior of theirs known as “synchronizing,” an entire flock of these Pokémon can attack simultaneously in perfect harmony."
+    mondexclassification SPECIES_FLAMIGO, "Synchronize Pokémon"
+    mondexheight SPECIES_FLAMIGO, "5’03”"
+    mondexweight SPECIES_FLAMIGO, "81.6 lbs."
+
+
+mondata SPECIES_CETODDLE, "Cetoddle"
+    basestats 108, 68, 45, 43, 30, 40
+    types TYPE_ICE, TYPE_ICE
+    catchrate 150
+    baseexp 0 // defined in baseexp.s
+    evyields 1, 0, 0, 0, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 127
+    eggcycles 25
+    basefriendship 50
+    growthrate GROWTH_MEDIUM_SLOW
+    egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
+    abilities ABILITY_THICK_FAT, ABILITY_SNOW_CLOAK
+    runchance 0
+    colorflip BODY_COLOR_WHITE, 0
+    tmdata SPECIES_CETODDLE_TM_DATA_0, SPECIES_CETODDLE_TM_DATA_1, SPECIES_CETODDLE_TM_DATA_2, SPECIES_CETODDLE_TM_DATA_3
+    mondexentry SPECIES_CETODDLE, "It lives in frigid regions in pods of five or so individuals. It loves the minerals found in snow and ice."
+    mondexclassification SPECIES_CETODDLE, "Terra Whale Pokémon"
+    mondexheight SPECIES_CETODDLE, "3’11”"
+    mondexweight SPECIES_CETODDLE, "99.2 lbs."
+
+
+mondata SPECIES_CETITAN, "Cetitan"
+    basestats 170, 113, 65, 73, 45, 55
+    types TYPE_ICE, TYPE_ICE
+    catchrate 50
+    baseexp 0 // defined in baseexp.s
+    evyields 2, 0, 0, 0, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 127
+    eggcycles 25
+    basefriendship 50
+    growthrate GROWTH_MEDIUM_SLOW
+    egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
+    abilities ABILITY_THICK_FAT, ABILITY_SLUSH_RUSH
+    runchance 0
+    colorflip BODY_COLOR_WHITE, 0
+    tmdata SPECIES_CETITAN_TM_DATA_0, SPECIES_CETITAN_TM_DATA_1, SPECIES_CETITAN_TM_DATA_2, SPECIES_CETITAN_TM_DATA_3
+    mondexentry SPECIES_CETITAN, "Ice energy builds up in the horn on its upper jaw, causing the horn to reach cryogenic temperatures that freeze its surroundings."
+    mondexclassification SPECIES_CETITAN, "Terra Whale Pokémon"
+    mondexheight SPECIES_CETITAN, "14’09”"
+    mondexweight SPECIES_CETITAN, "1543.2 lbs."
+
+
+mondata SPECIES_VELUZA, "Veluza"
+    basestats 90, 102, 73, 70, 78, 65
+    types TYPE_WATER, TYPE_PSYCHIC
+    catchrate 100
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 2, 0, 0, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 127
+    eggcycles 20
+    basefriendship 50
+    growthrate GROWTH_FAST
+    egggroups EGG_GROUP_WATER_2, EGG_GROUP_WATER_2
+    abilities ABILITY_MOLD_BREAKER, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_GRAY, 0
+    tmdata SPECIES_VELUZA_TM_DATA_0, SPECIES_VELUZA_TM_DATA_1, SPECIES_VELUZA_TM_DATA_2, SPECIES_VELUZA_TM_DATA_3
+    mondexentry SPECIES_VELUZA, "Veluza has excellent regenerative capabilities. It sheds spare flesh from its body to boost its agility, then charges at its prey."
+    mondexclassification SPECIES_VELUZA, "Jettison Pokémon"
+    mondexheight SPECIES_VELUZA, "8’02”"
+    mondexweight SPECIES_VELUZA, "198.4 lbs."
+
+
+mondata SPECIES_DONDOZO, "Dondozo"
+    basestats 150, 100, 115, 35, 65, 65
+    types TYPE_WATER, TYPE_WATER
+    catchrate 25
+    baseexp 0 // defined in baseexp.s
+    evyields 3, 0, 0, 0, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 127
+    eggcycles 40
+    basefriendship 50
+    growthrate GROWTH_SLOW
+    egggroups EGG_GROUP_WATER_2, EGG_GROUP_WATER_2
+    abilities ABILITY_UNAWARE, ABILITY_OBLIVIOUS
+    runchance 0
+    colorflip BODY_COLOR_BLUE, 0
+    tmdata SPECIES_DONDOZO_TM_DATA_0, SPECIES_DONDOZO_TM_DATA_1, SPECIES_DONDOZO_TM_DATA_2, SPECIES_DONDOZO_TM_DATA_3
+    mondexentry SPECIES_DONDOZO, "It treats Tatsugiri like its boss and follows it loyally. Though powerful, Dondozo is apparently not very smart."
+    mondexclassification SPECIES_DONDOZO, "Big Catfish Pokémon"
+    mondexheight SPECIES_DONDOZO, "39’04”"
+    mondexweight SPECIES_DONDOZO, "485.0 lbs."
+
+
+mondata SPECIES_TATSUGIRI, "Tatsugiri"
+    basestats 68, 50, 60, 82, 120, 95
+    types TYPE_DRAGON, TYPE_WATER
+    catchrate 100
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 0, 0, 0, 2, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 127
+    eggcycles 35
+    basefriendship 50
+    growthrate GROWTH_MEDIUM_SLOW
+    egggroups EGG_GROUP_WATER_2, EGG_GROUP_WATER_2
+    abilities ABILITY_COMMANDER, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_PINK, 0
+    tmdata SPECIES_TATSUGIRI_TM_DATA_0, SPECIES_TATSUGIRI_TM_DATA_1, SPECIES_TATSUGIRI_TM_DATA_2, SPECIES_TATSUGIRI_TM_DATA_3
+    mondexentry SPECIES_TATSUGIRI, "Tatsugiri is an extremely cunning Pokémon. It feigns weakness to lure in prey, then orders its partner to attack."
+    mondexclassification SPECIES_TATSUGIRI, "Mimicry Pokémon"
+    mondexheight SPECIES_TATSUGIRI, "1’00”"
+    mondexweight SPECIES_TATSUGIRI, "17.6 lbs."
+
+
+mondata SPECIES_ANNIHILAPE, "Annihilape"
+    basestats 110, 115, 80, 90, 50, 90
+    types TYPE_FIGHTING, TYPE_GHOST
+    catchrate 45
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 3, 0, 0, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 127
+    eggcycles 20
+    basefriendship 50
+    growthrate GROWTH_MEDIUM_FAST
+    egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
+    abilities ABILITY_VITAL_SPIRIT, ABILITY_INNER_FOCUS
+    runchance 0
+    colorflip BODY_COLOR_GRAY, 0
+    tmdata SPECIES_ANNIHILAPE_TM_DATA_0, SPECIES_ANNIHILAPE_TM_DATA_1, SPECIES_ANNIHILAPE_TM_DATA_2, SPECIES_ANNIHILAPE_TM_DATA_3
+    mondexentry SPECIES_ANNIHILAPE, "It imbues its fists with the power of the rage that it kept hidden in its heart. Opponents struck by these imbued fists will be shattered to their core."
+    mondexclassification SPECIES_ANNIHILAPE, "Rage Monkey Pokémon"
+    mondexheight SPECIES_ANNIHILAPE, "3’11”"
+    mondexweight SPECIES_ANNIHILAPE, "123.5 lbs."
+
+
+mondata SPECIES_CLODSIRE, "Clodsire"
+    basestats 130, 75, 60, 20, 45, 100
+    types TYPE_POISON, TYPE_GROUND
+    catchrate 90
+    baseexp 0 // defined in baseexp.s
+    evyields 2, 0, 0, 0, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 127
+    eggcycles 20
+    basefriendship 50
+    growthrate GROWTH_MEDIUM_FAST
+    egggroups EGG_GROUP_WATER_1, EGG_GROUP_FIELD
+    abilities ABILITY_POISON_POINT, ABILITY_WATER_ABSORB
+    runchance 0
+    colorflip BODY_COLOR_BROWN, 0
+    tmdata SPECIES_CLODSIRE_TM_DATA_0, SPECIES_CLODSIRE_TM_DATA_1, SPECIES_CLODSIRE_TM_DATA_2, SPECIES_CLODSIRE_TM_DATA_3
+    mondexentry SPECIES_CLODSIRE, "It lives at the bottom of ponds and swamps. It will carry Wooper on its back and ferry them across water from one shore to the other."
+    mondexclassification SPECIES_CLODSIRE, "Spiny Fish Pokémon"
+    mondexheight SPECIES_CLODSIRE, "5’11”"
+    mondexweight SPECIES_CLODSIRE, "491.6 lbs."
+
+
+mondata SPECIES_FARIGIRAF, "Farigiraf"
+    basestats 120, 90, 70, 60, 110, 70
+    types TYPE_NORMAL, TYPE_PSYCHIC
+    catchrate 45
+    baseexp 0 // defined in baseexp.s
+    evyields 3, 0, 0, 0, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 127
+    eggcycles 20
+    basefriendship 50
+    growthrate GROWTH_MEDIUM_FAST
+    egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
+    abilities ABILITY_CUD_CHEW, ABILITY_ARMOR_TAIL
+    runchance 0
+    colorflip BODY_COLOR_BROWN, 0
+    tmdata SPECIES_FARIGIRAF_TM_DATA_0, SPECIES_FARIGIRAF_TM_DATA_1, SPECIES_FARIGIRAF_TM_DATA_2, SPECIES_FARIGIRAF_TM_DATA_3
+    mondexentry SPECIES_FARIGIRAF, "The hardened head from the tail protects the head of the main body as Farigiraf whips its long neck around to headbutt enemies."
+    mondexclassification SPECIES_FARIGIRAF, "Long Neck Pokémon"
+    mondexheight SPECIES_FARIGIRAF, "10’06”"
+    mondexweight SPECIES_FARIGIRAF, "352.7 lbs."
+
+
+mondata SPECIES_DUDUNSPARCE, "Dudnsparce"
+    basestats 125, 100, 80, 55, 85, 75
+    types TYPE_NORMAL, TYPE_NORMAL
+    catchrate 45
+    baseexp 0 // defined in baseexp.s
+    evyields 2, 0, 0, 0, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 127
+    eggcycles 20
+    basefriendship 50
+    growthrate GROWTH_MEDIUM_FAST
+    egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
+    abilities ABILITY_SERENE_GRACE, ABILITY_RUN_AWAY
+    runchance 0
+    colorflip BODY_COLOR_YELLOW, 0
+    tmdata SPECIES_DUDUNSPARCE_TM_DATA_0, SPECIES_DUDUNSPARCE_TM_DATA_1, SPECIES_DUDUNSPARCE_TM_DATA_2, SPECIES_DUDUNSPARCE_TM_DATA_3
+    mondexentry SPECIES_DUDUNSPARCE, "It drives enemies out of its nest by sucking in enough air to fill its long, narrow lungs, then releasing the air in an intense blast."
+    mondexclassification SPECIES_DUDUNSPARCE, "Land Snake Pokémon"
+    mondexheight SPECIES_DUDUNSPARCE, "11’10”"
+    mondexweight SPECIES_DUDUNSPARCE, "86.4 lbs."
+
+
+mondata SPECIES_KINGAMBIT, "Kingambit"
+    basestats 100, 135, 120, 50, 60, 85
+    types TYPE_DARK, TYPE_STEEL
+    catchrate 25
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 3, 0, 0, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 127
+    eggcycles 20
+    basefriendship 50
+    growthrate GROWTH_MEDIUM_FAST
+    egggroups EGG_GROUP_HUMAN_LIKE, EGG_GROUP_HUMAN_LIKE
+    abilities ABILITY_DEFIANT, ABILITY_SUPREME_OVERLORD
+    runchance 0
+    colorflip BODY_COLOR_BLACK, 0
+    tmdata SPECIES_KINGAMBIT_TM_DATA_0, SPECIES_KINGAMBIT_TM_DATA_1, SPECIES_KINGAMBIT_TM_DATA_2, SPECIES_KINGAMBIT_TM_DATA_3
+    mondexentry SPECIES_KINGAMBIT, "Though it commands a massive army in battle, it’s not skilled at devising complex strategies. It just uses brute strength to keep pushing."
+    mondexclassification SPECIES_KINGAMBIT, "Big Blade Pokémon"
+    mondexheight SPECIES_KINGAMBIT, "6’07”"
+    mondexweight SPECIES_KINGAMBIT, "264.6 lbs."
+
+
+mondata SPECIES_GREAT_TUSK, "Great Tusk"
+    basestats 115, 131, 131, 87, 53, 53
+    types TYPE_GROUND, TYPE_FIGHTING
+    catchrate 30
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 3, 0, 0, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 255
+    eggcycles 50
+    basefriendship 0
+    growthrate GROWTH_SLOW
+    egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
+    abilities ABILITY_PROTOSYNTHESIS, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_PURPLE, 0
+    tmdata SPECIES_GREAT_TUSK_TM_DATA_0, SPECIES_GREAT_TUSK_TM_DATA_1, SPECIES_GREAT_TUSK_TM_DATA_2, SPECIES_GREAT_TUSK_TM_DATA_3
+    mondexentry SPECIES_GREAT_TUSK, "This creature resembles a mysterious Pokémon that, according to a paranormal magazine, has lived since ancient times."
+    mondexclassification SPECIES_GREAT_TUSK, "Paradox Pokémon"
+    mondexheight SPECIES_GREAT_TUSK, "7’03”"
+    mondexweight SPECIES_GREAT_TUSK, "705.5 lbs."
+
+
+mondata SPECIES_SCREAM_TAIL, "ScreamTail"
+    basestats 115, 65, 99, 111, 65, 115
+    types (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_NORMAL, TYPE_PSYCHIC
+    catchrate 50
+    baseexp 0 // defined in baseexp.s
+    evyields 3, 0, 0, 0, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 255
+    eggcycles 50
+    basefriendship 0
+    growthrate GROWTH_SLOW
+    egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
+    abilities ABILITY_PROTOSYNTHESIS, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_PINK, 0
+    tmdata SPECIES_SCREAM_TAIL_TM_DATA_0, SPECIES_SCREAM_TAIL_TM_DATA_1, SPECIES_SCREAM_TAIL_TM_DATA_2, SPECIES_SCREAM_TAIL_TM_DATA_3
+    mondexentry SPECIES_SCREAM_TAIL, "It resembles a mysterious Pokémon described in a paranormal magazine as a Jigglypuff from one billion years ago."
+    mondexclassification SPECIES_SCREAM_TAIL, "Paradox Pokémon"
+    mondexheight SPECIES_SCREAM_TAIL, "3’11”"
+    mondexweight SPECIES_SCREAM_TAIL, "17.6 lbs."
+
+
+mondata SPECIES_BRUTE_BONNET, "BruteBonet"
+    basestats 111, 127, 99, 55, 79, 99
+    types TYPE_GRASS, TYPE_DARK
+    catchrate 50
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 3, 0, 0, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 255
+    eggcycles 50
+    basefriendship 0
+    growthrate GROWTH_SLOW
+    egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
+    abilities ABILITY_PROTOSYNTHESIS, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_GRAY, 0
+    tmdata SPECIES_BRUTE_BONNET_TM_DATA_0, SPECIES_BRUTE_BONNET_TM_DATA_1, SPECIES_BRUTE_BONNET_TM_DATA_2, SPECIES_BRUTE_BONNET_TM_DATA_3
+    mondexentry SPECIES_BRUTE_BONNET, "It bears a slight resemblance to a Pokémon described in a dubious magazine as a cross between a dinosaur and a mushroom."
+    mondexclassification SPECIES_BRUTE_BONNET, "Paradox Pokémon"
+    mondexheight SPECIES_BRUTE_BONNET, "3’11”"
+    mondexweight SPECIES_BRUTE_BONNET, "46.3 lbs."
+
+
+mondata SPECIES_FLUTTER_MANE, "FluttrMane"
+    basestats 55, 55, 55, 135, 135, 135
+    types TYPE_GHOST, (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_GHOST
+    catchrate 30
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 0, 0, 1, 1, 1
+    items ITEM_NONE, ITEM_NONE
+    genderratio 255
+    eggcycles 50
+    basefriendship 0
+    growthrate GROWTH_SLOW
+    egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
+    abilities ABILITY_PROTOSYNTHESIS, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_GRAY, 0
+    tmdata SPECIES_FLUTTER_MANE_TM_DATA_0, SPECIES_FLUTTER_MANE_TM_DATA_1, SPECIES_FLUTTER_MANE_TM_DATA_2, SPECIES_FLUTTER_MANE_TM_DATA_3
+    mondexentry SPECIES_FLUTTER_MANE, "It has similar features to a ghostly pterosaur that was covered in a paranormal magazine, but the two have little else in common."
+    mondexclassification SPECIES_FLUTTER_MANE, "Paradox Pokémon"
+    mondexheight SPECIES_FLUTTER_MANE, "4’07”"
+    mondexweight SPECIES_FLUTTER_MANE, "8.8 lbs."
+
+
+mondata SPECIES_SLITHER_WING, "SlithrWing"
+    basestats 85, 135, 79, 81, 85, 105
+    types TYPE_BUG, TYPE_FIGHTING
+    catchrate 30
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 3, 0, 0, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 255
+    eggcycles 50
+    basefriendship 0
+    growthrate GROWTH_SLOW
+    egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
+    abilities ABILITY_PROTOSYNTHESIS, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_RED, 0
+    tmdata SPECIES_SLITHER_WING_TM_DATA_0, SPECIES_SLITHER_WING_TM_DATA_1, SPECIES_SLITHER_WING_TM_DATA_2, SPECIES_SLITHER_WING_TM_DATA_3
+    mondexentry SPECIES_SLITHER_WING, "This Pokémon somewhat resembles an ancient form of Volcarona that was introduced in a dubious magazine."
+    mondexclassification SPECIES_SLITHER_WING, "Paradox Pokémon"
+    mondexheight SPECIES_SLITHER_WING, "10’06”"
+    mondexweight SPECIES_SLITHER_WING, "202.8 lbs."
+
+
+mondata SPECIES_SANDY_SHOCKS, "SandyShock"
+    basestats 85, 81, 97, 101, 121, 85
+    types TYPE_ELECTRIC, TYPE_GROUND
+    catchrate 30
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 0, 0, 0, 3, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 255
+    eggcycles 50
+    basefriendship 0
+    growthrate GROWTH_SLOW
+    egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
+    abilities ABILITY_PROTOSYNTHESIS, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_GRAY, 0
+    tmdata SPECIES_SANDY_SHOCKS_TM_DATA_0, SPECIES_SANDY_SHOCKS_TM_DATA_1, SPECIES_SANDY_SHOCKS_TM_DATA_2, SPECIES_SANDY_SHOCKS_TM_DATA_3
+    mondexentry SPECIES_SANDY_SHOCKS, "It slightly resembles a Magneton that lived for 10,000 years and was featured in an article in a paranormal magazine."
+    mondexclassification SPECIES_SANDY_SHOCKS, "Paradox Pokémon"
+    mondexheight SPECIES_SANDY_SHOCKS, "7’07”"
+    mondexweight SPECIES_SANDY_SHOCKS, "132.3 lbs."
+
+
+mondata SPECIES_IRON_TREADS, "IronTreads"
+    basestats 90, 112, 120, 106, 72, 70
+    types TYPE_GROUND, TYPE_STEEL
+    catchrate 30
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 0, 3, 0, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 255
+    eggcycles 50
+    basefriendship 0
+    growthrate GROWTH_SLOW
+    egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
+    abilities ABILITY_QUARK_DRIVE, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_GRAY, 0
+    tmdata SPECIES_IRON_TREADS_TM_DATA_0, SPECIES_IRON_TREADS_TM_DATA_1, SPECIES_IRON_TREADS_TM_DATA_2, SPECIES_IRON_TREADS_TM_DATA_3
+    mondexentry SPECIES_IRON_TREADS, "Sightings of this Pokémon have occurred in recent years. It resembles a mysterious object described in an old expedition journal."
+    mondexclassification SPECIES_IRON_TREADS, "Paradox Pokémon"
+    mondexheight SPECIES_IRON_TREADS, "2’11”"
+    mondexweight SPECIES_IRON_TREADS, "529.1 lbs."
+
+
+mondata SPECIES_IRON_BUNDLE, "IronBundle"
+    basestats 56, 80, 114, 136, 124, 60
+    types TYPE_ICE, TYPE_WATER
+    catchrate 50
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 0, 0, 3, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 255
+    eggcycles 50
+    basefriendship 0
+    growthrate GROWTH_SLOW
+    egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
+    abilities ABILITY_QUARK_DRIVE, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_RED, 0
+    tmdata SPECIES_IRON_BUNDLE_TM_DATA_0, SPECIES_IRON_BUNDLE_TM_DATA_1, SPECIES_IRON_BUNDLE_TM_DATA_2, SPECIES_IRON_BUNDLE_TM_DATA_3
+    mondexentry SPECIES_IRON_BUNDLE, "It resembles a mysterious object mentioned in an old book. There are only two reported sightings of this Pokémon."
+    mondexclassification SPECIES_IRON_BUNDLE, "Paradox Pokémon"
+    mondexheight SPECIES_IRON_BUNDLE, "2’00”"
+    mondexweight SPECIES_IRON_BUNDLE, "24.3 lbs."
+
+
+mondata SPECIES_IRON_HANDS, "Iron Hands"
+    basestats 154, 140, 108, 50, 50, 68
+    types TYPE_FIGHTING, TYPE_ELECTRIC
+    catchrate 50
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 3, 0, 0, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 255
+    eggcycles 50
+    basefriendship 0
+    growthrate GROWTH_SLOW
+    egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
+    abilities ABILITY_QUARK_DRIVE, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_GRAY, 0
+    tmdata SPECIES_IRON_HANDS_TM_DATA_0, SPECIES_IRON_HANDS_TM_DATA_1, SPECIES_IRON_HANDS_TM_DATA_2, SPECIES_IRON_HANDS_TM_DATA_3
+    mondexentry SPECIES_IRON_HANDS, "This Pokémon shares many similarities with Iron Hands, an object mentioned in a certain expedition journal."
+    mondexclassification SPECIES_IRON_HANDS, "Paradox Pokémon"
+    mondexheight SPECIES_IRON_HANDS, "5’11”"
+    mondexweight SPECIES_IRON_HANDS, "839.3 lbs."
+
+
+mondata SPECIES_IRON_JUGULIS, "Iron Neck"
+    basestats 94, 80, 86, 108, 122, 80
+    types TYPE_DARK, TYPE_FLYING
+    catchrate 30
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 0, 0, 0, 3, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 255
+    eggcycles 50
+    basefriendship 0
+    growthrate GROWTH_SLOW
+    egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
+    abilities ABILITY_QUARK_DRIVE, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_BLUE, 0
+    tmdata SPECIES_IRON_JUGULIS_TM_DATA_0, SPECIES_IRON_JUGULIS_TM_DATA_1, SPECIES_IRON_JUGULIS_TM_DATA_2, SPECIES_IRON_JUGULIS_TM_DATA_3
+    mondexentry SPECIES_IRON_JUGULIS, "It’s possible that Iron Jugulis, an object described in an old book, may actually be this Pokémon."
+    mondexclassification SPECIES_IRON_JUGULIS, "Paradox Pokémon"
+    mondexheight SPECIES_IRON_JUGULIS, "4’03”"
+    mondexweight SPECIES_IRON_JUGULIS, "244.7 lbs."
+
+
+mondata SPECIES_IRON_MOTH, "Iron Moth"
+    basestats 80, 70, 60, 110, 140, 110
+    types TYPE_FIRE, TYPE_POISON
+    catchrate 30
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 0, 0, 0, 3, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 255
+    eggcycles 50
+    basefriendship 0
+    growthrate GROWTH_SLOW
+    egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
+    abilities ABILITY_QUARK_DRIVE, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_YELLOW, 0
+    tmdata SPECIES_IRON_MOTH_TM_DATA_0, SPECIES_IRON_MOTH_TM_DATA_1, SPECIES_IRON_MOTH_TM_DATA_2, SPECIES_IRON_MOTH_TM_DATA_3
+    mondexentry SPECIES_IRON_MOTH, "No records exist of this species being caught. Data is lacking, but the Pokémon’s traits match up with an object described in an old book."
+    mondexclassification SPECIES_IRON_MOTH, "Paradox Pokémon"
+    mondexheight SPECIES_IRON_MOTH, "3’11”"
+    mondexweight SPECIES_IRON_MOTH, "79.4 lbs."
+
+
+mondata SPECIES_IRON_THORNS, "Iron Thorn"
+    basestats 100, 134, 110, 72, 70, 84
+    types TYPE_ROCK, TYPE_ELECTRIC
+    catchrate 30
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 3, 0, 0, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 255
+    eggcycles 50
+    basefriendship 0
+    growthrate GROWTH_SLOW
+    egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
+    abilities ABILITY_QUARK_DRIVE, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_GREEN, 0
+    tmdata SPECIES_IRON_THORNS_TM_DATA_0, SPECIES_IRON_THORNS_TM_DATA_1, SPECIES_IRON_THORNS_TM_DATA_2, SPECIES_IRON_THORNS_TM_DATA_3
+    mondexentry SPECIES_IRON_THORNS, "Some of its notable features match those of an object named within a certain expedition journal as Iron Thorns."
+    mondexclassification SPECIES_IRON_THORNS, "Paradox Pokémon"
+    mondexheight SPECIES_IRON_THORNS, "5’03”"
+    mondexweight SPECIES_IRON_THORNS, "668.0 lbs."
+
+
+mondata SPECIES_FRIGIBAX, "Frigibax"
+    basestats 65, 75, 45, 55, 35, 45
+    types TYPE_DRAGON, TYPE_ICE
+    catchrate 45
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 1, 0, 0, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 127
+    eggcycles 40
+    basefriendship 50
+    growthrate GROWTH_SLOW
+    egggroups EGG_GROUP_DRAGON, EGG_GROUP_MINERAL
+    abilities ABILITY_THERMAL_EXCHANGE, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_GRAY, 0
+    tmdata SPECIES_FRIGIBAX_TM_DATA_0, SPECIES_FRIGIBAX_TM_DATA_1, SPECIES_FRIGIBAX_TM_DATA_2, SPECIES_FRIGIBAX_TM_DATA_3
+    mondexentry SPECIES_FRIGIBAX, "This Pokémon lives in forests and craggy areas. Using the power of its dorsal fin, it cools the inside of its nest like a refrigerator."
+    mondexclassification SPECIES_FRIGIBAX, "Ice Fin Pokémon"
+    mondexheight SPECIES_FRIGIBAX, "1’08”"
+    mondexweight SPECIES_FRIGIBAX, "37.5 lbs."
+
+
+mondata SPECIES_ARCTIBAX, "Arctibax"
+    basestats 90, 95, 66, 62, 45, 65
+    types TYPE_DRAGON, TYPE_ICE
+    catchrate 25
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 2, 0, 0, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 127
+    eggcycles 40
+    basefriendship 50
+    growthrate GROWTH_SLOW
+    egggroups EGG_GROUP_DRAGON, EGG_GROUP_MINERAL
+    abilities ABILITY_THERMAL_EXCHANGE, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_GRAY, 0
+    tmdata SPECIES_ARCTIBAX_TM_DATA_0, SPECIES_ARCTIBAX_TM_DATA_1, SPECIES_ARCTIBAX_TM_DATA_2, SPECIES_ARCTIBAX_TM_DATA_3
+    mondexentry SPECIES_ARCTIBAX, "It attacks with the blade of its frozen dorsal fin by doing a front flip in the air. Arctibax’s strong back and legs allow it to pull off this technique."
+    mondexclassification SPECIES_ARCTIBAX, "Ice Fin Pokémon"
+    mondexheight SPECIES_ARCTIBAX, "2’07”"
+    mondexweight SPECIES_ARCTIBAX, "66.1 lbs."
+
+
+mondata SPECIES_BAXCALIBUR, "Baxcalibur"
+    basestats 115, 145, 92, 87, 75, 86
+    types TYPE_DRAGON, TYPE_ICE
+    catchrate 10
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 3, 0, 0, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 127
+    eggcycles 40
+    basefriendship 50
+    growthrate GROWTH_SLOW
+    egggroups EGG_GROUP_DRAGON, EGG_GROUP_MINERAL
+    abilities ABILITY_THERMAL_EXCHANGE, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_GRAY, 0
+    tmdata SPECIES_BAXCALIBUR_TM_DATA_0, SPECIES_BAXCALIBUR_TM_DATA_1, SPECIES_BAXCALIBUR_TM_DATA_2, SPECIES_BAXCALIBUR_TM_DATA_3
+    mondexentry SPECIES_BAXCALIBUR, "It launches itself into battle by flipping upside down and spewing frigid air from its mouth. It finishes opponents off with its dorsal blade."
+    mondexclassification SPECIES_BAXCALIBUR, "Ice Dragon Pokémon"
+    mondexheight SPECIES_BAXCALIBUR, "6’11”"
+    mondexweight SPECIES_BAXCALIBUR, "463.0 lbs."
+
+
+mondata SPECIES_GIMMIGHOUL, "Gimmighoul"
+    basestats 45, 30, 70, 10, 75, 70
+    types TYPE_GHOST, TYPE_GHOST
+    catchrate 45
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 0, 0, 0, 1, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 255
+    eggcycles 50
+    basefriendship 50
+    growthrate GROWTH_SLOW
+    egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
+    abilities ABILITY_RATTLED, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_BROWN, 0
+    tmdata SPECIES_GIMMIGHOUL_TM_DATA_0, SPECIES_GIMMIGHOUL_TM_DATA_1, SPECIES_GIMMIGHOUL_TM_DATA_2, SPECIES_GIMMIGHOUL_TM_DATA_3
+    mondexentry SPECIES_GIMMIGHOUL, "It lives inside an old treasure chest. Sometimes it gets left in shop corners since no one realizes it’s actually a Pokémon."
+    mondexclassification SPECIES_GIMMIGHOUL, "Coin Chest Pokémon"
+    mondexheight SPECIES_GIMMIGHOUL, "1’00”"
+    mondexweight SPECIES_GIMMIGHOUL, "11.0 lbs."
+
+
+mondata SPECIES_GHOLDENGO, "Gholdengo"
+    basestats 87, 60, 95, 84, 133, 91
+    types TYPE_STEEL, TYPE_GHOST
+    catchrate 45
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 0, 0, 0, 2, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 255
+    eggcycles 50
+    basefriendship 50
+    growthrate GROWTH_SLOW
+    egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
+    abilities ABILITY_GOOD_AS_GOLD, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_YELLOW, 0
+    tmdata SPECIES_GHOLDENGO_TM_DATA_0, SPECIES_GHOLDENGO_TM_DATA_1, SPECIES_GHOLDENGO_TM_DATA_2, SPECIES_GHOLDENGO_TM_DATA_3
+    mondexentry SPECIES_GHOLDENGO, "It has a sturdy body made up of stacked coins. Gholdengo overwhelms its enemies by firing coin after coin at them in quick succession."
+    mondexclassification SPECIES_GHOLDENGO, "Coin Entity Pokémon"
+    mondexheight SPECIES_GHOLDENGO, "3’11”"
+    mondexweight SPECIES_GHOLDENGO, "66.1 lbs."
+
+
+mondata SPECIES_WO_CHIEN, "Wo-Chien"
+    basestats 85, 85, 100, 70, 95, 135
+    types TYPE_DARK, TYPE_GRASS
+    catchrate 6
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 0, 0, 0, 0, 3
+    items ITEM_NONE, ITEM_NONE
+    genderratio 255
+    eggcycles 50
+    basefriendship 0
+    growthrate GROWTH_SLOW
+    egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
+    abilities ABILITY_TABLETS_OF_RUIN, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_BROWN, 0
+    tmdata SPECIES_WO_CHIEN_TM_DATA_0, SPECIES_WO_CHIEN_TM_DATA_1, SPECIES_WO_CHIEN_TM_DATA_2, SPECIES_WO_CHIEN_TM_DATA_3
+    mondexentry SPECIES_WO_CHIEN, "It drains the life-force from vegetation, causing nearby forests to instantly wither and fields to turn barren."
+    mondexclassification SPECIES_WO_CHIEN, "Ruinous Pokémon"
+    mondexheight SPECIES_WO_CHIEN, "4’11”"
+    mondexweight SPECIES_WO_CHIEN, "163.6 lbs."
+
+
+mondata SPECIES_CHIEN_PAO, "Chien-Pao"
+    basestats 80, 120, 80, 135, 90, 65
+    types TYPE_DARK, TYPE_ICE
+    catchrate 6
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 0, 0, 3, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 255
+    eggcycles 50
+    basefriendship 0
+    growthrate GROWTH_SLOW
+    egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
+    abilities ABILITY_SWORD_OF_RUIN, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_WHITE, 0
+    tmdata SPECIES_CHIEN_PAO_TM_DATA_0, SPECIES_CHIEN_PAO_TM_DATA_1, SPECIES_CHIEN_PAO_TM_DATA_2, SPECIES_CHIEN_PAO_TM_DATA_3
+    mondexentry SPECIES_CHIEN_PAO, "The hatred of those who perished by the sword long ago has clad itself in snow and become a Pokémon."
+    mondexclassification SPECIES_CHIEN_PAO, "Ruinous Pokémon"
+    mondexheight SPECIES_CHIEN_PAO, "6’03”"
+    mondexweight SPECIES_CHIEN_PAO, "335.5 lbs."
+
+
+mondata SPECIES_TING_LU, "Ting-Lu"
+    basestats 155, 110, 125, 45, 55, 80
+    types TYPE_DARK, TYPE_GROUND
+    catchrate 6
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 0, 3, 0, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 255
+    eggcycles 50
+    basefriendship 0
+    growthrate GROWTH_SLOW
+    egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
+    abilities ABILITY_VESSEL_OF_RUIN, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_BROWN, 0
+    tmdata SPECIES_TING_LU_TM_DATA_0, SPECIES_TING_LU_TM_DATA_1, SPECIES_TING_LU_TM_DATA_2, SPECIES_TING_LU_TM_DATA_3
+    mondexentry SPECIES_TING_LU, "It slowly brings its exceedingly heavy head down upon the ground, splitting the earth open with huge fissures that run over 160 feet deep."
+    mondexclassification SPECIES_TING_LU, "Ruinous Pokémon"
+    mondexheight SPECIES_TING_LU, "8’10”"
+    mondexweight SPECIES_TING_LU, "1542.6 lbs."
+
+
+mondata SPECIES_CHI_YU, "Chi-Yu"
+    basestats 55, 80, 80, 100, 135, 120
+    types TYPE_DARK, TYPE_FIRE
+    catchrate 6
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 0, 0, 0, 3, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 255
+    eggcycles 50
+    basefriendship 0
+    growthrate GROWTH_SLOW
+    egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
+    abilities ABILITY_BEADS_OF_RUIN, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_RED, 0
+    tmdata SPECIES_CHI_YU_TM_DATA_0, SPECIES_CHI_YU_TM_DATA_1, SPECIES_CHI_YU_TM_DATA_2, SPECIES_CHI_YU_TM_DATA_3
+    mondexentry SPECIES_CHI_YU, "The envy accumulated within curved beads that sparked multiple conflicts has clad itself in fire and become a Pokémon."
+    mondexclassification SPECIES_CHI_YU, "Ruinous Pokémon"
+    mondexheight SPECIES_CHI_YU, "1’04”"
+    mondexweight SPECIES_CHI_YU, "10.8 lbs."
+
+
+mondata SPECIES_ROARING_MOON, "Roar Moon"
+    basestats 105, 139, 71, 119, 55, 101
+    types TYPE_DRAGON, TYPE_DARK
+    catchrate 10
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 3, 0, 0, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 255
+    eggcycles 50
+    basefriendship 0
+    growthrate GROWTH_SLOW
+    egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
+    abilities ABILITY_PROTOSYNTHESIS, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_GREEN, 0
+    tmdata SPECIES_ROARING_MOON_TM_DATA_0, SPECIES_ROARING_MOON_TM_DATA_1, SPECIES_ROARING_MOON_TM_DATA_2, SPECIES_ROARING_MOON_TM_DATA_3
+    mondexentry SPECIES_ROARING_MOON, "According to an article in a dubious magazine, this Pokémon has some connection to a phenomenon that occurs in a certain region."
+    mondexclassification SPECIES_ROARING_MOON, "Paradox Pokémon"
+    mondexheight SPECIES_ROARING_MOON, "6’07”"
+    mondexweight SPECIES_ROARING_MOON, "837.8 lbs."
+
+
+mondata SPECIES_IRON_VALIANT, "Iron Valor"
+    basestats 74, 130, 90, 116, 120, 60
+    types (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_NORMAL, TYPE_FIGHTING
+    catchrate 10
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 3, 0, 0, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 255
+    eggcycles 50
+    basefriendship 0
+    growthrate GROWTH_SLOW
+    egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
+    abilities ABILITY_QUARK_DRIVE, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_WHITE, 0
+    tmdata SPECIES_IRON_VALIANT_TM_DATA_0, SPECIES_IRON_VALIANT_TM_DATA_1, SPECIES_IRON_VALIANT_TM_DATA_2, SPECIES_IRON_VALIANT_TM_DATA_3
+    mondexentry SPECIES_IRON_VALIANT, "It’s possible that this is the object listed as Iron Valiant in a certain expedition journal."
+    mondexclassification SPECIES_IRON_VALIANT, "Paradox Pokémon"
+    mondexheight SPECIES_IRON_VALIANT, "4’07”"
+    mondexweight SPECIES_IRON_VALIANT, "77.2 lbs."
+
+
+mondata SPECIES_KORAIDON, "Koraidon"
+    basestats 100, 135, 115, 135, 85, 100
+    types TYPE_FIGHTING, TYPE_DRAGON
+    catchrate 3
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 3, 0, 0, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 255
+    eggcycles 50
+    basefriendship 0
+    growthrate GROWTH_SLOW
+    egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
+    abilities ABILITY_ORICHALCUM_PULSE, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_RED, 0
+    tmdata SPECIES_KORAIDON_TM_DATA_0, SPECIES_KORAIDON_TM_DATA_1, SPECIES_KORAIDON_TM_DATA_2, SPECIES_KORAIDON_TM_DATA_3
+    mondexentry SPECIES_KORAIDON, "This Pokémon resembles Cyclizar, but it is far burlier and more ferocious. Nothing is known about its ecology or other features."
+    mondexclassification SPECIES_KORAIDON, "Paradox Pokémon"
+    mondexheight SPECIES_KORAIDON, "8’02”"
+    mondexweight SPECIES_KORAIDON, "668.0 lbs."
+
+
+mondata SPECIES_MIRAIDON, "Miraidon"
+    basestats 100, 85, 100, 135, 135, 115
+    types TYPE_ELECTRIC, TYPE_DRAGON
+    catchrate 3
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 0, 0, 0, 3, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 255
+    eggcycles 50
+    basefriendship 0
+    growthrate GROWTH_SLOW
+    egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
+    abilities ABILITY_HADRON_ENGINE, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_BLUE, 0
+    tmdata SPECIES_MIRAIDON_TM_DATA_0, SPECIES_MIRAIDON_TM_DATA_1, SPECIES_MIRAIDON_TM_DATA_2, SPECIES_MIRAIDON_TM_DATA_3
+    mondexentry SPECIES_MIRAIDON, "This seems to be the Iron Serpent mentioned in an old book. The Iron Serpent is said to have turned the land to ash with its lightning."
+    mondexclassification SPECIES_MIRAIDON, "Paradox Pokémon"
+    mondexheight SPECIES_MIRAIDON, "11’06”"
+    mondexweight SPECIES_MIRAIDON, "529.1 lbs."
+
+
+mondata SPECIES_WALKING_WAKE, "Walk Wake"
+    basestats 99, 83, 91, 109, 125, 83
+    types TYPE_WATER, TYPE_DRAGON
+    catchrate 5
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 0, 0, 0, 3, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 255
+    eggcycles 50
+    basefriendship 0
+    growthrate GROWTH_SLOW
+    egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
+    abilities ABILITY_PROTOSYNTHESIS, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_BLUE, 0
+    tmdata SPECIES_WALKING_WAKE_TM_DATA_0, SPECIES_WALKING_WAKE_TM_DATA_1, SPECIES_WALKING_WAKE_TM_DATA_2, SPECIES_WALKING_WAKE_TM_DATA_3
+    mondexentry SPECIES_WALKING_WAKE, "This seems to be the Iron Serpent mentioned in an old book. The Iron Serpent is said to have turned the land to ash with its lightning."
+    mondexclassification SPECIES_WALKING_WAKE, "Paradox Pokémon"
+    mondexheight SPECIES_WALKING_WAKE, "11’06”"
+    mondexweight SPECIES_WALKING_WAKE, "617.3 lbs."
+
+
+mondata SPECIES_IRON_LEAVES, "Iron Leaf"
+    basestats 90, 130, 88, 104, 70, 108
+    types TYPE_GRASS, TYPE_PSYCHIC
+    catchrate 5
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 3, 0, 0, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 255
+    eggcycles 50
+    basefriendship 0
+    growthrate GROWTH_SLOW
+    egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
+    abilities ABILITY_QUARK_DRIVE, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_GREEN, 0
+    tmdata SPECIES_IRON_LEAVES_TM_DATA_0, SPECIES_IRON_LEAVES_TM_DATA_1, SPECIES_IRON_LEAVES_TM_DATA_2, SPECIES_IRON_LEAVES_TM_DATA_3
+    mondexentry SPECIES_IRON_LEAVES, "This seems to be the Iron Serpent mentioned in an old book. The Iron Serpent is said to have turned the land to ash with its lightning."
+    mondexclassification SPECIES_IRON_LEAVES, "Paradox Pokémon"
+    mondexheight SPECIES_IRON_LEAVES, "4’11”"
+    mondexweight SPECIES_IRON_LEAVES, "275.6 lbs."
+
+
+mondata SPECIES_DIPPLIN, "-----"
+    basestats 0, 0, 0, 0, 0, 0
+    types TYPE_NORMAL, TYPE_NORMAL
+    catchrate 0
+    baseexp 0
+    evyields 0, 0, 0, 0, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 0
+    eggcycles 0
+    basefriendship 0
+    growthrate GROWTH_MEDIUM_FAST
+    egggroups EGG_GROUP_NONE, EGG_GROUP_NONE
+    abilities ABILITY_NONE, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_RED, 0
+    tmdata SPECIES_DIPPLIN_TM_DATA_0, SPECIES_DIPPLIN_TM_DATA_1, SPECIES_DIPPLIN_TM_DATA_2, SPECIES_DIPPLIN_TM_DATA_3
+    mondexentry SPECIES_DIPPLIN, ""
+    mondexclassification SPECIES_DIPPLIN, "????? Pokémon"
+    mondexheight SPECIES_DIPPLIN, "???’??”"
+    mondexweight SPECIES_DIPPLIN, "????.? lbs."
+
+
+mondata SPECIES_ARCHALUDON, "-----"
+    basestats 0, 0, 0, 0, 0, 0
+    types TYPE_NORMAL, TYPE_NORMAL
+    catchrate 0
+    baseexp 0
+    evyields 0, 0, 0, 0, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 0
+    eggcycles 0
+    basefriendship 0
+    growthrate GROWTH_MEDIUM_FAST
+    egggroups EGG_GROUP_NONE, EGG_GROUP_NONE
+    abilities ABILITY_NONE, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_RED, 0
+    tmdata SPECIES_ARCHALUDON_TM_DATA_0, SPECIES_ARCHALUDON_TM_DATA_1, SPECIES_ARCHALUDON_TM_DATA_2, SPECIES_ARCHALUDON_TM_DATA_3
+    mondexentry SPECIES_ARCHALUDON, ""
+    mondexclassification SPECIES_ARCHALUDON, "????? Pokémon"
+    mondexheight SPECIES_ARCHALUDON, "???’??”"
+    mondexweight SPECIES_ARCHALUDON, "????.? lbs."
+
+
+mondata SPECIES_RAGING_BOLT, "-----"
+    basestats 0, 0, 0, 0, 0, 0
+    types TYPE_NORMAL, TYPE_NORMAL
+    catchrate 0
+    baseexp 0
+    evyields 0, 0, 0, 0, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 0
+    eggcycles 0
+    basefriendship 0
+    growthrate GROWTH_MEDIUM_FAST
+    egggroups EGG_GROUP_NONE, EGG_GROUP_NONE
+    abilities ABILITY_NONE, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_RED, 0
+    tmdata SPECIES_RAGING_BOLT_TM_DATA_0, SPECIES_RAGING_BOLT_TM_DATA_1, SPECIES_RAGING_BOLT_TM_DATA_2, SPECIES_RAGING_BOLT_TM_DATA_3
+    mondexentry SPECIES_RAGING_BOLT, ""
+    mondexclassification SPECIES_RAGING_BOLT, "????? Pokémon"
+    mondexheight SPECIES_RAGING_BOLT, "???’??”"
+    mondexweight SPECIES_RAGING_BOLT, "????.? lbs."
+
+
+mondata SPECIES_IRON_CROWN, "-----"
+    basestats 0, 0, 0, 0, 0, 0
+    types TYPE_NORMAL, TYPE_NORMAL
+    catchrate 0
+    baseexp 0
+    evyields 0, 0, 0, 0, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 0
+    eggcycles 0
+    basefriendship 0
+    growthrate GROWTH_MEDIUM_FAST
+    egggroups EGG_GROUP_NONE, EGG_GROUP_NONE
+    abilities ABILITY_NONE, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_RED, 0
+    tmdata SPECIES_IRON_CROWN_TM_DATA_0, SPECIES_IRON_CROWN_TM_DATA_1, SPECIES_IRON_CROWN_TM_DATA_2, SPECIES_IRON_CROWN_TM_DATA_3
+    mondexentry SPECIES_IRON_CROWN, ""
+    mondexclassification SPECIES_IRON_CROWN, "????? Pokémon"
+    mondexheight SPECIES_IRON_CROWN, "???’??”"
+    mondexweight SPECIES_IRON_CROWN, "????.? lbs."
+
+
+mondata SPECIES_OGERPON, "-----"
+    basestats 0, 0, 0, 0, 0, 0
+    types TYPE_NORMAL, TYPE_NORMAL
+    catchrate 0
+    baseexp 0
+    evyields 0, 0, 0, 0, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 0
+    eggcycles 0
+    basefriendship 0
+    growthrate GROWTH_MEDIUM_FAST
+    egggroups EGG_GROUP_NONE, EGG_GROUP_NONE
+    abilities ABILITY_NONE, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_RED, 0
+    tmdata SPECIES_OGERPON_TM_DATA_0, SPECIES_OGERPON_TM_DATA_1, SPECIES_OGERPON_TM_DATA_2, SPECIES_OGERPON_TM_DATA_3
+    mondexentry SPECIES_OGERPON, ""
+    mondexclassification SPECIES_OGERPON, "????? Pokémon"
+    mondexheight SPECIES_OGERPON, "???’??”"
+    mondexweight SPECIES_OGERPON, "????.? lbs."
+
+
+mondata SPECIES_OKIDOGI, "-----"
+    basestats 0, 0, 0, 0, 0, 0
+    types TYPE_NORMAL, TYPE_NORMAL
+    catchrate 0
+    baseexp 0
+    evyields 0, 0, 0, 0, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 0
+    eggcycles 0
+    basefriendship 0
+    growthrate GROWTH_MEDIUM_FAST
+    egggroups EGG_GROUP_NONE, EGG_GROUP_NONE
+    abilities ABILITY_NONE, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_RED, 0
+    tmdata SPECIES_OKIDOGI_TM_DATA_0, SPECIES_OKIDOGI_TM_DATA_1, SPECIES_OKIDOGI_TM_DATA_2, SPECIES_OKIDOGI_TM_DATA_3
+    mondexentry SPECIES_OKIDOGI, ""
+    mondexclassification SPECIES_OKIDOGI, "????? Pokémon"
+    mondexheight SPECIES_OKIDOGI, "???’??”"
+    mondexweight SPECIES_OKIDOGI, "????.? lbs."
+
+
+mondata SPECIES_MUNKIDORI, "-----"
+    basestats 0, 0, 0, 0, 0, 0
+    types TYPE_NORMAL, TYPE_NORMAL
+    catchrate 0
+    baseexp 0
+    evyields 0, 0, 0, 0, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 0
+    eggcycles 0
+    basefriendship 0
+    growthrate GROWTH_MEDIUM_FAST
+    egggroups EGG_GROUP_NONE, EGG_GROUP_NONE
+    abilities ABILITY_NONE, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_RED, 0
+    tmdata SPECIES_MUNKIDORI_TM_DATA_0, SPECIES_MUNKIDORI_TM_DATA_1, SPECIES_MUNKIDORI_TM_DATA_2, SPECIES_MUNKIDORI_TM_DATA_3
+    mondexentry SPECIES_MUNKIDORI, ""
+    mondexclassification SPECIES_MUNKIDORI, "????? Pokémon"
+    mondexheight SPECIES_MUNKIDORI, "???’??”"
+    mondexweight SPECIES_MUNKIDORI, "????.? lbs."
+
+
+mondata SPECIES_FEZANDIPITI, "-----"
+    basestats 0, 0, 0, 0, 0, 0
+    types TYPE_NORMAL, TYPE_NORMAL
+    catchrate 0
+    baseexp 0
+    evyields 0, 0, 0, 0, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 0
+    eggcycles 0
+    basefriendship 0
+    growthrate GROWTH_MEDIUM_FAST
+    egggroups EGG_GROUP_NONE, EGG_GROUP_NONE
+    abilities ABILITY_NONE, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_RED, 0
+    tmdata SPECIES_FEZANDIPITI_TM_DATA_0, SPECIES_FEZANDIPITI_TM_DATA_1, SPECIES_FEZANDIPITI_TM_DATA_2, SPECIES_FEZANDIPITI_TM_DATA_3
+    mondexentry SPECIES_FEZANDIPITI, ""
+    mondexclassification SPECIES_FEZANDIPITI, "????? Pokémon"
+    mondexheight SPECIES_FEZANDIPITI, "???’??”"
+    mondexweight SPECIES_FEZANDIPITI, "????.? lbs."
+
+
+mondata SPECIES_TERAPAGOS, "-----"
+    basestats 0, 0, 0, 0, 0, 0
+    types TYPE_NORMAL, TYPE_NORMAL
+    catchrate 0
+    baseexp 0
+    evyields 0, 0, 0, 0, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 0
+    eggcycles 0
+    basefriendship 0
+    growthrate GROWTH_MEDIUM_FAST
+    egggroups EGG_GROUP_NONE, EGG_GROUP_NONE
+    abilities ABILITY_NONE, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_RED, 0
+    tmdata SPECIES_TERAPAGOS_TM_DATA_0, SPECIES_TERAPAGOS_TM_DATA_1, SPECIES_TERAPAGOS_TM_DATA_2, SPECIES_TERAPAGOS_TM_DATA_3
+    mondexentry SPECIES_TERAPAGOS, ""
+    mondexclassification SPECIES_TERAPAGOS, "????? Pokémon"
+    mondexheight SPECIES_TERAPAGOS, "???’??”"
+    mondexweight SPECIES_TERAPAGOS, "????.? lbs."
 
 
 // STATS: 122 >> 127 SpAtk | 120 >> 125 SpDef | 625 >> 635 BST
@@ -28379,3 +30887,363 @@ mondata SPECIES_BASCULEGION_FEMALE, "-----"
     runchance 25
     colorflip BODY_COLOR_GREEN, 0
     tmdata SPECIES_BASCULEGION_TM_DATA_0, SPECIES_BASCULEGION_TM_DATA_1, SPECIES_BASCULEGION_TM_DATA_2, SPECIES_BASCULEGION_TM_DATA_3
+
+
+mondata SPECIES_MAUSHOLD_FAMILY_OF_THREE, "-----"
+    basestats 74, 75, 70, 111, 65, 75
+    types TYPE_NORMAL, TYPE_NORMAL
+    catchrate 75
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 0, 0, 2, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 255
+    eggcycles 10
+    basefriendship 50
+    growthrate GROWTH_FAST
+    egggroups EGG_GROUP_FIELD, EGG_GROUP_FAIRY
+    abilities ABILITY_FRIEND_GUARD, ABILITY_CHEEK_POUCH
+    runchance 0
+    colorflip BODY_COLOR_WHITE, 0
+    tmdata SPECIES_MAUSHOLD_TM_DATA_0, SPECIES_MAUSHOLD_TM_DATA_1, SPECIES_MAUSHOLD_TM_DATA_2, SPECIES_MAUSHOLD_TM_DATA_3
+
+
+mondata SPECIES_SQUAWKABILLY_BLUE_PLUMAGE, "-----"
+    basestats 82, 96, 51, 92, 45, 51
+    types TYPE_NORMAL, TYPE_FLYING
+    catchrate 190
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 1, 0, 0, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 127
+    eggcycles 15
+    basefriendship 50
+    growthrate GROWTH_ERRATIC
+    egggroups EGG_GROUP_FLYING, EGG_GROUP_FLYING
+    abilities ABILITY_INTIMIDATE, ABILITY_HUSTLE
+    runchance 0
+    colorflip BODY_COLOR_GREEN, 0
+    tmdata SPECIES_SQUAWKABILLY_TM_DATA_0, SPECIES_SQUAWKABILLY_TM_DATA_1, SPECIES_SQUAWKABILLY_TM_DATA_2, SPECIES_SQUAWKABILLY_TM_DATA_3
+
+
+mondata SPECIES_SQUAWKABILLY_YELLOW_PLUMAGE, "-----"
+    basestats 82, 96, 51, 92, 45, 51
+    types TYPE_NORMAL, TYPE_FLYING
+    catchrate 190
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 1, 0, 0, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 127
+    eggcycles 15
+    basefriendship 50
+    growthrate GROWTH_ERRATIC
+    egggroups EGG_GROUP_FLYING, EGG_GROUP_FLYING
+    abilities ABILITY_INTIMIDATE, ABILITY_HUSTLE
+    runchance 0
+    colorflip BODY_COLOR_GREEN, 0
+    tmdata SPECIES_SQUAWKABILLY_TM_DATA_0, SPECIES_SQUAWKABILLY_TM_DATA_1, SPECIES_SQUAWKABILLY_TM_DATA_2, SPECIES_SQUAWKABILLY_TM_DATA_3
+
+
+mondata SPECIES_SQUAWKABILLY_WHITE_PLUMAGE, "-----"
+    basestats 82, 96, 51, 92, 45, 51
+    types TYPE_NORMAL, TYPE_FLYING
+    catchrate 190
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 1, 0, 0, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 127
+    eggcycles 15
+    basefriendship 50
+    growthrate GROWTH_ERRATIC
+    egggroups EGG_GROUP_FLYING, EGG_GROUP_FLYING
+    abilities ABILITY_INTIMIDATE, ABILITY_HUSTLE
+    runchance 0
+    colorflip BODY_COLOR_GREEN, 0
+    tmdata SPECIES_SQUAWKABILLY_TM_DATA_0, SPECIES_SQUAWKABILLY_TM_DATA_1, SPECIES_SQUAWKABILLY_TM_DATA_2, SPECIES_SQUAWKABILLY_TM_DATA_3
+
+
+mondata SPECIES_PALAFIN_HERO, "-----"
+    basestats 100, 160, 97, 100, 106, 87
+    types TYPE_WATER, TYPE_WATER
+    catchrate 45
+    baseexp 0 // defined in baseexp.s
+    evyields 2, 0, 0, 0, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 127
+    eggcycles 40
+    basefriendship 50
+    growthrate GROWTH_SLOW
+    egggroups EGG_GROUP_FIELD, EGG_GROUP_WATER_2
+    abilities ABILITY_ZERO_TO_HERO, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_BLUE, 0
+    tmdata SPECIES_PALAFIN_TM_DATA_0, SPECIES_PALAFIN_TM_DATA_1, SPECIES_PALAFIN_TM_DATA_2, SPECIES_PALAFIN_TM_DATA_3
+
+
+mondata SPECIES_TATSUGIRI_DROOPY, "-----"
+    basestats 68, 50, 60, 82, 120, 95
+    types TYPE_DRAGON, TYPE_WATER
+    catchrate 100
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 0, 0, 0, 2, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 127
+    eggcycles 35
+    basefriendship 50
+    growthrate GROWTH_MEDIUM_SLOW
+    egggroups EGG_GROUP_WATER_2, EGG_GROUP_WATER_2
+    abilities ABILITY_COMMANDER, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_PINK, 0
+    tmdata SPECIES_TATSUGIRI_TM_DATA_0, SPECIES_TATSUGIRI_TM_DATA_1, SPECIES_TATSUGIRI_TM_DATA_2, SPECIES_TATSUGIRI_TM_DATA_3
+
+
+mondata SPECIES_TATSUGIRI_STRETCHY, "-----"
+    basestats 68, 50, 60, 82, 120, 95
+    types TYPE_DRAGON, TYPE_WATER
+    catchrate 100
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 0, 0, 0, 2, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 127
+    eggcycles 35
+    basefriendship 50
+    growthrate GROWTH_MEDIUM_SLOW
+    egggroups EGG_GROUP_WATER_2, EGG_GROUP_WATER_2
+    abilities ABILITY_COMMANDER, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_PINK, 0
+    tmdata SPECIES_TATSUGIRI_TM_DATA_0, SPECIES_TATSUGIRI_TM_DATA_1, SPECIES_TATSUGIRI_TM_DATA_2, SPECIES_TATSUGIRI_TM_DATA_3
+
+
+mondata SPECIES_DUDUNSPARCE_THREE_SEGMENT, "-----"
+    basestats 125, 100, 80, 55, 85, 75
+    types TYPE_NORMAL, TYPE_NORMAL
+    catchrate 45
+    baseexp 0 // defined in baseexp.s
+    evyields 2, 0, 0, 0, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 127
+    eggcycles 20
+    basefriendship 50
+    growthrate GROWTH_MEDIUM_FAST
+    egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
+    abilities ABILITY_SERENE_GRACE, ABILITY_RUN_AWAY
+    runchance 0
+    colorflip BODY_COLOR_YELLOW, 0
+    tmdata SPECIES_DUDUNSPARCE_TM_DATA_0, SPECIES_DUDUNSPARCE_TM_DATA_1, SPECIES_DUDUNSPARCE_TM_DATA_2, SPECIES_DUDUNSPARCE_TM_DATA_3
+
+
+mondata SPECIES_GIMMIGHOUL_ROAMING, "-----"
+    basestats 45, 30, 25, 80, 75, 45
+    types TYPE_GHOST, TYPE_GHOST
+    catchrate 45
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 0, 0, 0, 1, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 255
+    eggcycles 50
+    basefriendship 50
+    growthrate GROWTH_SLOW
+    egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
+    abilities ABILITY_RATTLED, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_BROWN, 0
+    tmdata SPECIES_GIMMIGHOUL_TM_DATA_0, SPECIES_GIMMIGHOUL_TM_DATA_1, SPECIES_GIMMIGHOUL_TM_DATA_2, SPECIES_GIMMIGHOUL_TM_DATA_3
+
+
+mondata SPECIES_TERAPAGOS_TERASTAL, "-----"
+    basestats 0, 0, 0, 0, 0, 0
+    types TYPE_NORMAL, TYPE_NORMAL
+    catchrate 0
+    baseexp 0
+    evyields 0, 0, 0, 0, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 0
+    eggcycles 0
+    basefriendship 0
+    growthrate GROWTH_MEDIUM_FAST
+    egggroups EGG_GROUP_NONE, EGG_GROUP_NONE
+    abilities ABILITY_NONE, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_RED, 0
+    tmdata SPECIES_TERAPAGOS_TM_DATA_0, SPECIES_TERAPAGOS_TM_DATA_1, SPECIES_TERAPAGOS_TM_DATA_2, SPECIES_TERAPAGOS_TM_DATA_3
+
+
+mondata SPECIES_WOOPER_PALDEAN, "-----"
+    basestats 55, 45, 45, 15, 25, 25
+    types TYPE_POISON, TYPE_GROUND
+    catchrate 255
+    baseexp 0 // defined in baseexp.s
+    evyields 1, 0, 0, 0, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 127
+    eggcycles 20
+    basefriendship 50
+    growthrate GROWTH_MEDIUM_FAST
+    egggroups EGG_GROUP_WATER_1, EGG_GROUP_FIELD
+    abilities ABILITY_DAMP, ABILITY_WATER_ABSORB
+    runchance 0
+    colorflip BODY_COLOR_BLUE, 0
+    tmdata SPECIES_WOOPER_TM_DATA_0, SPECIES_WOOPER_TM_DATA_1, SPECIES_WOOPER_TM_DATA_2, SPECIES_WOOPER_TM_DATA_3
+
+
+mondata SPECIES_TAUROS_COMBAT, "-----"
+    basestats 75, 110, 105, 100, 30, 70
+    types TYPE_FIGHTING, TYPE_FIGHTING
+    catchrate 45
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 1, 0, 1, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 255
+    eggcycles 20
+    basefriendship 50
+    growthrate GROWTH_SLOW
+    egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
+    abilities ABILITY_INTIMIDATE, ABILITY_ANGER_POINT
+    runchance 0
+    colorflip BODY_COLOR_BROWN, 0
+    tmdata SPECIES_TAUROS_TM_DATA_0, SPECIES_TAUROS_TM_DATA_1, SPECIES_TAUROS_TM_DATA_2, SPECIES_TAUROS_TM_DATA_3
+
+
+mondata SPECIES_TAUROS_BLAZE, "-----"
+    basestats 75, 110, 105, 100, 30, 70
+    types TYPE_FIGHTING, TYPE_FIRE
+    catchrate 45
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 1, 0, 1, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 255
+    eggcycles 20
+    basefriendship 50
+    growthrate GROWTH_SLOW
+    egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
+    abilities ABILITY_INTIMIDATE, ABILITY_ANGER_POINT
+    runchance 0
+    colorflip BODY_COLOR_BROWN, 0
+    tmdata SPECIES_TAUROS_TM_DATA_0, SPECIES_TAUROS_TM_DATA_1, SPECIES_TAUROS_TM_DATA_2, SPECIES_TAUROS_TM_DATA_3
+
+
+mondata SPECIES_TAUROS_AQUA, "-----"
+    basestats 75, 110, 105, 100, 30, 70
+    types TYPE_FIGHTING, TYPE_WATER
+    catchrate 45
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 1, 0, 1, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 255
+    eggcycles 20
+    basefriendship 50
+    growthrate GROWTH_SLOW
+    egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
+    abilities ABILITY_INTIMIDATE, ABILITY_ANGER_POINT
+    runchance 0
+    colorflip BODY_COLOR_BROWN, 0
+    tmdata SPECIES_TAUROS_TM_DATA_0, SPECIES_TAUROS_TM_DATA_1, SPECIES_TAUROS_TM_DATA_2, SPECIES_TAUROS_TM_DATA_3
+
+
+mondata SPECIES_OINKOLOGNE_FEMALE, "-----"
+    basestats 110, 100, 75, 65, 59, 80
+    types TYPE_NORMAL, TYPE_NORMAL
+    catchrate 100
+    baseexp 0 // defined in baseexp.s
+    evyields 2, 0, 0, 0, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 255
+    eggcycles 15
+    basefriendship 50
+    growthrate GROWTH_MEDIUM_FAST
+    egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
+    abilities ABILITY_LINGERING_AROMA, ABILITY_GLUTTONY
+    runchance 0
+    colorflip BODY_COLOR_GRAY, 0
+    tmdata SPECIES_OINKOLOGNE_TM_DATA_0, SPECIES_OINKOLOGNE_TM_DATA_1, SPECIES_OINKOLOGNE_TM_DATA_2, SPECIES_OINKOLOGNE_TM_DATA_3
+
+
+mondata SPECIES_REVAVROOM_SEGIN, "-----"
+    basestats 80, 119, 90, 90, 54, 67
+    types TYPE_STEEL, TYPE_POISON
+    catchrate 75
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 2, 0, 0, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 127
+    eggcycles 20
+    basefriendship 50
+    growthrate GROWTH_MEDIUM_FAST
+    egggroups EGG_GROUP_MINERAL, EGG_GROUP_MINERAL
+    abilities ABILITY_OVERCOAT, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_GRAY, 0
+    tmdata SPECIES_REVAVROOM_TM_DATA_0, SPECIES_REVAVROOM_TM_DATA_1, SPECIES_REVAVROOM_TM_DATA_2, SPECIES_REVAVROOM_TM_DATA_3
+
+
+mondata SPECIES_REVAVROOM_SCHEDAR, "-----"
+    basestats 80, 119, 90, 90, 54, 67
+    types TYPE_STEEL, TYPE_POISON
+    catchrate 75
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 2, 0, 0, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 127
+    eggcycles 20
+    basefriendship 50
+    growthrate GROWTH_MEDIUM_FAST
+    egggroups EGG_GROUP_MINERAL, EGG_GROUP_MINERAL
+    abilities ABILITY_OVERCOAT, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_GRAY, 0
+    tmdata SPECIES_REVAVROOM_TM_DATA_0, SPECIES_REVAVROOM_TM_DATA_1, SPECIES_REVAVROOM_TM_DATA_2, SPECIES_REVAVROOM_TM_DATA_3
+
+
+mondata SPECIES_REVAVROOM_NAVI, "-----"
+    basestats 80, 119, 90, 90, 54, 67
+    types TYPE_STEEL, TYPE_POISON
+    catchrate 75
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 2, 0, 0, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 127
+    eggcycles 20
+    basefriendship 50
+    growthrate GROWTH_MEDIUM_FAST
+    egggroups EGG_GROUP_MINERAL, EGG_GROUP_MINERAL
+    abilities ABILITY_OVERCOAT, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_GRAY, 0
+    tmdata SPECIES_REVAVROOM_TM_DATA_0, SPECIES_REVAVROOM_TM_DATA_1, SPECIES_REVAVROOM_TM_DATA_2, SPECIES_REVAVROOM_TM_DATA_3
+
+
+mondata SPECIES_REVAVROOM_RUCHBAH, "-----"
+    basestats 80, 119, 90, 90, 54, 67
+    types TYPE_STEEL, TYPE_POISON
+    catchrate 75
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 2, 0, 0, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 127
+    eggcycles 20
+    basefriendship 50
+    growthrate GROWTH_MEDIUM_FAST
+    egggroups EGG_GROUP_MINERAL, EGG_GROUP_MINERAL
+    abilities ABILITY_OVERCOAT, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_GRAY, 0
+    tmdata SPECIES_REVAVROOM_TM_DATA_0, SPECIES_REVAVROOM_TM_DATA_1, SPECIES_REVAVROOM_TM_DATA_2, SPECIES_REVAVROOM_TM_DATA_3
+
+
+mondata SPECIES_REVAVROOM_CAPH , "-----"
+    basestats 80, 119, 90, 90, 54, 67
+    types TYPE_STEEL, TYPE_POISON
+    catchrate 75
+    baseexp 0 // defined in baseexp.s
+    evyields 0, 2, 0, 0, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 127
+    eggcycles 20
+    basefriendship 50
+    growthrate GROWTH_MEDIUM_FAST
+    egggroups EGG_GROUP_MINERAL, EGG_GROUP_MINERAL
+    abilities ABILITY_OVERCOAT, ABILITY_NONE
+    runchance 0
+    colorflip BODY_COLOR_GRAY, 0
+    tmdata SPECIES_REVAVROOM_TM_DATA_0, SPECIES_REVAVROOM_TM_DATA_1, SPECIES_REVAVROOM_TM_DATA_2, SPECIES_REVAVROOM_TM_DATA_3

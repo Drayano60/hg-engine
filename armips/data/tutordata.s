@@ -4505,22 +4505,48 @@ tutordata SPECIES_KOMMO_O, \
                   \
                   0
 
-tutordata SPECIES_ANNIHILAPE,\
-TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_FIRE_PUNCH,\
-TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_CLOSE_COMBAT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_GUNK_SHOT | TUTOR_MOVE_OUTRAGE
+tutordata SPECIES_TAPU_KOKO, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
 
-tutordata SPECIES_FARIGIRAF,\
-TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_PSYBEAM | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_TRAILBLAZE,\
-TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_PSYCHIC_FANGS | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_STORED_POWER
 
-tutordata SPECIES_DUDUNSPARCE,\
-TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_GYRO_BALL | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_POUNCE | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_DRAGON_TAIL | TUTOR_MOVE_DRILL_RUN | TUTOR_MOVE_DUAL_WINGBEAT,\
-TUTOR_MOVE_HEX | TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_HEAVY_SLAM | TUTOR_MOVE_HURRICANE | TUTOR_MOVE_OUTRAGE | TUTOR_MOVE_STORED_POWER | TUTOR_MOVE_WILD_CHARGE
+tutordata SPECIES_TAPU_LELE, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
 
-// NEW: Double-Edge
-tutordata SPECIES_KINGAMBIT,\
-TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_LOW_KICK,\
-TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_DOUBLE_EDGE
+
+tutordata SPECIES_TAPU_BULU, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_TAPU_FINI, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
 
 tutordata SPECIES_COSMOG, \
                   \
@@ -6590,16 +6616,9 @@ tutordata SPECIES_TATSUGIRI, \
                   0
 
 
-tutordata SPECIES_ANNIHILAPE, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
+tutordata SPECIES_ANNIHILAPE,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_CLOSE_COMBAT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_GUNK_SHOT | TUTOR_MOVE_OUTRAGE
 
 tutordata SPECIES_CLODSIRE, \
                   \
@@ -6611,38 +6630,18 @@ tutordata SPECIES_CLODSIRE, \
                   \
                   0
 
+tutordata SPECIES_FARIGIRAF,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_PSYBEAM | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_TRAILBLAZE,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_PSYCHIC_FANGS | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_STORED_POWER
 
-tutordata SPECIES_FARIGIRAF, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
+tutordata SPECIES_DUDUNSPARCE,\
+TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_GYRO_BALL | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_POUNCE | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_DRAGON_TAIL | TUTOR_MOVE_DRILL_RUN | TUTOR_MOVE_DUAL_WINGBEAT,\
+TUTOR_MOVE_HEX | TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_HEAVY_SLAM | TUTOR_MOVE_HURRICANE | TUTOR_MOVE_OUTRAGE | TUTOR_MOVE_STORED_POWER | TUTOR_MOVE_WILD_CHARGE
 
-
-tutordata SPECIES_DUDUNSPARCE, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_KINGAMBIT, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
+// NEW: Double-Edge
+tutordata SPECIES_KINGAMBIT,\
+TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_LOW_KICK,\
+TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_DOUBLE_EDGE
 
 
 tutordata SPECIES_GREAT_TUSK, \

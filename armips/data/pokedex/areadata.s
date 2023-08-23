@@ -29233,131 +29233,131 @@ routesandcities SPECIES_KOMMO_O, DEX_SPECIAL
     dexendareadata
 
 
-specialareas SPECIES_ANNIHILAPE, DEX_MORNING
+specialareas SPECIES_TAPU_KOKO, DEX_MORNING
     dexendareadata
 
 
-specialareas SPECIES_ANNIHILAPE, DEX_DAY
+specialareas SPECIES_TAPU_KOKO, DEX_DAY
     dexendareadata
 
 
-specialareas SPECIES_ANNIHILAPE, DEX_NIGHT
+specialareas SPECIES_TAPU_KOKO, DEX_NIGHT
     dexendareadata
 
 
-routesandcities SPECIES_ANNIHILAPE, DEX_MORNING
+routesandcities SPECIES_TAPU_KOKO, DEX_MORNING
     dexendareadata
 
 
-routesandcities SPECIES_ANNIHILAPE, DEX_DAY
+routesandcities SPECIES_TAPU_KOKO, DEX_DAY
     dexendareadata
 
 
-routesandcities SPECIES_ANNIHILAPE, DEX_NIGHT
+routesandcities SPECIES_TAPU_KOKO, DEX_NIGHT
     dexendareadata
 
 
-specialareas SPECIES_ANNIHILAPE, DEX_SPECIAL
+specialareas SPECIES_TAPU_KOKO, DEX_SPECIAL
     dexendareadata
 
 
-routesandcities SPECIES_ANNIHILAPE, DEX_SPECIAL
+routesandcities SPECIES_TAPU_KOKO, DEX_SPECIAL
     dexendareadata
 
 
-specialareas SPECIES_FARIGIRAF, DEX_MORNING
+specialareas SPECIES_TAPU_LELE, DEX_MORNING
     dexendareadata
 
 
-specialareas SPECIES_FARIGIRAF, DEX_DAY
+specialareas SPECIES_TAPU_LELE, DEX_DAY
     dexendareadata
 
 
-specialareas SPECIES_FARIGIRAF, DEX_NIGHT
+specialareas SPECIES_TAPU_LELE, DEX_NIGHT
     dexendareadata
 
 
-routesandcities SPECIES_FARIGIRAF, DEX_MORNING
+routesandcities SPECIES_TAPU_LELE, DEX_MORNING
     dexendareadata
 
 
-routesandcities SPECIES_FARIGIRAF, DEX_DAY
+routesandcities SPECIES_TAPU_LELE, DEX_DAY
     dexendareadata
 
 
-routesandcities SPECIES_FARIGIRAF, DEX_NIGHT
+routesandcities SPECIES_TAPU_LELE, DEX_NIGHT
     dexendareadata
 
 
-specialareas SPECIES_FARIGIRAF, DEX_SPECIAL
+specialareas SPECIES_TAPU_LELE, DEX_SPECIAL
     dexendareadata
 
 
-routesandcities SPECIES_FARIGIRAF, DEX_SPECIAL
+routesandcities SPECIES_TAPU_LELE, DEX_SPECIAL
     dexendareadata
 
 
-specialareas SPECIES_DUDUNSPARCE, DEX_MORNING
+specialareas SPECIES_TAPU_BULU, DEX_MORNING
     dexendareadata
 
 
-specialareas SPECIES_DUDUNSPARCE, DEX_DAY
+specialareas SPECIES_TAPU_BULU, DEX_DAY
     dexendareadata
 
 
-specialareas SPECIES_DUDUNSPARCE, DEX_NIGHT
+specialareas SPECIES_TAPU_BULU, DEX_NIGHT
     dexendareadata
 
 
-routesandcities SPECIES_DUDUNSPARCE, DEX_MORNING
+routesandcities SPECIES_TAPU_BULU, DEX_MORNING
     dexendareadata
 
 
-routesandcities SPECIES_DUDUNSPARCE, DEX_DAY
+routesandcities SPECIES_TAPU_BULU, DEX_DAY
     dexendareadata
 
 
-routesandcities SPECIES_DUDUNSPARCE, DEX_NIGHT
+routesandcities SPECIES_TAPU_BULU, DEX_NIGHT
     dexendareadata
 
 
-specialareas SPECIES_DUDUNSPARCE, DEX_SPECIAL
+specialareas SPECIES_TAPU_BULU, DEX_SPECIAL
     dexendareadata
 
 
-routesandcities SPECIES_DUDUNSPARCE, DEX_SPECIAL
+routesandcities SPECIES_TAPU_BULU, DEX_SPECIAL
     dexendareadata
 
 
-specialareas SPECIES_KINGAMBIT, DEX_MORNING
+specialareas SPECIES_TAPU_FINI, DEX_MORNING
     dexendareadata
 
 
-specialareas SPECIES_KINGAMBIT, DEX_DAY
+specialareas SPECIES_TAPU_FINI, DEX_DAY
     dexendareadata
 
 
-specialareas SPECIES_KINGAMBIT, DEX_NIGHT
+specialareas SPECIES_TAPU_FINI, DEX_NIGHT
     dexendareadata
 
 
-routesandcities SPECIES_KINGAMBIT, DEX_MORNING
+routesandcities SPECIES_TAPU_FINI, DEX_MORNING
     dexendareadata
 
 
-routesandcities SPECIES_KINGAMBIT, DEX_DAY
+routesandcities SPECIES_TAPU_FINI, DEX_DAY
     dexendareadata
 
 
-routesandcities SPECIES_KINGAMBIT, DEX_NIGHT
+routesandcities SPECIES_TAPU_FINI, DEX_NIGHT
     dexendareadata
 
 
-specialareas SPECIES_KINGAMBIT, DEX_SPECIAL
+specialareas SPECIES_TAPU_FINI, DEX_SPECIAL
     dexendareadata
 
 
-routesandcities SPECIES_KINGAMBIT, DEX_SPECIAL
+routesandcities SPECIES_TAPU_FINI, DEX_SPECIAL
     dexendareadata
 
 

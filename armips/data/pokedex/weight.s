@@ -841,10 +841,10 @@
 /* SPECIES_JANGMO_O        */ .word 297
 /* SPECIES_HAKAMO_O        */ .word 470
 /* SPECIES_KOMMO_O         */ .word 782
-/* SPECIES_ANNIHILAPE      */ .word 560
-/* SPECIES_FARIGIRAF       */ .word 1600
-/* SPECIES_DUDUNSPARCE     */ .word 392 /* Using 2 segment */
-/* SPECIES_KINGAMBIT       */ .word 1200
+/* SPECIES_TAPU_KOKO       */ .word 205
+/* SPECIES_TAPU_LELE       */ .word 186
+/* SPECIES_TAPU_BULU       */ .word 455
+/* SPECIES_TAPU_FINI       */ .word 212
 /* SPECIES_COSMOG          */ .word 1
 /* SPECIES_COSMOEM         */ .word 9999
 /* SPECIES_SOLGALEO        */ .word 2300

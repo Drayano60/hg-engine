@@ -25097,6 +25097,7 @@ mondata SPECIES_CLODSIRE, "Clodsire"
     mondexweight SPECIES_CLODSIRE, "491.6 lbs."
 
 
+// ABILITY: Armor Tail (1) -- no cud chew
 mondata SPECIES_FARIGIRAF, "Farigiraf"
     basestats 120, 90, 70, 60, 110, 70
     types TYPE_NORMAL, TYPE_PSYCHIC
@@ -25109,7 +25110,7 @@ mondata SPECIES_FARIGIRAF, "Farigiraf"
     basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_CUD_CHEW, ABILITY_ARMOR_TAIL
+    abilities ABILITY_ARMOR_TAIL, ABILITY_ARMOR_TAIL
     runchance 0
     colorflip BODY_COLOR_BROWN, 0
     tmdata SPECIES_FARIGIRAF_TM_DATA_0, SPECIES_FARIGIRAF_TM_DATA_1, SPECIES_FARIGIRAF_TM_DATA_2, SPECIES_FARIGIRAF_TM_DATA_3

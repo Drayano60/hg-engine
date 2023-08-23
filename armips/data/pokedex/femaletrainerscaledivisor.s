@@ -842,10 +842,10 @@
 /* SPECIES_JANGMO_O        */ .halfword 0x110
 /* SPECIES_HAKAMO_O        */ .halfword 0x110
 /* SPECIES_KOMMO_O         */ .halfword 0x110
-/* SPECIES_ANNIHILAPE      */ .halfword 0x110
-/* SPECIES_FARIGIRAF       */ .halfword 0x110
-/* SPECIES_DUDUNSPARCE     */ .halfword 0x110
-/* SPECIES_KINGAMBIT       */ .halfword 0x110
+/* SPECIES_TAPU_KOKO       */ .halfword 0x110
+/* SPECIES_TAPU_LELE       */ .halfword 0x110
+/* SPECIES_TAPU_BULU       */ .halfword 0x110
+/* SPECIES_TAPU_FINI       */ .halfword 0x110
 /* SPECIES_COSMOG          */ .halfword 0x110
 /* SPECIES_COSMOEM         */ .halfword 0x110
 /* SPECIES_SOLGALEO        */ .halfword 0x110

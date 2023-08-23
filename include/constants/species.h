@@ -839,22 +839,10 @@
 #define SPECIES_JANGMO_O 832
 #define SPECIES_HAKAMO_O 833
 #define SPECIES_KOMMO_O 834
-
-/*
 #define SPECIES_TAPU_KOKO 835
 #define SPECIES_TAPU_LELE 836
 #define SPECIES_TAPU_BULU 837
-#define SPECIES_TAPU_LELE 838
-
-Paldean evolutions replace Tapus as adding new slots is too much of a faff.
-Can't really make any use of the Tapu without terrains anyway!
-*/
-
-#define SPECIES_ANNIHILAPE 835
-#define SPECIES_FARIGIRAF 836
-#define SPECIES_DUDUNSPARCE 837
-#define SPECIES_KINGAMBIT 838
-
+#define SPECIES_TAPU_FINI 838
 #define SPECIES_COSMOG 839
 #define SPECIES_COSMOEM 840
 #define SPECIES_SOLGALEO 841

@@ -20,7 +20,7 @@
 
 
 .org 0x021E5AA2 // expand the ram usable by the dex (give about 12 more kb just in case)
-    mov r2, #0x64 // old:  mov r2, #0x61
+    mov r2, #0x67 // old:  mov r2, #0x61
     // later lsld by 0xC to get space to pass to 0x201A910
 
 
@@ -1596,7 +1596,7 @@ SetMonCaught: // 0x0202A434
     add r3, r5, r0
 //    add r3, #0x44 // here
     push {r0}
-    mov r0, #SEEN_FLAGS_OFFSET >> 4 ///////////////////////////////////
+    mov r0, #SEEN_FLAGS_OFFSET >> 4
     lsl r0, #4
     add r3, r0 // net +4
     pop {r0}

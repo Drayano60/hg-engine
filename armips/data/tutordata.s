@@ -4505,22 +4505,48 @@ tutordata SPECIES_KOMMO_O, \
                   \
                   0
 
-tutordata SPECIES_ANNIHILAPE,\
-TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_FIRE_PUNCH,\
-TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_CLOSE_COMBAT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_GUNK_SHOT | TUTOR_MOVE_OUTRAGE
+tutordata SPECIES_TAPU_KOKO, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
 
-tutordata SPECIES_FARIGIRAF,\
-TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_PSYBEAM | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_TRAILBLAZE,\
-TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_PSYCHIC_FANGS | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_STORED_POWER
 
-tutordata SPECIES_DUDUNSPARCE,\
-TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_GYRO_BALL | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_POUNCE | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_DRAGON_TAIL | TUTOR_MOVE_DRILL_RUN | TUTOR_MOVE_DUAL_WINGBEAT,\
-TUTOR_MOVE_HEX | TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_HEAVY_SLAM | TUTOR_MOVE_HURRICANE | TUTOR_MOVE_OUTRAGE | TUTOR_MOVE_STORED_POWER | TUTOR_MOVE_WILD_CHARGE
+tutordata SPECIES_TAPU_LELE, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
 
-// NEW: Double-Edge
-tutordata SPECIES_KINGAMBIT,\
-TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_LOW_KICK,\
-TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_DOUBLE_EDGE
+
+tutordata SPECIES_TAPU_BULU, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_TAPU_FINI, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
 
 tutordata SPECIES_COSMOG, \
                   \
@@ -5777,6 +5803,1233 @@ tutordata SPECIES_OVERQWIL, \
 
 
 tutordata SPECIES_ENAMORUS, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_SPRIGATITO, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_FLORAGATO, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_MEOWSCARADA, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_FUECOCO, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_CROCALOR, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_SKELEDIRGE, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_QUAXLY, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_QUAXWELL, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_QUAQUAVAL, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_LECHONK, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_OINKOLOGNE, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_TAROUNTULA, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_SPIDOPS, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_NYMBLE, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_LOKIX, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_PAWMI, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_PAWMO, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_PAWMOT, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_TANDEMAUS, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_MAUSHOLD, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_FIDOUGH, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_DACHSBUN, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_SMOLIV, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_DOLLIV, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_ARBOLIVA, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_SQUAWKABILLY, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_NACLI, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_NACLSTACK, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_GARGANACL, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_CHARCADET, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_ARMAROUGE, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_CERULEDGE, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_TADBULB, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_BELLIBOLT, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_WATTREL, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_KILOWATTREL, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_MASCHIFF, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_MABOSSTIFF, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_SHROODLE, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_GRAFAIAI, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_BRAMBLIN, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_BRAMBLEGHAST, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_TOEDSCOOL, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_TOEDSCRUEL, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_KLAWF, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_CAPSAKID, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_SCOVILLAIN, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_RELLOR, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_RABSCA, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_FLITTLE, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_ESPATHRA, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_TINKATINK, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_TINKATUFF, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_TINKATON, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_WIGLETT, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_WUGTRIO, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_BOMBIRDIER, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_FINIZEN, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_PALAFIN, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_VAROOM, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_REVAVROOM, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_CYCLIZAR, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_ORTHWORM, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_GLIMMET, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_GLIMMORA, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_GREAVARD, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_HOUNDSTONE, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_FLAMIGO, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_CETODDLE, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_CETITAN, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_VELUZA, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_DONDOZO, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_TATSUGIRI, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_ANNIHILAPE,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_CLOSE_COMBAT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_GUNK_SHOT | TUTOR_MOVE_OUTRAGE
+
+tutordata SPECIES_CLODSIRE, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+tutordata SPECIES_FARIGIRAF,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_PSYBEAM | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_TRAILBLAZE,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_PSYCHIC_FANGS | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_STORED_POWER
+
+tutordata SPECIES_DUDUNSPARCE,\
+TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_GYRO_BALL | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_POUNCE | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_DRAGON_TAIL | TUTOR_MOVE_DRILL_RUN | TUTOR_MOVE_DUAL_WINGBEAT,\
+TUTOR_MOVE_HEX | TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_HEAVY_SLAM | TUTOR_MOVE_HURRICANE | TUTOR_MOVE_OUTRAGE | TUTOR_MOVE_STORED_POWER | TUTOR_MOVE_WILD_CHARGE
+
+// NEW: Double-Edge
+tutordata SPECIES_KINGAMBIT,\
+TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_LOW_KICK,\
+TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_DOUBLE_EDGE
+
+
+tutordata SPECIES_GREAT_TUSK, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_SCREAM_TAIL, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_BRUTE_BONNET, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_FLUTTER_MANE, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_SLITHER_WING, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_SANDY_SHOCKS, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_IRON_TREADS, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_IRON_BUNDLE, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_IRON_HANDS, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_IRON_JUGULIS, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_IRON_MOTH, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_IRON_THORNS, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_FRIGIBAX, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_ARCTIBAX, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_BAXCALIBUR, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_GIMMIGHOUL, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_GHOLDENGO, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_WO_CHIEN, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_CHIEN_PAO, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_TING_LU, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_CHI_YU, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_ROARING_MOON, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_IRON_VALIANT, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_KORAIDON, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_MIRAIDON, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_WALKING_WAKE, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_IRON_LEAVES, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_DIPPLIN, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_ARCHALUDON, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_RAGING_BOLT, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_IRON_CROWN, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_OGERPON, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_OKIDOGI, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_MUNKIDORI, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_FEZANDIPITI, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_TERAPAGOS, \
                   \
                   \
                   \
@@ -8192,6 +9445,226 @@ tutordata SPECIES_INDEEDEE_FEMALE, \
 
 
 tutordata SPECIES_BASCULEGION_FEMALE, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_MAUSHOLD_FAMILY_OF_THREE, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_SQUAWKABILLY_BLUE_PLUMAGE, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_SQUAWKABILLY_YELLOW_PLUMAGE, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_SQUAWKABILLY_WHITE_PLUMAGE, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_PALAFIN_HERO, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_TATSUGIRI_DROOPY, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_TATSUGIRI_STRETCHY, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_DUDUNSPARCE_THREE_SEGMENT, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_GIMMIGHOUL_ROAMING, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_TERAPAGOS_TERASTAL, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_WOOPER_PALDEAN, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_TAUROS_COMBAT, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_TAUROS_BLAZE, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_TAUROS_AQUA, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_OINKOLOGNE_FEMALE, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_REVAVROOM_SEGIN, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_REVAVROOM_SCHEDAR, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_REVAVROOM_NAVI, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_REVAVROOM_RUCHBAH, \
+                  \
+                  \
+                  \
+                  0, \
+                  \
+                  \
+                  \
+                  0
+
+
+tutordata SPECIES_REVAVROOM_CAPH, \
                   \
                   \
                   \

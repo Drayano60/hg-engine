@@ -133,7 +133,7 @@
 //.halfword SPECIES_GOLISOPOD
 //.halfword SPECIES_PYUKUMUKU
 //.halfword SPECIES_BRUXISH
-//.halfword SPECIES_KINGAMBIT
+//.halfword SPECIES_TAPU_FINI
 //.halfword SPECIES_SOBBLE
 //.halfword SPECIES_DRIZZILE
 //.halfword SPECIES_INTELEON

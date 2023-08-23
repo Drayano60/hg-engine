@@ -7637,8 +7637,7 @@ levelup SPECIES_SURSKIT
     learnset MOVE_AQUA_JET, 26
     learnset MOVE_BATON_PASS, 30
     learnset MOVE_RAIN_DANCE, 34
-    learnset MOVE_GIGA_DRAIN, 38
-    learnset MOVE_BUG_BUZZ, 42
+    learnset MOVE_BUG_BUZZ, 38
     terminatelearnset
 
 // NEW: Supersonic (BDSP), Razor Wind
@@ -7662,8 +7661,8 @@ levelup SPECIES_MASQUERAIN
     learnset MOVE_STUN_SPORE, 26
     learnset MOVE_BATON_PASS, 30
     learnset MOVE_AIR_SLASH, 34
-    learnset MOVE_GIGA_DRAIN, 38
-    learnset MOVE_BUG_BUZZ, 42
+    learnset MOVE_BUG_BUZZ, 38
+    learnset MOVE_GIGA_DRAIN, 42
     learnset MOVE_RAZOR_WIND, 46
     learnset MOVE_QUIVER_DANCE, 50
     learnset MOVE_HYDRO_PUMP, 54

@@ -7885,11 +7885,10 @@ movedata MOVE_SMACK_DOWN, "Smack Down"
     terminatedata
     movedescription MOVE_SMACK_DOWN, "A projectile is\nthrown at the\nopponent. A flying\nPokémon will fall\nto the ground."
 
-// POWER: 60 >> 50 (Due to 2x crit multiplier) - this is not optional
 movedata MOVE_STORM_THROW, "Storm Throw"
     battleeffect 282
     pss SPLIT_PHYSICAL
-    basepower 50
+    basepower 60
     type TYPE_FIGHTING
     accuracy 100
     pp 10
@@ -8590,11 +8589,10 @@ movedata MOVE_BULLDOZE, "Bulldoze"
     terminatedata
     movedescription MOVE_BULLDOZE, "The user stomps on\nthe ground, striking\neverything around it.\nThis lowers the Speed\nstat of those hit."
 
-// POWER: 60 >> 50 (Due to 2x crit multiplier) - this is not optional
 movedata MOVE_FROST_BREATH, "Frost Breath"
     battleeffect 282
     pss SPLIT_SPECIAL
-    basepower 50
+    basepower 60
     type TYPE_ICE
     accuracy 90
     pp 10

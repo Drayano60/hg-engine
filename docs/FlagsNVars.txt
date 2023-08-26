@@ -43,6 +43,8 @@ NPCs:
 2139 - Winch button check.
 2140 - TM74 Pollen Puff gift.
 
+2148 - Spiritomb event at Lake of Rage.
+
 2175* - Rocket event active.
 2176 - Rocket event inactive.
 2177 - Cliff Cave battle ended.

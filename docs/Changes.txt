@@ -269,8 +269,10 @@ Route 44
 Ice Path
 ✓ Added an event with Eusine and Rocket Grunts. Following a battle, you get TM03 Psyshock, and then the option to return to Ecruteak (where you can now progress the Burned Tower).
 ✓ The NPC blocking you until you pick up Waterfall has been removed. Waterfall itself is still there though.
-✓ B1F now has a blockade until later.
+✓ B1F now has a blockade until Pryce is defeated. (The player can thus go to Blackthorn once the Radio event starts, but can't battle Clair until after that's done).
 ✓ Added an item ball on 1F containing a Never-Melt Ice.
+✓ TM72 -> TM13 Ice Beam. Iron -> Razor Claw.
+✓ Added one Trainer each to B2F/B3F/B4F with Mickeys (304, 338, 340).
 
 Burned Tower
 ✓ Eusine and Morty's dialogues are modified slightly to reflect the new events.
@@ -377,11 +379,41 @@ Route 43
 ✓ Added a new Bug Catcher with a Mickey (180).
 ✓ Fisherman Marvin's dialogue is modified to reflect his new shiny Magikarp.
 
+Lake of Rage
+✓ North of the lake (where the Choice Specs were previously), there's a sign with some writing. Talk to it at night with an Odd Keystone in your inventory, and a Lv. 40 Spiritomb will appear. After Spiritomb is caught, the sign text changes, the Odd Keystone is removed from the player's inventory and nothing else can happen there. If Spiritomb is not caught, the sign remains as-is and the Odd Keystone is not removed.
+✓ The shiny Gyarados is now Level 40.
+✓ The Choice Specs has been moved off-map.
+✓ Red Flute -> Nugget. TM43 -> Life Orb.
+✓ The NPC in the house now awards TM44 Rest instead of TM10.
+✓ Moved Ace Trainer Alton to the right side of the lake so he's always challengeable. Moved another NPC a bit to make space.
+
+Team Rocket HQ
+✓ Guard Spec -> Dubious Disc. TM46 -> TM79 Dark Pulse. Protein -> TM36 Sludge Bomb. Ultra Ball -> Toxic Orb. X Special -> Linking Cord. TM49 -> Ultra Ball.
+✓ Lance now gives you TM02 Dragon Claw after he heals your Pokémon on the second floor.
+✓ Added a scientist on B1F at a computer who heals you. He also disappears when the Rockets leave.
+✓ Added a new Trainer in the B1F corridor that leads to B2F (Mickey - 306).
+✓ Silver now challenges you to a battle when you meet him outside the B2F office. This uses the battle files from the Goldenrod Tunnel encounter (which has been removed).
+✓ The Petrel fight is removed from the office, he now just now runs off after his dialogue.
+✓ The Ariana fight now has Petrel as a partner instead of a generic Rocket. A little bit of dialogue is added for him.
+✓ The Electrode are now Level 40.
+
+Mahogany Town - Gym
+✓ Pryce's dialogue is edited to remove the erroneous stat boost text, and also mention the Defense boost that Hail now provides to Ice-types.
+
+Whirl Islands
+✓ Ultra Ball -> Dragon Scale.
+✓ Removed the darkness.
+
+Route 45 - North
+✓ Elixir -> Razor Fang.
+✓ Full Heal -> TM75 Swords Dance.
+✓ Moved the Max Potion into a different area, then moved Ace Trainer Kelly into the previous area. (Was originally going to block TM75 but it didn't work out!)
+
+Dark Cave - Blackthorn Side
+✓ TM54 -> Reaper Cloth.
+
 Goldenrod Tunnel (Rocket)
 ✓ TM82 -> TM63 Nasty Plot.
-
-Ice Path
-✓ TM72 -> TM13 Ice Beam.
 
 Route 27
 ✓ An Ace Trainer blocks the Tohjo Falls entrance until Clair is beaten (at which point, Lyra prevents you until you deal with the legendary event).

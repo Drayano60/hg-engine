@@ -69,6 +69,8 @@ LEVEL_ROCKET_HIDEOUT_ADMIN equ 44
 LEVEL_MAHOGANY_GYM equ 43
 LEVEL_PRYCE equ 45
 
+LEVEL_BLACKTHORN_AREAS equ 46
+
 /******************************************** Cherrygrove City ********************************************/
 
 trainerdata 495, "Boy"
@@ -19064,7 +19066,7 @@ party 402
     ivs 0
     abilityslot 0
     level LEVEL_ROUTE_43
-    pokemon SPECIES_CLEFABLE
+    pokemon SPECIES_CLEFAIRY
     item 0
     move MOVE_MOONBLAST
     move MOVE_WAKE_UP_SLAP
@@ -19081,13 +19083,13 @@ party 402
     ivs 0
     abilityslot 0
     level LEVEL_ROUTE_43
-    pokemon SPECIES_AUDINO
+    pokemon SPECIES_CLEFAIRY
     item 0
-    move MOVE_HYPER_VOICE
-    move MOVE_BABY_DOLL_EYES
-    move MOVE_ENCORE
-    move MOVE_YAWN
-    ability ABILITY_REGENERATOR
+    move MOVE_MOONBLAST
+    move MOVE_WAKE_UP_SLAP
+    move MOVE_METRONOME
+    move MOVE_COSMIC_POWER
+    ability ABILITY_CUTE_CHARM
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
     setevs 0, 0, 0, 0, 0, 0
@@ -19098,12 +19100,12 @@ party 402
     ivs 0
     abilityslot 0
     level LEVEL_ROUTE_43
-    pokemon SPECIES_WIGGLYTUFF
+    pokemon SPECIES_CLEFABLE
     item 0
-    move ALLOW_ILLEGAL_MOVES ? MOVE_MOONBLAST : MOVE_DAZZLING_GLEAM
-    move MOVE_HYPER_VOICE
+    move MOVE_MOONBLAST
     move MOVE_WAKE_UP_SLAP
-    move MOVE_DISABLE
+    move MOVE_METRONOME
+    move MOVE_COSMIC_POWER
     ability ABILITY_CUTE_CHARM
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -19446,13 +19448,13 @@ party 466
     ivs 0
     abilityslot 0
     level REMATCH_LEVEL_1
-    pokemon SPECIES_AUDINO
+    pokemon SPECIES_CLEFABLE
     item 0
-    move MOVE_HYPER_VOICE
-    move MOVE_DAZZLING_GLEAM
-    move MOVE_BABY_DOLL_EYES
-    move MOVE_YAWN
-    ability ABILITY_REGENERATOR
+    move MOVE_MOONBLAST
+    move MOVE_FOCUS_BLAST
+    move MOVE_METRONOME
+    move MOVE_COSMIC_POWER
+    ability ABILITY_CUTE_CHARM
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
     setevs 0, 0, 0, 0, 0, 0
@@ -19463,12 +19465,12 @@ party 466
     ivs 0
     abilityslot 0
     level REMATCH_LEVEL_1
-    pokemon SPECIES_WIGGLYTUFF
+    pokemon SPECIES_CLEFABLE
     item 0
-    move ALLOW_ILLEGAL_MOVES ? MOVE_MOONBLAST : MOVE_DAZZLING_GLEAM
-    move MOVE_HYPER_VOICE
+    move MOVE_MOONBLAST
     move MOVE_FOCUS_BLAST
-    move MOVE_DISABLE
+    move MOVE_METRONOME
+    move MOVE_COSMIC_POWER
     ability ABILITY_CUTE_CHARM
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -19512,13 +19514,13 @@ party 467
     ivs 0
     abilityslot 0
     level REMATCH_LEVEL_2
-    pokemon SPECIES_AUDINO
+    pokemon SPECIES_CLEFABLE
     item 0
-    move MOVE_HYPER_VOICE
-    move MOVE_DAZZLING_GLEAM
-    move MOVE_BABY_DOLL_EYES
-    move MOVE_YAWN
-    ability ABILITY_REGENERATOR
+    move MOVE_MOONBLAST
+    move MOVE_FOCUS_BLAST
+    move MOVE_METRONOME
+    move MOVE_COSMIC_POWER
+    ability ABILITY_CUTE_CHARM
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
     setevs 0, 0, 0, 0, 0, 0
@@ -19529,12 +19531,12 @@ party 467
     ivs 0
     abilityslot 0
     level REMATCH_LEVEL_2
-    pokemon SPECIES_WIGGLYTUFF
+    pokemon SPECIES_CLEFABLE
     item 0
-    move ALLOW_ILLEGAL_MOVES ? MOVE_MOONBLAST : MOVE_DAZZLING_GLEAM
-    move MOVE_HYPER_VOICE
+    move MOVE_MOONBLAST
     move MOVE_FOCUS_BLAST
-    move MOVE_DISABLE
+    move MOVE_METRONOME
+    move MOVE_COSMIC_POWER
     ability ABILITY_CUTE_CHARM
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -19578,13 +19580,13 @@ party 522
     ivs 0
     abilityslot 0
     level REMATCH_LEVEL_3
-    pokemon SPECIES_AUDINO
+    pokemon SPECIES_CLEFABLE
     item 0
-    move MOVE_HYPER_VOICE
-    move MOVE_DAZZLING_GLEAM
-    move MOVE_BABY_DOLL_EYES
-    move MOVE_YAWN
-    ability ABILITY_REGENERATOR
+    move MOVE_MOONBLAST
+    move MOVE_FOCUS_BLAST
+    move MOVE_METRONOME
+    move MOVE_COSMIC_POWER
+    ability ABILITY_CUTE_CHARM
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
     setevs 0, 0, 0, 0, 0, 0
@@ -19595,12 +19597,12 @@ party 522
     ivs 0
     abilityslot 0
     level REMATCH_LEVEL_3
-    pokemon SPECIES_WIGGLYTUFF
+    pokemon SPECIES_CLEFABLE
     item 0
-    move ALLOW_ILLEGAL_MOVES ? MOVE_MOONBLAST : MOVE_DAZZLING_GLEAM
-    move MOVE_HYPER_VOICE
+    move MOVE_MOONBLAST
     move MOVE_FOCUS_BLAST
-    move MOVE_DISABLE
+    move MOVE_METRONOME
+    move MOVE_COSMIC_POWER
     ability ABILITY_CUTE_CHARM
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -21140,7 +21142,7 @@ trainerdata 488, "Petrel"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_EXECUTIVE_2
     battletype 0
-    nummons 5
+    nummons 3
     item 0 
     item 0 
     item 0 
@@ -21227,7 +21229,7 @@ party 488
     move MOVE_THUNDERBOLT
     move MOVE_HEAT_WAVE
     move MOVE_TOXIC
-    ability ABILITY_STURDY
+    ability ABILITY_LEVITATE
     ball ITEM_POKE_BALL
     setivs 30, 30, 30, 30, 30, 30
     setevs 0, 0, 0, 0, 0, 0
@@ -21240,7 +21242,7 @@ trainerdata 479, "Ariana"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_EXECUTIVE
     battletype 0
-    nummons 5
+    nummons 3
     item 0 
     item 0 
     item 0 
@@ -21252,7 +21254,7 @@ trainerdata 479, "Ariana"
 party 479
     ivs 0
     abilityslot 0
-    level LEVEL_ROCKET_HIDEOUT_ADMIN
+    level LEVEL_ROCKET_HIDEOUT_ADMIN+1
     pokemon SPECIES_ARBOK
     item 0
     move MOVE_POISON_JAB
@@ -21269,7 +21271,7 @@ party 479
 
     ivs 0
     abilityslot 0
-    level LEVEL_ROCKET_HIDEOUT_ADMIN
+    level LEVEL_ROCKET_HIDEOUT_ADMIN+1
     pokemon SPECIES_YANMEGA
     item 0
     move MOVE_SIGNAL_BEAM
@@ -21286,7 +21288,7 @@ party 479
     
     ivs 0
     abilityslot 0
-    level LEVEL_ROCKET_HIDEOUT_ADMIN
+    level LEVEL_ROCKET_HIDEOUT_ADMIN+1
     pokemon SPECIES_LICKILICKY
     item 0
     move MOVE_BODY_SLAM
@@ -21303,7 +21305,7 @@ party 479
     
     ivs 0
     abilityslot 0
-    level LEVEL_ROCKET_HIDEOUT_ADMIN
+    level LEVEL_ROCKET_HIDEOUT_ADMIN+1
     pokemon SPECIES_HONCHKROW
     item 0
     move MOVE_NIGHT_SLASH
@@ -21320,7 +21322,7 @@ party 479
     
     ivs 0
     abilityslot 0
-    level LEVEL_ROCKET_HIDEOUT_ADMIN+1
+    level LEVEL_ROCKET_HIDEOUT_ADMIN+2
     pokemon SPECIES_VILEPLUME
     item ITEM_LIFE_ORB
     move MOVE_ENERGY_BALL
@@ -21674,7 +21676,7 @@ endparty
 
 trainerdata 484, "Gerardo"
     trainermontype TRAINER_MON_TYPE_FLAGS
-    trainerclass CLASS_SKIER
+    trainerclass CLASS_BOARDER
     battletype 0
     nummons 3
     item 0 
@@ -21874,7 +21876,7 @@ trainerdata 307, "Ruben"
 party 307
     ivs 0
     abilityslot 0
-    level 46
+    level LEVEL_BLACKTHORN_AREAS
     pokemon SPECIES_EELEKTROSS
     item 0
     move MOVE_THUNDERBOLT
@@ -21891,7 +21893,7 @@ party 307
 
     ivs 0
     abilityslot 0
-    level 46
+    level LEVEL_BLACKTHORN_AREAS
     pokemon SPECIES_ALAKAZAM
     item 0
     move MOVE_PSYCHIC
@@ -21908,7 +21910,7 @@ party 307
 
     ivs 0
     abilityslot 0
-    level 46
+    level LEVEL_BLACKTHORN_AREAS
     pokemon SPECIES_GLISCOR
     item 0
     move MOVE_BULLDOZE
@@ -21941,7 +21943,7 @@ trainerdata 338, "Gillian"
 party 338
     ivs 0
     abilityslot 0
-    level 46
+    level LEVEL_BLACKTHORN_AREAS
     pokemon SPECIES_BLISSEY
     item 0
     move MOVE_EGG_BOMB
@@ -21958,7 +21960,7 @@ party 338
 
     ivs 0
     abilityslot 0
-    level 46
+    level LEVEL_BLACKTHORN_AREAS
     pokemon SPECIES_ROSERADE
     item 0
     move MOVE_MAGICAL_LEAF
@@ -21975,7 +21977,7 @@ party 338
 
     ivs 0
     abilityslot 0
-    level 46
+    level LEVEL_BLACKTHORN_AREAS
     pokemon SPECIES_GARDEVOIR
     item 0
     move MOVE_PSYCHIC
@@ -22008,7 +22010,7 @@ trainerdata 340, "Marcia"
 party 340
     ivs 0
     abilityslot 0
-    level 46
+    level LEVEL_BLACKTHORN_AREAS
     pokemon SPECIES_OMASTAR
     item 0
     move MOVE_MUDDY_WATER
@@ -22025,7 +22027,7 @@ party 340
 
     ivs 0
     abilityslot 0
-    level 46
+    level LEVEL_BLACKTHORN_AREAS
     pokemon SPECIES_ALTARIA
     item 0
     move MOVE_MOONBLAST
@@ -22042,7 +22044,7 @@ party 340
 
     ivs 0
     abilityslot 0
-    level 46
+    level LEVEL_BLACKTHORN_AREAS
     pokemon SPECIES_CHANDELURE
     item 0
     move MOVE_HEAT_WAVE
@@ -22076,7 +22078,7 @@ trainerdata 143, "Erik"
 party 143
     ivs 0
     abilityslot 0
-    level 46
+    level LEVEL_BLACKTHORN_AREAS
     pokemon SPECIES_PUPITAR
     item 0
     move MOVE_EARTHQUAKE
@@ -22093,7 +22095,7 @@ party 143
 
     ivs 0
     abilityslot 0
-    level 46
+    level LEVEL_BLACKTHORN_AREAS
     pokemon SPECIES_CLAYDOL
     item 0
     move MOVE_EARTH_POWER
@@ -22110,7 +22112,7 @@ party 143
 
     ivs 0
     abilityslot 0
-    level 46
+    level LEVEL_BLACKTHORN_AREAS
     pokemon SPECIES_GOLEM
     item 0
     move MOVE_EARTHQUAKE
@@ -22142,7 +22144,7 @@ trainerdata 108, "Ryan"
 party 108
     ivs 0
     abilityslot 0
-    level 47
+    level LEVEL_BLACKTHORN_AREAS+1
     pokemon SPECIES_PIDGEOT
     item 0
     move MOVE_HYPER_VOICE
@@ -22159,7 +22161,7 @@ party 108
 
     ivs 0
     abilityslot 0
-    level 47
+    level LEVEL_BLACKTHORN_AREAS+1
     pokemon SPECIES_UMBREON
     item 0
     move MOVE_DARK_PULSE
@@ -22176,7 +22178,7 @@ party 108
 
     ivs 0
     abilityslot 0
-    level 47
+    level LEVEL_BLACKTHORN_AREAS+1
     pokemon SPECIES_ELECTIVIRE
     item 0
     move MOVE_THUNDERBOLT
@@ -22208,7 +22210,7 @@ trainerdata 145, "Parry"
 party 145
     ivs 0
     abilityslot 0
-    level 46
+    level LEVEL_BLACKTHORN_AREAS
     pokemon SPECIES_ONIX
     item 0
     move MOVE_EARTHQUAKE
@@ -22225,7 +22227,7 @@ party 145
 
     ivs 0
     abilityslot 0
-    level 46
+    level LEVEL_BLACKTHORN_AREAS
     pokemon SPECIES_GIGALITH
     item 0
     move MOVE_ROCK_SLIDE
@@ -22257,7 +22259,7 @@ trainerdata 121, "Kelly"
 party 121
     ivs 0
     abilityslot 0
-    level 47
+    level LEVEL_BLACKTHORN_AREAS+1
     pokemon SPECIES_AZUMARILL
     item 0
     move MOVE_WATERFALL
@@ -22274,7 +22276,7 @@ party 121
 
     ivs 0
     abilityslot 0
-    level 47
+    level LEVEL_BLACKTHORN_AREAS+1
     pokemon SPECIES_TANGROWTH
     item 0
     move MOVE_GIGA_DRAIN
@@ -22291,7 +22293,7 @@ party 121
 
     ivs 0
     abilityslot 0
-    level 47
+    level LEVEL_BLACKTHORN_AREAS+1
     pokemon SPECIES_BLASTOISE
     item 0
     move MOVE_SCALD
@@ -22323,7 +22325,7 @@ trainerdata 17, "Kenji"
 party 17
     ivs 0
     abilityslot 0
-    level 46
+    level LEVEL_BLACKTHORN_AREAS
     pokemon SPECIES_STEELIX
     item 0
     move MOVE_IRON_TAIL
@@ -22340,7 +22342,7 @@ party 17
 
     ivs 0
     abilityslot 0
-    level 46
+    level LEVEL_BLACKTHORN_AREAS
     pokemon SPECIES_HITMONLEE
     item 0
     move MOVE_CLOSE_COMBAT
@@ -22357,7 +22359,7 @@ party 17
 
     ivs 0
     abilityslot 0
-    level 46
+    level LEVEL_BLACKTHORN_AREAS
     pokemon SPECIES_CONKELDURR
     item 0
     move MOVE_HAMMER_ARM
@@ -22389,7 +22391,7 @@ trainerdata 146, "Timothy"
 party 146
     ivs 0
     abilityslot 0
-    level 46
+    level LEVEL_BLACKTHORN_AREAS
     pokemon SPECIES_DUGTRIO
     item 0
     move MOVE_EARTHQUAKE
@@ -22406,7 +22408,7 @@ party 146
 
     ivs 0
     abilityslot 0
-    level 46
+    level LEVEL_BLACKTHORN_AREAS
     pokemon SPECIES_BRONZONG
     item 0
     move MOVE_FLASH_CANNON
@@ -22423,7 +22425,7 @@ party 146
 
     ivs 0
     abilityslot 0
-    level 46
+    level LEVEL_BLACKTHORN_AREAS
     pokemon SPECIES_CRADILY
     item 0
     move MOVE_ENERGY_BALL
@@ -22455,7 +22457,7 @@ trainerdata 144, "Michael"
 party 144
     ivs 0
     abilityslot 0
-    level 46
+    level LEVEL_BLACKTHORN_AREAS
     pokemon SPECIES_DONPHAN
     item 0
     move MOVE_EARTHQUAKE
@@ -22472,7 +22474,7 @@ party 144
 
     ivs 0
     abilityslot 0
-    level 46
+    level LEVEL_BLACKTHORN_AREAS
     pokemon SPECIES_TORKOAL
     item 0
     move MOVE_LAVA_PLUME
@@ -22489,7 +22491,7 @@ party 144
 
     ivs 0
     abilityslot 0
-    level 46
+    level LEVEL_BLACKTHORN_AREAS
     pokemon SPECIES_ARMALDO
     item 0
     move MOVE_X_SCISSOR

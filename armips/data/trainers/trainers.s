@@ -24986,8 +24986,7 @@ party 485
     ballseal 0
 endparty
 
-// New
-trainerdata 785, "Giovanni"
+trainerdata 700, "Giovanni"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_ROCKET_BOSS
     battletype 0
@@ -25000,7 +24999,7 @@ trainerdata 785, "Giovanni"
     battletype2 SINGLE_BATTLE
     endentry
 
-party 785
+party 700
     ivs 0
     abilityslot 0
     level 51
@@ -25100,6 +25099,39 @@ party 785
     setivs 30, 30, 30, 30, 30, 30
     setevs 0, 0, 0, 0, 0, 0
     nature NATURE_ADAMANT
+    shinylock 0
+    ballseal 0
+endparty
+
+// Not used
+trainerdata 785, "Giovanni"
+    trainermontype TRAINER_MON_TYPE_FLAGS
+    trainerclass CLASS_ROCKET_BOSS
+    battletype 0
+    nummons 1
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype2 SINGLE_BATTLE
+    endentry
+
+party 785
+    ivs 0
+    abilityslot 0
+    level 51
+    pokemon SPECIES_PERSIAN
+    item ITEM_SCOPE_LENS
+    move MOVE_SLASH
+    move MOVE_NIGHT_SLASH
+    move MOVE_PLAY_ROUGH
+    move MOVE_HYPNOSIS
+    ability ABILITY_SUPER_LUCK
+    ball ITEM_POKE_BALL
+    setivs 30, 30, 30, 30, 30, 30
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_JOLLY
     shinylock 0
     ballseal 0
 endparty
@@ -25630,7 +25662,7 @@ trainerdata 502, "Deb & Pete"
     item 0 
     item 0
     aiflags TRAINER_AI_FLAGS
-    battletype2 SINGLE_BATTLE
+    battletype2 DOUBLE_BATTLE
     endentry
 
 party 502
@@ -25802,7 +25834,7 @@ party 163
 endparty
 
 // New
-trainerdata 999, "Natsuko"
+trainerdata 815, "Natsuko"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_KIMONO_GIRL
     battletype 0
@@ -25815,7 +25847,7 @@ trainerdata 999, "Natsuko"
     battletype2 SINGLE_BATTLE
     endentry
 
-party 999
+party 815
     ivs 0
     abilityslot 0
     level 55
@@ -25835,7 +25867,7 @@ party 999
 endparty
 
 // New
-trainerdata 999, "Fuyuko"
+trainerdata 816, "Fuyuko"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_KIMONO_GIRL
     battletype 0
@@ -25848,7 +25880,7 @@ trainerdata 999, "Fuyuko"
     battletype2 SINGLE_BATTLE
     endentry
 
-party 999
+party 816
     ivs 0
     abilityslot 0
     level 55
@@ -25900,7 +25932,7 @@ party 161
 endparty
 
 // New
-trainerdata 999, "Haruko"
+trainerdata 817, "Haruko"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_KIMONO_GIRL
     battletype 0
@@ -25913,7 +25945,7 @@ trainerdata 999, "Haruko"
     battletype2 SINGLE_BATTLE
     endentry
 
-party 999
+party 817
     ivs 0
     abilityslot 0
     level 55
@@ -25935,7 +25967,7 @@ endparty
 /******************************************** Bellchime Trail ********************************************/
 
 // New
-trainerdata 999, "Eusine"
+trainerdata 818, "Eusine"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_MYSTERY_MAN
     battletype 0
@@ -25948,7 +25980,7 @@ trainerdata 999, "Eusine"
     battletype2 SINGLE_BATTLE
     endentry
 
-party 999
+party 818
     ivs 0
     abilityslot 0
     level 54
@@ -41683,69 +41715,6 @@ trainerdata 699, "Abner"
         abilityslot 0
         level 44
         pokemon SPECIES_PIKACHU
-        ballseal 0
-    endparty
-
-trainerdata 700, "Giovanni"
-    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
-    trainerclass CLASS_ROCKET_BOSS
-    battletype SINGLE_BATTLE
-    nummons 4
-    item ITEM_FULL_RESTORE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
-    battletype2 0
-    endentry
-
-    party 700
-        // mon 0
-        ivs 100
-        abilityslot 0
-        level 42
-        pokemon SPECIES_NIDOKING
-        item ITEM_NONE
-        move MOVE_FOCUS_ENERGY
-        move MOVE_FURY_ATTACK
-        move MOVE_DOUBLE_KICK
-        move MOVE_SHADOW_CLAW
-        ballseal 0
-
-        // mon 1
-        ivs 100
-        abilityslot 32
-        level 40
-        pokemon SPECIES_KANGASKHAN
-        item ITEM_NONE
-        move MOVE_DIZZY_PUNCH
-        move MOVE_SUCKER_PUNCH
-        move MOVE_LEER
-        move MOVE_OUTRAGE
-        ballseal 0
-
-        // mon 2
-        ivs 100
-        abilityslot 0
-        level 43
-        pokemon SPECIES_HONCHKROW
-        item ITEM_NONE
-        move MOVE_DARK_PULSE
-        move MOVE_NASTY_PLOT
-        move MOVE_SWAGGER
-        move MOVE_SHADOW_BALL
-        ballseal 0
-
-        // mon 3
-        ivs 100
-        abilityslot 0
-        level 46
-        pokemon SPECIES_NIDOQUEEN
-        item ITEM_NONE
-        move MOVE_EARTH_POWER
-        move MOVE_SUPERPOWER
-        move MOVE_CRUNCH
-        move MOVE_ROAR
         ballseal 0
     endparty
 

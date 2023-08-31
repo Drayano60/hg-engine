@@ -42,8 +42,14 @@ NPCs:
 2138 - TM42 Facade gift in Cianwood.
 2139 - Winch button check.
 2140 - TM74 Pollen Puff gift.
-
+2141 - Ariana defeated at Rocket Tower.
+2142 - Archer defeated at Rocket Tower.
+2143* - Looker at Radio Tower.
+2144 - Trick Room gift at the Radio Tower.
 2148 - Spiritomb event at Lake of Rage.
+2149 - Suicune at Bell Tower event completed.
+2150* - Legendary beast sprites in Bell Tower.
+2151 - Choice Scarf gift from Mom.
 
 2175* - Rocket event active.
 2176 - Rocket event inactive.
@@ -72,6 +78,9 @@ NPCs:
 2216 - Rocky Helmet item ball in Cliff Edge Gate
 2217 - TM37 Sandstorm item ball in Cliff Cave
 2218 - King's Rock item ball in Slowpoke Well
+2219 - Dragon Fang item ball in Blackthorn City
+2220 - TM70 Mystical Fire item ball in Bell Tower
+2221 - Sacred Ash item ball in Bell Tower
 
 2600 - HG-e hidden ability flag.
 2601 - HG-e starter hidden ability flag.
@@ -85,6 +94,8 @@ NPCs:
 2609 - Noctowl static encounter.
 2610 - Lapras static encounter.
 2611 - Slowking static encounter.
+
+373 - This is the flag in the base game to signal Suicune has been caught. This is set during the Bell Tower event if Suicune is caught.
 
 Triggers:
 16499/0 - Now used for Cherrygrove Silver rival fight (previously for Guide Gent).
@@ -106,3 +117,5 @@ Triggers:
 16690/12 - Cliff Cave, used to control exits so only top one yields Silver event.
 16690/13 - Route 48, Hexagon Brothers.
 16690/14 - Executive battle, Safari Zone Gate.
+16690/15 - Nothing, interim.
+16690/16 - Bellchime Trail Eusine fight.

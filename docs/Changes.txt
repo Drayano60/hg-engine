@@ -273,16 +273,16 @@ Ice Path
 ✓ Added an item ball on 1F containing a Never-Melt Ice.
 ✓ TM72 -> TM13 Ice Beam. Iron -> Razor Claw.
 ✓ Added one Trainer each to B2F/B3F/B4F with Mickeys (304, 338, 340).
+✓ Moved the Never-Melt Ice on B4F off-map.
 
 Burned Tower
 ✓ Eusine and Morty's dialogues are modified slightly to reflect the new events.
 ✓ HP Up -> Flame Orb. TM12 -> TM61.
+✓ Raikou and Entei no longer start roaming after this; they now do it after the Bell Tower instead.
+✓ Edited the Suicune script so it appears at Lv. 60, and it reappears after exiting the room if not caught.
 
 Ecruteak City - Gym
 ✓ Modified Morty's dialogue to remove the obedience bit.
-
-Bellchime Trail
-✓ Added an item ball containing TM11, Sunny Day.
 
 Union Cave (B2F)
 ✓ Forced some of the trainers to get things (Lapras/items).
@@ -403,17 +403,80 @@ Mahogany Town - Gym
 Whirl Islands
 ✓ Ultra Ball -> Dragon Scale.
 ✓ Removed the darkness.
+✓ Changed all maps to use the same encounter file (43), freeing up files 44, 46 and 48.
 
 Route 45 - North
 ✓ Elixir -> Razor Fang.
 ✓ Full Heal -> TM75 Swords Dance.
 ✓ Moved the Max Potion into a different area, then moved Ace Trainer Kelly into the previous area. (Was originally going to block TM75 but it didn't work out!)
+✓ Some of the Trainers are moved to force them if you go down their areas.
 
 Dark Cave - Blackthorn Side
 ✓ TM54 -> Reaper Cloth.
 
+Radio Tower
+✓ Adjusted a lot of Trainer positions.
+✓ Changed the Ultra Ball on 4F for an Electirizer.
+✓ Removed Proton from 4F. Added Athena blocking the stairs up. After defeating her she'll move. If you come back to the map after defeating her, she'll be in a different position again.
+✓ Removed Athena from 4F. Added Archer blocking the elevator. After defeating him he'll move. If you come back to the map after defeating her, he'll be in a different position again (needed a level script adjustment for this one). Archer's dialogue is modified to hint towards Giovanni having returned already; his in-battle dialogue is also changed a little to account for this.
+✓ Archer on the top floor is replaced with Giovanni. He uses his trainer file from the Celebi event. After defeating him, he gives you TM26, Earthquake.
+✓ The Director makes a quick reference to the player's mother, hinting about the Choice Scarf gift.
+✓ Looker blocks the lift down after Giovanni is defeated. After a quick conversation, he leaves.
+✓ Woman that normally gifts TM11 no longer gives you anything.
+✓ Added a clown on 4F. After defeating Team Rocket, he gives you TM92, Trick Room.
+✓ The Director now instead gives you the Clear Bell, and his dialogue is adjusted a bit to be more like Crystal's while still maintaining the HGSS story with the Kimono Girls.
+
 Goldenrod Tunnel (Rocket)
+✓ Full Heal -> Magmarizer.
+✓ The two rooms underground have been changed to actually be called Goldenrod Tunnel.
+✓ The Silver fight has been removed. He still appears and says some dialogue, but leaves afterwards.
+✓ Added a trigger just before the door into the second room with some dialogue from the Hexagon Brothers.
 ✓ TM82 -> TM63 Nasty Plot.
+✓ Rescued the Hyuck-Hyuck-Hyuck guy and moved him into the first Tunnel room. The other two Grunts in the second room have become some of the Hexagon Brothers.
+✓ Added four extra grunts to the second room and arranged all the Trainers so they're unskippable. These are the Hexagon Brothers again.
+✓ Added Proton as well just before the Director to act as a guard of sorts. He's now activated by a trigger script instead of being a generic Trainer, so he has some after battle dialogue too. This + the other trigger reuses the same variable as the Silver one.
+✓ Amulet Coin -> Assault Vest (technically Goldenrod City).
+
+Blackthorn City
+✓ Added an item ball containing a Dragon Fang.
+✓ Edited the sign outside the tutor house to say "Ultimate Moves House" instead.
+✓ Inside the tutor house, moved the Move Reminder/Deleter off-map as they're now redundant.
+✓ Expanded the elemental beam tutors to also work for the Unova starters, Kalos starters and the Unova monkeys.
+✓ Removed the friendship requirements for both the Draco Meteor and elemental beam tutors (set it to 0).
+✓ Added a tutor in the tutor house to teach Steel Beam to any Steel-type Pokémon.
+✓ Added an NPC in the same house to sell six high power TMs.
+✓ Edited NPC dialogues to remove move reminder/deleter dialogue.
+
+Blackthorn City - Gym
+✓ Gym guide now mentions Fairy Pokémon.
+
+Dragon's Den
+✓ Dragon Fang -> TM90 Scale Shot.
+✓ The Twins are replaced with a Double Team, with dialogue referencing Dragon's Den (the TV Show).
+✓ Clair's dialogue in the shrine is edited to remove the obedience part.
+✓ The Elder now offers you a choice of one of six Dragon-types (Dratini, Trapinch, Bagon, Gible, Deino or Goomy) if spoken to after receiving the Dragon Pulse TM. If you never gave a wrong answer to the Elder's quiz, the Pokémon has a guaranteed Hidden Ability.
+
+Ecruteak Dance Theater
+✓ Following Pokémon are turned off in here to make scripts easier.
+✓ Edited Silver's dialogue just outside it to mention there are now 8 Kimono Girls.
+✓ The Kimono Girls have their movements edited and now challenge you to battles two at a time. After the battles conclude, the little sister mentions three shadows going to the Bell Tower (the legendary beasts), and the Kimono Girls leave the theater as normal.
+✓ The above also sets the relevant flags/vars so the Suicune event on Route 42 does not happen in the future.
+✓ As it's now a series of Multi Battles, the player is forced to have at least 2 Pokémon alive before they can begin the battles.
+✓ There's also a check after each battle to see if the player only has 1 Pokémon alive; if this is the case, the player is told they can't continue and warped outside the theater.
+? Seems there might be some bugs with Multi Battles... I'm getting quite a lot of freezes.
+✓ Instead of checking Flag 264/265 for a dialogue change, it now does Flag 2149 (the Bell Tower Suicune event).
+
+Bellchime Trail
+✓ Added an item ball containing TM11, Sunny Day.
+✓ After defeating the Kimono Girls, Eusine will stop you at the door and battle you, just prior to the Suicune events.
+
+Bell Tower
+✓ An event with the legendary beasts now plays here (inspired by Crystal), culminating in an encounter with a Suicune. This event now sets the flags to allow you to set sail from New Bark to Route 27 (four Lyra related flags and disabling a trigger), as well as re-enabling the NPCs in the Dance Theater.
+✓ This also always sets the variable for the Route 25 Suicune event, and also Flag 373 (what the base game uses) if Suicune is caught. Otherwise, it doesn't, and it instead clears the flag to allow it to appear in the Burned Tower's basement immediately.
+✓ The above event is also what releases Raikou/Entei into the wild. They are now at Lv. 60 (per the arm9 change).
+✓ The player can now ascend Bell Tower after the Suicune event, but Ho-oh will not be available until later.
+✓ Bell Tower now uses the same encounter file (30) for every floor.
+✓ Added two item balls on 2F containing a Sacred Ash and a TM70 Mystical Fire.
 
 Route 27
 ✓ An Ace Trainer blocks the Tohjo Falls entrance until Clair is beaten (at which point, Lyra prevents you until you deal with the legendary event).
@@ -425,6 +488,8 @@ Miscellaneous
 ✓✓ Script #1 and Function #2 now check for HM01 in the Bag and the Hive Badge, and will instantly cut a tree if this passes.
 ✓✓ Done for Strength also.
 ✓✓ Done for Surf also.
+✓✓ And Whirlpool, Rock Climb, Waterfall.
+✓✓ Surf/Waterfall have additional changes in ovl_1 because of the moves needing to be in the party to interact with the relevant tiles.
 
 ✓ Added common scripts for use in the Pokémon Center. (Referred to as 9018, 9019, 9020 ingame.) They're used on a Waiter, Maid and Waiter respectively (OW 59 and OW 60).
 ✓✓ One script handles changing things about Pokémon, including move tutors, move reminding, move deletion, nicknaming and checking Hidden Power. The move tutors use Script File 2 still but it's been somewhat adapted.
@@ -459,3 +524,6 @@ End
 Function 11:
 	ReleaseAll 
 End 
+
+show wing (first var is which wing) (also says please come through line?)
+	CMD_774 0 97

@@ -39,6 +39,8 @@
 .include "armips/asm/custom/force_radio.s"
 .include "armips/asm/custom/confusion_berries.s"
 .include "armips/asm/custom/hp_bar_speed.s"
+.include "armips/asm/custom/roamers.s"
+.include "armips/asm/custom/waterfall.s"
 
 .if REUSABLE_TMS == 1
 .include "armips/asm/tm.s" // make tms infinite

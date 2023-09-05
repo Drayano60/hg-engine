@@ -36,6 +36,7 @@ void AITypeCalc(struct BattleStruct *sp, u32 move, u32 type, int atkAbility, int
     }
     else if ((typeLocal == TYPE_GROUND)
           && ((sp->field_condition & FIELD_STATUS_GRAVITY) == 0)
+          && (sp->battlemon[sp->defence_client].single_use_item_flag == 0)
           && (held_effect == HOLD_EFFECT_UNGROUND_DESTROYED_ON_HIT))
     {
         flag[0] |= MOVE_STATUS_FLAG_NOT_EFFECTIVE; // not "not very effective", ineffective

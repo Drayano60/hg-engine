@@ -153,19 +153,21 @@ BOOL CalcAccuracy(void *bw, struct BattleStruct *sp, int attacker, int defender,
 
     move_type = GetAdjustedMoveType(sp, attacker, move_no);
 
-    if
-    (
-        (GetBattleMonItem(sp, defender) == ITEM_AIR_BALLOON)
-        && (move_type == TYPE_GROUND)
-        && (sp->moveTbl[move_no].split != SPLIT_STATUS)
-        && ((sp->field_condition & FIELD_STATUS_GRAVITY) == 0)
-        && ((sp->battlemon[sp->defence_client].effect_of_moves & MOVE_EFFECT_FLAG_INGRAIN) == 0)
-    )
-    {
-        sp->waza_status_flag |= MOVE_STATUS_FLAG_NOT_EFFECTIVE;
+    // Old Air Balloon code I made before BluRose did it
+    // if
+    // (
+    //     (GetBattleMonItem(sp, defender) == ITEM_AIR_BALLOON)
+    //     && (move_type == TYPE_GROUND)
+    //     && (sp->moveTbl[move_no].split != SPLIT_STATUS)
+    //     && (sp->battlemon[sp->defence_client].single_use_item_flag == 0)
+    //     && ((sp->field_condition & FIELD_STATUS_GRAVITY) == 0)
+    //     && ((sp->battlemon[sp->defence_client].effect_of_moves & MOVE_EFFECT_FLAG_INGRAIN) == 0)
+    // )
+    // {
+    //     sp->waza_status_flag |= MOVE_STATUS_FLAG_NOT_EFFECTIVE;
 
-        return FALSE;
-    }
+    //     return FALSE;
+    // }
     
     move_split = sp->moveTbl[move_no].split;
 
@@ -1002,8 +1004,9 @@ void ServerHPCalc(void *bw, struct BattleStruct *sp)
                 {
                     sp->oneSelfFlag[sp->defence_client].prevent_one_hit_ko_item = 1;
                 }
-                else if ((eqp == HOLD_EFFECT_HP_MAX_SURVIVE_1_HP) && (sp->battlemon[sp->defence_client].hp == sp->battlemon[sp->defence_client].maxhp))
+                else if ((eqp == HOLD_EFFECT_HP_MAX_SURVIVE_1_HP) && (sp->battlemon[sp->defence_client].hp == sp->battlemon[sp->defence_client].maxhp) && ((sp->battlemon[sp->defence_client].single_use_item_flag == 0)))
                 {
+                    sp->battlemon[sp->defence_client].single_use_item_flag = 1;
                     sp->oneSelfFlag[sp->defence_client].prevent_one_hit_ko_item = 2;
                 }
             }
@@ -1162,6 +1165,7 @@ int ServerDoTypeCalcMod(void *bw, struct BattleStruct *sp, int move_no, int move
     }
     else if ((eqp_d == HOLD_EFFECT_UNGROUND_DESTROYED_ON_HIT) // has air balloon
           && ((sp->battlemon[defence_client].effect_of_moves & MOVE_EFFECT_FLAG_INGRAIN) == 0)
+          && (sp->battlemon[sp->defence_client].single_use_item_flag == 0)
           && ((sp->field_condition & FIELD_STATUS_GRAVITY) == 0)
           && (move_type == TYPE_GROUND)
           && (eqp_d != HOLD_EFFECT_HALVE_SPEED))

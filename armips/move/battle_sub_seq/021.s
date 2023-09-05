@@ -34,7 +34,7 @@ _return2:
     /* Hung on using its... */
     printmessage 0x390, 0xF, 0x2, 0x2, "NaN", "NaN", "NaN", "NaN"
     checkitemeffect 0x1, BATTLER_DEFENDER, 0x67, _0084
-    removeitem BATTLER_DEFENDER
+    // removeitem BATTLER_DEFENDER -- Focus Sash is no longer broken permanently after use
 _0084:
     waitmessage
     wait 0x1E

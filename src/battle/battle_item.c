@@ -108,6 +108,7 @@ u32 MoveHitUTurnHeldItemEffectCheck(void *bw, struct BattleStruct *sp, int *seq_
         // Weakness Policy
         (def_hold_eff == HOLD_EFFECT_BOOST_ATK_AND_SPATK_ON_SE)
         && (sp->battlemon[sp->defence_client].hp)
+        && (sp->battlemon[sp->defence_client].single_use_item_flag == 0)
         && (sp->oneSelfFlag[sp->defence_client].physical_damage || sp->oneSelfFlag[sp->defence_client].special_damage)
         && (sp->waza_status_flag & MOVE_STATUS_FLAG_SUPER_EFFECTIVE)
         && (
@@ -117,6 +118,7 @@ u32 MoveHitUTurnHeldItemEffectCheck(void *bw, struct BattleStruct *sp, int *seq_
         )
     )
     {
+        sp->battlemon[sp->defence_client].single_use_item_flag = 1;
         sp->addeffect_type = ADD_STATUS_SOUBIITEM;
         sp->state_client = sp->defence_client;
         sp->item_work = sp->battlemon[sp->defence_client].item;
@@ -128,9 +130,11 @@ u32 MoveHitUTurnHeldItemEffectCheck(void *bw, struct BattleStruct *sp, int *seq_
     (
         (def_hold_eff == HOLD_EFFECT_UNGROUND_DESTROYED_ON_HIT)
         && (sp->battlemon[sp->defence_client].hp)
+        && (sp->battlemon[sp->defence_client].single_use_item_flag == 0)
         && (sp->oneSelfFlag[sp->defence_client].physical_damage || sp->oneSelfFlag[sp->defence_client].special_damage)
     )
     {
+        sp->battlemon[sp->defence_client].single_use_item_flag = 1;
         seq_no[0] = SUB_SEQ_HANDLE_AIR_BALLOON_POP;
         ret = TRUE;   
     }
@@ -140,6 +144,7 @@ u32 MoveHitUTurnHeldItemEffectCheck(void *bw, struct BattleStruct *sp, int *seq_
         (atk_hold_eff == HOLD_EFFECT_THROAT_SPRAY)
         && ((sp->waza_status_flag & MOVE_STATUS_FLAG_MISS) == 0)
         && (sp->moveTbl[sp->current_move_index].flag & FLAG_SOUND)
+        && (sp->battlemon[sp->attack_client].single_use_item_flag == 0)
         && (sp->battlemon[sp->attack_client].hp)
         && (
             ((GetBattlerAbility(sp,sp->attack_client) == ABILITY_CONTRARY) && (sp->battlemon[sp->attack_client].states[STAT_SPATK] > 0))
@@ -148,6 +153,7 @@ u32 MoveHitUTurnHeldItemEffectCheck(void *bw, struct BattleStruct *sp, int *seq_
         )
     )
     {
+        sp->battlemon[sp->attack_client].single_use_item_flag = 1;
         sp->addeffect_type = ADD_STATUS_SOUBIITEM;
         sp->state_client = sp->attack_client;
         sp->item_work = sp->battlemon[sp->attack_client].item;
@@ -252,6 +258,7 @@ u32 ServerWazaHitAfterCheckAct(void *bw, struct BattleStruct *sp)
                 // This can activate on status moves too so we use this. FLAG_HIT only works for damaging moves it seems like?
                 && ((sp->waza_status_flag & MOVE_STATUS_FLAG_MISS) == 0)
                 && (sp->moveTbl[sp->current_move_index].flag & FLAG_SOUND)
+                && (sp->battlemon[sp->attack_client].single_use_item_flag == 0)
                 && (sp->battlemon[sp->attack_client].hp)
                 && (
                     ((GetBattlerAbility(sp,sp->attack_client) == ABILITY_CONTRARY) && (sp->battlemon[sp->attack_client].states[STAT_SPATK] > 0))
@@ -260,6 +267,7 @@ u32 ServerWazaHitAfterCheckAct(void *bw, struct BattleStruct *sp)
                 )
             )
             {
+                sp->battlemon[sp->attack_client].single_use_item_flag = 1;
                 sp->addeffect_type = ADD_STATUS_SOUBIITEM;
                 sp->state_client = sp->attack_client;
                 sp->item_work = sp->battlemon[sp->attack_client].item;
@@ -392,9 +400,13 @@ BOOL CheckDefenderItemEffectOnHit(void *bw, struct BattleStruct *sp, int *seq_no
             if ((sp->battlemon[sp->defence_client].hp)
                 // Attacker is not U-turning
                 && ((sp->server_status_flag2 & SERVER_STATUS_FLAG2_U_TURN) == 0)
+                // Attacker has not activated their single use flag yet (AC change)
+                && (sp->battlemon[sp->defence_client].single_use_item_flag == 0)
                 // Damage was dealt
                 && ((sp->oneSelfFlag[sp->defence_client].physical_damage)
                     || (sp->oneSelfFlag[sp->defence_client].special_damage))) {
+                
+                sp->battlemon[sp->defence_client].single_use_item_flag = 1;
                 seq_no[0] = SUB_SEQ_HANDLE_AIR_BALLOON_POP;
                 ret       = TRUE;
             }
@@ -422,6 +434,7 @@ BOOL CheckDefenderItemEffectOnHit(void *bw, struct BattleStruct *sp, int *seq_no
             if
             (
                 (sp->battlemon[sp->defence_client].hp)
+                && (sp->battlemon[sp->defence_client].single_use_item_flag == 0)
                 && (sp->oneSelfFlag[sp->defence_client].physical_damage || sp->oneSelfFlag[sp->defence_client].special_damage)
                 && (sp->waza_status_flag & MOVE_STATUS_FLAG_SUPER_EFFECTIVE)
                 && ((sp->server_status_flag2 & SERVER_STATUS_FLAG2_U_TURN) == 0)
@@ -432,6 +445,7 @@ BOOL CheckDefenderItemEffectOnHit(void *bw, struct BattleStruct *sp, int *seq_no
                 )
             )
             {
+                sp->battlemon[sp->defence_client].single_use_item_flag = 1;
                 sp->addeffect_type = ADD_STATUS_SOUBIITEM;
                 sp->state_client = sp->defence_client;
                 sp->item_work = sp->battlemon[sp->defence_client].item;

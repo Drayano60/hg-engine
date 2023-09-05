@@ -1132,6 +1132,8 @@ void ClearBattleMonFlags(struct BattleStruct *sp, int client)
     sp->battlemon[client].echoed_voice_count = 0;
     sp->battlemon[client].protean_flag = 0;
     sp->battlemon[client].air_ballon_flag = 0;
+    // sp->battlemon[client].single_use_item_flag = 0; -- Deliberately not cleared
+ 
 
     sp->log_hail_for_ice_face &= ~(1 << client); // unset log_hail_for_ice_face for client
 }

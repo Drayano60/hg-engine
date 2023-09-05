@@ -69,7 +69,19 @@ LEVEL_ROCKET_HIDEOUT_ADMIN equ 44
 LEVEL_MAHOGANY_GYM equ 43
 LEVEL_PRYCE equ 45
 
-LEVEL_BLACKTHORN_AREAS equ 46
+LEVEL_BLACKTHORN_AREAS equ 46 /* Ice Path, Route 45 */
+LEVEL_RADIO_TOWER_GRUNTS equ 1
+LEVEL_RADIO_TOWER_ADMINS equ 1
+LEVEL_GIOVANNI equ 1
+LEVEL_BLACKTHORN_GYM equ 1
+LEVEL_CLAIR equ 1
+
+LEVEL_KIMONO_GIRLS equ 55
+LEVEL_EUSINE_2 equ 55
+LEVEL_ROUTE_27 equ 55 /* Also for Route 26 */
+LEVEL_VICTORY_ROAD equ 56
+LEVEL_SILVER_5 equ 57
+LEVEL_POKEMON_LEAGUE equ 59
 
 /******************************************** Cherrygrove City ********************************************/
 
@@ -11577,7 +11589,7 @@ party 507
     ballseal 0
 endparty
 
-/******************************************** Mt. Mortar (Early) ********************************************/
+/******************************************** Mt. Mortar ********************************************/
 
 trainerdata 537, "Harrison"
     trainermontype TRAINER_MON_TYPE_FLAGS
@@ -11805,6 +11817,39 @@ party 170
     ability ABILITY_FLASH_FIRE
     ball ITEM_POKE_BALL
     setivs 25, 25, 25, 25, 25, 25
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+endparty
+
+/* This guy needs the Rising Badge */
+trainerdata 538, "Hugh"
+    trainermontype TRAINER_MON_TYPE_FLAGS
+    trainerclass CLASS_SUPER_NERD
+    battletype 0
+    nummons 1
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype2 SINGLE_BATTLE
+    endentry
+
+party 538
+    ivs 0
+    abilityslot 0
+    level LEVEL_BLACKTHORN_GYM+1
+    pokemon SPECIES_KINGDRA
+    item 0
+    move MOVE_WATERFALL
+    move MOVE_BOUNCE
+    move MOVE_SMOKESCREEN
+    move MOVE_DRAGON_DANCE
+    ability ABILITY_SWIFT_SWIM
+    ball ITEM_POKE_BALL
+    setivs 15, 15, 15, 15, 15, 15
     setevs 0, 0, 0, 0, 0, 0
     nature NATURE_SERIOUS
     shinylock 0
@@ -27585,7 +27630,7 @@ party 113
 endparty
 
 // New
-trainerdata 999, "Ethan"
+trainerdata 819, "Ethan"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_PKMN_TRAINER_0
     battletype 0
@@ -27598,7 +27643,7 @@ trainerdata 999, "Ethan"
     battletype2 SINGLE_BATTLE
     endentry
 
-party 999
+party 819
     ivs 0
     abilityslot 0
     level 56
@@ -27702,7 +27747,7 @@ party 999
     ballseal 0
 endparty
 
-trainerdata 999, "Ethan"
+trainerdata 820, "Ethan"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_PKMN_TRAINER_0
     battletype 0
@@ -27715,7 +27760,7 @@ trainerdata 999, "Ethan"
     battletype2 SINGLE_BATTLE
     endentry
 
-party 999
+party 820
     ivs 0
     abilityslot 0
     level 56
@@ -27820,7 +27865,7 @@ party 999
 endparty
 
 
-trainerdata 999, "Ethan"
+trainerdata 821, "Ethan"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_PKMN_TRAINER_0
     battletype 0
@@ -27833,7 +27878,7 @@ trainerdata 999, "Ethan"
     battletype2 SINGLE_BATTLE
     endentry
 
-party 999
+party 821
     ivs 0
     abilityslot 0
     level 56
@@ -27938,7 +27983,7 @@ party 999
 endparty
 
 // New
-trainerdata 999, "Lyra"
+trainerdata 822, "Lyra"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_PKMN_TRAINER_1
     battletype 0
@@ -27951,7 +27996,7 @@ trainerdata 999, "Lyra"
     battletype2 SINGLE_BATTLE
     endentry
 
-party 999
+party 822
     ivs 0
     abilityslot 0
     level 56
@@ -28055,7 +28100,7 @@ party 999
     ballseal 0
 endparty
 
-trainerdata 999, "Lyra"
+trainerdata 823, "Lyra"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_PKMN_TRAINER_1
     battletype 0
@@ -28068,7 +28113,7 @@ trainerdata 999, "Lyra"
     battletype2 SINGLE_BATTLE
     endentry
 
-party 999
+party 823
     ivs 0
     abilityslot 0
     level 56
@@ -28173,7 +28218,7 @@ party 999
 endparty
 
 
-trainerdata 999, "Lyra"
+trainerdata 824, "Lyra"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_PKMN_TRAINER_1
     battletype 0
@@ -28186,7 +28231,7 @@ trainerdata 999, "Lyra"
     battletype2 SINGLE_BATTLE
     endentry
 
-party 999
+party 824
     ivs 0
     abilityslot 0
     level 56
@@ -28894,6 +28939,107 @@ party 345
 endparty
 
 // New, Mickey
+trainerdata 477, "Joey"
+    trainermontype TRAINER_MON_TYPE_FLAGS
+    trainerclass CLASS_YOUNGSTER
+    battletype SINGLE_BATTLE
+    nummons 5
+    item 0
+    item 0
+    item 0
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype2 SINGLE_BATTLE
+    endentry
+
+party 477
+    ivs 0
+    abilityslot 0
+    level 56
+    monwithform SPECIES_RATTATA, 0
+    item ITEM_FOCUS_SASH
+    move MOVE_ENDEAVOR
+    move MOVE_NONE
+    move MOVE_NONE
+    move MOVE_NONE
+    ability ABILITY_GUTS
+    ball ITEM_POKE_BALL
+    setivs 31, 31, 31, 31, 31, 31
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level 56
+    monwithform SPECIES_RATICATE, 1
+    item ITEM_SALAC_BERRY
+    move MOVE_SUPER_FANG
+    move MOVE_SUCKER_PUNCH
+    move MOVE_CLOSE_COMBAT
+    move MOVE_QUICK_ATTACK
+    ability ABILITY_GLUTTONY
+    ball ITEM_POKE_BALL
+    setivs 31, 31, 31, 31, 31, 31
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level 56
+    monwithform SPECIES_RATICATE, 0
+    item ITEM_SCOPE_LENS
+    move MOVE_HYPER_FANG
+    move ALLOW_ILLEGAL_MOVES ? MOVE_FIRE_FANG : MOVE_FLAME_WHEEL
+    move ALLOW_ILLEGAL_MOVES ? MOVE_PSYCHIC_FANGS : MOVE_ZEN_HEADBUTT
+    move MOVE_QUICK_ATTACK
+    ability ABILITY_HUSTLE
+    ball ITEM_POKE_BALL
+    setivs 31, 31, 31, 31, 31, 31
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level 56
+    monwithform SPECIES_RATICATE, 1
+    item ITEM_WIDE_LENS
+    move MOVE_DOUBLE_EDGE
+    move MOVE_CRUNCH
+    move ALLOW_ILLEGAL_MOVES ? MOVE_GUNK_SHOT : MOVE_SLUDGE_BOMB
+    move MOVE_QUICK_ATTACK
+    ability ABILITY_HUSTLE
+    ball ITEM_POKE_BALL
+    setivs 31, 31, 31, 31, 31, 31
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level 56
+    monwithform SPECIES_RATICATE, 0
+    item ITEM_FLAME_ORB
+    move MOVE_FACADE
+    move MOVE_CRUNCH
+    move MOVE_PROTECT
+    move MOVE_QUICK_ATTACK
+    ability ABILITY_GUTS
+    ball ITEM_POKE_BALL
+    setivs 31, 31, 31, 31, 31, 31
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+endparty
+
+// New, Mickey
 trainerdata 372, "Waldo"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_ACE_TRAINER_M
@@ -29098,7 +29244,7 @@ endparty
 // New, Mickey
 trainerdata 442, "Chrome"
     trainermontype TRAINER_MON_TYPE_FLAGS
-    trainerclass CLASS_SCIENTIST
+    trainerclass CLASS_SCIENTIST_1
     battletype 0
     nummons 5
     item 0 
@@ -29502,7 +29648,7 @@ endparty
 // New, Mickey
 trainerdata 475, "Konado"
     trainermontype TRAINER_MON_TYPE_FLAGS
-    trainerclass CLASS_VETERAN
+    trainerclass CLASS_GENTLEMAN
     battletype 0
     nummons 5
     item 0 
@@ -30172,7 +30318,7 @@ party 245
 endparty
 
 // New
-trainerdata 999, "Will"
+trainerdata 825, "Will"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_ELITE_FOUR_0
     battletype 0
@@ -30185,7 +30331,7 @@ trainerdata 999, "Will"
     battletype2 SINGLE_BATTLE
     endentry
 
-party 999
+party 825
     ivs 0
     abilityslot 0
     level 59
@@ -30407,7 +30553,7 @@ party 247
 endparty
 
 // New
-trainerdata 999, "Koga"
+trainerdata 826, "Koga"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_ELITE_FOUR_2
     battletype 0
@@ -30420,7 +30566,7 @@ trainerdata 999, "Koga"
     battletype2 SINGLE_BATTLE
     endentry
 
-party 999
+party 826
     ivs 0
     abilityslot 0
     level 59
@@ -30642,7 +30788,7 @@ party 418
 endparty
 
 // New
-trainerdata 999, "Bruno"
+trainerdata 827, "Bruno"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_ELITE_FOUR_3
     battletype 0
@@ -30655,7 +30801,7 @@ trainerdata 999, "Bruno"
     battletype2 SINGLE_BATTLE
     endentry
 
-party 999
+party 827
     ivs 0
     abilityslot 0
     level 59
@@ -30877,7 +31023,7 @@ party 246
 endparty
 
 // New
-trainerdata 999, "Karen"
+trainerdata 828, "Karen"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_ELITE_FOUR_1
     battletype 0
@@ -30890,7 +31036,7 @@ trainerdata 999, "Karen"
     battletype2 SINGLE_BATTLE
     endentry
 
-party 999
+party 828
     ivs 0
     abilityslot 0
     level 59
@@ -31014,8 +31160,8 @@ party 244
     pokemon SPECIES_GYARADOS
     item ITEM_WACAN_BERRY
     move MOVE_AQUA_TAIL
+    move MOVE_IRON_HEAD
     move MOVE_EARTHQUAKE
-    move MOVE_THUNDER_WAVE
     move MOVE_DRAGON_DANCE
     ability ABILITY_INTIMIDATE
     ball ITEM_POKE_BALL
@@ -31062,17 +31208,17 @@ party 244
     ivs 0
     abilityslot 0
     level 61
-    pokemon SPECIES_HAXORUS
-    item ITEM_LUM_BERRY
-    move MOVE_OUTRAGE
-    move MOVE_IRON_TAIL
-    move MOVE_EARTHQUAKE
-    move MOVE_DRAGON_DANCE
-    ability ABILITY_RIVALRY
+    pokemon SPECIES_HYDREIGON
+    item ITEM_WHITE_HERB
+    move MOVE_DRACO_METEOR
+    move MOVE_DARK_PULSE
+    move MOVE_FIRE_BLAST
+    move MOVE_FLASH_CANNON
+    ability ABILITY_LEVITATE
     ball ITEM_POKE_BALL
     setivs 31, 31, 31, 31, 31, 31
     setevs 0, 0, 0, 0, 0, 0
-    nature NATURE_JOLLY
+    nature NATURE_TIMID
     shinylock 0
     ballseal 0
 
@@ -31086,124 +31232,6 @@ party 244
     move MOVE_FIRE_BLAST
     move MOVE_BOOMBURST
     ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_TINTED_LENS : ABILITY_LEVITATE
-    ball ITEM_POKE_BALL
-    setivs 31, 31, 31, 31, 31, 31
-    setevs 0, 0, 0, 0, 0, 0
-    nature NATURE_TIMID
-    shinylock 0
-    ballseal 0
-
-    ivs 0
-    abilityslot 0
-    level 62
-    pokemon SPECIES_DRAGONITE
-    item ITEM_HEAVY_DUTY_BOOTS
-    move MOVE_DRAGON_RUSH
-    move MOVE_IRON_TAIL
-    move MOVE_EXTREME_SPEED
-    move MOVE_DRAGON_DANCE
-    ability ABILITY_MULTISCALE
-    ball ITEM_POKE_BALL
-    setivs 31, 31, 31, 31, 31, 31
-    setevs 0, 0, 0, 0, 0, 0
-    nature NATURE_JOLLY
-    shinylock 0
-    ballseal 0
-endparty
-
-// New
-trainerdata 999, "Lance"
-    trainermontype TRAINER_MON_TYPE_FLAGS
-    trainerclass CLASS_CHAMPION
-    battletype 0
-    nummons 6
-    item 0 
-    item 0 
-    item 0 
-    item 0
-    aiflags TRAINER_AI_FLAGS
-    battletype2 SINGLE_BATTLE
-    endentry
-
-party 999
-    ivs 0
-    abilityslot 0
-    level 61
-    pokemon SPECIES_AERODACTYL
-    item ITEM_POWER_HERB
-    move MOVE_STONE_EDGE
-    move MOVE_SKY_ATTACK
-    move MOVE_FIRE_FANG
-    move MOVE_STEALTH_ROCK
-    ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_TOUGH_CLAWS : ABILITY_UNNERVE
-    ball ITEM_POKE_BALL
-    setivs 31, 31, 31, 31, 31, 31
-    setevs 0, 0, 0, 0, 0, 0
-    nature NATURE_JOLLY
-    shinylock 0
-    ballseal 0
-
-    ivs 0
-    abilityslot 0
-    level 61
-    pokemon SPECIES_CHARIZARD
-    item ITEM_CHARIZARDITE_X
-    move MOVE_FLARE_BLITZ
-    move MOVE_DRAGON_RUSH
-    move MOVE_THUNDER_PUNCH
-    move MOVE_DRAGON_DANCE
-    ability ABILITY_TOUGH_CLAWS
-    ball ITEM_POKE_BALL
-    setivs 31, 31, 31, 31, 31, 31
-    setevs 0, 0, 0, 0, 0, 0
-    nature NATURE_JOLLY
-    shinylock 0
-    ballseal 0
-
-    ivs 0
-    abilityslot 0
-    level 61
-    pokemon SPECIES_GYARADOS
-    item ITEM_WACAN_BERRY
-    move MOVE_AQUA_TAIL
-    move MOVE_EARTHQUAKE
-    move MOVE_IRON_HEAD
-    move MOVE_DRAGON_DANCE
-    ability ABILITY_INTIMIDATE
-    ball ITEM_POKE_BALL
-    setivs 31, 31, 31, 31, 31, 31
-    setevs 0, 0, 0, 0, 0, 0
-    nature NATURE_JOLLY
-    shinylock 0
-    ballseal 0
-
-    ivs 0
-    abilityslot 0
-    level 61
-    pokemon SPECIES_KINGDRA
-    item ITEM_LUM_BERRY
-    move MOVE_LIQUIDATION
-    move MOVE_OUTRAGE
-    move MOVE_YAWN
-    move MOVE_DRAGON_DANCE
-    ability ABILITY_SNIPER
-    ball ITEM_POKE_BALL
-    setivs 31, 31, 31, 31, 31, 31
-    setevs 0, 0, 0, 0, 0, 0
-    nature NATURE_JOLLY
-    shinylock 0
-    ballseal 0
-
-    ivs 0
-    abilityslot 0
-    level 61
-    pokemon SPECIES_HYDREIGON
-    item ITEM_WHITE_HERB
-    move MOVE_DARK_PULSE
-    move MOVE_DRACO_METEOR
-    move MOVE_FLASH_CANNON
-    move MOVE_FIRE_BLAST
-    ability ABILITY_LEVITATE
     ball ITEM_POKE_BALL
     setivs 31, 31, 31, 31, 31, 31
     setevs 0, 0, 0, 0, 0, 0
@@ -36307,32 +36335,6 @@ trainerdata 429, "Ricky"
         ballseal 0
     endparty
 
-trainerdata 477, "Mickey"
-    trainermontype TRAINER_DATA_TYPE_MOVES
-    trainerclass CLASS_SUPER_NERD
-    battletype SINGLE_BATTLE
-    nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
-    battletype2 0
-    endentry
-
-    party 477
-        // mon 0
-        ivs 0
-        abilityslot 32
-        level 30
-        pokemon SPECIES_PORYGON
-        move MOVE_CONVERSION
-        move MOVE_CONVERSION_2
-        move MOVE_RECOVER
-        move MOVE_TRI_ATTACK
-        ballseal 0
-    endparty
-
 trainerdata 489, "Silver"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_RIVAL
@@ -37293,32 +37295,6 @@ trainerdata 536, "Bertrand"
         abilityslot 0
         level 30
         pokemon SPECIES_TAUROS
-        ballseal 0
-    endparty
-
-trainerdata 538, "Hugh"
-    trainermontype TRAINER_DATA_TYPE_MOVES
-    trainerclass CLASS_SUPER_NERD
-    battletype SINGLE_BATTLE
-    nummons 1
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
-    battletype2 0
-    endentry
-
-    party 538
-        // mon 0
-        ivs 0
-        abilityslot 0
-        level 39
-        pokemon SPECIES_SEADRA
-        move MOVE_SMOKESCREEN
-        move MOVE_TWISTER
-        move MOVE_SURF
-        move MOVE_WATERFALL
         ballseal 0
     endparty
 

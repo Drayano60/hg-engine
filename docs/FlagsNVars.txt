@@ -50,6 +50,8 @@ NPCs:
 2149 - Suicune at Bell Tower event completed.
 2150* - Legendary beast sprites in Bell Tower.
 2151 - Choice Scarf gift from Mom.
+2152 - Will at Indigo Plateau's lobby.
+2153 - If the "Right Hand" option is selected.
 
 2175* - Rocket event active.
 2176 - Rocket event inactive.
@@ -81,6 +83,7 @@ NPCs:
 2219 - Dragon Fang item ball in Blackthorn City
 2220 - TM70 Mystical Fire item ball in Bell Tower
 2221 - Sacred Ash item ball in Bell Tower
+2222 - TM52 Focus Blast item ball in Mt Mortar
 
 2600 - HG-e hidden ability flag.
 2601 - HG-e starter hidden ability flag.
@@ -119,3 +122,5 @@ Triggers:
 16690/14 - Executive battle, Safari Zone Gate.
 16690/15 - Nothing, interim.
 16690/16 - Bellchime Trail Eusine fight.
+16690/17 - Legendary beasts event in Bell Tower (level script).
+16690/18 - Ethan/Lyra Victory Road gatehouse fight.

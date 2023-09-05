@@ -68,7 +68,7 @@ Violet City
 ✓ The Kimono Girl who talks to you after collecting Togepi's Egg now gives you a Mystery Stone, a new item that can evolve Eevee into any of its eight evolutions at random (unless set by the NPC above).
 ✓ Earl now gives you a Sitrus Berry before leading you to the school if you answer "No".
 ✓ Rare Candy -> TM19 Giga Drain.
-✓ Erika shows up in the Pokémon Center after abcxyz. She'll battle you and award you TM53 Energy Ball, but she disappears after becoming Champion.
+✓ Erika shows up in the Pokémon Center after the Safari Zone events. She'll battle you and award you TM53 Energy Ball, but she disappears after becoming Champion.
 
 Sprout Tower
 ✓ The tile permissions have been changed so battles now display an indoor floor instead of a cave.
@@ -143,7 +143,7 @@ Azalea Town
 ✓ Kurt now gives you HM01 instead of a Fast Ball.
 ✓ Kurt now instantly makes the respective Poké Balls when he's given apricorns instead of it being a daily event.
 ✓ The charcoal makers will now give you the Charcoal immediately after defeating Team Rocket in the well. Farfetch'd event no longer happens.
-✓ Brock shows up in the Pokémon Center after abcxyz. He'll battle you and award you TM76 Stealth Rock, but he disappears after becoming Champion.
+✓ Brock shows up in the Pokémon Center after the Safari Zone events. He'll battle you and award you TM76 Stealth Rock, but he disappears after becoming Champion.
 
 Slowpoke Well
 ✓ Added an extra Rocket Grunt F using Mickey (141).
@@ -194,7 +194,7 @@ Goldenrod City
 ✓ Added an NPC in the train station who gives you a Magnet.
 ✓ Edited dialogue in the PC that mentioned communication stuff.
 ✓ Bill gives you an Upgrade instead of the Eevee, with some new dialogue to match.
-✓ Lt. Surge shows up in the Pokémon Center after abcxyz. He'll battle you and award you TM24 Thunderbolt, but he disappears after becoming Champion.
+✓ Lt. Surge shows up in the Pokémon Center after the Safari Zone events. He'll battle you and award you TM24 Thunderbolt, but he disappears after becoming Champion.
 ✓ Added a herb seller in the flower shop who sells the Power Herb, White Herb and Mental Herbs.
 
 Goldenrod Tunnel
@@ -238,7 +238,7 @@ Ecruteak City
 ✓ Added an NPC at at the top right of town who gives TM21 Dazzling Gleam.
 ✓ Added an item ball with a Spell Tag at the top left of town. Moved an old man to stop him blocking it.
 ✓ Morty now blocks Burned Tower until some events in Ice Path.
-✓ Blaine shows up in the Pokémon Center after abcxyz. He'll battle you and award you TM35 Flamethrower, but he disappears after becoming Champion.
+✓ Blaine shows up in the Pokémon Center after the Safari Zone events. He'll battle you and award you TM35 Flamethrower, but he disappears after becoming Champion.
 
 Route 38
 ✓ Added a blockade featuring Miltank to block you from moving onto Route 39 until Morty is defeated.
@@ -250,6 +250,7 @@ Mt. Mortar
 ✓ Ultra Ball -> TM31 Brick Break.
 ✓ Added an item ball containing a Black Belt on the right side exit.
 ✓ Modified a trainer's dialogue that mentioned the Karate King.
+✓ TM52 Focus Blast is now found where the Karate King was previously (who is now in Goldenrod instead).
 
 Route 42
 ✓ Adjusted trainer directions a little.
@@ -258,7 +259,7 @@ Mahogany Town
 ✓ Route 43 is blocked off until after Jasmine.
 ✓ The Rage Candy Bar man + trigger is removed.
 ✓ Edited dialogue in Pokémon Center to reference this game's version of evolving/level up moves.
-✓ Janine shows up in the Pokémon Center after abcxyz. She'll battle you and award you TM06 Toxic, but she disappears after becoming Champion.
+✓ Janine shows up in the Pokémon Center after the Safari Zone events. She'll battle you and award you TM06 Toxic, but she disappears after becoming Champion.
 
 Route 44
 ✓ Rearranged trainers.
@@ -296,7 +297,7 @@ Route 39
 Olivine City
 ✓ Added an NPC in the diner who gives you Leftovers.
 ✓ TM57 -> TM91 Flash Cannon.
-✓ Sabrina shows up in the Pokémon Center after abcxyz. She'll battle you and award you TM29 Psychic, but she disappears after becoming Champion.
+✓ Sabrina shows up in the Pokémon Center after the Safari Zone events. She'll battle you and award you TM29 Psychic, but she disappears after becoming Champion.
 ✓ Changed the Good Rod guy to give you the Deep Sea items.
 ✓ Changed the dialogue of an Ace Trainer F in the harbour as her dialogue didn't make any sense.
 
@@ -317,7 +318,7 @@ Route 41
 
 Cianwood City
 ✓ Added an NPC in the top left house who gives the Eviolite.
-✓ Misty shows up in the Pokémon Center after abcxyz. She'll battle you and award you TM55 Scald, but she disappears after becoming Champion.
+✓ Misty shows up in the Pokémon Center after the Safari Zone events. She'll battle you and award you TM55 Scald, but she disappears after becoming Champion.
 ✓ Added a Rocket Grunt in front of the Safari Zone sign for some foreshadowing.
 ✓ There's now a trigger in front of the Gym that prevents you going in until you beat Eusine.
 ✓ The Eusine script now continues regardless of if you win or lose, and stops the Gym block afterwards. His dialogue is edited slightly to be neutral to the win/loss.
@@ -478,8 +479,34 @@ Bell Tower
 ✓ Bell Tower now uses the same encounter file (30) for every floor.
 ✓ Added two item balls on 2F containing a Sacred Ash and a TM70 Mystical Fire.
 
+Tohjo Falls
+✓ Moon Stone -> PP Max.
+
 Route 27
 ✓ An Ace Trainer blocks the Tohjo Falls entrance until Clair is beaten (at which point, Lyra prevents you until you deal with the legendary event).
+✓ Edited Ace Trainer Megan's post-battle dialogue as she no longer uses unevolved Pokémon.
+✓ TM02 -> Nugget.
+✓ Moved some trainer positions.
+
+Route 26
+✓ Moved some trainer positions.
+✓ The tile before you would step into Victory Road has a trigger script that results in Ethan/Lyra challenging you. This battle can be lost.
+✓ Added a healing NPC to one of the counters.
+
+Victory Road
+✓ TM79 -> TM64 Explosion. TM26 -> PP Max. Max Revive -> TM50 Overheat. Full Restore -> TM71 Stone Edge.
+✓ Moved the Strength boulder near the entrance off-map to reduce annoyance.
+✓ Edited Silver's dialogue a bit as Victory Road now actually has Trainers.
+✓ Added ten trainers, dotted around the three floors. They are all mandatory. Each one is a reference to a character from a main series region in chronological order.
+✓✓ Specifically in order: Lorelei, Youngster Joey, Wally, Barry, Colress, Diantha, Lusamine, Leon, Kamado, Professor Sada/Turo.
+
+Indigo Plateau
+✓ On the first entry, Will himself now blocks the entrance to the Elite Four. He'll hide a coin and ask you to pick "Left Hand" or "Right Hand", then head back inside.
+✓ The usual blocker is moved off-map and so doesn't need to be spoken to every time.
+✓ Each of the Elite Four members now has two teams in the first round. The team battled depends on what the player answered to the coin question. Lance still has just one team, though.
+✓ Will's pre-battle dialogue has been edited a little bit.
+✓ Each of the E4 members offers to heal your Pokémon after the battle. It's been left optional in case you want to maintain a status problem/particular HP threshold on something.
+? The game seems to crash after "THE END". It saves well before so it's not a massive issue, but it's a strange one. Might be HG-e related.
 
 Miscellaneous
 ✓ Scripts for overworld usage of HMs has been adjusted.

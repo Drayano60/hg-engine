@@ -393,7 +393,8 @@ levelup SPECIES_RATTATA
     learnset MOVE_SUCKER_PUNCH, 40
     learnset MOVE_DOUBLE_EDGE, 44
     learnset MOVE_ENDEAVOR, 48
-    learnset MOVE_FINAL_GAMBIT, 52
+    learnset MOVE_LAST_RESORT, 52
+    learnset MOVE_FINAL_GAMBIT, 56
     terminatelearnset
 
 // NEW: Hone Claws, Fire Fang, Ice Fang, Thunder Fang
@@ -420,7 +421,8 @@ levelup SPECIES_RATICATE
     learnset MOVE_SUCKER_PUNCH, 40
     learnset MOVE_DOUBLE_EDGE, 44
     learnset MOVE_ENDEAVOR, 48
-    learnset MOVE_FINAL_GAMBIT, 52
+    learnset MOVE_LAST_RESORT, 52
+    learnset MOVE_FINAL_GAMBIT, 56
     terminatelearnset
 
 // NEW: Hone Claws
@@ -440,7 +442,8 @@ levelup SPECIES_RATTATA_ALOLAN
     learnset MOVE_SUCKER_PUNCH, 40
     learnset MOVE_DOUBLE_EDGE, 44
     learnset MOVE_ENDEAVOR, 48
-    learnset MOVE_FINAL_GAMBIT, 52
+    learnset MOVE_LAST_RESORT, 52
+    learnset MOVE_FINAL_GAMBIT, 56
 	terminatelearnset
 
 // NEW: Hone Claws, Fire Fang, Ice Fang, Thunder Fang, Poison Fang
@@ -466,7 +469,8 @@ levelup SPECIES_RATICATE_ALOLAN
     learnset MOVE_SUCKER_PUNCH, 40
     learnset MOVE_DOUBLE_EDGE, 44
     learnset MOVE_ENDEAVOR, 48
-    learnset MOVE_FINAL_GAMBIT, 52
+    learnset MOVE_LAST_RESORT, 52
+    learnset MOVE_FINAL_GAMBIT, 56
 	terminatelearnset
 
 // NEW: Night Slash

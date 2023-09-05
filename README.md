@@ -12,3 +12,4 @@ Instructions on how to build the repo can be found there.
 - [ ] Figure out why prize money change isn't working for Lyra
 - [ ] Clarify if Disable turns work like S/V
 - [ ] Readd Looker OW over Byron
+- [ ] Change Sandstorm gift for something else

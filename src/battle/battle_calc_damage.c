@@ -705,7 +705,7 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
         int i;
 
         for (i = 0; i < count; i++) {
-            if (GetMonData(PokeParty_GetMemberPointer(BattleWorkPokePartyGet(bw, attacker), i), ID_PARA_hp, NULL) == 0) {
+            if (GetMonData(PokeParty_GetMemberPointer(BattleWorkPokePartyGet(bw, attacker), i), MON_DATA_HP, NULL) == 0) {
                 faintedCount++;
             }
         }

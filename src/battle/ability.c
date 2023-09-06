@@ -1187,7 +1187,7 @@ int SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
                         int i;
 
                         for (i = 0; i < count; i++) {
-                            if (GetMonData(PokeParty_GetMemberPointer(BattleWorkPokePartyGet(bw, client_no), i), ID_PARA_hp, NULL) == 0) {
+                            if (GetMonData(PokeParty_GetMemberPointer(BattleWorkPokePartyGet(bw, client_no), i), MON_DATA_HP, NULL) == 0) {
                                 faintedCount++;
                             }
                         }

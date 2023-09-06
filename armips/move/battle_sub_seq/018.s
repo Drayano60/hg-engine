@@ -3,9 +3,12 @@
 
 .include "armips/include/battlescriptcmd.s"
 .include "armips/include/abilities.s"
+.include "armips/include/constants.s"
 .include "armips/include/itemnums.s"
 .include "armips/include/monnums.s"
 .include "armips/include/movenums.s"
+
+// general sleep subscript
 
 .create "build/move/battle_sub_seq/1_018", 0
 
@@ -31,9 +34,16 @@ _00E0:
     moldbreakerabilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_INSOMNIA, _032C
     moldbreakerabilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_VITAL_SPIRIT, _032C
     moldbreakerabilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_SWEET_VEIL, _032C
-    checkcloudnine _0138
-    if IF_NOTMASK, VAR_FIELD_EFFECT, 0x30, _0138
+    checkcloudnine _checkFlowerVeil
+    if IF_NOTMASK, VAR_FIELD_EFFECT, 0x30, _checkFlowerVeil
     moldbreakerabilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_LEAF_GUARD, _032C
+_checkFlowerVeil:
+    moldbreakerabilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_FLOWER_VEIL, _checkGrassTypeForFlowerVeil
+    moldbreakerabilitycheck 0x0, BATTLER_ALLY | BATTLER_ADDL_EFFECT, ABILITY_FLOWER_VEIL, _checkGrassTypeForFlowerVeil
+    goto _0138
+_checkGrassTypeForFlowerVeil:
+    ifmonstat IF_EQUAL, BATTLER_ADDL_EFFECT, MON_DATA_TYPE_1, TYPE_GRASS, _handlePrintFlowerVeilMessage
+    ifmonstat IF_EQUAL, BATTLER_ADDL_EFFECT, MON_DATA_TYPE_2, TYPE_GRASS, _handlePrintFlowerVeilMessage
 _0138:
     if IF_NOTEQUAL, VAR_ADD_EFFECT_TYPE, 0x2, _0160
     moldbreakerabilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_SHIELD_DUST, _03B8
@@ -140,6 +150,17 @@ _0548:
     endscript
 _SweetVeilMsg:
     printmessage 1431, 0xB, 0x7, 0x7, "NaN", "NaN", "NaN", "NaN" 
+    goto _052C
+
+_handlePrintFlowerVeilMessage:
+    if IF_EQUAL, VAR_ADD_EFFECT_TYPE, 0x2, _0548
+    if IF_EQUAL, VAR_ADD_EFFECT_TYPE, 0x3, _0548
+    if IF_EQUAL, VAR_ADD_EFFECT_TYPE, 0x4, _skipFlowerVeilAttackMessage
+    printattackmessage
+    waitmessage
+    wait 0x1E
+_skipFlowerVeilAttackMessage:
+    printmessage 1461, TAG_NICK_ABILITY, BATTLER_ADDL_EFFECT, BATTLER_ALLY | BATTLER_ADDL_EFFECT, "NaN", "NaN", "NaN", "NaN"
     goto _052C
 
 .close

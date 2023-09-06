@@ -5,8 +5,8 @@
 #include "item.h"
 #include "sprite.h"
 #include "task.h"
+#include "constants/moves.h"
 
-#define MAX_MOVE_NUM 742 //old 467
 #define CLIENT_MAX 4
 
 #define TYPE_NORMAL   0x00
@@ -883,7 +883,7 @@ struct __attribute__((packed)) BattleStruct
     /*0x21F0*/ u32 psp_agi_point[4];
     /*0x2200*/ u8 ServerQue[4][4][16];
     /*0x2300*/ u8 server_buffer[4][256];
-    /*0x2700*/ int SkillSeqWork[400];
+    /*0x2700*/ int SkillSeqWorkOld[400];
     /*0x2D40*/ struct BattlePokemon battlemon[CLIENT_MAX]; //0xc0
     /*0x3040*/ u32 waza_no_temp;
     /*0x3044*/ u32 current_move_index;
@@ -943,9 +943,10 @@ struct __attribute__((packed)) BattleStruct
     /*0x315B*/ u8 mons_getting_exp;
     /*0x315C*/ u8 mons_getting_exp_from_item;
     /*0x315D*/ u8 padding_315D[0x21]; // padding to get moveTbl to 317E (for convenience of 3180 in asm)
-    /*0x317E*/ struct BattleMove moveTbl[MAX_MOVE_NUM + 1];
+    /*0x317E*/ struct BattleMove moveTbl[NUM_OF_MOVES + 1];
     /*0x    */ u32 gainedExperience[6]; // possible experience gained per party member in order to get level scaling done right
     /*0x    */ u32 gainedExperienceShare[6]; // possible experience gained per party member in order to get level scaling done right
+    /*0x    */ int SkillSeqWork[600];
     /*...*/
 };
 
@@ -1251,7 +1252,6 @@ int __attribute__((long_call)) ChooseRandomTarget(void *bw, void *sp, int client
 int __attribute__((long_call)) CountBattlerMoves(void *bw, void *sp, int client_no);
 u32 __attribute__((long_call)) AbilityStatusRecoverCheck(void *bw, void *sp, int client_no, int act_flag);
 u32 __attribute__((long_call)) HeldItemHealCheck(void *bw, void *sp, int client_no, int *seq_no);
-void __attribute__((long_call)) LoadBattleSubSeqScript(void *, int, int);
 int __attribute__((long_call)) HeldItemHoldEffectGet(void *sp, int client_no);
 int __attribute__((long_call)) HeldItemAtkGet(void *sp, int client_no, int flag);
 u32 __attribute__((long_call)) IsMovingAfterClient(void *sp, int client_no);
@@ -1266,9 +1266,9 @@ void __attribute__((long_call)) CT_PokemonEncountSet(void *bw, struct CLIENT_PAR
 void __attribute__((long_call)) CT_PokemonEncountAppearSet(void *bw, struct CLIENT_PARAM *cp, struct POKEMON_APPEAR_PARAM *pap);
 void __attribute__((long_call)) CT_PokemonAppearSet(void *bw, struct CLIENT_PARAM *cp, struct POKEMON_APPEAR_PARAM *pap);
 void __attribute__((long_call)) ClientCommandReset(struct CLIENT_PARAM *cp);
+struct CLIENT_PARAM *__attribute__((long_call)) BattleWorkClientParamGet(void *bw, u32 client);
 struct POKEPARTY *__attribute__((long_call)) BattleWorkPokePartyGet(void *bw, int client_no);
 int __attribute__((long_call)) PokeParty_GetPokeCountMax(const struct POKEPARTY *party); // this function is cursed to be arm for no fucking reason whatsoever
-int __attribute__((long_call)) SideClientNoGet(void *bw, struct BattleStruct *sp, int side);
 int __attribute__((long_call)) BattleWorkPartnerClientNoGet(void *bw, int client_no);
 u16 __attribute__((long_call)) BattleWorkCommIDGet(void *bw);
 int __attribute__((long_call)) BattleWorkCommStandNoGet(void *bw, u16 id);
@@ -1298,6 +1298,10 @@ BOOL __attribute__((long_call)) ServerGetExpCheck(struct BattleStruct *sp, u32 s
 BOOL __attribute__((long_call)) ServerZenmetsuCheck(void *bw, struct BattleStruct *sp);
 u32 __attribute__((long_call)) ST_ServerDir2ClientNoGet(void *bw, struct BattleStruct *sp, u32 side);
 u32 __attribute__((long_call)) ST_CheckIfInTruant(struct BattleStruct *sp, u32 client);
+void __attribute__((long_call)) BattleStructureInit(struct BattleStruct *sp);
+void __attribute__((long_call)) BattleStructureCounterInit(void *bw, struct BattleStruct *sp);
+void __attribute__((long_call)) ServerMoveAIInit(void *bw, struct BattleStruct *sp);
+void __attribute__((long_call)) DumpMoveTableData(void *dest);
 
 // AI specific functions
 int __attribute__((long_call)) AI_TypeCheckCalc(struct BattleStruct *sp, int *flag);
@@ -1309,6 +1313,9 @@ BOOL __attribute__((long_call)) AI_ShouldUseNormalTypeEffCalc(struct BattleStruc
 void __attribute__((long_call)) IncrementBattleScriptPtr(struct BattleStruct *sp, int count);
 int __attribute__((long_call)) read_battle_script_param(struct BattleStruct *sp);
 void __attribute__((long_call)) JumpToMoveEffectScript(void *sp, int archive, int effect);
+int __attribute__((long_call)) GrabClientFromBattleScriptParam(void *bw, struct BattleStruct *sp, int side);
+void __attribute__((long_call)) LoadBattleSubSeqScript(struct BattleStruct *sp, int kind, int index);
+void __attribute__((long_call)) PushAndLoadBattleScript(struct BattleStruct *sp, int kind, int index);
 
 
 

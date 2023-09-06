@@ -331,13 +331,12 @@ movedata MOVE_WHIRLWIND, "Whirlwind"
     movedescription MOVE_WHIRLWIND, "The foe is blown away,\nto be replaced by\nanother Pokémon\nin its party. In the\nwild, the battle ends."
 
 // POWER: 90 >> 80 (Due to greater distribution)
-// ACCURACY: 95 >> 100
 movedata MOVE_FLY, "Fly"
     battleeffect 155
     pss SPLIT_PHYSICAL
     basepower MOVE_CHANGES_IMPLEMENTED ? 80 : 90
     type TYPE_FLYING
-    accuracy MOVE_CHANGES_IMPLEMENTED ? 100 : 95
+    accuracy 95
     pp 15
     effectchance 0
     target MOVE_TARGET_SELECTED
@@ -371,7 +370,7 @@ movedata MOVE_SLAM, "Slam"
     pss SPLIT_PHYSICAL
     basepower 80
     type TYPE_NORMAL
-    accuracy MOVE_CHANGES_IMPLEMENTED ? 90 : 75
+    accuracy MOVE_CHANGES_IMPLEMENTED ? 100 : 75
     pp 20
     effectchance 0
     target MOVE_TARGET_SELECTED
@@ -611,12 +610,11 @@ movedata MOVE_WRAP, "Wrap"
     terminatedata
     movedescription MOVE_WRAP, "A long body or vines\nare used to wrap and\nsqueeze the foe for\nfour to five turns.\n"
 
-// POWER: 90 >> 95
 // ACCURACY: 85 >> 100
 movedata MOVE_TAKE_DOWN, "Take Down"
     battleeffect 48
     pss SPLIT_PHYSICAL
-    basepower MOVE_CHANGES_IMPLEMENTED ? 95 : 90
+    basepower 90
     type TYPE_NORMAL
     accuracy MOVE_CHANGES_IMPLEMENTED ? 100 : 85
     pp 20
@@ -1253,13 +1251,12 @@ movedata MOVE_GROWTH, "Growth"
     terminatedata
     movedescription MOVE_GROWTH, "The user’s body\ngrows all at once.\nIt raises the user’s\nAttack and Sp. Atk\nstats."
 
-// ACCURACY: 95 >> 100
 movedata MOVE_RAZOR_LEAF, "Razor Leaf"
     battleeffect 43
     pss SPLIT_PHYSICAL
     basepower 55
     type TYPE_GRASS
-    accuracy MOVE_CHANGES_IMPLEMENTED ? 100 : 95
+    accuracy 95
     pp 25
     effectchance 0
     target MOVE_TARGET_BOTH
@@ -1350,13 +1347,12 @@ movedata MOVE_PETAL_DANCE, "Petal Dance"
     terminatedata
     movedescription MOVE_PETAL_DANCE, "The user attacks by\nscattering petals for\ntwo to three turns.\nThe user then\nbecomes confused."
 
-// ACCURACY: 95 >> 100
 movedata MOVE_STRING_SHOT, "String Shot"
     battleeffect 60
     pss SPLIT_STATUS
     basepower 0
     type TYPE_BUG
-    accuracy MOVE_CHANGES_IMPLEMENTED ? 100 : 95
+    accuracy 95
     pp 40
     effectchance 0
     target MOVE_TARGET_BOTH
@@ -1464,13 +1460,12 @@ movedata MOVE_THUNDER, "Thunder"
     terminatedata
     movedescription MOVE_THUNDER, "A wicked thunderbolt\nis dropped on the foe\nto inflict damage.\nThis has a 30% chance\nto paralyze the foe."
 
-// ACCURACY: 90 >> 100
 movedata MOVE_ROCK_THROW, "Rock Throw"
     battleeffect 0
     pss SPLIT_PHYSICAL
     basepower 50
     type TYPE_ROCK
-    accuracy MOVE_CHANGES_IMPLEMENTED ? 100 : 90
+    accuracy 90
     pp 15
     effectchance 0
     target MOVE_TARGET_SELECTED
@@ -2246,6 +2241,7 @@ movedata MOVE_SOFT_BOILED, "Soft-Boiled"
     terminatedata
     movedescription MOVE_SOFT_BOILED, "The user restores its\nown HP by up to half\nof its maximum HP.\nIt may also be used\nto heal an ally’s HP."
 
+// ACCURACY: 90 >> 85 (Compensation for the 10% STAB bonus)
 movedata MOVE_HIGH_JUMP_KICK, "High Jump Kick"
     battleeffect 45
     pss SPLIT_PHYSICAL
@@ -2294,13 +2290,12 @@ movedata MOVE_DREAM_EATER, "Dream Eater"
     terminatedata
     movedescription MOVE_DREAM_EATER, "An attack that works\nonly on a sleeping\nfoe. It absorbs half\nthe damage caused to\nheal the user’s HP."
 
-// ACCURACY: 90 >> 100
 movedata MOVE_POISON_GAS, "Poison Gas"
     battleeffect 66
     pss SPLIT_STATUS
     basepower 0
     type TYPE_POISON
-    accuracy MOVE_CHANGES_IMPLEMENTED ? 100 : 90
+    accuracy 90
     pp 40
     effectchance 0
     target MOVE_TARGET_BOTH
@@ -2587,13 +2582,12 @@ movedata MOVE_REST, "Rest"
     terminatedata
     movedescription MOVE_REST, "The user goes to\nsleep for two turns.\nIt fully restores the\nuser’s HP and heals\nany status problem."
 
-// ACCURACY: 90 >> 100
 movedata MOVE_ROCK_SLIDE, "Rock Slide"
     battleeffect 31
     pss SPLIT_PHYSICAL
     basepower 75
     type TYPE_ROCK
-    accuracy MOVE_CHANGES_IMPLEMENTED ? 100 : 90
+    accuracy 90
     pp 10
     effectchance 30
     target MOVE_TARGET_BOTH
@@ -2910,13 +2904,12 @@ movedata MOVE_CONVERSION_2, "Conversion 2"
     terminatedata
     movedescription MOVE_CONVERSION_2, "The user changes its\ntype to make itself\nresistant to the type\nof the attack it\nlast took."
 
-// ACCURACY: 95 >> 100
 movedata MOVE_AEROBLAST, "Aeroblast"
     battleeffect 43
     pss SPLIT_SPECIAL
     basepower 100
     type TYPE_FLYING
-    accuracy 100
+    accuracy 95
     pp 5
     effectchance 0
     target MOVE_TARGET_SELECTED
@@ -3120,13 +3113,12 @@ movedata MOVE_MUD_SLAP, "Mud-Slap"
     terminatedata
     movedescription MOVE_MUD_SLAP, "The user hurls mud in\nthe foe’s face to\ninflict damage and\nlower its accuracy.\n"
 
-// ACCURACY: 85 >> 100
 movedata MOVE_OCTAZOOKA, "Octazooka"
     battleeffect 73
     pss SPLIT_SPECIAL
     basepower 65
     type TYPE_WATER
-    accuracy MOVE_CHANGES_IMPLEMENTED ? 100 : 85
+    accuracy 85
     pp 10
     effectchance 50
     target MOVE_TARGET_SELECTED
@@ -3217,13 +3209,12 @@ movedata MOVE_PERISH_SONG, "Perish Song"
     terminatedata
     movedescription MOVE_PERISH_SONG, "Any Pokémon that\nhears this song\nfaints in three turns,\nunless it switches\nout of battle."
 
-// ACCURACY: 90 >> 100
 movedata MOVE_ICY_WIND, "Icy Wind"
     battleeffect 70
     pss SPLIT_SPECIAL
     basepower 55
     type TYPE_ICE
-    accuracy MOVE_CHANGES_IMPLEMENTED ? 100 : 95
+    accuracy 95
     pp 15
     effectchance 100
     target MOVE_TARGET_BOTH
@@ -3623,13 +3614,12 @@ movedata MOVE_PAIN_SPLIT, "Pain Split"
     terminatedata
     movedescription MOVE_PAIN_SPLIT, "The user adds its HP\nto the foe’s HP, then\nequally shares the\ncombined HP with the\nfoe."
 
-// ACCURACY: 95 >> 100
 movedata MOVE_SACRED_FIRE, "Sacred Fire"
     battleeffect 125
     pss SPLIT_PHYSICAL
     basepower 100
     type TYPE_FIRE
-    accuracy MOVE_CHANGES_IMPLEMENTED ? 100 : 95
+    accuracy 95
     pp 5
     effectchance 50
     target MOVE_TARGET_SELECTED
@@ -3785,14 +3775,14 @@ movedata MOVE_SWEET_SCENT, "Sweet Scent"
     terminatedata
     movedescription MOVE_SWEET_SCENT, "A sweet scent that\nharshly lowers the\nfoe’s evasiveness.\nIt can also be used\nto lure wild Pokémon."
 
-// ACCURACY: 75 >> 90
+// ACCURACY: 75 >> 85
 // EFFECT CHANCE: 30 >> 20
 movedata MOVE_IRON_TAIL, "Iron Tail"
     battleeffect 69
     pss SPLIT_PHYSICAL
     basepower 100
     type TYPE_STEEL
-    accuracy MOVE_CHANGES_IMPLEMENTED ? 90 : 75
+    accuracy MOVE_CHANGES_IMPLEMENTED ? 85 : 75
     pp 15
     effectchance 20
     target MOVE_TARGET_SELECTED
@@ -3803,13 +3793,12 @@ movedata MOVE_IRON_TAIL, "Iron Tail"
     terminatedata
     movedescription MOVE_IRON_TAIL, "The foe is slammed\nwith a steel-hard\ntail.\nThis has a 20% chance\nto lower Defense."
 
-// ACCURACY: 95 >> 100
 movedata MOVE_METAL_CLAW, "Metal Claw"
     battleeffect 139
     pss SPLIT_PHYSICAL
     basepower 50
     type TYPE_STEEL
-    accuracy MOVE_CHANGES_IMPLEMENTED ? 100 : 95
+    accuracy 95
     pp 35
     effectchance 10
     target MOVE_TARGET_SELECTED
@@ -4774,11 +4763,11 @@ movedata MOVE_DIVE, "Dive"
     terminatedata
     movedescription MOVE_DIVE, "The user dives\nunderwater, then\nfloats up and\nattacks the foe."
 
-// POWER: 15 >> 25
+// POWER: 15 >> 20
 movedata MOVE_ARM_THRUST, "Arm Thrust"
     battleeffect 29
     pss SPLIT_PHYSICAL
-    basepower MOVE_CHANGES_IMPLEMENTED ? 25 : 15
+    basepower MOVE_CHANGES_IMPLEMENTED ? 20 : 15
     type TYPE_FIGHTING
     accuracy 100
     pp 20
@@ -4890,13 +4879,12 @@ movedata MOVE_TEETER_DANCE, "Teeter Dance"
     movedescription MOVE_TEETER_DANCE, "The user performs a\nwobbly dance that\nconfuses all the\nPokémon in battle.\n"
 
 // POWER: 85 >> 90
-// ACCURACY: 90 >> 100
 movedata MOVE_BLAZE_KICK, "Blaze Kick"
     battleeffect 200
     pss SPLIT_PHYSICAL
     basepower MOVE_CHANGES_IMPLEMENTED ? 90 : 85
     type TYPE_FIRE
-    accuracy MOVE_CHANGES_IMPLEMENTED ? 100 : 90
+    accuracy 90
     pp 10
     effectchance 10
     target MOVE_TARGET_SELECTED
@@ -5007,13 +4995,12 @@ movedata MOVE_POISON_FANG, "Poison Fang"
     terminatedata
     movedescription MOVE_POISON_FANG, "The user bites the\nfoe with toxic fangs.\nThis has a 30% chance\nto badly poison the\nfoe."
 
-// ACCURACY: 95 >> 100
 movedata MOVE_CRUSH_CLAW, "Crush Claw"
     battleeffect 69
     pss SPLIT_PHYSICAL
     basepower 75
     type TYPE_NORMAL
-    accuracy MOVE_CHANGES_IMPLEMENTED ? 100 : 95
+    accuracy 95
     pp 10
     effectchance 50
     target MOVE_TARGET_SELECTED
@@ -5138,13 +5125,12 @@ movedata MOVE_FAKE_TEARS, "Fake Tears"
     terminatedata
     movedescription MOVE_FAKE_TEARS, "The user feigns\ncrying to make the\nfoe feel flustered,\nsharply lowering its\nSp. Def stat."
 
-// ACCURACY: 90 >> 100
 movedata MOVE_AIR_CUTTER, "Air Cutter"
     battleeffect 43
     pss SPLIT_SPECIAL
     basepower 60
     type TYPE_FLYING
-    accuracy MOVE_CHANGES_IMPLEMENTED ? 100 : 95
+    accuracy 95
     pp 25
     effectchance 0
     target MOVE_TARGET_BOTH
@@ -5187,13 +5173,12 @@ movedata MOVE_ODOR_SLEUTH, "Odor Sleuth"
     terminatedata
     movedescription MOVE_ODOR_SLEUTH, "Enables the user to\nhit a Ghost type with\nany type of move. It\nalso enables the user\nto hit an evasive foe."
 
-// ACCURACY: 95 >> 100
 movedata MOVE_ROCK_TOMB, "Rock Tomb"
     battleeffect 70
     pss SPLIT_PHYSICAL
     basepower 60
     type TYPE_ROCK
-    accuracy MOVE_CHANGES_IMPLEMENTED ? 100 : 95
+    accuracy 95
     pp 15
     effectchance 100
     target MOVE_TARGET_SELECTED
@@ -5563,13 +5548,12 @@ movedata MOVE_BULK_UP, "Bulk Up"
     terminatedata
     movedescription MOVE_BULK_UP, "The user tenses its\nmuscles to bulk up\nits body, boosting\nboth its Attack and\nDefense stats."
 
-// ACCURACY: 85 >> 100
 movedata MOVE_BOUNCE, "Bounce"
     battleeffect 263
     pss SPLIT_PHYSICAL
     basepower 85
     type TYPE_FLYING
-    accuracy MOVE_CHANGES_IMPLEMENTED ? 100 : 85
+    accuracy 85
     pp 5
     effectchance 30
     target MOVE_TARGET_SELECTED
@@ -5580,13 +5564,12 @@ movedata MOVE_BOUNCE, "Bounce"
     terminatedata
     movedescription MOVE_BOUNCE, "A two-turn attack.\nThe user bounces up,\nthen down on the foe.\nThis has a 30% chance\nto paralyze the foe."
 
-// ACCURACY: 90 >> 100
 movedata MOVE_MUD_SHOT, "Mud Shot"
     battleeffect 70
     pss SPLIT_SPECIAL
     basepower 55
     type TYPE_GROUND
-    accuracy MOVE_CHANGES_IMPLEMENTED ? 100 : 95
+    accuracy 95
     pp 15
     effectchance 100
     target MOVE_TARGET_SELECTED
@@ -6579,13 +6562,12 @@ movedata MOVE_SEED_BOMB, "Seed Bomb"
     terminatedata
     movedescription MOVE_SEED_BOMB, "The user slams a\nbarrage of hard-\nshelled seeds\ndown on the foe\nfrom above."
 
-// ACCURACY: 90 >> 100
 movedata MOVE_AIR_SLASH, "Air Slash"
     battleeffect 31
     pss SPLIT_SPECIAL
     basepower 75
     type TYPE_FLYING
-    accuracy MOVE_CHANGES_IMPLEMENTED ? 100 : 95
+    accuracy 95
     pp 15
     effectchance 30
     target MOVE_TARGET_SELECTED
@@ -6645,13 +6627,13 @@ movedata MOVE_DRAGON_PULSE, "Dragon Pulse"
     terminatedata
     movedescription MOVE_DRAGON_PULSE, "The foe is attacked\nwith a shock wave\ngenerated by the\nuser’s gaping mouth.\n"
 
-// ACCURACY: 75 >> 90
+// ACCURACY: 75 >> 85
 movedata MOVE_DRAGON_RUSH, "Dragon Rush"
     battleeffect 150
     pss SPLIT_PHYSICAL
     basepower 100
     type TYPE_DRAGON
-    accuracy MOVE_CHANGES_IMPLEMENTED ? 90 : 75
+    accuracy MOVE_CHANGES_IMPLEMENTED ? 85 : 75
     pp 10
     effectchance 20
     target MOVE_TARGET_SELECTED
@@ -6958,13 +6940,12 @@ movedata MOVE_SHADOW_SNEAK, "Shadow Sneak"
     terminatedata
     movedescription MOVE_SHADOW_SNEAK, "The user extends its\nshadow and attacks\nthe foe from behind.\nThis move always goes\nfirst."
 
-// ACCURACY: 85 >> 100
 movedata MOVE_MUD_BOMB, "Mud Bomb"
     battleeffect 73
     pss SPLIT_SPECIAL
     basepower 65
     type TYPE_GROUND
-    accuracy MOVE_CHANGES_IMPLEMENTED ? 100 : 85
+    accuracy 85
     pp 10
     effectchance 30
     target MOVE_TARGET_SELECTED
@@ -7041,13 +7022,12 @@ movedata MOVE_FLASH_CANNON, "Flash Cannon"
     terminatedata
     movedescription MOVE_FLASH_CANNON, "The user gathers all\nits light energy and\nreleases it at once.\nThis has a 10% chance\nto lower Sp. Def."
 
-// TYPE: NORMAL >> ROCK
 // ACCURACY: 85 >> 90
 movedata MOVE_ROCK_CLIMB, "Rock Climb"
     battleeffect 76
     pss SPLIT_PHYSICAL
     basepower 90
-    type MOVE_CHANGES_IMPLEMENTED ? TYPE_ROCK : TYPE_NORMAL
+    type TYPE_NORMAL
     accuracy MOVE_CHANGES_IMPLEMENTED ? 90 : 85
     pp 20
     effectchance 20
@@ -7480,13 +7460,12 @@ movedata MOVE_HEAD_SMASH, "Head Smash"
     terminatedata
     movedescription MOVE_HEAD_SMASH, "The user delivers a\nlife-endangering\nattack at full power.\nThe user is hurt by\n50% of damage dealt."
 
-// ACCURACY: 90 >> 100
 movedata MOVE_DOUBLE_HIT, "Double Hit"
     battleeffect 44
     pss SPLIT_PHYSICAL
     basepower 35
     type TYPE_NORMAL
-    accuracy MOVE_CHANGES_IMPLEMENTED ? 100 : 90
+    accuracy 90
     pp 10
     effectchance 0
     target MOVE_TARGET_SELECTED
@@ -7513,13 +7492,12 @@ movedata MOVE_ROAR_OF_TIME, "Roar of Time"
     terminatedata
     movedescription MOVE_ROAR_OF_TIME, "The user blasts the\nfoe with power that\ndistorts even time.\nThe user must rest\non the next turn."
 
-// ACCURACY: 90 >> 100
 movedata MOVE_SPACIAL_REND, "Spacial Rend"
     battleeffect 43
     pss SPLIT_SPECIAL
     basepower 100
     type TYPE_DRAGON
-    accuracy MOVE_CHANGES_IMPLEMENTED ? 100 : 95
+    accuracy 95
     pp 5
     effectchance 0
     target MOVE_TARGET_SELECTED
@@ -8637,13 +8615,12 @@ movedata MOVE_WORK_UP, "Work Up"
     terminatedata
     movedescription MOVE_WORK_UP, "The user is roused,\nand its Attack and\nSp. Atk stats\nincrease."
 
-// ACCURACY: 90 >> 100
 movedata MOVE_ELECTROWEB, "Electroweb"
     battleeffect 70
     pss SPLIT_SPECIAL
     basepower 55
     type TYPE_ELECTRIC
-    accuracy MOVE_CHANGES_IMPLEMENTED ? 100 : 95
+    accuracy 95
     pp 15
     effectchance 100
     target MOVE_TARGET_BOTH
@@ -8654,11 +8631,11 @@ movedata MOVE_ELECTROWEB, "Electroweb"
     terminatedata
     movedescription MOVE_ELECTROWEB, "The foe is captured\nin an electric net\nand takes damage.\nThis reduces the\nfoe’s Speed stat."
 
-// POWER: 90 >> 95
+// POWER: 90 >> 100
 movedata MOVE_WILD_CHARGE, "Wild Charge"
     battleeffect 48
     pss SPLIT_PHYSICAL
-    basepower MOVE_CHANGES_IMPLEMENTED ? 95 : 90
+    basepower MOVE_CHANGES_IMPLEMENTED ? 100 : 90
     type TYPE_ELECTRIC
     accuracy 100
     pp 15
@@ -8753,13 +8730,12 @@ movedata MOVE_SACRED_SWORD, "Sacred Sword"
     terminatedata
     movedescription MOVE_SACRED_SWORD, "The user attacks by\nslicing with a sword.\nThe target’s stat\nchanges do not affect\nthis move’s damage."
 
-// ACCURACY: 95 >> 100
 movedata MOVE_RAZOR_SHELL, "Razor Shell"
     battleeffect 69
     pss SPLIT_PHYSICAL
     basepower 75
     type TYPE_WATER
-    accuracy MOVE_CHANGES_IMPLEMENTED ? 100 : 95
+    accuracy 95
     pp 10
     effectchance 50
     target MOVE_TARGET_SELECTED
@@ -8786,13 +8762,12 @@ movedata MOVE_HEAT_CRASH, "Heat Crash"
     terminatedata
     movedescription MOVE_HEAT_CRASH, "Slams the foe with its\nflame-covered body.\nThis does more damage\nthe more the user\noutweighs the foe."
 
-// ACCURACY: 90 >> 100
 movedata MOVE_LEAF_TORNADO, "Leaf Tornado"
     battleeffect 73
     pss SPLIT_SPECIAL
     basepower 65
     type TYPE_GRASS
-    accuracy MOVE_CHANGES_IMPLEMENTED ? 100 : 90
+    accuracy 90
     pp 10
     effectchance 50
     target MOVE_TARGET_SELECTED
@@ -8836,13 +8811,12 @@ movedata MOVE_COTTON_GUARD, "Cotton Guard"
     terminatedata
     movedescription MOVE_COTTON_GUARD, "The user protects\nitself by wrapping\nits body in cotton,\ndrastically raising\nthe user’s Defense."
 
-// ACCURACY: 95 >> 100
 movedata MOVE_NIGHT_DAZE, "Night Daze"
     battleeffect 73
     pss SPLIT_SPECIAL
     basepower 85
     type TYPE_DARK
-    accuracy MOVE_CHANGES_IMPLEMENTED ? 100 : 95
+    accuracy 95
     pp 10
     effectchance 40
     target MOVE_TARGET_SELECTED
@@ -9094,13 +9068,12 @@ movedata MOVE_ICE_BURN, "Ice Burn"
     terminatedata
     movedescription MOVE_ICE_BURN, "A two-turn attack\nthat surrounds the\nfoe with ultracold,\nfreezing wind. It\nmay burn the foe."
 
-// ACCURACY: 90 >> 100
 movedata MOVE_SNARL, "Snarl"
     battleeffect 71
     pss SPLIT_SPECIAL
     basepower 55
     type TYPE_DARK
-    accuracy MOVE_CHANGES_IMPLEMENTED ? 100 : 95
+    accuracy 95
     pp 15
     effectchance 100
     target MOVE_TARGET_BOTH
@@ -9532,13 +9505,12 @@ movedata MOVE_ELECTRIFY, "Electrify"
     contesttype CONTEST_COOL
     terminatedata
 
-// ACCURACY: 90 >> 100
 movedata MOVE_PLAY_ROUGH, "Play Rough"
     battleeffect 68
     pss SPLIT_PHYSICAL
     basepower 90
     type TYPE_FAIRY
-    accuracy MOVE_CHANGES_IMPLEMENTED ? 100 : 90
+    accuracy 90
     pp 10
     effectchance 10
     target MOVE_TARGET_SELECTED 
@@ -10808,13 +10780,12 @@ movedata MOVE_FLORAL_HEALING, "Floral Healing"
     contesttype CONTEST_COOL
     terminatedata
 
-// ACCURACY: 95 >> 100
 movedata MOVE_HIGH_HORSEPOWER, "High Horsepower"
     battleeffect 0
     pss SPLIT_PHYSICAL
     basepower 95
     type TYPE_GROUND
-    accuracy MOVE_CHANGES_IMPLEMENTED ? 100 : 95
+    accuracy 95
     pp 10
     effectchance 0
     target MOVE_TARGET_SELECTED
@@ -12764,13 +12735,12 @@ movedata MOVE_ETERNABEAM, "Eternabeam"
     contesttype CONTEST_COOL
     terminatedata
 
-// ACCURACY: 90 >> 100
 movedata MOVE_STEEL_BEAM, "Steel Beam"
     battleeffect 304
     pss SPLIT_SPECIAL
     basepower 140
     type TYPE_STEEL
-    accuracy MOVE_CHANGES_IMPLEMENTED ? 100 : 95
+    accuracy 95
     pp 5
     effectchance 0
     target MOVE_TARGET_SELECTED
@@ -12829,13 +12799,12 @@ movedata MOVE_SCALE_SHOT, "Scale Shot"
     terminatedata
     movedescription MOVE_SCALE_SHOT, "Shoots scales two to\nfive times in a row.\nThis move boosts the\nuser’s Speed but\nlowers its Defense."
 
-// ACCURACY: 90 >> 100
 movedata MOVE_METEOR_BEAM, "Meteor Beam"
     battleeffect 317
     pss SPLIT_SPECIAL
     basepower 120
     type TYPE_ROCK
-    accuracy MOVE_CHANGES_IMPLEMENTED ? 100 : 90
+    accuracy 90
     pp 10
     effectchance 100
     target MOVE_TARGET_SELECTED
@@ -12921,13 +12890,12 @@ movedata MOVE_TERRAIN_PULSE, "Terrain Pulse"
     contesttype CONTEST_COOL
     terminatedata
 
-// ACCURACY: 90 >> 100
 movedata MOVE_SKITTER_SMACK, "Skitter Smack"
     battleeffect 71
     pss SPLIT_PHYSICAL
     basepower 70
     type TYPE_BUG
-    accuracy MOVE_CHANGES_IMPLEMENTED ? 100 : 90
+    accuracy 90
     pp 10
     effectchance 100
     target MOVE_TARGET_SELECTED
@@ -13014,11 +12982,11 @@ movedata MOVE_COACHING, "Coaching"
     contesttype CONTEST_COOL
     terminatedata
 
-// POWER: 60 >> 70
+// POWER: 60 >> 65
 movedata MOVE_FLIP_TURN, "Flip Turn"
     battleeffect 228
     pss SPLIT_PHYSICAL
-    basepower MOVE_CHANGES_IMPLEMENTED ? 70 : 60
+    basepower MOVE_CHANGES_IMPLEMENTED ? 65 : 60
     type TYPE_WATER
     accuracy 100
     pp 20

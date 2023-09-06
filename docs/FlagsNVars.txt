@@ -52,9 +52,14 @@ NPCs:
 2151 - Choice Scarf gift from Mom.
 2152 - Will at Indigo Plateau's lobby.
 2153 - If the "Right Hand" option is selected.
+2154 - Rage Candy Bar bought.
+2155 - Bruno's Choice Band gift at Mt. Mortar.
+2156 - Bruno was spoken to in the Elite Four at least once.
+2157 - Choice Specs gift on Route 27.
+2158 - Weakness Policy gift in Pokémon League.
 
-2175* - Rocket event active.
-2176 - Rocket event inactive.
+2175* - Safari Rocket event active.
+2176 - Safari Rocket event inactive.
 2177 - Cliff Cave battle ended.
 2178* - Ethan/Lyra + Azumarill facing down in Cliff Cave.
 2179* - Silver/Grunt outside Cliff Cave.

@@ -151,8 +151,6 @@ BOOL CalcAccuracy(void *bw, struct BattleStruct *sp, int attacker, int defender,
         sp->waza_status_flag |= WAZA_STATUS_FLAG_NANIMOOKORAN;
     }
 
-    move_type = GetAdjustedMoveType(sp, attacker, move_no);
-
     // Old Air Balloon code I made before BluRose did it
     // if
     // (
@@ -230,6 +228,24 @@ BOOL CalcAccuracy(void *bw, struct BattleStruct *sp, int attacker, int defender,
     if (sp->server_status_flag & SERVER_STATUS_FLAG_OTHER_ACCURACY_CALC)
     {
         return FALSE;
+    }
+
+    move_type = GetAdjustedMoveType(sp, sp->attack_client, move_no);
+
+    // Custom change.
+    // If the used move's type (after calculations) is a damaging move and matches one of the Pokémon's types, boost the accuracy by 10%.
+    // However, if the base accuracy is 90%+, just set it to 100 instead. (This prevents 99% chances as well as capping it at 100%).
+    if
+    (
+        (move_split != SPLIT_STATUS) &&
+        ((BattlePokemonParamGet(sp, attacker, BATTLE_MON_DATA_TYPE1, NULL) == move_type) || (BattlePokemonParamGet(sp, attacker, BATTLE_MON_DATA_TYPE2, NULL) == move_type))
+    )
+    {
+        if (accuracy >= 90) {
+            accuracy = 100;
+        } else {
+            accuracy = (accuracy * 110) / 100;
+        }
     }
 
     if ((CheckSideAbility(bw, sp, CHECK_ALL_BATTLER_ALIVE, 0, ABILITY_CLOUD_NINE) == 0)

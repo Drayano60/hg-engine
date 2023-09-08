@@ -770,3 +770,4 @@ a {COLOR 255}Pewter Snacks{COLOR 0}
 a {COLOR 255}Silph Scope{COLOR 0}
 a {COLOR 255}Tea{COLOR 0}
 a {COLOR 255}Mystery Stone{COLOR 0}
+a {COLOR 255}Pixie Powder{COLOR 0}

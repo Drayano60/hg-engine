@@ -770,3 +770,4 @@ Pewter Snacks Description
 Silph Scope Description
 Tea Description
 An enigmatic stone that can make a\ncertain species of Pokémon evolve.\nIts effects are unknown.
+An item to be held by a Pokémon.\nIt is a fine, sparkling dust that ups\nthe power of Fairy-type moves by 20%.

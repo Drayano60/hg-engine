@@ -3409,7 +3409,7 @@ mondata SPECIES_EEVEE, "Eevee"
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 0, 1
-    items ITEM_ENIGMA_BERRY, ITEM_ENIGMA_BERRY
+    items ITEM_NONE, ITEM_NONE
     genderratio 31
     eggcycles 35
     basefriendship 70 // raised up again
@@ -5699,7 +5699,7 @@ mondata SPECIES_MAGCARGO, "Magcargo"
     catchrate 75
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 2, 0, 0, 0
-    items ITEM_HEAT_ROCK, ITEM_HEAT_ROCK
+    items ITEM_NONE, ITEM_NONE
     genderratio 127
     eggcycles 20
     basefriendship 70
@@ -6385,7 +6385,7 @@ mondata SPECIES_PUPITAR, "Pupitar"
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 2, 0, 0, 0, 0
-    items ITEM_SMOOTH_ROCK, ITEM_SMOOTH_ROCK
+    items ITEM_NONE, ITEM_NONE
     genderratio 127
     eggcycles 40
     basefriendship 35
@@ -9536,7 +9536,7 @@ mondata SPECIES_GLALIE, "Glalie"
     catchrate 75
     baseexp 0 // defined in baseexp.s
     evyields 2, 0, 0, 0, 0, 0
-    items ITEM_ICY_ROCK, ITEM_ICY_ROCK
+    items ITEM_NONE, ITEM_NONE
     genderratio 127
     eggcycles 20
     basefriendship 70 // raised up again
@@ -9719,7 +9719,7 @@ mondata SPECIES_RELICANTH, "Relicanth"
     catchrate 25
     baseexp 0 // defined in baseexp.s
     evyields 1, 0, 1, 0, 0, 0
-    items ITEM_DAMP_ROCK, ITEM_DAMP_ROCK
+    items ITEM_DEEP_SEA_SCALE, ITEM_DEEP_SEA_SCALE
     genderratio 31
     eggcycles 40
     basefriendship 70 // raised up again
@@ -11176,7 +11176,7 @@ mondata SPECIES_DRIFBLIM, "Drifblim"
     catchrate 60
     baseexp 0 // defined in baseexp.s
     evyields 2, 0, 0, 0, 0, 0
-    items ITEM_AIR_BALLOON, ITEM_AIR_BALLOON
+    items ITEM_NONE, ITEM_NONE
     genderratio 127
     eggcycles 30
     basefriendship 70 // raised up again
@@ -11525,7 +11525,7 @@ mondata SPECIES_HAPPINY, "Happiny"
     catchrate 130
     baseexp 0 // defined in baseexp.s
     evyields 1, 0, 0, 0, 0, 0
-    items ITEM_LUCKY_PUNCH, ITEM_LUCKY_PUNCH
+    items ITEM_NONE, ITEM_NONE
     genderratio 254
     eggcycles 40
     basefriendship 140
@@ -11891,7 +11891,7 @@ mondata SPECIES_CARNIVINE, "Carnivine"
     catchrate 200
     baseexp 0 // defined in baseexp.s
     evyields 0, 2, 0, 0, 0, 0
-    items ITEM_NONE, ITEM_NONE
+    items ITEM_BIG_ROOT, ITEM_BIG_ROOT
     genderratio 127
     eggcycles 25
     basefriendship 70
@@ -15789,7 +15789,7 @@ mondata SPECIES_TRUBBISH, "Trubbish"
     catchrate 190
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 1, 0, 0
-    items ITEM_SILK_SCARF, ITEM_SILK_SCARF
+    items ITEM_NONE, ITEM_NONE
     genderratio 127
     eggcycles 20
     basefriendship 70 // raised up again

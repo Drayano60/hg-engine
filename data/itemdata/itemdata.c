@@ -15124,7 +15124,8 @@ const ITEMDATA __data[] =
 
 [ITEM_SEA_INCENSE - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 9600,
+    // .price = 9600,
+    .price = 5000,
     .holdEffect = HOLD_EFFECT_BOOST_WATER,
     .holdEffectParam = 20,
     .pluckEffect = 0,
@@ -15189,7 +15190,8 @@ const ITEMDATA __data[] =
 
 [ITEM_LAX_INCENSE - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 9600,
+    // .price = 9600,
+    .price = 5000,
     .holdEffect = HOLD_EFFECT_DECREASE_ACCURACY,
     .holdEffectParam = 10,
     .pluckEffect = 0,
@@ -19030,7 +19032,8 @@ const ITEMDATA __data[] =
 
 [ITEM_ODD_INCENSE - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 9600,
+    // .price = 9600,
+    .price = 5000,
     .holdEffect = HOLD_EFFECT_BOOST_PSYCHIC,
     .holdEffectParam = 20,
     .pluckEffect = 0,
@@ -19095,7 +19098,8 @@ const ITEMDATA __data[] =
 
 [ITEM_ROCK_INCENSE - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 9600,
+    // .price = 9600,
+    .price = 5000,
     .holdEffect = HOLD_EFFECT_BOOST_ROCK,
     .holdEffectParam = 20,
     .pluckEffect = 0,
@@ -19160,7 +19164,8 @@ const ITEMDATA __data[] =
 
 [ITEM_FULL_INCENSE - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 9600,
+    // .price = 9600,
+    .price = 5000,
     .holdEffect = HOLD_EFFECT_LAGGING_TAIL,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -19225,7 +19230,8 @@ const ITEMDATA __data[] =
 
 [ITEM_WAVE_INCENSE - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 9600,
+    // .price = 9600,
+    .price = 5000,
     .holdEffect = HOLD_EFFECT_BOOST_WATER,
     .holdEffectParam = 20,
     .pluckEffect = 0,
@@ -19290,7 +19296,8 @@ const ITEMDATA __data[] =
 
 [ITEM_ROSE_INCENSE - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 9600,
+    // .price = 9600,
+    .price = 5000,
     .holdEffect = HOLD_EFFECT_BOOST_GRASS,
     .holdEffectParam = 20,
     .pluckEffect = 0,
@@ -19355,7 +19362,8 @@ const ITEMDATA __data[] =
 
 [ITEM_LUCK_INCENSE - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 9600,
+    // .price = 9600,
+    .price = 5000,
     .holdEffect = HOLD_EFFECT_DOUBLE_MONEY_GAIN,
     .holdEffectParam = 10,
     .pluckEffect = 0,
@@ -19420,7 +19428,8 @@ const ITEMDATA __data[] =
 
 [ITEM_PURE_INCENSE - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 9600,
+    // .price = 9600,
+    .price = 5000,
     .holdEffect = HOLD_EFFECT_ENCOUNTERS_DOWN,
     .holdEffectParam = 0,
     .pluckEffect = 0,

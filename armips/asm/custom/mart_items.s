@@ -134,6 +134,37 @@ EIGHT_BADGES equ 6
 .halfword 0xFFFF
 .halfword 0xFFFF
 
+/* Celadon ?? */
+/* This is repurposed for use at the Safari Zone Gate */
+.org 0x020FBC02
+
+.halfword ITEM_FULL_INCENSE
+.halfword ITEM_LAX_INCENSE
+.halfword ITEM_LUCK_INCENSE
+.halfword ITEM_ODD_INCENSE
+.halfword ITEM_PURE_INCENSE
+.halfword ITEM_ROCK_INCENSE
+.halfword ITEM_ROSE_INCENSE
+.halfword ITEM_SEA_INCENSE
+.halfword ITEM_WAVE_INCENSE
+.halfword 0xFFFF
+.halfword 0xFFFF
+.halfword 0xFFFF
+
+/* Celadon ?? */
+/* This is repurposed for use at the Battle Counters */
+.org 0x020FBBC6
+
+.halfword ITEM_EXP_SHARE
+.halfword ITEM_MACHO_BRACE
+.halfword ITEM_POWER_WEIGHT
+.halfword ITEM_POWER_BRACER
+.halfword ITEM_POWER_BELT
+.halfword ITEM_POWER_LENS
+.halfword ITEM_POWER_BAND
+.halfword ITEM_POWER_ANKLET
+.halfword 0xFFFF
+
 /* DEFAULT TABLE:
 .halfword ITEM_POKE_BALL
 .halfword ZERO_BADGES

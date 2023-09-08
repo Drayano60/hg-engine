@@ -345,7 +345,7 @@ A wondrous wall of light is put up to\nsuppress damage from special attacks\nfor
 It enables the user to evade all\nattacks. Its chance of failing rises\nif it is used in succession.
 The user summons a heavy rain that\nfalls for five turns, powering up\nWater-type moves.
 A nutrient-draining attack. The user’s\nHP is restored by half the damage\ntaken by the target.
-The user creates a protective field\nthat prevents status problems like\npoison, paralysis, burn, and sleep.
+An attack move that varies in power\nand type depending on the weather.
 The user damages opposing Pokémon by\nemitting a powerful flash.
 A two-turn attack. The user gathers\nlight, then blasts a bundled beam on\nthe second turn.
 The foe is slammed with a sturdy tail\nof steel. It has a 20% chance to lower\nthe target’s Defense stat if it hits.

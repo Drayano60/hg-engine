@@ -9194,8 +9194,8 @@ levelup SPECIES_CASTFORM
     learnset MOVE_SUNNY_DAY, 20
     learnset MOVE_RAIN_DANCE, 20
     learnset MOVE_HAIL, 20
-    learnset MOVE_TRI_ATTACK, 25
-    learnset MOVE_WEATHER_BALL, 30
+    learnset MOVE_WEATHER_BALL, 25
+    learnset MOVE_TRI_ATTACK, 30
     learnset MOVE_FLAMETHROWER, 35
     learnset MOVE_THUNDERBOLT, 35
     learnset MOVE_ICE_BEAM, 35

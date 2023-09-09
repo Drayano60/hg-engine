@@ -110,12 +110,12 @@ EIGHT_BADGES equ 6
 /* This is repurposed for use in the Safari Zone Gate */
 .org 0x020FBB08
 
-.halfword ITEM_DEEP_SEA_SCALE
-.halfword ITEM_DEEP_SEA_TOOTH
 .halfword ITEM_KINGS_ROCK
+.halfword ITEM_LINKING_CORD
 .halfword ITEM_PRISM_SCALE
-.halfword ITEM_METAL_COAT
+.halfword ITEM_SACHET
 .halfword ITEM_UP_GRADE
+.halfword ITEM_WHIPPED_DREAM
 
 /* Celadon City Dept. Store - TMs */
 /* This is repurposed for use at Indigo Plateau */

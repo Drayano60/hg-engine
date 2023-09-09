@@ -106,7 +106,8 @@ Ruins Research Center
 ✓ This is the building inside the Ruins of Alph, which now has its own header name.
 ✓ Added another scientist NPC who can revive fossils. Fossils match the correct Pokémon; Aerodactyl is Lv. 40, Gen 5-6 ones are Lv. 25, the rest are Lv. 25 with the Plain Badge, Lv. 10 without.
 ✓ Moved one of the other scientists to the bookcases to get him out of the way.
-✓ Added a Ruin Maniac NPC who will give you any of the fossils in exchange for a Rare Bone (which can be found at a low rate by smashing rocks in the Ruins of Alph). The Gen 5-6 fossils require 3 Badges, Aerodactyl requires 7 Badges.
+✓ Added a Ruin Maniac NPC who will give you any of the fossils or the Black Augurite/Peat Block in exchange for a Rare Bone (which can be found at a low rate by smashing rocks in the Ruins of Alph).
+✓✓ The Gen 5-6 fossils require 3 Badges, Aerodactyl requires 7 Badges. The Black Augurite and Peat Block require you to receive them from their original source first.
 
 Route 46
 ✓ Added a Rare Candy just above the ledge, accessible from Dark Cave.
@@ -266,6 +267,7 @@ Mt. Mortar
 Route 42
 ✓ Adjusted trainer directions a little.
 ✓ Dubious Disc -> TM88 Air Slash.
+✓ Super Potion -> the new Pixie Powder and moved behind the Cut tree.
 
 Mahogany Town
 ✓ Route 43 is blocked off until after Jasmine.
@@ -389,7 +391,7 @@ Safari Zone
 Safari Zone Gate (Normal)
 ✓ Changed out the no talking lady/Kangaskhan for a Roserade and a shopkeeper that sells the Shiny, Dusk, Dawn and Oval Stones.
 ✓ Changed the bottom left lady to give TM62, Pollen Puff. Her Butterfree is now a Jumpluff.
-✓ Added a new shopkeeper that uses Celadon's vitamin shop (as it's identical to the Goldenrod/Safari Zone one, so it's free real estate). This one sells some of the Evolution items that the player has been able to get already: Deep Sea Scale, Deep Sea Tooth, King's Rock, Prism Scale, Metal Coat, and Upgrade.
+✓ Added a new shopkeeper that uses Celadon's vitamin shop (as it's identical to the Goldenrod/Safari Zone one, so it's free real estate). This one sells some of the Evolution items that the player has been able to get already: Whipped Dream, Sachet, King's Rock, Prism Scale, Linking Cord, and Upgrade.
 ✓ The bottom shopkeeper now sells incenses instead of vitamins and has a Munchlax next to him.
 ✓ Added a kid with a DS in the Pokémon Center who gives you a Linking Cord.
 

@@ -53,6 +53,7 @@ Route 31
 ✓ Added another Lass using a Mickey (40).
 ✓ Ethan/Lyra now battle you when they encounter you in the gatehouse (this battle does not have to be won). Afterwards, they give you TM54, False Swipe (and a quick nod to headbutting/exotic sound encounters) before leaving. The Marill is also an Azurill.
 ✓ NPC just outside Dark Cave has had his dialogue modified to remove the Flash mention.
+✓ The sleepy man now gives you a Big Nugget instead of TM44.
 
 Dark Cave - Violet Side
 ✓ The cave is now low lighting instead of pitch black, so Flash does nothing.
@@ -180,6 +181,7 @@ Route 34
 ✓ Added an item ball with the Mystic Water.
 ✓ Added an Ethan/Lyra battle on top of the existing script.
 ✓ The Ace Trainers now give you a Bright Powder instead.
+✓ The first time you talk to the Day-Care Man, he'll give you an "Odd Egg" which can be any of the baby Pokémon except for Togepi. The Pokémon will always have its hidden ability.
 
 Goldenrod City
 ✓ Added an NPC in the Game Corner who can sell you coins for money.

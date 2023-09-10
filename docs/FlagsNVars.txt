@@ -64,6 +64,7 @@ NPCs:
 2163 - TM58 gift on Route 45.
 2164 - Expert Belt gift in the Lighthouse.
 2165 - After speaking to the lady in Route 36's gatehouse.
+2166 - Odd Egg received.
 
 2175* - Safari Rocket event active.
 2176 - Safari Rocket event inactive.
@@ -117,6 +118,7 @@ NPCs:
 2609 - Noctowl static encounter.
 2610 - Lapras static encounter.
 2611 - Slowking static encounter.
+2612 - Used to control Odd Egg stuff.
 
 373 - This is the flag in the base game to signal Suicune has been caught. This is set during the Bell Tower event if Suicune is caught.
 

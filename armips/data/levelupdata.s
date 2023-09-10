@@ -5102,7 +5102,7 @@ levelup SPECIES_TOGEPI
     learnset MOVE_BABY_DOLL_EYES, 9
     learnset MOVE_LUCKY_CHANT, 12
     learnset MOVE_ANCIENT_POWER, 15
-    learnset MOVE_DRAINING_KISS, 18
+    learnset MOVE_ENCORE, 18
     learnset MOVE_CHARM, 21
     learnset MOVE_YAWN, 24
     learnset MOVE_WISH, 28
@@ -5127,7 +5127,7 @@ levelup SPECIES_TOGETIC
     learnset MOVE_BABY_DOLL_EYES, 9
     learnset MOVE_LUCKY_CHANT, 12
     learnset MOVE_ANCIENT_POWER, 15
-    learnset MOVE_DRAINING_KISS, 18
+    learnset MOVE_ENCORE, 18
     learnset MOVE_CHARM, 21
     learnset MOVE_YAWN, 24
     learnset MOVE_WISH, 28
@@ -5156,7 +5156,7 @@ levelup SPECIES_TOGEKISS
     learnset MOVE_BABY_DOLL_EYES, 9
     learnset MOVE_LUCKY_CHANT, 12
     learnset MOVE_ANCIENT_POWER, 15
-    learnset MOVE_DRAINING_KISS, 18
+    learnset MOVE_ENCORE, 18
     learnset MOVE_CHARM, 21
     learnset MOVE_YAWN, 24
     learnset MOVE_WISH, 28

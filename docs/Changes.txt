@@ -109,6 +109,7 @@ Ruins Research Center
 ✓ Moved one of the other scientists to the bookcases to get him out of the way.
 ✓ Added a Ruin Maniac NPC who will give you any of the fossils or the Black Augurite/Peat Block in exchange for a Rare Bone (which can be found at a low rate by smashing rocks in the Ruins of Alph).
 ✓✓ The Gen 5-6 fossils require 3 Badges, Aerodactyl requires 7 Badges. The Black Augurite and Peat Block require you to receive them from their original source first.
+✓ Cynthia shows up here after you meet her in Route 34. She'll give you an Odd Keystone when first spoken to.
 
 Route 46
 ✓ Added a Rare Candy just above the ledge, accessible from Dark Cave.
@@ -540,6 +541,7 @@ Indigo Plateau
 ✓ Each of the Elite Four members now has two teams in the first round. The team battled depends on what the player answered to the coin question. Lance still has just one team, though.
 ✓ Will's pre-battle dialogue has been edited a little bit.
 ✓ Each of the E4 members offers to heal your Pokémon after the battle. It's been left optional in case you want to maintain a status problem/particular HP threshold on something.
+✓ The flags for the Kanto Leaders' appearances in Johto are set during the Hall of Fame.
 ? The game seems to crash after "THE END". It saves well before so it's not a massive issue, but it's a strange one. Might be HG-e related.
 
 Miscellaneous
@@ -557,6 +559,7 @@ Miscellaneous
 ✓✓ One script handles changing things about Pokémon, including move tutors, move reminding, move deletion, nicknaming and checking Hidden Power. The move tutors use Script File 2 still but it's been somewhat adapted.
 ✓✓ One script handles the new "Wonder Egg" mechanic, letting a player give up a Pokémon in exchange for an Egg which can contain any Pokémon in the game that can hatch from an Egg that's also a base form and is not a legendary (i.e. not Phione or Manaphy). Significant alt forms (Alola forms) and Basculin's blue form are added as an extra entry, whereas Frillish, Flabébé and Shellos decide their form after they get picked.
 ✓✓ One script handles the training NPC, who allows you to train up your levels (with varying Happiny line teams depending on badge count), stats (with full teams of 3 EV awarding Pokémon), or get a status applied to your Pokémon (using a Smeargle with the appropriate status move). This NPC also offers a shop that lets you buy Exp Shares and items that boost EVs earned in battle.
+✓ There's also another two scripts in each Pokémon Center (as well as just outside in New Bark) using 10445 and 10446 which are an NPC who can teleport you to places you've visited and his Abra respectively. He has a dialogue to start with, then just presents you a list of places (checking visited flags to do so).
 
 ✓ The Pokémon Music channel is edited to play what was the Hoenn Sound at any time/day of the week. The text listed when this plays has also been modified.
 

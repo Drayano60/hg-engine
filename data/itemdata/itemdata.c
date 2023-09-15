@@ -7253,21 +7253,21 @@ const ITEMDATA __data[] =
 
 [ITEM_ODD_KEYSTONE] =
 {
-    .price = 2100,
+    .price = 0,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
     .flingEffect = 0,
-    .flingPower = 80,
+    .flingPower = 0,
     .naturalGiftPower = 0,
     .naturalGiftType = 31,
-    .prevent_toss = FALSE,
+    .prevent_toss = TRUE,
     .selectable = FALSE,
-    .fieldPocket = POCKET_ITEMS,
+    .fieldPocket = POCKET_KEY_ITEMS,
     .battlePocket = BATTLE_POCKET_NONE,
     .fieldUseFunc = 0,
     .battleUseFunc = 0,
-    .partyUse = 1,
+    .partyUse = 0,
     .partyUseParam = {
         .slp_heal = FALSE,
         .psn_heal = FALSE,

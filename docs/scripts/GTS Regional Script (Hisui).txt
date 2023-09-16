@@ -1,0 +1,109 @@
+GTS Regional Script (Hisui)
+
+Script 21:
+	PlayFanfare 1500
+	LockAll 
+	Message 55
+Jump Function#1006
+
+Function 1006:
+	Message 58
+	OpenTouchScreen 
+	MultiTouchLocalText 1 1 0 1 0x800C
+	CreateMultiTouchBox 38 255 0
+	CreateMultiTouchBox 39 255 1
+	CreateMultiTouchBox 40 255 2
+	CloseMultiTouch 
+	CompareVarValue 0x800C 0
+	JumpIf EQUAL Function#3000
+	CompareVarValue 0x800C 1
+	JumpIf EQUAL Function#3001
+Jump Function#3002
+
+
+Function 3000:
+	CountPartyBornPokemon 0x8001
+	CompareVarValue 0x8001 1
+	JumpIf EQUAL Function#41
+	CloseMessage 
+	FadeScreen 6 1 0 0
+	WaitFadeScreen 
+	CMD_349 
+	GetSelectedPartySlot 0x8001
+	ReturnScreen 
+	FadeScreen 6 1 1 0
+	WaitFadeScreen 
+	CompareVarValue 0x8001 255
+	JumpIf EQUAL Function#3002
+	GetPartyPokemonID 0x8001 0x8004
+	Call Function#4002
+	GetPokemonLevel 0x8005 0x8001
+	DeletePartyPokemon 0x8001
+	GivePokemon 0x8004 0x8005 0 1 0 0x800C
+	Message 60
+	CloseMessage 
+	FadeScreen 6 1 0 0
+	WaitFadeScreen 
+	PlaySound 1188
+	WaitSound 
+	FadeScreen 6 1 1 0
+	WaitFadeScreen 
+	TextPokemon 0 0x8004 0 0
+	Message 61
+	WaitButton 
+	CloseMessage 
+	CloseTouchScreen 
+	ReleaseAll 
+End 
+
+Function 4002:
+	CompareVarValue 0x8004 58
+	JumpIf EQUAL Function#4009
+	CompareVarValue 0x8004 59
+	JumpIf EQUAL Function#4009
+	CompareVarValue 0x8004 100
+	JumpIf EQUAL Function#4009
+	CompareVarValue 0x8004 101
+	JumpIf EQUAL Function#4009
+	CompareVarValue 0x8004 157
+	JumpIf EQUAL Function#4009
+	CompareVarValue 0x8004 211
+	JumpIf EQUAL Function#4009
+	CompareVarValue 0x8004 215
+	JumpIf EQUAL Function#4009
+	CompareVarValue 0x8004 553
+	JumpIf EQUAL Function#4009
+	CompareVarValue 0x8004 599
+	JumpIf EQUAL Function#4009
+	CompareVarValue 0x8004 620
+	JumpIf EQUAL Function#4009
+	CompareVarValue 0x8004 621
+	JumpIf EQUAL Function#4009
+	CompareVarValue 0x8004 678
+	JumpIf EQUAL Function#4009
+	CompareVarValue 0x8004 755
+	JumpIf EQUAL Function#4009
+	CompareVarValue 0x8004 756
+	JumpIf EQUAL Function#4009
+	CompareVarValue 0x8004 763
+	JumpIf EQUAL Function#4009
+Jump Function#5000
+
+Function 4009:
+Return 
+
+Function 5000:
+	Message 59
+Jump Function#1006
+
+Function 3001:
+	Message 57
+Jump Function#1006
+
+Function 3002:
+	Message 56
+	WaitButton 
+	CloseMessage 
+	CloseTouchScreen 
+	ReleaseAll 
+End 

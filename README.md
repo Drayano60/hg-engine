@@ -9,4 +9,6 @@ Instructions on how to build the repo can be found there.
 - [ ] Make Sweet Veil work for allies
 - [ ] Fix Flower Veil if possible
 - [ ] Add shiny assets for four Paldea evolutions
+- [ ] Figure out why prize money change isn't working for Lyra
 - [ ] Clarify if Disable turns work like S/V
+- [ ] Readd Looker OW over Byron

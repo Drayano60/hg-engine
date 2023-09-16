@@ -47,8 +47,11 @@ PALETTE_BUG equ 610
 .skip (2 * 3)
 .halfword MOVE_VENOSHOCK
 
+// Replace TM20 Safeguard with TM20 Weather Ball
+.skip (2 * 10)
+.halfword MOVE_WEATHER_BALL
+
 // Replace TM21 Frustration with TM21 Dazzling Gleam
-.skip (2 * 11)
 .halfword MOVE_DAZZLING_GLEAM
 
 // Replace TM27 Return with TM27 Low Sweep

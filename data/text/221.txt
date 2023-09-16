@@ -345,7 +345,7 @@ A wondrous wall of light is put up to\nsuppress damage from special attacks\nfor
 It enables the user to evade all\nattacks. Its chance of failing rises\nif it is used in succession.
 The user summons a heavy rain that\nfalls for five turns, powering up\nWater-type moves.
 A nutrient-draining attack. The user’s\nHP is restored by half the damage\ntaken by the target.
-The user creates a protective field\nthat prevents status problems like\npoison, paralysis, burn, and sleep.
+An attack move that varies in power\nand type depending on the weather.
 The user damages opposing Pokémon by\nemitting a powerful flash.
 A two-turn attack. The user gathers\nlight, then blasts a bundled beam on\nthe second turn.
 The foe is slammed with a sturdy tail\nof steel. It has a 20% chance to lower\nthe target’s Defense stat if it hits.
@@ -401,7 +401,7 @@ The user covers its feet in ice and\ntwirls around, slamming into the target.
 A weak electric charge is launched\nat the foe. It causes paralysis if it\nhits.
 The user attacks the foe with a pollen\npuff that explodes. When targeting\nan ally, it heals the ally’s HP.
 A frenetic dance to uplift the fighting\nspirit. It sharply raises the user’s\nAttack stat.
-While resisting, the user attacks the\nopposing Pokémon. This lowers the\ntargets’ Sp. Atk stats.
+The user lays a trap of levitating\nstones around the foe. The trap hurts\nfoes that switch into battle.
 The user hypnotizes itself into\ncopying any stat change made\nby the foe.
 The user throws scorching sand at the\ntarget to attack. It has a 30% chance\nto burn the target.
 The user releases a horrible aura\nimbued with dark thoughts. It has\na 20% chance to make the foe flinch.
@@ -769,3 +769,5 @@ Lift Key Description
 Pewter Snacks Description
 Silph Scope Description
 Tea Description
+An enigmatic stone that can make a\ncertain species of Pokémon evolve.\nIts effects are unknown.
+An item to be held by a Pokémon.\nIt is a fine, sparkling dust that ups\nthe power of Fairy-type moves by 20%.

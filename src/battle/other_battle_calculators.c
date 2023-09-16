@@ -524,9 +524,11 @@ u8 CalcSpeed(void *bw, struct BattleStruct *sp, int client1, int client2, int fl
         speed1 /= 2;
     }
 
-    if ((ability1 == ABILITY_UNBURDEN)
-     && (sp->battlemon[client1].moveeffect.knockOffFlag)
-     && (sp->battlemon[client1].item == 0))
+    if
+    (
+        (ability1 == ABILITY_UNBURDEN) &&
+        (((sp->battlemon[client1].moveeffect.knockOffFlag) && (sp->battlemon[client1].item == 0)) || (sp->battlemon[client1].single_use_item_flag == 1))
+    )
     {
         speed1 *= 2;
     }
@@ -624,9 +626,11 @@ u8 CalcSpeed(void *bw, struct BattleStruct *sp, int client1, int client2, int fl
         speed2 /= 2;
     }
 
-    if ((ability2 == ABILITY_UNBURDEN)
-     && (sp->battlemon[client2].moveeffect.knockOffFlag)
-     && (sp->battlemon[client2].item == 0))
+    if
+    (
+        (ability2 == ABILITY_UNBURDEN) &&
+        (((sp->battlemon[client2].moveeffect.knockOffFlag) && (sp->battlemon[client2].item == 0)) || (sp->battlemon[client2].single_use_item_flag == 1))
+    )
     {
         speed2 *= 2;
     }

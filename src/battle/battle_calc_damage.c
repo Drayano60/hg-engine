@@ -66,6 +66,7 @@ static const u8 HeldItemPowerUpTable[][2]={
     {HOLD_EFFECT_PLATE_BOOST_NORMAL, TYPE_NORMAL},
 #if FAIRY_TYPE_IMPLEMENTED == 1
     {HOLD_EFFECT_PLATE_BOOST_FAIRY, TYPE_FAIRY},
+    {HOLD_EFFECT_BOOST_FAIRY, TYPE_FAIRY},
 #endif
 };
 
@@ -705,7 +706,7 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
         int i;
 
         for (i = 0; i < count; i++) {
-            if (GetMonData(PokeParty_GetMemberPointer(BattleWorkPokePartyGet(bw, attacker), i), ID_PARA_hp, NULL) == 0) {
+            if (GetMonData(PokeParty_GetMemberPointer(BattleWorkPokePartyGet(bw, attacker), i), MON_DATA_HP, NULL) == 0) {
                 faintedCount++;
             }
         }

@@ -3527,6 +3527,50 @@ u16 __attribute__((long_call)) GetMonEvolution(struct Party *party, struct Party
         return SPECIES_NONE;
     }
 
+    // Handle stone introduced that evolves Eevee randomly (but can be set)
+    // Helps to avoid Gym 2 Togekiss etc
+    if (species == SPECIES_EEVEE && usedItem == ITEM_MYSTERY_STONE) {
+        int flag1 = CheckScriptFlag(2604) == 1;
+        int flag2 = CheckScriptFlag(2605) == 1;
+        int flag3 = CheckScriptFlag(2606) == 1;
+        int flag4 = CheckScriptFlag(2607) == 1;
+
+        int isNothingForced = !flag1 && !flag2 && !flag3 && !flag4; // 0, 0, 0, 0
+        int isVaporeonForced = flag1 && !flag2 && !flag3 && !flag4; // 1, 0, 0, 0
+        int isJolteonForced = !flag1 && flag2 && !flag3 && !flag4; // 0, 1, 0, 0
+        int isFlareonForced = !flag1 && !flag2 && flag3 && !flag4; // 0, 0, 1, 0
+        int isEspeonForced = !flag1 && !flag2 && !flag3 && flag4; // 0, 0, 0, 1
+        int isUmbreonForced = flag1 && flag2 && !flag3 && !flag4; // 1, 1, 0, 0
+        int isLeafeonForced = flag1 && !flag2 && flag3 && !flag4; // 1, 0, 1, 0
+        int isGlaceonForced = flag1 && !flag2 && !flag3 && flag4; // 1, 0, 0, 1
+        int isSylveonForced = flag1 && flag2 && flag3 && !flag4; // 1, 1, 1, 0
+
+        if (isNothingForced) {
+            int r = gf_rand() % 8;
+
+            if (r == 0) { return SPECIES_VAPOREON; };
+            if (r == 1) { return SPECIES_JOLTEON; };
+            if (r == 2) { return SPECIES_FLAREON; };
+            if (r == 3) { return SPECIES_ESPEON; };
+            if (r == 4) { return SPECIES_UMBREON; };
+            if (r == 5) { return SPECIES_LEAFEON; };
+            if (r == 6) { return SPECIES_GLACEON; };
+            if (r == 7) { return SPECIES_SYLVEON; };
+        } else {
+            if (isVaporeonForced) { return SPECIES_VAPOREON; };
+            if (isJolteonForced) { return SPECIES_JOLTEON; };
+            if (isFlareonForced) { return SPECIES_FLAREON; };
+            if (isEspeonForced) { return SPECIES_ESPEON; };
+            if (isUmbreonForced) { return SPECIES_UMBREON; };
+            if (isLeafeonForced) { return SPECIES_LEAFEON; };
+            if (isGlaceonForced) { return SPECIES_GLACEON; };
+            if (isSylveonForced) { return SPECIES_SYLVEON; };
+        }
+
+        // Default case, shouldn't happen though
+        return SPECIES_VAPOREON;
+    }
+
     // Spiky-ear Pichu cannot evolve
     if (species == SPECIES_PICHU && form == 1) {
         return SPECIES_NONE;

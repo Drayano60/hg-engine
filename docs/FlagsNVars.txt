@@ -1,10 +1,155 @@
+* = Flag set before game starts (script file 149).
+
 NPCs:
 2100* - Policeman in front of Elm's Lab after Silver battle but before returning.
+2101 - Silk Scarf gift from NPC in Trainer School.
+2102 - TM83 gift from NPC in Trainer School.
+2103 - Elemental monkey gift from Primo.
+2104 - Cleanse Tag gift in Sprout Tower.
+2105 - Sharp Beak gift in Violet City.
+2106 - Starter gift in Azalea.
+2107 - TM46 Thief gift in Azalea.
+2108* - Cynthia at the Ruins Research Center.
+2109 - TM32 Leech Life gift from first BCC entry.
+2110 - Karate King beaten.
+2111 - Karate King's Tyrogue received.
+2112 - Twisted Spoon gift in Goldenrod
+2113 - Magnet gift in Goldenrod
+2114 - Sachet gift in Goldenrod
+2115 - Whipped Dream gift in Goldenrod
+2116 - TM21 Dazzling Gleam gift in Ecruteak
+2117 - Morty in front of Burned Tower, and the Eusine/Grunts in Ice Path
+2118 - Leftovers gift in Olivine
+2119 - Soft Sand gift on Route 40
+2120* - Brock visible
+2121 - Brock win
+2122* - Misty visible
+2123 - Misty win
+2124* - Lt. Surge visible
+2125 - Lt. Surge win
+2126* - Erika visible
+2127 - Erika win
+2128* - Janine visible
+2129 - Janine win
+2130* - Sabrina visible
+2131 - Sabrina win
+2132* - Blaine visible
+2133 - Blaine win
+2134 - Eviolite gift in Cianwood City
+2135 - Deep Sea Tooth/Scale gift in Olivine City
+2136 - Rocket Grunt looking at Safari sign in Cianwood
+2137* - Secret Medicine guy.
+2138 - TM42 Facade gift in Cianwood.
+2139 - Winch button check.
+2140 - TM74 Pollen Puff gift.
+2141 - Ariana defeated at Rocket Tower.
+2142 - Archer defeated at Rocket Tower.
+2143* - Looker at Radio Tower.
+2144 - Trick Room gift at the Radio Tower.
+2148 - Spiritomb event at Lake of Rage.
+2149 - Suicune at Bell Tower event completed.
+2150* - Legendary beast sprites in Bell Tower.
+2151 - Choice Scarf gift from Mom.
+2152 - Will at Indigo Plateau's lobby.
+2153 - If the "Right Hand" option is selected.
+2154 - Rage Candy Bar bought.
+2155 - Bruno's Choice Band gift at Mt. Mortar.
+2156 - Bruno was spoken to in the Elite Four at least once.
+2157 - Choice Specs gift on Route 27.
+2158 - Weakness Policy gift in Pokémon League.
+2159 - TM17 gift in Safari Zone Gate.
+2160 - Linking Cord gift in Safari Zone Gate.
+2161 - TM20 gift in Mahogany Town.
+2162 - Castform gift in Mahogany Town.
+2163 - TM58 gift on Route 45.
+2164 - Expert Belt gift in the Lighthouse.
+2165 - After speaking to the lady in Route 36's gatehouse.
+2166 - Odd Egg received.
+2167 - Teleporter NPC spoken to.
+
+2175* - Safari Rocket event active.
+2176 - Safari Rocket event inactive.
+2177 - Cliff Cave battle ended.
+2178* - Ethan/Lyra + Azumarill facing down in Cliff Cave.
+2179* - Silver/Grunt outside Cliff Cave.
+2180 - Hexagon Brothers, Route 48.
+2183 - Safari Zone event completed.
+
+2200 - Rare Candy item ball on Route 46.
+2201 - Poison Barb item ball on Route 32.
+2202 - Oval Stone item ball on Union Cave 1F.
+2203 - Mystic Water item ball on Route 34.
+2204 - Torment item ball in Goldenrod's Game Corner.
+2205 - TM09 Venoshock item ball in Goldenrod Tunnel B1F
+2206 - TM27 Low Sweep item ball on Pokéathlon Dome
+2207 - TM49 Echoed Voice item ball in Radio Tower 1F
+2208 - Wise Glasses item ball in Goldenrod
+2209 - Spell Tag item ball in Ecruteak
+2210 - TM47 Steel Wing item ball on Route 38
+2211 - Black Belt item ball in Mt. Mortar.
+2212 - Never-Melt Ice item ball in Ice Path
+2213 - TM11 Sunny Day item ball in Bellchime Trail
+2214 - TM80 Rock Slide item ball in Union Cave
+2215 - TM73 Thunder Wave item ball on Route 37
+2216 - Rocky Helmet item ball in Cliff Edge Gate
+2217 - TM37 Sandstorm item ball in Cliff Cave
+2218 - King's Rock item ball in Slowpoke Well
+2219 - Dragon Fang item ball in Blackthorn City
+2220 - TM70 Mystical Fire item ball in Bell Tower
+2221 - Sacred Ash item ball in Bell Tower
+2222 - TM52 Focus Blast item ball in Mt Mortar
+2223 - Heavy-Duty Boots in Cliff Edge Gate
+2224 - TM67 Smart Strike on Route 35
+2225 - TM76 Stealth Rock in Dark Cave
+2226 - Miracle Seed in Violet City
+2227 - Air Balloon in the Lighthouse
+2228 - Quick Powder on Route 47
+2229 - Smooth Rock on Cherrygrove City
+2230 - Sticky Barb on Route 46
 
 2600 - HG-e hidden ability flag.
 2601 - HG-e starter hidden ability flag.
+2602 - Not used
+2603 - Not used
+2604 - Mystery Stone Flag 1
+2605 - Mystery Stone Flag 2
+2606 - Mystery Stone Flag 3
+2607 - Mystery Stone Flag 4
+2608 - Sigilyph static encounter.
+2609 - Noctowl static encounter.
+2610 - Lapras static encounter.
+2611 - Slowking static encounter.
+2612 - Used to control Odd Egg stuff.
+
+373 - This is the flag in the base game to signal Suicune has been caught. This is set during the Bell Tower event if Suicune is caught.
 
 Triggers:
 16499/0 - Now used for Cherrygrove Silver rival fight (previously for Guide Gent).
 16499/1 - Now used for Fisherman's Fishing Rod gift as you leave Cherrygrove (previously for Guide Gent map gift?)
 16499/2 - Now used for Eevee gift at Mr. Pokémon's House (previously used for Cherrygrove Silver rival fight).
+
+16990/0 - Used for Ethan/Lyra in the Route 31 gatehouse.
+16690/1 - Used for Cynthia in the Route 34 gatehouse.
+16690/2 - Used for script on entry to Mt. Mortar main room
+16690/3 - Used for script blocking exit to Mt. Mortar until Kimono Girl is found
+16690/4 - Used for Ice Path Rocket/Eusine event.
+16690/5 - Used for Cianwood Gym block until Eusine is beaten.
+16690/6 - ??
+16690/7 - ??
+16690/8 - ??
+16690/9 - Cliff Edge Gate, Ethan/Lyra battle.
+16690/10 - Cliff Cave, Executives battle.
+16690/11 - Route 47, Silver appears.
+16690/12 - Cliff Cave, used to control exits so only top one yields Silver event.
+16690/13 - Route 48, Hexagon Brothers.
+16690/14 - Executive battle, Safari Zone Gate.
+16690/15 - Nothing, interim.
+16690/16 - Bellchime Trail Eusine fight.
+16690/17 - Legendary beasts event in Bell Tower (level script).
+16690/18 - Ethan/Lyra Victory Road gatehouse fight.
+16690/19 - Will in Ice Path. (This and the one below were added later - goes after /15 but before /16)
+16690/20 - Nothing, interim. (See above).
+
+16722 (0-4) - This variable is used for the NPC in the Route 36-Ruins of Alph gatehouse. Doesn't seem to have any scripts using it but can't guarantee it's unused...
+16723 (0-2) - This variable is used for the Rotom event in Goldenrod. Same sort of thing as above...
+16724 (0-1) - This is used for Cynthia. Same again as above

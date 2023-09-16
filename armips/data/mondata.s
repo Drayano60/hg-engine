@@ -7133,7 +7133,7 @@ mondata SPECIES_NUZLEAF, "Nuzleaf"
 
 
 // STATS: 90 >> 100 SpAtk | 480 >> 490 BST
-// ABILITY: Wind Whipper (HA, New)
+// ABILITY: Wind Whipper (HA, New). Also Wind Rider from Gen IX
 mondata SPECIES_SHIFTRY, "Shiftry"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 90, 100, 60, 80, 100, 60
@@ -7150,7 +7150,7 @@ mondata SPECIES_SHIFTRY, "Shiftry"
     basefriendship 70 // raised up again
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_FIELD, EGG_GROUP_GRASS
-    abilities ABILITY_CHLOROPHYLL, ABILITY_EARLY_BIRD
+    abilities ABILITY_CHLOROPHYLL, ABILITY_WIND_RIDER
     runchance 25
     colorflip BODY_COLOR_BROWN, 0
     tmdata SPECIES_SHIFTRY_TM_DATA_0, SPECIES_SHIFTRY_TM_DATA_1, SPECIES_SHIFTRY_TM_DATA_2, SPECIES_SHIFTRY_TM_DATA_3
@@ -10295,7 +10295,7 @@ mondata SPECIES_INFERNAPE, "Infernape"
     mondexweight SPECIES_INFERNAPE, "121.3 lbs."
 
 
-// ABILITY: Swift Swim (2), Competitive (HA)
+// ABILITY: Swift Swim (2), Competitive (From Gen IX)
 mondata SPECIES_PIPLUP, "Piplup"
     basestats 53, 51, 53, 40, 61, 56
     types TYPE_WATER, TYPE_WATER
@@ -10322,7 +10322,7 @@ mondata SPECIES_PIPLUP, "Piplup"
     mondexweight SPECIES_PIPLUP, "11.5 lbs."
 
 
-// ABILITY: Swift Swim (2), Competitive (HA)
+// ABILITY: Swift Swim (2), Competitive (From Gen IX)
 mondata SPECIES_PRINPLUP, "Prinplup"
     basestats 64, 66, 68, 50, 81, 76
     types TYPE_WATER, TYPE_WATER
@@ -10350,7 +10350,7 @@ mondata SPECIES_PRINPLUP, "Prinplup"
 
 
 // STATS: 111 >> 116 SpAtk | 530 >> 535 BST
-// ABILITY: Swift Swim (2), Competitive (HA)
+// ABILITY: Swift Swim (2), Competitive (From Gen IX)
 mondata SPECIES_EMPOLEON, "Empoleon"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 84, 86, 88, 60, 116, 101

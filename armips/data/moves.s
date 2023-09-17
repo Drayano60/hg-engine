@@ -14377,21 +14377,21 @@ movedata MOVE_PSYBLADE, "Psyblade"
 
 // This is a custom move for Meganium
 // Noble Roar that affects both targets
-movedata MOVE_SOOTHING_AROMA, "Soothing Aroma"
-    battleeffect 58 // NOTE: For AI purposes, still uses intended effect
-    pss SPLIT_STATUS
-    basepower 0
+movedata MOVE_AROMATIC_PETALS, "Aromatic Petals"
+    battleeffect 324
+    pss SPLIT_SPECIAL
+    basepower 80
     type TYPE_GRASS
     accuracy 100
-    pp 20
-    effectchance 0
-    target MOVE_TARGET_BOTH
+    pp 10
+    effectchance 100
+    target MOVE_TARGET_SELECTED
     priority 0
-    flags FLAG_MIRROR_MOVE | FLAG_MAGIC_COAT | FLAG_PROTECT
+    flags FLAG_MIRROR_MOVE | FLAG_PROTECT
     appeal 0
     contesttype 0
     terminatedata
-    movedescription MOVE_SOOTHING_AROMA, "Foes are calmed by\nan aroma, lowering\ntheir Attack and\nSp. Atk stats."
+    movedescription MOVE_AROMATIC_PETALS, "The user attacks the\nfoe with petals that\nhave a calming aroma.\nThis lowers the foe’s\nAttack and Sp. Atk."
 
 // This is a custom move for Typhlosion
 // High chance to burn

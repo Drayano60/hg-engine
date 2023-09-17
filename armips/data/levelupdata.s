@@ -4701,7 +4701,7 @@ levelup SPECIES_MEGANIUM
     .endif
     
     learnset MOVE_GRASS_WHISTLE, 28
-    learnset MOVE_SOOTHING_AROMA, 32
+    learnset MOVE_AROMATIC_PETALS, 32
     learnset MOVE_NATURE_POWER, 34
     learnset MOVE_BODY_SLAM, 40
 

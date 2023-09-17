@@ -342,6 +342,7 @@ enum
     SWITCH_IN_CHECK_TRACE,
     SWITCH_IN_CHECK_WEATHER_ABILITY,
     SWITCH_IN_CHECK_INTIMIDATE,
+    SWITCH_IN_CHECK_SWEET_AROMA, // Custom
     SWITCH_IN_CHECK_DOWNLOAD,
     SWITCH_IN_CHECK_ANTICIPATION,
     SWITCH_IN_CHECK_FOREWARN,
@@ -625,6 +626,25 @@ int SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
                         sp->battlemon[client_no].intimidate_flag = 1;
                         sp->client_work = client_no;
                         scriptnum = SUB_SEQ_INTIMIDATE;
+                        ret = SWITCH_IN_CHECK_MOVE_SCRIPT;
+                        break;
+                    }
+                }
+                if (i == client_set_max){
+                    sp->switch_in_check_seq_no++;
+                }
+                break;
+            case SWITCH_IN_CHECK_SWEET_AROMA:
+                for (i = 0; i < client_set_max; i++)
+                {
+                    client_no = sp->turn_order[i];
+                    if ((sp->battlemon[client_no].intimidate_flag == 0)
+                        && (sp->battlemon[client_no].hp)
+                        && (GetBattlerAbility(sp, client_no) == ABILITY_SWEET_AROMA))
+                    {
+                        sp->battlemon[client_no].intimidate_flag = 1;
+                        sp->client_work = client_no;
+                        scriptnum = SUB_SEQ_SWEET_AROMA;
                         ret = SWITCH_IN_CHECK_MOVE_SCRIPT;
                         break;
                     }

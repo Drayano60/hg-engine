@@ -1462,3 +1462,6 @@ The foe’s {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nraised its Speed!
 {STRVAR_1 1, 0, 0} stayed awake\nbecause of its ally’s {STRVAR_1 5, 1, 0}!
 The wild {STRVAR_1 1, 0, 0} stayed awake\nbecause of its ally’s {STRVAR_1 5, 1, 0}!
 The foe’s {STRVAR_1 1, 0, 0} stayed awake\nbecause of its ally’s {STRVAR_1 5, 1, 0}!
+{STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nwafts through the area!
+The wild {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nwafts through the area!
+The foe’s {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nwafts through the area!

@@ -369,6 +369,7 @@
 // #define SUB_SEQ_HANDLE_AIR_BALLOON_MESSAGE (460)
 // #define SUB_SEQ_HANDLE_AIR_BALLOON_BURST (461)
 #define SUB_SEQ_HANDLE_BUFF_ON_KO (465)
+#define SUB_SEQ_SWEET_AROMA (470)
 
 
 // add status effect constants--used in battle effect scripts to queue up a subscript through the table in src/moves.c

@@ -3848,7 +3848,7 @@ mondata SPECIES_MEW, "Mew"
     mondexweight SPECIES_MEW, "8.8 lbs."
 
 
-// ABILITY: Leaf Guard (2), Triage (HA)
+// ABILITY: Leaf Guard (2), Sweet Aroma (HA, New)
 mondata SPECIES_CHIKORITA, "Chikorita"
     basestats 45, 49, 65, 45, 49, 65
     types TYPE_GRASS, TYPE_GRASS
@@ -3876,7 +3876,7 @@ mondata SPECIES_CHIKORITA, "Chikorita"
 
 
 // STATS: 63 >> 73 SpAtk | 60 >> 50 Speed
-// ABILITY: Leaf Guard (2), Triage (HA)
+// ABILITY: Leaf Guard (2), Sweet Aroma (HA, New)
 mondata SPECIES_BAYLEEF, "Bayleef"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 60, 62, 80, 50, 73, 80
@@ -3909,7 +3909,7 @@ mondata SPECIES_BAYLEEF, "Bayleef"
 
 // STATS: 100 >> 110 Def | 83 >> 93 SpAtk | 100 >> 110 SpDef | 80 >> 60 Spd | 525 >> 535 BST
 // TYPES: Grass >> Grass/Fairy
-// ABILITY: Leaf Guard (2), Triage (HA)
+// ABILITY: Leaf Guard (2), Sweet Aroma (HA, New)
 mondata SPECIES_MEGANIUM, "Meganium"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 80, 82, 110, 60, 93, 110

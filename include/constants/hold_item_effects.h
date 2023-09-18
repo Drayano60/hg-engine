@@ -173,7 +173,7 @@
 #define HOLD_EFFECT_PREVENT_CONTACT_EFFECTS 164                   // Protective Pads
 
 // Added on Aurora Crystal fork only
-#define HOLD_EFFECT_BOOST_FAIRY                 251   // Pixie Powder (Custom)
+#define HOLD_EFFECT_BOOST_FAIRY                 251   // Fairy Feather (from SV Teal Mask)
 #define HOLD_EFFECT_ASSAULT_VEST                252   // Assault Vest
 #define HOLD_EFFECT_THROAT_SPRAY                253   // Throat Spray
 #define HOLD_EFFECT_HEAVY_DUTY_BOOTS            254   // Heavy-Duty Boots

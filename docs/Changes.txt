@@ -272,7 +272,7 @@ Mt. Mortar
 Route 42
 ✓ Adjusted trainer directions a little.
 ✓ Dubious Disc -> TM88 Air Slash.
-✓ Super Potion -> the new Pixie Powder and moved behind the Cut tree.
+✓ Super Potion -> Fairy Feather and moved behind the Cut tree.
 
 Mahogany Town
 ✓ Route 43 is blocked off until after Jasmine.

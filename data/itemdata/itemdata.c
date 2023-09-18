@@ -48757,7 +48757,7 @@ const ITEMDATA __data[] =
     },
 },
 
-[ITEM_PIXIE_POWDER - NUM_UNKNOWN_SLOTS] =
+[ITEM_FAIRY_FEATHER - NUM_UNKNOWN_SLOTS] =
 {
     .price = 100,
     .holdEffect = HOLD_EFFECT_BOOST_FAIRY,

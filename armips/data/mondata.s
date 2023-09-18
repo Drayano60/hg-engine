@@ -7310,7 +7310,7 @@ mondata SPECIES_KIRLIA, "Kirlia"
     catchrate 120
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 2, 0
-    items ITEM_PIXIE_POWDER, ITEM_PIXIE_POWDER
+    items ITEM_FAIRY_FEATHER, ITEM_FAIRY_FEATHER
     genderratio 127
     eggcycles SHORT_EGG_CYCLE ? 0 : 20
     basefriendship 35

@@ -1633,7 +1633,7 @@ const struct FormData PokeFormDataTbl[]=
     /**cosmetic forms**/
     {
         .species = SPECIES_PIKACHU,
-        .form_no = 1,
+        .form_no = 15, // Changed so form 1 is invalid and Pika can evolve into form 0 or 1 safely
         .need_rev = 0,
         .file = SPECIES_PIKACHU_COSPLAY,
     },
@@ -3475,7 +3475,6 @@ u32 __attribute__((long_call)) CheckIfMonsAreEqual(struct PartyPokemon *pokemon1
 
 // top 5 bits are now form bit
 // if the form is nonzero, have to set it to that form.  most mons should keep their forms on evolution, but specifically significant gendered mons will need to not
-// always true added to the party != NULL line cause it doesn't work with evo items for some reason. there could be bugs!
 #define GET_TARGET_AND_SET_FORM { \ 
     if (party != NULL) \
     { \
@@ -3497,6 +3496,8 @@ u32 __attribute__((long_call)) CheckIfMonsAreEqual(struct PartyPokemon *pokemon1
         SetMonData(pokemon, MON_DATA_FORM, &form); \
     } \
 }
+
+#define GLOBAL_TERMINAL_HEADER_ID 207 
 
 u16 __attribute__((long_call)) GetMonEvolution(struct Party *party, struct PartyPokemon *pokemon, u8 context, u16 usedItem, int *method_ret) {
     u16 species;
@@ -3613,6 +3614,14 @@ u16 __attribute__((long_call)) GetMonEvolution(struct Party *party, struct Party
                 break;
             case EVO_LEVEL:
                 if (evoTable[i].param <= level) {
+                    GET_TARGET_AND_SET_FORM;
+                    *method_ret = EVO_LEVEL;
+                }
+                break;
+            case EVO_LEVEL_GLOBAL_TERMINAL:
+                u32 location = gFieldSysPtr->location->mapId;
+
+                if (evoTable[i].param <= level && location == GLOBAL_TERMINAL_HEADER_ID) {
                     GET_TARGET_AND_SET_FORM;
                     *method_ret = EVO_LEVEL;
                 }
@@ -3898,6 +3907,8 @@ u16 __attribute__((long_call)) GetMonEvolution(struct Party *party, struct Party
         break;
     case EVOCTX_ITEM_CHECK:
     case EVOCTX_ITEM_USE:
+        u32 location = gFieldSysPtr->location->mapId;
+
         for (i = 0; i < MAX_EVOS_PER_POKE; i++) {
             if (evoTable[i].method == EVO_STONE && usedItem == evoTable[i].param) {
                 GET_TARGET_AND_SET_FORM;
@@ -3910,6 +3921,12 @@ u16 __attribute__((long_call)) GetMonEvolution(struct Party *party, struct Party
                 break;
             }
             if (evoTable[i].method == EVO_STONE_FEMALE && GetMonData(pokemon, MON_DATA_GENDER, NULL) == POKEMON_GENDER_FEMALE && usedItem == evoTable[i].param) {
+                GET_TARGET_AND_SET_FORM;
+                *method_ret = 0;
+                break;
+            }
+
+            if (evoTable[i].method == EVO_ITEM_GLOBAL_TERMINAL && usedItem == evoTable[i].param && location == GLOBAL_TERMINAL_HEADER_ID) {
                 GET_TARGET_AND_SET_FORM;
                 *method_ret = 0;
                 break;

@@ -337,3 +337,6 @@ arm9 CapRareCandies 0208FEEA 1
 
 0012 CantEscape_hook 02252984 5
 0012 BattlerCantSwitch 02255920 3
+
+# pc anywhere
+0001 ClearOverworldRequestFlags 021E6880 1

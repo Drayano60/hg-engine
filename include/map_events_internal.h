@@ -193,7 +193,6 @@ struct LocalMapObject {
 #define BIT_VANISH (1<<9)
 #define BIT_JUMP_START (1<<16)
 
-
 typedef struct OVERWORLD_REQUEST_FLAGS {
     /* 0x0 */ u16 TalkCheck:1;    // 0x0001
               u16 StepCheck:1;    // 0x0002

@@ -8613,15 +8613,20 @@ mondata SPECIES_VIBRAVA, "Vibrava"
     mondexweight SPECIES_VIBRAVA, "33.7 lbs."
 
 
-// STATS: 80 >> 100 SpAtk | 520 >> 540 BST
+// STATS: A lot
+// TYPES: Ground/Dragon >> Bug/Dragon
 // ABILITY: Sand Stream (2), Tinted Lens (HA)
 mondata SPECIES_FLYGON, "Flygon"
     .if STAT_CHANGES_IMPLEMENTED
-        basestats 80, 100, 80, 100, 100, 80
+        basestats 90, 110, 90, 110, 110, 90
     .else
         basestats 80, 100, 80, 100, 80, 80
     .endif
-    types TYPE_GROUND, TYPE_DRAGON
+    .if TYPE_CHANGES_IMPLEMENTED
+        types TYPE_BUG, TYPE_DRAGON
+    .else
+        types TYPE_GROUND, TYPE_DRAGON
+    .endif
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 1, 0, 2, 0, 0
@@ -8742,7 +8747,7 @@ mondata SPECIES_SWABLU, "Swablu"
 
 
 // STATS: 70 >> 80 Atk | 90 >> 100 Def | 70 >> 80 SpAtk | 490 >> 520 BST
-// TYPES: Dragon >> Dragon/Fairy
+// TYPES: Dragon/Flying >> Dragon/Fairy
 // ABILITY: Cloud Nine (2), Fluffy (HA)
 mondata SPECIES_ALTARIA, "Altaria"
     .if STAT_CHANGES_IMPLEMENTED

@@ -925,10 +925,11 @@
 #define MOVE_INFERNAL_BLAST 907
 #define MOVE_SAVAGE_REND 908
 #define MOVE_PIDDLY_PUNCHES 909
+#define MOVE_SAND_SONG 910 
 
 // there are a bunch more here but that is fine
 
-#define NUM_OF_MOVES 910
+#define NUM_OF_MOVES 911
 
 #define MOVE_G_MAX_WILDFIRE (NUM_OF_MOVES-1+1)
 #define MOVE_G_MAX_BEFUDDLE (NUM_OF_MOVES-1+2)

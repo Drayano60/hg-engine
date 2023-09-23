@@ -15450,6 +15450,22 @@ movedata MOVE_PIDDLY_PUNCHES, "Piddly Punches"
     terminatedata
     movedescription MOVE_PIDDLY_PUNCHES, "The user throws many\npiddly punches using\nall of its arms. This\ncan hit the foe up to\nten times in a row."
 
+movedata MOVE_SAND_SONG, "Sand Song"
+    battleeffect 325
+    pss SPLIT_SPECIAL
+    basepower 80
+    type TYPE_GROUND
+    accuracy 100
+    pp 10
+    effectchance 0
+    target MOVE_TARGET_SELECTED
+    priority 0
+    flags FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_SOUND
+    appeal 0
+    contesttype 0
+    terminatedata
+    movedescription MOVE_SAND_SONG, "The user flaps its\nwings and whips up a\nsinging cloud of sand.\nIn a sandstorm, this\nmove is 50% stronger."
+
 movedatanoname NUM_OF_MOVES+1
     battleeffect 0
     pss SPLIT_SPECIAL

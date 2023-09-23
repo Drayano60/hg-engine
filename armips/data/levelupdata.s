@@ -8654,75 +8654,72 @@ levelup SPECIES_SPINDA
 
 // NEW: Lunge
 levelup SPECIES_TRAPINCH
-    learnset MOVE_FEINT, 1
+    learnset MOVE_BITE, 1
     learnset MOVE_ASTONISH, 1
-    learnset MOVE_BUG_BITE, 1
     learnset MOVE_SAND_ATTACK, 1
     learnset MOVE_FOCUS_ENERGY, 4
     learnset MOVE_MUD_SLAP, 8
-    learnset MOVE_BITE, 12
-    learnset MOVE_SAND_TOMB, 16
+    learnset MOVE_SAND_TOMB, 12
+    learnset MOVE_FEINT_ATTACK, 16
     learnset MOVE_BULLDOZE, 20
-    learnset MOVE_FEINT_ATTACK, 24
-    learnset MOVE_DIG, 28
-    learnset MOVE_LUNGE, 32
-    learnset MOVE_EARTH_POWER, 39
-    learnset MOVE_CRUNCH, 44
-    learnset MOVE_EARTHQUAKE, 50
-    learnset MOVE_SUPERPOWER, 56
-    learnset MOVE_FISSURE, 62
+    learnset MOVE_DIG, 24
+    learnset MOVE_CRUNCH, 28
+    learnset MOVE_BUG_BITE, 32
+    learnset MOVE_EARTH_POWER, 36
+    learnset MOVE_LUNGE, 40
+    learnset MOVE_EARTHQUAKE, 44
+    learnset MOVE_SUPERPOWER, 48
+    learnset MOVE_FISSURE, 52
     terminatelearnset
 
-// NEW: Dragon Dance, Lunge
+// NEW: Quiver Dance, Lunge
 levelup SPECIES_VIBRAVA
-    learnset MOVE_SILVER_WIND, 1
     learnset MOVE_SONIC_BOOM, 1
-    learnset MOVE_UPROAR, 1
-    learnset MOVE_FEINT, 1
+    learnset MOVE_BITE, 1
     learnset MOVE_ASTONISH, 1
-    learnset MOVE_BUG_BITE, 1
-    learnset MOVE_SAND_ATTACK, 1
-    learnset MOVE_SUPERSONIC, 4
+    learnset MOVE_SUPERSONIC, 1
+    learnset MOVE_FOCUS_ENERGY, 4
     learnset MOVE_MUD_SLAP, 8
-    learnset MOVE_BITE, 12
-    learnset MOVE_SAND_TOMB, 16
+    learnset MOVE_SAND_TOMB, 12
+    learnset MOVE_FEINT_ATTACK, 16
     learnset MOVE_DRAGON_TAIL, 20
-    learnset MOVE_FEINT_ATTACK, 24
-    learnset MOVE_SCREECH, 28
-    learnset MOVE_LUNGE, 32
-    learnset MOVE_DRAGON_BREATH, 35
-    learnset MOVE_EARTH_POWER, 39
-    learnset MOVE_BUG_BUZZ, 44
-    learnset MOVE_DRAGON_RUSH, 50
-    learnset MOVE_DRAGON_DANCE, 56
-    learnset MOVE_BOOMBURST, 62
+    learnset MOVE_SCREECH, 24
+    learnset MOVE_CRUNCH, 28
+    learnset MOVE_BUG_BUZZ, 32
+    learnset MOVE_EARTH_POWER, 36
+    learnset MOVE_LUNGE, 40
+    learnset MOVE_EARTHQUAKE, 44
+    learnset MOVE_UPROAR, 48
+    learnset MOVE_DRAGON_RUSH, 52
+    learnset MOVE_QUIVER_DANCE, 56
+    learnset MOVE_BOOMBURST, 60
     terminatelearnset
 
-// NEW: Lunge
+// NEW: Lunge, Quiver Dance
 levelup SPECIES_FLYGON
     learnset MOVE_FIRST_IMPRESSION, 1
-    learnset MOVE_SILVER_WIND, 1
-    learnset MOVE_SONIC_BOOM, 1
-    learnset MOVE_UPROAR, 1
+    learnset MOVE_DRAGON_DANCE, 1
     learnset MOVE_FEINT, 1
+    learnset MOVE_SANDSTORM, 1
+    learnset MOVE_SONIC_BOOM, 1
+    learnset MOVE_BITE, 1
     learnset MOVE_ASTONISH, 1
-    learnset MOVE_BUG_BITE, 1
-    learnset MOVE_SAND_ATTACK, 1
-    learnset MOVE_SUPERSONIC, 4
+    learnset MOVE_SUPERSONIC, 1
+    learnset MOVE_FOCUS_ENERGY, 4
     learnset MOVE_MUD_SLAP, 8
-    learnset MOVE_BITE, 12
-    learnset MOVE_SAND_TOMB, 16
+    learnset MOVE_SAND_TOMB, 12
+    learnset MOVE_FEINT_ATTACK, 16
     learnset MOVE_DRAGON_TAIL, 20
-    learnset MOVE_FEINT_ATTACK, 24
-    learnset MOVE_SCREECH, 28
-    learnset MOVE_LUNGE, 32
-    learnset MOVE_DRAGON_BREATH, 35
-    learnset MOVE_EARTH_POWER, 39
-    learnset MOVE_BUG_BUZZ, 44
-    learnset MOVE_DRAGON_CLAW, 45
-    learnset MOVE_DRAGON_RUSH, 50
-    learnset MOVE_DRAGON_DANCE, 56
-    learnset MOVE_BOOMBURST, 62
+    learnset MOVE_SCREECH, 24
+    learnset MOVE_CRUNCH, 28
+    learnset MOVE_BUG_BUZZ, 32
+    learnset MOVE_EARTH_POWER, 36
+    learnset MOVE_LUNGE, 40
+    learnset MOVE_EARTHQUAKE, 44
+    learnset MOVE_UPROAR, 48
+    learnset MOVE_DRAGON_RUSH, 52
+    learnset MOVE_QUIVER_DANCE, 56
+    learnset MOVE_BOOMBURST, 60
     terminatelearnset
 
 // NEW: Cotton Guard

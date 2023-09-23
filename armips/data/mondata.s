@@ -8559,14 +8559,9 @@ mondata SPECIES_SPINDA, "Spinda"
     mondexweight SPECIES_SPINDA, "11.0 lbs."
 
 
-// TYPES: Ground >> Bug/Ground
 mondata SPECIES_TRAPINCH, "Trapinch"
     basestats 45, 100, 45, 10, 45, 45
-    .if TYPE_CHANGES_IMPLEMENTED
-        types TYPE_BUG, TYPE_GROUND
-    .else
-        types TYPE_GROUND, TYPE_GROUND
-    .endif
+    types TYPE_GROUND, TYPE_GROUND
     catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 1, 0, 0, 0, 0
@@ -8586,20 +8581,15 @@ mondata SPECIES_TRAPINCH, "Trapinch"
     mondexweight SPECIES_TRAPINCH, "33.1 lbs."
 
 
-// STATS: 50 >> 60 Def | 50 >> 80 SpAtk | 50 >> 60 SpDef | 70 >> 90 Spd | 340 >> 410 BST
-// TYPES: Ground/Dragon >> Bug/Dragon
-// ABILITY: Sand Veil (1), Sand Veil (2), Tinted Lens (HA)
+// STATS: 50 >> 70 SpAtk | 70 >> 90 Spd | 340 >> 380 BST
+// ABILITY: Levitate (1), Sand Veil (2), Tinted Lens (HA)
 mondata SPECIES_VIBRAVA, "Vibrava"
     .if STAT_CHANGES_IMPLEMENTED
-        basestats 50, 70, 60, 90, 80, 60
+        basestats 50, 70, 50, 90, 70, 50
     .else
         basestats 50, 70, 50, 70, 50, 50
     .endif
-    .if TYPE_CHANGES_IMPLEMENTED
-        types TYPE_BUG, TYPE_DRAGON
-    .else
-        types TYPE_GROUND, TYPE_DRAGON
-    .endif
+    types TYPE_GROUND, TYPE_DRAGON
     catchrate 120
     baseexp 0 // defined in baseexp.s
     evyields 0, 1, 0, 1, 0, 0
@@ -8610,7 +8600,7 @@ mondata SPECIES_VIBRAVA, "Vibrava"
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_BUG, EGG_GROUP_DRAGON
     .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_SAND_VEIL, ABILITY_SAND_VEIL
+        abilities ABILITY_LEVITATE, ABILITY_SAND_VEIL
     .else
         abilities ABILITY_LEVITATE, ABILITY_LEVITATE
     .endif
@@ -8623,20 +8613,15 @@ mondata SPECIES_VIBRAVA, "Vibrava"
     mondexweight SPECIES_VIBRAVA, "33.7 lbs."
 
 
-// STATS: 80 >> 90 HP | 100 >> 105 Atk | 80 >> 90 Def | 80 >> 125 SpAtk | 80 >> 90 SpDef | 520 >> 600 BST
-// TYPES: Ground/Dragon >> Bug/Dragon
-// ABILITY: Sand Stream (1), Sand Stream (2), Tinted Lens (HA)
+// STATS: 80 >> 100 SpAtk | 520 >> 540 BST
+// ABILITY: Sand Stream (2), Tinted Lens (HA)
 mondata SPECIES_FLYGON, "Flygon"
     .if STAT_CHANGES_IMPLEMENTED
-        basestats 90, 105, 90, 100, 125, 90
+        basestats 80, 100, 80, 100, 100, 80
     .else
         basestats 80, 100, 80, 100, 80, 80
     .endif
-    .if TYPE_CHANGES_IMPLEMENTED
-        types TYPE_BUG, TYPE_DRAGON
-    .else
-        types TYPE_GROUND, TYPE_DRAGON
-    .endif
+    types TYPE_GROUND, TYPE_DRAGON
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 1, 0, 2, 0, 0
@@ -8647,7 +8632,7 @@ mondata SPECIES_FLYGON, "Flygon"
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_BUG, EGG_GROUP_DRAGON
     .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_SAND_STREAM, ABILITY_SAND_STREAM
+        abilities ABILITY_LEVITATE, ABILITY_SAND_STREAM
     .else
         abilities ABILITY_LEVITATE, ABILITY_LEVITATE
     .endif

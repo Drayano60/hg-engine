@@ -13,6 +13,7 @@
 // basestats and evyields fields are formatted as such:  hp atk def speed spatk spdef
 
 SHORT_EGG_CYCLE equ 1
+EXTENDED_TYPE_CHANGES_IMPLEMENTED equ 0
 
 mondata SPECIES_NONE, "-----"
     basestats 0, 0, 0, 0, 0, 0
@@ -4714,7 +4715,11 @@ mondata SPECIES_AMPHAROS, "Ampharos"
 // ABILITY: Own Tempo (2)
 mondata SPECIES_BELLOSSOM, "Bellossom"
     basestats 75, 80, 95, 50, 90, 100
-    types TYPE_GRASS, TYPE_GRASS
+    .if EXTENDED_TYPE_CHANGES_IMPLEMENTED
+        types TYPE_GRASS, TYPE_FAIRY
+    .else
+        types TYPE_GRASS, TYPE_GRASS
+    .endif
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 0, 3
@@ -8561,7 +8566,11 @@ mondata SPECIES_SPINDA, "Spinda"
 
 mondata SPECIES_TRAPINCH, "Trapinch"
     basestats 45, 100, 45, 10, 45, 45
-    types TYPE_GROUND, TYPE_GROUND
+    .if EXTENDED_TYPE_CHANGES_IMPLEMENTED
+        types TYPE_BUG, TYPE_GROUND
+    .else
+        types TYPE_GROUND, TYPE_GROUND
+    .endif
     catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 1, 0, 0, 0, 0
@@ -8589,7 +8598,11 @@ mondata SPECIES_VIBRAVA, "Vibrava"
     .else
         basestats 50, 70, 50, 70, 50, 50
     .endif
-    types TYPE_GROUND, TYPE_DRAGON
+    .if EXTENDED_TYPE_CHANGES_IMPLEMENTED
+        types TYPE_BUG, TYPE_DRAGON
+    .else
+        types TYPE_GROUND, TYPE_DRAGON
+    .endif
     catchrate 120
     baseexp 0 // defined in baseexp.s
     evyields 0, 1, 0, 1, 0, 0
@@ -8613,16 +8626,15 @@ mondata SPECIES_VIBRAVA, "Vibrava"
     mondexweight SPECIES_VIBRAVA, "33.7 lbs."
 
 
-// STATS: A lot
-// TYPES: Ground/Dragon >> Bug/Dragon
+// STATS: 80 >> 100 SpAtk | 520 >> 540 BST
 // ABILITY: Sand Stream (2), Tinted Lens (HA)
 mondata SPECIES_FLYGON, "Flygon"
     .if STAT_CHANGES_IMPLEMENTED
-        basestats 90, 110, 90, 110, 110, 90
+        basestats 80, 100, 80, 100, 100, 80
     .else
         basestats 80, 100, 80, 100, 80, 80
     .endif
-    .if TYPE_CHANGES_IMPLEMENTED
+    .if EXTENDED_TYPE_CHANGES_IMPLEMENTED
         types TYPE_BUG, TYPE_DRAGON
     .else
         types TYPE_GROUND, TYPE_DRAGON
@@ -11929,7 +11941,11 @@ mondata SPECIES_LUMINEON, "Lumineon"
     .else
         basestats 69, 69, 76, 91, 69, 86
     .endif
-    types TYPE_WATER, TYPE_WATER
+    .if EXTENDED_TYPE_CHANGES_IMPLEMENTED
+        types TYPE_WATER, TYPE_FAIRY
+    .else
+        types TYPE_WATER, TYPE_WATER
+    .endif
     catchrate 75
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 2, 0, 0

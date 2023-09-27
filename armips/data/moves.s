@@ -11985,7 +11985,7 @@ movedata MOVE_LUNGE, "Lunge"
     movedescription MOVE_LUNGE, "The user lunges at\nthe foe, attacking\nwith full force.\nThis lowers the foe’s\nAttack stat."
 
 movedata MOVE_FIRE_LASH, "Fire Lash"
-    battleeffect 72
+    battleeffect 69
     pss SPLIT_PHYSICAL
     basepower 80
     type TYPE_FIRE

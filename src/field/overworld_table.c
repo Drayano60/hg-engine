@@ -1656,6 +1656,8 @@ struct OVERWORLD_TAG gOWTagToFileNum[] = // skip down a bit to see the parts tha
     { .tag = 1785, .gfx =  297, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_TERAPAGOS
     { .tag = 1786, .gfx =  297, .callback_params = OVERWORLD_SIZE_SMALL}, // terastal
 
+    { .tag = 1787, .gfx = 1453, .callback_params = OVERWORLD_SIZE_SMALL_NO_SHADOW}, // Mega Stone OW sparkles
+
     { 0xFFFF, 0, 0},
 };
 

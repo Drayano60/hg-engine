@@ -121,6 +121,24 @@ NPCs:
 2611 - Slowking static encounter.
 2612 - Used to control Odd Egg stuff.
 
+2613* - Absolite @ Burned Tower.
+2614* - Audinite @ Route 29.
+2615* - Beedrillite @ Ilex Forest.
+2616* - Glalitite @ Ice Path.
+2617* - Gyaradosite @ Lake of Rage.
+2618 - Sablenite @ Victory Road.
+2619 - Mawilite @ Victory Road.
+2620* - Sharpedonite @ Cherrygrove City.
+2621* - Slowbronite @ Slowpoke Well.
+2622 - Pidgeotite @ Violet Gym.
+2623 - Scizorite @ Azalea Gym.
+2624 - Lopunnite @ Goldenrod Gym.
+2625 - Gengarite @ Ecruteak Gym.
+2626 - Medichamite @ Cianwood Gym.
+2627 - Steelixite @ Olivine Gym.
+2628 - Abomasite @ Mahogany Gym.
+2629 - Altarianite @ Blackthorn Gym.
+
 373 - This is the flag in the base game to signal Suicune has been caught. This is set during the Bell Tower event if Suicune is caught.
 
 Triggers:

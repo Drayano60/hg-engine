@@ -22,6 +22,7 @@ Elm Pokémon Lab
 
 Route 29
 ✓ The two Cut trees have been moved out of bounds.
+✓ Added the Audinite.
 
 Cherrygrove City
 ✓ Silver now challenges you immediately when you enter the city. His overworld's flag is set to 0 and moved out of bounds so it works. This battle sets the flags to remove him from New Bark and add the temporary policeman there. You're also healed before the battle.
@@ -32,6 +33,7 @@ Cherrygrove City
 ✓ Removed the second Poké Mart person as their shop has been repurposed.
 ✓ Moved the Mystic Water NPC off map.
 ✓ Added an item ball with a Lucky Punch above the rocky wall.
+✓ Added a Sharpedonite on the small sand bank.
 
 Route 30 - Mr. Pokémon's House
 ✓ Before leaving, Mr. Pokémon now calls you over and gifts you an Eevee. This Eevee always has its hidden ability.
@@ -85,6 +87,7 @@ Sprout Tower
 Violet City - Gym
 ✓ Added two new Trainers using Mickey (63, 87). Set flags for these after beating Falkner.
 ✓ Updated Falkner's dialogue because of obedience/TM mechanic changes.
+✓ Following the Suicune encounter, Falkner can be challenged to a rematch where he will award you with the Pidgeotite if you win. He can be rematched for no reward each time you enter the area.
 
 Route 36
 ✓ Split the route into West/East. Added grass to the east of Sudowoodo.
@@ -159,10 +162,13 @@ Slowpoke Well
 ✓ You're now healed after the Proton fight (this is applied in Kurt's house afterwards).
 ✓ Deleted the man in the basement and added a King's Rock item ball.
 ✓ Added a static Slowking encounter that always has Regenerator.
+✓ Moved the hidden Full Heal to a different rock.
+✓ Added the Slowbronite.
 
 Azalea Town - Gym 
 ✓ Added three new Trainers, a Bug Catcher (138), an Ace Trainer M (375) and an Ace Trainer F (107). Set flags for these after beating Bugsy.
 ✓ Modified Bugsy's dialogue a bit.
+✓ Following the Suicune encounter, Bugsy can be challenged to a rematch where he will award you with the Scizorite if you win. He can be rematched for no reward each time you enter the area.
 
 Ilex Forest
 ✓ Shifted all of the triggers/overworlds involving the Farfetch'd thing to the bottom left, out of bounds. Annoying to do on replays.
@@ -173,6 +179,7 @@ Ilex Forest
 ✓ Added an Ace Trainer F using a Mickey (166).
 ✓ Changed the tile permissions so grass platforms show in battle instead.
 ✓ Revive -> Silver Powder.
+✓ Added the Beedrillite.
 
 Route 34
 ✓ Cynthia appears and talks to you in the gatehouse, then leaves. This makes her appear at the research center in the Ruins of Alph.
@@ -241,6 +248,7 @@ Pokéathlon Dome
 Goldenrod City - Gym
 ✓ Added two new Trainers, a Hiker (168) and an Ace Trainer (169) using Mickeys.
 ✓ Changed Whitney's dialogue a little bit to reflect new event order.
+✓ Following the Suicune encounter, Whitney can be challenged to a rematch where she will award you with the Lopunnite if you win. She can be rematched for no reward each time you enter the area.
 
 Route 37
 ✓ Added a green apricorn tree.
@@ -297,15 +305,18 @@ Ice Path
 ✓ Added one Trainer each to B2F/B3F/B4F with Mickeys (304, 338, 340).
 ✓ Never-Melt Ice -> Icy Rock.
 ✓ When revisiting Ice Path after defeating Pryce, Will appears near the entrance and gives you TM29 Psychic.
+✓ Added the Glalitite to B4F.
 
 Burned Tower
 ✓ Eusine and Morty's dialogues are modified slightly to reflect the new events.
 ✓ HP Up -> Flame Orb. TM12 -> TM61.
 ✓ Raikou and Entei no longer start roaming after this; they now do it after the Bell Tower instead.
 ✓ Edited the Suicune script so it appears at Lv. 60, and it reappears after exiting the room if not caught.
+✓ Added the Absolite to B1F.
 
 Ecruteak City - Gym
 ✓ Modified Morty's dialogue to remove the obedience bit.
+✓ Following the Suicune encounter, Morty can be challenged to a rematch where he will award you with the Gengarite if you win. He can be rematched for no reward each time you enter the area.
 
 Union Cave (B2F)
 ✓ Forced some of the trainers to get things (Lapras/items).
@@ -353,6 +364,7 @@ Cianwood City - Gym
 ✓ With the above factored in, rearranged the trainers to make them all compulsory.
 ✓ Chuck now awards TM08, Bulk Up instead.
 ✓ After exiting the Gym and receiving HM02 Fly, Baoba calls you at this point and activates the Rocket events. (This is done using Script 7 in Cianwood City.) (Unlike the Olivine one, this does not set variable 0x40A5 at all.)
+✓ Following the Suicune encounter, Chuck can be challenged to a rematch where he will award you with the Medichamite if you win. He can be rematched for no reward each time you enter the area.
 
 Cliff Edge Gate
 ✓ Added an item ball with the Rocky Helmet.
@@ -404,6 +416,7 @@ Safari Zone Gate (Normal)
 Olivine City - Gym
 ✓ The Gentleman and Lass are now actual Trainers using Mickeys (304, 305).
 ✓ Jasmine now mentions the Lake of Rage after being beaten to give the player some direction. The mention about Lv. 70 Pokémon obedience is removed, and some text is added to say that the badge now enables the use of Rock Climb outside of battle.
+✓ Following the Suicune encounter, Jasmine can be challenged to a rematch where she will award you with the Steelixite if you win. She can be rematched for no reward each time you enter the area.
 
 Route 43
 ✓ Rearranged some Trainers to force some.
@@ -414,9 +427,10 @@ Lake of Rage
 ✓ North of the lake (where the Choice Specs were previously), there's a sign with some writing. Talk to it at night with an Odd Keystone in your inventory, and a Lv. 40 Spiritomb will appear. After Spiritomb is caught, the sign text changes, the Odd Keystone is removed from the player's inventory and nothing else can happen there. If Spiritomb is not caught, the sign remains as-is and the Odd Keystone is not removed.
 ✓ The shiny Gyarados is now Level 40.
 ✓ The Choice Specs has been moved off-map.
-✓ Red Flute -> Nugget. TM43 -> Life Orb.
+✓ TM43 -> Life Orb. Changed Red Flute ball to Nugget but moved it off map.
 ✓ The NPC in the house now awards TM44 Rest instead of TM10.
 ✓ Moved Ace Trainer Alton to the right side of the lake so he's always challengeable. Moved another NPC a bit to make space.
+✓ Added the Gyaradosite.
 
 Team Rocket HQ
 ✓ Guard Spec -> Dubious Disc. TM46 -> TM79 Dark Pulse. Protein -> TM36 Sludge Bomb. Ultra Ball -> Toxic Orb. X Special -> Linking Cord. TM49 -> Ultra Ball.
@@ -431,6 +445,7 @@ Team Rocket HQ
 Mahogany Town - Gym
 ✓ Pryce's dialogue is edited to remove the erroneous stat boost text, and also mention the Defense boost that Hail now provides to Ice-types.
 ✓ Defeating Pryce now activates the trigger script in the Ice Path with Will.
+✓ Following the Suicune encounter, Pryce can be challenged to a rematch where he will award you with the Abomasite if you win. He can be rematched for no reward each time you enter the area.
 
 Whirl Islands
 ✓ Ultra Ball -> Dragon Scale. Carbos -> Damp Rock.
@@ -484,6 +499,7 @@ Blackthorn City
 
 Blackthorn City - Gym
 ✓ Gym guide now mentions Fairy Pokémon.
+✓ Following the Suicune encounter, Clair can be challenged to a rematch where she will award you with the Altarianite if you win. She can be rematched for no reward each time you enter the area.
 
 Dragon's Den
 ✓ Dragon Fang -> TM90 Scale Shot.
@@ -510,6 +526,7 @@ Bell Tower
 ✓ This also always sets the variable for the Route 25 Suicune event, and also Flag 373 (what the base game uses) if Suicune is caught. Otherwise, it doesn't, and it instead clears the flag to allow it to appear in the Burned Tower's basement immediately.
 ✓ The above event is also what releases Raikou/Entei into the wild. They are now at Lv. 60 (per the arm9 change).
 ✓ The player can now ascend Bell Tower after the Suicune event, but Ho-oh will not be available until later.
+✓ Rematches for the Johto gym leaders now activate after this event concludes.
 ✓ Bell Tower now uses the same encounter file (30) for every floor.
 ✓ Added two item balls on 2F containing a Sacred Ash and a TM70 Mystical Fire.
 
@@ -535,6 +552,8 @@ Victory Road
 ✓ Edited Silver's dialogue a bit as Victory Road now actually has Trainers.
 ✓ Added ten trainers, dotted around the three floors. They are all mandatory. Each one is a reference to a character from a main series region in chronological order.
 ✓✓ Specifically in order: Lorelei, Youngster Joey, Wally, Barry, Colress, Diantha, Lusamine, Leon, Kamado, Professor Sada/Turo.
+✓ Added the Sablenite to 1F. Moved the Full Heal to the maze at the top right.
+✓ Added the Mawilite to 3F. Moved the Rare Candy a bit to the left.
 
 Indigo Plateau
 ✓ On the first entry, Will himself now blocks the entrance to the Elite Four. He'll hide a coin and ask you to pick "Left Hand" or "Right Hand", then head back inside.

@@ -17,14 +17,13 @@ TRAINER_AI_FLAGS equ F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPER
 trainerdata NUMBER, "-"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass SET_ME
-    battletype 0
     nummons 1
     item 0 
     item 0 
     item 0 
     item 0
     aiflags TRAINER_AI_FLAGS
-    battletype2 SINGLE_BATTLE
+    battletype SINGLE_BATTLE
     endentry
 
 party NUMBER

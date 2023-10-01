@@ -57,6 +57,7 @@ BOOL btl_scr_cmd_E5_iftailwindactive(void *bw, struct BattleStruct *sp);
 BOOL btl_scr_cmd_E6_echoedvoicedamagecalc(void *bw, struct BattleStruct *sp);
 BOOL btl_scr_cmd_E7_storedpowerdamagecalc(void *bw, struct BattleStruct *sp);
 BOOL btl_scr_cmd_E8_ragefistdamagecalc(void *bw, struct BattleStruct *sp);
+BOOL btl_scr_cmd_E9_strengthsapcalc(void *bw, struct BattleStruct *sp);
 
 u32 CalculateBallShakes(void *bw, struct BattleStruct *sp);
 u32 DealWithCriticalCaptureShakes(struct EXP_CALCULATOR *expcalc, u32 shakes);
@@ -314,6 +315,7 @@ const btl_scr_cmd_func NewBattleScriptCmdTable[] =
     [0xE6 - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_E6_echoedvoicedamagecalc,
     [0xE7 - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_E7_storedpowerdamagecalc,
     [0xE8 - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_E8_ragefistdamagecalc,
+    [0xE9 - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_E9_strengthsapcalc,
 };
 
 
@@ -2347,6 +2349,26 @@ BOOL btl_scr_cmd_E8_ragefistdamagecalc(void *bw, struct BattleStruct *sp) {
     }
 
     sp->damage_power = GetMoveData(sp->current_move_index, MOVE_DATA_BASE_POWER) + (50 * hit_count);
+
+    return FALSE;
+}
+
+extern const u8 StatBoostModifiers[][2];
+
+BOOL btl_scr_cmd_E9_strengthsapcalc(void *bw, struct BattleStruct *sp) {
+    IncrementBattleScriptPtr(sp, 1);
+
+    s32 damage;
+    u16 attack;
+    s8 atkstate;
+
+    attack = BattlePokemonParamGet(sp, sp->defence_client, BATTLE_MON_DATA_ATK, NULL);
+    atkstate = BattlePokemonParamGet(sp, sp->defence_client, BATTLE_MON_DATA_STATE_ATK, NULL);
+
+    damage = attack * StatBoostModifiers[atkstate][0];
+    damage /= StatBoostModifiers[atkstate][1];
+
+    sp->hp_calc_work = -damage;
 
     return FALSE;
 }

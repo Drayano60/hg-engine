@@ -7,14 +7,11 @@
 .include "armips/include/monnums.s"
 .include "armips/include/movenums.s"
 
-.create "build/move/battle_eff_seq/0_322", 0
+.create "build/move/battle_eff_seq/0_326", 0
 
-// Parting Shot
-
-a030_332:
+a030_326:
     gotosubscript 441
-    /* Using 0x900... makes the stat drops affect the target instead */
-    changevar VAR_OP_SET, VAR_ADD_STATUS1, 0x90000000 | ADD_STATUS_PARTING_SHOT
+    changevar VAR_OP_SET, VAR_ADD_STATUS1, 0x80000000 | 169
     endscript
 
 .close

@@ -183,6 +183,7 @@ u32 move_effect_to_subscripts[] =
     [166] = 462, // new tail glow subscript
     [167] = 463, // new cotton guard subscript
     [168] = 464, // new parting shot subscript
+    [169] = 471, // new strength sap subscript
 };
 
 

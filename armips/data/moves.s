@@ -11800,19 +11800,20 @@ movedata MOVE_HIGH_HORSEPOWER, "High Horsepower"
     movedescription MOVE_HIGH_HORSEPOWER, "The user fiercely\nattacks the target\nwith its entire body."
 
 movedata MOVE_STRENGTH_SAP, "Strength Sap"
-    battleeffect 0
+    battleeffect 326
     pss SPLIT_STATUS
     basepower 0
     type TYPE_GRASS
     accuracy 100
     pp 10
-    effectchance 100
+    effectchance 0
     target MOVE_TARGET_SELECTED
     priority 0
-    flags FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_MAGIC_COAT
-    appeal 0x00
-    contesttype CONTEST_COOL
+    flags FLAG_MIRROR_MOVE | FLAG_MAGIC_COAT | FLAG_PROTECT
+    appeal 0
+    contesttype 0
     terminatedata
+    movedescription MOVE_STRENGTH_SAP, "The user restores its\nHP by the same amount\nas the foe’s Attack.\nIt also lowers the\nfoe’s Attack."
 
 movedata MOVE_SOLAR_BLADE, "Solar Blade"
     battleeffect 151

@@ -417,6 +417,7 @@ Olivine City - Gym
 ✓ The Gentleman and Lass are now actual Trainers using Mickeys (304, 305).
 ✓ Jasmine now mentions the Lake of Rage after being beaten to give the player some direction. The mention about Lv. 70 Pokémon obedience is removed, and some text is added to say that the badge now enables the use of Rock Climb outside of battle.
 ✓ Following the Suicune encounter, Jasmine can be challenged to a rematch where she will award you with the Steelixite if you win. She can be rematched for no reward each time you enter the area.
+✓✓ The way the above is scripted currently prevents the Steelix trade from occurring.
 
 Route 43
 ✓ Rearranged some Trainers to force some.

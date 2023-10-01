@@ -1515,3 +1515,7 @@ MOVE_DATA_CONTEST_TYPE equ 11
 .macro ragefistdamagecalc
     .word 0xE8
 .endmacro
+
+.macro strengthsapcalc
+    .word 0xE9
+.endmacro

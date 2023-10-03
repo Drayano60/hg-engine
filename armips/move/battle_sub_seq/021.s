@@ -13,9 +13,6 @@
 a001_021:
     wait 0xF
     if IF_NOTMASK, VAR_MOVE_STATUS, 0x2000, _0030
-    /* Freeze-Dry only has this flag to get into this file, we skip over the actual message
-     * The flag doesn't affect Freeze-Dry's actual effects */
-    if IF_EQUAL, VAR_CURRENT_MOVE, MOVE_FREEZE_DRY, _0030
     /* But nothing happened */
     printmessage 0x31B, 0x0, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
     goto _0180
@@ -54,7 +51,6 @@ _00E8:
     goto _0180
 _0110:
     if IF_EQUAL, VAR_CURRENT_MOVE, MOVE_POLLEN_PUFF, _PollenPuffMessage
-    if IF_EQUAL, VAR_CURRENT_MOVE, MOVE_FREEZE_DRY, _FreezeDryCheck /* Special case Freeze-Dry due to Water-type */
 _return:
     if IF_MASK, VAR_SERVER_STATUS1, 0x800, _018C
     if IF_AND, VAR_MOVE_STATUS, 0x6, _018C
@@ -81,22 +77,5 @@ _PollenPuffMessage:
     /* Pollen Puff shouldn't say super effective if it's being used on an ally */
     checkonsameteam BATTLER_ATTACKER, BATTLER_DEFENDER, _018C
     goto _return
-_FreezeDryCheck:
-    /* If the target is Water-type, we need to print a message of our own choosing
-     * Else, we just default to the normal effectiveness */
-    ifmonstat IF_EQUAL, BATTLER_DEFENDER, MON_DATA_TYPE_1, TYPE_WATER, _FreezeDryMessage
-    ifmonstat IF_EQUAL, BATTLER_DEFENDER, MON_DATA_TYPE_2, TYPE_WATER, _FreezeDryMessage
-    goto _return
-_FreezeDryMessage:
-    /* If the other type resists Ice, then it's neutral and should show no message.
-     * Otherwise, show the super effective message. */
-    ifmonstat IF_EQUAL, BATTLER_DEFENDER, MON_DATA_TYPE_1, TYPE_FIRE, _018C
-    ifmonstat IF_EQUAL, BATTLER_DEFENDER, MON_DATA_TYPE_2, TYPE_FIRE, _018C
-    ifmonstat IF_EQUAL, BATTLER_DEFENDER, MON_DATA_TYPE_1, TYPE_STEEL, _018C
-    ifmonstat IF_EQUAL, BATTLER_DEFENDER, MON_DATA_TYPE_2, TYPE_STEEL, _018C
-    ifmonstat IF_EQUAL, BATTLER_DEFENDER, MON_DATA_TYPE_1, TYPE_ICE, _018C
-    ifmonstat IF_EQUAL, BATTLER_DEFENDER, MON_DATA_TYPE_2, TYPE_ICE, _018C
-    printmessage 0x30C, 0x0, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN" /* It's super effective! */
-    goto _0180
 
 .close

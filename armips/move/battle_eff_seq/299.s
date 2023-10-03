@@ -15,6 +15,8 @@
 // Not sure how to make it actually super effective but this works out the same
 // 2x to remove the resistance and 2x to add the super effectiveness
 
+// Not used anymore
+
 a030_299:
     ifmonstat IF_EQUAL, BATTLER_DEFENDER, MON_DATA_TYPE_1, TYPE_WATER, QuadrupleDamage
     ifmonstat IF_EQUAL, BATTLER_DEFENDER, MON_DATA_TYPE_2, TYPE_WATER, QuadrupleDamage

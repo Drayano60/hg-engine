@@ -10350,10 +10350,9 @@ movedata MOVE_PETAL_BLIZZARD, "Petal Blizzard"
     terminatedata
     movedescription MOVE_PETAL_BLIZZARD, "The user stirs up a\nfierce petal blizzard,\nattacking everything\naround it."
 
-// EFFECT: Just quadruples damage against Water-types instead of being SE due to technical limits
-// This is not an exact replica but should be the same damage
+// ServerDoTypeCalcMod has some code to make this SE against Water-types.
 movedata MOVE_FREEZE_DRY, "Freeze-Dry"
-    battleeffect 299
+    battleeffect 5
     pss SPLIT_SPECIAL
     basepower 70
     type TYPE_ICE

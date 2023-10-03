@@ -13,6 +13,8 @@
 // Freeze-Dry effect without freeze
 // Used for Sheer Force
 
+// Not used anymore
+
 a030_299:
     ifmonstat IF_EQUAL, BATTLER_DEFENDER, MON_DATA_TYPE_1, TYPE_WATER, QuadrupleDamage
     ifmonstat IF_EQUAL, BATTLER_DEFENDER, MON_DATA_TYPE_2, TYPE_WATER, QuadrupleDamage

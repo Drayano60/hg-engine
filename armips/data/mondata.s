@@ -1033,7 +1033,7 @@ mondata SPECIES_VULPIX, "Vulpix"
 // ABILITY: Cursed Body (2)
 mondata SPECIES_NINETALES, "Ninetales"
     .if STAT_CHANGES_IMPLEMENTED
-        basestats 74, 67, 75, 109, 81, 100
+        basestats 73, 67, 75, 109, 81, 100
     .else
         basestats 73, 76, 75, 100, 81, 100
     .endif

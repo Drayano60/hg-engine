@@ -9733,7 +9733,6 @@ mondata SPECIES_RELICANTH, "Relicanth"
 
 
 // STATS: 43 >> 53 HP | 55 >> 75 Def | 40 >> 80 SpAtk | 65 >> 85 SpDef | 97 >> 117 Speed | 330 >> 440 BST
-// ABILITY: Cute Charm (2)
 // TYPES: Water >> Water/Fairy
 mondata SPECIES_LUVDISC, "Luvdisc"
     .if STAT_CHANGES_IMPLEMENTED
@@ -9755,11 +9754,7 @@ mondata SPECIES_LUVDISC, "Luvdisc"
     basefriendship 70
     growthrate GROWTH_FAST
     egggroups EGG_GROUP_WATER_2, EGG_GROUP_WATER_2
-    .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_SWIFT_SWIM, ABILITY_CUTE_CHARM
-    .else
-        abilities ABILITY_SWIFT_SWIM, ABILITY_NONE
-    .endif
+    abilities ABILITY_SWIFT_SWIM, ABILITY_NONE
     runchance 25
     colorflip BODY_COLOR_PINK, 0
     tmdata SPECIES_LUVDISC_TM_DATA_0, SPECIES_LUVDISC_TM_DATA_1, SPECIES_LUVDISC_TM_DATA_2, SPECIES_LUVDISC_TM_DATA_3

@@ -8145,11 +8145,11 @@ mondata SPECIES_MINUN, "Minun"
     mondexweight SPECIES_MINUN, "9.3 lbs."
 
 
-// STATS: 73 >> 47 Atk | 75 >> 85 Def | 47 >> 88 SpAtk | 85 >> 95 Spd | 430 >> 465 BST
+// STATS: 73 >> 83 Atk | 75 >> 85 Def | 85 >> 95 Spd | 430 >> 460 BST
 // TYPES: Bug >> Bug/Electric
 mondata SPECIES_VOLBEAT, "Volbeat"
     .if STAT_CHANGES_IMPLEMENTED
-        basestats 65, 47, 85, 95, 88, 85
+        basestats 65, 83, 85, 95, 47, 95
     .else
         basestats 65, 73, 75, 85, 47, 85
     .endif
@@ -8177,11 +8177,11 @@ mondata SPECIES_VOLBEAT, "Volbeat"
     mondexweight SPECIES_VOLBEAT, "39.0 lbs."
 
 
-// STATS: 75 >> 85 Def | 73 >> 88 SpAtk | 85 >> 95 Speed | 430 >> 465 BST
+// STATS: 75 >> 85 Def | 73 >> 83 SpAtk | 85 >> 95 Spd | 430 >> 460 BST
 // TYPES: Bug >> Bug/Fairy
 mondata SPECIES_ILLUMISE, "Illumise"
     .if STAT_CHANGES_IMPLEMENTED
-        basestats 65, 47, 85, 95, 88, 85
+        basestats 65, 47, 85, 95, 83, 85
     .else
         basestats 65, 47, 75, 85, 73, 85
     .endif
@@ -9518,7 +9518,7 @@ mondata SPECIES_SNORUNT, "Snorunt"
 
 // STATS: 80 >> 110 Atk | 80 >> 60 SpAtk | 80 >> 90 Speed | 480 >> 500 BST
 // TYPES: Ice >> Ice/Rock
-// ABILITY: Levitate (1, 2), Refrigerate (HA)
+// ABILITY: Levitate (1), Refrigerate (2)
 mondata SPECIES_GLALIE, "Glalie"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 80, 110, 80, 90, 60, 80
@@ -9540,7 +9540,7 @@ mondata SPECIES_GLALIE, "Glalie"
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FAIRY, EGG_GROUP_MINERAL
     .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_LEVITATE, ABILITY_LEVITATE
+        abilities ABILITY_LEVITATE, ABILITY_REFRIGERATE
     .else
         abilities ABILITY_INNER_FOCUS, ABILITY_ICE_BODY
     .endif
@@ -12459,7 +12459,7 @@ mondata SPECIES_DUSKNOIR, "Dusknoir"
 
 
 // STATS: 80 >> 90 Atk | 80 >> 90 SpAtk | 480 >> 500 BST
-// ABILITY: Levitate (1, 2)
+// ABILITY: Levitate (1)
 mondata SPECIES_FROSLASS, "Froslass"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 70, 90, 70, 110, 90, 70
@@ -12477,7 +12477,7 @@ mondata SPECIES_FROSLASS, "Froslass"
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FAIRY, EGG_GROUP_MINERAL
     .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_LEVITATE, ABILITY_LEVITATE
+        abilities ABILITY_LEVITATE, ABILITY_SNOW_CLOAK
     .else
         abilities ABILITY_SNOW_CLOAK, ABILITY_SNOW_CLOAK
     .endif

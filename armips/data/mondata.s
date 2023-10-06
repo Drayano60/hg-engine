@@ -18627,14 +18627,9 @@ mondata SPECIES_BINACLE, "Binacle"
     mondexweight SPECIES_BINACLE, "68.3 lbs."
 
 
-// STATS: 105 >> 115 Atk | 500 > 510 BST
 // ABILITY: Frisk (HA)
 mondata SPECIES_BARBARACLE, "Barbaracle"
-    .if STAT_CHANGES_IMPLEMENTED
-        basestats 72, 105, 115, 68, 54, 86
-    .else
-        basestats 72, 115, 115, 68, 54, 86
-    .endif  
+    basestats 72, 105, 115, 68, 54, 86
     types TYPE_ROCK, TYPE_WATER
     catchrate 45
     baseexp 0 // defined in baseexp.s

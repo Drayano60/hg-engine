@@ -6713,7 +6713,6 @@ mondata SPECIES_SWAMPERT, "Swampert"
 
 
 // STATS: 55 >> 65 Atk | 35 >> 45 Spd | 220 >> 240 BST
-// ABILITY: Strong Jaw (2)
 mondata SPECIES_POOCHYENA, "Poochyena"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 35, 65, 35, 45, 30, 30
@@ -6730,11 +6729,7 @@ mondata SPECIES_POOCHYENA, "Poochyena"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_RUN_AWAY, ABILITY_STRONG_JAW
-    .else
-        abilities ABILITY_RUN_AWAY, ABILITY_QUICK_FEET
-    .endif
+    abilities ABILITY_RUN_AWAY, ABILITY_QUICK_FEET
     runchance 25
     colorflip BODY_COLOR_GRAY, 0
     tmdata SPECIES_POOCHYENA_TM_DATA_0, SPECIES_POOCHYENA_TM_DATA_1, SPECIES_POOCHYENA_TM_DATA_2, SPECIES_POOCHYENA_TM_DATA_3
@@ -7118,7 +7113,6 @@ mondata SPECIES_SHIFTRY, "Shiftry"
     mondexweight SPECIES_SHIFTRY, "131.4 lbs."
 
 
-// ABILITY: Scrappy (2), Defiant (HA)
 mondata SPECIES_TAILLOW, "Taillow"
     basestats 40, 55, 30, 85, 30, 30
     types TYPE_NORMAL, TYPE_FLYING
@@ -7131,11 +7125,7 @@ mondata SPECIES_TAILLOW, "Taillow"
     basefriendship 70
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_FLYING, EGG_GROUP_FLYING
-    .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_GUTS, ABILITY_SCRAPPY
-    .else
-        abilities ABILITY_GUTS, ABILITY_NONE
-    .endif
+    abilities ABILITY_GUTS, ABILITY_NONE
     runchance 25
     colorflip BODY_COLOR_BLUE, 0
     tmdata SPECIES_TAILLOW_TM_DATA_0, SPECIES_TAILLOW_TM_DATA_1, SPECIES_TAILLOW_TM_DATA_2, SPECIES_TAILLOW_TM_DATA_3
@@ -7146,7 +7136,6 @@ mondata SPECIES_TAILLOW, "Taillow"
 
 
 // STATS: 75 >> 85 SpAtk | 455 >> 465 BST
-// ABILITY: Scrappy (2), Defiant (HA)
 mondata SPECIES_SWELLOW, "Swellow"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 60, 85, 60, 125, 85, 50
@@ -7163,11 +7152,7 @@ mondata SPECIES_SWELLOW, "Swellow"
     basefriendship 70
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_FLYING, EGG_GROUP_FLYING
-    .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_GUTS, ABILITY_SCRAPPY
-    .else
-        abilities ABILITY_GUTS, ABILITY_NONE
-    .endif
+    abilities ABILITY_GUTS, ABILITY_NONE
     runchance 25
     colorflip BODY_COLOR_BLUE, 0
     tmdata SPECIES_SWELLOW_TM_DATA_0, SPECIES_SWELLOW_TM_DATA_1, SPECIES_SWELLOW_TM_DATA_2, SPECIES_SWELLOW_TM_DATA_3
@@ -7177,7 +7162,7 @@ mondata SPECIES_SWELLOW, "Swellow"
     mondexweight SPECIES_SWELLOW, "43.7 lbs."
 
 
-// ABILITY: Hydration (2, G7)
+// ABILITY: Rain Dish to 2, Hydration to 3
 mondata SPECIES_WINGULL, "Wingull"
     basestats 40, 30, 30, 85, 55, 30
     types TYPE_WATER, TYPE_FLYING
@@ -7190,7 +7175,11 @@ mondata SPECIES_WINGULL, "Wingull"
     basefriendship 70 // raised up again
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_FLYING
-    abilities ABILITY_KEEN_EYE, ABILITY_HYDRATION
+    .if ABILITY_CHANGES_IMPLEMENTED
+        abilities ABILITY_KEEN_EYE, ABILITY_RAIN_DISH
+    .else
+        abilities ABILITY_KEEN_EYE, ABILITY_HYDRATION
+    .endif
     runchance 25
     colorflip BODY_COLOR_WHITE, 0
     tmdata SPECIES_WINGULL_TM_DATA_0, SPECIES_WINGULL_TM_DATA_1, SPECIES_WINGULL_TM_DATA_2, SPECIES_WINGULL_TM_DATA_3
@@ -7201,7 +7190,7 @@ mondata SPECIES_WINGULL, "Wingull"
 
 
 // STATS: 60 >> 70 HP | 100 >> 110 Def | 440 >> 460 BST
-// ABILITY: Drizzle (2, G7)
+// ABILITY: Rain Dish to 2, Drizzle to 3
 mondata SPECIES_PELIPPER, "Pelipper"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 70, 50, 110, 65, 95, 70
@@ -7218,7 +7207,11 @@ mondata SPECIES_PELIPPER, "Pelipper"
     basefriendship 70 // raised up again
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_FLYING
-    abilities ABILITY_KEEN_EYE, ABILITY_DRIZZLE
+    .if ABILITY_CHANGES_IMPLEMENTED
+        abilities ABILITY_KEEN_EYE, ABILITY_RAIN_DISH
+    .else
+        abilities ABILITY_KEEN_EYE, ABILITY_DRIZZLE
+    .endif
     runchance 25
     colorflip BODY_COLOR_YELLOW, 0
     tmdata SPECIES_PELIPPER_TM_DATA_0, SPECIES_PELIPPER_TM_DATA_1, SPECIES_PELIPPER_TM_DATA_2, SPECIES_PELIPPER_TM_DATA_3
@@ -7547,7 +7540,7 @@ mondata SPECIES_SHEDINJA, "Shedinja"
     mondexweight SPECIES_SHEDINJA, "2.6 lbs."
 
 
-// ABILITY: Rattled (2), Cacophony (HA, New)
+// ABILITY: Cacophony (2, New)
 mondata SPECIES_WHISMUR, "Whismur"
     basestats 64, 51, 23, 28, 51, 23
     types TYPE_NORMAL, TYPE_NORMAL
@@ -7561,7 +7554,7 @@ mondata SPECIES_WHISMUR, "Whismur"
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_FIELD
     .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_SOUNDPROOF, ABILITY_RATTLED
+        abilities ABILITY_SOUNDPROOF, ABILITY_CACOPHONY
     .else
         abilities ABILITY_SOUNDPROOF, ABILITY_NONE
     .endif
@@ -7574,7 +7567,7 @@ mondata SPECIES_WHISMUR, "Whismur"
     mondexweight SPECIES_WHISMUR, "35.9 lbs."
 
 
-// ABILITY: Scrappy (2), Cacophony (HA, New)
+// ABILITY: Cacophony (2, New)
 mondata SPECIES_LOUDRED, "Loudred"
     basestats 84, 71, 43, 48, 71, 43
     types TYPE_NORMAL, TYPE_NORMAL
@@ -7588,7 +7581,7 @@ mondata SPECIES_LOUDRED, "Loudred"
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_FIELD
     .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_SOUNDPROOF, ABILITY_SCRAPPY
+        abilities ABILITY_SOUNDPROOF, ABILITY_CACOPHONY
     .else
         abilities ABILITY_SOUNDPROOF, ABILITY_NONE
     .endif
@@ -7602,7 +7595,7 @@ mondata SPECIES_LOUDRED, "Loudred"
 
 
 // STATS: 104 >> 114 HP | 91 >> 101 Atk | 63 >> 73 Def | 91 >> 101 SpAtk | 490 >> 530 BST
-// ABILITY: Scrappy (2), Cacophony (HA, New)
+// ABILITY: Cacophony (2, New)
 mondata SPECIES_EXPLOUD, "Exploud"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 114, 101, 73, 68, 101, 73
@@ -7620,7 +7613,7 @@ mondata SPECIES_EXPLOUD, "Exploud"
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_FIELD
     .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_SOUNDPROOF, ABILITY_SCRAPPY
+        abilities ABILITY_SOUNDPROOF, ABILITY_CACOPHONY
     .else
         abilities ABILITY_SOUNDPROOF, ABILITY_NONE
     .endif
@@ -7655,10 +7648,10 @@ mondata SPECIES_MAKUHITA, "Makuhita"
     mondexweight SPECIES_MAKUHITA, "190.5 lbs."
 
 
-// STATS: 60 >> 80 Def | 50 >> 40 Speed | 474 >> 484 BST
+// STATS: 60 >> 80 Def | 474 >> 494 BST
 mondata SPECIES_HARIYAMA, "Hariyama"
     .if STAT_CHANGES_IMPLEMENTED
-        basestats 144, 120, 80, 40, 40, 60
+        basestats 144, 120, 80, 50, 40, 60
     .else
         basestats 144, 120, 60, 50, 40, 60
     .endif
@@ -8380,7 +8373,7 @@ mondata SPECIES_NUMEL, "Numel"
 
 
 // STATS: 70 >> 80 Def | 75 >> 85 SpDef | 460 >> 480 BST
-// ABILITY: Solid Rock (1), Simple (2), Sheer Force (HA)
+// ABILITY: Solid Rock (1), Sheer Force (HA)
 mondata SPECIES_CAMERUPT, "Camerupt"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 70, 100, 80, 40, 105, 85
@@ -8398,7 +8391,7 @@ mondata SPECIES_CAMERUPT, "Camerupt"
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_SOLID_ROCK, ABILITY_SIMPLE
+        abilities ABILITY_SOLID_ROCK, ABILITY_SOLID_ROCK
     .else
         abilities ABILITY_MAGMA_ARMOR, ABILITY_SOLID_ROCK
     .endif
@@ -8411,7 +8404,7 @@ mondata SPECIES_CAMERUPT, "Camerupt"
     mondexweight SPECIES_CAMERUPT, "485.0 lbs."
 
 
-// ABILITY: Drought (2, G7)
+// ABILITY: Shell Armor to 2, Drought to 3
 mondata SPECIES_TORKOAL, "Torkoal"
     basestats 70, 85, 140, 20, 85, 70
     types TYPE_FIRE, TYPE_FIRE
@@ -8424,7 +8417,11 @@ mondata SPECIES_TORKOAL, "Torkoal"
     basefriendship 70 // raised up again
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_WHITE_SMOKE, ABILITY_DROUGHT
+    .if ABILITY_CHANGES_IMPLEMENTED
+        abilities ABILITY_WHITE_SMOKE, ABILITY_SHELL_ARMOR
+    .else
+        abilities ABILITY_WHITE_SMOKE, ABILITY_DROUGHT
+    .endif
     runchance 25
     colorflip BODY_COLOR_BROWN, 0
     tmdata SPECIES_TORKOAL_TM_DATA_0, SPECIES_TORKOAL_TM_DATA_1, SPECIES_TORKOAL_TM_DATA_2, SPECIES_TORKOAL_TM_DATA_3
@@ -8618,7 +8615,7 @@ mondata SPECIES_FLYGON, "Flygon"
     mondexweight SPECIES_FLYGON, "180.8 lbs."
 
 
-// ABILITY: Unnerve (2), Heatproof (HA)
+// ABILITY: Water Absorb (2), Heatproof (HA)
 mondata SPECIES_CACNEA, "Cacnea"
     basestats 50, 85, 40, 35, 85, 40
     types TYPE_GRASS, TYPE_GRASS
@@ -8632,7 +8629,7 @@ mondata SPECIES_CACNEA, "Cacnea"
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_GRASS, EGG_GROUP_HUMAN_LIKE
     .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_SAND_VEIL, ABILITY_UNNERVE
+        abilities ABILITY_SAND_VEIL, ABILITY_WATER_ABSORB
     .else
         abilities ABILITY_SAND_VEIL, ABILITY_NONE
     .endif
@@ -8645,11 +8642,11 @@ mondata SPECIES_CACNEA, "Cacnea"
     mondexweight SPECIES_CACNEA, "113.1 lbs."
 
 
-// STATS: 70 >> 80 HP | 60 >> 80 Def | 60 >> 80 SpDef | 55 >> 45 Speed | 475 >> 515 BST
-// ABILITY: Unnerve (2), Heatproof (HA)
+// STATS: 70 >> 80 HP | 60 >> 75 Def | 60 >> 75 SpDef | 55 >> 45 Speed | 475 >> 505 BST
+// ABILITY: Water Absorb (2), Heatproof (HA)
 mondata SPECIES_CACTURNE, "Cacturne"
     .if STAT_CHANGES_IMPLEMENTED
-        basestats 80, 115, 80, 55, 115, 80
+        basestats 80, 115, 75, 55, 115, 75
     .else
         basestats 70, 115, 60, 55, 115, 60
     .endif
@@ -8664,7 +8661,7 @@ mondata SPECIES_CACTURNE, "Cacturne"
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_GRASS, EGG_GROUP_HUMAN_LIKE
     .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_SAND_VEIL, ABILITY_UNNERVE
+        abilities ABILITY_SAND_VEIL, ABILITY_WATER_ABSORB
     .else
         abilities ABILITY_SAND_VEIL, ABILITY_NONE
     .endif
@@ -8778,12 +8775,12 @@ mondata SPECIES_ZANGOOSE, "Zangoose"
     mondexweight SPECIES_ZANGOOSE, "88.8 lbs."
 
 
-// STATS: 100 >> 110 Atk | 100 >> 90 SpAtk | 65 >> 75 Speed | 458 >> 468 BST
+// STATS: 65 >> 75 Speed | 458 >> 468 BST
 // TYPES: Poison >> Poison/Dark
 // ABILITY: Infiltrator (2), Sharpness (HA)
 mondata SPECIES_SEVIPER, "Seviper"
     .if STAT_CHANGES_IMPLEMENTED
-        basestats 73, 110, 60, 75, 90, 60
+        basestats 73, 100, 60, 75, 100, 60
     .else
         basestats 73, 100, 60, 65, 100, 60
     .endif
@@ -8892,11 +8889,11 @@ mondata SPECIES_BARBOACH, "Barboach"
     mondexweight SPECIES_BARBOACH, "4.2 lbs."
 
 
-// STATS: 78 >> 88 Atk | 468 >> 478 BST
+// STATS: 78 >> 83 Atk | 76 >> 81 SpAtk | 468 >> 478 BST
 // ABILITY: Simple (HA)
 mondata SPECIES_WHISCASH, "Whiscash"
     .if STAT_CHANGES_IMPLEMENTED
-        basestats 110, 88, 73, 60, 76, 71
+        basestats 110, 83, 73, 60, 81, 71
     .else
         basestats 110, 78, 73, 60, 76, 71
     .endif
@@ -9256,12 +9253,12 @@ mondata SPECIES_SHUPPET, "Shuppet"
     mondexweight SPECIES_SHUPPET, "5.1 lbs."
 
 
-// STATS: 115 >> 125 Atk | 65 >> 70 Def | 83 >> 73 SpAtk | 63 >> 68 SpDef | 65 >> 75 Spd | 455 >> 475 BST
+// STATS: 115 >> 125 Atk | 65 >> 75 Spd | 455 >> 475 BST
 // TYPES: Ghost >> Ghost/Normal
 // ABILITY: Cursed Body (2), Prankster (HA)
 mondata SPECIES_BANETTE, "Banette"
     .if STAT_CHANGES_IMPLEMENTED
-        basestats 64, 125, 70, 75, 73, 68
+        basestats 64, 125, 65, 75, 83, 63
     .else
         basestats 64, 115, 65, 65, 83, 63
     .endif
@@ -9338,6 +9335,7 @@ mondata SPECIES_DUSCLOPS, "Dusclops"
 
 
 // STATS: 99 >> 114 HP | 68 >> 88 Atk | 83 >> 93 Def | 72 >> 92 SpAtk | 87 >> 97 SpDef | 460 >> 535 BST
+// ABILITY: Thick Fat (1)
 mondata SPECIES_TROPIUS, "Tropius"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 114, 88, 93, 51, 92, 97
@@ -9354,7 +9352,13 @@ mondata SPECIES_TROPIUS, "Tropius"
     basefriendship 70
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_GRASS
-    abilities ABILITY_CHLOROPHYLL, ABILITY_SOLAR_POWER
+    
+    .if ABILITY_CHANGES_IMPLEMENTED
+        abilities ABILITY_THICK_FAT, ABILITY_SOLAR_POWER
+    .else
+        abilities ABILITY_CHLOROPHYLL, ABILITY_SOLAR_POWER
+    .endif
+
     runchance 25
     colorflip BODY_COLOR_GREEN, 0
     tmdata SPECIES_TROPIUS_TM_DATA_0, SPECIES_TROPIUS_TM_DATA_1, SPECIES_TROPIUS_TM_DATA_2, SPECIES_TROPIUS_TM_DATA_3
@@ -9576,7 +9580,6 @@ mondata SPECIES_WALREIN, "Walrein"
     mondexweight SPECIES_WALREIN, "332.0 lbs."
 
 
-// ABILITY: Rattled (2), Overcoat (HA)
 mondata SPECIES_CLAMPERL, "Clamperl"
     basestats 35, 64, 85, 32, 74, 55
     types TYPE_WATER, TYPE_WATER
@@ -9589,11 +9592,7 @@ mondata SPECIES_CLAMPERL, "Clamperl"
     basefriendship 70
     growthrate GROWTH_ERRATIC
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_WATER_1
-    .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_SHELL_ARMOR, ABILITY_RATTLED
-    .else
-        abilities ABILITY_SHELL_ARMOR, ABILITY_NONE
-    .endif
+    abilities ABILITY_SHELL_ARMOR, ABILITY_NONE
     runchance 25
     colorflip BODY_COLOR_BLUE, 0
     tmdata SPECIES_CLAMPERL_TM_DATA_0, SPECIES_CLAMPERL_TM_DATA_1, SPECIES_CLAMPERL_TM_DATA_2, SPECIES_CLAMPERL_TM_DATA_3
@@ -9604,7 +9603,7 @@ mondata SPECIES_CLAMPERL, "Clamperl"
 
 
 // STATS: 104 >> 114 Atk | 94 >> 84 SpAtk
-// ABILITY: Water Veil (2), Strong Jaw (HA)
+// ABILITY: Strong Jaw (HA)
 mondata SPECIES_HUNTAIL, "Huntail"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 55, 114, 105, 52, 84, 75
@@ -9621,11 +9620,7 @@ mondata SPECIES_HUNTAIL, "Huntail"
     basefriendship 70
     growthrate GROWTH_ERRATIC
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_WATER_1
-    .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_SWIFT_SWIM, ABILITY_WATER_VEIL
-    .else
-        abilities ABILITY_SWIFT_SWIM, ABILITY_NONE
-    .endif
+    abilities ABILITY_SWIFT_SWIM, ABILITY_NONE
     runchance 25
     colorflip BODY_COLOR_BLUE, 0
     tmdata SPECIES_HUNTAIL_TM_DATA_0, SPECIES_HUNTAIL_TM_DATA_1, SPECIES_HUNTAIL_TM_DATA_2, SPECIES_HUNTAIL_TM_DATA_3
@@ -9635,7 +9630,7 @@ mondata SPECIES_HUNTAIL, "Huntail"
     mondexweight SPECIES_HUNTAIL, "59.5 lbs."
 
 
-// ABILITY: Storm Drain (2), Marvel Scale (HA)
+// ABILITY: Marvel Scale (HA)
 mondata SPECIES_GOREBYSS, "Gorebyss"
     basestats 55, 84, 105, 52, 114, 75
     types TYPE_WATER, TYPE_WATER
@@ -9648,11 +9643,7 @@ mondata SPECIES_GOREBYSS, "Gorebyss"
     basefriendship 70
     growthrate GROWTH_ERRATIC
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_WATER_1
-    .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_SWIFT_SWIM, ABILITY_STORM_DRAIN
-    .else
-        abilities ABILITY_SWIFT_SWIM, ABILITY_NONE
-    .endif
+    abilities ABILITY_SWIFT_SWIM, ABILITY_NONE
     runchance 25
     colorflip BODY_COLOR_PINK, 0
     tmdata SPECIES_GOREBYSS_TM_DATA_0, SPECIES_GOREBYSS_TM_DATA_1, SPECIES_GOREBYSS_TM_DATA_2, SPECIES_GOREBYSS_TM_DATA_3
@@ -26830,7 +26821,6 @@ mondata SPECIES_MEGA_ABOMASNOW, "-----"
     tmdata SPECIES_NONE_TM_DATA_0, SPECIES_NONE_TM_DATA_1, SPECIES_NONE_TM_DATA_2, SPECIES_NONE_TM_DATA_3
 
 
-// ABILITY: Sharpness
 mondata SPECIES_MEGA_GALLADE, "-----"
     basestats 68, 165, 95, 110, 65, 115
     types TYPE_PSYCHIC, TYPE_FIGHTING
@@ -26843,11 +26833,7 @@ mondata SPECIES_MEGA_GALLADE, "-----"
     basefriendship 35
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_WATER_1
-    .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_SHARPNESS, ABILITY_NONE
-    .else
-        abilities ABILITY_INNER_FOCUS, ABILITY_NONE
-    .endif
+    abilities ABILITY_INNER_FOCUS, ABILITY_NONE
     runchance 25
     colorflip 0, 0
     tmdata SPECIES_NONE_TM_DATA_0, SPECIES_NONE_TM_DATA_1, SPECIES_NONE_TM_DATA_2, SPECIES_NONE_TM_DATA_3

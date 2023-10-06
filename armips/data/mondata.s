@@ -10288,11 +10288,11 @@ mondata SPECIES_PRINPLUP, "Prinplup"
     mondexweight SPECIES_PRINPLUP, "50.7 lbs."
 
 
-// STATS: 111 >> 116 SpAtk | 530 >> 535 BST
+// STATS: 88 >> 93 Def | 530 >> 535 BST
 // ABILITY: Swift Swim (2), Competitive (From Gen IX)
 mondata SPECIES_EMPOLEON, "Empoleon"
     .if STAT_CHANGES_IMPLEMENTED
-        basestats 84, 86, 88, 60, 116, 101
+        basestats 84, 86, 93, 60, 111, 101
     .else
         basestats 84, 86, 88, 60, 111, 101
     .endif
@@ -10850,11 +10850,11 @@ mondata SPECIES_COMBEE, "Combee"
     mondexweight SPECIES_COMBEE, "12.1 lbs."
 
 
-// STATS: 70 >> 80 HP | 80 >> 90 Atk | 80 >> 90 SpAtk | 40 >> 30 Speed | 474 >> 494 BST
-// ABILITY: Intimidate (1), Swarm (2), Queenly Majesty (HA)
+// STATS: 70 >> 80 HP | 474 >> 484 BST
+// ABILITY: Queenly Majesty (2)
 mondata SPECIES_VESPIQUEN, "Vespiquen"
     .if STAT_CHANGES_IMPLEMENTED
-        basestats 80, 90, 102, 30, 90, 102
+        basestats 80, 80, 102, 40, 80, 102
     .else
         basestats 70, 80, 102, 40, 80, 102
     .endif
@@ -10869,7 +10869,7 @@ mondata SPECIES_VESPIQUEN, "Vespiquen"
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_BUG, EGG_GROUP_BUG
     .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_INTIMIDATE, ABILITY_SWARM
+        abilities ABILITY_PRESSURE, ABILITY_QUEENLY_MAJESTY
     .else
         abilities ABILITY_PRESSURE, ABILITY_NONE
     .endif
@@ -10882,11 +10882,11 @@ mondata SPECIES_VESPIQUEN, "Vespiquen"
     mondexweight SPECIES_VESPIQUEN, "84.9 lbs."
 
 
-// STATS: 45 >> 75 Atk | 405 >> 435 BST
-// ABILITY: Volt Absorb (1), Fur Coat (HA)
+// STATS: 60 >> 70 HP | 70 >> 80 Def | 95 >> 105 Speed | 405 >> 435 BST
+// ABILITY: Static (1)
 mondata SPECIES_PACHIRISU, "Pachirisu"
     .if STAT_CHANGES_IMPLEMENTED
-        basestats 60, 75, 70, 95, 45, 90
+        basestats 70, 45, 80, 105, 45, 90
     .else
         basestats 60, 45, 70, 95, 45, 90
     .endif
@@ -10901,7 +10901,7 @@ mondata SPECIES_PACHIRISU, "Pachirisu"
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FAIRY
     .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_VOLT_ABSORB, ABILITY_PICKUP
+        abilities ABILITY_STATIC, ABILITY_PICKUP
     .else
         abilities ABILITY_RUN_AWAY, ABILITY_PICKUP
     .endif
@@ -10914,7 +10914,7 @@ mondata SPECIES_PACHIRISU, "Pachirisu"
     mondexweight SPECIES_PACHIRISU, "8.6 lbs."
 
 
-// ABILITY: Water Veil (2), Technician (HA)
+// ABILITY: Technician (HA)
 mondata SPECIES_BUIZEL, "Buizel"
     basestats 55, 65, 35, 85, 60, 30
     types TYPE_WATER, TYPE_WATER
@@ -10927,11 +10927,7 @@ mondata SPECIES_BUIZEL, "Buizel"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_FIELD
-    .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_SWIFT_SWIM, ABILITY_WATER_VEIL
-    .else
-        abilities ABILITY_SWIFT_SWIM, ABILITY_NONE
-    .endif
+    abilities ABILITY_SWIFT_SWIM, ABILITY_NONE
     runchance 25
     colorflip BODY_COLOR_BROWN, 0
     tmdata SPECIES_BUIZEL_TM_DATA_0, SPECIES_BUIZEL_TM_DATA_1, SPECIES_BUIZEL_TM_DATA_2, SPECIES_BUIZEL_TM_DATA_3
@@ -10941,7 +10937,7 @@ mondata SPECIES_BUIZEL, "Buizel"
     mondexweight SPECIES_BUIZEL, "65.0 lbs."
 
 
-// ABILITY: Water Veil (2), Technician (HA)
+// ABILITY: Technician (HA)
 mondata SPECIES_FLOATZEL, "Floatzel"
     basestats 85, 105, 55, 115, 85, 50
     types TYPE_WATER, TYPE_WATER
@@ -10954,11 +10950,7 @@ mondata SPECIES_FLOATZEL, "Floatzel"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_FIELD
-    .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_SWIFT_SWIM, ABILITY_WATER_VEIL
-    .else
-        abilities ABILITY_SWIFT_SWIM, ABILITY_NONE
-    .endif
+    abilities ABILITY_SWIFT_SWIM, ABILITY_NONE
     runchance 25
     colorflip BODY_COLOR_BROWN, 0
     tmdata SPECIES_FLOATZEL_TM_DATA_0, SPECIES_FLOATZEL_TM_DATA_1, SPECIES_FLOATZEL_TM_DATA_2, SPECIES_FLOATZEL_TM_DATA_3
@@ -11339,10 +11331,10 @@ mondata SPECIES_STUNKY, "Stunky"
     mondexweight SPECIES_STUNKY, "42.3 lbs."
 
 
-// STATS: 84 >> 89 Speed | 479 >> 484 BST
+// STATS: 71 >> 81 SpAtk | 479 >> 489 BST
 mondata SPECIES_SKUNTANK, "Skuntank"
     .if STAT_CHANGES_IMPLEMENTED
-        basestats 103, 93, 67, 89, 71, 61
+        basestats 103, 93, 67, 84, 81, 61
     .else
         basestats 103, 93, 67, 84, 71, 61
     .endif
@@ -11925,6 +11917,7 @@ mondata SPECIES_MANTYKE, "Mantyke"
     mondexweight SPECIES_MANTYKE, "143.3 lbs."
 
 
+// ABILITY: Snow Warning (HA)
 mondata SPECIES_SNOVER, "Snover"
     basestats 60, 62, 50, 40, 62, 60
     types TYPE_GRASS, TYPE_ICE
@@ -11948,6 +11941,7 @@ mondata SPECIES_SNOVER, "Snover"
 
 
 // STATS: 90 >> 100 HP | 92 >> 102 Atk | 75 >> 85 Def | 92 >> 102 SpAtk | 85 >> 95 SpDef | 60 >> 50 Speed | 494 >> 534 BST
+// ABILITY: Snow Warning (HA)
 mondata SPECIES_ABOMASNOW, "Abomasnow"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 100, 102, 85, 50, 102, 95
@@ -12917,7 +12911,7 @@ mondata SPECIES_WORMADAM_SANDY, "-----"
 
 
 // STATS: 60 >> 70 HP | 69 >> 59 Atk | 95 >> 100 Def | 69 >> 89 SpAtk | 95 >> 100 SpDef | 424 >> 454 BST
-// ABILITY: Weak Armor (2)
+// ABILITY: Battle Armor (2)
 mondata SPECIES_WORMADAM_TRASHY, "-----"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 70, 59, 100, 36, 89, 100
@@ -12935,7 +12929,7 @@ mondata SPECIES_WORMADAM_TRASHY, "-----"
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_BUG, EGG_GROUP_BUG
     .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_ANTICIPATION, ABILITY_WEAK_ARMOR
+        abilities ABILITY_ANTICIPATION, ABILITY_BATTLE_ARMOR
     .else
         abilities ABILITY_ANTICIPATION, ABILITY_NONE
     .endif

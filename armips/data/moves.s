@@ -13985,11 +13985,10 @@ movedata MOVE_COACHING, "Coaching"
     contesttype CONTEST_COOL
     terminatedata
 
-// POWER: 60 >> 65
 movedata MOVE_FLIP_TURN, "Flip Turn"
     battleeffect 228
     pss SPLIT_PHYSICAL
-    basepower MOVE_CHANGES_IMPLEMENTED ? 65 : 60
+    basepower 60
     type TYPE_WATER
     accuracy 100
     pp 20

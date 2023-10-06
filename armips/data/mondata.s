@@ -4118,7 +4118,7 @@ mondata SPECIES_SENTRET, "Sentret"
     mondexweight SPECIES_SENTRET, "13.2 lbs."
 
 
-// STATS: 76 >> 81 Attack | 55 >> 60 SpDef | 90 >> 100 Speed | 413 >> 433 BST
+// STATS: 76 >> 81 Attack | 55 >> 60 SpDef | 90 >> 100 Speed | 415 >> 435 BST
 // ABILITY: Limber (1), Hustle (HA)
 mondata SPECIES_FURRET, "Furret"
     .if STAT_CHANGES_IMPLEMENTED
@@ -4214,8 +4214,8 @@ mondata SPECIES_NOCTOWL, "Noctowl"
     mondexweight SPECIES_NOCTOWL, "89.9 lbs."
 
 
-// STATS: 20 >> 40 Atk | 55 > 65 Speed | 265 >> 295 BST
-// ABILITY: Rattled (2), Aerilate (HA)
+// STATS: 20 >> 40 Atk | 55 >> 65 Speed | 265 >> 295 BST
+// ABILITY: Aerilate (HA)
 mondata SPECIES_LEDYBA, "Ledyba"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 40, 40, 30, 65, 40, 80
@@ -4232,11 +4232,7 @@ mondata SPECIES_LEDYBA, "Ledyba"
     basefriendship 70
     growthrate GROWTH_FAST
     egggroups EGG_GROUP_BUG, EGG_GROUP_BUG
-    .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_SWARM, ABILITY_RATTLED
-    .else
-        abilities ABILITY_SWARM, ABILITY_EARLY_BIRD
-    .endif
+    abilities ABILITY_SWARM, ABILITY_EARLY_BIRD
     runchance 25
     colorflip BODY_COLOR_RED, 0
     tmdata SPECIES_LEDYBA_TM_DATA_0, SPECIES_LEDYBA_TM_DATA_1, SPECIES_LEDYBA_TM_DATA_2, SPECIES_LEDYBA_TM_DATA_3
@@ -4246,12 +4242,12 @@ mondata SPECIES_LEDYBA, "Ledyba"
     mondexweight SPECIES_LEDYBA, "23.8 lbs."
 
 
-// STATS: 35 >> 90 Atk | 55 >> 50 SpAtk | 85 >> 95 Speed | 390 >> 450 BST
+// STATS: 35 >> 85 Atk | 85 >> 95 Speed | 390 >> 450 BST
 // TYPES: Bug/Flying >> Bug/Fighting
 // ABILITY: Iron Fist (2), Aerilate (HA)
 mondata SPECIES_LEDIAN, "Ledian"
     .if STAT_CHANGES_IMPLEMENTED
-        basestats 55, 90, 50, 95, 50, 110
+        basestats 55, 85, 50, 95, 50, 110
     .else
         basestats 55, 35, 50, 85, 55, 110
     .endif
@@ -4815,11 +4811,11 @@ mondata SPECIES_POLITOED, "Politoed"
     mondexweight SPECIES_POLITOED, "74.7 lbs."
 
 
-// STATS: 35 >> 40 Atk | 35 >> 40 SpAtk | 55 >> 65 SpDef | 50 >> 60 Speed | 250 >> 280 BST
-// ABILITY: Wind Rider (2), Aerilate (HA)
+// STATS: 35 >> 45 Atk | 40 >> 45 Def | 55 >> 65 SpDef | 50 >> 60 Speed | 250 >> 285 BST
+// ABILITY: Wind Rider (HA)
 mondata SPECIES_HOPPIP, "Hoppip"
     .if STAT_CHANGES_IMPLEMENTED
-        basestats 35, 40, 40, 60, 40, 65
+        basestats 35, 45, 45, 60, 35, 65
     .else
         basestats 35, 35, 40, 50, 35, 55
     .endif
@@ -4833,11 +4829,7 @@ mondata SPECIES_HOPPIP, "Hoppip"
     basefriendship 70
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_FAIRY, EGG_GROUP_GRASS
-    .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_CHLOROPHYLL, ABILITY_WIND_RIDER
-    .else
-        abilities ABILITY_CHLOROPHYLL, ABILITY_LEAF_GUARD
-    .endif
+    abilities ABILITY_CHLOROPHYLL, ABILITY_LEAF_GUARD
     runchance 25
     colorflip BODY_COLOR_PINK, 0
     tmdata SPECIES_HOPPIP_TM_DATA_0, SPECIES_HOPPIP_TM_DATA_1, SPECIES_HOPPIP_TM_DATA_2, SPECIES_HOPPIP_TM_DATA_3
@@ -4847,11 +4839,11 @@ mondata SPECIES_HOPPIP, "Hoppip"
     mondexweight SPECIES_HOPPIP, "1.1 lbs."
 
 
-// STATS: 45 >> 55 Atk | 45 >> 55 SpAtk | 65 >> 75 SpDef | 80 >> 90 Speed | 340 >> 380 BST
-// ABILITY: Wind Rider (2), Aerilate (HA)
+// STATS: 45 >> 55 Atk | 50 >> 50 Def | 65 >> 75 SpDef | 80 >> 90 Speed | 340 >> 375 BST
+// ABILITY: Wind Rider (HA)
 mondata SPECIES_SKIPLOOM, "Skiploom"
     .if STAT_CHANGES_IMPLEMENTED
-        basestats 55, 55, 50, 90, 55, 75
+        basestats 55, 55, 55, 90, 45, 75
     .else
         basestats 55, 45, 50, 80, 45, 65
     .endif
@@ -4865,11 +4857,7 @@ mondata SPECIES_SKIPLOOM, "Skiploom"
     basefriendship 70
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_FAIRY, EGG_GROUP_GRASS
-    .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_CHLOROPHYLL, ABILITY_WIND_RIDER
-    .else
-        abilities ABILITY_CHLOROPHYLL, ABILITY_LEAF_GUARD
-    .endif
+    abilities ABILITY_CHLOROPHYLL, ABILITY_LEAF_GUARD
     runchance 25
     colorflip BODY_COLOR_GREEN, 0
     tmdata SPECIES_SKIPLOOM_TM_DATA_0, SPECIES_SKIPLOOM_TM_DATA_1, SPECIES_SKIPLOOM_TM_DATA_2, SPECIES_SKIPLOOM_TM_DATA_3
@@ -4879,11 +4867,11 @@ mondata SPECIES_SKIPLOOM, "Skiploom"
     mondexweight SPECIES_SKIPLOOM, "2.2 lbs."
 
 
-// STATS: 55 >> 70 Atk | 55 >> 70 SpAtk | 460 >> 490 BST
-// ABILITY: Wind Rider (2), Aerilate (HA)
+// STATS: 55 >> 75 Atk | 70 >> 75 Def | 460 >> 485 BST
+// ABILITY: Cotton Down (2), Wind Rider (HA)
 mondata SPECIES_JUMPLUFF, "Jumpluff"
     .if STAT_CHANGES_IMPLEMENTED
-        basestats 75, 70, 70, 110, 70, 95
+        basestats 75, 75, 75, 110, 55, 95
     .else
         basestats 75, 55, 70, 110, 55, 95
     .endif
@@ -4898,7 +4886,7 @@ mondata SPECIES_JUMPLUFF, "Jumpluff"
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_FAIRY, EGG_GROUP_GRASS
     .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_CHLOROPHYLL, ABILITY_WIND_RIDER
+        abilities ABILITY_CHLOROPHYLL, ABILITY_COTTON_DOWN
     .else
         abilities ABILITY_CHLOROPHYLL, ABILITY_LEAF_GUARD
     .endif
@@ -5430,7 +5418,7 @@ mondata SPECIES_SNUBBULL, "Snubbull"
 
 // STATS: 60 >> 50 SpAtk | 45 >> 75 Speed | 450 >> 470 BST
 // TYPES: Fairy >> Fairy/Fighting
-// ABILITY: Strong Jaw (2)
+// ABILITY: Strong Jaw (HA)
 mondata SPECIES_GRANBULL, "Granbull"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 90, 120, 75, 75, 50, 60
@@ -5451,11 +5439,7 @@ mondata SPECIES_GRANBULL, "Granbull"
     basefriendship 70
     growthrate GROWTH_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FAIRY
-    .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_INTIMIDATE, ABILITY_STRONG_JAW
-    .else
-        abilities ABILITY_INTIMIDATE, ABILITY_QUICK_FEET
-    .endif
+    abilities ABILITY_INTIMIDATE, ABILITY_QUICK_FEET
     runchance 25
     colorflip BODY_COLOR_PURPLE, 0
     tmdata SPECIES_GRANBULL_TM_DATA_0, SPECIES_GRANBULL_TM_DATA_1, SPECIES_GRANBULL_TM_DATA_2, SPECIES_GRANBULL_TM_DATA_3
@@ -5644,7 +5628,7 @@ mondata SPECIES_SLUGMA, "Slugma"
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_AMORPHOUS, EGG_GROUP_AMORPHOUS
     .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_INFERNAL_BODY, ABILITY_INFERNAL_BODY
+        abilities ABILITY_MAGMA_BODY, ABILITY_MAGMA_BODY
     .else
         abilities ABILITY_MAGMA_ARMOR, ABILITY_FLAME_BODY
     .endif
@@ -5676,7 +5660,7 @@ mondata SPECIES_MAGCARGO, "Magcargo"
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_AMORPHOUS, EGG_GROUP_AMORPHOUS
     .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_INFERNAL_BODY, ABILITY_INFERNAL_BODY
+        abilities ABILITY_MAGMA_BODY, ABILITY_MAGMA_BODY
     .else
         abilities ABILITY_MAGMA_ARMOR, ABILITY_FLAME_BODY
     .endif

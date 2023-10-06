@@ -15403,7 +15403,7 @@ movedata MOVE_INFERNAL_BLAST, "Infernal Blast"
     pss SPLIT_SPECIAL
     basepower 100
     type TYPE_FIRE
-    accuracy 80
+    accuracy 75
     pp 5
     effectchance 50
     target MOVE_TARGET_FOES_AND_ALLY
@@ -15439,7 +15439,7 @@ movedata MOVE_PIDDLY_PUNCHES, "Piddly Punches"
     pss SPLIT_PHYSICAL
     basepower 10
     type TYPE_BUG
-    accuracy 90
+    accuracy 80
     pp 10
     effectchance 0
     target MOVE_TARGET_SELECTED

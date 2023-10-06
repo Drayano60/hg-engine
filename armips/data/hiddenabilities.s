@@ -579,9 +579,9 @@
 /* SPECIES_UNFEZANT                    */ .halfword ABILITY_RIVALRY
 /* SPECIES_BLITZLE                     */ .halfword ABILITY_SAP_SIPPER
 /* SPECIES_ZEBSTRIKA                   */ .halfword ABILITY_SAP_SIPPER
-/* SPECIES_ROGGENROLA                  */ .halfword ABILITY_SAND_FORCE
-/* SPECIES_BOLDORE                     */ .halfword ABILITY_SAND_FORCE
-/* SPECIES_GIGALITH                    */ .halfword ABILITY_SAND_FORCE
+/* SPECIES_ROGGENROLA                  */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_WEAK_ARMOR : ABILITY_SAND_FORCE
+/* SPECIES_BOLDORE                     */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_WEAK_ARMOR : ABILITY_SAND_FORCE
+/* SPECIES_GIGALITH                    */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_SAND_STREAM : ABILITY_SAND_FORCE
 /* SPECIES_WOOBAT                      */ .halfword ABILITY_SIMPLE
 /* SPECIES_SWOOBAT                     */ .halfword ABILITY_SIMPLE
 /* SPECIES_DRILBUR                     */ .halfword ABILITY_MOLD_BREAKER
@@ -635,11 +635,11 @@
 /* SPECIES_SOLOSIS                     */ .halfword ABILITY_REGENERATOR
 /* SPECIES_DUOSION                     */ .halfword ABILITY_REGENERATOR
 /* SPECIES_REUNICLUS                   */ .halfword ABILITY_REGENERATOR
-/* SPECIES_DUCKLETT                    */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_GALE_WINGS : ABILITY_HYDRATION
-/* SPECIES_SWANNA                      */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_GALE_WINGS : ABILITY_HYDRATION
-/* SPECIES_VANILLITE                   */ .halfword ABILITY_WEAK_ARMOR
-/* SPECIES_VANILLISH                   */ .halfword ABILITY_WEAK_ARMOR
-/* SPECIES_VANILLUXE                   */ .halfword ABILITY_WEAK_ARMOR
+/* SPECIES_DUCKLETT                    */ .halfword ABILITY_HYDRATION
+/* SPECIES_SWANNA                      */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_SWAN_SONG : ABILITY_HYDRATION
+/* SPECIES_VANILLITE                   */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_SNOW_CLOAK : ABILITY_WEAK_ARMOR
+/* SPECIES_VANILLISH                   */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_SNOW_CLOAK : ABILITY_WEAK_ARMOR
+/* SPECIES_VANILLUXE                   */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_SNOW_WARNING : ABILITY_WEAK_ARMOR
 /* SPECIES_DEERLING                    */ .halfword ABILITY_SERENE_GRACE
 /* SPECIES_SAWSBUCK                    */ .halfword ABILITY_SERENE_GRACE
 /* SPECIES_EMOLGA                      */ .halfword ABILITY_MOTOR_DRIVE
@@ -654,9 +654,9 @@
 /* SPECIES_GALVANTULA                  */ .halfword ABILITY_SWARM
 /* SPECIES_FERROSEED                   */ .halfword ABILITY_NONE
 /* SPECIES_FERROTHORN                  */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_NONE : ABILITY_ANTICIPATION
-/* SPECIES_KLINK                       */ .halfword ABILITY_CLEAR_BODY
-/* SPECIES_KLANG                       */ .halfword ABILITY_CLEAR_BODY
-/* SPECIES_KLINKLANG                   */ .halfword ABILITY_CLEAR_BODY
+/* SPECIES_KLINK                       */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_TRANSISTOR : ABILITY_CLEAR_BODY
+/* SPECIES_KLANG                       */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_TRANSISTOR : ABILITY_CLEAR_BODY
+/* SPECIES_KLINKLANG                   */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_TRANSISTOR : ABILITY_CLEAR_BODY
 /* SPECIES_TYNAMO                      */ .halfword ABILITY_NONE
 /* SPECIES_EELEKTRIK                   */ .halfword ABILITY_NONE
 /* SPECIES_EELEKTROSS                  */ .halfword ABILITY_NONE

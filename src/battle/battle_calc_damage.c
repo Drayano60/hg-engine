@@ -574,6 +574,20 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
         }
     }
 
+    if (AttackingMon.ability == ABILITY_SWAN_SONG) {
+        if (AttackingMon.hp <= (((AttackingMon.maxhp * 100 / 1000)) * 2)) { // 20%
+            movepower = movepower * 150 / 100;
+        } else if (AttackingMon.hp <= (((AttackingMon.maxhp * 100 / 1000)) * 4)) { // 40%
+            movepower = movepower * 140 / 100;
+        } else if (AttackingMon.hp <= (((AttackingMon.maxhp * 100 / 1000)) * 6)) { // 60%
+            movepower = movepower * 130 / 100;
+        } else if (AttackingMon.hp <= (((AttackingMon.maxhp * 100 / 1000)) * 8)) { // 80%
+            movepower = movepower * 120 / 100;
+        } else if (AttackingMon.hp < AttackingMon.maxhp) {
+            movepower = movepower * 110 / 100;
+        }
+    }
+
     // handle ice scales - halve damage if move is special, regardless of if it uses defense stat
     if (MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_ICE_SCALES) == TRUE && movesplit == SPLIT_SPECIAL)
     {

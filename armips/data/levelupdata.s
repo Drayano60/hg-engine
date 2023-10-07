@@ -1169,7 +1169,7 @@ levelup SPECIES_ODDISH
     learnset MOVE_VENOSHOCK, 22
     learnset MOVE_LUCKY_CHANT, 26
     learnset MOVE_GIGA_DRAIN, 30
-    learnset MOVE_NATURAL_GIFT, 34
+    learnset MOVE_STRENGTH_SAP, 34
     learnset MOVE_MOONLIGHT, 38
     learnset MOVE_TOXIC, 42
     learnset MOVE_MOONBLAST, 46
@@ -1188,7 +1188,7 @@ levelup SPECIES_GLOOM
     learnset MOVE_VENOSHOCK, 22
     learnset MOVE_LUCKY_CHANT, 26
     learnset MOVE_GIGA_DRAIN, 30
-    learnset MOVE_NATURAL_GIFT, 34
+    learnset MOVE_STRENGTH_SAP, 34
     learnset MOVE_MOONLIGHT, 38
     learnset MOVE_TOXIC, 42
     learnset MOVE_MOONBLAST, 46
@@ -1209,7 +1209,7 @@ levelup SPECIES_VILEPLUME
     learnset MOVE_VENOSHOCK, 22
     learnset MOVE_LUCKY_CHANT, 26
     learnset MOVE_GIGA_DRAIN, 30
-    learnset MOVE_NATURAL_GIFT, 34
+    learnset MOVE_STRENGTH_SAP, 34
     learnset MOVE_MOONLIGHT, 38
     learnset MOVE_TOXIC, 42
     learnset MOVE_MOONBLAST, 46
@@ -1234,7 +1234,7 @@ levelup SPECIES_BELLOSSOM
     learnset MOVE_VENOSHOCK, 22
     learnset MOVE_LUCKY_CHANT, 26
     learnset MOVE_GIGA_DRAIN, 30
-    learnset MOVE_NATURAL_GIFT, 34
+    learnset MOVE_STRENGTH_SAP, 34
     learnset MOVE_MOONLIGHT, 38
     learnset MOVE_CAPTIVATE, 42
     learnset MOVE_MOONBLAST, 46
@@ -1873,9 +1873,9 @@ levelup SPECIES_BELLSPROUT
     learnset MOVE_ACID_SPRAY, 20
     learnset MOVE_SWEET_SCENT, 24
     learnset MOVE_POISON_JAB, 28
-    learnset MOVE_GASTRO_ACID, 32
-    learnset MOVE_LEAF_BLADE, 36
-    learnset MOVE_LUNGE, 40
+    learnset MOVE_LEAF_BLADE, 32
+    learnset MOVE_STRENGTH_SAP, 36
+    learnset MOVE_GASTRO_ACID, 40
     learnset MOVE_SLAM, 44
     learnset MOVE_POWER_WHIP, 48
     learnset MOVE_WRING_OUT, 52
@@ -1897,9 +1897,9 @@ levelup SPECIES_WEEPINBELL
     learnset MOVE_ACID_SPRAY, 20
     learnset MOVE_SWEET_SCENT, 24
     learnset MOVE_POISON_JAB, 28
-    learnset MOVE_GASTRO_ACID, 32
-    learnset MOVE_LEAF_BLADE, 36
-    learnset MOVE_LUNGE, 40
+    learnset MOVE_LEAF_BLADE, 32
+    learnset MOVE_STRENGTH_SAP, 36
+    learnset MOVE_GASTRO_ACID, 40
     learnset MOVE_SLAM, 44
     learnset MOVE_POWER_WHIP, 48
     learnset MOVE_WRING_OUT, 52
@@ -1912,6 +1912,7 @@ levelup SPECIES_VICTREEBEL
     learnset MOVE_LEAF_TORNADO, 1
     learnset MOVE_CLEAR_SMOG, 1
     learnset MOVE_CRUNCH, 1
+    learnset MOVE_LUNGE, 1
     learnset MOVE_SYNTHESIS, 1
     learnset MOVE_STOCKPILE, 1 
     learnset MOVE_SWALLOW, 1 
@@ -1928,9 +1929,9 @@ levelup SPECIES_VICTREEBEL
     learnset MOVE_ACID_SPRAY, 20
     learnset MOVE_SWEET_SCENT, 24
     learnset MOVE_POISON_JAB, 28
-    learnset MOVE_GASTRO_ACID, 32
-    learnset MOVE_LEAF_BLADE, 36
-    learnset MOVE_LUNGE, 40
+    learnset MOVE_LEAF_BLADE, 32
+    learnset MOVE_STRENGTH_SAP, 36
+    learnset MOVE_GASTRO_ACID, 40
     learnset MOVE_SLAM, 44
     learnset MOVE_POWER_WHIP, 48
     learnset MOVE_WRING_OUT, 52
@@ -5358,14 +5359,12 @@ levelup SPECIES_HOPPIP
     learnset MOVE_WORRY_SEED, 19
     learnset MOVE_SEED_BOMB, 22
     learnset MOVE_ACROBATICS, 25
-    learnset MOVE_COTTON_SPORE, 29
-    learnset MOVE_GIGA_DRAIN, 33
-    learnset MOVE_U_TURN, 37
-    learnset MOVE_BOUNCE, 41
-    learnset MOVE_STRENGTH_SAP, 45
-    learnset MOVE_COTTON_GUARD, 49
-    learnset MOVE_SOLAR_BEAM, 53
-    learnset MOVE_MEMENTO, 57
+    learnset MOVE_COTTON_SPORE, 30
+    learnset MOVE_GIGA_DRAIN, 34
+    learnset MOVE_STRENGTH_SAP, 38
+    learnset MOVE_COTTON_GUARD, 42
+    learnset MOVE_BOUNCE, 46
+    learnset MOVE_MEMENTO, 50
     terminatelearnset
 
 // NEW: Growth
@@ -5387,14 +5386,12 @@ levelup SPECIES_SKIPLOOM
     learnset MOVE_WORRY_SEED, 19
     learnset MOVE_SEED_BOMB, 22
     learnset MOVE_ACROBATICS, 25
-    learnset MOVE_COTTON_SPORE, 29
-    learnset MOVE_GIGA_DRAIN, 33
-    learnset MOVE_U_TURN, 37
-    learnset MOVE_BOUNCE, 41
-    learnset MOVE_STRENGTH_SAP, 45
-    learnset MOVE_COTTON_GUARD, 49
-    learnset MOVE_SOLAR_BEAM, 53
-    learnset MOVE_MEMENTO, 57
+    learnset MOVE_COTTON_SPORE, 30
+    learnset MOVE_GIGA_DRAIN, 34
+    learnset MOVE_STRENGTH_SAP, 38
+    learnset MOVE_COTTON_GUARD, 42
+    learnset MOVE_BOUNCE, 46
+    learnset MOVE_MEMENTO, 50
     terminatelearnset
 
 // NEW: Growth
@@ -5418,14 +5415,12 @@ levelup SPECIES_JUMPLUFF
     learnset MOVE_WORRY_SEED, 19
     learnset MOVE_SEED_BOMB, 22
     learnset MOVE_ACROBATICS, 25
-    learnset MOVE_COTTON_SPORE, 29
-    learnset MOVE_GIGA_DRAIN, 33
-    learnset MOVE_U_TURN, 37
-    learnset MOVE_BOUNCE, 41
-    learnset MOVE_STRENGTH_SAP, 45
-    learnset MOVE_COTTON_GUARD, 49
-    learnset MOVE_SOLAR_BEAM, 53
-    learnset MOVE_MEMENTO, 57
+    learnset MOVE_COTTON_SPORE, 30
+    learnset MOVE_GIGA_DRAIN, 34
+    learnset MOVE_STRENGTH_SAP, 38
+    learnset MOVE_COTTON_GUARD, 42
+    learnset MOVE_BOUNCE, 46
+    learnset MOVE_MEMENTO, 50
     terminatelearnset
 
 levelup SPECIES_AIPOM
@@ -11009,6 +11004,7 @@ levelup SPECIES_DRIFBLIM
     learnset MOVE_DEFOG, 1
     learnset MOVE_MYSTICAL_FIRE, 1
     learnset MOVE_PHANTOM_FORCE, 1
+    learnset MOVE_STRENGTH_SAP, 1
     learnset MOVE_CONSTRICT, 1
     learnset MOVE_MINIMIZE, 1
     learnset MOVE_ASTONISH, 1
@@ -11242,22 +11238,24 @@ levelup SPECIES_CHATOT
     learnset MOVE_BOOMBURST, 52
     terminatelearnset
 
+// NEW: Strength Sap
 levelup SPECIES_SPIRITOMB
+    learnset MOVE_CURSE, 1
     learnset MOVE_PURSUIT, 1
     learnset MOVE_NIGHT_SHADE, 1
     learnset MOVE_CONFUSE_RAY, 1
     learnset MOVE_SHADOW_SNEAK, 3
     learnset MOVE_DISABLE, 6
     learnset MOVE_SPITE, 9
-    learnset MOVE_CURSE, 12
+    learnset MOVE_SNATCH, 12
     learnset MOVE_FEINT_ATTACK, 15
     learnset MOVE_OMINOUS_WIND, 18
     learnset MOVE_HYPNOSIS, 21
     learnset MOVE_PAYBACK, 24
-    learnset MOVE_SNATCH, 28
-    learnset MOVE_PAIN_SPLIT, 32
-    learnset MOVE_DARK_PULSE, 36
-    learnset MOVE_SHADOW_BALL, 40
+    learnset MOVE_PAIN_SPLIT, 28
+    learnset MOVE_DARK_PULSE, 32
+    learnset MOVE_SHADOW_BALL, 36
+    learnset MOVE_STRENGTH_SAP, 40
     learnset MOVE_SUCKER_PUNCH, 44
     learnset MOVE_DREAM_EATER, 48
     learnset MOVE_NASTY_PLOT, 52
@@ -13748,41 +13746,48 @@ levelup SPECIES_SIGILYPH
 levelup SPECIES_YAMASK
     learnset MOVE_ASTONISH, 1
     learnset MOVE_PROTECT, 1
-    learnset MOVE_HAZE, 4
-    learnset MOVE_NIGHT_SHADE, 8
-    learnset MOVE_DISABLE, 12
-    learnset MOVE_OMINOUS_WIND, 16
-    learnset MOVE_WILL_O_WISP, 20
+    learnset MOVE_HAZE, 3
+    learnset MOVE_DISABLE, 6
+    learnset MOVE_NIGHT_SHADE, 9
+    learnset MOVE_WILL_O_WISP, 12
+    learnset MOVE_OMINOUS_WIND, 15
+    learnset MOVE_MEAN_LOOK, 18
+    learnset MOVE_PAIN_SPLIT, 21
     learnset MOVE_HEX, 24
-    learnset MOVE_MEAN_LOOK, 28
-    learnset MOVE_SHADOW_BALL, 32
-    learnset MOVE_CURSE, 38
-    learnset MOVE_GRUDGE, 44
-    learnset MOVE_DARK_PULSE, 50
-    learnset MOVE_DESTINY_BOND, 56
+    learnset MOVE_CURSE, 27
+    learnset MOVE_IMPRISON, 30
+    learnset MOVE_SHADOW_BALL, 33
+    learnset MOVE_DARK_PULSE, 40
+    learnset MOVE_GRUDGE, 45
+    learnset MOVE_HEAL_BLOCK, 50
+    learnset MOVE_DESTINY_BOND, 55
     terminatelearnset
 
+// NEW: Strength Sap
 levelup SPECIES_COFAGRIGUS
     learnset MOVE_SHADOW_CLAW, 1
-    learnset MOVE_HEAL_BLOCK, 1
-    learnset MOVE_PAIN_SPLIT, 1
+    learnset MOVE_IRON_DEFENSE, 1
+    learnset MOVE_TOXIC_SPIKES, 1
+    learnset MOVE_STRENGTH_SAP, 1
     learnset MOVE_NIGHTMARE, 1
-    learnset MOVE_IMPRISON, 1
     learnset MOVE_ASTONISH, 1
     learnset MOVE_PROTECT, 1
-    learnset MOVE_HAZE, 4
-    learnset MOVE_NIGHT_SHADE, 8
-    learnset MOVE_DISABLE, 12
-    learnset MOVE_OMINOUS_WIND, 16
-    learnset MOVE_WILL_O_WISP, 20
+    learnset MOVE_HAZE, 3
+    learnset MOVE_DISABLE, 6
+    learnset MOVE_NIGHT_SHADE, 9
+    learnset MOVE_WILL_O_WISP, 12
+    learnset MOVE_OMINOUS_WIND, 15
+    learnset MOVE_MEAN_LOOK, 18
+    learnset MOVE_PAIN_SPLIT, 21
     learnset MOVE_HEX, 24
-    learnset MOVE_MEAN_LOOK, 28
-    learnset MOVE_SHADOW_BALL, 32
+    learnset MOVE_CURSE, 27
+    learnset MOVE_IMPRISON, 30
+    learnset MOVE_SHADOW_BALL, 33
     learnset MOVE_SCARY_FACE, 34
-    learnset MOVE_CURSE, 38
-    learnset MOVE_GRUDGE, 44
-    learnset MOVE_DARK_PULSE, 50
-    learnset MOVE_DESTINY_BOND, 56
+    learnset MOVE_DARK_PULSE, 40
+    learnset MOVE_GRUDGE, 45
+    learnset MOVE_HEAL_BLOCK, 50
+    learnset MOVE_DESTINY_BOND, 55
     terminatelearnset
 
 // NEW: Wave Crash
@@ -14640,6 +14645,7 @@ levelup SPECIES_FRILLISH_FEMALE
 levelup SPECIES_JELLICENT
     learnset MOVE_MUDDY_WATER, 1
     learnset MOVE_PAIN_SPLIT, 1
+    learnset MOVE_STRENGTH_SAP, 1
     learnset MOVE_BUBBLE, 1
     learnset MOVE_WATER_SPORT, 1
     learnset MOVE_ABSORB, 3

@@ -11496,14 +11496,9 @@ mondata SPECIES_CHATOT, "Chatot"
     mondexweight SPECIES_CHATOT, "4.2 lbs."
 
 
-// STATS: 50 >> 70 HP | 485 >> 505 BST
 // ABILITY: Cursed Body (2)
 mondata SPECIES_SPIRITOMB, "Spiritomb"
-    .if STAT_CHANGES_IMPLEMENTED
-        basestats 70, 92, 108, 35, 92, 108
-    .else
-        basestats 50, 92, 108, 35, 92, 108
-    .endif
+    basestats 50, 92, 108, 35, 92, 108
     types TYPE_GHOST, TYPE_DARK
     catchrate 100
     baseexp 0 // defined in baseexp.s

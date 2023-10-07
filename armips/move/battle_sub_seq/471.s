@@ -15,7 +15,7 @@
 a001_471:
     printattackmessage
     waitmessage
-    ifmonstat IF_EQUAL, BATTLER_ADDL_EFFECT, MON_DATA_STAT_STAGE_ATTACK, 0x0, _Failed // This shouldnt be the case for Contrary mons
+    ifmonstat IF_EQUAL, BATTLER_ADDL_EFFECT, MON_DATA_STAT_STAGE_ATTACK, 0x0, _Failed // Move fails if target is -6 atk
     playanimation BATTLER_ATTACKER
     waitmessage
     strengthsapcalc

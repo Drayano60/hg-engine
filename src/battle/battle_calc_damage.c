@@ -574,18 +574,24 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
         }
     }
 
-    if (AttackingMon.ability == ABILITY_SWAN_SONG) {
-        if (AttackingMon.hp <= (((AttackingMon.maxhp * 100 / 1000)) * 2)) { // 20%
-            movepower = movepower * 150 / 100;
-        } else if (AttackingMon.hp <= (((AttackingMon.maxhp * 100 / 1000)) * 4)) { // 40%
-            movepower = movepower * 140 / 100;
-        } else if (AttackingMon.hp <= (((AttackingMon.maxhp * 100 / 1000)) * 6)) { // 60%
-            movepower = movepower * 130 / 100;
-        } else if (AttackingMon.hp <= (((AttackingMon.maxhp * 100 / 1000)) * 8)) { // 80%
-            movepower = movepower * 120 / 100;
-        } else if (AttackingMon.hp < AttackingMon.maxhp) {
-            movepower = movepower * 110 / 100;
-        }
+    // Initial design of Swan Song that scaled with HP
+    // if (AttackingMon.ability == ABILITY_SWAN_SONG) {
+    //     if (AttackingMon.hp <= (((AttackingMon.maxhp * 100 / 1000)) * 2)) { // 20%
+    //         movepower = movepower * 150 / 100;
+    //     } else if (AttackingMon.hp <= (((AttackingMon.maxhp * 100 / 1000)) * 4)) { // 40%
+    //         movepower = movepower * 140 / 100;
+    //     } else if (AttackingMon.hp <= (((AttackingMon.maxhp * 100 / 1000)) * 6)) { // 60%
+    //         movepower = movepower * 130 / 100;
+    //     } else if (AttackingMon.hp <= (((AttackingMon.maxhp * 100 / 1000)) * 8)) { // 80%
+    //         movepower = movepower * 120 / 100;
+    //     } else if (AttackingMon.hp < AttackingMon.maxhp) {
+    //         movepower = movepower * 110 / 100;
+    //     }
+    // }
+
+    // Handle new Swan Song ability. Powers up all moves by 50% if at or under 25% HP.
+    if ((GetBattlerAbility(sp, attacker) == ABILITY_SWAN_SONG) && AttackingMon.hp <= AttackingMon.maxhp * 10 / 40) {
+        movepower = (movepower * 150) / 100;
     }
 
     // handle ice scales - halve damage if move is special, regardless of if it uses defense stat
@@ -619,6 +625,11 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
 
     // Handle Solar Energy (Solrock)
     if ((GetBattlerAbility(sp, attacker) == ABILITY_SOLAR_ENERGY) && (movetype == TYPE_FIRE)) {
+        movepower = movepower * 150 / 100;
+    }
+
+    // Handle Psychokinesis (Golduck)
+    if ((GetBattlerAbility(sp, attacker) == ABILITY_PSYCHOKINESIS) && (movetype == TYPE_PSYCHIC)) {
         movepower = movepower * 150 / 100;
     }
     

@@ -213,3 +213,5 @@ Stance Chng.
 Grass Pelt
 Cheek Pouch
 Sweet Aroma
+Swan Song
+Psychokinesis

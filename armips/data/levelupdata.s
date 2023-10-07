@@ -14978,14 +14978,14 @@ levelup SPECIES_LITWICK
     learnset MOVE_FIRE_SPIN, 21
     learnset MOVE_HEX, 24
     learnset MOVE_CURSE, 27
-    learnset MOVE_MYSTICAL_FIRE, 31
-    learnset MOVE_SHADOW_BALL, 35
-    learnset MOVE_PAIN_SPLIT, 39
-    learnset MOVE_HEAT_WAVE, 43
-    learnset MOVE_IMPRISON, 47
-    learnset MOVE_INFERNO, 51
-    learnset MOVE_MEMENTO, 55
-    learnset MOVE_OVERHEAT, 59
+    learnset MOVE_MYSTICAL_FIRE, 32
+    learnset MOVE_SHADOW_BALL, 36
+    learnset MOVE_PAIN_SPLIT, 40
+    learnset MOVE_HEAT_WAVE, 44
+    learnset MOVE_IMPRISON, 48
+    learnset MOVE_INFERNO, 52
+    learnset MOVE_MEMENTO, 56
+    learnset MOVE_OVERHEAT, 60
     terminatelearnset
 
 levelup SPECIES_LAMPENT
@@ -15000,14 +15000,14 @@ levelup SPECIES_LAMPENT
     learnset MOVE_FIRE_SPIN, 21
     learnset MOVE_HEX, 24
     learnset MOVE_CURSE, 27
-    learnset MOVE_MYSTICAL_FIRE, 31
-    learnset MOVE_SHADOW_BALL, 35
-    learnset MOVE_PAIN_SPLIT, 39
-    learnset MOVE_HEAT_WAVE, 43
-    learnset MOVE_IMPRISON, 47
-    learnset MOVE_INFERNO, 51
-    learnset MOVE_MEMENTO, 55
-    learnset MOVE_OVERHEAT, 59
+    learnset MOVE_MYSTICAL_FIRE, 32
+    learnset MOVE_SHADOW_BALL, 36
+    learnset MOVE_PAIN_SPLIT, 40
+    learnset MOVE_HEAT_WAVE, 44
+    learnset MOVE_IMPRISON, 48
+    learnset MOVE_INFERNO, 52
+    learnset MOVE_MEMENTO, 56
+    learnset MOVE_OVERHEAT, 60
     terminatelearnset
 
 levelup SPECIES_CHANDELURE
@@ -15023,14 +15023,14 @@ levelup SPECIES_CHANDELURE
     learnset MOVE_FIRE_SPIN, 21
     learnset MOVE_HEX, 24
     learnset MOVE_CURSE, 27
-    learnset MOVE_MYSTICAL_FIRE, 31
-    learnset MOVE_SHADOW_BALL, 35
-    learnset MOVE_PAIN_SPLIT, 39
-    learnset MOVE_HEAT_WAVE, 43
-    learnset MOVE_IMPRISON, 47
-    learnset MOVE_INFERNO, 51
-    learnset MOVE_MEMENTO, 55
-    learnset MOVE_OVERHEAT, 59
+    learnset MOVE_MYSTICAL_FIRE, 32
+    learnset MOVE_SHADOW_BALL, 36
+    learnset MOVE_PAIN_SPLIT, 40
+    learnset MOVE_HEAT_WAVE, 44
+    learnset MOVE_IMPRISON, 48
+    learnset MOVE_INFERNO, 52
+    learnset MOVE_MEMENTO, 56
+    learnset MOVE_OVERHEAT, 60
     terminatelearnset
 
 // Evolution: 32 (Fraxure)

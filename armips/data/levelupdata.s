@@ -1243,7 +1243,7 @@ levelup SPECIES_BELLOSSOM
     learnset MOVE_LEAF_STORM, 58
     terminatelearnset
 
-// New: Skitter Smack (HOME Datamine), First Impression
+// New: Skitter Smack (HOME Datamine), First Impression, Strength Sap
 levelup SPECIES_PARAS
     learnset MOVE_SCRATCH, 1
     learnset MOVE_GROWTH, 1
@@ -1258,14 +1258,14 @@ levelup SPECIES_PARAS
     learnset MOVE_SKITTER_SMACK, 26
     learnset MOVE_LEECH_SEED, 30
     learnset MOVE_LEECH_LIFE, 34
-    learnset MOVE_AROMATHERAPY, 38
+    learnset MOVE_STRENGTH_SAP, 38
     learnset MOVE_FIRST_IMPRESSION, 42
-    learnset MOVE_GIGA_DRAIN, 46
+    learnset MOVE_AROMATHERAPY, 46
     learnset MOVE_SCREECH, 50
     learnset MOVE_X_SCISSOR, 54
     terminatelearnset
 
-// NEW: Skitter Smack (HOME Datamine), Crabhammer, First Impression, Shadow Claw
+// NEW: Skitter Smack (HOME Datamine), Crabhammer, First Impression, Shadow Claw, Strength Sap
 levelup SPECIES_PARASECT
     learnset MOVE_CRABHAMMER, 1
     learnset MOVE_CROSS_POISON, 1
@@ -1285,9 +1285,9 @@ levelup SPECIES_PARASECT
     learnset MOVE_SKITTER_SMACK, 26
     learnset MOVE_LEECH_SEED, 30
     learnset MOVE_LEECH_LIFE, 34
-    learnset MOVE_AROMATHERAPY, 38
+    learnset MOVE_STRENGTH_SAP, 38
     learnset MOVE_FIRST_IMPRESSION, 42
-    learnset MOVE_GIGA_DRAIN, 46
+    learnset MOVE_AROMATHERAPY, 46
     learnset MOVE_SCREECH, 50
     learnset MOVE_X_SCISSOR, 54
     terminatelearnset
@@ -3685,7 +3685,7 @@ levelup SPECIES_ELECTABUZZ
     learnset MOVE_THUNDER, 55
     terminatelearnset
 
-// NEW: Volt Tackle
+// NEW: High Voltage (Custom)
 levelup SPECIES_ELECTIVIRE
     learnset MOVE_FIRE_PUNCH, 1 
     learnset MOVE_HAMMER_ARM, 1
@@ -3713,7 +3713,7 @@ levelup SPECIES_ELECTIVIRE
     .else
     .endif
 
-    learnset MOVE_VOLT_TACKLE, 60
+    learnset MOVE_HIGH_VOLTAGE, 60
     learnset MOVE_GIGA_IMPACT, 65
     terminatelearnset
 
@@ -3755,10 +3755,9 @@ levelup SPECIES_MAGMAR
     learnset MOVE_FIRE_BLAST, 55
     terminatelearnset
 
-// NEW: Aura Sphere, Magma Storm
+// NEW: Pyro Cannon (Custom)
 levelup SPECIES_MAGMORTAR
     learnset MOVE_THUNDER_PUNCH, 1
-    learnset MOVE_AURA_SPHERE, 1
     learnset MOVE_DUAL_CHOP, 1
     learnset MOVE_SMOG, 1
     learnset MOVE_LEER, 1
@@ -3776,7 +3775,7 @@ levelup SPECIES_MAGMORTAR
     learnset MOVE_FLAMETHROWER, 45
     learnset MOVE_SUNNY_DAY, 50
     learnset MOVE_FIRE_BLAST, 55
-    learnset MOVE_MAGMA_STORM, 60
+    learnset MOVE_PYRO_CANNON, 60
     learnset MOVE_HYPER_BEAM, 65
     terminatelearnset
 
@@ -5394,7 +5393,7 @@ levelup SPECIES_SKIPLOOM
     learnset MOVE_MEMENTO, 50
     terminatelearnset
 
-// NEW: Growth
+// NEW: Cotton Bash (Custom), Growth
 levelup SPECIES_JUMPLUFF
     learnset MOVE_BATON_PASS, 1
     learnset MOVE_TAILWIND, 1
@@ -5415,6 +5414,7 @@ levelup SPECIES_JUMPLUFF
     learnset MOVE_WORRY_SEED, 19
     learnset MOVE_SEED_BOMB, 22
     learnset MOVE_ACROBATICS, 25
+    learnset MOVE_COTTON_BASH, 27
     learnset MOVE_COTTON_SPORE, 30
     learnset MOVE_GIGA_DRAIN, 34
     learnset MOVE_STRENGTH_SAP, 38
@@ -10482,7 +10482,7 @@ levelup SPECIES_LUXIO
     learnset MOVE_VOLT_TACKLE, 56
     terminatelearnset
 
-// NEW: Volt Tackle
+// NEW: Thunder Claw (Custom), Volt Tackle
 levelup SPECIES_LUXRAY
     learnset MOVE_NIGHT_SLASH, 1
     learnset MOVE_FIRE_FANG, 1
@@ -10501,6 +10501,7 @@ levelup SPECIES_LUXRAY
     learnset MOVE_THUNDER_FANG, 22
     learnset MOVE_TAKE_DOWN, 25
     learnset MOVE_SWAGGER, 28
+    learnset MOVE_THUNDER_CLAW, 30
     learnset MOVE_CRUNCH, 32
     learnset MOVE_DISCHARGE, 36
     learnset MOVE_WILD_CHARGE, 40
@@ -12911,6 +12912,7 @@ levelup SPECIES_ZEBSTRIKA
     learnset MOVE_FLAME_CHARGE, 18
     learnset MOVE_SPARK, 21
     learnset MOVE_STOMP, 24
+    learnset MOVE_ZING_ZAP, 27
     learnset MOVE_DISCHARGE, 28
     learnset MOVE_TAKE_DOWN, 32
     learnset MOVE_WILD_CHARGE, 36

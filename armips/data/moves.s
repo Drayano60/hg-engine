@@ -12545,9 +12545,9 @@ movedata MOVE_ZING_ZAP, "Zing Zap"
     effectchance 30
     target MOVE_TARGET_SELECTED
     priority 0
-    flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
-    appeal 0x00
-    contesttype CONTEST_COOL
+    flags FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
+    appeal 0
+    contesttype 0
     terminatedata
 
 movedata MOVE_NATURES_MADNESS, "Nature’s Madness"
@@ -15464,6 +15464,70 @@ movedata MOVE_SAND_SONG, "Sand Song"
     contesttype 0
     terminatedata
     movedescription MOVE_SAND_SONG, "The user flaps its\nwings and whips up a\nsinging cloud of sand.\nIn a sandstorm, this\nmove is 50% stronger."
+
+movedata MOVE_COTTON_BASH, "Cotton Bash"
+    battleeffect 138
+    pss SPLIT_PHYSICAL
+    basepower 70
+    type TYPE_FLYING
+    accuracy 90
+    pp 10
+    effectchance 100
+    target MOVE_TARGET_SELECTED
+    priority 0
+    flags FLAG_CONTACT | FLAG_PROTECT | FLAG_MIRROR_MOVE
+    appeal 0
+    contesttype 0
+    terminatedata
+    movedescription MOVE_COTTON_BASH, "Cloaked in cotton,\nthe user rides the\nwind to hit the foe.\nThe user’s Defense\nstat is boosted."
+
+movedata MOVE_THUNDER_CLAW, "Thunder Claw"
+    battleeffect 327
+    pss SPLIT_PHYSICAL
+    basepower 85
+    type TYPE_ELECTRIC
+    accuracy 100
+    pp 10
+    effectchance 10
+    target MOVE_TARGET_SELECTED
+    priority 0
+    flags FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
+    appeal 0
+    contesttype 0
+    terminatedata
+    movedescription MOVE_THUNDER_CLAW, "Slashes the foe with\nelectrified claws.\nOften a critical hit.\nThis has a 10% chance\nto paralyze the foe."
+
+movedata MOVE_HIGH_VOLTAGE, "High Voltage"
+    battleeffect 229
+    pss SPLIT_PHYSICAL
+    basepower 120
+    type TYPE_ELECTRIC
+    accuracy 100
+    pp 5
+    effectchance 0
+    target MOVE_TARGET_SELECTED
+    priority 0
+    flags FLAG_HIDE_SHADOW | FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
+    appeal 0
+    contesttype 0
+    terminatedata
+    movedescription MOVE_HIGH_VOLTAGE, "The user closes in to\nthe foe and looses a\nhigh voltage current.\nThis cuts the user’s\nDefense and Sp. Def."
+
+movedata MOVE_PYRO_CANNON, "Pyro Cannon"
+    battleeffect 229
+    pss SPLIT_SPECIAL
+    basepower 120
+    type TYPE_FIRE
+    accuracy 100
+    pp 5
+    effectchance 0
+    target MOVE_TARGET_SELECTED
+    priority 0
+    flags FLAG_HIDE_SHADOW | FLAG_MIRROR_MOVE | FLAG_PROTECT
+    appeal FLAG_BALL
+    contesttype 0
+    terminatedata
+    movedescription MOVE_PYRO_CANNON, "From its arms, the\nuser blasts intense\nfireballs at the foe.\nThis cuts the user’s\nDefense and Sp. Def."
 
 movedatanoname NUM_OF_MOVES+1
     battleeffect 0

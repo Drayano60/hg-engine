@@ -2110,9 +2110,9 @@ levelup SPECIES_GOLEM_ALOLAN
     learnset MOVE_ROCK_SLIDE, 24
     learnset MOVE_STEALTH_ROCK, 30
     learnset MOVE_ROCK_BLAST, 35
-    learnset MOVE_WILD_CHARGE, 40
+    learnset MOVE_DISCHARGE, 40
     learnset MOVE_STONE_EDGE, 45
-    learnset MOVE_DOUBLE_EDGE, 50
+    learnset MOVE_WILD_CHARGE, 50
     learnset MOVE_HEAD_SMASH, 55
     learnset MOVE_EXPLOSION, 60
     terminatelearnset
@@ -3687,6 +3687,7 @@ levelup SPECIES_ELECTABUZZ
 
 // NEW: High Voltage (Custom)
 levelup SPECIES_ELECTIVIRE
+    learnset MOVE_HIGH_VOLTAGE, 1
     learnset MOVE_FIRE_PUNCH, 1 
     learnset MOVE_HAMMER_ARM, 1
     learnset MOVE_DUAL_CHOP, 1
@@ -3704,7 +3705,7 @@ levelup SPECIES_ELECTIVIRE
     learnset MOVE_SCREECH, 28
     learnset MOVE_DISCHARGE, 35
     learnset MOVE_CROSS_CHOP, 40
-    learnset MOVE_WILD_CHARGE, 45
+    learnset MOVE_THUNDERBOLT, 45
     learnset MOVE_LIGHT_SCREEN, 50
     learnset MOVE_THUNDER, 55
 
@@ -3713,8 +3714,7 @@ levelup SPECIES_ELECTIVIRE
     .else
     .endif
 
-    learnset MOVE_HIGH_VOLTAGE, 60
-    learnset MOVE_GIGA_IMPACT, 65
+    learnset MOVE_GIGA_IMPACT, 60
     terminatelearnset
 
 levelup SPECIES_MAGBY
@@ -3757,6 +3757,7 @@ levelup SPECIES_MAGMAR
 
 // NEW: Pyro Cannon (Custom)
 levelup SPECIES_MAGMORTAR
+    learnset MOVE_PYRO_CANNON, 1
     learnset MOVE_THUNDER_PUNCH, 1
     learnset MOVE_DUAL_CHOP, 1
     learnset MOVE_SMOG, 1
@@ -3775,8 +3776,7 @@ levelup SPECIES_MAGMORTAR
     learnset MOVE_FLAMETHROWER, 45
     learnset MOVE_SUNNY_DAY, 50
     learnset MOVE_FIRE_BLAST, 55
-    learnset MOVE_PYRO_CANNON, 60
-    learnset MOVE_HYPER_BEAM, 65
+    learnset MOVE_HYPER_BEAM, 60
     terminatelearnset
 
 levelup SPECIES_PINSIR
@@ -8111,7 +8111,7 @@ levelup SPECIES_MEDICHAM
     learnset MOVE_COUNTER, 59
     terminatelearnset
 
-// NEW: Thunder Shock, Volt Tackle
+// NEW: Thunder Shock
 levelup SPECIES_ELECTRIKE
     learnset MOVE_TACKLE, 1
     learnset MOVE_LEER, 1
@@ -8128,14 +8128,13 @@ levelup SPECIES_ELECTRIKE
     learnset MOVE_VOLT_SWITCH, 28
     learnset MOVE_DISCHARGE, 32
     learnset MOVE_CRUNCH, 36
-    learnset MOVE_WILD_CHARGE, 40
+    learnset MOVE_CHARGE, 40
     learnset MOVE_THUNDERBOLT, 44
-    learnset MOVE_CHARGE, 48
+    learnset MOVE_WILD_CHARGE, 48
     learnset MOVE_THUNDER, 52
-    learnset MOVE_VOLT_TACKLE, 56
     terminatelearnset
 
-// NEW: Thunder Shock, Volt Tackle
+// NEW: Thunder Shock
 levelup SPECIES_MANECTRIC
     learnset MOVE_FIRE_FANG, 1
     learnset MOVE_TACKLE, 1
@@ -8153,11 +8152,10 @@ levelup SPECIES_MANECTRIC
     learnset MOVE_VOLT_SWITCH, 28
     learnset MOVE_DISCHARGE, 32
     learnset MOVE_CRUNCH, 36
-    learnset MOVE_WILD_CHARGE, 40
+    learnset MOVE_CHARGE, 40
     learnset MOVE_THUNDERBOLT, 44
-    learnset MOVE_CHARGE, 48
+    learnset MOVE_WILD_CHARGE, 48
     learnset MOVE_THUNDER, 52
-    learnset MOVE_VOLT_TACKLE, 56
     terminatelearnset
 
 // NEW: Thunder Shock
@@ -10433,7 +10431,7 @@ levelup SPECIES_KRICKETUNE
     learnset MOVE_BOOMBURST, 52
     terminatelearnset
 
-// NEW: Volt Tackle
+// NEW: Double-Edge
 levelup SPECIES_SHINX
     learnset MOVE_TACKLE, 1
     learnset MOVE_LEER, 1
@@ -10446,18 +10444,17 @@ levelup SPECIES_SHINX
     learnset MOVE_ROAR, 16
     learnset MOVE_DOUBLE_KICK, 19
     learnset MOVE_THUNDER_FANG, 22
-    learnset MOVE_TAKE_DOWN, 25
-    learnset MOVE_SWAGGER, 28
+    learnset MOVE_THUNDER_WAVE, 25
+    learnset MOVE_TAKE_DOWN, 28
     learnset MOVE_CRUNCH, 32
-    learnset MOVE_DISCHARGE, 36
-    learnset MOVE_WILD_CHARGE, 40
+    learnset MOVE_SWAGGER, 36
+    learnset MOVE_DISCHARGE, 40
     learnset MOVE_SCARY_FACE, 44
     learnset MOVE_PLAY_ROUGH, 48
-    learnset MOVE_DOUBLE_EDGE, 52
-    learnset MOVE_VOLT_TACKLE, 56
+    learnset MOVE_WILD_CHARGE, 52
     terminatelearnset
 
-// NEW: Volt Tackle
+// NEW: Double-Edge
 levelup SPECIES_LUXIO
     learnset MOVE_TACKLE, 1
     learnset MOVE_LEER, 1
@@ -10471,18 +10468,17 @@ levelup SPECIES_LUXIO
     learnset MOVE_ROAR, 16
     learnset MOVE_DOUBLE_KICK, 19
     learnset MOVE_THUNDER_FANG, 22
-    learnset MOVE_TAKE_DOWN, 25
-    learnset MOVE_SWAGGER, 28
+    learnset MOVE_THUNDER_WAVE, 25
+    learnset MOVE_TAKE_DOWN, 28
     learnset MOVE_CRUNCH, 32
-    learnset MOVE_DISCHARGE, 36
-    learnset MOVE_WILD_CHARGE, 40
+    learnset MOVE_SWAGGER, 36
+    learnset MOVE_DISCHARGE, 40
     learnset MOVE_SCARY_FACE, 44
     learnset MOVE_PLAY_ROUGH, 48
-    learnset MOVE_DOUBLE_EDGE, 52
-    learnset MOVE_VOLT_TACKLE, 56
+    learnset MOVE_WILD_CHARGE, 52
     terminatelearnset
 
-// NEW: Thunder Claw (Custom), Volt Tackle
+// NEW: Thunder Claw (Custom), Double-Edge
 levelup SPECIES_LUXRAY
     learnset MOVE_NIGHT_SLASH, 1
     learnset MOVE_FIRE_FANG, 1
@@ -10499,16 +10495,15 @@ levelup SPECIES_LUXRAY
     learnset MOVE_ROAR, 16
     learnset MOVE_DOUBLE_KICK, 19
     learnset MOVE_THUNDER_FANG, 22
-    learnset MOVE_TAKE_DOWN, 25
-    learnset MOVE_SWAGGER, 28
+    learnset MOVE_THUNDER_WAVE, 25
+    learnset MOVE_TAKE_DOWN, 28
     learnset MOVE_THUNDER_CLAW, 30
     learnset MOVE_CRUNCH, 32
-    learnset MOVE_DISCHARGE, 36
-    learnset MOVE_WILD_CHARGE, 40
+    learnset MOVE_SWAGGER, 36
+    learnset MOVE_DISCHARGE, 40
     learnset MOVE_SCARY_FACE, 44
     learnset MOVE_PLAY_ROUGH, 48
-    learnset MOVE_DOUBLE_EDGE, 52
-    learnset MOVE_VOLT_TACKLE, 56
+    learnset MOVE_WILD_CHARGE, 52
     terminatelearnset
 
 // NEW: Tackle (PLA), Headlong Rush
@@ -12875,7 +12870,7 @@ levelup SPECIES_UNFEZANT_FEMALE
     learnset MOVE_SKY_ATTACK, 60
     terminatelearnset
 
-// NEW: Jump Kick, Volt Tackle
+// NEW: Jump Kick
 levelup SPECIES_BLITZLE
     learnset MOVE_QUICK_ATTACK, 1
     learnset MOVE_TAIL_WHIP, 1
@@ -12889,15 +12884,14 @@ levelup SPECIES_BLITZLE
     learnset MOVE_STOMP, 24
     learnset MOVE_DISCHARGE, 28
     learnset MOVE_TAKE_DOWN, 32
-    learnset MOVE_WILD_CHARGE, 36
-    learnset MOVE_JUMP_KICK, 40
-    learnset MOVE_AGILITY, 44
-    learnset MOVE_BOUNCE, 48
-    learnset MOVE_THRASH, 52
-    learnset MOVE_VOLT_TACKLE, 56
+    learnset MOVE_JUMP_KICK, 36
+    learnset MOVE_AGILITY, 40
+    learnset MOVE_BOUNCE, 44
+    learnset MOVE_THRASH, 48
+    learnset MOVE_WILD_CHARGE, 52
     terminatelearnset
 
-// NEW: Extreme Speed, Jump Kick, Volt Tackle, High Horsepower
+// NEW: Extreme Speed, Jump Kick, High Horsepower
 levelup SPECIES_ZEBSTRIKA
     learnset MOVE_HIGH_HORSEPOWER, 1
     learnset MOVE_VOLT_SWITCH, 1
@@ -12915,13 +12909,12 @@ levelup SPECIES_ZEBSTRIKA
     learnset MOVE_ZING_ZAP, 27
     learnset MOVE_DISCHARGE, 28
     learnset MOVE_TAKE_DOWN, 32
-    learnset MOVE_WILD_CHARGE, 36
-    learnset MOVE_JUMP_KICK, 40
-    learnset MOVE_AGILITY, 44
-    learnset MOVE_BOUNCE, 48
-    learnset MOVE_THRASH, 52
-    learnset MOVE_VOLT_TACKLE, 56
-    learnset MOVE_EXTREME_SPEED, 60
+    learnset MOVE_JUMP_KICK, 36
+    learnset MOVE_AGILITY, 40
+    learnset MOVE_BOUNCE, 44
+    learnset MOVE_THRASH, 48
+    learnset MOVE_WILD_CHARGE, 52
+    learnset MOVE_EXTREME_SPEED, 56
     terminatelearnset
 
 levelup SPECIES_ROGGENROLA
@@ -14485,7 +14478,6 @@ levelup SPECIES_SAWSBUCK_WINTER
     learnset MOVE_SOLAR_BEAM, 54
     terminatelearnset
 
-// NEW: Volt Tackle
 levelup SPECIES_EMOLGA
     learnset MOVE_THUNDER_SHOCK, 1
     learnset MOVE_TAIL_WHIP, 1
@@ -14503,7 +14495,7 @@ levelup SPECIES_EMOLGA
     learnset MOVE_DISCHARGE, 40
     learnset MOVE_AGILITY, 44
     learnset MOVE_BATON_PASS, 48
-    learnset MOVE_VOLT_TACKLE, 52
+    learnset MOVE_WILD_CHARGE, 52
     terminatelearnset
 
 // Evolution: Linking Cord
@@ -14897,10 +14889,10 @@ levelup SPECIES_EELEKTRIK
     learnset MOVE_GASTRO_ACID, 32
     learnset MOVE_DISCHARGE, 36
     learnset MOVE_CRUNCH, 40
-    learnset MOVE_WILD_CHARGE, 44
-    learnset MOVE_THUNDERBOLT, 48
-    learnset MOVE_COIL, 52
-    learnset MOVE_THRASH, 56
+    learnset MOVE_THUNDERBOLT, 44
+    learnset MOVE_COIL, 48
+    learnset MOVE_THRASH, 52
+    learnset MOVE_WILD_CHARGE, 56
     learnset MOVE_SUPER_FANG, 60
     learnset MOVE_ZAP_CANNON, 64
     terminatelearnset
@@ -14922,9 +14914,9 @@ levelup SPECIES_EELEKTROSS
     learnset MOVE_DISCHARGE, 36
     learnset MOVE_CRUNCH, 40
     learnset MOVE_THUNDERBOLT, 44
-    learnset MOVE_WILD_CHARGE, 48
-    learnset MOVE_COIL, 52
-    learnset MOVE_THRASH, 56
+    learnset MOVE_COIL, 48
+    learnset MOVE_THRASH, 52
+    learnset MOVE_WILD_CHARGE, 56
     learnset MOVE_SUPER_FANG, 60
     learnset MOVE_ZAP_CANNON, 64
     terminatelearnset
@@ -16770,7 +16762,6 @@ levelup SPECIES_HAWLUCHA
     learnset MOVE_SKY_ATTACK, 60
 	terminatelearnset
 
-// NEW: Volt Tackle
 levelup SPECIES_DEDENNE
 	learnset MOVE_COVET, 1
     learnset MOVE_TACKLE, 1
@@ -16785,10 +16776,10 @@ levelup SPECIES_DEDENNE
     learnset MOVE_VOLT_SWITCH, 28
     learnset MOVE_DISCHARGE, 32
     learnset MOVE_DAZZLING_GLEAM, 36
-    learnset MOVE_SUPER_FANG, 40
+    learnset MOVE_EERIE_IMPULSE, 40
     learnset MOVE_PLAY_ROUGH, 44
-    learnset MOVE_THUNDER, 48
-    learnset MOVE_VOLT_TACKLE, 52
+    learnset MOVE_SUPER_FANG, 48
+    learnset MOVE_THUNDER, 52
 	terminatelearnset
 
 levelup SPECIES_CARBINK
@@ -21577,11 +21568,10 @@ levelup SPECIES_MEGA_MANECTRIC
     learnset MOVE_VOLT_SWITCH, 28
     learnset MOVE_DISCHARGE, 32
     learnset MOVE_CRUNCH, 36
-    learnset MOVE_WILD_CHARGE, 40
+    learnset MOVE_CHARGE, 40
     learnset MOVE_THUNDERBOLT, 44
-    learnset MOVE_CHARGE, 48
+    learnset MOVE_WILD_CHARGE, 48
     learnset MOVE_THUNDER, 52
-    learnset MOVE_VOLT_TACKLE, 56
     terminatelearnset
 
 levelup SPECIES_MEGA_SHARPEDO

@@ -6619,21 +6619,24 @@ movedata MOVE_COVET, "Covet"
     terminatedata
     movedescription MOVE_COVET, "The user attacks the\nfoe. In a wild battle,\nthis steals the foe’s\nheld item if the user\nisn’t holding an item."
 
+// POWER: 120 >> 140
+// PP: 15 >> 5
+// EFFECT CHANCE: 10 >> 30
 movedata MOVE_VOLT_TACKLE, "Volt Tackle"
     battleeffect 262
     pss SPLIT_PHYSICAL
-    basepower 120
+    basepower MOVE_CHANGES_IMPLEMENTED ? 140 : 120
     type TYPE_ELECTRIC
     accuracy 100
-    pp 15
-    effectchance 10
+    pp MOVE_CHANGES_IMPLEMENTED ? 5 : 15
+    effectchance MOVE_CHANGES_IMPLEMENTED ? 30 : 10
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_HIDE_SHADOW | FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
     appeal 0
     contesttype 0
     terminatedata
-    movedescription MOVE_VOLT_TACKLE, "An electrified charge.\nThe user is hurt by\n33% of damage dealt.\nThis has a 10% chance\nto paralyze the foe."
+    movedescription MOVE_VOLT_TACKLE, "An electrified charge.\nThe user is hurt by\n33% of damage dealt.\nThis has a 30% chance\nto paralyze the foe."
 
 movedata MOVE_MAGICAL_LEAF, "Magical Leaf"
     battleeffect 17
@@ -9634,11 +9637,11 @@ movedata MOVE_ELECTROWEB, "Electroweb"
     terminatedata
     movedescription MOVE_ELECTROWEB, "The foe is captured\nin an electric net\nand takes damage.\nThis reduces the\nfoe’s Speed stat."
 
-// POWER: 90 >> 100
+// POWER: 90 >> 120
 movedata MOVE_WILD_CHARGE, "Wild Charge"
-    battleeffect 48
+    battleeffect 198
     pss SPLIT_PHYSICAL
-    basepower MOVE_CHANGES_IMPLEMENTED ? 100 : 90
+    basepower MOVE_CHANGES_IMPLEMENTED ? 120 : 90
     type TYPE_ELECTRIC
     accuracy 100
     pp 15
@@ -9649,7 +9652,7 @@ movedata MOVE_WILD_CHARGE, "Wild Charge"
     appeal 0
     contesttype 0
     terminatedata
-    movedescription MOVE_WILD_CHARGE, "The user is shrouded\nin electricity and\nsmashes into the foe.\nThe user is hurt by\n25% of damage dealt."
+    movedescription MOVE_WILD_CHARGE, "The user is shrouded\nin electricity and\nsmashes into the foe.\nThe user is hurt by\n33% of damage dealt."
 
 // ACCURACY: 95 >> 100
 movedata MOVE_DRILL_RUN, "Drill Run"

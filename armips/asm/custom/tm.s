@@ -32,110 +32,98 @@ PALETTE_BUG equ 610
 // Start of TM table
 .org 0x021000CC
 
-// Replace TM01 Focus Punch with TM01 Hone Claws
-.halfword MOVE_HONE_CLAWS
-
-// Replace TM03 Water Pulse with TM03 Psyshock
-.skip (2 * 1)
-.halfword MOVE_PSYSHOCK
-
-// Replace TM05 Roar with TM05 Snarl
-.skip (2 * 1)
-.halfword MOVE_SNARL
-
-// Replace TM09 Bullet Seed with TM09 Venoshock
-.skip (2 * 3)
-.halfword MOVE_VENOSHOCK
-
-// Replace TM20 Safeguard with TM20 Weather Ball
-.skip (2 * 10)
-.halfword MOVE_WEATHER_BALL
-
-// Replace TM21 Frustration with TM21 Dazzling Gleam
-.halfword MOVE_DAZZLING_GLEAM
-
-// Replace TM27 Return with TM27 Low Sweep
-.skip (2 * 5)
-.halfword MOVE_LOW_SWEEP
-
-// Replace TM28 Dig with TM28 Leech Life
-// Cancelled
+.halfword MOVE_HONE_CLAWS // .
+.halfword MOVE_DRAGON_CLAW
+.halfword MOVE_PSYSHOCK // .
+.halfword MOVE_CALM_MIND
+.halfword MOVE_SNARL // .
+.halfword MOVE_TOXIC
+.halfword MOVE_HAIL
+.halfword MOVE_BULK_UP
+.halfword MOVE_VENOSHOCK // .
+.halfword MOVE_HIDDEN_POWER
+.halfword MOVE_SUNNY_DAY
+.halfword MOVE_TAUNT
+.halfword MOVE_ICE_BEAM
+.halfword MOVE_BLIZZARD
+.halfword MOVE_HYPER_BEAM
+.halfword MOVE_LIGHT_SCREEN
+.halfword MOVE_PROTECT
+.halfword MOVE_RAIN_DANCE
+.halfword MOVE_GIGA_DRAIN
+.halfword MOVE_WEATHER_BALL // .
+.halfword MOVE_DAZZLING_GLEAM // .
+.halfword MOVE_SOLAR_BEAM
+.halfword MOVE_IRON_TAIL
+.halfword MOVE_THUNDERBOLT
+.halfword MOVE_THUNDER
+.halfword MOVE_EARTHQUAKE
+.halfword MOVE_LOW_SWEEP // .
 .halfword MOVE_DIG
-
-// Replace TM32 Double Team with TM32 Leech Life
-.skip (2 * 3)
-.halfword MOVE_LEECH_LIFE
-
-// Replace TM34 Shock Wave with TM34 Sludge Wave
-.skip (2 * 1)
-.halfword MOVE_SLUDGE_WAVE
-
-// Replace TM43 Secret Power with TM43 Flame Charge
-.skip (2 * 8)
-.halfword MOVE_FLAME_CHARGE
-
-// Replace TM49 Snatch with TM49 Echoed Voice
-.skip (2 * 5)
-.halfword MOVE_ECHOED_VOICE
-
-// Replace TM55 Brine with TM55 Scald
-.skip (2 * 5)
-.halfword MOVE_SCALD
-
-// Replace TM56 Fling with TM56 Power Whip
-// Cancelled
+.halfword MOVE_PSYCHIC
+.halfword MOVE_SHADOW_BALL
+.halfword MOVE_BRICK_BREAK
+.halfword MOVE_LEECH_LIFE // .
+.halfword MOVE_REFLECT
+.halfword MOVE_SLUDGE_WAVE // .
+.halfword MOVE_FLAMETHROWER
+.halfword MOVE_SLUDGE_BOMB
+.halfword MOVE_SANDSTORM
+.halfword MOVE_FIRE_BLAST
+.halfword MOVE_ROCK_TOMB
+.halfword MOVE_AERIAL_ACE
+.halfword MOVE_TORMENT
+.halfword MOVE_FACADE
+.halfword MOVE_FLAME_CHARGE // .
+.halfword MOVE_REST
+.halfword MOVE_ATTRACT
+.halfword MOVE_THIEF
+.halfword MOVE_STEEL_WING
+.halfword MOVE_SKILL_SWAP
+.halfword MOVE_ECHOED_VOICE // .
+.halfword MOVE_OVERHEAT
+.halfword MOVE_ROOST
+.halfword MOVE_FOCUS_BLAST
+.halfword MOVE_ENERGY_BALL
+.halfword MOVE_FALSE_SWIPE
+.halfword MOVE_SCALD // .
 .halfword MOVE_FLING
-
-// Replace TM58 Endure with TM58 Body Press
-.skip (2 * 1)
-.halfword MOVE_BODY_PRESS
-
-// Replace TM62 Silver Wind with TM62 Acrobatics
-.skip (2 * 3)
-.halfword MOVE_ACROBATICS
-
-// Replace TM63 Embargo with TM63 Nasty Plot
-.halfword MOVE_NASTY_PLOT
-
-// Replace TM67 Recycle with TM67 Smart Strike
-.skip (2 * 3)
-.halfword MOVE_SMART_STRIKE
-
-// Replace TM70 Flash with TM70 Mystical Fire
-.skip (2 * 2)
-.halfword MOVE_MYSTICAL_FIRE
-
-// Replace TM72 Avalanche with TM72 Ice Spinner
-.skip (2 * 1)
-.halfword MOVE_ICE_SPINNER
-
-// Replace TM74 Gyro Ball with TM74 Pollen Puff
-.skip (2 * 1)
-.halfword MOVE_POLLEN_PUFF
-
-// Replace TM76 Stealth Rock with TM76 Struggle Bug (cancelled)
-.skip (2 * 1)
+.halfword MOVE_CHARGE_BEAM
+.halfword MOVE_BODY_PRESS // .
+.halfword MOVE_DRAGON_PULSE
+.halfword MOVE_DRAIN_PUNCH
+.halfword MOVE_WILL_O_WISP
+.halfword MOVE_ACROBATICS // .
+.halfword MOVE_NASTY_PLOT // .
+.halfword MOVE_EXPLOSION
+.halfword MOVE_SHADOW_CLAW
+.halfword MOVE_PAYBACK
+.halfword MOVE_SMART_STRIKE // .
+.halfword MOVE_GIGA_IMPACT
+.halfword MOVE_ROCK_POLISH
+.halfword MOVE_MYSTICAL_FIRE // .
+.halfword MOVE_STONE_EDGE
+.halfword MOVE_ICE_SPINNER // .
+.halfword MOVE_THUNDER_WAVE
+.halfword MOVE_POLLEN_PUFF // .
+.halfword MOVE_SWORDS_DANCE
 .halfword MOVE_STEALTH_ROCK
-
-// Replace TM78 Captivate with TM78 Scorching Sands
-.skip (2 * 1)
-.halfword MOVE_SCORCHING_SANDS
-
-// Replace TM83 Natural Gift with TM83 Work Up
-.skip (2 * 4)
-.halfword MOVE_WORK_UP
-
-// Replace TM85 Dream Eater with TM85 Psycho Cut
-.skip (2 * 1)
-.halfword MOVE_PSYCHO_CUT
-
-// Replace TM88 Pluck with TM88 Air Slash
-.skip (2 * 2)
-.halfword MOVE_AIR_SLASH
-
-// Replace TM90 Substitute with TM90 Scale Shot
-.skip (2 * 1)
-.halfword MOVE_SCALE_SHOT
+.halfword MOVE_PSYCH_UP
+.halfword MOVE_SCORCHING_SANDS // .
+.halfword MOVE_DARK_PULSE
+.halfword MOVE_ROCK_SLIDE
+.halfword MOVE_X_SCISSOR
+.halfword MOVE_SLEEP_TALK
+.halfword MOVE_WORK_UP // .
+.halfword MOVE_POISON_JAB
+.halfword MOVE_PSYCHO_CUT // .
+.halfword MOVE_GRASS_KNOT
+.halfword MOVE_SWAGGER
+.halfword MOVE_AIR_SLASH // .
+.halfword MOVE_U_TURN
+.halfword MOVE_SCALE_SHOT // .
+.halfword MOVE_FLASH_CANNON
+.halfword MOVE_TRICK_ROOM
 
 // Start of TM Palette Table
 .org 0x02100BD6

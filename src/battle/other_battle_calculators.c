@@ -1013,7 +1013,7 @@ void ServerHPCalc(void *bw, struct BattleStruct *sp)
                 {
                     sp->oneSelfFlag[sp->defence_client].prevent_one_hit_ko_item = TRUE;
                 }
- -              else if ((eqp == HOLD_EFFECT_HP_MAX_SURVIVE_1_HP) && (sp->battlemon[sp->defence_client].hp == sp->battlemon[sp->defence_client].maxhp) && (sp->battlemon[sp->defence_client].single_use_item_flag == 0))
+                else if ((eqp == HOLD_EFFECT_HP_MAX_SURVIVE_1_HP) && (sp->battlemon[sp->defence_client].hp == sp->battlemon[sp->defence_client].maxhp) && (sp->battlemon[sp->defence_client].single_use_item_flag == 0))
                 {
                     sp->battlemon[sp->defence_client].single_use_item_flag = TRUE; // Allow Focus Sash to not break while not working twice in a battle
                     sp->oneSelfFlag[sp->defence_client].prevent_one_hit_ko_item = TRUE;

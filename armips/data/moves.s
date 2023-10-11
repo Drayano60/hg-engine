@@ -3745,11 +3745,10 @@ movedata MOVE_SKETCH, "Sketch"
     terminatedata
     movedescription MOVE_SKETCH, "It enables the user\nto permanently learn\nthe move last used by\nthe foe. Once used,\nSketch disappears."
 
-// POWER: 10 >> 20
 movedata MOVE_TRIPLE_KICK, "Triple Kick"
     battleeffect 104
     pss SPLIT_PHYSICAL
-    basepower MOVE_CHANGES_IMPLEMENTED ? 20 : 10
+    basepower 10
     type TYPE_FIGHTING
     accuracy 90
     pp 10
@@ -3760,7 +3759,7 @@ movedata MOVE_TRIPLE_KICK, "Triple Kick"
     appeal 0
     contesttype 0
     terminatedata
-    movedescription MOVE_TRIPLE_KICK, "A three-kick attack\nthat gains an extra\n10 power on each\nsuccessive hit, for a\ntotal of 90 power."
+    movedescription MOVE_TRIPLE_KICK, "A three-kick attack\nthat gains an extra\n10 power on each\nsuccessive hit, for a\ntotal of 60 power."
 
 movedata MOVE_THIEF, "Thief"
     battleeffect 323 // Reassigned so AI doesnt discourage it

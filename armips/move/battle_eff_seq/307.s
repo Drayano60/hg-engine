@@ -11,7 +11,7 @@
 
 // Triple Axel effect
 // Each hit is +20
-// Unaffected by Technician as written in battle_calc_damage.c
+// It ignores the actual moves.s BP. First hit is 20, second is 20+20, third is 20+20+20.
 
 a030_307:
     setmultihit 0x3, 0xDD

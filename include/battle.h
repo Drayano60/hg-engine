@@ -545,8 +545,8 @@ struct __attribute__((packed)) OneTurnEffect
                u32 yokodori_flag : 1;
                u32 haneyasume_flag : 1;
                u32 escape_flag : 2;
-               u32 prevent_one_hit_ko_ability : 2; /**< pokémon has damp active */ /* changed from 1->2 to show sturdy msg */
-               u32 : 21;
+               u32 prevent_one_hit_ko_ability : 1; /**< pokémon has damp active */
+               u32 : 22;
 
     /* 0x04 */ int physical_damage[4];    /**< [don't use] physical damage as indexed by battler.  Counter doesn't use this, use OneSelfTurnEffect's physical_damage (sp->oneSelfFlag[battler].physical_damage) */
     /* 0x14 */ int physical_damager;      /**< [don't use] last battler that physically damaged this pokémon.  Counter doesn't use this, use OneSelfTurnEffect's physical_damager (sp->oneSelfFlag[battler].physical_damager) */
@@ -569,10 +569,10 @@ struct __attribute__((packed)) OneSelfTurnEffect
                u32 storm_drain_flag : 1;         /**< storm drain activated on this pokémon */
                u32 mold_breaker_flag : 1;        /**< mold breaker activated on this pokémon */
                u32 trickroom_flag : 1;           /**< trick room is active on this pokémon */
-               u32 prevent_one_hit_ko_item : 2;  /**< a held item prevented OHKO on this pokémon */ /* changed from 1->2 to separate focus sash/band */
+               u32 prevent_one_hit_ko_item : 1;  /**< a held item prevented OHKO on this pokémon */
                u32 korogaru_count : 3;           /**< counter for rollout */
                u32 defiant_flag : 1;             /**< flag that signals to activate defiant after a stat is raised */
-               u32 : 21;
+               u32 : 22;
 
     /* 0x04 */ int physical_damage;              /**< physical damage last taken */
     /* 0x08 */ int physical_damager;             /**< last battler that physically damaged this pokémon */

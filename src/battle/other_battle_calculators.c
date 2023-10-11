@@ -1024,14 +1024,18 @@ void ServerHPCalc(void *bw, struct BattleStruct *sp)
                 }
             }
 
+            BOOL isSturdy = FALSE;
+
             // handle sturdy--prevent one-hit ko's if hp == maxhp
             if ((MoldBreakerAbilityCheck(sp, sp->attack_client, sp->defence_client, ABILITY_STURDY) == TRUE) && (sp->battlemon[sp->defence_client].hp == sp->battlemon[sp->defence_client].maxhp))
             {
+                isSturdy = TRUE;
                 sp->oneTurnFlag[sp->defence_client].prevent_one_hit_ko_ability = TRUE;
             }
             // make sure to cancel sturdy if hp != maxhp.  necessary for multi-hit moves
             else if (MoldBreakerAbilityCheck(sp, sp->attack_client, sp->defence_client, ABILITY_STURDY) == TRUE && (sp->battlemon[sp->defence_client].hp != sp->battlemon[sp->defence_client].maxhp))
             {
+                isSturdy = FALSE;
                 sp->oneTurnFlag[sp->defence_client].prevent_one_hit_ko_ability = FALSE;
             }
 
@@ -1043,6 +1047,10 @@ void ServerHPCalc(void *bw, struct BattleStruct *sp)
                     if (sp->oneTurnFlag[sp->defence_client].prevent_one_hit_ko_ability)
                     {
                         sp->waza_status_flag |= MOVE_STATUS_FLAG_HELD_ON_ABILITY;
+
+                        if (isSturdy) {
+                            sp->waza_status_flag |= MOVE_STATUS_FLAG_HELD_ON_ITEM;
+                        }
                     }
                     else
                     {

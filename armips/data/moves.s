@@ -5104,11 +5104,10 @@ movedata MOVE_WHIRLPOOL, "Whirlpool"
     terminatedata
     movedescription MOVE_WHIRLPOOL, "Traps the foe inside a\nwhirlpool that lasts\nfor four to five turns.\nThe user can pass\nthrough whirlpools."
 
-// This still uses the Gen 4 effect for now.
 movedata MOVE_BEAT_UP, "Beat Up"
     battleeffect 154
     pss SPLIT_PHYSICAL
-    basepower 10
+    basepower 1
     type TYPE_DARK
     accuracy 100
     pp 10

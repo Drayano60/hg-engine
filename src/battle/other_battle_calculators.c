@@ -1007,43 +1007,40 @@ void ServerHPCalc(void *bw, struct BattleStruct *sp)
                     sp->damage = (sp->battlemon[sp->defence_client].hp - 1) * -1;
                 }
             }
-            if (sp->oneTurnFlag[sp->defence_client].prevent_one_hit_ko_ability == 0)
+            if (sp->oneTurnFlag[sp->defence_client].prevent_one_hit_ko_ability == FALSE)
             {
-                if ((MoldBreakerAbilityCheck(sp, sp->attack_client, sp->defence_client, ABILITY_STURDY) == TRUE) && (sp->battlemon[sp->defence_client].hp == sp->battlemon[sp->defence_client].maxhp))
+                if ((eqp == HOLD_EFFECT_FOCUS_BAND) && ((BattleRand(bw) % 100) < atk))
                 {
-                    sp->oneTurnFlag[sp->defence_client].prevent_one_hit_ko_ability = 2;
+                    sp->oneSelfFlag[sp->defence_client].prevent_one_hit_ko_item = TRUE;
                 }
-                else if ((eqp == HOLD_EFFECT_FOCUS_BAND) && ((BattleRand(bw) % 100) < atk))
+ -              else if ((eqp == HOLD_EFFECT_HP_MAX_SURVIVE_1_HP) && (sp->battlemon[sp->defence_client].hp == sp->battlemon[sp->defence_client].maxhp) && (sp->battlemon[sp->defence_client].single_use_item_flag == 0))
                 {
-                    sp->oneSelfFlag[sp->defence_client].prevent_one_hit_ko_item = 1;
+                    sp->battlemon[sp->defence_client].single_use_item_flag = TRUE; // Allow Focus Sash to not break while not working twice in a battle
+                    sp->oneSelfFlag[sp->defence_client].prevent_one_hit_ko_item = TRUE;
                 }
-                else if ((eqp == HOLD_EFFECT_HP_MAX_SURVIVE_1_HP) && (sp->battlemon[sp->defence_client].hp == sp->battlemon[sp->defence_client].maxhp) && ((sp->battlemon[sp->defence_client].single_use_item_flag == 0)))
+                else
                 {
-                    sp->battlemon[sp->defence_client].single_use_item_flag = 1;
-                    sp->oneSelfFlag[sp->defence_client].prevent_one_hit_ko_item = 2;
+                    sp->oneSelfFlag[sp->defence_client].prevent_one_hit_ko_item = FALSE;
                 }
             }
+
+            // handle sturdy--prevent one-hit ko's if hp == maxhp
+            if ((MoldBreakerAbilityCheck(sp, sp->attack_client, sp->defence_client, ABILITY_STURDY) == TRUE) && (sp->battlemon[sp->defence_client].hp == sp->battlemon[sp->defence_client].maxhp))
+            {
+                sp->oneTurnFlag[sp->defence_client].prevent_one_hit_ko_ability = TRUE;
+            }
+            // make sure to cancel sturdy if hp != maxhp.  necessary for multi-hit moves
+            else if (MoldBreakerAbilityCheck(sp, sp->attack_client, sp->defence_client, ABILITY_STURDY) == TRUE && (sp->battlemon[sp->defence_client].hp != sp->battlemon[sp->defence_client].maxhp))
+            {
+                sp->oneTurnFlag[sp->defence_client].prevent_one_hit_ko_ability = FALSE;
+            }
+
             if ((sp->oneTurnFlag[sp->defence_client].prevent_one_hit_ko_ability) || (sp->oneSelfFlag[sp->defence_client].prevent_one_hit_ko_item))
             {
-                /* There are four ways to endure hits: Focus Band, Focus Sash, Sturdy, and the move Endure.
-                   Focus Band/Endure can prevent dying from any HP, but Focus Sash/Sturdy only can from full HP. 
-                   This condition is here to separate them in cases like multi-hit moves or being attacked multiple times in the same turn. */
-                if
-                (
-                    ((sp->oneTurnFlag[sp->defence_client].prevent_one_hit_ko_ability == 2) && (sp->battlemon[sp->defence_client].hp == sp->battlemon[sp->defence_client].maxhp) && ((sp->battlemon[sp->defence_client].hp + sp->damage) <= 0)) || // Sturdy
-                    ((sp->oneSelfFlag[sp->defence_client].prevent_one_hit_ko_item == 2) && (sp->battlemon[sp->defence_client].hp == sp->battlemon[sp->defence_client].maxhp) && ((sp->battlemon[sp->defence_client].hp + sp->damage) <= 0)) || // Focus Sash
-                    ((sp->oneTurnFlag[sp->defence_client].prevent_one_hit_ko_ability == 1) && ((sp->battlemon[sp->defence_client].hp + sp->damage) <= 0)) || // Endure
-                    ((sp->oneSelfFlag[sp->defence_client].prevent_one_hit_ko_item == 1) && ((sp->battlemon[sp->defence_client].hp + sp->damage) <= 0)) // Focus Band
-                )
+                if ((sp->battlemon[sp->defence_client].hp + sp->damage) <= 0)
                 {
                     sp->damage = (sp->battlemon[sp->defence_client].hp - 1) * -1;
-                    if (sp->oneTurnFlag[sp->defence_client].prevent_one_hit_ko_ability > 1)
-                    {
-                        /* This is to differentiate between Sturdy and Endure for the message display */
-                        sp->waza_status_flag |= MOVE_STATUS_FLAG_HELD_ON_ABILITY;
-                        sp->waza_status_flag |= MOVE_STATUS_FLAG_HELD_ON_ITEM;
-                    }
-                    else if (sp->oneTurnFlag[sp->defence_client].prevent_one_hit_ko_ability)
+                    if (sp->oneTurnFlag[sp->defence_client].prevent_one_hit_ko_ability)
                     {
                         sp->waza_status_flag |= MOVE_STATUS_FLAG_HELD_ON_ABILITY;
                     }
@@ -1125,7 +1122,19 @@ u16 gf_p_rand(const u16 denominator)
 }
 
 
-// return modified damage
+/**
+ *  @brief set move status effects for super effective and calculate modified damage
+ *
+ *  @param bw battle work structure
+ *  @param sp global battle structure
+ *  @param move_no move index
+ *  @param move_type move type
+ *  @param attack_client attacker
+ *  @param defence_client defender
+ *  @param damage current damage
+ *  @param flag move status flags to mess around with
+ *  @return modified damage
+ */
 int ServerDoTypeCalcMod(void *bw, struct BattleStruct *sp, int move_no, int move_type, int attack_client, int defence_client, int damage, u32 *flag)
 {
     int i;

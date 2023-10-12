@@ -215,3 +215,4 @@ Restores 33% HP as well\nwhen it eats a Berry.
 Lowers Attack and Sp. Atk\nof all Pokémon on entry.
 Powers up moves by 50%\nwhen at 25% HP or less.
 Powers up Psychic-type\nmoves by 50%.
+Powers up the move that\nit used last turn by 30%.

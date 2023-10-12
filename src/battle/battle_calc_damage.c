@@ -630,7 +630,12 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
     if ((GetBattlerAbility(sp, attacker) == ABILITY_PSYCHOKINESIS) && (movetype == TYPE_PSYCHIC)) {
         movepower = movepower * 150 / 100;
     }
-    
+
+    // Handle Rhythmic (Bellossom/Ludicolo)
+    if ((GetBattlerAbility(sp, attacker) == ABILITY_RHYTHMIC) && (sp->current_move_index == sp->waza_no_old[attacker])) {
+        movepower = movepower * 130 / 100;
+    }
+
     //handle rocky payload
     if(GetBattlerAbility(sp, attacker) == ABILITY_ROCKY_PAYLOAD && (movetype == TYPE_ROCK))
     {

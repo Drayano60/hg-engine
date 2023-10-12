@@ -33,7 +33,7 @@ Draws in all Electric-type\nmoves to up Sp. Attack.
 Doubles the likelihood of\nadded effects appearing.
 Doubles the Pokémon’s\nSpeed in rain.
 Doubles the Pokémon’s\nSpeed in sunshine.
-Boosts accuracy by 20%.\nAttracts wild Pokémon.
+Lowers evasion on entry.\nPrevents accuracy loss.
 The Pokémon copies the\nfoe’s ability.
 Doubles the Pokémon’s\nAttack stat in battle.
 Contact has a 30% chance\nto poison the attacker.
@@ -49,7 +49,7 @@ Halves damage from Fire\nand Ice-type moves.
 The Pokémon awakens\nquickly from sleep.
 Contact has a 30% chance\nto burn the attacker.
 Enables sure getaway\nfrom wild Pokémon.
-Boosts accuracy by 20%.\nPrevents accuracy drops.
+Boosts accuracy by 10%.\nPrevents accuracy loss.
 Boosts Attack by 10%.\nAttack can’t be lowered.
 The Pokémon may\npick up items.
 Pokémon can’t attack\non consecutive turns.
@@ -57,7 +57,7 @@ Ups Attack by 50%. Lowers\nphysical accuracy by 20%.
 Contact has a 30% chance\nto infatuate the foe.
 Boosts Sp. Atk by 50% if\na Pokémon has Minus.
 Boosts Sp. Atk by 50% if\na Pokémon has Plus.
-Transforms with weather.\nUps Weather Ball by 20%.
+Transforms with weather.\nSTAB is x2 if transformed.
 Protects the Pokémon\nfrom item theft.
 Has a 33% chance to cure\nits status on each turn.
 Boosts Attack by 50% if\nthere is a status problem.
@@ -87,7 +87,7 @@ Halves damage taken from\nFire-type moves or burns.
 The effects of any stat\nchanges are doubled.
 Hates sun or Fire moves.\nLoves rain or Water moves.
 Adjusts power according\nto a foe’s stats.
-Powers up punching moves\nby 33%.
+Powers up punching moves\nby 30%.
 Recovers 12.5% of its HP\neach turn while poisoned.
 Moves matching type are\ninstead doubled in power.
 Multi-strike moves will\nalways hit 5 times.
@@ -118,7 +118,7 @@ Lowers damage from super\neffective attacks by 25%.
 Summons a hailstorm for\n5 turns upon entry.
 The Pokémon may gather\nHoney from somewhere.
 The Pokémon can check\nthe foe’s held item.
-Powers up moves that\ncause recoil by 20%.
+Powers up moves that\ncause recoil by 30%.
 Changes type to match\nthe held Plate.
 Ups Attack and Sp. Def of\nitself and ally when sunny.
 Deals 12.5% HP damage to\nsleeping foes each turn.
@@ -164,14 +164,14 @@ Normal-type moves become\nFlying and do 20% more.
 Gives full immunity to some\nball and bomb moves.
 Boosts its Sp. Atk sharply\nif its stats are lowered.
 Halves the damage from\nphysical moves.
-Gives +1 priority to\nFlying-type moves.
+Flying-type moves gain +1\npriority when at full HP.
 Contact with it lowers the\nattacker’s Speed stat.
 Powers up aura and pulse\nmoves by 50%.
 Normal-type moves become\nFairy and do 20% more.
 Once per switch-in, it will\nbecome its move’s type.
 Normal-type moves become\nIce and do 20% more.
-Powers up biting moves\nby 33%.
-Powers up moves that\nmake contact by 20%.
+Powers up biting moves\nby 50%.
+Powers up moves that\nmake contact by 30%.
 Boosts Sp. Atk when a hit\nmakes its HP half or less.
 Blocks priority moves used\nagainst it or its ally.
 Halves damage on contact.\nDoubles Fire damage taken.
@@ -185,13 +185,13 @@ Lowers the Speed of every\nother Pokémon when hit.
 Enables the Pokémon to go\nfirst 30% of the time.
 Powers up Electric-type\nmoves by 50%.
 Blocks priority moves used\nagainst it or its ally.
-Powers up slicing moves\nby 33%.
+Powers up slicing moves\nby 50%.
 Powers up moves by 10%\nfor each fainted ally.
 Powers up aura and pulse\nmoves by 50%.
 Bug moves have 30% chance\nto cause a status effect.
-Powers up ball, bomb and\ncannon moves by 50%.
+Powers up ball and bomb\nmoves by 50%.
 Ups sound moves by 20%.\nHalves damage from them.
-Powers up moves used by\nallies by 15%.
+Powers up moves used by\nallies by 20%.
 The Pokémon’s fur stops\nit taking recoil damage.
 Boosts Sp. Atk if a foe is\nKOed with a Fire move.
 Contact damages the foe\nby 12.5% of their max HP.
@@ -206,7 +206,7 @@ Powers up wind-based\nmoves by 50%.
 Doubles the power of its\nsound-based moves.
 Damaging moves hit twice.\nSecond hit is 25% damage.
 Wind moves do no damage\nand boost its Attack stat.
-Protects itself and allies\nfrom a foe’s stat drops.
+No status or stat drops\non Grass-type allies.
 Protects the Pokémon\nfrom Taunt, Attract, etc.
 Prevents the Pokémon\nfrom falling asleep.
 Changes form when it uses\nProtect or if it attacks.

@@ -486,10 +486,9 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
     }
 
     // Handle Tough Claws
-    // Nerfed to 20% due to greater distribution.
     if ((AttackingMon.ability == ABILITY_TOUGH_CLAWS) && (sp->moveTbl[sp->current_move_index].flag & FLAG_CONTACT)) 
     {
-        movepower = movepower * 120 / 100;
+        movepower = movepower * 130 / 100;
     }    
 
     // Handle Fluffy
@@ -717,7 +716,7 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
     // Handle Cheerleader, a new ability for Plusle and Minun
     if ((GetBattlerAbility(sp, BATTLER_ALLY(attacker)) == ABILITY_CHEERLEADER) == TRUE)
     {
-        movepower = movepower * 115 / 100;
+        movepower = movepower * 120 / 100;
     }
 
     // handle heatproof/dry skin
@@ -835,14 +834,16 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
 
     // Handle Iron Fist
     if ((AttackingMon.ability == ABILITY_IRON_FIST) && (sp->moveTbl[sp->current_move_index].appeal & FLAG_PUNCH)) {
-        movepower = movepower * 133 / 100;
+        movepower = movepower * 130 / 100;
+        // movepower = movepower * 120 / 100;
     }
 
     // Handle Reckless
     if (AttackingMon.ability == ABILITY_RECKLESS) {
         for (i = 0; i < NELEMS(RecklessMoveEffectsTable); i++) {
             if (RecklessMoveEffectsTable[i] == sp->moveTbl[moveno].effect) {
-                movepower = movepower * 120 / 100;
+                movepower = movepower * 130 / 100;
+                // movepower = movepower * 120 / 100;
                 break;
             }
         }
@@ -860,9 +861,8 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
     }
 
     // Handle Strong Jaw
-    // Intentionally nerfed due to distribution
     if ((AttackingMon.ability == ABILITY_STRONG_JAW) && (sp->moveTbl[sp->current_move_index].appeal & FLAG_BITING)) {
-        movepower = movepower * 133 / 100;
+        movepower = movepower * 150 / 100;
     }
 	
     /*
@@ -878,9 +878,8 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
     */
 
     // Handle Sharpness
-    // Intentionally nerfed due to distribution
     if ((AttackingMon.ability == ABILITY_SHARPNESS) && (sp->moveTbl[sp->current_move_index].appeal & FLAG_CUTTING)) {
-        movepower = movepower * 133 / 100;
+        movepower = movepower * 150 / 100;
     }
 
     // Handle Cacophony, a new ability for various sound-based Pokémon
@@ -900,9 +899,7 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
     // Handle Bombardier, a new ability for Octillery
     if
     (
-        (AttackingMon.ability == ABILITY_BOMBARDIER) &&
-        ((sp->moveTbl[sp->current_move_index].appeal & FLAG_BALL) ||
-        (sp->moveTbl[sp->current_move_index].appeal & FLAG_CANNON))     
+        (AttackingMon.ability == ABILITY_BOMBARDIER) && (sp->moveTbl[sp->current_move_index].appeal & FLAG_BALL)     
     )
     {
         movepower = movepower * 150 / 100;

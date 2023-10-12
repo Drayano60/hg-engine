@@ -17,10 +17,7 @@ a001_322:
 
     if IF_EQUAL, VAR_CALCULATION_WORK, 8, lower_stat
     changevar2 VAR_OP_SET, VAR_ADD_EFFECT_ATTRIBUTE, VAR_CALCULATION_WORK // sp->calc_work
-    // changevar VAR_OP_ADD, VAR_ADD_EFFECT_ATTRIBUTE, 0x27
-
-    // Nerf Moody to be +1 stat stage instead of +2
-    changevar VAR_OP_ADD, VAR_ADD_EFFECT_ATTRIBUTE, ATTACK_UP
+    changevar VAR_OP_ADD, VAR_ADD_EFFECT_ATTRIBUTE, ATTACK_UP_2
 
     // Show ability in stat change text
     changevar VAR_OP_SET, VAR_ADD_EFFECT_TYPE, 0x3

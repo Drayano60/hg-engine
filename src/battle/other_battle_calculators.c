@@ -189,6 +189,27 @@ BOOL CalcAccuracy(void *bw, struct BattleStruct *sp, int attacker, int defender,
         stat_stage_evasion = 0;
     }
 
+    // Keen Eye and Illuminate have been modified to only ignore evasion stages that would increase the target's evasion.
+    // The comparison is < 0 because the evasion variable stores it as a negative.
+    if
+    (
+        (GetBattlerAbility(sp, attacker) == ABILITY_KEEN_EYE || GetBattlerAbility(sp, attacker) == ABILITY_ILLUMINATE) &&
+        (stat_stage_evasion < 0)
+    )
+    {
+        stat_stage_evasion = 0;
+    }
+
+    // Unaware ignores evasion changes regardless of the stage
+    if (GetBattlerAbility(sp, attacker) == ABILITY_UNAWARE) {
+        stat_stage_evasion = 0;
+    }
+
+    // Sacred Sword ignores evasion changes regardless of the stage
+    if (sp->moveTbl[move_no].effect == MOVE_EFFECT_SACRED_SWORD) {
+        stat_stage_evasion = 0;
+    }
+
     if (((sp->battlemon[defender].condition2 & STATUS2_FLAG_FORESIGHT) || (sp->battlemon[defender].effect_of_moves & MOVE_EFFECT_FLAG_MIRACLE_EYE))
      && (stat_stage_evasion < 0))
     {
@@ -253,9 +274,9 @@ BOOL CalcAccuracy(void *bw, struct BattleStruct *sp, int attacker, int defender,
     accuracy *= sAccStatChanges[temp].numerator;
     accuracy /= sAccStatChanges[temp].denominator;
 
-    // Boost accuracy by 20%.
-    if (GetBattlerAbility(sp, attacker) == ABILITY_KEEN_EYE || GetBattlerAbility(sp, attacker) == ABILITY_ILLUMINATE) {
-        accuracy = accuracy * 120 / 100;
+    // Boost accuracy by 10%.
+    if (GetBattlerAbility(sp, attacker) == ABILITY_KEEN_EYE) {
+        accuracy = accuracy * 110 / 100;
     }
 
     // Boost accuracy by 30%.
@@ -1169,7 +1190,17 @@ int ServerDoTypeCalcMod(void *bw UNUSED, struct BattleStruct *sp, int move_no, i
     if (((sp->server_status_flag & SERVER_STATUS_FLAG_TYPE_FLAT) == 0)
      && ((BattlePokemonParamGet(sp, attack_client, BATTLE_MON_DATA_TYPE1, NULL) == move_type) || (BattlePokemonParamGet(sp, attack_client, BATTLE_MON_DATA_TYPE2, NULL) == move_type)))
     {
-        if (GetBattlerAbility(sp,attack_client) == ABILITY_ADAPTABILITY)
+        if (GetBattlerAbility(sp, attack_client) == ABILITY_ADAPTABILITY)
+        {
+            damage *= 2;
+        }
+        // Make Forecast also give x2 STAB if Castform has transformed.
+        else if
+        (
+            GetBattlerAbility(sp, attack_client) == ABILITY_FORECAST
+            && BattlePokemonParamGet(sp, attack_client, BATTLE_MON_DATA_SPECIES, NULL) == SPECIES_CASTFORM
+            && sp->battlemon[sp->attack_client].form_no > 0
+        )
         {
             damage *= 2;
         }

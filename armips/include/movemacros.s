@@ -157,7 +157,7 @@ FLAG_SOUND 	     equ 0x20
 // used in appeal field
 FLAG_BITING      equ 0x01
 FLAG_BALL        equ 0x02
-FLAG_CANNON      equ 0x04
+FLAG_UNUSED      equ 0x04
 FLAG_CUTTING     equ 0x08
 FLAG_POWDER      equ 0x10
 FLAG_PULSE       equ 0x20

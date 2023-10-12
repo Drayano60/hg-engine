@@ -3174,7 +3174,7 @@ movedata MOVE_SPIKE_CANNON, "Spike Cannon"
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_MIRROR_MOVE | FLAG_PROTECT
-    appeal FLAG_CANNON
+    appeal 0
     contesttype 0
     terminatedata
     movedescription MOVE_SPIKE_CANNON, "Sharp spikes are\nfired at the foe to\nstrike two to five\ntimes in rapid\nsuccession."
@@ -6039,7 +6039,7 @@ movedata MOVE_HYDRO_CANNON, "Hydro Cannon"
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_HIDE_SHADOW | FLAG_MIRROR_MOVE | FLAG_PROTECT
-    appeal FLAG_CANNON
+    appeal 0
     contesttype 0
     terminatedata
     movedescription MOVE_HYDRO_CANNON, "The foe is hit with\na watery blast.\nThe user must rest\non the next turn,\nhowever."
@@ -8021,7 +8021,7 @@ movedata MOVE_FLASH_CANNON, "Flash Cannon"
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_MIRROR_MOVE | FLAG_PROTECT
-    appeal FLAG_CANNON
+    appeal 0
     contesttype 0
     terminatedata
     movedescription MOVE_FLASH_CANNON, "The user gathers all\nits light energy and\nreleases it at once.\nThis has a 10% chance\nto lower Sp. Def."

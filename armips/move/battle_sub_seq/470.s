@@ -10,7 +10,7 @@
 
 .create "build/move/battle_sub_seq/1_470", 0
 
-/* Handle Sweet Aroma, mostly adapted from Intimidate */
+/* Handle Calming Aroma, mostly adapted from Intimidate */
 
 a001_470:
     wait 0xF
@@ -25,7 +25,7 @@ a001_470:
 _0038:
     orderbattlersbyspeed 0x11
 
-    abilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_SWEET_AROMA, _009C
+    abilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_CALMING_AROMA, _009C
     checksubstitute BATTLER_ADDL_EFFECT, _009C
     ifmonstat IF_EQUAL, BATTLER_ADDL_EFFECT, MON_DATA_HP, 0x0, _009C
 

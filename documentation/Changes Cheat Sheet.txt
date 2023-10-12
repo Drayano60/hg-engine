@@ -164,10 +164,10 @@ Sylveon: A2 (Wonder Skin)
 
 Kabutops: A3 (Sharpness, replaces Weak Armor)
 
-Chikorita: A2 (Leaf Guard), A3 (Sweet Aroma)
-Bayleef: A2 (Leaf Guard), A3 (Sweet Aroma), SpAtk 63 -> 73, Speed 60 -> 50
-Meganium: A2 (Triage), A3 (Sweet Aroma), Def 100 -> 110, SpAtk 83 -> 93, SpDef 100 -> 110, Speed 80 -> 60
-- Sweet Aroma lowers the Atk and SpAtk of all other Pokémon in battle by one stage when the Pokémon enters battle
+Chikorita: A2 (Leaf Guard), A3 (Calming Aroma)
+Bayleef: A2 (Leaf Guard), A3 (Calming Aroma), SpAtk 63 -> 73, Speed 60 -> 50
+Meganium: A2 (Triage), A3 (Calming Aroma), Def 100 -> 110, SpAtk 83 -> 93, SpDef 100 -> 110, Speed 80 -> 60
+- Calming Aroma lowers the Atk and SpAtk of all other Pokémon in battle by one stage when the Pokémon enters battle
 
 Cyndaquil: A2 (Flash Fire), A3 (Heat Up)
 Quilava: A2 (Flash Fire), A3 (Heat Up), Def 58 -> 53, SpAtk 80 -> 90, SpDef 65 -> 60

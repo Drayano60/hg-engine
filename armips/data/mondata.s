@@ -2794,7 +2794,7 @@ mondata SPECIES_CHANSEY, "Chansey"
     mondexweight SPECIES_CHANSEY, "76.3 lbs."
 
 
-// ABILITY: Tangling Hair (1)
+// ABILITY: Tangling Hair (2)
 mondata SPECIES_TANGELA, "Tangela"
     basestats 65, 55, 115, 60, 100, 40
     types TYPE_GRASS, TYPE_GRASS
@@ -2808,7 +2808,7 @@ mondata SPECIES_TANGELA, "Tangela"
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_GRASS, EGG_GROUP_GRASS
     .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_TANGLING_HAIR, ABILITY_LEAF_GUARD
+        abilities ABILITY_CHLOROPHYLL, ABILITY_TANGLING_HAIR
     .else
         abilities ABILITY_CHLOROPHYLL, ABILITY_LEAF_GUARD
     .endif
@@ -3715,7 +3715,7 @@ mondata SPECIES_BAYLEEF, "Bayleef"
 
 // STATS: 100 >> 110 Def | 83 >> 93 SpAtk | 100 >> 110 SpDef | 80 >> 60 Spd | 525 >> 535 BST
 // TYPES: Grass >> Grass/Fairy
-// ABILITY: Leaf Guard (2), Sweet Aroma (HA, New)
+// ABILITY: Triage (2), Sweet Aroma (HA, New)
 mondata SPECIES_MEGANIUM, "Meganium"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 80, 82, 110, 60, 93, 110
@@ -3737,7 +3737,7 @@ mondata SPECIES_MEGANIUM, "Meganium"
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_GRASS
     .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_OVERGROW, ABILITY_LEAF_GUARD
+        abilities ABILITY_OVERGROW, ABILITY_TRIAGE
     .else
         abilities ABILITY_OVERGROW, ABILITY_NONE
     .endif
@@ -10347,7 +10347,7 @@ mondata SPECIES_BURMY, "Burmy"
 
 
 // STATS: 60 >> 70 HP | 85 >> 95 Def | 79 >> 89 SpAtk | 424 >> 454 BST
-// ABILITY: Leaf Guard (2)
+// ABILITY: Sturdy (2)
 mondata SPECIES_WORMADAM, "Wormadam"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 70, 59, 95, 36, 89, 105
@@ -10365,7 +10365,7 @@ mondata SPECIES_WORMADAM, "Wormadam"
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_BUG, EGG_GROUP_BUG
     .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_ANTICIPATION, ABILITY_LEAF_GUARD
+        abilities ABILITY_ANTICIPATION, ABILITY_STURDY
     .else
         abilities ABILITY_ANTICIPATION, ABILITY_NONE
     .endif
@@ -11591,7 +11591,7 @@ mondata SPECIES_RHYPERIOR, "Rhyperior"
     mondexweight SPECIES_RHYPERIOR, "623.5 lbs."
 
 
-// ABILITY: Tangling Hair (1)
+// ABILITY: Tangling Hair (2)
 mondata SPECIES_TANGROWTH, "Tangrowth"
     basestats 100, 100, 125, 50, 110, 50
     types TYPE_GRASS, TYPE_GRASS
@@ -11605,7 +11605,7 @@ mondata SPECIES_TANGROWTH, "Tangrowth"
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_GRASS, EGG_GROUP_GRASS
     .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_TANGLING_HAIR, ABILITY_LEAF_GUARD
+        abilities ABILITY_CHLOROPHYLL, ABILITY_TANGLING_HAIR
     .else
         abilities ABILITY_CHLOROPHYLL, ABILITY_LEAF_GUARD
     .endif
@@ -12406,7 +12406,7 @@ mondata SPECIES_WORMADAM_SANDY, "-----"
 
 
 // STATS: 60 >> 70 HP | 69 >> 59 Atk | 95 >> 100 Def | 69 >> 89 SpAtk | 95 >> 100 SpDef | 424 >> 454 BST
-// ABILITY: Battle Armor (2)
+// ABILITY: Sturdy (2)
 mondata SPECIES_WORMADAM_TRASHY, "-----"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 70, 59, 100, 36, 89, 100
@@ -12424,7 +12424,7 @@ mondata SPECIES_WORMADAM_TRASHY, "-----"
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_BUG, EGG_GROUP_BUG
     .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_ANTICIPATION, ABILITY_BATTLE_ARMOR
+        abilities ABILITY_ANTICIPATION, ABILITY_STURDY
     .else
         abilities ABILITY_ANTICIPATION, ABILITY_NONE
     .endif

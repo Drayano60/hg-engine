@@ -256,7 +256,7 @@ int MoveCheckDamageNegatingAbilities(struct BattleStruct *sp, int attacker, int 
     }
 
     // Handle Armor Tail
-    // Block any natural priority move or a move made faster by Prankster if the target or the target's ally has Armor Tail
+    // Block any natural priority move or a move made priority by an ability, if the target or the target's ally has Armor Tail
     if (
         (MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_ARMOR_TAIL) == TRUE) ||
         (MoldBreakerAbilityCheck(sp, attacker, BATTLER_ALLY(defender), ABILITY_ARMOR_TAIL) == TRUE)
@@ -265,15 +265,21 @@ int MoveCheckDamageNegatingAbilities(struct BattleStruct *sp, int attacker, int 
             (sp->moveTbl[sp->current_move_index].priority > 0)
             ||
             (
-                GetBattlerAbility(sp, attacker) == ABILITY_PRANKSTER &&
-                sp->moveTbl[sp->current_move_index].split == SPLIT_STATUS &&
-                sp->moveTbl[sp->current_move_index].priority >= 0
+                (GetBattlerAbility(sp, attacker) == ABILITY_PRANKSTER) &&
+                (sp->moveTbl[sp->current_move_index].split == SPLIT_STATUS) &&
+                (sp->moveTbl[sp->current_move_index].priority >= 0) // Prankster is +1
             )
             ||
             (
-                GetBattlerAbility(sp, attacker) == ABILITY_GALE_WINGS &&
-                sp->moveTbl[sp->current_move_index].type == TYPE_FLYING &&
-                sp->moveTbl[sp->current_move_index].priority >= 0
+                (GetBattlerAbility(sp, attacker) == ABILITY_GALE_WINGS) &&
+                (sp->moveTbl[sp->current_move_index].type == TYPE_FLYING) &&
+                (sp->moveTbl[sp->current_move_index].priority >= 0) // Gale Wings is +1
+            )
+            ||
+            (
+                (GetBattlerAbility(sp, attacker) == ABILITY_TRIAGE) &&
+                (sp->moveTbl[sp->current_move_index].appeal & FLAG_HEALING) &&
+                (sp->moveTbl[sp->current_move_index].priority >= -2) // Triage is +3
             )
         ) {
             scriptnum = SUB_SEQ_HANDLE_ARMOR_TAIL;
@@ -281,7 +287,7 @@ int MoveCheckDamageNegatingAbilities(struct BattleStruct *sp, int attacker, int 
     }
 
     // Handle Dazzling
-    // Block any natural priority move or a move made faster by Prankster if the target or the target's ally has Dazzling
+    // Block any natural priority move or a move made priority by an ability, if the target or the target's ally has Dazzling
     // Duplicated because not sure if text has parameter support for an ally ability
     if (
         (MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_DAZZLING) == TRUE) ||
@@ -291,15 +297,21 @@ int MoveCheckDamageNegatingAbilities(struct BattleStruct *sp, int attacker, int 
             (sp->moveTbl[sp->current_move_index].priority > 0)
             ||
             (
-                GetBattlerAbility(sp, attacker) == ABILITY_PRANKSTER &&
-                sp->moveTbl[sp->current_move_index].split == SPLIT_STATUS &&
-                sp->moveTbl[sp->current_move_index].priority >= 0
+                (GetBattlerAbility(sp, attacker) == ABILITY_PRANKSTER) &&
+                (sp->moveTbl[sp->current_move_index].split == SPLIT_STATUS) &&
+                (sp->moveTbl[sp->current_move_index].priority >= 0) // Prankster is +1
             )
             ||
             (
-                GetBattlerAbility(sp, attacker) == ABILITY_GALE_WINGS &&
-                sp->moveTbl[sp->current_move_index].type == TYPE_FLYING &&
-                sp->moveTbl[sp->current_move_index].priority >= 0
+                (GetBattlerAbility(sp, attacker) == ABILITY_GALE_WINGS) &&
+                (sp->moveTbl[sp->current_move_index].type == TYPE_FLYING) &&
+                (sp->moveTbl[sp->current_move_index].priority >= 0) // Gale Wings is +1
+            )
+            ||
+            (
+                (GetBattlerAbility(sp, attacker) == ABILITY_TRIAGE) &&
+                (sp->moveTbl[sp->current_move_index].appeal & FLAG_HEALING) &&
+                (sp->moveTbl[sp->current_move_index].priority >= -2) // Triage is +3
             )
         ) {
             scriptnum = SUB_SEQ_HANDLE_DAZZLING;
@@ -307,7 +319,7 @@ int MoveCheckDamageNegatingAbilities(struct BattleStruct *sp, int attacker, int 
     }
 
     // Handle Queenly Majesty
-    // Block any natural priority move or a move made faster by Prankster if the target or the target's ally has Dazzling
+    // Block any natural priority move or a move made priority by an ability, if the target or the target's ally has Queenly Majesty
     // Duplicated because not sure if text has parameter support for an ally ability
     if (
         (MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_QUEENLY_MAJESTY) == TRUE) ||
@@ -317,15 +329,21 @@ int MoveCheckDamageNegatingAbilities(struct BattleStruct *sp, int attacker, int 
             (sp->moveTbl[sp->current_move_index].priority > 0)
             ||
             (
-                GetBattlerAbility(sp, attacker) == ABILITY_PRANKSTER &&
-                sp->moveTbl[sp->current_move_index].split == SPLIT_STATUS &&
-                sp->moveTbl[sp->current_move_index].priority >= 0
+                (GetBattlerAbility(sp, attacker) == ABILITY_PRANKSTER) &&
+                (sp->moveTbl[sp->current_move_index].split == SPLIT_STATUS) &&
+                (sp->moveTbl[sp->current_move_index].priority >= 0) // Prankster is +1
             )
             ||
             (
-                GetBattlerAbility(sp, attacker) == ABILITY_GALE_WINGS &&
-                sp->moveTbl[sp->current_move_index].type == TYPE_FLYING &&
-                sp->moveTbl[sp->current_move_index].priority >= 0
+                (GetBattlerAbility(sp, attacker) == ABILITY_GALE_WINGS) &&
+                (sp->moveTbl[sp->current_move_index].type == TYPE_FLYING) &&
+                (sp->moveTbl[sp->current_move_index].priority >= 0) // Gale Wings is +1
+            )
+            ||
+            (
+                (GetBattlerAbility(sp, attacker) == ABILITY_TRIAGE) &&
+                (sp->moveTbl[sp->current_move_index].appeal & FLAG_HEALING) &&
+                (sp->moveTbl[sp->current_move_index].priority >= -2) // Triage is +3
             )
         ) {
             scriptnum = SUB_SEQ_HANDLE_QUEENLY_MAJESTY;

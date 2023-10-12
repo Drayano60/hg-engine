@@ -38,18 +38,6 @@ const AccuracyStatChangeRatio sAccStatChanges[] =
     {   3,   1 },
 };
 
-static const u16 TriageMoveEffects[] = {
-    MOVE_EFFECT_HEAL_HALF_DAMAGE_DEALT,
-    MOVE_EFFECT_DREAM_EATER,
-    MOVE_EFFECT_HEAL_HALF_MAX_HP,
-    MOVE_EFFECT_REST,
-    MOVE_EFFECT_HEAL_HP_MORE_IN_SUN,
-    MOVE_EFFECT_SWALLOW,
-    MOVE_EFFECT_WISH,
-    MOVE_EFFECT_ROOST,
-    MOVE_EFFECT_HEALING_WISH,
-};
-
 /*
 const u16 PowderMovesList[] = {
     MOVE_COTTON_SPORE,
@@ -65,37 +53,37 @@ const u16 PowderMovesList[] = {
 
 // Moves that Triage boosts the priority of.
 // Move effects might be a tidier way to do it, but we don't have those defined for some of these moves yet.
-const u16 TriageMovesList[] = {
-    MOVE_ABSORB,
-    MOVE_DRAIN_PUNCH,
-    MOVE_DRAINING_KISS,
-    MOVE_DREAM_EATER,
-    MOVE_FLORAL_HEALING,
-    MOVE_GIGA_DRAIN,
-    MOVE_HEAL_ORDER,
-    MOVE_HEAL_PULSE,
-    MOVE_HEALING_WISH,
-    MOVE_HORN_LEECH,
-    MOVE_LEECH_LIFE,
-    MOVE_LUNAR_DANCE,
-    MOVE_MEGA_DRAIN,
-    MOVE_MILK_DRINK,
-    MOVE_MOONLIGHT,
-    MOVE_MORNING_SUN,
-    MOVE_OBLIVION_WING,
-    MOVE_PARABOLIC_CHARGE,
-    MOVE_PURIFY,
-    MOVE_RECOVER,
-    MOVE_REST,
-    MOVE_ROOST,
-    MOVE_SHORE_UP,
-    MOVE_SLACK_OFF,
-    MOVE_SOFT_BOILED,
-    MOVE_STRENGTH_SAP,
-    MOVE_SWALLOW,
-    MOVE_SYNTHESIS,
-    MOVE_WISH,
-};
+// const u16 TriageMovesList[] = {
+//     MOVE_ABSORB,
+//     MOVE_DRAIN_PUNCH,
+//     MOVE_DRAINING_KISS,
+//     MOVE_DREAM_EATER,
+//     MOVE_FLORAL_HEALING,
+//     MOVE_GIGA_DRAIN,
+//     MOVE_HEAL_ORDER,
+//     MOVE_HEAL_PULSE,
+//     MOVE_HEALING_WISH,
+//     MOVE_HORN_LEECH,
+//     MOVE_LEECH_LIFE,
+//     MOVE_LUNAR_DANCE,
+//     MOVE_MEGA_DRAIN,
+//     MOVE_MILK_DRINK,
+//     MOVE_MOONLIGHT,
+//     MOVE_MORNING_SUN,
+//     MOVE_OBLIVION_WING,
+//     MOVE_PARABOLIC_CHARGE,
+//     MOVE_PURIFY,
+//     MOVE_RECOVER,
+//     MOVE_REST,
+//     MOVE_ROOST,
+//     MOVE_SHORE_UP,
+//     MOVE_SLACK_OFF,
+//     MOVE_SOFT_BOILED,
+//     MOVE_STRENGTH_SAP,
+//     MOVE_SWALLOW,
+//     MOVE_SYNTHESIS,
+//     MOVE_WISH,
+// };
 
 // set sp->waza_status_flag |= MOVE_STATUS_FLAG_MISS if a miss
 BOOL CalcAccuracy(void *bw, struct BattleStruct *sp, int attacker, int defender, int move_no)
@@ -763,25 +751,13 @@ u8 CalcSpeed(void *bw, struct BattleStruct *sp, int client1, int client2, int fl
             priority2++;
         }
 
-        // handle triage
-        if (GetBattlerAbility(sp, client1) == ABILITY_TRIAGE) {
-            for (i = 0; i < NELEMS(TriageMoveEffects); i++)
-            {
-                if (TriageMoveEffects[i] == sp->moveTbl[move1].effect) {
-                    priority1 = priority1 + 3;
-                    break;
-                }
-            }
+
+        if (GetBattlerAbility(sp, client1) == ABILITY_TRIAGE && sp->moveTbl[move1].appeal & FLAG_HEALING) {
+            priority1 = priority1 + 3;
         }
 
-        if (GetBattlerAbility(sp, client2) == ABILITY_TRIAGE) {
-            for (i = 0; i < NELEMS(TriageMoveEffects); i++)
-            {
-                if (TriageMoveEffects[i] == sp->moveTbl[move2].effect) {
-                    priority2 = priority2 + 3;
-                    break;
-                }
-            }
+        if (GetBattlerAbility(sp, client2) == ABILITY_TRIAGE && sp->moveTbl[move2].appeal & FLAG_HEALING) {
+            priority2 = priority2 + 3;
         }
     }
 

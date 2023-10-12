@@ -355,7 +355,7 @@
 // used in appeal field
 #define FLAG_BITING      (0x01)
 #define FLAG_BALL        (0x02)
-#define FLAG_UNUSED      (0x04)
+#define FLAG_HEALING     (0x04)
 #define FLAG_CUTTING     (0x08)
 #define FLAG_POWDER      (0x10)
 #define FLAG_PULSE       (0x20)

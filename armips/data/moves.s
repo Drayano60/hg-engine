@@ -2199,7 +2199,7 @@ movedata MOVE_ABSORB, "Absorb"
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_MIRROR_MOVE | FLAG_PROTECT
-    appeal 0
+    appeal FLAG_HEALING
     contesttype 0
     terminatedata
     movedescription MOVE_ABSORB, "A nutrient-draining\nattack. The user’s\nHP is restored by\nhalf the damage taken\nby the target."
@@ -2216,7 +2216,7 @@ movedata MOVE_MEGA_DRAIN, "Mega Drain"
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_MIRROR_MOVE | FLAG_PROTECT
-    appeal 0
+    appeal FLAG_HEALING
     contesttype 0
     terminatedata
     movedescription MOVE_MEGA_DRAIN, "A nutrient-draining\nattack. The user’s\nHP is restored by\nhalf the damage taken\nby the target."
@@ -2750,7 +2750,7 @@ movedata MOVE_RECOVER, "Recover"
     target MOVE_TARGET_USER
     priority 0
     flags FLAG_KEEP_HP_BAR | FLAG_SNATCH
-    appeal 0
+    appeal FLAG_HEALING
     contesttype 0
     terminatedata
     movedescription MOVE_RECOVER, "A self-healing move.\nThe user restores its\nown HP by up to half\nof its max HP.\n"
@@ -3239,7 +3239,7 @@ movedata MOVE_SOFT_BOILED, "Soft-Boiled"
     target MOVE_TARGET_USER
     priority 0
     flags FLAG_KEEP_HP_BAR | FLAG_SNATCH
-    appeal 0
+    appeal FLAG_HEALING
     contesttype 0
     terminatedata
     movedescription MOVE_SOFT_BOILED, "The user restores its\nown HP by up to half\nof its maximum HP.\nIt may also be used\nto heal an ally’s HP."
@@ -3338,7 +3338,7 @@ movedata MOVE_LEECH_LIFE, "Leech Life"
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
-    appeal 0
+    appeal FLAG_HEALING
     contesttype 0
     terminatedata
     movedescription MOVE_LEECH_LIFE, "A blood-draining\nattack. The user’s\nHP is restored by\nhalf the damage taken\nby the target."
@@ -3580,7 +3580,7 @@ movedata MOVE_REST, "Rest"
     target MOVE_TARGET_USER
     priority 0
     flags FLAG_KEEP_HP_BAR | FLAG_SNATCH
-    appeal 0
+    appeal FLAG_HEALING
     contesttype 0
     terminatedata
     movedescription MOVE_REST, "The user goes to\nsleep for two turns.\nIt fully restores the\nuser’s HP and heals\nany status problem."
@@ -4318,7 +4318,7 @@ movedata MOVE_GIGA_DRAIN, "Giga Drain"
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_MIRROR_MOVE | FLAG_PROTECT
-    appeal 0
+    appeal FLAG_HEALING
     contesttype 0
     terminatedata
     movedescription MOVE_GIGA_DRAIN, "A nutrient-draining\nattack. The user’s\nHP is restored by\nhalf the damage taken\nby the target."
@@ -4414,7 +4414,7 @@ movedata MOVE_MILK_DRINK, "Milk Drink"
     target MOVE_TARGET_USER
     priority 0
     flags FLAG_SNATCH
-    appeal 0
+    appeal FLAG_HEALING
     contesttype 0
     terminatedata
     movedescription MOVE_MILK_DRINK, "The user restores its\nown HP by up to half\nof its maximum HP.\nIt may also be used\nto heal an ally’s HP."
@@ -4838,7 +4838,7 @@ movedata MOVE_MORNING_SUN, "Morning Sun"
     target MOVE_TARGET_USER
     priority 0
     flags FLAG_SNATCH
-    appeal 0
+    appeal FLAG_HEALING
     contesttype 0
     terminatedata
     movedescription MOVE_MORNING_SUN, "The user restores its\nown HP.\nThe amount of HP\nregained varies with\nthe weather."
@@ -4854,7 +4854,7 @@ movedata MOVE_SYNTHESIS, "Synthesis"
     target MOVE_TARGET_USER
     priority 0
     flags FLAG_KEEP_HP_BAR | FLAG_SNATCH
-    appeal 0
+    appeal FLAG_HEALING
     contesttype 0
     terminatedata
     movedescription MOVE_SYNTHESIS, "The user restores its\nown HP.\nThe amount of HP\nregained varies with\nthe weather."
@@ -4870,7 +4870,7 @@ movedata MOVE_MOONLIGHT, "Moonlight"
     target MOVE_TARGET_USER
     priority 0
     flags FLAG_HIDE_SHADOW | FLAG_SNATCH
-    appeal 0
+    appeal FLAG_HEALING
     contesttype 0
     terminatedata
     movedescription MOVE_MOONLIGHT, "The user restores its\nown HP.\nThe amount of HP\nregained varies with\nthe weather."
@@ -5195,7 +5195,7 @@ movedata MOVE_SWALLOW, "Swallow"
     target MOVE_TARGET_USER
     priority 0
     flags FLAG_KEEP_HP_BAR | FLAG_SNATCH
-    appeal 0
+    appeal FLAG_HEALING
     contesttype 0
     terminatedata
     movedescription MOVE_SWALLOW, "The power stored\nusing the move\nStockpile is absorbed\nby the user to heal\nits HP."
@@ -5467,7 +5467,7 @@ movedata MOVE_WISH, "Wish"
     target MOVE_TARGET_USER
     priority 0
     flags FLAG_HIDE_SHADOW | FLAG_SNATCH
-    appeal 0
+    appeal FLAG_HEALING
     contesttype 0
     terminatedata
     movedescription MOVE_WISH, "One turn after using\nthe move, the user or\nits replacement is\nhealed by half of\nits max HP. "
@@ -5957,7 +5957,7 @@ movedata MOVE_SLACK_OFF, "Slack Off"
     target MOVE_TARGET_USER
     priority 0
     flags FLAG_KEEP_HP_BAR | FLAG_SNATCH
-    appeal 0
+    appeal FLAG_HEALING
     contesttype 0
     terminatedata
     movedescription MOVE_SLACK_OFF, "The user slacks off,\nrestoring its own HP\nby up to half of its\nmaximum HP.\n"
@@ -6807,7 +6807,7 @@ movedata MOVE_ROOST, "Roost"
     target MOVE_TARGET_USER
     priority 0
     flags FLAG_KEEP_HP_BAR | FLAG_SNATCH
-    appeal 0
+    appeal FLAG_HEALING
     contesttype 0
     terminatedata
     movedescription MOVE_ROOST, "The user lands and\nrests its body.\nIt restores the\nuser’s HP by up to\nhalf of its max HP."
@@ -6904,7 +6904,7 @@ movedata MOVE_HEALING_WISH, "Healing Wish"
     target MOVE_TARGET_USER
     priority 0
     flags FLAG_SNATCH
-    appeal 0
+    appeal FLAG_HEALING
     contesttype 0
     terminatedata
     movedescription MOVE_HEALING_WISH, "The user faints. In\nreturn, the Pokémon\ntaking its place will\nhave its HP restored\nand status cured."
@@ -7676,7 +7676,7 @@ movedata MOVE_DRAIN_PUNCH, "Drain Punch"
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
-    appeal FLAG_PUNCH
+    appeal FLAG_PUNCH | FLAG_HEALING
     contesttype 0
     terminatedata
     movedescription MOVE_DRAIN_PUNCH, "An energy-draining\npunch. The user’s\nHP is restored by\nhalf the damage taken\nby the target."
@@ -8443,7 +8443,7 @@ movedata MOVE_HEAL_ORDER, "Heal Order"
     target MOVE_TARGET_USER
     priority 0
     flags FLAG_SNATCH
-    appeal 0
+    appeal FLAG_HEALING
     contesttype 0
     terminatedata
     movedescription MOVE_HEAL_ORDER, "The user calls out\nits underlings to heal\nit. The user regains\nup to half of its\nmax HP."
@@ -8523,7 +8523,7 @@ movedata MOVE_LUNAR_DANCE, "Lunar Dance"
     target MOVE_TARGET_USER
     priority 0
     flags FLAG_HIDE_SHADOW | FLAG_SNATCH
-    appeal 0
+    appeal FLAG_HEALING
     contesttype 0
     terminatedata
     movedescription MOVE_LUNAR_DANCE, "The user faints. In\nreturn, the Pokémon\ntaking its place will\nhave its status and\nHP fully restored."
@@ -9278,7 +9278,7 @@ movedata MOVE_HEAL_PULSE, "Heal Pulse"
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MAGIC_COAT
-    appeal 0x00
+    appeal FLAG_HEALING
     contesttype CONTEST_COOL
     terminatedata
     movedescription MOVE_HEAL_PULSE, "The user emits a\nhealing pulse that\nrestores a target’s\nHP by up to half."
@@ -9713,7 +9713,7 @@ movedata MOVE_HORN_LEECH, "Horn Leech"
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_KEEP_HP_BAR | FLAG_CONTACT | FLAG_PROTECT | FLAG_MIRROR_MOVE
-    appeal 0x00
+    appeal FLAG_HEALING
     contesttype CONTEST_COOL
     terminatedata
     movedescription MOVE_HORN_LEECH, "A harsh attack that\nabsorbs half the\ndamage it inflicted\nto restore HP."
@@ -10315,7 +10315,7 @@ movedata MOVE_PARABOLIC_CHARGE, "Parabolic Chrg."
     target MOVE_TARGET_FOES_AND_ALLY
     priority 0
     flags FLAG_MIRROR_MOVE | FLAG_PROTECT
-    appeal 0
+    appeal FLAG_HEALING
     contesttype 0
     terminatedata
     movedescription MOVE_PARABOLIC_CHARGE, "The user attacks all\nother Pokémon. The\nuser’s HP is restored\nby half the damage\ntaken by those hit."
@@ -10428,7 +10428,7 @@ movedata MOVE_DRAINING_KISS, "Draining Kiss"
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_CONTACT | FLAG_PROTECT | FLAG_MIRROR_MOVE
-    appeal 0
+    appeal FLAG_HEALING
     contesttype 0
     terminatedata
     movedescription MOVE_DRAINING_KISS, "The user steals the\nfoe’s energy with a\nkiss. The user’s HP\nis restored by half\nthe damage dealt."
@@ -10982,7 +10982,7 @@ movedata MOVE_OBLIVION_WING, "Oblivion Wing"
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
-    appeal 0x00
+    appeal FLAG_HEALING
     contesttype CONTEST_COOL
     terminatedata
 
@@ -11672,7 +11672,7 @@ movedata MOVE_SHORE_UP, "Shore Up"
     target MOVE_TARGET_USER
     priority 0
     flags FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_MAGIC_COAT
-    appeal 0x00
+    appeal FLAG_HEALING
     contesttype CONTEST_COOL
     terminatedata
 
@@ -11779,7 +11779,7 @@ movedata MOVE_FLORAL_HEALING, "Floral Healing"
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_MAGIC_COAT
-    appeal 0x00
+    appeal FLAG_HEALING
     contesttype CONTEST_COOL
     terminatedata
 
@@ -11810,7 +11810,7 @@ movedata MOVE_STRENGTH_SAP, "Strength Sap"
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_MIRROR_MOVE | FLAG_MAGIC_COAT | FLAG_PROTECT
-    appeal 0
+    appeal FLAG_HEALING
     contesttype 0
     terminatedata
     movedescription MOVE_STRENGTH_SAP, "The user restores its\nHP by the same amount\nas the foe’s Attack.\nIt also lowers the\nfoe’s Attack."
@@ -12073,7 +12073,7 @@ movedata MOVE_PURIFY, "Purify"
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_MAGIC_COAT
-    appeal 0x00
+    appeal FLAG_HEALING
     contesttype CONTEST_COOL
     terminatedata
 

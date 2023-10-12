@@ -3093,283 +3093,547 @@ _1ACC: // Trainer 629
 
 _1AD0: // Trainer 630
     trainertextentry 630, TEXT_DEFEATED_IN_BATTLE, "Whoa, you’re kickin’!\n"
+
+_Trainer11:
     trainertextentry  11, TEXT_NOTICE_IN_OVERWORLD, "Hi, are you a new Trainer?\r"
     trainertextentry  11, TEXT_DEFEATED_IN_BATTLE, "Aww...\n"
     trainertextentry  11, TEXT_DEFEATED_IN_OVERWORLD, "Lots of Trainers just starting out\npass through this route.\rBut so far, you’re the toughest\nTrainer I’ve met!"
+
+_Trainer19:
     trainertextentry  19, TEXT_NOTICE_IN_OVERWORLD, "Ho ho ho!\nMy Pokémon are from the mountains!\r"
     trainertextentry  19, TEXT_DEFEATED_IN_BATTLE, "Gah! Not sturdy enough..."
     trainertextentry  19, TEXT_DEFEATED_IN_OVERWORLD, "Have you been to Route 46?\rIt’s found just north of Route 29,\nbut it has very different Pokémon.\rYou’ll have to go through Dark Cave\nto see most of it, though."
+
+_Trainer40:
     trainertextentry  40, TEXT_NOTICE_IN_OVERWORLD, "Check out my cute Pokémon!\r"
     trainertextentry  40, TEXT_DEFEATED_IN_BATTLE, "No! My cute Pokémon!\n"
     trainertextentry  40, TEXT_DEFEATED_IN_OVERWORLD, "My Pokémon may be cute, but when they\nevolve, they’ll be strong, too!"
+
+_Trainer63:
     trainertextentry  63, TEXT_NOTICE_IN_OVERWORLD, "There’s more to Flying-types than\njust birds, you know.\rI’ll show you what I mean!\r"
     trainertextentry  63, TEXT_DEFEATED_IN_BATTLE, "Knocked out of the sky...\n"
     trainertextentry  63, TEXT_DEFEATED_IN_OVERWORLD, "Falkner himself prefers bird Pokémon,\nbut there’s plenty of variety in the\fFlying-type kingdom."
+
+_Trainer87:
     trainertextentry  87, TEXT_NOTICE_IN_OVERWORLD, "Not all Flying-types are able to Fly,\nbut they still have the advantage\fover Ground-type moves!\r"
     trainertextentry  87, TEXT_DEFEATED_IN_BATTLE, "What a hotshot...\n"
     trainertextentry  87, TEXT_DEFEATED_IN_OVERWORLD, "Even if they can’t Fly, most Flying-type\nPokémon can use Roost.\rIf you can defeat Falkner, you can get\na TM and use that move yourself."
+
+_Trainer88:
     trainertextentry  88, TEXT_NOTICE_IN_OVERWORLD, "I got Pokémon extracted from Fossils\nI found in the Ruins of Alph!\rHey, check them out!\r"
     trainertextentry  88, TEXT_DEFEATED_IN_BATTLE, "Oh no!\nMy ancient Pokémon!\n"
     trainertextentry  88, TEXT_DEFEATED_IN_OVERWORLD, "If you smash the rocks in the ruins,\nyou might find a Fossil.\rA nice man in the Ruins Research Center\ncan extract the Pokémon for you.\rI’ve heard someone there will also\ntrade Rare Bones for Fossils."
+
+_Trainer105:
     trainertextentry 105, TEXT_NOTICE_IN_OVERWORLD, "These ruins...\nThey’re breathtaking, aren’t they?\r"
     trainertextentry 105, TEXT_DEFEATED_IN_BATTLE, "I should go back to my research.\n"
     trainertextentry 105, TEXT_DEFEATED_IN_OVERWORLD, "There’s a lot of mysteries about the\nRuins of Alph that people like me are\ftrying to solve.\rFor example, have you tried to use\nyour Radio inside the ruins?\rIt picks up a strange transmission\ninstead of the usual channels.\rWeird, isn’t it?"
+
+_Trainer106:
     trainertextentry 106, TEXT_NOTICE_IN_OVERWORLD, "Might is right!\nCome on!\r"
     trainertextentry 106, TEXT_DEFEATED_IN_BATTLE, "Not enough power..."
     trainertextentry 106, TEXT_DEFEATED_IN_OVERWORLD, "Training is the key to success!"
+
+_Trainer107:
     trainertextentry 107, TEXT_NOTICE_IN_OVERWORLD, "I caught some rare Pokémon at the\nBug Catching Contest!\rCheck them out!\r"
     trainertextentry 107, TEXT_DEFEATED_IN_BATTLE, "My prized bugs!\n"
     trainertextentry 107, TEXT_DEFEATED_IN_OVERWORLD, "All of my Pokémon were caught in the\nBug Catching Contests that are held\fat the National Park.\rYou can join one at any time.\nI’d recommend it!"
+
+_Trainer138:
     trainertextentry 138, TEXT_NOTICE_IN_OVERWORLD, "Hey, wait up!\nWhat’s the hurry? Why the rush?\r"
     trainertextentry 138, TEXT_DEFEATED_IN_BATTLE, "I give!\nYou’re good at this!"
     trainertextentry 138, TEXT_DEFEATED_IN_OVERWORLD, "Bug-type Pokémon evolve quickly,\nbut it can take time to raise them\fwhen they’re weak."
+
+_Trainer141:
     trainertextentry 141, TEXT_NOTICE_IN_OVERWORLD, "Executive Proton is so handsome,\nso dashing, so cool...\rI won’t let you lay a finger on him!\r"
     trainertextentry 141, TEXT_DEFEATED_IN_BATTLE, "What about my love?!\n"
     trainertextentry 141, TEXT_DEFEATED_IN_OVERWORLD, "Executive Proton won’t ever notice\nme now, you pest!"
+
+_Trainer165:
     trainertextentry 165, TEXT_NOTICE_IN_OVERWORLD, "Don’t sneak up on me like that!\nYou frightened a Pokémon away!\r"
     trainertextentry 165, TEXT_DEFEATED_IN_BATTLE, "I hadn’t seen that Pokémon before...\n"
     trainertextentry 165, TEXT_DEFEATED_IN_OVERWORLD, "A Pokémon that I’d never seen before\nfell out of the tree when my Pokémon\fheadbutted the tree.\rI ought to get my Pokémon to\nheadbutt trees in other places, too."
+
+_Trainer166:
     trainertextentry 166, TEXT_NOTICE_IN_OVERWORLD, "Misfortune will befall you...\r"
     trainertextentry 166, TEXT_DEFEATED_IN_BATTLE, "Misfortune befell me...\n"
     trainertextentry 166, TEXT_DEFEATED_IN_OVERWORLD, "This forest...\nThere’s something unsettling about it."
+
+_Trainer167:
     trainertextentry 167, TEXT_NOTICE_IN_OVERWORLD, "Have you been to the Goldenrod\nDepartment Store?\rThey sell evolution stones on the\ntop floor.\rLet me show you my newly evolved\nPokemon!\r"
     trainertextentry 167, TEXT_DEFEATED_IN_BATTLE, "Gah!\nStill not strong enough..."
     trainertextentry 167, TEXT_DEFEATED_IN_OVERWORLD, "Evolution stones can evolve a\nPokémon at any time.\rThe evolved Pokémon can still learn\nmoves when they level up, so there’s\fnot much reason to delay."
+
+_Trainer168:
     trainertextentry 168, TEXT_NOTICE_IN_OVERWORLD, "Ho ho ho!\rAre you surprised to see a Hiker\nin this Gym?\rThere’s more variety to Normal-types\nthan just cute Pokémon!\r"
     trainertextentry 168, TEXT_DEFEATED_IN_BATTLE, "No! My rugged Pokémon..."
     trainertextentry 168, TEXT_DEFEATED_IN_OVERWORLD, "What did you think?\nAren’t my Pokémon cool?"
+
+_Trainer169:
     trainertextentry 169, TEXT_NOTICE_IN_OVERWORLD, "You look strong...\nThis should be interesting.\r"
     trainertextentry 169, TEXT_DEFEATED_IN_BATTLE, "Very impressive."
     trainertextentry 169, TEXT_DEFEATED_IN_OVERWORLD, "Normal-type moves don’t have a\ntype advantage against anything,\fbut they can still hit hard."
+
+_Trainer170:
     trainertextentry 170, TEXT_NOTICE_IN_OVERWORLD, "I’m gonna lay down the law with\nmy Dark-type Pokémon!\r"
     trainertextentry 170, TEXT_DEFEATED_IN_BATTLE, "I lost the case..."
     trainertextentry 170, TEXT_DEFEATED_IN_OVERWORLD, "Some Dark-type Pokémon are eager\nto fight for justice.\fDon’t be fooled by their appearance."
+
+_Trainer171:
     trainertextentry 171, TEXT_NOTICE_IN_OVERWORLD, "I never miss a beat.\nI’m lightning on my feet! ♪\r"
     trainertextentry 171, TEXT_DEFEATED_IN_BATTLE, "Shake it off, shake it off...\n"
     trainertextentry 171, TEXT_DEFEATED_IN_OVERWORLD, "I shake it off,\nI shake it off! ♪"
+
+_Trainer174:
     trainertextentry 174, TEXT_NOTICE_IN_OVERWORLD, "Life is old there,\nolder than the trees. ♪\rYounger than the mountains,\nblowing like a breeze! ♪\r"
     trainertextentry 174, TEXT_DEFEATED_IN_BATTLE, "Take me home...\n"
     trainertextentry 174, TEXT_DEFEATED_IN_OVERWORLD, "Country roads, take me home.\nTo the place, I belong! ♪"
+
+_Trainer180:
     trainertextentry 180, TEXT_NOTICE_IN_OVERWORLD, "Yo!\nMy Bug Pokémon are all grown up!\rCheck them out!\r"
     trainertextentry 180, TEXT_DEFEATED_IN_BATTLE, "Aww...\n"
     trainertextentry 180, TEXT_DEFEATED_IN_OVERWORLD, "Bug Pokémon are so cool.\nSo many are dual-typed!"
+
+_Trainer194:
     trainertextentry 194, TEXT_NOTICE_IN_OVERWORLD, "The Safari Zone is chock-full of\nrare and exotic Pokémon.\rOnly we, Team Rocket, have the talent\nto put them to good use!\r"
     trainertextentry 194, TEXT_DEFEATED_IN_BATTLE, "Argh! You’re skilled!\n"
     trainertextentry 194, TEXT_DEFEATED_IN_OVERWORLD, "Maybe you’re the talented one..."
+
+_Trainer207:
     trainertextentry 207, TEXT_NOTICE_IN_OVERWORLD, "This is an important mission for\nTeam Rocket!\rI won’t let you interfere, you pest!\r"
     trainertextentry 207, TEXT_DEFEATED_IN_BATTLE, "At least I tried...\n"
     trainertextentry 207, TEXT_DEFEATED_IN_OVERWORLD, "Our Executives have big plans.\rThey think stealing the Pokémon from\nthe Safari Zone will help to bolster\four strength."
+
+_Trainer208:
     trainertextentry 208, TEXT_NOTICE_IN_OVERWORLD, "Ha!\nYou’ve activated our trap card!\rThe amazing Team Rocket Ambush!\r"
     trainertextentry 208, TEXT_DEFEATED_IN_BATTLE, "Argh! Did you use a counter trap?!\n"
     trainertextentry 208, TEXT_DEFEATED_IN_OVERWORLD, "We’re here to get some strong\nmonsters for our decks.\rWe don’t have time for magic cards.\nWe just need some beatsticks!"
+
+_Trainer221:
     trainertextentry 221, TEXT_NOTICE_IN_OVERWORLD, "Get ready to cry, little kid!\r"
     trainertextentry 221, TEXT_DEFEATED_IN_BATTLE, "A good cry feels great, you know...\n"
     trainertextentry 221, TEXT_DEFEATED_IN_OVERWORLD, "Some other kid went flying past us.\rThey went by so fast, we didn’t\neven have time to react!"
+
+_Trainer225:
     trainertextentry 225, TEXT_NOTICE_IN_OVERWORLD, "Stop right there, brat!\rNobody stops us breaking the law\non my watch!\r"
     trainertextentry 225, TEXT_DEFEATED_IN_BATTLE, "I paid with my Pokémon...\n"
     trainertextentry 225, TEXT_DEFEATED_IN_OVERWORLD, "Some other kid went into that cave\nthat’s just up ahead.\rI wonder what they found in there...\rFufufu..."
+
+_Trainer226:
     trainertextentry 226, TEXT_NOTICE_IN_OVERWORLD, "That red-haired kid was too scary,\nso I’ll knock you out instead!\r"
     trainertextentry 226, TEXT_DEFEATED_IN_BATTLE, "Don’t judge a book by its cover...\n"
     trainertextentry 226, TEXT_DEFEATED_IN_OVERWORLD, "That red-haired kid had a fierce look\nof hatred in his eyes.\rHe really doesn’t like Team Rocket.\nI wonder why?"
+
+_Trainer229:
     trainertextentry 229, TEXT_NOTICE_IN_OVERWORLD, "Hey. This bridge is dangerous.\nYou shouldn’t cross it, OK?\r...\n...\rI insist that you don’t cross it!\r"
     trainertextentry 229, TEXT_DEFEATED_IN_BATTLE, "They’ll call me a bridge after that...\n"
     trainertextentry 229, TEXT_DEFEATED_IN_OVERWORLD, "Fine, I admit it. I lied.\nThe bridges are perfectly safe.\rWho knows what dangers you might\nfind up ahead, though."
+
+_Trainer262:
     trainertextentry 262, TEXT_NOTICE_IN_OVERWORLD, "Aha!\nIt’s a meddling brat!\rI’ll punish your meddling so much that\nthe Executives will have to promote me!\r"
     trainertextentry 262, TEXT_DEFEATED_IN_BATTLE, "Urk...\nThat promotion will have to wait.\n"
     trainertextentry 262, TEXT_DEFEATED_IN_OVERWORLD, "You have it so easy, kid.\nIt’s so not fair!"
+
+_Trainer273:
     trainertextentry 273, TEXT_NOTICE_IN_OVERWORLD, "Uwee hee hee!\nI’m the queen of the marshland!\r"
     trainertextentry 273, TEXT_DEFEATED_IN_BATTLE, "Guh...\n"
     trainertextentry 273, TEXT_DEFEATED_IN_OVERWORLD, "We stole a lot of Pokémon.\nI bet I got the bad ones..."
+
+_Trainer292:
     trainertextentry 292, TEXT_NOTICE_IN_OVERWORLD, "I got some mean looking Pokémon\nfrom the beach.\rI’ll show you them personally!\r"
     trainertextentry 292, TEXT_DEFEATED_IN_BATTLE, "No!\n"
     trainertextentry 292, TEXT_DEFEATED_IN_OVERWORLD, "Mean-looking doesn’t necessarily\nmean good in a battle..."
+
+_Trainer295:
     trainertextentry 295, TEXT_NOTICE_IN_OVERWORLD, "I grew up near the deserts of Unova.\nThese Pokémon remind me of home!\r"
     trainertextentry 295, TEXT_DEFEATED_IN_BATTLE, "Utterly defeated...\n"
     trainertextentry 295, TEXT_DEFEATED_IN_OVERWORLD, "Johto doesn’t have any deserts,\nso I feel a bit homesick.\rThe desert area in the Safari Zone\nwas a lot of fun...\rI shouldn’t have joined Team Rocket..."
+
+_Trainer304:
     trainertextentry 304, TEXT_NOTICE_IN_OVERWORLD, "I knew you’d come here.\rThank you for helping the Gym Leader,\nbut battle is a separate matter.\rShow me your skill!\r"
     trainertextentry 304, TEXT_DEFEATED_IN_BATTLE, "Impeccable.\n"
     trainertextentry 304, TEXT_DEFEATED_IN_OVERWORLD, "Jasmine is a kind and capable girl,\nbut nobody can do everything alone.\rWorking together is the key\nto success."
+
+_Trainer305:
     trainertextentry 305, TEXT_NOTICE_IN_OVERWORLD, "Giggle...\rI know how capable you are\nfrom the Lighthouse.\rBut this is a Gym battle.\nShow me what you’ve got!\r"
     trainertextentry 305, TEXT_DEFEATED_IN_BATTLE, "I’m impressed!\n"
     trainertextentry 305, TEXT_DEFEATED_IN_OVERWORLD, "It’s time you showed that side of\nyourself to Jasmine! Good luck!"
+
+_Trainer306:
     trainertextentry 306, TEXT_NOTICE_IN_OVERWORLD, "Kids should stay at home!\r"
     trainertextentry 306, TEXT_DEFEATED_IN_BATTLE, "I should have stayed at home..."
     trainertextentry 306, TEXT_DEFEATED_IN_OVERWORLD, "If I’m stationed at our base...\nIs that working from home?"
+
+_Trainer307:
     trainertextentry 307, TEXT_NOTICE_IN_OVERWORLD, "Brr...\nIt’s so cold in here!\rLet’s warm up with a battle!\r"
     trainertextentry 307, TEXT_DEFEATED_IN_BATTLE, "Nope. Still cold...\n"
     trainertextentry 307, TEXT_DEFEATED_IN_OVERWORLD, "The Ice Path has some Pokémon\nthat you can’t find anywhere else.\fBut it’s not nice to be here!"
+
+_Trainer338:
     trainertextentry 338, TEXT_NOTICE_IN_OVERWORLD, "Are you going to Blackthorn’s Gym?\r"
     trainertextentry 338, TEXT_DEFEATED_IN_BATTLE, "Wow!\n"
     trainertextentry 338, TEXT_DEFEATED_IN_OVERWORLD, "Blackthorn’s Gym Leader is said to\nbe the strongest in Johto.\rThough, she’s also said to be the\nmost prickly one..."
+
+_Trainer340:
     trainertextentry 340, TEXT_NOTICE_IN_OVERWORLD, "Have you mastered the skill of sliding\naround on ice?\r"
     trainertextentry 340, TEXT_DEFEATED_IN_BATTLE, "You slid around my Pokémon easily!\n"
     trainertextentry 340, TEXT_DEFEATED_IN_OVERWORLD, "Getting through the Ice Path isn’t\njust about fortitude.\fIt takes intelligence, too."
+
+_Trainer341:
     trainertextentry 341, TEXT_NOTICE_IN_OVERWORLD, "Yellosix: We’ve been very busy here,\nwaiting for you to come!\rWell, then, it’s time to play!\r"
     trainertextentry 341, TEXT_DEFEATED_IN_BATTLE, "I hate brats!\n"
     trainertextentry 341, TEXT_DEFEATED_IN_OVERWORLD, "Yellosix: We didn’t usually have to\nworry about enemies.\rUs Brothers used to be in a desert,\nwhere barely anyone showed up."
+
+_Trainer342:
     trainertextentry 342, TEXT_NOTICE_IN_OVERWORLD, "Browsix: It’s time for you to go home!\r"
     trainertextentry 342, TEXT_DEFEATED_IN_BATTLE, "Now you’ve done it!\n"
     trainertextentry 342, TEXT_DEFEATED_IN_OVERWORLD, "Browsix: Isn’t that enough already?\nOr will you keep going forward?"
+
+_Trainer343:
     trainertextentry 343, TEXT_NOTICE_IN_OVERWORLD, "Purpsix: A little kid like you should\nrun on home to Mommy.\rThat’s the best!\r"
     trainertextentry 343, TEXT_DEFEATED_IN_BATTLE, "Oh, Mama, I’ve lost!\n"
     trainertextentry 343, TEXT_DEFEATED_IN_OVERWORLD, "Purpsix: You’re just a brat!\nWhy are you so strong?"
+
+_Trainer344:
     trainertextentry 344, TEXT_NOTICE_IN_OVERWORLD, "Greesix: We brothers are bound by\nbrotherly love sixfold!\rOur solidarity is sixfold!\nAnd our food bill is sixfold, too!\rSo we need to beat you and earn\nour keep!\r"
     trainertextentry 344, TEXT_DEFEATED_IN_BATTLE, "I feel crushing defeat sixfold!"
     trainertextentry 344, TEXT_DEFEATED_IN_OVERWORLD, "Greesix: This is nothing!\nOur brotherly love is nothing like this!"
+
+_Trainer345:
     trainertextentry 345, TEXT_NOTICE_IN_OVERWORLD, "Welcome to Victory Road!\rYour Pokémon will be at my mercy\nwhen they are frozen solid!\r"
     trainertextentry 345, TEXT_DEFEATED_IN_BATTLE, "...Things shouldn’t be this way!\n"
     trainertextentry 345, TEXT_DEFEATED_IN_OVERWORLD, "You’re better than I thought!\nGo on ahead!"
+
+_Trainer347:
     trainertextentry 347, TEXT_NOTICE_IN_OVERWORLD, "Have you been catching any Pokémon\nusing your Radio’s Exotic Sound?\r"
     trainertextentry 347, TEXT_DEFEATED_IN_BATTLE, "You’re pretty skilled!\n"
     trainertextentry 347, TEXT_DEFEATED_IN_OVERWORLD, "Making use of the Radio’s Exotic Sound\nis super easy.\rOpen up the Radio in your Pokégear,\nand press the top-left button.\rWhile that happy sounding music plays,\nyou may encounter Pokémon that are\fnormally found far away from here.\rHuh? Why does that work?\nI don’t know, really!"
+
+_Trainer372:
     trainertextentry 372, TEXT_NOTICE_IN_OVERWORLD, "My Pokémon have given me the\ncourage and strength to fight.\rI have to win for their sake!\r"
     trainertextentry 372, TEXT_DEFEATED_IN_BATTLE, "I’ve lost..."
     trainertextentry 372, TEXT_DEFEATED_IN_OVERWORLD, "I’m going to keep getting stronger!"
+
+_Trainer375:
     trainertextentry 375, TEXT_NOTICE_IN_OVERWORLD, "You shouldn’t underestimate\nBug-type Pokémon!\r"
     trainertextentry 375, TEXT_DEFEATED_IN_BATTLE, "Perhaps I underestimated you...\n"
     trainertextentry 375, TEXT_DEFEATED_IN_OVERWORLD, "You’ve almost reached Bugsy.\nDon’t give up!"
+
+_Trainer376:
     trainertextentry 376, TEXT_NOTICE_IN_OVERWORLD, "Mt. Mortar is a place of training.\nPrepare yourself for battle!\r"
     trainertextentry 376, TEXT_DEFEATED_IN_BATTLE, "Ugh...\nDidn’t train hard enough..."
     trainertextentry 376, TEXT_DEFEATED_IN_OVERWORLD, "People often use this cave\nto do intense training.\rThe Karate King himself sometimes\ntrains here, too.\rAlthough...\nHe’s been too occupied lately."
+
+_Trainer394:
     trainertextentry 394, TEXT_NOTICE_IN_OVERWORLD, "You’re challenging the Pokémon League,\naren’t you?\rThat’s why I’m here, too.\rLet’s see who’s more worthy of\nmaking the challenge with a battle!\r"
     trainertextentry 394, TEXT_DEFEATED_IN_BATTLE, "What just went down?!"
     trainertextentry 394, TEXT_DEFEATED_IN_OVERWORLD, "I’ll catch up to you in no time.\rIf you don’t hurry to Indigo Plateau,\nI’ll leave you in my wake!"
+
+_Trainer442:
     trainertextentry 442, TEXT_NOTICE_IN_OVERWORLD, "What I desire is to bring out the\nentirety in Pokémon potential!\rPlease show me the strength of\nyou and your Pokémon!\r"
     trainertextentry 442, TEXT_DEFEATED_IN_BATTLE, "So this is what it means to draw\nforth your Pokémon’s power!"
     trainertextentry 442, TEXT_DEFEATED_IN_OVERWORLD, "The things you and your Pokémon\nhave seen and felt...\rDo they belong to you and you alone?"
+
+_Trainer443:
     trainertextentry 443, TEXT_NOTICE_IN_OVERWORLD, "Oh, but you are...\rYou and your Pokémon are the ones\nwho stopped Team Rocket for us all!\rI can’t wait to see what you and\nyour Pokémon are capable of!\r"
     trainertextentry 443, TEXT_DEFEATED_IN_BATTLE, "Witnessing your noble spirits in battle\nhas really touched my heart..."
     trainertextentry 443, TEXT_DEFEATED_IN_OVERWORLD, "My team was pretty cool, right?\rIt’s a bit embarrasing to show off,\nbut I love to show their best sides!"
+
+_Trainer473:
     trainertextentry 473, TEXT_NOTICE_IN_OVERWORLD, "I’ll be like a mother to all Pokémon,\nand shower them with love.\r"
     trainertextentry 473, TEXT_DEFEATED_IN_BATTLE, "How...\nHow can you be so awful!\n"
     trainertextentry 473, TEXT_DEFEATED_IN_OVERWORLD, "Heh heh heh...\rYou should carry on with your\nPokémon League challenge."
+
+_Trainer474:
     trainertextentry 474, TEXT_NOTICE_IN_OVERWORLD, "Believe in your partner Pokémon!\nCare for them, with all your heart.\rAnd more importantly...\nHave a champion time battling with them!\r"
     trainertextentry 474, TEXT_DEFEATED_IN_BATTLE, "Battling against a Trainer like you...\nIt really is the best..."
     trainertextentry 474, TEXT_DEFEATED_IN_OVERWORLD, "Believe in yourself and your Pokémon,\nand keep on blasting ahead!"
+
+_Trainer475:
     trainertextentry 475, TEXT_NOTICE_IN_OVERWORLD, "Let fate decide what happens next!\rWhichever of us is stronger will\nprevail!\r"
     trainertextentry 475, TEXT_DEFEATED_IN_BATTLE, "Even frightful creatures like Pokémon\ncan become powerful allies..."
     trainertextentry 475, TEXT_DEFEATED_IN_OVERWORLD, "You truly are a force to be\nreckoned with..."
+
+_Trainer476:
     trainertextentry 476, TEXT_NOTICE_IN_OVERWORLD, "Hello.\nI wish to ask you...\rDo you dream about the world\nof the ancient past?\rOr do you dream about the world\nof the distant future?\r"
     trainertextentry 476, TEXT_DEFEATED_IN_BATTLE, "I-impossible!\n"
     trainertextentry 476, TEXT_DEFEATED_IN_OVERWORLD, "I cannot deny my desires to see the\nworlds of past and future for myself..."
+
+_Trainer477:
     trainertextentry 477, TEXT_NOTICE_IN_OVERWORLD, "Hey, hey!\nDo you remember me?\rIt’s me! Joey!\nWe battled on Route 30!\rYou might have seen all of Johto,\nbut you haven’t seen my Pokémon team.\rThey’re all in the top percentage!\nCome on, let’s battle!\r"
     trainertextentry 477, TEXT_DEFEATED_IN_BATTLE, "Ack! I lost again!"
     trainertextentry 477, TEXT_DEFEATED_IN_OVERWORLD, "My super cool Pokémon were able\nto get me all the way here.\rI’m going back to Route 30, though.\nWe need to train a lot more."
+
+_Trainer504:
     trainertextentry 504, TEXT_NOTICE_IN_OVERWORLD, "504-Encounter"
     trainertextentry 504, TEXT_DEFEATED_IN_BATTLE, "504-Defeat"
     trainertextentry 504, TEXT_DEFEATED_IN_OVERWORLD, "504-Afterwards"
+
+_Trainer506:
     trainertextentry 506, TEXT_NOTICE_IN_OVERWORLD, "506-Encounter"
     trainertextentry 506, TEXT_DEFEATED_IN_BATTLE, "506-Defeat"
     trainertextentry 506, TEXT_DEFEATED_IN_OVERWORLD, "506-Afterwards"
+
+_Trainer508:
     trainertextentry 508, TEXT_NOTICE_IN_OVERWORLD, "508-Encounter"
     trainertextentry 508, TEXT_DEFEATED_IN_BATTLE, "508-Defeat"
     trainertextentry 508, TEXT_DEFEATED_IN_OVERWORLD, "508-Afterwards"
+
+_Trainer511:
     trainertextentry 511, TEXT_NOTICE_IN_OVERWORLD, "511-Encounter"
     trainertextentry 511, TEXT_DEFEATED_IN_BATTLE, "511-Defeat"
     trainertextentry 511, TEXT_DEFEATED_IN_OVERWORLD, "511-Afterwards"
+
+_Trainer514:
     trainertextentry 514, TEXT_NOTICE_IN_OVERWORLD, "514-Encounter"
     trainertextentry 514, TEXT_DEFEATED_IN_BATTLE, "514-Defeat"
     trainertextentry 514, TEXT_DEFEATED_IN_OVERWORLD, "514-Afterwards"
+
+_Trainer516:
     trainertextentry 516, TEXT_NOTICE_IN_OVERWORLD, "516-Encounter"
     trainertextentry 516, TEXT_DEFEATED_IN_BATTLE, "516-Defeat"
     trainertextentry 516, TEXT_DEFEATED_IN_OVERWORLD, "516-Afterwards"
+
+_Trainer519:
     trainertextentry 519, TEXT_NOTICE_IN_OVERWORLD, "519-Encounter"
     trainertextentry 519, TEXT_DEFEATED_IN_BATTLE, "519-Defeat"
     trainertextentry 519, TEXT_DEFEATED_IN_OVERWORLD, "519-Afterwards"
+
+_Trainer521:
     trainertextentry 521, TEXT_NOTICE_IN_OVERWORLD, "521-Encounter"
     trainertextentry 521, TEXT_DEFEATED_IN_BATTLE, "521-Defeat"
     trainertextentry 521, TEXT_DEFEATED_IN_OVERWORLD, "521-Afterwards"
+
+_Trainer524:
     trainertextentry 524, TEXT_NOTICE_IN_OVERWORLD, "524-Encounter"
     trainertextentry 524, TEXT_DEFEATED_IN_BATTLE, "524-Defeat"
     trainertextentry 524, TEXT_DEFEATED_IN_OVERWORLD, "524-Afterwards"
+
+_Trainer526:
     trainertextentry 526, TEXT_NOTICE_IN_OVERWORLD, "526-Encounter"
     trainertextentry 526, TEXT_DEFEATED_IN_BATTLE, "526-Defeat"
     trainertextentry 526, TEXT_DEFEATED_IN_OVERWORLD, "526-Afterwards"
+
+_Trainer529:
     trainertextentry 529, TEXT_NOTICE_IN_OVERWORLD, "529-Encounter"
     trainertextentry 529, TEXT_DEFEATED_IN_BATTLE, "529-Defeat"
     trainertextentry 529, TEXT_DEFEATED_IN_OVERWORLD, "529-Afterwards"
+
+_Trainer531:
     trainertextentry 531, TEXT_NOTICE_IN_OVERWORLD, "531-Encounter"
     trainertextentry 531, TEXT_DEFEATED_IN_BATTLE, "531-Defeat"
     trainertextentry 531, TEXT_DEFEATED_IN_OVERWORLD, "531-Afterwards"
+
+_Trainer532:
     trainertextentry 532, TEXT_NOTICE_IN_OVERWORLD, "532-Encounter"
     trainertextentry 532, TEXT_DEFEATED_IN_BATTLE, "532-Defeat"
     trainertextentry 532, TEXT_DEFEATED_IN_OVERWORLD, "532-Afterwards"
+
+_Trainer542:
     trainertextentry 542, TEXT_NOTICE_IN_OVERWORLD, "542-Encounter"
     trainertextentry 542, TEXT_DEFEATED_IN_BATTLE, "542-Defeat"
     trainertextentry 542, TEXT_DEFEATED_IN_OVERWORLD, "542-Afterwards"
+
+_Trainer543:
     trainertextentry 543, TEXT_NOTICE_IN_OVERWORLD, "543-Encounter"
     trainertextentry 543, TEXT_DEFEATED_IN_BATTLE, "543-Defeat"
     trainertextentry 543, TEXT_DEFEATED_IN_OVERWORLD, "543-Afterwards"
+
+_Trainer544:
     trainertextentry 544, TEXT_NOTICE_IN_OVERWORLD, "544-Encounter"
     trainertextentry 544, TEXT_DEFEATED_IN_BATTLE, "544-Defeat"
     trainertextentry 544, TEXT_DEFEATED_IN_OVERWORLD, "544-Afterwards"
+
+_Trainer739:
     trainertextentry 739, TEXT_DEFEATED_IN_BATTLE, "You’re raising your Pokémon well!\n"
+
+_Trainer740:
     trainertextentry 740, TEXT_DEFEATED_IN_BATTLE, "You’re raising your Pokémon well!\n"
+
+_Trainer741:
     trainertextentry 741, TEXT_DEFEATED_IN_BATTLE, "You’re raising your Pokémon well!\n"
+
+_Trainer742:
     trainertextentry 742, TEXT_DEFEATED_IN_BATTLE, "You’re raising your Pokémon well!\n"
+
+_Trainer743:
     trainertextentry 743, TEXT_DEFEATED_IN_BATTLE, "You’re raising your Pokémon well!\n"
+
+_Trainer744:
     trainertextentry 744, TEXT_DEFEATED_IN_BATTLE, "You’re raising your Pokémon well!\n"
+
+_Trainer786:
     trainertextentry 786, TEXT_DEFEATED_IN_BATTLE, "My item wasn’t enough to win...\n"
+
+_Trainer787:
     trainertextentry 787, TEXT_DEFEATED_IN_BATTLE, "Did I use that move well?\n"
+
+_Trainer792:
     trainertextentry 792, TEXT_DEFEATED_IN_BATTLE, "Looks like you’re the stronger one...\n"
+
+_Trainer793:
     trainertextentry 793, TEXT_DEFEATED_IN_BATTLE, "Looks like you’re the stronger one...\n"
+
+_Trainer794:
     trainertextentry 794, TEXT_DEFEATED_IN_BATTLE, "Looks like you’re the stronger one...\n"
+
+_Trainer795:
     trainertextentry 795, TEXT_DEFEATED_IN_BATTLE, "Looks like this is it...\n"
+
+_Trainer796:
     trainertextentry 796, TEXT_DEFEATED_IN_BATTLE, "Looks like this is it...\n"
+
+_Trainer797:
     trainertextentry 797, TEXT_DEFEATED_IN_BATTLE, "Looks like this is it...\n"
+
+_Trainer798:
     trainertextentry 798, TEXT_DEFEATED_IN_BATTLE, "My electric trick...\n"
+
+_Trainer799:
     trainertextentry 799, TEXT_DEFEATED_IN_BATTLE, "My electric trick...\n"
+
+_Trainer800:
     trainertextentry 800, TEXT_DEFEATED_IN_BATTLE, "My electric trick...\n"
+
+_Trainer801:
     trainertextentry 801, TEXT_DEFEATED_IN_BATTLE, "Looks like I underestimated you...\n"
+
+_Trainer802:
     trainertextentry 802, TEXT_DEFEATED_IN_BATTLE, "Looks like I underestimated you...\n"
+
+_Trainer803:
     trainertextentry 803, TEXT_DEFEATED_IN_BATTLE, "Looks like I underestimated you...\n"
+
+_Trainer804:
     trainertextentry 804, TEXT_DEFEATED_IN_BATTLE, "...!!!\nSo... So strong!\n"
+
+_Trainer805:
     trainertextentry 805, TEXT_DEFEATED_IN_BATTLE, "...!!!\nSo... So strong!\n"
+
+_Trainer806:
     trainertextentry 806, TEXT_DEFEATED_IN_BATTLE, "...!!!\nSo... So strong!\n"
+    
+_Trainer807:
     trainertextentry 807, TEXT_DEFEATED_IN_BATTLE, "I get it...\n"
+
+_Trainer808:
     trainertextentry 808, TEXT_DEFEATED_IN_BATTLE, "I get it...\n"
+
+_Trainer809:
     trainertextentry 809, TEXT_DEFEATED_IN_BATTLE, "I get it...\n"
+
+_Trainer810:
     trainertextentry 810, TEXT_DEFEATED_IN_BATTLE, "My spirit has not been defeated!\n"
+
+_Trainer811:
     trainertextentry 811, TEXT_DEFEATED_IN_BATTLE, "My spirit has not been defeated!\n"
+
+_Trainer812:
     trainertextentry 812, TEXT_DEFEATED_IN_BATTLE, "My spirit has not been defeated!\n"
+
+_Trainer764:
     trainertextentry 764, TEXT_DEFEATED_IN_BATTLE, "Your Pokémon are looking good!\n"
+
+_Trainer765:
     trainertextentry 765, TEXT_DEFEATED_IN_BATTLE, "Your Pokémon are looking good!\n"
+
+_Trainer766:
     trainertextentry 766, TEXT_DEFEATED_IN_BATTLE, "Your Pokémon are looking good!\n"
+
+_Trainer767:
     trainertextentry 767, TEXT_DEFEATED_IN_BATTLE, "Your Pokémon are looking good!\n"
+
+_Trainer768:
     trainertextentry 768, TEXT_DEFEATED_IN_BATTLE, "Your Pokémon are looking good!\n"
+
+_Trainer769:
     trainertextentry 769, TEXT_DEFEATED_IN_BATTLE, "Your Pokémon are looking good!\n"
+
+_Trainer813:
     trainertextentry 813, TEXT_DEFEATED_IN_BATTLE, "Argh!"
+
+_Trainer814:
     trainertextentry 814, TEXT_DEFEATED_IN_BATTLE, "Why?!"
+
+_Trainer771:
     trainertextentry 771, TEXT_DEFEATED_IN_BATTLE, "We almost had it...\n"
+
+_Trainer772:
     trainertextentry 772, TEXT_DEFEATED_IN_BATTLE, "We almost had it...\n"
+
+_Trainer773:
     trainertextentry 773, TEXT_DEFEATED_IN_BATTLE, "We almost had it...\n"
+
+_Trainer774:
     trainertextentry 774, TEXT_DEFEATED_IN_BATTLE, "Oh, darn! I lost...\n"
+
+_Trainer775:
     trainertextentry 775, TEXT_DEFEATED_IN_BATTLE, "Oh, darn! I lost...\n"
+
+_Trainer776:
     trainertextentry 776, TEXT_DEFEATED_IN_BATTLE, "Oh, darn! I lost...\n"
+
+_Trainer777:
     trainertextentry 777, TEXT_DOUBLE_DEFEATED_IN_BATTLE_1, "We feel crushing defeat sixfold!\n"
+
+_Trainer778:
     trainertextentry 778, TEXT_DEFEATED_IN_BATTLE, "For kids to be this good...\n"
+
+_Trainer779:
     trainertextentry 779, TEXT_DEFEATED_IN_BATTLE, "Oh, seriously?\n"
+
+_Trainer780:
     trainertextentry 780, TEXT_DEFEATED_IN_BATTLE, "Tch! You brats are strong...\n"
+
+_Trainer781:
     trainertextentry 781, TEXT_DEFEATED_IN_BATTLE, "What a blunder!\n"
+
+_Trainer815:
     trainertextentry 815, TEXT_DEFEATED_IN_BATTLE, "You are quite strong!\n"
+
+_Trainer816:
     trainertextentry 816, TEXT_DEFEATED_IN_BATTLE, "The win is yours.\n"
+
+_Trainer817:
     trainertextentry 817, TEXT_DEFEATED_IN_BATTLE, "Impressive skill!\n"
+
+_Trainer818:
     trainertextentry 818, TEXT_DEFEATED_IN_BATTLE, "...\n...\n...\rI guess that’s it...\n"
+
+_Trainer819:
     trainertextentry 819, TEXT_DEFEATED_IN_BATTLE, "Wow! You’re incredible!\n"
+
+_Trainer820:
     trainertextentry 820, TEXT_DEFEATED_IN_BATTLE, "Wow! You’re incredible!\n"
+
+_Trainer821:
     trainertextentry 821, TEXT_DEFEATED_IN_BATTLE, "Wow! You’re incredible!\n"
+
+_Trainer822:
     trainertextentry 822, TEXT_DEFEATED_IN_BATTLE, "Wow! You’re incredible!\n"
+
+_Trainer823:
     trainertextentry 823, TEXT_DEFEATED_IN_BATTLE, "Wow! You’re incredible!\n"
+
+_Trainer824:
     trainertextentry 824, TEXT_DEFEATED_IN_BATTLE, "Wow! You’re incredible!\n"
+
+_Trainer825:
     trainertextentry 825, TEXT_LAST_MON_CRITICAL, "We Psychics don’t give up even when\nwe’re down to the last Pokémon.\rThat’s what makes us so formidable!\n"
     trainertextentry 825, TEXT_LAST_MON_SENT_OUT, "Until we hit zero, our power is limitless.\nI’m not giving up yet!\n"
     trainertextentry 825, TEXT_DEFEATED_IN_BATTLE, "I... I can’t...believe it...\n"
+
+_Trainer826:
     trainertextentry 826, TEXT_LAST_MON_CRITICAL, "One Pokémon left?\rHa ha ha! I’ve been counting on this\none from the very beginning!\n"
     trainertextentry 826, TEXT_LAST_MON_SENT_OUT, "Ooooof...\n"
     trainertextentry 826, TEXT_DEFEATED_IN_BATTLE, "Ah!\nYou have proven your worth!\n"
+
+_Trainer827:
     trainertextentry 827, TEXT_LAST_MON_CRITICAL, "Fight as hard as you can ’til you faint!\n"
     trainertextentry 827, TEXT_LAST_MON_SENT_OUT, "We’re standing firm!\n"
     trainertextentry 827, TEXT_DEFEATED_IN_BATTLE, "Why?!\n...How could we lose?\n"
+
+_Trainer828:
     trainertextentry 828, TEXT_LAST_MON_CRITICAL, "This is far from being backed into\na corner!\n"
     trainertextentry 828, TEXT_LAST_MON_SENT_OUT, "You’re no ordinary Trainer to have\ngotten this far.\n"
     trainertextentry 828, TEXT_DEFEATED_IN_BATTLE, "Well, aren’t you good.\nI like that in a Trainer.\n"
@@ -3391,7 +3655,7 @@ _1AD0: // Trainer 630
 /* Trainer   8 */ .halfword _0A14
 /* Trainer   9 */ .halfword _0C8C
 /* Trainer  10 */ .halfword _0224
-/* Trainer  11 */ .halfword _0000
+/* Trainer  11 */ .halfword _Trainer11
 /* Trainer  12 */ .halfword _1218
 /* Trainer  13 */ .halfword _1230
 /* Trainer  14 */ .halfword _1370
@@ -3399,7 +3663,7 @@ _1AD0: // Trainer 630
 /* Trainer  16 */ .halfword _0C74
 /* Trainer  17 */ .halfword _0E08
 /* Trainer  18 */ .halfword _0A64
-/* Trainer  19 */ .halfword _0000
+/* Trainer  19 */ .halfword _Trainer19
 /* Trainer  20 */ .halfword _014C
 /* Trainer  21 */ .halfword _0158
 /* Trainer  22 */ .halfword _0268
@@ -3420,7 +3684,7 @@ _1AD0: // Trainer 630
 /* Trainer  37 */ .halfword _1254
 /* Trainer  38 */ .halfword _0830
 /* Trainer  39 */ .halfword _0C68
-/* Trainer  40 */ .halfword _0000
+/* Trainer  40 */ .halfword _Trainer40
 /* Trainer  41 */ .halfword _0FB4
 /* Trainer  42 */ .halfword _1170
 /* Trainer  43 */ .halfword _1008
@@ -3443,7 +3707,7 @@ _1AD0: // Trainer 630
 /* Trainer  60 */ .halfword _0A80
 /* Trainer  61 */ .halfword _0AB4
 /* Trainer  62 */ .halfword _0B20
-/* Trainer  63 */ .halfword _0000
+/* Trainer  63 */ .halfword _Trainer63
 /* Trainer  64 */ .halfword _0B2C
 /* Trainer  65 */ .halfword _0B04
 /* Trainer  66 */ .halfword _0AC4
@@ -3467,8 +3731,8 @@ _1AD0: // Trainer 630
 /* Trainer  84 */ .halfword _05A8
 /* Trainer  85 */ .halfword _0C98
 /* Trainer  86 */ .halfword _0C80
-/* Trainer  87 */ .halfword _0000
-/* Trainer  88 */ .halfword _0000
+/* Trainer  87 */ .halfword _Trainer87
+/* Trainer  88 */ .halfword _Trainer88
 /* Trainer  89 */ .halfword _02A4
 /* Trainer  90 */ .halfword _0CE0
 /* Trainer  91 */ .halfword _0CEC
@@ -3485,9 +3749,9 @@ _1AD0: // Trainer 630
 /* Trainer 102 */ .halfword _0980
 /* Trainer 103 */ .halfword _09D4
 /* Trainer 104 */ .halfword _09E0
-/* Trainer 105 */ .halfword _0000
-/* Trainer 106 */ .halfword _0000
-/* Trainer 107 */ .halfword _0000
+/* Trainer 105 */ .halfword _Trainer105
+/* Trainer 106 */ .halfword _Trainer106
+/* Trainer 107 */ .halfword _Trainer107
 /* Trainer 108 */ .halfword _0DFC
 /* Trainer 109 */ .halfword _0E8C
 /* Trainer 110 */ .halfword _0334
@@ -3518,10 +3782,10 @@ _1AD0: // Trainer 630
 /* Trainer 135 */ .halfword _0808
 /* Trainer 136 */ .halfword _05B0
 /* Trainer 137 */ .halfword _0D94
-/* Trainer 138 */ .halfword _0000
+/* Trainer 138 */ .halfword _Trainer138
 /* Trainer 139 */ .halfword _0F18
 /* Trainer 140 */ .halfword _061C
-/* Trainer 141 */ .halfword _0000
+/* Trainer 141 */ .halfword _Trainer141
 /* Trainer 142 */ .halfword _1A50
 /* Trainer 143 */ .halfword _0E18
 /* Trainer 144 */ .halfword _0E24
@@ -3545,22 +3809,22 @@ _1AD0: // Trainer 630
 /* Trainer 162 */ .halfword _0E7C
 /* Trainer 163 */ .halfword _0E80
 /* Trainer 164 */ .halfword _0E84
-/* Trainer 165 */ .halfword _0000
-/* Trainer 166 */ .halfword _0000
-/* Trainer 167 */ .halfword _0000
-/* Trainer 168 */ .halfword _0000
-/* Trainer 169 */ .halfword _0000
-/* Trainer 170 */ .halfword _0000
-/* Trainer 171 */ .halfword _0000
+/* Trainer 165 */ .halfword _Trainer165
+/* Trainer 166 */ .halfword _Trainer166
+/* Trainer 167 */ .halfword _Trainer167
+/* Trainer 168 */ .halfword _Trainer168
+/* Trainer 169 */ .halfword _Trainer169
+/* Trainer 170 */ .halfword _Trainer170
+/* Trainer 171 */ .halfword _Trainer171
 /* Trainer 172 */ .halfword _1A2C
 /* Trainer 173 */ .halfword _1A30
-/* Trainer 174 */ .halfword _0000
+/* Trainer 174 */ .halfword _Trainer174
 /* Trainer 175 */ .halfword _0000
 /* Trainer 176 */ .halfword _0000
 /* Trainer 177 */ .halfword _0000
 /* Trainer 178 */ .halfword _10A0
 /* Trainer 179 */ .halfword _07FC
-/* Trainer 180 */ .halfword _0000
+/* Trainer 180 */ .halfword _Trainer180
 /* Trainer 181 */ .halfword _1074
 /* Trainer 182 */ .halfword _1080
 /* Trainer 183 */ .halfword _05AC
@@ -3574,7 +3838,7 @@ _1AD0: // Trainer 630
 /* Trainer 191 */ .halfword _1108
 /* Trainer 192 */ .halfword _1134
 /* Trainer 193 */ .halfword _1388
-/* Trainer 194 */ .halfword _0000
+/* Trainer 194 */ .halfword _Trainer194
 /* Trainer 195 */ .halfword _1394
 /* Trainer 196 */ .halfword _13B8
 /* Trainer 197 */ .halfword _13C4
@@ -3587,8 +3851,8 @@ _1AD0: // Trainer 630
 /* Trainer 204 */ .halfword _11DC
 /* Trainer 205 */ .halfword _11E8
 /* Trainer 206 */ .halfword _11F4
-/* Trainer 207 */ .halfword _0000
-/* Trainer 208 */ .halfword _0000
+/* Trainer 207 */ .halfword _Trainer207
+/* Trainer 208 */ .halfword _Trainer208
 /* Trainer 209 */ .halfword _0F48
 /* Trainer 210 */ .halfword _0000
 /* Trainer 211 */ .halfword _127C
@@ -3601,15 +3865,15 @@ _1AD0: // Trainer 630
 /* Trainer 218 */ .halfword _12DC
 /* Trainer 219 */ .halfword _12E8
 /* Trainer 220 */ .halfword _12F4
-/* Trainer 221 */ .halfword _0000
+/* Trainer 221 */ .halfword _Trainer221
 /* Trainer 222 */ .halfword _1328
 /* Trainer 223 */ .halfword _12C8
 /* Trainer 224 */ .halfword _12CC
-/* Trainer 225 */ .halfword _0000
-/* Trainer 226 */ .halfword _0000
+/* Trainer 225 */ .halfword _Trainer225
+/* Trainer 226 */ .halfword _Trainer226
 /* Trainer 227 */ .halfword _13D0
 /* Trainer 228 */ .halfword _13A0
-/* Trainer 229 */ .halfword _0000
+/* Trainer 229 */ .halfword _Trainer229
 /* Trainer 230 */ .halfword _05B8
 /* Trainer 231 */ .halfword _0F24
 /* Trainer 232 */ .halfword _054C
@@ -3642,7 +3906,7 @@ _1AD0: // Trainer 630
 /* Trainer 259 */ .halfword _043C
 /* Trainer 260 */ .halfword _1418
 /* Trainer 261 */ .halfword _03E8
-/* Trainer 262 */ .halfword _0000
+/* Trainer 262 */ .halfword _Trainer262
 /* Trainer 263 */ .halfword _0054
 /* Trainer 264 */ .halfword _00B4
 /* Trainer 265 */ .halfword _0000
@@ -3653,7 +3917,7 @@ _1AD0: // Trainer 630
 /* Trainer 270 */ .halfword _0074
 /* Trainer 271 */ .halfword _00A4
 /* Trainer 272 */ .halfword _00D4
-/* Trainer 273 */ .halfword _0000
+/* Trainer 273 */ .halfword _Trainer273
 /* Trainer 274 */ .halfword _1AA4
 /* Trainer 275 */ .halfword _1AA8
 /* Trainer 276 */ .halfword _18AC
@@ -3672,10 +3936,10 @@ _1AD0: // Trainer 630
 /* Trainer 289 */ .halfword _0094
 /* Trainer 290 */ .halfword _1050
 /* Trainer 291 */ .halfword _08BC
-/* Trainer 292 */ .halfword _0000
+/* Trainer 292 */ .halfword _Trainer292
 /* Trainer 293 */ .halfword _08D4
 /* Trainer 294 */ .halfword _08E0
-/* Trainer 295 */ .halfword _0000
+/* Trainer 295 */ .halfword _Trainer295
 /* Trainer 296 */ .halfword _0904
 /* Trainer 297 */ .halfword _051C
 /* Trainer 298 */ .halfword _0528
@@ -3684,10 +3948,10 @@ _1AD0: // Trainer 630
 /* Trainer 301 */ .halfword _0880
 /* Trainer 302 */ .halfword _088C
 /* Trainer 303 */ .halfword _1888
-/* Trainer 304 */ .halfword _0000
-/* Trainer 305 */ .halfword _0000
-/* Trainer 306 */ .halfword _0000
-/* Trainer 307 */ .halfword _0000
+/* Trainer 304 */ .halfword _Trainer304
+/* Trainer 305 */ .halfword _Trainer305
+/* Trainer 306 */ .halfword _Trainer306
+/* Trainer 307 */ .halfword _Trainer307
 /* Trainer 308 */ .halfword _04EC
 /* Trainer 309 */ .halfword _0698
 /* Trainer 310 */ .halfword _06A4
@@ -3718,16 +3982,16 @@ _1AD0: // Trainer 630
 /* Trainer 335 */ .halfword _1894
 /* Trainer 336 */ .halfword _0590
 /* Trainer 337 */ .halfword _0540
-/* Trainer 338 */ .halfword _0000
+/* Trainer 338 */ .halfword _Trainer338
 /* Trainer 339 */ .halfword _0F6C
-/* Trainer 340 */ .halfword _0000
-/* Trainer 341 */ .halfword _0000
-/* Trainer 342 */ .halfword _0000
-/* Trainer 343 */ .halfword _0000
-/* Trainer 344 */ .halfword _0000
-/* Trainer 345 */ .halfword _0000
+/* Trainer 340 */ .halfword _Trainer340
+/* Trainer 341 */ .halfword _Trainer341
+/* Trainer 342 */ .halfword _Trainer342
+/* Trainer 343 */ .halfword _Trainer343
+/* Trainer 344 */ .halfword _Trainer344
+/* Trainer 345 */ .halfword _Trainer345
 /* Trainer 346 */ .halfword _059C
-/* Trainer 347 */ .halfword _0000
+/* Trainer 347 */ .halfword _Trainer347
 /* Trainer 348 */ .halfword _071C
 /* Trainer 349 */ .halfword _07B0
 /* Trainer 350 */ .halfword _07D8
@@ -3752,11 +4016,11 @@ _1AD0: // Trainer 630
 /* Trainer 369 */ .halfword _05DC
 /* Trainer 370 */ .halfword _08A4
 /* Trainer 371 */ .halfword _08B0
-/* Trainer 372 */ .halfword _0000
+/* Trainer 372 */ .halfword _Trainer372
 /* Trainer 373 */ .halfword _08C8
 /* Trainer 374 */ .halfword _08F8
-/* Trainer 375 */ .halfword _0000
-/* Trainer 376 */ .halfword _0000
+/* Trainer 375 */ .halfword _Trainer375
+/* Trainer 376 */ .halfword _Trainer376
 /* Trainer 377 */ .halfword _0000
 /* Trainer 378 */ .halfword _0644
 /* Trainer 379 */ .halfword _0650
@@ -3774,7 +4038,7 @@ _1AD0: // Trainer 630
 /* Trainer 391 */ .halfword _1340
 /* Trainer 392 */ .halfword _134C
 /* Trainer 393 */ .halfword _1364
-/* Trainer 394 */ .halfword _0000
+/* Trainer 394 */ .halfword _Trainer394
 /* Trainer 395 */ .halfword _0BB4
 /* Trainer 396 */ .halfword _0558
 /* Trainer 397 */ .halfword _0C24
@@ -3822,8 +4086,8 @@ _1AD0: // Trainer 630
 /* Trainer 439 */ .halfword _1A48
 /* Trainer 440 */ .halfword _1924
 /* Trainer 441 */ .halfword _1928
-/* Trainer 442 */ .halfword _0000
-/* Trainer 443 */ .halfword _0000
+/* Trainer 442 */ .halfword _Trainer442
+/* Trainer 443 */ .halfword _Trainer443
 /* Trainer 444 */ .halfword _19D8
 /* Trainer 445 */ .halfword _19DC
 /* Trainer 446 */ .halfword _188C
@@ -3853,11 +4117,11 @@ _1AD0: // Trainer 630
 /* Trainer 470 */ .halfword _12B0
 /* Trainer 471 */ .halfword _10E4
 /* Trainer 472 */ .halfword _1128
-/* Trainer 473 */ .halfword _0000
-/* Trainer 474 */ .halfword _0000
-/* Trainer 475 */ .halfword _0000
-/* Trainer 476 */ .halfword _0000
-/* Trainer 477 */ .halfword _0000
+/* Trainer 473 */ .halfword _Trainer473
+/* Trainer 474 */ .halfword _Trainer474
+/* Trainer 475 */ .halfword _Trainer475
+/* Trainer 476 */ .halfword _Trainer476
+/* Trainer 477 */ .halfword _Trainer477
 /* Trainer 478 */ .halfword _1150
 /* Trainer 479 */ .halfword _12D0
 /* Trainer 480 */ .halfword _02F8
@@ -3884,35 +4148,35 @@ _1AD0: // Trainer 630
 /* Trainer 501 */ .halfword _13EC
 /* Trainer 502 */ .halfword _13F8
 /* Trainer 503 */ .halfword _1950
-/* Trainer 504 */ .halfword _0000
+/* Trainer 504 */ .halfword _Trainer504
 /* Trainer 505 */ .halfword _1A40
-/* Trainer 506 */ .halfword _0000
+/* Trainer 506 */ .halfword _Trainer506
 /* Trainer 507 */ .halfword _1920
-/* Trainer 508 */ .halfword _0000
+/* Trainer 508 */ .halfword _Trainer508
 /* Trainer 509 */ .halfword _192C
 /* Trainer 510 */ .halfword _1944
-/* Trainer 511 */ .halfword _0000
+/* Trainer 511 */ .halfword _Trainer511
 /* Trainer 512 */ .halfword _1938
 /* Trainer 513 */ .halfword _1AB8
-/* Trainer 514 */ .halfword _0000
+/* Trainer 514 */ .halfword _Trainer514
 /* Trainer 515 */ .halfword _1A94
-/* Trainer 516 */ .halfword _0000
+/* Trainer 516 */ .halfword _Trainer516
 /* Trainer 517 */ .halfword _1A70
 /* Trainer 518 */ .halfword _18B4
-/* Trainer 519 */ .halfword _0000
+/* Trainer 519 */ .halfword _Trainer519
 /* Trainer 520 */ .halfword _1A58
-/* Trainer 521 */ .halfword _0000
+/* Trainer 521 */ .halfword _Trainer521
 /* Trainer 522 */ .halfword _19A4
 /* Trainer 523 */ .halfword _19B0
-/* Trainer 524 */ .halfword _0000
+/* Trainer 524 */ .halfword _Trainer524
 /* Trainer 525 */ .halfword _1AAC
-/* Trainer 526 */ .halfword _0000
+/* Trainer 526 */ .halfword _Trainer526
 /* Trainer 527 */ .halfword _1A1C
 /* Trainer 528 */ .halfword _1AC4
-/* Trainer 529 */ .halfword _0000
+/* Trainer 529 */ .halfword _Trainer529
 /* Trainer 530 */ .halfword _1A34
-/* Trainer 531 */ .halfword _0000
-/* Trainer 532 */ .halfword _0000
+/* Trainer 531 */ .halfword _Trainer531
+/* Trainer 532 */ .halfword _Trainer532
 /* Trainer 533 */ .halfword _0000
 /* Trainer 534 */ .halfword _0000
 /* Trainer 535 */ .halfword _0000
@@ -3922,9 +4186,9 @@ _1AD0: // Trainer 630
 /* Trainer 539 */ .halfword _17D8
 /* Trainer 540 */ .halfword _0680
 /* Trainer 541 */ .halfword _068C
-/* Trainer 542 */ .halfword _0000
-/* Trainer 543 */ .halfword _0000
-/* Trainer 544 */ .halfword _0000
+/* Trainer 542 */ .halfword _Trainer542
+/* Trainer 543 */ .halfword _Trainer543
+/* Trainer 544 */ .halfword _Trainer544
 /* Trainer 545 */ .halfword _1498
 /* Trainer 546 */ .halfword _14A4
 /* Trainer 547 */ .halfword _14B0
@@ -4115,5 +4379,99 @@ _1AD0: // Trainer 630
 /* Trainer 732 */ .halfword _184C
 /* Trainer 733 */ .halfword _1858
 /* Trainer 734 */ .halfword _185C
+/* Trainer 735 */ .halfword _0000
+/* Trainer 736 */ .halfword _0000
+/* Trainer 737 */ .halfword _0000
+/* Trainer 738 */ .halfword _0000
+/* Trainer 739 */ .halfword _Trainer739
+/* Trainer 740 */ .halfword _Trainer740
+/* Trainer 741 */ .halfword _Trainer741
+/* Trainer 742 */ .halfword _Trainer742
+/* Trainer 743 */ .halfword _Trainer743
+/* Trainer 744 */ .halfword _Trainer744
+/* Trainer 745 */ .halfword _0000
+/* Trainer 746 */ .halfword _0000
+/* Trainer 747 */ .halfword _0000
+/* Trainer 748 */ .halfword _0000
+/* Trainer 749 */ .halfword _0000
+/* Trainer 750 */ .halfword _0000
+/* Trainer 751 */ .halfword _0000
+/* Trainer 752 */ .halfword _0000
+/* Trainer 753 */ .halfword _0000
+/* Trainer 754 */ .halfword _0000
+/* Trainer 755 */ .halfword _0000
+/* Trainer 756 */ .halfword _0000
+/* Trainer 757 */ .halfword _0000
+/* Trainer 758 */ .halfword _0000
+/* Trainer 759 */ .halfword _0000
+/* Trainer 760 */ .halfword _0000
+/* Trainer 761 */ .halfword _0000
+/* Trainer 762 */ .halfword _0000
+/* Trainer 763 */ .halfword _0000
+/* Trainer 764 */ .halfword _Trainer764
+/* Trainer 765 */ .halfword _Trainer765
+/* Trainer 766 */ .halfword _Trainer766
+/* Trainer 767 */ .halfword _Trainer767
+/* Trainer 768 */ .halfword _Trainer768
+/* Trainer 769 */ .halfword _Trainer769
+/* Trainer 770 */ .halfword _0000
+/* Trainer 771 */ .halfword _Trainer771
+/* Trainer 772 */ .halfword _Trainer772
+/* Trainer 773 */ .halfword _Trainer773
+/* Trainer 774 */ .halfword _Trainer774
+/* Trainer 775 */ .halfword _Trainer775
+/* Trainer 776 */ .halfword _Trainer776
+/* Trainer 777 */ .halfword _Trainer777
+/* Trainer 778 */ .halfword _Trainer778
+/* Trainer 779 */ .halfword _Trainer779
+/* Trainer 780 */ .halfword _Trainer780
+/* Trainer 781 */ .halfword _Trainer781
+/* Trainer 782 */ .halfword _0000
+/* Trainer 783 */ .halfword _0000
+/* Trainer 784 */ .halfword _0000
+/* Trainer 785 */ .halfword _0000
+/* Trainer 786 */ .halfword _Trainer786
+/* Trainer 787 */ .halfword _Trainer787
+/* Trainer 788 */ .halfword _0000
+/* Trainer 789 */ .halfword _0000
+/* Trainer 790 */ .halfword _0000
+/* Trainer 791 */ .halfword _0000
+/* Trainer 792 */ .halfword _Trainer792
+/* Trainer 793 */ .halfword _Trainer793
+/* Trainer 794 */ .halfword _Trainer794
+/* Trainer 795 */ .halfword _Trainer795
+/* Trainer 796 */ .halfword _Trainer796
+/* Trainer 797 */ .halfword _Trainer797
+/* Trainer 798 */ .halfword _Trainer798
+/* Trainer 799 */ .halfword _Trainer799
+/* Trainer 800 */ .halfword _Trainer800
+/* Trainer 801 */ .halfword _Trainer801
+/* Trainer 802 */ .halfword _Trainer802
+/* Trainer 803 */ .halfword _Trainer803
+/* Trainer 804 */ .halfword _Trainer804
+/* Trainer 805 */ .halfword _Trainer805
+/* Trainer 806 */ .halfword _Trainer806
+/* Trainer 807 */ .halfword _Trainer807
+/* Trainer 808 */ .halfword _Trainer808
+/* Trainer 809 */ .halfword _Trainer809
+/* Trainer 810 */ .halfword _Trainer810
+/* Trainer 811 */ .halfword _Trainer811
+/* Trainer 812 */ .halfword _Trainer812
+/* Trainer 813 */ .halfword _Trainer813
+/* Trainer 814 */ .halfword _Trainer814
+/* Trainer 815 */ .halfword _Trainer815
+/* Trainer 816 */ .halfword _Trainer816
+/* Trainer 817 */ .halfword _Trainer817
+/* Trainer 818 */ .halfword _Trainer818
+/* Trainer 819 */ .halfword _Trainer819
+/* Trainer 820 */ .halfword _Trainer820
+/* Trainer 821 */ .halfword _Trainer821
+/* Trainer 822 */ .halfword _Trainer822
+/* Trainer 823 */ .halfword _Trainer823
+/* Trainer 824 */ .halfword _Trainer824
+/* Trainer 825 */ .halfword _Trainer825
+/* Trainer 826 */ .halfword _Trainer826
+/* Trainer 827 */ .halfword _Trainer827
+/* Trainer 828 */ .halfword _Trainer828
 
 .close

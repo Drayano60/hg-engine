@@ -13,6 +13,8 @@
 // basestats and evyields fields are formatted as such:  hp atk def speed spatk spdef
 
 SHORT_EGG_CYCLE equ 1
+ENABLE_GENDER_CHANGES equ 1
+ENABLE_CATCH_RATE_CHANGES equ 1
 
 mondata SPECIES_NONE, "-----"
     basestats 0, 0, 0, 0, 0, 0
@@ -3211,7 +3213,7 @@ mondata SPECIES_LAPRAS, "Lapras"
 mondata SPECIES_DITTO, "Ditto"
     basestats 48, 48, 48, 48, 48, 48
     types TYPE_NORMAL, TYPE_NORMAL
-    catchrate 35
+    catchrate ENABLE_CATCH_RATE_CHANGES ? 45 : 35
     baseexp 0 // defined in baseexp.s
     evyields 1, 0, 0, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
@@ -4902,7 +4904,7 @@ mondata SPECIES_UMBREON, "Umbreon"
 mondata SPECIES_MURKROW, "Murkrow"
     basestats 60, 85, 42, 91, 85, 42
     types TYPE_DARK, TYPE_FLYING
-    catchrate 30
+    catchrate ENABLE_CATCH_RATE_CHANGES ? 45 : 30
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 1, 0, 0
     items ITEM_NUGGET, ITEM_NUGGET
@@ -5605,7 +5607,7 @@ mondata SPECIES_DELIBIRD, "Delibird"
 mondata SPECIES_MANTINE, "Mantine"
     basestats 85, 40, 70, 70, 80, 140
     types TYPE_WATER, TYPE_FLYING
-    catchrate 25
+    catchrate ENABLE_CATCH_RATE_CHANGES ? 45 : 25
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 0, 2
     items ITEM_NONE, ITEM_NONE
@@ -5627,7 +5629,7 @@ mondata SPECIES_MANTINE, "Mantine"
 mondata SPECIES_SKARMORY, "Skarmory"
     basestats 65, 80, 140, 70, 40, 70
     types TYPE_STEEL, TYPE_FLYING
-    catchrate 25
+    catchrate ENABLE_CATCH_RATE_CHANGES ? 45 : 25
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 2, 0, 0, 0
     items ITEM_METAL_COAT, ITEM_METAL_COAT
@@ -9044,7 +9046,7 @@ mondata SPECIES_ABSOL, "Absol"
         basestats 65, 130, 60, 75, 75, 60
     .endif
     types TYPE_DARK, TYPE_DARK
-    catchrate 30
+    catchrate ENABLE_CATCH_RATE_CHANGES ? 45 : 30
     baseexp 0 // defined in baseexp.s
     evyields 0, 2, 0, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
@@ -9401,7 +9403,7 @@ mondata SPECIES_SALAMENCE, "Salamence"
 mondata SPECIES_BELDUM, "Beldum"
     basestats 40, 55, 80, 30, 35, 60
     types TYPE_STEEL, TYPE_PSYCHIC
-    catchrate 3
+    catchrate ENABLE_CATCH_RATE_CHANGES ? 45 : 3
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 1, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
@@ -9423,7 +9425,7 @@ mondata SPECIES_BELDUM, "Beldum"
 mondata SPECIES_METANG, "Metang"
     basestats 60, 75, 100, 50, 55, 80
     types TYPE_STEEL, TYPE_PSYCHIC
-    catchrate 3
+    catchrate ENABLE_CATCH_RATE_CHANGES ? 45 : 3
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 2, 0, 0, 0
     items ITEM_METAL_COAT, ITEM_METAL_COAT
@@ -9445,7 +9447,7 @@ mondata SPECIES_METANG, "Metang"
 mondata SPECIES_METAGROSS, "Metagross"
     basestats 80, 135, 130, 70, 95, 90
     types TYPE_STEEL, TYPE_PSYCHIC
-    catchrate 3
+    catchrate ENABLE_CATCH_RATE_CHANGES ? 45 : 3
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 3, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
@@ -9634,7 +9636,7 @@ mondata SPECIES_RAYQUAZA, "Rayquaza"
 mondata SPECIES_JIRACHI, "Jirachi"
     basestats 100, 100, 100, 100, 100, 100
     types TYPE_STEEL, TYPE_PSYCHIC
-    catchrate 3
+    catchrate ENABLE_CATCH_RATE_CHANGES ? 45 : 3
     baseexp 0 // defined in baseexp.s
     evyields 3, 0, 0, 0, 0, 0
     items ITEM_STAR_PIECE, ITEM_STAR_PIECE
@@ -10414,7 +10416,7 @@ mondata SPECIES_COMBEE, "Combee"
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 1, 0, 0
     items ITEM_HONEY, ITEM_HONEY
-    genderratio 31
+    genderratio ENABLE_GENDER_CHANGES ? 254 : 31
     eggcycles SHORT_EGG_CYCLE ? 0 : 15
     basefriendship 70 // raised up again
     growthrate GROWTH_MEDIUM_SLOW
@@ -11034,7 +11036,7 @@ mondata SPECIES_CHATOT, "Chatot"
         basestats 76, 65, 45, 91, 92, 42
     .endif
     types TYPE_NORMAL, TYPE_FLYING
-    catchrate 30
+    catchrate ENABLE_CATCH_RATE_CHANGES ? 45 : 30
     baseexp 0 // defined in baseexp.s
     evyields 0, 1, 0, 0, 0, 0
     items ITEM_METRONOME, ITEM_METRONOME
@@ -11433,7 +11435,7 @@ mondata SPECIES_LUMINEON, "Lumineon"
 mondata SPECIES_MANTYKE, "Mantyke"
     basestats 45, 20, 50, 50, 60, 120
     types TYPE_WATER, TYPE_FLYING
-    catchrate 25
+    catchrate ENABLE_CATCH_RATE_CHANGES ? 75 : 25
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 0, 1
     items ITEM_NONE, ITEM_NONE
@@ -17397,7 +17399,7 @@ mondata SPECIES_LITLEO, "Litleo"
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 1, 0
     items ITEM_NONE, ITEM_NONE
-    genderratio 222
+    genderratio ENABLE_GENDER_CHANGES ? 190 : 222
     eggcycles SHORT_EGG_CYCLE ? 0 : 20
     basefriendship 70
     growthrate GROWTH_MEDIUM_SLOW
@@ -17423,7 +17425,7 @@ mondata SPECIES_PYROAR, "Pyroar"
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 2, 0
     items ITEM_NONE, ITEM_NONE
-    genderratio 222
+    genderratio 0 // Male Pyroar
     eggcycles SHORT_EGG_CYCLE ? 0 : 20
     basefriendship 70
     growthrate GROWTH_MEDIUM_SLOW

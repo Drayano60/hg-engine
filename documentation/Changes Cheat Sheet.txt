@@ -61,7 +61,7 @@ Crobat: A2 (Infiltrator), A3 (Merciless)
 Oddish: A2 (Own Tempo)
 Gloom: A2 (Own Tempo)
 Vileplume: A2 (Own Tempo)
-Bellossom: A2 (Own Tempo), A3 (Leaf Guard, replaces Healer)
+Bellossom: A2 (Own Tempo), A3 (Rhythmic, replaces Healer)
 
 Paras: A3 (Poison Heal, replaces Damp)
 Parasect: A3 (Poison Heal, replaces Damp), Atk 95 -> 105, Def 80 -> 90, SpAtk 60 -> 80, SpDef 80 -> 90
@@ -139,8 +139,9 @@ Starmie: A3 (Regenerator, replaces Analytic)
 
 Scyther: A3 (Sharpness, replaces Steadfast)
 
-Smoochum: A2 (Own Tempo, replaces Forewarn)
-Jynx: A2 (Own Tempo, replaces Forewarn), SpAtk 115 -> 125
+Smoochum: A2 (Hydration, replaces Forewarn), A3 (Own Tempo)
+Jynx: A2 (Dry Skin, replaces Forewarn), A3 (Rhythmic), SpAtk 115 -> 125
+- Rhythmic powers up a move by 20% if the move was also used the previous turn
 
 Electivire: A3 (Iron Fist, replaces Vital Spirit)
 
@@ -279,7 +280,7 @@ Wurmple: A2 (Run Away), A3 (Poison Point)
 Beautifly: A2 (Rivalry), A3 (Berserk), Atk 70 -> 80, Speed 65 -> 85
 Dustox: A2 (Compound Eyes), A3 (Toxic Scales), Def 70 -> 80, SpAtk 50 -> 70, SpDef 90 -> 100
 
-Ludicolo: SpAtk 90 -> 100
+Ludicolo: A3 (Rhythmic), SpAtk 90 -> 100
 
 Seedot: A3 (Frisk, replaces Pickpocket)
 Nuzleaf: A3 (Frisk, replaces Pickpocket)

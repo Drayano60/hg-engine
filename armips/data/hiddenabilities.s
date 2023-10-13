@@ -129,7 +129,7 @@
 /* SPECIES_STARMIE                     */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_REGENERATOR : ABILITY_ANALYTIC
 /* SPECIES_MR_MIME                     */ .halfword ABILITY_TECHNICIAN
 /* SPECIES_SCYTHER                     */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_SHARPNESS : ABILITY_STEADFAST
-/* SPECIES_JYNX                        */ .halfword ABILITY_DRY_SKIN
+/* SPECIES_JYNX                        */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_RHYTHMIC : ABILITY_DRY_SKIN
 /* SPECIES_ELECTABUZZ                  */ .halfword ABILITY_VITAL_SPIRIT
 /* SPECIES_MAGMAR                      */ .halfword ABILITY_VITAL_SPIRIT
 /* SPECIES_PINSIR                      */ .halfword ABILITY_MOXIE
@@ -243,7 +243,7 @@
 /* SPECIES_SMEARGLE                    */ .halfword ABILITY_MOODY
 /* SPECIES_TYROGUE                     */ .halfword ABILITY_VITAL_SPIRIT
 /* SPECIES_HITMONTOP                   */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_CONTRARY : ABILITY_STEADFAST
-/* SPECIES_SMOOCHUM                    */ .halfword ABILITY_HYDRATION
+/* SPECIES_SMOOCHUM                    */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_OWN_TEMPO : ABILITY_HYDRATION
 /* SPECIES_ELEKID                      */ .halfword ABILITY_VITAL_SPIRIT
 /* SPECIES_MAGBY                       */ .halfword ABILITY_VITAL_SPIRIT
 /* SPECIES_MILTANK                     */ .halfword ABILITY_SAP_SIPPER

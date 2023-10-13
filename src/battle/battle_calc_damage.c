@@ -631,9 +631,9 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
         movepower = movepower * 150 / 100;
     }
 
-    // Handle Rhythmic (Bellossom/Ludicolo)
+    // Handle Rhythmic (Jynx/Bellossom/Ludicolo)
     if ((GetBattlerAbility(sp, attacker) == ABILITY_RHYTHMIC) && (sp->current_move_index == sp->waza_no_old[attacker])) {
-        movepower = movepower * 130 / 100;
+        movepower = movepower * 120 / 100;
     }
 
     //handle rocky payload

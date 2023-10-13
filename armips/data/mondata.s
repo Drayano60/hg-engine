@@ -3018,7 +3018,7 @@ mondata SPECIES_SCYTHER, "Scyther"
 
 
 // STATS: 115 SpAtk >> 125 SpAtk | 455 >> 465 BST
-// ABILITY: Own Tempo (2)
+// ABILITY: Dry Skin (2), Rhythmic (HA, New)
 mondata SPECIES_JYNX, "Jynx"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 65, 50, 35, 95, 125, 95
@@ -3036,7 +3036,7 @@ mondata SPECIES_JYNX, "Jynx"
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_HUMAN_LIKE, EGG_GROUP_HUMAN_LIKE
     .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_OBLIVIOUS, ABILITY_OWN_TEMPO
+        abilities ABILITY_OBLIVIOUS, ABILITY_DRY_SKIN
     .else
         abilities ABILITY_OBLIVIOUS, ABILITY_FOREWARN
     .endif
@@ -4490,7 +4490,7 @@ mondata SPECIES_AMPHAROS, "Ampharos"
 
 
 // TYPES: Grass >> Grass/Fairy
-// ABILITY: Own Tempo (2)
+// ABILITY: Own Tempo (2), Rhythmic (HA, New)
 mondata SPECIES_BELLOSSOM, "Bellossom"
     basestats 75, 80, 95, 50, 90, 100
     .if TYPE_CHANGES_IMPLEMENTED
@@ -5887,7 +5887,7 @@ mondata SPECIES_HITMONTOP, "Hitmontop"
     mondexweight SPECIES_HITMONTOP, "105.8 lbs."
 
 
-// ABILITY: Own Tempo (2)
+// ABILITY: Hydration (2), Own Tempo (HA)
 mondata SPECIES_SMOOCHUM, "Smoochum"
     basestats 45, 30, 15, 65, 85, 65
     types TYPE_ICE, TYPE_PSYCHIC
@@ -5901,7 +5901,7 @@ mondata SPECIES_SMOOCHUM, "Smoochum"
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
     .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_OBLIVIOUS, ABILITY_OWN_TEMPO
+        abilities ABILITY_OBLIVIOUS, ABILITY_HYDRATION
     .else
         abilities ABILITY_OBLIVIOUS, ABILITY_FOREWARN
     .endif
@@ -6743,6 +6743,7 @@ mondata SPECIES_LOMBRE, "Lombre"
 
 
 // STATS: 90 >> 100 SpAtk | 480 >> 490 BST
+// ABILITY: Rhythmic (HA, New)
 mondata SPECIES_LUDICOLO, "Ludicolo"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 80, 70, 70, 70, 100, 100

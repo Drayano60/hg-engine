@@ -418,7 +418,7 @@ After making its attack, the user\nrushes back to switch places with a\nparty Po
 The user shoots scales two to five\ntimes in a row. This move boosts the\nuser’s Speed but lowers its Defense.
 The user gathers all its light energy\nand releases it at once. It has a 10%\nchance to lower the foe’s Sp. Def stat.
 The user creates a bizarre space in\nwhich slower Pokémon get to move\nfirst for five turns.
-The foe is cut with a scythe or a claw.\nCritical hits land more easily. It can\nalso be used to cut down thin trees.
+The foe is cut with a scythe or a claw.\nIt can also be used to cut down thin\ntrees.
 The user soars, then strikes on the\nsecond turn. It can also be used to\nfly to any familiar town.
 It swamps the entire battlefield with\na giant wave. It can also be used\nto cross water.
 The foe is slugged with a punch. It has\na 10% chance to increase the user’s\nAttack. It can also move boulders.

@@ -456,6 +456,7 @@ mondata SPECIES_BEEDRILL, "Beedrill"
 
 
 // STATS: 35 >> 55 SpAtk | 251 >> 271 BST
+// ABILITY: Gale Wings (HA)
 mondata SPECIES_PIDGEY, "Pidgey"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 40, 45, 40, 56, 55, 35
@@ -482,6 +483,7 @@ mondata SPECIES_PIDGEY, "Pidgey"
 
 
 // STATS: 50 >> 75 SpAtk | 349 >> 374 BST
+// ABILITY: Gale Wings (HA)
 mondata SPECIES_PIDGEOTTO, "Pidgeotto"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 63, 60, 55, 71, 75, 50
@@ -508,7 +510,7 @@ mondata SPECIES_PIDGEOTTO, "Pidgeotto"
 
 
 // STATS: 70 >> 110 SpAtk | 479 >> 519 BST
-// ABILITY: No Guard (HA)
+// ABILITY: Gale Wings (HA)
 mondata SPECIES_PIDGEOT, "Pidgeot"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 83, 80, 75, 101, 110, 70
@@ -3283,7 +3285,7 @@ mondata SPECIES_VAPOREON, "Vaporeon"
     mondexweight SPECIES_VAPOREON, "63.9 lbs."
 
 
-// ABILITY: Quick Feet (2), Static (HA)
+// ABILITY: Quick Feet (2), Galvanize (HA)
 mondata SPECIES_JOLTEON, "Jolteon"
     basestats 65, 65, 60, 130, 110, 95
     types TYPE_ELECTRIC, TYPE_ELECTRIC
@@ -3682,14 +3684,9 @@ mondata SPECIES_CHIKORITA, "Chikorita"
     mondexweight SPECIES_CHIKORITA, "14.1 lbs."
 
 
-// STATS: 63 >> 73 SpAtk | 60 >> 50 Speed
 // ABILITY: Leaf Guard (2), Calming Aroma (HA, New)
 mondata SPECIES_BAYLEEF, "Bayleef"
-    .if STAT_CHANGES_IMPLEMENTED
-        basestats 60, 62, 80, 50, 73, 80
-    .else
-        basestats 60, 62, 80, 60, 63, 80
-    .endif
+    basestats 60, 62, 80, 60, 63, 80
     types TYPE_GRASS, TYPE_GRASS
     catchrate 45
     baseexp 0 // defined in baseexp.s
@@ -3713,12 +3710,12 @@ mondata SPECIES_BAYLEEF, "Bayleef"
     mondexweight SPECIES_BAYLEEF, "34.8 lbs."
 
 
-// STATS: 100 >> 110 Def | 83 >> 93 SpAtk | 100 >> 110 SpDef | 80 >> 60 Spd | 525 >> 535 BST
+// STATS: 80 >> 90 HP | 525 >> 535 BST
 // TYPES: Grass >> Grass/Fairy
 // ABILITY: Triage (2), Calming Aroma (HA, New)
 mondata SPECIES_MEGANIUM, "Meganium"
     .if STAT_CHANGES_IMPLEMENTED
-        basestats 80, 82, 110, 60, 93, 110
+        basestats 90, 82, 100, 80, 83, 100
     .else
         basestats 80, 82, 100, 80, 83, 100
     .endif
@@ -11735,7 +11732,7 @@ mondata SPECIES_LEAFEON, "Leafeon"
     mondexweight SPECIES_LEAFEON, "56.2 lbs."
 
 
-// ABILITY: Ice Body (1), Slush Rush (2), Ice Spikes (HA, New)
+// ABILITY: Slush Rush (2), Refrigerate (HA)
 mondata SPECIES_GLACEON, "Glaceon"
     basestats 65, 60, 110, 65, 130, 95
     types TYPE_ICE, TYPE_ICE
@@ -11749,7 +11746,7 @@ mondata SPECIES_GLACEON, "Glaceon"
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_ICE_BODY, ABILITY_SLUSH_RUSH
+        abilities ABILITY_SNOW_CLOAK, ABILITY_SLUSH_RUSH
     .else
         abilities ABILITY_SNOW_CLOAK, ABILITY_SNOW_CLOAK
     .endif

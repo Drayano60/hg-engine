@@ -23,9 +23,9 @@ Butterfree: A2 (Tinted Lens), A3 (Befuddle), SpAtk 90 -> 100, SpDef 80 -> 90, Sp
 Weedle: A2 (Run Away), A3 (Poison Point)
 Beedrill: A2 (Sniper), A3 (Poison Touch), Atk 90 -> 100, SpDef 80 -> 90, Speed 75 -> 85
 
-Pidgey: SpAtk 35 -> 55
-Pidgeotto: SpAtk 50 -> 75
-Pidgeot: A3 (No Guard, replaces Big Pecks), SpAtk 70 -> 110
+Pidgey: A3 (Gale Wings, replaces Big Pecks), SpAtk 35 -> 55
+Pidgeotto: A3 (Gale Wings, replaces Big Pecks), SpAtk 50 -> 75
+Pidgeot: A3 (Gale Wings, replaces Big Pecks), SpAtk 70 -> 110
 Mega Pidgeot: Def 80 -> 100, SpDef 80 -> 100
 
 Rattata: A1 (Guts, replaces Run Away)
@@ -152,22 +152,21 @@ Tauros: Atk 100 -> 110, SpAtk 40 -> 30
 Ditto: All Abilities (Imposter, replaces Limber)
 
 Vaporeon: A2 (Hydration), A3 (Storm Drain), Atk 65 -> 60, Def 60 -> 65
-Jolteon: A2 (Quick Feet), A3 (Static)
+Jolteon: A2 (Quick Feet), A3 (Galvanize)
 Flareon: A2 (Guts), A3 (Fur Cushion), SpAtk 95 -> 65, Speed 65 -> 95
 - Fur Cushion prevents recoil damage from the user's moves (e.g. Flare Blitz)
 Espeon: A2 (Solar Power)
 Umbreon: A2 (Inner Focus), A3 (Poison Sweat)
 - Poison Sweat has a 30% chance of poisoning a foe that makes contact (Poison Point clone)
 Leafeon: A2 (Chlorophyll), A3 (Sharpness)
-Glaceon: A1 (Ice Body, replaces Snow Cloak), A2 (Slush Rush), A3 (Ice Spikes)
-- Ice Spikes damages a foe that makes contact for 1/8 of their health (Rough Skin clone)
+Glaceon: A2 (Slush Rush), A3 (Refrigerate)
 Sylveon: A2 (Wonder Skin)
 
 Kabutops: A3 (Sharpness, replaces Weak Armor)
 
 Chikorita: A2 (Leaf Guard), A3 (Calming Aroma)
-Bayleef: A2 (Leaf Guard), A3 (Calming Aroma), SpAtk 63 -> 73, Speed 60 -> 50
-Meganium: A2 (Triage), A3 (Calming Aroma), Def 100 -> 110, SpAtk 83 -> 93, SpDef 100 -> 110, Speed 80 -> 60
+Bayleef: A2 (Leaf Guard), A3 (Calming Aroma)
+Meganium: A2 (Triage), A3 (Calming Aroma), HP 80 -> 90
 - Calming Aroma lowers the Atk and SpAtk of all other Pokémon in battle by one stage when the Pokémon enters battle
 
 Cyndaquil: A2 (Flash Fire), A3 (Heat Up)

@@ -8646,10 +8646,9 @@ levelup SPECIES_VIBRAVA
     learnset MOVE_BOOMBURST, 60
     terminatelearnset
 
-// NEW: Sand Song (New), Lunge, Quiver Dance
+// NEW: Lunge, Quiver Dance
 levelup SPECIES_FLYGON
     learnset MOVE_FIRST_IMPRESSION, 1
-    learnset MOVE_DRAGON_CLAW, 1
     learnset MOVE_DRAGON_DANCE, 1
     learnset MOVE_FEINT, 1
     learnset MOVE_SANDSTORM, 1
@@ -8670,7 +8669,7 @@ levelup SPECIES_FLYGON
     learnset MOVE_EARTH_POWER, 36
     learnset MOVE_BUG_BUZZ, 40
     learnset MOVE_EARTHQUAKE, 44
-    learnset MOVE_SAND_SONG, 45
+    learnset MOVE_DRAGON_CLAW, 45
     learnset MOVE_UPROAR, 48
     learnset MOVE_DRAGON_RUSH, 52
     learnset MOVE_QUIVER_DANCE, 56

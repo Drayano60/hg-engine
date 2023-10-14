@@ -30,10 +30,21 @@ a010_697:
     loadparticle 0, 140
     waitstate
     unloadspriteresource
+    loadparticle 1, 93
+
+
     resetsprite 0
     resetsprite 1
     resetsprite 2
     resetsprite 3
+
+    playsepanmod 1530, -117, 117, 4, 2
+    addparticle 1, 0, 17
+    cmd37 6, 0, 2, 6, 1, 4096, 0, "NaN", "NaN"
+    cmd37 5, 3, 0, 0, 0, 0, "NaN", "NaN", "NaN"
+
+    wait 80
+
     addparticle 0, 1, 19
     addparticle 0, 0, 19
     playsepan 1990, -117

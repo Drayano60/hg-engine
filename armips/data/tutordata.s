@@ -3684,15 +3684,16 @@ TUTOR_MOVE_HEX | TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_FOU
 tutordata SPECIES_TREVENANT,\
 TUTOR_MOVE_BRUTAL_SWING | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_MAGICAL_LEAF | TUTOR_MOVE_TRAILBLAZE | 0,\
 TUTOR_MOVE_HEX | TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_POLTERGEIST | TUTOR_MOVE_KNOCK_OFF | 0
- 
-tutordata SPECIES_PUMPKABOO,\
-TUTOR_MOVE_GYRO_BALL | TUTOR_MOVE_INCINERATE | 0,\
-TUTOR_MOVE_HEX | TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_POLTERGEIST | 0
- 
-tutordata SPECIES_GOURGEIST,\
-TUTOR_MOVE_BRUTAL_SWING | TUTOR_MOVE_GYRO_BALL | TUTOR_MOVE_INCINERATE | 0,\
-TUTOR_MOVE_HEX | TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_POLTERGEIST | TUTOR_MOVE_POWER_WHIP | 0
- 
+
+SPECIES_PUMPKABOO_TUTOR_DATA_1 equ TUTOR_MOVE_GYRO_BALL | TUTOR_MOVE_INCINERATE | 0
+SPECIES_PUMPKABOO_TUTOR_DATA_2 equ TUTOR_MOVE_HEX | TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_POLTERGEIST | 0
+
+SPECIES_GOURGEIST_TUTOR_DATA_1 equ TUTOR_MOVE_BRUTAL_SWING | TUTOR_MOVE_GYRO_BALL | TUTOR_MOVE_INCINERATE | 0
+SPECIES_GOURGEIST_TUTOR_DATA_2 equ TUTOR_MOVE_HEX | TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_POLTERGEIST | TUTOR_MOVE_POWER_WHIP | 0
+
+tutordata SPECIES_PUMPKABOO, SPECIES_PUMPKABOO_TUTOR_DATA_1, SPECIES_PUMPKABOO_TUTOR_DATA_2
+tutordata SPECIES_GOURGEIST, SPECIES_GOURGEIST_TUTOR_DATA_1, SPECIES_GOURGEIST_TUTOR_DATA_2
+
 tutordata SPECIES_BERGMITE,\
 TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_GYRO_BALL | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_WATER_PULSE | 0,\
 TUTOR_MOVE_DOUBLE_EDGE | 0
@@ -8472,72 +8473,13 @@ tutordata SPECIES_AEGISLASH_BLADE, \
                   \
                   0
 
+tutordata SPECIES_PUMPKABOO_SMALL, SPECIES_PUMPKABOO_TUTOR_DATA_1, SPECIES_PUMPKABOO_TUTOR_DATA_2
+tutordata SPECIES_PUMPKABOO_LARGE, SPECIES_PUMPKABOO_TUTOR_DATA_1, SPECIES_PUMPKABOO_TUTOR_DATA_2
+tutordata SPECIES_PUMPKABOO_SUPER, SPECIES_PUMPKABOO_TUTOR_DATA_1, SPECIES_PUMPKABOO_TUTOR_DATA_2
 
-tutordata SPECIES_PUMPKABOO_SMALL, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_PUMPKABOO_LARGE, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_PUMPKABOO_SUPER, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_GOURGEIST_SMALL, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_GOURGEIST_LARGE, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_GOURGEIST_SUPER, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
+tutordata SPECIES_GOURGEIST_SMALL, SPECIES_GOURGEIST_TUTOR_DATA_1, SPECIES_GOURGEIST_TUTOR_DATA_2
+tutordata SPECIES_GOURGEIST_LARGE, SPECIES_GOURGEIST_TUTOR_DATA_1, SPECIES_GOURGEIST_TUTOR_DATA_2
+tutordata SPECIES_GOURGEIST_SUPER, SPECIES_GOURGEIST_TUTOR_DATA_1, SPECIES_GOURGEIST_TUTOR_DATA_2
 
 tutordata SPECIES_XERNEAS_ACTIVE, \
                   \

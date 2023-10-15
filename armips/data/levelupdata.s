@@ -16478,9 +16478,9 @@ levelup SPECIES_INKAY
     learnset MOVE_LIQUIDATION, 45
     learnset MOVE_SWITCHEROO, 49
     learnset MOVE_SUPERPOWER, 53
-    learnset MOVE_DESTINY_BOND, 57
 	terminatelearnset
 
+// NEW: Psycho Boost
 levelup SPECIES_MALAMAR
     learnset MOVE_ACUPRESSURE, 1
     learnset MOVE_REVERSAL, 1
@@ -16503,7 +16503,7 @@ levelup SPECIES_MALAMAR
     learnset MOVE_LIQUIDATION, 45
     learnset MOVE_SWITCHEROO, 49
     learnset MOVE_SUPERPOWER, 53
-    learnset MOVE_DESTINY_BOND, 57
+    learnset MOVE_PSYCHO_BOOST, 57
 	terminatelearnset
 
 levelup SPECIES_BINACLE

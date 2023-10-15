@@ -3660,7 +3660,7 @@ mondata SPECIES_MEW, "Mew"
     mondexweight SPECIES_MEW, "8.8 lbs."
 
 
-// ABILITY: Leaf Guard (2), Calming Aroma (HA, New)
+// ABILITY: Leaf Guard (2), Triage (HA)
 mondata SPECIES_CHIKORITA, "Chikorita"
     basestats 45, 49, 65, 45, 49, 65
     types TYPE_GRASS, TYPE_GRASS
@@ -3686,7 +3686,7 @@ mondata SPECIES_CHIKORITA, "Chikorita"
     mondexweight SPECIES_CHIKORITA, "14.1 lbs."
 
 
-// ABILITY: Leaf Guard (2), Calming Aroma (HA, New)
+// ABILITY: Leaf Guard (2), Triage (HA)
 mondata SPECIES_BAYLEEF, "Bayleef"
     basestats 60, 62, 80, 60, 63, 80
     types TYPE_GRASS, TYPE_GRASS
@@ -3714,7 +3714,7 @@ mondata SPECIES_BAYLEEF, "Bayleef"
 
 // STATS: 80 >> 90 HP | 525 >> 535 BST
 // TYPES: Grass >> Grass/Fairy
-// ABILITY: Triage (2), Calming Aroma (HA, New)
+// ABILITY: Flower Veil (2), Triage (HA)
 mondata SPECIES_MEGANIUM, "Meganium"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 90, 82, 100, 80, 83, 100
@@ -3736,7 +3736,7 @@ mondata SPECIES_MEGANIUM, "Meganium"
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_GRASS
     .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_OVERGROW, ABILITY_TRIAGE
+        abilities ABILITY_OVERGROW, ABILITY_FLOWER_VEIL
     .else
         abilities ABILITY_OVERGROW, ABILITY_NONE
     .endif
@@ -8156,7 +8156,7 @@ mondata SPECIES_GRUMPIG, "Grumpig"
 
 
 // STATS: 60 >> 75 HP | 60 >> 75 Atk | 60 >> 75 Def | 60 >> 75 SpAtk | 60 >> 75 SpDef | 60 >> 75 Spd | 360 >> 450 BST
-// ABILITY: Totter Steps (2, New)
+// ABILITY: Totter Steps (1, 2, New)
 mondata SPECIES_SPINDA, "Spinda"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 75, 75, 75, 75, 75, 75
@@ -8174,7 +8174,7 @@ mondata SPECIES_SPINDA, "Spinda"
     growthrate GROWTH_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_HUMAN_LIKE
     .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_OWN_TEMPO, ABILITY_TOTTER_STEPS
+        abilities ABILITY_TOTTER_STEPS, ABILITY_TOTTER_STEPS
     .else
         abilities ABILITY_OWN_TEMPO, ABILITY_TANGLED_FEET
     .endif

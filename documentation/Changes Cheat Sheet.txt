@@ -164,9 +164,9 @@ Sylveon: A2 (Wonder Skin)
 
 Kabutops: A3 (Sharpness, replaces Weak Armor)
 
-Chikorita: A2 (Leaf Guard), A3 (Calming Aroma)
-Bayleef: A2 (Leaf Guard), A3 (Calming Aroma)
-Meganium: A2 (Triage), A3 (Calming Aroma), HP 80 -> 90
+Chikorita: A2 (Leaf Guard), A3 (Triage)
+Bayleef: A2 (Leaf Guard), A3 (Triage)
+Meganium: A2 (Flower Veil), A3 (Triage, replaces Leaf Guard), HP 80 -> 90
 - Calming Aroma lowers the Atk and SpAtk of all other Pokémon in battle by one stage when the Pokémon enters battle
 
 Cyndaquil: A2 (Flash Fire), A3 (Heat Up)
@@ -356,7 +356,7 @@ Torkoal: A2 (Shell Armor), A3 (Drought)
 Spoink: A3 (Magic Bounce, replaces Gluttony)
 Grumpig: A3 (Magic Bounce, replaces Gluttony), SpAtk 90 -> 100
 
-Spinda: A2 (Totter Steps, replaces Tangled Feet), All stats 60 -> 75
+Spinda: A1 (Totter Steps, replaces Own Tempo), A2 (Totter Steps, replaces Tangled Feet), All stats 60 -> 75
 - Totter Steps reduces the accuracy of moves targeting Spinda by 10%
 
 Vibrava: A2 (Sand Veil), A3 (Tinted Lens), SpAtk 50 -> 70, Speed 70 -> 90

@@ -211,7 +211,7 @@ Protects the Pokémon\nfrom Taunt, Attract, etc.
 Prevents the Pokémon\nfrom falling asleep.
 Changes form when it uses\nProtect or if it attacks.
 Boosts the Pokémon’s\nDefense stat by 20%.
-Restores 33% HP as well\nwhen it eats a Berry.
+Restores 33% HP as well\nafter eating most Berries.
 Lowers Attack and Sp. Atk\nof all Pokémon on entry.
 Powers up moves by 50%\nwhen at 25% HP or less.
 Powers up Psychic-type\nmoves by 50%.

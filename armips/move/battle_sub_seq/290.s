@@ -13,6 +13,14 @@
 // Mostly berries, but also includes the White Herb, Mental Herb
 
 a001_290:
+    /* Just skipping for consumable items that use this subscript but shouldn't activate Cheek Pouch */
+    ifmonstat IF_EQUAL, BATTLER_xFF, MON_DATA_ITEM, ITEM_MENTAL_HERB, _Remove
+    ifmonstat IF_EQUAL, BATTLER_xFF, MON_DATA_ITEM, ITEM_WHITE_HERB, _Remove
+    if IF_MASK, VAR_ATTACKER_STATUS, 0x2, _001C
+    removeitem BATTLER_xFF
+    gotosubscript 473 // Cheek Pouch
+    goto _001C
+_Remove:
     if IF_MASK, VAR_ATTACKER_STATUS, 0x2, _001C
     removeitem BATTLER_xFF
 _001C:

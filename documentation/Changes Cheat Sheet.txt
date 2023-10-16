@@ -465,7 +465,7 @@ Mothim: A2 (Shield Dust), Atk 94 -> 99, SpAtk 94 -> 99, Speed 66 -> 86
 Combee: A2 (Swarm)
 Vespiquen: A2 (Queenly Majesty), HP 70 -> 80
 
-Pachirisu: A1 (Static, replaces Run Away), HP 60 -> 70, Def 70 -> 80, Speed 95 -> 105
+Pachirisu: A1 (Cheek Pouch, replaces Run Away), HP 60 -> 70, Def 70 -> 80, Speed 95 -> 105
 
 Buizel: A3 (Technician, replaces Water Veil)
 Floatzel: A3 (Technician, replaces Water Veil)
@@ -588,8 +588,7 @@ Froakie: A2 (Infiltrator)
 Froagdier: A2 (Infiltrator)
 Greninja: A2 (Infiltrator), Atk 95 -> 100
 
-Bunnelby: A2 (Gluttony, replaces Cheek Pouch as it doesn't exist yet)
-Diggersby: A2 (Gluttony, replaces Cheek Pouch as it doesn't exist yet), 85 -> 95 HP
+Diggersby: 85 -> 95 HP
 
 Vivillon: SpAtk 90 -> 100, Speed 89 -> 99
 
@@ -614,7 +613,7 @@ Barbaracle: A3 (Frisk, replaces Pickpocket)
 Skrelp: SpDef 60 -> 70
 Dragalge: SpDef 123 -> 129
 
-Dedenne: A1 (Gluttony, replaces Cheek Pouch which doesn't exist), A3 (Lightning Rod, replaces Plus), SpAtk 81 -> 85
+Dedenne: A3 (Lightning Rod, replaces Plus), SpAtk 81 -> 85
 
 Klefki: A3 (Prankster, replaces Magician which doesn't exist)
 

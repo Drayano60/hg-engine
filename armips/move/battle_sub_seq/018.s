@@ -20,6 +20,7 @@ a001_018:
     abilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_INSOMNIA, _032C
     abilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_VITAL_SPIRIT, _032C
     abilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_SWEET_VEIL, _032C
+    abilitycheck 0x0, BATTLER_ALLY | BATTLER_ADDL_EFFECT, ABILITY_SWEET_VEIL, _032C
     checkcloudnine _0080
     if IF_NOTMASK, VAR_FIELD_EFFECT, 0x30, _0080
     abilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_LEAF_GUARD, _032C
@@ -34,6 +35,7 @@ _00E0:
     moldbreakerabilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_INSOMNIA, _032C
     moldbreakerabilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_VITAL_SPIRIT, _032C
     moldbreakerabilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_SWEET_VEIL, _032C
+    moldbreakerabilitycheck 0x0, BATTLER_ALLY | BATTLER_ADDL_EFFECT, ABILITY_SWEET_VEIL, _032C
     checkcloudnine _checkFlowerVeil
     if IF_NOTMASK, VAR_FIELD_EFFECT, 0x30, _checkFlowerVeil
     moldbreakerabilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_LEAF_GUARD, _032C
@@ -105,6 +107,7 @@ _032C:
     wait 0x1E
 _0378:
     abilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_SWEET_VEIL, _SweetVeilMsg
+    abilitycheck 0x0, BATTLER_ALLY | BATTLER_ADDL_EFFECT, ABILITY_SWEET_VEIL, _SweetVeilMsg
     printmessage 0x149, 0xB, 0x7, 0x7, "NaN", "NaN", "NaN", "NaN"
     goto _052C
     printmessage 0x2D7, 0x35, 0x7, 0x7, 0xFF, 0x15, "NaN", "NaN"

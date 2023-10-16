@@ -13,6 +13,7 @@
 
 a001_127:
     moldbreakerabilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_AROMA_VEIL, _AromaVeil
+    moldbreakerabilitycheck 0x0, BATTLER_ALLY | BATTLER_ADDL_EFFECT, ABILITY_AROMA_VEIL, _AromaVeil
     ifmonstat IF_MASK, BATTLER_DEFENDER, MON_DATA_STATUS_2, 0x80000000, _0068
     if IF_MASK, VAR_MOVE_STATUS, 0x10001, _0068
     gotosubscript 76

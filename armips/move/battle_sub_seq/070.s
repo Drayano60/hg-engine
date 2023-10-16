@@ -13,6 +13,7 @@
 
 a001_070:
     moldbreakerabilitycheck 0x0, BATTLER_DEFENDER, ABILITY_AROMA_VEIL, _AromaVeil
+    moldbreakerabilitycheck 0x0, BATTLER_ALLY | BATTLER_DEFENDER, ABILITY_AROMA_VEIL, _AromaVeil
     if IF_MASK, VAR_MOVE_STATUS, 0x10001, _0048
     trydisable _0048
     gotosubscript 76

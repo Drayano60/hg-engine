@@ -259,6 +259,13 @@ BOOL CalcAccuracy(void *bw, struct BattleStruct *sp, int attacker, int defender,
         }
     }
 
+    // Handle Wonder Skin
+    // If a status move is used against a Pokémon with Wonder Skin, reduce the base accuracy to 50% (if above 50%).
+    if ((MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_WONDER_SKIN) == TRUE) && (sp->moveTbl[move_no].split == SPLIT_STATUS) && (accuracy > 50))
+    {
+        accuracy = 50;
+    }
+
     accuracy *= sAccStatChanges[temp].numerator;
     accuracy /= sAccStatChanges[temp].denominator;
 
@@ -271,12 +278,6 @@ BOOL CalcAccuracy(void *bw, struct BattleStruct *sp, int attacker, int defender,
     if (GetBattlerAbility(sp,attacker) == ABILITY_COMPOUND_EYES)
     {
         accuracy = accuracy * 130 / 100;
-    }
-
-    //handle Wonder Skin
-    if ((MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_WONDER_SKIN) == TRUE) && (sp->moveTbl[move_no].split == SPLIT_STATUS))
-    {
-        accuracy = accuracy * 50 / 100;
     }
 
     // Handle Spinda's custom ability, Totter Steps

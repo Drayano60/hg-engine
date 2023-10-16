@@ -14,6 +14,7 @@
 a001_073:
     /* Encore has a different battler thingy set so we use BATTLER_DEFENDER instead */
     moldbreakerabilitycheck 0x0, BATTLER_DEFENDER, ABILITY_AROMA_VEIL, _AromaVeil
+    moldbreakerabilitycheck 0x0, BATTLER_ALLY | BATTLER_DEFENDER, ABILITY_AROMA_VEIL, _AromaVeil
     tryencore _002C
     gotosubscript 76
     printmessage 0x174, 0x2, 0x2, "NaN", "NaN", "NaN", "NaN", "NaN"

@@ -14,6 +14,7 @@
 a001_106:
     moldbreakerabilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_OBLIVIOUS, _00E0
     moldbreakerabilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_AROMA_VEIL, _AromaVeil
+    moldbreakerabilitycheck 0x0, BATTLER_ALLY | BATTLER_ADDL_EFFECT, ABILITY_AROMA_VEIL, _AromaVeil
     if IF_MASK, VAR_MOVE_STATUS, 0x10001, _01B4
     tryattract _01B4
     gotosubscript 76

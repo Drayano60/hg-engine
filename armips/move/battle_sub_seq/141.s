@@ -14,10 +14,13 @@
 
 /* Yawn turn 1 */
 
+// This might be the wrong message for an ally Sweet Veil atm
+
 a001_141:
     moldbreakerabilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_INSOMNIA, _010C
     moldbreakerabilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_VITAL_SPIRIT, _010C
     moldbreakerabilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_SWEET_VEIL, _010C
+    moldbreakerabilitycheck 0x0, BATTLER_ALLY | BATTLER_ADDL_EFFECT, ABILITY_SWEET_VEIL, _010C
     checkcloudnine _checkFlowerVeil
     if IF_NOTMASK, VAR_FIELD_EFFECT, 0x30, _checkFlowerVeil
     moldbreakerabilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_LEAF_GUARD, _010C

@@ -14,6 +14,7 @@
 a001_132:
     moldbreakerabilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_OBLIVIOUS, _Oblivious
     moldbreakerabilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_AROMA_VEIL, _AromaVeil
+    moldbreakerabilitycheck 0x0, BATTLER_ALLY | BATTLER_ADDL_EFFECT, ABILITY_AROMA_VEIL, _AromaVeil
     ifmonstat IF_NOTEQUAL, BATTLER_DEFENDER, MON_DATA_TAUNT_COUNTER, 0x0, _0074
     if IF_MASK, VAR_MOVE_STATUS, 0x10001, _0074
     gotosubscript 76

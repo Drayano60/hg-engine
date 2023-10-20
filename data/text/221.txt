@@ -662,7 +662,7 @@ Clear Amulet Description
 Covert Cloak Description
 Gimmighoul Coin Description
 A shard of what appears to be an old\nblade of some sort.\nIt is loved by a certain Pokémon.
-Loaded Dice Description
+An item to be held by a Pokémon.\nThis loaded dice ensures the holder’s\nmultistrike moves hit at least 4 times.
 Malicious Armor Description
 Mirror Herb Description
 Punching Glove Description

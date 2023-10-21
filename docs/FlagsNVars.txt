@@ -66,6 +66,8 @@ NPCs:
 2165 - After speaking to the lady in Route 36's gatehouse.
 2166 - Odd Egg received.
 2167 - Teleporter NPC spoken to.
+2168 - Loaded Dice gift in Goldenrod Game Corner. 
+2169 - Covert Cloak gift in Mahogany Mart.
 
 2175* - Safari Rocket event active.
 2176 - Safari Rocket event inactive.

@@ -192,6 +192,9 @@ Route 34
 ✓ The first time you talk to the Day-Care Man, he'll give you an "Odd Egg" which can be any of the baby Pokémon except for Togepi. The Pokémon will always have its hidden ability.
 
 Goldenrod City
+✓ The Game Corner now uses the building from the Japanese versions but still has Voltorb Flip on the machines. It's still header 536 but with the textures/map file pointing to the old stuff.
+✓ Added a bunch of NPCs to the Game Corner with various dialogue, as well as one who gives you the Loaded Dice.
+✓ The Mystery Dungeon Sky reference also returns with six Pokémon overworlds (who just give some flavour text).
 ✓ Added an NPC in the Game Corner who can sell you coins for money.
 ✓ Changed the purchasable Pokémon to be Abra, Clefairy and Porygon.
 ✓ Changed the purchasable TMs to be TM01 Hone Claws, TM48 Skill Swap, TM56 Fling, TM77 Psych Up, TM82 Sleep Talk and TM87 Swagger.
@@ -289,6 +292,7 @@ Mahogany Town
 ✓ Edited dialogue in Pokémon Center to reference this game's version of evolving/level up moves.
 ✓ Janine shows up in the Pokémon Center after the Safari Zone events. She'll battle you and award you TM06 Toxic, but she disappears after becoming Champion.
 ✓ Ejected the current residents of the house and placed three weather researchers there. One gives you TM20 Weather Ball, another gives you a Castform gift.
+✓ An old man in the back of the Pokémon Center gives you the Covert Cloak.
 
 Route 44
 ✓ Rearranged trainers.

@@ -73,6 +73,7 @@ _checkFlowerVeil3:
 _01C0:
     if IF_NOTEQUAL, VAR_ADD_EFFECT_TYPE, 0x2, _01E8
     moldbreakerabilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_SHIELD_DUST, _0450
+    ifmonstat IF_EQUAL, BATTLER_ADDL_EFFECT, MON_DATA_ITEM, ITEM_COVERT_CLOAK, _0450
 _01E8:
     if IF_NOTEQUAL, VAR_ADD_EFFECT_TYPE, 0x1, _0204
     printattackmessage

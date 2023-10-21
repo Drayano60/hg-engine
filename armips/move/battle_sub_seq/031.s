@@ -29,6 +29,7 @@ _checkGrassTypeForFlowerVeil:
 _0044:
     if IF_NOTEQUAL, VAR_ADD_EFFECT_TYPE, 0x2, _006C
     moldbreakerabilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_SHIELD_DUST, _01F0
+    ifmonstat IF_EQUAL, BATTLER_ADDL_EFFECT, MON_DATA_ITEM, ITEM_COVERT_CLOAK, _01F0
 _006C:
     if IF_NOTEQUAL, VAR_ADD_EFFECT_TYPE, 0x1, _0088
     printattackmessage

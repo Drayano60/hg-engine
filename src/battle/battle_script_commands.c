@@ -1790,8 +1790,11 @@ BOOL btl_scr_cmd_33_statbuffchange(void *bw, struct BattleStruct *sp)
                         return FALSE;
                     }
                 }
-                else if ((MoldBreakerAbilityCheck(sp, sp->attack_client, sp->state_client, ABILITY_SHIELD_DUST) == TRUE)
-                      && (sp->addeffect_type == ADD_EFFECT_INDIRECT))
+                else if
+                (
+                    ((MoldBreakerAbilityCheck(sp, sp->attack_client, sp->state_client, ABILITY_SHIELD_DUST) == TRUE) || (sp->battlemon[sp->state_client].item == ITEM_COVERT_CLOAK))
+                    && (sp->addeffect_type == ADD_EFFECT_INDIRECT)
+                )
                 {
                     flag = 1;
                 }

@@ -3865,13 +3865,12 @@ levelup SPECIES_GYARADOS
     learnset MOVE_HYPER_BEAM, 65
     terminatelearnset
 
-// NEW: Aqua Ring
 levelup SPECIES_LAPRAS
     learnset MOVE_WATER_GUN, 1
     learnset MOVE_GROWL, 1
     learnset MOVE_SING, 1
     learnset MOVE_MIST, 4
-    learnset MOVE_AQUA_RING, 8
+    learnset MOVE_LIFE_DEW, 8
     learnset MOVE_ICE_SHARD, 12
     learnset MOVE_ECHOED_VOICE, 16
     learnset MOVE_WATER_PULSE, 20

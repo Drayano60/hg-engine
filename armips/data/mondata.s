@@ -458,7 +458,6 @@ mondata SPECIES_BEEDRILL, "Beedrill"
 
 
 // STATS: 35 >> 55 SpAtk | 251 >> 271 BST
-// ABILITY: Gale Wings (HA)
 mondata SPECIES_PIDGEY, "Pidgey"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 40, 45, 40, 56, 55, 35
@@ -485,7 +484,6 @@ mondata SPECIES_PIDGEY, "Pidgey"
 
 
 // STATS: 50 >> 75 SpAtk | 349 >> 374 BST
-// ABILITY: Gale Wings (HA)
 mondata SPECIES_PIDGEOTTO, "Pidgeotto"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 63, 60, 55, 71, 75, 50
@@ -512,7 +510,7 @@ mondata SPECIES_PIDGEOTTO, "Pidgeotto"
 
 
 // STATS: 70 >> 110 SpAtk | 479 >> 519 BST
-// ABILITY: Gale Wings (HA)
+// ABILITY: Wind Whipper (HA, New)
 mondata SPECIES_PIDGEOT, "Pidgeot"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 83, 80, 75, 101, 110, 70
@@ -24970,10 +24968,10 @@ mondata SPECIES_MEGA_BEEDRILL, "-----"
     runchance 25
     colorflip 0, 0
     
-// 80 >> 100 Def | 80 >> 100 SpDef | 579 >> 619 BST
+// 80 >> 95 Def | 135 >> 145 SpAtk | 80 >> 95 SpDef | 579 >> 619 BST
 mondata SPECIES_MEGA_PIDGEOT, "-----"
     .if STAT_CHANGES_IMPLEMENTED
-        basestats 83, 80, 100, 121, 135, 100
+        basestats 83, 80, 95, 121, 145, 95
     .else
         basestats 83, 80, 80, 121, 135, 80
     .endif

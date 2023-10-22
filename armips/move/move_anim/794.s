@@ -9,7 +9,7 @@
 
 .create "build/move/move_anim/0_794", 0
 
-// Life Dew - half of Water Sport with darkened bg
+// Life Dew - half of Water Sport followed by Aromatherapy heal anm, using dark bg
 
 a010_794:
     initspriteresource
@@ -40,6 +40,17 @@ a010_794:
     wait 10
     waitparticle
     unloadparticle 0
+
+    loadparticle 0, 330
+    waitstate
+    unloadspriteresource
+
+    waitse 1808, -117, 23
+    addparticle 0, 3, 19
+    addparticle 0, 1, 19
+    callfunction 34, 6, 2, 0, 1, 32767, 10, 0, "NaN", "NaN", "NaN", "NaN"
+    callfunction 34, 6, 4, 0, 1, 32767, 10, 0, "NaN", "NaN", "NaN", "NaN"
+    waitstate
 
     callfunction 33, 5, 0, 1, 12, 0, 0, "NaN", "NaN", "NaN", "NaN", "NaN"
 

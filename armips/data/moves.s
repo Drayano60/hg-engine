@@ -13649,6 +13649,7 @@ movedata MOVE_LIFE_DEW, "Life Dew"
     appeal 0
     contesttype 0
     terminatedata
+    movedescription MOVE_LIFE_DEW, "The user scatters\nmysterious water,\nrestoring the HP of\nboth itself and its\nally by one-quarter."
 
 movedata MOVE_OBSTRUCT, "Obstruct"
     battleeffect 0

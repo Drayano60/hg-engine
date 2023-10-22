@@ -185,6 +185,7 @@ levelup SPECIES_WARTORTLE
 // NEW: Zap Cannon (G2 Event)
 levelup SPECIES_BLASTOISE
     learnset MOVE_AURA_SPHERE, 1
+    learnset MOVE_LIFE_DEW, 1
     learnset MOVE_MIRROR_COAT, 1
     learnset MOVE_ZAP_CANNON, 1
     learnset MOVE_TACKLE, 1
@@ -859,10 +860,11 @@ levelup SPECIES_CLEFAIRY
     learnset MOVE_POUND, 1
     learnset MOVE_GROWL, 1
     learnset MOVE_SING, 1
+    learnset MOVE_DISARMING_VOICE, 1
     learnset MOVE_DEFENSE_CURL, 3
-    learnset MOVE_DISARMING_VOICE, 6
-    learnset MOVE_DOUBLE_SLAP, 9
-    learnset MOVE_METRONOME, 12
+    learnset MOVE_DOUBLE_SLAP, 6
+    learnset MOVE_METRONOME, 9
+    learnset MOVE_LIFE_DEW, 12
     learnset MOVE_DRAINING_KISS, 15
     learnset MOVE_FOLLOW_ME, 18
     learnset MOVE_MINIMIZE, 21
@@ -888,10 +890,11 @@ levelup SPECIES_CLEFABLE
     learnset MOVE_POUND, 1
     learnset MOVE_GROWL, 1
     learnset MOVE_SING, 1
+    learnset MOVE_DISARMING_VOICE, 1
     learnset MOVE_DEFENSE_CURL, 3
-    learnset MOVE_DISARMING_VOICE, 6
-    learnset MOVE_DOUBLE_SLAP, 9
-    learnset MOVE_METRONOME, 12
+    learnset MOVE_DOUBLE_SLAP, 6
+    learnset MOVE_METRONOME, 9
+    learnset MOVE_LIFE_DEW, 12
     learnset MOVE_DRAINING_KISS, 15
     learnset MOVE_FOLLOW_ME, 18
     learnset MOVE_MINIMIZE, 21
@@ -2557,6 +2560,7 @@ levelup SPECIES_CLOYSTER
     learnset MOVE_ROCK_BLAST, 1
     learnset MOVE_SPIKE_CANNON, 1
     learnset MOVE_TOXIC_SPIKES, 1
+    learnset MOVE_LIFE_DEW, 1
     learnset MOVE_TACKLE, 1
     learnset MOVE_WITHDRAW, 1
     learnset MOVE_SUPERSONIC, 1
@@ -3238,11 +3242,12 @@ levelup SPECIES_CHANSEY
     learnset MOVE_HELPING_HAND, 1
     learnset MOVE_POUND, 1
     learnset MOVE_GROWL, 1
+    learnset MOVE_TAIL_WHIP, 1
     learnset MOVE_DEFENSE_CURL, 1
-    learnset MOVE_TAIL_WHIP, 4
-    learnset MOVE_DOUBLE_SLAP, 8
+    learnset MOVE_DOUBLE_SLAP, 4
+    learnset MOVE_SING, 8
     learnset MOVE_REFRESH, 12
-    learnset MOVE_SING, 16
+    learnset MOVE_LIFE_DEW, 16
     learnset MOVE_ECHOED_VOICE, 20
     learnset MOVE_MINIMIZE, 24
     learnset MOVE_FLING, 28
@@ -3260,11 +3265,12 @@ levelup SPECIES_BLISSEY
     learnset MOVE_HELPING_HAND, 1
     learnset MOVE_POUND, 1
     learnset MOVE_GROWL, 1
+    learnset MOVE_TAIL_WHIP, 1
     learnset MOVE_DEFENSE_CURL, 1
-    learnset MOVE_TAIL_WHIP, 4
-    learnset MOVE_DOUBLE_SLAP, 8
+    learnset MOVE_DOUBLE_SLAP, 4
+    learnset MOVE_SING, 8
     learnset MOVE_REFRESH, 12
-    learnset MOVE_SING, 16
+    learnset MOVE_LIFE_DEW, 16
     learnset MOVE_ECHOED_VOICE, 20
     learnset MOVE_MINIMIZE, 24
     learnset MOVE_FLING, 28
@@ -4532,6 +4538,7 @@ levelup SPECIES_DRAGONITE
 // NEW: Teleport (LGPE)
 levelup SPECIES_MEWTWO
     learnset MOVE_PSYWAVE, 1
+    learnset MOVE_LIFE_DEW, 1
     learnset MOVE_ME_FIRST, 1
     learnset MOVE_MIRACLE_EYE, 1
     learnset MOVE_PSYCH_UP, 1
@@ -4561,9 +4568,10 @@ levelup SPECIES_MEW
     learnset MOVE_POUND, 1
     learnset MOVE_MEGA_PUNCH, 1
     learnset MOVE_TRANSFORM, 1
-    learnset MOVE_AMNESIA, 5
+    learnset MOVE_LIFE_DEW, 5
     learnset MOVE_BATON_PASS, 10
     learnset MOVE_ANCIENT_POWER, 15
+    learnset MOVE_AMNESIA, 20
     learnset MOVE_BARRIER, 20
     learnset MOVE_NASTY_PLOT, 25
     learnset MOVE_METRONOME, 30
@@ -5035,13 +5043,14 @@ levelup SPECIES_LANTURN
 
 // NEW: Fairy Wind (PLA), Baby-Doll Eyes (PLA), Moonblast (PLA)
 levelup SPECIES_TOGEPI
+    learnset MOVE_BABY_DOLL_EYES, 1
     learnset MOVE_HELPING_HAND, 1
     learnset MOVE_GROWL, 1
     learnset MOVE_POUND, 1
     learnset MOVE_METRONOME, 1
     learnset MOVE_SWEET_KISS, 3
     learnset MOVE_FAIRY_WIND, 6
-    learnset MOVE_BABY_DOLL_EYES, 9
+    learnset MOVE_LIFE_DEW, 9
     learnset MOVE_LUCKY_CHANT, 12
     learnset MOVE_ANCIENT_POWER, 15
     learnset MOVE_ENCORE, 18
@@ -5060,13 +5069,14 @@ levelup SPECIES_TOGEPI
 levelup SPECIES_TOGETIC
     learnset MOVE_AIR_CUTTER, 1
     learnset MOVE_MAGICAL_LEAF, 1
+    learnset MOVE_BABY_DOLL_EYES, 1
     learnset MOVE_HELPING_HAND, 1
     learnset MOVE_GROWL, 1
     learnset MOVE_POUND, 1
     learnset MOVE_METRONOME, 1
     learnset MOVE_SWEET_KISS, 3
     learnset MOVE_FAIRY_WIND, 6
-    learnset MOVE_BABY_DOLL_EYES, 9
+    learnset MOVE_LIFE_DEW, 9
     learnset MOVE_LUCKY_CHANT, 12
     learnset MOVE_ANCIENT_POWER, 15
     learnset MOVE_ENCORE, 18
@@ -5089,13 +5099,14 @@ levelup SPECIES_TOGEKISS
     learnset MOVE_TRI_ATTACK, 1
     learnset MOVE_AIR_CUTTER, 1
     learnset MOVE_MAGICAL_LEAF, 1
+    learnset MOVE_BABY_DOLL_EYES, 1
     learnset MOVE_HELPING_HAND, 1
     learnset MOVE_GROWL, 1
     learnset MOVE_POUND, 1
     learnset MOVE_METRONOME, 1
     learnset MOVE_SWEET_KISS, 3
     learnset MOVE_FAIRY_WIND, 6
-    learnset MOVE_BABY_DOLL_EYES, 9
+    learnset MOVE_LIFE_DEW, 9
     learnset MOVE_LUCKY_CHANT, 12
     learnset MOVE_ANCIENT_POWER, 15
     learnset MOVE_ENCORE, 18
@@ -6286,14 +6297,15 @@ levelup SPECIES_CORSOLA
     learnset MOVE_LUCKY_CHANT, 12
     learnset MOVE_ANCIENT_POWER, 16
     learnset MOVE_BUBBLE_BEAM, 20
-    learnset MOVE_BARRIER, 24
-    learnset MOVE_BRINE, 28
-    learnset MOVE_AMNESIA, 32
-    learnset MOVE_RECOVER, 36
-    learnset MOVE_POWER_GEM, 40
-    learnset MOVE_EARTH_POWER, 44
-    learnset MOVE_MIRROR_COAT, 48
-    learnset MOVE_HEAD_SMASH, 52
+    learnset MOVE_LIFE_DEW, 24
+    learnset MOVE_BARRIER, 28
+    learnset MOVE_BRINE, 32
+    learnset MOVE_AMNESIA, 36
+    learnset MOVE_RECOVER, 40
+    learnset MOVE_POWER_GEM, 44
+    learnset MOVE_EARTH_POWER, 48
+    learnset MOVE_MIRROR_COAT, 52
+    learnset MOVE_HEAD_SMASH, 56
     terminatelearnset
 
 levelup SPECIES_REMORAID
@@ -6778,7 +6790,7 @@ levelup SPECIES_HO_OH
     learnset MOVE_WHIRLWIND, 1
     learnset MOVE_WEATHER_BALL, 1
     learnset MOVE_ANCIENT_POWER, 1
-    learnset MOVE_MYSTICAL_FIRE, 7
+    learnset MOVE_LIFE_DEW, 7
     learnset MOVE_SAFEGUARD, 14
     learnset MOVE_CALM_MIND, 21
     learnset MOVE_EXTRASENSORY, 28
@@ -6794,11 +6806,12 @@ levelup SPECIES_HO_OH
     terminatelearnset
 
 levelup SPECIES_CELEBI
+    learnset MOVE_MAGICAL_LEAF, 1
     learnset MOVE_CONFUSION, 1
     learnset MOVE_HEAL_BELL, 1
     learnset MOVE_SAFEGUARD, 1
     learnset MOVE_NATURAL_GIFT, 1
-    learnset MOVE_MAGICAL_LEAF, 5
+    learnset MOVE_LIFE_DEW, 5
     learnset MOVE_BATON_PASS, 10
     learnset MOVE_ANCIENT_POWER, 15
     learnset MOVE_HEAL_BLOCK, 20
@@ -7409,7 +7422,7 @@ levelup SPECIES_RALTS
     learnset MOVE_LUCKY_CHANT, 12
     learnset MOVE_DRAINING_KISS, 15
     learnset MOVE_PSYBEAM, 18
-    learnset MOVE_MAGICAL_LEAF, 22
+    learnset MOVE_LIFE_DEW, 22
     learnset MOVE_CHARM, 26
     learnset MOVE_CALM_MIND, 35
     learnset MOVE_PSYCHIC, 40
@@ -7420,6 +7433,7 @@ levelup SPECIES_RALTS
     terminatelearnset
 
 levelup SPECIES_KIRLIA
+    learnset MOVE_MAGICAL_LEAF, 1
     learnset MOVE_GROWL, 1
     learnset MOVE_TELEPORT, 1
     learnset MOVE_DISARMING_VOICE, 1
@@ -7429,7 +7443,7 @@ levelup SPECIES_KIRLIA
     learnset MOVE_LUCKY_CHANT, 12
     learnset MOVE_DRAINING_KISS, 15
     learnset MOVE_PSYBEAM, 18
-    learnset MOVE_MAGICAL_LEAF, 22
+    learnset MOVE_LIFE_DEW, 22
     learnset MOVE_CHARM, 26
     learnset MOVE_CALM_MIND, 35
     learnset MOVE_PSYCHIC, 40
@@ -7444,6 +7458,7 @@ levelup SPECIES_GARDEVOIR
     learnset MOVE_CAPTIVATE, 1
     learnset MOVE_IMPRISON, 1
     learnset MOVE_WISH, 1
+    learnset MOVE_MAGICAL_LEAF, 1
     learnset MOVE_GROWL, 1
     learnset MOVE_TELEPORT, 1
     learnset MOVE_DISARMING_VOICE, 1
@@ -7453,7 +7468,7 @@ levelup SPECIES_GARDEVOIR
     learnset MOVE_LUCKY_CHANT, 12
     learnset MOVE_DRAINING_KISS, 15
     learnset MOVE_PSYBEAM, 18
-    learnset MOVE_MAGICAL_LEAF, 22
+    learnset MOVE_LIFE_DEW, 22
     learnset MOVE_CHARM, 26
     learnset MOVE_DAZZLING_GLEAM, 30
     learnset MOVE_CALM_MIND, 35
@@ -7475,6 +7490,7 @@ levelup SPECIES_GALLADE
     learnset MOVE_HELPING_HAND, 1
     learnset MOVE_IMPRISON, 1
     learnset MOVE_SLASH, 1
+    learnset MOVE_MAGICAL_LEAF, 1
     learnset MOVE_LEER, 1
     learnset MOVE_TELEPORT, 1
     learnset MOVE_FURY_CUTTER, 1
@@ -8283,8 +8299,8 @@ levelup SPECIES_BUDEW
     learnset MOVE_WATER_SPORT, 1 
     learnset MOVE_STUN_SPORE, 5 
     learnset MOVE_MEGA_DRAIN, 10 
-    learnset MOVE_WORRY_SEED, 15
-    learnset MOVE_SLEEP_POWDER, 20
+    learnset MOVE_LIFE_DEW, 15
+    learnset MOVE_WORRY_SEED, 20
     learnset MOVE_EXTRASENSORY, 25 
     terminatelearnset
 
@@ -8313,6 +8329,7 @@ levelup SPECIES_ROSERADE
     learnset MOVE_PETAL_BLIZZARD, 1
     learnset MOVE_WEATHER_BALL, 1
     learnset MOVE_EXTRASENSORY, 1
+    learnset MOVE_LIFE_DEW, 1
     learnset MOVE_SPIKES, 1
     learnset MOVE_ABSORB, 1
     learnset MOVE_GROWTH, 1
@@ -9135,16 +9152,17 @@ levelup SPECIES_MILOTIC
     learnset MOVE_TWISTER, 4
     learnset MOVE_REFRESH, 8
     learnset MOVE_ATTRACT, 12
-    learnset MOVE_SAFEGUARD, 16
+    learnset MOVE_LIFE_DEW, 16
     learnset MOVE_AQUA_RING, 20
     learnset MOVE_DRAGON_TAIL, 24
-    learnset MOVE_CAPTIVATE, 28
-    learnset MOVE_RECOVER, 32
-    learnset MOVE_RAIN_DANCE, 36
-    learnset MOVE_MIRROR_COAT, 40
-    learnset MOVE_HYPNOSIS, 44
-    learnset MOVE_COIL, 48
-    learnset MOVE_HYDRO_PUMP, 52
+    learnset MOVE_SAFEGUARD, 28
+    learnset MOVE_CAPTIVATE, 32
+    learnset MOVE_RECOVER, 36
+    learnset MOVE_RAIN_DANCE, 40
+    learnset MOVE_MIRROR_COAT, 44
+    learnset MOVE_HYPNOSIS, 48
+    learnset MOVE_COIL, 52
+    learnset MOVE_HYDRO_PUMP, 56
     terminatelearnset
 
 // NEW: Tri Attack
@@ -10009,7 +10027,8 @@ levelup SPECIES_JIRACHI
     learnset MOVE_TELEPORT, 1
     learnset MOVE_CONFUSION, 1
     learnset MOVE_WISH, 1
-    learnset MOVE_SWIFT, 5
+    learnset MOVE_SWIFT, 1
+    learnset MOVE_LIFE_DEW, 5
     learnset MOVE_HELPING_HAND, 10
     learnset MOVE_REFRESH, 15
     learnset MOVE_ZEN_HEADBUTT, 20
@@ -11352,6 +11371,7 @@ levelup SPECIES_LUCARIO
     learnset MOVE_AURA_SPHERE, 1
     learnset MOVE_BULLET_PUNCH, 1
     learnset MOVE_BLAZE_KICK, 1
+    learnset MOVE_LIFE_DEW, 1
     learnset MOVE_VACUUM_WAVE, 1
     learnset MOVE_QUICK_ATTACK, 1
     learnset MOVE_FORESIGHT, 1
@@ -11969,11 +11989,12 @@ levelup SPECIES_CRESSELIA
     learnset MOVE_LUNAR_DANCE, 72
     terminatelearnset
 
-// NEW: Zen Headbutt (PLA), Moonblast (PLA), Hydro Pump (PLA)
+// NEW: Zen Headbutt (PLA), Moonblast (PLA), Hydro Pump (PLA), Life Dew
 levelup SPECIES_PHIONE
     learnset MOVE_BUBBLE, 1
+    learnset MOVE_CHARM, 1
     learnset MOVE_WATER_SPORT, 1
-    learnset MOVE_CHARM, 5
+    learnset MOVE_LIFE_DEW, 5
     learnset MOVE_SUPERSONIC, 10
     learnset MOVE_BUBBLE_BEAM, 15
     learnset MOVE_ACID_ARMOR, 20
@@ -11988,12 +12009,13 @@ levelup SPECIES_PHIONE
     learnset MOVE_HYDRO_PUMP, 65
     terminatelearnset
 
-// NEW: Zen Headbutt (PLA), Moonblast (PLA), Hydro Pump (PLA)
+// NEW: Zen Headbutt (PLA), Moonblast (PLA), Hydro Pump (PLA), Life Dew
 levelup SPECIES_MANAPHY
     learnset MOVE_TAIL_GLOW, 1
     learnset MOVE_BUBBLE, 1
+    learnset MOVE_CHARM, 1
     learnset MOVE_WATER_SPORT, 1
-    learnset MOVE_CHARM, 5
+    learnset MOVE_LIFE_DEW, 5
     learnset MOVE_SUPERSONIC, 10
     learnset MOVE_BUBBLE_BEAM, 15
     learnset MOVE_ACID_ARMOR, 20
@@ -13066,13 +13088,14 @@ levelup SPECIES_AUDINO
     learnset MOVE_POUND, 1
     learnset MOVE_GROWL, 1
     learnset MOVE_PLAY_NICE, 1
-    learnset MOVE_HELPING_HAND, 3
-    learnset MOVE_DISARMING_VOICE, 6
-    learnset MOVE_BABY_DOLL_EYES, 9
-    learnset MOVE_LUCKY_CHANT, 12
-    learnset MOVE_DOUBLE_SLAP, 15
-    learnset MOVE_REFRESH, 18
-    learnset MOVE_YAWN, 21
+    learnset MOVE_HELPING_HAND, 1
+    learnset MOVE_DISARMING_VOICE, 3
+    learnset MOVE_BABY_DOLL_EYES, 6
+    learnset MOVE_LUCKY_CHANT, 9
+    learnset MOVE_DOUBLE_SLAP, 12
+    learnset MOVE_REFRESH, 15
+    learnset MOVE_YAWN, 18
+    learnset MOVE_LIFE_DEW, 21
     learnset MOVE_SECRET_POWER, 24
     learnset MOVE_ENCORE, 28
     learnset MOVE_TAKE_DOWN, 32
@@ -16845,6 +16868,7 @@ levelup SPECIES_SLIGGOO
 
 levelup SPECIES_GOODRA
     learnset MOVE_ACID_ARMOR, 1
+    learnset MOVE_LIFE_DEW, 1
     learnset MOVE_FEINT, 1
     learnset MOVE_POISON_TAIL, 1
     learnset MOVE_TEARFUL_LOOK, 1
@@ -20925,6 +20949,7 @@ levelup SPECIES_MEGA_CHARIZARD_Y
 
 levelup SPECIES_MEGA_BLASTOISE
     learnset MOVE_AURA_SPHERE, 1
+    learnset MOVE_LIFE_DEW, 1
     learnset MOVE_MIRROR_COAT, 1
     learnset MOVE_ZAP_CANNON, 1
     learnset MOVE_TACKLE, 1

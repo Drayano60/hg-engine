@@ -13636,18 +13636,18 @@ movedata MOVE_STRANGE_STEAM, "Strange Steam"
     terminatedata
 
 movedata MOVE_LIFE_DEW, "Life Dew"
-    battleeffect 0
+    battleeffect 32
     pss SPLIT_STATUS
     basepower 0
     type TYPE_WATER
     accuracy 0
     pp 10
     effectchance 0
-    target MOVE_TARGET_USER_SIDE
+    target MOVE_TARGET_ALLY
     priority 0
-    flags FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_MAGIC_COAT
-    appeal 0x00
-    contesttype CONTEST_COOL
+    flags FLAG_SNATCH
+    appeal 0
+    contesttype 0
     terminatedata
 
 movedata MOVE_OBSTRUCT, "Obstruct"

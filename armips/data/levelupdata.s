@@ -4728,7 +4728,7 @@ levelup SPECIES_TYPHLOSION
     learnset MOVE_ERUPTION, 60
     terminatelearnset
 
-// NEW: Wave Crash
+// NEW: Liquidation, Wave Crash
 levelup SPECIES_TOTODILE
     learnset MOVE_SCRATCH, 1
     learnset MOVE_LEER, 1
@@ -4743,12 +4743,12 @@ levelup SPECIES_TOTODILE
     learnset MOVE_AQUA_TAIL, 35
     learnset MOVE_SCREECH, 40
     learnset MOVE_THRASH, 45
-    learnset MOVE_SUPERPOWER, 50
-    learnset MOVE_HYDRO_PUMP, 55
+    learnset MOVE_LIQUIDATION, 50
+    learnset MOVE_SUPERPOWER, 55
     learnset MOVE_WAVE_CRASH, 60
     terminatelearnset
 
-// NEW: Wave Crash
+// NEW: Liquidation, Wave Crash
 levelup SPECIES_CROCONAW
     learnset MOVE_SCRATCH, 1
     learnset MOVE_LEER, 1
@@ -4764,8 +4764,8 @@ levelup SPECIES_CROCONAW
     learnset MOVE_AQUA_TAIL, 35
     learnset MOVE_SCREECH, 40
     learnset MOVE_THRASH, 45
-    learnset MOVE_SUPERPOWER, 50
-    learnset MOVE_HYDRO_PUMP, 55
+    learnset MOVE_LIQUIDATION, 50
+    learnset MOVE_SUPERPOWER, 55
     learnset MOVE_WAVE_CRASH, 60
     terminatelearnset
 
@@ -4790,8 +4790,8 @@ levelup SPECIES_FERALIGATR
     learnset MOVE_AQUA_TAIL, 35
     learnset MOVE_SCREECH, 40
     learnset MOVE_THRASH, 45
-    learnset MOVE_SUPERPOWER, 50
-    learnset MOVE_HYDRO_PUMP, 55
+    learnset MOVE_LIQUIDATION, 50
+    learnset MOVE_SUPERPOWER, 55
     learnset MOVE_WAVE_CRASH, 60
     terminatelearnset
 

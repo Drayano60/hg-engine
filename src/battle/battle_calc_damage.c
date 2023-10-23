@@ -279,6 +279,11 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
     movetype = GetAdjustedMoveType(sp, attacker, moveno);
     movepower = movepower * sp->damage_value / 10;
 
+    // Handle Infernal Parade's status effect. Handled here so AI can read it.
+    if (moveno == MOVE_INFERNAL_PARADE && DefendingMon.condition != 0) {
+        movepower = movepower * 2;
+    }
+
     // handle charge
     if ((sp->battlemon[attacker].effect_of_moves & MOVE_EFFECT_FLAG_CHARGE) && (movetype == TYPE_ELECTRIC))
         movepower *= 2;

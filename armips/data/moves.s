@@ -9271,7 +9271,7 @@ movedata MOVE_HEX, "Hex"
     appeal 0
     contesttype 0
     terminatedata
-    movedescription MOVE_HEX, "This relentless\nattack does massive\ndamage to a target\naffected by status\nconditions."
+    movedescription MOVE_HEX, "This relentless\nattack does double\ndamage to a target\naffected by status\nconditions."
 
 movedata MOVE_SKY_DROP, "Sky Drop"
     battleeffect 0
@@ -14451,19 +14451,20 @@ movedata MOVE_TRIPLE_ARROWS, "Triple Arrows"
     terminatedata
 
 movedata MOVE_INFERNAL_PARADE, "Infernal Parade"
-    battleeffect 0
+    battleeffect 4
     pss SPLIT_SPECIAL
     basepower 60
     type TYPE_GHOST
     accuracy 100
     pp 15
-    effectchance 0
+    effectchance 30
     target MOVE_TARGET_SELECTED
     priority 0
-    flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
-    appeal 0x00
-    contesttype CONTEST_COOL
+    flags FLAG_PROTECT | FLAG_MIRROR_MOVE
+    appeal 0
+    contesttype 0
     terminatedata
+    movedescription MOVE_INFERNAL_PARADE, "Deals double damage\nto a target with a\nstatus condition.\nIt has a 30% chance\nto burn the target."
 
 movedata MOVE_CEASELESS_EDGE, "Ceaseless Edge"
     battleeffect 0
@@ -15038,6 +15039,7 @@ movedata MOVE_TIDY_UP, "Tidy Up"
     appeal 0
     contesttype 0
     terminatedata
+    movedescription MOVE_TIDY_UP, "The user tidies up,\nremoving substitutes,\nscreens and traps.\nThe user’s Attack\nand Speed are raised."
 
 movedata MOVE_SNOWSCAPE, "Snowscape"
     battleeffect 0

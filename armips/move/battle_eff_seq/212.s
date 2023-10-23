@@ -13,7 +13,11 @@
 
 a030_212:
     gotosubscript 441
+    if IF_EQUAL, VAR_CURRENT_MOVE, MOVE_TIDY_UP, TidyUp
     changevar VAR_OP_SET, VAR_ADD_STATUS1, 0x4000003B
+    endscript
+TidyUp: // Done to share Dragon Dance AI
+    changevar VAR_OP_SET, VAR_ADD_STATUS1, 0x40000000 | 170
     endscript
 
 .close

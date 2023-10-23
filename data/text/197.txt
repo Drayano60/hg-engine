@@ -1468,3 +1468,7 @@ The foe’s {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nwafts through the area!
 {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nlights up the area!
 The wild {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nlights up the area!
 The foe’s {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nlights up the area!
+Tidying up complete!
+{STRVAR_1 1, 0, 0} put the\n{STRVAR_1 6, 1, 0} away!
+The wild {STRVAR_1 1, 0, 0} put the\n{STRVAR_1 6, 1, 0} away!
+The foe’s {STRVAR_1 1, 0, 0} put the\n{STRVAR_1 6, 1, 0} away!

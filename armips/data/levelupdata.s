@@ -4810,13 +4810,13 @@ levelup SPECIES_SENTRET
     learnset MOVE_TAIL_SLAP, 28
     learnset MOVE_SUCKER_PUNCH, 32
     learnset MOVE_BATON_PASS, 36
-    learnset MOVE_U_TURN, 40
+    learnset MOVE_TIDY_UP, 40
     learnset MOVE_REVERSAL, 44
     learnset MOVE_ME_FIRST, 48
     learnset MOVE_DOUBLE_EDGE, 52
     terminatelearnset
 
-// NEW: Tail Slap (HOME Datamine), Extreme Speed
+// NEW: Tail Slap (HOME Datamine)
 levelup SPECIES_FURRET
     learnset MOVE_BRUTAL_SWING, 1
     learnset MOVE_AGILITY, 1
@@ -4834,11 +4834,10 @@ levelup SPECIES_FURRET
     learnset MOVE_TAIL_SLAP, 28
     learnset MOVE_SUCKER_PUNCH, 32
     learnset MOVE_BATON_PASS, 36
-    learnset MOVE_U_TURN, 40
+    learnset MOVE_TIDY_UP, 40
     learnset MOVE_REVERSAL, 44
     learnset MOVE_ME_FIRST, 48
     learnset MOVE_DOUBLE_EDGE, 52
-    learnset MOVE_EXTREME_SPEED, 56
     terminatelearnset
 
 // NEW: Esper Wing, Razor Wind
@@ -13992,6 +13991,7 @@ levelup SPECIES_ZOROARK
     learnset MOVE_MEMENTO, 60
     terminatelearnset
 
+// NEW: Tidy Up
 levelup SPECIES_MINCCINO
     learnset MOVE_POUND, 1
     learnset MOVE_TAIL_WHIP, 1
@@ -14008,9 +14008,11 @@ levelup SPECIES_MINCCINO
     learnset MOVE_WAKE_UP_SLAP, 40
     learnset MOVE_HYPER_VOICE, 44
     learnset MOVE_CAPTIVATE, 48
-    learnset MOVE_LAST_RESORT, 52
+    learnset MOVE_TIDY_UP, 52
+    learnset MOVE_LAST_RESORT, 56
     terminatelearnset
 
+// NEW: Tidy Up
 levelup SPECIES_CINCCINO
     learnset MOVE_BULLET_SEED, 1
     learnset MOVE_ROCK_BLAST, 1
@@ -14029,7 +14031,8 @@ levelup SPECIES_CINCCINO
     learnset MOVE_WAKE_UP_SLAP, 40
     learnset MOVE_HYPER_VOICE, 44
     learnset MOVE_CAPTIVATE, 48
-    learnset MOVE_LAST_RESORT, 52
+    learnset MOVE_TIDY_UP, 52
+    learnset MOVE_LAST_RESORT, 56
     terminatelearnset
 
 // Evolution: 24 -> 38

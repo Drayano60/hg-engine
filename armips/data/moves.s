@@ -15025,7 +15025,7 @@ movedata MOVE_CHILLY_RECEPTION, "Chilly Reception"
     terminatedata
 
 movedata MOVE_TIDY_UP, "Tidy Up"
-    battleeffect 0
+    battleeffect 212
     pss SPLIT_STATUS
     basepower 0
     type TYPE_NORMAL
@@ -15034,9 +15034,9 @@ movedata MOVE_TIDY_UP, "Tidy Up"
     effectchance 0
     target MOVE_TARGET_USER
     priority 0
-    flags FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_MAGIC_COAT
-    appeal 0x00
-    contesttype CONTEST_COOL
+    flags 0
+    appeal 0
+    contesttype 0
     terminatedata
 
 movedata MOVE_SNOWSCAPE, "Snowscape"

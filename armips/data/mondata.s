@@ -26427,8 +26427,13 @@ mondata SPECIES_CORSOLA_GALARIAN, "-----"
     colorflip BODY_COLOR_WHITE, 0
     
 
+// STATS: 30 >> 40 Atk | 30 >> 20 SpAtk
 mondata SPECIES_ZIGZAGOON_GALARIAN, "-----"
-    basestats 38, 30, 41, 60, 30, 41
+    .if STAT_CHANGES_IMPLEMENTED
+        basestats 38, 40, 41, 60, 20, 41
+    .else
+        basestats 38, 30, 41, 60, 30, 41
+    .endif
     types TYPE_DARK, TYPE_NORMAL
     catchrate 255
     baseexp 56
@@ -26444,8 +26449,13 @@ mondata SPECIES_ZIGZAGOON_GALARIAN, "-----"
     colorflip BODY_COLOR_WHITE, 0
     
 
+// STATS: 70 >> 80 Atk | 100 >> 110 Speed | 420 >> 440 BST
 mondata SPECIES_LINOONE_GALARIAN, "-----"
-    basestats 78, 70, 61, 100, 50, 61
+    .if STAT_CHANGES_IMPLEMENTED
+        basestats 78, 80, 61, 110, 50, 61
+    .else
+        basestats 78, 70, 61, 100, 50, 61
+    .endif
     types TYPE_DARK, TYPE_NORMAL
     catchrate 90
     baseexp 147

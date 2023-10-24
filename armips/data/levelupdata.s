@@ -7209,6 +7209,76 @@ levelup SPECIES_LINOONE
     learnset MOVE_LAST_RESORT, 54
     terminatelearnset
 
+
+
+levelup SPECIES_ZIGZAGOON_GALARIAN
+    learnset MOVE_TACKLE, 1
+    learnset MOVE_LEER, 1
+    learnset MOVE_LICK, 1
+    learnset MOVE_SAND_ATTACK, 3
+    learnset MOVE_SNARL, 6
+    learnset MOVE_HEADBUTT, 9
+    learnset MOVE_BABY_DOLL_EYES, 12
+    learnset MOVE_PIN_MISSILE, 15
+    learnset MOVE_SCARY_FACE, 18
+    learnset MOVE_TAKE_DOWN, 22
+    learnset MOVE_COUNTER, 26
+    learnset MOVE_REST, 30
+    learnset MOVE_FLING, 34
+    learnset MOVE_PAYBACK, 38
+    learnset MOVE_TAUNT, 42
+    learnset MOVE_SCREECH, 46
+    learnset MOVE_DOUBLE_EDGE, 50
+    learnset MOVE_PARTING_SHOT, 54
+	terminatelearnset
+
+levelup SPECIES_LINOONE_GALARIAN
+    learnset MOVE_TACKLE, 1
+    learnset MOVE_LEER, 1
+    learnset MOVE_LICK, 1
+    learnset MOVE_SAND_ATTACK, 3
+    learnset MOVE_SNARL, 6
+    learnset MOVE_HEADBUTT, 9
+    learnset MOVE_BABY_DOLL_EYES, 12
+    learnset MOVE_PIN_MISSILE, 15
+    learnset MOVE_SCARY_FACE, 18
+    learnset MOVE_NIGHT_SLASH, 20
+    learnset MOVE_TAKE_DOWN, 22
+    learnset MOVE_COUNTER, 26
+    learnset MOVE_REST, 30
+    learnset MOVE_FLING, 34
+    learnset MOVE_PAYBACK, 38
+    learnset MOVE_TAUNT, 42
+    learnset MOVE_SCREECH, 46
+    learnset MOVE_DOUBLE_EDGE, 50
+    learnset MOVE_PARTING_SHOT, 54
+	terminatelearnset
+    
+levelup SPECIES_OBSTAGOON
+    learnset MOVE_CROSS_CHOP, 1
+    learnset MOVE_SUBMISSION, 1
+    learnset MOVE_PROTECT, 1
+    learnset MOVE_TACKLE, 1
+    learnset MOVE_LEER, 1
+    learnset MOVE_LICK, 1
+    learnset MOVE_SAND_ATTACK, 3
+    learnset MOVE_SNARL, 6
+    learnset MOVE_HEADBUTT, 9
+    learnset MOVE_BABY_DOLL_EYES, 12
+    learnset MOVE_PIN_MISSILE, 15
+    learnset MOVE_SCARY_FACE, 18
+    learnset MOVE_NIGHT_SLASH, 20
+    learnset MOVE_TAKE_DOWN, 22
+    learnset MOVE_COUNTER, 26
+    learnset MOVE_REST, 30
+    learnset MOVE_FLING, 34
+    learnset MOVE_PAYBACK, 38
+    learnset MOVE_TAUNT, 42
+    learnset MOVE_SCREECH, 46
+    learnset MOVE_DOUBLE_EDGE, 50
+    learnset MOVE_PARTING_SHOT, 54
+	terminatelearnset
+
 levelup SPECIES_WURMPLE
     learnset MOVE_TACKLE, 1 
     learnset MOVE_STRING_SHOT, 1 
@@ -19694,30 +19764,6 @@ levelup SPECIES_GRIMMSNARL
 	learnset MOVE_HAMMER_ARM, 64
 	terminatelearnset
 
-levelup SPECIES_OBSTAGOON
-	learnset MOVE_OBSTRUCT, 1
-	learnset MOVE_CROSS_CHOP, 1
-	learnset MOVE_SUBMISSION, 1
-	learnset MOVE_NIGHT_SLASH, 1
-	learnset MOVE_SWITCHEROO, 1
-	learnset MOVE_PIN_MISSILE, 1
-	learnset MOVE_BABY_DOLL_EYES, 1
-	learnset MOVE_TACKLE, 1
-	learnset MOVE_LEER, 1
-	learnset MOVE_SAND_ATTACK, 1
-	learnset MOVE_LICK, 1
-	learnset MOVE_SNARL, 9
-	learnset MOVE_HEADBUTT, 12
-	learnset MOVE_HONE_CLAWS, 15
-	learnset MOVE_FURY_SWIPES, 18
-	learnset MOVE_REST, 23
-	learnset MOVE_TAKE_DOWN, 28
-	learnset MOVE_SCARY_FACE, 35
-	learnset MOVE_COUNTER, 42
-	learnset MOVE_TAUNT, 49
-	learnset MOVE_DOUBLE_EDGE, 56
-	terminatelearnset
-
 // NEW: Snatch, Assist, Feint Attack
 levelup SPECIES_PERRSERKER
     learnset MOVE_FOUL_PLAY, 1
@@ -22365,44 +22411,6 @@ levelup SPECIES_SLOWKING_GALARIAN
 	learnset MOVE_PSYCH_UP, 39
 	learnset MOVE_RAIN_DANCE, 42
 	learnset MOVE_HEAL_PULSE, 45
-	terminatelearnset
-
-levelup SPECIES_ZIGZAGOON_GALARIAN
-	learnset MOVE_TACKLE, 1
-	learnset MOVE_LEER, 1
-	learnset MOVE_SAND_ATTACK, 3
-	learnset MOVE_LICK, 6
-	learnset MOVE_SNARL, 9
-	learnset MOVE_HEADBUTT, 12
-	learnset MOVE_BABY_DOLL_EYES, 15
-	learnset MOVE_PIN_MISSILE, 18
-	learnset MOVE_REST, 21
-	learnset MOVE_TAKE_DOWN, 24
-	learnset MOVE_SCARY_FACE, 27
-	learnset MOVE_COUNTER, 30
-	learnset MOVE_TAUNT, 33
-	learnset MOVE_DOUBLE_EDGE, 36
-	terminatelearnset
-
-levelup SPECIES_LINOONE_GALARIAN
-	learnset MOVE_NIGHT_SLASH, 1
-	learnset MOVE_SWITCHEROO, 1
-	learnset MOVE_PIN_MISSILE, 1
-	learnset MOVE_BABY_DOLL_EYES, 1
-	learnset MOVE_TACKLE, 1
-	learnset MOVE_LEER, 1
-	learnset MOVE_SAND_ATTACK, 1
-	learnset MOVE_LICK, 1
-	learnset MOVE_SNARL, 9
-	learnset MOVE_HEADBUTT, 12
-	learnset MOVE_HONE_CLAWS, 15
-	learnset MOVE_FURY_SWIPES, 18
-	learnset MOVE_REST, 23
-	learnset MOVE_TAKE_DOWN, 28
-	learnset MOVE_SCARY_FACE, 33
-	learnset MOVE_COUNTER, 38
-	learnset MOVE_TAUNT, 43
-	learnset MOVE_DOUBLE_EDGE, 48
 	terminatelearnset
 
 levelup SPECIES_DARUMAKA_GALARIAN

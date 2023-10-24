@@ -5321,16 +5321,9 @@ tutordata SPECIES_GRIMMSNARL, \
                   0
 
 
-tutordata SPECIES_OBSTAGOON, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
+tutordata SPECIES_OBSTAGOON,\
+TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_CROSS_POISON | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_CLOSE_COMBAT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_GUNK_SHOT
 
 tutordata SPECIES_PERRSERKER,\
 TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_GYRO_BALL | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_CHARM,\
@@ -7716,25 +7709,13 @@ TUTOR_MOVE_HEX | TUTOR_MOVE_POWER_GEM | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_HYDR
 
 
 tutordata SPECIES_ZIGZAGOON_GALARIAN, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
+TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_GUNK_SHOT
 
 
-tutordata SPECIES_LINOONE_GALARIAN, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
+tutordata SPECIES_LINOONE_GALARIAN,\
+TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_GUNK_SHOT
 
 
 tutordata SPECIES_DARUMAKA_GALARIAN, \

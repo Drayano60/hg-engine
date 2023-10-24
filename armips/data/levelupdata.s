@@ -22217,29 +22217,26 @@ levelup SPECIES_FARFETCHD_GALARIAN
 	terminatelearnset
 
 levelup SPECIES_WEEZING_GALARIAN
-	learnset MOVE_DOUBLE_HIT, 1
-	learnset MOVE_STRANGE_STEAM, 1
-	learnset MOVE_DEFOG, 1
-	learnset MOVE_HEAT_WAVE, 1
-	learnset MOVE_SMOG, 1
-	learnset MOVE_SMOKESCREEN, 1
-	learnset MOVE_HAZE, 1
-	learnset MOVE_POISON_GAS, 1
-	learnset MOVE_TACKLE, 1
-	learnset MOVE_FAIRY_WIND, 1
-	learnset MOVE_AROMATIC_MIST, 1
-	learnset MOVE_CLEAR_SMOG, 12
-	learnset MOVE_ASSURANCE, 16
-	learnset MOVE_SLUDGE, 20
-	learnset MOVE_AROMATHERAPY, 24
-	learnset MOVE_SELF_DESTRUCT, 28
-	learnset MOVE_SLUDGE_BOMB, 32
-	learnset MOVE_TOXIC, 38
-	learnset MOVE_BELCH, 44
-	learnset MOVE_EXPLOSION, 50
-	learnset MOVE_MEMENTO, 56
-	learnset MOVE_DESTINY_BOND, 62
-	learnset MOVE_MISTY_TERRAIN, 68
+    learnset MOVE_HEAT_WAVE, 1
+    learnset MOVE_STRANGE_STEAM, 1
+    learnset MOVE_POISON_GAS, 1
+    learnset MOVE_TACKLE, 1
+    learnset MOVE_SMOG, 1
+    learnset MOVE_SMOKESCREEN, 3
+    learnset MOVE_CLEAR_SMOG, 6
+    learnset MOVE_GYRO_BALL, 9
+    learnset MOVE_ASSURANCE, 12
+    learnset MOVE_SLUDGE, 16
+    learnset MOVE_AROMATHERAPY, 20
+    learnset MOVE_SELF_DESTRUCT, 24
+    learnset MOVE_SLUDGE_BOMB, 28
+    learnset MOVE_PAIN_SPLIT, 32
+    learnset MOVE_DOUBLE_HIT, 35
+    learnset MOVE_TOXIC, 38
+    learnset MOVE_MEMENTO, 44
+    learnset MOVE_GUNK_SHOT, 50
+    learnset MOVE_EXPLOSION, 56
+    learnset MOVE_DESTINY_BOND, 62
 	terminatelearnset
 
 levelup SPECIES_MR_MIME_GALARIAN

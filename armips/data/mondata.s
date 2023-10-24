@@ -26298,8 +26298,13 @@ mondata SPECIES_FARFETCHD_GALARIAN, "-----"
     colorflip BODY_COLOR_BROWN, 0
     
 
+// STATS: 85 >> 95 SpAtk | 490 >> 500 BST
 mondata SPECIES_WEEZING_GALARIAN, "-----"
-    basestats 65, 90, 120, 60, 85, 70
+    .if STAT_CHANGES_IMPLEMENTED
+        basestats 65, 90, 120, 60, 95, 70
+    .else
+        basestats 65, 90, 120, 60, 85, 70
+    .endif
     types TYPE_POISON, TYPE_FAIRY
     catchrate 60
     baseexp 172
@@ -26310,7 +26315,7 @@ mondata SPECIES_WEEZING_GALARIAN, "-----"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_AMORPHOUS, EGG_GROUP_AMORPHOUS
-    abilities ABILITY_LEVITATE,  ABILITY_NEUTRALIZING_GAS
+    abilities ABILITY_LEVITATE, ABILITY_LEVITATE
     runchance 25
     colorflip BODY_COLOR_GRAY, 0
     

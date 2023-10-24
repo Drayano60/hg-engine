@@ -4661,7 +4661,6 @@ levelup SPECIES_MEGANIUM
     learnset MOVE_LEAF_STORM, 60
     terminatelearnset
 
-// NEW: Scorching Sands
 levelup SPECIES_CYNDAQUIL
     learnset MOVE_TACKLE, 1
     learnset MOVE_LEER, 1
@@ -4681,7 +4680,6 @@ levelup SPECIES_CYNDAQUIL
     learnset MOVE_ERUPTION, 60
     terminatelearnset
 
-// NEW: Scorching Sands
 levelup SPECIES_QUILAVA
     learnset MOVE_TACKLE, 1
     learnset MOVE_LEER, 1
@@ -4702,7 +4700,7 @@ levelup SPECIES_QUILAVA
     learnset MOVE_ERUPTION, 60
     terminatelearnset
 
-// NEW: Infernal Blast (Custom), Scorching Sands (HOME Datamine), Raging Fury, Earth Power
+// NEW: Infernal Blast (Custom), Raging Fury, Earth Power
 levelup SPECIES_TYPHLOSION
     learnset MOVE_RAGING_FURY, 1
     learnset MOVE_EARTH_POWER, 1
@@ -24871,27 +24869,28 @@ levelup SPECIES_ELECTRODE_HISUIAN
     terminatelearnset
 
 levelup SPECIES_TYPHLOSION_HISUIAN
-    learnset MOVE_ERUPTION, 1
-    learnset MOVE_DOUBLE_EDGE, 1
+    learnset MOVE_MYSTICAL_FIRE, 1
+    learnset MOVE_SHADOW_BALL, 1
+    learnset MOVE_EXTRASENSORY, 1
     learnset MOVE_GYRO_BALL, 1
     learnset MOVE_TACKLE, 1
     learnset MOVE_LEER, 1
-    learnset MOVE_SMOKESCREEN, 1
-    learnset MOVE_EMBER, 1
+    learnset MOVE_EMBER, 3
     learnset MOVE_SMOKESCREEN, 6
-    learnset MOVE_EMBER, 10
-    learnset MOVE_QUICK_ATTACK, 13
-    learnset MOVE_FLAME_WHEEL, 20
-    learnset MOVE_DEFENSE_CURL, 24
-    learnset MOVE_SWIFT, 31
-    learnset MOVE_HEX, 35
-    learnset MOVE_SHADOW_BALL, 43
-    learnset MOVE_FLAMETHROWER, 48
-    learnset MOVE_INFERNO, 56
-    learnset MOVE_ROLLOUT, 61
-    learnset MOVE_DOUBLE_EDGE, 69
-    learnset MOVE_BURN_UP, 74
-    learnset MOVE_ERUPTION, 82
+    learnset MOVE_QUICK_ATTACK, 9
+    learnset MOVE_FLAME_WHEEL, 12
+    learnset MOVE_DOUBLE_KICK, 14
+    learnset MOVE_DEFENSE_CURL, 16
+    learnset MOVE_SWIFT, 20
+    learnset MOVE_ROLLOUT, 24
+    learnset MOVE_LAVA_PLUME, 28
+    learnset MOVE_FURY_SWIPES, 32
+    learnset MOVE_INFERNAL_PARADE, 36
+    learnset MOVE_FLAMETHROWER, 40
+    learnset MOVE_WILL_O_WISP, 45
+    learnset MOVE_INFERNO, 50
+    learnset MOVE_DOUBLE_EDGE, 55
+    learnset MOVE_ERUPTION, 60
     terminatelearnset
 
 levelup SPECIES_QWILFISH_HISUIAN

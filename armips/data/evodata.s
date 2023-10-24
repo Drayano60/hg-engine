@@ -5320,8 +5320,8 @@ evodata SPECIES_BONSLY
     terminateevodata
 
 evodata SPECIES_MIMEJR
-    evolution EVO_HAS_MOVE, MOVE_MIMIC, SPECIES_MR_MIME
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_HAS_MOVE_GLOBAL_TERMINAL, MOVE_MIMIC, SPECIES_MR_MIME, 1
+    evolutionwithform EVO_HAS_MOVE, MOVE_MIMIC, SPECIES_MR_MIME, 0
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE

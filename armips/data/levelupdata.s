@@ -3505,16 +3505,16 @@ levelup SPECIES_MIMEJR
     learnset MOVE_CONFUSION, 4
     learnset MOVE_FAIRY_WIND, 8
     learnset MOVE_ROLE_PLAY, 12
-    learnset MOVE_ENCORE, 16
+    learnset MOVE_PSYBEAM, 16
     learnset MOVE_MIMIC, 20
-    learnset MOVE_PSYBEAM, 24
+    learnset MOVE_ENCORE, 24
     learnset MOVE_LIGHT_SCREEN, 28
     learnset MOVE_REFLECT, 28
     learnset MOVE_SAFEGUARD, 28
     learnset MOVE_DAZZLING_GLEAM, 32
     learnset MOVE_TEETER_DANCE, 36
     learnset MOVE_PSYCHIC, 40
-    learnset MOVE_SUCKER_PUNCH, 44
+    learnset MOVE_HYPNOSIS, 44
     learnset MOVE_BATON_PASS, 48
     learnset MOVE_SUBSTITUTE, 52
     learnset MOVE_TRICK, 56
@@ -3525,6 +3525,7 @@ levelup SPECIES_MR_MIME
     learnset MOVE_MAGICAL_LEAF, 1 
     learnset MOVE_POWER_SWAP, 1 
     learnset MOVE_GUARD_SWAP, 1
+    learnset MOVE_FAKE_OUT, 1
     learnset MOVE_RECYCLE, 1
     learnset MOVE_POUND, 1
     learnset MOVE_BARRIER, 1
@@ -3532,16 +3533,69 @@ levelup SPECIES_MR_MIME
     learnset MOVE_CONFUSION, 4
     learnset MOVE_FAIRY_WIND, 8
     learnset MOVE_ROLE_PLAY, 12
-    learnset MOVE_ENCORE, 16
+    learnset MOVE_PSYBEAM, 16
     learnset MOVE_MIMIC, 20
-    learnset MOVE_PSYBEAM, 24
+    learnset MOVE_ENCORE, 24
     learnset MOVE_LIGHT_SCREEN, 28
     learnset MOVE_REFLECT, 28
     learnset MOVE_SAFEGUARD, 28
     learnset MOVE_DAZZLING_GLEAM, 32
     learnset MOVE_TEETER_DANCE, 36
     learnset MOVE_PSYCHIC, 40
-    learnset MOVE_SUCKER_PUNCH, 44
+    learnset MOVE_HYPNOSIS, 44
+    learnset MOVE_BATON_PASS, 48
+    learnset MOVE_SUBSTITUTE, 52
+    learnset MOVE_TRICK, 56
+    terminatelearnset
+
+levelup SPECIES_MR_MIME_GALARIAN
+    learnset MOVE_ICE_SHARD, 1 
+    learnset MOVE_DOUBLE_KICK, 1 
+    learnset MOVE_RAPID_SPIN, 1
+    learnset MOVE_FAKE_OUT, 1
+    learnset MOVE_RECYCLE, 1
+    learnset MOVE_POUND, 1
+    learnset MOVE_BARRIER, 1
+    learnset MOVE_COPYCAT, 1
+    learnset MOVE_CONFUSION, 4
+    learnset MOVE_ICY_WIND, 8
+    learnset MOVE_ROLE_PLAY, 12
+    learnset MOVE_PSYBEAM, 16
+    learnset MOVE_MIMIC, 20
+    learnset MOVE_ENCORE, 24
+    learnset MOVE_MIRROR_COAT, 28
+    learnset MOVE_FREEZE_DRY, 32
+    learnset MOVE_TEETER_DANCE, 36
+    learnset MOVE_PSYCHIC, 40
+    learnset MOVE_HYPNOSIS, 44
+    learnset MOVE_BATON_PASS, 48
+    learnset MOVE_SUBSTITUTE, 52
+    learnset MOVE_TRICK, 56
+    terminatelearnset
+
+levelup SPECIES_MR_RIME
+    learnset MOVE_BLOCK, 1
+	learnset MOVE_FAKE_TEARS, 1
+	learnset MOVE_SLACK_OFF, 1
+    learnset MOVE_ICE_SHARD, 1 
+    learnset MOVE_DOUBLE_KICK, 1 
+    learnset MOVE_RAPID_SPIN, 1
+    learnset MOVE_FAKE_OUT, 1
+    learnset MOVE_RECYCLE, 1
+    learnset MOVE_POUND, 1
+    learnset MOVE_BARRIER, 1
+    learnset MOVE_COPYCAT, 1
+    learnset MOVE_CONFUSION, 4
+    learnset MOVE_ICY_WIND, 8
+    learnset MOVE_ROLE_PLAY, 12
+    learnset MOVE_PSYBEAM, 16
+    learnset MOVE_MIMIC, 20
+    learnset MOVE_ENCORE, 24
+    learnset MOVE_MIRROR_COAT, 28
+    learnset MOVE_FREEZE_DRY, 32
+    learnset MOVE_TEETER_DANCE, 36
+    learnset MOVE_PSYCHIC, 40
+    learnset MOVE_HYPNOSIS, 44
     learnset MOVE_BATON_PASS, 48
     learnset MOVE_SUBSTITUTE, 52
     learnset MOVE_TRICK, 56
@@ -19692,39 +19746,6 @@ levelup SPECIES_SIRFETCHD
     learnset MOVE_METEOR_ASSAULT, 64
 	terminatelearnset
 
-levelup SPECIES_MR_RIME
-	learnset MOVE_FAKE_TEARS, 1
-	learnset MOVE_SLACK_OFF, 1
-	learnset MOVE_AFTER_YOU, 1
-	learnset MOVE_BLOCK, 1
-	learnset MOVE_COPYCAT, 1
-	learnset MOVE_ENCORE, 1
-	learnset MOVE_ROLE_PLAY, 1
-	learnset MOVE_PROTECT, 1
-	learnset MOVE_RECYCLE, 1
-	learnset MOVE_MIMIC, 1
-	learnset MOVE_LIGHT_SCREEN, 1
-	learnset MOVE_REFLECT, 1
-	learnset MOVE_SAFEGUARD, 1
-	learnset MOVE_DAZZLING_GLEAM, 1
-	learnset MOVE_MISTY_TERRAIN, 1
-	learnset MOVE_POUND, 1
-	learnset MOVE_RAPID_SPIN, 1
-	learnset MOVE_BATON_PASS, 1
-	learnset MOVE_ICE_SHARD, 1
-	learnset MOVE_CONFUSION, 12
-	learnset MOVE_ALLY_SWITCH, 16
-	learnset MOVE_ICY_WIND, 20
-	learnset MOVE_DOUBLE_KICK, 24
-	learnset MOVE_PSYBEAM, 28
-	learnset MOVE_HYPNOSIS, 32
-	learnset MOVE_MIRROR_COAT, 36
-	learnset MOVE_SUCKER_PUNCH, 40
-	learnset MOVE_FREEZE_DRY, 44
-	learnset MOVE_PSYCHIC, 48
-	learnset MOVE_TEETER_DANCE, 52
-	terminatelearnset
-
 levelup SPECIES_RUNERIGUS
 	learnset MOVE_SHADOW_CLAW, 1
 	learnset MOVE_SCARY_FACE, 1
@@ -22237,35 +22258,6 @@ levelup SPECIES_WEEZING_GALARIAN
     learnset MOVE_GUNK_SHOT, 50
     learnset MOVE_EXPLOSION, 56
     learnset MOVE_DESTINY_BOND, 62
-	terminatelearnset
-
-levelup SPECIES_MR_MIME_GALARIAN
-	learnset MOVE_COPYCAT, 1
-	learnset MOVE_ENCORE, 1
-	learnset MOVE_ROLE_PLAY, 1
-	learnset MOVE_PROTECT, 1
-	learnset MOVE_RECYCLE, 1
-	learnset MOVE_MIMIC, 1
-	learnset MOVE_LIGHT_SCREEN, 1
-	learnset MOVE_REFLECT, 1
-	learnset MOVE_SAFEGUARD, 1
-	learnset MOVE_DAZZLING_GLEAM, 1
-	learnset MOVE_MISTY_TERRAIN, 1
-	learnset MOVE_POUND, 1
-	learnset MOVE_RAPID_SPIN, 1
-	learnset MOVE_BATON_PASS, 1
-	learnset MOVE_ICE_SHARD, 1
-	learnset MOVE_CONFUSION, 12
-	learnset MOVE_ALLY_SWITCH, 16
-	learnset MOVE_ICY_WIND, 20
-	learnset MOVE_DOUBLE_KICK, 24
-	learnset MOVE_PSYBEAM, 28
-	learnset MOVE_HYPNOSIS, 32
-	learnset MOVE_MIRROR_COAT, 36
-	learnset MOVE_SUCKER_PUNCH, 40
-	learnset MOVE_FREEZE_DRY, 44
-	learnset MOVE_PSYCHIC, 48
-	learnset MOVE_TEETER_DANCE, 52
 	terminatelearnset
 
 levelup SPECIES_ARTICUNO_GALARIAN

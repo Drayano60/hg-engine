@@ -29178,8 +29178,14 @@ mondata SPECIES_ELECTRODE_HISUIAN, "-----"
     colorflip BODY_COLOR_RED, 0
     
 
+// STATS: 73 >> 74 HP | 534 >> 535 BST
+// ABILITY: Flash Fire (2), Heat Up (HA, New)
 mondata SPECIES_TYPHLOSION_HISUIAN, "-----"
-    basestats 73, 84, 78, 95, 119, 85
+    .if STAT_CHANGES_IMPLEMENTED
+        basestats 74, 84, 78, 95, 119, 85
+    .else
+        basestats 73, 84, 78, 95, 119, 85
+    .endif
     types TYPE_FIRE, TYPE_GHOST
     catchrate 45
     baseexp 209
@@ -29190,7 +29196,11 @@ mondata SPECIES_TYPHLOSION_HISUIAN, "-----"
     basefriendship 70
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_BLAZE, ABILITY_NONE
+    .if ABILITY_CHANGES_IMPLEMENTED
+        abilities ABILITY_BLAZE, ABILITY_FLASH_FIRE
+    .else
+        abilities ABILITY_BLAZE, ABILITY_NONE
+    .endif
     runchance 25
     colorflip BODY_COLOR_YELLOW, 0
     

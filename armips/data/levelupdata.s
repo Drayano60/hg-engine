@@ -24880,11 +24880,11 @@ levelup SPECIES_TYPHLOSION_HISUIAN
     learnset MOVE_QUICK_ATTACK, 9
     learnset MOVE_FLAME_WHEEL, 12
     learnset MOVE_DOUBLE_KICK, 14
-    learnset MOVE_DEFENSE_CURL, 16
+    learnset MOVE_CONFUSE_RAY, 16
     learnset MOVE_SWIFT, 20
     learnset MOVE_ROLLOUT, 24
     learnset MOVE_LAVA_PLUME, 28
-    learnset MOVE_FURY_SWIPES, 32
+    learnset MOVE_HEX, 32
     learnset MOVE_INFERNAL_PARADE, 36
     learnset MOVE_FLAMETHROWER, 40
     learnset MOVE_WILL_O_WISP, 45

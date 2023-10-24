@@ -619,6 +619,7 @@ int SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
                                 {
                                     scriptnum = SUB_SEQ_HANDLE_SUNNY_MOOD;
                                     ret = SWITCH_IN_CHECK_MOVE_SCRIPT;
+                                    newBS.weather = WEATHER_SUNNY_PERMANENT;
                                 }
                                 break;
                             case ABILITY_SNOW_WARNING:

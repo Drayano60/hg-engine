@@ -26218,10 +26218,15 @@ mondata SPECIES_PONYTA_GALARIAN, "-----"
     abilities ABILITY_RUN_AWAY,  ABILITY_PASTEL_VEIL
     runchance 25
     colorflip BODY_COLOR_WHITE, 0
-    
 
+
+// STATS: 105 >> 125 Speed | 500 >> 520 BST
 mondata SPECIES_RAPIDASH_GALARIAN, "-----"
-    basestats 65, 100, 70, 105, 80, 80
+    .if STAT_CHANGES_IMPLEMENTED
+        basestats 65, 100, 70, 125, 80, 80
+    .else
+        basestats 65, 100, 70, 105, 80, 80
+    .endif
     types TYPE_PSYCHIC, TYPE_FAIRY
     catchrate 60
     baseexp 175

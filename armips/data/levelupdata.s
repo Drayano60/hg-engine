@@ -19648,24 +19648,6 @@ levelup SPECIES_PERRSERKER
     learnset MOVE_DOUBLE_EDGE, 54
     terminatelearnset
 
-	learnset MOVE_IRON_HEAD, 1
-	learnset MOVE_METAL_BURST, 1
-	learnset MOVE_IRON_DEFENSE, 1
-	learnset MOVE_FAKE_OUT, 1
-	learnset MOVE_GROWL, 1
-	learnset MOVE_HONE_CLAWS, 1
-	learnset MOVE_SCRATCH, 1
-	learnset MOVE_PAY_DAY, 12
-	learnset MOVE_METAL_CLAW, 16
-	learnset MOVE_TAUNT, 20
-	learnset MOVE_SWAGGER, 24
-	learnset MOVE_FURY_SWIPES, 31
-	learnset MOVE_SCREECH, 36
-	learnset MOVE_SLASH, 42
-	learnset MOVE_METAL_SOUND, 48
-	learnset MOVE_THRASH, 54
-	terminatelearnset
-
 levelup SPECIES_CURSOLA
 	learnset MOVE_PERISH_SONG, 1
 	learnset MOVE_TACKLE, 1
@@ -22118,39 +22100,48 @@ levelup SPECIES_MEOWTH_GALARIAN
     learnset MOVE_DOUBLE_EDGE, 54
     terminatelearnset
 
+// NEW: Jump Kick
 levelup SPECIES_PONYTA_GALARIAN
 	learnset MOVE_TACKLE, 1
-	learnset MOVE_GROWL, 1
-	learnset MOVE_TAIL_WHIP, 5
-	learnset MOVE_CONFUSION, 10
-	learnset MOVE_FAIRY_WIND, 15
-	learnset MOVE_AGILITY, 20
-	learnset MOVE_PSYBEAM, 25
-	learnset MOVE_STOMP, 30
-	learnset MOVE_HEAL_PULSE, 35
-	learnset MOVE_TAKE_DOWN, 41
-	learnset MOVE_DAZZLING_GLEAM, 45
-	learnset MOVE_PSYCHIC, 50
-	learnset MOVE_HEALING_WISH, 55
+    learnset MOVE_GROWL, 1
+    learnset MOVE_TAIL_WHIP, 3
+    learnset MOVE_CONFUSION, 6
+    learnset MOVE_DOUBLE_KICK, 9
+    learnset MOVE_FAIRY_WIND, 12
+    learnset MOVE_STOMP, 16
+    learnset MOVE_PSYBEAM, 20
+    learnset MOVE_AGILITY, 24
+    learnset MOVE_HYPNOSIS, 28
+    learnset MOVE_PLAY_ROUGH, 32
+    learnset MOVE_JUMP_KICK, 40
+    learnset MOVE_BOUNCE, 45
+    learnset MOVE_PSYCHIC, 50
+    learnset MOVE_HEALING_WISH, 55
 	terminatelearnset
 
+// NEW: Jump Kick, Fury Attack, Extreme Speed
 levelup SPECIES_RAPIDASH_GALARIAN
-	learnset MOVE_PSYCHO_CUT, 1
-	learnset MOVE_MEGAHORN, 1
+    learnset MOVE_HIGH_HORSEPOWER, 1
+    learnset MOVE_FURY_ATTACK, 1
+    learnset MOVE_ZEN_HEADBUTT, 1
+    learnset MOVE_MEGAHORN, 1
 	learnset MOVE_TACKLE, 1
-	learnset MOVE_QUICK_ATTACK, 1
-	learnset MOVE_GROWL, 1
-	learnset MOVE_TAIL_WHIP, 1
-	learnset MOVE_CONFUSION, 1
-	learnset MOVE_FAIRY_WIND, 15
-	learnset MOVE_AGILITY, 20
-	learnset MOVE_PSYBEAM, 25
-	learnset MOVE_STOMP, 30
-	learnset MOVE_HEAL_PULSE, 35
-	learnset MOVE_TAKE_DOWN, 43
-	learnset MOVE_DAZZLING_GLEAM, 49
-	learnset MOVE_PSYCHIC, 56
-	learnset MOVE_HEALING_WISH, 63
+    learnset MOVE_GROWL, 1
+    learnset MOVE_TAIL_WHIP, 3
+    learnset MOVE_CONFUSION, 6
+    learnset MOVE_DOUBLE_KICK, 9
+    learnset MOVE_FAIRY_WIND, 12
+    learnset MOVE_STOMP, 16
+    learnset MOVE_PSYBEAM, 20
+    learnset MOVE_AGILITY, 24
+    learnset MOVE_HYPNOSIS, 28
+    learnset MOVE_PLAY_ROUGH, 32
+    learnset MOVE_PSYCHO_CUT, 35
+    learnset MOVE_JUMP_KICK, 40
+    learnset MOVE_BOUNCE, 45
+    learnset MOVE_PSYCHIC, 50
+    learnset MOVE_HEALING_WISH, 55
+    learnset MOVE_EXTREME_SPEED, 60
 	terminatelearnset
 
 levelup SPECIES_SLOWPOKE_GALARIAN

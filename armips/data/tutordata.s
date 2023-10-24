@@ -5348,15 +5348,8 @@ tutordata SPECIES_CURSOLA, \
 
 
 tutordata SPECIES_SIRFETCHD, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
+TUTOR_MOVE_BRUTAL_SWING | TUTOR_MOVE_DUAL_WINGBEAT,\
+TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_CLOSE_COMBAT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_SUPERPOWER
 
 tutordata SPECIES_MR_RIME, \
                   \
@@ -7670,15 +7663,9 @@ tutordata SPECIES_SLOWBRO_GALARIAN, \
                   0
 
 
-tutordata SPECIES_FARFETCHD_GALARIAN, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
+tutordata SPECIES_FARFETCHD_GALARIAN,\
+TUTOR_MOVE_BRUTAL_SWING | TUTOR_MOVE_DUAL_WINGBEAT,\
+TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_CLOSE_COMBAT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_SUPERPOWER
 
 
 tutordata SPECIES_WEEZING_GALARIAN, \

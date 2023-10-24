@@ -19665,25 +19665,31 @@ levelup SPECIES_CURSOLA
 	learnset MOVE_MIRROR_COAT, 55
 	terminatelearnset
 
+// NEW: Sacred Sword
 levelup SPECIES_SIRFETCHD
-	learnset MOVE_IRON_DEFENSE, 1
-	learnset MOVE_FIRST_IMPRESSION, 1
-	learnset MOVE_PECK, 1
-	learnset MOVE_SAND_ATTACK, 1
-	learnset MOVE_LEER, 1
-	learnset MOVE_FURY_CUTTER, 1
-	learnset MOVE_ROCK_SMASH, 15
-	learnset MOVE_BRUTAL_SWING, 20
-	learnset MOVE_DETECT, 25
-	learnset MOVE_KNOCK_OFF, 30
-	learnset MOVE_DEFOG, 35
-	learnset MOVE_BRICK_BREAK, 40
-	learnset MOVE_SWORDS_DANCE, 45
-	learnset MOVE_SLAM, 50
-	learnset MOVE_LEAF_BLADE, 55
-	learnset MOVE_FINAL_GAMBIT, 60
-	learnset MOVE_BRAVE_BIRD, 65
-	learnset MOVE_METEOR_ASSAULT, 70
+    learnset MOVE_FIRST_IMPRESSION, 1
+    learnset MOVE_IRON_DEFENSE, 1
+    learnset MOVE_COUNTER, 1
+	learnset MOVE_DEFOG, 1
+    learnset MOVE_FEINT, 1
+    learnset MOVE_PECK, 1
+    learnset MOVE_SAND_ATTACK, 1
+    learnset MOVE_LEER, 4
+    learnset MOVE_ROCK_SMASH, 8
+    learnset MOVE_FURY_CUTTER, 12
+    learnset MOVE_BRUTAL_SWING, 16
+    learnset MOVE_REVENGE, 20
+    learnset MOVE_BRICK_BREAK, 24
+    learnset MOVE_NIGHT_SLASH, 28
+    learnset MOVE_FOCUS_ENERGY, 32
+    learnset MOVE_SACRED_SWORD, 36
+    learnset MOVE_LEAF_BLADE, 40
+    learnset MOVE_DETECT, 44
+    learnset MOVE_SWORDS_DANCE, 48
+    learnset MOVE_CLOSE_COMBAT, 52
+    learnset MOVE_BRAVE_BIRD, 56
+    learnset MOVE_FINAL_GAMBIT, 60
+    learnset MOVE_METEOR_ASSAULT, 64
 	terminatelearnset
 
 levelup SPECIES_MR_RIME
@@ -22186,22 +22192,28 @@ levelup SPECIES_SLOWBRO_GALARIAN
 	learnset MOVE_HEAL_PULSE, 45
 	terminatelearnset
 
+// NEW: Sacred Sword
 levelup SPECIES_FARFETCHD_GALARIAN
-	learnset MOVE_PECK, 1
-	learnset MOVE_SAND_ATTACK, 1
-	learnset MOVE_LEER, 5
-	learnset MOVE_FURY_CUTTER, 10
-	learnset MOVE_ROCK_SMASH, 15
-	learnset MOVE_BRUTAL_SWING, 20
-	learnset MOVE_DETECT, 25
-	learnset MOVE_KNOCK_OFF, 30
-	learnset MOVE_DEFOG, 35
-	learnset MOVE_BRICK_BREAK, 40
-	learnset MOVE_SWORDS_DANCE, 45
-	learnset MOVE_SLAM, 50
-	learnset MOVE_LEAF_BLADE, 55
-	learnset MOVE_FINAL_GAMBIT, 60
-	learnset MOVE_BRAVE_BIRD, 65
+	learnset MOVE_DEFOG, 1
+    learnset MOVE_FEINT, 1
+    learnset MOVE_PECK, 1
+    learnset MOVE_SAND_ATTACK, 1
+    learnset MOVE_LEER, 4
+    learnset MOVE_ROCK_SMASH, 8
+    learnset MOVE_FURY_CUTTER, 12
+    learnset MOVE_BRUTAL_SWING, 16
+    learnset MOVE_REVENGE, 20
+    learnset MOVE_BRICK_BREAK, 24
+    learnset MOVE_NIGHT_SLASH, 28
+    learnset MOVE_FOCUS_ENERGY, 32
+    learnset MOVE_SACRED_SWORD, 36
+    learnset MOVE_LEAF_BLADE, 40
+    learnset MOVE_DETECT, 44
+    learnset MOVE_SWORDS_DANCE, 48
+    learnset MOVE_CLOSE_COMBAT, 52
+    learnset MOVE_BRAVE_BIRD, 56
+    learnset MOVE_FINAL_GAMBIT, 60
+    learnset MOVE_SKY_ATTACK, 64
 	terminatelearnset
 
 levelup SPECIES_WEEZING_GALARIAN

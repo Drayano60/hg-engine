@@ -2058,11 +2058,11 @@ mondata SPECIES_MAGNETON, "Magneton"
     mondexweight SPECIES_MAGNETON, "132.3 lbs."
 
 
-// STATS: 52 >> 62 HP | 90 >> 100 Atk | 55 >> 65 Def | 62 >> 72 SpDef | 60 >> 90 Speed | 377 >> 447 BST
+// STATS: 60 >> 90 Speed | 377 >> 407 BST
 // TYPES: Normal/Flying >> Fighting/Flying
 mondata SPECIES_FARFETCHD, "Farfetch’d"
     .if STAT_CHANGES_IMPLEMENTED
-        basestats 62, 100, 65, 90, 58, 72
+        basestats 52, 90, 55, 90, 58, 62
     .else
         basestats 52, 90, 55, 60, 58, 62
     .endif
@@ -26276,8 +26276,13 @@ mondata SPECIES_SLOWBRO_GALARIAN, "-----"
     colorflip BODY_COLOR_PINK, 0
     
 
+// STATS: 55 >> 65 Def | 62 >> 72 SpDef | 55 >> 65 Speed | 377 >> 407 BST
 mondata SPECIES_FARFETCHD_GALARIAN, "-----"
-    basestats 52, 95, 55, 55, 58, 62
+    .if STAT_CHANGES_IMPLEMENTED
+        basestats 52, 95, 65, 65, 58, 72
+    .else
+        basestats 52, 95, 55, 55, 58, 62
+    .endif
     types TYPE_FIGHTING, TYPE_FIGHTING
     catchrate 45
     baseexp 132

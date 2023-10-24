@@ -6359,6 +6359,49 @@ levelup SPECIES_CORSOLA
     learnset MOVE_HEAD_SMASH, 56
     terminatelearnset
 
+levelup SPECIES_CORSOLA_GALARIAN
+    learnset MOVE_SPITE, 1
+    learnset MOVE_TACKLE, 1
+    learnset MOVE_HARDEN, 1
+    learnset MOVE_ASTONISH, 3
+    learnset MOVE_HAZE, 6
+    learnset MOVE_DISABLE, 9
+    learnset MOVE_CONFUSE_RAY, 12
+    learnset MOVE_ANCIENT_POWER, 16
+    learnset MOVE_HEX, 20
+    learnset MOVE_CURSE, 24
+    learnset MOVE_NIGHT_SHADE, 28
+    learnset MOVE_SHADOW_BALL, 32
+    learnset MOVE_AMNESIA, 36
+    learnset MOVE_STRENGTH_SAP, 40
+    learnset MOVE_POWER_GEM, 44
+    learnset MOVE_EARTH_POWER, 48
+    learnset MOVE_MIRROR_COAT, 52
+    learnset MOVE_GRUDGE, 56
+	terminatelearnset
+
+levelup SPECIES_CURSOLA
+	learnset MOVE_PERISH_SONG, 1
+    learnset MOVE_SPITE, 1
+    learnset MOVE_TACKLE, 1
+    learnset MOVE_HARDEN, 1
+    learnset MOVE_ASTONISH, 3
+    learnset MOVE_HAZE, 6
+    learnset MOVE_DISABLE, 9
+    learnset MOVE_CONFUSE_RAY, 12
+    learnset MOVE_ANCIENT_POWER, 16
+    learnset MOVE_HEX, 20
+    learnset MOVE_CURSE, 24
+    learnset MOVE_NIGHT_SHADE, 28
+    learnset MOVE_SHADOW_BALL, 32
+    learnset MOVE_AMNESIA, 36
+    learnset MOVE_STRENGTH_SAP, 40
+    learnset MOVE_POWER_GEM, 44
+    learnset MOVE_EARTH_POWER, 48
+    learnset MOVE_MIRROR_COAT, 52
+    learnset MOVE_GRUDGE, 56
+	terminatelearnset
+
 levelup SPECIES_REMORAID
     learnset MOVE_HELPING_HAND, 1
     learnset MOVE_WATER_GUN, 1
@@ -19702,23 +19745,6 @@ levelup SPECIES_PERRSERKER
     learnset MOVE_DOUBLE_EDGE, 54
     terminatelearnset
 
-levelup SPECIES_CURSOLA
-	learnset MOVE_PERISH_SONG, 1
-	learnset MOVE_TACKLE, 1
-	learnset MOVE_HARDEN, 1
-	learnset MOVE_ASTONISH, 1
-	learnset MOVE_DISABLE, 1
-	learnset MOVE_SPITE, 15
-	learnset MOVE_ANCIENT_POWER, 20
-	learnset MOVE_HEX, 25
-	learnset MOVE_CURSE, 30
-	learnset MOVE_STRENGTH_SAP, 35
-	learnset MOVE_POWER_GEM, 40
-	learnset MOVE_NIGHT_SHADE, 45
-	learnset MOVE_GRUDGE, 50
-	learnset MOVE_MIRROR_COAT, 55
-	terminatelearnset
-
 // NEW: Sacred Sword
 levelup SPECIES_SIRFETCHD
     learnset MOVE_FIRST_IMPRESSION, 1
@@ -22339,22 +22365,6 @@ levelup SPECIES_SLOWKING_GALARIAN
 	learnset MOVE_PSYCH_UP, 39
 	learnset MOVE_RAIN_DANCE, 42
 	learnset MOVE_HEAL_PULSE, 45
-	terminatelearnset
-
-levelup SPECIES_CORSOLA_GALARIAN
-	learnset MOVE_TACKLE, 1
-	learnset MOVE_HARDEN, 1
-	learnset MOVE_ASTONISH, 5
-	learnset MOVE_DISABLE, 10
-	learnset MOVE_SPITE, 15
-	learnset MOVE_ANCIENT_POWER, 20
-	learnset MOVE_HEX, 25
-	learnset MOVE_CURSE, 30
-	learnset MOVE_STRENGTH_SAP, 35
-	learnset MOVE_POWER_GEM, 40
-	learnset MOVE_NIGHT_SHADE, 45
-	learnset MOVE_GRUDGE, 50
-	learnset MOVE_MIRROR_COAT, 55
 	terminatelearnset
 
 levelup SPECIES_ZIGZAGOON_GALARIAN

@@ -5492,11 +5492,11 @@ mondata SPECIES_PILOSWINE, "Piloswine"
     mondexweight SPECIES_PILOSWINE, "123.0 lbs."
 
 
-// STATS: 95 >> 105 Def | 65 >> 85 SpAtk | 95 >> 105 SpDef | 410 >> 450 BST
+// STATS: 65 >> 60 HP | 55 >> 45 Atk | 65 >> 85 SpAtk | 35 >> 30 Speed | Still 410 BST
 // ABILITY: Water Absorb (1)
 mondata SPECIES_CORSOLA, "Corsola"
     .if STAT_CHANGES_IMPLEMENTED
-        basestats 65, 55, 105, 35, 85, 105
+        basestats 60, 45, 95, 35, 85, 95
     .else
         basestats 65, 55, 95, 35, 65, 95
     .endif
@@ -26403,10 +26403,15 @@ mondata SPECIES_SLOWKING_GALARIAN, "-----"
     abilities ABILITY_CURIOUS_MEDICINE,  ABILITY_OWN_TEMPO
     runchance 25
     colorflip BODY_COLOR_PINK, 0
-    
 
+
+// STATS: 55 >> 45 Atk | 65 >> 75 SpAtk | Still 410 BST
 mondata SPECIES_CORSOLA_GALARIAN, "-----"
-    basestats 60, 55, 100, 30, 65, 100
+    .if STAT_CHANGES_IMPLEMENTED
+        basestats 60, 45, 100, 30, 75, 100
+    .else
+        basestats 60, 55, 100, 30, 65, 100
+    .endif
     types TYPE_GHOST, TYPE_GHOST
     catchrate 60
     baseexp 144

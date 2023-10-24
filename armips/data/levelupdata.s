@@ -19621,7 +19621,33 @@ levelup SPECIES_OBSTAGOON
 	learnset MOVE_DOUBLE_EDGE, 56
 	terminatelearnset
 
+// NEW: Snatch, Assist, Feint Attack
 levelup SPECIES_PERRSERKER
+    learnset MOVE_FOUL_PLAY, 1
+    learnset MOVE_METAL_BURST, 1
+    learnset MOVE_CRUNCH, 1
+    learnset MOVE_SNATCH, 1
+    learnset MOVE_FAKE_OUT, 1
+    learnset MOVE_ASSIST, 1
+    learnset MOVE_FLING, 1
+    learnset MOVE_GROWL, 1
+    learnset MOVE_TAUNT, 1
+    learnset MOVE_SCRATCH, 4
+    learnset MOVE_METAL_CLAW, 8
+    learnset MOVE_PAY_DAY, 12
+    learnset MOVE_FEINT_ATTACK, 16
+    learnset MOVE_FURY_SWIPES, 20
+    learnset MOVE_HONE_CLAWS, 24
+    learnset MOVE_IRON_HEAD, 28
+    learnset MOVE_SLASH, 30
+    learnset MOVE_SCREECH, 34
+    learnset MOVE_NIGHT_SLASH, 38
+    learnset MOVE_METAL_SOUND, 42
+    learnset MOVE_THRASH, 46
+    learnset MOVE_SWORDS_DANCE, 50
+    learnset MOVE_DOUBLE_EDGE, 54
+    terminatelearnset
+
 	learnset MOVE_IRON_HEAD, 1
 	learnset MOVE_METAL_BURST, 1
 	learnset MOVE_IRON_DEFENSE, 1
@@ -22070,21 +22096,27 @@ levelup SPECIES_GROUDON_PRIMAL
     learnset MOVE_ERUPTION, 80
     terminatelearnset
 
+// NEW: Assist, Feint Attack
 levelup SPECIES_MEOWTH_GALARIAN
-	learnset MOVE_FAKE_OUT, 1
-	learnset MOVE_GROWL, 1
-	learnset MOVE_HONE_CLAWS, 4
-	learnset MOVE_SCRATCH, 8
-	learnset MOVE_PAY_DAY, 12
-	learnset MOVE_METAL_CLAW, 16
-	learnset MOVE_TAUNT, 20
-	learnset MOVE_SWAGGER, 24
-	learnset MOVE_FURY_SWIPES, 29
-	learnset MOVE_SCREECH, 32
-	learnset MOVE_SLASH, 36
-	learnset MOVE_METAL_SOUND, 40
-	learnset MOVE_THRASH, 44
-	terminatelearnset
+    learnset MOVE_FAKE_OUT, 1
+    learnset MOVE_ASSIST, 1
+    learnset MOVE_FLING, 1
+    learnset MOVE_GROWL, 1
+    learnset MOVE_TAUNT, 1
+    learnset MOVE_SCRATCH, 4
+    learnset MOVE_METAL_CLAW, 8
+    learnset MOVE_PAY_DAY, 12
+    learnset MOVE_FEINT_ATTACK, 16
+    learnset MOVE_FURY_SWIPES, 20
+    learnset MOVE_HONE_CLAWS, 24
+    learnset MOVE_SLASH, 30
+    learnset MOVE_SCREECH, 34
+    learnset MOVE_NIGHT_SLASH, 38
+    learnset MOVE_METAL_SOUND, 42
+    learnset MOVE_THRASH, 46
+    learnset MOVE_SWORDS_DANCE, 50
+    learnset MOVE_DOUBLE_EDGE, 54
+    terminatelearnset
 
 levelup SPECIES_PONYTA_GALARIAN
 	learnset MOVE_TACKLE, 1

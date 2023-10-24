@@ -5332,16 +5332,9 @@ tutordata SPECIES_OBSTAGOON, \
                   0
 
 
-tutordata SPECIES_PERRSERKER, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
+tutordata SPECIES_PERRSERKER,\
+TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_GYRO_BALL | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_CHARM,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_CLOSE_COMBAT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_GUNK_SHOT | TUTOR_MOVE_HEAVY_SLAM | TUTOR_MOVE_PLAY_ROUGH
 
 tutordata SPECIES_CURSOLA, \
                   \
@@ -7641,16 +7634,9 @@ tutordata SPECIES_GROUDON_PRIMAL, \
                   0
 
 
-tutordata SPECIES_MEOWTH_GALARIAN, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
+tutordata SPECIES_MEOWTH_GALARIAN,\
+TUTOR_MOVE_GYRO_BALL | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_CHARM,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_GUNK_SHOT | TUTOR_MOVE_PLAY_ROUGH
 
 tutordata SPECIES_PONYTA_GALARIAN, \
                   \

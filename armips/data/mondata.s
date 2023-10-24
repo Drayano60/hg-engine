@@ -21556,8 +21556,13 @@ mondata SPECIES_OBSTAGOON, "Obstagoon"
     mondexweight SPECIES_OBSTAGOON, "101.4 lbs."
 
 
+// STATS: 100 >> 110 Def | 60 >> 70 SpDef | 440 >> 460 BST
 mondata SPECIES_PERRSERKER, "Perrserker"
-    basestats 70, 110, 100, 50, 50, 60
+    .if STAT_CHANGES_IMPLEMENTED
+        basestats 70, 110, 110, 50, 50, 70
+    .else
+        basestats 70, 110, 100, 50, 50, 60
+    .endif
     types TYPE_STEEL, TYPE_STEEL
     catchrate 90
     baseexp 0 // defined in baseexp.s

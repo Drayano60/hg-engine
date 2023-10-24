@@ -397,8 +397,16 @@ move_narc: $(NARC_FILES)
 
 	@echo "tutor moves and tm moves:"
 	$(PYTHON) scripts/tm_learnset.py --writetmlist armips/data/tmlearnset.txt
-	$(PYTHON) scripts/tutor_learnset.py --writemovecostlist armips/data/tutordata.txt
-	$(PYTHON) scripts/tutor_learnset.py armips/data/tutordata.txt
+
+###
+# Can't use this as my tutor moves are repointed and reordered
+
+# $(PYTHON) scripts/tutor_learnset.py --writemovecostlist armips/data/tutordata.txt
+# $(PYTHON) scripts/tutor_learnset.py armips/data/tutordata.txt
+###
+
+	@echo "tutor data:"
+	$(ARMIPS) armips/data/tutordata.s
 
 # needed to keep the $(SDAT_OBJ_DIR)/WAVE_ARC_PV%/00.swav from being detected as an intermediate file
 .SECONDARY:

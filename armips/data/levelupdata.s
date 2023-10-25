@@ -17722,7 +17722,7 @@ levelup SPECIES_BERGMITE
     learnset MOVE_HARDEN, 1
     learnset MOVE_RAPID_SPIN, 3
     learnset MOVE_POWDER_SNOW, 6
-    learnset MOVE_HARDEN, 9
+    learnset MOVE_SHARPEN, 9
     learnset MOVE_ICY_WIND, 12
     learnset MOVE_PROTECT, 15
     learnset MOVE_BITE, 18
@@ -17738,15 +17738,17 @@ levelup SPECIES_BERGMITE
     learnset MOVE_DOUBLE_EDGE, 53
 	terminatelearnset
 
+// NEW: Liquidation
 levelup SPECIES_AVALUGG
     learnset MOVE_AURORA_VEIL, 1
     learnset MOVE_ICICLE_CRASH, 1
+    learnset MOVE_LIQUIDATION, 1
     learnset MOVE_MIRROR_COAT, 1
 	learnset MOVE_TACKLE, 1
     learnset MOVE_HARDEN, 1
     learnset MOVE_RAPID_SPIN, 3
     learnset MOVE_POWDER_SNOW, 6
-    learnset MOVE_HARDEN, 9
+    learnset MOVE_SHARPEN, 9
     learnset MOVE_ICY_WIND, 12
     learnset MOVE_PROTECT, 15
     learnset MOVE_BITE, 18
@@ -17762,6 +17764,33 @@ levelup SPECIES_AVALUGG
     learnset MOVE_BLIZZARD, 49
     learnset MOVE_DOUBLE_EDGE, 53
     learnset MOVE_SKULL_BASH, 57
+	terminatelearnset
+
+levelup SPECIES_AVALUGG_HISUIAN
+    learnset MOVE_AURORA_VEIL, 1
+    learnset MOVE_MOUNTAIN_GALE, 1
+    learnset MOVE_STEALTH_ROCK, 1
+    learnset MOVE_MIRROR_COAT, 1
+	learnset MOVE_TACKLE, 1
+    learnset MOVE_HARDEN, 1
+    learnset MOVE_RAPID_SPIN, 3
+    learnset MOVE_POWDER_SNOW, 6
+    learnset MOVE_SHARPEN, 9
+    learnset MOVE_ICY_WIND, 12
+    learnset MOVE_PROTECT, 15
+    learnset MOVE_BITE, 18
+    learnset MOVE_AVALANCHE, 21
+    learnset MOVE_ICE_FANG, 24
+    learnset MOVE_IRON_DEFENSE, 27
+    learnset MOVE_ICE_BALL, 30
+    learnset MOVE_TAKE_DOWN, 33
+    learnset MOVE_ROCK_SLIDE, 35
+    learnset MOVE_RECOVER, 37
+    learnset MOVE_CURSE, 41
+    learnset MOVE_CRUNCH, 45
+    learnset MOVE_BLIZZARD, 49
+    learnset MOVE_DOUBLE_EDGE, 53
+    learnset MOVE_STONE_EDGE, 57
 	terminatelearnset
 
 levelup SPECIES_NOIBAT
@@ -25203,30 +25232,6 @@ levelup SPECIES_TYPHLOSION_HISUIAN
     learnset MOVE_INFERNO, 50
     learnset MOVE_DOUBLE_EDGE, 55
     learnset MOVE_ERUPTION, 60
-    terminatelearnset
-
-levelup SPECIES_AVALUGG_HISUIAN
-    learnset MOVE_BODY_SLAM, 1
-    learnset MOVE_WIDE_GUARD, 1
-    learnset MOVE_RAPID_SPIN, 1
-    learnset MOVE_HARDEN, 1
-    learnset MOVE_TACKLE, 1
-    learnset MOVE_POWDER_SNOW, 1
-    learnset MOVE_CURSE, 9
-    learnset MOVE_ICY_WIND, 12
-    learnset MOVE_PROTECT, 15
-    learnset MOVE_AVALANCHE, 18
-    learnset MOVE_BITE, 21
-    learnset MOVE_ICE_FANG, 24
-    learnset MOVE_IRON_DEFENSE, 27
-    learnset MOVE_RECOVER, 30
-    learnset MOVE_ROCK_SLIDE, 31
-    learnset MOVE_CRUNCH, 33
-    learnset MOVE_TAKE_DOWN, 36
-    learnset MOVE_EARTH_POWER, 40
-    learnset MOVE_BLIZZARD, 41
-    learnset MOVE_DOUBLE_EDGE, 46
-    learnset MOVE_SKULL_BASH, 51
     terminatelearnset
 
 levelup SPECIES_DECIDUEYE_HISUIAN

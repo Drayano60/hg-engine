@@ -9250,8 +9250,8 @@ terminateevodata
 
 evodata SPECIES_BERGMITE
     // evolution EVO_LEVEL, 37, SPECIES_AVALUGG
-    evolution EVO_LEVEL, 35, SPECIES_BERGMITE
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_LEVEL_GLOBAL_TERMINAL, 35, SPECIES_AVALUGG, 1
+    evolutionwithform EVO_LEVEL, 35, SPECIES_AVALUGG, 0
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE

@@ -2243,6 +2243,75 @@ levelup SPECIES_SLOWKING
     learnset MOVE_FUTURE_SIGHT, 55
     terminatelearnset
 
+levelup SPECIES_SLOWPOKE_GALARIAN
+    learnset MOVE_CURSE, 1
+    learnset MOVE_TACKLE, 1
+    learnset MOVE_GROWL, 3
+    learnset MOVE_ACID, 6
+    learnset MOVE_CONFUSION, 9
+    learnset MOVE_YAWN, 12
+    learnset MOVE_DISABLE, 15
+    learnset MOVE_HEADBUTT, 18
+    learnset MOVE_WATER_PULSE, 21
+    learnset MOVE_ZEN_HEADBUTT, 24
+    learnset MOVE_LIQUIDATION, 27
+    learnset MOVE_SLACK_OFF, 30
+    learnset MOVE_PSYCH_UP, 35
+    learnset MOVE_PSYCHIC, 40
+    learnset MOVE_AMNESIA, 45
+    learnset MOVE_RAIN_DANCE, 50
+    learnset MOVE_FUTURE_SIGHT, 55
+	terminatelearnset
+
+levelup SPECIES_SLOWBRO_GALARIAN
+	learnset MOVE_SHELL_SIDE_ARM, 1
+	learnset MOVE_VENOSHOCK, 1
+    learnset MOVE_CURSE, 1
+    learnset MOVE_TACKLE, 1
+    learnset MOVE_GROWL, 3
+    learnset MOVE_ACID, 6
+    learnset MOVE_CONFUSION, 9
+    learnset MOVE_YAWN, 12
+    learnset MOVE_DISABLE, 15
+    learnset MOVE_HEADBUTT, 18
+    learnset MOVE_WATER_PULSE, 21
+    learnset MOVE_ZEN_HEADBUTT, 24
+    learnset MOVE_LIQUIDATION, 27
+    learnset MOVE_SLACK_OFF, 30
+    learnset MOVE_WITHDRAW, 33
+    learnset MOVE_PSYCH_UP, 35
+    learnset MOVE_PSYCHIC, 40
+    learnset MOVE_AMNESIA, 45
+    learnset MOVE_RAIN_DANCE, 50
+    learnset MOVE_FUTURE_SIGHT, 55
+	terminatelearnset
+
+levelup SPECIES_SLOWKING_GALARIAN
+    learnset MOVE_HIDDEN_POWER, 1
+    learnset MOVE_TRUMP_CARD, 1
+    learnset MOVE_SWAGGER, 1
+	learnset MOVE_EERIE_SPELL, 1
+	learnset MOVE_VENOSHOCK, 1
+    learnset MOVE_CURSE, 1
+    learnset MOVE_TACKLE, 1
+    learnset MOVE_GROWL, 3
+    learnset MOVE_ACID, 6
+    learnset MOVE_CONFUSION, 9
+    learnset MOVE_YAWN, 12
+    learnset MOVE_DISABLE, 15
+    learnset MOVE_HEADBUTT, 18
+    learnset MOVE_WATER_PULSE, 21
+    learnset MOVE_PSYSHOCK, 24
+    learnset MOVE_LIQUIDATION, 27
+    learnset MOVE_SLACK_OFF, 30
+    learnset MOVE_POWER_GEM, 33
+    learnset MOVE_PSYCH_UP, 35
+    learnset MOVE_PSYCHIC, 40
+    learnset MOVE_AMNESIA, 45
+    learnset MOVE_RAIN_DANCE, 50
+    learnset MOVE_FUTURE_SIGHT, 55
+	terminatelearnset
+
 levelup SPECIES_MAGNEMITE
     learnset MOVE_TACKLE, 1
     learnset MOVE_SUPERSONIC, 1
@@ -22351,48 +22420,6 @@ levelup SPECIES_RAPIDASH_GALARIAN
     learnset MOVE_EXTREME_SPEED, 60
 	terminatelearnset
 
-levelup SPECIES_SLOWPOKE_GALARIAN
-	learnset MOVE_TACKLE, 1
-	learnset MOVE_CURSE, 1
-	learnset MOVE_GROWL, 3
-	learnset MOVE_ACID, 6
-	learnset MOVE_YAWN, 9
-	learnset MOVE_CONFUSION, 12
-	learnset MOVE_DISABLE, 15
-	learnset MOVE_WATER_PULSE, 18
-	learnset MOVE_HEADBUTT, 21
-	learnset MOVE_ZEN_HEADBUTT, 24
-	learnset MOVE_AMNESIA, 27
-	learnset MOVE_SURF, 30
-	learnset MOVE_SLACK_OFF, 33
-	learnset MOVE_PSYCHIC, 36
-	learnset MOVE_PSYCH_UP, 39
-	learnset MOVE_RAIN_DANCE, 42
-	learnset MOVE_HEAL_PULSE, 45
-	terminatelearnset
-
-levelup SPECIES_SLOWBRO_GALARIAN
-	learnset MOVE_SHELL_SIDE_ARM, 1
-	learnset MOVE_WITHDRAW, 1
-	learnset MOVE_TACKLE, 1
-	learnset MOVE_CURSE, 1
-	learnset MOVE_GROWL, 1
-	learnset MOVE_ACID, 1
-	learnset MOVE_YAWN, 9
-	learnset MOVE_CONFUSION, 12
-	learnset MOVE_DISABLE, 15
-	learnset MOVE_WATER_PULSE, 18
-	learnset MOVE_HEADBUTT, 21
-	learnset MOVE_ZEN_HEADBUTT, 24
-	learnset MOVE_AMNESIA, 27
-	learnset MOVE_SURF, 30
-	learnset MOVE_SLACK_OFF, 33
-	learnset MOVE_PSYCHIC, 36
-	learnset MOVE_PSYCH_UP, 39
-	learnset MOVE_RAIN_DANCE, 42
-	learnset MOVE_HEAL_PULSE, 45
-	terminatelearnset
-
 // NEW: Sacred Sword
 levelup SPECIES_FARFETCHD_GALARIAN
 	learnset MOVE_DEFOG, 1
@@ -22495,30 +22522,6 @@ levelup SPECIES_MOLTRES_GALARIAN
 	learnset MOVE_ENDURE, 60
 	learnset MOVE_MEMENTO, 65
 	learnset MOVE_SKY_ATTACK, 70
-	terminatelearnset
-
-levelup SPECIES_SLOWKING_GALARIAN
-	learnset MOVE_EERIE_SPELL, 1
-	learnset MOVE_POWER_GEM, 1
-	learnset MOVE_NASTY_PLOT, 1
-	learnset MOVE_SWAGGER, 1
-	learnset MOVE_TACKLE, 1
-	learnset MOVE_CURSE, 1
-	learnset MOVE_GROWL, 1
-	learnset MOVE_ACID, 1
-	learnset MOVE_YAWN, 9
-	learnset MOVE_CONFUSION, 12
-	learnset MOVE_DISABLE, 15
-	learnset MOVE_WATER_PULSE, 18
-	learnset MOVE_HEADBUTT, 21
-	learnset MOVE_ZEN_HEADBUTT, 24
-	learnset MOVE_AMNESIA, 27
-	learnset MOVE_SURF, 30
-	learnset MOVE_SLACK_OFF, 33
-	learnset MOVE_PSYCHIC, 36
-	learnset MOVE_PSYCH_UP, 39
-	learnset MOVE_RAIN_DANCE, 42
-	learnset MOVE_HEAL_PULSE, 45
 	terminatelearnset
 
 levelup SPECIES_PIKACHU_COSPLAY

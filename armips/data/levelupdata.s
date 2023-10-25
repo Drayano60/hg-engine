@@ -2966,6 +2966,53 @@ levelup SPECIES_ELECTRODE
     learnset MOVE_EXPLOSION, 60
     terminatelearnset
     
+levelup SPECIES_VOLTORB_HISUIAN
+    learnset MOVE_CHARGE, 1
+    learnset MOVE_TACKLE, 1
+    learnset MOVE_THUNDER_SHOCK, 1
+    learnset MOVE_LEECH_SEED, 4
+    learnset MOVE_ROLLOUT, 7
+    learnset MOVE_STUN_SPORE, 10
+    learnset MOVE_SWIFT, 13
+    learnset MOVE_SCREECH, 16
+    learnset MOVE_CHARGE_BEAM, 19
+    learnset MOVE_BULLET_SEED, 22
+    learnset MOVE_SELF_DESTRUCT, 25
+    learnset MOVE_REFLECT, 28
+    learnset MOVE_SEED_BOMB, 32
+    learnset MOVE_DISCHARGE, 36
+    learnset MOVE_ENERGY_BALL, 40
+    learnset MOVE_THUNDERBOLT, 44
+    learnset MOVE_GYRO_BALL, 48
+    learnset MOVE_WORRY_SEED, 52
+    learnset MOVE_SOLAR_BEAM, 56
+    learnset MOVE_EXPLOSION, 60
+    terminatelearnset
+
+levelup SPECIES_ELECTRODE_HISUIAN
+    learnset MOVE_CHARGE, 1
+    learnset MOVE_TACKLE, 1
+    learnset MOVE_THUNDER_SHOCK, 1
+    learnset MOVE_LEECH_SEED, 4
+    learnset MOVE_ROLLOUT, 7
+    learnset MOVE_STUN_SPORE, 10
+    learnset MOVE_SWIFT, 13
+    learnset MOVE_SCREECH, 16
+    learnset MOVE_CHARGE_BEAM, 19
+    learnset MOVE_BULLET_SEED, 22
+    learnset MOVE_SELF_DESTRUCT, 25
+    learnset MOVE_REFLECT, 28
+    learnset MOVE_VOLT_SWITCH, 30
+    learnset MOVE_SEED_BOMB, 32
+    learnset MOVE_DISCHARGE, 36
+    learnset MOVE_ENERGY_BALL, 40
+    learnset MOVE_THUNDERBOLT, 44
+    learnset MOVE_GYRO_BALL, 48
+    learnset MOVE_WORRY_SEED, 52
+    learnset MOVE_CHLOROBLAST, 56
+    learnset MOVE_EXPLOSION, 60
+    terminatelearnset
+
 levelup SPECIES_EXEGGCUTE
     learnset MOVE_HYPNOSIS, 1
     learnset MOVE_BARRAGE, 1
@@ -24910,49 +24957,6 @@ levelup SPECIES_ENAMORUS_THERIAN
     learnset MOVE_EARTHQUAKE, 65
     learnset MOVE_OUTRAGE, 70
     learnset MOVE_FISSURE, 75
-    terminatelearnset
-
-levelup SPECIES_VOLTORB_HISUIAN
-    learnset MOVE_CHARGE, 1
-    learnset MOVE_TACKLE, 1
-    learnset MOVE_SONIC_BOOM, 4
-    learnset MOVE_EERIE_IMPULSE, 6
-    learnset MOVE_SPARK, 9
-    learnset MOVE_ROLLOUT, 11
-    learnset MOVE_SCREECH, 13
-    learnset MOVE_CHARGE_BEAM, 16
-    learnset MOVE_SWIFT, 20
-    learnset MOVE_ENERGY_BALL, 22
-    learnset MOVE_SELF_DESTRUCT, 26
-    learnset MOVE_LIGHT_SCREEN, 29
-    learnset MOVE_MAGNET_RISE, 34
-    learnset MOVE_DISCHARGE, 37
-    learnset MOVE_EXPLOSION, 41
-    learnset MOVE_GYRO_BALL, 46
-    learnset MOVE_MIRROR_COAT, 48
-    terminatelearnset
-
-levelup SPECIES_ELECTRODE_HISUIAN
-    learnset MOVE_MAGNETIC_FLUX, 1
-    learnset MOVE_CHARGE, 1
-    learnset MOVE_TACKLE, 1
-    learnset MOVE_SONIC_BOOM, 1
-    learnset MOVE_EERIE_IMPULSE, 1
-    learnset MOVE_SONIC_BOOM, 4
-    learnset MOVE_EERIE_IMPULSE, 6
-    learnset MOVE_SPARK, 9
-    learnset MOVE_ROLLOUT, 11
-    learnset MOVE_SCREECH, 13
-    learnset MOVE_CHARGE_BEAM, 16
-    learnset MOVE_SWIFT, 20
-    learnset MOVE_ENERGY_BALL, 22
-    learnset MOVE_SELF_DESTRUCT, 26
-    learnset MOVE_LIGHT_SCREEN, 29
-    learnset MOVE_MAGNET_RISE, 36
-    learnset MOVE_DISCHARGE, 41
-    learnset MOVE_EXPLOSION, 47
-    learnset MOVE_GYRO_BALL, 54
-    learnset MOVE_MIRROR_COAT, 58
     terminatelearnset
 
 levelup SPECIES_TYPHLOSION_HISUIAN

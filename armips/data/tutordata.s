@@ -5709,16 +5709,9 @@ tutordata SPECIES_BASCULEGION, \
                   0
 
 
-tutordata SPECIES_SNEASLER, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
+tutordata SPECIES_SNEASLER,\
+TUTOR_MOVE_ACID_SPRAY | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_CLOSE_COMBAT | TUTOR_MOVE_GUNK_SHOT
 
 tutordata SPECIES_OVERQWIL,\
 TUTOR_MOVE_ACID_SPRAY | TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_GYRO_BALL | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AQUA_TAIL,\
@@ -8993,16 +8986,9 @@ tutordata SPECIES_QWILFISH_HISUIAN,\
 TUTOR_MOVE_ACID_SPRAY | TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_GYRO_BALL | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AQUA_TAIL,\
 TUTOR_MOVE_HEX | TUTOR_MOVE_GUNK_SHOT | TUTOR_MOVE_HYDRO_PUMP
 
-tutordata SPECIES_SNEASEL_HISUIAN, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
+tutordata SPECIES_SNEASEL_HISUIAN,\
+TUTOR_MOVE_ACID_SPRAY | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_TRAILBLAZE,\
+TUTOR_MOVE_CLOSE_COMBAT | TUTOR_MOVE_GUNK_SHOT
 
 tutordata SPECIES_SAMUROTT_HISUIAN, \
                   \

@@ -6316,9 +6316,9 @@ levelup SPECIES_SNEASEL
     learnset MOVE_QUICK_ATTACK, 9
     learnset MOVE_ICE_SHARD, 12
     learnset MOVE_METAL_CLAW, 15
-    learnset MOVE_FURY_SWIPES, 18
-    learnset MOVE_FEINT_ATTACK, 21
-    learnset MOVE_HONE_CLAWS, 24
+    learnset MOVE_FEINT_ATTACK, 18
+    learnset MOVE_HONE_CLAWS, 21
+    learnset MOVE_FURY_SWIPES, 24
     learnset MOVE_ICE_PUNCH, 28
     learnset MOVE_SLASH, 32
     learnset MOVE_SCREECH, 36
@@ -6344,9 +6344,9 @@ levelup SPECIES_WEAVILE
     learnset MOVE_QUICK_ATTACK, 9
     learnset MOVE_ICE_SHARD, 12
     learnset MOVE_METAL_CLAW, 15
-    learnset MOVE_FURY_SWIPES, 18
-    learnset MOVE_FEINT_ATTACK, 21
-    learnset MOVE_HONE_CLAWS, 24
+    learnset MOVE_FEINT_ATTACK, 18
+    learnset MOVE_HONE_CLAWS, 21
+    learnset MOVE_FURY_SWIPES, 24
     learnset MOVE_ICE_PUNCH, 28
     learnset MOVE_NIGHT_SLASH, 32
     learnset MOVE_SCREECH, 36
@@ -6354,6 +6354,55 @@ levelup SPECIES_WEAVILE
     learnset MOVE_ICICLE_CRASH, 44
     learnset MOVE_AGILITY, 48
     learnset MOVE_CRUNCH, 52
+    terminatelearnset
+
+// NEW: Snatch, Feint Attack
+levelup SPECIES_SNEASEL_HISUIAN
+    learnset MOVE_FAKE_OUT, 1
+    learnset MOVE_SCRATCH, 1
+    learnset MOVE_LEER, 1
+    learnset MOVE_ROCK_SMASH, 1
+    learnset MOVE_TAUNT, 3
+    learnset MOVE_SNATCH, 6
+    learnset MOVE_QUICK_ATTACK, 9
+    learnset MOVE_VACUUM_WAVE, 12
+    learnset MOVE_METAL_CLAW, 15
+    learnset MOVE_FEINT_ATTACK, 18
+    learnset MOVE_HONE_CLAWS, 21
+    learnset MOVE_BRICK_BREAK, 24
+    learnset MOVE_POISON_JAB, 28
+    learnset MOVE_SLASH, 32
+    learnset MOVE_SCREECH, 36
+    learnset MOVE_COUNTER, 40
+    learnset MOVE_REVERSAL, 44
+    learnset MOVE_AGILITY, 48
+    learnset MOVE_CLOSE_COMBAT, 52
+    terminatelearnset
+
+// NEW: Snatch, Feint Attack
+levelup SPECIES_SNEASLER
+    learnset MOVE_DIRE_CLAW, 1
+    learnset MOVE_FLING, 1
+    learnset MOVE_NIGHT_SLASH, 1
+    learnset MOVE_FAKE_OUT, 1
+    learnset MOVE_SCRATCH, 1
+    learnset MOVE_LEER, 1
+    learnset MOVE_ROCK_SMASH, 1
+    learnset MOVE_TAUNT, 3
+    learnset MOVE_SNATCH, 6
+    learnset MOVE_QUICK_ATTACK, 9
+    learnset MOVE_VACUUM_WAVE, 12
+    learnset MOVE_METAL_CLAW, 15
+    learnset MOVE_FEINT_ATTACK, 18
+    learnset MOVE_HONE_CLAWS, 21
+    learnset MOVE_BRICK_BREAK, 24
+    learnset MOVE_POISON_JAB, 28
+    learnset MOVE_SLASH, 32
+    learnset MOVE_SCREECH, 36
+    learnset MOVE_COUNTER, 40
+    learnset MOVE_REVERSAL, 44
+    learnset MOVE_AGILITY, 48
+    learnset MOVE_CLOSE_COMBAT, 52
     terminatelearnset
 
 levelup SPECIES_TEDDIURSA
@@ -20698,28 +20747,6 @@ levelup SPECIES_BASCULEGION
     learnset MOVE_HEAD_SMASH, 56
     terminatelearnset
 
-levelup SPECIES_SNEASLER
-    learnset MOVE_REVENGE, 1
-    learnset MOVE_ASSURANCE, 1
-    learnset MOVE_QUICK_ATTACK, 1
-    learnset MOVE_BEAT_UP, 1
-    learnset MOVE_AGILITY, 1
-    learnset MOVE_SLASH, 1
-    learnset MOVE_SCRATCH, 1
-    learnset MOVE_LEER, 1
-    learnset MOVE_TAUNT, 1
-    learnset MOVE_ICE_SHARD, 1
-    learnset MOVE_METAL_CLAW, 18
-    learnset MOVE_ICY_WIND, 24
-    learnset MOVE_FURY_SWIPES, 30
-    learnset MOVE_HONE_CLAWS, 36
-    learnset MOVE_FLING, 42
-    learnset MOVE_NASTY_PLOT, 48
-    learnset MOVE_SCREECH, 54
-    learnset MOVE_NIGHT_SLASH, 60
-    learnset MOVE_DARK_PULSE, 66
-    terminatelearnset
-
 levelup SPECIES_ENAMORUS
     learnset MOVE_SAND_TOMB, 01
     learnset MOVE_ROCK_THROW, 01
@@ -25011,22 +25038,6 @@ levelup SPECIES_TYPHLOSION_HISUIAN
     learnset MOVE_INFERNO, 50
     learnset MOVE_DOUBLE_EDGE, 55
     learnset MOVE_ERUPTION, 60
-    terminatelearnset
-
-levelup SPECIES_SNEASEL_HISUIAN
-    learnset MOVE_SCRATCH, 1
-    learnset MOVE_LEER, 1
-    learnset MOVE_TAUNT, 6
-    learnset MOVE_QUICK_ATTACK, 12
-    learnset MOVE_ROCK_SMASH, 16
-    learnset MOVE_METAL_CLAW, 18
-    learnset MOVE_ICY_WIND, 24
-    learnset MOVE_FURY_SWIPES, 30
-    learnset MOVE_POISON_JAB, 36
-    learnset MOVE_BEAT_UP, 42
-    learnset MOVE_AGILITY, 48
-    learnset MOVE_CLOSE_COMBAT, 54
-    learnset MOVE_SLASH, 60
     terminatelearnset
 
 levelup SPECIES_SAMUROTT_HISUIAN

@@ -13891,6 +13891,7 @@ levelup SPECIES_PETILIL
 levelup SPECIES_LILLIGANT
     learnset MOVE_PETAL_BLIZZARD, 1
     learnset MOVE_TEETER_DANCE, 1
+    learnset MOVE_WORRY_SEED, 1
     learnset MOVE_HELPING_HAND, 1
     learnset MOVE_ABSORB, 1
     learnset MOVE_GROWTH, 1
@@ -13910,6 +13911,32 @@ levelup SPECIES_LILLIGANT
     learnset MOVE_HEALING_WISH, 48
     learnset MOVE_QUIVER_DANCE, 50
     learnset MOVE_LEAF_STORM, 52
+    terminatelearnset
+
+// NEW: High Jump Kick
+levelup SPECIES_LILLIGANT_HISUIAN
+    learnset MOVE_PETAL_BLIZZARD, 1
+    learnset MOVE_TEETER_DANCE, 1
+    learnset MOVE_DEFOG, 1
+    learnset MOVE_HELPING_HAND, 1
+    learnset MOVE_ABSORB, 1
+    learnset MOVE_GROWTH, 1
+    learnset MOVE_SWEET_SCENT, 1
+    learnset MOVE_STUN_SPORE, 4
+    learnset MOVE_MEGA_DRAIN, 8
+    learnset MOVE_AROMATHERAPY, 12
+    learnset MOVE_BULLET_SEED, 16
+    learnset MOVE_SLEEP_POWDER, 20
+    learnset MOVE_LOW_SWEEP, 24
+    learnset MOVE_GIGA_DRAIN, 28
+    learnset MOVE_LEECH_SEED, 32
+    learnset MOVE_LEAF_BLADE, 36
+    learnset MOVE_SYNTHESIS, 40
+    learnset MOVE_SUNNY_DAY, 42
+    learnset MOVE_MEGA_KICK, 44
+    learnset MOVE_HIGH_JUMP_KICK, 48
+    learnset MOVE_VICTORY_DANCE, 50
+    learnset MOVE_SOLAR_BLADE, 52
     terminatelearnset
 
 levelup SPECIES_BASCULIN_RED_STRIPED
@@ -25063,32 +25090,6 @@ levelup SPECIES_TYPHLOSION_HISUIAN
     learnset MOVE_INFERNO, 50
     learnset MOVE_DOUBLE_EDGE, 55
     learnset MOVE_ERUPTION, 60
-    terminatelearnset
-
-levelup SPECIES_LILLIGANT_HISUIAN
-    learnset MOVE_PETAL_DANCE, 1
-    learnset MOVE_PETAL_BLIZZARD, 1
-    learnset MOVE_QUIVER_DANCE, 1
-    learnset MOVE_TEETER_DANCE, 1
-    learnset MOVE_MEGA_DRAIN, 1
-    learnset MOVE_AROMATHERAPY, 1
-    learnset MOVE_MAGICAL_LEAF, 1
-    learnset MOVE_SLEEP_POWDER, 1
-    learnset MOVE_GIGA_DRAIN, 1
-    learnset MOVE_LEECH_SEED, 1
-    learnset MOVE_AFTER_YOU, 1
-    learnset MOVE_ENERGY_BALL, 1
-    learnset MOVE_SYNTHESIS, 1
-    learnset MOVE_SUNNY_DAY, 1
-    learnset MOVE_ENTRAINMENT, 1
-    learnset MOVE_LEAF_STORM, 1
-    learnset MOVE_ABSORB, 1
-    learnset MOVE_GROWTH, 1
-    learnset MOVE_HELPING_HAND, 1
-    learnset MOVE_STUN_SPORE, 1
-    learnset MOVE_ROCK_SMASH, 1
-    learnset MOVE_LEAF_BLADE, 1
-    learnset MOVE_CLOSE_COMBAT, 1
     terminatelearnset
 
 levelup SPECIES_ZORUA_HISUIAN

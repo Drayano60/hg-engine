@@ -2243,6 +2243,7 @@ levelup SPECIES_SLOWKING
     learnset MOVE_FUTURE_SIGHT, 55
     terminatelearnset
 
+// NEW: Aqua Tail
 levelup SPECIES_SLOWPOKE_GALARIAN
     learnset MOVE_CURSE, 1
     learnset MOVE_TACKLE, 1
@@ -2254,7 +2255,7 @@ levelup SPECIES_SLOWPOKE_GALARIAN
     learnset MOVE_HEADBUTT, 18
     learnset MOVE_WATER_PULSE, 21
     learnset MOVE_ZEN_HEADBUTT, 24
-    learnset MOVE_LIQUIDATION, 27
+    learnset MOVE_AQUA_TAIL, 27
     learnset MOVE_SLACK_OFF, 30
     learnset MOVE_PSYCH_UP, 35
     learnset MOVE_PSYCHIC, 40
@@ -2263,6 +2264,7 @@ levelup SPECIES_SLOWPOKE_GALARIAN
     learnset MOVE_FUTURE_SIGHT, 55
 	terminatelearnset
 
+// NEW: Aqua Tail
 levelup SPECIES_SLOWBRO_GALARIAN
 	learnset MOVE_SHELL_SIDE_ARM, 1
 	learnset MOVE_VENOSHOCK, 1
@@ -2276,7 +2278,7 @@ levelup SPECIES_SLOWBRO_GALARIAN
     learnset MOVE_HEADBUTT, 18
     learnset MOVE_WATER_PULSE, 21
     learnset MOVE_ZEN_HEADBUTT, 24
-    learnset MOVE_LIQUIDATION, 27
+    learnset MOVE_AQUA_TAIL, 27
     learnset MOVE_SLACK_OFF, 30
     learnset MOVE_WITHDRAW, 33
     learnset MOVE_PSYCH_UP, 35
@@ -2286,6 +2288,7 @@ levelup SPECIES_SLOWBRO_GALARIAN
     learnset MOVE_FUTURE_SIGHT, 55
 	terminatelearnset
 
+// NEW: Aqua Tail
 levelup SPECIES_SLOWKING_GALARIAN
     learnset MOVE_HIDDEN_POWER, 1
     learnset MOVE_TRUMP_CARD, 1
@@ -2302,7 +2305,7 @@ levelup SPECIES_SLOWKING_GALARIAN
     learnset MOVE_HEADBUTT, 18
     learnset MOVE_WATER_PULSE, 21
     learnset MOVE_PSYSHOCK, 24
-    learnset MOVE_LIQUIDATION, 27
+    learnset MOVE_AQUA_TAIL, 27
     learnset MOVE_SLACK_OFF, 30
     learnset MOVE_POWER_GEM, 33
     learnset MOVE_PSYCH_UP, 35

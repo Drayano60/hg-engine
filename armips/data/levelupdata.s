@@ -13745,9 +13745,8 @@ levelup SPECIES_DARUMAKA
     learnset MOVE_UPROAR, 32
     learnset MOVE_THRASH, 40
     learnset MOVE_BELLY_DRUM, 45
-    learnset MOVE_FLARE_BLITZ, 50
-    learnset MOVE_SUPERPOWER, 55
-    learnset MOVE_OVERHEAT, 60
+    learnset MOVE_SUPERPOWER, 50
+    learnset MOVE_FLARE_BLITZ, 55
     terminatelearnset
 
 levelup SPECIES_DARMANITAN
@@ -13765,9 +13764,8 @@ levelup SPECIES_DARMANITAN
     learnset MOVE_HAMMER_ARM, 35
     learnset MOVE_THRASH, 40
     learnset MOVE_BELLY_DRUM, 45
-    learnset MOVE_FLARE_BLITZ, 50
-    learnset MOVE_SUPERPOWER, 55
-    learnset MOVE_OVERHEAT, 60
+    learnset MOVE_SUPERPOWER, 50
+    learnset MOVE_FLARE_BLITZ, 55
     terminatelearnset
 
 levelup SPECIES_DARMANITAN_ZEN_MODE
@@ -13785,10 +13783,67 @@ levelup SPECIES_DARMANITAN_ZEN_MODE
     learnset MOVE_HAMMER_ARM, 35
     learnset MOVE_THRASH, 40
     learnset MOVE_BELLY_DRUM, 45
-    learnset MOVE_FLARE_BLITZ, 50
-    learnset MOVE_SUPERPOWER, 55
-    learnset MOVE_OVERHEAT, 60
+    learnset MOVE_SUPERPOWER, 50
+    learnset MOVE_FLARE_BLITZ, 55
     terminatelearnset
+
+// NEW: Rage
+levelup SPECIES_DARUMAKA_GALARIAN
+    learnset MOVE_POWDER_SNOW, 1
+    learnset MOVE_TACKLE, 1
+    learnset MOVE_TAUNT, 1
+    learnset MOVE_RAGE, 4
+    learnset MOVE_BITE, 8
+    learnset MOVE_AVALANCHE, 12
+    learnset MOVE_HEADBUTT, 16
+    learnset MOVE_ICE_FANG, 20
+    learnset MOVE_WORK_UP, 24
+    learnset MOVE_ICE_PUNCH, 28
+    learnset MOVE_UPROAR, 32
+    learnset MOVE_THRASH, 40
+    learnset MOVE_BELLY_DRUM, 45
+    learnset MOVE_SUPERPOWER, 50
+    learnset MOVE_BLIZZARD, 55
+	terminatelearnset
+
+// NEW: Rage
+levelup SPECIES_DARMANITAN_GALARIAN
+    learnset MOVE_POWDER_SNOW, 1
+    learnset MOVE_TACKLE, 1
+    learnset MOVE_TAUNT, 1
+    learnset MOVE_RAGE, 4
+    learnset MOVE_BITE, 8
+    learnset MOVE_AVALANCHE, 12
+    learnset MOVE_HEADBUTT, 16
+    learnset MOVE_ICE_FANG, 20
+    learnset MOVE_WORK_UP, 24
+    learnset MOVE_ICE_PUNCH, 28
+    learnset MOVE_UPROAR, 32
+    learnset MOVE_ICICLE_CRASH, 35
+    learnset MOVE_THRASH, 40
+    learnset MOVE_BELLY_DRUM, 45
+    learnset MOVE_SUPERPOWER, 50
+    learnset MOVE_BLIZZARD, 55
+	terminatelearnset
+
+levelup SPECIES_DARMANITAN_ZEN_MODE_GALARIAN
+    learnset MOVE_POWDER_SNOW, 1
+    learnset MOVE_TACKLE, 1
+    learnset MOVE_TAUNT, 1
+    learnset MOVE_RAGE, 4
+    learnset MOVE_BITE, 8
+    learnset MOVE_AVALANCHE, 12
+    learnset MOVE_HEADBUTT, 16
+    learnset MOVE_ICE_FANG, 20
+    learnset MOVE_WORK_UP, 24
+    learnset MOVE_ICE_PUNCH, 28
+    learnset MOVE_UPROAR, 32
+    learnset MOVE_ICICLE_CRASH, 35
+    learnset MOVE_THRASH, 40
+    learnset MOVE_BELLY_DRUM, 45
+    learnset MOVE_SUPERPOWER, 50
+    learnset MOVE_BLIZZARD, 55
+	terminatelearnset
 
 levelup SPECIES_MARACTUS
     learnset MOVE_GRASS_WHISTLE, 1
@@ -22413,41 +22468,6 @@ levelup SPECIES_SLOWKING_GALARIAN
 	learnset MOVE_HEAL_PULSE, 45
 	terminatelearnset
 
-levelup SPECIES_DARUMAKA_GALARIAN
-	learnset MOVE_POWDER_SNOW, 1
-	learnset MOVE_TACKLE, 1
-	learnset MOVE_TAUNT, 4
-	learnset MOVE_BITE, 8
-	learnset MOVE_AVALANCHE, 12
-	learnset MOVE_WORK_UP, 16
-	learnset MOVE_ICE_FANG, 20
-	learnset MOVE_HEADBUTT, 24
-	learnset MOVE_ICE_PUNCH, 28
-	learnset MOVE_UPROAR, 32
-	learnset MOVE_BELLY_DRUM, 36
-	learnset MOVE_BLIZZARD, 40
-	learnset MOVE_THRASH, 44
-	learnset MOVE_SUPERPOWER, 48
-	terminatelearnset
-
-levelup SPECIES_DARMANITAN_GALARIAN
-	learnset MOVE_ICICLE_CRASH, 1
-	learnset MOVE_POWDER_SNOW, 1
-	learnset MOVE_TACKLE, 1
-	learnset MOVE_TAUNT, 1
-	learnset MOVE_BITE, 1
-	learnset MOVE_AVALANCHE, 12
-	learnset MOVE_WORK_UP, 16
-	learnset MOVE_ICE_FANG, 20
-	learnset MOVE_HEADBUTT, 24
-	learnset MOVE_ICE_PUNCH, 28
-	learnset MOVE_UPROAR, 32
-	learnset MOVE_BELLY_DRUM, 38
-	learnset MOVE_BLIZZARD, 44
-	learnset MOVE_THRASH, 50
-	learnset MOVE_SUPERPOWER, 56
-	terminatelearnset
-
 levelup SPECIES_YAMASK_GALARIAN
 	learnset MOVE_ASTONISH, 1
 	learnset MOVE_PROTECT, 1
@@ -22788,10 +22808,6 @@ levelup SPECIES_PALKIA_ORIGIN
     terminatelearnset
 
 levelup SPECIES_BASCULIN
-    learnset MOVE_TACKLE, 1
-    terminatelearnset
-
-levelup SPECIES_DARMANITAN_ZEN_MODE_GALARIAN
     learnset MOVE_TACKLE, 1
     terminatelearnset
 

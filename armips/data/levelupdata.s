@@ -12860,7 +12860,7 @@ levelup SPECIES_SAMUROTT
     learnset MOVE_LIQUIDATION, 1
     learnset MOVE_SMART_STRIKE, 1
     learnset MOVE_SACRED_SWORD, 1
-    learnset MOVE_MEGAHORN 1
+    learnset MOVE_MEGAHORN, 1
     learnset MOVE_TACKLE, 1
     learnset MOVE_TAIL_WHIP, 1
     learnset MOVE_WATER_GUN, 3
@@ -12885,7 +12885,7 @@ levelup SPECIES_SAMUROTT_HISUIAN
     learnset MOVE_LIQUIDATION, 1
     learnset MOVE_SMART_STRIKE, 1
     learnset MOVE_SACRED_SWORD, 1
-    learnset MOVE_MEGAHORN 1
+    learnset MOVE_MEGAHORN, 1
     learnset MOVE_TACKLE, 1
     learnset MOVE_TAIL_WHIP, 1
     learnset MOVE_WATER_GUN, 3

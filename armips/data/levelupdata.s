@@ -15547,6 +15547,30 @@ levelup SPECIES_STUNFISK
     learnset MOVE_FISSURE, 56
     terminatelearnset
 
+// NEW: Bide, Mud Sport, Camouflage
+levelup SPECIES_STUNFISK_GALARIAN
+    learnset MOVE_METAL_SOUND, 1
+    learnset MOVE_MUD_SPORT, 1
+    learnset MOVE_MUD_SLAP, 1
+    learnset MOVE_TACKLE, 1
+    learnset MOVE_BIDE, 1
+    learnset MOVE_WATER_GUN, 1
+    learnset MOVE_METAL_CLAW, 4
+    learnset MOVE_MUD_SHOT, 8
+    learnset MOVE_ENDURE, 12
+    learnset MOVE_IRON_DEFENSE, 16
+    learnset MOVE_BULLDOZE, 20
+    learnset MOVE_REVENGE, 24
+    learnset MOVE_CAMOUFLAGE, 28
+    learnset MOVE_SNAP_TRAP, 32
+    learnset MOVE_BOUNCE, 36
+    learnset MOVE_MUDDY_WATER, 40
+    learnset MOVE_EARTHQUAKE, 44
+    learnset MOVE_SUCKER_PUNCH, 48
+    learnset MOVE_FLAIL, 52
+    learnset MOVE_FISSURE, 56
+    terminatelearnset
+
 // Evolution: 35
 levelup SPECIES_MIENFOO
     learnset MOVE_POUND, 1
@@ -22497,24 +22521,6 @@ levelup SPECIES_SLOWKING_GALARIAN
 	learnset MOVE_HEAL_PULSE, 45
 	terminatelearnset
 
-levelup SPECIES_STUNFISK_GALARIAN
-	learnset MOVE_MUD_SLAP, 1
-	learnset MOVE_TACKLE, 1
-	learnset MOVE_WATER_GUN, 1
-	learnset MOVE_METAL_CLAW, 1
-	learnset MOVE_ENDURE, 5
-	learnset MOVE_MUD_SHOT, 10
-	learnset MOVE_REVENGE, 15
-	learnset MOVE_METAL_SOUND, 20
-	learnset MOVE_SUCKER_PUNCH, 25
-	learnset MOVE_IRON_DEFENSE, 30
-	learnset MOVE_BOUNCE, 35
-	learnset MOVE_MUDDY_WATER, 40
-	learnset MOVE_SNAP_TRAP, 45
-	learnset MOVE_FLAIL, 50
-	learnset MOVE_FISSURE, 55
-	terminatelearnset
-	
 levelup SPECIES_PIKACHU_COSPLAY
 	learnset MOVE_TAIL_WHIP, 1
 	learnset MOVE_THUNDER_SHOCK, 1

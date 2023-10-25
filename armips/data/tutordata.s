@@ -7729,15 +7729,10 @@ TUTOR_MOVE_BRUTAL_SWING | TUTOR_MOVE_BULLDOZE,
 TUTOR_MOVE_HEX | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_POLTERGEIST
 
 
-tutordata SPECIES_STUNFISK_GALARIAN, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
+// NEW: Iron Head
+tutordata SPECIES_STUNFISK_GALARIAN,\
+TUTOR_MOVE_BULLDOZE,\
+TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_IRON_HEAD
 
 
 tutordata SPECIES_PIKACHU_COSPLAY, \

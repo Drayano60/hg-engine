@@ -5235,13 +5235,8 @@ mondata SPECIES_GRANBULL, "Granbull"
     mondexweight SPECIES_GRANBULL, "107.4 lbs."
 
 
-// STATS: 95 >> 100 Atk | 85 >> 90 Def | 440 >> 450 BST
 mondata SPECIES_QWILFISH, "Qwilfish"
-    .if STAT_CHANGES_IMPLEMENTED
-        basestats 65, 100, 90, 85, 55, 55
-    .else
-        basestats 65, 95, 85, 85, 55, 55
-    .endif
+    basestats 65, 95, 85, 85, 55, 55
     types TYPE_WATER, TYPE_POISON
     catchrate 45
     baseexp 0 // defined in baseexp.s

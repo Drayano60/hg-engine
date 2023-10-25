@@ -5720,16 +5720,9 @@ tutordata SPECIES_SNEASLER, \
                   0
 
 
-tutordata SPECIES_OVERQWIL, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
+tutordata SPECIES_OVERQWIL,\
+TUTOR_MOVE_ACID_SPRAY | TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_GYRO_BALL | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AQUA_TAIL,\
+TUTOR_MOVE_HEX | TUTOR_MOVE_GUNK_SHOT | TUTOR_MOVE_HYDRO_PUMP
 
 tutordata SPECIES_ENAMORUS, \
                   \
@@ -8996,16 +8989,9 @@ tutordata SPECIES_TYPHLOSION_HISUIAN, \
                   0
 
 
-tutordata SPECIES_QWILFISH_HISUIAN, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
+tutordata SPECIES_QWILFISH_HISUIAN,\
+TUTOR_MOVE_ACID_SPRAY | TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_GYRO_BALL | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AQUA_TAIL,\
+TUTOR_MOVE_HEX | TUTOR_MOVE_GUNK_SHOT | TUTOR_MOVE_HYDRO_PUMP
 
 tutordata SPECIES_SNEASEL_HISUIAN, \
                   \

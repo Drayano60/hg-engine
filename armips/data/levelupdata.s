@@ -6194,16 +6194,67 @@ levelup SPECIES_QWILFISH
     learnset MOVE_AQUA_JET, 6
     learnset MOVE_MINIMIZE, 9
     learnset MOVE_ROLLOUT, 12
-    learnset MOVE_ACID_SPRAY, 15
-    learnset MOVE_BARB_BARRAGE, 18
-    learnset MOVE_PIN_MISSILE, 21
+    learnset MOVE_ACID_SPRAY, 16
+    learnset MOVE_PIN_MISSILE, 20
     learnset MOVE_REVENGE, 24
     learnset MOVE_POISON_JAB, 28
-    learnset MOVE_STOCKPILE, 32
-    learnset MOVE_SPIT_UP, 32
-    learnset MOVE_AQUA_TAIL, 36
-    learnset MOVE_TOXIC, 40
-    learnset MOVE_LIQUIDATION, 44
+    learnset MOVE_BARB_BARRAGE, 32
+    learnset MOVE_LIQUIDATION, 36
+    learnset MOVE_STOCKPILE, 40
+    learnset MOVE_SPIT_UP, 40
+    learnset MOVE_TOXIC, 44
+    learnset MOVE_ACUPRESSURE, 48
+    learnset MOVE_GUNK_SHOT, 52
+    learnset MOVE_DESTINY_BOND, 56
+    terminatelearnset
+
+// NEW: Bubble, Rollout, Revenge
+levelup SPECIES_QWILFISH_HISUIAN
+    learnset MOVE_TOXIC_SPIKES, 1
+    learnset MOVE_SPIKES, 1
+    learnset MOVE_TACKLE, 1
+    learnset MOVE_HARDEN, 1
+    learnset MOVE_BUBBLE, 1
+    learnset MOVE_POISON_STING, 1
+    learnset MOVE_BITE, 3
+    learnset MOVE_AQUA_JET, 6
+    learnset MOVE_MINIMIZE, 9
+    learnset MOVE_ROLLOUT, 12
+    learnset MOVE_ACID_SPRAY, 16
+    learnset MOVE_PIN_MISSILE, 20
+    learnset MOVE_REVENGE, 24
+    learnset MOVE_POISON_JAB, 28
+    learnset MOVE_BARB_BARRAGE, 32
+    learnset MOVE_CRUNCH, 36
+    learnset MOVE_STOCKPILE, 40
+    learnset MOVE_SPIT_UP, 40
+    learnset MOVE_TOXIC, 44
+    learnset MOVE_ACUPRESSURE, 48
+    learnset MOVE_GUNK_SHOT, 52
+    learnset MOVE_DESTINY_BOND, 56
+    terminatelearnset
+
+// NEW: Bubble, Rollout, Revenge
+levelup SPECIES_OVERQWIL
+    learnset MOVE_TOXIC_SPIKES, 1
+    learnset MOVE_SPIKES, 1
+    learnset MOVE_TACKLE, 1
+    learnset MOVE_HARDEN, 1
+    learnset MOVE_BUBBLE, 1
+    learnset MOVE_POISON_STING, 1
+    learnset MOVE_BITE, 3
+    learnset MOVE_AQUA_JET, 6
+    learnset MOVE_MINIMIZE, 9
+    learnset MOVE_ROLLOUT, 12
+    learnset MOVE_ACID_SPRAY, 16
+    learnset MOVE_PIN_MISSILE, 20
+    learnset MOVE_REVENGE, 24
+    learnset MOVE_POISON_JAB, 28
+    learnset MOVE_BARB_BARRAGE, 32
+    learnset MOVE_CRUNCH, 36
+    learnset MOVE_STOCKPILE, 40
+    learnset MOVE_SPIT_UP, 40
+    learnset MOVE_TOXIC, 44
     learnset MOVE_ACUPRESSURE, 48
     learnset MOVE_GUNK_SHOT, 52
     learnset MOVE_DESTINY_BOND, 56
@@ -20669,28 +20720,6 @@ levelup SPECIES_SNEASLER
     learnset MOVE_DARK_PULSE, 66
     terminatelearnset
 
-levelup SPECIES_OVERQWIL
-    learnset MOVE_POISON_STING, 1
-    learnset MOVE_TACKLE, 1
-    learnset MOVE_HARDEN, 4
-    learnset MOVE_WATER_GUN, 8
-    learnset MOVE_FELL_STINGER, 12
-    learnset MOVE_MINIMIZE, 16
-    learnset MOVE_SPIKES, 20
-    learnset MOVE_BRINE, 24
-    learnset MOVE_REVENGE, 28
-    learnset MOVE_PIN_MISSILE, 32
-    learnset MOVE_TOXIC_SPIKES, 36
-    learnset MOVE_POISON_JAB, 40
-    learnset MOVE_STOCKPILE, 44
-    learnset MOVE_SPIT_UP, 4
-    learnset MOVE_TAKE_DOWN, 48
-    learnset MOVE_TOXIC, 52
-    learnset MOVE_AQUA_TAIL, 56
-    learnset MOVE_ACUPRESSURE, 60
-    learnset MOVE_DESTINY_BOND, 66
-    terminatelearnset
-
 levelup SPECIES_ENAMORUS
     learnset MOVE_SAND_TOMB, 01
     learnset MOVE_ROCK_THROW, 01
@@ -24982,28 +25011,6 @@ levelup SPECIES_TYPHLOSION_HISUIAN
     learnset MOVE_INFERNO, 50
     learnset MOVE_DOUBLE_EDGE, 55
     learnset MOVE_ERUPTION, 60
-    terminatelearnset
-
-levelup SPECIES_QWILFISH_HISUIAN
-    learnset MOVE_POISON_STING, 1
-    learnset MOVE_TACKLE, 1
-    learnset MOVE_HARDEN, 4
-    learnset MOVE_WATER_GUN, 8
-    learnset MOVE_FELL_STINGER, 12
-    learnset MOVE_MINIMIZE, 16
-    learnset MOVE_SPIKES, 20
-    learnset MOVE_DARK_PULSE, 24
-    learnset MOVE_REVENGE, 28
-    learnset MOVE_PIN_MISSILE, 32
-    learnset MOVE_TOXIC_SPIKES, 36
-    learnset MOVE_POISON_JAB, 40
-    learnset MOVE_STOCKPILE, 44
-    learnset MOVE_SPIT_UP, 44
-    learnset MOVE_TAKE_DOWN, 48
-    learnset MOVE_TOXIC, 52
-    learnset MOVE_AQUA_TAIL, 56
-    learnset MOVE_ACUPRESSURE, 60
-    learnset MOVE_DESTINY_BOND, 66
     terminatelearnset
 
 levelup SPECIES_SNEASEL_HISUIAN

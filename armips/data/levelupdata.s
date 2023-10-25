@@ -14005,13 +14005,35 @@ levelup SPECIES_YAMASK
     learnset MOVE_DESTINY_BOND, 55
     terminatelearnset
 
+// NEW: Bulldoze, Grudge, Heal Block
+levelup SPECIES_YAMASK_GALARIAN
+    learnset MOVE_ASTONISH, 1
+    learnset MOVE_PROTECT, 1
+    learnset MOVE_HAZE, 3
+    learnset MOVE_DISABLE, 6
+    learnset MOVE_NIGHT_SHADE, 9
+    learnset MOVE_BRUTAL_SWING, 12
+    learnset MOVE_BULLDOZE, 15
+    learnset MOVE_MEAN_LOOK, 18
+    learnset MOVE_SLAM, 21
+    learnset MOVE_HEX, 24
+    learnset MOVE_CURSE, 27
+    learnset MOVE_IMPRISON, 30
+    learnset MOVE_SHADOW_BALL, 33
+    learnset MOVE_EARTHQUAKE, 40
+    learnset MOVE_GRUDGE, 45
+    learnset MOVE_HEAL_BLOCK, 50
+    learnset MOVE_DESTINY_BOND, 55
+    terminatelearnset
+
 // NEW: Strength Sap
 levelup SPECIES_COFAGRIGUS
     learnset MOVE_SHADOW_CLAW, 1
     learnset MOVE_IRON_DEFENSE, 1
-    learnset MOVE_TOXIC_SPIKES, 1
-    learnset MOVE_STRENGTH_SAP, 1
     learnset MOVE_NIGHTMARE, 1
+    learnset MOVE_SCARY_FACE, 1
+    learnset MOVE_STRENGTH_SAP, 1
+    learnset MOVE_TOXIC_SPIKES, 1
     learnset MOVE_ASTONISH, 1
     learnset MOVE_PROTECT, 1
     learnset MOVE_HAZE, 3
@@ -14025,8 +14047,36 @@ levelup SPECIES_COFAGRIGUS
     learnset MOVE_CURSE, 27
     learnset MOVE_IMPRISON, 30
     learnset MOVE_SHADOW_BALL, 33
-    learnset MOVE_SCARY_FACE, 34
+    learnset MOVE_PHANTOM_FORCE, 34
     learnset MOVE_DARK_PULSE, 40
+    learnset MOVE_GRUDGE, 45
+    learnset MOVE_HEAL_BLOCK, 50
+    learnset MOVE_DESTINY_BOND, 55
+    terminatelearnset
+
+// NEW: Grudge, Heal Block, Nightmare, Strength Sap
+levelup SPECIES_RUNERIGUS
+    learnset MOVE_SHADOW_CLAW, 1
+    learnset MOVE_IRON_DEFENSE, 1
+    learnset MOVE_NIGHTMARE, 1
+    learnset MOVE_SCARY_FACE, 1
+    learnset MOVE_STRENGTH_SAP, 1
+    learnset MOVE_TOXIC_SPIKES, 1
+    learnset MOVE_ASTONISH, 1
+    learnset MOVE_PROTECT, 1
+    learnset MOVE_HAZE, 3
+    learnset MOVE_DISABLE, 6
+    learnset MOVE_NIGHT_SHADE, 9
+    learnset MOVE_BRUTAL_SWING, 12
+    learnset MOVE_BULLDOZE, 15
+    learnset MOVE_MEAN_LOOK, 18
+    learnset MOVE_SLAM, 21
+    learnset MOVE_HEX, 24
+    learnset MOVE_CURSE, 27
+    learnset MOVE_IMPRISON, 30
+    learnset MOVE_SHADOW_BALL, 33
+    learnset MOVE_PHANTOM_FORCE, 34
+    learnset MOVE_EARTHQUAKE, 40
     learnset MOVE_GRUDGE, 45
     learnset MOVE_HEAL_BLOCK, 50
     learnset MOVE_DESTINY_BOND, 55
@@ -19873,27 +19923,6 @@ levelup SPECIES_SIRFETCHD
     learnset MOVE_METEOR_ASSAULT, 64
 	terminatelearnset
 
-levelup SPECIES_RUNERIGUS
-	learnset MOVE_SHADOW_CLAW, 1
-	learnset MOVE_SCARY_FACE, 1
-	learnset MOVE_ASTONISH, 1
-	learnset MOVE_PROTECT, 1
-	learnset MOVE_HAZE, 1
-	learnset MOVE_NIGHT_SHADE, 1
-	learnset MOVE_DISABLE, 12
-	learnset MOVE_BRUTAL_SWING, 16
-	learnset MOVE_CRAFTY_SHIELD, 20
-	learnset MOVE_HEX, 24
-	learnset MOVE_MEAN_LOOK, 28
-	learnset MOVE_SLAM, 32
-	learnset MOVE_CURSE, 38
-	learnset MOVE_SHADOW_BALL, 44
-	learnset MOVE_EARTHQUAKE, 50
-	learnset MOVE_POWER_SPLIT, 56
-	learnset MOVE_GUARD_SPLIT, 56
-	learnset MOVE_DESTINY_BOND, 62
-	terminatelearnset
-
 levelup SPECIES_MILCERY
 	learnset MOVE_TACKLE, 1
 	learnset MOVE_AROMATIC_MIST, 1
@@ -22466,25 +22495,6 @@ levelup SPECIES_SLOWKING_GALARIAN
 	learnset MOVE_PSYCH_UP, 39
 	learnset MOVE_RAIN_DANCE, 42
 	learnset MOVE_HEAL_PULSE, 45
-	terminatelearnset
-
-levelup SPECIES_YAMASK_GALARIAN
-	learnset MOVE_ASTONISH, 1
-	learnset MOVE_PROTECT, 1
-	learnset MOVE_HAZE, 4
-	learnset MOVE_NIGHT_SHADE, 8
-	learnset MOVE_DISABLE, 12
-	learnset MOVE_BRUTAL_SWING, 16
-	learnset MOVE_CRAFTY_SHIELD, 20
-	learnset MOVE_HEX, 24
-	learnset MOVE_MEAN_LOOK, 28
-	learnset MOVE_SLAM, 32
-	learnset MOVE_CURSE, 36
-	learnset MOVE_SHADOW_BALL, 40
-	learnset MOVE_EARTHQUAKE, 44
-	learnset MOVE_POWER_SPLIT, 48
-	learnset MOVE_GUARD_SPLIT, 48
-	learnset MOVE_DESTINY_BOND, 52
 	terminatelearnset
 
 levelup SPECIES_STUNFISK_GALARIAN

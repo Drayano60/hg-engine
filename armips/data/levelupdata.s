@@ -14579,6 +14579,55 @@ levelup SPECIES_ZOROARK
     learnset MOVE_MEMENTO, 60
     terminatelearnset
 
+levelup SPECIES_ZORUA_HISUIAN
+    learnset MOVE_SCRATCH, 1
+    learnset MOVE_LEER, 1
+    learnset MOVE_SHADOW_SNEAK, 3
+    learnset MOVE_TORMENT, 6
+    learnset MOVE_NIGHT_SHADE, 9
+    learnset MOVE_CURSE, 12
+    learnset MOVE_SWIFT, 15
+    learnset MOVE_TAUNT, 18
+    learnset MOVE_HONE_CLAWS, 21
+    learnset MOVE_KNOCK_OFF, 24
+    learnset MOVE_FAKE_TEARS, 27
+    learnset MOVE_AGILITY, 32
+    learnset MOVE_SHADOW_BALL, 36
+    learnset MOVE_IMPRISON, 40
+    learnset MOVE_BITTER_MALICE, 44
+    learnset MOVE_COMEUPPANCE, 48
+    learnset MOVE_NASTY_PLOT, 52
+    learnset MOVE_FOUL_PLAY, 56
+    learnset MOVE_MEMENTO, 60
+    terminatelearnset
+
+// NEW: Snatch
+levelup SPECIES_ZOROARK_HISUIAN
+    learnset MOVE_EXTRASENSORY, 1
+    learnset MOVE_SNATCH, 1
+    learnset MOVE_U_TURN, 1
+    learnset MOVE_SCRATCH, 1
+    learnset MOVE_LEER, 1
+    learnset MOVE_SHADOW_SNEAK, 3
+    learnset MOVE_TORMENT, 6
+    learnset MOVE_NIGHT_SHADE, 9
+    learnset MOVE_CURSE, 12
+    learnset MOVE_SWIFT, 15
+    learnset MOVE_TAUNT, 18
+    learnset MOVE_HONE_CLAWS, 21
+    learnset MOVE_KNOCK_OFF, 24
+    learnset MOVE_FAKE_TEARS, 27
+    learnset MOVE_SHADOW_CLAW, 30
+    learnset MOVE_AGILITY, 32
+    learnset MOVE_SHADOW_BALL, 36
+    learnset MOVE_IMPRISON, 40
+    learnset MOVE_BITTER_MALICE, 44
+    learnset MOVE_COMEUPPANCE, 48
+    learnset MOVE_NASTY_PLOT, 52
+    learnset MOVE_FOUL_PLAY, 56
+    learnset MOVE_MEMENTO, 60
+    terminatelearnset
+
 // NEW: Tidy Up
 levelup SPECIES_MINCCINO
     learnset MOVE_POUND, 1
@@ -25090,45 +25139,6 @@ levelup SPECIES_TYPHLOSION_HISUIAN
     learnset MOVE_INFERNO, 50
     learnset MOVE_DOUBLE_EDGE, 55
     learnset MOVE_ERUPTION, 60
-    terminatelearnset
-
-levelup SPECIES_ZORUA_HISUIAN
-    learnset MOVE_SCRATCH, 1
-    learnset MOVE_LEER, 1
-    learnset MOVE_TORMENT, 4
-    learnset MOVE_HONE_CLAWS, 8
-    learnset MOVE_SHADOW_SNEAK, 12
-    learnset MOVE_SNARL, 16
-    learnset MOVE_TAUNT, 20
-    learnset MOVE_KNOCK_OFF, 24
-    learnset MOVE_FAKE_TEARS, 28
-    learnset MOVE_AGILITY, 32
-    learnset MOVE_IMPRISON, 36
-    learnset MOVE_NIGHT_DAZE, 40
-    learnset MOVE_NASTY_PLOT, 44
-    learnset MOVE_SHADOW_CLAW, 45
-    learnset MOVE_FOUL_PLAY, 48
-    terminatelearnset
-
-levelup SPECIES_ZOROARK_HISUIAN
-    learnset MOVE_NIGHT_SLASH, 1
-    learnset MOVE_U_TURN, 1
-    learnset MOVE_SCRATCH, 1
-    learnset MOVE_LEER, 1
-    learnset MOVE_TORMENT, 1
-    learnset MOVE_HONE_CLAWS, 1
-    learnset MOVE_SHADOW_SNEAK, 12
-    learnset MOVE_SNARL, 16
-    learnset MOVE_TAUNT, 20
-    learnset MOVE_KNOCK_OFF, 24
-    learnset MOVE_FAKE_TEARS, 28
-    learnset MOVE_AGILITY, 34
-    learnset MOVE_IMPRISON, 40
-    learnset MOVE_NIGHT_DAZE, 46
-    learnset MOVE_SHADOW_BALL, 51
-    learnset MOVE_SHADOW_CLAW, 52
-    learnset MOVE_FOUL_PLAY, 58
-    learnset MOVE_EXTRASENSORY, 64
     terminatelearnset
 
 levelup SPECIES_BRAVIARY_HISUIAN

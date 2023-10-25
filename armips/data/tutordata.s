@@ -9000,27 +9000,15 @@ tutordata SPECIES_LILLIGANT_HISUIAN,\
 TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_MAGICAL_LEAF | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_CHARM,\
 TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_CLOSE_COMBAT | TUTOR_MOVE_HURRICANE | TUTOR_MOVE_DOUBLE_EDGE
 
-tutordata SPECIES_ZORUA_HISUIAN, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
+// NEW: Double-Edge
+tutordata SPECIES_ZORUA_HISUIAN,\
+TUTOR_MOVE_ICY_WIND,\
+TUTOR_MOVE_HEX | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_DOUBLE_EDGE
 
-
-tutordata SPECIES_ZOROARK_HISUIAN, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
+// NEW: Double-Edge
+tutordata SPECIES_ZOROARK_HISUIAN,\
+TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_LOW_KICK,\
+TUTOR_MOVE_HEX | TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_POLTERGEIST | TUTOR_MOVE_DOUBLE_EDGE
 
 tutordata SPECIES_BRAVIARY_HISUIAN, \
                   \

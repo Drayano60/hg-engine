@@ -12859,8 +12859,8 @@ levelup SPECIES_DEWOTT
 levelup SPECIES_SAMUROTT
     learnset MOVE_LIQUIDATION, 1
     learnset MOVE_SMART_STRIKE, 1
-    learnset MOVE_MEGAHORN, 1
-    learnset MOVE_SLASH, 1
+    learnset MOVE_SACRED_SWORD, 1
+    learnset MOVE_MEGAHORN 1
     learnset MOVE_TACKLE, 1
     learnset MOVE_TAIL_WHIP, 1
     learnset MOVE_WATER_GUN, 3
@@ -12873,7 +12873,32 @@ levelup SPECIES_SAMUROTT
     learnset MOVE_AERIAL_ACE, 24
     learnset MOVE_REVENGE, 28
     learnset MOVE_ENCORE, 32
-    learnset MOVE_SACRED_SWORD, 36
+    learnset MOVE_SLASH, 36
+    learnset MOVE_AQUA_TAIL, 40
+    learnset MOVE_X_SCISSOR, 45
+    learnset MOVE_NIGHT_SLASH, 50
+    learnset MOVE_SWORDS_DANCE, 55
+    learnset MOVE_HYDRO_PUMP, 60
+    terminatelearnset
+
+levelup SPECIES_SAMUROTT_HISUIAN
+    learnset MOVE_LIQUIDATION, 1
+    learnset MOVE_SMART_STRIKE, 1
+    learnset MOVE_SACRED_SWORD, 1
+    learnset MOVE_MEGAHORN 1
+    learnset MOVE_TACKLE, 1
+    learnset MOVE_TAIL_WHIP, 1
+    learnset MOVE_WATER_GUN, 3
+    learnset MOVE_FOCUS_ENERGY, 6
+    learnset MOVE_WATER_SPORT, 9
+    learnset MOVE_AQUA_JET, 12
+    learnset MOVE_FURY_CUTTER, 15
+    learnset MOVE_AQUA_CUTTER, 17
+    learnset MOVE_RAZOR_SHELL, 20
+    learnset MOVE_AERIAL_ACE, 24
+    learnset MOVE_REVENGE, 28
+    learnset MOVE_ENCORE, 32
+    learnset MOVE_CEASELESS_EDGE, 36
     learnset MOVE_AQUA_TAIL, 40
     learnset MOVE_X_SCISSOR, 45
     learnset MOVE_NIGHT_SLASH, 50
@@ -25038,29 +25063,6 @@ levelup SPECIES_TYPHLOSION_HISUIAN
     learnset MOVE_INFERNO, 50
     learnset MOVE_DOUBLE_EDGE, 55
     learnset MOVE_ERUPTION, 60
-    terminatelearnset
-
-levelup SPECIES_SAMUROTT_HISUIAN
-    learnset MOVE_SLASH, 1
-    learnset MOVE_MEGAHORN, 1
-    learnset MOVE_TACKLE, 1
-    learnset MOVE_TAIL_WHIP, 1
-    learnset MOVE_WATER_GUN, 1
-    learnset MOVE_WATER_SPORT, 1
-    learnset MOVE_TAIL_WHIP, 5
-    learnset MOVE_WATER_GUN, 7
-    learnset MOVE_WATER_SPORT, 11
-    learnset MOVE_FOCUS_ENERGY, 13
-    learnset MOVE_RAZOR_SHELL, 18
-    learnset MOVE_FURY_CUTTER, 21
-    learnset MOVE_WATER_PULSE, 25
-    learnset MOVE_REVENGE, 29
-    learnset MOVE_NIGHT_SLASH, 34
-    learnset MOVE_ENCORE, 39
-    learnset MOVE_AQUA_TAIL, 46
-    learnset MOVE_DARK_PULSE, 51
-    learnset MOVE_SWORDS_DANCE, 58
-    learnset MOVE_HYDRO_PUMP, 63
     terminatelearnset
 
 levelup SPECIES_LILLIGANT_HISUIAN

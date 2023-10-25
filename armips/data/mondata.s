@@ -29268,9 +29268,15 @@ mondata SPECIES_SNEASEL_HISUIAN, "-----"
     runchance 25
     colorflip BODY_COLOR_BLACK, 1
     
-
+    
+// STATS: 90 >> 95 HP | 108 >> 110 Atk | 528 >> 535 BST
+// ABILITY: Shell Armor (2)
 mondata SPECIES_SAMUROTT_HISUIAN, "-----"
-    basestats 90, 108, 80, 85, 100, 65
+    .if STAT_CHANGES_IMPLEMENTED
+        basestats 95, 110, 80, 85, 100, 65
+    .else
+        basestats 90, 108, 80, 85, 100, 65
+    .endif
     types TYPE_WATER, TYPE_DARK
     catchrate 55
     baseexp 155
@@ -29281,7 +29287,11 @@ mondata SPECIES_SAMUROTT_HISUIAN, "-----"
     basefriendship 70
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_TORRENT, ABILITY_TORRENT
+    .if ABILITY_CHANGES_IMPLEMENTED
+        abilities ABILITY_TORRENT, ABILITY_SHELL_ARMOR
+    .else
+        abilities ABILITY_TORRENT, ABILITY_TORRENT
+    .endif
     runchance 25
     colorflip BODY_COLOR_BLUE, 0
     

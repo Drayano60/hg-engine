@@ -8969,27 +8969,13 @@ tutordata SPECIES_ENAMORUS_THERIAN, \
                   0
 
 
-tutordata SPECIES_GROWLITHE_HISUIAN, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
+tutordata SPECIES_GROWLITHE_HISUIAN,\
+TUTOR_MOVE_HEAT_WAVE,\
+TUTOR_MOVE_POWER_GEM | TUTOR_MOVE_PSYCHIC_FANGS | TUTOR_MOVE_CLOSE_COMBAT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_FLARE_BLITZ | TUTOR_MOVE_OUTRAGE | TUTOR_MOVE_WILD_CHARGE
 
-
-tutordata SPECIES_ARCANINE_HISUIAN, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
+tutordata SPECIES_ARCANINE_HISUIAN,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEAT_WAVE,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_POWER_GEM | TUTOR_MOVE_PSYCHIC_FANGS | TUTOR_MOVE_CLOSE_COMBAT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_FLARE_BLITZ | TUTOR_MOVE_OUTRAGE | TUTOR_MOVE_WILD_CHARGE
 
 tutordata SPECIES_VOLTORB_HISUIAN, \
                   \

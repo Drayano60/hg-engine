@@ -1635,18 +1635,19 @@ levelup SPECIES_GROWLITHE
     learnset MOVE_ODOR_SLEUTH, 9
     learnset MOVE_FLAME_WHEEL, 12
     learnset MOVE_HELPING_HAND, 16
-    learnset MOVE_AGILITY, 20
-    learnset MOVE_FIRE_FANG, 24
+    learnset MOVE_FIRE_FANG, 20
+    learnset MOVE_AGILITY, 24
     learnset MOVE_TAKE_DOWN, 28
-    learnset MOVE_CRUNCH, 32
-    learnset MOVE_REVERSAL, 36
+    learnset MOVE_REVERSAL, 32
+    learnset MOVE_CRUNCH, 36
     learnset MOVE_FLAMETHROWER, 40
-    learnset MOVE_PLAY_ROUGH, 44
-    learnset MOVE_OUTRAGE, 48
+    learnset MOVE_THRASH, 44
+    learnset MOVE_PLAY_ROUGH, 48
     learnset MOVE_FLARE_BLITZ, 52
     terminatelearnset
 
 levelup SPECIES_ARCANINE
+    learnset MOVE_EXTREME_SPEED, 1
     learnset MOVE_THUNDER_FANG, 1
     learnset MOVE_MORNING_SUN, 1
     learnset MOVE_ROAR, 1
@@ -1657,17 +1658,63 @@ levelup SPECIES_ARCANINE
     learnset MOVE_ODOR_SLEUTH, 9
     learnset MOVE_FLAME_WHEEL, 12
     learnset MOVE_HELPING_HAND, 16
-    learnset MOVE_AGILITY, 20
-    learnset MOVE_FIRE_FANG, 24
+    learnset MOVE_FIRE_FANG, 20
+    learnset MOVE_AGILITY, 24
     learnset MOVE_TAKE_DOWN, 28
-    learnset MOVE_CRUNCH, 32
-    learnset MOVE_REVERSAL, 36
+    learnset MOVE_REVERSAL, 32
+    learnset MOVE_CRUNCH, 36
     learnset MOVE_FLAMETHROWER, 40
-    learnset MOVE_PLAY_ROUGH, 44
-    learnset MOVE_OUTRAGE, 48
+    learnset MOVE_THRASH, 44
+    learnset MOVE_PLAY_ROUGH, 48
     learnset MOVE_FLARE_BLITZ, 52
-    learnset MOVE_EXTREME_SPEED, 56
-    learnset MOVE_RAGING_FURY, 60
+    learnset MOVE_RAGING_FURY, 56
+    learnset MOVE_DOUBLE_EDGE, 60
+    terminatelearnset
+
+// NEW: Rock Throw
+levelup SPECIES_GROWLITHE_HISUIAN
+    learnset MOVE_ROAR, 1
+    learnset MOVE_LEER, 1
+    learnset MOVE_EMBER, 1
+    learnset MOVE_HOWL, 3
+    learnset MOVE_BITE, 6
+    learnset MOVE_ROCK_THROW, 9
+    learnset MOVE_FLAME_WHEEL, 12
+    learnset MOVE_HELPING_HAND, 16
+    learnset MOVE_FIRE_FANG, 20
+    learnset MOVE_ROCK_SLIDE, 24
+    learnset MOVE_TAKE_DOWN, 28
+    learnset MOVE_REVERSAL, 32
+    learnset MOVE_CRUNCH, 36
+    learnset MOVE_FLAMETHROWER, 40
+    learnset MOVE_THRASH, 44
+    learnset MOVE_STONE_EDGE, 48
+    learnset MOVE_FLARE_BLITZ, 52
+    terminatelearnset
+
+levelup SPECIES_ARCANINE_HISUIAN
+    learnset MOVE_EXTREME_SPEED, 1
+    learnset MOVE_THUNDER_FANG, 1
+    learnset MOVE_MORNING_SUN, 1
+    learnset MOVE_ROAR, 1
+    learnset MOVE_LEER, 1
+    learnset MOVE_EMBER, 1
+    learnset MOVE_HOWL, 3
+    learnset MOVE_BITE, 6
+    learnset MOVE_ROCK_THROW, 9
+    learnset MOVE_FLAME_WHEEL, 12
+    learnset MOVE_HELPING_HAND, 16
+    learnset MOVE_FIRE_FANG, 20
+    learnset MOVE_ROCK_SLIDE, 24
+    learnset MOVE_TAKE_DOWN, 28
+    learnset MOVE_REVERSAL, 32
+    learnset MOVE_CRUNCH, 36
+    learnset MOVE_FLAMETHROWER, 40
+    learnset MOVE_THRASH, 44
+    learnset MOVE_STONE_EDGE, 48
+    learnset MOVE_FLARE_BLITZ, 52
+    learnset MOVE_RAGING_FURY, 56
+    learnset MOVE_HEAD_SMASH, 60
     terminatelearnset
 
 levelup SPECIES_POLIWAG
@@ -24863,46 +24910,6 @@ levelup SPECIES_ENAMORUS_THERIAN
     learnset MOVE_EARTHQUAKE, 65
     learnset MOVE_OUTRAGE, 70
     learnset MOVE_FISSURE, 75
-    terminatelearnset
-
-levelup SPECIES_GROWLITHE_HISUIAN
-    learnset MOVE_EMBER, 1
-    learnset MOVE_LEER, 1
-    learnset MOVE_HOWL, 4
-    learnset MOVE_BITE, 8
-    learnset MOVE_FLAME_WHEEL, 12
-    learnset MOVE_HELPING_HAND, 16
-    learnset MOVE_AGILITY, 20
-    learnset MOVE_FIRE_FANG, 24
-    learnset MOVE_RETALIATE, 28
-    learnset MOVE_CRUNCH, 32
-    learnset MOVE_TAKE_DOWN, 36
-    learnset MOVE_FLAMETHROWER, 40
-    learnset MOVE_ROAR, 44
-    learnset MOVE_PLAY_ROUGH, 48
-    learnset MOVE_REVERSAL, 52
-    learnset MOVE_FLARE_BLITZ, 56
-    terminatelearnset
-
-levelup SPECIES_ARCANINE_HISUIAN
-    learnset MOVE_EXTREME_SPEED, 1
-    learnset MOVE_BURN_UP, 1
-    learnset MOVE_FLAME_WHEEL, 1
-    learnset MOVE_HELPING_HAND, 1
-    learnset MOVE_AGILITY, 1
-    learnset MOVE_FIRE_FANG, 1
-    learnset MOVE_RETALIATE, 1
-    learnset MOVE_CRUNCH, 1
-    learnset MOVE_TAKE_DOWN, 1
-    learnset MOVE_FLAMETHROWER, 1
-    learnset MOVE_ROAR, 1
-    learnset MOVE_PLAY_ROUGH, 1
-    learnset MOVE_REVERSAL, 1
-    learnset MOVE_FLARE_BLITZ, 1
-    learnset MOVE_EMBER, 1
-    learnset MOVE_LEER, 1
-    learnset MOVE_HOWL, 1
-    learnset MOVE_BITE, 1
     terminatelearnset
 
 levelup SPECIES_VOLTORB_HISUIAN

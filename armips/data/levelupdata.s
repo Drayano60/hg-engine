@@ -17527,53 +17527,96 @@ levelup SPECIES_GOOMY
     learnset MOVE_PROTECT, 8
     learnset MOVE_BIDE, 12
     learnset MOVE_DRAGON_BREATH, 16
-    learnset MOVE_BODY_SLAM, 20
+    learnset MOVE_LIFE_DEW, 20
     learnset MOVE_FLAIL, 24
     learnset MOVE_CURSE, 28
-    learnset MOVE_DRAGON_PULSE, 34
-    learnset MOVE_RAIN_DANCE, 40
-    learnset MOVE_MUDDY_WATER, 46
-	terminatelearnset
+    learnset MOVE_RAIN_DANCE, 32
+    learnset MOVE_DRAGON_PULSE, 36
+    learnset MOVE_BODY_SLAM, 42
+    learnset MOVE_MUDDY_WATER, 48
+    terminatelearnset
 
 levelup SPECIES_SLIGGOO
+    learnset MOVE_ACID_ARMOR, 1
 	learnset MOVE_TACKLE, 1
 	learnset MOVE_BUBBLE, 1
     learnset MOVE_ABSORB, 4
     learnset MOVE_PROTECT, 8
     learnset MOVE_BIDE, 12
     learnset MOVE_DRAGON_BREATH, 16
-    learnset MOVE_BODY_SLAM, 20
+    learnset MOVE_LIFE_DEW, 20
     learnset MOVE_FLAIL, 24
     learnset MOVE_CURSE, 28
-    learnset MOVE_ACID_SPRAY, 30
-    learnset MOVE_DRAGON_PULSE, 34
-    learnset MOVE_RAIN_DANCE, 40
-    learnset MOVE_MUDDY_WATER, 46
-	terminatelearnset
+    learnset MOVE_RAIN_DANCE, 32
+    learnset MOVE_DRAGON_PULSE, 36
+    learnset MOVE_ACID_SPRAY, 40
+    learnset MOVE_BODY_SLAM, 42
+    learnset MOVE_MUDDY_WATER, 48
+    terminatelearnset
 
 levelup SPECIES_GOODRA
-    learnset MOVE_ACID_ARMOR, 1
-    learnset MOVE_LIFE_DEW, 1
-    learnset MOVE_FEINT, 1
-    learnset MOVE_POISON_TAIL, 1
     learnset MOVE_TEARFUL_LOOK, 1
+    learnset MOVE_FEINT, 1
+    learnset MOVE_ACID_ARMOR, 1
 	learnset MOVE_TACKLE, 1
 	learnset MOVE_BUBBLE, 1
     learnset MOVE_ABSORB, 4
     learnset MOVE_PROTECT, 8
     learnset MOVE_BIDE, 12
     learnset MOVE_DRAGON_BREATH, 16
-    learnset MOVE_BODY_SLAM, 20
+    learnset MOVE_LIFE_DEW, 20
     learnset MOVE_FLAIL, 24
     learnset MOVE_CURSE, 28
-    learnset MOVE_ACID_SPRAY, 30
-    learnset MOVE_DRAGON_PULSE, 34
-    learnset MOVE_RAIN_DANCE, 40
-    learnset MOVE_MUDDY_WATER, 46
+    learnset MOVE_RAIN_DANCE, 32
+    learnset MOVE_DRAGON_PULSE, 36
+    learnset MOVE_ACID_SPRAY, 40
+    learnset MOVE_BODY_SLAM, 42
+    learnset MOVE_MUDDY_WATER, 48
     learnset MOVE_AQUA_TAIL, 50
-    learnset MOVE_POWER_WHIP, 54
-    learnset MOVE_OUTRAGE, 60
-	terminatelearnset
+    learnset MOVE_POWER_WHIP, 56
+    learnset MOVE_OUTRAGE, 62
+    terminatelearnset
+
+levelup SPECIES_SLIGGOO_HISUIAN
+    learnset MOVE_ACID_ARMOR, 1
+	learnset MOVE_TACKLE, 1
+	learnset MOVE_BUBBLE, 1
+    learnset MOVE_ABSORB, 4
+    learnset MOVE_PROTECT, 8
+    learnset MOVE_BIDE, 12
+    learnset MOVE_DRAGON_BREATH, 16
+    learnset MOVE_LIFE_DEW, 20
+    learnset MOVE_FLAIL, 24
+    learnset MOVE_CURSE, 28
+    learnset MOVE_RAIN_DANCE, 32
+    learnset MOVE_DRAGON_PULSE, 36
+    learnset MOVE_SHELTER, 40
+    learnset MOVE_IRON_HEAD, 42
+    learnset MOVE_MUDDY_WATER, 48
+    terminatelearnset
+
+levelup SPECIES_GOODRA_HISUIAN
+    learnset MOVE_TEARFUL_LOOK, 1
+    learnset MOVE_FEINT, 1
+    learnset MOVE_ACID_ARMOR, 1
+	learnset MOVE_TACKLE, 1
+	learnset MOVE_BUBBLE, 1
+    learnset MOVE_ABSORB, 4
+    learnset MOVE_PROTECT, 8
+    learnset MOVE_BIDE, 12
+    learnset MOVE_DRAGON_BREATH, 16
+    learnset MOVE_LIFE_DEW, 20
+    learnset MOVE_FLAIL, 24
+    learnset MOVE_CURSE, 28
+    learnset MOVE_RAIN_DANCE, 32
+    learnset MOVE_DRAGON_PULSE, 36
+    learnset MOVE_SHELTER, 40
+    learnset MOVE_IRON_HEAD, 42
+    learnset MOVE_MUDDY_WATER, 48
+    learnset MOVE_IRON_TAIL, 50
+    learnset MOVE_HEAVY_SLAM, 56
+    learnset MOVE_OUTRAGE, 62
+    terminatelearnset
 
 levelup SPECIES_KLEFKI
 	learnset MOVE_ASTONISH, 1
@@ -25160,44 +25203,6 @@ levelup SPECIES_TYPHLOSION_HISUIAN
     learnset MOVE_INFERNO, 50
     learnset MOVE_DOUBLE_EDGE, 55
     learnset MOVE_ERUPTION, 60
-    terminatelearnset
-
-levelup SPECIES_SLIGGOO_HISUIAN
-    learnset MOVE_FEINT, 1
-    learnset MOVE_ABSORB, 1
-    learnset MOVE_TACKLE, 1
-    learnset MOVE_WATER_GUN, 1
-    learnset MOVE_ABSORB, 5
-    learnset MOVE_PROTECT, 9
-    learnset MOVE_ACID_ARMOR, 13
-    learnset MOVE_IRON_HEAD, 18
-    learnset MOVE_RAIN_DANCE, 25
-    learnset MOVE_DRAGON_BREATH, 28
-    learnset MOVE_BODY_SLAM, 32
-    learnset MOVE_MUDDY_WATER, 38
-    learnset MOVE_POWER_WHIP, 47
-    terminatelearnset
-
-levelup SPECIES_GOODRA_HISUIAN
-    learnset MOVE_AQUA_TAIL, 1
-    learnset MOVE_ACID_SPRAY, 1
-    learnset MOVE_POISON_TAIL, 1
-    learnset MOVE_TEARFUL_LOOK, 1
-    learnset MOVE_FEINT, 1
-    learnset MOVE_ABSORB, 1
-    learnset MOVE_TACKLE, 1
-    learnset MOVE_WATER_GUN, 1
-    learnset MOVE_DRAGON_BREATH, 1
-    learnset MOVE_PROTECT, 15
-    learnset MOVE_ACID_ARMOR, 20
-    learnset MOVE_WATER_PULSE, 25
-    learnset MOVE_IRON_HEAD, 28
-    learnset MOVE_RAIN_DANCE, 30
-    learnset MOVE_DRAGON_PULSE, 35
-    learnset MOVE_CURSE, 43
-    learnset MOVE_BODY_SLAM, 49
-    learnset MOVE_MUDDY_WATER, 58
-    learnset MOVE_POWER_WHIP, 67
     terminatelearnset
 
 levelup SPECIES_AVALUGG_HISUIAN

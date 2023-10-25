@@ -9150,9 +9150,8 @@ evodata SPECIES_CARBINK
 terminateevodata
 
 evodata SPECIES_GOOMY
-    // evolution EVO_LEVEL, 40, SPECIES_SLIGGOO
-    evolution EVO_LEVEL, 30, SPECIES_SLIGGOO
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_LEVEL_GLOBAL_TERMINAL, 40, SPECIES_SLIGGOO, 1
+    evolutionwithform EVO_LEVEL, 40, SPECIES_SLIGGOO, 0
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -15934,7 +15933,8 @@ evodata SPECIES_BRAVIARY_HISUIAN
 terminateevodata
 
 evodata SPECIES_SLIGGOO_HISUIAN
-    evolutionwithform EVO_LEVEL_RAIN, 50, SPECIES_GOODRA, 1
+    // evolutionwithform EVO_LEVEL_RAIN, 50, SPECIES_GOODRA, 1
+    evolutionwithform EVO_LEVEL, 50, SPECIES_GOODRA, 1
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE

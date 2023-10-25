@@ -16153,6 +16153,27 @@ levelup SPECIES_BRAVIARY
     terminatelearnset
 
 // Evolution: 36
+levelup SPECIES_BRAVIARY_HISUIAN
+    learnset MOVE_AIR_SLASH, 1
+    learnset MOVE_PECK, 1
+    learnset MOVE_LEER, 1
+    learnset MOVE_FURY_ATTACK, 4
+    learnset MOVE_PLUCK, 8
+    learnset MOVE_SCARY_FACE, 12
+    learnset MOVE_WING_ATTACK, 16
+    learnset MOVE_DEFOG, 20
+    learnset MOVE_SLASH, 24
+    learnset MOVE_TAILWIND, 28
+    learnset MOVE_HONE_CLAWS, 32
+    learnset MOVE_ESPER_WING, 36
+    learnset MOVE_CRUSH_CLAW, 40
+    learnset MOVE_WHIRLWIND, 45
+    learnset MOVE_THRASH, 50
+    learnset MOVE_HURRICANE, 55
+    learnset MOVE_SKY_ATTACK, 60
+    terminatelearnset
+
+// Evolution: 36
 levelup SPECIES_VULLABY
     learnset MOVE_GUST, 1
     learnset MOVE_LEER, 1
@@ -25139,27 +25160,6 @@ levelup SPECIES_TYPHLOSION_HISUIAN
     learnset MOVE_INFERNO, 50
     learnset MOVE_DOUBLE_EDGE, 55
     learnset MOVE_ERUPTION, 60
-    terminatelearnset
-
-levelup SPECIES_BRAVIARY_HISUIAN
-    learnset MOVE_SUPERPOWER, 1
-    learnset MOVE_SKY_ATTACK, 1
-    learnset MOVE_PECK, 1
-    learnset MOVE_LEER, 1
-    learnset MOVE_HONE_CLAWS, 1
-    learnset MOVE_WING_ATTACK, 1
-    learnset MOVE_TAILWIND, 18
-    learnset MOVE_SCARY_FACE, 24
-    learnset MOVE_AERIAL_ACE, 30
-    learnset MOVE_PSYCHIC, 36
-    learnset MOVE_ROOST, 36
-    learnset MOVE_WHIRLWIND, 42
-    learnset MOVE_CRUSH_CLAW, 48
-    learnset MOVE_AIR_SLASH, 57
-    learnset MOVE_DEFOG, 64
-    learnset MOVE_THRASH, 72
-    learnset MOVE_BRAVE_BIRD, 80
-    learnset MOVE_HURRICANE, 80
     terminatelearnset
 
 levelup SPECIES_SLIGGOO_HISUIAN

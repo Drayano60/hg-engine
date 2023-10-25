@@ -8214,8 +8214,8 @@ evodata SPECIES_BOUFFALANT
 
 evodata SPECIES_RUFFLET
     // evolution EVO_LEVEL, 54, SPECIES_BRAVIARY
-    evolution EVO_LEVEL, 36, SPECIES_BRAVIARY
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_LEVEL_GLOBAL_TERMINAL, 36, SPECIES_BRAVIARY, 1
+    evolutionwithform EVO_LEVEL, 36, SPECIES_BRAVIARY, 0
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE

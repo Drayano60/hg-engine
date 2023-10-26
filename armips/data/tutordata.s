@@ -9226,38 +9226,19 @@ tutordata SPECIES_WOOPER_PALDEAN, \
                   0
 
 
-tutordata SPECIES_TAUROS_COMBAT, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
+tutordata SPECIES_TAUROS_COMBAT,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_DRILL_RUN,\
+TUTOR_IRON_HEAD | TUTOR_ZEN_HEADBUTT | TUTOR_MOVE_CLOSE_COMBAT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_OUTRAGE | TUTOR_MOVE_WILD_CHARGE
 
+// NEW: Double-Edge
+tutordata SPECIES_TAUROS_BLAZE,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_DRILL_RUN,\
+TUTOR_IRON_HEAD | TUTOR_ZEN_HEADBUTT | TUTOR_MOVE_CLOSE_COMBAT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_FLARE_BLITZ | TUTOR_MOVE_OUTRAGE | TUTOR_MOVE_WILD_CHARGE
 
-tutordata SPECIES_TAUROS_BLAZE, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_TAUROS_AQUA, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
+// NEW: Double-Edge
+tutordata SPECIES_TAUROS_AQUA,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_DRILL_RUN,\
+TUTOR_IRON_HEAD | TUTOR_ZEN_HEADBUTT | TUTOR_MOVE_CLOSE_COMBAT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HYDRO_PUMP | TUTOR_MOVE_OUTRAGE | TUTOR_MOVE_WILD_CHARGE
 
 tutordata SPECIES_OINKOLOGNE_FEMALE, \
                   \

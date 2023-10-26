@@ -4052,13 +4052,79 @@ levelup SPECIES_TAUROS
     learnset MOVE_SCARY_FACE, 20
     learnset MOVE_TAKE_DOWN, 24
     learnset MOVE_ZEN_HEADBUTT, 28
-    learnset MOVE_RAGING_BULL, 32
-    learnset MOVE_BODY_SLAM, 36
+    learnset MOVE_BODY_SLAM, 32
+    learnset MOVE_RAGING_BULL, 36
     learnset MOVE_REST, 40
     learnset MOVE_THRASH, 44
     learnset MOVE_HIGH_HORSEPOWER, 48
     learnset MOVE_OUTRAGE, 52
     learnset MOVE_DOUBLE_EDGE, 56
+    learnset MOVE_GIGA_IMPACT, 60
+    terminatelearnset
+
+// NEW: Rage, Pursuit
+levelup SPECIES_TAUROS_COMBAT
+    learnset MOVE_TACKLE, 1
+    learnset MOVE_TAIL_WHIP, 1
+    learnset MOVE_RAGE, 1
+    learnset MOVE_PURSUIT, 4
+    learnset MOVE_WORK_UP, 8
+    learnset MOVE_DOUBLE_KICK, 12
+    learnset MOVE_ASSURANCE, 16
+    learnset MOVE_SCARY_FACE, 20
+    learnset MOVE_TAKE_DOWN, 24
+    learnset MOVE_ZEN_HEADBUTT, 28
+    learnset MOVE_BODY_SLAM, 32
+    learnset MOVE_RAGING_BULL, 36
+    learnset MOVE_REST, 40
+    learnset MOVE_THRASH, 44
+    learnset MOVE_HIGH_HORSEPOWER, 48
+    learnset MOVE_CLOSE_COMBAT, 52
+    learnset MOVE_DOUBLE_EDGE, 56
+    learnset MOVE_GIGA_IMPACT, 60
+    terminatelearnset
+
+// NEW: Rage, Pursuit
+levelup SPECIES_TAUROS_BLAZE
+    learnset MOVE_TACKLE, 1
+    learnset MOVE_TAIL_WHIP, 1
+    learnset MOVE_RAGE, 1
+    learnset MOVE_PURSUIT, 4
+    learnset MOVE_WORK_UP, 8
+    learnset MOVE_DOUBLE_KICK, 12
+    learnset MOVE_FLAME_CHARGE, 16
+    learnset MOVE_SCARY_FACE, 20
+    learnset MOVE_TAKE_DOWN, 24
+    learnset MOVE_ZEN_HEADBUTT, 28
+    learnset MOVE_BODY_SLAM, 32
+    learnset MOVE_RAGING_BULL, 36
+    learnset MOVE_REST, 40
+    learnset MOVE_THRASH, 44
+    learnset MOVE_HIGH_HORSEPOWER, 48
+    learnset MOVE_CLOSE_COMBAT, 52
+    learnset MOVE_FLARE_BLITZ, 56
+    learnset MOVE_GIGA_IMPACT, 60
+    terminatelearnset
+
+// NEW: Rage, Pursuit
+levelup SPECIES_TAUROS_AQUA
+    learnset MOVE_TACKLE, 1
+    learnset MOVE_TAIL_WHIP, 1
+    learnset MOVE_RAGE, 1
+    learnset MOVE_PURSUIT, 4
+    learnset MOVE_WORK_UP, 8
+    learnset MOVE_DOUBLE_KICK, 12
+    learnset MOVE_AQUA_JET, 16
+    learnset MOVE_SCARY_FACE, 20
+    learnset MOVE_TAKE_DOWN, 24
+    learnset MOVE_ZEN_HEADBUTT, 28
+    learnset MOVE_BODY_SLAM, 32
+    learnset MOVE_RAGING_BULL, 36
+    learnset MOVE_REST, 40
+    learnset MOVE_THRASH, 44
+    learnset MOVE_HIGH_HORSEPOWER, 48
+    learnset MOVE_CLOSE_COMBAT, 52
+    learnset MOVE_WAVE_CRASH, 56
     learnset MOVE_GIGA_IMPACT, 60
     terminatelearnset
 
@@ -25418,18 +25484,6 @@ levelup SPECIES_TERAPAGOS_TERASTAL
     terminatelearnset
 
 levelup SPECIES_WOOPER_PALDEAN
-    learnset MOVE_TACKLE, 1
-    terminatelearnset
-
-levelup SPECIES_TAUROS_COMBAT
-    learnset MOVE_TACKLE, 1
-    terminatelearnset
-
-levelup SPECIES_TAUROS_BLAZE
-    learnset MOVE_TACKLE, 1
-    terminatelearnset
-
-levelup SPECIES_TAUROS_AQUA
     learnset MOVE_TACKLE, 1
     terminatelearnset
 

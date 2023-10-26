@@ -7261,8 +7261,8 @@ evodata SPECIES_LILLIGANT
     terminateevodata
 
 evodata SPECIES_BASCULIN
-    evolutionwithform EVO_LEVEL_MALE, 0, SPECIES_BASCULEGION, 0
-    evolutionwithform EVO_LEVEL_FEMALE, 0, SPECIES_BASCULEGION, 3
+    evolutionwithform EVO_HURT_IN_BATTLE_AMOUNT_FEMALE, 72, SPECIES_BASCULEGION, 3 // Female
+    evolutionwithform EVO_HURT_IN_BATTLE_AMOUNT, 72, SPECIES_BASCULEGION, 0 // Male
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE

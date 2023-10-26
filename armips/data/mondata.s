@@ -22375,7 +22375,7 @@ mondata SPECIES_URSALUNA, "Ursaluna"
     mondexweight SPECIES_URSALUNA, "639.3 lbs."
 
 
-mondata SPECIES_BASCULEGION, "Basculegion"
+mondata SPECIES_BASCULEGION, "Basclegion" // 10 char limit
     basestats 120, 112, 65, 78, 80, 75
     types TYPE_WATER, TYPE_GHOST
     catchrate 135

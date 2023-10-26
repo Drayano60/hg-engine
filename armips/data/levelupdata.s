@@ -5874,22 +5874,24 @@ levelup SPECIES_YANMEGA
 levelup SPECIES_WOOPER
     learnset MOVE_WATER_GUN, 1
     learnset MOVE_TAIL_WHIP, 1
-    learnset MOVE_MUD_SPORT, 3
+    learnset MOVE_MUD_SPORT, 4
     learnset MOVE_MUD_SHOT, 6
-    learnset MOVE_ACID_SPRAY, 9
-    learnset MOVE_WATER_PULSE, 12
-    learnset MOVE_MUD_BOMB, 15
-    learnset MOVE_SLAM, 18
-    learnset MOVE_YAWN, 22
+    learnset MOVE_ACID_SPRAY, 8
+    learnset MOVE_WATER_PULSE, 10
+    learnset MOVE_MUD_BOMB, 12
+    learnset MOVE_SLAM, 14
+    learnset MOVE_MIST, 16
+    learnset MOVE_HAZE, 16
+    learnset MOVE_YAWN, 18
+    learnset MOVE_AMNESIA, 22
     learnset MOVE_AQUA_TAIL, 26
-    learnset MOVE_AMNESIA, 30
+    learnset MOVE_RAIN_DANCE, 30
     learnset MOVE_EARTHQUAKE, 34
-    learnset MOVE_RAIN_DANCE, 38
-    learnset MOVE_MUDDY_WATER, 42
-    learnset MOVE_MIST, 46
-    learnset MOVE_HAZE, 46
+    learnset MOVE_MUDDY_WATER, 38
+    learnset MOVE_LIQUIDATION, 42
+    learnset MOVE_TOXIC, 46
     learnset MOVE_RECOVER, 50
-    learnset MOVE_LIQUIDATION, 54
+    learnset MOVE_HYDRO_PUMP, 54
     terminatelearnset
 
 levelup SPECIES_QUAGSIRE
@@ -5898,22 +5900,75 @@ levelup SPECIES_QUAGSIRE
     learnset MOVE_CURSE, 1
     learnset MOVE_WATER_GUN, 1
     learnset MOVE_TAIL_WHIP, 1
-    learnset MOVE_MUD_SPORT, 3
+    learnset MOVE_MUD_SPORT, 4
     learnset MOVE_MUD_SHOT, 6
-    learnset MOVE_ACID_SPRAY, 9
-    learnset MOVE_WATER_PULSE, 12
-    learnset MOVE_MUD_BOMB, 15
-    learnset MOVE_SLAM, 18
-    learnset MOVE_YAWN, 22
+    learnset MOVE_ACID_SPRAY, 8
+    learnset MOVE_WATER_PULSE, 10
+    learnset MOVE_MUD_BOMB, 12
+    learnset MOVE_SLAM, 14
+    learnset MOVE_MIST, 16
+    learnset MOVE_HAZE, 16
+    learnset MOVE_YAWN, 18
+    learnset MOVE_AMNESIA, 22
     learnset MOVE_AQUA_TAIL, 26
-    learnset MOVE_AMNESIA, 30
+    learnset MOVE_RAIN_DANCE, 30
     learnset MOVE_EARTHQUAKE, 34
-    learnset MOVE_RAIN_DANCE, 38
-    learnset MOVE_MUDDY_WATER, 42
-    learnset MOVE_MIST, 46
-    learnset MOVE_HAZE, 46
+    learnset MOVE_MUDDY_WATER, 38
+    learnset MOVE_LIQUIDATION, 42
+    learnset MOVE_TOXIC, 46
     learnset MOVE_RECOVER, 50
-    learnset MOVE_LIQUIDATION, 54
+    learnset MOVE_HYDRO_PUMP, 54
+    terminatelearnset
+
+// NEW: Mud Sport, Mud Bomb
+levelup SPECIES_WOOPER_PALDEAN
+    learnset MOVE_TACKLE, 1
+    learnset MOVE_TAIL_WHIP, 1
+    learnset MOVE_MUD_SPORT, 4
+    learnset MOVE_MUD_SHOT, 6
+    learnset MOVE_ACID_SPRAY, 8
+    learnset MOVE_POISON_TAIL, 10
+    learnset MOVE_MUD_BOMB, 12
+    learnset MOVE_SLAM, 14
+    learnset MOVE_MIST, 16
+    learnset MOVE_HAZE, 16
+    learnset MOVE_YAWN, 18
+    learnset MOVE_AMNESIA, 22
+    learnset MOVE_POISON_JAB, 26
+    learnset MOVE_TOXIC_SPIKES, 30
+    learnset MOVE_EARTHQUAKE, 34
+    learnset MOVE_SLUDGE_WAVE, 38
+    learnset MOVE_LIQUIDATION, 42
+    learnset MOVE_TOXIC, 46
+    learnset MOVE_RECOVER, 50
+    learnset MOVE_GUNK_SHOT, 54
+    terminatelearnset
+
+// NEW: Mud Sport, Mud Bomb
+levelup SPECIES_CLODSIRE
+    learnset MOVE_BODY_SLAM, 1
+    learnset MOVE_MEGAHORN, 1
+    learnset MOVE_CURSE, 1
+    learnset MOVE_TACKLE, 1
+    learnset MOVE_TAIL_WHIP, 1
+    learnset MOVE_MUD_SPORT, 4
+    learnset MOVE_MUD_SHOT, 6
+    learnset MOVE_ACID_SPRAY, 8
+    learnset MOVE_POISON_TAIL, 10
+    learnset MOVE_MUD_BOMB, 12
+    learnset MOVE_SLAM, 14
+    learnset MOVE_MIST, 16
+    learnset MOVE_HAZE, 16
+    learnset MOVE_YAWN, 18
+    learnset MOVE_AMNESIA, 22
+    learnset MOVE_POISON_JAB, 26
+    learnset MOVE_TOXIC_SPIKES, 30
+    learnset MOVE_EARTHQUAKE, 34
+    learnset MOVE_SLUDGE_WAVE, 38
+    learnset MOVE_LIQUIDATION, 42
+    learnset MOVE_TOXIC, 46
+    learnset MOVE_RECOVER, 50
+    learnset MOVE_GUNK_SHOT, 54
     terminatelearnset
 
 levelup SPECIES_MURKROW
@@ -21288,10 +21343,6 @@ levelup SPECIES_ANNIHILAPE
     learnset MOVE_FOCUS_PUNCH, 65
 	terminatelearnset
 
-levelup SPECIES_CLODSIRE
-    learnset MOVE_TACKLE, 1 
-    terminatelearnset
-
 levelup SPECIES_FARIGIRAF
     learnset MOVE_HIGH_HORSEPOWER, 1
     learnset MOVE_MAGIC_COAT, 1
@@ -25480,10 +25531,6 @@ levelup SPECIES_GIMMIGHOUL_ROAMING
     terminatelearnset
 
 levelup SPECIES_TERAPAGOS_TERASTAL
-    learnset MOVE_TACKLE, 1
-    terminatelearnset
-
-levelup SPECIES_WOOPER_PALDEAN
     learnset MOVE_TACKLE, 1
     terminatelearnset
 

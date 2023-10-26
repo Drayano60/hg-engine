@@ -24013,8 +24013,13 @@ mondata SPECIES_ANNIHILAPE, "Annihilape"
     mondexweight SPECIES_ANNIHILAPE, "123.5 lbs."
 
 
+// STATS: 60 >> 70 Def | 45 >> 55 SpAtk | 430 >> 450 BST
 mondata SPECIES_CLODSIRE, "Clodsire"
-    basestats 130, 75, 60, 20, 45, 100
+    .if STAT_CHANGES_IMPLEMENTED
+        basestats 130, 75, 70, 20, 55, 100
+    .else
+        basestats 130, 75, 60, 20, 45, 100
+    .endif
     types TYPE_POISON, TYPE_GROUND
     catchrate 90
     baseexp 0 // defined in baseexp.s

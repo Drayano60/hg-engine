@@ -217,4 +217,4 @@ Powers up moves by 50%\nwhen at 25% HP or less.
 Powers up Psychic-type\nmoves by 50%.
 Powers up the move that\nit used last turn by 20%.
 Powers up the Steel-type\nmoves of all allies by 50%.
-Prevents the Pokémon and\nits ally from being poisoned.
+Protects the Pokémon and\nits ally from poison.

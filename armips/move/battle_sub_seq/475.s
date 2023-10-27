@@ -10,6 +10,7 @@
 .create "build/move/battle_sub_seq/1_475", 0
 
 // Handle Pastel Veil
+// The condition cure is handled by the switch-in check
 
 a001_475:
     setstatusicon BATTLER_xFF, 0x0

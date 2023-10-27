@@ -1472,3 +1472,6 @@ Tidying up complete!
 {STRVAR_1 1, 0, 0} put the\n{STRVAR_1 6, 1, 0} away!
 The wild {STRVAR_1 1, 0, 0} put the\n{STRVAR_1 6, 1, 0} away!
 The foe’s {STRVAR_1 1, 0, 0} put the\n{STRVAR_1 6, 1, 0} away!
+{STRVAR_1 1, 0, 0}’s poison status\nwas cured by Pastel Veil!
+The wild {STRVAR_1 1, 0, 0}’s poison status\nwas cured by Pastel Veil!
+The foe’s {STRVAR_1 1, 0, 0}’s poison status\nwas cured by Pastel Veil!

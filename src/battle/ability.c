@@ -362,6 +362,7 @@ enum
     SWITCH_IN_CHECK_INTIMIDATE,
     SWITCH_IN_CHECK_CALMING_AROMA, // Custom
     SWITCH_IN_CHECK_ILLUMINATE, // New effect
+    SWITCH_IN_CHECK_PASTEL_VEIL,
     SWITCH_IN_CHECK_DOWNLOAD,
     SWITCH_IN_CHECK_ANTICIPATION,
     SWITCH_IN_CHECK_FOREWARN,
@@ -696,6 +697,31 @@ int SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
                         sp->battlemon[client_no].intimidate_flag = 1;
                         sp->client_work = client_no;
                         scriptnum = SUB_SEQ_ILLUMINATE;
+                        ret = SWITCH_IN_CHECK_MOVE_SCRIPT;
+                        break;
+                    }
+                }
+                if (i == client_set_max){
+                    sp->switch_in_check_seq_no++;
+                }
+                break;
+            case SWITCH_IN_CHECK_PASTEL_VEIL:
+                for (i = 0; i < client_set_max; i++)
+                {
+                    client_no = sp->turn_order[i];
+
+                    if
+                    (
+                        ((GetBattlerAbility(sp, client_no) == ABILITY_PASTEL_VEIL) || (GetBattlerAbility(sp, BATTLER_ALLY(client_no)) == ABILITY_PASTEL_VEIL)) &&
+                        (sp->battlemon[client_no].hp) &&
+                        (sp->battlemon[client_no].intimidate_flag == 0) &&
+                        (sp->battlemon[client_no].condition & STATUS_POISON_ANY)
+                    )
+                    {
+                        sp->battlemon[client_no].condition = 0;
+                        sp->battlemon[client_no].intimidate_flag = 1;
+                        sp->client_work = client_no;
+                        scriptnum = SUB_SEQ_PASTEL_VEIL;
                         ret = SWITCH_IN_CHECK_MOVE_SCRIPT;
                         break;
                     }

@@ -372,6 +372,7 @@
 #define SUB_SEQ_CALMING_AROMA (470)
 #define SUB_SEQ_ILLUMINATE (472)
 #define SUB_SEQ_PASTEL_VEIL (475)
+#define SUB_SEQ_SCREEN_CLEANER (476)
 
 // add status effect constants--used in battle effect scripts to queue up a subscript through the table in src/moves.c
 

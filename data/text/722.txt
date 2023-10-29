@@ -218,3 +218,7 @@ Powers up Psychic-type\nmoves by 50%.
 Powers up the move that\nit used last turn by 20%.
 Powers up the Steel-type\nmoves of all allies by 50%.
 Protects the Pokémon and\nits ally from poison.
+Removes all barriers on\nthe field upon entry.
+-
+-
+-

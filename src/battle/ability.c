@@ -363,6 +363,7 @@ enum
     SWITCH_IN_CHECK_CALMING_AROMA, // Custom
     SWITCH_IN_CHECK_ILLUMINATE, // New effect
     SWITCH_IN_CHECK_PASTEL_VEIL,
+    SWITCH_IN_CHECK_SCREEN_CLEANER,
     SWITCH_IN_CHECK_DOWNLOAD,
     SWITCH_IN_CHECK_ANTICIPATION,
     SWITCH_IN_CHECK_FOREWARN,
@@ -729,6 +730,31 @@ int SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
                 if (i == client_set_max){
                     sp->switch_in_check_seq_no++;
                 }
+                break;
+            case SWITCH_IN_CHECK_SCREEN_CLEANER:
+                for (i = 0; i < client_set_max; i++)
+                {
+                    client_no = sp->turn_order[i];
+
+                    if
+                    (
+                        (GetBattlerAbility(sp, client_no) == ABILITY_SCREEN_CLEANER) &&
+                        (sp->battlemon[client_no].hp) &&
+                        (sp->battlemon[client_no].intimidate_flag == 0)
+                    )
+                    {
+                        sp->battlemon[client_no].intimidate_flag = 1;
+                        sp->client_work = client_no;
+                        scriptnum = SUB_SEQ_SCREEN_CLEANER;
+                        ret = SWITCH_IN_CHECK_MOVE_SCRIPT;
+                        break;
+                    }
+                }
+
+                if (i == client_set_max){
+                    sp->switch_in_check_seq_no++;
+                }
+
                 break;
                 // 022534BE
             case SWITCH_IN_CHECK_DOWNLOAD:

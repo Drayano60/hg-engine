@@ -83,7 +83,7 @@ LEVEL_VICTORY_ROAD equ 56
 LEVEL_SILVER_5 equ 57
 LEVEL_POKEMON_LEAGUE equ 59
 
-LEVEL_JOHTO_LEADER_REMATCH equ 16
+LEVEL_JOHTO_LEADER_REMATCH equ 56
 
 /******************************************** Cherrygrove City ********************************************/
 

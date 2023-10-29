@@ -2431,6 +2431,33 @@ BOOL MoveHitDefenderAbilityCheck(void *bw, struct BattleStruct *sp, int *seq_no)
                 ret = TRUE;
             } 
             break;
+        case ABILITY_PERISH_BODY:
+            if
+            (
+                (sp->battlemon[sp->attack_client].hp)
+                // Don't activate if the attacker is already afflicted by Perish Song
+                && (((sp->battlemon[sp->attack_client].effect_of_moves & MOVE_EFFECT_FLAG_PERISH_SONG_ACTIVE) == 0))
+                && ((sp->waza_status_flag & WAZA_STATUS_FLAG_NO_OUT) == 0)
+                && ((sp->server_status_flag & SERVER_STATUS_FLAG_x20) == 0)
+                && ((sp->server_status_flag2 & SERVER_STATUS_FLAG2_U_TURN) == 0)
+                && ((sp->oneSelfFlag[sp->defence_client].physical_damage) ||
+                    (sp->oneSelfFlag[sp->defence_client].special_damage))
+                && (sp->moveTbl[sp->current_move_index].flag & FLAG_CONTACT)
+            )
+            {
+                sp->battlemon[sp->attack_client].effect_of_moves |= MOVE_EFFECT_FLAG_PERISH_SONG_ACTIVE;
+                sp->battlemon[sp->attack_client].moveeffect.perishSongTurns = 3;
+
+                // This currently says 'both will faint in 3 turns' even if the defending client is skipped. Is that accurate?
+                if ((sp->battlemon[sp->defence_client].effect_of_moves & MOVE_EFFECT_FLAG_PERISH_SONG_ACTIVE) == 0) {
+                    sp->battlemon[sp->defence_client].effect_of_moves |= MOVE_EFFECT_FLAG_PERISH_SONG_ACTIVE;
+                    sp->battlemon[sp->defence_client].moveeffect.perishSongTurns = 3;
+                }
+
+                seq_no[0] = SUB_SEQ_PERISH_BODY;
+                ret = TRUE;
+            }
+            break;
         /*
         case ABILITY_DISGUISE:
             if ((sp->battlemon[sp->defence_client].species == SPECIES_MIMIKYU)

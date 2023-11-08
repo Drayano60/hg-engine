@@ -1485,3 +1485,6 @@ The wild {STRVAR_1 1, 0, 0} made contact\nwith {STRVAR_1 1, 1, 0}’s Perish Bod
 The wild {STRVAR_1 1, 0, 0} made contact\nwith the wild {STRVAR_1 1, 1, 0}’s Perish Body!\rBoth Pokémon will faint\nin three turns!
 The foe’s {STRVAR_1 1, 0, 0} made contact\nwith {STRVAR_1 1, 1, 0}’s Perish Body!\rBoth Pokémon will faint\nin three turns!
 The foe’s {STRVAR_1 1, 0, 0} made contact\nwith the foe’s {STRVAR_1 1, 1, 0}’s Perish Body!\rBoth Pokémon will faint\nin three turns!
+{STRVAR_1 1, 0, 0} swapped Abilities\nwith its target!
+The wild {STRVAR_1 1, 0, 0} swapped\nAbilities with its target!
+The foe’s {STRVAR_1 1, 0, 0} swapped\nAbilities with its target!

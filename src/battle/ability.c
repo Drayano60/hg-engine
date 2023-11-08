@@ -1672,8 +1672,9 @@ BOOL MummyAbilityCheck(struct BattleStruct *sp)
     {
         case ABILITY_MULTITYPE:
         case ABILITY_ZEN_MODE:
-        /*
         case ABILITY_STANCE_CHANGE:
+        case ABILITY_MUMMY:
+        /*
         case ABILITY_SCHOOLING:
         case ABILITY_BATTLE_BOND:
         case ABILITY_POWER_CONSTRUCT:
@@ -1681,8 +1682,31 @@ BOOL MummyAbilityCheck(struct BattleStruct *sp)
         case ABILITY_RKS_SYSTEM:
         case ABILITY_DISGUISE:
         case ABILITY_COMATOSE:
-        case ABILITY_MUMMY:
         */
+            return FALSE;
+        default:
+            return TRUE;
+    }
+}
+
+/**
+ *  @brief check if wandering spirit can overwrite the attacker's ability
+ *
+ *  @param sp global battle structure
+ *  @return TRUE if the ability can be overwritten; FALSE otherwise
+ */
+BOOL WanderingSpiritAbilityCheck(struct BattleStruct *sp)
+{
+    switch(GetBattlerAbility(sp, sp->attack_client))
+    {
+        case ABILITY_FLOWER_GIFT:
+        case ABILITY_FORECAST:
+        case ABILITY_ILLUSION:
+        case ABILITY_IMPOSTER:
+        case ABILITY_MULTITYPE:
+        case ABILITY_STANCE_CHANGE:
+        case ABILITY_WONDER_GUARD:
+        case ABILITY_ZEN_MODE:
             return FALSE;
         default:
             return TRUE;
@@ -2286,6 +2310,24 @@ BOOL MoveHitDefenderAbilityCheck(void *bw, struct BattleStruct *sp, int *seq_no)
                 sp->client_work = sp->attack_client;
                 sp->battlemon[sp->attack_client].ability = ABILITY_MUMMY;
                 seq_no[0] = SUB_SEQ_HANDLE_MUMMY_MESSAGE;
+                ret = TRUE;
+            }
+            break;
+        case ABILITY_WANDERING_SPIRIT:
+            if ((sp->battlemon[sp->attack_client].hp) && ((sp->waza_status_flag & WAZA_STATUS_FLAG_NO_OUT) == 0)
+                && ((sp->server_status_flag & SERVER_STATUS_FLAG_x20) == 0)
+                && ((sp->server_status_flag2 & SERVER_STATUS_FLAG2_U_TURN) == 0)
+                && (sp->moveTbl[sp->current_move_index].flag & FLAG_CONTACT)
+                && (WanderingSpiritAbilityCheck(sp) == TRUE)
+                && ((sp->oneSelfFlag[sp->defence_client].physical_damage) ||
+                    (sp->oneSelfFlag[sp->defence_client].special_damage)))
+            {
+                u8 attack_client_ability = sp->battlemon[sp->attack_client].ability;
+
+                sp->battlemon[sp->defence_client].ability = attack_client_ability;
+                sp->battlemon[sp->attack_client].ability = ABILITY_WANDERING_SPIRIT;
+
+                seq_no[0] = SUB_SEQ_WANDERING_SPIRIT;
                 ret = TRUE;
             }
             break;

@@ -600,16 +600,18 @@ $(PW_POKEICON_NARC): $(PW_POKEICON_OBJS)
 
 NARC_FILES += $(PW_POKEICON_NARC)
 
-# Commented out for now as the cache interferes with stuff
-# SCR_SEQ_DIR := $(BUILD)/a012
-# SCR_SEQ_NARC := $(BUILD_NARC)/scr_seq.narc
-# SCR_SEQ_TARGET := $(FILESYS)/a/0/1/2
-# SCR_SEQ_DEPENDENCIES_DIR := armips/scr_seq
-# SCR_SEQ_DEPENDENCIES := $(SCR_SEQ_DEPENDENCIES_DIR)/*
+SCR_SEQ_DIR := $(BUILD)/a012
+SCR_SEQ_NARC := $(BUILD_NARC)/scr_seq.narc
+SCR_SEQ_TARGET := $(FILESYS)/a/0/1/2
+SCR_SEQ_DEPENDENCIES_DIR := armips/scr_seq
+SCR_SEQ_DEPENDENCIES := $(SCR_SEQ_DEPENDENCIES_DIR)/*
 
-# $(SCR_SEQ_NARC): $(SCR_SEQ_DEPENDENCIES)
-# 	$(NARCHIVE) extract $(SCR_SEQ_TARGET) -o $(SCR_SEQ_DIR) -nf
-# 	for file in $^; do $(ARMIPS) $$file; done
-# 	$(NARCHIVE) create $@ $(SCR_SEQ_DIR) -nf
+$(SCR_SEQ_NARC): $(SCR_SEQ_DEPENDENCIES)
+	$(NARCHIVE) extract $(SCR_SEQ_TARGET) -o $(SCR_SEQ_DIR) -nf
+	for file in $^; do $(ARMIPS) $$file; done
+	$(NARCHIVE) create $@ $(SCR_SEQ_DIR) -nf
 
-# NARC_FILES += $(SCR_SEQ_NARC)
+# for convenience, rebuild SCR_SEQ_NARC every build so that DSPRE changes are not overwritten
+.PHONY: $(SCR_SEQ_NARC)
+
+NARC_FILES += $(SCR_SEQ_NARC)

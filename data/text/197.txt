@@ -1488,3 +1488,6 @@ The foe’s {STRVAR_1 1, 0, 0} made contact\nwith the foe’s {STRVAR_1 1, 1, 0}
 {STRVAR_1 1, 0, 0} swapped Abilities\nwith its target!
 The wild {STRVAR_1 1, 0, 0} swapped\nAbilities with its target!
 The foe’s {STRVAR_1 1, 0, 0} swapped\nAbilities with its target!
+{STRVAR_1 1, 0, 0}’s Curious Medicine\nremoved its ally’s stat changes!
+The wild {STRVAR_1 1, 0, 0}’s Curious Medicine\nremoved its ally’s stat changes!
+The foe’s {STRVAR_1 1, 0, 0}’s Curious Medicine\nremoved its ally’s stat changes!

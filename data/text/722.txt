@@ -220,5 +220,5 @@ Powers up the Steel-type\nmoves of all allies by 50%.
 Protects the Pokémon and\nits ally from poison.
 Removes all barriers on\nthe field upon entry.
 On contact, both Pokémon\nwill faint after 3 turns.
--
--
+On contact, this Pokémon\nand the foe swap abilities.
+Removes an ally’s stat\nchanges upon entry.

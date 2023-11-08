@@ -13630,10 +13630,11 @@ movedata MOVE_STRANGE_STEAM, "Strange Steam"
     effectchance 20
     target MOVE_TARGET_SELECTED
     priority 0
-    flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
+    flags  FLAG_PROTECT | FLAG_MIRROR_MOVE
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_STRANGE_STEAM, "The user attacks the\nfoe by emitting a\nstrange steam.\nThis has a 20% chance\nto confuse the foe."
 
 movedata MOVE_LIFE_DEW, "Life Dew"
     battleeffect 32
@@ -13691,10 +13692,11 @@ movedata MOVE_METEOR_ASSAULT, "Meteor Assault"
     effectchance 0
     target MOVE_TARGET_SELECTED
     priority 0
-    flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
+    flags FLAG_HIDE_SHADOW | FLAG_PROTECT | FLAG_MIRROR_MOVE
     appeal 0x00
-    contesttype CONTEST_COOL
+    contesttype 0
     terminatedata
+    movedescription MOVE_METEOR_ASSAULT, "The user attacks the\nfoe wildly using its\nthick leek.\nThe user cannot move\non the next turn."
 
 movedata MOVE_ETERNABEAM, "Eternabeam"
     battleeffect 80
@@ -14189,19 +14191,20 @@ movedata MOVE_EERIE_SPELL, "Eerie Spell"
     terminatedata
 
 movedata MOVE_DIRE_CLAW, "Dire Claw"
-    battleeffect 0
+    battleeffect 328
     pss SPLIT_PHYSICAL
     basepower 80
     type TYPE_POISON
     accuracy 100
     pp 15
-    effectchance 0
+    effectchance 50
     target MOVE_TARGET_SELECTED
     priority 0
-    flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
+    flags FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_DIRE_CLAW, "The user lashes out\nwith ruinous claws.\nThis has a 50% chance\nto inflict paralysis,\npoison or sleep."
 
 movedata MOVE_PSYSHIELD_BASH, "Psyshield Bash"
     battleeffect 138
@@ -14313,7 +14316,7 @@ movedata MOVE_WAVE_CRASH, "Wave Crash"
     movedescription MOVE_WAVE_CRASH, "The user is shrouded\nin water and slams\ninto the target.\nThe user is hurt by\n33% of damage dealt."
 
 movedata MOVE_CHLOROBLAST, "Chloroblast"
-    battleeffect 269
+    battleeffect 304
     pss SPLIT_SPECIAL
     basepower 150
     type TYPE_GRASS
@@ -14322,10 +14325,11 @@ movedata MOVE_CHLOROBLAST, "Chloroblast"
     effectchance 0
     target MOVE_TARGET_SELECTED
     priority 0
-    flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
+    flags FLAG_HIDE_SHADOW | FLAG_PROTECT | FLAG_MIRROR_MOVE
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_CHLOROBLAST, "The user launches its\namassed chlorophyll\nto damage the foe.\nThis also damages the\nuser heavily."
 
 movedata MOVE_MOUNTAIN_GALE, "Mountain Gale"
     battleeffect 31

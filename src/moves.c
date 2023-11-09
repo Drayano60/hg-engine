@@ -185,6 +185,7 @@ u32 move_effect_to_subscripts[] =
     [168] = 464, // new parting shot subscript
     [169] = 471, // new strength sap subscript
     [170] = 474, // new tidy up subscript
+    [171] = 480, // new victory dance subscript
 };
 
 

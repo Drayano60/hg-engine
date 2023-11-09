@@ -14347,7 +14347,7 @@ movedata MOVE_MOUNTAIN_GALE, "Mountain Gale"
     terminatedata
 
 movedata MOVE_VICTORY_DANCE, "Victory Dance"
-    battleeffect 0
+    battleeffect 50
     pss SPLIT_STATUS
     basepower 0
     type TYPE_FIGHTING
@@ -14356,10 +14356,11 @@ movedata MOVE_VICTORY_DANCE, "Victory Dance"
     effectchance 0
     target MOVE_TARGET_USER
     priority 0
-    flags FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_MAGIC_COAT
+    flags FLAG_SNATCH
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_VICTORY_DANCE, "The user performs a\ndance to usher in\nvictory. It boosts\nthe user’s Attack,\nDefense, and Speed."
 
 movedata MOVE_HEADLONG_RUSH, "Headlong Rush"
     battleeffect 229
@@ -14471,7 +14472,7 @@ movedata MOVE_INFERNAL_PARADE, "Infernal Parade"
     movedescription MOVE_INFERNAL_PARADE, "Deals double damage\nto a target with a\nstatus condition.\nIt has a 30% chance\nto burn the target."
 
 movedata MOVE_CEASELESS_EDGE, "Ceaseless Edge"
-    battleeffect 0
+    battleeffect 312
     pss SPLIT_PHYSICAL
     basepower 65
     type TYPE_DARK
@@ -14480,10 +14481,11 @@ movedata MOVE_CEASELESS_EDGE, "Ceaseless Edge"
     effectchance 0
     target MOVE_TARGET_SELECTED
     priority 0
-    flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
+    flags FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_CONTACT
     appeal 0x00
-    contesttype CONTEST_COOL
+    contesttype 0
     terminatedata
+    movedescription MOVE_CEASELESS_EDGE, "The user slashes by\nusing its shell blade.\nEach use of the move\nscatters spikes on\nthe target’s field."
 
 movedata MOVE_BLEAKWIND_STORM, "Bleakwind Storm"
     battleeffect 70

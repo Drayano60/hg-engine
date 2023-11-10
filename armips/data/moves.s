@@ -10912,7 +10912,7 @@ movedata MOVE_HOLD_BACK, "Hold Back"
     terminatedata
 
 movedata MOVE_INFESTATION, "Infestation"
-    battleeffect 0
+    battleeffect 42
     pss SPLIT_SPECIAL
     basepower 20
     type TYPE_BUG
@@ -10921,10 +10921,11 @@ movedata MOVE_INFESTATION, "Infestation"
     effectchance 100
     target MOVE_TARGET_SELECTED
     priority 0
-    flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
-    appeal 0x00
-    contesttype CONTEST_COOL
+    flags FLAG_CONTACT | FLAG_PROTECT | FLAG_MIRROR_MOVE
+    appeal 0
+    contesttype 0
     terminatedata
+    movedescription MOVE_INFESTATION, "The foe is infested\nand attacked for\nfour to five turns.\nThe foe cannot flee\nduring this time."
 
 movedata MOVE_POWER_UP_PUNCH, "Power-Up Punch"
     battleeffect 139
@@ -13454,7 +13455,7 @@ movedata MOVE_DRUM_BEATING, "Drum Beating"
     terminatedata
 
 movedata MOVE_SNAP_TRAP, "Snap Trap"
-    battleeffect 0
+    battleeffect 42
     pss SPLIT_PHYSICAL
     basepower 35
     type TYPE_GRASS
@@ -13467,6 +13468,7 @@ movedata MOVE_SNAP_TRAP, "Snap Trap"
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_SNAP_TRAP, "The user snares the\ntarget in a snap trap\nthat inflicts damage\nfor four to five\nturns."
 
 movedata MOVE_PYRO_BALL, "Pyro Ball"
     battleeffect 4

@@ -14338,13 +14338,14 @@ movedata MOVE_MOUNTAIN_GALE, "Mountain Gale"
     type TYPE_ICE
     accuracy 85
     pp 10
-    effectchance 0
+    effectchance 30
     target MOVE_TARGET_SELECTED
     priority 0
-    flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
-    appeal 0x00
-    contesttype CONTEST_COOL
+    flags FLAG_PROTECT | FLAG_MIRROR_MOVE
+    appeal 0
+    contesttype 0
     terminatedata
+    movedescription MOVE_MOUNTAIN_GALE, "The user hurls giant\nchunks of ice to\ndamage the foe.\nThis has a 30% chance\nto flinch the foe."
 
 movedata MOVE_VICTORY_DANCE, "Victory Dance"
     battleeffect 50
@@ -14417,13 +14418,14 @@ movedata MOVE_BITTER_MALICE, "Bitter Malice"
     type TYPE_GHOST
     accuracy 100
     pp 10
-    effectchance 0
+    effectchance 100
     target MOVE_TARGET_SELECTED
     priority 0
-    flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
-    appeal 0x00
-    contesttype CONTEST_COOL
+    flags FLAG_PROTECT | FLAG_MIRROR_MOVE
+    appeal 0
+    contesttype 0
     terminatedata
+    movedescription MOVE_BITTER_MALICE, "The user attacks the\nfoe with spine-chilling\nresentment.\nThis also lowers the\nfoe’s Attack stat."
 
 movedata MOVE_SHELTER, "Shelter"
     battleeffect 51
@@ -14435,10 +14437,11 @@ movedata MOVE_SHELTER, "Shelter"
     effectchance 0
     target MOVE_TARGET_USER
     priority 0
-    flags FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_MAGIC_COAT
-    appeal 0x00
-    contesttype CONTEST_COOL
+    flags FLAG_SNATCH
+    appeal 0
+    contesttype 0
     terminatedata
+    movedescription MOVE_SHELTER, "The user makes its\nskin as hard as an\niron shield, sharply\nraising its Defense\nstat."
 
 movedata MOVE_TRIPLE_ARROWS, "Triple Arrows"
     battleeffect 0

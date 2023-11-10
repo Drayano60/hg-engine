@@ -2312,8 +2312,8 @@ levelup SPECIES_SLOWPOKE_GALARIAN
 	terminatelearnset
 
 // NEW: Aqua Tail
+// Shell Side Arm not in yet
 levelup SPECIES_SLOWBRO_GALARIAN
-	learnset MOVE_SHELL_SIDE_ARM, 1
 	learnset MOVE_VENOSHOCK, 1
     learnset MOVE_CURSE, 1
     learnset MOVE_TACKLE, 1
@@ -2336,11 +2336,11 @@ levelup SPECIES_SLOWBRO_GALARIAN
 	terminatelearnset
 
 // NEW: Aqua Tail
+// Eerie Spell not in yet
 levelup SPECIES_SLOWKING_GALARIAN
     learnset MOVE_HIDDEN_POWER, 1
     learnset MOVE_TRUMP_CARD, 1
     learnset MOVE_SWAGGER, 1
-	learnset MOVE_EERIE_SPELL, 1
 	learnset MOVE_VENOSHOCK, 1
     learnset MOVE_CURSE, 1
     learnset MOVE_TACKLE, 1
@@ -7641,6 +7641,7 @@ levelup SPECIES_LINOONE_GALARIAN
     learnset MOVE_PARTING_SHOT, 54
 	terminatelearnset
     
+// Cannot get Obstruct in yet
 levelup SPECIES_OBSTAGOON
     learnset MOVE_CROSS_CHOP, 1
     learnset MOVE_SUBMISSION, 1

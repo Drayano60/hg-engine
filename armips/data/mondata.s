@@ -26315,7 +26315,7 @@ mondata SPECIES_WEEZING_GALARIAN, "-----"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_AMORPHOUS, EGG_GROUP_AMORPHOUS
-    abilities ABILITY_LEVITATE, ABILITY_LEVITATE
+    abilities ABILITY_LEVITATE, ABILITY_LEVITATE  /* Removed Neutralizing Gas */
     runchance 25
     colorflip BODY_COLOR_GRAY, 0
     
@@ -26500,7 +26500,7 @@ mondata SPECIES_DARMANITAN_GALARIAN, "-----"
     basefriendship 70
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_GORILLA_TACTICS,  ABILITY_NONE
+    abilities ABILITY_SHEER_FORCE, ABILITY_NONE /* Gorilla Tactics not yet implemented */
     runchance 25
     colorflip BODY_COLOR_WHITE, 0
     
@@ -26534,7 +26534,7 @@ mondata SPECIES_STUNFISK_GALARIAN, "-----"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_AMORPHOUS
-    abilities ABILITY_MIMICRY, ABILITY_NONE
+    abilities ABILITY_ARENA_TRAP, ABILITY_NONE /* Mimicry not yet implemented */
     runchance 25
     colorflip BODY_COLOR_GREEN, 0
     

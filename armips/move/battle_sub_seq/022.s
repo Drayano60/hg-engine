@@ -17,16 +17,19 @@
 a001_022:
     if IF_NOTEQUAL, VAR_ADD_EFFECT_TYPE, 0x6, _0060
     abilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_IMMUNITY, _printAttackIntoNoEffect
+    abilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_PASTEL_VEIL, _printAttackIntoNoEffect
+    abilitycheck 0x0, BATTLER_ALLY | BATTLER_ADDL_EFFECT, ABILITY_PASTEL_VEIL, _printAttackIntoNoEffectFlowerVeil
     checkcloudnine _00CC
     if IF_NOTMASK, VAR_FIELD_EFFECT, 0x30, _00CC
     abilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_LEAF_GUARD, _printAttackIntoNoEffect
     goto _00CC
 _0060:
     moldbreakerabilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_IMMUNITY, _printAttackIntoNoEffect
+    moldbreakerabilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_PASTEL_VEIL, _printAttackIntoNoEffect
+    moldbreakerabilitycheck 0x0, BATTLER_ALLY | BATTLER_ADDL_EFFECT, ABILITY_PASTEL_VEIL, _printAttackIntoNoEffectFlowerVeil
     checkcloudnine _checkFlowerVeil
     if IF_NOTMASK, VAR_FIELD_EFFECT, 0x30, _checkFlowerVeil
     moldbreakerabilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_LEAF_GUARD, _printAttackIntoNoEffect
-
 _checkFlowerVeil:
     moldbreakerabilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_FLOWER_VEIL, _checkGrassTypeForFlowerVeil
     moldbreakerabilitycheck 0x0, BATTLER_ALLY | BATTLER_ADDL_EFFECT, ABILITY_FLOWER_VEIL, _checkGrassTypeForFlowerVeil

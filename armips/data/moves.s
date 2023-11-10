@@ -10912,7 +10912,7 @@ movedata MOVE_HOLD_BACK, "Hold Back"
     terminatedata
 
 movedata MOVE_INFESTATION, "Infestation"
-    battleeffect 0
+    battleeffect 42
     pss SPLIT_SPECIAL
     basepower 20
     type TYPE_BUG
@@ -10921,10 +10921,11 @@ movedata MOVE_INFESTATION, "Infestation"
     effectchance 100
     target MOVE_TARGET_SELECTED
     priority 0
-    flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
-    appeal 0x00
-    contesttype CONTEST_COOL
+    flags FLAG_CONTACT | FLAG_PROTECT | FLAG_MIRROR_MOVE
+    appeal 0
+    contesttype 0
     terminatedata
+    movedescription MOVE_INFESTATION, "The foe is infested\nand attacked for\nfour to five turns.\nThe foe cannot flee\nduring this time."
 
 movedata MOVE_POWER_UP_PUNCH, "Power-Up Punch"
     battleeffect 139
@@ -13454,7 +13455,7 @@ movedata MOVE_DRUM_BEATING, "Drum Beating"
     terminatedata
 
 movedata MOVE_SNAP_TRAP, "Snap Trap"
-    battleeffect 0
+    battleeffect 42
     pss SPLIT_PHYSICAL
     basepower 35
     type TYPE_GRASS
@@ -13467,6 +13468,7 @@ movedata MOVE_SNAP_TRAP, "Snap Trap"
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_SNAP_TRAP, "The user snares the\ntarget in a snap trap\nthat inflicts damage\nfor four to five\nturns."
 
 movedata MOVE_PYRO_BALL, "Pyro Ball"
     battleeffect 4
@@ -13630,10 +13632,11 @@ movedata MOVE_STRANGE_STEAM, "Strange Steam"
     effectchance 20
     target MOVE_TARGET_SELECTED
     priority 0
-    flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
+    flags  FLAG_PROTECT | FLAG_MIRROR_MOVE
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_STRANGE_STEAM, "The user attacks the\nfoe by emitting a\nstrange steam.\nThis has a 20% chance\nto confuse the foe."
 
 movedata MOVE_LIFE_DEW, "Life Dew"
     battleeffect 32
@@ -13691,10 +13694,11 @@ movedata MOVE_METEOR_ASSAULT, "Meteor Assault"
     effectchance 0
     target MOVE_TARGET_SELECTED
     priority 0
-    flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
+    flags FLAG_HIDE_SHADOW | FLAG_PROTECT | FLAG_MIRROR_MOVE
     appeal 0x00
-    contesttype CONTEST_COOL
+    contesttype 0
     terminatedata
+    movedescription MOVE_METEOR_ASSAULT, "The user attacks the\nfoe wildly using its\nthick leek.\nThe user cannot move\non the next turn."
 
 movedata MOVE_ETERNABEAM, "Eternabeam"
     battleeffect 80
@@ -14189,19 +14193,20 @@ movedata MOVE_EERIE_SPELL, "Eerie Spell"
     terminatedata
 
 movedata MOVE_DIRE_CLAW, "Dire Claw"
-    battleeffect 0
+    battleeffect 328
     pss SPLIT_PHYSICAL
     basepower 80
     type TYPE_POISON
     accuracy 100
     pp 15
-    effectchance 0
+    effectchance 50
     target MOVE_TARGET_SELECTED
     priority 0
-    flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
+    flags FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_DIRE_CLAW, "The user lashes out\nwith ruinous claws.\nThis has a 50% chance\nto inflict paralysis,\npoison or sleep."
 
 movedata MOVE_PSYSHIELD_BASH, "Psyshield Bash"
     battleeffect 138
@@ -14313,7 +14318,7 @@ movedata MOVE_WAVE_CRASH, "Wave Crash"
     movedescription MOVE_WAVE_CRASH, "The user is shrouded\nin water and slams\ninto the target.\nThe user is hurt by\n33% of damage dealt."
 
 movedata MOVE_CHLOROBLAST, "Chloroblast"
-    battleeffect 269
+    battleeffect 304
     pss SPLIT_SPECIAL
     basepower 150
     type TYPE_GRASS
@@ -14322,10 +14327,11 @@ movedata MOVE_CHLOROBLAST, "Chloroblast"
     effectchance 0
     target MOVE_TARGET_SELECTED
     priority 0
-    flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
+    flags FLAG_HIDE_SHADOW | FLAG_PROTECT | FLAG_MIRROR_MOVE
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_CHLOROBLAST, "The user launches its\namassed chlorophyll\nto damage the foe.\nThis also damages the\nuser heavily."
 
 movedata MOVE_MOUNTAIN_GALE, "Mountain Gale"
     battleeffect 31
@@ -14334,16 +14340,17 @@ movedata MOVE_MOUNTAIN_GALE, "Mountain Gale"
     type TYPE_ICE
     accuracy 85
     pp 10
-    effectchance 0
+    effectchance 30
     target MOVE_TARGET_SELECTED
     priority 0
-    flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
-    appeal 0x00
-    contesttype CONTEST_COOL
+    flags FLAG_PROTECT | FLAG_MIRROR_MOVE
+    appeal 0
+    contesttype 0
     terminatedata
+    movedescription MOVE_MOUNTAIN_GALE, "The user hurls giant\nchunks of ice to\ndamage the foe.\nThis has a 30% chance\nto flinch the foe."
 
 movedata MOVE_VICTORY_DANCE, "Victory Dance"
-    battleeffect 0
+    battleeffect 50
     pss SPLIT_STATUS
     basepower 0
     type TYPE_FIGHTING
@@ -14352,10 +14359,11 @@ movedata MOVE_VICTORY_DANCE, "Victory Dance"
     effectchance 0
     target MOVE_TARGET_USER
     priority 0
-    flags FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_MAGIC_COAT
+    flags FLAG_SNATCH
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_VICTORY_DANCE, "The user performs a\ndance to usher in\nvictory. It boosts\nthe user’s Attack,\nDefense, and Speed."
 
 movedata MOVE_HEADLONG_RUSH, "Headlong Rush"
     battleeffect 229
@@ -14412,13 +14420,14 @@ movedata MOVE_BITTER_MALICE, "Bitter Malice"
     type TYPE_GHOST
     accuracy 100
     pp 10
-    effectchance 0
+    effectchance 100
     target MOVE_TARGET_SELECTED
     priority 0
-    flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
-    appeal 0x00
-    contesttype CONTEST_COOL
+    flags FLAG_PROTECT | FLAG_MIRROR_MOVE
+    appeal 0
+    contesttype 0
     terminatedata
+    movedescription MOVE_BITTER_MALICE, "The user attacks the\nfoe with spine-chilling\nresentment.\nThis also lowers the\nfoe’s Attack stat."
 
 movedata MOVE_SHELTER, "Shelter"
     battleeffect 51
@@ -14430,10 +14439,11 @@ movedata MOVE_SHELTER, "Shelter"
     effectchance 0
     target MOVE_TARGET_USER
     priority 0
-    flags FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_MAGIC_COAT
-    appeal 0x00
-    contesttype CONTEST_COOL
+    flags FLAG_SNATCH
+    appeal 0
+    contesttype 0
     terminatedata
+    movedescription MOVE_SHELTER, "The user makes its\nskin as hard as an\niron shield, sharply\nraising its Defense\nstat."
 
 movedata MOVE_TRIPLE_ARROWS, "Triple Arrows"
     battleeffect 0
@@ -14467,7 +14477,7 @@ movedata MOVE_INFERNAL_PARADE, "Infernal Parade"
     movedescription MOVE_INFERNAL_PARADE, "Deals double damage\nto a target with a\nstatus condition.\nIt has a 30% chance\nto burn the target."
 
 movedata MOVE_CEASELESS_EDGE, "Ceaseless Edge"
-    battleeffect 0
+    battleeffect 312
     pss SPLIT_PHYSICAL
     basepower 65
     type TYPE_DARK
@@ -14476,10 +14486,11 @@ movedata MOVE_CEASELESS_EDGE, "Ceaseless Edge"
     effectchance 0
     target MOVE_TARGET_SELECTED
     priority 0
-    flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
+    flags FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_CONTACT
     appeal 0x00
-    contesttype CONTEST_COOL
+    contesttype 0
     terminatedata
+    movedescription MOVE_CEASELESS_EDGE, "The user slashes by\nusing its shell blade.\nEach use of the move\nscatters spikes on\nthe target’s field."
 
 movedata MOVE_BLEAKWIND_STORM, "Bleakwind Storm"
     battleeffect 70

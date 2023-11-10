@@ -362,6 +362,9 @@ enum
     SWITCH_IN_CHECK_INTIMIDATE,
     SWITCH_IN_CHECK_CALMING_AROMA, // Custom
     SWITCH_IN_CHECK_ILLUMINATE, // New effect
+    SWITCH_IN_CHECK_CURIOUS_MEDICINE,
+    SWITCH_IN_CHECK_PASTEL_VEIL,
+    SWITCH_IN_CHECK_SCREEN_CLEANER,
     SWITCH_IN_CHECK_DOWNLOAD,
     SWITCH_IN_CHECK_ANTICIPATION,
     SWITCH_IN_CHECK_FOREWARN,
@@ -703,6 +706,76 @@ int SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
                 if (i == client_set_max){
                     sp->switch_in_check_seq_no++;
                 }
+                break;
+            case SWITCH_IN_CHECK_CURIOUS_MEDICINE:
+                for (i = 0; i < client_set_max; i++)
+                {
+                    client_no = sp->turn_order[i];
+                    if ((sp->battlemon[client_no].intimidate_flag == 0)
+                        && (sp->battlemon[client_no].hp)
+                        && (sp->battlemon[BATTLER_ALLY(client_no)].hp)
+                        && (GetBattlerAbility(sp, client_no) == ABILITY_CURIOUS_MEDICINE))
+                    {
+                        sp->battlemon[client_no].intimidate_flag = 1;
+                        sp->client_work = client_no;
+                        scriptnum = SUB_SEQ_CURIOUS_MEDICINE;
+                        ret = SWITCH_IN_CHECK_MOVE_SCRIPT;
+                        break;
+                    }
+                }
+                if (i == client_set_max){
+                    sp->switch_in_check_seq_no++;
+                }
+                break;
+            case SWITCH_IN_CHECK_PASTEL_VEIL:
+                for (i = 0; i < client_set_max; i++)
+                {
+                    client_no = sp->turn_order[i];
+
+                    if
+                    (
+                        ((GetBattlerAbility(sp, client_no) == ABILITY_PASTEL_VEIL) || (GetBattlerAbility(sp, BATTLER_ALLY(client_no)) == ABILITY_PASTEL_VEIL)) &&
+                        (sp->battlemon[client_no].hp) &&
+                        (sp->battlemon[client_no].intimidate_flag == 0) &&
+                        (sp->battlemon[client_no].condition & STATUS_POISON_ANY)
+                    )
+                    {
+                        sp->battlemon[client_no].condition = 0;
+                        sp->battlemon[client_no].intimidate_flag = 1;
+                        sp->client_work = client_no;
+                        scriptnum = SUB_SEQ_PASTEL_VEIL;
+                        ret = SWITCH_IN_CHECK_MOVE_SCRIPT;
+                        break;
+                    }
+                }
+                if (i == client_set_max){
+                    sp->switch_in_check_seq_no++;
+                }
+                break;
+            case SWITCH_IN_CHECK_SCREEN_CLEANER:
+                for (i = 0; i < client_set_max; i++)
+                {
+                    client_no = sp->turn_order[i];
+
+                    if
+                    (
+                        (GetBattlerAbility(sp, client_no) == ABILITY_SCREEN_CLEANER) &&
+                        (sp->battlemon[client_no].hp) &&
+                        (sp->battlemon[client_no].intimidate_flag == 0)
+                    )
+                    {
+                        sp->battlemon[client_no].intimidate_flag = 1;
+                        sp->client_work = client_no;
+                        scriptnum = SUB_SEQ_SCREEN_CLEANER;
+                        ret = SWITCH_IN_CHECK_MOVE_SCRIPT;
+                        break;
+                    }
+                }
+
+                if (i == client_set_max){
+                    sp->switch_in_check_seq_no++;
+                }
+
                 break;
                 // 022534BE
             case SWITCH_IN_CHECK_DOWNLOAD:
@@ -1620,8 +1693,9 @@ BOOL MummyAbilityCheck(struct BattleStruct *sp)
     {
         case ABILITY_MULTITYPE:
         case ABILITY_ZEN_MODE:
-        /*
         case ABILITY_STANCE_CHANGE:
+        case ABILITY_MUMMY:
+        /*
         case ABILITY_SCHOOLING:
         case ABILITY_BATTLE_BOND:
         case ABILITY_POWER_CONSTRUCT:
@@ -1629,8 +1703,31 @@ BOOL MummyAbilityCheck(struct BattleStruct *sp)
         case ABILITY_RKS_SYSTEM:
         case ABILITY_DISGUISE:
         case ABILITY_COMATOSE:
-        case ABILITY_MUMMY:
         */
+            return FALSE;
+        default:
+            return TRUE;
+    }
+}
+
+/**
+ *  @brief check if wandering spirit can overwrite the attacker's ability
+ *
+ *  @param sp global battle structure
+ *  @return TRUE if the ability can be overwritten; FALSE otherwise
+ */
+BOOL WanderingSpiritAbilityCheck(struct BattleStruct *sp)
+{
+    switch(GetBattlerAbility(sp, sp->attack_client))
+    {
+        case ABILITY_FLOWER_GIFT:
+        case ABILITY_FORECAST:
+        case ABILITY_ILLUSION:
+        case ABILITY_IMPOSTER:
+        case ABILITY_MULTITYPE:
+        case ABILITY_STANCE_CHANGE:
+        case ABILITY_WONDER_GUARD:
+        case ABILITY_ZEN_MODE:
             return FALSE;
         default:
             return TRUE;
@@ -2237,6 +2334,24 @@ BOOL MoveHitDefenderAbilityCheck(void *bw, struct BattleStruct *sp, int *seq_no)
                 ret = TRUE;
             }
             break;
+        case ABILITY_WANDERING_SPIRIT:
+            if ((sp->battlemon[sp->attack_client].hp) && ((sp->waza_status_flag & WAZA_STATUS_FLAG_NO_OUT) == 0)
+                && ((sp->server_status_flag & SERVER_STATUS_FLAG_x20) == 0)
+                && ((sp->server_status_flag2 & SERVER_STATUS_FLAG2_U_TURN) == 0)
+                && (sp->moveTbl[sp->current_move_index].flag & FLAG_CONTACT)
+                && (WanderingSpiritAbilityCheck(sp) == TRUE)
+                && ((sp->oneSelfFlag[sp->defence_client].physical_damage) ||
+                    (sp->oneSelfFlag[sp->defence_client].special_damage)))
+            {
+                u8 attack_client_ability = sp->battlemon[sp->attack_client].ability;
+
+                sp->battlemon[sp->defence_client].ability = attack_client_ability;
+                sp->battlemon[sp->attack_client].ability = ABILITY_WANDERING_SPIRIT;
+
+                seq_no[0] = SUB_SEQ_WANDERING_SPIRIT;
+                ret = TRUE;
+            }
+            break;
         /*
         case ABILITY_WATER_COMPACTION:
             if ((sp->battlemon[sp->defence_client].hp)
@@ -2378,6 +2493,33 @@ BOOL MoveHitDefenderAbilityCheck(void *bw, struct BattleStruct *sp, int *seq_no)
                 seq_no[0] = SUB_SEQ_HANDLE_CURSED_BODY;
                 ret = TRUE;
             } 
+            break;
+        case ABILITY_PERISH_BODY:
+            if
+            (
+                (sp->battlemon[sp->attack_client].hp)
+                // Don't activate if the attacker is already afflicted by Perish Song
+                && (((sp->battlemon[sp->attack_client].effect_of_moves & MOVE_EFFECT_FLAG_PERISH_SONG_ACTIVE) == 0))
+                && ((sp->waza_status_flag & WAZA_STATUS_FLAG_NO_OUT) == 0)
+                && ((sp->server_status_flag & SERVER_STATUS_FLAG_x20) == 0)
+                && ((sp->server_status_flag2 & SERVER_STATUS_FLAG2_U_TURN) == 0)
+                && ((sp->oneSelfFlag[sp->defence_client].physical_damage) ||
+                    (sp->oneSelfFlag[sp->defence_client].special_damage))
+                && (sp->moveTbl[sp->current_move_index].flag & FLAG_CONTACT)
+            )
+            {
+                sp->battlemon[sp->attack_client].effect_of_moves |= MOVE_EFFECT_FLAG_PERISH_SONG_ACTIVE;
+                sp->battlemon[sp->attack_client].moveeffect.perishSongTurns = 3;
+
+                // This currently says 'both will faint in 3 turns' even if the defending client is skipped. Is that accurate?
+                if ((sp->battlemon[sp->defence_client].effect_of_moves & MOVE_EFFECT_FLAG_PERISH_SONG_ACTIVE) == 0) {
+                    sp->battlemon[sp->defence_client].effect_of_moves |= MOVE_EFFECT_FLAG_PERISH_SONG_ACTIVE;
+                    sp->battlemon[sp->defence_client].moveeffect.perishSongTurns = 3;
+                }
+
+                seq_no[0] = SUB_SEQ_PERISH_BODY;
+                ret = TRUE;
+            }
             break;
         /*
         case ABILITY_DISGUISE:

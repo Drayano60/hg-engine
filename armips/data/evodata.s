@@ -1329,8 +1329,8 @@ evodata SPECIES_LICKITUNG
     terminateevodata
 
 evodata SPECIES_KOFFING
-    evolution EVO_LEVEL, 35, SPECIES_WEEZING
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_LEVEL_GLOBAL_TERMINAL, 35, SPECIES_WEEZING, 1
+    evolutionwithform EVO_LEVEL, 35, SPECIES_WEEZING, 0
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -5320,8 +5320,8 @@ evodata SPECIES_BONSLY
     terminateevodata
 
 evodata SPECIES_MIMEJR
-    evolution EVO_HAS_MOVE, MOVE_MIMIC, SPECIES_MR_MIME
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_HAS_MOVE_GLOBAL_TERMINAL, MOVE_MIMIC, SPECIES_MR_MIME, 1
+    evolutionwithform EVO_HAS_MOVE, MOVE_MIMIC, SPECIES_MR_MIME, 0
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -6683,8 +6683,8 @@ evodata SPECIES_OSHAWOTT
     terminateevodata
 
 evodata SPECIES_DEWOTT
-    evolution EVO_LEVEL, 36, SPECIES_SAMUROTT
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_LEVEL_GLOBAL_TERMINAL, 36, SPECIES_SAMUROTT, 1
+    evolutionwithform EVO_LEVEL, 36, SPECIES_SAMUROTT, 0
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -7237,8 +7237,8 @@ evodata SPECIES_WHIMSICOTT
     terminateevodata
 
 evodata SPECIES_PETILIL
-    evolution EVO_STONE, ITEM_SUN_STONE, SPECIES_LILLIGANT
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_ITEM_GLOBAL_TERMINAL, ITEM_SUN_STONE, SPECIES_LILLIGANT, 1
+    evolutionwithform EVO_STONE, ITEM_SUN_STONE, SPECIES_LILLIGANT, 0
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -7261,8 +7261,8 @@ evodata SPECIES_LILLIGANT
     terminateevodata
 
 evodata SPECIES_BASCULIN
-    evolutionwithform EVO_LEVEL_MALE, 0, SPECIES_BASCULEGION, 0
-    evolutionwithform EVO_LEVEL_FEMALE, 0, SPECIES_BASCULEGION, 3
+    evolutionwithform EVO_HURT_IN_BATTLE_AMOUNT_FEMALE, 72, SPECIES_BASCULEGION, 3 // Female
+    evolutionwithform EVO_HURT_IN_BATTLE_AMOUNT, 72, SPECIES_BASCULEGION, 0 // Male
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -8214,8 +8214,8 @@ evodata SPECIES_BOUFFALANT
 
 evodata SPECIES_RUFFLET
     // evolution EVO_LEVEL, 54, SPECIES_BRAVIARY
-    evolution EVO_LEVEL, 36, SPECIES_BRAVIARY
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_LEVEL_GLOBAL_TERMINAL, 36, SPECIES_BRAVIARY, 1
+    evolutionwithform EVO_LEVEL, 36, SPECIES_BRAVIARY, 0
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -9150,9 +9150,8 @@ evodata SPECIES_CARBINK
 terminateevodata
 
 evodata SPECIES_GOOMY
-    // evolution EVO_LEVEL, 40, SPECIES_SLIGGOO
-    evolution EVO_LEVEL, 30, SPECIES_SLIGGOO
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_LEVEL_GLOBAL_TERMINAL, 40, SPECIES_SLIGGOO, 1
+    evolutionwithform EVO_LEVEL, 40, SPECIES_SLIGGOO, 0
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -9251,8 +9250,8 @@ terminateevodata
 
 evodata SPECIES_BERGMITE
     // evolution EVO_LEVEL, 37, SPECIES_AVALUGG
-    evolution EVO_LEVEL, 35, SPECIES_BERGMITE
-    evolution EVO_NONE, 0, SPECIES_NONE
+    evolutionwithform EVO_LEVEL_GLOBAL_TERMINAL, 35, SPECIES_AVALUGG, 1
+    evolutionwithform EVO_LEVEL, 35, SPECIES_AVALUGG, 0
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -13782,7 +13781,8 @@ evodata SPECIES_MEOWTH_GALARIAN
 terminateevodata
 
 evodata SPECIES_PONYTA_GALARIAN
-    evolutionwithform EVO_LEVEL, 40, SPECIES_RAPIDASH, 1
+    // evolutionwithform EVO_LEVEL, 40, SPECIES_RAPIDASH, 1
+    evolutionwithform EVO_LEVEL, 35, SPECIES_RAPIDASH, 1
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -15933,7 +15933,8 @@ evodata SPECIES_BRAVIARY_HISUIAN
 terminateevodata
 
 evodata SPECIES_SLIGGOO_HISUIAN
-    evolutionwithform EVO_LEVEL_RAIN, 50, SPECIES_GOODRA, 1
+    // evolutionwithform EVO_LEVEL_RAIN, 50, SPECIES_GOODRA, 1
+    evolutionwithform EVO_LEVEL, 50, SPECIES_GOODRA, 1
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE

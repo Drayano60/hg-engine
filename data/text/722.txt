@@ -216,3 +216,9 @@ Lowers Attack and Sp. Atk\nof all Pokémon on entry.
 Powers up moves by 50%\nwhen at 25% HP or less.
 Powers up Psychic-type\nmoves by 50%.
 Powers up the move that\nit used last turn by 20%.
+Powers up the Steel-type\nmoves of all allies by 50%.
+Protects the Pokémon and\nits ally from poison.
+Removes all barriers on\nthe field upon entry.
+On contact, both Pokémon\nwill faint after 3 turns.
+On contact, this Pokémon\nand the foe swap abilities.
+Removes an ally’s stat\nchanges upon entry.

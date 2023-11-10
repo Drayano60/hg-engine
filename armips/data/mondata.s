@@ -2058,11 +2058,11 @@ mondata SPECIES_MAGNETON, "Magneton"
     mondexweight SPECIES_MAGNETON, "132.3 lbs."
 
 
-// STATS: 52 >> 62 HP | 90 >> 100 Atk | 55 >> 65 Def | 62 >> 72 SpDef | 60 >> 90 Speed | 377 >> 447 BST
+// STATS: 60 >> 90 Speed | 377 >> 407 BST
 // TYPES: Normal/Flying >> Fighting/Flying
 mondata SPECIES_FARFETCHD, "Farfetch’d"
     .if STAT_CHANGES_IMPLEMENTED
-        basestats 62, 100, 65, 90, 58, 72
+        basestats 52, 90, 55, 90, 58, 62
     .else
         basestats 52, 90, 55, 60, 58, 62
     .endif
@@ -5235,13 +5235,8 @@ mondata SPECIES_GRANBULL, "Granbull"
     mondexweight SPECIES_GRANBULL, "107.4 lbs."
 
 
-// STATS: 95 >> 100 Atk | 85 >> 90 Def | 440 >> 450 BST
 mondata SPECIES_QWILFISH, "Qwilfish"
-    .if STAT_CHANGES_IMPLEMENTED
-        basestats 65, 100, 90, 85, 55, 55
-    .else
-        basestats 65, 95, 85, 85, 55, 55
-    .endif
+    basestats 65, 95, 85, 85, 55, 55
     types TYPE_WATER, TYPE_POISON
     catchrate 45
     baseexp 0 // defined in baseexp.s
@@ -5492,11 +5487,11 @@ mondata SPECIES_PILOSWINE, "Piloswine"
     mondexweight SPECIES_PILOSWINE, "123.0 lbs."
 
 
-// STATS: 95 >> 105 Def | 65 >> 85 SpAtk | 95 >> 105 SpDef | 410 >> 450 BST
+// STATS: 65 >> 60 HP | 55 >> 45 Atk | 65 >> 85 SpAtk | 35 >> 30 Speed | Still 410 BST
 // ABILITY: Water Absorb (1)
 mondata SPECIES_CORSOLA, "Corsola"
     .if STAT_CHANGES_IMPLEMENTED
-        basestats 65, 55, 105, 35, 85, 105
+        basestats 60, 45, 95, 35, 85, 95
     .else
         basestats 65, 55, 95, 35, 65, 95
     .endif
@@ -21556,8 +21551,13 @@ mondata SPECIES_OBSTAGOON, "Obstagoon"
     mondexweight SPECIES_OBSTAGOON, "101.4 lbs."
 
 
+// STATS: 100 >> 110 Def | 60 >> 70 SpDef | 440 >> 460 BST
 mondata SPECIES_PERRSERKER, "Perrserker"
-    basestats 70, 110, 100, 50, 50, 60
+    .if STAT_CHANGES_IMPLEMENTED
+        basestats 70, 110, 110, 50, 50, 70
+    .else
+        basestats 70, 110, 100, 50, 50, 60
+    .endif
     types TYPE_STEEL, TYPE_STEEL
     catchrate 90
     baseexp 0 // defined in baseexp.s
@@ -22375,7 +22375,7 @@ mondata SPECIES_URSALUNA, "Ursaluna"
     mondexweight SPECIES_URSALUNA, "639.3 lbs."
 
 
-mondata SPECIES_BASCULEGION, "Basculegion"
+mondata SPECIES_BASCULEGION, "Basclegion" // 10 char limit
     basestats 120, 112, 65, 78, 80, 75
     types TYPE_WATER, TYPE_GHOST
     catchrate 135
@@ -24013,8 +24013,13 @@ mondata SPECIES_ANNIHILAPE, "Annihilape"
     mondexweight SPECIES_ANNIHILAPE, "123.5 lbs."
 
 
+// STATS: 60 >> 70 Def | 45 >> 55 SpAtk | 430 >> 450 BST
 mondata SPECIES_CLODSIRE, "Clodsire"
-    basestats 130, 75, 60, 20, 45, 100
+    .if STAT_CHANGES_IMPLEMENTED
+        basestats 130, 75, 70, 20, 55, 100
+    .else
+        basestats 130, 75, 60, 20, 45, 100
+    .endif
     types TYPE_POISON, TYPE_GROUND
     catchrate 90
     baseexp 0 // defined in baseexp.s
@@ -26213,10 +26218,15 @@ mondata SPECIES_PONYTA_GALARIAN, "-----"
     abilities ABILITY_RUN_AWAY,  ABILITY_PASTEL_VEIL
     runchance 25
     colorflip BODY_COLOR_WHITE, 0
-    
 
+
+// STATS: 105 >> 125 Speed | 500 >> 520 BST
 mondata SPECIES_RAPIDASH_GALARIAN, "-----"
-    basestats 65, 100, 70, 105, 80, 80
+    .if STAT_CHANGES_IMPLEMENTED
+        basestats 65, 100, 70, 125, 80, 80
+    .else
+        basestats 65, 100, 70, 105, 80, 80
+    .endif
     types TYPE_PSYCHIC, TYPE_FAIRY
     catchrate 60
     baseexp 175
@@ -26266,8 +26276,13 @@ mondata SPECIES_SLOWBRO_GALARIAN, "-----"
     colorflip BODY_COLOR_PINK, 0
     
 
+// STATS: 55 >> 65 Def | 62 >> 72 SpDef | 55 >> 65 Speed | 377 >> 407 BST
 mondata SPECIES_FARFETCHD_GALARIAN, "-----"
-    basestats 52, 95, 55, 55, 58, 62
+    .if STAT_CHANGES_IMPLEMENTED
+        basestats 52, 95, 65, 65, 58, 72
+    .else
+        basestats 52, 95, 55, 55, 58, 62
+    .endif
     types TYPE_FIGHTING, TYPE_FIGHTING
     catchrate 45
     baseexp 132
@@ -26283,8 +26298,13 @@ mondata SPECIES_FARFETCHD_GALARIAN, "-----"
     colorflip BODY_COLOR_BROWN, 0
     
 
+// STATS: 85 >> 95 SpAtk | 490 >> 500 BST
 mondata SPECIES_WEEZING_GALARIAN, "-----"
-    basestats 65, 90, 120, 60, 85, 70
+    .if STAT_CHANGES_IMPLEMENTED
+        basestats 65, 90, 120, 60, 95, 70
+    .else
+        basestats 65, 90, 120, 60, 85, 70
+    .endif
     types TYPE_POISON, TYPE_FAIRY
     catchrate 60
     baseexp 172
@@ -26295,7 +26315,7 @@ mondata SPECIES_WEEZING_GALARIAN, "-----"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_AMORPHOUS, EGG_GROUP_AMORPHOUS
-    abilities ABILITY_LEVITATE,  ABILITY_NEUTRALIZING_GAS
+    abilities ABILITY_LEVITATE, ABILITY_LEVITATE  /* Removed Neutralizing Gas */
     runchance 25
     colorflip BODY_COLOR_GRAY, 0
     
@@ -26383,10 +26403,15 @@ mondata SPECIES_SLOWKING_GALARIAN, "-----"
     abilities ABILITY_CURIOUS_MEDICINE,  ABILITY_OWN_TEMPO
     runchance 25
     colorflip BODY_COLOR_PINK, 0
-    
 
+
+// STATS: 55 >> 45 Atk | 65 >> 75 SpAtk | Still 410 BST
 mondata SPECIES_CORSOLA_GALARIAN, "-----"
-    basestats 60, 55, 100, 30, 65, 100
+    .if STAT_CHANGES_IMPLEMENTED
+        basestats 60, 45, 100, 30, 75, 100
+    .else
+        basestats 60, 55, 100, 30, 65, 100
+    .endif
     types TYPE_GHOST, TYPE_GHOST
     catchrate 60
     baseexp 144
@@ -26402,8 +26427,13 @@ mondata SPECIES_CORSOLA_GALARIAN, "-----"
     colorflip BODY_COLOR_WHITE, 0
     
 
+// STATS: 30 >> 40 Atk | 30 >> 20 SpAtk
 mondata SPECIES_ZIGZAGOON_GALARIAN, "-----"
-    basestats 38, 30, 41, 60, 30, 41
+    .if STAT_CHANGES_IMPLEMENTED
+        basestats 38, 40, 41, 60, 20, 41
+    .else
+        basestats 38, 30, 41, 60, 30, 41
+    .endif
     types TYPE_DARK, TYPE_NORMAL
     catchrate 255
     baseexp 56
@@ -26419,8 +26449,13 @@ mondata SPECIES_ZIGZAGOON_GALARIAN, "-----"
     colorflip BODY_COLOR_WHITE, 0
     
 
+// STATS: 70 >> 80 Atk | 100 >> 110 Speed | 420 >> 440 BST
 mondata SPECIES_LINOONE_GALARIAN, "-----"
-    basestats 78, 70, 61, 100, 50, 61
+    .if STAT_CHANGES_IMPLEMENTED
+        basestats 78, 80, 61, 110, 50, 61
+    .else
+        basestats 78, 70, 61, 100, 50, 61
+    .endif
     types TYPE_DARK, TYPE_NORMAL
     catchrate 90
     baseexp 147
@@ -26465,7 +26500,7 @@ mondata SPECIES_DARMANITAN_GALARIAN, "-----"
     basefriendship 70
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_GORILLA_TACTICS,  ABILITY_NONE
+    abilities ABILITY_SHEER_FORCE, ABILITY_NONE /* Gorilla Tactics not yet implemented */
     runchance 25
     colorflip BODY_COLOR_WHITE, 0
     
@@ -26499,7 +26534,7 @@ mondata SPECIES_STUNFISK_GALARIAN, "-----"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_AMORPHOUS
-    abilities ABILITY_MIMICRY, ABILITY_NONE
+    abilities ABILITY_ARENA_TRAP, ABILITY_NONE /* Mimicry not yet implemented */
     runchance 25
     colorflip BODY_COLOR_GREEN, 0
     
@@ -29238,9 +29273,15 @@ mondata SPECIES_SNEASEL_HISUIAN, "-----"
     runchance 25
     colorflip BODY_COLOR_BLACK, 1
     
-
+    
+// STATS: 90 >> 95 HP | 108 >> 110 Atk | 528 >> 535 BST
+// ABILITY: Shell Armor (2)
 mondata SPECIES_SAMUROTT_HISUIAN, "-----"
-    basestats 90, 108, 80, 85, 100, 65
+    .if STAT_CHANGES_IMPLEMENTED
+        basestats 95, 110, 80, 85, 100, 65
+    .else
+        basestats 90, 108, 80, 85, 100, 65
+    .endif
     types TYPE_WATER, TYPE_DARK
     catchrate 55
     baseexp 155
@@ -29251,7 +29292,11 @@ mondata SPECIES_SAMUROTT_HISUIAN, "-----"
     basefriendship 70
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_TORRENT, ABILITY_TORRENT
+    .if ABILITY_CHANGES_IMPLEMENTED
+        abilities ABILITY_TORRENT, ABILITY_SHELL_ARMOR
+    .else
+        abilities ABILITY_TORRENT, ABILITY_TORRENT
+    .endif
     runchance 25
     colorflip BODY_COLOR_BLUE, 0
     

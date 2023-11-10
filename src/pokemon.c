@@ -3782,6 +3782,8 @@ u16 LONG_CALL GetMonEvolution(struct Party *party, struct PartyPokemon *pokemon,
     evoTable = sys_AllocMemory(0, MAX_EVOS_PER_POKE * sizeof(struct Evolution));
     ArchiveDataLoad(evoTable, ARC_EVOLUTIONS, species);
 
+    u32 location = gFieldSysPtr->location->mapId;
+
     switch (context) {
     case EVOCTX_LEVELUP:
         level = (u8)GetMonData(pokemon, MON_DATA_LEVEL, NULL);
@@ -3815,8 +3817,6 @@ u16 LONG_CALL GetMonEvolution(struct Party *party, struct PartyPokemon *pokemon,
                 }
                 break;
             case EVO_LEVEL_GLOBAL_TERMINAL:
-                u32 location = gFieldSysPtr->location->mapId;
-
                 if (evoTable[i].param <= level && location == GLOBAL_TERMINAL_HEADER_ID) {
                     GET_TARGET_AND_SET_FORM;
                     *method_ret = EVO_LEVEL;
@@ -3891,6 +3891,12 @@ u16 LONG_CALL GetMonEvolution(struct Party *party, struct PartyPokemon *pokemon,
                 break;
             case EVO_HAS_MOVE:
                 if (MonHasMove(pokemon, evoTable[i].param) == TRUE) {
+                    GET_TARGET_AND_SET_FORM;
+                    *method_ret = EVO_HAS_MOVE;
+                }
+                break;
+            case EVO_HAS_MOVE_GLOBAL_TERMINAL:
+                if ((MonHasMove(pokemon, evoTable[i].param) == TRUE) && (location == GLOBAL_TERMINAL_HEADER_ID)) {
                     GET_TARGET_AND_SET_FORM;
                     *method_ret = EVO_HAS_MOVE;
                 }
@@ -4071,7 +4077,19 @@ u16 LONG_CALL GetMonEvolution(struct Party *party, struct PartyPokemon *pokemon,
                     }
                 }
                 break;
+            case EVO_HURT_IN_BATTLE_AMOUNT_FEMALE:
+                {
+                    u32 hp = GetMonData(pokemon, MON_DATA_HP, NULL), maxhp = GetMonData(pokemon, MON_DATA_MAXHP, NULL);
+                    
+                    if ((GetMonData(pokemon, MON_DATA_GENDER, NULL) == POKEMON_GENDER_FEMALE) && hp && (maxhp - hp) >= evoTable[i].param) // if the mon has evoTable[i].param hp less than its max
+                    {
+                        GET_TARGET_AND_SET_FORM;
+                        *method_ret = EVO_HURT_IN_BATTLE_AMOUNT;
+                    }
+                }
+                break;
             }
+
             if (target != SPECIES_NONE) {
                 break;
             }

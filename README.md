@@ -5,10 +5,14 @@ It uses hg-engine (https://github.com/BluRosie/hg-engine) as a base. Big thanks 
 Instructions on how to build the repo can be found there.
 
 **Stuff To-Do**
-- [ ] Make Aroma Veil work for allies
-- [ ] Make Sweet Veil work for allies
-- [ ] Fix Flower Veil if possible
-- [ ] Add shiny assets for four Paldea evolutions
-- [ ] Clarify if Disable turns work like S/V
-- [ ] Readd Looker OW over Byron
-- [ ] Add item sprites for the Mystery Stone and Fairy Feather
+- [ ] Clarify if Disable turns work like S/V for documentation
+
+**Assets still required**
+- [ ] Sprites for some Galarian forms (Meowth, Rapidash, Slowpoke, Farfetch'd, Mr. Mime, Slowking, Zigzagoon, Linoone, Yamask, Stunfisk)
+- [ ] Sprites for some Galarian cross-evos (Obstagoon, Perrserker, Mr. Rime, Runerigus)
+- [ ] Sprites for some Hisuian forms (Arcanine, Voltorb, Electrode, Qwilfish, Samurott, Avalugg) (Evos all there already!)
+- [ ] Sprites for some Paldean forms (Tauros Combat, Tauros Blaze, Tauros Aqua)
+- [ ] Shiny sprites for Paldean cross-evos (Farigiraf)
+- [ ] Shiny overworld sprites for Paldean cross-evos (Annihilape, Farigiraf, Dudunsparce, Kingambit)
+- [ ] Looker overworld (replace Byron?)
+- [ ] Item sprites (Mystery Stone, Fairy Feather)

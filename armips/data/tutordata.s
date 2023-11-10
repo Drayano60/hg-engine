@@ -2620,7 +2620,7 @@ TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_HYDRO_PUMP | TUTOR_MOVE_DOUBLE_EDGE
 // NEW: Double-Edge
 tutordata SPECIES_DEWOTT,\
 TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_FLIP_TURN,\
-TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_HYDRO_PUMP | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_KNOCK_OFF
+TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_HYDRO_PUMP | TUTOR_MOVE_DOUBLE_EDGE
 
 // NEW: Double-Edge
 tutordata SPECIES_SAMUROTT,\
@@ -2853,9 +2853,11 @@ tutordata SPECIES_LILLIGANT,\
 TUTOR_MOVE_MAGICAL_LEAF | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_CHARM,\
 TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER
 
+// NEW: Aqua Tail
+// White-Striped
 tutordata SPECIES_BASCULIN,\
 TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_FLIP_TURN,\
-TUTOR_MOVE_PSYCHIC_FANGS | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HYDRO_PUMP | TUTOR_MOVE_SUPERPOWER
+TUTOR_MOVE_PSYCHIC_FANGS | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HYDRO_PUMP
 
 tutordata SPECIES_SANDILE,\
 TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_AQUA_TAIL,\
@@ -5321,71 +5323,30 @@ tutordata SPECIES_GRIMMSNARL, \
                   0
 
 
-tutordata SPECIES_OBSTAGOON, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
+tutordata SPECIES_OBSTAGOON,\
+TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_CROSS_POISON | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_CLOSE_COMBAT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_GUNK_SHOT
 
+tutordata SPECIES_PERRSERKER,\
+TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_GYRO_BALL | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_CHARM,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_CLOSE_COMBAT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_GUNK_SHOT | TUTOR_MOVE_HEAVY_SLAM | TUTOR_MOVE_PLAY_ROUGH
 
-tutordata SPECIES_PERRSERKER, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
+// NEW: Chilling Water
+tutordata SPECIES_CURSOLA,\
+TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_CHILLING_WATER,\
+TUTOR_MOVE_HEX | TUTOR_MOVE_POWER_GEM | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_HYDRO_PUMP | TUTOR_MOVE_METEOR_BEAM | TUTOR_MOVE_POLTERGEIST
 
+tutordata SPECIES_SIRFETCHD,\
+TUTOR_MOVE_BRUTAL_SWING | TUTOR_MOVE_DUAL_WINGBEAT,\
+TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_CLOSE_COMBAT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_SUPERPOWER
 
-tutordata SPECIES_CURSOLA, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
+tutordata SPECIES_MR_RIME,\
+TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_PSYBEAM | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_CHARM,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_STORED_POWER | TUTOR_MOVE_TRIPLE_AXEL
 
-
-tutordata SPECIES_SIRFETCHD, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_MR_RIME, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_RUNERIGUS, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
+tutordata SPECIES_RUNERIGUS,\
+TUTOR_MOVE_BRUTAL_SWING | TUTOR_MOVE_BULLDOZE,\
+TUTOR_MOVE_HEX | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_POLTERGEIST
 
 tutordata SPECIES_MILCERY, \
                   \
@@ -5739,38 +5700,18 @@ tutordata SPECIES_URSALUNA,\
 TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_CHARM | TUTOR_MOVE_FIRE_PUNCH,\
 TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_CLOSE_COMBAT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_GUNK_SHOT | TUTOR_MOVE_HEAVY_SLAM | TUTOR_MOVE_PLAY_ROUGH | TUTOR_MOVE_SUPERPOWER
 
-tutordata SPECIES_BASCULEGION, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
+// NEW: Aqua Tail
+tutordata SPECIES_BASCULEGION,\
+TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_FLIP_TURN,\
+TUTOR_MOVE_HEX | TUTOR_MOVE_PSYCHIC_FANGS | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HYDRO_PUMP | TUTOR_MOVE_OUTRAGE
 
+tutordata SPECIES_SNEASLER,\
+TUTOR_MOVE_ACID_SPRAY | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_CLOSE_COMBAT | TUTOR_MOVE_GUNK_SHOT
 
-tutordata SPECIES_SNEASLER, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_OVERQWIL, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
+tutordata SPECIES_OVERQWIL,\
+TUTOR_MOVE_ACID_SPRAY | TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_GYRO_BALL | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AQUA_TAIL,\
+TUTOR_MOVE_HEX | TUTOR_MOVE_GUNK_SHOT | TUTOR_MOVE_HYDRO_PUMP
 
 tutordata SPECIES_ENAMORUS, \
                   \
@@ -6590,15 +6531,10 @@ tutordata SPECIES_ANNIHILAPE,\
 TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_FIRE_PUNCH,\
 TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_CLOSE_COMBAT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_GUNK_SHOT | TUTOR_MOVE_OUTRAGE
 
+// NEW: Aqua Tail, Headbutt, Double-Edge
 tutordata SPECIES_CLODSIRE, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
+TUTOR_MOVE_ACID_SPRAY | TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AQUA_TAIL,\
+TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_GUNK_SHOT | TUTOR_MOVE_HEAVY_SLAM | TUTOR_MOVE_HYDRO_PUMP | TUTOR_MOVE_MEGAHORN
 
 tutordata SPECIES_FARIGIRAF,\
 TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_PSYBEAM | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_TRAILBLAZE,\
@@ -7641,92 +7577,44 @@ tutordata SPECIES_GROUDON_PRIMAL, \
                   0
 
 
-tutordata SPECIES_MEOWTH_GALARIAN, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
+tutordata SPECIES_MEOWTH_GALARIAN,\
+TUTOR_MOVE_GYRO_BALL | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_CHARM,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_GUNK_SHOT | TUTOR_MOVE_PLAY_ROUGH
 
+// NEW: Trailblaze
+tutordata SPECIES_PONYTA_GALARIAN,\
+TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_PSYBEAM | TUTOR_MOVE_CHARM | TUTOR_MOVE_TRAILBLAZE,\
+TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_PLAY_ROUGH | TUTOR_MOVE_STORED_POWER | TUTOR_MOVE_WILD_CHARGE
 
-tutordata SPECIES_PONYTA_GALARIAN, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
+// NEW: Trailblaze
+tutordata SPECIES_RAPIDASH_GALARIAN,\
+TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_PSYBEAM | TUTOR_MOVE_CHARM | TUTOR_MOVE_DRILL_RUN | TUTOR_MOVE_TRAILBLAZE,\
+TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_MEGAHORN | TUTOR_MOVE_PLAY_ROUGH | TUTOR_MOVE_STORED_POWER | TUTOR_MOVE_WILD_CHARGE
 
+// NEW: Aqua Tail
+tutordata SPECIES_SLOWPOKE_GALARIAN,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_PSYBEAM | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AQUA_TAIL,\
+TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_HYDRO_PUMP | TUTOR_MOVE_STORED_POWER
 
-tutordata SPECIES_RAPIDASH_GALARIAN, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_SLOWPOKE_GALARIAN, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
+// NEW: Aqua Tail
 tutordata SPECIES_SLOWBRO_GALARIAN, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
+TUTOR_MOVE_ACID_SPRAY | TUTOR_MOVE_BRUTAL_SWING | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_PSYBEAM | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AQUA_TAIL,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_POWER_GEM | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_GUNK_SHOT | TUTOR_MOVE_HYDRO_PUMP | TUTOR_MOVE_STORED_POWER
+
+// NEW: Aqua Tail
+tutordata SPECIES_FARFETCHD_GALARIAN,\
+TUTOR_MOVE_BRUTAL_SWING | TUTOR_MOVE_DUAL_WINGBEAT,\
+TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_CLOSE_COMBAT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_SUPERPOWER
 
 
-tutordata SPECIES_FARFETCHD_GALARIAN, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
+tutordata SPECIES_WEEZING_GALARIAN,\
+TUTOR_MOVE_ACID_SPRAY | TUTOR_MOVE_BRUTAL_SWING | TUTOR_MOVE_GYRO_BALL | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_PSYBEAM | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_HEAT_WAVE,\
+TUTOR_MOVE_GUNK_SHOT | TUTOR_MOVE_PLAY_ROUGH
 
 
-tutordata SPECIES_WEEZING_GALARIAN, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_MR_MIME_GALARIAN, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
+tutordata SPECIES_MR_MIME_GALARIAN,\
+TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_PSYBEAM | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_CHARM,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_STORED_POWER | TUTOR_MOVE_TRIPLE_AXEL
 
 
 tutordata SPECIES_ARTICUNO_GALARIAN, \
@@ -7762,92 +7650,49 @@ tutordata SPECIES_MOLTRES_GALARIAN, \
                   0
 
 
+// NEW: Aqua Tail
 tutordata SPECIES_SLOWKING_GALARIAN, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
+TUTOR_MOVE_ACID_SPRAY | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_PSYBEAM | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_FIRE_PUNCH | TUTOR_MOVE_AQUA_TAIL,\
+TUTOR_MOVE_HEX | TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_POWER_GEM | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_GUNK_SHOT | TUTOR_MOVE_HYDRO_PUMP | TUTOR_MOVE_STORED_POWER
 
-
-tutordata SPECIES_CORSOLA_GALARIAN, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
+// NEW: Chilling Water
+tutordata SPECIES_CORSOLA_GALARIAN,\
+TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_CHILLING_WATER,\
+TUTOR_MOVE_HEX | TUTOR_MOVE_POWER_GEM | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_HYDRO_PUMP | TUTOR_MOVE_METEOR_BEAM
 
 
 tutordata SPECIES_ZIGZAGOON_GALARIAN, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
+TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_GUNK_SHOT
 
 
-tutordata SPECIES_LINOONE_GALARIAN, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
+tutordata SPECIES_LINOONE_GALARIAN,\
+TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_GUNK_SHOT
 
 
-tutordata SPECIES_DARUMAKA_GALARIAN, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
+// NEW: Double-Edge
+tutordata SPECIES_DARUMAKA_GALARIAN,\
+TUTOR_MOVE_GYRO_BALL | TUTOR_HEADBUTT | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_FIRE_PUNCH | TUTOR_MOVE_HEAT_WAVE,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_FLARE_BLITZ | TUTOR_MOVE_SUPERPOWER | TUTOR_MOVE_DOUBLE_EDGE
 
 
-tutordata SPECIES_DARMANITAN_GALARIAN, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
+// NEW: Double-Edge
+tutordata SPECIES_DARMANITAN_GALARIAN,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_GYRO_BALL | TUTOR_HEADBUTT | TUTOR_MOVE_INCINERATE | TUTOR_MOVE_FIRE_PUNCH | TUTOR_MOVE_HEAT_WAVE,\
+TUTOR_MOVE_ICE_PUNCH | TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_FLARE_BLITZ | TUTOR_MOVE_SUPERPOWER | TUTOR_MOVE_DOUBLE_EDGE
 
 
-tutordata SPECIES_YAMASK_GALARIAN, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
+// NEW: Bulldoze
+tutordata SPECIES_YAMASK_GALARIAN,\
+TUTOR_MOVE_BRUTAL_SWING | TUTOR_MOVE_BULLDOZE,\
+TUTOR_MOVE_HEX | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_POLTERGEIST
 
 
-tutordata SPECIES_STUNFISK_GALARIAN, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
+// NEW: Iron Head
+tutordata SPECIES_STUNFISK_GALARIAN,\
+TUTOR_MOVE_BULLDOZE,\
+TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_IRON_HEAD
 
 
 tutordata SPECIES_PIKACHU_COSPLAY, \
@@ -9101,49 +8946,21 @@ tutordata SPECIES_ENAMORUS_THERIAN, \
                   0
 
 
-tutordata SPECIES_GROWLITHE_HISUIAN, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
+tutordata SPECIES_GROWLITHE_HISUIAN,\
+TUTOR_MOVE_HEAT_WAVE,\
+TUTOR_MOVE_POWER_GEM | TUTOR_MOVE_PSYCHIC_FANGS | TUTOR_MOVE_CLOSE_COMBAT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_FLARE_BLITZ | TUTOR_MOVE_OUTRAGE | TUTOR_MOVE_WILD_CHARGE
 
+tutordata SPECIES_ARCANINE_HISUIAN,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEAT_WAVE,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_POWER_GEM | TUTOR_MOVE_PSYCHIC_FANGS | TUTOR_MOVE_CLOSE_COMBAT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_FLARE_BLITZ | TUTOR_MOVE_OUTRAGE | TUTOR_MOVE_WILD_CHARGE
 
-tutordata SPECIES_ARCANINE_HISUIAN, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_VOLTORB_HISUIAN, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
+tutordata SPECIES_VOLTORB_HISUIAN,\
+TUTOR_MOVE_GYRO_BALL,\
+TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_VOLT_SWITCH | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_WILD_CHARGE
 
 tutordata SPECIES_ELECTRODE_HISUIAN, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
+TUTOR_MOVE_GYRO_BALL,\
+TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_VOLT_SWITCH | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_WILD_CHARGE
 
 tutordata SPECIES_TYPHLOSION_HISUIAN, \
                   \
@@ -9156,115 +8973,51 @@ tutordata SPECIES_TYPHLOSION_HISUIAN, \
                   0
 
 
-tutordata SPECIES_QWILFISH_HISUIAN, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
+tutordata SPECIES_QWILFISH_HISUIAN,\
+TUTOR_MOVE_ACID_SPRAY | TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_GYRO_BALL | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AQUA_TAIL,\
+TUTOR_MOVE_HEX | TUTOR_MOVE_GUNK_SHOT | TUTOR_MOVE_HYDRO_PUMP
 
+tutordata SPECIES_SNEASEL_HISUIAN,\
+TUTOR_MOVE_ACID_SPRAY | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_TRAILBLAZE,\
+TUTOR_MOVE_CLOSE_COMBAT | TUTOR_MOVE_GUNK_SHOT
 
-tutordata SPECIES_SNEASEL_HISUIAN, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
+// NEW: Double-Edge
+tutordata SPECIES_SAMUROTT_HISUIAN,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_DRILL_RUN | TUTOR_MOVE_FLIP_TURN,\
+TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_HYDRO_PUMP | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_MEGAHORN
 
+// NEW: Double-Edge
+tutordata SPECIES_LILLIGANT_HISUIAN,\
+TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_MAGICAL_LEAF | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_CHARM,\
+TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_CLOSE_COMBAT | TUTOR_MOVE_HURRICANE | TUTOR_MOVE_DOUBLE_EDGE
 
-tutordata SPECIES_SAMUROTT_HISUIAN, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
+// NEW: Double-Edge
+tutordata SPECIES_ZORUA_HISUIAN,\
+TUTOR_MOVE_ICY_WIND,\
+TUTOR_MOVE_HEX | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_DOUBLE_EDGE
 
+// NEW: Double-Edge
+tutordata SPECIES_ZOROARK_HISUIAN,\
+TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_LOW_KICK,\
+TUTOR_MOVE_HEX | TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_FOUL_PLAY | TUTOR_MOVE_POLTERGEIST | TUTOR_MOVE_DOUBLE_EDGE
 
-tutordata SPECIES_LILLIGANT_HISUIAN, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
+// NEW: Double-Edge
+tutordata SPECIES_BRAVIARY_HISUIAN,\
+TUTOR_MOVE_AIR_CUTTER | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_PSYBEAM | TUTOR_MOVE_DUAL_WINGBEAT | TUTOR_MOVE_HEAT_WAVE,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_CLOSE_COMBAT | TUTOR_MOVE_HURRICANE | TUTOR_MOVE_STORED_POWER | TUTOR_MOVE_SUPERPOWER | TUTOR_MOVE_DOUBLE_EDGE
 
+tutordata SPECIES_SLIGGOO_HISUIAN,\
+TUTOR_MOVE_ACID_SPRAY | TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_GYRO_BALL | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_CHARM,\
+TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_HEAVY_SLAM | TUTOR_MOVE_OUTRAGE
 
-tutordata SPECIES_ZORUA_HISUIAN, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
+// NEW: Double-Edge
+tutordata SPECIES_GOODRA_HISUIAN,\
+TUTOR_MOVE_ACID_SPRAY | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_GYRO_BALL | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_CHARM | TUTOR_MOVE_DRAGON_TAIL | TUTOR_MOVE_FIRE_PUNCH,\
+TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_HEAVY_SLAM | TUTOR_MOVE_HYDRO_PUMP | TUTOR_MOVE_OUTRAGE | TUTOR_MOVE_DOUBLE_EDGE
 
-
-tutordata SPECIES_ZOROARK_HISUIAN, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_BRAVIARY_HISUIAN, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_SLIGGOO_HISUIAN, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_GOODRA_HISUIAN, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_AVALUGG_HISUIAN, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
+tutordata SPECIES_AVALUGG_HISUIAN,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_GYRO_BALL | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_WATER_PULSE | 0,\
+TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HEAVY_SLAM | 0
 
 tutordata SPECIES_DECIDUEYE_HISUIAN, \
                   \
@@ -9342,17 +9095,10 @@ tutordata SPECIES_INDEEDEE_FEMALE, \
                   \
                   0
 
-
-tutordata SPECIES_BASCULEGION_FEMALE, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
+// NEW: Aqua Tail
+tutordata SPECIES_BASCULEGION_FEMALE,\
+TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_FLIP_TURN,\
+TUTOR_MOVE_HEX | TUTOR_MOVE_PSYCHIC_FANGS | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HYDRO_PUMP | TUTOR_MOVE_OUTRAGE
 
 tutordata SPECIES_MAUSHOLD_FAMILY_OF_THREE, \
                   \
@@ -9464,49 +9210,24 @@ tutordata SPECIES_TERAPAGOS_TERASTAL, \
                   0
 
 
-tutordata SPECIES_WOOPER_PALDEAN, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
+// NEW: Aqua Tail, Headbutt, Double-Edge
+tutordata SPECIES_WOOPER_PALDEAN,\
+TUTOR_MOVE_ACID_SPRAY | TUTOR_MOVE_ANCIENT_POWER | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AQUA_TAIL,\
+TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_EARTH_POWER | TUTOR_MOVE_GUNK_SHOT | TUTOR_MOVE_HYDRO_PUMP
 
+tutordata SPECIES_TAUROS_COMBAT,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_DRILL_RUN,\
+TUTOR_IRON_HEAD | TUTOR_ZEN_HEADBUTT | TUTOR_MOVE_CLOSE_COMBAT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_OUTRAGE | TUTOR_MOVE_WILD_CHARGE
 
-tutordata SPECIES_TAUROS_COMBAT, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
+// NEW: Double-Edge
+tutordata SPECIES_TAUROS_BLAZE,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_DRILL_RUN,\
+TUTOR_IRON_HEAD | TUTOR_ZEN_HEADBUTT | TUTOR_MOVE_CLOSE_COMBAT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_FLARE_BLITZ | TUTOR_MOVE_OUTRAGE | TUTOR_MOVE_WILD_CHARGE
 
-
-tutordata SPECIES_TAUROS_BLAZE, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_TAUROS_AQUA, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
+// NEW: Double-Edge
+tutordata SPECIES_TAUROS_AQUA,\
+TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_DRILL_RUN,\
+TUTOR_IRON_HEAD | TUTOR_ZEN_HEADBUTT | TUTOR_MOVE_CLOSE_COMBAT | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HYDRO_PUMP | TUTOR_MOVE_OUTRAGE | TUTOR_MOVE_WILD_CHARGE
 
 tutordata SPECIES_OINKOLOGNE_FEMALE, \
                   \

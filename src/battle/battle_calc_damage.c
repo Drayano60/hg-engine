@@ -669,10 +669,13 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
         movepower = movepower * 100 / 133;
 #endif
 
-    //handle steely spirit
-    if ((movetype == TYPE_STEEL) && (CheckSideAbility(bw, sp, CHECK_PLAYER_SIDE_ALIVE, attacker, ABILITY_STEELY_SPIRIT)))
-    {
-        movepower = movepower * 15 / 10;
+    // Handle Steely Spirit
+    // Because Steely Spirit can stack, we need to check the attacker and the attacker's ally separately
+    if (GetBattlerAbility(sp, attacker) == ABILITY_STEELY_SPIRIT && (movetype == TYPE_STEEL)) {
+        movepower = movepower * 150 / 100;
+    }
+    if (GetBattlerAbility(sp, BATTLER_ALLY(attacker)) == ABILITY_STEELY_SPIRIT && movetype == TYPE_STEEL) {
+        movepower = movepower * 150 / 100;
     }
 
     //handle battery

@@ -395,9 +395,11 @@ move_narc: $(NARC_FILES)
 	@echo "textbox:"
 	if [ $$(grep -i -c "//#define IMPLEMENT_TRANSPARENT_TEXTBOXES" include/config.h) -eq 0 ]; then cp $(TEXTBOX_NARC) $(TEXTBOX_TARGET); fi
 
-	# Commented out for now as the cache interferes with stuff
-	# @echo "scripts:"
-	# cp $(SCR_SEQ_NARC) $(SCR_SEQ_TARGET)
+	@echo "scripts:"
+	cp $(SCR_SEQ_NARC) $(SCR_SEQ_TARGET)
+
+	@echo "headbutt trees:"
+	cp $(HEADBUTT_NARC) $(HEADBUTT_TARGET)
 
 	@echo "baby mons:"
 	$(ARMIPS) armips/data/babymons.s

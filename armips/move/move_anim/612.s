@@ -9,8 +9,8 @@
 
 .create "build/move/move_anim/0_612", 0
 
-// Nuzzle
-// Spark attacking half
+// Nuzzle 
+// From HG-Engine
 
 a010_612:
     initspriteresource
@@ -23,24 +23,34 @@ a010_612:
     loadspritemaybe 6, 0, 2, 2
     loadspritemaybe 7, 0, 3, 3
     callfunction 78, 1, 0, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
-    loadparticle 0, 228
+    loadparticle 0, 223
+    loadparticle 1, 117
     waitstate
     unloadspriteresource
     resetsprite 0
     resetsprite 1
     resetsprite 2
     resetsprite 3
-    addparticle 0, 1, 4
-    addparticle 0, 0, 4
-    callfunction 36, 5, 1, 0, 1, 6, 264, "NaN", "NaN", "NaN", "NaN", "NaN"
-    playsepan 1971, 117
-    wait 1
-    callfunction 52, 3, 3, 24, 258, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
-    wait 5
-    callfunction 52, 3, 3, -24, 258, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
+    callfunction 33, 5, 0, 1, 0, 12, 0, "NaN", "NaN", "NaN", "NaN", "NaN"
     waitstate
+    addparticle 0, 0, 3
+    callfunction 25, 0, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
+    loop 3
+    playsepan 2025, -117
+    wait 8
+    doloop
+    playsepan 2025, -117
+    waitparticle
+    addparticle 1, 0, 4
+    addparticle 1, 1, 4
+    wait 5
+    playsepan 1970, 117
+    callfunction 34, 6, 8, 0, 1, 13311, 14, 0, "NaN", "NaN", "NaN", "NaN"
     waitparticle
     unloadparticle 0
+    unloadparticle 1
+    callfunction 33, 5, 0, 1, 12, 0, 0, "NaN", "NaN", "NaN", "NaN", "NaN"
+    waitstate
     end
 
 .close

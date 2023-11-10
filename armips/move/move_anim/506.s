@@ -10,54 +10,47 @@
 .create "build/move/move_anim/0_506", 0
 
 // Scald
-// Hydro Pump with background replaced with faded red from Flamethrower
+// From HG-Engine
 
 a010_506:
-    initspriteresource
-    loadspriteresource 0
-    loadspriteresource 1
-    loadspriteresource 2
-    loadspriteresource 3
-    loadspritemaybe 4, 0, 0, 0
-    loadspritemaybe 5, 0, 1, 1
-    loadspritemaybe 6, 0, 2, 2
-    loadspritemaybe 7, 0, 3, 3
-    callfunction 78, 1, 0, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
-    loadparticle 0, 87
-    waitstate
-    unloadspriteresource
-    resetsprite 0
-    resetsprite 1
-    resetsprite 2
-    resetsprite 3
-    cmd43
-    cmd0C 6, 1
-    cmd0C 7, 1
-    cmd0C 0, -32
-    callfunction 33, 5, 0, 1, 0, 12, 2124, "NaN", "NaN", "NaN", "NaN", "NaN"
-    addparticle 0, 3, 17
-    cmd37 6, 0, 2, 8, 1, 0, 0, "NaN", "NaN"
-    callfunction 68, 5, 0, 3, 0, 20, 0, "NaN", "NaN", "NaN", "NaN", "NaN"
-    wait 2
-    addparticle 0, 4, 17
-    cmd37 6, 0, 2, 10, 6, 0, 0, "NaN", "NaN"
-    addparticle 0, 1, 17
-    cmd37 6, 0, 2, 10, 6, 0, 0, "NaN", "NaN"
-    playsepanmod 2109, -117, 117, 4, 2
-    wait 8
-    callfunction 36, 5, 2, 0, 1, 14, 258, "NaN", "NaN", "NaN", "NaN", "NaN"
-    addparticle 0, 2, 4
-    addparticle 0, 0, 4
-    callfunction 34, 6, 8, 0, 1, 49930, 10, 25, "NaN", "NaN", "NaN", "NaN"
-    callfunction 36, 5, 2, 0, 1, 14, 264, "NaN", "NaN", "NaN", "NaN", "NaN"
+    loadparticlefromspa 0, 87 //hydro pump
     waitparticle
+    loadparticlefromspa 1, 84 //flamethrower
+    waitparticle
+    loadparticlefromspa 2, 364 //water sport
+    waitparticle
+    loadparticlefromspa 3, 333 //overheat
+    waitparticle
+
+    // cmd43 //flare blitz bg
+    //cmd0C 7, 1
+    //changebg 33, 0x1
+    addparticle 0, 0, 3 //water spurts from user
+    addparticle 0, 4, 17 //hydro pump beam
+    cmd37 6, 0, 2, 10, 6, 0, 0, "NaN", "NaN" //use this and 17 target in line above to have the beam target
+    playsepanmod 2109, -117, 117, 4, 2 // pump sound
+    wait 10
+
+    //addparticle 1, 0, 4 //flamthrower crisps the opponent 
+    //addparticle 3, 1, 4 //flame burst outward
+    addparticle 3, 2, 4 //smoke on opponent
+    addparticle 2, 2, 4 //little water shoots out on opponent
+    shadetargetmon 31, 0, 0 //make the opponent red
+    shaketargetmon 5, 3 //shake 'em a bit
+    waitstate
+    wait 10
+
+    //cmd43
+    //cmd0C 7, 1
+    //resetbg 33, 0x1
+    //waitforchangebg //undo flare blitz bg
+
     unloadparticle 0
-    callfunction 33, 5, 0, 1, 12, 0, 2124, "NaN", "NaN", "NaN", "NaN", "NaN"
-    cmd43
-    cmd0C 7, 1
-    cmd0C 6, 1
-    cmd0C 0, -32
- 
+    waitparticle
+    unloadparticle 1
+    waitparticle
+    unloadparticle 2
+    waitstate
     end
     
 

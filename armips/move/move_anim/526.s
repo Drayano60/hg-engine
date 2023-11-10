@@ -10,11 +10,27 @@
 .create "build/move/move_anim/0_526", 0
 
 // Bulldoze
-// Magnitude animation
+// From HG-Engine with slight edit to make it faster
 
 a010_526:
-    repeatse 1954, 0, 2, 8
-    callfunction 28, 1, 1, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
+    loadparticlefromspa 0, 120 //earthquake particles, emitter 0 only
+    waitparticle
+    
+    slideattackingmon 0, 16
+    waitstate
+
+    shakescreen
+
+    playsepan 1973, 0
+    addparticle 0, 0, 4 //eq effect on opponent
+    flashscreencolor 11, 8, 8 //flash brown
+    slideattackingmon 0, -16 //move user up and down
+    wait 8
+    waitparticle
+
+    waitstate
+
+    unloadparticle 0
     waitstate
     end
     

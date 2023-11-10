@@ -10,7 +10,7 @@
 .create "build/move/move_anim/0_520", 0
 
 // Inferno
-// Repeated Fire Spin with Fire Blast background
+// Repeated Fire Spin with Magma Storm background
 
 a010_520:
     initspriteresource
@@ -25,8 +25,10 @@ a010_520:
     callfunction 78, 1, 0, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
 
     cmd43
-    cmd0C 7, 1
-    changebg 22, 0x800001
+    cmd0C 4, 1
+    cmd0C 0, 0
+    cmd0C 1, 32
+    changebg 43, 0x20001
     waitforchangebg
 
     loadparticle 0, 114
@@ -50,8 +52,11 @@ a010_520:
     
     wait 5
 
-    cmd0C 7, 1
-    resetbg 22, 0x1000001
+    cmd43
+    cmd0C 4, 1
+    cmd0C 0, 0
+    cmd0C 1, 32
+    resetbg 43, 0x40001
     waitforchangebg
 
     end

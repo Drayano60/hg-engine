@@ -10,7 +10,7 @@
 .create "build/move/move_anim/0_580", 0
 
 // Draining Kiss
-// Lovely Kiss animation with Mega Drain draining graphics and a darker background
+// Lovely Kiss animation with Mega Drain draining graphics and a pink background
 
 a010_580:
     initspriteresource
@@ -25,7 +25,7 @@ a010_580:
     callfunction 78, 1, 0, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
 
     
-    callfunction 33, 5, 0, 1, 0, 12, 0, "NaN", "NaN", "NaN", "NaN", "NaN"
+    callfunction 33, 5, 0, 1, 0, 12, 28927, "NaN", "NaN", "NaN", "NaN", "NaN"
     waitstate
     
     loadparticle 0, 166

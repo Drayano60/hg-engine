@@ -10,7 +10,7 @@
 .create "build/move/move_anim/0_611", 0
 
 // Baby-Doll Eyes
-// First half of Covet animation (bouncing around and hearts) - no cute eyes asset
+// From HG-Engine with a slight edit
 
 a010_611:
     initspriteresource
@@ -23,22 +23,23 @@ a010_611:
     loadspritemaybe 6, 0, 2, 2
     loadspritemaybe 7, 0, 3, 3
     callfunction 78, 1, 0, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
-    loadparticle 0, 361
+    loadparticle 0, 138
+    loadparticle 1, 463
     waitstate
     unloadspriteresource
     resetsprite 0
     resetsprite 1
     resetsprite 2
     resetsprite 3
-    addparticle 0, 0, 17
-    cmd37 6, 0, 2, 1, 0, 0, 0, "NaN", "NaN"
-    callfunction 27, 1, 0, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
-    repeatse 2025, -117, 2, 4
-    wait 20
-    repeatse 2025, -117, 2, 4
-    wait 10
-    waitparticle
-    unloadparticle 0
-    end
 
+
+    addparticle 1, 0, 3
+    playsepan 1862, -117
+    callfunction 25, 0, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
+    waitparticle
+
+    unloadparticle 0
+    unloadparticle 1
+    end
+    
 .close

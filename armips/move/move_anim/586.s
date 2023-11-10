@@ -10,7 +10,7 @@
 .create "build/move/move_anim/0_586", 0
 
 // Play Rough
-// Submission with hearts from Attract at the end
+// Submission with hearts from Attract
 
 a010_586:
     initspriteresource
@@ -41,6 +41,7 @@ a010_586:
     loadspritemaybe 7, 0, 3, 3
     callfunction 78, 1, 0, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
     loadparticle 1, 35
+    loadparticle 2, 231
     waitstate
     unloadspriteresource
     resetsprite 0
@@ -67,29 +68,17 @@ a010_586:
     waitse 1920, 117, 70
     waitse 1983, -117, 70
     waitse 1920, 117, 80
+    addparticle 2, 0, 4
     loop 5
     wait 2
     addparticle 1, 0, 4
     doloop
+    addparticle 2, 0, 4
     waitparticle
+    waitstate
     unloadparticle 0
     unloadparticle 1
-    // waitstate
-
-    loadparticle 0, 231
-    // waitstate
-    unloadspriteresource
-    resetsprite 0
-    resetsprite 1
-    resetsprite 2
-    resetsprite 3
-    addparticle 0, 0, 4
-    // callfunction 25, 0, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
-    // callfunction 34, 6, 8, 0, 2, 23199, 14, 0, "NaN", "NaN", "NaN", "NaN"
-    repeatse 2025, 117, 8, 4
-    waitstate
-    waitparticle
-    unloadparticle 0
+    unloadparticle 2
 
     end
     

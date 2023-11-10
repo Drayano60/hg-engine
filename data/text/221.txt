@@ -641,9 +641,9 @@ Exp. Candy M Description
 Exp. Candy L Description
 Exp. Candy XS Description
 Exp. Candy XL Description
-Galarica Cuff Description
+A cuff made from Galarica Twigs that\nwere woven together.\nIt makes a certain Pokémon very happy.
 Galarica Twig Description
-Galarica Wreath Description
+A wreath made from Galarica Twigs that\nwere woven together.\nIt makes a certain Pokémon very happy.
 Also known as the Heavy-Duty Boots.\nThese boots protect the holder from\ntraps set on the battlefield.
 A string exuding an odd energy that\nmakes you feel a sense of connection.\nIt’s loved by certain Pokémon.
 Moomoo Cheese Description

@@ -115,7 +115,7 @@ Ignores Ghost immunities.\nUnaffected by Intimidate.
 Draws in all Water-type\nmoves to up Sp. Attack.
 Recovers 6.25% of its max\nHP each turn in hail.
 Lowers damage from super\neffective attacks by 25%.
-Summons a hailstorm for\n5 turns upon entry.
+Summons a snowstorm for\n5 turns upon entry.
 The Pokémon may gather\nHoney from somewhere.
 The Pokémon can check\nthe foe’s held item.
 Powers up moves that\ncause recoil by 30%.

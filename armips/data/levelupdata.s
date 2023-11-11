@@ -687,7 +687,7 @@ levelup SPECIES_SANDSHREW_ALOLAN
     learnset MOVE_SLASH, 30
     learnset MOVE_IRON_HEAD, 34
     learnset MOVE_GYRO_BALL, 38
-    learnset MOVE_HAIL, 42
+    learnset MOVE_SNOWSCAPE, 42
     learnset MOVE_ICICLE_CRASH, 46
     learnset MOVE_SWORDS_DANCE, 50
     learnset MOVE_BLIZZARD, 54
@@ -712,7 +712,7 @@ levelup SPECIES_SANDSLASH_ALOLAN
     learnset MOVE_SLASH, 30
     learnset MOVE_IRON_HEAD, 34
     learnset MOVE_GYRO_BALL, 38
-    learnset MOVE_HAIL, 42
+    learnset MOVE_SNOWSCAPE, 42
     learnset MOVE_ICICLE_CRASH, 46
     learnset MOVE_SWORDS_DANCE, 50
     learnset MOVE_BLIZZARD, 54
@@ -4391,7 +4391,7 @@ levelup SPECIES_GLACEON
     learnset MOVE_ICY_WIND, 20
     learnset MOVE_ICE_FANG, 24
     learnset MOVE_YAWN, 28
-    learnset MOVE_HAIL, 32
+    learnset MOVE_SNOWSCAPE, 32
     learnset MOVE_FREEZE_DRY, 36
     learnset MOVE_MIRROR_COAT, 40
     learnset MOVE_BARRIER, 40
@@ -4701,7 +4701,7 @@ levelup SPECIES_ARTICUNO
     learnset MOVE_FREEZE_DRY, 35
     learnset MOVE_ROOST, 40
     learnset MOVE_ICE_BEAM, 45
-    learnset MOVE_HAIL, 50
+    learnset MOVE_SNOWSCAPE, 50
     learnset MOVE_HURRICANE, 55
     learnset MOVE_HAZE, 60
     learnset MOVE_BLIZZARD, 65
@@ -6850,7 +6850,7 @@ levelup SPECIES_DELIBIRD
     learnset MOVE_AIR_SLASH, 32
     learnset MOVE_ICE_BEAM, 36
     learnset MOVE_AGILITY, 40
-    learnset MOVE_HAIL, 44
+    learnset MOVE_SNOWSCAPE, 44
     learnset MOVE_AURORA_VEIL, 48
     learnset MOVE_BRAVE_BIRD, 52
     learnset MOVE_BLIZZARD, 56
@@ -9727,7 +9727,7 @@ levelup SPECIES_CASTFORM
     learnset MOVE_HEADBUTT, 15
     learnset MOVE_SUNNY_DAY, 20
     learnset MOVE_RAIN_DANCE, 20
-    learnset MOVE_HAIL, 20
+    learnset MOVE_SNOWSCAPE, 20
     learnset MOVE_WEATHER_BALL, 25
     learnset MOVE_TRI_ATTACK, 30
     learnset MOVE_FLAMETHROWER, 35
@@ -9748,7 +9748,7 @@ levelup SPECIES_CASTFORM_SUNNY
     learnset MOVE_HEADBUTT, 15
     learnset MOVE_SUNNY_DAY, 20
     learnset MOVE_RAIN_DANCE, 20
-    learnset MOVE_HAIL, 20
+    learnset MOVE_SNOWSCAPE, 20
     learnset MOVE_TRI_ATTACK, 25
     learnset MOVE_WEATHER_BALL, 30
     learnset MOVE_FLAMETHROWER, 35
@@ -9769,7 +9769,7 @@ levelup SPECIES_CASTFORM_RAINY
     learnset MOVE_HEADBUTT, 15
     learnset MOVE_SUNNY_DAY, 20
     learnset MOVE_RAIN_DANCE, 20
-    learnset MOVE_HAIL, 20
+    learnset MOVE_SNOWSCAPE, 20
     learnset MOVE_TRI_ATTACK, 25
     learnset MOVE_WEATHER_BALL, 30
     learnset MOVE_FLAMETHROWER, 35
@@ -9790,7 +9790,7 @@ levelup SPECIES_CASTFORM_SNOWY
     learnset MOVE_HEADBUTT, 15
     learnset MOVE_SUNNY_DAY, 20
     learnset MOVE_RAIN_DANCE, 20
-    learnset MOVE_HAIL, 20
+    learnset MOVE_SNOWSCAPE, 20
     learnset MOVE_TRI_ATTACK, 25
     learnset MOVE_WEATHER_BALL, 30
     learnset MOVE_FLAMETHROWER, 35
@@ -10147,7 +10147,7 @@ levelup SPECIES_SPHEAL
     learnset MOVE_BODY_SLAM, 24
     learnset MOVE_AQUA_TAIL, 27
     learnset MOVE_SLACK_OFF, 32
-    learnset MOVE_HAIL, 36
+    learnset MOVE_SNOWSCAPE, 36
     learnset MOVE_ICE_BEAM, 42
     learnset MOVE_BELLY_DRUM, 48
     learnset MOVE_BLIZZARD, 54
@@ -10172,7 +10172,7 @@ levelup SPECIES_SEALEO
     learnset MOVE_AQUA_TAIL, 27
     learnset MOVE_SWAGGER, 28
     learnset MOVE_SLACK_OFF, 32
-    learnset MOVE_HAIL, 36
+    learnset MOVE_SNOWSCAPE, 36
     learnset MOVE_ICE_BEAM, 42
     learnset MOVE_BELLY_DRUM, 48
     learnset MOVE_BLIZZARD, 54
@@ -10198,7 +10198,7 @@ levelup SPECIES_WALREIN
     learnset MOVE_BODY_SLAM, 24
     learnset MOVE_SWAGGER, 28
     learnset MOVE_SLACK_OFF, 32
-    learnset MOVE_HAIL, 36
+    learnset MOVE_SNOWSCAPE, 36
     learnset MOVE_CRUNCH, 40
     learnset MOVE_ICE_BEAM, 42
     learnset MOVE_BELLY_DRUM, 48
@@ -14968,7 +14968,7 @@ levelup SPECIES_VANILLITE
     learnset MOVE_ICICLE_SPEAR, 21
     learnset MOVE_FROST_BREATH, 24
     learnset MOVE_AVALANCHE, 27
-    learnset MOVE_HAIL, 31
+    learnset MOVE_SNOWSCAPE, 31
     learnset MOVE_ICE_BEAM, 35
     learnset MOVE_ACID_ARMOR, 39
     learnset MOVE_ICICLE_CRASH, 45
@@ -14991,7 +14991,7 @@ levelup SPECIES_VANILLISH
     learnset MOVE_ICICLE_SPEAR, 21
     learnset MOVE_FROST_BREATH, 24
     learnset MOVE_AVALANCHE, 27
-    learnset MOVE_HAIL, 31
+    learnset MOVE_SNOWSCAPE, 31
     learnset MOVE_ICE_BEAM, 35
     learnset MOVE_ACID_ARMOR, 39
     learnset MOVE_ICICLE_CRASH, 45
@@ -15018,7 +15018,7 @@ levelup SPECIES_VANILLUXE
     learnset MOVE_ICICLE_SPEAR, 21
     learnset MOVE_FROST_BREATH, 24
     learnset MOVE_AVALANCHE, 27
-    learnset MOVE_HAIL, 31
+    learnset MOVE_SNOWSCAPE, 31
     learnset MOVE_ICE_BEAM, 35
     learnset MOVE_ACID_ARMOR, 39
     learnset MOVE_FREEZE_DRY, 40
@@ -15865,7 +15865,7 @@ levelup SPECIES_CUBCHOO
     learnset MOVE_CHARM, 27
     learnset MOVE_FLAIL, 30
     learnset MOVE_YAWN, 33
-    learnset MOVE_HAIL, 38
+    learnset MOVE_SNOWSCAPE, 38
     learnset MOVE_REST, 42
     learnset MOVE_THRASH, 46
     learnset MOVE_LIQUIDATION, 50
@@ -15892,7 +15892,7 @@ levelup SPECIES_BEARTIC
     learnset MOVE_FLAIL, 30
     learnset MOVE_YAWN, 33
     learnset MOVE_ICICLE_CRASH, 35
-    learnset MOVE_HAIL, 38
+    learnset MOVE_SNOWSCAPE, 38
     learnset MOVE_REST, 42
     learnset MOVE_THRASH, 46
     learnset MOVE_LIQUIDATION, 50
@@ -20573,7 +20573,7 @@ levelup SPECIES_FROSMOTH
 	learnset MOVE_DEFOG, 16
 	learnset MOVE_FEATHER_DANCE, 21
 	learnset MOVE_AURORA_BEAM, 24
-	learnset MOVE_HAIL, 28
+	learnset MOVE_SNOWSCAPE, 28
 	learnset MOVE_BUG_BUZZ, 32
 	learnset MOVE_AURORA_VEIL, 36
 	learnset MOVE_BLIZZARD, 40
@@ -20607,7 +20607,7 @@ levelup SPECIES_EISCUE
 	learnset MOVE_HEADBUTT, 24
 	learnset MOVE_AMNESIA, 30
 	learnset MOVE_FREEZE_DRY, 36
-	learnset MOVE_HAIL, 42
+	learnset MOVE_SNOWSCAPE, 42
 	learnset MOVE_AURORA_VEIL, 48
 	learnset MOVE_SURF, 54
 	learnset MOVE_BLIZZARD, 60
@@ -25166,7 +25166,7 @@ levelup SPECIES_EISCUE_NOICE_FACE
 	learnset MOVE_HEADBUTT, 24
 	learnset MOVE_AMNESIA, 30
 	learnset MOVE_FREEZE_DRY, 36
-	learnset MOVE_HAIL, 42
+	learnset MOVE_SNOWSCAPE, 42
 	learnset MOVE_AURORA_VEIL, 48
 	learnset MOVE_SURF, 54
 	learnset MOVE_BLIZZARD, 60

@@ -24,6 +24,7 @@ _0028:
     if IF_EQUAL, VAR_TEMP_WORK, 0x1, _018C
     if IF_EQUAL, VAR_HP_TEMP, 0x0, _016C
     if IF_GREATER, VAR_HP_TEMP, 0x0, _0134
+    if IF_MASK, VAR_FIELD_EFFECT, 0xC0, _016C // Treat Hail as Snow and never damage
     abilitycheck 0x0, BATTLER_xFF, ABILITY_MAGIC_GUARD, _016C
     abilitycheck 0x0, BATTLER_xFF, ABILITY_OVERCOAT, _016C // handle overcoat
     abilitycheck 0x0, BATTLER_xFF, ABILITY_SAND_FORCE, SandstormImmunity

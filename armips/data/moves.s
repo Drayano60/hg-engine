@@ -15053,7 +15053,7 @@ movedata MOVE_TIDY_UP, "Tidy Up"
     movedescription MOVE_TIDY_UP, "The user tidies up,\nremoving substitutes,\nscreens and traps.\nThe user’s Attack\nand Speed are raised."
 
 movedata MOVE_SNOWSCAPE, "Snowscape"
-    battleeffect 0
+    battleeffect 164
     pss SPLIT_STATUS
     basepower 0
     type TYPE_ICE
@@ -15062,10 +15062,11 @@ movedata MOVE_SNOWSCAPE, "Snowscape"
     effectchance 0
     target MOVE_TARGET_ACTIVE_FIELD
     priority 0
-    flags FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_MAGIC_COAT
-    appeal 0x00
-    contesttype CONTEST_COOL
+    flags 0
+    appeal 0
+    contesttype 0
     terminatedata
+    movedescription MOVE_SNOWSCAPE, "The user summons a\nsnowstorm that lasts\nfor five turns. This\nboosts the Defense\nstat of Ice types."
 
 movedata MOVE_POUNCE, "Pounce"
     battleeffect 70

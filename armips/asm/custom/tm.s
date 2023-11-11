@@ -32,6 +32,7 @@ PALETTE_BUG equ 610
 // Start of TM table
 .org 0x021000CC
 
+/* Handled by tmlearnset.txt now
 .halfword MOVE_HONE_CLAWS // .
 .halfword MOVE_DRAGON_CLAW
 .halfword MOVE_PSYSHOCK // .
@@ -124,6 +125,7 @@ PALETTE_BUG equ 610
 .halfword MOVE_SCALE_SHOT // .
 .halfword MOVE_FLASH_CANNON
 .halfword MOVE_TRICK_ROOM
+*/
 
 // Start of TM Palette Table
 .org 0x02100BD6

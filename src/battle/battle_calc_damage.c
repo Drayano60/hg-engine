@@ -1131,7 +1131,11 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
             }
         }
 
-        if ((field_cond & (FIELD_STATUS_FOG | WEATHER_HAIL_ANY | WEATHER_SANDSTORM_ANY | WEATHER_RAIN_ANY)) && (moveno == MOVE_SOLAR_BEAM)) // solar beam nerf
+        if
+        (
+            (field_cond & (FIELD_STATUS_FOG | WEATHER_HAIL_ANY | WEATHER_SANDSTORM_ANY | WEATHER_RAIN_ANY)) &&
+            ((moveno == MOVE_SOLAR_BEAM) || (moveno == MOVE_SOLAR_BLADE)) // solar beam nerf
+        )
         {
             damage /= 2;
         }

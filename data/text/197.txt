@@ -699,9 +699,9 @@ The foe’s {STRVAR_1 1, 0, 0}’s\n{STRVAR_1 5, 1, 0} whipped up\fa sandstorm!
 {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nintensified the sun’s rays!
 The wild {STRVAR_1 1, 0, 0}’s\n{STRVAR_1 5, 1, 0} intensified\fthe sun’s rays!
 The foe’s {STRVAR_1 1, 0, 0}’s\n{STRVAR_1 5, 1, 0} intensified\fthe sun’s rays!
-{STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nwhipped up a hailstorm!
-The wild {STRVAR_1 1, 0, 0}’s\n{STRVAR_1 5, 1, 0} whipped up\fa hailstorm!
-The foe’s {STRVAR_1 1, 0, 0}’s\n{STRVAR_1 5, 1, 0} whipped up\fa hailstorm!
+{STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nmade it snow!
+The wild {STRVAR_1 1, 0, 0}’s\n{STRVAR_1 5, 1, 0} made it snow!
+The foe’s {STRVAR_1 1, 0, 0}’s\n{STRVAR_1 5, 1, 0} made it snow!
 {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nprevents {STRVAR_1 13, 2, 0} loss!
 The wild {STRVAR_1 1, 0, 0}’s\n{STRVAR_1 5, 1, 0} prevents\f{STRVAR_1 13, 2, 0} loss!
 The foe’s {STRVAR_1 1, 0, 0}’s\n{STRVAR_1 5, 1, 0} prevents\f{STRVAR_1 13, 2, 0} loss!
@@ -808,9 +808,9 @@ The sandstorm subsided.
 The sunlight turned harsh!
 The sunlight is strong.
 The sunlight faded.
-It started to hail!
-Hail continues to fall.
-The hail stopped.
+It started to snow!
+Snow continues to fall.
+The snow stopped.
 The fog is deep...
 But it failed to spit up a thing!
 But it failed to swallow a thing!

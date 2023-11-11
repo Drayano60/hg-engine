@@ -280,7 +280,7 @@ A Pokémon held item that halves Speed.\nIt makes Flying-type and levitating\nho
 An item to be held by a Pokémon.\nIt is tremendously heavy and makes\nthe holder always move last.
 A long, thin, bright red string to\nbe held by a Pokémon. If the holder\nbecomes infatuated, the foe does too.
 A held item. If held by a Poison-type,\nit restores 6.25% of its HP each turn.\nIt damages other types for 12.5% HP.
-A Pokémon held item that extends the\nduration of the move Hail or the\nability Snow Warning to eight turns.
+A Pokémon held item that extends the\nduration of the move Snowscape or the\nability Snow Warning to eight turns.
 A Pokémon held item that extends the\nduration of the move Sandstorm or the\nability Sand Stream to eight turns.
 A Pokémon held item that extends the\nduration of the move Sunny Day or the\nability Drought to eight turns.
 A Pokémon held item that extends the\nduration of the move Rain Dance or the\nability Drizzle to eight turns.
@@ -332,7 +332,7 @@ The user materializes an odd psychic\nwave to attack the foe. This attack\ndoes 
 The user quietly focuses its mind and\ncalms its spirit to raise its Sp. Atk\nand Sp. Def stats.
 The user yells as if it is ranting about\nsomething, making the target’s\nSp. Atk stat decrease.
 A move that leaves the target badly\npoisoned. This poison damage\nworsens every turn.
-Summons a hailstorm that lasts for\nfive turns. The hailstorm damages\nall types except Ice.
+Summons a snowstorm that lasts for\nfive turns. The snowstorm boosts the\nDefense stat of Ice-type Pokémon.
 The user tenses its muscles to bulk up\nits body, boosting both its Attack and\nDefense stats.
 The target is drenched with a poisonous\nliquid. Its power is doubled if the\ntarget is poisoned.
 A variable move that changes type\ndepending on the Pokémon using it.

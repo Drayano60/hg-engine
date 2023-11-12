@@ -8,6 +8,7 @@ Instructions on how to build the repo can be found there.
 - [ ] Clarify if Disable turns work like S/V for documentation
 
 **Assets still required**
+- [ ] Cry for Clodsire
 - [ ] Sprites for some Galarian forms (Meowth, Rapidash, Slowpoke, Farfetch'd, Mr. Mime, Slowking, Zigzagoon, Linoone, Yamask, Stunfisk)
 - [ ] Sprites for some Galarian cross-evos (Obstagoon, Perrserker, Mr. Rime, Runerigus)
 - [ ] Sprites for some Hisuian forms (Arcanine, Voltorb, Electrode, Qwilfish, Samurott, Avalugg) (Evos all there already!)

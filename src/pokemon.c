@@ -5207,6 +5207,18 @@ u32 GrabCryNumSpeciesForm(u32 species, u32 form)
             if (!storeShayminForm)
                 return species;
     }
+    else if (species == SPECIES_ANNIHILAPE) {
+        return 835;
+    }
+    else if (species == SPECIES_FARIGIRAF) {
+        return 836;
+    }
+    else if (species == SPECIES_DUDUNSPARCE) {
+        return 837;
+    }
+    else if (species == SPECIES_KINGAMBIT) {
+        return 838;
+    }
     else if (form == 0)
     {
         return species;

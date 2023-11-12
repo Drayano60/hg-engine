@@ -106,6 +106,7 @@ EVO_ITEM_GLOBAL_TERMINAL         equ 38
 EVO_LEVEL_GLOBAL_TERMINAL        equ 39
 EVO_HAS_MOVE_GLOBAL_TERMINAL     equ 40
 EVO_HURT_IN_BATTLE_AMOUNT_FEMALE equ 41
+EVO_HAS_MOVE_AND_RNG             equ 42
 
 //EVO_DARK_SCROLL  // implemented through an item use forme-change-esque cut scene
 //EVO_WATER_SCROLL // implemented through an item use forme-change-esque cut scene

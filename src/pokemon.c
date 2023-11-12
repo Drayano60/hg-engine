@@ -2237,6 +2237,12 @@ const struct FormData PokeFormDataTbl[]=
         .need_rev = 0,
         .file = SPECIES_CALYREX_SHADOW_RIDER,
     },
+    {
+        .species = SPECIES_DUDUNSPARCE,
+        .form_no = 1,
+        .need_rev = 0,
+        .file = SPECIES_DUDUNSPARCE_THREE_SEGMENT,
+    },
 
     /**Battle Forms**/
     {
@@ -3897,6 +3903,12 @@ u16 LONG_CALL GetMonEvolution(struct Party *party, struct PartyPokemon *pokemon,
                 break;
             case EVO_HAS_MOVE_GLOBAL_TERMINAL:
                 if ((MonHasMove(pokemon, evoTable[i].param) == TRUE) && (location == GLOBAL_TERMINAL_HEADER_ID)) {
+                    GET_TARGET_AND_SET_FORM;
+                    *method_ret = EVO_HAS_MOVE;
+                }
+                break;
+            case EVO_HAS_MOVE_AND_RNG:
+                if ((MonHasMove(pokemon, evoTable[i].param) == TRUE) && (gf_rand() % 10 == 0)) { // 10%
                     GET_TARGET_AND_SET_FORM;
                     *method_ret = EVO_HAS_MOVE;
                 }

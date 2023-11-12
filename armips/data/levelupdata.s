@@ -2241,7 +2241,6 @@ levelup SPECIES_SLOWPOKE
 // NEW: Teleport (LGPE)
 // Evolution: 33
 levelup SPECIES_SLOWBRO
-    learnset MOVE_TELEPORT, 1
     learnset MOVE_RECYCLE, 1
     learnset MOVE_CURSE, 1
     learnset MOVE_TACKLE, 1
@@ -2265,10 +2264,10 @@ levelup SPECIES_SLOWBRO
 
 // NEW: Teleport (LGPE)
 levelup SPECIES_SLOWKING
+    learnset MOVE_CHILLY_RECEPTION, 1
     learnset MOVE_HIDDEN_POWER, 1
     learnset MOVE_TRUMP_CARD, 1
     learnset MOVE_SWAGGER, 1
-    learnset MOVE_TELEPORT, 1
     learnset MOVE_RECYCLE, 1
     learnset MOVE_CURSE, 1
     learnset MOVE_TACKLE, 1
@@ -2338,6 +2337,7 @@ levelup SPECIES_SLOWBRO_GALARIAN
 // NEW: Aqua Tail
 // Eerie Spell not in yet
 levelup SPECIES_SLOWKING_GALARIAN
+    learnset MOVE_CHILLY_RECEPTION, 1
     learnset MOVE_HIDDEN_POWER, 1
     learnset MOVE_TRUMP_CARD, 1
     learnset MOVE_SWAGGER, 1

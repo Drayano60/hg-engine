@@ -10277,7 +10277,8 @@ movedata MOVE_ION_DELUGE, "Ion Deluge"
     contesttype CONTEST_COOL
     terminatedata
 
-movedata MOVE_PARABOLIC_CHARGE, "ParabolicCharge"
+// NAME TOO LONG
+movedata MOVE_PARABOLIC_CHARGE, "P. Charge"
     battleeffect 3
     pss SPLIT_SPECIAL
     basepower 65
@@ -11648,6 +11649,7 @@ movedata MOVE_SHORE_UP, "Shore Up"
     contesttype CONTEST_COOL
     terminatedata
 
+// NAME TOO LONG
 movedata MOVE_FIRST_IMPRESSION, "F. Impression"
     battleeffect 158
     pss SPLIT_PHYSICAL
@@ -15021,8 +15023,9 @@ movedata MOVE_SHED_TAIL, "Shed Tail"
     contesttype CONTEST_COOL
     terminatedata
 
-movedata MOVE_CHILLY_RECEPTION, "Chilly Reception"
-    battleeffect 0
+// NAME TOO LONG
+movedata MOVE_CHILLY_RECEPTION, "C. Reception"
+    battleeffect 329
     pss SPLIT_STATUS
     basepower 0
     type TYPE_ICE
@@ -15031,10 +15034,11 @@ movedata MOVE_CHILLY_RECEPTION, "Chilly Reception"
     effectchance 0
     target MOVE_TARGET_ACTIVE_FIELD
     priority 0
-    flags FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_MAGIC_COAT
-    appeal 0x00
-    contesttype CONTEST_COOL
+    flags 0
+    appeal 0
+    contesttype 0
     terminatedata
+    movedescription MOVE_CHILLY_RECEPTION, "The user tells a\nchillingly bad joke before\nswitching out. This\nsummons a snowstorm\nlasting five turns."
 
 movedata MOVE_TIDY_UP, "Tidy Up"
     battleeffect 212

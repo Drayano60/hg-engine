@@ -613,6 +613,8 @@ $(SCR_SEQ_NARC): $(SCR_SEQ_DEPENDENCIES)
 
 # for convenience, rebuild SCR_SEQ_NARC every build so that DSPRE changes are not overwritten
 .PHONY: $(SCR_SEQ_NARC)
+.PHONY: $(DEXSORT_NARC)
+
 
 NARC_FILES += $(SCR_SEQ_NARC)
 

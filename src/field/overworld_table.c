@@ -1611,12 +1611,12 @@ struct OVERWORLD_TAG gOWTagToFileNum[] = // skip down a bit to see the parts tha
     { .tag = 1740, .gfx =  297, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_TATSUGIRI
     { .tag = 1741, .gfx =  297, .callback_params = OVERWORLD_SIZE_SMALL}, // droopy
     { .tag = 1742, .gfx =  297, .callback_params = OVERWORLD_SIZE_SMALL}, // stretchy
-    { .tag = 1743, .gfx =  297, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_ANNIHILAPE
+    { .tag = 1743, .gfx = 1169, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_ANNIHILAPE
     { .tag = 1744, .gfx =  297, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_CLODSIRE
-    { .tag = 1745, .gfx =  297, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_FARIGIRAF
-    { .tag = 1746, .gfx =  297, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_DUDUNSPARCE
+    { .tag = 1745, .gfx = 1170, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_FARIGIRAF
+    { .tag = 1746, .gfx = 1171, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_DUDUNSPARCE
     { .tag = 1747, .gfx =  297, .callback_params = OVERWORLD_SIZE_SMALL}, // three segment
-    { .tag = 1748, .gfx =  297, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_KINGAMBIT
+    { .tag = 1748, .gfx = 1172, .callback_params = OVERWORLD_SIZE_LARGE}, // SPECIES_KINGAMBIT
     { .tag = 1749, .gfx =  297, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_GREAT_TUSK
     { .tag = 1750, .gfx =  297, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_SCREAM_TAIL
     { .tag = 1751, .gfx =  297, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_BRUTE_BONNET

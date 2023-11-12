@@ -5234,10 +5234,11 @@ levelup SPECIES_SPINARAK
     learnset MOVE_POISON_STING, 1
     learnset MOVE_STRING_SHOT, 1
     learnset MOVE_CONSTRICT, 1
-    learnset MOVE_ABSORB, 3
-    learnset MOVE_BUG_BITE, 6
-    learnset MOVE_SHADOW_SNEAK, 9
-    learnset MOVE_SCARY_FACE, 12
+    learnset MOVE_ABSORB, 1
+    learnset MOVE_BUG_BITE, 3
+    learnset MOVE_SCARY_FACE, 6
+    learnset MOVE_INFESTATION, 9
+    learnset MOVE_SHADOW_SNEAK, 12
     learnset MOVE_POISON_FANG, 15
     learnset MOVE_FURY_SWIPES, 18
     learnset MOVE_TOXIC_THREAD, 21
@@ -5261,10 +5262,11 @@ levelup SPECIES_ARIADOS
     learnset MOVE_POISON_STING, 1
     learnset MOVE_STRING_SHOT, 1
     learnset MOVE_CONSTRICT, 1
-    learnset MOVE_ABSORB, 3
-    learnset MOVE_BUG_BITE, 6
-    learnset MOVE_SHADOW_SNEAK, 9
-    learnset MOVE_SCARY_FACE, 12
+    learnset MOVE_ABSORB, 1
+    learnset MOVE_BUG_BITE, 3
+    learnset MOVE_SCARY_FACE, 6
+    learnset MOVE_INFESTATION, 9
+    learnset MOVE_SHADOW_SNEAK, 12
     learnset MOVE_POISON_FANG, 15
     learnset MOVE_FURY_SWIPES, 18
     learnset MOVE_TOXIC_THREAD, 21
@@ -6396,7 +6398,7 @@ levelup SPECIES_SHUCKLE
     learnset MOVE_REST, 24
     learnset MOVE_ENCORE, 28
     learnset MOVE_ROCK_SLIDE, 32
-    learnset MOVE_SKITTER_SMACK, 36
+    learnset MOVE_INFESTATION, 36
     learnset MOVE_GASTRO_ACID, 40
     learnset MOVE_POWER_TRICK, 44
     learnset MOVE_STONE_EDGE, 48
@@ -6630,6 +6632,7 @@ levelup SPECIES_SLUGMA
 // NEW: Magma Storm
 // Evolution: 28
 levelup SPECIES_MAGCARGO
+    learnset MOVE_INFESTATION, 1
     learnset MOVE_PAIN_SPLIT, 1
     learnset MOVE_SMOG, 1
     learnset MOVE_YAWN, 1
@@ -8788,12 +8791,13 @@ levelup SPECIES_VOLBEAT
     learnset MOVE_FLASH, 1
     learnset MOVE_TACKLE, 1
     learnset MOVE_PLAY_NICE, 1
-    learnset MOVE_DOUBLE_TEAM, 1
-    learnset MOVE_CONFUSE_RAY, 4
-    learnset MOVE_QUICK_ATTACK, 8
-    learnset MOVE_BUG_BITE, 12
-    learnset MOVE_MOONLIGHT, 16
-    learnset MOVE_TAIL_GLOW, 20
+    learnset MOVE_DOUBLE_TEAM, 3
+    learnset MOVE_CONFUSE_RAY, 6
+    learnset MOVE_QUICK_ATTACK, 9
+    learnset MOVE_INFESTATION, 12
+    learnset MOVE_BUG_BITE, 15
+    learnset MOVE_MOONLIGHT, 18
+    learnset MOVE_TAIL_GLOW, 21
     learnset MOVE_LUNGE, 24
 
     .if TYPE_CHANGES_IMPLEMENTED
@@ -8823,12 +8827,13 @@ levelup SPECIES_ILLUMISE
     learnset MOVE_COVET, 1
     learnset MOVE_TACKLE, 1
     learnset MOVE_PLAY_NICE, 1
-    learnset MOVE_SWEET_SCENT, 1
-    learnset MOVE_CHARM, 4
-    learnset MOVE_QUICK_ATTACK, 8
-    learnset MOVE_SILVER_WIND, 12
-    learnset MOVE_MOONLIGHT, 16
-    learnset MOVE_WISH, 20
+    learnset MOVE_SWEET_SCENT, 3
+    learnset MOVE_CHARM, 6
+    learnset MOVE_QUICK_ATTACK, 9
+    learnset MOVE_INFESTATION, 12
+    learnset MOVE_SILVER_WIND, 15
+    learnset MOVE_MOONLIGHT, 18
+    learnset MOVE_WISH, 21
     learnset MOVE_ENCORE, 24
     learnset MOVE_FLATTER, 28
     learnset MOVE_ZEN_HEADBUTT, 32
@@ -11172,23 +11177,26 @@ levelup SPECIES_BASTIODON
     learnset MOVE_FISSURE, 57
     terminatelearnset
 
+// NEW: Struggle Bug (PLA)
 levelup SPECIES_BURMY
     learnset MOVE_PROTECT, 1 
     learnset MOVE_TACKLE, 1
     learnset MOVE_STRING_SHOT, 1
     learnset MOVE_BUG_BITE, 5
+    learnset MOVE_STRUGGLE_BUG, 10
     learnset MOVE_HIDDEN_POWER, 15 
     terminatelearnset
 
 levelup SPECIES_WORMADAM
-    learnset MOVE_STRUGGLE_BUG, 1
     learnset MOVE_SUCKER_PUNCH, 1
     learnset MOVE_PROTECT, 1 
     learnset MOVE_TACKLE, 1
     learnset MOVE_STRING_SHOT, 1
     learnset MOVE_BUG_BITE, 1
+    learnset MOVE_STRUGGLE_BUG, 1
     learnset MOVE_HIDDEN_POWER, 1
     learnset MOVE_RAZOR_LEAF, 20
+    learnset MOVE_INFESTATION, 20
     learnset MOVE_CONFUSION, 22
     learnset MOVE_GROWTH, 24
     learnset MOVE_PSYBEAM, 26
@@ -11202,35 +11210,23 @@ levelup SPECIES_WORMADAM
     learnset MOVE_QUIVER_DANCE, 50
     terminatelearnset
 
-// NEW: Mud Bomb
 levelup SPECIES_WORMADAM_SANDY
-    learnset MOVE_STRUGGLE_BUG, 1
     learnset MOVE_SUCKER_PUNCH, 1
     learnset MOVE_PROTECT, 1 
     learnset MOVE_TACKLE, 1
     learnset MOVE_STRING_SHOT, 1
     learnset MOVE_BUG_BITE, 1
+    learnset MOVE_STRUGGLE_BUG, 1
     learnset MOVE_HIDDEN_POWER, 1
-
-    .if STAT_CHANGES_IMPLEMENTED
-        learnset MOVE_MUD_BOMB, 20
-    .else
-        learnset MOVE_ROCK_BLAST, 20
-    .endif
-
+    learnset MOVE_ROCK_BLAST, 20
+    learnset MOVE_INFESTATION, 20
     learnset MOVE_CONFUSION, 22
     learnset MOVE_HARDEN, 24
     learnset MOVE_PSYBEAM, 26
     learnset MOVE_ATTRACT, 29
     learnset MOVE_FLAIL, 32
     learnset MOVE_BUG_BUZZ, 35
-
-    .if STAT_CHANGES_IMPLEMENTED
-        learnset MOVE_EARTH_POWER, 38
-    .else
-        learnset MOVE_EARTHQUAKE, 38
-    .endif
-
+    learnset MOVE_EARTH_POWER, 38
     learnset MOVE_PSYCHIC, 41
     learnset MOVE_CAPTIVATE, 44
     learnset MOVE_FISSURE, 47
@@ -11238,14 +11234,15 @@ levelup SPECIES_WORMADAM_SANDY
     terminatelearnset
 
 levelup SPECIES_WORMADAM_TRASHY
-    learnset MOVE_STRUGGLE_BUG, 1
     learnset MOVE_SUCKER_PUNCH, 1
     learnset MOVE_PROTECT, 1 
     learnset MOVE_TACKLE, 1
     learnset MOVE_STRING_SHOT, 1
     learnset MOVE_BUG_BITE, 1
+    learnset MOVE_STRUGGLE_BUG, 1
     learnset MOVE_HIDDEN_POWER, 1
     learnset MOVE_MIRROR_SHOT, 20
+    learnset MOVE_INFESTATION, 20
     learnset MOVE_CONFUSION, 22
     learnset MOVE_METAL_SOUND, 24
     learnset MOVE_PSYBEAM, 26
@@ -11261,11 +11258,12 @@ levelup SPECIES_WORMADAM_TRASHY
 
 // NEW: First Impression
 levelup SPECIES_MOTHIM
-    learnset MOVE_STRUGGLE_BUG, 1
+    learnset MOVE_GUST, 1
     learnset MOVE_PROTECT, 1 
     learnset MOVE_TACKLE, 1
     learnset MOVE_STRING_SHOT, 1
     learnset MOVE_BUG_BITE, 1
+    learnset MOVE_STRUGGLE_BUG, 1
     learnset MOVE_HIDDEN_POWER, 1
     learnset MOVE_AIR_CUTTER, 20
     learnset MOVE_SILVER_WIND, 20
@@ -15469,8 +15467,9 @@ levelup SPECIES_JOLTIK
     learnset MOVE_ELECTROWEB, 6
     learnset MOVE_STRUGGLE_BUG, 9
     learnset MOVE_THUNDER_WAVE, 12
-    learnset MOVE_SHOCK_WAVE, 16
-    learnset MOVE_AGILITY, 20
+    learnset MOVE_INFESTATION, 15
+    learnset MOVE_SHOCK_WAVE, 18
+    learnset MOVE_AGILITY, 21
     learnset MOVE_SLASH, 24
     learnset MOVE_SIGNAL_BEAM, 28
     learnset MOVE_SUCKER_PUNCH, 32
@@ -15492,8 +15491,9 @@ levelup SPECIES_GALVANTULA
     learnset MOVE_ELECTROWEB, 6
     learnset MOVE_STRUGGLE_BUG, 9
     learnset MOVE_THUNDER_WAVE, 12
-    learnset MOVE_SHOCK_WAVE, 16
-    learnset MOVE_AGILITY, 20
+    learnset MOVE_INFESTATION, 15
+    learnset MOVE_SHOCK_WAVE, 18
+    learnset MOVE_AGILITY, 21
     learnset MOVE_SLASH, 24
     learnset MOVE_SIGNAL_BEAM, 28
     learnset MOVE_SUCKER_PUNCH, 32

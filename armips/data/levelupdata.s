@@ -2242,6 +2242,7 @@ levelup SPECIES_SLOWPOKE
 // Evolution: 33
 levelup SPECIES_SLOWBRO
     learnset MOVE_RECYCLE, 1
+    learnset MOVE_TELEPORT, 1
     learnset MOVE_CURSE, 1
     learnset MOVE_TACKLE, 1
     learnset MOVE_GROWL, 3
@@ -2269,6 +2270,7 @@ levelup SPECIES_SLOWKING
     learnset MOVE_TRUMP_CARD, 1
     learnset MOVE_SWAGGER, 1
     learnset MOVE_RECYCLE, 1
+    learnset MOVE_TELEPORT, 1
     learnset MOVE_CURSE, 1
     learnset MOVE_TACKLE, 1
     learnset MOVE_GROWL, 3
@@ -2310,10 +2312,11 @@ levelup SPECIES_SLOWPOKE_GALARIAN
     learnset MOVE_FUTURE_SIGHT, 55
 	terminatelearnset
 
-// NEW: Aqua Tail
+// NEW: Aqua Tail, Teleport
 // Shell Side Arm not in yet
 levelup SPECIES_SLOWBRO_GALARIAN
 	learnset MOVE_VENOSHOCK, 1
+    learnset MOVE_TELEPORT, 1
     learnset MOVE_CURSE, 1
     learnset MOVE_TACKLE, 1
     learnset MOVE_GROWL, 3
@@ -2334,7 +2337,7 @@ levelup SPECIES_SLOWBRO_GALARIAN
     learnset MOVE_FUTURE_SIGHT, 55
 	terminatelearnset
 
-// NEW: Aqua Tail
+// NEW: Aqua Tail, Teleport
 // Eerie Spell not in yet
 levelup SPECIES_SLOWKING_GALARIAN
     learnset MOVE_CHILLY_RECEPTION, 1
@@ -2342,6 +2345,7 @@ levelup SPECIES_SLOWKING_GALARIAN
     learnset MOVE_TRUMP_CARD, 1
     learnset MOVE_SWAGGER, 1
 	learnset MOVE_VENOSHOCK, 1
+    learnset MOVE_TELEPORT, 1
     learnset MOVE_CURSE, 1
     learnset MOVE_TACKLE, 1
     learnset MOVE_GROWL, 3

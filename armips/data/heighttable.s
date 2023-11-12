@@ -761,7 +761,7 @@ heightentry SPECIES_TYRUNT, 22, 22, 12, 12
 heightentry SPECIES_TYRANTRUM, 0, 0, 0, 0
 heightentry SPECIES_AMAURA, 8, 8, 0, 0
 heightentry SPECIES_AURORUS, 0, 0, 0, 0
-heightentry SPECIES_SYLVEON, 0, 0, 0, 0
+heightentry SPECIES_SYLVEON, 3, 3, 0, 0
 heightentry SPECIES_HAWLUCHA, 0, 0, 6, 6
 heightentry SPECIES_DEDENNE, 0, 0, 16, 16
 heightentry SPECIES_CARBINK, 7, 7, 0, 0

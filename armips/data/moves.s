@@ -10339,7 +10339,7 @@ movedata MOVE_FREEZE_DRY, "Freeze-Dry"
     appeal 0
     contesttype 0
     terminatedata
-    movedescription MOVE_FREEZE_DRY, "The foe is cooled.\nThis has a 10% chance\nto freeze the foe.\nWater-types are weak\nto this move."
+    movedescription MOVE_FREEZE_DRY, "Rapidly cools the foe.\nSuper effective on\nWater-type Pokémon.\nIt has a 10% chance\nto freeze the foe."
 
 movedata MOVE_DISARMING_VOICE, "Disarming Voice"
     battleeffect 17

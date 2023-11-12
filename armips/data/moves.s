@@ -5076,11 +5076,11 @@ movedata MOVE_ROCK_SMASH, "Rock Smash"
     terminatedata
     movedescription MOVE_ROCK_SMASH, "The user hits the foe\nwith a shattering\npunch. This always\nlowers the foe’s\nDefense stat."
 
-// POWER: 35 >> 55
+// POWER: 35 >> 50
 movedata MOVE_WHIRLPOOL, "Whirlpool"
     battleeffect 261
     pss SPLIT_SPECIAL
-    basepower MOVE_CHANGES_IMPLEMENTED ? 55 : 35
+    basepower MOVE_CHANGES_IMPLEMENTED ? 50 : 35
     type TYPE_WATER
     accuracy 85
     pp 15
@@ -10912,10 +10912,11 @@ movedata MOVE_HOLD_BACK, "Hold Back"
     contesttype CONTEST_COOL
     terminatedata
 
+// POWER: 20 >> 50
 movedata MOVE_INFESTATION, "Infestation"
     battleeffect 42
     pss SPLIT_SPECIAL
-    basepower 20
+    basepower MOVE_CHANGES_IMPLEMENTED ? 50 : 20
     type TYPE_BUG
     accuracy 100
     pp 20

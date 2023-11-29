@@ -1501,3 +1501,6 @@ The foe’s {STRVAR_1 1, 0, 0} was trapped\nby the foe’s {STRVAR_1 1, 1, 0}!
 {STRVAR_1 1, 0, 0} is preparing to tell\na chillingly bad joke!
 The wild {STRVAR_1 1, 0, 0} is preparing\nto tell a chillingly bad joke!
 The foe’s {STRVAR_1 1, 0, 0} is preparing\nto tell a chillingly bad joke!
+{STRVAR_1 1, 0, 0}’s\nburn was healed!
+The wild {STRVAR_1 1, 0, 0}’s burn\nwas healed!
+The foe’s {STRVAR_1 1, 0, 0}’s burn\nwas healed!

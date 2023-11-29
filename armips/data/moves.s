@@ -11683,7 +11683,7 @@ movedata MOVE_BANEFUL_BUNKER, "Baneful Bunker"
     terminatedata
 
 movedata MOVE_SPIRIT_SHACKLE, "Spirit Shackle"
-    battleeffect 0
+    battleeffect 331
     pss SPLIT_PHYSICAL
     basepower 80
     type TYPE_GHOST
@@ -11692,10 +11692,11 @@ movedata MOVE_SPIRIT_SHACKLE, "Spirit Shackle"
     effectchance 0
     target MOVE_TARGET_SELECTED
     priority 0
-    flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
+    flags FLAG_PROTECT | FLAG_MIRROR_MOVE
     appeal 0x00
-    contesttype CONTEST_COOL
+    contesttype 0
     terminatedata
+    movedescription MOVE_SPIRIT_SHACKLE, "The user attacks\nand stitches the\nfoe’s shadow to the\nground, preventing it\nfrom escaping."
 
 movedata MOVE_DARKEST_LARIAT, "Darkest Lariat"
     battleeffect 295
@@ -11714,7 +11715,7 @@ movedata MOVE_DARKEST_LARIAT, "Darkest Lariat"
     movedescription MOVE_DARKEST_LARIAT, "The user swings both\narms at the target.\nThe target’s stat\nchanges do not affect\nthis move’s damage."
 
 movedata MOVE_SPARKLING_ARIA, "Sparkling Aria"
-    battleeffect 0
+    battleeffect 332
     pss SPLIT_SPECIAL
     basepower 90
     type TYPE_WATER
@@ -11723,10 +11724,11 @@ movedata MOVE_SPARKLING_ARIA, "Sparkling Aria"
     effectchance 0
     target MOVE_TARGET_FOES_AND_ALLY
     priority 0
-    flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
+    flags FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_SOUND
     appeal 0x00
-    contesttype CONTEST_COOL
+    contesttype 0
     terminatedata
+    movedescription MOVE_SPARKLING_ARIA, "The user bursts into\nsong, emitting many\nbubbles. Any target\nthat is burned will be\ncured by this move."
 
 movedata MOVE_ICE_HAMMER, "Ice Hammer"
     battleeffect 218
@@ -14448,20 +14450,22 @@ movedata MOVE_SHELTER, "Shelter"
     terminatedata
     movedescription MOVE_SHELTER, "The user makes its\nskin as hard as an\niron shield, sharply\nraising its Defense\nstat."
 
+// The flinch/Defense drop is 30% instead as you cannot have two effects with independent % chances yet.
 movedata MOVE_TRIPLE_ARROWS, "Triple Arrows"
-    battleeffect 0
+    battleeffect 330
     pss SPLIT_PHYSICAL
     basepower 90
     type TYPE_FIGHTING
     accuracy 100
     pp 10
-    effectchance 0
+    effectchance 30
     target MOVE_TARGET_SELECTED
     priority 0
-    flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
+    flags FLAG_PROTECT | FLAG_MIRROR_MOVE 
     appeal 0x00
-    contesttype CONTEST_COOL
+    contesttype 0
     terminatedata
+    movedescription MOVE_TRIPLE_ARROWS, "This has a 30% chance\nto flinch the foe or\nlower its Defense.\nIt also has a high\ncritical-hit ratio."
 
 movedata MOVE_INFERNAL_PARADE, "Infernal Parade"
     battleeffect 4

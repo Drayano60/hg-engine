@@ -491,14 +491,14 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
     }
 
     // Handle Tough Claws
-    if ((AttackingMon.ability == ABILITY_TOUGH_CLAWS) && (sp->moveTbl[sp->current_move_index].flag & FLAG_CONTACT)) 
+    if ((AttackingMon.ability == ABILITY_TOUGH_CLAWS) && isMoveContact(sp)) 
     {
         movepower = movepower * 130 / 100;
     }    
 
     // Handle Fluffy
     if ((MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_FLUFFY) == TRUE)) {
-        if (sp->moveTbl[sp->current_move_index].flag & FLAG_CONTACT) {
+        if (isMoveContact(sp)) {
             movepower = movepower * 50 / 100;
         }
 
@@ -723,6 +723,11 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
     // handle normalize - 20% boost if a normal type move is used (and it changes types to normal too)
     if (GetBattlerAbility(sp, attacker) == ABILITY_NORMALIZE && movetype == TYPE_NORMAL)
     {
+        movepower = movepower * 120 / 100;
+    }
+
+    // Custom: Liquid Voice gives a 20% boost to sound moves.
+    if (GetBattlerAbility(sp, attacker) == ABILITY_LIQUID_VOICE && sp->moveTbl[moveno].flag & FLAG_SOUND) {
         movepower = movepower * 120 / 100;
     }
 

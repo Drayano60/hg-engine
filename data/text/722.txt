@@ -222,3 +222,5 @@ Removes all barriers on\nthe field upon entry.
 On contact, both Pokémon\nwill faint after 3 turns.
 On contact, this Pokémon\nand the foe swap abilities.
 Removes an ally’s stat\nchanges upon entry.
+Moves will never make\ncontact with the target.
+Sound-based moves become\nWater and do 20% more.

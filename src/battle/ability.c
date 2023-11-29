@@ -113,7 +113,6 @@ const u16 PowderMoveList[] = {
 };
 */
 
-
 /**
  *  @brief see if the attacker's move is completely negated by the defender's ability and queue up the appropriate subscript
  *
@@ -1681,6 +1680,19 @@ u32 TurnEndAbilityCheck(void *bw, struct BattleStruct *sp, int client_no)
     return ret;
 }
 
+BOOL isMoveContact(struct BattleStruct *sp)
+{
+    if (GetBattlerAbility(sp, sp->attack_client) == ABILITY_LONG_REACH) {
+        return FALSE;
+    }
+
+    if (sp->moveTbl[sp->current_move_index].flag & FLAG_CONTACT) {
+        return TRUE;
+    }
+
+    return FALSE;
+}
+
 /**
  *  @brief check if mummy can overwrite the attacker's ability
  *
@@ -1811,7 +1823,7 @@ BOOL MoveHitAttackerAbilityCheck(void *bw, struct BattleStruct *sp, int *seq_no)
                 && ((sp->server_status_flag2 & SERVER_STATUS_FLAG2_U_TURN) == 0)
                 && ((sp->oneSelfFlag[sp->defence_client].physical_damage) ||
                     (sp->oneSelfFlag[sp->defence_client].special_damage))
-                && (sp->moveTbl[sp->current_move_index].flag & FLAG_CONTACT)
+                && (isMoveContact(sp))
                 && (CheckSubstitute(sp, sp->defence_client) == FALSE)
                 && (BattleRand(bw) % 10 < 3))
             {
@@ -2007,7 +2019,7 @@ BOOL MoveHitDefenderAbilityCheck(void *bw, struct BattleStruct *sp, int *seq_no)
                 && ((sp->server_status_flag2 & SERVER_STATUS_FLAG2_U_TURN) == 0)
                 && ((sp->oneSelfFlag[sp->defence_client].physical_damage) ||
                     (sp->oneSelfFlag[sp->defence_client].special_damage))
-                && (sp->moveTbl[sp->current_move_index].flag & FLAG_CONTACT)
+                && (isMoveContact(sp))
                 && (BattleRand(bw) % 10 < 3)) {
                 sp->addeffect_type = ADD_STATUS_ABILITY;
                 sp->state_client = sp->attack_client;
@@ -2053,7 +2065,7 @@ BOOL MoveHitDefenderAbilityCheck(void *bw, struct BattleStruct *sp, int *seq_no)
                 && ((sp->server_status_flag2 & SERVER_STATUS_FLAG2_U_TURN) == 0)
                 && ((sp->oneSelfFlag[sp->defence_client].physical_damage) ||
                     (sp->oneSelfFlag[sp->defence_client].special_damage))
-                && (sp->moveTbl[sp->current_move_index].flag & FLAG_CONTACT)) {
+                && (isMoveContact(sp))) {
                 sp->hp_calc_work = BattleDamageDivide(sp->battlemon[sp->attack_client].maxhp * -1, 8);
                 sp->client_work = sp->attack_client;
                 seq_no[0] = SUB_SEQ_ROUGH_SKIN;
@@ -2071,7 +2083,7 @@ BOOL MoveHitDefenderAbilityCheck(void *bw, struct BattleStruct *sp, int *seq_no)
                 && ((sp->server_status_flag2 & SERVER_STATUS_FLAG2_U_TURN) == 0)
                 && ((sp->oneSelfFlag[sp->defence_client].physical_damage) ||
                     (sp->oneSelfFlag[sp->defence_client].special_damage))
-                && (sp->moveTbl[sp->current_move_index].flag & FLAG_CONTACT)
+                && (isMoveContact(sp))
                 && (BattleRand(bw) % 10 < 3)) {
                 switch (BattleRand(bw) % 3) {
                     case 0:
@@ -2100,7 +2112,7 @@ BOOL MoveHitDefenderAbilityCheck(void *bw, struct BattleStruct *sp, int *seq_no)
                 && ((sp->server_status_flag2 & SERVER_STATUS_FLAG2_U_TURN) == 0)
                 && ((sp->oneSelfFlag[sp->defence_client].physical_damage) ||
                     (sp->oneSelfFlag[sp->defence_client].special_damage))
-                && (sp->moveTbl[sp->current_move_index].flag & FLAG_CONTACT)
+                && (isMoveContact(sp))
                 && (BattleRand(bw) % 10 < 3)) {
                 sp->addeffect_type = ADD_STATUS_ABILITY;
                 sp->state_client = sp->attack_client;
@@ -2118,7 +2130,7 @@ BOOL MoveHitDefenderAbilityCheck(void *bw, struct BattleStruct *sp, int *seq_no)
                 && ((sp->server_status_flag2 & SERVER_STATUS_FLAG2_U_TURN) == 0)
                 && ((sp->oneSelfFlag[sp->defence_client].physical_damage) ||
                     (sp->oneSelfFlag[sp->defence_client].special_damage))
-                && (sp->moveTbl[sp->current_move_index].flag & FLAG_CONTACT)
+                && (isMoveContact(sp))
                 && (BattleRand(bw) % 10 < 3)) {
                 sp->addeffect_type = ADD_STATUS_ABILITY;
                 sp->state_client = sp->attack_client;
@@ -2135,7 +2147,7 @@ BOOL MoveHitDefenderAbilityCheck(void *bw, struct BattleStruct *sp, int *seq_no)
                 && ((sp->server_status_flag2 & SERVER_STATUS_FLAG2_U_TURN) == 0)
                 && ((sp->oneSelfFlag[sp->defence_client].physical_damage) ||
                     (sp->oneSelfFlag[sp->defence_client].special_damage))
-                && (sp->moveTbl[sp->current_move_index].flag & FLAG_CONTACT)
+                && (isMoveContact(sp))
                 && (BattleRand(bw) % 10 < 3)) {
                 sp->addeffect_type = ADD_STATUS_ABILITY;
                 sp->state_client = sp->attack_client;
@@ -2154,7 +2166,7 @@ BOOL MoveHitDefenderAbilityCheck(void *bw, struct BattleStruct *sp, int *seq_no)
                 && ((sp->server_status_flag2 & SERVER_STATUS_FLAG2_U_TURN) == 0)
                 && ((sp->oneSelfFlag[sp->defence_client].physical_damage) ||
                     (sp->oneSelfFlag[sp->defence_client].special_damage))
-                && (sp->moveTbl[sp->current_move_index].flag & FLAG_CONTACT)) {
+                && (isMoveContact(sp))) {
                 sp->addeffect_type = ADD_STATUS_ABILITY;
                 sp->state_client = sp->attack_client;
                 sp->client_work = sp->defence_client;
@@ -2170,7 +2182,7 @@ BOOL MoveHitDefenderAbilityCheck(void *bw, struct BattleStruct *sp, int *seq_no)
                 && ((sp->server_status_flag2 & SERVER_STATUS_FLAG2_U_TURN) == 0)
                 && ((sp->oneSelfFlag[sp->defence_client].physical_damage) ||
                     (sp->oneSelfFlag[sp->defence_client].special_damage))
-                && (sp->moveTbl[sp->current_move_index].flag & FLAG_CONTACT)
+                && (isMoveContact(sp))
                 && (GetBattlerAbility(sp, sp->attack_client) != ABILITY_AROMA_VEIL) // Aroma Veil prevents Cute Charm from working
                 && (sp->battlemon[sp->defence_client].hp)
                 && (BattleRand(bw) % 10 < 3)) {
@@ -2188,7 +2200,7 @@ BOOL MoveHitDefenderAbilityCheck(void *bw, struct BattleStruct *sp, int *seq_no)
                 && ((sp->server_status_flag2 & SERVER_STATUS_FLAG2_U_TURN) == 0)
                 && (sp->battlemon[sp->attack_client].hp)
                 && ((sp->waza_status_flag & WAZA_STATUS_FLAG_NO_OUT) == 0)
-                && (sp->moveTbl[sp->current_move_index].flag & FLAG_CONTACT)) {
+                && (isMoveContact(sp))) {
                 sp->hp_calc_work = BattleDamageDivide(sp->battlemon[sp->attack_client].maxhp * -1, 4);
                 sp->client_work = sp->attack_client;
                 seq_no[0] = SUB_SEQ_HANDLE_AFTERMATH;
@@ -2291,7 +2303,7 @@ BOOL MoveHitDefenderAbilityCheck(void *bw, struct BattleStruct *sp, int *seq_no)
                 && ((sp->waza_status_flag & WAZA_STATUS_FLAG_NO_OUT) == 0)
                 && ((sp->server_status_flag & SERVER_STATUS_FLAG_x20) == 0)
                 && ((sp->server_status_flag2 & SERVER_STATUS_FLAG2_U_TURN) == 0)
-                && (sp->moveTbl[sp->current_move_index].flag & FLAG_CONTACT)
+                && (isMoveContact(sp))
                 && ((sp->oneSelfFlag[sp->defence_client].physical_damage) ||
                     (sp->oneSelfFlag[sp->defence_client].special_damage)))
             {
@@ -2322,7 +2334,7 @@ BOOL MoveHitDefenderAbilityCheck(void *bw, struct BattleStruct *sp, int *seq_no)
             if (((sp->waza_status_flag & WAZA_STATUS_FLAG_NO_OUT) == 0)
                 && ((sp->server_status_flag & SERVER_STATUS_FLAG_x20) == 0)
                 && ((sp->server_status_flag2 & SERVER_STATUS_FLAG2_U_TURN) == 0)
-                && (sp->moveTbl[sp->current_move_index].flag & FLAG_CONTACT)
+                && (isMoveContact(sp))
                 && (MummyAbilityCheck(sp) == TRUE)
                 && ((sp->oneSelfFlag[sp->defence_client].physical_damage) ||
                     (sp->oneSelfFlag[sp->defence_client].special_damage)))
@@ -2338,7 +2350,7 @@ BOOL MoveHitDefenderAbilityCheck(void *bw, struct BattleStruct *sp, int *seq_no)
             if ((sp->battlemon[sp->attack_client].hp) && ((sp->waza_status_flag & WAZA_STATUS_FLAG_NO_OUT) == 0)
                 && ((sp->server_status_flag & SERVER_STATUS_FLAG_x20) == 0)
                 && ((sp->server_status_flag2 & SERVER_STATUS_FLAG2_U_TURN) == 0)
-                && (sp->moveTbl[sp->current_move_index].flag & FLAG_CONTACT)
+                && (isMoveContact(sp))
                 && (WanderingSpiritAbilityCheck(sp) == TRUE)
                 && ((sp->oneSelfFlag[sp->defence_client].physical_damage) ||
                     (sp->oneSelfFlag[sp->defence_client].special_damage)))
@@ -2464,10 +2476,10 @@ BOOL MoveHitDefenderAbilityCheck(void *bw, struct BattleStruct *sp, int *seq_no)
             break;
         //handle pickpocket - steal attacker's item if it can
         case ABILITY_PICKPOCKET:
-            if (sp->battlemon[sp->defence_client].hp != 0
-             && sp->moveTbl[sp->current_move_index].flag & FLAG_CONTACT
-             && sp->moveTbl[sp->current_move_index].power != 0
-             && CanPickpocketStealClientItem(sp, sp->attack_client)
+            if ((sp->battlemon[sp->defence_client].hp != 0)
+             && (isMoveContact(sp))
+             && (sp->moveTbl[sp->current_move_index].power != 0)
+             && (CanPickpocketStealClientItem(sp, sp->attack_client))
              && !(GetBattlerAbility(sp, sp->attack_client) == ABILITY_SHEER_FORCE && sp->battlemon[sp->attack_client].sheer_force_flag == 1)) // pickpocket doesn't activate if attacked by sheer force
             {
                 seq_no[0] = SUB_SEQ_HANDLE_PICKPOCKET_DEF;
@@ -2505,7 +2517,7 @@ BOOL MoveHitDefenderAbilityCheck(void *bw, struct BattleStruct *sp, int *seq_no)
                 && ((sp->server_status_flag2 & SERVER_STATUS_FLAG2_U_TURN) == 0)
                 && ((sp->oneSelfFlag[sp->defence_client].physical_damage) ||
                     (sp->oneSelfFlag[sp->defence_client].special_damage))
-                && (sp->moveTbl[sp->current_move_index].flag & FLAG_CONTACT)
+                && (isMoveContact(sp))
             )
             {
                 sp->battlemon[sp->attack_client].effect_of_moves |= MOVE_EFFECT_FLAG_PERISH_SONG_ACTIVE;

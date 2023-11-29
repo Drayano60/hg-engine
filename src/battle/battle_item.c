@@ -91,7 +91,7 @@ u32 MoveHitUTurnHeldItemEffectCheck(void *bw, struct BattleStruct *sp, int *seq_
         && ((sp->scw[atk_side].knockoff_item & (1 << sp->sel_mons_no[sp->attack_client])) == 0)
         && ((sp->oneSelfFlag[sp->defence_client].physical_damage)
       || (sp->oneSelfFlag[sp->defence_client].special_damage))
-        && (sp->moveTbl[sp->current_move_index].flag & FLAG_CONTACT))
+        && (isMoveContact(sp)))
     {
         seq_no[0] = SUB_SEQ_ITEM_GIVE_STICKY_BARB;
         ret = TRUE;
@@ -106,7 +106,7 @@ u32 MoveHitUTurnHeldItemEffectCheck(void *bw, struct BattleStruct *sp, int *seq_
         && (sp->battlemon[sp->attack_client].hp)
         && (GetBattlerAbility(sp, sp->attack_client) != ABILITY_MAGIC_GUARD)
         && (sp->oneSelfFlag[sp->defence_client].physical_damage) || (sp->oneSelfFlag[sp->defence_client].special_damage)
-        && (sp->moveTbl[sp->current_move_index].flag & FLAG_CONTACT)
+        && (isMoveContact(sp))
     )
     {
         sp->hp_calc_work = BattleDamageDivide(sp->battlemon[sp->attack_client].maxhp * -1, def_item_param);
@@ -351,7 +351,7 @@ BOOL CheckDefenderItemEffectOnHit(void *bw, struct BattleStruct *sp, int *seq_no
                 // Attacker is not U-turning
                 && ((sp->server_status_flag2 & SERVER_STATUS_FLAG2_U_TURN) == 0)
                 // Attacker used a move that makes contact
-                && (sp->moveTbl[sp->current_move_index].flag & FLAG_CONTACT)) {
+                && (isMoveContact(sp))) {
                 seq_no[0] = SUB_SEQ_ITEM_GIVE_STICKY_BARB;
                 ret       = TRUE;
             }
@@ -446,7 +446,7 @@ BOOL CheckDefenderItemEffectOnHit(void *bw, struct BattleStruct *sp, int *seq_no
                 && (GetBattlerAbility(sp, sp->attack_client) != ABILITY_MAGIC_GUARD)
                 && ((sp->oneSelfFlag[sp->defence_client].physical_damage) || (sp->oneSelfFlag[sp->defence_client].special_damage))
                 && ((sp->server_status_flag2 & SERVER_STATUS_FLAG2_U_TURN) == 0)
-                && (sp->moveTbl[sp->current_move_index].flag & FLAG_CONTACT)
+                && (isMoveContact(sp))
             ) {
                 sp->hp_calc_work = BattleDamageDivide(sp->battlemon[sp->attack_client].maxhp * -1, itemPower);
                 seq_no[0] = SUB_SEQ_HANDLE_ROCKY_HELMET;

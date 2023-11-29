@@ -3784,105 +3784,41 @@ tutordata SPECIES_VOLCANION, \
                   \
                   0
 
-
 tutordata SPECIES_ROWLET, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
+TUTOR_MOVE_AIR_CUTTER | TUTOR_MOVE_MAGICAL_LEAF | TUTOR_MOVE_OMINOUS_WIND | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_DUAL_WINGBEAT,\
+TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_SUCKER_PUNCH
 
+tutordata SPECIES_DARTRIX,\
+TUTOR_MOVE_AIR_CUTTER | TUTOR_MOVE_MAGICAL_LEAF | TUTOR_MOVE_OMINOUS_WIND | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_DUAL_WINGBEAT,\
+TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_SUCKER_PUNCH
 
-tutordata SPECIES_DARTRIX, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
+tutordata SPECIES_DECIDUEYE,\
+TUTOR_MOVE_AIR_CUTTER | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_MAGICAL_LEAF | TUTOR_MOVE_OMINOUS_WIND | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_DUAL_WINGBEAT,\
+TUTOR_MOVE_HEX | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_HURRICANE | TUTOR_MOVE_POLTERGEIST
 
+tutordata SPECIES_LITTEN,\
+TUTOR_MOVE_HEAT_WAVE,\
+TUTOR_MOVE_FLARE_BLITZ | TUTOR_MOVE_OUTRAGE
 
-tutordata SPECIES_DECIDUEYE, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
+tutordata SPECIES_TORRACAT,\
+TUTOR_MOVE_HEAT_WAVE,\
+TUTOR_MOVE_FLARE_BLITZ | TUTOR_MOVE_OUTRAGE
 
+tutordata SPECIES_INCINEROAR,\
+TUTOR_MOVE_BRUTAL_SWING | TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_FIRE_PUNCH | TUTOR_MOVE_HEAT_WAVE,\
+TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_THUNDER_PUNCH | TUTOR_MOVE_CLOSE_COMBAT | TUTOR_MOVE_FLARE_BLITZ | TUTOR_MOVE_OUTRAGE | TUTOR_MOVE_SUPERPOWER
 
-tutordata SPECIES_LITTEN, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
+tutordata SPECIES_POPPLIO,\
+TUTOR_MOVE_DRAINING_KISS | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_CHARM | TUTOR_MOVE_FLIP_TURN,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_HYDRO_PUMP | TUTOR_MOVE_PLAY_ROUGH | TUTOR_MOVE_STORED_POWER | TUTOR_MOVE_TRIPLE_AXEL
 
+tutordata SPECIES_BRIONNE,\
+TUTOR_MOVE_DRAINING_KISS | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_CHARM | TUTOR_MOVE_FLIP_TURN,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_HYDRO_PUMP | TUTOR_MOVE_PLAY_ROUGH | TUTOR_MOVE_TRIPLE_AXEL
 
-tutordata SPECIES_TORRACAT, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_INCINEROAR, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_POPPLIO, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_BRIONNE, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_PRIMARINA, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
+tutordata SPECIES_PRIMARINA,\
+TUTOR_MOVE_DRAINING_KISS | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_AQUA_TAIL | TUTOR_MOVE_CHARM | TUTOR_MOVE_FLIP_TURN,\
+TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_HYDRO_PUMP | TUTOR_MOVE_PLAY_ROUGH | TUTOR_MOVE_TRIPLE_AXEL
 
 tutordata SPECIES_PIKIPEK, \
                   \
@@ -9025,16 +8961,9 @@ tutordata SPECIES_AVALUGG_HISUIAN,\
 TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_CHILLING_WATER | TUTOR_MOVE_GYRO_BALL | TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_WATER_PULSE | 0,\
 TUTOR_MOVE_IRON_HEAD | TUTOR_MOVE_DOUBLE_EDGE | TUTOR_MOVE_HEAVY_SLAM | 0
 
-tutordata SPECIES_DECIDUEYE_HISUIAN, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
+tutordata SPECIES_DECIDUEYE_HISUIAN,\
+TUTOR_MOVE_AIR_CUTTER | TUTOR_MOVE_LOW_KICK | TUTOR_MOVE_MAGICAL_LEAF | TUTOR_MOVE_OMINOUS_WIND | TUTOR_MOVE_TRAILBLAZE | TUTOR_MOVE_AURA_SPHERE | TUTOR_MOVE_DUAL_WINGBEAT,\
+TUTOR_MOVE_KNOCK_OFF | TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_SUCKER_PUNCH | TUTOR_MOVE_CLOSE_COMBAT
 
 tutordata SPECIES_UNFEZANT_FEMALE, \
                   \

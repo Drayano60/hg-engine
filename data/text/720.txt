@@ -187,7 +187,7 @@ Transistor
 Armor Tail
 Sharpness
 S. Overlord
-Aura Guardian
+Aura Adept
 Befuddle
 Bombardier
 Cacophony
@@ -195,7 +195,7 @@ Cheerleader
 Fur Cushion
 Heat Up
 Ice Spikes
-Magma Body
+Magma Skin
 Lunar Energy
 Poison Sweat
 Solar Energy
@@ -212,9 +212,9 @@ Sweet Veil
 Stance Chng.
 Grass Pelt
 Cheek Pouch
-Calming Aroma
+Sweet Aroma
 Swan Song
-Psychokinesis
+Odd Power
 Rhythmic
 Steely Spirit
 Pastel Veil

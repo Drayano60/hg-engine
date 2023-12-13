@@ -1432,7 +1432,7 @@ mondata SPECIES_PSYDUCK, "Psyduck"
 
 // STATS: 82 >> 92 Atk | 85 >> 105 SpAtk | 500 BST >> 520 BST
 // TYPES: Water >> Water/Psychic
-// ABILITY: Swift Swim (1), Psychokinesis (HA, New)
+// ABILITY: Swift Swim (1), Odd Power (HA, New)
 mondata SPECIES_GOLDUCK, "Golduck"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 80, 92, 78, 85, 105, 80
@@ -5402,7 +5402,7 @@ mondata SPECIES_SLUGMA, "Slugma"
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_AMORPHOUS, EGG_GROUP_AMORPHOUS
     .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_MAGMA_BODY, ABILITY_MAGMA_BODY
+        abilities ABILITY_MAGMA_SKIN, ABILITY_MAGMA_SKIN
     .else
         abilities ABILITY_MAGMA_ARMOR, ABILITY_FLAME_BODY
     .endif
@@ -5433,7 +5433,7 @@ mondata SPECIES_MAGCARGO, "Magcargo"
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_AMORPHOUS, EGG_GROUP_AMORPHOUS
     .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_MAGMA_BODY, ABILITY_MAGMA_BODY
+        abilities ABILITY_MAGMA_SKIN, ABILITY_MAGMA_SKIN
     .else
         abilities ABILITY_MAGMA_ARMOR, ABILITY_FLAME_BODY
     .endif
@@ -11190,7 +11190,7 @@ mondata SPECIES_RIOLU, "Riolu"
     mondexweight SPECIES_RIOLU, "44.5 lbs."
 
 
-// ABILITY: Aura Guardian (HA, New)
+// ABILITY: Aura Master (HA, New)
 mondata SPECIES_LUCARIO, "Lucario"
     basestats 70, 110, 70, 90, 115, 70
     types TYPE_FIGHTING, TYPE_STEEL

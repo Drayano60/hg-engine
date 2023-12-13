@@ -15714,7 +15714,7 @@ Level Up Moves:
 -------------------
 448 - Lucario
 -------------------
-Abilities: Steadfast / Inner Focus / Justified ⟶ Steadfast / Inner Focus / Aura Guardian***
+Abilities: Steadfast / Inner Focus / Justified ⟶ Steadfast / Inner Focus / Aura Adept***
 Base Stats: 70/110/70/115/70/90 (525)
 Held Item: None
 Type: Fighting / Steel

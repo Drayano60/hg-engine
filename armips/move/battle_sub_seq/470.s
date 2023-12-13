@@ -10,7 +10,7 @@
 
 .create "build/move/battle_sub_seq/1_470", 0
 
-/* Handle Calming Aroma, mostly adapted from Intimidate */
+/* Handle Sweet Aroma - Intimidate without the blockers */
 
 a001_470:
     wait 0xF
@@ -24,13 +24,17 @@ a001_470:
     wait 0x1E
 _0038:
     orderbattlersbyspeed 0x11
-
-    abilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_CALMING_AROMA, _009C
+    checkonsameteam BATTLER_ATTACKER, BATTLER_ADDL_EFFECT, _009C
     checksubstitute BATTLER_ADDL_EFFECT, _009C
     ifmonstat IF_EQUAL, BATTLER_ADDL_EFFECT, MON_DATA_HP, 0x0, _009C
 
+    abilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_SWEET_AROMA, _009C
+    checksubstitute BATTLER_ADDL_EFFECT, _009C
+    ifmonstat IF_EQUAL, BATTLER_ADDL_EFFECT, MON_DATA_HP, 0x0, _009C
+
+    changevar VAR_OP_SET, VAR_ADD_EFFECT_ATTRIBUTE, ATTACK_DOWN
     changevar VAR_OP_SET, VAR_ADD_EFFECT_TYPE, 0x0
-    gotosubscript 335
+    gotosubscript 12
 _009C:
     changevar VAR_OP_ADD, VAR_CLIENT_NO_AGI, 0x1
     jumpifvarisvalidbattler 0x27, _0038

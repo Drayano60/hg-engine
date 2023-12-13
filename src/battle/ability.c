@@ -359,7 +359,7 @@ enum
     SWITCH_IN_CHECK_TRACE,
     SWITCH_IN_CHECK_WEATHER_ABILITY,
     SWITCH_IN_CHECK_INTIMIDATE,
-    SWITCH_IN_CHECK_CALMING_AROMA, // Custom
+    SWITCH_IN_CHECK_SWEET_AROMA, // Custom
     SWITCH_IN_CHECK_ILLUMINATE, // New effect
     SWITCH_IN_CHECK_CURIOUS_MEDICINE,
     SWITCH_IN_CHECK_PASTEL_VEIL,
@@ -665,17 +665,17 @@ int SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
                     sp->switch_in_check_seq_no++;
                 }
                 break;
-            case SWITCH_IN_CHECK_CALMING_AROMA:
+            case SWITCH_IN_CHECK_SWEET_AROMA:
                 for (i = 0; i < client_set_max; i++)
                 {
                     client_no = sp->turn_order[i];
                     if ((sp->battlemon[client_no].intimidate_flag == 0)
                         && (sp->battlemon[client_no].hp)
-                        && (GetBattlerAbility(sp, client_no) == ABILITY_CALMING_AROMA))
+                        && (GetBattlerAbility(sp, client_no) == ABILITY_SWEET_AROMA))
                     {
                         sp->battlemon[client_no].intimidate_flag = 1;
                         sp->client_work = client_no;
-                        scriptnum = SUB_SEQ_CALMING_AROMA;
+                        scriptnum = SUB_SEQ_SWEET_AROMA;
                         ret = SWITCH_IN_CHECK_MOVE_SCRIPT;
                         break;
                     }
@@ -2153,9 +2153,9 @@ BOOL MoveHitDefenderAbilityCheck(void *bw, struct BattleStruct *sp, int *seq_no)
                 ret = TRUE;
             }
             break;
-        // Handle Magma Body, a custom ability for Slugma and Magcargo
+        // Handle Magma Skin, a custom ability for Slugma and Magcargo
         // Copy of Flame Body with the RNG removed so it's guaranteed to work
-        case ABILITY_MAGMA_BODY:
+        case ABILITY_MAGMA_SKIN:
             if ((sp->battlemon[sp->attack_client].hp)
                 && (sp->battlemon[sp->attack_client].condition == 0)
                 && ((sp->waza_status_flag & WAZA_STATUS_FLAG_NO_OUT) == 0)

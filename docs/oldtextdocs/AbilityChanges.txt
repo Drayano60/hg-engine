@@ -221,7 +221,7 @@ New Abilities
 -------------------
 Aurora Crystal includes a handful of brand new abilities. Some of these are clones of existing abilities that work a lot better thematically with the Pokémon in question, while some have unique effects of their own. The name of each new ability is listed below along with the Pokémon that get it, its effect, the affected moves (for abilities that interact with specific moves), and some commentary on how it came to exist.
 
-Aura Guardian
+Aura Adept
 -------------------
 Users: Lucario.
 Effect: Aura and pulse moves have their power increased by 50%.

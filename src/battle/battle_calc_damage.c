@@ -631,8 +631,8 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
         movepower = movepower * 150 / 100;
     }
 
-    // Handle Psychokinesis (Golduck)
-    if ((GetBattlerAbility(sp, attacker) == ABILITY_PSYCHOKINESIS) && (movetype == TYPE_PSYCHIC)) {
+    // Handle Odd Power (Golduck)
+    if ((GetBattlerAbility(sp, attacker) == ABILITY_ODD_POWER) && (movetype == TYPE_PSYCHIC)) {
         movepower = movepower * 150 / 100;
     }
 
@@ -868,10 +868,10 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
     }
 
     // Handle Mega Launcher
-    // Also handle Aura Guardian, a new ability for Lucario with the same effect
+    // Also handle Aura Adept, a new ability for Lucario with the same effect
     if
     (
-        ((AttackingMon.ability == ABILITY_MEGA_LAUNCHER) || (AttackingMon.ability == ABILITY_AURA_GUARDIAN)) &&
+        ((AttackingMon.ability == ABILITY_MEGA_LAUNCHER) || (AttackingMon.ability == ABILITY_AURA_ADEPT)) &&
         (sp->moveTbl[sp->current_move_index].appeal & FLAG_PULSE)
     )
     {

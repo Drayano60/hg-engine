@@ -78,8 +78,8 @@ Persian: A3 (Super Luck, replaces Unnerve), Atk 70 -> 80, SpAtk 65 -> 75
 Persian (Alolan Form): A3 (Super Luck, replaces Rattled), Atk 60 -> 70, SpAtk 75 -> 85
 
 Psyduck: A3 (Unaware, replaces Swift Swim)
-Golduck: A1 (Swift Swim, replaces Damp), A3 (Psychokinesis), Atk 82 -> 92, SpAtk 95 -> 105
-- Psychokinesis boosts the power of Psychic-type moves by 50% (effectively STAB)
+Golduck: A1 (Swift Swim, replaces Damp), A3 (Odd Power), Atk 82 -> 92, SpAtk 95 -> 105
+- Odd Power boosts the power of Psychic-type moves by 50% (effectively STAB)
 
 Politoed: A2 (Cacophony, replaces Damp)
 
@@ -164,10 +164,10 @@ Sylveon: A2 (Wonder Skin)
 
 Kabutops: A3 (Sharpness, replaces Weak Armor)
 
-Chikorita: A2 (Leaf Guard), A3 (Triage)
-Bayleef: A2 (Leaf Guard), A3 (Triage)
-Meganium: A2 (Flower Veil), A3 (Triage, replaces Leaf Guard), HP 80 -> 90
-- Calming Aroma lowers the Atk and SpAtk of all other Pokémon in battle by one stage when the Pokémon enters battle
+Chikorita: A2 (Leaf Guard), A3 (Sweet Aroma)
+Bayleef: A2 (Leaf Guard), A3 (Sweet Aroma)
+Meganium: A2 (Flower Veil), A3 (Sweet Aroma, replaces Leaf Guard), HP 80 -> 90
+- Sweet Aroma is an Intimidate clone that cannot be stopped by other abilities
 
 Cyndaquil: A2 (Flash Fire), A3 (Heat Up)
 Quilava: A2 (Flash Fire), A3 (Heat Up), Def 58 -> 53, SpAtk 80 -> 90, SpDef 65 -> 60

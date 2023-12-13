@@ -697,7 +697,7 @@ party 739
     move MOVE_TACKLE
     move MOVE_GROWL
     move MOVE_THUNDER_WAVE
-    ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_ILLUMINATE : ABILITY_STATIC
+    ability ABILITY_STATIC
     ball ITEM_POKE_BALL
     setivs 30, 30, 30, 30, 30, 30
     setevs 0, 0, 0, 0, 0, 0
@@ -762,7 +762,7 @@ party 740
     move MOVE_TACKLE
     move MOVE_GROWL
     move MOVE_THUNDER_WAVE
-    ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_ILLUMINATE : ABILITY_STATIC
+    ability ABILITY_STATIC
     ball ITEM_POKE_BALL
     setivs 30, 30, 30, 30, 30, 30
     setevs 0, 0, 0, 0, 0, 0
@@ -827,7 +827,7 @@ party 741
     move MOVE_TACKLE
     move MOVE_GROWL
     move MOVE_THUNDER_WAVE
-    ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_ILLUMINATE : ABILITY_STATIC
+    ability ABILITY_STATIC
     ball ITEM_POKE_BALL
     setivs 30, 30, 30, 30, 30, 30
     setevs 0, 0, 0, 0, 0, 0
@@ -892,7 +892,7 @@ party 742
     move MOVE_TACKLE
     move MOVE_GROWL
     move MOVE_THUNDER_WAVE
-    ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_ILLUMINATE : ABILITY_STATIC
+    ability ABILITY_STATIC
     ball ITEM_POKE_BALL
     setivs 30, 30, 30, 30, 30, 30
     setevs 0, 0, 0, 0, 0, 0
@@ -957,7 +957,7 @@ party 743
     move MOVE_TACKLE
     move MOVE_GROWL
     move MOVE_THUNDER_WAVE
-    ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_ILLUMINATE : ABILITY_STATIC
+    ability ABILITY_STATIC
     ball ITEM_POKE_BALL
     setivs 30, 30, 30, 30, 30, 30
     setevs 0, 0, 0, 0, 0, 0
@@ -1022,7 +1022,7 @@ party 744
     move MOVE_TACKLE
     move MOVE_GROWL
     move MOVE_THUNDER_WAVE
-    ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_ILLUMINATE : ABILITY_STATIC
+    ability ABILITY_STATIC
     ball ITEM_POKE_BALL
     setivs 30, 30, 30, 30, 30, 30
     setevs 0, 0, 0, 0, 0, 0
@@ -1898,13 +1898,13 @@ party 29
     ivs 0
     abilityslot 0
     level LEVEL_VIOLET_GYM
-    pokemon SPECIES_FLETCHLING
+    pokemon SPECIES_PIDGEY
     item ITEM_SHARP_BEAK
+    move MOVE_WING_ATTACK
     move MOVE_QUICK_ATTACK
-    move MOVE_PECK
-    move MOVE_EMBER
-    move MOVE_GROWL
-    ability ABILITY_BIG_PECKS
+    move MOVE_SAND_ATTACK
+    move MOVE_NONE
+    ability ABILITY_KEEN_EYE
     ball ITEM_POKE_BALL
     setivs 20, 20, 20, 20, 20, 20
     setevs 0, 0, 0, 0, 0, 0
@@ -2036,7 +2036,7 @@ party 87
     move MOVE_FAIRY_WIND
     move MOVE_TACKLE
     move MOVE_STUN_SPORE
-    ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_AERILATE : ABILITY_LEAF_GUARD
+    ability ABILITY_CHLOROPHYLL
     ball ITEM_POKE_BALL
     setivs 25, 25, 25, 25, 25, 25
     setevs 0, 0, 0, 0, 0, 0
@@ -2082,7 +2082,7 @@ endparty
 trainerdata 20, "Falkner"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_LEADER_M
-    nummons 5
+    nummons 6
     item 0 
     item 0 
     item 0 
@@ -2130,10 +2130,10 @@ party 20
     abilityslot 0
     level LEVEL_FALKNER
     pokemon SPECIES_NATU
-    item ITEM_SHARP_BEAK
+    item ITEM_POWER_HERB
     move MOVE_AIR_CUTTER
     move MOVE_CONFUSION
-    move MOVE_GRASS_KNOT
+    move MOVE_SOLAR_BEAM
     move MOVE_CONFUSE_RAY
     ability ABILITY_MAGIC_BOUNCE
     ball ITEM_POKE_BALL
@@ -2157,6 +2157,23 @@ party 20
     setivs 30, 30, 30, 30, 30, 30
     setevs 0, 0, 0, 0, 0, 0
     nature NATURE_MODEST
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level LEVEL_FALKNER
+    pokemon SPECIES_FLETCHLING
+    item ITEM_SHARP_BEAK
+    move MOVE_AERIAL_ACE
+    move MOVE_FLAME_CHARGE
+    move MOVE_FLAIL
+    move MOVE_QUICK_ATTACK
+    ability ABILITY_GALE_WINGS
+    ball ITEM_POKE_BALL
+    setivs 30, 30, 30, 30, 30, 30
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_ADAMANT
     shinylock 0
     ballseal 0
 
@@ -3115,7 +3132,7 @@ endparty
 trainerdata 383, "Peter"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_BIRD_KEEPER_1
-    nummons 2
+    nummons 1
     item 0
     item 0 
     item 0 
@@ -3135,23 +3152,6 @@ party 383
     move MOVE_PURSUIT
     move MOVE_HAZE
     ability ABILITY_INSOMNIA
-    ball ITEM_POKE_BALL
-    setivs 20, 20, 20, 20, 20, 20
-    setevs 0, 0, 0, 0, 0, 0
-    nature NATURE_SERIOUS
-    shinylock 0
-    ballseal 0
-
-    ivs 0
-    abilityslot 0
-    level LEVEL_ROUTE_32+2
-    pokemon SPECIES_FLETCHINDER
-    item 0
-    move MOVE_FLAME_CHARGE
-    move MOVE_AERIAL_ACE
-    move MOVE_FLAIL
-    move MOVE_QUICK_ATTACK
-    ability ABILITY_FLAME_BODY
     ball ITEM_POKE_BALL
     setivs 20, 20, 20, 20, 20, 20
     setevs 0, 0, 0, 0, 0, 0
@@ -4908,7 +4908,7 @@ party 141
     move MOVE_COVET
     move MOVE_SCARY_FACE
     move MOVE_SAND_ATTACK
-    ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_STRONG_JAW : ABILITY_QUICK_FEET
+    ability ABILITY_QUICK_FEET
     ball ITEM_POKE_BALL
     setivs 20, 20, 20, 20, 20, 20
     setevs 0, 0, 0, 0, 0, 0
@@ -4933,13 +4933,13 @@ party 486
     ivs 0
     abilityslot 0
     level LEVEL_PROTON_1
-    pokemon SPECIES_SCRAGGY
+    pokemon SPECIES_GEODUDE
     item ITEM_NONE
-    move MOVE_FEINT_ATTACK
-    move MOVE_LOW_KICK
-    move MOVE_HEADBUTT
+    move MOVE_BULLDOZE
     move MOVE_ROCK_TOMB
-    ability ABILITY_INTIMIDATE
+    move MOVE_ROCK_SMASH
+    move MOVE_MUD_SPORT
+    ability ABILITY_STURDY
     ball ITEM_POKE_BALL
     setivs 30, 30, 30, 30, 30, 30
     setevs 0, 0, 0, 0, 0, 0
@@ -4956,7 +4956,7 @@ party 486
     move MOVE_FEINT_ATTACK
     move MOVE_POISON_STING
     move MOVE_LEECH_SEED
-    ability ABILITY_HEATPROOF
+    ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_HEATPROOF : ABILITY_WATER_ABSORB
     ball ITEM_POKE_BALL
     setivs 30, 30, 30, 30, 30, 30
     setevs 0, 0, 0, 0, 0, 0
@@ -4967,17 +4967,17 @@ party 486
     ivs 0
     abilityslot 0
     level LEVEL_PROTON_1
-    pokemon SPECIES_KOFFING
+    pokemon SPECIES_SHELLDER
     item ITEM_NONE
-    move MOVE_VENOSHOCK
-    move MOVE_INCINERATE
-    move MOVE_SHOCK_WAVE
-    move MOVE_POISON_GAS
-    ability ABILITY_LEVITATE
+    move MOVE_AURORA_BEAM
+    move MOVE_CLAMP
+    move MOVE_ICE_SHARD
+    move MOVE_SUPERSONIC
+    ability ABILITY_SKILL_LINK
     ball ITEM_POKE_BALL
     setivs 30, 30, 30, 30, 30, 30
     setevs 0, 0, 0, 0, 0, 0
-    nature NATURE_MODEST
+    nature NATURE_SERIOUS
     shinylock 0
     ballseal 0
 
@@ -5361,12 +5361,12 @@ party 375
     ivs 0
     abilityslot 0
     level LEVEL_AZALEA_GYM+1
-    monwithform SPECIES_VIVILLON, 5
+    pokemon SPECIES_JOLTIK
     item ITEM_SILVER_POWDER
-    move MOVE_SILVER_WIND
-    move MOVE_AIR_CUTTER
-    move MOVE_PSYBEAM
-    move MOVE_DRAINING_KISS
+    move MOVE_ELECTROWEB
+    move MOVE_STRUGGLE_BUG
+    move MOVE_ABSORB
+    move MOVE_THUNDER_WAVE
     ability ABILITY_COMPOUND_EYES
     ball ITEM_POKE_BALL
     setivs 25, 25, 25, 25, 25, 25
@@ -5380,7 +5380,7 @@ endparty
 trainerdata 107, "Louise"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_ACE_TRAINER_F
-    nummons 3
+    nummons 2
     item 0 
     item 0
     item 0
@@ -5400,23 +5400,6 @@ party 107
     move MOVE_TRAILBLAZE
     move MOVE_STRING_SHOT
     ability ABILITY_FLAME_BODY
-    ball ITEM_POKE_BALL
-    setivs 25, 25, 25, 25, 25, 25
-    setevs 0, 0, 0, 0, 0, 0
-    nature NATURE_SERIOUS
-    shinylock 0
-    ballseal 0
-
-    ivs 0
-    abilityslot 0
-    level LEVEL_AZALEA_GYM+1
-    pokemon SPECIES_JOLTIK
-    item ITEM_SILVER_POWDER
-    move MOVE_ELECTROWEB
-    move MOVE_STRUGGLE_BUG
-    move MOVE_ABSORB
-    move MOVE_THUNDER_WAVE
-    ability ABILITY_COMPOUND_EYES
     ball ITEM_POKE_BALL
     setivs 25, 25, 25, 25, 25, 25
     setevs 0, 0, 0, 0, 0, 0
@@ -5509,17 +5492,17 @@ party 21
     ivs 0
     abilityslot 0
     level LEVEL_BUGSY
-    pokemon SPECIES_SHUCKLE
-    item ITEM_BERRY_JUICE
-    move MOVE_STRUGGLE_BUG
-    move MOVE_ROLLOUT
-    move MOVE_WRAP
-    move MOVE_GYRO_BALL
-    ability ABILITY_CONTRARY
+    monwithform SPECIES_VIVILLON, 5
+    item ITEM_WISE_GLASSES
+    move MOVE_SILVER_WIND
+    move MOVE_AIR_CUTTER
+    move MOVE_ELECTROWEB
+    move MOVE_PSYBEAM
+    ability ABILITY_SHIELD_DUST
     ball ITEM_POKE_BALL
     setivs 30, 30, 30, 30, 30, 30
     setevs 0, 0, 0, 0, 0, 0
-    nature NATURE_BRAVE
+    nature NATURE_TIMID
     shinylock 0
     ballseal 0
 
@@ -5663,7 +5646,7 @@ party 1
     item 0
     move MOVE_PSYBEAM
     move MOVE_SHOCK_WAVE
-    move MOVE_HIDDEN_POWER // Fighting
+    move MOVE_DISABLE
     move MOVE_KINESIS
     ability ABILITY_MAGIC_GUARD
     ball ITEM_POKE_BALL
@@ -5745,7 +5728,7 @@ party 266
     item 0
     move MOVE_PSYBEAM
     move MOVE_SHOCK_WAVE
-    move MOVE_HIDDEN_POWER // Fighting
+    move MOVE_DISABLE
     move MOVE_KINESIS
     ability ABILITY_MAGIC_GUARD
     ball ITEM_POKE_BALL
@@ -5827,7 +5810,7 @@ party 269
     item 0
     move MOVE_PSYBEAM
     move MOVE_SHOCK_WAVE
-    move MOVE_HIDDEN_POWER // Fighting
+    move MOVE_DISABLE
     move MOVE_KINESIS
     ability ABILITY_MAGIC_GUARD
     ball ITEM_POKE_BALL
@@ -5929,7 +5912,7 @@ party 166
     move MOVE_CHILLING_WATER
     move MOVE_SLAM
     move MOVE_YAWN
-    ability ABILITY_UNAWARE
+    ability ABILITY_WATER_ABSORB
     ball ITEM_POKE_BALL
     setivs 25, 25, 25, 25, 25, 25
     setevs 0, 0, 0, 0, 0, 0
@@ -6369,7 +6352,7 @@ party 764
     move MOVE_TRAILBLAZE
     move MOVE_CONFUSE_RAY
     move MOVE_THUNDER_WAVE
-    ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_ILLUMINATE : ABILITY_STATIC
+    ability ABILITY_STATIC
     ball ITEM_POKE_BALL
     setivs 30, 30, 30, 30, 30, 30
     setevs 0, 0, 0, 0, 0, 0
@@ -6451,7 +6434,7 @@ party 765
     move MOVE_TRAILBLAZE
     move MOVE_CONFUSE_RAY
     move MOVE_THUNDER_WAVE
-    ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_ILLUMINATE : ABILITY_STATIC
+    ability ABILITY_STATIC
     ball ITEM_POKE_BALL
     setivs 30, 30, 30, 30, 30, 30
     setevs 0, 0, 0, 0, 0, 0
@@ -6533,7 +6516,7 @@ party 766
     move MOVE_TRAILBLAZE
     move MOVE_CONFUSE_RAY
     move MOVE_THUNDER_WAVE
-    ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_ILLUMINATE : ABILITY_STATIC
+    ability ABILITY_STATIC
     ball ITEM_POKE_BALL
     setivs 30, 30, 30, 30, 30, 30
     setevs 0, 0, 0, 0, 0, 0
@@ -6615,7 +6598,7 @@ party 767
     move MOVE_TRAILBLAZE
     move MOVE_CONFUSE_RAY
     move MOVE_THUNDER_WAVE
-    ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_ILLUMINATE : ABILITY_STATIC
+    ability ABILITY_STATIC
     ball ITEM_POKE_BALL
     setivs 30, 30, 30, 30, 30, 30
     setevs 0, 0, 0, 0, 0, 0
@@ -6697,7 +6680,7 @@ party 768
     move MOVE_TRAILBLAZE
     move MOVE_CONFUSE_RAY
     move MOVE_THUNDER_WAVE
-    ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_ILLUMINATE : ABILITY_STATIC
+    ability ABILITY_STATIC
     ball ITEM_POKE_BALL
     setivs 30, 30, 30, 30, 30, 30
     setevs 0, 0, 0, 0, 0, 0
@@ -6779,7 +6762,7 @@ party 769
     move MOVE_TRAILBLAZE
     move MOVE_CONFUSE_RAY
     move MOVE_THUNDER_WAVE
-    ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_ILLUMINATE : ABILITY_STATIC
+    ability ABILITY_STATIC
     ball ITEM_POKE_BALL
     setivs 30, 30, 30, 30, 30, 30
     setevs 0, 0, 0, 0, 0, 0

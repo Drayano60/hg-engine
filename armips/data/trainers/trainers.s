@@ -10672,13 +10672,13 @@ party 679
     ivs 0
     abilityslot 0
     level LEVEL_ROUTE_37+1
-    pokemon SPECIES_GRANBULL
+    pokemon SPECIES_VILEPLUME
     item 0
-    move ALLOW_ILLEGAL_MOVES ? MOVE_SPIRIT_BREAK : MOVE_COVET
-    move MOVE_POWER_UP_PUNCH
-    move MOVE_THUNDER_FANG
-    move MOVE_ICE_FANG
-    ability ABILITY_INTIMIDATE
+    move MOVE_GIGA_DRAIN
+    move MOVE_VENOSHOCK
+    move MOVE_GROWTH
+    move MOVE_STUN_SPORE
+    ability ABILITY_CHLOROPHYLL
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
     setevs 0, 0, 0, 0, 0, 0
@@ -10703,13 +10703,13 @@ party 680
     ivs 0
     abilityslot 0
     level LEVEL_ROUTE_37+1
-    monwithform SPECIES_PERSIAN, 1
+    pokemon SPECIES_BELLOSSOM
     item 0
-    move MOVE_FOUL_PLAY
-    move MOVE_POWER_GEM
-    move MOVE_TAUNT
-    move MOVE_FAKE_OUT
-    ability ABILITY_FUR_COAT
+    move MOVE_LEAF_BLADE
+    move MOVE_LUCKY_CHANT
+    move MOVE_GROWTH
+    move MOVE_SUNNY_DAY
+    ability ABILITY_CHLOROPHYLL
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
     setevs 0, 0, 0, 0, 0, 0
@@ -12350,13 +12350,13 @@ party 408
     ivs 0
     abilityslot 0
     level LEVEL_ROUTE_44+2
-    pokemon SPECIES_DRAGONAIR
+    pokemon SPECIES_BUTTERFREE
     item 0
-    move MOVE_BREAKING_SWIPE
-    move MOVE_INCINERATE
+    move MOVE_AIR_SLASH
+    move MOVE_SAFEGUARD
     move MOVE_SUNNY_DAY
-    move MOVE_THUNDER_WAVE
-    ability ABILITY_SHED_SKIN
+    move MOVE_SLEEP_POWDER
+    ability ABILITY_COMPOUND_EYES
     ball ITEM_POKE_BALL
     setivs 25, 25, 25, 25, 25, 25
     setevs 0, 0, 0, 0, 0, 0
@@ -12384,12 +12384,12 @@ party 408
     ivs 0
     abilityslot 0
     level LEVEL_ROUTE_44+2
-    pokemon SPECIES_BELLOSSOM
+    pokemon SPECIES_LILLIGANT
     item 0
-    move MOVE_PETAL_BLIZZARD
-    move MOVE_VENOSHOCK
-    move MOVE_SUNNY_DAY
+    move MOVE_GIGA_DRAIN
     move MOVE_GROWTH
+    move MOVE_TEETER_DANCE
+    move MOVE_HELPING_HAND
     ability ABILITY_CHLOROPHYLL
     ball ITEM_POKE_BALL
     setivs 25, 25, 25, 25, 25, 25
@@ -12941,13 +12941,13 @@ party 814
     ivs 0
     abilityslot 0
     level LEVEL_ROUTE_44+1
-    pokemon SPECIES_LIEPARD
+    monwithform SPECIES_PERSIAN, 1
     item 0
     move MOVE_FOUL_PLAY
-    move MOVE_ASSIST
-    move MOVE_YAWN
-    move MOVE_TORMENT
-    ability ABILITY_PRANKSTER
+    move MOVE_POWER_GEM
+    move MOVE_HYPNOSIS
+    move MOVE_FAKE_OUT
+    ability ABILITY_FUR_COAT
     ball ITEM_POKE_BALL
     setivs 20, 20, 20, 20, 20, 20
     setevs 0, 0, 0, 0, 0, 0

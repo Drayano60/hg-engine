@@ -5825,7 +5825,7 @@ party 269
     level LEVEL_BUGSY+1
     pokemon SPECIES_CROCONAW
     item ITEM_MYSTIC_WATER
-    move ALLOW_ILLEGAL_MOVES ? MOVE_AQUA_CUTTER : MOVE_WATER_PULSE
+    move MOVE_DIVE
     move MOVE_BITE
     move MOVE_ICE_FANG
     move MOVE_AQUA_JET
@@ -6529,7 +6529,7 @@ party 766
     level LEVEL_LYRA_2+1
     pokemon SPECIES_CROCONAW
     item ITEM_SITRUS_BERRY
-    move ALLOW_ILLEGAL_MOVES ? MOVE_AQUA_CUTTER : MOVE_WATER_PULSE
+    move MOVE_DIVE
     move MOVE_BITE
     move MOVE_ICE_FANG
     move MOVE_AQUA_JET
@@ -6775,7 +6775,7 @@ party 769
     level LEVEL_LYRA_2+1
     pokemon SPECIES_CROCONAW
     item ITEM_SITRUS_BERRY
-    move ALLOW_ILLEGAL_MOVES ? MOVE_AQUA_CUTTER : MOVE_WATER_PULSE
+    move MOVE_DIVE
     move MOVE_BITE
     move MOVE_ICE_FANG
     move MOVE_AQUA_JET
@@ -9048,7 +9048,7 @@ party 182
     move MOVE_BITE
     move MOVE_HEADBUTT
     move MOVE_SCARY_FACE
-    ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_STRONG_JAW : ABILITY_RUN_AWAY
+    ability ABILITY_INTIMIDATE
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
     setevs 0, 0, 0, 0, 0, 0
@@ -10399,10 +10399,10 @@ party 169
     pokemon SPECIES_LOPUNNY
     item ITEM_SILK_SCARF
     move MOVE_DIZZY_PUNCH
+    move MOVE_BRUTAL_SWING
     move MOVE_LOW_SWEEP
     move MOVE_FAKE_OUT
-    move MOVE_WORK_UP
-    ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_SCRAPPY : ABILITY_CUTE_CHARM
+    ability ABILITY_CUTE_CHARM
     ball ITEM_POKE_BALL
     setivs 25, 25, 25, 25, 25, 25
     setevs 0, 0, 0, 0, 0, 0
@@ -10630,7 +10630,7 @@ party 81
     move MOVE_FEINT_ATTACK
     move MOVE_PSYBEAM
     move MOVE_FAKE_OUT
-    ability ABILITY_OWN_TEMPO
+    ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_TOTTER_STEPS : ABILITY_TANGLED_FEET
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
     setevs 0, 0, 0, 0, 0, 0
@@ -10647,7 +10647,7 @@ party 81
     move MOVE_FEINT_ATTACK
     move MOVE_PSYBEAM
     move MOVE_FAKE_OUT
-    ability ABILITY_OWN_TEMPO
+    ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_TOTTER_STEPS : ABILITY_TANGLED_FEET
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
     setevs 0, 0, 0, 0, 0, 0
@@ -13376,7 +13376,7 @@ party 270
     level LEVEL_SILVER_3+1
     pokemon SPECIES_CROCONAW
     item ITEM_MYSTIC_WATER
-    move ALLOW_ILLEGAL_MOVES ? MOVE_AQUA_CUTTER : MOVE_SURF
+    move MOVE_AQUA_TAIL
     move MOVE_BITE
     move MOVE_ICE_FANG
     move MOVE_AQUA_JET

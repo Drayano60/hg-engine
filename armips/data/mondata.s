@@ -7445,7 +7445,7 @@ mondata SPECIES_SKITTY, "Skitty"
 
 // STATS: 65 >> 80 Atk | 55 >> 80 SpAtk | 90 >> 110 Spd | 400 >> 460 BST
 // TYPES: Normal >> Normal/Fairy
-// ABILITY: Fur Coat (2)
+// ABILITY: Adaptability (2)
 mondata SPECIES_DELCATTY, "Delcatty"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 70, 80, 65, 110, 80, 55
@@ -7467,7 +7467,7 @@ mondata SPECIES_DELCATTY, "Delcatty"
     growthrate GROWTH_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FAIRY
     .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_CUTE_CHARM, ABILITY_FUR_COAT
+        abilities ABILITY_CUTE_CHARM, ABILITY_ADAPTABILITY
     .else
         abilities ABILITY_CUTE_CHARM, ABILITY_NORMALIZE
     .endif

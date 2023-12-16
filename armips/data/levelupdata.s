@@ -509,7 +509,6 @@ levelup SPECIES_EKANS
     learnset MOVE_GUNK_SHOT, 53
     terminatelearnset
 
-// NEW: Skitter Smack (HOME Datamine)
 levelup SPECIES_ARBOK
     learnset MOVE_POISON_FANG, 1
     learnset MOVE_ICE_FANG, 1 
@@ -2480,7 +2479,7 @@ levelup SPECIES_DODUO
     learnset MOVE_BRAVE_BIRD, 54
     terminatelearnset
 
-// NEW: Lunge (BDSP), Double Kick
+// NEW: Double Kick
 levelup SPECIES_DODRIO
     learnset MOVE_MIRROR_MOVE, 1
     learnset MOVE_LUNGE, 1
@@ -2583,10 +2582,8 @@ levelup SPECIES_GRIMER
     terminatelearnset
 
 // Evolution: 35
-// NEW: Skitter Smack (HOME Datamine)
 levelup SPECIES_MUK
     learnset MOVE_POWER_UP_PUNCH, 1
-    learnset MOVE_SKITTER_SMACK, 1
     learnset MOVE_SHADOW_PUNCH, 1
     learnset MOVE_SHADOW_SNEAK, 1
     learnset MOVE_POUND, 1
@@ -2632,10 +2629,8 @@ levelup SPECIES_GRIMER_ALOLAN
     terminatelearnset
 
 // Evolution: 35
-// NEW: Skitter Smack (HOME Datamine)
 levelup SPECIES_MUK_ALOLAN
     learnset MOVE_POWER_UP_PUNCH, 1
-    learnset MOVE_SKITTER_SMACK, 1
     learnset MOVE_CLEAR_SMOG, 1
     learnset MOVE_SHADOW_SNEAK, 1
     learnset MOVE_POUND, 1
@@ -5016,7 +5011,7 @@ levelup SPECIES_TYPHLOSION
     learnset MOVE_ERUPTION, 60
     terminatelearnset
 
-// NEW: Liquidation, Wave Crash
+// NEW: Wave Crash
 levelup SPECIES_TOTODILE
     learnset MOVE_SCRATCH, 1
     learnset MOVE_LEER, 1
@@ -5036,7 +5031,7 @@ levelup SPECIES_TOTODILE
     learnset MOVE_WAVE_CRASH, 60
     terminatelearnset
 
-// NEW: Liquidation, Wave Crash
+// NEW: Wave Crash
 levelup SPECIES_CROCONAW
     learnset MOVE_SCRATCH, 1
     learnset MOVE_LEER, 1
@@ -5256,7 +5251,7 @@ levelup SPECIES_SPINARAK
     learnset MOVE_MEGAHORN, 53
     terminatelearnset
 
-// NEW: Skitter Smack (HOME Datamine), First Impression, Poison Fang
+// NEW: First Impression, Poison Fang
 levelup SPECIES_ARIADOS
     learnset MOVE_SKITTER_SMACK, 1
     learnset MOVE_FOCUS_ENERGY, 1
@@ -5801,7 +5796,6 @@ levelup SPECIES_SUNKERN
     learnset MOVE_SOLAR_BEAM, 48
     terminatelearnset
 
-// NEW: Weather Ball (HOME Datamine)
 levelup SPECIES_SUNFLORA
     learnset MOVE_PETAL_BLIZZARD, 1
     learnset MOVE_NATURE_POWER, 1
@@ -8933,9 +8927,7 @@ levelup SPECIES_GULPIN
     learnset MOVE_WRING_OUT, 60
     terminatelearnset
 
-// NEW: Skitter Smack (HOME Datamine)
 levelup SPECIES_SWALOT
-    learnset MOVE_SKITTER_SMACK, 1
     learnset MOVE_BULLET_SEED, 1
     learnset MOVE_POUND, 1
     learnset MOVE_YAWN, 1
@@ -9383,7 +9375,6 @@ levelup SPECIES_ZANGOOSE
     learnset MOVE_FINAL_GAMBIT, 60
     terminatelearnset
 
-// NEW: Skitter Smack (HOME Datamine)
 levelup SPECIES_SEVIPER
     learnset MOVE_SKITTER_SMACK, 1
     learnset MOVE_SWAGGER, 1
@@ -9861,7 +9852,7 @@ levelup SPECIES_SHUPPET
     learnset MOVE_GRUDGE, 59
     terminatelearnset
 
-// NEW: Skitter Smack (HOME Datamine), Slash
+// NEW: Slash
 // Evolution: 28
 levelup SPECIES_BANETTE
     learnset MOVE_SKITTER_SMACK, 1
@@ -11899,7 +11890,6 @@ levelup SPECIES_GARCHOMP
     learnset MOVE_OUTRAGE, 63
     terminatelearnset
 
-// NEW: Aura Sphere (PLA)
 levelup SPECIES_RIOLU
     learnset MOVE_QUICK_ATTACK, 1
     learnset MOVE_FORESIGHT, 1
@@ -13497,7 +13487,7 @@ levelup SPECIES_BLITZLE
     learnset MOVE_WILD_CHARGE, 52
     terminatelearnset
 
-// NEW: Extreme Speed, Jump Kick, High Horsepower
+// NEW: Extreme Speed, Jump Kick
 levelup SPECIES_ZEBSTRIKA
     learnset MOVE_HIGH_HORSEPOWER, 1
     learnset MOVE_VOLT_SWITCH, 1
@@ -13858,7 +13848,7 @@ levelup SPECIES_SWADLOON
     learnset MOVE_PROTECT, 20
     terminatelearnset
 
-// NEW: Skitter Smack (HOME Datamine), Solar Blade.
+// NEW: Solar Blade
 levelup SPECIES_LEAVANNY
     learnset MOVE_SKITTER_SMACK, 1
     learnset MOVE_RAZOR_WIND, 1

@@ -694,8 +694,8 @@ TM005: MOVE_SNARL
     SPECIES_KRICKETUNE
 
 -- Toxic uses the newer generation distribution instead of any generation.
--- This includes any Pokémon that learnt it in Gen 8 or 9.
--- It also includes these Poison-type Pokémon who have not yet shown up in a newer game with a Toxic TM: Beedrill, Zubat, Golbat, Tentacool, Tentacruel, Budew.
+-- This includes any Pokémon that can learn it in either Sword & Shield or Scarlet & Violet.
+-- It also includes these Poison-type Pokémon who have not yet shown up in a newer game that has a Toxic TM: Beedrill, Zubat, Golbat, Budew.
 TM006: MOVE_TOXIC
     SPECIES_BULBASAUR
     SPECIES_IVYSAUR

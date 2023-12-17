@@ -204,6 +204,7 @@ Goldenrod City
 ✓ 5F now sells most of the evolution stones except for the Shiny, Dusk and Dawn Stones. All instances of "TM Corner" in the text are changed to "Stone Emporium".
 ✓ Daily Drawing Corner on 6F now awards PP Up as the first prize on every day.
 ✓ The Bike Shop is now a "property for sale". Inside you find the Karate King who is looking at the property and will challenge you to a battle. Defeating him yields a Lv. 15 Tyrogue with a Focus Band. There's also a second NPC in the room for some extra context.
+✓ This Fighting Dojo area also includes three Move Tutors for Fire Punch, Thunder Punch and Ice Punch respectively.
 ✓ Items changed in Dept Store basement. Burn Heal -> Amulet Coin, Ultra Ball -> Scope Lens. Ether -> TM57 Charge Beam.
 ✓ Edited NPC in city's dialogue that mentioned Bike Shop. Also edited one that talked about the name rater.
 ✓ Name Rater tent is now a Fortune Teller tent. The NPC inside awards you a Twisted Spoon and then just waffles. Maybe I could do something more here?

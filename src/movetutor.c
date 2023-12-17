@@ -50,17 +50,17 @@ struct MoveTutor MoveTutorTable[] = {
     // Middle Tutor (18 + 5)
     {.move = MOVE_AQUA_TAIL, .cost = 0, .tutor = TUTOR_MIDDLE},
     {.move = MOVE_AURA_SPHERE, .cost = 0, .tutor = TUTOR_MIDDLE},
+    {.move = MOVE_BLAZE_KICK, .cost = 0, .tutor = TUTOR_MIDDLE},
     {.move = MOVE_CHARM, .cost = 0, .tutor = TUTOR_MIDDLE},
     {.move = MOVE_CROSS_POISON, .cost = 0, .tutor = TUTOR_MIDDLE},
     {.move = MOVE_DRAGON_TAIL, .cost = 0, .tutor = TUTOR_MIDDLE},
     {.move = MOVE_DRILL_RUN, .cost = 0, .tutor = TUTOR_MIDDLE},
     {.move = MOVE_DUAL_WINGBEAT, .cost = 0, .tutor = TUTOR_MIDDLE},
-    {.move = MOVE_FIRE_PUNCH, .cost = 0, .tutor = TUTOR_MIDDLE},
     {.move = MOVE_FLIP_TURN, .cost = 0, .tutor = TUTOR_MIDDLE}, // Bonus
     {.move = MOVE_HEAT_WAVE, .cost = 0, .tutor = TUTOR_MIDDLE}, // Bonus
     {.move = MOVE_HEX, .cost = 0, .tutor = TUTOR_MIDDLE},
     {.move = MOVE_HYPER_VOICE, .cost = 0, .tutor = TUTOR_MIDDLE},
-    {.move = MOVE_ICE_PUNCH, .cost = 0, .tutor = TUTOR_MIDDLE},
+    {.move = MOVE_ICE_SPINNER, .cost = 0, .tutor = TUTOR_MIDDLE},
     {.move = MOVE_IRON_HEAD, .cost = 0, .tutor = TUTOR_MIDDLE},
     {.move = MOVE_KNOCK_OFF, .cost = 0, .tutor = TUTOR_MIDDLE},
     {.move = MOVE_POWER_GEM, .cost = 0, .tutor = TUTOR_MIDDLE},
@@ -68,7 +68,7 @@ struct MoveTutor MoveTutorTable[] = {
     {.move = MOVE_SEED_BOMB, .cost = 0, .tutor = TUTOR_MIDDLE},
     {.move = MOVE_SIGNAL_BEAM, .cost = 0, .tutor = TUTOR_MIDDLE},
     {.move = MOVE_SUCKER_PUNCH, .cost = 0, .tutor = TUTOR_MIDDLE}, // Bonus
-    {.move = MOVE_THUNDER_PUNCH, .cost = 0, .tutor = TUTOR_MIDDLE},
+    {.move = MOVE_SUPERCELL_SLAM, .cost = 0, .tutor = TUTOR_MIDDLE},
     {.move = MOVE_VOLT_SWITCH, .cost = 0, .tutor = TUTOR_MIDDLE}, // Bonus
     {.move = MOVE_ZEN_HEADBUTT, .cost = 0, .tutor = TUTOR_MIDDLE},
 

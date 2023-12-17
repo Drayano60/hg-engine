@@ -237,10 +237,14 @@ PALETTE_BUG equ 610
 .halfword PALETTE_FIRE
 .skip 4
 
-/* TM72 is already Ice */
+// Change TM72 to Ground palette
+.skip (8 * 1)
+.skip 2
+.halfword PALETTE_GROUND
+.skip 4
 
 // Change TM74 to Bug palette
-.skip (8 * 3)
+.skip (8 * 1)
 .skip 2
 .halfword PALETTE_BUG
 .skip 4

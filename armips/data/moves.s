@@ -15445,21 +15445,21 @@ movedata MOVE_PIDDLY_PUNCHES, "Piddly Punches"
     terminatedata
     movedescription MOVE_PIDDLY_PUNCHES, "The user throws many\npiddly punches using\nall of its arms. This\ncan hit the foe up to\nten times in a row."
 
-movedata MOVE_SAND_SONG, "Sand Song"
-    battleeffect 325
-    pss SPLIT_SPECIAL
-    basepower 80
-    type TYPE_GROUND
-    accuracy 100
-    pp 10
+movedata MOVE_SUPERCELL_SLAM, "Supercell Slam"
+    battleeffect 45
+    pss SPLIT_PHYSICAL
+    basepower 100
+    type TYPE_ELECTRIC
+    accuracy 95
+    pp 15
     effectchance 0
     target MOVE_TARGET_SELECTED
     priority 0
-    flags FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_SOUND
+    flags FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
     appeal 0
     contesttype 0
     terminatedata
-    movedescription MOVE_SAND_SONG, "The user flaps its\nwings and whips up a\nsinging cloud of sand.\nIn a sandstorm, this\nmove is 50% stronger."
+    movedescription MOVE_SUPERCELL_SLAM, "The user electrifies\nits body and drops\nonto the foe. If the\nmove misses, the\nuser hurts itself."
 
 movedata MOVE_COTTON_BASH, "Cotton Bash"
     battleeffect 138

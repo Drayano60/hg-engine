@@ -397,7 +397,7 @@ The user charges the foe using every\nbit of its power. It must rest on the\nnex
 The user polishes its body to reduce\ndrag. It sharply raises the Speed\nstat.
 The user attacks by breathing a\nspecial, hot fire. This also lowers\nthe target’s Sp. Atk stat.
 The user stabs the foe with a\nsharpened stone from below. It has\na high critical-hit ratio.
-The user covers its feet in ice and\ntwirls around, slamming into the target.
+The user fiercely attacks the target\nusing its entire body.
 A weak electric charge is launched\nat the foe. It causes paralysis if it\nhits.
 The user attacks the foe with a pollen\npuff that explodes. When targeting\nan ally, it heals the ally’s HP.
 A frenetic dance to uplift the fighting\nspirit. It sharply raises the user’s\nAttack stat.

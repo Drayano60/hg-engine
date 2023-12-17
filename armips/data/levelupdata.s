@@ -118,7 +118,6 @@ levelup SPECIES_CHARMELEON
 // NEW: Raging Fury
 levelup SPECIES_CHARIZARD
     learnset MOVE_HEAT_WAVE, 1
-    learnset MOVE_BLAZE_KICK, 1
     learnset MOVE_DRAGON_CLAW, 1
     learnset MOVE_SEISMIC_TOSS, 1
     learnset MOVE_WING_ATTACK, 1
@@ -2197,7 +2196,6 @@ levelup SPECIES_PONYTA
 // New: Blaze Kick, Extreme Speed, Jump Kick
 // Evolution: 35
 levelup SPECIES_RAPIDASH
-    learnset MOVE_HIGH_HORSEPOWER, 1
     learnset MOVE_FURY_ATTACK, 1
     learnset MOVE_POISON_JAB, 1
     learnset MOVE_MEGAHORN, 1
@@ -2897,7 +2895,6 @@ levelup SPECIES_KRABBY
     terminatelearnset
 
 levelup SPECIES_KINGLER
-    learnset MOVE_HIGH_HORSEPOWER, 1
     learnset MOVE_NIGHT_SLASH, 1
     learnset MOVE_MUD_SPORT, 1
     learnset MOVE_BUBBLE, 1
@@ -7058,7 +7055,6 @@ levelup SPECIES_STANTLER
 
 levelup SPECIES_WYRDEER
     learnset MOVE_EXTRASENSORY, 1
-    learnset MOVE_HIGH_HORSEPOWER, 1
     learnset MOVE_LIGHT_SCREEN, 1
     learnset MOVE_REFLECT, 1
     learnset MOVE_ME_FIRST, 1
@@ -8661,10 +8657,8 @@ levelup SPECIES_MEDITITE
     learnset MOVE_COUNTER, 59
     terminatelearnset
 
-// NEW: Blaze Kick (HOME Datamine)
 levelup SPECIES_MEDICHAM
     learnset MOVE_DYNAMIC_PUNCH, 1
-    learnset MOVE_BLAZE_KICK, 1
     learnset MOVE_BULLET_PUNCH, 1
     learnset MOVE_VACUUM_WAVE, 1
     learnset MOVE_FIRE_PUNCH, 1 
@@ -11921,7 +11915,6 @@ levelup SPECIES_RIOLU
 levelup SPECIES_LUCARIO
     learnset MOVE_AURA_SPHERE, 1
     learnset MOVE_BULLET_PUNCH, 1
-    learnset MOVE_BLAZE_KICK, 1
     learnset MOVE_LIFE_DEW, 1
     learnset MOVE_VACUUM_WAVE, 1
     learnset MOVE_QUICK_ATTACK, 1
@@ -13508,9 +13501,8 @@ levelup SPECIES_BLITZLE
 
 // NEW: Extreme Speed, Jump Kick
 levelup SPECIES_ZEBSTRIKA
-    learnset MOVE_HIGH_HORSEPOWER, 1
-    learnset MOVE_EERIE_IMPULSE, 1
     learnset MOVE_VOLT_SWITCH, 1
+    learnset MOVE_EERIE_IMPULSE, 1
     learnset MOVE_SCREECH, 1
     learnset MOVE_QUICK_ATTACK, 1
     learnset MOVE_TAIL_WHIP, 1
@@ -15136,7 +15128,6 @@ levelup SPECIES_DEERLING_WINTER
 
 levelup SPECIES_SAWSBUCK
     learnset MOVE_PETAL_BLIZZARD, 1
-    learnset MOVE_HIGH_HORSEPOWER, 1
     learnset MOVE_NATURE_POWER, 1
     learnset MOVE_GRASS_WHISTLE, 1
     learnset MOVE_SYNTHESIS, 1
@@ -15164,7 +15155,6 @@ levelup SPECIES_SAWSBUCK
 
 levelup SPECIES_SAWSBUCK_SUMMER
     learnset MOVE_PETAL_BLIZZARD, 1
-    learnset MOVE_HIGH_HORSEPOWER, 1
     learnset MOVE_NATURE_POWER, 1
     learnset MOVE_GRASS_WHISTLE, 1
     learnset MOVE_SYNTHESIS, 1
@@ -15192,7 +15182,6 @@ levelup SPECIES_SAWSBUCK_SUMMER
 
 levelup SPECIES_SAWSBUCK_AUTUMN
     learnset MOVE_PETAL_BLIZZARD, 1
-    learnset MOVE_HIGH_HORSEPOWER, 1
     learnset MOVE_NATURE_POWER, 1
     learnset MOVE_GRASS_WHISTLE, 1
     learnset MOVE_SYNTHESIS, 1
@@ -15220,7 +15209,6 @@ levelup SPECIES_SAWSBUCK_AUTUMN
 
 levelup SPECIES_SAWSBUCK_WINTER
     learnset MOVE_PETAL_BLIZZARD, 1
-    learnset MOVE_HIGH_HORSEPOWER, 1
     learnset MOVE_NATURE_POWER, 1
     learnset MOVE_GRASS_WHISTLE, 1
     learnset MOVE_SYNTHESIS, 1
@@ -16060,7 +16048,6 @@ levelup SPECIES_MIENFOO
 
 // Evolution: 35
 levelup SPECIES_MIENSHAO
-    learnset MOVE_BLAZE_KICK, 1
     learnset MOVE_DUAL_CHOP, 1
     learnset MOVE_ME_FIRST, 1
     learnset MOVE_VACUUM_WAVE, 1
@@ -21406,7 +21393,6 @@ levelup SPECIES_ANNIHILAPE
 	terminatelearnset
 
 levelup SPECIES_FARIGIRAF
-    learnset MOVE_HIGH_HORSEPOWER, 1
     learnset MOVE_MAGIC_COAT, 1
     learnset MOVE_POWER_SWAP, 1
     learnset MOVE_GUARD_SWAP, 1
@@ -21649,7 +21635,6 @@ levelup SPECIES_MEGA_VENUSAUR
 
 levelup SPECIES_MEGA_CHARIZARD_X
     learnset MOVE_HEAT_WAVE, 1
-    learnset MOVE_BLAZE_KICK, 1
     learnset MOVE_DRAGON_CLAW, 1
     learnset MOVE_SEISMIC_TOSS, 1
     learnset MOVE_WING_ATTACK, 1
@@ -21676,7 +21661,6 @@ levelup SPECIES_MEGA_CHARIZARD_X
 
 levelup SPECIES_MEGA_CHARIZARD_Y
     learnset MOVE_HEAT_WAVE, 1
-    learnset MOVE_BLAZE_KICK, 1
     learnset MOVE_DRAGON_CLAW, 1
     learnset MOVE_SEISMIC_TOSS, 1
     learnset MOVE_WING_ATTACK, 1
@@ -22312,7 +22296,6 @@ levelup SPECIES_MEGA_AGGRON
 
 levelup SPECIES_MEGA_MEDICHAM
     learnset MOVE_DYNAMIC_PUNCH, 1
-    learnset MOVE_BLAZE_KICK, 1
     learnset MOVE_BULLET_PUNCH, 1
     learnset MOVE_VACUUM_WAVE, 1
     learnset MOVE_FIRE_PUNCH, 1 
@@ -22687,7 +22670,6 @@ levelup SPECIES_MEGA_GARCHOMP
 levelup SPECIES_MEGA_LUCARIO
     learnset MOVE_AURA_SPHERE, 1
     learnset MOVE_BULLET_PUNCH, 1
-    learnset MOVE_BLAZE_KICK, 1
     learnset MOVE_VACUUM_WAVE, 1
     learnset MOVE_QUICK_ATTACK, 1
     learnset MOVE_FORESIGHT, 1
@@ -22867,7 +22849,6 @@ levelup SPECIES_PONYTA_GALARIAN
 
 // NEW: Jump Kick, Fury Attack, Extreme Speed
 levelup SPECIES_RAPIDASH_GALARIAN
-    learnset MOVE_HIGH_HORSEPOWER, 1
     learnset MOVE_FURY_ATTACK, 1
     learnset MOVE_ZEN_HEADBUTT, 1
     learnset MOVE_MEGAHORN, 1

@@ -74,7 +74,6 @@ struct MoveTutor MoveTutorTable[] = {
 
     // Late Tutor (18 + 1)
     {.move = MOVE_CLOSE_COMBAT, .cost = 0, .tutor = TUTOR_LATE},
-    {.move = MOVE_DOUBLE_EDGE, .cost = 0, .tutor = TUTOR_LATE},
     {.move = MOVE_EARTH_POWER, .cost = 0, .tutor = TUTOR_LATE},
     {.move = MOVE_FLARE_BLITZ, .cost = 0, .tutor = TUTOR_LATE},
     {.move = MOVE_FOUL_PLAY, .cost = 0, .tutor = TUTOR_LATE},
@@ -90,6 +89,7 @@ struct MoveTutor MoveTutorTable[] = {
     {.move = MOVE_POWER_WHIP, .cost = 0, .tutor = TUTOR_LATE},
     {.move = MOVE_STORED_POWER, .cost = 0, .tutor = TUTOR_LATE},
     {.move = MOVE_SUPERPOWER, .cost = 0, .tutor = TUTOR_LATE}, // Bonus
+    {.move = MOVE_SUPER_FANG, .cost = 0, .tutor = TUTOR_LATE},
     {.move = MOVE_TRIPLE_AXEL, .cost = 0, .tutor = TUTOR_LATE},
     {.move = MOVE_WILD_CHARGE, .cost = 0, .tutor = TUTOR_LATE},
 };

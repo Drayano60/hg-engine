@@ -118,6 +118,7 @@ levelup SPECIES_CHARMELEON
 // NEW: Raging Fury
 levelup SPECIES_CHARIZARD
     learnset MOVE_HEAT_WAVE, 1
+    learnset MOVE_BLAZE_KICK, 1
     learnset MOVE_DRAGON_CLAW, 1
     learnset MOVE_SEISMIC_TOSS, 1
     learnset MOVE_WING_ATTACK, 1
@@ -8656,7 +8657,9 @@ levelup SPECIES_MEDITITE
     learnset MOVE_COUNTER, 59
     terminatelearnset
 
+// NEW: Blaze Kick (HOME)
 levelup SPECIES_MEDICHAM
+    learnset MOVE_BLAZE_KICK, 1
     learnset MOVE_DYNAMIC_PUNCH, 1
     learnset MOVE_BULLET_PUNCH, 1
     learnset MOVE_VACUUM_WAVE, 1
@@ -11613,7 +11616,9 @@ levelup SPECIES_BUNEARY
     learnset MOVE_HEALING_WISH, 48
     terminatelearnset
 
+// NEW: Blaze Kick
 levelup SPECIES_LOPUNNY
+    learnset MOVE_BLAZE_KICK, 1
     learnset MOVE_MIRROR_COAT, 1 
     learnset MOVE_MAGIC_COAT, 1
     learnset MOVE_FAKE_OUT, 1
@@ -11913,6 +11918,7 @@ levelup SPECIES_RIOLU
 
 levelup SPECIES_LUCARIO
     learnset MOVE_AURA_SPHERE, 1
+    learnset MOVE_BLAZE_KICK, 1
     learnset MOVE_BULLET_PUNCH, 1
     learnset MOVE_LIFE_DEW, 1
     learnset MOVE_VACUUM_WAVE, 1
@@ -13498,9 +13504,10 @@ levelup SPECIES_BLITZLE
     learnset MOVE_WILD_CHARGE, 52
     terminatelearnset
 
-// NEW: Extreme Speed, Jump Kick
+// NEW: Blaze Kick, Extreme Speed, Jump Kick
 levelup SPECIES_ZEBSTRIKA
     learnset MOVE_VOLT_SWITCH, 1
+    learnset MOVE_BLAZE_KICK, 1
     learnset MOVE_EERIE_IMPULSE, 1
     learnset MOVE_SCREECH, 1
     learnset MOVE_QUICK_ATTACK, 1
@@ -16047,6 +16054,7 @@ levelup SPECIES_MIENFOO
 
 // Evolution: 35
 levelup SPECIES_MIENSHAO
+    learnset MOVE_BLAZE_KICK, 1
     learnset MOVE_DUAL_CHOP, 1
     learnset MOVE_ME_FIRST, 1
     learnset MOVE_VACUUM_WAVE, 1
@@ -18102,6 +18110,7 @@ levelup SPECIES_TORRACAT
 	terminatelearnset
 
 levelup SPECIES_INCINEROAR
+    learnset MOVE_BLAZE_KICK, 1
 	learnset MOVE_BULK_UP, 1
     learnset MOVE_FAKE_OUT, 1
     learnset MOVE_POWER_TRIP, 1

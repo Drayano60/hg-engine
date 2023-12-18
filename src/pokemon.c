@@ -3058,6 +3058,7 @@ void LONG_CALL SetBoxMonAbility(struct BoxPokemon *boxmon) // actually takes box
     u32 ability1, ability2, hiddenability;
     u32 pid;
     u16 has_hidden_ability;
+    u16 has_changed_ability;
 
     fastMode = BoxMonSetFastModeOn(boxmon);
 
@@ -3082,6 +3083,7 @@ void LONG_CALL SetBoxMonAbility(struct BoxPokemon *boxmon) // actually takes box
     else
     {
         has_hidden_ability = GetBoxMonData(boxmon, MON_DATA_RESERVED_113, NULL) & DUMMY_P2_1_HIDDEN_ABILITY_MASK; // dummy_p2_1 & hidden ability mask
+        has_changed_ability = GetBoxMonData(boxmon, MON_DATA_RESERVED_113, NULL) & DUMMY_P2_1_CHANGED_ABILITY_MASK; // checks if ability was changed
     }
 
     hiddenability = GetMonHiddenAbility(mons_no, form);
@@ -3096,13 +3098,21 @@ void LONG_CALL SetBoxMonAbility(struct BoxPokemon *boxmon) // actually takes box
     }
     else if (ability2 != 0)
     {
-        if (pid & 1)
+        if (pid & 1) // Ordinarily ability 2 in this case
         {
-            SetBoxMonData(boxmon, MON_DATA_ABILITY, (u8 *)&ability2);
+            if (has_changed_ability) { // If the ability was changed from the one that doesn't match the PID, maintain it
+                SetBoxMonData(boxmon, MON_DATA_ABILITY, (u8 *)&ability1);
+            } else {
+                SetBoxMonData(boxmon, MON_DATA_ABILITY, (u8 *)&ability2);
+            }
         }
-        else
+        else // Ordinarily ability 1 in this case
         {
-            SetBoxMonData(boxmon, MON_DATA_ABILITY, (u8 *)&ability1);
+            if (has_changed_ability) {
+                SetBoxMonData(boxmon, MON_DATA_ABILITY, (u8 *)&ability2);
+            } else {
+                SetBoxMonData(boxmon, MON_DATA_ABILITY, (u8 *)&ability1);
+            }
         }
     }
     else
@@ -5014,6 +5024,92 @@ void LONG_CALL ClearMonMoves(struct PartyPokemon *pokemon)
     }
 }
 
+#define SET_HP_IV_MAX 0
+#define SET_ATK_IV_MAX 1
+#define SET_DEF_IV_MAX 2
+#define SET_SPEED_IV_MAX 3
+#define SET_SPATK_IV_MAX 4
+#define SET_SPDEF_IV_MAX 5
+#define SET_NORMAL_ABILITY 6
+#define SET_HIDDEN_ABILITY 7
+
+#define SET_EVS 10
+
+#define HP_BIT 32
+#define ATK_BIT 16
+#define DEF_BIT 8
+#define SPEED_BIT 4
+#define SPATK_BIT 2
+#define SPDEF_BIT 1
+
+// No idea how to add new script commands so this can be used by doing SetFlag 2602 followed by "GivePokemonEgg X Y".
+// This way also stops DSPRE breaking from not recognizing the command at least!
+BOOL ModifyPokemon(SCRIPTCONTEXT *ctx) {
+    FieldSystem *fsys = ctx->fsys;
+    u16 partySlot = ScriptGetVar(ctx);
+    u16 property = ScriptGetVar(ctx);
+
+    struct Party *party = SaveData_GetPlayerPartyPtr(fsys->savedata);
+    struct PartyPokemon *pp = PokeParty_GetMemberPointer(party, partySlot);
+    struct BoxPokemon *boxmon = &pp->box;
+
+    int mons_no = GetBoxMonData(boxmon, MON_DATA_SPECIES, NULL);
+    int form = GetBoxMonData(boxmon, MON_DATA_FORM, NULL);
+    
+    // We define these like this because the set data functions require pointers
+    int maxIV = 31;
+    int maxEV = 252;
+    int minEV = 0;
+
+    if (property >= SET_HP_IV_MAX && property <= SET_SPEED_IV_MAX) {
+        SetBoxMonData(boxmon, (MON_DATA_HP_IV + property), &maxIV);
+        RecalcPartyPokemonStats(pp);
+    }
+
+    if (property >= SET_EVS) {
+        int trueValue = property - SET_EVS;
+
+        SetBoxMonData(boxmon, MON_DATA_HP_EV, trueValue & HP_BIT ? &maxEV : &minEV);
+        SetBoxMonData(boxmon, MON_DATA_ATK_EV, trueValue & ATK_BIT ? &maxEV : &minEV);
+        SetBoxMonData(boxmon, MON_DATA_DEF_EV, trueValue & DEF_BIT ? &maxEV : &minEV);
+        SetBoxMonData(boxmon, MON_DATA_SPEED_EV, trueValue & SPEED_BIT ? &maxEV : &minEV);
+        SetBoxMonData(boxmon, MON_DATA_SPATK_EV, trueValue & SPATK_BIT ? &maxEV : &minEV);
+        SetBoxMonData(boxmon, MON_DATA_SPDEF_EV, trueValue & SPDEF_BIT ? &maxEV : &minEV);
+        RecalcPartyPokemonStats(pp);
+    }
+
+    // This flips the ability from regular ability 1 to regular ability 2 or vice-versa (if an ability 2 exists).
+    if (property == SET_NORMAL_ABILITY) {
+        mons_no = PokeOtherFormMonsNoGet(mons_no, form);
+        u32 ability1 = PokeFormNoPersonalParaGet(mons_no, form, PERSONAL_ABILITY_1);
+        u32 ability2 = PokeFormNoPersonalParaGet(mons_no, form, PERSONAL_ABILITY_2);
+        u32 currentAbility = GetBoxMonData(boxmon, MON_DATA_ABILITY, NULL);
+        u16 hasChangedAbility = GetBoxMonData(boxmon, MON_DATA_RESERVED_113, NULL) & DUMMY_P2_1_CHANGED_ABILITY_MASK; // checks if ability was changed
+
+        if (hasChangedAbility) { // In this case, restore the natural one
+            UNSET_BOX_MON_CHANGED_ABILITY_BIT(boxmon);
+            ResetPartyPokemonAbility(pp);
+        } else if (ability2 != 0) {
+            if (currentAbility == ability1) {
+                SetBoxMonData(boxmon, MON_DATA_ABILITY, &ability2);
+            } else {
+                SetBoxMonData(boxmon, MON_DATA_ABILITY, &ability1);
+            }
+
+            // We set a bit on the Pokemon's data so we can maintain the ability change during evolution
+            // This isn't a "true" ability change as that relies on PID, but this should hopefully cover it
+            SET_BOX_MON_CHANGED_ABILITY_BIT(boxmon);
+        }
+    }
+
+    if (property == SET_HIDDEN_ABILITY) {
+        SET_MON_HIDDEN_ABILITY_BIT(pp);
+        ResetPartyPokemonAbility(pp);
+    }
+
+    ClearScriptFlag(2602);
+}
+
 /**
  *  @brief script command to give an egg adapted to set the hidden ability
  *
@@ -5022,6 +5118,13 @@ void LONG_CALL ClearMonMoves(struct PartyPokemon *pokemon)
  */
 BOOL ScrCmd_GiveEgg(SCRIPTCONTEXT *ctx)
 {
+    // Hijack to a different script command if the flag is set
+    if (CheckScriptFlag(2602) == 1) {
+        ModifyPokemon(ctx);
+
+        return FALSE;
+    }
+
     FieldSystem *fsys = ctx->fsys;
     void *profile = Sav2_PlayerData_GetProfileAddr(fsys->savedata);
 

@@ -16,7 +16,7 @@
 // MON_DATA_RESERVED_113 fields
 #define DUMMY_P2_1_HIDDEN_ABILITY_MASK (0x01)
 #define DUMMY_P2_1_HAS_HIT_NECESSARY_CRITICAL_HITS (0x02)
-
+#define DUMMY_P2_1_CHANGED_ABILITY_MASK (0x04)
 
 #define SET_MON_HIDDEN_ABILITY_BIT(mon) { \
     u16 tempvarassumeunused = GetMonData(mon, MON_DATA_RESERVED_113, 0); \
@@ -41,6 +41,17 @@
     SetBoxMonData(boxmon, MON_DATA_RESERVED_113, (u8 *)&tempvarassumeunused); \
 }
 
+#define SET_BOX_MON_CHANGED_ABILITY_BIT(boxmon) { \
+    u16 tempvarassumeunused = GetBoxMonData(boxmon, MON_DATA_RESERVED_113, 0); \
+    tempvarassumeunused |= DUMMY_P2_1_CHANGED_ABILITY_MASK; \
+    SetBoxMonData(boxmon, MON_DATA_RESERVED_113, (u8 *)&tempvarassumeunused); \
+}
+
+#define UNSET_BOX_MON_CHANGED_ABILITY_BIT(boxmon) { \
+    u16 tempvarassumeunused = GetBoxMonData(boxmon, MON_DATA_RESERVED_113, 0); \
+    tempvarassumeunused &= ~DUMMY_P2_1_CHANGED_ABILITY_MASK; \
+    SetBoxMonData(boxmon, MON_DATA_RESERVED_113, (u8 *)&tempvarassumeunused); \
+}
 
 #define POW_RND (32)
 

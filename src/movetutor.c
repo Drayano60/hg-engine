@@ -48,10 +48,10 @@ struct MoveTutor MoveTutorTable[] = {
     {.move = MOVE_WATER_PULSE, .cost = 0, .tutor = TUTOR_EARLY},
 
     // Middle Tutor (18 + 5)
+    {.move = MOVE_ALLURING_VOICE, .cost = 0, .tutor = TUTOR_MIDDLE},
     {.move = MOVE_AQUA_TAIL, .cost = 0, .tutor = TUTOR_MIDDLE},
     {.move = MOVE_AURA_SPHERE, .cost = 0, .tutor = TUTOR_MIDDLE},
     {.move = MOVE_BLAZE_KICK, .cost = 0, .tutor = TUTOR_MIDDLE},
-    {.move = MOVE_CHARM, .cost = 0, .tutor = TUTOR_MIDDLE},
     {.move = MOVE_CROSS_POISON, .cost = 0, .tutor = TUTOR_MIDDLE},
     {.move = MOVE_DRAGON_TAIL, .cost = 0, .tutor = TUTOR_MIDDLE},
     {.move = MOVE_DRILL_RUN, .cost = 0, .tutor = TUTOR_MIDDLE},

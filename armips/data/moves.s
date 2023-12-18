@@ -15461,21 +15461,21 @@ movedata MOVE_SUPERCELL_SLAM, "Supercell Slam"
     terminatedata
     movedescription MOVE_SUPERCELL_SLAM, "The user electrifies\nits body and drops\nonto the foe. If the\nmove misses, the\nuser hurts itself."
 
-movedata MOVE_COTTON_BASH, "Cotton Bash"
-    battleeffect 138
-    pss SPLIT_PHYSICAL
-    basepower 70
-    type TYPE_FLYING
-    accuracy 90
+movedata MOVE_ALLURING_VOICE, "Alluring Voice"
+    battleeffect 333
+    pss SPLIT_SPECIAL
+    basepower 80
+    type TYPE_FAIRY
+    accuracy 100
     pp 10
     effectchance 100
     target MOVE_TARGET_SELECTED
     priority 0
-    flags FLAG_CONTACT | FLAG_PROTECT | FLAG_MIRROR_MOVE
+    flags FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_SOUND
     appeal 0
     contesttype 0
     terminatedata
-    movedescription MOVE_COTTON_BASH, "Cloaked in cotton,\nthe user rides the\nwind to hit the foe.\nThe user’s Defense\nstat is boosted."
+    movedescription MOVE_ALLURING_VOICE, "The user attacks the\nfoe using its angelic\nvoice. This confuses\nthe foe if it boosted\nits stats this turn."
 
 movedata MOVE_THUNDER_CLAW, "Thunder Claw"
     battleeffect 327

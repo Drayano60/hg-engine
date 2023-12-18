@@ -58,6 +58,7 @@ BOOL btl_scr_cmd_E6_echoedvoicedamagecalc(void *bw, struct BattleStruct *sp);
 BOOL btl_scr_cmd_E7_storedpowerdamagecalc(void *bw, struct BattleStruct *sp);
 BOOL btl_scr_cmd_E8_ragefistdamagecalc(void *bw, struct BattleStruct *sp);
 BOOL btl_scr_cmd_E9_strengthsapcalc(void *bw, struct BattleStruct *sp);
+BOOL btl_scr_cmd_EA_didTargetRaiseStat(void *bw, struct BattleStruct *sp);
 
 u32 CalculateBallShakes(void *bw, struct BattleStruct *sp);
 u32 DealWithCriticalCaptureShakes(struct EXP_CALCULATOR *expcalc, u32 shakes);
@@ -316,6 +317,7 @@ const btl_scr_cmd_func NewBattleScriptCmdTable[] =
     [0xE7 - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_E7_storedpowerdamagecalc,
     [0xE8 - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_E8_ragefistdamagecalc,
     [0xE9 - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_E9_strengthsapcalc,
+    [0xEA - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_EA_didTargetRaiseStat,
 };
 
 
@@ -1615,6 +1617,10 @@ BOOL btl_scr_cmd_33_statbuffchange(void *bw, struct BattleStruct *sp)
         }
         else
         {
+            // Set flag that says the Pokémon raised a stat, used for Burning Jealousy and Alluring Voice.
+            // This flag automatically clears itself at the end of the whole turn.
+            sp->oneTurnFlag[sp->state_client].stats_raised_flag = 1;
+
             if (sp->addeffect_type == ADD_EFFECT_ABILITY)
             {
                 switch (statchange)
@@ -2431,6 +2437,18 @@ BOOL btl_scr_cmd_E9_strengthsapcalc(void *bw, struct BattleStruct *sp) {
 
     sp->hp_calc_work = -damage;
 
+    return FALSE;
+}
+
+BOOL btl_scr_cmd_EA_didTargetRaiseStat(void *bw UNUSED, struct BattleStruct *sp) {
+    IncrementBattleScriptPtr(sp, 1);
+
+    int address = read_battle_script_param(sp);
+
+    if (sp->oneTurnFlag[sp->defence_client].stats_raised_flag) {
+       IncrementBattleScriptPtr(sp, address);
+    }
+    
     return FALSE;
 }
 

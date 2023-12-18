@@ -5700,7 +5700,7 @@ levelup SPECIES_SKIPLOOM
     learnset MOVE_MEMENTO, 50
     terminatelearnset
 
-// NEW: Cotton Bash (Custom), Growth
+// NEW: Growth
 levelup SPECIES_JUMPLUFF
     learnset MOVE_BATON_PASS, 1
     learnset MOVE_TAILWIND, 1
@@ -5721,7 +5721,6 @@ levelup SPECIES_JUMPLUFF
     learnset MOVE_WORRY_SEED, 19
     learnset MOVE_SEED_BOMB, 22
     learnset MOVE_ACROBATICS, 25
-    learnset MOVE_COTTON_BASH, 27
     learnset MOVE_COTTON_SPORE, 30
     learnset MOVE_GIGA_DRAIN, 34
     learnset MOVE_STRENGTH_SAP, 38

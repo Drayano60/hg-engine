@@ -1520,3 +1520,8 @@ MOVE_DATA_CONTEST_TYPE equ 11
 .macro strengthsapcalc
     .word 0xE9
 .endmacro
+
+.macro didTargetRaiseStat,address
+    .word 0xEA
+    .word ((address - org()) / 4) - 1
+.endmacro

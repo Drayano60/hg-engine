@@ -10278,7 +10278,7 @@ movedata MOVE_ION_DELUGE, "Ion Deluge"
     terminatedata
 
 // NAME TOO LONG
-movedata MOVE_PARABOLIC_CHARGE, "P. Charge"
+movedata MOVE_PARABOLIC_CHARGE, "ParabolicCharge"
     battleeffect 3
     pss SPLIT_SPECIAL
     basepower 65
@@ -11651,7 +11651,7 @@ movedata MOVE_SHORE_UP, "Shore Up"
     terminatedata
 
 // NAME TOO LONG
-movedata MOVE_FIRST_IMPRESSION, "F. Impression"
+movedata MOVE_FIRST_IMPRESSION, "FirstImpression"
     battleeffect 158
     pss SPLIT_PHYSICAL
     basepower 90
@@ -13891,8 +13891,9 @@ movedata MOVE_SKITTER_SMACK, "Skitter Smack"
     terminatedata
     movedescription MOVE_SKITTER_SMACK, "The user skitters\nbehind the foe\nto attack.\nThis also lowers the\nfoe’s Sp. Atk stat."
 
-movedata MOVE_BURNING_JEALOUSY, "Burning Jealousy"
-    battleeffect 4
+// NAME TOO LONG
+movedata MOVE_BURNING_JEALOUSY, "BurningJealousy"
+    battleeffect 334
     pss SPLIT_SPECIAL
     basepower 70
     type TYPE_FIRE
@@ -13901,10 +13902,11 @@ movedata MOVE_BURNING_JEALOUSY, "Burning Jealousy"
     effectchance 100
     target MOVE_TARGET_BOTH
     priority 0
-    flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
+    flags FLAG_PROTECT | FLAG_MIRROR_MOVE
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
+    movedescription MOVE_BURNING_JEALOUSY, "The user attacks with\nenergy from jealousy.\nThis burns any foes\nthat boosted their\nstats this turn."
 
 movedata MOVE_LASH_OUT, "Lash Out"
     battleeffect 0
@@ -15029,7 +15031,7 @@ movedata MOVE_SHED_TAIL, "Shed Tail"
     terminatedata
 
 // NAME TOO LONG
-movedata MOVE_CHILLY_RECEPTION, "C. Reception"
+movedata MOVE_CHILLY_RECEPTION, "ChillyReception"
     battleeffect 329
     pss SPLIT_STATUS
     basepower 0

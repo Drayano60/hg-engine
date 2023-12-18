@@ -2,9 +2,29 @@
 
     movename movenum, name
     movenamecaps movenum, name
-    userusedmovename 3*movenum, "{STRVAR_1 1, 0, 0} used\\n" + name + "!"
-    userusedmovename 3*movenum+1, "The wild {STRVAR_1 1, 0, 0} used\\n" + name + "!"
-    userusedmovename 3*movenum+2, "The foe’s {STRVAR_1 1, 0, 0} used\\n" + name + "!"
+
+	// Inefficient way to transform the 16+ character names into their normal forms in battle text 
+	.if name == "BurningJealousy"
+		userusedmovename 3*movenum, "{STRVAR_1 1, 0, 0} used\\n" + "Burning Jealousy" + "!"
+		userusedmovename 3*movenum+1, "The wild {STRVAR_1 1, 0, 0} used\\n" + "Burning Jealousy" + "!"
+		userusedmovename 3*movenum+2, "The foe’s {STRVAR_1 1, 0, 0} used\\n" + "Burning Jealousy" + "!"
+	.elseif name == "ChillyReception"
+		userusedmovename 3*movenum, "{STRVAR_1 1, 0, 0} used\\n" + "Chilly Reception" + "!"
+		userusedmovename 3*movenum+1, "The wild {STRVAR_1 1, 0, 0} used\\n" + "Chilly Reception" + "!"
+		userusedmovename 3*movenum+2, "The foe’s {STRVAR_1 1, 0, 0} used\\n" + "Chilly Reception" + "!"
+	.elseif name == "FirstImpression"
+		userusedmovename 3*movenum, "{STRVAR_1 1, 0, 0} used\\n" + "First Impression" + "!"
+		userusedmovename 3*movenum+1, "The wild {STRVAR_1 1, 0, 0} used\\n" + "First Impression" + "!"
+		userusedmovename 3*movenum+2, "The foe’s {STRVAR_1 1, 0, 0} used\\n" + "First Impression" + "!"
+	.elseif name == "ParabolicCharge"
+		userusedmovename 3*movenum, "{STRVAR_1 1, 0, 0} used\\n" + "Parabolic Charge" + "!"
+		userusedmovename 3*movenum+1, "The wild {STRVAR_1 1, 0, 0} used\\n" + "Parabolic Charge" + "!"
+		userusedmovename 3*movenum+2, "The foe’s {STRVAR_1 1, 0, 0} used\\n" + "Parabolic Charge" + "!"
+	.else
+		userusedmovename 3*movenum, "{STRVAR_1 1, 0, 0} used\\n" + name + "!"
+		userusedmovename 3*movenum+1, "The wild {STRVAR_1 1, 0, 0} used\\n" + name + "!"
+		userusedmovename 3*movenum+2, "The foe’s {STRVAR_1 1, 0, 0} used\\n" + name + "!"
+	.endif
 
 	.if movenum < 10
 		.create "build/a011/move_00" + tostring(movenum),0

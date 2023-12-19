@@ -5458,7 +5458,6 @@ levelup SPECIES_XATU
     learnset MOVE_FUTURE_SIGHT, 55
     terminatelearnset
 
-// Second Evolution: 35
 levelup SPECIES_MAREEP
     learnset MOVE_TACKLE, 1
     learnset MOVE_GROWL, 1
@@ -5470,7 +5469,7 @@ levelup SPECIES_MAREEP
     learnset MOVE_CHARGE_BEAM, 20
     learnset MOVE_CONFUSE_RAY, 24
     learnset MOVE_DISCHARGE, 28
-    learnset MOVE_POWER_GEM, 32
+    learnset MOVE_POWER_GEM, 35
     learnset MOVE_SIGNAL_BEAM, 40
     learnset MOVE_DAZZLING_GLEAM, 45
     learnset MOVE_LIGHT_SCREEN, 50
@@ -5478,7 +5477,6 @@ levelup SPECIES_MAREEP
     learnset MOVE_THUNDER, 60
     terminatelearnset
 
-// Second Evolution: 35
 levelup SPECIES_FLAAFFY
     learnset MOVE_TACKLE, 1
     learnset MOVE_GROWL, 1
@@ -5491,7 +5489,7 @@ levelup SPECIES_FLAAFFY
     learnset MOVE_CHARGE_BEAM, 20
     learnset MOVE_CONFUSE_RAY, 24
     learnset MOVE_DISCHARGE, 28
-    learnset MOVE_POWER_GEM, 32
+    learnset MOVE_POWER_GEM, 35
     learnset MOVE_SIGNAL_BEAM, 40
     learnset MOVE_DAZZLING_GLEAM, 45
     learnset MOVE_LIGHT_SCREEN, 50
@@ -5500,7 +5498,6 @@ levelup SPECIES_FLAAFFY
     terminatelearnset
 
 // NEW: Tail Glow
-// Second Evolution: 35
 levelup SPECIES_AMPHAROS
 
     .if TYPE_CHANGES_IMPLEMENTED
@@ -5522,14 +5519,14 @@ levelup SPECIES_AMPHAROS
     learnset MOVE_CHARGE_BEAM, 20
     learnset MOVE_CONFUSE_RAY, 24
     learnset MOVE_DISCHARGE, 28
-    learnset MOVE_POWER_GEM, 32
 
     .if TYPE_CHANGES_IMPLEMENTED
-        learnset MOVE_DRAGON_PULSE, 35
+        learnset MOVE_DRAGON_PULSE, 30
     .else
-        learnset MOVE_THUNDER_PUNCH, 35
+        learnset MOVE_THUNDER_PUNCH, 30
     .endif
 
+    learnset MOVE_POWER_GEM, 35
     learnset MOVE_SIGNAL_BEAM, 40
     learnset MOVE_DAZZLING_GLEAM, 45
     learnset MOVE_LIGHT_SCREEN, 50
@@ -10976,10 +10973,8 @@ levelup SPECIES_KRICKETOT
     learnset MOVE_UPROAR, 10
     terminatelearnset
 
-// NEW: Disarming Voice, Boomburst
+// NEW: Boomburst
 levelup SPECIES_KRICKETUNE
-    learnset MOVE_DISARMING_VOICE, 1
-    learnset MOVE_ECHOED_VOICE, 1
     learnset MOVE_GROWL, 1 
     learnset MOVE_BIDE, 1 
     learnset MOVE_STRUGGLE_BUG, 1
@@ -18040,6 +18035,7 @@ levelup SPECIES_DECIDUEYE
     terminatelearnset
 
 levelup SPECIES_DECIDUEYE_HISUIAN
+    learnset MOVE_AURA_SPHERE, 1
     learnset MOVE_BULK_UP, 1
     learnset MOVE_U_TURN, 1
     learnset MOVE_TACKLE, 1

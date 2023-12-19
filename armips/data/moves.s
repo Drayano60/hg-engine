@@ -9611,20 +9611,20 @@ movedata MOVE_ELECTROWEB, "Electroweb"
 
 // POWER: 90 >> 120
 movedata MOVE_WILD_CHARGE, "Wild Charge"
-    battleeffect 198
+    battleeffect 262
     pss SPLIT_PHYSICAL
     basepower MOVE_CHANGES_IMPLEMENTED ? 120 : 90
     type TYPE_ELECTRIC
     accuracy 100
     pp 15
-    effectchance 0
+    effectchance 10
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_CONTACT | FLAG_PROTECT | FLAG_MIRROR_MOVE
     appeal 0
     contesttype 0
     terminatedata
-    movedescription MOVE_WILD_CHARGE, "The user is shrouded\nin electricity and\nsmashes into the foe.\nThe user is hurt by\n33% of damage dealt."
+    movedescription MOVE_WILD_CHARGE, "An electrified charge.\nThe user is hurt by\n33% of damage dealt.\nThis has a 10% chance\nto paralyze the foe."
 
 // ACCURACY: 95 >> 100
 movedata MOVE_DRILL_RUN, "Drill Run"

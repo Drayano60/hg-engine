@@ -3083,7 +3083,7 @@ void LONG_CALL SetBoxMonAbility(struct BoxPokemon *boxmon) // actually takes box
     else
     {
         has_hidden_ability = GetBoxMonData(boxmon, MON_DATA_RESERVED_113, NULL) & DUMMY_P2_1_HIDDEN_ABILITY_MASK; // dummy_p2_1 & hidden ability mask
-        has_changed_ability = GetBoxMonData(boxmon, MON_DATA_RESERVED_113, NULL) & DUMMY_P2_1_CHANGED_ABILITY_MASK; // checks if ability was changed
+        has_changed_ability = GetBoxMonData(boxmon, MON_DATA_RESERVED_114, NULL) & DUMMY_P2_1_CHANGED_ABILITY_MASK; // checks if ability was changed
     }
 
     hiddenability = GetMonHiddenAbility(mons_no, form);
@@ -5084,12 +5084,17 @@ BOOL ModifyPokemon(SCRIPTCONTEXT *ctx) {
         u32 ability1 = PokeFormNoPersonalParaGet(mons_no, form, PERSONAL_ABILITY_1);
         u32 ability2 = PokeFormNoPersonalParaGet(mons_no, form, PERSONAL_ABILITY_2);
         u32 currentAbility = GetBoxMonData(boxmon, MON_DATA_ABILITY, NULL);
-        u16 hasChangedAbility = GetBoxMonData(boxmon, MON_DATA_RESERVED_113, NULL) & DUMMY_P2_1_CHANGED_ABILITY_MASK; // checks if ability was changed
+        u16 hasChangedAbility = GetBoxMonData(boxmon, MON_DATA_RESERVED_114, NULL) & DUMMY_P2_1_CHANGED_ABILITY_MASK; // checks if ability was changed
+
+        // If the Pokémon has no second ability, reject and let the script handle it.
+        if (ability2 == 0) {
+            return FALSE;
+        }
 
         if (hasChangedAbility) { // In this case, restore the natural one
             UNSET_BOX_MON_CHANGED_ABILITY_BIT(boxmon);
             ResetPartyPokemonAbility(pp);
-        } else if (ability2 != 0) {
+        } else {
             if (currentAbility == ability1) {
                 SetBoxMonData(boxmon, MON_DATA_ABILITY, &ability2);
             } else {
@@ -5103,6 +5108,13 @@ BOOL ModifyPokemon(SCRIPTCONTEXT *ctx) {
     }
 
     if (property == SET_HIDDEN_ABILITY) {
+        u32 hiddenAbility = GetMonHiddenAbility(mons_no, form);
+ 
+         // If the Pokémon has no hidden ability, reject and let the script handle it.
+        if (hiddenAbility == 0) {
+            return FALSE;
+        }
+
         SET_MON_HIDDEN_ABILITY_BIT(pp);
         ResetPartyPokemonAbility(pp);
     }

@@ -31,7 +31,16 @@
 .halfword ITEM_RARE_BONE
 .halfword ITEM_STAR_PIECE
 
-/* Any Other Area Table - Not Edited */
-/* .org 0x02209614 */
+/* Any Other Area Table - Edited to remove Heart Scale */
+.org 0x02209614
+
+.halfword ITEM_MAX_ETHER
+.halfword ITEM_REVIVE
+.halfword ITEM_STAR_PIECE
+.halfword ITEM_RED_SHARD
+.halfword ITEM_GREEN_SHARD
+.halfword ITEM_BLUE_SHARD
+.halfword ITEM_YELLOW_SHARD
+.halfword ITEM_MAX_REVIVE
 
 .close

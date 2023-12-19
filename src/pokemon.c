@@ -5033,7 +5033,13 @@ void LONG_CALL ClearMonMoves(struct PartyPokemon *pokemon)
 #define SET_NORMAL_ABILITY 6
 #define SET_HIDDEN_ABILITY 7
 
-#define SET_EVS 10
+#define SET_STATUS_BURN 11
+#define SET_STATUS_FROZEN 12
+#define SET_STATUS_PARALYSIS 13
+#define SET_STATUS_POISON 14
+#define SET_STATUS_SLEEP 15
+
+#define SET_EVS 20
 
 #define HP_BIT 32
 #define ATK_BIT 16
@@ -5055,15 +5061,56 @@ BOOL ModifyPokemon(SCRIPTCONTEXT *ctx) {
 
     int mons_no = GetBoxMonData(boxmon, MON_DATA_SPECIES, NULL);
     int form = GetBoxMonData(boxmon, MON_DATA_FORM, NULL);
-    
+    int type1 = GetBoxMonData(boxmon, MON_DATA_TYPE_1, NULL);
+    int type2 = GetBoxMonData(boxmon, MON_DATA_TYPE_2, NULL);
+    u32 currentAbility = GetBoxMonData(boxmon, MON_DATA_ABILITY, NULL);
+
     // We define these like this because the set data functions require pointers
     int maxIV = 31;
     int maxEV = 252;
     int minEV = 0;
 
+    int burn = STATUS_FLAG_BURNED;
+    int frozen = STATUS_FLAG_FROZEN;
+    int paralysis = STATUS_FLAG_PARALYZED;
+    int poison = STATUS_FLAG_POISONED;
+    int sleep = STATUS_FLAG_ASLEEP;
+
     if (property >= SET_HP_IV_MAX && property <= SET_SPEED_IV_MAX) {
         SetBoxMonData(boxmon, (MON_DATA_HP_IV + property), &maxIV);
         RecalcPartyPokemonStats(pp);
+    }
+
+    if (property == SET_STATUS_BURN) {
+        if (type1 == TYPE_FIRE || type2 == TYPE_FIRE || currentAbility == ABILITY_WATER_VEIL) {
+            return FALSE;
+        }
+
+        SetMonData(pp, MON_DATA_STATUS, &burn);
+    } else if (property == SET_STATUS_FROZEN) {
+        if (type1 == TYPE_ICE || type2 == TYPE_ICE || currentAbility == ABILITY_MAGMA_ARMOR) {
+            return FALSE;
+        }
+
+        SetMonData(pp, MON_DATA_STATUS, &frozen);
+    } else if (property == SET_STATUS_PARALYSIS) {
+        if (type1 == TYPE_ELECTRIC || type2 == TYPE_ELECTRIC || currentAbility == ABILITY_LIMBER) {
+            return FALSE;
+        }
+
+        SetMonData(pp, MON_DATA_STATUS, &paralysis);
+    } else if (property == SET_STATUS_POISON) {
+        if (type1 == TYPE_POISON || type1 == TYPE_STEEL || type2 == TYPE_POISON || type2 == TYPE_STEEL || currentAbility == ABILITY_IMMUNITY || currentAbility == ABILITY_PASTEL_VEIL) {
+            return FALSE;
+        }
+
+        SetMonData(pp, MON_DATA_STATUS, &poison);
+    } else if (property == SET_STATUS_SLEEP) {
+        if (currentAbility == ABILITY_INSOMNIA || currentAbility == ABILITY_VITAL_SPIRIT || currentAbility == ABILITY_SWEET_VEIL) {
+            return FALSE;
+        }
+
+        SetMonData(pp, MON_DATA_STATUS, &sleep);
     }
 
     if (property >= SET_EVS) {
@@ -5083,7 +5130,6 @@ BOOL ModifyPokemon(SCRIPTCONTEXT *ctx) {
         mons_no = PokeOtherFormMonsNoGet(mons_no, form);
         u32 ability1 = PokeFormNoPersonalParaGet(mons_no, form, PERSONAL_ABILITY_1);
         u32 ability2 = PokeFormNoPersonalParaGet(mons_no, form, PERSONAL_ABILITY_2);
-        u32 currentAbility = GetBoxMonData(boxmon, MON_DATA_ABILITY, NULL);
         u16 hasChangedAbility = GetBoxMonData(boxmon, MON_DATA_RESERVED_114, NULL) & DUMMY_P2_1_CHANGED_ABILITY_MASK; // checks if ability was changed
 
         // If the Pokémon has no second ability, reject and let the script handle it.

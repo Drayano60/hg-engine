@@ -111,7 +111,7 @@ NPCs:
 
 2600 - HG-e hidden ability flag.
 2601 - HG-e starter hidden ability flag.
-2602 - Not used
+2602 - Used to override GivePokemonEgg into the Pokemon property change func
 2603 - Not used
 2604 - Mystery Stone Flag 1
 2605 - Mystery Stone Flag 2

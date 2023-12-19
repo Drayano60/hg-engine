@@ -15375,10 +15375,10 @@ movedata MOVE_PSYBLADE, "Psyblade"
 
 /** Custom Moves **/
 
-// This is a custom move for Meganium
-// Attack that gives -1 Atk/SpAtk
+// This is a custom move for Meganium.
+// It damages a foe and reduces its Attack by one stage.
 movedata MOVE_PETAL_BARRAGE, "Petal Barrage"
-    battleeffect 324
+    battleeffect 68
     pss SPLIT_SPECIAL
     basepower 80
     type TYPE_GRASS
@@ -15391,52 +15391,52 @@ movedata MOVE_PETAL_BARRAGE, "Petal Barrage"
     appeal 0
     contesttype 0
     terminatedata
-    movedescription MOVE_PETAL_BARRAGE, "The user attacks the\nfoe with petals that\nhave a calming aroma.\nThis lowers the foe’s\nAttack and Sp. Atk."
+    movedescription MOVE_PETAL_BARRAGE, "The user attacks the\nfoe with petals that\nhave a calming aroma.\nThis lowers the foe’s\nAttack stat."
 
-// This is a custom move for Typhlosion
-// High chance to burn
+// This is a custom move for Typhlosion.
+// It damages all foes and has a 30% chance to burn each of them.
+// Due to the x1.1 type-accuracy bonus, its true accuracy is more like 93%.
 movedata MOVE_INFERNAL_BLAST, "Infernal Blast"
     battleeffect 4
     pss SPLIT_SPECIAL
-    basepower 100
+    basepower 110
     type TYPE_FIRE
-    accuracy 75
-    pp 5
-    effectchance 50
+    accuracy 80
+    pp 10
+    effectchance 30
     target MOVE_TARGET_FOES_AND_ALLY
     priority 0
     flags FLAG_MIRROR_MOVE | FLAG_PROTECT
     appeal 0
     contesttype 0
     terminatedata
-    movedescription MOVE_INFERNAL_BLAST, "The user rubs its\nblazing fur together,\ncausing an explosion.\nIt has a 50% chance\nto burn what it hits."
+    movedescription MOVE_INFERNAL_BLAST, "The user rubs its\nblazing fur together,\ncausing an explosion.\nIt has a 30% chance\nto burn what it hits."
 
-// This is a custom move for Feraligatr
-// Chance to drop defense
+// This is a custom move for Feraligatr.
+// It damages a foe and lowers its Defense.
 movedata MOVE_SAVAGE_REND, "Savage Rend"
     battleeffect 69
     pss SPLIT_PHYSICAL
-    basepower 80
+    basepower 85
     type TYPE_WATER
     accuracy 100
     pp 10
-    effectchance 50
+    effectchance 100
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
     appeal FLAG_BITING
     contesttype 0
     terminatedata
-    movedescription MOVE_SAVAGE_REND, "The user tears up the\nfoe underwater with\nits powerful jaws.\nThis has a 50% chance\nto lower Defense."
+    movedescription MOVE_SAVAGE_REND, "The user tears up the\nfoe underwater with\nits powerful jaws.\nThis lowers the foe’s\nDefense stat."
 
-// This is a custom move for Ledian
-// Same effect as Population Bomb, but weaker
+// This is a custom move for Ledian. Clone of Population Bomb (with different accuracy).
 movedata MOVE_PIDDLY_PUNCHES, "Piddly Punches"
     battleeffect 310
     pss SPLIT_PHYSICAL
-    basepower 10
+    basepower 20
     type TYPE_BUG
-    accuracy 80
+    accuracy 85
     pp 10
     effectchance 0
     target MOVE_TARGET_SELECTED
@@ -15479,6 +15479,7 @@ movedata MOVE_ALLURING_VOICE, "Alluring Voice"
     terminatedata
     movedescription MOVE_ALLURING_VOICE, "The user attacks the\nfoe using its angelic\nvoice. This confuses\nthe foe if it boosted\nits stats this turn."
 
+// This is a custom move for Luxray. Clone of Blaze Kick (except it paralyzes instead).
 movedata MOVE_THUNDER_CLAW, "Thunder Claw"
     battleeffect 327
     pss SPLIT_PHYSICAL
@@ -15495,6 +15496,7 @@ movedata MOVE_THUNDER_CLAW, "Thunder Claw"
     terminatedata
     movedescription MOVE_THUNDER_CLAW, "Slashes the foe with\nelectrified claws.\nOften a critical hit.\nThis has a 10% chance\nto paralyze the foe."
 
+// This was a custom move for Electivire, but is not being used.
 movedata MOVE_HIGH_VOLTAGE, "High Voltage"
     battleeffect 229
     pss SPLIT_PHYSICAL
@@ -15511,6 +15513,7 @@ movedata MOVE_HIGH_VOLTAGE, "High Voltage"
     terminatedata
     movedescription MOVE_HIGH_VOLTAGE, "The user closes in to\nthe foe and looses a\nhigh voltage current.\nThis cuts the user’s\nDefense and Sp. Def."
 
+// This was a custom move for Magmortar, but is not being used.
 movedata MOVE_PYRO_CANNON, "Pyro Cannon"
     battleeffect 229
     pss SPLIT_SPECIAL

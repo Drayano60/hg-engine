@@ -3920,9 +3920,7 @@ levelup SPECIES_ELECTABUZZ
     learnset MOVE_THUNDER, 55
     terminatelearnset
 
-// NEW: High Voltage (Custom)
 levelup SPECIES_ELECTIVIRE
-    learnset MOVE_HIGH_VOLTAGE, 1
     learnset MOVE_FIRE_PUNCH, 1 
     learnset MOVE_HAMMER_ARM, 1
     learnset MOVE_DUAL_CHOP, 1
@@ -3990,9 +3988,7 @@ levelup SPECIES_MAGMAR
     learnset MOVE_FIRE_BLAST, 55
     terminatelearnset
 
-// NEW: Pyro Cannon (Custom)
 levelup SPECIES_MAGMORTAR
-    learnset MOVE_PYRO_CANNON, 1
     learnset MOVE_THUNDER_PUNCH, 1
     learnset MOVE_DUAL_CHOP, 1
     learnset MOVE_SMOG, 1
@@ -5184,8 +5180,7 @@ levelup SPECIES_NOCTOWL
     learnset MOVE_SKY_ATTACK, 58
     terminatelearnset
 
-// NEW: Dual Wingbeat (HOME Datamine), Lunge, First Impression, Meteor Mash
-// Evolution: 22
+// NEW: Lunge, First Impression, Meteor Mash
 levelup SPECIES_LEDYBA
     learnset MOVE_COMET_PUNCH, 1
     learnset MOVE_SUPERSONIC, 1
@@ -5196,19 +5191,17 @@ levelup SPECIES_LEDYBA
     learnset MOVE_REFLECT, 12
     learnset MOVE_SAFEGUARD, 12
     learnset MOVE_MACH_PUNCH, 15
-    learnset MOVE_BATON_PASS, 18
-    learnset MOVE_ACROBATICS, 21
-    learnset MOVE_AGILITY, 25
-    learnset MOVE_LUNGE, 29
-    learnset MOVE_DUAL_WINGBEAT, 33
-    learnset MOVE_FIRST_IMPRESSION, 37
-    learnset MOVE_METEOR_MASH, 41
-    learnset MOVE_DYNAMIC_PUNCH, 45
-    learnset MOVE_DOUBLE_EDGE, 49
-    learnset MOVE_FOCUS_PUNCH, 53
+    learnset MOVE_BATON_PASS, 20
+    learnset MOVE_ACROBATICS, 24
+    learnset MOVE_AGILITY, 28
+    learnset MOVE_LUNGE, 32
+    learnset MOVE_METEOR_MASH, 36
+    learnset MOVE_FIRST_IMPRESSION, 40
+    learnset MOVE_DOUBLE_EDGE, 44
+    learnset MOVE_FOCUS_PUNCH, 48
     terminatelearnset
 
-// NEW: Piddly Punches (Custom), Dual Wingbeat (HOME Datamine)
+// NEW: Piddly Punches (Custom)
 // NEW: Bullet Punch, Lunge, First Impression, Meteor Mash
 levelup SPECIES_LEDIAN
     learnset MOVE_BULLET_PUNCH, 1
@@ -5223,17 +5216,15 @@ levelup SPECIES_LEDIAN
     learnset MOVE_REFLECT, 12
     learnset MOVE_SAFEGUARD, 12
     learnset MOVE_MACH_PUNCH, 15
-    learnset MOVE_BATON_PASS, 18
-    learnset MOVE_ACROBATICS, 21
-    learnset MOVE_PIDDLY_PUNCHES, 22
-    learnset MOVE_AGILITY, 25
-    learnset MOVE_LUNGE, 29
-    learnset MOVE_DUAL_WINGBEAT, 33
-    learnset MOVE_FIRST_IMPRESSION, 37
-    learnset MOVE_METEOR_MASH, 41
-    learnset MOVE_DYNAMIC_PUNCH, 45
-    learnset MOVE_DOUBLE_EDGE, 49
-    learnset MOVE_FOCUS_PUNCH, 53
+    learnset MOVE_BATON_PASS, 20
+    learnset MOVE_ACROBATICS, 24
+    learnset MOVE_AGILITY, 28
+    learnset MOVE_LUNGE, 32
+    learnset MOVE_METEOR_MASH, 36
+    learnset MOVE_FIRST_IMPRESSION, 40
+    learnset MOVE_DOUBLE_EDGE, 44
+    learnset MOVE_FOCUS_PUNCH, 48
+    learnset MOVE_PIDDLY_PUNCHES, 52
     terminatelearnset
 
 // NEW: First Impression, Poison Fang
@@ -5248,21 +5239,22 @@ levelup SPECIES_SPINARAK
     learnset MOVE_INFESTATION, 9
     learnset MOVE_SHADOW_SNEAK, 12
     learnset MOVE_POISON_FANG, 15
-    learnset MOVE_FURY_SWIPES, 18
-    learnset MOVE_TOXIC_THREAD, 21
-    learnset MOVE_POISON_JAB, 25
-    learnset MOVE_LUNGE, 29
-    learnset MOVE_AGILITY, 33
-    learnset MOVE_FIRST_IMPRESSION, 37
-    learnset MOVE_PSYCHIC, 41
-    learnset MOVE_SUCKER_PUNCH, 45
-    learnset MOVE_CROSS_POISON, 49
-    learnset MOVE_MEGAHORN, 53
+    learnset MOVE_TOXIC_THREAD, 20
+    learnset MOVE_FURY_SWIPES, 24
+    learnset MOVE_POISON_JAB, 28
+    learnset MOVE_LUNGE, 32
+    learnset MOVE_AGILITY, 36
+    learnset MOVE_FIRST_IMPRESSION, 40
+    learnset MOVE_SUCKER_PUNCH, 44
+    learnset MOVE_CROSS_POISON, 48
+    learnset MOVE_MEGAHORN, 52
     terminatelearnset
 
+// Evolution: 18
 // NEW: First Impression, Poison Fang
 levelup SPECIES_ARIADOS
     learnset MOVE_SKITTER_SMACK, 1
+    learnset MOVE_SWORDS_DANCE, 1
     learnset MOVE_FOCUS_ENERGY, 1
     learnset MOVE_NIGHT_SHADE, 1
     learnset MOVE_PIN_MISSILE, 1
@@ -5276,17 +5268,15 @@ levelup SPECIES_ARIADOS
     learnset MOVE_INFESTATION, 9
     learnset MOVE_SHADOW_SNEAK, 12
     learnset MOVE_POISON_FANG, 15
-    learnset MOVE_FURY_SWIPES, 18
-    learnset MOVE_TOXIC_THREAD, 21
-    learnset MOVE_SWORDS_DANCE, 22
-    learnset MOVE_POISON_JAB, 25
-    learnset MOVE_LUNGE, 29
-    learnset MOVE_AGILITY, 33
-    learnset MOVE_FIRST_IMPRESSION, 37
-    learnset MOVE_PSYCHIC, 41
-    learnset MOVE_SUCKER_PUNCH, 45
-    learnset MOVE_CROSS_POISON, 49
-    learnset MOVE_MEGAHORN, 53
+    learnset MOVE_TOXIC_THREAD, 20
+    learnset MOVE_FURY_SWIPES, 24
+    learnset MOVE_POISON_JAB, 28
+    learnset MOVE_LUNGE, 32
+    learnset MOVE_AGILITY, 36
+    learnset MOVE_FIRST_IMPRESSION, 40
+    learnset MOVE_SUCKER_PUNCH, 44
+    learnset MOVE_CROSS_POISON, 48
+    learnset MOVE_MEGAHORN, 52
     terminatelearnset
 
 // NEW: Parabolic Charge, Thunder Shock

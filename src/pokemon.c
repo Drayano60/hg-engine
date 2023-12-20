@@ -4309,8 +4309,7 @@ BOOL LONG_CALL GiveMon(int heapId, void *saveData, int species, int level, int f
 
     RecalcPartyPokemonStats(pokemon); // recalculate stats
 
-    // Set hidden ability at a 20% chance or if the relevant flag is set.
-    if (CheckScriptFlag(HIDDEN_ABILITIES_FLAG) == 1 || (gf_rand() % 5 == 0))
+    if (CheckScriptFlag(HIDDEN_ABILITIES_FLAG) == 1)
     {
         SET_MON_HIDDEN_ABILITY_BIT(pokemon)
         // need to clear this script flag because this function is used for in-battle form change ability resets as well, which shouldn't happen normally
@@ -4375,8 +4374,7 @@ BOOL LONG_CALL AddWildPartyPokemon(int inTarget, EncounterInfo *encounterInfo, s
         UpdatePassiveForms(encounterPartyPokemon);
     }
 
-    // Set hidden ability at a 20% chance or if the relevant flag is set.
-    if (CheckScriptFlag(HIDDEN_ABILITIES_FLAG) == 1 || (gf_rand() % 5 == 0))
+    if (CheckScriptFlag(HIDDEN_ABILITIES_FLAG) == 1)
     {
         SET_MON_HIDDEN_ABILITY_BIT(encounterPartyPokemon)
         ClearScriptFlag(HIDDEN_ABILITIES_FLAG);
@@ -5003,7 +5001,7 @@ void MakeTrainerPokemonParty(struct BATTLE_PARAM *bp, int num, int heapID)
  */
 void set_starter_hidden_ability(struct Party *party UNUSED, struct PartyPokemon *pp)
 {
-    if (CheckScriptFlag(HIDDEN_ABILITIES_STARTERS_FLAG) == 1 || (gf_rand() % 5 == 0))
+    if (CheckScriptFlag(HIDDEN_ABILITIES_STARTERS_FLAG) == 1)
     {
         SET_MON_HIDDEN_ABILITY_BIT(pp)
         SetBoxMonAbility((void *)&pp->box);
@@ -5209,7 +5207,7 @@ BOOL ScrCmd_GiveEgg(SCRIPTCONTEXT *ctx)
         ClearMonMoves(pokemon);
         InitBoxMonMoveset(&pokemon->box);
 
-        if (CheckScriptFlag(HIDDEN_ABILITIES_FLAG) == 1 || (gf_rand() % 5 == 0)) // add HA capability
+        if (CheckScriptFlag(HIDDEN_ABILITIES_FLAG) == 1) // add HA capability
         {
             SET_MON_HIDDEN_ABILITY_BIT(pokemon)
             ResetPartyPokemonAbility(pokemon);
@@ -5271,7 +5269,7 @@ BOOL ScrCmd_GiveTogepiEgg(SCRIPTCONTEXT *ctx) {
     pp = GetMonData(togepi, MON_DATA_MOVE1MAXPP + i, 0);
     SetMonData(togepi, MON_DATA_MOVE1PP + i, &pp);
 
-    if (CheckScriptFlag(HIDDEN_ABILITIES_FLAG) == 1 || (gf_rand() % 5 == 0)) // add HA capability
+    if (CheckScriptFlag(HIDDEN_ABILITIES_FLAG) == 1) // add HA capability
     {
         SET_MON_HIDDEN_ABILITY_BIT(togepi)
         ResetPartyPokemonAbility(togepi);

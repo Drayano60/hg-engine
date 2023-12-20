@@ -3660,12 +3660,12 @@ mondata SPECIES_BAYLEEF, "Bayleef"
     mondexweight SPECIES_BAYLEEF, "34.8 lbs."
 
 
-// STATS: 80 >> 90 HP | 525 >> 535 BST
+// STATS: 83 >> 93 SpAtk | 525 >> 535 BST
 // TYPES: Grass >> Grass/Fairy
 // ABILITY: Sweet Aroma (HA, New)
 mondata SPECIES_MEGANIUM, "Meganium"
     .if STAT_CHANGES_IMPLEMENTED
-        basestats 90, 82, 100, 80, 83, 100
+        basestats 80, 82, 100, 80, 93, 100
     .else
         basestats 80, 82, 100, 80, 83, 100
     .endif

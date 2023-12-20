@@ -4880,9 +4880,9 @@ levelup SPECIES_CHIKORITA
     learnset MOVE_REFLECT, 15
     learnset MOVE_LIGHT_SCREEN, 15
     learnset MOVE_SAFEGUARD, 15
-    learnset MOVE_SYNTHESIS, 20
-    learnset MOVE_SWEET_SCENT, 24
-    learnset MOVE_NATURAL_GIFT, 28
+    learnset MOVE_CHARM, 20
+    learnset MOVE_SYNTHESIS, 24
+    learnset MOVE_SWEET_SCENT, 28
     learnset MOVE_BODY_SLAM, 35
     learnset MOVE_ENERGY_BALL, 40
     learnset MOVE_NATURE_POWER, 45
@@ -4904,9 +4904,9 @@ levelup SPECIES_BAYLEEF
     learnset MOVE_LIGHT_SCREEN, 15
     learnset MOVE_SAFEGUARD, 15
     learnset MOVE_ANCIENT_POWER, 16
-    learnset MOVE_SYNTHESIS, 20
-    learnset MOVE_SWEET_SCENT, 24
-    learnset MOVE_NATURAL_GIFT, 28
+    learnset MOVE_CHARM, 20
+    learnset MOVE_SYNTHESIS, 24
+    learnset MOVE_SWEET_SCENT, 28
     learnset MOVE_BODY_SLAM, 35
     learnset MOVE_ENERGY_BALL, 40
     learnset MOVE_NATURE_POWER, 45
@@ -4932,9 +4932,9 @@ levelup SPECIES_MEGANIUM
     learnset MOVE_LIGHT_SCREEN, 15
     learnset MOVE_SAFEGUARD, 15
     learnset MOVE_ANCIENT_POWER, 16
-    learnset MOVE_SYNTHESIS, 20
-    learnset MOVE_SWEET_SCENT, 24
-    learnset MOVE_NATURAL_GIFT, 28
+    learnset MOVE_CHARM, 20
+    learnset MOVE_SYNTHESIS, 24
+    learnset MOVE_SWEET_SCENT, 28
     learnset MOVE_PETAL_BARRAGE, 32
     learnset MOVE_BODY_SLAM, 35
     learnset MOVE_ENERGY_BALL, 40

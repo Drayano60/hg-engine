@@ -706,8 +706,8 @@ encounter SPECIES_GOLBAT, 30, 30
 encounter SPECIES_GOLBAT, 30, 30
 
 // rock smash encounters
-encounter SPECIES_SLUGMA, 10, 12
 encounter SPECIES_DUNSPARCE, 10, 12
+encounter SPECIES_GEODUDE, 10, 12
 
 // old rod encounters
 encounter SPECIES_MAGIKARP, 5, 9
@@ -1370,7 +1370,7 @@ encounterdata   7
 
 walkrate 25
 surfrate 0
-rocksmashrate 0
+rocksmashrate NEW_ROCK_SMASH_RATE
 oldrodrate FISHING_RATE
 goodrodrate FISHING_RATE
 superrodrate FISHING_RATE
@@ -1434,8 +1434,8 @@ encounter SPECIES_MAGIKARP, 5, 25
 encounter SPECIES_MAGIKARP, 5, 25
 
 // rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_SLUGMA, 10, 12
+encounter SPECIES_GEODUDE, 10, 12
 
 // old rod encounters
 encounter SPECIES_MAGIKARP, 5, 12
@@ -5013,7 +5013,7 @@ encounterdata  67
 
 walkrate 25
 surfrate 0
-rocksmashrate 0
+rocksmashrate NEW_ROCK_SMASH_RATE
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
@@ -5062,8 +5062,8 @@ pokemon SPECIES_TORKOAL
 pokemon SPECIES_ALTARIA
 
 // hoenn encounter slots
-pokemon SPECIES_DURANT
-pokemon SPECIES_HEATMOR
+pokemon SPECIES_BRAVIARY
+pokemon SPECIES_MANDIBUZZ
 
 // sinnoh encounter slots
 pokemon SPECIES_NONE
@@ -5077,8 +5077,8 @@ encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
+encounter SPECIES_MAGCARGO, 44, 45
+encounter SPECIES_GRAVELER, 44, 45
 
 // old rod encounters
 encounter SPECIES_NONE, 0, 0
@@ -5182,7 +5182,7 @@ encounter SPECIES_GOLBAT, 44, 45
 
 // rock smash encounters
 encounter SPECIES_DUNSPARCE, 44, 45
-encounter SPECIES_MAGCARGO, 44, 45
+encounter SPECIES_GRAVELER, 44, 45
 
 // old rod encounters
 encounter SPECIES_MAGIKARP, 5, 45
@@ -5790,8 +5790,8 @@ pokemon SPECIES_SKUNTANK
 pokemon SPECIES_SKUNTANK
 
 // hoenn encounter slots
-pokemon SPECIES_BRAVIARY
-pokemon SPECIES_MANDIBUZZ
+pokemon SPECIES_HEATMOR
+pokemon SPECIES_DURANT
 
 // sinnoh encounter slots
 pokemon SPECIES_NONE

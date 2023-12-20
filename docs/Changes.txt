@@ -131,7 +131,8 @@ Route 32
 ✓ Added a Hiker using a Mickey (88) who blocks the path to the TM05 gifter.
 ✓ Moved some Trainer positions.
 ✓ Added a new Ace Trainer with a Mickey (347) near the Union Cave entrance.
-✓ Changed the TM09 to a Super Potion.
+✓ Changed the TM09 to a Great Ball.
+✓ Changed the Great Ball to a Heart Scale.
 ✓ Removed the Friday sibling and replaced her with a Poison Barb.
 ✓ Moved the Fisherman in the PC out of bounds as we already have a Rod.
 
@@ -188,8 +189,9 @@ Route 34
 ✓ Made some trainers compulsory. The policeman will now challenge you at any time of day (removed the second one that swaps out with him).
 ✓ Added an item ball with the Mystic Water.
 ✓ Added an Ethan/Lyra battle on top of the existing script.
-✓ The Ace Trainers now give you a Bright Powder instead.
+✓ The Ace Trainers now give you 3 x Heart Scales instead.
 ✓ The first time you talk to the Day-Care Man, he'll give you an "Odd Egg" which can be any of the baby Pokémon except for Togepi. The Pokémon will always have its hidden ability.
+✓ Added an NPC that gives you 2 x Heart Scales.
 
 Goldenrod City
 ✓ The Game Corner now uses the building from the Japanese versions but still has Voltorb Flip on the machines. It's still header 536 but with the textures/map file pointing to the old stuff.
@@ -248,6 +250,7 @@ Pokéathlon Dome
 ✓ Whitney is now visibly at the counter. Talk to her to 'get' a jersey, then she'll return to and unlock Goldenrod Gym.
 ✓ Magnus gives you a Muscle Band when you talk to him initially.
 ✓ Added TM27 Low Sweep on the lower end of the map.
+✓ The prize counter no longer works until Lance is beaten.
 
 Goldenrod City - Gym
 ✓ Added two new Trainers, a Hiker (168) and an Ace Trainer (169) using Mickeys.
@@ -297,20 +300,21 @@ Mahogany Town
 
 Route 44
 ✓ Rearranged trainers.
-✓ Ultra Ball -> Dawn Stone and moved a bit.
+✓ Ultra Ball was moved a bit.
 ✓ Moved hidden Elixir to a mini grass tile on the area near Ice Path's entrance.
-✓ Max Revive -> TM72 Ice Spinner.
+✓ Max Revive -> TM03 Psyshock.
 
 Ice Path
-✓ Added an event with Eusine and Rocket Grunts. Following a battle, you get TM03 Psyshock, and then the option to return to Ecruteak (where you can now progress the Burned Tower).
+✓ Added an event with Eusine and Rocket Grunts. Following a battle, you get a Dawn Stone, and then the option to return to Ecruteak (where you can now progress the Burned Tower).
 ✓ The NPC blocking you until you pick up Waterfall has been removed. Waterfall itself is still there though.
 ✓ B1F now has a blockade until Pryce is defeated. (The player can thus go to Blackthorn once the Radio event starts, but can't battle Clair until after that's done).
-✓ Added an item ball on 1F containing a Never-Melt Ice.
+✓ Added an item ball on 1F containing a Heart Scale.
 ✓ TM72 -> TM13 Ice Beam. Iron -> Razor Claw.
 ✓ Added one Trainer each to B2F/B3F/B4F with Mickeys (304, 338, 340).
 ✓ Never-Melt Ice -> Icy Rock.
 ✓ When revisiting Ice Path after defeating Pryce, Will appears near the entrance and gives you TM29 Psychic.
 ✓ Added the Glalitite to B4F.
+✓ Protein on 1F -> Heart Scale and moved it to the Waterfall puzzle area.
 
 Burned Tower
 ✓ Eusine and Morty's dialogues are modified slightly to reflect the new events.
@@ -327,10 +331,12 @@ Union Cave (B2F)
 ✓ Forced some of the trainers to get things (Lapras/items).
 ✓ Elixir -> TM69 Rock Polish. Hyper Potion -> Prism Scale.
 ✓ Lapras is now Lv. 30 and can appear every day (but can only be caught once). If it's defeated or run from, it reappears upon reentering the room.
+✓ Added an item ball containing a Heart Scale on the top left island. Moved the hidden item (Calcium?) to the rocks over to the right.
 
 Route 39
 ✓ Shifted Trainers around.
 ✓ Added two new Trainers using Mickeys (171, 174).
+✓ Changed TM60 for TM72 High Horsepower.
 
 Olivine City
 ✓ Added an NPC in the diner who gives you Leftovers.
@@ -338,6 +344,8 @@ Olivine City
 ✓ Sabrina shows up in the Pokémon Center after the Safari Zone events. She'll battle you and award you TM04 Calm Mind, but she disappears after becoming Champion.
 ✓ Changed the Good Rod guy to give you the Deep Sea items.
 ✓ Changed the dialogue of an Ace Trainer F in the harbour as her dialogue didn't make any sense.
+✓ Swapped the hidden Rare Candy item on the Rock Climb rock with the Heart Scale from Vermilion City. (8023 (RC) <-> 8168 (HS))
+✓ Added an NPC in one of the houses who gives you TM60 Drain Punch.
 
 Lighthouse
 ✓ Rare Candy -> TM62 Acrobatics. TM87 -> Rare Candy. Super Repel -> Light Ball.
@@ -351,6 +359,7 @@ Route 40
 ✓ Added smashable rocks.
 ✓ TM88 -> TM78 Scorching Sands.
 ✓ Added an NPC to give you a Soft Sand.
+✓ Added an item ball with a Heart Scale in the grass.
 
 Route 41
 ✓ No changes here.
@@ -392,7 +401,8 @@ Route 47
 ✓ Added a small event with Silver when you exit the Cliff Cave from the top exit.
 ✓ Wave Incense -> Smooth Rock.
 ✓ White Flute -> Metal Powder. Added a Quick Powder item ball next to it.
-✓ Added an item ball containing a Sticky Barb.
+✓ Revive -> Sticky Barb.
+✓ Added an item ball containing a Heart Scale.
 
 Route 48
 ✓ Added a mini event as you cross the bridge with six Rocket Grunts - a reference to the Hexagon Brothers from XD. This is a 6v6 double battle. If the player does not have at least two Pokémon, they'll be turned away.
@@ -437,6 +447,8 @@ Lake of Rage
 ✓ The NPC in the house now awards TM44 Rest instead of TM10.
 ✓ Moved Ace Trainer Alton to the right side of the lake so he's always challengeable. Moved another NPC a bit to make space.
 ✓ Added the Gyaradosite.
+✓ Moved the Rage Candy Bar man to the house here.
+✓ Added an NPC in the house who will give you two Heart Scales.
 
 Team Rocket HQ
 ✓ Guard Spec -> Dubious Disc. TM46 -> TM79 Dark Pulse. Protein -> TM36 Sludge Bomb. Ultra Ball -> Toxic Orb. X Special -> Linking Cord. TM49 -> Ultra Ball.
@@ -552,6 +564,7 @@ Route 26
 ✓ The tile before you would step into Victory Road has a trigger script that results in Ethan/Lyra challenging you. This battle can be lost.
 ✓ Added a healing NPC to one of the counters before Victory Road.
 ✓ Max Elixir -> Leader's Crest.
+✓ Added a Fisherman in the healing house who gives you 50 Heart Scales (they're grindable at this point!).
 
 Victory Road
 ✓ TM79 -> TM64 Explosion. TM26 -> PP Max. Max Revive -> TM50 Overheat. Full Restore -> TM71 Stone Edge.

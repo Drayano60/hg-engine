@@ -5154,6 +5154,7 @@ BOOL ModifyPokemon(SCRIPTCONTEXT *ctx) {
     }
 
     if (property == SET_HIDDEN_ABILITY) {
+        mons_no = PokeOtherFormMonsNoGet(mons_no, form);
         u32 hiddenAbility = GetMonHiddenAbility(mons_no, form);
  
          // If the Pokémon has no hidden ability, reject and let the script handle it.

@@ -4251,8 +4251,8 @@ encounter SPECIES_NONE, 0, 0
 encounter SPECIES_CHINCHOU, 29, 32
 encounter SPECIES_SHELLDER, 29, 32
 encounter SPECIES_SHELLDER, 29, 32
-encounter SPECIES_LUVDISC, 29, 32
-encounter SPECIES_LUVDISC, 29, 32
+encounter SPECIES_STARYU, 29, 32
+encounter SPECIES_STARYU, 29, 32
 
 // good rod encounters
 encounter SPECIES_MAGIKARP, 1, 1
@@ -5708,8 +5708,8 @@ encounter SPECIES_NONE, 0, 0
 encounter SPECIES_CHINCHOU, 25, 27
 encounter SPECIES_SHELLDER, 25, 27
 encounter SPECIES_SHELLDER, 25, 27
-encounter SPECIES_LUVDISC, 25, 27
-encounter SPECIES_LUVDISC, 25, 27
+encounter SPECIES_TENTACOOL, 25, 27
+encounter SPECIES_TENTACOOL, 25, 27
 
 // good rod encounters
 encounter SPECIES_MAGIKARP, 1, 1
@@ -5809,11 +5809,11 @@ encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
+encounter SPECIES_LUVDISC, 5, 50
+encounter SPECIES_LUVDISC, 5, 50
+encounter SPECIES_LUVDISC, 5, 50
 encounter SPECIES_LANTURN, 50, 50
 encounter SPECIES_CLOYSTER, 50, 50
-encounter SPECIES_CLOYSTER, 50, 50
-encounter SPECIES_LUVDISC, 50, 50
-encounter SPECIES_LUVDISC, 50, 50
 
 // good rod encounters
 encounter SPECIES_MAGIKARP, 1, 1

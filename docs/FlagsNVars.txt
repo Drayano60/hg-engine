@@ -68,6 +68,10 @@ NPCs:
 2167 - Teleporter NPC spoken to.
 2168 - Loaded Dice gift in Goldenrod Game Corner. 
 2169 - Covert Cloak gift in Mahogany Mart.
+2170 - Heart Scale gift on Route 34.
+2171 - Heart Scale gift at Lake of Rage.
+2172 - Heart Scale gift on Route 26.
+2173 - TM60 Drain Punch gift in Olivine City.
 
 2175* - Safari Rocket event active.
 2176 - Safari Rocket event inactive.
@@ -107,7 +111,9 @@ NPCs:
 2227 - Air Balloon in the Lighthouse
 2228 - Quick Powder on Route 47
 2229 - Smooth Rock on Cherrygrove City
-2230 - Sticky Barb on Route 46
+2230 - Heart Scale on Route 47
+2231 - Heart Scale on Route 40
+2232 - Heart Scale on Union Cave B2F
 
 2600 - HG-e hidden ability flag.
 2601 - HG-e starter hidden ability flag.

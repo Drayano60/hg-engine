@@ -10,6 +10,9 @@
 
 .create "build/move/battle_sub_seq/1_482", 0
 
+// Defense down + flinch separate activations
+// Used for Triple Arrows
+
 a001_482:
     checkeffectactivation _0010
     changevar VAR_OP_SET, VAR_ADD_EFFECT_ATTRIBUTE, DEFENSE_DOWN

@@ -13,6 +13,7 @@
 // Triple Arrows
 
 a030_330:
+    changevar VAR_OP_ADD, VAR_CRIT_CHANCE, 0x1 /* Increased crit chance */
     changevar VAR_OP_SET, VAR_ADD_STATUS2, 0xA0000000 | 173
     gotosubscript 443
     endscript

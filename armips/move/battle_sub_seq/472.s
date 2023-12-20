@@ -31,6 +31,9 @@ _0038:
     changevar VAR_OP_SET, VAR_ADD_EFFECT_ATTRIBUTE, EVASION_DOWN
     changevar VAR_OP_SET, VAR_ADD_EFFECT_TYPE, 0x0
     gotosubscript 12
+
+    /* Defiant/Competitive handled here */
+    gotosubscript 483
 _009C:
     changevar VAR_OP_ADD, VAR_CLIENT_NO_AGI, 0x1
     jumpifvarisvalidbattler 0x27, _0038

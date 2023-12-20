@@ -2308,7 +2308,7 @@ BOOL MoveHitDefenderAbilityCheck(void *bw, struct BattleStruct *sp, int *seq_no)
                 sp->addeffect_type = ADD_EFFECT_PRINT_WORK_ABILITY;
                 sp->state_client = sp->attack_client;
                 sp->client_work = sp->defence_client;
-                seq_no[0] = SUB_SEQ_BOOST_STATS;
+                seq_no[0] = SUB_SEQ_HANDLE_GOOEY;
                 ret = TRUE;
             }
             break;

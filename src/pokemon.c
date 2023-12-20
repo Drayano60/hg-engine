@@ -4993,6 +4993,15 @@ void MakeTrainerPokemonParty(struct BATTLE_PARAM *bp, int num, int heapID)
     gf_srand(seed_tmp);
 }
 
+void shuffle(int arr[], int n) {
+    for (int i = n - 1; i > 0; i--) {
+        int j = gf_rand() % (i + 1);
+        int temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp;
+    }
+}
+
 /**
  *  @brief set the hidden ability specifically for the starter
  *
@@ -5003,8 +5012,24 @@ void set_starter_hidden_ability(struct Party *party UNUSED, struct PartyPokemon 
 {
     if (CheckScriptFlag(HIDDEN_ABILITIES_STARTERS_FLAG) == 1)
     {
+        struct BoxPokemon *boxmon = &pp->box;
+
         SET_MON_HIDDEN_ABILITY_BIT(pp)
-        SetBoxMonAbility((void *)&pp->box);
+        SetBoxMonAbility(boxmon);
+        
+        int iv = 31;
+
+        int arr[] = {0, 1, 2, 3, 4, 5};
+        shuffle(arr, 6);
+
+        // This sets three of the starter's IVs at random to be 31.
+        for (int i = 0; i < 3; i++) {
+            int selectedValue = arr[i];
+
+            SetBoxMonData(boxmon, MON_DATA_HP_IV + selectedValue, &iv);
+        }
+
+        ClearScriptFlag(HIDDEN_ABILITIES_STARTERS_FLAG);
     }
 }
 

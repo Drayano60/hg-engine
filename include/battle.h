@@ -539,7 +539,7 @@ struct __attribute__((packed)) OneTurnEffect
 {
     /* 0x00 */ u32 struggle_flag : 1;     /**< pokémon struggled this turn */
                u32 pp_dec_flag : 1;       /**< pp decreased this turn? */
-               u32 mamoru_flag : 1;
+               u32 mamoru_flag : 1;       /**< protect flag? */
                u32 helping_hand_flag : 1; /**< pokémon is being aided by helping hand */
                u32 magic_cort_flag : 1;   /**< pokémon has magic coat active */
                u32 yokodori_flag : 1;

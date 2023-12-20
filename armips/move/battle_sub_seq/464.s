@@ -27,6 +27,18 @@ _Move:
     playanimation BATTLER_ATTACKER
     waitmessage
 
+
+    /* If stat change is blocked by ability or Mist, fail after animation */
+    /* Probably isn't exhaustive eg Hyper Cutter mon already has -6 SpAtk, but whatever */
+    ifmonstat IF_EQUAL, BATTLER_ADDL_EFFECT, MON_DATA_ABILITY, ABILITY_CLEAR_BODY, _EndScript
+    ifmonstat IF_EQUAL, BATTLER_ADDL_EFFECT, MON_DATA_ABILITY, ABILITY_WHITE_SMOKE, _EndScript
+    checksidecondition BATTLER_DEFENDER, 0x1, SIDE_STATUS_MIST, _EndScript
+
+    // Handle Defiant/Competitive here due to the double stat change
+    ifmonstat IF_EQUAL, BATTLER_ADDL_EFFECT, MON_DATA_ABILITY, ABILITY_DEFIANT, _DefiantStatChanges
+    ifmonstat IF_EQUAL, BATTLER_ADDL_EFFECT, MON_DATA_ABILITY, ABILITY_COMPETITIVE, _CompetitiveStatChanges
+
+_Return:
     /* Stat changes */
     changevar VAR_OP_SETMASK, VAR_SERVER_STATUS2, 0x80
     changevar VAR_OP_SET, VAR_ADD_EFFECT_ATTRIBUTE, ATTACK_DOWN
@@ -36,12 +48,6 @@ _Move:
     gotosubscript 12
     changevar VAR_OP_CLEARMASK, VAR_SERVER_STATUS2, 0x2
     changevar VAR_OP_CLEARMASK, VAR_SERVER_STATUS2, 0x80
-
-    /* If stat change is blocked by ability or Mist, fail after animation */
-    /* Probably isn't exhaustive eg Hyper Cutter mon already has -6 SpAtk, but whatever */
-    ifmonstat IF_EQUAL, BATTLER_ADDL_EFFECT, MON_DATA_ABILITY, ABILITY_CLEAR_BODY, _EndScript
-    ifmonstat IF_EQUAL, BATTLER_ADDL_EFFECT, MON_DATA_ABILITY, ABILITY_WHITE_SMOKE, _EndScript
-    checksidecondition BATTLER_DEFENDER, 0x1, SIDE_STATUS_MIST, _EndScript
 _Switch:
     // checkwipeout BATTLER_DEFENDER, _EndScript
     tryswitchinmon BATTLER_ATTACKER, 0x1, _EndScript
@@ -106,5 +112,41 @@ _EndScript:
 _Failed:
     changevar VAR_OP_SETMASK, VAR_MOVE_STATUS, 0x40
     endscript
+_DefiantStatChanges:
+    checkonsameteam BATTLER_ATTACKER, BATTLER_ADDL_EFFECT, _Return
+    changevar VAR_OP_SET, VAR_ADD_EFFECT_ATTRIBUTE, 0x16
+    gotosubscript 12
+
+    changevar VAR_OP_SET, VAR_ADD_EFFECT_ATTRIBUTE, ATTACK_UP_2
+    changevar VAR_OP_SET, VAR_ADD_EFFECT_TYPE, 0x3
+    gotosubscript 12
+
+    changevar VAR_OP_SET, VAR_ADD_EFFECT_ATTRIBUTE, 0x19
+    changevar VAR_OP_SET, VAR_ADD_EFFECT_TYPE, 0x0
+    gotosubscript 12
+
+    changevar VAR_OP_SET, VAR_ADD_EFFECT_ATTRIBUTE, ATTACK_UP_2
+    changevar VAR_OP_SET, VAR_ADD_EFFECT_TYPE, 0x3
+    gotosubscript 12
+
+    goto _Switch
+_CompetitiveStatChanges:
+    checkonsameteam BATTLER_ATTACKER, BATTLER_ADDL_EFFECT, _Return
+    changevar VAR_OP_SET, VAR_ADD_EFFECT_ATTRIBUTE, 0x16
+    gotosubscript 12
+
+    changevar VAR_OP_SET, VAR_ADD_EFFECT_ATTRIBUTE, SPATK_UP_2
+    changevar VAR_OP_SET, VAR_ADD_EFFECT_TYPE, 0x3
+    gotosubscript 12
+
+    changevar VAR_OP_SET, VAR_ADD_EFFECT_ATTRIBUTE, 0x19
+    changevar VAR_OP_SET, VAR_ADD_EFFECT_TYPE, 0x0
+    gotosubscript 12
+
+    changevar VAR_OP_SET, VAR_ADD_EFFECT_ATTRIBUTE, SPATK_UP_2
+    changevar VAR_OP_SET, VAR_ADD_EFFECT_TYPE, 0x3
+    gotosubscript 12
+
+    goto _Switch
 
 .close

@@ -1589,6 +1589,8 @@ BOOL btl_scr_cmd_33_statbuffchange(void *bw, struct BattleStruct *sp)
     }
     else
     {
+        // This also ends up resetting to 0 if two stat changes happen (e.g. Tickle) before the move completes
+        // I've handled those cases separately in their sub_seqs for now
         sp->oneSelfFlag[sp->state_client].defiant_flag = 0;
     }
 

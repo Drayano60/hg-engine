@@ -16,6 +16,12 @@ a001_148:
     ifmonstat IF_EQUAL, BATTLER_ADDL_EFFECT, MON_DATA_STAT_STAGE_DEFENSE, 0x0, _00CC
 _0030:
     if IF_MASK, VAR_MOVE_STATUS, 0x10001, _00B8
+
+    // Handle Defiant/Competitive here due to the double stat change
+    abilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_DEFIANT, _Defiant
+    abilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_COMPETITIVE, _Competitive
+
+_Return:
     changevar VAR_OP_SETMASK, VAR_SERVER_STATUS2, 0x80
     changevar VAR_OP_SET, VAR_ADD_EFFECT_ATTRIBUTE, 0x16
     gotosubscript 12
@@ -36,6 +42,42 @@ _00CC:
     waitmessage
     wait 0x1E
     changevar VAR_OP_SETMASK, VAR_MOVE_STATUS, 0x80000000
+    endscript
+_Defiant:
+    checkonsameteam BATTLER_ATTACKER, BATTLER_ADDL_EFFECT, _Return
+    changevar VAR_OP_SET, VAR_ADD_EFFECT_ATTRIBUTE, 0x16
+    gotosubscript 12
+
+    changevar VAR_OP_SET, VAR_ADD_EFFECT_ATTRIBUTE, ATTACK_UP_2
+    changevar VAR_OP_SET, VAR_ADD_EFFECT_TYPE, 0x3
+    gotosubscript 12
+
+    changevar VAR_OP_SET, VAR_ADD_EFFECT_ATTRIBUTE, 0x17
+    changevar VAR_OP_SET, VAR_ADD_EFFECT_TYPE, 0x0
+    gotosubscript 12
+
+    changevar VAR_OP_SET, VAR_ADD_EFFECT_ATTRIBUTE, ATTACK_UP_2
+    changevar VAR_OP_SET, VAR_ADD_EFFECT_TYPE, 0x3
+    gotosubscript 12
+
+    endscript
+_Competitive:
+    checkonsameteam BATTLER_ATTACKER, BATTLER_ADDL_EFFECT, _Return
+    changevar VAR_OP_SET, VAR_ADD_EFFECT_ATTRIBUTE, 0x16
+    gotosubscript 12
+
+    changevar VAR_OP_SET, VAR_ADD_EFFECT_ATTRIBUTE, SPATK_UP_2
+    changevar VAR_OP_SET, VAR_ADD_EFFECT_TYPE, 0x3
+    gotosubscript 12
+
+    changevar VAR_OP_SET, VAR_ADD_EFFECT_ATTRIBUTE, 0x17
+    changevar VAR_OP_SET, VAR_ADD_EFFECT_TYPE, 0x0
+    gotosubscript 12
+
+    changevar VAR_OP_SET, VAR_ADD_EFFECT_ATTRIBUTE, SPATK_UP_2
+    changevar VAR_OP_SET, VAR_ADD_EFFECT_TYPE, 0x3
+    gotosubscript 12
+
     endscript
 
 .close

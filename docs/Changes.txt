@@ -337,6 +337,7 @@ Route 39
 ✓ Shifted Trainers around.
 ✓ Added two new Trainers using Mickeys (171, 174).
 ✓ Changed TM60 for TM72 High Horsepower.
+✓ Changed the Moomoo Farm lady to instead act as a Natural Gift move tutor after Miltank is cured (instead of giving a TM).
 
 Olivine City
 ✓ Added an NPC in the diner who gives you Leftovers.

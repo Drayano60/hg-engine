@@ -7,13 +7,13 @@ A special Ball used in Safari Games.\nIts Pokémon catch rate is 1.5 times\nthe 
 This Ball’s Pokémon catch rate is triple\na standard Poké Ball’s rate when used\non a Water or Bug-type Pokémon.
 This Ball’s Pokémon catch rate is 3.5\ntimes a standard Poké Ball’s rate when\nused on a Pokémon found in or on water.
 This Ball’s Pokémon catch rate can be up\nto 4 times a standard Poké Ball’s rate\nif used on a Pokémon below Level 30.
-This Ball’s Pokémon catch rate is triple\na standard Poké Ball’s rate when used\non a species that was previously caught.
-This Ball’s Pokémon catch rate can be up\nto 4 times a standard Poké Ball’s rate,\nincreasing with more turns in battle.
+This Ball’s Pokémon catch rate is 3.5\ntimes a standard Poké Ball’s rate when\nused on a previously caught species.
+This Ball’s Pokémon catch rate can be up\nto 4 times a standard Poké Ball’s rate,\nincreasing rate until the tenth turn.
 This Ball’s Pokémon catch rate is equal\nto a standard Poké Ball, but a Pokémon\ncaught with it will quickly grow friendly.
 A rare Ball that has been specially made\nto commemorate an event. Its catch\nrate is equal to a standard Poké Ball.
-This Ball’s Pokémon catch rate is 3.5\ntimes a standard Poké Ball’s rate when\nused at night or inside a cave.
+This Ball’s Pokémon catch rate is triple\na standard Poké Ball’s rate when used\nat night or inside a cave.
 This Ball’s Pokémon catch rate is equal\nto a standard Poké Ball, but a Pokémon\ncaught with it will be fully healed.
-This Ball’s Pokémon catch rate is\nquadruple a standard Poké Ball’s rate\nif used at the start of a wild encounter.
+This Ball’s Pokémon catch rate is 5\ntimes a standard Poké Ball’s rate when\nused at the start of a wild encounter.
 A rare Ball that has been specially made\nto commemorate an occasion. Its catch\nrate is equal to a standard Poké Ball.
 A spray-type medicine for wounds.\nIt restores the HP of one Pokémon by\njust 20 points.
 A spray-type medicine.\nIt lifts the effect of poison from one\nPokémon.

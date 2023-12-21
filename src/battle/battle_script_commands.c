@@ -2485,24 +2485,29 @@ BOOL btl_scr_cmd_EA_didTargetRaiseStat(void *bw UNUSED, struct BattleStruct *sp)
 }
 
 extern u8 gSafariBallRateTable[13][2];
+
+// Gen 7+ reduces it to stuff that actually evolves with it only.
 u16 MoonBallSpecies[] =
 {
-    SPECIES_NIDORAN_F,
+    // SPECIES_NIDORAN_F,
     SPECIES_NIDORINA,
-    SPECIES_NIDOQUEEN,
-    SPECIES_NIDORAN_M,
+    // SPECIES_NIDOQUEEN,
+    // SPECIES_NIDORAN_M,
     SPECIES_NIDORINO,
-    SPECIES_NIDOKING,
-    SPECIES_CLEFFA,
+    // SPECIES_NIDOKING,
+    // SPECIES_CLEFFA,
     SPECIES_CLEFAIRY,
-    SPECIES_CLEFABLE,
-    SPECIES_IGGLYBUFF,
+    // SPECIES_CLEFABLE,
+    // SPECIES_IGGLYBUFF,
     SPECIES_JIGGLYPUFF,
-    SPECIES_WIGGLYTUFF,
+    // SPECIES_WIGGLYTUFF,
     SPECIES_SKITTY,
-    SPECIES_DELCATTY,
+    // SPECIES_DELCATTY,
     SPECIES_MUNNA,
-    SPECIES_MUSHARNA,
+    // SPECIES_MUSHARNA,
+    
+    // Custom
+    SPECIES_EEVEE,
 };
 
 /**
@@ -2554,7 +2559,8 @@ u32 CalculateBallShakes(void *bw, struct BattleStruct *sp)
         break;
     case ITEM_NET_BALL:
         if (type1 == TYPE_WATER || type2 == TYPE_WATER || type1 == TYPE_BUG || type2 == TYPE_BUG)
-            ballRate = 30;
+            // ballRate = 30;
+            ballRate = 35;
         break;
     case ITEM_DIVE_BALL:
         if (BattleWorkGroundIDGet(bw) == 7) // if the battle is happening with a water background
@@ -2563,15 +2569,18 @@ u32 CalculateBallShakes(void *bw, struct BattleStruct *sp)
     case ITEM_NEST_BALL:
         if (sp->battlemon[sp->defence_client].level <= 30)
         {
-            ballRate = 40 - sp->battlemon[sp->defence_client].level;
+            ballRate = 40 - sp->battlemon[sp->defence_client].level; // Gen 4 one? This probably differs slightly from the Gen 6+ one
         }
         break;
     case ITEM_REPEAT_BALL:
         if (Battle_CheckIfHasCaughtMon(bw, sp->battlemon[sp->defence_client].species))
-            ballRate = 30;
+            // ballRate = 30;
+            ballRate = 35;
         break;
     case ITEM_TIMER_BALL:
-        ballRate = 10 + sp->total_turn;
+        // ballRate = 10 + sp->total_turn;
+        ballRate = 10 + (sp->total_turn * 3); // Probably not 100% accurate but makes it max after 10 turns
+
         if (ballRate > 40)
             ballRate = 40;
         break;
@@ -2583,14 +2592,16 @@ u32 CalculateBallShakes(void *bw, struct BattleStruct *sp)
     //    break;
     case ITEM_DUSK_BALL:
         if (Battle_GetTimeOfDay(bw) == 3 || Battle_GetTimeOfDay(bw) == 4 || BattleWorkGroundIDGet(bw) == 5)
-            ballRate = 35;
+            // ballRate = 35;
+            ballRate = 30;
         break;
     //case ITEM_HEAL_BALL:
     //
     //    break;
     case ITEM_QUICK_BALL:
         if (sp->total_turn < 1)
-            ballRate = 40;
+            // ballRate = 40;
+            ballRate = 50;
         break;
     //case ITEM_CHERISH_BALL:
     //
@@ -2617,24 +2628,52 @@ u32 CalculateBallShakes(void *bw, struct BattleStruct *sp)
             ballRate = 40; // as of sword and shield
         break;
     case ITEM_HEAVY_BALL:
-        if (GetPokemonWeight(bw, sp, sp->defence_client) < 1024)
-        {
-            if (captureRate > 20)
-                captureRate -= 20;
-            else
-                captureRate = 1;
-        }
-        else if (GetPokemonWeight(bw, sp, sp->defence_client) < 2048)
-            ballRate = 10; // do nothing
-        else if (GetPokemonWeight(bw, sp, sp->defence_client) < 3072)
-            captureRate += 20;
-        else if (GetPokemonWeight(bw, sp, sp->defence_client) < 4096)
-            captureRate += 30;
-        else if (GetPokemonWeight(bw, sp, sp->defence_client) < 4096)
-            captureRate += 40;
+        /* Gen 4 mechanics? Though with a bug fixed */
+        // if (GetPokemonWeight(bw, sp, sp->defence_client) < 1024)
+        // {
+        //     if (captureRate > 20)
+        //         captureRate -= 20;
+        //     else
+        //         captureRate = 1;
+        // }
+        // else if (GetPokemonWeight(bw, sp, sp->defence_client) < 2048)
+        //     ballRate = 10; // do nothing
+        // else if (GetPokemonWeight(bw, sp, sp->defence_client) < 3072)
+        //     captureRate += 20;
+        // else if (GetPokemonWeight(bw, sp, sp->defence_client) < 4096)
+        //     captureRate += 30;
+        // else if (GetPokemonWeight(bw, sp, sp->defence_client) < 4096)
+        //     captureRate += 40;
 
-        if (captureRate > 255)
+        // if (captureRate > 255)
+        //     captureRate = 255;
+
+        // break;
+
+        /* Gen 7+ mechanics */
+        if (GetPokemonWeight(bw, sp, sp->defence_client) < 1000) {
+            // Applies a flat -20 modifier if the Pokémon is beneath 100.0kg.
+            // But this cannot be below 1.
+            if (captureRate > 20) {
+                captureRate = captureRate - 20;
+            } else {
+                captureRate = 1;
+            }
+        } else if (GetPokemonWeight(bw, sp, sp->defence_client) < 2000) {
+            // Does nothing if the Pokémon is between 100.0kg and 199.9kg.
+            ballRate = 10;
+        } else if (GetPokemonWeight(bw, sp, sp->defence_client) < 3000) {
+            // Applies a flat +20 modifier if the Pokémon is between 200.0kg and 299.9kg.
+            captureRate = captureRate + 20;
+        } else {
+            // Applies a flat +30 modifier if the Pokémon is 300.0kg or heavier.
+            captureRate = captureRate + 30;
+        }
+
+        // The capture rate is capped at 255.
+        if (captureRate > 255) {
             captureRate = 255;
+        }
 
         break;
     case ITEM_LOVE_BALL:

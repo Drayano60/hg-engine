@@ -422,7 +422,8 @@ void ServerWazaBefore(void *bw, struct BattleStruct *sp)
             if (sp->battlemon[sp->attack_client].ability == ABILITY_STANCE_CHANGE && sp->battlemon[sp->attack_client].species == SPECIES_AEGISLASH)
             {
                 sp->client_work = sp->attack_client;
-                if (sp->current_move_index == MOVE_KINGS_SHIELD && sp->battlemon[sp->attack_client].form_no == 1)
+                if (sp->current_move_index == MOVE_PROTECT && sp->battlemon[sp->attack_client].form_no == 1) // Temp until King's Shield is in    
+                // if (sp->current_move_index == MOVE_KINGS_SHIELD && sp->battlemon[sp->attack_client].form_no == 1)
                 {
                     sp->battlemon[sp->client_work].form_no = 0;
                     BattleFormChange(sp->client_work, sp->battlemon[sp->client_work].form_no, bw, sp, 0);

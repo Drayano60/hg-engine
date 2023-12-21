@@ -2505,7 +2505,7 @@ u16 MoonBallSpecies[] =
     // SPECIES_DELCATTY,
     SPECIES_MUNNA,
     // SPECIES_MUSHARNA,
-    
+
     // Custom
     SPECIES_EEVEE,
 };
@@ -2555,7 +2555,8 @@ u32 CalculateBallShakes(void *bw, struct BattleStruct *sp)
         //ballRate = 10;
         break;
     case ITEM_SAFARI_BALL:
-        ballRate = 15;
+        // ballRate = 15;
+        ballRate = 20; // Custom change
         break;
     case ITEM_NET_BALL:
         if (type1 == TYPE_WATER || type2 == TYPE_WATER || type1 == TYPE_BUG || type2 == TYPE_BUG)
@@ -2701,7 +2702,8 @@ u32 CalculateBallShakes(void *bw, struct BattleStruct *sp)
             ballRate = 40;
         break;
     case ITEM_SPORT_BALL:
-        ballRate = 15;
+        // ballRate = 15;
+        ballRate = 20; // Custom change
         break;
     //case ITEM_PARK_BALL:
     //

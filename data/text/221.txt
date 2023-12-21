@@ -3,7 +3,7 @@ The best Ball with the ultimate level of\nperformance. It will catch any wild\nP
 An ultra-performance Ball.\nIts Pokémon catch rate is double the\nrate of a standard Poké Ball.
 A good, high-performance Ball.\nIts Pokémon catch rate is 1.5 times\nthe rate of a standard Poké Ball.
 A device for catching wild Pokémon.\nIt is thrown like a ball at the target.\nIt is designed as a capsule system.
-A special Ball used in Safari Games.\nIts Pokémon catch rate is 1.5 times\nthe rate of a standard Poké Ball.
+A special Ball used in Safari Games.\nIts Pokémon catch rate is double the\nrate of a standard Poké Ball.
 This Ball’s Pokémon catch rate is triple\na standard Poké Ball’s rate when used\non a Water or Bug-type Pokémon.
 This Ball’s Pokémon catch rate is 3.5\ntimes a standard Poké Ball’s rate when\nused on a Pokémon found in or on water.
 This Ball’s Pokémon catch rate can be up\nto 4 times a standard Poké Ball’s rate\nif used on a Pokémon below Level 30.
@@ -497,7 +497,7 @@ This Ball’s Pokémon catch rate gains a\nflat bonus to the standard Poké Ball
 This Ball has 8 times the regular rate if\nused on a Pokémon of the same species\nand the opposite gender to your own.
 This Ball’s Pokémon catch rate is equal\nto a standard Poké Ball, but a Pokémon\ncaught with it will instantly be friendly.
 This Ball’s catch rate is quadruple a\nstandard Poké Ball’s rate if used on a\nPokémon that evolves with a Moon Stone.
-A Ball used in the Bug-Catching Contest.\nIts Pokémon catch rate is 1.5 times\nthe rate of a standard Poké Ball.
+A Ball used in the Bug-Catching Contest.\nIts Pokémon catch rate is double the\nrate of a standard Poké Ball.
 A special Poké Ball for the Pal Park.
 A nice photo album for storing all the\nphotos taken along your adventure.
 A music player that allows you to listen\nto nostalgic songs. It’s operated with\na single switch.

@@ -1378,6 +1378,11 @@ BOOL CantEscape(void *bw, struct BattleStruct *ctx, int battlerId, MESSAGE_PARAM
         return FALSE;
     }
 
+    // Ghost-types can run away under any circumstance.
+    if (BATTLE_MON_HAS_TYPE(ctx, battlerId, TYPE_GHOST)) {
+        return FALSE;
+    }
+
     side = IsClientEnemy(bw, battlerId);
     maxBattlers = BattleWorkClientSetMaxGet(bw);
 
@@ -1458,6 +1463,16 @@ BOOL BattlerCantSwitch(void *bw, struct BattleStruct *ctx, int battlerId) {
     BOOL ret = FALSE;
 
     if (HeldItemHoldEffectGet(ctx, battlerId) == HOLD_EFFECT_SWITCH) {
+        return FALSE;
+    }
+
+    // Ghost types are able to switch regardless of circumstance.
+    if (BATTLE_MON_HAS_TYPE(ctx, battlerId, TYPE_GHOST)) {
+        return FALSE;
+    }
+
+    // NEW: Run Away now allows switching under any circumstance.
+    if (GetBattlerAbility(ctx, battlerId) == ABILITY_RUN_AWAY) {
         return FALSE;
     }
 

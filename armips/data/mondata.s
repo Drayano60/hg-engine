@@ -494,7 +494,6 @@ mondata SPECIES_PIDGEOT, "Pidgeot"
     mondexweight SPECIES_PIDGEOT, "87.1 lbs."
 
 
-// ABILITY: Guts (1)
 mondata SPECIES_RATTATA, "Rattata"
     basestats 30, 56, 35, 72, 25, 35
     types TYPE_NORMAL, TYPE_NORMAL
@@ -507,7 +506,7 @@ mondata SPECIES_RATTATA, "Rattata"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_GUTS, ABILITY_GUTS
+    abilities ABILITY_RUN_AWAY, ABILITY_GUTS
     runchance 25
     colorflip BODY_COLOR_PURPLE, 0
     mondexentry SPECIES_RATTATA, "It eats anything. Wherever food is\navailable, it will settle down and\nproduce offspring continuously."
@@ -517,7 +516,6 @@ mondata SPECIES_RATTATA, "Rattata"
 
 
 // STATS: 55 >> 65 HP | 97 >> 107 Spd | 413 >> 433 BST
-// ABILITY: Guts (1)
 mondata SPECIES_RATICATE, "Raticate"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 65, 81, 60, 107, 50, 70
@@ -534,11 +532,7 @@ mondata SPECIES_RATICATE, "Raticate"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_GUTS, ABILITY_GUTS
-    .else
-        abilities ABILITY_RUN_AWAY, ABILITY_GUTS
-    .endif
+    abilities ABILITY_RUN_AWAY, ABILITY_GUTS
     runchance 25
     colorflip BODY_COLOR_BROWN, 0
     mondexentry SPECIES_RATICATE, "Gnaws on anything with its tough\nfangs. It can even topple concrete\nbuildings by gnawing on them."
@@ -1919,11 +1913,7 @@ mondata SPECIES_RAPIDASH, "Rapidash"
     basefriendship 70 // raised up again
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_RECKLESS, ABILITY_FLASH_FIRE
-    .else
-        abilities ABILITY_RUN_AWAY, ABILITY_FLASH_FIRE
-    .endif
+    abilities ABILITY_RUN_AWAY, ABILITY_FLASH_FIRE
     runchance 25
     colorflip BODY_COLOR_YELLOW, 0
     mondexentry SPECIES_RAPIDASH, "At full gallop, its four hooves\nbarely touch the ground because\nit moves so incredibly fast."
@@ -2068,7 +2058,7 @@ mondata SPECIES_DODUO, "Doduo"
     mondexweight SPECIES_DODUO, "86.4 lbs."
 
 
-// ABILITY: Quick Feet (1), Moxie (HA)
+// ABILITY: Moxie (HA)
 mondata SPECIES_DODRIO, "Dodrio"
     basestats 60, 110, 70, 110, 60, 60
     types TYPE_NORMAL, TYPE_FLYING
@@ -2081,11 +2071,7 @@ mondata SPECIES_DODRIO, "Dodrio"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FLYING, EGG_GROUP_FLYING
-    .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_QUICK_FEET, ABILITY_EARLY_BIRD
-    .else
-        abilities ABILITY_RUN_AWAY, ABILITY_EARLY_BIRD
-    .endif
+    abilities ABILITY_RUN_AWAY, ABILITY_EARLY_BIRD
     runchance 25
     colorflip BODY_COLOR_BROWN, 0
     mondexentry SPECIES_DODRIO, "It collects data and plans three times\nas wisely, but it may think too much\nand fall into a state of immobility."
@@ -3873,7 +3859,7 @@ mondata SPECIES_SENTRET, "Sentret"
 
 
 // STATS: 76 >> 81 Attack | 55 >> 60 SpDef | 90 >> 100 Speed | 415 >> 435 BST
-// ABILITY: Limber (1), Hustle (HA)
+// ABILITY: Hustle (HA)
 mondata SPECIES_FURRET, "Furret"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 85, 81, 64, 100, 45, 60
@@ -3890,11 +3876,7 @@ mondata SPECIES_FURRET, "Furret"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_LIMBER, ABILITY_KEEN_EYE
-    .else
-        abilities ABILITY_RUN_AWAY, ABILITY_KEEN_EYE
-    .endif
+    abilities ABILITY_RUN_AWAY, ABILITY_KEEN_EYE
     runchance 25
     colorflip BODY_COLOR_BROWN, 0
     mondexentry SPECIES_FURRET, "It makes a nest to suit its long and\nskinny body. The nest is impossible\nfor other Pokémon to enter."
@@ -5012,7 +4994,6 @@ mondata SPECIES_FORRETRESS, "Forretress"
     mondexweight SPECIES_FORRETRESS, "277.3 lbs."
 
 
-// ABILITY: Serene Grace (2)
 mondata SPECIES_DUNSPARCE, "Dunsparce"
     basestats 100, 70, 70, 45, 65, 65
     types TYPE_NORMAL, TYPE_NORMAL
@@ -5025,13 +5006,7 @@ mondata SPECIES_DUNSPARCE, "Dunsparce"
     basefriendship 70 // raised up again
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    
-    .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_SERENE_GRACE, ABILITY_NONE
-    .else
-        abilities ABILITY_SERENE_GRACE, ABILITY_RUN_AWAY
-    .endif
-
+    abilities ABILITY_SERENE_GRACE, ABILITY_RUN_AWAY
     runchance 25
     colorflip BODY_COLOR_YELLOW, 0
     mondexentry SPECIES_DUNSPARCE, "When spotted, this Pokémon escapes\nbackward by furiously boring into\nthe ground with its tail."
@@ -5092,7 +5067,6 @@ mondata SPECIES_STEELIX, "Steelix"
     mondexweight SPECIES_STEELIX, "881.8 lbs."
 
 
-// ABILITY: Strong Jaw (2)
 mondata SPECIES_SNUBBULL, "Snubbull"
     basestats 60, 80, 50, 30, 40, 40
     types TYPE_FAIRY, TYPE_FAIRY
@@ -5105,11 +5079,7 @@ mondata SPECIES_SNUBBULL, "Snubbull"
     basefriendship 70
     growthrate GROWTH_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FAIRY
-    .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_INTIMIDATE, ABILITY_STRONG_JAW
-    .else
-        abilities ABILITY_INTIMIDATE, ABILITY_RUN_AWAY
-    .endif
+    abilities ABILITY_INTIMIDATE, ABILITY_RUN_AWAY
     runchance 25
     colorflip BODY_COLOR_PINK, 0
     mondexentry SPECIES_SNUBBULL, "Although it looks frightening, it\nis actually kind and affectionate.\nIt is very popular among women."
@@ -23727,7 +23697,6 @@ mondata SPECIES_FARIGIRAF, "Farigiraf"
     mondexweight SPECIES_FARIGIRAF, "352.7 lbs."
 
 
-// ABILITY: Run Away removed
 mondata SPECIES_DUDUNSPARCE, "Dudnsparce"
     basestats 125, 100, 80, 55, 85, 75
     types TYPE_NORMAL, TYPE_NORMAL
@@ -23740,13 +23709,7 @@ mondata SPECIES_DUDUNSPARCE, "Dudnsparce"
     basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-
-    .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_SERENE_GRACE, ABILITY_NONE
-    .else
-        abilities ABILITY_SERENE_GRACE, ABILITY_RUN_AWAY
-    .endif
-
+    abilities ABILITY_SERENE_GRACE, ABILITY_RUN_AWAY
     runchance 0
     colorflip BODY_COLOR_YELLOW, 0
     mondexentry SPECIES_DUDUNSPARCE, "It drives enemies out of its nest by sucking in enough air to fill its long, narrow lungs, then releasing the air in an intense blast."
@@ -29357,7 +29320,6 @@ mondata SPECIES_TATSUGIRI_STRETCHY, "-----"
     colorflip BODY_COLOR_PINK, 0
     
 
-// ABILITY: Run Away removed
 mondata SPECIES_DUDUNSPARCE_THREE_SEGMENT, "-----"
     basestats 125, 100, 80, 55, 85, 75
     types TYPE_NORMAL, TYPE_NORMAL
@@ -29370,13 +29332,7 @@ mondata SPECIES_DUDUNSPARCE_THREE_SEGMENT, "-----"
     basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-
-    .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_SERENE_GRACE, ABILITY_NONE
-    .else
-        abilities ABILITY_SERENE_GRACE, ABILITY_RUN_AWAY
-    .endif
-
+    abilities ABILITY_SERENE_GRACE, ABILITY_RUN_AWAY
     runchance 0
     colorflip BODY_COLOR_YELLOW, 0
     

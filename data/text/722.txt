@@ -48,7 +48,7 @@ The Pokémon doubles\nthe foe’s PP usage.
 Halves damage from Fire\nand Ice-type moves.
 The Pokémon awakens\nquickly from sleep.
 Contact has a 30% chance\nto burn the attacker.
-Enables sure getaway\nfrom wild Pokémon.
+The Pokémon can always\nescape or switch out.
 Boosts accuracy by 10%.\nPrevents accuracy loss.
 Boosts Attack by 10%.\nAttack can’t be lowered.
 The Pokémon may\npick up items.

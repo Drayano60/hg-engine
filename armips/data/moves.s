@@ -5589,7 +5589,7 @@ movedata MOVE_YAWN, "Yawn"
     terminatedata
     movedescription MOVE_YAWN, "The user lets loose a\nhuge yawn that lulls\nthe foe into falling\nasleep on the next\nturn."
 
-// EFFECT: Updated to include the x2 damage when knocking off
+// EFFECT: Updated to include the x1.5 damage when knocking off
 movedata MOVE_KNOCK_OFF, "Knock Off"
     battleeffect 188
     pss SPLIT_PHYSICAL
@@ -5604,7 +5604,7 @@ movedata MOVE_KNOCK_OFF, "Knock Off"
     appeal 0
     contesttype 0
     terminatedata
-    movedescription MOVE_KNOCK_OFF, "The user slaps down\nthe foe’s held item,\nmaking it unusable.\nThe damage is doubled\nif the foe has an item."
+    movedescription MOVE_KNOCK_OFF, "The user knocks off\nthe foe’s held item.\nThis move’s power is\nboosted by 50% if the\nfoe has an item."
 
 movedata MOVE_ENDEAVOR, "Endeavor"
     battleeffect 189

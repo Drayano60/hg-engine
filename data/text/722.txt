@@ -124,7 +124,7 @@ Ups Attack and Sp. Def of\nitself and ally when sunny.
 Deals 12.5% HP damage to\nsleeping foes each turn.
 Steals an item if an\nattacker makes contact.
 Removes added effects to\nboost move power by 30%.
-Makes stat changes have\nan opposite effect.
+Makes stat changes have\nthe opposite effect.
 Makes foes nervous and\nunable to eat Berries.
 Boosts its Attack sharply\nif its stats are lowered.
 Has a 30% chance to\ndisable a move used on it.

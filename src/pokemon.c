@@ -2619,7 +2619,34 @@ const struct FormData PokeFormDataTbl[]=
         .need_rev = 0,
         .file = SPECIES_DECIDUEYE_HISUIAN,
     },
-    
+
+    /** Paldean forms */
+
+    {
+        .species = SPECIES_WOOPER,
+        .form_no = 1,
+        .need_rev = 0,
+        .file = SPECIES_WOOPER_PALDEAN,
+    },
+    {
+        .species = SPECIES_TAUROS,
+        .form_no = 1,
+        .need_rev = 0,
+        .file = SPECIES_TAUROS_COMBAT,
+    },
+    {
+        .species = SPECIES_TAUROS,
+        .form_no = 2,
+        .need_rev = 0,
+        .file = SPECIES_TAUROS_BLAZE,
+    },
+    {
+        .species = SPECIES_TAUROS,
+        .form_no = 3,
+        .need_rev = 0,
+        .file = SPECIES_TAUROS_AQUA,
+    },
+
     /**significant gender differences**/
     {
         .species = SPECIES_UNFEZANT,

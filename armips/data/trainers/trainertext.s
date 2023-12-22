@@ -3638,6 +3638,9 @@ _Trainer828:
     trainertextentry 828, TEXT_LAST_MON_SENT_OUT, "You’re no ordinary Trainer to have\ngotten this far.\n"
     trainertextentry 828, TEXT_DEFEATED_IN_BATTLE, "Well, aren’t you good.\nI like that in a Trainer.\n"
 
+_Trainer829:
+    trainertextentry 829, TEXT_DEFEATED_IN_BATTLE, "We need more training..."
+
 .close
 
 
@@ -4473,5 +4476,6 @@ _Trainer828:
 /* Trainer 826 */ .halfword _Trainer826
 /* Trainer 827 */ .halfword _Trainer827
 /* Trainer 828 */ .halfword _Trainer828
+/* Trainer 829 */ .halfword _Trainer829
 
 .close

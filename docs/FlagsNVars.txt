@@ -72,6 +72,7 @@ NPCs:
 2171 - Heart Scale gift at Lake of Rage.
 2172 - Heart Scale gift on Route 26.
 2173 - TM60 Drain Punch gift in Olivine City.
+2174 - Galarica Cuff/Crown gift in Olivine Harbour.
 
 2175* - Safari Rocket event active.
 2176 - Safari Rocket event inactive.
@@ -80,6 +81,14 @@ NPCs:
 2179* - Silver/Grunt outside Cliff Cave.
 2180 - Hexagon Brothers, Route 48.
 2183 - Safari Zone event completed.
+
+2184 - Starter gift in Ecruteak
+2185 - Starter gift in Blackthorn
+
+2186 - Alola terminal spoken to.
+2187 - Galar terminal spoken to.
+2188 - Hisui terminal spoken to.
+2189 - Paldea terminal spoken to.
 
 2200 - Rare Candy item ball on Route 46.
 2201 - Poison Barb item ball on Route 32.
@@ -118,7 +127,7 @@ NPCs:
 2600 - HG-e hidden ability flag.
 2601 - HG-e starter hidden ability flag.
 2602 - Used to override GivePokemonEgg into the Pokemon property change func
-2603 - Not used
+2603 - Used for the guaranteed catch code
 2604 - Mystery Stone Flag 1
 2605 - Mystery Stone Flag 2
 2606 - Mystery Stone Flag 3
@@ -146,6 +155,10 @@ NPCs:
 2627 - Steelixite @ Olivine Gym.
 2628 - Abomasite @ Mahogany Gym.
 2629 - Altarianite @ Blackthorn Gym.
+
+2630 - Cheat code console enabled.
+
+
 
 373 - This is the flag in the base game to signal Suicune has been caught. This is set during the Bell Tower event if Suicune is caught.
 

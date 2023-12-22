@@ -9,6 +9,7 @@ Introduction
 New Bark Town - Player's House
 ✓ The mother's dialogue is changed a bit. She now gives you the Bicycle, GB Sounds and Pokégear (Flag 156). The Pokégear is also auto-fitted with the Map Card (UpgradePokegear 1) and Radio Card (UpgradePokegear 2).
 ✓ Mom's dialogue after getting your starter is also modified a bit as the flag is set earlier.
+✓ Changed the Wii into a "cheat assistant" that the player can activate to do certain things in lieu of PKHeX not working. There are options to generate Pokémon encounters, maximize the party's friendship, get 995 of Rare Candies/Master Balls/Heart Scales/Max Repels/various medicine items/PP Maxes/vitamins, get maximum money or coins, guarantee captures and reset starter gifts.
 
 New Bark Town
 ✓ The trigger for Elm giving you his Pokégear number as you leave town to the left has been changed to check that you've been given the starter (Flag 106) instead of checking for the Pokégear (Flag 156).
@@ -226,12 +227,10 @@ Goldenrod Tunnel
 ✓ Added an item ball for TM09 Venoshock.
 
 Global Terminal
-✓ Changed the monitors on the ground floor to have a new script that lets you exchange a Pokémon for a regional species. There's a monitor each for Alola, Galar, Hisui and Paldea. The scripts are in place for the first three. The latter three are currently disabled as assets are missing (and in Paldea's case, the Pokémon data too), and just display an 'error' text. Alola all works fine though!
-✓ Moved a bunch of NPCs whose dialogue no longer makes sense off the map.
-✓ Modified some dialogue to remove GTS references and/or say it is closed.
+✓ Removed all the existing NPCs and added new ones with dialogue to match the Global Terminal's new regional form purpose instead of the GTS it was before.
+✓ Changed the monitors on the ground floor to have a new script that lets you exchange a Pokémon for a regional species. There's a monitor each for Alola, Galar, Hisui and Paldea. Each one pops open a menu that lets you select the base form for the distinct regional form evolutionary line, and then you can exchange the regular form of that Pokémon to get the regional form.
+✓ For the Pokémon that are normal forms but evolve into regional forms, applying the evolution condition while inside the Global Terminal results in the regional form. (This is done through the hg-engine project.)
 ✓ Blocked off the teleporters to the upper floors.
-✓ Added a new NPC with an Alola Sandshrew overworld to advertise the regionals.
-✓ Added a new NPC with an Alolan Raichu to mention that evolving certain Pokémon there (Pikachu, Exeggcute, Cubone etc) will turn them into their regional forms.
 
 Route 35
 ✓ Rearranged a bunch of Trainers to make them compulsory.
@@ -344,9 +343,10 @@ Olivine City
 ✓ TM57 -> TM91 Flash Cannon.
 ✓ Sabrina shows up in the Pokémon Center after the Safari Zone events. She'll battle you and award you TM04 Calm Mind, but she disappears after becoming Champion.
 ✓ Changed the Good Rod guy to give you the Deep Sea items.
-✓ Changed the dialogue of an Ace Trainer F in the harbour as her dialogue didn't make any sense.
+✓ Changed the dialogue of an Ace Trainer F in the harbour as her dialogue didn't make any sense. (Then ended up removing her later anyway)
 ✓ Swapped the hidden Rare Candy item on the Rock Climb rock with the Heart Scale from Vermilion City. (8023 (RC) <-> 8168 (HS))
 ✓ Added an NPC in one of the houses who gives you TM60 Drain Punch.
+✓ Added an NPC in the harbour who gives you the Galarica Cuff and Galarica Crown.
 
 Lighthouse
 ✓ Rare Candy -> TM62 Acrobatics. TM87 -> Rare Candy. Super Repel -> Light Ball.

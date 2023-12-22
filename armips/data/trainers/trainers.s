@@ -47748,3 +47748,68 @@ party 812
     shinylock 0
     ballseal 0
 endparty
+
+trainerdata 829, "Oliver"
+   trainermontype TRAINER_MON_TYPE_FLAGS
+    trainerclass CLASS_ACE_TRAINER_M
+    nummons 3
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype SINGLE_BATTLE
+    endentry
+
+party 829
+    ivs 0
+    abilityslot 0
+    level LEVEL_ROUTE_35
+    monwithform SPECIES_VULPIX, 1
+    item ITEM_NONE
+    move MOVE_ICY_WIND
+    move MOVE_ICE_SHARD
+    move MOVE_CONFUSE_RAY
+    move MOVE_BABY_DOLL_EYES
+    ability ABILITY_SNOW_CLOAK
+    ball ITEM_POKE_BALL
+    setivs 25, 25, 25, 25, 25, 25
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level LEVEL_ROUTE_35
+    monwithform SPECIES_PONYTA, 1
+    item ITEM_NONE
+    move MOVE_PSYBEAM
+    move MOVE_FAIRY_WIND
+    move MOVE_DOUBLE_KICK
+    move MOVE_TAIL_WHIP
+    ability ABILITY_RUN_AWAY
+    ball ITEM_POKE_BALL
+    setivs 25, 25, 25, 25, 25, 25
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level LEVEL_ROUTE_35
+    monwithform SPECIES_GROWLITHE, 1
+    item ITEM_NONE
+    move MOVE_FIRE_FANG
+    move MOVE_ROCK_THROW
+    move MOVE_BITE
+    move MOVE_HOWL
+    ability ABILITY_FLASH_FIRE
+    ball ITEM_POKE_BALL
+    setivs 25, 25, 25, 25, 25, 25
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+endparty

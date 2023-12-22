@@ -2526,6 +2526,11 @@ u32 CalculateBallShakes(void *bw, struct BattleStruct *sp)
         return 4;
     }
 
+    // In-game code that guarantees captures when active.
+    if (CheckScriptFlag(2603)) {
+        return 4;
+    }
+
     if (sp->item_work == ITEM_SAFARI_BALL)
     {
         captureRate = PokePersonalParaGet(sp->battlemon[sp->defence_client].species, PERSONAL_CATCH_RATE);

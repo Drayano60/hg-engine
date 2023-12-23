@@ -21,6 +21,8 @@ NPCs:
 2117 - Morty in front of Burned Tower, and the Eusine/Grunts in Ice Path
 2118 - Leftovers gift in Olivine
 2119 - Soft Sand gift on Route 40
+
+--- These are unused now ---
 2120* - Brock visible
 2121 - Brock win
 2122* - Misty visible
@@ -35,6 +37,8 @@ NPCs:
 2131 - Sabrina win
 2132* - Blaine visible
 2133 - Blaine win
+--- ---
+
 2134 - Eviolite gift in Cianwood City
 2135 - Deep Sea Tooth/Scale gift in Olivine City
 2136 - Rocket Grunt looking at Safari sign in Cianwood
@@ -89,6 +93,14 @@ NPCs:
 2187 - Galar terminal spoken to.
 2188 - Hisui terminal spoken to.
 2189 - Paldea terminal spoken to.
+
+2190* - Brock in Johto
+2191* - Misty in Johto
+2192* - Lt. Surge in Johto
+2193* - Erika in Johto
+2194* - Janine in Johto
+2195* - Sabrina in Johto
+2196* - Blaine in Johto
 
 2200 - Rare Candy item ball on Route 46.
 2201 - Poison Barb item ball on Route 32.

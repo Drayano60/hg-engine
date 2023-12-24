@@ -224,3 +224,4 @@ On contact, this Pokémon\nand the foe swap abilities.
 Removes an ally’s stat\nchanges upon entry.
 Moves will never make\ncontact with the target.
 Sound-based moves become\nWater and do 20% more.
+Increases the boost from\na held Light Ball by 50%.

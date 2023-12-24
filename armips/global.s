@@ -43,6 +43,7 @@
 .include "armips/asm/custom/waterfall.s"
 .include "armips/asm/custom/rock_climb.s"
 .include "armips/asm/custom/pickup_table.s"
+.include "armips/asm/custom/spiky_pichu.s"
 
 .if REUSABLE_TMS == 1 // Using my own as my TM file also includes the move changes
 .include "armips/asm/tm.s" // make tms infinite

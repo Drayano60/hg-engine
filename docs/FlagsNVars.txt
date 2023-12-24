@@ -145,7 +145,7 @@ NPCs:
 2606 - Mystery Stone Flag 3
 2607 - Mystery Stone Flag 4
 2608 - Sigilyph static encounter.
-2609 - Noctowl static encounter.
+2609 - Used for Spiky-Eared Pichu + NPC (prev. Noctowl).
 2610 - Lapras static encounter.
 2611 - Slowking static encounter.
 2612 - Used to control Odd Egg stuff.
@@ -169,7 +169,7 @@ NPCs:
 2629 - Altarianite @ Blackthorn Gym.
 
 2630 - Cheat code console enabled.
-
+2631 - Override to give Pichu the Time's Gift ability
 
 
 373 - This is the flag in the base game to signal Suicune has been caught. This is set during the Bell Tower event if Suicune is caught.
@@ -204,3 +204,4 @@ Triggers:
 16722 (0-4) - This variable is used for the NPC in the Route 36-Ruins of Alph gatehouse. Doesn't seem to have any scripts using it but can't guarantee it's unused...
 16723 (0-2) - This variable is used for the Rotom event in Goldenrod. Same sort of thing as above...
 16724 (0-1) - This is used for Cynthia. Same again as above
+16725 (0-1) - Used for Spiky Pichu in Ilex Forest. Same again as above

@@ -3147,6 +3147,14 @@ void LONG_CALL SetBoxMonAbility(struct BoxPokemon *boxmon) // actually takes box
         SetBoxMonData(boxmon, MON_DATA_ABILITY, (u8 *)&ability1);
     }
 
+    // Special ability for Spiky-Eared Pichu.
+    // Have to force it here as it doesn't have its own personal etc.
+    if (GetBoxMonData(boxmon, MON_DATA_SPECIES, NULL) == SPECIES_PICHU && form == 1) {
+        int timeGift = ABILITY_TIMES_GIFT;
+
+        SetBoxMonData(boxmon, MON_DATA_ABILITY, &timeGift);
+    }
+
     BoxMonSetFastModeOff(boxmon, fastMode);
 }
 
@@ -4521,6 +4529,16 @@ void LONG_CALL CreateBoxMonData(struct BoxPokemon *boxmon, int species, int leve
         SetBoxMonData(boxmon,MON_DATA_ABILITY,(u8 *)&i);
     }
 
+    // Special case for Spiky-Eared Pichu
+    // This seems like the only place I can override the existing ability when receiving it
+    if (species == SPECIES_PICHU && CheckScriptFlag(TIMES_GIFT_FLAG)) {
+        ClearScriptFlag(TIMES_GIFT_FLAG);
+
+        u8 gift = ABILITY_TIMES_GIFT;
+
+        SetBoxMonData(boxmon, MON_DATA_ABILITY, &gift);
+    }
+
     i=GetBoxMonGender(boxmon);
     SetBoxMonData(boxmon,MON_DATA_GENDER,(u8 *)&i);
     FillInBoxMonLearnset(boxmon);
@@ -5177,6 +5195,10 @@ BOOL ModifyPokemon(SCRIPTCONTEXT *ctx) {
 
     // This flips the ability from regular ability 1 to regular ability 2 or vice-versa (if an ability 2 exists).
     if (property == SET_NORMAL_ABILITY) {
+        if (mons_no == SPECIES_PICHU && form == 1) {
+            return FALSE;
+        }
+
         mons_no = PokeOtherFormMonsNoGet(mons_no, form);
         u32 ability1 = PokeFormNoPersonalParaGet(mons_no, form, PERSONAL_ABILITY_1);
         u32 ability2 = PokeFormNoPersonalParaGet(mons_no, form, PERSONAL_ABILITY_2);
@@ -5204,6 +5226,10 @@ BOOL ModifyPokemon(SCRIPTCONTEXT *ctx) {
     }
 
     if (property == SET_HIDDEN_ABILITY) {
+        if (mons_no == SPECIES_PICHU && form == 1) {
+            return FALSE;
+        }
+
         mons_no = PokeOtherFormMonsNoGet(mons_no, form);
         u32 hiddenAbility = GetMonHiddenAbility(mons_no, form);
  
@@ -5216,7 +5242,7 @@ BOOL ModifyPokemon(SCRIPTCONTEXT *ctx) {
         ResetPartyPokemonAbility(pp);
     }
 
-    ClearScriptFlag(2602);
+    ClearScriptFlag(GIVE_EGG_OVERRIDE);
 }
 
 /**
@@ -5228,7 +5254,7 @@ BOOL ModifyPokemon(SCRIPTCONTEXT *ctx) {
 BOOL ScrCmd_GiveEgg(SCRIPTCONTEXT *ctx)
 {
     // Hijack to a different script command if the flag is set
-    if (CheckScriptFlag(2602) == 1) {
+    if (CheckScriptFlag(GIVE_EGG_OVERRIDE) == 1) {
         ModifyPokemon(ctx);
 
         return FALSE;

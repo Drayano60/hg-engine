@@ -26,8 +26,12 @@
 // commenting this line out essentially disables hidden abilities to maintain default behavior, while leaving this as-is will introduce hidden abilities and all of their handling.
 // just need to set the HIDDEN_ABILITIES_FLAG from the save and then every mon should be generated with its hidden ability until the flag is cleared from another script
 #define HIDDEN_ABILITIES
+
 #define HIDDEN_ABILITIES_FLAG 2600
 #define HIDDEN_ABILITIES_STARTERS_FLAG 2601
+#define GIVE_EGG_OVERRIDE 2602
+#define GUARANTEED_CATCH_FLAG 2603
+#define TIMES_GIFT_FLAG 2631
 
 // MEGA_EVOLUTIONS defines whether or not Pokémon that are able to mega evolve will be able to do so.
 // commenting this line out essentially disables mega evolutions and maintains default behavior with respect to them.  leaving this as-is will introduce mega evolutions when applied to the game.

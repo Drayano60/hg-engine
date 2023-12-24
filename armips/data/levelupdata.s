@@ -557,6 +557,7 @@ levelup SPECIES_PICHU
     learnset MOVE_NUZZLE, 5
     learnset MOVE_CHARM, 15
     learnset MOVE_NASTY_PLOT, 25
+    learnset MOVE_VOLT_TACKLE, 50
     terminatelearnset
 
 // NEW: Double Kick (LGPE), Extreme Speed (G5 Event)

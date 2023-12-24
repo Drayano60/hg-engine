@@ -7,6 +7,8 @@ Instructions on how to build the repo can be found there.
 **Stuff To-Do**
 - [ ] Clarify if Disable turns work like S/V for documentation
 - [ ] Add Alola starters to the elemental beam tutor
+- [ ] Add Alola starters to gift
+- [ ] Pumpkaboo/Gourgeist don't have alt form sprites
 
 **Assets still required**
 - [ ] Cry, overworld and party icon for Clodsire

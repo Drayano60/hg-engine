@@ -2527,7 +2527,7 @@ u32 CalculateBallShakes(void *bw, struct BattleStruct *sp)
     }
 
     // In-game code that guarantees captures when active.
-    if (CheckScriptFlag(2603)) {
+    if (CheckScriptFlag(GUARANTEED_CATCH_FLAG)) {
         return 4;
     }
 

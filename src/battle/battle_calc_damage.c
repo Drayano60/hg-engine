@@ -406,9 +406,26 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
     if ((DefendingMon.item_held_effect == HOLD_EFFECT_DEEP_SEA_SCALE) && (DefendingMon.species == SPECIES_CLAMPERL))
         sp_defense *= 2;
 
-    // handle light ball. now also works for pichu
-    if ((AttackingMon.item_held_effect == HOLD_EFFECT_LIGHT_BALL) && ((AttackingMon.species == SPECIES_PIKACHU) || (AttackingMon.species == SPECIES_PICHU)))
-        movepower *= 2;
+    // // handle light ball. now also works for pichu
+    // if ((AttackingMon.item_held_effect == HOLD_EFFECT_LIGHT_BALL) && ((AttackingMon.species == SPECIES_PIKACHU) || (AttackingMon.species == SPECIES_PICHU)))
+    //     movepower *= 2;
+
+    // Handle Light Ball
+    if (AttackingMon.item_held_effect == HOLD_EFFECT_LIGHT_BALL) {
+        // x3 boost for Spikey-Eared Pichu with Time's Gift ability
+        if ((AttackingMon.species == SPECIES_PICHU) && (sp->battlemon[attacker].form_no == 1) && (AttackingMon.ability == ABILITY_TIMES_GIFT)) {
+            movepower = movepower * 3;
+        // x2 boost for Pichu
+        } else if ((AttackingMon.species == SPECIES_PICHU)) {
+            movepower = movepower * 2;
+        // x2 boost for Pikachu
+        } else if ((AttackingMon.species == SPECIES_PIKACHU)) {
+            movepower = movepower * 2;
+        // x1.2 boost for Raichu
+        } else if ((AttackingMon.species == SPECIES_RAICHU)) {
+            movepower = ((movepower * 120) / 100);
+        }
+    }
 
     // handle metal powder
     if ((DefendingMon.item_held_effect == HOLD_EFFECT_METAL_POWDER) && (DefendingMon.species == SPECIES_DITTO))

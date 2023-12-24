@@ -173,7 +173,7 @@ Azalea Town - Gym
 
 Ilex Forest
 ✓ Shifted all of the triggers/overworlds involving the Farfetch'd thing to the bottom left, out of bounds. Annoying to do on replays.
-✓ Removed the Headbutt guy and replaced him with a guaranteed shiny Noctowl at Level 20. The Noctowl overworld should also be shiny (but this has to be manually applied, annoyingly!).  
+✓ Removed the Headbutt guy.
 ✓ X Attack -> Big Root.
 ✓ Ether is now TM86 Grass Knot.
 ✓ Added a Bug Catcher (as a reference to Crystal) using a Mickey (165).
@@ -181,6 +181,8 @@ Ilex Forest
 ✓ Changed the tile permissions so grass platforms show in battle instead.
 ✓ Revive -> Silver Powder.
 ✓ Added the Beedrillite.
+✓ Added an NPC and the Spiky-eared Pichu, who you can get here. The Pichu is Lv. 20 and has Volt Tackle replaced with Thunderbolt, but is otherwise the same (including the Zap Plate and fixed nature/gender).
+✓ After accepting Pichu, the NPC also gives you a Light Ball before leaving.
 
 Route 34
 ✓ Cynthia appears and talks to you in the gatehouse, then leaves. This makes her appear at the research center in the Ruins of Alph.

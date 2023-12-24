@@ -83,6 +83,7 @@ Sprout Tower
 ✓ Rearranged the trainer positions on the top floor to force them all and allow a double battle for the last two.
 ✓ Added a Hoothoot next to the Elder with a mild Vietnamese Crystal reference (wild hehe jump out).
 ✓ The Elder now awards you TM10, Hidden Power. One of the top floor monk's dialogues has been modified to reflect this too.
+✓ 3F: Escape Rope -> Potion.
 
 Violet City - Gym
 ✓ Added two new Trainers using Mickey (63, 87). Set flags for these after beating Falkner.
@@ -144,6 +145,7 @@ Union Cave (1F/B1F)
 ✓ Added smashable rocks on 1F.
 ✓ X Defend -> Grip Claw and moved across the water.
 ✓ Brock shows up here after defeating Team Rocket at the Safari Zone. He gives you TM80 Rock Slide.
+✓ Added a Hiker just inside from the Route 32 entrance who gives you the Escape Rope key item (currently a WIP, but should work well enough). The Hiker will give you another Escape Rope if you somehow get through all 999 uses of it.
 
 Route 33
 ✓ No changes.
@@ -284,6 +286,8 @@ Mt. Mortar
 ✓ Bruno will give the player a Choice Band in exchange for the Rage Candy Bar. His initial dialogue is slightly different depending on whether the player has ever battled him or not.
 ✓ Full Incense -> Focus Sash.
 ✓ TM40 -> PP Up.
+✓ 1F-2: Escape Rope -> Hyper Potion.
+✓ 2F: Escape Rope -> Max Repel.
 
 Route 42
 ✓ Adjusted trainer directions a little.
@@ -295,8 +299,9 @@ Mahogany Town
 ✓ The Rage Candy Bar man + trigger is removed.
 ✓ Edited dialogue in Pokémon Center to reference this game's version of evolving/level up moves.
 ✓ Ejected the current residents of the house and placed three weather researchers there. One gives you TM20 Weather Ball, another gives you a Castform gift.
-✓ An old man in the back of the Pokémon Center gives you the Covert Cloak.
 ✓ Janine shows up here after defeating Team Rocket at the Safari Zone. She gives you TM06 Toxic.
+✓ Added an Ace Trainer in the Pokémon Center who gives you 10 x Leftovers.
+✓ A little girl in the shop (who appears once the shop starts running) will give you the Covert Cloak.
 
 Route 44
 ✓ Rearranged trainers.
@@ -341,7 +346,7 @@ Route 39
 ✓ Changed the Moomoo Farm lady to instead act as a Natural Gift move tutor after Miltank is cured (instead of giving a TM).
 
 Olivine City
-✓ Added an NPC in the diner who gives you Leftovers.
+✓ Added an NPC in the diner who gives you Leftovers. (This NPC was later yeeted into the void in favour of the gift in Mahogany).
 ✓ TM57 -> TM91 Flash Cannon.
 ✓ Changed the Good Rod guy to give you the Deep Sea items.
 ✓ Changed the dialogue of an Ace Trainer F in the harbour as her dialogue didn't make any sense. (Then ended up removing her later anyway)
@@ -467,9 +472,10 @@ Mahogany Town - Gym
 ✓ Pryce's dialogue is edited to remove the erroneous stat boost text, and also mention the Defense boost that Hail now provides to Ice-types.
 ✓ Defeating Pryce now activates the trigger script in the Ice Path with Will.
 ✓ Following the Suicune encounter, Pryce can be challenged to a rematch where he will award you with the Abomasite if you win. He can be rematched for no reward each time you enter the area.
+✓ Defeating Pryce the first time now triggers the Mahogany shop to reopen (instead of it being defeating Team Rocket at the Radio Tower).
 
 Whirl Islands
-✓ Ultra Ball -> Dragon Scale. Carbos -> Damp Rock.
+✓ Ultra Ball -> Dragon Scale. Carbos -> Damp Rock. Escape Rope -> Ultra Ball.
 ✓ Removed the darkness.
 ✓ Changed all maps to use the same encounter file (43), freeing up files 44, 46 and 48.
 
@@ -551,6 +557,7 @@ Bell Tower
 ✓ Rematches for the Johto gym leaders now activate after this event concludes.
 ✓ Bell Tower now uses the same encounter file (30) for every floor.
 ✓ Added two item balls on 2F containing a Sacred Ash and a TM70 Mystical Fire.
+✓ 4F: Escape Rope -> Max Ether.
 
 Tohjo Falls
 ✓ Moon Stone -> PP Max.
@@ -586,6 +593,12 @@ Indigo Plateau
 ✓ Each of the E4 members offers to heal your Pokémon after the battle. It's been left optional in case you want to maintain a status problem/particular HP threshold on something.
 ✓ The flags for the Kanto Leaders' appearances in Johto are set during the Hall of Fame.
 ? The game seems to crash after "THE END". It saves well before so it's not a massive issue, but it's a strange one. Might be HG-e related.
+
+Seafoam Islands
+✓ 1F: Removed the hidden Escape Rope.
+
+Mt. Silver Cave
+✓ Lower Mountainside: Escape Rope -> Max Elixir.
 
 Miscellaneous
 ✓ Scripts for overworld usage of HMs has been adjusted.

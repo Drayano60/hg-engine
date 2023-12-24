@@ -21,10 +21,10 @@ EIGHT_BADGES equ 6
 .halfword ZERO_BADGES
 
 .halfword ITEM_GREAT_BALL
-.halfword THREE_BADGES
+.halfword ONE_BADGE
 
 .halfword ITEM_ULTRA_BALL
-.halfword FIVE_BADGES
+.halfword THREE_BADGES
 
 .halfword ITEM_POTION
 .halfword ZERO_BADGES
@@ -62,9 +62,6 @@ EIGHT_BADGES equ 6
 .halfword ITEM_FULL_HEAL
 .halfword ZERO_BADGES
 
-.halfword ITEM_ESCAPE_ROPE
-.halfword ZERO_BADGES
-
 .halfword ITEM_REPEL
 .halfword ZERO_BADGES
 
@@ -73,6 +70,9 @@ EIGHT_BADGES equ 6
 
 .halfword ITEM_MAX_REPEL
 .halfword FIVE_BADGES
+
+.halfword ITEM_POKE_DOLL
+.halfword ZERO_BADGES
 
 /* Violet City -> Herb Shop */
 .org 0x020FBA78

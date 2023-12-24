@@ -19,25 +19,8 @@ NPCs:
 2115 - Whipped Dream gift in Goldenrod
 2116 - TM21 Dazzling Gleam gift in Ecruteak
 2117 - Morty in front of Burned Tower, and the Eusine/Grunts in Ice Path
-2118 - Leftovers gift in Olivine
+2118 - Leftovers gift in Olivine **NOT USED NOW**
 2119 - Soft Sand gift on Route 40
-
---- These are unused now ---
-2120* - Brock visible
-2121 - Brock win
-2122* - Misty visible
-2123 - Misty win
-2124* - Lt. Surge visible
-2125 - Lt. Surge win
-2126* - Erika visible
-2127 - Erika win
-2128* - Janine visible
-2129 - Janine win
-2130* - Sabrina visible
-2131 - Sabrina win
-2132* - Blaine visible
-2133 - Blaine win
---- ---
 
 2134 - Eviolite gift in Cianwood City
 2135 - Deep Sea Tooth/Scale gift in Olivine City
@@ -101,6 +84,28 @@ NPCs:
 2194* - Janine in Johto
 2195* - Sabrina in Johto
 2196* - Blaine in Johto
+
+
+2120 - Leftovers gift in Mahogany.
+
+--- These are unused now ---
+2120* - Brock visible
+2121 - Brock win
+2122* - Misty visible
+2123 - Misty win
+2124* - Lt. Surge visible
+2125 - Lt. Surge win
+2126* - Erika visible
+2127 - Erika win
+2128* - Janine visible
+2129 - Janine win
+2130* - Sabrina visible
+2131 - Sabrina win
+2132* - Blaine visible
+2133 - Blaine win
+--- ---
+
+
 
 2200 - Rare Candy item ball on Route 46.
 2201 - Poison Barb item ball on Route 32.

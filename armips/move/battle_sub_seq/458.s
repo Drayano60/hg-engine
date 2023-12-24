@@ -17,7 +17,7 @@ a001_458:
     waitmessage
     changevar VAR_OP_SET, VAR_ADD_EFFECT_ATTRIBUTE, SPATK_UP
     gotosubscript 12
-    // removeitem BATTLER_ATTACKER -- Throat Spray is no longer broken permanently after use
+    removeitem BATTLER_ATTACKER
 _End:
     endscript
 

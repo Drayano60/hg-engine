@@ -723,9 +723,8 @@ struct __attribute__((packed)) BattlePokemon
                u32 text_on_ability_entry_flag : 1;  /** Used for abilities that display a msg on entry like Cloud Nine, Supreme Overlord */
                u32 echoed_voice_count : 3;          /** Used as an Echoed Voice use counter (up to 7) */
                u32 protean_flag : 1;                /** Used so Protean works once per switch-in like Gen 9 */
-               u32 single_use_item_flag : 1;        /** Used to stop items like Focus Sash from activating again when the item is not removed */
 
-               u32 : 5; // need to add to ClearBattleMonFlags when added to here as well
+               u32 : 6; // need to add to ClearBattleMonFlags when added to here as well
     /* 0x2c */ u8 pp[4];                     /**< move pp left */
     /* 0x30 */ u8 pp_count[4];               /**< move max pp */
     /* 0x34 */ u8 level;                     /**< current level */

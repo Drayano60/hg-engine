@@ -2187,7 +2187,7 @@ BOOL btl_scr_cmd_d0_checkshouldleavewith1hp(void *bw, struct BattleStruct *sp)
     {
         flag = 1;
     }
-    else if ((holdeffect == HOLD_EFFECT_HP_MAX_SURVIVE_1_HP) && (sp->battlemon[client_no].hp == (s32)sp->battlemon[client_no].maxhp) && (sp->battlemon[client_no].single_use_item_flag == 0))
+    else if ((holdeffect == HOLD_EFFECT_HP_MAX_SURVIVE_1_HP) && (sp->battlemon[client_no].hp == (s32)sp->battlemon[client_no].maxhp))
     {
         flag = 1;
     }

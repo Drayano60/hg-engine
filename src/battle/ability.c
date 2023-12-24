@@ -1451,7 +1451,6 @@ int SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
                     client_no = sp->turn_order[i];
                     if ((sp->battlemon[client_no].air_ballon_flag == 0)
                      && (sp->battlemon[client_no].hp)
-                     && (sp->battlemon[client_no].single_use_item_flag == 0)
                      && (BattleItemDataGet(sp, sp->battlemon[client_no].item, 1) == HOLD_EFFECT_UNGROUND_DESTROYED_ON_HIT))
                     {
                         sp->battlemon[client_no].air_ballon_flag = 1;

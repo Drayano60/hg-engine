@@ -3000,7 +3000,7 @@ mondata SPECIES_ELECTABUZZ, "Electabuzz"
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 2, 0, 0
-    items ITEM_NONE, ITEM_NONE
+    items ITEM_ELECTIRIZER, ITEM_ELECTIRIZER
     genderratio 63
     eggcycles SHORT_EGG_CYCLE ? 0 : 25
     basefriendship 70 // raised up again
@@ -3021,7 +3021,7 @@ mondata SPECIES_MAGMAR, "Magmar"
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 2, 0
-    items ITEM_NONE, ITEM_NONE
+    items ITEM_MAGMARIZER, ITEM_MAGMARIZER
     genderratio 63
     eggcycles SHORT_EGG_CYCLE ? 0 : 25
     basefriendship 70 // raised up again

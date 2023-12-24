@@ -16,7 +16,7 @@ a001_337:
     waitmessage
     wait 0x1E
 
-	// removeitem BATTLER_DEFENDER // remove air balloon -- Air Balloon is no longer broken permanently after use
+	removeitem BATTLER_DEFENDER
 
     endscript
 

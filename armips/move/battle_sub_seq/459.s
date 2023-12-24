@@ -21,7 +21,7 @@ a001_459:
     gotosubscript 12
     changevar VAR_OP_SET, VAR_ADD_EFFECT_ATTRIBUTE, SPATK_UP_2
     gotosubscript 12
-    // removeitem BATTLER_DEFENDER -- Weakness Policy is no longer broken permanently after use
+    removeitem BATTLER_DEFENDER
     endscript
 
 .close

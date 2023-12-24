@@ -266,9 +266,10 @@ Route 37
 ✓ Fixed the Psychic's gaze (relevant if you want to get TM73).
 
 Ecruteak City
-✓ Added an NPC at at the top right of town who gives TM21 Dazzling Gleam.
 ✓ Added an item ball with a Spell Tag at the top left of town. Moved an old man to stop him blocking it.
 ✓ Morty now blocks Burned Tower until some events in Ice Path.
+✓ Changed the two houses at the top of the town to have doors, leading to unused headers 161 and 175.
+✓ Added an NPC in one of the new houses that gives TM21 Dazzling Gleam.
 
 Route 38
 ✓ Added a blockade featuring Miltank to block you from moving onto Route 39 until Morty is defeated.
@@ -356,7 +357,7 @@ Olivine City
 ✓ Sabrina shows up here (at the harbour lookout) after defeating Team Rocket at the Safari Zone. She gives you TM04 Calm Mind.
 
 Lighthouse
-✓ Rare Candy -> TM62 Acrobatics. TM87 -> Rare Candy. Super Repel -> Light Ball.
+✓ Rare Candy -> TM62 Acrobatics. TM87 -> Rare Candy. Super Potion -> Light Ball.
 ✓ Added two trigger points on the outside bit that can cause wild encounters.
 ✓ After the outside bit, removed the Ether and added a Nurse Joy.
 ✓ Changed the last two Sailors to be Ace Trainers, an M and an F. Edited their dialogue a bit.

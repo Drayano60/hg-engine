@@ -273,7 +273,7 @@ A single-use item to be held by a\nPokémon. It allows the immediate use of\na m
 An item to be held by a Pokémon.\nIt is a bizarre orb that badly poisons\nthe holder in battle.
 An item to be held by a Pokémon.\nIt is a bizarre orb that inflicts a\nburn on the holder in battle.
 An item to be held by Ditto. Extremely\nfine yet hard, this powder doubles its\nSpeed stat while not transformed.
-Once per battle, a Pokémon holding this\nitem will, if it has full HP, endure a\npotential KO attack, leaving 1 HP.
+An item to be held by a Pokémon.\nThe holder may endure a potential KO\nattack, leaving it with just 1 HP.
 An item to be held by a Pokémon.\nIf the holder moves after the target,\nits accuracy will be boosted by 20%.
 A held item that boosts a move’s power\nby 10% for each consecutive use, up to\n100%. It resets if another move is used.
 A Pokémon held item that halves Speed.\nIt makes Flying-type and levitating\nholders susceptible to Ground moves.
@@ -584,7 +584,7 @@ One of a variety of Mega Stones.\nIt will Mega Evolve Audino when held.
 One of a variety of Mega Stones.\nIt will Mega Evolve Diancie when held.
 An item to be held by a Pokémon.\nIt is a stone tablet that boosts the\npower of Fairy-type moves by 20%.
 An item to be held by a Pokémon.\nThis single-use bulb boosts Sp. Atk\nif hit with a Water-type attack.
-Once per battle, a Pokémon holding this\nitem will float in the air, avoiding all\nGround-type moves, until it is hit.
+An item to be held by a Pokémon.\nThe holder will float in the air until hit.\nIf the holder is hit, the item will burst. 
 A rare mushroom that gives off\na nice fragrance. It can be sold at\na high price to shops.
 A big nugget of pure gold that gives\noff a lustrous gleam. It can be sold at\na high price to shops.
 Binding Band Description
@@ -609,7 +609,7 @@ A sachet filled with fragrant perfumes\nthat are just slightly too overwhelming.
 Safety Goggles Description
 Shalour Sable Description
 Snowball Description
-Once per battle, a Pokémon holding this\nitem will sharply raise its Attack and\nSp. Atk if hit by a supereffective move.
+An item to be held by a Pokémon.\nThis item sharply raises its Attack and\nSp. Atk if hit by a supereffective move.
 A soft and sweet treat made of fluffy,\npuffy, whipped, and whirled cream.\nIt’s loved by a certain Pokémon. 
 Adrenaline Orb Description
 Beast Ball Description
@@ -653,7 +653,7 @@ Rusted Shield Description
 Rusted Sword Description
 Sweet Apple Description
 Tart Apple Description
-Once per battle, if the Pokémon holding\nthis item uses a sound-based move, this\nthroat spray boosts its Sp. Atk stat.
+An item to be held by a Pokémon.\nIf the holder uses a sound-based move,\nthis item will boost its Sp. Atk stat.
 Utility Umbrella Description
 Ability Shield Description
 Auspicious Armor Description

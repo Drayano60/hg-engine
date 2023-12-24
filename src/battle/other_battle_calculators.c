@@ -139,7 +139,6 @@ BOOL CalcAccuracy(void *bw, struct BattleStruct *sp, int attacker, int defender,
     //     (GetBattleMonItem(sp, defender) == ITEM_AIR_BALLOON)
     //     && (move_type == TYPE_GROUND)
     //     && (sp->moveTbl[move_no].split != SPLIT_STATUS)
-    //     && (sp->battlemon[sp->defence_client].single_use_item_flag == 0)
     //     && ((sp->field_condition & FIELD_STATUS_GRAVITY) == 0)
     //     && ((sp->battlemon[sp->defence_client].effect_of_moves & MOVE_EFFECT_FLAG_INGRAIN) == 0)
     // )
@@ -522,11 +521,9 @@ u8 CalcSpeed(void *bw, struct BattleStruct *sp, int client1, int client2, int fl
         speed1 /= 2;
     }
 
-    if
-    (
-        (ability1 == ABILITY_UNBURDEN) &&
-        (((sp->battlemon[client1].moveeffect.knockOffFlag) && (sp->battlemon[client1].item == 0)) || (sp->battlemon[client1].single_use_item_flag == 1))
-    )
+    if ((ability1 == ABILITY_UNBURDEN)
+     && (sp->battlemon[client1].moveeffect.knockOffFlag)
+     && (sp->battlemon[client1].item == 0))
     {
         speed1 *= 2;
     }
@@ -618,11 +615,10 @@ u8 CalcSpeed(void *bw, struct BattleStruct *sp, int client1, int client2, int fl
         speed2 /= 2;
     }
 
-    if
-    (
-        (ability2 == ABILITY_UNBURDEN) &&
-        (((sp->battlemon[client2].moveeffect.knockOffFlag) && (sp->battlemon[client2].item == 0)) || (sp->battlemon[client2].single_use_item_flag == 1))
-    )
+
+    if ((ability2 == ABILITY_UNBURDEN)
+     && (sp->battlemon[client2].moveeffect.knockOffFlag)
+     && (sp->battlemon[client2].item == 0))
     {
         speed2 *= 2;
     }
@@ -996,9 +992,8 @@ void ServerHPCalc(void *bw, struct BattleStruct *sp)
                 {
                     sp->oneSelfFlag[sp->defence_client].prevent_one_hit_ko_item = TRUE;
                 }
-                else if ((eqp == HOLD_EFFECT_HP_MAX_SURVIVE_1_HP) && (sp->battlemon[sp->defence_client].hp == (s32)sp->battlemon[sp->defence_client].maxhp) && (sp->battlemon[sp->defence_client].single_use_item_flag == 0))
+                else if ((eqp == HOLD_EFFECT_HP_MAX_SURVIVE_1_HP) && (sp->battlemon[sp->defence_client].hp == (s32)sp->battlemon[sp->defence_client].maxhp))
                 {
-                    sp->battlemon[sp->defence_client].single_use_item_flag = TRUE; // Allow Focus Sash to not break while not working twice in a battle
                     sp->oneSelfFlag[sp->defence_client].prevent_one_hit_ko_item = TRUE;
                 }
                 else
@@ -1188,7 +1183,6 @@ int ServerDoTypeCalcMod(void *bw UNUSED, struct BattleStruct *sp, int move_no, i
     }
     else if ((eqp_d == HOLD_EFFECT_UNGROUND_DESTROYED_ON_HIT) // has air balloon
           && ((sp->battlemon[defence_client].effect_of_moves & MOVE_EFFECT_FLAG_INGRAIN) == 0)
-          && (sp->battlemon[sp->defence_client].single_use_item_flag == 0)
           && ((sp->field_condition & FIELD_STATUS_GRAVITY) == 0)
           && (move_type == TYPE_GROUND)
           && (eqp_d != HOLD_EFFECT_HALVE_SPEED))

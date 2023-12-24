@@ -87,6 +87,7 @@ NPCs:
 
 
 2120 - Leftovers gift in Mahogany.
+2121 - Focus Sash gift in Cianwood.
 
 --- These are unused now ---
 2120* - Brock visible

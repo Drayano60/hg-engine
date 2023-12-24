@@ -666,13 +666,8 @@ mondata SPECIES_PIKACHU, "Pikachu"
     mondexweight SPECIES_PIKACHU, "13.2 lbs."
 
 
-// STATS: 110 >> 120 Speed | 485 >> 495 BST
 mondata SPECIES_RAICHU, "Raichu"
-    .if STAT_CHANGES_IMPLEMENTED
-        basestats 60, 90, 55, 120, 90, 80
-    .else
-        basestats 60, 90, 55, 110, 90, 80
-    .endif
+    basestats 60, 90, 55, 110, 90, 80
     types TYPE_ELECTRIC, TYPE_ELECTRIC
     catchrate 75
     baseexp 0 // defined in baseexp.s
@@ -25480,14 +25475,9 @@ mondata SPECIES_RATICATE_ALOLAN, "-----"
     colorflip BODY_COLOR_BLACK, 0
     
 
-// STATS: 95 >> 100 SpAtk | 85 >> 90 SpDef | 485 >> 495 BST
 // ABILITY: Levitate (1, 2, HA) -- Surge Surfer replaced with Static
 mondata SPECIES_RAICHU_ALOLAN, "-----"
-    .if STAT_CHANGES_IMPLEMENTED
-        basestats 60, 85, 50, 110, 100, 90
-    .else
-        basestats 60, 85, 50, 110, 95, 85
-    .endif
+    basestats 60, 85, 50, 110, 95, 85
     types TYPE_ELECTRIC, TYPE_PSYCHIC
     catchrate 75
     baseexp 218

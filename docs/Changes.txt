@@ -285,7 +285,7 @@ Mt. Mortar
 ✓ TM52 Focus Blast is now found where the Karate King was previously (who is now in Goldenrod instead).
 ✓ Moved the Dragon Scale off-map. Added Bruno there.
 ✓ Bruno will give the player a Choice Band in exchange for the Rage Candy Bar. His initial dialogue is slightly different depending on whether the player has ever battled him or not.
-✓ Full Incense -> Focus Sash.
+✓ Full Incense -> Max Potion.
 ✓ TM40 -> PP Up.
 ✓ 1F-2: Escape Rope -> Hyper Potion.
 ✓ 2F: Escape Rope -> Max Repel.
@@ -381,6 +381,7 @@ Cianwood City
 ✓ The Eusine script now continues regardless of if you win or lose, and stops the Gym block afterwards. His dialogue is edited slightly to be neutral to the win/loss.
 ✓ Added an NPC in the camera house who gives you TM42 Facade.
 ✓ No change to the Shuckle gift as I don't know where the data is stored for it.
+✓ Added an NPC in the Pokémon Center who gives you three Focus Sashes if you talk to him after beating Chuck.
 
 Cianwood City - Gym
 ✓ The winch now can't be turned immediately, a button needs to be pressed on the opposite side first.
@@ -502,7 +503,7 @@ Radio Tower
 ✓ Woman that normally gifts TM11 no longer gives you anything.
 ✓ Added a clown on 4F. After defeating Team Rocket, he gives you TM92, Trick Room.
 ✓ The Director now instead gives you the Clear Bell, and his dialogue is adjusted a bit to be more like Crystal's while still maintaining the HGSS story with the Kimono Girls.
-✓ DJ Mary now gives you the Throat Spray instead of the Bright Powder.
+✓ DJ Mary now gives you three Throat Sprays instead of the Bright Powder.
 
 Goldenrod Tunnel (Rocket)
 ✓ Full Heal -> Magmarizer.

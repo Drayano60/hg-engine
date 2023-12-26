@@ -727,8 +727,8 @@
 /* SPECIES_FLABEBE                     */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_SERENE_GRACE : ABILITY_NONE // No Symbiosis
 /* SPECIES_FLOETTE                     */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_SERENE_GRACE : ABILITY_NONE // No Symbiosis
 /* SPECIES_FLORGES                     */ .halfword ABILITY_CHANGES_IMPLEMENTED ? ABILITY_SERENE_GRACE : ABILITY_NONE // No Symbiosis
-/* SPECIES_SKIDDO                      */ .halfword ABILITY_NONE // No Grass Pelt
-/* SPECIES_GOGOAT                      */ .halfword ABILITY_NONE // No Grass Pelt
+/* SPECIES_SKIDDO                      */ .halfword ABILITY_GRASS_PELT
+/* SPECIES_GOGOAT                      */ .halfword ABILITY_GRASS_PELT
 /* SPECIES_PANCHAM                     */ .halfword ABILITY_SCRAPPY
 /* SPECIES_PANGORO                     */ .halfword ABILITY_SCRAPPY
 /* SPECIES_FURFROU                     */ .halfword ABILITY_NONE

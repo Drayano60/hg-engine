@@ -25475,7 +25475,6 @@ mondata SPECIES_RATICATE_ALOLAN, "-----"
     colorflip BODY_COLOR_BLACK, 0
     
 
-// ABILITY: Levitate (1, 2, HA) -- Surge Surfer replaced with Static
 mondata SPECIES_RAICHU_ALOLAN, "-----"
     basestats 60, 85, 50, 110, 95, 85
     types TYPE_ELECTRIC, TYPE_PSYCHIC
@@ -25488,11 +25487,7 @@ mondata SPECIES_RAICHU_ALOLAN, "-----"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FAIRY
-    .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_LEVITATE, ABILITY_NONE
-    .else
-        abilities ABILITY_STATIC, ABILITY_NONE
-    .endif
+    abilities ABILITY_SURGE_SURFER, ABILITY_NONE
     runchance 25
     colorflip BODY_COLOR_BROWN, 0
     

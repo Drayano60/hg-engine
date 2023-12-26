@@ -161,68 +161,68 @@ Replaces an attacker’s\nability on contact.
 Contact damages the foe\nby 12.5% of their max HP.
 The Pokémon changes form\nwhen its HP is 50% or less.
 Normal-type moves become\nFlying and do 20% more.
+Protects the Pokémon\nfrom Taunt, Attract, etc.
 Gives full immunity to some\nball and bomb moves.
+Restores 33% HP as well\nafter eating most Berries.
 Boosts its Sp. Atk sharply\nif its stats are lowered.
+No status or stat drops\non Grass-type allies.
 Halves the damage from\nphysical moves.
 Flying-type moves gain +1\npriority when at full HP.
 Contact with it lowers the\nattacker’s Speed stat.
+Doubles the Defense stat\non Grassy Terrain.
 Powers up aura and pulse\nmoves by 50%.
+Damaging moves hit twice.\nSecond hit is 25% damage.
 Normal-type moves become\nFairy and do 20% more.
 Once per switch-in, it will\nbecome its move’s type.
 Normal-type moves become\nIce and do 20% more.
+Changes form when it uses\nProtect or if it attacks.
 Powers up biting moves\nby 50%.
+Prevents the Pokémon\nfrom falling asleep.
 Powers up moves that\nmake contact by 30%.
 Boosts Sp. Atk when a hit\nmakes its HP half or less.
 Blocks priority moves used\nagainst it or its ally.
 Halves damage on contact.\nDoubles Fire damage taken.
 Normal-type moves become\nElectric and do 20% more.
+Sound-based moves become\nWater and do 20% more.
+Moves will never make\ncontact with the target.
 Attacks on poisoned foes\nbecome critical hits.
 Blocks priority moves used\nagainst it or its ally.
 Doubles the Pokémon’s\nSpeed stat in a hailstorm.
+Doubles the Speed stat\non Electric Terrain.
 Contact with it lowers the\nattacker’s Speed stat.
 Gives +3 priority to the\nPokémon’s healing moves.
 Lowers the Speed of every\nother Pokémon when hit.
+Removes an ally’s stat\nchanges upon entry.
+Protects the Pokémon and\nits ally from poison.
+On contact, both Pokémon\nwill faint after 3 turns.
 Enables the Pokémon to go\nfirst 30% of the time.
+Removes all barriers on\nthe field upon entry.
+Powers up the Steel-type\nmoves of all allies by 50%.
 Powers up Electric-type\nmoves by 50%.
+On contact, this Pokémon\nand the foe swap abilities.
 Blocks priority moves used\nagainst it or its ally.
 Powers up slicing moves\nby 50%.
 Powers up moves by 10%\nfor each fainted ally.
+Wind moves do no damage\nand boost its Attack stat.
+-
 Powers up aura and pulse\nmoves by 50%.
 Bug moves have 30% chance\nto cause a status effect.
 Powers up ball and bomb\nmoves by 50%.
 Ups sound moves by 20%.\nHalves damage from them.
 Powers up moves used by\nallies by 20%.
+Doubles the power of its\nsound-based moves.
 The Pokémon’s fur stops\nit taking recoil damage.
 Boosts Sp. Atk if a foe is\nKOed with a Fire move.
-Contact damages the foe\nby 12.5% of their max HP.
-Burns an attacker that\nuses a contact move.
 Powers up Fairy-type\nmoves by 50%.
+Burns an attacker that\nuses a contact move.
+Powers up Psychic-type\nmoves by 50%.
 Contact has a 30% chance\nto poison the attacker.
+Powers up the move that\nit used last turn by 20%.
 Powers up Fire-type\nmoves by 50%.
 Sun is harsh for 3 turns.\nDoubles Speed in sunshine.
+Powers up moves by 50%\nwhen at 25% HP or less.
+Lowers the foe’s Attack\nupon entering battle.
+Increases the boost from\na held Light Ball by 50%.
 The Pokémon’s evasion is\nboosted by 20%.
 Contact has a 30% chance\nof badly poisoning the foe.
 Powers up wind-based\nmoves by 50%.
-Doubles the power of its\nsound-based moves.
-Damaging moves hit twice.\nSecond hit is 25% damage.
-Wind moves do no damage\nand boost its Attack stat.
-No status or stat drops\non Grass-type allies.
-Protects the Pokémon\nfrom Taunt, Attract, etc.
-Prevents the Pokémon\nfrom falling asleep.
-Changes form when it uses\nProtect or if it attacks.
-Doubles the Defense stat\non Grassy Terrain.
-Restores 33% HP as well\nafter eating most Berries.
-Lowers the foe’s Attack\nupon entering battle.
-Powers up moves by 50%\nwhen at 25% HP or less.
-Powers up Psychic-type\nmoves by 50%.
-Powers up the move that\nit used last turn by 20%.
-Powers up the Steel-type\nmoves of all allies by 50%.
-Protects the Pokémon and\nits ally from poison.
-Removes all barriers on\nthe field upon entry.
-On contact, both Pokémon\nwill faint after 3 turns.
-On contact, this Pokémon\nand the foe swap abilities.
-Removes an ally’s stat\nchanges upon entry.
-Moves will never make\ncontact with the target.
-Sound-based moves become\nWater and do 20% more.
-Increases the boost from\na held Light Ball by 50%.
-Doubles the Speed stat\non Electric Terrain.

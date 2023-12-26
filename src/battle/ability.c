@@ -2053,7 +2053,6 @@ BOOL MoveHitDefenderAbilityCheck(void *bw, struct BattleStruct *sp, int *seq_no)
             break;
         case ABILITY_ROUGH_SKIN:
         case ABILITY_IRON_BARBS:
-        case ABILITY_ICE_SPIKES:
             if ((sp->battlemon[sp->attack_client].hp)
                 && (GetBattlerAbility(sp, sp->attack_client) != ABILITY_MAGIC_GUARD)
                 && ((sp->waza_status_flag & WAZA_STATUS_FLAG_NO_OUT) == 0)

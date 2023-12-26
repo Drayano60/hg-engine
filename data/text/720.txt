@@ -161,68 +161,68 @@ Mummy
 Iron Barbs
 Zen Mode
 Aerilate
+Aroma Veil
 Bulletproof
+Cheek Pouch
 Competitive
+Flower Veil
 Fur Coat
 Gale Wings
 Gooey
+Grass Pelt
 M. Launcher
+P. Bond
 Pixilate
 Protean
 Refrigerate
+S. Change
 Strong Jaw
+Sweet Veil
 Tough Claws
 Berserk
 Dazzling
 Fluffy
 Galvanize
+Liquid Voice
+Long Reach
 Merciless
 Q. Majesty
 Slush Rush
+Surge Surfer
 Tangling Hair
 Triage
 Cotton Down
+C. Medicine
+Pastel Veil
+Perish Body
 Quick Draw
+S. Cleaner
+Steely Spirit
 Transistor
+W. Spirit
 Armor Tail
 Sharpness
 S. Overlord
+Wind Rider
+-
 Aura Adept
 Befuddle
 Bombardier
 Cacophony
 Cheerleader
+Conductor
 Fur Cushion
 Heat Up
-Ice Spikes
-Magma Skin
 Lunar Energy
+Magma Skin
+Odd Power
 Poison Sweat
+Rhythmic
 Solar Energy
 Sunny Mood
+Swan Song
+Sweet Aroma
+Time’s Gift
 Totter Steps
 Toxic Scales
 Wind Whipper
-Conductor
-Parental Bond
-Wind Rider
-Flower Veil
-Aroma Veil
-Sweet Veil
-Stance Chng.
-Grass Pelt
-Cheek Pouch
-Sweet Aroma
-Swan Song
-Odd Power
-Rhythmic
-Steely Spirit
-Pastel Veil
-S. Cleaner
-Perish Body
-W. Spirit
-C. Medicine
-Long Reach
-Liquid Voice
-Time’s Gift
-Surge Surfer

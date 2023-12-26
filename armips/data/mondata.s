@@ -15082,7 +15082,6 @@ mondata SPECIES_REUNICLUS, "Reuniclus"
     mondexweight SPECIES_REUNICLUS, "44.3 lbs."
 
 
-// ABILITY: Gale Wings (HA)
 mondata SPECIES_DUCKLETT, "Ducklett"
     basestats 62, 44, 50, 55, 44, 50
     types TYPE_WATER, TYPE_FLYING

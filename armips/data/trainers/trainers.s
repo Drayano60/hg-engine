@@ -433,7 +433,7 @@ party 280
     move MOVE_DOUBLE_EDGE
     move MOVE_FLAME_WHEEL
     move MOVE_CRUNCH
-    move MOVE_FINAL_GAMBIT
+    move MOVE_SUPER_FANG
     ability ABILITY_GUTS
     ball ITEM_POKE_BALL
     setivs 31, 31, 31, 31, 31, 31
@@ -465,7 +465,7 @@ party 510
     move MOVE_DOUBLE_EDGE
     move MOVE_FLAME_WHEEL
     move MOVE_CRUNCH
-    move MOVE_FINAL_GAMBIT
+    move MOVE_SUPER_FANG
     ability ABILITY_GUTS
     ball ITEM_POKE_BALL
     setivs 31, 31, 31, 31, 31, 31
@@ -1194,7 +1194,7 @@ trainerdata 460, "Wade"
     endentry
 
 party 460
-    ivs 0
+      ivs 0
     abilityslot 0
     level REMATCH_LEVEL_2
     pokemon SPECIES_LEDIAN
@@ -4540,7 +4540,7 @@ party 155
     ivs 0
     abilityslot 0
     level REMATCH_LEVEL_2
-    pokemon SPECIES_GOLEM
+    pokemon SPECIES_GRAVELER
     item 0
     move MOVE_EARTHQUAKE
     move MOVE_STONE_EDGE
@@ -4557,7 +4557,7 @@ party 155
     ivs 0
     abilityslot 0
     level REMATCH_LEVEL_2
-    pokemon SPECIES_MACHAMP
+    pokemon SPECIES_MACHOKE
     item 0
     move MOVE_CROSS_CHOP
     move MOVE_ROCK_SLIDE
@@ -4605,7 +4605,7 @@ party 523
     ivs 0
     abilityslot 0
     level REMATCH_LEVEL_3
-    pokemon SPECIES_GOLEM
+    pokemon SPECIES_GRAVELER
     item 0
     move MOVE_EARTHQUAKE
     move MOVE_STONE_EDGE
@@ -4622,7 +4622,7 @@ party 523
     ivs 0
     abilityslot 0
     level REMATCH_LEVEL_3
-    pokemon SPECIES_MACHAMP
+    pokemon SPECIES_MACHOKE
     item 0
     move MOVE_CROSS_CHOP
     move MOVE_ROCK_SLIDE
@@ -7226,15 +7226,15 @@ trainerdata 617, "Ian"
     endentry
 
 party 617
-    ivs 0
+   ivs 0
     abilityslot 0
     level REMATCH_LEVEL_2
     pokemon SPECIES_PRIMEAPE
     item 0
-    move MOVE_CLOSE_COMBAT
+    move MOVE_CROSS_CHOP
     move MOVE_RAGE_FIST
     move MOVE_PUNISHMENT
-    move MOVE_FINAL_GAMBIT
+    move MOVE_SWAGGER
     ability ABILITY_DEFIANT
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -7294,12 +7294,12 @@ party 618
     ivs 0
     abilityslot 0
     level REMATCH_LEVEL_3
-    pokemon SPECIES_ANNIHILAPE
+    pokemon SPECIES_PRIMEAPE
     item 0
-    move MOVE_CLOSE_COMBAT
+    move MOVE_CROSS_CHOP
     move MOVE_RAGE_FIST
     move MOVE_PUNISHMENT
-    move MOVE_FINAL_GAMBIT
+    move MOVE_SWAGGER
     ability ABILITY_DEFIANT
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -7382,7 +7382,7 @@ party 274
     move MOVE_EARTH_POWER
     move MOVE_ANCIENT_POWER
     move MOVE_CLEAR_SMOG
-    ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_MAGMA_SKIN : ABILITY_FLAME_BODY
+    ability ABILITY_FLAME_BODY
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
     setevs 0, 0, 0, 0, 0, 0
@@ -7393,7 +7393,7 @@ party 274
     ivs 0
     abilityslot 0
     level REMATCH_LEVEL_1
-    pokemon SPECIES_GRAVELER
+    pokemon SPECIES_GOLEM
     item 0
     move MOVE_EARTHQUAKE
     move MOVE_STONE_EDGE
@@ -7447,7 +7447,7 @@ party 275
     move MOVE_EARTH_POWER
     move MOVE_ANCIENT_POWER
     move MOVE_CLEAR_SMOG
-    ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_MAGMA_SKIN : ABILITY_FLAME_BODY
+    ability ABILITY_FLAME_BODY
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
     setevs 0, 0, 0, 0, 0, 0
@@ -7512,7 +7512,7 @@ party 525
     move MOVE_EARTH_POWER
     move MOVE_ANCIENT_POWER
     move MOVE_CLEAR_SMOG
-    ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_MAGMA_SKIN : ABILITY_FLAME_BODY
+    ability ABILITY_FLAME_BODY
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
     setevs 0, 0, 0, 0, 0, 0
@@ -8582,7 +8582,7 @@ trainerdata 527, "Irwin"
     endentry
 
 party 527
-    ivs 0
+     ivs 0
     abilityslot 0
     level REMATCH_LEVEL_3
     pokemon SPECIES_ELECTRODE
@@ -8667,7 +8667,7 @@ party 619
     ivs 0
     abilityslot 0
     level REMATCH_LEVEL_1
-    pokemon SPECIES_MAGMAR
+    pokemon SPECIES_MAGMORTAR
     item 0
     move MOVE_FLAMETHROWER
     move MOVE_CROSS_CHOP
@@ -8684,7 +8684,7 @@ party 619
     ivs 0
     abilityslot 0
     level REMATCH_LEVEL_1
-    pokemon SPECIES_MAGMAR
+    pokemon SPECIES_MAGMORTAR
     item 0
     move MOVE_FLAMETHROWER
     move MOVE_CROSS_CHOP
@@ -8735,10 +8735,10 @@ party 620
     pokemon SPECIES_MAGMORTAR
     item 0
     move MOVE_FLAMETHROWER
-    move MOVE_FOCUS_BLAST
-    move MOVE_THUNDERBOLT
+    move MOVE_CROSS_CHOP
+    move MOVE_CLEAR_SMOG
     move MOVE_SMOKESCREEN
-    ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_QUICK_DRAW : ABILITY_FLAME_BODY
+    ability ABILITY_FLAME_BODY
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
     setevs 0, 0, 0, 0, 0, 0
@@ -8752,10 +8752,10 @@ party 620
     pokemon SPECIES_MAGMORTAR
     item 0
     move MOVE_FLAMETHROWER
-    move MOVE_FOCUS_BLAST
-    move MOVE_THUNDERBOLT
+    move MOVE_CROSS_CHOP
+    move MOVE_CLEAR_SMOG
     move MOVE_SMOKESCREEN
-    ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_QUICK_DRAW : ABILITY_FLAME_BODY
+    ability ABILITY_FLAME_BODY
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
     setevs 0, 0, 0, 0, 0, 0
@@ -8800,10 +8800,10 @@ party 621
     pokemon SPECIES_MAGMORTAR
     item 0
     move MOVE_FLAMETHROWER
-    move MOVE_FOCUS_BLAST
-    move MOVE_THUNDERBOLT
+    move MOVE_CROSS_CHOP
+    move MOVE_CLEAR_SMOG
     move MOVE_SMOKESCREEN
-    ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_QUICK_DRAW : ABILITY_FLAME_BODY
+    ability ABILITY_FLAME_BODY
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
     setevs 0, 0, 0, 0, 0, 0
@@ -8817,10 +8817,10 @@ party 621
     pokemon SPECIES_MAGMORTAR
     item 0
     move MOVE_FLAMETHROWER
-    move MOVE_FOCUS_BLAST
-    move MOVE_THUNDERBOLT
+    move MOVE_CROSS_CHOP
+    move MOVE_CLEAR_SMOG
     move MOVE_SMOKESCREEN
-    ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_QUICK_DRAW : ABILITY_FLAME_BODY
+    ability ABILITY_FLAME_BODY
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
     setevs 0, 0, 0, 0, 0, 0
@@ -11322,7 +11322,7 @@ party 435
     ivs 0
     abilityslot 0
     level REMATCH_LEVEL_2
-    pokemon SPECIES_MAGNEZONE
+    pokemon SPECIES_MAGNETON
     item 0
     move MOVE_DISCHARGE
     move MOVE_FLASH_CANNON
@@ -11370,7 +11370,7 @@ party 507
     ivs 0
     abilityslot 0
     level REMATCH_LEVEL_3
-    pokemon SPECIES_MAGNEZONE
+    pokemon SPECIES_MAGNETON
     item 0
     move MOVE_DISCHARGE
     move MOVE_FLASH_CANNON
@@ -26535,7 +26535,7 @@ party 444
     move MOVE_PSYCHIC
     move MOVE_SHADOW_BALL
     move MOVE_DAZZLING_GLEAM
-    ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_MAGIC_GUARD : ABILITY_BLAZE
+    ability ABILITY_BLAZE
     ball ITEM_POKE_BALL
     setivs 25, 25, 25, 25, 25, 25
     setevs 0, 0, 0, 0, 0, 0
@@ -26606,7 +26606,7 @@ party 445
     setevs 0, 0, 0, 0, 0, 0
     nature NATURE_SERIOUS
     shinylock 0
-    ballseal 0
+    ballseal 0 
 
     ivs 0
     abilityslot 0
@@ -26617,7 +26617,7 @@ party 445
     move MOVE_PSYCHIC
     move MOVE_SHADOW_BALL
     move MOVE_DAZZLING_GLEAM
-    ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_MAGIC_GUARD : ABILITY_BLAZE
+    ability ABILITY_BLAZE
     ball ITEM_POKE_BALL
     setivs 25, 25, 25, 25, 25, 25
     setevs 0, 0, 0, 0, 0, 0
@@ -26699,7 +26699,7 @@ party 607
     move MOVE_PSYCHIC
     move MOVE_SHADOW_BALL
     move MOVE_DAZZLING_GLEAM
-    ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_MAGIC_GUARD : ABILITY_BLAZE
+    ability ABILITY_BLAZE
     ball ITEM_POKE_BALL
     setivs 25, 25, 25, 25, 25, 25
     setevs 0, 0, 0, 0, 0, 0
@@ -28172,7 +28172,7 @@ party 458
     move MOVE_HIGH_HORSEPOWER
     move ALLOW_ILLEGAL_MOVES ? MOVE_JUMP_KICK : MOVE_DOUBLE_KICK
     move MOVE_BOUNCE
-    ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_RECKLESS : ABILITY_FLAME_BODY
+    ability ABILITY_FLAME_BODY
     ball ITEM_POKE_BALL
     setivs 25, 25, 25, 25, 25, 25
     setevs 0, 0, 0, 0, 0, 0
@@ -28254,7 +28254,7 @@ party 459
     move MOVE_HIGH_HORSEPOWER
     move ALLOW_ILLEGAL_MOVES ? MOVE_JUMP_KICK : MOVE_DOUBLE_KICK
     move MOVE_BOUNCE
-    ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_RECKLESS : ABILITY_FLAME_BODY
+    ability ABILITY_FLAME_BODY
     ball ITEM_POKE_BALL
     setivs 25, 25, 25, 25, 25, 25
     setevs 0, 0, 0, 0, 0, 0
@@ -28336,7 +28336,7 @@ party 609
     move MOVE_HIGH_HORSEPOWER
     move ALLOW_ILLEGAL_MOVES ? MOVE_JUMP_KICK : MOVE_DOUBLE_KICK
     move MOVE_BOUNCE
-    ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_RECKLESS : ABILITY_FLAME_BODY
+    ability ABILITY_FLAME_BODY
     ball ITEM_POKE_BALL
     setivs 25, 25, 25, 25, 25, 25
     setevs 0, 0, 0, 0, 0, 0

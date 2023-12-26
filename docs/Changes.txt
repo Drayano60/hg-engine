@@ -151,7 +151,7 @@ Route 33
 ✓ No changes.
 
 Azalea Town
-✓ Added Prof Elm's assistant in the Poké Mart, who will give a Lv. 5 starter of the player's choice.
+✓ Added Prof Elm's assistant in the Pokémon Center, who will give a Lv. 5 starter of the player's choice.
 ✓ Added a burglar next to Kurt's house who gives TM46.
 ✓ Kurt now gives you HM01 instead of a Fast Ball.
 ✓ Kurt now instantly makes the respective Poké Balls when he's given apricorns instead of it being a daily event.
@@ -355,6 +355,7 @@ Olivine City
 ✓ Added an NPC in one of the houses who gives you TM60 Drain Punch.
 ✓ Added an NPC in the harbour who gives you the Galarica Cuff and Galarica Crown.
 ✓ Sabrina shows up here (at the harbour lookout) after defeating Team Rocket at the Safari Zone. She gives you TM04 Calm Mind.
+✓ Added Prof Elm's assistant in the Pokémon Center, who will give a Lv. 5 starter of the player's choice.
 
 Lighthouse
 ✓ Rare Candy -> TM62 Acrobatics. TM87 -> Rare Candy. Super Potion -> Light Ball.
@@ -525,6 +526,7 @@ Blackthorn City
 ✓ Added a tutor in the tutor house to teach Steel Beam to any Steel-type Pokémon.
 ✓ Added an NPC in the same house to sell six high power TMs.
 ✓ Edited NPC dialogues to remove move reminder/deleter dialogue.
+✓ Added Prof Elm's assistant in the Pokémon Center, who will give a Lv. 5 starter of the player's choice.
 
 Blackthorn City - Gym
 ✓ Gym guide now mentions Fairy Pokémon.

@@ -69,7 +69,7 @@ NPCs:
 2180 - Hexagon Brothers, Route 48.
 2183 - Safari Zone event completed.
 
-2184 - Starter gift in Ecruteak
+2184 - Starter gift in Olivine
 2185 - Starter gift in Blackthorn
 
 2186 - Alola terminal spoken to.

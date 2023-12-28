@@ -2180,11 +2180,11 @@ movedata MOVE_STRENGTH, "Strength"
     terminatedata
     movedescription MOVE_STRENGTH, "The foe is slugged\nwith a punch thrown\nat maximum power.\nIt can also be used\nto move boulders."
 
-// POWER: 20 >> 30
+// POWER: 20 >> 40
 movedata MOVE_ABSORB, "Absorb"
     battleeffect 3
     pss SPLIT_SPECIAL
-    basepower MOVE_CHANGES_IMPLEMENTED ? 30 : 20
+    basepower MOVE_CHANGES_IMPLEMENTED ? 40 : 20
     type TYPE_GRASS
     accuracy 100
     pp 25
@@ -3241,7 +3241,7 @@ movedata MOVE_HIGH_JUMP_KICK, "High Jump Kick"
     pss SPLIT_PHYSICAL
     basepower 130
     type TYPE_FIGHTING
-    accuracy 90
+    accuracy MOVE_CHANGES_IMPLEMENTED ? 85 : 90
     pp 10
     effectchance 0
     target MOVE_TARGET_SELECTED
@@ -6599,24 +6599,23 @@ movedata MOVE_COVET, "Covet"
     terminatedata
     movedescription MOVE_COVET, "The user attacks the\nfoe. In a wild battle,\nthis steals the foe’s\nheld item if the user\nisn’t holding an item."
 
-// POWER: 120 >> 140
 // PP: 15 >> 5
-// EFFECT CHANCE: 10 >> 30
+// EFFECT CHANCE: 10 >> 50
 movedata MOVE_VOLT_TACKLE, "Volt Tackle"
     battleeffect 262
     pss SPLIT_PHYSICAL
-    basepower MOVE_CHANGES_IMPLEMENTED ? 140 : 120
+    basepower 120
     type TYPE_ELECTRIC
     accuracy 100
     pp MOVE_CHANGES_IMPLEMENTED ? 5 : 15
-    effectchance MOVE_CHANGES_IMPLEMENTED ? 30 : 10
+    effectchance MOVE_CHANGES_IMPLEMENTED ? 50 : 10
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_HIDE_SHADOW | FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
     appeal 0
     contesttype 0
     terminatedata
-    movedescription MOVE_VOLT_TACKLE, "An electrified charge.\nThe user is hurt by\n33% of damage dealt.\nThis has a 30% chance\nto paralyze the foe."
+    movedescription MOVE_VOLT_TACKLE, "An electrified charge.\nThe user is hurt by\n33% of damage dealt.\nThis has a 50% chance\nto paralyze the foe."
 
 movedata MOVE_MAGICAL_LEAF, "Magical Leaf"
     battleeffect 17
@@ -15143,11 +15142,10 @@ movedata MOVE_HYPER_DRILL, "Hyper Drill"
     terminatedata
     movedescription MOVE_HYPER_DRILL, "The user spins its\npointed body at high\nspeed. This attack\ncan hit a foe using\nProtect or Detect."
 
-// POWER: 40 >> 45
 movedata MOVE_TWIN_BEAM, "Twin Beam"
     battleeffect 44
     pss SPLIT_SPECIAL
-    basepower MOVE_CHANGES_IMPLEMENTED ? 45 : 40
+    basepower 40
     type TYPE_PSYCHIC
     accuracy 100
     pp 10

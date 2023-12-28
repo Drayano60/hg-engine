@@ -8,6 +8,7 @@ Instructions on how to build the repo can be found there.
 - [ ] Clarify if Disable turns work like S/V for documentation
 - [ ] Pumpkaboo/Gourgeist don't have alt form sprites
 - [ ] Ingame trades
+- [ ] Define type change stuff properly
 
 **Assets still required**
 - [ ] Cry, overworld and party icon for Clodsire

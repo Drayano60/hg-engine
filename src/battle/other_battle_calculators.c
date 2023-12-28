@@ -1316,18 +1316,23 @@ int ServerDoTypeCalcMod(void *bw UNUSED, struct BattleStruct *sp, int move_no, i
         It does check for Soundproof but only for specific move IDs, so that is included here.
         Overcoat isn't here as this function only happens for damage moves.
     */
+
+    // If attacker has Mold Breaker, all of these abilities are ignored anyway.
+    if (GetBattlerAbility(sp, attack_client) == ABILITY_MOLD_BREAKER) {
+        return damage;
+    }
+
+    u8 defenderAbility = GetBattlerAbility(sp, defence_client);
+
     if
     (
-        ((MoldBreakerAbilityCheck(sp, attack_client, defence_client, ABILITY_SOUNDPROOF) == TRUE) && (sp->moveTbl[move_no].appeal & FLAG_SOUND))
-        || ((MoldBreakerAbilityCheck(sp, attack_client, defence_client, ABILITY_LIGHTNING_ROD) == TRUE) && (move_type == TYPE_ELECTRIC))
-        || ((MoldBreakerAbilityCheck(sp, attack_client, defence_client, ABILITY_STORM_DRAIN) == TRUE) && (move_type == TYPE_WATER))
-        || ((MoldBreakerAbilityCheck(sp, attack_client, defence_client, ABILITY_DRY_SKIN) == TRUE) && (move_type == TYPE_WATER))
-        || ((MoldBreakerAbilityCheck(sp, attack_client, defence_client, ABILITY_SAP_SIPPER) == TRUE) && (move_type == TYPE_GRASS))
-        || ((MoldBreakerAbilityCheck(sp, attack_client, defence_client, ABILITY_BULLETPROOF) == TRUE) && (sp->moveTbl[move_no].appeal & FLAG_BALL))
-        || ((MoldBreakerAbilityCheck(sp, attack_client, defence_client, ABILITY_WIND_RIDER) == TRUE) && (sp->moveTbl[move_no].appeal & FLAG_WIND))
-        || ((MoldBreakerAbilityCheck(sp, attack_client, defence_client, ABILITY_ARMOR_TAIL) == TRUE) && (sp->moveTbl[move_no].priority > 0))
-        || ((MoldBreakerAbilityCheck(sp, attack_client, defence_client, ABILITY_DAZZLING) == TRUE) && (sp->moveTbl[move_no].priority > 0))
-        || ((MoldBreakerAbilityCheck(sp, attack_client, defence_client, ABILITY_QUEENLY_MAJESTY) == TRUE) && (sp->moveTbl[move_no].priority > 0))
+        (defenderAbility == ABILITY_SOUNDPROOF && sp->moveTbl[move_no].flag & FLAG_SOUND) ||
+        (defenderAbility == ABILITY_LIGHTNING_ROD && move_type == TYPE_ELECTRIC) ||
+        ((defenderAbility == ABILITY_STORM_DRAIN || defenderAbility == ABILITY_DRY_SKIN) && move_type == TYPE_WATER) ||
+        (defenderAbility == ABILITY_SAP_SIPPER && move_type == TYPE_GRASS) ||
+        (defenderAbility == ABILITY_BULLETPROOF && sp->moveTbl[move_no].appeal & FLAG_BALL) ||
+        (defenderAbility == ABILITY_WIND_RIDER && sp->moveTbl[move_no].appeal & FLAG_WIND) ||
+        ((defenderAbility == ABILITY_ARMOR_TAIL || defenderAbility == ABILITY_DAZZLING || defenderAbility == ABILITY_QUEENLY_MAJESTY) && sp->moveTbl[move_no].priority > 0)
     )
     {
         damage = 1;
@@ -1358,11 +1363,6 @@ BOOL CantEscape(void *bw, struct BattleStruct *ctx, int battlerId, MESSAGE_PARAM
 
     // if shed shell or no experience or has run away or has ghost type then there is nothing stopping the battler from escaping
     if (item == HOLD_EFFECT_FLEE || (battleType & BATTLE_TYPE_NO_EXPERIENCE) || GetBattlerAbility(ctx, battlerId) == ABILITY_RUN_AWAY || BATTLE_MON_HAS_TYPE(ctx, battlerId, TYPE_GHOST)) {
-        return FALSE;
-    }
-
-    // Ghost-types can run away under any circumstance.
-    if (BATTLE_MON_HAS_TYPE(ctx, battlerId, TYPE_GHOST)) {
         return FALSE;
     }
 
@@ -1442,18 +1442,15 @@ BOOL CantEscape(void *bw, struct BattleStruct *ctx, int battlerId, MESSAGE_PARAM
 BOOL BattlerCantSwitch(void *bw, struct BattleStruct *ctx, int battlerId) {
     BOOL ret = FALSE;
 
-    // ghost types can switch from anything like they had shed skin
-    if (HeldItemHoldEffectGet(ctx, battlerId) == HOLD_EFFECT_SWITCH || BATTLE_MON_HAS_TYPE(ctx, battlerId, TYPE_GHOST)) {
-        return FALSE;
-    }
-
-    // Ghost types are able to switch regardless of circumstance.
-    if (BATTLE_MON_HAS_TYPE(ctx, battlerId, TYPE_GHOST)) {
-        return FALSE;
-    }
-
+    // ghost types can switch from anything like they had shed shell
     // NEW: Run Away now allows switching under any circumstance.
-    if (GetBattlerAbility(ctx, battlerId) == ABILITY_RUN_AWAY) {
+    if
+    (
+        HeldItemHoldEffectGet(ctx, battlerId) == HOLD_EFFECT_SWITCH ||
+        BATTLE_MON_HAS_TYPE(ctx, battlerId, TYPE_GHOST) ||
+        GetBattlerAbility(ctx, battlerId == ABILITY_RUN_AWAY)
+    )
+    {
         return FALSE;
     }
 

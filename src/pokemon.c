@@ -1637,6 +1637,8 @@ const struct FormData PokeFormDataTbl[]=
         .file = SPECIES_STUNFISK_GALARIAN,
     },
 
+    #ifdef SAVE_SPACE
+
     /**cosmetic forms**/
     {
         .species = SPECIES_PIKACHU,
@@ -1722,6 +1724,9 @@ const struct FormData PokeFormDataTbl[]=
         .need_rev = 0,
         .file = SPECIES_PIKACHU_WORLD_CAP,
     },
+
+    #endif
+
     {
         .species = SPECIES_BASCULIN,
         .form_no = 1,
@@ -1770,6 +1775,9 @@ const struct FormData PokeFormDataTbl[]=
         .need_rev = 0,
         .file = SPECIES_SAWSBUCK_WINTER,
     },
+
+    #ifdef SAVE_SPACE
+
     {
         .species = SPECIES_TORNADUS,
         .form_no = 1,
@@ -1836,6 +1844,9 @@ const struct FormData PokeFormDataTbl[]=
         .need_rev = 0,
         .file = SPECIES_GRENINJA_BATTLE_BOND,
     },
+
+    #endif
+    
     {
         .species = SPECIES_VIVILLON,
         .form_no = 1,
@@ -2118,6 +2129,9 @@ const struct FormData PokeFormDataTbl[]=
         .need_rev = 0,
         .file = SPECIES_GOURGEIST_SUPER,
     },
+
+    #ifdef SAVE_SPACE
+
     {
         .species = SPECIES_HOOPA,
         .form_no = 1,
@@ -2244,12 +2258,8 @@ const struct FormData PokeFormDataTbl[]=
         .need_rev = 0,
         .file = SPECIES_CALYREX_SHADOW_RIDER,
     },
-    {
-        .species = SPECIES_DUDUNSPARCE,
-        .form_no = 1,
-        .need_rev = 0,
-        .file = SPECIES_DUDUNSPARCE_THREE_SEGMENT,
-    },
+
+    #endif
 
     /**Battle Forms**/
     {
@@ -2288,6 +2298,9 @@ const struct FormData PokeFormDataTbl[]=
         .need_rev = 0,
         .file = SPECIES_GASTRODON_EAST_SEA,
     },
+
+    #ifdef SAVE_SPACE
+
     {
         .species = SPECIES_DIALGA,
         .form_no = 1,
@@ -2300,6 +2313,9 @@ const struct FormData PokeFormDataTbl[]=
         .need_rev = 0,
         .file = SPECIES_PALKIA_ORIGIN,
     },
+
+    #endif
+    
     {
         .species = SPECIES_DARMANITAN,
         .form_no = 2,
@@ -2312,6 +2328,9 @@ const struct FormData PokeFormDataTbl[]=
         .need_rev = 1,
         .file = SPECIES_DARMANITAN_ZEN_MODE_GALARIAN,
     },
+
+    #ifdef SAVE_SPACE
+
     {
         .species = SPECIES_MELOETTA,
         .form_no = 1,
@@ -2324,12 +2343,18 @@ const struct FormData PokeFormDataTbl[]=
         .need_rev = 1,
         .file = SPECIES_GRENINJA_ASH,
     },
+    
+    #endif
+
     {
         .species = SPECIES_AEGISLASH,
         .form_no = 1,
         .need_rev = 1,
         .file = SPECIES_AEGISLASH_BLADE,
     },
+
+    #ifdef SAVE_SPACE
+
     {
         .species = SPECIES_XERNEAS,
         .form_no = 1,
@@ -2529,6 +2554,8 @@ const struct FormData PokeFormDataTbl[]=
         .file = SPECIES_ENAMORUS_THERIAN,
     },
 
+    #endif
+
     /**hisuian forms**/
     {
         .species = SPECIES_GROWLITHE,
@@ -2658,18 +2685,27 @@ const struct FormData PokeFormDataTbl[]=
         .need_rev = 0,
         .file = SPECIES_MEOWSTIC_FEMALE,
     },
+
+    #ifdef SAVE_SPACE
+
     {
         .species = SPECIES_INDEEDEE,
         .form_no = 1,
         .need_rev = 0,
         .file = SPECIES_INDEEDEE_FEMALE,
     },
+
+    #endif
+
     {
         .species = SPECIES_BASCULEGION,
         .form_no = 3,
         .need_rev = 0,
         .file = SPECIES_BASCULEGION_FEMALE,
     },
+
+    #ifdef SAVE_SPACE
+
     {
         .species = SPECIES_MAUSHOLD,
         .form_no = 1,
@@ -2712,12 +2748,18 @@ const struct FormData PokeFormDataTbl[]=
         .need_rev = 0,
         .file = SPECIES_TATSUGIRI_STRETCHY,
     },
+
+    #endif
+
     {
         .species = SPECIES_DUDUNSPARCE,
         .form_no = 1,
         .need_rev = 0,
         .file = SPECIES_DUDUNSPARCE_THREE_SEGMENT,
     },
+
+    #ifdef SAVE_SPACE
+
     {
         .species = SPECIES_GIMMIGHOUL,
         .form_no = 1,
@@ -2736,6 +2778,9 @@ const struct FormData PokeFormDataTbl[]=
         .need_rev = 0,
         .file = SPECIES_TERAPAGOS_STELLAR,
     },
+
+    #endif
+
     {
         .species = SPECIES_WOOPER,
         .form_no = 1,
@@ -2760,6 +2805,9 @@ const struct FormData PokeFormDataTbl[]=
         .need_rev = 0,
         .file = SPECIES_TAUROS_AQUA,
     },
+
+    #ifdef SAVE_SPACE
+
     {
         .species = SPECIES_OINKOLOGNE,
         .form_no = 1,
@@ -2826,6 +2874,8 @@ const struct FormData PokeFormDataTbl[]=
         .need_rev = 0,
         .file = SPECIES_OGERPON_CORNERSTONE_MASK,
     },
+
+    #endif
 };
 
 extern u32 word_to_store_form_at;
@@ -4220,6 +4270,9 @@ u16 LONG_CALL GetMonEvolution(struct Party *party, struct PartyPokemon *pokemon,
                     *method_ret = EVO_LEVEL_FEMALE;
                 }
                 break;
+
+            #ifdef SAVE_SPACE
+
             case EVO_CORONET: // magnetic field at route 43+kanto power plant
                 {
                     u32 location = gFieldSysPtr->location->mapId;
@@ -4254,6 +4307,8 @@ u16 LONG_CALL GetMonEvolution(struct Party *party, struct PartyPokemon *pokemon,
                 }
                 break;
 
+            #endif
+
             case EVO_LEVEL_DAY:
                 if (IsNighttime() == 0 && evoTable[i].param <= level) {
                     GET_TARGET_AND_SET_FORM;
@@ -4266,6 +4321,9 @@ u16 LONG_CALL GetMonEvolution(struct Party *party, struct PartyPokemon *pokemon,
                     *method_ret = EVO_LEVEL_NIGHT;
                 }
                 break;
+
+            #ifdef SAVE_SPACE
+
             case EVO_LEVEL_DUSK:
                 {
                     struct RTCTime time;
@@ -4361,6 +4419,9 @@ u16 LONG_CALL GetMonEvolution(struct Party *party, struct PartyPokemon *pokemon,
                     }
                 }
                 break;
+
+            #endif
+
             case EVO_AMOUNT_OF_CRITICAL_HITS: // needs to hit an amount of critical hits in a battle in one go.  need to log critical hits somewhere else
                 if (GET_MON_CRITICAL_HIT_EVOLUTION_BIT(pokemon))
                 {
@@ -5283,6 +5344,8 @@ void MakeTrainerPokemonParty(struct BATTLE_PARAM *bp, int num, int heapID)
     gf_srand(seed_tmp);
 }
 
+#ifdef SAVE_SPACE
+
 void shuffle(int arr[], int n) {
     for (int i = n - 1; i > 0; i--) {
         int j = gf_rand() % (i + 1);
@@ -5291,6 +5354,8 @@ void shuffle(int arr[], int n) {
         arr[j] = temp;
     }
 }
+
+#endif
 
 /**
  *  @brief set the hidden ability specifically for the starter
@@ -5306,6 +5371,8 @@ void set_starter_hidden_ability(struct Party *party UNUSED, struct PartyPokemon 
 
         SET_MON_HIDDEN_ABILITY_BIT(pp)
         SetBoxMonAbility(boxmon);
+
+        #ifdef SAVE_SPACE
         
         int iv = 31;
 
@@ -5318,6 +5385,8 @@ void set_starter_hidden_ability(struct Party *party UNUSED, struct PartyPokemon 
 
             SetBoxMonData(boxmon, MON_DATA_HP_IV + selectedValue, &iv);
         }
+
+        #endif
 
         ClearScriptFlag(HIDDEN_ABILITIES_STARTERS_FLAG);
     }
@@ -5439,36 +5508,37 @@ BOOL ModifyPokemon(SCRIPTCONTEXT *ctx) {
     }
 
     // This flips the ability from regular ability 1 to regular ability 2 or vice-versa (if an ability 2 exists).
-    if (property == SET_NORMAL_ABILITY) {
-        if (mons_no == SPECIES_PICHU && form == 1) {
-            return FALSE;
-        }
+    // Superseded by Ability Capsule
+    // if (property == SET_NORMAL_ABILITY) {
+    //     if (mons_no == SPECIES_PICHU && form == 1) {
+    //         return FALSE;
+    //     }
 
-        mons_no = PokeOtherFormMonsNoGet(mons_no, form);
-        u32 ability1 = PokeFormNoPersonalParaGet(mons_no, form, PERSONAL_ABILITY_1);
-        u32 ability2 = PokeFormNoPersonalParaGet(mons_no, form, PERSONAL_ABILITY_2);
-        u16 hasChangedAbility = GetBoxMonData(boxmon, MON_DATA_RESERVED_114, NULL) & DUMMY_P2_1_CHANGED_ABILITY_MASK; // checks if ability was changed
+    //     mons_no = PokeOtherFormMonsNoGet(mons_no, form);
+    //     u32 ability1 = PokeFormNoPersonalParaGet(mons_no, form, PERSONAL_ABILITY_1);
+    //     u32 ability2 = PokeFormNoPersonalParaGet(mons_no, form, PERSONAL_ABILITY_2);
+    //     u16 hasChangedAbility = GetBoxMonData(boxmon, MON_DATA_RESERVED_114, NULL) & DUMMY_P2_1_CHANGED_ABILITY_MASK; // checks if ability was changed
 
-        // If the Pokémon has no second ability, reject and let the script handle it.
-        if (ability2 == 0) {
-            return FALSE;
-        }
+    //     // If the Pokémon has no second ability, reject and let the script handle it.
+    //     if (ability2 == 0) {
+    //         return FALSE;
+    //     }
 
-        if (hasChangedAbility) { // In this case, restore the natural one
-            UNSET_BOX_MON_CHANGED_ABILITY_BIT(boxmon);
-            ResetPartyPokemonAbility(pp);
-        } else {
-            if (currentAbility == ability1) {
-                SetBoxMonData(boxmon, MON_DATA_ABILITY, &ability2);
-            } else {
-                SetBoxMonData(boxmon, MON_DATA_ABILITY, &ability1);
-            }
+    //     if (hasChangedAbility) { // In this case, restore the natural one
+    //         UNSET_BOX_MON_CHANGED_ABILITY_BIT(boxmon);
+    //         ResetPartyPokemonAbility(pp);
+    //     } else {
+    //         if (currentAbility == ability1) {
+    //             SetBoxMonData(boxmon, MON_DATA_ABILITY, &ability2);
+    //         } else {
+    //             SetBoxMonData(boxmon, MON_DATA_ABILITY, &ability1);
+    //         }
 
-            // We set a bit on the Pokemon's data so we can maintain the ability change during evolution
-            // This isn't a "true" ability change as that relies on PID, but this should hopefully cover it
-            SET_BOX_MON_CHANGED_ABILITY_BIT(boxmon);
-        }
-    }
+    //         // We set a bit on the Pokemon's data so we can maintain the ability change during evolution
+    //         // This isn't a "true" ability change as that relies on PID, but this should hopefully cover it
+    //         SET_BOX_MON_CHANGED_ABILITY_BIT(boxmon);
+    //     }
+    // }
 
     if (property == SET_HIDDEN_ABILITY) {
         if (mons_no == SPECIES_PICHU && form == 1) {

@@ -83,4 +83,7 @@
 // uncomment the line out to get this functionality
 //#define DISABLE_END_OF_TURN_WEATHER_MESSAGE
 
+// Def to remove bits I don't need to save memory
+// #define SAVE_SPACE
+
 #endif

@@ -73,6 +73,7 @@ Violet City
 ✓ The Kimono Girl who talks to you after collecting Togepi's Egg now gives you a Mystery Stone, a new item that can evolve Eevee into any of its eight evolutions at random (unless set by the NPC above).
 ✓ Earl now gives you a Sitrus Berry before leading you to the school if you answer "No".
 ✓ Added an item ball containing a Miracle Seed.
+✓ Modified the trade to be any Grass-type in exchange for a Rhyhorn.
 
 Sprout Tower
 ✓ The tile permissions have been changed so battles now display an indoor floor instead of a cave.
@@ -156,6 +157,7 @@ Azalea Town
 ✓ Kurt now gives you HM01 instead of a Fast Ball.
 ✓ Kurt now instantly makes the respective Poké Balls when he's given apricorns instead of it being a daily event.
 ✓ The charcoal makers will now give you the Charcoal immediately after defeating Team Rocket in the well. Farfetch'd event no longer happens.
+✓ Added a trade in the Charcoal Kiln house for a Horsea in exchange for any Fighting-type.
 
 Slowpoke Well
 ✓ Added an extra Rocket Grunt F using Mickey (141).
@@ -224,6 +226,7 @@ Goldenrod City
 ✓ Evicted the residents of the top right house and changed it to a dark, abandoned house. There's a TV in there with a Rotom encounter at Lv. 20. There's also a book on the table that acts as a Rotom Catalog equivalent.
 ✓✓ The above uses a significantly simplified script than the actual form changing in Saffron, as it only seems to really require one command.
 ✓ Lt. Surge shows up in the Magnet Train Station after defeating Team Rocket at the Safari Zone. He gives you TM24 Thunderbolt.
+✓ Modified the trade in the Department Store to be a Hawlucha in exchange for any Psychic-type.
 
 Goldenrod Tunnel
 ✓ The four shopping NPCs now show up every day of the week.
@@ -270,6 +273,7 @@ Ecruteak City
 ✓ Morty now blocks Burned Tower until some events in Ice Path.
 ✓ Changed the two houses at the top of the town to have doors, leading to unused headers 161 and 175.
 ✓ Added an NPC in one of the new houses that gives TM21 Dazzling Gleam.
+✓ Added a trade in one of the new houses for a Kecleon in exchange for any Normal-type.
 
 Route 38
 ✓ Added a blockade featuring Miltank to block you from moving onto Route 39 until Morty is defeated.
@@ -303,6 +307,7 @@ Mahogany Town
 ✓ Janine shows up here after defeating Team Rocket at the Safari Zone. She gives you TM06 Toxic.
 ✓ Added an Ace Trainer in the Pokémon Center who gives you 10 x Leftovers.
 ✓ A little girl in the shop (who appears once the shop starts running) will give you the Covert Cloak.
+✓ Added a trade in the Pokémon Center for an Emolga in exchange for any Fairy-type.
 
 Route 44
 ✓ Rearranged trainers.
@@ -356,6 +361,7 @@ Olivine City
 ✓ Added an NPC in the harbour who gives you the Galarica Cuff and Galarica Crown.
 ✓ Sabrina shows up here (at the harbour lookout) after defeating Team Rocket at the Safari Zone. She gives you TM04 Calm Mind.
 ✓ Added Prof Elm's assistant in the Pokémon Center, who will give a Lv. 5 starter of the player's choice.
+✓ Modified the trade in the house to be a Torkoal in exchange for any Electric-type. The NPC in question is also now a Hiker instead of a Fisherman.
 
 Lighthouse
 ✓ Rare Candy -> TM62 Acrobatics. TM87 -> Rare Candy. Super Potion -> Light Ball.
@@ -383,6 +389,7 @@ Cianwood City
 ✓ Added an NPC in the camera house who gives you TM42 Facade.
 ✓ No change to the Shuckle gift as I don't know where the data is stored for it.
 ✓ Added an NPC in the Pokémon Center who gives you three Focus Sashes if you talk to him after beating Chuck.
+✓ Added a trade in the Pokémon Center for a Jynx in exchange for any Water-type.
 
 Cianwood City - Gym
 ✓ The winch now can't be turned immediately, a button needs to be pressed on the opposite side first.
@@ -527,6 +534,7 @@ Blackthorn City
 ✓ Added an NPC in the same house to sell six high power TMs.
 ✓ Edited NPC dialogues to remove move reminder/deleter dialogue.
 ✓ Added Prof Elm's assistant in the Pokémon Center, who will give a Lv. 5 starter of the player's choice.
+✓ Modified the trade in the house to be a Vibrava in exchange for any Flying-type.
 
 Blackthorn City - Gym
 ✓ Gym guide now mentions Fairy Pokémon.
@@ -597,9 +605,13 @@ Indigo Plateau
 ✓ Each of the E4 members offers to heal your Pokémon after the battle. It's been left optional in case you want to maintain a status problem/particular HP threshold on something.
 ✓ The flags for the Kanto Leaders' appearances in Johto are set during the Hall of Fame.
 ? The game seems to crash after "THE END". It saves well before so it's not a massive issue, but it's a strange one. Might be HG-e related.
+✓ Added a trade in the lobby next to the Poké Mart for a Carbink in exchange for any Ghost-type.
 
 Seafoam Islands
 ✓ 1F: Removed the hidden Escape Rope.
+
+Mt. Silver:
+✓ Added a trade in the Pokémon Center for a Heracross in exchange for any Dragon-type.
 
 Mt. Silver Cave
 ✓ Lower Mountainside: Escape Rope -> Max Elixir.

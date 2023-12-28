@@ -85,9 +85,14 @@ NPCs:
 2195* - Sabrina in Johto
 2196* - Blaine in Johto
 
-
 2120 - Leftovers gift in Mahogany.
 2121 - Focus Sash gift in Cianwood.
+2122 - Horsea trade in Azalea.
+2123 - Kecleon trade in Ecruteak.
+2124 - Jynx trade in Cianwood.
+2125 - Emolga trade in Mahogany.
+2126 - Carbink trade in Indigo Plateau
+2127 - Heracross trade in Mt Silver
 
 --- These are unused now ---
 2120* - Brock visible

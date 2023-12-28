@@ -5802,11 +5802,10 @@ movedata MOVE_TAIL_GLOW, "Tail Glow"
     terminatedata
     movedescription MOVE_TAIL_GLOW, "The user stares at\nflashing lights to\nfocus its mind,\ndrastically raising\nits Sp. Atk stat."
 
-// POWER: 70 >> 80
 movedata MOVE_LUSTER_PURGE, "Luster Purge"
     battleeffect 72
     pss SPLIT_SPECIAL
-    basepower MOVE_CHANGES_IMPLEMENTED ? 80 : 70
+    basepower 95
     type TYPE_PSYCHIC
     accuracy 100
     pp 5
@@ -5819,11 +5818,10 @@ movedata MOVE_LUSTER_PURGE, "Luster Purge"
     terminatedata
     movedescription MOVE_LUSTER_PURGE, "The user looses a\ndamaging burst of\nlight.\nThis has a 50% chance\nto lower Sp. Def."
 
-// POWER: 70 >> 80
 movedata MOVE_MIST_BALL, "Mist Ball"
     battleeffect 71
     pss SPLIT_SPECIAL
-    basepower MOVE_CHANGES_IMPLEMENTED ? 80 : 70
+    basepower 95
     type TYPE_PSYCHIC
     accuracy 100
     pp 5

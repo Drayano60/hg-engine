@@ -31,7 +31,7 @@ Cherrygrove City
 ✓ The triggers for the above events (16499) have been shifted so Silver's battle is value: 0, the fishing event is value: 1, and it's set to value: 2 afterwards.
 ✓ Added some smashable rocks on the beach which can yield encounters.
 ✓ Changed lady's text in Pokemon Center that talked about communication things previously.
-✓ Removed the second Poké Mart person as their shop has been repurposed.
+✓ Removed the second Poké Mart person as their shop has been moved to Violet (as Violet's second mart was reused).
 ✓ Moved the Mystic Water NPC off map.
 ✓ Added an item ball with a Lucky Punch above the rocky wall.
 ✓ Added a Sharpedonite on the small sand bank.
@@ -74,6 +74,7 @@ Violet City
 ✓ Earl now gives you a Sitrus Berry before leading you to the school if you answer "No".
 ✓ Added an item ball containing a Miracle Seed.
 ✓ Modified the trade to be any Grass-type in exchange for a Rhyhorn.
+✓ Changed the secondary mart to point to Cherrygrove's instead, as the Violet one is repurposed for the herb seller.
 
 Sprout Tower
 ✓ The tile permissions have been changed so battles now display an indoor floor instead of a cave.
@@ -227,6 +228,8 @@ Goldenrod City
 ✓✓ The above uses a significantly simplified script than the actual form changing in Saffron, as it only seems to really require one command.
 ✓ Lt. Surge shows up in the Magnet Train Station after defeating Team Rocket at the Safari Zone. He gives you TM24 Thunderbolt.
 ✓ Modified the trade in the Department Store to be a Hawlucha in exchange for any Psychic-type.
+✓ Repointed Dept Store 3F shop to #29 (Mahogany shop) which now has the X items, as the original shop is repurposed.
+✓ Changed Dept Store 2F shop to #23 which now sells the healing items (albeit a reduced selection), as the original shop is repurposed.
 
 Goldenrod Tunnel
 ✓ The four shopping NPCs now show up every day of the week.
@@ -308,6 +311,7 @@ Mahogany Town
 ✓ Added an Ace Trainer in the Pokémon Center who gives you 10 x Leftovers.
 ✓ A little girl in the shop (who appears once the shop starts running) will give you the Covert Cloak.
 ✓ Added a trade in the Pokémon Center for an Emolga in exchange for any Fairy-type.
+✓ The shopkeeper now sells the same items as Team Rocket, as her actual shop inventory is repurposed for selling X Items.
 
 Route 44
 ✓ Rearranged trainers.
@@ -440,9 +444,9 @@ Safari Zone
 ✓ Added an NPC (Beauty OW) that gives you TM17 Protect.
 
 Safari Zone Gate (Normal)
-✓ Changed out the no talking lady/Kangaskhan for a Roserade and a shopkeeper that sells the Shiny, Dusk, Dawn and Oval Stones.
-✓ Changed the bottom left lady to give TM62, Pollen Puff. Her Butterfree is now a Jumpluff.
-✓ Added a new shopkeeper that uses Celadon's vitamin shop (as it's identical to the Goldenrod/Safari Zone one, so it's free real estate). This one sells some of the Evolution items that the player has been able to get already: Whipped Dream, Sachet, King's Rock, Prism Scale, Linking Cord, and Upgrade.
+✓ Changed out the no talking lady/Kangaskhan for an old woman who repeats the herbal medicine store. She also has a Parasect next to her.
+✓ Changed the bottom left lady to give TM74, Pollen Puff. Her Butterfree is now a Jumpluff.
+✓ Added a new shopkeeper that uses what was previously Celadon's TM store. This sells a bunch of evolution items, some new at this point and some not: Shiny Stone, Dusk Stone, Dawn Stone, Oval Stone, King's Rock, Linking Cord, Prism Scale, Sachet, Upgrade and the Whipped Dream.
 ✓ The bottom shopkeeper now sells incenses instead of vitamins and has a Munchlax next to him.
 ✓ Added a kid with a DS in the Pokémon Center who gives you a Linking Cord.
 
@@ -607,10 +611,15 @@ Indigo Plateau
 ? The game seems to crash after "THE END". It saves well before so it's not a massive issue, but it's a strange one. Might be HG-e related.
 ✓ Added a trade in the lobby next to the Poké Mart for a Carbink in exchange for any Ghost-type.
 
+Celadon City
+✓ Changed Dept Store 2F shops to #23 and #4 as #18 and #19 are repurposed. Selection is similar but reduced amount of healing items.
+✓ Changed Dept Store 3F to sell the basic evolutionary stones instead of TMs. Changed references to 3F TM Shop to 3F Stone Emporium.
+✓ Changed Dept Store 5F shop to #29 (Mahogany shop) which now has the X items. The right shop is now #6 as the original #23 is repurposed.
+
 Seafoam Islands
 ✓ 1F: Removed the hidden Escape Rope.
 
-Mt. Silver:
+Mt. Silver
 ✓ Added a trade in the Pokémon Center for a Heracross in exchange for any Dragon-type.
 
 Mt. Silver Cave

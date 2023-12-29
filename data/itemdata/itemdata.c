@@ -37768,7 +37768,7 @@ const ITEMDATA __data[] =
 
 [ITEM_ABILITY_CAPSULE - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
-    .price = 10000,
+    .price = 9999,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,

@@ -823,10 +823,6 @@
 #define ITEM_SYLPH_SCOPE        (ITEM_PIXIE_PLATE + 185)
 #define ITEM_TEA                (ITEM_PIXIE_PLATE + 186) // 770
 
-// Custom
-#define ITEM_MYSTERY_STONE      (ITEM_PIXIE_PLATE + 187) // 771
-#define ITEM_FAIRY_FEATHER       (ITEM_PIXIE_PLATE + 188) // 772
-
 //Mints
 #define IS_ITEM_NATURE_MINT(item) (item >= ITEM_LONELY_MINT && item <= ITEM_SERIOUS_MINT)
 
@@ -851,6 +847,10 @@
 #define ITEM_JOLLY_MINT         (ITEM_PIXIE_PLATE + 205)
 #define ITEM_NAIVE_MINT         (ITEM_PIXIE_PLATE + 206)
 #define ITEM_SERIOUS_MINT       (ITEM_PIXIE_PLATE + 207)
+
+// Custom
+#define ITEM_MYSTERY_STONE      (ITEM_PIXIE_PLATE + 208) // 792
+#define ITEM_FAIRY_FEATHER      (ITEM_PIXIE_PLATE + 209) // 793
 
 #define NUM_MEGA_STONES 48 // includes the pixie plate
 

@@ -165,6 +165,36 @@ EIGHT_BADGES equ 6
 .halfword ITEM_POWER_ANKLET
 .halfword 0xFFFF
 
+.org 0x020FBBEA
+
+/* Uses _020FBBEA, originally Goldenrod Dept Store 2F (clerk 1) */
+/* This shop intentionally overflows into _020FBC1A (clerk 2) */
+.halfword ITEM_LONELY_MINT
+.halfword ITEM_ADAMANT_MINT
+.halfword ITEM_NAUGHTY_MINT
+.halfword ITEM_BRAVE_MINT
+.halfword ITEM_BOLD_MINT
+.halfword ITEM_IMPISH_MINT
+.halfword ITEM_LAX_MINT
+.halfword ITEM_RELAXED_MINT
+.halfword ITEM_MODEST_MINT
+.halfword ITEM_MILD_MINT
+.halfword ITEM_RASH_MINT
+.halfword ITEM_QUIET_MINT
+.halfword ITEM_CALM_MINT
+.halfword ITEM_GENTLE_MINT
+.halfword ITEM_CAREFUL_MINT
+.halfword ITEM_SASSY_MINT
+.halfword ITEM_TIMID_MINT
+.halfword ITEM_HASTY_MINT
+.halfword ITEM_JOLLY_MINT
+.halfword ITEM_NAIVE_MINT
+.halfword ITEM_SERIOUS_MINT
+.halfword 0xFFFF
+.halfword 0xFFFF
+.halfword 0xFFFF
+.halfword 0xFFFF
+
 /* DEFAULT TABLE:
 .halfword ITEM_POKE_BALL
 .halfword ZERO_BADGES

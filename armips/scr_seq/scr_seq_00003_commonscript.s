@@ -764,18 +764,24 @@ scr_seq_0003_010:
     scrcmd_609
     lockall
     play_se SEQ_SE_DP_PC_ON
-    call _0A18
+    call _PCAnimations
     buffer_players_name 0
     npc_msg 33
     touchscreen_menu_hide
     goto _0A2E
 
 _0A18:
-    goto_if_set 0x18F, _skipPCOnOff
     scrcmd_500 90
     scrcmd_501 90
     scrcmd_308 90
-_skipPCOnOff:
+    return
+
+_PCAnimations:
+    goto_if_set 0x18F, _skip
+    scrcmd_500 90
+    scrcmd_501 90
+    scrcmd_308 90
+_skip:
     return
 
 _0A23:
@@ -887,7 +893,7 @@ _0C01:
     buffer_players_name 0
     non_npc_msg 34
     call _0B17
-    call _0A18
+    call _PCAnimations
     fade_screen 6, 1, 1, RGB_BLACK
     goto _0B53
 
@@ -950,7 +956,7 @@ _0D18:
     buffer_players_name 0
     non_npc_msg 34
     call _0CA7
-    call _0A18
+    call _PCAnimations
     fade_screen 6, 1, 1, RGB_BLACK
     goto _0C39
 
@@ -971,7 +977,7 @@ _0D64:
     buffer_players_name 0
     non_npc_msg 34
     call _0CA7
-    call _0A18
+    call _PCAnimations
     fade_screen 6, 1, 1, RGB_BLACK
     goto _0C39
 
@@ -986,7 +992,7 @@ _0D98:
     buffer_players_name 0
     non_npc_msg 34
     call _0CA7
-    call _0A18
+    call _PCAnimations
     fade_screen 6, 1, 1, RGB_BLACK
     goto _0C39
 
@@ -1018,7 +1024,7 @@ _skipPCOff:
     end
 
 _0E02:
-    call _0A18
+    call _PCAnimations
     fade_screen 6, 1, 1, RGB_BLACK
     wait_fade
     return

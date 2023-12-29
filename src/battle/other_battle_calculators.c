@@ -1446,9 +1446,9 @@ BOOL BattlerCantSwitch(void *bw, struct BattleStruct *ctx, int battlerId) {
     // NEW: Run Away now allows switching under any circumstance.
     if
     (
-        HeldItemHoldEffectGet(ctx, battlerId) == HOLD_EFFECT_SWITCH ||
-        BATTLE_MON_HAS_TYPE(ctx, battlerId, TYPE_GHOST) ||
-        GetBattlerAbility(ctx, battlerId == ABILITY_RUN_AWAY)
+        (HeldItemHoldEffectGet(ctx, battlerId) == HOLD_EFFECT_SWITCH) ||
+        (BATTLE_MON_HAS_TYPE(ctx, battlerId, TYPE_GHOST)) ||
+        (GetBattlerAbility(ctx, battlerId) == ABILITY_RUN_AWAY)
     )
     {
         return FALSE;

@@ -1660,8 +1660,7 @@ struct OVERWORLD_TAG gOWTagToFileNum[] = // skip down a bit to see the parts tha
     { .tag = 1789, .gfx =  297, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_IRON_CROWN
     { .tag = 1790, .gfx =  297, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_TERAPAGOS
     { .tag = 1791, .gfx =  297, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_PECHARUNT
-
-    { .tag = 1787, .gfx = 1453, .callback_params = OVERWORLD_SIZE_SMALL_NO_SHADOW}, // Mega Stone OW sparkles
+    { .tag = 1792, .gfx = 1453, .callback_params = OVERWORLD_SIZE_SMALL_NO_SHADOW}, // Mega Stone OW sparkles
 
     { 0xFFFF, 0, 0},
 };

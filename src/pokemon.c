@@ -3695,7 +3695,7 @@ u32 LONG_CALL UseItemMonAttrChangeCheck(struct PLIST_WORK *wk, void *dat)
         PokeList_FormDemoOverlayLoad(wk);
         TOGGLE_MON_HIDDEN_ABILITY_BIT(pp)
         ResetPartyPokemonAbility(pp);
-        Bag_TakeItem(bag, wk->dat->item, 1, 11);
+        Bag_TakeItem(bag, ITEM_ABILITY_PATCH, 1, 11);
         return TRUE;
     }
 

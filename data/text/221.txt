@@ -214,7 +214,7 @@ If held by a Pokémon and a foe’s\nspecial attack lands, the foe also\ntakes d
 An item to be held by a Pokémon.\nIt casts a tricky glare that lowers\nthe opponent’s accuracy by 10%.
 An item to be held by a Pokémon.\nIt restores any lowered stat in\nbattle. It can be used only once.
 A held item that awards a Pokémon\ndouble EVs when it gains experience.\nHowever, it reduces Speed in battle.
-An item to be held by a Pokémon.\nThe holder gets a share of a battle’s\nExp. Points without battling.
+An item to be held by a Pokémon.\nThe holder will get 50% of the EXP yield\nfrom a battle it doesn’t partake in.
 An item to be held by a Pokémon.\nA light, sharp claw that has a 20%\nchance to let the holder move first.
 An item to be held by a Pokémon. It is\na bell with a comforting chime that\ncalms the holder and makes it friendly.
 An item to be held by a Pokémon. It\nsnaps the holder out of infatuation.\nIt can be used only once.

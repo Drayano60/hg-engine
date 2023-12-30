@@ -1292,20 +1292,35 @@ void Task_DistributeExp_Extend(void *arg0, void *work)
 
             if (monCountFromItem)
             {
-                expcalc->sp->obtained_exp = (totalexp / 2) / monCount;
+                // Starting from Gen 6, any Pokémon sent out in the battle gains full EXP.
+                // expcalc->sp->obtained_exp = (totalexp / 2) / monCount;
+                expcalc->sp->obtained_exp = totalexp;
+
                 if (expcalc->sp->obtained_exp == 0)
                 {
                     expcalc->sp->obtained_exp = 1;
                 }
-                expcalc->sp->exp_share_obtained_exp = (totalexp / 2) / monCountFromItem;
+                
+                // Starting from Gen 6, any Pokémon with the Exp. Share that does not partake in the battle gains 50% EXP.
+                // expcalc->sp->exp_share_obtained_exp = (totalexp / 2) / monCountFromItem;
+                expcalc->sp->exp_share_obtained_exp = (totalexp / 2);
+
                 if (expcalc->sp->exp_share_obtained_exp == 0)
                 {
                     expcalc->sp->exp_share_obtained_exp = 1;
                 }
+
+                // If the client did partake in the battle while holding an Exp. Share, nullify the Exp. Share value
+                if (expcalc->sp->obtained_exp_right_flag[client_no]) {
+                    expcalc->sp->exp_share_obtained_exp = 0;
+                }
             }
             else
             {
-                expcalc->sp->obtained_exp = totalexp / monCount;
+                // Starting from Gen 6, any Pokémon sent out in the battle gains full EXP.
+                // expcalc->sp->obtained_exp = totalexp / monCount;
+                expcalc->sp->obtained_exp = totalexp;
+
                 if (expcalc->sp->obtained_exp == 0)
                 {
                     expcalc->sp->obtained_exp = 1;

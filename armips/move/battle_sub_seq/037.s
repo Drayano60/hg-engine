@@ -11,6 +11,10 @@
 
 // Handle confusion infliction
 
+// The 50% chance to self-hit is located in a code function not currently exposed.
+// It uses a (rand() & 1) clause which the compiler has optimised in a way that a byte edit is not possible.
+// The duration of confusion has been reduced to compensate.
+
 a001_037:
     if IF_NOTEQUAL, VAR_ADD_EFFECT_TYPE, 0x5, _005C
     abilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_OWN_TEMPO, _0194
@@ -39,7 +43,7 @@ _0134:
     setstatus2effect BATTLER_ADDL_EFFECT, 0x6
     waitmessage
     // random 3, 2
-    random 2, 2 /* Custom change, make confusion last 1-3 turns instead */
+    random 2, 2 /* Custom change, make confusion last 1-3 turns instead as it's still 50% to self-hit */
     changemondatabyvar VAR_OP_SETMASK, BATTLER_ADDL_EFFECT, 0x35, VAR_CALCULATION_WORK
     if IF_EQUAL, VAR_ADD_EFFECT_TYPE, 0x4, _02E8
     printmessage 0x9C, 0x2, 0x7, "NaN", "NaN", "NaN", "NaN", "NaN"

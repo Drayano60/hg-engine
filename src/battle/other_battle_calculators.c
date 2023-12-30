@@ -86,6 +86,15 @@ const u16 PowderMovesList[] = {
 //     MOVE_WISH,
 // };
 
+static const u16 AntiMinimizeMoves[] = {
+    MOVE_BODY_SLAM,
+    MOVE_DRAGON_RUSH,
+    MOVE_HEAT_CRASH,
+    MOVE_HEAVY_SLAM,
+    MOVE_STEAMROLLER,
+    MOVE_STOMP,
+};
+
 // set sp->waza_status_flag |= MOVE_STATUS_FLAG_MISS if a miss
 BOOL CalcAccuracy(void *bw, struct BattleStruct *sp, int attacker, int defender, int move_no)
 {
@@ -364,6 +373,19 @@ BOOL CalcAccuracy(void *bw, struct BattleStruct *sp, int attacker, int defender,
       || BattlePokemonParamGet(sp, attacker, BATTLE_MON_DATA_TYPE2, NULL) == TYPE_POISON))
     {
         return FALSE;
+    }
+
+    // Handle anti-Minimize moves
+    if ((sp->battlemon[defender].effect_of_moves & MOVE_EFFECT_FLAG_MINIMIZED)) {
+        u8 i;
+
+        for (i = 0; i < NELEMS(AntiMinimizeMoves); i++)
+        {
+            if (move_no == AntiMinimizeMoves[i])
+            {
+                return FALSE;
+            }
+        }
     }
 
     if (((BattleRand(bw) % 100) + 1) > accuracy)

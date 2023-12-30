@@ -11,12 +11,8 @@
 
 // Heavy Slam effect 
 // heavyslamdamagecalc already implemented by HG-Engine
-// Doubles damage if attacking a minimized target
 
 a030_302:
-    ifmonstat IF_NOTMASK, BATTLER_DEFENDER, MON_DATA_MOVE_STATE, 0x100, Damage
-    changevar VAR_OP_SET, VAR_DAMAGE_MULT, 20
-Damage:
     heavyslamdamagecalc
     gotosubscript 443
     endscript

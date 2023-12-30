@@ -168,6 +168,15 @@ static const u16 SharpnessMovesTable[] = {
 };
 */
 
+static const u16 AntiMinimizeMoves[] = {
+    MOVE_BODY_SLAM,
+    MOVE_DRAGON_RUSH,
+    MOVE_HEAT_CRASH,
+    MOVE_HEAVY_SLAM,
+    MOVE_STEAMROLLER,
+    MOVE_STOMP,
+};
+
 const u8 StatBoostModifiers[][2] = {
          // numerator, denominator
         {          10,          40 },
@@ -282,6 +291,18 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
     // Handle Infernal Parade's status effect. Handled here so AI can read it.
     if (moveno == MOVE_INFERNAL_PARADE && DefendingMon.condition != 0) {
         movepower = movepower * 2;
+    }
+
+    // Handle anti-Minimize moves
+    if ((sp->battlemon[defender].effect_of_moves & MOVE_EFFECT_FLAG_MINIMIZED)) {
+        for (i = 0; i < NELEMS(AntiMinimizeMoves); i++)
+        {
+            if (moveno == AntiMinimizeMoves[i])
+            {
+                movepower = movepower * 2;
+                break;
+            }
+        }
     }
 
     // handle charge

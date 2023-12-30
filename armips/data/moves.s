@@ -1396,7 +1396,7 @@ movedata MOVE_VINE_WHIP, "Vine Whip"
     movedescription MOVE_VINE_WHIP, "The foe is struck\nwith slender, whiplike\nvines to inflict\ndamage.\n"
 
 movedata MOVE_STOMP, "Stomp"
-    battleeffect 150
+    battleeffect 31
     pss SPLIT_PHYSICAL
     basepower 65
     type TYPE_NORMAL
@@ -7612,7 +7612,7 @@ movedata MOVE_DRAGON_PULSE, "Dragon Pulse"
 
 // ACCURACY: 75 >> 85
 movedata MOVE_DRAGON_RUSH, "Dragon Rush"
-    battleeffect 150
+    battleeffect 31
     pss SPLIT_PHYSICAL
     basepower 100
     type TYPE_DRAGON
@@ -9754,7 +9754,7 @@ movedata MOVE_LEAF_TORNADO, "Leaf Tornado"
     movedescription MOVE_LEAF_TORNADO, "The user attacks the\nfoe by encircling it\nin sharp leaves.\nThis has a 50% chance\nto lower accuracy."
 
 movedata MOVE_STEAMROLLER, "Steamroller"
-    battleeffect 150
+    battleeffect 31
     pss SPLIT_PHYSICAL
     basepower 65
     type TYPE_BUG

@@ -1853,7 +1853,7 @@ movedata MOVE_DISABLE, "Disable"
     appeal 0
     contesttype 0
     terminatedata
-    movedescription MOVE_DISABLE, "For several turns,\nthis move prevents\nthe foe from using\nthe move it last\nused."
+    movedescription MOVE_DISABLE, "The user stops the\nfoe from using the\nmove it last used on\nthe current turn and\nthe next four turns."
 
 movedata MOVE_ACID, "Acid"
     battleeffect 72

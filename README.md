@@ -5,11 +5,9 @@ It uses hg-engine (https://github.com/BluRosie/hg-engine) as a base. Big thanks 
 Instructions on how to build the repo can be found there.
 
 **Stuff To-Do**
-- [ ] Clarify if Disable turns work like S/V for documentation
 - [ ] Pumpkaboo/Gourgeist don't have alt form sprites
-- [ ] Ingame trades
 - [ ] Define type change stuff properly
-- [ ] Add proper level cap numbers in Script File 4, Function #91
+- [ ] Add proper level cap numbers in Script File 4, Function #53
 
 **Assets still required**
 - [ ] Cry, overworld and party icon for Clodsire

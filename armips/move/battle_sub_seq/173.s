@@ -22,6 +22,7 @@ a001_173:
     printmessage 0x41B, 0x2, 0x2, "NaN", "NaN", "NaN", "NaN", "NaN"
     waitmessage
     wait 0x1E
+    gotosubscript 486 // Mental Herb check
     endscript
 _0074:
     printattackmessage

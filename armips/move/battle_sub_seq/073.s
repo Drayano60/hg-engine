@@ -20,6 +20,7 @@ a001_073:
     printmessage 0x174, 0x2, 0x2, "NaN", "NaN", "NaN", "NaN", "NaN"
     waitmessage
     wait 0x1E
+    gotosubscript 486 // Mental Herb check
 _002C:
     endscript
 _AromaVeil:

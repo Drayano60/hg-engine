@@ -42,6 +42,7 @@ _AromaVeil:
 _End:
     waitmessage
     wait 0x1E
+    gotosubscript 486 // Mental Herb check
     endscript
 
 .close

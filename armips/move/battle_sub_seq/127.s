@@ -21,6 +21,7 @@ a001_127:
     printmessage 0x1EE, 0x2, 0x2, "NaN", "NaN", "NaN", "NaN", "NaN"
     waitmessage
     wait 0x1E
+    gotosubscript 486 // Mental Herb check
     endscript
 _0068:
     changevar VAR_OP_SETMASK, VAR_MOVE_STATUS, 0x40

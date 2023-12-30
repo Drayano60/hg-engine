@@ -275,7 +275,7 @@ Ecruteak City
 ✓ Added an item ball with a Spell Tag at the top left of town. Moved an old man to stop him blocking it.
 ✓ Morty now blocks Burned Tower until some events in Ice Path.
 ✓ Changed the two houses at the top of the town to have doors, leading to unused headers 161 and 175.
-✓ Added an NPC in one of the new houses that gives TM21 Dazzling Gleam.
+✓ Added an NPC in one of the new houses that gives you a Fairy Feather.
 ✓ Added a trade in one of the new houses for a Kecleon in exchange for any Normal-type.
 
 Route 38
@@ -300,7 +300,7 @@ Mt. Mortar
 Route 42
 ✓ Adjusted trainer directions a little.
 ✓ Dubious Disc -> TM88 Air Slash.
-✓ Super Potion -> Fairy Feather and moved behind the Cut tree.
+✓ Super Potion -> Rare Candy and moved behind the Cut tree.
 
 Mahogany Town
 ✓ Route 43 is blocked off until after Jasmine.
@@ -368,7 +368,7 @@ Olivine City
 ✓ Modified the trade in the house to be a Torkoal in exchange for any Electric-type. The NPC in question is also now a Hiker instead of a Fisherman.
 
 Lighthouse
-✓ Rare Candy -> TM62 Acrobatics. TM87 -> Rare Candy. Super Potion -> Light Ball.
+✓ Rare Candy -> TM62 Acrobatics. TM87 -> Light Ball. Super Potion -> TM21 Dazzling Gleam.
 ✓ Added two trigger points on the outside bit that can cause wild encounters.
 ✓ After the outside bit, removed the Ether and added a Nurse Joy.
 ✓ Changed the last two Sailors to be Ace Trainers, an M and an F. Edited their dialogue a bit.
@@ -646,7 +646,7 @@ Miscellaneous
 
 ✓✓ One script handles the Supply Counter that lets the player buy Mints, Ability Capsules, training items etc. It also lets you exchange Heart Scales for Ability Patches or Bottle Caps.
 
-✓✓ One script handles the training NPC, who allows you to train up your levels (with varying Happiny line teams depending on badge count), stats (with full teams of 3 EV awarding Pokémon). It also offers a Hyper Training functionality (a Bottle Cap in exchange for setting a stat to 31 IV), a Super Training functionality (giving an instant 252 on up to two stats, and also acting as an EV eraser), and the option to apply a status condition to a Pokémon (also checking for blocking types and abilities). These last three are thanks to hg-engine allowing a script hijack. There's also a couple options here to toggle battle related settings (difficulty mode, level caps).
+✓✓ One script handles the training NPC, who allows you to train up your levels (with varying Happiny line teams depending on badge count), stats (with full teams of 3 EV awarding Pokémon). It also offers a Hyper Training functionality (a Bottle Cap in exchange for setting a stat to 31 IV), a Super Training functionality (giving an instant 252 on up to two stats, and also acting as an EV eraser), and the option to apply a status condition to a Pokémon (also checking for blocking types and abilities). These last three are thanks to hg-engine allowing a script hijack. When doing the level training, the player can optionally turn on level caps so their Pokémon don't level up past the next Gym Leader/Elite Four/Red. The numbers for these are in Script File 4, Function #53.
 
 ✓ There's also another two scripts in each Pokémon Center (as well as just outside in New Bark) using 10445 and 10446 which are an NPC who can teleport you to places you've visited and his Abra respectively. He has a dialogue to start with, then just presents you a list of places (checking visited flags to do so).
 

@@ -18,9 +18,18 @@ a001_327:
     printmessage 1339, 0xA, BATTLER_ATTACKER, 0xFF, "NaN", "NaN", "NaN", "NaN"
     waitmessage
     wait 0x1E
+    /* Cursed Body is the one case where it's not the defender getting the condition, so we handle it here instead */
+    ifmonstat IF_EQUAL, BATTLER_ATTACKER, MON_DATA_ITEM, ITEM_MENTAL_HERB, _Cure
     endscript
-//_0048:
-//    changevar VAR_OP_SETMASK, VAR_MOVE_STATUS, 0x40
-//    endscript
+_Cure:
+    setstatus2effect BATTLER_ATTACKER, 0xA
+    waitmessage
+    printmessage 1506, TAG_NICK_ITEM, BATTLER_ATTACKER, BATTLER_ATTACKER, "NaN", "NaN", "NaN", "NaN"
+    waitmessage
+    wait 0x1E
+    changemondatabyvar VAR_OP_SET, BATTLER_ATTACKER, MON_DATA_DISABLED_MOVE, 0
+    changemondatabyvar VAR_OP_SET, BATTLER_ATTACKER, MON_DATA_DISABLE_COUNTER, 0
+    removeitem BATTLER_ATTACKER
+    endscript
 
 .close

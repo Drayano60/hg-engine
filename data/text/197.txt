@@ -1504,3 +1504,6 @@ The foe’s {STRVAR_1 1, 0, 0} is preparing\nto tell a chillingly bad joke!
 {STRVAR_1 1, 0, 0}’s\nburn was healed!
 The wild {STRVAR_1 1, 0, 0}’s burn\nwas healed!
 The foe’s {STRVAR_1 1, 0, 0}’s burn\nwas healed!
+{STRVAR_1 1, 0, 0} cured its\nstatus using its {STRVAR_1 5, 1, 0}!
+The wild {STRVAR_1 1, 0, 0} cured its\nstatus using its {STRVAR_1 5, 1, 0}!
+The foe’s {STRVAR_1 1, 0, 0} cured its\nstatus using its {STRVAR_1 5, 1, 0}!

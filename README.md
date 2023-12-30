@@ -13,7 +13,7 @@ Instructions on how to build the repo can be found there.
 **Assets still required**
 - [ ] Cry, overworld and party icon for Clodsire
 - [ ] Sprites for some Galarian forms (Meowth, Rapidash, Slowpoke, Farfetch'd, Mr. Mime, Slowking, Zigzagoon, Linoone, Yamask, Stunfisk)
-- [ ] Sprites for some Galarian cross-evos (Obstagoon, Perrserker, Mr. Rime, Runerigus)
+- [ ] Sprites for some Galarian cross-evos (Obstagoon, Perrserker, Runerigus)
 - [ ] Sprites for some Hisuian forms (Arcanine, Voltorb, Electrode, Qwilfish, Samurott, Avalugg) (Evos all there already!)
 - [ ] Sprites for some Paldean forms (Tauros Combat, Tauros Blaze, Tauros Aqua)
 - [ ] Backsprite for Blade Forme Aegislash

@@ -601,7 +601,7 @@ Red Card Description
 Ring Target Description
 An item to be held by a Pokémon. If the\nholder is hit with a contact move, the\nattacker is damaged by a sixth of its HP.
 Sweet Heart Description
-Ability Capsule Description
+A capsule that allows a Pokémon to\nswitch its current Ability to the other\nAbility its species can have.
 An item to be held by a Pokémon. This\nvest boosts the holder’s Sp. Def by\n50%, but makes its status moves fail.
 Luminous Moss Description
 Lumiose Galette Description
@@ -614,7 +614,7 @@ A soft and sweet treat made of fluffy,\npuffy, whipped, and whirled cream.\nIt�
 Adrenaline Orb Description
 Beast Ball Description
 Big Malasada Description
-Bottle Cap Description
+A lovely silver bottle cap.\nCertain people are delighted to be\ngiven one of these.
 Gold Bottle Cap Description
 Electric Seed Description
 Grassy Seed Description
@@ -623,7 +623,7 @@ Psychic Seed Description
 A peculiar stone that makes certain\nspecies of Pokémon evolve.\nIt has a snowflake pattern in it.
 Protective Pads Description
 Terrain Ext. Description
-Ability Patch Description
+A patch that can be used to change\nthe regular Ability of a Pokémon to\na rarer Ability, or the opposite.
 A glassy black stone that produces\na sharp cutting edge when split.\nIt is loved by a certain Pokémon.
 Berry Sweet Description
 Clover Sweet Description
@@ -769,5 +769,26 @@ Lift Key Description
 Pewter Snacks Description
 Silph Scope Description
 Tea Description
+Having a Pokémon smell this mint can\nmake its Attack stat grow stronger.\nHowever, its Defense stat may suffer.
+Having a Pokémon smell this mint can\nmake its Attack stat grow stronger.\nHowever, its Sp. Atk stat may suffer.
+Having a Pokémon smell this mint can\nmake its Attack stat grow stronger.\nHowever, its Sp. Def stat may suffer.
+Having a Pokémon smell this mint can\nmake its Attack stat grow stronger.\nHowever, its Speed stat may suffer.
+Having a Pokémon smell this mint can\nmake its Defense stat grow stronger.\nHowever, its Attack stat may suffer.
+Having a Pokémon smell this mint can\nmake its Defense stat grow stronger.\nHowever, its Sp. Atk stat may suffer.
+Having a Pokémon smell this mint can\nmake its Defense stat grow stronger.\nHowever, its Sp. Def stat may suffer.
+Having a Pokémon smell this mint can\nmake its Defense stat grow stronger.\nHowever, its Speed stat may suffer.
+Having a Pokémon smell this mint can\nmake its Sp. Atk stat grow stronger.\nHowever, its Attack stat may suffer.
+Having a Pokémon smell this mint can\nmake its Sp. Atk stat grow stronger.\nHowever, its Defense stat may suffer.
+Having a Pokémon smell this mint can\nmake its Sp. Atk stat grow stronger.\nHowever, its Sp. Def stat may suffer.
+Having a Pokémon smell this mint can\nmake its Sp. Atk stat grow stronger.\nHowever, its Speed stat may suffer.
+Having a Pokémon smell this mint can\nmake its Sp. Def stat grow stronger.\nHowever, its Attack stat may suffer.
+Having a Pokémon smell this mint can\nmake its Sp. Def stat grow stronger.\nHowever, its Defense stat may suffer.
+Having a Pokémon smell this mint can\nmake its Sp. Atk stat grow stronger.\nHowever, its Sp. Def stat may suffer.
+Having a Pokémon smell this mint can\nmake its Sp. Atk stat grow stronger.\nHowever, its Speed stat may suffer.
+Having a Pokémon smell this mint can\nmake its Speed stat grow stronger.\nHowever, its Attack stat may suffer.
+Having a Pokémon smell this mint can\nmake its Speed stat grow stronger.\nHowever, its Defense stat may suffer.
+Having a Pokémon smell this mint can\nmake its Speed stat grow stronger.\nHowever, its Sp. Atk stat may suffer.
+Having a Pokémon smell this mint can\nmake its Speed stat grow stronger.\nHowever, its Sp. Def stat may suffer.
+Having a Pokémon smell this mint will\ncause all of its stats to grow at\nan equal rate.
 An enigmatic stone that can make a\ncertain species of Pokémon evolve.\nIts effects are unknown.
 An item to be held by a Pokémon.\nThis feather, which gleams faintly, ups\nthe power of Fairy-type moves by 20%.

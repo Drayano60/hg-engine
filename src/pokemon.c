@@ -5458,7 +5458,7 @@ BOOL ModifyPokemon(SCRIPTCONTEXT *ctx) {
     int poison = STATUS_FLAG_POISONED;
     int sleep = STATUS_FLAG_ASLEEP;
 
-    if (property >= SET_HP_IV_MAX && property <= SET_SPEED_IV_MAX) {
+    if (property <= SET_SPDEF_IV_MAX) {
         SetBoxMonData(boxmon, (MON_DATA_HP_IV + property), &maxIV);
         RecalcPartyPokemonStats(pp);
     }

@@ -637,11 +637,17 @@ Miscellaneous
 ✓✓ Rock Climb also has a change to something in the arm9 to allow it to be used with the Mineral Badge instead of the Earth Badge.
 
 ✓ Added common scripts for use in the Pokémon Center. (Referred to as 9018, 9019, 9020 ingame.) They're used on a Waiter, Maid and Waiter respectively (OW 59 and OW 60).
+
 ✓✓ One script handles changing things about Pokémon, including move tutors, move reminding, move deletion, nicknaming and checking Hidden Power. The move tutors use Script File 2 still but it's been somewhat adapted.
+
 ✓✓ The above is also able to change abilities to either the other regular one or the hidden one, thanks to hg-engine. The hidden one requires a Heart Scale.
-✓✓ One script handles the new "Wonder Egg" mechanic, letting a player give up a Pokémon in exchange for an Egg which can contain any Pokémon in the game that can hatch from an Egg that's also a base form and is not a legendary (i.e. not Phione or Manaphy). Significant alt forms (Alola forms) and Basculin's blue form are added as an extra entry, whereas Frillish, Flabébé and Shellos decide their form after they get picked.
-✓✓ One script handles the training NPC, who allows you to train up your levels (with varying Happiny line teams depending on badge count), stats (with full teams of 3 EV awarding Pokémon). This NPC also offers a shop that lets you buy Exp Shares and items that boost EVs earned in battle.
-✓✓ The above can also apply a status condition directly to your Pokémon, thanks to hg-engine. This does also check for types/abilities that block the status.
+
+✓✓ **THIS ISN'T USED** One script handles the new "Wonder Egg" mechanic, letting a player give up a Pokémon in exchange for an Egg which can contain any Pokémon in the game that can hatch from an Egg that's also a base form and is not a legendary (i.e. not Phione or Manaphy). Significant alt forms (Alola forms) and Basculin's blue form are added as an extra entry, whereas Frillish, Flabébé and Shellos decide their form after they get picked.
+
+✓✓ One script handles the Supply Counter that lets the player buy Mints, Ability Capsules, training items etc. It also lets you exchange Heart Scales for Ability Patches or Bottle Caps.
+
+✓✓ One script handles the training NPC, who allows you to train up your levels (with varying Happiny line teams depending on badge count), stats (with full teams of 3 EV awarding Pokémon). It also offers a Hyper Training functionality (a Bottle Cap in exchange for setting a stat to 31 IV), a Super Training functionality (giving an instant 252 on up to two stats, and also acting as an EV eraser), and the option to apply a status condition to a Pokémon (also checking for blocking types and abilities). These last three are thanks to hg-engine allowing a script hijack.
+
 ✓ There's also another two scripts in each Pokémon Center (as well as just outside in New Bark) using 10445 and 10446 which are an NPC who can teleport you to places you've visited and his Abra respectively. He has a dialogue to start with, then just presents you a list of places (checking visited flags to do so).
 
 ✓ The Pokémon Music channel is edited to play what was the Hoenn Sound at any time/day of the week. The text listed when this plays has also been modified.

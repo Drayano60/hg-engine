@@ -37768,7 +37768,7 @@ const ITEMDATA __data[] =
 
 [ITEM_ABILITY_CAPSULE - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
-    .price = 9999,
+    .price = 9800, // 10000 doesn't show up correctly
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -39199,7 +39199,7 @@ const ITEMDATA __data[] =
 
 [ITEM_ABILITY_PATCH - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
-    .price = 250000,
+    .price = 50000, // 250,000 is too big, 65535 is the max
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,

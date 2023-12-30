@@ -275,7 +275,7 @@ An item to be held by a Pokémon.\nIt is a bizarre orb that inflicts a\nburn on 
 An item to be held by Ditto. Extremely\nfine yet hard, this powder doubles its\nSpeed stat while not transformed.
 An item to be held by a Pokémon.\nThe holder may endure a potential KO\nattack, leaving it with just 1 HP.
 An item to be held by a Pokémon.\nIf the holder moves after the target,\nits accuracy will be boosted by 20%.
-A held item that boosts a move’s power\nby 10% for each consecutive use, up to\n100%. It resets if another move is used.
+A held item that boosts a move’s power\nby 20% for each consecutive use, up to\n100%. It resets if another move is used.
 A Pokémon held item that halves Speed.\nIt makes Flying-type and levitating\nholders susceptible to Ground moves.
 An item to be held by a Pokémon.\nIt is tremendously heavy and makes\nthe holder always move last.
 A long, thin, bright red string to\nbe held by a Pokémon. If the holder\nbecomes infatuated, the foe does too.

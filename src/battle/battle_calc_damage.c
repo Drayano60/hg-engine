@@ -1292,7 +1292,10 @@ void CalcDamageOverall(void *bw, struct BattleStruct *sp)
 
     if (HeldItemHoldEffectGet(sp, sp->attack_client) == HOLD_EFFECT_BOOST_REPEATED)
     {
-        sp->damage = sp->damage * (10 + sp->battlemon[sp->attack_client].moveeffect.metronomeTurns) / 10;
+        // Gen 5+: Metronome counter now maxes out at 5, but each count adds 20% instead of 10%.
+        // Capping counter at 5 is handled by metronome_counter.s.
+        // sp->damage = sp->damage * (10 + sp->battlemon[sp->attack_client].moveeffect.metronomeTurns) / 10;
+        sp->damage = sp->damage * (10 + (sp->battlemon[sp->attack_client].moveeffect.metronomeTurns * 2)) / 10;
     }
 
     if (sp->battlemon[sp->attack_client].moveeffect.meFirstFlag)

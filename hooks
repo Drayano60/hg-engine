@@ -154,7 +154,11 @@ arm9 GiveMon_hook 080541E0 5
 0002 AddWildPartyPokemon_hook 080029E0 5
 
 arm9 ScrCmd_GiveEgg 0204D248 1
+
+#ifdef SAVE_SPACE
 0001 ScrCmd_GiveTogepiEgg 022020CC 1
+#endif
+
 arm9 sub_0206D328 0206D328 2
 
 #hof/pokeathlon/pokewalker fix

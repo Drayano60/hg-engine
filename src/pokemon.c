@@ -5540,22 +5540,23 @@ BOOL ModifyPokemon(SCRIPTCONTEXT *ctx) {
     //     }
     // }
 
-    if (property == SET_HIDDEN_ABILITY) {
-        if (mons_no == SPECIES_PICHU && form == 1) {
-            return FALSE;
-        }
+    // Superseded by Ability Patch
+    // if (property == SET_HIDDEN_ABILITY) {
+    //     if (mons_no == SPECIES_PICHU && form == 1) {
+    //         return FALSE;
+    //     }
 
-        mons_no = PokeOtherFormMonsNoGet(mons_no, form);
-        u32 hiddenAbility = GetMonHiddenAbility(mons_no, form);
+    //     mons_no = PokeOtherFormMonsNoGet(mons_no, form);
+    //     u32 hiddenAbility = GetMonHiddenAbility(mons_no, form);
  
-         // If the Pokémon has no hidden ability, reject and let the script handle it.
-        if (hiddenAbility == 0) {
-            return FALSE;
-        }
+    //      // If the Pokémon has no hidden ability, reject and let the script handle it.
+    //     if (hiddenAbility == 0) {
+    //         return FALSE;
+    //     }
 
-        SET_MON_HIDDEN_ABILITY_BIT(pp);
-        ResetPartyPokemonAbility(pp);
-    }
+    //     SET_MON_HIDDEN_ABILITY_BIT(pp);
+    //     ResetPartyPokemonAbility(pp);
+    // }
 
     ClearScriptFlag(GIVE_EGG_OVERRIDE);
 }
@@ -5613,6 +5614,8 @@ BOOL ScrCmd_GiveEgg(SCRIPTCONTEXT *ctx)
 
     return FALSE;
 }
+
+#ifdef SAVE_SPACE
 
 /**
  *  @brief script command to give the togepi egg
@@ -5678,6 +5681,8 @@ BOOL ScrCmd_GiveTogepiEgg(SCRIPTCONTEXT *ctx) {
 
     return FALSE;
 }
+
+#endif
 
 /**
  *  @brief hatch a PartyPokemon--creates a new PartyPokemon and initializes a few characteristics
@@ -5963,7 +5968,13 @@ u32 SpeciesAndFormeToWazaOshieIndex(u32 species, u32 form)
  */
 u32 GetLevelCap(void)
 {
-    return GetScriptVar(LEVEL_CAP_VARIABLE);
+    u8 levelCap = GetScriptVar(LEVEL_CAP_VARIABLE);
+
+    if (levelCap == 0) {
+        return 100;
+    }
+
+    return levelCap;
 }
 
 /**

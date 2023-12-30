@@ -9,6 +9,7 @@ Instructions on how to build the repo can be found there.
 - [ ] Pumpkaboo/Gourgeist don't have alt form sprites
 - [ ] Ingame trades
 - [ ] Define type change stuff properly
+- [ ] Add proper level cap numbers in Script File 4, Function #91
 
 **Assets still required**
 - [ ] Cry, overworld and party icon for Clodsire

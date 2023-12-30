@@ -221,3 +221,6 @@ Triggers:
 16723 (0-2) - This variable is used for the Rotom event in Goldenrod. Same sort of thing as above...
 16724 (0-1) - This is used for Cynthia. Same again as above
 16725 (0-1) - Used for Spiky Pichu in Ilex Forest. Same again as above
+
+16750 (0x416E) - Used by me for the difficulty mode.
+16751 (0x416F) - Used by HG-e for the level cap system.

@@ -85,6 +85,7 @@ scrdef scr_seq_0003_068
 scrdef scr_seq_0003_069
 scrdef scr_seq_0003_070
 scrdef scr_seq_0003_071
+scrdef scr_seq_0003_072
 scrdef_end
 
 scr_seq_0003_002:
@@ -1722,8 +1723,13 @@ scr_seq_0003_064:
     releaseall
     end
     
-
-
-
+scr_seq_0003_072:
+    play_se SEQ_SE_DP_SELECT
+    lockall
+    npc_msg 117
+    wait_button
+    closemsg
+    releaseall
+    end
 
 .close

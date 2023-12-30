@@ -745,7 +745,7 @@ Oval Charm Description
 Shiny Charm Description
 N Solarizer Description
 N Lunarizer Description
-Box Link Description
+A device that allows you to press “R”\nto access the Pokémon storage system.\nIt won’t work in certain places, though.
 Zygarde Cube Description
 Sun Flute Description
 Moon Flute Description

@@ -52,9 +52,17 @@ void SetOverworldRequestFlags(OVERWORLD_REQUEST_FLAGS *req, u16 trg)
  */
 void CheckOverworldRequestFlags(OVERWORLD_REQUEST_FLAGS *req, FieldSystem *fsys)
 {
+    // Don't allow the PC at all if flag 398 hasn't been set
+    if (!CheckScriptFlag(0x18E)) {
+        return;
+    }
+
     if (req->OpenPCCheck) {
-        SetScriptFlag(0x18F); // some random flag that should be set by script 2010 (file 3 script 10)
-        EventSet_Script(fsys, 2010, NULL); // set up script 2010
+        if (CheckScriptFlag(0x18D)) {
+            EventSet_Script(fsys, 2072, NULL); // set up script 2072 to show a cannot use PC message if flag 397 is set
+        } else {
+            SetScriptFlag(0x18F); // some random flag that should be set by script 2010 (file 3 script 10)
+            EventSet_Script(fsys, 2010, NULL); // set up script 2010
+        }
     }
 }
-

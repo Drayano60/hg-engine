@@ -1,5 +1,10 @@
 * = Flag set before game starts (script file 149).
 
+HG-e:
+397 - Added by me to block the PC use in certain areas.
+398 - Added by me to block the portable PC until it's set.
+399 - Used by hg-engine to control common scripts for the portable PC.
+
 NPCs:
 2100* - Policeman in front of Elm's Lab after Silver battle but before returning.
 2101 - Silk Scarf gift from NPC in Trainer School.

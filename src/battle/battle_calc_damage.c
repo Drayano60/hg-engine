@@ -194,6 +194,44 @@ const u8 StatBoostModifiers[][2] = {
         {          40,          10 },
 };
 
+// Knock Off's x1.5 damage boost only applies if the item can actually be knocked off.
+// Certain items (in certain conditions) cannot be knocked off, in which case the damage boost does not apply.
+// The damage boost does still apply if the target has Sticky Hold or is behind a substitute, even though the item isn't removed.
+BOOL isKnockOffBonusDamageItem(struct BattleStruct *sp)
+{
+    u16 defender_species = sp->battlemon[sp->defence_client].species;
+    u16 defender_item = sp->battlemon[sp->defence_client].item;
+
+    // No bonus damage if no item.
+    if (!defender_item) {
+        return FALSE;
+    }
+
+    // No bonus damage if item is a Mega Stone or Primal Reversion item.
+    // This isn't strictly correct, it should only be if the Pokémon can USE the Mega Stone/Orb. But that'd be a lot of code.
+    if (IS_ITEM_MEGA_STONE(defender_item) || defender_item == ITEM_RED_ORB || defender_item == ITEM_BLUE_ORB) {
+        return FALSE;
+    }
+    
+    // No bonus damage if the target is Arceus holding a Plate.
+    if
+    (
+        (defender_species == SPECIES_ARCEUS) &&
+        ((defender_item >= ITEM_FLAME_PLATE && defender_item <= ITEM_IRON_PLATE) || (defender_item == ITEM_PIXIE_PLATE))
+    )
+    {
+        return FALSE;
+    }
+
+    // No bonus damage if the target is Giratina holding a Griseous Orb.
+    if (defender_species == SPECIES_GIRATINA && defender_item == ITEM_GRISEOUS_ORB) {
+        return FALSE;
+    }
+
+    // Any other item should qualify for the bonus damage and then be knocked off.
+    return TRUE;
+}
+
 int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
                    u32 field_cond, u16 pow, u8 type UNUSED, u8 attacker, u8 defender, u8 critical)
 {
@@ -291,6 +329,10 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
     // Handle Infernal Parade's status effect. Handled here so AI can read it.
     if (moveno == MOVE_INFERNAL_PARADE && DefendingMon.condition != 0) {
         movepower = movepower * 2;
+    }
+
+    if (moveno == MOVE_KNOCK_OFF && isKnockOffBonusDamageItem(sp)) {
+        movepower = movepower * 15 / 10;
     }
 
     // Handle anti-Minimize moves

@@ -5589,7 +5589,7 @@ movedata MOVE_YAWN, "Yawn"
     terminatedata
     movedescription MOVE_YAWN, "The user lets loose a\nhuge yawn that lulls\nthe foe into falling\nasleep on the next\nturn."
 
-// EFFECT: Updated to include the x1.5 damage when knocking off
+// EFFECT: Updated to include the x1.5 damage when knocking off in battle_calc_damage.c
 movedata MOVE_KNOCK_OFF, "Knock Off"
     battleeffect 188
     pss SPLIT_PHYSICAL

@@ -43,7 +43,7 @@ Route 30 - Mr. Pokémon's House
 ✓ The National Dex is activated immediately.
 
 Elm Pokémon Lab 2
-✓ Elm's dialogue is modified slightly to reflect Mr. Pokémon giving you an Eevee. Elm also gives you 30 x Poké Balls.
+✓ Elm's dialogue is modified slightly to reflect Mr. Pokémon giving you an Eevee. Elm also gives you 30 x Poké Balls, and the Box Link (which also sets the flag to enable the portable PC).
 ✓ Elm's script also sets the variables/flags from the Route 29 tutorial, which stops that tutorial from happening and enables Poké Balls for purchase.
 
 Route 30

@@ -542,7 +542,7 @@ rocksmashrate 0
 oldrodrate FISHING_RATE
 goodrodrate FISHING_RATE
 superrodrate FISHING_RATE
-walklevels 7, 8, 7, 7, 7, 8, 7, 7, 7, 8, 7, 8
+walklevels 6, 7, 6, 6, 6, 7, 6, 6, 6, 7, 6, 7
 
 // morning encounter slots
 pokemon SPECIES_BELLSPROUT
@@ -606,11 +606,11 @@ encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 5, 8
-encounter SPECIES_POLIWAG, 7, 8
-encounter SPECIES_POLIWAG, 7, 8
-encounter SPECIES_CORPHISH, 7, 8
-encounter SPECIES_CORPHISH, 7, 8
+encounter SPECIES_MAGIKARP, 5, 7
+encounter SPECIES_POLIWAG, 6, 7
+encounter SPECIES_POLIWAG, 6, 7
+encounter SPECIES_CORPHISH, 6, 7
+encounter SPECIES_CORPHISH, 6, 7
 
 // good rod encounters
 encounter SPECIES_MAGIKARP, 1, 1
@@ -646,7 +646,7 @@ rocksmashrate 50
 oldrodrate FISHING_RATE
 goodrodrate FISHING_RATE
 superrodrate FISHING_RATE
-walklevels 8, 9, 8, 9, 8, 9, 8, 8, 8, 9, 8, 9
+walklevels 7, 8, 7, 8, 7, 8, 7, 7, 7, 8, 7, 8
 
 // morning encounter slots
 pokemon SPECIES_ZUBAT
@@ -710,11 +710,11 @@ encounter SPECIES_DUNSPARCE, 10, 12
 encounter SPECIES_GEODUDE, 10, 12
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 5, 9
-encounter SPECIES_GOLDEEN, 8, 9
-encounter SPECIES_GOLDEEN, 8, 9
-encounter SPECIES_BARBOACH, 8, 9
-encounter SPECIES_BARBOACH, 8, 9
+encounter SPECIES_MAGIKARP, 5, 8
+encounter SPECIES_GOLDEEN, 7, 8
+encounter SPECIES_GOLDEEN, 7, 8
+encounter SPECIES_BARBOACH, 7, 8
+encounter SPECIES_BARBOACH, 7, 8
 
 // good rod encounters
 encounter SPECIES_MAGIKARP, 1, 1
@@ -814,11 +814,11 @@ encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 5, 10
-encounter SPECIES_MAGIKARP, 5, 10
-encounter SPECIES_BARBOACH, 8, 10
-encounter SPECIES_BARBOACH, 8, 10
-encounter SPECIES_FEEBAS, 5, 10
+encounter SPECIES_MAGIKARP, 5, 8
+encounter SPECIES_MAGIKARP, 5, 8
+encounter SPECIES_POLIWAG, 7, 8
+encounter SPECIES_POLIWAG, 7, 8
+encounter SPECIES_FEEBAS, 5, 8
 
 // good rod encounters
 encounter SPECIES_MAGIKARP, 1, 1
@@ -854,7 +854,7 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 9, 10, 9, 10, 9, 10, 9, 9, 9, 10, 9, 10
+walklevels 8, 9, 8, 9, 8, 9, 8, 8, 8, 9, 8, 9
 
 // morning encounter slots
 pokemon SPECIES_RATTATA
@@ -958,7 +958,7 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 9, 10, 9, 10, 9, 10, 9, 10, 9, 9, 10, 10
+walklevels 8, 9, 8, 9, 8, 9, 8, 9, 8, 8, 9, 9
 
 // morning encounter slots
 pokemon SPECIES_GROWLITHE
@@ -1062,7 +1062,7 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 10, 11, 10, 11, 10, 11, 10, 11, 10, 11, 10, 11
+walklevels 8, 9, 8, 9, 8, 9, 8, 9, 8, 9, 8, 9
 
 // morning encounter slots
 pokemon SPECIES_BELLSPROUT
@@ -1166,7 +1166,7 @@ rocksmashrate 20
 oldrodrate FISHING_RATE
 goodrodrate FISHING_RATE
 superrodrate FISHING_RATE
-walklevels 9, 10, 9, 10, 9, 10, 9, 9, 9, 10, 10, 10
+walklevels 8, 9, 8, 9, 8, 9, 8, 8, 8, 9, 9, 9
 
 // morning encounter slots
 pokemon SPECIES_NATU
@@ -1230,11 +1230,11 @@ encounter SPECIES_GEODUDE, 10, 12
 encounter SPECIES_NOSEPASS, 10, 12
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 5, 10
-encounter SPECIES_POLIWAG, 8, 10
-encounter SPECIES_POLIWAG, 8, 10
-encounter SPECIES_CORPHISH, 8, 10
-encounter SPECIES_CORPHISH, 8, 10
+encounter SPECIES_MAGIKARP, 5, 9
+encounter SPECIES_POLIWAG, 8, 9
+encounter SPECIES_POLIWAG, 8, 9
+encounter SPECIES_CORPHISH, 8, 9
+encounter SPECIES_CORPHISH, 8, 9
 
 // good rod encounters
 encounter SPECIES_MAGIKARP, 1, 1

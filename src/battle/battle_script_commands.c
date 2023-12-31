@@ -2413,6 +2413,7 @@ BOOL btl_scr_cmd_E7_storedpowerdamagecalc(void *bw, struct BattleStruct *sp)
 {
     IncrementBattleScriptPtr(sp, 1);
 
+    /*
     int i = 0;
 
     if (sp->battlemon[sp->attack_client].states[STAT_ATTACK] > 6) {
@@ -2444,7 +2445,8 @@ BOOL btl_scr_cmd_E7_storedpowerdamagecalc(void *bw, struct BattleStruct *sp)
     }
 
     sp->damage_power = GetMoveData(sp->current_move_index, MOVE_DATA_BASE_POWER) + (i * 20);
-
+    */
+   
     return FALSE;
 }
 

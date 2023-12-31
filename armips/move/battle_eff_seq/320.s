@@ -10,9 +10,10 @@
 .create "build/move/battle_eff_seq/0_320", 0
 
 // Stored Power
+// Calc moved to battle_calc_damage.c
 
 a030_320:
-    storedpowerdamagecalc
+    // storedpowerdamagecalc
     gotosubscript 443
     endscript
 

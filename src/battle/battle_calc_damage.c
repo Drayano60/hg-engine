@@ -232,6 +232,41 @@ BOOL isKnockOffBonusDamageItem(struct BattleStruct *sp)
     return TRUE;
 }
 
+int CalcStoredPowerDamageBonus(struct BattleStruct *sp)
+{
+    int i = 0;
+
+    if (sp->battlemon[sp->attack_client].states[STAT_ATTACK] > 6) {
+        i = (i + sp->battlemon[sp->attack_client].states[STAT_ATTACK]) - 6;
+    }
+
+    if (sp->battlemon[sp->attack_client].states[STAT_DEFENSE] > 6) {
+        i = (i + sp->battlemon[sp->attack_client].states[STAT_DEFENSE]) - 6;
+    }
+
+    if (sp->battlemon[sp->attack_client].states[STAT_SPATK] > 6) {
+        i = (i + sp->battlemon[sp->attack_client].states[STAT_SPATK]) - 6;
+    }
+
+    if (sp->battlemon[sp->attack_client].states[STAT_SPDEF] > 6) {
+        i = (i + sp->battlemon[sp->attack_client].states[STAT_SPDEF]) - 6;
+    }
+
+    if (sp->battlemon[sp->attack_client].states[STAT_SPEED] > 6) {
+        i = (i + sp->battlemon[sp->attack_client].states[STAT_SPEED]) - 6;
+    }
+
+    if (sp->battlemon[sp->attack_client].states[STAT_ACCURACY] > 6) {
+        i = (i + sp->battlemon[sp->attack_client].states[STAT_ACCURACY]) - 6;
+    }
+
+    if (sp->battlemon[sp->attack_client].states[STAT_EVASION] > 6) {
+        i = (i + sp->battlemon[sp->attack_client].states[STAT_EVASION]) - 6;
+    }
+
+    return i;
+}
+
 int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
                    u32 field_cond, u16 pow, u8 type UNUSED, u8 attacker, u8 defender, u8 critical)
 {
@@ -322,9 +357,15 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
     else
         movepower = pow;
 
+    // Handle moves that increase damage based on stat boosts
+    if (moveno == MOVE_STORED_POWER || moveno == MOVE_POWER_TRIP) {
+        movepower = movepower + (movepower * CalcStoredPowerDamageBonus(sp));
+    }
+
     // get the type
     movetype = GetAdjustedMoveType(sp, attacker, moveno);
     movepower = movepower * sp->damage_value / 10;
+
 
     // Multiple moves with damage multiplication effects are handled here.
     // This is because the AI can read the damage numbers properly here, but not from the eff_seq files.

@@ -65,16 +65,17 @@ Dark Cave - Violet Side
 ✓ Black Flute -> Black Glasses.
 
 Violet City
-✓ The school has new two NPCs who battle you at the top right. The left gives you a Silk Scarf, the right gives you TM83 Work Up.
+✓ The school has new two NPCs who battle you at the top right. The left gives you a Silk Scarf, the right gives you TM83 Work Up. The group guy has been yeeted into the void.
+✓ The school is now a unique location (for summary screen).
 ✓ Primo has been changed to give you a Pansage, Pansear or Panpour, depending on how you answer his question.
 ✓ Changed the Juggler outside the Pokémon Center to be able to sell you different berry sets A/B/C/D/E. Each set sells you 5x of each berry in it, the five combined cover every berry in the game. Set A is always active, B/C/D/E become available with 2/4/6/8 Badges respectively.
 ✓ Edited dialogue of two NPCs, in a house and in the Pokémon Center, to remove text saying traded Pokémon would disobey (as that mechanic has been removed in Aurora Crystal).
-✓ Added an NPC and an Eevee in the Pokémon Center who asks you what she should evolve her Eevee into. Picking a specific Eeveelution will make the Mystery Stone always evolve Eevee into the chosen one.
-✓ The Kimono Girl who talks to you after collecting Togepi's Egg now gives you a Mystery Stone, a new item that can evolve Eevee into any of its eight evolutions at random (unless set by the NPC above).
+✓ The Kimono Girl who talks to you after collecting Togepi's Egg now allows you to pick one of the Fire, Water, Thunder, Leaf or Ice Stones.
 ✓ Earl now gives you a Sitrus Berry before leading you to the school if you answer "No".
 ✓ Added an item ball containing a Miracle Seed.
 ✓ Modified the trade to be any Grass-type in exchange for a Rhyhorn.
 ✓ Changed the secondary mart to point to Cherrygrove's instead, as the Violet one is repurposed for the herb seller.
+- Added an NPC and an Eevee in the Pokémon Center who asks you what she should evolve her Eevee into. Picking a specific Eeveelution will make the Mystery Stone always evolve Eevee into the chosen one. Then removed it later.
 
 Sprout Tower
 ✓ The tile permissions have been changed so battles now display an indoor floor instead of a cave.

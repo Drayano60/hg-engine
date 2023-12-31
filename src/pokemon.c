@@ -4027,7 +4027,8 @@ u32 LONG_CALL CheckIfMonsAreEqual(struct PartyPokemon *pokemon1, struct PartyPok
     } \
 }
 
-#define GLOBAL_TERMINAL_HEADER_ID 207 
+#define GLOBAL_TERMINAL_HEADER_ID 207
+#define FRIENDSHIP_EVOLUTION_THRESHOLD 160
 
 /**
  *  @brief get the evolution species for a pokemon.  generalized depending on context
@@ -4069,6 +4070,8 @@ u16 LONG_CALL GetMonEvolution(struct Party *party, struct PartyPokemon *pokemon,
         return SPECIES_NONE;
     }
 
+    /*
+    Not used
     // Handle stone introduced that evolves Eevee randomly (but can be set)
     // Helps to avoid Gym 2 Togekiss etc
     if (species == SPECIES_EEVEE && usedItem == ITEM_MYSTERY_STONE) {
@@ -4112,6 +4115,7 @@ u16 LONG_CALL GetMonEvolution(struct Party *party, struct PartyPokemon *pokemon,
         // Default case, shouldn't happen though
         return SPECIES_VAPOREON;
     }
+    */
 
     // Spiky-ear Pichu cannot evolve
     if (species == SPECIES_PICHU && form == 1) {
@@ -4138,19 +4142,19 @@ u16 LONG_CALL GetMonEvolution(struct Party *party, struct PartyPokemon *pokemon,
             case EVO_NONE:
                 break;
             case EVO_FRIENDSHIP:
-                if (friendship >= 220) {
+                if (friendship >= FRIENDSHIP_EVOLUTION_THRESHOLD) {
                     GET_TARGET_AND_SET_FORM;
                     *method_ret = EVO_FRIENDSHIP;
                 }
                 break;
             case EVO_FRIENDSHIP_DAY:
-                if (IsNighttime() == 0 && friendship >= 220) {
+                if (IsNighttime() == 0 && friendship >= FRIENDSHIP_EVOLUTION_THRESHOLD) {
                     GET_TARGET_AND_SET_FORM;
                     *method_ret = EVO_FRIENDSHIP_DAY;
                 }
                 break;
             case EVO_FRIENDSHIP_NIGHT:
-                if (IsNighttime() == 1 && friendship >= 220) {
+                if (IsNighttime() == 1 && friendship >= FRIENDSHIP_EVOLUTION_THRESHOLD) {
                     GET_TARGET_AND_SET_FORM;
                     *method_ret = EVO_FRIENDSHIP_NIGHT;
                 }
@@ -4321,6 +4325,24 @@ u16 LONG_CALL GetMonEvolution(struct Party *party, struct PartyPokemon *pokemon,
                     *method_ret = EVO_LEVEL_NIGHT;
                 }
                 break;
+            case EVO_HAS_MOVE_TYPE:
+                {
+                    // Sylveon requires friendship
+                    if (friendship >= FRIENDSHIP_EVOLUTION_THRESHOLD) {
+                        int k;
+
+                        for (k = 0; k < 4; k++)
+                        {
+                            if (GetMoveData(GetMonData(pokemon, MON_DATA_MOVE1+k, NULL), MOVE_DATA_TYPE) == evoTable[i].param)
+                            {
+                                GET_TARGET_AND_SET_FORM;
+                                *method_ret = EVO_HAS_MOVE_TYPE;
+                                break;
+                            }
+                        }
+                    }
+                }
+                break;
 
             #ifdef SAVE_SPACE
 
@@ -4347,21 +4369,6 @@ u16 LONG_CALL GetMonEvolution(struct Party *party, struct PartyPokemon *pokemon,
                     case WEATHER_SYS_THUNDER:
                         GET_TARGET_AND_SET_FORM;
                         *method_ret = EVO_LEVEL_RAIN;
-                    }
-                }
-                break;
-            case EVO_HAS_MOVE_TYPE:
-                {
-                    int k;
-
-                    for (k = 0; k < 4; k++)
-                    {
-                        if (GetMoveData(GetMonData(pokemon, MON_DATA_MOVE1+k, NULL), MOVE_DATA_TYPE) == evoTable[i].param)
-                        {
-                            GET_TARGET_AND_SET_FORM;
-                            *method_ret = EVO_HAS_MOVE_TYPE;
-                            break;
-                        }
                     }
                 }
                 break;

@@ -12,6 +12,7 @@
 // Venoshock eff
 // If target is poisoned or badly poisoned, double the damage
 // 0x8 is regular poison, 0x80 is bad poison
+// Damage calc has been moved into code so this is not used
 
 a030_280:
     ifmonstat IF_MASK, BATTLER_DEFENDER, MON_DATA_STATUS_1, 0x8, DoubleDamage

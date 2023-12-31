@@ -326,13 +326,40 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
     movetype = GetAdjustedMoveType(sp, attacker, moveno);
     movepower = movepower * sp->damage_value / 10;
 
-    // Handle Infernal Parade's status effect. Handled here so AI can read it.
-    if (moveno == MOVE_INFERNAL_PARADE && DefendingMon.condition != 0) {
-        movepower = movepower * 2;
+    // Multiple moves with damage multiplication effects are handled here.
+    // This is because the AI can read the damage numbers properly here, but not from the eff_seq files.
+
+    // Handle moves that double in power if the target has a status condition.
+    if (moveno == MOVE_INFERNAL_PARADE || moveno == MOVE_HEX) {
+        if (DefendingMon.condition > 0) {
+            movepower = movepower * 2;
+        }
     }
 
+    // Handle moves that double in power if the target is poisoned.
+    if (moveno == MOVE_VENOSHOCK || moveno == MOVE_BARB_BARRAGE) {
+        if (DefendingMon.condition & STATUS_POISON_ANY) {
+            movepower = movepower * 2;
+        }
+    }
+
+    // Handle Acrobatics's double damage effect if the attacker has no item.
+    if (moveno == MOVE_ACROBATICS) {
+        if (sp->battlemon[sp->attack_client].item == 0) {
+            movepower = movepower * 2;
+        }
+    }
+
+    // Handle Knock Off's boosted damage effect if the target item is valid for it.
     if (moveno == MOVE_KNOCK_OFF && isKnockOffBonusDamageItem(sp)) {
         movepower = movepower * 15 / 10;
+    }
+
+    // Handle Facade's boosted damage effect if the user is poisoned, paralyzed or burned.
+    if (moveno == MOVE_FACADE) {
+        if (AttackingMon.condition & (STATUS_FLAG_POISONED | STATUS_FLAG_BADLY_POISONED | STATUS_FLAG_PARALYZED | STATUS_FLAG_BURNED)) {
+            movepower = movepower * 2;
+        }
     }
 
     // Handle anti-Minimize moves

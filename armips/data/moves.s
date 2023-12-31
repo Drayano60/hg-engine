@@ -5286,7 +5286,7 @@ movedata MOVE_MEMENTO, "Memento"
     movedescription MOVE_MEMENTO, "The user faints upon\nusing this move.\nIn return, it sharply\nlowers the target’s\nAttack and Sp. Atk."
 
 movedata MOVE_FACADE, "Facade"
-    battleeffect 169
+    battleeffect 0
     pss SPLIT_PHYSICAL
     basepower 70
     type TYPE_NORMAL
@@ -8743,7 +8743,7 @@ movedata MOVE_PSYSHOCK, "Psyshock"
     movedescription MOVE_PSYSHOCK, "The user materializes\nan odd psychic wave\nto attack the foe.\nThis attack does\nphysical damage."
 
 movedata MOVE_VENOSHOCK, "Venoshock"
-    battleeffect 280
+    battleeffect 0
     pss SPLIT_SPECIAL
     basepower 65
     type TYPE_POISON
@@ -9255,7 +9255,7 @@ movedata MOVE_HEAL_PULSE, "Heal Pulse"
     movedescription MOVE_HEAL_PULSE, "The user emits a\nhealing pulse that\nrestores a target’s\nHP by up to half."
 
 movedata MOVE_HEX, "Hex"
-    battleeffect 287
+    battleeffect 0
     pss SPLIT_SPECIAL
     basepower 65
     type TYPE_GHOST
@@ -9351,7 +9351,7 @@ movedata MOVE_QUASH, "Quash"
     movedescription MOVE_QUASH, "The user suppresses\nthe target and makes\nits move go last."
 
 movedata MOVE_ACROBATICS, "Acrobatics"
-    battleeffect 289
+    battleeffect 0
     pss SPLIT_PHYSICAL
     basepower 55
     type TYPE_FLYING
@@ -14386,7 +14386,7 @@ movedata MOVE_HEADLONG_RUSH, "Headlong Rush"
     movedescription MOVE_HEADLONG_RUSH, "The user smashes into\nthe target in a\nfull-body tackle. It\nalso cuts the user’s\nDefense and Sp. Def."
 
 movedata MOVE_BARB_BARRAGE, "Barb Barrage"
-    battleeffect 306
+    battleeffect 2
     pss SPLIT_PHYSICAL
     basepower 60
     type TYPE_POISON

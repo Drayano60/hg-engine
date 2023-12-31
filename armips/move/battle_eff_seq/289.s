@@ -11,6 +11,7 @@
 
 // Acrobatics effect
 // x2 damage if no item
+// Damage calc has been moved into code so this is not used
 
 a030_289:
     ifmonstat IF_EQUAL, BATTLER_ATTACKER, MON_DATA_ITEM, 0, DoubleDamage

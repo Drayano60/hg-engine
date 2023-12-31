@@ -10,6 +10,7 @@
 .create "build/move/battle_eff_seq/0_322", 0
 
 // Parting Shot
+// Unused. Put in eff_seq 228 for AI scoring purposes.
 
 a030_332:
     gotosubscript 441

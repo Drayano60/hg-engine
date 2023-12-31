@@ -8,6 +8,7 @@ Instructions on how to build the repo can be found there.
 - [ ] Pumpkaboo/Gourgeist don't have alt form sprites
 - [ ] Define type change stuff properly
 - [ ] Add proper level cap numbers in Script File 4, Function #53
+- [ ] Convert the Johto Dex into the Aurora Dex
 
 **Assets still required**
 - [ ] Cry, overworld and party icon for Clodsire

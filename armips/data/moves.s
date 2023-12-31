@@ -9287,7 +9287,7 @@ movedata MOVE_SKY_DROP, "Sky Drop"
     movedescription MOVE_SKY_DROP, "It takes the enemy\ninto the sky,\nwhere it can’t\nattack. It is\ndropped next turn."
 
 movedata MOVE_SHIFT_GEAR, "Shift Gear"
-    battleeffect 288
+    battleeffect 212 // AI purposes
     pss SPLIT_STATUS
     basepower 0
     type TYPE_STEEL
@@ -9399,7 +9399,7 @@ movedata MOVE_RETALIATE, "Retaliate"
     movedescription MOVE_RETALIATE, "If an ally fainted\nin the previous\nturn, this attack’s\ndamage increases."
 
 movedata MOVE_FINAL_GAMBIT, "Final Gambit"
-    battleeffect 316
+    battleeffect 142 // AI purposes
     pss SPLIT_PHYSICAL
     basepower 1
     type TYPE_FIGHTING
@@ -10356,7 +10356,7 @@ movedata MOVE_DISARMING_VOICE, "Disarming Voice"
     movedescription MOVE_DISARMING_VOICE, "With a charming cry,\nthe user does\nemotional damage.\nThis attack never\nmisses."
 
 movedata MOVE_PARTING_SHOT, "Parting Shot"
-    battleeffect 322
+    battleeffect 228 // AI purposes
     pss SPLIT_STATUS
     basepower 0
     type TYPE_DARK
@@ -11774,7 +11774,7 @@ movedata MOVE_HIGH_HORSEPOWER, "High Horsepower"
     movedescription MOVE_HIGH_HORSEPOWER, "The user fiercely\nattacks the target\nwith its entire body."
 
 movedata MOVE_STRENGTH_SAP, "Strength Sap"
-    battleeffect 326
+    battleeffect 58 // AI purposes
     pss SPLIT_STATUS
     basepower 0
     type TYPE_GRASS
@@ -11837,7 +11837,7 @@ movedata MOVE_SPOTLIGHT, "Spotlight"
     terminatedata
 
 movedata MOVE_TOXIC_THREAD, "Toxic Thread"
-    battleeffect 311
+    battleeffect 66 // AI purposes
     pss SPLIT_STATUS
     basepower 0
     type TYPE_POISON
@@ -15029,7 +15029,7 @@ movedata MOVE_SHED_TAIL, "Shed Tail"
 
 // NAME TOO LONG
 movedata MOVE_CHILLY_RECEPTION, "C. Reception"
-    battleeffect 329
+    battleeffect 164 // AI purposes
     pss SPLIT_STATUS
     basepower 0
     type TYPE_ICE
@@ -15042,7 +15042,7 @@ movedata MOVE_CHILLY_RECEPTION, "C. Reception"
     appeal 0
     contesttype 0
     terminatedata
-    movedescription MOVE_CHILLY_RECEPTION, "The user tells a\nchillingly bad joke before\nswitching out. This\nsummons a snowstorm\nlasting five turns."
+    movedescription MOVE_CHILLY_RECEPTION, "The user tells a\nchillingly bad joke,\nthen switches out.\nThis summons snow\nfor five turns."
 
 movedata MOVE_TIDY_UP, "Tidy Up"
     battleeffect 212

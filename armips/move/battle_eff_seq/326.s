@@ -9,6 +9,9 @@
 
 .create "build/move/battle_eff_seq/0_326", 0
 
+// Strength Sap effect
+// Unused. Charm eff_seq is used instead for AI purposes
+
 a030_326:
     gotosubscript 441
     changevar VAR_OP_SET, VAR_ADD_STATUS1, 0x80000000 | 169

@@ -11,6 +11,7 @@
 
 // Toxic Thread
 // Poison + -1 Speed
+// Not used. Sits in poison eff_Seq instead
 
 a030_311:
     gotosubscript 441

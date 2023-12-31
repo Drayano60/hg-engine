@@ -1,0 +1,53 @@
+These moves double damage + are guaranteed to hit if the target is minimized:
+- Body Slam
+- Stomp
+- Dragon Rush
+- Steamroller
+- Heat Crash
+- Heavy Slam
+
+These moves have damage multipliers:
+- Magnitude, Earthquake (x2 if target is underground)
+- Twister, Gust (x2 if target is in the air)
+- Facade (x2 if user is paralyzed, burned or poisoned)
+- Smelling Salt (x2 if target is paralyzed)
+- Knock Off (x1.5 if target has a held item) *
+- Wake-Up Slap (x2 if target is asleep)
+- Brine (x2 if target's HP is 50% or lower)
+- Surf, Whirlpool (x2 if target is underwater)
+- Venoshock, Barb Barrage (x2 if target is poisoned) *
+- Hex, Infernal Parade (x2 if target has a status condition) *
+- Acrobatics (x2 if user does not have a held item) *
+- Pursuit (x2 if target is switching out)
+- Anti-Minimize moves (x2 if target is minimized) *
+
+* = in Ai-readable code
+
+"This now deals 50% more damage to a target with a held item that isn't the Griseous Orb or a Pokémon with the Multitype ability.
+However, it still makes the item unusable instead of removing it entirely, as otherwise the item would be lost forever.
+(A Pokémon whose item has been knocked off is still treated as not having an item for things like Acrobatics, Unburden etc, and is unable to gain another item even if it uses Thief, Trick etc.)"
+
+The following Gen 5+ status moves are in Aurora Crystal:
+- Aurora Veil (AI Logic: Same as Reflect. Not aware of Snow requirement)
+- Baby-Doll Eyes (AI Logic: Same as Growl/Charm)
+- Chilly Reception (AI Logic: Same as Hail/Snowscape)
+- Coil (AI Logic: Same as Swords Dance)
+- Confide (AI Logic: Same as Growl but for SpAtk, not normally used)
+- Cotton Guard (AI Logic: Same as Iron Defense)
+- Eerie Impulse (AI Logic: Same as Growl but for SpAtk, not normally used)
+- Final Gambit (AI Logic: Same as Belly Drum)
+- Hone Claws (AI Logic: Same as Swords Dance)
+- Life Dew (AI Logic: Same as Recover)
+- Noble Roar (AI Logic: Same as Growl/Charm)
+- Parting Shot (AI Logic: Same as U-turn)
+- Play Nice  (AI Logic: Same as Growl/Charm)
+- Quiver Dance (AI Logic: Same as Tail Glow)
+- Shell Smash (AI Logic: Same as Tail Glow)
+- Shelter (AI Logic: Same as Iron Defense)
+- Shift Gear (AI Logic: Same as Dragon Dance)
+- Strength Sap (AI Logic: Same as Growl/Charm)
+- Tearful Look (AI Logic: Same as Growl/Charm)
+- Tidy Up (AI Logic: Same as Dragon Dance)
+- Toxic Thread (AI Logic: Same as Poison Powder)
+- Victory Dance (AI Logic: Same as Swords Dance)
+- Work Up (AI Logic: Same as Tail Glow)

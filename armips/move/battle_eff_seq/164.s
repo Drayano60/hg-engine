@@ -10,9 +10,11 @@
 .create "build/move/battle_eff_seq/0_164", 0
 
 // Hail
+// Chilly Reception is also here for AI purposes
 
 a030_164:
     gotosubscript 441
+    if IF_EQUAL, VAR_CURRENT_MOVE, MOVE_CHILLY_RECEPTION, ChillyReception
     if IF_MASK, VAR_MOVE_STATUS, 0x40, Failed // Required to skip over things set before natural failure happens
     if IF_MASK, VAR_FIELD_EFFECT, 0x40, Failed
     preparemessage 0x32A, 0x0, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
@@ -27,6 +29,9 @@ _0090:
     endscript
 Failed:
     changevar VAR_OP_SETMASK, VAR_MOVE_STATUS, 0x40
+    endscript
+ChillyReception:
+    changevar VAR_OP_SET, VAR_ADD_STATUS1, 0x20000000 | 172
     endscript
 
 .close

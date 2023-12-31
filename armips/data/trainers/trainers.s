@@ -185,7 +185,6 @@ endparty
 trainerdata 8, "Joey"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_YOUNGSTER
-    battletype SINGLE_BATTLE
     nummons 1
     item 0
     item 0
@@ -217,7 +216,6 @@ endparty
 trainerdata 47, "Mikey"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_YOUNGSTER
-    battletype SINGLE_BATTLE
     nummons 2
     item 0
     item 0
@@ -382,7 +380,6 @@ endparty
 trainerdata 279, "Joey"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_YOUNGSTER
-    battletype SINGLE_BATTLE
     nummons 1
     item 0
     item 0
@@ -414,7 +411,6 @@ endparty
 trainerdata 280, "Joey"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_YOUNGSTER
-    battletype SINGLE_BATTLE
     nummons 1
     item 0
     item 0
@@ -446,7 +442,6 @@ endparty
 trainerdata 510, "Joey"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_YOUNGSTER
-    battletype SINGLE_BATTLE
     nummons 1
     item 0
     item 0
@@ -3998,7 +3993,6 @@ endparty
 trainerdata 201, "Andrew"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_POKE_MANIAC
-    battletype SINGLE_BATTLE
     nummons 2
     item 0
     item 0 
@@ -4047,7 +4041,6 @@ endparty
 trainerdata 202, "Calvin"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_POKE_MANIAC
-    battletype SINGLE_BATTLE
     nummons 2
     item 0
     item 0 
@@ -4096,7 +4089,6 @@ endparty
 trainerdata 204, "Leonard"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_HIKER
-    battletype SINGLE_BATTLE
     nummons 2
     item 0
     item 0 
@@ -4145,7 +4137,6 @@ endparty
 trainerdata 203, "Phillip"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_HIKER
-    battletype SINGLE_BATTLE
     nummons 2
     item 0
     item 0 
@@ -4194,7 +4185,6 @@ endparty
 trainerdata 205, "Nick"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_ACE_TRAINER_M
-    battletype SINGLE_BATTLE
     nummons 3
     item 0
     item 0 
@@ -4260,7 +4250,6 @@ endparty
 trainerdata 206, "Gwen"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_ACE_TRAINER_F
-    battletype SINGLE_BATTLE
     nummons 3
     item 0
     item 0 
@@ -4326,7 +4315,6 @@ endparty
 trainerdata 363, "Emma"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_ACE_TRAINER_F
-    battletype SINGLE_BATTLE
     nummons 3
     item 0
     item 0 
@@ -21049,7 +21037,6 @@ endparty
 trainerdata 499, "Grunt"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_TEAM_ROCKET
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -28501,7 +28488,6 @@ endparty
 trainerdata 477, "Joey"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_YOUNGSTER
-    battletype SINGLE_BATTLE
     nummons 5
     item 0
     item 0
@@ -31732,7 +31718,6 @@ endparty
 trainerdata 0, "-"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_PKMN_TRAINER_0
-    battletype SINGLE_BATTLE
     nummons 0
     item ITEM_NONE
     item ITEM_NONE
@@ -31754,7 +31739,6 @@ trainerdata 0, "-"
 trainerdata 2, "Silver"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_RIVAL
-    battletype SINGLE_BATTLE
     nummons 1
     item ITEM_NONE
     item ITEM_NONE
@@ -31776,7 +31760,6 @@ trainerdata 2, "Silver"
 trainerdata 3, "Silver"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_RIVAL
-    battletype SINGLE_BATTLE
     nummons 1
     item ITEM_NONE
     item ITEM_NONE
@@ -31798,7 +31781,6 @@ trainerdata 3, "Silver"
 trainerdata 15, "Otis"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FIREBREATHER
-    battletype SINGLE_BATTLE
     nummons 3
     item ITEM_NONE
     item ITEM_NONE
@@ -31834,7 +31816,6 @@ trainerdata 15, "Otis"
 trainerdata 38, "Colette"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEACHER
-    battletype SINGLE_BATTLE
     nummons 1
     item ITEM_NONE
     item ITEM_NONE
@@ -31857,7 +31838,6 @@ trainerdata 38, "Colette"
 trainerdata 41, "Clyde"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_GUITARIST
-    battletype SINGLE_BATTLE
     nummons 1
     item ITEM_NONE
     item ITEM_NONE
@@ -31879,7 +31859,6 @@ trainerdata 41, "Clyde"
 trainerdata 48, "Rob"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BUG_CATCHER
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -31908,7 +31887,6 @@ trainerdata 48, "Rob"
 trainerdata 58, "Arnold"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FISHERMAN
-    battletype SINGLE_BATTLE
     nummons 1
     item ITEM_NONE
     item ITEM_NONE
@@ -31930,7 +31908,6 @@ trainerdata 58, "Arnold"
 trainerdata 59, "Kyle"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FISHERMAN
-    battletype SINGLE_BATTLE
     nummons 3
     item ITEM_NONE
     item ITEM_NONE
@@ -31966,7 +31943,6 @@ trainerdata 59, "Kyle"
 trainerdata 79, "Ken"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BUG_CATCHER
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -31995,7 +31971,6 @@ trainerdata 79, "Ken"
 trainerdata 83, "Cindy"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_PICNICKER
-    battletype SINGLE_BATTLE
     nummons 1
     item ITEM_NONE
     item ITEM_NONE
@@ -32021,7 +31996,6 @@ trainerdata 83, "Cindy"
 trainerdata 84, "Barry"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_CAMPER
-    battletype SINGLE_BATTLE
     nummons 1
     item ITEM_NONE
     item ITEM_NONE
@@ -32047,7 +32021,6 @@ trainerdata 84, "Barry"
 trainerdata 128, "Jonah"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FISHERMAN
-    battletype SINGLE_BATTLE
     nummons 4
     item ITEM_NONE
     item ITEM_NONE
@@ -32090,7 +32063,6 @@ trainerdata 128, "Jonah"
 trainerdata 133, "Morgan"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_POKE_MANIAC
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -32119,7 +32091,6 @@ trainerdata 133, "Morgan"
 trainerdata 135, "Johnny"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SCHOOL_KID_M
-    battletype SINGLE_BATTLE
     nummons 3
     item ITEM_NONE
     item ITEM_NONE
@@ -32155,7 +32126,6 @@ trainerdata 135, "Johnny"
 trainerdata 136, "Linda"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_LASS
-    battletype SINGLE_BATTLE
     nummons 3
     item ITEM_NONE
     item ITEM_NONE
@@ -32203,7 +32173,6 @@ trainerdata 136, "Linda"
 trainerdata 139, "Debra"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_PICNICKER
-    battletype SINGLE_BATTLE
     nummons 1
     item ITEM_NONE
     item ITEM_NONE
@@ -32225,7 +32194,6 @@ trainerdata 139, "Debra"
 trainerdata 140, "Doug"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BUG_CATCHER
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -32254,7 +32222,6 @@ trainerdata 140, "Doug"
 trainerdata 148, "Lloyd"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_CAMPER
-    battletype SINGLE_BATTLE
     nummons 1
     item ITEM_NONE
     item ITEM_NONE
@@ -32276,7 +32243,6 @@ trainerdata 148, "Lloyd"
 trainerdata 149, "Dean"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_CAMPER
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -32305,7 +32271,6 @@ trainerdata 149, "Dean"
 trainerdata 150, "Sid"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_CAMPER
-    battletype SINGLE_BATTLE
     nummons 3
     item ITEM_NONE
     item ITEM_NONE
@@ -32341,7 +32306,6 @@ trainerdata 150, "Sid"
 trainerdata 152, "Hope"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_PICNICKER
-    battletype SINGLE_BATTLE
     nummons 1
     item ITEM_NONE
     item ITEM_NONE
@@ -32363,7 +32327,6 @@ trainerdata 152, "Hope"
 trainerdata 153, "Sharon"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_PICNICKER
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -32392,7 +32355,6 @@ trainerdata 153, "Sharon"
 trainerdata 175, "Bethany"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_MEDIUM
-    battletype SINGLE_BATTLE
     nummons 1
     item ITEM_NONE
     item ITEM_NONE
@@ -32414,7 +32376,6 @@ trainerdata 175, "Bethany"
 trainerdata 176, "Margaret"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_MEDIUM
-    battletype SINGLE_BATTLE
     nummons 1
     item ITEM_NONE
     item ITEM_NONE
@@ -32436,7 +32397,6 @@ trainerdata 176, "Margaret"
 trainerdata 177, "Ethel"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_MEDIUM
-    battletype SINGLE_BATTLE
     nummons 1
     item ITEM_NONE
     item ITEM_NONE
@@ -32458,7 +32418,6 @@ trainerdata 177, "Ethel"
 trainerdata 179, "Kipp"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SCHOOL_KID_M
-    battletype SINGLE_BATTLE
     nummons 4
     item ITEM_NONE
     item ITEM_NONE
@@ -32501,7 +32460,6 @@ trainerdata 179, "Kipp"
 trainerdata 183, "Alice"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_LASS
-    battletype SINGLE_BATTLE
     nummons 3
     item ITEM_NONE
     item ITEM_NONE
@@ -32549,7 +32507,6 @@ trainerdata 183, "Alice"
 trainerdata 209, "Cassie"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BEAUTY
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -32578,7 +32535,6 @@ trainerdata 209, "Cassie"
 trainerdata 210, "Caroline"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BEAUTY
-    battletype SINGLE_BATTLE
     nummons 3
     item ITEM_NONE
     item ITEM_NONE
@@ -32614,7 +32570,6 @@ trainerdata 210, "Caroline"
 trainerdata 230, "Franklin"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_PSYCHIC_M
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -32651,7 +32606,6 @@ trainerdata 230, "Franklin"
 trainerdata 231, "Edward"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_GENTLEMAN
-    battletype SINGLE_BATTLE
     nummons 1
     item ITEM_FULL_RESTORE
     item ITEM_NONE
@@ -32673,7 +32627,6 @@ trainerdata 231, "Edward"
 trainerdata 232, "Vincent"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_GUITARIST
-    battletype SINGLE_BATTLE
     nummons 3
     item ITEM_NONE
     item ITEM_NONE
@@ -32721,7 +32674,6 @@ trainerdata 232, "Vincent"
 trainerdata 234, "Eoin"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_HIKER
-    battletype SINGLE_BATTLE
     nummons 3
     item ITEM_NONE
     item ITEM_NONE
@@ -32757,7 +32709,6 @@ trainerdata 234, "Eoin"
 trainerdata 235, "Noland"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_HIKER
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -32786,7 +32737,6 @@ trainerdata 235, "Noland"
 trainerdata 236, "Shaye"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_ACE_TRAINER_M
-    battletype SINGLE_BATTLE
     nummons 3
     item ITEM_NONE
     item ITEM_NONE
@@ -32834,7 +32784,6 @@ trainerdata 236, "Shaye"
 trainerdata 237, "Carol"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_ACE_TRAINER_F
-    battletype SINGLE_BATTLE
     nummons 3
     item ITEM_NONE
     item ITEM_NONE
@@ -32882,7 +32831,6 @@ trainerdata 237, "Carol"
 trainerdata 238, "Stanly"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SAILOR
-    battletype SINGLE_BATTLE
     nummons 3
     item ITEM_NONE
     item ITEM_NONE
@@ -32918,7 +32866,6 @@ trainerdata 238, "Stanly"
 trainerdata 239, "Jeff"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SAILOR
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -32947,7 +32894,6 @@ trainerdata 239, "Jeff"
 trainerdata 240, "Garrett"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SAILOR
-    battletype SINGLE_BATTLE
     nummons 1
     item ITEM_NONE
     item ITEM_NONE
@@ -32969,7 +32915,6 @@ trainerdata 240, "Garrett"
 trainerdata 241, "Kenneth"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SAILOR
-    battletype SINGLE_BATTLE
     nummons 4
     item ITEM_NONE
     item ITEM_NONE
@@ -33012,7 +32957,6 @@ trainerdata 241, "Kenneth"
 trainerdata 242, "Fritz"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_JUGGLER
-    battletype SINGLE_BATTLE
     nummons 3
     item ITEM_NONE
     item ITEM_NONE
@@ -33060,7 +33004,6 @@ trainerdata 242, "Fritz"
 trainerdata 243, "Katie"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SWIMMER_F
-    battletype SINGLE_BATTLE
     nummons 1
     item ITEM_NONE
     item ITEM_NONE
@@ -33082,7 +33025,6 @@ trainerdata 243, "Katie"
 trainerdata 248, "Ed"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BUG_CATCHER
-    battletype SINGLE_BATTLE
     nummons 3
     item ITEM_NONE
     item ITEM_NONE
@@ -33118,7 +33060,6 @@ trainerdata 248, "Ed"
 trainerdata 252, "Harold"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SWIMMER_M
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -33147,7 +33088,6 @@ trainerdata 252, "Harold"
 trainerdata 253, "Brock"
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_LEADER_5
-    battletype SINGLE_BATTLE
     nummons 5
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
@@ -33222,7 +33162,6 @@ trainerdata 253, "Brock"
 trainerdata 254, "Misty"
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_LEADER_6
-    battletype SINGLE_BATTLE
     nummons 4
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
@@ -33285,7 +33224,6 @@ trainerdata 254, "Misty"
 trainerdata 255, "Lt. Surge"
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_LEADER_7
-    battletype SINGLE_BATTLE
     nummons 5
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
@@ -33360,7 +33298,6 @@ trainerdata 255, "Lt. Surge"
 trainerdata 256, "Erika"
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_LEADER_8
-    battletype SINGLE_BATTLE
     nummons 4
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
@@ -33423,7 +33360,6 @@ trainerdata 256, "Erika"
 trainerdata 257, "Janine"
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_LEADER_9
-    battletype SINGLE_BATTLE
     nummons 5
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
@@ -33498,7 +33434,6 @@ trainerdata 257, "Janine"
 trainerdata 258, "Sabrina"
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_LEADER_10
-    battletype SINGLE_BATTLE
     nummons 3
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
@@ -33549,7 +33484,6 @@ trainerdata 258, "Sabrina"
 trainerdata 259, "Blaine"
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_LEADER_11
-    battletype SINGLE_BATTLE
     nummons 3
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
@@ -33600,7 +33534,6 @@ trainerdata 259, "Blaine"
 trainerdata 260, "Red"
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_PKMN_TRAINER_9
-    battletype SINGLE_BATTLE
     nummons 6
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
@@ -33687,7 +33620,6 @@ trainerdata 260, "Red"
 trainerdata 261, "Blue"
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_LEADER_12
-    battletype SINGLE_BATTLE
     nummons 6
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
@@ -33774,7 +33706,6 @@ trainerdata 261, "Blue"
 trainerdata 265, "Silver"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_RIVAL
-    battletype SINGLE_BATTLE
     nummons 1
     item ITEM_NONE
     item ITEM_NONE
@@ -33796,7 +33727,6 @@ trainerdata 265, "Silver"
 trainerdata 284, "Corey"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BURGLAR
-    battletype SINGLE_BATTLE
     nummons 4
     item ITEM_NONE
     item ITEM_NONE
@@ -33839,7 +33769,6 @@ trainerdata 284, "Corey"
 trainerdata 285, "Silver"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_RIVAL
-    battletype SINGLE_BATTLE
     nummons 6
     item ITEM_NONE
     item ITEM_NONE
@@ -33920,7 +33849,6 @@ trainerdata 285, "Silver"
 trainerdata 286, "Silver"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_RIVAL
-    battletype SINGLE_BATTLE
     nummons 6
     item ITEM_NONE
     item ITEM_NONE
@@ -34001,7 +33929,6 @@ trainerdata 286, "Silver"
 trainerdata 287, "Silver"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_RIVAL
-    battletype SINGLE_BATTLE
     nummons 6
     item ITEM_NONE
     item ITEM_NONE
@@ -34082,7 +34009,6 @@ trainerdata 287, "Silver"
 trainerdata 291, "Debbie"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SWIMMER_F
-    battletype SINGLE_BATTLE
     nummons 1
     item ITEM_NONE
     item ITEM_NONE
@@ -34104,7 +34030,6 @@ trainerdata 291, "Debbie"
 trainerdata 293, "Nicole"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SWIMMER_F
-    battletype SINGLE_BATTLE
     nummons 3
     item ITEM_NONE
     item ITEM_NONE
@@ -34140,7 +34065,6 @@ trainerdata 293, "Nicole"
 trainerdata 294, "Lori"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SWIMMER_F
-    battletype SINGLE_BATTLE
     nummons 3
     item ITEM_NONE
     item ITEM_NONE
@@ -34188,7 +34112,6 @@ trainerdata 294, "Lori"
 trainerdata 296, "Nikki"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SWIMMER_F
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -34217,7 +34140,6 @@ trainerdata 296, "Nikki"
 trainerdata 297, "Diana"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SWIMMER_F
-    battletype SINGLE_BATTLE
     nummons 1
     item ITEM_NONE
     item ITEM_NONE
@@ -34243,7 +34165,6 @@ trainerdata 297, "Diana"
 trainerdata 298, "Briana"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SWIMMER_F
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -34280,7 +34201,6 @@ trainerdata 298, "Briana"
 trainerdata 299, "Hank"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIRD_KEEPER_1
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -34309,7 +34229,6 @@ trainerdata 299, "Hank"
 trainerdata 300, "Roy"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIRD_KEEPER_1
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -34338,7 +34257,6 @@ trainerdata 300, "Roy"
 trainerdata 301, "Boris"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIRD_KEEPER_1
-    battletype SINGLE_BATTLE
     nummons 3
     item ITEM_NONE
     item ITEM_NONE
@@ -34374,7 +34292,6 @@ trainerdata 301, "Boris"
 trainerdata 302, "Bob"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIRD_KEEPER_1
-    battletype SINGLE_BATTLE
     nummons 1
     item ITEM_NONE
     item ITEM_NONE
@@ -34396,7 +34313,6 @@ trainerdata 302, "Bob"
 trainerdata 308, "Jerry"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_CAMPER
-    battletype SINGLE_BATTLE
     nummons 1
     item ITEM_NONE
     item ITEM_NONE
@@ -34422,7 +34338,6 @@ trainerdata 308, "Jerry"
 trainerdata 309, "Dwayne"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIKER
-    battletype SINGLE_BATTLE
     nummons 4
     item ITEM_NONE
     item ITEM_NONE
@@ -34465,7 +34380,6 @@ trainerdata 309, "Dwayne"
 trainerdata 310, "Harris"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIKER
-    battletype SINGLE_BATTLE
     nummons 1
     item ITEM_NONE
     item ITEM_NONE
@@ -34487,7 +34401,6 @@ trainerdata 310, "Harris"
 trainerdata 311, "Zeke"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIKER
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -34516,7 +34429,6 @@ trainerdata 311, "Zeke"
 trainerdata 312, "Charles"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIKER
-    battletype SINGLE_BATTLE
     nummons 3
     item ITEM_NONE
     item ITEM_NONE
@@ -34552,7 +34464,6 @@ trainerdata 312, "Charles"
 trainerdata 313, "Reese"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIKER
-    battletype SINGLE_BATTLE
     nummons 1
     item ITEM_NONE
     item ITEM_NONE
@@ -34574,7 +34485,6 @@ trainerdata 313, "Reese"
 trainerdata 314, "Joel"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIKER
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -34603,7 +34513,6 @@ trainerdata 314, "Joel"
 trainerdata 315, "Glenn"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIKER
-    battletype SINGLE_BATTLE
     nummons 3
     item ITEM_NONE
     item ITEM_NONE
@@ -34639,7 +34548,6 @@ trainerdata 315, "Glenn"
 trainerdata 316, "Herman"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_PSYCHIC_M
-    battletype SINGLE_BATTLE
     nummons 3
     item ITEM_NONE
     item ITEM_NONE
@@ -34687,7 +34595,6 @@ trainerdata 316, "Herman"
 trainerdata 317, "Fidel"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_PSYCHIC_M
-    battletype SINGLE_BATTLE
     nummons 1
     item ITEM_NONE
     item ITEM_NONE
@@ -34713,7 +34620,6 @@ trainerdata 317, "Fidel"
 trainerdata 318, "Burt"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_FIREBREATHER
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -34750,7 +34656,6 @@ trainerdata 318, "Burt"
 trainerdata 320, "Martin"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FISHERMAN
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -34779,7 +34684,6 @@ trainerdata 320, "Martin"
 trainerdata 321, "Stephen"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FISHERMAN
-    battletype SINGLE_BATTLE
     nummons 3
     item ITEM_NONE
     item ITEM_NONE
@@ -34815,7 +34719,6 @@ trainerdata 321, "Stephen"
 trainerdata 322, "Barney"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FISHERMAN
-    battletype SINGLE_BATTLE
     nummons 3
     item ITEM_NONE
     item ITEM_NONE
@@ -34851,7 +34754,6 @@ trainerdata 322, "Barney"
 trainerdata 326, "Jo & Zoe"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_TWINS
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -34888,7 +34790,6 @@ trainerdata 326, "Jo & Zoe"
 trainerdata 327, "Danny"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SCHOOL_KID_M
-    battletype SINGLE_BATTLE
     nummons 3
     item ITEM_NONE
     item ITEM_NONE
@@ -34924,7 +34825,6 @@ trainerdata 327, "Danny"
 trainerdata 328, "Tommy"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SCHOOL_KID_M
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -34961,7 +34861,6 @@ trainerdata 328, "Tommy"
 trainerdata 329, "Dudley"
     trainermontype TRAINER_DATA_TYPE_ITEMS
     trainerclass CLASS_SCHOOL_KID_M
-    battletype SINGLE_BATTLE
     nummons 1
     item ITEM_NONE
     item ITEM_NONE
@@ -34984,7 +34883,6 @@ trainerdata 329, "Dudley"
 trainerdata 330, "Joe"
     trainermontype TRAINER_DATA_TYPE_ITEMS
     trainerclass CLASS_SCHOOL_KID_M
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -35015,7 +34913,6 @@ trainerdata 330, "Joe"
 trainerdata 331, "Billy"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SCHOOL_KID_M
-    battletype SINGLE_BATTLE
     nummons 3
     item ITEM_NONE
     item ITEM_NONE
@@ -35051,7 +34948,6 @@ trainerdata 331, "Billy"
 trainerdata 332, "Heidi"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_PICNICKER
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -35080,7 +34976,6 @@ trainerdata 332, "Heidi"
 trainerdata 333, "Edna"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_PICNICKER
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -35109,7 +35004,6 @@ trainerdata 333, "Edna"
 trainerdata 336, "Tanya"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_PICNICKER
-    battletype SINGLE_BATTLE
     nummons 1
     item ITEM_NONE
     item ITEM_NONE
@@ -35135,7 +35029,6 @@ trainerdata 336, "Tanya"
 trainerdata 337, "Gregory"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_GENTLEMAN
-    battletype SINGLE_BATTLE
     nummons 3
     item ITEM_FULL_RESTORE
     item ITEM_NONE
@@ -35183,7 +35076,6 @@ trainerdata 337, "Gregory"
 trainerdata 339, "Wai"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BLACK_BELT
-    battletype SINGLE_BATTLE
     nummons 3
     item ITEM_NONE
     item ITEM_NONE
@@ -35219,7 +35111,6 @@ trainerdata 339, "Wai"
 trainerdata 346, "Julia"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_BEAUTY
-    battletype SINGLE_BATTLE
     nummons 3
     item ITEM_NONE
     item ITEM_NONE
@@ -35267,7 +35158,6 @@ trainerdata 346, "Julia"
 trainerdata 348, "Robert"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_POKEFAN_M
-    battletype SINGLE_BATTLE
     nummons 1
     item ITEM_NONE
     item ITEM_NONE
@@ -35289,7 +35179,6 @@ trainerdata 348, "Robert"
 trainerdata 349, "Joshua"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_POKEFAN_M
-    battletype SINGLE_BATTLE
     nummons 6
     item ITEM_NONE
     item ITEM_NONE
@@ -35346,7 +35235,6 @@ trainerdata 349, "Joshua"
 trainerdata 350, "Carter"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_POKEFAN_M
-    battletype SINGLE_BATTLE
     nummons 3
     item ITEM_NONE
     item ITEM_NONE
@@ -35382,7 +35270,6 @@ trainerdata 350, "Carter"
 trainerdata 351, "Trevor"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_POKEFAN_M
-    battletype SINGLE_BATTLE
     nummons 1
     item ITEM_NONE
     item ITEM_NONE
@@ -35404,7 +35291,6 @@ trainerdata 351, "Trevor"
 trainerdata 352, "Georgia"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_POKEFAN_F
-    battletype SINGLE_BATTLE
     nummons 5
     item ITEM_NONE
     item ITEM_NONE
@@ -35454,7 +35340,6 @@ trainerdata 352, "Georgia"
 trainerdata 353, "Grunt"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEAM_ROCKET
-    battletype SINGLE_BATTLE
     nummons 1
     item ITEM_NONE
     item ITEM_NONE
@@ -35476,7 +35361,6 @@ trainerdata 353, "Grunt"
 trainerdata 354, "Laura"
     trainermontype TRAINER_DATA_TYPE_ITEMS
     trainerclass CLASS_LASS
-    battletype SINGLE_BATTLE
     nummons 3
     item ITEM_NONE
     item ITEM_NONE
@@ -35515,7 +35399,6 @@ trainerdata 354, "Laura"
 trainerdata 355, "Shannon"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_LASS
-    battletype SINGLE_BATTLE
     nummons 3
     item ITEM_NONE
     item ITEM_NONE
@@ -35551,7 +35434,6 @@ trainerdata 355, "Shannon"
 trainerdata 356, "Michelle"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_LASS
-    battletype SINGLE_BATTLE
     nummons 3
     item ITEM_NONE
     item ITEM_NONE
@@ -35599,7 +35481,6 @@ trainerdata 356, "Michelle"
 trainerdata 357, "Clarke"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_HIKER
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -35628,7 +35509,6 @@ trainerdata 357, "Clarke"
 trainerdata 358, "Kenny"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_HIKER
-    battletype SINGLE_BATTLE
     nummons 3
     item ITEM_NONE
     item ITEM_NONE
@@ -35664,7 +35544,6 @@ trainerdata 358, "Kenny"
 trainerdata 359, "Jim"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_HIKER
-    battletype SINGLE_BATTLE
     nummons 1
     item ITEM_NONE
     item ITEM_NONE
@@ -35686,7 +35565,6 @@ trainerdata 359, "Jim"
 trainerdata 361, "Kevin"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_ACE_TRAINER_M
-    battletype SINGLE_BATTLE
     nummons 3
     item ITEM_NONE
     item ITEM_NONE
@@ -35734,7 +35612,6 @@ trainerdata 361, "Kevin"
 trainerdata 362, "Quinn"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_ACE_TRAINER_F
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -35771,7 +35648,6 @@ trainerdata 362, "Quinn"
 trainerdata 364, "Sam"
     trainermontype TRAINER_DATA_TYPE_ITEMS
     trainerclass CLASS_SUPER_NERD
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -35802,7 +35678,6 @@ trainerdata 364, "Sam"
 trainerdata 365, "Tyrone"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SUPER_NERD
-    battletype SINGLE_BATTLE
     nummons 3
     item ITEM_NONE
     item ITEM_NONE
@@ -35838,7 +35713,6 @@ trainerdata 365, "Tyrone"
 trainerdata 366, "Pat"
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SUPER_NERD
-    battletype SINGLE_BATTLE
     nummons 1
     item ITEM_NONE
     item ITEM_NONE
@@ -35865,7 +35739,6 @@ trainerdata 366, "Pat"
 trainerdata 367, "Shawn"
     trainermontype TRAINER_DATA_TYPE_ITEMS
     trainerclass CLASS_SUPER_NERD
-    battletype SINGLE_BATTLE
     nummons 3
     item ITEM_NONE
     item ITEM_NONE
@@ -35904,7 +35777,6 @@ trainerdata 367, "Shawn"
 trainerdata 368, "Rebecca"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_MEDIUM
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -35941,7 +35813,6 @@ trainerdata 368, "Rebecca"
 trainerdata 369, "Darcy"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_MEDIUM
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -35978,7 +35849,6 @@ trainerdata 369, "Darcy"
 trainerdata 370, "Jerome"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SWIMMER_M
-    battletype SINGLE_BATTLE
     nummons 4
     item ITEM_NONE
     item ITEM_NONE
@@ -36021,7 +35891,6 @@ trainerdata 370, "Jerome"
 trainerdata 371, "Tucker"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SWIMMER_M
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -36050,7 +35919,6 @@ trainerdata 371, "Tucker"
 trainerdata 373, "Frankie"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SWIMMER_M
-    battletype SINGLE_BATTLE
     nummons 1
     item ITEM_NONE
     item ITEM_NONE
@@ -36072,7 +35940,6 @@ trainerdata 373, "Frankie"
 trainerdata 374, "Tyson"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SWIMMER_M
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -36109,7 +35976,6 @@ trainerdata 374, "Tyson"
 trainerdata 377, "Parker"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SWIMMER_M
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -36146,7 +36012,6 @@ trainerdata 377, "Parker"
 trainerdata 378, "Warren"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_YOUNGSTER
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -36175,7 +36040,6 @@ trainerdata 378, "Warren"
 trainerdata 379, "Jimmy"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_YOUNGSTER
-    battletype SINGLE_BATTLE
     nummons 3
     item ITEM_NONE
     item ITEM_NONE
@@ -36211,7 +36075,6 @@ trainerdata 379, "Jimmy"
 trainerdata 380, "Owen"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_YOUNGSTER
-    battletype SINGLE_BATTLE
     nummons 1
     item ITEM_NONE
     item ITEM_NONE
@@ -36233,7 +36096,6 @@ trainerdata 380, "Owen"
 trainerdata 381, "Jason"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_YOUNGSTER
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -36262,7 +36124,6 @@ trainerdata 381, "Jason"
 trainerdata 382, "Hillary"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEACHER
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -36291,7 +36152,6 @@ trainerdata 382, "Hillary"
 trainerdata 385, "Dara & Dia"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TWINS
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -36320,7 +36180,6 @@ trainerdata 385, "Dara & Dia"
 trainerdata 396, "Horton"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_JUGGLER
-    battletype SINGLE_BATTLE
     nummons 3
     item ITEM_NONE
     item ITEM_NONE
@@ -36368,7 +36227,6 @@ trainerdata 396, "Horton"
 trainerdata 399, "Lyle"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FIREBREATHER
-    battletype SINGLE_BATTLE
     nummons 3
     item ITEM_NONE
     item ITEM_NONE
@@ -36404,7 +36262,6 @@ trainerdata 399, "Lyle"
 trainerdata 415, "Jared"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_PSYCHIC_M
-    battletype SINGLE_BATTLE
     nummons 3
     item ITEM_NONE
     item ITEM_NONE
@@ -36452,7 +36309,6 @@ trainerdata 415, "Jared"
 trainerdata 416, "Jo & Zoe"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_TWINS
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -36489,7 +36345,6 @@ trainerdata 416, "Jo & Zoe"
 trainerdata 419, "Ellen"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_LASS
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -36518,7 +36373,6 @@ trainerdata 419, "Ellen"
 trainerdata 420, "Perry"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIRD_KEEPER_1
-    battletype SINGLE_BATTLE
     nummons 1
     item ITEM_NONE
     item ITEM_NONE
@@ -36540,7 +36394,6 @@ trainerdata 420, "Perry"
 trainerdata 421, "Bret"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIRD_KEEPER_1
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -36569,7 +36422,6 @@ trainerdata 421, "Bret"
 trainerdata 422, "Rodney"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_PSYCHIC_M
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -36598,7 +36450,6 @@ trainerdata 422, "Rodney"
 trainerdata 423, "Jeremy"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_POKEFAN_M
-    battletype SINGLE_BATTLE
     nummons 3
     item ITEM_NONE
     item ITEM_NONE
@@ -36634,7 +36485,6 @@ trainerdata 423, "Jeremy"
 trainerdata 424, "Colin"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_POKEFAN_M
-    battletype SINGLE_BATTLE
     nummons 1
     item ITEM_NONE
     item ITEM_NONE
@@ -36660,7 +36510,6 @@ trainerdata 424, "Colin"
 trainerdata 425, "Meg & Peg"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TWINS
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -36689,7 +36538,6 @@ trainerdata 425, "Meg & Peg"
 trainerdata 426, "Meg & Peg"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TWINS
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -36718,7 +36566,6 @@ trainerdata 426, "Meg & Peg"
 trainerdata 427, "Shirley"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEACHER
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -36747,7 +36594,6 @@ trainerdata 427, "Shirley"
 trainerdata 428, "Nate"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SCHOOL_KID_M
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -36776,7 +36622,6 @@ trainerdata 428, "Nate"
 trainerdata 429, "Ricky"
     trainermontype TRAINER_DATA_TYPE_ITEMS
     trainerclass CLASS_SCHOOL_KID_M
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -36807,7 +36652,6 @@ trainerdata 429, "Ricky"
 trainerdata 489, "Silver"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_RIVAL
-    battletype SINGLE_BATTLE
     nummons 6
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
@@ -36888,7 +36732,6 @@ trainerdata 489, "Silver"
 trainerdata 490, "Silver"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_RIVAL
-    battletype SINGLE_BATTLE
     nummons 6
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
@@ -36969,7 +36812,6 @@ trainerdata 490, "Silver"
 trainerdata 491, "Silver"
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_RIVAL
-    battletype SINGLE_BATTLE
     nummons 6
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
@@ -37056,7 +36898,6 @@ trainerdata 491, "Silver"
 trainerdata 492, "Alex"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_POKEFAN_M
-    battletype SINGLE_BATTLE
     nummons 3
     item ITEM_NONE
     item ITEM_NONE
@@ -37092,7 +36933,6 @@ trainerdata 492, "Alex"
 trainerdata 504, "Mickey"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SCHOOL_KID_M
-    battletype SINGLE_BATTLE
     nummons 3
     item ITEM_NONE
     item ITEM_NONE
@@ -37140,7 +36980,6 @@ trainerdata 504, "Mickey"
 trainerdata 506, "Mickey"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SCHOOL_KID_M
-    battletype SINGLE_BATTLE
     nummons 4
     item ITEM_NONE
     item ITEM_NONE
@@ -37199,7 +37038,6 @@ trainerdata 506, "Mickey"
 trainerdata 508, "Mickey"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SCHOOL_KID_M
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -37236,7 +37074,6 @@ trainerdata 508, "Mickey"
 trainerdata 511, "Mickey"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_YOUNGSTER
-    battletype SINGLE_BATTLE
     nummons 1
     item ITEM_NONE
     item ITEM_NONE
@@ -37262,7 +37099,6 @@ trainerdata 511, "Mickey"
 trainerdata 514, "Mickey"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_BUG_CATCHER
-    battletype SINGLE_BATTLE
     nummons 1
     item ITEM_NONE
     item ITEM_NONE
@@ -37288,7 +37124,6 @@ trainerdata 514, "Mickey"
 trainerdata 516, "Mickey"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_FISHERMAN
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -37325,7 +37160,6 @@ trainerdata 516, "Mickey"
 trainerdata 519, "Mickey"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_PICNICKER
-    battletype SINGLE_BATTLE
     nummons 3
     item ITEM_NONE
     item ITEM_NONE
@@ -37373,7 +37207,6 @@ trainerdata 519, "Mickey"
 trainerdata 521, "Mickey"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_PICNICKER
-    battletype SINGLE_BATTLE
     nummons 3
     item ITEM_NONE
     item ITEM_NONE
@@ -37421,7 +37254,6 @@ trainerdata 521, "Mickey"
 trainerdata 524, "Mickey"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_HIKER
-    battletype SINGLE_BATTLE
     nummons 3
     item ITEM_NONE
     item ITEM_NONE
@@ -37469,7 +37301,6 @@ trainerdata 524, "Mickey"
 trainerdata 526, "Mickey"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_CAMPER
-    battletype SINGLE_BATTLE
     nummons 4
     item ITEM_NONE
     item ITEM_NONE
@@ -37528,7 +37359,6 @@ trainerdata 526, "Mickey"
 trainerdata 529, "Mickey"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_LASS
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -37565,7 +37395,6 @@ trainerdata 529, "Mickey"
 trainerdata 531, "Mickey"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_TWINS
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -37602,7 +37431,6 @@ trainerdata 531, "Mickey"
 trainerdata 532, "Mickey"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_BUG_CATCHER
-    battletype SINGLE_BATTLE
     nummons 4
     item ITEM_NONE
     item ITEM_NONE
@@ -37661,7 +37489,6 @@ trainerdata 532, "Mickey"
 trainerdata 533, "Wayne"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BUG_CATCHER
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -37690,7 +37517,6 @@ trainerdata 533, "Wayne"
 trainerdata 534, "Kimberly"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BEAUTY
-    battletype SINGLE_BATTLE
     nummons 1
     item ITEM_NONE
     item ITEM_NONE
@@ -37712,7 +37538,6 @@ trainerdata 534, "Kimberly"
 trainerdata 535, "Marigold"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_POKEFAN_F
-    battletype SINGLE_BATTLE
     nummons 1
     item ITEM_NONE
     item ITEM_NONE
@@ -37734,7 +37559,6 @@ trainerdata 535, "Marigold"
 trainerdata 536, "Bertrand"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_CAMPER
-    battletype SINGLE_BATTLE
     nummons 3
     item ITEM_NONE
     item ITEM_NONE
@@ -37770,7 +37594,6 @@ trainerdata 536, "Bertrand"
 trainerdata 540, "Rex"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_POKEFAN_M
-    battletype SINGLE_BATTLE
     nummons 1
     item ITEM_NONE
     item ITEM_NONE
@@ -37792,7 +37615,6 @@ trainerdata 540, "Rex"
 trainerdata 541, "Andy"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_POKEFAN_M
-    battletype SINGLE_BATTLE
     nummons 1
     item ITEM_NONE
     item ITEM_NONE
@@ -37814,7 +37636,6 @@ trainerdata 541, "Andy"
 trainerdata 542, "Mickey"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SAGE
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -37851,7 +37672,6 @@ trainerdata 542, "Mickey"
 trainerdata 543, "Mickey"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SAGE
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -37888,7 +37708,6 @@ trainerdata 543, "Mickey"
 trainerdata 544, "Mickey"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SAGE
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -37925,7 +37744,6 @@ trainerdata 544, "Mickey"
 trainerdata 545, "French"
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_ACE_TRAINER_M
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_DIRE_HIT
     item ITEM_NONE
@@ -37964,7 +37782,6 @@ trainerdata 545, "French"
 trainerdata 546, "Sherman"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SCHOOL_KID_M
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -38001,7 +37818,6 @@ trainerdata 546, "Sherman"
 trainerdata 547, "Bruce"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_HIKER
-    battletype SINGLE_BATTLE
     nummons 3
     item ITEM_NONE
     item ITEM_NONE
@@ -38037,7 +37853,6 @@ trainerdata 547, "Bruce"
 trainerdata 548, "Manford"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_BLACK_BELT
-    battletype SINGLE_BATTLE
     nummons 1
     item ITEM_NONE
     item ITEM_NONE
@@ -38063,7 +37878,6 @@ trainerdata 548, "Manford"
 trainerdata 549, "Zac & Jen"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_DOUBLE_TEAM
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -38100,7 +37914,6 @@ trainerdata 549, "Zac & Jen"
 trainerdata 550, "Ander"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BLACK_BELT
-    battletype SINGLE_BATTLE
     nummons 3
     item ITEM_NONE
     item ITEM_NONE
@@ -38136,7 +37949,6 @@ trainerdata 550, "Ander"
 trainerdata 551, "Dwight"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_HIKER
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -38165,7 +37977,6 @@ trainerdata 551, "Dwight"
 trainerdata 552, "Regis"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_YOUNGSTER
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -38194,7 +38005,6 @@ trainerdata 552, "Regis"
 trainerdata 553, "Moe & Lulu"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_YOUNG_COUPLE
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -38223,7 +38033,6 @@ trainerdata 553, "Moe & Lulu"
 trainerdata 554, "Milton"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_GENTLEMAN
-    battletype SINGLE_BATTLE
     nummons 1
     item ITEM_FULL_RESTORE
     item ITEM_NONE
@@ -38245,7 +38054,6 @@ trainerdata 554, "Milton"
 trainerdata 555, "Justin"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIRD_KEEPER_1
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -38274,7 +38082,6 @@ trainerdata 555, "Justin"
 trainerdata 556, "Gail"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIRD_KEEPER_1
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -38303,7 +38110,6 @@ trainerdata 556, "Gail"
 trainerdata 557, "Vic & Tara"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_YOUNG_COUPLE
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -38340,7 +38146,6 @@ trainerdata 557, "Vic & Tara"
 trainerdata 558, "Kyler"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FISHERMAN
-    battletype SINGLE_BATTLE
     nummons 3
     item ITEM_NONE
     item ITEM_NONE
@@ -38376,7 +38181,6 @@ trainerdata 558, "Kyler"
 trainerdata 559, "Tim & Sue"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_YOUNG_COUPLE
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -38405,7 +38209,6 @@ trainerdata 559, "Tim & Sue"
 trainerdata 560, "Clark"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_CAMPER
-    battletype SINGLE_BATTLE
     nummons 1
     item ITEM_NONE
     item ITEM_NONE
@@ -38427,7 +38230,6 @@ trainerdata 560, "Clark"
 trainerdata 561, "Tanner"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_CAMPER
-    battletype SINGLE_BATTLE
     nummons 1
     item ITEM_NONE
     item ITEM_NONE
@@ -38449,7 +38251,6 @@ trainerdata 561, "Tanner"
 trainerdata 562, "Piper"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_PICNICKER
-    battletype SINGLE_BATTLE
     nummons 1
     item ITEM_NONE
     item ITEM_NONE
@@ -38471,7 +38272,6 @@ trainerdata 562, "Piper"
 trainerdata 563, "Ginger"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_PICNICKER
-    battletype SINGLE_BATTLE
     nummons 1
     item ITEM_NONE
     item ITEM_NONE
@@ -38493,7 +38293,6 @@ trainerdata 563, "Ginger"
 trainerdata 564, "Clarice"
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_TEACHER
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -38532,7 +38331,6 @@ trainerdata 564, "Clarice"
 trainerdata 565, "Josh"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIRD_KEEPER_1
-    battletype SINGLE_BATTLE
     nummons 1
     item ITEM_NONE
     item ITEM_NONE
@@ -38554,7 +38352,6 @@ trainerdata 565, "Josh"
 trainerdata 566, "Connor"
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SCHOOL_KID_M
-    battletype SINGLE_BATTLE
     nummons 1
     item ITEM_NONE
     item ITEM_NONE
@@ -38581,7 +38378,6 @@ trainerdata 566, "Connor"
 trainerdata 567, "Torin"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SCHOOL_KID_M
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -38610,7 +38406,6 @@ trainerdata 567, "Torin"
 trainerdata 568, "Travis"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SCHOOL_KID_M
-    battletype SINGLE_BATTLE
     nummons 1
     item ITEM_NONE
     item ITEM_NONE
@@ -38636,7 +38431,6 @@ trainerdata 568, "Travis"
 trainerdata 569, "Kay & Tia"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_TWINS
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -38673,7 +38467,6 @@ trainerdata 569, "Kay & Tia"
 trainerdata 570, "Boone"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_POKEFAN_M
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -38702,7 +38495,6 @@ trainerdata 570, "Boone"
 trainerdata 571, "Eleanor"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_POKEFAN_F
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -38731,7 +38523,6 @@ trainerdata 571, "Eleanor"
 trainerdata 572, "Dale"
     trainermontype TRAINER_DATA_TYPE_ITEMS
     trainerclass CLASS_BIKER
-    battletype SINGLE_BATTLE
     nummons 1
     item ITEM_NONE
     item ITEM_NONE
@@ -38754,7 +38545,6 @@ trainerdata 572, "Dale"
 trainerdata 573, "Jacob"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIKER
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -38783,7 +38573,6 @@ trainerdata 573, "Jacob"
 trainerdata 574, "Aiden"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIKER
-    battletype SINGLE_BATTLE
     nummons 1
     item ITEM_NONE
     item ITEM_NONE
@@ -38805,7 +38594,6 @@ trainerdata 574, "Aiden"
 trainerdata 575, "Dan"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIKER
-    battletype SINGLE_BATTLE
     nummons 3
     item ITEM_NONE
     item ITEM_NONE
@@ -38841,7 +38629,6 @@ trainerdata 575, "Dan"
 trainerdata 576, "Theron"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIKER
-    battletype SINGLE_BATTLE
     nummons 1
     item ITEM_NONE
     item ITEM_NONE
@@ -38863,7 +38650,6 @@ trainerdata 576, "Theron"
 trainerdata 577, "Markey"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIKER
-    battletype SINGLE_BATTLE
     nummons 1
     item ITEM_NONE
     item ITEM_NONE
@@ -38885,7 +38671,6 @@ trainerdata 577, "Markey"
 trainerdata 578, "Teddy"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIKER
-    battletype SINGLE_BATTLE
     nummons 1
     item ITEM_NONE
     item ITEM_NONE
@@ -38907,7 +38692,6 @@ trainerdata 578, "Teddy"
 trainerdata 579, "Ernest"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIKER
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -38936,7 +38720,6 @@ trainerdata 579, "Ernest"
 trainerdata 580, "Pedro"
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_CAMPER
-    battletype SINGLE_BATTLE
     nummons 1
     item ITEM_NONE
     item ITEM_NONE
@@ -38963,7 +38746,6 @@ trainerdata 580, "Pedro"
 trainerdata 581, "Adrian"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_PICNICKER
-    battletype SINGLE_BATTLE
     nummons 1
     item ITEM_NONE
     item ITEM_NONE
@@ -38985,7 +38767,6 @@ trainerdata 581, "Adrian"
 trainerdata 582, "Cheyenne"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_PICNICKER
-    battletype SINGLE_BATTLE
     nummons 1
     item ITEM_NONE
     item ITEM_NONE
@@ -39007,7 +38788,6 @@ trainerdata 582, "Cheyenne"
 trainerdata 583, "Bert"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIRD_KEEPER_1
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -39036,7 +38816,6 @@ trainerdata 583, "Bert"
 trainerdata 584, "Ernie"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIRD_KEEPER_1
-    battletype SINGLE_BATTLE
     nummons 1
     item ITEM_NONE
     item ITEM_NONE
@@ -39058,7 +38837,6 @@ trainerdata 584, "Ernie"
 trainerdata 585, "Elmo"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SWIMMER_M
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -39087,7 +38865,6 @@ trainerdata 585, "Elmo"
 trainerdata 586, "Luis"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SWIMMER_M
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -39116,7 +38893,6 @@ trainerdata 586, "Luis"
 trainerdata 587, "Leona"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SWIMMER_F
-    battletype SINGLE_BATTLE
     nummons 1
     item ITEM_NONE
     item ITEM_NONE
@@ -39138,7 +38914,6 @@ trainerdata 587, "Leona"
 trainerdata 588, "Mina"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SWIMMER_F
-    battletype SINGLE_BATTLE
     nummons 3
     item ITEM_NONE
     item ITEM_NONE
@@ -39174,7 +38949,6 @@ trainerdata 588, "Mina"
 trainerdata 589, "Murphy"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FISHERMAN
-    battletype SINGLE_BATTLE
     nummons 4
     item ITEM_NONE
     item ITEM_NONE
@@ -39217,7 +38991,6 @@ trainerdata 589, "Murphy"
 trainerdata 590, "Liam"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FISHERMAN
-    battletype SINGLE_BATTLE
     nummons 1
     item ITEM_NONE
     item ITEM_NONE
@@ -39239,7 +39012,6 @@ trainerdata 590, "Liam"
 trainerdata 591, "Gideon"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_FISHERMAN
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -39276,7 +39048,6 @@ trainerdata 591, "Gideon"
 trainerdata 592, "Chelan"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SWIMMER_F
-    battletype SINGLE_BATTLE
     nummons 1
     item ITEM_NONE
     item ITEM_NONE
@@ -39302,7 +39073,6 @@ trainerdata 592, "Chelan"
 trainerdata 593, "Kendra"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SWIMMER_F
-    battletype SINGLE_BATTLE
     nummons 1
     item ITEM_NONE
     item ITEM_NONE
@@ -39324,7 +39094,6 @@ trainerdata 593, "Kendra"
 trainerdata 594, "Esteban"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SWIMMER_M
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -39353,7 +39122,6 @@ trainerdata 594, "Esteban"
 trainerdata 595, "Duane"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SWIMMER_M
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -39382,7 +39150,6 @@ trainerdata 595, "Duane"
 trainerdata 596, "Kinsley"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIRD_KEEPER_1
-    battletype SINGLE_BATTLE
     nummons 3
     item ITEM_NONE
     item ITEM_NONE
@@ -39418,7 +39185,6 @@ trainerdata 596, "Kinsley"
 trainerdata 597, "Easton"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIRD_KEEPER_1
-    battletype SINGLE_BATTLE
     nummons 4
     item ITEM_NONE
     item ITEM_NONE
@@ -39461,7 +39227,6 @@ trainerdata 597, "Easton"
 trainerdata 598, "Day & Dani"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TWINS
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -39490,7 +39255,6 @@ trainerdata 598, "Day & Dani"
 trainerdata 599, "Virgil"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_CAMPER
-    battletype SINGLE_BATTLE
     nummons 1
     item ITEM_NONE
     item ITEM_NONE
@@ -39512,7 +39276,6 @@ trainerdata 599, "Virgil"
 trainerdata 600, "Selina"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_PICNICKER
-    battletype SINGLE_BATTLE
     nummons 1
     item ITEM_NONE
     item ITEM_NONE
@@ -39534,7 +39297,6 @@ trainerdata 600, "Selina"
 trainerdata 622, "Doug"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BUG_CATCHER
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -39563,7 +39325,6 @@ trainerdata 622, "Doug"
 trainerdata 623, "Doug"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BUG_CATCHER
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -39592,7 +39353,6 @@ trainerdata 623, "Doug"
 trainerdata 624, "Doug"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BUG_CATCHER
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -39621,7 +39381,6 @@ trainerdata 624, "Doug"
 trainerdata 625, "Rob"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BUG_CATCHER
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -39650,7 +39409,6 @@ trainerdata 625, "Rob"
 trainerdata 626, "Rob"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BUG_CATCHER
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -39679,7 +39437,6 @@ trainerdata 626, "Rob"
 trainerdata 627, "Rob"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BUG_CATCHER
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -39708,7 +39465,6 @@ trainerdata 627, "Rob"
 trainerdata 628, "Reese"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_BIKER
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -39745,7 +39501,6 @@ trainerdata 628, "Reese"
 trainerdata 629, "Reese"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_BIKER
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -39782,7 +39537,6 @@ trainerdata 629, "Reese"
 trainerdata 630, "Reese"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_BIKER
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -39819,7 +39573,6 @@ trainerdata 630, "Reese"
 trainerdata 631, "Aiden"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIKER
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -39848,7 +39601,6 @@ trainerdata 631, "Aiden"
 trainerdata 632, "Aiden"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIKER
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -39877,7 +39629,6 @@ trainerdata 632, "Aiden"
 trainerdata 633, "Aiden"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIKER
-    battletype SINGLE_BATTLE
     nummons 3
     item ITEM_NONE
     item ITEM_NONE
@@ -39913,7 +39664,6 @@ trainerdata 633, "Aiden"
 trainerdata 634, "Ernest"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIKER
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -39942,7 +39692,6 @@ trainerdata 634, "Ernest"
 trainerdata 635, "Ernest"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIKER
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -39971,7 +39720,6 @@ trainerdata 635, "Ernest"
 trainerdata 636, "Ernest"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIKER
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -40000,7 +39748,6 @@ trainerdata 636, "Ernest"
 trainerdata 637, "Hillary"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEACHER
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -40029,7 +39776,6 @@ trainerdata 637, "Hillary"
 trainerdata 638, "Hillary"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEACHER
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -40058,7 +39804,6 @@ trainerdata 638, "Hillary"
 trainerdata 639, "Hillary"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TEACHER
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -40087,7 +39832,6 @@ trainerdata 639, "Hillary"
 trainerdata 640, "Billy"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SCHOOL_KID_M
-    battletype SINGLE_BATTLE
     nummons 3
     item ITEM_NONE
     item ITEM_NONE
@@ -40123,7 +39867,6 @@ trainerdata 640, "Billy"
 trainerdata 641, "Billy"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SCHOOL_KID_M
-    battletype SINGLE_BATTLE
     nummons 3
     item ITEM_NONE
     item ITEM_NONE
@@ -40159,7 +39902,6 @@ trainerdata 641, "Billy"
 trainerdata 642, "Billy"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SCHOOL_KID_M
-    battletype SINGLE_BATTLE
     nummons 4
     item ITEM_NONE
     item ITEM_NONE
@@ -40218,7 +39960,6 @@ trainerdata 642, "Billy"
 trainerdata 643, "Kay & Tia"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_TWINS
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -40255,7 +39996,6 @@ trainerdata 643, "Kay & Tia"
 trainerdata 644, "Kay & Tia"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_TWINS
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -40292,7 +40032,6 @@ trainerdata 644, "Kay & Tia"
 trainerdata 645, "Kay & Tia"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_TWINS
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -40329,7 +40068,6 @@ trainerdata 645, "Kay & Tia"
 trainerdata 646, "Josh"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIRD_KEEPER_1
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -40358,7 +40096,6 @@ trainerdata 646, "Josh"
 trainerdata 647, "Josh"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIRD_KEEPER_1
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -40387,7 +40124,6 @@ trainerdata 647, "Josh"
 trainerdata 648, "Josh"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BIRD_KEEPER_1
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -40416,7 +40152,6 @@ trainerdata 648, "Josh"
 trainerdata 649, "Torin"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SCHOOL_KID_M
-    battletype SINGLE_BATTLE
     nummons 3
     item ITEM_NONE
     item ITEM_NONE
@@ -40452,7 +40187,6 @@ trainerdata 649, "Torin"
 trainerdata 650, "Torin"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SCHOOL_KID_M
-    battletype SINGLE_BATTLE
     nummons 3
     item ITEM_NONE
     item ITEM_NONE
@@ -40488,7 +40222,6 @@ trainerdata 650, "Torin"
 trainerdata 651, "Torin"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SCHOOL_KID_M
-    battletype SINGLE_BATTLE
     nummons 3
     item ITEM_NONE
     item ITEM_NONE
@@ -40524,7 +40257,6 @@ trainerdata 651, "Torin"
 trainerdata 652, "Tim & Sue"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_YOUNG_COUPLE
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -40553,7 +40285,6 @@ trainerdata 652, "Tim & Sue"
 trainerdata 653, "Tim & Sue"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_YOUNG_COUPLE
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -40590,7 +40321,6 @@ trainerdata 653, "Tim & Sue"
 trainerdata 654, "Tim & Sue"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_YOUNG_COUPLE
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -40627,7 +40357,6 @@ trainerdata 654, "Tim & Sue"
 trainerdata 655, "Kenny"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_HIKER
-    battletype SINGLE_BATTLE
     nummons 4
     item ITEM_NONE
     item ITEM_NONE
@@ -40670,7 +40399,6 @@ trainerdata 655, "Kenny"
 trainerdata 656, "Kenny"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_HIKER
-    battletype SINGLE_BATTLE
     nummons 4
     item ITEM_NONE
     item ITEM_NONE
@@ -40713,7 +40441,6 @@ trainerdata 656, "Kenny"
 trainerdata 657, "Kenny"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_HIKER
-    battletype SINGLE_BATTLE
     nummons 4
     item ITEM_NONE
     item ITEM_NONE
@@ -40756,7 +40483,6 @@ trainerdata 657, "Kenny"
 trainerdata 658, "Tanner"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_CAMPER
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -40785,7 +40511,6 @@ trainerdata 658, "Tanner"
 trainerdata 659, "Tanner"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_CAMPER
-    battletype SINGLE_BATTLE
     nummons 3
     item ITEM_NONE
     item ITEM_NONE
@@ -40821,7 +40546,6 @@ trainerdata 659, "Tanner"
 trainerdata 660, "Tanner"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_CAMPER
-    battletype SINGLE_BATTLE
     nummons 3
     item ITEM_NONE
     item ITEM_NONE
@@ -40857,7 +40581,6 @@ trainerdata 660, "Tanner"
 trainerdata 661, "Kyle"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FISHERMAN
-    battletype SINGLE_BATTLE
     nummons 3
     item ITEM_NONE
     item ITEM_NONE
@@ -40893,7 +40616,6 @@ trainerdata 661, "Kyle"
 trainerdata 662, "Kyle"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FISHERMAN
-    battletype SINGLE_BATTLE
     nummons 4
     item ITEM_NONE
     item ITEM_NONE
@@ -40936,7 +40658,6 @@ trainerdata 662, "Kyle"
 trainerdata 663, "Kyle"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FISHERMAN
-    battletype SINGLE_BATTLE
     nummons 4
     item ITEM_NONE
     item ITEM_NONE
@@ -40979,7 +40700,6 @@ trainerdata 663, "Kyle"
 trainerdata 664, "Kyler"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FISHERMAN
-    battletype SINGLE_BATTLE
     nummons 4
     item ITEM_NONE
     item ITEM_NONE
@@ -41022,7 +40742,6 @@ trainerdata 664, "Kyler"
 trainerdata 665, "Kyler"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FISHERMAN
-    battletype SINGLE_BATTLE
     nummons 5
     item ITEM_NONE
     item ITEM_NONE
@@ -41072,7 +40791,6 @@ trainerdata 665, "Kyler"
 trainerdata 666, "Kyler"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FISHERMAN
-    battletype SINGLE_BATTLE
     nummons 6
     item ITEM_NONE
     item ITEM_NONE
@@ -41129,7 +40847,6 @@ trainerdata 666, "Kyler"
 trainerdata 667, "Cheryl"
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_PKMN_TRAINER_2
-    battletype SINGLE_BATTLE
     nummons 5
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
@@ -41204,7 +40921,6 @@ trainerdata 667, "Cheryl"
 trainerdata 668, "Marley"
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_PKMN_TRAINER_4
-    battletype SINGLE_BATTLE
     nummons 5
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
@@ -41279,7 +40995,6 @@ trainerdata 668, "Marley"
 trainerdata 669, "Mira"
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_PKMN_TRAINER_6
-    battletype SINGLE_BATTLE
     nummons 5
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
@@ -41354,7 +41069,6 @@ trainerdata 669, "Mira"
 trainerdata 670, "Riley"
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_PKMN_TRAINER_3
-    battletype SINGLE_BATTLE
     nummons 5
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
@@ -41429,7 +41143,6 @@ trainerdata 670, "Riley"
 trainerdata 671, "Buck"
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_PKMN_TRAINER_5
-    battletype SINGLE_BATTLE
     nummons 5
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
@@ -41504,7 +41217,6 @@ trainerdata 671, "Buck"
 trainerdata 676, "Parker"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SAILOR
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -41541,7 +41253,6 @@ trainerdata 676, "Parker"
 trainerdata 677, "Eddie"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SAILOR
-    battletype SINGLE_BATTLE
     nummons 1
     item ITEM_NONE
     item ITEM_NONE
@@ -41567,7 +41278,6 @@ trainerdata 677, "Eddie"
 trainerdata 678, "Joy"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SWIMMER_F
-    battletype SINGLE_BATTLE
     nummons 1
     item ITEM_NONE
     item ITEM_NONE
@@ -41593,7 +41303,6 @@ trainerdata 678, "Joy"
 trainerdata 681, "Arabella"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_ACE_TRAINER_M
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -41630,7 +41339,6 @@ trainerdata 681, "Arabella"
 trainerdata 682, "Bonita"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_ACE_TRAINER_M
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -41667,7 +41375,6 @@ trainerdata 682, "Bonita"
 trainerdata 683, "Salma"
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_ACE_TRAINER_F
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -41706,7 +41413,6 @@ trainerdata 683, "Salma"
 trainerdata 684, "Elan & Ida"
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_DOUBLE_TEAM
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -41745,7 +41451,6 @@ trainerdata 684, "Elan & Ida"
 trainerdata 685, "Edwin"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_HIKER
-    battletype SINGLE_BATTLE
     nummons 1
     item ITEM_NONE
     item ITEM_NONE
@@ -41771,7 +41476,6 @@ trainerdata 685, "Edwin"
 trainerdata 686, "Bryce"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BOARDER
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -41800,7 +41504,6 @@ trainerdata 686, "Bryce"
 trainerdata 687, "Shaun"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BOARDER
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -41829,7 +41532,6 @@ trainerdata 687, "Shaun"
 trainerdata 688, "Cady"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_SKIER
-    battletype SINGLE_BATTLE
     nummons 1
     item ITEM_NONE
     item ITEM_NONE
@@ -41851,7 +41553,6 @@ trainerdata 688, "Cady"
 trainerdata 689, "Cary"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SUPER_NERD
-    battletype SINGLE_BATTLE
     nummons 1
     item ITEM_NONE
     item ITEM_NONE
@@ -41877,7 +41578,6 @@ trainerdata 689, "Cary"
 trainerdata 690, "Waldo"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SUPER_NERD
-    battletype SINGLE_BATTLE
     nummons 1
     item ITEM_NONE
     item ITEM_NONE
@@ -41903,7 +41603,6 @@ trainerdata 690, "Waldo"
 trainerdata 691, "Merle"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SUPER_NERD
-    battletype SINGLE_BATTLE
     nummons 1
     item ITEM_NONE
     item ITEM_NONE
@@ -41929,7 +41628,6 @@ trainerdata 691, "Merle"
 trainerdata 692, "Lowell"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SCIENTIST_1
-    battletype SINGLE_BATTLE
     nummons 1
     item ITEM_NONE
     item ITEM_NONE
@@ -41955,7 +41653,6 @@ trainerdata 692, "Lowell"
 trainerdata 693, "Linden"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SCIENTIST_1
-    battletype SINGLE_BATTLE
     nummons 1
     item ITEM_NONE
     item ITEM_NONE
@@ -41981,7 +41678,6 @@ trainerdata 693, "Linden"
 trainerdata 694, "Daniel"
     trainermontype TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_SCIENTIST_1
-    battletype SINGLE_BATTLE
     nummons 1
     item ITEM_NONE
     item ITEM_NONE
@@ -42007,7 +41703,6 @@ trainerdata 694, "Daniel"
 trainerdata 695, "Dane"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BUG_CATCHER
-    battletype SINGLE_BATTLE
     nummons 2
     item ITEM_NONE
     item ITEM_NONE
@@ -42036,7 +41731,6 @@ trainerdata 695, "Dane"
 trainerdata 696, "Dion"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BUG_CATCHER
-    battletype SINGLE_BATTLE
     nummons 1
     item ITEM_NONE
     item ITEM_NONE
@@ -42058,7 +41752,6 @@ trainerdata 696, "Dion"
 trainerdata 697, "Stacey"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BUG_CATCHER
-    battletype SINGLE_BATTLE
     nummons 3
     item ITEM_NONE
     item ITEM_NONE
@@ -42094,7 +41787,6 @@ trainerdata 697, "Stacey"
 trainerdata 698, "Ellis"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BUG_CATCHER
-    battletype SINGLE_BATTLE
     nummons 3
     item ITEM_NONE
     item ITEM_NONE
@@ -42130,7 +41822,6 @@ trainerdata 698, "Ellis"
 trainerdata 699, "Abner"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_BUG_CATCHER
-    battletype SINGLE_BATTLE
     nummons 3
     item ITEM_NONE
     item ITEM_NONE
@@ -42166,7 +41857,6 @@ trainerdata 699, "Abner"
 trainerdata 701, "Lance"
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_CHAMPION
-    battletype SINGLE_BATTLE
     nummons 6
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
@@ -42253,7 +41943,6 @@ trainerdata 701, "Lance"
 trainerdata 702, "Will"
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_ELITE_FOUR_0
-    battletype SINGLE_BATTLE
     nummons 6
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
@@ -42340,7 +42029,6 @@ trainerdata 702, "Will"
 trainerdata 703, "Koga"
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_ELITE_FOUR_2
-    battletype SINGLE_BATTLE
     nummons 6
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
@@ -42427,7 +42115,6 @@ trainerdata 703, "Koga"
 trainerdata 704, "Bruno"
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_ELITE_FOUR_3
-    battletype SINGLE_BATTLE
     nummons 6
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
@@ -42514,7 +42201,6 @@ trainerdata 704, "Bruno"
 trainerdata 705, "Karen"
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_ELITE_FOUR_1
-    battletype SINGLE_BATTLE
     nummons 6
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
@@ -42601,7 +42287,6 @@ trainerdata 705, "Karen"
 trainerdata 707, "Palmer"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_TOWER_TYCOON
-    battletype SINGLE_BATTLE
     nummons 1
     item ITEM_NONE
     item ITEM_NONE
@@ -42623,7 +42308,6 @@ trainerdata 707, "Palmer"
 trainerdata 708, "Argenta"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_HALL_MATRON
-    battletype SINGLE_BATTLE
     nummons 1
     item ITEM_NONE
     item ITEM_NONE
@@ -42645,7 +42329,6 @@ trainerdata 708, "Argenta"
 trainerdata 709, "Thorton"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_FACTORY_HEAD
-    battletype SINGLE_BATTLE
     nummons 1
     item ITEM_NONE
     item ITEM_NONE
@@ -42667,7 +42350,6 @@ trainerdata 709, "Thorton"
 trainerdata 710, "Dahlia"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_ARCADE_STAR
-    battletype SINGLE_BATTLE
     nummons 1
     item ITEM_NONE
     item ITEM_NONE
@@ -42689,7 +42371,6 @@ trainerdata 710, "Dahlia"
 trainerdata 711, "Darach"
     trainermontype TRAINER_DATA_TYPE_NOTHING
     trainerclass CLASS_CASTLE_VALET
-    battletype SINGLE_BATTLE
     nummons 1
     item ITEM_NONE
     item ITEM_NONE
@@ -42711,7 +42392,6 @@ trainerdata 711, "Darach"
 trainerdata 720, "Brock"
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_LEADER_5
-    battletype SINGLE_BATTLE
     nummons 6
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
@@ -42798,7 +42478,6 @@ trainerdata 720, "Brock"
 trainerdata 721, "Misty"
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_LEADER_6
-    battletype SINGLE_BATTLE
     nummons 6
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
@@ -42885,7 +42564,6 @@ trainerdata 721, "Misty"
 trainerdata 722, "Lt. Surge"
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_LEADER_7
-    battletype SINGLE_BATTLE
     nummons 6
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
@@ -42972,7 +42650,6 @@ trainerdata 722, "Lt. Surge"
 trainerdata 723, "Erika"
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_LEADER_8
-    battletype SINGLE_BATTLE
     nummons 6
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
@@ -43059,7 +42736,6 @@ trainerdata 723, "Erika"
 trainerdata 724, "Janine"
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_LEADER_9
-    battletype SINGLE_BATTLE
     nummons 6
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
@@ -43146,7 +42822,6 @@ trainerdata 724, "Janine"
 trainerdata 725, "Sabrina"
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_LEADER_10
-    battletype SINGLE_BATTLE
     nummons 6
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
@@ -43233,7 +42908,6 @@ trainerdata 725, "Sabrina"
 trainerdata 726, "Blaine"
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_LEADER_11
-    battletype SINGLE_BATTLE
     nummons 6
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
@@ -43320,7 +42994,6 @@ trainerdata 726, "Blaine"
 trainerdata 727, "Blue"
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_LEADER_12
-    battletype SINGLE_BATTLE
     nummons 6
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
@@ -43407,7 +43080,6 @@ trainerdata 727, "Blue"
 trainerdata 733, "Lance"
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_CHAMPION
-    battletype SINGLE_BATTLE
     nummons 3
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
@@ -43458,7 +43130,6 @@ trainerdata 733, "Lance"
 trainerdata 734, "Clair"
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_LEADER_4
-    battletype SINGLE_BATTLE
     nummons 3
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
@@ -43509,7 +43180,6 @@ trainerdata 734, "Clair"
 trainerdata 735, "Silver"
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_RIVAL
-    battletype SINGLE_BATTLE
     nummons 3
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
@@ -43560,7 +43230,6 @@ trainerdata 735, "Silver"
 trainerdata 736, "Silver"
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_RIVAL
-    battletype SINGLE_BATTLE
     nummons 3
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE
@@ -43611,7 +43280,6 @@ trainerdata 736, "Silver"
 trainerdata 737, "Silver"
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES
     trainerclass CLASS_RIVAL
-    battletype SINGLE_BATTLE
     nummons 3
     item ITEM_FULL_RESTORE
     item ITEM_FULL_RESTORE

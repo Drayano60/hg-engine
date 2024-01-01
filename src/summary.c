@@ -201,7 +201,13 @@ u16 ModifyStatByNature(u32 nature, u16 n, u8 statIndex) {
         nature = GetBoxMonNatureCountMints(&((struct PartyPokemon *)nature)->box);
     }
 
-    switch (sNatureStatEffects[nature][statIndex - 1]) {
+    if (statIndex == 3) {
+        statIndex = 5;
+    } else if (statIndex > 3) {
+        statIndex = statIndex - 1;
+    }
+
+    switch (sNatureStatEffects[nature][statIndex]) {
     case 1:
         // NOTE: will overflow for n > 595 because the intermediate value is cast to u16 before the division.
         retVal = n * 110;

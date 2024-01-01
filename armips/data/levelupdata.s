@@ -5056,7 +5056,7 @@ levelup SPECIES_TOTODILE
     learnset MOVE_WATER_GUN, 3
     learnset MOVE_BITE, 6
     learnset MOVE_RAGE, 9
-    learnset MOVE_DIVE, 12
+    learnset MOVE_AQUA_JET, 12
     learnset MOVE_ICE_FANG, 15
     learnset MOVE_FLAIL, 18
     learnset MOVE_SLASH, 22
@@ -5076,9 +5076,9 @@ levelup SPECIES_CROCONAW
     learnset MOVE_WATER_GUN, 3
     learnset MOVE_BITE, 6
     learnset MOVE_RAGE, 9
-    learnset MOVE_DIVE, 12
+    learnset MOVE_AQUA_JET, 12
     learnset MOVE_ICE_FANG, 15
-    learnset MOVE_AQUA_JET, 18
+    learnset MOVE_DIVE, 18
     learnset MOVE_FLAIL, 20
     learnset MOVE_SLASH, 24
     learnset MOVE_CRUNCH, 28
@@ -5102,9 +5102,9 @@ levelup SPECIES_FERALIGATR
     learnset MOVE_WATER_GUN, 3
     learnset MOVE_BITE, 6
     learnset MOVE_RAGE, 9
-    learnset MOVE_DIVE, 12
+    learnset MOVE_AQUA_JET, 12
     learnset MOVE_ICE_FANG, 15
-    learnset MOVE_AQUA_JET, 18
+    learnset MOVE_DIVE, 18
     learnset MOVE_FLAIL, 20
     learnset MOVE_SLASH, 24
     learnset MOVE_CRUNCH, 28
@@ -5587,17 +5587,17 @@ levelup SPECIES_MARILL
     learnset MOVE_DEFENSE_CURL, 6
     learnset MOVE_BUBBLE_BEAM, 9
     learnset MOVE_ROLLOUT, 12
-    learnset MOVE_DIVE, 15
-    learnset MOVE_COVET, 19
-    learnset MOVE_AQUA_RING, 23
-    learnset MOVE_AQUA_TAIL, 27
-    learnset MOVE_BOUNCE, 31
-    learnset MOVE_PLAY_ROUGH, 35
-    learnset MOVE_RAIN_DANCE, 39
-    learnset MOVE_BELLY_DRUM, 43
-    learnset MOVE_DOUBLE_EDGE, 47
-    learnset MOVE_SUPERPOWER, 51
-    learnset MOVE_HYDRO_PUMP, 55
+    learnset MOVE_COVET, 15
+    learnset MOVE_DIVE, 20
+    learnset MOVE_AQUA_RING, 24
+    learnset MOVE_AQUA_TAIL, 28
+    learnset MOVE_BOUNCE, 32
+    learnset MOVE_PLAY_ROUGH, 36
+    learnset MOVE_RAIN_DANCE, 40
+    learnset MOVE_BELLY_DRUM, 44
+    learnset MOVE_DOUBLE_EDGE, 48
+    learnset MOVE_SUPERPOWER, 52
+    learnset MOVE_HYDRO_PUMP, 56
     terminatelearnset
 
 levelup SPECIES_AZUMARILL
@@ -5609,9 +5609,9 @@ levelup SPECIES_AZUMARILL
     learnset MOVE_DEFENSE_CURL, 6
     learnset MOVE_BUBBLE_BEAM, 9
     learnset MOVE_ROLLOUT, 12
-    learnset MOVE_DIVE, 15
+    learnset MOVE_COVET, 15
     learnset MOVE_AQUA_JET, 18
-    learnset MOVE_COVET, 22
+    learnset MOVE_DIVE, 22
     learnset MOVE_AQUA_RING, 26
     learnset MOVE_AQUA_TAIL, 30
     learnset MOVE_BOUNCE, 34
@@ -11350,8 +11350,8 @@ levelup SPECIES_BUIZEL
     learnset MOVE_QUICK_ATTACK, 6
     learnset MOVE_AQUA_JET, 9
     learnset MOVE_PURSUIT, 12
-    learnset MOVE_DIVE, 15
-    learnset MOVE_BITE, 18
+    learnset MOVE_BITE, 15
+    learnset MOVE_DIVE, 18
     learnset MOVE_SWIFT, 21
     learnset MOVE_DOUBLE_HIT, 24
     learnset MOVE_AGILITY, 27
@@ -11372,8 +11372,8 @@ levelup SPECIES_FLOATZEL
     learnset MOVE_QUICK_ATTACK, 6
     learnset MOVE_AQUA_JET, 9
     learnset MOVE_PURSUIT, 12
-    learnset MOVE_DIVE, 15
-    learnset MOVE_BITE, 18
+    learnset MOVE_BITE, 15
+    learnset MOVE_DIVE, 18
     learnset MOVE_SWIFT, 21
     learnset MOVE_DOUBLE_HIT, 24
     learnset MOVE_CRUNCH, 26
@@ -13035,9 +13035,9 @@ levelup SPECIES_PATRAT
     learnset MOVE_DETECT, 3
     learnset MOVE_BITE, 6
     learnset MOVE_BIDE, 9
-    learnset MOVE_WORK_UP, 12
-    learnset MOVE_HYPNOSIS, 15
-    learnset MOVE_HYPER_FANG, 18
+    learnset MOVE_HYPNOSIS, 12
+    learnset MOVE_HYPER_FANG, 15
+    learnset MOVE_WORK_UP, 18
     learnset MOVE_FOCUS_ENERGY, 21
     learnset MOVE_CRUNCH, 25
     learnset MOVE_SLAM, 29
@@ -13062,9 +13062,9 @@ levelup SPECIES_WATCHOG
     learnset MOVE_DETECT, 3
     learnset MOVE_BITE, 6
     learnset MOVE_BIDE, 9
-    learnset MOVE_WORK_UP, 12
-    learnset MOVE_HYPNOSIS, 15
-    learnset MOVE_HYPER_FANG, 18
+    learnset MOVE_HYPNOSIS, 12
+    learnset MOVE_HYPER_FANG, 15
+    learnset MOVE_WORK_UP, 18
     learnset MOVE_CONFUSE_RAY, 20
     learnset MOVE_FOCUS_ENERGY, 24
     learnset MOVE_CRUNCH, 28

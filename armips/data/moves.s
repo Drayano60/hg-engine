@@ -5734,16 +5734,13 @@ movedata MOVE_SECRET_POWER, "Secret Power"
     terminatedata
     movedescription MOVE_SECRET_POWER, "The user attacks with\na secret power. Its\nadded effects vary\ndepending on the\nuser’s environment."
 
-// EFFECT: Now a one-turn move.
-// POWER: 80 >> 60
-// PP: 10 >> 20
 movedata MOVE_DIVE, "Dive"
-    battleeffect 0
+    battleeffect 255
     pss SPLIT_PHYSICAL
-    basepower MOVE_CHANGES_IMPLEMENTED ? 60 : 80
+    basepower 80
     type TYPE_WATER
     accuracy 100
-    pp MOVE_CHANGES_IMPLEMENTED ? 20 : 10
+    pp 10
     effectchance 0
     target MOVE_TARGET_SELECTED
     priority 0
@@ -5751,7 +5748,7 @@ movedata MOVE_DIVE, "Dive"
     appeal 0
     contesttype 0
     terminatedata
-    movedescription MOVE_DIVE, "The user dives\nunderwater, then\nfloats up and\nattacks the foe."
+    movedescription MOVE_DIVE, "A two-turn attack.\nThe user dives\nunderwater on the\nfirst turn, then hits\non the next turn."
 
 // POWER: 15 >> 20
 movedata MOVE_ARM_THRUST, "Arm Thrust"

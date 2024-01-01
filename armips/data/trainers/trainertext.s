@@ -1945,7 +1945,7 @@ _1188: // Trainer 390
 _1194: // Trainer 23
     trainertextentry  23, TEXT_NOTICE_IN_OVERWORLD, "I roam far and wide in search of\nPokémon.\rAre you looking for Pokémon, too?\nThen you’re my collecting rival!\r"
     trainertextentry  23, TEXT_DEFEATED_IN_BATTLE, "Ugh. My poor Pokémon...\n"
-    trainertextentry  23, TEXT_DEFEATED_IN_OVERWORLD, "Every Friday, you can hear Pokémon\nroars from deep inside the cave.\n"
+    trainertextentry  23, TEXT_DEFEATED_IN_OVERWORLD, "You can hear Pokémon roars from\ndeep inside the cave.\rI wonder what’s making the noise?"
 
 _11A0: // Trainer 25
     trainertextentry  25, TEXT_NOTICE_IN_OVERWORLD, "You’re headed to Azalea, are you?\nLet my Pokémon see if you are good\fenough to battle.\r"

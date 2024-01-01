@@ -12000,8 +12000,8 @@ levelup SPECIES_SKORUPI
     learnset MOVE_HONE_CLAWS, 9
     learnset MOVE_POISON_FANG, 12
     learnset MOVE_TOXIC_SPIKES, 15
-    learnset MOVE_SKITTER_SMACK, 18
-    learnset MOVE_VENOSHOCK, 21
+    learnset MOVE_VENOSHOCK, 18
+    learnset MOVE_SKITTER_SMACK, 21
     learnset MOVE_KNOCK_OFF, 24
     learnset MOVE_SCARY_FACE, 27
     learnset MOVE_POISON_JAB, 30
@@ -12026,8 +12026,8 @@ levelup SPECIES_DRAPION
     learnset MOVE_HONE_CLAWS, 9
     learnset MOVE_POISON_FANG, 12
     learnset MOVE_TOXIC_SPIKES, 15
-    learnset MOVE_SKITTER_SMACK, 18
-    learnset MOVE_VENOSHOCK, 21
+    learnset MOVE_VENOSHOCK, 18
+    learnset MOVE_SKITTER_SMACK, 21
     learnset MOVE_KNOCK_OFF, 24
     learnset MOVE_SCARY_FACE, 27
     learnset MOVE_POISON_JAB, 30

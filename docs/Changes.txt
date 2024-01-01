@@ -149,6 +149,7 @@ Union Cave (1F/B1F)
 ✓ X Defend -> Grip Claw and moved across the water.
 ✓ Brock shows up here after defeating Team Rocket at the Safari Zone. He gives you TM80 Rock Slide.
 ✓ Added a Hiker just inside from the Route 32 entrance who gives you the Escape Rope key item (currently a WIP, but should work well enough). The Hiker will give you another Escape Rope if you somehow get through all 999 uses of it.
+✓ Edited the Poké Maniac's post battle dialogue to remove the Friday mention.
 
 Route 33
 ✓ No changes.
@@ -171,11 +172,13 @@ Slowpoke Well
 ✓ Added a static Slowking encounter that always has Regenerator.
 ✓ Moved the hidden Full Heal to a different rock.
 ✓ Added the Slowbronite.
+✓ Beating Proton no longer activates the Azalea Silver fight.
 
 Azalea Town - Gym 
 ✓ Added three new Trainers, a Bug Catcher (138), an Ace Trainer M (375) and an Ace Trainer F (107). Set flags for these after beating Bugsy.
 ✓ Modified Bugsy's dialogue a bit.
 ✓ Following the Suicune encounter, Bugsy can be challenged to a rematch where he will award you with the Scizorite if you win. He can be rematched for no reward each time you enter the area.
+✓ Defeating Bugsy now activates the Azalea Silver fight.
 
 Ilex Forest
 ✓ Shifted all of the triggers/overworlds involving the Farfetch'd thing to the bottom left, out of bounds. Annoying to do on replays.

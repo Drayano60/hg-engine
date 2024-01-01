@@ -706,8 +706,8 @@ encounter SPECIES_GOLBAT, 30, 30
 encounter SPECIES_GOLBAT, 30, 30
 
 // rock smash encounters
-encounter SPECIES_DUNSPARCE, 10, 12
-encounter SPECIES_GEODUDE, 10, 12
+encounter SPECIES_DUNSPARCE, 11, 12
+encounter SPECIES_GEODUDE, 11, 12
 
 // old rod encounters
 encounter SPECIES_MAGIKARP, 5, 8
@@ -1434,15 +1434,15 @@ encounter SPECIES_MAGIKARP, 5, 25
 encounter SPECIES_MAGIKARP, 5, 25
 
 // rock smash encounters
-encounter SPECIES_SLUGMA, 10, 12
-encounter SPECIES_GEODUDE, 10, 12
+encounter SPECIES_SLUGMA, 11, 12
+encounter SPECIES_GEODUDE, 11, 12
 
 // old rod encounters
 encounter SPECIES_MAGIKARP, 5, 12
 encounter SPECIES_MAGIKARP, 5, 12
-encounter SPECIES_POLIWAG, 10, 12
-encounter SPECIES_POLIWAG, 10, 12
-encounter SPECIES_DRATINI, 10, 12
+encounter SPECIES_POLIWAG, 11, 12
+encounter SPECIES_POLIWAG, 11, 12
+encounter SPECIES_DRATINI, 11, 12
 
 // good rod encounters
 encounter SPECIES_MAGIKARP, 1, 1
@@ -1542,11 +1542,11 @@ encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_CHINCHOU, 10, 12
-encounter SPECIES_FINNEON, 10, 12
-encounter SPECIES_FINNEON, 10, 12
-encounter SPECIES_QWILFISH, 10, 12
-encounter SPECIES_QWILFISH, 10, 12
+encounter SPECIES_CHINCHOU, 11, 12
+encounter SPECIES_FINNEON, 11, 12
+encounter SPECIES_FINNEON, 11, 12
+encounter SPECIES_QWILFISH, 11, 12
+encounter SPECIES_QWILFISH, 11, 12
 
 // good rod encounters
 encounter SPECIES_MAGIKARP, 1, 1
@@ -1582,7 +1582,7 @@ rocksmashrate NEW_ROCK_SMASH_RATE
 oldrodrate FISHING_RATE
 goodrodrate FISHING_RATE
 superrodrate FISHING_RATE
-walklevels 12, 14, 12, 14, 12, 14, 12, 12, 12, 12, 14, 14
+walklevels 12, 13, 12, 13, 12, 13, 12, 12, 12, 12, 13, 13
 
 // morning encounter slots
 pokemon SPECIES_ZUBAT
@@ -1642,15 +1642,15 @@ encounter SPECIES_GOLBAT, 30, 30
 encounter SPECIES_QUAGSIRE, 30, 30
 
 // rock smash encounters
-encounter SPECIES_GEODUDE, 10, 14
-encounter SPECIES_DIGLETT, 10, 14
+encounter SPECIES_DIGLETT, 12, 13
+encounter SPECIES_GEODUDE, 12, 13
 
 // old rod encounters
 encounter SPECIES_MAGIKARP, 5, 14
-encounter SPECIES_GOLDEEN, 12, 14
-encounter SPECIES_GOLDEEN, 12, 14
-encounter SPECIES_BARBOACH, 12, 14
-encounter SPECIES_BARBOACH, 12, 14
+encounter SPECIES_GOLDEEN, 12, 13
+encounter SPECIES_GOLDEEN, 12, 13
+encounter SPECIES_BARBOACH, 12, 13
+encounter SPECIES_BARBOACH, 12, 13
 
 // good rod encounters
 encounter SPECIES_MAGIKARP, 1, 1
@@ -1686,7 +1686,7 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 12, 14, 12, 14, 12, 14, 14, 14, 12, 14, 14, 14
+walklevels 14, 15, 14, 15, 14, 15, 14, 14, 14, 15, 15, 15
 
 // morning encounter slots
 pokemon SPECIES_SPEAROW

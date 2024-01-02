@@ -1235,9 +1235,9 @@ _0AC4: // Trainer 66
     trainertextentry  66, TEXT_REMATCH_IN_OVERWORLD, "Hey, you’re back!\rBattle my carefully trained Pokémon!\r"
 
 _0AD4: // Trainer 409
-    trainertextentry 409, TEXT_NOTICE_IN_OVERWORLD, "I just got my Pokémon back from\nDay Care. Let’s see how much stronger\fit got!\r"
+    trainertextentry 409, TEXT_NOTICE_IN_OVERWORLD, "I just got my Pokémon back from\nthe Day Care.\rLet’s see how much stronger they got!\r"
     trainertextentry 409, TEXT_DEFEATED_IN_BATTLE, "Why does it end this way?\n"
-    trainertextentry 409, TEXT_DEFEATED_IN_OVERWORLD, "My Pokémon knew moves I didn’t know it\nhad. That confounded me to no end!\n"
+    trainertextentry 409, TEXT_DEFEATED_IN_OVERWORLD, "My Pokémon knew moves I didn’t know they\nhad. That confounded me to no end!\n"
 
 _0AE0: // Trainer 118
     trainertextentry 118, TEXT_NOTICE_IN_OVERWORLD, "Kate: You sure were mean to my\nlittle sisters!\r"
@@ -1266,7 +1266,7 @@ _0B14: // Trainer 6
     trainertextentry   6, TEXT_DEFEATED_IN_OVERWORLD, "The group stealing other people’s\nPokémon seems to be growing lately.\fYou should be careful, too.\n"
 
 _0B20: // Trainer 62
-    trainertextentry  62, TEXT_NOTICE_IN_OVERWORLD, "This is where I do my training!\r"
+    trainertextentry  62, TEXT_NOTICE_IN_OVERWORLD, "This is where I do my training.\rIt’s really paid off for me.\nAll of my Pokémon evolved!\r"
     trainertextentry  62, TEXT_DEFEATED_IN_BATTLE, "Whoa!\n"
     trainertextentry  62, TEXT_DEFEATED_IN_OVERWORLD, "If you fail in practice, then you have\nto try harder! I’m aiming to be a\fGym Leader!\n"
 

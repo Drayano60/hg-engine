@@ -1998,7 +1998,7 @@ rocksmashrate 0
 oldrodrate FISHING_RATE
 goodrodrate FISHING_RATE
 superrodrate FISHING_RATE
-walklevels 16, 17, 16, 17, 16, 16, 16, 16, 16, 17, 17, 17
+walklevels 18, 19, 18, 19, 18, 18, 18, 18, 18, 19, 19, 19
 
 // morning encounter slots
 pokemon SPECIES_DROWZEE
@@ -2010,7 +2010,7 @@ pokemon SPECIES_ELEKID
 pokemon SPECIES_MIMEJR
 pokemon SPECIES_MIMEJR
 pokemon SPECIES_DITTO
-pokemon SPECIES_DITTO
+pokemon SPECIES_KIRLIA
 pokemon SPECIES_KADABRA
 pokemon SPECIES_PACHIRISU
 
@@ -2024,7 +2024,7 @@ pokemon SPECIES_ELEKID
 pokemon SPECIES_MIMEJR
 pokemon SPECIES_MIMEJR
 pokemon SPECIES_DITTO
-pokemon SPECIES_DITTO
+pokemon SPECIES_KIRLIA
 pokemon SPECIES_KADABRA
 pokemon SPECIES_PACHIRISU
 
@@ -2038,7 +2038,7 @@ pokemon SPECIES_ELEKID
 pokemon SPECIES_MIMEJR
 pokemon SPECIES_MIMEJR
 pokemon SPECIES_DITTO
-pokemon SPECIES_DITTO
+pokemon SPECIES_KIRLIA
 pokemon SPECIES_KADABRA
 pokemon SPECIES_PACHIRISU
 
@@ -2062,11 +2062,11 @@ encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_CHINCHOU, 16, 17
-encounter SPECIES_FINNEON, 16, 17
-encounter SPECIES_FINNEON, 16, 17
-encounter SPECIES_CORSOLA, 16, 17
-encounter SPECIES_CORSOLA, 16, 17
+encounter SPECIES_CHINCHOU, 18, 19
+encounter SPECIES_FINNEON, 18, 19
+encounter SPECIES_FINNEON, 18, 19
+encounter SPECIES_CORSOLA, 18, 19
+encounter SPECIES_CORSOLA, 18, 19
 
 // good rod encounters
 encounter SPECIES_MAGIKARP, 1, 1

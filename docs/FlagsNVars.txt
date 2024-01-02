@@ -98,6 +98,7 @@ NPCs:
 2125 - Emolga trade in Mahogany.
 2126 - Carbink trade in Indigo Plateau
 2127 - Heracross trade in Mt Silver
+2128 - TM86 gift in Ilex Forest
 
 --- These are unused now ---
 2120* - Brock visible

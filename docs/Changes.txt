@@ -183,8 +183,8 @@ Azalea Town - Gym
 Ilex Forest
 ✓ Shifted all of the triggers/overworlds involving the Farfetch'd thing to the bottom left, out of bounds. Annoying to do on replays.
 ✓ Removed the Headbutt guy.
-✓ X Attack -> Big Root.
-✓ Ether is now TM86 Grass Knot.
+✓ X Attack -> Ether.
+✓ Ether -> Big Root.
 ✓ Added a Bug Catcher (as a reference to Crystal) using a Mickey (165).
 ✓ Added an Ace Trainer F using a Mickey (166).
 ✓ Changed the tile permissions so grass platforms show in battle instead.
@@ -192,6 +192,7 @@ Ilex Forest
 ✓ Added the Beedrillite.
 ✓ Added an NPC and the Spiky-eared Pichu, who you can get here. The Pichu is Lv. 20 and has Volt Tackle replaced with Thunderbolt, but is otherwise the same (including the Zap Plate and fixed nature/gender).
 ✓ After accepting Pichu, the NPC also gives you a Light Ball before leaving.
+✓ Added an NPC to give a slight nod to the infamous Ilex Forest scene in SG/SS, and also awarding TM86 Grass Knot.
 
 Route 34
 ✓ Cynthia appears and talks to you in the gatehouse, then leaves. This makes her appear at the research center in the Ruins of Alph.
@@ -199,7 +200,7 @@ Route 34
 ✓ Added an old woman that heals your Pokémon in the gatehouse.
 ✓ Made some trainers compulsory. The policeman will now challenge you at any time of day (removed the second one that swaps out with him).
 ✓ Added an item ball with the Mystic Water.
-✓ Added an Ethan/Lyra battle on top of the existing script.
+✓ Added an Ethan/Lyra battle on top of the existing script. They give you an Eviolite when defeated.
 ✓ The Ace Trainers now give you 3 x Heart Scales instead.
 ✓ The first time you talk to the Day-Care Man, he'll give you an "Odd Egg" which can be any of the baby Pokémon except for Togepi. The Pokémon will always have its hidden ability.
 ✓ Added an NPC that gives you 2 x Heart Scales.

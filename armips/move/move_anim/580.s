@@ -25,7 +25,7 @@ a010_580:
     callfunction 78, 1, 0, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
 
     
-    callfunction 33, 5, 0, 1, 0, 12, 28927, "NaN", "NaN", "NaN", "NaN", "NaN"
+    callfunction 33, 5, 0, 1, 0, 12, 32415, "NaN", "NaN", "NaN", "NaN", "NaN"
     waitstate
     
     loadparticle 0, 166
@@ -66,7 +66,7 @@ a010_580:
     unloadparticle 0
     waitstate
 
-    callfunction 33, 5, 0, 1, 12, 0, 0, "NaN", "NaN", "NaN", "NaN", "NaN"
+    callfunction 33, 5, 0, 1, 12, 0, 32415, "NaN", "NaN", "NaN", "NaN", "NaN"
     waitstate
 
     end

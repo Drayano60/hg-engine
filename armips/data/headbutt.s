@@ -1018,7 +1018,8 @@ headbuttheader  38,  0,   15
     treecoords 366, 465, 367, 465, -1, -1, -1, -1, -1, -1, -1, -1
 .close
 
-headbuttheader  39,  14,   0
+// Route 35
+headbuttheader  39,  0,   14
     // normal slots
     headbuttencounter SPECIES_HOOTHOOT, 10, 11
     headbuttencounter SPECIES_PINECO, 10, 11
@@ -1033,12 +1034,12 @@ headbuttheader  39,  14,   0
     headbuttencounter SPECIES_EXEGGCUTE, 13, 14
     headbuttencounter SPECIES_EXEGGCUTE, 13, 14
     // special slots
-    headbuttencounter SPECIES_NONE, 0, 0
-    headbuttencounter SPECIES_NONE, 0, 0
-    headbuttencounter SPECIES_NONE, 0, 0
-    headbuttencounter SPECIES_NONE, 0, 0
-    headbuttencounter SPECIES_NONE, 0, 0
-    headbuttencounter SPECIES_NONE, 0, 0
+    headbuttencounter SPECIES_HOOTHOOT, 19, 20
+    headbuttencounter SPECIES_PINECO, 19, 20
+    headbuttencounter SPECIES_LEDYBA, 19, 20
+    headbuttencounter SPECIES_SPINARAK, 19, 20
+    headbuttencounter SPECIES_SILCOON, 19, 20
+    headbuttencounter SPECIES_CASCOON, 19, 20
     // normal trees
     treecoords 377, 258, 377, 259, -1, -1, -1, -1, -1, -1, -1, -1
     treecoords 378, 266, 379, 266, 379, 264, 379, 263, 379, 262, 378, 262
@@ -1057,7 +1058,7 @@ headbuttheader  39,  14,   0
 .close
 
 // Route 36 West
-headbuttheader  40,  26,   0
+headbuttheader  40,  0,   26
     // normal slots
     headbuttencounter SPECIES_HOOTHOOT, 4, 5
     headbuttencounter SPECIES_PINECO, 4, 5
@@ -1072,12 +1073,12 @@ headbuttheader  40,  26,   0
     headbuttencounter SPECIES_EXEGGCUTE, 6, 7
     headbuttencounter SPECIES_EXEGGCUTE, 6, 7
     // special slots
-    headbuttencounter SPECIES_NONE, 0, 0
-    headbuttencounter SPECIES_NONE, 0, 0
-    headbuttencounter SPECIES_NONE, 0, 0
-    headbuttencounter SPECIES_NONE, 0, 0
-    headbuttencounter SPECIES_NONE, 0, 0
-    headbuttencounter SPECIES_NONE, 0, 0
+    headbuttencounter SPECIES_HOOTHOOT, 19, 20
+    headbuttencounter SPECIES_PINECO, 19, 20
+    headbuttencounter SPECIES_LEDYBA, 19, 20
+    headbuttencounter SPECIES_SPINARAK, 19, 20
+    headbuttencounter SPECIES_BURMY, 19, 20
+    headbuttencounter SPECIES_BURMY, 19, 20
     // normal trees
     treecoords 380, 231, 381, 231, -1, -1, -1, -1, -1, -1, -1, -1
     treecoords 376, 241, 377, 241, -1, -1, -1, -1, -1, -1, -1, -1
@@ -2119,7 +2120,8 @@ headbuttheader  94,   0,   0
 headbuttheader  95,   0,   0
 .close
 
-headbuttheader  96,  22,   5
+// National Park
+headbuttheader  96,  0,   27
     // normal slots
     headbuttencounter SPECIES_HOOTHOOT, 10, 12
     headbuttencounter SPECIES_PINECO, 10, 12
@@ -2134,12 +2136,12 @@ headbuttheader  96,  22,   5
     headbuttencounter SPECIES_EXEGGCUTE, 13, 15
     headbuttencounter SPECIES_EXEGGCUTE, 13, 15
     // special slots
-    headbuttencounter SPECIES_EXEGGCUTE, 18, 20
-    headbuttencounter SPECIES_EXEGGCUTE, 18, 20
-    headbuttencounter SPECIES_CHERUBI, 18, 20
-    headbuttencounter SPECIES_CHERUBI, 18, 20
-    headbuttencounter SPECIES_CHERUBI, 18, 20
-    headbuttencounter SPECIES_CHERUBI, 21, 25
+    headbuttencounter SPECIES_HOOTHOOT, 19, 20
+    headbuttencounter SPECIES_PINECO, 19, 20
+    headbuttencounter SPECIES_LEDYBA, 19, 20
+    headbuttencounter SPECIES_SPINARAK, 19, 20
+    headbuttencounter SPECIES_CHERUBI, 19, 20
+    headbuttencounter SPECIES_CHERUBI, 19, 20
     // normal trees
     treecoords 34, 63, 35, 63, -1, -1, -1, -1, -1, -1, -1, -1
     treecoords 32, 61, 33, 61, 33, 62, -1, -1, -1, -1, -1, -1

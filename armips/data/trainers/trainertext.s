@@ -364,8 +364,8 @@ _0280: // Trainer 5
 
 _028C: // Trainer 70
     trainertextentry  70, TEXT_NOTICE_IN_OVERWORLD, "Give it your best shot, or I’ll take\nyou down!\r"
-    trainertextentry  70, TEXT_DEFEATED_IN_BATTLE, "No!\nOh, kitties, I’m so sorry!\n"
-    trainertextentry  70, TEXT_DEFEATED_IN_OVERWORLD, "I taught my Pokémon moves for\ntaking on any type...\n"
+    trainertextentry  70, TEXT_DEFEATED_IN_BATTLE, "No!\nOh, Persian, I’m so sorry!\n"
+    trainertextentry  70, TEXT_DEFEATED_IN_OVERWORLD, "I taught Persian moves for taking\non any type...\n"
 
 _0298: // Trainer 46
     trainertextentry  46, TEXT_NOTICE_IN_OVERWORLD, "I shall win!\r"

@@ -2102,7 +2102,7 @@ rocksmashrate 0
 oldrodrate FISHING_RATE
 goodrodrate FISHING_RATE
 superrodrate FISHING_RATE
-walklevels 17, 18, 17, 18, 17, 18, 18, 18, 17, 18, 17, 18
+walklevels 19, 20, 19, 20, 19, 20, 20, 20, 19, 20, 19, 20
 
 // morning encounter slots
 pokemon SPECIES_YANMA
@@ -2166,11 +2166,11 @@ encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 5, 18
-encounter SPECIES_POLIWAG, 17, 18
-encounter SPECIES_POLIWAG, 17, 18
-encounter SPECIES_CORPHISH, 17, 18
-encounter SPECIES_CORPHISH, 17, 18
+encounter SPECIES_MAGIKARP, 5, 19
+encounter SPECIES_POLIWAG, 18, 19
+encounter SPECIES_POLIWAG, 18, 19
+encounter SPECIES_CORPHISH, 18, 19
+encounter SPECIES_CORPHISH, 18, 19
 
 // good rod encounters
 encounter SPECIES_MAGIKARP, 1, 1
@@ -2206,7 +2206,7 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 18, 18, 17, 18, 17, 18, 17, 18, 17, 18, 17, 18
+walklevels 20, 20, 19, 20, 19, 20, 19, 20, 19, 20, 19, 20
 
 // morning encounter slots
 pokemon SPECIES_PIDGEOTTO
@@ -2310,7 +2310,7 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 17, 18, 17, 18, 17, 18, 17, 18, 17, 17, 18, 18
+walklevels 19, 20, 19, 20, 19, 20, 19, 20, 19, 19, 20, 20
 
 // morning encounter slots
 pokemon SPECIES_GROWLITHE

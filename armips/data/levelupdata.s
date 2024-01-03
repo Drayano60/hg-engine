@@ -894,6 +894,7 @@ levelup SPECIES_CLEFAIRY
 levelup SPECIES_CLEFABLE
     learnset MOVE_AROMATHERAPY, 1
     learnset MOVE_HEALING_WISH, 1
+    learnset MOVE_TRI_ATTACK, 1
     learnset MOVE_TELEPORT, 1
     learnset MOVE_WISH, 1
     learnset MOVE_HELPING_HAND, 1
@@ -1070,8 +1071,8 @@ levelup SPECIES_JIGGLYPUFF
 // NEW: Boomburst, Moonblast
 levelup SPECIES_WIGGLYTUFF
     learnset MOVE_BODY_SLAM, 1
-    learnset MOVE_GRAVITY, 1
     learnset MOVE_PLAY_ROUGH, 1
+    learnset MOVE_TRI_ATTACK, 1
     learnset MOVE_HELPING_HAND, 1
     learnset MOVE_POUND, 1
     learnset MOVE_DEFENSE_CURL, 1
@@ -4087,8 +4088,8 @@ levelup SPECIES_TAUROS
     learnset MOVE_SCARY_FACE, 20
     learnset MOVE_TAKE_DOWN, 24
     learnset MOVE_ZEN_HEADBUTT, 28
-    learnset MOVE_BODY_SLAM, 32
-    learnset MOVE_RAGING_BULL, 36
+    learnset MOVE_RAGING_BULL, 32
+    learnset MOVE_SWAGGER, 36
     learnset MOVE_REST, 40
     learnset MOVE_THRASH, 44
     learnset MOVE_HIGH_HORSEPOWER, 48
@@ -4109,8 +4110,8 @@ levelup SPECIES_TAUROS_COMBAT
     learnset MOVE_SCARY_FACE, 20
     learnset MOVE_TAKE_DOWN, 24
     learnset MOVE_ZEN_HEADBUTT, 28
-    learnset MOVE_BODY_SLAM, 32
-    learnset MOVE_RAGING_BULL, 36
+    learnset MOVE_RAGING_BULL, 32
+    learnset MOVE_SWAGGER, 36
     learnset MOVE_REST, 40
     learnset MOVE_THRASH, 44
     learnset MOVE_HIGH_HORSEPOWER, 48
@@ -4131,8 +4132,8 @@ levelup SPECIES_TAUROS_BLAZE
     learnset MOVE_SCARY_FACE, 20
     learnset MOVE_TAKE_DOWN, 24
     learnset MOVE_ZEN_HEADBUTT, 28
-    learnset MOVE_BODY_SLAM, 32
-    learnset MOVE_RAGING_BULL, 36
+    learnset MOVE_RAGING_BULL, 32
+    learnset MOVE_SWAGGER, 36
     learnset MOVE_REST, 40
     learnset MOVE_THRASH, 44
     learnset MOVE_HIGH_HORSEPOWER, 48
@@ -4153,8 +4154,8 @@ levelup SPECIES_TAUROS_AQUA
     learnset MOVE_SCARY_FACE, 20
     learnset MOVE_TAKE_DOWN, 24
     learnset MOVE_ZEN_HEADBUTT, 28
-    learnset MOVE_BODY_SLAM, 32
-    learnset MOVE_RAGING_BULL, 36
+    learnset MOVE_RAGING_BULL, 32
+    learnset MOVE_SWAGGER, 36
     learnset MOVE_REST, 40
     learnset MOVE_THRASH, 44
     learnset MOVE_HIGH_HORSEPOWER, 48
@@ -7122,11 +7123,10 @@ levelup SPECIES_MILTANK
     learnset MOVE_GYRO_BALL, 15
     learnset MOVE_NATURAL_GIFT, 18
     learnset MOVE_MILK_DRINK, 21
-    learnset MOVE_DIZZY_PUNCH, 24
+    learnset MOVE_BODY_SLAM, 24
     learnset MOVE_ZEN_HEADBUTT, 28
     learnset MOVE_WAKE_UP_SLAP, 32
-    learnset MOVE_BODY_SLAM, 36
-    learnset MOVE_CHARM, 40
+    learnset MOVE_CHARM, 36
     learnset MOVE_CAPTIVATE, 40
     learnset MOVE_PLAY_ROUGH, 44
     learnset MOVE_HIGH_HORSEPOWER, 48
@@ -11613,8 +11613,8 @@ levelup SPECIES_BUNEARY
     learnset MOVE_DOUBLE_KICK, 16
     learnset MOVE_CHARM, 20
     learnset MOVE_DIZZY_PUNCH, 24
-    learnset MOVE_BATON_PASS, 28
-    learnset MOVE_JUMP_KICK, 32
+    learnset MOVE_JUMP_KICK, 28
+    learnset MOVE_BATON_PASS, 32
     learnset MOVE_AGILITY, 36
     learnset MOVE_FLATTER, 40
     learnset MOVE_BOUNCE, 44
@@ -11638,8 +11638,8 @@ levelup SPECIES_LOPUNNY
     learnset MOVE_DOUBLE_KICK, 16
     learnset MOVE_CHARM, 20
     learnset MOVE_DIZZY_PUNCH, 24
-    learnset MOVE_BATON_PASS, 28
-    learnset MOVE_JUMP_KICK, 32
+    learnset MOVE_JUMP_KICK, 28
+    learnset MOVE_BATON_PASS, 32
     learnset MOVE_AGILITY, 36
     learnset MOVE_FLATTER, 40
     learnset MOVE_BOUNCE, 44

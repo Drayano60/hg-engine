@@ -1414,7 +1414,7 @@ movedata MOVE_STOMP, "Stomp"
 movedata MOVE_DOUBLE_KICK, "Double Kick"
     battleeffect 44
     pss SPLIT_PHYSICAL
-    basepower 30
+    basepower 60
     type TYPE_FIGHTING
     accuracy 100
     pp 30
@@ -1425,7 +1425,7 @@ movedata MOVE_DOUBLE_KICK, "Double Kick"
     appeal 0
     contesttype 0
     terminatedata
-    movedescription MOVE_DOUBLE_KICK, "The foe is quickly\nkicked twice in\nsuccession using both\nfeet.\n"
+    movedescription MOVE_DOUBLE_KICK, "The foe is kicked\ntwice in succession\nusing both feet.\nThis move’s damage is\nsplit into two hits."
 
 // ACCURACY: 75 >> 85
 movedata MOVE_MEGA_KICK, "Mega Kick"
@@ -3547,7 +3547,7 @@ movedata MOVE_FURY_SWIPES, "Fury Swipes"
 movedata MOVE_BONEMERANG, "Bonemerang"
     battleeffect 44
     pss SPLIT_PHYSICAL
-    basepower 50
+    basepower 100
     type TYPE_GROUND
     accuracy 90
     pp 10
@@ -3558,7 +3558,7 @@ movedata MOVE_BONEMERANG, "Bonemerang"
     appeal 0
     contesttype 0
     terminatedata
-    movedescription MOVE_BONEMERANG, "The user throws the\nbone it holds. The\nbone loops to hit the\nfoe twice, coming and\ngoing."
+    movedescription MOVE_BONEMERANG, "The user throws the\nbone it holds, looping\nto hit the foe again.\nThis move’s damage is\nsplit into two hits."
 
 movedata MOVE_REST, "Rest"
     battleeffect 37
@@ -8435,7 +8435,7 @@ movedata MOVE_HEAD_SMASH, "Head Smash"
 movedata MOVE_DOUBLE_HIT, "Double Hit"
     battleeffect 44
     pss SPLIT_PHYSICAL
-    basepower 35
+    basepower 70
     type TYPE_NORMAL
     accuracy 90
     pp 10
@@ -8446,7 +8446,7 @@ movedata MOVE_DOUBLE_HIT, "Double Hit"
     appeal 0
     contesttype 0
     terminatedata
-    movedescription MOVE_DOUBLE_HIT, "The user slams the\nfoe with a long tail,\nvines, etc. The\ntarget is hit\ntwice in a row."
+    movedescription MOVE_DOUBLE_HIT, "The user slams the\nfoe with a long tail,\nvines, etc.\nThis move’s damage is\nsplit into two hits."
 
 movedata MOVE_ROAR_OF_TIME, "Roar of Time"
     battleeffect 80
@@ -9641,7 +9641,7 @@ movedata MOVE_DRILL_RUN, "Drill Run"
 movedata MOVE_DUAL_CHOP, "Dual Chop"
     battleeffect 44
     pss SPLIT_PHYSICAL
-    basepower 40
+    basepower 80
     type TYPE_DRAGON
     accuracy MOVE_CHANGES_IMPLEMENTED ? 100 : 90
     pp 15
@@ -9652,7 +9652,7 @@ movedata MOVE_DUAL_CHOP, "Dual Chop"
     appeal 0
     contesttype 0
     terminatedata
-    movedescription MOVE_DUAL_CHOP, "The user attacks its\ntarget by hitting it\nwith brutal strikes.\nThe target is hit\ntwice in a row."
+    movedescription MOVE_DUAL_CHOP, "The user attacks its\ntarget by hitting it\nwith brutal strikes.\nThis move’s damage is\nsplit into two hits."
 
 movedata MOVE_HEART_STAMP, "Heart Stamp"
     battleeffect 31
@@ -9866,7 +9866,7 @@ movedata MOVE_HEAD_CHARGE, "Head Charge"
 movedata MOVE_GEAR_GRIND, "Gear Grind"
     battleeffect 44
     pss SPLIT_PHYSICAL
-    basepower 50
+    basepower 100
     type TYPE_STEEL
     accuracy 85
     pp 15
@@ -9877,7 +9877,7 @@ movedata MOVE_GEAR_GRIND, "Gear Grind"
     appeal 0
     contesttype 0
     terminatedata
-    movedescription MOVE_GEAR_GRIND, "The user attacks by\ngrinding the target\nbetween steel gears\ntwice in a row."
+    movedescription MOVE_GEAR_GRIND, "The user attacks by\ngrinding the target\nbetween steel gears.\nThis move’s damage is\nsplit into two hits."
 
 movedata MOVE_SEARING_SHOT, "Searing Shot"
     battleeffect 4
@@ -13999,7 +13999,7 @@ movedata MOVE_TRIPLE_AXEL, "Triple Axel"
 movedata MOVE_DUAL_WINGBEAT, "Dual Wingbeat"
     battleeffect 44
     pss SPLIT_PHYSICAL
-    basepower 40
+    basepower 80
     type TYPE_FLYING
     accuracy MOVE_CHANGES_IMPLEMENTED ? 100 : 90
     pp 10
@@ -14010,7 +14010,7 @@ movedata MOVE_DUAL_WINGBEAT, "Dual Wingbeat"
     appeal 0
     contesttype 0
     terminatedata
-    movedescription MOVE_DUAL_WINGBEAT, "The user slams the\nfoe with its wings.\nThe target is hit\ntwice in a row."
+    movedescription MOVE_DUAL_WINGBEAT, "The user slams the\nfoe with its wings.\nThis move’s damage is\nsplit into two hits."
 
 movedata MOVE_SCORCHING_SANDS, "Scorching Sands"
     battleeffect 125
@@ -15140,7 +15140,7 @@ movedata MOVE_HYPER_DRILL, "Hyper Drill"
 movedata MOVE_TWIN_BEAM, "Twin Beam"
     battleeffect 44
     pss SPLIT_SPECIAL
-    basepower 40
+    basepower 80
     type TYPE_PSYCHIC
     accuracy 100
     pp 10
@@ -15151,7 +15151,7 @@ movedata MOVE_TWIN_BEAM, "Twin Beam"
     appeal 0
     contesttype 0
     terminatedata
-    movedescription MOVE_TWIN_BEAM, "The user shoots\nmystical beams from\nits eyes.\nThe target is hit\ntwice in a row."
+    movedescription MOVE_TWIN_BEAM, "The user shoots\nmystical beams from\nits eyes.\nThis move’s damage is\nsplit into two hits."
 
 movedata MOVE_RAGE_FIST, "Rage Fist"
     battleeffect 321

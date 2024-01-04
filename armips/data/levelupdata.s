@@ -25633,3 +25633,7 @@ levelup SPECIES_OGERPON_CORNERSTONE_MASK
 levelup SPECIES_TERAPAGOS_STELLAR
     learnset MOVE_TACKLE, 1
     terminatelearnset
+
+levelup SPECIES_URSALUNA_BLOODMOON
+    learnset MOVE_TACKLE, 1
+    terminatelearnset

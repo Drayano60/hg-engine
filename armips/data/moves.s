@@ -11771,7 +11771,7 @@ movedata MOVE_HIGH_HORSEPOWER, "High Horsepower"
     movedescription MOVE_HIGH_HORSEPOWER, "The user fiercely\nattacks the target\nwith its entire body."
 
 movedata MOVE_STRENGTH_SAP, "Strength Sap"
-    battleeffect 58 // AI purposes
+    battleeffect 32 // AI purposes
     pss SPLIT_STATUS
     basepower 0
     type TYPE_GRASS

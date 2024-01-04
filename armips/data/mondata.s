@@ -10944,7 +10944,7 @@ mondata SPECIES_RIOLU, "Riolu"
     mondexweight SPECIES_RIOLU, "44.5 lbs."
 
 
-// ABILITY: Aura Master (HA, New)
+// ABILITY: Aura Adept (HA, New)
 mondata SPECIES_LUCARIO, "Lucario"
     basestats 70, 110, 70, 90, 115, 70
     types TYPE_FIGHTING, TYPE_STEEL

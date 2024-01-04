@@ -6042,8 +6042,9 @@ levelup SPECIES_HONCHKROW
 
 // NEW: Hypnosis (PLA), Disarming Voice, Moonblast
 levelup SPECIES_MISDREAVUS
-    learnset MOVE_PSYWAVE, 1
+    learnset MOVE_PERISH_SONG, 1
     learnset MOVE_ASTONISH, 1
+    learnset MOVE_PSYWAVE, 1
     learnset MOVE_GROWL, 1
     learnset MOVE_SPITE, 1
     learnset MOVE_CONFUSION, 4
@@ -6057,9 +6058,8 @@ levelup SPECIES_MISDREAVUS
     learnset MOVE_SHADOW_BALL, 36
     learnset MOVE_HYPNOSIS, 40
     learnset MOVE_MOONBLAST, 44
-    learnset MOVE_PERISH_SONG, 48
-    learnset MOVE_GRUDGE, 52
-    learnset MOVE_DESTINY_BOND, 56
+    learnset MOVE_GRUDGE, 48
+    learnset MOVE_DESTINY_BOND, 52
     terminatelearnset
 
 // NEW: Hypnosis (PLA), Disarming Voice, Moonblast
@@ -6068,8 +6068,9 @@ levelup SPECIES_MISMAGIUS
     learnset MOVE_PHANTOM_FORCE, 1
     learnset MOVE_MAGICAL_LEAF, 1 
     learnset MOVE_LUCKY_CHANT, 1
-    learnset MOVE_PSYWAVE, 1
+    learnset MOVE_PERISH_SONG, 1
     learnset MOVE_ASTONISH, 1
+    learnset MOVE_PSYWAVE, 1
     learnset MOVE_GROWL, 1
     learnset MOVE_SPITE, 1
     learnset MOVE_CONFUSION, 4
@@ -6083,9 +6084,8 @@ levelup SPECIES_MISMAGIUS
     learnset MOVE_SHADOW_BALL, 38
     learnset MOVE_HYPNOSIS, 42
     learnset MOVE_MOONBLAST, 46
-    learnset MOVE_PERISH_SONG, 50
-    learnset MOVE_GRUDGE, 54
-    learnset MOVE_DESTINY_BOND, 58
+    learnset MOVE_GRUDGE, 50
+    learnset MOVE_DESTINY_BOND, 54
     terminatelearnset
 
 // NEW: Secret Power, Stored Power, Ancient Power, Cosmic Power, Nature Power, Earth Power, Psychic
@@ -6964,14 +6964,13 @@ levelup SPECIES_HOUNDOUR
     learnset MOVE_ODOR_SLEUTH, 18
     learnset MOVE_FEINT_ATTACK, 21
     learnset MOVE_FIRE_FANG, 25
-    learnset MOVE_TORMENT, 29
-    learnset MOVE_CRUNCH, 33
-    learnset MOVE_FLAMETHROWER, 37
+    learnset MOVE_CRUNCH, 29
+    learnset MOVE_FLAMETHROWER, 33
+    learnset MOVE_COMEUPPANCE, 37
     learnset MOVE_DARK_PULSE, 41
-    learnset MOVE_COMEUPPANCE, 45
-    learnset MOVE_FOUL_PLAY, 49
-    learnset MOVE_NASTY_PLOT, 53
-    learnset MOVE_INFERNO, 57
+    learnset MOVE_FOUL_PLAY, 45
+    learnset MOVE_NASTY_PLOT, 49
+    learnset MOVE_INFERNO, 53
     terminatelearnset
 
 // NEW: Poison Fang
@@ -6991,14 +6990,13 @@ levelup SPECIES_HOUNDOOM
     learnset MOVE_FEINT_ATTACK, 21
     learnset MOVE_BEAT_UP, 24
     learnset MOVE_FIRE_FANG, 28
-    learnset MOVE_TORMENT, 32
-    learnset MOVE_CRUNCH, 36
-    learnset MOVE_FLAMETHROWER, 40
+    learnset MOVE_CRUNCH, 32
+    learnset MOVE_FLAMETHROWER, 36
+    learnset MOVE_COMEUPPANCE, 40
     learnset MOVE_DARK_PULSE, 44
-    learnset MOVE_COMEUPPANCE, 48
-    learnset MOVE_FOUL_PLAY, 52
-    learnset MOVE_NASTY_PLOT, 56
-    learnset MOVE_INFERNO, 60
+    learnset MOVE_FOUL_PLAY, 48
+    learnset MOVE_NASTY_PLOT, 52
+    learnset MOVE_INFERNO, 56
     terminatelearnset
 
 levelup SPECIES_PHANPY

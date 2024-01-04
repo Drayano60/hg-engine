@@ -1538,10 +1538,10 @@ _0DBC: // Trainer 405
     trainertextentry 405, TEXT_DEFEATED_IN_OVERWORLD, "It’s important to have conviction on\nyour side.\n"
 
 _0DC8: // Trainer 124
-    trainertextentry 124, TEXT_NOTICE_IN_OVERWORLD, "Aack! You made me lose a POLIWAG!\nWhat are you going to do about it?\r"
+    trainertextentry 124, TEXT_NOTICE_IN_OVERWORLD, "Aack! You made me lose a Poliwag!\nWhat are you going to do about it?\rI know!\rHave a taste of my Seaking.\nIt’s immune to Electric-type moves!\r"
     trainertextentry 124, TEXT_DEFEATED_IN_BATTLE, "Just forget about it.\n"
-    trainertextentry 124, TEXT_DEFEATED_IN_OVERWORLD, "That POLIWAG that got away...\nIt was huge.\rI swear it must’ve been 82 feet long!\n"
-    trainertextentry 124, TEXT_REMATCH_IN_OVERWORLD, "Hey! I’ve been waiting for you!\r...Oops, maybe I shouldn’t yell so loud.\nThe POLIWAG ran away...\r"
+    trainertextentry 124, TEXT_DEFEATED_IN_OVERWORLD, "That Poliwag that got away...\nIt was huge.\rI swear it must’ve been 82 feet long!\n"
+    trainertextentry 124, TEXT_REMATCH_IN_OVERWORLD, "Hey! I’ve been waiting for you!\r...Oops, maybe I shouldn’t yell so loud.\nThe Poliwag ran away...\r"
 
 _0DD8: // Trainer 125
     trainertextentry 125, TEXT_NOTICE_IN_OVERWORLD, "I fish until I can’t anymore.\nI also battle until I drop.\fThat’s my relationship with my Pokémon.\r"
@@ -2596,7 +2596,7 @@ _17CC: // Trainer 600
 _17D8: // Trainer 539
     trainertextentry 539, TEXT_NOTICE_IN_OVERWORLD, "Hey! Hugh!\r"
     trainertextentry 539, TEXT_DEFEATED_IN_BATTLE, "I mistook you for someone else...\n"
-    trainertextentry 539, TEXT_DEFEATED_IN_OVERWORLD, "I came to explore Mt. Mortar, but I got\nseparated from my partner...\rDid you run into a Trainer who uses a\nSEADRA? That SEADRA is really good at\fusing Waterfall.\n"
+    trainertextentry 539, TEXT_DEFEATED_IN_OVERWORLD, "I came to explore Mt. Mortar, but I got\nseparated from my partner...\rDid you run into a Trainer who uses a\nKingdra?\rThat Kingdra is really good at\nusing Waterfall.\n"
 
 _17E4: // Trainer 538
     trainertextentry 538, TEXT_NOTICE_IN_OVERWORLD, "Yo! Markus!\r"
@@ -3365,14 +3365,14 @@ _Trainer477:
     trainertextentry 477, TEXT_DEFEATED_IN_OVERWORLD, "My super cool Pokémon were able\nto get me all the way here.\rI’m going back to Route 30, though.\nWe need to train a lot more."
 
 _Trainer504:
-    trainertextentry 504, TEXT_NOTICE_IN_OVERWORLD, "504-Encounter"
-    trainertextentry 504, TEXT_DEFEATED_IN_BATTLE, "504-Defeat"
-    trainertextentry 504, TEXT_DEFEATED_IN_OVERWORLD, "504-Afterwards"
+    trainertextentry 504, TEXT_NOTICE_IN_OVERWORLD, "Prove to us that you’re worthy\nto challenge our Gym Leader."
+    trainertextentry 504, TEXT_DEFEATED_IN_BATTLE, "Astounding."
+    trainertextentry 504, TEXT_DEFEATED_IN_OVERWORLD, "Go ahead.\nMorty is waiting for you."
 
 _Trainer506:
-    trainertextentry 506, TEXT_NOTICE_IN_OVERWORLD, "506-Encounter"
-    trainertextentry 506, TEXT_DEFEATED_IN_BATTLE, "506-Defeat"
-    trainertextentry 506, TEXT_DEFEATED_IN_OVERWORLD, "506-Afterwards"
+    trainertextentry 506, TEXT_NOTICE_IN_OVERWORLD, "Within the walls of Ecruteak City,\nwe pass down many legends.\rWhat about you?\nWill your story be legendary?\r"
+    trainertextentry 506, TEXT_DEFEATED_IN_BATTLE, "Interesting.\nYou are indeed strong..."
+    trainertextentry 506, TEXT_DEFEATED_IN_OVERWORLD, "Perhaps, far into the future,\nyour story will still be told."
 
 _Trainer508:
     trainertextentry 508, TEXT_NOTICE_IN_OVERWORLD, "508-Encounter"

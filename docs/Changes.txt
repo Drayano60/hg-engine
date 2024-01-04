@@ -347,6 +347,7 @@ Burned Tower
 Ecruteak City - Gym
 ✓ Modified Morty's dialogue to remove the obedience bit.
 ✓ Following the Suicune encounter, Morty can be challenged to a rematch where he will award you with the Gengarite if you win. He can be rematched for no reward each time you enter the area.
+✓ Added two new Sage Trainers using Mickeys (504, 506).
 
 Union Cave (B2F)
 ✓ Forced some of the trainers to get things (Lapras/items).

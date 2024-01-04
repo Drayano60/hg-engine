@@ -12137,7 +12137,7 @@ levelup SPECIES_FINNEON
     learnset MOVE_HYDRO_PUMP, 52
     terminatelearnset
 
-// NEW: Hydro Pump (PLA), Quiver Dance
+// NEW: Quiver Dance
 levelup SPECIES_LUMINEON
     learnset MOVE_AURORA_BEAM, 1
     learnset MOVE_SIGNAL_BEAM, 1

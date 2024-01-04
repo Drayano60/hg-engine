@@ -45,7 +45,7 @@ The following Gen 5+ status moves are in Aurora Crystal:
 - Shell Smash (AI Logic: Same as Tail Glow)
 - Shelter (AI Logic: Same as Iron Defense)
 - Shift Gear (AI Logic: Same as Dragon Dance)
-- Strength Sap (AI Logic: Same as Growl/Charm)
+- Strength Sap (AI Logic: Same as Recover)
 - Tearful Look (AI Logic: Same as Growl/Charm)
 - Tidy Up (AI Logic: Same as Dragon Dance)
 - Toxic Thread (AI Logic: Same as Poison Powder)

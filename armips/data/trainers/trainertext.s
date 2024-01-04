@@ -3365,7 +3365,7 @@ _Trainer477:
     trainertextentry 477, TEXT_DEFEATED_IN_OVERWORLD, "My super cool Pokémon were able\nto get me all the way here.\rI’m going back to Route 30, though.\nWe need to train a lot more."
 
 _Trainer504:
-    trainertextentry 504, TEXT_NOTICE_IN_OVERWORLD, "Prove to us that you’re worthy\nto challenge our Gym Leader."
+    trainertextentry 504, TEXT_NOTICE_IN_OVERWORLD, "Prove to us that you’re worthy\nto challenge our Gym Leader.\r"
     trainertextentry 504, TEXT_DEFEATED_IN_BATTLE, "Astounding."
     trainertextentry 504, TEXT_DEFEATED_IN_OVERWORLD, "Go ahead.\nMorty is waiting for you."
 

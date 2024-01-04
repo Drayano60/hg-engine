@@ -3851,12 +3851,11 @@ void LONG_CALL UpdatePassiveForms(struct PartyPokemon *pp)
         case SPECIES_FLORGES:
             form = gf_rand() % 5;
             break;
-        /* Allow any size to show up - sprites missing atm
+        // Allow any size to show up
         case SPECIES_PUMPKABOO:
         case SPECIES_GOURGEIST:
             form = gf_rand() % 4;
             break;
-        */
         default:
             shouldUpdate = FALSE;
     }

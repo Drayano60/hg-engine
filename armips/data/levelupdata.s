@@ -16861,9 +16861,9 @@ levelup SPECIES_LITLEO
     learnset MOVE_FIRE_FANG, 20
     learnset MOVE_TAKE_DOWN, 24
     learnset MOVE_YAWN, 28
-    learnset MOVE_ENDEAVOR, 32
+    learnset MOVE_FLAMETHROWER, 32
     learnset MOVE_CRUNCH, 36
-    learnset MOVE_FLAMETHROWER, 41
+    learnset MOVE_ENDEAVOR, 41
     learnset MOVE_HYPER_VOICE, 46
     learnset MOVE_FLARE_BLITZ, 51
     learnset MOVE_OVERHEAT, 56
@@ -16882,9 +16882,9 @@ levelup SPECIES_PYROAR
     learnset MOVE_FIRE_FANG, 20
     learnset MOVE_TAKE_DOWN, 24
     learnset MOVE_YAWN, 28
-    learnset MOVE_ENDEAVOR, 32
+    learnset MOVE_FLAMETHROWER, 32
     learnset MOVE_CRUNCH, 39
-    learnset MOVE_FLAMETHROWER, 44
+    learnset MOVE_ENDEAVOR, 44
     learnset MOVE_HYPER_VOICE, 49
     learnset MOVE_FLARE_BLITZ, 54
     learnset MOVE_OVERHEAT, 59
@@ -16904,9 +16904,9 @@ levelup SPECIES_PYROAR_FEMALE
     learnset MOVE_FIRE_FANG, 20
     learnset MOVE_TAKE_DOWN, 24
     learnset MOVE_YAWN, 28
-    learnset MOVE_ENDEAVOR, 32
+    learnset MOVE_FLAMETHROWER, 32
     learnset MOVE_CRUNCH, 39
-    learnset MOVE_FLAMETHROWER, 44
+    learnset MOVE_ENDEAVOR, 44
     learnset MOVE_HYPER_VOICE, 49
     learnset MOVE_FLARE_BLITZ, 54
     learnset MOVE_OVERHEAT, 59

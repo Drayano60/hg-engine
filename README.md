@@ -16,7 +16,7 @@ Instructions on how to build the repo can be found there.
 - [ ] Sprites for some Hisuian forms (Arcanine, Qwilfish, Samurott, Avalugg)
 - [ ] Sprites for some Paldean forms (Tauros Combat, Tauros Blaze, Tauros Aqua)
 - [ ] Backsprite for Blade Forme Aegislash (currently uses Shield Forme)
-- [ ] Sprites for Farigiraf (seems to have got lost...)
+- [ ] Shiny sprites for Farigiraf
 - [ ] Shiny overworld sprites for Paldean cross-evos (Annihilape, Farigiraf, Dudunsparce, Kingambit)
 - [ ] Looker overworld (replace Byron?)
 - [ ] Item sprites (Mystery Stone, Fairy Feather)

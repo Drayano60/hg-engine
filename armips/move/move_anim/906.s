@@ -9,8 +9,8 @@
 
 .create "build/move/move_anim/0_906", 0
 
-// Petal Blizzard
-// Sweet Scent animation with Pokemon getting hit animation
+// Petal Barrage
+// Petal Dance animation with Sweet Scent background stuff
 
 a010_906:
     initspriteresource
@@ -23,44 +23,69 @@ a010_906:
     loadspritemaybe 6, 0, 2, 2
     loadspritemaybe 7, 0, 3, 3
     callfunction 78, 1, 0, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
-    loadparticle 0, 248
+    loadparticle 0, 111
     waitstate
     unloadspriteresource
     resetsprite 0
     resetsprite 1
     resetsprite 2
     resetsprite 3
-    playsepan 2037, 0
-    addparticle 0, 1, 17
+    initspriteresource
+    loadspriteresource 0
+    loadspriteresource 1
+    loadspriteresource 2
+    loadspriteresource 3
+    loadspritemaybe 4, 0, 0, 0
+    loadspritemaybe 5, 0, 1, 1
+    loadspritemaybe 6, 0, 2, 2
+    loadspritemaybe 7, 0, 3, 3
+    callfunction 78, 1, 0, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
+    loadparticle 1, 248
+    waitstate
+    unloadspriteresource
+    resetsprite 0
+    resetsprite 1
+    resetsprite 2
+    resetsprite 3
+
+    // Sweet Scent bit
+    addparticle 1, 0, 17
     cmd37 6, 0, 2, 3, 0, 0, 0, "NaN", "NaN"
     cmd37 4, 1, -2000, 8000, 0, "NaN", "NaN", "NaN", "NaN"
-    addparticle 0, 3, 0
-    addparticle 0, 4, 4
-    callfunction 34, 5, 8, 0, 2, 23199, 12, "NaN", "NaN", "NaN", "NaN", "NaN"
-    callfunction 34, 5, 16, 0, 2, 23199, 12, "NaN", "NaN", "NaN", "NaN", "NaN"
+    addparticle 1, 2, 0
+    addparticle 1, 4, 4
 
-    wait 20
+    playsepan 1531, -117
+    callfunction 60, 3, 2, 3, 10, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
+    loop 3
+    addparticle 0, 1, 3
+    addparticle 0, 2, 3
+    addparticle 0, 3, 3
+    addparticle 0, 0, 3
+    wait 10
+    doloop
+    waitstate
+    callfunction 57, 4, 2, 14, -8, 258, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
+    waitstate
 
-    loadparticle 1, 32
-    playsepan 1827, 117
-    addparticle 1, 1, 4
-    callfunction 51, 3, 1, 4, 264, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
-    wait 8
-    playsepan 1827, 117
-    addparticle 1, 1, 4
-    callfunction 51, 3, 1, -4, 264, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
-    wait 8
-    playsepan 1827, 117
-    addparticle 1, 1, 4
-    callfunction 51, 3, 1, -4, 264, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
-    wait 8
-    playsepan 1827, 117
-    addparticle 1, 1, 4
-    callfunction 51, 3, 1, 4, 264, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
-    wait 8
+    // Sweet Scent bit
+    addparticle 1, 0, 17
+    cmd37 6, 0, 2, 3, 0, 0, 0, "NaN", "NaN"
+    cmd37 4, 1, -2000, 8000, 0, "NaN", "NaN", "NaN", "NaN"
+    addparticle 1, 2, 0
+    addparticle 1, 4, 4
 
+    addparticle 0, 1, 4
+    addparticle 0, 2, 4
+    addparticle 0, 3, 4
+    addparticle 0, 0, 4
+    callfunction 36, 5, 1, 0, 1, 10, 264, "NaN", "NaN", "NaN", "NaN", "NaN"
+    playsepan 1962, 117
+    callfunction 57, 4, 2, -14, 8, 258, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
+    waitstate
     waitparticle
     unloadparticle 0
+    unloadparticle 1
     end
-    
+
 .close

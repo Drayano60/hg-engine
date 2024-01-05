@@ -8091,7 +8091,7 @@ movedata MOVE_LAVA_PLUME, "Lava Plume"
     appeal 0
     contesttype 0
     terminatedata
-    movedescription MOVE_LAVA_PLUME, "An inferno of scarlet\nflames washes over\nall Pokémon in battle.\nThis has a 30% chance\nto burn targets."
+    movedescription MOVE_LAVA_PLUME, "An inferno of scarlet\nflames washes over\nall Pokémon in battle.\nThis has a 30% chance\nto burn what it hits."
 
 movedata MOVE_LEAF_STORM, "Leaf Storm"
     battleeffect 204
@@ -15384,17 +15384,16 @@ movedata MOVE_PETAL_BARRAGE, "Petal Barrage"
     appeal 0
     contesttype 0
     terminatedata
-    movedescription MOVE_PETAL_BARRAGE, "The user attacks the\nfoe with petals that\nhave a calming aroma.\nThis lowers the foe’s\nAttack stat."
+    movedescription MOVE_PETAL_BARRAGE, "The user launches a\nbarrage of petals\nwith calming aromas.\nThis lowers the foe’s\nAttack stat."
 
 // This is a custom move for Typhlosion.
-// It damages all foes and has a 30% chance to burn each of them.
-// Due to the x1.1 type-accuracy bonus, its true accuracy is more like 93%.
+// It is a buffed up Lava Plume.
 movedata MOVE_INFERNAL_BLAST, "Infernal Blast"
     battleeffect 4
     pss SPLIT_SPECIAL
-    basepower 110
+    basepower 100
     type TYPE_FIRE
-    accuracy 80
+    accuracy 100
     pp 10
     effectchance 30
     target MOVE_TARGET_FOES_AND_ALLY
@@ -15406,9 +15405,10 @@ movedata MOVE_INFERNAL_BLAST, "Infernal Blast"
     movedescription MOVE_INFERNAL_BLAST, "The user rubs its\nblazing fur together,\ncausing an explosion.\nIt has a 30% chance\nto burn what it hits."
 
 // This is a custom move for Feraligatr.
-// It damages a foe and lowers its Defense.
+// It is a clone of Fishious Rend.
+// The effect is handled in battle_calc_damage.c.
 movedata MOVE_SAVAGE_REND, "Savage Rend"
-    battleeffect 69
+    battleeffect 0
     pss SPLIT_PHYSICAL
     basepower 85
     type TYPE_WATER
@@ -15421,7 +15421,7 @@ movedata MOVE_SAVAGE_REND, "Savage Rend"
     appeal FLAG_BITING
     contesttype 0
     terminatedata
-    movedescription MOVE_SAVAGE_REND, "The user tears up the\nfoe underwater with\nits powerful jaws.\nThis lowers the foe’s\nDefense stat."
+    movedescription MOVE_SAVAGE_REND, "The user savagely\ntears up the foe.\nThis move’s power is\ndoubled if the user\nattacks first."
 
 // This is a custom move for Ledian. Clone of Population Bomb (with different accuracy).
 movedata MOVE_PIDDLY_PUNCHES, "Piddly Punches"

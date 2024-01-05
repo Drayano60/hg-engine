@@ -18,13 +18,13 @@ a001_172:
     endscript
 TidyUp:
     /* {STRVAR_1 1, 0, 0} put the\n{STRVAR_1 6, 1, 0} away! -- Custom msg */
-    printmessage 1471, 0xA, 0x1, 0xFF, "NaN", "NaN", "NaN", "NaN"
+    printmessage 1607, 0xA, 0x1, 0xFF, "NaN", "NaN", "NaN", "NaN"
     waitmessage
     wait 0x1E
     endscript
 ScreenCleaner:
     /* {STRVAR_1 1, 0, 0}’s Screen Cleaner\nremoved {STRVAR_1 6, 1, 0}! -- Custom msg */
-    printmessage 1477, 0xA, BATTLER_xFF, 0xFF, "NaN", "NaN", "NaN", "NaN"
+    printmessage 1613, 0xA, BATTLER_xFF, 0xFF, "NaN", "NaN", "NaN", "NaN"
     waitmessage
     wait 0x1E
     endscript

@@ -19,7 +19,7 @@ a001_472:
     changevar2 VAR_OP_SET, VAR_ATTACKER, VAR_BATTLER_SOMETHING
 
     /* {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nlights up the area! */
-    printmessage 1467, 0xB, 0xFF, 0x15, "NaN", "NaN", "NaN", "NaN"
+    printmessage 1603, 0xB, 0xFF, 0x15, "NaN", "NaN", "NaN", "NaN"
     waitmessage
     wait 0x1E
 _0038:

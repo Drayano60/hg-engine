@@ -21,7 +21,7 @@ a001_479:
     changemondatabyvalue VAR_OP_SET, BATTLER_ALLY | BATTLER_xFF, MON_DATA_STAT_STAGE_ACCURACY, 6
     changemondatabyvalue VAR_OP_SET, BATTLER_ALLY | BATTLER_xFF, MON_DATA_STAT_STAGE_EVASION, 6
 
-    printmessage 1490, TAG_NICK, BATTLER_xFF, 0x15, "NaN", "NaN", "NaN", "NaN"
+    printmessage 1626, TAG_NICK, BATTLER_xFF, 0x15, "NaN", "NaN", "NaN", "NaN"
     waitmessage
     wait 0x1E
     endscript

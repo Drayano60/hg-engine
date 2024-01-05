@@ -12,7 +12,7 @@
 .create "build/move/battle_sub_seq/1_478", 0
 
 a001_478:
-    printmessage 1487, TAG_NICK, BATTLER_ATTACKER, "NaN", "NaN", "NaN", "NaN", "NaN"
+    printmessage 1623, TAG_NICK, BATTLER_ATTACKER, "NaN", "NaN", "NaN", "NaN", "NaN"
     waitmessage
     wait 0x1E
     endscript

@@ -22,7 +22,7 @@ _0054:
     endscript
 _SparklingAria:
     changemondatabyvalue VAR_OP_CLEARMASK, BATTLER_DEFENDER, 0x34, 0x10 // Burn
-    printmessage 1503, 0x2, 0x2, "NaN", "NaN", "NaN", "NaN", "NaN"
+    printmessage 1639, 0x2, 0x2, "NaN", "NaN", "NaN", "NaN", "NaN"
     goto _Return
 
 .close

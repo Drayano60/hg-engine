@@ -20,7 +20,7 @@ a001_481:
     /* Fail if it misses, as per status moves (see Tickle, Role Play etc) */
     if IF_MASK, VAR_MOVE_STATUS, 0x10001, _Failed
 _Move:
-    printmessage 1500, TAG_NICK, BATTLER_ATTACKER, "NaN", "NaN", "NaN", "NaN", "NaN"
+    printmessage 1636, TAG_NICK, BATTLER_ATTACKER, "NaN", "NaN", "NaN", "NaN", "NaN"
     waitmessage
     wait 0x1E
     printattackmessage

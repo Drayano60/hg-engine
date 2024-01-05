@@ -18,7 +18,7 @@ a001_486:
     ifmonstat IF_NOTEQUAL, BATTLER_DEFENDER, MON_DATA_ITEM, ITEM_MENTAL_HERB, _End
     setstatus2effect BATTLER_DEFENDER, 0xA
     waitmessage
-    printmessage 1506, TAG_NICK_ITEM, BATTLER_DEFENDER, BATTLER_DEFENDER, "NaN", "NaN", "NaN", "NaN"
+    printmessage 1642, TAG_NICK_ITEM, BATTLER_DEFENDER, BATTLER_DEFENDER, "NaN", "NaN", "NaN", "NaN"
     waitmessage
     wait 0x1E
     if IF_EQUAL, VAR_CURRENT_MOVE, MOVE_TAUNT, Taunt

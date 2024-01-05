@@ -1505,23 +1505,63 @@ MOVE_DATA_CONTEST_TYPE equ 11
     .word ((address - org()) / 4) - 1
 .endmacro
 
+.macro ifcurrentfieldistype,terrain,address
+    .word 0xE6, terrain
+    .word ((address - org()) / 4) - 1
+.endmacro
+
+.macro ifmovepowergreaterthanzero,address
+    .word 0xE7
+    .word ((address - org()) / 4) - 1
+.endmacro
+
+.macro ifgrounded,battler,address
+    .word 0xE8, battler
+    .word ((address - org()) / 4) - 1
+.endmacro
+
+.macro checkifcurrentadjustedmoveistype,type,address
+    .word 0xE9, type
+    .word ((address - org()) / 4) - 1
+.endmacro
+
+.macro ifcontactmove,address
+    .word 0xEA
+    .word ((address - org()) / 4) - 1
+.endmacro
+
+.macro ifsoundmove,address
+    .word 0xEB
+    .word ((address - org()) / 4) - 1
+.endmacro
+
+.macro updateterrainoverlay,endTerrainFlag,failAddress
+    .word 0xEC, endTerrainFlag
+    .word ((failAddress - org()) / 4) - 1
+.endmacro
+
+.macro ifterrainoverlayistype,terrainOverlayType,address
+    .word 0xED, terrainOverlayType
+    .word ((address - org()) / 4) - 1
+.endmacro
+
 .macro echoedvoicedamagecalc
-    .word 0xE6
+    .word 0xEE
 .endmacro
 
 .macro storedpowerdamagecalc
-    .word 0xE7
+    .word 0xEF
 .endmacro
 
 .macro ragefistdamagecalc
-    .word 0xE8
+    .word 0xF0
 .endmacro
 
 .macro strengthsapcalc
-    .word 0xE9
+    .word 0xF1
 .endmacro
 
 .macro didTargetRaiseStat,address
-    .word 0xEA
+    .word 0xF2
     .word ((address - org()) / 4) - 1
 .endmacro

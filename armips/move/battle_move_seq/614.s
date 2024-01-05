@@ -10,7 +10,7 @@
 .create "build/move/battle_move_seq/0_614", 0
 
 a000_614:
-    preparemessage 1493, 0x9, 0x2, 0x1, "NaN", "NaN", "NaN", "NaN"
+    preparemessage 1629, 0x9, 0x2, 0x1, "NaN", "NaN", "NaN", "NaN"
     jumptocurmoveeffectscript
 
 .close

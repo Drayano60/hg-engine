@@ -14,7 +14,7 @@
 
 a001_475:
     setstatusicon BATTLER_xFF, 0x0
-    printmessage 1474, TAG_NICK, BATTLER_xFF, "NaN", "NaN", "NaN", "NaN", "NaN"
+    printmessage 1610, TAG_NICK, BATTLER_xFF, "NaN", "NaN", "NaN", "NaN", "NaN"
     waitmessage
     wait 0x1E
     endscript

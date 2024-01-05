@@ -6,10 +6,13 @@
 .include "armips/include/itemnums.s"
 .include "armips/include/monnums.s"
 .include "armips/include/movenums.s"
+.include "armips/include/constants.s"
+
+// handle printing field effects subscript
 
 .create "build/move/battle_sub_seq/1_345", 0x0
 
-a001_345:
+handleFieldEffectsSubScript:
     endscript
 
 .close

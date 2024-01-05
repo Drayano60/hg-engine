@@ -309,13 +309,13 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
     }
 
     // For Foul Play, the enemy's physical attack stat is the baseline when calculating
-    if (sp->moveTbl[moveno].effect == MOVE_EFFECT_FOUL_PLAY) {
+    if (moveno == MOVE_FOUL_PLAY) {
         attack = BattlePokemonParamGet(sp, defender, BATTLE_MON_DATA_ATK, NULL);
         atkstate = BattlePokemonParamGet(sp, defender, BATTLE_MON_DATA_STATE_ATK, NULL) - 6;
     }
 
     // For Body Press, the user's defense stat is the baseline when calculating
-    if (sp->moveTbl[moveno].effect == MOVE_EFFECT_BODY_PRESS) {
+    if (moveno == MOVE_BODY_PRESS) {
         attack = BattlePokemonParamGet(sp, attacker, BATTLE_MON_DATA_DEF, NULL);
         atkstate = BattlePokemonParamGet(sp, attacker, BATTLE_MON_DATA_STATE_DEF, NULL) - 6;
     }
@@ -1370,6 +1370,43 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
 //            }
 //        }
 //    }
+
+    // Handle field effects
+    if (sp->terrainOverlay.numberOfTurnsLeft > 0) {
+        switch (sp->terrainOverlay.type)
+        {
+        case GRASSY_TERRAIN:
+            if (IsClientGrounded(sp, attacker) && movetype == TYPE_GRASS) {
+                damage = damage * 130 / 100;
+                break;
+            }
+            if (moveno == MOVE_EARTHQUAKE || moveno == MOVE_MAGNITUDE || moveno == MOVE_BULLDOZE) {
+                damage /= 2;
+                break;
+            }
+            break;
+        case ELECTRIC_TERRAIN:
+            if (IsClientGrounded(sp, attacker) && movetype == TYPE_ELECTRIC) {
+                damage = damage * 130 / 100;
+                break;
+            }
+            break;
+        case MISTY_TERRAIN:
+            if (IsClientGrounded(sp, defender) && movetype == TYPE_DRAGON) {
+                damage /= 2;
+                break;
+            }
+            break;
+        case PSYCHIC_TERRAIN:
+            if (IsClientGrounded(sp, attacker) && movetype == TYPE_PSYCHIC) {
+                damage = damage * 130 / 100;
+                break;
+            }
+            break;
+        default:
+            break;
+        }
+    }
 
     return damage + 2;
 }

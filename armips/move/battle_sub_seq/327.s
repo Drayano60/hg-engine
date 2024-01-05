@@ -24,7 +24,7 @@ a001_327:
 _Cure:
     setstatus2effect BATTLER_ATTACKER, 0xA
     waitmessage
-    printmessage 1506, TAG_NICK_ITEM, BATTLER_ATTACKER, BATTLER_ATTACKER, "NaN", "NaN", "NaN", "NaN"
+    printmessage 1642, TAG_NICK_ITEM, BATTLER_ATTACKER, BATTLER_ATTACKER, "NaN", "NaN", "NaN", "NaN"
     waitmessage
     wait 0x1E
     changemondatabyvar VAR_OP_SET, BATTLER_ATTACKER, MON_DATA_DISABLED_MOVE, 0

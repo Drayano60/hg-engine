@@ -75,11 +75,11 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_TENTACOOL, 25, 25
-encounter SPECIES_TENTACOOL, 25, 25
-encounter SPECIES_TENTACOOL, 25, 25
-encounter SPECIES_TENTACRUEL, 30, 30
-encounter SPECIES_TENTACRUEL, 30, 30
+encounter SPECIES_TENTACOOL, 28, 30
+encounter SPECIES_TENTACOOL, 28, 30
+encounter SPECIES_TENTACOOL, 28, 30
+encounter SPECIES_TENTACRUEL, 30, 32
+encounter SPECIES_TENTACRUEL, 30, 32
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
@@ -387,11 +387,11 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_WINGULL, 25, 25
-encounter SPECIES_TENTACOOL, 25, 25
-encounter SPECIES_TENTACOOL, 25, 25
-encounter SPECIES_PELIPPER, 30, 30
-encounter SPECIES_TENTACRUEL, 30, 30
+encounter SPECIES_WINGULL, 28, 30
+encounter SPECIES_TENTACOOL, 28, 30
+encounter SPECIES_TENTACOOL, 28, 30
+encounter SPECIES_PELIPPER, 30, 32
+encounter SPECIES_TENTACRUEL, 30, 32
 
 // rock smash encounters
 encounter SPECIES_KRABBY, 10, 12
@@ -491,11 +491,11 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_POLIWAG, 25, 25
-encounter SPECIES_SURSKIT, 25, 25
-encounter SPECIES_SURSKIT, 25, 25
-encounter SPECIES_POLIWHIRL, 30, 30
-encounter SPECIES_MASQUERAIN, 30, 30
+encounter SPECIES_POLIWAG, 28, 30
+encounter SPECIES_SURSKIT, 28, 30
+encounter SPECIES_SURSKIT, 28, 30
+encounter SPECIES_POLIWHIRL, 30, 32
+encounter SPECIES_MASQUERAIN, 30, 32
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
@@ -595,11 +595,11 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_POLIWAG, 25, 25
-encounter SPECIES_MARILL, 25, 25
-encounter SPECIES_MARILL, 25, 25
-encounter SPECIES_POLIWHIRL, 30, 30
-encounter SPECIES_AZUMARILL, 30, 30
+encounter SPECIES_POLIWAG, 28, 30
+encounter SPECIES_MARILL, 28, 30
+encounter SPECIES_MARILL, 28, 30
+encounter SPECIES_POLIWHIRL, 30, 32
+encounter SPECIES_AZUMARILL, 30, 32
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
@@ -699,11 +699,11 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_ZUBAT, 25, 25
-encounter SPECIES_ZUBAT, 25, 25
-encounter SPECIES_ZUBAT, 25, 25
-encounter SPECIES_GOLBAT, 30, 30
-encounter SPECIES_GOLBAT, 30, 30
+encounter SPECIES_ZUBAT, 28, 30
+encounter SPECIES_ZUBAT, 28, 30
+encounter SPECIES_ZUBAT, 28, 30
+encounter SPECIES_GOLBAT, 30, 32
+encounter SPECIES_GOLBAT, 30, 32
 
 // rock smash encounters
 encounter SPECIES_DUNSPARCE, 11, 12
@@ -803,11 +803,11 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_POLIWAG, 25, 25
-encounter SPECIES_MARILL, 25, 25
-encounter SPECIES_MARILL, 25, 25
-encounter SPECIES_POLIWHIRL, 30, 30
-encounter SPECIES_AZUMARILL, 30, 30
+encounter SPECIES_POLIWAG, 28, 30
+encounter SPECIES_MARILL, 28, 30
+encounter SPECIES_MARILL, 28, 30
+encounter SPECIES_POLIWHIRL, 30, 32
+encounter SPECIES_AZUMARILL, 30, 32
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
@@ -1219,11 +1219,11 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_WOOPER, 25, 25
-encounter SPECIES_WOOPER, 25, 25
-encounter SPECIES_WOOPER, 25, 25
-encounter SPECIES_QUAGSIRE, 30, 30
-encounter SPECIES_QUAGSIRE, 30, 30
+encounter SPECIES_WOOPER, 28, 30
+encounter SPECIES_WOOPER, 28, 30
+encounter SPECIES_WOOPER, 28, 30
+encounter SPECIES_QUAGSIRE, 30, 32
+encounter SPECIES_QUAGSIRE, 30, 32
 
 // rock smash encounters
 encounter SPECIES_GEODUDE, 11, 12
@@ -1427,11 +1427,11 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_MAGIKARP, 5, 25
-encounter SPECIES_MAGIKARP, 5, 25
-encounter SPECIES_MAGIKARP, 5, 25
-encounter SPECIES_MAGIKARP, 5, 25
-encounter SPECIES_MAGIKARP, 5, 25
+encounter SPECIES_MAGIKARP, 5, 30
+encounter SPECIES_MAGIKARP, 5, 30
+encounter SPECIES_MAGIKARP, 5, 30
+encounter SPECIES_MAGIKARP, 5, 30
+encounter SPECIES_MAGIKARP, 5, 30
 
 // rock smash encounters
 encounter SPECIES_GEODUDE, 11, 12
@@ -1531,11 +1531,11 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_WINGULL, 25, 25
-encounter SPECIES_TENTACOOL, 25, 25
-encounter SPECIES_TENTACOOL, 25, 25
-encounter SPECIES_PELIPPER, 30, 30
-encounter SPECIES_TENTACRUEL, 30, 30
+encounter SPECIES_WINGULL, 28, 30
+encounter SPECIES_TENTACOOL, 28, 30
+encounter SPECIES_TENTACOOL, 28, 30
+encounter SPECIES_PELIPPER, 30, 32
+encounter SPECIES_TENTACRUEL, 30, 32
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
@@ -1635,11 +1635,11 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_ZUBAT, 25, 25
-encounter SPECIES_WOOPER, 25, 25
-encounter SPECIES_WOOPER, 25, 25
-encounter SPECIES_GOLBAT, 30, 30
-encounter SPECIES_QUAGSIRE, 30, 30
+encounter SPECIES_ZUBAT, 28, 30
+encounter SPECIES_WOOPER, 28, 30
+encounter SPECIES_WOOPER, 28, 30
+encounter SPECIES_GOLBAT, 30, 32
+encounter SPECIES_QUAGSIRE, 30, 32
 
 // rock smash encounters
 encounter SPECIES_GEODUDE, 12, 13
@@ -1843,11 +1843,11 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_PSYDUCK, 25, 25
-encounter SPECIES_PSYDUCK, 25, 25
-encounter SPECIES_PSYDUCK, 25, 25
-encounter SPECIES_GOLDUCK, 30, 30
-encounter SPECIES_GOLDUCK, 30, 30
+encounter SPECIES_PSYDUCK, 28, 30
+encounter SPECIES_PSYDUCK, 28, 30
+encounter SPECIES_PSYDUCK, 28, 30
+encounter SPECIES_PSYDUCK, 28, 30
+encounter SPECIES_PSYDUCK, 28, 30
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
@@ -1947,11 +1947,11 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_ZUBAT, 25, 25
-encounter SPECIES_SLOWPOKE, 25, 25
-encounter SPECIES_SLOWPOKE, 25, 25
-encounter SPECIES_GOLBAT, 30, 30
-encounter SPECIES_SLOWBRO, 30, 30
+encounter SPECIES_ZUBAT, 28, 30
+encounter SPECIES_SLOWPOKE, 28, 30
+encounter SPECIES_SLOWPOKE, 28, 30
+encounter SPECIES_GOLBAT, 30, 32
+encounter SPECIES_GOLBAT, 30, 32
 
 // rock smash encounters
 encounter SPECIES_GEODUDE, 14, 15
@@ -2051,11 +2051,11 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_TENTACOOL, 25, 25
-encounter SPECIES_TENTACOOL, 25, 25
-encounter SPECIES_TENTACOOL, 25, 25
-encounter SPECIES_TENTACRUEL, 30, 30
-encounter SPECIES_TENTACRUEL, 30, 30
+encounter SPECIES_TENTACOOL, 28, 30
+encounter SPECIES_TENTACOOL, 28, 30
+encounter SPECIES_TENTACOOL, 28, 30
+encounter SPECIES_TENTACRUEL, 30, 32
+encounter SPECIES_TENTACRUEL, 30, 32
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
@@ -2155,11 +2155,11 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_PSYDUCK, 25, 25
-encounter SPECIES_PSYDUCK, 25, 25
-encounter SPECIES_PSYDUCK, 25, 25
-encounter SPECIES_GOLDUCK, 30, 30
-encounter SPECIES_GOLDUCK, 30, 30
+encounter SPECIES_PSYDUCK, 28, 30
+encounter SPECIES_PSYDUCK, 28, 30
+encounter SPECIES_PSYDUCK, 28, 30
+encounter SPECIES_PSYDUCK, 28, 30
+encounter SPECIES_PSYDUCK, 28, 30
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
@@ -2571,11 +2571,11 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_POLIWAG, 25, 25
-encounter SPECIES_POLIWAG, 25, 25
-encounter SPECIES_POLIWAG, 25, 25
-encounter SPECIES_POLIWHIRL, 30, 30
-encounter SPECIES_POLIWHIRL, 30, 30
+encounter SPECIES_POLIWAG, 28, 30
+encounter SPECIES_POLIWAG, 28, 30
+encounter SPECIES_POLIWAG, 28, 30
+encounter SPECIES_POLIWHIRL, 30, 32
+encounter SPECIES_POLIWHIRL, 30, 32
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
@@ -2757,7 +2757,7 @@ pokemon SPECIES_SKARMORY
 pokemon SPECIES_TORKOAL
 
 // night encounter slots
-pokemon SPECIES_FEAROW
+pokemon SPECIES_HOUNDOOM
 pokemon SPECIES_ARBOK
 pokemon SPECIES_MANKEY
 pokemon SPECIES_MANKEY
@@ -2779,11 +2779,11 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_GOLDEEN, 25, 25
-encounter SPECIES_GOLDEEN, 25, 25
-encounter SPECIES_GOLDEEN, 25, 25
-encounter SPECIES_SEAKING, 30, 30
-encounter SPECIES_SEAKING, 30, 30
+encounter SPECIES_GOLDEEN, 28, 30
+encounter SPECIES_GOLDEEN, 28, 30
+encounter SPECIES_GOLDEEN, 28, 30
+encounter SPECIES_SEAKING, 30, 32
+encounter SPECIES_SEAKING, 30, 32
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
@@ -2883,11 +2883,11 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_GOLDEEN, 25, 25
-encounter SPECIES_MARILL, 25, 25
-encounter SPECIES_MARILL, 25, 25
-encounter SPECIES_SEAKING, 30, 30
-encounter SPECIES_AZUMARILL, 30, 30
+encounter SPECIES_GOLDEEN, 28, 30
+encounter SPECIES_MARILL, 28, 30
+encounter SPECIES_MARILL, 28, 30
+encounter SPECIES_SEAKING, 30, 32
+encounter SPECIES_AZUMARILL, 30, 32
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
@@ -2987,11 +2987,11 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_SPHEAL, 25, 25
-encounter SPECIES_SPHEAL, 25, 25
-encounter SPECIES_SPHEAL, 25, 25
-encounter SPECIES_SEALEO, 30, 30
-encounter SPECIES_SEALEO, 30, 30
+encounter SPECIES_SPHEAL, 28, 30
+encounter SPECIES_SPHEAL, 28, 30
+encounter SPECIES_SPHEAL, 28, 30
+encounter SPECIES_SEALEO, 30, 32
+encounter SPECIES_SEALEO, 30, 32
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
@@ -3299,11 +3299,11 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_TENTACOOL, 25, 25
-encounter SPECIES_WOOPER, 25, 25
-encounter SPECIES_WOOPER, 25, 25
-encounter SPECIES_QUAGSIRE, 30, 30
-encounter SPECIES_TENTACRUEL, 30, 30
+encounter SPECIES_WOOPER, 28, 30
+encounter SPECIES_TENTACOOL, 28, 30
+encounter SPECIES_TENTACOOL, 28, 30
+encounter SPECIES_QUAGSIRE, 30, 32
+encounter SPECIES_TENTACRUEL, 30, 32
 
 // rock smash encounters
 encounter SPECIES_GRAVELER, 31, 31
@@ -3509,11 +3509,11 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_ZUBAT, 25, 25
-encounter SPECIES_SLOWPOKE, 25, 25
-encounter SPECIES_SLOWPOKE, 25, 25
-encounter SPECIES_GOLBAT, 30, 30
-encounter SPECIES_SLOWBRO, 30, 30
+encounter SPECIES_ZUBAT, 28, 30
+encounter SPECIES_SLOWPOKE, 28, 30
+encounter SPECIES_SLOWPOKE, 28, 30
+encounter SPECIES_GOLBAT, 30, 32
+encounter SPECIES_GOLBAT, 30, 32
 
 // rock smash encounters
 encounter SPECIES_GRAVELER, 28, 29
@@ -3717,9 +3717,9 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_WINGULL, 26, 28
-encounter SPECIES_TENTACOOL, 26, 28
-encounter SPECIES_TENTACOOL, 26, 28
+encounter SPECIES_WINGULL, 28, 30
+encounter SPECIES_TENTACOOL, 28, 30
+encounter SPECIES_TENTACOOL, 28, 30
 encounter SPECIES_PELIPPER, 30, 32
 encounter SPECIES_TENTACRUEL, 30, 32
 
@@ -3728,11 +3728,11 @@ encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_KRABBY, 27, 29
-encounter SPECIES_STARYU, 27, 29
-encounter SPECIES_STARYU, 27, 29
-encounter SPECIES_CORSOLA, 27, 29
-encounter SPECIES_CORSOLA, 27, 29
+encounter SPECIES_KRABBY, 28, 30
+encounter SPECIES_STARYU, 28, 30
+encounter SPECIES_STARYU, 28, 30
+encounter SPECIES_CORSOLA, 30, 32
+encounter SPECIES_CORSOLA, 30, 32
 
 // good rod encounters
 encounter SPECIES_MAGIKARP, 1, 1
@@ -3768,75 +3768,75 @@ rocksmashrate NEW_ROCK_SMASH_RATE
 oldrodrate FISHING_RATE
 goodrodrate FISHING_RATE
 superrodrate FISHING_RATE
-walklevels 27, 28, 27, 28, 27, 28, 29, 29, 29, 29, 29, 29
+walklevels 31, 31, 30, 31, 30, 31, 31, 31, 30, 31, 30, 31
 
 // morning encounter slots
-pokemon SPECIES_EXEGGCUTE
-pokemon SPECIES_EXEGGCUTE
-pokemon SPECIES_MAGNEMITE
-pokemon SPECIES_MAGNEMITE
-pokemon SPECIES_SLOWPOKE
-pokemon SPECIES_SLOWPOKE
+pokemon SPECIES_MAGNETON
+pokemon SPECIES_PACHIRISU
+pokemon SPECIES_TANGELA
 pokemon SPECIES_TANGELA
 pokemon SPECIES_MR_MIME
+pokemon SPECIES_MR_MIME
 pokemon SPECIES_FLOATZEL
-pokemon SPECIES_FLOATZEL
+pokemon SPECIES_GASTRODON
 pokemon SPECIES_CHATOT
 pokemon SPECIES_CHATOT
+pokemon SPECIES_CARNIVINE
+pokemon SPECIES_CARNIVINE
 
 // day encounter slots
-pokemon SPECIES_EXEGGCUTE
-pokemon SPECIES_EXEGGCUTE
-pokemon SPECIES_MAGNEMITE
-pokemon SPECIES_MAGNEMITE
-pokemon SPECIES_SLOWPOKE
-pokemon SPECIES_SLOWPOKE
+pokemon SPECIES_MAGNETON
+pokemon SPECIES_PACHIRISU
+pokemon SPECIES_TANGELA
 pokemon SPECIES_TANGELA
 pokemon SPECIES_MR_MIME
+pokemon SPECIES_MR_MIME
 pokemon SPECIES_FLOATZEL
-pokemon SPECIES_FLOATZEL
+pokemon SPECIES_GASTRODON
 pokemon SPECIES_CHATOT
 pokemon SPECIES_CHATOT
+pokemon SPECIES_CARNIVINE
+pokemon SPECIES_CARNIVINE
 
 // night encounter slots
-pokemon SPECIES_EXEGGCUTE
-pokemon SPECIES_EXEGGCUTE
-pokemon SPECIES_MAGNEMITE
-pokemon SPECIES_MAGNEMITE
-pokemon SPECIES_SLOWPOKE
-pokemon SPECIES_SLOWPOKE
+pokemon SPECIES_MAGNETON
+pokemon SPECIES_PACHIRISU
+pokemon SPECIES_TANGELA
 pokemon SPECIES_TANGELA
 pokemon SPECIES_MR_MIME
+pokemon SPECIES_MR_MIME
 pokemon SPECIES_FLOATZEL
-pokemon SPECIES_FLOATZEL
+pokemon SPECIES_GASTRODON
 pokemon SPECIES_DRIFBLIM
 pokemon SPECIES_DRIFBLIM
+pokemon SPECIES_CARNIVINE
+pokemon SPECIES_CARNIVINE
 
 // hoenn encounter slots
-pokemon SPECIES_SAWK
 pokemon SPECIES_THROH
+pokemon SPECIES_SAWK
 
 // sinnoh encounter slots
 pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_WINGULL, 27, 29
-encounter SPECIES_TENTACOOL, 27, 29
-encounter SPECIES_TENTACOOL, 27, 29
+encounter SPECIES_WINGULL, 28, 30
+encounter SPECIES_TENTACOOL, 28, 30
+encounter SPECIES_TENTACOOL, 28, 30
 encounter SPECIES_PELIPPER, 30, 32
 encounter SPECIES_TENTACRUEL, 30, 32
 
 // rock smash encounters
-encounter SPECIES_KRABBY, 27, 29
-encounter SPECIES_SHUCKLE, 27, 29
+encounter SPECIES_KRABBY, 28, 30
+encounter SPECIES_SHUCKLE, 30, 32
 
 // old rod encounters
-encounter SPECIES_STARYU, 27, 29
-encounter SPECIES_CHINCHOU, 27, 29
-encounter SPECIES_CHINCHOU, 27, 29
-encounter SPECIES_CLAMPERL, 27, 29
-encounter SPECIES_CLAMPERL, 27, 29
+encounter SPECIES_STARYU, 28, 30
+encounter SPECIES_CHINCHOU, 28, 30
+encounter SPECIES_CHINCHOU, 28, 30
+encounter SPECIES_CLAMPERL, 28, 30
+encounter SPECIES_CLAMPERL, 28, 30
 
 // good rod encounters
 encounter SPECIES_MAGIKARP, 1, 1
@@ -3925,7 +3925,7 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_MANTYKE, 28, 29
+encounter SPECIES_MANTYKE, 28, 30
 encounter SPECIES_PELIPPER, 30, 32
 encounter SPECIES_TENTACRUEL, 30, 32
 encounter SPECIES_SHARPEDO, 30, 32
@@ -3936,11 +3936,11 @@ encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_HORSEA, 28, 29
-encounter SPECIES_SHELLDER, 28, 29
-encounter SPECIES_SHELLDER, 28, 29
-encounter SPECIES_WAILMER, 28, 29
-encounter SPECIES_WAILMER, 28, 29
+encounter SPECIES_HORSEA, 28, 30
+encounter SPECIES_SHELLDER, 28, 30
+encounter SPECIES_SHELLDER, 28, 30
+encounter SPECIES_WAILMER, 28, 30
+encounter SPECIES_WAILMER, 28, 30
 
 // good rod encounters
 encounter SPECIES_MAGIKARP, 1, 1
@@ -4029,22 +4029,22 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_WINGULL, 28, 29
-encounter SPECIES_TENTACOOL, 28, 29
-encounter SPECIES_TENTACOOL, 28, 29
+encounter SPECIES_WINGULL, 28, 30
+encounter SPECIES_TENTACOOL, 28, 30
+encounter SPECIES_TENTACOOL, 28, 30
 encounter SPECIES_PELIPPER, 30, 32
 encounter SPECIES_TENTACRUEL, 30, 32
 
 // rock smash encounters
-encounter SPECIES_KRABBY, 28, 29
-encounter SPECIES_SHUCKLE, 28, 29
+encounter SPECIES_KRABBY, 28, 30
+encounter SPECIES_SHUCKLE, 30, 32
 
 // old rod encounters
-encounter SPECIES_KRABBY, 28, 29
-encounter SPECIES_STARYU, 28, 29
-encounter SPECIES_STARYU, 28, 29
-encounter SPECIES_CORSOLA, 28, 29
-encounter SPECIES_CORSOLA, 28, 29
+encounter SPECIES_KRABBY, 28, 30
+encounter SPECIES_STARYU, 28, 30
+encounter SPECIES_STARYU, 28, 30
+encounter SPECIES_CORSOLA, 30, 32
+encounter SPECIES_CORSOLA, 30, 32
 
 // good rod encounters
 encounter SPECIES_MAGIKARP, 1, 1

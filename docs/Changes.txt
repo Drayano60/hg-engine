@@ -159,7 +159,7 @@ Azalea Town
 ✓ Added a burglar next to Kurt's house who gives TM46.
 ✓ Kurt now gives you HM01 instead of a Fast Ball.
 ✓ Kurt now instantly makes the respective Poké Balls when he's given apricorns instead of it being a daily event.
-✓ The charcoal makers will now give you the Charcoal immediately after defeating Team Rocket in the well. Farfetch'd event no longer happens.
+✓ The charcoal makers will now give you the Charcoal immediately after defeating Team Rocket in the well. Farfetch'd event no longer happens. The master's dialogue is also changed slightly to remove the Ilex Forest part.
 ✓ Added a trade in the Charcoal Kiln house for a Horsea in exchange for any Fighting-type.
 
 Slowpoke Well
@@ -392,7 +392,6 @@ Route 41
 ✓ No changes here.
 
 Cianwood City
-✓ Added an NPC in the top left house who gives the Eviolite.
 ✓ Added a Rocket Grunt in front of the Safari Zone sign for some foreshadowing.
 ✓ There's now a trigger in front of the Gym that prevents you going in until you beat Eusine.
 ✓ The Eusine script now continues regardless of if you win or lose, and stops the Gym block afterwards. His dialogue is edited slightly to be neutral to the win/loss.

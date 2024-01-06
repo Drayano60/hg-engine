@@ -388,7 +388,7 @@ _02BC: // Trainer 494
     trainertextentry 494, TEXT_DEFEATED_IN_OVERWORLD, "We use only Ghost-type Pokémon.\rNo Normal-type attack can harm them!\n"
 
 _02C8: // Trainer 156
-    trainertextentry 156, TEXT_NOTICE_IN_OVERWORLD, "My Pokémon and I are bound together by\nfriendship.\fOur bond will never be broken!\r"
+    trainertextentry 156, TEXT_NOTICE_IN_OVERWORLD, "My Pokémon and I are bound together\nby friendship.\fOur bond will never be broken!\r"
     trainertextentry 156, TEXT_DEFEATED_IN_BATTLE, "This isn’t real!\n"
     trainertextentry 156, TEXT_DEFEATED_IN_OVERWORLD, "You seem to have a strong bond with\nyour Pokémon, too!\n"
 
@@ -2036,7 +2036,7 @@ _1260: // Trainer 401
 _1270: // Trainer 215
     trainertextentry 215, TEXT_NOTICE_IN_OVERWORLD, "Jasmine is this city’s Gym Leader.\nI intend to bring her back with me.\rNobody better get in my way!\r"
     trainertextentry 215, TEXT_DEFEATED_IN_BATTLE, "Aaack! My Pokémon!\n"
-    trainertextentry 215, TEXT_DEFEATED_IN_OVERWORLD, "Right. Anybody would be worried if his or\nher own Pokémon were hurt.\n"
+    trainertextentry 215, TEXT_DEFEATED_IN_OVERWORLD, "Right. Anybody would be worried if his\nor her own Pokémon were hurt.\n"
 
 _127C: // Trainer 211
     trainertextentry 211, TEXT_NOTICE_IN_OVERWORLD, "Men of the sea are always spoiling for a\ngood fight!\r"

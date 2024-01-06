@@ -15405,7 +15405,7 @@ movedata MOVE_INFERNAL_BLAST, "Infernal Blast"
     movedescription MOVE_INFERNAL_BLAST, "The user rubs its\nblazing fur together,\ncausing an explosion.\nIt has a 30% chance\nto burn what it hits."
 
 // This is a custom move for Feraligatr.
-// It is a clone of Fishious Rend.
+// It is an offshoot of Fishious Rend.
 // The effect is handled in battle_calc_damage.c.
 movedata MOVE_SAVAGE_REND, "Savage Rend"
     battleeffect 0
@@ -15421,7 +15421,7 @@ movedata MOVE_SAVAGE_REND, "Savage Rend"
     appeal FLAG_BITING
     contesttype 0
     terminatedata
-    movedescription MOVE_SAVAGE_REND, "The user savagely\ntears up the foe.\nThis move’s power is\ndoubled if the user\nattacks first."
+    movedescription MOVE_SAVAGE_REND, "The user savagely\ntears up the foe.\nThis move is always\na critical hit if the\nuser moves first."
 
 // This is a custom move for Ledian. Clone of Population Bomb (with different accuracy).
 movedata MOVE_PIDDLY_PUNCHES, "Piddly Punches"

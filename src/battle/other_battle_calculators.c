@@ -912,7 +912,14 @@ int CalcCritical(void *bw, struct BattleStruct *sp, int attacker, int defender, 
 
     // Move eff for Frost Breath and Storm Throw sets the critical_count to 15 explicitly.
     // Handles Merciless here too.
-    if (BattleRand(bw) % CriticalRateTable[temp] == 0 || critical_count == 15 || (ability == ABILITY_MERCILESS && (condition & STATUS_POISON_ANY)))
+    // Custom Savage Rend check here too, checks for if target has acted already this turn or has just switched in this turn
+    if
+    (
+        BattleRand(bw) % CriticalRateTable[temp] == 0
+        || critical_count == 15
+        || (ability == ABILITY_MERCILESS && (condition & STATUS_POISON_ANY))
+        || (sp->current_move_index == MOVE_SAVAGE_REND && (sp->client_act_work[defender][0] != 40 || sp->battlemon[defender].moveeffect.fakeOutCount == (sp->total_turn + 1)))
+    )
     {
         if ((MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_BATTLE_ARMOR) == FALSE)
          && (MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_SHELL_ARMOR) == FALSE)
@@ -1554,11 +1561,8 @@ BOOL BattleTryRun(void *bw, struct BattleStruct *ctx, int battlerId) {
 BOOL adjustedMoveHasPositivePriority(struct BattleStruct *sp, int attacker) {
     BOOL isTriageMove = FALSE;
 
-    for (u16 i = 0; i < NELEMS(TriageMovesList); i++) {
-        if (TriageMovesList[i] == sp->current_move_index) {
-            isTriageMove = TRUE;
-            break;
-        }
+    if (sp->moveTbl[sp->current_move_index].appeal & FLAG_HEALING) {
+        isTriageMove = TRUE;
     }
 
     if (

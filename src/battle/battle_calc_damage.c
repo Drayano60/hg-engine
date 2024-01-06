@@ -415,24 +415,6 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
         }
     }
 
-    // Handle Savage Rend's double damage effect (like Fishous Rend/Bolt Beak)
-    // Don't think the AI can read this one, might never fulfil the condition so it just uses the base 85 BP
-    if (moveno == MOVE_SAVAGE_REND) {
-        if
-        (
-            // This checks if the user has not already acted this turn (I think?)
-            // Stole it from TryMeFirst in the decomp
-            (sp->client_act_work[defender][0] != 40)
-
-            // This lets it double damage on targets that just switched in
-            // Don't particularly understand it but Speed Boost uses this too so it doesn't boost on initial switch-in
-            || (sp->battlemon[defender].moveeffect.fakeOutCount == (sp->total_turn + 1)) 
-        )
-        {
-            movepower = 1;
-        }
-    }
-
     // handle charge
     if ((sp->battlemon[attacker].effect_of_moves & MOVE_EFFECT_FLAG_CHARGE) && (movetype == TYPE_ELECTRIC))
         movepower *= 2;

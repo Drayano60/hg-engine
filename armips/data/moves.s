@@ -9028,7 +9028,7 @@ movedata MOVE_ACID_SPRAY, "Acid Spray"
     movedescription MOVE_ACID_SPRAY, "The user spits out\nfluid that works to\nmelt the target.\nIt harshly lowers the\nfoe’s Sp. Def stat."
 
 movedata MOVE_FOUL_PLAY, "Foul Play"
-    battleeffect 294
+    battleeffect 0 // Eff is handled in battle_calc_damage.c
     pss SPLIT_PHYSICAL
     basepower 95
     type TYPE_DARK
@@ -13408,7 +13408,7 @@ movedata MOVE_CLANGOROUS_SOUL, "Clangorous Soul"
     terminatedata
 
 movedata MOVE_BODY_PRESS, "Body Press"
-    battleeffect 296
+    battleeffect 0 // Eff is handled in battle_calc_damage.c
     pss SPLIT_PHYSICAL
     basepower 80
     type TYPE_FIGHTING

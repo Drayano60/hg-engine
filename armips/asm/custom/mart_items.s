@@ -277,12 +277,12 @@ const u16 *_0210FA3C[] = {
 .halfword ITEM_OVAL_STONE
 .halfword ITEM_KINGS_ROCK
 .halfword ITEM_LINKING_CORD
+.halfword ITEM_RAZOR_CLAW
+.halfword ITEM_RAZOR_FANG
 .halfword ITEM_PRISM_SCALE
 .halfword ITEM_SACHET
 .halfword ITEM_UP_GRADE
 .halfword ITEM_WHIPPED_DREAM
-.halfword 0xFFFF
-.halfword 0xFFFF
 .halfword 0xFFFF
 
 .close

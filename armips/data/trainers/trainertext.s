@@ -3205,7 +3205,7 @@ _Trainer207:
     trainertextentry 207, TEXT_DEFEATED_IN_OVERWORLD, "Our Executives have big plans.\rThey think stealing the Pokémon from\nthe Safari Zone will help to bolster\four strength."
 
 _Trainer208:
-    trainertextentry 208, TEXT_NOTICE_IN_OVERWORLD, "Ha!\nYou’ve activated our trap card!\rThe amazing Team Rocket Ambush!\r"
+    trainertextentry 208, TEXT_NOTICE_IN_OVERWORLD, "Ha!\nYou’ve activated our trap card!\rThe amazing Team Rocket ambush!\r"
     trainertextentry 208, TEXT_DEFEATED_IN_BATTLE, "Argh! Did you use a counter trap?!\n"
     trainertextentry 208, TEXT_DEFEATED_IN_OVERWORLD, "We’re here to get some strong\nmonsters for our decks.\rWe don’t have time for magic cards.\nWe just need some beatsticks!"
 
@@ -3235,7 +3235,7 @@ _Trainer262:
     trainertextentry 262, TEXT_DEFEATED_IN_OVERWORLD, "You have it so easy, kid.\nIt’s so not fair!"
 
 _Trainer273:
-    trainertextentry 273, TEXT_NOTICE_IN_OVERWORLD, "Uwee hee hee!\nI’m the queen of the marshland!\r"
+    trainertextentry 273, TEXT_NOTICE_IN_OVERWORLD, "Hee hee hee!\nI’m the queen of the marshland!\r"
     trainertextentry 273, TEXT_DEFEATED_IN_BATTLE, "Guh...\n"
     trainertextentry 273, TEXT_DEFEATED_IN_OVERWORLD, "We stole a lot of Pokémon.\nI bet I got the bad ones..."
 
@@ -4477,5 +4477,15 @@ _Trainer829:
 /* Trainer 827 */ .halfword _Trainer827
 /* Trainer 828 */ .halfword _Trainer828
 /* Trainer 829 */ .halfword _Trainer829
+/* Trainer 830 */ .halfword _0000
+/* Trainer 831 */ .halfword _0000
+/* Trainer 832 */ .halfword _0000
+/* Trainer 833 */ .halfword _0000
+/* Trainer 834 */ .halfword _0000
+/* Trainer 835 */ .halfword _0000
+/* Trainer 836 */ .halfword _0000
+/* Trainer 837 */ .halfword _0000
+/* Trainer 838 */ .halfword _0000
+/* Trainer 839 */ .halfword _0000
 
 .close

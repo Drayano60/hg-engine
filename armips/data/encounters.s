@@ -2987,10 +2987,10 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
+encounter SPECIES_POLIWAG, 28, 30
 encounter SPECIES_SPHEAL, 28, 30
 encounter SPECIES_SPHEAL, 28, 30
-encounter SPECIES_SPHEAL, 28, 30
-encounter SPECIES_SEALEO, 30, 32
+encounter SPECIES_POLIWHIRL, 30, 32
 encounter SPECIES_SEALEO, 30, 32
 
 // rock smash encounters
@@ -4237,22 +4237,22 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_SEEL, 29, 32
-encounter SPECIES_STARYU, 29, 32
-encounter SPECIES_TENTACOOL, 29, 32
-encounter SPECIES_TENTACRUEL, 34, 34
-encounter SPECIES_DEWGONG, 34, 34
+encounter SPECIES_SEEL, 31, 33
+encounter SPECIES_STARYU, 31, 33
+encounter SPECIES_STARYU, 31, 33
+encounter SPECIES_TENTACRUEL, 34, 36
+encounter SPECIES_DEWGONG, 34, 36
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_CHINCHOU, 29, 32
-encounter SPECIES_SHELLDER, 29, 32
-encounter SPECIES_SHELLDER, 29, 32
-encounter SPECIES_STARYU, 29, 32
-encounter SPECIES_STARYU, 29, 32
+encounter SPECIES_CHINCHOU, 31, 33
+encounter SPECIES_SHELLDER, 31, 33
+encounter SPECIES_STARYU, 31, 33
+encounter SPECIES_LANTURN, 34, 36
+encounter SPECIES_LANTURN, 34, 36
 
 // good rod encounters
 encounter SPECIES_MAGIKARP, 1, 1
@@ -4288,7 +4288,7 @@ rocksmashrate 30
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 32, 33, 32, 33, 32, 33, 32, 32, 33, 33, 32, 33
+walklevels 34, 35, 34, 35, 34, 35, 34, 34, 35, 35, 34, 35
 
 // morning encounter slots
 pokemon SPECIES_GOLBAT
@@ -4348,8 +4348,8 @@ encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // rock smash encounters
-encounter SPECIES_KINGLER, 32, 33
-encounter SPECIES_DUGTRIO, 32, 33
+encounter SPECIES_KINGLER, 34, 35
+encounter SPECIES_DUGTRIO, 34, 35
 
 // old rod encounters
 encounter SPECIES_NONE, 0, 0
@@ -4392,7 +4392,7 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 32, 33, 32, 33, 32, 33, 33, 33, 33, 33, 33, 33
+walklevels 34, 35, 34, 35, 34, 35, 35, 35, 34, 35, 35, 35
 
 // morning encounter slots
 pokemon SPECIES_GIRAFARIG

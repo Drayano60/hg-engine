@@ -437,13 +437,14 @@ Route 48
 ✓ Nugget -> TM81 X-Scissor.
 
 Safari Zone Gate (Rocket)
-✓ [THIS IS NOT DONE YET] Set the music to be the Team Rocket one while the relevant flag is active. This was done by stealing the entry from Cerulean Gym.
+✓ Set the music to be the Team Rocket one while the relevant flag (2176) is set. This was done by stealing the entry from Cerulean Gym.
 ✓ Added three Rocket Grunts using Mickeys.
 ✓ Added Athena/Archer in front of the Safari Zone entrance. Double battle with them with Silver as a partner. Afterwards, they leave, taking all of the Rockets with them. Silver leaves afterwards, and then Baoba will appear and give you TM17 Protect before warping you into the Safari Zone.
 ✓ Added a Rocket in front of the Pokémon Center while the event is active, who heals your Pokémon for a fee.
+✓ Modified the level script activated script to clear the Safari Zone Gate fly flag while the Rockets are still there, to prevent the player skipping battles and/or flying on top of an NPC.
 
 Safari Zone
-✓ Baoba's initial dialogue has been edited a bit to reflect the new scenario. You're now made the Owner and given access to all 12 slots immediately, but the Object Arrangement stuff still comes later as normal after fulfiling the other requirements. Baoba's dialogue also reveals the Kanto leaders in the various cities.
+✓ Baoba's initial dialogue has been edited a bit to reflect the new scenario. You're now made the Owner and given access to all 12 slots immediately, but the Object Arrangement stuff still comes later as normal after fulfiling the other requirements. Baoba's dialogue also mentions that the Kanto leaders have popped up in various locations.
 ✓ Cianwood's pharmacist also makes an appearance here with some dialogue before leaving. He can now be found in Cianwood again and the Secret Medicine collected.
 ✓ A Kimono Girl sits here with some basic dialogue. She disappears after beating Jasmine; this is just some setup for later.
 ✓ Added an NPC (Beauty OW) that gives you TM17 Protect.

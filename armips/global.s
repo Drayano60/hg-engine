@@ -45,6 +45,7 @@
 .include "armips/asm/custom/pickup_table.s"
 .include "armips/asm/custom/spiky_pichu.s"
 .include "armips/asm/custom/metronome_counter.s"
+.include "armips/asm/custom/conditional_music.s"
 
 .if REUSABLE_TMS == 1 // Using my own as my TM file also includes the move changes
 .include "armips/asm/tm.s" // make tms infinite

@@ -1216,7 +1216,7 @@ int ServerDoTypeCalcMod(void *bw UNUSED, struct BattleStruct *sp, int move_no, i
           && (move_type == TYPE_GROUND)
           && (eqp_d != HOLD_EFFECT_HALVE_SPEED))
     {
-        flag[0] |= MOVE_STATUS_FLAG_MISS; // air balloon just misses for the moment
+        flag[0] |= MOVE_STATUS_FLAG_NOT_EFFECTIVE; // air balloon shows no effect message
     }
     else
     {

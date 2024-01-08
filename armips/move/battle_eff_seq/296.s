@@ -9,7 +9,7 @@
 
 .create "build/move/battle_eff_seq/0_296", 0
 
-// Effect ID is used for Body Press in calculator functions
+// Effect ID was used for Body Press in calculator functions, not now
 
 a030_296:
     gotosubscript 443

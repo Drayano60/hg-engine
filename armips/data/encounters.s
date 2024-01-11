@@ -4496,7 +4496,7 @@ rocksmashrate 0
 oldrodrate FISHING_RATE
 goodrodrate FISHING_RATE
 superrodrate FISHING_RATE
-walklevels 35, 36, 35, 36, 35, 36, 35, 36, 35, 36, 35, 36
+walklevels 38, 39, 38, 39, 38, 39, 38, 39, 38, 39, 38, 39
 
 // morning encounter slots
 pokemon SPECIES_FURRET
@@ -4541,30 +4541,30 @@ pokemon SPECIES_LOMBRE
 pokemon SPECIES_LOMBRE
 
 // hoenn encounter slots
-pokemon SPECIES_FOONGUS
-pokemon SPECIES_DEERLING
+pokemon SPECIES_AMOONGUSS
+pokemon SPECIES_SAWSBUCK
 
 // sinnoh encounter slots
 pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_MAGIKARP, 5, 35
-encounter SPECIES_MAGIKARP, 5, 35
-encounter SPECIES_MAGIKARP, 5, 35
-encounter SPECIES_MAGIKARP, 5, 35
-encounter SPECIES_MAGIKARP, 5, 35
+encounter SPECIES_MAGIKARP, 5, 40
+encounter SPECIES_MAGIKARP, 5, 40
+encounter SPECIES_MAGIKARP, 5, 40
+encounter SPECIES_MAGIKARP, 5, 40
+encounter SPECIES_MAGIKARP, 5, 40
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 5, 35
-encounter SPECIES_POLIWHIRL, 35, 36
-encounter SPECIES_POLIWHIRL, 35, 36
-encounter SPECIES_CRAWDAUNT, 35, 36
-encounter SPECIES_CRAWDAUNT, 35, 36
+encounter SPECIES_MAGIKARP, 5, 40
+encounter SPECIES_POLIWHIRL, 38, 40
+encounter SPECIES_POLIWHIRL, 38, 40
+encounter SPECIES_CRAWDAUNT, 38, 40
+encounter SPECIES_CRAWDAUNT, 38, 40
 
 // good rod encounters
 encounter SPECIES_MAGIKARP, 1, 1
@@ -4656,8 +4656,8 @@ pokemon SPECIES_NONE
 encounter SPECIES_MAGIKARP, 5, 40
 encounter SPECIES_MAGIKARP, 5, 40
 encounter SPECIES_MAGIKARP, 5, 40
-encounter SPECIES_MAGIKARP, 5, 40
-encounter SPECIES_GYARADOS, 40, 40
+encounter SPECIES_GYARADOS, 40, 45
+encounter SPECIES_GYARADOS, 40, 45
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
@@ -4668,7 +4668,7 @@ encounter SPECIES_MAGIKARP, 5, 40
 encounter SPECIES_MAGIKARP, 5, 40
 encounter SPECIES_MAGIKARP, 5, 40
 encounter SPECIES_FEEBAS, 5, 40
-encounter SPECIES_GYARADOS, 40, 40
+encounter SPECIES_GYARADOS, 40, 45
 
 // good rod encounters
 encounter SPECIES_MAGIKARP, 1, 1

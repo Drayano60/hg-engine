@@ -61,13 +61,13 @@ LEVEL_SAFARI_ROCKET_ADMIN equ 41
 LEVEL_OLIVINE_GYM equ 43
 LEVEL_JASMINE equ 45
 
-LEVEL_ROUTE_43 equ 40
-LEVEL_LAKE_OF_RAGE equ 42
-LEVEL_ROCKET_HIDEOUT equ 41
-LEVEL_SILVER_4 equ 43
-LEVEL_ROCKET_HIDEOUT_ADMIN equ 44
-LEVEL_MAHOGANY_GYM equ 43
-LEVEL_PRYCE equ 45
+LEVEL_ROUTE_43 equ 44
+LEVEL_LAKE_OF_RAGE equ 44
+LEVEL_ROCKET_HIDEOUT equ 45
+LEVEL_SILVER_4 equ 48
+LEVEL_ROCKET_HIDEOUT_ADMIN equ 48
+LEVEL_MAHOGANY_GYM equ 48
+LEVEL_PRYCE equ 50
 
 LEVEL_BLACKTHORN_AREAS equ 46 /* Ice Path, Route 45 */
 LEVEL_RADIO_TOWER_GRUNTS equ 1
@@ -18841,7 +18841,7 @@ endparty
 trainerdata 732, "Grant"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_CAMPER
-    nummons 3
+    nummons 2
     item 0 
     item 0 
     item 0 
@@ -18878,23 +18878,6 @@ party 732
     move MOVE_PURSUIT
     move MOVE_AGILITY
     ability ABILITY_WATER_VEIL
-    ball ITEM_POKE_BALL
-    setivs 15, 15, 15, 15, 15, 15
-    setevs 0, 0, 0, 0, 0, 0
-    nature NATURE_SERIOUS
-    shinylock 0
-    ballseal 0
-
-    ivs 0
-    abilityslot 0
-    level LEVEL_SAFARI_ROCKET_ADMIN+1
-    pokemon SPECIES_LUXRAY
-    item 0
-    move MOVE_THUNDER_FANG
-    move MOVE_NIGHT_SLASH
-    move MOVE_DOUBLE_KICK
-    move MOVE_QUICK_ATTACK
-    ability ABILITY_RIVALRY
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
     setevs 0, 0, 0, 0, 0, 0
@@ -19371,11 +19354,11 @@ party 403
     level LEVEL_ROUTE_43
     pokemon SPECIES_SANDSLASH
     item 0
-    move MOVE_MAGNITUDE
+    move MOVE_DRILL_RUN
     move MOVE_GYRO_BALL
-    move MOVE_PIN_MISSILE
-    move MOVE_AGILITY
-    ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_ROUGH_SKIN : ABILITY_SAND_VEIL
+    move MOVE_CRUSH_CLAW
+    move MOVE_RAPID_SPIN
+    ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_TOUGH_CLAWS : ABILITY_SAND_VEIL
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
     setevs 0, 0, 0, 0, 0, 0
@@ -19403,13 +19386,13 @@ party 403
     ivs 0
     abilityslot 0
     level LEVEL_ROUTE_43
-    pokemon SPECIES_PINSIR
+    pokemon SPECIES_LUXRAY
     item 0
-    move MOVE_X_SCISSOR
-    move MOVE_BULLDOZE
-    move MOVE_STORM_THROW
-    move MOVE_SWORDS_DANCE
-    ability ABILITY_HYPER_CUTTER
+    move ALLOW_ILLEGAL_MOVES ? MOVE_THUNDER_CLAW : MOVE_SUPERCELL_SLAM
+    move MOVE_CRUNCH
+    move MOVE_ICE_FANG
+    move MOVE_FIRE_FANG
+    ability ABILITY_INTIMIDATE
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
     setevs 0, 0, 0, 0, 0, 0
@@ -19434,13 +19417,13 @@ party 402
     ivs 0
     abilityslot 0
     level LEVEL_ROUTE_43
-    pokemon SPECIES_CLEFAIRY
+    pokemon SPECIES_AROMATISSE
     item 0
-    move MOVE_MOONBLAST
-    move MOVE_WAKE_UP_SLAP
-    move MOVE_METRONOME
-    move MOVE_COSMIC_POWER
-    ability ABILITY_CUTE_CHARM
+    move MOVE_DAZZLING_GLEAM
+    move MOVE_PSYCHIC
+    move MOVE_ATTRACT
+    move MOVE_SWEET_KISS
+    ability ABILITY_AROMA_VEIL
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
     setevs 0, 0, 0, 0, 0, 0
@@ -19451,12 +19434,12 @@ party 402
     ivs 0
     abilityslot 0
     level LEVEL_ROUTE_43
-    pokemon SPECIES_CLEFAIRY
+    pokemon SPECIES_SLURPUFF
     item 0
-    move MOVE_MOONBLAST
-    move MOVE_WAKE_UP_SLAP
-    move MOVE_METRONOME
-    move MOVE_COSMIC_POWER
+    move MOVE_DAZZLING_GLEAM
+    move MOVE_ENERGY_BALL
+    move MOVE_FAKE_TEARS
+    move MOVE_LIGHT_SCREEN
     ability ABILITY_CUTE_CHARM
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -19471,8 +19454,8 @@ party 402
     pokemon SPECIES_CLEFABLE
     item 0
     move MOVE_MOONBLAST
-    move MOVE_WAKE_UP_SLAP
-    move MOVE_METRONOME
+    move MOVE_TRI_ATTACK
+    move MOVE_MINIMIZE
     move MOVE_COSMIC_POWER
     ability ABILITY_CUTE_CHARM
     ball ITEM_POKE_BALL
@@ -19502,8 +19485,8 @@ party 131
     pokemon SPECIES_NIDOQUEEN
     item 0
     move MOVE_DRILL_RUN
-    move MOVE_POISON_TAIL
-    move MOVE_FURY_SWIPES
+    move MOVE_POISON_JAB
+    move MOVE_CRUNCH
     move MOVE_CAPTIVATE
     ability ABILITY_RIVALRY
     ball ITEM_POKE_BALL
@@ -19521,7 +19504,7 @@ party 131
     move MOVE_LEAF_BLADE
     move MOVE_AIR_SLASH
     move MOVE_BODY_SLAM
-    move MOVE_WHIRLWIND
+    move MOVE_DRAGON_HAMMER
     ability ABILITY_CHLOROPHYLL
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -19536,9 +19519,9 @@ party 131
     pokemon SPECIES_LICKILICKY
     item 0
     move MOVE_BODY_SLAM
-    move MOVE_ROLLOUT
+    move MOVE_MUDDY_WATER
+    move MOVE_KNOCK_OFF
     move MOVE_GYRO_BALL
-    move MOVE_DEFENSE_CURL
     ability ABILITY_OWN_TEMPO
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -19548,7 +19531,7 @@ party 131
     ballseal 0
 endparty
 
-// New, Mickey, Not Used
+// New, Mickey
 trainerdata 180, "Bobby"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_BUG_CATCHER
@@ -19569,7 +19552,7 @@ party 180
     item 0
     move MOVE_BUG_BUZZ
     move MOVE_HYPER_VOICE
-    move ALLOW_ILLEGAL_MOVES ? MOVE_DISARMING_VOICE : MOVE_NONE
+    move ALLOW_ILLEGAL_MOVES ? MOVE_ALLURING_VOICE : MOVE_NONE
     move MOVE_SING
     ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_CONDUCTOR : ABILITY_SWARM
     ball ITEM_POKE_BALL
@@ -19585,9 +19568,9 @@ party 180
     pokemon SPECIES_MASQUERAIN
     item 0
     move MOVE_BUG_BUZZ
-    move MOVE_SURF
     move MOVE_AIR_SLASH
     move MOVE_GIGA_DRAIN
+    move MOVE_WATER_PULSE
     ability ABILITY_INTIMIDATE
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -19596,15 +19579,15 @@ party 180
     shinylock 0
     ballseal 0
 
-    ivs 1 // prevent shiny
+    ivs 0
     abilityslot 0
     level LEVEL_ROUTE_43
-    pokemon SPECIES_GALVANTULA
+    pokemon SPECIES_ESCAVALIER
     item 0
-    move MOVE_DISCHARGE
-    move MOVE_SIGNAL_BEAM
-    move MOVE_GIGA_DRAIN
-    move MOVE_SUCKER_PUNCH
+    move MOVE_X_SCISSOR
+    move MOVE_IRON_HEAD
+    move MOVE_DRILL_RUN
+    move MOVE_NIGHT_SLASH
     ability ABILITY_SWARM
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -19633,15 +19616,15 @@ party 122
     pokemon SPECIES_MAGIKARP
     item 0
     move MOVE_HYDRO_PUMP
-    move ABILITY_RATTLED
+    move MOVE_BOUNCE
+    move MOVE_FLAIL
     move 0
-    move 0
-    ability ABILITY_RATTLED
+    ability ABILITY_SWIFT_SWIM
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
     setevs 0, 0, 0, 0, 0, 0
     nature NATURE_SERIOUS
-    shinylock 1
+    shinylock 1 // Shiny
     ballseal 0
 endparty
 
@@ -19661,13 +19644,13 @@ party 130
     ivs 0
     abilityslot 0
     level LEVEL_ROUTE_43
-    pokemon SPECIES_SLOWBRO
+    monwithform SPECIES_SLOWBRO, 2
     item 0
-    move MOVE_SCALD
+    move MOVE_VENOSHOCK
     move MOVE_PSYCHIC
-    move MOVE_YAWN
+    move MOVE_SURF
     move MOVE_SLACK_OFF
-    ability ABILITY_OWN_TEMPO
+    ability ABILITY_QUICK_DRAW
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
     setevs 0, 0, 0, 0, 0, 0
@@ -19680,10 +19663,10 @@ party 130
     level LEVEL_ROUTE_43
     pokemon SPECIES_BASTIODON
     item 0
-    move MOVE_ROCK_BLAST
     move MOVE_IRON_HEAD
+    move MOVE_ROCK_SLIDE
+    move MOVE_HEADBUTT
     move MOVE_METAL_BURST
-    move MOVE_STEALTH_ROCK
     ability ABILITY_STURDY
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -19699,8 +19682,8 @@ party 130
     item 0
     move MOVE_DRILL_RUN
     move MOVE_ROCK_BLAST
-    move MOVE_TAKE_DOWN
     move MOVE_HAMMER_ARM
+    move MOVE_TAKE_DOWN
     ability ABILITY_RECKLESS
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -19726,12 +19709,12 @@ party 132
     ivs 0
     abilityslot 0
     level LEVEL_ROUTE_43
-    pokemon SPECIES_NIDOKING
+    monwithform SPECIES_SLOWKING, 1
     item 0
-    move MOVE_POISON_JAB
-    move MOVE_DRILL_RUN
-    move MOVE_FURY_ATTACK
-    move MOVE_CAPTIVATE
+    move MOVE_VENOSHOCK
+    move MOVE_PSYCHIC
+    move MOVE_POWER_GEM
+    move MOVE_SLACK_OFF
     ability ABILITY_RIVALRY
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -19747,9 +19730,9 @@ party 132
     item 0
     move MOVE_ROCK_SLIDE
     move MOVE_ZEN_HEADBUTT
-    move MOVE_TAKE_DOWN
+    move MOVE_CRUNCH
     move MOVE_SCARY_FACE
-    ability ABILITY_SHEER_FORCE
+    ability ABILITY_MOLD_BREAKER
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
     setevs 0, 0, 0, 0, 0, 0
@@ -19764,9 +19747,9 @@ party 132
     item 0
     move MOVE_HYPER_VOICE
     move MOVE_EXTRASENSORY
+    move MOVE_HAMMER_ARM
     move MOVE_CRUNCH
-    move MOVE_SCREECH
-    ability ABILITY_SCRAPPY
+    ability ABILITY_SOUNDPROOF
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
     setevs 0, 0, 0, 0, 0, 0
@@ -20235,7 +20218,7 @@ trainerdata 126, "Andre"
 party 126
     ivs 0
     abilityslot 0
-    level LEVEL_LAKE_OF_RAGE
+    level LEVEL_LAKE_OF_RAGE+1
     pokemon SPECIES_GYARADOS
     item 0
     move MOVE_AQUA_TAIL
@@ -20254,7 +20237,7 @@ endparty
 trainerdata 127, "Raymond"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_FISHERMAN
-    nummons 1
+    nummons 3
     item 0 
     item 0 
     item 0 
@@ -20267,13 +20250,47 @@ party 127
     ivs 0
     abilityslot 0
     level LEVEL_LAKE_OF_RAGE
-    pokemon SPECIES_MILOTIC
+    pokemon SPECIES_BASCULIN
+    item 0
+    move MOVE_AQUA_TAIL
+    move MOVE_CRUNCH
+    move MOVE_THRASH
+    move MOVE_AQUA_JET
+    ability ABILITY_ADAPTABILITY
+    ball ITEM_POKE_BALL
+    setivs 15, 15, 15, 15, 15, 15
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level LEVEL_LAKE_OF_RAGE
+    pokemon SPECIES_CLAWITZER
     item 0
     move MOVE_WATER_PULSE
-    move MOVE_DISARMING_VOICE
-    move MOVE_CAPTIVATE
-    move MOVE_RECOVER
-    ability ABILITY_MARVEL_SCALE
+    move MOVE_AURA_SPHERE
+    move MOVE_DARK_PULSE
+    move MOVE_DRAGON_PULSE
+    ability ABILITY_MEGA_LAUNCHER
+    ball ITEM_POKE_BALL
+    setivs 15, 15, 15, 15, 15, 15
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level LEVEL_LAKE_OF_RAGE
+    pokemon SPECIES_DRAGALGE
+    item 0
+    move MOVE_SLUDGE_BOMB
+    move MOVE_DRAGON_PULSE
+    move MOVE_WATER_PULSE
+    move MOVE_SMOKESCREEN
+    ability ABILITY_POISON_POINT
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
     setevs 0, 0, 0, 0, 0, 0
@@ -20297,12 +20314,12 @@ trainerdata 116, "Lois"
 party 116
     ivs 0
     abilityslot 0
-    level LEVEL_LAKE_OF_RAGE+1
+    level LEVEL_LAKE_OF_RAGE+2
     pokemon SPECIES_NINETALES
     item 0
     move MOVE_FLAMETHROWER
-    move ABILITY_CHANGES_IMPLEMENTED ? MOVE_DAZZLING_GLEAM : MOVE_SHADOW_BALL
     move MOVE_ENERGY_BALL
+    move MOVE_SHADOW_BALL
     move MOVE_CONFUSE_RAY
     ability ABILITY_DROUGHT
     ball ITEM_POKE_BALL
@@ -20314,7 +20331,7 @@ party 116
 
     ivs 0
     abilityslot 0
-    level LEVEL_LAKE_OF_RAGE+1
+    level LEVEL_LAKE_OF_RAGE+2
     pokemon SPECIES_JUMPLUFF
     item 0
     move MOVE_SEED_BOMB
@@ -20331,12 +20348,12 @@ party 116
 
     ivs 0
     abilityslot 0
-    level LEVEL_LAKE_OF_RAGE+1
+    level LEVEL_LAKE_OF_RAGE+2
     pokemon SPECIES_AMPHAROS
     item 0
     move MOVE_THUNDERBOLT
     move MOVE_DRAGON_PULSE
-    move MOVE_SIGNAL_BEAM
+    move MOVE_FIRE_PUNCH
     move MOVE_POWER_GEM
     ability ABILITY_STATIC
     ball ITEM_POKE_BALL
@@ -20362,13 +20379,13 @@ trainerdata 109, "Alton"
 party 109
     ivs 0
     abilityslot 0
-    level LEVEL_LAKE_OF_RAGE+1
+    level LEVEL_LAKE_OF_RAGE+2
     pokemon SPECIES_SCEPTILE
     item 0
     move MOVE_LEAF_BLADE
     move MOVE_DRAGON_CLAW
+    move MOVE_ACROBATICS
     move MOVE_X_SCISSOR
-    move MOVE_DETECT
     ability ABILITY_OVERGROW
     ball ITEM_POKE_BALL
     setivs 25, 25, 25, 25, 25, 25
@@ -20379,13 +20396,13 @@ party 109
 
     ivs 0
     abilityslot 0
-    level LEVEL_LAKE_OF_RAGE+1
+    level LEVEL_LAKE_OF_RAGE+2
     pokemon SPECIES_BLAZIKEN
     item 0
     move MOVE_BLAZE_KICK
     move MOVE_HIGH_JUMP_KICK
-    move MOVE_AERIAL_ACE
-    move MOVE_FOCUS_ENERGY
+    move MOVE_ACROBATICS
+    move MOVE_VACUUM_WAVE
     ability ABILITY_BLAZE
     ball ITEM_POKE_BALL
     setivs 25, 25, 25, 25, 25, 25
@@ -20396,13 +20413,13 @@ party 109
 
     ivs 0
     abilityslot 0
-    level LEVEL_LAKE_OF_RAGE+1
+    level LEVEL_LAKE_OF_RAGE+2
     pokemon SPECIES_SWAMPERT
     item 0
     move MOVE_MUDDY_WATER
-    move MOVE_BULLDOZE
-    move MOVE_HAMMER_ARM
+    move MOVE_EARTHQUAKE
     move MOVE_ROCK_SLIDE
+    move MOVE_HAMMER_ARM
     ability ABILITY_TORRENT
     ball ITEM_POKE_BALL
     setivs 25, 25, 25, 25, 25, 25
@@ -20417,7 +20434,7 @@ endparty
 trainerdata 223, "Grunt"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_TEAM_ROCKET
-    nummons 2
+    nummons 1
     item 0 
     item 0 
     item 0 
@@ -20429,30 +20446,13 @@ trainerdata 223, "Grunt"
 party 223
     ivs 0
     abilityslot 0
-    level LEVEL_ROCKET_HIDEOUT
-    pokemon SPECIES_GOLBAT
-    item 0
-    move MOVE_VENOSHOCK
-    move MOVE_WING_ATTACK
-    move ALLOW_ILLEGAL_MOVES ? MOVE_MEGA_DRAIN : MOVE_ABSORB
-    move MOVE_LEECH_LIFE
-    ability ABILITY_INNER_FOCUS
-    ball ITEM_POKE_BALL
-    setivs 20, 20, 20, 20, 20, 20
-    setevs 0, 0, 0, 0, 0, 0
-    nature NATURE_SERIOUS
-    shinylock 0
-    ballseal 0
-
-    ivs 0
-    abilityslot 0
-    level LEVEL_ROCKET_HIDEOUT
+    level LEVEL_ROCKET_HIDEOUT+1
     pokemon SPECIES_HYPNO
     item 0
-    move MOVE_PSYSHOCK
+    move MOVE_ZEN_HEADBUTT
     move MOVE_WAKE_UP_SLAP
-    move MOVE_DREAM_EATER
-    move MOVE_HYPNOSIS
+    move MOVE_HEADBUTT
+    move MOVE_MEDITATE
     ability ABILITY_INNER_FOCUS
     ball ITEM_POKE_BALL
     setivs 20, 20, 20, 20, 20, 20
@@ -20465,7 +20465,7 @@ endparty
 trainerdata 224, "Grunt"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_TEAM_ROCKET
-    nummons 2
+    nummons 1
     item 0 
     item 0 
     item 0 
@@ -20477,29 +20477,12 @@ trainerdata 224, "Grunt"
 party 224
     ivs 0
     abilityslot 0
-    level LEVEL_ROCKET_HIDEOUT
-    pokemon SPECIES_GOLBAT
-    item 0
-    move MOVE_POISON_FANG
-    move MOVE_AIR_CUTTER
-    move ALLOW_ILLEGAL_MOVES ? MOVE_MEGA_DRAIN : MOVE_ABSORB
-    move MOVE_LEECH_LIFE
-    ability ABILITY_INNER_FOCUS
-    ball ITEM_POKE_BALL
-    setivs 20, 20, 20, 20, 20, 20
-    setevs 0, 0, 0, 0, 0, 0
-    nature NATURE_SERIOUS
-    shinylock 0
-    ballseal 0
-
-    ivs 0
-    abilityslot 0
-    level LEVEL_ROCKET_HIDEOUT
+    level LEVEL_ROCKET_HIDEOUT+1
     pokemon SPECIES_MUK
     item 0
     move MOVE_POISON_JAB
     move MOVE_SHADOW_PUNCH
-    move MOVE_TOXIC
+    move MOVE_MUD_BOMB
     move MOVE_SCREECH
     ability ABILITY_STENCH
     ball ITEM_POKE_BALL
@@ -20526,47 +20509,47 @@ party 216
     ivs 0
     abilityslot 0
     level LEVEL_ROCKET_HIDEOUT
-    pokemon SPECIES_RATICATE
-    item 0
-    move MOVE_HYPER_FANG
-    move MOVE_FLAME_WHEEL
-    move MOVE_SUCKER_PUNCH
-    move MOVE_SWORDS_DANCE
-    ability ABILITY_GUTS
-    ball ITEM_POKE_BALL
-    setivs 20, 20, 20, 20, 20, 20
-    setevs 0, 0, 0, 0, 0, 0
-    nature NATURE_SERIOUS
-    shinylock 0
-    ballseal 0
-
-    ivs 0
-    abilityslot 0
-    level LEVEL_ROCKET_HIDEOUT
-    pokemon SPECIES_NIDORINO
-    item 0
-    move MOVE_POISON_JAB
-    move MOVE_DRILL_RUN
-    move MOVE_FLATTER
-    move MOVE_TOXIC_SPIKES
-    ability ABILITY_POISON_POINT
-    ball ITEM_POKE_BALL
-    setivs 20, 20, 20, 20, 20, 20
-    setevs 0, 0, 0, 0, 0, 0
-    nature NATURE_SERIOUS
-    shinylock 0
-    ballseal 0
-
-    ivs 0
-    abilityslot 0
-    level LEVEL_ROCKET_HIDEOUT
     pokemon SPECIES_PRIMEAPE
     item 0
     move MOVE_CROSS_CHOP
-    move MOVE_PUNISHMENT
-    move MOVE_ASSURANCE
-    move MOVE_FURY_SWIPES
+    move MOVE_THRASH
+    move MOVE_COVET
+    move MOVE_SWAGGER
     ability ABILITY_ANGER_POINT
+    ball ITEM_POKE_BALL
+    setivs 20, 20, 20, 20, 20, 20
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level LEVEL_ROCKET_HIDEOUT
+    pokemon SPECIES_MACHOKE
+    item 0
+    move MOVE_CROSS_CHOP
+    move MOVE_KNOCK_OFF
+    move MOVE_DUAL_CHOP
+    move MOVE_SEISMIC_TOSS
+    ability ABILITY_NO_GUARD
+    ball ITEM_POKE_BALL
+    setivs 20, 20, 20, 20, 20, 20
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level LEVEL_ROCKET_HIDEOUT
+    pokemon SPECIES_TOXICROAK
+    item 0
+    move MOVE_CROSS_CHOP
+    move MOVE_CROSS_POISON
+    move MOVE_SUCKER_PUNCH
+    move MOVE_FAKE_OUT
+    ability ABILITY_DRY_SKIN
     ball ITEM_POKE_BALL
     setivs 20, 20, 20, 20, 20, 20
     setevs 0, 0, 0, 0, 0, 0
@@ -20578,7 +20561,7 @@ endparty
 trainerdata 470, "Gregg"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_SCIENTIST_1
-    nummons 3
+    nummons 2
     item 0 
     item 0 
     item 0 
@@ -20595,26 +20578,9 @@ party 470
     item 0
     move MOVE_DISCHARGE
     move MOVE_FLASH_CANNON
-    move MOVE_EERIE_IMPULSE
+    move MOVE_TRI_ATTACK
     move MOVE_SUPERSONIC
     ability ABILITY_MAGNET_PULL
-    ball ITEM_POKE_BALL
-    setivs 20, 20, 20, 20, 20, 20
-    setevs 0, 0, 0, 0, 0, 0
-    nature NATURE_SERIOUS
-    shinylock 0
-    ballseal 0
-
-    ivs 0
-    abilityslot 0
-    level LEVEL_ROCKET_HIDEOUT
-    pokemon SPECIES_KADABRA
-    item 0
-    move MOVE_PSYCHIC
-    move MOVE_KINESIS
-    move MOVE_REFLECT
-    move MOVE_MIRACLE_EYE
-    ability ABILITY_INNER_FOCUS
     ball ITEM_POKE_BALL
     setivs 20, 20, 20, 20, 20, 20
     setevs 0, 0, 0, 0, 0, 0
@@ -20630,7 +20596,7 @@ party 470
     move MOVE_TRI_ATTACK
     move MOVE_SIGNAL_BEAM
     move MOVE_DISCHARGE
-    move MOVE_RECOVER
+    move MOVE_PSYBEAM
     ability ABILITY_DOWNLOAD
     ball ITEM_POKE_BALL
     setivs 20, 20, 20, 20, 20, 20
@@ -20673,13 +20639,13 @@ party 220
     ivs 0
     abilityslot 0
     level LEVEL_ROCKET_HIDEOUT
-    pokemon SPECIES_ARIADOS
+    pokemon SPECIES_DRAPION
     item 0
-    move MOVE_POISON_JAB
-    move MOVE_LUNGE
-    move MOVE_AGILITY
-    move MOVE_FIRST_IMPRESSION
-    ability ABILITY_SWARM
+    move MOVE_CROSS_POISON
+    move MOVE_KNOCK_OFF
+    move MOVE_BUG_BITE
+    move MOVE_ICE_FANG
+    ability ABILITY_SNIPER
     ball ITEM_POKE_BALL
     setivs 20, 20, 20, 20, 20, 20
     setevs 0, 0, 0, 0, 0, 0
@@ -20690,12 +20656,12 @@ party 220
     ivs 0
     abilityslot 0
     level LEVEL_ROCKET_HIDEOUT
-    pokemon SPECIES_BEEDRILL
+    pokemon SPECIES_SCOLIPEDE
     item 0
-    move MOVE_PIN_MISSILE
+    move MOVE_STEAMROLLER
     move MOVE_POISON_JAB
-    move MOVE_ASSURANCE
-    move MOVE_FOCUS_ENERGY
+    move MOVE_PURSUIT
+    move MOVE_SCREECH
     ability ABILITY_SWARM
     ball ITEM_POKE_BALL
     setivs 20, 20, 20, 20, 20, 20
@@ -20708,7 +20674,7 @@ endparty
 trainerdata 218, "Grunt"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_TEAM_ROCKET
-    nummons 3
+    nummons 1
     item 0 
     item 0 
     item 0 
@@ -20720,48 +20686,14 @@ trainerdata 218, "Grunt"
 party 218
     ivs 0
     abilityslot 0
-    level LEVEL_ROCKET_HIDEOUT
+    level LEVEL_ROCKET_HIDEOUT+1
     pokemon SPECIES_GOLBAT
     item 0
     move MOVE_SLUDGE_BOMB
-    move MOVE_AIR_SLASH
-    move MOVE_MEGA_DRAIN
+    move MOVE_ACROBATICS
     move MOVE_LEECH_LIFE
+    move MOVE_MEGA_DRAIN
     ability ABILITY_INNER_FOCUS
-    ball ITEM_POKE_BALL
-    setivs 20, 20, 20, 20, 20, 20
-    setevs 0, 0, 0, 0, 0, 0
-    nature NATURE_SERIOUS
-    shinylock 0
-    ballseal 0
-
-    ivs 0
-    abilityslot 0
-    level LEVEL_ROCKET_HIDEOUT
-    pokemon SPECIES_MURKROW
-    item 0
-    move MOVE_DRILL_PECK
-    move MOVE_FEINT_ATTACK
-    move MOVE_TORMENT
-    move MOVE_TAUNT
-    ability ABILITY_SUPER_LUCK
-    ball ITEM_POKE_BALL
-    setivs 20, 20, 20, 20, 20, 20
-    setevs 0, 0, 0, 0, 0, 0
-    nature NATURE_SERIOUS
-    shinylock 0
-    ballseal 0
-
-    ivs 0
-    abilityslot 0
-    level LEVEL_ROCKET_HIDEOUT
-    pokemon SPECIES_FEAROW
-    item 0
-    move MOVE_DRILL_PECK
-    move MOVE_TAKE_DOWN
-    move MOVE_DRILL_RUN
-    move MOVE_MIRROR_MOVE
-    ability ABILITY_SNIPER
     ball ITEM_POKE_BALL
     setivs 20, 20, 20, 20, 20, 20
     setevs 0, 0, 0, 0, 0, 0
@@ -20788,7 +20720,7 @@ party 468
     level LEVEL_ROCKET_HIDEOUT
     pokemon SPECIES_ELECTRODE
     item 0
-    move MOVE_DISCHARGE
+    move MOVE_THUNDERBOLT
     move MOVE_SWIFT
     move MOVE_METAL_SOUND
     move MOVE_SELF_DESTRUCT
@@ -20806,8 +20738,8 @@ party 468
     pokemon SPECIES_KLANG
     item 0
     move MOVE_GEAR_GRIND
-    move MOVE_CHARGE_BEAM
-    move MOVE_METAL_SOUND
+    move ALLOW_ILLEGAL_MOVES ? MOVE_SUPERCELL_SLAM : MOVE_THUNDERBOLT
+    move MOVE_SHIFT_GEAR
     move MOVE_THUNDER_WAVE
     ability ABILITY_CLEAR_BODY
     ball ITEM_POKE_BALL
@@ -20823,9 +20755,9 @@ party 468
     pokemon SPECIES_SWALOT
     item 0
     move MOVE_SLUDGE_BOMB
+    move MOVE_SHADOW_BALL
     move MOVE_GIGA_DRAIN
     move MOVE_ICE_BEAM
-    move MOVE_TOXIC
     ability ABILITY_LIQUID_OOZE
     ball ITEM_POKE_BALL
     setivs 20, 20, 20, 20, 20, 20
@@ -20851,10 +20783,10 @@ party 404
     ivs 0
     abilityslot 0
     level LEVEL_ROCKET_HIDEOUT
-    pokemon SPECIES_SEVIPER
+    pokemon SPECIES_ARBOK
     item 0
     move MOVE_POISON_JAB
-    move MOVE_NIGHT_SLASH
+    move MOVE_CRUNCH
     move MOVE_FIRE_FANG
     move MOVE_THUNDER_FANG
     ability ABILITY_SHED_SKIN
@@ -20868,13 +20800,13 @@ party 404
     ivs 0
     abilityslot 0
     level LEVEL_ROCKET_HIDEOUT
-    pokemon SPECIES_GLOOM
+    pokemon SPECIES_YANMEGA
     item 0
-    move MOVE_GIGA_DRAIN
-    move MOVE_VENOSHOCK
-    move MOVE_LUCKY_CHANT
-    move MOVE_SWEET_SCENT
-    ability ABILITY_STENCH
+    move MOVE_SILVER_WIND
+    move MOVE_AIR_SLASH
+    move MOVE_ANCIENT_POWER
+    move MOVE_HYPNOSIS
+    ability ABILITY_SPEED_BOOST
     ball ITEM_POKE_BALL
     setivs 20, 20, 20, 20, 20, 20
     setevs 0, 0, 0, 0, 0, 0
@@ -20885,13 +20817,13 @@ party 404
     ivs 0
     abilityslot 0
     level LEVEL_ROCKET_HIDEOUT
-    pokemon SPECIES_LIEPARD
+    pokemon SPECIES_VICTREEBEL
     item 0
-    move MOVE_FOUL_PLAY
-    move MOVE_FURY_SWIPES
-    move MOVE_CAPTIVATE
-    move MOVE_FAKE_OUT
-    ability ABILITY_LIMBER
+    move MOVE_LEAF_BLADE
+    move MOVE_POISON_JAB
+    move MOVE_LEECH_LIFE
+    move ALLOW_ILLEGAL_MOVES ? MOVE_CRUNCH : MOVE_NONE
+    ability ABILITY_CHLOROPHYLL
     ball ITEM_POKE_BALL
     setivs 20, 20, 20, 20, 20, 20
     setevs 0, 0, 0, 0, 0, 0
@@ -20980,7 +20912,7 @@ trainerdata 222, "Grunt"
 party 222
     ivs 0
     abilityslot 0
-    level LEVEL_ROCKET_HIDEOUT+2
+    level LEVEL_ROCKET_HIDEOUT+1
     pokemon SPECIES_RATICATE
     item 0
     move MOVE_HYPER_FANG
@@ -20999,7 +20931,7 @@ endparty
 trainerdata 219, "Grunt"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_TEAM_ROCKET
-    nummons 3
+    nummons 2
     item 0 
     item 0 
     item 0 
@@ -21012,13 +20944,13 @@ party 219
     ivs 0
     abilityslot 0
     level LEVEL_ROCKET_HIDEOUT
-    pokemon SPECIES_RHYDON
+    pokemon SPECIES_SANDSLASH
     item 0
     move MOVE_DRILL_RUN
-    move MOVE_ROCK_SLIDE
-    move MOVE_TAKE_DOWN
-    move MOVE_HAMMER_ARM
-    ability ABILITY_ROCK_HEAD
+    move MOVE_ROCK_TOMB
+    move MOVE_SLASH
+    move MOVE_SANDSTORM
+    ability ABILITY_SAND_VEIL
     ball ITEM_POKE_BALL
     setivs 20, 20, 20, 20, 20, 20
     setevs 0, 0, 0, 0, 0, 0
@@ -21029,30 +20961,13 @@ party 219
     ivs 0
     abilityslot 0
     level LEVEL_ROCKET_HIDEOUT
-    pokemon SPECIES_TOXICROAK
+    pokemon SPECIES_KROKOROK
     item 0
-    move MOVE_CROSS_POISON
-    move MOVE_BRICK_BREAK
-    move MOVE_DUAL_CHOP
+    move MOVE_BULLDOZE
+    move MOVE_CRUNCH
+    move MOVE_TORMENT
     move MOVE_SWAGGER
-    ability ABILITY_DRY_SKIN
-    ball ITEM_POKE_BALL
-    setivs 20, 20, 20, 20, 20, 20
-    setevs 0, 0, 0, 0, 0, 0
-    nature NATURE_SERIOUS
-    shinylock 0
-    ballseal 0
-
-    ivs 0
-    abilityslot 0
-    level LEVEL_ROCKET_HIDEOUT
-    pokemon SPECIES_TENTACRUEL
-    item 0
-    move MOVE_MUDDY_WATER
-    move MOVE_ACID_SPRAY
-    move MOVE_HEX
-    move MOVE_BARRIER
-    ability ABILITY_LIQUID_OOZE
+    ability ABILITY_INTIMIDATE
     ball ITEM_POKE_BALL
     setivs 20, 20, 20, 20, 20, 20
     setevs 0, 0, 0, 0, 0, 0
@@ -21065,7 +20980,7 @@ endparty
 trainerdata 306, "Grunt"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_TEAM_ROCKET_1
-    nummons 3
+    nummons 2
     item 0 
     item 0 
     item 0 
@@ -21078,47 +20993,30 @@ party 306
     ivs 0
     abilityslot 0
     level LEVEL_ROCKET_HIDEOUT
-    pokemon SPECIES_PERSIAN
+    pokemon SPECIES_MIGHTYENA
     item 0
-    move MOVE_SLASH
+    move MOVE_CRUNCH
+    move MOVE_THUNDER_FANG
+    move MOVE_FIRE_FANG
+    move MOVE_ICE_FANG
+    ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_STRONG_JAW : ABILITY_INTIMIDATE
+    ball ITEM_POKE_BALL
+    setivs 20, 20, 20, 20, 20, 20
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level LEVEL_ROCKET_HIDEOUT
+    pokemon SPECIES_BISHARP
+    item 0
     move MOVE_NIGHT_SLASH
-    move MOVE_POWER_GEM
-    move MOVE_HYPNOSIS
-    ability ABILITY_LIMBER
-    ball ITEM_POKE_BALL
-    setivs 20, 20, 20, 20, 20, 20
-    setevs 0, 0, 0, 0, 0, 0
-    nature NATURE_SERIOUS
-    shinylock 0
-    ballseal 0
-
-    ivs 0
-    abilityslot 0
-    level LEVEL_ROCKET_HIDEOUT
-    pokemon SPECIES_BANETTE
-    item 0
-    move MOVE_SHADOW_CLAW
+    move MOVE_IRON_HEAD
     move MOVE_SLASH
-    move MOVE_KNOCK_OFF
-    move MOVE_SCREECH
-    ability ABILITY_CURSED_BODY
-    ball ITEM_POKE_BALL
-    setivs 20, 20, 20, 20, 20, 20
-    setevs 0, 0, 0, 0, 0, 0
-    nature NATURE_SERIOUS
-    shinylock 0
-    ballseal 0
-
-    ivs 0
-    abilityslot 0
-    level LEVEL_ROCKET_HIDEOUT
-    pokemon SPECIES_GARBODOR
-    item 0
-    move MOVE_SLUDGE_BOMB
-    move MOVE_METAL_CLAW
-    move MOVE_ROCK_BLAST
-    move MOVE_SELF_DESTRUCT
-    ability ABILITY_AFTERMATH
+    move MOVE_PURSUIT
+    ability ABILITY_DEFIANT
     ball ITEM_POKE_BALL
     setivs 20, 20, 20, 20, 20, 20
     setevs 0, 0, 0, 0, 0, 0
@@ -21127,7 +21025,7 @@ party 306
     ballseal 0
 endparty
 
-// New but moved from Goldenrod Tunnel
+// Not new but moved from Goldenrod Tunnel
 trainerdata 288, "Silver"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_RIVAL
@@ -21148,8 +21046,8 @@ party 288
     item ITEM_NEVER_MELT_ICE
     move MOVE_ICE_PUNCH
     move MOVE_KNOCK_OFF
-    move MOVE_LOW_KICK
-    move MOVE_ICE_SHARD
+    move MOVE_DIG
+    move MOVE_FAKE_OUT
     ability ABILITY_KEEN_EYE
     ball ITEM_POKE_BALL
     setivs 30, 30, 30, 30, 30, 30
@@ -21163,9 +21061,9 @@ party 288
     level LEVEL_SILVER_4
     pokemon SPECIES_GOLBAT
     item ITEM_POISON_BARB
-    move MOVE_POISON_FANG
+    move MOVE_SLUDGE_BOMB
     move MOVE_DUAL_WINGBEAT
-    move MOVE_CRUNCH
+    move MOVE_LEECH_LIFE
     move MOVE_CONFUSE_RAY
     ability ABILITY_INFILTRATOR
     ball ITEM_POKE_BALL
@@ -21182,8 +21080,8 @@ party 288
     item ITEM_SPELL_TAG
     move MOVE_SHADOW_BALL
     move MOVE_SLUDGE_BOMB
-    move MOVE_ICY_WIND
-    move MOVE_HYPNOSIS
+    move MOVE_DARK_PULSE
+    move MOVE_CONFUSE_RAY
     ability ABILITY_LEVITATE
     ball ITEM_POKE_BALL
     setivs 30, 30, 30, 30, 30, 30
@@ -21214,9 +21112,9 @@ party 288
     level LEVEL_SILVER_4
     pokemon SPECIES_MAGMAR
     item ITEM_CHARCOAL
-    move MOVE_LAVA_PLUME
+    move MOVE_FLAMETHROWER
+    move MOVE_THUNDER_PUNCH
     move MOVE_CROSS_CHOP
-    move MOVE_CLEAR_SMOG
     move MOVE_CONFUSE_RAY
     ability ABILITY_FLAME_BODY
     ball ITEM_POKE_BALL
@@ -21231,15 +21129,15 @@ party 288
     level LEVEL_SILVER_4+1
     pokemon SPECIES_MEGANIUM
     item ITEM_MIRACLE_SEED
-    move ALLOW_ILLEGAL_MOVES ? MOVE_PETAL_BARRAGE : MOVE_PETAL_DANCE
-    move ALLOW_ILLEGAL_MOVES ? MOVE_DAZZLING_GLEAM : MOVE_STRENGTH
+    move ALLOW_ILLEGAL_MOVES ? MOVE_PETAL_BARRAGE : MOVE_ENERGY_BALL
+    move ALLOW_ILLEGAL_MOVES ? MOVE_DAZZLING_GLEAM : MOVE_BODY_SLAM
     move MOVE_ANCIENT_POWER
-    move MOVE_SYNTHESIS
+    move MOVE_LIGHT_SCREEN
     ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_SWEET_AROMA : ABILITY_OVERGROW
     ball ITEM_POKE_BALL
     setivs 30, 30, 30, 30, 30, 30
     setevs 0, 0, 0, 0, 0, 0
-    nature NATURE_MODEST
+    nature NATURE_TIMID
     shinylock 0
     ballseal 0
 endparty
@@ -21264,8 +21162,8 @@ party 289
     item ITEM_NEVER_MELT_ICE
     move MOVE_ICE_PUNCH
     move MOVE_KNOCK_OFF
-    move MOVE_LOW_KICK
-    move MOVE_ICE_SHARD
+    move MOVE_DIG
+    move MOVE_FAKE_OUT
     ability ABILITY_KEEN_EYE
     ball ITEM_POKE_BALL
     setivs 30, 30, 30, 30, 30, 30
@@ -21279,9 +21177,9 @@ party 289
     level LEVEL_SILVER_4
     pokemon SPECIES_GOLBAT
     item ITEM_POISON_BARB
-    move MOVE_POISON_FANG
+    move MOVE_SLUDGE_BOMB
     move MOVE_DUAL_WINGBEAT
-    move MOVE_CRUNCH
+    move MOVE_LEECH_LIFE
     move MOVE_CONFUSE_RAY
     ability ABILITY_INFILTRATOR
     ball ITEM_POKE_BALL
@@ -21298,8 +21196,8 @@ party 289
     item ITEM_SPELL_TAG
     move MOVE_SHADOW_BALL
     move MOVE_SLUDGE_BOMB
-    move MOVE_ICY_WIND
-    move MOVE_HYPNOSIS
+    move MOVE_DARK_PULSE
+    move MOVE_CONFUSE_RAY
     ability ABILITY_LEVITATE
     ball ITEM_POKE_BALL
     setivs 30, 30, 30, 30, 30, 30
@@ -21333,7 +21231,7 @@ party 289
     move MOVE_SURF
     move MOVE_ICY_WIND
     move MOVE_SIGNAL_BEAM
-    move MOVE_FOCUS_ENERGY
+    move MOVE_DRAGON_PULSE
     ability ABILITY_SNIPER
     ball ITEM_POKE_BALL
     setivs 30, 30, 30, 30, 30, 30
@@ -21348,7 +21246,7 @@ party 289
     pokemon SPECIES_TYPHLOSION
     item ITEM_CHARCOAL
     move ALLOW_ILLEGAL_MOVES ? MOVE_INFERNAL_BLAST : MOVE_FLAMETHROWER
-    move ALLOW_ILLEGAL_MOVES ? MOVE_EARTH_POWER : MOVE_MUD_SLAP
+    move ALLOW_ILLEGAL_MOVES ? MOVE_EARTH_POWER : MOVE_SCORCHING_SANDS
     move MOVE_SHADOW_BALL
     move MOVE_EXTRASENSORY
     ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_HEAT_UP : ABILITY_BLAZE
@@ -21380,8 +21278,8 @@ party 271
     item ITEM_NEVER_MELT_ICE
     move MOVE_ICE_PUNCH
     move MOVE_KNOCK_OFF
-    move MOVE_LOW_KICK
-    move MOVE_ICE_SHARD
+    move MOVE_DIG
+    move MOVE_FAKE_OUT
     ability ABILITY_KEEN_EYE
     ball ITEM_POKE_BALL
     setivs 30, 30, 30, 30, 30, 30
@@ -21395,9 +21293,9 @@ party 271
     level LEVEL_SILVER_4
     pokemon SPECIES_GOLBAT
     item ITEM_POISON_BARB
-    move MOVE_POISON_FANG
+    move MOVE_SLUDGE_BOMB
     move MOVE_DUAL_WINGBEAT
-    move MOVE_CRUNCH
+    move MOVE_LEECH_LIFE
     move MOVE_CONFUSE_RAY
     ability ABILITY_INFILTRATOR
     ball ITEM_POKE_BALL
@@ -21414,8 +21312,8 @@ party 271
     item ITEM_SPELL_TAG
     move MOVE_SHADOW_BALL
     move MOVE_SLUDGE_BOMB
-    move MOVE_ICY_WIND
-    move MOVE_HYPNOSIS
+    move MOVE_DARK_PULSE
+    move MOVE_CONFUSE_RAY
     ability ABILITY_LEVITATE
     ball ITEM_POKE_BALL
     setivs 30, 30, 30, 30, 30, 30
@@ -21446,10 +21344,10 @@ party 271
     level LEVEL_SILVER_4
     pokemon SPECIES_ELECTABUZZ
     item ITEM_MAGNET
-    move MOVE_DISCHARGE
+    move MOVE_THUNDERBOLT
+    move MOVE_FIRE_PUNCH
     move MOVE_CROSS_CHOP
     move MOVE_QUICK_ATTACK
-    move MOVE_THUNDER_WAVE
     ability ABILITY_STATIC
     ball ITEM_POKE_BALL
     setivs 30, 30, 30, 30, 30, 30
@@ -21476,6 +21374,7 @@ party 271
     ballseal 0
 endparty
 
+/* Not used now */
 trainerdata 488, "Petrel"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_EXECUTIVE_2
@@ -21575,6 +21474,7 @@ party 488
     ballseal 0
 endparty
 
+/* Not used now */
 trainerdata 479, "Ariana"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_EXECUTIVE
@@ -21711,6 +21611,172 @@ trainerdata 499, "Grunt"
         ballseal 0
     endparty
 
+// new
+trainerdata 840, "Grunt"
+    trainermontype TRAINER_MON_TYPE_FLAGS
+    trainerclass CLASS_TEAM_ROCKET
+    nummons 4
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype SINGLE_BATTLE
+    endentry
+
+party 840
+    ivs 0
+    abilityslot 0
+    level LEVEL_ROCKET_HIDEOUT_ADMIN
+    pokemon SPECIES_GYARADOS
+    item 0
+    move MOVE_WATERFALL
+    move MOVE_ICE_FANG
+    move MOVE_EARTHQUAKE
+    move MOVE_SCARY_FACE
+    ability ABILITY_INTIMIDATE
+    ball ITEM_POKE_BALL
+    setivs 20, 20, 20, 20, 20, 20
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level LEVEL_ROCKET_HIDEOUT_ADMIN
+    pokemon SPECIES_DUSKNOIR
+    item 0
+    move MOVE_PHANTOM_FORCE
+    move MOVE_THUNDER_PUNCH
+    move MOVE_FIRE_PUNCH
+    move MOVE_ICE_PUNCH
+    ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_LEVITATE : ABILITY_PRESSURE
+    ball ITEM_POKE_BALL
+    setivs 20, 20, 20, 20, 20, 20
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level LEVEL_ROCKET_HIDEOUT_ADMIN
+    pokemon SPECIES_ELECTIVIRE
+    item 0
+    move MOVE_THUNDERBOLT
+    move MOVE_FIRE_PUNCH
+    move MOVE_HAMMER_ARM
+    move MOVE_DARKEST_LARIAT
+    ability ABILITY_MOTOR_DRIVE
+    ball ITEM_POKE_BALL
+    setivs 20, 20, 20, 20, 20, 20
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level LEVEL_ROCKET_HIDEOUT_ADMIN
+    pokemon SPECIES_KINGAMBIT
+    item 0
+    move MOVE_KOWTOW_CLEAVE
+    move MOVE_IRON_HEAD
+    move MOVE_AERIAL_ACE
+    move MOVE_SCARY_FACE
+    ability ABILITY_DEFIANT
+    ball ITEM_POKE_BALL
+    setivs 20, 20, 20, 20, 20, 20
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+endparty
+
+// New
+trainerdata 841, "Grunt"
+    trainermontype TRAINER_MON_TYPE_FLAGS
+    trainerclass CLASS_TEAM_ROCKET_1
+    nummons 4
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype SINGLE_BATTLE
+    endentry
+
+party 841
+    ivs 0
+    abilityslot 0
+    level LEVEL_ROCKET_HIDEOUT_ADMIN
+    pokemon SPECIES_HYDREIGON
+    item 0
+    move MOVE_BREAKING_SWIPE
+    move MOVE_CRUNCH
+    move MOVE_EARTHQUAKE
+    move MOVE_THUNDER_FANG
+    ability ABILITY_LEVITATE
+    ball ITEM_POKE_BALL
+    setivs 20, 20, 20, 20, 20, 20
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level LEVEL_ROCKET_HIDEOUT_ADMIN
+    pokemon SPECIES_EELEKTROSS
+    item 0
+    move MOVE_THUNDERBOLT
+    move MOVE_LIQUIDATION
+    move MOVE_CRUNCH
+    move MOVE_ACID_SPRAY
+    ability ABILITY_LEVITATE
+    ball ITEM_POKE_BALL
+    setivs 20, 20, 20, 20, 20, 20
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level LEVEL_ROCKET_HIDEOUT_ADMIN
+    pokemon SPECIES_MAGMORTAR
+    item 0
+    move MOVE_FLAMETHROWER
+    move MOVE_THUNDER_PUNCH
+    move MOVE_CLEAR_SMOG
+    move MOVE_CONFUSE_RAY
+    ability ABILITY_FLAME_BODY
+    ball ITEM_POKE_BALL
+    setivs 20, 20, 20, 20, 20, 20
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level LEVEL_ROCKET_HIDEOUT_ADMIN
+    pokemon SPECIES_ANNIHILAPE
+    item 0
+    move MOVE_RAGE_FIST
+    move MOVE_DRAIN_PUNCH
+    move MOVE_POWER_TRIP
+    move MOVE_LEER
+    ability ABILITY_DEFIANT
+    ball ITEM_POKE_BALL
+    setivs 20, 20, 20, 20, 20, 20
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+endparty
+
 trainerdata 675, "Lance"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_PKMN_TRAINER_10
@@ -21726,18 +21792,18 @@ trainerdata 675, "Lance"
 party 675
     ivs 0
     abilityslot 0
-    level 55
+    level 60
     pokemon SPECIES_DRAGONITE
-    item ITEM_SITRUS_BERRY
+    item ITEM_LUM_BERRY
     move MOVE_DRAGON_CLAW
-    move MOVE_SAFEGUARD
-    move MOVE_TAILWIND
-    move MOVE_ROOST
-    ability ABILITY_MULTISCALE
+    move MOVE_DUAL_WINGBEAT
+    move MOVE_FIRE_PUNCH
+    move MOVE_EXTREME_SPEED
+    ability ABILITY_INNER_FOCUS
     ball ITEM_POKE_BALL
     setivs 31, 31, 31, 31, 31, 31
     setevs 0, 0, 0, 0, 0, 0
-    nature NATURE_JOLLY
+    nature NATURE_ADAMANT
     shinylock 0
     ballseal 0
 endparty
@@ -21760,13 +21826,30 @@ party 480
     ivs 0
     abilityslot 0
     level LEVEL_MAHOGANY_GYM
+    monwithform SPECIES_NINETALES, 1
+    item ITEM_NEVER_MELT_ICE
+    move MOVE_FREEZE_DRY
+    move MOVE_MOONBLAST
+    move MOVE_HYPNOSIS
+    move MOVE_AURORA_VEIL
+    ability ABILITY_SNOW_WARNING
+    ball ITEM_POKE_BALL
+    setivs 20, 20, 20, 20, 20, 20
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level LEVEL_MAHOGANY_GYM
     pokemon SPECIES_JYNX
     item ITEM_NEVER_MELT_ICE
-    move MOVE_FROST_BREATH
+    move ALLOW_ILLEGAL_MOVES ? MOVE_FREEZE_DRY : MOVE_FROST_BREATH
     move MOVE_PSYCHIC
-    move MOVE_CAPTIVATE
+    move MOVE_DRAINING_KISS
     move MOVE_LOVELY_KISS
-    ability ABILITY_OBLIVIOUS
+    ability ABILITY_DRY_SKIN
     ball ITEM_POKE_BALL
     setivs 20, 20, 20, 20, 20, 20
     setevs 0, 0, 0, 0, 0, 0
@@ -21777,30 +21860,13 @@ party 480
     ivs 0
     abilityslot 0
     level LEVEL_MAHOGANY_GYM
-    pokemon SPECIES_DELIBIRD
+    pokemon SPECIES_GLACEON
     item ITEM_NEVER_MELT_ICE
-    move MOVE_ICE_BEAM
-    move MOVE_AIR_SLASH
+    move MOVE_FREEZE_DRY
     move MOVE_WATER_PULSE
+    move ALLOW_ILLEGAL_MOVES ? MOVE_EXTRASENSORY : MOVE_HYPER_VOICE
     move MOVE_ICE_SHARD
-    ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_TECHNICIAN : ABILITY_VITAL_SPIRIT
-    ball ITEM_POKE_BALL
-    setivs 20, 20, 20, 20, 20, 20
-    setevs 0, 0, 0, 0, 0, 0
-    nature NATURE_SERIOUS
-    shinylock 0
-    ballseal 0
-
-    ivs 0
-    abilityslot 0
-    level LEVEL_MAHOGANY_GYM
-    pokemon SPECIES_WEAVILE
-    item ITEM_NEVER_MELT_ICE
-    move MOVE_ICE_PUNCH
-    move MOVE_NIGHT_SHADE
-    move MOVE_METAL_CLAW
-    move MOVE_QUICK_ATTACK
-    ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_INNER_FOCUS : ABILITY_PRESSURE
+    ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_SLUSH_RUSH : ABILITY_SNOW_CLOAK
     ball ITEM_POKE_BALL
     setivs 20, 20, 20, 20, 20, 20
     setevs 0, 0, 0, 0, 0, 0
@@ -21827,11 +21893,28 @@ party 483
     level LEVEL_MAHOGANY_GYM
     pokemon SPECIES_PILOSWINE
     item ITEM_NEVER_MELT_ICE
+    move MOVE_HIGH_HORSEPOWER
     move MOVE_ICICLE_CRASH
-    move MOVE_BULLDOZE
-    move MOVE_FURY_ATTACK
-    move MOVE_ICE_SHARD
+    move MOVE_TRAILBLAZE
+    move MOVE_SNOWSCAPE
     ability ABILITY_OBLIVIOUS
+    ball ITEM_POKE_BALL
+    setivs 20, 20, 20, 20, 20, 20
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level LEVEL_MAHOGANY_GYM
+    pokemon SPECIES_DELIBIRD
+    item ITEM_NEVER_MELT_ICE
+    move MOVE_FREEZE_DRY
+    move MOVE_AIR_SLASH
+    move MOVE_WATER_PULSE
+    move MOVE_SNOWSCAPE
+    ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_TECHNICIAN : ABILITY_VITAL_SPIRIT
     ball ITEM_POKE_BALL
     setivs 20, 20, 20, 20, 20, 20
     setevs 0, 0, 0, 0, 0, 0
@@ -21844,28 +21927,11 @@ party 483
     level LEVEL_MAHOGANY_GYM
     pokemon SPECIES_CRYOGONAL
     item ITEM_NEVER_MELT_ICE
-    move MOVE_FROST_BREATH
+    move MOVE_FREEZE_DRY
     move MOVE_ANCIENT_POWER
     move MOVE_CHILLING_WATER
-    move MOVE_SIGNAL_BEAM
+    move MOVE_SNOWSCAPE
     ability ABILITY_LEVITATE
-    ball ITEM_POKE_BALL
-    setivs 20, 20, 20, 20, 20, 20
-    setevs 0, 0, 0, 0, 0, 0
-    nature NATURE_SERIOUS
-    shinylock 0
-    ballseal 0
-
-    ivs 0
-    abilityslot 0
-    level LEVEL_MAHOGANY_GYM
-    pokemon SPECIES_GLALIE
-    item ITEM_NEVER_MELT_ICE
-    move MOVE_ICE_SPINNER
-    move ALLOW_ILLEGAL_MOVES ? MOVE_ROCK_SLIDE : MOVE_BULLDOZE
-    move MOVE_CRUNCH
-    move MOVE_GYRO_BALL
-    ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_LEVITATE : ABILITY_INNER_FOCUS
     ball ITEM_POKE_BALL
     setivs 20, 20, 20, 20, 20, 20
     setevs 0, 0, 0, 0, 0, 0
@@ -21890,13 +21956,13 @@ party 482
     ivs 0
     abilityslot 0
     level LEVEL_MAHOGANY_GYM
-    pokemon SPECIES_DEWGONG
+    pokemon SPECIES_VANILLUXE
     item ITEM_NEVER_MELT_ICE
-    move MOVE_AQUA_TAIL
-    move MOVE_ICICLE_SPEAR
-    move MOVE_TAKE_DOWN
-    move MOVE_ENCORE
-    ability ABILITY_THICK_FAT
+    move MOVE_FREEZE_DRY
+    move MOVE_FLASH_CANNON
+    move MOVE_SIGNAL_BEAM
+    move MOVE_ICE_SHARD
+    ability ABILITY_SNOW_WARNING
     ball ITEM_POKE_BALL
     setivs 20, 20, 20, 20, 20, 20
     setevs 0, 0, 0, 0, 0, 0
@@ -21907,30 +21973,30 @@ party 482
     ivs 0
     abilityslot 0
     level LEVEL_MAHOGANY_GYM
-    pokemon SPECIES_AVALUGG
-    item ITEM_NEVER_MELT_ICE
-    move MOVE_AVALANCHE
-    move MOVE_BODY_PRESS
-    move MOVE_CRUNCH
-    move MOVE_RECOVER
-    ability ABILITY_STURDY
-    ball ITEM_POKE_BALL
-    setivs 20, 20, 20, 20, 20, 20
-    setevs 0, 0, 0, 0, 0, 0
-    nature NATURE_SERIOUS
-    shinylock 0
-    ballseal 0
-
-    ivs 0
-    abilityslot 0
-    level LEVEL_MAHOGANY_GYM
-    pokemon SPECIES_BEARTIC
+    pokemon SPECIES_GLALIE
     item ITEM_NEVER_MELT_ICE
     move MOVE_ICICLE_CRASH
-    move MOVE_NIGHT_SLASH
-    move MOVE_AQUA_JET
-    move MOVE_YAWN
-    ability ABILITY_SNOW_CLOAK
+    move ALLOW_ILLEGAL_MOVES ? MOVE_ROCK_SLIDE : MOVE_NONE
+    move MOVE_CRUNCH
+    move MOVE_SNOWSCAPE
+    ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_LEVITATE : ABILITY_ICE_BODY
+    ball ITEM_POKE_BALL
+    setivs 20, 20, 20, 20, 20, 20
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level LEVEL_MAHOGANY_GYM
+    monwithform SPECIES_SANDSLASH, 1
+    item ITEM_NEVER_MELT_ICE
+    move MOVE_ICICLE_CRASH
+    move MOVE_IRON_HEAD
+    move MOVE_DRILL_RUN
+    move MOVE_SNOWSCAPE
+    ability ABILITY_SLUSH_RUSH
     ball ITEM_POKE_BALL
     setivs 20, 20, 20, 20, 20, 20
     setevs 0, 0, 0, 0, 0, 0
@@ -21955,12 +22021,12 @@ party 481
     ivs 0
     abilityslot 0
     level LEVEL_MAHOGANY_GYM
-    pokemon SPECIES_VANILLUXE
+    pokemon SPECIES_AURORUS
     item ITEM_NEVER_MELT_ICE
     move MOVE_FREEZE_DRY
-    move MOVE_FLASH_CANNON
-    move MOVE_WATER_PULSE
-    move MOVE_ACID_ARMOR
+    move ALLOW_ILLEGAL_MOVES ? MOVE_POWER_GEM : MOVE_ANCIENT_POWER
+    move MOVE_DISCHARGE
+    move MOVE_THUNDER_WAVE
     ability ABILITY_SNOW_WARNING
     ball ITEM_POKE_BALL
     setivs 20, 20, 20, 20, 20, 20
@@ -21972,13 +22038,13 @@ party 481
     ivs 0
     abilityslot 0
     level LEVEL_MAHOGANY_GYM
-    monwithform SPECIES_NINETALES, 1
+    pokemon SPECIES_FROSLASS
     item ITEM_NEVER_MELT_ICE
-    move MOVE_FREEZE_DRY
-    move MOVE_DAZZLING_GLEAM
-    move MOVE_EXTRASENSORY
-    move MOVE_AURORA_VEIL
-    ability ABILITY_SNOW_WARNING
+    move MOVE_ICICLE_CRASH
+    move MOVE_SHADOW_BALL
+    move MOVE_DRAINING_KISS
+    move MOVE_WILL_O_WISP
+    ability ABILITY_SNOW_CLOAK
     ball ITEM_POKE_BALL
     setivs 20, 20, 20, 20, 20, 20
     setevs 0, 0, 0, 0, 0, 0
@@ -21989,12 +22055,12 @@ party 481
     ivs 0
     abilityslot 0
     level LEVEL_MAHOGANY_GYM
-    pokemon SPECIES_GLACEON
+    pokemon SPECIES_WALREIN
     item ITEM_NEVER_MELT_ICE
-    move MOVE_FREEZE_DRY
-    move MOVE_SHADOW_BALL
-    move MOVE_MIRROR_COAT
-    move MOVE_BABY_DOLL_EYES
+    move MOVE_LIQUIDATION
+    move MOVE_ICE_FANG
+    move MOVE_CRUNCH
+    move ALLOW_ILLEGAL_MOVES ? MOVE_SLACK_OFF : MOVE_REST
     ability ABILITY_ICE_BODY
     ball ITEM_POKE_BALL
     setivs 20, 20, 20, 20, 20, 20
@@ -22022,10 +22088,10 @@ party 484
     level LEVEL_MAHOGANY_GYM
     pokemon SPECIES_CLOYSTER
     item ITEM_NEVER_MELT_ICE
-    move MOVE_SURF
-    move MOVE_ICE_BEAM
-    move MOVE_SIGNAL_BEAM
-    move MOVE_ICE_SHARD
+    move MOVE_LIQUIDATION
+    move MOVE_ICE_SPINNER
+    move MOVE_DRILL_RUN
+    move MOVE_SNOWSCAPE
     ability ABILITY_SHELL_ARMOR
     ball ITEM_POKE_BALL
     setivs 20, 20, 20, 20, 20, 20
@@ -22037,13 +22103,13 @@ party 484
     ivs 0
     abilityslot 0
     level LEVEL_MAHOGANY_GYM
-    monwithform SPECIES_SANDSLASH, 1
+    monwithform SPECIES_DARMANITAN, 1
     item ITEM_NEVER_MELT_ICE
-    move MOVE_ICICLE_SPEAR
-    move MOVE_GYRO_BALL
-    move MOVE_PIN_MISSILE
-    move MOVE_HAIL
-    ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_ROUGH_SKIN : ABILITY_SNOW_CLOAK
+    move MOVE_ICICLE_CRASH
+    move MOVE_ZEN_HEADBUTT
+    move MOVE_FIRE_PUNCH
+    move MOVE_BELLY_DRUM
+    ability ABILITY_SHEER_FORCE // No Gorilla Tactics yet
     ball ITEM_POKE_BALL
     setivs 20, 20, 20, 20, 20, 20
     setevs 0, 0, 0, 0, 0, 0
@@ -22054,13 +22120,13 @@ party 484
     ivs 0
     abilityslot 0
     level LEVEL_MAHOGANY_GYM
-    pokemon SPECIES_WALREIN
+    pokemon SPECIES_BEARTIC
     item ITEM_NEVER_MELT_ICE
-    move MOVE_LIQUIDATION
-    move MOVE_ICE_FANG
+    move MOVE_ICICLE_CRASH
+    move MOVE_BRICK_BREAK
     move MOVE_CRUNCH
-    move MOVE_HAIL
-    ability ABILITY_ICE_BODY
+    move MOVE_AQUA_JET
+    ability ABILITY_SLUSH_RUSH
     ball ITEM_POKE_BALL
     setivs 20, 20, 20, 20, 20, 20
     setevs 0, 0, 0, 0, 0, 0
@@ -22088,14 +22154,14 @@ party 32
     pokemon SPECIES_ABOMASNOW
     item ITEM_ICY_ROCK
     move MOVE_BLIZZARD
-    move MOVE_WOOD_HAMMER
-    move MOVE_EARTHQUAKE
+    move MOVE_ENERGY_BALL
+    move MOVE_EARTH_POWER
     move MOVE_AURORA_VEIL
     ability ABILITY_SNOW_WARNING
     ball ITEM_POKE_BALL
     setivs 30, 30, 30, 30, 30, 30
     setevs 0, 0, 0, 0, 0, 0
-    nature NATURE_QUIET
+    nature NATURE_MODEST
     shinylock 0
     ballseal 0
 
@@ -22103,10 +22169,10 @@ party 32
     abilityslot 0
     level LEVEL_PRYCE
     pokemon SPECIES_DEWGONG
-    item ITEM_AGUAV_BERRY
-    move MOVE_ICE_SPINNER
-    move MOVE_LIQUIDATION
-    move ALLOW_ILLEGAL_MOVES ? MOVE_PLAY_ROUGH : MOVE_SMART_STRIKE
+    item ITEM_NEVER_MELT_ICE
+    move MOVE_DOUBLE_EDGE
+    move MOVE_AQUA_TAIL
+    move MOVE_PLAY_ROUGH
     move MOVE_FAKE_OUT
     ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_REFRIGERATE : ABILITY_ICE_BODY
     ball ITEM_POKE_BALL
@@ -22119,13 +22185,30 @@ party 32
     ivs 0
     abilityslot 0
     level LEVEL_PRYCE
-    pokemon SPECIES_CLOYSTER
+    pokemon SPECIES_AVALUGG
+    item ITEM_CUSTAP_BERRY
+    move MOVE_ICICLE_CRASH
+    move MOVE_LIQUIDATION
+    move MOVE_BODY_PRESS
+    move MOVE_SNOWSCAPE
+    ability ABILITY_STURDY
+    ball ITEM_POKE_BALL
+    setivs 30, 30, 30, 30, 30, 30
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_ADAMANT
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level LEVEL_PRYCE
+    pokemon SPECIES_WEAVILE
     item ITEM_FOCUS_SASH
-    move MOVE_ICICLE_SPEAR
-    move MOVE_ROCK_BLAST
-    move MOVE_PIN_MISSILE
-    move MOVE_SHELL_SMASH
-    ability ABILITY_SKILL_LINK
+    move MOVE_TRIPLE_AXEL
+    move MOVE_KNOCK_OFF
+    move MOVE_REVERSAL
+    move MOVE_ICE_SHARD
+    ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_INFILTRATOR : ABILITY_PRESSURE
     ball ITEM_POKE_BALL
     setivs 30, 30, 30, 30, 30, 30
     setevs 0, 0, 0, 0, 0, 0
@@ -22138,32 +22221,15 @@ party 32
     level LEVEL_PRYCE
     pokemon SPECIES_LAPRAS
     item ITEM_ASSAULT_VEST
-    move MOVE_BLIZZARD
     move MOVE_SURF
+    move MOVE_BLIZZARD
     move MOVE_THUNDERBOLT
     move MOVE_PSYCHIC
-    ability ABILITY_SHELL_ARMOR
+    ability ABILITY_WATER_ABSORB
     ball ITEM_POKE_BALL
     setivs 30, 30, 30, 30, 30, 30
     setevs 0, 0, 0, 0, 0, 0
     nature NATURE_MODEST
-    shinylock 0
-    ballseal 0
-
-    ivs 0
-    abilityslot 0
-    level LEVEL_PRYCE
-    pokemon SPECIES_FROSLASS
-    item ITEM_EXPERT_BELT
-    move MOVE_BLIZZARD
-    move MOVE_SHADOW_BALL
-    move MOVE_THUNDERBOLT
-    move MOVE_HAIL
-    ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_LEVITATE : ABILITY_CURSED_BODY
-    ball ITEM_POKE_BALL
-    setivs 30, 30, 30, 30, 30, 30
-    setevs 0, 0, 0, 0, 0, 0
-    nature NATURE_TIMID
     shinylock 0
     ballseal 0
 
@@ -22174,7 +22240,7 @@ party 32
     item ITEM_LIFE_ORB
     move MOVE_ICICLE_CRASH
     move MOVE_EARTHQUAKE
-    move MOVE_ROCK_SLIDE
+    move MOVE_KNOCK_OFF
     move MOVE_ICE_SHARD
     ability ABILITY_THICK_FAT
     ball ITEM_POKE_BALL

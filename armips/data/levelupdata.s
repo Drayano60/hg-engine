@@ -2565,8 +2565,9 @@ levelup SPECIES_SEEL
     learnset MOVE_AQUA_TAIL, 39
     learnset MOVE_SAFEGUARD, 43
     learnset MOVE_BELLY_DRUM, 47
-    learnset MOVE_WAVE_CRASH, 51
-    learnset MOVE_HORN_DRILL, 55
+    learnset MOVE_DOUBLE_EDGE, 51
+    learnset MOVE_WAVE_CRASH, 55
+    learnset MOVE_HORN_DRILL, 59
     terminatelearnset
 
 // NEW: Belly Drum, Wave Crash
@@ -2594,8 +2595,9 @@ levelup SPECIES_DEWGONG
     learnset MOVE_AQUA_TAIL, 42
     learnset MOVE_SAFEGUARD, 46
     learnset MOVE_BELLY_DRUM, 50
-    learnset MOVE_WAVE_CRASH, 54
-    learnset MOVE_HORN_DRILL, 58
+    learnset MOVE_DOUBLE_EDGE, 54
+    learnset MOVE_WAVE_CRASH, 58
+    learnset MOVE_HORN_DRILL, 62
     terminatelearnset
 
 // Evolution: 35
@@ -5465,6 +5467,7 @@ levelup SPECIES_NATU
 
 // NEW: Confusion, Esper Wing
 levelup SPECIES_XATU
+    learnset MOVE_TRIPLE_AXEL, 1
     learnset MOVE_STORED_POWER, 1
     learnset MOVE_FEATHER_DANCE, 1
     learnset MOVE_MAGIC_COAT, 1
@@ -6474,8 +6477,8 @@ levelup SPECIES_WEAVILE
     learnset MOVE_NASTY_PLOT, 1
     learnset MOVE_ASSURANCE, 1
     learnset MOVE_EMBARGO, 1 
-    learnset MOVE_REVENGE, 1 
     learnset MOVE_FLING, 1
+    learnset MOVE_REVERSAL, 1 
     learnset MOVE_FAKE_OUT, 1
     learnset MOVE_SCRATCH, 1
     learnset MOVE_LEER, 1
@@ -7469,8 +7472,8 @@ levelup SPECIES_MUDKIP
     learnset MOVE_MUDDY_WATER, 26
     learnset MOVE_AMNESIA, 30
     learnset MOVE_SCREECH, 36
-    learnset MOVE_ENDEAVOR, 41
-    learnset MOVE_EARTH_POWER, 46
+    learnset MOVE_EARTH_POWER, 41
+    learnset MOVE_ENDEAVOR, 46
     learnset MOVE_SUPERPOWER, 51
     learnset MOVE_HYDRO_PUMP, 56
     terminatelearnset
@@ -7489,8 +7492,8 @@ levelup SPECIES_MARSHTOMP
     learnset MOVE_MUDDY_WATER, 28
     learnset MOVE_AMNESIA, 32
     learnset MOVE_SCREECH, 38
-    learnset MOVE_ENDEAVOR, 43
-    learnset MOVE_EARTHQUAKE, 48
+    learnset MOVE_EARTHQUAKE, 43
+    learnset MOVE_ENDEAVOR, 48
     learnset MOVE_SUPERPOWER, 53
     learnset MOVE_HYDRO_PUMP, 58
     terminatelearnset
@@ -7513,8 +7516,8 @@ levelup SPECIES_SWAMPERT
     learnset MOVE_AMNESIA, 32
     learnset MOVE_LIQUIDATION, 36
     learnset MOVE_SCREECH, 40
-    learnset MOVE_ENDEAVOR, 45
-    learnset MOVE_EARTHQUAKE, 50
+    learnset MOVE_EARTHQUAKE, 45
+    learnset MOVE_ENDEAVOR, 50
     learnset MOVE_SUPERPOWER, 55
     learnset MOVE_HYDRO_PUMP, 60
     terminatelearnset
@@ -10113,7 +10116,6 @@ levelup SPECIES_GLALIE
     learnset MOVE_SHEER_COLD, 60
     terminatelearnset
 
-// NEW: Freeze-Dry
 levelup SPECIES_FROSLASS
     learnset MOVE_AURORA_VEIL, 1
     learnset MOVE_OMINOUS_WIND, 1
@@ -15875,8 +15877,8 @@ levelup SPECIES_CUBCHOO
 // Evolution: 35
 levelup SPECIES_BEARTIC
     learnset MOVE_AQUA_JET, 1
+    learnset MOVE_CRUNCH, 1
     learnset MOVE_ICE_FANG, 1
-    learnset MOVE_NIGHT_SLASH, 1
     learnset MOVE_POWDER_SNOW, 1
     learnset MOVE_GROWL, 1
     learnset MOVE_ENDURE, 1

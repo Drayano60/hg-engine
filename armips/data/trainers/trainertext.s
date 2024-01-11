@@ -415,7 +415,7 @@ _02F8: // Trainer 480
 _0304: // Trainer 481
     trainertextentry 481, TEXT_NOTICE_IN_OVERWORLD, "Check out my parallel turn!\r"
     trainertextentry 481, TEXT_DEFEATED_IN_BATTLE, "No!\nYou made me wipe out!\n"
-    trainertextentry 481, TEXT_DEFEATED_IN_OVERWORLD, "I shouldn’t have been bragging about my\nskiing...\n"
+    trainertextentry 481, TEXT_DEFEATED_IN_OVERWORLD, "I shouldn’t have been bragging about\nmy skiing...\n"
 
 _0310: // Trainer 482
     trainertextentry 482, TEXT_NOTICE_IN_OVERWORLD, "Hey hey, are you shivering?\nAre you scared to fight me?\r"
@@ -1506,8 +1506,8 @@ _0D68: // Trainer 131
     trainertextentry 131, TEXT_REMATCH_IN_OVERWORLD, "I’ve been waiting!\nDid you bring any rare Pokémon\fwith you?\r"
 
 _0D78: // Trainer 132
-    trainertextentry 132, TEXT_NOTICE_IN_OVERWORLD, "Would you get this?\rSome red-haired kid made fun of my\nprecious Pokémon!\rHumph! My Pokémon’s great!\r"
-    trainertextentry 132, TEXT_DEFEATED_IN_BATTLE, "My NIDOKING was outstanding!\n"
+    trainertextentry 132, TEXT_NOTICE_IN_OVERWORLD, "Would you get this?\rSome red-haired kid made fun of my\nprecious Pokémon!\rHumph! My Pokémon are great!\r"
+    trainertextentry 132, TEXT_DEFEATED_IN_BATTLE, "My Pokémon were outstanding!\n"
     trainertextentry 132, TEXT_DEFEATED_IN_OVERWORLD, "It’s OK for people to like different\ntypes of Pokémon.\rPokémon isn’t just about having the\nmost powerful one.\n"
 
 _0D84: // Trainer 402
@@ -1640,9 +1640,9 @@ _0EA4: // Trainer 126
     trainertextentry 126, TEXT_DEFEATED_IN_OVERWORLD, "I won’t lose as an angler! I catch\nPokémon all day.\n"
 
 _0EB0: // Trainer 127
-    trainertextentry 127, TEXT_NOTICE_IN_OVERWORLD, "No matter what I do, all I catch are\nthe same Pokémon...\r"
+    trainertextentry 127, TEXT_NOTICE_IN_OVERWORLD, "I caught some rare Pokémon at\nthe Safari Zone.\rCheck them out!\r"
     trainertextentry 127, TEXT_DEFEATED_IN_BATTLE, "My line’s all tangled up...\n"
-    trainertextentry 127, TEXT_DEFEATED_IN_OVERWORLD, "Why can’t I catch any good Pokémon?\n"
+    trainertextentry 127, TEXT_DEFEATED_IN_OVERWORLD, "I want to catch more rare Pokémon.\n"
 
 _0EBC: // Trainer 235
     trainertextentry 235, TEXT_NOTICE_IN_OVERWORLD, "Are you alone?\nThen let’s battle!\r"
@@ -3641,6 +3641,12 @@ _Trainer828:
 _Trainer829:
     trainertextentry 829, TEXT_DEFEATED_IN_BATTLE, "We need more training..."
 
+_Trainer840:
+    trainertextentry 840, TEXT_DEFEATED_IN_BATTLE, "How could we ever win this?!"
+
+_Trainer841:
+    trainertextentry 841, TEXT_DEFEATED_IN_BATTLE, "My Pokémon weren’t weak.\nIt must be me..."
+
 .close
 
 
@@ -4487,5 +4493,7 @@ _Trainer829:
 /* Trainer 837 */ .halfword _0000
 /* Trainer 838 */ .halfword _0000
 /* Trainer 839 */ .halfword _0000
+/* Trainer 840 */ .halfword _Trainer840
+/* Trainer 841 */ .halfword _Trainer841
 
 .close

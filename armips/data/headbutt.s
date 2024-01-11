@@ -1249,7 +1249,8 @@ headbuttheader  44,  0,   10
     treecoords 469, 179, 470, 179, -1, -1, -1, -1, -1, -1, -1, -1
 .close
 
-headbuttheader  45,  17,   0
+//* Route 43
+headbuttheader  45,  0,   17
     // normal slots
     headbuttencounter SPECIES_HOOTHOOT, 15, 16
     headbuttencounter SPECIES_PINECO, 15, 16
@@ -1264,12 +1265,12 @@ headbuttheader  45,  17,   0
     headbuttencounter SPECIES_EXEGGCUTE, 17, 18
     headbuttencounter SPECIES_EXEGGCUTE, 17, 18
     // special slots
-    headbuttencounter SPECIES_NONE, 0, 0
-    headbuttencounter SPECIES_NONE, 0, 0
-    headbuttencounter SPECIES_NONE, 0, 0
-    headbuttencounter SPECIES_NONE, 0, 0
-    headbuttencounter SPECIES_NONE, 0, 0
-    headbuttencounter SPECIES_NONE, 0, 0
+    headbuttencounter SPECIES_HOOTHOOT, 36, 37
+    headbuttencounter SPECIES_PINECO, 36, 37
+    headbuttencounter SPECIES_EXEGGCUTE, 36, 37
+    headbuttencounter SPECIES_VENONAT, 36, 37
+    headbuttencounter SPECIES_HOOTHOOT, 36, 37
+    headbuttencounter SPECIES_HOOTHOOT, 36, 37
     // normal trees
     treecoords 516, 99, 516, 98, -1, -1, -1, -1, -1, -1, -1, -1
     treecoords 522, 107, 523, 107, -1, -1, -1, -1, -1, -1, -1, -1
@@ -2009,7 +2010,8 @@ headbuttheader  86,   0,   0
 headbuttheader  87,   0,   0
 .close
 
-headbuttheader  88,  22,   0
+//* Lake of Rage
+headbuttheader  88,  0,   22
     // normal slots
     headbuttencounter SPECIES_HOOTHOOT, 14, 16
     headbuttencounter SPECIES_PINECO, 14, 16
@@ -2024,12 +2026,12 @@ headbuttheader  88,  22,   0
     headbuttencounter SPECIES_EXEGGCUTE, 17, 19
     headbuttencounter SPECIES_EXEGGCUTE, 17, 19
     // special slots
-    headbuttencounter SPECIES_NONE, 0, 0
-    headbuttencounter SPECIES_NONE, 0, 0
-    headbuttencounter SPECIES_NONE, 0, 0
-    headbuttencounter SPECIES_NONE, 0, 0
-    headbuttencounter SPECIES_NONE, 0, 0
-    headbuttencounter SPECIES_NONE, 0, 0
+    headbuttencounter SPECIES_HOOTHOOT, 36, 37
+    headbuttencounter SPECIES_PINECO, 36, 37
+    headbuttencounter SPECIES_EXEGGCUTE, 36, 37
+    headbuttencounter SPECIES_VENONAT, 36, 37
+    headbuttencounter SPECIES_HOOTHOOT, 36, 37
+    headbuttencounter SPECIES_HOOTHOOT, 36, 37
     // normal trees
     treecoords 552, 52, 552, 53, 553, 53, -1, -1, -1, -1, -1, -1
     treecoords 552, 62, 553, 62, 553, 61, -1, -1, -1, -1, -1, -1

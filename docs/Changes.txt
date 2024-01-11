@@ -317,6 +317,7 @@ Mahogany Town
 ✓ A little girl in the shop (who appears once the shop starts running) will give you the Covert Cloak.
 ✓ Added a trade in the Pokémon Center for an Emolga in exchange for any Fairy-type.
 ✓ The shopkeeper now sells the same items as Team Rocket, as her actual shop inventory is repurposed for selling X Items.
+✓ The cutscene when you enter the Mahogany Shop with Lance is altered a bit so the NPC is actually deleted.
 
 Route 44
 ✓ Rearranged trainers.
@@ -480,19 +481,21 @@ Lake of Rage
 
 Team Rocket HQ
 ✓ Guard Spec -> Dubious Disc. TM46 -> TM79 Dark Pulse. Protein -> TM36 Sludge Bomb. Ultra Ball -> Toxic Orb. X Special -> Linking Cord. TM49 -> Ultra Ball.
+✓ The trap floor has been modified a bit so that Forretress is now in the roster, with four tiles for each. The encounters are all Level 43 with Explosion as their first move (via hg-e code).
 ✓ Lance now gives you TM02 Dragon Claw after he heals your Pokémon on the second floor.
 ✓ Added a scientist on B1F at a computer who heals you. He also disappears when the Rockets leave.
 ✓ Added a new Trainer in the B1F corridor that leads to B2F (Mickey - 306).
 ✓ Silver now challenges you to a battle when you meet him outside the B2F office. This uses the battle files from the Goldenrod Tunnel encounter (which has been removed).
 ✓ The Petrel fight is removed from the office, he now just now runs off after his dialogue.
-✓ The Ariana fight now has Petrel as a partner instead of a generic Rocket. A little bit of dialogue is added for him.
-✓ The Electrode are now Level 40.
+✓ The Ariana fight has been modified into a fight with two Grunts carrying Pokémon "forced to evolve" per the Radio experiment, but proceeds similarly to before otherwise. Dialogue/overworlds are edited to match this. You're also now healed by Lance after the battle ends.
+✓ The Electrode are now Level 43.
 
 Mahogany Town - Gym
-✓ Pryce's dialogue is edited to remove the erroneous stat boost text, and also mention the Defense boost that Hail now provides to Ice-types.
+✓ Pryce's dialogue is edited to remove the erroneous stat boost text, and also to reflect that the TM is now Snowscape.
 ✓ Defeating Pryce now activates the trigger script in the Ice Path with Will.
 ✓ Following the Suicune encounter, Pryce can be challenged to a rematch where he will award you with the Abomasite if you win. He can be rematched for no reward each time you enter the area.
 ✓ Defeating Pryce the first time now triggers the Mahogany shop to reopen (instead of it being defeating Team Rocket at the Radio Tower).
+✓ Elm's call after leaving the Gym now briefly mentions Mega Evolution, as a setup for later when he gives you the Key Stone.
 
 Whirl Islands
 ✓ Ultra Ball -> Dragon Scale. Carbos -> Damp Rock. Escape Rope -> Ultra Ball.

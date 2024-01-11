@@ -3739,7 +3739,7 @@ movedata MOVE_SKETCH, "Sketch"
 movedata MOVE_TRIPLE_KICK, "Triple Kick"
     battleeffect 104
     pss SPLIT_PHYSICAL
-    basepower 10
+    basepower 60
     type TYPE_FIGHTING
     accuracy 90
     pp 10
@@ -3750,7 +3750,7 @@ movedata MOVE_TRIPLE_KICK, "Triple Kick"
     appeal 0
     contesttype 0
     terminatedata
-    movedescription MOVE_TRIPLE_KICK, "A three-kick attack\nthat gains an extra\n10 power on each\nsuccessive hit, for a\ntotal of 60 power."
+    movedescription MOVE_TRIPLE_KICK, "A three-kick attack.\nThe damage is split\ninto three hits that\nare 10 BP, 20 BP and\n30 BP respectively."
 
 movedata MOVE_THIEF, "Thief"
     battleeffect 323 // Reassigned so AI doesnt discourage it
@@ -13982,7 +13982,7 @@ movedata MOVE_FLIP_TURN, "Flip Turn"
 movedata MOVE_TRIPLE_AXEL, "Triple Axel"
     battleeffect 307
     pss SPLIT_PHYSICAL
-    basepower 20
+    basepower 120
     type TYPE_ICE
     accuracy 90
     pp 10
@@ -13993,7 +13993,7 @@ movedata MOVE_TRIPLE_AXEL, "Triple Axel"
     appeal 0
     contesttype 0
     terminatedata
-    movedescription MOVE_TRIPLE_AXEL, "A three-kick attack\nthat gains an extra\n20 power on each\nsuccessive hit, for a\ntotal of 120 power."
+    movedescription MOVE_TRIPLE_AXEL, "A three-kick attack.\nThe damage is split\ninto three hits that\nare 20 BP, 40 BP and\n60 BP respectively."
 
 // ACCURACY: 90 >> 100
 movedata MOVE_DUAL_WINGBEAT, "Dual Wingbeat"

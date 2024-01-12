@@ -1001,7 +1001,7 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
     /* Handle specific move/move effect multipliers */
 
     // Handle Iron Fist
-    if ((AttackingMon.ability == ABILITY_IRON_FIST) && (sp->moveTbl[sp->current_move_index].appeal & FLAG_PUNCH)) {
+    if ((AttackingMon.ability == ABILITY_IRON_FIST) && (isPunchMove(moveno))) {
         movepower = movepower * 130 / 100;
         // movepower = movepower * 120 / 100;
     }
@@ -1019,34 +1019,17 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
 
     // Handle Mega Launcher
     // Also handle Aura Adept, a new ability for Lucario with the same effect
-    if
-    (
-        ((AttackingMon.ability == ABILITY_MEGA_LAUNCHER) || (AttackingMon.ability == ABILITY_AURA_ADEPT)) &&
-        (sp->moveTbl[sp->current_move_index].appeal & FLAG_PULSE)
-    )
-    {
+    if (((AttackingMon.ability == ABILITY_MEGA_LAUNCHER) || (AttackingMon.ability == ABILITY_AURA_ADEPT)) && (isPulseMove(moveno))) {
         movepower = movepower * 150 / 100;
     }
 
     // Handle Strong Jaw
-    if ((AttackingMon.ability == ABILITY_STRONG_JAW) && (sp->moveTbl[sp->current_move_index].appeal & FLAG_BITING)) {
+    if ((AttackingMon.ability == ABILITY_STRONG_JAW) && (isBitingMove(moveno))) {
         movepower = movepower * 150 / 100;
     }
-	
-    /*
-	// handle sharpness
-    for (i = 0; i < NELEMS(SharpnessMovesTable); i++)
-    {
-        if ((SharpnessMovesTable[i] == moveno) && (AttackingMon.ability == ABILITY_SHARPNESS))
-        {
-            movepower = movepower * 15 / 10;
-            break;
-        }
-    }
-    */
 
     // Handle Sharpness
-    if ((AttackingMon.ability == ABILITY_SHARPNESS) && (sp->moveTbl[sp->current_move_index].appeal & FLAG_CUTTING)) {
+    if ((AttackingMon.ability == ABILITY_SHARPNESS) && (isCuttingMove(moveno))) {
         movepower = movepower * 150 / 100;
     }
 
@@ -1065,16 +1048,12 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
     }
 
     // Handle Bombardier, a new ability for Octillery
-    if
-    (
-        (AttackingMon.ability == ABILITY_BOMBARDIER) && (sp->moveTbl[sp->current_move_index].appeal & FLAG_BALL)     
-    )
-    {
+    if ((AttackingMon.ability == ABILITY_BOMBARDIER) && (isBallOrBombMove(moveno))) {
         movepower = movepower * 150 / 100;
     }
 
     // Handle Wind Whipper, a new ability for Shiftry
-    if ((AttackingMon.ability == ABILITY_WIND_WHIPPER) && (sp->moveTbl[sp->current_move_index].appeal & FLAG_WIND)) {
+    if ((AttackingMon.ability == ABILITY_WIND_WHIPPER) && (isWindMove(moveno))) {
         movepower = movepower * 150 / 100;
     }
 

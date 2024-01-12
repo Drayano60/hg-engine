@@ -173,7 +173,7 @@ int MoveCheckDamageNegatingAbilities(struct BattleStruct *sp, int attacker, int 
     // Handle Bulletproof. Soundproof SUB_SEQ works perfectly for this too.
     if (MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_BULLETPROOF) == TRUE) {
         {
-            if (sp->moveTbl[sp->current_move_index].appeal & FLAG_BALL) {
+            if (isBallOrBombMove(sp->current_move_index)) {
                 scriptnum = SUB_SEQ_SOUNDPROOF;
             }
         }
@@ -182,20 +182,11 @@ int MoveCheckDamageNegatingAbilities(struct BattleStruct *sp, int attacker, int 
     // Handle Wind Rider. Sap Sipper SUB_SEQ works perfectly for this too.
     if (MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_WIND_RIDER) == TRUE) {
         {
-            if (sp->moveTbl[sp->current_move_index].appeal & FLAG_WIND) {
+            if (isWindMove(sp->current_move_index)) {
                 scriptnum = SUB_SEQ_HANDLE_SAP_SIPPER;
             }
         }
     }
-
-    // Handle Vaporize, a new ability for Magcargo that negates Water attacks
-    // if (MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_VAPORIZE) == TRUE)
-    // {
-    //     if ((movetype == TYPE_WATER) && (attacker != defender))
-    //     {
-    //         scriptnum = SUB_SEQ_HANDLE_VAPORIZE;
-    //     }
-    // }
 
     // 02252FDC
     if (MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_MOTOR_DRIVE) == TRUE)
@@ -248,7 +239,7 @@ int MoveCheckDamageNegatingAbilities(struct BattleStruct *sp, int attacker, int 
     // Handle Overcoat's powder blocking effect
     if (MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_OVERCOAT) == TRUE) {
         {
-            if (sp->moveTbl[sp->current_move_index].appeal & FLAG_POWDER) {
+            if (isPowderMove(sp->current_move_index)) {
                 scriptnum = SUB_SEQ_SOUNDPROOF;
             }
         }
@@ -260,27 +251,7 @@ int MoveCheckDamageNegatingAbilities(struct BattleStruct *sp, int attacker, int 
         (MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_ARMOR_TAIL) == TRUE) ||
         (MoldBreakerAbilityCheck(sp, attacker, BATTLER_ALLY(defender), ABILITY_ARMOR_TAIL) == TRUE)
     ) {
-        if (
-            (sp->moveTbl[sp->current_move_index].priority > 0)
-            ||
-            (
-                (GetBattlerAbility(sp, attacker) == ABILITY_PRANKSTER) &&
-                (sp->moveTbl[sp->current_move_index].split == SPLIT_STATUS) &&
-                (sp->moveTbl[sp->current_move_index].priority >= 0) // Prankster is +1
-            )
-            ||
-            (
-                (GetBattlerAbility(sp, attacker) == ABILITY_GALE_WINGS) &&
-                (sp->moveTbl[sp->current_move_index].type == TYPE_FLYING) &&
-                (sp->moveTbl[sp->current_move_index].priority >= 0) // Gale Wings is +1
-            )
-            ||
-            (
-                (GetBattlerAbility(sp, attacker) == ABILITY_TRIAGE) &&
-                (sp->moveTbl[sp->current_move_index].appeal & FLAG_HEALING) &&
-                (sp->moveTbl[sp->current_move_index].priority >= -2) // Triage is +3
-            )
-        ) {
+        if (adjustedMoveHasPositivePriority(sp, attacker)) {
             scriptnum = SUB_SEQ_HANDLE_ARMOR_TAIL;
         }
     }
@@ -292,27 +263,7 @@ int MoveCheckDamageNegatingAbilities(struct BattleStruct *sp, int attacker, int 
         (MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_DAZZLING) == TRUE) ||
         (MoldBreakerAbilityCheck(sp, attacker, BATTLER_ALLY(defender), ABILITY_DAZZLING) == TRUE)
     ) {
-        if (
-            (sp->moveTbl[sp->current_move_index].priority > 0)
-            ||
-            (
-                (GetBattlerAbility(sp, attacker) == ABILITY_PRANKSTER) &&
-                (sp->moveTbl[sp->current_move_index].split == SPLIT_STATUS) &&
-                (sp->moveTbl[sp->current_move_index].priority >= 0) // Prankster is +1
-            )
-            ||
-            (
-                (GetBattlerAbility(sp, attacker) == ABILITY_GALE_WINGS) &&
-                (sp->moveTbl[sp->current_move_index].type == TYPE_FLYING) &&
-                (sp->moveTbl[sp->current_move_index].priority >= 0) // Gale Wings is +1
-            )
-            ||
-            (
-                (GetBattlerAbility(sp, attacker) == ABILITY_TRIAGE) &&
-                (sp->moveTbl[sp->current_move_index].appeal & FLAG_HEALING) &&
-                (sp->moveTbl[sp->current_move_index].priority >= -2) // Triage is +3
-            )
-        ) {
+        if (adjustedMoveHasPositivePriority(sp, attacker)) {
             scriptnum = SUB_SEQ_HANDLE_DAZZLING;
         }
     }
@@ -324,27 +275,7 @@ int MoveCheckDamageNegatingAbilities(struct BattleStruct *sp, int attacker, int 
         (MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_QUEENLY_MAJESTY) == TRUE) ||
         (MoldBreakerAbilityCheck(sp, attacker, BATTLER_ALLY(defender), ABILITY_QUEENLY_MAJESTY) == TRUE)
     ) {
-        if (
-            (sp->moveTbl[sp->current_move_index].priority > 0)
-            ||
-            (
-                (GetBattlerAbility(sp, attacker) == ABILITY_PRANKSTER) &&
-                (sp->moveTbl[sp->current_move_index].split == SPLIT_STATUS) &&
-                (sp->moveTbl[sp->current_move_index].priority >= 0) // Prankster is +1
-            )
-            ||
-            (
-                (GetBattlerAbility(sp, attacker) == ABILITY_GALE_WINGS) &&
-                (sp->moveTbl[sp->current_move_index].type == TYPE_FLYING) &&
-                (sp->moveTbl[sp->current_move_index].priority >= 0) // Gale Wings is +1
-            )
-            ||
-            (
-                (GetBattlerAbility(sp, attacker) == ABILITY_TRIAGE) &&
-                (sp->moveTbl[sp->current_move_index].appeal & FLAG_HEALING) &&
-                (sp->moveTbl[sp->current_move_index].priority >= -2) // Triage is +3
-            )
-        ) {
+        if (adjustedMoveHasPositivePriority(sp, attacker)) {
             scriptnum = SUB_SEQ_HANDLE_QUEENLY_MAJESTY;
         }
     }

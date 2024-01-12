@@ -363,16 +363,6 @@
 // repurposed
 #define FLAG_SOUND       (0x20)
 
-// used in appeal field
-#define FLAG_BITING      (0x01)
-#define FLAG_BALL        (0x02)
-#define FLAG_HEALING     (0x04)
-#define FLAG_CUTTING     (0x08)
-#define FLAG_POWDER      (0x10)
-#define FLAG_PULSE       (0x20)
-#define FLAG_PUNCH       (0x40)
-#define FLAG_WIND        (0x80)
-
 /**
  *  @brief macros to grab certain battlers relative to the one passed in
  *
@@ -2368,6 +2358,15 @@ BOOL adjustedMoveHasPositivePriority(struct BattleStruct *sp, int attacker);
  *  @return target form
  */
 u32 GrabMegaTargetForm(u32 mon, u32 item);
+
+// Functions to check move flags
+BOOL isBitingMove(int move_no);
+BOOL isBallOrBombMove(int move_no);
+BOOL isCuttingMove(int move_no);
+BOOL isPowderMove(int move_no);
+BOOL isPulseMove(int move_no);
+BOOL isPunchMove(int move_no);
+BOOL isWindMove(int move_no);
 
 
 typedef enum Terrain {

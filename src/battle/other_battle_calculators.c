@@ -39,52 +39,180 @@ const AccuracyStatChangeRatio sAccStatChanges[] =
     {   3,   1 },
 };
 
-/*
-const u16 PowderMovesList[] = {
+
+static const u16 BitingMovesList[] = {
+    MOVE_BITE,
+    MOVE_CRUNCH,
+    MOVE_FIRE_FANG,
+    MOVE_FISHIOUS_REND,
+    MOVE_HYPER_FANG,
+    MOVE_ICE_FANG,
+    MOVE_JAW_LOCK,
+    MOVE_POISON_FANG,
+    MOVE_PSYCHIC_FANGS,
+    MOVE_THUNDER_FANG,
+    MOVE_SAVAGE_REND, // New
+};
+
+static const u16 BallBombMovesList[] =
+{
+    MOVE_ACID_SPRAY,
+    MOVE_AURA_SPHERE,
+    MOVE_BARRAGE,
+    MOVE_BULLET_SEED,
+    MOVE_EGG_BOMB,
+    MOVE_ELECTRO_BALL,
+    MOVE_ENERGY_BALL,
+    MOVE_FOCUS_BLAST,
+    MOVE_GYRO_BALL,
+    MOVE_ICE_BALL,
+    MOVE_MAGNET_BOMB,
+    MOVE_MIST_BALL,
+    MOVE_MUD_BOMB,
+    MOVE_OCTAZOOKA,
+    MOVE_POLLEN_PUFF,
+    MOVE_PYRO_BALL,
+    MOVE_ROCK_BLAST,
+    MOVE_ROCK_WRECKER,
+    MOVE_SEARING_SHOT,
+    MOVE_SEED_BOMB,
+    MOVE_SHADOW_BALL,
+    MOVE_SLUDGE_BOMB,
+    MOVE_WEATHER_BALL,
+    MOVE_ZAP_CANNON,
+};
+
+static const u16 CuttingMovesList[] = {
+    MOVE_AERIAL_ACE,
+    MOVE_AIR_CUTTER,
+    MOVE_AIR_SLASH,
+    MOVE_AQUA_CUTTER,
+    MOVE_BEHEMOTH_BLADE,
+    MOVE_BITTER_BLADE,
+    MOVE_CEASELESS_EDGE,
+    MOVE_CROSS_POISON,
+    MOVE_CUT,
+    MOVE_FURY_CUTTER,
+    MOVE_KOWTOW_CLEAVE,
+    MOVE_LEAF_BLADE,
+    MOVE_NIGHT_SLASH,
+    MOVE_POPULATION_BOMB,
+    MOVE_PSYBLADE,
+    MOVE_PSYCHO_CUT,
+    MOVE_RAZOR_SHELL,
+    MOVE_RAZOR_LEAF,
+    MOVE_SACRED_SWORD,
+    MOVE_SECRET_SWORD,
+    MOVE_SLASH,
+    MOVE_SOLAR_BLADE,
+    MOVE_STONE_AXE,
+    MOVE_X_SCISSOR,
+    MOVE_RAZOR_WIND, // New
+};
+
+static const u16 HealingMovesList[] = {
+    MOVE_ABSORB,
+    MOVE_DRAIN_PUNCH,
+    MOVE_DRAINING_KISS,
+    MOVE_DREAM_EATER,
+    MOVE_FLORAL_HEALING,
+    MOVE_GIGA_DRAIN,
+    MOVE_HEAL_ORDER,
+    MOVE_HEAL_PULSE,
+    MOVE_HEALING_WISH,
+    MOVE_HORN_LEECH,
+    MOVE_LEECH_LIFE,
+    MOVE_LUNAR_DANCE,
+    MOVE_MEGA_DRAIN,
+    MOVE_MILK_DRINK,
+    MOVE_MOONLIGHT,
+    MOVE_MORNING_SUN,
+    MOVE_OBLIVION_WING,
+    MOVE_PARABOLIC_CHARGE,
+    MOVE_PURIFY,
+    MOVE_RECOVER,
+    MOVE_REST,
+    MOVE_ROOST,
+    MOVE_SHORE_UP,
+    MOVE_SLACK_OFF,
+    MOVE_SOFT_BOILED,
+    MOVE_STRENGTH_SAP,
+    MOVE_SWALLOW,
+    MOVE_SYNTHESIS,
+    MOVE_WISH,
+};
+
+static const u16 PowderMovesList[] = {
     MOVE_COTTON_SPORE,
+    MOVE_MAGIC_POWDER,
     MOVE_POISON_POWDER,
+    MOVE_POWDER,
+    MOVE_RAGE_POWDER,
     MOVE_SLEEP_POWDER,
     MOVE_STUN_SPORE,
     MOVE_SPORE,
-    MOVE_POWDER,
-    MOVE_RAGE_POWDER,
-    MOVE_MAGIC_POWDER,
 };
-*/
 
-// Moves that Triage boosts the priority of.
-// Move effects might be a tidier way to do it, but we don't have those defined for some of these moves yet.
-// const u16 TriageMovesList[] = {
-//     MOVE_ABSORB,
-//     MOVE_DRAIN_PUNCH,
-//     MOVE_DRAINING_KISS,
-//     MOVE_DREAM_EATER,
-//     MOVE_FLORAL_HEALING,
-//     MOVE_GIGA_DRAIN,
-//     MOVE_HEAL_ORDER,
-//     MOVE_HEAL_PULSE,
-//     MOVE_HEALING_WISH,
-//     MOVE_HORN_LEECH,
-//     MOVE_LEECH_LIFE,
-//     MOVE_LUNAR_DANCE,
-//     MOVE_MEGA_DRAIN,
-//     MOVE_MILK_DRINK,
-//     MOVE_MOONLIGHT,
-//     MOVE_MORNING_SUN,
-//     MOVE_OBLIVION_WING,
-//     MOVE_PARABOLIC_CHARGE,
-//     MOVE_PURIFY,
-//     MOVE_RECOVER,
-//     MOVE_REST,
-//     MOVE_ROOST,
-//     MOVE_SHORE_UP,
-//     MOVE_SLACK_OFF,
-//     MOVE_SOFT_BOILED,
-//     MOVE_STRENGTH_SAP,
-//     MOVE_SWALLOW,
-//     MOVE_SYNTHESIS,
-//     MOVE_WISH,
-// };
+static const u16 PulseMovesList[] = {
+    MOVE_AURA_SPHERE,
+    MOVE_DARK_PULSE,
+    MOVE_DRAGON_PULSE,
+    MOVE_HEAL_PULSE,
+    MOVE_ORIGIN_PULSE,
+    MOVE_TERRAIN_PULSE,
+    MOVE_WATER_PULSE,
+};
+
+static const u16 PunchMovesList[] = {
+    MOVE_BULLET_PUNCH,
+    MOVE_COMET_PUNCH,
+    MOVE_DIZZY_PUNCH,
+    MOVE_DOUBLE_IRON_BASH,
+    MOVE_DRAIN_PUNCH,
+    MOVE_DYNAMIC_PUNCH,
+    MOVE_FIRE_PUNCH,
+    MOVE_FOCUS_PUNCH,
+    MOVE_HAMMER_ARM,
+    MOVE_HEADLONG_RUSH,
+    MOVE_ICE_HAMMER,
+    MOVE_ICE_PUNCH,
+    MOVE_JET_PUNCH,
+    MOVE_MACH_PUNCH,
+    MOVE_MEGA_PUNCH,
+    MOVE_METEOR_MASH,
+    MOVE_PLASMA_FISTS,
+    MOVE_POWER_UP_PUNCH,
+    MOVE_RAGE_FIST,
+    MOVE_SHADOW_PUNCH,
+    MOVE_SKY_UPPERCUT,
+    MOVE_SURGING_STRIKES,
+    MOVE_THUNDER_PUNCH,
+    MOVE_WICKED_BLOW,
+};
+
+static const u16 WindMovesList[] = {
+    MOVE_AEROBLAST,
+    MOVE_AIR_CUTTER,
+    MOVE_BLEAKWIND_STORM,
+    MOVE_BLIZZARD,
+    MOVE_FAIRY_WIND,
+    MOVE_GUST,
+    MOVE_HEAT_WAVE,
+    MOVE_HURRICANE,
+    MOVE_ICY_WIND,
+    MOVE_PETAL_BLIZZARD,
+    MOVE_SANDSEAR_STORM,
+    MOVE_SANDSTORM,
+    MOVE_SPRINGTIDE_STORM,
+    MOVE_TAILWIND,
+    MOVE_TWISTER,
+    MOVE_WHIRLWIND,
+    MOVE_WILDBOLT_STORM,
+    MOVE_LEAF_TORNADO, // New
+    MOVE_RAZOR_WIND, // New
+    MOVE_SILVER_WIND, // New
+    MOVE_OMINOUS_WIND, // New
+};
 
 static const u16 AntiMinimizeMoves[] = {
     MOVE_BODY_SLAM,
@@ -130,7 +258,7 @@ BOOL CalcAccuracy(void *bw, struct BattleStruct *sp, int attacker, int defender,
     }
 
     // Powder moves do not work against Grass-type Pokemon
-    if (sp->moveTbl[sp->current_move_index].appeal & FLAG_POWDER) {
+    if (isPowderMove(move_no)) {
         if
         (
             (BattlePokemonParamGet(sp, sp->defence_client, BATTLE_MON_DATA_TYPE1, NULL) == TYPE_GRASS) ||
@@ -760,11 +888,11 @@ u8 CalcSpeed(void *bw, struct BattleStruct *sp, int client1, int client2, int fl
         }
 
 
-        if (GetBattlerAbility(sp, client1) == ABILITY_TRIAGE && sp->moveTbl[move1].appeal & FLAG_HEALING) {
+        if (GetBattlerAbility(sp, client1) == ABILITY_TRIAGE && isHealingMove(move1)) {
             priority1 = priority1 + 3;
         }
 
-        if (GetBattlerAbility(sp, client2) == ABILITY_TRIAGE && sp->moveTbl[move2].appeal & FLAG_HEALING) {
+        if (GetBattlerAbility(sp, client1) == ABILITY_TRIAGE && isHealingMove(move2)) {
             priority2 = priority2 + 3;
         }
     }
@@ -1359,9 +1487,9 @@ int ServerDoTypeCalcMod(void *bw UNUSED, struct BattleStruct *sp, int move_no, i
         (defenderAbility == ABILITY_LIGHTNING_ROD && move_type == TYPE_ELECTRIC) ||
         ((defenderAbility == ABILITY_STORM_DRAIN || defenderAbility == ABILITY_DRY_SKIN) && move_type == TYPE_WATER) ||
         (defenderAbility == ABILITY_SAP_SIPPER && move_type == TYPE_GRASS) ||
-        (defenderAbility == ABILITY_BULLETPROOF && sp->moveTbl[move_no].appeal & FLAG_BALL) ||
-        (defenderAbility == ABILITY_WIND_RIDER && sp->moveTbl[move_no].appeal & FLAG_WIND) ||
-        ((defenderAbility == ABILITY_ARMOR_TAIL || defenderAbility == ABILITY_DAZZLING || defenderAbility == ABILITY_QUEENLY_MAJESTY) && sp->moveTbl[move_no].priority > 0)
+        (defenderAbility == ABILITY_BULLETPROOF && isBallOrBombMove(move_no)) ||
+        (defenderAbility == ABILITY_WIND_RIDER && isWindMove(move_no)) ||
+        ((defenderAbility == ABILITY_ARMOR_TAIL || defenderAbility == ABILITY_DAZZLING || defenderAbility == ABILITY_QUEENLY_MAJESTY) && (adjustedMoveHasPositivePriority(sp, attack_client)))
     )
     {
         damage = 1;
@@ -1561,7 +1689,7 @@ BOOL BattleTryRun(void *bw, struct BattleStruct *ctx, int battlerId) {
 BOOL adjustedMoveHasPositivePriority(struct BattleStruct *sp, int attacker) {
     BOOL isTriageMove = FALSE;
 
-    if (sp->moveTbl[sp->current_move_index].appeal & FLAG_HEALING) {
+    if (isHealingMove(sp->current_move_index)) {
         isTriageMove = TRUE;
     }
 
@@ -1583,3 +1711,108 @@ BOOL adjustedMoveHasPositivePriority(struct BattleStruct *sp, int attacker) {
     }
     return FALSE;
 }
+
+BOOL isBitingMove(int move_no) {
+    BOOL isBitingMove = FALSE;
+
+    for (u16 i = 0; i < NELEMS(BitingMovesList); i++) {
+        if (BitingMovesList[i] == move_no) {
+            isBitingMove = TRUE;
+            break;
+        }
+    }
+
+    return isBitingMove;
+}
+
+BOOL isBallOrBombMove(int move_no) {
+    BOOL isBallOrBombMove = FALSE;
+
+    for (u16 i = 0; i < NELEMS(BallBombMovesList); i++) {
+        if (BallBombMovesList[i] == move_no) {
+            isBallOrBombMove = TRUE;
+            break;
+        }
+    }
+
+    return isBallOrBombMove;
+}
+
+BOOL isHealingMove(int move_no) {
+    BOOL isHealingMove = FALSE;
+
+    for (u16 i = 0; i < NELEMS(HealingMovesList); i++) {
+        if (HealingMovesList[i] == move_no) {
+            isHealingMove = TRUE;
+            break;
+        }
+    }
+
+    return isHealingMove;
+}
+
+BOOL isCuttingMove(int move_no) {
+    BOOL isCuttingMove = FALSE;
+
+    for (u16 i = 0; i < NELEMS(CuttingMovesList); i++) {
+        if (CuttingMovesList[i] == move_no) {
+            isCuttingMove = TRUE;
+            break;
+        }
+    }
+
+    return isCuttingMove;
+}
+
+BOOL isPowderMove(int move_no) {
+    BOOL isPowderMove = FALSE;
+
+    for (u16 i = 0; i < NELEMS(PowderMovesList); i++) {
+        if (PowderMovesList[i] == move_no) {
+            isPowderMove = TRUE;
+            break;
+        }
+    }
+
+    return isPowderMove;
+}
+
+BOOL isPulseMove(int move_no) {
+    BOOL isPulseMove = FALSE;
+
+    for (u16 i = 0; i < NELEMS(PulseMovesList); i++) {
+        if (PulseMovesList[i] == move_no) {
+            isPulseMove = TRUE;
+            break;
+        }
+    }
+
+    return isPulseMove;
+}
+
+BOOL isPunchMove(int move_no) {
+    BOOL isPunchMove = FALSE;
+
+    for (u16 i = 0; i < NELEMS(PunchMovesList); i++) {
+        if (PunchMovesList[i] == move_no) {
+            isPunchMove = TRUE;
+            break;
+        }
+    }
+
+    return isPunchMove;
+}
+
+BOOL isWindMove(int move_no) {
+    BOOL isWindMove = FALSE;
+
+    for (u16 i = 0; i < NELEMS(WindMovesList); i++) {
+        if (WindMovesList[i] == move_no) {
+            isWindMove = TRUE;
+            break;
+        }
+    }
+
+    return isWindMove;
+}
+

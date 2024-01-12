@@ -14592,15 +14592,16 @@ levelup SPECIES_TRUBBISH
     learnset MOVE_SLUDGE_BOMB, 32
     learnset MOVE_TOXIC, 37
     learnset MOVE_AMNESIA, 42
-    learnset MOVE_PAIN_SPLIT, 47
-    learnset MOVE_GUNK_SHOT, 52
+    learnset MOVE_GUNK_SHOT, 47
+    learnset MOVE_PAIN_SPLIT, 52
     learnset MOVE_EXPLOSION, 57
     terminatelearnset
 
 levelup SPECIES_GARBODOR
+    learnset MOVE_CROSS_POISON, 1
+    learnset MOVE_SELF_DESTRUCT, 1
     learnset MOVE_AUTOTOMIZE, 1
     learnset MOVE_ROCK_BLAST, 1
-    learnset MOVE_SELF_DESTRUCT, 1
     learnset MOVE_SPIKES, 1
     learnset MOVE_POUND, 1
     learnset MOVE_RECYCLE, 1
@@ -14617,8 +14618,8 @@ levelup SPECIES_GARBODOR
     learnset MOVE_METAL_CLAW, 36
     learnset MOVE_TOXIC, 40
     learnset MOVE_AMNESIA, 45
-    learnset MOVE_PAIN_SPLIT, 50
-    learnset MOVE_GUNK_SHOT, 55
+    learnset MOVE_GUNK_SHOT, 50
+    learnset MOVE_PAIN_SPLIT, 55
     learnset MOVE_EXPLOSION, 60
     terminatelearnset
 

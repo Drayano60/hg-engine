@@ -88,6 +88,7 @@ u8 TrainerMusicTable[][2] = {
     // New Entries
     {95, 220}, // Steven (DP Lucas) (uses HGSS Champion theme as I don't have Steven's music yet)
     {96, 224}, // Cynthia (DP Dawn)
+    {113, 0x74}, // Rocket Scientist
 };
 
 // Trainer Battle Music IDs

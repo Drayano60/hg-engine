@@ -1866,7 +1866,7 @@ _10CC: // Trainer 188
     trainertextentry 188, TEXT_DEFEATED_IN_OVERWORLD, "Our Executives are trying to take this\nplace over. They have some big plan.\fI wonder what it is.\n"
 
 _10D8: // Trainer 198
-    trainertextentry 198, TEXT_NOTICE_IN_OVERWORLD, "Ha ha ha!\fHow boring. It was far too easy to take\nover this place!\rCome on, keep me amused!\r"
+    trainertextentry 198, TEXT_NOTICE_IN_OVERWORLD, "Ha ha ha!\nHow boring.\rIt was far too easy to take over\nthis place!\rCome on, keep me amused!\r"
     trainertextentry 198, TEXT_DEFEATED_IN_BATTLE, "Wh-who are you?\n"
     trainertextentry 198, TEXT_DEFEATED_IN_OVERWORLD, "You beat me, and I won’t forget it!\n"
 
@@ -1881,9 +1881,9 @@ _10F0: // Trainer 189
     trainertextentry 189, TEXT_DEFEATED_IN_OVERWORLD, "I failed in my duties...\nI’ll be docked pay for this...\n"
 
 _10FC: // Trainer 190
-    trainertextentry 190, TEXT_NOTICE_IN_OVERWORLD, "It feels great ordering Pokémon to\ncommit crimes.\r"
+    trainertextentry 190, TEXT_NOTICE_IN_OVERWORLD, "People know the two of us as the\nRocket Bat Squad.\rWe’ll annoy you so much that\nyou’ll be begging to leave!\r"
     trainertextentry 190, TEXT_DEFEATED_IN_BATTLE, "You’re kidding!\n"
-    trainertextentry 190, TEXT_DEFEATED_IN_OVERWORLD, "I feel lousy over losing! Bah!\nI hate useless Pokémon!\n"
+    trainertextentry 190, TEXT_DEFEATED_IN_OVERWORLD, "I feel annoyed over losing!\nBah! I hate useless Pokémon!\n"
 
 _1108: // Trainer 191
     trainertextentry 191, TEXT_NOTICE_IN_OVERWORLD, "Why did the door open? Did you have\nsomething to do with this?\r"
@@ -1923,7 +1923,7 @@ _1150: // Trainer 478
     trainertextentry 478, TEXT_DEFEATED_IN_OVERWORLD, "What a waste...\nnot to use your strength to do\fbad things!\rFeh... People like you will never in a\nmillion years understand our brilliance!\rIt’s too bad... I’ve really come to\nrespect your strength.\n"
 
 _1164: // Trainer 485
-    trainertextentry 485, TEXT_LAST_MON_CRITICAL, "We can’t have you getting in the way\nbefore news of our resurgence\freaches Giovanni!\n"
+    trainertextentry 485, TEXT_LAST_MON_CRITICAL, "We can’t have you getting in the way\nof our goals.\n"
     trainertextentry 485, TEXT_LAST_MON_SENT_OUT, "That’s impossible...\n"
     trainertextentry 485, TEXT_DEFEATED_IN_BATTLE, "No!\nForgive me, Giovanni!\n"
 
@@ -2169,7 +2169,7 @@ _13A0: // Trainer 228
     trainertextentry 228, TEXT_DEFEATED_IN_OVERWORLD, "All right. A hint!\rLook at the color of the door switches.\nYou push a color switch, and the same\fcolor door opens up...\n"
 
 _13AC: // Trainer 199
-    trainertextentry 199, TEXT_NOTICE_IN_OVERWORLD, "Are you lost? No, you can’t be.\nYou don’t have that scared look. I’ll\fgive you something to be scared about!\r"
+    trainertextentry 199, TEXT_NOTICE_IN_OVERWORLD, "Are you lost? No, you can’t be.\nYou don’t have that scared look.\rI’ll give you something to be\nscared about!\r"
     trainertextentry 199, TEXT_DEFEATED_IN_BATTLE, "How could you?\n"
     trainertextentry 199, TEXT_DEFEATED_IN_OVERWORLD, "Go wherever you like! Get lost!\nSee if I care!\n"
 

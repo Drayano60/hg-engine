@@ -1472,8 +1472,7 @@ int SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
                 if (i == (s32)client_set_max) {
                     sp->switch_in_check_seq_no++;
                 }
-                FALLTHROUGH;
-                // 02253D78
+                break;
             case SWITCH_IN_CHECK_FIELD:
                 if (sp->printed_field_message == 0) {
                     sp->terrainOverlay.type = TERRAIN_NONE;

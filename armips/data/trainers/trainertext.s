@@ -438,7 +438,7 @@ _0334: // Trainer 110
     trainertextentry 110, TEXT_DEFEATED_IN_OVERWORLD, "You’ve met the Dragon Tamer Lance?\nI don’t believe you.\n"
 
 _0340: // Trainer 112
-    trainertextentry 112, TEXT_NOTICE_IN_OVERWORLD, "It’s not as if we all use Dragon-type\nPokémon. It’s about more than that--\rWe’re interested in strong Pokémon.\nThat’s my theme!\r"
+    trainertextentry 112, TEXT_NOTICE_IN_OVERWORLD, "It’s not as if we only use\nDragon-type Pokémon.\rIt’s about more than that.\nWe’re interested in strong Pokémon!\r"
     trainertextentry 112, TEXT_DEFEATED_IN_BATTLE, "Just what I expected.\n"
     trainertextentry 112, TEXT_DEFEATED_IN_OVERWORLD, "I need to make my Pokémon stronger!\rPokémon and Trainers both need\nto train!\n"
 
@@ -2199,7 +2199,7 @@ _13E0: // Trainer 500
 _13EC: // Trainer 501
     trainertextentry 501, TEXT_NOTICE_IN_OVERWORLD, "You shouldn’t be in here!\r"
     trainertextentry 501, TEXT_DEFEATED_IN_BATTLE, "Oh yikes, I lost!\n"
-    trainertextentry 501, TEXT_DEFEATED_IN_OVERWORLD, "Soon I’m going to get permission from\nour Master to use dragons.\rWhen I do, I’m going to become an\nadmirable Dragon Tamer and gain our\fMaster’s approval.\n"
+    trainertextentry 501, TEXT_DEFEATED_IN_OVERWORLD, "I’m going to become an admirable\nDragon Tamer and gain our Master’s\fapproval.\n"
 
 _13F8: // Trainer 502
     trainertextentry 502, TEXT_DOUBLE_NOTICE_IN_OVERWORLD_1, "We’ll make you a deal.\r"
@@ -2661,7 +2661,7 @@ _1878: // Trainer 238
     trainertextentry 238, TEXT_DEFEATED_IN_BATTLE, "Mmmmph... I just woke up.\nI couldn’t focus...\n"
 
 _187C: // Trainer 700
-    trainertextentry 700, TEXT_LAST_MON_CRITICAL, "What in the world was that? Don’t tell\nme some inexperienced kid can\fpossibly be that strong!\n"
+    trainertextentry 700, TEXT_LAST_MON_CRITICAL, "What in the world was that?\rDon’t tell me some inexperienced kid\ncan possibly be this strong!\n"
     trainertextentry 700, TEXT_LAST_MON_SENT_OUT, "What was that?\n"
     trainertextentry 700, TEXT_DEFEATED_IN_BATTLE, "What in the world are you?\n"
 
@@ -3267,7 +3267,7 @@ _Trainer306:
 _Trainer307:
     trainertextentry 307, TEXT_NOTICE_IN_OVERWORLD, "Brr...\nIt’s so cold in here!\rLet’s warm up with a battle!\r"
     trainertextentry 307, TEXT_DEFEATED_IN_BATTLE, "Nope. Still cold...\n"
-    trainertextentry 307, TEXT_DEFEATED_IN_OVERWORLD, "The Ice Path has some Pokémon\nthat you can’t find anywhere else.\fBut it’s not nice to be here!"
+    trainertextentry 307, TEXT_DEFEATED_IN_OVERWORLD, "The Ice Path has some wild Pokémon\nthat you won’t find anywhere else.\rBut it’s not nice to be here!"
 
 _Trainer338:
     trainertextentry 338, TEXT_NOTICE_IN_OVERWORLD, "Are you going to Blackthorn’s Gym?\r"
@@ -3598,6 +3598,8 @@ _Trainer817:
     trainertextentry 817, TEXT_DEFEATED_IN_BATTLE, "Impressive skill!\n"
 
 _Trainer818:
+    trainertextentry 818, TEXT_LAST_MON_CRITICAL, "It’s my dream to catch up to Suicune.\nI’ll never give up!\n"
+    trainertextentry 818, TEXT_LAST_MON_SENT_OUT, "Am I just no match for you?\n"
     trainertextentry 818, TEXT_DEFEATED_IN_BATTLE, "...\n...\n...\rI guess that’s it...\n"
 
 _Trainer819:
@@ -4495,5 +4497,6 @@ _Trainer841:
 /* Trainer 839 */ .halfword _0000
 /* Trainer 840 */ .halfword _Trainer840
 /* Trainer 841 */ .halfword _Trainer841
+/* Trainer 842 */ .halfword _0000
 
 .close

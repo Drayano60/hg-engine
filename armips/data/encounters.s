@@ -4704,49 +4704,49 @@ rocksmashrate 0
 oldrodrate FISHING_RATE
 goodrodrate FISHING_RATE
 superrodrate FISHING_RATE
-walklevels 42, 43, 42, 43, 42, 43, 43, 43, 42, 43, 43, 43
+walklevels 46, 47, 47, 47, 46, 47, 47, 47, 47, 47, 47, 47
 
 // morning encounter slots
 pokemon SPECIES_GOLBAT
 pokemon SPECIES_GOLBAT
 pokemon SPECIES_DEWGONG
 pokemon SPECIES_DEWGONG
+pokemon SPECIES_SEALEO
+pokemon SPECIES_SEALEO
 pokemon SPECIES_KINGLER
 pokemon SPECIES_KINGLER
 pokemon SPECIES_GOLDUCK
-pokemon SPECIES_SLOWBRO
-pokemon SPECIES_SEALEO
-pokemon SPECIES_SEALEO
-monwithform SPECIES_GASTRODON, 0
-monwithform SPECIES_GASTRODON, 1
+pokemon SPECIES_GOLDUCK
+pokemon SPECIES_GASTRODON
+pokemon SPECIES_GASTRODON
 
 // day encounter slots
 pokemon SPECIES_GOLBAT
 pokemon SPECIES_GOLBAT
 pokemon SPECIES_DEWGONG
 pokemon SPECIES_DEWGONG
+pokemon SPECIES_SEALEO
+pokemon SPECIES_SEALEO
 pokemon SPECIES_KINGLER
 pokemon SPECIES_KINGLER
 pokemon SPECIES_GOLDUCK
-pokemon SPECIES_SLOWBRO
-pokemon SPECIES_SEALEO
-pokemon SPECIES_SEALEO
-monwithform SPECIES_GASTRODON, 0
-monwithform SPECIES_GASTRODON, 1
+pokemon SPECIES_GOLDUCK
+pokemon SPECIES_GASTRODON
+pokemon SPECIES_GASTRODON
 
 // night encounter slots
 pokemon SPECIES_GOLBAT
 pokemon SPECIES_GOLBAT
 pokemon SPECIES_DEWGONG
 pokemon SPECIES_DEWGONG
+pokemon SPECIES_SEALEO
+pokemon SPECIES_SEALEO
 pokemon SPECIES_KINGLER
 pokemon SPECIES_KINGLER
 pokemon SPECIES_GOLDUCK
-pokemon SPECIES_SLOWBRO
-pokemon SPECIES_SEALEO
-pokemon SPECIES_SEALEO
-monwithform SPECIES_GASTRODON, 0
-monwithform SPECIES_GASTRODON, 1
+pokemon SPECIES_GOLDUCK
+pokemon SPECIES_GASTRODON
+pokemon SPECIES_GASTRODON
 
 // hoenn encounter slots
 pokemon SPECIES_NOIVERN
@@ -4757,22 +4757,22 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_HORSEA, 38, 39
-encounter SPECIES_TENTACOOL, 38, 39
-encounter SPECIES_TENTACOOL, 38, 39
-encounter SPECIES_TENTACRUEL, 42, 43
-encounter SPECIES_SEADRA, 42, 43
+encounter SPECIES_HORSEA, 42, 44
+encounter SPECIES_GOLBAT, 46, 48
+encounter SPECIES_SEADRA, 46, 48
+encounter SPECIES_TENTACRUEL, 46, 48
+encounter SPECIES_TENTACRUEL, 46, 48
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_SEADRA, 42, 43
-encounter SPECIES_KINGLER, 42, 43
-encounter SPECIES_KINGLER, 42, 43
-encounter SPECIES_RELICANTH, 42, 43
-encounter SPECIES_RELICANTH, 42, 43
+encounter SPECIES_SEADRA, 46, 48
+encounter SPECIES_KINGLER, 46, 48
+encounter SPECIES_KINGLER, 46, 48
+encounter SPECIES_RELICANTH, 46, 48
+encounter SPECIES_RELICANTH, 46, 48
 
 // good rod encounters
 encounter SPECIES_MAGIKARP, 1, 1
@@ -4799,7 +4799,7 @@ pokemon SPECIES_MAGIKARP
 
 .close
 
-/************** Ice Path - Lower Floors **************/
+/************** Ice Path - B2F **************/
 encounterdata  61
 
 walkrate 5
@@ -4808,7 +4808,7 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 42, 42, 42, 43, 42, 43, 43, 43, 43, 43, 43, 42
+walklevels 46, 46, 47, 47, 47, 47, 47, 47, 47, 47, 47, 46
 
 // morning encounter slots
 pokemon SPECIES_DELIBIRD
@@ -4854,6 +4854,111 @@ pokemon SPECIES_METANG
 
 // hoenn encounter slots
 pokemon SPECIES_VANILLISH
+pokemon SPECIES_BEARTIC
+
+// sinnoh encounter slots
+pokemon SPECIES_NONE
+pokemon SPECIES_NONE
+
+// surf encounters
+encounter SPECIES_NONE, 0, 0
+encounter SPECIES_NONE, 0, 0
+encounter SPECIES_NONE, 0, 0
+encounter SPECIES_NONE, 0, 0
+encounter SPECIES_NONE, 0, 0
+
+// rock smash encounters
+encounter SPECIES_NONE, 0, 0
+encounter SPECIES_NONE, 0, 0
+
+// old rod encounters
+encounter SPECIES_NONE, 0, 0
+encounter SPECIES_NONE, 0, 0
+encounter SPECIES_NONE, 0, 0
+encounter SPECIES_NONE, 0, 0
+encounter SPECIES_NONE, 0, 0
+
+// good rod encounters
+encounter SPECIES_NONE, 0, 0
+encounter SPECIES_NONE, 0, 0
+encounter SPECIES_NONE, 0, 0
+encounter SPECIES_NONE, 0, 0
+encounter SPECIES_NONE, 0, 0
+
+// super rod encounters
+encounter SPECIES_NONE, 0, 0
+encounter SPECIES_NONE, 0, 0
+encounter SPECIES_NONE, 0, 0
+encounter SPECIES_NONE, 0, 0
+encounter SPECIES_NONE, 0, 0
+
+// swarm grass
+pokemon SPECIES_SWINUB
+// swarm surf
+pokemon SPECIES_NONE
+// swarm good rod
+pokemon SPECIES_NONE
+// swarm super rod
+pokemon SPECIES_NONE
+
+.close
+
+/************** Ice Path - B3F **************/
+/* Same as above, except for exotic encounters */
+encounterdata  62
+
+walkrate 5
+surfrate 0
+rocksmashrate 0
+oldrodrate 0
+goodrodrate 0
+superrodrate 0
+walklevels 46, 46, 47, 47, 47, 47, 47, 47, 47, 47, 47, 46
+
+// morning encounter slots
+pokemon SPECIES_DELIBIRD
+pokemon SPECIES_SNEASEL
+pokemon SPECIES_JYNX
+pokemon SPECIES_JYNX
+pokemon SPECIES_PILOSWINE
+pokemon SPECIES_PILOSWINE
+pokemon SPECIES_GOLBAT
+pokemon SPECIES_GLALIE
+pokemon SPECIES_LUNATONE
+pokemon SPECIES_SOLROCK
+pokemon SPECIES_ABSOL
+pokemon SPECIES_METANG
+
+// day encounter slots
+pokemon SPECIES_DELIBIRD
+pokemon SPECIES_SNEASEL
+pokemon SPECIES_JYNX
+pokemon SPECIES_JYNX
+pokemon SPECIES_PILOSWINE
+pokemon SPECIES_PILOSWINE
+pokemon SPECIES_GOLBAT
+pokemon SPECIES_GLALIE
+pokemon SPECIES_LUNATONE
+pokemon SPECIES_SOLROCK
+pokemon SPECIES_ABSOL
+pokemon SPECIES_METANG
+
+// night encounter slots
+pokemon SPECIES_DELIBIRD
+pokemon SPECIES_SNEASEL
+pokemon SPECIES_JYNX
+pokemon SPECIES_JYNX
+pokemon SPECIES_PILOSWINE
+pokemon SPECIES_PILOSWINE
+pokemon SPECIES_GOLBAT
+pokemon SPECIES_GLALIE
+pokemon SPECIES_LUNATONE
+pokemon SPECIES_SOLROCK
+pokemon SPECIES_ABSOL
+pokemon SPECIES_METANG
+
+// hoenn encounter slots
+pokemon SPECIES_AVALUGG
 pokemon SPECIES_CRYOGONAL
 
 // sinnoh encounter slots
@@ -4965,22 +5070,22 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_MAGIKARP, 5, 45
-encounter SPECIES_MAGIKARP, 5, 45
-encounter SPECIES_MAGIKARP, 5, 45
-encounter SPECIES_MAGIKARP, 5, 45
-encounter SPECIES_MAGIKARP, 5, 45
+encounter SPECIES_MAGIKARP, 5, 50
+encounter SPECIES_MAGIKARP, 5, 50
+encounter SPECIES_MAGIKARP, 5, 50
+encounter SPECIES_MAGIKARP, 5, 50
+encounter SPECIES_MAGIKARP, 5, 50
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 5, 45
-encounter SPECIES_MAGIKARP, 5, 45
-encounter SPECIES_MAGIKARP, 5, 45
-encounter SPECIES_MAGIKARP, 5, 45
-encounter SPECIES_MAGIKARP, 5, 45
+encounter SPECIES_MAGIKARP, 5, 50
+encounter SPECIES_MAGIKARP, 5, 50
+encounter SPECIES_MAGIKARP, 5, 50
+encounter SPECIES_MAGIKARP, 5, 50
+encounter SPECIES_MAGIKARP, 5, 50
 
 // good rod encounters
 encounter SPECIES_MAGIKARP, 1, 1
@@ -5017,45 +5122,45 @@ rocksmashrate NEW_ROCK_SMASH_RATE
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 44, 45, 44, 45, 44, 45, 44, 45, 45, 45, 45, 45
+walklevels 47, 47, 48, 48, 48, 48, 48, 47, 48, 48, 48, 48
 
 // morning encounter slots
-pokemon SPECIES_GRAVELER
+pokemon SPECIES_GLIGAR
+pokemon SPECIES_GLIGAR
+pokemon SPECIES_SKARMORY
+pokemon SPECIES_SKARMORY
+pokemon SPECIES_DONPHAN
+pokemon SPECIES_DONPHAN
 pokemon SPECIES_FEAROW
-pokemon SPECIES_GLIGAR
-pokemon SPECIES_GLIGAR
-pokemon SPECIES_DONPHAN
-pokemon SPECIES_DONPHAN
-pokemon SPECIES_SKARMORY
-pokemon SPECIES_SKARMORY
+pokemon SPECIES_GRAVELER
 pokemon SPECIES_CAMERUPT
 pokemon SPECIES_GRUMPIG
 pokemon SPECIES_TORKOAL
 pokemon SPECIES_ALTARIA
 
 // day encounter slots
-pokemon SPECIES_GRAVELER
+pokemon SPECIES_GLIGAR
+pokemon SPECIES_GLIGAR
+pokemon SPECIES_SKARMORY
+pokemon SPECIES_SKARMORY
+pokemon SPECIES_DONPHAN
+pokemon SPECIES_DONPHAN
 pokemon SPECIES_FEAROW
-pokemon SPECIES_GLIGAR
-pokemon SPECIES_GLIGAR
-pokemon SPECIES_DONPHAN
-pokemon SPECIES_DONPHAN
-pokemon SPECIES_SKARMORY
-pokemon SPECIES_SKARMORY
+pokemon SPECIES_GRAVELER
 pokemon SPECIES_CAMERUPT
 pokemon SPECIES_GRUMPIG
 pokemon SPECIES_TORKOAL
 pokemon SPECIES_ALTARIA
 
 // night encounter slots
+pokemon SPECIES_GLIGAR
+pokemon SPECIES_GLIGAR
+pokemon SPECIES_SKARMORY
+pokemon SPECIES_SKARMORY
+pokemon SPECIES_DONPHAN
+pokemon SPECIES_DONPHAN
+pokemon SPECIES_FEAROW
 pokemon SPECIES_GRAVELER
-pokemon SPECIES_HOUNDOOM
-pokemon SPECIES_GLIGAR
-pokemon SPECIES_GLIGAR
-pokemon SPECIES_DONPHAN
-pokemon SPECIES_DONPHAN
-pokemon SPECIES_SKARMORY
-pokemon SPECIES_SKARMORY
 pokemon SPECIES_CAMERUPT
 pokemon SPECIES_GRUMPIG
 pokemon SPECIES_TORKOAL
@@ -5077,8 +5182,8 @@ encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // rock smash encounters
-encounter SPECIES_MAGCARGO, 44, 45
-encounter SPECIES_GRAVELER, 44, 45
+encounter SPECIES_GRAVELER, 46, 48
+encounter SPECIES_MAGCARGO, 46, 48
 
 // old rod encounters
 encounter SPECIES_NONE, 0, 0
@@ -5121,7 +5226,7 @@ rocksmashrate NEW_ROCK_SMASH_RATE
 oldrodrate FISHING_RATE
 goodrodrate FISHING_RATE
 superrodrate FISHING_RATE
-walklevels 44, 45, 44, 45, 44, 45, 44, 45, 44, 45, 44, 44
+walklevels 47, 47, 47, 47, 48, 48, 48, 48, 47, 47, 47, 47
 
 // morning encounter slots
 pokemon SPECIES_GOLBAT
@@ -5166,30 +5271,30 @@ pokemon SPECIES_PUPITAR
 pokemon SPECIES_DUNSPARCE
 
 // hoenn encounter slots
-pokemon SPECIES_NOIVERN
 pokemon SPECIES_BOLDORE
+pokemon SPECIES_NOIVERN
 
 // sinnoh encounter slots
 pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_GOLBAT, 44, 45
-encounter SPECIES_GOLBAT, 44, 45
-encounter SPECIES_GOLBAT, 44, 45
-encounter SPECIES_GOLBAT, 44, 45
-encounter SPECIES_GOLBAT, 44, 45
+encounter SPECIES_GOLBAT, 46, 48
+encounter SPECIES_GOLBAT, 46, 48
+encounter SPECIES_GOLBAT, 46, 48
+encounter SPECIES_GOLBAT, 46, 48
+encounter SPECIES_GOLBAT, 46, 48
 
 // rock smash encounters
-encounter SPECIES_DUNSPARCE, 44, 45
-encounter SPECIES_GRAVELER, 44, 45
+encounter SPECIES_DUNSPARCE, 46, 48
+encounter SPECIES_GRAVELER, 46, 48
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 5, 45
-encounter SPECIES_SEAKING, 44, 45
-encounter SPECIES_SEAKING, 44, 45
-encounter SPECIES_WHISCASH, 44, 45
-encounter SPECIES_WHISCASH, 44, 45
+encounter SPECIES_MAGIKARP, 5, 48
+encounter SPECIES_SEAKING, 46, 48
+encounter SPECIES_SEAKING, 46, 48
+encounter SPECIES_WHISCASH, 46, 48
+encounter SPECIES_WHISCASH, 46, 48
 
 // good rod encounters
 encounter SPECIES_MAGIKARP, 1, 1
@@ -5225,75 +5330,75 @@ rocksmashrate 0
 oldrodrate FISHING_RATE
 goodrodrate FISHING_RATE
 superrodrate FISHING_RATE
-walklevels 47, 48, 47, 48, 47, 48, 47, 47, 47, 47, 47, 47
+walklevels 50, 50, 51, 51, 50, 50, 51, 51, 50, 50, 50, 50
 
 // morning encounter slots
 pokemon SPECIES_GOLBAT
 pokemon SPECIES_GOLBAT
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_GOLBAT
 pokemon SPECIES_ARBOK
 pokemon SPECIES_ARBOK
+pokemon SPECIES_DUNSPARCE
+pokemon SPECIES_DUNSPARCE
+pokemon SPECIES_GOLBAT
+pokemon SPECIES_GOLBAT
+pokemon SPECIES_GABITE
 pokemon SPECIES_GABITE
 pokemon SPECIES_SHELGON
-pokemon SPECIES_DUNSPARCE
-pokemon SPECIES_DUNSPARCE
-pokemon SPECIES_DUNSPARCE
-pokemon SPECIES_DUNSPARCE
+pokemon SPECIES_SHELGON
 
 // day encounter slots
 pokemon SPECIES_GOLBAT
 pokemon SPECIES_GOLBAT
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_GOLBAT
 pokemon SPECIES_ARBOK
 pokemon SPECIES_ARBOK
+pokemon SPECIES_DUNSPARCE
+pokemon SPECIES_DUNSPARCE
+pokemon SPECIES_GOLBAT
+pokemon SPECIES_GOLBAT
+pokemon SPECIES_GABITE
 pokemon SPECIES_GABITE
 pokemon SPECIES_SHELGON
-pokemon SPECIES_DUNSPARCE
-pokemon SPECIES_DUNSPARCE
-pokemon SPECIES_DUNSPARCE
-pokemon SPECIES_DUNSPARCE
+pokemon SPECIES_SHELGON
 
 // night encounter slots
 pokemon SPECIES_GOLBAT
 pokemon SPECIES_GOLBAT
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_GOLBAT
 pokemon SPECIES_ARBOK
 pokemon SPECIES_ARBOK
+pokemon SPECIES_DUNSPARCE
+pokemon SPECIES_DUNSPARCE
+pokemon SPECIES_GOLBAT
+pokemon SPECIES_GOLBAT
+pokemon SPECIES_GABITE
 pokemon SPECIES_GABITE
 pokemon SPECIES_SHELGON
-pokemon SPECIES_DUNSPARCE
-pokemon SPECIES_DUNSPARCE
-pokemon SPECIES_DUNSPARCE
-pokemon SPECIES_DUNSPARCE
+pokemon SPECIES_SHELGON
 
 // hoenn encounter slots
-pokemon SPECIES_FRAXURE
 pokemon SPECIES_DRUDDIGON
+pokemon SPECIES_FRAXURE
 
 // sinnoh encounter slots
 pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_MAGIKARP, 5, 45
-encounter SPECIES_MAGIKARP, 5, 45
-encounter SPECIES_DRATINI, 40, 45
-encounter SPECIES_DRATINI, 40, 45
-encounter SPECIES_DRAGONAIR, 47, 47
+encounter SPECIES_MAGIKARP, 5, 50
+encounter SPECIES_DRATINI, 44, 48
+encounter SPECIES_DRATINI, 44, 48
+encounter SPECIES_SEADRA, 50, 52
+encounter SPECIES_DRAGONAIR, 50, 52
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 5, 45
-encounter SPECIES_DRATINI, 40, 45
-encounter SPECIES_DRATINI, 40, 45
-encounter SPECIES_DRAGONAIR, 47, 47
-encounter SPECIES_DRAGONAIR, 47, 47
+encounter SPECIES_MAGIKARP, 5, 50
+encounter SPECIES_DRATINI, 44, 48
+encounter SPECIES_DRATINI, 44, 48
+encounter SPECIES_SEADRA, 50, 52
+encounter SPECIES_DRAGONAIR, 50, 52
 
 // good rod encounters
 encounter SPECIES_MAGIKARP, 1, 1
@@ -5433,15 +5538,15 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 48, 50, 48, 49, 49, 49, 49, 49, 49, 50, 49, 50
+walklevels 54, 54, 53, 54, 54, 54, 54, 54, 54, 54, 54, 54
 
 // morning encounter slots
-pokemon SPECIES_RATICATE
-pokemon SPECIES_RATICATE
-pokemon SPECIES_HAUNTER
-pokemon SPECIES_HAUNTER
-pokemon SPECIES_CHIMECHO
 pokemon SPECIES_ARIADOS
+pokemon SPECIES_CHIMECHO
+pokemon SPECIES_HAUNTER
+pokemon SPECIES_HAUNTER
+pokemon SPECIES_RATICATE
+pokemon SPECIES_RATICATE
 pokemon SPECIES_BANETTE
 pokemon SPECIES_DUSCLOPS
 pokemon SPECIES_BRONZONG
@@ -5450,12 +5555,12 @@ pokemon SPECIES_CLAYDOL
 pokemon SPECIES_CLAYDOL
 
 // day encounter slots
-pokemon SPECIES_RATICATE
-pokemon SPECIES_RATICATE
-pokemon SPECIES_HAUNTER
-pokemon SPECIES_HAUNTER
-pokemon SPECIES_CHIMECHO
 pokemon SPECIES_ARIADOS
+pokemon SPECIES_CHIMECHO
+pokemon SPECIES_HAUNTER
+pokemon SPECIES_HAUNTER
+pokemon SPECIES_RATICATE
+pokemon SPECIES_RATICATE
 pokemon SPECIES_BANETTE
 pokemon SPECIES_DUSCLOPS
 pokemon SPECIES_BRONZONG
@@ -5464,12 +5569,12 @@ pokemon SPECIES_CLAYDOL
 pokemon SPECIES_CLAYDOL
 
 // night encounter slots
-pokemon SPECIES_RATICATE
-pokemon SPECIES_RATICATE
-pokemon SPECIES_HAUNTER
-pokemon SPECIES_HAUNTER
-pokemon SPECIES_CHIMECHO
 pokemon SPECIES_ARIADOS
+pokemon SPECIES_CHIMECHO
+pokemon SPECIES_HAUNTER
+pokemon SPECIES_HAUNTER
+pokemon SPECIES_RATICATE
+pokemon SPECIES_RATICATE
 pokemon SPECIES_BANETTE
 pokemon SPECIES_DUSCLOPS
 pokemon SPECIES_BRONZONG
@@ -10943,110 +11048,6 @@ pokemon SPECIES_MAGIKARP
 
 .close
 
-
-/************** Now Unused Ice Path **************/
-encounterdata  62
-
-walkrate 5
-surfrate 0
-rocksmashrate 0
-oldrodrate 0
-goodrodrate 0
-superrodrate 0
-walklevels 22, 23, 22, 23, 23, 23, 24, 24, 23, 23, 23, 23
-
-// morning encounter slots
-pokemon SPECIES_SWINUB
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SWINUB
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_SWINUB
-pokemon SPECIES_SWINUB
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_JYNX
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_JYNX
-
-// day encounter slots
-pokemon SPECIES_SWINUB
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SWINUB
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_SWINUB
-pokemon SPECIES_SWINUB
-pokemon SPECIES_JYNX
-pokemon SPECIES_JYNX
-pokemon SPECIES_JYNX
-pokemon SPECIES_JYNX
-
-// night encounter slots
-pokemon SPECIES_SWINUB
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SWINUB
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_SWINUB
-pokemon SPECIES_SWINUB
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_JYNX
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_JYNX
-
-// hoenn encounter slots
-pokemon SPECIES_ABSOL
-pokemon SPECIES_MAKUHITA
-
-// sinnoh encounter slots
-pokemon SPECIES_BRONZOR
-pokemon SPECIES_CHINGLING
-
-// surf encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// rock smash encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// old rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// good rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// super rod encounters
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-encounter SPECIES_NONE, 0, 0
-
-// swarm grass
-pokemon SPECIES_SWINUB
-// swarm surf
-pokemon SPECIES_NONE
-// swarm good rod
-pokemon SPECIES_NONE
-// swarm super rod
-pokemon SPECIES_NONE
-
-.close
 
 /************** Now Unused Ice Path **************/
 encounterdata  63

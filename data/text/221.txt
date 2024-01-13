@@ -764,7 +764,7 @@ Waters Scroll Description
 Mega Ring Description
 Autograph Description
 Gold Teeth Description
-Key Stone Description
+A stone filled with an unexplained power.\nIt allows Pokémon that battle with\na Mega Stone to Mega Evolve.
 Lift Key Description
 Pewter Snacks Description
 Silph Scope Description

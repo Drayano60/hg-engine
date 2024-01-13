@@ -91,7 +91,7 @@ Sprout Tower
 Violet City - Gym
 ✓ Added two new Trainers using Mickey (63, 87). Set flags for these after beating Falkner.
 ✓ Updated Falkner's dialogue because of obedience/TM mechanic changes.
-✓ Following the Suicune encounter, Falkner can be challenged to a rematch where he will award you with the Pidgeotite if you win. He can be rematched for no reward each time you enter the area.
+✓ After receiving the Key Stone, Falkner can be challenged to a rematch where he will award you with the Pidgeotite if you win. He can be rematched for no reward each time you enter the area.
 
 Route 36
 ✓ Split the route into West/East. Added grass to the east of Sudowoodo.
@@ -177,7 +177,7 @@ Slowpoke Well
 Azalea Town - Gym 
 ✓ Added three new Trainers, a Bug Catcher (138), an Ace Trainer M (375) and an Ace Trainer F (107). Set flags for these after beating Bugsy.
 ✓ Modified Bugsy's dialogue a bit.
-✓ Following the Suicune encounter, Bugsy can be challenged to a rematch where he will award you with the Scizorite if you win. He can be rematched for no reward each time you enter the area.
+✓ After receiving the Key Stone, Bugsy can be challenged to a rematch where he will award you with the Scizorite if you win. He can be rematched for no reward each time you enter the area.
 ✓ Defeating Bugsy now activates the Azalea Silver fight.
 
 Ilex Forest
@@ -269,7 +269,7 @@ Pokéathlon Dome
 Goldenrod City - Gym
 ✓ Added two new Trainers, a Hiker (168) and an Ace Trainer (169) using Mickeys.
 ✓ Changed Whitney's dialogue a little bit to reflect new event order.
-✓ Following the Suicune encounter, Whitney can be challenged to a rematch where she will award you with the Lopunnite if you win. She can be rematched for no reward each time you enter the area.
+✓ After receiving the Key Stone, Whitney can be challenged to a rematch where she will award you with the Lopunnite if you win. She can be rematched for no reward each time you enter the area.
 
 Route 37
 ✓ Added a green apricorn tree.
@@ -336,6 +336,7 @@ Ice Path
 ✓ When revisiting Ice Path after defeating Pryce, Will appears near the entrance and gives you TM29 Psychic.
 ✓ Added the Glalitite to B4F.
 ✓ Protein on 1F -> Heart Scale and moved it to the Waterfall puzzle area.
+✓ The boulder puzzle on the second floor is simplified heavily (I am sick of doing it every time!!).
 
 Burned Tower
 ✓ Eusine and Morty's dialogues are modified slightly to reflect the new events.
@@ -347,7 +348,7 @@ Burned Tower
 
 Ecruteak City - Gym
 ✓ Modified Morty's dialogue to remove the obedience bit.
-✓ Following the Suicune encounter, Morty can be challenged to a rematch where he will award you with the Gengarite if you win. He can be rematched for no reward each time you enter the area.
+✓ After receiving the Key Stone, Morty can be challenged to a rematch where he will award you with the Gengarite if you win. He can be rematched for no reward each time you enter the area.
 ✓ Added two new Sage Trainers using Mickeys (504, 506).
 
 Union Cave (B2F)
@@ -406,7 +407,7 @@ Cianwood City - Gym
 ✓ With the above factored in, rearranged the trainers to make them all compulsory.
 ✓ Chuck now awards TM08, Bulk Up instead.
 ✓ After exiting the Gym and receiving HM02 Fly, Baoba calls you at this point and activates the Rocket events. (This is done using Script 7 in Cianwood City.) (Unlike the Olivine one, this does not set variable 0x40A5 at all.)
-✓ Following the Suicune encounter, Chuck can be challenged to a rematch where he will award you with the Medichamite if you win. He can be rematched for no reward each time you enter the area.
+✓ After receiving the Key Stone, Chuck can be challenged to a rematch where he will award you with the Medichamite if you win. He can be rematched for no reward each time you enter the area.
 
 Cliff Edge Gate
 ✓ Added an item ball with the Rocky Helmet.
@@ -460,7 +461,7 @@ Safari Zone Gate (Normal)
 Olivine City - Gym
 ✓ The Gentleman and Lass are now actual Trainers using Mickeys (304, 305).
 ✓ Jasmine now mentions the Lake of Rage after being beaten to give the player some direction. The mention about Lv. 70 Pokémon obedience is removed, and some text is added to say that the badge now enables the use of Rock Climb outside of battle.
-✓ Following the Suicune encounter, Jasmine can be challenged to a rematch where she will award you with the Steelixite if you win. She can be rematched for no reward each time you enter the area.
+✓ After receiving the Key Stone, Jasmine can be challenged to a rematch where she will award you with the Steelixite if you win. She can be rematched for no reward each time you enter the area.
 ✓✓ The way the above is scripted currently prevents the Steelix trade from occurring.
 
 Route 43
@@ -493,7 +494,7 @@ Team Rocket HQ
 Mahogany Town - Gym
 ✓ Pryce's dialogue is edited to remove the erroneous stat boost text, and also to reflect that the TM is now Snowscape.
 ✓ Defeating Pryce now activates the trigger script in the Ice Path with Will.
-✓ Following the Suicune encounter, Pryce can be challenged to a rematch where he will award you with the Abomasite if you win. He can be rematched for no reward each time you enter the area.
+✓ After receiving the Key Stone, Pryce can be challenged to a rematch where he will award you with the Abomasite if you win. He can be rematched for no reward each time you enter the area.
 ✓ Defeating Pryce the first time now triggers the Mahogany shop to reopen (instead of it being defeating Team Rocket at the Radio Tower).
 ✓ Elm's call after leaving the Gym now briefly mentions Mega Evolution, as a setup for later when he gives you the Key Stone.
 
@@ -551,7 +552,7 @@ Blackthorn City
 
 Blackthorn City - Gym
 ✓ Gym guide now mentions Fairy Pokémon.
-✓ Following the Suicune encounter, Clair can be challenged to a rematch where she will award you with the Altarianite if you win. She can be rematched for no reward each time you enter the area.
+✓ After receiving the Key Stone, Clair can be challenged to a rematch where she will award you with the Altarianite if you win. She can be rematched for no reward each time you enter the area.
 
 Dragon's Den
 ✓ Dragon Fang -> TM90 Scale Shot.
@@ -559,6 +560,12 @@ Dragon's Den
 ✓ Clair's dialogue in the shrine is edited to remove the obedience part.
 ✓ The Elder now offers you a choice of one of six Dragon-types (Dratini, Trapinch, Bagon, Gible, Deino or Goomy) if spoken to after receiving the Dragon Pulse TM. If you never gave a wrong answer to the Elder's quiz, the Pokémon has a guaranteed Hidden Ability.
 ✓ One of the old man has been yeeted and his dialogue added to the other old man's. In his place is an old woman who can teach a Pokémon Dragon Dance.
+✓ The call from Elm that occurs after leaving Dragon's Den now mentions Mega Evolution.
+
+New Bark Town - Post Gym 8
+✓ Instead of the Master Ball, Elm now gives you (and Ethan/Lyra) the Key Stone and an Ampharosite, and some explanations of doing so.
+✓ The above also reveals the Mega Stones that are hidden in previously accessible areas, as well as enabling the rematches with Johto's Gym Leaders.
+✓ Ethan/Lyra now wait outside with an Azumarill instead of a Marill.
 
 Ecruteak Dance Theater
 ✓ Following Pokémon are turned off in here to make scripts easier.
@@ -572,7 +579,7 @@ Ecruteak Dance Theater
 
 Bellchime Trail
 ✓ Added an item ball containing TM11, Sunny Day.
-✓ After defeating the Kimono Girls, Eusine will stop you at the door and battle you, just prior to the Suicune events.
+✓ After defeating the Kimono Girls, Eusine will stop you at the door and battle you, just prior to the Suicune events. He'll give you the Master Ball after you win.
 
 Bell Tower
 ✓ An event with the legendary beasts now plays here (inspired by Crystal), culminating in an encounter with a Suicune. This event now sets the flags to allow you to set sail from New Bark to Route 27 (four Lyra related flags and disabling a trigger), as well as re-enabling the NPCs in the Dance Theater.

@@ -2886,6 +2886,7 @@ levelup SPECIES_DROWZEE
 
 // NEW: Belly Drum (Gen 3 Event), Teleport (LGPE)
 levelup SPECIES_HYPNO
+    learnset MOVE_NIGHT_SHADE, 1
     learnset MOVE_CONFUSE_RAY, 1
     learnset MOVE_NIGHTMARE, 1
     learnset MOVE_TELEPORT, 1
@@ -5467,7 +5468,6 @@ levelup SPECIES_NATU
 
 // NEW: Confusion, Esper Wing
 levelup SPECIES_XATU
-    learnset MOVE_TRIPLE_AXEL, 1
     learnset MOVE_STORED_POWER, 1
     learnset MOVE_FEATHER_DANCE, 1
     learnset MOVE_MAGIC_COAT, 1
@@ -17534,8 +17534,8 @@ levelup SPECIES_TYRANTRUM
     learnset MOVE_CRUNCH, 40
     learnset MOVE_THRASH, 45
     learnset MOVE_EARTHQUAKE, 50
-    learnset MOVE_HORN_DRILL, 55 
-    learnset MOVE_GIGA_IMPACT, 60 
+    learnset MOVE_HORN_DRILL, 55
+    learnset MOVE_HEAD_SMASH, 60
 	terminatelearnset
 
 // NEW: Power Gem

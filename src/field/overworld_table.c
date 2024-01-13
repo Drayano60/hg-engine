@@ -1655,13 +1655,13 @@ struct OVERWORLD_TAG gOWTagToFileNum[] = // skip down a bit to see the parts tha
     { .tag = 1784, .gfx =  297, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_OGERPON
     { .tag = 1785, .gfx =  297, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_ARCHALUDON
     { .tag = 1786, .gfx =  297, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_HYDRAPPLE
-    { .tag = 1787, .gfx =  297, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_GOUGING_FIRE
-    { .tag = 1788, .gfx =  297, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_RAGING_BOLT
-    { .tag = 1789, .gfx =  297, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_IRON_BOULDER
-    { .tag = 1790, .gfx =  297, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_IRON_CROWN
-    { .tag = 1791, .gfx =  297, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_TERAPAGOS
-    { .tag = 1792, .gfx = 1453, .callback_params = OVERWORLD_SIZE_SMALL_NO_SHADOW}, // Mega Stone OW sparkles
-    { .tag = 1793, .gfx =  297, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_PECHARUNT - Pushed ahead +1
+    { .tag = 1787, .gfx = 1453, .callback_params = OVERWORLD_SIZE_SMALL_NO_SHADOW}, // Mega Stone OW sparkles
+    { .tag = 1788, .gfx =  297, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_GOUGING_FIRE - Pushed ahead +1
+    { .tag = 1789, .gfx =  297, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_RAGING_BOLT
+    { .tag = 1790, .gfx =  297, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_IRON_BOULDER
+    { .tag = 1791, .gfx =  297, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_IRON_CROWN
+    { .tag = 1792, .gfx =  297, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_TERAPAGOS
+    { .tag = 1793, .gfx =  297, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_PECHARUNT
 
     { 0xFFFF, 0, 0},
 };

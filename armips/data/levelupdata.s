@@ -21919,12 +21919,11 @@ levelup SPECIES_MEGA_AERODACTYL
     learnset MOVE_TAKE_DOWN, 32
     learnset MOVE_ROCK_SLIDE, 36
     learnset MOVE_DUAL_WINGBEAT, 40
-    learnset MOVE_CRUNCH, 44
-    learnset MOVE_TAILWIND, 48
-    learnset MOVE_STONE_EDGE, 52
-    learnset MOVE_DRAGON_DANCE, 56
+    learnset MOVE_CRUNCH, 45
+    learnset MOVE_TAILWIND, 50
+    learnset MOVE_STONE_EDGE, 55
     learnset MOVE_HEAD_SMASH, 60
-    learnset MOVE_SKY_ATTACK, 64 
+    learnset MOVE_SKY_ATTACK, 65
     terminatelearnset
 
 levelup SPECIES_MEGA_MEWTWO_X

@@ -619,14 +619,16 @@ Victory Road
 ✓ Added the Mawilite to 3F. Moved the Rare Candy a bit to the left.
 
 Indigo Plateau
-✓ On the first entry, Will himself now blocks the entrance to the Elite Four. He'll hide a coin and ask you to pick "Left Hand" or "Right Hand", then head back inside.
+✓ On the first entry, Karen blocks the doorway, and provides a short explanation before leaving permanently. (This was previously Will, who would hide a coin and ask you to pick "Left Hand" or "Right Hand", then head back inside).
 ✓ The usual blocker is moved off-map and so doesn't need to be spoken to every time.
-✓ Each of the Elite Four members now has two teams in the first round. The team battled depends on what the player answered to the coin question. Lance still has just one team, though.
 ✓ Will's pre-battle dialogue has been edited a little bit.
+✓ Koga's pre-battle dialogue removes the references to specific statuses as his team only really uses poison.
+✓ Karen's pre-battle dialogue has been edited a little bit.
 ✓ Each of the E4 members offers to heal your Pokémon after the battle. It's been left optional in case you want to maintain a status problem/particular HP threshold on something.
 ✓ The flags for the Kanto Leaders' appearances in Johto are set during the Hall of Fame.
 ? The game seems to crash after "THE END". It saves well before so it's not a massive issue, but it's a strange one. Might be HG-e related.
 ✓ Added a trade in the lobby next to the Poké Mart for a Carbink in exchange for any Ghost-type.
+✓ Upon entry, a flag is set to disable the use of the portable PC. This is cleared upon any loss in the E4 or during the walk up to Lance.
 
 Celadon City
 ✓ Changed Dept Store 2F shops to #23 and #4 as #18 and #19 are repurposed. Selection is similar but reduced amount of healing items.

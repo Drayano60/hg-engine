@@ -2522,7 +2522,7 @@ movedata MOVE_DIG, "Dig"
 
 // EFFECT: Updated so Poison types cannot miss. This is handled in other_battle_calculators
 movedata MOVE_TOXIC, "Toxic"
-    battleeffect 33
+    battleeffect 66 // Changed from 33 for AI reasons
     pss SPLIT_STATUS
     basepower 0
     type TYPE_POISON

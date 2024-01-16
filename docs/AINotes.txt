@@ -51,3 +51,5 @@ The following Gen 5+ status moves are in Aurora Crystal:
 - Toxic Thread (AI Logic: Same as Poison Powder)
 - Victory Dance (AI Logic: Same as Swords Dance)
 - Work Up (AI Logic: Same as Tail Glow)
+
+Toxic now looks at regular poison ai

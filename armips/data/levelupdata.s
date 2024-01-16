@@ -5773,10 +5773,11 @@ levelup SPECIES_AIPOM
     learnset MOVE_LAST_RESORT, 56
     terminatelearnset
 
-// NEW: Arm Thrust
+// NEW: Arm Thrust, Bullet Seed
 levelup SPECIES_AMBIPOM
     learnset MOVE_ARM_THRUST, 1
     learnset MOVE_BOUNCE, 1
+    learnset MOVE_BULLET_SEED, 1
     learnset MOVE_DUAL_CHOP, 1
     learnset MOVE_POWER_UP_PUNCH, 1
     learnset MOVE_FAKE_OUT, 1
@@ -13975,7 +13976,6 @@ levelup SPECIES_COTTONEE
 
 // NEW: Leaf Tornado
 levelup SPECIES_WHIMSICOTT
-    learnset MOVE_MOONBLAST, 1
     learnset MOVE_WORRY_SEED, 1
     learnset MOVE_FAKE_TEARS, 1
     learnset MOVE_TAILWIND, 1
@@ -13996,6 +13996,7 @@ levelup SPECIES_WHIMSICOTT
     learnset MOVE_COTTON_GUARD, 34
     learnset MOVE_ENERGY_BALL, 38
     learnset MOVE_ENDEAVOR, 42
+    learnset MOVE_MOONBLAST, 44
     learnset MOVE_SOLAR_BEAM, 46
     learnset MOVE_HURRICANE, 50
     terminatelearnset
@@ -14021,7 +14022,6 @@ levelup SPECIES_PETILIL
     terminatelearnset
 
 levelup SPECIES_LILLIGANT
-    learnset MOVE_PETAL_DANCE, 1
     learnset MOVE_TEETER_DANCE, 1
     learnset MOVE_WORRY_SEED, 1
     learnset MOVE_HELPING_HAND, 1
@@ -14040,13 +14040,13 @@ levelup SPECIES_LILLIGANT
     learnset MOVE_SYNTHESIS, 34
     learnset MOVE_ENERGY_BALL, 38
     learnset MOVE_HEALING_WISH, 42
+    learnset MOVE_PETAL_DANCE, 44
     learnset MOVE_LEAF_STORM, 46
     learnset MOVE_QUIVER_DANCE, 50
     terminatelearnset
 
 // NEW: High Jump Kick
 levelup SPECIES_LILLIGANT_HISUIAN
-    learnset MOVE_PETAL_BLIZZARD, 1
     learnset MOVE_TEETER_DANCE, 1
     learnset MOVE_DEFOG, 1
     learnset MOVE_HELPING_HAND, 1
@@ -14065,6 +14065,7 @@ levelup SPECIES_LILLIGANT_HISUIAN
     learnset MOVE_SYNTHESIS, 34
     learnset MOVE_LEAF_BLADE, 38
     learnset MOVE_MEGA_KICK, 42
+    learnset MOVE_PETAL_BLIZZARD, 44
     learnset MOVE_SOLAR_BEAM, 46
     learnset MOVE_VICTORY_DANCE, 50
     learnset MOVE_HIGH_JUMP_KICK, 54

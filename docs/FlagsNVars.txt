@@ -62,8 +62,8 @@ NPCs:
 2169 - Covert Cloak gift in Mahogany Mart.
 2170 - Heart Scale gift on Route 34.
 2171 - Heart Scale gift at Lake of Rage.
-2172 - Heart Scale gift on Route 26.
-2173 - TM60 Drain Punch gift in Olivine City.
+2172 - TM60 Drain Punch gift in Olivine City.
+2173 - Heart Scale gift on Route 26.
 2174 - Galarica Cuff/Crown gift in Olivine Harbour.
 
 2175* - Safari Rocket event active.

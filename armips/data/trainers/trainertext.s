@@ -1102,7 +1102,7 @@ _0974: // Trainer 28
 _0980: // Trainer 102
     trainertextentry 102, TEXT_NOTICE_IN_OVERWORLD, "By experiencing tough battles, you\ngain power.\r"
     trainertextentry 102, TEXT_DEFEATED_IN_BATTLE, "Gah! Life is even tougher!\n"
-    trainertextentry 102, TEXT_DEFEATED_IN_OVERWORLD, "To get to the Pokémon League, you\nhave to get through Victory Road.\rBut Victory Road is tough.\nPractically nobody goes there!\n"
+    trainertextentry 102, TEXT_DEFEATED_IN_OVERWORLD, "To get to the Pokémon League, you\nhave to get through Victory Road.\rBut Victory Road is tough.\nOnly the very best Trainers go there!\n"
     trainertextentry 102, TEXT_REMATCH_IN_OVERWORLD, "I want to see how close you are to\nreal strength!\r"
 
 _0990: // Trainer 36
@@ -3300,9 +3300,9 @@ _Trainer344:
     trainertextentry 344, TEXT_DEFEATED_IN_OVERWORLD, "Greesix: This is nothing!\nOur brotherly love is nothing like this!"
 
 _Trainer345:
-    trainertextentry 345, TEXT_NOTICE_IN_OVERWORLD, "Welcome to Victory Road!\rYour Pokémon will be at my mercy\nwhen they are frozen solid!\r"
-    trainertextentry 345, TEXT_DEFEATED_IN_BATTLE, "...Things shouldn’t be this way!\n"
-    trainertextentry 345, TEXT_DEFEATED_IN_OVERWORLD, "You’re better than I thought!\nGo on ahead!"
+    trainertextentry 345, TEXT_NOTICE_IN_OVERWORLD, "I’m really glad to have a strong\nopponent like you.\rI want to test my best, after all!\r"
+    trainertextentry 345, TEXT_DEFEATED_IN_BATTLE, "OK! I admit it!\nYou’re a stronger Trainer!\n"
+    trainertextentry 345, TEXT_DEFEATED_IN_OVERWORLD, "As for me...\nI’ve got a new goal to work toward!"
 
 _Trainer347:
     trainertextentry 347, TEXT_NOTICE_IN_OVERWORLD, "Have you been catching any Pokémon\nusing your Radio’s Exotic Sound?\r"
@@ -3331,7 +3331,7 @@ _Trainer394:
 
 _Trainer442:
     trainertextentry 442, TEXT_NOTICE_IN_OVERWORLD, "What I desire is to bring out the\nentirety in Pokémon potential!\rPlease show me the strength of\nyou and your Pokémon!\r"
-    trainertextentry 442, TEXT_DEFEATED_IN_BATTLE, "So this is what it means to draw\nforth your Pokémon’s power!"
+    trainertextentry 442, TEXT_DEFEATED_IN_BATTLE, "So this is what it means to draw forth\nyour Pokémon’s power!"
     trainertextentry 442, TEXT_DEFEATED_IN_OVERWORLD, "The things you and your Pokémon\nhave seen and felt...\rDo they belong to you and you alone?"
 
 _Trainer443:
@@ -3360,7 +3360,7 @@ _Trainer476:
     trainertextentry 476, TEXT_DEFEATED_IN_OVERWORLD, "I cannot deny my desires to see the\nworlds of past and future for myself..."
 
 _Trainer477:
-    trainertextentry 477, TEXT_NOTICE_IN_OVERWORLD, "Hey, hey!\nDo you remember me?\rIt’s me! Joey!\nWe battled on Route 30!\rYou might have seen all of Johto,\nbut you haven’t seen my Pokémon team.\rThey’re all in the top percentage!\nCome on, let’s battle!\r"
+    trainertextentry 477, TEXT_NOTICE_IN_OVERWORLD, "Hey, hey!\nDo you remember me?\rIt’s me, Joey!\nWe battled way back on Route 30.\rI’ve been on an adventure, too.\rYou need to see my Pokemon now.\nThey’re all in the top percentage!\rCome on, let’s battle!\r"
     trainertextentry 477, TEXT_DEFEATED_IN_BATTLE, "Ack! I lost again!"
     trainertextentry 477, TEXT_DEFEATED_IN_OVERWORLD, "My super cool Pokémon were able\nto get me all the way here.\rI’m going back to Route 30, though.\nWe need to train a lot more."
 
@@ -3603,21 +3603,33 @@ _Trainer818:
     trainertextentry 818, TEXT_DEFEATED_IN_BATTLE, "...\n...\n...\rI guess that’s it...\n"
 
 _Trainer819:
+    trainertextentry 819, TEXT_LAST_MON_CRITICAL, "It’s not the end yet!\n"
+    trainertextentry 819, TEXT_LAST_MON_SENT_OUT, "This isn’t looking good for us..."
     trainertextentry 819, TEXT_DEFEATED_IN_BATTLE, "Wow! You’re incredible!\n"
 
 _Trainer820:
+    trainertextentry 820, TEXT_LAST_MON_CRITICAL, "It’s not the end yet!\n"
+    trainertextentry 820, TEXT_LAST_MON_SENT_OUT, "This isn’t looking good for us..."
     trainertextentry 820, TEXT_DEFEATED_IN_BATTLE, "Wow! You’re incredible!\n"
 
 _Trainer821:
+    trainertextentry 821, TEXT_LAST_MON_CRITICAL, "It’s not the end yet!\n"
+    trainertextentry 821, TEXT_LAST_MON_SENT_OUT, "This isn’t looking good for us..."
     trainertextentry 821, TEXT_DEFEATED_IN_BATTLE, "Wow! You’re incredible!\n"
 
 _Trainer822:
+    trainertextentry 822, TEXT_LAST_MON_CRITICAL, "It’s not the end yet!\n"
+    trainertextentry 822, TEXT_LAST_MON_SENT_OUT, "This isn’t looking good for us..."
     trainertextentry 822, TEXT_DEFEATED_IN_BATTLE, "Wow! You’re incredible!\n"
 
 _Trainer823:
+    trainertextentry 823, TEXT_LAST_MON_CRITICAL, "It’s not the end yet!\n"
+    trainertextentry 823, TEXT_LAST_MON_SENT_OUT, "This isn’t looking good for us..."
     trainertextentry 823, TEXT_DEFEATED_IN_BATTLE, "Wow! You’re incredible!\n"
 
 _Trainer824:
+    trainertextentry 824, TEXT_LAST_MON_CRITICAL, "It’s not the end yet!\n"
+    trainertextentry 824, TEXT_LAST_MON_SENT_OUT, "This isn’t looking good for us..."
     trainertextentry 824, TEXT_DEFEATED_IN_BATTLE, "Wow! You’re incredible!\n"
 
 _Trainer825:
@@ -4497,6 +4509,5 @@ _Trainer841:
 /* Trainer 839 */ .halfword _0000
 /* Trainer 840 */ .halfword _Trainer840
 /* Trainer 841 */ .halfword _Trainer841
-/* Trainer 842 */ .halfword _0000
 
 .close

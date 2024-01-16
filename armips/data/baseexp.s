@@ -540,11 +540,11 @@
 /* east gastrodon                      */ .halfword 0
 /* giratina origin                     */ .halfword 0
 /* sky shaymin                         */ .halfword 0
-/* rotom heat                          */ .halfword 0
-/* rotom fridge                        */ .halfword 0
-/* rotom wash                          */ .halfword 0
-/* rotom fan                           */ .halfword 0
-/* rotom lawnmower                     */ .halfword 0
+/* rotom heat                          */ .halfword 154
+/* rotom fridge                        */ .halfword 154
+/* rotom wash                          */ .halfword 154
+/* rotom fan                           */ .halfword 154
+/* rotom lawnmower                     */ .halfword 154
 /* castform sun                        */ .halfword 0
 /* castform rain                       */ .halfword 0
 /* castform ice                        */ .halfword 0

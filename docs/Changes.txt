@@ -607,6 +607,7 @@ Route 26
 ✓ Added a healing NPC to one of the counters before Victory Road.
 ✓ Max Elixir -> Leader's Crest.
 ✓ Added a Fisherman in the healing house who gives you 50 Heart Scales (they're grindable at this point!).
+✓ Changed Ace Trainer Gaven's post-battle dialogue to reflect Victory Road actually having Trainers now.
 
 Victory Road
 ✓ TM79 -> TM64 Explosion. TM26 -> PP Max. Max Revive -> TM50 Overheat. Full Restore -> TM71 Stone Edge.

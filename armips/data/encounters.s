@@ -5746,49 +5746,49 @@ rocksmashrate 0
 oldrodrate FISHING_RATE
 goodrodrate FISHING_RATE
 superrodrate FISHING_RATE
-walklevels 49, 50, 50, 49, 49, 50, 49, 50, 49, 49, 50, 50
+walklevels 53, 53, 54, 54, 54, 54, 54, 54, 54, 54, 53, 53
 
 // morning encounter slots
-pokemon SPECIES_DODRIO
-pokemon SPECIES_DODRIO
-pokemon SPECIES_MANECTRIC
 pokemon SPECIES_ZANGOOSE
 pokemon SPECIES_SEVIPER
+pokemon SPECIES_DODRIO
+pokemon SPECIES_DODRIO
+pokemon SPECIES_RAPIDASH
+pokemon SPECIES_RAPIDASH
 pokemon SPECIES_LINOONE
-pokemon SPECIES_RAPIDASH
-pokemon SPECIES_RAPIDASH
-pokemon SPECIES_KECLEON
-pokemon SPECIES_KECLEON
+pokemon SPECIES_MANECTRIC
 pokemon SPECIES_PURUGLY
 pokemon SPECIES_PURUGLY
+pokemon SPECIES_KECLEON
+pokemon SPECIES_KECLEON
 
 // day encounter slots
-pokemon SPECIES_DODRIO
-pokemon SPECIES_DODRIO
-pokemon SPECIES_MANECTRIC
 pokemon SPECIES_ZANGOOSE
 pokemon SPECIES_SEVIPER
+pokemon SPECIES_DODRIO
+pokemon SPECIES_DODRIO
+pokemon SPECIES_RAPIDASH
+pokemon SPECIES_RAPIDASH
 pokemon SPECIES_LINOONE
-pokemon SPECIES_RAPIDASH
-pokemon SPECIES_RAPIDASH
-pokemon SPECIES_KECLEON
-pokemon SPECIES_KECLEON
+pokemon SPECIES_MANECTRIC
 pokemon SPECIES_PURUGLY
 pokemon SPECIES_PURUGLY
+pokemon SPECIES_KECLEON
+pokemon SPECIES_KECLEON
 
 // night encounter slots
-pokemon SPECIES_QUAGSIRE
-pokemon SPECIES_QUAGSIRE
-pokemon SPECIES_MANECTRIC
 pokemon SPECIES_ZANGOOSE
 pokemon SPECIES_SEVIPER
+pokemon SPECIES_DODRIO
+pokemon SPECIES_DODRIO
+pokemon SPECIES_RAPIDASH
+pokemon SPECIES_RAPIDASH
 pokemon SPECIES_LINOONE
-pokemon SPECIES_RAPIDASH
-pokemon SPECIES_RAPIDASH
-pokemon SPECIES_KECLEON
-pokemon SPECIES_KECLEON
+pokemon SPECIES_MANECTRIC
 pokemon SPECIES_PURUGLY
 pokemon SPECIES_PURUGLY
+pokemon SPECIES_KECLEON
+pokemon SPECIES_KECLEON
 
 // hoenn encounter slots
 pokemon SPECIES_SCRAFTY
@@ -5850,49 +5850,49 @@ rocksmashrate 0
 oldrodrate FISHING_RATE
 goodrodrate FISHING_RATE
 superrodrate FISHING_RATE
-walklevels 49, 50, 49, 50, 49, 50, 49, 49, 49, 49, 50, 50
+walklevels 53, 53, 54, 54, 54, 54, 54, 54, 54, 54, 53, 53
 
 // morning encounter slots
+pokemon SPECIES_SANDSLASH
+pokemon SPECIES_SANDSLASH
 pokemon SPECIES_DODRIO
 pokemon SPECIES_DODRIO
 pokemon SPECIES_RAPIDASH
 pokemon SPECIES_RAPIDASH
-pokemon SPECIES_SANDSLASH
-pokemon SPECIES_SANDSLASH
 pokemon SPECIES_MIGHTYENA
 pokemon SPECIES_PRIMEAPE
-pokemon SPECIES_KECLEON
-pokemon SPECIES_KECLEON
 pokemon SPECIES_SKUNTANK
 pokemon SPECIES_SKUNTANK
+pokemon SPECIES_KECLEON
+pokemon SPECIES_KECLEON
 
 // day encounter slots
+pokemon SPECIES_SANDSLASH
+pokemon SPECIES_SANDSLASH
 pokemon SPECIES_DODRIO
 pokemon SPECIES_DODRIO
 pokemon SPECIES_RAPIDASH
 pokemon SPECIES_RAPIDASH
-pokemon SPECIES_SANDSLASH
-pokemon SPECIES_SANDSLASH
 pokemon SPECIES_MIGHTYENA
 pokemon SPECIES_PRIMEAPE
-pokemon SPECIES_KECLEON
-pokemon SPECIES_KECLEON
 pokemon SPECIES_SKUNTANK
 pokemon SPECIES_SKUNTANK
+pokemon SPECIES_KECLEON
+pokemon SPECIES_KECLEON
 
 // night encounter slots
-pokemon SPECIES_HOUNDOOM
-pokemon SPECIES_HOUNDOOM
-pokemon SPECIES_RAPIDASH
-pokemon SPECIES_RAPIDASH
 pokemon SPECIES_SANDSLASH
 pokemon SPECIES_SANDSLASH
+pokemon SPECIES_QUAGSIRE
+pokemon SPECIES_QUAGSIRE
+pokemon SPECIES_RAPIDASH
+pokemon SPECIES_RAPIDASH
 pokemon SPECIES_MIGHTYENA
 pokemon SPECIES_PRIMEAPE
-pokemon SPECIES_KECLEON
-pokemon SPECIES_KECLEON
 pokemon SPECIES_SKUNTANK
 pokemon SPECIES_SKUNTANK
+pokemon SPECIES_KECLEON
+pokemon SPECIES_KECLEON
 
 // hoenn encounter slots
 pokemon SPECIES_HEATMOR
@@ -5903,22 +5903,22 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_PELIPPER, 50, 50
-encounter SPECIES_TENTACRUEL, 50, 50
-encounter SPECIES_TENTACRUEL, 50, 50
-encounter SPECIES_TENTACRUEL, 50, 50
-encounter SPECIES_TENTACRUEL, 50, 50
+encounter SPECIES_PELIPPER, 53, 55
+encounter SPECIES_TENTACRUEL, 53, 55
+encounter SPECIES_TENTACRUEL, 53, 55
+encounter SPECIES_TENTACRUEL, 53, 55
+encounter SPECIES_PELIPPER, 53, 55
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_LUVDISC, 5, 50
-encounter SPECIES_LUVDISC, 5, 50
-encounter SPECIES_LUVDISC, 5, 50
-encounter SPECIES_LANTURN, 50, 50
-encounter SPECIES_CLOYSTER, 50, 50
+encounter SPECIES_LUVDISC, 44, 48
+encounter SPECIES_LUVDISC, 44, 48
+encounter SPECIES_LUVDISC, 44, 48
+encounter SPECIES_LANTURN, 53, 55
+encounter SPECIES_CLOYSTER, 53, 55
 
 // good rod encounters
 encounter SPECIES_MAGIKARP, 1, 1
@@ -5954,52 +5954,52 @@ rocksmashrate 40
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 50, 50, 50, 52, 52, 50, 52, 50, 52, 52, 52, 52
+walklevels 56, 56, 55, 56, 55, 56, 56, 56, 55, 56, 56, 56
 
 // morning encounter slots
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_MAGNETON
 pokemon SPECIES_URSARING
 pokemon SPECIES_DONPHAN
-pokemon SPECIES_LOUDRED
+pokemon SPECIES_GOLBAT
+pokemon SPECIES_GOLBAT
+pokemon SPECIES_GRAVELER
+pokemon SPECIES_GRAVELER
 pokemon SPECIES_MAROWAK
-pokemon SPECIES_LAIRON
 pokemon SPECIES_RHYDON
-pokemon SPECIES_RHYDON
+pokemon SPECIES_MAGNETON
+pokemon SPECIES_MAGNETON
 pokemon SPECIES_STEELIX
 pokemon SPECIES_STEELIX
 
 // day encounter slots
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_MAGNETON
 pokemon SPECIES_URSARING
 pokemon SPECIES_DONPHAN
-pokemon SPECIES_LOUDRED
+pokemon SPECIES_GOLBAT
+pokemon SPECIES_GOLBAT
+pokemon SPECIES_GRAVELER
+pokemon SPECIES_GRAVELER
 pokemon SPECIES_MAROWAK
-pokemon SPECIES_LAIRON
 pokemon SPECIES_RHYDON
-pokemon SPECIES_RHYDON
+pokemon SPECIES_MAGNETON
+pokemon SPECIES_MAGNETON
 pokemon SPECIES_STEELIX
 pokemon SPECIES_STEELIX
 
 // night encounter slots
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_GRAVELER
-pokemon SPECIES_MAGNETON
 pokemon SPECIES_URSARING
 pokemon SPECIES_DONPHAN
-pokemon SPECIES_LOUDRED
+pokemon SPECIES_GOLBAT
+pokemon SPECIES_GOLBAT
+pokemon SPECIES_GRAVELER
+pokemon SPECIES_GRAVELER
 pokemon SPECIES_MAROWAK
-pokemon SPECIES_LAIRON
 pokemon SPECIES_RHYDON
-pokemon SPECIES_RHYDON
+pokemon SPECIES_MAGNETON
+pokemon SPECIES_MAGNETON
 pokemon SPECIES_STEELIX
 pokemon SPECIES_STEELIX
 
 // hoenn encounter slots
-pokemon SPECIES_BOLDORE
+pokemon SPECIES_ZWEILOUS
 pokemon SPECIES_EXCADRILL
 
 // sinnoh encounter slots
@@ -6014,8 +6014,8 @@ encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // rock smash encounters
-encounter SPECIES_GRAVELER, 50, 52
-encounter SPECIES_STEELIX, 52, 52
+encounter SPECIES_GRAVELER, 54, 56
+encounter SPECIES_ONIX, 54, 56
 
 // old rod encounters
 encounter SPECIES_NONE, 0, 0

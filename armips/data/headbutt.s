@@ -613,7 +613,8 @@ headbuttheader  29,  11,   4
     treecoords 1321, 41, 1322, 41, 1322, 40, -1, -1, -1, -1, -1, -1
 .close
 
-headbuttheader  30,  17,   0
+//* Route 26
+headbuttheader  30,  0,   17
     // normal slots
     headbuttencounter SPECIES_HOOTHOOT, 28, 29
     headbuttencounter SPECIES_PINECO, 28, 29
@@ -628,12 +629,12 @@ headbuttheader  30,  17,   0
     headbuttencounter SPECIES_EXEGGCUTE, 31, 32
     headbuttencounter SPECIES_EXEGGCUTE, 31, 32
     // special slots
-    headbuttencounter SPECIES_NONE, 0, 0
-    headbuttencounter SPECIES_NONE, 0, 0
-    headbuttencounter SPECIES_NONE, 0, 0
-    headbuttencounter SPECIES_NONE, 0, 0
-    headbuttencounter SPECIES_NONE, 0, 0
-    headbuttencounter SPECIES_NONE, 0, 0
+    headbuttencounter SPECIES_SPEAROW, 44, 48
+    headbuttencounter SPECIES_AIPOM, 44, 48
+    headbuttencounter SPECIES_EKANS, 44, 48
+    headbuttencounter SPECIES_MANKEY, 44, 48
+    headbuttencounter SPECIES_MUNCHLAX, 44, 48
+    headbuttencounter SPECIES_HERACROSS, 53, 55
     // normal trees
     treecoords 926, 347, 926, 346, -1, -1, -1, -1, -1, -1, -1, -1
     treecoords 926, 357, 926, 356, -1, -1, -1, -1, -1, -1, -1, -1
@@ -654,7 +655,8 @@ headbuttheader  30,  17,   0
     treecoords 925, 333, 926, 333, -1, -1, -1, -1, -1, -1, -1, -1
 .close
 
-headbuttheader  31,  17,   0
+//* Route 27
+headbuttheader  31,  0,   17
     // normal slots
     headbuttencounter SPECIES_HOOTHOOT, 28, 29
     headbuttencounter SPECIES_PINECO, 28, 29
@@ -669,12 +671,12 @@ headbuttheader  31,  17,   0
     headbuttencounter SPECIES_EXEGGCUTE, 31, 32
     headbuttencounter SPECIES_EXEGGCUTE, 31, 32
     // special slots
-    headbuttencounter SPECIES_NONE, 0, 0
-    headbuttencounter SPECIES_NONE, 0, 0
-    headbuttencounter SPECIES_NONE, 0, 0
-    headbuttencounter SPECIES_NONE, 0, 0
-    headbuttencounter SPECIES_NONE, 0, 0
-    headbuttencounter SPECIES_NONE, 0, 0
+    headbuttencounter SPECIES_EXEGGCUTE, 44, 48
+    headbuttencounter SPECIES_PINECO, 44, 48
+    headbuttencounter SPECIES_COMBEE, 44, 48
+    headbuttencounter SPECIES_TAILLOW, 44, 48
+    headbuttencounter SPECIES_EXEGGCUTE, 44, 48
+    headbuttencounter SPECIES_EXEGGCUTE, 44, 48
     // normal trees
     treecoords 788, 394, 789, 394, -1, -1, -1, -1, -1, -1, -1, -1
     treecoords 782, 392, 782, 391, -1, -1, -1, -1, -1, -1, -1, -1

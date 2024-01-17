@@ -135,9 +135,8 @@ Route 32
 ✓ Added a Hiker using a Mickey (88) who blocks the path to the TM05 gifter.
 ✓ Moved some Trainer positions.
 ✓ Added a new Ace Trainer with a Mickey (347) near the Union Cave entrance.
-✓ Changed the TM09 to a Great Ball.
+✓ Changed the TM09 to a Poison Barb.
 ✓ Changed the Great Ball to a Heart Scale.
-✓ Removed the Friday sibling and replaced her with a Poison Barb.
 ✓ Moved the Fisherman in the PC out of bounds as we already have a Rod.
 
 Union Cave (1F/B1F)
@@ -671,6 +670,7 @@ Miscellaneous
 
 ✓ The Pokémon Music channel is edited to play what was the Hoenn Sound at any time/day of the week. The text listed when this plays has also been modified.
 
+✓ The PC now also contains a 'Heal Pokémon' option, which is also accessible via the Portable PC.
 
 enc poke script
 	LockAll 

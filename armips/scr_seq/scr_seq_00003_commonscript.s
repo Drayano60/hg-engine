@@ -833,6 +833,7 @@ _0B17:
     menu_item_add 68, 77, 1
     menu_item_add 69, 78, 2
     menu_item_add 70, 79, 3
+    menu_item_add 87, 88, 6
     menu_item_add 72, 81, 5
     return
     .byte 0x46, 0x00, 0x47, 0x00, 0x50, 0x00, 0x04
@@ -845,7 +846,17 @@ _0B53:
     case 2, _0BC8
     case 3, _0BDB
     case 4, _0BEE
+    case 6, _HealPkmn
     goto _0A2E
+
+_HealPkmn:
+    fade_screen 6, 1, 0, RGB_BLACK
+    wait_fade
+    closemsg
+    play_fanfare SEQ_ME_ASA
+    wait_fanfare
+    heal_party
+    goto _0C01
 
 _0BA2:
     closemsg

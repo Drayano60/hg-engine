@@ -37,4 +37,6 @@ a010_485:
     unloadparticle 1
     waitstate
     end
+
+.close
     

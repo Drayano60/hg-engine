@@ -121,7 +121,7 @@ NPCs:
 
 
 2200 - Rare Candy item ball on Route 46.
-2201 - Poison Barb item ball on Route 32.
+2201 - Poison Barb item ball on Route 32. [UNUSED]
 2202 - Oval Stone item ball on Union Cave 1F.
 2203 - Mystic Water item ball on Route 34.
 2204 - Torment item ball in Goldenrod's Game Corner.

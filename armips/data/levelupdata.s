@@ -2985,6 +2985,7 @@ levelup SPECIES_VOLTORB
 
 // NEW: Boomburst
 levelup SPECIES_ELECTRODE
+    learnset MOVE_FLASH, 1
     learnset MOVE_CHARGE, 1
     learnset MOVE_TACKLE, 1
     learnset MOVE_THUNDER_SHOCK, 1
@@ -3032,6 +3033,7 @@ levelup SPECIES_VOLTORB_HISUIAN
     terminatelearnset
 
 levelup SPECIES_ELECTRODE_HISUIAN
+    learnset MOVE_FLASH, 1
     learnset MOVE_CHARGE, 1
     learnset MOVE_TACKLE, 1
     learnset MOVE_THUNDER_SHOCK, 1

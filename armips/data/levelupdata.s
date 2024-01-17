@@ -1845,6 +1845,7 @@ levelup SPECIES_ABRA
 
 // NEW: Hypnosis (PLA)
 levelup SPECIES_KADABRA
+    learnset MOVE_FLASH, 1
     learnset MOVE_TELEPORT, 1
     learnset MOVE_CONFUSION, 1
     learnset MOVE_KINESIS, 16
@@ -1869,6 +1870,7 @@ levelup SPECIES_ALAKAZAM
     learnset MOVE_CALM_MIND, 1
     learnset MOVE_BARRIER, 1
     learnset MOVE_GRAVITY, 1
+    learnset MOVE_FLASH, 1
     learnset MOVE_TELEPORT, 1
     learnset MOVE_CONFUSION, 1
     learnset MOVE_KINESIS, 16
@@ -3662,6 +3664,7 @@ levelup SPECIES_SEAKING
     terminatelearnset
 
 levelup SPECIES_STARYU
+    learnset MOVE_FLASH, 1
     learnset MOVE_TACKLE, 1
     learnset MOVE_HARDEN, 1
     learnset MOVE_RAPID_SPIN, 1
@@ -3685,6 +3688,7 @@ levelup SPECIES_STARYU
 levelup SPECIES_STARMIE
     learnset MOVE_SIGNAL_BEAM, 1
     learnset MOVE_GRAVITY, 1
+    learnset MOVE_FLASH, 1
     learnset MOVE_TACKLE, 1
     learnset MOVE_HARDEN, 1
     learnset MOVE_RAPID_SPIN, 1
@@ -13055,6 +13059,7 @@ levelup SPECIES_WATCHOG
     learnset MOVE_BULLET_SEED, 1
     learnset MOVE_ASSURANCE, 1
     learnset MOVE_FORESIGHT, 1
+    learnset MOVE_FLASH, 1
     learnset MOVE_LOW_KICK, 1
     learnset MOVE_PSYCH_UP, 1
     learnset MOVE_SAND_ATTACK, 1
@@ -21984,6 +21989,7 @@ levelup SPECIES_MEGA_AMPHAROS
 
     learnset MOVE_DAZZLING_GLEAM, 1
     learnset MOVE_FIRE_PUNCH, 1
+    learnset MOVE_FLASH, 1
     learnset MOVE_ZAP_CANNON, 1
     learnset MOVE_TACKLE, 1
     learnset MOVE_GROWL, 1

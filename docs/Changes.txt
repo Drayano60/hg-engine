@@ -258,6 +258,7 @@ National Park
 ✓ The first time you compete in the BCC, you receive TM32 Leech Life.
 ✓ Shiny Stone -> TM53 Energy Ball.
 ✓ Erika shows up here after defeating Team Rocket at the Safari Zone. She gives you TM19 Giga Drain.
+✓ When entering the Bug-Catching Contest, the portable PC/fast travel is disabled. It's re-enabled after leaving (checked manual retire, no balls yet and leaving on foot).
 
 Pokéathlon Dome
 ✓ Whitney is now visibly at the counter. Talk to her to 'get' a jersey, then she'll return to and unlock Goldenrod Gym.
@@ -449,6 +450,7 @@ Safari Zone
 ✓ Cianwood's pharmacist also makes an appearance here with some dialogue before leaving. He can now be found in Cianwood again and the Secret Medicine collected.
 ✓ A Kimono Girl sits here with some basic dialogue. She disappears after beating Jasmine; this is just some setup for later.
 ✓ Added an NPC (Beauty OW) that gives you TM17 Protect.
+✓ When entering the Safari Zone, the portable PC/fast travel is disabled. It's re-enabled after leaving (checked manual retire, no balls yet and leaving on foot).
 
 Safari Zone Gate (Normal)
 ✓ Changed out the no talking lady/Kangaskhan for an old woman who repeats the herbal medicine store. She also has a Parasect next to her.

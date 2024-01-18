@@ -27,6 +27,7 @@ void ClearOverworldRequestFlags(OVERWORLD_REQUEST_FLAGS *req)
     req->DebugKeyPush = 0;
 
     req->OpenPCCheck  = 0; // new:  check if pc should be opened
+    req->OpenTeleportCheck = 0; // new
 
     req->Site = 0xFF;
     req->PushSite = 0xFF;
@@ -40,6 +41,10 @@ void ClearOverworldRequestFlags(OVERWORLD_REQUEST_FLAGS *req)
  */
 void SetOverworldRequestFlags(OVERWORLD_REQUEST_FLAGS *req, u16 trg)
 {
+    if (trg & PAD_BUTTON_START) {
+        req->OpenTeleportCheck = TRUE;
+    }
+
     if (trg & PAD_BUTTON_R) {
         req->OpenPCCheck = TRUE;
     }
@@ -55,6 +60,14 @@ void CheckOverworldRequestFlags(OVERWORLD_REQUEST_FLAGS *req, FieldSystem *fsys)
     // Don't allow the PC at all if flag 398 hasn't been set
     if (!CheckScriptFlag(0x18E)) {
         return;
+    }
+
+    if (req->OpenTeleportCheck) {
+        if (CheckScriptFlag(0x18D)) {
+            EventSet_Script(fsys, 2074, NULL); // set up script 2074
+        } else {
+            EventSet_Script(fsys, 2073, NULL); // set up script 2073
+        }
     }
 
     if (req->OpenPCCheck) {

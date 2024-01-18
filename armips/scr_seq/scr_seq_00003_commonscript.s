@@ -86,6 +86,8 @@ scrdef scr_seq_0003_069
 scrdef scr_seq_0003_070
 scrdef scr_seq_0003_071
 scrdef scr_seq_0003_072
+scrdef scr_seq_0003_073
+scrdef scr_seq_0003_074
 scrdef_end
 
 scr_seq_0003_002:
@@ -1744,6 +1746,302 @@ scr_seq_0003_072:
     play_se SEQ_SE_DP_SELECT
     lockall
     npc_msg 117
+    wait_button
+    closemsg
+    releaseall
+    end
+
+scr_seq_0003_073:
+    play_se SEQ_SE_DP_SELECT
+    lockall
+    npc_msg 119
+    ListStandardText 1, 1, 0, 1, VAR_SPECIAL_RESULT
+    call_if_set FLAG_SYS_FLYPOINT_AZALEA, _AzaleaOpt
+    call_if_set FLAG_SYS_FLYPOINT_UNION_CAVE, _BattleFrontierOpt // This allows Frontier Access
+    call_if_set FLAG_SYS_FLYPOINT_BLACKTHORN, _BlackthornOpt
+    call_if_set FLAG_SYS_FLYPOINT_CELADON, _CeladonOpt
+    call_if_set FLAG_SYS_FLYPOINT_CERULEAN, _CeruleanOpt
+    call_if_set FLAG_SYS_FLYPOINT_CHERRYGROVE, _CherrygroveOpt
+    call_if_set FLAG_SYS_FLYPOINT_CIANWOOD, _CianwoodOpt
+    call_if_set FLAG_SYS_FLYPOINT_CINNABAR, _CinnabarOpt
+    call_if_set FLAG_SYS_FLYPOINT_ECRUTEAK, _EcruteakOpt
+    call_if_set FLAG_SYS_FLYPOINT_FUCHSIA, _FuchsiaOpt
+    call_if_set FLAG_SYS_FLYPOINT_INDIGO, _IndigoOpt
+    call_if_set FLAG_SYS_FLYPOINT_LAKE_OF_RAGE, _LakeOfRageOpt
+    call_if_set FLAG_SYS_FLYPOINT_LAVENDER, _LavenderOpt
+    call_if_set FLAG_SYS_FLYPOINT_MAHOGANY, _MahoganyOpt
+    call_if_set FLAG_SYS_FLYPOINT_MT_SILVER, _MtSilverOpt
+    call_if_set FLAG_SYS_FLYPOINT_NEW_BARK, _NewBarkOpt
+    call_if_set FLAG_SYS_FLYPOINT_OLIVINE, _OlivineOpt
+    call_if_set FLAG_SYS_FLYPOINT_PALLET, _PalletOpt
+    call_if_set FLAG_SYS_FLYPOINT_PEWTER, _PewterOpt
+    call_if_set FLAG_SYS_FLYPOINT_POKEATHLON, _PokeathlonOpt
+    // AddListOption 245, 255, 20 (Rock Tunnel)
+    call_if_set FLAG_SYS_FLYPOINT_SAFARI, _SafariOpt
+    call_if_set FLAG_SYS_FLYPOINT_SAFFRON, _SaffronOpt
+    // AddListOption 248, 255, 23 (Union Cave)
+    call_if_set FLAG_SYS_FLYPOINT_VERMILION, _VermilionOpt
+    call_if_set FLAG_SYS_FLYPOINT_VICTORY_ROAD, _VictoryRoadOpt
+    call_if_set FLAG_SYS_FLYPOINT_VIOLET, _VioletOpt
+    call_if_set FLAG_SYS_FLYPOINT_VIRIDIAN, _ViridianOpt
+    AddListOption 253, 255, 28
+    ShowList
+    closemsg
+    compare VAR_SPECIAL_RESULT, 28
+    call_if_lt _WarpPlayer
+    releaseall
+    end
+
+_AzaleaOpt:
+    AddListOption 225, 255, 0
+    return
+
+_BattleFrontierOpt:
+    AddListOption 226, 255, 1
+    return
+
+_BlackthornOpt:
+    AddListOption 227, 255, 2
+    return
+
+_CeladonOpt:
+    AddListOption 228, 255, 3
+    return
+
+_CeruleanOpt:
+    AddListOption 229, 255, 4
+    Return
+
+_CherrygroveOpt:
+    AddListOption 230, 255, 5
+    Return
+
+_CianwoodOpt:
+    AddListOption 231, 255, 6
+    Return
+
+_CinnabarOpt:
+    AddListOption 232, 255, 7
+    Return
+
+_EcruteakOpt:
+    AddListOption 233, 255, 8
+    Return
+
+_FuchsiaOpt:
+    AddListOption 234, 255, 9
+    Return
+
+_IndigoOpt:
+    AddListOption 235, 255, 10
+    Return
+
+_LakeOfRageOpt:
+    AddListOption 236, 255, 11
+    Return
+
+_LavenderOpt:
+    AddListOption 237, 255, 12
+    Return
+
+_MahoganyOpt:
+    AddListOption 238, 255, 13
+    Return
+
+_MtSilverOpt:
+    AddListOption 239, 255, 14
+    Return
+
+_NewBarkOpt:
+    AddListOption 240, 255, 15
+    Return
+
+_OlivineOpt:
+    AddListOption 241, 255, 16
+    Return
+
+_PalletOpt:
+    AddListOption 242, 255, 17
+    Return
+
+_PewterOpt:
+    AddListOption 243, 255, 18
+    Return
+
+_PokeathlonOpt:
+    AddListOption 244, 255, 19
+    Return
+
+_SafariOpt:
+    AddListOption 246, 255, 21
+    Return
+
+_SaffronOpt:
+    AddListOption 247, 255, 22
+    Return
+
+_VermilionOpt:
+    AddListOption 249, 255, 24
+    Return
+
+_VictoryRoadOpt:
+    AddListOption 250, 255, 25
+    Return
+
+_VioletOpt:
+    AddListOption 251, 255, 26
+    Return
+
+_ViridianOpt:
+    AddListOption 252, 255, 27
+    Return
+
+_WarpPlayer:
+    fade_screen 6, 1, 0, RGB_BLACK
+    wait_fade
+    switch VAR_SPECIAL_RESULT
+    case 0, _AzaleaWarp
+    case 1, _BattleFrontierWarp
+    case 2, _BlackthornWarp
+    case 3, _CeladonWarp
+    case 4, _CeruleanWarp
+    case 5, _CherrygroveWarp
+    case 6, _CianwoodWarp
+    case 7, _CinnabarWarp
+    case 8, _EcruteakWarp
+    case 9, _FuchsiaWarp
+    case 10, _IndigoWarp
+    case 11, _LakeOfRageWarp
+    case 12, _LavenderWarp
+    case 13, _MahoganyWarp
+    case 14, _MtSilverWarp
+    case 15, _NewBarkWarp
+    case 16, _OlivineWarp
+    case 17, _PalletWarp
+    case 18, _PewterWarp
+    case 19, _PokeathlonWarp
+    case 21, _SafariWarp
+    case 22, _SaffronWarp
+    case 24, _VermilionWarp
+    case 25, _VictoryRoadWarp
+    case 26, _VioletWarp
+    case 27, _ViridianWarp
+    goto _EndWarp
+
+_AzaleaWarp:
+    Warp 74, 0, 410, 461, 1
+    goto _EndWarp
+
+_BattleFrontierWarp:
+    Warp 411, 0, 8, 15, 1
+    goto _EndWarp
+
+_BlackthornWarp:
+    Warp 89, 0, 674, 177, 1
+    goto _EndWarp
+
+_CeladonWarp:
+    Warp 55, 0, 1231, 238, 1
+    goto _EndWarp
+
+_CeruleanWarp:
+    Warp 52, 0, 1309, 132, 1
+    goto _EndWarp
+
+_CherrygroveWarp:
+    Warp 67, 0, 564, 392, 1
+    goto _EndWarp
+
+_CianwoodWarp:
+    Warp 75, 0, 187, 370, 1
+    goto _EndWarp
+
+_CinnabarWarp:
+    Warp 57, 0, 1039, 503, 1
+    goto _EndWarp
+
+_EcruteakWarp:
+    Warp 78, 0, 397, 184, 1
+    goto _EndWarp
+
+_FuchsiaWarp:
+    Warp 56, 0, 1209, 440, 1
+    goto _EndWarp
+
+_IndigoWarp:
+    Warp 58, 0, 912, 201, 1
+    goto _EndWarp
+
+_LakeOfRageWarp:
+    Warp 88, 0, 536, 90, 1
+    goto _EndWarp
+
+_LavenderWarp:
+    Warp 53, 0, 1418, 235, 1
+    goto _EndWarp
+
+_MahoganyWarp:
+    Warp 87, 0, 534, 184, 1
+    goto _EndWarp
+
+_MtSilverWarp:
+    Warp 90, 0, 820, 266, 1
+    goto _EndWarp
+
+_NewBarkWarp:
+    Warp 60, 0, 695, 397, 1
+    goto _EndWarp
+
+_OlivineWarp:
+    Warp 77, 0, 272, 258, 1
+    goto _EndWarp
+
+_PalletWarp:
+    Warp 49, 0, 1033, 364, 1
+    goto _EndWarp
+
+_PewterWarp:
+    Warp 51, 0, 1048, 107, 1
+    goto _EndWarp
+
+_PokeathlonWarp:
+    Warp 280, 0, 42, 23, 1
+    goto _EndWarp
+
+_SafariWarp:
+    Warp 174, 0, 82, 303, 1
+    goto _EndWarp
+
+_SaffronWarp:
+    Warp 59, 0, 1294, 243, 1
+    goto _EndWarp
+
+_VermilionWarp:
+    Warp 54, 0, 1297, 295, 1
+    goto _EndWarp
+
+_VictoryRoadWarp:
+    Warp 30, 0, 909, 297, 1
+    goto _EndWarp
+
+_VioletWarp:
+    Warp 73, 0, 497, 272, 1
+    goto _EndWarp
+
+_ViridianWarp:
+    Warp 50, 0, 1032, 263, 1
+    goto _EndWarp
+
+_EndWarp:
+    fade_screen 6, 1, 1, RGB_BLACK
+    wait_fade
+    releaseall
+    end
+    
+scr_seq_0003_074:
+    play_se SEQ_SE_DP_SELECT
+    lockall
+    npc_msg 118
     wait_button
     closemsg
     releaseall

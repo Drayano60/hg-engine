@@ -1293,6 +1293,51 @@ int ServerDoTypeCalcMod(void *bw UNUSED, struct BattleStruct *sp, int move_no, i
     if (move_no == MOVE_STRUGGLE)
         return damage;
 
+    const isValidMoveForCalc =
+    (
+        (sp->moveTbl[move_no].target != 0x0010) &&
+        (sp->moveTbl[move_no].target != 0x0020) &&
+        (sp->moveTbl[move_no].power) &&
+        (
+            ((sp->server_status_flag & SERVER_STATUS_FLAG_TYPE_NONE) == 0) &&
+            ((sp->server_status_flag & SERVER_STATUS_FLAG_x20) == 0)
+        )
+    );
+
+    // This tells the AI that Electric-type Pokémon are immune to moves that paralyze.
+    if (sp->moveTbl[move_no].effect == 67) {
+        if
+        (
+            (BattlePokemonParamGet(sp, sp->defence_client, BATTLE_MON_DATA_TYPE1, NULL) == TYPE_ELECTRIC) ||
+            (BattlePokemonParamGet(sp, sp->defence_client, BATTLE_MON_DATA_TYPE2, NULL) == TYPE_ELECTRIC)
+        )
+        {
+            flag[0] |= MOVE_STATUS_FLAG_NOT_EFFECTIVE;
+        }
+    }
+
+    // This tells the AI that Grass-type Pokémon or Pokémon with Overcoat are immune to powder moves.
+    // Unfortunately the only powder move the AI actually consults this function for is Stun Spore...
+    if (isPowderMove(move_no)) {
+        if
+        (
+            (BattlePokemonParamGet(sp, sp->defence_client, BATTLE_MON_DATA_TYPE1, NULL) == TYPE_GRASS) ||
+            (BattlePokemonParamGet(sp, sp->defence_client, BATTLE_MON_DATA_TYPE2, NULL) == TYPE_GRASS)
+        )
+        {
+            flag[0] |= MOVE_STATUS_FLAG_NOT_EFFECTIVE;
+        }
+    }
+
+    // This could check for Magic Bounce (it activates before the immunity), but probably best leave it consistently bad for the AI.
+    // (MoldBreakerAbilityCheck(sp, attack_client, defence_client, ABILITY_MAGIC_BOUNCE) == TRUE)
+    
+    // Return here if the move would otherwise not be here normally.
+    // Allow Thunder Wave through since it does normally go through this function.
+    if (!isValidMoveForCalc && (move_no != MOVE_THUNDER_WAVE)) {
+        return damage;
+    }
+
     eqp_a = HeldItemHoldEffectGet(sp, attack_client);
     atk_a = HeldItemAtkGet(sp, attack_client, ATK_CHECK_NORMAL);
     eqp_d = HeldItemHoldEffectGet(sp, defence_client);

@@ -527,8 +527,8 @@ struct __attribute__((packed)) BattleMove
     /* 0xB */ u8 flag;         /**< various flags for the move, see FLAG_* constants */
 
     // Split out from unk[4]
-    /* 0xC */ u8 appeal;       // Not used in HG, repurposed as bitflags
-    /* 0xD */ u8 contestType;  // Not used in HG, repurposed as bitflags
+    /* 0xC */ u8 appeal;       // Not used in HG, repurposed as bitflags, then abandoned as it doesnt work for ai
+    /* 0xD */ u8 contestType;  // Not used in HG, repurposed as bitflags, then abandoned as it doesnt work for ai
 
     /* 0xE */ u8 unk[2];       /**< battle effect script to run */
 }; // size = 0x10
@@ -2362,6 +2362,7 @@ u32 GrabMegaTargetForm(u32 mon, u32 item);
 // Functions to check move flags
 BOOL isBitingMove(int move_no);
 BOOL isBallOrBombMove(int move_no);
+BOOL isHealingMove(int move_no);
 BOOL isCuttingMove(int move_no);
 BOOL isPowderMove(int move_no);
 BOOL isPulseMove(int move_no);

@@ -1322,7 +1322,8 @@ int ServerDoTypeCalcMod(void *bw UNUSED, struct BattleStruct *sp, int move_no, i
         if
         (
             (BattlePokemonParamGet(sp, sp->defence_client, BATTLE_MON_DATA_TYPE1, NULL) == TYPE_GRASS) ||
-            (BattlePokemonParamGet(sp, sp->defence_client, BATTLE_MON_DATA_TYPE2, NULL) == TYPE_GRASS)
+            (BattlePokemonParamGet(sp, sp->defence_client, BATTLE_MON_DATA_TYPE2, NULL) == TYPE_GRASS) ||
+            (MoldBreakerAbilityCheck(sp, attack_client, defence_client, ABILITY_OVERCOAT) == TRUE)
         )
         {
             flag[0] |= MOVE_STATUS_FLAG_NOT_EFFECTIVE;

@@ -53,3 +53,16 @@ The following Gen 5+ status moves are in Aurora Crystal:
 - Work Up (AI Logic: Same as Tail Glow)
 
 Toxic now looks at regular poison ai
+
+Status moves vs immunities:
+- The AI doesn't assign scores based on type calculation for all moves. It does for all attacking moves, but for status moves only certain eff_seqs get the check.
+- One of these if eff 67 (paralysis) which is why Thunder Wave correctly avoids hitting Ground-types, and why Glare/Stun Spore can end up doing the same thing when allowing access to the type calculation function.
+
+I tried a few things to get other moves to work, but...
+- Setting status to base power 1 doesn't work as it doesn't check for type effectiveness.
+- The base power 1 moves have a separate AI script that checks for type effectiveness, but it would end up replacing checks for things like abilities.
+- Setting status to base power 2 doesn't work as it then gives a -1 score to the status move for not being the top damage.
+- There doesn't seem to be any way to get the status move to check immunities but not penalize for a neutral matchup unfortunately...
+- On the bright side, the paralysis eff_seq does already factor in a type check, so I can use Stun Spore I guess? I could swap other moves to use the eff_seq, but it'll then play by the same rules as Thunder Wave (notably the speed bit and ability checks...)
+
+In the end I have protection against Stun Spore vs Grass-types/Overcoat and paralysis against Electrics in general, but that's it.

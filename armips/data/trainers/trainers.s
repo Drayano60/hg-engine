@@ -2282,7 +2282,7 @@ party 151
     move MOVE_MEGA_DRAIN
     move MOVE_ACID
     move MOVE_GROWTH
-    move MOVE_POISON_POWDER
+    move MOVE_SWEET_SCENT
     ability ABILITY_CHLOROPHYLL
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -2725,8 +2725,8 @@ party 27
     pokemon SPECIES_BELLSPROUT
     item 0
     move MOVE_RAZOR_LEAF
-    move MOVE_POISON_POWDER
     move MOVE_ACID
+    move MOVE_WRAP
     move MOVE_GROWTH
     ability ABILITY_CHLOROPHYLL
     ball ITEM_POKE_BALL
@@ -4648,7 +4648,7 @@ party 13
     item 0
     move MOVE_MEGA_DRAIN
     move MOVE_ACID
-    move MOVE_POISON_POWDER
+    move MOVE_STUN_SPORE
     move 0
     ability ABILITY_CHLOROPHYLL
     ball ITEM_POKE_BALL
@@ -5348,12 +5348,12 @@ party 21
     ivs 0
     abilityslot 0
     level LEVEL_BUGSY
-    monwithform SPECIES_VIVILLON, 5
+    monwithform SPECIES_VIVILLON, 5 /* Elegant form */
     item ITEM_SILVER_POWDER
     move MOVE_SILVER_WIND
     move MOVE_ELECTROWEB
     move MOVE_PSYBEAM
-    move MOVE_SLEEP_POWDER
+    move MOVE_STUN_SPORE
     ability ABILITY_COMPOUND_EYES
     ball ITEM_NET_BALL
     setivs 30, 30, 30, 30, 30, 30
@@ -5979,9 +5979,9 @@ party 65
     pokemon SPECIES_IVYSAUR
     item 0
     move MOVE_MAGICAL_LEAF
+    move MOVE_HEADBUTT
     move MOVE_GROWTH
     move MOVE_LEECH_SEED
-    move MOVE_SLEEP_POWDER
     ability ABILITY_OVERGROW
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -9012,8 +9012,8 @@ party 184
     item 0
     move MOVE_MEGA_DRAIN
     move MOVE_VENOSHOCK
+    move MOVE_GROWTH
     move MOVE_STUN_SPORE
-    move MOVE_SLEEP_POWDER
     ability ABILITY_CHLOROPHYLL
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
@@ -16701,7 +16701,7 @@ party 208
     move MOVE_LEAF_BLADE
     move MOVE_POISON_JAB
     move MOVE_BUG_BITE
-    move MOVE_POISON_POWDER
+    move MOVE_STUN_SPORE
     ability ABILITY_CHLOROPHYLL
     ball ITEM_POKE_BALL
     setivs 20, 20, 20, 20, 20, 20
@@ -29647,7 +29647,7 @@ party 245
     move MOVE_LEAF_STORM
     move MOVE_PSYCHIC
     move MOVE_EARTHQUAKE
-    move MOVE_SLEEP_POWDER
+    move MOVE_STUN_SPORE
     ability ABILITY_HARVEST
     ball ITEM_POKE_BALL
     setivs 30, 30, 30, 30, 30, 30

@@ -100,6 +100,7 @@ NPCs:
 2127 - Heracross trade in Mt Silver
 2128 - TM86 gift in Ilex Forest
 2129 - Enables Johto Leader Rematches
+2130 - Soothe Bell gift in Violet.
 
 --- These are unused now ---
 2120* - Brock visible

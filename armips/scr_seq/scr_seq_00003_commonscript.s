@@ -1762,6 +1762,7 @@ scr_seq_0003_073:
     call_if_set FLAG_SYS_FLYPOINT_CINNABAR, _CinnabarOpt
     call_if_set FLAG_SYS_FLYPOINT_ECRUTEAK, _EcruteakOpt
     call_if_set FLAG_SYS_FLYPOINT_FUCHSIA, _FuchsiaOpt
+    call_if_set FLAG_SYS_FLYPOINT_GOLDENROD, _GoldenrodOpt
     call_if_set FLAG_SYS_FLYPOINT_INDIGO, _IndigoOpt
     call_if_set FLAG_SYS_FLYPOINT_LAKE_OF_RAGE, _LakeOfRageOpt
     call_if_set FLAG_SYS_FLYPOINT_LAVENDER, _LavenderOpt
@@ -1772,18 +1773,16 @@ scr_seq_0003_073:
     call_if_set FLAG_SYS_FLYPOINT_PALLET, _PalletOpt
     call_if_set FLAG_SYS_FLYPOINT_PEWTER, _PewterOpt
     call_if_set FLAG_SYS_FLYPOINT_POKEATHLON, _PokeathlonOpt
-    // AddListOption 245, 255, 20 (Rock Tunnel)
     call_if_set FLAG_SYS_FLYPOINT_SAFARI, _SafariOpt
     call_if_set FLAG_SYS_FLYPOINT_SAFFRON, _SaffronOpt
-    // AddListOption 248, 255, 23 (Union Cave)
     call_if_set FLAG_SYS_FLYPOINT_VERMILION, _VermilionOpt
     call_if_set FLAG_SYS_FLYPOINT_VICTORY_ROAD, _VictoryRoadOpt
     call_if_set FLAG_SYS_FLYPOINT_VIOLET, _VioletOpt
     call_if_set FLAG_SYS_FLYPOINT_VIRIDIAN, _ViridianOpt
-    AddListOption 253, 255, 28
+    AddListOption 253, 255, 27
     ShowList
     closemsg
-    compare VAR_SPECIAL_RESULT, 28
+    compare VAR_SPECIAL_RESULT, 27
     call_if_lt _WarpPlayer
     releaseall
     end
@@ -1828,44 +1827,48 @@ _FuchsiaOpt:
     AddListOption 234, 255, 9
     Return
 
+_GoldenrodOpt:
+    AddListOption 224, 255, 10
+    Return
+
 _IndigoOpt:
-    AddListOption 235, 255, 10
+    AddListOption 235, 255, 11
     Return
 
 _LakeOfRageOpt:
-    AddListOption 236, 255, 11
+    AddListOption 236, 255, 12
     Return
 
 _LavenderOpt:
-    AddListOption 237, 255, 12
+    AddListOption 237, 255, 13
     Return
 
 _MahoganyOpt:
-    AddListOption 238, 255, 13
+    AddListOption 238, 255, 14
     Return
 
 _MtSilverOpt:
-    AddListOption 239, 255, 14
+    AddListOption 239, 255, 15
     Return
 
 _NewBarkOpt:
-    AddListOption 240, 255, 15
+    AddListOption 240, 255, 16
     Return
 
 _OlivineOpt:
-    AddListOption 241, 255, 16
+    AddListOption 241, 255, 17
     Return
 
 _PalletOpt:
-    AddListOption 242, 255, 17
+    AddListOption 242, 255, 18
     Return
 
 _PewterOpt:
-    AddListOption 243, 255, 18
+    AddListOption 243, 255, 19
     Return
 
 _PokeathlonOpt:
-    AddListOption 244, 255, 19
+    AddListOption 244, 255, 20
     Return
 
 _SafariOpt:
@@ -1877,19 +1880,19 @@ _SaffronOpt:
     Return
 
 _VermilionOpt:
-    AddListOption 249, 255, 24
+    AddListOption 249, 255, 23
     Return
 
 _VictoryRoadOpt:
-    AddListOption 250, 255, 25
+    AddListOption 250, 255, 24
     Return
 
 _VioletOpt:
-    AddListOption 251, 255, 26
+    AddListOption 251, 255, 25
     Return
 
 _ViridianOpt:
-    AddListOption 252, 255, 27
+    AddListOption 252, 255, 26
     Return
 
 _WarpPlayer:
@@ -1906,22 +1909,23 @@ _WarpPlayer:
     case 7, _CinnabarWarp
     case 8, _EcruteakWarp
     case 9, _FuchsiaWarp
-    case 10, _IndigoWarp
-    case 11, _LakeOfRageWarp
-    case 12, _LavenderWarp
-    case 13, _MahoganyWarp
-    case 14, _MtSilverWarp
-    case 15, _NewBarkWarp
-    case 16, _OlivineWarp
-    case 17, _PalletWarp
-    case 18, _PewterWarp
-    case 19, _PokeathlonWarp
+    case 10, _GoldenrodWarp
+    case 11, _IndigoWarp
+    case 12, _LakeOfRageWarp
+    case 13, _LavenderWarp
+    case 14, _MahoganyWarp
+    case 15, _MtSilverWarp
+    case 16, _NewBarkWarp
+    case 17, _OlivineWarp
+    case 18, _PalletWarp
+    case 19, _PewterWarp
+    case 20, _PokeathlonWarp
     case 21, _SafariWarp
     case 22, _SaffronWarp
-    case 24, _VermilionWarp
-    case 25, _VictoryRoadWarp
-    case 26, _VioletWarp
-    case 27, _ViridianWarp
+    case 23, _VermilionWarp
+    case 24, _VictoryRoadWarp
+    case 25, _VioletWarp
+    case 26, _ViridianWarp
     goto _EndWarp
 
 _AzaleaWarp:
@@ -1962,6 +1966,10 @@ _EcruteakWarp:
 
 _FuchsiaWarp:
     Warp 56, 0, 1209, 440, 1
+    goto _EndWarp
+
+_GoldenrodWarp:
+    Warp 76, 0, 352, 369, 1
     goto _EndWarp
 
 _IndigoWarp:

@@ -76,6 +76,8 @@ Violet City
 ✓ Modified the trade to be any Grass-type in exchange for a Rhyhorn.
 ✓ Changed the secondary mart to point to Cherrygrove's instead, as the Violet one is repurposed for the herb seller.
 ✓ The old man with the Abra now appears just outside Sprout Tower, and gives you a Teleport Gem which enables the fast travel by pressing START.
+✓ Added a Maid in the Pokémon Center who mentions the counters at the back (as they're probably easy to miss otherwise).
+✓ Added a new NPC in the house with the trade that gives you a Soothe Bell.
 - Added an NPC and an Eevee in the Pokémon Center who asks you what she should evolve her Eevee into. Picking a specific Eeveelution will make the Mystery Stone always evolve Eevee into the chosen one. Then removed it later.
 
 Sprout Tower
@@ -257,6 +259,7 @@ National Park
 ✓ Pokémon caught in the BCC now list their location as "Bug-Catching Contest". Normal encounters still say "National Park".
 ✓ The BCC uses the Tuesday National Dex settings (though the encounters are changed). The prizes have been modified at the script level (Script File 151) to reroll if it picks a Shiny/Dusk/Dawn Stone and to give an Ice Stone if it rolls the Oval Stone, and give a Silver Powder if it would give a Sitrus Berry.
 ✓ The first time you compete in the BCC, you receive TM32 Leech Life.
+✓ Soothe Bell -> Shed Shell.
 ✓ Shiny Stone -> TM53 Energy Ball.
 ✓ Erika shows up here after defeating Team Rocket at the Safari Zone. She gives you TM19 Giga Drain.
 ✓ When entering the Bug-Catching Contest, the portable PC/fast travel is disabled. It's re-enabled after leaving (checked manual retire, no balls yet and leaving on foot).
@@ -657,7 +660,7 @@ Miscellaneous
 ✓✓ Surf/Waterfall have additional changes in ovl_1 because of the moves needing to be in the party to interact with the relevant tiles.
 ✓✓ Rock Climb also has a change to something in the arm9 to allow it to be used with the Mineral Badge instead of the Earth Badge.
 
-✓ Added common scripts for use in the Pokémon Center. (Referred to as 9018, 9019, 9020 ingame.) They're used on a Waiter, Maid and Waiter respectively (OW 59 and OW 60).
+✓ Added common scripts for use in the Pokémon Center. (Referred to as 9018, 9019, 9020 ingame.) They're used on a Waiter, Maid and Waiter respectively (OW 59 and OW 60). They are different counters for configuring your Pokémon, that become available when you reach Violet City.
 
 ✓✓ One script handles changing things about Pokémon, including move tutors, move reminding, move deletion, nicknaming and checking Hidden Power. The move tutors use Script File 2 still but it's been somewhat adapted.
 

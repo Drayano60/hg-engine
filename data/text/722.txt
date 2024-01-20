@@ -136,7 +136,7 @@ Halves the Pokémon’s\nweight.
 Reduces damage by 50%\nwhen HP is full.
 Powers up physical moves\nby 50% when poisoned.
 Powers up special moves\nby 50% when burned.
-May create another Berry\nafter one is used.
+May create another Berry\nor Herb after one is used.
 Anticipates an ally’s\nattack and dodges it.
 Every turn, raises one\nstat and lowers another.
 Prevents weather damage\nand powder effects.

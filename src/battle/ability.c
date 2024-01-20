@@ -1573,7 +1573,8 @@ u32 TurnEndAbilityCheck(void *bw, struct BattleStruct *sp, int client_no)
             break;
         case ABILITY_HARVEST:
             if ((sp->battlemon[client_no].hp)
-             && IS_ITEM_BERRY(sp->recycle_item[client_no])
+            // AC change: also allow herbs
+             && (IS_ITEM_BERRY(sp->recycle_item[client_no]) || (sp->recycle_item[client_no] == ITEM_WHITE_HERB) || (sp->recycle_item[client_no] == ITEM_POWER_HERB) || (sp->recycle_item[client_no] == ITEM_MENTAL_HERB))
              && ((BattleRand(bw) % 2 == 0) // 50% chance
               // OR sun is active + abilities are not fucking it
               || ((CheckSideAbility(bw, sp, CHECK_ABILITY_ALL_HP, 0, ABILITY_CLOUD_NINE) == 0)
@@ -1583,6 +1584,7 @@ u32 TurnEndAbilityCheck(void *bw, struct BattleStruct *sp, int client_no)
                 sp->item_work = sp->recycle_item[client_no];
                 sp->recycle_item[client_no] = 0;
                 sp->battlemon[client_no].item = sp->item_work;
+                sp->client_work = client_no;
                 seq_no = SUB_SEQ_HANDLE_HARVEST;
                 ret = TRUE;
             }

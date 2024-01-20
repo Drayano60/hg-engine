@@ -75,6 +75,7 @@ Violet City
 ✓ Added an item ball containing a Miracle Seed.
 ✓ Modified the trade to be any Grass-type in exchange for a Rhyhorn.
 ✓ Changed the secondary mart to point to Cherrygrove's instead, as the Violet one is repurposed for the herb seller.
+✓ The old man with the Abra now appears just outside Sprout Tower, and gives you a Teleport Gem which enables the fast travel by pressing START.
 - Added an NPC and an Eevee in the Pokémon Center who asks you what she should evolve her Eevee into. Picking a specific Eeveelution will make the Mystery Stone always evolve Eevee into the chosen one. Then removed it later.
 
 Sprout Tower

@@ -851,13 +851,14 @@
 // Custom
 #define ITEM_MYSTERY_STONE      (ITEM_PIXIE_PLATE + 208) // 792
 #define ITEM_FAIRY_FEATHER      (ITEM_PIXIE_PLATE + 209) // 793
+#define ITEM_TELEPORT_GEM       (ITEM_PIXIE_PLATE + 210) // 794
 
 #define NUM_MEGA_STONES 48 // includes the pixie plate
 
 #define NUM_UNKNOWN_SLOTS 22 // used to adjust in data/itemdata.c
 #define NUM_UNKNOWN_SLOTS_EXPLORER_KIT (NUM_UNKNOWN_SLOTS+1) // used to adjust in data/itemdata.c
 
-#define NEW_ITEM_MAX ITEM_FAIRY_FEATHER
+#define NEW_ITEM_MAX ITEM_TELEPORT_GEM
 
 #define BAG_SLOT_QUANTITY_MAX                    999
 #define BAG_TMHM_QUANTITY_MAX                     99

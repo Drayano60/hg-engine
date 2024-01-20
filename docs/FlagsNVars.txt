@@ -57,7 +57,7 @@ NPCs:
 2164 - Expert Belt gift in the Lighthouse.
 2165 - After speaking to the lady in Route 36's gatehouse.
 2166 - Odd Egg received.
-2167 - Teleporter NPC spoken to.
+2167 - Teleporter NPC spoken to. -> Teleport Gym received.
 2168 - Loaded Dice gift in Goldenrod Game Corner. 
 2169 - Covert Cloak gift in Mahogany Mart.
 2170 - Heart Scale gift on Route 34.
@@ -207,7 +207,7 @@ Triggers:
 16690/3 - Used for script blocking exit to Mt. Mortar until Kimono Girl is found
 16690/4 - Used for Ice Path Rocket/Eusine event.
 16690/5 - Used for Cianwood Gym block until Eusine is beaten.
-16690/6 - ??
+16690/6 - Used for the Teleport Gem gift in front of Sprout Tower. (This is actually the second one!)
 16690/7 - ??
 16690/8 - ??
 16690/9 - Cliff Edge Gate, Ethan/Lyra battle.

@@ -88,6 +88,7 @@ scrdef scr_seq_0003_071
 scrdef scr_seq_0003_072
 scrdef scr_seq_0003_073
 scrdef scr_seq_0003_074
+scrdef scr_seq_0003_075
 scrdef_end
 
 scr_seq_0003_002:
@@ -760,15 +761,10 @@ scr_seq_0003_010:
     lockall
     play_se SEQ_SE_DP_PC_ON
     call _PCAnimations
-    goto_if_set 0x18F, _PortablePC
     buffer_players_name 0
     npc_msg 33
     touchscreen_menu_hide
     goto _0A2E
-
-_PortablePC:
-    touchscreen_menu_hide
-    goto  _0B01
 
 _0A18:
     scrcmd_500 90
@@ -2046,5 +2042,11 @@ scr_seq_0003_074:
     closemsg
     releaseall
     end
+
+scr_seq_0003_075:
+    scrcmd_609
+    lockall
+    touchscreen_menu_hide
+    goto _0B01
 
 .close

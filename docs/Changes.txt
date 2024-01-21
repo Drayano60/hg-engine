@@ -563,7 +563,7 @@ Dragon's Den
 ✓ Dragon Fang -> TM90 Scale Shot.
 ✓ The Twins are replaced with a Double Team, with dialogue referencing Dragon's Den (the TV Show).
 ✓ Clair's dialogue in the shrine is edited to remove the obedience part.
-✓ The Elder now offers you a choice of one of six Dragon-types (Dratini, Trapinch, Bagon, Gible, Deino or Goomy) if spoken to after receiving the Dragon Pulse TM. If you never gave a wrong answer to the Elder's quiz, the Pokémon has a guaranteed Hidden Ability.
+✓ The Elder's Dratini gift is now Lv. 20 and always knows the move Barrier. Answering the Elder's quiz correctly means it's also a forced shiny.
 ✓ One of the old man has been yeeted and his dialogue added to the other old man's. In his place is an old woman who can teach a Pokémon Dragon Dance.
 ✓ The call from Elm that occurs after leaving Dragon's Den now mentions Mega Evolution.
 

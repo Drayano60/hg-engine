@@ -1989,6 +1989,23 @@ void LONG_CALL CreateBoxMonData(struct BoxPokemon *boxmon, int species, int leve
         id=0;
     }
 
+    // Force a shiny PID when this flag is set.
+    if (CheckScriptFlag(2612) == 1) {
+        struct PLAYERDATA *saveData = SaveBlock2_get();
+        struct PlayerProfile *profile = Sav2_PlayerData_GetProfileAddr(saveData);
+
+        u32 otid = *(u32*)&profile->id;
+        u32 pid = (gf_rand() | (gf_rand() << 16));
+
+        do {
+            pid = (gf_rand() | (gf_rand() << 16));
+        } while ((((otid & 0xffff000) >> 16) ^ (otid & 0xffff) ^ ((pid & 0xffff0000) >> 16) ^ (pid & 0xffff)) >= 8); // Can be >= 80 with the higher rate but this works too
+
+        SetBoxMonData(boxmon, MON_DATA_PERSONALITY, &pid);
+
+        ClearScriptFlag(2612);
+    }
+
     // this function or AddWildPartyPokemon could both get here first
     // and since both functions will initialize the moveset,
     // we need the form to be set correctly in either case

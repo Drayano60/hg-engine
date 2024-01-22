@@ -19282,7 +19282,7 @@ party 33
     setevs 0, 0, 0, 0, 0, 0
     nature NATURE_ADAMANT
     shinylock 0
-    ballseal 3
+    ballseal 11
 endparty
 
 /******************************************** Route 43 ********************************************/
@@ -22199,7 +22199,7 @@ party 32
     setevs 0, 0, 0, 0, 0, 0
     nature NATURE_JOLLY
     shinylock 0
-    ballseal 0
+    ballseal 3
 endparty
 
 /******************************************** Ice Path - Lower Floors ********************************************/

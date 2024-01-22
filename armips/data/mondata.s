@@ -3365,7 +3365,7 @@ mondata SPECIES_KABUTO, "Kabuto"
     mondexweight SPECIES_KABUTO, "25.4 lbs."
 
 
-// ABILITY: Sharpness (HA)
+// ABILITY: Sharpness (2)
 mondata SPECIES_KABUTOPS, "Kabutops"
     basestats 60, 115, 105, 80, 65, 70
     types TYPE_ROCK, TYPE_WATER
@@ -3378,7 +3378,11 @@ mondata SPECIES_KABUTOPS, "Kabutops"
     basefriendship 70 // raised up again
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_WATER_3
-    abilities ABILITY_SWIFT_SWIM, ABILITY_BATTLE_ARMOR
+    .if ABILITY_CHANGES_IMPLEMENTED
+        abilities ABILITY_SWIFT_SWIM, ABILITY_SHARPNESS
+    .else
+        abilities ABILITY_SWIFT_SWIM, ABILITY_BATTLE_ARMOR
+    .endif
     runchance 25
     colorflip BODY_COLOR_BROWN, 0
     mondexentry SPECIES_KABUTOPS, "In the water, it tucks in its limbs\nto become more compact, then it\nwiggles its shell to swim fast."
@@ -4348,7 +4352,7 @@ mondata SPECIES_FLAAFFY, "Flaaffy"
 
 // STATS: 85 >> 95 Def | 115 >> 125 SpAtk | 90 >> 100 SpDef | 55 >> 45 Speed | 510 >> 530 BST
 // TYPES: Electric >> Electric/Dragon
-// ABILITY: Illuminate (2), Mold Breaker (HA)
+// ABILITY: Illuminate (2), Dazzling (HA)
 mondata SPECIES_AMPHAROS, "Ampharos"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 90, 75, 95, 45, 125, 100

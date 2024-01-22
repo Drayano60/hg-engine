@@ -7,7 +7,7 @@ Introduction
 ✓ Flags 283, 284, 285 and 286 are set just below the running shoes, giving the player access to the Bag, Trainer Card, Save and Options buttons on the bottom screen.
 
 New Bark Town - Player's House
-✓ The mother's dialogue is changed a bit. She now gives you the Bicycle, GB Sounds and Pokégear (Flag 156). The Pokégear is also auto-fitted with the Map Card (UpgradePokegear 1) and Radio Card (UpgradePokegear 2).
+✓ The mother's dialogue is changed a bit. She now gives you the Bicycle, GB Sounds and Pokégear (Flag 156). The Pokégear is also auto-fitted with the Map Card (UpgradePokegear 1) and Radio Card (UpgradePokegear 2). Flag 280 is also set to allow the radio signal to work in Kanto too (which immediately resolves the power outage problems in Kanto).
 ✓ Mom's dialogue after getting your starter is also modified a bit as the flag is set earlier.
 ✓ Changed the Wii into a "cheat assistant" that the player can activate to do certain things in lieu of PKHeX not working. There are options to generate Pokémon encounters, maximize the party's friendship, get 995 of Rare Candies/Master Balls/Heart Scales/Max Repels/various medicine items/PP Maxes/vitamins, get maximum money or coins, guarantee captures and reset starter gifts.
 
@@ -20,6 +20,7 @@ New Bark Town
 
 Elm Pokémon Lab
 ✓ The area is now called "Elm Pokémon Lab" instead of "New Bark Town" for Nuzlocke purposes.
+✓ Elm now gives you his phone number immediately instead of outside the lab afterwards, saving a bit of time.
 
 Route 29
 ✓ The two Cut trees have been moved out of bounds.
@@ -95,6 +96,7 @@ Violet City - Gym
 ✓ Added two new Trainers using Mickey (63, 87). Set flags for these after beating Falkner.
 ✓ Updated Falkner's dialogue because of obedience/TM mechanic changes.
 ✓ After receiving the Key Stone, Falkner can be challenged to a rematch where he will award you with the Pidgeotite if you win. He can be rematched for no reward each time you enter the area.
+✓ There's a level script activated after clearing Sprout Tower where the Gym Guide explains a couple things about the Trainers (higher IVs, held items, more use of Gen 5+ Pokemon).
 
 Route 36
 ✓ Split the route into West/East. Added grass to the east of Sudowoodo.
@@ -112,6 +114,7 @@ Ruins of Alph
 ✓ Changed the Hyper Potion at the top left to a Rare Bone, giving the player a fossil of their choice for free.
 ✓ Added a Ruin Maniac Trainer using a Mickey (105).
 ✓ Heal Powder -> TM16, Energy Root -> TM33 behind LIGHT door.
+✓ Oran/Pecha Berry -> Energy Root/Revival Herb behind ESCAPE door.
 
 Ruins Research Center
 ✓ This is the building inside the Ruins of Alph, which now has its own header name.
@@ -244,7 +247,7 @@ Goldenrod Tunnel
 
 Global Terminal
 ✓ Removed all the existing NPCs and added new ones with dialogue to match the Global Terminal's new regional form purpose instead of the GTS it was before.
-✓ Changed the monitors on the ground floor to have a new script that lets you exchange a Pokémon for a regional species. There's a monitor each for Alola, Galar, Hisui and Paldea. Each one pops open a menu that lets you select the base form for the distinct regional form evolutionary line, and then you can exchange the regular form of that Pokémon to get the regional form.
+✓ Changed the monitors on the ground floor to have a new script that lets you exchange a Pokémon for a regional species. There's a monitor each for Alola, Galar, Hisui and Paldea. Each one pops open a menu that lets you select the base form for the distinct regional form evolutionary line, and then you can exchange the regular form of that Pokémon to get the regional form. (Basculin being an exception where either the Red-Striped or Blue-Striped form qualify.)
 ✓ For the Pokémon that are normal forms but evolve into regional forms, applying the evolution condition while inside the Global Terminal results in the regional form. (This is done through the hg-engine project.)
 ✓ Blocked off the teleporters to the upper floors.
 

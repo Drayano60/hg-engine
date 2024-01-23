@@ -2517,6 +2517,7 @@ levelup SPECIES_DODUO
     learnset MOVE_THRASH, 44
     learnset MOVE_SWORDS_DANCE, 48
     learnset MOVE_BRAVE_BIRD, 52
+    learnset MOVE_DOUBLE_EDGE, 56
     terminatelearnset
 
 // NEW: Double Kick
@@ -2544,6 +2545,7 @@ levelup SPECIES_DODRIO
     learnset MOVE_THRASH, 47
     learnset MOVE_SWORDS_DANCE, 51
     learnset MOVE_BRAVE_BIRD, 55
+    learnset MOVE_DOUBLE_EDGE, 59
     terminatelearnset
 
 // NEW: Belly Drum, Wave Crash

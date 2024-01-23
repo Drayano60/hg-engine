@@ -24921,7 +24921,6 @@ mondata SPECIES_MEGA_AMPHAROS, "-----"
     
 
 // STATS: 125 >> 135 Atk | 95 >> 105 SpDef | 610 >> 630 BST
-// ABILITY: Sheer Force (1)
 mondata SPECIES_MEGA_STEELIX, "-----"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 75, 135, 230, 30, 55, 105
@@ -24938,11 +24937,7 @@ mondata SPECIES_MEGA_STEELIX, "-----"
     basefriendship 70 // raised up again
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MINERAL, EGG_GROUP_MINERAL
-    .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_SHEER_FORCE, ABILITY_NONE
-    .else
-        abilities ABILITY_SAND_FORCE, ABILITY_NONE
-    .endif
+    abilities ABILITY_SAND_FORCE, ABILITY_NONE
     runchance 25
     colorflip 0, 0
 

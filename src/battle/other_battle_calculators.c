@@ -1513,6 +1513,10 @@ int ServerDoTypeCalcMod(void *bw UNUSED, struct BattleStruct *sp, int move_no, i
         }
     }
 
+    // This lets the AI know Poltergeist does no damage on an itemless Pokémon.
+    if (move_no == MOVE_POLTERGEIST && sp->battlemon[defence_client].item == 0) {
+        damage = 0;
+    }
 
     /*  Code that sets damage against immunity abilities to 1, encouraging the AI to avoid moves that would go into it. 
         The AI already has checks for Water Absorb, Volt Absorb, Motor Drive, Flash Fire, Wonder Guard and Levitate so these aren't included.
@@ -1538,7 +1542,7 @@ int ServerDoTypeCalcMod(void *bw UNUSED, struct BattleStruct *sp, int move_no, i
         ((defenderAbility == ABILITY_ARMOR_TAIL || defenderAbility == ABILITY_DAZZLING || defenderAbility == ABILITY_QUEENLY_MAJESTY) && (adjustedMoveHasPositivePriority(sp, attack_client)))
     )
     {
-        damage = 1;
+        damage = 0;
     }
 
     return damage;

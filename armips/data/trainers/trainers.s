@@ -30693,7 +30693,7 @@ party 718
     move MOVE_KNOCK_OFF
     move MOVE_IRON_HEAD
     move MOVE_BULLET_PUNCH
-    ability ITEM_ROSELI_BERRY
+    ability ABILITY_IRON_FIST
     ball ITEM_LEVEL_BALL
     setivs 30, 30, 30, 30, 30, 30
     setevs 0, 0, 0, 0, 0, 0

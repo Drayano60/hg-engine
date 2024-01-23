@@ -120,7 +120,7 @@ ClearEnemyRightSubstitute:
     changevar VAR_OP_SET, VAR_MOVE_TEMP2, MOVE_SUBSTITUTE
     gotosubscript 172
 TidyUpMsg:
-    printmessage 1606, 0x2, 0x7, "NaN", "NaN", "NaN", "NaN", "NaN"
+    printmessage 1606, TAG_NONE, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
     waitmessage
     wait 0x1E
 StatIncrease:

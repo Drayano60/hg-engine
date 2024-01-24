@@ -37,7 +37,7 @@ mondata SPECIES_NONE, "-----"
     mondexweight SPECIES_NONE, "????.? lbs."
 
 
-// ABILITY: Chlorophyll (2)
+// ABILITY: Solar Power (2)
 mondata SPECIES_BULBASAUR, "Bulbasaur"
     basestats 45, 49, 49, 45, 65, 65
     types TYPE_GRASS, TYPE_POISON
@@ -63,7 +63,7 @@ mondata SPECIES_BULBASAUR, "Bulbasaur"
     mondexweight SPECIES_BULBASAUR, "15.2 lbs."
 
 
-// ABILITY: Chlorophyll (2)
+// ABILITY: Solar Power (2)
 mondata SPECIES_IVYSAUR, "Ivysaur"
     basestats 60, 62, 63, 60, 80, 80
     types TYPE_GRASS, TYPE_POISON
@@ -90,7 +90,7 @@ mondata SPECIES_IVYSAUR, "Ivysaur"
 
 
 // STATS: 83 >> 93 Def | 525 >> 535 BST
-// ABILITY: Chlorophyll (2)
+// ABILITY: Solar Power (2)
 mondata SPECIES_VENUSAUR, "Venusaur"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 80, 82, 93, 80, 100, 100
@@ -13280,6 +13280,7 @@ mondata SPECIES_VICTINI, "Victini"
 
 
 // STATS: 63 >> 65 Speed | 308 >> 310 BST
+// ABILITY: Shed Skin (2)
 mondata SPECIES_SNIVY, "Snivy"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 45, 45, 55, 65, 45, 55
@@ -13310,6 +13311,7 @@ mondata SPECIES_SNIVY, "Snivy"
 
 
 // STATS: 83 >> 85 Speed | 413 >> 415 BST
+// ABILITY: Shed Skin (2)
 mondata SPECIES_SERVINE, "Servine"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 60, 60, 75, 85, 60, 75
@@ -13340,6 +13342,7 @@ mondata SPECIES_SERVINE, "Servine"
 
 // STATS: 75 >> 80 HP | 113 >> 115 Speed | 528 >> 535 BST
 // TYPES: Grass >> Grass/Dragon
+// ABILITY: Shed Skin (2)
 mondata SPECIES_SERPERIOR, "Serperior"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 80, 75, 95, 115, 75, 95
@@ -13374,6 +13377,7 @@ mondata SPECIES_SERPERIOR, "Serperior"
 
 
 // STATS: 63 >> 65 Atk | 308 >> 310 BST
+// ABILITY: Gluttony (2)
 mondata SPECIES_TEPIG, "Tepig"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 65, 65, 45, 45, 45, 45
@@ -13405,6 +13409,7 @@ mondata SPECIES_TEPIG, "Tepig"
 
 // STATS: 93 >> 95 Atk | 418 >> 420 BST
 // TYPES: Fire/Fighting >> Fire/Ground
+// ABILITY: Gluttony (2)
 mondata SPECIES_PIGNITE, "Pignite"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 90, 95, 55, 55, 70, 55
@@ -13442,6 +13447,7 @@ mondata SPECIES_PIGNITE, "Pignite"
 
 // STATS: 123 >> 130 Atk | 65 >> 75 Def | 100 >> 80 SpAtk | 65 >> 75 SpDef | 528 >> 535 BST
 // TYPES: Fire/Fighting >> Fire/Ground
+// ABILITY: Gluttony (2)
 mondata SPECIES_EMBOAR, "Emboar"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 110, 130, 75, 65, 80, 75

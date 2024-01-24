@@ -97,6 +97,7 @@ Violet City - Gym
 ✓ Updated Falkner's dialogue because of obedience/TM mechanic changes.
 ✓ After receiving the Key Stone, Falkner can be challenged to a rematch where he will award you with the Pidgeotite if you win. He can be rematched for no reward each time you enter the area.
 ✓ There's a level script activated after clearing Sprout Tower where the Gym Guide explains a couple things about the Trainers (higher IVs, held items, more use of Gen 5+ Pokemon).
+✓ Falkner no longer disappears from the Gym.
 
 Route 36
 ✓ Split the route into West/East. Added grass to the east of Sudowoodo.
@@ -184,6 +185,7 @@ Azalea Town - Gym
 ✓ Modified Bugsy's dialogue a bit.
 ✓ After receiving the Key Stone, Bugsy can be challenged to a rematch where he will award you with the Scizorite if you win. He can be rematched for no reward each time you enter the area.
 ✓ Defeating Bugsy now activates the Azalea Silver fight.
+✓ Bugsy no longer disappears from the Gym.
 
 Ilex Forest
 ✓ Shifted all of the triggers/overworlds involving the Farfetch'd thing to the bottom left, out of bounds. Annoying to do on replays.
@@ -277,6 +279,7 @@ Goldenrod City - Gym
 ✓ Added two new Trainers, a Hiker (168) and an Ace Trainer (169) using Mickeys.
 ✓ Changed Whitney's dialogue a little bit to reflect new event order.
 ✓ After receiving the Key Stone, Whitney can be challenged to a rematch where she will award you with the Lopunnite if you win. She can be rematched for no reward each time you enter the area.
+✓ Whitney no longer disappears from the Gym.
 
 Route 37
 ✓ Added a green apricorn tree.
@@ -357,6 +360,7 @@ Ecruteak City - Gym
 ✓ Modified Morty's dialogue to remove the obedience bit.
 ✓ After receiving the Key Stone, Morty can be challenged to a rematch where he will award you with the Gengarite if you win. He can be rematched for no reward each time you enter the area.
 ✓ Added two new Sage Trainers using Mickeys (504, 506).
+✓ Morty no longer disappears from the Gym.
 
 Union Cave (B2F)
 ✓ Forced some of the trainers to get things (Lapras/items).
@@ -415,6 +419,7 @@ Cianwood City - Gym
 ✓ Chuck now awards TM08, Bulk Up instead.
 ✓ After exiting the Gym and receiving HM02 Fly, Baoba calls you at this point and activates the Rocket events. (This is done using Script 7 in Cianwood City.) (Unlike the Olivine one, this does not set variable 0x40A5 at all.)
 ✓ After receiving the Key Stone, Chuck can be challenged to a rematch where he will award you with the Medichamite if you win. He can be rematched for no reward each time you enter the area.
+✓ Chuck no longer disappears from the Gym.
 
 Cliff Edge Gate
 ✓ Added an item ball with the Rocky Helmet.
@@ -471,6 +476,7 @@ Olivine City - Gym
 ✓ Jasmine now mentions the Lake of Rage after being beaten to give the player some direction. The mention about Lv. 70 Pokémon obedience is removed, and some text is added to say that the badge now enables the use of Rock Climb outside of battle.
 ✓ After receiving the Key Stone, Jasmine can be challenged to a rematch where she will award you with the Steelixite if you win. She can be rematched for no reward each time you enter the area.
 ✓✓ The way the above is scripted currently prevents the Steelix trade from occurring.
+✓ Jasmine no longer disappears from the Gym after returning from the Lighthouse.
 
 Route 43
 ✓ Rearranged some Trainers to force some.
@@ -505,6 +511,7 @@ Mahogany Town - Gym
 ✓ After receiving the Key Stone, Pryce can be challenged to a rematch where he will award you with the Abomasite if you win. He can be rematched for no reward each time you enter the area.
 ✓ Defeating Pryce the first time now triggers the Mahogany shop to reopen (instead of it being defeating Team Rocket at the Radio Tower).
 ✓ Elm's call after leaving the Gym now briefly mentions Mega Evolution, as a setup for later when he gives you the Key Stone.
+✓ Pryce no longer disappears from the Gym.
 
 Whirl Islands
 ✓ Ultra Ball -> Dragon Scale. Carbos -> Damp Rock. Escape Rope -> Ultra Ball.
@@ -561,6 +568,7 @@ Blackthorn City
 Blackthorn City - Gym
 ✓ Gym guide now mentions Fairy Pokémon.
 ✓ After receiving the Key Stone, Clair can be challenged to a rematch where she will award you with the Altarianite if you win. She can be rematched for no reward each time you enter the area.
+✓ Clair no longer disappears from the Gym.
 
 Dragon's Den
 ✓ Dragon Fang -> TM90 Scale Shot.

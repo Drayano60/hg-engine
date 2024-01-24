@@ -30636,7 +30636,7 @@ party 715
     shinylock 0
     ballseal 0
 
-    ivs 0
+    ivs 1 // Make male
     abilityslot 0
     level LEVEL_JOHTO_LEADER_REMATCH+2
     pokemon SPECIES_GENGAR

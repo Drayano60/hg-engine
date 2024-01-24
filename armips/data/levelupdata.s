@@ -5542,15 +5542,10 @@ levelup SPECIES_FLAAFFY
 
 // NEW: Tail Glow
 levelup SPECIES_AMPHAROS
-
-    .if TYPE_CHANGES_IMPLEMENTED
-        learnset MOVE_THUNDER_PUNCH, 1
-    .else
-        learnset MOVE_DRAGON_PULSE, 1
-    .endif
-
+    learnset MOVE_DRAGON_PULSE, 1
     learnset MOVE_DAZZLING_GLEAM, 1
     learnset MOVE_FIRE_PUNCH, 1
+    learnset MOVE_FLASH, 1
     learnset MOVE_ZAP_CANNON, 1
     learnset MOVE_TACKLE, 1
     learnset MOVE_GROWL, 1
@@ -5562,13 +5557,7 @@ levelup SPECIES_AMPHAROS
     learnset MOVE_CHARGE_BEAM, 20
     learnset MOVE_CONFUSE_RAY, 24
     learnset MOVE_TAKE_DOWN, 28
-
-    .if TYPE_CHANGES_IMPLEMENTED
-        learnset MOVE_DRAGON_PULSE, 30
-    .else
-        learnset MOVE_THUNDER_PUNCH, 30
-    .endif
-
+    learnset MOVE_THUNDER_PUNCH, 30
     learnset MOVE_DISCHARGE, 35
     learnset MOVE_POWER_GEM, 40
     learnset MOVE_SIGNAL_BEAM, 45
@@ -12672,7 +12661,40 @@ levelup SPECIES_BAD_EGG
     learnset MOVE_SPLASH, 1 
     terminatelearnset
 
+// Level up moves are added here to balance out the ones added by type changes (makes optional patches smaller/easier).
+// Used this particular slot as it doesnt get used (I think?)
+// There should be Splashes here equal to the amount of TYPE_CHANGES_IMPLEMENTED - 1
 levelup SPECIES_508
+.if TYPE_CHANGES_IMPLEMENTED
+.else
+    learnset MOVE_SPLASH, 1 
+    learnset MOVE_SPLASH, 1 
+    learnset MOVE_SPLASH, 1 
+    learnset MOVE_SPLASH, 1 
+    learnset MOVE_SPLASH, 1 
+    learnset MOVE_SPLASH, 1 
+    learnset MOVE_SPLASH, 1 
+    learnset MOVE_SPLASH, 1 
+    learnset MOVE_SPLASH, 1 
+    learnset MOVE_SPLASH, 1 
+    learnset MOVE_SPLASH, 1 
+    learnset MOVE_SPLASH, 1 
+    learnset MOVE_SPLASH, 1 
+    learnset MOVE_SPLASH, 1 
+    learnset MOVE_SPLASH, 1 
+    learnset MOVE_SPLASH, 1 
+    learnset MOVE_SPLASH, 1 
+    learnset MOVE_SPLASH, 1 
+    learnset MOVE_SPLASH, 1 
+    learnset MOVE_SPLASH, 1 
+    learnset MOVE_SPLASH, 1 
+    learnset MOVE_SPLASH, 1 
+    learnset MOVE_SPLASH, 1 
+    learnset MOVE_SPLASH, 1 
+    learnset MOVE_SPLASH, 1 
+    learnset MOVE_SPLASH, 1 
+    learnset MOVE_SPLASH, 1
+.endif
     terminatelearnset
 
 levelup SPECIES_509
@@ -21984,13 +22006,7 @@ levelup SPECIES_MEGA_MEWTWO_Y
     terminatelearnset
 
 levelup SPECIES_MEGA_AMPHAROS
-
-    .if TYPE_CHANGES_IMPLEMENTED
-        learnset MOVE_THUNDER_PUNCH, 1
-    .else
-        learnset MOVE_DRAGON_PULSE, 1
-    .endif
-
+    learnset MOVE_DRAGON_PULSE, 1
     learnset MOVE_DAZZLING_GLEAM, 1
     learnset MOVE_FIRE_PUNCH, 1
     learnset MOVE_FLASH, 1
@@ -22005,13 +22021,7 @@ levelup SPECIES_MEGA_AMPHAROS
     learnset MOVE_CHARGE_BEAM, 20
     learnset MOVE_CONFUSE_RAY, 24
     learnset MOVE_TAKE_DOWN, 28
-
-    .if TYPE_CHANGES_IMPLEMENTED
-        learnset MOVE_DRAGON_PULSE, 30
-    .else
-        learnset MOVE_THUNDER_PUNCH, 30
-    .endif
-
+    learnset MOVE_THUNDER_PUNCH, 30
     learnset MOVE_DISCHARGE, 35
     learnset MOVE_POWER_GEM, 40
     learnset MOVE_SIGNAL_BEAM, 45

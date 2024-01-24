@@ -184,7 +184,7 @@ Blocks priority moves used\nagainst it or its ally.
 Halves damage on contact.\nDoubles Fire damage taken.
 Normal-type moves become\nElectric and do 20% more.
 Sound-based moves become\nWater and do 20% more.
-Moves will never make\ncontact with the target.
+Boosts critical-hit ratio.\nMoves don’t make contact.
 Attacks on poisoned foes\nbecome critical hits.
 Blocks priority moves used\nagainst it or its ally.
 Doubles the Pokémon’s\nSpeed stat in a hailstorm.

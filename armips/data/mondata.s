@@ -9889,11 +9889,11 @@ mondata SPECIES_LUXIO, "Luxio"
     mondexweight SPECIES_LUXIO, "67.2 lbs."
 
 
-// STATS: 95 >> 75 SpAtk | 70 >> 90 Speed
+// STATS: 95 >> 70 SpAtk | 70 >> 95 Speed
 // TYPES: Electric >> Electric/Dark
 mondata SPECIES_LUXRAY, "Luxray"
     .if STAT_CHANGES_IMPLEMENTED
-        basestats 80, 120, 79, 90, 75, 79
+        basestats 80, 120, 79, 95, 70, 79
     .else
         basestats 80, 120, 79, 70, 95, 79
     .endif
@@ -18266,8 +18266,13 @@ mondata SPECIES_DARTRIX, "Dartrix"
     mondexweight SPECIES_DARTRIX, "35.3 lbs."
 
 
+// STATS: 100 >> 90 SpAtk | 100 >> 90 SpDef | 70 >> 95 Speed | 530 >> 535 BST
 mondata SPECIES_DECIDUEYE, "Decidueye"
-    basestats 78, 107, 75, 70, 100, 100
+    .if STAT_CHANGES_IMPLEMENTED
+        basestats 78, 107, 75, 95, 90, 90
+    .else
+        basestats 78, 107, 75, 70, 100, 100
+    .endif
     types TYPE_GRASS, TYPE_GHOST
     catchrate 45
     baseexp 0 // defined in baseexp.s
@@ -18329,8 +18334,13 @@ mondata SPECIES_TORRACAT, "Torracat"
     mondexweight SPECIES_TORRACAT, "55.1 lbs."
 
 
+// STATS: 95 >> 100 HP | 530 >> 535 BST (Does not need this but patterns)
 mondata SPECIES_INCINEROAR, "Incineroar"
-    basestats 95, 115, 90, 60, 80, 90
+    .if STAT_CHANGES_IMPLEMENTED
+        basestats 100, 115, 90, 60, 80, 90
+    .else
+        basestats 95, 115, 90, 60, 80, 90
+    .endif
     types TYPE_FIRE, TYPE_DARK
     catchrate 45
     baseexp 0 // defined in baseexp.s
@@ -18392,8 +18402,13 @@ mondata SPECIES_BRIONNE, "Brionne"
     mondexweight SPECIES_BRIONNE, "38.6 lbs."
 
 
+// STATS: 116 >> 121 SpDef | 530 >> 535 BST
 mondata SPECIES_PRIMARINA, "Primarina"
-    basestats 80, 74, 74, 60, 126, 116
+    .if STAT_CHANGES_IMPLEMENTED
+        basestats 80, 74, 74, 60, 126, 121
+    .else
+        basestats 80, 74, 74, 60, 126, 116
+    .endif
     types TYPE_WATER, TYPE_FAIRY
     catchrate 45
     baseexp 0 // defined in baseexp.s
@@ -29159,8 +29174,13 @@ mondata SPECIES_AVALUGG_HISUIAN, "-----"
     colorflip BODY_COLOR_BLUE, 0
     
 
+// STATS: 95 >> 80 SpAtk | 95 >> 80 SpDef | 60 >> 95 Speed
 mondata SPECIES_DECIDUEYE_HISUIAN, "-----"
-    basestats 88, 112, 80, 60, 95, 95
+    .if STAT_CHANGES_IMPLEMENTED
+        basestats 88, 112, 80, 95, 80, 80
+    .else
+        basestats 88, 112, 80, 60, 95, 95
+    .endif
     types TYPE_GRASS, TYPE_FIGHTING
     catchrate 55
     baseexp 239

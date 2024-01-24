@@ -211,6 +211,7 @@ Powers up ball and bomb\nmoves by 50%.
 Ups sound moves by 20%.\nHalves damage from them.
 Powers up moves used by\nallies by 20%.
 Doubles the power of its\nsound-based moves.
+Powers up Grass-type\nmoves by 50%.
 The Pokémon’s fur stops\nit taking recoil damage.
 Boosts Sp. Atk if a foe is\nKOed with a Fire move.
 Powers up Fairy-type\nmoves by 50%.

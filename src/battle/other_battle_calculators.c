@@ -1042,13 +1042,13 @@ int CalcCritical(void *bw, struct BattleStruct *sp, int attacker, int defender, 
 
     // Move eff for Frost Breath and Storm Throw sets the critical_count to 15 explicitly.
     // Handles Merciless here too.
-    // Custom Savage Rend check here too, checks for if target has acted already this turn or has just switched in this turn
+    // Custom Savage Rend check here too, checks for if target has acted already this turn or has just switched in this turn (disabled afterwards)
     if
     (
         BattleRand(bw) % CriticalRateTable[temp] == 0
         || critical_count == 15
         || (ability == ABILITY_MERCILESS && (condition & STATUS_POISON_ANY))
-        || (sp->current_move_index == MOVE_SAVAGE_REND && (sp->client_act_work[defender][0] != 40 || sp->battlemon[defender].moveeffect.fakeOutCount == (sp->total_turn + 1)))
+        // || (sp->current_move_index == MOVE_SAVAGE_REND && (sp->client_act_work[defender][0] != 40 || sp->battlemon[defender].moveeffect.fakeOutCount == (sp->total_turn + 1)))
     )
     {
         if ((MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_BATTLE_ARMOR) == FALSE)

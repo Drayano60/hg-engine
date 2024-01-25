@@ -15408,7 +15408,7 @@ movedata MOVE_INFERNAL_BLAST, "Infernal Blast"
 movedata MOVE_SAVAGE_REND, "Savage Rend"
     battleeffect 31
     pss SPLIT_PHYSICAL
-    basepower 85
+    basepower 80
     type TYPE_WATER
     accuracy 100
     pp 10

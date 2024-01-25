@@ -4184,7 +4184,7 @@ rocksmashrate 0
 oldrodrate FISHING_RATE
 goodrodrate FISHING_RATE
 superrodrate FISHING_RATE
-walklevels 48, 50, 48, 50, 48, 50, 48, 50, 48, 50, 48, 50
+walklevels 53, 53, 54, 54, 54, 54, 54, 54, 54, 54, 54, 54
 
 // morning encounter slots
 pokemon SPECIES_DITTO
@@ -4195,8 +4195,8 @@ pokemon SPECIES_FARFETCHD
 pokemon SPECIES_FARFETCHD
 pokemon SPECIES_MILTANK
 pokemon SPECIES_MILTANK
-pokemon SPECIES_GOLDUCK
-pokemon SPECIES_GOLDUCK
+pokemon SPECIES_ALTARIA
+pokemon SPECIES_ALTARIA
 pokemon SPECIES_TROPIUS
 pokemon SPECIES_TROPIUS
 
@@ -4209,28 +4209,28 @@ pokemon SPECIES_FARFETCHD
 pokemon SPECIES_FARFETCHD
 pokemon SPECIES_MILTANK
 pokemon SPECIES_MILTANK
-pokemon SPECIES_GOLDUCK
-pokemon SPECIES_GOLDUCK
+pokemon SPECIES_ALTARIA
+pokemon SPECIES_ALTARIA
 pokemon SPECIES_TROPIUS
 pokemon SPECIES_TROPIUS
 
 // night encounter slots
 pokemon SPECIES_DITTO
 pokemon SPECIES_DITTO
-pokemon SPECIES_RATICATE
-pokemon SPECIES_RATICATE
 pokemon SPECIES_NOCTOWL
 pokemon SPECIES_NOCTOWL
+pokemon SPECIES_RATICATE
+pokemon SPECIES_RATICATE
 pokemon SPECIES_MILTANK
 pokemon SPECIES_MILTANK
-pokemon SPECIES_GOLDUCK
-pokemon SPECIES_GOLDUCK
+pokemon SPECIES_ALTARIA
+pokemon SPECIES_ALTARIA
 pokemon SPECIES_TROPIUS
 pokemon SPECIES_TROPIUS
 
 // hoenn encounter slots
 pokemon SPECIES_AUDINO
-pokemon SPECIES_AUDINO
+pokemon SPECIES_MIENSHAO
 
 // sinnoh encounter slots
 pokemon SPECIES_NONE
@@ -5434,7 +5434,7 @@ rocksmashrate 0
 oldrodrate FISHING_RATE
 goodrodrate FISHING_RATE
 superrodrate FISHING_RATE
-walklevels 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50, 50
+walklevels 53, 53, 53, 53, 54, 54, 54, 54, 54, 54, 54, 54
 
 // morning encounter slots
 pokemon SPECIES_GOLBAT
@@ -5487,22 +5487,22 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_SEAKING, 50, 50
-encounter SPECIES_AZUMARILL, 50, 50
-encounter SPECIES_AZUMARILL, 50, 50
-encounter SPECIES_AZUMARILL, 50, 50
-encounter SPECIES_SEAKING, 50, 50
+encounter SPECIES_SEAKING, 53, 55
+encounter SPECIES_AZUMARILL, 53, 55
+encounter SPECIES_AZUMARILL, 53, 55
+encounter SPECIES_AZUMARILL, 53, 55
+encounter SPECIES_SEAKING, 53, 55
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 5, 50
-encounter SPECIES_SEAKING, 50, 50
-encounter SPECIES_SEAKING, 50, 50
-encounter SPECIES_WHISCASH, 50, 50
-encounter SPECIES_WHISCASH, 50, 50
+encounter SPECIES_MAGIKARP, 5, 55
+encounter SPECIES_SEAKING, 53, 55
+encounter SPECIES_SEAKING, 53, 55
+encounter SPECIES_WHISCASH, 53, 55
+encounter SPECIES_WHISCASH, 53, 55
 
 // good rod encounters
 encounter SPECIES_MAGIKARP, 1, 1

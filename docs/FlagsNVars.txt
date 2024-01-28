@@ -60,10 +60,10 @@ NPCs:
 2167 - Teleporter NPC spoken to. -> Teleport Gym received.
 2168 - Loaded Dice gift in Goldenrod Game Corner. 
 2169 - Covert Cloak gift in Mahogany Mart.
-2170 - Heart Scale gift on Route 34.
-2171 - Heart Scale gift at Lake of Rage.
+2170 - Heart Scale gift on Route 34. [NOW UNUSED]
+2171 - Bottle Cap gift at Lake of Rage.
 2172 - TM60 Drain Punch gift in Olivine City.
-2173 - Heart Scale gift on Route 26.
+2173 - Heart Scale gift on Route 26. [UNUSED]
 2174 - Galarica Cuff/Crown gift in Olivine Harbour.
 
 2175* - Safari Rocket event active.
@@ -151,9 +151,9 @@ NPCs:
 2227 - Air Balloon in the Lighthouse
 2228 - Quick Powder on Route 47
 2229 - Smooth Rock on Cherrygrove City
-2230 - Heart Scale on Route 47
-2231 - Heart Scale on Route 40
-2232 - Heart Scale on Union Cave B2F
+2230 - Heart Scale on Route 47 [UNUSED]
+2231 - Heart Scale on Route 40 [UNUSED]
+2232 - Heart Scale on Union Cave B2F [Unused? Seems like I never used it in the first place]
 
 2600 - HG-e hidden ability flag.
 2601 - HG-e starter hidden ability flag.
@@ -230,5 +230,6 @@ Triggers:
 16725 (0-1) - Used for Spiky Pichu in Ilex Forest. Same again as above
 16726 (0-2) - Used for Violet Gym guide. Same again as above...
 
+16749 (0x416D) - Used by me for the Poké Credits count.
 16750 (0x416E) - Used by me for the difficulty mode.
 16751 (0x416F) - Used by HG-e for the level cap system.

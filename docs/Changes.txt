@@ -9,7 +9,7 @@ Introduction
 New Bark Town - Player's House
 ✓ The mother's dialogue is changed a bit. She now gives you the Bicycle, GB Sounds and Pokégear (Flag 156). The Pokégear is also auto-fitted with the Map Card (UpgradePokegear 1) and Radio Card (UpgradePokegear 2). Flag 280 is also set to allow the radio signal to work in Kanto too (which immediately resolves the power outage problems in Kanto).
 ✓ Mom's dialogue after getting your starter is also modified a bit as the flag is set earlier.
-✓ Changed the Wii into a "cheat assistant" that the player can activate to do certain things in lieu of PKHeX not working. There are options to generate Pokémon encounters, maximize the party's friendship, get 995 of Rare Candies/Master Balls/Heart Scales/Max Repels/various medicine items/PP Maxes/vitamins, get maximum money or coins, guarantee captures and reset starter gifts.
+✓ Changed the Wii into a "cheat assistant" that the player can activate to do certain things in lieu of PKHeX not working. There are options to generate Pokémon encounters, maximize the party's friendship, get 995 of Rare Candies/Master Balls/Max Repels/various medicine items/PP Maxes/vitamins, get maximum money or coins or Poké Credits, guarantee captures and reset starter gifts.
 
 New Bark Town
 ✓ The trigger for Elm giving you his Pokégear number as you leave town to the left has been changed to check that you've been given the starter (Flag 106) instead of checking for the Pokégear (Flag 156).
@@ -98,6 +98,7 @@ Violet City - Gym
 ✓ After receiving the Key Stone, Falkner can be challenged to a rematch where he will award you with the Pidgeotite if you win. He can be rematched for no reward each time you enter the area.
 ✓ There's a level script activated after clearing Sprout Tower where the Gym Guide explains a couple things about the Trainers (higher IVs, held items, more use of Gen 5+ Pokemon).
 ✓ Falkner no longer disappears from the Gym.
+✓ Falkner now awards you 4 Poké Credits after you earn the Zephyr Badge.
 
 Route 36
 ✓ Split the route into West/East. Added grass to the east of Sudowoodo.
@@ -143,7 +144,6 @@ Route 32
 ✓ Moved some Trainer positions.
 ✓ Added a new Ace Trainer with a Mickey (347) near the Union Cave entrance.
 ✓ Changed the TM09 to a Poison Barb.
-✓ Changed the Great Ball to a Heart Scale.
 ✓ Moved the Fisherman in the PC out of bounds as we already have a Rod.
 
 Union Cave (1F/B1F)
@@ -186,6 +186,7 @@ Azalea Town - Gym
 ✓ After receiving the Key Stone, Bugsy can be challenged to a rematch where he will award you with the Scizorite if you win. He can be rematched for no reward each time you enter the area.
 ✓ Defeating Bugsy now activates the Azalea Silver fight.
 ✓ Bugsy no longer disappears from the Gym.
+✓ Bugsy now awards you 4 Poké Credits after you earn the Hive Badge.
 
 Ilex Forest
 ✓ Shifted all of the triggers/overworlds involving the Farfetch'd thing to the bottom left, out of bounds. Annoying to do on replays.
@@ -208,9 +209,8 @@ Route 34
 ✓ Made some trainers compulsory. The policeman will now challenge you at any time of day (removed the second one that swaps out with him).
 ✓ Added an item ball with the Mystic Water.
 ✓ Added an Ethan/Lyra battle on top of the existing script. They give you an Eviolite when defeated.
-✓ The Ace Trainers now give you 3 x Heart Scales instead.
+✓ The Ace Trainers now give you an Ability Patch instead.
 ✓ The first time you talk to the Day-Care Man, he'll give you an "Odd Egg" which can be any of the baby Pokémon except for Togepi. The Pokémon will always have its hidden ability.
-✓ Added an NPC that gives you 2 x Heart Scales.
 
 Goldenrod City
 ✓ The Game Corner now uses the building from the Japanese versions but still has Voltorb Flip on the machines. It's still header 536 but with the textures/map file pointing to the old stuff.
@@ -280,6 +280,7 @@ Goldenrod City - Gym
 ✓ Changed Whitney's dialogue a little bit to reflect new event order.
 ✓ After receiving the Key Stone, Whitney can be challenged to a rematch where she will award you with the Lopunnite if you win. She can be rematched for no reward each time you enter the area.
 ✓ Whitney no longer disappears from the Gym.
+✓ Whitney now awards you 4 Poké Credits after you earn the Plain Badge.
 
 Route 37
 ✓ Added a green apricorn tree.
@@ -339,13 +340,11 @@ Ice Path
 ✓ Added an event with Eusine and Rocket Grunts. Following a battle, you get a Dawn Stone, and then the option to return to Ecruteak (where you can now progress the Burned Tower).
 ✓ The NPC blocking you until you pick up Waterfall has been removed. Waterfall itself is still there though.
 ✓ B1F now has a blockade until Pryce is defeated. (The player can thus go to Blackthorn once the Radio event starts, but can't battle Clair until after that's done).
-✓ Added an item ball on 1F containing a Heart Scale.
 ✓ TM72 -> TM13 Ice Beam. Iron -> Razor Claw.
 ✓ Added one Trainer each to B2F/B3F/B4F with Mickeys (304, 338, 340).
 ✓ Never-Melt Ice -> Icy Rock.
 ✓ When revisiting Ice Path after defeating Pryce, Will appears near the entrance and gives you TM29 Psychic.
 ✓ Added the Glalitite to B4F.
-✓ Protein on 1F -> Heart Scale and moved it to the Waterfall puzzle area.
 ✓ The boulder puzzle on the second floor is simplified heavily (I am sick of doing it every time!!).
 
 Burned Tower
@@ -361,12 +360,12 @@ Ecruteak City - Gym
 ✓ After receiving the Key Stone, Morty can be challenged to a rematch where he will award you with the Gengarite if you win. He can be rematched for no reward each time you enter the area.
 ✓ Added two new Sage Trainers using Mickeys (504, 506).
 ✓ Morty no longer disappears from the Gym.
+✓ Morty now awards you 4 Poké Credits after you earn the Fog Badge.
 
 Union Cave (B2F)
 ✓ Forced some of the trainers to get things (Lapras/items).
 ✓ Elixir -> TM69 Rock Polish. Hyper Potion -> Prism Scale.
 ✓ Lapras is now Lv. 30 and can appear every day (but can only be caught once). If it's defeated or run from, it reappears upon reentering the room.
-✓ Added an item ball containing a Heart Scale on the top left island. Moved the hidden item (Calcium?) to the rocks over to the right.
 
 Route 39
 ✓ Shifted Trainers around.
@@ -398,7 +397,6 @@ Route 40
 ✓ Added smashable rocks.
 ✓ TM88 -> TM78 Scorching Sands.
 ✓ Added an NPC to give you a Soft Sand.
-✓ Added an item ball with a Heart Scale in the grass.
 ✓ Misty shows up here after defeating Team Rocket at the Safari Zone. She gives you TM55 Scald.
 
 Route 41
@@ -420,6 +418,7 @@ Cianwood City - Gym
 ✓ After exiting the Gym and receiving HM02 Fly, Baoba calls you at this point and activates the Rocket events. (This is done using Script 7 in Cianwood City.) (Unlike the Olivine one, this does not set variable 0x40A5 at all.)
 ✓ After receiving the Key Stone, Chuck can be challenged to a rematch where he will award you with the Medichamite if you win. He can be rematched for no reward each time you enter the area.
 ✓ Chuck no longer disappears from the Gym.
+✓ Chuck now awards you 4 Poké Credits after you earn the Storm Badge.
 
 Cliff Edge Gate
 ✓ Added an item ball with the Rocky Helmet.
@@ -443,7 +442,6 @@ Route 47
 ✓ Wave Incense -> Smooth Rock.
 ✓ White Flute -> Metal Powder. Added a Quick Powder item ball next to it.
 ✓ Revive -> Sticky Barb.
-✓ Added an item ball containing a Heart Scale.
 
 Route 48
 ✓ Added a mini event as you cross the bridge with six Rocket Grunts - a reference to the Hexagon Brothers from XD. This is a 6v6 double battle. If the player does not have at least two Pokémon, they'll be turned away.
@@ -477,6 +475,7 @@ Olivine City - Gym
 ✓ After receiving the Key Stone, Jasmine can be challenged to a rematch where she will award you with the Steelixite if you win. She can be rematched for no reward each time you enter the area.
 ✓✓ The way the above is scripted currently prevents the Steelix trade from occurring.
 ✓ Jasmine no longer disappears from the Gym after returning from the Lighthouse.
+✓ Jasmine now awards you 4 Poké Credits after you earn the Mineral Badge.
 
 Route 43
 ✓ Rearranged some Trainers to force some.
@@ -492,7 +491,7 @@ Lake of Rage
 ✓ Moved Ace Trainer Alton to the right side of the lake so he's always challengeable. Moved another NPC a bit to make space.
 ✓ Added the Gyaradosite.
 ✓ Moved the Rage Candy Bar man to the house here.
-✓ Added an NPC in the house who will give you two Heart Scales.
+✓ Added an NPC in the house who will give you a Bottle Cap.
 
 Team Rocket HQ
 ✓ Guard Spec -> Dubious Disc. TM46 -> TM79 Dark Pulse. Protein -> TM36 Sludge Bomb. Ultra Ball -> Toxic Orb. X Special -> Linking Cord. TM49 -> Ultra Ball.
@@ -512,6 +511,7 @@ Mahogany Town - Gym
 ✓ Defeating Pryce the first time now triggers the Mahogany shop to reopen (instead of it being defeating Team Rocket at the Radio Tower).
 ✓ Elm's call after leaving the Gym now briefly mentions Mega Evolution, as a setup for later when he gives you the Key Stone.
 ✓ Pryce no longer disappears from the Gym.
+✓ Pryce now awards you 4 Poké Credits after you earn the Glacier Badge.
 
 Whirl Islands
 ✓ Ultra Ball -> Dragon Scale. Carbos -> Damp Rock. Escape Rope -> Ultra Ball.
@@ -577,6 +577,7 @@ Dragon's Den
 ✓ The Elder's Dratini gift is now Lv. 20 and always knows the move Barrier. Answering the Elder's quiz correctly means it's also a forced shiny.
 ✓ One of the old man has been yeeted and his dialogue added to the other old man's. In his place is an old woman who can teach a Pokémon Dragon Dance.
 ✓ The call from Elm that occurs after leaving Dragon's Den now mentions Mega Evolution.
+✓ Clair now awards you 4 Poké Credits after you earn the Rising Badge.
 
 New Bark Town - Post Gym 8
 ✓ Instead of the Master Ball, Elm now gives you (and Ethan/Lyra) the Key Stone and an Ampharosite, and some explanations of doing so.
@@ -622,7 +623,6 @@ Route 26
 ✓ The tile before you would step into Victory Road has a trigger script that results in Ethan/Lyra challenging you. This battle can be lost.
 ✓ Added a healing NPC to one of the counters before Victory Road.
 ✓ Max Elixir -> Leader's Crest.
-✓ Added a Fisherman in the healing house who gives you 50 Heart Scales (they're grindable at this point!).
 ✓ Changed Ace Trainer Gaven's post-battle dialogue to reflect Victory Road actually having Trainers now.
 
 Victory Road
@@ -680,6 +680,7 @@ Miscellaneous
 ✓✓ **THIS ISN'T USED** One script handles the new "Wonder Egg" mechanic, letting a player give up a Pokémon in exchange for an Egg which can contain any Pokémon in the game that can hatch from an Egg that's also a base form and is not a legendary (i.e. not Phione or Manaphy). Significant alt forms (Alola forms) and Basculin's blue form are added as an extra entry, whereas Frillish, Flabébé and Shellos decide their form after they get picked.
 
 ✓✓ One script handles the Supply Counter that lets the player buy Mints, Ability Capsules, training items etc. It also lets you exchange Heart Scales for Ability Patches or Bottle Caps.
+[This was changed to Poké Credits]
 
 ✓✓ One script handles the training NPC, who allows you to train up your levels (with varying Happiny line teams depending on badge count), stats (with full teams of 3 EV awarding Pokémon). It also offers a Hyper Training functionality (a Bottle Cap in exchange for setting a stat to 31 IV), a Super Training functionality (giving an instant 252 on up to two stats, and also acting as an EV eraser), and the option to apply a status condition to a Pokémon (also checking for blocking types and abilities). These last three are thanks to hg-engine allowing a script hijack. When doing the level training, the player can optionally turn on level caps so their Pokémon don't level up past the next Gym Leader/Elite Four/Red. The numbers for these are in Script File 4, Function #53.
 

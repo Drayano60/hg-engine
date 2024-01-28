@@ -89,6 +89,7 @@ scrdef scr_seq_0003_072
 scrdef scr_seq_0003_073
 scrdef scr_seq_0003_074
 scrdef scr_seq_0003_075
+scrdef scr_seq_0003_076
 scrdef_end
 
 scr_seq_0003_002:
@@ -2056,5 +2057,21 @@ scr_seq_0003_075:
     lockall
     touchscreen_menu_hide
     goto _0B01
+
+scr_seq_0003_076:
+    TextPlayerName 0
+    TextNumber 1, VAR_SPECIAL_x8004
+    PlaySound SEQ_ME_BPGET
+    npc_msg 120
+    WaitSound
+    CompareVarValue 0x416D, 65000
+    goto_if_gt _CancelCreditsInc
+    incrementVar 0x416D, VAR_SPECIAL_x8004
+    endstd
+    end
+
+_CancelCreditsInc:
+    endstd
+    end
 
 .close

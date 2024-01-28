@@ -60,6 +60,12 @@
 
 .endif
 
+.ifdef APPLY_ANTIPIRACY
+
+.include "armips/asm/antipiracy.s" // install antipiracy into the rom
+
+.endif
+
 // code addon list
 //.include "armips/data/hiddenabilities.s" // the hidden ability list, 7
 //.include "armips/data/baseexp.s" // the base experience list, 8

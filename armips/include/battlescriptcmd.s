@@ -1545,23 +1545,27 @@ MOVE_DATA_CONTEST_TYPE equ 11
     .word ((address - org()) / 4) - 1
 .endmacro
 
-.macro echoedvoicedamagecalc
+.macro setpsychicterrainmoveusedflag
     .word 0xEE
 .endmacro
 
-.macro storedpowerdamagecalc
-    .word 0xEF
-.endmacro
-
-.macro ragefistdamagecalc
-    .word 0xF0
-.endmacro
-
-.macro strengthsapcalc
+.macro echoedvoicedamagecalc
     .word 0xF1
 .endmacro
 
-.macro didTargetRaiseStat,address
+.macro storedpowerdamagecalc
     .word 0xF2
+.endmacro
+
+.macro ragefistdamagecalc
+    .word 0xF3
+.endmacro
+
+.macro strengthsapcalc
+    .word 0xF4
+.endmacro
+
+.macro didTargetRaiseStat,address
+    .word 0xF5
     .word ((address - org()) / 4) - 1
 .endmacro

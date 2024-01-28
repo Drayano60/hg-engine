@@ -10,6 +10,7 @@
 .create "build/move/battle_eff_seq/0_293", 0
 
 // Effect ID is used for Psyshock in calculator functions
+// Not anymore
 
 a030_293:
     gotosubscript 443

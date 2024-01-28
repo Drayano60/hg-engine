@@ -13,6 +13,7 @@
 // This is the one status move that works with Assault Vest
 
 a030_241:
+    setpsychicterrainmoveusedflag
     trymefirst _0024
     printattackmessage
     waitmessage

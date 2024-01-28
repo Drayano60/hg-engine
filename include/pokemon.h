@@ -1354,6 +1354,13 @@ void LONG_CALL CopyBoxPokemonToPokemon(const struct BoxPokemon *src, struct Part
  */
 int LONG_CALL GetExpByGrowthRateAndLevel(int growthrate, u32 level);
 
+/**
+ *  @brief restore the pp of a BoxPokemon's moves
+ *
+ *  @param boxMon BoxPokemon whose move power points to restore
+ */
+void LONG_CALL RestoreBoxMonPP(struct BoxPokemon *boxMon);
+
 
 #define gIconPalTable ((u8 *)(0x023D8000 + START_ADDRESS))
 

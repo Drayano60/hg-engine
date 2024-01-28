@@ -708,13 +708,15 @@ struct __attribute__((packed)) BattlePokemon
                u32 imposter_flag : 1;        /**< imposter has activated */
                u32 critical_hits : 2;        /**< tracks the amount of critical hits the pokémon has landed while in battle so far */
                u32 air_ballon_flag : 1;      /**< the held air balloon has printed its message */
-               
+               u32 potentially_affected_by_psychic_terrain_move_used_flag : 1;
+
                // Custom
                u32 text_on_ability_entry_flag : 1;  /** Used for abilities that display a msg on entry like Cloud Nine, Supreme Overlord */
                u32 echoed_voice_count : 3;          /** Used as an Echoed Voice use counter (up to 7) */
                u32 protean_flag : 1;                /** Used so Protean works once per switch-in like Gen 9 */
 
-               u32 : 6; // need to add to ClearBattleMonFlags when added to here as well
+               u32 : 5; // need to add to ClearBattleMonFlags when added to here as well
+
     /* 0x2c */ u8 pp[4];                     /**< move pp left */
     /* 0x30 */ u8 pp_count[4];               /**< move max pp */
     /* 0x34 */ u8 level;                     /**< current level */
@@ -2392,6 +2394,27 @@ BOOL CurrentMoveShouldNotBeExemptedFromPriorityBlocking(struct BattleStruct *sp,
  *  @return TRUE if seed should activate
  */
 BOOL TerrainSeedShouldActivate(struct BattleStruct *sp, u16 heldItem);
+
+/**
+ * @brief gets the actual attack and defense for damage calculation
+ * @param sp battle structure
+ * @param attackerAttack attacker's Physical Attack
+ * @param defenderDefense defender's Physical Defense
+ * @param attackerSpecialAttack attacker's Special Attack
+ * @param defenderSpecialDefense defender's Special Defense
+ * @param attackerAttackstate attacker's Physical Attack state
+ * @param defenderDefenseState defender's Physical Defense state
+ * @param attackerSpecialAttackState attacker's Special Attack state
+ * @param defenderSpecialDefenseState defender's Special Defense state
+ * @param movesplit physical or special attack
+ * @param attacker attacker number
+ * @param defender defender number
+ * @param critical critial hit or not
+ * @param moveno move number
+ * @param equivalentAttack attack number used for calculation
+ * @param equivalentDefense defense number used for calculation
+ */
+void getEquivalentAttackAndDefense(struct BattleStruct *sp, u16 attackerAttack, u16 defenderDefense, u16 attackerSpecialAttack, u16 defenderSpecialDefense, s8 attackerAttackstate, s8 defenderDefenseState, s8 attackerSpecialAttackState, s8 defenderSpecialDefenseState, u8 *movesplit, u8 attacker, u8 defender, u8 critical, int moveno, u16 *equivalentAttack, u16 *equivalentDefense);
 
 // defined in mega.c
 /**

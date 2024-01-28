@@ -14010,7 +14010,7 @@ mondata SPECIES_UNFEZANT, "Unfezant"
     baseexp 0 // defined in baseexp.s
     evyields 0, 3, 0, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
-    genderratio 127
+    genderratio 0
     eggcycles SHORT_EGG_CYCLE ? 0 : 15
     basefriendship 70 // raised up again
     growthrate GROWTH_MEDIUM_SLOW
@@ -20640,7 +20640,7 @@ mondata SPECIES_ROOKIDEE, "Rookidee"
     mondexweight SPECIES_ROOKIDEE, "4.0 lbs."
 
 
-mondata SPECIES_CORVISQUIRE, "Corvisquire"
+mondata SPECIES_CORVISQUIRE, "Corvsquire"
     basestats 68, 67, 55, 77, 43, 55
     types TYPE_FLYING, TYPE_FLYING
     catchrate 120
@@ -21786,7 +21786,7 @@ mondata SPECIES_INDEEDEE, "Indeedee"
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 2, 0
     items ITEM_NONE, ITEM_NONE
-    genderratio 127
+    genderratio 0
     eggcycles SHORT_EGG_CYCLE ? 0 : 40
     basefriendship 140
     growthrate GROWTH_FAST
@@ -22332,7 +22332,7 @@ mondata SPECIES_BASCULEGION, "Basclegion" // 10 char limit
     baseexp 0 // defined in baseexp.s
     evyields 2, 0, 0, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
-    genderratio 127
+    genderratio 0
     eggcycles SHORT_EGG_CYCLE ? 0 : 0
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST

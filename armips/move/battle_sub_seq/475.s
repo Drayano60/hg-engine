@@ -18,3 +18,5 @@ a001_475:
     waitmessage
     wait 0x1E
     endscript
+
+.close

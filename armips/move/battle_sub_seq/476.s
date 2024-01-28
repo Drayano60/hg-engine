@@ -41,3 +41,5 @@ LightScreenOpponentSide:
     gotosubscript 172
 End:
     endscript
+
+.close

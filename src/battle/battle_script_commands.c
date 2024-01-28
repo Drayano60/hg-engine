@@ -62,12 +62,13 @@ BOOL btl_scr_cmd_EA_ifcontactmove(void *bw, struct BattleStruct *sp);
 BOOL btl_scr_cmd_EB_ifsoundmove(void *bw, struct BattleStruct *sp);
 BOOL btl_scr_cmd_EC_updateterrainoverlay(void *bw, struct BattleStruct *sp);
 BOOL btl_scr_cmd_ED_ifterrainoverlayistype(void *bw, struct BattleStruct *sp);
+BOOL btl_scr_cmd_EE_setpsychicterrainmoveusedflag(void *bw, struct BattleStruct *sp);
 
-BOOL btl_scr_cmd_EE_echoedvoicedamagecalc(void *bw, struct BattleStruct *sp);
-BOOL btl_scr_cmd_EF_storedpowerdamagecalc(void *bw, struct BattleStruct *sp);
-BOOL btl_scr_cmd_F0_ragefistdamagecalc(void *bw, struct BattleStruct *sp);
-BOOL btl_scr_cmd_F1_strengthsapcalc(void *bw, struct BattleStruct *sp);
-BOOL btl_scr_cmd_F2_didTargetRaiseStat(void *bw, struct BattleStruct *sp);
+BOOL btl_scr_cmd_F1_echoedvoicedamagecalc(void *bw, struct BattleStruct *sp);
+BOOL btl_scr_cmd_F2_storedpowerdamagecalc(void *bw, struct BattleStruct *sp);
+BOOL btl_scr_cmd_F3_ragefistdamagecalc(void *bw, struct BattleStruct *sp);
+BOOL btl_scr_cmd_F4_strengthsapcalc(void *bw, struct BattleStruct *sp);
+BOOL btl_scr_cmd_F5_didTargetRaiseStat(void *bw, struct BattleStruct *sp);
 
 u32 CalculateBallShakes(void *bw, struct BattleStruct *sp);
 u32 DealWithCriticalCaptureShakes(struct EXP_CALCULATOR *expcalc, u32 shakes);
@@ -317,6 +318,7 @@ const u8 *BattleScrCmdNames[] =
     "ifsoundmove",
     "updateterrainoverlay",
     "ifterrainoverlayistype",
+    "setpsychicterrainmoveusedflag",
 };
 
 u32 cmdAddress = 0;
@@ -338,12 +340,16 @@ const btl_scr_cmd_func NewBattleScriptCmdTable[] =
     [0xEB - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_EB_ifsoundmove,
     [0xEC - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_EC_updateterrainoverlay,
     [0xED - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_ED_ifterrainoverlayistype,
+    [0xEE - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_EE_setpsychicterrainmoveusedflag,
 
-    [0xEE - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_EE_echoedvoicedamagecalc,
-    [0xEF - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_EF_storedpowerdamagecalc,
-    [0xF0 - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_F0_ragefistdamagecalc,
-    [0xF1 - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_F1_strengthsapcalc,
-    [0xF2 - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_F2_didTargetRaiseStat
+    [0xEF - START_OF_NEW_BTL_SCR_CMDS] = 0,
+    [0xF0 - START_OF_NEW_BTL_SCR_CMDS] = 0,
+
+    [0xF1 - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_F1_echoedvoicedamagecalc,
+    [0xF2 - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_F2_storedpowerdamagecalc,
+    [0xF3 - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_F3_ragefistdamagecalc,
+    [0xF4 - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_F4_strengthsapcalc,
+    [0xF5 - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_F5_didTargetRaiseStat
 };
 
 // entries before 0xFFFE are banned for mimic and metronome--after is just banned for metronome.  table ends with 0xFFFF
@@ -2640,7 +2646,22 @@ BOOL btl_scr_cmd_ED_ifterrainoverlayistype(void *bw UNUSED, struct BattleStruct 
     return FALSE;
 }
 
-BOOL btl_scr_cmd_EE_echoedvoicedamagecalc(void *bw, struct BattleStruct *sp)
+/**
+ *  @brief script command to potentially_affected_by_psychic_terrain_move_used_flag
+ *
+ *  @param bw battle work structure
+ *  @param sp global battle structure
+ *  @return FALSE
+ */
+BOOL btl_scr_cmd_EE_setpsychicterrainmoveusedflag(void *bw UNUSED, struct BattleStruct *sp) {
+    IncrementBattleScriptPtr(sp, 1);
+
+    sp->battlemon[sp->attack_client].potentially_affected_by_psychic_terrain_move_used_flag = 1;
+
+    return FALSE;
+}
+
+BOOL btl_scr_cmd_F1_echoedvoicedamagecalc(void *bw, struct BattleStruct *sp)
 {
     IncrementBattleScriptPtr(sp, 1);
 
@@ -2653,7 +2674,7 @@ BOOL btl_scr_cmd_EE_echoedvoicedamagecalc(void *bw, struct BattleStruct *sp)
     return FALSE;
 }
 
-BOOL btl_scr_cmd_EF_storedpowerdamagecalc(void *bw, struct BattleStruct *sp)
+BOOL btl_scr_cmd_F2_storedpowerdamagecalc(void *bw, struct BattleStruct *sp)
 {
     IncrementBattleScriptPtr(sp, 1);
 
@@ -2694,7 +2715,7 @@ BOOL btl_scr_cmd_EF_storedpowerdamagecalc(void *bw, struct BattleStruct *sp)
     return FALSE;
 }
 
-BOOL btl_scr_cmd_F0_ragefistdamagecalc(void *bw, struct BattleStruct *sp) {
+BOOL btl_scr_cmd_F3_ragefistdamagecalc(void *bw, struct BattleStruct *sp) {
     IncrementBattleScriptPtr(sp, 1);
 
     // This resets on switch-out!
@@ -2715,7 +2736,7 @@ BOOL btl_scr_cmd_F0_ragefistdamagecalc(void *bw, struct BattleStruct *sp) {
 
 extern const u8 StatBoostModifiers[][2];
 
-BOOL btl_scr_cmd_F1_strengthsapcalc(void *bw, struct BattleStruct *sp) {
+BOOL btl_scr_cmd_F4_strengthsapcalc(void *bw, struct BattleStruct *sp) {
     IncrementBattleScriptPtr(sp, 1);
 
     s32 damage;
@@ -2733,7 +2754,7 @@ BOOL btl_scr_cmd_F1_strengthsapcalc(void *bw, struct BattleStruct *sp) {
     return FALSE;
 }
 
-BOOL btl_scr_cmd_F2_didTargetRaiseStat(void *bw UNUSED, struct BattleStruct *sp) {
+BOOL btl_scr_cmd_F5_didTargetRaiseStat(void *bw UNUSED, struct BattleStruct *sp) {
     IncrementBattleScriptPtr(sp, 1);
 
     int address = read_battle_script_param(sp);

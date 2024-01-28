@@ -43,3 +43,5 @@ _GiratinaGriseousOrbCheck:
 _MegaStoneCheck:
     ifmonstat IF_LESSTHAN, BATTLER_DEFENDER, MON_DATA_ITEM, ITEM_PIXIE_PLATE, _End              // Item must be a Mega Stone if index is also lower than Pixie Plate
     goto _Return3
+
+.close

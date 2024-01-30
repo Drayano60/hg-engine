@@ -314,7 +314,7 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
     // Handle Foul Play + Body Press
     switch (moveno) {
         case MOVE_FOUL_PLAY:
-            atkstate = BattlePokemonParamGet(sp, defender, BATTLE_MON_DATA_ATK, NULL) - 6;
+            atkstate = BattlePokemonParamGet(sp, defender, BATTLE_MON_DATA_STATE_ATK, NULL) - 6;
             break;      
 
         case MOVE_BODY_PRESS:

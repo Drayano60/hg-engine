@@ -327,11 +327,12 @@ levelup SPECIES_PIDGEOTTO
     learnset MOVE_BRAVE_BIRD, 53
     terminatelearnset
 
-// NEW: Tri Attack
+// NEW: Tri Attack, Vacuum Wave
 levelup SPECIES_PIDGEOT
     learnset MOVE_DEFOG, 1
     learnset MOVE_HEAT_WAVE, 1
     learnset MOVE_TRI_ATTACK, 1
+    learnset MOVE_VACUUM_WAVE, 1
     learnset MOVE_WHIRLWIND, 1
     learnset MOVE_TWISTER, 1
     learnset MOVE_TACKLE, 1
@@ -21770,6 +21771,7 @@ levelup SPECIES_MEGA_PIDGEOT
     learnset MOVE_DEFOG, 1
     learnset MOVE_HEAT_WAVE, 1
     learnset MOVE_TRI_ATTACK, 1
+    learnset MOVE_VACUUM_WAVE, 1
     learnset MOVE_WHIRLWIND, 1
     learnset MOVE_TWISTER, 1
     learnset MOVE_TACKLE, 1

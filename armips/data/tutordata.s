@@ -2914,13 +2914,21 @@ tutordata SPECIES_VANILLUXE,\
 TUTOR_MOVE_ICY_WIND | TUTOR_MOVE_WATER_PULSE | TUTOR_MOVE_CHILLING_WATER,\
 TUTOR_MOVE_HYPER_VOICE | TUTOR_MOVE_SIGNAL_BEAM | TUTOR_MOVE_ICE_SPINNER
 
-tutordata SPECIES_DEERLING,\
-TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_MAGICAL_LEAF | TUTOR_MOVE_TRAILBLAZE,\
-TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_PLAY_ROUGH | TUTOR_MOVE_WILD_CHARGE
+SPECIES_DEERLING_TUTOR_DATA_1 equ TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_MAGICAL_LEAF | TUTOR_MOVE_TRAILBLAZE
+SPECIES_DEERLING_TUTOR_DATA_2 equ TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_PLAY_ROUGH | TUTOR_MOVE_WILD_CHARGE
 
-tutordata SPECIES_SAWSBUCK,\
-TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_MAGICAL_LEAF | TUTOR_MOVE_TRAILBLAZE,\
-TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_MEGAHORN | TUTOR_MOVE_PLAY_ROUGH | TUTOR_MOVE_WILD_CHARGE
+tutordata SPECIES_DEERLING, SPECIES_DEERLING_TUTOR_DATA_1, SPECIES_DEERLING_TUTOR_DATA_2
+tutordata SPECIES_DEERLING_SUMMER, SPECIES_DEERLING_TUTOR_DATA_1, SPECIES_DEERLING_TUTOR_DATA_2
+tutordata SPECIES_DEERLING_AUTUMN, SPECIES_DEERLING_TUTOR_DATA_1, SPECIES_DEERLING_TUTOR_DATA_2
+tutordata SPECIES_DEERLING_WINTER, SPECIES_DEERLING_TUTOR_DATA_1, SPECIES_DEERLING_TUTOR_DATA_2
+
+SPECIES_SAWSBUCK_TUTOR_DATA_1 equ TUTOR_MOVE_BULLDOZE | TUTOR_MOVE_HEADBUTT | TUTOR_MOVE_MAGICAL_LEAF | TUTOR_MOVE_TRAILBLAZE
+SPECIES_SAWSBUCK_TUTOR_DATA_2 equ TUTOR_MOVE_SEED_BOMB | TUTOR_MOVE_ZEN_HEADBUTT | TUTOR_MOVE_MEGAHORN | TUTOR_MOVE_PLAY_ROUGH | TUTOR_MOVE_WILD_CHARGE
+
+tutordata SPECIES_SAWSBUCK, SPECIES_SAWSBUCK_TUTOR_DATA_1, SPECIES_SAWSBUCK_TUTOR_DATA_2
+tutordata SPECIES_SAWSBUCK_SUMMER, SPECIES_SAWSBUCK_TUTOR_DATA_1, SPECIES_SAWSBUCK_TUTOR_DATA_2
+tutordata SPECIES_SAWSBUCK_AUTUMN, SPECIES_SAWSBUCK_TUTOR_DATA_1, SPECIES_SAWSBUCK_TUTOR_DATA_2
+tutordata SPECIES_SAWSBUCK_WINTER, SPECIES_SAWSBUCK_TUTOR_DATA_1, SPECIES_SAWSBUCK_TUTOR_DATA_2
 
 tutordata SPECIES_EMOLGA,\
 TUTOR_MOVE_ELECTROWEB | TUTOR_MOVE_SHOCK_WAVE | TUTOR_MOVE_DUAL_WINGBEAT,\
@@ -7722,72 +7730,6 @@ tutordata SPECIES_DARMANITAN_ZEN_MODE, \
 
 
 tutordata SPECIES_DARMANITAN_ZEN_MODE_GALARIAN, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_DEERLING_SUMMER, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_DEERLING_AUTUMN, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_DEERLING_WINTER, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_SAWSBUCK_SUMMER, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_SAWSBUCK_AUTUMN, \
-                  \
-                  \
-                  \
-                  0, \
-                  \
-                  \
-                  \
-                  0
-
-
-tutordata SPECIES_SAWSBUCK_WINTER, \
                   \
                   \
                   \

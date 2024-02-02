@@ -3939,7 +3939,7 @@ mondata SPECIES_SENTRET, "Sentret"
 
 
 // STATS: 76 >> 81 Attack | 55 >> 60 SpDef | 90 >> 100 Speed | 415 >> 435 BST
-// ABILITY: Hustle (HA)
+// ABILITY: Adaptability (HA)
 mondata SPECIES_FURRET, "Furret"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 85, 81, 64, 100, 45, 60

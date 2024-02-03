@@ -101,6 +101,7 @@ NPCs:
 2128 - TM86 gift in Ilex Forest
 2129 - Enables Johto Leader Rematches
 2130 - Soothe Bell gift in Violet.
+2131 - Sailor guard on SS Aqua
 
 --- These are unused now ---
 2120* - Brock visible

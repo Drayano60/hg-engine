@@ -646,6 +646,9 @@ Indigo Plateau
 ✓ Added a trade in the lobby next to the Poké Mart for a Carbink in exchange for any Ghost-type.
 ✓ Upon entry, a flag is set to disable the use of the portable PC. This is cleared upon any loss in the E4 or during the walk up to Lance.
 
+S.S. Aqua
+✓ On the initial voyage, there's now a Sailor in front of the Captain's room that needs to be fought before you can enter.
+
 Celadon City
 ✓ Changed Dept Store 2F shops to #23 and #4 as #18 and #19 are repurposed. Selection is similar but reduced amount of healing items.
 ✓ Changed Dept Store 3F to sell the basic evolutionary stones instead of TMs. Changed references to 3F TM Shop to 3F Stone Emporium.

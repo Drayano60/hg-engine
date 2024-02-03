@@ -3661,6 +3661,9 @@ _Trainer840:
 _Trainer841:
     trainertextentry 841, TEXT_DEFEATED_IN_BATTLE, "My Pokémon weren’t weak.\nIt must be me..."
 
+_Trainer842:
+    trainertextentry 842, TEXT_DEFEATED_IN_BATTLE, "No! My worldly Pokémon!\n"
+
 .close
 
 
@@ -4509,5 +4512,6 @@ _Trainer841:
 /* Trainer 839 */ .halfword _0000
 /* Trainer 840 */ .halfword _Trainer840
 /* Trainer 841 */ .halfword _Trainer841
+/* Trainer 842 */ .halfword _Trainer842
 
 .close

@@ -287,44 +287,31 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
     u16 item;
     u32 battle_type;
 
-
     struct sDamageCalc AttackingMon;
     struct sDamageCalc DefendingMon;
 
-    // Handle Foul Play + Body Press
-    // Psyshock etc are handled in getEquivalentAttackAndDefense
     switch (moveno) {
+        // Handle Foul Play - Attack is derived from the target's Attack
         case MOVE_FOUL_PLAY:
             attack = BattlePokemonParamGet(sp, defender, BATTLE_MON_DATA_ATK, NULL);
+            atkstate = BattlePokemonParamGet(sp, defender, BATTLE_MON_DATA_STATE_ATK, NULL) - 6;
             break;
 
+        // Handle Body Press - Attack is derived from Defense
         case MOVE_BODY_PRESS:
             attack = BattlePokemonParamGet(sp, attacker, BATTLE_MON_DATA_DEF, NULL);
+            atkstate = BattlePokemonParamGet(sp, attacker, BATTLE_MON_DATA_STATE_DEF, NULL) - 6;
             break;
 
         default:
             attack = BattlePokemonParamGet(sp, attacker, BATTLE_MON_DATA_ATK, NULL);
+            atkstate = BattlePokemonParamGet(sp, attacker, BATTLE_MON_DATA_STATE_ATK, NULL) - 6;
             break;
     }
 
     defense = BattlePokemonParamGet(sp, defender, BATTLE_MON_DATA_DEF, NULL);
     sp_attack = BattlePokemonParamGet(sp, attacker, BATTLE_MON_DATA_SPATK, NULL);
     sp_defense = BattlePokemonParamGet(sp, defender, BATTLE_MON_DATA_SPDEF, NULL);
-
-    // Handle Foul Play + Body Press
-    switch (moveno) {
-        case MOVE_FOUL_PLAY:
-            atkstate = BattlePokemonParamGet(sp, defender, BATTLE_MON_DATA_STATE_ATK, NULL) - 6;
-            break;      
-
-        case MOVE_BODY_PRESS:
-            atkstate = BattlePokemonParamGet(sp, attacker, BATTLE_MON_DATA_STATE_DEF, NULL) - 6;
-            break;
-
-        default:
-            atkstate = BattlePokemonParamGet(sp, attacker, BATTLE_MON_DATA_STATE_ATK, NULL) - 6;
-            break;
-    }
 
     defstate = BattlePokemonParamGet(sp, defender, BATTLE_MON_DATA_STATE_DEF, NULL) - 6;
     spatkstate = BattlePokemonParamGet(sp, attacker, BATTLE_MON_DATA_STATE_SPATK, NULL) - 6;

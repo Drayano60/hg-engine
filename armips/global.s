@@ -47,6 +47,9 @@
 .include "armips/asm/custom/metronome_counter.s"
 .include "armips/asm/custom/conditional_music.s"
 .include "armips/asm/custom/server_type_check.s"
+// .include "armips/data/starters.s" // data definitions for which species to use for the starter Pokemon
+
+.if REUSABLE_TMS == 1
 
 .if REUSABLE_TMS == 1 // Using my own as my TM file also includes the move changes
 .include "armips/asm/tm.s" // make tms infinite

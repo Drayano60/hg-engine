@@ -523,5 +523,18 @@ BOOL LONG_CALL AddWildPartyPokemon(int inTarget, EncounterInfo *encounterInfo, s
         ResetPartyPokemonAbility(encounterPartyPokemon);
         InitBoxMonMoveset(&encounterPartyPokemon->box);
     }
+
+    // Used for giving Explosion to Rocket HQ traps
+    if (CheckScriptFlag(28)) {
+        u16 move = MOVE_EXPLOSION;
+        u8 pp = 5;
+
+        SetMonData(encounterPartyPokemon, MON_DATA_MOVE1, &move);
+        SetMonData(encounterPartyPokemon, MON_DATA_MOVE1PP, &pp);
+        SetMonData(encounterPartyPokemon, MON_DATA_MOVE1MAXPP, &pp);
+
+        ClearScriptFlag(28);
+    }
+
     return PokeParty_Add(encounterBattleParam->poke_party[inTarget], encounterPartyPokemon);
 }

@@ -41,6 +41,9 @@
     } \
 }
 
+#define GLOBAL_TERMINAL_HEADER_ID 207
+#define FRIENDSHIP_EVOLUTION_THRESHOLD 160
+
 /**
  *  @brief get the evolution species for a pokemon.  generalized depending on context
  *         also set form depending on the evolution structure read from armips/data/evodata.s
@@ -81,6 +84,53 @@ u16 GetMonEvolutionInternal(struct Party *party, struct PartyPokemon *pokemon, u
         return SPECIES_NONE;
     }
 
+    /*
+    Not used
+    // Handle stone introduced that evolves Eevee randomly (but can be set)
+    // Helps to avoid Gym 2 Togekiss etc
+    if (species == SPECIES_EEVEE && usedItem == ITEM_MYSTERY_STONE) {
+        int flag1 = CheckScriptFlag(2604) == 1;
+        int flag2 = CheckScriptFlag(2605) == 1;
+        int flag3 = CheckScriptFlag(2606) == 1;
+        int flag4 = CheckScriptFlag(2607) == 1;
+
+        int isNothingForced = !flag1 && !flag2 && !flag3 && !flag4; // 0, 0, 0, 0
+        int isVaporeonForced = flag1 && !flag2 && !flag3 && !flag4; // 1, 0, 0, 0
+        int isJolteonForced = !flag1 && flag2 && !flag3 && !flag4; // 0, 1, 0, 0
+        int isFlareonForced = !flag1 && !flag2 && flag3 && !flag4; // 0, 0, 1, 0
+        int isEspeonForced = !flag1 && !flag2 && !flag3 && flag4; // 0, 0, 0, 1
+        int isUmbreonForced = flag1 && flag2 && !flag3 && !flag4; // 1, 1, 0, 0
+        int isLeafeonForced = flag1 && !flag2 && flag3 && !flag4; // 1, 0, 1, 0
+        int isGlaceonForced = flag1 && !flag2 && !flag3 && flag4; // 1, 0, 0, 1
+        int isSylveonForced = flag1 && flag2 && flag3 && !flag4; // 1, 1, 1, 0
+
+        if (isNothingForced) {
+            int r = gf_rand() % 8;
+
+            if (r == 0) { return SPECIES_VAPOREON; };
+            if (r == 1) { return SPECIES_JOLTEON; };
+            if (r == 2) { return SPECIES_FLAREON; };
+            if (r == 3) { return SPECIES_ESPEON; };
+            if (r == 4) { return SPECIES_UMBREON; };
+            if (r == 5) { return SPECIES_LEAFEON; };
+            if (r == 6) { return SPECIES_GLACEON; };
+            if (r == 7) { return SPECIES_SYLVEON; };
+        } else {
+            if (isVaporeonForced) { return SPECIES_VAPOREON; };
+            if (isJolteonForced) { return SPECIES_JOLTEON; };
+            if (isFlareonForced) { return SPECIES_FLAREON; };
+            if (isEspeonForced) { return SPECIES_ESPEON; };
+            if (isUmbreonForced) { return SPECIES_UMBREON; };
+            if (isLeafeonForced) { return SPECIES_LEAFEON; };
+            if (isGlaceonForced) { return SPECIES_GLACEON; };
+            if (isSylveonForced) { return SPECIES_SYLVEON; };
+        }
+
+        // Default case, shouldn't happen though
+        return SPECIES_VAPOREON;
+    }
+    */
+
     // Spiky-ear Pichu cannot evolve
     if (species == SPECIES_PICHU && form == 1) {
         return SPECIES_NONE;
@@ -95,6 +145,8 @@ u16 GetMonEvolutionInternal(struct Party *party, struct PartyPokemon *pokemon, u
     evoTable = sys_AllocMemory(3, MAX_EVOS_PER_POKE * sizeof(struct Evolution));
     ArchiveDataLoad(evoTable, ARC_EVOLUTIONS, species);
 
+    u32 location = gFieldSysPtr->location->mapId;
+
     switch (context) {
     case EVOCTX_LEVELUP:
         level = (u8)GetMonData(pokemon, MON_DATA_LEVEL, NULL);
@@ -104,25 +156,31 @@ u16 GetMonEvolutionInternal(struct Party *party, struct PartyPokemon *pokemon, u
             case EVO_NONE:
                 break;
             case EVO_FRIENDSHIP:
-                if (friendship >= 220) {
+                if (friendship >= FRIENDSHIP_EVOLUTION_THRESHOLD) {
                     GET_TARGET_AND_SET_FORM;
                     *method_ret = EVO_FRIENDSHIP;
                 }
                 break;
             case EVO_FRIENDSHIP_DAY:
-                if (IsNighttime() == 0 && friendship >= 220) {
+                if (IsNighttime() == 0 && friendship >= FRIENDSHIP_EVOLUTION_THRESHOLD) {
                     GET_TARGET_AND_SET_FORM;
                     *method_ret = EVO_FRIENDSHIP_DAY;
                 }
                 break;
             case EVO_FRIENDSHIP_NIGHT:
-                if (IsNighttime() == 1 && friendship >= 220) {
+                if (IsNighttime() == 1 && friendship >= FRIENDSHIP_EVOLUTION_THRESHOLD) {
                     GET_TARGET_AND_SET_FORM;
                     *method_ret = EVO_FRIENDSHIP_NIGHT;
                 }
                 break;
             case EVO_LEVEL:
                 if (evoTable[i].param <= level) {
+                    GET_TARGET_AND_SET_FORM;
+                    *method_ret = EVO_LEVEL;
+                }
+                break;
+            case EVO_LEVEL_GLOBAL_TERMINAL:
+                if (evoTable[i].param <= level && location == GLOBAL_TERMINAL_HEADER_ID) {
                     GET_TARGET_AND_SET_FORM;
                     *method_ret = EVO_LEVEL;
                 }
@@ -200,6 +258,18 @@ u16 GetMonEvolutionInternal(struct Party *party, struct PartyPokemon *pokemon, u
                     *method_ret = EVO_HAS_MOVE;
                 }
                 break;
+            case EVO_HAS_MOVE_GLOBAL_TERMINAL:
+                if ((MonHasMove(pokemon, evoTable[i].param) == TRUE) && (location == GLOBAL_TERMINAL_HEADER_ID)) {
+                    GET_TARGET_AND_SET_FORM;
+                    *method_ret = EVO_HAS_MOVE;
+                }
+                break;
+            case EVO_HAS_MOVE_AND_RNG:
+                if ((MonHasMove(pokemon, evoTable[i].param) == TRUE) && (gf_rand() % 10 == 0)) { // 10%
+                    GET_TARGET_AND_SET_FORM;
+                    *method_ret = EVO_HAS_MOVE;
+                }
+                break;
             case EVO_OTHER_PARTY_MON:
                 if (party != NULL && PartyHasMon(party, evoTable[i].param) == 1) {
                     GET_TARGET_AND_SET_FORM;
@@ -218,6 +288,9 @@ u16 GetMonEvolutionInternal(struct Party *party, struct PartyPokemon *pokemon, u
                     *method_ret = EVO_LEVEL_FEMALE;
                 }
                 break;
+
+            #ifdef SAVE_SPACE
+
             case EVO_CORONET: // magnetic field at route 43+kanto power plant
                 {
                     u32 location = gFieldSysPtr->location->mapId;
@@ -252,6 +325,8 @@ u16 GetMonEvolutionInternal(struct Party *party, struct PartyPokemon *pokemon, u
                 }
                 break;
 
+            #endif
+
             case EVO_LEVEL_DAY:
                 if (IsNighttime() == 0 && evoTable[i].param <= level) {
                     GET_TARGET_AND_SET_FORM;
@@ -264,6 +339,27 @@ u16 GetMonEvolutionInternal(struct Party *party, struct PartyPokemon *pokemon, u
                     *method_ret = EVO_LEVEL_NIGHT;
                 }
                 break;
+            case EVO_HAS_MOVE_TYPE:
+                {
+                    // Sylveon requires friendship
+                    if (friendship >= FRIENDSHIP_EVOLUTION_THRESHOLD) {
+                        int k;
+
+                        for (k = 0; k < 4; k++)
+                        {
+                            if (GetMoveData(GetMonData(pokemon, MON_DATA_MOVE1+k, NULL), MOVE_DATA_TYPE) == evoTable[i].param)
+                            {
+                                GET_TARGET_AND_SET_FORM;
+                                *method_ret = EVO_HAS_MOVE_TYPE;
+                                break;
+                            }
+                        }
+                    }
+                }
+                break;
+
+            #ifdef SAVE_SPACE
+
             case EVO_LEVEL_DUSK:
                 {
                     struct RTCTime time;
@@ -287,21 +383,6 @@ u16 GetMonEvolutionInternal(struct Party *party, struct PartyPokemon *pokemon, u
                     case WEATHER_SYS_THUNDER:
                         GET_TARGET_AND_SET_FORM;
                         *method_ret = EVO_LEVEL_RAIN;
-                    }
-                }
-                break;
-            case EVO_HAS_MOVE_TYPE:
-                {
-                    int k;
-
-                    for (k = 0; k < 4; k++)
-                    {
-                        if (GetMoveData(GetMonData(pokemon, MON_DATA_MOVE1+k, NULL), MOVE_DATA_TYPE) == evoTable[i].param)
-                        {
-                            GET_TARGET_AND_SET_FORM;
-                            *method_ret = EVO_HAS_MOVE_TYPE;
-                            break;
-                        }
                     }
                 }
                 break;
@@ -359,6 +440,9 @@ u16 GetMonEvolutionInternal(struct Party *party, struct PartyPokemon *pokemon, u
                     }
                 }
                 break;
+
+            #endif
+
             case EVO_AMOUNT_OF_CRITICAL_HITS: // needs to hit an amount of critical hits in a battle in one go.  need to log critical hits somewhere else
                 if (GET_MON_CRITICAL_HIT_EVOLUTION_BIT(pokemon))
                 {
@@ -377,7 +461,19 @@ u16 GetMonEvolutionInternal(struct Party *party, struct PartyPokemon *pokemon, u
                     }
                 }
                 break;
+            case EVO_HURT_IN_BATTLE_AMOUNT_FEMALE:
+                {
+                    u32 hp = GetMonData(pokemon, MON_DATA_HP, NULL), maxhp = GetMonData(pokemon, MON_DATA_MAXHP, NULL);
+                    
+                    if ((GetMonData(pokemon, MON_DATA_GENDER, NULL) == POKEMON_GENDER_FEMALE) && hp && (maxhp - hp) >= evoTable[i].param) // if the mon has evoTable[i].param hp less than its max
+                    {
+                        GET_TARGET_AND_SET_FORM;
+                        *method_ret = EVO_HURT_IN_BATTLE_AMOUNT;
+                    }
+                }
+                break;
             }
+
             if (target != SPECIES_NONE) {
                 break;
             }
@@ -410,6 +506,8 @@ u16 GetMonEvolutionInternal(struct Party *party, struct PartyPokemon *pokemon, u
         break;
     case EVOCTX_ITEM_CHECK:
     case EVOCTX_ITEM_USE:
+        u32 location = gFieldSysPtr->location->mapId;
+
         for (i = 0; i < MAX_EVOS_PER_POKE; i++) {
             if (evoTable[i].method == EVO_STONE && usedItem == evoTable[i].param) {
                 GET_TARGET_AND_SET_FORM;
@@ -422,6 +520,12 @@ u16 GetMonEvolutionInternal(struct Party *party, struct PartyPokemon *pokemon, u
                 break;
             }
             if (evoTable[i].method == EVO_STONE_FEMALE && GetMonData(pokemon, MON_DATA_GENDER, NULL) == POKEMON_GENDER_FEMALE && usedItem == evoTable[i].param) {
+                GET_TARGET_AND_SET_FORM;
+                *method_ret = 0;
+                break;
+            }
+
+            if (evoTable[i].method == EVO_ITEM_GLOBAL_TERMINAL && usedItem == evoTable[i].param && location == GLOBAL_TERMINAL_HEADER_ID) {
                 GET_TARGET_AND_SET_FORM;
                 *method_ret = 0;
                 break;

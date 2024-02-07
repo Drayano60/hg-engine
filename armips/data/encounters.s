@@ -9668,7 +9668,7 @@ encounter SPECIES_NONE, 0, 0
 encounter SPECIES_GYARADOS, KHL, KHL
 encounter SPECIES_CLOYSTER, KHL, KHL
 encounter SPECIES_STARMIE, KHL, KHL
-encounter SPECIES_KIGNLER, KHL, KHL
+encounter SPECIES_KINGLER, KHL, KHL
 encounter SPECIES_SEADRA, KHL, KHL
 
 // good rod encounters

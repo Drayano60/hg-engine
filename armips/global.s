@@ -49,9 +49,7 @@
 .include "armips/asm/custom/server_type_check.s"
 // .include "armips/data/starters.s" // data definitions for which species to use for the starter Pokemon
 
-.if REUSABLE_TMS == 1
-
-.if REUSABLE_TMS == 1 // Using my own as my TM file also includes the move changes
+.if REUSABLE_TMS == 1 // Using my own as my TM file also includes the palette changes
 .include "armips/asm/tm.s" // make tms infinite
 .include "armips/asm/forget_hm.s" // allows hm to be forgotten
 

@@ -231,6 +231,7 @@ Triggers:
 16725 (0-1) - Used for Spiky Pichu in Ilex Forest. Same again as above
 16726 (0-2) - Used for Violet Gym guide. Same again as above...
 
+16748 (0x416C) - Used by me for the Stellar Stone check.
 16749 (0x416D) - Used by me for the Poké Credits count.
 16750 (0x416E) - Used by me for the difficulty mode.
 16751 (0x416F) - Used by HG-e for the level cap system.

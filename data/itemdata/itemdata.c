@@ -50056,8 +50056,7 @@ const ITEMDATA __data[] =
     },
 },
 
-
-[ITEM_MYSTERY_STONE - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
+[ITEM_STELLAR_STONE - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
     // .price = 2100,
     .price = 3000,

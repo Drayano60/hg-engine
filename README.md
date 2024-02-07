@@ -21,4 +21,5 @@ Instructions on how to build the repo can be found there.
 - [ ] Shiny sprites for Farigiraf
 - [ ] Shiny overworld sprites for Paldean cross-evos (Annihilape, Farigiraf, Dudunsparce, Kingambit)
 - [ ] Looker overworld (replace Byron?)
-- [ ] Item sprites (Mystery Stone, Fairy Feather)
+- [ ] Item sprites (Fairy Feather)
+- [ ] Maybe a better sprite for the Stellar Stone

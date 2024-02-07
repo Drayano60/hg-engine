@@ -71,7 +71,7 @@ Violet City
 ✓ Primo has been changed to give you a Pansage, Pansear or Panpour, depending on how you answer his question.
 ✓ Changed the Juggler outside the Pokémon Center to be able to sell you different berry sets A/B/C/D/E. Each set sells you 5x of each berry in it, the five combined cover every berry in the game. Set A is always active, B/C/D/E become available with 2/4/6/8 Badges respectively.
 ✓ Edited dialogue of two NPCs, in a house and in the Pokémon Center, to remove text saying traded Pokémon would disobey (as that mechanic has been removed in Aurora Crystal).
-✓ The Kimono Girl who talks to you after collecting Togepi's Egg now allows you to pick one of the Fire, Water, Thunder, Leaf or Ice Stones.
+✓ The Kimono Girl who talks to you after collecting Togepi's Egg now gives you a new item called the Stellar Stone, which can evolve Eevee. She also asks you to pick what evolution you'd like Eevee to evolve into; there's a Don't mind option that if picked will just evolve the Eevee randomly.
 ✓ Earl now gives you a Sitrus Berry before leading you to the school if you answer "No".
 ✓ Added an item ball containing a Miracle Seed.
 ✓ Modified the trade to be any Grass-type in exchange for a Rhyhorn.

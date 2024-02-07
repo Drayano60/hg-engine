@@ -790,6 +790,6 @@ a {COLOR 255}Hasty Mint{COLOR 0}
 a {COLOR 255}Jolly Mint{COLOR 0}
 a {COLOR 255}Naive Mint{COLOR 0}
 a {COLOR 255}Serious Mint{COLOR 0}
-a {COLOR 255}Mystery Stone{COLOR 0}
+a {COLOR 255}Stellar Stone{COLOR 0}
 a {COLOR 255}Fairy Feather{COLOR 0}
 a {COLOR 255}Teleport Gem{COLOR 0}

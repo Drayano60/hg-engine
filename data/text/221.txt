@@ -790,6 +790,6 @@ Having a Pokémon smell this mint can\nmake its Speed stat grow stronger.\nHowev
 Having a Pokémon smell this mint can\nmake its Speed stat grow stronger.\nHowever, its Sp. Atk stat may suffer.
 Having a Pokémon smell this mint can\nmake its Speed stat grow stronger.\nHowever, its Sp. Def stat may suffer.
 Having a Pokémon smell this mint will\ncause all of its stats to grow at\nan equal rate.
-An enigmatic stone that can make a\ncertain species of Pokémon evolve.\nIts effects are unknown.
+A stone that shines in rainbow colors.\nIt’s said to respond to the user’s wish.\nIt can make a certain Pokémon evolve.
 An item to be held by a Pokémon.\nThis feather, which gleams faintly, ups\nthe power of Fairy-type moves by 20%.
 A gem that allows you to press “START”\nto go to previously visited places.\nIt won’t work in certain places, though.

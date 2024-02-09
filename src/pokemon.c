@@ -1413,6 +1413,13 @@ BOOL LONG_CALL GiveMon(int heapId, void *saveData, int species, int level, int f
 
 extern u32 space_for_setmondata;
 
+#define SHINY_CHECK(otid, pid) (( \
+    ((((otid) & 0xFFFF0000u) >> 16u)) ^ \
+    (((otid) & 0xFFFFu)) ^ \
+    ((((pid) & 0xFFFF0000u) >> 16u))^ \
+    (((pid) & 0xFFFFu))) \
+    < 8u)
+
 /**
  *  @brief create BoxPokemon given the parameters
  *
@@ -1463,7 +1470,7 @@ void LONG_CALL CreateBoxMonData(struct BoxPokemon *boxmon, int species, int leve
 
         do {
             pid = (gf_rand() | (gf_rand() << 16));
-        } while ((((otid & 0xffff000) >> 16) ^ (otid & 0xffff) ^ ((pid & 0xffff0000) >> 16) ^ (pid & 0xffff)) >= 8); // Can be >= 80 with the higher rate but this works too
+        } while (SHINY_CHECK(otid, pid) == FALSE); // Can be >= 80 with the higher rate but this works too
 
         SetBoxMonData(boxmon, MON_DATA_PERSONALITY, &pid);
 

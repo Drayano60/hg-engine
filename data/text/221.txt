@@ -421,7 +421,7 @@ The user creates a bizarre space in\nwhich slower Pokémon get to move\nfirst fo
 The foe is cut with a scythe or a claw.\nIt can also be used to cut down thin\ntrees.
 The user soars, then strikes on the\nsecond turn. It can also be used to\nfly to any familiar town.
 It swamps the entire battlefield with\na giant wave. It can also be used\nto cross water.
-The foe is slugged with a punch. It has\na 10% chance to increase the user’s\nAttack. It can also move boulders.
+The foe is slugged with a punch thrown\nat maximum power. It can also be used\nto move boulders.
 Traps foes in a violent swirling\nwhirlpool. It can also be used to\ntraverse whirlpools.
 The user slugs the foe with a shattering\npunch that lowers its Defense stat.\nIt can also smash cracked boulders.
 The user charges at the foe. It has a\n20% chance to make the foe flinch.\nIt can also be used to climb waterfalls.

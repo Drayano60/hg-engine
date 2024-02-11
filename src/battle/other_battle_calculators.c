@@ -1332,6 +1332,20 @@ int ServerDoTypeCalcMod(void *bw UNUSED, struct BattleStruct *sp, int move_no, i
         }
     }
 
+    // This tells the AI that a Prankster boosted status move doesn't work on Dark-types, if the move checks type effectiveness.
+    // Commented out to save space as no AI teams use Prankster currently.
+    // if
+    // (
+    //     (sp->moveTbl[move_no].split == SPLIT_STATUS) &&
+    //     (sp->moveTbl[move_no].target != MOVE_TARGET_USER) &&
+    //     (sp->moveTbl[move_no].target != MOVE_TARGET_USER_SIDE) &&
+    //     (GetBattlerAbility(sp, attack_client) == ABILITY_PRANKSTER) &&
+    //     ((BattlePokemonParamGet(sp, sp->defence_client, BATTLE_MON_DATA_TYPE1, NULL) == TYPE_DARK) || (BattlePokemonParamGet(sp, sp->defence_client, BATTLE_MON_DATA_TYPE2, NULL) == TYPE_DARK))
+    // )
+    // {
+    //     flag[0] |= MOVE_STATUS_FLAG_NOT_EFFECTIVE;
+    // }
+
     // This could check for Magic Bounce (it activates before the immunity), but probably best leave it consistently bad for the AI.
     // (MoldBreakerAbilityCheck(sp, attack_client, defence_client, ABILITY_MAGIC_BOUNCE) == TRUE)
     

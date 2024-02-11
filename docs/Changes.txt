@@ -85,7 +85,7 @@ Sprout Tower
 ✓ The tile permissions have been changed so battles now display an indoor floor instead of a cave.
 ✓ Both floors now use the same encounter file.
 ✓ Added an old woman on the ground floor who gives you a Cleanse Tag.
-✓ Added an old woman on the top floor who heals you.
+✓ Added an old woman on the top floor who heals you. Then yeeted her out of bounds as it's redundant with the PC.
 ✓ Changed Sage Edmond to face down so he's forced.
 ✓ Rearranged the trainer positions on the top floor to force them all and allow a double battle for the last two.
 ✓ Added a Hoothoot next to the Elder with a mild Vietnamese Crystal reference (wild hehe jump out).

@@ -748,53 +748,25 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
         movepower /= 2;
     }
 
-    //handle steelworker
-    if(AttackingMon.ability == ABILITY_STEELWORKER && (movetype == TYPE_STEEL))
+    // Handle fake STAB abilities (including four custom ones)
+    if
+    (
+        ((GetBattlerAbility(sp, attacker) == ABILITY_STEELWORKER) && (movetype == TYPE_STEEL)) ||
+        ((GetBattlerAbility(sp, attacker) == ABILITY_DRAGONS_MAW) && (movetype == TYPE_DRAGON)) ||
+        ((GetBattlerAbility(sp, attacker) == ABILITY_TRANSISTOR) && (movetype == TYPE_ELECTRIC)) ||      
+        ((GetBattlerAbility(sp, attacker) == ABILITY_ROCKY_PAYLOAD) && (movetype == TYPE_ROCK)) ||
+        ((GetBattlerAbility(sp, attacker) == ABILITY_LUNAR_ENERGY) && (movetype == TYPE_FAIRY)) ||
+        ((GetBattlerAbility(sp, attacker) == ABILITY_SOLAR_ENERGY) && (movetype == TYPE_FIRE)) ||
+        ((GetBattlerAbility(sp, attacker) == ABILITY_ODD_POWER) && (movetype == TYPE_PSYCHIC)) ||
+        ((GetBattlerAbility(sp, attacker) == ABILITY_FLOWER_POWER) && (movetype == TYPE_GRASS))
+    )
     {
-        movepower = movepower * 150 / 100;
-    }
-
-    //handle dragon's maw
-    if(AttackingMon.ability == ABILITY_DRAGONS_MAW && (movetype == TYPE_DRAGON))
-    {
-        movepower = movepower * 150 / 100;
-    }
-
-    //handle transistor
-    if(AttackingMon.ability == ABILITY_TRANSISTOR && (movetype == TYPE_ELECTRIC))
-    {
-        movepower = movepower * 150 / 100;
-    }
-
-    // Handle Lunar Energy (Lunatone)
-    if ((GetBattlerAbility(sp, attacker) == ABILITY_LUNAR_ENERGY) && (movetype == TYPE_FAIRY)) {
-        movepower = movepower * 150 / 100;
-    }
-
-    // Handle Solar Energy (Solrock)
-    if ((GetBattlerAbility(sp, attacker) == ABILITY_SOLAR_ENERGY) && (movetype == TYPE_FIRE)) {
-        movepower = movepower * 150 / 100;
-    }
-
-    // Handle Odd Power (Golduck)
-    if ((GetBattlerAbility(sp, attacker) == ABILITY_ODD_POWER) && (movetype == TYPE_PSYCHIC)) {
-        movepower = movepower * 150 / 100;
-    }
-
-    // Handle Flower Power (Flabébé line)
-    if ((GetBattlerAbility(sp, attacker) == ABILITY_FLOWER_POWER) && (movetype == TYPE_GRASS)) {
         movepower = movepower * 150 / 100;
     }
 
     // Handle Rhythmic (Jynx/Bellossom/Ludicolo)
     if ((GetBattlerAbility(sp, attacker) == ABILITY_RHYTHMIC) && (sp->current_move_index == sp->waza_no_old[attacker])) {
         movepower = movepower * 120 / 100;
-    }
-
-    //handle rocky payload
-    if(AttackingMon.ability == ABILITY_ROCKY_PAYLOAD && (movetype == TYPE_ROCK))
-    {
-        movepower = movepower * 150 / 100;
     }
 
     // if dark aura is present but not aura break

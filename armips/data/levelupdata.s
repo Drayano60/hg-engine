@@ -18024,8 +18024,8 @@ levelup SPECIES_ROWLET
     learnset MOVE_SHADOW_SNEAK, 15
     learnset MOVE_PLUCK, 18
     learnset MOVE_FORESIGHT, 22
-    learnset MOVE_SYNTHESIS, 26
-    learnset MOVE_LEAF_BLADE, 30
+    learnset MOVE_LEAF_BLADE, 26
+    learnset MOVE_SYNTHESIS, 30
     learnset MOVE_FURY_ATTACK, 36
     learnset MOVE_SUCKER_PUNCH, 41
     learnset MOVE_FEATHER_DANCE, 46
@@ -18043,8 +18043,8 @@ levelup SPECIES_DARTRIX
     learnset MOVE_SHADOW_SNEAK, 15
     learnset MOVE_PLUCK, 20
     learnset MOVE_FORESIGHT, 24
-    learnset MOVE_SYNTHESIS, 28
-    learnset MOVE_LEAF_BLADE, 32
+    learnset MOVE_LEAF_BLADE, 28
+    learnset MOVE_SYNTHESIS, 32
     learnset MOVE_FURY_ATTACK, 38
     learnset MOVE_SUCKER_PUNCH, 43
     learnset MOVE_FEATHER_DANCE, 48
@@ -18065,8 +18065,8 @@ levelup SPECIES_DECIDUEYE
     learnset MOVE_SHADOW_SNEAK, 15
     learnset MOVE_PLUCK, 20
     learnset MOVE_FORESIGHT, 24
-    learnset MOVE_SYNTHESIS, 28
-    learnset MOVE_LEAF_BLADE, 32
+    learnset MOVE_LEAF_BLADE, 28
+    learnset MOVE_SYNTHESIS, 32
     learnset MOVE_SPIRIT_SHACKLE, 34
     learnset MOVE_FURY_ATTACK, 40
     learnset MOVE_SUCKER_PUNCH, 45
@@ -18088,8 +18088,8 @@ levelup SPECIES_DECIDUEYE_HISUIAN
     learnset MOVE_SHADOW_SNEAK, 15
     learnset MOVE_PLUCK, 20
     learnset MOVE_FORESIGHT, 24
-    learnset MOVE_SYNTHESIS, 28
-    learnset MOVE_LEAF_BLADE, 32
+    learnset MOVE_LEAF_BLADE, 28
+    learnset MOVE_SYNTHESIS, 32
     learnset MOVE_TRIPLE_ARROWS, 34
     learnset MOVE_FURY_ATTACK, 40
     learnset MOVE_SUCKER_PUNCH, 45

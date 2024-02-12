@@ -30,6 +30,8 @@ _0028:
     abilitycheck 0x0, BATTLER_xFF, ABILITY_SAND_FORCE, SandstormImmunity
     abilitycheck 0x0, BATTLER_xFF, ABILITY_SAND_STREAM, SandstormImmunity
     abilitycheck 0x0, BATTLER_xFF, ABILITY_SNOW_WARNING, HailImmunity
+    abilitycheck 0x0, BATTLER_xFF, ABILITY_ICE_BODY, HailImmunity
+    abilitycheck 0x0, BATTLER_xFF, ABILITY_SNOW_CLOAK, HailImmunity
 return_from_sandstorm_immunity:
     if IF_MASK, VAR_FIELD_EFFECT, 0x30, _00B8
     printmessage 0x11D, 0x15, 0xFF, 0xFF, "NaN", "NaN", "NaN", "NaN" // sandstorm

@@ -32,8 +32,8 @@ LEVEL_FALKNER equ 14
 
 LEVEL_ROUTE_32 equ 15 /* Also for Route 46 */
 LEVEL_UNION_CAVE equ 17 /* Also for Route 33 */
-LEVEL_SLOWPOKE_WELL equ 19
-LEVEL_PROTON_1 equ 20
+LEVEL_SLOWPOKE_WELL equ 18
+LEVEL_PROTON_1 equ 19
 LEVEL_AZALEA_GYM equ 20
 LEVEL_BUGSY equ 22 /* Also used for Silver */
 
@@ -50,8 +50,8 @@ LEVEL_SILVER_3 equ 34
 LEVEL_ECRUTEAK_GYM equ 33
 LEVEL_MORTY equ 36
 
-LEVEL_ROUTE_39 equ 34 /* Also Surf areas like Union Cave, Ruins of Alph */
-LEVEL_LIGHTHOUSE equ 35 /* Also for Route 40, 41 */
+LEVEL_ROUTE_39 equ 35 /* Also Surf areas like Union Cave, Ruins of Alph */
+LEVEL_LIGHTHOUSE equ 36 /* Also for Route 40, 41 */
 LEVEL_EUSINE equ 38
 LEVEL_CIANWOOD_GYM equ 37
 LEVEL_CHUCK equ 39 /* Also for Lyra 3 */
@@ -14520,7 +14520,7 @@ endparty
 
 trainerdata 217, "Denis"
     trainermontype TRAINER_MON_TYPE_FLAGS
-    trainerclass CLASS_SAILOR
+    trainerclass CLASS_BIRD_KEEPER_1
     nummons 2
     item 0 
     item 0 
@@ -29705,8 +29705,8 @@ party 245
     abilityslot 0
     level LEVEL_ELITE_FOUR+2
     pokemon SPECIES_XATU
-    item ITEM_WEAKNESS_POLICY
-    move MOVE_STORED_POWER
+    item ITEM_LIFE_ORB
+    move ALLOW_ILLEGAL_MOVES ? MOVE_ESPER_WING : MOVE_PSYCHIC
     move MOVE_AIR_SLASH
     move MOVE_HEAT_WAVE
     move MOVE_CALM_MIND

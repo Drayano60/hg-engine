@@ -1759,12 +1759,13 @@ levelup SPECIES_ARCANINE_HISUIAN
 levelup SPECIES_POLIWAG
     learnset MOVE_WATER_SPORT, 1
     learnset MOVE_POUND, 1
-    learnset MOVE_HYPNOSIS, 1
-    learnset MOVE_BUBBLE, 4
-    learnset MOVE_DOUBLE_SLAP, 8
-    learnset MOVE_MUD_SHOT, 12
-    learnset MOVE_BUBBLE_BEAM, 16
-    learnset MOVE_MUD_BOMB, 20
+    learnset MOVE_BUBBLE, 3
+    learnset MOVE_HYPNOSIS, 6
+    learnset MOVE_DOUBLE_SLAP, 9
+    learnset MOVE_BUBBLE_BEAM, 12
+    learnset MOVE_MUD_SHOT, 15
+    learnset MOVE_LOW_KICK, 18
+    learnset MOVE_MUD_BOMB, 21
     learnset MOVE_BODY_SLAM, 24
     learnset MOVE_WAKE_UP_SLAP, 28
     learnset MOVE_ENDEAVOR, 33
@@ -1778,12 +1779,13 @@ levelup SPECIES_POLIWAG
 levelup SPECIES_POLIWHIRL
     learnset MOVE_WATER_SPORT, 1
     learnset MOVE_POUND, 1
-    learnset MOVE_HYPNOSIS, 1
-    learnset MOVE_BUBBLE, 4
-    learnset MOVE_DOUBLE_SLAP, 8
-    learnset MOVE_MUD_SHOT, 12
-    learnset MOVE_BUBBLE_BEAM, 16
-    learnset MOVE_MUD_BOMB, 20
+    learnset MOVE_BUBBLE, 3
+    learnset MOVE_HYPNOSIS, 6
+    learnset MOVE_DOUBLE_SLAP, 9
+    learnset MOVE_BUBBLE_BEAM, 12
+    learnset MOVE_MUD_SHOT, 15
+    learnset MOVE_LOW_KICK, 18
+    learnset MOVE_MUD_BOMB, 21
     learnset MOVE_BODY_SLAM, 24
     learnset MOVE_WAKE_UP_SLAP, 30
     learnset MOVE_ENDEAVOR, 35
@@ -1803,12 +1805,13 @@ levelup SPECIES_POLIWRATH
     learnset MOVE_MIND_READER, 1
     learnset MOVE_WATER_SPORT, 1
     learnset MOVE_POUND, 1
-    learnset MOVE_HYPNOSIS, 1
-    learnset MOVE_BUBBLE, 4
-    learnset MOVE_DOUBLE_SLAP, 8
-    learnset MOVE_MUD_SHOT, 12
-    learnset MOVE_BUBBLE_BEAM, 16
-    learnset MOVE_MUD_BOMB, 20
+    learnset MOVE_BUBBLE, 3
+    learnset MOVE_HYPNOSIS, 6
+    learnset MOVE_DOUBLE_SLAP, 9
+    learnset MOVE_BUBBLE_BEAM, 12
+    learnset MOVE_MUD_SHOT, 15
+    learnset MOVE_LOW_KICK, 18
+    learnset MOVE_MUD_BOMB, 21
     learnset MOVE_BODY_SLAM, 24
     learnset MOVE_SUBMISSION, 32
     learnset MOVE_STORM_THROW, 37
@@ -1824,12 +1827,13 @@ levelup SPECIES_POLITOED
     learnset MOVE_SWAGGER, 1
     learnset MOVE_WATER_SPORT, 1
     learnset MOVE_POUND, 1
-    learnset MOVE_HYPNOSIS, 1
-    learnset MOVE_BUBBLE, 4
-    learnset MOVE_DOUBLE_SLAP, 8
-    learnset MOVE_MUD_SHOT, 12
-    learnset MOVE_BUBBLE_BEAM, 16
-    learnset MOVE_MUD_BOMB, 20
+    learnset MOVE_BUBBLE, 3
+    learnset MOVE_HYPNOSIS, 6
+    learnset MOVE_DOUBLE_SLAP, 9
+    learnset MOVE_BUBBLE_BEAM, 12
+    learnset MOVE_MUD_SHOT, 15
+    learnset MOVE_LOW_KICK, 18
+    learnset MOVE_MUD_BOMB, 21
     learnset MOVE_BODY_SLAM, 24
     learnset MOVE_WAKE_UP_SLAP, 32
     learnset MOVE_HYPER_VOICE, 37

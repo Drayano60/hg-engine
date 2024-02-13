@@ -325,9 +325,11 @@ enum
     SWITCH_IN_CHECK_ABILITY_HEAL_STATUS,
     SWITCH_IN_CHECK_HEAL_STATUS,
     SWITCH_IN_CHECK_UNNERVE,
+    #ifdef SAVE_SPACE
     SWITCH_IN_CHECK_DARK_AURA,
     SWITCH_IN_CHECK_FAIRY_AURA,
     SWITCH_IN_CHECK_AURA_BREAK,
+    #endif
     SWITCH_IN_CHECK_IMPOSTER,
     SWITCH_IN_CHECK_AIR_LOCK,
     SWITCH_IN_CHECK_SUPREME_OVERLORD,
@@ -1154,6 +1156,7 @@ int SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
                     sp->switch_in_check_seq_no++;
                 }
                 break;
+            #ifdef SAVE_SPACE
             case SWITCH_IN_CHECK_DARK_AURA:
                 for(i = 0; i < client_set_max; i++)
                 {
@@ -1211,6 +1214,7 @@ int SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
                     sp->switch_in_check_seq_no++;
                 }
                 break;
+            #endif
             case SWITCH_IN_CHECK_IMPOSTER: // automatically queue up transform
                 for(i = 0; i < client_set_max; i++)
                 {

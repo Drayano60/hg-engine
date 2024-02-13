@@ -46,7 +46,7 @@ endif
 default: all
 
 ROMNAME = rom.nds
-BUILDROM = Aurora-Crystal.nds
+BUILDROM = AuroraCrystals.nds
 
 ####################### Tools #######################
 ADPCMXQ := tools/adpcm-xq

@@ -1174,7 +1174,7 @@ void LONG_CALL WildMonSetRandomHeldItem(struct PartyPokemon *pokemon, u32 fight_
 BOOL LONG_CALL GrabAndRegisterUnownForm(EncounterInfo *encounterInfo);
 
 // shiny convenience macro
-#define SHINY_VALUE(otid, pid) (((otid & 0xffff0000) >> 16) ^ (otid & 0xffff) ^ ((pid & 0xffff0000) >> 16) ^ (pid & 0xffff))
+#define SHINY_VALUE(otid, pid) (((otid & 0xFFFF0000u) >> 16u) ^ (otid & 0xFFFFu) ^ ((pid & 0xFFFF0000u) >> 16u) ^ (pid & 0xFFFFu))
 #define SHINY_CHECK(otid, pid) (SHINY_VALUE(otid, pid) <= SHINY_ODDS)
 
 /**

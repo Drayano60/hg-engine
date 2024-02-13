@@ -1413,13 +1413,6 @@ BOOL LONG_CALL GiveMon(int heapId, void *saveData, int species, int level, int f
 
 extern u32 space_for_setmondata;
 
-#define SHINY_CHECK(otid, pid) (( \
-    ((((otid) & 0xFFFF0000u) >> 16u)) ^ \
-    (((otid) & 0xFFFFu)) ^ \
-    ((((pid) & 0xFFFF0000u) >> 16u))^ \
-    (((pid) & 0xFFFFu))) \
-    < 8u)
-
 /**
  *  @brief create BoxPokemon given the parameters
  *

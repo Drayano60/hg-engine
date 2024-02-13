@@ -21,7 +21,7 @@
 .include "armips/asm/custom/tm.s"
 .include "armips/asm/custom/hidden_power.s"
 .include "armips/asm/custom/encounter_rates.s"
-.include "armips/asm/custom/shiny_rate.s"
+// .include "armips/asm/custom/shiny_rate.s"
 .include "armips/asm/custom/forget_hm.s"
 .include "armips/asm/custom/double_battle_music.s"
 // .include "armips/asm/custom/disable_overworld_poison.s"

@@ -1302,16 +1302,6 @@ u16 SoundProofMovesList[] = {
     MOVE_UPROAR
 };
 
-u16 MovesThatChangeTypeList[] = {
-    MOVE_HIDDEN_POWER,
-    MOVE_WEATHER_BALL,
-    MOVE_NATURAL_GIFT,
-    MOVE_JUDGMENT,
-    MOVE_TECHNO_BLAST,
-    MOVE_MULTI_ATTACK,
-    MOVE_TERRAIN_PULSE,
-};
-
 /**
  *  @brief get the adjusted move type accounting for normalize without relying on a client
  *
@@ -1323,27 +1313,22 @@ u16 MovesThatChangeTypeList[] = {
 u32 GetAdjustedMoveTypeBasics(struct BattleStruct *sp, u32 move, u32 ability, u32 type)
 {
     u32 typeLocal;
-    BOOL isMoveThatChangesType = FALSE;
 
-    int j;
-
-    // Normal-type moves that change type like Weather Ball are unaffected by abilities like Pixilate,
-    // even if the move would be Normal-type.
-    for (j = 0; j < (s32)NELEMS(MovesThatChangeTypeList); j++) {
-        if (sp->current_move_index == MovesThatChangeTypeList[j]) {
-            isMoveThatChangesType = TRUE;
-            break;
-        }
-    }
-
-    if (isMoveThatChangesType) {
-        typeLocal = type;
-    }
-    else if (ability == ABILITY_NORMALIZE)
+    if (ability == ABILITY_NORMALIZE)
     {
         typeLocal = TYPE_NORMAL;
     }
-    else if (sp->moveTbl[move].type == TYPE_NORMAL)
+    else if
+    (
+        sp->moveTbl[move].type == TYPE_NORMAL &&
+        sp->current_move_index != MOVE_HIDDEN_POWER &&
+        sp->current_move_index != MOVE_WEATHER_BALL &&
+        sp->current_move_index != MOVE_NATURAL_GIFT &&
+        sp->current_move_index != MOVE_JUDGMENT
+        // sp->current_move_index != MOVE_TECHNO_BLAST &&
+        // sp->current_move_index != MOVE_MULTI_ATTACK &&
+        // sp->current_move_index != MOVE_TERRAIN_PULSE
+    )
     {
         if (ability == ABILITY_PIXILATE)
         {

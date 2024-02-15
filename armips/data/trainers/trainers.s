@@ -40,17 +40,17 @@ LEVEL_BUGSY equ 22 /* Also used for Silver */
 LEVEL_ROUTE_34 equ 23 /* Also used for Ilex Forest */
 LEVEL_LYRA_2 equ 25
 LEVEL_ROUTE_35 equ 24 /* Also used for Goldenrod Tunnel, National Park, Route 36 */
-LEVEL_GOLDENROD_GYM equ 27
-LEVEL_WHITNEY equ 29
+LEVEL_GOLDENROD_GYM equ 26
+LEVEL_WHITNEY equ 28
 
 LEVEL_ROUTE_37 equ 28
 LEVEL_ROUTE_42 equ 29 /* Also used for Ecruteak City, Route 38 and Mt. Mortar */
 LEVEL_ROUTE_44 equ 30 /* Also used for Burned Tower */
-LEVEL_SILVER_3 equ 34
+LEVEL_SILVER_3 equ 33
 LEVEL_ECRUTEAK_GYM equ 33
-LEVEL_MORTY equ 36
+LEVEL_MORTY equ 35
 
-LEVEL_ROUTE_39 equ 35 /* Also Surf areas like Union Cave, Ruins of Alph */
+LEVEL_ROUTE_39 equ 34 /* Also Surf areas like Union Cave, Ruins of Alph */
 LEVEL_LIGHTHOUSE equ 36 /* Also for Route 40, 41 */
 LEVEL_EUSINE equ 38
 LEVEL_CIANWOOD_GYM equ 37
@@ -4787,7 +4787,7 @@ endparty
 trainerdata 486, "Proton"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_EXECUTIVE_1
-    nummons 3
+    nummons 4
     item 0 
     item 0 
     item 0 
@@ -4810,7 +4810,7 @@ party 486
     ball ITEM_POKE_BALL
     setivs 30, 30, 30, 30, 30, 30
     setevs 0, 0, 0, 0, 0, 0
-    nature NATURE_SERIOUS
+    nature NATURE_BRAVE
     shinylock 0
     ballseal 0
 
@@ -4827,11 +4827,28 @@ party 486
     ball ITEM_POKE_BALL
     setivs 30, 30, 30, 30, 30, 30
     setevs 0, 0, 0, 0, 0, 0
-    nature NATURE_SERIOUS
+    nature NATURE_BRAVE
     shinylock 0
     ballseal 0
 
-    ivs 0
+    ivs 1 // male
+    abilityslot 0
+    level LEVEL_PROTON_1
+    pokemon SPECIES_GEODUDE
+    item ITEM_NONE
+    move MOVE_MAGNITUDE
+    move MOVE_ROLLOUT
+    move MOVE_HEADBUTT
+    move MOVE_GYRO_BALL
+    ability ABILITY_STURDY
+    ball ITEM_POKE_BALL
+    setivs 30, 30, 30, 30, 30, 30
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_ADAMANT
+    shinylock 0
+    ballseal 0
+
+    ivs 10 // male
     abilityslot 0
     level LEVEL_PROTON_1+1
     pokemon SPECIES_GOLBAT
@@ -4844,7 +4861,7 @@ party 486
     ball ITEM_POKE_BALL
     setivs 30, 30, 30, 30, 30, 30
     setevs 0, 0, 0, 0, 0, 0
-    nature NATURE_SERIOUS
+    nature NATURE_LONELY
     shinylock 0
     ballseal 0
 endparty
@@ -5305,7 +5322,7 @@ party 21
     shinylock 0
     ballseal 0
 
-    ivs 0
+    ivs 2 // female
     abilityslot 0
     level LEVEL_BUGSY
     pokemon SPECIES_LEDIAN
@@ -5318,7 +5335,7 @@ party 21
     ball ITEM_NET_BALL
     setivs 30, 30, 30, 30, 30, 30
     setevs 0, 0, 0, 0, 0, 0
-    nature NATURE_ADAMANT
+    nature NATURE_JOLLY
     shinylock 0
     ballseal 0
 
@@ -5360,7 +5377,7 @@ party 21
     abilityslot 0
     level LEVEL_BUGSY
     pokemon SPECIES_HERACROSS
-    item ITEM_BLACK_BELT
+    item ITEM_COBA_BERRY
     move MOVE_BUG_BITE
     move MOVE_ROCK_SMASH
     move MOVE_HORN_ATTACK
@@ -5373,7 +5390,7 @@ party 21
     shinylock 0
     ballseal 0
 
-    ivs 0
+    ivs 2 // female
     abilityslot 0
     level LEVEL_BUGSY+1
     pokemon SPECIES_SCYTHER
@@ -10109,7 +10126,7 @@ trainerdata 169, "Hilda"
 party 169
     ivs 0
     abilityslot 0
-    level LEVEL_GOLDENROD_GYM+1
+    level LEVEL_GOLDENROD_GYM+2
     pokemon SPECIES_DELCATTY
     item ITEM_SILK_SCARF
     move MOVE_HEADBUTT
@@ -10126,7 +10143,7 @@ party 169
 
     ivs 0
     abilityslot 0
-    level LEVEL_GOLDENROD_GYM+1
+    level LEVEL_GOLDENROD_GYM+2
     pokemon SPECIES_VIGOROTH
     item ITEM_SILK_SCARF
     move MOVE_SLASH
@@ -10143,7 +10160,7 @@ party 169
 
     ivs 0
     abilityslot 0
-    level LEVEL_GOLDENROD_GYM+1
+    level LEVEL_GOLDENROD_GYM+2
     pokemon SPECIES_DIGGERSBY
     item ITEM_SILK_SCARF
     move MOVE_FACADE
@@ -10227,7 +10244,7 @@ party 30
     item ITEM_WIDE_LENS
     move MOVE_DIZZY_PUNCH
     move MOVE_JUMP_KICK
-    move MOVE_FAKE_OUT
+    move MOVE_BRUTAL_SWING
     move MOVE_CHARM
     ability ABILITY_CUTE_CHARM
     ball ITEM_LOVE_BALL
@@ -10295,7 +10312,7 @@ party 30
     item ITEM_SITRUS_BERRY
     move MOVE_BODY_SLAM
     move MOVE_ZEN_HEADBUTT
-    move MOVE_MILK_DRINK
+    move MOVE_BULLDOZE
     move MOVE_ATTRACT
     ability ABILITY_THICK_FAT
     ball ITEM_LOVE_BALL
@@ -13084,7 +13101,7 @@ trainerdata 282, "Ned"
 party 282
     ivs 0
     abilityslot 0
-    level LEVEL_ROUTE_44+3
+    level LEVEL_ROUTE_44+2
     pokemon SPECIES_MAGCARGO
     item 0
     move MOVE_LAVA_PLUME
@@ -13115,7 +13132,7 @@ trainerdata 281, "Richard"
 party 281
     ivs 0
     abilityslot 0
-    level LEVEL_ROUTE_44+3
+    level LEVEL_ROUTE_44+2
     pokemon SPECIES_NINETALES
     item 0
     move MOVE_MYSTICAL_FIRE
@@ -13453,7 +13470,7 @@ trainerdata 31, "Morty"
     endentry
 
 party 31
-    ivs 0
+    ivs 5 // female
     abilityslot 0
     level LEVEL_MORTY
     pokemon SPECIES_MISMAGIUS
@@ -13547,7 +13564,7 @@ party 31
     move MOVE_SLUDGE_BOMB
     move MOVE_THUNDERBOLT
     move MOVE_DAZZLING_GLEAM
-    ability ABILITY_LEVITATE
+    ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_LEVITATE : ABILITY_CURSED_BODY
     ball ITEM_DUSK_BALL
     setivs 30, 30, 30, 30, 30, 30
     setevs 0, 0, 0, 0, 0, 0
@@ -24108,7 +24125,7 @@ party 228
     move MOVE_SHADOW_BALL
     move MOVE_DARK_PULSE
     move MOVE_CONFUSE_RAY
-    ability ABILITY_LEVITATE
+    ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_LEVITATE : ABILITY_CURSED_BODY
     ball ITEM_POKE_BALL
     setivs 20, 20, 20, 20, 20, 20
     setevs 0, 0, 0, 0, 0, 0
@@ -26145,7 +26162,7 @@ party 818
     move MOVE_SHADOW_BALL
     move MOVE_FOCUS_BLAST
     move MOVE_NASTY_PLOT
-    ability ABILITY_LEVITATE
+    ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_LEVITATE : ABILITY_CURSED_BODY
     ball ITEM_POKE_BALL
     setivs 30, 30, 30, 30, 30, 30
     setevs 0, 0, 0, 0, 0, 0
@@ -29309,7 +29326,7 @@ party 264
     move MOVE_SHADOW_BALL
     move MOVE_FOCUS_BLAST
     move MOVE_THUNDERBOLT
-    ability ABILITY_LEVITATE
+    ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_LEVITATE : ABILITY_CURSED_BODY
     ball ITEM_POKE_BALL
     setivs 30, 30, 30, 30, 30, 30
     setevs 0, 0, 0, 0, 0, 0
@@ -29425,7 +29442,7 @@ party 268
     move MOVE_SHADOW_BALL
     move MOVE_FOCUS_BLAST
     move MOVE_THUNDERBOLT
-    ability ABILITY_LEVITATE
+    ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_LEVITATE : ABILITY_CURSED_BODY
     ball ITEM_POKE_BALL
     setivs 30, 30, 30, 30, 30, 30
     setevs 0, 0, 0, 0, 0, 0
@@ -29541,7 +29558,7 @@ party 272
     move MOVE_SHADOW_BALL
     move MOVE_FOCUS_BLAST
     move MOVE_THUNDERBOLT
-    ability ABILITY_LEVITATE
+    ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_LEVITATE : ABILITY_CURSED_BODY
     ball ITEM_POKE_BALL
     setivs 30, 30, 30, 30, 30, 30
     setevs 0, 0, 0, 0, 0, 0
@@ -41192,7 +41209,7 @@ party 715
     move MOVE_SLUDGE_WAVE
     move MOVE_ENERGY_BALL
     move MOVE_FOCUS_BLAST
-    ability ABILITY_LEVITATE
+    ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_LEVITATE : ABILITY_CURSED_BODY
     ball ITEM_DUSK_BALL
     setivs 30, 30, 30, 30, 30, 30
     setevs 0, 0, 0, 0, 0, 0

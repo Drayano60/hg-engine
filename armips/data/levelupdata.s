@@ -7915,7 +7915,7 @@ levelup SPECIES_TAILLOW
     learnset MOVE_BOOMBURST, 55
     terminatelearnset
 
-// NEW: Extreme Speed, Razor Wind
+// NEW: Razor Wind
 levelup SPECIES_SWELLOW
     learnset MOVE_DEFOG, 1
     learnset MOVE_PLUCK, 1
@@ -7937,8 +7937,7 @@ levelup SPECIES_SWELLOW
     learnset MOVE_BRAVE_BIRD, 50
     learnset MOVE_HURRICANE, 54
     learnset MOVE_BOOMBURST, 58
-    learnset MOVE_EXTREME_SPEED, 62
-    learnset MOVE_SKY_ATTACK, 66
+    learnset MOVE_SKY_ATTACK, 62
     terminatelearnset
 
 levelup SPECIES_WINGULL
@@ -25511,6 +25510,7 @@ levelup SPECIES_ENAMORUS_THERIAN
     learnset MOVE_FISSURE, 75
     terminatelearnset
 
+// NEW: Mystical Fire (PLA)
 levelup SPECIES_TYPHLOSION_HISUIAN
     learnset MOVE_MYSTICAL_FIRE, 1
     learnset MOVE_SHADOW_BALL, 1

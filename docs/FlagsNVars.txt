@@ -210,7 +210,7 @@ Triggers:
 16690/4 - Used for Ice Path Rocket/Eusine event.
 16690/5 - Used for Cianwood Gym block until Eusine is beaten.
 16690/6 - Used for the Teleport Gem gift in front of Sprout Tower. (This is actually the second one!)
-16690/7 - ??
+16690/7 - Interim between 5 and 9
 16690/8 - ??
 16690/9 - Cliff Edge Gate, Ethan/Lyra battle.
 16690/10 - Cliff Cave, Executives battle.

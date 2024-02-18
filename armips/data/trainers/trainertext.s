@@ -3556,21 +3556,27 @@ _Trainer814:
     trainertextentry 814, TEXT_DEFEATED_IN_BATTLE, "Why?!"
 
 _Trainer771:
+    trainertextentry 771, TEXT_LAST_MON_CRITICAL, "We won’t give up yet!\n"
     trainertextentry 771, TEXT_DEFEATED_IN_BATTLE, "We almost had it...\n"
 
 _Trainer772:
+    trainertextentry 772, TEXT_LAST_MON_CRITICAL, "We won’t give up yet!\n"
     trainertextentry 772, TEXT_DEFEATED_IN_BATTLE, "We almost had it...\n"
 
 _Trainer773:
+    trainertextentry 773, TEXT_LAST_MON_CRITICAL, "We won’t give up yet!\n"
     trainertextentry 773, TEXT_DEFEATED_IN_BATTLE, "We almost had it...\n"
 
 _Trainer774:
+    trainertextentry 774, TEXT_LAST_MON_CRITICAL, "We won’t give up yet!\n"
     trainertextentry 774, TEXT_DEFEATED_IN_BATTLE, "Oh, darn! I lost...\n"
 
 _Trainer775:
+    trainertextentry 775, TEXT_LAST_MON_CRITICAL, "We won’t give up yet!\n"
     trainertextentry 775, TEXT_DEFEATED_IN_BATTLE, "Oh, darn! I lost...\n"
 
 _Trainer776:
+    trainertextentry 776, TEXT_LAST_MON_CRITICAL, "We won’t give up yet!\n"
     trainertextentry 776, TEXT_DEFEATED_IN_BATTLE, "Oh, darn! I lost...\n"
 
 _Trainer777:

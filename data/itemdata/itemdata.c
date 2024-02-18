@@ -14278,7 +14278,8 @@ const ITEMDATA __data[] =
 
 [ITEM_BLACK_BELT - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 100,
+    // .price = 100,
+    .price = 3000,
     .holdEffect = HOLD_EFFECT_BOOST_FIGHTING,
     .holdEffectParam = 20,
     .pluckEffect = 0,
@@ -14798,7 +14799,8 @@ const ITEMDATA __data[] =
 
 [ITEM_CHARCOAL - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 9800,
+    // .price = 9800,
+    .price = 3000,
     .holdEffect = HOLD_EFFECT_BOOST_FIRE,
     .holdEffectParam = 20,
     .pluckEffect = 0,
@@ -16036,7 +16038,8 @@ const ITEMDATA __data[] =
 
 [ITEM_EXPERT_BELT - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 200,
+    // .price = 200,
+    .price = 5000, // Cheaper than SV
     .holdEffect = HOLD_EFFECT_POWER_UP_SE,
     .holdEffectParam = 20,
     .pluckEffect = 0,
@@ -16491,7 +16494,8 @@ const ITEMDATA __data[] =
 
 [ITEM_FOCUS_SASH - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 200,
+    // .price = 200,
+    .price = 5000, // Cheaper than SV
     .holdEffect = HOLD_EFFECT_HP_MAX_SURVIVE_1_HP,
     .holdEffectParam = 0,
     .pluckEffect = 0,

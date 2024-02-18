@@ -244,7 +244,7 @@ Goldenrod City
 ✓ Changed Dept Store 2F shop to #23 which now sells the healing items (albeit a reduced selection), as the original shop is repurposed.
 
 Goldenrod Tunnel
-✓ The four shopping NPCs now show up every day of the week.
+✓ The four shopping NPCs now show up every day of the week (but disappear during the Rocket takeover).
 ✓ Added an item ball for TM09 Venoshock.
 
 Global Terminal
@@ -293,6 +293,7 @@ Ecruteak City
 ✓ Changed the two houses at the top of the town to have doors, leading to unused headers 161 and 175.
 ✓ Added an NPC in one of the new houses that gives you a Fairy Feather.
 ✓ Added a trade in one of the new houses for a Kecleon in exchange for any Normal-type.
+✓ Changed the secondary mart to point to Cherrygrove's instead, as the Ecruteak one is repurposed for the sash/belt seller.
 
 Route 38
 ✓ Added a blockade featuring Miltank to block you from moving onto Route 39 until Morty is defeated.
@@ -408,7 +409,7 @@ Cianwood City
 ✓ The Eusine script now continues regardless of if you win or lose, and stops the Gym block afterwards. His dialogue is edited slightly to be neutral to the win/loss.
 ✓ Added an NPC in the camera house who gives you TM42 Facade.
 ✓ No change to the Shuckle gift as I don't know where the data is stored for it.
-✓ Added an NPC in the Pokémon Center who gives you three Focus Sashes if you talk to him after beating Chuck.
+✓ Added an NPC in the Pokémon Center who gives you a Linking Cord.
 ✓ Added a trade in the Pokémon Center for a Jynx in exchange for any Water-type.
 
 Cianwood City - Gym
@@ -427,7 +428,7 @@ Cliff Edge Gate
 ✓ Added an item ball with the Heavy-Duty Boots that requires Rock Climb.
 
 Cliff Cave
-✓ Added an event leading to a double battle with Petrel and Proton with Ethan/Lyra as a partner when you enter.
+✓ Added an event leading to a double battle with Petrel and Proton with Ethan/Lyra as a partner when you enter. Following this battle, you receive TM36, Sludge Bomb.
 ✓ Made Ethan/Lyra (and Azumarill) stay here to act as a healer for the duration of the Rocket event.
 ✓ Modified the script so the Rock Smash rocks are always there regardless of whether the National Dex is obtained or not.
 ✓ Added some triggers on each exit to control whether the Silver event on Route 47 happens or not when leaving the Cliff Cave, active after the Executive battle. The one on the top floor's exit activates the Route 47 Silver event. It's technically possible to step on this and then use an Escape Rope/Dig/Teleport? which results in the script activating at the wrong time. Not sure how to fix that, but it's an incredibly unlikely scenario anyway. At least it doesn't crash!
@@ -463,7 +464,7 @@ Safari Zone
 ✓ When entering the Safari Zone, the portable PC/fast travel is disabled. It's re-enabled after leaving (checked manual retire, no balls yet and leaving on foot).
 
 Safari Zone Gate (Normal)
-✓ Changed out the no talking lady/Kangaskhan for an old woman who repeats the herbal medicine store. She also has a Parasect next to her.
+✓ Changed out the no talking lady/Kangaskhan for a Black Belt who sells Black Belts, Expert Belts and Focus Sashes. He has a Machoke next to him.
 ✓ Changed the bottom left lady to give TM74, Pollen Puff. Her Butterfree is now a Jumpluff.
 ✓ Added a new shopkeeper that uses what was previously Celadon's TM store. This sells a bunch of evolution items, some new at this point and some not: Shiny Stone, Dusk Stone, Dawn Stone, Oval Stone, King's Rock, Linking Cord, Prism Scale, Sachet, Upgrade and the Whipped Dream.
 ✓ The bottom shopkeeper now sells incenses instead of vitamins and has a Munchlax next to him.
@@ -635,7 +636,7 @@ Victory Road
 ✓ Added the Mawilite to 3F. Moved the Rare Candy a bit to the left.
 
 Indigo Plateau
-✓ On the first entry, Karen blocks the doorway, and provides a short explanation before leaving permanently. (This was previously Will, who would hide a coin and ask you to pick "Left Hand" or "Right Hand", then head back inside).
+✓ On the first entry, Karen blocks the doorway, and provides a short explanation before leaving permanently. (This was previously Will, who would hide a coin and ask you to pick "Left Hand" or "Right Hand", then head back inside). She also gives you 4 Poké Credits during this.
 ✓ The usual blocker is moved off-map and so doesn't need to be spoken to every time.
 ✓ Will's pre-battle dialogue has been edited a little bit.
 ✓ Koga's pre-battle dialogue removes the references to specific statuses as his team only really uses poison.

@@ -32077,13 +32077,13 @@ party 356
     ivs 0
     abilityslot 0
     level LEVEL_KANTO_GYM_TRAINERS
-    pokemon SPECIES_JUMPLUFF
+    pokemon SPECIES_WHIMSICOTT
     item ITEM_MIRACLE_SEED
-    move MOVE_SEED_BOMB
-    move MOVE_BOUNCE
-    move ALLOW_ILLEGAL_MOVES ? MOVE_PLAY_ROUGH : MOVE_HEADBUTT
+    move MOVE_ENERGY_BALL
+    move MOVE_MOONBLAST
+    move MOVE_LEECH_SEED
     move MOVE_COTTON_GUARD
-    ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_WIND_RIDER : ABILITY_CHLOROPHYLL
+    ability ABILITY_PRANKSTER
     ball ITEM_POKE_BALL
     setivs 25, 25, 25, 25, 25, 25
     setevs 0, 0, 0, 0, 0, 0
@@ -46011,13 +46011,13 @@ party 723
     ivs 0
     abilityslot 0
     level LEVEL_KANTO_GYM_LEADERS
-    pokemon SPECIES_WHIMSICOTT
+    pokemon SPECIES_JUMPLUFF
     item ITEM_HEAT_ROCK
-    move MOVE_ENERGY_BALL
-    move MOVE_MOONBLAST
-    move MOVE_STUN_SPORE
+    move MOVE_BOUNCE
     move MOVE_SUNNY_DAY
-    ability ABILITY_PRANKSTER
+    move MOVE_LEECH_SEED
+    move MOVE_COTTON_GUARD
+    ability ABILITY_CHANGES_IMPLEMENTED ? ABILITY_WIND_RIDER : ABILITY_CHLOROPHYLL
     ball ITEM_FRIEND_BALL
     setivs 30, 30, 30, 30, 30, 30
     setevs 0, 0, 0, 0, 0, 0
@@ -46045,17 +46045,17 @@ party 723
     ivs 0
     abilityslot 0
     level LEVEL_KANTO_GYM_LEADERS
-    pokemon SPECIES_LILLIGANT
+    monwithform SPECIES_LILLIGANT, 1
     item ITEM_FOCUS_SASH
-    move MOVE_ENERGY_BALL
-    move MOVE_ALLURING_VOICE
-    move ALLOW_ILLEGAL_MOVES ? MOVE_EARTH_POWER : MOVE_HYPER_BEAM
-    move MOVE_QUIVER_DANCE
+    move MOVE_LEAF_BLADE
+    move MOVE_CLOSE_COMBAT
+    move MOVE_TRIPLE_AXEL
+    move MOVE_VICTORY_DANCE
     ability ABILITY_CHLOROPHYLL
     ball ITEM_FRIEND_BALL
     setivs 30, 30, 30, 30, 30, 30
     setevs 0, 0, 0, 0, 0, 0
-    nature NATURE_MODEST
+    nature NATURE_ADAMANT
     shinylock 0
     ballseal 0
 

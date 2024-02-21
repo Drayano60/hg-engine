@@ -59,19 +59,19 @@ void CheckOverworldRequestFlags(OVERWORLD_REQUEST_FLAGS *req, FieldSystem *fsys)
 {
     // Don't allow teleporting at all if flag 2167 isn't set
     if (req->OpenTeleportCheck && CheckScriptFlag(2167)) {
-        if (CheckScriptFlag(0x18D)) {
-            EventSet_Script(fsys, 2074, NULL); // set up script 2074
+        if (CheckScriptFlag(2170)) {
+            EventSet_Script(fsys, 2074, NULL); // set up script 2074 if flag 2170 is set, disallowing use of the Teleport Gem
         } else {
             EventSet_Script(fsys, 2073, NULL); // set up script 2073
         }
     }
 
     // Don't allow the PC at all if flag 398 hasn't been set
-    if (req->OpenPCCheck && CheckScriptFlag(0x18E)) {
-        if (CheckScriptFlag(0x18D)) {
+    if (req->OpenPCCheck && CheckScriptFlag(398)) {
+        if (CheckScriptFlag(397)) {
             EventSet_Script(fsys, 2072, NULL); // set up script 2072 to show a cannot use PC message if flag 397 is set
         } else {
-            SetScriptFlag(0x18F); // some random flag that should be set by script 2010 (file 3 script 10)
+            SetScriptFlag(399); // some random flag that should be set by script 2010 (file 3 script 10)
             EventSet_Script(fsys, 2075, NULL); // set up script 2075
         }
     }

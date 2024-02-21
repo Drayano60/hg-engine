@@ -27107,13 +27107,13 @@ party 411
     ivs 0
     abilityslot 0
     level LEVEL_ROUTE_27 - 1
-    pokemon SPECIES_GRUMPIG
+    pokemon SPECIES_ESPEON
     item 0
     move MOVE_PSYCHIC
     move MOVE_POWER_GEM
-    move MOVE_EARTH_POWER
-    move MOVE_TEETER_DANCE
-    ability ABILITY_THICK_FAT
+    move MOVE_SHADOW_BALL
+    move MOVE_ALLURING_VOICE
+    ability ABILITY_SYNCHRONIZE
     ball ITEM_POKE_BALL
     setivs 20, 20, 20, 20, 20, 20
     setevs 0, 0, 0, 0, 0, 0

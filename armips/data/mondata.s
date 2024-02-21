@@ -4580,7 +4580,6 @@ mondata SPECIES_SUDOWOODO, "Sudowoodo"
     mondexweight SPECIES_SUDOWOODO, "83.8 lbs."
 
 
-// ABILITY: Cacophony (2)
 mondata SPECIES_POLITOED, "Politoed"
     basestats 90, 75, 75, 70, 90, 100
     types TYPE_WATER, TYPE_WATER
@@ -4593,11 +4592,7 @@ mondata SPECIES_POLITOED, "Politoed"
     basefriendship 70 // raised up again
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_WATER_1
-    .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_WATER_ABSORB, ABILITY_CACOPHONY
-    .else
-        abilities ABILITY_WATER_ABSORB, ABILITY_DAMP
-    .endif
+    abilities ABILITY_WATER_ABSORB, ABILITY_DAMP
     runchance 25
     colorflip BODY_COLOR_GREEN, 0
     mondexentry SPECIES_POLITOED, "If POLIWAG and POLIWHIRL hear its\nechoing cry, they respond by\ngathering from far and wide."

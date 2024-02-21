@@ -93,8 +93,8 @@ encounter SPECIES_NONE, 0, 0
 encounter SPECIES_TENTACOOL, 5, 6
 encounter SPECIES_CHINCHOU, 5, 6
 encounter SPECIES_SHELLDER, 5, 6
-encounter SPECIES_SHELLDER, 5, 6
-encounter SPECIES_CHINCHOU, 5, 6
+encounter SPECIES_FINNEON, 5, 6
+encounter SPECIES_FINNEON, 5, 6
 
 // good rod encounters
 encounter SPECIES_MAGIKARP, 1, 1
@@ -403,7 +403,7 @@ encounter SPECIES_STARYU, 10, 12
 
 // old rod encounters
 encounter SPECIES_KRABBY, 5, 6
-encounter SPECIES_REMORAID, 5, 6
+encounter SPECIES_STARYU, 5, 6
 encounter SPECIES_REMORAID, 5, 6
 encounter SPECIES_CARVANHA, 5, 6
 encounter SPECIES_CARVANHA, 5, 6
@@ -818,11 +818,11 @@ encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 5, 8
-encounter SPECIES_MAGIKARP, 5, 8
-encounter SPECIES_POLIWAG, 7, 8
-encounter SPECIES_POLIWAG, 7, 8
-encounter SPECIES_FEEBAS, 5, 8
+encounter SPECIES_MAGIKARP, 5, 7
+encounter SPECIES_POLIWAG, 6, 7
+encounter SPECIES_CORPHISH, 6, 7
+encounter SPECIES_FEEBAS, 6, 7
+encounter SPECIES_FEEBAS, 6, 7
 
 // good rod encounters
 encounter SPECIES_MAGIKARP, 1, 1
@@ -1443,9 +1443,9 @@ encounter SPECIES_SLUGMA, 11, 12
 
 // old rod encounters
 encounter SPECIES_MAGIKARP, 5, 12
-encounter SPECIES_MAGIKARP, 5, 12
 encounter SPECIES_POLIWAG, 11, 12
-encounter SPECIES_POLIWAG, 11, 12
+encounter SPECIES_CORPHISH, 11, 12
+encounter SPECIES_DRATINI, 11, 12
 encounter SPECIES_DRATINI, 11, 12
 
 // good rod encounters
@@ -1546,9 +1546,9 @@ encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
+encounter SPECIES_TENTACOOL, 11, 12
 encounter SPECIES_CHINCHOU, 11, 12
-encounter SPECIES_FINNEON, 11, 12
-encounter SPECIES_FINNEON, 11, 12
+encounter SPECIES_REMORAID, 11, 12
 encounter SPECIES_QWILFISH, 11, 12
 encounter SPECIES_QWILFISH, 11, 12
 
@@ -1859,10 +1859,10 @@ encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
 encounter SPECIES_MAGIKARP, 5, 15
-encounter SPECIES_MAGIKARP, 5, 15
 encounter SPECIES_POLIWAG, 14, 15
 encounter SPECIES_POLIWAG, 14, 15
-encounter SPECIES_POLIWAG, 14, 15
+encounter SPECIES_PSYDUCK, 14, 15
+encounter SPECIES_PSYDUCK, 14, 15
 
 // good rod encounters
 encounter SPECIES_MAGIKARP, 1, 1
@@ -2066,8 +2066,8 @@ encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
+encounter SPECIES_KRABBY, 18, 19
 encounter SPECIES_CHINCHOU, 18, 19
-encounter SPECIES_FINNEON, 18, 19
 encounter SPECIES_FINNEON, 18, 19
 encounter SPECIES_CORSOLA, 18, 19
 encounter SPECIES_CORSOLA, 18, 19
@@ -2794,11 +2794,11 @@ encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_MAGIKARP, 5, 24
-encounter SPECIES_MAGIKARP, 5, 24
+encounter SPECIES_MAGIKARP, 5, 25
 encounter SPECIES_GOLDEEN, 24, 25
 encounter SPECIES_GOLDEEN, 24, 25
-encounter SPECIES_GOLDEEN, 24, 25
+encounter SPECIES_SEAKING, 25, 26
+encounter SPECIES_SEAKING, 25, 26
 
 // good rod encounters
 encounter SPECIES_MAGIKARP, 1, 1
@@ -3314,11 +3314,11 @@ encounter SPECIES_GRAVELER, 31, 31
 encounter SPECIES_DUGTRIO, 31, 31
 
 // old rod encounters
-encounter SPECIES_CHINCHOU, 29, 29
-encounter SPECIES_FINNEON, 29, 29
-encounter SPECIES_FINNEON, 29, 29
-encounter SPECIES_CORSOLA, 29, 31
-encounter SPECIES_CORSOLA, 29, 31
+encounter SPECIES_KRABBY, 28, 30
+encounter SPECIES_STARYU, 28, 30
+encounter SPECIES_CLAMPERL, 28, 30
+encounter SPECIES_CORSOLA, 30, 32
+encounter SPECIES_CORSOLA, 30, 32
 
 // good rod encounters
 encounter SPECIES_MAGIKARP, 1, 1
@@ -3734,7 +3734,7 @@ encounter SPECIES_NONE, 0, 0
 // old rod encounters
 encounter SPECIES_KRABBY, 28, 30
 encounter SPECIES_STARYU, 28, 30
-encounter SPECIES_STARYU, 28, 30
+encounter SPECIES_CLAMPERL, 28, 30
 encounter SPECIES_CORSOLA, 30, 32
 encounter SPECIES_CORSOLA, 30, 32
 
@@ -3836,11 +3836,11 @@ encounter SPECIES_KRABBY, 28, 30
 encounter SPECIES_SHUCKLE, 30, 32
 
 // old rod encounters
+encounter SPECIES_KRABBY, 28, 30
 encounter SPECIES_STARYU, 28, 30
-encounter SPECIES_CHINCHOU, 28, 30
-encounter SPECIES_CHINCHOU, 28, 30
 encounter SPECIES_CLAMPERL, 28, 30
-encounter SPECIES_CLAMPERL, 28, 30
+encounter SPECIES_CORSOLA, 30, 32
+encounter SPECIES_CORSOLA, 30, 32
 
 // good rod encounters
 encounter SPECIES_MAGIKARP, 1, 1
@@ -3941,9 +3941,9 @@ encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
 encounter SPECIES_HORSEA, 28, 30
+encounter SPECIES_CHINCHOU, 28, 30
 encounter SPECIES_SHELLDER, 28, 30
-encounter SPECIES_SHELLDER, 28, 30
-encounter SPECIES_WAILMER, 28, 30
+encounter SPECIES_FINNEON, 28, 30
 encounter SPECIES_WAILMER, 28, 30
 
 // good rod encounters
@@ -4033,11 +4033,11 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_WINGULL, 28, 30
-encounter SPECIES_TENTACOOL, 28, 30
-encounter SPECIES_TENTACOOL, 28, 30
-encounter SPECIES_PELIPPER, 30, 32
-encounter SPECIES_TENTACRUEL, 30, 32
+encounter SPECIES_KRABBY, 28, 30
+encounter SPECIES_STARYU, 28, 30
+encounter SPECIES_CLAMPERL, 28, 30
+encounter SPECIES_CORSOLA, 30, 32
+encounter SPECIES_CORSOLA, 30, 32
 
 // rock smash encounters
 encounter SPECIES_KRABBY, 28, 30
@@ -4252,11 +4252,11 @@ encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_CHINCHOU, 31, 33
+encounter SPECIES_LUVDISC, 31, 33
 encounter SPECIES_SHELLDER, 31, 33
-encounter SPECIES_STARYU, 31, 33
 encounter SPECIES_LANTURN, 34, 36
-encounter SPECIES_LANTURN, 34, 36
+encounter SPECIES_OCTILLERY, 34, 36
+encounter SPECIES_OCTILLERY, 34, 36
 
 // good rod encounters
 encounter SPECIES_MAGIKARP, 1, 1
@@ -4669,10 +4669,10 @@ encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
 encounter SPECIES_MAGIKARP, 5, 40
-encounter SPECIES_MAGIKARP, 5, 40
-encounter SPECIES_MAGIKARP, 5, 40
-encounter SPECIES_FEEBAS, 5, 40
 encounter SPECIES_GYARADOS, 40, 45
+encounter SPECIES_GYARADOS, 40, 45
+encounter SPECIES_FEEBAS, 5, 40
+encounter SPECIES_FEEBAS, 5, 40
 
 // good rod encounters
 encounter SPECIES_MAGIKARP, 1, 1
@@ -5814,11 +5814,11 @@ encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
+encounter SPECIES_LUVDISC, 25, 27
 encounter SPECIES_CHINCHOU, 25, 27
+encounter SPECIES_REMORAID, 25, 27
 encounter SPECIES_SHELLDER, 25, 27
-encounter SPECIES_SHELLDER, 25, 27
-encounter SPECIES_TENTACOOL, 25, 27
-encounter SPECIES_TENTACOOL, 25, 27
+encounter SPECIES_FINNEON, 25, 27
 
 // good rod encounters
 encounter SPECIES_MAGIKARP, 1, 1
@@ -5919,10 +5919,10 @@ encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
 encounter SPECIES_LUVDISC, 44, 48
-encounter SPECIES_LUVDISC, 44, 48
-encounter SPECIES_LUVDISC, 44, 48
 encounter SPECIES_LANTURN, 53, 55
+encounter SPECIES_OCTILLERY, 53, 55
 encounter SPECIES_CLOYSTER, 53, 55
+encounter SPECIES_LUMINEON, 53, 55
 
 // good rod encounters
 encounter SPECIES_MAGIKARP, 1, 1
@@ -9772,7 +9772,7 @@ encounter SPECIES_NONE, 0, 0
 encounter SPECIES_SEADRA, KLL, KLL
 encounter SPECIES_CLOYSTER, KLL, KLL
 encounter SPECIES_LANTURN, KLL, KLL
-encounter SPECIES_LUMINEON, KLL, KLL
+encounter SPECIES_OCTILLERY, KLL, KLL
 encounter SPECIES_LUMINEON, KLL, KLL
 
 // good rod encounters
@@ -9876,7 +9876,7 @@ encounter SPECIES_NONE, 0, 0
 encounter SPECIES_SEADRA, KLL, KLL
 encounter SPECIES_CLOYSTER, KLL, KLL
 encounter SPECIES_LANTURN, KLL, KLL
-encounter SPECIES_LUMINEON, KLL, KLL
+encounter SPECIES_OCTILLERY, KLL, KLL
 encounter SPECIES_LUMINEON, KLL, KLL
 
 // good rod encounters

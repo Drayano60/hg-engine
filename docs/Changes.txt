@@ -79,6 +79,7 @@ Violet City
 ✓ The old man with the Abra now appears just outside Sprout Tower, and gives you a Teleport Gem which enables the fast travel by pressing START.
 ✓ Added a Maid in the Pokémon Center who mentions the counters at the back (as they're probably easy to miss otherwise).
 ✓ Added a new NPC in the house with the trade that gives you a Soothe Bell.
+✓ The Teleport Gem is disabled when the Togepi egg is received until after the Kimono Girl talk.
 - Added an NPC and an Eevee in the Pokémon Center who asks you what she should evolve her Eevee into. Picking a specific Eeveelution will make the Mystery Stone always evolve Eevee into the chosen one. Then removed it later.
 
 Sprout Tower
@@ -186,7 +187,7 @@ Azalea Town - Gym
 ✓ After receiving the Key Stone, Bugsy can be challenged to a rematch where he will award you with the Scizorite if you win. He can be rematched for no reward each time you enter the area.
 ✓ Defeating Bugsy now activates the Azalea Silver fight.
 ✓ Bugsy no longer disappears from the Gym.
-✓ Bugsy now awards you 4 Poké Credits after you earn the Hive Badge.
+✓ Bugsy now awards you 4 Poké Credits after you earn the Hive Badge and mentions that you can teach moves at the Pokémon Center.
 
 Ilex Forest
 ✓ Shifted all of the triggers/overworlds involving the Farfetch'd thing to the bottom left, out of bounds. Annoying to do on replays.
@@ -211,6 +212,7 @@ Route 34
 ✓ Added an Ethan/Lyra battle on top of the existing script. They give you an Eviolite when defeated.
 ✓ The Ace Trainers now give you an Ability Patch instead.
 ✓ The first time you talk to the Day-Care Man, he'll give you an "Odd Egg" which can be any of the baby Pokémon except for Togepi. The Pokémon will always have its hidden ability.
+✓ The Teleport Gem is disabled after entering the Day-Care with Ethan/Lyra until after leaving and talking with the Day-Care Man.
 
 Goldenrod City
 ✓ The Game Corner now uses the building from the Japanese versions but still has Voltorb Flip on the machines. It's still header 536 but with the textures/map file pointing to the old stuff.
@@ -281,6 +283,7 @@ Goldenrod City - Gym
 ✓ After receiving the Key Stone, Whitney can be challenged to a rematch where she will award you with the Lopunnite if you win. She can be rematched for no reward each time you enter the area.
 ✓ Whitney no longer disappears from the Gym.
 ✓ Whitney now awards you 4 Poké Credits after you earn the Plain Badge.
+✓ The Teleport Gem is disabled after defeating Whitney until you receive the Plain Badge.
 
 Route 37
 ✓ Added a green apricorn tree.
@@ -419,7 +422,8 @@ Cianwood City - Gym
 ✓ After exiting the Gym and receiving HM02 Fly, Baoba calls you at this point and activates the Rocket events. (This is done using Script 7 in Cianwood City.) (Unlike the Olivine one, this does not set variable 0x40A5 at all.)
 ✓ After receiving the Key Stone, Chuck can be challenged to a rematch where he will award you with the Medichamite if you win. He can be rematched for no reward each time you enter the area.
 ✓ Chuck no longer disappears from the Gym.
-✓ Chuck now awards you 4 Poké Credits after you earn the Storm Badge.
+✓ Chuck now awards you 4 Poké Credits after you earn the Storm Badge and mentions that you can teach moves at the Pokémon Center.
+✓ The Teleport Gem is disabled after defeating Chuck until you've received the call from Baoba outside.
 
 Cliff Edge Gate
 ✓ Added an item ball with the Rocky Helmet.
@@ -513,6 +517,7 @@ Mahogany Town - Gym
 ✓ Elm's call after leaving the Gym now briefly mentions Mega Evolution, as a setup for later when he gives you the Key Stone.
 ✓ Pryce no longer disappears from the Gym.
 ✓ Pryce now awards you 4 Poké Credits after you earn the Glacier Badge.
+✓ The Teleport Gem is disabled after defeating Pryce until you've received the call from Prof. Elm outside.
 
 Whirl Islands
 ✓ Ultra Ball -> Dragon Scale. Carbos -> Damp Rock. Escape Rope -> Ultra Ball.
@@ -542,6 +547,7 @@ Radio Tower
 ✓ Added a clown on 4F. After defeating Team Rocket, he gives you TM92, Trick Room.
 ✓ The Director now instead gives you the Clear Bell, and his dialogue is adjusted a bit to be more like Crystal's while still maintaining the HGSS story with the Kimono Girls.
 ✓ DJ Mary now gives you three Throat Sprays instead of the Bright Powder.
+✓ The Teleport Gem is disabled after defeating Giovanni until you've spoken to Looker.
 
 Goldenrod Tunnel (Rocket)
 ✓ Full Heal -> Magmarizer.
@@ -578,7 +584,8 @@ Dragon's Den
 ✓ The Elder's Dratini gift is now Lv. 20 and always knows the move Barrier. Answering the Elder's quiz correctly means it's also a forced shiny.
 ✓ One of the old man has been yeeted and his dialogue added to the other old man's. In his place is an old woman who can teach a Pokémon Dragon Dance.
 ✓ The call from Elm that occurs after leaving Dragon's Den now mentions Mega Evolution.
-✓ Clair now awards you 4 Poké Credits after you earn the Rising Badge.
+✓ Clair now awards you 4 Poké Credits after you earn the Rising Badge and mentions that you can teach moves at the Pokémon Center.
+✓ The Teleport Gem is disabled after finishing the quiz until you leave and take Elm's call outside.
 
 New Bark Town - Post Gym 8
 ✓ Instead of the Master Ball, Elm now gives you (and Ethan/Lyra) the Key Stone and an Ampharosite, and some explanations of doing so.
@@ -646,9 +653,11 @@ Indigo Plateau
 ? The game seems to crash after "THE END". It saves well before so it's not a massive issue, but it's a strange one. Might be HG-e related.
 ✓ Added a trade in the lobby next to the Poké Mart for a Carbink in exchange for any Ghost-type.
 ✓ Upon entry, a flag is set to disable the use of the portable PC. This is cleared upon any loss in the E4 or during the walk up to Lance.
+✓ The Teleport Gem is disabled when entering the E4, and is re-enabled upon any losses or defeating Lance.
 
 S.S. Aqua
 ✓ On the initial voyage, there's now a Sailor in front of the Captain's room that needs to be fought before you can enter.
+✓ The Teleport Gem is disabled when entering the S.S. Aqua. It gets re-enabled after exiting to either the Vermilion or Olivine ports.
 
 Celadon City
 ✓ Changed Dept Store 2F shops to #23 and #4 as #18 and #19 are repurposed. Selection is similar but reduced amount of healing items.

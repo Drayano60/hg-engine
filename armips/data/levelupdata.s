@@ -8060,6 +8060,7 @@ levelup SPECIES_GALLADE
     learnset MOVE_AQUA_CUTTER, 1
     learnset MOVE_LEAF_BLADE, 1
     learnset MOVE_NIGHT_SLASH, 1
+    learnset MOVE_SHADOW_SNEAK, 1
     learnset MOVE_SPIRIT_BREAK, 1
     learnset MOVE_FOCUS_ENERGY, 1
     learnset MOVE_HELPING_HAND, 1
@@ -8809,6 +8810,7 @@ levelup SPECIES_VOLBEAT
     learnset MOVE_HELPING_HAND, 1
     learnset MOVE_FLASH, 1
     learnset MOVE_TACKLE, 1
+    learnset MOVE_ATTRACT, 1
     learnset MOVE_PLAY_NICE, 1
     learnset MOVE_DOUBLE_TEAM, 3
     learnset MOVE_CONFUSE_RAY, 6
@@ -8824,19 +8826,20 @@ levelup SPECIES_VOLBEAT
     .else
     .endif
 
-    learnset MOVE_PROTECT, 28
-    learnset MOVE_ZEN_HEADBUTT, 32
-    learnset MOVE_BATON_PASS, 36
-    learnset MOVE_BUG_BUZZ, 40
-    learnset MOVE_PLAY_ROUGH, 44
+    learnset MOVE_PROTECT, 27
+    learnset MOVE_ZEN_HEADBUTT, 30
+    learnset MOVE_BATON_PASS, 33
+    learnset MOVE_BUG_BUZZ, 36
+    learnset MOVE_CAPTIVATE, 39
+    learnset MOVE_PLAY_ROUGH, 42
+    learnset MOVE_LIGHT_SCREEN, 45
+    learnset MOVE_DOUBLE_EDGE, 48
 
     .if TYPE_CHANGES_IMPLEMENTED
-        learnset MOVE_WILD_CHARGE, 44
+        learnset MOVE_WILD_CHARGE, 48
     .else
     .endif
 
-    learnset MOVE_LIGHT_SCREEN, 48
-    learnset MOVE_DOUBLE_EDGE, 52
     terminatelearnset
 
 // NEW: Moonblast, Quiver Dance
@@ -8845,6 +8848,7 @@ levelup SPECIES_ILLUMISE
     learnset MOVE_HELPING_HAND, 1
     learnset MOVE_COVET, 1
     learnset MOVE_TACKLE, 1
+    learnset MOVE_ATTRACT, 1
     learnset MOVE_PLAY_NICE, 1
     learnset MOVE_SWEET_SCENT, 3
     learnset MOVE_CHARM, 6
@@ -8854,19 +8858,20 @@ levelup SPECIES_ILLUMISE
     learnset MOVE_MOONLIGHT, 18
     learnset MOVE_WISH, 21
     learnset MOVE_ENCORE, 24
-    learnset MOVE_FLATTER, 28
-    learnset MOVE_ZEN_HEADBUTT, 32
+    learnset MOVE_FLATTER, 27
+    learnset MOVE_ZEN_HEADBUTT, 30
 
     .if TYPE_CHANGES_IMPLEMENTED
-        learnset MOVE_DAZZLING_GLEAM, 32
+        learnset MOVE_DAZZLING_GLEAM, 30
     .else
     .endif
 
-    learnset MOVE_BATON_PASS, 36
-    learnset MOVE_BUG_BUZZ, 40
-    learnset MOVE_MOONBLAST, 44
-    learnset MOVE_AROMATHERAPY, 48
-    learnset MOVE_QUIVER_DANCE, 52
+    learnset MOVE_BATON_PASS, 33
+    learnset MOVE_BUG_BUZZ, 36
+    learnset MOVE_CAPTIVATE, 39
+    learnset MOVE_MOONBLAST, 42
+    learnset MOVE_AROMATHERAPY, 45
+    learnset MOVE_QUIVER_DANCE, 48
     terminatelearnset
 
 levelup SPECIES_BUDEW
@@ -22759,11 +22764,13 @@ levelup SPECIES_MEGA_GALLADE
     learnset MOVE_AQUA_CUTTER, 1
     learnset MOVE_LEAF_BLADE, 1
     learnset MOVE_NIGHT_SLASH, 1
+    learnset MOVE_SHADOW_SNEAK, 1
     learnset MOVE_SPIRIT_BREAK, 1
     learnset MOVE_FOCUS_ENERGY, 1
     learnset MOVE_HELPING_HAND, 1
     learnset MOVE_IMPRISON, 1
     learnset MOVE_SLASH, 1
+    learnset MOVE_MAGICAL_LEAF, 1
     learnset MOVE_LEER, 1
     learnset MOVE_TELEPORT, 1
     learnset MOVE_FURY_CUTTER, 1

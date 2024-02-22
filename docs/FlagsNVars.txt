@@ -140,7 +140,7 @@ NPCs:
 2215 - TM73 Thunder Wave item ball on Route 37
 2216 - Rocky Helmet item ball in Cliff Edge Gate
 2217 - TM37 Sandstorm item ball in Cliff Cave
-2218 - King's Rock item ball in Slowpoke Well
+2218 - King's Rock item ball in Slowpoke Well [REMOVED]
 2219 - Dragon Fang item ball in Blackthorn City
 2220 - TM70 Mystical Fire item ball in Bell Tower
 2221 - Sacred Ash item ball in Bell Tower

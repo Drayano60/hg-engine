@@ -34989,7 +34989,7 @@ endparty
 
 trainerdata 548, "Manford"
     trainermontype TRAINER_MON_TYPE_FLAGS
-    trainerclass ITEM_BLACK_BELT
+    trainerclass CLASS_BLACK_BELT
     nummons 1
     item 0 
     item 0 

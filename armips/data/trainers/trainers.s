@@ -88,11 +88,11 @@ LEVEL_LANCE equ 65
 
 LEVEL_JOHTO_LEADER_REMATCH equ 60
 
-LEVEL_SS_AQUA equ 66
-LEVEL_KANTO_GYM_TRAINERS equ 70
-LEVEL_KANTO_GYM_LEADERS equ 72
+LEVEL_SS_AQUA equ 63
+LEVEL_KANTO_GYM_TRAINERS equ 68
+LEVEL_KANTO_GYM_LEADERS equ 70
 
-LEVEL_KANTO_TRAINERS equ 68
+LEVEL_KANTO_TRAINERS equ 65
 LEVEL_KANTO_TRAINER_BONUS equ 2
 LEVEL_KANTO_TRAINER_BONUS_2 equ 4
 
@@ -27107,13 +27107,13 @@ party 411
     ivs 0
     abilityslot 0
     level LEVEL_ROUTE_27 - 1
-    pokemon SPECIES_ESPEON
+    pokemon SPECIES_WYRDEER
     item 0
-    move MOVE_PSYCHIC
-    move MOVE_POWER_GEM
-    move MOVE_SHADOW_BALL
-    move MOVE_ALLURING_VOICE
-    ability ABILITY_SYNCHRONIZE
+    move MOVE_DOUBLE_EDGE
+    move MOVE_PSYSHIELD_BASH
+    move MOVE_JUMP_KICK
+    move MOVE_MEGAHORN
+    ability ABILITY_INTIMIDATE
     ball ITEM_POKE_BALL
     setivs 20, 20, 20, 20, 20, 20
     setevs 0, 0, 0, 0, 0, 0
@@ -30393,7 +30393,7 @@ trainerdata 425, "Meg & Peg"
     item 0 
     item 0
     aiflags TRAINER_AI_FLAGS
-    battletype SINGLE_BATTLE
+    battletype DOUBLE_BATTLE
     endentry
 
 party 425
@@ -31059,7 +31059,7 @@ party 253
     move MOVE_EARTHQUAKE
     move MOVE_BODY_PRESS
     move MOVE_STEALTH_ROCK
-    ability ABILITY_STURDY
+    ability ABILITY_SAND_STREAM
     ball ITEM_ULTRA_BALL
     setivs 30, 30, 30, 30, 30, 30
     setevs 0, 0, 0, 0, 0, 0
@@ -35344,7 +35344,7 @@ endparty
 trainerdata 599, "Virgil"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_CAMPER
-    nummons 1
+    nummons 2
     item 0 
     item 0 
     item 0 
@@ -35356,7 +35356,24 @@ trainerdata 599, "Virgil"
 party 599
     ivs 0
     abilityslot 0
-    level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS
+    level LEVEL_KANTO_TRAINERS
+    pokemon SPECIES_KECLEON
+    item 0
+    move MOVE_SLASH
+    move MOVE_SHADOW_CLAW
+    move 0
+    move 0
+    ability ABILITY_COLOR_CHANGE
+    ball ITEM_POKE_BALL
+    setivs 15, 15, 15, 15, 15, 15
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_SLAKING
     item 0
     move MOVE_DOUBLE_EDGE
@@ -35375,7 +35392,7 @@ endparty
 trainerdata 600, "Selina"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_PICNICKER
-    nummons 1
+    nummons 2
     item 0 
     item 0 
     item 0 
@@ -35387,7 +35404,24 @@ trainerdata 600, "Selina"
 party 600
     ivs 0
     abilityslot 0
-    level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS
+    level LEVEL_KANTO_TRAINERS
+    pokemon SPECIES_SUNFLORA
+    item 0
+    move MOVE_PETAL_DANCE
+    move MOVE_SUNNY_DAY
+    move 0
+    move 0
+    ability ABILITY_CHLOROPHYLL
+    ball ITEM_POKE_BALL
+    setivs 15, 15, 15, 15, 15, 15
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_CHERRIM
     item 0
     move MOVE_PETAL_DANCE
@@ -35804,13 +35838,13 @@ party 149
     ivs 0
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
-    pokemon SPECIES_SANDSLASH
+    pokemon SPECIES_FLYGON
     item 0
-    move MOVE_EARTHQUAKE
-    move MOVE_GYRO_BALL
+    move MOVE_DRAGON_PULSE
+    move MOVE_EARTH_POWER
     move 0
     move 0
-    ability ABILITY_SAND_VEIL
+    ability ABILITY_LEVITATE
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
     setevs 0, 0, 0, 0, 0, 0
@@ -36046,7 +36080,7 @@ endparty
 trainerdata 380, "Owen"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_YOUNGSTER
-    nummons 1
+    nummons 2
     item 0 
     item 0 
     item 0 
@@ -36058,7 +36092,24 @@ trainerdata 380, "Owen"
 party 380
     ivs 0
     abilityslot 0
-    level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS
+    level LEVEL_KANTO_TRAINERS
+    pokemon SPECIES_ARCANINE
+    item 0
+    move MOVE_FLAMETHROWER
+    move MOVE_CRUNCH
+    move 0
+    move 0
+    ability ABILITY_INTIMIDATE
+    ball ITEM_POKE_BALL
+    setivs 15, 15, 15, 15, 15, 15
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level LEVEL_KANTO_TRAINERS
     pokemon SPECIES_STOUTLAND
     item 0
     move MOVE_TAKE_DOWN
@@ -36090,13 +36141,13 @@ party 381
     ivs 0
     abilityslot 0
     level LEVEL_KANTO_TRAINERS
-    pokemon SPECIES_FLYGON
+    pokemon SPECIES_SANDSLASH
     item 0
-    move MOVE_DRAGON_PULSE
-    move MOVE_EARTH_POWER
+    move MOVE_EARTHQUAKE
+    move MOVE_CRUSH_CLAW
     move 0
     move 0
-    ability ABILITY_LEVITATE
+    ability ABILITY_SAND_VEIL
     ball ITEM_POKE_BALL
     setivs 15, 15, 15, 15, 15, 15
     setevs 0, 0, 0, 0, 0, 0
@@ -36125,7 +36176,7 @@ endparty
 trainerdata 316, "Herman"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_PSYCHIC_M
-    nummons 1
+    nummons 3
     item 0 
     item 0 
     item 0 
@@ -36137,7 +36188,41 @@ trainerdata 316, "Herman"
 party 316
     ivs 0
     abilityslot 0
-    level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS_2
+    level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS
+    pokemon SPECIES_EXEGGUTOR
+    item 0
+    move MOVE_WOOD_HAMMER
+    move MOVE_PSYCHIC
+    move 0
+    move 0
+    ability ABILITY_CHLOROPHYLL
+    ball ITEM_POKE_BALL
+    setivs 20, 20, 20, 20, 20, 20
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS
+    pokemon SPECIES_EXEGGUTOR
+    item 0
+    move MOVE_WOOD_HAMMER
+    move MOVE_PSYCHIC
+    move 0
+    move 0
+    ability ABILITY_CHLOROPHYLL
+    ball ITEM_POKE_BALL
+    setivs 20, 20, 20, 20, 20, 20
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level LEVEL_KANTO_TRAINERS + LEVEL_KANTO_TRAINER_BONUS
     pokemon SPECIES_EXEGGUTOR
     item 0
     move MOVE_WOOD_HAMMER

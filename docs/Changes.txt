@@ -5,6 +5,7 @@ Introduction
 ✓ Professor Oak's text is changed a bit to shorten it and also detach the character selection from the player's self.
 ✓ The Running Shoes are now given in Script File 149 (which is run before the game starts), giving the player access to them instantly.
 ✓ Flags 283, 284, 285 and 286 are set just below the running shoes, giving the player access to the Bag, Trainer Card, Save and Options buttons on the bottom screen.
+✓ Flag 609 is also set, hiding the Route 11 Snorlax. Flag 795 is no longer set so the Route 12 Snorlax is revealed.
 
 New Bark Town - Player's House
 ✓ The mother's dialogue is changed a bit. She now gives you the Bicycle, GB Sounds and Pokégear (Flag 156). The Pokégear is also auto-fitted with the Map Card (UpgradePokegear 1) and Radio Card (UpgradePokegear 2). Flag 280 is also set to allow the radio signal to work in Kanto too (which immediately resolves the power outage problems in Kanto).
@@ -321,6 +322,7 @@ Route 42
 ✓ Adjusted trainer directions a little.
 ✓ Dubious Disc -> TM88 Air Slash.
 ✓ Super Potion -> Rare Candy and moved behind the Cut tree.
+✓ Edited the Suicune script here so it no longer activates the stuff in Vermilion City. (The one here also gets disabled after defeating the Kimono Girls).
 
 Mahogany Town
 ✓ Route 43 is blocked off until after Jasmine.
@@ -656,8 +658,16 @@ Indigo Plateau
 ✓ The Teleport Gem is disabled when entering the E4, and is re-enabled upon any losses or defeating Lance.
 
 S.S. Aqua
+✓ Prior to boarding (in the harbour building), Looker replaces Oak and says some dialogue referencing that Team Rocket are still out and about.
 ✓ On the initial voyage, there's now a Sailor in front of the Captain's room that needs to be fought before you can enter.
 ✓ The Teleport Gem is disabled when entering the S.S. Aqua. It gets re-enabled after exiting to either the Vermilion or Olivine ports.
+
+Route 11
+✓ The Snorlax in front of Diglett's Cave no longer appears.
+✓ Swapped the positions of Youngster Owen and Psychic Fidel so you see the lower leveled mon first.
+
+Route 12
+✓ The Snorlax that would normally appear only if the original Snorlax is KOed now always appears here. It still requires the EXPN Card to get the Poké Flute to wake it.
 
 Celadon City
 ✓ Changed Dept Store 2F shops to #23 and #4 as #18 and #19 are repurposed. Selection is similar but reduced amount of healing items.

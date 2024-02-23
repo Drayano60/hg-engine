@@ -11,8 +11,8 @@
 NEW_ROCK_SMASH_RATE equ 150
 FISHING_RATE equ 200
 
-KLL equ 60 // Kanto Lower Level
-KHL equ 65 // Kanto Higher Level
+KLL equ 58 // Kanto Lower Level
+KHL equ 60 // Kanto Higher Level
 KPL equ 68 // Kanto Post Level (Cerulean Cave / Mt Silver)
 
 /******************************************************** JOHTO HALF ********************************************************/

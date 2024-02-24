@@ -7,6 +7,8 @@
 .include "armips/include/monnums.s"
 .include "armips/include/movenums.s"
 
+PARENTAL_BOND_SUBSCRIPT equ (353)
+
 .create "build/move/battle_eff_seq/0_097", 0
 
 // Sleep Talk
@@ -19,9 +21,15 @@ a030_097:
     gotosubscript 20
     trysleeptalk Failed
     gotosubscript 76
+    ifcurrentmoveisvalidparentalbondmove DoParentalBond
+Continue:
     jumptoeffectscript 0
 Failed:
     changevar VAR_OP_SETMASK, VAR_MOVE_STATUS, 0x40
     endscript
+
+DoParentalBond:
+    gotosubscript PARENTAL_BOND_SUBSCRIPT
+    goto Continue
 
 .close

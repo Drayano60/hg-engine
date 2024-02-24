@@ -338,6 +338,7 @@ enum
 // items that display messages.
     SWITCH_IN_CHECK_AIR_BALLOON,
     SWITCH_IN_CHECK_FIELD,
+    SWITCH_IN_CHECK_SURGE_ABILITY,
     SWITCH_IN_CHECK_TERRAIN_SEED,
     SWITCH_IN_CHECK_END,
 };
@@ -1431,6 +1432,45 @@ int SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
                     }
                 }
                 sp->switch_in_check_seq_no++;
+                break;
+            case SWITCH_IN_CHECK_SURGE_ABILITY:
+                for (i = 0; i < client_set_max; i++) {
+                    client_no = sp->turn_order[i];
+                    if (sp->battlemon[client_no].ability_activated_flag == 0 &&
+                        (sp->battlemon[client_no].hp)) {
+                        switch (GetBattlerAbility(sp, client_no)) {
+                            case ABILITY_GRASSY_SURGE:
+                                sp->current_move_index = MOVE_GRASSY_TERRAIN;  // force move anim to play
+                                ret = SWITCH_IN_CHECK_MOVE_SCRIPT;
+                                break;
+                            case ABILITY_MISTY_SURGE:
+                                sp->current_move_index = MOVE_MISTY_TERRAIN;  // force move anim to play
+                                ret = SWITCH_IN_CHECK_MOVE_SCRIPT;
+                                break;
+                            case ABILITY_ELECTRIC_SURGE:
+                                sp->current_move_index = MOVE_ELECTRIC_TERRAIN;  // force move anim to play
+                                ret = SWITCH_IN_CHECK_MOVE_SCRIPT;
+                                break;
+                            case ABILITY_PSYCHIC_SURGE:
+                                sp->current_move_index = MOVE_PSYCHIC_TERRAIN;  // force move anim to play
+                                ret = SWITCH_IN_CHECK_MOVE_SCRIPT;
+                                break;
+
+                            default:
+                                break;
+                        }
+
+                        if (ret == SWITCH_IN_CHECK_MOVE_SCRIPT) {
+                            sp->battlemon[client_no].ability_activated_flag = 1;
+                            sp->attack_client = client_no;
+                            scriptnum = SUB_SEQ_CREATE_TERRAIN_OVERLAY;
+                            break;
+                        }
+                    }
+                }
+                if (i == (s32)client_set_max) {
+                    sp->switch_in_check_seq_no++;
+                }
                 break;
             case SWITCH_IN_CHECK_TERRAIN_SEED:;
                 u16 heldItem;
@@ -2738,8 +2778,8 @@ BOOL ServerFlinchCheck(void *bw, struct BattleStruct *sp)
          && (sp->moveTbl[sp->current_move_index].effect != MOVE_EFFECT_FLINCH_BURN_HIT_2)
          && (sp->moveTbl[sp->current_move_index].effect != MOVE_EFFECT_FLINCH_MINIMIZE_DOUBLE_HIT)
          && (sp->moveTbl[sp->current_move_index].effect != MOVE_EFFECT_SECRET_POWER) // Possibly inaccurate
-         && (sp->moveTbl[sp->current_move_index].effect != MOVE_EFFECT_SKY_ATTACK)
-         && (sp->moveTbl[sp->current_move_index].effect != MOVE_EFFECT_SNORE)
+         && (sp->moveTbl[sp->current_move_index].effect != MOVE_EFFECT_CHARGE_TURN_HIGH_CRIT_FLINCH)
+         && (sp->moveTbl[sp->current_move_index].effect != MOVE_EFFECT_DAMAGE_WHILE_ASLEEP)
          && (sp->moveTbl[sp->current_move_index].effect != MOVE_EFFECT_FLINCH_DOUBLE_DAMAGE_FLY_OR_BOUNCE)
          && (sp->current_move_index != MOVE_FAKE_OUT) // First Impression shares same effect but should flinch
          && (sp->battlemon[sp->defence_client].hp))
@@ -2809,7 +2849,7 @@ void ServerWazaOutAfterMessage(void *bw, struct BattleStruct *sp)
                 int seq_no;
 
                 sp->swoam_seq_no++;
-                if ((ST_ServerAddStatusCheck(bw, sp, &seq_no) == TRUE) && ((sp->waza_status_flag & WAZA_STATUS_FLAG_HAZURE) == 0))
+                if ((ST_ServerAddStatusCheck(bw, sp, &seq_no) == TRUE) && ((sp->waza_status_flag & MOVE_STATUS_FLAG_FAILURE_ANY) == 0))
                 {
                     LoadBattleSubSeqScript(sp, ARC_BATTLE_SUB_SEQ, seq_no);
                     sp->next_server_seq_no = sp->server_seq_no;
@@ -2886,7 +2926,7 @@ void ServerWazaOutAfterMessage(void *bw, struct BattleStruct *sp)
                 int seq_no;
 
                 sp->swoam_seq_no++;
-                if ((ST_ServerAddStatusCheck(bw, sp, &seq_no) == TRUE) && ((sp->waza_status_flag & WAZA_STATUS_FLAG_HAZURE) == 0))
+                if ((ST_ServerAddStatusCheck(bw, sp, &seq_no) == TRUE) && ((sp->waza_status_flag & MOVE_STATUS_FLAG_FAILURE_ANY) == 0))
                 {
                     LoadBattleSubSeqScript(sp, ARC_BATTLE_SUB_SEQ, seq_no);
                     sp->next_server_seq_no = sp->server_seq_no;
@@ -3136,7 +3176,8 @@ void ServerDoPostMoveEffects(void *bw, struct BattleStruct *sp)
                  && (sp->defence_client != sp->attack_client)
                  && ((sp->oneSelfFlag[sp->defence_client].physical_damage) || (sp->oneSelfFlag[sp->defence_client].special_damage))
                  && (sp->battlemon[sp->defence_client].hp)
-                 && ((movetype == TYPE_FIRE) || (sp->current_move_index == MOVE_SCALD) || (sp->current_move_index == MOVE_SCORCHING_SANDS))) // scald can also melt opponents as of gen 6, so can scorching sands
+                 && ((movetype == TYPE_FIRE) || (sp->current_move_index == MOVE_SCALD) || (sp->current_move_index == MOVE_SCORCHING_SANDS) || (sp->current_move_index == MOVE_STEAM_ERUPTION)) // scald can also melt opponents as of gen 6
+                 && sp->battlemon[sp->attack_client].parental_bond_flag == 0)
                 {
                     sp->client_work = sp->defence_client;
                     LoadBattleSubSeqScript(sp, ARC_BATTLE_SUB_SEQ, SUB_SEQ_THAW_OUT);

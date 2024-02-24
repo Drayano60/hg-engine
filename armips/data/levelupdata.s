@@ -8383,7 +8383,7 @@ levelup SPECIES_MAKUHITA
     learnset MOVE_KNOCK_OFF, 18
     learnset MOVE_VITAL_THROW, 21
     learnset MOVE_BELLY_DRUM, 25
-    learnset MOVE_SMELLING_SALT, 29
+    learnset MOVE_SMELLING_SALTS, 29
     learnset MOVE_SEISMIC_TOSS, 33
     learnset MOVE_CROSS_CHOP, 37
     learnset MOVE_ENDURE, 41
@@ -8413,7 +8413,7 @@ levelup SPECIES_HARIYAMA
     learnset MOVE_KNOCK_OFF, 18
     learnset MOVE_VITAL_THROW, 21
     learnset MOVE_BELLY_DRUM, 28
-    learnset MOVE_SMELLING_SALT, 32
+    learnset MOVE_SMELLING_SALTS, 32
     learnset MOVE_SEISMIC_TOSS, 36
     learnset MOVE_CROSS_CHOP, 40
     learnset MOVE_ENDURE, 44

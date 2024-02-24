@@ -21,7 +21,7 @@ int AdjustDamageForRoll(void *bw, struct BattleStruct *sp, int damage);
 
 
 
-struct __attribute__((packed)) sDamageCalc
+struct PACKED sDamageCalc
 {
     u16 species;
     s16 hp;
@@ -81,12 +81,12 @@ static const u8 HeldItemPowerUpTable[][2]={
 };
 
 static const u16 RecklessMoveEffectsTable[] = {
-    MOVE_EFFECT_RECOIL_ON_MISS,
-    MOVE_EFFECT_ONE_QUARTER_RECOIL,
-    MOVE_EFFECT_RECOIL_HIT,
+    MOVE_EFFECT_CRASH_ON_MISS,
+    MOVE_EFFECT_RECOIL_QUARTER_DAMAGE_DELT,
+    MOVE_EFFECT_RECOIL_THIRD,
     MOVE_EFFECT_RECOIL_BURN_HIT,
     MOVE_EFFECT_RECOIL_PARALYZE_HIT,
-    MOVE_EFFECT_ONE_HALF_RECOIL,
+    MOVE_EFFECT_RECOIL_HALF,
 };
 
 /* I've used the appeal field as extra move flags so these aren't needed
@@ -199,38 +199,35 @@ const u8 StatBoostModifiers[][2] = {
 // The damage boost does still apply if the target has Sticky Hold or is behind a substitute, even though the item isn't removed.
 BOOL isKnockOffBonusDamageItem(struct BattleStruct *sp)
 {
-    u16 defender_species = sp->battlemon[sp->defence_client].species;
-    u16 defender_item = sp->battlemon[sp->defence_client].item;
+    u16 species = sp->battlemon[sp->defence_client].species;
+    u16 item = sp->battlemon[sp->defence_client].item;
 
-    // No bonus damage if no item.
-    if (!defender_item) {
-        return FALSE;
-    }
-
-    // No bonus damage if item is a Mega Stone or Primal Reversion item.
-    // This isn't strictly correct, it should only be if the Pokémon can USE the Mega Stone/Orb. But that'd be a lot of code.
-    if (IS_ITEM_MEGA_STONE(defender_item) || defender_item == ITEM_RED_ORB || defender_item == ITEM_BLUE_ORB) {
-        return FALSE;
-    }
-    
-    // No bonus damage if the target is Arceus holding a Plate.
-    if
-    (
-        (defender_species == SPECIES_ARCEUS) &&
-        ((defender_item >= ITEM_FLAME_PLATE && defender_item <= ITEM_IRON_PLATE) || (defender_item == ITEM_PIXIE_PLATE))
+    if (item != 0
+        // z crystals can not be removed wherever they are
+        //&& !IS_ITEM_Z_CRYSTAL(item)
+        // mega stones can not be knocked off their own mon
+        && !CheckMegaData(species, item)
+        // arceus plate on arceus can not be knocked off
+        && !(species == SPECIES_ARCEUS && IS_ITEM_ARCEUS_PLATE(item))
+        // griseous orb on giratina can not be knocked off
+        && !(species == SPECIES_GIRATINA && item == ITEM_GRISEOUS_ORB)
+        // drives can not be knocked off of genesect
+        && !(species == SPECIES_GENESECT && IS_ITEM_GENESECT_DRIVE(item))
+        // silvally can not have its memory knocked off
+        && !(species == SPECIES_SILVALLY && IS_ITEM_MEMORY(item))
+        // zacian can not have its rusted sword knocked off
+        && !(species == SPECIES_ZACIAN && item == ITEM_RUSTED_SWORD)
+        // zamazenta can not have its rusted shield knocked off
+        && !(species == SPECIES_ZAMAZENTA && item == ITEM_RUSTED_SHIELD)
+        // paradox mons can not have their booster energy knocked off
+        && !(IS_SPECIES_PARADOX_FORM(species) && item == ITEM_BOOSTER_ENERGY)
     )
     {
-        return FALSE;
+        return TRUE;
     }
 
-    // No bonus damage if the target is Giratina holding a Griseous Orb.
-    if (defender_species == SPECIES_GIRATINA && defender_item == ITEM_GRISEOUS_ORB) {
-        return FALSE;
-    }
-
-    // Any other item should qualify for the bonus damage and then be knocked off.
-    return TRUE;
-}
+    return FALSE;
+};
 
 int CalcStoredPowerDamageBonus(struct BattleStruct *sp)
 {
@@ -265,7 +262,7 @@ int CalcStoredPowerDamageBonus(struct BattleStruct *sp)
     }
 
     return i;
-}
+};
 
 int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
                    u32 field_cond, u16 pow, u8 type UNUSED, u8 attacker, u8 defender, u8 critical)
@@ -1087,6 +1084,20 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
     damage = damage / equivalentDefense;
     damage /= 50;
 
+    // Handle Parental Bond
+    if (sp->battlemon[attacker].parental_bond_flag == 2) {
+        damage /= 4;
+    }
+    switch (sp->battlemon[attacker].parental_bond_flag) {
+        case 1:
+            sp->battlemon[attacker].parental_bond_flag++;
+            sp->battlemon[attacker].parental_bond_is_active = TRUE; // after first hit, set this flag just in case the ability is nullified after the first one
+            break;
+        default:
+            sp->battlemon[attacker].parental_bond_flag = 0;
+            break;
+    }
+
     // handle physical moves
     if (movesplit == SPLIT_PHYSICAL)
     {
@@ -1376,6 +1387,11 @@ void CalcDamageOverall(void *bw, struct BattleStruct *sp)
  */
 int AdjustDamageForRoll(void *bw, struct BattleStruct *sp UNUSED, int damage)
 {
+#ifdef DEBUG_ADJUSTED_DAMAGE
+    u8 buf[64];
+    sprintf(buf, "Unrolled damage: %d -- ", damage);
+    debugsyscall(buf);
+#endif // DEBUG_ADJUSTED_DAMAGE
 	if (damage)
     {
 		damage *= (100 - (BattleRand(bw) % 16)); // 85-100% damage roll
@@ -1385,13 +1401,10 @@ int AdjustDamageForRoll(void *bw, struct BattleStruct *sp UNUSED, int damage)
 	}
 
 #ifdef DEBUG_ADJUSTED_DAMAGE
-
-    u8 buf[64];
     sprintf(buf, "Battler %d hit battler %d ", sp->attack_client, sp->defence_client);
     debugsyscall(buf);
     sprintf(buf, "for %d damage.\n", damage+1);
     debugsyscall(buf);
-
 #endif // DEBUG_ADJUSTED_DAMAGE
 
 	return damage;

@@ -7,6 +7,8 @@
 .include "armips/include/monnums.s"
 .include "armips/include/movenums.s"
 
+PARENTAL_BOND_SUBSCRIPT equ (353)
+
 .create "build/move/battle_eff_seq/0_173", 0
 
 // Nature Power
@@ -23,9 +25,14 @@ a030_173:
     printmessage 0x1EA, 0x16, 0x1, 0xFF, "NaN", "NaN", "NaN", "NaN"
     waitmessage
     wait 0x1E
+    ifcurrentmoveisvalidparentalbondmove DoParentalBond
+Continue:
     jumptoeffectscript 0
+DoParentalBond:
+    gotosubscript PARENTAL_BOND_SUBSCRIPT
+    goto Continue
 Failed:
     changevar VAR_OP_SETMASK, VAR_MOVE_STATUS, 0x40
     endscript
-    
+
 .close

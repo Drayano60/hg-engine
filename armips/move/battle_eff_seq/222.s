@@ -13,8 +13,11 @@
 
 a030_222:
     trynaturalgift _001C
-    gotosubscript 443
+    iffirsthitofparentalbond SkipRemoveItem
+    // swap execution order otherwise it doesn't work for some reason
     removeitem BATTLER_ATTACKER
+SkipRemoveItem:
+    gotosubscript 443
     endscript
 _001C:
     changevar VAR_OP_SETMASK, VAR_MOVE_STATUS, 0x40

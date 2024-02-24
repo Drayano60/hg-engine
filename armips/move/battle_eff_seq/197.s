@@ -12,8 +12,12 @@
 // Secret Power
 
 a030_197:
+    iffirsthitofparentalbond SkipEffect
     gotosubscript 443
     dosecretpower
+    endscript
+SkipEffect:
+    gotosubscript 443
     endscript
 
 .close

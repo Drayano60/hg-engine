@@ -3698,8 +3698,7 @@ evodata SPECIES_ARON
     terminateevodata
 
 evodata SPECIES_LAIRON
-    // evolution EVO_LEVEL, 42, SPECIES_AGGRON
-    evolution EVO_LEVEL, 40, SPECIES_AGGRON
+    evolution EVO_LEVEL, 42, SPECIES_AGGRON
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -4417,8 +4416,7 @@ evodata SPECIES_SPHEAL
     terminateevodata
 
 evodata SPECIES_SEALEO
-    // evolution EVO_LEVEL, 44, SPECIES_WALREIN
-    evolution EVO_LEVEL, 40, SPECIES_WALREIN
+    evolution EVO_LEVEL, 44, SPECIES_WALREIN
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE

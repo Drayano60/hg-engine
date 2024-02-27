@@ -23,7 +23,7 @@ levelup SPECIES_NONE
 levelup SPECIES_BULBASAUR
     learnset MOVE_TACKLE, 1
     learnset MOVE_GROWL, 1
-    learnset MOVE_VINE_WHIP, 1
+    learnset MOVE_VINE_WHIP, 3
     learnset MOVE_GROWTH, 6
     learnset MOVE_LEECH_SEED, 9
     learnset MOVE_RAZOR_LEAF, 12
@@ -43,7 +43,7 @@ levelup SPECIES_BULBASAUR
 levelup SPECIES_IVYSAUR
     learnset MOVE_TACKLE, 1
     learnset MOVE_GROWL, 1
-    learnset MOVE_VINE_WHIP, 1
+    learnset MOVE_VINE_WHIP, 3
     learnset MOVE_GROWTH, 6
     learnset MOVE_LEECH_SEED, 9
     learnset MOVE_RAZOR_LEAF, 12

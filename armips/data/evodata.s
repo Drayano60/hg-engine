@@ -1415,7 +1415,8 @@ evodata SPECIES_KANGASKHAN
     terminateevodata
 
 evodata SPECIES_HORSEA
-    evolution EVO_LEVEL, 32, SPECIES_SEADRA
+    // evolution EVO_LEVEL, 32, SPECIES_SEADRA
+    evolution EVO_LEVEL, 28, SPECIES_SEADRA
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -2034,8 +2035,7 @@ evodata SPECIES_LEDIAN
     terminateevodata
 
 evodata SPECIES_SPINARAK
-    // evolution EVO_LEVEL, 22, SPECIES_ARIADOS
-    evolution EVO_LEVEL, 18, SPECIES_ARIADOS
+    evolution EVO_LEVEL, 22, SPECIES_ARIADOS
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -3696,8 +3696,7 @@ evodata SPECIES_ARON
     terminateevodata
 
 evodata SPECIES_LAIRON
-    // evolution EVO_LEVEL, 42, SPECIES_AGGRON
-    evolution EVO_LEVEL, 40, SPECIES_AGGRON
+    evolution EVO_LEVEL, 42, SPECIES_AGGRON
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -4415,8 +4414,7 @@ evodata SPECIES_SPHEAL
     terminateevodata
 
 evodata SPECIES_SEALEO
-    // evolution EVO_LEVEL, 44, SPECIES_WALREIN
-    evolution EVO_LEVEL, 40, SPECIES_WALREIN
+    evolution EVO_LEVEL, 44, SPECIES_WALREIN
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -7629,8 +7627,7 @@ evodata SPECIES_REUNICLUS
     terminateevodata
 
 evodata SPECIES_DUCKLETT
-    // evolution EVO_LEVEL, 35, SPECIES_SWANNA
-    evolution EVO_LEVEL, 30, SPECIES_SWANNA
+    evolution EVO_LEVEL, 35, SPECIES_SWANNA
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -7655,7 +7652,7 @@ evodata SPECIES_SWANNA
 
 evodata SPECIES_VANILLITE
     // evolution EVO_LEVEL, 35, SPECIES_VANILLISH
-    evolution EVO_LEVEL, 28, SPECIES_VANILLISH
+    evolution EVO_LEVEL, 32, SPECIES_VANILLISH
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -7668,7 +7665,7 @@ evodata SPECIES_VANILLITE
 
 evodata SPECIES_VANILLISH
     // evolution EVO_LEVEL, 47, SPECIES_VANILLUXE
-    evolution EVO_LEVEL, 40, SPECIES_VANILLUXE
+    evolution EVO_LEVEL, 44, SPECIES_VANILLUXE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -7816,8 +7813,7 @@ evodata SPECIES_ALOMOMOLA
     terminateevodata
 
 evodata SPECIES_JOLTIK
-    // evolution EVO_LEVEL, 36, SPECIES_GALVANTULA
-    evolution EVO_LEVEL, 33, SPECIES_GALVANTULA
+    evolution EVO_LEVEL, 36, SPECIES_GALVANTULA
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -7867,7 +7863,7 @@ evodata SPECIES_FERROTHORN
 
 evodata SPECIES_KLINK
     // evolution EVO_LEVEL, 38, SPECIES_KLANG
-    evolution EVO_LEVEL, 28, SPECIES_KLANG
+    evolution EVO_LEVEL, 32, SPECIES_KLANG
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -7880,7 +7876,7 @@ evodata SPECIES_KLINK
 
 evodata SPECIES_KLANG
     // evolution EVO_LEVEL, 49, SPECIES_KLINKLANG
-    evolution EVO_LEVEL, 40, SPECIES_KLINKLANG
+    evolution EVO_LEVEL, 42, SPECIES_KLINKLANG
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -7905,7 +7901,7 @@ evodata SPECIES_KLINKLANG
 
 evodata SPECIES_TYNAMO
     // evolution EVO_LEVEL, 39, SPECIES_EELEKTRIK
-    evolution EVO_LEVEL, 30, SPECIES_EELEKTRIK
+    evolution EVO_LEVEL, 35, SPECIES_EELEKTRIK
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -7942,7 +7938,7 @@ evodata SPECIES_EELEKTROSS
 
 evodata SPECIES_ELGYEM
     // evolution EVO_LEVEL, 42, SPECIES_BEHEEYEM
-    evolution EVO_LEVEL, 32, SPECIES_BEHEEYEM
+    evolution EVO_LEVEL, 36, SPECIES_BEHEEYEM
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -8289,7 +8285,7 @@ evodata SPECIES_DURANT
 
 evodata SPECIES_DEINO
     // evolution EVO_LEVEL, 50, SPECIES_ZWEILOUS
-    evolution EVO_LEVEL, 30, SPECIES_ZWEILOUS
+    evolution EVO_LEVEL, 40, SPECIES_ZWEILOUS
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE

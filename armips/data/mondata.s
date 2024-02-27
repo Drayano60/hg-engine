@@ -7535,9 +7535,14 @@ mondata SPECIES_LAIRON, "Lairon"
     mondexweight SPECIES_LAIRON, "264.6 lbs."
 
 
+// STATS: 110 >> 120 Atk | 530 >> 540 BST
 // ABILITY: Filter (HA)
 mondata SPECIES_AGGRON, "Aggron"
-    basestats 70, 110, 180, 50, 60, 60
+    .if STAT_CHANGES_IMPLEMENTED
+        basestats 70, 120, 180, 50, 60, 60
+    .else
+        basestats 70, 110, 180, 50, 60, 60
+    .endif
     types TYPE_STEEL, TYPE_ROCK
     catchrate 45
     baseexp 0 // defined in baseexp.s
@@ -7878,11 +7883,7 @@ mondata SPECIES_CARVANHA, "Carvanha"
     basefriendship 35
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_WATER_2, EGG_GROUP_WATER_2
-    .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_ROUGH_SKIN, ABILITY_STRONG_JAW
-    .else
-        abilities ABILITY_ROUGH_SKIN, ABILITY_NONE
-    .endif
+    abilities ABILITY_ROUGH_SKIN, ABILITY_NONE
     runchance 25
     colorflip BODY_COLOR_RED, 0
     mondexentry SPECIES_CARVANHA, "They form packs to attack boats\nand rip out their hulls to sink them.\nThey live in rivers in the jungle."
@@ -7909,11 +7910,7 @@ mondata SPECIES_SHARPEDO, "Sharpedo"
     basefriendship 35
     growthrate GROWTH_SLOW
     egggroups EGG_GROUP_WATER_2, EGG_GROUP_WATER_2
-    .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_ROUGH_SKIN, ABILITY_STRONG_JAW
-    .else
-        abilities ABILITY_ROUGH_SKIN, ABILITY_NONE
-    .endif
+    abilities ABILITY_ROUGH_SKIN, ABILITY_NONE
     runchance 25
     colorflip BODY_COLOR_BLUE, 0
     mondexentry SPECIES_SHARPEDO, "It can swim at speeds of 75 mph by\njetting seawater through its body.\nIt is the bandit of the sea."
@@ -8799,7 +8796,6 @@ mondata SPECIES_KECLEON, "Kecleon"
     mondexweight SPECIES_KECLEON, "48.5 lbs."
 
 
-// ABILITY: Cursed Body (2), Prankster (HA)
 mondata SPECIES_SHUPPET, "Shuppet"
     basestats 44, 75, 35, 45, 63, 33
     types TYPE_GHOST, TYPE_GHOST
@@ -8812,11 +8808,7 @@ mondata SPECIES_SHUPPET, "Shuppet"
     basefriendship 35
     growthrate GROWTH_FAST
     egggroups EGG_GROUP_AMORPHOUS, EGG_GROUP_AMORPHOUS
-    .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_INSOMNIA, ABILITY_CURSED_BODY
-    .else
-        abilities ABILITY_INSOMNIA, ABILITY_FRISK
-    .endif
+    abilities ABILITY_INSOMNIA, ABILITY_FRISK
     runchance 25
     colorflip BODY_COLOR_BLACK, 0
     mondexentry SPECIES_SHUPPET, "It uses its horn to feed on envy\nand malice, or so it’s said.\nIt’s very active at night."
@@ -8827,7 +8819,6 @@ mondata SPECIES_SHUPPET, "Shuppet"
 
 // STATS: 115 >> 125 Atk | 65 >> 75 Spd | 455 >> 475 BST
 // TYPES: Ghost >> Ghost/Normal
-// ABILITY: Cursed Body (2), Prankster (HA)
 mondata SPECIES_BANETTE, "Banette"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 64, 125, 65, 75, 83, 63
@@ -8848,11 +8839,7 @@ mondata SPECIES_BANETTE, "Banette"
     basefriendship 35
     growthrate GROWTH_FAST
     egggroups EGG_GROUP_AMORPHOUS, EGG_GROUP_AMORPHOUS
-    .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_INSOMNIA, ABILITY_CURSED_BODY
-    .else
-        abilities ABILITY_INSOMNIA, ABILITY_FRISK
-    .endif
+    abilities ABILITY_INSOMNIA, ABILITY_FRISK
     runchance 25
     colorflip BODY_COLOR_BLACK, 0
     mondexentry SPECIES_BANETTE, "This Pokémon developed from an\nabandoned doll that amassed a\ngrudge. It is seen in dark alleys."
@@ -9107,10 +9094,10 @@ mondata SPECIES_SEALEO, "Sealeo"
     mondexweight SPECIES_SEALEO, "193.1 lbs."
 
 
-// STATS: 80 >> 90 Atk | 530 >> 540 BST
+// STATS: 110 >> 120 HP | 530 >> 540 BST
 mondata SPECIES_WALREIN, "Walrein"
     .if STAT_CHANGES_IMPLEMENTED
-        basestats 110, 90, 90, 65, 95, 90
+        basestats 120, 80, 90, 65, 95, 90
     .else
         basestats 110, 80, 90, 65, 95, 90
     .endif
@@ -25439,8 +25426,13 @@ mondata SPECIES_MEGA_MAWILE, "-----"
     runchance 25
     colorflip 0, 0
 
+// STATS: 80 >> 90 SpDef | 630 >> 640 BST
 mondata SPECIES_MEGA_AGGRON, "-----"
-    basestats 70, 140, 230, 50, 60, 80
+    .if STAT_CHANGES_IMPLEMENTED
+        basestats 70, 140, 230, 50, 60, 90
+    .else
+        basestats 70, 140, 230, 50, 60, 80
+    .endif
     types TYPE_STEEL, TYPE_STEEL
     catchrate 45
     baseexp 205

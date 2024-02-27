@@ -4036,18 +4036,18 @@ levelup SPECIES_GOLDEEN
     learnset MOVE_PECK, 1
     learnset MOVE_TAIL_WHIP, 1
     learnset MOVE_SUPERSONIC, 4
-    learnset MOVE_HORN_ATTACK, 8
-    learnset MOVE_QUICK_ATTACK, 12
+    learnset MOVE_QUICK_ATTACK, 8
+    learnset MOVE_HORN_ATTACK, 12
     learnset MOVE_DIVE, 16
     learnset MOVE_FLAIL, 20
     learnset MOVE_AGILITY, 24
     learnset MOVE_WATERFALL, 28
-    learnset MOVE_AQUA_RING, 33
-    learnset MOVE_ACUPRESSURE, 38
-    learnset MOVE_BOUNCE, 43
+    learnset MOVE_AQUA_RING, 32
+    learnset MOVE_ACUPRESSURE, 36
+    learnset MOVE_BOUNCE, 42
     learnset MOVE_MEGAHORN, 48
-    learnset MOVE_WAVE_CRASH, 53
-    learnset MOVE_HORN_DRILL, 58
+    learnset MOVE_WAVE_CRASH, 54
+    learnset MOVE_HORN_DRILL, 60
     terminatelearnset
 
 // NEW: Quick Attack (LGPE), Wave Crash
@@ -4057,18 +4057,18 @@ levelup SPECIES_SEAKING
     learnset MOVE_PECK, 1
     learnset MOVE_TAIL_WHIP, 1
     learnset MOVE_SUPERSONIC, 4
-    learnset MOVE_HORN_ATTACK, 8
-    learnset MOVE_QUICK_ATTACK, 12
+    learnset MOVE_QUICK_ATTACK, 8
+    learnset MOVE_HORN_ATTACK, 12
     learnset MOVE_DIVE, 16
     learnset MOVE_FLAIL, 20
     learnset MOVE_AGILITY, 24
-    learnset MOVE_WATERFALL, 30
-    learnset MOVE_AQUA_RING, 35
-    learnset MOVE_ACUPRESSURE, 40
-    learnset MOVE_BOUNCE, 45
+    learnset MOVE_WATERFALL, 28
+    learnset MOVE_AQUA_RING, 32
+    learnset MOVE_ACUPRESSURE, 38
+    learnset MOVE_BOUNCE, 44
     learnset MOVE_MEGAHORN, 50
-    learnset MOVE_WAVE_CRASH, 55
-    learnset MOVE_HORN_DRILL, 60
+    learnset MOVE_WAVE_CRASH, 56
+    learnset MOVE_HORN_DRILL, 62
     terminatelearnset
 
 levelup SPECIES_STARYU

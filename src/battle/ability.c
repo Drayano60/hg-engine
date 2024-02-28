@@ -292,11 +292,16 @@ int MoveCheckDamageNegatingAbilities(struct BattleStruct *sp, int attacker, int 
     // Handle Psychic Terrain
     // Block any natural priority move or a move made priority by an ability, if the terrain is Psychic Terrain
     // Courtesy of Dray (https://github.com/Drayano60)
+
+    #ifdef SAVE_SPACE
+
     if (sp->terrainOverlay.type == PSYCHIC_TERRAIN && sp->terrainOverlay.numberOfTurnsLeft > 0 && IsClientGrounded(sp, defender)) {
         if (adjustedMoveHasPositivePriority(sp, attacker) && CurrentMoveShouldNotBeExemptedFromPriorityBlocking(sp, attacker, defender)) {
             scriptnum = SUB_SEQ_HANDLE_JUST_FAIL;
         }
     }
+
+    #endif
 
     return scriptnum;
 }
@@ -333,13 +338,17 @@ enum
     SWITCH_IN_CHECK_IMPOSTER,
     SWITCH_IN_CHECK_AIR_LOCK,
     SWITCH_IN_CHECK_SUPREME_OVERLORD,
+    #ifdef SAVE_SPACE
     SWITCH_IN_CHECK_ICE_FACE,
+    #endif
 
 // items that display messages.
     SWITCH_IN_CHECK_AIR_BALLOON,
+    #ifdef SAVE_SPACE
     SWITCH_IN_CHECK_FIELD,
     SWITCH_IN_CHECK_SURGE_ABILITY,
     SWITCH_IN_CHECK_TERRAIN_SEED,
+    #endif
     SWITCH_IN_CHECK_END,
 };
 
@@ -360,6 +369,8 @@ enum
  */
 BOOL IntimidateCheckHelper(struct BattleStruct *sp, u32 client)
 {
+    #ifdef SAVE_SPACE
+
     u32 clientCheck;
     for (int i = 0; i < 2; i++)
     {
@@ -381,6 +392,9 @@ BOOL IntimidateCheckHelper(struct BattleStruct *sp, u32 client)
             }
         }
     }
+
+    #endif
+
     return FALSE; // neither opposing battler has an ability that intimidate can activate on
 }
 
@@ -1364,6 +1378,9 @@ int SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
                 }
 
                 break;
+
+            #ifdef SAVE_SPACE
+
             case SWITCH_IN_CHECK_ICE_FACE: // rebuild ice face
                 for (i = 0; i < client_set_max; i++)
                 {
@@ -1398,7 +1415,7 @@ int SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
                 }
                 break;
 
-
+            #endif
 
             case SWITCH_IN_CHECK_AIR_BALLOON:
                 for(i = 0; i < client_set_max; i++)
@@ -1418,8 +1435,12 @@ int SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
                 if (i == (s32)client_set_max) {
                     sp->switch_in_check_seq_no++;
                 }
-                break;
+                // break;
+                FALLTHROUGH;
                 // 02253D78
+
+            #ifdef SAVE_SPACE
+
             case SWITCH_IN_CHECK_FIELD:
                 if (sp->printed_field_message == 0) {
                     sp->terrainOverlay.type = TERRAIN_NONE;
@@ -1488,6 +1509,9 @@ int SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
                     sp->switch_in_check_seq_no++;
                 }
                 FALLTHROUGH;
+
+                #endif
+                
             case SWITCH_IN_CHECK_END:
                 sp->switch_in_check_seq_no = 0;
                 ret = SWITCH_IN_CHECK_CHECK_END;

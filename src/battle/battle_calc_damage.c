@@ -211,6 +211,9 @@ BOOL isKnockOffBonusDamageItem(struct BattleStruct *sp)
         && !(species == SPECIES_ARCEUS && IS_ITEM_ARCEUS_PLATE(item))
         // griseous orb on giratina can not be knocked off
         && !(species == SPECIES_GIRATINA && item == ITEM_GRISEOUS_ORB)
+
+        #ifdef SAVE_SPACE
+
         // drives can not be knocked off of genesect
         && !(species == SPECIES_GENESECT && IS_ITEM_GENESECT_DRIVE(item))
         // silvally can not have its memory knocked off
@@ -221,6 +224,8 @@ BOOL isKnockOffBonusDamageItem(struct BattleStruct *sp)
         && !(species == SPECIES_ZAMAZENTA && item == ITEM_RUSTED_SHIELD)
         // paradox mons can not have their booster energy knocked off
         && !(IS_SPECIES_PARADOX_FORM(species) && item == ITEM_BOOSTER_ENERGY)
+
+        #endif
     )
     {
         return TRUE;
@@ -983,19 +988,17 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
         }
     }
 
-    // Handle Mega Launcher
-    // Also handle Aura Adept, a new ability for Lucario with the same effect
-    if (((AttackingMon.ability == ABILITY_MEGA_LAUNCHER) || (AttackingMon.ability == ABILITY_AURA_ADEPT)) && (isPulseMove(moveno))) {
-        movepower = movepower * 150 / 100;
-    }
-
-    // Handle Strong Jaw
-    if ((AttackingMon.ability == ABILITY_STRONG_JAW) && (isBitingMove(moveno))) {
-        movepower = movepower * 150 / 100;
-    }
-
-    // Handle Sharpness
-    if ((AttackingMon.ability == ABILITY_SHARPNESS) && (isCuttingMove(moveno))) {
+    // Handle abilities with x1.5 boosts
+    // Also includes some custom ones
+    if
+    (
+        (((AttackingMon.ability == ABILITY_MEGA_LAUNCHER) || (AttackingMon.ability == ABILITY_AURA_ADEPT)) && (isPulseMove(moveno))) ||
+        ((AttackingMon.ability == ABILITY_STRONG_JAW) && (isBitingMove(moveno))) ||
+        ((AttackingMon.ability == ABILITY_SHARPNESS) && (isCuttingMove(moveno))) ||
+        ((AttackingMon.ability == ABILITY_BOMBARDIER) && (isBallOrBombMove(moveno))) ||
+        ((AttackingMon.ability == ABILITY_WIND_WHIPPER) && (isWindMove(moveno)))
+    )
+    {
         movepower = movepower * 150 / 100;
     }
 
@@ -1011,16 +1014,6 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
     // Handle Conductor, a new ability for Kricketune that boosts its sound moves heavily
     if ((sp->moveTbl[sp->current_move_index].flag & FLAG_SOUND) && (AttackingMon.ability == ABILITY_CONDUCTOR)) {
         movepower = movepower * 2;
-    }
-
-    // Handle Bombardier, a new ability for Octillery
-    if ((AttackingMon.ability == ABILITY_BOMBARDIER) && (isBallOrBombMove(moveno))) {
-        movepower = movepower * 150 / 100;
-    }
-
-    // Handle Wind Whipper, a new ability for Shiftry
-    if ((AttackingMon.ability == ABILITY_WIND_WHIPPER) && (isWindMove(moveno))) {
-        movepower = movepower * 150 / 100;
     }
 
     // //handles water bubble
@@ -1245,6 +1238,8 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
 //        }
 //    }
 
+    #ifdef SAVE_SPACE
+
     // Handle field effects
     if (sp->terrainOverlay.numberOfTurnsLeft > 0) {
         switch (sp->terrainOverlay.type)
@@ -1281,6 +1276,8 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
             break;
         }
     }
+
+    #endif
 
     return damage + 2;
 }

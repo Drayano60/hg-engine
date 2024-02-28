@@ -299,6 +299,9 @@ const u16 ParentalBondSingleStrikeMovesList[] = {
     MOVE_SOLAR_BEAM,
     MOVE_SOLAR_BLADE,
     // Z-Moves
+
+    #ifdef SAVE_SPACE
+
     MOVE_BREAKNECK_BLITZ_PHYSICAL,
     MOVE_BREAKNECK_BLITZ_SPECIAL,
     MOVE_ALL_OUT_PUMMELING_PHYSICAL,
@@ -373,6 +376,9 @@ const u16 ParentalBondSingleStrikeMovesList[] = {
     MOVE_MAX_DARKNESS,
     MOVE_MAX_OVERGROWTH,
     MOVE_MAX_STEELSPIKE,
+
+    #endif
+
     // Special case handled inside effect script for hg-engine
     MOVE_PRESENT,
 };
@@ -1672,6 +1678,9 @@ int ServerDoTypeCalcMod(void *bw UNUSED, struct BattleStruct *sp, int move_no, i
                 {
                     damage = BattleDamageDivide(damage * 3, 4);
                 }
+
+                #ifdef SAVE_SPACE
+
                 if (GetBattlerAbility(sp, defence_client) == ABILITY_PRISM_ARMOR)
                 {
                   damage = BattleDamageDivide(damage * 3, 4);
@@ -1680,6 +1689,9 @@ int ServerDoTypeCalcMod(void *bw UNUSED, struct BattleStruct *sp, int move_no, i
                 {
                   damage = BattleDamageDivide(damage * 5, 4);
                 }
+
+                #endif
+
                 if (eqp_a == HOLD_EFFECT_POWER_UP_SE)
                 {
                     damage = damage * (100 + atk_a) / 100;
@@ -1930,6 +1942,9 @@ BOOL adjustedMoveHasPositivePriority(struct BattleStruct *sp, int attacker) {
         isTriageMove = TRUE;
     }
 
+
+    #ifdef SAVE_SPACE
+
     // Handle Prankster Metronome, Sleep Talk, Nature Power, Assist, Me First, Copycat
     if (sp->battlemon[attacker].potentially_affected_by_psychic_terrain_move_used_flag &&
         GetBattlerAbility(sp, attacker) == ABILITY_PRANKSTER) {
@@ -1940,6 +1955,8 @@ BOOL adjustedMoveHasPositivePriority(struct BattleStruct *sp, int attacker) {
 
     // reset flag
     sp->battlemon[attacker].potentially_affected_by_psychic_terrain_move_used_flag = 0;
+
+    #endif
 
     if (
         (sp->moveTbl[sp->current_move_index].priority > 0) ||
@@ -2075,6 +2092,8 @@ BOOL isWindMove(int move_no) {
 BOOL CurrentMoveShouldNotBeExemptedFromPriorityBlocking(struct BattleStruct *sp, int attacker, int defender) {
     // Courtesy of The Pokeemerald Expansion (https://github.com/rh-hideout/pokeemerald-expansion/blob/selfhost-test/test/battle/terrain/psychic.c)
 
+    #ifdef SAVE_SPACE
+
     struct BattleMove currentMove = sp->moveTbl[sp->current_move_index];
     u16 target = currentMove.target;
 
@@ -2109,6 +2128,8 @@ BOOL CurrentMoveShouldNotBeExemptedFromPriorityBlocking(struct BattleStruct *sp,
         return FALSE;
     }
 
+    #endif
+
     return TRUE;
 }
 
@@ -2120,6 +2141,8 @@ BOOL CurrentMoveShouldNotBeExemptedFromPriorityBlocking(struct BattleStruct *sp,
  *  @return TRUE if seed should activate
  */
 BOOL TerrainSeedShouldActivate(struct BattleStruct *sp, u16 heldItem) {
+    #ifdef SAVE_SPACE
+
     switch (heldItem) {
         case ITEM_ELECTRIC_SEED:
             if (sp->terrainOverlay.type == ELECTRIC_TERRAIN && sp->terrainOverlay.numberOfTurnsLeft > 0) {
@@ -2144,6 +2167,9 @@ BOOL TerrainSeedShouldActivate(struct BattleStruct *sp, u16 heldItem) {
         default:
             return FALSE;
     }
+
+    #endif
+
     return FALSE;
 }
 

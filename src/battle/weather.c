@@ -29,8 +29,10 @@ enum{
     FCC_HAIL,
     FCC_FOG,
     FCC_GRAVITY,
+    #ifdef SAVE_SPACE
     FCC_TERRAIN,
     FCC_FIELD_EFFECT,
+    #endif
     FCC_END
 };
 
@@ -421,6 +423,7 @@ void ServerFieldConditionCheck(void *bw, struct BattleStruct *sp)
             }
             sp->fcc_seq_no++;
             break;
+        #ifdef SAVE_SPACE
         case FCC_TERRAIN:
             if (sp->terrainOverlay.type != TERRAIN_NONE) {
                 sp->terrainOverlay.numberOfTurnsLeft--;
@@ -441,6 +444,7 @@ void ServerFieldConditionCheck(void *bw, struct BattleStruct *sp)
             ret = 1;
             sp->fcc_seq_no++;
             break;
+        #endif
         case FCC_END:
             ret = 2;
             break;

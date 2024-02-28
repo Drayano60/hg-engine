@@ -348,6 +348,8 @@ BOOL BattleFormChangeCheck(void *bw, struct BattleStruct *sp, int *seq_no)
             }
         }
 
+        #ifdef SAVE_SPACE
+
         // handle Silvally TODO check if this actually works, eventually change to use the memories instead of plates
         if ((sp->battlemon[sp->client_work].species == SPECIES_SILVALLY)
             && (sp->battlemon[sp->client_work].hp)
@@ -362,6 +364,8 @@ BOOL BattleFormChangeCheck(void *bw, struct BattleStruct *sp, int *seq_no)
                 break;
             }
         }
+
+        #endif
 
         // handle giratina
         if ((sp->battlemon[sp->client_work].species == SPECIES_GIRATINA)
@@ -463,6 +467,8 @@ BOOL BattleFormChangeCheck(void *bw, struct BattleStruct *sp, int *seq_no)
             break;
         }
 
+        #ifdef SAVE_SPACE
+
         // handle meloetta - change to/from pirouette form when using relic song
         if ((sp->battlemon[sp->client_work].species == SPECIES_MELOETTA)
          && (sp->battlemon[sp->client_work].hp)
@@ -551,6 +557,8 @@ BOOL BattleFormChangeCheck(void *bw, struct BattleStruct *sp, int *seq_no)
             ret = TRUE;
             break;
         }
+
+        #endif
     }
 
     return ret;

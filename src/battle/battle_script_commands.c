@@ -2629,12 +2629,17 @@ BOOL btl_scr_cmd_E5_iftailwindactive(void *bw, struct BattleStruct *sp)
  */
 BOOL btl_scr_cmd_E6_ifcurrentfieldistype(void *bw, struct BattleStruct *sp) {
     IncrementBattleScriptPtr(sp, 1);
+
+    #ifdef SAVE_SPACE
+
     u32 terrain = read_battle_script_param(sp);
     int address = read_battle_script_param(sp);
 
     if (BattleWorkGroundIDGet(bw) == terrain && sp->terrainOverlay.type == TERRAIN_NONE) {
         IncrementBattleScriptPtr(sp, address);
     }
+
+    #endif
 
     return FALSE;
 }
@@ -2648,13 +2653,21 @@ BOOL btl_scr_cmd_E6_ifcurrentfieldistype(void *bw, struct BattleStruct *sp) {
  */
 BOOL btl_scr_cmd_E7_ifmovepowergreaterthanzero(void *bw UNUSED, struct BattleStruct *sp) {
     IncrementBattleScriptPtr(sp, 1);
+
+    #ifdef SAVE_SPACE
+
     int address = read_battle_script_param(sp);
 
     if (sp->moveTbl[sp->current_move_index].power > 0) {
         IncrementBattleScriptPtr(sp, address);
     }
+
+    #endif
+
     return FALSE;
 }
+
+#ifdef SAVE_SPACE
 
 /**
  *  @brief function to check whether a mon is grounded or not
@@ -2679,6 +2692,8 @@ BOOL IsClientGrounded(struct BattleStruct *sp, u32 client_no) {
     return FALSE;
 }
 
+#endif
+
 /**
  *  @brief script command to jump somewhere if the mon is grounded
  *
@@ -2688,6 +2703,9 @@ BOOL IsClientGrounded(struct BattleStruct *sp, u32 client_no) {
  */
 BOOL btl_scr_cmd_E8_ifgrounded(void *bw UNUSED, struct BattleStruct *sp) {
     IncrementBattleScriptPtr(sp, 1);
+
+    #ifdef SAVE_SPACE
+
     u32 client_no = read_battle_script_param(sp);
     client_no = GrabClientFromBattleScriptParam(bw, sp, client_no);
     u32 address = read_battle_script_param(sp);
@@ -2695,6 +2713,8 @@ BOOL btl_scr_cmd_E8_ifgrounded(void *bw UNUSED, struct BattleStruct *sp) {
     if(IsClientGrounded(sp, client_no)) {
         IncrementBattleScriptPtr(sp, address);
     }
+
+    #endif
 
     return FALSE;
 }
@@ -2709,6 +2729,8 @@ BOOL btl_scr_cmd_E8_ifgrounded(void *bw UNUSED, struct BattleStruct *sp) {
 BOOL btl_scr_cmd_E9_checkifcurrentadjustedmoveistype(void *bw UNUSED, struct BattleStruct *sp) {
     IncrementBattleScriptPtr(sp, 1);
 
+    #ifdef SAVE_SPACE
+
     int type = read_battle_script_param(sp);
     int address = read_battle_script_param(sp);
 
@@ -2717,6 +2739,9 @@ BOOL btl_scr_cmd_E9_checkifcurrentadjustedmoveistype(void *bw UNUSED, struct Bat
     if (type == movetype) {
         IncrementBattleScriptPtr(sp, address);
     }
+
+    #endif
+
     return FALSE;
 }
 
@@ -2729,11 +2754,17 @@ BOOL btl_scr_cmd_E9_checkifcurrentadjustedmoveistype(void *bw UNUSED, struct Bat
  */
 BOOL btl_scr_cmd_EA_ifcontactmove(void *bw UNUSED, struct BattleStruct *sp) {
     IncrementBattleScriptPtr(sp, 1);
+
+    #ifdef SAVE_SPACE
+
     int address = read_battle_script_param(sp);
 
     if (sp->moveTbl[sp->current_move_index].flag & FLAG_CONTACT) {
         IncrementBattleScriptPtr(sp, address);
     }
+    
+    #endif
+
     return FALSE;
 }
 
@@ -2746,11 +2777,16 @@ BOOL btl_scr_cmd_EA_ifcontactmove(void *bw UNUSED, struct BattleStruct *sp) {
  */
 BOOL btl_scr_cmd_EB_ifsoundmove(void *bw UNUSED, struct BattleStruct *sp) {
     IncrementBattleScriptPtr(sp, 1);
+
+    #if SAVE_SPACE
+
     int address = read_battle_script_param(sp);
 
     if (IsMoveSoundBased(sp->current_move_index)) {
         IncrementBattleScriptPtr(sp, address);
     }
+
+    #endif
 
     return FALSE;
 }
@@ -2765,6 +2801,8 @@ BOOL btl_scr_cmd_EB_ifsoundmove(void *bw UNUSED, struct BattleStruct *sp) {
 BOOL btl_scr_cmd_EC_updateterrainoverlay(void *bw UNUSED, struct BattleStruct *sp) {
     IncrementBattleScriptPtr(sp, 1);
 
+    #ifdef SAVE_SPACE
+    
     u8 endTerrainFlag = read_battle_script_param(sp);
     int address = read_battle_script_param(sp);
     int client_set_max;
@@ -2818,6 +2856,8 @@ BOOL btl_scr_cmd_EC_updateterrainoverlay(void *bw UNUSED, struct BattleStruct *s
         }
     }
 
+    #endif
+
     return FALSE;
 }
 
@@ -2831,12 +2871,16 @@ BOOL btl_scr_cmd_EC_updateterrainoverlay(void *bw UNUSED, struct BattleStruct *s
 BOOL btl_scr_cmd_ED_ifterrainoverlayistype(void *bw UNUSED, struct BattleStruct *sp) {
     IncrementBattleScriptPtr(sp, 1);
 
+    #ifdef SAVE_SPACE
+
     u8 terrainOverlayType = read_battle_script_param(sp);
     int address = read_battle_script_param(sp);
 
     if (sp->terrainOverlay.type == terrainOverlayType) {
         IncrementBattleScriptPtr(sp, address);
     }
+
+    #endif
 
     return FALSE;
 }
@@ -2851,7 +2895,11 @@ BOOL btl_scr_cmd_ED_ifterrainoverlayistype(void *bw UNUSED, struct BattleStruct 
 BOOL btl_scr_cmd_EE_setpsychicterrainmoveusedflag(void *bw UNUSED, struct BattleStruct *sp) {
     IncrementBattleScriptPtr(sp, 1);
 
+    #ifdef SAVE_SPACE
+
     sp->battlemon[sp->attack_client].potentially_affected_by_psychic_terrain_move_used_flag = 1;
+
+    #endif
 
     return FALSE;
 }
@@ -3103,6 +3151,9 @@ BOOL CanKnockOffApply(struct BattleStruct *sp)
         && !(species == SPECIES_ARCEUS && IS_ITEM_ARCEUS_PLATE(item))
         // griseous orb on giratina can not be knocked off
         && !(species == SPECIES_GIRATINA && item == ITEM_GRISEOUS_ORB)
+
+        #ifdef SAVE_SPACE
+
         // drives can not be knocked off of genesect
         && !(species == SPECIES_GENESECT && IS_ITEM_GENESECT_DRIVE(item))
         // silvally can not have its memory knocked off
@@ -3113,6 +3164,8 @@ BOOL CanKnockOffApply(struct BattleStruct *sp)
         && !(species == SPECIES_ZAMAZENTA && item == ITEM_RUSTED_SHIELD)
         // paradox mons can not have their booster energy knocked off
         && !(IS_SPECIES_PARADOX_FORM(species) && item == ITEM_BOOSTER_ENERGY)
+
+        #endif
     )
     {
         return TRUE;

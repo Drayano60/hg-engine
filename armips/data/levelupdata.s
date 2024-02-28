@@ -3971,39 +3971,41 @@ levelup SPECIES_MEGA_KANGASKHAN
 levelup SPECIES_HORSEA
     learnset MOVE_BUBBLE, 1
     learnset MOVE_LEER, 1
-    learnset MOVE_SMOKESCREEN, 3
-    learnset MOVE_TWISTER, 6
+    learnset MOVE_TWISTER, 3
+    learnset MOVE_SMOKESCREEN, 6
     learnset MOVE_FOCUS_ENERGY, 9
     learnset MOVE_CLEAR_SMOG, 12
-    learnset MOVE_DRAGON_BREATH, 15
-    learnset MOVE_BUBBLE_BEAM, 18
+    learnset MOVE_BUBBLE_BEAM, 15
+    learnset MOVE_DRAGON_BREATH, 18
     learnset MOVE_DRAGON_RAGE, 21
     learnset MOVE_OCTAZOOKA, 24
     learnset MOVE_AGILITY, 27
-    learnset MOVE_WHIRLPOOL, 30
-    learnset MOVE_DRAGON_PULSE, 36
-    learnset MOVE_RAIN_DANCE, 42
-    learnset MOVE_DRAGON_DANCE, 48
-    learnset MOVE_HYDRO_PUMP, 54
+    learnset MOVE_BRINE, 30
+    learnset MOVE_FLAIL, 34
+    learnset MOVE_RAIN_DANCE, 38
+    learnset MOVE_DRAGON_PULSE, 42
+    learnset MOVE_DRAGON_DANCE, 46
+    learnset MOVE_HYDRO_PUMP, 50
     terminatelearnset
 
 levelup SPECIES_SEADRA
     learnset MOVE_BUBBLE, 1
     learnset MOVE_LEER, 1
-    learnset MOVE_SMOKESCREEN, 3
-    learnset MOVE_TWISTER, 6
+    learnset MOVE_TWISTER, 3
+    learnset MOVE_SMOKESCREEN, 6
     learnset MOVE_FOCUS_ENERGY, 9
     learnset MOVE_CLEAR_SMOG, 12
-    learnset MOVE_DRAGON_BREATH, 15
-    learnset MOVE_BUBBLE_BEAM, 18
+    learnset MOVE_BUBBLE_BEAM, 15
+    learnset MOVE_DRAGON_BREATH, 18
     learnset MOVE_DRAGON_RAGE, 21
     learnset MOVE_OCTAZOOKA, 24
     learnset MOVE_AGILITY, 27
-    learnset MOVE_WHIRLPOOL, 32
-    learnset MOVE_DRAGON_PULSE, 38
-    learnset MOVE_RAIN_DANCE, 44
-    learnset MOVE_DRAGON_DANCE, 50
-    learnset MOVE_HYDRO_PUMP, 56
+    learnset MOVE_BRINE, 32
+    learnset MOVE_FLAIL, 36
+    learnset MOVE_RAIN_DANCE, 40
+    learnset MOVE_DRAGON_PULSE, 44
+    learnset MOVE_DRAGON_DANCE, 48
+    learnset MOVE_HYDRO_PUMP, 52
     terminatelearnset
 
 levelup SPECIES_KINGDRA
@@ -4012,21 +4014,23 @@ levelup SPECIES_KINGDRA
     learnset MOVE_YAWN, 1 
     learnset MOVE_BUBBLE, 1
     learnset MOVE_LEER, 1
-    learnset MOVE_SMOKESCREEN, 3
-    learnset MOVE_TWISTER, 6
+    learnset MOVE_TWISTER, 3
+    learnset MOVE_SMOKESCREEN, 6
     learnset MOVE_FOCUS_ENERGY, 9
     learnset MOVE_CLEAR_SMOG, 12
-    learnset MOVE_DRAGON_BREATH, 15
-    learnset MOVE_BUBBLE_BEAM, 18
+    learnset MOVE_BUBBLE_BEAM, 15
+    learnset MOVE_DRAGON_BREATH, 18
     learnset MOVE_DRAGON_RAGE, 21
     learnset MOVE_OCTAZOOKA, 24
     learnset MOVE_AGILITY, 27
-    learnset MOVE_WHIRLPOOL, 34
-    learnset MOVE_DRAGON_PULSE, 40
-    learnset MOVE_RAIN_DANCE, 46
-    learnset MOVE_DRAGON_DANCE, 52
-    learnset MOVE_HYDRO_PUMP, 58
-    learnset MOVE_WAVE_CRASH, 64
+    learnset MOVE_BRINE, 34
+    learnset MOVE_FLAIL, 38
+    learnset MOVE_RAIN_DANCE, 42
+    learnset MOVE_DRAGON_PULSE, 46
+    learnset MOVE_DRAGON_DANCE, 50
+    learnset MOVE_HYDRO_PUMP, 54
+    learnset MOVE_WAVE_CRASH, 58
+    learnset MOVE_OUTRAGE, 62
     terminatelearnset
 
 // Evolution: 28
@@ -5443,7 +5447,7 @@ levelup SPECIES_CHIKORITA
     learnset MOVE_RAZOR_LEAF, 3
     learnset MOVE_SWEET_SCENT, 6
     learnset MOVE_POISON_POWDER, 9
-    learnset MOVE_GRASS_WHISTLE, 9
+    learnset MOVE_SLEEP_POWDER, 9
     learnset MOVE_MAGICAL_LEAF, 12
     learnset MOVE_REFLECT, 15
     learnset MOVE_LIGHT_SCREEN, 15
@@ -5464,7 +5468,7 @@ levelup SPECIES_BAYLEEF
     learnset MOVE_RAZOR_LEAF, 3
     learnset MOVE_SWEET_SCENT, 6
     learnset MOVE_POISON_POWDER, 9
-    learnset MOVE_GRASS_WHISTLE, 9
+    learnset MOVE_SLEEP_POWDER, 9
     learnset MOVE_MAGICAL_LEAF, 12
     learnset MOVE_REFLECT, 15
     learnset MOVE_LIGHT_SCREEN, 15
@@ -5491,7 +5495,7 @@ levelup SPECIES_MEGANIUM
     learnset MOVE_RAZOR_LEAF, 3
     learnset MOVE_SWEET_SCENT, 6
     learnset MOVE_POISON_POWDER, 9
-    learnset MOVE_GRASS_WHISTLE, 9
+    learnset MOVE_SLEEP_POWDER, 9
     learnset MOVE_MAGICAL_LEAF, 12
     learnset MOVE_REFLECT, 15
     learnset MOVE_LIGHT_SCREEN, 15
@@ -6252,7 +6256,7 @@ levelup SPECIES_HOPPIP
     learnset MOVE_STRENGTH_SAP, 39
     learnset MOVE_BATON_PASS, 43
     learnset MOVE_U_TURN, 47
-    laernset MOVE_BOUNCE, 51
+    learnset MOVE_BOUNCE, 51
     learnset MOVE_MEMENTO, 55
     terminatelearnset
 
@@ -6281,7 +6285,7 @@ levelup SPECIES_SKIPLOOM
     learnset MOVE_STRENGTH_SAP, 41
     learnset MOVE_BATON_PASS, 45
     learnset MOVE_U_TURN, 49
-    laernset MOVE_BOUNCE, 53
+    learnset MOVE_BOUNCE, 53
     learnset MOVE_MEMENTO, 57
     terminatelearnset
 
@@ -6311,7 +6315,7 @@ levelup SPECIES_JUMPLUFF
     learnset MOVE_STRENGTH_SAP, 43
     learnset MOVE_BATON_PASS, 47
     learnset MOVE_U_TURN, 51
-    laernset MOVE_BOUNCE, 55
+    learnset MOVE_BOUNCE, 55
     learnset MOVE_MEMENTO, 59
     terminatelearnset
 

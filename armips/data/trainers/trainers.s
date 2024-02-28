@@ -18538,7 +18538,7 @@ party 838
     level LEVEL_SAFARI_ROCKET_ADMIN+2
     pokemon SPECIES_SEADRA
     item ITEM_MYSTIC_WATER
-    move MOVE_OCTAZOOKA
+    move MOVE_BRINE
     move MOVE_ICY_WIND
     move MOVE_SIGNAL_BEAM
     move MOVE_DRAGON_PULSE
@@ -29255,7 +29255,7 @@ party 268
     level LEVEL_SILVER_5
     pokemon SPECIES_KINGDRA
     item ITEM_ROSELI_BERRY
-    move MOVE_LIQUIDATION
+    move MOVE_WAVE_CRASH
     move MOVE_OUTRAGE
     move MOVE_IRON_HEAD
     move MOVE_DRAGON_DANCE

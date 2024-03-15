@@ -369,8 +369,8 @@ const btl_scr_cmd_func NewBattleScriptCmdTable[] =
     [0xF6 - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_F6_storedpowerdamagecalc,
     [0xF7 - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_F7_ragefistdamagecalc,
     [0xF8 - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_F8_strengthsapcalc,
-    [0xF9 - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_F9_didTargetRaiseStat
-    [0xFA - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_FA_changepermanentbg,
+    [0xF9 - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_F9_didTargetRaiseStat,
+    [0xFA - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_FA_changepermanentbg
 };
 
 // entries before 0xFFFE are banned for mimic and metronome--after is just banned for metronome.  table ends with 0xFFFF

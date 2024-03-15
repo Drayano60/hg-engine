@@ -10271,8 +10271,7 @@ movedata MOVE_ION_DELUGE, "Ion Deluge"
     contesttype CONTEST_COOL
     terminatedata
 
-// NAME TOO LONG
-movedata MOVE_PARABOLIC_CHARGE, "Parabolic C."
+movedatalongname MOVE_PARABOLIC_CHARGE, "Parabolic C.", "Parabolic Charge"
     battleeffect 3
     pss SPLIT_SPECIAL
     basepower 65
@@ -11644,8 +11643,7 @@ movedata MOVE_SHORE_UP, "Shore Up"
     contesttype CONTEST_COOL
     terminatedata
 
-// NAME TOO LONG
-movedata MOVE_FIRST_IMPRESSION, "F. Impression"
+movedatalongname MOVE_FIRST_IMPRESSION, "F. Impression", "First Impression"
     battleeffect 158
     pss SPLIT_PHYSICAL
     basepower 90
@@ -13885,8 +13883,7 @@ movedata MOVE_SKITTER_SMACK, "Skitter Smack"
     terminatedata
     movedescription MOVE_SKITTER_SMACK, "The user skitters\nbehind the foe\nto attack.\nThis also lowers the\nfoe’s Sp. Atk stat."
 
-// NAME TOO LONG
-movedata MOVE_BURNING_JEALOUSY, "B. Jealousy"
+movedatalongname MOVE_BURNING_JEALOUSY, "B. Jealousy", "Burning Jealousy"
     battleeffect 334
     pss SPLIT_SPECIAL
     basepower 70
@@ -15024,8 +15021,7 @@ movedata MOVE_SHED_TAIL, "Shed Tail"
     contesttype CONTEST_COOL
     terminatedata
 
-// NAME TOO LONG
-movedata MOVE_CHILLY_RECEPTION, "C. Reception"
+movedatalongname MOVE_CHILLY_RECEPTION, "C. Reception", "Chilly Reception"
     battleeffect 164 // AI purposes
     pss SPLIT_STATUS
     basepower 0

@@ -84,5 +84,7 @@ tools/swav2swar.exe
 
 *:Zone.Identifier
 
+*.ml*
+
 # Probably best not to commit these
 narcs/*

@@ -78,6 +78,7 @@ BOOL btl_scr_cmd_F6_storedpowerdamagecalc(void *bw, struct BattleStruct *sp);
 BOOL btl_scr_cmd_F7_ragefistdamagecalc(void *bw, struct BattleStruct *sp);
 BOOL btl_scr_cmd_F8_strengthsapcalc(void *bw, struct BattleStruct *sp);
 BOOL btl_scr_cmd_F9_didTargetRaiseStat(void *bw, struct BattleStruct *sp);
+BOOL btl_scr_cmd_FA_changepermanentbg(void *bw, struct BattleStruct *sp);
 
 BOOL CanKnockOffApply(struct BattleStruct *sp);
 u32 CalculateBallShakes(void *bw, struct BattleStruct *sp);
@@ -335,6 +336,7 @@ const u8 *BattleScrCmdNames[] =
     "ifcurrentmoveisvalidparentalbondmove",
     "canapplyknockoffdamageboost",
     "isparentalbondactive",
+    "changepermanentbg",
 };
 
 u32 cmdAddress = 0;
@@ -368,6 +370,7 @@ const btl_scr_cmd_func NewBattleScriptCmdTable[] =
     [0xF7 - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_F7_ragefistdamagecalc,
     [0xF8 - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_F8_strengthsapcalc,
     [0xF9 - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_F9_didTargetRaiseStat
+    [0xFA - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_FA_changepermanentbg,
 };
 
 // entries before 0xFFFE are banned for mimic and metronome--after is just banned for metronome.  table ends with 0xFFFF
@@ -577,6 +580,8 @@ BOOL BattleScriptCommandHandler(void *bw, struct BattleStruct *sp)
 #ifdef DEBUG_BATTLE_SCRIPT_COMMANDS
     u8 buf[64];
 #endif //DEBUG_BATTLE_SCRIPT_COMMANDS
+
+    gBattleSystem = bw; // constantly update bw even tho it really only need be done once
 
     do {
         command = sp->SkillSeqWork[sp->skill_seq_no];
@@ -3114,6 +3119,32 @@ BOOL btl_scr_cmd_F9_didTargetRaiseStat(void *bw UNUSED, struct BattleStruct *sp)
     if (sp->oneTurnFlag[sp->defence_client].stats_raised_flag) {
        IncrementBattleScriptPtr(sp, address);
     }
+
+    return FALSE;
+}
+
+/**
+ *  @brief script command to jump somewhere if parental bond is currently active beyond mummy
+ *
+ *  @param bw battle work structure
+ *  @param sp global battle structure
+ *  @return FALSE
+ */
+BOOL btl_scr_cmd_FA_changepermanentbg(void *bw, struct BattleStruct *sp) {
+    IncrementBattleScriptPtr(sp, 1);
+
+    int bg = read_battle_script_param(sp);
+    int terrain = read_battle_script_param(sp);
+
+    if (bg == -1)
+    {
+        bg = gBattleSystem->bgId;
+    }
+    if (terrain == -1)
+    {
+        terrain = gBattleSystem->terrain;
+    }
+    LoadDifferentBattleBackground(bw, bg, terrain);
 
     return FALSE;
 }

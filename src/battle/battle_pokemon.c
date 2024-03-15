@@ -177,17 +177,18 @@ u8 TypeEffectivenessTable[][3] =
     { TYPE_DARK, TYPE_PSYCHIC, 0x14 },
     { TYPE_DARK, TYPE_DARK, 0x05 },
 
-    // Immunities are brought to the bottom to avoid switch AI bug where a move marked as immune can still be marked as SE against the second type
-    // As long as the immunity is found second, it's all good
+// AI bugfix: move all of the immune type interactions to the end of the table so that the
+// immunities properly unset the super effective move effect flag (and a lanturn with thunderbolt
+// isn't switched in on a gliscor over a raichu with ice beam)
     { TYPE_POISON, TYPE_STEEL, 0x00 },
     { TYPE_GROUND, TYPE_FLYING, 0x00 },
     { TYPE_GHOST, TYPE_NORMAL, 0x00 },
     { TYPE_ELECTRIC, TYPE_GROUND, 0x00 },
     { TYPE_PSYCHIC, TYPE_DARK, 0x00 },
-
-    #if FAIRY_TYPE_IMPLEMENTED == 1
-        { TYPE_DRAGON, TYPE_FAIRY, 0x00 },
-    #endif
+    
+#if FAIRY_TYPE_IMPLEMENTED == 1
+    { TYPE_DRAGON, TYPE_FAIRY, 0x00 },
+#endif
 
     { 0xFE, 0xFE, 0x00 },
     { TYPE_NORMAL, TYPE_GHOST, 0x00 },

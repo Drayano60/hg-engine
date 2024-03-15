@@ -1597,3 +1597,7 @@ MOVE_DATA_CONTEST_TYPE equ 11
 .macro didTargetRaiseStat,address
     .word 0xF9
 .endmacro
+
+.macro changepermanentbg,bg,terrain
+    .word 0xFA, bg, terrain
+.endmacro

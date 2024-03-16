@@ -17,7 +17,7 @@ Instructions on how to build the repo can be found there.
 - [ ] Sprites for some Hisuian forms (Arcanine, Qwilfish, Samurott, Avalugg)
 - [ ] Sprites for some Paldean forms (Tauros Combat, Tauros Blaze, Tauros Aqua)
 - [ ] Backsprite for Blade Forme Aegislash (currently uses Shield Forme)
-- [ ] Kingambit overworld sprite
+- [ ] Kingambit shiny overworld sprite
 - [ ] Looker overworld (replace Byron?)
 - [ ] Item sprites (Fairy Feather)
 - [ ] Maybe a better sprite for the Stellar Stone

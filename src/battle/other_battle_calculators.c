@@ -1600,54 +1600,41 @@ int ServerDoTypeCalcMod(void *bw UNUSED, struct BattleStruct *sp, int move_no, i
                     continue;
                 }
             }
+            
             if (TypeEffectivenessTable[i][0] == move_type)
             {
-                int defender_type_1 = BattlePokemonParamGet(sp, defence_client, BATTLE_MON_DATA_TYPE1, NULL);
-                int defender_type_2 = BattlePokemonParamGet(sp, defence_client, BATTLE_MON_DATA_TYPE2, NULL);
-
-                // The below code is a hacky solution for Freeze-Dry.
-                // 
-                // During damage calculation when Freeze-Dry is used, if the Pokémon has any type slots filled
-                // with Water, they should be changed to be a type that is weak to Ice instead.
-                // 
-                // We use Dragon for this except in the case where the Pokémon is Water/Dragon or Dragon/Water,
-                // in which case the Water is replaced with Flying instead so the move correctly does 4x damage.
-                //
-                // The proper method would probably be to put it in TypeCheckCalc when that gets exposed, but this
-                // should do the trick outside of the interaction with Normalize.
-                //
-                // Doing it this way also means the AI picks up on the damage change!
-                if (move_no == MOVE_FREEZE_DRY && (defender_type_1 == TYPE_WATER || defender_type_2 == TYPE_WATER)) {
-                    int type_weak_to_ice = (defender_type_1 != TYPE_DRAGON && defender_type_2 != TYPE_DRAGON) ? TYPE_DRAGON : TYPE_FLYING;
-
-                    if (defender_type_1 == TYPE_WATER && defender_type_2 == TYPE_WATER) {
-                        defender_type_1 = type_weak_to_ice;
-                        defender_type_2 = type_weak_to_ice;
-                    } else if (defender_type_1 == TYPE_WATER && defender_type_2 != TYPE_WATER) {
-                        defender_type_1 = type_weak_to_ice;
-                    } else if (defender_type_1 != TYPE_WATER && defender_type_2 == TYPE_WATER) {
-                        defender_type_2 = type_weak_to_ice;
-                    }
-                }
-
-                if (TypeEffectivenessTable[i][1] == defender_type_1)
+                if (TypeEffectivenessTable[i][1] == BattlePokemonParamGet(sp, defence_client, BATTLE_MON_DATA_TYPE1, NULL))
                 {
                     if (ShouldUseNormalTypeEffCalc(sp, attack_client, defence_client, i) == TRUE)
                     {
-                        damage = TypeCheckCalc(sp, attack_client, TypeEffectivenessTable[i][2], damage, base_power, flag);
-                        if (TypeEffectivenessTable[i][2] == 20) // seems to be useless, modifier isn't used elsewhere
+                        u8 multiplier = TypeEffectivenessTable[i][2];
+
+                        if (move_no == MOVE_FREEZE_DRY && (BattlePokemonParamGet(sp, defence_client, BATTLE_MON_DATA_TYPE1, NULL) == TYPE_WATER)) {
+                            multiplier = 20;
+                        }
+                        
+                        damage = TypeCheckCalc(sp, attack_client, multiplier, damage, base_power, flag);
+
+                        if (multiplier == 20) // seems to be useless, modifier isn't used elsewhere
                         {
                             modifier *= 2;
                         }
                     }
                 }
-                if ((TypeEffectivenessTable[i][1] == defender_type_2)
-                 && (defender_type_1) != (defender_type_2))
+                if ((TypeEffectivenessTable[i][1] == BattlePokemonParamGet(sp, defence_client, BATTLE_MON_DATA_TYPE2, NULL))
+                 && (BattlePokemonParamGet(sp, defence_client, BATTLE_MON_DATA_TYPE1, NULL) != BattlePokemonParamGet(sp, defence_client, BATTLE_MON_DATA_TYPE2, NULL)))
                 {
                     if (ShouldUseNormalTypeEffCalc(sp, attack_client, defence_client, i) == TRUE)
                     {
-                        damage = TypeCheckCalc(sp, attack_client, TypeEffectivenessTable[i][2], damage, base_power, flag);
-                        if (TypeEffectivenessTable[i][2] == 20) // seems to be useless, modifier isn't used elsewhere
+                        u8 multiplier = TypeEffectivenessTable[i][2];
+
+                        if (move_no == MOVE_FREEZE_DRY && (BattlePokemonParamGet(sp, defence_client, BATTLE_MON_DATA_TYPE2, NULL) == TYPE_WATER)) {
+                            multiplier = 20;
+                        }
+                        
+                        damage = TypeCheckCalc(sp, attack_client, multiplier, damage, base_power, flag);
+
+                        if (multiplier == 20) // seems to be useless, modifier isn't used elsewhere
                         {
                             modifier *= 2;
                         }
@@ -2341,6 +2328,9 @@ void getEquivalentAttackAndDefense(struct BattleStruct *sp, u16 attackerAttack, 
         case MOVE_SECRET_SWORD:
             *equivalentDefense = rawPhysicalDefense;
             break;
+
+        #ifdef SAVE_SPACE
+
         case MOVE_PRISMATIC_LASER:
             if (tempPhysicalAttack > tempSpecialAttack) {
                 *movesplit = SPLIT_PHYSICAL;
@@ -2352,6 +2342,8 @@ void getEquivalentAttackAndDefense(struct BattleStruct *sp, u16 attackerAttack, 
                 *equivalentDefense = rawPhysicalDefense;
             }
             break;
+
+        #endif
 
         default:
             break;

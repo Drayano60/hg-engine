@@ -2635,10 +2635,10 @@ BOOL btl_scr_cmd_E5_iftailwindactive(void *bw, struct BattleStruct *sp)
 BOOL btl_scr_cmd_E6_ifcurrentfieldistype(void *bw, struct BattleStruct *sp) {
     IncrementBattleScriptPtr(sp, 1);
 
-    #ifdef SAVE_SPACE
-
     u32 terrain = read_battle_script_param(sp);
     int address = read_battle_script_param(sp);
+
+    #ifdef SAVE_SPACE
 
     if (BattleWorkGroundIDGet(bw) == terrain && sp->terrainOverlay.type == TERRAIN_NONE) {
         IncrementBattleScriptPtr(sp, address);
@@ -2659,9 +2659,9 @@ BOOL btl_scr_cmd_E6_ifcurrentfieldistype(void *bw, struct BattleStruct *sp) {
 BOOL btl_scr_cmd_E7_ifmovepowergreaterthanzero(void *bw UNUSED, struct BattleStruct *sp) {
     IncrementBattleScriptPtr(sp, 1);
 
-    #ifdef SAVE_SPACE
-
     int address = read_battle_script_param(sp);
+
+    #ifdef SAVE_SPACE
 
     if (sp->moveTbl[sp->current_move_index].power > 0) {
         IncrementBattleScriptPtr(sp, address);
@@ -2709,11 +2709,12 @@ BOOL IsClientGrounded(struct BattleStruct *sp, u32 client_no) {
 BOOL btl_scr_cmd_E8_ifgrounded(void *bw UNUSED, struct BattleStruct *sp) {
     IncrementBattleScriptPtr(sp, 1);
 
+    u32 client_no = read_battle_script_param(sp);
+    u32 address = read_battle_script_param(sp);
+
     #ifdef SAVE_SPACE
 
-    u32 client_no = read_battle_script_param(sp);
     client_no = GrabClientFromBattleScriptParam(bw, sp, client_no);
-    u32 address = read_battle_script_param(sp);
 
     if(IsClientGrounded(sp, client_no)) {
         IncrementBattleScriptPtr(sp, address);
@@ -2734,10 +2735,10 @@ BOOL btl_scr_cmd_E8_ifgrounded(void *bw UNUSED, struct BattleStruct *sp) {
 BOOL btl_scr_cmd_E9_checkifcurrentadjustedmoveistype(void *bw UNUSED, struct BattleStruct *sp) {
     IncrementBattleScriptPtr(sp, 1);
 
-    #ifdef SAVE_SPACE
-
     int type = read_battle_script_param(sp);
     int address = read_battle_script_param(sp);
+
+    #ifdef SAVE_SPACE
 
     int movetype = GetAdjustedMoveType(sp, sp->attack_client, sp->current_move_index);
     // sp->moveTbl[sp->current_move_index].type
@@ -2760,9 +2761,9 @@ BOOL btl_scr_cmd_E9_checkifcurrentadjustedmoveistype(void *bw UNUSED, struct Bat
 BOOL btl_scr_cmd_EA_ifcontactmove(void *bw UNUSED, struct BattleStruct *sp) {
     IncrementBattleScriptPtr(sp, 1);
 
-    #ifdef SAVE_SPACE
-
     int address = read_battle_script_param(sp);
+
+    #ifdef SAVE_SPACE
 
     if (sp->moveTbl[sp->current_move_index].flag & FLAG_CONTACT) {
         IncrementBattleScriptPtr(sp, address);
@@ -2783,9 +2784,9 @@ BOOL btl_scr_cmd_EA_ifcontactmove(void *bw UNUSED, struct BattleStruct *sp) {
 BOOL btl_scr_cmd_EB_ifsoundmove(void *bw UNUSED, struct BattleStruct *sp) {
     IncrementBattleScriptPtr(sp, 1);
 
-    #if SAVE_SPACE
-
     int address = read_battle_script_param(sp);
+
+    #if SAVE_SPACE
 
     if (IsMoveSoundBased(sp->current_move_index)) {
         IncrementBattleScriptPtr(sp, address);
@@ -2806,10 +2807,11 @@ BOOL btl_scr_cmd_EB_ifsoundmove(void *bw UNUSED, struct BattleStruct *sp) {
 BOOL btl_scr_cmd_EC_updateterrainoverlay(void *bw UNUSED, struct BattleStruct *sp) {
     IncrementBattleScriptPtr(sp, 1);
 
-    #ifdef SAVE_SPACE
-    
     u8 endTerrainFlag = read_battle_script_param(sp);
     int address = read_battle_script_param(sp);
+
+    #ifdef SAVE_SPACE
+    
     int client_set_max;
     int client_no;
 
@@ -2876,10 +2878,10 @@ BOOL btl_scr_cmd_EC_updateterrainoverlay(void *bw UNUSED, struct BattleStruct *s
 BOOL btl_scr_cmd_ED_ifterrainoverlayistype(void *bw UNUSED, struct BattleStruct *sp) {
     IncrementBattleScriptPtr(sp, 1);
 
-    #ifdef SAVE_SPACE
-
     u8 terrainOverlayType = read_battle_script_param(sp);
     int address = read_battle_script_param(sp);
+
+    #ifdef SAVE_SPACE
 
     if (sp->terrainOverlay.type == terrainOverlayType) {
         IncrementBattleScriptPtr(sp, address);

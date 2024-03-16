@@ -356,6 +356,21 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
     else
         movepower = pow;
 
+    u16 move_effect = sp->moveTbl[moveno].effect;
+
+    // This is a workaround so when selecting a move to use, the AI will use a base power equal to 2 hits (adjusted for Loaded Dice/Skill Link) for 2-5 hit moves.
+    // pow comes from the eff_seq file which will be equal to the move's base power, but isn't consulted during the move selection step.
+    // 301 is Scale Shot's effect.
+    if ((move_effect == MOVE_EFFECT_MULTI_HIT || move_effect == 301) && pow == 0) {
+        if (AttackingMon.ability == ABILITY_SKILL_LINK) {
+            movepower = movepower * 5;
+        } else if (sp->battlemon[sp->attack_client].item == ITEM_LOADED_DICE) {
+            movepower = movepower * 4;
+        } else {
+            movepower = movepower * 2;
+        }
+    }
+
     // Handle moves that increase damage based on stat boosts
     if (moveno == MOVE_STORED_POWER || moveno == MOVE_POWER_TRIP) {
         movepower = movepower + (movepower * CalcStoredPowerDamageBonus(sp));

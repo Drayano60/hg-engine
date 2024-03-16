@@ -548,7 +548,7 @@ const struct FormData UNUSED PokeFormDataTbl[]=
     /**cosmetic forms**/
     {
         .species = SPECIES_PIKACHU,
-        .form_no = 1,
+        .form_no = 15, // Shift form ID to allow regular Pika to evolve into Alola Raichu
         .need_rev = 0,
         .file = SPECIES_PIKACHU_COSPLAY,
     },

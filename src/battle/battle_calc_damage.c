@@ -348,8 +348,12 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
 
     battle_type = BattleTypeGet(bw);
 
+    #ifdef SAVE_SPACE
+
     if (((MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_DISGUISE) == TRUE || MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_ICE_FACE) == TRUE) && sp->moveTbl[moveno].split == SPLIT_PHYSICAL) && sp->battlemon[defender].form_no == 0)
         return 0;
+
+    #endif
 
     if (pow == 0)
         movepower = sp->moveTbl[moveno].power;
@@ -357,17 +361,30 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
         movepower = pow;
 
     u16 move_effect = sp->moveTbl[moveno].effect;
+    
+    BOOL isTripleHitMove = moveno == MOVE_TRIPLE_KICK || moveno == MOVE_TRIPLE_AXEL;
+    BOOL isDoubleHitMove = move_effect == MOVE_EFFECT_HIT_TWICE || move_effect == MOVE_EFFECT_POISON_MULTI_HIT; 
+    BOOL isMultiHitMove = move_effect == MOVE_EFFECT_MULTI_HIT || move_effect == 301;
+    BOOL isMultipleHitMove = isTripleHitMove || isDoubleHitMove || isMultiHitMove;
 
-    // This is a workaround so when selecting a move to use, the AI will use a base power equal to 2 hits (adjusted for Loaded Dice/Skill Link) for 2-5 hit moves.
-    // pow comes from the eff_seq file which will be equal to the move's base power, but isn't consulted during the move selection step.
-    // 301 is Scale Shot's effect.
-    if ((move_effect == MOVE_EFFECT_MULTI_HIT || move_effect == 301) && pow == 0) {
-        if (AttackingMon.ability == ABILITY_SKILL_LINK) {
-            movepower = movepower * 5;
-        } else if (sp->battlemon[sp->attack_client].item == ITEM_LOADED_DICE) {
-            movepower = movepower * 4;
+    // This is a workaround so the AI treats multi-hit moves as their minimum total base power when choosing what move to use.
+    // The 'pow' value is set in the eff_seq file to match the actual power, but it isn't used during AI move selection.
+    // There's probably some variation in the expected and actual damage, but it should be fairly close...
+    if (isMultipleHitMove && pow == 0) {
+        if (isTripleHitMove) {
+            movepower *= 6;
+        } else if (isMultiHitMove && AttackingMon.ability == ABILITY_SKILL_LINK) {
+            movepower *= 5;
+        } else if (isMultiHitMove && sp->battlemon[sp->attack_client].item == ITEM_LOADED_DICE) {
+            movepower *= 4;
         } else {
-            movepower = movepower * 2;
+            movepower *= 2;
+        }
+
+        // Technician applies to all multi-hit moves, but this fake version may be too powerful to take it into account.
+        // As such, we apply it at the end here.
+        if (AttackingMon.ability == ABILITY_TECHNICIAN && movepower > 60) {
+            movepower = movepower * 15 / 10;
         }
     }
 
@@ -380,41 +397,25 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
     movetype = GetAdjustedMoveType(sp, attacker, moveno);
     movepower = movepower * sp->damage_value / 10;
 
-
     // Multiple moves with damage multiplication effects are handled here.
     // This is because the AI can read the damage numbers properly here, but not from the eff_seq files.
 
-    // Handle moves that double in power if the target has a status condition.
-    if (moveno == MOVE_INFERNAL_PARADE || moveno == MOVE_HEX) {
-        if (DefendingMon.condition > 0) {
-            movepower = movepower * 2;
-        }
-    }
-
-    // Handle moves that double in power if the target is poisoned.
-    if (moveno == MOVE_VENOSHOCK || moveno == MOVE_BARB_BARRAGE) {
-        if (DefendingMon.condition & STATUS_POISON_ANY) {
-            movepower = movepower * 2;
-        }
-    }
-
-    // Handle Acrobatics's double damage effect if the attacker has no item.
-    if (moveno == MOVE_ACROBATICS) {
-        if (sp->battlemon[sp->attack_client].item == 0) {
-            movepower = movepower * 2;
-        }
+    // Handle moves that double in power under certain conditions.
+    if
+    (
+        ((moveno == MOVE_INFERNAL_PARADE || moveno == MOVE_HEX) && DefendingMon.condition > 0) ||
+        ((moveno == MOVE_VENOSHOCK || moveno == MOVE_BARB_BARRAGE) && DefendingMon.condition & STATUS_POISON_ANY) ||
+        ((moveno == MOVE_ACROBATICS && sp->battlemon[sp->attack_client].item == 0)) ||
+        ((moveno == MOVE_FACADE && (AttackingMon.condition & (STATUS_FLAG_POISONED | STATUS_FLAG_BADLY_POISONED | STATUS_FLAG_PARALYZED | STATUS_FLAG_BURNED))))
+        
+    )
+    {
+        movepower = movepower * 2;
     }
 
     // Handle Knock Off's boosted damage effect if the target item is valid for it.
     if (moveno == MOVE_KNOCK_OFF && isKnockOffBonusDamageItem(sp)) {
         movepower = movepower * 15 / 10;
-    }
-
-    // Handle Facade's boosted damage effect if the user is poisoned, paralyzed or burned.
-    if (moveno == MOVE_FACADE) {
-        if (AttackingMon.condition & (STATUS_FLAG_POISONED | STATUS_FLAG_BADLY_POISONED | STATUS_FLAG_PARALYZED | STATUS_FLAG_BURNED)) {
-            movepower = movepower * 2;
-        }
     }
 
     // Handle anti-Minimize moves
@@ -759,11 +760,15 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
         movepower = (movepower * 150) / 100;
     }
 
+    #ifdef SAVE_SPACE
+
     // handle ice scales - halve damage if move is special, regardless of if it uses defense stat
     if (MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_ICE_SCALES) == TRUE && movesplit == SPLIT_SPECIAL)
     {
         movepower /= 2;
     }
+
+    #endif
 
     // Handle fake STAB abilities (including four custom ones)
     if
@@ -1198,12 +1203,13 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
                 damage = damage * 15 / 10;
                 break;
             case TYPE_WATER:
-                // If the current weather is Sunny Day and the user is not holding Utility Umbrella, this move's damage is multiplied by 1.5 instead of halved for being Water type.
-                if (moveno == MOVE_HYDRO_STEAM && item != ITEM_UTILITY_UMBRELLA) {
-                    damage = damage * 15 / 10;
-                } else {
-                    damage /= 2;
-                }
+                damage /= 2;
+                // // If the current weather is Sunny Day and the user is not holding Utility Umbrella, this move's damage is multiplied by 1.5 instead of halved for being Water type.
+                // if (moveno == MOVE_HYDRO_STEAM && item != ITEM_UTILITY_UMBRELLA) {
+                //     damage = damage * 15 / 10;
+                // } else {
+                //     damage /= 2;
+                // }
                 break;
             }
         }

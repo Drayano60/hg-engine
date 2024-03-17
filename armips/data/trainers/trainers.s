@@ -31685,7 +31685,7 @@ trainerdata 326, "Jo & Zoe"
     item 0 
     item 0
     aiflags TRAINER_AI_FLAGS
-    battletype SINGLE_BATTLE
+    battletype DOUBLE_BATTLE
     endentry
 
 party 326
@@ -33386,7 +33386,7 @@ trainerdata 684, "Elan & Ida"
     item 0 
     item 0
     aiflags TRAINER_AI_FLAGS
-    battletype SINGLE_BATTLE
+    battletype DOUBLE_BATTLE
     endentry
 
 party 684
@@ -34532,7 +34532,7 @@ trainerdata 549, "Zac & Jen"
     item 0 
     item 0
     aiflags TRAINER_AI_FLAGS
-    battletype SINGLE_BATTLE
+    battletype DOUBLE_BATTLE
     endentry
 
 party 549
@@ -35269,7 +35269,7 @@ trainerdata 553, "Moe & Lulu"
     item 0 
     item 0
     aiflags TRAINER_AI_FLAGS
-    battletype SINGLE_BATTLE
+    battletype DOUBLE_BATTLE
     endentry
 
 party 553
@@ -36408,7 +36408,7 @@ trainerdata 559, "Tim & Sue"
     item 0 
     item 0
     aiflags TRAINER_AI_FLAGS
-    battletype SINGLE_BATTLE
+    battletype DOUBLE_BATTLE
     endentry
 
 party 559
@@ -37211,7 +37211,7 @@ trainerdata 569, "Kay & Tia"
     item 0 
     item 0
     aiflags TRAINER_AI_FLAGS
-    battletype SINGLE_BATTLE
+    battletype DOUBLE_BATTLE
     endentry
 
 party 569

@@ -14,7 +14,7 @@
 // This does not give stat too high messages
 
 a001_469:
-    if IF_EQUAL, VAR_CRIT_CHANCE, 16, End
+    ifcontactmove End
 
     // -1 Defense
     changevar VAR_OP_SET, VAR_ADD_EFFECT_ATTRIBUTE, 0x17

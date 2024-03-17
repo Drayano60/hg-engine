@@ -13758,8 +13758,6 @@ movedata MOVE_STEEL_ROLLER, "Steel Roller"
     contesttype CONTEST_COOL
     terminatedata
 
-// EFFECT: The stat change happens after the first hit instead of the last.
-// Its a bit janky but seems to be the best I can manage for now. Same effect though.
 movedata MOVE_SCALE_SHOT, "Scale Shot"
     battleeffect 301
     pss SPLIT_PHYSICAL
@@ -13774,7 +13772,7 @@ movedata MOVE_SCALE_SHOT, "Scale Shot"
     appeal 0
     contesttype 0
     terminatedata
-    movedescription MOVE_SCALE_SHOT, "Shoots scales two to\nfive times in a row.\nThis move boosts the\nuser’s Speed but\nlowers its Defense."
+    movedescription MOVE_SCALE_SHOT, "Shoots scales two to\nfive times in a row.\nThis move also boosts\nthe user’s Speed but\nlowers its Defense."
 
 movedata MOVE_METEOR_BEAM, "Meteor Beam"
     battleeffect 317

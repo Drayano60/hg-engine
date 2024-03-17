@@ -2771,6 +2771,11 @@ BOOL btl_scr_cmd_EA_ifcontactmove(void *bw UNUSED, struct BattleStruct *sp) {
     
     #endif
 
+    // Repurposed for now for Scale Shot because of being so tight on space
+    if (sp->multi_hit_count > 1) {
+        IncrementBattleScriptPtr(sp, address); 
+    }
+
     return FALSE;
 }
 

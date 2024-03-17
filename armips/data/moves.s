@@ -11643,8 +11643,10 @@ movedata MOVE_SHORE_UP, "Shore Up"
     contesttype CONTEST_COOL
     terminatedata
 
+// Had to give this a different effect to Fake Out so Sheer Force does not boost it.
+// As such, the AI will not be aware of the first turn restriction, so AI opponents cannot use this.
 movedatalongname MOVE_FIRST_IMPRESSION, "F. Impression", "First Impression"
-    battleeffect 158
+    battleeffect 335
     pss SPLIT_PHYSICAL
     basepower 90
     type TYPE_BUG

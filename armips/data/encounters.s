@@ -9446,22 +9446,22 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_TENTACRUEL, KLL, KLL
-encounter SPECIES_PELIPPER, KLL, KLL
-encounter SPECIES_STARMIE, KLL, KLL
-encounter SPECIES_SHARPEDO, KLL, KLL
-encounter SPECIES_LAPRAS, KLL, KLL
+encounter SPECIES_TENTACRUEL, KHL, KHL
+encounter SPECIES_PELIPPER, KHL, KHL
+encounter SPECIES_STARMIE, KHL, KHL
+encounter SPECIES_SHARPEDO, KHL, KHL
+encounter SPECIES_LAPRAS, KHL, KHL
 
 // rock smash encounters
-encounter SPECIES_KINGLER, KLL, KLL
-encounter SPECIES_STARMIE, KLL, KLL
+encounter SPECIES_KINGLER, KHL, KHL
+encounter SPECIES_STARMIE, KHL, KHL
 
 // old rod encounters
-encounter SPECIES_KINGLER, KLL, KLL
-encounter SPECIES_CORSOLA, KLL, KLL
-encounter SPECIES_STARMIE, KLL, KLL
-encounter SPECIES_HUNTAIL, KLL, KLL
-encounter SPECIES_GOREBYSS, KLL, KLL
+encounter SPECIES_KINGLER, KHL, KHL
+encounter SPECIES_CORSOLA, KHL, KHL
+encounter SPECIES_STARMIE, KHL, KHL
+encounter SPECIES_HUNTAIL, KHL, KHL
+encounter SPECIES_GOREBYSS, KHL, KHL
 
 // good rod encounters
 encounter SPECIES_MAGIKARP, 1, 1
@@ -9550,22 +9550,22 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_TENTACRUEL, KLL, KLL
-encounter SPECIES_PELIPPER, KLL, KLL
-encounter SPECIES_STARMIE, KLL, KLL
-encounter SPECIES_SHARPEDO, KLL, KLL
-encounter SPECIES_LAPRAS, KLL, KLL
+encounter SPECIES_TENTACRUEL, KHL, KHL
+encounter SPECIES_PELIPPER, KHL, KHL
+encounter SPECIES_STARMIE, KHL, KHL
+encounter SPECIES_SHARPEDO, KHL, KHL
+encounter SPECIES_LAPRAS, KHL, KHL
 
 // rock smash encounters
 encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_SEADRA, KLL, KLL
-encounter SPECIES_CLOYSTER, KLL, KLL
-encounter SPECIES_LANTURN, KLL, KLL
-encounter SPECIES_LUMINEON, KLL, KLL
-encounter SPECIES_WAILORD, KLL, KLL
+encounter SPECIES_SEADRA, KHL, KHL
+encounter SPECIES_CLOYSTER, KHL, KHL
+encounter SPECIES_LANTURN, KHL, KHL
+encounter SPECIES_LUMINEON, KHL, KHL
+encounter SPECIES_WAILORD, KHL, KHL
 
 // good rod encounters
 encounter SPECIES_MAGIKARP, 1, 1
@@ -9654,9 +9654,9 @@ pokemon SPECIES_NONE
 pokemon SPECIES_NONE
 
 // surf encounters
-encounter SPECIES_TENTACRUEL, KLL, KLL
-encounter SPECIES_CLOYSTER, KLL, KLL
-encounter SPECIES_STARMIE, KLL, KLL
+encounter SPECIES_TENTACRUEL, KHL, KHL
+encounter SPECIES_CLOYSTER, KHL, KHL
+encounter SPECIES_STARMIE, KHL, KHL
 encounter SPECIES_DEWGONG, KHL, KHL
 encounter SPECIES_SEALEO, KHL, KHL
 
@@ -9769,11 +9769,11 @@ encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_SEADRA, KLL, KLL
-encounter SPECIES_CLOYSTER, KLL, KLL
-encounter SPECIES_LANTURN, KLL, KLL
-encounter SPECIES_OCTILLERY, KLL, KLL
-encounter SPECIES_LUMINEON, KLL, KLL
+encounter SPECIES_SEADRA, KHL, KHL
+encounter SPECIES_CLOYSTER, KHL, KHL
+encounter SPECIES_LANTURN, KHL, KHL
+encounter SPECIES_OCTILLERY, KHL, KHL
+encounter SPECIES_LUMINEON, KHL, KHL
 
 // good rod encounters
 encounter SPECIES_MAGIKARP, 1, 1
@@ -9873,11 +9873,11 @@ encounter SPECIES_NONE, 0, 0
 encounter SPECIES_NONE, 0, 0
 
 // old rod encounters
-encounter SPECIES_SEADRA, KLL, KLL
-encounter SPECIES_CLOYSTER, KLL, KLL
-encounter SPECIES_LANTURN, KLL, KLL
-encounter SPECIES_OCTILLERY, KLL, KLL
-encounter SPECIES_LUMINEON, KLL, KLL
+encounter SPECIES_SEADRA, KHL, KHL
+encounter SPECIES_CLOYSTER, KHL, KHL
+encounter SPECIES_LANTURN, KHL, KHL
+encounter SPECIES_OCTILLERY, KHL, KHL
+encounter SPECIES_LUMINEON, KHL, KHL
 
 // good rod encounters
 encounter SPECIES_MAGIKARP, 1, 1

@@ -5810,17 +5810,18 @@ levelup SPECIES_LEDYBA
     learnset MOVE_ACROBATICS, 24
     learnset MOVE_AGILITY, 28
     learnset MOVE_LUNGE, 32
-    learnset MOVE_METEOR_MASH, 36
+    learnset MOVE_BUG_BUZZ, 36
     learnset MOVE_FIRST_IMPRESSION, 40
-    learnset MOVE_DOUBLE_EDGE, 44
-    learnset MOVE_FOCUS_PUNCH, 48
+    learnset MOVE_METEOR_MASH, 44
+    learnset MOVE_DOUBLE_EDGE, 48
+    learnset MOVE_FOCUS_PUNCH, 52
     terminatelearnset
 
 // NEW: Piddly Punches (Custom)
-// NEW: Bullet Punch, Lunge, First Impression, Meteor Mash
+// NEW: Arm Thrust, Lunge, First Impression, Meteor Mash
 levelup SPECIES_LEDIAN
-    learnset MOVE_DIZZY_PUNCH, 0
-    learnset MOVE_BULLET_PUNCH, 1
+    learnset MOVE_PIDDLY_PUNCHES, 0
+    learnset MOVE_ARM_THRUST, 1
     learnset MOVE_ENCORE, 1
     learnset MOVE_COMET_PUNCH, 1
     learnset MOVE_SUPERSONIC, 1
@@ -5835,11 +5836,11 @@ levelup SPECIES_LEDIAN
     learnset MOVE_ACROBATICS, 26
     learnset MOVE_AGILITY, 30
     learnset MOVE_LUNGE, 34
-    learnset MOVE_METEOR_MASH, 38
+    learnset MOVE_BUG_BUZZ, 38
     learnset MOVE_FIRST_IMPRESSION, 42
-    learnset MOVE_DOUBLE_EDGE, 46
-    learnset MOVE_FOCUS_PUNCH, 50
-    learnset MOVE_PIDDLY_PUNCHES, 54
+    learnset MOVE_METEOR_MASH, 46
+    learnset MOVE_DOUBLE_EDGE, 50
+    learnset MOVE_FOCUS_PUNCH, 54
     terminatelearnset
 
 // NEW: First Impression, Poison Fang

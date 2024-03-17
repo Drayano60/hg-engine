@@ -5311,10 +5311,10 @@ party 21
     level LEVEL_BUGSY
     pokemon SPECIES_YANMA
     item ITEM_HARD_STONE
+    move MOVE_U_TURN
     move MOVE_SILVER_WIND
     move MOVE_AIR_CUTTER
     move MOVE_ANCIENT_POWER
-    move MOVE_U_TURN
     ability ABILITY_SPEED_BOOST
     ball ITEM_NET_BALL
     setivs 30, 30, 30, 30, 30, 30
@@ -5327,11 +5327,11 @@ party 21
     abilityslot 0
     level LEVEL_BUGSY
     pokemon SPECIES_LEDIAN
-    item ITEM_SHARP_BEAK
-    move MOVE_AERIAL_ACE
-    move MOVE_POWER_UP_PUNCH
-    move MOVE_REFLECT
+    item ITEM_SILVER_POWDER
     move MOVE_U_TURN
+    move MOVE_POWER_UP_PUNCH
+    move MOVE_LIGHT_SCREEN
+    move MOVE_REFLECT
     ability ABILITY_IRON_FIST
     ball ITEM_NET_BALL
     setivs 30, 30, 30, 30, 30, 30
@@ -5361,10 +5361,10 @@ party 21
     abilityslot 0
     level LEVEL_BUGSY
     monwithform SPECIES_VIVILLON, 5 /* Elegant form */
-    item ITEM_SILVER_POWDER
+    item ITEM_SHARP_BEAK
     move MOVE_SILVER_WIND
+    move MOVE_AIR_CUTTER
     move MOVE_ELECTROWEB
-    move MOVE_PSYBEAM
     move MOVE_STUN_SPORE
     ability ABILITY_COMPOUND_EYES
     ball ITEM_NET_BALL
@@ -5396,10 +5396,10 @@ party 21
     level LEVEL_BUGSY+1
     pokemon SPECIES_SCYTHER
     item ITEM_SITRUS_BERRY
-    move MOVE_FURY_CUTTER
-    move MOVE_WING_ATTACK
-    move MOVE_QUICK_ATTACK
     move MOVE_U_TURN
+    move MOVE_WING_ATTACK
+    move MOVE_PURSUIT
+    move MOVE_QUICK_ATTACK
     ability ABILITY_TECHNICIAN
     ball ITEM_NET_BALL
     setivs 30, 30, 30, 30, 30, 30

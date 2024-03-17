@@ -4032,7 +4032,6 @@ mondata SPECIES_NOCTOWL, "Noctowl"
 
 
 // STATS: 20 >> 40 Atk | 55 >> 65 Speed | 265 >> 295 BST
-// ABILITY: Aerilate (HA)
 mondata SPECIES_LEDYBA, "Ledyba"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 40, 40, 30, 65, 40, 80
@@ -4058,12 +4057,12 @@ mondata SPECIES_LEDYBA, "Ledyba"
     mondexweight SPECIES_LEDYBA, "23.8 lbs."
 
 
-// STATS: 35 >> 85 Atk | 85 >> 95 Speed | 390 >> 450 BST
+// STATS: 35 >> 80 Atk | 85 >> 100 Speed | 390 >> 450 BST
 // TYPES: Bug/Flying >> Bug/Fighting
-// ABILITY: Iron Fist (2), Aerilate (HA)
+// ABILITY: Skill Link (2)
 mondata SPECIES_LEDIAN, "Ledian"
     .if STAT_CHANGES_IMPLEMENTED
-        basestats 55, 85, 50, 95, 50, 110
+        basestats 55, 80, 50, 100, 50, 110
     .else
         basestats 55, 35, 50, 85, 55, 110
     .endif
@@ -4082,7 +4081,7 @@ mondata SPECIES_LEDIAN, "Ledian"
     growthrate GROWTH_FAST
     egggroups EGG_GROUP_BUG, EGG_GROUP_BUG
     .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_SWARM, ABILITY_IRON_FIST
+        abilities ABILITY_SWARM, ABILITY_SKILL_LINK
     .else
         abilities ABILITY_SWARM, ABILITY_EARLY_BIRD
     .endif

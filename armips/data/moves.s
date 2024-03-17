@@ -15693,13 +15693,13 @@ movedata MOVE_SAVAGE_REND, "Savage Rend"
     terminatedata
     movedescription MOVE_SAVAGE_REND, "The user drags the\nfoe underwater and\nsavagely tears it up.\nThis has a 30% chance\nto flinch the foe."
 
-// This is a custom move for Ledian. Clone of Population Bomb (with different accuracy).
+// This is a custom move for Ledian. Similar to Population Bomb.
 movedata MOVE_PIDDLY_PUNCHES, "Piddly Punches"
     battleeffect 310
     pss SPLIT_PHYSICAL
-    basepower 20
+    basepower 10
     type TYPE_BUG
-    accuracy 85
+    accuracy 80
     pp 10
     effectchance 0
     target MOVE_TARGET_SELECTED

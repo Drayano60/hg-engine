@@ -188,6 +188,7 @@ static const u16 PunchMovesList[] = {
     MOVE_SURGING_STRIKES,
     MOVE_THUNDER_PUNCH,
     MOVE_WICKED_BLOW,
+    MOVE_PIDDLY_PUNCHES, // New
 };
 
 static const u16 WindMovesList[] = {

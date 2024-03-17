@@ -90,7 +90,7 @@ Adjusts power according\nto a foe’s stats.
 Powers up punching moves\nby 30%.
 Recovers 12.5% of its HP\neach turn while poisoned.
 Moves matching type are\ninstead doubled in power.
-Multi-strike moves will\nalways hit 5 times.
+Multistrike moves hit as\nmany times as possible.
 Heals status problems if\nit is raining.
 In sun, boosts Sp. Atk by\n50% but loses 12.5% HP.
 Boosts Speed by 50% if\nthere is a status problem.

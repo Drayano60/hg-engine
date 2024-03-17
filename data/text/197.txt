@@ -1643,3 +1643,10 @@ The foe’s {STRVAR_1 1, 0, 0}’s burn\nwas healed!
 {STRVAR_1 1, 0, 0} cured its\nstatus using its {STRVAR_1 5, 1, 0}!
 The wild {STRVAR_1 1, 0, 0} cured its\nstatus using its {STRVAR_1 5, 1, 0}!
 The foe’s {STRVAR_1 1, 0, 0} cured its\nstatus using its {STRVAR_1 5, 1, 0}!
+{STRVAR_1 1, 0, 0} frisked\n{STRVAR_1 1, 1, 0} and found its {STRVAR_1 8, 2, 0}!
+{STRVAR_1 1, 0, 0} frisked\n{STRVAR_1 1, 1, 0} and found its {STRVAR_1 8, 2, 0}!
+{STRVAR_1 1, 0, 0} frisked\n{STRVAR_1 1, 1, 0} and found its {STRVAR_1 8, 2, 0}!
+The wild {STRVAR_1 1, 0, 0} frisked\n{STRVAR_1 1, 1, 0} and found its {STRVAR_1 8, 2, 0}!
+The wild {STRVAR_1 1, 0, 0} frisked\n{STRVAR_1 1, 1, 0} and found its {STRVAR_1 8, 2, 0}!
+{STRVAR_1 1, 0, 0} frisked\n{STRVAR_1 1, 1, 0} and found its {STRVAR_1 8, 2, 0}!
+{STRVAR_1 1, 0, 0} frisked\n{STRVAR_1 1, 1, 0} and found its {STRVAR_1 8, 2, 0}!

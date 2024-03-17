@@ -18187,9 +18187,9 @@ levelup SPECIES_FLETCHLING
     learnset MOVE_NATURAL_GIFT, 22
     learnset MOVE_STEEL_WING, 26
     learnset MOVE_ACROBATICS, 30
-    learnset MOVE_ME_FIRST, 34
-    learnset MOVE_TAILWIND, 40
-    learnset MOVE_RAZOR_WIND, 46
+    learnset MOVE_RAZOR_WIND, 34
+    learnset MOVE_ME_FIRST, 40
+    learnset MOVE_TAILWIND, 46
     learnset MOVE_BRAVE_BIRD, 52
 	terminatelearnset
 
@@ -18206,9 +18206,9 @@ levelup SPECIES_FLETCHINDER
     learnset MOVE_NATURAL_GIFT, 24
     learnset MOVE_STEEL_WING, 28
     learnset MOVE_ACROBATICS, 32
-    learnset MOVE_ME_FIRST, 36
-    learnset MOVE_TAILWIND, 42
-    learnset MOVE_RAZOR_WIND, 48
+    learnset MOVE_RAZOR_WIND, 36
+    learnset MOVE_ME_FIRST, 42
+    learnset MOVE_TAILWIND, 48
     learnset MOVE_BRAVE_BIRD, 54
 	terminatelearnset
 
@@ -18228,9 +18228,9 @@ levelup SPECIES_TALONFLAME
     learnset MOVE_NATURAL_GIFT, 24
     learnset MOVE_STEEL_WING, 28
     learnset MOVE_ACROBATICS, 32
-    learnset MOVE_ME_FIRST, 38
-    learnset MOVE_TAILWIND, 44
-    learnset MOVE_RAZOR_WIND, 50
+    learnset MOVE_RAZOR_WIND, 38
+    learnset MOVE_ME_FIRST, 44
+    learnset MOVE_TAILWIND, 50
     learnset MOVE_BRAVE_BIRD, 56
 	terminatelearnset
 
@@ -19330,8 +19330,8 @@ levelup SPECIES_NOIBAT
     learnset MOVE_WHIRLWIND, 24
     learnset MOVE_AIR_SLASH, 28
     learnset MOVE_SUPER_FANG, 32
-    learnset MOVE_ROOST, 36
-    learnset MOVE_RAZOR_WIND, 40
+    learnset MOVE_RAZOR_WIND, 36
+    learnset MOVE_ROOST, 40
     learnset MOVE_TAILWIND, 46
     learnset MOVE_HURRICANE, 52
 	terminatelearnset
@@ -19353,8 +19353,8 @@ levelup SPECIES_NOIVERN
     learnset MOVE_WHIRLWIND, 24
     learnset MOVE_AIR_SLASH, 28
     learnset MOVE_SUPER_FANG, 32
-    learnset MOVE_ROOST, 36
-    learnset MOVE_RAZOR_WIND, 42
+    learnset MOVE_RAZOR_WIND, 36
+    learnset MOVE_ROOST, 42
     learnset MOVE_TAILWIND, 48
     learnset MOVE_HURRICANE, 54
     learnset MOVE_BOOMBURST, 60

@@ -1228,12 +1228,11 @@ movedata MOVE_GUILLOTINE, "Guillotine"
     movedescription MOVE_GUILLOTINE, "A vicious, tearing\nattack with pincers.\nThe foe will faint\ninstantly if this\nattack hits."
 
 // EFFECT: Two-turn high crit >> Two-turn guaranteed crit
-// POWER: 80 >> 100
 // TYPE: Normal >> Flying
 movedata MOVE_RAZOR_WIND, "Razor Wind"
     battleeffect 39
     pss SPLIT_SPECIAL
-    basepower MOVE_CHANGES_IMPLEMENTED ? 100 : 80
+    basepower 80
     type MOVE_CHANGES_IMPLEMENTED ? TYPE_FLYING : TYPE_NORMAL
     accuracy 100
     pp 10

@@ -13775,7 +13775,7 @@ movedata MOVE_SCALE_SHOT, "Scale Shot"
     movedescription MOVE_SCALE_SHOT, "Shoots scales two to\nfive times in a row.\nThis move also boosts\nthe user’s Speed but\nlowers its Defense."
 
 movedata MOVE_METEOR_BEAM, "Meteor Beam"
-    battleeffect 317
+    battleeffect 145 // ai purposes
     pss SPLIT_SPECIAL
     basepower 120
     type TYPE_ROCK

@@ -4601,7 +4601,7 @@ mondata SPECIES_POLITOED, "Politoed"
 
 
 // STATS: 35 >> 45 Atk | 40 >> 45 Def | 55 >> 65 SpDef | 50 >> 60 Speed | 250 >> 285 BST
-// ABILITY: Wind Rider (HA)
+// ABILITY: Wind Rider (2), Aerilate (HA)
 mondata SPECIES_HOPPIP, "Hoppip"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 35, 45, 45, 60, 35, 65
@@ -4618,7 +4618,11 @@ mondata SPECIES_HOPPIP, "Hoppip"
     basefriendship 70
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_FAIRY, EGG_GROUP_GRASS
-    abilities ABILITY_CHLOROPHYLL, ABILITY_LEAF_GUARD
+    .if ABILITY_CHANGES_IMPLEMENTED
+        abilities ABILITY_CHLOROPHYLL, ABILITY_WIND_RIDER
+    .else
+        abilities ABILITY_CHLOROPHYLL, ABILITY_LEAF_GUARD
+    .endif
     runchance 25
     colorflip BODY_COLOR_PINK, 0
     mondexentry SPECIES_HOPPIP, "To keep from being blown away by\nthe wind, they gather in clusters.\nBut they do enjoy gentle breezes."
@@ -4628,7 +4632,7 @@ mondata SPECIES_HOPPIP, "Hoppip"
 
 
 // STATS: 45 >> 55 Atk | 50 >> 50 Def | 65 >> 75 SpDef | 80 >> 90 Speed | 340 >> 375 BST
-// ABILITY: Wind Rider (HA)
+// ABILITY: Wind Rider (2), Aerilate (HA)
 mondata SPECIES_SKIPLOOM, "Skiploom"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 55, 55, 55, 90, 45, 75
@@ -4645,7 +4649,11 @@ mondata SPECIES_SKIPLOOM, "Skiploom"
     basefriendship 70
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_FAIRY, EGG_GROUP_GRASS
-    abilities ABILITY_CHLOROPHYLL, ABILITY_LEAF_GUARD
+    .if ABILITY_CHANGES_IMPLEMENTED
+        abilities ABILITY_CHLOROPHYLL, ABILITY_WIND_RIDER
+    .else
+        abilities ABILITY_CHLOROPHYLL, ABILITY_LEAF_GUARD
+    .endif
     runchance 25
     colorflip BODY_COLOR_GREEN, 0
     mondexentry SPECIES_SKIPLOOM, "The bloom on top of its head opens\nand closes as the temperature\nfluctuates up and down."
@@ -4655,7 +4663,7 @@ mondata SPECIES_SKIPLOOM, "Skiploom"
 
 
 // STATS: 55 >> 75 Atk | 70 >> 75 Def | 460 >> 485 BST
-// ABILITY: Cotton Down (2), Wind Rider (HA)
+// ABILITY: Wind Rider (2), Aerilate (HA)
 mondata SPECIES_JUMPLUFF, "Jumpluff"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 75, 75, 75, 110, 55, 95
@@ -4673,7 +4681,7 @@ mondata SPECIES_JUMPLUFF, "Jumpluff"
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_FAIRY, EGG_GROUP_GRASS
     .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_CHLOROPHYLL, ABILITY_COTTON_DOWN
+        abilities ABILITY_CHLOROPHYLL, ABILITY_WIND_RIDER
     .else
         abilities ABILITY_CHLOROPHYLL, ABILITY_LEAF_GUARD
     .endif

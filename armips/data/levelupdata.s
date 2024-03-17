@@ -6286,7 +6286,7 @@ levelup SPECIES_HOPPIP
     learnset MOVE_COTTON_GUARD, 35
     learnset MOVE_STRENGTH_SAP, 39
     learnset MOVE_BATON_PASS, 43
-    learnset MOVE_U_TURN, 47
+    learnset MOVE_DOUBLE_EDGE, 47
     learnset MOVE_BOUNCE, 51
     learnset MOVE_MEMENTO, 55
     terminatelearnset
@@ -6315,7 +6315,7 @@ levelup SPECIES_SKIPLOOM
     learnset MOVE_COTTON_GUARD, 37
     learnset MOVE_STRENGTH_SAP, 41
     learnset MOVE_BATON_PASS, 45
-    learnset MOVE_U_TURN, 49
+    learnset MOVE_DOUBLE_EDGE, 49
     learnset MOVE_BOUNCE, 53
     learnset MOVE_MEMENTO, 57
     terminatelearnset
@@ -6345,7 +6345,7 @@ levelup SPECIES_JUMPLUFF
     learnset MOVE_COTTON_GUARD, 39
     learnset MOVE_STRENGTH_SAP, 43
     learnset MOVE_BATON_PASS, 47
-    learnset MOVE_U_TURN, 51
+    learnset MOVE_DOUBLE_EDGE, 51
     learnset MOVE_BOUNCE, 55
     learnset MOVE_MEMENTO, 59
     terminatelearnset

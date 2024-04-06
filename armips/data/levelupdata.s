@@ -6322,6 +6322,7 @@ levelup SPECIES_SKIPLOOM
 
 // NEW: Growth
 levelup SPECIES_JUMPLUFF
+    learnset MOVE_ENDEAVOR, 1
     learnset MOVE_TAILWIND, 1
     learnset MOVE_SPLASH, 1
     learnset MOVE_TACKLE, 1
@@ -9466,6 +9467,7 @@ levelup SPECIES_LAIRON
 
 levelup SPECIES_AGGRON
     learnset MOVE_DRAGON_RUSH, 1
+    learnset MOVE_ENDEAVOR, 1
     learnset MOVE_TACKLE, 1
     learnset MOVE_HARDEN, 1
     learnset MOVE_MUD_SLAP, 3
@@ -16655,13 +16657,16 @@ levelup SPECIES_EMOLGA
     learnset MOVE_CHARGE, 18
     learnset MOVE_ENCORE, 21
     learnset MOVE_SHOCK_WAVE, 24
-    learnset MOVE_ACROBATICS, 28
-    learnset MOVE_VOLT_SWITCH, 32
-    learnset MOVE_LIGHT_SCREEN, 36
-    learnset MOVE_DISCHARGE, 40
-    learnset MOVE_AGILITY, 44
+    learnset MOVE_ACROBATICS, 27
+    learnset MOVE_VOLT_SWITCH, 30
+    learnset MOVE_LIGHT_SCREEN, 33
+    learnset MOVE_DISCHARGE, 36
+    learnset MOVE_CHARM, 39
+    learnset MOVE_AGILITY, 42
+    learnset MOVE_TAILWIND, 45
     learnset MOVE_BATON_PASS, 48
-    learnset MOVE_WILD_CHARGE, 52
+    learnset MOVE_WILD_CHARGE, 51
+    learnset MOVE_LAST_RESORT, 54
     terminatelearnset
 
 // Evolution: Linking Cord

@@ -1009,9 +1009,10 @@ BOOL btl_scr_cmd_17_playanimation(void *bw, struct BattleStruct *sp)
         move = sp->current_move_index;
     }
 
+    // mega evolution is animation 470--force it to play regardless of whether or not animations are on
     if ((((sp->server_status_flag & SERVER_STATUS_FLAG_ANIMATION_IS_PLAYING) == 0)
       && (CheckBattleAnimationsOption(bw) == TRUE))
-     || (move == MOVE_TRANSFORM || move == MOVE_470)) // mega evolution is animation 470--force it to play regardless of whether or not animations are on
+     || (move == MOVE_TRANSFORM || move == MOVE_470)) // SAVE_SPACE: removed terrains
     {
         sp->server_status_flag |= SERVER_STATUS_FLAG_ANIMATION_IS_PLAYING;
         SCIO_QueueMoveAnimation(bw, sp, move);
@@ -1055,7 +1056,7 @@ BOOL btl_scr_cmd_18_playanimation2(void *bw, struct BattleStruct *sp)
 
     if ((((sp->server_status_flag & SERVER_STATUS_FLAG_ANIMATION_IS_PLAYING) == 0)
       && (CheckBattleAnimationsOption(bw) == TRUE))
-     || (move == MOVE_TRANSFORM || move == MOVE_470))
+     || (move == MOVE_TRANSFORM || move == MOVE_470)) // SAVE_SPACE: removed terrains
     {
         sp->server_status_flag |= SERVER_STATUS_FLAG_ANIMATION_IS_PLAYING;
         SCIO_QueueMoveAnimationConsiderAttackerDefender(bw, sp, move, cli_a, cli_d);
@@ -3131,7 +3132,7 @@ BOOL btl_scr_cmd_F9_didTargetRaiseStat(void *bw UNUSED, struct BattleStruct *sp)
 }
 
 /**
- *  @brief script command to jump somewhere if parental bond is currently active beyond mummy
+ *  @brief script command to permanently change the battle background
  *
  *  @param bw battle work structure
  *  @param sp global battle structure
@@ -3139,6 +3140,8 @@ BOOL btl_scr_cmd_F9_didTargetRaiseStat(void *bw UNUSED, struct BattleStruct *sp)
  */
 BOOL btl_scr_cmd_FA_changepermanentbg(void *bw, struct BattleStruct *sp) {
     IncrementBattleScriptPtr(sp, 1);
+
+    #ifdef SAVE_SPACE
 
     int bg = read_battle_script_param(sp);
     int terrain = read_battle_script_param(sp);
@@ -3152,6 +3155,8 @@ BOOL btl_scr_cmd_FA_changepermanentbg(void *bw, struct BattleStruct *sp) {
         terrain = gBattleSystem->terrain;
     }
     LoadDifferentBattleBackground(bw, bg, terrain);
+
+    #endif
 
     return FALSE;
 }

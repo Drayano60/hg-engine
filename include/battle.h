@@ -548,8 +548,10 @@ struct __attribute__((packed)) OneTurnEffect
                u32 haneyasume_flag : 1;
                u32 escape_flag : 2;
                u32 prevent_one_hit_ko_ability : 1; /**< pokémon has damp active */
+               // begin custom flags
                u32 stats_raised_flag : 1;        /**< flag that signals stats were raised this turn, used for alluring voice/burning jealousy */
-               u32 : 21;
+               enum ForceExecutionOrder{EXECUTION_ORDER_NORMAL, EXECUTION_ORDER_AFTER_YOU, EXECUTION_ORDER_QUASH} force_execution_order_flag : 2;
+               u32 : 19;
 
     /* 0x04 */ int physical_damage[4];    /**< [don't use] physical damage as indexed by battler.  Counter doesn't use this, use OneSelfTurnEffect's physical_damage (sp->oneSelfFlag[battler].physical_damage) */
     /* 0x14 */ int physical_damager;      /**< [don't use] last battler that physically damaged this pokémon.  Counter doesn't use this, use OneSelfTurnEffect's physical_damager (sp->oneSelfFlag[battler].physical_damager) */
@@ -1154,7 +1156,8 @@ struct BattleSystem {
     // UnkBattleSystemSub1D0 unk1D0[4];
     // UnkBattleSystemSub220 unk220;
     // GAME_STATS *gameStats;
-    // u8 *unk230;
+    u8 padding_19C[0x230 - 0x19C];
+    u8 *bg_area;
     // u16 *unk234;
     // u8 sendBuffer[0x1000];
     // u8 recvBuffer[0x1000];
@@ -1176,7 +1179,7 @@ struct BattleSystem {
     // u8 unk240E_F:1;
     // u8 criticalHpMusic:2;
     // u8 criticalHpMusicDelay:3;
-    u8 padding[0x2400 - 0x19C];
+    u8 padding[0x2400 - 0x234];
     u32 terrain;
     u32 bgId;
     // int location;
@@ -2419,6 +2422,9 @@ u32 ServerWazaKoyuuCheck(void *bw, struct BattleStruct *sp);
  */
 u8 CalcSpeed(void *bw, struct BattleStruct *sp, int client1, int client2, int flag);
 
+#define CALCSPEED_FLAG_NOTHING 0
+#define CALCSPEED_FLAG_NO_PRIORITY 0x80
+
 /**
  *  @brief set move status effects for super effective and calculate modified damage
  *
@@ -2539,8 +2545,9 @@ BOOL isWindMove(int move_no);
 
 
 typedef struct BattleBGStorage {
-    u16 baseEntry:15;
+    u16 baseEntry:14;
     u16 hasDayNightPals:1;
+    u16 hasPlatforms:1;
 } BattleBGStorage;
 
 
@@ -2570,6 +2577,9 @@ typedef enum BattleBg {
     BATTLE_BG_BATTLE_HALL,
     NUM_VANILLA_BATTLE_BACKGROUNDS,
     BATTLE_BG_ELECTRIC_TERRAIN = 23,
+    BATTLE_BG_MISTY_TERRAIN,
+    BATTLE_BG_GRASSY_TERRAIN,
+    BATTLE_BG_PSYCHIC_TERRAIN,
 } BattleBg;
 
 
@@ -2598,7 +2608,8 @@ typedef enum Terrain {
     TERRAIN_BATTLE_CASTLE,
     TERRAIN_BATTLE_HALL,
     TERRAIN_GIRATINA,  // unused
-    TERRAIN_MAX
+    TERRAIN_TRANSPARENT,
+    TERRAIN_MAX,
 } Terrain;
 
 // This is a catch-all terrain that includes Pokemon League, Distortion World
@@ -2613,5 +2624,14 @@ typedef enum Terrain {
  *  @param terrain platform id to load
  */
 void LoadDifferentBattleBackground(struct BattleSystem *bw, u32 bg, u32 terrain);
+
+/**
+ *  @brief Sorts clients' execution order factoring in who has already performed their action
+ *  @param bw battle work structure; void * because we haven't defined the battle work structure. Apparently we have but we don't use it here so
+ *  @param sp global battle structure
+ */
+void DynamicSortClientExecutionOrder(void *bw, struct BattleStruct *sp);
+
+void LONG_CALL BattleControllerPlayer_CalcExecutionOrder(struct BattleSystem *bw, struct BattleStruct *sp);
 
 #endif // BATTLE_H

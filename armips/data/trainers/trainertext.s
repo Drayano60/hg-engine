@@ -623,17 +623,17 @@ _04F8: // Trainer 685
     trainertextentry 685, TEXT_DEFEATED_IN_OVERWORLD, "Phew... Broken in pieces.\n"
 
 _0504: // Trainer 676
-    trainertextentry 676, TEXT_NOTICE_IN_OVERWORLD, "Glub...\rI’m first! Come and get me!\r"
+    trainertextentry 676, TEXT_NOTICE_IN_OVERWORLD, "Glub...\rCome and get me!\r"
     trainertextentry 676, TEXT_DEFEATED_IN_BATTLE, "This can’t be...\n"
     trainertextentry 676, TEXT_DEFEATED_IN_OVERWORLD, "Misty says I have gotten much better\nin the past few years.\rBut there are still Trainers who are\nstronger than me.\n"
 
 _0510: // Trainer 677
-    trainertextentry 677, TEXT_NOTICE_IN_OVERWORLD, "I’ve been relaxing poolside, so I’ve got\nenough strength!\r"
+    trainertextentry 677, TEXT_NOTICE_IN_OVERWORLD, "I’ve been relaxing poolside,\nso I’ve got enough strength!\r"
     trainertextentry 677, TEXT_DEFEATED_IN_BATTLE, "You can’t win with strength alone.\n"
     trainertextentry 677, TEXT_DEFEATED_IN_OVERWORLD, "Hey, let’s go for a swim!\nSailors have to be able to swim!\n"
 
 _051C: // Trainer 297
-    trainertextentry 297, TEXT_NOTICE_IN_OVERWORLD, "Sorry about being away.\nLet’s get on with it!\r"
+    trainertextentry 297, TEXT_NOTICE_IN_OVERWORLD, "Welcome to the Cerulean City Gym.\nLet’s get on with it!\r"
     trainertextentry 297, TEXT_DEFEATED_IN_BATTLE, "I give up!\nYou’re the winner!\n"
     trainertextentry 297, TEXT_DEFEATED_IN_OVERWORLD, "I’ll be swimming quietly.\n"
 
@@ -645,7 +645,7 @@ _0528: // Trainer 298
 _0534: // Trainer 678
     trainertextentry 678, TEXT_NOTICE_IN_OVERWORLD, "Swimming isn’t just about speed!\nIt’s also about the beauty of grace!\r"
     trainertextentry 678, TEXT_DEFEATED_IN_BATTLE, "I lost beautifully...\n"
-    trainertextentry 678, TEXT_DEFEATED_IN_OVERWORLD, "It seems an intruder has appeared in\nthis Gym...\fI don’t like that idea...\n"
+    trainertextentry 678, TEXT_DEFEATED_IN_OVERWORLD, "What do you think?\nIsn’t swimming beautiful?\n"
 
 _0540: // Trainer 337
     trainertextentry 337, TEXT_NOTICE_IN_OVERWORLD, "You’re here to defeat Lt. Surge?\nNot if I can help it!\r"
@@ -1052,7 +1052,9 @@ _0904: // Trainer 296
     trainertextentry 296, TEXT_DEFEATED_IN_OVERWORLD, "I have to watch out for blemishes\ncaused by the sun.\n"
 
 _0910: // Trainer 353
-    trainertextentry 353, TEXT_DEFEATED_IN_BATTLE, "Ayieeeh! No, no, no, believe it I can’t!\nStrong very much be you! Match I am\fnot to you!\n"
+    trainertextentry 353, TEXT_NOTICE_IN_OVERWORLD, "Hey, you!\nYou make big mistake!\rNot good for you if seen by me!\rBattle begin we do!\r"
+    trainertextentry 353, TEXT_DEFEATED_IN_BATTLE, "Ayieeeh!\nNo, no, no, believe it I can’t!\fStrong very much be you!\fMatch I am not to you!\n"
+    trainertextentry 353, TEXT_DEFEATED_IN_OVERWORLD, "...\nMe only one from another country.\rMaybe I, my country, go home.\rUnova it is called.\nFar away it is, yes!"
 
 _0914: // Trainer 148
     trainertextentry 148, TEXT_NOTICE_IN_OVERWORLD, "OK! I’m No. 4. I’ll stomp you!\r"
@@ -3375,34 +3377,34 @@ _Trainer506:
     trainertextentry 506, TEXT_DEFEATED_IN_OVERWORLD, "Perhaps, far into the future,\nyour story will still be told."
 
 _Trainer508:
-    trainertextentry 508, TEXT_NOTICE_IN_OVERWORLD, "508-Encounter"
-    trainertextentry 508, TEXT_DEFEATED_IN_BATTLE, "508-Defeat"
-    trainertextentry 508, TEXT_DEFEATED_IN_OVERWORLD, "508-Afterwards"
+    trainertextentry 508, TEXT_NOTICE_IN_OVERWORLD, "This is the Pewter City Gym!\rWe’re often challenged by Trainers\nwho are just starting out.\rWhat about you?\r"
+    trainertextentry 508, TEXT_DEFEATED_IN_BATTLE, "You’re quite different from the\nchallengers I’ve faced!"
+    trainertextentry 508, TEXT_DEFEATED_IN_OVERWORLD, "You’ve been to a lot of Gyms,\nhaven’t you?"
 
 _Trainer511:
-    trainertextentry 511, TEXT_NOTICE_IN_OVERWORLD, "511-Encounter"
-    trainertextentry 511, TEXT_DEFEATED_IN_BATTLE, "511-Defeat"
-    trainertextentry 511, TEXT_DEFEATED_IN_OVERWORLD, "511-Afterwards"
+    trainertextentry 511, TEXT_NOTICE_IN_OVERWORLD, "Ho ho ho!\nHave a look at my Pokémon’s hardness!\r"
+    trainertextentry 511, TEXT_DEFEATED_IN_BATTLE, "We weren’t tough enough...\n"
+    trainertextentry 511, TEXT_DEFEATED_IN_OVERWORLD, "My Rock-type Pokémon have never felt\nso brittle before!"
 
 _Trainer514:
-    trainertextentry 514, TEXT_NOTICE_IN_OVERWORLD, "514-Encounter"
-    trainertextentry 514, TEXT_DEFEATED_IN_BATTLE, "514-Defeat"
-    trainertextentry 514, TEXT_DEFEATED_IN_OVERWORLD, "514-Afterwards"
+    trainertextentry 514, TEXT_NOTICE_IN_OVERWORLD, "We are Team Rocket’s Elite Squad,\nhand-picked by Giovanni himself!\rBrats like you don’t have a\nchance of winning!\r"
+    trainertextentry 514, TEXT_DEFEATED_IN_BATTLE, "Giovanni... I failed..."
+    trainertextentry 514, TEXT_DEFEATED_IN_OVERWORLD, "I think I understand why the boss\nwants such a powerful Pokémon..."
 
 _Trainer516:
-    trainertextentry 516, TEXT_NOTICE_IN_OVERWORLD, "516-Encounter"
-    trainertextentry 516, TEXT_DEFEATED_IN_BATTLE, "516-Defeat"
-    trainertextentry 516, TEXT_DEFEATED_IN_OVERWORLD, "516-Afterwards"
+    trainertextentry 516, TEXT_NOTICE_IN_OVERWORLD, "Hee hee!\rIt’s been over for you since\nthe moment I spotted you!\r"
+    trainertextentry 516, TEXT_DEFEATED_IN_BATTLE, "I shouldn’t have looked..."
+    trainertextentry 516, TEXT_DEFEATED_IN_OVERWORLD, "The Executives are stronger than us.\nThey’ve learnt something new, see.\rDon’t think you can beat us now\njust because you did before!"
 
 _Trainer519:
-    trainertextentry 519, TEXT_NOTICE_IN_OVERWORLD, "519-Encounter"
-    trainertextentry 519, TEXT_DEFEATED_IN_BATTLE, "519-Defeat"
-    trainertextentry 519, TEXT_DEFEATED_IN_OVERWORLD, "519-Afterwards"
+    trainertextentry 519, TEXT_NOTICE_IN_OVERWORLD, "Feh!\rYou’re the brat who ruined our\nplans at the Radio Tower!\fThis time, you’ll get what you deserve!\r"
+    trainertextentry 519, TEXT_DEFEATED_IN_BATTLE, "Did I deserve to lose?"
+    trainertextentry 519, TEXT_DEFEATED_IN_OVERWORLD, "Hmph!\nThe boss will sort you out!"
 
 _Trainer521:
-    trainertextentry 521, TEXT_NOTICE_IN_OVERWORLD, "521-Encounter"
-    trainertextentry 521, TEXT_DEFEATED_IN_BATTLE, "521-Defeat"
-    trainertextentry 521, TEXT_DEFEATED_IN_OVERWORLD, "521-Afterwards"
+    trainertextentry 521, TEXT_NOTICE_IN_OVERWORLD, "Can you feel it?\nThat incredible psychic power?\rThat’s the power that Team Rocket\nwill claim as our own!\r"
+    trainertextentry 521, TEXT_DEFEATED_IN_BATTLE, "The boss knows what he’s doing..."
+    trainertextentry 521, TEXT_DEFEATED_IN_OVERWORLD, "We heard a rumor that a powerful\nPokémon was lurking in this cave.\rIt turned out to be true.\rAnd when Team Rocket capture it,\nwe’ll be unstoppable!"
 
 _Trainer524:
     trainertextentry 524, TEXT_NOTICE_IN_OVERWORLD, "524-Encounter"
@@ -3669,6 +3671,58 @@ _Trainer841:
 
 _Trainer842:
     trainertextentry 842, TEXT_DEFEATED_IN_BATTLE, "No! My worldly Pokémon!\n"
+
+_Trainer843:
+    trainertextentry 843, TEXT_DEFEATED_IN_BATTLE, "Grr...\nNot even that was enough..."
+
+_Trainer844:
+    trainertextentry 844, TEXT_DEFEATED_IN_BATTLE, "No, no, no!\nI couldn’t do a thing..."
+
+_Trainer846:
+    trainertextentry 846, TEXT_DEFEATED_IN_BATTLE, "Urk! I could barely touch you!"
+
+_Trainer847:
+    trainertextentry 847, TEXT_DEFEATED_IN_BATTLE, "Ngh! You were too strong..."
+
+_Trainer848:
+    trainertextentry 848, TEXT_LAST_MON_CRITICAL, "Let’s see how you handle this."
+    trainertextentry 848, TEXT_DEFEATED_IN_BATTLE, "...Not bad."
+
+_Trainer849:
+    trainertextentry 849, TEXT_LAST_MON_CRITICAL, "I’ll put you back in your place!"
+    trainertextentry 849, TEXT_DEFEATED_IN_BATTLE, "...!\nThis cannot be!"
+
+_Trainer850:
+    trainertextentry 850, TEXT_LAST_MON_CRITICAL, "I will make you regret disrupting\nmy plans!"
+    trainertextentry 850, TEXT_DEFEATED_IN_BATTLE, "Arrgh!!\nI lost to a child again?!"
+
+_Trainer851:
+    trainertextentry 851, TEXT_LAST_MON_CRITICAL, "Heh heh heh... You’re unprepared\nfor this. We’ll knock you down!\n"
+    trainertextentry 851, TEXT_LAST_MON_SENT_OUT, "Perhaps I’m the one who was\nunprepared?\n"
+    trainertextentry 851, TEXT_DEFEATED_IN_BATTLE, "How the heck did I lose to you?"
+
+_Trainer852:
+    trainertextentry 852, TEXT_LAST_MON_CRITICAL, "All right!\nI thought this would never happen!\n"
+    trainertextentry 852, TEXT_LAST_MON_SENT_OUT, "I never give up, no matter what.\nYou must be the same?\n"
+    trainertextentry 852, TEXT_DEFEATED_IN_BATTLE, "...It’s over."
+
+_Trainer853:
+    trainertextentry 853, TEXT_LAST_MON_CRITICAL, "Don’t think that you’ve won.\rWhen it comes down to it,\nI’m still the strongest!"
+    trainertextentry 853, TEXT_LAST_MON_SENT_OUT, "I had no idea you were so strong..."
+    trainertextentry 853, TEXT_DEFEATED_IN_BATTLE, "I’m impressed.\nYou are a truly noble Pokémon Trainer!"
+    
+_Trainer854:
+    trainertextentry 854, TEXT_LAST_MON_CRITICAL, "When was the last time I was\ndriven into a corner like this?"
+    trainertextentry 854, TEXT_LAST_MON_SENT_OUT, "You haven’t won yet!\rI won’t let such a fun battle\nend so easily!"
+    trainertextentry 854, TEXT_DEFEATED_IN_BATTLE, "You are a really great Trainer!"
+
+_Trainer855:
+    trainertextentry 855, TEXT_DEFEATED_IN_BATTLE, "...!\n"
+    trainertextentry 855, TEXT_PLAYER_LOSES, "...\n"
+
+_Trainer856:
+    trainertextentry 856, TEXT_DEFEATED_IN_BATTLE, "...!\n"
+    trainertextentry 856, TEXT_PLAYER_LOSES, "...\n"
 
 .close
 
@@ -4519,5 +4573,20 @@ _Trainer842:
 /* Trainer 840 */ .halfword _Trainer840
 /* Trainer 841 */ .halfword _Trainer841
 /* Trainer 842 */ .halfword _Trainer842
+/* Trainer 843 */ .halfword _Trainer843
+/* Trainer 844 */ .halfword _Trainer844
+/* Trainer 845 */ .halfword _0000
+/* Trainer 846 */ .halfword _Trainer846
+/* Trainer 847 */ .halfword _Trainer847
+/* Trainer 848 */ .halfword _Trainer848
+/* Trainer 849 */ .halfword _Trainer849
+/* Trainer 850 */ .halfword _Trainer850
+/* Trainer 851 */ .halfword _Trainer851
+/* Trainer 852 */ .halfword _Trainer852
+/* Trainer 853 */ .halfword _Trainer853
+/* Trainer 854 */ .halfword _Trainer854
+/* Trainer 855 */ .halfword _Trainer855
+/* Trainer 856 */ .halfword _Trainer856
+/* Trainer 857 */ .halfword _0000
 
 .close

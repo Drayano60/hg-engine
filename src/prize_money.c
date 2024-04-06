@@ -136,9 +136,9 @@ struct TrainerMoney PrizeMoney [] = // 0x34C04 in Overlay 12; 2 bytes for traine
    {.class = CLASS_MYSTERY_MAN,      .multiplier = 35}, // Entry 120 Eusine
    {.class = CLASS_DOUBLE_TEAM,      .multiplier = 20}, // Entry 121
    {.class = CLASS_YOUNG_COUPLE,     .multiplier = 20}, // Entry 122
-   {.class = CLASS_PKMN_TRAINER_10,  .multiplier = 0}, // Entry 123 Lance backsprite
+   {.class = CLASS_PKMN_TRAINER_10,  .multiplier = 50}, // Entry 123 Lance backsprite -- (used for Lance 2) (0 -> 50)
    {.class = CLASS_ROCKET_BOSS,      .multiplier = 45}, // Entry 124 Giovanni
-   {.class = CLASS_PKMN_TRAINER_11,  .multiplier = 0}, // Entry 125 DP Lucas 2
+   {.class = CLASS_PKMN_TRAINER_11,  .multiplier = 50}, // Entry 125 DP Lucas 2 -- (repurposed for Blue 2) (0 -> 50)
    {.class = CLASS_PKMN_TRAINER_12,  .multiplier = 0}, // Entry 126 DP Dawn 2
    {.class = CLASS_PKMN_TRAINER_13,  .multiplier = 0}, // Entry 127 Pt Lucas
    {.class = CLASS_PKMN_TRAINER_14,  .multiplier = 0}, // Entry 128 Pt Dawn

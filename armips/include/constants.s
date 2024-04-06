@@ -607,6 +607,7 @@ CLASS_BUCK equ 93
 CLASS_MIRA equ 94
 CLASS_STEVEN equ 95
 CLASS_CYNTHIA equ 96
+CLASS_BLUE equ 125
 
 // trainer data flags
 

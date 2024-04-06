@@ -139,5 +139,7 @@
 #define CLASS_MIRA 94
 #define CLASS_STEVEN 95
 #define CLASS_CYNTHIA 96
+#define CLASS_LANCE 123
+#define CLASS_BLUE 125
 
 #endif

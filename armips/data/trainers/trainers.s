@@ -29613,7 +29613,7 @@ party 247
     move MOVE_X_SCISSOR
     move MOVE_CROSS_POISON
     move MOVE_DRILL_RUN
-    move MOVE_PROTECT
+    move MOVE_U_TURN
     ability ABILITY_SNIPER
     ball ITEM_POKE_BALL
     setivs 30, 30, 30, 30, 30, 30
@@ -29726,10 +29726,10 @@ party 418
     level LEVEL_ELITE_FOUR
     pokemon SPECIES_LUCARIO
     item ITEM_LUCARIONITE
-    move MOVE_HIGH_JUMP_KICK
+    move MOVE_CLOSE_COMBAT
     move MOVE_METEOR_MASH
-    move MOVE_EXTREME_SPEED
-    move MOVE_PROTECT
+    move MOVE_ICE_PUNCH
+    move MOVE_BULLET_PUNCH
     ability ABILITY_STEADFAST
     ball ITEM_POKE_BALL
     setivs 30, 30, 30, 30, 30, 30
@@ -30843,7 +30843,7 @@ party 253
     move MOVE_HEAD_SMASH
     move MOVE_DUAL_WINGBEAT
     move MOVE_EARTHQUAKE
-    move MOVE_PROTECT
+    move MOVE_ICE_FANG
     ability ABILITY_ROCK_HEAD
     ball ITEM_ULTRA_BALL
     setivs 30, 30, 30, 30, 30, 30
@@ -32403,15 +32403,15 @@ party 257
     level LEVEL_KANTO_GYM_LEADERS
     pokemon SPECIES_BEEDRILL
     item ITEM_BEEDRILLITE
-    move MOVE_U_TURN
+    move MOVE_X_SCISSOR
     move ALLOW_ILLEGAL_MOVES ? MOVE_CROSS_POISON : MOVE_POISON_JAB
+    move MOVE_BRICK_BREAK
     move MOVE_DRILL_RUN
-    move MOVE_PROTECT
     ability ABILITY_SNIPER
     ball ITEM_ULTRA_BALL
     setivs 30, 30, 30, 30, 30, 30
     setevs 0, 0, 0, 0, 0, 0
-    nature NATURE_JOLLY
+    nature NATURE_ADAMANT
     shinylock 0
     ballseal 0
 

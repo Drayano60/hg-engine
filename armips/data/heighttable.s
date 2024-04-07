@@ -1178,7 +1178,7 @@ heightentry SPECIES_DARUMAKA_GALARIAN, 0, 0, 0, 0
 heightentry SPECIES_DARMANITAN_GALARIAN, 0, 0, 0, 0
 heightentry SPECIES_YAMASK_GALARIAN, 0, 0, 0, 0
 heightentry SPECIES_STUNFISK_GALARIAN, 0, 0, 0, 0
-heightentry SPECIES_PIKACHU_COSPLAY, 0, 0, 0, 0
+heightentry SPECIES_PIKACHU_COSPLAY, 5, 5, 14, 14 // uses regular pika sprite
 heightentry SPECIES_PIKACHU_ROCK_STAR, 0, 0, 0, 0
 heightentry SPECIES_PIKACHU_BELLE, 0, 0, 0, 0
 heightentry SPECIES_PIKACHU_POP_STAR, 0, 0, 0, 0

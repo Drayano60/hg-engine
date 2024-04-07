@@ -26592,8 +26592,10 @@ mondata SPECIES_STUNFISK_GALARIAN, "-----"
     colorflip BODY_COLOR_GREEN, 0
     
 
+// This is repurposed as Partner Pikachu, used for the Red battle
 mondata SPECIES_PIKACHU_COSPLAY, "-----"
-    basestats 35, 55, 40, 90, 50, 50
+    // basestats 35, 55, 40, 90, 50, 50
+    basestats 45, 80, 50, 120, 75, 60
     types TYPE_ELECTRIC, TYPE_ELECTRIC
     catchrate 190
     baseexp 112

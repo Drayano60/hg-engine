@@ -5993,37 +5993,41 @@ movedata MOVE_CRUSH_CLAW, "Crush Claw"
     terminatedata
     movedescription MOVE_CRUSH_CLAW, "The user slashes the\nfoe with hard and\nsharp claws.\nThis has a 50% chance\nto lower Defense."
 
+// POWER: 150 >> 120
+// EFFECT: Now has a chance to burn (10%)
 movedata MOVE_BLAST_BURN, "Blast Burn"
-    battleeffect 80
+    battleeffect 4
     pss SPLIT_SPECIAL
-    basepower 150
+    basepower 120
     type TYPE_FIRE
     accuracy 90
     pp 5
-    effectchance 0
+    effectchance 10
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_MIRROR_MOVE | FLAG_PROTECT
     appeal 0
     contesttype 0
     terminatedata
-    movedescription MOVE_BLAST_BURN, "The foe is razed by\na fiery explosion.\nThe user must rest\non the next turn,\nhowever."
+    movedescription MOVE_BLAST_BURN, "The foe is razed by\na fiery explosion.\nThis has a 10% chance\nto burn the foe."
 
+// POWER: 150 >> 120
+// EFFECT: Now has a chance to flinch (10%)
 movedata MOVE_HYDRO_CANNON, "Hydro Cannon"
-    battleeffect 80
+    battleeffect 31
     pss SPLIT_SPECIAL
-    basepower 150
+    basepower 120
     type TYPE_WATER
     accuracy 90
     pp 5
-    effectchance 0
+    effectchance 10
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_HIDE_SHADOW | FLAG_MIRROR_MOVE | FLAG_PROTECT
     appeal 0
     contesttype 0
     terminatedata
-    movedescription MOVE_HYDRO_CANNON, "The foe is hit with\na watery blast.\nThe user must rest\non the next turn,\nhowever."
+    movedescription MOVE_HYDRO_CANNON, "The foe is hit with\na watery blast.\nThis has a 10% chance\nto flinch the foe."
 
 movedata MOVE_METEOR_MASH, "Meteor Mash"
     battleeffect 139
@@ -6496,21 +6500,23 @@ movedata MOVE_DRAGON_CLAW, "Dragon Claw"
     terminatedata
     movedescription MOVE_DRAGON_CLAW, "The user slashes the\nfoe with huge, sharp\nclaws. Critical hits\nland more easily."
 
+// POWER: 150 >> 120
+// EFFECT: Now has a chance to drop Speed (10%)
 movedata MOVE_FRENZY_PLANT, "Frenzy Plant"
-    battleeffect 80
+    battleeffect 70
     pss SPLIT_SPECIAL
-    basepower 150
+    basepower 120
     type TYPE_GRASS
     accuracy 90
     pp 5
-    effectchance 0
+    effectchance 10
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_HIDE_SHADOW | FLAG_MIRROR_MOVE | FLAG_PROTECT
     appeal 0
     contesttype 0
     terminatedata
-    movedescription MOVE_FRENZY_PLANT, "The foe is slammed\nwith an enormous\ntree.\nThe user can’t move\non the next turn."
+    movedescription MOVE_FRENZY_PLANT, "The foe is slammed\nwith an enormous\ntree.\nThis has a 10% chance\nto lower Speed."
 
 movedata MOVE_BULK_UP, "Bulk Up"
     battleeffect 208
@@ -6593,23 +6599,24 @@ movedata MOVE_COVET, "Covet"
     terminatedata
     movedescription MOVE_COVET, "The user attacks the\nfoe. In a wild battle,\nthis steals the foe’s\nheld item if the user\nisn’t holding an item."
 
+// POWER: 120 >> 150
 // PP: 15 >> 5
-// EFFECT CHANCE: 10 >> 50
+// RECOIL: 33% >> 50%
 movedata MOVE_VOLT_TACKLE, "Volt Tackle"
     battleeffect 262
     pss SPLIT_PHYSICAL
-    basepower 120
+    basepower 150
     type TYPE_ELECTRIC
     accuracy 100
     pp MOVE_CHANGES_IMPLEMENTED ? 5 : 15
-    effectchance MOVE_CHANGES_IMPLEMENTED ? 50 : 10
+    effectchance 10
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_HIDE_SHADOW | FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
     appeal 0
     contesttype 0
     terminatedata
-    movedescription MOVE_VOLT_TACKLE, "An electrified charge.\nThe user is hurt by\n33% of damage dealt.\nThis has a 50% chance\nto paralyze the foe."
+    movedescription MOVE_VOLT_TACKLE, "An electrified charge.\nThe user is hurt by\n50% of damage dealt.\nThis has a 10% chance\nto paralyze the foe."
 
 movedata MOVE_MAGICAL_LEAF, "Magical Leaf"
     battleeffect 17

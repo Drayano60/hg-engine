@@ -375,7 +375,7 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
             movepower *= 6;
         } else if (isMultiHitMove && AttackingMon.ability == ABILITY_SKILL_LINK) {
             movepower *= 5;
-        } else if (isMultiHitMove && sp->battlemon[sp->attack_client].item == ITEM_LOADED_DICE) {
+        } else if (isMultiHitMove && AttackingMon.item_held_effect == HOLD_EFFECT_LOADED_DICE) {
             movepower *= 4;
         } else {
             movepower *= 2;

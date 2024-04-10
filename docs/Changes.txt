@@ -755,10 +755,12 @@ Cerulean Cave
 
 Mt. Silver
 ✓ Added a trade in the Pokémon Center for a Heracross in exchange for any Dragon-type.
+✓ Outside the cave entrance, Silver is waiting for the player and will challenge them to one last battle, disappearing afterwards. This also changes the story variable for the level script at the Mt. Silver summit.
 
 Mt. Silver Cave
 ✓ Lower Mountainside: Escape Rope -> Max Elixir.
-✓ At the summit, you'll battle against Blue, Lance, Steven and Cynthia. Blue explains the rules to you once you enter the peak, and following that you can talk to the Champions to battle them.
+✓ At the summit, you'll battle against Blue, Lance, Steven and Cynthia (in any order). Blue explains the rules to you once you enter the peak, and following that you can talk to the Champions to battle them.
+✓ Following the fourth battle, you'll be told that there's another challenger - at which point you step to the end of the summit and fight Red as normal, with the credits rolling afterward.
 
 Miscellaneous
 ✓ Scripts for overworld usage of HMs has been adjusted.

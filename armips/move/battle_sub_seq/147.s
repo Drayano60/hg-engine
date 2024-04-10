@@ -20,6 +20,8 @@ a001_147:
     isparentalbondactive _handleParentalBond
 _comeBackFromParentalBond:
     if IF_EQUAL, VAR_HP_TEMP, 0x0, _0068
+    if IF_EQUAL, VAR_CURRENT_MOVE, MOVE_VOLT_TACKLE, _oneHalf
+_oneThird:
     damagediv VAR_HP_TEMP, 3
 _0068:
     changevar VAR_OP_SETMASK, VAR_SERVER_STATUS1, 0x40
@@ -39,5 +41,9 @@ _handleParentalBond:
 _backupDamageForParentalBond:
     changevar2 VAR_OP_SET, VAR_DAMAGE_BACKUP, VAR_HP_TEMP
     goto _009C
+
+_oneHalf:
+    damagediv VAR_HP_TEMP, 2
+    goto _0068
 
 .close

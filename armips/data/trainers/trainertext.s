@@ -2214,7 +2214,8 @@ _13F8: // Trainer 502
     trainertextentry 502, TEXT_DOUBLE_ONLY_1_POKEMON_2, "You don’t have enough Pokémon.\nCome back when you have more.\n"
 
 _1418: // Trainer 260
-    trainertextentry 260, TEXT_DEFEATED_IN_BATTLE, "...!\n"
+    trainertextentry 260, TEXT_LAST_MON_CRITICAL, "...!\n"
+    trainertextentry 260, TEXT_DEFEATED_IN_BATTLE, "...!!\n"
     trainertextentry 260, TEXT_PLAYER_LOSES, "...\n"
 
 _1420: // Trainer 695
@@ -3387,8 +3388,8 @@ _Trainer511:
     trainertextentry 511, TEXT_DEFEATED_IN_OVERWORLD, "My Rock-type Pokémon have never felt\nso brittle before!"
 
 _Trainer514:
-    trainertextentry 514, TEXT_NOTICE_IN_OVERWORLD, "We are Team Rocket’s Elite Squad,\nhand-picked by Giovanni himself!\rBrats like you don’t have a\nchance of winning!\r"
-    trainertextentry 514, TEXT_DEFEATED_IN_BATTLE, "Giovanni... I failed..."
+    trainertextentry 514, TEXT_NOTICE_IN_OVERWORLD, "We are some of the top Grunts that\nTeam Rocket has to offer!\rBrats like you don’t have a\nchance of winning!\r"
+    trainertextentry 514, TEXT_DEFEATED_IN_BATTLE, "Boss...\nI failed..."
     trainertextentry 514, TEXT_DEFEATED_IN_OVERWORLD, "I think I understand why the boss\nwants such a powerful Pokémon..."
 
 _Trainer516:
@@ -3723,6 +3724,34 @@ _Trainer855:
 _Trainer856:
     trainertextentry 856, TEXT_DEFEATED_IN_BATTLE, "...!\n"
     trainertextentry 856, TEXT_PLAYER_LOSES, "...\n"
+
+_Trainer858:
+    trainertextentry 858, TEXT_LAST_MON_CRITICAL, "Why?!\nI’ve still got one left!\n"
+    trainertextentry 858, TEXT_LAST_MON_SENT_OUT, "Do you think you’ve won already?\n"
+    trainertextentry 858, TEXT_DEFEATED_IN_BATTLE, "...\rOK. I lost...\n"
+    trainertextentry 858, TEXT_PLAYER_LOSES, "...\rWhew...\rWith my partners, I’m going to\nbe the world’s greatest Trainer!\n"
+
+_Trainer859:
+    trainertextentry 859, TEXT_LAST_MON_CRITICAL, "Why?!\nI’ve still got one left!\n"
+    trainertextentry 859, TEXT_LAST_MON_SENT_OUT, "Do you think you’ve won already?\n"
+    trainertextentry 859, TEXT_DEFEATED_IN_BATTLE, "...\rOK. I lost...\n"
+    trainertextentry 859, TEXT_PLAYER_LOSES, "...\rWhew...\rWith my partners, I’m going to\nbe the world’s greatest Trainer!\n"
+
+_Trainer860:
+    trainertextentry 860, TEXT_LAST_MON_CRITICAL, "Why?!\nI’ve still got one left!\n"
+    trainertextentry 860, TEXT_LAST_MON_SENT_OUT, "Do you think you’ve won already?\n"
+    trainertextentry 860, TEXT_DEFEATED_IN_BATTLE, "...\rOK. I lost...\n"
+    trainertextentry 860, TEXT_PLAYER_LOSES, "...\rWhew...\rWith my partners, I’m going to be\nthe world’s greatest Trainer!\n"
+
+_Trainer861:
+    trainertextentry 861, TEXT_LAST_MON_CRITICAL, "...!\n"
+    trainertextentry 861, TEXT_DEFEATED_IN_BATTLE, "...!!\n"
+    trainertextentry 861, TEXT_PLAYER_LOSES, "...\n"
+
+_Trainer862:
+    trainertextentry 862, TEXT_LAST_MON_CRITICAL, "...!\n"
+    trainertextentry 862, TEXT_DEFEATED_IN_BATTLE, "...!\n"
+    trainertextentry 862, TEXT_PLAYER_LOSES, "...\n"
 
 .close
 
@@ -4588,5 +4617,10 @@ _Trainer856:
 /* Trainer 855 */ .halfword _Trainer855
 /* Trainer 856 */ .halfword _Trainer856
 /* Trainer 857 */ .halfword _0000
+/* Trainer 858 */ .halfword _Trainer858
+/* Trainer 859 */ .halfword _Trainer859
+/* Trainer 860 */ .halfword _Trainer860
+/* Trainer 861 */ .halfword _Trainer861
+/* Trainer 862 */ .halfword _Trainer862
 
 .close

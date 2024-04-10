@@ -1586,13 +1586,12 @@ int ServerDoTypeCalcMod(void *bw UNUSED, struct BattleStruct *sp, int move_no, i
         )
     );
 
+    int defenderType1 = BattlePokemonParamGet(sp, sp->defence_client, BATTLE_MON_DATA_TYPE1, NULL);
+    int defenderType2 = BattlePokemonParamGet(sp, sp->defence_client, BATTLE_MON_DATA_TYPE2, NULL);
+
     // This tells the AI that Electric-type Pokémon are immune to moves that paralyze.
     if (sp->moveTbl[move_no].effect == 67) {
-        if
-        (
-            (BattlePokemonParamGet(sp, sp->defence_client, BATTLE_MON_DATA_TYPE1, NULL) == TYPE_ELECTRIC) ||
-            (BattlePokemonParamGet(sp, sp->defence_client, BATTLE_MON_DATA_TYPE2, NULL) == TYPE_ELECTRIC)
-        )
+        if ((defenderType1 == TYPE_ELECTRIC) || (defenderType2 == TYPE_ELECTRIC))
         {
             flag[0] |= MOVE_STATUS_FLAG_NOT_EFFECTIVE;
         }
@@ -1603,10 +1602,18 @@ int ServerDoTypeCalcMod(void *bw UNUSED, struct BattleStruct *sp, int move_no, i
     if (isPowderMove(move_no)) {
         if
         (
-            (BattlePokemonParamGet(sp, sp->defence_client, BATTLE_MON_DATA_TYPE1, NULL) == TYPE_GRASS) ||
-            (BattlePokemonParamGet(sp, sp->defence_client, BATTLE_MON_DATA_TYPE2, NULL) == TYPE_GRASS) ||
+            (defenderType1 == TYPE_GRASS) ||
+            (defenderType2 == TYPE_GRASS) ||
             (MoldBreakerAbilityCheck(sp, attack_client, defence_client, ABILITY_OVERCOAT) == TRUE)
         )
+        {
+            flag[0] |= MOVE_STATUS_FLAG_NOT_EFFECTIVE;
+        }
+    }
+
+    // This makes Ice-types immune to Sheer Cold in a way that the AI can see it.
+    if (move_no == MOVE_SHEER_COLD) {
+        if ((defenderType1 == TYPE_ICE) || (defenderType2 == TYPE_ICE))
         {
             flag[0] |= MOVE_STATUS_FLAG_NOT_EFFECTIVE;
         }

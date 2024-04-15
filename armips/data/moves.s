@@ -15734,6 +15734,264 @@ movedata MOVE_THUNDER_CLAW, "Thunder Claw"
     terminatedata
     movedescription MOVE_THUNDER_CLAW, "Slashes the foe with\nelectrified claws.\nOften a critical hit.\nThis has a 10% chance\nto paralyze the foe."
 
+/* The below are Hidden Power types for AI use. */
+
+movedata MOVE_HIDDEN_POWER_FIGHTING, "Hidden Power"
+    battleeffect 0
+    pss SPLIT_SPECIAL
+    basepower 60
+    type TYPE_FIGHTING
+    accuracy 100
+    pp 15
+    effectchance 0
+    target MOVE_TARGET_SELECTED
+    priority 0
+    flags FLAG_MIRROR_MOVE | FLAG_PROTECT
+    appeal 0
+    contesttype 0
+    terminatedata
+    movedescription MOVE_HIDDEN_POWER_FIGHTING, "A unique attack that\nvaries in type,\ndepending on the\nPokémon using it."
+
+movedata MOVE_HIDDEN_POWER_FLYING, "Hidden Power"
+    battleeffect 0
+    pss SPLIT_SPECIAL
+    basepower 60
+    type TYPE_FLYING
+    accuracy 100
+    pp 15
+    effectchance 0
+    target MOVE_TARGET_SELECTED
+    priority 0
+    flags FLAG_MIRROR_MOVE | FLAG_PROTECT
+    appeal 0
+    contesttype 0
+    terminatedata
+    movedescription MOVE_HIDDEN_POWER_FLYING, "A unique attack that\nvaries in type,\ndepending on the\nPokémon using it."
+    
+movedata MOVE_HIDDEN_POWER_POISON, "Hidden Power"
+    battleeffect 0
+    pss SPLIT_SPECIAL
+    basepower 60
+    type TYPE_POISON
+    accuracy 100
+    pp 15
+    effectchance 0
+    target MOVE_TARGET_SELECTED
+    priority 0
+    flags FLAG_MIRROR_MOVE | FLAG_PROTECT
+    appeal 0
+    contesttype 0
+    terminatedata
+    movedescription MOVE_HIDDEN_POWER_POISON, "A unique attack that\nvaries in type,\ndepending on the\nPokémon using it."
+    
+movedata MOVE_HIDDEN_POWER_GROUND, "Hidden Power"
+    battleeffect 0
+    pss SPLIT_SPECIAL
+    basepower 60
+    type TYPE_GROUND
+    accuracy 100
+    pp 15
+    effectchance 0
+    target MOVE_TARGET_SELECTED
+    priority 0
+    flags FLAG_MIRROR_MOVE | FLAG_PROTECT
+    appeal 0
+    contesttype 0
+    terminatedata
+    movedescription MOVE_HIDDEN_POWER_GROUND, "A unique attack that\nvaries in type,\ndepending on the\nPokémon using it."
+    
+movedata MOVE_HIDDEN_POWER_ROCK, "Hidden Power"
+    battleeffect 0
+    pss SPLIT_SPECIAL
+    basepower 60
+    type TYPE_ROCK
+    accuracy 100
+    pp 15
+    effectchance 0
+    target MOVE_TARGET_SELECTED
+    priority 0
+    flags FLAG_MIRROR_MOVE | FLAG_PROTECT
+    appeal 0
+    contesttype 0
+    terminatedata
+    movedescription MOVE_HIDDEN_POWER_ROCK, "A unique attack that\nvaries in type,\ndepending on the\nPokémon using it."
+    
+movedata MOVE_HIDDEN_POWER_BUG, "Hidden Power"
+    battleeffect 0
+    pss SPLIT_SPECIAL
+    basepower 60
+    type TYPE_BUG
+    accuracy 100
+    pp 15
+    effectchance 0
+    target MOVE_TARGET_SELECTED
+    priority 0
+    flags FLAG_MIRROR_MOVE | FLAG_PROTECT
+    appeal 0
+    contesttype 0
+    terminatedata
+    movedescription MOVE_HIDDEN_POWER_BUG, "A unique attack that\nvaries in type,\ndepending on the\nPokémon using it."
+    
+movedata MOVE_HIDDEN_POWER_GHOST, "Hidden Power"
+    battleeffect 0
+    pss SPLIT_SPECIAL
+    basepower 60
+    type TYPE_GHOST
+    accuracy 100
+    pp 15
+    effectchance 0
+    target MOVE_TARGET_SELECTED
+    priority 0
+    flags FLAG_MIRROR_MOVE | FLAG_PROTECT
+    appeal 0
+    contesttype 0
+    terminatedata
+    movedescription MOVE_HIDDEN_POWER_GHOST, "A unique attack that\nvaries in type,\ndepending on the\nPokémon using it."
+    
+movedata MOVE_HIDDEN_POWER_STEEL, "Hidden Power"
+    battleeffect 0
+    pss SPLIT_SPECIAL
+    basepower 60
+    type TYPE_STEEL
+    accuracy 100
+    pp 15
+    effectchance 0
+    target MOVE_TARGET_SELECTED
+    priority 0
+    flags FLAG_MIRROR_MOVE | FLAG_PROTECT
+    appeal 0
+    contesttype 0
+    terminatedata
+    movedescription MOVE_HIDDEN_POWER_STEEL, "A unique attack that\nvaries in type,\ndepending on the\nPokémon using it."
+    
+movedata MOVE_HIDDEN_POWER_FIRE, "Hidden Power"
+    battleeffect 0
+    pss SPLIT_SPECIAL
+    basepower 60
+    type TYPE_FIRE
+    accuracy 100
+    pp 15
+    effectchance 0
+    target MOVE_TARGET_SELECTED
+    priority 0
+    flags FLAG_MIRROR_MOVE | FLAG_PROTECT
+    appeal 0
+    contesttype 0
+    terminatedata
+    movedescription MOVE_HIDDEN_POWER_FIRE, "A unique attack that\nvaries in type,\ndepending on the\nPokémon using it."
+    
+movedata MOVE_HIDDEN_POWER_WATER, "Hidden Power"
+    battleeffect 0
+    pss SPLIT_SPECIAL
+    basepower 60
+    type TYPE_WATER
+    accuracy 100
+    pp 15
+    effectchance 0
+    target MOVE_TARGET_SELECTED
+    priority 0
+    flags FLAG_MIRROR_MOVE | FLAG_PROTECT
+    appeal 0
+    contesttype 0
+    terminatedata
+    movedescription MOVE_HIDDEN_POWER_WATER, "A unique attack that\nvaries in type,\ndepending on the\nPokémon using it."
+    
+movedata MOVE_HIDDEN_POWER_GRASS, "Hidden Power"
+    battleeffect 0
+    pss SPLIT_SPECIAL
+    basepower 60
+    type TYPE_GRASS
+    accuracy 100
+    pp 15
+    effectchance 0
+    target MOVE_TARGET_SELECTED
+    priority 0
+    flags FLAG_MIRROR_MOVE | FLAG_PROTECT
+    appeal 0
+    contesttype 0
+    terminatedata
+    movedescription MOVE_HIDDEN_POWER_GRASS, "A unique attack that\nvaries in type,\ndepending on the\nPokémon using it."
+    
+movedata MOVE_HIDDEN_POWER_ELECTRIC, "Hidden Power"
+    battleeffect 0
+    pss SPLIT_SPECIAL
+    basepower 60
+    type TYPE_ELECTRIC
+    accuracy 100
+    pp 15
+    effectchance 0
+    target MOVE_TARGET_SELECTED
+    priority 0
+    flags FLAG_MIRROR_MOVE | FLAG_PROTECT
+    appeal 0
+    contesttype 0
+    terminatedata
+    movedescription MOVE_HIDDEN_POWER_ELECTRIC, "A unique attack that\nvaries in type,\ndepending on the\nPokémon using it."
+    
+movedata MOVE_HIDDEN_POWER_PSYCHIC, "Hidden Power"
+    battleeffect 0
+    pss SPLIT_SPECIAL
+    basepower 60
+    type TYPE_PSYCHIC
+    accuracy 100
+    pp 15
+    effectchance 0
+    target MOVE_TARGET_SELECTED
+    priority 0
+    flags FLAG_MIRROR_MOVE | FLAG_PROTECT
+    appeal 0
+    contesttype 0
+    terminatedata
+    movedescription MOVE_HIDDEN_POWER_PSYCHIC, "A unique attack that\nvaries in type,\ndepending on the\nPokémon using it."
+    
+movedata MOVE_HIDDEN_POWER_ICE, "Hidden Power"
+    battleeffect 0
+    pss SPLIT_SPECIAL
+    basepower 60
+    type TYPE_ICE
+    accuracy 100
+    pp 15
+    effectchance 0
+    target MOVE_TARGET_SELECTED
+    priority 0
+    flags FLAG_MIRROR_MOVE | FLAG_PROTECT
+    appeal 0
+    contesttype 0
+    terminatedata
+    movedescription MOVE_HIDDEN_POWER_ICE, "A unique attack that\nvaries in type,\ndepending on the\nPokémon using it."
+    
+movedata MOVE_HIDDEN_POWER_DARK, "Hidden Power"
+    battleeffect 0
+    pss SPLIT_SPECIAL
+    basepower 60
+    type TYPE_DARK
+    accuracy 100
+    pp 15
+    effectchance 0
+    target MOVE_TARGET_SELECTED
+    priority 0
+    flags FLAG_MIRROR_MOVE | FLAG_PROTECT
+    appeal 0
+    contesttype 0
+    terminatedata
+    movedescription MOVE_HIDDEN_POWER_DARK, "A unique attack that\nvaries in type,\ndepending on the\nPokémon using it."
+    
+movedata MOVE_HIDDEN_POWER_DRAGON, "Hidden Power"
+    battleeffect 0
+    pss SPLIT_SPECIAL
+    basepower 60
+    type TYPE_DRAGON
+    accuracy 100
+    pp 15
+    effectchance 0
+    target MOVE_TARGET_SELECTED
+    priority 0
+    flags FLAG_MIRROR_MOVE | FLAG_PROTECT
+    appeal 0
+    contesttype 0
+    terminatedata
+    movedescription MOVE_HIDDEN_POWER_DRAGON, "A unique attack that\nvaries in type,\ndepending on the\nPokémon using it."
+
 movedatanoname NUM_OF_MOVES+1
     battleeffect 0
     pss SPLIT_SPECIAL

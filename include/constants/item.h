@@ -468,7 +468,6 @@
 #define ITEM_AZURE_FLUTE     455
 #define ITEM_SS_TICKET       456
 #define ITEM_CONTEST_PASS    457
-#define ITEM_GS_BALL         457 // Edited from Contest Pass
 #define ITEM_MAGMA_STONE     458
 #define ITEM_PARCEL          459
 #define ITEM_COUPON_1        460
@@ -859,6 +858,7 @@
 #define ITEM_STELLAR_STONE      (ITEM_PIXIE_PLATE + 208) // 792
 #define ITEM_FAIRY_FEATHER      (ITEM_PIXIE_PLATE + 209) // 793
 #define ITEM_TELEPORT_GEM       (ITEM_PIXIE_PLATE + 210) // 794
+#define ITEM_GS_BALL            (ITEM_PIXIE_PLATE + 211) // 795
 
 #define NUM_MEGA_STONES 48 // includes the pixie plate
 

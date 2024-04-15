@@ -3753,6 +3753,15 @@ _Trainer862:
     trainertextentry 862, TEXT_DEFEATED_IN_BATTLE, "...!\n"
     trainertextentry 862, TEXT_PLAYER_LOSES, "...\n"
 
+_Trainer863:
+    trainertextentry 863, TEXT_DEFEATED_IN_BATTLE, "Stronger than we thought?\nPerhaps..."  
+
+_Trainer864:
+    trainertextentry 864, TEXT_DEFEATED_IN_BATTLE, "I will tell you the truth..."  
+
+_Trainer865:
+    trainertextentry 865, TEXT_DEFEATED_IN_BATTLE, "Too strong! Why?"  
+
 .close
 
 
@@ -4622,5 +4631,8 @@ _Trainer862:
 /* Trainer 860 */ .halfword _Trainer860
 /* Trainer 861 */ .halfword _Trainer861
 /* Trainer 862 */ .halfword _Trainer862
+/* Trainer 863 */ .halfword _Trainer863
+/* Trainer 864 */ .halfword _Trainer864
+/* Trainer 865 */ .halfword _Trainer865
 
 .close

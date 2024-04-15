@@ -170,6 +170,7 @@ Azalea Town
 ✓ Kurt now instantly makes the respective Poké Balls when he's given apricorns instead of it being a daily event.
 ✓ The charcoal makers will now give you the Charcoal immediately after defeating Team Rocket in the well. Farfetch'd event no longer happens. The master's dialogue is also changed slightly to remove the Ilex Forest part.
 ✓ Added a trade in the Charcoal Kiln house for a Horsea in exchange for any Fighting-type.
+✓ Talking to Kurt after receiving the GS Ball will kick off some dialogue and enable the next step to getting Celebi in Ilex Forest.
 
 Slowpoke Well
 ✓ Added an extra Rocket Grunt F using Mickey (141).
@@ -204,6 +205,8 @@ Ilex Forest
 ✓ Added an NPC and the Spiky-eared Pichu, who you can get here. The Pichu is Lv. 20 and has Volt Tackle replaced with Thunderbolt, but is otherwise the same (including the Zap Plate and fixed nature/gender).
 ✓ After accepting Pichu, the NPC also gives you a Light Ball before leaving.
 ✓ Added an NPC to give a slight nod to the infamous Ilex Forest scene in SG/SS, and also awarding TM86 Grass Knot.
+✓ After speaking to Kurt outside his house in Azalea Town, you can pop the GS Ball into the shrine and Celebi will appear. Kurt also shows up after this to thank you and gives you a Master Ball.
+✓ The Celebi can then be encountered and will respawn upon entering the area until caught. It appears at Level 50.
 
 Route 34
 ✓ Cynthia appears and talks to you in the gatehouse, then leaves. This makes her appear at the research center in the Ruins of Alph.
@@ -526,6 +529,7 @@ Whirl Islands
 ✓ Ultra Ball -> Dragon Scale. Carbos -> Damp Rock. Escape Rope -> Ultra Ball.
 ✓ Removed the darkness.
 ✓ Changed all maps to use the same encounter file (43), freeing up files 44, 46 and 48.
+✓ Lugia is now at Lv. 80. It will respawn after leaving the area until it is caught.
 
 Route 45 - North
 ✓ Elixir -> Razor Fang.
@@ -548,7 +552,7 @@ Radio Tower
 ✓ Looker blocks the lift down after Giovanni is defeated. After a quick conversation, he leaves.
 ✓ Woman that normally gifts TM11 no longer gives you anything.
 ✓ Added a clown on 4F. After defeating Team Rocket, he gives you TM92, Trick Room.
-✓ The Director now instead gives you the Clear Bell, and his dialogue is adjusted a bit to be more like Crystal's while still maintaining the HGSS story with the Kimono Girls.
+✓ The Director now instead gives you the GS Ball (as it felt a bit odd just having it randomly handed to you in the Pokémon Center), with dialogue edits to match. The Clear Bell is obtained from the Kimono Girls later as normal.
 ✓ DJ Mary now gives you three Throat Sprays instead of the Bright Powder.
 ✓ The Teleport Gem is disabled after defeating Giovanni until you've spoken to Looker.
 
@@ -598,7 +602,7 @@ New Bark Town - Post Gym 8
 Ecruteak Dance Theater
 ✓ Following Pokémon are turned off in here to make scripts easier.
 ✓ Edited Silver's dialogue just outside it to mention there are now 8 Kimono Girls.
-✓ The Kimono Girls have their movements edited and now challenge you to battles two at a time. After the battles conclude, the little sister mentions three shadows going to the Bell Tower (the legendary beasts), and the Kimono Girls leave the theater as normal.
+✓ The Kimono Girls have their movements edited and now challenge you to battles two at a time. After the battles conclude, the player receives the Clear Bell as normal, but with a remark about not having the Rainbow Wing. The little sister mentions three shadows going to the Bell Tower (the legendary beasts), and the Kimono Girls leave the theater as normal.
 ✓ The above also sets the relevant flags/vars so the Suicune event on Route 42 does not happen in the future.
 ✓ As it's now a series of Multi Battles, the player is forced to have at least 2 Pokémon alive before they can begin the battles.
 ✓ There's also a check after each battle to see if the player only has 1 Pokémon alive; if this is the case, the player is told they can't continue and warped outside the theater.
@@ -618,6 +622,10 @@ Bell Tower
 ✓ Bell Tower now uses the same encounter file (30) for every floor.
 ✓ Added two item balls on 2F containing a Sacred Ash and a TM70 Mystical Fire.
 ✓ 4F: Escape Rope -> Max Ether.
+✓ After Eusine leaves Celadon City, an event with the Wise Trio will happen here upon entering, giving a b2b2b battle. You get the Rainbow Wing afterwards.
+✓ Then at the top of the tower, you'll find Eusine/Morty with some dialogue, and the Kimono Girls on the roof. This then plays out the Ho-oh event as normal. Ho-oh is now Lv. 80.
+✓ After battling Ho-oh, the Kimono Girl gives a dialogue line and they all leave. Eusine then also gives a dialogue and leaves.
+✓ Ho-oh will respawn after leaving the area until caught.
 
 Tohjo Falls
 ✓ Moon Stone -> PP Max.
@@ -644,6 +652,7 @@ Victory Road
 ✓✓ Specifically in order: Lorelei, Youngster Joey, Wally, Barry, Colress, Diantha, Lusamine, Leon, Kamado, Professor Sada/Turo.
 ✓ Added the Sablenite to 1F. Moved the Full Heal to the maze at the top right.
 ✓ Added the Mawilite to 3F. Moved the Rare Candy a bit to the left.
+✓ Moltres appears on 2F and is found at Level 70. It will reappear after leaving the area unless caught. It does not appear until after becoming Champion. (Specifically, it is cleared by the Mom script post E4).
 
 Indigo Plateau
 ✓ On the first entry, Karen blocks the doorway, and provides a short explanation before leaving permanently. (This was previously Will, who would hide a coin and ask you to pick "Left Hand" or "Right Hand", then head back inside). She also gives you 4 Poké Credits during this.
@@ -657,11 +666,13 @@ Indigo Plateau
 ✓ Added a trade in the lobby next to the Poké Mart for a Carbink in exchange for any Ghost-type.
 ✓ Upon entry, a flag is set to disable the use of the portable PC. This is cleared upon any loss in the E4 or during the walk up to Lance.
 ✓ The Teleport Gem is disabled when entering the E4, and is re-enabled upon any losses or defeating Lance.
+✓ Ho-oh's secondary flag (278) no longer restores it if not set. This is to stop it appearing post E4 without its event actually going off.
 
 S.S. Aqua
 ✓ Prior to boarding (in the harbour building), Looker replaces Oak and says some dialogue referencing that Team Rocket are still out and about.
 ✓ On the initial voyage, there's now a Sailor in front of the Captain's room that needs to be fought before you can enter.
 ✓ The Teleport Gem is disabled when entering the S.S. Aqua. It gets re-enabled after exiting to either the Vermilion or Olivine ports.
+✓ The grandfather of the girl you play with now gives you the Silver Wing instead of a Metal Coat, meaning Lugia can then be caught.
 
 Pewter City - Gym
 ✓ Added two new Trainers using Mickeys (508, 511).
@@ -683,8 +694,8 @@ Vermilion City - Gym
 
 Power Plant
 ✓ As the required flags are set, it now always uses the primary map for the Power Plant.
-✓ All overworlds are hidden, the room is dark and with different music, and Zapdos now appears here.
-- Not fully finished yet, need to do more!
+✓ All overworlds are deleted, the room is dark and with different music.
+✓ Zapdos is now found here at Level 70. It will reappear after re-entering the area unless caught.
 
 Route 8
 ✓ Changed Gentleman Milton's position so he isn't compulsory.
@@ -694,6 +705,7 @@ Celadon City
 ✓ Changed Dept Store 3F to sell the basic evolutionary stones instead of TMs. Changed references to 3F TM Shop to 3F Stone Emporium.
 ✓ Changed Dept Store 5F shop to #29 (Mahogany shop) which now has the X items. The right shop is now #6 as the original #23 is repurposed.
 ✓ Reversed the old man's dialogue outside the Gym to be the FR/LG version.
+✓ Eusine is in the Pokémon Center. If spoken to after catching Raikou, Entei and Suicune, he'll leave, activating another event at the Bell Tower.
 
 Celadon City - Gym
 ✓ Changed the position of some of the Trainers.
@@ -728,6 +740,7 @@ Route 20
 
 Seafoam Islands
 ✓ 1F: Removed the hidden Escape Rope.
+✓ Articuno is now found at Level 70. It now reappears after leaving the area unless caught.
 
 Seafoam Islands - Gym
 ✓ Changed the Scientists into the D/P Scientists, as the HG/SS ones are now using the Rocket music.
@@ -743,6 +756,10 @@ Pallet Town - Oak's Lab
 ✓ A level script is now called after Oak calls you following the Earth Badge.
 ✓ During this level script, Prof Oak gives you a Master Ball, and Blue gives you the Venusaurite, Charizardite X, Charizardite Y and Blastoisite.
 ✓ This level script also tells the player about Cerulean Cave and unblocks it. Talking to Oak here no longer unblocks Mt. Silver.
+✓ A new female scientist has been added at the bottom left of the lab. Talking to her activates the Mew event in Viridian Forest.
+
+Viridian Forest
+✓ After talking to the scientist at Oak's lab, upon entering the area you will hear Mew's cry. You can then find it sitting in Viridian Forest, but it'll move locations three times, each time you talk to it. After the third time, it'll move to the tree in front of the bottom gate, at which point it'll battle you when you talk to it. It's at Lv. 70. The event will restart in its entirety when Viridian Forest is left and re-entered until Mew is caught.
 
 Cerulean Cave
 ✓ Upon entering, Looker (disguised as a Rocket Grunt) will call you over and after some dialogue, give you some Max Repels.
@@ -752,6 +769,7 @@ Cerulean Cave
 ✓ The near end of the third floor has you go against Archer/Ariana with Silver as a partner.
 ✓ Following this, there's a small event where Silver battles Giovanni and loses. You then get to challenge Giovanni yourself in a b2b2b, featuring Mega Mewtwo X, Mega Mewtwo Y, and then a full team of six (no healing between).
 ✓ After defeating Giovanni, everyone leaves and Blue invites you to Mt. Silver, which now unlocks.
+✓ Mewtwo is now Lv. 80, and will reappear when leaving the area until caught. Upon catching it, you'll get a Mewtwonite X and Mewtwonite Y.
 
 Mt. Silver
 ✓ Added a trade in the Pokémon Center for a Heracross in exchange for any Dragon-type.

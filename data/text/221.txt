@@ -793,3 +793,4 @@ Having a Pokémon smell this mint will\ncause all of its stats to grow at\nan eq
 A stone that shines in rainbow colors.\nIt’s said to respond to the user’s wish.\nIt can make a certain Pokémon evolve.
 An item to be held by a Pokémon.\nThis feather, which gleams faintly, ups\nthe power of Fairy-type moves by 20%.
 A gem that allows you to press “START”\nto go to previously visited places.\nIt won’t work in certain places, though.
+A mysterious gold and silver Poké Ball\nthat cannot be opened.\nIts true purpose remains a mystery.

@@ -44071,6 +44071,200 @@ party 719
     ballseal 8
 endparty
 
+/******************************************** Bell Tower ********************************************/
+
+trainerdata 863, "Gaku"
+    trainermontype TRAINER_MON_TYPE_FLAGS
+    trainerclass CLASS_SAGE
+    nummons 2
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype SINGLE_BATTLE
+    endentry
+
+party 863
+    ivs 0
+    abilityslot 0
+    level LEVEL_KANTO_TRAINERS
+    pokemon SPECIES_NOCTOWL
+    item 0
+    move MOVE_HYPER_VOICE
+    move MOVE_HURRICANE
+    move MOVE_MOONBLAST
+    move MOVE_PSYCHIC
+    ability ABILITY_TINTED_LENS
+    ball ITEM_POKE_BALL
+    setivs 15, 15, 15, 15, 15, 15
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level LEVEL_KANTO_TRAINERS
+    pokemon SPECIES_FLAREON
+    item 0
+    move MOVE_FLARE_BLITZ
+    move MOVE_DOUBLE_EDGE
+    move MOVE_SUPERPOWER
+    move MOVE_TRAILBLAZE
+    ability ABILITY_FLASH_FIRE
+    ball ITEM_POKE_BALL
+    setivs 15, 15, 15, 15, 15, 15
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+endparty
+
+trainerdata 863, "Gaku"
+    trainermontype TRAINER_MON_TYPE_FLAGS
+    trainerclass CLASS_SAGE
+    nummons 2
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype SINGLE_BATTLE
+    endentry
+
+party 863
+    ivs 0
+    abilityslot 0
+    level LEVEL_KANTO_TRAINERS
+    pokemon SPECIES_NOCTOWL
+    item 0
+    move MOVE_HYPER_VOICE
+    move MOVE_HURRICANE
+    move MOVE_MOONBLAST
+    move MOVE_PSYCHIC
+    ability ABILITY_TINTED_LENS
+    ball ITEM_POKE_BALL
+    setivs 15, 15, 15, 15, 15, 15
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level LEVEL_KANTO_TRAINERS
+    pokemon SPECIES_FLAREON
+    item 0
+    move MOVE_FLARE_BLITZ
+    move MOVE_DOUBLE_EDGE
+    move MOVE_SUPERPOWER
+    move MOVE_TRAILBLAZE
+    ability ABILITY_FLASH_FIRE
+    ball ITEM_POKE_BALL
+    setivs 15, 15, 15, 15, 15, 15
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+endparty
+
+trainerdata 864, "Masa"
+    trainermontype TRAINER_MON_TYPE_FLAGS
+    trainerclass CLASS_SAGE
+    nummons 2
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype SINGLE_BATTLE
+    endentry
+
+party 864
+    ivs 0
+    abilityslot 0
+    level LEVEL_KANTO_TRAINERS
+    pokemon SPECIES_NOCTOWL
+    item 0
+    move MOVE_HYPER_VOICE
+    move MOVE_HURRICANE
+    move MOVE_MOONBLAST
+    move MOVE_PSYCHIC
+    ability ABILITY_TINTED_LENS
+    ball ITEM_POKE_BALL
+    setivs 15, 15, 15, 15, 15, 15
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level LEVEL_KANTO_TRAINERS
+    pokemon SPECIES_JOLTEON
+    item 0
+    move MOVE_THUNDERBOLT
+    move MOVE_HYPER_VOICE
+    move MOVE_SHADOW_BALL
+    move MOVE_TRAILBLAZE
+    ability ABILITY_VOLT_ABSORB
+    ball ITEM_POKE_BALL
+    setivs 15, 15, 15, 15, 15, 15
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+endparty
+
+trainerdata 865, "Koji"
+    trainermontype TRAINER_MON_TYPE_FLAGS
+    trainerclass CLASS_SAGE
+    nummons 2
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype SINGLE_BATTLE
+    endentry
+
+party 865
+    ivs 0
+    abilityslot 0
+    level LEVEL_KANTO_TRAINERS
+    pokemon SPECIES_NOCTOWL
+    item 0
+    move MOVE_HYPER_VOICE
+    move MOVE_HURRICANE
+    move MOVE_MOONBLAST
+    move MOVE_PSYCHIC
+    ability ABILITY_TINTED_LENS
+    ball ITEM_POKE_BALL
+    setivs 15, 15, 15, 15, 15, 15
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level LEVEL_KANTO_TRAINERS
+    pokemon SPECIES_VAPOREON
+    item 0
+    move MOVE_HYDRO_PUMP
+    move MOVE_HYPER_VOICE
+    move MOVE_SHADOW_BALL
+    move MOVE_ICE_BEAM
+    ability ABILITY_WATER_ABSORB
+    ball ITEM_POKE_BALL
+    setivs 15, 15, 15, 15, 15, 15
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+endparty
+
 /******************************************** Not Set ********************************************/
 /************ Rematches ************/
 

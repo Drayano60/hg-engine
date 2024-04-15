@@ -160,6 +160,15 @@ NPCs:
 2234 - Initial Blue on Mt Silver
 2235 - Silver in front of Mt. Silver
 2236 - Champions/Gym Guide on Mt. Silver
+2237 - Eusine in Celadon Poké Center
+
+2238* - Kurt outside in Azalea, per GS Ball event
+2239 - Spoke to Kurt outside house.
+2240* - Celebi.
+2241* - Regirock.
+2242* - Regice.
+2243* - Registeel.
+2244* - Regigigas.
 
 2230 - Heart Scale on Route 47 [UNUSED]
 2231 - Heart Scale on Route 40 [UNUSED]
@@ -204,6 +213,9 @@ NPCs:
 2630 - Cheat code console enabled.
 2631 - Override to give Pichu the Time's Gift ability
 
+2632 - Zapdos @ Power Plant
+2633* - Moltres @ Victory Road
+2634 - Mew @ Viridian Forest
 
 373 - This is the flag in the base game to signal Suicune has been caught. This is set during the Bell Tower event if Suicune is caught.
 
@@ -244,6 +256,8 @@ Triggers:
 16725 (0-1) - Used for Spiky Pichu in Ilex Forest. Same again as above
 16726 (0-2) - Used for Violet Gym guide. Same again as above...
 
+16746 (0x416A) - Used by me for the Ho-oh event.
+16747 (0-2) (0x416B) - Used by me for the Mew event.
 16748 (0x416C) - Used by me for the Stellar Stone check.
 16749 (0x416D) - Used by me for the Poké Credits count.
 16750 (0x416E) - Used by me for the difficulty mode.

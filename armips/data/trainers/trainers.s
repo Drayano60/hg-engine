@@ -1769,7 +1769,7 @@ party 290
     item ITEM_NONE
     move MOVE_RAZOR_LEAF
     move MOVE_ACID_SPRAY
-    move MOVE_HIDDEN_POWER
+    move MOVE_HIDDEN_POWER_BUG
     move MOVE_GROWTH
     ability ABILITY_CHLOROPHYLL
     ball ITEM_POKE_BALL
@@ -1786,7 +1786,7 @@ party 290
     item ITEM_NONE
     move MOVE_CONFUSION
     move MOVE_ECHOED_VOICE
-    move MOVE_HIDDEN_POWER
+    move MOVE_HIDDEN_POWER_GHOST
     move MOVE_DISABLE
     ability ABILITY_LEVITATE
     ball ITEM_POKE_BALL
@@ -1803,7 +1803,7 @@ party 290
     item ITEM_NONE
     move MOVE_ROCK_THROW
     move MOVE_LOW_KICK
-    move MOVE_FEINT_ATTACK
+    move MOVE_HIDDEN_POWER_GRASS
     move MOVE_TEARFUL_LOOK
     ability ABILITY_STURDY
     ball ITEM_POKE_BALL
@@ -1818,9 +1818,9 @@ party 290
     level LEVEL_ELDER_LI+1
     pokemon SPECIES_HOOTHOOT
     item ITEM_ORAN_BERRY
+    move MOVE_ECHOED_VOICE
     move MOVE_AIR_CUTTER
-    move MOVE_CONFUSION
-    move MOVE_HIDDEN_POWER
+    move MOVE_HIDDEN_POWER_PSYCHIC
     move MOVE_HYPNOSIS
     ability ABILITY_TINTED_LENS
     ball ITEM_POKE_BALL

@@ -95,8 +95,8 @@ arm9 080541DC 60 B4 C0 46
 arm9 020CA054 60 00 2D E9
 
 # Music Combo Table Count (hex)
-arm9 080517AA 39
-arm9 080517D4 39
+arm9 080517AA 3A
+arm9 080517D4 3A
 
 # Pokemon Music Table Count (hex)
 arm9 080518CA 23

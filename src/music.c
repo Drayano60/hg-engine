@@ -86,7 +86,7 @@ u8 TrainerMusicTable[][2] = {
     {0x2F, 0xAC}, // Kimono Girl 1, 31
     {0x6D, 0xB0}, // Red, 32 (***END OF VANILLA ENTRIES***)
     // New Entries
-    {95, 220}, // Steven (DP Lucas) (uses HGSS Champion theme as I don't have Steven's music yet)
+    {95, 228}, // Steven (DP Lucas)
     {96, 224}, // Cynthia (DP Dawn)
     {113, 0x74}, // Rocket Scientist
     {125, 220}, // Blue 2 (DP Lucas 2) (uses HGSS Champion theme as I don't have Blue's music yet)
@@ -122,6 +122,7 @@ u8 TrainerMusicTable[][2] = {
 #define VS_HOENN_WILD_POKEMON 2386
 #define VS_SINNOH_WILD_POKEMON 2387
 #define LOOKER_THEME 2388
+#define VS_STEVEN 2389
 
 // First byte is effect (pre-battle VS banners etc), second byte is music (music ID)
 const u16 MainTableCombo[][2] = {
@@ -175,12 +176,13 @@ const u16 MainTableCombo[][2] = {
     {34, VS_REGI}, // Combo 46
     {34, VS_HOENN_WILD_POKEMON}, // Combo 47
     {34, VS_DEOXYS}, // Combo 48
-    {34, VS_LAKE_LEGENDARY}, // Combo 49
-    {34, VS_SINNOH_BOX_LEGENDARY}, // Combo 50
+    {35, VS_LAKE_LEGENDARY}, // Combo 49
+    {35, VS_SINNOH_BOX_LEGENDARY}, // Combo 50
     {34, VS_SINNOH_LEGENDARY}, // Combo 51
     {34, VS_GIRATINA}, // Combo 52
     {34, VS_SINNOH_WILD_POKEMON}, // Combo 53
-    {34, VS_ARCEUS}, // Combo 54
+    {35, VS_ARCEUS}, // Combo 54
     {0xFFFF, VS_CHAMPION}, // Combo 55
     {0xFFFF, VS_CYNTHIA}, // Combo 56
+    {0xFFFF, VS_STEVEN}, // Combo 57
 };

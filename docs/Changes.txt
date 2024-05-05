@@ -97,7 +97,7 @@ Sprout Tower
 ✓ Added a Hoothoot next to the Elder with a mild Vietnamese Crystal reference (wild hehe jump out).
 ✓ The Elder now awards you TM10, Hidden Power. One of the top floor monk's dialogues has been modified to reflect this too.
 ✓ 3F: Escape Rope -> Potion.
-✓ After becoming Champion, Elder Li will challenge you to a rematch when spoken to. Defeating him will earn you the Meadow Plate.
+✓ After earning the Earth Badge, Elder Li will challenge you to a rematch when spoken to. Defeating him will earn you the Meadow Plate.
 
 Violet City - Gym
 ✓ Added two new Trainers using Mickey (63, 87). Set flags for these after beating Falkner.
@@ -619,7 +619,7 @@ Dragon's Den
 ✓ The call from Elm that occurs after leaving Dragon's Den now mentions Mega Evolution.
 ✓ Clair now awards you 4 Poké Credits after you earn the Rising Badge and mentions that you can teach moves at the Pokémon Center.
 ✓ The Teleport Gem is disabled after finishing the quiz until you leave and take Elm's call outside.
-✓ After becoming Champion, the Elder will challenge you to a battle when spoken to. Defeating him will earn you the Draco Plate.
+✓ After earning the Earth Badge, the Elder will challenge you to a battle when spoken to. Defeating him will earn you the Draco Plate.
 
 New Bark Town - Post Gym 8
 ✓ Instead of the Master Ball, Elm now gives you (and Ethan/Lyra) the Key Stone and an Ampharosite, and some explanations of doing so.

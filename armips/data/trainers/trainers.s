@@ -1826,7 +1826,7 @@ party 290
     ball ITEM_POKE_BALL
     setivs 25, 25, 25, 25, 25, 25
     setevs 0, 0, 0, 0, 0, 0
-    nature NATURE_TIMID
+    nature NATURE_SERIOUS
     shinylock 0
     ballseal 0
 endparty
@@ -1835,7 +1835,7 @@ endparty
 trainerdata 866, "Li"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_ELDER
-    nummons 4
+    nummons 6
     item 0
     item 0 
     item 0 
@@ -1847,13 +1847,13 @@ trainerdata 866, "Li"
 party 866
     ivs 0
     abilityslot 0
-    level LEVEL_ELDER_LI
-    pokemon SPECIES_BELLSPROUT
+    level 75
+    pokemon SPECIES_VICTREEBEL
     item ITEM_NONE
-    move MOVE_RAZOR_LEAF
-    move MOVE_ACID_SPRAY
-    move MOVE_HIDDEN_POWER_BUG
-    move MOVE_GROWTH
+    move MOVE_LEAF_STORM
+    move MOVE_SLUDGE_WAVE
+    move MOVE_HIDDEN_POWER_ICE
+    move MOVE_STUN_SPORE
     ability ABILITY_CHLOROPHYLL
     ball ITEM_POKE_BALL
     setivs 25, 25, 25, 25, 25, 25
@@ -1864,13 +1864,13 @@ party 866
 
     ivs 0
     abilityslot 0
-    level LEVEL_ELDER_LI
-    pokemon SPECIES_CHINGLING
+    level 75
+    pokemon SPECIES_CHIMECHO
     item ITEM_NONE
-    move MOVE_CONFUSION
-    move MOVE_ECHOED_VOICE
-    move MOVE_HIDDEN_POWER_GHOST
-    move MOVE_DISABLE
+    move MOVE_PSYCHIC
+    move MOVE_ENERGY_BALL
+    move MOVE_HYPER_VOICE
+    move MOVE_SHADOW_BALL
     ability ABILITY_LEVITATE
     ball ITEM_POKE_BALL
     setivs 25, 25, 25, 25, 25, 25
@@ -1881,12 +1881,12 @@ party 866
 
     ivs 0
     abilityslot 0
-    level LEVEL_ELDER_LI
-    pokemon SPECIES_BONSLY
+    level 75
+    pokemon SPECIES_SUDOWOODO
     item ITEM_NONE
-    move MOVE_ROCK_THROW
-    move MOVE_LOW_KICK
-    move MOVE_HIDDEN_POWER_GRASS
+    move MOVE_STONE_EDGE
+    move MOVE_HAMMER_ARM
+    move MOVE_WOOD_HAMMER
     move MOVE_TEARFUL_LOOK
     ability ABILITY_STURDY
     ball ITEM_POKE_BALL
@@ -1898,18 +1898,52 @@ party 866
 
     ivs 0
     abilityslot 0
-    level LEVEL_ELDER_LI+1
-    pokemon SPECIES_HOOTHOOT
-    item ITEM_ORAN_BERRY
-    move MOVE_ECHOED_VOICE
-    move MOVE_AIR_CUTTER
-    move MOVE_HIDDEN_POWER_PSYCHIC
-    move MOVE_HYPNOSIS
+    level 75
+    pokemon SPECIES_CHANDELURE
+    item ITEM_NONE
+    move MOVE_OVERHEAT
+    move MOVE_SHADOW_BALL
+    move MOVE_ENERGY_BALL
+    move MOVE_PSYCHIC
+    ability ABILITY_FLAME_BODY
+    ball ITEM_POKE_BALL
+    setivs 25, 25, 25, 25, 25, 25
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level 75
+    pokemon SPECIES_VICTREEBEL
+    item ITEM_NONE
+    move MOVE_LEAF_BLADE
+    move MOVE_GUNK_SHOT
+    move MOVE_LEECH_LIFE
+    move MOVE_KNOCK_OFF
+    ability ABILITY_CHLOROPHYLL
+    ball ITEM_POKE_BALL
+    setivs 25, 25, 25, 25, 25, 25
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level 75
+    pokemon SPECIES_NOCTOWL
+    item ITEM_SITRUS_BERRY
+    move MOVE_HYPER_VOICE
+    move MOVE_HURRICANE
+    move MOVE_MOONBLAST
+    move MOVE_PSYCHIC
     ability ABILITY_TINTED_LENS
     ball ITEM_POKE_BALL
     setivs 25, 25, 25, 25, 25, 25
     setevs 0, 0, 0, 0, 0, 0
-    nature NATURE_TIMID
+    nature NATURE_SERIOUS
     shinylock 0
     ballseal 0
 endparty
@@ -25655,7 +25689,7 @@ endparty
 trainerdata 867, "Wye"
     trainermontype TRAINER_MON_TYPE_FLAGS
     trainerclass CLASS_ELDER
-    nummons 4
+    nummons 6
     item 0
     item 0 
     item 0 
@@ -25667,14 +25701,14 @@ trainerdata 867, "Wye"
 party 867
     ivs 0
     abilityslot 0
-    level LEVEL_ELDER_LI
-    pokemon SPECIES_BELLSPROUT
+    level 75
+    pokemon SPECIES_DRAGALGE
     item ITEM_NONE
-    move MOVE_RAZOR_LEAF
-    move MOVE_ACID_SPRAY
-    move MOVE_HIDDEN_POWER_BUG
-    move MOVE_GROWTH
-    ability ABILITY_CHLOROPHYLL
+    move MOVE_SLUDGE_WAVE
+    move MOVE_DRACO_METEOR
+    move MOVE_HYDRO_PUMP
+    move MOVE_TOXIC
+    ability ABILITY_ADAPTABILITY
     ball ITEM_POKE_BALL
     setivs 25, 25, 25, 25, 25, 25
     setevs 0, 0, 0, 0, 0, 0
@@ -25684,13 +25718,13 @@ party 867
 
     ivs 0
     abilityslot 0
-    level LEVEL_ELDER_LI
-    pokemon SPECIES_CHINGLING
+    level 75
+    pokemon SPECIES_FLYGON
     item ITEM_NONE
-    move MOVE_CONFUSION
-    move MOVE_ECHOED_VOICE
-    move MOVE_HIDDEN_POWER_GHOST
-    move MOVE_DISABLE
+    move MOVE_OUTRAGE
+    move MOVE_EARTHQUAKE
+    move MOVE_ROCK_SLIDE
+    move MOVE_DRAGON_DANCE
     ability ABILITY_LEVITATE
     ball ITEM_POKE_BALL
     setivs 25, 25, 25, 25, 25, 25
@@ -25701,14 +25735,14 @@ party 867
 
     ivs 0
     abilityslot 0
-    level LEVEL_ELDER_LI
-    pokemon SPECIES_BONSLY
+    level 75
+    pokemon SPECIES_TYRANTRUM
     item ITEM_NONE
-    move MOVE_ROCK_THROW
-    move MOVE_LOW_KICK
-    move MOVE_HIDDEN_POWER_GRASS
-    move MOVE_TEARFUL_LOOK
-    ability ABILITY_STURDY
+    move MOVE_HEAD_SMASH
+    move MOVE_DRAGON_CLAW
+    move MOVE_EARTHQUAKE
+    move MOVE_CRUNCH
+    ability ABILITY_ROCK_HEAD
     ball ITEM_POKE_BALL
     setivs 25, 25, 25, 25, 25, 25
     setevs 0, 0, 0, 0, 0, 0
@@ -25718,18 +25752,52 @@ party 867
 
     ivs 0
     abilityslot 0
-    level LEVEL_ELDER_LI+1
-    pokemon SPECIES_HOOTHOOT
-    item ITEM_ORAN_BERRY
-    move MOVE_ECHOED_VOICE
-    move MOVE_AIR_CUTTER
-    move MOVE_HIDDEN_POWER_PSYCHIC
-    move MOVE_HYPNOSIS
-    ability ABILITY_TINTED_LENS
+    level 75
+    pokemon SPECIES_HAXORUS
+    item ITEM_NONE
+    move MOVE_DRAGON_CLAW
+    move MOVE_LOW_KICK
+    move MOVE_IRON_HEAD
+    move MOVE_PSYCHO_CUT
+    ability ABILITY_MOLD_BREAKER
     ball ITEM_POKE_BALL
     setivs 25, 25, 25, 25, 25, 25
     setevs 0, 0, 0, 0, 0, 0
-    nature NATURE_TIMID
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level 75
+    pokemon SPECIES_KINGDRA
+    item ITEM_NONE
+    move MOVE_SCALD
+    move MOVE_DRACO_METEOR
+    move MOVE_FLASH_CANNON
+    move MOVE_ICE_BEAM
+    ability ABILITY_SNIPER
+    ball ITEM_POKE_BALL
+    setivs 25, 25, 25, 25, 25, 25
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level 75
+    pokemon SPECIES_DRAGONITE
+    item ITEM_SITRUS_BERRY
+    move MOVE_DRACO_METEOR
+    move MOVE_HURRICANE
+    move MOVE_THUNDERBOLT
+    move MOVE_FLAMETHROWER
+    ability ABILITY_MULTISCALE
+    ball ITEM_POKE_BALL
+    setivs 25, 25, 25, 25, 25, 25
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
     shinylock 0
     ballseal 0
 endparty

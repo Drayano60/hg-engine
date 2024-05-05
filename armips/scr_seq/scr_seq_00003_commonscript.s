@@ -1782,14 +1782,15 @@ scr_seq_0003_073:
     call_if_set FLAG_SYS_FLYPOINT_POKEATHLON, _PokeathlonOpt
     call_if_set FLAG_SYS_FLYPOINT_SAFARI, _SafariOpt
     call_if_set FLAG_SYS_FLYPOINT_SAFFRON, _SaffronOpt
+    call_if_set 2252, _SinjohRuinsOpt
     call_if_set FLAG_SYS_FLYPOINT_VERMILION, _VermilionOpt
     call_if_set FLAG_SYS_FLYPOINT_VICTORY_ROAD, _VictoryRoadOpt
     call_if_set FLAG_SYS_FLYPOINT_VIOLET, _VioletOpt
     call_if_set FLAG_SYS_FLYPOINT_VIRIDIAN, _ViridianOpt
-    AddListOption 253, 255, 27
+    AddListOption 253, 255, 28
     ShowList
     closemsg
-    compare VAR_SPECIAL_RESULT, 27
+    compare VAR_SPECIAL_RESULT, 28
     call_if_lt _WarpPlayer
     releaseall
     end
@@ -1902,6 +1903,10 @@ _ViridianOpt:
     AddListOption 252, 255, 26
     Return
 
+_SinjohRuinsOpt:
+    AddListOption 222, 255, 27
+    Return
+
 _WarpPlayer:
     fade_screen 6, 1, 0, RGB_BLACK
     wait_fade
@@ -1933,6 +1938,7 @@ _WarpPlayer:
     case 24, _VictoryRoadWarp
     case 25, _VioletWarp
     case 26, _ViridianWarp
+    case 27, _SinjohRuinsWarp
     goto _EndWarp
 
 _AzaleaWarp:
@@ -2041,6 +2047,10 @@ _VioletWarp:
 
 _ViridianWarp:
     Warp 50, 0, 1032, 263, 1
+    goto _EndWarp
+
+_SinjohRuinsWarp:
+    Warp 521, 0, 13, 11, 1
     goto _EndWarp
 
 _EndWarp:

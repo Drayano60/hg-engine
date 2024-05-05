@@ -44,6 +44,7 @@ Route 30 - Mr. Pokémon's House
 ✓ This map now has its own header name for Nuzlocke purposes. ("Mr. Pokémon's House")
 ✓ The Pokégear call you receive after leaving Mr. Pokémon's House has slightly edited dialogue, and gives you a prompt to teleport back to New Bark Town immediately (placing the player right outside Elm's Lab).
 ✓ The National Dex is activated immediately.
+✓ Mr. Pokémon now gives you both the Blue Orb and the Red Orb.
 
 Elm Pokémon Lab 2
 ✓ Elm's dialogue is modified slightly to reflect Mr. Pokémon giving you an Eevee. Elm also gives you 30 x Poké Balls, and the Box Link (which also sets the flag to enable the portable PC).
@@ -83,6 +84,8 @@ Violet City
 ✓ Added a new NPC in the house with the trade that gives you a Soothe Bell.
 ✓ The Teleport Gem is disabled when the Togepi egg is received until after the Kimono Girl talk.
 - Added an NPC and an Eevee in the Pokémon Center who asks you what she should evolve her Eevee into. Picking a specific Eeveelution will make the Mystery Stone always evolve Eevee into the chosen one. Then removed it later.
+✓ After doing the prerequisite event at Sinjoh Ruins, a trigger is activated in front of the Trainers' School which leads to a Uxie encounter. This trigger will keep working until Uxie is caught. It appears at Level 70.
+✓ Uxie drops the Mind Plate when caught.
 
 Sprout Tower
 ✓ The tile permissions have been changed so battles now display an indoor floor instead of a cave.
@@ -94,6 +97,7 @@ Sprout Tower
 ✓ Added a Hoothoot next to the Elder with a mild Vietnamese Crystal reference (wild hehe jump out).
 ✓ The Elder now awards you TM10, Hidden Power. One of the top floor monk's dialogues has been modified to reflect this too.
 ✓ 3F: Escape Rope -> Potion.
+✓ After becoming Champion, Elder Li will challenge you to a rematch when spoken to. Defeating him will earn you the Meadow Plate.
 
 Violet City - Gym
 ✓ Added two new Trainers using Mickey (63, 87). Set flags for these after beating Falkner.
@@ -120,6 +124,12 @@ Ruins of Alph
 ✓ Added a Ruin Maniac Trainer using a Mickey (105).
 ✓ Heal Powder -> TM16, Energy Root -> TM33 behind LIGHT door.
 ✓ Oran/Pecha Berry -> Energy Root/Revival Herb behind ESCAPE door.
+✓ Following hearing the hints from the Hiker in Pewter Museum, the Regis are available here. They appear at Level 70 (except for Regigigas who is Level 80).
+✓✓ Regirock can be found by standing between the items in the ESCAPE room, while having a Pokémon with Sandstorm in the first slot of your party.
+✓✓ After catching Regirock, Regice can be found by standing between the items in the WATER room, while having a Pokémon with Sheer Cold in the second slot of your party.
+✓✓ After catching Regice, Registeel can be found by standing between the items in the LIGHT room, while having a Pokémon with Metal Sound in the third slot of your party.
+✓✓ After catching Registeel, Regigigas can be found by standing between the items in the HO-OH room, while having Regirock, Regice and Registeel in your party. Catching Regigigas gives you the Blank Plate.
+✓✓ The battle background is changed in the above four rooms to match the usual cave one.
 
 Ruins Research Center
 ✓ This is the building inside the Ruins of Alph, which now has its own header name.
@@ -128,6 +138,7 @@ Ruins Research Center
 ✓ Added a Ruin Maniac NPC who will give you any of the fossils or the Black Augurite/Peat Block in exchange for a Rare Bone (which can be found at a low rate by smashing rocks in the Ruins of Alph).
 ✓✓ The Gen 5-6 fossils require 3 Badges, Aerodactyl requires 7 Badges. The Black Augurite and Peat Block require you to receive them from their original source first.
 ✓ Cynthia shows up here after you meet her in Route 34. She'll give you an Odd Keystone when first spoken to.
+✓ If Cynthia is spoken to after having become Champion, she'll offer to transport you to the Sinjoh Ruins. If accepted, the player will be warped there. Following this, Cynthia disappears from the Ruins Research Center.
 
 Route 46
 ✓ Added a Rare Candy just above the ledge, accessible from Dark Cave.
@@ -206,7 +217,7 @@ Ilex Forest
 ✓ After accepting Pichu, the NPC also gives you a Light Ball before leaving.
 ✓ Added an NPC to give a slight nod to the infamous Ilex Forest scene in SG/SS, and also awarding TM86 Grass Knot.
 ✓ After speaking to Kurt outside his house in Azalea Town, you can pop the GS Ball into the shrine and Celebi will appear. Kurt also shows up after this to thank you and gives you a Master Ball.
-✓ The Celebi can then be encountered and will respawn upon entering the area until caught. It appears at Level 50.
+✓ The Celebi can then be encountered and will respawn upon entering the area until caught. It appears at Level 60.
 
 Route 34
 ✓ Cynthia appears and talks to you in the gatehouse, then leaves. This makes her appear at the research center in the Ruins of Alph.
@@ -249,6 +260,8 @@ Goldenrod City
 ✓ Modified the trade in the Department Store to be a Hawlucha in exchange for any Psychic-type.
 ✓ Repointed Dept Store 3F shop to #29 (Mahogany shop) which now has the X items, as the original shop is repurposed.
 ✓ Changed Dept Store 2F shop to #23 which now sells the healing items (albeit a reduced selection), as the original shop is repurposed.
+✓ After earning the Earth Badge, you can talk to Floria in the Flower Shop to get told about Shaymin. This enables the Shaymin encounter in the National Park.
+✓ If you then speak to Floria with the Shaymin leading your party, you'll receive the Gracidea.
 
 Goldenrod Tunnel
 ✓ The four shopping NPCs now show up every day of the week (but disappear during the Rocket takeover).
@@ -275,6 +288,7 @@ National Park
 ✓ Shiny Stone -> TM53 Energy Ball.
 ✓ Erika shows up here after defeating Team Rocket at the Safari Zone. She gives you TM19 Giga Drain.
 ✓ When entering the Bug-Catching Contest, the portable PC/fast travel is disabled. It's re-enabled after leaving (checked manual retire, no balls yet and leaving on foot).
+✓ After earning the Earth Badge and talking to Floria, Shaymin can be encountered here on the Rock Climbable ledge at Level 60. It'll respawn upon entering the area until caught.
 
 Pokéathlon Dome
 ✓ Whitney is now visibly at the counter. Talk to her to 'get' a jersey, then she'll return to and unlock Goldenrod Gym.
@@ -410,7 +424,9 @@ Route 40
 ✓ Misty shows up here after defeating Team Rocket at the Safari Zone. She gives you TM55 Scald.
 
 Route 41
-✓ No changes here.
+✓ Moved Swimmer Berke as he's near the center of the route by default.
+✓ There's a 4x4 grid in the exact center of the route. Under normal circumstances, if this is passed through, a Phione will be encountered at Level 30. This only happens once each time Route 41 is visited.
+✓✓ If the grid is passed through while the player has a Mantyke, Buizel and Overqwil in their party, they instead get a prompt about an Egg which they can pick up (but can also refuse and come back later). This Egg hatches into Manaphy.
 
 Cianwood City
 ✓ Added a Rocket Grunt in front of the Safari Zone sign for some foreshadowing.
@@ -420,6 +436,8 @@ Cianwood City
 ✓ No change to the Shuckle gift as I don't know where the data is stored for it.
 ✓ Added an NPC in the Pokémon Center who gives you a Linking Cord.
 ✓ Added a trade in the Pokémon Center for a Jynx in exchange for any Water-type.
+✓ Added a book in the house at the top-left that details 'The Sea's Fable', a slight spin-off of 'The Sea's Legend' that details how to get Manaphy.
+✓ The middle-aged woman in the top-left house has been replaced with an old woman. If spoken to while Manaphy leads your party, you'll get the Splash Plate.
 
 Cianwood City - Gym
 ✓ The winch now can't be turned immediately, a button needs to be pressed on the opposite side first.
@@ -436,6 +454,7 @@ Cliff Edge Gate
 ✓ After beating Chuck, the gate lady is temporarily removed and two Rocket grunts are added.
 ✓ A battle with Ethan/Lyra takes place here after defeating Chuck. After the battle, you'll receive a Lucky Egg and see a small event with a Rocket.
 ✓ Added an item ball with the Heavy-Duty Boots that requires Rock Climb.
+✓ Chuck's dialogue after the Embedded Tower is activated is modified slightly as Rock Climb no longer requires the Kanto badges.
 
 Cliff Cave
 ✓ Added an event leading to a double battle with Petrel and Proton with Ethan/Lyra as a partner when you enter. Following this battle, you receive TM36, Sludge Bomb.
@@ -453,6 +472,13 @@ Route 47
 ✓ Wave Incense -> Smooth Rock.
 ✓ White Flute -> Metal Powder. Added a Quick Powder item ball next to it.
 ✓ Revive -> Sticky Barb.
+✓ The Embedded Tower warp point is now handled a bit differently. By default it points to Kyogre's. After catching Kyogre, var 0x40F9 is set to 11 and it'll link to Groudon's. After catching Groudon, 0x40F9 returns to 4 and it then links to Rayquaza's room from then on.
+
+Embedded Tower
+✓ Kyogre now appears at Level 80. It will respawn upon entering the area until caught. After catching it, a variable is set allowing the Groudon room to be accessed.
+✓ Groudon now appears at Level 80. It will respawn upon entering the area until caught. After catching it, a variable is set allowing the Rayquaza room to be accessed.
+✓ Rayquaza now appears at Level 80. It will respawn upon entering the area until caught. However, it will only appear if the player actually has the Jade Orb in their bag.
+✓ The scripts are edited to remove the version checks, and Groudon now has a different flag marking its encounter instead of sharing one with Kyogre.
 
 Route 48
 ✓ Added a mini event as you cross the bridge with six Rocket Grunts - a reference to the Hexagon Brothers from XD. This is a 6v6 double battle. If the player does not have at least two Pokémon, they'll be turned away.
@@ -593,6 +619,7 @@ Dragon's Den
 ✓ The call from Elm that occurs after leaving Dragon's Den now mentions Mega Evolution.
 ✓ Clair now awards you 4 Poké Credits after you earn the Rising Badge and mentions that you can teach moves at the Pokémon Center.
 ✓ The Teleport Gem is disabled after finishing the quiz until you leave and take Elm's call outside.
+✓ After becoming Champion, the Elder will challenge you to a battle when spoken to. Defeating him will earn you the Draco Plate.
 
 New Bark Town - Post Gym 8
 ✓ Instead of the Master Ball, Elm now gives you (and Ethan/Lyra) the Key Stone and an Ampharosite, and some explanations of doing so.
@@ -643,6 +670,8 @@ Route 26
 ✓ Added a healing NPC to one of the counters before Victory Road.
 ✓ Max Elixir -> Leader's Crest.
 ✓ Changed Ace Trainer Gaven's post-battle dialogue to reflect Victory Road actually having Trainers now.
+✓ After doing the prerequisite event at Sinjoh Ruins, a trigger is activated slightly in front of the Victory Road gate which leads to an Azelf encounter. This trigger will keep working until Azelf is caught. It appears at Level 70.
+✓ Azelf drops the Fist Plate when caught.
 
 Victory Road
 ✓ TM79 -> TM64 Explosion. TM26 -> PP Max. Max Revive -> TM50 Overheat. Full Restore -> TM71 Stone Edge.
@@ -672,13 +701,33 @@ S.S. Aqua
 ✓ Prior to boarding (in the harbour building), Looker replaces Oak and says some dialogue referencing that Team Rocket are still out and about.
 ✓ On the initial voyage, there's now a Sailor in front of the Captain's room that needs to be fought before you can enter.
 ✓ The Teleport Gem is disabled when entering the S.S. Aqua. It gets re-enabled after exiting to either the Vermilion or Olivine ports.
-✓ The grandfather of the girl you play with now gives you the Silver Wing instead of a Metal Coat, meaning Lugia can then be caught.
+✓ The grandfather of the girl you play with now gives you the Silver Wing instead of a Metal Coat, meaning Lugia can then be caught. This also clears the flag for the Darkrai event.
+✓ Following the initial voyage, any subsequent voyages will result in the player having a 'nightmare' the first time they sleep in the bed (also resulting in the ship arriving at its destination). In this case, the player's Pokémon are not healed.
+✓✓ If the player activates this while having the Lunar Feather in their inventory, the scene takes an alternate route, healing the player's Pokémon, and leading to an encounter with a Lv. 70 Darkrai.
+✓✓ The above will continue to happen each voyage until Darkrai is caught, after which the bed will just heal the player as it normally does.
+✓✓ Darkrai drops the Dread Plate when caught.
+
+Pewter City
+✓ There's a new Hiker in the Pewter Museum who mentions clues he found in the Ruins of Alph. This enables the Regi events.
+✓ The old man who normally gives you the Silver Wing has been replaced with an old woman who tells you a bit about Cresselia. This unlocks the Cresselia encounter on Route 12.
+✓ The Stone Plate is found near the Museum.
 
 Pewter City - Gym
 ✓ Added two new Trainers using Mickeys (508, 511).
 ✓ Rearranged the trainer layout a bit.
 ✓ Changed Brock's dialogue depending on if you met him in Union Cave previously. He also gives TM80 Rock Slide here only if you don't already have it.
 ✓ Brock also gives you 4 Poké Credits.
+
+Route 3
+✓ A trigger script has been added between the four meteorites. Ordinarily, it'll just state a message saying a meteor passed.
+✓ If you activate it while Rayquaza is following you (i.e. lead of party, is alive, and not on the bike), it extends into a mini event that results in a battle with a Level 80 Deoxys.
+✓ The above can keep happening until Deoxys is caught.
+
+Mt. Moon
+✓ The Silver battle no longer happens.
+✓ The battle background is changed to the dark cave one (matching the upper floor).
+✓ When initially viewing the Clefairy event on Monday 8pm - Tuesday 4am, instead of a Moon Stone dropping, a Jirachi will appear. It is encountered at Level 60.
+✓ If Jirachi is defeated or run from, it will appear again the next time the Clefairy event happens. If caught, subsequent Clefairy dances instead drop the Moon Stone as normal.
 
 Cerulean City - Gym
 ✓ The NPCs are no longer missing from this Gym, meaning you can take it on immediately.
@@ -687,10 +736,16 @@ Cerulean City - Gym
 ✓ Changed Misty's dialogue depending on if you met her previously. She also gives TM55 Scald here only if you don't already have it.
 ✓ Misty also gives you 4 Poké Credits.
 
+Vermilion City
+✓ Steven now appears and talks to you after leaving the Gym after Lt. Surge is beaten. Latias and Latios will start roaming Kanto after this event. They are both Level 70.
+
 Vermilion City - Gym
 ✓ Moved the Trainers a bit.
 ✓ Changed Surge's dialogue depending on if you met him previously. He also gives TM24 Thunderbolt here only if you don't already have it.
 ✓ Surge also gives you 4 Poké Credits.
+
+Digett's Cave
+✓ The Earth Plate is found on one of the upper ledges.
 
 Power Plant
 ✓ As the required flags are set, it now always uses the primary map for the Power Plant.
@@ -706,6 +761,7 @@ Celadon City
 ✓ Changed Dept Store 5F shop to #29 (Mahogany shop) which now has the X items. The right shop is now #6 as the original #23 is repurposed.
 ✓ Reversed the old man's dialogue outside the Gym to be the FR/LG version.
 ✓ Eusine is in the Pokémon Center. If spoken to after catching Raikou, Entei and Suicune, he'll leave, activating another event at the Bell Tower.
+✓ The old man across the pond gives the Toxic Plate when spoken to.
 
 Celadon City - Gym
 ✓ Changed the position of some of the Trainers.
@@ -716,8 +772,20 @@ Route 11
 ✓ The Snorlax in front of Diglett's Cave no longer appears.
 ✓ Swapped the positions of Youngster Owen and Psychic Fidel so you see the lower leveled mon first.
 
+Rock Tunnel
+✓ The darkness is now the reduced version that doesn't need Flash.
+
+Lavender Town
+✓ After doing the prerequisite event at Sinjoh Ruins, a trigger is activated in front of the House of Memories which leads to a Mesprit encounter. This trigger will keep working until Mesprit is caught. It appears at Level 70.
+✓ Moved the old man next to the House of Memories so he's not too close to Mesprit when it appears.
+✓ Mesprit drops the Flame Plate when caught.
+✓ Speaking to Mr. Fuji when Mew is following will result in being given the Spooky Plate.
+
 Route 12
 ✓ The Snorlax that would normally appear only if the original Snorlax is KOed now always appears here. It still requires the EXPN Card to get the Poké Flute to wake it.
+✓ Fisherman Stephen was moved to put him out of the way of the Cresselia encounter. Young Couple Vic & Tara are moved for the same reason.
+✓ After talking to the old woman in Pewter City, Cresselia will appear at the end of one of the bridges near the Route 11 exit at any time between 8pm and 3.59am. It'll respawn when entering the route at these times until caught.
+✓ Once caught, the player will receive the Lunar Feather, which can then be used in the Darkrai event.
 
 Route 13
 ✓ Changed Pokéfan Alex to look up/left so he isn't compulsory.
@@ -726,6 +794,9 @@ Fuchsia City - Gym
 ✓ Swapped Janine's position with another Trainer.
 ✓ Janine gives TM06 Toxic here only if you don't already have it.
 ✓ Janine also gives you 4 Poké Credits.
+
+Saffron City
+✓ Steven now appears in Silph Co. immediately after encountering him in Vermilion (the Red restriction is removed).
 
 Saffron City - Gym
 ✓ Changed Sabrina's dialogue depending on if you met her previously. She also gives TM04 Calm Mind here only if you don't already have it.
@@ -737,6 +808,11 @@ Route 19
 Route 20
 ✓ Changed Swimmer Leona to swim up and down so she isn't compulsory.
 ✓ Changed Camper Pedro to spin around so he isn't compulsory.
+
+Cinnabar Island
+✓ Added an item ball containing the Magma Stone on top of the volcano. When picked up, Heatran will appear on the volcano afterwards.
+✓ Heatran can be battled here. It is at Level 70. It will respawn upon entering the area until caught.
+✓ Heatran drops the Iron Plate when caught.
 
 Seafoam Islands
 ✓ 1F: Removed the hidden Escape Rope.
@@ -757,9 +833,11 @@ Pallet Town - Oak's Lab
 ✓ During this level script, Prof Oak gives you a Master Ball, and Blue gives you the Venusaurite, Charizardite X, Charizardite Y and Blastoisite.
 ✓ This level script also tells the player about Cerulean Cave and unblocks it. Talking to Oak here no longer unblocks Mt. Silver.
 ✓ A new female scientist has been added at the bottom left of the lab. Talking to her activates the Mew event in Viridian Forest.
+✓ Oak now gives you the Jade Orb if spoken to after catching Kyogre and Groudon - they don't need to be in your party. The dialogue has been modified a bit as a result.
 
 Viridian Forest
-✓ After talking to the scientist at Oak's lab, upon entering the area you will hear Mew's cry. You can then find it sitting in Viridian Forest, but it'll move locations three times, each time you talk to it. After the third time, it'll move to the tree in front of the bottom gate, at which point it'll battle you when you talk to it. It's at Lv. 70. The event will restart in its entirety when Viridian Forest is left and re-entered until Mew is caught.
+✓ After talking to the scientist at Oak's lab, upon entering the area you will hear Mew's cry. You can then find it sitting in Viridian Forest, but it'll move locations three times, each time you talk to it. After the third time, it'll move to the tree in front of the bottom gate, at which point it'll battle you when you talk to it. It's at Lv. 60. The event will restart in its entirety when Viridian Forest is left and re-entered until Mew is caught.
+✓ The Insect Plate is found inside an alcove near the Pewter exit.
 
 Cerulean Cave
 ✓ Upon entering, Looker (disguised as a Rocket Grunt) will call you over and after some dialogue, give you some Max Repels.
@@ -779,6 +857,13 @@ Mt. Silver Cave
 ✓ Lower Mountainside: Escape Rope -> Max Elixir.
 ✓ At the summit, you'll battle against Blue, Lance, Steven and Cynthia (in any order). Blue explains the rules to you once you enter the peak, and following that you can talk to the Champions to battle them.
 ✓ Following the fourth battle, you'll be told that there's another challenger - at which point you step to the end of the summit and fight Red as normal, with the credits rolling afterward.
+✓ The Sky Plate is found just in front of where Red stands.
+
+Sinjoh Ruins
+✓ When initially warped here, Cynthia has some dialogue and then goes into the Mystri Stage temple. You can speak to her again inside the temple, and after a bit more dialogue, Uxie, Mesprit and Azelf are released. Cynthia leaves the temple after this.
+✓ Returning to the center of the stage after catching Uxie/Mesprit/Azelf will result in the player being gifted the Red Chain, and a variable being set to make the stage light up. After this, the player can step on one of the patterns to summon either Dialga, Palkia or Giratina, who are encountered at Level 80. If they are run from or defeated, the pattern can be stepped on to call them again. The Pokémon also drop the Adamant Orb, Lustrous Orb and Griseous Orb respectively after they are caught.
+✓ After catching Dialga, Palkia and Giratina, going to the center of the stage will result in Arceus giving you a new mission to seek out the Plates. Cynthia appears immediately after this to give a bit more context, and gives the player the Pixie Plate.
+✓ The Icicle Plate is found near the lodge.
 
 Miscellaneous
 ✓ Scripts for overworld usage of HMs has been adjusted.

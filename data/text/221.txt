@@ -720,7 +720,7 @@ Red Nectar Description
 Yellow Nectar Description
 Pink Nectar Description
 Purple Nectar Description
-Blank Plate Description
+An item to be held by a Pokémon.\nIt is a stone tablet that boosts the\npower of Normal-type moves by 20%.
 Legend Plate Description
 Relic Copper Description
 Relic Silver Description

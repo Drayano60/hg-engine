@@ -169,6 +169,26 @@ NPCs:
 2242* - Regice.
 2243* - Registeel.
 2244* - Regigigas.
+2245* - Heatran @ Cinnabar Island.
+2246 - Magma Stone.
+2247* - Cresselia.
+2248* - Darkrai
+2249* - Shaymin
+2250 - Floria spoken to in the Flower Shop after 16 badges.
+2251 - Manaphy egg collected.
+2252 - Sinjoh Ruins visited + Cynthia outside Sinjoh Ruins.
+2253 - Cynthia by the Mystri Stage
+
+2254 - Icicle Plate @ Sinjoh Ruins
+2255 - Sky Plate @ Mt. Silver's Peak
+2256 - Earth Plate @ Diglett's Cave
+2257 - Stone Plate @ Pewter City
+2258 - Insect Plate @ Viridian Forest
+2259 - Toxic Plate @ Celadon City
+2260 - Meadow Plate @ Sprout Tower.
+2261 - Draco Plate @ Dragon's Den.
+2262 - Splash Plate @ Cianwood City.
+2263 - Spooky Plate @ Lavender Town.
 
 2230 - Heart Scale on Route 47 [UNUSED]
 2231 - Heart Scale on Route 40 [UNUSED]
@@ -217,6 +237,14 @@ NPCs:
 2633* - Moltres @ Victory Road
 2634 - Mew @ Viridian Forest
 
+2635 - Groudon @ Embedded Tower check (had to be introduced due to Kyogre checking 395 too) 
+2636 - Jirachi @ Mt. Moon
+
+2637* - Dialga
+2638* - Palkia
+2639* - Giratina
+2640* - Arceus
+
 373 - This is the flag in the base game to signal Suicune has been caught. This is set during the Bell Tower event if Suicune is caught.
 
 Triggers:
@@ -252,10 +280,21 @@ Triggers:
 
 16722 (0-4) - This variable is used for the NPC in the Route 36-Ruins of Alph gatehouse. Doesn't seem to have any scripts using it but can't guarantee it's unused...
 16723 (0-2) - This variable is used for the Rotom event in Goldenrod. Same sort of thing as above...
-16724 (0-1) - This is used for Cynthia. Same again as above
+16724 (0-7) - This is used for Cynthia. Same again as above (0 = unspoken, 1 = inbetween dialogue/offer to sinjoh ruins, 2 = have heard sinjoh ruins offer, 3 = have been to sinjoh ruins, 4 = have released lake trio, 5 = have red chain, 6 = dialga/palkia/giratina caught + told about plates, 7 = told to seek out all pokemon)
 16725 (0-1) - Used for Spiky Pichu in Ilex Forest. Same again as above
 16726 (0-2) - Used for Violet Gym guide. Same again as above...
 
+16737 (0-3) - Dialga trigger
+16738 (0-3) - Palkia trigger
+16739 (0-3) - Giratina trigger
+
+16740 (0-2) - Uxie trigger
+16741 (0-2) - Mesprit trigger
+16742 (0-2) - Azelf trigger
+
+16743 (0x4167) - Used by me for the Phione/Manaphy trigger script.
+16744 (0x4168) - Used by me for the Deoxys event.
+16745 (0x4169) (0-9) - Used by me for the Regi event.
 16746 (0x416A) - Used by me for the Ho-oh event.
 16747 (0-2) (0x416B) - Used by me for the Mew event.
 16748 (0x416C) - Used by me for the Stellar Stone check.

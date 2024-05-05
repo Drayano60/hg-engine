@@ -3762,6 +3762,12 @@ _Trainer864:
 _Trainer865:
     trainertextentry 865, TEXT_DEFEATED_IN_BATTLE, "Too strong! Why?"  
 
+_Trainer866:
+    trainertextentry 866, TEXT_DEFEATED_IN_BATTLE, "Ah, excellent!\n"
+
+_Trainer867:
+    trainertextentry 867, TEXT_DEFEATED_IN_BATTLE, "Ah, excellent!\n"
+
 .close
 
 
@@ -4634,5 +4640,7 @@ _Trainer865:
 /* Trainer 863 */ .halfword _Trainer863
 /* Trainer 864 */ .halfword _Trainer864
 /* Trainer 865 */ .halfword _Trainer865
+/* Trainer 866 */ .halfword _Trainer866
+/* Trainer 867 */ .halfword _Trainer867
 
 .close

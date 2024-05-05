@@ -16,10 +16,10 @@
 
 // Latias
 .org 0x0206772C
-.byte 35 // Normally 35
+.byte 70 // Normally 35
 
 // Latios
 .org 0x02067732
-.byte 35 // Normally 35
+.byte 70 // Normally 35
 
 .close

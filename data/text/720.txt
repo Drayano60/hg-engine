@@ -227,3 +227,7 @@ Time’s Gift
 Totter Steps
 Toxic Scales
 Wind Whipper
+Elec. Surge
+Psy. Surge
+Misty Surge
+Grassy Surge

@@ -227,3 +227,7 @@ Increases the boost from\na held Light Ball by 50%.
 The Pokémon’s evasion is\nboosted by 20%.
 Contact has a 30% chance\nof badly poisoning the foe.
 Powers up wind-based\nmoves by 50%.
+Summons Electric Terrain\nfor 5 turns upon entry.
+Summons Psychic Terrain\nfor 5 turns upon entry.
+Summons Misty Terrain\nfor 5 turns upon entry.
+Summons Grassy Terrain\nfor 5 turns upon entry.

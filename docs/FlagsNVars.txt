@@ -190,6 +190,8 @@ NPCs:
 2262 - Splash Plate @ Cianwood City.
 2263 - Spooky Plate @ Lavender Town.
 
+2264* - Cresselia is caught flag (set until old woman spoken to)
+
 2230 - Heart Scale on Route 47 [UNUSED]
 2231 - Heart Scale on Route 40 [UNUSED]
 2232 - Heart Scale on Union Cave B2F [Unused? Seems like I never used it in the first place]

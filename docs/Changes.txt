@@ -709,7 +709,7 @@ S.S. Aqua
 
 Pewter City
 ✓ There's a new Hiker in the Pewter Museum who mentions clues he found in the Ruins of Alph. This enables the Regi events.
-✓ The old man who normally gives you the Silver Wing has been replaced with an old woman who tells you a bit about Cresselia. This unlocks the Cresselia encounter on Route 12.
+✓ The old man who normally gives you the Silver Wing has been replaced with an old woman who tells you a bit about Cresselia. This unlocks the Cresselia encounter on Route 12 by clearing one of the two flags.
 ✓ The Stone Plate is found near the Museum.
 
 Pewter City - Gym
@@ -785,7 +785,8 @@ Route 12
 ✓ The Snorlax that would normally appear only if the original Snorlax is KOed now always appears here. It still requires the EXPN Card to get the Poké Flute to wake it.
 ✓ Fisherman Stephen was moved to put him out of the way of the Cresselia encounter. Young Couple Vic & Tara are moved for the same reason.
 ✓ After talking to the old woman in Pewter City, Cresselia will appear at the end of one of the bridges near the Route 11 exit at any time between 8pm and 3.59am. It'll respawn when entering the route at these times until caught.
-✓ Once caught, the player will receive the Lunar Feather, which can then be used in the Darkrai event.
+✓✓ This is done by clearing Cress's flag at those times, and setting it at the other times, only if the old woman was spoken to first and Cresselia hasn't already been caught.
+✓ Once Cresselia is caught, the player will receive the Lunar Feather, which can then be used in the Darkrai event.
 
 Route 13
 ✓ Changed Pokéfan Alex to look up/left so he isn't compulsory.

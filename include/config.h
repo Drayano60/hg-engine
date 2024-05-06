@@ -84,7 +84,7 @@
 //#define DISABLE_END_OF_TURN_WEATHER_MESSAGE
 
 // Def to remove bits I don't need to save memory
-// #define SAVE_SPACE
+#define SAVE_SPACE
 
 // EXPAND_PC_BOXES will expand the amount of pc boxes if enabled to 30
 // comment out the line below to keep the max at 18

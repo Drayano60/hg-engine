@@ -49,7 +49,7 @@ BOOL ModifyPokemon(SCRIPTCONTEXT *ctx) {
     u16 property = ScriptGetVar(ctx);
 
     struct Party *party = SaveData_GetPlayerPartyPtr(fsys->savedata);
-    struct PartyPokemon *pp = PokeParty_GetMemberPointer(party, partySlot);
+    struct PartyPokemon *pp = Party_GetMonByIndex(party, partySlot);
     struct BoxPokemon *boxmon = &pp->box;
 
     int mons_no = GetBoxMonData(boxmon, MON_DATA_SPECIES, NULL);

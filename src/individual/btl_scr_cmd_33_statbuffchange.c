@@ -41,8 +41,15 @@ BOOL btl_scr_cmd_33_statbuffchange(void *bw, struct BattleStruct *sp)
 
     sp->server_status_flag &= ~(SERVER_STATUS_FLAG_STAT_CHANGE_NEGATIVE);
 
-        //2 steps down
-    if (sp->addeffect_param >= ADD_STATE_ATTACK_DOWN_2)
+    // 3 steps up -- new
+    if (sp->addeffect_param >= ADD_STATE_ATTACK_UP_3)
+    {
+        stattochange = sp->addeffect_param - ADD_STATE_ATTACK_UP_3;
+        statchange = 3;
+        sp->temp_work = STATUS_EFF_UP;
+    }
+    // 2 steps down
+    else if (sp->addeffect_param >= ADD_STATE_ATTACK_DOWN_2)
     {
         stattochange = sp->addeffect_param - ADD_STATE_ATTACK_DOWN_2;
         statchange = -2;
@@ -70,8 +77,14 @@ BOOL btl_scr_cmd_33_statbuffchange(void *bw, struct BattleStruct *sp)
         sp->temp_work = STATUS_EFF_UP;
     }
 
-    if (battlemon->ability == ABILITY_CONTRARY)
-    {
+    // Simple outright doubles the stat boost at point of increase/decrease now,
+    // unless the stat change is inflicted by a Pokémon with Mold Breaker etc.
+    if (MoldBreakerAbilityCheck(sp, sp->attack_client, sp->state_client, ABILITY_SIMPLE) == TRUE) {
+        statchange = statchange * 2;
+    }
+
+    /* Contrary reserves all stat changes unless dealt by a Pokémon with Mold Breaker etc. */
+    if (MoldBreakerAbilityCheck(sp, sp->attack_client, sp->state_client, ABILITY_CONTRARY) == TRUE) {
         //statchange
         statchange = -statchange;
 
@@ -100,6 +113,8 @@ BOOL btl_scr_cmd_33_statbuffchange(void *bw, struct BattleStruct *sp)
     }
     else
     {
+        // This also ends up resetting to 0 if two stat changes happen (e.g. Tickle) before the move completes
+        // I've handled those cases separately in their sub_seqs for now
         sp->oneSelfFlag[sp->state_client].defiant_flag = 0;
     }
 
@@ -130,6 +145,10 @@ BOOL btl_scr_cmd_33_statbuffchange(void *bw, struct BattleStruct *sp)
         }
         else
         {
+            // Set flag that says the Pokémon raised a stat, used for Burning Jealousy and Alluring Voice.
+            // This flag automatically clears itself at the end of the whole turn.
+            sp->oneTurnFlag[sp->state_client].stats_raised_flag = 1;
+
             if (sp->addeffect_type == ADD_EFFECT_ABILITY)
             {
                 switch (statchange)
@@ -151,7 +170,19 @@ BOOL btl_scr_cmd_33_statbuffchange(void *bw, struct BattleStruct *sp)
             }
             else if (sp->addeffect_type == ADD_EFFECT_HELD_ITEM)
             {
-                sp->mp.msg_id = BATTLE_MSG_ITEM_RAISED_STAT;
+                switch (statchange)
+                {
+                case 1:
+                    sp->mp.msg_id = BATTLE_MSG_ITEM_RAISED_STAT;
+                    break;
+                case 2:
+                    sp->mp.msg_id = BATTLE_MSG_ITEM_SHARPLY_RAISED_STAT;
+                    break;
+                default:
+                    sp->mp.msg_id = BATTLE_MSG_STAT_RAISED_DRASTICALLY;
+                    break;
+                }
+
                 sp->mp.msg_tag = TAG_NICK_ITEM_STAT;
                 sp->mp.msg_para[0] = CreateNicknameTag(sp, sp->state_client);
                 sp->mp.msg_para[1] = sp->item_work;
@@ -246,7 +277,9 @@ BOOL btl_scr_cmd_33_statbuffchange(void *bw, struct BattleStruct *sp)
                 }
                 else if (((MoldBreakerAbilityCheck(sp, sp->attack_client, sp->state_client, ABILITY_KEEN_EYE) == TRUE)
                        && ((STAT_ATTACK + stattochange) == STAT_ACCURACY))
-                      || ((MoldBreakerAbilityCheck(sp, sp->attack_client, sp->state_client, ABILITY_HYPER_CUTTER) == TRUE)
+                       || ((MoldBreakerAbilityCheck(sp, sp->attack_client, sp->state_client, ABILITY_ILLUMINATE) == TRUE)
+                       && ((STAT_ATTACK + stattochange) == STAT_ACCURACY))
+                       || ((MoldBreakerAbilityCheck(sp, sp->attack_client, sp->state_client, ABILITY_HYPER_CUTTER) == TRUE)
                        && ((STAT_ATTACK + stattochange) == STAT_ATTACK))
                        || ((MoldBreakerAbilityCheck(sp, sp->attack_client, sp->state_client, ABILITY_BIG_PECKS) == TRUE)
                        && ((STAT_ATTACK + stattochange) == STAT_DEFENSE)))
@@ -291,8 +324,11 @@ BOOL btl_scr_cmd_33_statbuffchange(void *bw, struct BattleStruct *sp)
                         return FALSE;
                     }
                 }
-                else if ((MoldBreakerAbilityCheck(sp, sp->attack_client, sp->state_client, ABILITY_SHIELD_DUST) == TRUE)
-                      && (sp->addeffect_type == ADD_EFFECT_INDIRECT))
+                else if
+                (
+                    ((MoldBreakerAbilityCheck(sp, sp->attack_client, sp->state_client, ABILITY_SHIELD_DUST) == TRUE) || (sp->battlemon[sp->state_client].item == ITEM_COVERT_CLOAK))
+                    && (sp->addeffect_type == ADD_EFFECT_INDIRECT)
+                )
                 {
                     flag = 1;
                 }

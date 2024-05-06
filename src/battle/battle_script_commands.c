@@ -2,11 +2,12 @@
 #include "../../include/battle.h"
 #include "../../include/config.h"
 #include "../../include/debug.h"
-#include "../../include/pokemon.h"
+#include "../../include/overlay.h"
 #include "../../include/save.h"
 #include "../../include/constants/ability.h"
 #include "../../include/constants/battle_script_constants.h"
 #include "../../include/constants/battle_message_constants.h"
+#include "../../include/constants/file.h"
 #include "../../include/constants/hold_item_effects.h"
 #include "../../include/constants/item.h"
 #include "../../include/constants/move_effects.h"
@@ -651,7 +652,7 @@ int read_battle_script_param(struct BattleStruct *sp)
  *  @param kind ARC_* constant to load from, doesn't have to be 0 for move scripts or 1 for subscripts
  *  @param index number to load
  */
-void LoadBattleSubSeqScript(struct BattleStruct *sp, int kind, int index)
+void LONG_CALL LoadBattleSubSeqScript(struct BattleStruct *sp, int kind, int index)
 {
     sp->skill_arc_kind = kind;
     sp->skill_arc_index = index;
@@ -666,7 +667,7 @@ void LoadBattleSubSeqScript(struct BattleStruct *sp, int kind, int index)
  *  @param kind ARC_* constant to load from, doesn't have to be 0 for move scripts or 1 for subscripts
  *  @param index number to load
  */
-void PushAndLoadBattleScript(struct BattleStruct *sp, int kind, int index)
+void LONG_CALL PushAndLoadBattleScript(struct BattleStruct *sp, int kind, int index)
 {
     sp->push_skill_arc_kind[sp->push_count] = sp->skill_arc_kind;
     sp->push_skill_arc_index[sp->push_count] = sp->skill_arc_index;
@@ -686,7 +687,7 @@ void PushAndLoadBattleScript(struct BattleStruct *sp, int kind, int index)
  *  @param side BTL_PARAM_* const to resolve to BattleStruct field
  *  @return resolved battler
  */
-int GrabClientFromBattleScriptParam(void *bw, struct BattleStruct *sp, int side)
+s32 LONG_CALL GrabClientFromBattleScriptParam(void *bw, struct BattleStruct *sp, int side)
 {
     int client_no;
     u32 ally_bits = side & 0xE000;
@@ -927,7 +928,7 @@ u32 cmdAddress2 = 0;
  *  @param sp global battle structure
  *  @return TRUE if link queue is empty; FALSE otherwise
  */
-BOOL Link_QueueIsEmpty(struct BattleStruct *sp) {
+BOOL LONG_CALL Link_QueueIsEmpty(struct BattleStruct *sp) {
     int i;
     int battlerId;
     int j;
@@ -1595,13 +1596,8 @@ BOOL Task_DistributeExp_capture_experience(void *arg0, void *work, u32 get_clien
  */
 BOOL btl_scr_cmd_33_statbuffchange(void *bw, struct BattleStruct *sp)
 {
-    int address1;
-    int address2;
-    int address3;
-    int stattochange;
-    int statchange;
-    int flag;
-    struct BattlePokemon *battlemon = &sp->battlemon[sp->state_client];
+    u32 ovyId, offset;
+    BOOL (*internalFunc)(void *bw, struct BattleStruct *sp);
 
     IncrementBattleScriptPtr(sp, 1);
 
@@ -2681,7 +2677,7 @@ BOOL btl_scr_cmd_E7_ifmovepowergreaterthanzero(void *bw UNUSED, struct BattleStr
  *  @param client_no resolved battler
  *  @return `TRUE` if grounded, `FALSE` otherwise
  */
-BOOL IsClientGrounded(struct BattleStruct *sp, u32 client_no) {
+BOOL LONG_CALL IsClientGrounded(struct BattleStruct *sp, u32 client_no) {
     u8 holdeffect = HeldItemHoldEffectGet(sp, client_no);
 
     if ((sp->battlemon[client_no].ability != ABILITY_LEVITATE && holdeffect != HOLD_EFFECT_UNGROUND_DESTROYED_ON_HIT  // not holding Air Balloon

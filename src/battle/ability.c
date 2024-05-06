@@ -1,5 +1,6 @@
 #include "../../include/battle.h"
 #include "../../include/debug.h"
+#include "../../include/overlay.h"
 #include "../../include/pokemon.h"
 #include "../../include/types.h"
 #include "../../include/constants/ability.h"
@@ -35,7 +36,6 @@ void ServerDoPostMoveEffects(void *bw, struct BattleStruct *sp);
 
 
 
-extern const u8 StatBoostModifiers[][2];
 
 /* I've used the appeal field as extra move flags so these aren't needed
 const u16 SoundproofMoveList[] =
@@ -410,15 +410,16 @@ BOOL IntimidateCheckHelper(struct BattleStruct *sp, u32 client)
  */
 int SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
 {
-    // Sort clients because abilities may affect speed
-    DynamicSortClientExecutionOrder(bw, sp);
-    int i;
-    int scriptnum = 0;
-    int ret = SWITCH_IN_CHECK_LOOP;
-    int client_no = 0; // initialize
-    int client_set_max;
+    u32 ovyId, offset;
+    int ret;
+    BOOL (*internalFunc)(void *bw, struct BattleStruct *sp);
 
-    client_set_max = BattleWorkClientSetMaxGet(bw);
+    ovyId = OVERLAY_SWITCHINABILITYCHECK_SPECIFIC;
+    offset = 0x023C0400 | 1;
+    HandleLoadOverlay(ovyId, 2);
+    internalFunc = (int (*)(void *bw, struct BattleStruct *sp))(offset);
+    ret = internalFunc(bw, sp);
+    UnloadOverlayByID(ovyId);
 
     // 022531A8
     do
@@ -2060,10 +2061,10 @@ BOOL MoveHitAttackerAbilityCheck(void *bw, struct BattleStruct *sp, int *seq_no)
  *  @param seq_no battle subscript to run
  *  @return TRUE to load the battle subscript in *seq_no and run it; FALSE otherwise
  */
-BOOL MoveHitDefenderAbilityCheck(void *bw, struct BattleStruct *sp, int *seq_no)
+BOOL LONG_CALL MoveHitDefenderAbilityCheck(void *bw, struct BattleStruct *sp, int *seq_no)
 {
-    BOOL ret = FALSE;
-    u32 move_pos;
+    u32 ovyId, ret, offset;
+    BOOL (*internalFunc)(void *bw, struct BattleStruct *sp, int *seq_no);
 
     if (sp->defence_client == 0xFF) {
         return ret;
@@ -2645,7 +2646,7 @@ BOOL MoveHitDefenderAbilityCheck(void *bw, struct BattleStruct *sp, int *seq_no)
  *  @param ability ability to check for
  *  @return TRUE if the defender has the ability and it isn't canceled by mold breaker; FALSE otherwise
  */
-u32 MoldBreakerAbilityCheck(struct BattleStruct *sp, int attacker, int defender, int ability)
+u32 LONG_CALL MoldBreakerAbilityCheck(struct BattleStruct *sp, int attacker, int defender, int ability)
 {
     BOOL ret;
 
@@ -3046,7 +3047,7 @@ void ServerWazaOutAfterMessage(void *bw, struct BattleStruct *sp)
  *  @param sp global battle structure
  *  @return TRUE to signal that the battle subscript was loaded and to run it; FALSE otherwise
  */
-u32 ServerWazaKoyuuCheck(void *bw, struct BattleStruct *sp)
+u32 LONG_CALL ServerWazaKoyuuCheck(void *bw, struct BattleStruct *sp)
 {
     int i;
     int client_no;

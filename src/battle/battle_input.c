@@ -717,26 +717,22 @@ u16 TerrainPlatformPalettes[][3] =
     [TERRAIN_BRUNO] = {40, 41, 42},
     [TERRAIN_KAREN] = {43, 44, 45},
     [TERRAIN_LANCE] = {46, 47, 48},
-    [TERRAIN_DISTORTION_WORLD] = {50, 51, 52},
-    [TERRAIN_BATTLE_TOWER] = {53, 54, 55},
-    [TERRAIN_BATTLE_FACTORY] = {56, 57, 58},
-    [TERRAIN_BATTLE_ARCADE] = {59, 60, 61},
-    [TERRAIN_BATTLE_CASTLE] = {62, 63, 64},
-    [TERRAIN_BATTLE_HALL] = {65, 66, 67},
-    [TERRAIN_GIRATINA] = {68, 69, 4},
+    [TERRAIN_DISTORTION_WORLD] = {49, 50, 51},
+    [TERRAIN_BATTLE_TOWER] = {52, 53, 54},
+    [TERRAIN_BATTLE_FACTORY] = {55, 56, 57},
+    [TERRAIN_BATTLE_ARCADE] = {58, 59, 60},
+    [TERRAIN_BATTLE_CASTLE] = {61, 62, 63},
+    [TERRAIN_BATTLE_HALL] = {64, 65, 66},
+    [TERRAIN_GIRATINA] = {67, 68, 69},
     [TERRAIN_TRANSPARENT] = {358, 358, 358},
 };
 
 BattleBGStorage NewBattleBgTable[] =
 {
-    #ifdef SAVE_SPACE
-
     [BATTLE_BG_ELECTRIC_TERRAIN - NUM_VANILLA_BATTLE_BACKGROUNDS] = {.baseEntry = 354, .hasDayNightPals = FALSE, .hasPlatforms = FALSE},
     [BATTLE_BG_MISTY_TERRAIN - NUM_VANILLA_BATTLE_BACKGROUNDS] = {.baseEntry = 356, .hasDayNightPals = FALSE, .hasPlatforms = FALSE},
     [BATTLE_BG_GRASSY_TERRAIN - NUM_VANILLA_BATTLE_BACKGROUNDS] = {.baseEntry = 358, .hasDayNightPals = FALSE, .hasPlatforms = FALSE},
     [BATTLE_BG_PSYCHIC_TERRAIN - NUM_VANILLA_BATTLE_BACKGROUNDS] = {.baseEntry = 360, .hasDayNightPals = FALSE, .hasPlatforms = FALSE},
-
-    #endif
 };
 
 
@@ -749,8 +745,6 @@ BattleBGStorage NewBattleBgTable[] =
  */
 void LoadDifferentBattleBackground(struct BattleSystem *bw, u32 bg, u32 terrain)
 {
-    #ifdef SAVE_SPACE
-
     u32 palette;
     BOOL vanillaBg = TRUE;
     if (bg < NUM_VANILLA_BATTLE_BACKGROUNDS)
@@ -782,6 +776,4 @@ void LoadDifferentBattleBackground(struct BattleSystem *bw, u32 bg, u32 terrain)
     Ground_ActorResourceSet(&bw->ground[0], bw, 0, terrain); // new terrains are just repointed below
     Ground_ActorResourceSet(&bw->ground[1], bw, 1, terrain);
     BattleWorkGroundBGChg(bw);
-
-    #endif
 }

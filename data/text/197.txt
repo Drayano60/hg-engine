@@ -1656,3 +1656,15 @@ The opposing {STRVAR_1 1, 0, 0}\ntook the kind offer!
 {STRVAR_1 1, 0, 0}’s move\nwas postponed!
 The wild {STRVAR_1 1, 0, 0}’s move\nwas postponed!
 The opposing {STRVAR_1 1, 0, 0}’s move\nwas postponed!
+{STRVAR_1 1, 0, 0}’s Grassy Surge\nmade the battlefield Grassy Terrain!
+The wild {STRVAR_1 1, 0, 0}’s Grassy Surge\nmade the battlefield Grassy Terrain!
+The foe’s {STRVAR_1 1, 0, 0}’s Grassy Surge\nmade the battlefield Grassy Terrain!
+{STRVAR_1 1, 0, 0}’s Misty Surge\nmade the battlefield Misty Terrain!
+The wild {STRVAR_1 1, 0, 0}’s Misty Surge\nmade the battlefield Misty Terrain!
+The foe’s {STRVAR_1 1, 0, 0}’s Misty Surge\nmade the battlefield Misty Terrain!
+{STRVAR_1 1, 0, 0}’s Electric Surge\nmade the battlefield Electric Terrain!
+The wild {STRVAR_1 1, 0, 0}’s Electric Surge\nmade the battlefield Electric Terrain!
+The foe’s {STRVAR_1 1, 0, 0}’s Electric Surge\nmade the battlefield Electric Terrain!
+{STRVAR_1 1, 0, 0}’s Psychic Surge\nmade the battlefield Psychic Terrain!
+The wild {STRVAR_1 1, 0, 0}’s Psychic Surge\nmade the battlefield Psychic Terrain!
+The foe’s {STRVAR_1 1, 0, 0}’s Psychic Surge\nmade the battlefield Psychic Terrain!

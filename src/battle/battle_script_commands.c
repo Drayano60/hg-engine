@@ -2387,8 +2387,9 @@ BOOL btl_scr_cmd_EA_ifcontactmove(void *bw UNUSED, struct BattleStruct *sp) {
     
     #endif
 
-    // Repurposed for now for Scale Shot because of being so tight on space
-    if (sp->multi_hit_count > 1) {
+    // Had Scale Shot check here while low on space, haven't split into its own command yet
+    // Check if last of multi-hit or if target fainted (in which case multi hit got cut short). If so, get subscript to do the stat raise.
+    if (!(sp->multi_hit_count <= 1 || (sp->defence_client == sp->fainting_client))) {
         IncrementBattleScriptPtr(sp, address); 
     }
 

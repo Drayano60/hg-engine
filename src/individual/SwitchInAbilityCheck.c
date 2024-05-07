@@ -240,8 +240,8 @@ int SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
                     client_no = sp->turn_order[i];
                     if ((sp->battlemon[client_no].intimidate_flag == 0)
                         && (sp->battlemon[client_no].hp)
-                        && (GetBattlerAbility(sp, client_no) == ABILITY_INTIMIDATE)
-                        && (IntimidateCheckHelper(sp, client_no)))
+                        // && (IntimidateCheckHelper(sp, client_no))
+                        && (GetBattlerAbility(sp, client_no) == ABILITY_INTIMIDATE))
                     {
                         sp->battlemon[client_no].intimidate_flag = 1;
                         sp->client_work = client_no;

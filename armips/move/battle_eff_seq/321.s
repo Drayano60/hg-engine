@@ -10,9 +10,10 @@
 .create "build/move/battle_eff_seq/0_321", 0
 
 // Rage Fist
+// Calculation moved to CalcBaseDamage
 
 a030_321:
-    ragefistdamagecalc
+    // ragefistdamagecalc
     gotosubscript 443
     endscript
 

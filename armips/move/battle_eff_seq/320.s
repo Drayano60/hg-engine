@@ -13,7 +13,6 @@
 // Calc moved to battle_calc_damage.c
 
 a030_320:
-    // storedpowerdamagecalc
     gotosubscript 443
     endscript
 

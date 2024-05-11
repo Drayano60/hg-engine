@@ -14,7 +14,7 @@
 // Burn opponent if they raised a stat this turn
 
 a030_334:
-    didTargetRaiseStat _ConfusionEffect
+    didtargetraisestat _ConfusionEffect
     goto _Damage
 _ConfusionEffect:
     changevar VAR_OP_SET, VAR_ADD_STATUS2, 0x80000003

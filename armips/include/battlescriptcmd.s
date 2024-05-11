@@ -1633,3 +1633,20 @@ MOVE_DATA_CONTEST_TYPE equ 11
     .word 0xF8
 .endmacro
 
+.macro echoedvoicedamagecalc
+    .word 0xF9
+.endmacro
+
+.macro iflasthitofmultihit,address
+    .word 0xFA
+    .word ((address - org()) / 4) - 1
+.endmacro
+
+.macro strengthsapcalc
+    .word 0xFB
+.endmacro
+
+.macro didtargetraisestat,address
+    .word 0xFC
+    .word ((address - org()) / 4) - 1
+.endmacro

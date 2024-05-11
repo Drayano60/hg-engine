@@ -2032,7 +2032,7 @@ BOOL BattlerCantSwitch(void *bw, struct BattleStruct *sp, int battlerId) {
 
     // ghost types can switch from anything like they had shed shell
     // NEW: Run Away also lets a Pokémon escape under any circumstance.
-    if (HeldItemHoldEffectGet(sp, battlerId) == HOLD_EFFECT_SWITCH || BATTLE_MON_HAS_TYPE(sp, battlerId, TYPE_GHOST) || (GetBattlerAbility(ctx, battlerId) == ABILITY_RUN_AWAY)) {
+    if (HeldItemHoldEffectGet(sp, battlerId) == HOLD_EFFECT_SWITCH || BATTLE_MON_HAS_TYPE(sp, battlerId, TYPE_GHOST) || (GetBattlerAbility(sp, battlerId) == ABILITY_RUN_AWAY)) {
         return FALSE;
     }
 

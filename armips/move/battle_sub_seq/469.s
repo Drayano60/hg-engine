@@ -14,10 +14,11 @@
 // This does not give stat too high messages
 
 a001_469:
-    ifcontactmove End
-
+    iflasthitofmultihit RaiseStat
+    goto End
+RaiseStat:
     // -1 Defense
-    changevar VAR_OP_SET, VAR_ADD_EFFECT_ATTRIBUTE, 0x17
+    changevar VAR_OP_SET, VAR_ADD_EFFECT_ATTRIBUTE, DEFENSE_DOWN
     gotosubscript 12
 
     // Allows the stat up animation to play
@@ -25,17 +26,11 @@ a001_469:
     changevar VAR_OP_SETMASK, VAR_SERVER_STATUS2, 0x80
 
     // +1 Speed
-    changevar VAR_OP_SET, VAR_ADD_EFFECT_ATTRIBUTE, 0x11
+    changevar VAR_OP_SET, VAR_ADD_EFFECT_ATTRIBUTE, SPEED_UP
     gotosubscript 12
 
     changevar VAR_OP_CLEARMASK, VAR_SERVER_STATUS2, 0x2
     changevar VAR_OP_CLEARMASK, VAR_SERVER_STATUS2, 0x80
-
-    // VAR_CRIT_CHANCE is used as a flag of sorts to specify that the stat boost has happened, and not to do it again on the subsequent hits.
-    // VAR_CRIT_CHANCE gets cleared after the current move ends so each use of Scale Shot can still give a stat boost.
-    // other_battle_calculators.c has had some code added so it will ignore the 16 value.
-
-    changevar VAR_OP_SET, VAR_CRIT_CHANCE, 16
 End:
     endscript
 

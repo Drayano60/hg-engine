@@ -77,6 +77,13 @@ BOOL btl_scr_cmd_F5_changepermanentbg(void *bw, struct BattleStruct *sp);
 BOOL btl_scr_cmd_F6_changeexecutionorderpriority(void *bw, struct BattleStruct *sp);
 BOOL btl_scr_cmd_F7_setbindingcounter(void *bw, struct BattleStruct *sp);
 BOOL btl_scr_cmd_F8_clearbindcounter(void *bw, struct BattleStruct *sp);
+
+/* Custom */
+BOOL btl_scr_cmd_F9_echoedvoicedamagecalc(void *bw, struct BattleStruct *sp);
+BOOL btl_scr_cmd_FA_iflasthitofmultihit(void *bw, struct BattleStruct *sp);
+BOOL btl_scr_cmd_FB_strengthsapcalc(void *bw, struct BattleStruct *sp);
+BOOL btl_scr_cmd_FC_didtargetraisestat(void *bw, struct BattleStruct *sp);
+
 BOOL BtlCmd_WeatherHPRecovery(void *bw, struct BattleStruct *sp);
 BOOL BtlCmd_CalcWeatherBallParams(void *bw, struct BattleStruct *sp);
 BOOL BtlCmd_TrySubstitute(void *bw, struct BattleStruct *sp);
@@ -340,6 +347,11 @@ const u8 *BattleScrCmdNames[] =
     "changeexecutionorderpriority",
     "setbindingcounter",
     "clearbindcounter",
+
+    "echoedvoicedamagecalc",
+    "iflasthitofmultihit",
+    "strengthsapcalc",
+    "didtargetraisestat",
 };
 
 u32 cmdAddress = 0;
@@ -372,6 +384,12 @@ const btl_scr_cmd_func NewBattleScriptCmdTable[] =
     [0xF6 - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_F6_changeexecutionorderpriority,
     [0xF7 - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_F7_setbindingcounter,
     [0xF8 - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_F8_clearbindcounter,
+
+    // Custom + padding
+    [0xF9 - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_F9_echoedvoicedamagecalc,
+    [0xFA - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_FA_iflasthitofmultihit,
+    [0xFB - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_FB_strengthsapcalc,
+    [0xFC - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_FC_didtargetraisestat,
 };
 
 // entries before 0xFFFE are banned for mimic and metronome--after is just banned for metronome.  table ends with 0xFFFF
@@ -2709,6 +2727,92 @@ BOOL btl_scr_cmd_F8_clearbindcounter(void *bw UNUSED, struct BattleStruct *sp) {
     IncrementBattleScriptPtr(sp, 1);
 
     sp->binding_turns[sp->attack_client] = 0;
+
+    return FALSE;
+}
+
+
+/**
+ *  @brief script command to increment counter of and calculate power of Echoed Voice (not accurate to actual game)
+ *
+ *  @param bw battle work structure
+ *  @param sp global battle structure
+ *  @return FALSE
+ */
+BOOL btl_scr_cmd_F9_echoedvoicedamagecalc(void *bw, struct BattleStruct *sp)
+{
+    IncrementBattleScriptPtr(sp, 1);
+
+    if (sp->battlemon[sp->attack_client].echoed_voice_count < 5) {
+        sp->battlemon[sp->attack_client].echoed_voice_count++;
+    }
+
+    sp->damage_power = GetMoveData(sp->current_move_index, MOVE_DATA_BASE_POWER) * sp->battlemon[sp->attack_client].echoed_voice_count;
+
+    return FALSE;
+}
+
+
+/**
+ *  @brief script command to check if current multi-hit move is last hit (used for Scale Shot)
+ *
+ *  @param bw battle work structure
+ *  @param sp global battle structure
+ *  @return FALSE
+ */
+BOOL btl_scr_cmd_FA_iflasthitofmultihit(void *bw, struct BattleStruct *sp) {
+    IncrementBattleScriptPtr(sp, 1);
+    int address = read_battle_script_param(sp);
+
+    if (!(sp->multi_hit_count <= 1 || (sp->defence_client == sp->fainting_client))) {
+        IncrementBattleScriptPtr(sp, address); 
+    }
+
+    return FALSE;
+}
+
+
+/**
+ *  @brief script command to calculate Strength Sap healing
+ *
+ *  @param bw battle work structure
+ *  @param sp global battle structure
+ *  @return FALSE
+ */
+BOOL btl_scr_cmd_FB_strengthsapcalc(void *bw, struct BattleStruct *sp) {
+    IncrementBattleScriptPtr(sp, 1);
+
+    s32 damage;
+    u16 attack;
+    s8 atkstate;
+
+    attack = BattlePokemonParamGet(sp, sp->defence_client, BATTLE_MON_DATA_ATK, NULL);
+    atkstate = BattlePokemonParamGet(sp, sp->defence_client, BATTLE_MON_DATA_STATE_ATK, NULL);
+
+    damage = attack * StatBoostModifiers[atkstate][0];
+    damage /= StatBoostModifiers[atkstate][1];
+
+    sp->hp_calc_work = -damage;
+
+    return FALSE;
+}
+
+
+/**
+ *  @brief script command to check if a target raised a stat this turn (for Burning Jealousy and Alluring Voice)
+ *
+ *  @param bw battle work structure
+ *  @param sp global battle structure
+ *  @return FALSE
+ */
+BOOL btl_scr_cmd_FC_didtargetraisestat(void *bw UNUSED, struct BattleStruct *sp) {
+    IncrementBattleScriptPtr(sp, 1);
+
+    int address = read_battle_script_param(sp);
+
+    if (sp->oneTurnFlag[sp->defence_client].stats_raised_flag) {
+       IncrementBattleScriptPtr(sp, address);
+    }
 
     return FALSE;
 }

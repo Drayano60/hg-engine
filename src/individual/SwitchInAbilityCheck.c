@@ -257,7 +257,7 @@ int UNUSED SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
             case SWITCH_IN_CHECK_SWEET_AROMA:
                 for (i = 0; i < client_set_max; i++)
                 {
-                    client_no = sp->turn_order[i];
+                    client_no = sp->turnOrder[i];
                     if ((sp->battlemon[client_no].intimidate_flag == 0)
                         && (sp->battlemon[client_no].hp)
                         && (GetBattlerAbility(sp, client_no) == ABILITY_SWEET_AROMA))
@@ -276,7 +276,7 @@ int UNUSED SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
             case SWITCH_IN_CHECK_ILLUMINATE:
                 for (i = 0; i < client_set_max; i++)
                 {
-                    client_no = sp->turn_order[i];
+                    client_no = sp->turnOrder[i];
                     if ((sp->battlemon[client_no].intimidate_flag == 0)
                         && (sp->battlemon[client_no].hp)
                         && (GetBattlerAbility(sp, client_no) == ABILITY_ILLUMINATE))
@@ -295,7 +295,7 @@ int UNUSED SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
             case SWITCH_IN_CHECK_CURIOUS_MEDICINE:
                 for (i = 0; i < client_set_max; i++)
                 {
-                    client_no = sp->turn_order[i];
+                    client_no = sp->turnOrder[i];
                     if ((sp->battlemon[client_no].intimidate_flag == 0)
                         && (sp->battlemon[client_no].hp)
                         && (sp->battlemon[BATTLER_ALLY(client_no)].hp)
@@ -315,7 +315,7 @@ int UNUSED SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
             case SWITCH_IN_CHECK_PASTEL_VEIL:
                 for (i = 0; i < client_set_max; i++)
                 {
-                    client_no = sp->turn_order[i];
+                    client_no = sp->turnOrder[i];
 
                     if
                     (
@@ -340,7 +340,7 @@ int UNUSED SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
             case SWITCH_IN_CHECK_SCREEN_CLEANER:
                 for (i = 0; i < client_set_max; i++)
                 {
-                    client_no = sp->turn_order[i];
+                    client_no = sp->turnOrder[i];
 
                     if
                     (
@@ -937,7 +937,7 @@ int UNUSED SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
             case SWITCH_IN_CHECK_AIR_LOCK:
                 for (i = 0; i < client_set_max; i++)
                 {
-                    client_no = sp->turn_order[i];
+                    client_no = sp->turnOrder[i];
                     if ((sp->battlemon[client_no].text_on_ability_entry_flag == 0)
                         && (sp->battlemon[client_no].hp)
                         && ((GetBattlerAbility(sp, client_no) == ABILITY_CLOUD_NINE) ||
@@ -961,7 +961,7 @@ int UNUSED SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
             case SWITCH_IN_CHECK_SUPREME_OVERLORD:
                 for (i = 0; i < client_set_max; i++)
                 {
-                    client_no = sp->turn_order[i];
+                    client_no = sp->turnOrder[i];
                     if ((sp->battlemon[client_no].text_on_ability_entry_flag == 0)
                         && (sp->battlemon[client_no].hp)
                         && ((GetBattlerAbility(sp, client_no) == ABILITY_SUPREME_OVERLORD)))

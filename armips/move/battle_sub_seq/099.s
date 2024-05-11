@@ -9,10 +9,12 @@
 
 .create "build/move/battle_sub_seq/1_099", 0
 
+// Hazards check
+
 a001_099:
     abilitycheck 0x0, BATTLER_REPLACE, ABILITY_MAGIC_GUARD, _01A8
     checkitemeffect 0x0, BATTLER_REPLACE, 254, _01A8 /* Heavy-Duty Boots prevents all hazard damage, 254 is its item effect code */
-    if IF_MASK, VAR_FIELD_EFFECT, 0x7000, _0098
+    if IF_MASK, VAR_FIELD_EFFECT, FIELD_STATUS_GRAVITY, _0098
     checkitemeffect 0x0, BATTLER_REPLACE, 0x6A, _0098 /* Iron Ball eliminates the floating protection */
     checkitemeffect 0x0, BATTLER_REPLACE, 154, _0158 /* Air Balloon ignores spikes and toxic spikes */
     abilitycheck 0x0, BATTLER_REPLACE, ABILITY_LEVITATE, _0158

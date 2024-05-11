@@ -7,6 +7,8 @@
 .include "armips/include/monnums.s"
 .include "armips/include/movenums.s"
 
+// Wake up
+
 .create "build/move/battle_sub_seq/1_019", 0
 
 /* This might be handling the second turn of Yawn? Not sure */
@@ -14,7 +16,7 @@
 
 a001_019:
     abilitycheck 0x0, BATTLER_xFF, ABILITY_SOUNDPROOF, _0040
-    if IF_NOTMASK, VAR_FIELD_EFFECT, 0xF00, _0040
+    if IF_NOTMASK, VAR_FIELD_EFFECT, FIELD_STATUS_UPROAR, _0040
     printmessage 0x131, 0x2, 0xFF, "NaN", "NaN", "NaN", "NaN", "NaN"
     goto _0050
 _0040:

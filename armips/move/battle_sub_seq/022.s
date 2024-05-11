@@ -20,7 +20,7 @@ a001_022:
     abilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_PASTEL_VEIL, _printAttackIntoNoEffect
     abilitycheck 0x0, BATTLER_ALLY | BATTLER_ADDL_EFFECT, ABILITY_PASTEL_VEIL, _printAttackIntoNoEffectFlowerVeil
     checkcloudnine _00CC
-    if IF_NOTMASK, VAR_FIELD_EFFECT, 0x30, _00CC
+    if IF_NOTMASK, VAR_FIELD_EFFECT, WEATHER_SUNNY_ANY, _00CC
     abilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_LEAF_GUARD, _printAttackIntoNoEffect
     goto _00CC
 _0060:
@@ -28,7 +28,7 @@ _0060:
     moldbreakerabilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_PASTEL_VEIL, _printAttackIntoNoEffect
     moldbreakerabilitycheck 0x0, BATTLER_ALLY | BATTLER_ADDL_EFFECT, ABILITY_PASTEL_VEIL, _printAttackIntoNoEffectFlowerVeil
     checkcloudnine _checkFlowerVeil
-    if IF_NOTMASK, VAR_FIELD_EFFECT, 0x30, _checkFlowerVeil
+    if IF_NOTMASK, VAR_FIELD_EFFECT, WEATHER_SUNNY_ANY, _checkFlowerVeil
     moldbreakerabilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_LEAF_GUARD, _printAttackIntoNoEffect
 _checkFlowerVeil:
     moldbreakerabilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_FLOWER_VEIL, _checkGrassTypeForFlowerVeil

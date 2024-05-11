@@ -28,7 +28,7 @@ extern struct ILLUSION_STRUCT gIllusionStruct;
  *  @param sp global battle structure
  *  @return script subseq to run if there's one that should be run; 0 if nothing should be run
  */
-int SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
+int UNUSED SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
 {
     // Sort clients because abilities may affect speed
     DynamicSortClientExecutionOrder(bw, sp);
@@ -97,7 +97,7 @@ int SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
 #ifdef PRIMAL_REVERSION
                 for (i = 0; i < client_set_max; i++)
                 {
-                    client_no = sp->turn_order[i];
+                    client_no = sp->turnOrder[i];
                     if (((sp->battlemon[client_no].species == SPECIES_KYOGRE
                        #ifdef DEBUG_PRIMAL_REVERSION
                        && GetBattleMonItem(sp, client_no) == ITEM_DREAM_BALL
@@ -135,7 +135,7 @@ int SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
                 int def1,def2;
 
                 for (i = 0; i < client_set_max; i++){
-                    client_no = sp->turn_order[i];
+                    client_no = sp->turnOrder[i];
                     def1 = BattleWorkEnemyClientGet(bw, client_no, BATTLER_POSITION_SIDE_RIGHT);
                     def2 = BattleWorkEnemyClientGet(bw, client_no, BATTLER_POSITION_SIDE_LEFT);
 
@@ -164,7 +164,7 @@ int SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
             case SWITCH_IN_CHECK_WEATHER_ABILITY:
                 for (i = 0; i < client_set_max; i++)
                 {
-                    client_no = sp->turn_order[i];
+                    client_no = sp->turnOrder[i];
                     if ((sp->battlemon[client_no].appear_check_flag == 0)
                         && (sp->battlemon[client_no].hp))
                     {
@@ -237,7 +237,7 @@ int SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
             case SWITCH_IN_CHECK_INTIMIDATE:
                 for (i = 0; i < client_set_max; i++)
                 {
-                    client_no = sp->turn_order[i];
+                    client_no = sp->turnOrder[i];
                     if ((sp->battlemon[client_no].intimidate_flag == 0)
                         && (sp->battlemon[client_no].hp)
                         // && (IntimidateCheckHelper(sp, client_no))
@@ -366,7 +366,7 @@ int SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
             case SWITCH_IN_CHECK_DOWNLOAD:
                 for (i = 0; i < client_set_max; i++)
                 {
-                    client_no = sp->turn_order[i];
+                    client_no = sp->turnOrder[i];
                     if ((sp->battlemon[client_no].download_flag == 0)
                         && (sp->battlemon[client_no].hp)
                         && (GetBattlerAbility(sp, client_no) == ABILITY_DOWNLOAD))
@@ -416,7 +416,7 @@ int SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
             case SWITCH_IN_CHECK_ANTICIPATION:
                 for (i = 0; i < client_set_max; i++)
                 {
-                    client_no = sp->turn_order[i];
+                    client_no = sp->turnOrder[i];
                     if 
                     (
                         (sp->battlemon[client_no].anticipation_flag == 0)
@@ -479,7 +479,7 @@ int SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
             case SWITCH_IN_CHECK_FOREWARN:
                 for (i = 0; i < client_set_max; i++)
                 {
-                    client_no = sp->turn_order[i];
+                    client_no = sp->turnOrder[i];
                     if ((sp->battlemon[client_no].forewarn_flag == 0)
                         && (sp->battlemon[client_no].hp)
                         && (GetBattlerAbility(sp, client_no) == ABILITY_FOREWARN))
@@ -574,7 +574,7 @@ int SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
             case SWITCH_IN_CHECK_FRISK:
                 for (i = 0; i < client_set_max; i++)
                 {
-                    client_no = sp->turn_order[i];
+                    client_no = sp->turnOrder[i];
                     if ((sp->battlemon[client_no].frisk_flag == FALSE)
                      && (sp->battlemon[client_no].hp)
                      && (GetBattlerAbility(sp, client_no) == ABILITY_FRISK))
@@ -643,7 +643,7 @@ int SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
             case SWITCH_IN_CHECK_SLOW_START:
                 for (i = 0; i < client_set_max; i++)
                 {
-                    client_no = sp->turn_order[i];
+                    client_no = sp->turnOrder[i];
                     if ((sp->battlemon[client_no].slow_start_flag == 0)
                         && (sp->battlemon[client_no].hp)
                         && (GetBattlerAbility(sp, client_no) == ABILITY_SLOW_START)
@@ -678,7 +678,7 @@ int SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
             case SWITCH_IN_CHECK_MOLD_BREAKER:
                 for (i = 0; i < client_set_max; i++)
                 {
-                    client_no = sp->turn_order[i];
+                    client_no = sp->turnOrder[i];
                     if ((sp->battlemon[client_no].mold_breaker_flag == 0)
                         && (sp->battlemon[client_no].hp)
                         && ((GetBattlerAbility(sp, client_no) == ABILITY_MOLD_BREAKER) ||
@@ -713,7 +713,7 @@ int SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
             case SWITCH_IN_CHECK_PRESSURE:
                 for(i = 0; i < client_set_max; i++)
                 {
-                    client_no = sp->turn_order[i];
+                    client_no = sp->turnOrder[i];
                     if ((sp->battlemon[client_no].pressure_flag == 0)
                         && (sp->battlemon[client_no].hp)
                         && (GetBattlerAbility(sp, client_no) == ABILITY_PRESSURE))
@@ -731,7 +731,7 @@ int SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
                 break;
                 // 02253CA6
             case SWITCH_IN_CHECK_FORECAST:
-                if(BattleFormChangeCheck(bw, sp, &scriptnum) == TRUE)
+                if (BattleFormChangeCheck(bw, sp, &scriptnum) == TRUE) // oh yeah
                 {
                     ret = SWITCH_IN_CHECK_MOVE_SCRIPT;
                 }
@@ -744,7 +744,7 @@ int SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
             case SWITCH_IN_CHECK_AMULET_COIN:
                 for (i = 0; i < client_set_max; i++)
                 {
-                    client_no=sp->turn_order[i];
+                    client_no=sp->turnOrder[i];
                     if (BattleItemDataGet(sp, sp->battlemon[client_no].item, 1) == HOLD_EFFECT_DOUBLE_MONEY_GAIN)
                     {
                         sp->money_multiplier = 2;
@@ -756,7 +756,7 @@ int SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
             case SWITCH_IN_CHECK_ABILITY_HEAL_STATUS:
                 for (i = 0; i < client_set_max; i++)
                 {
-                    client_no = sp->turn_order[i];
+                    client_no = sp->turnOrder[i];
                     if (AbilityStatusRecoverCheck(bw, sp, client_no, 1) == TRUE)
                     {
                         scriptnum = SUB_SEQ_ABILITY_RECOVER_CND;
@@ -773,7 +773,7 @@ int SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
             case SWITCH_IN_CHECK_HEAL_STATUS:
                 for (i = 0; i < client_set_max; i++)
                 {
-                    client_no = sp->turn_order[i];
+                    client_no = sp->turnOrder[i];
                     if(HeldItemHealCheck(bw, sp, client_no, &scriptnum) == TRUE)
                     {
                         sp->client_work = client_no;
@@ -789,7 +789,7 @@ int SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
             case SWITCH_IN_CHECK_UNNERVE:
                 for(i = 0; i < client_set_max; i++)
                 {
-                    client_no = sp->turn_order[i];
+                    client_no = sp->turnOrder[i];
                     if ((sp->battlemon[client_no].unnerve_flag == 0)
                         && (sp->battlemon[client_no].hp)
                         && (GetBattlerAbility(sp, client_no) == ABILITY_UNNERVE))
@@ -808,7 +808,7 @@ int SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
             case SWITCH_IN_CHECK_DARK_AURA:
                 for(i = 0; i < client_set_max; i++)
                 {
-                    client_no = sp->turn_order[i];
+                    client_no = sp->turnOrder[i];
                     if ((sp->battlemon[client_no].dark_aura_flag == 0)
                         && (sp->battlemon[client_no].hp)
                         && (GetBattlerAbility(sp, client_no) == ABILITY_DARK_AURA))
@@ -827,7 +827,7 @@ int SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
             case SWITCH_IN_CHECK_FAIRY_AURA:
                 for(i = 0; i < client_set_max; i++)
                 {
-                    client_no = sp->turn_order[i];
+                    client_no = sp->turnOrder[i];
                     if ((sp->battlemon[client_no].fairy_aura_flag == 0)
                         && (sp->battlemon[client_no].hp)
                         && (GetBattlerAbility(sp, client_no) == ABILITY_FAIRY_AURA))
@@ -846,7 +846,7 @@ int SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
             case SWITCH_IN_CHECK_AURA_BREAK:
                 for(i = 0; i < client_set_max; i++)
                 {
-                    client_no = sp->turn_order[i];
+                    client_no = sp->turnOrder[i];
                     if ((sp->battlemon[client_no].aura_break_flag == 0)
                         && (sp->battlemon[client_no].hp)
                         && (GetBattlerAbility(sp, client_no) == ABILITY_AURA_BREAK))
@@ -865,7 +865,7 @@ int SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
             case SWITCH_IN_CHECK_IMPOSTER: // automatically queue up transform
                 for(i = 0; i < client_set_max; i++)
                 {
-                    client_no = sp->turn_order[i];
+                    client_no = sp->turnOrder[i];
                     if ((sp->battlemon[client_no].imposter_flag == 0)
                         && (sp->battlemon[client_no].hp)
                         && (sp->battlemon[BATTLER_OPPONENT(client_no)].hp != 0 || sp->battlemon[BATTLER_ACROSS(client_no)].hp != 0)
@@ -1002,13 +1002,13 @@ int SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
             case SWITCH_IN_CHECK_ICE_FACE: // rebuild ice face
                 for (i = 0; i < client_set_max; i++)
                 {
-                    client_no = sp->turn_order[i];
+                    client_no = sp->turnOrder[i];
                     if ((sp->battlemon[client_no].species == SPECIES_EISCUE)
                      && (sp->battlemon[client_no].hp)
                      && (sp->battlemon[client_no].form_no == 1)
                      && (CheckSideAbility(bw, sp, CHECK_ABILITY_ALL_HP, 0, ABILITY_CLOUD_NINE) == 0)
                      && (CheckSideAbility(bw, sp, CHECK_ABILITY_ALL_HP, 0, ABILITY_AIR_LOCK) == 0)
-                     && (sp->field_condition & WEATHER_HAIL_ANY)               // there is hail this turn
+                     && (sp->field_condition & (WEATHER_HAIL_ANY | WEATHER_SNOW_ANY))               // there is hail this turn
                      && ((sp->log_hail_for_ice_face & (1 << client_no)) == 0)  // and hail wasn't here last turn/the mon just switched in
                      && (GetBattlerAbility(sp, client_no) == ABILITY_ICE_FACE)
                     )
@@ -1020,7 +1020,7 @@ int SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
                         ret = TRUE;
                     }
 
-                    if (sp->field_condition & WEATHER_HAIL_ANY) // update log_hail_for_ice_face
+                    if (sp->field_condition & (WEATHER_HAIL_ANY | WEATHER_SNOW_ANY)) // update log_hail_for_ice_face
                         sp->log_hail_for_ice_face |= (1 << client_no);
                     else
                         sp->log_hail_for_ice_face &= ~(1 << client_no);
@@ -1036,7 +1036,7 @@ int SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
             case SWITCH_IN_CHECK_AIR_BALLOON:
                 for(i = 0; i < client_set_max; i++)
                 {
-                    client_no = sp->turn_order[i];
+                    client_no = sp->turnOrder[i];
                     if ((sp->battlemon[client_no].air_ballon_flag == 0)
                      && (sp->battlemon[client_no].hp)
                      && (BattleItemDataGet(sp, sp->battlemon[client_no].item, 1) == HOLD_EFFECT_UNGROUND_DESTROYED_ON_HIT))
@@ -1068,7 +1068,7 @@ int SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
                 break;
             case SWITCH_IN_CHECK_SURGE_ABILITY:
                 for (i = 0; i < client_set_max; i++) {
-                    client_no = sp->turn_order[i];
+                    client_no = sp->turnOrder[i];
                     if (sp->battlemon[client_no].ability_activated_flag == 0 &&
                         (sp->battlemon[client_no].hp)) {
                         switch (GetBattlerAbility(sp, client_no)) {
@@ -1108,7 +1108,7 @@ int SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
             case SWITCH_IN_CHECK_TERRAIN_SEED:;
                 u16 heldItem;
                 for (i = 0; i < client_set_max; i++) {
-                    client_no = sp->turn_order[i];
+                    client_no = sp->turnOrder[i];
                     heldItem = GetBattleMonItem(sp, client_no);
                     if (IS_ITEM_TERRAIN_SEED(heldItem) && TerrainSeedShouldActivate(sp, heldItem)) {
                         sp->state_client = client_no;

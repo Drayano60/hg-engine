@@ -7,6 +7,8 @@
 .include "armips/include/monnums.s"
 .include "armips/include/movenums.s"
 
+// Defog
+
 .create "build/move/battle_sub_seq/1_171", 0
 
 // Defog
@@ -25,7 +27,7 @@ a001_171:
     checksidecondition BATTLER_DEFENDER, 0x1, 0x5, _PlayAnimationIfCanClearEffect
     if IF_MASK, VAR_SIDE_EFFECT_PLAYER, 0x80, _PlayAnimationIfCanClearEffect
     if IF_MASK, VAR_SIDE_EFFECT_OPPONENT, 0x80, _PlayAnimationIfCanClearEffect
-    if IF_MASK, VAR_FIELD_EFFECT, 0x8000, _PlayAnimationIfCanClearEffect
+    if IF_MASK, VAR_FIELD_EFFECT, FIELD_STATUS_FOG, _PlayAnimationIfCanClearEffect
     goto _DropEvasion
 _PlayAnimationIfCanClearEffect:
     /* This means the animation plays even if the target's evasiveness is minimum */
@@ -86,8 +88,8 @@ _StealthRockOpponentSide:
     changevar VAR_OP_SET, VAR_MOVE_TEMP2, 0x1BE
     gotosubscript 172
 _FogWeather:
-    if IF_NOTMASK, VAR_FIELD_EFFECT, 0x8000, _End
-    changevar VAR_OP_CLEARMASK, VAR_FIELD_EFFECT, 0x8000
+    if IF_NOTMASK, VAR_FIELD_EFFECT, FIELD_STATUS_FOG, _End
+    changevar VAR_OP_CLEARMASK, VAR_FIELD_EFFECT, FIELD_STATUS_FOG
     printmessage 0x415, 0xA, 0x1, 0x1, "NaN", "NaN", "NaN", "NaN"
     waitmessage
     wait 0x1E

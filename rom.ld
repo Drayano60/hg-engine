@@ -96,7 +96,6 @@ SetEggStats = 0x0206C8B8 | 1;
 SaveMisc_SetTogepiPersonalityGender = 0x0202ABB0 | 1;
 SaveMisc_GetTogepiPersonalityGender = 0x0202ABBC | 1;
 
-GetBagSaveData = 0x5AC + 0x021F9381;
 SaveData_GetRepelPtr = 0x0202DB05;
 SaveData_GetEventPtr = 0x020503D0 | 1;
 SaveData_GetDexPtr = 0x0202A634 |1;
@@ -230,7 +229,7 @@ ST_ServerQueCheck = 0x0224ED48 | 1;
 SCIO_StatusEffectSet = 0x02263848 | 1;
 SCIO_LevelUpEffectSet = 0x0226399C | 1;
 BattleWorkPlaceIDGet = 0x0223AB60 | 1;
-HeldItemEffectCheck = 0x0225471C | 1;
+TryUseHeldItem = 0x0225471C | 1;
 HeldItemHealStatusCheck = 0x02254E7C | 1;
 Battle_GetClientPartySize = 0x0223a834 | 1;
 Battle_GetClientPartyMon = 0x0223a880 | 1;
@@ -587,3 +586,10 @@ BattleControllerPlayer_CalcExecutionOrder = 0x02249190 | 1;
 Mon_UpdateRotomForm = 0x02071EC0 | 1;
 Mon_UpdateShayminForm = 0x02071D6C | 1;
 Daycare_GetBothBoxMonsPtr = 0x0206C1C8 | 1;
+
+CurseUserIsGhost = 0x022526D0 | 1;
+UnlockBattlerOutOfCurrentMove = 0x02250CA0 | 1;
+
+CheckItemGradualHPRestore = 0x02254D80 | 1;
+ov12_02252218 = 0x02252218 | 1;
+TryHeldItemNegativeEffect = 0x0225551C | 1;

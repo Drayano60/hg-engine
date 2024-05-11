@@ -20,7 +20,7 @@ a001_047:
     abilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_PASTEL_VEIL, _03E8
     abilitycheck 0x0, BATTLER_ALLY | BATTLER_ADDL_EFFECT, ABILITY_PASTEL_VEIL, _printAttackIntoNoEffectFlowerVeil
     checkcloudnine _checkFlowerVeil
-    if IF_NOTMASK, VAR_FIELD_EFFECT, 0x30, _checkFlowerVeil ;if not sun
+    if IF_NOTMASK, VAR_FIELD_EFFECT, WEATHER_SUNNY_ANY, _checkFlowerVeil ;if not sun
     abilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_LEAF_GUARD, _03E8
 
 _checkFlowerVeil:
@@ -43,7 +43,7 @@ NotToxicSpikes:
     abilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_PASTEL_VEIL, _03E8
     abilitycheck 0x0, BATTLER_ALLY | BATTLER_ADDL_EFFECT, ABILITY_PASTEL_VEIL, _printAttackIntoNoEffectFlowerVeil
     checkcloudnine _checkFlowerVeil2
-    if IF_NOTMASK, VAR_FIELD_EFFECT, 0x30, _checkFlowerVeil2
+    if IF_NOTMASK, VAR_FIELD_EFFECT, WEATHER_SUNNY_ANY, _checkFlowerVeil2
     abilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_LEAF_GUARD, _end_script
 _checkFlowerVeil2:
     moldbreakerabilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_FLOWER_VEIL, _checkGrassTypeForFlowerVeil2
@@ -78,7 +78,7 @@ NotToxicOrb:
     moldbreakerabilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_PASTEL_VEIL, _03E8
     moldbreakerabilitycheck 0x0, BATTLER_ALLY | BATTLER_ADDL_EFFECT, ABILITY_PASTEL_VEIL, _printAttackIntoNoEffectFlowerVeil
     checkcloudnine _checkFlowerVeil3
-    if IF_NOTMASK, VAR_FIELD_EFFECT, 0x30, _checkFlowerVeil3
+    if IF_NOTMASK, VAR_FIELD_EFFECT, WEATHER_SUNNY_ANY, _checkFlowerVeil3
     moldbreakerabilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_LEAF_GUARD, _03E8
 
 _checkFlowerVeil3:

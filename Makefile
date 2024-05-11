@@ -46,7 +46,8 @@ endif
 default: all
 
 ROMNAME = rom.nds
-BUILDROM = test.nds
+# BUILDROM = test.nds
+BUILDROM = AuroraCrystals.nds
 
 ####################### Tools #######################
 ADPCMXQ := tools/adpcm-xq
@@ -378,8 +379,12 @@ move_narc: $(NARC_FILES)
 
 	@echo "tutor moves and tm moves:"
 	$(PYTHON) scripts/tm_learnset.py --writetmlist armips/data/tmlearnset.txt
-	$(PYTHON) scripts/tutor_learnset.py --writemovecostlist armips/data/tutordata.txt
-	$(PYTHON) scripts/tutor_learnset.py armips/data/tutordata.txt
+# $(PYTHON) scripts/tutor_learnset.py --writemovecostlist armips/data/tutordata.txt
+# $(PYTHON) scripts/tutor_learnset.py armips/data/tutordata.txt
+
+# Still using old tutordata.s due to my expanded tutors
+	@echo "tutor data:"
+	$(ARMIPS) armips/data/tutordata.s
 
 	@if test -s build/a028/8_00; then \
 		rm -rf build/a028/8_0 build/a028/8_1 build/a028/8_2 build/a028/8_3 build/a028/8_4 build/a028/8_5 build/a028/8_6 build/a028/8_7 build/a028/8_8 build/a028/8_9; \

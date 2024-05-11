@@ -52,3 +52,29 @@ armips/asm/trainer_ai.s - ~0x60 bytes of extra code
 
 plus all the c injection stuff.  we are not worried about that here, that is dynamically managed
 */
+
+/* AURORA CRYSTAL: Custom Changes */
+.include "armips/asm/custom/ai_edits.s"
+.include "armips/asm/custom/conditional_music.s"
+.include "armips/asm/custom/confusion_berries.s"
+.include "armips/asm/custom/double_battle_music.s"
+.include "armips/asm/custom/dynamic_headers.s"
+.include "armips/asm/custom/enable_surf_without_knowing_move.s"
+.include "armips/asm/custom/encounter_rates.s"
+.include "armips/asm/custom/ev_cap.s"
+.include "armips/asm/custom/force_radio.s"
+.include "armips/asm/custom/hidden_power.s"
+.include "armips/asm/custom/hp_bar_speed.s"
+.include "armips/asm/custom/mart_items.s"
+.include "armips/asm/custom/metronome_counter.s"
+.include "armips/asm/custom/pickup_table.s"
+.include "armips/asm/custom/remove_obedience_check.s"
+.include "armips/asm/custom/roamers.s"
+.include "armips/asm/custom/rock_climb.s"
+.include "armips/asm/custom/server_type_check.s"
+.include "armips/asm/custom/smashable_rock_items.s"
+.include "armips/asm/custom/spiky_pichu.s"
+.include "armips/asm/custom/title_screen_cry.s"
+.include "armips/asm/custom/tm_palettes.s"
+.include "armips/asm/custom/vitamins.s"
+.include "armips/asm/custom/waterfall.s"

@@ -9,9 +9,10 @@
 
 .create "build/move/battle_eff_seq/0_022", 0
 
+/**** AURORA CRYSTAL: Linked actual +1 Sp. Def effect to this. ****/
+
 a030_022:
-    critcalc
-    damagecalc
+    changevar VAR_OP_SET, VAR_ADD_STATUS1, 0x8000001A
     endscript
 
 .close

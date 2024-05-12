@@ -9,9 +9,10 @@
 
 .create "build/move/battle_eff_seq/0_061", 0
 
+/**** AURORA CRYSTAL: Linked actual -2 Sp. Atk effect to this. ****/
+
 a030_061:
-    critcalc
-    damagecalc
+    changevar VAR_OP_SET, VAR_ADD_STATUS1, 0x80000031
     endscript
 
 .close

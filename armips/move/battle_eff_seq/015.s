@@ -9,9 +9,10 @@
 
 .create "build/move/battle_eff_seq/0_015", 0
 
+/**** AURORA CRYSTAL: Linked actual +1 accuracy effect to this. ****/
+
 a030_015:
-    critcalc
-    damagecalc
+    changevar VAR_OP_SET, VAR_ADD_STATUS1, 0x40000014
     endscript
 
 .close

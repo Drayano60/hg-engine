@@ -9,10 +9,11 @@
 
 .create "build/move/battle_eff_seq/0_185", 0
 
+// Revenge
+
 a030_185:
     revengedamagecalc
-    critcalc
-    damagecalc
+    gotosubscript 443
     endscript
 
 .close

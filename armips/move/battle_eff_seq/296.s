@@ -9,12 +9,10 @@
 
 .create "build/move/battle_eff_seq/0_296", 0
 
+// Effect ID was used for Body Press in calculator functions, not now
+
 a030_296:
-    changevar VAR_OP_SET, VAR_ADD_STATUS2, 0x80000008
-    setmultihit 0x2, 0xFD
-    changevar VAR_OP_SET, VAR_SUCCESSIVE_HIT, 0x1
-    critcalc
-    damagecalc
+    gotosubscript 443
     endscript
 
 .close

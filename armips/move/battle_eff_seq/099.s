@@ -11,8 +11,7 @@
 
 a030_099:
     flaildamagecalc
-    critcalc
-    damagecalc
+    gotosubscript 443
     endscript
 
 .close

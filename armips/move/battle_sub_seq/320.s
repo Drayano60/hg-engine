@@ -23,6 +23,9 @@ a001_306:
     changevar VAR_OP_CLEARMASK, VAR_SERVER_STATUS2, 0x2
     changevar VAR_OP_CLEARMASK, VAR_SERVER_STATUS2, 0x80
     reduceweight 1000 // weight reduced by 100.0 kg
+    printmessage 1446, TAG_NICK, BATTLER_ADDL_EFFECT, "NaN", "NaN", "NaN", "NaN", "NaN"
+    waitmessage
+    wait 0x1E
     endscript
 NoStatusEffect:
     printattackmessage

@@ -16,10 +16,10 @@ a001_356:
     printattackmessage
     waitmessage
     wait 0x1E
-    changeexecutionorderpriority BATTLER_DEFENDER, EXECUTION_ORDER_AFTER_YOU, Fail
+    // changeexecutionorderpriority BATTLER_DEFENDER, EXECUTION_ORDER_AFTER_YOU, Fail
     playanimation BATTLER_ATTACKER
     waitmessage
-    printmessage 1430, TAG_NICK, BATTLER_DEFENDER, "NaN", "NaN", "NaN", "NaN", "NaN" // {STRVAR_1 1, 0, 0}\ntook the kind offer!
+    printmessage 1653, TAG_NICK, BATTLER_DEFENDER, "NaN", "NaN", "NaN", "NaN", "NaN" // {STRVAR_1 1, 0, 0}\ntook the kind offer!
     waitmessage
     wait 0x1E
     endscript

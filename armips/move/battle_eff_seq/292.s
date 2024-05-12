@@ -9,10 +9,12 @@
 
 .create "build/move/battle_eff_seq/0_292", 0
 
-HeavySlamEffectScript:
-    heavyslamdamagecalc
-    critcalc
-    damagecalc
+// Noble Roar effect
+// Not actually used, file 58 is used instead
+
+a030_292:
+    gotosubscript 441
+    changevar VAR_OP_SET, VAR_ADD_STATUS1, ADD_STATUS_NOBLE_ROAR | ADD_STATUS_DEFENDER
     endscript
 
 .close

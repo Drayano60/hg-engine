@@ -9,6 +9,8 @@
 
 .create "build/move/battle_sub_seq/1_023", 0
 
+// Handle poison damage
+
 a001_023:
     abilitycheck 0x0, BATTLER_xFF, ABILITY_MAGIC_GUARD, _00E0
     abilitycheck 0x1, BATTLER_xFF, ABILITY_POISON_HEAL, _009C

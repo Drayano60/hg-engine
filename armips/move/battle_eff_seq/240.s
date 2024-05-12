@@ -9,11 +9,15 @@
 
 .create "build/move/battle_eff_seq/0_240", 0
 
+// Lucky Chant
+
 a030_240:
-    if IF_MASK, VAR_SIDE_EFFECT_PLAYER, 0x7000, _0028
+    gotosubscript 441
+    if IF_MASK, VAR_MOVE_STATUS, 0x40, Failed // Required to skip over things set before natural failure happens
+    if IF_MASK, VAR_SIDE_EFFECT_PLAYER, 0x7000, Failed
     changevar VAR_OP_SET, VAR_ADD_STATUS2, 0x2000007D
     endscript
-_0028:
+Failed:
     changevar VAR_OP_SETMASK, VAR_MOVE_STATUS, 0x40
     endscript
 

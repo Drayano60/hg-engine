@@ -3,38 +3,27 @@
 
 .include "armips/include/battlescriptcmd.s"
 .include "armips/include/abilities.s"
-.include "armips/include/config.s"
-.include "armips/include/constants.s"
-.include "armips/include/hold_item_effects.s"
 .include "armips/include/itemnums.s"
 .include "armips/include/monnums.s"
 .include "armips/include/movenums.s"
 
-// Techno Blast
-
 .create "build/move/battle_eff_seq/0_307", 0
 
+// Triple Axel effect
+// Each hit is +20
+// It ignores the actual moves.s BP. First hit is 20, second is 20+20, third is 20+20+20.
+
 a030_307:
-    checkitemeffect 0x0, BATTLER_ATTACKER, HOLD_EFFECT_BURN_DRIVE, _setFire       // TYPE_FIRE    
-    checkitemeffect 0x0, BATTLER_ATTACKER, HOLD_EFFECT_DOUSE_DRIVE, _setWater      // TYPE_WATER   
-    checkitemeffect 0x0, BATTLER_ATTACKER, HOLD_EFFECT_SHOCK_DRIVE, _setElectric   // TYPE_ELECTRIC
-    checkitemeffect 0x0, BATTLER_ATTACKER, HOLD_EFFECT_CHILL_DRIVE, _setIce        // TYPE_ICE     
-    goto _return
-_setFire:
-    changevar VAR_OP_SET, VAR_MOVE_TYPE, TYPE_FIRE
-    goto _return
-_setWater:
-    changevar VAR_OP_SET, VAR_MOVE_TYPE, TYPE_WATER
-    goto _return
-_setElectric:
-    changevar VAR_OP_SET, VAR_MOVE_TYPE, TYPE_ELECTRIC
-    goto _return
-_setIce:
-    changevar VAR_OP_SET, VAR_MOVE_TYPE, TYPE_ICE
-    goto _return
-_return:
-    critcalc
-    damagecalc
+    ifmonstat IF_EQUAL, BATTLER_ATTACKER, MON_DATA_ITEM, ITEM_LOADED_DICE, _3HitsNoAccCheck
+    ifmonstat IF_EQUAL, BATTLER_ATTACKER, MON_DATA_ABILITY, ABILITY_SKILL_LINK, _3HitsNoAccCheck
+    setmultihit 0x3, 0xDD
+    goto _Finish
+_3HitsNoAccCheck:
+    setmultihit 0x3, 0xFD // 0xFD means no acc check
+_Finish:
+    changevar VAR_OP_SET, VAR_SUCCESSIVE_HIT, 1
+    changevar VAR_OP_ADD, VAR_ABILITY_TEMP, 20
+    gotosubscript 466
     endscript
 
 .close

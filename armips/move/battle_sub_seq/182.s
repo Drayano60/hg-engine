@@ -21,11 +21,13 @@ a001_182:
     printmessage 0x26E, 0x27, 0x2, 0x2, 0xFF, "NaN", "NaN", "NaN"
     waitmessage
     wait 0x1E
+    gotosubscript 61 /* Applies crash damage if relevant */
     endscript
 _0084:
     printmessage 0x27E, 0x25, 0x2, 0x2, 0x1, "NaN", "NaN", "NaN"
     waitmessage
     wait 0x1E
+    gotosubscript 61 /* Applies crash damage if relevant */
     endscript
 
 .close

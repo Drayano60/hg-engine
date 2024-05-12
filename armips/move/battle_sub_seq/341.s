@@ -26,7 +26,7 @@ a001_341:
     changevar VAR_OP_CLEARMASK, VAR_SERVER_STATUS2, 0x80
     changevar VAR_OP_CLEARMASK, VAR_SERVER_STATUS1, 0x00080000 // use this to skip stat raise message from subscript 12
 
-    printmessage 1376, TAG_NICK_ITEM, BATTLER_DEFENDER, BATTLER_DEFENDER, "NaN", "NaN", "NaN", "NaN" // print the real message
+    printmessage 1452, TAG_NICK_ITEM, BATTLER_DEFENDER, BATTLER_DEFENDER, "NaN", "NaN", "NaN", "NaN" // print the real message
     waitmessage
     wait 0x1E
 

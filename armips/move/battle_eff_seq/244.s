@@ -9,7 +9,10 @@
 
 .create "build/move/battle_eff_seq/0_244", 0
 
+// Guard Swap
+
 a030_244:
+    gotosubscript 441
     changevar VAR_OP_SET, VAR_ADD_STATUS2, 0x2000007F
     endscript
 

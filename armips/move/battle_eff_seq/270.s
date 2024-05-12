@@ -9,11 +9,15 @@
 
 .create "build/move/battle_eff_seq/0_270", 0
 
+// Lunar Dance
+
 a030_270:
-    tryswitchinmon BATTLER_ATTACKER, 0x1, _0024
+    gotosubscript 441
+    if IF_MASK, VAR_MOVE_STATUS, 0x40, Failed // Required to skip over things set before natural failure happens
+    tryswitchinmon BATTLER_ATTACKER, 0x1, Failed
     changevar VAR_OP_SET, VAR_ADD_STATUS1, 0x2000008F
     endscript
-_0024:
+Failed:
     changevar VAR_OP_SETMASK, VAR_MOVE_STATUS, 0x40
     endscript
 

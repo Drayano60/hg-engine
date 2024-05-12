@@ -9,9 +9,11 @@
 
 .create "build/move/battle_eff_seq/0_015", 0
 
+// +1 Accuracy
+
 a030_015:
-    critcalc
-    damagecalc
+    gotosubscript 441
+    changevar VAR_OP_SET, VAR_ADD_STATUS1, 0x40000014
     endscript
 
 .close

@@ -9,7 +9,10 @@
 
 .create "build/move/battle_eff_seq/0_108", 0
 
+// Minimize 
+
 a030_108:
+    gotosubscript 441
     changevar VAR_OP_SET, VAR_ADD_STATUS1, 0x40000057
     endscript
 

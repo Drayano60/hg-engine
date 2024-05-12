@@ -7,14 +7,13 @@
 .include "armips/include/monnums.s"
 .include "armips/include/movenums.s"
 
-// Psychic Noise
-
 .create "build/move/battle_eff_seq/0_320", 0
 
+// Stored Power
+// Calc moved to battle_calc_damage.c
+
 a030_320:
-    changevar VAR_OP_SET, VAR_ADD_STATUS2, 0xA0000084
-    critcalc
-    damagecalc
+    gotosubscript 443
     endscript
 
 .close

@@ -9,6 +9,8 @@
 
 .create "build/move/battle_eff_seq/0_263", 0
 
+// Bounce
+
 a030_263:
     ifmonstat IF_MASK, BATTLER_ATTACKER, MON_DATA_STATUS_2, 0x1000, _00B4
     checkitemeffect 0x0, BATTLER_ATTACKER, 0x63, _0064
@@ -24,8 +26,7 @@ _0064:
     if IF_EQUAL, VAR_DEFENDER, 0xFF, _00CC
 _00B4:
     changevar VAR_OP_SET, VAR_ADD_STATUS2, 0x80000005
-    critcalc
-    damagecalc
+    gotosubscript 466
 _00CC:
     changemondatabyvalue VAR_OP_CLEARMASK, BATTLER_ATTACKER, 0x3B, 0x200400C0
     gotosubscript 259

@@ -9,10 +9,14 @@
 
 .create "build/move/battle_eff_seq/0_179", 0
 
+// Wish
+
 a030_179:
-    trywish _000C
+    gotosubscript 441
+    if IF_MASK, VAR_MOVE_STATUS, 0x40, Failed // Required to skip over things set before natural failure happens
+    trywish Failed
     endscript
-_000C:
+Failed:
     changevar VAR_OP_SET, VAR_MOVE_STATUS, 0x40
     endscript
 

@@ -9,7 +9,10 @@
 
 .create "build/move/battle_eff_seq/0_167", 0
 
+// Burn opponent
+
 a030_167:
+    gotosubscript 441
     changevar VAR_OP_SET, VAR_ADD_STATUS1, 0x80000003
     endscript
 

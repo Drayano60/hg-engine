@@ -13,10 +13,10 @@
 
 a001_253:
     wait 15
-    printmessage 1423, TAG_NICK_NICK_ITEM, BATTLER_WORK, BATTLER_DEFENDER, BATTLER_WORK, "NaN", "NaN", "NaN"
+    printmessage 1645, TAG_NICK_NICK_ITEM, BATTLER_WORK, BATTLER_DEFENDER, BATTLER_WORK, "NaN", "NaN", "NaN"
     // {STRVAR_1 1, 0, 0} frisked\n{STRVAR_1 1, 1, 0} and found its {STRVAR_1 8, 2, 0}!
     waitmessage
-    wait 30
+    wait 0x1E
     endscript
 
 .close

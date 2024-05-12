@@ -9,9 +9,14 @@
 
 .create "build/move/battle_sub_seq/1_056", 0
 
+// Controls Uproar including duration
+
 a001_056:
     changevar2 VAR_OP_SET, VAR_MOVE_BACKUP, VAR_CURRENT_MOVE
+
+    /* Updated to be fixed at 3 turns instead of 3-6 */
     random 0, 3
+    
     changevar VAR_OP_LSH, VAR_CALCULATION_WORK, 0x4
     changemondatabyvar VAR_OP_SETMASK, BATTLER_ATTACKER, 0x35, VAR_CALCULATION_WORK
     changevar2 VAR_OP_TO_BIT, VAR_CALCULATION_WORK, VAR_ATTACKER

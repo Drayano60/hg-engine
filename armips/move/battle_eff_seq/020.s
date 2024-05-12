@@ -9,8 +9,11 @@
 
 .create "build/move/battle_eff_seq/0_020", 0
 
+// -1 Speed
+
 a030_020:
-    changevar VAR_OP_SET, VAR_ADD_STATUS1, 0x80000030
+    gotosubscript 441
+    changevar VAR_OP_SET, VAR_ADD_STATUS1, 0x80000018
     endscript
 
 .close

@@ -9,6 +9,8 @@
 
 .create "build/move/battle_sub_seq/1_082", 0
 
+// Destiny Bond
+
 a001_082:
     printmessage 0x184, 0x2, 0x1, "NaN", "NaN", "NaN", "NaN", "NaN"
     waitmessage

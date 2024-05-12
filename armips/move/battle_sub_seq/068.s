@@ -9,6 +9,8 @@
 
 .create "build/move/battle_sub_seq/1_068", 0
 
+// Leech Seed
+
 a001_068:
     checksubstitute BATTLER_DEFENDER, _00F4
     ifmonstat IF_EQUAL, BATTLER_DEFENDER, MON_DATA_TYPE_1, 0xC, _0108

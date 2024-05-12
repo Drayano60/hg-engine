@@ -9,10 +9,12 @@
 
 .create "build/move/battle_eff_seq/0_196", 0
 
+// Damage based on enemy weight
+// Low Kick, Grass Knot
+
 a030_196:
     lowkickdamagecalc
-    critcalc
-    damagecalc
+    gotosubscript 443
     endscript
 
 .close

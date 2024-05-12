@@ -9,6 +9,8 @@
 
 .create "build/move/battle_sub_seq/1_003", 0
 
+/* Handle successful run away */
+
 a001_003:
     trynaturalcure BATTLER_PLAYER_LEFT, _0020
     changemondatabyvalue VAR_OP_SET, BATTLER_PLAYER_LEFT, 0x34, 0x0

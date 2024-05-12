@@ -11,6 +11,8 @@
 
 .create "build/move/battle_sub_seq/1_175", 0
 
+// U-turn effect
+
 a001_175:
     checkwipeout BATTLER_DEFENDER, _02B4
     tryswitchinmon BATTLER_ATTACKER, 0x1, _02B4

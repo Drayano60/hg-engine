@@ -12,6 +12,9 @@
 
 .create "build/move/battle_sub_seq/1_058", 0
 
+// Controls length of time trapping moves last?
+// Seems to be -1 from the value in VAR_CALCULATION_WORK (it ends on the last turn with no damage)
+
 a001_058:
     checksubstitute BATTLER_ADDL_EFFECT, _00B0
 //    ifmonstat IF_MASK, BATTLER_DEFENDER, MON_DATA_STATUS_2, 0xE000, _00B0

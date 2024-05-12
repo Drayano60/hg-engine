@@ -9,6 +9,8 @@
 
 .create "build/move/battle_sub_seq/1_206", 0
 
+/* Mental Herb? */
+
 a001_206:
     setstatus2effect BATTLER_xFF, 0xA
     waitmessage

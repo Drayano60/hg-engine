@@ -9,6 +9,8 @@
 
 .create "build/move/battle_sub_seq/1_209", 0
 
+/* Lansat Berry? */
+
 a001_209:
     setstatus2effect BATTLER_xFF, 0xA
     waitmessage

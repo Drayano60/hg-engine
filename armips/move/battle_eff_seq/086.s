@@ -9,7 +9,10 @@
 
 .create "build/move/battle_eff_seq/0_086", 0
 
+// Disable
+
 a030_086:
+    gotosubscript 441
     changevar VAR_OP_SETMASK, VAR_ADD_STATUS1, 0xA0000049
     endscript
 

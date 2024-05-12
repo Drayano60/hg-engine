@@ -9,14 +9,19 @@
 
 .create "build/move/battle_sub_seq/1_147", 0
 
+// Handle 1/3 HP recoil
+
 a001_147:
     abilitycheck 0x0, BATTLER_ATTACKER, ABILITY_ROCK_HEAD, _009C
+    abilitycheck 0x0, BATTLER_ATTACKER, ABILITY_FUR_CUSHION, _009C
     abilitycheck 0x0, BATTLER_ATTACKER, ABILITY_MAGIC_GUARD, _009C
     changevar2 VAR_OP_SET, VAR_BATTLER_SOMETHING, VAR_ATTACKER
     changevar2 VAR_OP_SET, VAR_HP_TEMP, VAR_HIT_DAMAGE
     isparentalbondactive _handleParentalBond
 _comeBackFromParentalBond:
     if IF_EQUAL, VAR_HP_TEMP, 0x0, _0068
+    if IF_EQUAL, VAR_CURRENT_MOVE, MOVE_VOLT_TACKLE, _oneHalf
+_oneThird:
     damagediv VAR_HP_TEMP, 3
 _0068:
     changevar VAR_OP_SETMASK, VAR_SERVER_STATUS1, 0x40
@@ -36,5 +41,9 @@ _handleParentalBond:
 _backupDamageForParentalBond:
     changevar2 VAR_OP_SET, VAR_DAMAGE_BACKUP, VAR_HP_TEMP
     goto _009C
+
+_oneHalf:
+    damagediv VAR_HP_TEMP, 2
+    goto _0068
 
 .close

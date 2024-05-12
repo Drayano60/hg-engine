@@ -9,9 +9,13 @@
 
 .create "build/move/battle_eff_seq/0_303", 0
 
-// Fillet Away
+// Aurora Veil effect
+// Hail requirement is handled by subscript
+// Used by seq_065 for AI purposes instead
+
 a030_303:
-    changevar VAR_OP_SET, VAR_ADD_STATUS1, ADD_STATUS_FILLET_AWAY | ADD_STATUS_ATTACKER
+    gotosubscript 441
+    changevar VAR_OP_SET, VAR_ADD_STATUS1, ADD_STATUS_AURORA_VEIL | ADD_STATUS_WORK
     endscript
 
 .close

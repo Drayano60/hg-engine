@@ -9,7 +9,10 @@
 
 .create "build/move/battle_eff_seq/0_214", 0
 
+// Roost
+
 a030_214:
+    gotosubscript 441
     changevar VAR_OP_SET, VAR_ADD_STATUS1, 0x60000074
     endscript
 

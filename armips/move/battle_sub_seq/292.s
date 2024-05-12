@@ -19,7 +19,9 @@ _0030:
     waitmessage
     wait 0x1E
     changevar2 VAR_OP_SET, VAR_ACTIVE_BATTLER, VAR_ATTACKER
-    changevar VAR_OP_SET, VAR_ADD_EFFECT_ATTRIBUTE, 0x10
+    if IF_EQUAL, VAR_CURRENT_MOVE, MOVE_METEOR_BEAM, _meteorbeam
+    changevar VAR_OP_SET, VAR_ADD_EFFECT_ATTRIBUTE, DEFENSE_UP
+_return:
     changevar VAR_OP_SET, VAR_ADD_EFFECT_TYPE, 0x2
     gotosubscript 12
     setstatus2effect BATTLER_ATTACKER, 0xA
@@ -30,5 +32,8 @@ _0030:
     removeitem BATTLER_ATTACKER
     changevar VAR_OP_CLEARMASK, VAR_SERVER_STATUS1, 0x4000
     endscript
+_meteorbeam:
+    changevar VAR_OP_SET, VAR_ADD_EFFECT_ATTRIBUTE, SPATK_UP
+    goto _return
 
 .close

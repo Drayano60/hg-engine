@@ -9,17 +9,17 @@
 
 .create "build/move/battle_eff_seq/0_289", 0
 
+// Acrobatics effect
+// x2 damage if no item
+// Damage calc has been moved into code so this is not used
+
 a030_289:
-    ifmonstat2 IF_EQUAL, BATTLER_ATTACKER, MON_DATA_ITEM, 0, Status
-    changevar VAR_OP_SET, VAR_DAMAGE_MULT, 0xA
-    goto _end
-
-Status:
-    changevar VAR_OP_SET, VAR_DAMAGE_MULT, 0x14
-
-_end:
-    critcalc
-    damagecalc
+    ifmonstat IF_EQUAL, BATTLER_ATTACKER, MON_DATA_ITEM, 0, DoubleDamage
+    goto End
+DoubleDamage:
+    changevar VAR_OP_SET, VAR_DAMAGE_MULT, 20
+End:
+    gotosubscript 443
     endscript
 
 .close

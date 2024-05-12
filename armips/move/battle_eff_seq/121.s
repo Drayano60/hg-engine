@@ -13,8 +13,7 @@ a030_121:
     changemondatabyvar VAR_OP_GET_RESULT, BATTLER_ATTACKER, 0x2C, VAR_ABILITY_TEMP
     changevar VAR_OP_MUL, VAR_ABILITY_TEMP, 0xA
     changevar VAR_OP_DIV, VAR_ABILITY_TEMP, 0x19
-    critcalc
-    damagecalc
+    gotosubscript 443
     endscript
 
 .close

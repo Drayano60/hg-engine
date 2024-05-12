@@ -11,8 +11,7 @@
 
 a030_043:
     changevar VAR_OP_ADD, VAR_CRIT_CHANCE, 0x1
-    critcalc
-    damagecalc
+    gotosubscript 443
     endscript
 
 .close

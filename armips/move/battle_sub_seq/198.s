@@ -9,6 +9,9 @@
 
 .create "build/move/battle_sub_seq/1_198", 0
 
+/* Oran/Sitrus Berry? */
+/* Berry Juice and Enigma Berry too? */
+
 a001_198:
     setstatus2effect BATTLER_xFF, 0xA
     waitmessage

@@ -9,7 +9,11 @@
 
 .create "build/move/battle_sub_seq/1_127", 0
 
+// Handle Torment
+
 a001_127:
+    moldbreakerabilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_AROMA_VEIL, _AromaVeil
+    moldbreakerabilitycheck 0x0, BATTLER_ALLY | BATTLER_ADDL_EFFECT, ABILITY_AROMA_VEIL, _AromaVeil
     ifmonstat IF_MASK, BATTLER_DEFENDER, MON_DATA_STATUS_2, 0x80000000, _0068
     if IF_MASK, VAR_MOVE_STATUS, 0x10001, _0068
     gotosubscript 76
@@ -17,9 +21,18 @@ a001_127:
     printmessage 0x1EE, 0x2, 0x2, "NaN", "NaN", "NaN", "NaN", "NaN"
     waitmessage
     wait 0x1E
+    gotosubscript 486 // Mental Herb check
     endscript
 _0068:
     changevar VAR_OP_SETMASK, VAR_MOVE_STATUS, 0x40
+    endscript
+_AromaVeil:
+    printattackmessage
+    waitmessage
+    wait 0x1E
+    printmessage 1428, 0xB, 0x7, 0x7, "NaN", "NaN", "NaN", "NaN"    
+    waitmessage
+    wait 0x1E
     endscript
 
 .close

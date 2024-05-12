@@ -11,6 +11,8 @@
 
 .create "build/move/battle_eff_seq/0_268", 0
 
+// Judgment
+
 a030_268:
     checkitemeffect 0x0, BATTLER_ATTACKER, 0x83, _setFighting   // TYPE_FIGHTING
     checkitemeffect 0x0, BATTLER_ATTACKER, 0x86, _setFlying     // TYPE_FLYING  
@@ -85,8 +87,7 @@ _setDragon:
 _setDark:
     changevar VAR_OP_SET, VAR_MOVE_TYPE, TYPE_DARK
 _return:
-    critcalc
-    damagecalc
+    gotosubscript 443
     endscript
 
 .close

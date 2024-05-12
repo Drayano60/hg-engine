@@ -9,6 +9,8 @@
 
 .create "build/move/battle_sub_seq/1_265", 0
 
+/* Micle Berry */
+
 a001_265:
     setstatus2effect BATTLER_xFF, 0xA
     waitmessage

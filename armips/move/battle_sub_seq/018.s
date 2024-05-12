@@ -12,11 +12,15 @@
 
 .create "build/move/battle_sub_seq/1_018", 0
 
+// Handle sleep infliction
+
 a001_018:
     if IF_EQUAL, VAR_ADD_EFFECT_TYPE, 0x7, _0250
     if IF_NOTEQUAL, VAR_ADD_EFFECT_TYPE, 0x4, _00E0
     abilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_INSOMNIA, _032C
     abilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_VITAL_SPIRIT, _032C
+    abilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_SWEET_VEIL, _032C
+    abilitycheck 0x0, BATTLER_ALLY | BATTLER_ADDL_EFFECT, ABILITY_SWEET_VEIL, _032C
     checkcloudnine _0080
     if IF_NOTMASK, VAR_FIELD_EFFECT, WEATHER_SUNNY_ANY, _0080
     abilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_LEAF_GUARD, _032C
@@ -30,10 +34,11 @@ _00C0:
 _00E0:
     moldbreakerabilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_INSOMNIA, _032C
     moldbreakerabilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_VITAL_SPIRIT, _032C
+    moldbreakerabilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_SWEET_VEIL, _032C
+    moldbreakerabilitycheck 0x0, BATTLER_ALLY | BATTLER_ADDL_EFFECT, ABILITY_SWEET_VEIL, _032C
     checkcloudnine _checkFlowerVeil
     if IF_NOTMASK, VAR_FIELD_EFFECT, WEATHER_SUNNY_ANY, _checkFlowerVeil
     moldbreakerabilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_LEAF_GUARD, _032C
-
 _checkFlowerVeil:
     moldbreakerabilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_FLOWER_VEIL, _checkGrassTypeForFlowerVeil
     moldbreakerabilitycheck 0x0, BATTLER_ALLY | BATTLER_ADDL_EFFECT, ABILITY_FLOWER_VEIL, _checkGrassTypeForFlowerVeil
@@ -47,10 +52,10 @@ CheckIfGrounded:
 CheckElectricOrMistyTerrain:
     ifterrainoverlayistype ELECTRIC_TERRAIN, ElectricOrMistyTerrainFail
     ifterrainoverlayistype MISTY_TERRAIN, ElectricOrMistyTerrainFail
-
 _0138:
     if IF_NOTEQUAL, VAR_ADD_EFFECT_TYPE, 0x2, _0160
     moldbreakerabilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_SHIELD_DUST, _03B8
+    ifmonstat IF_EQUAL, BATTLER_ADDL_EFFECT, MON_DATA_ITEM, ITEM_COVERT_CLOAK, _03B8
 _0160:
     if IF_NOTEQUAL, VAR_ADD_EFFECT_TYPE, 0x1, _017C
     printattackmessage
@@ -73,8 +78,13 @@ _01DC:
 _0250:
     setstatus2effect BATTLER_ADDL_EFFECT, 0x1
     waitmessage
-    //random 3, 2 // 1-4 turns
-    random 2, 2 // 1-3 turns of sleep to inflict.  prevents mon from waking up same turn to start at 2
+    // random 3, 2 /* Sleep lasts for 1-4 actions, with the Pokemon waking up on the next action */
+    random 2, 2 /* Sleep lasts for 1-3 actions, with the Pokemon waking up on the next action */
+    
+    /* Native HG-Engine version */
+    //random 3, 2 // 2-5 turns
+    //random 2, 1 // 1-3 turns of sleep to inflict
+
     changemondatabyvar VAR_OP_SETMASK, BATTLER_ADDL_EFFECT, 0x34, VAR_CALCULATION_WORK
     if IF_EQUAL, VAR_ADD_EFFECT_TYPE, 0x3, _02AC
     printmessage 0x2F, 0x2, 0x7, "NaN", "NaN", "NaN", "NaN", "NaN"
@@ -103,6 +113,8 @@ _032C:
     waitmessage
     wait 0x1E
 _0378:
+    abilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_SWEET_VEIL, _SweetVeilMsg
+    abilitycheck 0x0, BATTLER_ALLY | BATTLER_ADDL_EFFECT, ABILITY_SWEET_VEIL, _SweetVeilMsg
     printmessage 0x149, 0xB, 0x7, 0x7, "NaN", "NaN", "NaN", "NaN"
     goto _052C
     printmessage 0x2D7, 0x35, 0x7, 0x7, 0xFF, 0x15, "NaN", "NaN"
@@ -146,6 +158,9 @@ _052C:
     changevar VAR_OP_SETMASK, VAR_MOVE_STATUS, 0x80000000
 _0548:
     endscript
+_SweetVeilMsg:
+    printmessage 1431, 0xB, 0x7, 0x7, "NaN", "NaN", "NaN", "NaN" 
+    goto _052C
 
 _handlePrintFlowerVeilMessage:
     if IF_EQUAL, VAR_ADD_EFFECT_TYPE, 0x2, _0548
@@ -155,7 +170,7 @@ _handlePrintFlowerVeilMessage:
     waitmessage
     wait 0x1E
 _skipFlowerVeilAttackMessage:
-    printmessage 1385, TAG_NICK_ABILITY, BATTLER_ADDL_EFFECT, BATTLER_ALLY | BATTLER_ADDL_EFFECT, "NaN", "NaN", "NaN", "NaN"
+    printmessage 1461, TAG_NICK_ABILITY, BATTLER_ADDL_EFFECT, BATTLER_ALLY | BATTLER_ADDL_EFFECT, "NaN", "NaN", "NaN", "NaN"
     goto _052C
 
 ElectricOrMistyTerrainFail:

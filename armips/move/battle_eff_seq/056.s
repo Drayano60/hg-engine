@@ -9,9 +9,11 @@
 
 .create "build/move/battle_eff_seq/0_056", 0
 
+// Sharply raise evasion
+
 a030_056:
-    critcalc
-    damagecalc
+    gotosubscript 441
+    changevar VAR_OP_SET, VAR_ADD_STATUS1, 0x4000002D
     endscript
 
 .close

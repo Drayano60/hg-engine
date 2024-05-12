@@ -3,47 +3,26 @@
 
 .include "armips/include/battlescriptcmd.s"
 .include "armips/include/abilities.s"
-.include "armips/include/config.s"
-.include "armips/include/constants.s"
 .include "armips/include/itemnums.s"
 .include "armips/include/monnums.s"
 .include "armips/include/movenums.s"
-
-// Ivy Cudgel
+.include "armips/include/constants.s"
 
 .create "build/move/battle_eff_seq/0_309", 0
 
-a030_309:
-    // Increase critical hit ratio
-    changevar VAR_OP_ADD, VAR_CRIT_CHANCE, 0x1
-    // If used by a Pokémon other than Ogerpon, Ivy Cudgel will always be a Grass-type move, even if that Pokémon holds one of the masks.
-    ifmonstat IF_NOTEQUAL, BATTLER_ATTACKER, MON_DATA_SPECIES, SPECIES_OGERPON, _setGrass
-    // SPECIES_OGERPON
-    ifmonstat IF_EQUAL, BATTLER_ATTACKER, MON_DATA_FORM, 0, _setGrass
-    // SPECIES_OGERPON_WELLSPRING_MASK
-    ifmonstat IF_EQUAL, BATTLER_ATTACKER, MON_DATA_FORM, 1, _setWater
-    // SPECIES_OGERPON_HEARTHFLAME_MASK
-    ifmonstat IF_EQUAL, BATTLER_ATTACKER, MON_DATA_FORM, 2, _setFire
-    // SPECIES_OGERPON_CORNERSTONE_MASK
-    ifmonstat IF_EQUAL, BATTLER_ATTACKER, MON_DATA_FORM, 3, _setRock
-    goto _return
-_setGrass:
-    changevar VAR_OP_SET, VAR_MOVE_TYPE, TYPE_GRASS
-    goto _return
+// Freeze-Dry effect without freeze
+// Used for Sheer Force
 
-_setWater:
-    changevar VAR_OP_SET, VAR_MOVE_TYPE, TYPE_WATER
-    goto _return
-_setFire:
-    changevar VAR_OP_SET, VAR_MOVE_TYPE, TYPE_FIRE
-    goto _return
-_setRock:
-    changevar VAR_OP_SET, VAR_MOVE_TYPE, TYPE_ROCK
-    goto _return
+// Not used anymore
 
-_return:
-    critcalc
-    damagecalc
+a030_299:
+    ifmonstat IF_EQUAL, BATTLER_DEFENDER, MON_DATA_TYPE_1, TYPE_WATER, QuadrupleDamage
+    ifmonstat IF_EQUAL, BATTLER_DEFENDER, MON_DATA_TYPE_2, TYPE_WATER, QuadrupleDamage
+    goto End
+QuadrupleDamage:
+    changevar VAR_OP_SET, VAR_DAMAGE_MULT, 40
+End:
+    gotosubscript 443
     endscript
 
 .close

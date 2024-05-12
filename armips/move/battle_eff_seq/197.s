@@ -7,19 +7,17 @@
 .include "armips/include/monnums.s"
 .include "armips/include/movenums.s"
 
-// Secret Power
-
 .create "build/move/battle_eff_seq/0_197", 0
+
+// Secret Power
 
 a030_197:
     iffirsthitofparentalbond SkipEffect
-    critcalc
-    damagecalc
+    gotosubscript 443
     dosecretpower
     endscript
 SkipEffect:
-    critcalc
-    damagecalc
+    gotosubscript 443
     endscript
 
 .close

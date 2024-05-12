@@ -10,8 +10,7 @@
 .create "build/move/battle_eff_seq/0_070", 0
 
 a030_070:
-    critcalc
-    damagecalc
+    gotosubscript 443
     changevar VAR_OP_SET, VAR_ADD_STATUS2, 0x80000018
     endscript
 

@@ -9,7 +9,10 @@
 
 .create "build/move/battle_eff_seq/0_258", 0
 
+// Defog
+
 a030_258:
+    gotosubscript 441
     changevar VAR_OP_SET, VAR_ADD_STATUS1, 0xA0000083
     endscript
 

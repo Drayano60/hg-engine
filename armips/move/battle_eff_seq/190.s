@@ -9,10 +9,11 @@
 
 .create "build/move/battle_eff_seq/0_190", 0
 
+// Eruption + Water Spout
+
 a030_190:
     eruptiondamagecalc
-    critcalc
-    damagecalc
+    gotosubscript 443
     endscript
 
 .close

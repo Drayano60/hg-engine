@@ -12,13 +12,18 @@
 
 .create "build/move/battle_sub_seq/1_141", 0
 
+/* Yawn turn 1 */
+
+// This might be the wrong message for an ally Sweet Veil atm
+
 a001_141:
     moldbreakerabilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_INSOMNIA, _010C
     moldbreakerabilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_VITAL_SPIRIT, _010C
+    moldbreakerabilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_SWEET_VEIL, _010C
+    moldbreakerabilitycheck 0x0, BATTLER_ALLY | BATTLER_ADDL_EFFECT, ABILITY_SWEET_VEIL, _010C
     checkcloudnine _checkFlowerVeil
     if IF_NOTMASK, VAR_FIELD_EFFECT, WEATHER_SUNNY_ANY, _checkFlowerVeil
     moldbreakerabilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_LEAF_GUARD, _010C
-
 _checkFlowerVeil:
     moldbreakerabilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_FLOWER_VEIL, _checkGrassTypeForFlowerVeil
     moldbreakerabilitycheck 0x0, BATTLER_ALLY | BATTLER_ADDL_EFFECT, ABILITY_FLOWER_VEIL, _checkGrassTypeForFlowerVeil
@@ -32,7 +37,6 @@ CheckIfGrounded:
 CheckElectricOrMistyTerrain:
     ifterrainoverlayistype ELECTRIC_TERRAIN, ElectricOrMistyTerrainFail
     ifterrainoverlayistype ELECTRIC_TERRAIN, ElectricOrMistyTerrainFail
-
 _0058:
     printattackmessage
     waitmessage

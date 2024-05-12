@@ -9,12 +9,16 @@
 
 .create "build/move/battle_eff_seq/0_249", 0
 
+// Toxic Spikes
+
 a030_249:
-    trytoxicspikes _002C
+    gotosubscript 441
+    if IF_MASK, VAR_MOVE_STATUS, 0x40, Failed // Required to skip over things set before natural failure happens
+    trytoxicspikes Failed
     preparemessage 0x427, 0x1, 0x13, "NaN", "NaN", "NaN", "NaN", "NaN"
     changevar VAR_OP_SET, VAR_ADD_STATUS2, 0x2000005A
     endscript
-_002C:
+Failed:
     changevar VAR_OP_SETMASK, VAR_MOVE_STATUS, 0x40
     endscript
 

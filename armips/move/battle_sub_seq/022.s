@@ -12,19 +12,24 @@
 
 .create "build/move/battle_sub_seq/1_022", 0
 
+// Handle regular poison infliction
+
 a001_022:
     if IF_NOTEQUAL, VAR_ADD_EFFECT_TYPE, 0x6, _0060
     abilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_IMMUNITY, _printAttackIntoNoEffect
+    abilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_PASTEL_VEIL, _printAttackIntoNoEffect
+    abilitycheck 0x0, BATTLER_ALLY | BATTLER_ADDL_EFFECT, ABILITY_PASTEL_VEIL, _printAttackIntoNoEffectFlowerVeil
     checkcloudnine _00CC
     if IF_NOTMASK, VAR_FIELD_EFFECT, WEATHER_SUNNY_ANY, _00CC
     abilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_LEAF_GUARD, _printAttackIntoNoEffect
     goto _00CC
 _0060:
     moldbreakerabilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_IMMUNITY, _printAttackIntoNoEffect
+    moldbreakerabilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_PASTEL_VEIL, _printAttackIntoNoEffect
+    moldbreakerabilitycheck 0x0, BATTLER_ALLY | BATTLER_ADDL_EFFECT, ABILITY_PASTEL_VEIL, _printAttackIntoNoEffectFlowerVeil
     checkcloudnine _checkFlowerVeil
     if IF_NOTMASK, VAR_FIELD_EFFECT, WEATHER_SUNNY_ANY, _checkFlowerVeil
     moldbreakerabilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_LEAF_GUARD, _printAttackIntoNoEffect
-
 _checkFlowerVeil:
     moldbreakerabilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_FLOWER_VEIL, _checkGrassTypeForFlowerVeil
     moldbreakerabilitycheck 0x0, BATTLER_ALLY | BATTLER_ADDL_EFFECT, ABILITY_FLOWER_VEIL, _checkGrassTypeForFlowerVeil
@@ -41,6 +46,7 @@ CheckMistyTerrain:
 _00A4:
     if IF_NOTEQUAL, VAR_ADD_EFFECT_TYPE, 0x2, _00CC
     moldbreakerabilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_SHIELD_DUST, _0368
+    ifmonstat IF_EQUAL, BATTLER_ADDL_EFFECT, MON_DATA_ITEM, ITEM_COVERT_CLOAK, _0368
 _00CC:
     if IF_NOTEQUAL, VAR_ADD_EFFECT_TYPE, 0x1, _00E8
     printattackmessage
@@ -162,7 +168,7 @@ _printAttackIntoNoEffectFlowerVeil:
     waitmessage
     wait 0x1E
 _skipAttackMessageFlowerVeil:
-    printmessage 1388, TAG_NICK_ABILITY, BATTLER_ALLY | BATTLER_ADDL_EFFECT, BATTLER_ALLY | BATTLER_ADDL_EFFECT, "NaN", "NaN", "NaN", "NaN" // {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nprevents poisoning!
+    printmessage 650, TAG_NICK_ABILITY, BATTLER_ALLY | BATTLER_ADDL_EFFECT, BATTLER_ALLY | BATTLER_ADDL_EFFECT, "NaN", "NaN", "NaN", "NaN" // {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nprevents poisoning!
     goto _cleanUpAndEnd
 
 MistyTerrainFail:

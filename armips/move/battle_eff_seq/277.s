@@ -9,7 +9,11 @@
 
 .create "build/move/battle_eff_seq/0_277", 0
 
+// Hone Claws effect
+// Not actually used, file 50 is used instead
+
 a030_277:
+    gotosubscript 441
     changevar VAR_OP_SET, VAR_ADD_STATUS1,  ADD_STATUS_HONE_CLAWS | ADD_STATUS_ATTACKER
     endscript
 

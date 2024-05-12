@@ -9,13 +9,12 @@
 
 .create "build/move/battle_eff_seq/0_269", 0
 
+// One-half recoil
+// Head Smash
+
 a030_269:
-    abilitycheck 0x1, BATTLER_ATTACKER, ABILITY_RECKLESS, _0024
-    changevar VAR_OP_SET, VAR_DAMAGE_MULT, 0xC
-_0024:
     changevar VAR_OP_SET, VAR_ADD_STATUS2, 0x2000008A
-    critcalc
-    damagecalc
+    gotosubscript 443
     endscript
 
 .close

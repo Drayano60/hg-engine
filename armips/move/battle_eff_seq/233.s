@@ -9,13 +9,14 @@
 
 .create "build/move/battle_eff_seq/0_233", 0
 
+// Fling
+
 a030_233:
     ifmonstat IF_EQUAL, BATTLER_ATTACKER, MON_DATA_ABILITY, 0x79, _008C
     ifmonstat IF_EQUAL, BATTLER_ATTACKER, MON_DATA_ITEM, 0x70, _008C
     tryfling _008C
     changevar VAR_OP_SET, VAR_ADD_STATUS2, 0xA0000088
-    critcalc
-    damagecalc
+    gotosubscript 466
     printattackmessage
     waitmessage
     wait 0x1E

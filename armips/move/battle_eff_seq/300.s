@@ -6,20 +6,14 @@
 .include "armips/include/itemnums.s"
 .include "armips/include/monnums.s"
 .include "armips/include/movenums.s"
-.include "armips/include/constants.s"
 
 .create "build/move/battle_eff_seq/0_300", 0
 
-// Psyblade
+// Dragon Tail effect
+
 a030_300:
-    ifterrainoverlayistype ELECTRIC_TERRAIN, IncreaseBasePower
-    goto Continue
-// If the user is on Electric Terrain, its base power is increased to 120.
-IncreaseBasePower:
-    changevar VAR_OP_ADD, VAR_ABILITY_TEMP, 40
-Continue:
-    critcalc
-    damagecalc
+    changevar VAR_OP_SET, VAR_ADD_STATUS2, 0x20000055
+    gotosubscript 443
     endscript
 
 .close

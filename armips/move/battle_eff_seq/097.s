@@ -11,16 +11,20 @@ PARENTAL_BOND_SUBSCRIPT equ (353)
 
 .create "build/move/battle_eff_seq/0_097", 0
 
+// Sleep Talk
+
 a030_097:
     setpsychicterrainmoveusedflag
-    ifmonstat IF_NOTMASK, BATTLER_ATTACKER, MON_DATA_STATUS_1, 0x7, _0038
+    gotosubscript 441
+    if IF_MASK, VAR_MOVE_STATUS, 0x40, Failed // Required to skip over things set before natural failure happens
+    ifmonstat IF_NOTMASK, BATTLER_ATTACKER, MON_DATA_STATUS_1, 0x7, Failed
     gotosubscript 20
-    trysleeptalk _0038
+    trysleeptalk Failed
     gotosubscript 76
     ifcurrentmoveisvalidparentalbondmove DoParentalBond
 Continue:
     jumptoeffectscript 0
-_0038:
+Failed:
     changevar VAR_OP_SETMASK, VAR_MOVE_STATUS, 0x40
     endscript
 

@@ -9,9 +9,11 @@
 
 .create "build/move/battle_eff_seq/0_021", 0
 
+// -1 SpAtk
+
 a030_021:
-    critcalc
-    damagecalc
+    gotosubscript 441
+    changevar VAR_OP_SET, VAR_ADD_STATUS1, 0x80000019
     endscript
 
 .close

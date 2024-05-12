@@ -36,6 +36,7 @@ _00EC:
     ifmonstat IF_EQUAL, BATTLER_xFF, MON_DATA_HP, 0x0, _0174
     ifmonstat IF_EQUAL, BATTLER_xFF, MON_DATA_STAT_STAGE_ATTACK, 0xC, _0174
     changemondatabyvalue VAR_OP_ADD, BATTLER_xFF, 0x13, 0x1
+    /* Rage is building */
     printmessage 0x16B, 0x2, 0xFF, "NaN", "NaN", "NaN", "NaN", "NaN"
     waitmessage
     wait 0x1E
@@ -44,6 +45,7 @@ _0174:
     ifmonstat IF_EQUAL, BATTLER_xFF, MON_DATA_ABILITY, ABILITY_STURDY, _01D4
     setstatus2effect BATTLER_xFF, 0xA
     waitmessage
+    /* Hung on using its... */
     printmessage 0x390, 0xF, 0xFF, 0x15, "NaN", "NaN", "NaN", "NaN"
     waitmessage
     wait 0x1E
@@ -53,6 +55,7 @@ _01D4:
     endscript
 _01D8:
     wait 0x1E
+    /* It failed */
     printmessage 0x31C, 0x0, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
     waitmessage
     wait 0x1E

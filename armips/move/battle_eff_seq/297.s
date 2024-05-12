@@ -9,13 +9,11 @@
 
 .create "build/move/battle_eff_seq/0_297", 0
 
-// Population Bomb
+// Incinerate eff
+
 a030_297:
-    // has accuracy check per hit
-    setmultihit 0xA, 0xDD
-    changevar VAR_OP_SET, VAR_SUCCESSIVE_HIT, 0x1
-    critcalc
-    damagecalc
+    changevar VAR_OP_SET, VAR_ADD_STATUS2, ADD_STATUS_INCINERATE | ADD_STATUS_WORK
+    gotosubscript 443
     endscript
 
 .close

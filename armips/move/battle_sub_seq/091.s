@@ -11,6 +11,9 @@
 
 .create "build/move/battle_sub_seq/1_091", 0
 
+// Whirlwind/Roar function was updated in HG-Engine but had issue with Bad Egg coming out sometimes
+// Adjustments have been made to try and fix this but not sure if foolproof
+
 a001_091:
     if IF_MASK, VAR_MOVE_STATUS, 0x10000, _failed
     moldbreakerabilitycheck 0x0, BATTLER_DEFENDER, ABILITY_SUCTION_CUPS, _suctionCupsMessage

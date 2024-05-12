@@ -12,9 +12,13 @@
 
 .create "build/move/battle_sub_seq/1_047", 0
 
+// Handle bad poison infliction
+
 a001_047:
     if IF_NOTEQUAL, VAR_ADD_EFFECT_TYPE, ADD_STATUS_DOKUBISI, NotToxicSpikes
     abilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_IMMUNITY, _03E8
+    abilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_PASTEL_VEIL, _03E8
+    abilitycheck 0x0, BATTLER_ALLY | BATTLER_ADDL_EFFECT, ABILITY_PASTEL_VEIL, _printAttackIntoNoEffectFlowerVeil
     checkcloudnine _checkFlowerVeil
     if IF_NOTMASK, VAR_FIELD_EFFECT, WEATHER_SUNNY_ANY, _checkFlowerVeil ;if not sun
     abilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_LEAF_GUARD, _03E8
@@ -36,10 +40,11 @@ CheckMistyTerrain:
 NotToxicSpikes:
     if IF_NOTEQUAL, VAR_ADD_EFFECT_TYPE, ADD_STATUS_SOUBIITEM, NotToxicOrb
     abilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_IMMUNITY, _end_script
+    abilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_PASTEL_VEIL, _03E8
+    abilitycheck 0x0, BATTLER_ALLY | BATTLER_ADDL_EFFECT, ABILITY_PASTEL_VEIL, _printAttackIntoNoEffectFlowerVeil
     checkcloudnine _checkFlowerVeil2
     if IF_NOTMASK, VAR_FIELD_EFFECT, WEATHER_SUNNY_ANY, _checkFlowerVeil2
     abilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_LEAF_GUARD, _end_script
-
 _checkFlowerVeil2:
     moldbreakerabilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_FLOWER_VEIL, _checkGrassTypeForFlowerVeil2
     moldbreakerabilitycheck 0x0, BATTLER_ALLY | BATTLER_ADDL_EFFECT, ABILITY_FLOWER_VEIL, _checkGrassTypeForFlowerVeil2
@@ -70,6 +75,8 @@ _skipTypeChecks:
     goto _0300
 NotToxicOrb:
     moldbreakerabilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_IMMUNITY, _03E8
+    moldbreakerabilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_PASTEL_VEIL, _03E8
+    moldbreakerabilitycheck 0x0, BATTLER_ALLY | BATTLER_ADDL_EFFECT, ABILITY_PASTEL_VEIL, _printAttackIntoNoEffectFlowerVeil
     checkcloudnine _checkFlowerVeil3
     if IF_NOTMASK, VAR_FIELD_EFFECT, WEATHER_SUNNY_ANY, _checkFlowerVeil3
     moldbreakerabilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_LEAF_GUARD, _03E8
@@ -86,6 +93,7 @@ CheckMistyTerrain3:
 _01C0:
     if IF_NOTEQUAL, VAR_ADD_EFFECT_TYPE, ADD_STATUS_INDIRECT, _01E8
     moldbreakerabilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_SHIELD_DUST, _0450
+    ifmonstat IF_EQUAL, BATTLER_ADDL_EFFECT, MON_DATA_ITEM, ITEM_COVERT_CLOAK, _0450
 _01E8:
     if IF_NOTEQUAL, VAR_ADD_EFFECT_TYPE, ADD_STATUS_DIRECT, _0204
     printattackmessage
@@ -118,8 +126,12 @@ _032C:
     setstatus2effect BATTLER_ADDL_EFFECT, 0x2
     waitmessage
     changemondatabyvalue VAR_OP_SETMASK, BATTLER_ADDL_EFFECT, 0x34, 0x80
+    if IF_EQUAL, VAR_ADD_EFFECT_TYPE, 0x3, _AbilityHandler /* Text for bad poison inflicted by abilities */
     if IF_EQUAL, VAR_ADD_EFFECT_TYPE, ADD_STATUS_SOUBIITEM, _037C
     printmessage 0x4F, 0x2, 0x7, "NaN", "NaN", "NaN", "NaN", "NaN"
+    goto _0390
+_AbilityHandler:
+    printmessage 0x55D, 0x24, 0xFF, 0x15, 0x7, "NaN", "NaN", "NaN"
     goto _0390
 _037C:
     printmessage 0x490, 0xF, 0x7, 0xFF, "NaN", "NaN", "NaN", "NaN"

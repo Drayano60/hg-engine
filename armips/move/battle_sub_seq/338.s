@@ -11,9 +11,9 @@
 
 .create "build/move/battle_sub_seq/1_338", 0x0
 
-a001_337:
+a001_338:
     changevar2 VAR_OP_SET, VAR_DEFENDER, VAR_BATTLER_SOMETHING
-    printmessage 1370, TAG_NICK_ITEM, BATTLER_DEFENDER, BATTLER_DEFENDER, "NaN", "NaN", "NaN", "NaN" // {STRVAR_1 1, 0, 0} floats in the\nair with its {STRVAR_1 5, 1, 0}!
+    printmessage 1443, TAG_NICK_ITEM, BATTLER_DEFENDER, BATTLER_DEFENDER, "NaN", "NaN", "NaN", "NaN" // {STRVAR_1 1, 0, 0} floats in the\nair with its {STRVAR_1 5, 1, 0}!
     waitmessage
     wait 0x1E
     endscript

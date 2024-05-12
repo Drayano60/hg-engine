@@ -9,6 +9,8 @@
 
 .create "build/move/battle_eff_seq/0_261", 0
 
+// Whirlpool
+
 a030_261:
     changevar VAR_OP_SETMASK, VAR_SERVER_STATUS1, 0x10
     changevar VAR_OP_SET, VAR_DAMAGE_MULT, 0xA
@@ -16,8 +18,7 @@ a030_261:
     changevar VAR_OP_SET, VAR_DAMAGE_MULT, 0x14
 _0048:
     changevar VAR_OP_SET, VAR_ADD_STATUS2, 0x8200000D
-    critcalc
-    damagecalc
+    gotosubscript 443
     endscript
 
 .close

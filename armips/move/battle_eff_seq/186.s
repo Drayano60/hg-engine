@@ -9,10 +9,11 @@
 
 .create "build/move/battle_eff_seq/0_186", 0
 
+// Brick Break
+
 a030_186:
     changevar VAR_OP_SET, VAR_ADD_STATUS1, 0x80800070
-    critcalc
-    damagecalc
+    gotosubscript 443
     endscript
 
 .close

@@ -9,8 +9,10 @@
 
 .create "build/move/battle_eff_seq/0_295", 0
 
+// Effect ID is used for Sacred Sword in calculator functions
+
 a030_295:
-    changevar VAR_OP_SET, VAR_ADD_STATUS1,  ADD_STATUS_WORK_UP | ADD_STATUS_ATTACKER
+    gotosubscript 443
     endscript
 
 .close

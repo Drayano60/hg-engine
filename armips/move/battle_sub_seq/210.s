@@ -9,6 +9,8 @@
 
 .create "build/move/battle_sub_seq/1_210", 0
 
+/* Starf Berry? */
+
 a001_210:
     setstatus2effect BATTLER_xFF, 0xA
     waitmessage

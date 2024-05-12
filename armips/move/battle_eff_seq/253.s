@@ -9,13 +9,12 @@
 
 .create "build/move/battle_eff_seq/0_253", 0
 
+// One-third recoil with a chance of burn
+// Flare Blitz
+
 a030_253:
-    abilitycheck 0x1, BATTLER_ATTACKER, ABILITY_RECKLESS, _0024
-    changevar VAR_OP_SET, VAR_DAMAGE_MULT, 0xC
-_0024:
     changevar VAR_OP_SET, VAR_ADD_STATUS2, 0x84000082
-    critcalc
-    damagecalc
+    gotosubscript 443
     endscript
 
 .close

@@ -9,12 +9,13 @@
 
 .create "build/move/battle_eff_seq/0_153", 0
 
+// Teleport
+
 a030_153:
-    if IF_MASK, VAR_BATTLE_TYPE, 0x1, _0028
-    changevar VAR_OP_SET, VAR_ADD_STATUS1, 0x20000065
-    endscript
-_0028:
-    tryswitchinmon BATTLER_ATTACKER, 0x1, _failed
+    gotosubscript 441
+    if IF_MASK, VAR_MOVE_STATUS, 0x40, Failed // Required to skip over things set before natural failure happens
+    if IF_EQUAL, VAR_BATTLE_TYPE, 0x0, WildBattleTeleport
+    tryswitchinmon BATTLER_ATTACKER, 0x1, Failed
     gotosubscript 76
     trynaturalcure BATTLER_ATTACKER, _0038
     changemondatabyvalue VAR_OP_SET, BATTLER_ATTACKER, 0x34, 0x0
@@ -27,7 +28,11 @@ _0038:
     changevar VAR_OP_CLEARMASK, VAR_SERVER_STATUS1, 0x80
     changevar VAR_OP_SET, VAR_ATTACKER_STATUS, 0x0
     jumptosubseq 10
-_failed:
+    endscript
+WildBattleTeleport:
+    changevar VAR_OP_SET, VAR_ADD_STATUS1, 0x20000065
+    endscript
+Failed:
     changevar VAR_OP_SETMASK, VAR_MOVE_STATUS, 0x40
     endscript
 

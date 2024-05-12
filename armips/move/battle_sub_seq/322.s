@@ -17,10 +17,24 @@ a001_322:
 
     if IF_EQUAL, VAR_CALCULATION_WORK, 8, lower_stat
     changevar2 VAR_OP_SET, VAR_ADD_EFFECT_ATTRIBUTE, VAR_CALCULATION_WORK // sp->calc_work
-    changevar VAR_OP_ADD, VAR_ADD_EFFECT_ATTRIBUTE, 0x27
+    changevar VAR_OP_ADD, VAR_ADD_EFFECT_ATTRIBUTE, ATTACK_UP_2
+
+    // Show ability in stat change text
+    changevar VAR_OP_SET, VAR_ADD_EFFECT_TYPE, 0x3
     gotosubscript 12
 
 lower_stat:
+    // Reset animation
+    changevar VAR_OP_CLEARMASK, VAR_SERVER_STATUS2, 0x2
+    changevar VAR_OP_CLEARMASK, VAR_SERVER_STATUS2, 0x80
+    changevar VAR_OP_SETMASK, VAR_SERVER_STATUS1, 0x200000
+
+    changevar VAR_OP_SETMASK, VAR_SERVER_STATUS1, 0x4001
+    changevar VAR_OP_SETMASK, VAR_SERVER_STATUS2, 0x80
+    
+    // Show ability in stat change text
+    changevar VAR_OP_SET, VAR_ADD_EFFECT_TYPE, 0x3
+
     if IF_EQUAL, VAR_ABILITY_TEMP2, 8, skip_lower
     changevar2 VAR_OP_SET, VAR_ADD_EFFECT_ATTRIBUTE, VAR_ABILITY_TEMP2 // sp->tokusei_work
     changevar VAR_OP_ADD, VAR_ADD_EFFECT_ATTRIBUTE, ATTACK_DOWN
@@ -30,10 +44,5 @@ skip_lower:
     changevar VAR_OP_CLEARMASK, VAR_SERVER_STATUS2, 0x2
     changevar VAR_OP_CLEARMASK, VAR_SERVER_STATUS2, 0x80
     endscript
-
-
-
-
-
 
 .close

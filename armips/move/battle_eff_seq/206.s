@@ -9,7 +9,10 @@
 
 .create "build/move/battle_eff_seq/0_206", 0
 
+// Cosmic Power
+
 a030_206:
+    gotosubscript 441
     changevar VAR_OP_SET, VAR_ADD_STATUS1, 0x40000037
     endscript
 

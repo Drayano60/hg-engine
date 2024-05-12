@@ -9,11 +9,13 @@
 
 .create "build/move/battle_eff_seq/0_200", 0
 
+// High crit with a chance of burn
+// Blaze Kick
+
 a030_200:
     changevar VAR_OP_ADD, VAR_CRIT_CHANCE, 0x1
     changevar VAR_OP_SET, VAR_ADD_STATUS2, 0x80000003
-    critcalc
-    damagecalc
+    gotosubscript 443
     endscript
 
 .close

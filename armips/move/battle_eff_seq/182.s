@@ -9,10 +9,11 @@
 
 .create "build/move/battle_eff_seq/0_182", 0
 
+// Superpower
+
 a030_182:
     changevar VAR_OP_SET, VAR_ADD_STATUS2, 0x60000025
-    critcalc
-    damagecalc
+    gotosubscript 443
     endscript
 
 .close

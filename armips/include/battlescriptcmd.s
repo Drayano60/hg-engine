@@ -20,6 +20,19 @@ ADD_STATUS_SHED_TAIL equ 159
 ADD_STATUS_AFTER_YOU equ 160
 ADD_STATUS_QUASH equ 161
 
+/**** AURORA CRYSTAL: New Effects ****/
+ADD_STATUS_NOBLE_ROAR equ 156
+ADD_STATUS_INCINERATE equ 157
+ADD_STATUS_WORK_UP equ 158
+ADD_STATUS_SCALE_SHOT equ 159
+ADD_STATUS_AURORA_VEIL equ 160
+ADD_STATUS_STEEL_BEAM equ 161
+ADD_STATUS_FINAL_GAMBIT equ 164
+ADD_STATUS_TAIL_GLOW equ 166
+ADD_STATUS_COTTON_GUARD equ 167
+ADD_STATUS_PARTING_SHOT equ 168
+ADD_STATUS_VICTORY_DANCE equ 171
+
 // status change
 
 ADD_STATUS_WORK     equ 0x20000000
@@ -65,6 +78,15 @@ SPDEF_DOWN_2 equ 50
 ACCURACY_DOWN_2 equ 51
 EVASION_DOWN_2 equ 52
 
+/**** AURORA CRYSTAL: Expanded stat drops for Tail Glow ****/
+ATTACK_UP_3 equ 53
+DEFENCE_UP_3 equ 54
+SPEED_UP_3 equ 55
+SPATK_UP_3 equ 56
+SPDEF_UP_3 equ 57
+ACCURACY_UP_3 equ 58
+EVASION_UP_3 equ 59
+
 WEATHER_RAIN                        equ (0x00000001)                                                                    // 0000 0000 0000 0000 0001
 WEATHER_RAIN_PERMANENT              equ (0x00000002)                                                                    // 0000 0000 0000 0000 0010
 WEATHER_RAIN_ANY                    equ (0x02000003)                                                          // 0010 0000 0000 0000 0000 0000 0011
@@ -88,7 +110,7 @@ FIELD_STATUS_TRICK_ROOM             equ (0x00070000)                            
 WEATHER_SNOW                        equ (0x00100000)                                                          //      0001 0000 0000 0000 0000 0000
 WEATHER_SNOW_PERMANENT              equ (0x00200000)                                                          //      0010 0000 0000 0000 0000 0000
 WEATHER_SNOW_ANY                    equ (0x00300000)                                                          //      0011 0000 0000 0000 0000 0000
-// We have 2 extra bits let's have fun:
+// We have 2 extra bits lets have fun:
 WEATHER_SHADOWY_AURA                equ (0x00400000)                                                          //      0100 0000 0000 0000 0000 0000
 WEATHER_SHADOWY_AURA_PERMANENT      equ (0x00800000)                                                          //      1000 0000 0000 0000 0000 0000
 WEATHER_SHADOWY_AURA_ANY            equ (0x00c00000)                                                          //      1100 0000 0000 0000 0000 0000
@@ -164,7 +186,7 @@ MON_DATA_STATUS_1 equ 52
 MON_DATA_STATUS_2 equ 53
 MON_DATA_54 equ 54
 MON_DATA_ITEM equ 55
-MON_DATA_56 equ 56
+MON_DATA_56 equ 56 // This may be the hit count
 MON_DATA_57 equ 57
 MON_DATA_58 equ 58
 MON_DATA_MOVE_STATE equ 59
@@ -1617,4 +1639,23 @@ MOVE_DATA_CONTEST_TYPE equ 11
 
 .macro clearbindcounter
     .word 0xF8
+.endmacro
+
+/**** AURORA CRYSTAL: Additional Battle Commands ****/
+.macro echoedvoicedamagecalc
+    .word 0xF9
+.endmacro
+
+.macro iflasthitofmultihit,address
+    .word 0xFA
+    .word ((address - org()) / 4) - 1
+.endmacro
+
+.macro strengthsapcalc
+    .word 0xFB
+.endmacro
+
+.macro didtargetraisestat,address
+    .word 0xFC
+    .word ((address - org()) / 4) - 1
 .endmacro

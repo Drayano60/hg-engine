@@ -143,8 +143,8 @@ heightentry SPECIES_GYARADOS, 6, 6, 0, 0
 heightentry SPECIES_LAPRAS, 4, 4, 9, 9
 heightentry SPECIES_DITTO, "null", 22, "null", 25
 heightentry SPECIES_EEVEE, 13, 13, 18, 18
-heightentry SPECIES_VAPOREON, 6, 6, 18, 18
-heightentry SPECIES_JOLTEON, 7, 7, 16, 16
+heightentry SPECIES_VAPOREON, 6, 6, 15, 15
+heightentry SPECIES_JOLTEON, 7, 7, 17, 17
 heightentry SPECIES_FLAREON, 9, 9, 14, 14
 heightentry SPECIES_PORYGON, "null", 16, "null", 23
 heightentry SPECIES_OMANYTE, 15, 15, 23, 23
@@ -257,7 +257,7 @@ heightentry SPECIES_ENTEI, "null", 13, "null", 5
 heightentry SPECIES_SUICUNE, "null", 0, "null", 6
 heightentry SPECIES_LARVITAR, 7, 7, 18, 18
 heightentry SPECIES_PUPITAR, 9, 9, 18, 18
-heightentry SPECIES_TYRANITAR, 2, 2, 5, 5
+heightentry SPECIES_TYRANITAR, 2, 2, 4, 4
 heightentry SPECIES_LUGIA, "null", 0, "null", 3
 heightentry SPECIES_HO_OH, "null", 2, "null", 0
 heightentry SPECIES_CELEBI, "null", 9, "null", 20
@@ -749,7 +749,7 @@ heightentry SPECIES_SWIRLIX, 9, 9, 0, 0
 heightentry SPECIES_SLURPUFF, 3, 3, 13, 13
 heightentry SPECIES_INKAY, 11, 11, 0, 0
 heightentry SPECIES_MALAMAR, 0, 0, 0, 0
-heightentry SPECIES_BINACLE, 5, 5, 0, 0
+heightentry SPECIES_BINACLE, 5, 5, 14, 14
 heightentry SPECIES_BARBARACLE, 4, 4, 0, 0
 heightentry SPECIES_SKRELP, 3, 3, 0, 0
 heightentry SPECIES_DRAGALGE, 0, 0, 0, 0
@@ -1178,7 +1178,7 @@ heightentry SPECIES_DARUMAKA_GALARIAN, 0, 0, 0, 0
 heightentry SPECIES_DARMANITAN_GALARIAN, 0, 0, 0, 0
 heightentry SPECIES_YAMASK_GALARIAN, 0, 0, 0, 0
 heightentry SPECIES_STUNFISK_GALARIAN, 0, 0, 0, 0
-heightentry SPECIES_PIKACHU_COSPLAY, 0, 0, 0, 0
+heightentry SPECIES_PIKACHU_COSPLAY, 5, 5, 14, 14 // Uses regular Pikachu HGSS sprite
 heightentry SPECIES_PIKACHU_ROCK_STAR, 0, 0, 0, 0
 heightentry SPECIES_PIKACHU_BELLE, 0, 0, 0, 0
 heightentry SPECIES_PIKACHU_POP_STAR, 0, 0, 0, 0

@@ -1813,10 +1813,10 @@ FLAG_SYS_FLYPOINT_NEW_BARK                                equ 0x9BB
 FLAG_SYS_FLYPOINT_CHERRYGROVE                             equ 0x9BC
 FLAG_SYS_FLYPOINT_VIOLET                                  equ 0x9BD
 FLAG_SYS_FLYPOINT_AZALEA                                  equ 0x9BE
-FLAG_SYS_FLYPOINT_GOLDENROD                               equ 0x9BF
-FLAG_SYS_FLYPOINT_ECRUTEAK                                equ 0x9C0
+FLAG_SYS_FLYPOINT_CIANWOOD                                equ 0x9BF /* Labelled wrong on main branch */
+FLAG_SYS_FLYPOINT_GOLDENROD                               equ 0x9C0 /* Labelled wrong on main branch */
 FLAG_SYS_FLYPOINT_OLIVINE                                 equ 0x9C1
-FLAG_SYS_FLYPOINT_CIANWOOD                                equ 0x9C2
+FLAG_SYS_FLYPOINT_ECRUTEAK                                equ 0x9C2 /* Labelled wrong on main branch */
 FLAG_SYS_FLYPOINT_MAHOGANY                                equ 0x9C3
 FLAG_SYS_FLYPOINT_LAKE_OF_RAGE                            equ 0x9C4
 FLAG_SYS_FLYPOINT_BLACKTHORN                              equ 0x9C5

@@ -53,7 +53,7 @@ armips/asm/trainer_ai.s - ~0x60 bytes of extra code
 plus all the c injection stuff.  we are not worried about that here, that is dynamically managed
 */
 
-/* AURORA CRYSTAL: Custom Changes */
+/**** AURORA CRYSTAL: Custom Miscellanous Changes ****/
 .include "armips/asm/custom/ai_edits.s"
 .include "armips/asm/custom/conditional_music.s"
 .include "armips/asm/custom/confusion_berries.s"

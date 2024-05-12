@@ -9,8 +9,6 @@
 
 .create "build/move/battle_eff_seq/0_075", 0
 
-// Sky Attack
-
 a030_075:
     ifmonstat IF_MASK, BATTLER_ATTACKER, MON_DATA_STATUS_2, 0x1000, _006C
     checkitemeffect 0x0, BATTLER_ATTACKER, 0x63, _0050
@@ -22,7 +20,8 @@ _0050:
     if IF_EQUAL, VAR_DEFENDER, 0xFF, _0094
 _006C:
     changevar VAR_OP_ADD, VAR_CRIT_CHANCE, 0x1
-    gotosubscript 466
+    critcalc
+    damagecalc
     changevar VAR_OP_SET, VAR_ADD_STATUS2, 0x80000008
 _0094:
     gotosubscript 259

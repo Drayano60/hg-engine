@@ -9,17 +9,13 @@
 
 .create "build/move/battle_eff_seq/0_251", 0
 
-// Aqua Ring
-
 a030_251:
-    gotosubscript 441
-    if IF_MASK, VAR_MOVE_STATUS, 0x40, Failed // Required to skip over things set before natural failure happens
-    ifmonstat IF_MASK, BATTLER_ATTACKER, MON_DATA_MOVE_STATE, 0x1000000, Failed
+    ifmonstat IF_MASK, BATTLER_ATTACKER, MON_DATA_MOVE_STATE, 0x1000000, _0050
     changemondatabyvalue VAR_OP_SETMASK, BATTLER_ATTACKER, 0x3B, 0x1000000
     preparemessage 0x403, 0x2, 0x1, "NaN", "NaN", "NaN", "NaN", "NaN"
     changevar VAR_OP_SET, VAR_ADD_STATUS1, 0x2000005A
     endscript
-Failed:
+_0050:
     changevar VAR_OP_SETMASK, VAR_MOVE_STATUS, 0x40
     endscript
 

@@ -9,15 +9,10 @@
 
 .create "build/move/battle_eff_seq/0_305", 0
 
-// Stone Axe effect
+// After You
 
 a030_305:
-    if IF_MASK, VAR_SIDE_EFFECT_OPPONENT, 0x80, _Damage
-    changevar VAR_OP_SETMASK, VAR_SIDE_EFFECT_OPPONENT, 0x80
-    preparemessage 0x435, 0x1, 0x13, "NaN", "NaN", "NaN", "NaN", "NaN"
-    changevar VAR_OP_SET, VAR_ADD_STATUS2, 0x2000005A
-_Damage:
-    gotosubscript 443
+    changevar VAR_OP_SET, VAR_ADD_STATUS1,  ADD_STATUS_AFTER_YOU | ADD_STATUS_DEFENDER
     endscript
 
 .close

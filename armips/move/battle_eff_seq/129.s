@@ -11,7 +11,8 @@
 
 a030_129:
     changevar VAR_OP_SET, VAR_ADD_STATUS2, ADD_STATUS_ATTACKER | SPEED_UP
-    gotosubscript 443
+    critcalc
+    damagecalc
     endscript
 
 .close

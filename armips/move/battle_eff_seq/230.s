@@ -9,12 +9,10 @@
 
 .create "build/move/battle_eff_seq/0_230", 0
 
-// Double damage if it goes last
-// Payback
-
 a030_230:
     paybackdamagecalc
-    gotosubscript 443
+    critcalc
+    damagecalc
     endscript
 
 .close

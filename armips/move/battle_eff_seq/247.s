@@ -9,10 +9,7 @@
 
 .create "build/move/battle_eff_seq/0_247", 0
 
-// Worry Seed
-
 a030_247:
-    gotosubscript 441
     changevar VAR_OP_SET, VAR_ADD_STATUS1, 0xA0000080
     endscript
 

@@ -9,8 +9,6 @@
 
 .create "build/move/battle_eff_seq/0_227", 0
 
-// Metal Burst
-
 a030_227:
     metalburstdamagecalc _001C
     changevar VAR_OP_SETMASK, VAR_SERVER_STATUS1, 0x800

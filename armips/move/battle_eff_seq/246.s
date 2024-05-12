@@ -9,11 +9,10 @@
 
 .create "build/move/battle_eff_seq/0_246", 0
 
-// Last Resort
-
 a030_246:
     trylastresort _0014
-    gotosubscript 443
+    critcalc
+    damagecalc
     endscript
 _0014:
     changevar VAR_OP_SETMASK, VAR_MOVE_STATUS, 0x40

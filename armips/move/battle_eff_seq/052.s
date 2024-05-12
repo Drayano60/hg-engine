@@ -9,10 +9,7 @@
 
 .create "build/move/battle_eff_seq/0_052", 0
 
-// Sharply raise speed
-
 a030_052:
-    gotosubscript 441
     changevar VAR_OP_SET, VAR_ADD_STATUS1, 0x40000029
     endscript
 

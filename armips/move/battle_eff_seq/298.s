@@ -9,12 +9,15 @@
 
 .create "build/move/battle_eff_seq/0_298", 0
 
-// Work Up effect
-// Not actually used, file 53 is used instead
-
+// Triple Axel
 a030_298:
-    gotosubscript 441
-    changevar VAR_OP_SET, VAR_ADD_STATUS1, ADD_STATUS_WORK_UP | ADD_STATUS_ATTACKER
+    // has accuracy check per hit
+    setmultihit 0x3, 0xDD
+    changevar VAR_OP_SET, VAR_SUCCESSIVE_HIT, 0x1
+    //  Its base power will increase by 20 with each successive strike
+    changevar VAR_OP_ADD, VAR_ABILITY_TEMP, 20
+    critcalc
+    damagecalc
     endscript
 
 .close

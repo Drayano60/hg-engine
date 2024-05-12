@@ -16,7 +16,8 @@ a030_034:
 Continue:
     changevar VAR_OP_SET, VAR_ADD_STATUS2, 0x8100000B
 SkipEffect:
-    gotosubscript 443
+    critcalc
+    damagecalc
     endscript
 
 .close

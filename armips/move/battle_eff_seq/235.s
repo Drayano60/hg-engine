@@ -9,11 +9,10 @@
 
 .create "build/move/battle_eff_seq/0_235", 0
 
-// Trump Card
-
 a030_235:
     trumpcarddamagecalc
-    gotosubscript 443
+    critcalc
+    damagecalc
     endscript
 
 .close

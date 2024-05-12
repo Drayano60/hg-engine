@@ -9,10 +9,7 @@
 
 .create "build/move/battle_eff_seq/0_085", 0
 
-// Splash
-
 a030_085:
-    gotosubscript 441
     changevar VAR_OP_SETMASK, VAR_MOVE_STATUS, 0x2000
     endscript
 

@@ -9,10 +9,7 @@
 
 .create "build/move/battle_eff_seq/0_211", 0
 
-// Calm Mind
-
 a030_211:
-    gotosubscript 441
     changevar VAR_OP_SET, VAR_ADD_STATUS1, 0x4000003A
     endscript
 

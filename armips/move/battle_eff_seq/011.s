@@ -9,10 +9,7 @@
 
 .create "build/move/battle_eff_seq/0_011", 0
 
-// Defense +1 effect
-
 a030_011:
-    gotosubscript 441
     changevar VAR_OP_SET, VAR_ADD_STATUS1, 0x40000010
     endscript
 

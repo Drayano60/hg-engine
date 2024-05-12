@@ -11,8 +11,6 @@
 
 .create "build/move/battle_eff_seq/0_171", 0
 
-// Smelling Salts
-
 a030_171:
     checksubstitute BATTLER_DEFENDER, _005C
     ifmonstat IF_MASK, BATTLER_DEFENDER, MON_DATA_STATUS_1, 0x40, _003C
@@ -23,7 +21,8 @@ _003C:
     iffirsthitofparentalbond _005C
     changevar VAR_OP_SET, VAR_ADD_STATUS2, 0x20000024
 _005C:
-    gotosubscript 443
+    critcalc
+    damagecalc
     endscript
 
 .close

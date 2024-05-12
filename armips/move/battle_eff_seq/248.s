@@ -9,11 +9,10 @@
 
 .create "build/move/battle_eff_seq/0_248", 0
 
-// Sucker Punch
-
 a030_248:
     trysuckerpunch _0014
-    gotosubscript 443
+    critcalc
+    damagecalc
     endscript
 _0014:
     changevar VAR_OP_SETMASK, VAR_MOVE_STATUS, 0x40

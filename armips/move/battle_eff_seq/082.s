@@ -9,10 +9,7 @@
 
 .create "build/move/battle_eff_seq/0_082", 0
 
-// Mimic
-
 a030_082:
-    gotosubscript 441
     changevar VAR_OP_SET, VAR_ADD_STATUS1, 0x20000047
     endscript
 

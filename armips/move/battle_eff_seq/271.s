@@ -9,12 +9,10 @@
 
 .create "build/move/battle_eff_seq/0_271", 0
 
-// Chance to sharply drop SpDef
-// Seed Flare
-
 a030_271:
     changevar VAR_OP_SET, VAR_ADD_STATUS2, 0x80000032
-    gotosubscript 443
+    critcalc
+    damagecalc
     endscript
 
 .close

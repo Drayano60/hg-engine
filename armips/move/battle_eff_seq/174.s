@@ -9,11 +9,7 @@
 
 .create "build/move/battle_eff_seq/0_174", 0
 
-
-// Charge
-
 a030_174:
-    gotosubscript 441
     changevar VAR_OP_SET, VAR_ADD_STATUS2, 0x2000006C
     endscript
 

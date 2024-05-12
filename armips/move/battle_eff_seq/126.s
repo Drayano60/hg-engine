@@ -17,7 +17,8 @@ a030_126:
 _0048:
     changevar VAR_OP_SET, VAR_ADD_STATUS1, 0xA0000062
     magnitudedamagecalc
-    gotosubscript 443
+    critcalc
+    damagecalc
     endscript
 
 .close

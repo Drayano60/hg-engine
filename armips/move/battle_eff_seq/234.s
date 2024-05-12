@@ -9,15 +9,11 @@
 
 .create "build/move/battle_eff_seq/0_234", 0
 
-// Psycho Shift
-
 a030_234:
-    gotosubscript 441
-    if IF_MASK, VAR_MOVE_STATUS, 0x40, Failed // Required to skip over things set before natural failure happens
-    trypsychoshift Failed
+    trypsychoshift _001C
     changevar VAR_OP_SET, VAR_ADD_STATUS1, 0x80000090
     endscript
-Failed:
+_001C:
     changevar VAR_OP_SETMASK, VAR_MOVE_STATUS, 0x40
     endscript
 

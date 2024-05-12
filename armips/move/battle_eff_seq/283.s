@@ -9,12 +9,8 @@
 
 .create "build/move/battle_eff_seq/0_283", 0
 
-// Quiver Dance effect
-// Not actually used, file 53 is used instead
-
 a030_283:
-    gotosubscript 441
-    changevar VAR_OP_SET, VAR_ADD_STATUS1, ADD_STATUS_QUIVER_DANCE | ADD_STATUS_ATTACKER
+    changevar VAR_OP_SET, VAR_ADD_STATUS1,  ADD_STATUS_QUIVER_DANCE | ADD_STATUS_ATTACKER
     endscript
 
 .close

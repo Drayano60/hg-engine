@@ -9,16 +9,12 @@
 
 .create "build/move/battle_eff_seq/0_195", 0
 
-// Snatch
-
 a030_195:
-    gotosubscript 441
-    if IF_MASK, VAR_MOVE_STATUS, 0x40, Failed // Required to skip over things set before natural failure happens
-    trysnatch Failed
+    trysnatch _002C
     preparemessage 0x241, 0x2, 0x1, "NaN", "NaN", "NaN", "NaN", "NaN"
     changevar VAR_OP_SET, VAR_ADD_STATUS2, 0x2000005A
     endscript
-Failed:
+_002C:
     changevar VAR_OP_SET, VAR_MOVE_STATUS, 0x40
     endscript
 

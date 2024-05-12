@@ -9,15 +9,14 @@
 
 .create "build/move/battle_eff_seq/0_222", 0
 
-// Natural Gift
-
 a030_222:
     trynaturalgift _001C
     iffirsthitofparentalbond SkipRemoveItem
     // swap execution order otherwise it doesn't work for some reason
     removeitem BATTLER_ATTACKER
 SkipRemoveItem:
-    gotosubscript 443
+    critcalc
+    damagecalc
     endscript
 _001C:
     changevar VAR_OP_SETMASK, VAR_MOVE_STATUS, 0x40

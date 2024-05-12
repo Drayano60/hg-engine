@@ -9,11 +9,7 @@
 
 .create "build/move/battle_eff_seq/0_109", 0
 
-// Curse
-
 a030_109:
-    gotosubscript 441
-    if IF_MASK, VAR_MOVE_STATUS, 0x40, Failed // Required to skip over things set before natural failure happens
     ifmonstat IF_EQUAL, BATTLER_ATTACKER, MON_DATA_TYPE_1, 0x7, _0044
     ifmonstat IF_EQUAL, BATTLER_ATTACKER, MON_DATA_TYPE_2, 0x7, _0044
     changevar VAR_OP_SET, VAR_ADD_STATUS1, 0x40000058
@@ -24,9 +20,6 @@ _0044:
 _0060:
     changevar VAR_OP_SET, VAR_ADD_STATUS1, 0x20000059
     changevar VAR_OP_SET, VAR_MOVE_EFFECT, 0x1
-    endscript
-Failed:
-    changevar VAR_OP_SETMASK, VAR_MOVE_STATUS, 0x40
     endscript
 
 .close

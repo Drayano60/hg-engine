@@ -11,13 +11,9 @@ PARENTAL_BOND_SUBSCRIPT equ (353)
 
 .create "build/move/battle_eff_seq/0_242", 0
 
-// Copycat
-
 a030_242:
     setpsychicterrainmoveusedflag
-    gotosubscript 441
-    if IF_MASK, VAR_MOVE_STATUS, 0x40, Failed // Required to skip over things set before natural failure happens
-    trycopycat Failed
+    trycopycat _0024
     printattackmessage
     waitmessage
     playanimation BATTLER_ATTACKER
@@ -25,7 +21,7 @@ a030_242:
     ifcurrentmoveisvalidparentalbondmove DoParentalBond
 Continue:
     jumptoeffectscript 0
-Failed:
+_0024:
     changevar VAR_OP_SETMASK, VAR_MOVE_STATUS, 0x40
     endscript
 

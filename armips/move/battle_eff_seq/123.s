@@ -14,7 +14,8 @@ a030_123:
     changevar VAR_OP_SUB, VAR_ABILITY_TEMP, 0xFF
     changevar VAR_OP_MUL, VAR_ABILITY_TEMP, 0xFFFFFFF6
     changevar VAR_OP_DIV, VAR_ABILITY_TEMP, 0x19
-    gotosubscript 443
+    critcalc
+    damagecalc
     endscript
 
 .close

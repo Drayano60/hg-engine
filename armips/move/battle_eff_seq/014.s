@@ -9,11 +9,9 @@
 
 .create "build/move/battle_eff_seq/0_014", 0
 
-// SpDef +1 effect
-
 a030_014:
-    gotosubscript 441
-    changevar VAR_OP_SET, VAR_ADD_STATUS1, 0x40000013
+    critcalc
+    damagecalc
     endscript
-    
+
 .close

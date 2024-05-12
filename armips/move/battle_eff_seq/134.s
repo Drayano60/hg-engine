@@ -10,7 +10,8 @@
 .create "build/move/battle_eff_seq/0_134", 0
 
 a030_134:
-    gotosubscript 443
+    critcalc
+    damagecalc
     endscript
 
 .close

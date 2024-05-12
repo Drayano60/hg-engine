@@ -19,7 +19,8 @@ Attack:
     setmultihit 0x2, 0xFD
     changevar VAR_OP_SET, VAR_SUCCESSIVE_HIT, 0x1
 SkipParentalBondEffect:
-    gotosubscript 443
+    critcalc
+    damagecalc
     endscript
 _0014:
     changevar2 VAR_OP_SET, VAR_BATTLER_SOMETHING, VAR_DEFENDER

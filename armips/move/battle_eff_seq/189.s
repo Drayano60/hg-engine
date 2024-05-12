@@ -9,8 +9,6 @@
 
 .create "build/move/battle_eff_seq/0_189", 0
 
-// Endeavor
-
 a030_189:
     changemondatabyvar VAR_OP_GET_RESULT, BATTLER_DEFENDER, 0x2F, VAR_DAMAGE
     changemondatabyvar VAR_OP_GET_RESULT, BATTLER_ATTACKER, 0x2F, VAR_CALCULATION_WORK

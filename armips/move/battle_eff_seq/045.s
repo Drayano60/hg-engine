@@ -10,8 +10,12 @@
 .create "build/move/battle_eff_seq/0_045", 0
 
 a030_045:
+    abilitycheck 0x1, BATTLER_ATTACKER, ABILITY_RECKLESS, _0024
+    changevar VAR_OP_SET, VAR_DAMAGE_MULT, 0xC
+_0024:
     changevar VAR_OP_SETMASK, VAR_SERVER_STATUS1, 0x1000
-    gotosubscript 443
+    critcalc
+    damagecalc
     endscript
 
 .close

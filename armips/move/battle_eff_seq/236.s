@@ -9,10 +9,7 @@
 
 .create "build/move/battle_eff_seq/0_236", 0
 
-// Heal Block
-
 a030_236:
-    gotosubscript 441
     changevar VAR_OP_SET, VAR_ADD_STATUS1, 0xA0000084
     endscript
 

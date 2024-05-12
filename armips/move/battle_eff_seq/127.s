@@ -9,10 +9,7 @@
 
 .create "build/move/battle_eff_seq/0_127", 0
 
-// Baton Pass
-
 a030_127:
-    gotosubscript 441
     changevar VAR_OP_SET, VAR_ADD_STATUS1, 0x20000063
     endscript
 

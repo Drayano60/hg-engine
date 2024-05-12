@@ -9,10 +9,7 @@
 
 .create "build/move/battle_eff_seq/0_102", 0
 
-// Heal Bell
-
 a030_102:
-    gotosubscript 441
     changevar VAR_OP_SET, VAR_ADD_STATUS2, 0x20000053
     endscript
 

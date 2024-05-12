@@ -9,11 +9,14 @@
 
 .create "build/move/battle_eff_seq/0_293", 0
 
-// Effect ID is used for Psyshock in calculator functions
-// Not anymore
-
 a030_293:
-    gotosubscript 443
+    abilitycheck 0x1, BATTLER_ATTACKER, ABILITY_RECKLESS, a045_293
+    changevar VAR_OP_SET, VAR_DAMAGE_MULT, 0xC
+a045_293:
+    changevar VAR_OP_SETMASK, VAR_SERVER_STATUS1, 0x1000
+    changevar VAR_OP_SET, VAR_ADD_STATUS1, 0x80000007
+    critcalc
+    damagecalc
     endscript
 
 .close

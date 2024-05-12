@@ -11,7 +11,8 @@
 
 a030_119:
     furycutterdamagecalc
-    gotosubscript 443
+    critcalc
+    damagecalc
     endscript
 
 .close

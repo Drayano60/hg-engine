@@ -9,11 +9,10 @@
 
 .create "build/move/battle_eff_seq/0_304", 0
 
-// Steel Beam eff
+// Shed Tail
 
 a030_304:
-    changevar VAR_OP_SET, VAR_ADD_STATUS2, ADD_STATUS_STEEL_BEAM | ADD_STATUS_WORK
-    gotosubscript 443
+    changevar VAR_OP_SET, VAR_ADD_STATUS1, ADD_STATUS_WORK | ADD_STATUS_SHED_TAIL
     endscript
 
 .close

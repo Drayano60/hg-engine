@@ -9,12 +9,13 @@
 
 .create "build/move/battle_eff_seq/0_262", 0
 
-// One-third recoil with a chance of paralysis
-// Volt Tackle
-
 a030_262:
+    abilitycheck 0x1, BATTLER_ATTACKER, ABILITY_RECKLESS, _0024
+    changevar VAR_OP_SET, VAR_DAMAGE_MULT, 0xC
+_0024:
     changevar VAR_OP_SET, VAR_ADD_STATUS2, 0x84000089
-    gotosubscript 443
+    critcalc
+    damagecalc
     endscript
 
 .close

@@ -9,12 +9,10 @@
 
 .create "build/move/battle_eff_seq/0_218", 0
 
-// Drop speed after attacking 
-// Hammer Arm
-
 a030_218:
     changevar VAR_OP_SET, VAR_ADD_STATUS2, 0x60000018
-    gotosubscript 443
+    critcalc
+    damagecalc
     endscript
 
 .close

@@ -9,17 +9,13 @@
 
 .create "build/move/battle_eff_seq/0_176", 0
 
-// Helping Hand
-
 a030_176:
-    gotosubscript 441
-    if IF_MASK, VAR_MOVE_STATUS, 0x40, Failed // Required to skip over things set before natural failure happens
-    tryhelpinghand Failed
+    tryhelpinghand _0040
     preparemessage 0x1F7, 0x9, 0x1, 0xFF, "NaN", "NaN", "NaN", "NaN"
     changevar VAR_OP_SET, VAR_ADD_STATUS2, 0x2000005A
     changevar VAR_OP_SETMASK, VAR_SERVER_STATUS1, 0x8001C
     endscript
-Failed:
+_0040:
     changevar VAR_OP_SETMASK, VAR_MOVE_STATUS, 0x40
     endscript
 

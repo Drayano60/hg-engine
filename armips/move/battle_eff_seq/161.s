@@ -11,9 +11,6 @@
 
 .create "build/move/battle_eff_seq/0_161", 0
 
-// This used damagecalc2.
-// Any other moves using this need to be added to subscript 343.
-
 a030_161:
     ifmonstat IF_EQUAL, BATTLER_ATTACKER, MON_DATA_STOCKPILE_COUNT, 0x0, _0104
 
@@ -44,7 +41,8 @@ a030_161:
 
 _skipStockpileClearing:
     changevar VAR_OP_SETMASK, VAR_SERVER_STATUS1, 0x40000
-    gotosubscript 443
+    critcalc
+    damagecalc // update to roll for range
     endscript
 _0104:
     printattackmessage

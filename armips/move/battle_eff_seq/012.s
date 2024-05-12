@@ -9,11 +9,9 @@
 
 .create "build/move/battle_eff_seq/0_012", 0
 
-// Speed +1 effect
-
 a030_012:
-    gotosubscript 441
-    changevar VAR_OP_SET, VAR_ADD_STATUS1, 0x40000011
+    critcalc
+    damagecalc
     endscript
 
 .close

@@ -11,7 +11,8 @@
 
 a030_006:
     changevar VAR_OP_SET, VAR_ADD_STATUS2, 0x80000005
-    gotosubscript 443
+    critcalc
+    damagecalc
     endscript
 
 .close

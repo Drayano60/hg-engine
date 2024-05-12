@@ -9,10 +9,7 @@
 
 .create "build/move/battle_eff_seq/0_049", 0
 
-// Confuse opponent
-
 a030_049:
-    gotosubscript 441
     changevar VAR_OP_SET, VAR_ADD_STATUS1, 0x80000007
     endscript
 

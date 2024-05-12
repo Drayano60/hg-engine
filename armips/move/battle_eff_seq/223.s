@@ -9,16 +9,15 @@
 
 .create "build/move/battle_eff_seq/0_223", 0
 
-// Feint
-// Updated to work even if not against Protect
-
 a030_223:
     tryfeint _0024
     changevar VAR_OP_SET, VAR_ADD_STATUS2, 0x2000004F
-    gotosubscript 443
+    critcalc
+    damagecalc
     endscript
 _0024:
-    gotosubscript 443
+    critcalc
+    damagecalc
     endscript
 
 .close

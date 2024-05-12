@@ -9,9 +9,6 @@
 
 .create "build/move/battle_eff_seq/0_221", 0
 
-// Double damage if enemy is under half HP
-// Brine
-
 a030_221:
     changemondatabyvar VAR_OP_GET_RESULT, BATTLER_DEFENDER, 0x30, VAR_CALCULATION_WORK
     changevar VAR_OP_DIV, VAR_CALCULATION_WORK, 0x2
@@ -21,7 +18,8 @@ a030_221:
 _0054:
     changevar VAR_OP_SET, VAR_DAMAGE_MULT, 0xA
 _0064:
-    gotosubscript 443
+    critcalc
+    damagecalc
     endscript
 
 .close

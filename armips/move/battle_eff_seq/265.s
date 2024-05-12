@@ -9,11 +9,7 @@
 
 .create "build/move/battle_eff_seq/0_265", 0
 
-// Captivate
-
 a030_265:
-    gotosubscript 441
-    if IF_MASK, VAR_MOVE_STATUS, 0x40, Failed // Required to skip over things set before natural failure happens
     moldbreakerabilitycheck 0x0, BATTLER_DEFENDER, ABILITY_OBLIVIOUS, _00C4
     ifmonstat IF_EQUAL, BATTLER_ATTACKER, MON_DATA_GENDER, 0x2, _0084
     ifmonstat IF_EQUAL, BATTLER_DEFENDER, MON_DATA_GENDER, 0x2, _0084
@@ -38,9 +34,6 @@ _00C4:
     waitmessage
     wait 0x1E
     changevar VAR_OP_SETMASK, VAR_MOVE_STATUS, 0x80000000
-    endscript
-Failed:
-    changevar VAR_OP_SETMASK, VAR_MOVE_STATUS, 0x40
     endscript
 
 .close

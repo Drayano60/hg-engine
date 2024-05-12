@@ -9,11 +9,10 @@
 
 .create "build/move/battle_eff_seq/0_254", 0
 
-// Struggle
-
 a030_254:
     changevar VAR_OP_SET, VAR_ADD_STATUS2, 0x20000040
-    gotosubscript 443
+    critcalc
+    damagecalc
     endscript
 
 .close

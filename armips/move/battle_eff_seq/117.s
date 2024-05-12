@@ -11,7 +11,8 @@
 
 a030_117:
     rolloutdamagecalc
-    gotosubscript 466
+    critcalc
+    damagecalc
     endscript
 
 .close

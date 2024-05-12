@@ -9,8 +9,6 @@
 
 .create "build/move/battle_eff_seq/0_231", 0
 
-// Assurance
-
 a030_231:
     getmoveparameter 0x2
     changevar2 VAR_OP_SET, VAR_ABILITY_TEMP, VAR_CALCULATION_WORK
@@ -18,7 +16,8 @@ a030_231:
     changevar2 VAR_OP_SET, VAR_ABILITY_TEMP, VAR_CALCULATION_WORK
     changevar VAR_OP_MUL, VAR_ABILITY_TEMP, 0x2
 _004C:
-    gotosubscript 443
+    critcalc
+    damagecalc
     endscript
 
 .close

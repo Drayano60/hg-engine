@@ -15,7 +15,8 @@ a030_147:
     ifmonstat IF_NOTMASK, BATTLER_DEFENDER, MON_DATA_MOVE_STATE, 0x80, _0048
     changevar VAR_OP_SET, VAR_DAMAGE_MULT, 0x14
 _0048:
-    gotosubscript 443
+    critcalc
+    damagecalc
     endscript
 
 .close

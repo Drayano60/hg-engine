@@ -9,15 +9,11 @@
 
 .create "build/move/battle_eff_seq/0_226", 0
 
-// Acupressure
-
 a030_226:
-    gotosubscript 441
-    if IF_MASK, VAR_MOVE_STATUS, 0x40, Failed // Required to skip over things set before natural failure happens
-    checksubstitute BATTLER_DEFENDER, Failed
-    tryacupressure Failed
+    checksubstitute BATTLER_DEFENDER, _0018
+    tryacupressure _0018
     endscript
-Failed:
+_0018:
     changevar VAR_OP_SETMASK, VAR_MOVE_STATUS, 0x40
     endscript
 

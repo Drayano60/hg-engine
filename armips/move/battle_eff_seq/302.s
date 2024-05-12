@@ -9,12 +9,9 @@
 
 .create "build/move/battle_eff_seq/0_302", 0
 
-// Heavy Slam effect 
-// heavyslamdamagecalc already implemented by HG-Engine
-
+// Spicy Extract
 a030_302:
-    heavyslamdamagecalc
-    gotosubscript 443
+    changevar VAR_OP_SET, VAR_ADD_STATUS1, ADD_STATUS_SPICY_EXTRACT | ADD_STATUS_DEFENDER
     endscript
 
 .close

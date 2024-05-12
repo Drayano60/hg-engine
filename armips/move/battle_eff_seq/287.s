@@ -9,17 +9,17 @@
 
 .create "build/move/battle_eff_seq/0_287", 0
 
-// Hex eff
-// If target has any permanent status effect, double the damage
-// Damage calc has been moved into code so this is not used
-
 a030_287:
-    ifmonstat IF_NOTEQUAL, BATTLER_DEFENDER, MON_DATA_STATUS_1, 0, DoubleDamage
-    goto End
-DoubleDamage:
-    changevar VAR_OP_SET, VAR_DAMAGE_MULT, 20
-End:
-    gotosubscript 443
+    ifmonstat IF_NOTEQUAL, BATTLER_DEFENDER, MON_DATA_STATUS_1, 0, Status
+    changevar VAR_OP_SET, VAR_DAMAGE_MULT, 0xA
+    goto _end
+
+Status:
+    changevar VAR_OP_SET, VAR_DAMAGE_MULT, 0x14
+
+_end:
+    critcalc
+    damagecalc
     endscript
 
 .close

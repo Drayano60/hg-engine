@@ -2038,3 +2038,59 @@ The foe’s {STRVAR_1 1, 0, 0} became nimble!
 {STRVAR_1 1, 0, 0} cured its\nstatus using its {STRVAR_1 5, 1, 0}!
 The wild {STRVAR_1 1, 0, 0} cured its\nstatus using its {STRVAR_1 5, 1, 0}!
 The foe’s {STRVAR_1 1, 0, 0} cured its\nstatus using its {STRVAR_1 5, 1, 0}!
+{STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0} negates\nthe effects of weather!
+The wild {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nnegates the effects of weather!
+The foe’s {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nnegates the effects of weather!
+{STRVAR_1 1, 0, 0}’s Supreme Overlord\nlet it gain strength from the fallen!
+The wild {STRVAR_1 1, 0, 0}’s Supreme Overlord\nlet it gain strength from the fallen!
+The foe’s {STRVAR_1 1, 0, 0}’s Supreme Overlord\nlet it gain strength from the fallen!
+{STRVAR_1 1, 0, 0}’s stat changes\nwere removed!
+The wild {STRVAR_1 1, 0, 0}’s stat changes\nwere removed!
+The foe’s {STRVAR_1 1, 0, 0}’s stat changes\nwere removed!
+{STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nbrightened up the day!\rThe sunlight turned harsh!\r
+The wild {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nbrightened up the day!\rThe sunlight turned harsh!\r
+The foe’s {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nbrightened up the day!\rThe sunlight turned harsh!\r
+{STRVAR_1 1, 0, 0}’s {STRVAR_1 8, 1, 0}\nwas burnt up!
+The wild {STRVAR_1 1, 0, 0}’s {STRVAR_1 8, 1, 0}\nwas burnt up!
+The foe’s {STRVAR_1 1, 0, 0}’s {STRVAR_1 8, 1, 0}\nwas burnt up!
+{STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nwafts through the area!
+The wild {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nwafts through the area!
+The foe’s {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nwafts through the area!
+{STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nlights up the area!
+The wild {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nlights up the area!
+The foe’s {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nlights up the area!
+Tidying up complete!
+{STRVAR_1 1, 0, 0}’s poison status\nwas cured by Pastel Veil!
+The wild {STRVAR_1 1, 0, 0}’s poison status\nwas cured by Pastel Veil!
+The foe’s {STRVAR_1 1, 0, 0}’s poison status\nwas cured by Pastel Veil!
+{STRVAR_1 1, 0, 0} made contact with\n{STRVAR_1 1, 1, 0}’s Perish Body!\rBoth Pokémon will faint\nin three turns!
+{STRVAR_1 1, 0, 0} made contact with\nthe wild {STRVAR_1 1, 1, 0}’s Perish Body!\rBoth Pokémon will faint\nin three turns!
+{STRVAR_1 1, 0, 0} made contact with\nthe foe’s {STRVAR_1 1, 1, 0}’s Perish Body!\rBoth Pokémon will faint\nin three turns!
+The wild {STRVAR_1 1, 0, 0} made contact\nwith {STRVAR_1 1, 1, 0}’s Perish Body!\rBoth Pokémon will faint\nin three turns!
+The wild {STRVAR_1 1, 0, 0} made contact\nwith the wild {STRVAR_1 1, 1, 0}’s Perish Body!\rBoth Pokémon will faint\nin three turns!
+The foe’s {STRVAR_1 1, 0, 0} made contact\nwith {STRVAR_1 1, 1, 0}’s Perish Body!\rBoth Pokémon will faint\nin three turns!
+The foe’s {STRVAR_1 1, 0, 0} made contact\nwith the foe’s {STRVAR_1 1, 1, 0}’s Perish Body!\rBoth Pokémon will faint\nin three turns!
+{STRVAR_1 1, 0, 0} swapped Abilities\nwith its target!
+The wild {STRVAR_1 1, 0, 0} swapped\nAbilities with its target!
+The foe’s {STRVAR_1 1, 0, 0} swapped\nAbilities with its target!
+{STRVAR_1 1, 0, 0}’s Curious Medicine\nremoved its ally’s stat changes!
+The wild {STRVAR_1 1, 0, 0}’s Curious Medicine\nremoved its ally’s stat changes!
+The foe’s {STRVAR_1 1, 0, 0}’s Curious Medicine\nremoved its ally’s stat changes!
+{STRVAR_1 1, 0, 0} is preparing to tell\na chillingly bad joke!
+The wild {STRVAR_1 1, 0, 0} is preparing\nto tell a chillingly bad joke!
+The foe’s {STRVAR_1 1, 0, 0} is preparing\nto tell a chillingly bad joke!
+{STRVAR_1 1, 0, 0} cured its\nstatus using its {STRVAR_1 5, 1, 0}!
+The wild {STRVAR_1 1, 0, 0} cured its\nstatus using its {STRVAR_1 5, 1, 0}!
+The foe’s {STRVAR_1 1, 0, 0} cured its\nstatus using its {STRVAR_1 5, 1, 0}!
+{STRVAR_1 1, 0, 0}’s Grassy Surge\nmade the battlefield Grassy Terrain!
+The wild {STRVAR_1 1, 0, 0}’s Grassy Surge\nmade the battlefield Grassy Terrain!
+The foe’s {STRVAR_1 1, 0, 0}’s Grassy Surge\nmade the battlefield Grassy Terrain!
+{STRVAR_1 1, 0, 0}’s Misty Surge\nmade the battlefield Misty Terrain!
+The wild {STRVAR_1 1, 0, 0}’s Misty Surge\nmade the battlefield Misty Terrain!
+The foe’s {STRVAR_1 1, 0, 0}’s Misty Surge\nmade the battlefield Misty Terrain!
+{STRVAR_1 1, 0, 0}’s Electric Surge\nmade the battlefield Electric Terrain!
+The wild {STRVAR_1 1, 0, 0}’s Electric Surge\nmade the battlefield Electric Terrain!
+The foe’s {STRVAR_1 1, 0, 0}’s Electric Surge\nmade the battlefield Electric Terrain!
+{STRVAR_1 1, 0, 0}’s Psychic Surge\nmade the battlefield Psychic Terrain!
+The wild {STRVAR_1 1, 0, 0}’s Psychic Surge\nmade the battlefield Psychic Terrain!
+The foe’s {STRVAR_1 1, 0, 0}’s Psychic Surge\nmade the battlefield Psychic Terrain!

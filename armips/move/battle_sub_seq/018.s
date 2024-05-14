@@ -12,11 +12,17 @@
 
 .create "build/move/battle_sub_seq/1_018", 0
 
+/**** AURORA CRYSTAL: Added Sweet Veil and Covert Cloak check ****/
+
 a001_018:
     if IF_EQUAL, VAR_ADD_EFFECT_TYPE, 0x7, _0250
     if IF_NOTEQUAL, VAR_ADD_EFFECT_TYPE, 0x4, _00E0
     abilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_INSOMNIA, _032C
     abilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_VITAL_SPIRIT, _032C
+
+    abilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_SWEET_VEIL, _032C
+    abilitycheck 0x0, BATTLER_ALLY | BATTLER_ADDL_EFFECT, ABILITY_SWEET_VEIL, _032C
+
     checkcloudnine _0080
     if IF_NOTMASK, VAR_FIELD_EFFECT, WEATHER_SUNNY_ANY, _0080
     abilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_LEAF_GUARD, _032C
@@ -30,6 +36,10 @@ _00C0:
 _00E0:
     moldbreakerabilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_INSOMNIA, _032C
     moldbreakerabilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_VITAL_SPIRIT, _032C
+
+    moldbreakerabilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_SWEET_VEIL, _032C
+    moldbreakerabilitycheck 0x0, BATTLER_ALLY | BATTLER_ADDL_EFFECT, ABILITY_SWEET_VEIL, _032C
+
     checkcloudnine _checkFlowerVeil
     if IF_NOTMASK, VAR_FIELD_EFFECT, WEATHER_SUNNY_ANY, _checkFlowerVeil
     moldbreakerabilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_LEAF_GUARD, _032C
@@ -51,6 +61,9 @@ CheckElectricOrMistyTerrain:
 _0138:
     if IF_NOTEQUAL, VAR_ADD_EFFECT_TYPE, 0x2, _0160
     moldbreakerabilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_SHIELD_DUST, _03B8
+
+    ifmonstat IF_EQUAL, BATTLER_ADDL_EFFECT, MON_DATA_ITEM, ITEM_COVERT_CLOAK, _03B8
+
 _0160:
     if IF_NOTEQUAL, VAR_ADD_EFFECT_TYPE, 0x1, _017C
     printattackmessage
@@ -103,6 +116,10 @@ _032C:
     waitmessage
     wait 0x1E
 _0378:
+
+    abilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_SWEET_VEIL, _SweetVeilMsg
+    abilitycheck 0x0, BATTLER_ALLY | BATTLER_ADDL_EFFECT, ABILITY_SWEET_VEIL, _SweetVeilMsg
+
     printmessage 0x149, 0xB, 0x7, 0x7, "NaN", "NaN", "NaN", "NaN"
     goto _052C
     printmessage 0x2D7, 0x35, 0x7, 0x7, 0xFF, 0x15, "NaN", "NaN"
@@ -161,5 +178,9 @@ _skipFlowerVeilAttackMessage:
 ElectricOrMistyTerrainFail:
     changevar VAR_OP_SETMASK, VAR_MOVE_STATUS, 0x40
     endscript
+
+_SweetVeilMsg:
+    printmessage 2000, 0xB, 0x7, 0x7, "NaN", "NaN", "NaN", "NaN" 
+    goto _052C
 
 .close

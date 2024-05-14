@@ -9,13 +9,27 @@
 
 .create "build/move/battle_sub_seq/1_187", 0
 
+/**** AURORA CRYSTAL: Added modern Trace handling that prevents copying some abilities. ****/
+
 a001_187:
+
+    abilitycheck 0x0, BATTLER_DEFENDER2, ABILITY_FLOWER_GIFT, _End
+    abilitycheck 0x0, BATTLER_DEFENDER2, ABILITY_FORECAST, _End
+    abilitycheck 0x0, BATTLER_DEFENDER2, ABILITY_ILLUSION, _End
+    abilitycheck 0x0, BATTLER_DEFENDER2, ABILITY_IMPOSTER, _End
+    abilitycheck 0x0, BATTLER_DEFENDER2, ABILITY_MULTITYPE, _End
+    abilitycheck 0x0, BATTLER_DEFENDER2, ABILITY_TRACE, _End
+    abilitycheck 0x0, BATTLER_DEFENDER2, ABILITY_ZEN_MODE, _End
+
     wait 0xF
     changemondatabyvar VAR_OP_GET_RESULT, BATTLER_DEFENDER2, 0x1A, VAR_CALCULATION_WORK
     changemondatabyvar VAR_OP_SET, BATTLER_xFF, 0x1A, VAR_CALCULATION_WORK
     printmessage 0x2A7, 0x20, 0xFF, 0xF, 0xF, "NaN", "NaN", "NaN"
     waitmessage
     wait 0x1E
+    endscript
+
+_End:
     endscript
 
 .close

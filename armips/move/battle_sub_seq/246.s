@@ -9,9 +9,14 @@
 
 .create "build/move/battle_sub_seq/1_246", 0
 
+/**** AURORA CRYSTAL: Added a check for the custom Fur Cushion ability ****/
+
 a001_246:
     abilitycheck 0x0, BATTLER_ATTACKER, ABILITY_ROCK_HEAD, _009C
     abilitycheck 0x0, BATTLER_ATTACKER, ABILITY_MAGIC_GUARD, _009C
+
+    abilitycheck 0x0, BATTLER_ATTACKER, ABILITY_FUR_CUSHION, _009C
+
     changevar2 VAR_OP_SET, VAR_BATTLER_SOMETHING, VAR_ATTACKER
     changevar2 VAR_OP_SET, VAR_HP_TEMP, VAR_HIT_DAMAGE
     isparentalbondactive _handleParentalBond

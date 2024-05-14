@@ -9,6 +9,8 @@
 
 .create "build/move/battle_sub_seq/1_292", 0
 
+/**** AURORA CRYSTAL: Added an alternate route for Meteor Beam that boosts SpAtk instead of Def like Skull Bash. ****/
+
 a001_292:
     playanimation BATTLER_ATTACKER
     waitmessage
@@ -19,7 +21,13 @@ _0030:
     waitmessage
     wait 0x1E
     changevar2 VAR_OP_SET, VAR_ACTIVE_BATTLER, VAR_ATTACKER
+
+    if IF_EQUAL, VAR_CURRENT_MOVE, MOVE_METEOR_BEAM, _MeteorBeamSpAtkBoost
+
     changevar VAR_OP_SET, VAR_ADD_EFFECT_ATTRIBUTE, 0x10
+
+_return:
+
     changevar VAR_OP_SET, VAR_ADD_EFFECT_TYPE, 0x2
     gotosubscript 12
     setstatus2effect BATTLER_ATTACKER, 0xA
@@ -30,5 +38,9 @@ _0030:
     removeitem BATTLER_ATTACKER
     changevar VAR_OP_CLEARMASK, VAR_SERVER_STATUS1, 0x4000
     endscript
+
+_MeteorBeamSpAtkBoost:
+    changevar VAR_OP_SET, VAR_ADD_EFFECT_ATTRIBUTE, SPATK_UP
+    goto _return
 
 .close

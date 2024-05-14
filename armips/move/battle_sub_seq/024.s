@@ -9,9 +9,14 @@
 
 .create "build/move/battle_sub_seq/1_024", 0
 
+/**** AURORA CRYSTAL: Added support for Draining Kiss's unique healing effect ****/
+
 a001_024:
     changevar2 VAR_OP_SET, VAR_HP_TEMP, VAR_HIT_DAMAGE
     if IF_EQUAL, VAR_HP_TEMP, 0x0, _0030
+
+    if IF_EQUAL, VAR_CURRENT_MOVE, MOVE_DRAINING_KISS, _DrainingKissHPRestore
+
     damagediv 32, 2
 _0030:
     checkitemeffect 0x1, BATTLER_ATTACKER, 0x7C, _0080
@@ -44,5 +49,11 @@ _0138:
     wait 0x1E
 _016C:
     endscript
+
+_DrainingKissHPRestore:
+    /* Draining Kiss restores 75% HP instead of 50% HP */
+    changevar VAR_OP_MUL, VAR_HP_TEMP, 3
+    changevar VAR_OP_DIV, VAR_HP_TEMP, 4
+    goto _0030
 
 .close

@@ -9,8 +9,14 @@
 
 .create "build/move/battle_sub_seq/1_106", 0
 
+/**** AURORA CRYSTAL: Added Aroma Veil check. ****/
+
 a001_106:
     moldbreakerabilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_OBLIVIOUS, _00E0
+
+    moldbreakerabilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_AROMA_VEIL, _AromaVeil
+    moldbreakerabilitycheck 0x0, BATTLER_ALLY | BATTLER_ADDL_EFFECT, ABILITY_AROMA_VEIL, _AromaVeil
+
     if IF_MASK, VAR_MOVE_STATUS, 0x10001, _01B4
     tryattract _01B4
     gotosubscript 76
@@ -56,6 +62,15 @@ _01B4:
     if IF_EQUAL, VAR_ADD_EFFECT_TYPE, 0x3, _01D8
     changevar VAR_OP_SETMASK, VAR_MOVE_STATUS, 0x40
 _01D8:
+    endscript
+
+_AromaVeil:
+    printattackmessage
+    waitmessage
+    wait 0x1E
+    printmessage 2013, 0xB, 0x7, 0x7, "NaN", "NaN", "NaN", "NaN"    
+    waitmessage
+    wait 0x1E
     endscript
 
 .close

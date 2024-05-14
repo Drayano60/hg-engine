@@ -6,15 +6,24 @@
 .include "armips/include/itemnums.s"
 .include "armips/include/monnums.s"
 .include "armips/include/movenums.s"
+.include "armips/include/hold_item_effects.s"
 
 .create "build/move/battle_sub_seq/1_099", 0
 
 // Hazards check
 
+/**** AURORA CRYSTAL: Added Heavy-Duty Boots efFect and Air Balloon's Spikes/Toxic Spikes avoidance. ****/
+
 a001_099:
     abilitycheck 0x0, BATTLER_REPLACE, ABILITY_MAGIC_GUARD, _01A8
+
+    ifmonstat IF_EQUAL, BATTLER_REPLACE, MON_DATA_ITEM, ITEM_HEAVY_DUTY_BOOTS, _01A8
+
     if IF_MASK, VAR_FIELD_EFFECT, FIELD_STATUS_GRAVITY, _0098
     checkitemeffect 0x0, BATTLER_REPLACE, 0x6A, _0098
+
+    checkitemeffect 0x0, BATTLER_REPLACE, HOLD_EFFECT_UNGROUND_DESTROYED_ON_HIT, _0158
+
     abilitycheck 0x0, BATTLER_REPLACE, ABILITY_LEVITATE, _0158
     ifmonstat IF_EQUAL, BATTLER_REPLACE, MON_DATA_TYPE_1, 0x2, _0158
     ifmonstat IF_EQUAL, BATTLER_REPLACE, MON_DATA_TYPE_2, 0x2, _0158

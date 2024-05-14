@@ -12,6 +12,8 @@
 
 .create "build/move/battle_sub_seq/1_027", 0
 
+/**** AURORA CRYSTAL: Added Covert Cloak check ****/
+
 a001_027:
     moldbreakerabilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_MAGMA_ARMOR, _0204
     checkcloudnine _checkFlowerVeil
@@ -33,6 +35,9 @@ CheckMistyTerrain:
 _0030:
     if IF_NOTEQUAL, VAR_ADD_EFFECT_TYPE, 0x2, _0058
     moldbreakerabilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_SHIELD_DUST, _0180
+
+   ifmonstat IF_EQUAL, BATTLER_ADDL_EFFECT, MON_DATA_ITEM, ITEM_COVERT_CLOAK, _0180
+
 _0058:
     if IF_NOTEQUAL, VAR_ADD_EFFECT_TYPE, 0x1, _0074
     printattackmessage

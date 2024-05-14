@@ -9,12 +9,17 @@
 
 .create "build/move/battle_sub_seq/1_014", 0
 
+/**** AURORA CRYSTAL: Added Covert Cloak check ****/
+
 a001_014:
     checkmovefinished BATTLER_ADDL_EFFECT, _0068
     checksubstitute BATTLER_ADDL_EFFECT, _00B8
     moldbreakerabilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_INNER_FOCUS, _006C
     if IF_NOTEQUAL, VAR_ADD_EFFECT_TYPE, 0x2, _0054
     moldbreakerabilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_SHIELD_DUST, _0068
+
+    ifmonstat IF_EQUAL, BATTLER_ADDL_EFFECT, MON_DATA_ITEM, ITEM_COVERT_CLOAK, _0068
+
 _0054:
     changemondatabyvalue VAR_OP_SETMASK, BATTLER_ADDL_EFFECT, 0x35, 0x8
 _0068:

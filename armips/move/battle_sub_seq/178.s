@@ -9,6 +9,9 @@
 
 .create "build/move/battle_sub_seq/1_178", 0
 
+/**** AURORA CRYSTAL: Added calls to crash damage sub_seq when connecting with an immunity ability that restores HP. ****/
+/* This is for Supercell Slam's interaction with Volt Absorb. */
+
 a001_178:
     printattackmessage
     waitmessage
@@ -21,11 +24,17 @@ a001_178:
     printmessage 0x27B, 0xB, 0x2, 0x2, "NaN", "NaN", "NaN", "NaN"
     waitmessage
     wait 0x1E
+
+    gotosubscript 61
+
     endscript
 _0088:
     printmessage 0x27E, 0x25, 0x2, 0x2, 0x1, "NaN", "NaN", "NaN"
     waitmessage
     wait 0x1E
+
+    gotosubscript 61
+
     endscript
 
 .close

@@ -11,6 +11,8 @@
 
 .create "build/move/battle_sub_seq/1_160", 0
 
+/**** AURORA CRYSTAL: Added handling for Wind Rider effect. ****/
+
 a001_160:
     //if IF_MASK, VAR_SIDE_EFFECT_PLAYER, 0x300, _failure
     iftailwindactive BATTLER_ATTACKER, _failure
@@ -20,9 +22,25 @@ a001_160:
     wait 0x1E
     //changevar VAR_OP_SETMASK, VAR_SIDE_EFFECT_PLAYER, 0x300
     settailwind BATTLER_ATTACKER
+
+    goto _WindRider
+
     endscript
 _failure:
     changevar VAR_OP_SETMASK, VAR_MOVE_STATUS, 0x40
+    endscript
+
+_WindRider:
+    orderbattlersbyspeed 0x11
+    ifmonstat IF_EQUAL, BATTLER_ADDL_EFFECT, MON_DATA_ABILITY, ABILITY_WIND_RIDER, _BoostAttack
+    goto _Continue
+_BoostAttack:
+    changevar VAR_OP_SET, VAR_ADD_EFFECT_ATTRIBUTE, ATTACK_UP
+    changevar VAR_OP_SET, VAR_ADD_EFFECT_TYPE, 0x3 // Ability
+    gotosubscript 12
+_Continue:
+    changevar VAR_OP_ADD, VAR_CLIENT_NO_AGI, 0x1
+    jumpifvarisvalidbattler VAR_CLIENT_NO_AGI, _WindRider
     endscript
 
 .close

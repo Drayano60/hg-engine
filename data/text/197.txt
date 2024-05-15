@@ -2094,3 +2094,9 @@ The foe’s {STRVAR_1 1, 0, 0}’s Electric Surge\nmade the battlefield Electric
 {STRVAR_1 1, 0, 0}’s Psychic Surge\nmade the battlefield Psychic Terrain!
 The wild {STRVAR_1 1, 0, 0}’s Psychic Surge\nmade the battlefield Psychic Terrain!
 The foe’s {STRVAR_1 1, 0, 0}’s Psychic Surge\nmade the battlefield Psychic Terrain!
+{STRVAR_1 1, 0, 0} was trapped by\n{STRVAR_1 1, 1, 0}!
+{STRVAR_1 1, 0, 0} was trapped by\nthe wild {STRVAR_1 1, 1, 0}!
+{STRVAR_1 1, 0, 0} was trapped by\nthe foe’s {STRVAR_1 1, 1, 0}!
+{STRVAR_1 1, 0, 0} is overflowing with\nspace power!
+The wild {STRVAR_1 1, 0, 0} is overflowing with\nspace power!
+The foe’s {STRVAR_1 1, 0, 0} is overflowing with\nspace power!

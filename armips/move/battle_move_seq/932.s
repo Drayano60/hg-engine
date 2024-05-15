@@ -7,14 +7,9 @@
 .include "armips/include/monnums.s"
 .include "armips/include/movenums.s"
 
-.create "build/move/battle_move_seq/0_569", 0
+.create "build/move/battle_move_seq/0_932", 0
 
-// Phantom Force
-
-/**** AURORA CRYSTAL: Added 'vanished' message for Phantom Force. ****/
-
-a000_569:
-    preparemessage 1082, 0x2, 0x1, "NaN", "NaN", "NaN", "NaN", "NaN"
+a000_932:
     jumptocurmoveeffectscript
 
 .close

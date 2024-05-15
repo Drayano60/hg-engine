@@ -1,0 +1,624 @@
+Changes Cheat Sheet
+
+Bulbasaur: A2 (Chlorophyll), A3 (Solar Power)
+Ivysaur: A2 (Chlorophyll), A3 (Solar Power)
+Venusaur: A2 (Chlorophyll), A3 (Solar Power), Def 83 -> 93
+Mega Venusaur: SpAtk 122 -> 127, SpDef 120 -> 125
+
+Charmander: A2 (Tough Claws)
+Charmeleon: A2 (Tough Claws)
+Charizard: A2 (Tough Claws), HP 78 -> 79, Atk 84 -> 94, Def 78 -> 73, SpDef 85 -> 80
+Mega Charizard X: HP 78 -> 79
+Mega Charizard Y: HP 78 -> 79
+
+Squirtle: A2 (Shell Armor)
+Wartortle: A2 (Shell Armor)
+Blastoise: A2 (Shell Armor), A3 (Mega Launcher, replaces Rain Dish), Def 100 -> 110, SpAtk 80 -> 85, Speed 78 -> 68
+Mega Blastoise: SpDef 115 -> 120
+
+Caterpie: A2 (Run Away), A3 (Stench)
+Butterfree: A2 (Tinted Lens), A3 (Befuddle), SpAtk 90 -> 100, SpDef 80 -> 90, Speed 70 -> 80
+- Befuddle gives damaging Bug-types moves a 30% chance to poison, paralyze or sleep (1/3 of each)
+
+Weedle: A2 (Run Away), A3 (Poison Point)
+Beedrill: A2 (Sniper), A3 (Poison Touch), Atk 90 -> 100, SpDef 80 -> 90, Speed 75 -> 85
+
+Pidgey: A3 (Gale Wings, replaces Big Pecks), SpAtk 35 -> 55
+Pidgeotto: A3 (Gale Wings, replaces Big Pecks), SpAtk 50 -> 75
+Pidgeot: A3 (Gale Wings, replaces Big Pecks), SpAtk 70 -> 110
+Mega Pidgeot: Def 80 -> 100, SpDef 80 -> 100
+
+Rattata: A1 (Guts, replaces Run Away)
+Raticate: A1 (Guts, replaces Run Away), HP 55 -> 65, Speed 97 -> 107
+Raticate (Alolan Form): HP 75 -> 85, Atk 71 -> 81
+
+Spearow: A2 (Unnerve)
+Fearow: A2 (Unnerve), HP 65 -> 70, Atk 90 -> 100, Def 65 -> 70
+
+Arbok: Atk 95 -> 105
+
+Raichu: Speed 110 -> 120
+Raichu (Alolan Form): All Abilities (Levitate, replaces Surge Surfer), SpAtk 95 -> 100, SpDef 85 -> 90
+
+Sandshrew: A2 (Sand Rush), A3 (Tough Claws)
+Sandshrew (Alolan Form): A2 (Slush Rush), A3 (Tough Claws)
+Sandslash: A2 (Sand Rush), A3 (Tough Claws), Speed 65 -> 75
+Sandslash (Alolan Form): A2 (Slush Rush), A3 (Tough Claws), SpDef 65 -> 75
+
+Vulpix: A2 (Cute Charm), A3 (Run Away, replaces Drought, still has Drought as Ninetales)
+Vulpix (Alolan Form): A2 (Cute Charm), A3 (Run Away, replaces Snow Warning, still has Snow Warning as Ninetales)
+Ninetales: A2 (Cursed Body), Atk 76 -> 67, Speed 100 -> 109
+Ninetales (Alolan Form): A2 (Cute Charm)
+
+Jigglypuff: HP 115 -> 125, Atk 45 -> 55, Def 20 -> 30, SpAtk 45 -> 55, SpDef 25 -> 35
+Wigglytuff: A3 (Cacophony, replaces Frisk), HP 140 -> 150, Atk 70 -> 80, Def 45 -> 55, SpAtk 85 -> 95, SpDef 50 -> 55
+- Cacophony boosts sound moves by 20% and halves the damage taken from them (slightly weaker clone of Punk Rock)
+
+Zubat: A2 (Infiltrator), A3 (Merciless)
+Golbat: A2 (Infiltrator), A3 (Merciless)
+Crobat: A2 (Infiltrator), A3 (Merciless)
+
+Oddish: A2 (Own Tempo)
+Gloom: A2 (Own Tempo)
+Vileplume: A2 (Own Tempo)
+Bellossom: A2 (Own Tempo), A3 (Rhythmic, replaces Healer)
+
+Paras: A3 (Poison Heal, replaces Damp)
+Parasect: A3 (Poison Heal, replaces Damp), Atk 95 -> 105, Def 80 -> 90, SpAtk 60 -> 80, SpDef 80 -> 90
+
+Venomoth: A3 (Toxic Scales, replaces Wonder Skin), Atk 65 -> 55, SpAtk 90 -> 100, SpDef 75 -> 90, Speed 90 -> 100
+- Toxic Scales has a 30% chance of badly poisoning a foe that makes contact
+
+Dugtrio: HP 35 -> 55, SpDef 70 -> 80
+Dugtrio (Alolan Form): HP 35 -> 55, SpDef 70 -> 80
+
+Meowth: A3 (Super Luck, replaces Unnerve)
+Meowth (Alolan Form): A3 (Super Luck, replaces Rattled)
+Persian: A3 (Super Luck, replaces Unnerve), Atk 70 -> 80, SpAtk 65 -> 75
+Persian (Alolan Form): A3 (Super Luck, replaces Rattled), Atk 60 -> 70, SpAtk 75 -> 85
+
+Psyduck: A3 (Unaware, replaces Swift Swim)
+Golduck: A1 (Swift Swim, replaces Damp), A3 (Odd Power), Atk 82 -> 92, SpAtk 95 -> 105
+- Odd Power boosts the power of Psychic-type moves by 50% (effectively STAB)
+
+Politoed: A2 (Cacophony, replaces Damp)
+
+Machamp: Atk 130 -> 140, SpAtk 65 -> 55
+
+Victreebel: Atk 105 -> 115, Def 65 -> 60, SpDef 70 -> 65
+
+Golem: SpDef 65 -> 75
+Golem (Alolan Form): SpDef 65 -> 75
+
+Rapidash: A1 (Reckless, replaces Run Away), Speed 105 -> 125
+
+Slowking: Atk 75 -> 65, SpAtk 100 -> 110
+
+Farfetch'd: HP 52 -> 62, Atk 90 -> 100, Def 55 -> 65, SpDef 62 -> 72, Speed 60 -> 90
+
+Dodrio: A1 (Quick Feet, replaces Run Away), A3 (Moxie, replaces Tangled Feet)
+
+Seel: A2 (Swift Swim, replaces Hydration), A3 (Refrigerate, replaces Ice Body), Atk 45 -> 65
+Dewgong: A2 (Swift Swim, replaces Hydration), A3 (Refrigerate, replaces Ice Body), Atk 70 -> 90
+
+Grimer: A2 (Poison Touch, replaces Sticky Hold), A3 (Gooey)
+Grimer (Alolan Form): A3 (Gooey, replaces Power of Alchemy)
+Muk: A2 (Poison Touch, replaces Sticky Hold), A3 (Gooey)
+Muk (Alolan Form): A3 (Gooey, replaces Power of Alchemy)
+
+Gengar: Ability is always Levitate still.
+
+Onix: HP 35 -> 55, Atk 45 -> 65, Speed 70 -> 80
+Steelix: A1 (Strong Jaw, replaces Rock Head), Atk 85 -> 105
+Mega Steelix: All Abilities (Sheer Force, replaces Sand Force), Atk 125 -> 135, SpDef 95 -> 105
+
+Hypno: A3 (Bad Dreams, replaces Inner Focus)
+
+Exeggcute: A2 (Solar Power)
+Exeggutor: A2 (Solar Power)
+Exeggutor (Alolan Form): A2 (Solar Power)
+
+Marowak (Alolan Form): Rock Head is now A1, Cursed Body is now A3. i.e. A Rock Head Cubone now evolves into a Rock Head Marowak (Alolan Form).
+
+Hitmonlee: Speed 87 -> 97
+Hitmonchan: Atk 105 -> 115
+Hitmontop: A3 (Contrary, replaces Steadfast), Atk 95 -> 100, Def 95 -> 100
+
+Lickitung: Atk 55 -> 65
+
+Koffing: Atk 65 -> 60, SpAtk 60 -> 65. Ability is always Levitate still.
+Weezing: SpAtk 85 -> 95. Ability is always Levitate still.
+
+Tangela: A2 (Tangling Hair, replaces Leaf Guard).
+Tangrowth: A2 (Tangling Hair, replaces Leaf Guard).
+
+Seaking: Atk 92 -> 112, SpAtk 65 -> 55, Speed 68 -> 88
+
+Staryu: A3 (Regenerator, replaces Analytic)
+Starmie: A3 (Regenerator, replaces Analytic)
+
+Scyther: A3 (Sharpness, replaces Steadfast)
+
+Smoochum: A2 (Hydration, replaces Forewarn), A3 (Own Tempo)
+Jynx: A2 (Dry Skin, replaces Forewarn), A3 (Rhythmic), SpAtk 115 -> 125
+- Rhythmic powers up a move by 20% if the move was also used the previous turn
+
+Electivire: A3 (Iron Fist, replaces Vital Spirit)
+
+Magmortar: A3 (Quick Draw, replaces Vital Spirit)
+
+Tauros: Atk 100 -> 110, SpAtk 40 -> 30
+
+Ditto: All Abilities (Imposter, replaces Limber)
+
+Vaporeon: A2 (Hydration), A3 (Storm Drain), Atk 65 -> 60, Def 60 -> 65
+Jolteon: A2 (Quick Feet), A3 (Galvanize)
+Flareon: A2 (Guts), A3 (Fur Cushion), SpAtk 95 -> 65, Speed 65 -> 95
+- Fur Cushion prevents recoil damage from the user's moves (e.g. Flare Blitz)
+Espeon: A2 (Solar Power)
+Umbreon: A2 (Inner Focus), A3 (Poison Sweat)
+- Poison Sweat has a 30% chance of poisoning a foe that makes contact (Poison Point clone)
+Leafeon: A2 (Chlorophyll), A3 (Sharpness)
+Glaceon: A2 (Slush Rush), A3 (Refrigerate)
+Sylveon: A2 (Wonder Skin)
+
+Kabutops: A3 (Sharpness, replaces Weak Armor)
+
+Chikorita: A2 (Leaf Guard), A3 (Sweet Aroma)
+Bayleef: A2 (Leaf Guard), A3 (Sweet Aroma)
+Meganium: A2 (Flower Veil), A3 (Sweet Aroma, replaces Leaf Guard), HP 80 -> 90
+- Sweet Aroma is an Intimidate clone that cannot be stopped by other abilities
+
+Cyndaquil: A2 (Flash Fire), A3 (Heat Up)
+Quilava: A2 (Flash Fire), A3 (Heat Up), Def 58 -> 53, SpAtk 80 -> 90, SpDef 65 -> 60
+Typhlosion: A2 (Flash Fire), A3 (Heat Up), HP 78 -> 79, Def 78 -> 73, SpAtk 109 -> 119, SpDef 85 -> 80
+- Heat Up boosts SpAtk by one stage if the user KOs a Pokémon with a Fire-type move
+
+Totodile: A2 (Strong Jaw)
+Croconaw: A2 (Strong Jaw), Atk 80 -> 85, SpAtk 59 -> 54
+Feraligatr: A2 (Strong Jaw), Atk 105 -> 115, SpAtk 79 -> 69, Speed 78 -> 83
+
+Furret: A1 (Limber, replaces Run Away), A3 (Hustle, replaces Frisk), Atk 76 -> 81, SpDef 55 -> 60, Speed 90 -> 100
+
+Hoothoot: SpAtk 36 -> 46
+Noctowl: SpAtk 86 -> 96
+
+Ledyba: A3 (Aerilate, replaces Rattled), Atk 20 -> 40, Speed 55 -> 65
+Ledian: A2 (Iron Fist, replaces Early Bird), A3 (Aerilate), Atk 35 -> 85, Speed 85 -> 95
+
+Spinarak: A3 (Merciless, replaces Sniper), Atk 60 -> 70, Def 40 -> 50, SpDef 40 -> 50, Speed 30 -> 45
+Ariados: A3 (Merciless, replaces Sniper), Atk 90 -> 100, Def 70 -> 80, SpDef 70 -> 80, Speed 40 -> 70
+
+Lanturn: SpAtk 76 -> 86, SpDef 76 -> 86
+
+Natu: A2 (Keen Eye, replaces Early Bird)
+Xatu: A2 (Keen Eye, replaces Early Bird), SpAtk 95 -> 115
+
+Mareep: A2 (Illuminate), A3 (Fluffy, replaces Plus)
+Flaaffy: A2 (Illuminate), A3 (Fluffy, replaces Plus)
+Ampharos: A2 (Illuminate), A3 (Mold Breaker, replaces Plus), Def 85 -> 95, SpAtk 115 -> 125, SpDef 90 -> 100, Speed 55 -> 45
+Mega Ampharos: 105 -> 115 Def, 110 -> 120 SpDef
+
+Azurill: 20 -> 40 SpAtk
+Marill: 20 -> 50 SpAtk
+Azumarill: 60 -> 80 SpAtk
+
+Sudowoodo: 115 -> 125 Def, 65 -> 75 SpDef, 30 -> 50 Speed
+
+Hoppip: A3 (Wind Rider, replaces Infiltrator), Atk 35 -> 45, Def 40 -> 45, SpDef 55 -> 65, Speed 50 -> 60
+Skiploom: A3 (Wind Rider, replaces Infiltrator), Atk 45 -> 55, Def 50 -> 55, SpDef 65 -> 75, Speed 80 -> 90
+Jumpluff: A2 (Cotton Down, replaces Leaf Guard), A3 (Wind Rider, replaces Infiltrator), Atk 55 -> 75, Def 70 -> 75
+
+Sunflora: All Abilities (Sunny Mood, replaces Chlorophyll/Solar Power/Early Bird), Def 55 -> 75, SpAtk 105 -> 125, SpDef 85 -> 95
+- Sunny Mood summons sun for 3 turns (8 with a Heat Rock) and doubles speed in sunlight (weaker Drought + Chlorophyll)
+
+Quagsire: Atk 85 -> 95, Def 85 -> 95
+
+Honchkrow: A1 (Supreme Overlord, replaces Insomnia)
+
+Unown: Def 48 -> 72, SpAtk 72 -> 96, SpDef 48 -> 72, Speed 48 -> 72
+
+Farigiraf: A1 (Armor Tail, replaces Cud Chew as Cud Chew doesn't exist)
+
+Pineco: A2 (Skill Link)
+Forretress: A2 (Skill Link), Atk 90 -> 100, SpDef 60 -> 70
+
+Dunsparce: A2 (Serene Grace, replaces Run Away)
+Dudunsparce: A2 (Serene Grace, replaces Run Away)
+
+Granbull: A3 (Strong Jaw, replaces Rattled), SpAtk 60 -> 50, Speed 45 -> 75
+
+Qwilfish: Atk 95 -> 100, Def 85 -> 90
+
+Sneasel: A3 (Infiltrator, replaces Pickpocket)
+Weavile: A1 (Inner Focus, replaces Pressure), A2 (Keen Eye, replaces Pressure), A3 (Infiltrator, replaces Pickpocket)
+
+Slugma: All Abilities (Magma Body, replaces Magma Armor, Flame Body and Weak Armor), HP 40 -> 50, Def 40 -> 50, SpAtk 70 -> 80, SpDef 40 -> 50
+Magcargo: All Abilities (Magma Body, replaces Magma Armor, Flame Body and Weak Armor), HP 60 -> 70, SpAtk 90 -> 110, SpDef 80 -> 90
+- Magma Body burns the foe if it makes contact (Flame Body clone but guaranteed to work)
+
+Corsola: A1 (Water Absorb, replaces Hustle), Def 95 -> 105, SpAtk 65 -> 85, SpDef 95 -> 105
+
+Octillery: A2 (Bombardier, replaces Sniper), Atk 105 -> 115, SpAtk 105 -> 115, Speed 45 -> 25
+- Bombardier boosts the power of ball, bomb and cannon moves by 50% (what Bulletproof blocks + Flash Cannon/Spike Cannon/Hydro Cannon)
+
+Delibird: A3 (Technician, replaces Insomnia), HP 45 -> 55, Atk 55 -> 75, Def 45 -> 55, SpAtk 65 -> 100, SpDef 45 -> 55, Speed 75 -> 110
+
+Skarmory: A1 (Rock Head, replaces Keen Eye)
+
+Houndour: A1 (Intimidate, replaces Early Bird)
+Houndoom: A1 (Intimidate, replaces Early Bird)
+
+Phanpy: A2 (Run Away)
+Donphan: A2 (Battle Armor), A3 (Bulletproof, replaces Sand Veil)
+
+Miltank: SpAtk 40 -> 30, SpDef 70 -> 80
+
+Tyranitar: A3 (Battle Armor, replaces Unnerve)
+
+Treecko: A2 (Unburden), A3 (Steadfast), Atk 45 -> 55, Def 35 -> 30, SpDef 55 -> 50
+Grovyle: A2 (Unburden), A3 (Steadfast), Atk 65 -> 75, Def 45 -> 40, SpDef 65 -> 60
+Sceptile: A2 (Unburden), A3 (Sharpness), Atk 85 -> 100, Def 65 -> 60, SpDef 85 -> 80
+Mega Sceptile: Atk 110 -> 115
+
+Torchic: A2 (Keen Eye)
+Combusken: A2 (Keen Eye)
+Blaziken: A2 (Keen Eye), SpAtk 110 -> 115
+Mega Blaziken: SpAtk 130 -> 135
+
+Mudkip: A2 (Damp), A3 (Anticipation)
+Marshtomp: A2 (Damp), A3 (Anticipation)
+Swampert: A2 (Damp), A3 (Iron Fist)
+
+Poochyena: Atk 55 -> 65, Speed 35 -> 45
+Mightyena: A2 (Strong Jaw, replaces Quick Feet), Atk 90 -> 100, Speed 70 -> 90 
+
+Linoone: Atk 70 -> 80, Speed 100 -> 110
+
+Wurmple: A2 (Run Away), A3 (Poison Point)
+Beautifly: A2 (Rivalry), A3 (Berserk), Atk 70 -> 80, Speed 65 -> 85
+Dustox: A2 (Compound Eyes), A3 (Toxic Scales), Def 70 -> 80, SpAtk 50 -> 70, SpDef 90 -> 100
+
+Ludicolo: A3 (Rhythmic), SpAtk 90 -> 100
+
+Seedot: A3 (Frisk, replaces Pickpocket)
+Nuzleaf: A3 (Frisk, replaces Pickpocket)
+Shiftry: A3 (Wind Whipper, replaces Pickpocket), SpAtk 90 -> 100
+- Wind Whipper powers up wind-based moves by 50%.
+
+Swellow: SpAtk 75 -> 85
+
+Wingull: A2 (Rain Dish), A3 (Hydration)
+Pelipper: A2 (Rain Dish), A3 (Drizzle), HP 60 -> 70, Def 100 -> 110
+
+Ralts: A3 (Pixilate, replaces Telepathy), SpAtk 45 -> 65, SpDef 35 -> 55
+Kirlia: A3 (Pixilate, replaces Telepathy), SpAtk 65 -> 95, SpDef 55 -> 85
+Gardevoir: A3 (Pixilate, replaces Telepathy)
+
+Masquerain: Atk 60 -> 50, Speed 80 -> 90
+
+Vigoroth: Atk 80 -> 100
+
+Shedinja: SpAtk 30 -> 90
+
+Whismur: A2 (Cacophony)
+Loudred: A2 (Cacophony)
+Exploud: A2 (Cacophony), HP 104 -> 114, Atk 91 -> 101, Def 63 -> 73, SpAtk 91 -> 101
+
+Hariyama: Def 60 -> 80
+
+Nosepass: SpAtk 45 -> 65
+Probopass: SpAtk 75 -> 85
+
+Delcatty: A2 (Fur Coat, replaces Normalize), Atk 65 -> 80, SpAtk 55 -> 80, Speed 90 -> 110
+
+Sableye: A2 (Tough Claws, replaces Stall), Atk 75 -> 85, Def 75 -> 85, SpAtk 65 -> 75, SpDef 65 -> 75, Speed 50 -> 30
+Mega Sableye: Def 125 -> 135, SpDef 115 -> 125
+
+Mawile: A1 (Strong Jaw, replaces Hyper Cutter), Atk 85 -> 95, Def 85 -> 95, SpDef 55 -> 75, Speed 50 -> 30
+Mega Mawile: SpAtk 55 -> 75
+
+Aron: A3 (Filter, replaces Heavy Metal)
+Lairon: A3 (Filter, replaces Heavy Metal)
+Aggron: A3 (Filter, replaces Heavy Metal)
+
+Meditite: A3 (Pure Power, replaces Telepathy), SpAtk 40 -> 60
+Medicham: A3 (Pure Power, replaces Telepathy), SpAtk 60 -> 80
+Mega Medicham: SpAtk 80 -> 100
+
+Electrike: A3 (Intimidate, replaces Minus)
+Manectric: A3 (Intimidate, replaces Minus), Atk 75 -> 90, Speed 105 -> 115
+Mega Manectric: Atk 75 -> 100
+
+Plusle: A2 (Lightning Rod), A3 (Cheerleader), Def 40 -> 50, SpDef 75 -> 85, Speed 95 -> 105
+- Cheerleader powers up moves used by allies by 15%.
+
+Minun: A2 (Lightning Rod), A3 (Cheerleader), Atk 40 -> 50, SpAtk 75 -> 85, Speed 95 -> 105
+
+Volbeat: Atk 73 -> 83, Def 75 -> 85, Speed 85 -> 95
+Illumise: Def 75 -> 85, SpAtk 73 -> 83, Speed 85 -> 95
+
+Gulpin: A2 (Gluttony, replaces Sticky Hold), A3 (Gooey), Atk 43 -> 53, SpAtk 43 -> 53
+Swalot: A2 (Gluttony, replaces Sticky Hold), A3 (Gooey), Atk 73 -> 83, SpAtk 73 -> 83, Speed 55 -> 45
+
+Carvanha: A2 (Strong Jaw)
+Sharpedo: A2 (Strong Jaw), Def 40 -> 50, SpDef 40 -> 50
+Mega Sharpedo: Def 70 -> 80, SpDef 65 -> 75
+
+Wailmer: A3 (Sheer Force, replaces Pressure)
+Wailord: A3 (Sheer Force, replaces Pressure), Atk 90 -> 100, Def 45 -> 55, SpAtk 90 -> 100, SpDef 45 -> 55
+
+Camerupt: A1 (Solid Rock, replaces Magma Armor), A3 (Sheer Force, replaces Anger Point), Def 70 -> 80, SpDef 75 -> 85
+Mega Camerupt: Def 100 -> 110, SpDef 105 -> 115
+
+Torkoal: A2 (Shell Armor), A3 (Drought)
+
+Spoink: A3 (Magic Bounce, replaces Gluttony)
+Grumpig: A3 (Magic Bounce, replaces Gluttony), SpAtk 90 -> 100
+
+Spinda: A1 (Totter Steps, replaces Own Tempo), A2 (Totter Steps, replaces Tangled Feet), All stats 60 -> 75
+- Totter Steps reduces the accuracy of moves targeting Spinda by 10%
+
+Vibrava: A2 (Sand Veil), A3 (Tinted Lens), SpAtk 50 -> 70, Speed 70 -> 90
+Flygon: A2 (Sand Stream), A3 (Tinted Lens), SpAtk 80 -> 100
+
+Cacnea: A2 (Water Absorb), A3 (Heatproof)
+Cacturne: A2 (Water Absorb), A3 (Heatproof), HP 70 -> 80, Def 60 -> 75, SpDef 60 -> 75, Speed 55 -> 45
+
+Swablu: A2 (Cloud Nine), A3 (Fluffy), Atk 40 -> 50, Def 60 -> 70, SpAtk 40 -> 50
+Altaria: A2 (Cloud Nine), A3 (Fluffy), Atk 70 -> 80, Def 90 -> 100, SpAtk 70 -> 80
+Mega Altaria: Atk 105 -> 115, Def 105 -> 115, SpAtk 105 -> 115, SpDef 110 -> 120
+
+Zangoose: A2 (Toxic Boost), A3 (Tough Claws), Speed 90 -> 100
+Seviper: A2 (Infiltrator), A3 (Sharpness), Speed 65 -> 75
+
+Lunatone: A3 (Lunar Energy), Atk 55 -> 50, SpAtk 95 -> 110, SpDef 85 -> 90
+- Lunar Energy boosts the power of Fairy-type moves by 50%
+
+Solrock: A3 (Solar Energy), Atk 95 -> 110, Def 85 -> 90, SpAtk 55 -> 50
+- Solar Energy boosts the power of Fire-type moves by 50%
+
+Barboach: A3 (Simple, replaces Hydration)
+Whiscash: A3 (Simple, replaces Hydration), Atk 78 -> 83, SpAtk 76 -> 81
+
+Crawduant: Def 85 -> 95
+
+Baltoy: Atk 40 -> 50, SpAtk 40 -> 50
+
+Lileep: A2 (Storm Drain), A3 (Sturdy)
+Cradily: A2 (Storm Drain), A3 (Sturdy)
+
+Anorith: A2 (Swift Swim), A3 (Tough Claws)
+Armaldo: A2 (Swift Swim), A3 (Tough Claws)
+
+Castform: Atk 70 -> 50, SpAtk 70 -> 95, Speed 70 -> 95
+
+Kecleon: Atk 90 -> 100
+
+Shuppet: A2 (Cursed Body, replaces Frisk), A3 (Prankster)
+Banette: A2 (Cursed Body, replaces Frisk), A3 (Prankster), Atk 115 -> 125, Speed 65 -> 75
+Mega Banette: Def 75 -> 80, SpDef 83 -> 88, Speed 75 -> 85
+
+Dusknoir: A1/A2 (Levitate, replaces Pressure), A3 (Iron Fist, replaces Frisk), Atk 100 -> 110
+
+Tropius: A1 (Thick Fat, replaces Chlorophyll), HP 99 -> 114, Atk 68 -> 88, Def 83 -> 93, SpAtk 72 -> 92, SpDef 87 -> 97
+
+Chingling: A3 (Cacophony)
+Chimecho: A3 (Cacophony), Def 80 -> 90
+
+Absol: A1 (Justified, replaces Pressure), A3 (Sharpness), Speed 65 -> 75
+Mega Absol: Speed 115 -> 125
+
+Glalie: A1 (Levitate, replaces Inner Focus), A2 (Refrigerate, replaces Ice Body), Atk 80 -> 100
+Mega Glalie: Atk 120 -> 140
+Froslass: A1 (Levitate), Atk 80 -> 90, SpAtk 80 -> 90
+
+Walrein: Atk 80 -> 90
+
+Huntail: A3 (Strong Jaw, replaces Water Veil), Atk 104 -> 114, SpAtk 94 -> 84
+Gorebyss: A3 (Marvel Scale, replaces Hydration)
+
+Luvdisc: HP 43 -> 53, Def 55 -> 75, SpAtk 40 -> 80, SpDef 65 -> 95, Speed 97 -> 117
+
+Beldum: A3 (Magnet Pull, replaces Light Metal)
+Metang: A3 (Tough Claws, replaces Light Metal)
+Metagross: A3 (Tough Claws, replaces Light Metal)
+
+Primal Kyogre: All Abilities (Drizzle, replaces Primordial Sea as it doesn't exist)
+Primal Groudon: All Abilities (Drought, replaces Desolate Land as it doesn't exist)
+Primal Rayquaza: All Abilities (Air Lock, replaces Delta Stream as it doesn't exist)
+
+Turtwig: A2 (Shell Armor), A3 (Sturdy)
+Grotle: A2 (Shell Armor), A3 (Sturdy)
+Torterra: A2 (Shell Armor), A3 (Sturdy), HP 95 -> 105
+
+Chimchar: A2 (Vital Spirit)
+Monferno: A2 (Vital Spirit)
+Infernape: A2 (Vital Spirit), Speed 108 -> 109
+
+Piplup: A2 (Swift Swim)
+Prinplup: A2 (Swift Swim)
+Empoleon: A2 (Swift Swim), Def 88 -> 93
+
+Staraptor: HP 85 -> 95
+
+Bibarel: HP 79 -> 89, Atk 85 -> 95
+
+Kricketot: A2 (Run Away), A3 (Cacophony)
+Kricketune: A2 (Technician), A3 (Conductor), Atk 85 -> 95, Def 51 -> 61, SpDef 51 -> 61, Speed 65 -> 75
+- Conductor doubles the power of sound moves.
+
+Luxray: SpAtk 95 -> 75, Speed 70 -> 90
+
+Cranidos: A2 (Rock Head)
+Rampardos: A2 (Rock Head), SpAtk 65 -> 55, Speed 58 -> 68
+
+Shieldon: A2 (Bulletproof)
+Bastiodon: A2 (Bulletproof)
+
+Burmy: A2 (Run Away)
+Wormadam (Plant Cloak): A2 (Sturdy), HP 60 -> 70, Def 85 -> 95, SpAtk 79 -> 89
+Wormadam (Sandy Cloak): A2 (Sturdy), HP 60 -> 70, Atk 79 -> 59, SpAtk 59 -> 89, SpDef 85 -> 95
+Wormadam (Trash Cloak): A2 (Sturdy), HP 60 -> 70, Atk 69 -> 59, Def 95 -> 100, SpAtk 69 -> 89, SpDef 95 -> 100
+Mothim: A2 (Shield Dust), Atk 94 -> 99, SpAtk 94 -> 99, Speed 66 -> 86
+
+Combee: A2 (Swarm)
+Vespiquen: A2 (Queenly Majesty), HP 70 -> 80
+
+Pachirisu: A1 (Cheek Pouch, replaces Run Away), HP 60 -> 70, Def 70 -> 80, Speed 95 -> 105
+
+Buizel: A3 (Technician, replaces Water Veil)
+Floatzel: A3 (Technician, replaces Water Veil)
+
+Cherrim: SpAtk 87 -> 97, Speed 85 -> 90
+
+Buneary: A2 (Limber, replaces Klutz), A3 (Scrappy)
+Lopunny: A2 (Limber, replaces Klutz), A3 (Scrappy), Atk 76 -> 96
+Mega Lopunny: SpDef 96 -> 116
+
+Purugly: HP 71 -> 91, Atk 82 -> 92
+
+Skuntank: SpAtk 71 -> 81
+
+Chatot: A3 (Cacophony, replaces Big Pecks), Atk 65 -> 55, Def 45 -> 65, SpAtk 92 -> 102, SpDef 42 -> 62
+
+Spiritomb: A2 (Cursed Body), HP 50 -> 70
+
+Lucario: A3 (Aura Guardian, replaces Justified)
+- Aura Guardian powers up aura and pulse moves by 50% (Mega Launcher clone)
+
+Skorupi: A3 (Merciless, replaces Keen Eye)
+Drapion: A3 (Merciless, replaces Keen Eye)
+
+Carnivine: Atk 100 -> 110, Def 72 -> 82, SpDef 72 -> 82, Speed 46 -> 36
+
+Finneon: A3 (Dazzling, replaces Water Veil), Atk 49 -> 39, SpAtk 49 -> 59
+Lumineon: A3 (Dazzling, replaces Water Veil), Atk 69 -> 59, Def 76 -> 86, SpAtk 69 -> 89
+
+Snover: A3 (Snow Warning, replaces Soundproof)
+Abomasnow: A3 (Snow Warning, replaces Soundproof), HP 90 -> 100, Atk 92 -> 102, Def 75 -> 85, SpAtk 92 -> 102, SpDef 85 -> 95, Speed 60 -> 50
+Mega Abomasnow: HP 90 -> 100, Atk 132 -> 142, Def 105 -> 115, SpAtk 132 -> 142, SpDef 105 -> 115, Speed 30 -> 20
+
+Rotom: 91 -> 101 Speed
+Rotom (Fan Rotom): All Abilities (Motor Drive, replaces Levitate)
+
+Cresselia: Does not have the base stat nerfs from Gen 9.
+
+Snivy: A2 (Shed Skin), Speed 63 -> 65
+Servine: A2 (Shed Skin), Speed 83 -> 85
+Serperior: A2 (Shed Skin), Speed 113 -> 120
+
+Tepig: A2 (Gluttony), Atk 63 -> 65
+Pignite: A2 (Gluttony), Atk 93 -> 95
+Emboar: A2 (Gluttony), Atk 123 -> 130, Def 60 -> 75, SpAtk 100 -> 80, SpDef 60 -> 75
+
+Oshawott: A2 (Shell Armor), A3 (Steadfast), Atk 55 -> 65, SpAtk 63 -> 55
+Dewott: A2 (Shell Armor), A3 (Steadfast), Atk 75 -> 85, SpAtk 83 -> 75
+Samurott: A2 (Shell Armor), A3 (Sharpness), Atk 100 -> 110, Def 85 -> 80, SpAtk 108 -> 100, SpDef 70 -> 65, Speed 70 -> 85
+
+Watchog: HP 60 -> 70, Atk 85 -> 95
+
+Liepard: Atk 88 -> 90, SpAtk 88 -> 90
+
+Pansage: A2 (Sap Sipper)
+Simisage: A2 (Sap Sipper)
+
+Pansear: A2 (Flash Fire)
+Simisear: A2 (Flash Fire)
+
+Panpour: A2 (Storm Drain)
+Simipour: A2 (Storm Drain)
+
+Munna: All Abilities (Levitate, replaces Synchronize, Forewarn and Telepathy)
+Musharna: All Abilities (Levitate, replaces Synchronize, Forewarn and Telepathy)
+
+Unfezant: HP 80 -> 85, Speed 93 -> 98
+
+Roggenrola: A2 (Sand Force), A3 (Weak Armor)
+Boldore: A2 (Sand Force), A3 (Weak Armor)
+Gigalith: A2 (Sand Force), A3 (Sand Stream)
+
+Woobat: A2 (Unaware, replaces Klutz)
+Swoobat: A2 (Unaware, replaces Klutz), HP 67 -> 77, Atk 57 -> 67, SpAtk 77 -> 87
+
+Audino: A3 (Triage, replaces Healer), 60 -> 80 SpAtk
+Mega Audino: 80 -> 100 SpAtk
+
+Cottonee: A3 (Cotton Down, replaces Infiltrator)
+Whimsicott: A3 (Cotton Down, replaces Infiltrator)
+
+Maractus: Atk 86 -> 96
+
+Garbodor: Atk 95 -> 105, Def 82 -> 87, SpDef 82 -> 87
+
+Swanna: A3 (Swan Song, replaces Hydration), Speed 98 -> 108
+- Swan Song powers up the user's moves depending on how their HP percentage. When the user has less than or equal to 100%/80%/60%/40%/20% HP remaining, it powers up moves by x1.1/x1.2/x1.3/x1.4/x1.5 respectively. At 100% HP, the ability does nothing.
+
+Vanillite: A2 (Weak Armor), A3 (Snow Cloak)
+Vanillish: A2 (Weak Armor), A3 (Snow Cloak)
+Vanilluxe: A2 (Weak Armor), A3 (Snow Warning)
+
+Emolga: Speed 103 -> 110
+
+Ferrothorn: A3 (Iron Barbs, replaces Anticipation).
+
+Klink: A1 (Clear Body, replaces Plus), A2 (Clear Body, replaces Minus), A3 (Transistor)
+Klang: A1 (Clear Body, replaces Plus), A2 (Clear Body, replaces Minus), A3 (Transistor)
+Klinklang: A1 (Clear Body, replaces Plus), A2 (Clear Body, replaces Minus), A3 (Transistor)
+
+Elgyem: A1 (Download, replaces Telepathy)
+Beheeyem: A1 (Download, replaces Telepathy)
+
+Stunfisk: A2 (Static, replaces Limber)
+
+Golett: A2 (Iron Fist, replaces Klutz)
+Golurk: A2 (Iron Fist, replaces Klutz)
+
+Durant: A3 (Battle Armor, replaces Truant)
+
+Chespin: A2 (Rough Skin)
+Quilladin: A2 (Rough Skin)
+Chesnaught: A2 (Rough Skin), Atk 107 -> 112
+
+Fennekin: A2 (Flash Fire), A3 (Magic Guard, replaces Magician)
+Braixen: A2 (Flash Fire), A3 (Magic Guard, replaces Magician)
+Delphox: A2 (Flash Fire), A3 (Magic Guard, replaces Magician), SpAtk 114 -> 115
+
+Froakie: A2 (Infiltrator)
+Froagdier: A2 (Infiltrator)
+Greninja: A2 (Infiltrator), Atk 95 -> 100
+
+Diggersby: 85 -> 95 HP
+
+Vivillon: SpAtk 90 -> 100, Speed 89 -> 99
+
+Pyroar: Atk 68 -> 88
+
+Flabébé: A3 (Serene Grace, replaces Symbiosis which doesn't exist)
+Floette: A3 (Serene Grace, replaces Symbiosis which doesn't exist)
+Florges: A3 (Serene Grace, replaces Symbiosis which doesn't exist)
+
+Skiddo: A3 (Sap Sipper, replaces Grass Pelt which doesn't exist)
+Gogoat: A3 (Sap Sipper, replaces Grass Pelt which doesn't exist)
+
+Meowstic (Male): Def 76 -> 81, SpDef 81 -> 86
+Meowstic (Female): Def 76 -> 71, SpAtk 83 -> 103, SpDef 81 -> 76
+
+Spritzee: A1 (Aroma Veil, replaces Healer), A2 (Aroma Veil, replaces Healer), A3 (Triage)
+Aromatisse: A1 (Aroma Veil, replaces Healer), A2 (Aroma Veil, replaces Healer), A3 (Triage), SpDef 89 -> 99
+
+Binacle: A3 (Frisk, replaces Pickpocket)
+Barbaracle: A3 (Frisk, replaces Pickpocket)
+
+Skrelp: SpDef 60 -> 70
+Dragalge: SpDef 123 -> 129
+
+Dedenne: A3 (Lightning Rod, replaces Plus), SpAtk 81 -> 85
+
+Klefki: A3 (Prankster, replaces Magician which doesn't exist)
+
+Pumpkaboo: A3 (Flare Boost, replaces Insomnia), Atk/SpAtk swapped on all forms
+Gourgeist: A1 (Flash Fire, replaces Pickup), A3 (Flare Boost, replaces Insomnia), Atk/SpAtk swapped on all forms
+
+Noibat: A3 (Cacophony, replaces Telepathy)
+Noivern: A3 (Cacophony, replaces Telepathy)

@@ -450,3 +450,12 @@ arm9 ScrCmd_DaycareSanitizeMon 0204CFB8 1
 arm9 AllocFail_hook 0201AA7C 0
 #endif
 # DEBUG_PRINT_HEAP_OVERFLOW_MESSAGES
+
+# **** AURORA CRYSTAL: Added hooks to support the portable PC. ****
+
+# pc anywhere
+0001 ClearOverworldRequestFlags 021E6880 1
+# hook from where y button is checked
+0001 SetOverworldRequestFlags_hook 021E6982 0
+# hook from near beginning of function
+0001 CheckOverworldRequestFlags_hook 021E6AF6 3

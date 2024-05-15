@@ -48,3 +48,22 @@ arm9 sItemFieldUseFuncs+8 020649B4
 0012 TerrainPlatformPlayerNCGR 02265F1C
 0012 TerrainPlatformEnemyNCGR 02265F24
 0012 TerrainPlatformPalettes 02265F2C
+
+# **** AURORA CRYSTAL: Further repoints for extended trainer music and tutors. ****
+
+# Combo table for battle music
+arm9 MainTableCombo 080517C8
+arm9 MainTableCombo+2 080517E4
+arm9 PokemonMusicTable 080518D4
+arm9 TrainerMusicTable 08051890
+
+# Table for trainer class prize money
+# Trainer Class Money Table
+0012 PrizeMoney 08008380
+0012 PrizeMoney+2 08008384
+
+# Move Tutor Table
+0001 MoveTutorTable 02202C20
+0001 MoveTutorTable 02202DFC
+0001 MoveTutorTable 0220304C
+0001 MoveTutorTable+2 02202C24

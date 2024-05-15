@@ -452,7 +452,8 @@ def offset():
                 rom.close()
 
 
-OVERLAYS_TO_DECOMPRESS = [1, 2, 6, 7, 8, 10, 12, 14, 15, 18, 61, 63, 68, 94, 96, 112]
+# **** AURORA CRYSTAL: Also decompress overlay 101 here to make the Hoenn Sound every day adjustment. ****
+OVERLAYS_TO_DECOMPRESS = [1, 2, 6, 7, 8, 10, 12, 14, 15, 18, 61, 63, 68, 94, 96, 101, 112]
 
 
 def decompress():

@@ -616,6 +616,10 @@ $(SCR_SEQ_NARC): $(SCR_SEQ_DEPENDENCIES)
 # for convenience, rebuild SCR_SEQ_NARC every build so that DSPRE changes are not overwritten
 .PHONY: $(SCR_SEQ_NARC)
 
+# **** AURORA CRYSTAL: Also rebuild the message narc and maybe the dex one later. ****
+# .PHONY: $(DEXSORT_NARC)
+.PHONY: $(MSGDATA_NARC)
+
 NARC_FILES += $(SCR_SEQ_NARC)
 
 HEADBUTT_DIR := $(BUILD)/headbutttrees

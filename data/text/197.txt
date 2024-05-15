@@ -772,7 +772,7 @@ The opposing {STRVAR_1 1, 0, 0}’s stats\nwon’t go any higher!
 {STRVAR_1 1, 0, 0}’s stats won’t\ngo any lower!
 The wild {STRVAR_1 1, 0, 0}’s stats\nwon’t go any lower!
 The opposing {STRVAR_1 1, 0, 0}’s stats\nwon’t go any lower!
-A critical hit!
+{COLOR 1}A critical hit!{COLOR 0}
 It’s a one-hit KO!
 1, 2, and... ... ... Poof!
 And...
@@ -2000,103 +2000,103 @@ The snow stopped.
 
 {STRVAR_1 1, 0, 0} can’t fall asleep\ndue to a veil of sweetness!
 The wild {STRVAR_1 1, 0, 0} can’t fall asleep\ndue to a veil of sweetness!
-The foe’s {STRVAR_1 1, 0, 0} can’t fall asleep\ndue to a veil of sweetness!
+The opposing {STRVAR_1 1, 0, 0} can’t fall asleep\ndue to a veil of sweetness!
 {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nlet it endure the hit!
 The wild {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nlet it endure the hit!
-The foe’s {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nlet it endure the hit!
+The opposing {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nlet it endure the hit!
 {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nbadly poisoned {STRVAR_1 1, 2, 0}!
 {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nbadly poisoned the wild {STRVAR_1 1, 2, 0}!
-{STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nbadly poisoned the foe’s {STRVAR_1 1, 2, 0}!
+{STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nbadly poisoned the opposing {STRVAR_1 1, 2, 0}!
 The wild {STRVAR_1 1, 0, 0}’s\n{STRVAR_1 5, 1, 0} badly poisoned\f{STRVAR_1 1, 2, 0}!
 The wild {STRVAR_1 1, 0, 0}’s\n{STRVAR_1 5, 1, 0} badly poisoned\fthe wild {STRVAR_1 1, 2, 0}!
-The foe’s {STRVAR_1 1, 0, 0}’s\n{STRVAR_1 5, 1, 0} badly poisoned\f{STRVAR_1 1, 2, 0}!
-The foe’s {STRVAR_1 1, 0, 0}’s\n{STRVAR_1 5, 1, 0} badly poisoned\fthe foe’s {STRVAR_1 1, 2, 0}!
+The opposing {STRVAR_1 1, 0, 0}’s\n{STRVAR_1 5, 1, 0} badly poisoned\f{STRVAR_1 1, 2, 0}!
+The opposing {STRVAR_1 1, 0, 0}’s\n{STRVAR_1 5, 1, 0} badly poisoned\fthe opposing {STRVAR_1 1, 2, 0}!
 {STRVAR_1 1, 0, 0} is protected\nby an aromatic veil!
 The wild {STRVAR_1 1, 0, 0} is protected\nby an aromatic veil!
-The foe’s {STRVAR_1 1, 0, 0} is protected\nby an aromatic veil!
+The opposing {STRVAR_1 1, 0, 0} is protected\nby an aromatic veil!
 {STRVAR_1 1, 0, 0}’s\nburn was healed!
 The wild {STRVAR_1 1, 0, 0}’s burn\nwas healed!
-The foe’s {STRVAR_1 1, 0, 0}’s burn\nwas healed!
+The opposing {STRVAR_1 1, 0, 0}’s burn\nwas healed!
 {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nprevents it from falling for the taunt!
 The wild {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nprevents it from falling for the taunt!
-The foe’s {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nprevents it from falling for the taunt!
+The opposing {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nprevents it from falling for the taunt!
 {STRVAR_1 1, 0, 0} put the\n{STRVAR_1 6, 1, 0} away!
 The wild {STRVAR_1 1, 0, 0} put the\n{STRVAR_1 6, 1, 0} away!
-The foe’s {STRVAR_1 1, 0, 0} put the\n{STRVAR_1 6, 1, 0} away!
+The opposing {STRVAR_1 1, 0, 0} put the\n{STRVAR_1 6, 1, 0} away!
 {STRVAR_1 1, 0, 0}’s Screen Cleaner\nremoved {STRVAR_1 6, 1, 0}!
 The wild {STRVAR_1 1, 0, 0}’s Screen Cleaner\nremoved {STRVAR_1 6, 1, 0}!
-The foe’s {STRVAR_1 1, 0, 0}’s Screen Cleaner\nremoved {STRVAR_1 6, 1, 0}!
+The opposing {STRVAR_1 1, 0, 0}’s Screen Cleaner\nremoved {STRVAR_1 6, 1, 0}!
 {STRVAR_1 1, 0, 0}’s Attack was not\nlowered by Intimidate because\fof its {STRVAR_1 5, 1, 0}!
 The wild {STRVAR_1 1, 0, 0}’s Attack was not\nlowered by Intimidate because\fof its {STRVAR_1 5, 1, 0}!
-The foe’s {STRVAR_1 1, 0, 0}’s Attack was not\nlowered by Intimidate because\fof its {STRVAR_1 5, 1, 0}!
+The opposing {STRVAR_1 1, 0, 0}’s Attack was not\nlowered by Intimidate because\fof its {STRVAR_1 5, 1, 0}!
 {STRVAR_1 1, 0, 0} lost some of its HP!
 The wild {STRVAR_1 1, 0, 0} lost\nsome of its HP!
-The foe’s {STRVAR_1 1, 0, 0} lost\nsome of its HP!
+The opposing {STRVAR_1 1, 0, 0} lost\nsome of its HP!
 {STRVAR_1 1, 0, 0} became nimble!
 The wild {STRVAR_1 1, 0, 0} became nimble!
-The foe’s {STRVAR_1 1, 0, 0} became nimble!
+The opposing {STRVAR_1 1, 0, 0} became nimble!
 {STRVAR_1 1, 0, 0} cured its\nstatus using its {STRVAR_1 5, 1, 0}!
 The wild {STRVAR_1 1, 0, 0} cured its\nstatus using its {STRVAR_1 5, 1, 0}!
-The foe’s {STRVAR_1 1, 0, 0} cured its\nstatus using its {STRVAR_1 5, 1, 0}!
+The opposing {STRVAR_1 1, 0, 0} cured its\nstatus using its {STRVAR_1 5, 1, 0}!
 {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0} negates\nthe effects of weather!
 The wild {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nnegates the effects of weather!
-The foe’s {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nnegates the effects of weather!
+The opposing {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nnegates the effects of weather!
 {STRVAR_1 1, 0, 0}’s Supreme Overlord\nlet it gain strength from the fallen!
 The wild {STRVAR_1 1, 0, 0}’s Supreme Overlord\nlet it gain strength from the fallen!
-The foe’s {STRVAR_1 1, 0, 0}’s Supreme Overlord\nlet it gain strength from the fallen!
+The opposing {STRVAR_1 1, 0, 0}’s Supreme Overlord\nlet it gain strength from the fallen!
 {STRVAR_1 1, 0, 0}’s stat changes\nwere removed!
 The wild {STRVAR_1 1, 0, 0}’s stat changes\nwere removed!
-The foe’s {STRVAR_1 1, 0, 0}’s stat changes\nwere removed!
+The opposing {STRVAR_1 1, 0, 0}’s stat changes\nwere removed!
 {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nbrightened up the day!\rThe sunlight turned harsh!\r
 The wild {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nbrightened up the day!\rThe sunlight turned harsh!\r
-The foe’s {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nbrightened up the day!\rThe sunlight turned harsh!\r
+The opposing {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nbrightened up the day!\rThe sunlight turned harsh!\r
 {STRVAR_1 1, 0, 0}’s {STRVAR_1 8, 1, 0}\nwas burnt up!
 The wild {STRVAR_1 1, 0, 0}’s {STRVAR_1 8, 1, 0}\nwas burnt up!
-The foe’s {STRVAR_1 1, 0, 0}’s {STRVAR_1 8, 1, 0}\nwas burnt up!
+The opposing {STRVAR_1 1, 0, 0}’s {STRVAR_1 8, 1, 0}\nwas burnt up!
 {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nwafts through the area!
 The wild {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nwafts through the area!
-The foe’s {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nwafts through the area!
+The opposing {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nwafts through the area!
 {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nlights up the area!
 The wild {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nlights up the area!
-The foe’s {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nlights up the area!
+The opposing {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nlights up the area!
 Tidying up complete!
 {STRVAR_1 1, 0, 0}’s poison status\nwas cured by Pastel Veil!
 The wild {STRVAR_1 1, 0, 0}’s poison status\nwas cured by Pastel Veil!
-The foe’s {STRVAR_1 1, 0, 0}’s poison status\nwas cured by Pastel Veil!
+The opposing {STRVAR_1 1, 0, 0}’s poison status\nwas cured by Pastel Veil!
 {STRVAR_1 1, 0, 0} made contact with\n{STRVAR_1 1, 1, 0}’s Perish Body!\rBoth Pokémon will faint\nin three turns!
 {STRVAR_1 1, 0, 0} made contact with\nthe wild {STRVAR_1 1, 1, 0}’s Perish Body!\rBoth Pokémon will faint\nin three turns!
-{STRVAR_1 1, 0, 0} made contact with\nthe foe’s {STRVAR_1 1, 1, 0}’s Perish Body!\rBoth Pokémon will faint\nin three turns!
+{STRVAR_1 1, 0, 0} made contact with\nthe opposing {STRVAR_1 1, 1, 0}’s Perish Body!\rBoth Pokémon will faint\nin three turns!
 The wild {STRVAR_1 1, 0, 0} made contact\nwith {STRVAR_1 1, 1, 0}’s Perish Body!\rBoth Pokémon will faint\nin three turns!
 The wild {STRVAR_1 1, 0, 0} made contact\nwith the wild {STRVAR_1 1, 1, 0}’s Perish Body!\rBoth Pokémon will faint\nin three turns!
-The foe’s {STRVAR_1 1, 0, 0} made contact\nwith {STRVAR_1 1, 1, 0}’s Perish Body!\rBoth Pokémon will faint\nin three turns!
-The foe’s {STRVAR_1 1, 0, 0} made contact\nwith the foe’s {STRVAR_1 1, 1, 0}’s Perish Body!\rBoth Pokémon will faint\nin three turns!
+The opposing {STRVAR_1 1, 0, 0} made contact\nwith {STRVAR_1 1, 1, 0}’s Perish Body!\rBoth Pokémon will faint\nin three turns!
+The opposing {STRVAR_1 1, 0, 0} made contact\nwith the opposing {STRVAR_1 1, 1, 0}’s Perish Body!\rBoth Pokémon will faint\nin three turns!
 {STRVAR_1 1, 0, 0} swapped Abilities\nwith its target!
 The wild {STRVAR_1 1, 0, 0} swapped\nAbilities with its target!
-The foe’s {STRVAR_1 1, 0, 0} swapped\nAbilities with its target!
+The opposing {STRVAR_1 1, 0, 0} swapped\nAbilities with its target!
 {STRVAR_1 1, 0, 0}’s Curious Medicine\nremoved its ally’s stat changes!
 The wild {STRVAR_1 1, 0, 0}’s Curious Medicine\nremoved its ally’s stat changes!
-The foe’s {STRVAR_1 1, 0, 0}’s Curious Medicine\nremoved its ally’s stat changes!
+The opposing {STRVAR_1 1, 0, 0}’s Curious Medicine\nremoved its ally’s stat changes!
 {STRVAR_1 1, 0, 0} is preparing to tell\na chillingly bad joke!
 The wild {STRVAR_1 1, 0, 0} is preparing\nto tell a chillingly bad joke!
-The foe’s {STRVAR_1 1, 0, 0} is preparing\nto tell a chillingly bad joke!
+The opposing {STRVAR_1 1, 0, 0} is preparing\nto tell a chillingly bad joke!
 {STRVAR_1 1, 0, 0} cured its\nstatus using its {STRVAR_1 5, 1, 0}!
 The wild {STRVAR_1 1, 0, 0} cured its\nstatus using its {STRVAR_1 5, 1, 0}!
-The foe’s {STRVAR_1 1, 0, 0} cured its\nstatus using its {STRVAR_1 5, 1, 0}!
+The opposing {STRVAR_1 1, 0, 0} cured its\nstatus using its {STRVAR_1 5, 1, 0}!
 {STRVAR_1 1, 0, 0}’s Grassy Surge\nmade the battlefield Grassy Terrain!
 The wild {STRVAR_1 1, 0, 0}’s Grassy Surge\nmade the battlefield Grassy Terrain!
-The foe’s {STRVAR_1 1, 0, 0}’s Grassy Surge\nmade the battlefield Grassy Terrain!
+The opposing {STRVAR_1 1, 0, 0}’s Grassy Surge\nmade the battlefield Grassy Terrain!
 {STRVAR_1 1, 0, 0}’s Misty Surge\nmade the battlefield Misty Terrain!
 The wild {STRVAR_1 1, 0, 0}’s Misty Surge\nmade the battlefield Misty Terrain!
-The foe’s {STRVAR_1 1, 0, 0}’s Misty Surge\nmade the battlefield Misty Terrain!
+The opposing {STRVAR_1 1, 0, 0}’s Misty Surge\nmade the battlefield Misty Terrain!
 {STRVAR_1 1, 0, 0}’s Electric Surge\nmade the battlefield Electric Terrain!
 The wild {STRVAR_1 1, 0, 0}’s Electric Surge\nmade the battlefield Electric Terrain!
-The foe’s {STRVAR_1 1, 0, 0}’s Electric Surge\nmade the battlefield Electric Terrain!
+The opposing {STRVAR_1 1, 0, 0}’s Electric Surge\nmade the battlefield Electric Terrain!
 {STRVAR_1 1, 0, 0}’s Psychic Surge\nmade the battlefield Psychic Terrain!
 The wild {STRVAR_1 1, 0, 0}’s Psychic Surge\nmade the battlefield Psychic Terrain!
-The foe’s {STRVAR_1 1, 0, 0}’s Psychic Surge\nmade the battlefield Psychic Terrain!
+The opposing {STRVAR_1 1, 0, 0}’s Psychic Surge\nmade the battlefield Psychic Terrain!
 {STRVAR_1 1, 0, 0} was trapped by\n{STRVAR_1 1, 1, 0}!
 {STRVAR_1 1, 0, 0} was trapped by\nthe wild {STRVAR_1 1, 1, 0}!
-{STRVAR_1 1, 0, 0} was trapped by\nthe foe’s {STRVAR_1 1, 1, 0}!
+{STRVAR_1 1, 0, 0} was trapped by\nthe opposing {STRVAR_1 1, 1, 0}!
 {STRVAR_1 1, 0, 0} is overflowing with\nspace power!
 The wild {STRVAR_1 1, 0, 0} is overflowing with\nspace power!
-The foe’s {STRVAR_1 1, 0, 0} is overflowing with\nspace power!
+The opposing {STRVAR_1 1, 0, 0} is overflowing with\nspace power!

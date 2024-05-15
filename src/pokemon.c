@@ -481,6 +481,8 @@ void LONG_CALL SetBoxMonAbility(struct BoxPokemon *boxmon) // actually takes box
     pid = GetBoxMonData(boxmon, MON_DATA_PERSONALITY, NULL);
     form = GetBoxMonData(boxmon, MON_DATA_FORM, NULL);
 
+    // Set hidden ability if the relevant flag is set.
+    // No 20% chance here since this gets used during evolution.
     if (CheckScriptFlag(HIDDEN_ABILITIES_FLAG) == 1)
     {
         SET_BOX_MON_HIDDEN_ABILITY_BIT(boxmon)
@@ -514,7 +516,7 @@ void LONG_CALL SetBoxMonAbility(struct BoxPokemon *boxmon) // actually takes box
             else
                 ability_to_set = ability2;
         }
-        else
+        else // Ordinarily ability 1 in this case
         {
             if (ability_swapped)
                 ability_to_set = ability2;
@@ -526,6 +528,14 @@ void LONG_CALL SetBoxMonAbility(struct BoxPokemon *boxmon) // actually takes box
     else
     {
         SetBoxMonData(boxmon, MON_DATA_ABILITY, (u8 *)&ability1);
+    }
+
+    // Special ability for Spiky-Eared Pichu.
+    // Have to force it here as it doesn't have its own personal etc.
+    if (GetBoxMonData(boxmon, MON_DATA_SPECIES, NULL) == SPECIES_PICHU && form == 1) {
+        int timeGift = ABILITY_TIMES_GIFT;
+
+        SetBoxMonData(boxmon, MON_DATA_ABILITY, &timeGift);
     }
 
     BoxMonSetFastModeOff(boxmon, fastMode);
@@ -884,7 +894,7 @@ u32 LONG_CALL UseItemMonAttrChangeCheck(struct PLIST_WORK *wk, void *dat)
         PokeList_FormDemoOverlayLoad(wk);
         TOGGLE_MON_HIDDEN_ABILITY_BIT(pp)
         ResetPartyPokemonAbility(pp);
-        Bag_TakeItem(bag, wk->dat->item, 1, 11);
+        Bag_TakeItem(bag, ITEM_ABILITY_PATCH, 1, 11);
         return TRUE;
     }
 
@@ -1026,6 +1036,18 @@ void LONG_CALL UpdatePassiveForms(struct PartyPokemon *pp)
             break;
         case SPECIES_PYROAR:
             form = (gf_rand() % 8 != 0); // 1/8 male
+            break;
+
+        // Allow any flower colours (except Eternal Flower) to show up
+        case SPECIES_FLABEBE:
+        case SPECIES_FLOETTE:
+        case SPECIES_FLORGES:
+            form = gf_rand() % 5;
+            break;
+        // Allow any size to show up
+        case SPECIES_PUMPKABOO:
+        case SPECIES_GOURGEIST:
+            form = gf_rand() % 4;
             break;
         default:
             shouldUpdate = FALSE;
@@ -1431,6 +1453,23 @@ void LONG_CALL CreateBoxMonData(struct BoxPokemon *boxmon, int species, int leve
         id=0;
     }
 
+    // Force a shiny PID when this flag is set.
+    if (CheckScriptFlag(2612) == 1) {
+        struct PLAYERDATA *saveData = SaveBlock2_get();
+        struct PlayerProfile *profile = Sav2_PlayerData_GetProfileAddr(saveData);
+
+        u32 otid = *(u32*)&profile->id;
+        u32 pid = (gf_rand() | (gf_rand() << 16));
+
+        do {
+            pid = (gf_rand() | (gf_rand() << 16));
+        } while (SHINY_CHECK(otid, pid) == FALSE); // Can be >= 80 with the higher rate but this works too
+
+        SetBoxMonData(boxmon, MON_DATA_PERSONALITY, &pid);
+
+        ClearScriptFlag(2612);
+    }
+
     // this function or AddWildPartyPokemon could both get here first
     // and since both functions will initialize the moveset,
     // we need the form to be set correctly in either case
@@ -1494,6 +1533,16 @@ void LONG_CALL CreateBoxMonData(struct BoxPokemon *boxmon, int species, int leve
         SetBoxMonData(boxmon,MON_DATA_ABILITY,(u8 *)&i);
     }
 
+    // Special case for Spiky-Eared Pichu
+    // This seems like the only place I can override the existing ability when receiving it
+    if (species == SPECIES_PICHU && CheckScriptFlag(TIMES_GIFT_FLAG)) {
+        ClearScriptFlag(TIMES_GIFT_FLAG);
+
+        u8 gift = ABILITY_TIMES_GIFT;
+
+        SetBoxMonData(boxmon, MON_DATA_ABILITY, &gift);
+    }
+
     i=GetBoxMonGender(boxmon);
     SetBoxMonData(boxmon,MON_DATA_GENDER,(u8 *)&i);
     FillInBoxMonLearnset(boxmon);
@@ -1553,6 +1602,15 @@ bool8 LONG_CALL RevertFormChange(struct PartyPokemon *pp, u16 species, u8 form_n
 
 u32 gLastPokemonLevelForMoneyCalc;
 
+void shuffle(int arr[], int n) {
+    for (int i = n - 1; i > 0; i--) {
+        int j = gf_rand() % (i + 1);
+        int temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp;
+    }
+}
+
 /**
  *  @brief set the hidden ability specifically for the starter
  *
@@ -1563,8 +1621,24 @@ void set_starter_hidden_ability(struct Party *party UNUSED, struct PartyPokemon 
 {
     if (CheckScriptFlag(HIDDEN_ABILITIES_STARTERS_FLAG) == 1)
     {
+        struct BoxPokemon *boxmon = &pp->box;
+
         SET_MON_HIDDEN_ABILITY_BIT(pp)
-        SetBoxMonAbility((void *)&pp->box);
+        SetBoxMonAbility(boxmon);
+
+        int iv = 31;
+
+        int arr[] = {0, 1, 2, 3, 4, 5};
+        shuffle(arr, 6);
+
+        // This sets three of the starter's IVs at random to be 31.
+        for (int i = 0; i < 3; i++) {
+            int selectedValue = arr[i];
+
+            SetBoxMonData(boxmon, MON_DATA_HP_IV + selectedValue, &iv);
+        }
+
+        ClearScriptFlag(HIDDEN_ABILITIES_STARTERS_FLAG);
     }
 }
 
@@ -1717,6 +1791,18 @@ u32 GrabCryNumSpeciesForm(u32 species, u32 form)
         else if (retAddr == 0x020063E5 || retAddr == 0x02006241)
             if (!storeShayminForm)
                 return species;
+    }
+    else if (species == SPECIES_ANNIHILAPE) {
+        return 835;
+    }
+    else if (species == SPECIES_FARIGIRAF) {
+        return 836;
+    }
+    else if (species == SPECIES_DUDUNSPARCE) {
+        return 837;
+    }
+    else if (species == SPECIES_KINGAMBIT) {
+        return 838;
     }
     else if (form == 0)
     {
@@ -1919,8 +2005,12 @@ u32 SpeciesAndFormeToWazaOshieIndex(u32 species, u32 form)
  */
 u32 GetLevelCap(void)
 {
-    u32 levelCap = GetScriptVar(LEVEL_CAP_VARIABLE);
-    if (levelCap > 100) levelCap = 100;
+    u8 levelCap = GetScriptVar(LEVEL_CAP_VARIABLE);
+
+    if (levelCap == 0 || levelCap > 100) {
+        return 100;
+    }
+
     return levelCap;
 }
 

@@ -22,7 +22,7 @@
  *  @param seq_no subscript to load if TRUE is returned
  *  @return TRUE if there's an item effect to run in *seq_no; FALSE otherwise
  */
-BOOL CheckDefenderItemEffectOnHit(void *bw, struct BattleStruct *sp, int *seq_no)
+BOOL LONG_CALL CheckDefenderItemEffectOnHit(void *bw, struct BattleStruct *sp, int *seq_no)
 {
     BOOL ret = FALSE;
 
@@ -55,7 +55,7 @@ BOOL CheckDefenderItemEffectOnHit(void *bw, struct BattleStruct *sp, int *seq_no
                 // Attacker is not U-turning
                 && ((sp->server_status_flag2 & SERVER_STATUS_FLAG2_U_TURN) == 0)
                 // Attacker used a move that makes contact
-                && (sp->moveTbl[sp->current_move_index].flag & FLAG_CONTACT)) {
+                && (isMoveContact(sp))) {
                 seq_no[0] = SUB_SEQ_ITEM_GIVE_STICKY_BARB;
                 ret       = TRUE;
             }
@@ -126,13 +126,58 @@ BOOL CheckDefenderItemEffectOnHit(void *bw, struct BattleStruct *sp, int *seq_no
         case HOLD_EFFECT_UNGROUND_DESTROYED_ON_HIT:             // Air Balloon
             // Defender is alive after the attack
             if ((sp->battlemon[sp->defence_client].hp)
+                // Attacker is not U-turning
+                && ((sp->server_status_flag2 & SERVER_STATUS_FLAG2_U_TURN) == 0)
                 // Damage was dealt
                 && ((sp->oneSelfFlag[sp->defence_client].physical_damage)
                     || (sp->oneSelfFlag[sp->defence_client].special_damage))) {
+                
                 seq_no[0] = SUB_SEQ_HANDLE_AIR_BALLOON_POP;
                 ret       = TRUE;
             }
             break;
+
+        /* Aurora Crystal fork only */
+
+        // Rocky Helmet
+        case HOLD_EFFECT_DAMAGE_ON_CONTACT:
+            if 
+            (
+                (sp->battlemon[sp->attack_client].hp)
+                && (GetBattlerAbility(sp, sp->attack_client) != ABILITY_MAGIC_GUARD)
+                && ((sp->oneSelfFlag[sp->defence_client].physical_damage) || (sp->oneSelfFlag[sp->defence_client].special_damage))
+                && ((sp->server_status_flag2 & SERVER_STATUS_FLAG2_U_TURN) == 0)
+                && (isMoveContact(sp))
+            ) {
+                sp->hp_calc_work = BattleDamageDivide(sp->battlemon[sp->attack_client].maxhp * -1, itemPower);
+                seq_no[0] = SUB_SEQ_HANDLE_ROCKY_HELMET;
+                ret = TRUE;
+            }
+            break;
+        // Weakness Policy
+        case HOLD_EFFECT_BOOST_ATK_AND_SPATK_ON_SE:
+            if
+            (
+                (sp->battlemon[sp->defence_client].hp)
+                && (sp->oneSelfFlag[sp->defence_client].physical_damage || sp->oneSelfFlag[sp->defence_client].special_damage)
+                && (sp->waza_status_flag & MOVE_STATUS_FLAG_SUPER_EFFECTIVE)
+                && ((sp->server_status_flag2 & SERVER_STATUS_FLAG2_U_TURN) == 0)
+                && (
+                    ((GetBattlerAbility(sp,sp->defence_client) == ABILITY_CONTRARY) && ((sp->battlemon[sp->defence_client].states[STAT_ATTACK] > 0) || (sp->battlemon[sp->defence_client].states[STAT_SPATK] > 0)))
+                    ||
+                    ((sp->battlemon[sp->defence_client].states[STAT_ATTACK] < 12) || (sp->battlemon[sp->defence_client].states[STAT_SPATK] < 12))
+                )
+            )
+            {
+                sp->addeffect_type = ADD_STATUS_SOUBIITEM;
+                sp->state_client = sp->defence_client;
+                sp->item_work = sp->battlemon[sp->defence_client].item;
+                seq_no[0] = SUB_SEQ_HANDLE_WEAKNESS_POLICY;
+                ret = TRUE;
+            }
+            break;
+
+#ifdef LATER_GEN_ITEM_EFFECTS
 
         case HOLD_EFFECT_BOOST_ATK_ON_ELECTRIC_HIT:             // Cell Battery
             // Defender is alive after the attack
@@ -275,9 +320,6 @@ BOOL CheckDefenderItemEffectOnHit(void *bw, struct BattleStruct *sp, int *seq_no
             }
             break;
 
-
-#ifdef LATER_GEN_ITEM_EFFECTS
-
         case HOLD_EFFECT_BOOST_ATK_AND_SPATK_ON_SE:             // Weakness Policy
             // Defender is alive after the attack
             if ((sp->battlemon[sp->defence_client].hp)
@@ -313,3 +355,4 @@ BOOL CheckDefenderItemEffectOnHit(void *bw, struct BattleStruct *sp, int *seq_no
 
     return ret;
 }
+

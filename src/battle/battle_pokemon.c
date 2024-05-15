@@ -168,7 +168,6 @@ u8 TypeEffectivenessTable[][3] =
     { TYPE_ICE, TYPE_ICE, 0x05 },
     { TYPE_ICE, TYPE_DRAGON, 0x14 },
     { TYPE_DRAGON, TYPE_STEEL, 0x05 },
-
     { TYPE_DRAGON, TYPE_DRAGON, 0x14 },
     { TYPE_DARK, TYPE_FIGHTING, 0x05 },
     { TYPE_DARK, TYPE_GHOST, 0x14 },
@@ -188,6 +187,7 @@ u8 TypeEffectivenessTable[][3] =
     { TYPE_GHOST, TYPE_NORMAL, 0x00 },
     { TYPE_ELECTRIC, TYPE_GROUND, 0x00 },
     { TYPE_PSYCHIC, TYPE_DARK, 0x00 },
+    
 #if FAIRY_TYPE_IMPLEMENTED == 1
     { TYPE_DRAGON, TYPE_FAIRY, 0x00 },
 #endif
@@ -991,6 +991,9 @@ void LONG_CALL ClearBattleMonFlags(struct BattleStruct *sp, int client)
     sp->battlemon[client].sheer_force_flag = 0;
     sp->battlemon[client].imposter_flag = 0;
     sp->battlemon[client].critical_hits = 0;
+    sp->battlemon[client].text_on_ability_entry_flag = 0;
+    sp->battlemon[client].echoed_voice_count = 0;
+    sp->battlemon[client].protean_flag = 0;
     sp->battlemon[client].air_ballon_flag = 0;
     sp->battlemon[client].ability_activated_flag = 0;
     sp->battlemon[client].parental_bond_flag = 0;
@@ -1009,7 +1012,7 @@ u16 SoundProofMovesList[] = {
     MOVE_CHATTER,
     MOVE_CLANGING_SCALES,
     MOVE_CLANGOROUS_SOUL,
-    MOVE_CLANGOROUS_SOULBLAZE,
+    // MOVE_CLANGOROUS_SOULBLAZE,
     MOVE_CONFIDE,
     MOVE_DISARMING_VOICE,
     MOVE_ECHOED_VOICE,
@@ -1034,7 +1037,7 @@ u16 SoundProofMovesList[] = {
     MOVE_SNORE,
     MOVE_SPARKLING_ARIA,
     MOVE_SUPERSONIC,
-    MOVE_TORCH_SONG,
+    // MOVE_TORCH_SONG,
     MOVE_UPROAR
 };
 
@@ -1087,8 +1090,8 @@ u32 LONG_CALL GetAdjustedMoveTypeBasics(struct BattleStruct *sp, u32 move, u32 a
     }
 
     // so all of that happens, but we still need to handle liquid voice in a way that still lets the type != 0 happen and that the type from the move table is grabbed.  moved down here
-    if (ability == ABILITY_LIQUID_VOICE && IsMoveSoundBased(sp->current_move_index))
-    {
+    // implementation simplified with AC move flags
+    if (ability == ABILITY_LIQUID_VOICE && (sp->moveTbl[sp->current_move_index].flag & FLAG_SOUND)) {
         typeLocal = TYPE_WATER;
     }
 

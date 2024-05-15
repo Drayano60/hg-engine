@@ -193,7 +193,6 @@ struct LocalMapObject {
 #define BIT_VANISH (1<<9)
 #define BIT_JUMP_START (1<<16)
 
-
 typedef struct OVERWORLD_REQUEST_FLAGS {
     /* 0x0 */ u16 TalkCheck:1;    // 0x0001
               u16 StepCheck:1;    // 0x0002
@@ -209,7 +208,7 @@ typedef struct OVERWORLD_REQUEST_FLAGS {
               u16 DebugHook:1;    // 0x1000
               u16 DebugKeyPush:1; // 0x2000
               u16 OpenPCCheck:1;
-              u16 Unused:1;
+              u16 OpenTeleportCheck:1;
     /* 0x2 */ u16 unk2; // if you told me that they just inserted unk0_0018 without decreasing Unused size, i would believe you
     /* 0x4 */ u8 Site;
     /* 0x5 */ s8 PushSite;

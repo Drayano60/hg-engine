@@ -195,4 +195,12 @@
 #define HOLD_EFFECT_DARK_MEMORY 184
 #define HOLD_EFFECT_FAIRY_MEMORY 185
 
+
+// Added on Aurora Crystal fork only
+#define HOLD_EFFECT_LOADED_DICE                 250   // Loaded Dice
+#define HOLD_EFFECT_BOOST_FAIRY                 251   // Fairy Feather (from SV Teal Mask)
+#define HOLD_EFFECT_ASSAULT_VEST                252   // Assault Vest
+#define HOLD_EFFECT_THROAT_SPRAY                253   // Throat Spray
+#define HOLD_EFFECT_HEAVY_DUTY_BOOTS            254   // Heavy-Duty Boots
+
 #endif

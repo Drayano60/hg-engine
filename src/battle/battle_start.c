@@ -415,12 +415,14 @@ void ServerWazaBefore(void *bw, struct BattleStruct *sp)
             FALLTHROUGH;
         case SEQ_PROTEAN_CHECK:
             if (sp->battlemon[sp->attack_client].ability == ABILITY_PROTEAN
+                && (sp->battlemon[sp->attack_client].protean_flag == 0) // Gen IX once per switch-in
                 && (sp->battlemon[sp->attack_client].type1 != sp->moveTbl[sp->current_move_index].type  // if either type is not the move's type
                     || sp->battlemon[sp->attack_client].type2 != sp->moveTbl[sp->current_move_index].type)
                 && sp->moveTbl[sp->current_move_index].power != 0) // the move has to have power in order for it to change the type
             {
                 sp->battlemon[sp->attack_client].type1 = sp->moveTbl[sp->current_move_index].type;
                 sp->battlemon[sp->attack_client].type2 = sp->moveTbl[sp->current_move_index].type;
+                sp->battlemon[sp->attack_client].protean_flag = 1;
                 LoadBattleSubSeqScript(sp, ARC_BATTLE_SUB_SEQ, SUB_SEQ_HANDLE_PROTEAN_MESSAGE);
                 sp->msg_work = sp->battlemon[sp->attack_client].type1;
                 sp->client_work = sp->attack_client;
@@ -435,7 +437,8 @@ void ServerWazaBefore(void *bw, struct BattleStruct *sp)
             if (sp->battlemon[sp->attack_client].ability == ABILITY_STANCE_CHANGE && sp->battlemon[sp->attack_client].species == SPECIES_AEGISLASH)
             {
                 sp->client_work = sp->attack_client;
-                if (sp->current_move_index == MOVE_KINGS_SHIELD && sp->battlemon[sp->attack_client].form_no == 1)
+                if (sp->current_move_index == MOVE_PROTECT && sp->battlemon[sp->attack_client].form_no == 1) // Temp until King's Shield is in    
+                // if (sp->current_move_index == MOVE_KINGS_SHIELD && sp->battlemon[sp->attack_client].form_no == 1)
                 {
                     sp->battlemon[sp->client_work].form_no = 0;
                     BattleFormChange(sp->client_work, sp->battlemon[sp->client_work].form_no, bw, sp, 0);

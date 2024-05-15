@@ -18,6 +18,7 @@
 #define DUMMY_P2_1_HAS_HIT_NECESSARY_CRITICAL_HITS (0x02)
 
 // MON_DATA_RESERVED_114 (16 bits) fields
+#define DUMMY_P2_1_CHANGED_ABILITY_MASK (0x01) // This was mine
 #define DUMMY_P2_2_CHANGE_ABILITY_SLOT (0x0001)
 #define DUMMY_P2_2_NATURE_OVERRIDE (0x003E)
 #define DUMMY_P2_2_HP_IV_OVERRIDE (0x0040)
@@ -30,6 +31,7 @@
 // MON_DATA_UNK_121  (8 bits) fields
 
 
+// MON_DATA_RESERVED_113 functions
 #define SET_MON_HIDDEN_ABILITY_BIT(mon) { \
     u8 tempvarassumeunused = GetMonData(mon, MON_DATA_RESERVED_113, 0); \
     tempvarassumeunused |= DUMMY_P2_1_HIDDEN_ABILITY_MASK; \
@@ -96,6 +98,18 @@
 #define GET_MON_NATURE_OVERRIDE(mon) (((GetMonData(mon, MON_DATA_RESERVED_114, 0) & DUMMY_P2_2_NATURE_OVERRIDE) >> 1) & 0x1F)
 #define GET_BOX_MON_NATURE_OVERRIDE(boxmon) (((GetBoxMonData(boxmon, MON_DATA_RESERVED_114, 0) & DUMMY_P2_2_NATURE_OVERRIDE) >> 1) & 0x1F)
 
+// MON_DATA_RESERVED_114 functions
+#define SET_BOX_MON_CHANGED_ABILITY_BIT(boxmon) { \
+    u16 tempvarassumeunused = GetBoxMonData(boxmon, MON_DATA_RESERVED_114, 0); \
+    tempvarassumeunused |= DUMMY_P2_1_CHANGED_ABILITY_MASK; \
+    SetBoxMonData(boxmon, MON_DATA_RESERVED_114, (u8 *)&tempvarassumeunused); \
+}
+
+#define UNSET_BOX_MON_CHANGED_ABILITY_BIT(boxmon) { \
+    u16 tempvarassumeunused = GetBoxMonData(boxmon, MON_DATA_RESERVED_114, 0); \
+    tempvarassumeunused &= ~DUMMY_P2_1_CHANGED_ABILITY_MASK; \
+    SetBoxMonData(boxmon, MON_DATA_RESERVED_114, (u8 *)&tempvarassumeunused); \
+}
 
 #define IS_SPECIES_PARADOX_FORM(species) ((species >= SPECIES_GREAT_TUSK && species <= SPECIES_IRON_THORNS) || (species == SPECIES_ROARING_MOON) || (species == SPECIES_IRON_VALIANT) || (species == SPECIES_WALKING_WAKE) \
     || (species == SPECIES_IRON_LEAVES) || (species >= SPECIES_GOUGING_FIRE && species <= SPECIES_IRON_CROWN))
@@ -590,6 +604,11 @@ typedef enum EvoMethod
     EVO_LEVEL_NATURE_LOW_KEY,
     EVO_AMOUNT_OF_CRITICAL_HITS,
     EVO_HURT_IN_BATTLE_AMOUNT,
+    EVO_ITEM_GLOBAL_TERMINAL,
+    EVO_LEVEL_GLOBAL_TERMINAL,
+    EVO_HAS_MOVE_GLOBAL_TERMINAL,
+    EVO_HURT_IN_BATTLE_AMOUNT_FEMALE,
+    EVO_HAS_MOVE_AND_RNG,
     //EVO_DARK_SCROLL,  // implemented through a forme-change-esque cut scene
     //EVO_WATER_SCROLL, // implemented through a forme-change-esque cut scene
 } EvoMethod;
@@ -676,6 +695,8 @@ enum
     MOVE_DATA_TARGET,
     MOVE_DATA_PRIORITY,
     MOVE_DATA_FLAGS,
+    MOVE_DATA_APPEAL,
+    MOVE_DATA_CONTESTTYPE,
     MOVE_DATA_UNK,
 };
 
@@ -1154,7 +1175,7 @@ void LONG_CALL WildMonSetRandomHeldItem(struct PartyPokemon *pokemon, u32 fight_
 BOOL LONG_CALL GrabAndRegisterUnownForm(EncounterInfo *encounterInfo);
 
 // shiny convenience macro
-#define SHINY_VALUE(otid, pid) (((otid & 0xffff0000) >> 16) ^ (otid & 0xffff) ^ ((pid & 0xffff0000) >> 16) ^ (pid & 0xffff))
+#define SHINY_VALUE(otid, pid) (((otid & 0xFFFF0000u) >> 16u) ^ (otid & 0xFFFFu) ^ ((pid & 0xFFFF0000u) >> 16u) ^ (pid & 0xFFFFu))
 #define SHINY_CHECK(otid, pid) (SHINY_VALUE(otid, pid) <= SHINY_ODDS)
 
 /**

@@ -87,6 +87,14 @@
 #define ADD_STATE_ACCURACY_DOWN_2 0x33
 #define ADD_STATE_EVASION_DOWN_2 0x34
 
+#define ADD_STATE_ATTACK_UP_3 0x35
+#define ADD_STATE_DEFENSE_UP_3 0x36
+#define ADD_STATE_SPEED_UP_3 0x37
+#define ADD_STATE_SP_ATK_UP_3 0x38
+#define ADD_STATE_SP_DEF_UP_3 0x39
+#define ADD_STATE_ACCURACY_UP_3 0x3A
+#define ADD_STATE_EVASION_UP_3 0x3B
+
 /**
  *  @brief move status flag defines for the BattleStruct's waza_status_flag field.
  *  name is left as source define if not sure what it defines
@@ -384,6 +392,9 @@
 #define FLAG_KEEP_HP_BAR (0x40)
 #define FLAG_HIDE_SHADOW (0x80)
 
+// repurposed
+#define FLAG_SOUND       (0x20)
+
 /**
  *  @brief macros to grab certain battlers relative to the one passed in
  *
@@ -594,7 +605,12 @@ struct __attribute__((packed)) BattleMove
     /* 0x8 */ u16 target;      /**< target bitfield for the move */
     /* 0xA */ s8 priority;     /**< move priority */
     /* 0xB */ u8 flag;         /**< various flags for the move, see FLAG_* constants */
-    /* 0xC */ u8 unk[4];       /**< battle effect script to run */
+
+    // Split out from unk[4]
+    /* 0xC */ u8 appeal;       // Not used in HG, repurposed as bitflags, then abandoned as it doesnt work for ai
+    /* 0xD */ u8 contestType;  // Not used in HG, repurposed as bitflags, then abandoned as it doesnt work for ai
+
+    /* 0xE */ u8 unk[2];       /**< battle effect script to run */
 }; // size = 0x10
 
 /**
@@ -604,7 +620,7 @@ struct __attribute__((packed)) OneTurnEffect
 {
     /* 0x00 */ u32 struggle_flag : 1;     /**< pokémon struggled this turn */
                u32 pp_dec_flag : 1;       /**< pp decreased this turn? */
-               u32 mamoru_flag : 1;
+               u32 mamoru_flag : 1;       /**< protect flag? */
                u32 helping_hand_flag : 1; /**< pokémon is being aided by helping hand */
                u32 magic_cort_flag : 1;   /**< pokémon has magic coat active */
                u32 yokodori_flag : 1;
@@ -612,8 +628,9 @@ struct __attribute__((packed)) OneTurnEffect
                u32 escape_flag : 2;
                u32 prevent_one_hit_ko_ability : 1; /**< pokémon has damp active */
                // begin custom flags
+               u32 stats_raised_flag : 1;        /**< flag that signals stats were raised this turn, used for alluring voice/burning jealousy */
                enum ForceExecutionOrder{EXECUTION_ORDER_NORMAL, EXECUTION_ORDER_AFTER_YOU, EXECUTION_ORDER_QUASH} force_execution_order_flag : 2;
-               u32 : 20;
+               u32 : 19;
 
     /* 0x04 */ int physical_damage[4];    /**< [don't use] physical damage as indexed by battler.  Counter doesn't use this, use OneSelfTurnEffect's physical_damage (sp->oneSelfFlag[battler].physical_damage) */
     /* 0x14 */ int physical_damager;      /**< [don't use] last battler that physically damaged this pokémon.  Counter doesn't use this, use OneSelfTurnEffect's physical_damager (sp->oneSelfFlag[battler].physical_damager) */
@@ -774,10 +791,13 @@ struct __attribute__((packed)) BattlePokemon
                u32 critical_hits : 2;        /**< tracks the amount of critical hits the pokémon has landed while in battle so far */
                u32 air_ballon_flag : 1;      /**< the held air balloon has printed its message */
                u32 potentially_affected_by_psychic_terrain_move_used_flag : 1;
+               u32 text_on_ability_entry_flag : 1;  /** Used for abilities that display a msg on entry like Cloud Nine, Supreme Overlord */
+               u32 echoed_voice_count : 3;          /** Used as an Echoed Voice use counter (up to 7) */
+               u32 protean_flag : 1;                /** Used so Protean works once per switch-in like Gen 9 */
                u32 parental_bond_flag : 2;
                u32 parental_bond_is_active : 1;
                u32 ability_activated_flag : 1;
-               u32 : 6; // need to add to ClearBattleMonFlags when added to here as well
+               u32 : 1; // need to add to ClearBattleMonFlags when added to here as well
     /* 0x2c */ u8 pp[4];                     /**< move pp left */
     /* 0x30 */ u8 pp_count[4];               /**< move max pp */
     /* 0x34 */ u8 level;                     /**< current level */
@@ -2285,11 +2305,44 @@ typedef void (*anim_scr_cmd_func)(ANIM_CMD_STRUCT *animCmdStruct);
 extern const anim_scr_cmd_func gAnimScrTable[NUM_VANILLA_ANIM_SCRIPT_COMMANDS];
 extern struct BattleSystem *gBattleSystem;
 
-
-
 enum
 {
     SWITCH_IN_CHECK_WEATHER = 0,
+    SWITCH_IN_CHECK_PRIMAL_REVERSION,
+    SWITCH_IN_CHECK_TRACE,
+    SWITCH_IN_CHECK_WEATHER_ABILITY,
+    SWITCH_IN_CHECK_INTIMIDATE,
+    SWITCH_IN_CHECK_SWEET_AROMA, // Custom
+    SWITCH_IN_CHECK_ILLUMINATE, // New effect
+    SWITCH_IN_CHECK_CURIOUS_MEDICINE,
+    SWITCH_IN_CHECK_PASTEL_VEIL,
+    SWITCH_IN_CHECK_SCREEN_CLEANER,
+    SWITCH_IN_CHECK_DOWNLOAD,
+    SWITCH_IN_CHECK_ANTICIPATION,
+    SWITCH_IN_CHECK_FOREWARN,
+    SWITCH_IN_CHECK_FRISK,
+    SWITCH_IN_CHECK_SLOW_START,
+    SWITCH_IN_CHECK_MOLD_BREAKER,
+    SWITCH_IN_CHECK_PRESSURE,
+    SWITCH_IN_CHECK_FORECAST,
+    SWITCH_IN_CHECK_AMULET_COIN,
+    SWITCH_IN_CHECK_ABILITY_HEAL_STATUS,
+    SWITCH_IN_CHECK_HEAL_STATUS,
+    SWITCH_IN_CHECK_UNNERVE,
+    SWITCH_IN_CHECK_DARK_AURA,
+    SWITCH_IN_CHECK_FAIRY_AURA,
+    SWITCH_IN_CHECK_AURA_BREAK,
+    SWITCH_IN_CHECK_IMPOSTER,
+    SWITCH_IN_CHECK_AIR_LOCK,
+    SWITCH_IN_CHECK_SUPREME_OVERLORD,
+    SWITCH_IN_CHECK_ICE_FACE,
+
+// items that display messages.
+    SWITCH_IN_CHECK_AIR_BALLOON,
+    SWITCH_IN_CHECK_FIELD,
+    SWITCH_IN_CHECK_SURGE_ABILITY,
+    SWITCH_IN_CHECK_TERRAIN_SEED,
+    
     SWITCH_IN_CHECK_ENTRY_EFFECT,
     SWITCH_IN_CHECK_AMULET_COIN,
     SWITCH_IN_CHECK_ABILITY_HEAL_STATUS,
@@ -2723,6 +2776,16 @@ BOOL LONG_CALL CheckMegaData(u32 mon, u32 item);
  *  @return target form
  */
 u32 LONG_CALL GrabMegaTargetForm(u32 mon, u32 item);
+
+// Functions to check move flags
+BOOL isBitingMove(int move_no);
+BOOL isBallOrBombMove(int move_no);
+BOOL isHealingMove(int move_no);
+BOOL isCuttingMove(int move_no);
+BOOL isPowderMove(int move_no);
+BOOL isPulseMove(int move_no);
+BOOL isPunchMove(int move_no);
+BOOL isWindMove(int move_no);
 
 
 // defined in battle_input.c

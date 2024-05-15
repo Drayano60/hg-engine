@@ -37,6 +37,8 @@ anim_scr_cmd_func GrabAnimScriptCommand(u32 command)
 
 void AnimScrCmd_ChangePermanentBattleBackground(ANIM_CMD_STRUCT *animCmdStruct)
 {
+    #ifdef SAVE_SPACE
+
     u32 bg, terrain;
     struct BattleSystem *bw = gBattleSystem;
     animCmdStruct->animScriptPtr++;
@@ -56,6 +58,8 @@ void AnimScrCmd_ChangePermanentBattleBackground(ANIM_CMD_STRUCT *animCmdStruct)
         terrain = bw->terrain;
     }
     LoadDifferentBattleBackground(bw, bg, terrain);
+
+    #endif
 }
 
 // if the form is nonzero, then ensure the PlayCry command just plays the cry itself and return

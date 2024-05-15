@@ -39,20 +39,78 @@ const AccuracyStatChangeRatio sAccStatChanges[] =
     {   3,   1 },
 };
 
-const u16 PowderMovesList[] = {
-    MOVE_COTTON_SPORE,
-    MOVE_POISON_POWDER,
-    MOVE_SLEEP_POWDER,
-    MOVE_STUN_SPORE,
-    MOVE_SPORE,
-    MOVE_POWDER,
-    MOVE_RAGE_POWDER,
-    MOVE_MAGIC_POWDER,
+
+static const u16 BitingMovesList[] = {
+    MOVE_BITE,
+    MOVE_CRUNCH,
+    MOVE_FIRE_FANG,
+    MOVE_FISHIOUS_REND,
+    MOVE_HYPER_FANG,
+    MOVE_ICE_FANG,
+    MOVE_JAW_LOCK,
+    MOVE_POISON_FANG,
+    MOVE_PSYCHIC_FANGS,
+    MOVE_THUNDER_FANG,
+    MOVE_SAVAGE_REND, // New
 };
 
-// Moves that Triage boosts the priority of.
-// Move effects might be a tidier way to do it, but we don't have those defined for some of these moves yet.
-const u16 TriageMovesList[] = {
+static const u16 BallBombMovesList[] =
+{
+    MOVE_ACID_SPRAY,
+    MOVE_AURA_SPHERE,
+    MOVE_BARRAGE,
+    MOVE_BULLET_SEED,
+    MOVE_EGG_BOMB,
+    MOVE_ELECTRO_BALL,
+    MOVE_ENERGY_BALL,
+    MOVE_FOCUS_BLAST,
+    MOVE_GYRO_BALL,
+    MOVE_ICE_BALL,
+    MOVE_MAGNET_BOMB,
+    MOVE_MIST_BALL,
+    MOVE_MUD_BOMB,
+    MOVE_OCTAZOOKA,
+    MOVE_POLLEN_PUFF,
+    MOVE_PYRO_BALL,
+    MOVE_ROCK_BLAST,
+    MOVE_ROCK_WRECKER,
+    MOVE_SEARING_SHOT,
+    MOVE_SEED_BOMB,
+    MOVE_SHADOW_BALL,
+    MOVE_SLUDGE_BOMB,
+    MOVE_WEATHER_BALL,
+    MOVE_ZAP_CANNON,
+};
+
+static const u16 CuttingMovesList[] = {
+    MOVE_AERIAL_ACE,
+    MOVE_AIR_CUTTER,
+    MOVE_AIR_SLASH,
+    MOVE_AQUA_CUTTER,
+    MOVE_BEHEMOTH_BLADE,
+    MOVE_BITTER_BLADE,
+    MOVE_CEASELESS_EDGE,
+    MOVE_CROSS_POISON,
+    MOVE_CUT,
+    MOVE_FURY_CUTTER,
+    MOVE_KOWTOW_CLEAVE,
+    MOVE_LEAF_BLADE,
+    MOVE_NIGHT_SLASH,
+    MOVE_POPULATION_BOMB,
+    MOVE_PSYBLADE,
+    MOVE_PSYCHO_CUT,
+    MOVE_RAZOR_SHELL,
+    MOVE_RAZOR_LEAF,
+    MOVE_SACRED_SWORD,
+    MOVE_SECRET_SWORD,
+    MOVE_SLASH,
+    MOVE_SOLAR_BLADE,
+    MOVE_STONE_AXE,
+    MOVE_X_SCISSOR,
+    MOVE_RAZOR_WIND, // New
+};
+
+static const u16 HealingMovesList[] = {
     MOVE_ABSORB,
     MOVE_DRAIN_PUNCH,
     MOVE_DRAINING_KISS,
@@ -82,6 +140,88 @@ const u16 TriageMovesList[] = {
     MOVE_SWALLOW,
     MOVE_SYNTHESIS,
     MOVE_WISH,
+};
+
+static const u16 PowderMovesList[] = {
+    MOVE_COTTON_SPORE,
+    MOVE_MAGIC_POWDER,
+    MOVE_POISON_POWDER,
+    MOVE_POWDER,
+    MOVE_RAGE_POWDER,
+    MOVE_SLEEP_POWDER,
+    MOVE_STUN_SPORE,
+    MOVE_SPORE,
+};
+
+static const u16 PulseMovesList[] = {
+    MOVE_AURA_SPHERE,
+    MOVE_DARK_PULSE,
+    MOVE_DRAGON_PULSE,
+    MOVE_HEAL_PULSE,
+    MOVE_ORIGIN_PULSE,
+    MOVE_TERRAIN_PULSE,
+    MOVE_WATER_PULSE,
+};
+
+static const u16 PunchMovesList[] = {
+    MOVE_BULLET_PUNCH,
+    MOVE_COMET_PUNCH,
+    MOVE_DIZZY_PUNCH,
+    MOVE_DOUBLE_IRON_BASH,
+    MOVE_DRAIN_PUNCH,
+    MOVE_DYNAMIC_PUNCH,
+    MOVE_FIRE_PUNCH,
+    MOVE_FOCUS_PUNCH,
+    MOVE_HAMMER_ARM,
+    MOVE_HEADLONG_RUSH,
+    MOVE_ICE_HAMMER,
+    MOVE_ICE_PUNCH,
+    MOVE_JET_PUNCH,
+    MOVE_MACH_PUNCH,
+    MOVE_MEGA_PUNCH,
+    MOVE_METEOR_MASH,
+    MOVE_PLASMA_FISTS,
+    MOVE_POWER_UP_PUNCH,
+    MOVE_RAGE_FIST,
+    MOVE_SHADOW_PUNCH,
+    MOVE_SKY_UPPERCUT,
+    MOVE_SURGING_STRIKES,
+    MOVE_THUNDER_PUNCH,
+    MOVE_WICKED_BLOW,
+    MOVE_PIDDLY_PUNCHES, // New
+};
+
+static const u16 WindMovesList[] = {
+    MOVE_AEROBLAST,
+    MOVE_AIR_CUTTER,
+    MOVE_BLEAKWIND_STORM,
+    MOVE_BLIZZARD,
+    MOVE_FAIRY_WIND,
+    MOVE_GUST,
+    MOVE_HEAT_WAVE,
+    MOVE_HURRICANE,
+    MOVE_ICY_WIND,
+    MOVE_PETAL_BLIZZARD,
+    MOVE_SANDSEAR_STORM,
+    MOVE_SANDSTORM,
+    MOVE_SPRINGTIDE_STORM,
+    MOVE_TAILWIND,
+    MOVE_TWISTER,
+    MOVE_WHIRLWIND,
+    MOVE_WILDBOLT_STORM,
+    MOVE_LEAF_TORNADO, // New
+    MOVE_RAZOR_WIND, // New
+    MOVE_SILVER_WIND, // New
+    MOVE_OMINOUS_WIND, // New
+};
+
+static const u16 AntiMinimizeMoves[] = {
+    MOVE_BODY_SLAM,
+    MOVE_DRAGON_RUSH,
+    MOVE_HEAT_CRASH,
+    MOVE_HEAVY_SLAM,
+    MOVE_STEAMROLLER,
+    MOVE_STOMP,
 };
 
 // List of multi-strike moves
@@ -160,6 +300,9 @@ const u16 ParentalBondSingleStrikeMovesList[] = {
     MOVE_SOLAR_BEAM,
     MOVE_SOLAR_BLADE,
     // Z-Moves
+
+    #ifdef SAVE_SPACE
+
     MOVE_BREAKNECK_BLITZ_PHYSICAL,
     MOVE_BREAKNECK_BLITZ_SPECIAL,
     MOVE_ALL_OUT_PUMMELING_PHYSICAL,
@@ -234,6 +377,9 @@ const u16 ParentalBondSingleStrikeMovesList[] = {
     MOVE_MAX_DARKNESS,
     MOVE_MAX_OVERGROWTH,
     MOVE_MAX_STEELSPIKE,
+
+    #endif
+
     // Special case handled inside effect script for hg-engine
     MOVE_PRESENT,
 };
@@ -356,21 +502,19 @@ BOOL CalcAccuracy(void *bw, struct BattleStruct *sp, int attacker, int defender,
         return FALSE;
     }
 
-    int i;
-
-    for (i = 0; i < (s32)NELEMS(PowderMovesList); i++) {
-        if (sp->current_move_index == PowderMovesList[i]) {
-            if
-            (
-                (BattlePokemonParamGet(sp, sp->defence_client, BATTLE_MON_DATA_TYPE1, NULL) == TYPE_GRASS) ||
-                (BattlePokemonParamGet(sp, sp->defence_client, BATTLE_MON_DATA_TYPE2, NULL) == TYPE_GRASS)
-            )
-            {
-                sp->waza_status_flag |= MOVE_STATUS_FLAG_NOT_EFFECTIVE;
-                sp->battlemon[attacker].parental_bond_flag = 0;
-                sp->battlemon[attacker].parental_bond_is_active = FALSE;
-                return FALSE;
-            }
+    // Powder moves do not work against Grass-type Pokemon
+    if (isPowderMove(move_no)) {
+        if
+        (
+            (BattlePokemonParamGet(sp, sp->defence_client, BATTLE_MON_DATA_TYPE1, NULL) == TYPE_GRASS) ||
+            (BattlePokemonParamGet(sp, sp->defence_client, BATTLE_MON_DATA_TYPE2, NULL) == TYPE_GRASS)
+        )
+        {
+            sp->waza_status_flag |= MOVE_STATUS_FLAG_NOT_EFFECTIVE;
+            sp->battlemon[attacker].parental_bond_flag = 0;
+            sp->battlemon[attacker].parental_bond_is_active = FALSE;
+            
+            return FALSE;
         }
     }
 
@@ -380,7 +524,9 @@ BOOL CalcAccuracy(void *bw, struct BattleStruct *sp, int attacker, int defender,
     stat_stage_acc = sp->battlemon[attacker].states[STAT_ACCURACY] - 6;
     stat_stage_evasion = 6 - sp->battlemon[defender].states[STAT_EVASION];
 
-    if (atk_ability == ABILITY_SIMPLE)
+    /* Simple now doubles the stat at point of increase/decrease instead of during calculation.
+       That means Mold Breaker can no longer bypass the evasion increase.
+    if (GetBattlerAbility(sp, attacker) == ABILITY_SIMPLE)
     {
         stat_stage_acc *= 2;
     }
@@ -389,14 +535,38 @@ BOOL CalcAccuracy(void *bw, struct BattleStruct *sp, int attacker, int defender,
     {
         stat_stage_evasion *= 2;
     }
-
+    */
+    
     if (MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_UNAWARE) == TRUE)
     {
         stat_stage_acc = 0;
     }
 
-    if (atk_ability == ABILITY_UNAWARE || atk_ability == ABILITY_MINDS_EYE || atk_ability == ABILITY_KEEN_EYE || atk_ability == ABILITY_ILLUMINATE)
+    // Sacred Sword also ignores evasion changes
+    if (atk_ability == ABILITY_UNAWARE || atk_ability == ABILITY_MINDS_EYE || sp->moveTbl[move_no].effect == MOVE_EFFECT_SACRED_SWORD)
     {
+        stat_stage_evasion = 0;
+    }
+
+    // Keen Eye and Illuminate have been modified to only ignore evasion stages that would increase the target's evasion.
+    // Normally they just outright ignore evasion changes, even if the target's evasion is lower than normal!!
+    // The comparison is < 0 because the evasion variable stores it as a negative.
+    if
+    (
+        (GetBattlerAbility(sp, attacker) == ABILITY_KEEN_EYE || GetBattlerAbility(sp, attacker) == ABILITY_ILLUMINATE) &&
+        (stat_stage_evasion < 0)
+    )
+    {
+        stat_stage_evasion = 0;
+    }
+
+    // Unaware ignores evasion changes regardless of the stage
+    if (GetBattlerAbility(sp, attacker) == ABILITY_UNAWARE) {
+        stat_stage_evasion = 0;
+    }
+
+    // Sacred Sword ignores evasion changes regardless of the stage
+    if (sp->moveTbl[move_no].effect == MOVE_EFFECT_SACRED_SWORD) {
         stat_stage_evasion = 0;
     }
 
@@ -434,6 +604,24 @@ BOOL CalcAccuracy(void *bw, struct BattleStruct *sp, int attacker, int defender,
         return FALSE;
     }
 
+    move_type = GetAdjustedMoveType(sp, sp->attack_client, move_no);
+
+    // Custom change.
+    // If the used move's type (after calculations) is a damaging move and matches one of the Pokémon's types, boost the accuracy by 10%.
+    // However, if the base accuracy is 90%+, just set it to 100 instead. (This prevents 99% chances as well as capping it at 100%).
+    if
+    (
+        (move_split != SPLIT_STATUS) &&
+        ((BattlePokemonParamGet(sp, attacker, BATTLE_MON_DATA_TYPE1, NULL) == move_type) || (BattlePokemonParamGet(sp, attacker, BATTLE_MON_DATA_TYPE2, NULL) == move_type))
+    )
+    {
+        if (accuracy >= 90) {
+            accuracy = 100;
+        } else {
+            accuracy = (accuracy * 110) / 100;
+        }
+    }
+
     if ((CheckSideAbility(bw, sp, CHECK_ABILITY_ALL_HP, 0, ABILITY_CLOUD_NINE) == 0)
      && (CheckSideAbility(bw, sp, CHECK_ABILITY_ALL_HP, 0, ABILITY_AIR_LOCK) == 0))
     {
@@ -443,18 +631,31 @@ BOOL CalcAccuracy(void *bw, struct BattleStruct *sp, int attacker, int defender,
         }
     }
 
+    // Handle Wonder Skin
+    // If a status move is used against a Pokémon with Wonder Skin, reduce the base accuracy to 50% (if above 50%).
+    if ((MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_WONDER_SKIN) == TRUE) && (sp->moveTbl[move_no].split == SPLIT_STATUS) && (accuracy > 50))
+    {
+        accuracy = 50;
+    }
+
     accuracy *= sAccStatChanges[temp].numerator;
     accuracy /= sAccStatChanges[temp].denominator;
 
+    // NEW: Boost accuracy by 10%.
+    if (atk_ability == ABILITY_KEEN_EYE) {
+        accuracy = accuracy * 110 / 100;
+    }
+
+    // Boost accuracy by 30%.
     if (atk_ability == ABILITY_COMPOUND_EYES)
     {
         accuracy = accuracy * 130 / 100;
     }
 
-    //handle Wonder Skin
-    if ((MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_WONDER_SKIN) == TRUE) && (GetMoveSplit(sp, move_no) == SPLIT_STATUS))
+    // Handle Spinda's custom ability, Totter Steps
+    if ((MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_TOTTER_STEPS) == TRUE))
     {
-        accuracy = accuracy * 50 / 100;
+        accuracy = accuracy * 80 / 100;
     }
 
     //handle victory star
@@ -537,6 +738,19 @@ BOOL CalcAccuracy(void *bw, struct BattleStruct *sp, int attacker, int defender,
         return FALSE;
     }
 
+    // Handle anti-Minimize moves
+    if ((sp->battlemon[defender].effect_of_moves & MOVE_EFFECT_FLAG_MINIMIZED)) {
+        u8 i;
+
+        for (i = 0; i < NELEMS(AntiMinimizeMoves); i++)
+        {
+            if (move_no == AntiMinimizeMoves[i])
+            {
+                return FALSE;
+            }
+        }
+    }
+
     if (((BattleRand(bw) % 100) + 1) > accuracy)
     {
         sp->waza_status_flag |= MOVE_STATUS_FLAG_MISS;
@@ -594,6 +808,8 @@ u8 LONG_CALL CalcSpeed(void *bw, struct BattleStruct *sp, int client1, int clien
         return 0;
     }
 
+    #ifdef SAVE_SPACE
+
     // Potential After You or Quash present
     if (sp->oneTurnFlag[client1].force_execution_order_flag != sp->oneTurnFlag[client2].force_execution_order_flag) {
         switch (sp->oneTurnFlag[client1].force_execution_order_flag) {
@@ -618,6 +834,8 @@ u8 LONG_CALL CalcSpeed(void *bw, struct BattleStruct *sp, int client1, int clien
         }
     }
 
+    #endif
+
     ability1 = GetBattlerAbility(sp, client1);
     ability2 = GetBattlerAbility(sp, client2);
 
@@ -629,6 +847,7 @@ u8 LONG_CALL CalcSpeed(void *bw, struct BattleStruct *sp, int client1, int clien
     stat_stage_spd1 = sp->battlemon[client1].states[STAT_SPEED];
     stat_stage_spd2 = sp->battlemon[client2].states[STAT_SPEED];
 
+    /* Simple now doubles the stat at point of increase/decrease instead of at calculation.
     if (GetBattlerAbility(sp, client1) == ABILITY_SIMPLE)
     {
         stat_stage_spd1 = 6 + ((stat_stage_spd1 - 6) * 2);
@@ -653,6 +872,7 @@ u8 LONG_CALL CalcSpeed(void *bw, struct BattleStruct *sp, int client1, int clien
             stat_stage_spd2 = 0;
         }
     }
+    */
 
     speed1 = sp->battlemon[client1].speed * StatBoostModifiers[stat_stage_spd1][0] / StatBoostModifiers[stat_stage_spd1][1];
     speed2 = sp->battlemon[client2].speed * StatBoostModifiers[stat_stage_spd2][0] / StatBoostModifiers[stat_stage_spd2][1];
@@ -662,6 +882,7 @@ u8 LONG_CALL CalcSpeed(void *bw, struct BattleStruct *sp, int client1, int clien
     {
         if (((ability1 == ABILITY_SWIFT_SWIM) && (sp->field_condition & WEATHER_RAIN_ANY))
          || ((ability1 == ABILITY_CHLOROPHYLL) && (sp->field_condition & WEATHER_SUNNY_ANY))
+         || ((ability1 == ABILITY_SUNNY_MOOD) && (sp->field_condition & WEATHER_SUNNY_ANY)) /* Custom ability */
          || ((ability1 == ABILITY_SAND_RUSH) && (sp->field_condition & WEATHER_SANDSTORM_ANY))
          || ((ability1 == ABILITY_SLUSH_RUSH) && (sp->field_condition & (WEATHER_HAIL_ANY | WEATHER_SNOW_ANY))))
         {
@@ -669,6 +890,7 @@ u8 LONG_CALL CalcSpeed(void *bw, struct BattleStruct *sp, int client1, int clien
         }
         if (((ability2 == ABILITY_SWIFT_SWIM) && (sp->field_condition & WEATHER_RAIN_ANY))
          || ((ability2 == ABILITY_CHLOROPHYLL) && (sp->field_condition & WEATHER_SUNNY_ANY))
+         || ((ability2 == ABILITY_SUNNY_MOOD) && (sp->field_condition & WEATHER_SUNNY_ANY)) /* Custom ability */
          || ((ability2 == ABILITY_SAND_RUSH) && (sp->field_condition & WEATHER_SANDSTORM_ANY))
          || ((ability2 == ABILITY_SLUSH_RUSH) && (sp->field_condition & (WEATHER_HAIL_ANY | WEATHER_SNOW_ANY))))
         {
@@ -713,12 +935,13 @@ u8 LONG_CALL CalcSpeed(void *bw, struct BattleStruct *sp, int client1, int clien
     {
         if (sp->battlemon[client1].condition & STATUS_FLAG_PARALYZED)
         {
+            // speed1 /= 4;
             speed1 /= 2; // gen 7 on only halves speed for paralysis
         }
     }
 
     if ((ability1 == ABILITY_SLOW_START)
-     && ((sp->total_turn - sp->battlemon[client1].moveeffect.slowStartTurns) < 5))
+     && ((sp->total_turn - sp->battlemon[client1].moveeffect.slowStartTurns) < 3))
     {
         speed1 /= 2;
     }
@@ -735,7 +958,18 @@ u8 LONG_CALL CalcSpeed(void *bw, struct BattleStruct *sp, int client1, int clien
         speed1 *= 2;
     }
 
-    if (hold_effect1 == HOLD_EFFECT_QUICK_CLAW)
+    if (ability1 == ABILITY_QUICK_DRAW) {
+        if (BattleRand(bw) % 10 < 3) { // 30%
+            quick_claw1 = 1;
+
+            if (flag == 0) {
+                sp->battlemon[client1].moveeffect.custapBerryFlag = 1;
+                sp->battlemon[client1].moveeffect.quickClawFlag = 1;
+            }
+        }
+    }
+
+    if ((hold_effect1 == HOLD_EFFECT_QUICK_CLAW) && (quick_claw1 == 0))
     {
         if ((sp->agi_rand[client1] % (100 / hold_atk1)) == 0)
         {
@@ -746,8 +980,8 @@ u8 LONG_CALL CalcSpeed(void *bw, struct BattleStruct *sp, int client1, int clien
             }
         }
     }
-
-    if (hold_effect1 == HOLD_EFFECT_RAISE_SPEED_IN_PINCH)
+    
+    if ((hold_effect1 == HOLD_EFFECT_RAISE_SPEED_IN_PINCH) && (quick_claw1 == 0))
     {
         if (GetBattlerAbility(sp, client1) == ABILITY_GLUTTONY)
         {
@@ -795,15 +1029,17 @@ u8 LONG_CALL CalcSpeed(void *bw, struct BattleStruct *sp, int client1, int clien
     {
         if (sp->battlemon[client2].condition & STATUS_FLAG_PARALYZED)
         {
+            // speed2 /= 4;
             speed2 /= 2; // gen 7 on only halves speed for paralysis
         }
     }
 
     if ((ability2 == ABILITY_SLOW_START)
-     && ((sp->total_turn - sp->battlemon[client2].moveeffect.slowStartTurns) < 5))
+     && ((sp->total_turn - sp->battlemon[client2].moveeffect.slowStartTurns) < 3))
     {
         speed2 /= 2;
     }
+
 
     if ((ability2 == ABILITY_UNBURDEN)
      && (sp->battlemon[client2].moveeffect.knockOffFlag)
@@ -817,7 +1053,18 @@ u8 LONG_CALL CalcSpeed(void *bw, struct BattleStruct *sp, int client1, int clien
         speed2 *= 2;
     }
 
-    if (hold_effect2 == HOLD_EFFECT_QUICK_CLAW)
+    if (ability2 == ABILITY_QUICK_DRAW) {
+        if (BattleRand(bw) % 10 < 3) { // 30%
+            quick_claw2 = 1;
+
+            if (flag == 0) {
+                sp->battlemon[client2].moveeffect.custapBerryFlag = 1;
+                sp->battlemon[client2].moveeffect.quickClawFlag = 1;
+            }
+        }
+    }
+
+    if ((hold_effect2 == HOLD_EFFECT_QUICK_CLAW) && (quick_claw2 == 0))
     {
         if ((sp->agi_rand[client2] % (100 / hold_atk2)) == 0)
         {
@@ -829,7 +1076,7 @@ u8 LONG_CALL CalcSpeed(void *bw, struct BattleStruct *sp, int client1, int clien
         }
     }
 
-    if (hold_effect2 == HOLD_EFFECT_RAISE_SPEED_IN_PINCH)
+    if ((hold_effect2 == HOLD_EFFECT_RAISE_SPEED_IN_PINCH) && (quick_claw2 == 0))
     {
         if (GetBattlerAbility(sp, client2) == ABILITY_GLUTTONY)
         {
@@ -896,7 +1143,7 @@ u8 LONG_CALL CalcSpeed(void *bw, struct BattleStruct *sp, int client1, int clien
             priority2++;
         }
 
-        // Handle Gale Wings
+        /* Handle Gale Wings */
         if
         (
             GetBattlerAbility(sp, client1) == ABILITY_GALE_WINGS
@@ -915,25 +1162,13 @@ u8 LONG_CALL CalcSpeed(void *bw, struct BattleStruct *sp, int client1, int clien
             priority2++;
         }
 
-        // Handle Triage
-        if (GetBattlerAbility(sp, client1) == ABILITY_TRIAGE) {
-            for (i = 0; i < NELEMS(TriageMovesList); i++)
-            {
-                if (TriageMovesList[i] == move1) {
-                    priority1 = priority1 + 3;
-                    break;
-                }
-            }
+
+        if (GetBattlerAbility(sp, client1) == ABILITY_TRIAGE && isHealingMove(move1)) {
+            priority1 = priority1 + 3;
         }
 
-        if (GetBattlerAbility(sp, client2) == ABILITY_TRIAGE) {
-            for (i = 0; i < NELEMS(TriageMovesList); i++)
-            {
-                if (TriageMovesList[i] == move2) {
-                    priority2 = priority2 + 3;
-                    break;
-                }
-            }
+        if (GetBattlerAbility(sp, client1) == ABILITY_TRIAGE && isHealingMove(move2)) {
+            priority2 = priority2 + 3;
         }
     }
 
@@ -1123,14 +1358,8 @@ void LONG_CALL DynamicSortClientExecutionOrder(void *bw, struct BattleStruct *sp
     // debugsyscall(buf);
 }
 
-const u8 CriticalRateTable[] =
-{
-     24,
-     8,
-     2,
-     1,
-     1
-};
+/* Now matches Gen 7+ */
+const u8 CriticalRateTable[] = {24, 8, 2, 1, 1};
 
 // calculates the critical hit multiplier
 int CalcCritical(void *bw, struct BattleStruct *sp, int attacker, int defender, int critical_count, u32 side_condition)
@@ -1139,7 +1368,7 @@ int CalcCritical(void *bw, struct BattleStruct *sp, int attacker, int defender, 
     u16 item;
     int hold_effect;
     u16 species;
-    u32 defender_condition;
+    u32 condition;
     u32 condition2;
     u32 move_effect;
     int multiplier = 1;
@@ -1149,24 +1378,37 @@ int CalcCritical(void *bw, struct BattleStruct *sp, int attacker, int defender, 
     hold_effect = BattleItemDataGet(sp, item, 1);
 
     species = sp->battlemon[attacker].species;
-    defender_condition = sp->battlemon[defender].condition;
+    condition = sp->battlemon[defender].condition;
     condition2 = sp->battlemon[attacker].condition2;
     move_effect = sp->battlemon[defender].effect_of_moves;
     ability = sp->battlemon[attacker].ability;
 
-    temp = (((condition2 & STATUS2_FOCUS_ENERGY) != 0) * 2) + (hold_effect == HOLD_EFFECT_BOOST_CRITICAL_RATE) + critical_count + (ability == ABILITY_SUPER_LUCK)
-         + (2 * ((hold_effect == HOLD_EFFECT_BOOST_CHANSEY_CRITICAL) && (species == SPECIES_CHANSEY)))
-         + (2 * ((hold_effect == HOLD_EFFECT_BOOST_FARFETCHD_CRITICAL) && (species == SPECIES_FARFETCHD)));
+    // This is a hacky solution so I can use VAR_CRIT_CHANCE as a a variable for other stuff.
+    // VAR_CRIT_CHANCE gets cleared after the move ends, which works perfectly for Scale Shot.
+    if (critical_count == 16) {
+        critical_count = 0;
+    }    
+
+    temp = (((condition2 & STATUS2_FOCUS_ENERGY) != 0) * 2) + (hold_effect == HOLD_EFFECT_BOOST_CRITICAL_RATE) + critical_count
+        + (ability == ABILITY_SUPER_LUCK)
+        + (ability == ABILITY_LONG_REACH) // New
+        + (2 * ((hold_effect == HOLD_EFFECT_BOOST_CHANSEY_CRITICAL) && (species == SPECIES_CHANSEY)))
+        + (2 * ((hold_effect == HOLD_EFFECT_BOOST_FARFETCHD_CRITICAL) && (species == SPECIES_FARFETCHD)));
 
     if (temp > 4)
     {
         temp = 4;
     }
 
+    // Move eff for Frost Breath and Storm Throw sets the critical_count to 15 explicitly.
+    // Handles Merciless here too.
+    // Custom Savage Rend check here too, checks for if target has acted already this turn or has just switched in this turn (disabled afterwards)
     if
     (
         BattleRand(bw) % CriticalRateTable[temp] == 0
-        || (ability == ABILITY_MERCILESS && (defender_condition & STATUS_POISON_ANY))
+        || critical_count == 15
+        || (ability == ABILITY_MERCILESS && (condition & STATUS_POISON_ANY))
+        // || (sp->current_move_index == MOVE_SAVAGE_REND && (sp->client_act_work[defender][0] != 40 || sp->battlemon[defender].moveeffect.fakeOutCount == (sp->total_turn + 1)))
     )
     {
         if ((MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_BATTLE_ARMOR) == FALSE)
@@ -1201,6 +1443,18 @@ void ServerHPCalc(void *bw, struct BattleStruct *sp)
     int eqp;
     int atk;
 
+
+    // // Clear Fury Cutter count if it's not Fury Cutter (as Gen 4 doesn't do this normally!)
+    // BluRose did this properly since
+    // if (sp->current_move_index != MOVE_FURY_CUTTER) {
+    //     sp->battlemon[sp->attack_client].moveeffect.renzokugiri_count = 0;
+    // }
+
+    // Clear Echoed Voice count if it's not Echoed Voice
+    if (sp->current_move_index != MOVE_ECHOED_VOICE) {
+        sp->battlemon[sp->attack_client].echoed_voice_count = 0;
+    }
+
     if (sp->waza_status_flag & MOVE_STATUS_FLAG_OHKO_HIT)
     {
         sp->damage = sp->battlemon[sp->defence_client].maxhp * -1;
@@ -1220,7 +1474,8 @@ void ServerHPCalc(void *bw, struct BattleStruct *sp)
 
         if ((sp->battlemon[sp->defence_client].condition2 & STATUS2_SUBSTITUTE)
          && (sp->damage < 0)
-         && (GetBattlerAbility(sp, sp->attack_client) != ABILITY_INFILTRATOR))
+         && (GetBattlerAbility(sp, sp->attack_client) != ABILITY_INFILTRATOR)
+         && ((sp->moveTbl[sp->current_move_index].flag & FLAG_SOUND) == 0)) // Sound moves ignore substitutes
         {
             if ((sp->battlemon[sp->defence_client].moveeffect.substituteHp + sp->damage) <= 0)
             {
@@ -1266,14 +1521,18 @@ void ServerHPCalc(void *bw, struct BattleStruct *sp)
                 }
             }
 
+            BOOL isSturdy = FALSE;
+
             // handle sturdy--prevent one-hit ko's if hp == maxhp
             if ((MoldBreakerAbilityCheck(sp, sp->attack_client, sp->defence_client, ABILITY_STURDY) == TRUE) && (sp->battlemon[sp->defence_client].hp == (s32)sp->battlemon[sp->defence_client].maxhp))
             {
+                isSturdy = TRUE;
                 sp->oneTurnFlag[sp->defence_client].prevent_one_hit_ko_ability = TRUE;
             }
             // make sure to cancel sturdy if hp != maxhp.  necessary for multi-hit moves
             else if (MoldBreakerAbilityCheck(sp, sp->attack_client, sp->defence_client, ABILITY_STURDY) == TRUE && (sp->battlemon[sp->defence_client].hp != (s32)sp->battlemon[sp->defence_client].maxhp))
             {
+                isSturdy = FALSE;
                 sp->oneTurnFlag[sp->defence_client].prevent_one_hit_ko_ability = FALSE;
             }
 
@@ -1285,6 +1544,10 @@ void ServerHPCalc(void *bw, struct BattleStruct *sp)
                     if (sp->oneTurnFlag[sp->defence_client].prevent_one_hit_ko_ability)
                     {
                         sp->waza_status_flag |= MOVE_STATUS_FLAG_HELD_ON_ABILITY;
+
+                        if (isSturdy) {
+                            sp->waza_status_flag |= MOVE_STATUS_FLAG_HELD_ON_ITEM;
+                        }
                     }
                     else
                     {
@@ -1392,6 +1655,73 @@ int LONG_CALL ServerDoTypeCalcMod(void *bw UNUSED, struct BattleStruct *sp, int 
     if (move_no == MOVE_STRUGGLE)
         return damage;
 
+    const isValidMoveForCalc =
+    (
+        (sp->moveTbl[move_no].target != 0x0010) &&
+        (sp->moveTbl[move_no].target != 0x0020) &&
+        (sp->moveTbl[move_no].power) &&
+        (
+            ((sp->server_status_flag & SERVER_STATUS_FLAG_TYPE_NONE) == 0) &&
+            ((sp->server_status_flag & SERVER_STATUS_FLAG_x20) == 0)
+        )
+    );
+
+    int defenderType1 = BattlePokemonParamGet(sp, sp->defence_client, BATTLE_MON_DATA_TYPE1, NULL);
+    int defenderType2 = BattlePokemonParamGet(sp, sp->defence_client, BATTLE_MON_DATA_TYPE2, NULL);
+
+    // This tells the AI that Electric-type Pokémon are immune to moves that paralyze.
+    if (sp->moveTbl[move_no].effect == 67) {
+        if ((defenderType1 == TYPE_ELECTRIC) || (defenderType2 == TYPE_ELECTRIC))
+        {
+            flag[0] |= MOVE_STATUS_FLAG_NOT_EFFECTIVE;
+        }
+    }
+
+    // This tells the AI that Grass-type Pokémon or Pokémon with Overcoat are immune to powder moves.
+    // Unfortunately the only powder move the AI actually consults this function for is Stun Spore...
+    if (isPowderMove(move_no)) {
+        if
+        (
+            (defenderType1 == TYPE_GRASS) ||
+            (defenderType2 == TYPE_GRASS) ||
+            (MoldBreakerAbilityCheck(sp, attack_client, defence_client, ABILITY_OVERCOAT) == TRUE)
+        )
+        {
+            flag[0] |= MOVE_STATUS_FLAG_NOT_EFFECTIVE;
+        }
+    }
+
+    // This makes Ice-types immune to Sheer Cold in a way that the AI can see it.
+    if (move_no == MOVE_SHEER_COLD) {
+        if ((defenderType1 == TYPE_ICE) || (defenderType2 == TYPE_ICE))
+        {
+            flag[0] |= MOVE_STATUS_FLAG_NOT_EFFECTIVE;
+        }
+    }
+
+    // This tells the AI that a Prankster boosted status move doesn't work on Dark-types, if the move checks type effectiveness.
+    // Commented out to save space as no AI teams use Prankster currently.
+    // if
+    // (
+    //     (sp->moveTbl[move_no].split == SPLIT_STATUS) &&
+    //     (sp->moveTbl[move_no].target != MOVE_TARGET_USER) &&
+    //     (sp->moveTbl[move_no].target != MOVE_TARGET_USER_SIDE) &&
+    //     (GetBattlerAbility(sp, attack_client) == ABILITY_PRANKSTER) &&
+    //     ((BattlePokemonParamGet(sp, sp->defence_client, BATTLE_MON_DATA_TYPE1, NULL) == TYPE_DARK) || (BattlePokemonParamGet(sp, sp->defence_client, BATTLE_MON_DATA_TYPE2, NULL) == TYPE_DARK))
+    // )
+    // {
+    //     flag[0] |= MOVE_STATUS_FLAG_NOT_EFFECTIVE;
+    // }
+
+    // This could check for Magic Bounce (it activates before the immunity), but probably best leave it consistently bad for the AI.
+    // (MoldBreakerAbilityCheck(sp, attack_client, defence_client, ABILITY_MAGIC_BOUNCE) == TRUE)
+    
+    // Return here if the move would otherwise not be here normally.
+    // Allow Thunder Wave through since it does normally go through this function.
+    if (!isValidMoveForCalc && (move_no != MOVE_THUNDER_WAVE)) {
+        return damage;
+    }
+
     eqp_a = HeldItemHoldEffectGet(sp, attack_client);
     atk_a = HeldItemAtkGet(sp, attack_client, ATK_CHECK_NORMAL);
     eqp_d = HeldItemHoldEffectGet(sp, defence_client);
@@ -1403,7 +1733,17 @@ int LONG_CALL ServerDoTypeCalcMod(void *bw UNUSED, struct BattleStruct *sp, int 
     if (((sp->server_status_flag & SERVER_STATUS_FLAG_TYPE_FLAT) == 0)
      && ((BattlePokemonParamGet(sp, attack_client, BATTLE_MON_DATA_TYPE1, NULL) == move_type) || (BattlePokemonParamGet(sp, attack_client, BATTLE_MON_DATA_TYPE2, NULL) == move_type)))
     {
-        if (GetBattlerAbility(sp,attack_client) == ABILITY_ADAPTABILITY)
+        if (GetBattlerAbility(sp, attack_client) == ABILITY_ADAPTABILITY)
+        {
+            damage *= 2;
+        }
+        // Make Forecast also give x2 STAB if Castform has transformed.
+        else if
+        (
+            GetBattlerAbility(sp, attack_client) == ABILITY_FORECAST
+            && BattlePokemonParamGet(sp, attack_client, BATTLE_MON_DATA_SPECIES, NULL) == SPECIES_CASTFORM
+            && sp->battlemon[sp->attack_client].form_no > 0
+        )
         {
             damage *= 2;
         }
@@ -1437,7 +1777,7 @@ int LONG_CALL ServerDoTypeCalcMod(void *bw UNUSED, struct BattleStruct *sp, int 
           && (move_type == TYPE_GROUND)
           && (eqp_d != HOLD_EFFECT_HALVE_SPEED))
     {
-        flag[0] |= MOVE_STATUS_FLAG_MISS; // air balloon just misses for the moment
+        flag[0] |= MOVE_STATUS_FLAG_NOT_EFFECTIVE; // air balloon shows no effect message
         sp->battlemon[attack_client].parental_bond_flag = 0;
         sp->battlemon[attack_client].parental_bond_is_active = FALSE;
     }
@@ -1458,14 +1798,22 @@ int LONG_CALL ServerDoTypeCalcMod(void *bw UNUSED, struct BattleStruct *sp, int 
                     continue;
                 }
             }
+            
             if (TypeEffectivenessTable[i][0] == move_type)
             {
                 if (TypeEffectivenessTable[i][1] == BattlePokemonParamGet(sp, defence_client, BATTLE_MON_DATA_TYPE1, NULL))
                 {
                     if (ShouldUseNormalTypeEffCalc(sp, attack_client, defence_client, i) == TRUE)
                     {
-                        damage = TypeCheckCalc(sp, attack_client, TypeEffectivenessTable[i][2], damage, base_power, flag);
-                        if (TypeEffectivenessTable[i][2] == 20) // seems to be useless, modifier isn't used elsewhere
+                        u8 multiplier = TypeEffectivenessTable[i][2];
+
+                        if (move_no == MOVE_FREEZE_DRY && (BattlePokemonParamGet(sp, defence_client, BATTLE_MON_DATA_TYPE1, NULL) == TYPE_WATER)) {
+                            multiplier = 20;
+                        }
+                        
+                        damage = TypeCheckCalc(sp, attack_client, multiplier, damage, base_power, flag);
+
+                        if (multiplier == 20) // seems to be useless, modifier isn't used elsewhere
                         {
                             modifier *= 2;
                         }
@@ -1476,8 +1824,15 @@ int LONG_CALL ServerDoTypeCalcMod(void *bw UNUSED, struct BattleStruct *sp, int 
                 {
                     if (ShouldUseNormalTypeEffCalc(sp, attack_client, defence_client, i) == TRUE)
                     {
-                        damage = TypeCheckCalc(sp, attack_client, TypeEffectivenessTable[i][2], damage, base_power, flag);
-                        if (TypeEffectivenessTable[i][2] == 20) // seems to be useless, modifier isn't used elsewhere
+                        u8 multiplier = TypeEffectivenessTable[i][2];
+
+                        if (move_no == MOVE_FREEZE_DRY && (BattlePokemonParamGet(sp, defence_client, BATTLE_MON_DATA_TYPE2, NULL) == TYPE_WATER)) {
+                            multiplier = 20;
+                        }
+                        
+                        damage = TypeCheckCalc(sp, attack_client, multiplier, damage, base_power, flag);
+
+                        if (multiplier == 20) // seems to be useless, modifier isn't used elsewhere
                         {
                             modifier *= 2;
                         }
@@ -1508,6 +1863,9 @@ int LONG_CALL ServerDoTypeCalcMod(void *bw UNUSED, struct BattleStruct *sp, int 
                 {
                     damage = BattleDamageDivide(damage * 3, 4);
                 }
+
+                #ifdef SAVE_SPACE
+
                 if (GetBattlerAbility(sp, defence_client) == ABILITY_PRISM_ARMOR)
                 {
                   damage = BattleDamageDivide(damage * 3, 4);
@@ -1516,6 +1874,9 @@ int LONG_CALL ServerDoTypeCalcMod(void *bw UNUSED, struct BattleStruct *sp, int 
                 {
                   damage = BattleDamageDivide(damage * 5, 4);
                 }
+
+                #endif
+
                 if (eqp_a == HOLD_EFFECT_POWER_UP_SE)
                 {
                     damage = damage * (100 + atk_a) / 100;
@@ -1534,6 +1895,38 @@ int LONG_CALL ServerDoTypeCalcMod(void *bw UNUSED, struct BattleStruct *sp, int 
             flag[0] &= ~(MOVE_STATUS_FLAG_SUPER_EFFECTIVE);
             flag[0] &= ~(MOVE_STATUS_FLAG_NOT_VERY_EFFECTIVE);
         }
+    }
+
+    // This lets the AI know Poltergeist does no damage on an itemless Pokémon.
+    if (move_no == MOVE_POLTERGEIST && sp->battlemon[defence_client].item == 0) {
+        damage = 0;
+    }
+
+    /*  Code that sets damage against immunity abilities to 1, encouraging the AI to avoid moves that would go into it. 
+        The AI already has checks for Water Absorb, Volt Absorb, Motor Drive, Flash Fire, Wonder Guard and Levitate so these aren't included.
+        It does check for Soundproof but only for specific move IDs, so that is included here.
+        Overcoat isn't here as this function only happens for damage moves.
+    */
+
+    // If attacker has Mold Breaker, all of these abilities are ignored anyway.
+    if (GetBattlerAbility(sp, attack_client) == ABILITY_MOLD_BREAKER) {
+        return damage;
+    }
+
+    u8 defenderAbility = GetBattlerAbility(sp, defence_client);
+
+    if
+    (
+        (defenderAbility == ABILITY_SOUNDPROOF && sp->moveTbl[move_no].flag & FLAG_SOUND) ||
+        (defenderAbility == ABILITY_LIGHTNING_ROD && move_type == TYPE_ELECTRIC) ||
+        ((defenderAbility == ABILITY_STORM_DRAIN || defenderAbility == ABILITY_DRY_SKIN) && move_type == TYPE_WATER) ||
+        (defenderAbility == ABILITY_SAP_SIPPER && move_type == TYPE_GRASS) ||
+        (defenderAbility == ABILITY_BULLETPROOF && isBallOrBombMove(move_no)) ||
+        (defenderAbility == ABILITY_WIND_RIDER && isWindMove(move_no)) ||
+        ((defenderAbility == ABILITY_ARMOR_TAIL || defenderAbility == ABILITY_DAZZLING || defenderAbility == ABILITY_QUEENLY_MAJESTY) && (adjustedMoveHasPositivePriority(sp, attack_client)))
+    )
+    {
+        damage = 0;
     }
 
     return damage;
@@ -1640,8 +2033,9 @@ BOOL CantEscape(void *bw, struct BattleStruct *sp, int battlerId, MESSAGE_PARAM 
 BOOL BattlerCantSwitch(void *bw, struct BattleStruct *sp, int battlerId) {
     BOOL ret = FALSE;
 
-    // ghost types can switch from anything like they had shed skin
-    if (HeldItemHoldEffectGet(sp, battlerId) == HOLD_EFFECT_SWITCH || BATTLE_MON_HAS_TYPE(sp, battlerId, TYPE_GHOST)) {
+    // ghost types can switch from anything like they had shed shell
+    // NEW: Run Away also lets a Pokémon escape under any circumstance.
+    if (HeldItemHoldEffectGet(sp, battlerId) == HOLD_EFFECT_SWITCH || BATTLE_MON_HAS_TYPE(sp, battlerId, TYPE_GHOST) || (GetBattlerAbility(sp, battlerId) == ABILITY_RUN_AWAY)) {
         return FALSE;
     }
 
@@ -1723,12 +2117,12 @@ BOOL BattleTryRun(void *bw, struct BattleStruct *sp, int battlerId) {
 BOOL LONG_CALL adjustedMoveHasPositivePriority(struct BattleStruct *sp, int attacker) {
     BOOL isTriageMove = FALSE;
 
-    for (u16 i = 0; i < NELEMS(TriageMovesList); i++) {
-        if (TriageMovesList[i] == sp->current_move_index) {
-            isTriageMove = TRUE;
-            break;
-        }
+    if (isHealingMove(sp->current_move_index)) {
+        isTriageMove = TRUE;
     }
+
+
+    #ifdef SAVE_SPACE
 
     // Handle Prankster Metronome, Sleep Talk, Nature Power, Assist, Me First, Copycat
     if (sp->battlemon[attacker].potentially_affected_by_psychic_terrain_move_used_flag &&
@@ -1740,6 +2134,8 @@ BOOL LONG_CALL adjustedMoveHasPositivePriority(struct BattleStruct *sp, int atta
 
     // reset flag
     sp->battlemon[attacker].potentially_affected_by_psychic_terrain_move_used_flag = 0;
+
+    #endif
 
     if (
         (sp->moveTbl[sp->current_move_index].priority > 0) ||
@@ -1760,6 +2156,110 @@ BOOL LONG_CALL adjustedMoveHasPositivePriority(struct BattleStruct *sp, int atta
     return FALSE;
 }
 
+BOOL isBitingMove(int move_no) {
+    BOOL isBitingMove = FALSE;
+
+    for (u16 i = 0; i < NELEMS(BitingMovesList); i++) {
+        if (BitingMovesList[i] == move_no) {
+            isBitingMove = TRUE;
+            break;
+        }
+    }
+
+    return isBitingMove;
+}
+
+BOOL isBallOrBombMove(int move_no) {
+    BOOL isBallOrBombMove = FALSE;
+
+    for (u16 i = 0; i < NELEMS(BallBombMovesList); i++) {
+        if (BallBombMovesList[i] == move_no) {
+            isBallOrBombMove = TRUE;
+            break;
+        }
+    }
+
+    return isBallOrBombMove;
+}
+
+BOOL isHealingMove(int move_no) {
+    BOOL isHealingMove = FALSE;
+
+    for (u16 i = 0; i < NELEMS(HealingMovesList); i++) {
+        if (HealingMovesList[i] == move_no) {
+            isHealingMove = TRUE;
+            break;
+        }
+    }
+
+    return isHealingMove;
+}
+
+BOOL isCuttingMove(int move_no) {
+    BOOL isCuttingMove = FALSE;
+
+    for (u16 i = 0; i < NELEMS(CuttingMovesList); i++) {
+        if (CuttingMovesList[i] == move_no) {
+            isCuttingMove = TRUE;
+            break;
+        }
+    }
+
+    return isCuttingMove;
+}
+
+BOOL isPowderMove(int move_no) {
+    BOOL isPowderMove = FALSE;
+
+    for (u16 i = 0; i < NELEMS(PowderMovesList); i++) {
+        if (PowderMovesList[i] == move_no) {
+            isPowderMove = TRUE;
+            break;
+        }
+    }
+
+    return isPowderMove;
+}
+
+BOOL isPulseMove(int move_no) {
+    BOOL isPulseMove = FALSE;
+
+    for (u16 i = 0; i < NELEMS(PulseMovesList); i++) {
+        if (PulseMovesList[i] == move_no) {
+            isPulseMove = TRUE;
+            break;
+        }
+    }
+
+    return isPulseMove;
+}
+
+BOOL isPunchMove(int move_no) {
+    BOOL isPunchMove = FALSE;
+
+    for (u16 i = 0; i < NELEMS(PunchMovesList); i++) {
+        if (PunchMovesList[i] == move_no) {
+            isPunchMove = TRUE;
+            break;
+        }
+    }
+
+    return isPunchMove;
+}
+
+BOOL isWindMove(int move_no) {
+    BOOL isWindMove = FALSE;
+
+    for (u16 i = 0; i < NELEMS(WindMovesList); i++) {
+        if (WindMovesList[i] == move_no) {
+            isWindMove = TRUE;
+            break;
+        }
+    }
+
+    return isWindMove;
+}
+
 /**
  *  @brief see if the move should NOT be exempted from priority blocking effects
  *
@@ -1770,6 +2270,8 @@ BOOL LONG_CALL adjustedMoveHasPositivePriority(struct BattleStruct *sp, int atta
  */
 BOOL LONG_CALL CurrentMoveShouldNotBeExemptedFromPriorityBlocking(struct BattleStruct *sp, int attacker, int defender) {
     // Courtesy of The Pokeemerald Expansion (https://github.com/rh-hideout/pokeemerald-expansion/blob/selfhost-test/test/battle/terrain/psychic.c)
+
+    #ifdef SAVE_SPACE
 
     struct BattleMove currentMove = sp->moveTbl[sp->current_move_index];
     u16 target = currentMove.target;
@@ -1805,6 +2307,8 @@ BOOL LONG_CALL CurrentMoveShouldNotBeExemptedFromPriorityBlocking(struct BattleS
         return FALSE;
     }
 
+    #endif
+
     return TRUE;
 }
 
@@ -1816,6 +2320,8 @@ BOOL LONG_CALL CurrentMoveShouldNotBeExemptedFromPriorityBlocking(struct BattleS
  *  @return TRUE if seed should activate
  */
 BOOL LONG_CALL TerrainSeedShouldActivate(struct BattleStruct *sp, u16 heldItem) {
+    #ifdef SAVE_SPACE
+
     switch (heldItem) {
         case ITEM_ELECTRIC_SEED:
             if (sp->terrainOverlay.type == ELECTRIC_TERRAIN && sp->terrainOverlay.numberOfTurnsLeft > 0) {
@@ -1840,6 +2346,9 @@ BOOL LONG_CALL TerrainSeedShouldActivate(struct BattleStruct *sp, u16 heldItem) 
         default:
             return FALSE;
     }
+
+    #endif
+
     return FALSE;
 }
 
@@ -2011,6 +2520,9 @@ void LONG_CALL getEquivalentAttackAndDefense(struct BattleStruct *sp, u16 attack
         case MOVE_SECRET_SWORD:
             *equivalentDefense = rawPhysicalDefense;
             break;
+
+        #ifdef SAVE_SPACE
+
         case MOVE_PRISMATIC_LASER:
             if (tempPhysicalAttack > tempSpecialAttack) {
                 *movesplit = SPLIT_PHYSICAL;
@@ -2022,6 +2534,8 @@ void LONG_CALL getEquivalentAttackAndDefense(struct BattleStruct *sp, u16 attack
                 *equivalentDefense = rawPhysicalDefense;
             }
             break;
+
+        #endif
 
         default:
             break;

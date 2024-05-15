@@ -77,6 +77,13 @@ BOOL btl_scr_cmd_F5_changepermanentbg(void *bw, struct BattleStruct *sp);
 BOOL btl_scr_cmd_F6_changeexecutionorderpriority(void *bw, struct BattleStruct *sp);
 BOOL btl_scr_cmd_F7_setbindingcounter(void *bw, struct BattleStruct *sp);
 BOOL btl_scr_cmd_F8_clearbindcounter(void *bw, struct BattleStruct *sp);
+
+/* Custom */
+BOOL btl_scr_cmd_F9_echoedvoicedamagecalc(void *bw, struct BattleStruct *sp);
+BOOL btl_scr_cmd_FA_iflasthitofmultihit(void *bw, struct BattleStruct *sp);
+BOOL btl_scr_cmd_FB_strengthsapcalc(void *bw, struct BattleStruct *sp);
+BOOL btl_scr_cmd_FC_didtargetraisestat(void *bw, struct BattleStruct *sp);
+
 BOOL BtlCmd_WeatherHPRecovery(void *bw, struct BattleStruct *sp);
 BOOL BtlCmd_CalcWeatherBallParams(void *bw, struct BattleStruct *sp);
 BOOL BtlCmd_TrySubstitute(void *bw, struct BattleStruct *sp);
@@ -340,6 +347,11 @@ const u8 *BattleScrCmdNames[] =
     "changeexecutionorderpriority",
     "setbindingcounter",
     "clearbindcounter",
+
+    "echoedvoicedamagecalc",
+    "iflasthitofmultihit",
+    "strengthsapcalc",
+    "didtargetraisestat",
 };
 
 u32 cmdAddress = 0;
@@ -372,6 +384,12 @@ const btl_scr_cmd_func NewBattleScriptCmdTable[] =
     [0xF6 - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_F6_changeexecutionorderpriority,
     [0xF7 - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_F7_setbindingcounter,
     [0xF8 - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_F8_clearbindcounter,
+
+    // Custom + padding
+    [0xF9 - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_F9_echoedvoicedamagecalc,
+    [0xFA - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_FA_iflasthitofmultihit,
+    [0xFB - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_FB_strengthsapcalc,
+    [0xFC - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_FC_didtargetraisestat,
 };
 
 // entries before 0xFFFE are banned for mimic and metronome--after is just banned for metronome.  table ends with 0xFFFF
@@ -1013,7 +1031,7 @@ BOOL btl_scr_cmd_17_playanimation(void *bw, struct BattleStruct *sp)
     // mega evolution is animation 470--force it to play regardless of whether or not animations are on
     if ((((sp->server_status_flag & SERVER_STATUS_FLAG_ANIMATION_IS_PLAYING) == 0)
       && (CheckBattleAnimationsOption(bw) == TRUE))
-     || (move == MOVE_TRANSFORM || move == MOVE_470 || move == MOVE_ELECTRIC_TERRAIN || move == MOVE_MISTY_TERRAIN || move == MOVE_GRASSY_TERRAIN || move == MOVE_PSYCHIC_TERRAIN))
+     || (move == MOVE_TRANSFORM || move == MOVE_470)) // SAVE_SPACE: removed terrains
     {
         sp->server_status_flag |= SERVER_STATUS_FLAG_ANIMATION_IS_PLAYING;
         SCIO_QueueMoveAnimation(bw, sp, move);
@@ -1057,7 +1075,7 @@ BOOL btl_scr_cmd_18_playanimation2(void *bw, struct BattleStruct *sp)
 
     if ((((sp->server_status_flag & SERVER_STATUS_FLAG_ANIMATION_IS_PLAYING) == 0)
       && (CheckBattleAnimationsOption(bw) == TRUE))
-     || (move == MOVE_TRANSFORM || move == MOVE_470 || move == MOVE_ELECTRIC_TERRAIN || move == MOVE_MISTY_TERRAIN || move == MOVE_GRASSY_TERRAIN || move == MOVE_PSYCHIC_TERRAIN))
+     || (move == MOVE_TRANSFORM || move == MOVE_470)) // SAVE_SPACE: removed terrains
     {
         sp->server_status_flag |= SERVER_STATUS_FLAG_ANIMATION_IS_PLAYING;
         SCIO_QueueMoveAnimationConsiderAttackerDefender(bw, sp, move, cli_a, cli_d);
@@ -1101,6 +1119,7 @@ BOOL btl_scr_cmd_24_jumptocurmoveeffectscript(void *bw UNUSED, struct BattleStru
             case MOVE_EFFECT_LOWER_SP_DEF_HIT:
             case MOVE_EFFECT_BURN_HIT:
             case MOVE_EFFECT_FLINCH_BURN_HIT:
+            case MOVE_EFFECT_FLINCH_BURN_HIT_2:
             case MOVE_EFFECT_RAISE_SPEED_HIT:
             case MOVE_EFFECT_POISON_HIT:
             case MOVE_EFFECT_FREEZE_HIT:
@@ -1111,6 +1130,7 @@ BOOL btl_scr_cmd_24_jumptocurmoveeffectscript(void *bw UNUSED, struct BattleStru
             //case MOVE_EFFECT_SECRET_POWER: // need a different way of doing this i think
             case MOVE_EFFECT_LOWER_SP_ATK_HIT:
             case MOVE_EFFECT_THUNDER:
+            case MOVE_EFFECT_ALWAYS_FLINCH_FIRST_TURN_ONLY:
             case MOVE_EFFECT_FLINCH_PARALYZE_HIT:
             case MOVE_EFFECT_FLINCH_DOUBLE_DAMAGE_FLY_OR_BOUNCE: // removes the double damage flying too
             case MOVE_EFFECT_LOWER_SP_DEF_2_HIT:
@@ -1119,7 +1139,10 @@ BOOL btl_scr_cmd_24_jumptocurmoveeffectscript(void *bw UNUSED, struct BattleStru
             case MOVE_EFFECT_CHATTER: // confuse chance based on volume of cry
             case MOVE_EFFECT_FLINCH_MINIMIZE_DOUBLE_HIT:
             case MOVE_EFFECT_RANDOM_PRIMARY_STATUS_HIT:
-            case MOVE_EFFECT_HIT_AND_PREVENT_HEALING: // Psychic Noise
+            case MOVE_EFFECT_STONE_AXE:
+            case MOVE_EFFECT_SPIKES_ON_HIT: // for needle arm, based on ceaseless edge
+            case MOVE_EFFECT_CONFUSE_IF_STATS_BOOSTED:
+            case MOVE_EFFECT_BURN_IF_STATS_BOOSTED:
                 effect = MOVE_EFFECT_HIT;
                 sp->battlemon[sp->attack_client].sheer_force_flag = 1;
                 break;
@@ -1131,6 +1154,7 @@ BOOL btl_scr_cmd_24_jumptocurmoveeffectscript(void *bw UNUSED, struct BattleStru
 
             case MOVE_EFFECT_HIGH_CRITICAL_BURN_HIT: // blaze kick
             case MOVE_EFFECT_HIGH_CRITICAL_POISON_HIT: // cross poison
+            case MOVE_EFFECT_ESPER_WING:
                 effect = MOVE_EFFECT_HIGH_CRITICAL;
                 sp->battlemon[sp->attack_client].sheer_force_flag = 1;
                 break;
@@ -1140,6 +1164,16 @@ BOOL btl_scr_cmd_24_jumptocurmoveeffectscript(void *bw UNUSED, struct BattleStru
                 effect = MOVE_EFFECT_RECOIL_THIRD;
                 sp->battlemon[sp->attack_client].sheer_force_flag = 1;
                 break;
+
+            // case MOVE_EFFECT_BARB_BARRAGE:
+            //     effect = MOVE_EFFECT_DOUBLE_DAMAGE_POISON;
+            //     sp->battlemon[sp->attack_client].sheer_force_flag = 1;
+            //     break;
+
+            // case MOVE_EFFECT_FREEZE_DRY:
+            //     effect = MOVE_EFFECT_FREEZE_DRY_NO_FREEZE;
+            //     sp->battlemon[sp->attack_client].sheer_force_flag = 1;
+            //     break;
 
             default:
                 sp->battlemon[sp->attack_client].sheer_force_flag = 0;
@@ -1335,20 +1369,35 @@ void Task_DistributeExp_Extend(void *arg0, void *work)
 
             if (monCountFromItem)
             {
-                expcalc->sp->obtained_exp = (totalexp / 2) / monCount;
+                // Starting from Gen 6, any Pokémon sent out in the battle gains full EXP.
+                // expcalc->sp->obtained_exp = (totalexp / 2) / monCount;
+                expcalc->sp->obtained_exp = totalexp;
+
                 if (expcalc->sp->obtained_exp == 0)
                 {
                     expcalc->sp->obtained_exp = 1;
                 }
-                expcalc->sp->exp_share_obtained_exp = (totalexp / 2) / monCountFromItem;
+                
+                // Starting from Gen 6, any Pokémon with the Exp. Share that does not partake in the battle gains 50% EXP.
+                // expcalc->sp->exp_share_obtained_exp = (totalexp / 2) / monCountFromItem;
+                expcalc->sp->exp_share_obtained_exp = (totalexp / 2);
+
                 if (expcalc->sp->exp_share_obtained_exp == 0)
                 {
                     expcalc->sp->exp_share_obtained_exp = 1;
                 }
+
+                // If the client did partake in the battle while holding an Exp. Share, nullify the Exp. Share value
+                if (expcalc->sp->obtained_exp_right_flag[client_no]) {
+                    expcalc->sp->exp_share_obtained_exp = 0;
+                }
             }
             else
             {
-                expcalc->sp->obtained_exp = totalexp / monCount;
+                // Starting from Gen 6, any Pokémon sent out in the battle gains full EXP.
+                // expcalc->sp->obtained_exp = totalexp / monCount;
+                expcalc->sp->obtained_exp = totalexp;
+
                 if (expcalc->sp->obtained_exp == 0)
                 {
                     expcalc->sp->obtained_exp = 1;
@@ -1895,7 +1944,7 @@ BOOL btl_scr_cmd_87_tryknockoff(void *bw UNUSED, struct BattleStruct *sp)
     IncrementBattleScriptPtr(sp, 1);
 
     u32 adrs = read_battle_script_param(sp);
-    //u32 side = IsClientEnemy(bw, sp->defence_client);
+    u32 side = IsClientEnemy(bw, sp->defence_client);
     u32 item = sp->battlemon[sp->defence_client].item;
 
     // sticky hold and substitute will keep the mon's held item, but the damage boost will still apply
@@ -1916,7 +1965,8 @@ BOOL btl_scr_cmd_87_tryknockoff(void *bw UNUSED, struct BattleStruct *sp)
         sp->mp.msg_para[2] = item;
         sp->battlemon[sp->defence_client].item = 0;
         // update:  no longer render further items unusable--just set the item to 0 here
-        //sp->scw[side].knockoff_item |= No2Bit(sp->sel_mons_no[sp->defence_client]);
+        // left here so items arent lost outside of battle
+        sp->scw[side].knockoff_item |= No2Bit(sp->sel_mons_no[sp->defence_client]);
     } else {
         IncrementBattleScriptPtr(sp, adrs);
     }
@@ -2039,7 +2089,7 @@ BOOL btl_scr_cmd_d0_checkshouldleavewith1hp(void *bw, struct BattleStruct *sp)
             if (flag != 2)
                 sp->waza_status_flag |= MOVE_STATUS_FLAG_HELD_ON_ITEM;
             else
-                sp->waza_status_flag |= MOVE_STATUS_FLAG_HELD_ON_ABILITY;
+                sp->waza_status_flag = sp->waza_status_flag | MOVE_STATUS_FLAG_HELD_ON_ITEM | MOVE_STATUS_FLAG_HELD_ON_ABILITY;
         }
     }
 
@@ -2695,6 +2745,92 @@ BOOL btl_scr_cmd_F8_clearbindcounter(void *bw UNUSED, struct BattleStruct *sp) {
 
 
 /**
+ *  @brief script command to increment counter of and calculate power of Echoed Voice (not accurate to actual game)
+ *
+ *  @param bw battle work structure
+ *  @param sp global battle structure
+ *  @return FALSE
+ */
+BOOL btl_scr_cmd_F9_echoedvoicedamagecalc(void *bw, struct BattleStruct *sp)
+{
+    IncrementBattleScriptPtr(sp, 1);
+
+    if (sp->battlemon[sp->attack_client].echoed_voice_count < 5) {
+        sp->battlemon[sp->attack_client].echoed_voice_count++;
+    }
+
+    sp->damage_power = GetMoveData(sp->current_move_index, MOVE_DATA_BASE_POWER) * sp->battlemon[sp->attack_client].echoed_voice_count;
+
+    return FALSE;
+}
+
+
+/**
+ *  @brief script command to check if current multi-hit move is last hit (used for Scale Shot)
+ *
+ *  @param bw battle work structure
+ *  @param sp global battle structure
+ *  @return FALSE
+ */
+BOOL btl_scr_cmd_FA_iflasthitofmultihit(void *bw, struct BattleStruct *sp) {
+    IncrementBattleScriptPtr(sp, 1);
+    int address = read_battle_script_param(sp);
+
+    if (!(sp->multi_hit_count <= 1 || (sp->defence_client == sp->fainting_client))) {
+        IncrementBattleScriptPtr(sp, address); 
+    }
+
+    return FALSE;
+}
+
+
+/**
+ *  @brief script command to calculate Strength Sap healing
+ *
+ *  @param bw battle work structure
+ *  @param sp global battle structure
+ *  @return FALSE
+ */
+BOOL btl_scr_cmd_FB_strengthsapcalc(void *bw, struct BattleStruct *sp) {
+    IncrementBattleScriptPtr(sp, 1);
+
+    s32 damage;
+    u16 attack;
+    s8 atkstate;
+
+    attack = BattlePokemonParamGet(sp, sp->defence_client, BATTLE_MON_DATA_ATK, NULL);
+    atkstate = BattlePokemonParamGet(sp, sp->defence_client, BATTLE_MON_DATA_STATE_ATK, NULL);
+
+    damage = attack * StatBoostModifiers[atkstate][0];
+    damage /= StatBoostModifiers[atkstate][1];
+
+    sp->hp_calc_work = -damage;
+
+    return FALSE;
+}
+
+
+/**
+ *  @brief script command to check if a target raised a stat this turn (for Burning Jealousy and Alluring Voice)
+ *
+ *  @param bw battle work structure
+ *  @param sp global battle structure
+ *  @return FALSE
+ */
+BOOL btl_scr_cmd_FC_didtargetraisestat(void *bw UNUSED, struct BattleStruct *sp) {
+    IncrementBattleScriptPtr(sp, 1);
+
+    int address = read_battle_script_param(sp);
+
+    if (sp->oneTurnFlag[sp->defence_client].stats_raised_flag) {
+       IncrementBattleScriptPtr(sp, address);
+    }
+
+    return FALSE;
+}
+
+
+/**
  *  @brief script command to calculate the amount of HP should a client recover by using Moonlight, Morning Sun, or Synthesis
  *
  *  @param bw battle work structure
@@ -2870,6 +3006,9 @@ BOOL CanKnockOffApply(struct BattleStruct *sp)
         && !(species == SPECIES_ARCEUS && IS_ITEM_ARCEUS_PLATE(item))
         // griseous orb on giratina can not be knocked off
         && !(species == SPECIES_GIRATINA && item == ITEM_GRISEOUS_ORB)
+
+        #ifdef SAVE_SPACE
+
         // drives can not be knocked off of genesect
         && !(species == SPECIES_GENESECT && IS_ITEM_GENESECT_DRIVE(item))
         // silvally can not have its memory knocked off
@@ -2880,6 +3019,8 @@ BOOL CanKnockOffApply(struct BattleStruct *sp)
         && !(species == SPECIES_ZAMAZENTA && item == ITEM_RUSTED_SHIELD)
         // paradox mons can not have their booster energy knocked off
         && !(IS_SPECIES_PARADOX_FORM(species) && item == ITEM_BOOSTER_ENERGY)
+
+        #endif
     )
     {
         return TRUE;
@@ -2888,24 +3029,29 @@ BOOL CanKnockOffApply(struct BattleStruct *sp)
 }
 
 extern u8 gSafariBallRateTable[13][2];
+
+// Gen 7+ reduces it to stuff that actually evolves with it only.
 u16 MoonBallSpecies[] =
 {
-    SPECIES_NIDORAN_F,
+    // SPECIES_NIDORAN_F,
     SPECIES_NIDORINA,
-    SPECIES_NIDOQUEEN,
-    SPECIES_NIDORAN_M,
+    // SPECIES_NIDOQUEEN,
+    // SPECIES_NIDORAN_M,
     SPECIES_NIDORINO,
-    SPECIES_NIDOKING,
-    SPECIES_CLEFFA,
+    // SPECIES_NIDOKING,
+    // SPECIES_CLEFFA,
     SPECIES_CLEFAIRY,
-    SPECIES_CLEFABLE,
-    SPECIES_IGGLYBUFF,
+    // SPECIES_CLEFABLE,
+    // SPECIES_IGGLYBUFF,
     SPECIES_JIGGLYPUFF,
-    SPECIES_WIGGLYTUFF,
+    // SPECIES_WIGGLYTUFF,
     SPECIES_SKITTY,
-    SPECIES_DELCATTY,
+    // SPECIES_DELCATTY,
     SPECIES_MUNNA,
-    SPECIES_MUSHARNA,
+    // SPECIES_MUSHARNA,
+
+    // Custom
+    SPECIES_EEVEE,
 };
 
 /**
@@ -2921,6 +3067,11 @@ u32 CalculateBallShakes(void *bw, struct BattleStruct *sp)
 
     if (BattleTypeGet(bw) & (BATTLE_TYPE_POKE_PARK | BATTLE_TYPE_CATCHING_DEMO)) // poke park and safari zone always succeed
     {
+        return 4;
+    }
+
+    // In-game code that guarantees captures when active.
+    if (CheckScriptFlag(GUARANTEED_CATCH_FLAG)) {
         return 4;
     }
 
@@ -2953,11 +3104,13 @@ u32 CalculateBallShakes(void *bw, struct BattleStruct *sp)
         //ballRate = 10;
         break;
     case ITEM_SAFARI_BALL:
-        ballRate = 15;
+        // ballRate = 15;
+        ballRate = 20; // Custom change
         break;
     case ITEM_NET_BALL:
         if (type1 == TYPE_WATER || type2 == TYPE_WATER || type1 == TYPE_BUG || type2 == TYPE_BUG)
-            ballRate = 30;
+            // ballRate = 30;
+            ballRate = 35;
         break;
     case ITEM_DIVE_BALL:
         if (BattleWorkGroundIDGet(bw) == 7) // if the battle is happening with a water background
@@ -2966,15 +3119,18 @@ u32 CalculateBallShakes(void *bw, struct BattleStruct *sp)
     case ITEM_NEST_BALL:
         if (sp->battlemon[sp->defence_client].level <= 30)
         {
-            ballRate = 40 - sp->battlemon[sp->defence_client].level;
+            ballRate = 40 - sp->battlemon[sp->defence_client].level; // Gen 4 one? This probably differs slightly from the Gen 6+ one
         }
         break;
     case ITEM_REPEAT_BALL:
         if (Battle_CheckIfHasCaughtMon(bw, sp->battlemon[sp->defence_client].species))
-            ballRate = 30;
+            // ballRate = 30;
+            ballRate = 35;
         break;
     case ITEM_TIMER_BALL:
-        ballRate = 10 + sp->total_turn;
+        // ballRate = 10 + sp->total_turn;
+        ballRate = 10 + (sp->total_turn * 3); // Probably not 100% accurate but makes it max after 10 turns
+
         if (ballRate > 40)
             ballRate = 40;
         break;
@@ -2986,14 +3142,16 @@ u32 CalculateBallShakes(void *bw, struct BattleStruct *sp)
     //    break;
     case ITEM_DUSK_BALL:
         if (Battle_GetTimeOfDay(bw) == 3 || Battle_GetTimeOfDay(bw) == 4 || BattleWorkGroundIDGet(bw) == 5)
-            ballRate = 35;
+            // ballRate = 35;
+            ballRate = 30;
         break;
     //case ITEM_HEAL_BALL:
     //
     //    break;
     case ITEM_QUICK_BALL:
         if (sp->total_turn < 1)
-            ballRate = 40;
+            // ballRate = 40;
+            ballRate = 50;
         break;
     //case ITEM_CHERISH_BALL:
     //
@@ -3020,24 +3178,52 @@ u32 CalculateBallShakes(void *bw, struct BattleStruct *sp)
             ballRate = 40; // as of sword and shield
         break;
     case ITEM_HEAVY_BALL:
-        if (GetPokemonWeight(bw, sp, sp->defence_client) < 1024)
-        {
-            if (captureRate > 20)
-                captureRate -= 20;
-            else
-                captureRate = 1;
-        }
-        else if (GetPokemonWeight(bw, sp, sp->defence_client) < 2048)
-            ballRate = 10; // do nothing
-        else if (GetPokemonWeight(bw, sp, sp->defence_client) < 3072)
-            captureRate += 20;
-        else if (GetPokemonWeight(bw, sp, sp->defence_client) < 4096)
-            captureRate += 30;
-        else if (GetPokemonWeight(bw, sp, sp->defence_client) < 4096)
-            captureRate += 40;
+        /* Gen 4 mechanics? Though with a bug fixed */
+        // if (GetPokemonWeight(bw, sp, sp->defence_client) < 1024)
+        // {
+        //     if (captureRate > 20)
+        //         captureRate -= 20;
+        //     else
+        //         captureRate = 1;
+        // }
+        // else if (GetPokemonWeight(bw, sp, sp->defence_client) < 2048)
+        //     ballRate = 10; // do nothing
+        // else if (GetPokemonWeight(bw, sp, sp->defence_client) < 3072)
+        //     captureRate += 20;
+        // else if (GetPokemonWeight(bw, sp, sp->defence_client) < 4096)
+        //     captureRate += 30;
+        // else if (GetPokemonWeight(bw, sp, sp->defence_client) < 4096)
+        //     captureRate += 40;
 
-        if (captureRate > 255)
+        // if (captureRate > 255)
+        //     captureRate = 255;
+
+        // break;
+
+        /* Gen 7+ mechanics */
+        if (GetPokemonWeight(bw, sp, sp->defence_client) < 1000) {
+            // Applies a flat -20 modifier if the Pokémon is beneath 100.0kg.
+            // But this cannot be below 1.
+            if (captureRate > 20) {
+                captureRate = captureRate - 20;
+            } else {
+                captureRate = 1;
+            }
+        } else if (GetPokemonWeight(bw, sp, sp->defence_client) < 2000) {
+            // Does nothing if the Pokémon is between 100.0kg and 199.9kg.
+            ballRate = 10;
+        } else if (GetPokemonWeight(bw, sp, sp->defence_client) < 3000) {
+            // Applies a flat +20 modifier if the Pokémon is between 200.0kg and 299.9kg.
+            captureRate = captureRate + 20;
+        } else {
+            // Applies a flat +30 modifier if the Pokémon is 300.0kg or heavier.
+            captureRate = captureRate + 30;
+        }
+
+        // The capture rate is capped at 255.
+        if (captureRate > 255) {
             captureRate = 255;
+        }
 
         break;
     case ITEM_LOVE_BALL:
@@ -3065,7 +3251,8 @@ u32 CalculateBallShakes(void *bw, struct BattleStruct *sp)
             ballRate = 40;
         break;
     case ITEM_SPORT_BALL:
-        ballRate = 15;
+        // ballRate = 15;
+        ballRate = 20; // Custom change
         break;
     //case ITEM_PARK_BALL:
     //

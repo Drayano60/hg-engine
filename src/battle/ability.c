@@ -34,6 +34,45 @@ void ServerWazaOutAfterMessage(void *bw, struct BattleStruct *sp);
 //u32 ServerWazaKoyuuCheck(void *bw, struct BattleStruct *sp);
 void ServerDoPostMoveEffects(void *bw, struct BattleStruct *sp);
 
+
+
+
+/* I've used the appeal field as extra move flags so these aren't needed
+const u16 SoundproofMoveList[] =
+{
+    MOVE_BOOMBURST,
+    MOVE_BUG_BUZZ,
+    MOVE_CHATTER,
+    MOVE_CLANGING_SCALES,
+    MOVE_CLANGOROUS_SOUL,
+    //MOVE_CLANGOROUS_SOULBLAZE,
+    MOVE_CONFIDE,
+    MOVE_DISARMING_VOICE,
+    MOVE_ECHOED_VOICE,
+    MOVE_EERIE_SPELL,
+    MOVE_GRASS_WHISTLE,
+    MOVE_GROWL,
+    //MOVE_HEAL_BELL,
+    //MOVE_HOWL,
+    MOVE_HYPER_VOICE,
+    MOVE_METAL_SOUND,
+    MOVE_NOBLE_ROAR,
+    MOVE_OVERDRIVE,
+    MOVE_PARTING_SHOT,
+    MOVE_PERISH_SONG,
+    MOVE_RELIC_SONG,
+    MOVE_ROAR,
+    MOVE_ROUND,
+    MOVE_SCREECH,
+    //MOVE_SHADOW_PANIC,
+    MOVE_SING,
+    MOVE_SNARL,
+    MOVE_SNORE,
+    MOVE_SPARKLING_ARIA,
+    MOVE_SUPERSONIC,
+    MOVE_UPROAR,
+};
+
 const u16 BulletproofMoveList[] =
 {
     MOVE_ACID_SPRAY,
@@ -72,6 +111,7 @@ const u16 PowderMoveList[] = {
     MOVE_STUN_SPORE,
     MOVE_SPORE,
 };
+*/
 
 /**
  *  @brief see if the attacker's move is completely negated by the defender's ability and queue up the appropriate subscript
@@ -132,18 +172,28 @@ int MoveCheckDamageNegatingAbilities(struct BattleStruct *sp, int attacker, int 
     // 02252FB0
     if (MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_SOUNDPROOF) == TRUE)
     {
-        if (IsMoveSoundBased(sp->current_move_index))
         {
-            scriptnum = SUB_SEQ_SOUNDPROOF;
+            if (sp->moveTbl[sp->current_move_index].flag & FLAG_SOUND) {
+                scriptnum = SUB_SEQ_SOUNDPROOF;
+            }
         }
     }
 
-    // Handle Bulletproof
-    if (MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_BULLETPROOF) == TRUE)
-    {
-        if (IsElementInArray(BulletproofMoveList, (u16 *)&sp->current_move_index, NELEMS(BulletproofMoveList), sizeof(BulletproofMoveList[0])))
+    // Handle Bulletproof. Soundproof SUB_SEQ works perfectly for this too.
+    if (MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_BULLETPROOF) == TRUE) {
         {
-            scriptnum = SUB_SEQ_SOUNDPROOF;
+            if (isBallOrBombMove(sp->current_move_index)) {
+                scriptnum = SUB_SEQ_SOUNDPROOF;
+            }
+        }
+    }
+
+    // Handle Wind Rider. Sap Sipper SUB_SEQ works perfectly for this too.
+    if (MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_WIND_RIDER) == TRUE) {
+        {
+            if (isWindMove(sp->current_move_index)) {
+                scriptnum = SUB_SEQ_HANDLE_SAP_SIPPER;
+            }
         }
     }
 
@@ -195,16 +245,104 @@ int MoveCheckDamageNegatingAbilities(struct BattleStruct *sp, int attacker, int 
         }
     }
 
+    // Handle Overcoat's powder blocking effect
+    if (MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_OVERCOAT) == TRUE) {
+        {
+            if (isPowderMove(sp->current_move_index)) {
+                scriptnum = SUB_SEQ_SOUNDPROOF;
+            }
+        }
+    }
+
+    // Handle Armor Tail
+    // Block any natural priority move or a move made priority by an ability, if the target or the target's ally has Armor Tail
+    if (
+        (MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_ARMOR_TAIL) == TRUE) ||
+        (MoldBreakerAbilityCheck(sp, attacker, BATTLER_ALLY(defender), ABILITY_ARMOR_TAIL) == TRUE)
+    ) {
+        if (adjustedMoveHasPositivePriority(sp, attacker)) {
+            scriptnum = SUB_SEQ_HANDLE_ARMOR_TAIL;
+        }
+    }
+
+    // Handle Dazzling
+    // Block any natural priority move or a move made priority by an ability, if the target or the target's ally has Dazzling
+    // Duplicated because not sure if text has parameter support for an ally ability
+    if (
+        (MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_DAZZLING) == TRUE) ||
+        (MoldBreakerAbilityCheck(sp, attacker, BATTLER_ALLY(defender), ABILITY_DAZZLING) == TRUE)
+    ) {
+        if (adjustedMoveHasPositivePriority(sp, attacker)) {
+            scriptnum = SUB_SEQ_HANDLE_DAZZLING;
+        }
+    }
+
+    // Handle Queenly Majesty
+    // Block any natural priority move or a move made priority by an ability, if the target or the target's ally has Queenly Majesty
+    // Duplicated because not sure if text has parameter support for an ally ability
+    if (
+        (MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_QUEENLY_MAJESTY) == TRUE) ||
+        (MoldBreakerAbilityCheck(sp, attacker, BATTLER_ALLY(defender), ABILITY_QUEENLY_MAJESTY) == TRUE)
+    ) {
+        if (adjustedMoveHasPositivePriority(sp, attacker)) {
+            scriptnum = SUB_SEQ_HANDLE_QUEENLY_MAJESTY;
+        }
+    }
+    
     // Handle Psychic Terrain
     // Block any natural priority move or a move made priority by an ability, if the terrain is Psychic Terrain
     // Courtesy of Dray (https://github.com/Drayano60)
+
+    #ifdef SAVE_SPACE
+
     if (sp->terrainOverlay.type == PSYCHIC_TERRAIN && sp->terrainOverlay.numberOfTurnsLeft > 0 && IsClientGrounded(sp, defender)) {
         if (adjustedMoveHasPositivePriority(sp, attacker) && CurrentMoveShouldNotBeExemptedFromPriorityBlocking(sp, attacker, defender)) {
             scriptnum = SUB_SEQ_HANDLE_JUST_FAIL;
         }
     }
 
+    #endif
+
     return scriptnum;
+}
+
+/**
+ *  @brief see if the ability intimidate should activate depending on the abilities/stat stages it is up against
+ *         assumption is that the client has already been checked for intimidate's presence; we don't need to here
+ *
+ *  @param sp global battle structure
+ *  @param client battler to check if either opponent has an ability that doesn't negate intimidate
+ *  @return TRUE if intimidate can get through either of the opponent's abilities; FALSE otherwise
+ */
+BOOL IntimidateCheckHelper(struct BattleStruct *sp, u32 client)
+{
+    #ifdef SAVE_SPACE
+
+    u32 clientCheck;
+    for (int i = 0; i < 2; i++)
+    {
+        clientCheck = i ? BATTLER_ACROSS(client) : BATTLER_OPPONENT(client);
+        if (sp->battlemon[clientCheck].hp
+         && sp->battlemon[clientCheck].states[STAT_ATTACK] > 0)
+        {
+            u32 ability = GetBattlerAbility(sp, clientCheck);
+            switch (ability)
+            {
+            case ABILITY_INNER_FOCUS:
+            case ABILITY_SCRAPPY:
+            case ABILITY_OBLIVIOUS:
+            case ABILITY_OWN_TEMPO:
+            case ABILITY_FULL_METAL_BODY:
+                break;
+            default: // intimidate can affect at least one opposing battler
+                return TRUE;
+            }
+        }
+    }
+
+    #endif
+
+    return FALSE; // neither opposing battler has an ability that intimidate can activate on
 }
 
 
@@ -281,6 +419,22 @@ u32 TurnEndAbilityCheck(void *bw, struct BattleStruct *sp, int client_no)
                 ret = TRUE;
             }
             break;
+        case ABILITY_ANTICIPATION:
+            if
+            (
+                (sp->battlemon[client_no].hp) &&
+                (sp->battlemon[client_no].anticipation_flag == 1) &&
+                (sp->battlemon[client_no].text_on_ability_entry_flag == 1)
+            )
+            {
+                sp->battlemon[client_no].anticipation_flag = 0;
+                
+                sp->state_client = client_no;
+                sp->client_work = client_no;
+                seq_no = SUB_SEQ_HANDLE_POST_ANTICIPATION;
+                ret = TRUE;
+            }
+            break;  
         case ABILITY_SHED_SKIN:
             if ((sp->battlemon[client_no].condition & STATUS_ANY_PERSISTENT)
                 && (sp->battlemon[client_no].hp)
@@ -345,7 +499,8 @@ u32 TurnEndAbilityCheck(void *bw, struct BattleStruct *sp, int client_no)
             break;
         case ABILITY_HARVEST:
             if ((sp->battlemon[client_no].hp)
-             && IS_ITEM_BERRY(sp->recycle_item[client_no])
+            // AC change: also allow herbs
+             && (IS_ITEM_BERRY(sp->recycle_item[client_no]) || (sp->recycle_item[client_no] == ITEM_WHITE_HERB) || (sp->recycle_item[client_no] == ITEM_POWER_HERB) || (sp->recycle_item[client_no] == ITEM_MENTAL_HERB))
              && ((BattleRand(bw) % 2 == 0) // 50% chance
               // OR sun is active + abilities are not fucking it
               || ((CheckSideAbility(bw, sp, CHECK_ABILITY_ALL_HP, 0, ABILITY_CLOUD_NINE) == 0)
@@ -355,6 +510,7 @@ u32 TurnEndAbilityCheck(void *bw, struct BattleStruct *sp, int client_no)
                 sp->item_work = sp->recycle_item[client_no];
                 sp->recycle_item[client_no] = 0;
                 sp->battlemon[client_no].item = sp->item_work;
+                sp->client_work = client_no;
                 seq_no = SUB_SEQ_HANDLE_HARVEST;
                 ret = TRUE;
             }
@@ -362,13 +518,16 @@ u32 TurnEndAbilityCheck(void *bw, struct BattleStruct *sp, int client_no)
         case ABILITY_MOODY: // this is going to be interesting
             if (sp->battlemon[client_no].hp)
             {
-                int temp = BattleRand(bw) % 7;
+                /* 7 includes accuracy/evasion which isn't accurate as of Gen 8 */
+                // int temp = BattleRand(bw) % 7;
+                int temp = BattleRand(bw) % 5;
 
                 if (AreAnyStatsNotAtValue(sp, client_no, 12)) // if any stat can be lowered
                 {
                     while (sp->battlemon[client_no].states[temp] == 12)
                     {
-                        temp = BattleRand(bw) % 7;
+                        // temp = BattleRand(bw) % 7;
+                        temp = BattleRand(bw) % 5;
                     }
                 }
                 else
@@ -377,15 +536,17 @@ u32 TurnEndAbilityCheck(void *bw, struct BattleStruct *sp, int client_no)
                 }
                 sp->calc_work = temp;
 
-
-                temp = BattleRand(bw) % 7;
+                /* 7 includes accuracy/evasion which isn't accurate */
+                // temp = BattleRand(bw) % 7;
+                temp = BattleRand(bw) % 5;
 
                 if (AreAnyStatsNotAtValue(sp, client_no, 0)) // if any stat can be raised
                 {
                     while (sp->battlemon[client_no].states[temp] == 0
                         || temp == sp->calc_work)
                     {
-                        temp = BattleRand(bw) % 7;
+                        // temp = BattleRand(bw) % 7;
+                        temp = BattleRand(bw) % 5;
                     }
                 }
                 else
@@ -413,6 +574,19 @@ u32 TurnEndAbilityCheck(void *bw, struct BattleStruct *sp, int client_no)
     return ret;
 }
 
+BOOL isMoveContact(struct BattleStruct *sp)
+{
+    if (GetBattlerAbility(sp, sp->attack_client) == ABILITY_LONG_REACH) {
+        return FALSE;
+    }
+
+    if (sp->moveTbl[sp->current_move_index].flag & FLAG_CONTACT) {
+        return TRUE;
+    }
+
+    return FALSE;
+}
+
 /**
  *  @brief check if mummy can overwrite the attacker's ability
  *
@@ -426,6 +600,8 @@ BOOL MummyAbilityCheck(struct BattleStruct *sp)
         case ABILITY_MULTITYPE:
         case ABILITY_ZEN_MODE:
         case ABILITY_STANCE_CHANGE:
+        case ABILITY_MUMMY:
+        /*
         case ABILITY_SCHOOLING:
         case ABILITY_BATTLE_BOND:
         case ABILITY_POWER_CONSTRUCT:
@@ -433,7 +609,31 @@ BOOL MummyAbilityCheck(struct BattleStruct *sp)
         case ABILITY_RKS_SYSTEM:
         case ABILITY_DISGUISE:
         case ABILITY_COMATOSE:
-        case ABILITY_MUMMY:
+        */
+            return FALSE;
+        default:
+            return TRUE;
+    }
+}
+
+/**
+ *  @brief check if wandering spirit can overwrite the attacker's ability
+ *
+ *  @param sp global battle structure
+ *  @return TRUE if the ability can be overwritten; FALSE otherwise
+ */
+BOOL WanderingSpiritAbilityCheck(struct BattleStruct *sp)
+{
+    switch(GetBattlerAbility(sp, sp->attack_client))
+    {
+        case ABILITY_FLOWER_GIFT:
+        case ABILITY_FORECAST:
+        case ABILITY_ILLUSION:
+        case ABILITY_IMPOSTER:
+        case ABILITY_MULTITYPE:
+        case ABILITY_STANCE_CHANGE:
+        case ABILITY_WONDER_GUARD:
+        case ABILITY_ZEN_MODE:
             return FALSE;
         default:
             return TRUE;
@@ -521,7 +721,7 @@ BOOL MoveHitAttackerAbilityCheck(void *bw, struct BattleStruct *sp, int *seq_no)
                 && ((sp->server_status_flag2 & SERVER_STATUS_FLAG2_U_TURN) == 0)
                 && ((sp->oneSelfFlag[sp->defence_client].physical_damage) ||
                     (sp->oneSelfFlag[sp->defence_client].special_damage))
-                && (sp->moveTbl[sp->current_move_index].flag & FLAG_CONTACT)
+                && (isMoveContact(sp))
                 && (CheckSubstitute(sp, sp->defence_client) == FALSE)
                 && (BattleRand(bw) % 10 < 3))
             {
@@ -532,6 +732,69 @@ BOOL MoveHitAttackerAbilityCheck(void *bw, struct BattleStruct *sp, int *seq_no)
                 ret = TRUE;
             }
             break;
+        // Handle Befuddle, a new ability for Butterfree based on its GMax form.
+        // 30% chance to cause poison, paralyze or sleep after any Bug move.
+        case ABILITY_BEFUDDLE:
+            if ((sp->battlemon[sp->defence_client].hp)
+                && (sp->battlemon[sp->defence_client].condition == 0)
+                && ((sp->waza_status_flag & WAZA_STATUS_FLAG_NO_OUT) == 0)
+                && ((sp->server_status_flag & SERVER_STATUS_FLAG_x20) == 0)
+                && ((sp->server_status_flag2 & SERVER_STATUS_FLAG2_U_TURN) == 0)
+                && ((sp->oneSelfFlag[sp->defence_client].physical_damage) ||
+                    (sp->oneSelfFlag[sp->defence_client].special_damage))
+                && (sp->moveTbl[sp->current_move_index].type == TYPE_BUG)
+                && (CheckSubstitute(sp, sp->defence_client) == FALSE)
+                && (BattleRand(bw) % 10 < 3))
+            {
+
+                switch (BattleRand(bw) % 3) {
+                    case 0:
+                    default:
+                        seq_no[0] = SUB_SEQ_APPLY_POISON;
+                        break;
+                    case 1:
+                        seq_no[0] = SUB_SEQ_APPLY_PARALYSIS;
+                        break;
+                    case 2:
+                        seq_no[0] = SUB_SEQ_APPLY_SLEEP;
+                        break;
+                }
+
+                sp->addeffect_type = ADD_STATUS_ABILITY;
+                sp->state_client = sp->defence_client;
+                sp->client_work = sp->attack_client;
+                ret = TRUE;
+            }
+            break;
+        /* New ability for Glaceon, drops Sp. Def of Steel-types hit by its Ice-type move by one stage
+         * Cancelled
+        case ABILITY_DEEP_FREEZE:
+            if
+            (
+                (sp->battlemon[sp->defence_client].hp)
+                && ((sp->waza_status_flag & WAZA_STATUS_FLAG_NO_OUT) == 0)
+                && ((sp->server_status_flag & SERVER_STATUS_FLAG_x20) == 0)
+                && ((sp->server_status_flag2 & SERVER_STATUS_FLAG2_U_TURN) == 0)
+                && ((sp->oneSelfFlag[sp->defence_client].physical_damage) ||
+                    (sp->oneSelfFlag[sp->defence_client].special_damage))
+                && (sp->moveTbl[sp->current_move_index].type == TYPE_ICE)
+                && (CheckSubstitute(sp, sp->defence_client) == FALSE)
+                && ((BattlePokemonParamGet(sp, sp->defence_client, BATTLE_MON_DATA_TYPE1, NULL) == TYPE_STEEL) || (BattlePokemonParamGet(sp, sp->defence_client, BATTLE_MON_DATA_TYPE2, NULL) == TYPE_STEEL))
+            )
+            {
+                if (sp->battlemon[sp->defence_client].states[STAT_SPDEF] > 0)
+                {
+                    sp->addeffect_param = ADD_STATE_SP_DEF_DOWN;
+                    sp->addeffect_type = ADD_EFFECT_PRINT_WORK_ABILITY;
+                    sp->state_client = sp->defence_client;
+                    sp->client_work = sp->attack_client;
+                    seq_no[0] = SUB_SEQ_STAT_STAGE_CHANGE;
+                    ret = TRUE;
+                }
+            }
+            break;
+        */
+        /*
         case ABILITY_BEAST_BOOST:
             if ((sp->defence_client == sp->fainting_client)
                 && BATTLERS_ON_DIFFERENT_SIDE(sp->attack_client, sp->fainting_client)
@@ -554,6 +817,7 @@ BOOL MoveHitAttackerAbilityCheck(void *bw, struct BattleStruct *sp, int *seq_no)
             break;
         case ABILITY_CHILLING_NEIGH:
         case ABILITY_AS_ONE_GLASTRIER:
+        */
         case ABILITY_MOXIE:
             if ((sp->defence_client == sp->fainting_client)
                 && ((sp->server_status_flag2 & SERVER_STATUS_FLAG2_U_TURN) == 0)
@@ -566,17 +830,24 @@ BOOL MoveHitAttackerAbilityCheck(void *bw, struct BattleStruct *sp, int *seq_no)
                     sp->addeffect_param = ADD_STATE_ATTACK_UP;
                     sp->addeffect_type = ADD_EFFECT_ABILITY;
                     sp->state_client = sp->attack_client;
-                    seq_no[0] = SUB_SEQ_BOOST_STATS;
+                    seq_no[0] = SUB_SEQ_HANDLE_BUFF_ON_KO;
                     ret = TRUE;
                 }
             }
             break;
+        /*
         case ABILITY_GRIM_NEIGH:
         case ABILITY_AS_ONE_SPECTRIER:
-            if ((sp->defence_client == sp->fainting_client)
-                && ((sp->server_status_flag2 & SERVER_STATUS_FLAG2_U_TURN) == 0)
-                && (sp->battlemon[sp->attack_client].hp)
-                && ((sp->waza_status_flag & WAZA_STATUS_FLAG_NO_OUT) == 0))
+        */
+        case ABILITY_HEAT_UP:
+            if 
+                (
+                    (sp->defence_client == sp->fainting_client)
+                    && ((sp->server_status_flag2 & SERVER_STATUS_FLAG2_U_TURN) == 0)
+                    && (sp->battlemon[sp->attack_client].hp)
+                    && ((sp->waza_status_flag & WAZA_STATUS_FLAG_NO_OUT) == 0)
+                    && (sp->moveTbl[sp->current_move_index].type == TYPE_FIRE)
+                )
             {
 
                 if (sp->battlemon[sp->attack_client].states[STAT_SPATK] < 12)
@@ -584,11 +855,12 @@ BOOL MoveHitAttackerAbilityCheck(void *bw, struct BattleStruct *sp, int *seq_no)
                     sp->addeffect_param = ADD_STATE_SP_ATK_UP;
                     sp->addeffect_type = ADD_EFFECT_ABILITY;
                     sp->state_client = sp->attack_client;
-                    seq_no[0] = SUB_SEQ_BOOST_STATS;
+                    seq_no[0] = SUB_SEQ_HANDLE_BUFF_ON_KO;
                     ret = TRUE;
                 }
             }
             break;
+        /*
         case ABILITY_BATTLE_BOND:
             if ((sp->defence_client == sp->fainting_client)
                 && ((sp->server_status_flag2 & SERVER_STATUS_FLAG2_U_TURN) == 0)
@@ -606,6 +878,7 @@ BOOL MoveHitAttackerAbilityCheck(void *bw, struct BattleStruct *sp, int *seq_no)
                 }
             }
             break;
+            */
         default:
             break;
     }
@@ -636,7 +909,6 @@ BOOL LONG_CALL MoveHitDefenderAbilityCheck(void *bw, struct BattleStruct *sp, in
 
     return ret;
 }
-
 
 /**
  *  @brief check if an ability is present and account for mold breaker
@@ -711,8 +983,11 @@ BOOL SynchroniseAbilityCheck(void *bw, struct BattleStruct *sp, int server_seq_n
 
     if (ret == TRUE)
     {
-        if(sp->battlemon[sp->client_work].condition & STATUS_POISON_ANY) {
+        if(sp->battlemon[sp->client_work].condition & STATUS_FLAG_POISONED) {
             seq_no = SUB_SEQ_APPLY_POISON;
+        }
+        if(sp->battlemon[sp->client_work].condition & STATUS_FLAG_BADLY_POISONED) {
+            seq_no = SUB_SEQ_BADLY_POISON;
         }
         else if(sp->battlemon[sp->client_work].condition & STATUS_FLAG_BURNED) {
             seq_no = SUB_SEQ_APPLY_BURN;
@@ -788,12 +1063,17 @@ BOOL ServerFlinchCheck(void *bw, struct BattleStruct *sp)
     heldeffect = HeldItemHoldEffectGet(sp, sp->attack_client);
     atk = HeldItemAtkGet(sp, sp->attack_client, 0);
 
-    if (GetBattlerAbility(sp, sp->attack_client) == ABILITY_STENCH) // stench adds 10% flinch chance
+    // stench adds 10% flinch chance if not holding flinchy item
+    if (GetBattlerAbility(sp, sp->attack_client) == ABILITY_STENCH && heldeffect != HOLD_EFFECT_INCREASE_FLINCH)
     {
         atk += 10;
         heldeffect = HOLD_EFFECT_INCREASE_FLINCH; // doesn't permanently change the hold effect, just for this function
     }
 
+    if (GetBattlerAbility(sp, sp->attack_client) == ABILITY_SERENE_GRACE) {
+        atk = atk * 2;
+    }
+    
     if (sp->defence_client != 0xFF)
     {
         if ((heldeffect == HOLD_EFFECT_INCREASE_FLINCH)
@@ -801,7 +1081,19 @@ BOOL ServerFlinchCheck(void *bw, struct BattleStruct *sp)
          && ((sp->oneSelfFlag[sp->defence_client].physical_damage)
           || (sp->oneSelfFlag[sp->defence_client].special_damage))
          && ((BattleRand(bw) % 100) < atk)
-         && (sp->moveTbl[sp->current_move_index].flag & FLAG_KINGS_ROCK)
+         /* Ignore King's Rock flag and just don't activate for flinching move effects */
+         // && (sp->moveTbl[sp->current_move_index].flag & FLAG_KINGS_ROCK)
+         && (sp->moveTbl[sp->current_move_index].effect != MOVE_EFFECT_FLINCH_HIT)
+         && (sp->moveTbl[sp->current_move_index].effect != MOVE_EFFECT_FLINCH_FREEZE_HIT)
+         && (sp->moveTbl[sp->current_move_index].effect != MOVE_EFFECT_FLINCH_PARALYZE_HIT)
+         && (sp->moveTbl[sp->current_move_index].effect != MOVE_EFFECT_FLINCH_BURN_HIT)
+         && (sp->moveTbl[sp->current_move_index].effect != MOVE_EFFECT_FLINCH_BURN_HIT_2)
+         && (sp->moveTbl[sp->current_move_index].effect != MOVE_EFFECT_FLINCH_MINIMIZE_DOUBLE_HIT)
+         && (sp->moveTbl[sp->current_move_index].effect != MOVE_EFFECT_SECRET_POWER) // Possibly inaccurate
+         && (sp->moveTbl[sp->current_move_index].effect != MOVE_EFFECT_CHARGE_TURN_HIGH_CRIT_FLINCH)
+         && (sp->moveTbl[sp->current_move_index].effect != MOVE_EFFECT_DAMAGE_WHILE_ASLEEP)
+         && (sp->moveTbl[sp->current_move_index].effect != MOVE_EFFECT_FLINCH_DOUBLE_DAMAGE_FLY_OR_BOUNCE)
+         && (sp->current_move_index != MOVE_FAKE_OUT) // First Impression shares same effect but should flinch
          && (sp->battlemon[sp->defence_client].hp))
         {
             sp->state_client = sp->defence_client;
@@ -1196,7 +1488,7 @@ void ServerDoPostMoveEffects(void *bw, struct BattleStruct *sp)
                  && (sp->defence_client != sp->attack_client)
                  && ((sp->oneSelfFlag[sp->defence_client].physical_damage) || (sp->oneSelfFlag[sp->defence_client].special_damage))
                  && (sp->battlemon[sp->defence_client].hp)
-                 && ((movetype == TYPE_FIRE) || (sp->current_move_index == MOVE_SCALD) || (sp->current_move_index == MOVE_STEAM_ERUPTION)) // scald can also melt opponents as of gen 6
+                 && ((movetype == TYPE_FIRE) || (sp->current_move_index == MOVE_SCALD) || (sp->current_move_index == MOVE_SCORCHING_SANDS) || (sp->current_move_index == MOVE_STEAM_ERUPTION)) // scald can also melt opponents as of gen 6
                  && sp->battlemon[sp->attack_client].parental_bond_flag == 0)
                 {
                     sp->client_work = sp->defence_client;

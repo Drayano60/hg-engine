@@ -440,6 +440,7 @@
 #define ITEM_EXPLORER_KIT    428
 #define ITEM_LOOT_SACK       429
 #define ITEM_RULE_BOOK       430
+#define ITEM_DEVON_SCOPE     430 // Edited from Rule Book
 #define ITEM_POKE_RADAR      431
 #define ITEM_POINT_CARD      432
 #define ITEM_JOURNAL         433
@@ -599,7 +600,7 @@
 #define ITEM_GALLADITE        (ITEM_MEGA_STONES_START + 44)
 #define ITEM_AUDINITE         (ITEM_MEGA_STONES_START + 45)
 #define ITEM_DIANCITE         (ITEM_MEGA_STONES_START + 46)
-#define ITEM_PIXIE_PLATE      (ITEM_MEGA_STONES_START + 47)
+#define ITEM_PIXIE_PLATE      (ITEM_MEGA_STONES_START + 47) // 584
 
 #define ITEM_MAX_MEGA_STONES  (ITEM_PIXIE_PLATE)
 
@@ -713,7 +714,7 @@
 #define IS_ITEM_GENESECT_DRIVE(item) (item >= ITEM_BURN_DRIVE && item <= ITEM_SHOCK_DRIVE)
 
 //Fossils
-#define ITEM_COVER_FOSSIL       (ITEM_PIXIE_PLATE + 91)
+#define ITEM_COVER_FOSSIL       (ITEM_PIXIE_PLATE + 91) // 675
 #define ITEM_PLUME_FOSSIL       (ITEM_PIXIE_PLATE + 92)
 #define ITEM_JAW_FOSSIL         (ITEM_PIXIE_PLATE + 93)
 #define ITEM_SAIL_FOSSIL        (ITEM_PIXIE_PLATE + 94)
@@ -826,7 +827,7 @@
 #define ITEM_LIFT_KEY           (ITEM_PIXIE_PLATE + 183)
 #define ITEM_PEWTER_CRUNCHIES   (ITEM_PIXIE_PLATE + 184)
 #define ITEM_SYLPH_SCOPE        (ITEM_PIXIE_PLATE + 185)
-#define ITEM_TEA                (ITEM_PIXIE_PLATE + 186)
+#define ITEM_TEA                (ITEM_PIXIE_PLATE + 186) // 770
 
 //Mints
 #define IS_ITEM_NATURE_MINT(item) (item >= ITEM_LONELY_MINT && item <= ITEM_SERIOUS_MINT)
@@ -853,6 +854,12 @@
 #define ITEM_NAIVE_MINT         (ITEM_PIXIE_PLATE + 206)
 #define ITEM_SERIOUS_MINT       (ITEM_PIXIE_PLATE + 207)
 
+// Custom
+#define ITEM_STELLAR_STONE      (ITEM_PIXIE_PLATE + 208) // 792
+#define ITEM_FAIRY_FEATHER      (ITEM_PIXIE_PLATE + 209) // 793
+#define ITEM_TELEPORT_GEM       (ITEM_PIXIE_PLATE + 210) // 794
+#define ITEM_GS_BALL            (ITEM_PIXIE_PLATE + 211) // 795
+
 #define NUM_MEGA_STONES 48 // includes the pixie plate
 
 #define IS_ITEM_TERRAIN_SEED(item) (item >= ITEM_ELECTRIC_SEED && item <= ITEM_PSYCHIC_SEED)
@@ -860,7 +867,7 @@
 #define NUM_UNKNOWN_SLOTS 22 // used to adjust in data/itemdata.c
 #define NUM_UNKNOWN_SLOTS_EXPLORER_KIT (NUM_UNKNOWN_SLOTS+1) // used to adjust in data/itemdata.c
 
-#define NEW_ITEM_MAX ITEM_TEA
+#define NEW_ITEM_MAX ITEM_TELEPORT_GEM
 
 #define BAG_SLOT_QUANTITY_MAX                    999
 #define BAG_TMHM_QUANTITY_MAX                     99

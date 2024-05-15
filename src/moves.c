@@ -168,13 +168,26 @@ u16 move_effect_to_subscripts[] =
     [ADD_STATUS_EFF_V_CREATE]                    = SUB_SEQ_V_CREATE,
     [ADD_STATUS_EFF_AUTOTOMIZE]                  = SUB_SEQ_AUTOTOMIZE,
     [ADD_STATUS_EFF_HANDLE_GROWTH]               = SUB_SEQ_HANDLE_GROWTH,
-    [ADD_STATUS_EFF_WORK_UP]                     = SUB_SEQ_WORK_UP,
-    [ADD_STATUS_EFF_SPICY_EXTRACT]               = SUB_SEQ_SPICY_EXTRACT,
-    [ADD_STATUS_EFF_FILLET_AWAY]                 = SUB_SEQ_FILLET_AWAY,
-    [ADD_STATUS_EFF_SHED_TAIL]                   = SUB_SEQ_HANDLE_SHED_TAIL,
-    [ADD_STATUS_EFF_AFTER_YOU]                   = SUB_SEQ_HANDLE_AFTER_YOU,
-    [ADD_STATUS_EFF_QUASH]                       = SUB_SEQ_HANDLE_QUASH,
-    [ADD_STATUS_EFF_DRAIN_FULL]                  = SUB_SEQ_DRAIN_FULL,
+
+    // custom
+    [156] = 335, // new noble roar subscript
+    [157] = 467, // new incinerate subscript
+    [158] = 468, // new work up subscript
+    [159] = 469, // new scale shot subscript
+    [160] = 439, // new aurora veil subscript
+    [161] = 440, // new steel beam subscript
+    [162] = 444, // new toxic thread subscript
+    [163] = 448, // new clear smog subscript
+    [164] = 451, // new final gambit subscript
+    [165] = 456, // new pollen puff subscript
+    [166] = 462, // new tail glow subscript
+    [167] = 463, // new cotton guard subscript
+    [168] = 464, // new parting shot subscript
+    [169] = 471, // new strength sap subscript
+    [170] = 474, // new tidy up subscript
+    [171] = 480, // new victory dance subscript
+    [172] = 481, // new chilly reception effect
+    [173] = 482, // new triple arrows effect
 };
 
 

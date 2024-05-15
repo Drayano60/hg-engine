@@ -9,7 +9,9 @@
 
 .create "build/move/move_anim/0_608", 0
 
-//Dazzling Gleam
+// Dazzling Gleam
+// Luster Purge with Refresh sound effect on first part
+
 a010_608:
     initspriteresource
     loadspriteresource 0
@@ -21,41 +23,33 @@ a010_608:
     loadspritemaybe 6, 0, 2, 2
     loadspritemaybe 7, 0, 3, 3
     callfunction 78, 1, 0, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
-    loadparticle 0, 426
+    loadparticle 0, 313
     waitstate
     unloadspriteresource
     resetsprite 0
     resetsprite 1
     resetsprite 2
     resetsprite 3
-    callfunction 33, 5, 0, 1, 0, 12, 0, "NaN", "NaN", "NaN", "NaN", "NaN"
-    waitstate
-    playsepan 2088, -117
-    addparticle 0, 2, 17
-    cmd37 6, 0, 2, 1, 0, 0, 0, "NaN", "NaN"
-    wait 20
-
+    repeatse 2041, -117, 24, 3
+    addparticle 0, 1, 3
+    addparticle 0, 2, 3
+    addparticle 0, 3, 3
+    addparticle 0, 4, 3
+    wait 60
     callfunction 33, 5, 0, 1, 0, 16, 32767, "NaN", "NaN", "NaN", "NaN", "NaN"
     callfunction 34, 6, 2050, 0, 1, 32767, 16, 30, "NaN", "NaN", "NaN", "NaN"
     callfunction 34, 6, 2056, 0, 1, 32767, 16, 30, "NaN", "NaN", "NaN", "NaN"
     callfunction 34, 6, 2052, 0, 1, 32767, 16, 30, "NaN", "NaN", "NaN", "NaN"
     callfunction 34, 6, 2064, 0, 1, 32767, 16, 30, "NaN", "NaN", "NaN", "NaN"
     wait 20
-
-    callfunction 36, 5, 1, 0, 1, 2, 264, "NaN", "NaN", "NaN", "NaN", "NaN"
-    callfunction 36, 5, 1, 0, 1, 2, 272, "NaN", "NaN", "NaN", "NaN", "NaN"
-    callfunction 36, 5, 1, 0, 1, 2, 264, "NaN", "NaN", "NaN", "NaN", "NaN"
-    callfunction 36, 5, 1, 0, 1, 2, 272, "NaN", "NaN", "NaN", "NaN", "NaN"
-    playsepanmod 1873, -117, 117, 4, 2
+    repeatse 1926, 117, 4, 8
+    addparticle 0, 0, 4
     wait 20
-    repeatse 1926, 117, 4, 5
+    callfunction 33, 5, 0, 1, 16, 0, 32767, "NaN", "NaN", "NaN", "NaN", "NaN"
+    callfunction 36, 5, 4, 0, 1, 6, 264, "NaN", "NaN", "NaN", "NaN", "NaN"
+    waitstate
     waitparticle
     unloadparticle 0
-    callfunction 33, 5, 0, 1, 12, 0, 0, "NaN", "NaN", "NaN", "NaN", "NaN"
-    callfunction 36, 5, 1, 0, 1, 2, 264, "NaN", "NaN", "NaN", "NaN", "NaN"
-    callfunction 36, 5, 1, 0, 1, 2, 272, "NaN", "NaN", "NaN", "NaN", "NaN"
-    waitstate
     end
-    
 
 .close

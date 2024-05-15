@@ -9,6 +9,9 @@
 
 .create "build/move/move_anim/0_598", 0
 
+// Mystical Fire
+// Sacred Fire without background
+
 a010_598:
     initspriteresource
     loadspriteresource 0
@@ -20,35 +23,29 @@ a010_598:
     loadspritemaybe 6, 0, 2, 2
     loadspritemaybe 7, 0, 3, 3
     callfunction 78, 1, 0, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
-    loadparticle 0, 279
-    loadparticle 1, 239
+    loadparticle 0, 239
     waitstate
     unloadspriteresource
     resetsprite 0
     resetsprite 1
     resetsprite 2
     resetsprite 3
+    wait 1
 
-    callfunction 33, 5, 0, 1, 0, 12, 6147, "NaN", "NaN", "NaN", "NaN", "NaN"
-
-    playsepanmod 1937, -117, 117, 4, 2
-    addparticle 0, 0, 17
-    cmd37 6, 0, 2, 6, 1, 16, 0, "NaN", "NaN"
-    cmd37 5, 3, 0, 0, 0, 0, "NaN", "NaN", "NaN"
-    wait 30
-    
-    addparticle 1, 1, 4
-    addparticle 1, 2, 4
-    playsepan 2011, 117
-    callfunction 36, 5, 2, 0, 1, 2, 264, "NaN", "NaN", "NaN", "NaN", "NaN"
+    addparticle 0, 1, 4
+    addparticle 0, 2, 4
+    addparticle 0, 3, 4
+    addparticle 0, 0, 4
+    playsepan 2034, 117
+    wait 40
+    playsepan 1938, 117
+    wait 10
+    callfunction 34, 6, 8, 0, 1, 31, 10, 0, "NaN", "NaN", "NaN", "NaN"
+    callfunction 36, 5, 1, 0, 1, 2, 264, "NaN", "NaN", "NaN", "NaN", "NaN"
     waitparticle
     unloadparticle 0
-    unloadparticle 1
-
-    callfunction 33, 5, 0, 1, 12, 0, 6147, "NaN", "NaN", "NaN", "NaN", "NaN"
-    waitstate
+    stopse 1938
 
     end
-    
 
 .close

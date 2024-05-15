@@ -9,6 +9,9 @@
 
 .create "build/move/move_anim/0_577", 0
 
+// Disarming Voice
+// Growl animation with extra hearts
+
 a010_577:
     initspriteresource
     loadspriteresource 0
@@ -20,26 +23,38 @@ a010_577:
     loadspritemaybe 6, 0, 2, 2
     loadspritemaybe 7, 0, 3, 3
     callfunction 78, 1, 0, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
-    loadparticle 0, 78
+    loadparticle 0, 76
     waitstate
     unloadspriteresource
     resetsprite 0
     resetsprite 1
     resetsprite 2
     resetsprite 3
-    callfunction 33, 5, 0, 1, 0, 12, 0, "NaN", "NaN", "NaN", "NaN", "NaN"
-    waitstate
-    addparticle 0, 0, 3
     addparticle 0, 1, 3
-    addparticle 0, 2, 17
-    cmd37 6, 0, 2, 6, 1, 0, 0, "NaN", "NaN"
-    playsepanmod 1936, -117, 117, 4, 2
+    addparticle 0, 0, 3
+    // playcry 9, -117, 100
+    // waitcry 0
+    // playcry 10, -117, 127
+    playcry 7, -117, 100
+    waitcry 0
+    playcry 8, -117, 127
+	wait 5
+
+    loadparticle 0, 361
+    addparticle 0, 0, 17
+    cmd37 6, 0, 2, 1, 0, 0, 0, "NaN", "NaN"
+    repeatse 2025, -117, 2, 4
+    wait 20
+    repeatse 2025, -117, 2, 4
+    wait 10
+
     wait 5
-    callfunction 34, 6, 8, 0, 3, 23199, 14, 0, "NaN", "NaN", "NaN", "NaN"
+    waitcry 0
+    callfunction 36, 5, 1, 0, 1, 2, 264, "NaN", "NaN", "NaN", "NaN", "NaN"
+    callfunction 36, 5, 1, 0, 1, 2, 272, "NaN", "NaN", "NaN", "NaN", "NaN"
     waitparticle
     unloadparticle 0
-    callfunction 33, 5, 0, 1, 12, 0, 32767, "NaN", "NaN", "NaN", "NaN", "NaN"
-    waitstate
     end
+
 
 .close

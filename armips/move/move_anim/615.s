@@ -9,6 +9,9 @@
 
 .create "build/move/move_anim/0_615", 0
 
+// Power-Up Punch
+// Mega Punch animation
+
 a010_615:
     initspriteresource
     loadspriteresource 0
@@ -20,33 +23,23 @@ a010_615:
     loadspritemaybe 6, 0, 2, 2
     loadspritemaybe 7, 0, 3, 3
     callfunction 78, 1, 0, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
-    loadparticle 0, 203
-    loadparticle 1, 64
+    loadparticle 0, 36
     waitstate
     unloadspriteresource
     resetsprite 0
     resetsprite 1
     resetsprite 2
     resetsprite 3
-    playsepan 1908, 117
-
-    addparticle 0, 1, 4
+    callfunction 33, 5, 0, 1, 0, 12, 0, "NaN", "NaN", "NaN", "NaN", "NaN"
     addparticle 0, 2, 4
-    wait 5
-    playsepan 1926, 117
-    callfunction 36, 5, 2, 0, 1, 2, 264, "NaN", "NaN", "NaN", "NaN", "NaN"
-
+    addparticle 0, 0, 4
     addparticle 0, 1, 4
-    addparticle 0, 2, 4
-    wait 5
-    addparticle 1, 1, 4
-    addparticle 1, 0, 4
-    playsepan 1833, 117
-    callfunction 36, 5, 2, 0, 1, 2, 264, "NaN", "NaN", "NaN", "NaN", "NaN"
-
+    waitse 1847, 117, 1
+    callfunction 36, 5, 4, 0, 1, 2, 264, "NaN", "NaN", "NaN", "NaN", "NaN"
     waitparticle
     unloadparticle 0
-    unloadparticle 1
+    callfunction 33, 5, 0, 1, 12, 0, 0, "NaN", "NaN", "NaN", "NaN", "NaN"
+    waitstate
     end
 
 .close

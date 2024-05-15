@@ -15,6 +15,7 @@ a010_502:
     loadparticlefromspa 0, 514
     waitparticle
 
+    repeatse 1985, 117, 4, 3
     addparticle 0, 0, 4
     addparticle 0, 2, 4
     addparticle 0, 3, 4

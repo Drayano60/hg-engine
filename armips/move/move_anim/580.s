@@ -9,8 +9,10 @@
 
 .create "build/move/move_anim/0_580", 0
 
-a010_580:
+// Draining Kiss
+// Lovely Kiss animation with Mega Drain draining graphics and a pink background
 
+a010_580:
     initspriteresource
     loadspriteresource 0
     loadspriteresource 1
@@ -21,37 +23,52 @@ a010_580:
     loadspritemaybe 6, 0, 2, 2
     loadspritemaybe 7, 0, 3, 3
     callfunction 78, 1, 0, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
+
+    
+    callfunction 33, 5, 0, 1, 0, 12, 32415, "NaN", "NaN", "NaN", "NaN", "NaN"
+    waitstate
+    
     loadparticle 0, 166
-    loadparticle 1, 102
     waitstate
     unloadspriteresource
     resetsprite 0
     resetsprite 1
     resetsprite 2
     resetsprite 3
-    callfunction 33, 5, 0, 1, 0, 12, 28927, "NaN", "NaN", "NaN", "NaN", "NaN"
     addparticle 0, 0, 4
     addparticle 0, 1, 4
     playsepan 2032, 117
-    wait 15
+    wait 5
+    callfunction 36, 5, 1, 0, 1, 2, 264, "NaN", "NaN", "NaN", "NaN", "NaN"
+    waitparticle
+    unloadparticle 0
 
-    addparticle 1, 0, 17
+
+    loadparticle 0, 103
+    waitstate
+    unloadspriteresource
+    resetsprite 0
+    resetsprite 1
+    resetsprite 2
+    resetsprite 3
+    repeatse 1999, 0, 2, 24
+    addparticle 0, 0, 17
     cmd37 6, 0, 2, 2, 1, 16, 0, "NaN", "NaN"
     cmd37 5, 2, 0, 0, 0, 0, "NaN", "NaN", "NaN"
-    repeatse 2003, 0, 2, 16
+    addparticle 0, 1, 17
+    cmd37 6, 0, 2, 2, 1, 16, 0, "NaN", "NaN"
+    cmd37 5, 2, 0, 0, 0, 0, "NaN", "NaN", "NaN"
     waitparticle
-    addparticle 1, 1, 17
-    cmd37 6, 0, 2, 1, 0, 0, 0, "NaN", "NaN"
+    addparticle 0, 2, 3
     callfunction 34, 6, 2, 0, 1, 32767, 10, 0, "NaN", "NaN", "NaN", "NaN"
     playsepan 1956, -117
     waitparticle
-
-    callfunction 36, 5, 1, 0, 1, 2, 264, "NaN", "NaN", "NaN", "NaN", "NaN"
-    waitparticle
-    callfunction 33, 5, 0, 1, 12, 0, 28927, "NaN", "NaN", "NaN", "NaN", "NaN"
     unloadparticle 0
-    unloadparticle 1
+    waitstate
+
+    callfunction 33, 5, 0, 1, 12, 0, 32415, "NaN", "NaN", "NaN", "NaN", "NaN"
+    waitstate
+
     end
-    
 
 .close

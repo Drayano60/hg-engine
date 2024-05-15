@@ -9,6 +9,9 @@
 
 .create "build/move/move_anim/0_611", 0
 
+// Baby-Doll Eyes
+// From HG-Engine with a slight edit
+
 a010_611:
     initspriteresource
     loadspriteresource 0
@@ -28,11 +31,7 @@ a010_611:
     resetsprite 1
     resetsprite 2
     resetsprite 3
-    addparticle 0, 0, 3
-    addparticle 0, 1, 3
-    playsepan 2006, -117
-    waitse 1864, -117, 10
-    waitparticle
+
 
     addparticle 1, 0, 3
     playsepan 1862, -117

@@ -9,53 +9,68 @@
 
 .create "build/move/move_anim/0_559", 0
 
+// Icicle Crash 
+// Icicle Spear animation
+
 a010_559:
-    loadparticlefromspa 0, 438 //ice shard
-    waitparticle
-    loadparticlefromspa 1, 437 //avalanche particles,
-    waitparticle
-
-    playsepan 2019, -117
-
-    addparticle 1, 2, 4 //avalanche falls
-    playsepan 1954, 117
-    wait 2
-    playsepan 1954, 117
-    wait 2
-    playsepan 1954, 117
-    wait 2
-    playsepan 1954, 117
-    wait 2
-    playsepan 1954, 117
-    wait 2
-    playsepan 1954, 117
-    wait 2
-    playsepan 1954, 117
-    wait 2
-    playsepan 1954, 117 //necessary to get the right sounds
-    wait 2
-    //addparticle 1, 3, 4
-    addparticle 0, 1, 4 //shard particles
-    wait 10
-
-    addparticle 0, 1, 4 //more shard particles (repeated)
-    //addparticle 1, 4, 4
-    addparticle 1, 5, 4 //avalanche particles
-    wait 5
-    addparticle 0, 0, 4
-   
-    repeatse 1827, 117, 2, 3
-    shadetargetmon 0, 0, 28 //make the target blue
-    shaketargetmon 5, 3 //shake 'em a bit
-    
-    waitparticle
-
-
-
-    unloadparticle 0
-    unloadparticle 1
+    initspriteresource
+    loadspriteresource 0
+    loadspriteresource 1
+    loadspriteresource 2
+    loadspriteresource 3
+    loadspritemaybe 4, 0, 0, 0
+    loadspritemaybe 5, 0, 1, 1
+    loadspritemaybe 6, 0, 2, 2
+    loadspritemaybe 7, 0, 3, 3
+    callfunction 78, 1, 0, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
+    loadparticle 0, 351
     waitstate
+    unloadspriteresource
+    resetsprite 0
+    resetsprite 1
+    resetsprite 2
+    resetsprite 3
+    initresources 0, 3, 1, 1, 1, 1, 0, 0
+    loadresources 0, 30
+    loadpalette 0, 30, 1
+    loadcell 0, 30
+    loadcellanm 0, 30
+    addsomething 0, 17, 30, 30, 30, 30, 0, 0, 4, -15, -5, 10, 32, "NaN", "NaN", "NaN", "NaN"
+    playsepan 2019, -117
+    wait 5
+    addsomething 0, 17, 30, 30, 30, 30, 0, 0, 4, -5, -20, 10, 32, "NaN", "NaN", "NaN", "NaN"
+    playsepan 2019, -117
+    addparticle 0, 0, 17
+    cmd37 6, 0, 2, 5, 0, 0, 0, "NaN", "NaN"
+    cmd37 4, 1, 0, 2752, 0, "NaN", "NaN", "NaN", "NaN"
+    addparticle 0, 1, 17
+    cmd37 6, 0, 2, 5, 0, 0, 0, "NaN", "NaN"
+    cmd37 4, 1, 0, 2752, 0, "NaN", "NaN", "NaN", "NaN"
+    callfunction 36, 5, 1, 0, 1, 1, 264, "NaN", "NaN", "NaN", "NaN", "NaN"
+    wait 5
+    addsomething 0, 17, 30, 30, 30, 30, 0, 0, 4, -10, -15, 10, 32, "NaN", "NaN", "NaN", "NaN"
+    playsepan 2019, -117
+    addparticle 0, 0, 17
+    cmd37 6, 0, 2, 5, 0, 0, 0, "NaN", "NaN"
+    cmd37 4, 1, 0, 2752, 0, "NaN", "NaN", "NaN", "NaN"
+    addparticle 0, 1, 17
+    cmd37 6, 0, 2, 5, 0, 0, 0, "NaN", "NaN"
+    cmd37 4, 1, 0, 2752, 0, "NaN", "NaN", "NaN", "NaN"
+    callfunction 36, 5, 1, 0, 1, 1, 264, "NaN", "NaN", "NaN", "NaN", "NaN"
+    playsepan 2019, -117
+    wait 6
+    waitse 1926, 117, 2
+    addparticle 0, 0, 17
+    cmd37 6, 0, 2, 5, 0, 0, 0, "NaN", "NaN"
+    cmd37 4, 1, 0, 2752, 0, "NaN", "NaN", "NaN", "NaN"
+    addparticle 0, 1, 17
+    cmd37 6, 0, 2, 5, 0, 0, 0, "NaN", "NaN"
+    cmd37 4, 1, 0, 2752, 0, "NaN", "NaN", "NaN", "NaN"
+    callfunction 36, 5, 2, 0, 1, 2, 264, "NaN", "NaN", "NaN", "NaN", "NaN"
+    waitstate
+    freeresources 0
+    waitparticle
+    unloadparticle 0
     end
-    
 
 .close

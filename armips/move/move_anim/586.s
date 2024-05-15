@@ -9,6 +9,9 @@
 
 .create "build/move/move_anim/0_586", 0
 
+// Play Rough
+// Submission with hearts from Attract
+
 a010_586:
     initspriteresource
     loadspriteresource 0
@@ -20,7 +23,7 @@ a010_586:
     loadspritemaybe 6, 0, 2, 2
     loadspritemaybe 7, 0, 3, 3
     callfunction 78, 1, 0, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
-    loadparticle 1, 32
+    loadparticle 0, 97
     waitstate
     unloadspriteresource
     resetsprite 0
@@ -37,39 +40,46 @@ a010_586:
     loadspritemaybe 6, 0, 2, 2
     loadspritemaybe 7, 0, 3, 3
     callfunction 78, 1, 0, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
-    loadparticle 0, 301
+    loadparticle 1, 35
+    loadparticle 2, 231
     waitstate
     unloadspriteresource
     resetsprite 0
     resetsprite 1
     resetsprite 2
     resetsprite 3
-    repeatse 1928, -117, 20, 4
-    addparticle 0, 2, 3
-
-    
-    callfunction 34, 6, 2, 0, 2, 31, 10, 0, "NaN", "NaN", "NaN", "NaN"
-    waitstate
-
-    loop 2
-    callfunction 34, 5, 2, 0, 1, 797, 6, "NaN", "NaN", "NaN", "NaN", "NaN"
-    callfunction 42, 8, 258, 100, 120, 100, 80, 100, 1, 262148, "NaN", "NaN"
-    wait 7
-    addparticle 1, 1, 4
-    addparticle 1, 1, 4
-
-    callfunction 52, 3, 3, 24, 258, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
-    waitstate
-    callfunction 52, 3, 3, -24, 258, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
-    
-    callfunction 42, 8, 258, 100, 80, 100, 140, 100, 1, 262148, "NaN", "NaN"
-    callfunction 36, 5, 1, 0, 1, 2, 264, "NaN", "NaN", "NaN", "NaN", "NaN"
-    wait 3
-    playsepan 1827, 117
-    wait 4
+    callfunction 10, 3, 7, 10, 2, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
+    callfunction 10, 3, 7, 10, 8, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
+    addparticle 0, 0, 4
+    addparticle 0, 1, 4
+    waitse 1983, -117, 1
+    waitse 1920, 117, 10
+    waitse 1983, -117, 10
+    waitse 1920, 117, 20
+    waitse 1983, -117, 20
+    waitse 1920, 117, 30
+    waitse 1983, -117, 30
+    waitse 1920, 117, 40
+    waitse 1983, -117, 40
+    waitse 1920, 117, 50
+    waitse 1983, -117, 50
+    waitse 1920, 117, 60
+    waitse 1983, -117, 60
+    waitse 1920, 117, 70
+    waitse 1983, -117, 70
+    waitse 1920, 117, 80
+    addparticle 2, 0, 4
+    loop 5
+    wait 2
+    addparticle 1, 0, 4
     doloop
+    addparticle 2, 0, 4
     waitparticle
+    waitstate
     unloadparticle 0
+    unloadparticle 1
+    unloadparticle 2
+
     end
     
 

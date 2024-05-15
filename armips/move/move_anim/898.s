@@ -23,9 +23,17 @@ a010_898:
     wait 5
 
     repeatse 2060, 117, 3, 4
-    addparticle 1, 0, ANIM_TARGET_DEFENDER
-    addparticle 1, 1, ANIM_TARGET_DEFENDER
-    addparticle 1, 2, ANIM_TARGET_DEFENDER
+
+    addparticle 1, 1, 17
+    cmd37 6, 0, 2, 5, 0, 0, 0, "NaN", "NaN"
+    cmd37 4, 1, 0, -3440, 0, "NaN", "NaN", "NaN", "NaN"
+    addparticle 1, 0, 17
+    cmd37 6, 0, 2, 5, 0, 0, 0, "NaN", "NaN"
+    cmd37 4, 1, 0, -3440, 0, "NaN", "NaN", "NaN", "NaN"
+    addparticle 1, 2, 17
+    cmd37 6, 0, 2, 5, 0, 0, 0, "NaN", "NaN"
+    cmd37 4, 1, 0, -3440, 0, "NaN", "NaN", "NaN", "NaN"
+
     wait 15
 
     waitparticle

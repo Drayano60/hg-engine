@@ -9,6 +9,9 @@
 
 .create "build/move/move_anim/0_589", 0
 
+// Boomburst
+// Hyper Voice played once with screen shaking and Double-Edge background
+
 a010_589:
     initspriteresource
     loadspriteresource 0
@@ -20,32 +23,43 @@ a010_589:
     loadspritemaybe 6, 0, 2, 2
     loadspritemaybe 7, 0, 3, 3
     callfunction 78, 1, 0, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
-    loadparticle 0, 271
+    loadparticle 0, 322
     waitstate
     unloadspriteresource
     resetsprite 0
     resetsprite 1
     resetsprite 2
     resetsprite 3
-    callfunction 33, 5, 0, 1, 0, 12, 1030, "NaN", "NaN", "NaN", "NaN", "NaN"
-    repeatse 2046, -117, 29, 3
-    callfunction 42, 8, 258, 100, 120, 100, 80, 100, 1, 327685, "NaN", "NaN"
+    // playcry 4, -117, 100
+    // waitcry 0
+    // playcry 6, -117, 127
+	playcry 0, -117, 127
+    addparticle 0, 1, 17
+    cmd37 6, 0, 2, 22, 16, 0, 0, "NaN", "NaN"
+    addparticle 0, 0, 4
+
+    cmd43
+    cmd0C 7, 1
+    changebg 6, 0x1
+
+    callfunction 68, 5, 8, 8, 0, 10, 0, "NaN", "NaN", "NaN", "NaN", "NaN"
+
+    callfunction 33, 5, 0, 1, 0, 8, 13311, "NaN", "NaN", "NaN", "NaN", "NaN"
+    callfunction 36, 5, 0, 2, 1, 2, 264, "NaN", "NaN", "NaN", "NaN", "NaN"
+    callfunction 36, 5, 0, 2, 1, 2, 272, "NaN", "NaN", "NaN", "NaN", "NaN"
     waitstate
-    callfunction 34, 6, 2, 0, 2, 31, 10, 0, "NaN", "NaN", "NaN", "NaN"
-    addparticle 0, 1, 3
-    addparticle 0, 0, 3
-    callfunction 42, 8, 258, 100, 80, 100, 140, 100, 1, 327685, "NaN", "NaN"
+    callfunction 33, 5, 0, 1, 8, 0, 13311, "NaN", "NaN", "NaN", "NaN", "NaN"
     waitstate
-    loop 2
-    callfunction 42, 8, 258, 100, 120, 100, 80, 100, 1, 327685, "NaN", "NaN"
-    waitstate
-    callfunction 42, 8, 258, 100, 80, 100, 140, 100, 1, 327685, "NaN", "NaN"
-    waitstate
-    doloop
+    waitcry 0
+    wait 10
     waitparticle
     unloadparticle 0
-    callfunction 33, 5, 0, 1, 12, 0, 1030, "NaN", "NaN", "NaN", "NaN", "NaN"
-    waitstate
+
+    cmd43
+    cmd0C 7, 1
+    resetbg 6, 0x1
+    waitforchangebg
+
     end
     
 

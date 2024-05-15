@@ -547,8 +547,9 @@ const struct FormData UNUSED PokeFormDataTbl[]=
 
     /**cosmetic forms**/
     {
+        /**** AURORA CRYSTAL: Form #1 of Pikachu is moved so that Form #0 can evolve into Form #0 or Form #1 of Raichu without issue. ****/
         .species = SPECIES_PIKACHU,
-        .form_no = 1,
+        .form_no = 15, // Normally 1
         .need_rev = 0,
         .file = SPECIES_PIKACHU_COSPLAY,
     },

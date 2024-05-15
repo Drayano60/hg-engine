@@ -1,0 +1,80 @@
+1
+I love to collect Pokémon.\nPlease trade Pokémon with me!\rI'd like a Grass-type Pokémon.\nYou can have Rhyhorn in return. \v0200\x0001\x0000
+
+2
+Yay!\nI got myself a new Pokémon!\rThanks!
+
+3
+Huh?\nThat's not a Grass-type Pokémon.\rWhat a letdown...
+
+4
+You don’t want to trade? Aww...
+
+5
+Hi, how’s my old Rhyhorn doing?
+
+I love to collect beautiful Pokémon.\rIs there a Water-type Pokémon\nthat you'd trade to me?\rYou can have my Jynx for it. \v0200\x0001\x0000
+This Pokémon will make my future\ntruly beautiful.\rThank you.
+...\n...\rThat's not a Water-type...
+
+Script 2:
+	PlayFanfare 1500
+	LockAll 
+	FacePlayer 
+	CheckFlag 113
+	JumpIf EQUAL Function#3001
+	Message 41
+	OpenTouchScreen 
+	YesNoTouchScreen 0x800C
+	CloseTouchScreen 
+	CompareVarValue 0x800C 0
+	JumpIf EQUAL Function#3002
+Jump Function#3003
+
+Function 3001:
+	Message 45
+	WaitButton 
+	CloseMessage
+	ReleaseAll 
+End 
+
+Function 3002:
+	CloseMessage
+	FadeScreen 6 1 0 0
+	WaitFadeScreen 
+	PartyPokemonTradeScreen 
+	GetSelectedPartySlot 0x800C
+	ReturnScreen 
+	FadeScreen 6 1 1 0
+	WaitFadeScreen 
+	CompareVarValue 0x800C 255
+	JumpIf EQUAL Function#3003
+	CMD_497 0x8004 0x8005 0x800C
+	CompareVarValue 0x8004 12
+	JumpIf EQUAL Function#3004
+	CompareVarValue 0x8005 12
+	JumpIf EQUAL Function#3004
+	Message 43
+	WaitButton 
+	CloseMessage
+	ReleaseAll 
+End 
+
+Function 3003:
+	Message 44
+	WaitButton 
+	CloseMessage
+	ReleaseAll 
+End 
+
+Function 3004:
+	InitTrade 0
+	TradePokemonScreen 0x800C
+	EndTrade 
+	SetFlag 113
+	Message 42
+	WaitButton 
+	CloseMessage
+	ReleaseAll 
+End 
+

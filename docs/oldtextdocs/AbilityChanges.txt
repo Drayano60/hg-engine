@@ -1,0 +1,389 @@
+-------------------
+Included Abilities
+-------------------
+As a Gen 4 game, Aurora Crystal includes all abilities that were originally in Gen 4. However, in addition to that (with the help of hg-engine, which made this possible in the first place), a number of abilities from later generations are also included in the game!
+
+On top of this, there are also a handful of new abilities which are detailed in the "New Abilities" section below.
+
+The abilities each Pokémon has are listed in the Pokémon Changes document, though you can also see what Pokémon are given the new abilities here.
+
+For official abilities, the following are included and used in the game:
+* All abilities from Gen 3 - Gen 4.
+* Almost all abilities from Gen 5, excluding Victory Star, Turboblaze and Teravolt.
+* The following abilities from Gen 6: Aerilate, Bulletproof, Competitive, Fur Coat, Gale Wings, Gooey, Mega Launcher, Pixilate, Protean, Refrigerate, Strong Jaw, Tough Claws.
+* The following abilities from Gen 7: Berserk, Dazzling, Fluffy, Galvanize, Merciless, Queenly Majesty, Slush Rush, Tangling Hair, Triage.
+* The following abilities from Gen 8: Cotton Down, Quick Draw, Transistor.
+* The following abilities from Gen 9: Armor Tail, Sharpness, Supreme Overlord.
+
+Forewarn and Klutz have been removed from all Pokémon that have it due to their relative uselessness and lack of purpose, whereas a lot of other weak abilities have been given extra effects to compensate.
+
+-------------------
+Inaccurate Abilities
+-------------------
+Some abilities implemented from later generations aren't fully accurate. Any differences are listed here.
+
+- Berserk:
+This works slightly differently when it comes to multi-hit moves; Berserk activates immediately after whichever individual hit drops the Pokémon's HP below half, instead of after the multi-hit move has concluded. Otherwise, it works the same as in modern generations.
+
+- Cotton Down:
+Instead of affecting all Pokémon except the user, it now affects all Pokémon on the field except for those who have the Cotton Down ability. This means the Pokémon with the ability is still unaffected, but any other Pokémon on the field with Cotton Down will not be either.
+
+- Gale Wings:
+This intentionally does not have the maximum HP requirement from Gen 7+, so Flying-type moves used by a Pokémon with this ability will always have +1 priority.
+
+- Moody:
+Moody has been intentionally nerfed to only boost a stat by +1 instead of +2 each turn. As is the case in later generations, it cannot raise or lower accuracy or evasion.
+
+- Supreme Overlord:
+This gives the user an additive 10% boost based on the amount of fainted Pokémon when it uses a move.
+This differs from S/V which instead checks how many times Pokémon have fainted on that side of the field during the battle (capping at 5), and is unchanged by reviving allies.
+This means that in the Aurora Crystal version, you will lose power if you revive an ally mid-battle, but also that you can, for example, enter a battle with five fainted allies and immediately get a 50% boost.
+
+-------------------
+Updated Abilities
+-------------------
+Some abilities that were available in Gen 4 were later updated to have additional or different effects. Some of these have been implemented, some have not. These are listed below.
+
+If an ability that changed between generations is not listed, I most likely forgot about it, so please let me know!
+
+Please note that only in-battle effects have changes at this time. Overworld effects cannot currently be changed and are the same as Gen 4, so abilities like Flash Fire and Storm Drain do not have their encounter forcing effects.
+
+Abilities Updated Accurately
+--------------------------------------
+The following abilities have had their effects updated to work as they do in later generations:
+
+- Air Lock/Cloud Nine:
+These abilities now display a message when the Pokémon switches in.
+
+- Anger Point:
+Anger Point will no longer activate if the Pokémon with it takes a critical hit while behind a substitute.
+
+- Drizzle/Drought/Sand Stream/Snow Warning:
+These abilities no longer give a permanent weather effect, and instead activate the relevant weather effect for five turns. This becomes eight turns if the Pokémon with the ability is holding a weather extension item (the Damp Rock, Heat Rock, Smooth Rock or Icy Rock respectively).
+
+- Effect Spore:
+This no longer has any effect on Grass-type Pokémon or a Pokémon with the Overcoat ability.
+
+- Flash Fire:
+This ability now works even if the Pokémon is frozen.
+
+- Inner Focus:
+This now also prevents Intimidate from working on the Pokémon.
+
+- Intimidate:
+Intimidate no longer works against a Pokémon with the Oblivious, Own Tempo, Inner Focus or Scrappy abilities.
+Additionally, if a Pokémon with Rattled is intimidated, it will gain a boost to its Speed stat.
+
+- Keen Eye:
+This now also ignores any changes to the target's evasion, in addition to its accuracy drop prevention (and the accuracy boosting effect new to Aurora Crystal). This is not listed in-game as there's not enough space!
+
+- Leaf Guard:
+This now prevents a Pokémon with it from using Rest in sunny weather.
+
+- Plus/Minus:
+Both of these abilities can now activate if the Pokémon's double battle partner has Plus or Minus as its ability.
+
+- Scrappy:
+This now also prevents Intimidate from working on the Pokémon.
+
+- Serene Grace:
+This now also doubles the chance of the King's Rock or Razor Claw taking effect.
+
+- Simple:
+A Pokémon with Simple now has its stat changes doubled at the moment they happen, so it will actually show "Attack sharply rose!" instead of "Attack rose!" etc.
+This also means that Psych Up can copy the doubled stat changes, and if a stat is increased or dropped by a Pokémon with Mold Breaker, the change is not doubled.
+(In standard Gen 4, the Simple Pokémon's stat changes appear normal, but the effect is doubled during battle calculations instead.)
+
+- Stench:
+This now gives any damaging move a 10% chance to flinch in addition to its normal effect (unless the move already has a chance to flinch). It does not stack with King's Rock or Razor Fang.
+
+- Sturdy:
+This now causes a Pokémon to live with 1 HP if it would be knocked out in one hit by a damaging move, in addition to blocking OHKO moves.
+
+- Technician:
+Technician now also boosts the damage of Struggle.
+
+Abilities Updated Semi-Accurately
+--------------------------------------
+The following abilities have their effects somewhat updated to work as they do in later generations, but some parts are missing or inaccurate:
+
+- Lightning Rod:
+This now causes a Pokémon to take no damage and have its Special Attack boosted by one stage if it would be hit by an Electric-type move.
+However, it doesn't cause a Special Attack boost if the Pokémon is immune to Electric-type moves anyway (i.e. if it's a Ground-type).
+If an Electric-type Pokémon with this ability is hit by Thunder Wave, it does still get the Special Attack boost.
+Additionally, it still does not redirect an Electric-type Judgment or Natural Gift.
+
+- Oblivious:
+This now also prevents the Pokémon from being taunted in addition to blocking infatuation or the move Captivate.
+As per the Intimidate update, it also prevents Intimidate from working on the Pokémon.
+However, it does not cure an existing taunted effect if the Pokémon gains the Oblivious ability somehow after being taunted.
+
+- Own Tempo:
+This now also prevents Intimidate from working on the Pokémon.
+If a Pokémon is somehow confused and has or gains Own Tempo, the confusion is still healed immediately instead of after the Pokémon takes a turn.
+
+- Storm Drain:
+This now causes a Pokémon to take no damage and have its Special Attack boosted by one stage if it would be hit by a Water-type move.
+However, it still does not redirect a Water-type Judgment or Natural Gift.
+
+- Synchronize:
+This now badly poisons an attacker if the Pokémon with Synchronize is badly poisoned. Previously, Synchronize would only inflict regular poison back, regardless of if the Pokémon with Synchronize was badly posioned or normally poisoned.
+Otherwise, Synchronize works the same as it does in Gen 4.
+
+- Trace:
+Trace is now unable to copy the abilities Flower Gift, Illusion, Imposter and Zen Mode.
+Unlike newer generations, it may still be able to activate later in battle if it fails to on the initial switch-in.
+
+- Wonder Guard:
+Wonder Guard now correctly blocks Fire Fang (if the Pokémon isn't weak to it), but is still susceptible to Beat Up, Doom Desire and Future Sight.
+
+Abilities Not Updated
+--------------------------------------
+Some abilities are not updated at all and still work exactly as they do in Gen 4; this is generally because the code to do so has not been exposed as of yet. Many of these are very minor interactions that you're unlikely to see often in the game, but they're listed here anyway for full disclosure.
+
+- Anticipation:
+The list of moves that can cause the shudder is still the same as in Gen 4. This means that Selfdestruct and Explosion can cause the shudder text, while Counter, Hidden Power, Metal Burst and Mirror Coat cannot.
+(Anticipation also has a modified effect and is listed in a different section.)
+
+- Arena Trap:
+This still causes Ghost-type Pokémon (who don't have Levitate) to be trapped.
+
+- Color Change:
+This still activates on the first hit of a multi-hit move instead of the last, and does not activate in response to Future Sight or Doom Desire.
+
+- Flower Gift:
+Cherrim's ability to transform into its Sunshine Form is still unaffected by whether it has Flower Gift or not.
+
+- Forecast:
+This does not revert Castform back to its normal form if the ability is somehow lost or disabled (e.g. Gastro Acid).
+(Forecast also has a modified effect and is listed in a different section.)
+
+- Frisk:
+Frisk will still only show one opponent's item in a double battle, with the opponent chosen randomly.
+
+- Guts:
+This still gives the Pokémon a damage boost if they attack with a self-thawing move like Flame Wheel when they are frozen.
+
+- Hustle/Rivalry:
+These still boost self-inflicted confusion damage.
+(Rivalry also has a modified effect and is listed in a different section.)
+
+- Immunity/Insomnia/Limber/Magma Armor/Vital Spirit/Water Veil:
+If this is a Pokémon's natural ability, but it has been replaced/disabled and the Pokémon switches out, this ability will still silently cure the Pokémon of its condition when it switches out.
+(Magma Armor also has a modified effect and is listed in a different section.)
+
+- Klutz:
+A Pokémon with Klutz still gains no effects if it uses Pluck or Bug Bite to consume an opponent's Berry, still has its Speed dropped if it holds an Iron Ball, and is still able to use Fling.
+
+- Magic Guard:
+A Pokémon with Magic Guard is still unable to be poisoned by Toxic Spikes, and also can not be fully paralyzed on a turn.
+
+- Magnet Pull:
+This still causes Ghost-type Pokémon (if they have a secondary Steel type) to be trapped.
+
+- Mold Breaker:
+This has no effect on the effectiveness of hazards when switching a Pokémon in with Roar or Whirlwind.
+
+- Multitype:
+Multitype still blocks various item stealing/removing effects, regardless of if the Pokémon with Multitype is holding a Plate or not.
+
+- Normalize:
+Normalize still affects Hidden Power, Weather Ball, Natural Gift and Judgment.
+Additionally, it does not provide the 20% power boost to moves.
+
+- Pickup:
+This does not have any effect during battle (i.e. it does not pick up a used item if the Pokémon has no held item).
+
+- Pressure:
+An ally of the Pokémon with Pressure will still use an additional 1 PP if it targets the Pokémon with Pressure with a move.
+Pressure has no effect on the PP consumption of moves that don't directly target the Pokémon (e.g. Imprison, Snatch).
+
+- Skill Link:
+Skill Link does not have any effect on multi-hit moves that have individual accuracy checks for each hit (Triple Kick, Triple Axel, the new Piddly Punches).
+
+- Sniper:
+Sniper still changes the critical damage to 3x (from 2x). It also cannot be activated by Beat Up.
+
+- Soundproof:
+Pokémon with Soundproof are still unaffected by Heal Bell in all cases.
+
+- Speed Boost:
+This ability still activates on the same turn as the Pokémon fails to run from a wild encounter.
+
+- Stall:
+A Pokémon with Stall will move before a Pokémon that holds a Lagging Tail or Full Incense.
+
+- Sticky Hold:
+If a Pokémon with Sticky Hold is knocked out, their held item is still unable to be stolen on the turn they faint.
+
+-------------------
+New Abilities
+-------------------
+Aurora Crystal includes a handful of brand new abilities. Some of these are clones of existing abilities that work a lot better thematically with the Pokémon in question, while some have unique effects of their own. The name of each new ability is listed below along with the Pokémon that get it, its effect, the affected moves (for abilities that interact with specific moves), and some commentary on how it came to exist.
+
+Aura Adept
+-------------------
+Users: Lucario.
+Effect: Aura and pulse moves have their power increased by 50%.
+Affected Moves: Aura Sphere, Dark Pulse, Dragon Pulse, Water Pulse.
+Notes: A clone of Mega Launcher that's a bit more thematically fitting for Lucario, since it is THE Aura Sphere Pokémon (and also learns all of the pulse moves).
+
+Befuddle
+-------------------
+Users: Butterfree.
+Effect: Damaging Bug-type moves used by the Pokémon have a 30% chance to inflict poison, paralysis or sleep (10% chance for each).
+Notes: A nod to Butterfree's unique Gigantamax move. I needed a third ability for Butterfree to match with Beedrill being given Adaptability (from its Mega) as its third one!
+
+Bombardier
+-------------------
+Users: Octillery.
+Effect: Ball, bomb and cannon moves have their power increased by 50%.
+Moves Affected: Acid Spray, Aura Sphere, Barrage, Bullet Seed, Egg Bomb, Energy Ball, Flash Cannon, Focus Blast, Gyro Ball, Hydro Cannon, Ice Ball, Magnet Bomb, Mist Ball, Mud Bomb, Octazooka, Rock Blast, Rock Wrecker, Seed Bomb, Shadow Ball, Sludge Bomb, Spike Cannon, Weather Ball, Zap Cannon.
+Notes: A nod to Octillery's tank inspirations. The moves affected are taken from what Bulletproof blocks (as well as a few extras). 
+
+Cacophony
+-------------------
+Users: Igglybuff, Jigglypuff, Wigglytuff, Whismur, Loudred, Exploud, Chingling, Chimecho, Kricketot, Kricketune, Chatot.
+Effect: Sound-based moves have their power increased by 20%.
+Moves Affected: Boomburst, Bug Buzz, Chatter, Disarming Voice, Echoed Voice, Hyper Voice, Snarl, Uproar.
+Notes: A half clone of Punk Rock that can be given out more generally. The Cacophony name comes from the unused ability in Gen 3 (though back then, it was a Soundproof clone!).
+
+Cheerleader
+-------------------
+Users: Plusle, Minun.
+Effect: In a double battle, the partner's moves have their power increased by 15%.
+Notes: A weaker clone of Power Spot. This gives Plusle and Minun the ability to actually do something unique in double battles.
+
+Fur Cushion
+-------------------
+Users: Flareon.
+Effect: Protects the Pokémon from recoil damage.
+Notes: A Rock Head clone that's more thematically fitting for Flareon, thanks to its fluffy fur. This means it can use Flare Blitz without having to worry about its weak HP stat.
+
+Heat Up
+-------------------
+Users: Cyndaquil, Quilava, Typhlosion.
+Effect: If a Pokémon with Heat Up knocks out any Pokémon on the field with a Fire-type move, its Special Attack stat is increased by one stage.
+Notes: A less general special attacking clone of Moxie that weakly leans into Cyndaquil's anime appearance often requiring it to get its flame ready to start using Fire-moves. I couldn't really think of an impactful third ability for Cyndaquil, so I made one up!
+
+Ice Spikes
+-------------------
+Users: Glaceon.
+Effect: A Pokémon that attacks Glaceon with a contact move will take damage equal to 1/8 of its max HP.
+Notes: A clone of Rough Skin for Glaceon specifically, inspired by several Pokédex entries mentioning its ability to freeze its fur into spikes as a protective technique. This should also pair nicely with Glaceon's naturally good defensive stats.
+
+Lunar Energy
+-------------------
+Users: Lunatone
+Effect: Powers up Fairy-type moves by 50%.
+Notes: Inspired by Steelworker, gives what is essentially a third STAB to Lunatone to fit with the moon theme without changing its type. (Fairy seems most aligned with the moon, eg Moonlight, Moonblast, Clefairy in general etc.)
+
+Infernal Body
+-------------------
+Users: Slugma, Magcargo.
+Effect: If an opponent attacks the Pokémon with Infernal Body with a contact move, they will always be burned.
+Notes: Given their bodies are literally made of magma, Flame Body feels a little weak for the theme. This is just a Flame Body clone that always works. Do note that it does not halve hatch distance like Flame Body (mainly because I don't know how to do that yet!).
+
+Poison Sweat
+-------------------
+Users: Umbreon.
+Effect: If an opponent attacks the Pokémon with Poison Sweat with a contact move, they have a 30% chance of becoming poisoned.
+Notes: A simple Poison Point clone to fit with Umbreon's Pokédex entries that mention it secreting poisonous sweat.
+
+Solar Energy
+-------------------
+Users: Solrock
+Effect: Powers up Fire-type moves by 50%.
+Notes: Inspired by Steelworker, gives what is essentially a third STAB to Solrock to fit with the sun theme without changing its type.
+
+Sunny Mood
+-------------------
+Users: Sunflora.
+Effect: Upon entering the battle, the weather becomes harsh sunlight for three turns (or six turns if the Pokémon is holding a Heat Rock). Additionally, the Pokémon's Speed stat is doubled in harsh sunlight.
+Notes: A play on "sun"flower and Sunflora's cheery look, this ability is a slightly weaker Drought combined with Chlorophyll, which should hopefully let Sunflora actually take advantage of its own sun somewhat (though it is likely to still be quite slow without Speed investment). This effectively also gives it temporary Fire-type STAB which you can combine with Weather Ball, while not actually being a Fire-type (which is a common change but one I'm not that fond of.) I would have liked to have called this ability "Sunny Disposition" instead, but alas, character limits!
+
+Totter Steps
+-------------------
+Users: Spinda.
+Effect: All moves used against this Pokémon have 90% of their original accuracy.
+Notes: Leans into Spinda's Pokédex entries about its unusual movements often letting it dodge attacks. This could admittedly be an irritating ability, but hopefully the fact Spinda is quite weak will make up for it.
+
+Toxic Scales
+-------------------
+Users: Venomoth, Dustox.
+Effect: If an opponent attacks the Pokémon with Toxic Scales with a contact move, they have a 30% chance of becoming badly poisoned.
+Notes: A more deadly version of Poison Point, fitting for poisonous insects with wings. Both Venomoth and Dustox have Pokédex entries mentioning poisonous scales.
+
+Wind Whipper
+-------------------
+Users: Shiftry.
+Effect: Wind-based moves have their power increased by 50%.
+Moves Affected: Air Cutter, Blizzard, Fairy Wind, Gust, Heat Wave, Hurricane, Icy Wind, Ominous Wind, Petal Blizzard, Razor Wind, Silver Wind, Twister.
+Notes: An ability for a move theme that doesn't have one yet, given to Shiftry due to its Pokédex entries mentioning it can create terrific windstorms. The affected moves are drawn from Gen 9's Wind Power and Wind Rider abilities (as well as a few assumptions for snapped moves like Razor Wind). 
+
+-------------------
+Modified Abilities
+-------------------
+Aurora Crystal also modifies the effects of some existing abilities. Some of these are simple number changes, while others are new additional effects or removing negatives for abilities that were ordinarily underwhelming. Each modified ability is listed below with its full effects in Aurora Crystal.
+
+Blaze, Torrent, Overgrow, Swarm
+-------------------
+Boosts the strength of the Pokémon's moves that are of the relevant type by 10%.
+If the Pokémon is at 33% or lower HP, this boost is 50% instead.
+
+Iron Fist, Reckless
+-------------------
+These now boost the power of the relevant moves by 30% (increased from 20%).
+
+Anticipation
+-------------------
+When the condition is fulfilled that makes the Pokémon shudder, the Pokémon's evasiveness now raises one stage.
+At the end of the following turn, the Pokémon's evasiveness then drops one stage. (i.e. Its evasion is raised for one turn).
+Both of these effects have been given new text to match.
+
+Big Pecks
+-------------------
+This now boosts the Pokémon's Defense stat by 10% in battle, in addition to preventing any Defense stat drops that aren't self-inflicted.
+
+Forecast
+-------------------
+Forecast now boosts the power of Weather Ball by 20%, in addition to its normal effects.
+
+Hyper Cutter
+-------------------
+This now boosts the Pokémon's Attack stat by 10% in battle, in addition to preventing any Attack stat drops that aren't self-inflicted.
+
+Keen Eye
+-------------------
+Boosts the accuracy of the Pokémon's moves by 20%.
+Prevents the Pokémon's accuracy from being reduced.
+Ignores a target's evasion changes. 
+
+Illuminate
+-------------------
+Boosts the accuracy of the Pokémon's moves by 20%.
+Increases the likelihood of encountering a Pokémon.
+
+Rivalry
+-------------------
+Boosts the strength of the Pokémon's moves against a target of the same gender by 10%.
+(The negative effect against opposite gender targets no longer applies.)
+
+Slow Start
+-------------------
+Slow Start now lasts for 3 turns (instead of 5 turns).
+
+Magma Armor
+-------------------
+Halves the power of Water or Ice-type moves used against this Pokémon.
+Prevents the Pokémon from being frozen.
+
+Sand Stream
+-------------------
+Summons a sandstorm upon entering battle.
+Protects the user from taking damage in a sandstorm (this is the new bit!).
+
+Tough Claws
+-------------------
+Boosts the strength of the Pokémon's moves that make contact by 20%.
+(This is nerfed from its original 30% because a lot more Pokémon have it now, and it affects a LOT of moves.)

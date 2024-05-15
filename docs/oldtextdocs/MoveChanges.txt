@@ -1,0 +1,909 @@
+-------------------
+Move Changes
+-------------------
+Aurora Crystal features moves from the original Heart Gold and Soul Silver as well as additional moves. On top of this, the numerical values of all moves have been updated to be as they are as of Scarlet & Violet. Move effects have also been modified to match Scarlet & Violet where possible; these are explicitly listed as a move change.
+
+Some moves have also received further changes which are listed below. Changes are shown relative to a move's values after being updated to modern generation mechanics.
+
+-------------------
+Critical Hits
+-------------------
+In Aurora Crystal, a critical hit still deals double damage (or triple damage if the Pokémon has the Sniper ability). This can't currently be changed to the x1.5 rate for technical reasons.
+
+The probability of critical hits has been adjusted to be somewhere between Generation 4 and modern generations due to the higher damage per crit. The new probability rates for each critical hit stage are as follows (before the arrow is standard HG/SS, after the arrow is the new value):
+
+Stage +0: 1/16 ⟶ 1/24
+Stage +1: 1/8 ⟶ 1/8
+Stage +2: 1/4 ⟶ 1/3
+Stage +3: 1/3 ⟶ 1/2
+Stage +4: 1/2 ⟶ 1/1
+
+As a reminder, a Pokémon can raise its critical rate stages in the following ways:
+
++0:
+- This is the standard stage that all Pokémon have by default.
+
++1:
+- Using a move with a high chance of landing a critical hit, such as Slash, Leaf Blade, Night Slash etc.
+- Holding a general item that boosts critical hit rate, such as the Razor Claw or Scope Lens.
+- Having the Super Luck ability.
+
++2:
+- After using the move Focus Energy, or consuming the Lansat Berry, or having the item Dire Hit used on it. (Only one of these works at a time.)
+- If the Pokémon is a Chansey, by holding the Lucky Punch item.
+- If the Pokémon is a Farfetch'd, by holding the Leek item.
+
+There are no ways to instantly achieve the +3 or +4 stages, but all of these effects are additive. For example:
+- A Honchkrow with Super Luck (+1), that holds a Scope Lens (+1) and uses Night Slash (+1) will have a 50% chance to cause a critical hit that does DOUBLE damage.
+- A Kingdra that has used Focus Energy (+2), that holds a Scope Lens (+1) and has the Sniper ability will have a 50% chance to cause a critical hit that does TRIPLE damage.
+- A Farfetch'd that holds a Leek (+2) and has used Focus Energy (+2) will have a 100% chance to cause a critical hit that does DOUBLE damage.
+
+As with other stats, boosts to the critical hit rate are lost upon switching out (with the exception of Baton Pass, where the Pokémon that switches in receives the boosts).
+
+-------------------
+Status Conditions
+-------------------
+Some status conditions have been modified to better fit their modern generation counterparts.
+
+- Confusion:
+A Pokémon that is confused still has a 50% chance to hit itself each turn (this could not be changed to 33% because of some technical complications). To compensate for this, a Pokémon will stay confused for 1-3 of its turns (down from 1-4), and then snap out of confusion on its following turn.
+
+- Burn:
+A Pokémon that is burned will take damage equal to 1/16 of its max HP (down from 1/8) at the end of each turn.
+
+- Paralysis:
+A Pokémon that is paralyzed has its effective speed halved in battle (instead of quartered).
+
+- Sleep:
+A Pokémon will now be fast asleep for 1-3 (down from 1-4) of its turns, and then wake up and attack on its following turn.
+
+-------------------
+Newly Added Moves
+-------------------
+Aurora Crystal contains 118 new moves in addition to the 467 in Heart Gold and Soul Silver normally. 114 of these are moves that were introduced in later generation games, and the remaining 4 are custom signature moves for a few Pokémon.
+
+Gen 5 Moves (48)
+-------------------
+Acid Spray
+Acrobatics
+Bulldoze
+Clear Smog
+Coil
+Cotton Guard
+Dragon Tail
+Drill Run
+Dual Chop
+Echoed Voice
+Electroweb
+Fiery Dance
+Final Gambit
+Flame Charge
+Foul Play
+Frost Breath
+Gear Grind
+Head Charge
+Heat Crash
+Heavy Slam
+Hex
+Hone Claws
+Horn Leech
+Hurricane
+Icicle Crash
+Incinerate
+Inferno
+Low Sweep
+Night Daze
+Psyshock
+Psystrike
+Quiver Dance
+Razor Shell
+Sacred Sword
+Scald
+Shell Smash
+Shift Gear
+Sludge Wave
+Snarl
+Steamroller
+Stored Power
+Storm Throw
+Struggle Bug
+Tail Slap
+Venoshock
+Volt Switch
+Wild Charge
+Work Up
+
+Gen 6 Moves (18)
+-------------------
+Baby-Doll Eyes
+Boomburst
+Confide
+Dazzling Gleam
+Disarming Voice
+Draining Kiss
+Eerie Impulse
+Fairy Wind
+Freeze-Dry
+Moonblast
+Mystical Fire
+Noble Roar
+Nuzzle
+Petal Blizzard
+Phantom Force
+Play Nice
+Play Rough
+Power-Up Punch
+
+Gen 7 Moves (17)
+-------------------
+Aurora Veil
+Brutal Swing
+Darkest Lariat
+Dragon Hammer
+First Impression
+High Horsepower
+Leafage
+Liquidation
+Lunge
+Pollen Puff
+Power Trip
+Psychic Fangs
+Shadow Bone
+Smart Strike
+Solar Blade
+Tearful Look
+Toxic Thread
+
+Gen 8 Moves (19)
+-------------------
+Barb Barrage
+Body Press
+Breaking Swipe
+Dual Wingbeat
+Esper Wing
+Flip Turn
+Headlong Rush
+Meteor Beam
+Poltergeist
+Psyshield Bash
+Raging Fury
+Scale Shot
+Scorching Sands
+Skitter Smack
+Spirit Break
+Steel Beam
+Stone Axe
+Triple Axel
+Wave Crash
+
+Gen 9 Moves (12)
+-------------------
+Aqua Cutter
+Chilling Water
+Comeuppance
+Hyper Drill
+Ice Spinner
+Jet Punch
+Kowtow Cleave
+Pounce
+Rage Fist
+Raging Bull
+Trailblaze
+Twin Beam
+
+New Moves (4)
+-------------------
+Infernal Blast
+Piddly Punches
+Savage Rend
+Soothing Aroma
+
+-------------------
+New Moves
+-------------------
+
+Soothing Aroma
+-------------------
+Soothing Aroma is a new signature move for Meganium.
+It's a status Grass-type move with 100% accuracy and 20 PP that targets both opponents.
+Any Pokémon hit by this move will have its Attack and Special Attack lowered by 1 stage.
+
+This move is inspired by Meganium's Pokédex entries mentioning it can "calm aggressive feelings".
+
+Infernal Blast
+-------------------
+Infernal Blast is a new signature move for Typhlosion.
+It's a special Fire-type move with 100 base power, 75% accuracy and 5 PP that targets all Pokémon on the field.
+Any Pokémon hit by this move has a 50% chance of becoming burned.
+
+The move is inspired by Typhlosion's Pokédex entries mentioning it can "rub its blazing fur together to cause huge explosions". The "Infernal" part of the name is also a parallel to Hisuian Typhlosion's Infernal Parade move.
+
+Savage Rend
+-------------------
+Savage Rend is a new signature move for Feraligatr.
+It's a physical Water-type move with 80 base power, 100% accuracy and 10 PP that targets one Pokémon.
+Any Pokémon hit by this move has a 50% chance of having its Defense lowered by 1 stage.
+This move has 50% increased power (becoming 120 BP) if used by a Pokémon with Strong Jaw.
+
+This move is inspired by Feraligatr's Pokédex entries mentioning it "savagely tears its victim up".
+
+Piddly Punches
+-------------------
+Piddly Punches is a new signature move for Ledian.
+It's a physical Bug-type move with 10 base power, 90% accuracy and 10 PP that targets one Pokémon.
+This move will continue hitting until it either misses or has hit 10 times in a row.
+Each hit of this move has 30% increased power (each hit becomes 13 BP) if used by a Pokémon with Iron Fist.
+
+This move is inspired by Ledian's Pokédex entries mentioning it throws a large quantity of "piddly" punches. Mechanically, it's based on (but not identical) to Maushold's Population Bomb.
+
+-------------------
+Move Effect Updates
+-------------------
+
+Moves With New Effects
+--------------------------------------
+The following moves have been given new effects:
+
+- Cut/Dragon Claw/Drill Peck/X-Scissor:
+These moves now have a high critical-hit ratio.
+Dragon Claw and X-Scissor have this effect pulled from Legends: Arceus.
+
+- Covet/Thief:
+These moves can now only steal held items in battles with wild Pokémon. In battles with trainers, the moves will only deal damage with no secondary effect.
+This is for balance reasons because Gen 4 allows you to permanently steal the held items of trainers, and it's not yet known how to make it temporary like Gen 5+.
+As Covet/Thief also act as solid damage moves in the early parts of the game, it seemed better to restrict it this way instead of restricting the Pokémon who get the move.
+(With all that said, you can still use Trick and Switcheroo in trainer battles to permanently steal items, but these are obtained significantly later in the game!)
+
+- Dive:
+This is now a one-turn move (with no additional effects).
+
+- Draining Kiss:
+This now heals the user by 50% of the damage dealt (instead of 75%).
+
+- Hail:
+In addition to the normal effects of a hailstorm, the Defense stat of Ice-types is now boosted by 50% while the hailstorm is active (inherited from Gen 9's snowy weather).
+Pokémon that are not Ice-types will still take 1/16 HP damage each turn.
+
+- Meditate:
+This now boosts both the user's Attack stat and accuracy by one stage each.
+
+- Needle Arm:
+This now adds a layer of Spikes to the target's field if it hits.
+It no longer has a chance to poison.
+
+- Power Gem:
+This now has a chance (10%) to lower the target's Special Defense by 1 stage.
+
+- Razor Wind:
+This is now a one-turn move.
+It still has a high critical-hit ratio.
+
+- Triple Axel/Triple Kick:
+These moves are no longer boosted by Technician (due to the insane power boost it would give).
+Triple Kick now gains +20 BP per hit (and has been buffed to 20 BP), matching Triple Axel.
+
+- Strength:
+This now has a chance (10%) to boost the user's Attack stat by one stage.
+
+Moves Updated Accurately
+--------------------------------------
+The following moves have had their effects updated to work as they do in later generations:
+
+- Chatter:
+This now always confuses the opponent.
+
+- Defog:
+This now removes entry hazards (Spikes, Toxic Spikes, Stealth Rock) on both sides of the field instead of just the opponent's.
+
+- Growth:
+This now boosts both Attack and Special Attack by one stage. In sunlight, it boosts them by two stages instead.
+
+- Feint:
+This attack can still hit even if the opponent doesn't use Protect or Detect.
+
+- Fury Cutter:
+This now reaches its maximum damage after three uses (instead of five) like in later generations.
+It also now loses its power boost if any move other than Fury Cutter is used.
+(In vanilla Gen 4, the multiplier remains until the Pokémon misses or fails a move; strangely, switching between moves was OK.).
+
+- Hidden Power:
+This is now fixed at 60 base power. The type is still determined by the user's IVs.
+
+- Jump Kick/High Jump Kick:
+The crash damage is now always equal to half of the user's maximum HP (rounded down).
+
+- Minimize:
+This now boosts evasion by two stages instead of one.
+
+- Natural Gift:
+The power of the move for each berry has been updated to match Gen 6+.
+
+- Phazing Moves (Roar/Whirlwind):
+In wild battles, the move will now always fail if the user is of a lower level than the target.
+In trainer battles, the move will always succeed.
+These moves now ignore Protect and Detect.
+
+- Rapid Spin:
+This now boosts the user's Speed stat by one stage in addition to its hazard removal.
+
+- Role Play:
+This is now unable to copy Flower Gift, Forecast, Illusion, Imposter, Trace and Zen Mode (in addition to Multitype and Wonder Guard).
+
+- String Shot:
+This now drops the targets' Speed stat by two stages instead of one.
+
+- Sweet Scent:
+This now drops the targets' evasiveness by two stages instead of one.
+
+- Substitute:
+A Pokémon behind a Substitute can now be attacked directly by any sound-based moves (Hyper Voice, Growl, etc.) or by any Pokémon with the ability Infiltrator.
+
+- Tail Glow:
+This now boosts the user's Special Attack by three stages instead of two.
+
+- Teleport:
+Now switches out the user in a Trainer battle, has -6 priority. Ends wild battles.
+
+- Toxic:
+Now always hits if used by a Poison-type Pokémon.
+
+- Uproar:
+Now always lasts for exactly three turns.
+
+Moves Updated Semi-Accurately
+--------------------------------------
+The following moves have their effects somewhat updated to work as they do in later generations, but some parts are missing or inaccurate:
+
+- Binding Moves (Bind/Clamp/Fire Spin/Magma Storm/Sand Tomb/Whirlpool/Wrap):
+The target now takes damage equal to 1/8th of its max HP each turn, and the duration is four to five turns (the binding effect then ends on the next turn with no damage dealt).
+If the user is holding a Grip Claw, the duration is fixed at six turns instead of the seven it should be (the binding effect then ends on the next turn with no damage dealt).
+Due to the way the Gen 4 game engine handles the binding status, it cannot currently be any longer than six turns of damage.
+
+- Encore:
+The effect of Encore now always lasts for 3 turns (instead of 3-7), NOT including the turn it gets applied. The effect will then wear off at the end of the third turn.
+This differs slightly from Scarlet & Violet, where it applies for three of the target's actions, so the total amount of turns will depend on the Encore user's Speed stat.
+Additionally, in a double battle, a Pokémon under the effect of Encore is still unable to choose the target of their attack (as is the case in regular HG/SS) as this can't be changed currently.
+
+- Dragon Rush:
+This now does double damage if the opponent has used Minimize. However, it is not a guaranteed hit in that case.
+
+- Knock Off:
+This now deals double damage if the target has a held item (unless the item is the Griseous Orb, or the target has the Multitype ability).
+However, it still "disables" the item during the battle instead of outright deleting it, as the item would otherwise be lost permanently.
+
+- Taunt:
+The effect of Taunt now always lasts for 3 turns (instead of 3-5), NOT including the turn it gets applied. The effect will then wear off at the end of the third turn.
+This differs slightly from Scarlet & Violet, where it applies for three of the target's actions, so the total amount of turns will depend on the Taunt user's Speed stat.
+
+Moves Not Updated
+--------------------------------------
+The following moves have NOT had their effects updated (generally due to not knowing how to do so yet) and still work as they do in Heart Gold and Soul Silver:
+
+(Note: This may not be an exhuastive list; if a move's effect did change between generations and it's not mentioned anywhere, then there's a very good chance it still acts the same as it does in HG/SS normally. If you do find a case like this, please let me know and I'll add it to the list!)
+
+- Aromatherapy:
+This still cures Pokémon behind a substitute, does not list the Pokémon that are healed, and cannot activate an ally's Sap Sipper ability.
+
+- Baton Pass:
+If a Pokémon under the effect of Mean Look uses Baton Pass, the Pokémon that comes out is also under the effect of Mean Look (which is not the case as of Gen 5).
+
+- Beat Up:
+This still uses the original damage calculation.
+
+- Conversion 2:
+The effect is still based on the last move the Pokémon was hit with.
+
+- Destiny Bond:
+This does not have a chance of failing on consecutive uses.
+
+- Doom Desire/Future Sight:
+These moves still deal typeless damage (so are not affected by STAB and do not deal super effective damage) and are unaffected by Life Orb. The damage is still calculated when the move is selected.
+
+- Explosion/Self-Destruct
+These moves still calculate the damage dealt based on half of the target's Defense stat. (This particular aspect has been kept in the game intentionally, and the move description has been updated to match.)
+
+- Heal Block:
+The effects of Heal Block still work as they do in Generation 4. This means the only things it prevents are moves specifically used for recovery (Recover, Soft-Boiled etc), and it only blocks healing from Leech Seed or moves with HP drain effects like Absorb. It does not prevent HP recovery from abilities or items.
+
+- Me First:
+Me First still cannot be used by a Pokémon under the effects of Taunt.
+
+- Multi-strike Moves:
+Moves such as Icicle Spear, Double Slap etc still have a 37.5% chance to hit 2 times, 37.5% to hit 3 times, 12.5% to hit 4 times and 12.5% to hit 5 times.
+
+- Pay Day:
+This move still determinines the payout based on the Pokémon's level when the move was used, not whatever it is at the end of battle.
+
+- Psych Up:
+This does not copy the target's critical hit ratio.
+
+- Psywave:
+This still deals damage based on its original damage formula from Gen 4.
+
+- Stomp:
+This does not have a guaranteed hit against minimized targets.
+
+- Tailwind:
+The effect of Tailwind still only lasts for 3 turns (including the turn where it is used). This can't currently be increased to four turns due to the way the game keeps track of Tailwind turns.
+
+- Wish:
+This still heals for 50% of the recepient's max HP instead of 50% of the user's max HP.
+
+New Moves Added Inaccurately
+--------------------------------------
+The following moves brought in from later generations have not been implemented completely accurately (and were generally not intentionally changed):
+
+- Aurora Veil:
+It sets up a Reflect and Light Screen in the same turn, instead of it being its own field effect. However, the damage reduction should be the same. It still has the restriction of only working within Hail.
+
+- Echoed Voice:
+This instead acts like Fury Cutter where each individual Pokémon has its own consecutive use counter (instead of any Pokémon using Echoed Voice during the turn increasing the damage).
+However, accurate to how it normally works and unlike Fury Cutter, the Echoed Voice counter will not reset until a different move is used or the Pokémon switches out, i.e. the power boost is not lost even if Echoed Voice misses or fails for some reason.
+
+- Freeze-Dry:
+This is a bit of a strange case where the move isn't actually super effective against Water-type Pokémon as I've been unable to figure out how to do that, but it's been faked to look like it is by quadrupling its damage against any Water-type targets, and showing the "It's super effective!" message instead when appropriate.
+Notably, it still uses the damage sound effect based on the type effectiveness from the true calculation, which may not necessarily line up with the text.
+The move should work out the same as the real deal (except for the sound part), but this sort of implementation could be bugged and will hopefully be improved in the future.
+
+- Ice Spinner:
+This now has no additional effect, as terrains don't exist in this game.
+
+- Pollen Puff:
+This works almost entirely fine, but is not currently blocked by Heal Block (whether a Pokémon uses it on their ally or vice-versa).
+
+- Rage Fist:
+This works similar to its Scarlet & Violet counterpart where the move starts at 50 BP, and each hit the user has taken increases it by another 50 BP.
+However, there are two key differences compared to the Scarlet & Violet version.
+First, the amount of hits registered is capped at 3 instead of 6 for balance reasons. This means the maximum power Rage Fist can be is 200 BP, after taking three hits (instead of 350 BP after six hits).
+Second, the hit counter is reset if the Pokémon faints or switches out, i.e. Rage Fist's power increase will NOT persist if the user leaves the field. This is a technical restriction but also a balance change, so it won't be fixed in the future even if it becomes possible to do so.
+
+- Raging Bull:
+This is now always a Normal-type move. Paldean Tauros isn't in the game anyway though!
+
+- Scale Shot:
+The stat change happens after the first hit instead of the last, but the move is otherwise the same.
+
+-------------------
+Move Value Updates
+-------------------
+
+Changed Moves - Gen 1
+--------------------------------------
+
+Absorb
+-------------------
+Power: 20 ⟶ 35
+
+Barrage
+-------------------
+Power: 15 ⟶ 20
+Accuracy: 85% ⟶ 100%
+
+Bind
+-------------------
+Power: 15 ⟶ 35
+
+Bone Club
+-------------------
+Accuracy: 85% ⟶ 100%
+
+Clamp
+-------------------
+Power: 35 ⟶ 55
+
+Comet Punch
+-------------------
+Power: 18 ⟶ 20
+Accuracy: 85% ⟶ 100%
+
+Constrict
+-------------------
+Power: 10 ⟶ 30
+
+Cut
+-------------------
+Power: 50 ⟶ 70
+Accuracy: 95% ⟶ 100%
+Type: Normal ⟶ Steel
+PP: 30 ⟶ 20
+
+Double-Slap
+-------------------
+Power: 15 ⟶ 20
+Accuracy: 85% ⟶ 100%
+
+Egg Bomb
+-------------------
+Category: Physical ⟶ Special
+Accuracy: 75% ⟶ 90%
+
+Lick
+-------------------
+Power: 30 ⟶ 40
+
+Fire Spin
+-------------------
+Power: 35 ⟶ 55
+
+Fly
+-------------------
+Power: 90 ⟶ 80
+Notes: This is an intentional nerf as Fly is now available to significantly more Pokémon.
+
+Fury Attack
+-------------------
+Power: 15 ⟶ 20
+Accuracy: 85% ⟶ 100%
+
+Fury Swipes
+-------------------
+Power: 18 ⟶ 20
+Accuracy: 80% ⟶ 100%
+
+Meditate
+-------------------
+PP: 40 ⟶ 20
+
+Mega Drain
+-------------------
+Power: 40 ⟶ 55
+
+Mega Kick
+-------------------
+Accuracy: 75% ⟶ 85%
+
+Mega Punch
+-------------------
+Accuracy: 85% ⟶ 100%
+
+Pay Day
+-------------------
+Power: 40 ⟶ 60
+
+Peck
+-------------------
+Power: 35 ⟶ 40
+
+Pin Missile
+-------------------
+Accuracy: 95% ⟶ 100%
+
+Poison Sting
+-------------------
+Power: 15 ⟶ 40
+
+Razor Wind
+-------------------
+Power: 80 ⟶ 90
+Type: Normal ⟶ Flying
+Notes: This is now also a one-turn move.
+
+Rock Throw
+-------------------
+Accuracy: 90% ⟶ 100%
+
+Rolling Kick
+-------------------
+Accuracy: 85% ⟶ 100%
+
+Slam
+-------------------
+Accuracy: 75% ⟶ 90%
+
+Smog
+-------------------
+Power: 30 ⟶ 50
+Accuracy: 70% ⟶ 90%
+
+Strength
+-------------------
+Power: 80 ⟶ 100
+PP: 15 ⟶ 10
+
+Submission
+-------------------
+Power: 80 ⟶ 85
+Accuracy: 80% ⟶ 100%
+
+Take Down
+-------------------
+Power: 90 ⟶ 95
+Accuracy: 85% ⟶ 100%
+
+Twineedle
+-------------------
+Power: 25 ⟶ 35
+
+Vise Grip
+-------------------
+Type: Normal ⟶ Steel
+
+Wrap
+-------------------
+Power: 15 ⟶ 35
+
+Changed Moves - Gen 2
+--------------------------------------
+
+Aeroblast
+-------------------
+Accuracy: 95% ⟶ 100%
+
+Ancient Power
+-------------------
+Power: 60 ⟶ 65
+
+Astonish
+-------------------
+Power: 30 ⟶ 40
+
+Iron Tail
+-------------------
+Accuracy: 75% ⟶ 85%
+Effect (%): 30% ⟶ 20%
+
+Metal Claw
+-------------------
+Accuracy: 95% ⟶ 100%
+
+Mud-Slap
+-------------------
+Power: 20 ⟶ 30
+
+Octazooka
+-------------------
+Accuracy: 85% ⟶ 100%
+
+Rock Smash
+-------------------
+Effect (%): 50% ⟶ 100%
+
+Present
+-------------------
+Accuracy: 90% ⟶ 100%
+
+Sacred Fire
+-------------------
+Accuracy: 95% ⟶ 100%
+
+Steel Wing
+-------------------
+Power: 70 ⟶ 80
+Accuracy: 90% ⟶ 100%
+PP: 25 ⟶ 20
+
+Triple Kick
+-------------------
+Power: 10 ⟶ 20
+
+Whirlpool
+-------------------
+Power: 35 ⟶ 55
+
+Changed Moves - Gen 3
+--------------------------------------
+
+Arm Thrust
+-------------------
+Power: 15 ⟶ 25
+
+Blaze Kick
+-------------------
+Power: 85 ⟶ 90
+Accuracy: 90% ⟶ 100%
+
+Bounce
+-------------------
+Accuracy: 85% ⟶ 95%
+
+Covet
+-------------------
+Type: Normal ⟶ Fairy
+
+Crush Claw
+-------------------
+Accuracy: 95% ⟶ 100%
+
+Dive
+-------------------
+Power: 80 ⟶ 60
+PP: 10 ⟶ 20
+
+Grass Whistle
+-------------------
+Accuracy: 55% ⟶ 65%
+
+Luster Purge
+-------------------
+Power: 70 ⟶ 80
+
+Meteor Mash
+-------------------
+Power: 90 ⟶ 100
+
+Mist Ball
+-------------------
+Power: 70 ⟶ 80
+
+Needle Arm
+-------------------
+Power: 60 ⟶ 80
+
+Poison Fang
+-------------------
+Power: 50 ⟶ 65
+Effect (%): 50% ⟶ 30%
+
+Poison Tail
+-------------------
+Power: 50 ⟶ 70
+PP: 25 ⟶ 20
+Effect (%): 10% ⟶ 30%
+
+Rock Tomb
+-------------------
+Accuracy: 95% ⟶ 100%
+
+Sand Tomb
+-------------------
+Power: 35 ⟶ 55
+
+Shadow Punch
+-------------------
+Power: 60 ⟶ 80
+
+Silver Wind
+-------------------
+Power: 60 ⟶ 65
+
+Sky Uppercut
+-------------------
+Accuracy: 90% ⟶ 100%
+
+Changed Moves - Gen 4
+--------------------------------------
+
+Chatter
+-------------------
+Power: 65 ⟶ 75
+PP: 20 ⟶ 15
+
+Cross Poison
+-------------------
+Power: 70 ⟶ 90
+PP: 20 ⟶ 15
+
+Dark Void
+-------------------
+Accuracy: 50% ⟶ 80%
+
+Double Hit
+-------------------
+Accuracy: 90% ⟶ 100%
+
+Dragon Rush
+-------------------
+Accuracy: 75% ⟶ 85%
+
+Fire Fang
+-------------------
+Accuracy: 95% ⟶ 100%
+
+Gyro Ball
+-------------------
+PP: 5 ⟶ 10
+
+Ice Fang
+-------------------
+Accuracy: 95% ⟶ 100%
+
+Mirror Shot
+-------------------
+Accuracy: 85% ⟶ 100%
+
+Mud Bomb
+-------------------
+Accuracy: 85% ⟶ 95%
+
+Ominous Wind
+-------------------
+Power: 60 ⟶ 65
+
+Rock Climb
+-------------------
+Accuracy: 85% ⟶ 90%
+Type: Normal ⟶ Rock
+
+Shadow Claw
+-------------------
+Power: 70 ⟶ 80
+
+Thunder Fang
+-------------------
+Accuracy: 95% ⟶ 100%
+
+Zen Headbutt
+-------------------
+Accuracy: 90% ⟶ 100%
+
+Changed Moves - Gen 5
+--------------------------------------
+
+Drill Run
+-------------------
+Accuracy: 95% ⟶ 100%
+
+Dual Chop
+-------------------
+Accuracy: 90% ⟶ 100%
+
+Frost Breath
+-------------------
+Power: 60 ⟶ 45
+Notes: This is because the critical hit multiplier is still x2.0 (instead of x1.5).
+
+Night Daze
+-------------------
+Accuracy: 95% ⟶ 100%
+
+Razor Shell
+-------------------
+Accuracy: 95% ⟶ 100%
+
+Steamroller
+-------------------
+Power: 65 ⟶ 75
+
+Storm Throw
+-------------------
+Power: 60 ⟶ 45
+Notes: This is because the critical hit multiplier is still x2.0 (instead of x1.5).
+
+Tail Slap
+-------------------
+Accuracy: 85% ⟶ 100%
+
+Wild Charge
+-------------------
+Power: 90 ⟶ 95
+
+Move Changes - Gen 6
+--------------------------------------
+
+Draining Kiss
+-------------------
+Power: 50 ⟶ 65
+Notes: Due to the power boost, the HP gained is reduced to 50% of the damage dealt.
+
+Play Rough
+-------------------
+Accuracy: 90% ⟶ 100%
+
+Move Changes - Gen 7
+--------------------------------------
+
+High Horsepower
+-------------------
+Accuracy: 95% ⟶ 100%
+
+Move Changes - Gen 8
+--------------------------------------
+
+Dual Wingbeat
+-------------------
+Accuracy: 90% ⟶ 100%
+
+Meteor Beam
+-------------------
+Accuracy: 90% ⟶ 100%
+
+Skitter Smack
+-------------------
+Accuracy: 90% ⟶ 100%
+
+Move Changes - Gen 9
+--------------------------------------
+
+Twin Beam
+-------------------
+Power: 40 ⟶ 45

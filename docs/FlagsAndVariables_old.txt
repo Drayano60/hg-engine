@@ -1,0 +1,141 @@
+Flags:
+2100 - Allow Headbutt
+2101 - Kecleon, Route 30
+2102 - Friend Ball gift, Route 30 House 1
+2103 - Soothe Bell gift, Route 31
+2104 - Sharp Beak gift, Violet City
+2105 - Silk Scarf gift, Violet City
+2106 - TM83 Work Up gift, Violet City
+2107 - Help Desk gift/introduction, any Pokémon Center
+2108 - Cynthia, Violet City
+2109 - Received egg from Primo, Violet City Pokémon Center
+2110 - Rare Bone trader, Ruins of Alph
+2111 - Berry Juggler, Violet City
+2112 - Miracle Seed item ball, Violet City
+2113 - Smoke Ball item ball, Route 32
+2114 - Lagging Tail item ball, Slowpoke Well 1F
+2115 - Prof. Elm's assistant, Azalea Mart
+2116 - Thief in Azalea Town
+2117 - Lava Cookies, New Bark Town
+2118 - Clefairy Doll, New Bark Town
+2119 - Wii Cheat Code Activated, New Bark Town
+2120 - Shiny Noctowl, Ilex Forest
+2121 - Gardenia's TM, Ilex Forest
+2122 - Facade TM, Goldenrod Dept. Store
+2123 - Porygon NPC, Goldenrod Game Corner
+2124 - Spinda's Soda Pop, Goldenrod Game Corner
+2125 - Mr. Game's Coin Case gift, Goldenrod Game Corner
+2126 - Oak gives coins, Goldenrod Game Corner
+2127 - Rotom event, Radio Tower
+2128 - TM49 Echoed Voice, Radio Tower
+2129 - Twisted Spoon gift, Goldenrod City
+2130 - TM43 Venoshock item ball, Goldenrod Tunnel
+2131 - Dawn Stone item ball, Route 35
+2132 - TM57 Charge Beam item ball, Goldenrod Magnet Train Station
+2133 - Kecleon, Route 35
+2134 - Bulldoze gift, National Park gatehouse
+2135 - Sprint introduces himself
+2136 - Sprint gives a Heat Rock
+2137 - Sprint gives a Damp Rock
+2138 - Sprint gives a Smooth Rock
+2139 - Sprint gives a Icy Rock
+2140 - Light Ball gift, Goldenrod Magnet Train
+2141 - Muscle Band item, Pokéathlon Dome
+2142 - TM61 WilL-O-Wisp, Ecruteak City
+2143 - TM70 Mystical Fire, Bellchime Trail
+2144 - Morty blocking Burned Tower, Ecruteak City
+2145 - Kimono Girl as you enter, Mt. Mortar
+2146 - Kimono Girls found, Mt. Mortar
+2147 - Wise Glasses, Goldenrod City
+2148 - Spiritomb appears, Lake of Rage.
+2149 - Spell Tag gift, Ecruteak City.
+2150 - Prof. Elm's assistant, Ecruteak Mart
+2151 - Kecleon, Route 42
+2152 - Castform gift, Mahogany Town.
+2153 - Will/Eusine in Ice Path.
+2154 - Will gives TM29, Psychic in Ice Path.
+2155 - Lapras, Union Cave.
+2156 - Never-Melt Ice, Ice Path.
+2157 - Linking Cord gift, Cianwood City.
+2158 - Bruno, blocking Tohjo Falls.
+2159 - Soft Sand gift, Route 40.
+2160 - Sandstorm TM, Union Cave B1F.
+2161 - Koga and TM06 Toxic, Cianwood City.
+2162 - Brock and TM80 Rock Slide, Union Cave.
+2163 - Misty and TM55 Scald, Route 40.
+2164 - Lt. Surge and TM24 Thunderbolt, Goldenrod Magnet Train.
+2165 - Erika and TM19 Giga Drain, National Park.
+2166 - Janine and TM84 Poison Jab, Violet City.
+2167 - Sabrina and TM04 Calm Mind, Olivine City.
+2168 - Blaine and TM35 Flamethrower, Ecruteak City.
+2169 - Deep Sea Tooth, Olivine City.
+2170 - Deep Sea Scale, Olivine City.
+2171 - Sea Incense, Olivine City.
+2172 - Leftovers, Olivine City.
+2173 - Gym Blocker, Olivine City.
+2174 - Telekinetic Transport, first talking.
+2175 - Safari Zone Team Rocket event is active.
+2176 - Safari Zone Team Rocket event is inactive.
+2177 - Cliff Cave battle ended.
+2178 - Ethan/Lyra + Azumarill facing down in Cliff Cave.
+2179 - Silver/Grunt outside Cliff Cave.
+2180 - Hexagon Brothers, Route 48.
+2181 - Pollen Puff TM gift, Safari Zone Gate.
+2182 - Thunder Stone item ball, Olivine City.
+2183 - Safari Zone event completed.
+2184 - Prof Elm's assistant, Safari Zone Gate PC.
+2185 - Bulk Up gift, Cianwood City.
+2186 - Focus Sash gift, Cianwood City.
+2187 - Flash Cannon NPC, Glitter Lighthouse.
+2188 - Flash Cannon TM received, Glitter Lighthouse.
+2189 - Trick Room TM received, Radio Tower.
+2190 - Moon Stone in Mt. Mortar.
+2191 - Sun Stone in National Park.
+2192 - Focus Blast received from Bruno, Mt. Mortar.
+2193 - Choice Scarf gift from Mom.
+2194 - Cleanse Tag gift, Sprout Tower.
+2195 - Destiny Knot gift, Goldenrod City.
+2196 - Luck Incense item, Cliff Cave.
+2197 - Pure Incense item, Bell Tower.
+2198 - Linking Cord item, Radio Tower 3F.
+2199 - Elm and Lance, Blackthorn Pokémon Center.
+2200 - Athena beaten at Radio Tower.
+2201 - Archer beaten at Radio Tower.
+2202 - Looker in Radio Tower.
+
+Variables:
+16690*/1 - Violet City, Cynthia event.
+16690/2 - Route 34, Cynthia event.
+16690/3 - Goldenrod Gym, first entry.
+16690/4 - Mt. Mortar, Kimono Girl entry.
+16690/5 - Mt. Mortar, Kimono Girl blocks the way.
+16690/6 - Ice Path heal trigger.
+16690/7 - Ice Path event.
+16690/8 - Nothing.
+16690/9 - Cliff Edge Gate, Ethan/Lyra battle.
+16690/10 - Cliff Cave, Executives battle.
+16690/11 - Route 47, Silver appears.
+16690/12 - Cliff Cave, used to control exits so only top one yields Silver event.
+16690/13 - Route 48, Hexagon Brothers.
+16690/14 - Executive battle, Safari Zone Gate.
+16690/15 - Karen encounter, Route 43.
+16690/16 - Prof. Elm, Blackthorn City.
+
+* This is used for the Route 31 event with Lyra initially.
+
+Flags to set BEFORE the game starts (Script File 149):
+2162
+2163
+2164
+2165
+2166
+2167
+2168
+2173
+2175
+2178
+2179
+2187
+2192
+2202
+- Done -

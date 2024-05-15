@@ -1,0 +1,196 @@
+--------------
+Move Tutors
+--------------
+Each town has a Move Tutor in the Pokémon Center that becomes available after getting that town's badge.
+
+--------------
+Zephyr Set (18)
+--------------
+- Air Cutter
+- Block
+- Brutal Swing
+- Bug Bite
+- Dive
+- Flash
+- Headbutt
+- Helping Hand
+- Low Kick
+- Mega Drain
+- Metronome
+- Mud-Slap
+- Snore
+- Spite
+- String Shot
+- Struggle Bug
+- Swift
+- Twister
+
+--------------
+Hive Set (18)
+--------------
+- Bullet Seed
+- Chilling Water
+- Electroweb
+- Focus Energy
+- Fury Cutter
+- Gastro Acid
+- Incinerate
+- Magical Leaf
+- Ominous Wind
+- Pluck
+- Pounce
+- Psybeam
+- Role Play
+- Shock Wave
+- Silver Wind
+- Trailblaze
+- Water Pulse
+- Worry Seed
+
+--------------
+Plain Set (18)
+--------------
+- Acid Spray
+- Breaking Swipe
+- Confide
+- Dig
+- Disable
+- Draining Kiss
+- Fire Punch
+- Icy Wind
+- Ice Punch
+- Magic Coat
+- Magnet Rise
+- Recycle
+- Signal Beam
+- Synthesis
+- Thunder Punch
+- Trick
+- Uproar
+- Vacuum Wave
+
+--------------
+Fog Set (18)
+--------------
+- Body Slam
+- Brine
+- Charm
+- Curse
+- Dragon Tail
+- Eerie Impulse
+- Endeavor
+- Fake Tears
+- Fire Fang
+- Heal Bell
+- Hex
+- Ice Fang
+- Scary Face
+- Screech
+- Skitter Smack
+- Tailwind
+- Tri Attack
+- Thunder Fang
+
+--------------
+Storm Set (18)
+--------------
+- Amnesia
+- Aqua Tail
+- Drill Run
+- Dual Chop
+- Dual Wingbeat
+- Heat Wave
+- Flip Turn
+- Ice Spinner
+- Iron Defense
+- Pain Split
+- Power-Up Punch
+- Rollout
+- Scale Shot
+- Scorching Sands
+- Seed Bomb
+- Teleport
+- Volt Switch
+- Zen Headbutt
+
+--------------
+Mineral Set (18)
+--------------
+- Ancient Power
+- Bounce
+- Captivate
+- Crunch
+- Gravity
+- Foul Play
+- Hyper Voice
+- Iron Head
+- Knock Off
+- Pollen Puff
+- Power Gem
+- Psycho Cut
+- Snatch
+- Spikes
+- Sucker Punch
+- Super Fang
+- Tail Slap
+- Toxic Spikes
+
+--------------
+Glacier Set (18)
+--------------
+- Aura Sphere
+- Aurora Veil
+- Blaze Kick
+- Body Press
+- Cross Poison
+- Darkest Lariat
+- Double-Edge
+- Earth Power
+- Focus Punch
+- High Horsepower
+- Heat Crash
+- Heavy Slam
+- Leaf Blade
+- Liquidation
+- Muddy Water
+- Psychic Fangs
+- Superpower
+- Wild Charge
+
+--------------
+Rising Set (18)
+--------------
+- Brave Bird
+- Close Combat
+- Dragon Dance
+- Flare Blitz
+- Gunk Shot
+- Hurricane
+- Hydro Pump
+- Last Resort
+- Leaf Storm
+- Megahorn
+- Meteor Beam
+- Outrage
+- Raging Fury
+- Power Whip
+- Solar Blade
+- Sky Attack
+- Steel Beam
+- Triple Axel
+
+--------------
+Other (4)
+--------------
+- Frustration (Goldenrod Dept. Store)
+- Return (Goldenrod Dept. Store)
+- Weather Ball (Mahogany Town)
+- Natural Gift (Route 39)
+
+
+--------------
+Should I?
+--------------
+- Power Trip (prob not enough pokes to be worth it)
+- Stored Power (could do)
+- Poltergeist (necessary?)

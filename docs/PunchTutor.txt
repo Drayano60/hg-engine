@@ -1,0 +1,1143 @@
+
+
+ALL PUNCHES
+---
+031 nidoqueen
+034 nidoking
+035 clefairy
+036 clefable
+039 jigglypuff
+040 wigglytuff
+056 mankey
+057 primeape
+1029 annihilape
+063 abra
+064 kadabra
+065 alakazam
+066 machop
+067 machoke
+068 machamp
+199 slowking
+088 grimer
+089 muk
+092 gastly
+093 haunter
+094 gengar
+096 drowzee
+097 hypno
+107 hitmonchan
+108 lickitung
+463 lickilicky
+112 rhydon
+464 rhyperior
+113 chansey
+242 blissey
+115 kangaskhan
+122 mrmime
+239 elekid
+125 electabuzz
+466 electivire
+446 munchlax
+143 snorlax
+149 dragonite
+150 mewtwo
+151 mew
+161 sentret
+162 furret
+180 flaaffy
+181 ampharos
+185 sudowoodo
+190 aipom
+424 ambipom
+209 snubbull
+210 granbull
+216 teddiursa
+217 ursaring
+951 ursaluna
+241 miltank
+248 tyranitar
+912 obstagoon
+271 lombre
+272 ludicolo
+280 ralts
+281 kirlia
+282 gardevoir
+475 gallade
+287 slakoth
+288 vigoroth
+289 slaking
+293 whismur
+294 loudred
+295 exploud
+296 makuhita
+297 hariyama
+299 nosepass
+476 probopass
+302 sableye
+306 aggron
+307 meditite
+308 medicham
+316 gulpin
+317 swalot
+326 grumpig
+327 spinda
+335 zangoose
+352 kecleon
+356 dusclops
+477 dusknoir
+377 regirock
+385 jirachi
+386 deoxys (may be normal and speed only?)
+427 buneary
+428 lopunny
+480 uxie
+481 mesprit
+482 azelf
+486 regigigas
+555 watchog
+581 audino
+582 timburr
+583 gurdurr
+584 conkeldurr
+588 throh
+589 sawk
+609 scraggy
+610 scrafty
+619 reuniclus
+672 golett
+673 golurk
+710 diggersby
+724 pancham
+725 pangoro
+
+Form #1
+199 slowkinggalar
+088 grimeralola
+089 mukalola
+
+FIRE AND ICE
+---
+Form #1
+604 darumakagalar
+605 darmanitangalar
+
+FIRE AND THUNDER
+---
+004 charmander
+005 charmeleon
+006 charizard
+074 geodude
+075 graveler
+076 golem
+104 cubone
+105 marowak
+240 magby
+126 magmar
+467 magmortar
+157 typhlosion
+256 combusken
+257 blaziken
+330 flygon
+383 groudon
+390 chimchar
+391 monferno
+392 infernape
+408 cranidos
+409 rampardos
+
+549 pignite
+550 emboar
+654 eelektross
+671 druddigon
+681 heatmor
+704 braixen
+705 delphox
+745 heliolisk
+751 hawlucha
+756 goodra
+777 incineroar
+
+Form #1
+074 geodudealola
+075 graveleralola
+076 golemalola
+105 marowakalola
+157 typhlosionhisui
+756 goodrahisui
+
+THUNDER AND ICE
+165 ledyba
+166 ledian
+303 mawile
+313 volbeat
+314 illumise
+375 metang
+376 metagross
+378 regice
+379 registeel
+447 riolu
+448 lucario
+453 croagunk
+454 toxicroak
+
+FIRE ONLY
+953 sneasler
+548 tepig
+563 pansear
+564 simisear
+604 darumaka
+605 darmanitan
+
+THUNDER ONLY
+172 pichu
+025 pikachu
+026 raichu
+252 treecko
+253 grovyle
+254 sceptile
+286 breloom
+311 plusle
+312 minun
+331 cacnea
+332 cacturne
+417 pachirisu
+700 chespin
+701 quilladin
+702 chesnaught
+752 dedenne
+
+form #1
+026 raichualola
+
+ICE ONLY
+007 squirtle
+008 wartortle
+009 blastoise
+054 psyduck
+055 golduck
+061 poliwhirl
+062 poliwrath
+186 politoed
+080 slowbro
+916 mrrime
+238 smoochum
+124 jynx
+158 totodile
+159 croconaw
+160 feraligatr
+183 marill
+184 azumarill
+194 wooper
+195 quagsire
+215 sneasel
+461 weavile
+225 delibird
+259 marshtomp
+260 swampert
+478 froslass
+418 buizel
+419 floatzel
+459 snover
+460 abomasnow
+565 panpour
+566 simipour
+587 seismitoad
+663 cubchoo
+664 beartic
+707 frogadier
+708 greninja
+
+form #1
+027 sandshrewalola
+028 sandslashalola
+122 mrmimegalar
+
+form #2
+080 slowbrogalar
+
+
+
+
+
+
+
+SCRIPT FILE 890
+
+Script 1:
+	PlayFanfare 1500
+	LockAll 
+	FacePlayer 
+	CheckFlag 137
+	JumpIf EQUAL Function#1
+	Message 0
+	OpenTouchScreen 
+	YesNoTouchScreen 0x800C
+	CompareVarValue 0x800C 0
+	JumpIf EQUAL Function#2
+	CompareVarValue 0x800C 1
+	JumpIf EQUAL Function#3
+End 
+
+Script 2:
+	PlayFanfare 1500
+	LockAll 
+	FacePlayer 
+	Message 5
+	WaitButton 
+	CloseMessage 
+	ReleaseAll 
+End 
+
+Script 3:
+	PlayFanfare 1500
+	LockAll 
+	FacePlayer 
+	CheckFlag 2111
+	JumpIf EQUAL Function#4
+	CheckFlag 2110
+	JumpIf EQUAL Function#5
+	Message 6
+	OpenTouchScreen 
+	YesNoTouchScreen 0x800C
+	CloseTouchScreen 
+	CompareVarValue 0x800C 1
+	JumpIf EQUAL Function#6
+	Message 14
+	CloseMessage 
+	TrainerBattle 158 0 0 0
+	CheckBattleIsLost 0x800C
+	CompareVarValue 0x800C 0
+	JumpIf EQUAL Function#7
+	SetFlag 2110
+Jump Function#5
+
+Script 4:
+	PlayFanfare 1500
+	LockAll 
+	FacePlayer 
+	Message 15
+	WaitButton 
+	CloseMessage 
+	ReleaseAll 
+End 
+
+Script 5:
+    PlayFanfare 1500
+    LockAll
+    FacePlayer
+    Message 17
+    OpenTouchScreen
+    YesNoTouchScreen 0x800C
+    CloseTouchScreen
+    CompareVarValue 0x800C 1    
+    JumpIf EQUAL Function#1111
+    Message 21
+    CloseMessage
+    FadeScreen 6 1 0 0
+	WaitFadeScreen 
+	CMD_349 
+	GetSelectedPartySlot 0x8000
+	ReturnScreen 
+	FadeScreen 6 1 1 0
+	WaitFadeScreen
+	CompareVarValue 0x8000 255
+	JumpIf EQUAL Function#1111
+    GetPartyPokemonID 0x8000 0x8004
+    CMD_136 0x8000 0x8005
+    CompareVarValue 0x8005 0
+    CallIf EQUAL Function#1113
+    CompareVarValue 0x8005 1
+    CallIf EQUAL Function#1213
+    CompareVarValue 0x8006 0
+    JumpIf EQUAL Function#1116
+    CMD_140 0x800C 7 0x8000
+    CompareVarValue 0x800C 1
+    JumpIf EQUAL Function#1112
+    TextPokemon 0 0x8004 0 0
+    Message 24
+    CloseMessage
+    FadeScreen 6 1 0 0
+    WaitFadeScreen
+    CMD_468 0x8000 7
+    CMD_469 0x800C
+    ReturnScreen
+    FadeScreen 6 1 1 0
+    WaitFadeScreen
+    Message 25
+    WaitButton  
+    CloseMessage
+    ReleaseAll
+End
+
+Script 6:
+    PlayFanfare 1500
+    LockAll
+    FacePlayer
+    Message 18
+    OpenTouchScreen
+    YesNoTouchScreen 0x800C
+    CloseTouchScreen
+    CompareVarValue 0x800C 1    
+    JumpIf EQUAL Function#1111
+    Message 21
+    CloseMessage
+    FadeScreen 6 1 0 0
+	WaitFadeScreen 
+	CMD_349 
+	GetSelectedPartySlot 0x8000
+	ReturnScreen 
+	FadeScreen 6 1 1 0
+	WaitFadeScreen
+	CompareVarValue 0x8000 255
+	JumpIf EQUAL Function#1111
+    GetPartyPokemonID 0x8000 0x8004
+    CMD_136 0x8000 0x8005
+    CompareVarValue 0x8005 0
+    CallIf EQUAL Function#1114
+    CompareVarValue 0x8005 1
+    CallIf EQUAL Function#1214
+    CompareVarValue 0x8006 0
+    JumpIf EQUAL Function#1116
+    CMD_140 0x800C 9 0x8000
+    CompareVarValue 0x800C 1
+    JumpIf EQUAL Function#1112
+    TextPokemon 0 0x8004 0 0
+    Message 24
+    CloseMessage
+    FadeScreen 6 1 0 0
+    WaitFadeScreen
+    CMD_468 0x8000 9
+    CMD_469 0x800C
+    ReturnScreen
+    FadeScreen 6 1 1 0
+    WaitFadeScreen
+    Message 25
+    WaitButton  
+    CloseMessage
+    ReleaseAll
+End
+
+Script 7:
+    PlayFanfare 1500
+    LockAll
+    FacePlayer
+    Message 19
+    OpenTouchScreen
+    YesNoTouchScreen 0x800C
+    CloseTouchScreen
+    CompareVarValue 0x800C 1    
+    JumpIf EQUAL Function#1111
+    Message 21
+    CloseMessage
+    FadeScreen 6 1 0 0
+	WaitFadeScreen 
+	CMD_349 
+	GetSelectedPartySlot 0x8000
+	ReturnScreen 
+	FadeScreen 6 1 1 0
+	WaitFadeScreen
+	CompareVarValue 0x8000 255
+	JumpIf EQUAL Function#1111
+    GetPartyPokemonID 0x8000 0x8004
+    CMD_136 0x8000 0x8005
+    CompareVarValue 0x8005 0
+    CallIf EQUAL Function#1115
+    CompareVarValue 0x8005 1
+    CallIf EQUAL Function#1215
+    CompareVarValue 0x8005 2
+    CallIf EQUAL Function#1315
+    CompareVarValue 0x8006 0
+    JumpIf EQUAL Function#1116
+    CMD_140 0x800C 8 0x8000
+    CompareVarValue 0x800C 1
+    JumpIf EQUAL Function#1112
+    TextPokemon 0 0x8004 0 0
+    Message 24
+    CloseMessage
+    FadeScreen 6 1 0 0
+    WaitFadeScreen
+    CMD_468 0x8000 8
+    CMD_469 0x800C
+    ReturnScreen
+    FadeScreen 6 1 1 0
+    WaitFadeScreen
+    Message 25
+    WaitButton  
+    CloseMessage
+    ReleaseAll
+End
+
+
+
+Function 1111:
+	Message 20
+	WaitButton 
+	CloseMessage 
+	ReleaseAll 
+End 
+
+Function 1112:
+	Message 22
+	WaitButton 
+	CloseMessage 
+	ReleaseAll 
+End 
+
+Function 1119:
+    SetVar 0x8006 1
+Return
+
+Function 1113:
+    Call Function#2000
+    Call Function#2001
+    Call Function#2002
+    Call Function#2004
+Return
+
+Function 1114:
+    Call Function#2000
+    Call Function#2001
+    Call Function#2003
+    Call Function#2005
+Return
+
+Function 1115:
+    Call Function#2000
+    Call Function#2002
+    Call Function#2003
+    Call Function#2006
+Return
+
+Function 1213:
+    Call Function#3000
+    Call Function#3001
+    Call Function#3002
+    Call Function#3004
+Return
+
+Function 1214:
+    Call Function#3000
+    Call Function#3001
+    Call Function#3003
+    Call Function#3005
+Return
+
+Function 1215:
+    Call Function#3000
+    Call Function#3002
+    Call Function#3003
+    Call Function#3006
+Return
+
+Function 1315:
+    Call Function#3007
+Return
+
+Function 2000:
+CompareVarValue 0x8004 031
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 034
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 035
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 036
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 039
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 040
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 056
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 057
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 1029
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 063
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 064
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 065
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 066
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 067
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 068
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 199
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 088
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 089
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 092
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 093
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 094
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 096
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 097
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 107
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 108
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 463
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 112
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 464
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 113
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 242
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 115
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 122
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 239
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 125
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 466
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 446
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 143
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 149
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 150
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 151
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 161
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 162
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 180
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 181
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 185
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 190
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 424
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 209
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 210
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 216
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 217
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 951
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 241
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 248
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 912
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 271
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 272
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 280
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 281
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 282
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 475
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 287
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 288
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 289
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 293
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 294
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 295
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 296
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 297
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 299
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 476
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 302
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 306
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 307
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 308
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 316
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 317
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 326
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 327
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 335
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 352
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 356
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 477
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 377
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 385
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 386
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 427
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 428
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 480
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 481
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 482
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 486
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 555
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 581
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 582
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 583
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 584
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 588
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 589
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 609
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 610
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 619
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 672
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 673
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 710
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 724
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 725
+JumpIf EQUAL Function#1119
+Return
+
+Function 2001:
+CompareVarValue 0x8004 004
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 005
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 006
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 074
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 075
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 076
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 104
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 105
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 240
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 126
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 467
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 157
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 256
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 257
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 330
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 383
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 390
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 391
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 392
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 408
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 409
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 549
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 550
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 654
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 671
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 681
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 704
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 705
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 745
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 751
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 756
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 777
+JumpIf EQUAL Function#1119
+Return
+
+Function 2002:
+Return
+
+Function 2003:
+CompareVarValue 0x8004 165
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 166
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 303
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 313
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 314
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 375
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 376
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 378
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 379
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 447
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 448
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 453
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 454
+JumpIf EQUAL Function#1119
+Return
+
+Function 2004:
+    CompareVarValue 0x8004 953
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 548
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 563
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 564
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 604
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 605
+JumpIf EQUAL Function#1119
+Return
+
+Function 2005:
+CompareVarValue 0x8004 172
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 025
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 026
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 252
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 253
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 254
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 286
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 311
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 312
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 331
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 332
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 417
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 700
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 701
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 702
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 752
+JumpIf EQUAL Function#1119
+Return
+
+Function 2006:
+    CompareVarValue 0x8004 007
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 008
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 009
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 054
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 055
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 061
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 062
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 186
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 080
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 916
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 238
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 124
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 158
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 159
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 160
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 183
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 184
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 194
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 195
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 215
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 461
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 225
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 259
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 260
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 478
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 418
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 419
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 459
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 460
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 565
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 566
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 587
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 663
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 664
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 707
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 708
+JumpIf EQUAL Function#1119
+Return
+
+Function 3000:
+CompareVarValue 0x8004 199
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 088
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 089
+JumpIf EQUAL Function#1119
+Return
+
+Function 3001:
+CompareVarValue 0x8004 074
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 075
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 076
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 105
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 157
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 756
+JumpIf EQUAL Function#1119
+Return
+
+Function 3002:
+    CompareVarValue 0x8004 604
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 605
+JumpIf EQUAL Function#1119
+Return
+
+Function 3003:
+Return
+
+Function 3004:
+    Return
+
+Function 3005:
+CompareVarValue 0x8004 26
+JumpIf EQUAL Function#1119
+Return
+
+Function 3006:
+    CompareVarValue 0x8004 27
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 28
+JumpIf EQUAL Function#1119
+CompareVarValue 0x8004 122
+JumpIf EQUAL Function#1119
+Return
+
+Function 3007:
+    CompareVarValue 0x8004 80
+JumpIf EQUAL Function#1119
+Return
+
+Function 1115:
+    SetVar 0x8006 1
+    Return
+
+Function 1116:
+	Message 23
+	WaitButton 
+	CloseMessage 
+	ReleaseAll 
+End 
+
+
+Function 1:
+	Message 3
+	WaitButton 
+	CloseMessage 
+	ReleaseAll 
+End 
+
+Function 2:
+	Message 1
+	YesNoTouchScreen 0x800C
+	CompareVarValue 0x800C 0
+	JumpIf EQUAL Function#8
+	CompareVarValue 0x800C 1
+	JumpIf EQUAL Function#3
+End 
+
+Function 3:
+	Message 4
+	WaitButton 
+	CloseMessage 
+	CloseTouchScreen 
+	ReleaseAll 
+End 
+
+Function 4:
+	Message 13
+	WaitButton 
+	CloseMessage 
+	ReleaseAll 
+End 
+
+Function 5:
+	Message 7
+	GetPartyCount 0x8005
+	CompareVarValue 0x8005 6
+	JumpIf EQUAL Function#9
+	SetFlag 2111
+	GivePokemon 236 15 230 0 0 0x800C
+	TextPlayerName 0
+	Message 9
+	PlaySound 1187
+	WaitSound 
+	Message 10
+	OpenTouchScreen 
+	YesNoTouchScreen 0x800C
+	CloseTouchScreen 
+	CompareVarValue 0x800C 0
+	CallIf EQUAL Function#10
+	Message 11
+	SetVar 0x8004 46
+	SetVar 0x8005 5
+	CommonScript 2033
+	SetVar 0x8004 47
+	SetVar 0x8005 5
+	CommonScript 2033
+	Message 13
+	WaitButton 
+	CloseMessage 
+	ReleaseAll 
+End 
+
+Function 6:
+	Message 8
+	WaitButton 
+	CloseMessage 
+	ReleaseAll 
+End 
+
+Function 7:
+	LostBattle 
+	ReleaseAll 
+End 
+
+Function 8:
+	SetVar 0x8004 450
+	SetVar 0x8005 1
+	CommonScript 2033
+	SetFlag 137
+	CloseMessage 
+	CloseTouchScreen 
+	ReleaseAll 
+End 
+
+Function 9:
+	Message 12
+	WaitButton 
+	CloseMessage 
+	ReleaseAll 
+End 
+
+Function 10:
+	CloseMessage 
+	SetVar 0x4000 0
+	FadeScreen 6 1 0 0
+	WaitFadeScreen 
+	ChoosePokemonNickname 0x8005 0x4000
+	FadeScreen 6 1 1 0
+	WaitFadeScreen 
+Return 

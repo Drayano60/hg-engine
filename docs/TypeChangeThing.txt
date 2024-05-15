@@ -1,0 +1,60 @@
+- By default Aurora Crystal has not changed the types of any Pokémon.
+- This is because of all of the debate and indecision and Luxray discourse etc etc and I'd rather just stick with the normal types now.
+- Though does suck for the changes that have less friction. RIP to Ghost/Fairy Mismagius I'll miss you
+- Since some people love type changes, you can apply an optional patch that adds a lot of them, along with some additions to level ups/TMs/tutor moves in some cases where the Pokémon's new typing isn't supported well by the default set.
+- Level up moves are in addition to what they normally learn (so there might be cases where things learn two distinct moves at the same level etc).
+- All type changes from Renegade are here.
+- There's a few extra ones that were intended for Aurora Crystal originally.
+- There's also two that were special requests.
+
+#006 Charizard: Fire/Dragon.
+#038 Ninetales: Fire/Fairy. Learn Dazzling Gleam TM. Learn Moonblast at Lv. 44.
+#054 Psyduck: Water/Psychic.
+#055 Golduck: Water/Psychic.
+#083 Farfetch'd: Fighting/Flying.
+#127 Pinsir: Bug/Ground. Learn Dig at Lv. 20. Learn Earthquake at Lv. 44.
+#154 Meganium: Grass/Fairy. Learn Moonblast at Lv. 45. Allow Draining Kiss + Play Rough by tutor.
+#157 Typhlosion: Fire/Ground.
+#160 Feraligatr: Water/Dark.
+#163 Hoothoot: Psychic/Flying.
+#164 Noctowl: Psychic/Flying.
+#166 Ledian: Bug/Fighting.
+#181 Ampharos: Electric/Dragon. Swap Dragon Pulse/Thunder Punch positions.
+#182 Bellossom: Grass/Fairy.
+#200 Misdreavus: Ghost/Fairy.
+#210 Granbull: Fairy/Fighting. Learn Brick Break at Lv. 23.
+#254 Sceptile: Grass/Dragon.
+#284 Masquerain: Bug/Water. Learn Hydro Pump at Lv. 54.
+#301 Delcatty: Normal/Fairy.
+#313 Volbeat: Bug/Electric. Learn Spark at Lv. 24. Learn Wild Charge at Lv. 44.
+#314 Illumise: Bug/Fairy. Learn Dazzling Gleam at Lv. 32.
+#328 Trapinch: Bug/Ground.
+#329 Vibrava: Bug/Dragon.
+#330 Flygon: Bug/Dragon.
+#334 Altaria: Dragon/Fairy.
+#336 Seviper: Poison/Dark.
+#350 Milotic: Water/Fairy. Learn Dazzling Gleam TM.
+#354 Banette: Ghost/Normal. Learn Slash at Lv. 28. [Mega Banette too.]
+#362 Glalie: Ice/Rock. Learn Rock Slide at Lv. 32. Learn Rock Tomb TM. Learn Rock Polish TM. Learn Stone Edge TM. Learn Rock Slide TM. [Mega Glalie too.]
+#370 Luvdisc: Water/Fairy. Learn Moonblast at Lv. 45. Learn Dazzling Gleam TM.
+#405 Luxray: Electric/Dark. Learn Dark Pulse TM.
+#428 Lopunny: Normal/Fighting.
+#429 Mismagius: Ghost/Fairy.
+#457 Lumineon: Water/Fairy. Learn Moonblast at Lv. 42.
+#466 Electivire: Electric/Fighting. Learn Close Combat at Lv. 55.
+#480 Uxie: Psychic/Fairy. Learn Moonblast at Lv. 54.
+#481 Mesprit: Psychic/Fairy. Learn Moonblast at Lv. 54.
+#482 Azelf: Psychic/Fairy. Learn Moonblast at Lv. 54.
+#497 Serperior: Grass/Dragon.
+#499 Pignite: Fire/Ground. Learn Bulldoze at Lv. 17. Learn Dig TM.
+#500 Emboar: Fire/Ground. Learn Bulldoze at Lv. 17. Learn Earthquake at Lv. 36. Learn Dig TM. Learn Earth Power tutor.
+#502 Dewott: Water/Fighting.
+#503 Samurott: Water/Fighting.
+#518 Musharna: Psychic/Fairy. Learn Dazzling Gleam at Lv. 1.
+#531 Audino: Normal/Fairy.
+#563 Cofagrigus: Ghost/Steel. Learn Flash Cannon TM.
+#574 Gothita: Psychic/Dark.
+#575 Gothorita: Psychic/Dark.
+#576 Gothitelle: Psychic/Dark. Learn Dark Pulse at Lv. 38.
+#584 Vanilluxe: Ice/Fairy. Learn Moonblast at Lv. 45.
+#617 Accelgor: Bug/Dark. Learn Dark Pulse at Lv. 40.

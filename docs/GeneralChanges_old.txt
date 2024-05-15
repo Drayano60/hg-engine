@@ -1,0 +1,581 @@
+Intro
+✓ Edited a lot of the text say welcome to the hack etc + make the boy/girl selection feel more inclusive.
+✓ Added the flags for the bag, trainer card, saving and options, and Running Shoes to the init script (149).
+
+New Bark Town
+✓ Added a Clefairy doll to the player's room. If the player talks to it after receiving their starter, they'll add the Poké Doll to their inventory.
+✓ Changed the bed to heal the player if they step into it.
+✓ Mother's dialogue is cut shorter and she now gives you the Bicycle/GB Sounds instead of the menu items.
+✓ Added the visiting lady from Crystal to the player's house. She should disappear after Falkner is beaten.
+✓ Changed Ethan/Lyra's Marill in the outside to an Azurill.
+✓ Changed Ethan/Lyra's Marill in their house to an Azurill. May need to revisit this one later...
+✓ Added an Abra and a new chatting NPC to the bottom left house.
+✓ Modified Elm's dialogue to be a bit shorter, and also had him mention giving the player his number (but no Pokégear yet so it's not registered).
+✓ Changed the Potion gift to 10x instead of 5x.
+✓ Changed Elm's lab to have its own header name: "Elm Pokémon Lab".
+✓ Changed the line breaks in Ethan/Lyra's starter follow up dialogue slightly.
+✓ Changed Mom's dialogue to cut the Pokégear explanation and added a bit about adding Elm's number to it. Mom also sets var 16510 to 1 now.
+✓ Added an extra trigger script for the whole Elm popping out thing instead of reusing the same one. This activates when 16510 is 2 (should set after naming Silver etc).
+✓ Edited some of the dialogue when talking about Silver in Elm's Lab to reference the battle with Ethan/Lyra about to happen, and just some of the line breaks etc.
+✓ Checking the kitchen - specifically the part about the Cinnabar Volcano Burger - now activates a small script where the player receives some Lava Cookies.
+✓ The Wii in the player's room now acts as a cheat code device of sorts. When interacted with, the player is prompted to enter a button combination. If they do Left, Right, A, B then it'll unlock the cheat codes, allowing the player to give themselves an assortment of Pokémon or items.
+✓ Mom now gives the player a Choice Scarf if spoken to after defeating Team Rocket at the Radio Tower.
+
+Route 29
+✓ Removed the Cut trees.
+✓ Added a battle with Ethan/Lyra after naming Silver (you're healed just before). Removed the catch tutorial. Changed Poké Ball gift to x50.
+✓ Changed the Marill overworld and cry to be an Azurill.
+
+Cherrygrove City
+✓ Removed the two Guide Gent triggers entirely as the player already has the items from those. Edited his/his sign's dialogue slightly to accommodate.
+✓ Added Help Desk NPC in Pokémon Center. This isn't usable until after you receive Poké Balls.
+✓ Added one new NPC in a house (just talks, nothing important).
+✓ Added teleporting Psychic/Abra to Pokémon Center.
+
+Route 30
+✓ Changed the blocking overworlds to have a Zigzagoon instead of a Pidgey.
+✓ Replaced the Cut tree next to Mr. Pokémon's house with an 'unseeable obstacle' (Snorlax facing down), which is revealed to be a Kecleon if you have the Devon Scope.
+✓ Changed Joey's text a bit when he acts as a blocker and also when he battles you.
+✓ Edited Oak's dialogue slightly to reference the increased Johto Dex.
+✓ Added a Friend Ball gift NPC in the Apricorn Man's house (only available after the Ethan/Lyra battle).
+✓ Mr. Pokémon now gives you the Old Amber in exchange for the Red Scale. This also unlocks it for the Rare Bone trade at the Ruins Research Center.
+
+Route 31
+✓ Removed the Cut trees.
+✓ Added two new standard Trainers, a Hiker and an Aroma Lady.
+✓ Added a regular script Idol near the Violet gate who will give you a Soothe Bell if you battle and defeat her.
+✓ Ethan/Lyra now give a quick explanation of wild stuff at the gate and give you a Fishing Rod and TM54, False Swipe. Under the hood, this also activates headbutt trees (which no longer require the move Headbutt).
+✓ Changed dialogue slightly on the NPC referencing the Dark Cave darkness.
+✓ Changed the TM44 gift for TM82, Sleep Talk.
+
+Dark Cave
+✓ Changed out the Flash requiring darkness for the Battle Arcade low light.
+✓ The Strength boulder blocking most of the Violet entrance has been deleted.
+✓ A couple more smashable rocks have been added and the existing ones rearranged a little.
+✓ The Potion between the ledges is now a Super Potion.
+✓ The Black Flute is now the Black Glasses.
+✓ The Hyper Potion on the right side is now a Revive.
+✓ Added a Super Nerd NPC to block the entrance to the Blackthorn side until later. He disappears when the player first visits Blackthorn City.
+✓ Removed the Full Heal ball (flag 1220) to repurpose it in the other side.
+
+Violet City
+✓ Added NPCs to give the Silk Scarf and TM83, Work Up in the Pokémon School.
+✓ In the Pokémon Center, moved Primo next to the PC and changed his script to give you an Egg containing a random Pokémon instead. It can be any Pokémon that 1) is the base form of its evolution line, 2) can evolve and 3) was able to evolve in the generation it was introduced (so no Scyther/Yanma/Murkrow etc). There are 159 possibilities in total.
+✓ Added a trigger script involving Cynthia outside of Sprout Tower. She just remarks on the history and leaves.
+✓ Added a Starly OW and a new NPC to give a Sharp Beak in one of the houses to the left. Also modified dialogue slightly to account for the Starly.
+✓ Edited dialogue in trade house to remove the bit about not obeying.
+✓ Added some new bits in the Kimono Girl's dialogue that allows the player to pick one evolution stone that can be used on Eevee.
+✓ Changed the Berry Juggler NPC to take $1,000 in exchange for 5 each of the Cheri, Chesto, Pecha, Rawst, Aspear, Leppa, Oran, Persim, Lum, Sitrus, Figy, Wiki, Mago, Aguav and Iapapa Berries.
+✓ Added a Miracle Seed behind the smashable rock.
+✓ Added Help Desk NPC in Pokémon Center.
+✓ Added a maid near the entrance who talks about the Help Desk.
+✓ Added Janine who will give you TM84, Poison Jab. Only appears after Safari Zone events.
+✓ Added teleporting Psychic/Abra to Pokémon Center.
+✓ Edited a PC dialogue that stated Pokémon won't listen without badges.
+
+Violet Gym
+✓ Added an NPC to teach certain Pokémon Hurricane after receiving the Rising Badge.
+✓ Added two new Ace Trainers that block the shortcut to Falkner. They're placed in a way you can do a double battle.
+✓ Changed the battle background to be the town one; this means the background reflects the visible sky in the gym.
+✓ Added a Pidgeotto overworld next to Falkner.
+
+Sprout Tower
+✓ The tile permissions have been changed so battles now display an indoor floor instead of a cave.
+✓ Both floors now use the same encounter file.
+✓ The old lady on the bottom floor has been moved to a more prominent position, and now gives you a Cleanse Tag.
+✓ Elder Li now gives you TM10 Hidden Power instead of TM70 Flash. Dialogue edited a bit to match.
+✓ Added a healing lady on the top floor. Moved the Potion as a result.
+✓ Edited some of a Sage's battle dialogues that referred to Flash.
+✓ Moved some Trainer positions.
+
+Ruins of Alph
+✓ All areas now use the Ruins of Alph music (as opposed to the Ilex Forest one).
+✓ Copied the fossil restoration script onto an NPC in the research house and edited the text a bit. This revives fossils at Lv. 10 (except for Aerodactyl which is Lv. 40).
+✓ Gave the Ruins Research Center its own header name.
+✓ Added a bunch of extra rocks in the main area to compensate for the increased need to smash them.
+✓ Changed the (well-hidden) Potion for an Odd Incense and moved it into the rock maze.
+✓ Changed the Hyper Potion to a Rare Bone.
+✓ Added an NPC that lets you trade Rare Bones for any of the fossils (except for the Old Amber until later).
+✓ Replaced the Leppa Berry in the Water Stone room with a TM33, Reflect.
+✓ Replaced the Sitrus Berry in the Flash room with a TM16, Light Screen.
+✓ Replaced the Leppa Berry in the Ho-oh room with a TM20, Safeguard.
+✓ Changed the Rock Smash item table here to be Helix Fossil (25%), Dome Fossil (25%), Root Fossil (10%), Claw Fossil (10%), Skull Fossil (10%), Armor Fossil (10%), Rare Bone (10%).
+
+Route 36
+✓ Added some grass on the eastern side of the route, accessible before clearing Sudowoodo.
+✓ Changed the Rock Smash giving NPC's dialogue to reflect that he no longer gives HM06 away.
+✓ Changed the referenced header for the eastern map block so it uses a different encounter table.
+✓ After catching Sudowoodo, Steven appears and gives you the Devon Scope, allowing you to catch the hidden Kecleon.
+✓ The Sudowoodo is now Level 25.
+
+Route 32
+✓ Changed the blocking man's gift to be HM06 Rock Smash instead of a Miracle Seed.
+✓ Changed the referenced header for the bottom three map blocks so it uses a different encounter table.
+✓ Roar giving NPC now gives Snarl instead, with edited dialogue. (Same TM though!)
+✓ Removed the Cut tree that blocks the Roar/Snarl NPC.
+✓ Changed Great Ball to TM03, Water Pulse.
+✓ Added a Smoke Ball item.
+✓ Changed TM09, Bullet Seed to a Net Ball.
+✓ Added a Parasol Lady and a Ruin Maniac as new Trainers.
+✓ Changed the Bird Keeper to an Ace Trainer for some variety.
+✓ Changed the Repel to a Poison Barb and moved it to where Frieda normally is. Moved Frieda outside Union Cave.
+✓ Moved a hidden item near where the Smoke Ball now is to the gap in the grass where the Repel was.
+✓ Added Help Desk NPC in Pokémon Center.
+✓ Moved some Trainer positions.
+✓ Added teleporting Psychic/Abra to Pokémon Center.
+
+Route 45
+✓ Changed the Revive to a TM40, Aerial Ace and moved it so it's accessible from the Dark Cave side. Swapped places with a hidden item.
+✓ Changed the referenced header for the bottom two map blocks so it uses a different encounter table.
+✓ Added a couple extra encounter giving headbuttable trees near the pond.
+
+Union Cave
+✓ Changed 1F and B1F to use the same encounter file (14).
+✓ Added a new Black Belt on the B1F part (Surf not required).
+✓ Left TM39 Rock Tomb there but changed the ball to yellow.
+✓ X Attack is now a Pearl. Awakening is now a Full Heal. Potion is now a Super Potion. X Defense on B1F is now a Hard Stone.
+✓ Great Ball is now an Oval Stone and has been moved across pond, Surf required to access.
+✓ Added some smashable rocks on each floor for the encounters.
+✓ Moved some Trainer positions.
+✓ Changed the Hyper Potion on B2F to a Prism Scale.
+✓ Changed Lapras from Flag 778 to a normal one such that it's always there, but only once. Removed all the Friday stuff (flag 2744?).
+✓ Changed Lapras to be Lv. 30.
+✓ Added an item ball on B1F with TM37, Sandstorm (past the water).
+✓ Added Brock on one of the middle sections that lead out to the Ruins of Alph. He gives you TM80, Rock Slide. Only appears after Safari Zone events.
+
+Azalea Town
+✓ The people in the charcoal house are now always there. Dialogues have been edited to remove the Farfetch'd event references.
+✓ You can now recieve the Charcoal as a gift from the apprentice after clearing out Team Rocket instead.
+✓ Kurt now gives you HM01, Cut after the Slowpoke Well events (instead of the Fast Ball). He no longer immediately prompts for Apricorns. This script also now heals your Pokémon automatically (before you were left injured after Proton).
+✓ Kurt will now give you the Apriballs immediately instead of the player having to wait a day. The daily flag 2722 has been freed up as a result.
+✓ Added Professor Elm's assistant next to the PC in the Pokémon Center, who will give you one starter Pokémon of your choice at Lv. 5.
+✓ Added Help Desk NPC in Pokémon Center.
+✓ Added teleporting Psychic/Abra to Pokémon Center.
+
+Slowpoke Well
+✓ Super Potion is now a Mystic Water.
+✓ Added a new item containing a Lagging Tail.
+✓ Deleted the Strength boulder.
+✓ Moved Proton + one of the Slowpoke a bit further on. Modified movement scripts to match.
+✓ Defeating Proton no longer activates the Silver trigger in Azalea; this has been moved to after Bugsy.
+✓ Added a new Trainer.
+
+Ilex Forest
+✓ Revive is now a Silver Powder.
+✓ Removed all of the trigger scripts related to the lost Farfetch'd event + the one for the Headbutt tutor, and all of the relevant overworlds.
+✓ The Viridan Forest music now plays here instead.
+✓ Added a new Trainer in the same position as an extra one was found in Crystal. The dialogue is almost a one-to-one match, too!
+✓ Added a Noctowl overworld where the Headbutt tutor used to be. Interacting with it starts a battle with a Lv. 20, always shiny Noctowl (anime reference!). It only disappears if caught.
+✓ Added Gardenia around the middle who will give you TM86, Grass Knot. Her after gift dialogue makes a slight reference to her previous incarnation...
+✓ Swapped the Antidote for a TM81, X-Scissor and moved it across the pond so it requires Surf. Shifted the hidden item to where the Antidote was.
+✓ Swapped the Ether for a Big Root.
+✓ Swapped the X Attack for a Shed Shell.
+✓ Added a second new Trainer - an Ace Trainer - who's just a custom one.
+
+Azalea Gym
+✓ Defeating Bugsy now activates the trigger for the Silver battle as the player leaves Azalea.
+✓ Added a Scyther overworld next to Bugsy.
+✓ Added two new Trainers (a Bug Catcher and an Ace Trainer).
+✓ Added a tutor at the entrance that will teach Megahorn after eight badges are obtained.
+
+Route 34
+✓ Cynthia will talk to you in the gatehouse, giving you the Pixie Plate before leaving.
+✓ The Lass NPC here has been removed to make room for Cynthia.
+✓ The lady behind the counter now heals your Pokémon. The first time you do this, she awards TM12, Taunt as normal.
+✓ Ethan/Lyra now challenge you to a battle before taking you into the Day-Care. You don't have to win this.
+✓ TM63 is swapped for a TM43, Flame Charge.
+✓ Changed the Trainer Tips sign to remove the reference to the Radio Card gift.
+✓ The Power Herb given to you by the Ace Trainers is now an Expert Belt.
+✓ Changed the Nugget into a Quick Powder.
+
+Goldenrod City
+✓ A Move Tutor (taken from the Battle Frontier) now sits in the Pokémon Center, teaching a wealth of weak or status moves.
+✓ The Name Rater tent has been changed for a 'fortune teller' tent, where an NPC gives you a Twisted Spoon. Her fortunes are just flavour text.
+✓ Changed the Name Rater sign to say Fortune Teller instead.
+✓ Bill now gives the player an Upgrade instead of an Eevee.
+✓ Added a herb selling lady (a herb for $2000 each) and a Budew to the flower shop.
+✓ The bike shop is now "closed permanently" (the sign says this). The warp has been disabled and a spawnable added to inform the user of this.
+✓ Added an item ball containing TM57, Charge Beam to the Magnet Train Station.
+✓ Edited a lady's dialogue to remove the Radio Card reference.
+✓ Added a "Pikachu" to the Magnet Train station - a kid in a costume - who gives you the Light Ball.
+✓ Added an item ball with Wise Glasses next to the old bike shop.
+✓ Added Lt. Surge in the Magnet Train station, who will give you TM24, Thunderbolt. Only appears after Safari Zone events.
+✓ Added teleporting Psychic/Abra to Pokémon Center.
+
+Game Corner
+✓ Restored the Game Corner to the one used in the Japanese version, though the game is still Voltorb Flip as I can't change that. Most of the scripts are left intact from the Japanese version with text added as closely as possible. One inconsequential script has been truncated as I couldn't find matching dialogue.
+✓ Mr. Game has been added in here at the top right, and will give you a Coin Case when spoken to.
+✓ The Game Corner has been given its own header.
+✓ Prof. Oak is found in the Game Corner. If spoken to before receiving the Coin Case, he'll tell you to get one. Otherwise, he'll leave after giving you 1000 coins.
+✓ The Spinda Café squad have made a reappearance in this new Game Corner. The Spinda will give you a Soda Pop when spoken to.
+✓ An NPC has been added who will try to sell you a Porygon. He'll try for $50,000, $10,000 and finally $5,000 before giving up. If you accept, you'll receive a Porygon at Lv. 20 and the NPC will leave.
+✓ The previous TM78 has been changed to TM41, Torment.
+✓ The TMs available as prizes have been changed to Hone Claws, Skill Swap, Smart Strike, Rock Polish, Psych Up and Swagger. They can only be purchased once each for 2k Coins. The held items are unchanged.
+✓ The Pokémon available as prizes have been changed to Cubone, Skarmory and Porygon. They cost 1k, 2k and 4k Coins respectively. The Cubone holds a Thick Club when purchased.
+✓ The coin purchases (always there in the Japanese one, but added relative to the international versions) have been adjusted to give double the usual amount for the prices.
+
+Goldenrod Dept. Store
+✓ The shop on 5F of the Dept. Store now sells evolution stones instead (all except Shiny, Dusk, Dawn and arguably Oval).
+✓ The text has been modified from TM Shop to Stone Emporium.
+✓ Added a tutor on Dept. Store 5F who teaches the Pokémon following you Return or Frustration if they've reached certain friendship thresholds. This acts as a replacement for the TMs which were replaced. Also added a Clefairy next to her.
+✓ As a result, the lady who originally gave you the TMs has been removed, and a girl's dialogue edited.
+✓ Deleted a man who said traded Pokémon can't be nicknamed.
+✓ The Drawing Corner now always awards 5x Cherish Balls if you get the No. 1 prize. Additionally, the text now says the number you drew, and the chances are changed to 50/45/5% instead of the 60/36/4%.
+✓ Added an NPC on Dept Store 6F who gives TM42, Facade.
+✓ Moved the Amulet Coin so it's accessible earlier.
+✓ Changed the Burn Heal to TM17, Protect.
+✓ Changed the Ether to a Magnet.
+✓ Changed the Ultra Ball to a Scope Lens.
+
+Radio Tower
+✓ Added TM49, Echoed Voice on 1F.
+✓ Removed the radio card quiz/Whitney events from 1F.
+✓ Added an event on 2F involving a wild Rotom.
+
+Goldenrod Tunnel
+✓ The market people are now always there. The daily ones still only work once daily, though.
+✓ Added TM09, Venoshock.
+
+Route 35
+✓ Added a Dawn Stone past the pond.
+✓ Changed the Parlyz Heal to a Rock Incense.
+✓ Rearranged a few Trainers to force their fights.
+✓ Replaced the Cut tree with a Kecleon event.
+✓ Goldified the Payback TM.
+✓ Added a new Trainer (Pokémon Ranger).
+
+National Park
+✓ Modified the Bug-Catching Contest script so the game thinks it's always Tuesday and it doesn't check the daily flag anymore (2727), so the player can enter it whenever they want.
+✓ Changed the Contest entry NPCs to appear always.
+✓ Modified the encounters, including their rarity factors (which is thankfully included in the encounter data).
+✓ The Pokéathlon is now open immediately and the NPCs in the gatehouse have had their flag lock removed as a result. The blocking trigger (16602) and NPC have been deleted, as well as the removal of any references to 16602 in the scripts.
+✓ Moved Dig TM to be a bit more visible.
+✓ Swapped the Soothe Bell for a Rose Incense.
+✓ Added a jogger and Castform as a little Colosseum reference. Talking to him after obtaining the relevant weather TM will award you the Heat Rock, Damp Rock, Smooth Rock or Icy Rock.
+✓ Deleted a generic text Lass to make room for the above.
+✓ Added a nurse next to the PC.
+✓ Added Erika on one of the benches. She'll give you TM19, Giga Drain. Only appears after Safari Zone events.
+
+Pokéathlon Dome
+✓ Magnus now gives you TM27, Power-Up Punch during his introductory dialogue.
+✓ The level script of the interior was changed so the Whitney script autoplays as soon as you enter. This is now what removes the gym's blocker NPC.
+✓ Added a Muscle Band item ball.
+
+Goldenrod Gym
+✓ Added a level script so the Gym Guide comes and tells you the Gym specialises in two types when you enter.
+✓ Edited his standard dialogue to match as well.
+✓ Added two new Trainers, a Hiker and an Ace Trainer F.
+✓ Whitney now gifts TM21 Dazzling Gleam in addition to the Attract TM. She also mentions the Squirt Bottle afterwards as a hint to the player.
+✓ Added a Miltank next to Whitney.
+✓ Added a tutor at the entrance that will teach Double-Edge after eight badges are obtained.
+
+Route 37
+✓ Moved Psychic to be forced, Twins to be far away.
+
+Ecruteak City
+✓ Added TM61, Will-O-Wisp next to Burned Tower. Moved the old man slightly to prevent him blocking the way.
+✓ Added a Lass in a house who will give you a Spell Tag.
+✓ Added a Juggler outside the Pokémon Center who sells you the six EV reducing berries.
+✓ Added Professor Elm's assistant next to the PC in the Pokémon Center, who once again can give you a Lv. 5 starter Pokémon.
+✓ Added an extra NPC in the Dowsing Machine house who gives a nod to Valerie from Kalos.
+✓ Added a Vulpix in the same house for a bit of flavour.
+✓ Added Blaine in front of the Burned Tower, who will give you TM35, Flamethrower. Only appears after Safari Zone events.
+✓ Added teleporting Psychic/Abra to Pokémon Center.
+
+Route 38
+✓ Added a blocker just before Route 39 involving the Moomoo Farm lady and some Miltank. They disappear after beating Morty.
+✓ Exchanged Max Potion for Bright Powder.
+✓ Rearranged some Trainers a bit.
+
+Route 42
+✓ Goldified the TM65.
+✓ Replaced the Cut tree with a Kecleon.
+✓ Added an NPC to block the middle entrance of Mt. Mortar until the Rising Badge is obtained. This means I can have higher leveled Pokémon in B1F.
+✓ Rearranged the Trainers slightly.
+✓ Changed Super Potion to TM47, Steel Wing. Moved it to be inside the grove past the Kecleon.
+
+Mt. Mortar
+✓ Added a new event involving the Kimono Girls; one Kimono Girl asks you to help find her sister at the entrance to the main cavern, then blocks the way until you find the other sister who's at the back. Upon talking to the lost sister, you'll be warped back to the exit, after which the Kimono Girls will leave. (Intended to be the Leafeon + Glaceon users).
+✓ Rearranged some Trainers and items.
+✓ Changed Ultra Ball for Iron Ball.
+✓ Changed Max Potion for TM31, Brick Break.
+✓ Changed Nugget for a Focus Band.
+✓ Changed Ether for a Dragon Fang.
+✓ Changed Revive for a Macho Brace.
+✓ Added a new Trainer (reference to some fellow on Twitter who asked nicely quite early, so why not I guess!).
+✓ Moved the Full Incense to be available earlier.
+
+Mahogany Town
+✓ Added some disguised Rocket Grunts to block the way to Route 43 until Jasmine is defeated.
+✓ Deleted the trigger (16506) that prevents you from leaving Mahogany to the east, and all references in the scripts that set it to 1. The actual NPC remains though and will sell you Rage Candy Bars as normal. His dialogue's been edited a little bit.
+✓ Changed the NPCs in the house. One gives you a Castform at Lv. 25, the second is a tutor for Weather Ball, and the third mentions the Weather Institute. 
+✓ Added teleporting Psychic/Abra to Pokémon Center. Added Help Desk NPC.
+✓ Casted the two NPCs who talk about evolution vs level up moves to the void.
+✓ Professor Elm's call after defeating Pryce now has different dialogue and doesn't activate the Rocket event; instead he directs the player towards Blackthorn City.
+
+Route 44
+✓ Snow is now falling on this route. The battle background has also been changed to match.
+✓ The Max Revive has been exchanged for TM07, Hail.
+✓ Removed the Ultra Ball (Flag 1203) and repurposed it elsewhere.
+
+Ice Path
+✓ Added a new event here with Eusine and Will for a bit of extra story. Will offers to battle you, but the player can refuse. The battle does not need to be won, and regardless of if they win or lose the player gets TM29, Psychic. If they refuse the battle, the TM is obtained at a later time. Afterwards, Eusine will go back to Ecruteak City, removing the Morty block. Will also offers to teleport the player back to Ecruteak if they wish.
+✓ There's also a trigger just before the above that offers the player a chance to heal, if they wish.
+✓ Moved and modified the NPC that forces you to get Waterfall to instead just block you until Pryce is beaten.
+✓ Added an item ball containing Never-Melt Ice.
+✓ Changed the item containing HM07 to TM72, Avalanche.
+
+Burned Tower
+✓ Changed both floors to use the same encounter file (28).
+✓ HP Up is now a Flame Orb. Antidote is now a Fire Stone.
+✓ Moved the items around a little.
+✓ Changed TM58 to TM70, Mystical Fire.
+
+Ecruteak Gym
+✓ Morty now explicitly mentions going to Olivine on his regular dialogue.
+✓ Added a Gengar next to Morty.
+✓ Added a tutor at the entrance that will teach Hex after eight badges are obtained.
+
+Bellchime Trail
+✓ Added TM11, Sunny Day inbetween some trees.
+
+Route 39
+✓ Changed TM60 for a TM74, Gyro Ball.
+✓ Added a move tutor for Natural Gift inside the farm.
+✓ Modified the sick Miltank to require four Sitrus Berries instead of seven Oran Berries. After healing the Miltank, the lady of the farm will come in and give you a Lucky Egg.
+✓ The lady of the farm no longer gives you an item if you talk to her afterwards, but her dialogue is somewhat modified.
+✓ The sick Miltank will heal your Pokémon when spoken to after it's been healed.
+
+Olivine City
+✓ Changed TM57 to TM73, Thunder Wave.
+✓ Added Sabrina to the harbour, who will give you TM04, Calm Mind. Only appears after Safari Zone events.
+✓ Added an item ball containing Sea Incense on the little exit to the side of the harbour.
+✓ Removed the Good Rod fisherman in favour of two fisherman who each give you one Deep Sea item.
+✓ Added a man + Munchlax in the diner for some flavour. The Munchlax gives you a Leftovers.
+✓ Added a Gentleman in front of the Olivine Gym after resolving the Amphy problem. This acts as a blocker to force the player to the Safari Zone first.
+✓ Added a prompt to warp to Cianwood after the Baoba call.
+✓ Added teleporting Psychic/Abra to Pokémon Center.
+✓ Edited the text in the Baoba call to reflect the Rocket event.
+✓ Added a Thunder Stone next to the Lighthouse.
+
+Lighthouse
+✓ Added an extra Trainer at the top floor (Johnstone reference!).
+✓ Changed the Rare Candy to a TM88, Acrobatics.
+✓ Jasmine now awards you with a Metal Coat after you give her the Secret Medicine. Her script also sets some flags and variables for the new Rocket event.
+✓ Changed the TM87 for a Light Clay.
+✓ Added an NPC that appears on the Lighthouse's top floor after Jasmine is defeated. He gives you TM91, Flash Cannon.
+
+Route 40
+✓ Added smashable rocks.
+✓ Added an NPC who gives you Soft Sand. He's also a little reference to a comic.
+✓ TM88 is now TM76, Scorching Sands.
+✓ Added Misty, who will give you TM55, Scald. Only appears after Safari Zone events.
+
+Cianwood City
+✓ Added two NPCs in the Pokémon Center. One gives a Linking Cord, the other has a reference to DPPt's Mindy.
+✓ Added Koga in the pharmacy. He'll give you TM06, Toxic.
+✓ Adjusted the Secret Medicine script so the pharmacist won't give it to you until you've earned the Storm Badge.
+✓ A Move Tutor (taken from the Battle Frontier) now sits in the Pokémon Center, teaching a wealth of mid level offensive moves.
+✓ Added a prompt to warp directly in front of Glitter Lighthouse after receiving the Secret Medicine.
+✓ Added teleporting Psychic/Abra to Pokémon Center.
+✓ Vacated the top house and added in two Black Belts (and a Machop). One gives you TM08, Bulk Up. The other gives you Focus Sash (x3).
+
+Cianwood Gym
+✓ Added a Poliwrath as close to Chuck as possible.
+✓ Added a move tutor for Close Combat.
+✓ Changed Chuck's gift and relevant dialogue to TM60, Drain Punch.
+✓ Modified the Trainer positions a bit to make them less skippable (though you're only forced to do two).
+
+Cliff Edge Gate
+✓ On first entering and moving forward a bit, you'll now get challenged to a battle by Ethan/Lyra (optional to win). Afterwards, a small event with a Rocket appears, and both the Rocket and Ethan/Lyra run off.
+✓ Added two Rocket Grunts to fight here while the event is active.
+✓ The welcome lady isn't there while the Rocket event is active.
+
+Route 47
+✓ Hid all of the ordinary Trainers here until the Rocket event is over (using Flag 2176).
+✓ Added a bunch of Rocket grunts to fight that appear until the Rocket event is over (using Flag 2175).
+✓ Added a small event with Silver when you exit the Cliff Cave from the top exit.
+✓ Changed the Lagging Tail for a Nugget.
+✓ Changed the Revive for a Water Stone.
+✓ Changed the White Flute for a Metal Powder.
+✓ Moved the Wave Incense to be accessible earlier.
+
+Cliff Cave
+✓ Added an event leading to a double battle with Petrel and Proton with Ethan/Lyra as a partner when you enter.
+✓ Made Ethan/Lyra (and Azumarill) stay here to act as a healer for the duration of the Rocket event.
+✓ Modified the script so the Rock Smash rocks are always there regardless of whether the National Dex is obtained or not.
+✓ Added some triggers on each exit to control whether the Silver event on Route 47 happens or not when leaving the Cliff Cave, active after the Executive battle. The one on the top floor's exit activates the Route 47 Silver event. It's technically possible to step on this and then use an Escape Rope/Dig/Teleport? which results in the script activating at the wrong time. Not sure how to fix that, but it's an incredibly unlikely scenario anyway. At least it doesn't crash!
+✓ Changed the Rock Smash item table here to be Pearl (25%), Big Pearl (25%), Heart Scale (20%), Max Ether (20%), Rare Bone (10%), Star Piece (5%).
+✓ Added an item ball containing the Luck Incense to the top floor. Moved the hidden item in its location to the bottom floor.
+
+Route 48
+✓ Added a mini event as you cross the bridge with six Rocket Grunts - a reference to the Hexagon Brothers from XD. This is a 6v6 double battle. If the player does not have at least two Pokémon, they'll be turned away.
+✓ Deleted the overworlds that were used to transition into the Safari Zone Gate as it caused issues with the Rocket event. Moved three of them out of view, the old man technically still snaps in but it's a single pixel so it's probably OK.
+✓ Changed the Nugget for a Leaf Stone.
+
+Safari Zone Gate (Rocket)
+✓ Set the music to be the Team Rocket one while the relevant flag is active. This was done by stealing the entry from Cerulean Gym.
+✓ Added Athena/Archer in front of the Safari Zone entrance. Double battle with them with Silver as a partner. Afterwards, they leave, taking all of the Rockets with them. Silver leaves afterwards, and then Baoba will appear and give you HM05, Waterfall before warping you into the Safari Zone.
+✓ Added a Rocket in front of the Pokémon Center while the event is active, who heals your Pokémon for a fee.
+
+Safari Zone Gate (Normal)
+✓ Changed out the no talking lady/Kangaskhan for a Roserade and a shopkeeper that sells the Shiny, Dusk, Dawn and Oval Stones.
+✓ Changed the bottom left lady to give TM62, Pollen Puff. Her Butterfree is now a Jumpluff.
+✓ Added a new shopkeeper that uses Celadon's vitamin shop (as it's identical to the Goldenrod/Safari Zone one, so it's free real estate). This one sells some of the Evolution items that the player has been able to get already: Deep Sea Scale, Deep Sea Tooth, King's Rock, Linking Cord, Metal Coat and Upgrade.
+✓ Updated the Pokémon Center with the Help Desk/teleporter NPC.
+✓ Added Prof Elm's assistant next to the PC who will give you another starter at Lv. 5.
+
+Safari Zone
+✓ Baoba's initial dialogue has been edited a bit to reflect the new scenario. You're now made the Owner and given access to all 12 slots immediately, but the Object Arrangement stuff still comes later as normal once you receive the National Dex. Baoba's dialogue also unblocks the Olivine Gym and reveals the Kanto leaders.
+✓ A Kimono Girl sits here with some basic dialogue. She disappears after beating Jasmine; this is just some setup for later.
+
+Olivine Gym
+✓ Added a move tutor for Steel Beam.
+✓ Changed Jasmine's dialogue to leave out the trade part, and explicitly mention the Lake of Rage.
+✓ Removed the triggers and changed the two NPCs into actual Trainers.
+✓ Did not add a Steelix as it's too big, but edited the Gym Guide's dialogue to nod towards it.
+✓ Defeating Jasmine also makes an NPC appear at the top floor of the Lighthouse.
+
+Route 43
+✓ Edited a Trainer's dialogue that specifically mentioned a Nidoking, which said Trainer no longer has.
+✓ Added a trigger event with Karen where she gives you TM79, Dark Pulse. No battle this time.
+✓ Changed the Max Ether for a Shiny Stone. Swapped the position of it and the Apricorn tree.
+✓ Shuffled the positions of some of the Trainers.
+
+Lake of Rage
+✓ Added a sign (a building) on the small island to the northeast of the lake, where the Choice Specs usually was. It has a message about a Keystone. If you talk to it while the Odd Keystone is in your inventory, you'll battle a Lv. 50 Spiritomb.
+✓ Removed the TM43 that was originally on the island near the house. (Flag 1288). Moved the Choice Specs to this island.
+✓ The NPC who gives you TM10 now gives you TM29, Psychic instead if you didn't receive it from Will previously.
+✓ The Red Gyarados is now Level 40.
+✓ Moved Ace Trainer Alton so he can be battled on any day once the Red Gyarados is dealt with.
+✓ Changed the Red Flute for a Shiny Stone.
+
+Team Rocket HQ
+✓ Added an extra female grunt on the middle floor.
+✓ Changed the Guard Spec. on B1F for a Dubious Disc.
+✓ Changed the TM46 on B2F for a TM64, Explosion.
+✓ Changed the TM49 on B3F for a Toxic Orb.
+✓ Changed the Protein on B3F for a Linking Cord.
+✓ Changed the X Sp. Atk on B3F for a PP Up.
+✓ Changed the Ultra Ball on B3F for a Dusk Ball.
+✓ The trap floor encounters are changed from 6 x Voltorb, 5 x Geodude and 5 x Koffing to be 4 x Electrode, 4 x Graveler, 4 x Weezing, 4 x Forretress. Additionally, they're now all Lv. 35.
+✓ The Electrode powering the radio transmitter are now encountered at Lv. 40.
+✓ The Murkrow that mimicks Petrel's voice is now a Chatot. Text is edited to match.
+✓ Moved a Trainer on B2F to force the battle.
+✓ Added a scientist to the PC on B2F who acts as a healer.
+✓ The encounter with Silver on B4F is now actually a battle (his Goldenrod Tunnel fight is shifted to here instead due to the awkward evolution timing).
+
+Mahogany Gym
+✓ Pryce now gives out TM13, Ice Beam instead of TM07.
+✓ Pryce's dialogue has been adjusted to match the above, as well as remove the incorrect text about the Glacier Badge raising the Special stats.
+✓ Pryce also specifies that the player should go to Blackthorn City next.
+✓ A Mamoswine has -not- been added next to Pryce because the map is too thin.
+✓ Added a Move Tutor for Triple Axel.
+
+Whirl Islands
+✓ Changed the Ultra Ball on 1F in the southwest entrance to a Dragon Scale.
+✓ Changed all maps to use the same encounter file (43), freeing up files 44, 46 and 48.
+✓ Darkness removed from all maps.
+✓ Changed the Full Restore on B2F to a TM85, Psychic Fangs.
+✓ Moved the Max Elixir further down near Lugia's cave to space things out.
+
+Ice Path - Part II
+✓ The bottom floors now all share the same encounter file (61), freeing up 62 and 63.
+✓ Changed the TM72 for a TM44, Rest.
+✓ Changed the Iron for a Razor Claw.
+✓ Changed the Protein for a Grip Claw.
+✓ Changed the Never-Melt Ice for an Ice Stone.
+✓ Removed the Full Heal (flag 1206) to repurpose it in Dark Cave.
+✓ Added three new trainers, one each on B2F, B3F and B4F.
+
+Blackthorn City
+✓ Removed the Move Reminder and Move Deleter NPCs, as they are now redundant.
+✓ Added a new NPC who sells the TMs for Solar Beam, Fire Blast, Blizzard, Thunder, Hyper Beam and Giga Impact.
+✓ Modified the text on the sign outside the tutor house to reflect the TM seller.
+✓ Added a Juggler outside the Pokémon Center who sells one each of a Liechi, Ganlon, Salac, Petaya, Apicot, Lansat, Starf, Micle, Custap, Jaboca and Rowap Berry in a set purchasable for $10,000.
+✓ Added the Help Desk/Teleporter to the Pokémon Center.
+✓ Added a Move Tutor next to the PC in the Pokémon Center.
+✓ Added a new trigger event in the Pokémon Center involving Lance and Prof. Elm, with some dialogue. Elm now gives you the Master Ball during this exchange instead. The exchange includes a section where you're shown Team Rocket taking over the radio stations, after which Elm goes back to this lab to "make some calls". This activates the Radio Tower events. Immediately after this, the NPC dialogue in the Pokémon Center is also different (but reverts back on re-entry).
+✓ Clair's Gym is conveniently already blocked before the Radio Tower is finished, even though this part is never accessible at this point normally. The blocker's dialogue has some extra lines once the Rocket takeover is active to hint to the player to do the Radio Tower.
+✓ Edited an NPC's dialogue in the Pokémon Center that referenced the Move Deleter to be about the TM man instead.
+✓ Edited an NPC's dialogue in the town that referenced the Move Deleter to be about the tutors instead.
+
+Route 45 North
+✓ Changed the Elixir for a Razor Fang.
+✓ Changed the Max Potion for a TM75, Swords Dance.
+
+Dark Cave - Blackthorn Side
+✓ Changed the Revive for a Reaper Cloth.
+✓ Changed the TM54 for a Lax Incense.
+✓ The NPC here now gives you a Life Orb instead of the Black Glasses.
+✓ Added a new item ball (pulled from Ice Path) containing TM34, Wild Charge.
+✓ Added a new item ball (pulled from the other Dark Cave) containing a Dusk Stone.
+✓ Moved the hidden item where the Dusk Stone now is to the rock just above it.
+✓ Added a bunch of smashable rocks to enable Rock Smash encounters.
+
+Goldenrod Tunnel - Part II
+✓ Changed the TM82 for a TM63, Nasty Plot.
+✓ Added a healing NPC in the stairwell through the locked door.
+✓ The two rooms underground have been changed to actually be called Goldenrod Tunnel.
+✓ The Silver fight in the first room has been removed since there's enough mini bosses here already. He still appears though for some dialogue.
+✓ Changed the Smoke Ball for a Magmarizer.
+✓ Added a trigger just outside the door to the second room to re-introduce the Hexagon Brothers.
+✓ Rescued the Hyuck-Hyuck-Hyuck guy and moved him into the first Tunnel room. The other two Grunts in the second room have become some of the Hexagon Brothers.
+✓ Added four extra grunts to the second room and arranged all the Trainers so they're unskippable. These are the Hexagon Brothers again.
+✓ Added Proton as well just before the Director to act as a guard of sorts. He's now activated by a trigger script instead of being a generic Trainer, so he has some after battle dialogue too.
+
+Radio Tower - Part II
+✓ Adjusted some trainer line of sights and positions.
+✓ Changed the Ultra Ball for an Electirizer.
+✓ Added a new item containing a Linking Cord in the Director's room.
+✓ Added a healing NPC on 3F.
+✓ Edited Petrel's dialogue slightly.
+✓ Changed the grunt's dialogue behind the shutter slightly.
+✓ Removed Proton from 4F. Added Athena blocking the stairs up. After defeating her she'll move. If you come back to the map after defeating her, she'll be in a different position again.
+✓ Removed Athena from 4F. Added Archer blocking the elevator. After defeating him he'll move. If you come back to the map after defeating her, he'll be in a different position again (needed a level script adjustment for this one). Archer's dialogue is modified to hint towards Giovanni having returned already; his in-battle dialogue is also changed a little to account for this.
+✓ Archer on the top floor is replaced with Giovanni. He uses a new Trainer file but has his in-battle dialogue copied from it. After defeating him, he gives you TM26, Earthquake.
+✓ The Director makes a quick reference to the player's mother, hinting about the Choice Scarf gift.
+✓ Looker blocks the lift down after Giovanni is defeated. After a quick conversation, he leaves.
+✓ Woman that normally gifts TM11 no longer gives you anything.
+✓ Added a clown on 4F. After defeating Team Rocket, he gives you TM92, Trick Room.
+
+Blackthorn Gym
+✓ The Gym Guide's dialogue has been edited to mention Fairy Pokémon, and also warn of the Trainers not all using strict Dragon-types.
+✓ Changed some of the Trainer positions/movements so all the battles are forced.
+✓ Added a Kingdra next to Clair.
+
+Dragon's Den
+✓ Changed the Dragon Fang for TM02, Dragon Claw.
+✓ The cave floor tiles of the Dragon's Den now also spawn encounters. Both floors share the same encounter file.
+✓ Changed the Twins to a Double Team and swapped their position with one of the other Trainers. The dialogue was edited to be a reference to the TV show Dragon's Den!
+
+Mt. Mortar - Part II
+✓ Changed the Dragon Scale for a Protector.
+✓ Removed the TM40 (flag 1184).
+✓ After speaking to him in front of Tohjo Falls with the Rising Badge, Bruno will appear in the room above the waterfall. If you talk to him with a Rage Candy Bar in your inventory, he'll exchange it for TM52, Focus Blast before leaving.
+✓ The Karate King now gives you a Choice Band instead of a Tyrogue.
+
+Route 27
+✓ Bruno now blocks the entrance to Tohjo Falls.
+✓ TM02 is now TM56, Power Whip.
+
+Route 26
+✓ Changed the Max Elixir for TM32, Play Rough.
+
+Victory Road
+✓ 11 Trainers have been added. Each of them reference a character(s) from a main series Pokémon game (+ Colo/XD) going up to Legends Arceus. They're all positioned such that they're compulsory battles.
+✓ Replaced the TM26 with TM71, Stone Edge.
+✓ Replaced the TM79 with TM50, Overheat.
+
+Indigo Plateau
+✓ Added an NPC who sells the remaining alternative evolution items that are not in the Safari Zone Gate's store.
+
+Other
+✓ Changed the Strength script so if used by pressing A on a rock, it simply checks if the player has HM04 and the Plain Badge. If they do, it uses a different message and the animation goes off.
+✓ Changed the Rock Smash script so if used by pressing A on a rock, it simply checks if the player has HM06 and the Zephyr Badge. If they do, it uses a different message and the animation goes off.
+✓ Changed the Cut script so if used by pressing A on a tree, it simply checks if the player has HM01 and the Hive Badge. If they do, it uses a different message and the animation goes off.
+✓ Changed the Surf script so if used by pressing A on water, it simply checks if the player has HM03 and the Fog Badge. If they do, it uses a different message and the animation goes off. This one also required a slight change to overlay_1 to circumvent the Surf in party check vs interactability.
+✓ Changed the Whirlpool script so if used by pressing A on a whirlpool, it simply checks if the player has HM06 and the Glacier Badge. If they do, it uses a different message and the animation goes off.
+✓ Changed the Headbutt script so if used by pressing A on a tree, it simply checks if a certain flag is set. If they do, it uses a different message and the animation goes off.
+✓ The Rock Smash/Headbutt/Surf/Whirlpool scripts have an additional check where if the move has already been used in the current map once, it skips the dialogue/Pokémon banner and just goes straight into the HM animation. Rock Smash uses Flag 40, Headbutt uses Flag 41. Surf uses Flag 42. Whirlpool uses Flag 43.
+✓ Changed the Team Rocket's Scientist class to use the Team Rocket battle music.

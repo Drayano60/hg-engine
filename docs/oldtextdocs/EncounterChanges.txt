@@ -1,0 +1,2028 @@
+- Sort out cliff edge gate
+- headbutt r47, r27, r26, rest of kanto
+
+---
+
+Encounter methods have been simplified a bit:
+- Morning and day encounters are now identical.
+- Only one fishing table is used.
+- Only one set of headbutt encounters is used. All trees that can drop encounters now always will.
+
+The Hoenn and Sinnoh Sounds have been removed and replaced with the Unova Sound. As before, while the music is active, two additional encounters are added which replace some of the existing ones temporarily. The game has been modified so you are now able to turn this radio station on at any time by going into the Pokégear, going to the radio and selecting the top left button.
+
+(The music isn't actually a Unova song yet - maybe in the future!)
+
+==============================
+Johto
+==============================
+
+-------------------
+New Bark Town
+-------------------
+Headbutt:
+[40%/Lv. 05 - 10] Hoothoot
+[40%/Lv. 05 - 10] Wurmple
+[20%/Lv. 05 - 10] Starly
+
+Surfing:
+[80%/Lv. 25 - 25] Tentacool
+[20%/Lv. 30 - 30] Tentacruel
+
+Fishing:
+[40%/Lv. 08 - 10] Chinchou
+[40%/Lv. 08 - 10] Shellder
+[20%/Lv. 08 - 10] Tentacool
+
+-------------------
+Route 29
+-------------------
+Grass (Day):
+[20%/Lv. 03 - 04] Pidgey
+[20%/Lv. 03 - 04] Sentret*
+[20%/Lv. 03 - 04] Hoppip*
+[20%/Lv. 03 - 04] Sunkern
+[10%/Lv. 03 - 04] Snubbull
+[10%/Lv. 03 - 04] Zigzagoon
+
+* These Pokémon will not appear if the Unova Sound is active.
+
+Grass (Night):
+[20%/Lv. 03 - 04] Hoothoot
+[20%/Lv. 03 - 04] Rattata*
+[20%/Lv. 03 - 04] Meowth*
+[20%/Lv. 03 - 04] Oddish
+[10%/Lv. 03 - 04] Snubbull
+[10%/Lv. 03 - 04] Zigzagoon
+
+* These Pokémon will not appear if the Unova Sound is active.
+
+Headbutt:
+[40%/Lv. 05 - 10] Hoothoot
+[40%/Lv. 05 - 10] Wurmple
+[20%/Lv. 05 - 10] Seedot
+
+Unova Sound:
+[20%/Lv. 03 - 04] Patrat
+[20%/Lv. 03 - 04] Lillipup
+
+-------------------
+Route 46
+-------------------
+Grass (Day):
+[20%/Lv. 05 - 06] Spearow
+[20%/Lv. 05 - 06] Geodude*
+[20%/Lv. 05 - 06] Machop*
+[20%/Lv. 05 - 06] Phanpy
+[20%/Lv. 05 - 05] Igglybuff
+
+* These Pokémon will not appear if the Unova Sound is active.
+
+Grass (Night):
+[20%/Lv. 05 - 06] Houndour
+[20%/Lv. 05 - 06] Geodude*
+[20%/Lv. 05 - 06] Machop*
+[20%/Lv. 05 - 06] Phanpy
+[20%/Lv. 05 - 05] Cleffa
+
+* These Pokémon will not appear if the Unova Sound is active.
+
+Headbutt:
+[40%/Lv. 05 - 10] Spearow
+[40%/Lv. 05 - 10] Aipom
+[20%/Lv. 05 - 10] Mankey
+
+Unova Sound:
+[20%/Lv. 05 - 06] Patrat
+[20%/Lv. 05 - 06] Lillipup
+
+-------------------
+Cherrygrove City
+-------------------
+Headbutt:
+[40%/Lv. 05 - 10] Exeggcute
+[40%/Lv. 05 - 10] Taillow
+[20%/Lv. 05 - 10] Pineco
+
+Rock Smash:
+[70%/Lv. 10 - 14] Krabby
+[30%/Lv. 10 - 14] Staryu
+
+Surfing:
+[40%/Lv. 25 - 25] Wingull
+[40%/Lv. 25 - 25] Tentacool
+[10%/Lv. 30 - 30] Pelipper
+[10%/Lv. 30 - 30] Tentacruel
+
+Fishing:
+[40%/Lv. 08 - 10] Krabby
+[40%/Lv. 08 - 10] Remoraid
+[20%/Lv. 08 - 10] Carvanha
+
+-------------------
+Route 30
+-------------------
+Grass (Day):
+[20%/Lv. 05 - 06] Ledyba
+[20%/Lv. 05 - 06] Caterpie*
+[20%/Lv. 05 - 06] Weedle*
+[20%/Lv. 05 - 06] Pidgey
+[10%/Lv. 05 - 06] Lotad
+[10%/Lv. 05 - 06] Kricketot
+
+* These Pokémon will not appear if the Unova Sound is active.
+
+Grass (Night):
+[20%/Lv. 05 - 06] Spinarak
+[20%/Lv. 05 - 06] Poliwag*
+[20%/Lv. 05 - 06] Surskit*
+[20%/Lv. 05 - 06] Hoothoot
+[10%/Lv. 05 - 06] Lotad
+[10%/Lv. 05 - 06] Kricketot
+
+* These Pokémon will not appear if the Unova Sound is active.
+
+Headbutt:
+[40%/Lv. 05 - 10] Hoothoot
+[40%/Lv. 05 - 10] Wurmple
+[20%/Lv. 05 - 10] Seedot
+
+Surfing:
+[40%/Lv. 25 - 25] Poliwag
+[40%/Lv. 25 - 25] Surskit
+[10%/Lv. 30 - 30] Poliwhirl
+[10%/Lv. 30 - 30] Masquerain
+
+Fishing:
+[40%/Lv. 05 - 10] Magikarp
+[40%/Lv. 08 - 10] Poliwag
+[20%/Lv. 08 - 10] Corphish
+
+Unova Sound:
+[20%/Lv. 05 - 06] Tympole
+[20%/Lv. 05 - 06] Purrloin
+
+-------------------
+Route 31
+-------------------
+Grass (Day/Night):
+[20%/Lv. 07 - 08] Bellsprout
+[20%/Lv. 07 - 07] Azurill*
+[20%/Lv. 07 - 08] Psyduck*
+[10%/Lv. 07 - 07] Budew
+[10%/Lv. 07 - 07] Bidoof
+[10%/Lv. 07 - 08] Abra
+[10%/Lv. 07 - 08] Shinx
+
+* These Pokémon will not appear if the Unova Sound is active.
+
+Headbutt:
+[40%/Lv. 05 - 10] Hoothoot
+[40%/Lv. 05 - 10] Wurmple
+[20%/Lv. 05 - 10] Seedot
+
+Surfing:
+[40%/Lv. 25 - 25] Poliwag
+[40%/Lv. 25 - 25] Marill
+[10%/Lv. 30 - 30] Poliwhirl
+[10%/Lv. 30 - 30] Azumarill
+
+Fishing:
+[40%/Lv. 05 - 10] Magikarp
+[40%/Lv. 08 - 10] Poliwag
+[20%/Lv. 08 - 10] Corphish
+
+Unova Sound:
+[20%/Lv. 07 - 07] Pidove
+[20%/Lv. 07 - 08] Purrloin
+
+-------------------
+Dark Cave (Violet Side)
+-------------------
+Cave (Day/Night):
+[20%/Lv. 08 - 09] Zubat
+[20%/Lv. 08 - 09] Geodude*
+[20%/Lv. 08 - 09] Teddiursa*
+[20%/Lv. 08 - 08] Wynaut
+[10%/Lv. 08 - 09] Aron
+[05%/Lv. 08 - 08] Larvitar
+[05%/Lv. 09 - 09] Dunsparce
+
+* These Pokémon will not appear if the Unova Sound is active.
+
+Rock Smash:
+[70%/Lv. 10 - 14] Slugma
+[30%/Lv. 10 - 14] Dunsparce
+
+Surfing:
+[80%/Lv. 25 - 25] Zubat
+[20%/Lv. 30 - 30] Golbat
+
+Fishing:
+[40%/Lv. 05 - 10] Magikarp
+[40%/Lv. 08 - 10] Goldeen
+[20%/Lv. 08 - 10] Barboach
+
+Unova Sound:
+[20%/Lv. 08 - 09] Axew
+[20%/Lv. 08 - 09] Roggenrola 
+
+-------------------
+Violet City
+-------------------
+Headbutt:
+[40%/Lv. 05 - 10] Hoothoot
+[40%/Lv. 05 - 10] Wurmple
+[20%/Lv. 05 - 10] Starly
+
+Surfing:
+[40%/Lv. 25 - 25] Poliwag
+[40%/Lv. 25 - 25] Marill
+[10%/Lv. 30 - 30] Poliwhirl
+[10%/Lv. 30 - 30] Azumarill
+
+Fishing:
+[60%/Lv. 05 - 10] Magikarp
+[30%/Lv. 08 - 10] Barboach
+[10%/Lv. 05 - 10] Feebas
+
+-------------------
+Sprout Tower
+-------------------
+Walk (Day/Night):
+[20%/Lv. 09 - 10] Rattata
+[20%/Lv. 09 - 10] Spinarak*
+[20%/Lv. 09 - 10] Gastly*
+[10%/Lv. 09 - 09] Chingling
+[10%/Lv. 09 - 09] Meditite
+[10%/Lv. 09 - 10] Shuppet
+[10%/Lv. 09 - 10] Duskull
+
+* These Pokémon will not appear if the Unova Sound is active.
+
+Unova Sound:
+[20%/Lv. 09 - 10] Litwick
+[20%/Lv. 09 - 10] Elygem
+
+-------------------
+Route 36 (East)
+-------------------
+Grass (Day/Night):
+[20%/Lv. 09 - 10] Growlithe
+[20%/Lv. 09 - 10] Nidoran M*
+[20%/Lv. 09 - 10] Nidoran F*
+[20%/Lv. 09 - 10] Vulpix
+[10%/Lv. 09 - 09] Bonsly
+[05%/Lv. 10 - 10] Plusle
+[05%/Lv. 10 - 10] Minun
+
+* These Pokémon will not appear if the Unova Sound is active.
+
+Headbutt:
+[40%/Lv. 08 - 09] Hoothoot
+[40%/Lv. 08 - 09] Burmy
+[20%/Lv. 08 - 09] Pineco
+
+Unova Sound:
+[20%/Lv. 09 - 10] Gothita
+[20%/Lv. 09 - 10] Solosis
+
+-------------------
+Route 32 (North)
+-------------------
+Grass (Day):
+[20%/Lv. 10 - 11] Bellsprout
+[20%/Lv. 10 - 11] Mareep*
+[20%/Lv. 10 - 11] Ekans*
+[20%/Lv. 10 - 11] Starly
+[10%/Lv. 10 - 11] Voltorb
+[10%/Lv. 10 - 11] Magnemite
+
+* These Pokémon will not appear if the Unova Sound is active.
+
+Grass (Night):
+[20%/Lv. 10 - 11] Bellsprout
+[20%/Lv. 10 - 11] Mareep*
+[20%/Lv. 10 - 11] Ekans*
+[20%/Lv. 10 - 11] Wooper
+[10%/Lv. 10 - 11] Voltorb
+[10%/Lv. 10 - 11] Magnemite
+
+* These Pokémon will not appear if the Unova Sound is active.
+
+Headbutt:
+[40%/Lv. 05 - 10] Spearow
+[40%/Lv. 05 - 10] Aipom
+[20%/Lv. 05 - 10] Mankey
+
+Unova Sound:
+[20%/Lv. 10 - 11] Klink
+[20%/Lv. 10 - 11] Pidove
+
+-------------------
+Ruins of Alph (Outside - Upper Half)
+-------------------
+Grass (Day):
+[20%/Lv. 09 - 10] Natu
+[20%/Lv. 09 - 10] Ralts*
+[20%/Lv. 09 - 10] Baltoy*
+[20%/Lv. 09 - 09] Mime Jr.
+[10%/Lv. 09 - 10] Bronzor
+[10%/Lv. 10 - 10] Smeargle
+
+* These Pokémon will not appear if the Unova Sound is active.
+
+Grass (Night):
+[20%/Lv. 09 - 10] Wooper
+[20%/Lv. 09 - 10] Ralts*
+[20%/Lv. 09 - 10] Baltoy*
+[20%/Lv. 09 - 09] Mime Jr.
+[10%/Lv. 09 - 10] Bronzor
+[10%/Lv. 10 - 10] Smeargle
+
+* These Pokémon will not appear if the Unova Sound is active.
+
+Headbutt:
+[40%/Lv. 05 - 10] Hoothoot
+[40%/Lv. 05 - 10] Natu
+[20%/Lv. 05 - 10] Exeggcute
+
+Rock Smash:
+[70%/Lv. 10 - 14] Geodude
+[30%/Lv. 10 - 14] Nosepass
+
+Surfing:
+[80%/Lv. 25 - 25] Wooper
+[20%/Lv. 30 - 30] Quagsire
+
+Fishing:
+[40%/Lv. 05 - 10] Magikarp
+[40%/Lv. 08 - 10] Poliwag
+[20%/Lv. 08 - 10] Corphish
+
+Unova Sound:
+[20%/Lv. 09 - 10] Munna
+[20%/Lv. 09 - 10] Yamask
+
+-------------------
+Ruins of Alph (Inside)
+-------------------
+Walk (Day/Night):
+[100%/Lv. 05 - 05] Unown
+
+-------------------
+Route 45 (South)
+-------------------
+Grass (Day):
+[20%/Lv. 11 - 12] Geodude
+[20%/Lv. 11 - 12] Spearow*
+[20%/Lv. 11 - 12] Phanpy*
+[10%/Lv. 11 - 11] Numel
+[10%/Lv. 11 - 11] Spoink
+[10%/Lv. 11 - 12] Swablu
+[10%/Lv. 11 - 12] Gligar
+
+* These Pokémon will not appear if the Unova Sound is active.
+
+Grass (Night):
+[20%/Lv. 11 - 12] Geodude
+[20%/Lv. 11 - 12] Houndour*
+[20%/Lv. 11 - 12] Phanpy*
+[10%/Lv. 11 - 11] Numel
+[10%/Lv. 11 - 11] Spoink
+[10%/Lv. 11 - 12] Swablu
+[10%/Lv. 11 - 12] Gligar
+
+* These Pokémon will not appear if the Unova Sound is active.
+
+Headbutt:
+[40%/Lv. 10 - 12] Spearow
+[40%/Lv. 10 - 12] Aipom
+[20%/Lv. 10 - 12] Munchlax
+
+Surfing:
+[100%/Lv. 05 - 25] Magikarp
+
+Fishing:
+[60%/Lv. 05 - 12] Magikarp
+[30%/Lv. 10 - 12] Poliwag
+[10%/Lv. 10 - 12] Dratini
+
+Unova Sound:
+[20%/Lv. 11 - 12] Rufflet
+[20%/Lv. 11 - 12] Vullaby
+
+-------------------
+Route 32 (South)
+-------------------
+Grass (Day):
+[20%/Lv. 11 - 12] Hoppip
+[20%/Lv. 11 - 12] Mareep*
+[20%/Lv. 11 - 12] Buizel*
+[20%/Lv. 11 - 12] Glameow
+[15%/Lv. 11 - 12] Wingull
+[05%/Lv. 12 - 12] Pachirisu
+
+* These Pokémon will not appear if the Unova Sound is active.
+
+Grass (Night):
+[20%/Lv. 11 - 12] Drifloon
+[20%/Lv. 11 - 12] Mareep*
+[20%/Lv. 11 - 12] Buizel*
+[20%/Lv. 11 - 12] Glameow
+[15%/Lv. 11 - 12] Wingull
+[05%/Lv. 12 - 12] Pachirisu
+
+* These Pokémon will not appear if the Unova Sound is active.
+
+Headbutt:
+[40%/Lv. 10 - 12] Exeggcute
+[40%/Lv. 10 - 12] Taillow
+[20%/Lv. 10 - 12] Pineco
+
+Surfing:
+[40%/Lv. 25 - 25] Wingull
+[40%/Lv. 25 - 25] Tentacool
+[10%/Lv. 30 - 30] Pelipper
+[10%/Lv. 30 - 30] Tentacruel
+
+Fishing:
+[40%/Lv. 10 - 12] Chinchou
+[40%/Lv. 10 - 12] Finneon
+[20%/Lv. 10 - 12] Qwilfish
+
+Unova Sound:
+[20%/Lv. 11 - 12] Scraggy
+[20%/Lv. 11 - 12] Dwebble
+
+-------------------
+Union Cave (Upper Floors)
+-------------------
+Cave (Day/Night):
+[20%/Lv. 12 - 14] Zubat
+[20%/Lv. 12 - 14] Geodude*
+[20%/Lv. 12 - 14] Sandshrew*
+[15%/Lv. 12 - 14] Rhyhorn
+[10%/Lv. 12 - 12] Makuhita
+[10%/Lv. 12 - 12] Whismur
+[05%/Lv. 12 - 14] Onix
+
+* These Pokémon will not appear if the Unova Sound is active.
+
+Rock Smash:
+[70%/Lv. 10 - 14] Geodude
+[30%/Lv. 10 - 14] Diglett
+
+Surfing:
+[40%/Lv. 25 - 25] Zubat
+[40%/Lv. 25 - 25] Wooper
+[10%/Lv. 30 - 30] Golbat
+[10%/Lv. 30 - 30] Quagsire
+
+Fishing:
+[40%/Lv. 05 - 14] Magikarp
+[40%/Lv. 12 - 14] Goldeen
+[20%/Lv. 12 - 14] Barboach
+
+Unova Sound:
+[20%/Lv. 12 - 14] Drilbur
+[20%/Lv. 12 - 14] Timburr
+
+-------------------
+Route 33
+-------------------
+Grass (Day):
+[20%/Lv. 12 - 14] Spearow
+[20%/Lv. 12 - 14] Poochyena*
+[20%/Lv. 12 - 14] Stunky*
+[15%/Lv. 12 - 14] Marill
+[10%/Lv. 14 - 14] Gulpin
+[10%/Lv. 14 - 14] Croagunk
+[05%/Lv. 14 - 14] Kricketune
+
+* These Pokémon will not appear if the Unova Sound is active.
+
+Grass (Night):
+[20%/Lv. 12 - 14] Houndour
+[20%/Lv. 12 - 14] Poochyena*
+[20%/Lv. 12 - 14] Stunky*
+[15%/Lv. 12 - 14] Marill
+[10%/Lv. 14 - 14] Gulpin
+[10%/Lv. 14 - 14] Croagunk
+[05%/Lv. 14 - 14] Kricketune
+
+* These Pokémon will not appear if the Unova Sound is active.
+
+Headbutt:
+[40%/Lv. 12 - 14] Spearow
+[40%/Lv. 12 - 14] Aipom
+[20%/Lv. 12 - 14] Heracross
+
+Unova Sound:
+[20%/Lv. 12 - 14] Trubbish
+[20%/Lv. 12 - 14] Pawniard
+
+-------------------
+Azalea Town
+-------------------
+Headbutt:
+[40%/Lv. 12 - 14] Spearow
+[40%/Lv. 12 - 14] Combee
+[20%/Lv. 12 - 14] Heracross
+
+-------------------
+Ilex Forest
+-------------------
+Walk (Day):
+[20%/Lv. 14 - 15] Paras
+[20%/Lv. 14 - 14] Pichu*
+[10%/Lv. 14 - 14] Weedle*
+[10%/Lv. 14 - 14] Caterpie*
+[10%/Lv. 14 - 14] Nincada
+[10%/Lv. 14 - 14] Slakoth
+[10%/Lv. 14 - 15] Metapod
+[10%/Lv. 14 - 15] Kakuna
+
+* These Pokémon will not appear if the Unova Sound is active.
+
+Walk (Night):
+[20%/Lv. 14 - 15] Paras
+[20%/Lv. 14 - 14] Oddish*
+[20%/Lv. 14 - 14] Venonat*
+[10%/Lv. 14 - 14] Nincada
+[10%/Lv. 14 - 14] Slakoth
+[10%/Lv. 14 - 15] Murkrow
+[10%/Lv. 14 - 15] Misdreavus
+
+* These Pokémon will not appear if the Unova Sound is active.
+
+Headbutt:
+[40%/Lv. 14 - 15] Hoothoot
+[40%/Lv. 14 - 15] Shroomish
+[20%/Lv. 14 - 15] Carnivine
+
+Surfing:
+[80%/Lv. 25 - 25] Psyduck
+[20%/Lv. 30 - 30] Golduck
+
+Fishing:
+[60%/Lv. 05 - 15] Magikarp
+[40%/Lv. 14 - 15] Poliwag
+
+Unova Sound:
+[20%/Lv. 14 - 14] Sewaddle
+[20%/Lv. 14 - 14] Venipede
+
+-------------------
+Slowpoke Well (Upper Floor)
+-------------------
+Cave (Day/Night):
+[30%/Lv. 14 - 15] Zubat*
+[30%/Lv. 14 - 15] Slowpoke*
+[20%/Lv. 14 - 15] Psyduck**
+[10%/Lv. 14 - 15] Shellos (West Sea)
+[10%/Lv. 14 - 15] Shellos (East Sea)
+
+* Zubat and Slowpoke will appear at a 20% rate if the Unova Sound is active.
+** Psyduck will not appear if the Unova Sound is active.
+
+Rock Smash:
+[70%/Lv. 14 - 15] Geodude
+[30%/Lv. 14 - 15] Shuckle
+
+Surfing:
+[40%/Lv. 25 - 25] Zubat
+[40%/Lv. 25 - 25] Slowpoke
+[10%/Lv. 30 - 30] Golbat
+[10%/Lv. 30 - 30] Slowbro
+
+Fishing:
+[40%/Lv. 05 - 15] Magikarp
+[40%/Lv. 14 - 15] Goldeen
+[20%/Lv. 14 - 15] Barboach
+
+Unova Sound:
+[40%/Lv. 14 - 15] Woobat
+
+-------------------
+Route 34
+-------------------
+Grass (Day/Night):
+[20%/Lv. 16 - 17] Drowzee
+[20%/Lv. 16 - 17] Jigglypuff*
+[20%/Lv. 16 - 16] Elekid*
+[20%/Lv. 16 - 16] Mime Jr.
+[10%/Lv. 16 - 17] Ditto
+[05%/Lv. 17 - 17] Kadabra
+[05%/Lv. 17 - 17] Pachirisu
+
+* These Pokémon will not appear if the Unova Sound is active.
+
+Headbutt:
+[40%/Lv. 16 - 18] Exeggcute
+[40%/Lv. 16 - 18] Taillow
+[20%/Lv. 16 - 18] Pineco
+
+Surfing:
+[80%/Lv. 25 - 25] Tentacool
+[20%/Lv. 30 - 30] Tentacruel
+
+Fishing:
+[40%/Lv. 16 - 17] Chinchou
+[20%/Lv. 16 - 17] Finneon
+[20%/Lv. 16 - 17] Corsola
+
+Unova Sound:
+[20%/Lv. 16 - 17] Ducklett
+[20%/Lv. 16 - 16] Minccino
+
+-------------------
+Goldenrod Game Corner
+-------------------
+Prize:
+[Lv. 20] Cubone, for 1,000 coins.
+[Lv. 20] Skarmory, for 2,000 coins.
+[Lv. 20] Porygon, for 4,000 coins.
+
+-------------------
+Route 35
+-------------------
+Grass (Day/Night):
+[20%/Lv. 17 - 18] Yanma
+[20%/Lv. 17 - 18] Nidorina*
+[20%/Lv. 17 - 18] Nidorino*
+[10%/Lv. 18 - 18] Volbeat
+[10%/Lv. 18 - 18] Illumise
+[10%/Lv. 17 - 18] Ditto
+[10%/Lv. 17 - 18] Kadabra
+
+* These Pokémon will not appear if the Unova Sound is active.
+
+Headbutt:
+[40%/Lv. 17 - 18] Hoothoot
+[20%/Lv. 17 - 18] Burmy
+[20%/Lv. 17 - 18] Pineco
+
+Surfing:
+[80%/Lv. 25 - 25] Psyduck
+[20%/Lv. 30 - 30] Golduck
+
+Fishing:
+[40%/Lv. 05 - 18] Magikarp
+[40%/Lv. 17 - 18] Poliwag
+[20%/Lv. 17 - 18] Corphish
+
+Unova Sound:
+[40%/Lv. 17 - 18] Emolga
+
+-------------------
+National Park
+-------------------
+Grass (Day):
+[20%/Lv. 18 - 18] Pidgeotto
+[20%/Lv. 17 - 18] Skitty*
+[20%/Lv. 17 - 18] Buneary*
+[20%/Lv. 17 - 18] Sunkern
+[10%/Lv. 17 - 18] Eevee
+[05%/Lv. 17 - 17] Happiny
+[05%/Lv. 18 - 18] Roselia
+
+* These Pokémon will not appear if the Unova Sound is active.
+
+Grass (Night):
+[20%/Lv. 18 - 18] Noctowl
+[20%/Lv. 17 - 18] Skitty*
+[20%/Lv. 17 - 18] Buneary*
+[20%/Lv. 17 - 18] Psyduck
+[10%/Lv. 17 - 18] Eevee
+[05%/Lv. 17 - 17] Happiny
+[05%/Lv. 18 - 18] Roselia
+
+* These Pokémon will not appear if the Unova Sound is active.
+
+Headbutt:
+[40%/Lv. 17 - 18] Hoothoot
+[40%/Lv. 17 - 18] Combee
+[20%/Lv. 17 - 18] Cherubi
+
+Unova Sound:
+[20%/Lv. 17 - 18] Cottonee
+[20%/Lv. 17 - 18] Petilil
+
+-------------------
+National Park (Bug-Catching Contest)
+-------------------
+Grass (Day/Night):
+[20%/Lv. 20 - 20] Paras
+[20%/Lv. 20 - 20] Venonat
+[10%/Lv. 20 - 20] Skorupi
+[10%/Lv. 20 - 20] Joltik
+[10%/Lv. 20 - 20] Karrablast
+[10%/Lv. 20 - 20] Shelmet
+[05%/Lv. 20 - 20] Trapinch
+[05%/Lv. 20 - 20] Larvesta
+[05%/Lv. 20 - 20] Scyther
+[05%/Lv. 20 - 20] Pinsir
+
+* Catching a Paras or Venonat will award you the fewest points from the contest judge.
+* Skorupi, Joltik, Karrablast and Shelmet are worth a middling amount of points from the contest judge.
+* Trapinch, Larvesta, Scyther and Pinsir are worth the most points from the contest judge.
+
+-------------------
+Route 36 (West)
+-------------------
+Grass (Day/Night):
+[20%/Lv. 17 - 18] Growlithe
+[20%/Lv. 17 - 18] Nidorina*
+[20%/Lv. 17 - 18] Nidorino*
+[20%/Lv. 17 - 18] Vulpix
+[10%/Lv. 17 - 17] Bonsly
+[05%/Lv. 18 - 18] Plusle
+[05%/Lv. 18 - 18] Minun
+
+* These Pokémon will not appear if the Unova Sound is active.
+
+Headbutt:
+[40%/Lv. 17 - 18] Hoothoot
+[40%/Lv. 17 - 18] Burmy
+[20%/Lv. 17 - 18] Pineco
+
+Unova Sound:
+[20%/Lv. 17 - 18] Gothita
+[20%/Lv. 17 - 18] Solosis
+
+-------------------
+Route 37
+-------------------
+Grass (Day):
+[20%/Lv. 23 - 24] Stantler
+[20%/Lv. 22 - 23] Growlithe*
+[20%/Lv. 22 - 23] Vulpix*
+[20%/Lv. 23 - 24] Luxio
+[10%/Lv. 23 - 24] Ledian
+[10%/Lv. 23 - 24] Pidgeotto
+
+* These Pokémon will not appear if the Unova Sound is active.
+
+Grass (Night):
+[20%/Lv. 23 - 24] Stantler
+[20%/Lv. 22 - 23] Growlithe*
+[20%/Lv. 22 - 23] Vulpix*
+[20%/Lv. 23 - 24] Luxio
+[10%/Lv. 23 - 24] Ariados
+[10%/Lv. 23 - 24] Noctowl
+
+* These Pokémon will not appear if the Unova Sound is active.
+
+Headbutt:
+[40%/Lv. 22 - 23] Hoothoot
+[40%/Lv. 22 - 23] Burmy
+[20%/Lv. 22 - 23] Pineco
+
+Unova Sound:
+[20%/Lv. 22 - 23] Gothita
+[20%/Lv. 22 - 23] Solosis
+
+-------------------
+Ecruteak City
+-------------------
+Headbutt:
+[40%/Lv. 22 - 23] Hoothoot
+[40%/Lv. 22 - 23] Wurmple
+[20%/Lv. 22 - 23] Starly
+
+Surfing:
+[80%/Lv. 25 - 25] Poliwag
+[20%/Lv. 30 - 30] Poliwhirl
+
+Fishing:
+[40%/Lv. 05 - 25] Magikarp
+[20%/Lv. 20 - 25] Poliwag
+[20%/Lv. 20 - 25] Corphish
+[20%/Lv. 25 - 25] Poliwhirl
+
+-------------------
+Route 38
+-------------------
+Grass (Day):
+[20%/Lv. 22 - 23] Doduo
+[20%/Lv. 22 - 23] Ponyta*
+[20%/Lv. 22 - 23] Snubbull*
+[20%/Lv. 22 - 23] Electrike
+[10%/Lv. 23 - 24] Farfetch'd
+[05%/Lv. 24 - 24] Miltank
+[05%/Lv. 24 - 24] Tauros
+
+* These Pokémon will not appear if the Unova Sound is active.
+
+Grass (Night):
+[20%/Lv. 22 - 23] Meowth
+[20%/Lv. 22 - 23] Ponyta*
+[20%/Lv. 22 - 23] Snubbull*
+[20%/Lv. 22 - 23] Electrike
+[10%/Lv. 23 - 24] Raticate
+[05%/Lv. 24 - 24] Miltank
+[05%/Lv. 24 - 24] Tauros
+
+* These Pokémon will not appear if the Unova Sound is active.
+
+Headbutt:
+[40%/Lv. 22 - 23] Hoothoot
+[40%/Lv. 22 - 23] Burmy
+[20%/Lv. 22 - 23] Pineco
+
+Unova Sound:
+[20%/Lv. 22 - 23] Blitzle
+[20%/Lv. 22 - 23] Herdier
+
+-------------------
+Route 42
+-------------------
+Grass (Day):
+[20%/Lv. 24 - 25] Gligar
+[20%/Lv. 23 - 24] Mankey*
+[20%/Lv. 23 - 24] Marill*
+[10%/Lv. 25 - 25] Arbok
+[10%/Lv. 25 - 25] Fearow
+[10%/Lv. 24 - 25] Seviper
+[10%/Lv. 24 - 25] Zangoose
+
+* These Pokémon will not appear if the Unova Sound is active.
+
+Grass (Night):
+[20%/Lv. 24 - 25] Gligar
+[20%/Lv. 23 - 24] Mankey*
+[20%/Lv. 23 - 24] Marill*
+[10%/Lv. 25 - 25] Arbok
+[10%/Lv. 25 - 25] Quagsire
+[10%/Lv. 24 - 25] Seviper
+[10%/Lv. 24 - 25] Zangoose
+
+* These Pokémon will not appear if the Unova Sound is active.
+
+Headbutt:
+[40%/Lv. 22 - 24] Spearow
+[40%/Lv. 22 - 24] Aipom
+[20%/Lv. 22 - 24] Heracross
+
+Surfing:
+[80%/Lv. 25 - 25] Goldeen
+[20%/Lv. 30 - 30] Seaking
+
+Fishing:
+[60%/Lv. 05 - 25] Magikarp
+[40%/Lv. 23 - 25] Goldeen
+
+Unova Sound:
+[40%/Lv. 23 - 24] Mienfoo
+
+-------------------
+Mt. Mortar (1F Rooms)
+-------------------
+Cave (Day):
+[15%/Lv. 19 - 19] Tyrogue
+[10%/Lv. 23 - 23] Zubat
+[10%/Lv. 23 - 23] Geodude
+[10%/Lv. 23 - 23] Cubone*
+[10%/Lv. 23 - 23] Machop*
+[10%/Lv. 23 - 23] Makuhita*
+[10%/Lv. 23 - 23] Meditite*
+[10%/Lv. 23 - 23] Riolu
+[05%/Lv. 25 - 25] Solrock
+[05%/Lv. 25 - 25] Lunatone
+[05%/Lv. 25 - 25] Kangaskhan
+
+* These Pokémon will not appear if the Unova Sound is active.
+
+Cave (Night):
+[15%/Lv. 19 - 19] Tyrogue
+[10%/Lv. 23 - 23] Zubat
+[10%/Lv. 23 - 23] Geodude
+[10%/Lv. 23 - 23] Cubone*
+[10%/Lv. 23 - 23] Machop*
+[10%/Lv. 23 - 23] Makuhita*
+[10%/Lv. 23 - 23] Meditite*
+[10%/Lv. 23 - 23] Clefairy
+[05%/Lv. 25 - 25] Solrock
+[05%/Lv. 25 - 25] Lunatone
+[05%/Lv. 25 - 25] Kangaskhan
+
+* These Pokémon will not appear if the Unova Sound is active.
+
+Surfing:
+[40%/Lv. 25 - 25] Marill
+[40%/Lv. 25 - 25] Goldeen
+[10%/Lv. 30 - 30] Seaking
+[10%/Lv. 30 - 30] Azumarill
+
+Fishing:
+[40%/Lv. 05 - 25] Magikarp
+[40%/Lv. 23 - 25] Goldeen
+[20%/Lv. 23 - 25] Barboach
+
+Unova Sound:
+[20%/Lv. 23 - 23] Ferroseed
+[20%/Lv. 23 - 23] Roggenrola
+
+-------------------
+Ice Path (Top Floor)
+-------------------
+Cave (Day/Night):
+[20%/Lv. 26 - 27] Golbat
+[20%/Lv. 25 - 26] Swinub*
+[20%/Lv. 25 - 25] Smoochum*
+[15%/Lv. 25 - 26] Snorunt
+[10%/Lv. 26 - 26] Delibird
+[10%/Lv. 26 - 26] Sneasel
+[05%/Lv. 25 - 25] Beldum
+
+* These Pokémon will not appear if the Unova Sound is active.
+
+Unova Sound:
+[20%/Lv. 25 - 26] Cubchoo
+[20%/Lv. 25 - 25] Vanillite
+
+-------------------
+Burned Tower
+-------------------
+Walk (Day/Night):
+[20%/Lv. 25 - 25] Magby
+[20%/Lv. 25 - 26] Koffing*
+[20%/Lv. 25 - 26] Grimer*
+[20%/Lv. 25 - 26] Spinda
+[10%/Lv. 26 - 27] Golbat
+[10%/Lv. 26 - 27] Raticate
+
+* These Pokémon will not appear if the Unova Sound is active.
+
+Unova Sound:
+[20%/Lv. 25 - 26] Litwick
+[20%/Lv. 25 - 26] Elygem
+
+-------------------
+Route 44
+-------------------
+Grass (Day/Night):
+[20%/Lv. 28 - 29] Poliwhirl
+[20%/Lv. 27 - 28] Swinub*
+[20%/Lv. 27 - 28] Snover*
+[20%/Lv. 28 - 29] Lickitung
+[10%/Lv. 28 - 29] Sneasel
+[10%/Lv. 28 - 29] Delibird
+
+* These Pokémon will not appear if the Unova Sound is active.
+
+Headbutt:
+[40%/Lv. 22 - 24] Spearow
+[40%/Lv. 22 - 24] Aipom
+[20%/Lv. 22 - 24] Munchlax
+
+Surfing:
+[80%/Lv. 25 - 25] Spheal
+[20%/Lv. 30 - 30] Sealeo
+
+Fishing:
+[40%/Lv. 05 - 25] Magikarp
+[40%/Lv. 23 - 25] Poliwag
+[20%/Lv. 23 - 25] Remoraid
+
+Unova Sound:
+[20%/Lv. 27 - 28] Klink
+[20%/Lv. 27 - 28] Vanillite
+
+-------------------
+Union Cave (Lowest Floor)
+-------------------
+Cave (Day/Night):
+[20%/Lv. 28 - 29] Rhyhorn*
+[20%/Lv. 28 - 29] Sandslash*
+[10%/Lv. 29 - 29] Golbat
+[10%/Lv. 29 - 29] Graveler
+[10%/Lv. 29 - 29] Loudred
+[10%/Lv. 29 - 29] Hariyama
+[10%/Lv. 28 - 29] Onix
+[05%/Lv. 28 - 28] Sableye
+[05%/Lv. 28 - 28] Mawile
+
+* These Pokémon will not appear if the Unova Sound is active.
+
+Rock Smash:
+[70%/Lv. 28 - 29] Graveler
+[30%/Lv. 28 - 29] Dugtrio
+
+Surfing:
+[40%/Lv. 25 - 25] Tentacool
+[40%/Lv. 25 - 25] Wooper
+[10%/Lv. 30 - 30] Quagsire
+[10%/Lv. 30 - 30] Tentacruel
+
+Fishing:
+[40%/Lv. 28 - 29] Chinchou
+[40%/Lv. 28 - 29] Finneon
+[20%/Lv. 28 - 29] Corsola
+
+Unova Sound:
+[20%/Lv. 28 - 29] Drilbur
+[20%/Lv. 28 - 29] Gurdurr
+
+-------------------
+Slowpoke Well (Lower Floor)
+-------------------
+Cave (Day/Night):
+[20%/Lv. 27 - 27] Slowpoke
+[20%/Lv. 28 - 29] Golbat*
+[20%/Lv. 27 - 27] Psyduck*
+[10%/Lv. 27 - 27] Shellos (West Sea)
+[10%/Lv. 27 - 27] Shellos (East Sea)
+[10%/Lv. 28 - 29] Slowbro
+[10%/Lv. 28 - 29] Slowking
+
+* These Pokémon will not appear if the Unova Sound is active.
+
+Rock Smash:
+[70%/Lv. 28 - 29] Graveler
+[30%/Lv. 28 - 29] Shuckle
+
+Surfing:
+[40%/Lv. 25 - 25] Zubat
+[40%/Lv. 25 - 25] Slowpoke
+[10%/Lv. 30 - 30] Golbat
+[10%/Lv. 30 - 30] Slowbro
+
+Fishing:
+[40%/Lv. 05 - 29] Magikarp
+[40%/Lv. 27 - 29] Goldeen
+[20%/Lv. 27 - 29] Barboach
+
+Unova Sound:
+[40%/Lv. 27 - 29] Swoobat
+
+-------------------
+Route 39
+-------------------
+Grass (Day):
+[20%/Lv. 26 - 27] Doduo
+[20%/Lv. 26 - 27] Ponyta*
+[20%/Lv. 27 - 28] Flaaffy*
+[10%/Lv. 29 - 29] Granbull
+[10%/Lv. 29 - 29] Manectric
+[10%/Lv. 28 - 29] Farfetch'd
+[05%/Lv. 29 - 29] Miltank
+[05%/Lv. 29 - 29] Tauros
+
+* These Pokémon will not appear if the Unova Sound is active.
+
+Grass (Night):
+[20%/Lv. 26 - 27] Meowth
+[20%/Lv. 26 - 27] Ponyta*
+[20%/Lv. 27 - 28] Flaaffy*
+[10%/Lv. 29 - 29] Granbull
+[10%/Lv. 29 - 29] Manectric
+[10%/Lv. 28 - 29] Raticate
+[05%/Lv. 29 - 29] Miltank
+[05%/Lv. 29 - 29] Tauros
+
+* These Pokémon will not appear if the Unova Sound is active.
+
+Headbutt:
+[40%/Lv. 26 - 27] Hoothoot
+[40%/Lv. 26 - 27] Burmy
+[20%/Lv. 26 - 27] Pineco
+
+Unova Sound:
+[20%/Lv. 26 - 27] Blitzle
+[20%/Lv. 27 - 28] Herdier
+
+-------------------
+Olivine City
+-------------------
+Surfing:
+[40%/Lv. 26 - 28] Wingull
+[40%/Lv. 26 - 28] Tentacool
+[10%/Lv. 30 - 32] Pelipper
+[10%/Lv. 30 - 32] Tentacruel
+
+Fishing:
+[40%/Lv. 27 - 29] Krabby
+[40%/Lv. 27 - 29] Staryu
+[20%/Lv. 27 - 29] Corsola
+
+-------------------
+Route 40
+-------------------
+Grass (Day):
+[20%/Lv. 27 - 28] Exeggcute
+[20%/Lv. 27 - 28] Magnemite*
+[20%/Lv. 27 - 28] Slowpoke*
+[10%/Lv. 29 - 29] Tangela
+[10%/Lv. 29 - 29] Mr. Mime
+[10%/Lv. 29 - 29] Floatzel
+[10%/Lv. 29 - 29] Chatot
+
+* These Pokémon will not appear if the Unova Sound is active.
+
+Grass (Night):
+[20%/Lv. 27 - 28] Exeggcute
+[20%/Lv. 27 - 28] Magnemite*
+[20%/Lv. 27 - 28] Slowpoke*
+[10%/Lv. 29 - 29] Tangela
+[10%/Lv. 29 - 29] Mr. Mime
+[10%/Lv. 29 - 29] Floatzel
+[10%/Lv. 29 - 29] Drifblim
+
+* These Pokémon will not appear if the Unova Sound is active.
+
+Rock Smash:
+[70%/Lv. 27 - 29] Krabby
+[30%/Lv. 27 - 29] Shuckle
+
+Surfing:
+[40%/Lv. 26 - 28] Wingull
+[40%/Lv. 26 - 28] Tentacool
+[10%/Lv. 30 - 32] Pelipper
+[10%/Lv. 30 - 32] Tentacruel
+
+Fishing:
+[40%/Lv. 27 - 29] Staryu
+[40%/Lv. 27 - 29] Chinchou
+[20%/Lv. 27 - 29] Clamperl
+
+Unova Sound:
+[20%/Lv. 27 - 28] Sawk
+[20%/Lv. 27 - 28] Throh
+
+-------------------
+Route 41
+-------------------
+Surfing:
+[40%/Lv. 28 - 29] Mantyke
+[20%/Lv. 30 - 32] Pelipper
+[20%/Lv. 30 - 32] Tentacruel
+[10%/Lv. 30 - 32] Sharpedo
+[10%/Lv. 30 - 32] Mantine
+
+Fishing:
+[40%/Lv. 28 - 29] Horsea
+[40%/Lv. 28 - 29] Shellder
+[20%/Lv. 28 - 29] Wailmer
+
+-------------------
+Cianwood City
+-------------------
+Rock Smash:
+[70%/Lv. 28 - 29] Krabby
+[30%/Lv. 28 - 29] Shuckle
+
+Surfing:
+[40%/Lv. 28 - 29] Wingull
+[40%/Lv. 28 - 29] Tentacool
+[10%/Lv. 30 - 32] Pelipper
+[10%/Lv. 30 - 32] Tentacruel
+
+Fishing:
+[40%/Lv. 28 - 29] Krabby
+[40%/Lv. 28 - 29] Staryu
+[20%/Lv. 28 - 29] Corsola
+
+-------------------
+Route 47
+-------------------
+Grass (Day):
+[20%/Lv. 48 - 50] Ditto
+[20%/Lv. 48 - 50] Fearow*
+[20%/Lv. 48 - 50] Farfetch'd*
+[20%/Lv. 48 - 50] Miltank
+[10%/Lv. 48 - 50] Golduck
+[10%/Lv. 48 - 50] Tropius
+
+* These Pokémon will not appear if the Unova Sound is active.
+
+Grass (Night):
+[20%/Lv. 48 - 50] Ditto
+[20%/Lv. 48 - 50] Raticate*
+[20%/Lv. 48 - 50] Noctowl*
+[20%/Lv. 48 - 50] Miltank
+[10%/Lv. 48 - 50] Golduck
+[10%/Lv. 48 - 50] Tropius
+
+* These Pokémon will not appear if the Unova Sound is active.
+
+Headbutt:
+???
+
+Surfing:
+[40%/Lv. 29 - 32] Seel
+[20%/Lv. 29 - 32] Staryu
+[20%/Lv. 29 - 32] Tentacool
+[10%/Lv. 34 - 34] Tentacruel
+[10%/Lv. 34 - 34] Dewgong
+
+Fishing:
+[40%/Lv. 29 - 32] Chinchou
+[40%/Lv. 29 - 32] Shellder
+[20%/Lv. 29 - 32] Luvdisc
+
+Unova Sound:
+[40%/Lv. 48 - 50] Audino
+
+-------------------
+Cliff Cave
+-------------------
+Cave (Day):
+[30%/Lv. 32 - 33] Golbat
+[20%/Lv. 32 - 33] Graveler*
+[20%/Lv. 32 - 33] Machoke*
+[10%/Lv. 32 - 32] Sableye
+[10%/Lv. 32 - 32] Mawile
+[05%/Lv. 33 - 33] Kingler
+[05%/Lv. 33 - 33] Steelix
+
+* These Pokémon will not appear if the Unova Sound is active.
+
+Cave (Night):
+[20%/Lv. 32 - 33] Golbat
+[20%/Lv. 32 - 33] Graveler*
+[20%/Lv. 32 - 33] Machoke*
+[10%/Lv. 32 - 32] Sableye
+[10%/Lv. 32 - 32] Mawile
+[10%/Lv. 32 - 33] Misdreavus
+[05%/Lv. 33 - 33] Kingler
+[05%/Lv. 33 - 33] Steelix
+
+* These Pokémon will not appear if the Unova Sound is active.
+
+Rock Smash:
+[70%/Lv. 32 - 33] Kingler
+[30%/Lv. 32 - 33] Dugtrio
+
+Unova Sound:
+[20%/Lv. 32 - 33] Boldore
+[20%/Lv. 32 - 33] Crustle
+
+-------------------
+Route 48
+-------------------
+Grass (Day):
+[20%/Lv. 32 - 33] Girafarig
+[20%/Lv. 32 - 33] Weepinbell*
+[20%/Lv. 32 - 33] Skiploom*
+[15%/Lv. 33 - 33] Tauros
+[10%/Lv. 33 - 33] Scyther
+[10%/Lv. 33 - 33] Pinsir
+[05%/Lv. 33 - 33] Chansey
+
+* These Pokémon will not appear if the Unova Sound is active.
+
+Grass (Night):
+[20%/Lv. 32 - 33] Girafarig
+[20%/Lv. 32 - 33] Weepinbell*
+[20%/Lv. 32 - 33] Gloom*
+[15%/Lv. 33 - 33] Tauros
+[10%/Lv. 33 - 33] Scyther
+[10%/Lv. 33 - 33] Pinsir
+[05%/Lv. 33 - 33] Chansey
+
+* These Pokémon will not appear if the Unova Sound is active.
+
+Headbutt:
+[40%/Lv. 30 - 32] Spearow
+[40%/Lv. 30 - 32] Aipom
+[20%/Lv. 30 - 32] Heracross
+
+Unova Sound:
+[20%/Lv. 32 - 33] Audino
+[20%/Lv. 32 - 33] Bouffalant
+
+-------------------
+Safari Zone Gate
+-------------------
+Headbutt:
+[40%/Lv. 30 - 32] Hoothoot
+[40%/Lv. 30 - 32] Combee
+[20%/Lv. 30 - 32] Pineco
+
+-------------------
+Safari Zone
+-------------------
+Only the basic encounters for each zone have been edited.
+The encounters you can get from object placement are the same as vanilla HG/SS.
+
+Plains
+-----------
+Grass (Day/Night):
+[10%/Lv. 30 - 30] Deerling
+[10%/Lv. 30 - 30] Doduo
+[10%/Lv. 30 - 30] Joltik
+[10%/Lv. 30 - 30] Lillipup
+[10%/Lv. 30 - 30] Miltank
+[10%/Lv. 30 - 30] Minccino
+[10%/Lv. 30 - 30] Patrat
+[10%/Lv. 30 - 30] Pidove
+[10%/Lv. 30 - 30] Purrloin
+[10%/Lv. 30 - 30] Spinda
+
+Meadow
+-----------
+Grass (Day/Night):
+[10%/Lv. 30 - 30] Audino
+[10%/Lv. 30 - 30] Cottonee
+[10%/Lv. 30 - 30] Gothita
+[10%/Lv. 30 - 30] Happiny
+[10%/Lv. 30 - 30] Igglybuff
+[10%/Lv. 30 - 30] Munna
+[10%/Lv. 30 - 30] Petilil
+[10%/Lv. 30 - 30] Riolu
+[10%/Lv. 30 - 30] Solosis
+[10%/Lv. 30 - 30] Togepi
+
+Surfing:
+[20%/Lv. 30 - 30] Azurill
+[20%/Lv. 30 - 30] Ducklett
+[20%/Lv. 30 - 30] Hoppip
+[20%/Lv. 30 - 30] Surskit
+[20%/Lv. 30 - 30] Wooper
+
+Fishing:
+[30%/Lv. 30 - 30] Magikarp
+[30%/Lv. 30 - 30] Poliwag
+[20%/Lv. 30 - 30] Basculin (Red-Striped)
+[20%/Lv. 30 - 30] Basculin (Blue-Striped)
+
+
+Savannah
+-----------
+Grass (Day/Night):
+[10%/Lv. 30 - 30] Blitzle
+[10%/Lv. 30 - 30] Bouffalant
+[10%/Lv. 30 - 30] Electrike
+[10%/Lv. 30 - 30] Elgyem
+[10%/Lv. 30 - 30] Houndour
+[10%/Lv. 30 - 30] Nidoran F
+[10%/Lv. 30 - 30] Nidoran M
+[10%/Lv. 30 - 30] Rhyhorn
+[10%/Lv. 30 - 30] Scraggy
+[10%/Lv. 30 - 30] Tauros
+
+Peak
+-----------
+Grass (Day/Night):
+[10%/Lv. 30 - 30] Beldum
+[10%/Lv. 30 - 30] Bronzor
+[10%/Lv. 30 - 30] Cleffa
+[10%/Lv. 30 - 30] Elekid
+[10%/Lv. 30 - 30] Klink
+[10%/Lv. 30 - 30] Magby
+[10%/Lv. 30 - 30] Magnemite
+[10%/Lv. 30 - 30] Mienfoo
+[10%/Lv. 30 - 30] Roggenrola
+[10%/Lv. 30 - 30] Skarmory
+
+Rocky Beach
+-----------
+Grass (Day/Night):
+[10%/Lv. 30 - 30] Buizel
+[10%/Lv. 30 - 30] Dwebble
+[10%/Lv. 30 - 30] Krabby
+[10%/Lv. 30 - 30] Pachirisu
+[10%/Lv. 30 - 30] Sawk
+[10%/Lv. 30 - 30] Scraggy
+[10%/Lv. 30 - 30] Shuckle
+[10%/Lv. 30 - 30] Taillow
+[10%/Lv. 30 - 30] Throh
+[10%/Lv. 30 - 30] Tynamo
+
+Surfing:
+[30%/Lv. 30 - 30] Wingull
+[20%/Lv. 30 - 30] Tynamo
+[20%/Lv. 30 - 30] Frillish
+[20%/Lv. 30 - 30] Alomomola
+[10%/Lv. 30 - 30] Lapras
+
+Fishing:
+[20%/Lv. 30 - 30] Basculin (Red-Striped)
+[20%/Lv. 30 - 30] Basculin (Blue-Striped)
+[20%/Lv. 30 - 30] Clamperl
+[20%/Lv. 30 - 30] Wailmer
+[10%/Lv. 30 - 30] Alomomola
+[10%/Lv. 30 - 30] Corsola
+
+Wetland
+-----------
+Grass (Day/Night):
+[10%/Lv. 30 - 30] Croagunk
+[10%/Lv. 30 - 30] Ditto
+[10%/Lv. 30 - 30] Ducklett
+[10%/Lv. 30 - 30] Farfetch'd
+[10%/Lv. 30 - 30] Karrablast 
+[10%/Lv. 30 - 30] Lotad
+[10%/Lv. 30 - 30] Shelmet
+[10%/Lv. 30 - 30] Skorupi
+[10%/Lv. 30 - 30] Stunfisk
+[10%/Lv. 30 - 30] Tympole
+
+Surfing:
+[30%/Lv. 30 - 30] Poliwag
+[30%/Lv. 30 - 30] Surskit
+[30%/Lv. 30 - 30] Wooper
+[10%/Lv. 30 - 30] Stunfisk
+
+Fishing:
+[70%/Lv. 30 - 30] Barboach
+[30%/Lv. 30 - 30] Stunfisk
+
+Forest
+-----------
+Grass (Day/Night):
+[10%/Lv. 30 - 30] Emolga
+[10%/Lv. 30 - 30] Foongus
+[10%/Lv. 30 - 30] Panpour
+[10%/Lv. 30 - 30] Pansage
+[10%/Lv. 30 - 30] Pansear
+[10%/Lv. 30 - 30] Pichu
+[10%/Lv. 30 - 30] Sewaddle
+[10%/Lv. 30 - 30] Slakoth
+[10%/Lv. 30 - 30] Venipede
+[10%/Lv. 30 - 30] Zorua
+
+Swamp
+-----------
+Grass (Day/Night):
+[10%/Lv. 30 - 30] Bellsprout
+[10%/Lv. 30 - 30] Carnivine
+[10%/Lv. 30 - 30] Drowzee
+[10%/Lv. 30 - 30] Ekans
+[10%/Lv. 30 - 30] Gastly
+[10%/Lv. 30 - 30] Karrablast
+[10%/Lv. 30 - 30] Litwick
+[10%/Lv. 30 - 30] Paras
+[10%/Lv. 30 - 30] Shelmet
+[10%/Lv. 30 - 30] Skorupi
+
+Surfing:
+[40%/Lv. 30 - 30] Goldeen
+[40%/Lv. 30 - 30] Wooper
+[20%/Lv. 30 - 30] Stunfisk
+
+Fishing:
+[30%/Lv. 30 - 30] Barboach
+[30%/Lv. 30 - 30] Poliwag
+[30%/Lv. 30 - 30] Stunfisk
+[10%/Lv. 30 - 30] Dratini
+
+Marshland
+-----------
+Grass (Day/Night):
+[10%/Lv. 30 - 30] Bidoof
+[10%/Lv. 30 - 30] Budew
+[10%/Lv. 30 - 30] Carnivine
+[10%/Lv. 30 - 30] Croagunk
+[10%/Lv. 30 - 30] Duskull
+[10%/Lv. 30 - 30] Grimer
+[10%/Lv. 30 - 30] Koffing
+[10%/Lv. 30 - 30] Shuppet
+[10%/Lv. 30 - 30] Tropius
+[10%/Lv. 30 - 30] Trubbish
+
+Surfing:
+[40%/Lv. 30 - 30] Grimer
+[40%/Lv. 30 - 30] Wooper
+[20%/Lv. 30 - 30] Stunfisk
+
+Fishing:
+[40%/Lv. 30 - 30] Barboach
+[30%/Lv. 30 - 30] Grimer
+[30%/Lv. 30 - 30] Stunfisk
+
+Wasteland
+-----------
+Grass (Day/Night):
+[10%/Lv. 30 - 30] Axew
+[10%/Lv. 30 - 30] Cubone
+[10%/Lv. 30 - 30] Kangaskhan
+[10%/Lv. 30 - 30] Numel
+[10%/Lv. 30 - 30] Pawniard
+[10%/Lv. 30 - 30] Rufflet
+[10%/Lv. 30 - 30] Slugma
+[10%/Lv. 30 - 30] Torkoal
+[10%/Lv. 30 - 30] Vullaby
+[10%/Lv. 30 - 30] Yamask
+
+Mountain
+-----------
+Grass (Day/Night):
+[10%/Lv. 30 - 30] Bagon
+[10%/Lv. 30 - 30] Deino
+[10%/Lv. 30 - 30] Drilbur
+[10%/Lv. 30 - 30] Druddigon
+[10%/Lv. 30 - 30] Durant
+[10%/Lv. 30 - 30] Ferroseed
+[10%/Lv. 30 - 30] Heatmor
+[10%/Lv. 30 - 30] Larvitar
+[10%/Lv. 30 - 30] Timburr
+[10%/Lv. 30 - 30] Woobat
+
+Desert
+-----------
+Grass (Day/Night):
+[10%/Lv. 30 - 30] Cacnea
+[10%/Lv. 30 - 30] Darumaka
+[10%/Lv. 30 - 30] Gible
+[10%/Lv. 30 - 30] Golett
+[10%/Lv. 30 - 30] Hippopotas
+[10%/Lv. 30 - 30] Larvesta
+[10%/Lv. 30 - 30] Maractus
+[10%/Lv. 30 - 30] Sandile
+[10%/Lv. 30 - 30] Sigilyph
+[10%/Lv. 30 - 30] Trapinch
+
+-------------------
+Route 43
+-------------------
+Grass (Day):
+[20%/Lv. 35 - 36] Furret
+[20%/Lv. 35 - 36] Flaaffy*
+[20%/Lv. 35 - 36] Weepinbell*
+[20%/Lv. 35 - 36] Girafarig
+[10%/Lv. 35 - 36] Lombre
+[10%/Lv. 35 - 36] Farfetch'd
+
+* These Pokémon will not appear if the Unova Sound is active.
+
+Grass (Night):
+[20%/Lv. 35 - 36] Raticate
+[20%/Lv. 35 - 36] Flaaffy*
+[20%/Lv. 35 - 36] Weepinbell*
+[20%/Lv. 35 - 36] Girafarig
+[10%/Lv. 35 - 36] Lombre
+[10%/Lv. 35 - 36] Venomoth
+
+* These Pokémon will not appear if the Unova Sound is active.
+
+Headbutt:
+[40%/Lv. 32 - 35] Hoothoot
+[20%/Lv. 32 - 35] Venonat
+[20%/Lv. 32 - 35] Exeggcute
+
+Surfing:
+[100%/Lv. 05 - 35] Magikarp
+
+Fishing:
+[40%/Lv. 05 - 35] Magikarp
+[40%/Lv. 35 - 36] Poliwhirl
+[20%/Lv. 35 - 36] Crawdaunt
+
+Unova Sound:
+[20%/Lv. 35 - 36] Foongus
+[20%/Lv. 35 - 36] Deerling
+
+-------------------
+Lake of Rage
+-------------------
+Headbutt:
+[40%/Lv. 32 - 35] Hoothoot
+[20%/Lv. 32 - 35] Venonat
+[20%/Lv. 32 - 35] Exeggcute
+
+Surfing:
+[90%/Lv. 05 - 40] Magikarp
+[10%/Lv. 40 - 40] Gyarados
+
+Fishing:
+[80%/Lv. 05 - 40] Magikarp
+[10%/Lv. 05 - 40] Feebas
+[10%/Lv. 40 - 40] Gyarados
+
+-------------------
+Whirl Islands
+-------------------
+Cave (Day/Night):
+[20%/Lv. 42 - 43] Golbat
+[20%/Lv. 42 - 43] Dewgong*
+[20%/Lv. 42 - 43] Kingler*
+[10%/Lv. 42 - 43] Sealeo
+[10%/Lv. 43 - 43] Golduck
+[10%/Lv. 43 - 43] Slowbro
+[05%/Lv. 43 - 43] Gastrodon (West Sea)
+[05%/Lv. 43 - 43] Gastrodon (East Sea)
+
+* These Pokémon will not appear if the Unova Sound is active.
+
+Surfing:
+[40%/Lv. 38 - 39] Horsea
+[40%/Lv. 38 - 39] Tentacool
+[10%/Lv. 42 - 43] Tentacruel
+[10%/Lv. 42 - 43] Seadra
+
+Fishing:
+[40%/Lv. 42 - 43] Seadra
+[40%/Lv. 42 - 43] Kingler
+[20%/Lv. 42 - 43] Relicanth
+
+Unova Sound:
+[20%/Lv. 42 - 43] Swoobat
+[20%/Lv. 42 - 43] Eelektrik
+
+-------------------
+Ice Path (Lower Floors)
+-------------------
+Cave (Day/Night):
+[20%/Lv. 42 - 43] Golbat
+[20%/Lv. 42 - 43] Jynx*
+[20%/Lv. 42 - 43] Piloswine*
+[10%/Lv. 42 - 42] Delibird
+[10%/Lv. 42 - 42] Sneasel
+[10%/Lv. 42 - 43] Glalie
+[05%/Lv. 42 - 42] Metang
+[05%/Lv. 43 - 43] Absol
+
+* These Pokémon will not appear if the Unova Sound is active.
+
+Unova Sound:
+[20%/Lv. 42 - 43] Vanillish
+[20%/Lv. 42 - 43] Cryogonal
+
+-------------------
+Blackthorn City
+-------------------
+Surfing:
+[100%/Lv. 05 - 45] Magikarp
+
+Fishing:
+[100%/Lv. 05 - 45] Magikarp
+
+-------------------
+Route 45 (North)
+-------------------
+Grass (Day):
+[10%/Lv. 44 - 44] Graveler
+[10%/Lv. 45 - 45] Fearow
+[20%/Lv. 44 - 45] Gligar*
+[20%/Lv. 44 - 45] Donphan*
+[20%/Lv. 44 - 45] Skarmory
+[05%/Lv. 45 - 45] Camerupt
+[05%/Lv. 45 - 45] Grumpig
+[05%/Lv. 45 - 45] Torkoal
+[05%/Lv. 45 - 45] Altaria
+
+* These Pokémon will not appear if the Unova Sound is active.
+
+Grass (Night):
+[10%/Lv. 44 - 44] Graveler
+[10%/Lv. 45 - 45] Houndoom
+[20%/Lv. 44 - 45] Gligar*
+[20%/Lv. 45 - 45] Donphan*
+[20%/Lv. 44 - 45] Skarmory
+[05%/Lv. 45 - 45] Camerupt
+[05%/Lv. 45 - 45] Grumpig
+[05%/Lv. 45 - 45] Torkoal
+[05%/Lv. 45 - 45] Altaria
+
+* These Pokémon will not appear if the Unova Sound is active.
+
+Unova Sound:
+[20%/Lv. 44 - 45] Durant
+[20%/Lv. 44 - 45] Heatmor
+
+-------------------
+Dark Cave (Blackthorn Side)
+-------------------
+Cave (Day/Night):
+[20%/Lv. 44 - 45] Golbat
+[20%/Lv. 44 - 45] Graveler*
+[20%/Lv. 44 - 45] Ursaring*
+[20%/Lv. 44 - 45] Wobbuffet
+[10%/Lv. 44 - 45] Lairon
+[05%/Lv. 44 - 44] Pupitar
+[05%/Lv. 44 - 44] Dunsparce
+
+* These Pokémon will not appear if the Unova Sound is active.
+
+Rock Smash:
+[70%/Lv. 44 - 45] Dunsparce
+[30%/Lv. 44 - 45] Magcargo
+
+Surfing:
+[100%/Lv. 44 - 45] Golbat
+
+Fishing:
+[40%/Lv. 05 - 45] Magikarp
+[40%/Lv. 44 - 45] Seaking
+[20%/Lv. 44 - 45] Whiscash
+
+Unova Sound:
+[20%/Lv. 44 - 45] Fraxure
+[20%/Lv. 44 - 45] Boldore
+
+-------------------
+Dragon's Den
+-------------------
+Cave (Day/Night):
+[40%/Lv. 47 - 48] Golbat*
+[20%/Lv. 47 - 48] Arbok**
+[20%/Lv. 47 - 47] Dunsparce
+[10%/Lv. 47 - 47] Gabite
+[10%/Lv. 47 - 47] Shelgon
+
+* Golbat will appear at a 20% rate if the Unova Sound is active.
+** Arbok will not appear if the Unova Sound is active.
+
+Surfing:
+[60%/Lv. 05 - 45] Magikarp
+[30%/Lv. 40 - 45] Dratini
+[10%/Lv. 47 - 47] Dragonair
+
+Fishing:
+[40%/Lv. 05 - 45] Magikarp
+[40%/Lv. 40 - 45] Dratini
+[20%/Lv. 47 - 47] Dragonair
+
+Unova Sound:
+[20%/Lv. 47 - 48] Zweilous
+[20%/Lv. 47 - 48] Druddigon
+
+-------------------
+Mt. Mortar (Upper Floors)
+-------------------
+Cave (Day):
+[10%/Lv. 48 - 48] Graveler
+[10%/Lv. 48 - 48] Machoke
+[10%/Lv. 50 - 50] Hariyama*
+[10%/Lv. 50 - 50] Medicham*
+[10%/Lv. 50 - 50] Solrock*
+[10%/Lv. 50 - 50] Lunatone*
+[10%/Lv. 50 - 50] Marowak
+[10%/Lv. 47 - 47] Riolu
+[05%/Lv. 50 - 50] Hitmonlee
+[05%/Lv. 50 - 50] Hitmontop
+[05%/Lv. 50 - 50] Hitmonchan
+[05%/Lv. 50 - 50] Kangaskhan
+
+* These Pokémon will not appear if the Unova Sound is active.
+
+Cave (Night):
+[10%/Lv. 48 - 48] Graveler
+[10%/Lv. 48 - 48] Machoke
+[10%/Lv. 50 - 50] Hariyama*
+[10%/Lv. 50 - 50] Medicham*
+[10%/Lv. 50 - 50] Solrock*
+[10%/Lv. 50 - 50] Lunatone*
+[10%/Lv. 50 - 50] Marowak
+[10%/Lv. 47 - 47] Clefairy
+[05%/Lv. 50 - 50] Hitmonlee
+[05%/Lv. 50 - 50] Hitmontop
+[05%/Lv. 50 - 50] Hitmonchan
+[05%/Lv. 50 - 50] Kangaskhan
+
+* These Pokémon will not appear if the Unova Sound is active.
+
+Surfing:
+[80%/Lv. 48 - 50] Golbat
+[20%/Lv. 50 - 50] Azumarill
+
+Fishing:
+[40%/Lv. 05 - 50] Magikarp
+[40%/Lv. 48 - 50] Seaking
+[20%/Lv. 48 - 50] Whiscash
+
+Unova Sound:
+[20%/Lv. 50 - 50] Boldore
+[20%/Lv. 50 - 50] Ferrothorn
+
+-------------------
+Bell Tower
+-------------------
+Walk (Day/Night):
+[20%/Lv. 48 - 49] Haunter
+[20%/Lv. 48 - 50] Raticate*
+[20%/Lv. 48 - 50] Ariados*
+[10%/Lv. 49 - 49] Banette
+[10%/Lv. 49 - 49] Dusclops
+[10%/Lv. 49 - 50] Bronzong
+[10%/Lv. 49 - 50] Chimecho
+
+* These Pokémon will not appear if the Unova Sound is active.
+
+Unova Sound:
+[20%/Lv. 48 - 49] Lampent
+[20%/Lv. 48 - 50] Beheeyem
+
+-------------------
+Tohjo Falls
+-------------------
+Cave (Day/Night):
+[20%/Lv. 48 - 50] Golbat
+[20%/Lv. 48 - 50] Slowbro*
+[20%/Lv. 48 - 50] Quagsire*
+[20%/Lv. 48 - 50] Golduck
+[10%/Lv. 48 - 50] Floatzel
+[10%/Lv. 48 - 50] Azumarill
+
+* These Pokémon will not appear if the Unova Sound is active.
+
+Surfing:
+[40%/Lv. 48 - 50] Golbat
+[40%/Lv. 48 - 50] Seaking
+[20%/Lv. 48 - 50] Slowbro
+
+Fishing:
+[40%/Lv. 48 - 50] Gyarados
+[40%/Lv. 48 - 50] Seaking
+[20%/Lv. 48 - 50] Whiscash
+
+Unova Sound:
+[20%/Lv. 48 - 50] Swoobat
+[20%/Lv. 48 - 50] Eelektrik
+
+-------------------
+Route 27
+-------------------
+Grass (Day):
+[20%/Lv. 49 - 50] Dodrio
+[20%/Lv. 49 - 50] Rapidash
+[10%/Lv. 50 - 50] Manectric*
+[10%/Lv. 49 - 49] Zangoose*
+[10%/Lv. 49 - 49] Seviper*
+[10%/Lv. 50 - 50] Linoone*
+[10%/Lv. 49 - 49] Kecleon
+[10%/Lv. 50 - 50] Purugly
+
+* These Pokémon will not appear if the Unova Sound is active.
+
+Grass (Night):
+[20%/Lv. 49 - 50] Quagsire
+[20%/Lv. 49 - 50] Rapidash
+[10%/Lv. 50 - 50] Manectric*
+[10%/Lv. 49 - 49] Zangoose*
+[10%/Lv. 49 - 49] Seviper*
+[10%/Lv. 50 - 50] Linoone*
+[10%/Lv. 49 - 49] Kecleon
+[10%/Lv. 50 - 50] Purugly
+
+* These Pokémon will not appear if the Unova Sound is active.
+
+Headbutt:
+???
+
+Surfing:
+[60%/Lv. 49 - 50] Tentacruel
+[40%/Lv. 49 - 50] Pelipper
+
+Fishing:
+[40%/Lv. 49 - 50] Lanturn
+[40%/Lv. 49 - 50] Cloyster
+[20%/Lv. 49 - 50] Luvdisc
+
+Unova Sound:
+[20%/Lv. 49 - 50] Sawk
+[20%/Lv. 49 - 50] Throh
+
+-------------------
+Route 26
+-------------------
+Grass (Day):
+[20%/Lv. 49 - 50] Dodrio
+[20%/Lv. 49 - 50] Rapidash*
+[20%/Lv. 49 - 50] Sandslash*
+[10%/Lv. 49 - 49] Mightyena
+[10%/Lv. 49 - 49] Primeape
+[10%/Lv. 49 - 49] Kecleon
+[10%/Lv. 50 - 50] Skuntank
+
+* These Pokémon will not appear if the Unova Sound is active.
+
+Grass (Night):
+[20%/Lv. 49 - 50] Houndoom
+[20%/Lv. 49 - 50] Rapidash*
+[20%/Lv. 49 - 50] Sandslash*
+[10%/Lv. 49 - 49] Mightyena
+[10%/Lv. 49 - 49] Primeape
+[10%/Lv. 49 - 49] Kecleon
+[10%/Lv. 50 - 50] Skuntank
+
+* These Pokémon will not appear if the Unova Sound is active.
+
+Headbutt:
+???
+
+Surfing:
+[60%/Lv. 50 - 50] Tentacruel
+[40%/Lv. 50 - 50] Pelipper
+
+Fishing:
+[40%/Lv. 50 - 50] Lanturn
+[40%/Lv. 50 - 50] Cloyster
+[20%/Lv. 50 - 50] Luvdisc
+
+Unova Sound:
+[20%/Lv. 49 - 50] Braviary
+[20%/Lv. 49 - 50] Mandibuzz
+
+-------------------
+Victory Road
+-------------------
+Cave (Day/Night):
+[10%/Lv. 50 - 50] Golbat
+[10%/Lv. 50 - 50] Graveler
+[10%/Lv. 50 - 50] Magneton*
+[10%/Lv. 52 - 52] Ursaring*
+[10%/Lv. 52 - 52] Donphan*
+[10%/Lv. 50 - 50] Loudred*
+[10%/Lv. 52 - 52] Marowak
+[10%/Lv. 50 - 50] Lairon
+[10%/Lv. 52 - 52] Rhydon
+[10%/Lv. 52 - 52] Steelix
+
+* These Pokémon will not appear if the Unova Sound is active.
+
+Rock Smash:
+[70%/Lv. 50 - 52] Graveler
+[30%/Lv. 52 - 52] Steelix
+
+Unova Sound:
+[20%/Lv. 50 - 52] Boldore
+[20%/Lv. 50 - 52] Excadrill
+
+==============================
+Kanto
+==============================
+
+-------------------
+Pallet Town
+-------------------
+Headbutt:
+???
+
+Surfing:
+[100%/Lv. 60 - 60] Tentacruel
+
+Fishing:
+[40%/Lv. 60 - 60] Lanturn
+[40%/Lv. 60 - 60] Cloyster
+[20%/Lv. 60 - 60] Tentacruel
+
+-------------------
+Route 1
+-------------------
+Grass (Day):
+[20%/Lv. 60 - 60] Pidgeotto
+[20%/Lv. 60 - 60] Raticate
+[20%/Lv. 60 - 60] Furret
+[20%/Lv. 60 - 60] Linoone
+[20%/Lv. 60 - 60] Mightyena
+
+Grass (Night):
+[40%/Lv. 60 - 60] Raticate
+[20%/Lv. 60 - 60] Noctowl
+[20%/Lv. 60 - 60] Linoone
+[20%/Lv. 60 - 60] Mightyena
+
+Headbutt:
+???
+
+Special Sound:
+[40%/Lv. 60 - 60] Chansey
+
+-------------------
+Viridian City
+-------------------
+Headbutt:
+???
+
+Surfing:
+[100%/Lv. 60 - 60] Poliwhirl
+
+Fishing:
+[40%/Lv. 05 - 60] Magikarp
+[40%/Lv. 60 - 60] Poliwhirl
+[20%/Lv. 60 - 60] Crawdaunt
+
+-------------------
+Route 22
+-------------------
+Grass (Day):
+[20%/Lv. 60 - 60] Dodrio
+[20%/Lv. 60 - 60] Fearow
+[20%/Lv. 60 - 60] Nidorina
+[20%/Lv. 60 - 60] Nidorino
+[10%/Lv. 60 - 60] Primeape
+[10%/Lv. 60 - 60] Rapidash
+
+Grass (Night):
+[40%/Lv. 60 - 60] Raticate
+[20%/Lv. 60 - 60] Nidorina
+[20%/Lv. 60 - 60] Nidorino
+[10%/Lv. 60 - 60] Primeape
+[10%/Lv. 60 - 60] Rapidash
+
+Headbutt:
+???
+
+Surfing:
+[100%/Lv. 60 - 60] Poliwhirl
+
+Fishing:
+[40%/Lv. 05 - 60] Magikarp
+[40%/Lv. 60 - 60] Poliwhirl
+[20%/Lv. 60 - 60] Crawdaunt
+
+Special Sound:
+[40%/Lv. 60 - 60] Chansey

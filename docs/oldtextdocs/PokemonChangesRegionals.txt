@@ -1,0 +1,2158 @@
+Regional Forms
+
+These are planned changes for the regional forms if I'm able to include them.
+This also includes the evolutions tied to the regional forms.
+
+-------------------
+019.2 - Rattata (Alola Form)
+-------------------
+Abilities: Gluttony / Hustle / Thick Fat
+Base Stats: 30/56/35/25/35/72 (253)
+Held Item: Pecha Berry (5%)
+Type: Dark / Normal
+
+New Moves:
+- Hone Claws (TM)
+
+Level Up Moves:
+01 - Tackle
+01 - Tail Whip
+03 - Pursuit 
+06 - Quick Attack
+09 - Focus Energy
+12 - Bite
+15 - Hyper Fang
+18 - Assurance
+24 - Hone Claws
+28 - Reversal
+32 - Crunch
+36 - Super Fang
+40 - Sucker Punch
+44 - Double-Edge
+48 - Endeavor
+52 - Final Gambit
+
+-------------------
+020.2 - Raticate (Alola Form)
+-------------------
+Abilities: Gluttony / Hustle / Thick Fat
+Base Stats: 75/71/70/40/80/77 (413) ⟶ 85*/81*/70/40/80/77 (433)
+Held Item: Pecha Berry (5%)
+Type: Dark / Normal
+
+New Moves:
+- Close Combat (Tutor) (HOME)
+- Fire Fang (Tutor)
+- Hone Claws (TM)
+- Ice Fang (Tutor)
+- Psychic Fangs (Tutor) (HOME)
+- Thunder Fang (Tutor)
+
+Level Up Moves:
+01 - Swords Dance
+01 - Knock Off
+01 - Tackle
+01 - Tail Whip
+03 - Pursuit 
+06 - Quick Attack
+09 - Focus Energy
+12 - Bite
+15 - Hyper Fang
+18 - Assurance
+20 - Scary Face
+24 - Hone Claws
+28 - Reversal
+32 - Crunch
+36 - Super Fang
+40 - Sucker Punch
+44 - Double-Edge
+48 - Endeavor
+52 - Final Gambit
+
+-------------------
+026.2 - Raichu (Alola Form)
+-------------------
+Abilities: Surge Surfer / Surge Surfer / Surge Surfer ⟶ Levitate** / Levitate** / Levitate**
+Base Stats: 60/85/50/95/85/110 (485) ⟶ 60/85/50/95/85/120* (495)
+Held Item: Oran Berry (5%)
+Type: Electric / Psychic
+
+Notes:
+Surge Surfer does not exist in the game (neither does Electric Terrain), so this ability change is present even when ability changes have been removed.
+
+New Moves:
+- Extrasensory (Level/TM)
+
+Level Up Moves:
+01 - Extrasensory
+01 - Fake Out
+01 - Thunder Shock
+01 - Growl
+01 - Play Nice 
+01 - Quick Attack 
+04 - Thunder Wave
+08 - Double Team
+10 - Double Kick
+12 - Shock Wave
+16 - Feint
+20 - Spark
+24 - Agility
+28 - Discharge
+32 - Slam 
+36 - Psychic
+40 - Thunderbolt
+44 - Light Screen
+48 - Thunder
+52 - Volt Tackle
+
+-------------------
+027.2 - Sandshrew (Alola Form)
+-------------------
+Abilities: Snow Cloak / Snow Cloak / Slush Rush ⟶ Snow Cloak / Tough Claws** / Slush Rush
+Base Stats: 50/75/90/10/35/40 (300)
+Held Item: Grip Claw (5%)
+Type: Ice / Steel
+
+New Moves:
+- Ice Spinner (Tutor)
+
+Level Up Moves:
+01 - Scratch
+01 - Defense Curl 
+03 - Powder Snow
+06 - Bide
+09 - Rapid Spin 
+12 - Fury Cutter
+15 - Metal Claw
+18 - Ice Ball
+21 - Fury Swipes
+26 - Iron Defense
+30 - Slash
+34 - Iron Head
+38 - Gyro Ball 
+42 - Hail
+46 - Icicle Crash
+50 - Swords Dance
+54 - Blizzard
+
+-------------------
+028.2 - Sandslash (Alola Form)
+-------------------
+Abilities: Sand Veil / Sand Veil / Sand Rush ⟶ Sand Veil / Tough Claws** / Sand Rush
+Base Stats: 75/100/120/25/65/65 (450) ⟶ 75/100/120/35*/65/65 (460)
+Held Item: None
+Type: Ice / Steel
+
+New Moves:
+- Ice Spinner (Tutor)
+
+Level Up Moves:
+01 - Metal Burst
+01 - Scratch
+01 - Defense Curl 
+03 - Powder Snow
+06 - Bide
+09 - Rapid Spin 
+12 - Fury Cutter
+15 - Metal Claw
+18 - Ice Ball
+21 - Fury Swipes
+22 - Icicle Spear
+26 - Iron Defense
+30 - Slash
+34 - Iron Head
+38 - Gyro Ball 
+42 - Hail
+46 - Icicle Crash
+50 - Swords Dance
+54 - Blizzard
+
+-------------------
+037.2 - Vulpix (Alola Form)
+-------------------
+Abilities: Snow Cloak / Snow Cloak / Snow Warning ⟶ Snow Cloak / Cute Charm** / Run Away**
+Base Stats: 38/41/40/50/65/65 (299)
+Held Item: None
+Type: Ice
+
+New Moves:
+- None
+
+Level Up Moves:
+01 - Roar
+01 - Powder Snow
+01 - Tail Whip
+03 - Disable
+06 - Baby-Doll Eyes
+09 - Ice Shard
+12 - Spite
+15 - Icy Wind
+18 - Confuse Ray
+21 - Mist
+24 - Imprison
+28 - Aurora Beam
+32 - Extrasensory
+36 - Ice Beam
+40 - Aurora Veil
+44 - Moonblast
+48 - Captivate
+52 - Blizzard
+56 - Grudge
+60 - Sheer Cold
+
+-------------------
+038.2 - Ninetales (Alola Form)
+-------------------
+Abilities: Snow Cloak / Snow Cloak / Snow Warning ⟶ Snow Cloak / Cursed Body** / Snow Warning
+Base Stats: 73/67/75/81/100/109 (505)
+Held Item: None
+Type: Ice / Fairy
+
+New Moves:
+- None
+
+Level Up Moves:
+01 - Dazzling Gleam
+01 - Roar
+01 - Powder Snow
+01 - Tail Whip
+03 - Disable
+06 - Baby-Doll Eyes
+09 - Ice Shard
+12 - Spite
+15 - Icy Wind
+18 - Confuse Ray
+21 - Mist
+24 - Imprison
+28 - Aurora Beam
+32 - Extrasensory
+36 - Ice Beam
+40 - Aurora Veil
+44 - Moonblast
+48 - Captivate
+52 - Blizzard
+56 - Grudge
+60 - Sheer Cold
+
+-------------------
+050.2 - Diglett (Alola Form)
+-------------------
+Abilities: Sand Veil / Tangling Hair / Sand Force
+Base Stats: 10/55/30/35/45/90 (265)
+Held Item: None
+Type: Ground / Steel
+
+New Moves:
+- None
+
+Level Up Moves:
+01 - Metal Claw
+01 - Sand Attack
+03 - Growl
+06 - Astonish
+09 - Mud-Slap
+12 - Magnitude
+15 - Bulldoze
+18 - Dig
+21 - Sucker Punch
+24 - Mud Bomb
+28 - Iron Head
+32 - Sandstorm
+36 - Earth Power
+40 - Screech
+44 - Earthquake
+48 - Memento
+52 - Fissure
+56 - Final Gambit
+
+-------------------
+051.2 - Dugtrio (Alola Form)
+-------------------
+Abilities: Sand Veil / Arena Trap / Sand Force
+Base Stats: 35/100/60/50/70/110 (425) ⟶ 55*/100/60/50/75*/110 (450)
+Held Item: None
+Type: Ground / Steel
+
+New Moves:
+- None
+
+Level Up Moves:
+01 - Night Slash
+01 - Tri Attack
+01 - Reversal
+01 - Metal Claw
+01 - Sand Attack
+03 - Growl
+06 - Astonish
+09 - Mud-Slap
+12 - Magnitude
+15 - Bulldoze
+18 - Dig
+21 - Sucker Punch
+24 - Mud Bomb
+26 - Sand Tomb
+28 - Iron Head
+32 - Sandstorm
+36 - Earth Power
+40 - Screech
+44 - Earthquake
+48 - Memento
+52 - Fissure
+56 - Final Gambit
+
+-------------------
+052.2 - Meowth (Alola Form)
+-------------------
+Abilities: Pickup / Technician / Rattled
+Base Stats: 40/35/35/50/40/90 (290)
+Held Item: None
+Type: Dark
+
+New Moves:
+- None
+
+Level Up Moves:
+01 - Fake Out
+01 - Assist
+01 - Feint
+01 - Growl
+01 - Taunt
+04 - Scratch
+08 - Bite
+12 - Pay Day
+16 - Feint Attack
+20 - Fury Swipes
+24 - Hypnosis
+30 - Night Slash
+34 - Screech
+38 - Slash
+42 - Captivate
+46 - Dark Pulse
+50 - Nasty Plot
+54 - Parting Shot
+
+-------------------
+052.3 - Meowth (Galarian Form)
+-------------------
+Abilities: Pickup / Tough Claws / Unnerve
+Base Stats: 50/65/55/40/40/40 (290)
+Held Item: None
+Type: Steel
+
+New Moves:
+- None
+
+Level Up Moves:
+01 - Fake Out
+01 - Growl
+01 - Taunt
+04 - Scratch
+08 - Metal Claw
+12 - Pay Day
+16 - Assurance
+20 - Fury Swipes
+24 - Hone Claws
+30 - Slash
+34 - Screech
+38 - Swagger
+42 - Crunch
+46 - Play Rough
+50 - Metal Sound
+54 - Thrash
+
+-------------------
+053.2 - Persian (Alola Form)
+-------------------
+Abilities: Fur Coat / Technician / Rattled
+Base Stats: 65/60/60/75/65/115 (440) ⟶ 65/70*/60/85*/65/115 (460)
+Held Item: None
+Type: Dark
+
+New Moves:
+- None
+
+Level Up Moves:
+01 - Foul Play
+01 - Slash
+01 - Swift
+01 - Fake Out
+01 - Assist
+01 - Feint
+01 - Growl
+01 - Taunt
+04 - Scratch
+08 - Bite
+12 - Pay Day
+16 - Feint Attack
+20 - Fury Swipes
+24 - Hypnosis
+28 - Power Gem
+30 - Night Slash
+34 - Screech
+38 - Slash
+42 - Captivate
+46 - Dark Pulse
+50 - Switcheroo
+54 - Parting Shot
+
+-------------------
+863 - Perrserker
+-------------------
+Abilities: Battle Armor / Tough Claws / Steely Spirit
+Base Stats: 70/110/100/50/60/50 (440) ⟶ 80*/110/110*/50/60/50 (460)
+Held Item: None
+Type: Steel
+
+New Moves:
+- None
+
+Level Up Moves:
+01 - Metal Burst
+01 - Iron Defense
+01 - Fake Out
+01 - Growl
+01 - Taunt
+04 - Scratch
+08 - Metal Claw
+12 - Pay Day
+16 - Assurance
+20 - Fury Swipes
+24 - Hone Claws
+28 - Iron Head
+30 - Slash
+34 - Screech
+38 - Swagger
+42 - Crunch
+46 - Play Rough
+50 - Metal Sound
+54 - Thrash
+
+-------------------
+058.2 - Growlithe (Hisuian Form)
+-------------------
+Abilities: Intimidate / Flash Fire / Rock Head
+Base Stats: 60/75/45/65/50/55 (350)
+Held Item: None
+Type: Fire / Rock
+
+New Moves:
+- Odor Sleuth (Level)
+
+Level Up Moves:
+01 - Roar
+01 - Leer
+01 - Ember
+03 - Howl
+06 - Bite
+09 - Odor Sleuth
+12 - Flame Wheel
+16 - Helping Hand
+20 - Rock Slide
+24 - Fire Fang
+28 - Take Down
+32 - Crunch
+36 - Flamethrower
+40 - Reversal
+44 - Stone Edge
+48 - Outrage
+52 - Flare Blitz
+56 - Head Smash
+
+-------------------
+059.2 - Arcanine (Hisuian Form)
+-------------------
+Abilities: Intimidate / Flash Fire / Rock Head
+Base Stats: 95/115/80/95/80/90 (555)
+Held Item: None
+Type: Fire / Rock
+
+New Moves:
+- None
+
+Level Up Moves:
+01 - Extreme Speed
+01 - Thunder Fang
+01 - Roar
+01 - Leer
+01 - Ember
+03 - Howl
+06 - Bite
+09 - Odor Sleuth
+12 - Flame Wheel
+16 - Helping Hand
+20 - Rock Slide
+24 - Fire Fang
+28 - Take Down
+32 - Crunch
+36 - Flamethrower
+40 - Reversal
+44 - Stone Edge
+48 - Outrage
+52 - Flare Blitz
+56 - Head Smash
+60 - Raging Fury
+
+-------------------
+074.2 - Geodude (Alola Form)
+-------------------
+Abilities: Magnet Pull / Sturdy / Galvanize
+Base Stats: 40/80/100/30/30/20 (300)
+Held Item: None
+Type: Rock / Electric
+
+New Moves:
+- Head Smash (Level)
+- Scorching Sands (Tutor) (HOME)
+
+Level Up Moves:
+01 - Tackle
+01 - Defense Curl
+03 - Charge
+06 - Rock Throw
+09 - Rock Polish
+12 - Spark
+15 - Rollout
+18 - Thunder Punch
+21 - Self-Destruct
+24 - Stealth Rock
+30 - Rock Blast
+35 - Screech
+40 - Discharge
+45 - Stone Edge
+50 - Double-Edge
+55 - Head Smash
+60 - Explosion
+
+-------------------
+075.2 - Graveler (Alola Form)
+-------------------
+Abilities: Magnet Pull / Sturdy / Galvanize
+Base Stats: 55/95/115/45/45/35 (390)
+Held Item: None
+Type: Rock / Electric
+
+New Moves:
+- Head Smash (Level)
+- Scorching Sands (Tutor) (HOME)
+
+Level Up Moves:
+01 - Tackle
+01 - Defense Curl
+03 - Charge
+06 - Rock Throw
+09 - Rock Polish
+12 - Spark
+15 - Rollout
+18 - Thunder Punch
+21 - Self-Destruct
+24 - Stealth Rock
+30 - Rock Blast
+35 - Screech
+40 - Discharge
+45 - Stone Edge
+50 - Double-Edge
+55 - Head Smash
+60 - Explosion
+
+-------------------
+076.2 - Golem (Alola Form)
+-------------------
+Abilities: Magnet Pull / Sturdy / Galvanize
+Base Stats: 80/120/130/55/65/45 (495) ⟶ 80/120/130/55/75*/45 (505)
+Held Item: None
+Type: Rock / Electric
+
+New Moves:
+- Head Smash (Level)
+- Heat Crash (Tutor)
+- Meteor Beam (Tutor) (HOME)
+- Scorching Sands (Tutor) (HOME)
+
+Level Up Moves:
+01 - Heavy Slam
+01 - Steamroller
+01 - Tackle
+01 - Defense Curl
+03 - Charge
+06 - Rock Throw
+09 - Rock Polish
+12 - Spark
+15 - Rollout
+18 - Thunder Punch
+21 - Self-Destruct
+24 - Stealth Rock
+30 - Rock Blast
+35 - Screech
+40 - Wild Charge
+45 - Stone Edge
+50 - Double-Edge
+55 - Head Smash
+60 - Explosion
+
+-------------------
+077.2 - Ponyta (Galarian Form)
+-------------------
+Abilities: Run Away / Pastel Veil / Anticipation
+Base Stats: 50/85/55/65/65/90 (410)
+Held Item: None
+Type: Psychic
+
+New Moves:
+- Jump Kick (Level)
+- Low Sweep (TM)
+
+Level Up Moves:
+01 - Tackle
+01 - Growl
+03 - Tail Whip
+06 - Confusion
+09 - Double Kick
+12 - Fairy Wind
+16 - Stomp
+20 - Psybeam
+24 - Agility
+28 - Zen Headbutt
+32 - Dazzling Gleam
+38 - Jump Kick
+44 - Bounce
+50 - Psychic
+56 - Healing Wish
+
+-------------------
+078.2 - Rapidash (Galarian Form)
+-------------------
+Abilities: Run Away / Pastel Veil / Anticipation ⟶ Sharpness** / Pastel Veil / Anticipation
+Base Stats: 65/100/70/80/80/105 (500) ⟶ 65/100/70/80/80/125* (520)
+Held Item: None
+Type: Psychic / Fairy
+
+New Moves:
+- Extreme Speed (Level)
+- Jump Kick (Level)
+- Low Sweep (TM)
+
+Level Up Moves:
+01 - Play Rough
+01 - Megahorn
+01 - Tackle
+01 - Growl
+03 - Tail Whip
+06 - Confusion
+09 - Double Kick
+12 - Fairy Wind
+16 - Stomp
+20 - Psybeam
+24 - Agility
+28 - Zen Headbutt
+32 - Dazzling Gleam
+35 - Psycho Cut
+38 - Jump Kick
+44 - Bounce
+50 - Psychic
+56 - Healing Wish
+62 - Extreme Speed
+
+-------------------
+079.2 - Slowpoke (Galarian Form)
+-------------------
+Abilities: Gluttony / Own Tempo / Regenerator
+Base Stats: 90/65/65/40/40/15 (315)
+Held Item: None
+Type: Psychic
+
+New Moves:
+- Teleport (Tutor)
+
+Level Up Moves:
+01 - Curse
+01 - Tackle
+03 - Growl
+06 - Acid
+09 - Confusion
+12 - Yawn
+15 - Disable
+18 - Headbutt
+21 - Water Pulse
+24 - Zen Headbutt
+27 - Aqua Tail
+30 - Slack Off
+35 - Psych Up
+40 - Psychic
+45 - Amnesia
+50 - Rain Dance
+55 - Stored Power
+
+-------------------
+080.2 - Slowbro (Galarian Form)
+-------------------
+Abilities: Quick Draw / Own Tempo / Regenerator
+Base Stats: 95/100/95/100/70/30 (490)
+Held Item: None
+Type: Poison / Psychic
+
+New Moves:
+- Teleport (Tutor)
+
+Level Up Moves:
+01 - Sludge Wave
+01 - Withdraw
+01 - Curse
+01 - Tackle
+03 - Growl
+06 - Acid
+09 - Confusion
+12 - Yawn
+15 - Disable
+18 - Headbutt
+21 - Water Pulse
+24 - Zen Headbutt
+27 - Aqua Tail
+30 - Slack Off
+33 - Shell Side Arm
+35 - Psych Up
+40 - Psychic
+45 - Amnesia
+50 - Rain Dance
+55 - Stored Power
+
+-------------------
+199.2 - Slowking (Galarian Form)
+-------------------
+Abilities: Curious Medicine / Own Tempo / Regenerator
+Base Stats: 95/65/80/110/110/30 (490)
+Held Item: None
+Type: Poison / Psychic
+
+New Moves:
+- Teleport (Tutor)
+
+Level Up Moves:
+01 - Sludge Wave
+01 - Power Gem
+01 - Swagger
+01 - Curse
+01 - Tackle
+03 - Growl
+06 - Water Gun
+09 - Confusion
+12 - Yawn
+15 - Disable
+18 - Headbutt
+21 - Water Pulse
+24 - Psyshock
+27 - Aqua Tail
+30 - Slack Off
+33 - Eerie Spell
+35 - Psych Up
+40 - Psychic
+45 - Amnesia
+50 - Nasty Plot
+55 - Stored Power
+
+-------------------
+083.2 - Farfetch’d (Galarian Form)
+-------------------
+Abilities: Steadfast / Steadfast / Scrappy
+Base Stats: 52/95/55/58/62/55 (377)
+Held Item: None
+Type: Fighting
+
+New Moves:
+- Sacred Sword (Level)
+
+Level Up Moves:
+01 - Feint
+01 - Peck
+01 - Sand Attack
+03 - Leer
+06 - Fury Cutter
+09 - Rock Smash
+12 - Defog
+16 - Brutal Swing
+20 - Revenge
+24 - Brick Break
+28 - Night Slash
+32 - Focus Energy
+36 - Sacred Sword
+40 - Swords Dance
+44 - Slam
+48 - Final Gambit
+52 - Close Combat
+56 - Brave Bird
+
+-------------------
+865 - Sirfetch'd
+-------------------
+Abilities: Steadfast / Steadfast / Scrappy
+Base Stats: 62/135/95/68/82/65 (507)
+Held Item: None
+Type: Fighting
+
+New Moves:
+- Sacred Sword (Level)
+
+Level Up Moves:
+01 - Feint
+01 - Peck
+01 - Sand Attack
+03 - Leer
+06 - Fury Cutter
+09 - Rock Smash
+12 - Defog
+16 - Brutal Swing
+20 - Revenge
+24 - Brick Break
+28 - Night Slash
+32 - Focus Energy
+36 - Sacred Sword
+40 - Swords Dance
+44 - Slam
+48 - Final Gambit
+52 - Close Combat
+56 - Brave Bird
+60 - Meteor Assault
+
+-------------------
+088.2 - Grimer (Alola Form)
+-------------------
+Abilities: Poison Touch / Gluttony / Power of Alchemy ⟶ Poison Touch / Gluttony / Gooey**
+Base Stats: 80/80/50/40/50/25 (325)
+Held Item: None
+Type: Poison / Dark
+
+New Moves:
+- Mega Drain (Tutor) (LGPE)
+- Skitter Smack (Tutor) (HOME)
+
+Notes:
+Power of Alchemy does not exist in the game, so Alola Grimer does not have a hidden ability if ability changes are removed.
+
+Level Up Moves:
+01 - Pound
+01 - Poison Gas
+03 - Harden
+06 - Bite
+09 - Acid Spray
+12 - Disable
+15 - Clear Smog
+18 - Poison Fang
+21 - Minimize
+24 - Knock Off
+27 - Fling
+30 - Poison Jab
+33 - Crunch
+38 - Toxic
+42 - Screech
+46 - Acid Armor
+50 - Gunk Shot
+54 - Memento
+
+-------------------
+089.2 - Muk (Alola Form)
+-------------------
+Abilities: Poison Touch / Gluttony / Power of Alchemy ⟶ Poison Touch / Gluttony / Gooey**
+Base Stats: 105/105/75/65/100/50 (500)
+Held Item: None
+Type: Poison / Dark
+
+New Moves:
+- Mega Drain (Tutor) (LGPE)
+- Skitter Smack (Tutor) (HOME)
+
+Notes:
+Power of Alchemy does not exist in the game, so Alola Muk does not have a hidden ability if ability changes are removed.
+
+Level Up Moves:
+01 - Shadow Sneak
+01 - Assurance
+01 - Pound
+01 - Poison Gas
+03 - Harden
+06 - Bite
+09 - Acid Spray
+12 - Disable
+15 - Clear Smog
+18 - Poison Fang
+21 - Minimize
+24 - Knock Off
+27 - Fling
+30 - Poison Jab
+33 - Crunch
+38 - Toxic
+42 - Screech
+46 - Acid Armor
+50 - Gunk Shot
+54 - Memento
+
+-------------------
+100.2 - Voltorb (Hisuian Form)
+-------------------
+Abilities: Soundproof / Static / Aftermath ⟶ Aftermath / Static / Galvanize**
+Base Stats: 40/30/50/55/55/100 (330)
+Held Item: None
+Type: Electric / Grass
+
+New Moves:
+- Nasty Plot (TM)
+
+Level Up Moves:
+01 - Charge
+01 - Tackle
+01 - Thunder Shock
+04 - Leech Seed
+07 - Rollout
+10 - Bullet Seed
+13 - Swift
+16 - Screech
+19 - Charge Beam
+22 - Stun Spore
+25 - Self-Destruct
+28 - Reflect
+32 - Seed Bomb
+36 - Discharge
+40 - Energy Ball
+44 - Thunderbolt
+48 - Gyro Ball
+52 - Worry Seed
+56 - Solar Beam
+60 - Explosion
+
+-------------------
+101.2 - Electrode (Hisuian Form)
+-------------------
+Abilities: Soundproof / Static / Aftermath ⟶ Aftermath / Static / Galvanize**
+Base Stats: 60/50/70/80/80/150 (490)
+Held Item: None
+Type: Electric / Grass
+
+New Moves:
+- Nasty Plot (TM)
+
+Level Up Moves:
+01 - Charge
+01 - Tackle
+01 - Thunder Shock
+04 - Leech Seed
+07 - Rollout
+10 - Bullet Seed
+13 - Swift
+16 - Screech
+19 - Charge Beam
+22 - Stun Spore
+25 - Self-Destruct
+28 - Reflect
+30 - Volt Switch
+32 - Seed Bomb
+36 - Discharge
+40 - Energy Ball
+44 - Thunderbolt
+48 - Gyro Ball
+52 - Worry Seed
+56 - Chloroblast
+60 - Explosion
+
+-------------------
+103.2 - Exeggutor (Alola Form)
+-------------------
+Abilities: Frisk / Chlorophyll / Harvest ⟶ Frisk / Solar Power** / Harvest
+Base Stats: 95/105/85/125/75/45 (530)
+Held Item: None
+Type: Grass / Dragon
+
+New Moves:
+- Teleport (Tutor) (LGPE)
+
+Level Up Moves:
+01 - Dragon Hammer
+01 - Hypnosis
+01 - Barrage
+01 - Absorb
+04 - Leech Seed
+08 - Confusion
+12 - Mega Drain
+16 - Reflect
+20 - Stun Spore
+20 - Poison Powder
+20 - Sleep Powder
+24 - Extrasensory
+28 - Synthesis
+32 - Egg Bomb
+36 - Psyshock
+40 - Seed Bomb
+44 - Dragon Pulse
+48 - Wood Hammer
+52 - Solar Beam
+56 - Leaf Storm
+
+-------------------
+105.2 - Marowak (Alola Form)
+-------------------
+Abilities: Cursed Body / Lightning Rod / Rock Head
+Base Stats: 60/80/110/50/80/40 (425)
+Held Item: None
+Type: Fire / Ghost
+
+New Moves:
+- Revenge (Level)
+
+Level Up Moves:
+01 - Perish Song
+01 - Bone Club
+01 - Leer
+01 - Growl
+01 - Fling
+04 - Tail Whip
+08 - False Swipe
+12 - Flame Wheel
+16 - Will-O-Wisp
+20 - Revenge
+24 - Bonemerang
+28 - Shadow Bone
+30 - Brutal Swing
+35 - Hex
+40 - Bone Rush
+45 - Thrash
+50 - Endeavor
+55 - Flare Blitz
+60 - Skull Bash
+
+-------------------
+110.2 - Weezing (Galarian Form)
+-------------------
+Abilities: Levitate / Neutralizing Gas / Misty Surge ⟶ Levitate / Levitate / Levitate
+Base Stats: 65/90/120/85/70/60 (490) ⟶ 65/90/120/95*/70/60 (500)
+Held Item: None
+Type: Poison / Fairy
+
+New Moves:
+- None
+
+Notes:
+Neutralizing Gas and Misty Surge are not present in the game, so Galarian Weezing only has Levitate on all versions.
+
+Level Up Moves:
+01 - Strange Steam
+01 - Heat Wave
+01 - Defog
+01 - Poison Gas
+01 - Tackle
+01 - Smog
+01 - Fairy Wind
+03 - Smokescreen
+06 - Clear Smog
+09 - Gyro Ball
+12 - Assurance
+16 - Sludge
+20 - Aromatherapy
+24 - Self-Destruct
+28 - Sludge Bomb
+32 - Pain Split
+38 - Toxic
+44 - Memento
+50 - Play Rough
+56 - Explosion
+62 - Destiny Bond
+
+-------------------
+122.2 - Mr. Mime (Galarian Form)
+-------------------
+Abilities: Vital Spirit / Screen Cleaner / Ice Body
+Base Stats: 50/65/65/90/90/100 (460)
+Held Item: None
+Type: Ice / Psychic
+
+New Moves:
+- Teleport (Tutor)
+
+Level Up Moves:
+01 - Icy Wind
+01 - Double Kick
+01 - Power Swap
+01 - Guard Swap
+01 - Recycle
+01 - Pound
+01 - Barrier
+01 - Copycat
+04 - Confusion
+08 - Rapid Spin
+12 - Role Play
+16 - Encore
+20 - Hypnosis
+24 - Psybeam
+28 - Mirror Coat
+32 - Freeze-Dry
+36 - Teeter Dance
+40 - Psychic
+45 - Sucker Punch
+50 - Baton Pass
+55 - Substitute
+60 - Blizzard
+
+-------------------
+866 - Mr. Rime
+-------------------
+Abilities: Tangled Feet / Screen Cleaner / Ice Body
+Base Stats: 80/85/75/110/100/70 (520)
+Held Item: None
+Type: Ice / Psychic
+
+New Moves:
+- Teleport (Tutor)
+
+Level Up Moves:
+01 - Fake Tears
+01 - Slack Off
+01 - Block
+01 - Icy Wind
+01 - Double Kick
+01 - Power Swap
+01 - Guard Swap
+01 - Recycle
+01 - Pound
+01 - Barrier
+01 - Copycat
+04 - Confusion
+08 - Rapid Spin
+12 - Role Play
+16 - Encore
+20 - Hypnosis
+24 - Psybeam
+28 - Mirror Coat
+32 - Freeze-Dry
+36 - Teeter Dance
+40 - Psychic
+45 - Sucker Punch
+50 - Baton Pass
+55 - Substitute
+60 - Blizzard
+
+-------------------
+128.2 - Tauros (Paldean Form) (Combat Breed)
+-------------------
+Abilities: Intimidate / Anger Point / Cud Chew ⟶ Intimidate / Reckless** / Sheer Force**
+Base Stats: 75/110/105/30/70/100 (490)
+Held Item: None
+Type: Fighting
+
+New Moves:
+- Rage (Level)
+
+Notes:
+Cud Chew is not implemented in the game, so it has been replaced.
+
+Level Up Moves:
+01 - Tackle
+01 - Tail Whip
+01 - Rage
+04 - Double Kick
+08 - Work Up
+12 - Headbutt
+16 - Assurance
+20 - Scary Face
+24 - Take Down
+28 - Zen Headbutt
+32 - Raging Bull
+36 - Body Press
+40 - Rest
+44 - Thrash
+48 - Swagger
+52 - Close Combat
+56 - Double-Edge
+60 - Giga Impact
+
+-------------------
+128.3 - Tauros (Paldean Form) (Blaze Breed)
+-------------------
+Abilities: Intimidate / Anger Point / Cud Chew ⟶ Intimidate / Reckless** / Sheer Force**
+Base Stats: 75/110/105/30/70/100 (490)
+Held Item: None
+Type: Fighting
+
+New Moves:
+- Rage (Level)
+
+Notes:
+Cud Chew is not implemented in the game, so it has been replaced.
+
+Level Up Moves:
+01 - Tackle
+01 - Tail Whip
+01 - Rage
+04 - Double Kick
+08 - Work Up
+12 - Headbutt
+16 - Flame Charge
+20 - Scary Face
+24 - Take Down
+28 - Zen Headbutt
+32 - Raging Bull
+36 - Body Press
+40 - Rest
+44 - Thrash
+48 - Swagger
+52 - Close Combat
+56 - Flare Blitz
+60 - Giga Impact
+
+-------------------
+128.4 - Tauros (Paldean Form) (Aqua Breed)
+-------------------
+Abilities: Intimidate / Anger Point / Cud Chew ⟶ Intimidate / Reckless** / Sheer Force**
+Base Stats: 75/110/105/30/70/100 (490)
+Held Item: None
+Type: Fighting
+
+New Moves:
+- Rage (Level)
+
+Notes:
+Cud Chew is not implemented in the game, so it has been replaced.
+
+Level Up Moves:
+01 - Tackle
+01 - Tail Whip
+01 - Rage
+04 - Double Kick
+08 - Work Up
+12 - Headbutt
+16 - Aqua Jet
+20 - Scary Face
+24 - Take Down
+28 - Zen Headbutt
+32 - Raging Bull
+36 - Body Press
+40 - Rest
+44 - Thrash
+48 - Swagger
+52 - Close Combat
+56 - Wave Crash
+60 - Giga Impact
+
+-------------------
+144.2 - Articuno (Galarian Form)
+-------------------
+Abilities: Competitive / Competitive / Competitive
+Base Stats: 90/85/85/125/100/95 (580)
+Held Item: None
+Type: Psychic / Flying
+
+New Moves:
+- None
+
+Level Up Moves:
+01 - Mind Reader
+01 - Gust
+01 - Psycho Shift
+05 - Confusion
+10 - Reflect
+15 - Hypnosis
+20 - Agility
+25 - Ancient Power
+30 - Tailwind
+35 - Psycho Cut
+40 - Recover
+45 - Freezing Glare
+50 - Dream Eater
+55 - Hurricane
+60 - Double Team
+65 - Future Sight
+70 - Trick Room
+
+-------------------
+145.2 - Zapdos (Galarian Form)
+-------------------
+Abilities: Defiant / Defiant / Defiant
+Base Stats: 90/125/90/85/90/100 (580)
+Held Item: None
+Type: Fighting / Flying
+
+New Moves:
+- None
+
+Level Up Moves:
+01 - Peck
+01 - Focus Energy
+05 - Rock Smash
+10 - Light Screen
+15 - Pluck
+20 - Agility
+25 - Ancient Power
+30 - Brick Break
+35 - Drill Peck
+40 - Screech
+45 - Thunderous Kick
+50 - Bulk Up
+55 - Counter
+60 - Detect
+65 - Close Combat
+70 - Reversal
+
+-------------------
+146.2 - Moltres (Galarian Form)
+-------------------
+Abilities: Berserk / Berserk / Berserk
+Base Stats: 90/85/90/100/125/90 (580)
+Held Item: None
+Type: Dark / Flying
+
+New Moves:
+- None
+
+Level Up Moves:
+01 - Gust
+01 - Leer
+05 - Payback
+10 - Safeguard
+15 - Wing Attack
+20 - Agility
+25 - Ancient Power
+30 - Sucker Punch
+35 - Air Slash
+40 - Taunt
+45 - Fiery Wrath
+50 - Nasty Plot
+55 - Hurricane
+60 - Endure
+65 - Memento
+70 - Sky Attack
+
+-------------------
+157.2 - Typhlosion (Hisuian Form)
+-------------------
+Abilities: Blaze / Blaze / Frisk ⟶ Blaze / Flash Fire** / Heat Up***
+Base Stats: 73/84/78/119/85/95 (534) ⟶ 74*/84/78/119/85/95 (535)
+Held Item: None
+Type: Fire / Ghost
+
+New Moves:
+- Earth Power (Tutor)
+- Mystical Fire (TM)
+- Ominous Wind (Tutor)
+- Raging Fury (Tutor)
+- Scorching Sands (Tutor)
+
+Level Up Moves:
+01 - Extrasensory
+01 - Confuse Ray
+01 - Gyro Ball
+01 - Tackle
+01 - Leer
+01 - Ember
+03 - Smokescreen
+06 - Mud-Slap
+09 - Quick Attack
+12 - Flame Wheel
+14 - Incinerate
+16 - Defense Curl
+20 - Swift
+24 - Rollout
+28 - Lava Plume
+32 - Sunny Day
+36 - Infernal Parade
+40 - Flamethrower
+45 - Shadow Ball
+50 - Double-Edge
+55 - Inferno
+60 - Eruption
+
+-------------------
+194.2 - Wooper (Paldean Form)
+-------------------
+Abilities: Poison Point / Water Absorb / Unaware
+Base Stats: 55/45/45/25/25/15 (210)
+Held Item: None
+Type: Poison / Ground
+
+New Moves:
+- Mud Sport (Level)
+- Mud Bomb (Level)
+
+Level Up Moves:
+01 - Tackle
+01 - Tail Whip
+03 - Mud Sport
+06 - Mud Shot
+09 - Acid Spray
+12 - Poison Tail
+15 - Mud Bomb
+18 - Slam
+22 - Yawn
+26 - Poison Jab
+30 - Amnesia
+34 - Earthquake
+38 - Toxic Spikes
+42 - Sludge Wave
+46 - Mist
+46 - Haze
+50 - Recover
+
+-------------------
+980 - Clodsire
+-------------------
+Abilities: Poison Point / Water Absorb / Unaware
+Base Stats: 130/75/60/45/100/20 (430) ⟶ 130/85*/60/55*/100/20 (450)
+Held Item: None
+Type: Poison / Ground
+
+New Moves:
+- Mud Sport (Level)
+- Mud Bomb (Level)
+
+Level Up Moves:
+01 - Poison Sting
+01 - Tail Whip
+03 - Mud Sport
+06 - Mud Shot
+09 - Acid Spray
+12 - Poison Tail
+15 - Mud Bomb
+18 - Slam
+22 - Yawn
+26 - Poison Jab
+30 - Amnesia
+34 - Earthquake
+38 - Toxic Spikes
+42 - Sludge Wave
+46 - Mist
+46 - Haze
+50 - Recover
+54 - Megahorn
+
+-------------------
+211.2 - Qwilfish (Hisuian Form)
+-------------------
+Abilities: Poison Point / Swift Swim / Intimidate
+Base Stats: 65/95/85/55/55/85 (440)
+Held Item: None
+Type: Dark / Poison
+
+New Moves:
+- Rollout (Level/Tutor)
+
+Level Up Moves:
+01 - Toxic Spikes
+01 - Spikes
+01 - Tackle
+01 - Harden
+01 - Poison Sting
+03 - Bite
+06 - Aqua Jet
+09 - Minimize
+12 - Rollout
+15 - Acid Spray
+18 - Barb Barrage
+21 - Pin Missile
+24 - Reversal
+28 - Poison Jab
+32 - Stockpile
+32 - Spit Up
+36 - Crunch
+40 - Toxic
+44 - Acupressure
+48 - Gunk Shot
+52 - Destiny Bond
+
+-------------------
+904 - Overqwil
+-------------------
+Abilities: Poison Point / Swift Swim / Intimidate
+Base Stats: 85/115/95/65/65/85 (510)
+Held Item: None
+Type: Dark / Poison
+
+New Moves:
+- Rollout (Level/Tutor)
+
+Level Up Moves:
+01 - Toxic Spikes
+01 - Spikes
+01 - Tackle
+01 - Harden
+01 - Poison Sting
+03 - Bite
+06 - Aqua Jet
+09 - Minimize
+12 - Rollout
+15 - Acid Spray
+18 - Barb Barrage
+21 - Pin Missile
+24 - Reversal
+28 - Poison Jab
+32 - Stockpile
+32 - Spit Up
+36 - Crunch
+40 - Toxic
+44 - Acupressure
+48 - Gunk Shot
+52 - Destiny Bond
+
+-------------------
+215.2 - Sneasel (Hisuian Form)
+-------------------
+Abilities: Inner Focus / Keen Eye / Pickpocket ⟶ Inner Focus / Keen Eye / Poison Touch**
+Base Stats: 55/95/55/35/75/115 (430)
+Held Item: None
+Type: Fighting / Poison
+
+New Moves:
+- Feint Attack (Level)
+- Fury Swipes (Level)
+
+Level Up Moves:
+01 - Fake Out
+01 - Scratch
+01 - Leer
+03 - Taunt
+06 - Rock Smash
+09 - Quick Attack
+12 - Low Kick
+15 - Metal Claw
+18 - Fury Swipes
+21 - Feint Attack
+24 - Hone Claws
+28 - Brick Break
+32 - Slash
+36 - Screech
+40 - Poison Jab
+44 - Reversal
+48 - Agility
+52 - Close Combat
+56 - Gunk Shot
+
+-------------------
+903 - Sneaseler
+-------------------
+Abilities: Pressure / Unburden / Poison Touch
+Base Stats: 80/130/60/40/80/120 (510)
+Held Item: None
+Type: Fighting / Poison
+
+New Moves:
+- Feint Attack (Level)
+- Fury Swipes (Level)
+
+Level Up Moves:
+01 - Dire Claw
+01 - Night Slash
+01 - Fling
+01 - Fake Out
+01 - Scratch
+01 - Leer
+03 - Taunt
+06 - Rock Smash
+09 - Quick Attack
+12 - Low Kick
+15 - Metal Claw
+18 - Fury Swipes
+21 - Feint Attack
+24 - Hone Claws
+28 - Brick Break
+32 - Slash
+36 - Screech
+40 - Poison Jab
+44 - Reversal
+48 - Agility
+52 - Close Combat
+56 - Gunk Shot
+
+-------------------
+222.2 - Corsola (Galarian Form)
+-------------------
+Abilities: Weak Armor / Weak Armor / Cursed Body
+Base Stats: 60/55/100/65/100/30 (410)
+Held Item: None
+Type: Ghost
+
+New Moves:
+- Mega Drain (Tutor)
+- Spike Cannon (Level)
+
+Level Up Moves:
+01 - Spike Cannon
+01 - Tackle
+01 - Harden
+03 - Astonish
+06 - Curse
+09 - Disable
+12 - Night Shade
+16 - Ancient Power
+20 - Hex
+24 - Haze
+28 - Confuse Ray
+32 - Amnesia
+36 - Shadow Ball
+42 - Power Gem
+48 - Grudge
+54 - Mirror Coat
+60 - Destiny Bond
+
+-------------------
+864 - Cursola
+-------------------
+Abilities: Weak Armor / Weak Armor / Perish Body ⟶ Weak Armor / Weak Armor/ Cursed Body**
+Base Stats: 60/95/50/145/130/30 (510)
+Held Item: None
+Type: Ghost
+
+New Moves:
+- Mega Drain (Tutor)
+- Spike Cannon (Level)
+
+Notes:
+Perish Body is not in the game currently, so Cursola will have Cursed Body instead.
+
+Level Up Moves:
+01 - Spike Cannon
+01 - Tackle
+01 - Harden
+03 - Astonish
+06 - Curse
+09 - Disable
+12 - Night Shade
+16 - Ancient Power
+20 - Hex
+24 - Haze
+28 - Confuse Ray
+32 - Amnesia
+36 - Shadow Ball
+42 - Power Gem
+48 - Grudge
+54 - Mirror Coat
+60 - Destiny Bond
+
+-------------------
+263.2 - Zigzagoon (Galarian Form)
+-------------------
+Abilities: Pickup / Gluttony / Quick Feet
+Base Stats: 38/30/41/30/41/60 (240)
+Held Item: None
+Type: Dark / Normal
+
+New Moves:
+- None
+
+Level Up Moves:
+01 - Tackle
+01 - Growl
+03 - Sand Attack
+06 - Lick
+09 - Headbutt
+12 - Baby-Doll Eyes
+15 - Pin Missile
+18 - Snarl
+22 - Take Down
+26 - Counter
+30 - Rest
+34 - Scary Face
+38 - Assurance
+42 - Taunt
+46 - Screech
+50 - Double-Edge
+
+-------------------
+264.2 - Linoone (Galarian Form)
+-------------------
+Abilities: Pickup / Gluttony / Quick Feet
+Base Stats: 78/70/61/50/61/100 (420)
+Held Item: None
+Type: Dark / Normal
+
+New Moves:
+- None
+
+Level Up Moves:
+01 - Knock Off
+01 - Tackle
+01 - Growl
+03 - Sand Attack
+06 - Lick
+09 - Headbutt
+12 - Hone Claws
+15 - Fury Swipes
+18 - Snarl
+20 - Night Slash
+22 - Take Down
+26 - Counter
+30 - Rest
+34 - Scary Face
+38 - Assurance
+42 - Taunt
+46 - Switcheroo
+50 - Double-Edge
+
+-------------------
+862 - Obstagoon
+-------------------
+Abilities: Reckless / Guts / Defiant
+Base Stats: 93/90/101/60/81/95 (520)
+Held Item: None
+Type: Dark / Normal
+
+New Moves:
+- None
+
+Level Up Moves:
+01 - Cross Chop
+01 - Submission
+01 - Knock Off
+01 - Tackle
+01 - Growl
+03 - Sand Attack
+06 - Lick
+09 - Headbutt
+12 - Hone Claws
+15 - Fury Swipes
+18 - Snarl
+20 - Night Slash
+22 - Take Down
+26 - Counter
+30 - Rest
+34 - Scary Face
+38 - Assurance
+42 - Taunt
+46 - Switcheroo
+50 - Double-Edge
+
+-------------------
+503.2 - Samurott (Hisuian Form)
+-------------------
+Abilities: Torrent / Torrent / Sharpness ⟶ Torrent / Shell Armor** / Sharpness
+Base Stats: 90/108/80/100/65/85 (528) ⟶ 95*/110*/80/100/65/85 (535)
+Held Item: None
+Type: Water / Dark
+
+New Moves:
+- Wave Crash (Level)
+
+Level Up Moves:
+01 - Sucker Punch
+01 - Sacred Sword
+01 - Megahorn
+01 - Slash
+01 - Tackle
+01 - Tail Whip
+03 - Water Gun
+06 - Focus Energy
+09 - Water Sport
+12 - Aqua Jet
+15 - Fury Cutter
+17 - Aqua Cutter
+20 - Razor Shell
+24 - Aerial Ace
+28 - Revenge
+32 - Encore
+36 - Ceaseless Edge
+40 - Aqua Tail
+45 - X-Scissor
+50 - Night Slash
+55 - Swords Dance
+60 - Wave Crash
+
+-------------------
+549.2 - Lilligant (Hisuian Form)
+-------------------
+Abilities: Chlorophyll / Hustle / Leaf Guard
+Base Stats: 70/105/75/50/75/105 (480)
+Held Item: None
+Type: Grass / Fighting
+
+New Moves:
+- High Jump Kick (Level)
+
+Level Up Moves:
+01 - Petal Blizzard
+01 - Teeter Dance
+01 - Helping Hand
+01 - Low Kick
+01 - Defog
+01 - Absorb
+01 - Growth
+01 - Sweet Scent
+04 - Stun Spore
+08 - Mega Drain
+12 - Aromatherapy
+16 - Magical Leaf
+20 - Sleep Powder
+24 - Charm
+28 - Giga Drain
+32 - Leech Seed
+36 - Leaf Blade
+40 - Synthesis
+42 - Sunny Day
+44 - Mega Kick
+48 - Close Combat
+50 - Victory Dance
+52 - Solar Blade
+56 - High Jump Kick
+
+-------------------
+550.3 - Basculin (White-Striped Form)
+-------------------
+Abilities: Rattled / Adaptability / Mold Breaker
+Base Stats: 70/92/65/80/55/98 (460)
+Held Item: None
+Type: Water
+
+New Moves:
+- Aqua Tail (Level/Tutor)
+
+Level Up Moves:
+01 - Tackle
+01 - Tail Whip
+04 - Water Gun
+08 - Bite
+12 - Aqua Jet
+16 - Headbutt
+20 - Flail
+24 - Scary Face
+28 - Take Down
+32 - Aqua Tail
+36 - Crunch
+40 - Thrash
+44 - Uproar
+48 - Double-Edge
+52 - Wave Crash
+56 - Head Smash
+
+-------------------
+902.1 - Basculegion (Male)
+-------------------
+Abilities: Swift Swim / Adaptability / Mold Breaker
+Base Stats: 120/112/65/80/75/78 (530)
+Held Item: None
+Type: Water / Ghost
+
+New Moves:
+- Aqua Tail (Level/Tutor)
+
+Level Up Moves:
+01 - Shadow Ball
+01 - Tackle
+01 - Tail Whip
+04 - Water Gun
+08 - Bite
+12 - Aqua Jet
+16 - Headbutt
+20 - Flail
+24 - Scary Face
+28 - Take Down
+32 - Aqua Tail
+36 - Crunch
+40 - Thrash
+44 - Phantom Force
+48 - Double-Edge
+52 - Wave Crash
+56 - Head Smash
+
+-------------------
+902.2 - Basculegion (Female)
+-------------------
+Abilities: Swift Swim / Adaptability / Mold Breaker
+Base Stats: 120/92/65/100/75/78 (530)
+Held Item: None
+Type: Water / Ghost
+
+New Moves:
+- Aqua Tail (Level/Tutor)
+
+Level Up Moves:
+01 - Shadow Ball
+01 - Tackle
+01 - Tail Whip
+04 - Water Gun
+08 - Bite
+12 - Aqua Jet
+16 - Headbutt
+20 - Flail
+24 - Scary Face
+28 - Take Down
+32 - Aqua Tail
+36 - Crunch
+40 - Thrash
+44 - Phantom Force
+48 - Double-Edge
+52 - Wave Crash
+56 - Head Smash
+
+-------------------
+554.2 - Darumaka (Galarian Form)
+-------------------
+Abilities: Hustle / Hustle / Inner Focus
+Base Stats: 70/90/45/15/45/50 (315)
+Held Item: None
+Type: Ice
+
+New Moves:
+- Rage (Level)
+
+Level Up Moves:
+01 - Powder Snow
+01 - Tackle
+01 - Taunt
+04 - Rage
+08 - Bite
+12 - Avalanche
+16 - Headbutt
+20 - Ice Fang
+24 - Work Up
+28 - Ice Punch
+32 - Uproar
+38 - Thrash
+44 - Belly Drum
+50 - Icicle Crash
+56 - Superpower
+62 - Blizzard
+
+-------------------
+555.3 - Darmanitan (Galarian Form)
+-------------------
+Abilities: Gorilla Tactics / Gorilla Tactics / Zen Mode ⟶ Sheer Force** / Sheer Force** / Zen Mode
+Base Stats: 105/140/55/30/55/95 (480)
+Held Item: None
+Type: Ice
+
+New Moves:
+- Rage (Level)
+
+Notes:
+Gorilla Tactics is not implemented, so Galarian Darmanitan has Sheer Force instead.
+
+Level Up Moves:
+01 - Powder Snow
+01 - Tackle
+01 - Taunt
+04 - Rage
+08 - Bite
+12 - Avalanche
+16 - Headbutt
+20 - Ice Fang
+24 - Work Up
+28 - Ice Punch
+32 - Uproar
+35 - Hammer Arm
+38 - Thrash
+44 - Belly Drum
+50 - Icicle Crash
+56 - Superpower
+62 - Blizzard
+
+-------------------
+555.4 - Darmanitan (Galarian Form) (Zen Mode)
+-------------------
+Abilities: Zen Mode / Zen Mode / Zen Mode
+Base Stats: 105/160/55/30/55/135 (540)
+Held Item: None
+Type: Ice / Fire
+
+New Moves:
+- Rage (Level)
+
+Level Up Moves:
+01 - Tackle
+01 - Taunt
+04 - Rage
+08 - Bite
+12 - Avalanche
+16 - Headbutt
+20 - Ice Fang
+24 - Work Up
+28 - Ice Punch
+32 - Uproar
+35 - Hammer Arm
+38 - Thrash
+44 - Belly Drum
+50 - Icicle Crash
+56 - Superpower
+62 - Blizzard
+
+-------------------
+562.2 - Yamask (Galarian Form)
+-------------------
+Abilities: Wandering Spirit / Wandering Spirit / Wandering Spirit
+Base Stats: 38/55/85/30/65/30 (303)
+Held Item: None
+Type: Ground / Ghost
+
+New Moves:
+- None
+
+Level Up Moves:
+01 - Astonish
+01 - Protect
+04 - Haze
+08 - Night Shade
+12 - Disable
+16 - Brutal Swing
+20 - Will-O-Wisp
+24 - Hex
+28 - Mean Look
+32 - Shadow Ball
+38 - Curse
+44 - Slam
+50 - Earthquake
+56 - Destiny Bond
+
+-------------------
+867 - Runerigus
+-------------------
+Abilities: Wandering Spirit / Wandering Spirit / Wandering Spirit
+Base Stats: 58/95/145/50/105/30 (483)
+Held Item: None
+Type: Ground / Ghost
+
+New Moves:
+- None
+
+Level Up Moves:
+01 - Scary Face
+01 - Astonish
+01 - Protect
+04 - Haze
+08 - Night Shade
+12 - Disable
+16 - Brutal Swing
+20 - Will-O-Wisp
+24 - Hex
+28 - Mean Look
+32 - Shadow Ball
+34 - Shadow Claw
+38 - Curse
+44 - Slam
+50 - Earthquake
+56 - Destiny Bond
+
+-------------------
+570.2 - Zorua (Hisuian Form)
+-------------------
+Abilities: Illusion / Illusion / Illusion
+Base Stats: 35/60/40/85/40/70 (330)
+Held Item: None
+Type: Normal / Ghost
+
+New Moves:
+- None
+
+Level Up Moves:
+01 - Scratch
+01 - Leer
+03 - Night Shade
+06 - Torment
+09 - Shadow Sneak
+12 - Curse
+15 - Hex
+18 - Taunt
+21 - Hone Claws
+24 - Knock Off
+27 - Spite
+32 - Agility
+36 - Confuse Ray
+40 - Shadow Ball
+44 - Bitter Malice
+48 - Comeuppance
+52 - Nasty Plot
+56 - Foul Play
+60 - Memento
+
+-------------------
+571 - Zoroark
+-------------------
+Abilities: Illusion / Illusion / Illusion
+Base Stats: 55/100/60/125/60/110 (510)
+Held Item: None
+Type: Normal / Ghost
+
+New Moves:
+- None
+
+Level Up Moves:
+01 - Extrasensory
+01 - U-turn
+01 - Scratch
+01 - Leer
+03 - Night Shade
+06 - Torment
+09 - Shadow Sneak
+12 - Curse
+15 - Hex
+18 - Taunt
+21 - Hone Claws
+24 - Knock Off
+27 - Spite
+30 - Shadow Claw
+32 - Agility
+36 - Confuse Ray
+40 - Shadow Ball
+44 - Bitter Malice
+48 - Comeuppance
+52 - Nasty Plot
+56 - Foul Play
+60 - Memento
+
+-------------------
+618.2 - Stunfisk (Galarian Form)
+-------------------
+Abilities: Mimicry / Mimicry / Mimicry ⟶ Arena Trap** / Arena Trap** / Arena Trap**
+Base Stats: 109/81/99/66/84/32 (471)
+Held Item: None
+Type: Ground / Steel
+
+New Moves:
+- Bide (Level)
+- Mud Sport (Level)
+- Mud Bomb (Level)
+- Camouflage (Level)
+- Iron Head (Level/Tutor)
+- Metal Burst (Level)
+
+Notes:
+Mimicry isn't implemented (and there's also no terrain), so Galarian Stunfisk has been given a new ability.
+
+Level Up Moves:
+01 - Mud Sport
+01 - Mud-Slap
+01 - Tackle
+01 - Bide
+01 - Water Gun
+04 - Metal Claw
+08 - Mud Shot
+12 - Endure
+16 - Metal Sound
+20 - Mud Bomb
+24 - Revenge
+28 - Camouflage
+32 - Iron Head
+36 - Bounce
+40 - Muddy Water
+44 - Metal Burst
+48 - Sucker Punch
+52 - Flail
+56 - Fissure
+
+-------------------
+628.2 - Braviary (Hisuian Form)
+-------------------
+Abilities: Keen Eye / Sheer Force / Tinted Lens
+Base Stats: 110/83/70/112/70/65 (510)
+Held Item: None
+Type: Psychic / Flying
+
+New Moves:
+- Fury Attack (Level)
+
+Level Up Moves:
+01 - Peck
+01 - Leer
+04 - Fury Attack
+08 - Wing Attack
+12 - Scary Face
+16 - Aerial Ace
+20 - Defog
+24 - Slash
+28 - Tailwind
+32 - Hone Claws
+36 - Esper Wing
+40 - Crush Claw
+45 - Whirlwind
+50 - Thrash
+55 - Hurricane
+60 - Sky Attack

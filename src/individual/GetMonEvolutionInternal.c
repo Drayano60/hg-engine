@@ -41,6 +41,9 @@
     } \
 }
 
+#define GLOBAL_TERMINAL_HEADER_ID 207
+#define FRIENDSHIP_EVOLUTION_THRESHOLD 160
+
 /**
  *  @brief get the evolution species for a pokemon.  generalized depending on context
  *         also set form depending on the evolution structure read from armips/data/evodata.s
@@ -81,6 +84,36 @@ u16 GetMonEvolutionInternal(struct Party *party, struct PartyPokemon *pokemon, u
         return SPECIES_NONE;
     }
 
+    /**** AURORA CRYSTAL: Special handling for the new Stellar Stone. ****/
+    if (species == SPECIES_EEVEE && usedItem == ITEM_STELLAR_STONE) {
+        int chosenEvolution = GetScriptVar(0x416C);
+
+        if (chosenEvolution == 0) {
+            chosenEvolution = gf_rand() % 8;
+        }
+
+        switch (chosenEvolution) {
+        case 1:
+            return SPECIES_VAPOREON;
+        case 2:
+            return SPECIES_JOLTEON;
+        case 3:
+            return SPECIES_FLAREON;
+        case 4:
+            return SPECIES_ESPEON;
+        case 5:
+            return SPECIES_UMBREON;
+        case 6:
+            return SPECIES_LEAFEON;
+        case 7:
+            return SPECIES_GLACEON;
+        case 8:
+            return SPECIES_SYLVEON;
+        default:
+            return SPECIES_VAPOREON;
+        }
+    }
+
     // Spiky-ear Pichu cannot evolve
     if (species == SPECIES_PICHU && form == 1) {
         return SPECIES_NONE;
@@ -97,6 +130,9 @@ u16 GetMonEvolutionInternal(struct Party *party, struct PartyPokemon *pokemon, u
 
     switch (context) {
     case EVOCTX_LEVELUP:
+        /**** AURORA CRYSTAL: Get location for Global Terminal evolutions. ****/
+        u32 location = gFieldSysPtr->location->mapId;
+
         level = (u8)GetMonData(pokemon, MON_DATA_LEVEL, NULL);
         friendship = (u16)GetMonData(pokemon, MON_DATA_FRIENDSHIP, NULL);
         for (i = 0; i < MAX_EVOS_PER_POKE; i++) {
@@ -378,6 +414,47 @@ u16 GetMonEvolutionInternal(struct Party *party, struct PartyPokemon *pokemon, u
                 }
                 break;
             }
+
+
+            /**** AURORA CRYSTAL: New evolution methods ****/
+
+            // Used for regional forms like Quilava, Dewott, Rufflet etc.
+            case EVO_LEVEL_GLOBAL_TERMINAL:
+                if (evoTable[i].param <= level && location == GLOBAL_TERMINAL_HEADER_ID) {
+                    GET_TARGET_AND_SET_FORM;
+                    *method_ret = EVO_LEVEL;
+                }
+                break;
+
+            // Used for Mime Jr. -> Galarian Mr. Mime
+            case EVO_HAS_MOVE_GLOBAL_TERMINAL:
+                if ((MonHasMove(pokemon, evoTable[i].param) == TRUE) && (location == GLOBAL_TERMINAL_HEADER_ID)) {
+                    GET_TARGET_AND_SET_FORM;
+                    *method_ret = EVO_HAS_MOVE;
+                }
+                break;
+
+            // Used for Dunsparce -> Three-Segment Dudunsparce
+            case EVO_HAS_MOVE_AND_RNG:
+                if ((MonHasMove(pokemon, evoTable[i].param) == TRUE) && (gf_rand() % 10 == 0)) { // 10%
+                    GET_TARGET_AND_SET_FORM;
+                    *method_ret = EVO_HAS_MOVE;
+                }
+                break;
+
+            // Used for female White-Striped Basculin.
+            case EVO_HURT_IN_BATTLE_AMOUNT_FEMALE:
+                {
+                    u32 hp = GetMonData(pokemon, MON_DATA_HP, NULL), maxhp = GetMonData(pokemon, MON_DATA_MAXHP, NULL);
+
+                    if ((GetMonData(pokemon, MON_DATA_GENDER, NULL) == POKEMON_GENDER_FEMALE) && hp && (maxhp - hp) >= evoTable[i].param) // if the mon has evoTable[i].param hp less than its max
+                    {
+                        GET_TARGET_AND_SET_FORM;
+                        *method_ret = EVO_HURT_IN_BATTLE_AMOUNT;
+                    }
+                }
+                break;
+
             if (target != SPECIES_NONE) {
                 break;
             }
@@ -410,6 +487,9 @@ u16 GetMonEvolutionInternal(struct Party *party, struct PartyPokemon *pokemon, u
         break;
     case EVOCTX_ITEM_CHECK:
     case EVOCTX_ITEM_USE:
+        /**** AURORA CRYSTAL: Get location for Global Terminal evolutions. ****/
+        u32 location = gFieldSysPtr->location->mapId;
+
         for (i = 0; i < MAX_EVOS_PER_POKE; i++) {
             if (evoTable[i].method == EVO_STONE && usedItem == evoTable[i].param) {
                 GET_TARGET_AND_SET_FORM;
@@ -422,6 +502,15 @@ u16 GetMonEvolutionInternal(struct Party *party, struct PartyPokemon *pokemon, u
                 break;
             }
             if (evoTable[i].method == EVO_STONE_FEMALE && GetMonData(pokemon, MON_DATA_GENDER, NULL) == POKEMON_GENDER_FEMALE && usedItem == evoTable[i].param) {
+                GET_TARGET_AND_SET_FORM;
+                *method_ret = 0;
+                break;
+            }
+
+            /**** AURORA CRYSTAL: New evolution method ****/
+
+            // Used to evolve into regional forms like Pikachu -> Raichu.
+            if (evoTable[i].method == EVO_ITEM_GLOBAL_TERMINAL && usedItem == evoTable[i].param && location == GLOBAL_TERMINAL_HEADER_ID) {
                 GET_TARGET_AND_SET_FORM;
                 *method_ret = 0;
                 break;

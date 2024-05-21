@@ -590,6 +590,13 @@ typedef enum EvoMethod
     EVO_LEVEL_NATURE_LOW_KEY,
     EVO_AMOUNT_OF_CRITICAL_HITS,
     EVO_HURT_IN_BATTLE_AMOUNT,
+
+    EVO_ITEM_GLOBAL_TERMINAL,
+    EVO_LEVEL_GLOBAL_TERMINAL,
+    EVO_HAS_MOVE_GLOBAL_TERMINAL,
+    EVO_HURT_IN_BATTLE_AMOUNT_FEMALE,
+    EVO_HAS_MOVE_AND_RNG,
+    
     //EVO_DARK_SCROLL,  // implemented through a forme-change-esque cut scene
     //EVO_WATER_SCROLL, // implemented through a forme-change-esque cut scene
 } EvoMethod;

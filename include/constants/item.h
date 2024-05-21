@@ -853,6 +853,12 @@
 #define ITEM_NAIVE_MINT         (ITEM_PIXIE_PLATE + 206)
 #define ITEM_SERIOUS_MINT       (ITEM_PIXIE_PLATE + 207)
 
+/**** AURORA CRYSTAL: Defined new items ****/
+#define ITEM_STELLAR_STONE      (ITEM_PIXIE_PLATE + 208) // 792
+#define ITEM_FAIRY_FEATHER      (ITEM_PIXIE_PLATE + 209) // 793
+#define ITEM_TELEPORT_GEM       (ITEM_PIXIE_PLATE + 210) // 794
+#define ITEM_GS_BALL            (ITEM_PIXIE_PLATE + 211) // 795
+
 #define NUM_MEGA_STONES 48 // includes the pixie plate
 
 #define IS_ITEM_TERRAIN_SEED(item) (item >= ITEM_ELECTRIC_SEED && item <= ITEM_PSYCHIC_SEED)
@@ -860,7 +866,8 @@
 #define NUM_UNKNOWN_SLOTS 22 // used to adjust in data/itemdata.c
 #define NUM_UNKNOWN_SLOTS_EXPLORER_KIT (NUM_UNKNOWN_SLOTS+1) // used to adjust in data/itemdata.c
 
-#define NEW_ITEM_MAX ITEM_TEA
+/**** AURORA CRYSTAL: Changed to GS Ball from Tea ****/
+#define NEW_ITEM_MAX ITEM_GS_BALL
 
 #define BAG_SLOT_QUANTITY_MAX                    999
 #define BAG_TMHM_QUANTITY_MAX                     99

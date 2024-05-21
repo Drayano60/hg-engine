@@ -88,6 +88,12 @@ u32 LoadCaptureSuccessSPA(u32 id);
 u32 LoadCaptureSuccessSPAStarEmitter(u32 id);
 u32 LoadCaptureSuccessSPANumEmitters(u32 id);
 
+/**** AURORA CRYSTAL: Additional commands. ****/
+BOOL btl_scr_cmd_F9_echoedvoicedamagecalc(void *bw, struct BattleStruct *sp);
+BOOL btl_scr_cmd_FA_iflasthitofmultihit(void *bw, struct BattleStruct *sp);
+BOOL btl_scr_cmd_FB_strengthsapcalc(void *bw, struct BattleStruct *sp);
+BOOL btl_scr_cmd_FC_didtargetraisestat(void *bw, struct BattleStruct *sp);
+
 #ifdef DEBUG_BATTLE_SCRIPT_COMMANDS
 const u8 *BattleScrCmdNames[] =
 {
@@ -372,6 +378,12 @@ const btl_scr_cmd_func NewBattleScriptCmdTable[] =
     [0xF6 - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_F6_changeexecutionorderpriority,
     [0xF7 - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_F7_setbindingcounter,
     [0xF8 - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_F8_clearbindcounter,
+
+    /**** AURORA CRYSTAL: Additional commands. ****/
+    [0xF9 - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_F9_echoedvoicedamagecalc,
+    [0xFA - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_FA_iflasthitofmultihit,
+    [0xFB - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_FB_strengthsapcalc,
+    [0xFC - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_FC_didtargetraisestat,
 };
 
 // entries before 0xFFFE are banned for mimic and metronome--after is just banned for metronome.  table ends with 0xFFFF
@@ -1335,20 +1347,27 @@ void Task_DistributeExp_Extend(void *arg0, void *work)
 
             if (monCountFromItem)
             {
-                expcalc->sp->obtained_exp = (totalexp / 2) / monCount;
+                /**** AURORA CRYSTAL: Adjusted stuff to match Gen 6+ system. ****/
+                expcalc->sp->obtained_exp = totalexp; // All Pokémon gain full EXP.
+
                 if (expcalc->sp->obtained_exp == 0)
                 {
                     expcalc->sp->obtained_exp = 1;
                 }
-                expcalc->sp->exp_share_obtained_exp = (totalexp / 2) / monCountFromItem;
+                expcalc->sp->exp_share_obtained_exp = (totalexp / 2); // All Pokémon with EXP share gain 50% XP.
                 if (expcalc->sp->exp_share_obtained_exp == 0)
                 {
                     expcalc->sp->exp_share_obtained_exp = 1;
                 }
+
+                // Nullify EXP. Share experience if a Pokémon was directly in battle.
+                if (expcalc->sp->obtained_exp_right_flag[client_no]) {
+                    expcalc->sp->exp_share_obtained_exp = 0;
+                }
             }
             else
             {
-                expcalc->sp->obtained_exp = totalexp / monCount;
+                expcalc->sp->obtained_exp = totalexp; // All Pokémon gain full EXP.
                 if (expcalc->sp->obtained_exp == 0)
                 {
                     expcalc->sp->obtained_exp = 1;
@@ -2039,7 +2058,9 @@ BOOL btl_scr_cmd_d0_checkshouldleavewith1hp(void *bw, struct BattleStruct *sp)
             if (flag != 2)
                 sp->waza_status_flag |= MOVE_STATUS_FLAG_HELD_ON_ITEM;
             else
-                sp->waza_status_flag |= MOVE_STATUS_FLAG_HELD_ON_ABILITY;
+            /**** AURORA CRYSTAL: Sturdy sets both flags here so we can display a more appropriate text. ****/
+            /* The ability alone version is used for Endure, so we need to differentiate it somehow. */
+                sp->waza_status_flag |= MOVE_STATUS_FLAG_HELD_ON_ITEM | MOVE_STATUS_FLAG_HELD_ON_ABILITY;
         }
     }
 
@@ -2693,6 +2714,91 @@ BOOL btl_scr_cmd_F8_clearbindcounter(void *bw UNUSED, struct BattleStruct *sp) {
     return FALSE;
 }
 
+/**** AURORA CRYSTAL: Additional commands. ****/
+/**
+ *  @brief script command to increment counter of and calculate power of Echoed Voice (not accurate to actual game)
+ *
+ *  @param bw battle work structure
+ *  @param sp global battle structure
+ *  @return FALSE
+ */
+BOOL btl_scr_cmd_F9_echoedvoicedamagecalc(void *bw, struct BattleStruct *sp)
+{
+    IncrementBattleScriptPtr(sp, 1);
+
+    if (sp->battlemon[sp->attack_client].echoed_voice_count < 5) {
+        sp->battlemon[sp->attack_client].echoed_voice_count++;
+    }
+
+    sp->damage_power = GetMoveData(sp->current_move_index, MOVE_DATA_BASE_POWER) * sp->battlemon[sp->attack_client].echoed_voice_count;
+
+    return FALSE;
+}
+
+
+/**
+ *  @brief script command to check if current multi-hit move is last hit (used for Scale Shot)
+ *
+ *  @param bw battle work structure
+ *  @param sp global battle structure
+ *  @return FALSE
+ */
+BOOL btl_scr_cmd_FA_iflasthitofmultihit(void *bw, struct BattleStruct *sp) {
+    IncrementBattleScriptPtr(sp, 1);
+    int address = read_battle_script_param(sp);
+
+    if (!(sp->multi_hit_count <= 1 || (sp->defence_client == sp->fainting_client))) {
+        IncrementBattleScriptPtr(sp, address); 
+    }
+
+    return FALSE;
+}
+
+
+/**
+ *  @brief script command to calculate Strength Sap healing
+ *
+ *  @param bw battle work structure
+ *  @param sp global battle structure
+ *  @return FALSE
+ */
+BOOL btl_scr_cmd_FB_strengthsapcalc(void *bw, struct BattleStruct *sp) {
+    IncrementBattleScriptPtr(sp, 1);
+
+    s32 damage;
+    u16 attack;
+    s8 atkstate;
+
+    attack = BattlePokemonParamGet(sp, sp->defence_client, BATTLE_MON_DATA_ATK, NULL);
+    atkstate = BattlePokemonParamGet(sp, sp->defence_client, BATTLE_MON_DATA_STATE_ATK, NULL);
+
+    damage = attack * StatBoostModifiers[atkstate][0];
+    damage /= StatBoostModifiers[atkstate][1];
+
+    sp->hp_calc_work = -damage;
+
+    return FALSE;
+}
+
+
+/**
+ *  @brief script command to check if a target raised a stat this turn (for Burning Jealousy and Alluring Voice)
+ *
+ *  @param bw battle work structure
+ *  @param sp global battle structure
+ *  @return FALSE
+ */
+BOOL btl_scr_cmd_FC_didtargetraisestat(void *bw UNUSED, struct BattleStruct *sp) {
+    IncrementBattleScriptPtr(sp, 1);
+
+    int address = read_battle_script_param(sp);
+
+    if (sp->oneTurnFlag[sp->defence_client].stats_raised_flag) {
+       IncrementBattleScriptPtr(sp, address);
+    }
+
+    return FALSE;
+}
 
 /**
  *  @brief script command to calculate the amount of HP should a client recover by using Moonlight, Morning Sun, or Synthesis
@@ -2890,6 +2996,7 @@ BOOL CanKnockOffApply(struct BattleStruct *sp)
 extern u8 gSafariBallRateTable[13][2];
 u16 MoonBallSpecies[] =
 {
+    /*
     SPECIES_NIDORAN_F,
     SPECIES_NIDORINA,
     SPECIES_NIDOQUEEN,
@@ -2906,6 +3013,17 @@ u16 MoonBallSpecies[] =
     SPECIES_DELCATTY,
     SPECIES_MUNNA,
     SPECIES_MUSHARNA,
+    */
+
+    /**** AURORA CRYSTAL: Modernized to be Moon Stone using Pokémon only + add Eevee. ****/
+
+    SPECIES_NIDORINA,
+    SPECIES_NIDORINO,
+    SPECIES_CLEFAIRY,
+    SPECIES_JIGGLYPUFF,
+    SPECIES_SKITTY,
+    SPECIES_MUNNA,
+    SPECIES_EEVEE,
 };
 
 /**
@@ -2921,6 +3039,11 @@ u32 CalculateBallShakes(void *bw, struct BattleStruct *sp)
 
     if (BattleTypeGet(bw) & (BATTLE_TYPE_POKE_PARK | BATTLE_TYPE_CATCHING_DEMO)) // poke park and safari zone always succeed
     {
+        return 4;
+    }
+
+    /**** AURORA CRYSTAL: Allow guaranteed capture if a particular flag is set. ****/
+    if (CheckScriptFlag(2603)) {
         return 4;
     }
 
@@ -2953,11 +3076,11 @@ u32 CalculateBallShakes(void *bw, struct BattleStruct *sp)
         //ballRate = 10;
         break;
     case ITEM_SAFARI_BALL:
-        ballRate = 15;
+        ballRate = 20; /**** AURORA CRYSTAL: Changed from x1.5 -> x2.0. ****/
         break;
     case ITEM_NET_BALL:
         if (type1 == TYPE_WATER || type2 == TYPE_WATER || type1 == TYPE_BUG || type2 == TYPE_BUG)
-            ballRate = 30;
+            ballRate = 35; /**** AURORA CRYSTAL: Modernized to x3.5. ****/
         break;
     case ITEM_DIVE_BALL:
         if (BattleWorkGroundIDGet(bw) == 7) // if the battle is happening with a water background
@@ -2966,15 +3089,15 @@ u32 CalculateBallShakes(void *bw, struct BattleStruct *sp)
     case ITEM_NEST_BALL:
         if (sp->battlemon[sp->defence_client].level <= 30)
         {
-            ballRate = 40 - sp->battlemon[sp->defence_client].level;
+            ballRate = 40 - sp->battlemon[sp->defence_client].level; // Still Gen 4 formula.
         }
         break;
     case ITEM_REPEAT_BALL:
         if (Battle_CheckIfHasCaughtMon(bw, sp->battlemon[sp->defence_client].species))
-            ballRate = 30;
+            ballRate = 35; /**** AURORA CRYSTAL: Modernized to x3.5. ****/
         break;
     case ITEM_TIMER_BALL:
-        ballRate = 10 + sp->total_turn;
+        ballRate = 10 + (sp->total_turn * 3); /**** AURORA CRYSTAL: Modernized roughly to be maximum after 10 turns. ****/
         if (ballRate > 40)
             ballRate = 40;
         break;
@@ -2986,14 +3109,14 @@ u32 CalculateBallShakes(void *bw, struct BattleStruct *sp)
     //    break;
     case ITEM_DUSK_BALL:
         if (Battle_GetTimeOfDay(bw) == 3 || Battle_GetTimeOfDay(bw) == 4 || BattleWorkGroundIDGet(bw) == 5)
-            ballRate = 35;
+            ballRate = 30; /**** AURORA CRYSTAL: Modernized to x3.0. ****/
         break;
     //case ITEM_HEAL_BALL:
     //
     //    break;
     case ITEM_QUICK_BALL:
         if (sp->total_turn < 1)
-            ballRate = 40;
+            ballRate = 50; /**** AURORA CRYSTAL: Modernized to x5.0 ****/
         break;
     //case ITEM_CHERISH_BALL:
     //
@@ -3019,22 +3142,20 @@ u32 CalculateBallShakes(void *bw, struct BattleStruct *sp)
         if (Battle_IsFishingEncounter(bw))
             ballRate = 40; // as of sword and shield
         break;
-    case ITEM_HEAVY_BALL:
-        if (GetPokemonWeight(bw, sp, sp->defence_client) < 1024)
+    case ITEM_HEAVY_BALL: /**** AURORA CRYSTAL: Modernized the thresholds. ****/
+        if (GetPokemonWeight(bw, sp, sp->defence_client) < 1000)
         {
             if (captureRate > 20)
                 captureRate -= 20;
             else
                 captureRate = 1;
         }
-        else if (GetPokemonWeight(bw, sp, sp->defence_client) < 2048)
+        else if (GetPokemonWeight(bw, sp, sp->defence_client) < 2000)
             ballRate = 10; // do nothing
-        else if (GetPokemonWeight(bw, sp, sp->defence_client) < 3072)
+        else if (GetPokemonWeight(bw, sp, sp->defence_client) < 3000)
             captureRate += 20;
-        else if (GetPokemonWeight(bw, sp, sp->defence_client) < 4096)
+        else
             captureRate += 30;
-        else if (GetPokemonWeight(bw, sp, sp->defence_client) < 4096)
-            captureRate += 40;
 
         if (captureRate > 255)
             captureRate = 255;
@@ -3065,7 +3186,7 @@ u32 CalculateBallShakes(void *bw, struct BattleStruct *sp)
             ballRate = 40;
         break;
     case ITEM_SPORT_BALL:
-        ballRate = 15;
+        ballRate = 20; /**** AURORA CRYSTAL: Changed from x1.5 -> x2.0. ****/
         break;
     //case ITEM_PARK_BALL:
     //

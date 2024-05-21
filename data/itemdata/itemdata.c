@@ -41116,7 +41116,7 @@ const ITEMDATA __data[] =
 [ITEM_THROAT_SPRAY - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
     .price = 2000,
-    .holdEffect = 0,
+    .holdEffect = HOLD_EFFECT_THROAT_SPRAY,
     .holdEffectParam = 0,
     .pluckEffect = 0,
     .flingEffect = 0,

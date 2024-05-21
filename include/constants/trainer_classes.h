@@ -1,6 +1,8 @@
 #ifndef CONSTANTS_TRAINERCLASS_H
 #define CONSTANTS_TRAINERCLASS_H
 
+/**** AURORA CRYSTAL: Consts added for use in prize money and music tables. ****/
+
 #define CLASS_PKMN_TRAINER_0   0
 #define CLASS_PKMN_TRAINER_1   1
 #define CLASS_YOUNGSTER   2

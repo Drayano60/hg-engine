@@ -1,6 +1,8 @@
 #include "../include/types.h"
 #include "../include/constants/species.h"
 
+/**** AURORA CRYSTAL: Used to add music to legendaries / trainer classes. ****/
+
 // Tables for connecting music to Pokemon Species and Trainer Classes
 // Thank you AdAstra for the original tutorial, BluRose for the repoint syntax and Senate for helping me set it up (and giving me the vanilla table)!
 // Remember to increment the relevant variables in bytereplacement when adding entries to the tables.

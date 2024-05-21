@@ -1,6 +1,8 @@
 #include "../include/types.h"
 #include "../include/constants/moves.h"
 
+/**** AURORA CRYSTAL: Used for extended tutor moves. ****/
+
 /* Repoint move tutor table elsewhere
  * This way we can expand it to 64 moves from the original 53 (thanks to the tutor data having room for 64 bits)
  * Thanks BluRose for some of the pointer/limiter locations!

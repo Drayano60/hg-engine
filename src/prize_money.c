@@ -5,6 +5,8 @@
     Thanks Senate!
 */
 
+/**** AURORA CRYSTAL: Used so some previously unused classes give money. ****/
+
 struct TrainerMoney
 {
     u16 class;

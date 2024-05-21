@@ -41,6 +41,8 @@ void ItemMenuUseFunc_JollyMint(struct ItemMenuUseData *data, const struct ItemCh
 void ItemMenuUseFunc_NaiveMint(struct ItemMenuUseData *data, const struct ItemCheckUseData *dat2 UNUSED);
 void ItemMenuUseFunc_SeriousMint(struct ItemMenuUseData *data, const struct ItemCheckUseData *dat2 UNUSED);
 
+void ItemMenuUseFunc_AbilityPatch(struct ItemMenuUseData *data, const struct ItemCheckUseData *dat2 UNUSED);
+
 const struct ItemUseFuncDat sItemFieldUseFuncs[] = {
     { NULL, ItemFieldUseFunc_Generic, NULL },
     { ItemMenuUseFunc_HealingItem, NULL, NULL },
@@ -97,6 +99,8 @@ const struct ItemUseFuncDat sItemFieldUseFuncs[] = {
     { ItemMenuUseFunc_JollyMint, NULL, NULL },
     { ItemMenuUseFunc_NaiveMint, NULL, NULL },
     { ItemMenuUseFunc_SeriousMint, NULL, NULL },
+
+    { ItemMenuUseFunc_AbilityPatch, NULL, NULL },
 };
 
 u16 GetItemIndex(u16 item, u16 type)
@@ -408,5 +412,15 @@ void ItemMenuUseFunc_SeriousMint(struct ItemMenuUseData *data, const struct Item
     FieldSystem *fieldSystem = data->taskManager->fieldSystem; // TaskManager_GetFieldSystem(data->taskManager);
     struct BagViewAppWork *env = data->taskManager->env; //TaskManager_GetEnvironment(data->taskManager);
     env->atexit_TaskEnv = sub_0203FAE8(fieldSystem, HEAPID_WORLD, ITEM_SERIOUS_MINT);
+    sub_0203C8F0(env, 0x0203CA9C | 1);
+}
+
+/**** AURORA CRYSTAL: Added functions necessary for Ability Patch ****/
+
+void ItemMenuUseFunc_AbilityPatch(struct ItemMenuUseData *data, const struct ItemCheckUseData *dat2 UNUSED)
+{
+    FieldSystem *fieldSystem = data->taskManager->fieldSystem; // TaskManager_GetFieldSystem(data->taskManager);
+    struct BagViewAppWork *env = data->taskManager->env; //TaskManager_GetEnvironment(data->taskManager);
+    env->atexit_TaskEnv = sub_0203FAE8(fieldSystem, HEAPID_WORLD, ITEM_ABILITY_PATCH);
     sub_0203C8F0(env, 0x0203CA9C | 1);
 }

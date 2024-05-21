@@ -97,6 +97,20 @@
 #define GET_BOX_MON_NATURE_OVERRIDE(boxmon) (((GetBoxMonData(boxmon, MON_DATA_RESERVED_114, 0) & DUMMY_P2_2_NATURE_OVERRIDE) >> 1) & 0x1F)
 
 
+/**** AURORA CRYSTAL: MON_DATA_RESERVED_114 functions for Ability Patch ****/
+
+#define SET_BOX_MON_CHANGED_ABILITY_BIT(boxmon) { \
+    u16 tempvarassumeunused = GetBoxMonData(boxmon, MON_DATA_RESERVED_114, 0); \
+    tempvarassumeunused |= DUMMY_P2_2_CHANGE_ABILITY_SLOT; \
+    SetBoxMonData(boxmon, MON_DATA_RESERVED_114, (u8 *)&tempvarassumeunused); \
+}
+
+#define UNSET_BOX_MON_CHANGED_ABILITY_BIT(boxmon) { \
+    u16 tempvarassumeunused = GetBoxMonData(boxmon, MON_DATA_RESERVED_114, 0); \
+    tempvarassumeunused &= ~DUMMY_P2_2_CHANGE_ABILITY_SLOT; \
+    SetBoxMonData(boxmon, MON_DATA_RESERVED_114, (u8 *)&tempvarassumeunused); \
+}
+
 #define IS_SPECIES_PARADOX_FORM(species) ((species >= SPECIES_GREAT_TUSK && species <= SPECIES_IRON_THORNS) || (species == SPECIES_ROARING_MOON) || (species == SPECIES_IRON_VALIANT) || (species == SPECIES_WALKING_WAKE) \
     || (species == SPECIES_IRON_LEAVES) || (species >= SPECIES_GOUGING_FIRE && species <= SPECIES_IRON_CROWN))
 
@@ -1161,7 +1175,8 @@ void LONG_CALL WildMonSetRandomHeldItem(struct PartyPokemon *pokemon, u32 fight_
 BOOL LONG_CALL GrabAndRegisterUnownForm(EncounterInfo *encounterInfo);
 
 // shiny convenience macro
-#define SHINY_VALUE(otid, pid) (((otid & 0xffff0000) >> 16) ^ (otid & 0xffff) ^ ((pid & 0xffff0000) >> 16) ^ (pid & 0xffff))
+/**** AURORA CRYSTAL: Redefined SHINY_VALUE with 'u', seems necessary to handle cases with leading zeroes. ****/
+#define SHINY_VALUE(otid, pid) (((otid & 0xFFFF0000u) >> 16u) ^ (otid & 0xFFFFu) ^ ((pid & 0xFFFF0000u) >> 16u) ^ (pid & 0xFFFFu))
 #define SHINY_CHECK(otid, pid) (SHINY_VALUE(otid, pid) <= SHINY_ODDS)
 
 /**

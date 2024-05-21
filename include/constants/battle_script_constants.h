@@ -373,7 +373,26 @@
 #define SUB_SEQ_HANDLE_SANDSTORM_TEMPORARY            (363)
 #define SUB_SEQ_HANDLE_SNOW_TEMPORARY                 (364)
 
+/**** AURORA CRYSTAL: New sub_seqs. ****/
 
+#define SUB_SEQ_HANDLE_COMPETITIVE                    (442)
+#define SUB_SEQ_HANDLE_AIR_LOCK_MESSAGE               (447)
+#define SUB_SEQ_HANDLE_SUNNY_MOOD                     (452)
+#define SUB_SEQ_HANDLE_COTTON_DOWN                    (453)
+#define SUB_SEQ_HANDLE_ROCKY_HELMET                   (457)
+#define SUB_SEQ_HANDLE_THROAT_SPRAY                   (458)
+#define SUB_SEQ_HANDLE_WEAKNESS_POLICY                (459)
+#define SUB_SEQ_HANDLE_BUFF_ON_KO                     (465)
+#define SUB_SEQ_SWEET_AROMA                           (470)
+#define SUB_SEQ_ILLUMINATE                            (472)
+#define SUB_SEQ_PASTEL_VEIL                           (475)
+#define SUB_SEQ_SCREEN_CLEANER                        (476)
+#define SUB_SEQ_PERISH_BODY                           (477)
+#define SUB_SEQ_WANDERING_SPIRIT                      (478)
+#define SUB_SEQ_CURIOUS_MEDICINE                      (479)
+#define SUB_SEQ_HANDLE_GOOEY                          (484)
+#define SUB_SEQ_CREATE_TERRAIN_OVERLAY_ABILITY        (487)
+#define SUB_SEQ_ATK_AND_SPATK_DOWN                    (488)
 
 // add status effect constants--used in battle effect scripts to queue up a subscript through the table in src/moves.c
 

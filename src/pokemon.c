@@ -1027,6 +1027,18 @@ void LONG_CALL UpdatePassiveForms(struct PartyPokemon *pp)
         case SPECIES_PYROAR:
             form = (gf_rand() % 8 != 0); // 1/8 male
             break;
+
+        /**** AURORA CRYSTAL: Let any Flabébé or Pumpkaboo show (except Eternal Floette) ****/
+        case SPECIES_FLABEBE:
+        case SPECIES_FLOETTE:
+        case SPECIES_FLORGES:
+            form = gf_rand() % 5;
+            break;
+        case SPECIES_PUMPKABOO:
+        case SPECIES_GOURGEIST:
+            form = gf_rand() % 4;
+            break;
+
         default:
             shouldUpdate = FALSE;
     }
@@ -1429,6 +1441,23 @@ void LONG_CALL CreateBoxMonData(struct BoxPokemon *boxmon, int species, int leve
     }
     else if(idflag!=ID_SET){
         id=0;
+    }
+
+    /**** AURORA CRYSTAL: Force shininess for generated Pokemon when flag is set. ****/
+    if (CheckScriptFlag(2612) == 1) {
+        struct PLAYERDATA *saveData = SaveBlock2_get();
+        struct PlayerProfile *profile = Sav2_PlayerData_GetProfileAddr(saveData);
+
+        u32 otid = *(u32*)&profile->id;
+        u32 pid = (gf_rand() | (gf_rand() << 16));
+
+        do {
+            pid = (gf_rand() | (gf_rand() << 16));
+        } while (SHINY_CHECK(otid, pid) == FALSE);
+
+        SetBoxMonData(boxmon, MON_DATA_PERSONALITY, &pid);
+
+        ClearScriptFlag(2612);
     }
 
     // this function or AddWildPartyPokemon could both get here first
@@ -1921,6 +1950,10 @@ u32 GetLevelCap(void)
 {
     u32 levelCap = GetScriptVar(LEVEL_CAP_VARIABLE);
     if (levelCap > 100) levelCap = 100;
+
+    /**** AURORA CRYSTAL: also set to lv 100 if cap not set ****/
+    if (levelCap == 0) levelCap = 100;
+
     return levelCap;
 }
 

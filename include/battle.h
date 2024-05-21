@@ -87,6 +87,16 @@
 #define ADD_STATE_ACCURACY_DOWN_2 0x33
 #define ADD_STATE_EVASION_DOWN_2 0x34
 
+/**** AURORA CRYSTAL: Consts for +3 to stat ****/
+
+#define ADD_STATE_ATTACK_UP_3 0x35
+#define ADD_STATE_DEFENSE_UP_3 0x36
+#define ADD_STATE_SPEED_UP_3 0x37
+#define ADD_STATE_SP_ATK_UP_3 0x38
+#define ADD_STATE_SP_DEF_UP_3 0x39
+#define ADD_STATE_ACCURACY_UP_3 0x3A
+#define ADD_STATE_EVASION_UP_3 0x3B
+
 /**
  *  @brief move status flag defines for the BattleStruct's waza_status_flag field.
  *  name is left as source define if not sure what it defines

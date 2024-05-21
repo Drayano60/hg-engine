@@ -13,6 +13,8 @@
 #include "../../include/constants/battle_message_constants.h"
 #include "../../include/constants/file.h"
 
+/**** AURORA CRYSTAL: Commented out the later gen item def to include Weakness Policy ****/
+
 /**
  *  @brief handle item effects for a defender's items on move hit.  loads into *seq_no
  *         this function is for the defender's held item effect triggering after hitting with a move
@@ -276,7 +278,7 @@ BOOL CheckDefenderItemEffectOnHit(void *bw, struct BattleStruct *sp, int *seq_no
             break;
 
 
-#ifdef LATER_GEN_ITEM_EFFECTS
+// #ifdef LATER_GEN_ITEM_EFFECTS
 
         case HOLD_EFFECT_BOOST_ATK_AND_SPATK_ON_SE:             // Weakness Policy
             // Defender is alive after the attack
@@ -304,7 +306,7 @@ BOOL CheckDefenderItemEffectOnHit(void *bw, struct BattleStruct *sp, int *seq_no
             // switch tree, since everything here cares about being
             // *dealt* damage, rather than *dealing* damage
 
-#endif
+// #endif
 
         default:
             break;

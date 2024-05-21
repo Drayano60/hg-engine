@@ -23,6 +23,11 @@ int SwitchInAbilityCheck(void *bw, struct BattleStruct *sp);
 BOOL AreAnyStatsNotAtValue(struct BattleStruct *sp, int client, int value);
 u32 TurnEndAbilityCheck(void *bw, struct BattleStruct *sp, int client_no);
 BOOL MummyAbilityCheck(struct BattleStruct *sp);
+
+/**** AURORA CRYSTAL: Define new functions. ****/
+BOOL WanderingSpiritAbilityCheck(struct BattleStruct *sp);
+BOOL KingsRockValidCheck(struct BattleStruct *sp);
+
 BOOL CanPickpocketStealClientItem(struct BattleStruct *sp, int client_no);
 u8 BeastBoostGreatestStatHelper(struct BattleStruct *sp, u32 client);
 BOOL MoveHitAttackerAbilityCheck(void *bw, struct BattleStruct *sp, int *seq_no);
@@ -195,6 +200,50 @@ int MoveCheckDamageNegatingAbilities(struct BattleStruct *sp, int attacker, int 
         }
     }
 
+    /**** AURORA CRYSTAL: Handle Wind Rider, which can use the same sub_seq as Sap Sipper ****/
+    if (MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_WIND_RIDER) == TRUE)
+    {
+        if (IsMoveWindBased(sp->current_move_index))
+        {
+            scriptnum = SUB_SEQ_HANDLE_SAP_SIPPER;
+        }
+    }
+
+    /**** AURORA CRYSTAL: Implement Overcoat, which can use the Soundproof sub_seq. ****/
+    if (MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_OVERCOAT) == TRUE)
+    {
+        if (IsMovePowderBased(sp->current_move_index))
+        {
+            scriptnum = SUB_SEQ_SOUNDPROOF;
+        }
+    }
+
+    /**** AURORA CRYSTAL: Implement Armor Tail, Dazzling and Queenly Majesty. ****/
+    if
+    (
+        (MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_ARMOR_TAIL == TRUE))
+        || (MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_DAZZLING == TRUE))
+        || (MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_QUEENLY_MAJESTY == TRUE))
+    )
+    {
+        if (adjustedMoveHasPositivePriority(sp, attacker)) {
+            scriptnum = SUB_SEQ_SOUNDPROOF;
+        }
+    }
+
+    if
+    (
+        (MoldBreakerAbilityCheck(sp, attacker, BATTLER_ALLY(defender), ABILITY_ARMOR_TAIL == TRUE))
+        || (MoldBreakerAbilityCheck(sp, attacker, BATTLER_ALLY(defender), ABILITY_DAZZLING == TRUE))
+        || (MoldBreakerAbilityCheck(sp, attacker, BATTLER_ALLY(defender), ABILITY_QUEENLY_MAJESTY == TRUE))
+    )
+    {
+        if (adjustedMoveHasPositivePriority(sp, attacker)) {
+            // This likely prints the target's ability instead rn
+            scriptnum = SUB_SEQ_SOUNDPROOF;
+        }
+    }
+
     // Handle Psychic Terrain
     // Block any natural priority move or a move made priority by an ability, if the terrain is Psychic Terrain
     // Courtesy of Dray (https://github.com/Drayano60)
@@ -343,9 +392,10 @@ u32 TurnEndAbilityCheck(void *bw, struct BattleStruct *sp, int client_no)
                 ret = TRUE;
             }
             break;
+        /**** AURORA CRYSTAL: Harvest can now also generate the Mental, Power and White Herb items. ****/
         case ABILITY_HARVEST:
             if ((sp->battlemon[client_no].hp)
-             && IS_ITEM_BERRY(sp->recycle_item[client_no])
+             && (IS_ITEM_BERRY(sp->recycle_item[client_no]) || IS_ITEM_HERB(sp->recycle_item[client_no]))
              && ((BattleRand(bw) % 2 == 0) // 50% chance
               // OR sun is active + abilities are not fucking it
               || ((CheckSideAbility(bw, sp, CHECK_ABILITY_ALL_HP, 0, ABILITY_CLOUD_NINE) == 0)
@@ -440,6 +490,41 @@ BOOL MummyAbilityCheck(struct BattleStruct *sp)
     }
 }
 
+/**** AURORA CRYSTAL: Define abilities that Wandering Spirit cannot replace. */
+BOOL WanderingSpiritAbilityCheck(struct BattleStruct *sp)
+{
+    switch(GetBattlerAbility(sp, sp->attack_client))
+    {
+        case ABILITY_AS_ONE_GLASTRIER:
+        case ABILITY_AS_ONE_SPECTRIER:
+        case ABILITY_BATTLE_BOND:
+        case ABILITY_COMATOSE:
+        case ABILITY_COMMANDER:
+        case ABILITY_DISGUISE:
+        case ABILITY_FLOWER_GIFT:
+        case ABILITY_FORECAST:
+        case ABILITY_GULP_MISSILE:
+        case ABILITY_HUNGER_SWITCH:
+        case ABILITY_ICE_FACE:
+        case ABILITY_ILLUSION:
+        case ABILITY_IMPOSTER:
+        case ABILITY_MULTITYPE:
+        case ABILITY_NEUTRALIZING_GAS:
+        case ABILITY_POWER_OF_ALCHEMY:
+        case ABILITY_RECEIVER:
+        case ABILITY_RKS_SYSTEM:
+        case ABILITY_SCHOOLING:
+        case ABILITY_SHIELDS_DOWN:
+        case ABILITY_STANCE_CHANGE:
+        case ABILITY_WONDER_GUARD:
+        case ABILITY_ZEN_MODE:
+        case ABILITY_ZERO_TO_HERO:
+            return FALSE;
+        default:
+            return TRUE;
+    }
+}
+
 /**
  *  @brief check if the client_no's item can be stolen by pickpocket
  *
@@ -521,7 +606,7 @@ BOOL MoveHitAttackerAbilityCheck(void *bw, struct BattleStruct *sp, int *seq_no)
                 && ((sp->server_status_flag2 & SERVER_STATUS_FLAG2_U_TURN) == 0)
                 && ((sp->oneSelfFlag[sp->defence_client].physical_damage) ||
                     (sp->oneSelfFlag[sp->defence_client].special_damage))
-                && (sp->moveTbl[sp->current_move_index].flag & FLAG_CONTACT)
+                && (isMoveContact(sp)) /**** AURORA CRYSTAL: Use helper function. ****/
                 && (CheckSubstitute(sp, sp->defence_client) == FALSE)
                 && (BattleRand(bw) % 10 < 3))
             {
@@ -566,7 +651,7 @@ BOOL MoveHitAttackerAbilityCheck(void *bw, struct BattleStruct *sp, int *seq_no)
                     sp->addeffect_param = ADD_STATE_ATTACK_UP;
                     sp->addeffect_type = ADD_EFFECT_ABILITY;
                     sp->state_client = sp->attack_client;
-                    seq_no[0] = SUB_SEQ_BOOST_STATS;
+                    seq_no[0] = SUB_SEQ_HANDLE_BUFF_ON_KO; /**** AURORA CRYSTAL: Change sub_seq to prevent boost if battle would end ****/
                     ret = TRUE;
                 }
             }
@@ -606,6 +691,63 @@ BOOL MoveHitAttackerAbilityCheck(void *bw, struct BattleStruct *sp, int *seq_no)
                 }
             }
             break;
+
+        /**** AURORA CRYSTAL: Add additional abilities that activate on attack. ****/
+
+        // Befuddle: 30% chance to inflict target with a status when using a Bug-type move.
+        case ABILITY_BEFUDDLE:
+            if ((sp->battlemon[sp->defence_client].hp)
+                && (sp->battlemon[sp->defence_client].condition == 0)
+                && ((sp->waza_status_flag & WAZA_STATUS_FLAG_NO_OUT) == 0)
+                && ((sp->server_status_flag & SERVER_STATUS_FLAG_x20) == 0)
+                && ((sp->server_status_flag2 & SERVER_STATUS_FLAG2_U_TURN) == 0)
+                && ((sp->oneSelfFlag[sp->defence_client].physical_damage) ||
+                    (sp->oneSelfFlag[sp->defence_client].special_damage))
+                && (sp->moveTbl[sp->current_move_index].type == TYPE_BUG)
+                && (CheckSubstitute(sp, sp->defence_client) == FALSE)
+                && (BattleRand(bw) % 10 < 3))
+            {
+
+                switch (BattleRand(bw) % 3) {
+                    case 0:
+                    default:
+                        seq_no[0] = SUB_SEQ_APPLY_POISON;
+                        break;
+                    case 1:
+                        seq_no[0] = SUB_SEQ_APPLY_PARALYSIS;
+                        break;
+                    case 2:
+                        seq_no[0] = SUB_SEQ_APPLY_SLEEP;
+                        break;
+                }
+
+                sp->addeffect_type = ADD_STATUS_ABILITY;
+                sp->state_client = sp->defence_client;
+                sp->client_work = sp->attack_client;
+                ret = TRUE;
+            }
+            break;
+
+        // Heat Up: Like Grim Neigh, but only if the KO was with a Fire-type move.
+        case ABILITY_HEAT_UP:
+            if ((sp->defence_client == sp->fainting_client)
+                && ((sp->server_status_flag2 & SERVER_STATUS_FLAG2_U_TURN) == 0)
+                && (sp->battlemon[sp->attack_client].hp)
+                && (sp->moveTbl[sp->current_move_index].type == TYPE_FIRE)
+                && ((sp->waza_status_flag & WAZA_STATUS_FLAG_NO_OUT) == 0))
+            {
+
+                if (sp->battlemon[sp->attack_client].states[STAT_SPATK] < 12)
+                {
+                    sp->addeffect_param = ADD_STATE_SP_ATK_UP;
+                    sp->addeffect_type = ADD_EFFECT_ABILITY;
+                    sp->state_client = sp->attack_client;
+                    seq_no[0] = SUB_SEQ_HANDLE_BUFF_ON_KO;
+                    ret = TRUE;
+                }
+            }
+            break;
+
         default:
             break;
     }
@@ -711,8 +853,12 @@ BOOL SynchroniseAbilityCheck(void *bw, struct BattleStruct *sp, int server_seq_n
 
     if (ret == TRUE)
     {
-        if(sp->battlemon[sp->client_work].condition & STATUS_POISON_ANY) {
+        /**** AURORA CRYSTAL: Modernized this part so Synchronize can also reflect bad poisoning. ****/
+        if(sp->battlemon[sp->client_work].condition & STATUS_FLAG_POISONED) {
             seq_no = SUB_SEQ_APPLY_POISON;
+        }
+        else if(sp->battlemon[sp->client_work].condition & STATUS_FLAG_BADLY_POISONED) {
+            seq_no = SUB_SEQ_BADLY_POISON;
         }
         else if(sp->battlemon[sp->client_work].condition & STATUS_FLAG_BURNED) {
             seq_no = SUB_SEQ_APPLY_BURN;
@@ -771,6 +917,25 @@ BOOL SynchroniseAbilityCheck(void *bw, struct BattleStruct *sp, int server_seq_n
     return FALSE;
 }
 
+/**** AURORA CRYSTAL: Define move effects that the King's Rock does not apply to. ****/
+BOOL KingsRockValidCheck(struct BattleStruct *sp)
+{
+    switch(sp->moveTbl[sp->current_move_index].effect)
+    {
+        case MOVE_EFFECT_FLINCH_HIT:
+        case MOVE_EFFECT_FLINCH_FREEZE_HIT: // Ice Fang
+        case MOVE_EFFECT_FLINCH_PARALYZE_HIT: // Thunder Fang
+        case MOVE_EFFECT_FLINCH_BURN_HIT: // Fire Fang
+        case MOVE_EFFECT_FLINCH_MINIMIZE_DOUBLE_HIT: // Stomp etc
+        case MOVE_EFFECT_SECRET_POWER: // Probably not quite right...
+        case MOVE_EFFECT_CHARGE_TURN_HIGH_CRIT_FLINCH:
+        case MOVE_EFFECT_DAMAGE_WHILE_ASLEEP: // Snore
+        case MOVE_EFFECT_FLINCH_DOUBLE_DAMAGE_FLY_OR_BOUNCE: // Twister
+            return FALSE;
+        default:
+            return TRUE;
+    }
+}
 
 /**
  *  @brief check if the sp->defence_client should flinch and load the subscript if so
@@ -794,6 +959,12 @@ BOOL ServerFlinchCheck(void *bw, struct BattleStruct *sp)
         heldeffect = HOLD_EFFECT_INCREASE_FLINCH; // doesn't permanently change the hold effect, just for this function
     }
 
+    /**** AURORA CRYSTAL: Modernized Serene Grace to also double the chance of King's Rock etc. ****/
+    if (GetBattlerAbility(sp, sp->attack_client) == ABILITY_SERENE_GRACE) {
+        atk = atk * 2;
+    }
+
+    /**** AURORA CRYSTAL: Modernized the check here to look at the used move's effect, instead of the FLAG_KINGS_ROCK setting. ****/
     if (sp->defence_client != 0xFF)
     {
         if ((heldeffect == HOLD_EFFECT_INCREASE_FLINCH)
@@ -801,7 +972,7 @@ BOOL ServerFlinchCheck(void *bw, struct BattleStruct *sp)
          && ((sp->oneSelfFlag[sp->defence_client].physical_damage)
           || (sp->oneSelfFlag[sp->defence_client].special_damage))
          && ((BattleRand(bw) % 100) < atk)
-         && (sp->moveTbl[sp->current_move_index].flag & FLAG_KINGS_ROCK)
+         && (KingsRockValidCheck(sp))
          && (sp->battlemon[sp->defence_client].hp))
         {
             sp->state_client = sp->defence_client;
@@ -1196,7 +1367,8 @@ void ServerDoPostMoveEffects(void *bw, struct BattleStruct *sp)
                  && (sp->defence_client != sp->attack_client)
                  && ((sp->oneSelfFlag[sp->defence_client].physical_damage) || (sp->oneSelfFlag[sp->defence_client].special_damage))
                  && (sp->battlemon[sp->defence_client].hp)
-                 && ((movetype == TYPE_FIRE) || (sp->current_move_index == MOVE_SCALD) || (sp->current_move_index == MOVE_STEAM_ERUPTION)) // scald can also melt opponents as of gen 6
+                 /**** AURORA CRYSTAL: Modernized by also adding Scorching Sands. ****/
+                 && ((movetype == TYPE_FIRE) || (sp->current_move_index == MOVE_SCORCHING_SANDS) || (sp->current_move_index == MOVE_SCALD) || (sp->current_move_index == MOVE_STEAM_ERUPTION)) // scald can also melt opponents as of gen 6
                  && sp->battlemon[sp->attack_client].parental_bond_flag == 0)
                 {
                     sp->client_work = sp->defence_client;

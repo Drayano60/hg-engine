@@ -91,8 +91,8 @@ struct OVERWORLD_TAG gOWTagToFileNum[] = // skip down a bit to see the parts tha
     { .tag =  168, .gfx =  57, .callback_params = 0x0000},
     { .tag =  169, .gfx =  61, .callback_params = 0x0000},
     { .tag =  175, .gfx =  55, .callback_params = 0x0000},
-    { .tag =  176, .gfx =  75, .callback_params = 0x20A0},
-    { .tag =  177, .gfx =  76, .callback_params = 0x20A0},
+    { .tag =  176, .gfx =  75, .callback_params = 0x0420}, /**** AURORA CRYSTAL: Changed to golden Poké Ball. */
+    { .tag =  177, .gfx =  76, .callback_params = 0x20A0}, /**** AURORA CRYSTAL: Changed to be invisible. */
     { .tag =  180, .gfx =  77, .callback_params = 0x28C0},
     { .tag =  181, .gfx =  78, .callback_params = 0x28C0},
     { .tag =  178, .gfx =  73, .callback_params = 0x24E0},
@@ -1617,7 +1617,7 @@ struct OVERWORLD_TAG gOWTagToFileNum[] = // skip down a bit to see the parts tha
     { .tag = 1746, .gfx =  1455, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_FARIGIRAF
     { .tag = 1747, .gfx =  1456, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_DUDUNSPARCE
     { .tag = 1748, .gfx =  1457, .callback_params = OVERWORLD_SIZE_LARGE}, // three segment
-    { .tag = 1749, .gfx =  297, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_KINGAMBIT
+    { .tag = 1749, .gfx =  1458, .callback_params = OVERWORLD_SIZE_LARGE}, // SPECIES_KINGAMBIT /**** AURORA CRYSTAL: Added Kingambit OW. */
     { .tag = 1750, .gfx =  297, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_GREAT_TUSK
     { .tag = 1751, .gfx =  297, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_SCREAM_TAIL
     { .tag = 1752, .gfx =  297, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_BRUTE_BONNET

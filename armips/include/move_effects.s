@@ -321,3 +321,37 @@ MOVE_EFFECT_RAISE_DEF_2_HIT                         equ 317
 MOVE_EFFECT_GEOMANCY                                equ 318
 MOVE_EFFECT_WEATHER_SNOW                            equ 319
 MOVE_EFFECT_HIT_AND_PREVENT_HEALING                 equ 320
+
+/**** AURORA CRYSTAL: New move effects. ****/
+
+MOVE_EFFECT_ALLURING_VOICE                          equ 501
+MOVE_EFFECT_AURORA_VEIL                             equ 502
+MOVE_EFFECT_BURNING_JEALOUSY                        equ 503
+MOVE_EFFECT_CEASELESS_EDGE                          equ 504
+MOVE_EFFECT_CHILLY_RECEPTION                        equ 505
+MOVE_EFFECT_CLEAR_SMOG                              equ 506
+MOVE_EFFECT_DIRE_CLAW                               equ 507
+MOVE_EFFECT_DRAGON_TAIL                             equ 508
+MOVE_EFFECT_ESPER_WING                              equ 509
+MOVE_EFFECT_FINAL_GAMBIT                            equ 510
+MOVE_EFFECT_FIRST_IMPRESSION                        equ 511
+MOVE_EFFECT_INCINERATE                              equ 512
+MOVE_EFFECT_METEOR_BEAM                             equ 513
+MOVE_EFFECT_NOBLE_ROAR                              equ 514
+MOVE_EFFECT_PARTING_SHOT                            equ 515
+MOVE_EFFECT_POLLEN_PUFF                             equ 516
+MOVE_EFFECT_POLTERGEIST                             equ 517
+MOVE_EFFECT_SCALE_SHOT                              equ 518
+MOVE_EFFECT_SPARKLING_ARIA                          equ 519
+MOVE_EFFECT_SPIRIT_SHACKLE                          equ 520
+MOVE_EFFECT_STEEL_BEAM                              equ 521
+MOVE_EFFECT_STONE_AXE                               equ 522
+MOVE_EFFECT_STRENGTH_SAP                            equ 523
+MOVE_EFFECT_TOXIC_THREAD                            equ 524
+MOVE_EFFECT_TRIPLE_ARROWS                           equ 525
+MOVE_EFFECT_COTTON_GUARD                            equ 527
+MOVE_EFFECT_TAIL_GLOW                               equ 528
+MOVE_EFFECT_VICTORY_DANCE                           equ 529
+
+/**** Custom move effects. ****/
+MOVE_EFFECT_THUNDER_CLAW                            equ 526

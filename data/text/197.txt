@@ -2100,3 +2100,6 @@ The opposing {STRVAR_1 1, 0, 0}’s Psychic Surge\nmade the battlefield Psychic 
 {STRVAR_1 1, 0, 0} is overflowing with\nspace power!
 The wild {STRVAR_1 1, 0, 0} is overflowing with\nspace power!
 The opposing {STRVAR_1 1, 0, 0} is overflowing with\nspace power!
+{STRVAR_1 1, 0, 0} is about to be\nattacked by its {STRVAR_1 8, 1, 0}!\r
+The wild {STRVAR_1 1, 0, 0} is about to be\nattacked by its {STRVAR_1 8, 1, 0}!\r
+The foe’s {STRVAR_1 1, 0, 0} is about to be\nattacked by its {STRVAR_1 8, 1, 0}!\r

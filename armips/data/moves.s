@@ -28829,7 +28829,7 @@ movedatalongname MOVE_CHILLY_RECEPTION, "C. Reception", "Chilly Reception"
     movedescription MOVE_CHILLY_RECEPTION, "The user tells a\nchillingly bad joke,\nthen switches out.\nThis summons snow\nfor five turns."
 
 movedata MOVE_TIDY_UP, "Tidy Up"
-    battleeffect 212
+    battleeffect MOVE_EFFECT_TIDY_UP
     pss SPLIT_STATUS
     basepower 0
     type TYPE_NORMAL

@@ -377,7 +377,6 @@
 
 #define SUB_SEQ_AURORA_VEIL                           (439)
 #define SUB_SEQ_HALF_MAX_HP_RECOIL                    (440)
-#define SUB_SEQ_HANDLE_COMPETITIVE                    (442)
 #define SUB_SEQ_TOXIC_THREAD                          (444)
 #define SUB_SEQ_HANDLE_AIR_LOCK_MESSAGE               (447)
 #define SUB_SEQ_CLEAR_SMOG                            (448)
@@ -397,6 +396,8 @@
 #define SUB_SEQ_SWEET_AROMA                           (470)
 #define SUB_SEQ_STRENGTH_SAP                          (471)
 #define SUB_SEQ_ILLUMINATE                            (472)
+#define SUB_SEQ_CHEEK_POUCH                           (473)
+#define SUB_SEQ_TIDY_UP                               (474)
 #define SUB_SEQ_PASTEL_VEIL                           (475)
 #define SUB_SEQ_SCREEN_CLEANER                        (476)
 #define SUB_SEQ_PERISH_BODY                           (477)
@@ -405,7 +406,10 @@
 #define SUB_SEQ_VICTORY_DANCE                         (480)
 #define SUB_SEQ_CHILLY_RECEPTION                      (481)
 #define SUB_SEQ_TRIPLE_ARROWS                         (482)
+#define SUB_SEQ_INTIMIDATE_VS_DEFIANT_COMPETITIVE     (483)
 #define SUB_SEQ_HANDLE_GOOEY                          (484)
+#define SUB_SEQ_GOOEY_VS_DEFIANT_COMPETITIVE          (485)
+#define SUB_SEQ_HANDLE_MENTAL_HERB_CURE               (486)
 #define SUB_SEQ_CREATE_TERRAIN_OVERLAY_ABILITY        (487)
 #define SUB_SEQ_ATK_AND_SPATK_DOWN                    (488)
 
@@ -593,6 +597,7 @@
 #define ADD_STATUS_COTTON_GUARD                        (214)
 #define ADD_STATUS_TAIL_GLOW                           (215)
 #define ADD_STATUS_VICTORY_DANCE                       (216)
+#define ADD_STATUS_TIDY_UP                             (217)
 
 // additional effect constants
 #define ADD_STATUS_NONE (0)

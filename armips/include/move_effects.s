@@ -352,6 +352,7 @@ MOVE_EFFECT_TRIPLE_ARROWS                           equ 525
 MOVE_EFFECT_COTTON_GUARD                            equ 527
 MOVE_EFFECT_TAIL_GLOW                               equ 528
 MOVE_EFFECT_VICTORY_DANCE                           equ 529
+MOVE_EFFECT_TIDY_UP                                 equ 530
 
 /**** Custom move effects. ****/
 MOVE_EFFECT_THUNDER_CLAW                            equ 526

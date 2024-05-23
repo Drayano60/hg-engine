@@ -232,6 +232,7 @@ u16 move_effect_to_subscripts[] =
     [ADD_STATUS_COTTON_GUARD]                    = SUB_SEQ_COTTON_GUARD,
     [ADD_STATUS_TAIL_GLOW]                       = SUB_SEQ_TAIL_GLOW,
     [ADD_STATUS_VICTORY_DANCE]                   = SUB_SEQ_VICTORY_DANCE,
+    [ADD_STATUS_TIDY_UP]                         = SUB_SEQ_TIDY_UP,
 };
 
 

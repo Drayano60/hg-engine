@@ -1132,6 +1132,19 @@ BOOL btl_scr_cmd_24_jumptocurmoveeffectscript(void *bw UNUSED, struct BattleStru
             case MOVE_EFFECT_FLINCH_MINIMIZE_DOUBLE_HIT:
             case MOVE_EFFECT_RANDOM_PRIMARY_STATUS_HIT:
             case MOVE_EFFECT_HIT_AND_PREVENT_HEALING: // Psychic Noise
+
+            /**** AURORA CRYSTAL: Effects that Sheer Force affects that were missed off. ****/
+            case MOVE_EFFECT_ALWAYS_FLINCH_FIRST_TURN_ONLY: // Fake Out
+
+            /**** AURORA CRYSTAL: Additional move effects that Sheer Force also removes for a normal hit. ****/
+            case MOVE_EFFECT_ALLURING_VOICE:
+            case MOVE_EFFECT_BURNING_JEALOUSY:
+            case MOVE_EFFECT_CEASELESS_EDGE:
+            case MOVE_EFFECT_DIRE_CLAW:
+            case MOVE_EFFECT_SPARKLING_ARIA:
+            case MOVE_EFFECT_SPIRIT_SHACKLE:
+            case MOVE_EFFECT_STONE_AXE:
+
                 effect = MOVE_EFFECT_HIT;
                 sp->battlemon[sp->attack_client].sheer_force_flag = 1;
                 break;
@@ -1143,6 +1156,7 @@ BOOL btl_scr_cmd_24_jumptocurmoveeffectscript(void *bw UNUSED, struct BattleStru
 
             case MOVE_EFFECT_HIGH_CRITICAL_BURN_HIT: // blaze kick
             case MOVE_EFFECT_HIGH_CRITICAL_POISON_HIT: // cross poison
+            case MOVE_EFFECT_ESPER_WING: /**** AURORA CRYSTAL: Esper Wing should just become +1 crit ****/
                 effect = MOVE_EFFECT_HIGH_CRITICAL;
                 sp->battlemon[sp->attack_client].sheer_force_flag = 1;
                 break;

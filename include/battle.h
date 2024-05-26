@@ -2839,4 +2839,12 @@ void LONG_CALL UnlockBattlerOutOfCurrentMove(struct BattleSystem *bsys, struct B
  */
 BOOL LONG_CALL CheckMoveIsChargeMove(struct BattleStruct *sp, int moveNo);
 
+/**** AURORA CRYSTAL: Additional helper functions. ****/
+
+BOOL LONG_CALL IsMoveWindBased(u32 move);
+BOOL LONG_CALL isMovePowderBased(u32 move);
+BOOL LONG_CALL isMoveAntiMinimize(u32 move);
+BOOL LONG_CALL isMoveBallBombBased(u32 move);
+BOOL LONG_CALL isMoveContact(struct BattleStruct *sp);
+
 #endif // BATTLE_H

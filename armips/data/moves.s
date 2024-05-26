@@ -22915,7 +22915,7 @@ movedata MOVE_ECHOED_VOICE, "Echoed Voice"
     movedescription MOVE_ECHOED_VOICE, "Uses an echoing voice\nto attack. This move\ngains 40 power on\neach consecutive hit,\nup to a max of 200."
 
 movedata MOVE_CHIP_AWAY, "Chip Away"
-    battleeffect 0
+    battleeffect MOVE_EFFECT_IGNORE_TARGET_STAT_CHANGES
     pss SPLIT_PHYSICAL
     basepower 70
     type TYPE_NORMAL
@@ -23478,7 +23478,7 @@ movedata MOVE_HORN_LEECH, "Horn Leech"
     movedescription MOVE_HORN_LEECH, "A harsh attack that\nabsorbs half the\ndamage it inflicted\nto restore HP."
 
 movedata MOVE_SACRED_SWORD, "Sacred Sword"
-    battleeffect 295
+    battleeffect MOVE_EFFECT_IGNORE_TARGET_STAT_CHANGES
     pss SPLIT_PHYSICAL
     basepower 90
     type TYPE_FIGHTING
@@ -25484,7 +25484,7 @@ movedata MOVE_SPIRIT_SHACKLE, "Spirit Shackle"
     movedescription MOVE_SPIRIT_SHACKLE, "The user attacks\nand stitches the\nfoe’s shadow to the\nground, preventing it\nfrom escaping."
 
 movedata MOVE_DARKEST_LARIAT, "Darkest Lariat"
-    battleeffect 295
+    battleeffect MOVE_EFFECT_IGNORE_TARGET_STAT_CHANGES
     pss SPLIT_PHYSICAL
     basepower 85
     type TYPE_DARK

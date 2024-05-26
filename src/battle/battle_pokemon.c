@@ -1038,6 +1038,81 @@ u16 SoundProofMovesList[] = {
     MOVE_UPROAR
 };
 
+/**** AURORA CRYSTAL: Additional move lists for helper functions. */
+
+u16 WindMoveList[] = {
+    MOVE_AEROBLAST,
+    MOVE_AIR_CUTTER,
+    MOVE_BLEAKWIND_STORM,
+    MOVE_BLIZZARD,
+    MOVE_FAIRY_WIND,
+    MOVE_GUST,
+    MOVE_HEAT_WAVE,
+    MOVE_HURRICANE,
+    MOVE_ICY_WIND,
+    MOVE_PETAL_BLIZZARD,
+    MOVE_SANDSEAR_STORM,
+    MOVE_SANDSTORM,
+    MOVE_SPRINGTIDE_STORM,
+    MOVE_TAILWIND,
+    MOVE_TWISTER,
+    MOVE_WHIRLWIND,
+    MOVE_WILDBOLT_STORM,
+
+    /**** AURORA CRYSTAL: Dexited moves that probably fit... */
+    MOVE_LEAF_TORNADO,
+    MOVE_RAZOR_WIND,
+    MOVE_SILVER_WIND,
+    MOVE_OMINOUS_WIND,
+};
+
+u16 PowderMoveList[] = {
+    MOVE_COTTON_SPORE,
+    MOVE_MAGIC_POWDER,
+    MOVE_POISON_POWDER,
+    MOVE_POWDER,
+    MOVE_RAGE_POWDER,
+    MOVE_SLEEP_POWDER,
+    MOVE_STUN_SPORE,
+    MOVE_SPORE,
+};
+
+u16 AntiMinimizeMoveList[] = {
+    MOVE_BODY_SLAM,
+    MOVE_DRAGON_RUSH,
+    MOVE_HEAT_CRASH,
+    MOVE_HEAVY_SLAM,
+    MOVE_STEAMROLLER,
+    MOVE_STOMP,
+};
+
+u16 BallBombMoveList[] = {
+    MOVE_ACID_SPRAY,
+    MOVE_AURA_SPHERE,
+    MOVE_BARRAGE,
+    MOVE_BULLET_SEED,
+    MOVE_EGG_BOMB,
+    MOVE_ELECTRO_BALL,
+    MOVE_ENERGY_BALL,
+    MOVE_FOCUS_BLAST,
+    MOVE_GYRO_BALL,
+    MOVE_ICE_BALL,
+    MOVE_MAGNET_BOMB,
+    MOVE_MIST_BALL,
+    MOVE_MUD_BOMB,
+    MOVE_OCTAZOOKA,
+    MOVE_POLLEN_PUFF,
+    MOVE_PYRO_BALL,
+    MOVE_ROCK_BLAST,
+    MOVE_ROCK_WRECKER,
+    MOVE_SEARING_SHOT,
+    MOVE_SEED_BOMB,
+    MOVE_SHADOW_BALL,
+    MOVE_SLUDGE_BOMB,
+    MOVE_WEATHER_BALL,
+    MOVE_ZAP_CANNON,
+};
+
 /**
  *  @brief get the adjusted move type accounting for normalize without relying on a client
  *
@@ -1167,5 +1242,41 @@ BOOL LONG_CALL DoesSideHave2Battlers(void *bw, u32 client)
     {
         return TRUE;
     }
+    return FALSE;
+}
+
+/**** AURORA CRYSTAL: Additional helper functions. ****/
+
+BOOL LONG_CALL IsMoveWindBased(u32 move)
+{
+    return IsElementInArray(WindMoveList, (u16 *)(&move), NELEMS(WindMoveList), sizeof(WindMoveList[0]));
+}
+
+BOOL LONG_CALL IsMovePowderBased(u32 move)
+{
+    return IsElementInArray(PowderMoveList, (u16 *)(&move), NELEMS(PowderMoveList), sizeof(PowderMoveList[0]));
+}
+
+BOOL LONG_CALL IsMoveAntiMinimize(u32 move)
+{
+    return IsElementInArray(AntiMinimizeMoveList, (u16 *)(&move), NELEMS(AntiMinimizeMoveList), sizeof(AntiMinimizeMoveList[0]));
+}
+
+BOOL LONG_CALL IsMoveBallBombBased(u32 move)
+{
+    return IsElementInArray(BallBombMoveList, (u16 *)(&move), NELEMS(BallBombMoveList), sizeof(BallBombMoveList[0]));
+}
+
+// Used primarily to support the Long Reach ability.
+BOOL LONG_CALL isMoveContact(struct BattleStruct *sp)
+{
+    if (GetBattlerAbility(sp, sp->attack_client) == ABILITY_LONG_REACH) {
+        return FALSE;
+    }
+
+    if (sp->moveTbl[sp->current_move_index].flag & FLAG_CONTACT) {
+        return TRUE;
+    }
+
     return FALSE;
 }

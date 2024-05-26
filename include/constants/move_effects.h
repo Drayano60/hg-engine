@@ -325,6 +325,38 @@
 #define MOVE_EFFECT_WEATHER_SNOW                            319
 #define MOVE_EFFECT_HIT_AND_PREVENT_HEALING                 320
 
+/**** AURORA CRYSTAL: New move effects. ****/
+
+#define MOVE_EFFECT_ALLURING_VOICE                          501
+#define MOVE_EFFECT_AURORA_VEIL                             502
+#define MOVE_EFFECT_BURNING_JEALOUSY                        503
+#define MOVE_EFFECT_CEASELESS_EDGE                          504
+#define MOVE_EFFECT_CHILLY_RECEPTION                        505
+#define MOVE_EFFECT_CLEAR_SMOG                              506
+#define MOVE_EFFECT_DIRE_CLAW                               507
+#define MOVE_EFFECT_DRAGON_TAIL                             508
+#define MOVE_EFFECT_ESPER_WING                              509
+#define MOVE_EFFECT_FINAL_GAMBIT                            510
+#define MOVE_EFFECT_FIRST_IMPRESSION                        511
+#define MOVE_EFFECT_INCINERATE                              512
+#define MOVE_EFFECT_METEOR_BEAM                             513
+#define MOVE_EFFECT_NOBLE_ROAR                              514
+#define MOVE_EFFECT_PARTING_SHOT                            515
+#define MOVE_EFFECT_POLLEN_PUFF                             516
+#define MOVE_EFFECT_POLTERGEIST                             517
+#define MOVE_EFFECT_SCALE_SHOT                              518
+#define MOVE_EFFECT_SPARKLING_ARIA                          519
+#define MOVE_EFFECT_SPIRIT_SHACKLE                          520
+#define MOVE_EFFECT_STEEL_BEAM                              521
+#define MOVE_EFFECT_STONE_AXE                               522
+#define MOVE_EFFECT_STRENGTH_SAP                            523
+#define MOVE_EFFECT_TOXIC_THREAD                            524
+#define MOVE_EFFECT_TRIPLE_ARROWS                           525
+#define MOVE_EFFECT_COTTON_GUARD                            527
+#define MOVE_EFFECT_TAIL_GLOW                               528
+#define MOVE_EFFECT_VICTORY_DANCE                           529
+#define MOVE_EFFECT_TIDY_UP                                 530
+#define MOVE_EFFECT_IGNORE_TARGET_STAT_CHANGES              531
 
 
 #define MOVE_TARGET_SELECTED             0x0000

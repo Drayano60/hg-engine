@@ -380,23 +380,36 @@ BOOL CalcAccuracy(void *bw, struct BattleStruct *sp, int attacker, int defender,
     stat_stage_acc = sp->battlemon[attacker].states[STAT_ACCURACY] - 6;
     stat_stage_evasion = 6 - sp->battlemon[defender].states[STAT_EVASION];
 
-    if (atk_ability == ABILITY_SIMPLE)
+    /**** AURORA CRYSTAL: Disabled Gen 4 Simple as the Gen 5+ one is present. ****/
+    /* if (atk_ability == ABILITY_SIMPLE)
     {
         stat_stage_acc *= 2;
     }
 
-    if (MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_SIMPLE) == TRUE)
+    /* if (MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_SIMPLE) == TRUE)
     {
         stat_stage_evasion *= 2;
-    }
+    } */
 
     if (MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_UNAWARE) == TRUE)
-    {
+{
         stat_stage_acc = 0;
     }
 
-    if (atk_ability == ABILITY_UNAWARE || atk_ability == ABILITY_MINDS_EYE || atk_ability == ABILITY_KEEN_EYE || atk_ability == ABILITY_ILLUMINATE)
+    /**** AURORA CRYSTAL: Make only Unaware ignore all evasion changes, regardless of its stat stage. */
+    if (atk_ability == ABILITY_UNAWARE)
     {
+        stat_stage_evasion = 0;
+    }
+
+    /**** AURORA CRYSTAL: Change Keen Eye and Illuminate to only ignore evasion stat changes that boost it. ****/
+    // A boosted evasion is stored as a negative value, hence the < 0.
+    if ((atk_ability == ABILITY_KEEN_EYE || atk_ability == ABILITY_ILLUMINATE || atk_ability == ABILITY_MINDS_EYE) && stat_stage_evasion < 0) {
+        stat_stage_evasion = 0;
+    }
+
+    /**** AURORA CRYSTAL: Implement evasion ignoring effect of moves like Sacred Sword, Darkest Lariat etc. */
+    if (sp->moveTbl[move_no].effect == MOVE_EFFECT_IGNORE_TARGET_STAT_CHANGES) {
         stat_stage_evasion = 0;
     }
 
@@ -434,6 +447,21 @@ BOOL CalcAccuracy(void *bw, struct BattleStruct *sp, int attacker, int defender,
         return FALSE;
     }
 
+    /**** AURORA CRYSTAL: Custom mechanic. Give a x1.1 same type accuracy bonus to offensive moves. ****/
+    // If the move is 90% or higher accuracy to start with, the accuracy is just set to 100% instead.
+    if (move_split != SPLIT_STATUS) {
+        u8 attacker_type_1 = BattlePokemonParamGet(sp, sp->attack_client, BATTLE_MON_DATA_TYPE1, NULL);
+        u8 attacker_type_2 = BattlePokemonParamGet(sp, sp->attack_client, BATTLE_MON_DATA_TYPE2, NULL);
+
+        if (move_type == attacker_type_1 || move_type == attacker_type_2) {
+            if (accuracy >= 90) {
+                accuracy = 100;
+            } else {
+                accuracy = accuracy * 110 / 100;
+            }
+        }
+    }
+
     if ((CheckSideAbility(bw, sp, CHECK_ABILITY_ALL_HP, 0, ABILITY_CLOUD_NINE) == 0)
      && (CheckSideAbility(bw, sp, CHECK_ABILITY_ALL_HP, 0, ABILITY_AIR_LOCK) == 0))
     {
@@ -454,13 +482,27 @@ BOOL CalcAccuracy(void *bw, struct BattleStruct *sp, int attacker, int defender,
     //handle Wonder Skin
     if ((MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_WONDER_SKIN) == TRUE) && (GetMoveSplit(sp, move_no) == SPLIT_STATUS))
     {
-        accuracy = accuracy * 50 / 100;
+        /**** AURORA CRYSTAL: Corrected condition to set accuracy to a minimum of 50, instead of halving the accuracy. ****/
+        if (accuracy > 50) {
+            accuracy = 50;
+        }
+    }
+
+    /**** AURORA CRYSTAL: Handle a new ability, Totter Steps, which acts as an always up Sand Veil/Snow Cloak. ****/
+    if (MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_TOTTER_STEPS) == TRUE) {
+        accuracy = accuracy * 80 / 100;
     }
 
     //handle victory star
     if ((GetBattlerAbility(sp, BATTLER_ALLY(attacker)) == ABILITY_VICTORY_STAR && sp->battlemon[BATTLER_ALLY(attacker)].hp != 0)
      || (atk_ability == ABILITY_VICTORY_STAR))
     {
+        accuracy = accuracy * 110 / 100;
+    }
+
+
+    /**** AURORA CRYSTAL: Keen Eye now has an additional effect of giving a 10% accuracy bonus. ****/
+    if (GetBattlerAbility(sp, attacker) == ABILITY_KEEN_EYE) {
         accuracy = accuracy * 110 / 100;
     }
 
@@ -535,6 +577,15 @@ BOOL CalcAccuracy(void *bw, struct BattleStruct *sp, int attacker, int defender,
       || BattlePokemonParamGet(sp, attacker, BATTLE_MON_DATA_TYPE2, NULL) == TYPE_POISON))
     {
         return FALSE;
+    }
+
+    /**** AURORA CRYSTAL: Add modernized mechanic for moves like Stomp to never miss minimized targets. ****/
+    if (sp->battlemon[defender].effect_of_moves & MOVE_EFFECT_FLAG_MINIMIZED) {
+        u16 move_effect = sp->moveTbl[move_no].effect;
+
+        if (IsMoveAntiMinimize(move_no)) {
+            return FALSE;
+        }
     }
 
     if (((BattleRand(bw) % 100) + 1) > accuracy)
@@ -629,7 +680,8 @@ u8 LONG_CALL CalcSpeed(void *bw, struct BattleStruct *sp, int client1, int clien
     stat_stage_spd1 = sp->battlemon[client1].states[STAT_SPEED];
     stat_stage_spd2 = sp->battlemon[client2].states[STAT_SPEED];
 
-    if (GetBattlerAbility(sp, client1) == ABILITY_SIMPLE)
+    /**** AURORA CRYSTAL: Disabled Gen 4 Simple as the Gen 5+ one is present. ****/
+    /* if (GetBattlerAbility(sp, client1) == ABILITY_SIMPLE)
     {
         stat_stage_spd1 = 6 + ((stat_stage_spd1 - 6) * 2);
         if (stat_stage_spd1 > 12)
@@ -652,7 +704,7 @@ u8 LONG_CALL CalcSpeed(void *bw, struct BattleStruct *sp, int client1, int clien
         {
             stat_stage_spd2 = 0;
         }
-    }
+    } */
 
     speed1 = sp->battlemon[client1].speed * StatBoostModifiers[stat_stage_spd1][0] / StatBoostModifiers[stat_stage_spd1][1];
     speed2 = sp->battlemon[client2].speed * StatBoostModifiers[stat_stage_spd2][0] / StatBoostModifiers[stat_stage_spd2][1];
@@ -662,6 +714,7 @@ u8 LONG_CALL CalcSpeed(void *bw, struct BattleStruct *sp, int client1, int clien
     {
         if (((ability1 == ABILITY_SWIFT_SWIM) && (sp->field_condition & WEATHER_RAIN_ANY))
          || ((ability1 == ABILITY_CHLOROPHYLL) && (sp->field_condition & WEATHER_SUNNY_ANY))
+         || ((ability1 == ABILITY_SUNNY_MOOD) && (sp->field_condition & WEATHER_SUNNY_ANY)) /**** AURORA CRYSTAL: Added new Sunny Mood effect. */
          || ((ability1 == ABILITY_SAND_RUSH) && (sp->field_condition & WEATHER_SANDSTORM_ANY))
          || ((ability1 == ABILITY_SLUSH_RUSH) && (sp->field_condition & (WEATHER_HAIL_ANY | WEATHER_SNOW_ANY))))
         {
@@ -669,6 +722,7 @@ u8 LONG_CALL CalcSpeed(void *bw, struct BattleStruct *sp, int client1, int clien
         }
         if (((ability2 == ABILITY_SWIFT_SWIM) && (sp->field_condition & WEATHER_RAIN_ANY))
          || ((ability2 == ABILITY_CHLOROPHYLL) && (sp->field_condition & WEATHER_SUNNY_ANY))
+         || ((ability2 == ABILITY_SUNNY_MOOD) && (sp->field_condition & WEATHER_SUNNY_ANY)) /**** AURORA CRYSTAL: Added new Sunny Mood effect. */
          || ((ability2 == ABILITY_SAND_RUSH) && (sp->field_condition & WEATHER_SANDSTORM_ANY))
          || ((ability2 == ABILITY_SLUSH_RUSH) && (sp->field_condition & (WEATHER_HAIL_ANY | WEATHER_SNOW_ANY))))
         {
@@ -735,7 +789,20 @@ u8 LONG_CALL CalcSpeed(void *bw, struct BattleStruct *sp, int client1, int clien
         speed1 *= 2;
     }
 
-    if (hold_effect1 == HOLD_EFFECT_QUICK_CLAW)
+    /**** AURORA CRYSTAL: Added effect for Quick Draw for client1. ****/
+    // We simply set both instant flags here so we can display the appropriate message and ignore the other checks.
+    if (ability1 == ABILITY_QUICK_DRAW) {
+        if (BattleRand(bw) % 10 < 3) { // 30%
+            quick_claw1 = 1;
+
+            if (flag == 0) {
+                sp->battlemon[client1].moveeffect.custapBerryFlag = 1;
+                sp->battlemon[client1].moveeffect.quickClawFlag = 1;
+            }
+        }
+    }
+
+    if (hold_effect1 == HOLD_EFFECT_QUICK_CLAW && quick_claw1 == 0) /**** AURORA CRYSTAL: Ignore Quick Claw if Quick Draw activated. ***/
     {
         if ((sp->agi_rand[client1] % (100 / hold_atk1)) == 0)
         {
@@ -747,7 +814,7 @@ u8 LONG_CALL CalcSpeed(void *bw, struct BattleStruct *sp, int client1, int clien
         }
     }
 
-    if (hold_effect1 == HOLD_EFFECT_RAISE_SPEED_IN_PINCH)
+    if (hold_effect1 == HOLD_EFFECT_RAISE_SPEED_IN_PINCH && quick_claw1 == 0) /**** AURORA CRYSTAL: Ignore Custap Berry if Quick Draw activated. ***/
     {
         if (GetBattlerAbility(sp, client1) == ABILITY_GLUTTONY)
         {
@@ -817,7 +884,20 @@ u8 LONG_CALL CalcSpeed(void *bw, struct BattleStruct *sp, int client1, int clien
         speed2 *= 2;
     }
 
-    if (hold_effect2 == HOLD_EFFECT_QUICK_CLAW)
+    /**** AURORA CRYSTAL: Added effect for Quick Draw for client2. ****/
+    // We simply set both instant flags here so we can display the appropriate message and ignore the other checks.
+    if (ability2 == ABILITY_QUICK_DRAW) {
+        if (BattleRand(bw) % 10 < 3) { // 30%
+            quick_claw2 = 1;
+
+            if (flag == 0) {
+                sp->battlemon[client2].moveeffect.custapBerryFlag = 1;
+                sp->battlemon[client2].moveeffect.quickClawFlag = 1;
+            }
+        }
+    }
+
+    if (hold_effect2 == HOLD_EFFECT_QUICK_CLAW && quick_claw2 == 0) /**** AURORA CRYSTAL: Ignore Quick Claw if Quick Draw activated. ***/
     {
         if ((sp->agi_rand[client2] % (100 / hold_atk2)) == 0)
         {
@@ -829,7 +909,7 @@ u8 LONG_CALL CalcSpeed(void *bw, struct BattleStruct *sp, int client1, int clien
         }
     }
 
-    if (hold_effect2 == HOLD_EFFECT_RAISE_SPEED_IN_PINCH)
+    if (hold_effect2 == HOLD_EFFECT_RAISE_SPEED_IN_PINCH && quick_claw2 == 0) /**** AURORA CRYSTAL: Ignore Custap Berry if Quick Draw activated. ***/
     {
         if (GetBattlerAbility(sp, client2) == ABILITY_GLUTTONY)
         {
@@ -1154,7 +1234,10 @@ int CalcCritical(void *bw, struct BattleStruct *sp, int attacker, int defender, 
     move_effect = sp->battlemon[defender].effect_of_moves;
     ability = sp->battlemon[attacker].ability;
 
-    temp = (((condition2 & STATUS2_FOCUS_ENERGY) != 0) * 2) + (hold_effect == HOLD_EFFECT_BOOST_CRITICAL_RATE) + critical_count + (ability == ABILITY_SUPER_LUCK)
+    /**** AURORA CRYSTAL: Also gave Long Reach a +1 critical effect. ****/
+    BOOL isCritBoostingAbility = ability == ABILITY_SUPER_LUCK || ability == ABILITY_LONG_REACH;
+
+    temp = (((condition2 & STATUS2_FOCUS_ENERGY) != 0) * 2) + (hold_effect == HOLD_EFFECT_BOOST_CRITICAL_RATE) + critical_count + (isCritBoostingAbility)
          + (2 * ((hold_effect == HOLD_EFFECT_BOOST_CHANSEY_CRITICAL) && (species == SPECIES_CHANSEY)))
          + (2 * ((hold_effect == HOLD_EFFECT_BOOST_FARFETCHD_CRITICAL) && (species == SPECIES_FARFETCHD)));
 
@@ -1220,6 +1303,7 @@ void ServerHPCalc(void *bw, struct BattleStruct *sp)
 
         if ((sp->battlemon[sp->defence_client].condition2 & STATUS2_SUBSTITUTE)
          && (sp->damage < 0)
+         && ((isMoveSoundBased(sp->current_move_index)) == FALSE) /**** AURORA CRYSTAL: Modernized so sound moves also ignore substitutes. ****/
          && (GetBattlerAbility(sp, sp->attack_client) != ABILITY_INFILTRATOR))
         {
             if ((sp->battlemon[sp->defence_client].moveeffect.substituteHp + sp->damage) <= 0)
@@ -1266,14 +1350,19 @@ void ServerHPCalc(void *bw, struct BattleStruct *sp)
                 }
             }
 
+            /**** AURORA CRYSTAL: Track if Sturdy activated, so we can activate both flags for the appropriate message. ****/
+            BOOL didSturdyActivate = FALSE;
+
             // handle sturdy--prevent one-hit ko's if hp == maxhp
             if ((MoldBreakerAbilityCheck(sp, sp->attack_client, sp->defence_client, ABILITY_STURDY) == TRUE) && (sp->battlemon[sp->defence_client].hp == (s32)sp->battlemon[sp->defence_client].maxhp))
             {
+                didSturdyActivate = TRUE;
                 sp->oneTurnFlag[sp->defence_client].prevent_one_hit_ko_ability = TRUE;
             }
             // make sure to cancel sturdy if hp != maxhp.  necessary for multi-hit moves
             else if (MoldBreakerAbilityCheck(sp, sp->attack_client, sp->defence_client, ABILITY_STURDY) == TRUE && (sp->battlemon[sp->defence_client].hp != (s32)sp->battlemon[sp->defence_client].maxhp))
             {
+                didSturdyActivate = FALSE;
                 sp->oneTurnFlag[sp->defence_client].prevent_one_hit_ko_ability = FALSE;
             }
 
@@ -1285,6 +1374,12 @@ void ServerHPCalc(void *bw, struct BattleStruct *sp)
                     if (sp->oneTurnFlag[sp->defence_client].prevent_one_hit_ko_ability)
                     {
                         sp->waza_status_flag |= MOVE_STATUS_FLAG_HELD_ON_ABILITY;
+
+                        /**** AURORA CRYSTAL: Also turn on item flag if Sturdy activated to show appropriate message. ****/
+                        // The ability flag alone is used for the move Endure.
+                        if (didSturdyActivate) {
+                            sp->waza_status_flag |= MOVE_STATUS_FLAG_HELD_ON_ITEM;
+                        }
                     }
                     else
                     {
@@ -1437,7 +1532,7 @@ int LONG_CALL ServerDoTypeCalcMod(void *bw UNUSED, struct BattleStruct *sp, int 
           && (move_type == TYPE_GROUND)
           && (eqp_d != HOLD_EFFECT_HALVE_SPEED))
     {
-        flag[0] |= MOVE_STATUS_FLAG_MISS; // air balloon just misses for the moment
+        flag[0] |= MOVE_STATUS_FLAG_NOT_EFFECTIVE; /**** AURORA CRYSTAL: A correction - Air Balloon should say no effect. ****/
         sp->battlemon[attack_client].parental_bond_flag = 0;
         sp->battlemon[attack_client].parental_bond_is_active = FALSE;
     }
@@ -1534,6 +1629,39 @@ int LONG_CALL ServerDoTypeCalcMod(void *bw UNUSED, struct BattleStruct *sp, int 
             flag[0] &= ~(MOVE_STATUS_FLAG_SUPER_EFFECTIVE);
             flag[0] &= ~(MOVE_STATUS_FLAG_NOT_VERY_EFFECTIVE);
         }
+    }
+
+    /**** AURORA CRYSTAL: Added some code here to manipulate the AI so it doesn't attack with stuff that does no damage. ****/
+    // Includes Poltergeist into no held item, and a ton of abilities that grant immunities to particular moves.
+    // This does mean that the AI is "psychic" and can immediately know if you have these abilities or not.
+
+    if (move_no == MOVE_POLTERGEIST && sp->battlemon[defence_client].item == 0) {
+        damage = 0;
+    }
+
+    if (GetBattlerAbility(sp, attack_client) == ABILITY_MOLD_BREAKER) {
+        return damage;
+    }
+
+    u8 defender_ability = GetBattlerAbility(sp, defence_client);
+
+    if
+    (
+        defenderAbility == ABILITY_SOUNDPROOF && isMoveSoundBased(move_no)
+        || defenderAbility == ABILITY_LIGHTNING_ROD && move_type == TYPE_ELECTRIC
+        || defenderAbility == ABILITY_MOTOR_DRIVE && move_type == TYPE_ELECTRIC
+        || defenderAbility == ABILITY_DRY_SKIN && move_type == TYPE_WATER
+        || defenderAbility == ABILITY_STORM_DRAIN && move_type == TYPE_WATER
+        || defenderability == ABILITY_WATER_ABSORB && move_type == TYPE_WATER
+        || defenderAbility == ABILITY_SAP_SIPPER && move_type == TYPE_GRASS
+        || defenderAbility == ABILITY_BULLETPROOF && IsMoveBallBombBased(move_no)
+        || defenderAbility == ABILITY_WIND_RIDER && isMoveWindBased(move_no)
+        || defenderAbility == ABILITY_ARMOR_TAIL && adjustedMoveHasPositivePriority(sp, attack_client)
+        || defenderAbility == ABILITY_DAZZLING && adjustedMoveHasPositivePriority(sp, attack_client)
+        || defenderAbility == ABILITY_QUEENLY_MAJESTY && adjustedMoveHasPositivePriority(sp, attack_client)
+    )
+    {
+        damage = 0;
     }
 
     return damage;
@@ -1642,6 +1770,11 @@ BOOL BattlerCantSwitch(void *bw, struct BattleStruct *sp, int battlerId) {
 
     // ghost types can switch from anything like they had shed skin
     if (HeldItemHoldEffectGet(sp, battlerId) == HOLD_EFFECT_SWITCH || BATTLE_MON_HAS_TYPE(sp, battlerId, TYPE_GHOST)) {
+        return FALSE;
+    }
+
+    /**** AURORA CRYSTAL: Run Away now also always allows a Pokémon to switch, regardless of Shadow Tag, trapping moves etc. ****/
+    if (GetBattlerAbility(sp, battlerId) == ABILITY_RUN_AWAY) {
         return FALSE;
     }
 

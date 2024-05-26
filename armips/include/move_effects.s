@@ -353,6 +353,7 @@ MOVE_EFFECT_COTTON_GUARD                            equ 527
 MOVE_EFFECT_TAIL_GLOW                               equ 528
 MOVE_EFFECT_VICTORY_DANCE                           equ 529
 MOVE_EFFECT_TIDY_UP                                 equ 530
+MOVE_EFFECT_IGNORE_TARGET_STAT_CHANGES              equ 531
 
 /**** Custom move effects. ****/
 MOVE_EFFECT_THUNDER_CLAW                            equ 526

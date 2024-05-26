@@ -917,3 +917,8 @@
 
 
 #endif
+
+/**** AURORA CRYSTAL: Added helper functions. ****/
+
+// Check for Herb items. Used for new Harvest functionality.
+#define IS_ITEM_HERB(item) ((item == ITEM_MENTAL_HERB) || (item == ITEM_POWER_HERB) || (item == ITEM_WHITE_HERB))

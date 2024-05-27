@@ -20,6 +20,7 @@ _0030:
     // Handle Defiant/Competitive here due to the double stat change
     abilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_DEFIANT, _Defiant
     abilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_COMPETITIVE, _Competitive
+    _Return:
 
     changevar VAR_OP_SETMASK, VAR_SERVER_STATUS2, 0x80
     changevar VAR_OP_SET, VAR_ADD_EFFECT_ATTRIBUTE, 0x16

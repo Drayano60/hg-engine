@@ -22,6 +22,7 @@ _0030:
     /* Sturdy sets both the item and ability held on flags so we can differentiate it from Endure */
     /* Check the ability flag first, then confirm the item flag exists too, return here if not */
     if IF_MASK, VAR_MOVE_STATUS, 0x100, _SturdyMessage
+    _return2:
 
     ifmonstat IF_EQUAL, BATTLER_DEFENDER, MON_DATA_ABILITY, ABILITY_STURDY, _018C
     setstatus2effect BATTLER_DEFENDER, 0xA

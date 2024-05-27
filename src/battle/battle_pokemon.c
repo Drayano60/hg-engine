@@ -1268,7 +1268,7 @@ BOOL LONG_CALL IsMoveBallBombBased(u32 move)
 }
 
 // Used primarily to support the Long Reach ability.
-BOOL LONG_CALL isMoveContact(struct BattleStruct *sp)
+BOOL LONG_CALL IsMoveContact(struct BattleStruct *sp)
 {
     if (GetBattlerAbility(sp, sp->attack_client) == ABILITY_LONG_REACH) {
         return FALSE;

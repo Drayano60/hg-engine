@@ -14798,6 +14798,8 @@ movedatanoname NUM_OF_MOVES+1
 // MOVE_CHANGES_IMPLEMENTED flag is used for most changes
 // This does not apply to battle effect changes or effect chances
 
+FLAG_SOUND equ 0x20
+
 movedata MOVE_NONE, "-"
     battleeffect 0
     pss SPLIT_PHYSICAL

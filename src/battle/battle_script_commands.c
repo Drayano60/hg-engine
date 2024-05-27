@@ -2740,11 +2740,11 @@ BOOL btl_scr_cmd_F9_echoedvoicedamagecalc(void *bw, struct BattleStruct *sp)
 {
     IncrementBattleScriptPtr(sp, 1);
 
-    if (sp->battlemon[sp->attack_client].echoed_voice_count < 5) {
-        sp->battlemon[sp->attack_client].echoed_voice_count++;
-    }
+    // if (sp->battlemon[sp->attack_client].echoed_voice_count < 5) {
+    //     sp->battlemon[sp->attack_client].echoed_voice_count++;
+    // }
 
-    sp->damage_power = GetMoveData(sp->current_move_index, MOVE_DATA_BASE_POWER) * sp->battlemon[sp->attack_client].echoed_voice_count;
+    // sp->damage_power = GetMoveData(sp->current_move_index, MOVE_DATA_BASE_POWER) * sp->battlemon[sp->attack_client].echoed_voice_count;
 
     return FALSE;
 }

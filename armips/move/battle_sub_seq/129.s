@@ -26,6 +26,7 @@ _0038:
     // Handle Defiant/Competitive here due to the double stat change
     abilitycheck 0x0, BATTLER_DEFENDER, ABILITY_DEFIANT, _Defiant
     abilitycheck 0x0, BATTLER_DEFENDER, ABILITY_COMPETITIVE, _Competitive
+    _Return:
 
     changevar VAR_OP_SETMASK, VAR_SERVER_STATUS2, 0x80
     ifmonstat IF_EQUAL, BATTLER_DEFENDER, MON_DATA_STAT_STAGE_ATTACK, 0x0, _00B0

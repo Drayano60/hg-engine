@@ -130,9 +130,6 @@ u16 GetMonEvolutionInternal(struct Party *party, struct PartyPokemon *pokemon, u
 
     switch (context) {
     case EVOCTX_LEVELUP:
-        /**** AURORA CRYSTAL: Get location for Global Terminal evolutions. ****/
-        u32 location = gFieldSysPtr->location->mapId;
-
         level = (u8)GetMonData(pokemon, MON_DATA_LEVEL, NULL);
         friendship = (u16)GetMonData(pokemon, MON_DATA_FRIENDSHIP, NULL);
         for (i = 0; i < MAX_EVOS_PER_POKE; i++) {
@@ -413,47 +410,54 @@ u16 GetMonEvolutionInternal(struct Party *party, struct PartyPokemon *pokemon, u
                     }
                 }
                 break;
-            }
 
+                /**** AURORA CRYSTAL: New evolution methods ****/
 
-            /**** AURORA CRYSTAL: New evolution methods ****/
-
-            // Used for regional forms like Quilava, Dewott, Rufflet etc.
-            case EVO_LEVEL_GLOBAL_TERMINAL:
-                if (evoTable[i].param <= level && location == GLOBAL_TERMINAL_HEADER_ID) {
-                    GET_TARGET_AND_SET_FORM;
-                    *method_ret = EVO_LEVEL;
-                }
-                break;
-
-            // Used for Mime Jr. -> Galarian Mr. Mime
-            case EVO_HAS_MOVE_GLOBAL_TERMINAL:
-                if ((MonHasMove(pokemon, evoTable[i].param) == TRUE) && (location == GLOBAL_TERMINAL_HEADER_ID)) {
-                    GET_TARGET_AND_SET_FORM;
-                    *method_ret = EVO_HAS_MOVE;
-                }
-                break;
-
-            // Used for Dunsparce -> Three-Segment Dudunsparce
-            case EVO_HAS_MOVE_AND_RNG:
-                if ((MonHasMove(pokemon, evoTable[i].param) == TRUE) && (gf_rand() % 10 == 0)) { // 10%
-                    GET_TARGET_AND_SET_FORM;
-                    *method_ret = EVO_HAS_MOVE;
-                }
-                break;
-
-            // Used for female White-Striped Basculin.
-            case EVO_HURT_IN_BATTLE_AMOUNT_FEMALE:
+                // Used for regional forms like Quilava, Dewott, Rufflet etc.
+                case EVO_LEVEL_GLOBAL_TERMINAL:
                 {
-                    u32 hp = GetMonData(pokemon, MON_DATA_HP, NULL), maxhp = GetMonData(pokemon, MON_DATA_MAXHP, NULL);
+                    u32 location = gFieldSysPtr->location->mapId;
 
-                    if ((GetMonData(pokemon, MON_DATA_GENDER, NULL) == POKEMON_GENDER_FEMALE) && hp && (maxhp - hp) >= evoTable[i].param) // if the mon has evoTable[i].param hp less than its max
-                    {
+                    if (evoTable[i].param <= level && location == GLOBAL_TERMINAL_HEADER_ID) {
                         GET_TARGET_AND_SET_FORM;
-                        *method_ret = EVO_HURT_IN_BATTLE_AMOUNT;
+                        *method_ret = EVO_LEVEL;
                     }
+                    break;
                 }
-                break;
+
+                // Used for Mime Jr. -> Galarian Mr. Mime
+                case EVO_HAS_MOVE_GLOBAL_TERMINAL:
+                {
+                    u32 location = gFieldSysPtr->location->mapId;
+
+                    if ((MonHasMove(pokemon, evoTable[i].param) == TRUE) && (location == GLOBAL_TERMINAL_HEADER_ID)) {
+                        GET_TARGET_AND_SET_FORM;
+                        *method_ret = EVO_HAS_MOVE;
+                    }
+                    break;
+                }
+
+                // Used for Dunsparce -> Three-Segment Dudunsparce
+                case EVO_HAS_MOVE_AND_RNG:
+                    if ((MonHasMove(pokemon, evoTable[i].param) == TRUE) && (gf_rand() % 10 == 0)) { // 10%
+                        GET_TARGET_AND_SET_FORM;
+                        *method_ret = EVO_HAS_MOVE;
+                    }
+                    break;
+
+                // Used for female White-Striped Basculin.
+                case EVO_HURT_IN_BATTLE_AMOUNT_FEMALE:
+                    {
+                        u32 hp = GetMonData(pokemon, MON_DATA_HP, NULL), maxhp = GetMonData(pokemon, MON_DATA_MAXHP, NULL);
+
+                        if ((GetMonData(pokemon, MON_DATA_GENDER, NULL) == POKEMON_GENDER_FEMALE) && hp && (maxhp - hp) >= evoTable[i].param) // if the mon has evoTable[i].param hp less than its max
+                        {
+                            GET_TARGET_AND_SET_FORM;
+                            *method_ret = EVO_HURT_IN_BATTLE_AMOUNT;
+                        }
+                    }
+                    break;
+            }
 
             if (target != SPECIES_NONE) {
                 break;

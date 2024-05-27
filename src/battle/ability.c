@@ -67,7 +67,7 @@ const u16 BulletproofMoveList[] =
     MOVE_ZAP_CANNON,
 };
 
-const u16 PowderMoveList[] = {
+/* const u16 PowderMoveList[] = { -- Defined elsewhere
     MOVE_COTTON_SPORE,
     MOVE_MAGIC_POWDER,
     MOVE_POISON_POWDER,
@@ -76,7 +76,7 @@ const u16 PowderMoveList[] = {
     MOVE_SLEEP_POWDER,
     MOVE_STUN_SPORE,
     MOVE_SPORE,
-};
+}; */
 
 /**
  *  @brief see if the attacker's move is completely negated by the defender's ability and queue up the appropriate subscript
@@ -221,9 +221,9 @@ int MoveCheckDamageNegatingAbilities(struct BattleStruct *sp, int attacker, int 
     /**** AURORA CRYSTAL: Implement Armor Tail, Dazzling and Queenly Majesty. ****/
     if
     (
-        (MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_ARMOR_TAIL == TRUE))
-        || (MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_DAZZLING == TRUE))
-        || (MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_QUEENLY_MAJESTY == TRUE))
+        (MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_ARMOR_TAIL) == TRUE)
+        || (MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_DAZZLING) == TRUE)
+        || (MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_QUEENLY_MAJESTY) == TRUE)
     )
     {
         if (adjustedMoveHasPositivePriority(sp, attacker)) {
@@ -233,9 +233,9 @@ int MoveCheckDamageNegatingAbilities(struct BattleStruct *sp, int attacker, int 
 
     if
     (
-        (MoldBreakerAbilityCheck(sp, attacker, BATTLER_ALLY(defender), ABILITY_ARMOR_TAIL == TRUE))
-        || (MoldBreakerAbilityCheck(sp, attacker, BATTLER_ALLY(defender), ABILITY_DAZZLING == TRUE))
-        || (MoldBreakerAbilityCheck(sp, attacker, BATTLER_ALLY(defender), ABILITY_QUEENLY_MAJESTY == TRUE))
+        (MoldBreakerAbilityCheck(sp, attacker, BATTLER_ALLY(defender), ABILITY_ARMOR_TAIL) == TRUE)
+        || (MoldBreakerAbilityCheck(sp, attacker, BATTLER_ALLY(defender), ABILITY_DAZZLING) == TRUE)
+        || (MoldBreakerAbilityCheck(sp, attacker, BATTLER_ALLY(defender), ABILITY_QUEENLY_MAJESTY) == TRUE)
     )
     {
         if (adjustedMoveHasPositivePriority(sp, attacker)) {
@@ -606,7 +606,7 @@ BOOL MoveHitAttackerAbilityCheck(void *bw, struct BattleStruct *sp, int *seq_no)
                 && ((sp->server_status_flag2 & SERVER_STATUS_FLAG2_U_TURN) == 0)
                 && ((sp->oneSelfFlag[sp->defence_client].physical_damage) ||
                     (sp->oneSelfFlag[sp->defence_client].special_damage))
-                && (isMoveContact(sp)) /**** AURORA CRYSTAL: Use helper function. ****/
+                && (IsMoveContact(sp)) /**** AURORA CRYSTAL: Use helper function. ****/
                 && (CheckSubstitute(sp, sp->defence_client) == FALSE)
                 && (BattleRand(bw) % 10 < 3))
             {

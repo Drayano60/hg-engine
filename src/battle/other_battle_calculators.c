@@ -1303,7 +1303,7 @@ void ServerHPCalc(void *bw, struct BattleStruct *sp)
 
         if ((sp->battlemon[sp->defence_client].condition2 & STATUS2_SUBSTITUTE)
          && (sp->damage < 0)
-         && ((isMoveSoundBased(sp->current_move_index)) == FALSE) /**** AURORA CRYSTAL: Modernized so sound moves also ignore substitutes. ****/
+         && ((IsMoveSoundBased(sp->current_move_index)) == FALSE) /**** AURORA CRYSTAL: Modernized so sound moves also ignore substitutes. ****/
          && (GetBattlerAbility(sp, sp->attack_client) != ABILITY_INFILTRATOR))
         {
             if ((sp->battlemon[sp->defence_client].moveeffect.substituteHp + sp->damage) <= 0)
@@ -1643,19 +1643,19 @@ int LONG_CALL ServerDoTypeCalcMod(void *bw UNUSED, struct BattleStruct *sp, int 
         return damage;
     }
 
-    u8 defender_ability = GetBattlerAbility(sp, defence_client);
+    u8 defenderAbility = GetBattlerAbility(sp, defence_client);
 
     if
     (
-        defenderAbility == ABILITY_SOUNDPROOF && isMoveSoundBased(move_no)
+        defenderAbility == ABILITY_SOUNDPROOF && IsMoveSoundBased(move_no)
         || defenderAbility == ABILITY_LIGHTNING_ROD && move_type == TYPE_ELECTRIC
         || defenderAbility == ABILITY_MOTOR_DRIVE && move_type == TYPE_ELECTRIC
         || defenderAbility == ABILITY_DRY_SKIN && move_type == TYPE_WATER
         || defenderAbility == ABILITY_STORM_DRAIN && move_type == TYPE_WATER
-        || defenderability == ABILITY_WATER_ABSORB && move_type == TYPE_WATER
+        || defenderAbility == ABILITY_WATER_ABSORB && move_type == TYPE_WATER
         || defenderAbility == ABILITY_SAP_SIPPER && move_type == TYPE_GRASS
         || defenderAbility == ABILITY_BULLETPROOF && IsMoveBallBombBased(move_no)
-        || defenderAbility == ABILITY_WIND_RIDER && isMoveWindBased(move_no)
+        || defenderAbility == ABILITY_WIND_RIDER && IsMoveWindBased(move_no)
         || defenderAbility == ABILITY_ARMOR_TAIL && adjustedMoveHasPositivePriority(sp, attack_client)
         || defenderAbility == ABILITY_DAZZLING && adjustedMoveHasPositivePriority(sp, attack_client)
         || defenderAbility == ABILITY_QUEENLY_MAJESTY && adjustedMoveHasPositivePriority(sp, attack_client)

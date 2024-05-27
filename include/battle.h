@@ -2848,9 +2848,9 @@ BOOL LONG_CALL CheckMoveIsChargeMove(struct BattleStruct *sp, int moveNo);
 /**** AURORA CRYSTAL: Additional helper functions. ****/
 
 BOOL LONG_CALL IsMoveWindBased(u32 move);
-BOOL LONG_CALL isMovePowderBased(u32 move);
-BOOL LONG_CALL isMoveAntiMinimize(u32 move);
-BOOL LONG_CALL isMoveBallBombBased(u32 move);
-BOOL LONG_CALL isMoveContact(struct BattleStruct *sp);
+BOOL LONG_CALL IsMovePowderBased(u32 move);
+BOOL LONG_CALL IsMoveAntiMinimize(u32 move);
+BOOL LONG_CALL IsMoveBallBombBased(u32 move);
+BOOL LONG_CALL IsMoveContact(struct BattleStruct *sp);
 
 #endif // BATTLE_H

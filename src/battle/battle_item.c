@@ -92,7 +92,7 @@ u32 LONG_CALL MoveHitUTurnHeldItemEffectCheck(void *bw, struct BattleStruct *sp,
         && ((sp->scw[atk_side].knockoff_item & (1 << sp->sel_mons_no[sp->attack_client])) == 0)
         && ((sp->oneSelfFlag[sp->defence_client].physical_damage)
       || (sp->oneSelfFlag[sp->defence_client].special_damage))
-        && isMoveContact((sp))) /**** AURORA CRYSTAL: Use helper function. ****/
+        && IsMoveContact((sp))) /**** AURORA CRYSTAL: Use helper function. ****/
     {
         seq_no[0] = SUB_SEQ_ITEM_GIVE_STICKY_BARB;
         ret = TRUE;
@@ -108,7 +108,7 @@ u32 LONG_CALL MoveHitUTurnHeldItemEffectCheck(void *bw, struct BattleStruct *sp,
         && (sp->battlemon[sp->attack_client].hp)
         && (GetBattlerAbility(sp, sp->attack_client) != ABILITY_MAGIC_GUARD)
         && (sp->oneSelfFlag[sp->defence_client].physical_damage) || (sp->oneSelfFlag[sp->defence_client].special_damage)
-        && (isMoveContact(sp)) /**** AURORA CRYSTAL: Use helper function. ****/
+        && (IsMoveContact(sp)) /**** AURORA CRYSTAL: Use helper function. ****/
     )
     {
         sp->hp_calc_work = BattleDamageDivide(sp->battlemon[sp->attack_client].maxhp * -1, def_item_param);
@@ -154,7 +154,7 @@ u32 LONG_CALL MoveHitUTurnHeldItemEffectCheck(void *bw, struct BattleStruct *sp,
         // Throat Spray
         (atk_hold_eff == HOLD_EFFECT_THROAT_SPRAY)
         && ((sp->waza_status_flag & MOVE_STATUS_FLAG_MISS) == 0)
-        && (isMoveSoundBased(sp->current_move_index))
+        && (IsMoveSoundBased(sp->current_move_index))
         && (sp->battlemon[sp->attack_client].hp)
         && (
             ((GetBattlerAbility(sp,sp->attack_client) == ABILITY_CONTRARY) && (sp->battlemon[sp->attack_client].states[STAT_SPATK] > 0))
@@ -275,7 +275,7 @@ u32 LONG_CALL ServerWazaHitAfterCheckAct(void *bw, struct BattleStruct *sp)
                 && ((sp->server_status_flag2 & SERVER_STATUS_FLAG2_U_TURN) == 0)
                 // This can activate on status moves too so we use this. FLAG_HIT only works for damaging moves it seems like?
                 && ((sp->waza_status_flag & MOVE_STATUS_FLAG_MISS) == 0)
-                && (isMoveSoundBased(sp->moveTbl[sp->current_move_index]))
+                && (IsMoveSoundBased(sp->current_move_index))
                 && (sp->battlemon[sp->attack_client].hp)
                 && (
                     ((GetBattlerAbility(sp,sp->attack_client) == ABILITY_CONTRARY) && (sp->battlemon[sp->attack_client].states[STAT_SPATK] > 0))

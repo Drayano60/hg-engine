@@ -9,12 +9,13 @@
 
 .create "build/move/battle_sub_seq/1_214", 0
 
-/**** AURORA CRYSTAL: Copied subscript 2 into here directly so Life Orb message can be displayed like newer gens. ****/
+/**** AURORA CRYSTAL: Copied subscript 2 into here directly so Life Orb message can be displayed like newer gens. 
 
 # a001_214:
 #     changevar VAR_OP_SETMASK, VAR_SERVER_STATUS1, 0x40
 #     gotosubscript 2
 #     endscript
+****/
 
 a001_214:
     changevar VAR_OP_SETMASK, VAR_SERVER_STATUS1, 0x40

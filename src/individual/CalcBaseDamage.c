@@ -152,6 +152,54 @@ static const u16 SharpnessMovesTable[] = {
 
 
 
+int CalcRageFistDamageBonus(struct BattleStruct *sp)
+{
+    // This resets on switch-out!
+    u8 hit_count = sp->battlemon[sp->attack_client].hit_count;
+
+    // Intentionally nerfed down from 6.
+    if (hit_count > 3) {
+        hit_count = 3;
+    }
+
+    return hit_count;
+}
+
+int CalcStoredPowerDamageBonus(struct BattleStruct *sp)
+{
+    int i = 0;
+
+    if (sp->battlemon[sp->attack_client].states[STAT_ATTACK] > 6) {
+        i = (i + sp->battlemon[sp->attack_client].states[STAT_ATTACK]) - 6;
+    }
+
+    if (sp->battlemon[sp->attack_client].states[STAT_DEFENSE] > 6) {
+        i = (i + sp->battlemon[sp->attack_client].states[STAT_DEFENSE]) - 6;
+    }
+
+    if (sp->battlemon[sp->attack_client].states[STAT_SPATK] > 6) {
+        i = (i + sp->battlemon[sp->attack_client].states[STAT_SPATK]) - 6;
+    }
+
+    if (sp->battlemon[sp->attack_client].states[STAT_SPDEF] > 6) {
+        i = (i + sp->battlemon[sp->attack_client].states[STAT_SPDEF]) - 6;
+    }
+
+    if (sp->battlemon[sp->attack_client].states[STAT_SPEED] > 6) {
+        i = (i + sp->battlemon[sp->attack_client].states[STAT_SPEED]) - 6;
+    }
+
+    if (sp->battlemon[sp->attack_client].states[STAT_ACCURACY] > 6) {
+        i = (i + sp->battlemon[sp->attack_client].states[STAT_ACCURACY]) - 6;
+    }
+
+    if (sp->battlemon[sp->attack_client].states[STAT_EVASION] > 6) {
+        i = (i + sp->battlemon[sp->attack_client].states[STAT_EVASION]) - 6;
+    }
+
+    return i;
+};
+
 int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
                    u32 field_cond, u16 pow, u8 type UNUSED, u8 attacker, u8 defender, u8 critical)
 {
@@ -177,6 +225,13 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
     struct sDamageCalc DefendingMon;
 
     switch (moveno) {
+
+        /**** AURORA CRYSTAL: Add Foul Play handling. ****/
+        case MOVE_FOUL_PLAY:
+            attack = BattlePokemonParamGet(sp, defender, BATTLE_MON_DATA_ATK, NULL);
+            atkstate = BattlePokemonParamGet(sp, defender, BATTLE_MON_DATA_STATE_ATK, NULL) - 6;
+            break;
+
         // Handle Body Press - Attack is derived from Defense
         case MOVE_BODY_PRESS:
             attack = BattlePokemonParamGet(sp, attacker, BATTLE_MON_DATA_DEF, NULL);
@@ -234,6 +289,79 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
     else
         movepower = pow;
 
+    /**** AURORA CRYSTAL: Special handling here so the AI calculates multi-hit moves with more than one hit. ****/
+    u16 move_effect = sp->moveTbl[moveno].effect;
+
+    BOOL isTripleHitMove = moveno == MOVE_TRIPLE_KICK || moveno == MOVE_TRIPLE_AXEL;
+    BOOL isDoubleHitMove = move_effect == MOVE_EFFECT_HIT_TWICE || move_effect == MOVE_EFFECT_POISON_MULTI_HIT; 
+    BOOL isMultiHitMove = move_effect == MOVE_EFFECT_MULTI_HIT || move_effect == MOVE_EFFECT_SCALE_SHOT;
+    BOOL isMultipleHitMove = isTripleHitMove || isDoubleHitMove || isMultiHitMove;
+
+    // This is a workaround so the AI treats multi-hit moves as their minimum total base power when choosing what move to use.
+    // The 'pow' value is set in the eff_seq file to match the actual power, but it isn't used during AI move selection.
+    // There's probably some variation in the expected and actual damage, but it should be fairly close...
+    if (isMultipleHitMove && pow == 0) {
+        if (isTripleHitMove) {
+            movepower *= 6;
+        } else if (isMultiHitMove && AttackingMon.ability == ABILITY_SKILL_LINK) {
+            movepower *= 5;
+        } else if (isMultiHitMove && AttackingMon.item_held_effect == HOLD_EFFECT_LOADED_DICE) {
+            movepower *= 4;
+        } else {
+            movepower *= 2;
+        }
+
+        // Technician applies to all multi-hit moves, but this fake version may be too powerful to take it into account.
+        // As such, we apply it at the end here.
+        if (AttackingMon.ability == ABILITY_TECHNICIAN && movepower > 60) {
+            movepower = movepower * 15 / 10;
+        }
+    }
+
+    /**** AURORA CRYSTAL: Handle various moves with variable damage here so the AI can read it. ****/
+    if (moveno == MOVE_STORED_POWER || moveno == MOVE_POWER_TRIP) {
+        movepower = movepower + (movepower * CalcStoredPowerDamageBonus(sp));
+    }
+
+    if (moveno == MOVE_RAGE_FIST) {
+        movepower = movepower + (movepower * CalcRageFistDamageBonus(sp));
+    }
+
+    if (moveno == MOVE_INFERNAL_PARADE || moveno == MOVE_HEX) {
+        if (DefendingMon.condition > 0) {
+            movepower *= 2;
+        }
+    }
+
+    if (moveno == MOVE_VENOSHOCK || moveno == MOVE_BARB_BARRAGE) {
+        if (DefendingMon.condition & STATUS_POISON_ANY) {
+            movepower *= 2;
+        }
+    }
+
+    if (moveno == MOVE_ACROBATICS && sp->battlemon[sp->attack_client].item == 0) {
+        movepower *= 2;
+    }
+
+    if 
+    (
+        moveno == MOVE_FACADE &&
+        (AttackingMon.condition & (STATUS_FLAG_POISONED | STATUS_FLAG_BADLY_POISONED | STATUS_FLAG_PARALYZED | STATUS_FLAG_BURNED))
+    )
+    {
+        movepower *= 2;
+    }
+
+    /**** AURORA CRYSTAL: End of variable damage move calculations. ****/
+
+    /**** AURORA CRYSTAL: Calculate moves like Stomp against minimized targets. Was previously done in battle_eff_seq. ****/
+    // The relevant moves have had their effects changed. This also makes it easier to modernize Body Slam.
+    if (sp->battlemon[defender].effect_of_moves & MOVE_EFFECT_FLAG_MINIMIZED) {
+        if (IsMoveAntiMinimize(moveno)) {
+            movepower *= 2;
+        }
+    }
+
     // get the type
     movetype = GetAdjustedMoveType(sp, attacker, moveno);
     movepower = movepower * sp->damage_value / 10;
@@ -247,10 +375,19 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
         movepower = movepower * 15 / 10;
 
     // handle technician
-    if ((AttackingMon.ability == ABILITY_TECHNICIAN) && (moveno != MOVE_STRUGGLE) && (movepower <= 60))
+    /**** AURORA CRYSTAL: Modernized Technician to also work with Struggle. ****/
+    if ((AttackingMon.ability == ABILITY_TECHNICIAN) && (movepower <= 60))
         movepower = movepower * 15 / 10;
 
     movesplit = GetMoveSplit(sp, moveno);
+
+    /**** AURORA CRYSTAL: Added new effects for Hyper Cutter and Big Pecks. */
+    if (AttackingMon.ability == ABILITY_HYPER_CUTTER) {
+        attack = attack * 11 / 10;
+    }
+    if (MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_BIG_PECKS) == TRUE) {
+        defense = defense * 11 / 10;
+    }
 
     // handle huge power + pure power
     if ((AttackingMon.ability == ABILITY_HUGE_POWER) || (AttackingMon.ability == ABILITY_PURE_POWER))
@@ -330,6 +467,17 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
     // handle deep sea scale
     if ((DefendingMon.item_held_effect == HOLD_EFFECT_DEEP_SEA_SCALE) && (DefendingMon.species == SPECIES_CLAMPERL))
         sp_defense *= 2;
+
+    /**** AURORA CRYSTAL: Modified Light Ball to also have effects for Pichu and Raichu. ****/
+    if (AttackingMon.item_held_effect == HOLD_EFFECT_LIGHT_BALL) {
+        if (AttackingMon.species == SPECIES_PICHU || AttackingMon.species == SPECIES_PIKACHU) {
+            movepower *= 2;
+        }
+
+        if (AttackingMon.species == SPECIES_RAICHU) {
+            movepower = movepower * 120 / 100;
+        }
+    }
 
     // handle light ball
     if ((AttackingMon.item_held_effect == HOLD_EFFECT_LIGHT_BALL) && (AttackingMon.species == SPECIES_PIKACHU))
@@ -416,20 +564,47 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
     }
 
     //handle tough claws
-    if ((AttackingMon.ability == ABILITY_TOUGH_CLAWS) && (sp->moveTbl[sp->current_move_index].flag & FLAG_CONTACT))
+    if ((AttackingMon.ability == ABILITY_TOUGH_CLAWS) && (IsMoveContact(moveno))) /**** AURORA CRYSTAL: Used contact helper func */
     {
         movepower = movepower * 130 / 100;
     }
 
     // Handle Fluffy
-    if (DefendingMon.ability == ABILITY_FLUFFY) {
-        if (sp->moveTbl[sp->current_move_index].flag & FLAG_CONTACT) {
+    if (MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_FLUFFY) == TRUE) { /**** AURORA CRYSTAL: Corrected to handle Mold Breaker case */
+        if (IsMoveContact(moveno)) { /**** AURORA CRYSTAL: Used contact helper func */
             movepower = movepower * 50 / 100;
         }
 
+        // It is correct that a mon with Mold Breaker would not benefit from the Fire boost
+        // https://bulbapedia.bulbagarden.net/wiki/Ignoring_Abilities#Mechanics
         if (movetype == TYPE_FIRE) {
             movepower = movepower * 200 / 100;
         }
+    }
+
+    /**** AURORA CRYSTAL: Add more accurate Eviolite effect. ****/
+    if (DefendingMon.item_held_effect == HOLD_EFFECT_EVIOLITE) {
+        u16 speciesWithForm;
+        speciesWithForm = PokeOtherFormMonsNoGet(sp->battlemon[defender].species, sp->battlemon[defender].form_no);
+
+        struct Evolution *evoTable;
+        evoTable = sys_AllocMemory(0, MAX_EVOS_PER_POKE * sizeof(struct Evolution));
+        ArchiveDataLoad(evoTable, 34, speciesWithForm); // 34 is evo narc
+
+        // If a Pokémon has any evolutions, there should be a non EVO_NONE entry at the top
+        // A more thorough check would be to check all methods, but would take longer
+        // This should yield the same result if things are written correctly
+        if (evoTable[0].method != EVO_NONE) {
+            defense = defense * 150 / 100;
+            sp_defense = sp_defense * 150 / 100;
+        }
+
+        sys_FreeMemoryEz(evoTable);
+    }
+
+    /**** AURORA CRYSTAL: Add the Assault Vest effect. ****/
+    if (DefendingMon.item_held_effect == HOLD_EFFECT_ASSAULT_VEST) {
+        sp_defense = sp_defense * 150 / 100;
     }
 
     // handle marvel scale
@@ -469,31 +644,32 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
         movepower /= 2;
     }
 
-    // handle "in a pinch" type boosters
-    if ((movetype == TYPE_GRASS) && (AttackingMon.ability == ABILITY_OVERGROW) && (AttackingMon.hp <= AttackingMon.maxhp * 10 / 30))
+    /**** AURORA CRYSTAL: Redesign pinch abilities to also have a constant 10% boost at higher HP. ****/
+    if
+    (
+        (movetype == TYPE_GRASS) && (AttackingMon.ability == ABILITY_OVERGROW)
+        || (movetype == TYPE_FIRE) && (AttackingMon.ability == ABILITY_BLAZE)
+        || (movetype == TYPE_WATER) && (AttackingMon.ability == ABILITY_TORRENT)
+        || (movetype == TYPE_BUG) && (AttackingMon.ability == ABILITY_SWARM)
+    )
     {
-        movepower = movepower * 150 / 100;
-    }
-
-    if ((movetype == TYPE_FIRE) && (AttackingMon.ability == ABILITY_BLAZE) && (AttackingMon.hp <= AttackingMon.maxhp * 10 / 30))
-    {
-        movepower = movepower * 150 / 100;
-    }
-
-    if ((movetype == TYPE_WATER) && (AttackingMon.ability == ABILITY_TORRENT) && (AttackingMon.hp <= AttackingMon.maxhp * 10 / 30))
-    {
-        movepower = movepower * 150 / 100;
-    }
-
-    if ((movetype == TYPE_BUG) && (AttackingMon.ability == ABILITY_SWARM) && (AttackingMon.hp <= AttackingMon.maxhp * 10 / 30))
-    {
-        movepower = movepower * 150 / 100;
+        if (AttackingMon.hp <= (AttackingMon.maxhp * 10 / 30)) {
+            movepower = movepower * 150 / 100;
+        }
+        else {
+            movepower = movepower * 110 / 100;
+        }
     }
 
     // handle ice scales - halve damage if move is special, regardless of if it uses defense stat
     if (MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_ICE_SCALES) == TRUE && movesplit == SPLIT_SPECIAL)
     {
         movepower /= 2;
+    }
+
+    /**** AURORA CRYSTAL: Add handling for the new Swan Song ability, boosting damage at 25% HP or less. ****/
+    if ((AttackingMon.ability == ABILITY_SWAN_SONG) && (AttackingMon.hp <= ((AttackingMon.maxhp * 10) / 40))) {
+        movepower = movepower * 150 / 100;
     }
 
     //handle steelworker
@@ -516,6 +692,18 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
 
     //handle rocky payload
     if(AttackingMon.ability == ABILITY_ROCKY_PAYLOAD && (movetype == TYPE_ROCK))
+    {
+        movepower = movepower * 150 / 100;
+    }
+
+    /**** AURORA CRYSTAL: Add additional custom abilities that give a 50% bonus to a particular type. ****/
+    if
+    (
+        (AttackingMon.ability == ABILITY_LUNAR_ENERGY && (movetype == TYPE_FAIRY))
+        || (AttackingMon.ability == ABILITY_SOLAR_ENERGY && (movetype == TYPE_FIRE))
+        || (AttackingMon.ability == ABILITY_ODD_POWER && (movetype == TYPE_PSYCHIC))
+        || (AttackingMon.ability == ABILITY_FLOWER_POWER && (movetype == TYPE_GRASS))
+    )
     {
         movepower = movepower * 150 / 100;
     }
@@ -565,6 +753,12 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
         movepower = movepower * 130 / 100;
     }
 
+    /**** AURORA CRYSTAL: Added the new Cheerleader ability. ****/
+    if (GetBattlerAbility(sp, BATTLER_ALLY(attacker)) == ABILITY_CHEERLEADER)
+    {
+        movepower = movepower * 120 / 100;
+    }
+
     //handle friend guard
     if (GetBattlerAbility(sp, BATTLER_ALLY(defender)) == ABILITY_FRIEND_GUARD)
     {
@@ -598,6 +792,11 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
         }
     }
 
+    /**** AURORA CRYSTAL: Added an additional effect to Liquid Voice to boost sound moves by 20%. ****/
+    if (AttackingMon.ability == ABILITY_LIQUID_VOICE && IsMoveSoundBased(moveno)) {
+        movepower = movepower * 120 / 100;
+    }
+
     // handle heatproof/dry skin
     if ((movetype == TYPE_FIRE) && (MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_HEATPROOF) == TRUE))
     {
@@ -609,7 +808,28 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
         movepower = movepower * 125 / 100;
     }
 
-    // handle simple
+    /**** AURORA CRYSTAL: Implemented best approximation for Supreme Overlord. ****/
+    if (GetBattlerAbility(sp, attacker) == ABILITY_SUPREME_OVERLORD)
+    {
+        struct Party *party = BattleWorkPokePartyGet(bw, attacker);
+        int count = party->count;
+
+        int faintedCount = 0;
+        int i;
+
+        for (i = 0; i < count; i++) {
+            if (GetMonData(Party_GetMonByIndex(BattleWorkPokePartyGet(bw, attacker), i), MON_DATA_HP, NULL) == 0) {
+                faintedCount++;
+            }
+        }
+
+        if (faintedCount > 0) {
+            movepower = movepower * (100 + (faintedCount * 10)) / 100;
+        }
+    }
+
+    /**** AURORA CRYSTAL: Disabled Gen 4 Simple as the Gen 5+ one is present. ****/
+    /* handle simple
     if (AttackingMon.ability == ABILITY_SIMPLE)
     {
         atkstate *= 2;
@@ -652,7 +872,7 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
         {
             spdefstate = 6;
         }
-    }
+    }*/
 
     // handle unaware
     if (MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_UNAWARE) == TRUE)
@@ -667,29 +887,28 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
         spdefstate = 0;
     }
 
+    /**** AURORA CRYSTAL: Add defense ignoring effect for Sacred Sword etc. ****/
+    if (sp->moveTbl[moveno].effect == MOVE_EFFECT_IGNORE_TARGET_STAT_CHANGES) {
+        defstate = 0;
+    }
+
     // adjust states to access from the array
     atkstate += 6;
     defstate += 6;
     spatkstate += 6;
     spdefstate += 6;
 
-    // handle rivalry
-    if ((AttackingMon.ability == ABILITY_RIVALRY) &&
-        (AttackingMon.sex == DefendingMon.sex) && (AttackingMon.sex != POKEMON_GENDER_UNKNOWN) && (DefendingMon.sex != POKEMON_GENDER_UNKNOWN))
-    {
-        movepower = movepower * 125 / 100;
-    }
-
-    if ((AttackingMon.ability == ABILITY_RIVALRY) &&
-        (AttackingMon.sex != DefendingMon.sex) && (AttackingMon.sex != POKEMON_GENDER_UNKNOWN) && (DefendingMon.sex != POKEMON_GENDER_UNKNOWN))
-    {
-        movepower = movepower * 75 / 100;
+    /**** AURORA CRYSTAL: Change Rivalry into a simple 10% damage boost against the same gender. ****/
+    if (AttackingMon.ability == ABILITY_RIVALRY) {
+        if ((AttackingMon.sex == DefendingMon.sex) && (AttackingMon.sex != POKEMON_GENDER_UNKNOWN) && (DefendingMon.sex != POKEMON_GENDER_UNKNOWN)) {
+            movepower = movepower * 110 / 100;
+        }
     }
 
     // handle iron fist
     if ((AttackingMon.ability == ABILITY_IRON_FIST) && IsElementInArray(IronFistMovesTable, (u16 *)&moveno, NELEMS(IronFistMovesTable), sizeof(IronFistMovesTable[0])))
     {
-        movepower = movepower * 12 / 10;
+        movepower = movepower * 13 / 10; /**** AURORA CRYSTAL: Changed Iron Fist boost to x1.3. */
     }
 
     // handle strong jaw
@@ -708,6 +927,43 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
     if ((AttackingMon.ability == ABILITY_SHARPNESS) && IsElementInArray(SharpnessMovesTable, (u16 *)&moveno, NELEMS(SharpnessMovesTable), sizeof(SharpnessMovesTable[0])))
     {
         movepower = movepower * 15 / 10;
+    }
+
+    /**** AURORA CRYSTAL: Add handling for the new Bombardier and Wind Whipper abilities. ****/
+    if (AttackingMon.ability == ABILITY_BOMBARDIER)
+    {
+        if (IsMoveBallBombBased(moveno))
+        {
+            movepower = movepower * 15 / 10;
+        }
+    }
+
+    if (AttackingMon.ability == ABILITY_WIND_RIDER)
+    {
+        if (IsMoveWindBased(moveno))
+        {
+            movepower = movepower * 15 / 10;
+        }
+    }
+
+    /**** AURORA CRYSTAL: Added the new Cacophony ability, a clone of Punk Rock. ****/
+    if (AttackingMon.ability == ABILITY_CACOPHONY) {
+        if (IsMoveSoundBased(moveno)) {
+            movepower = movepower * 13 / 10;
+        }
+    }
+
+    if (MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_CACOPHONY) == TRUE) {
+        if (IsMoveSoundBased(moveno)) {
+            movepower /= 2;
+        }
+    }
+
+    /**** AURORA CRYSTAL: Added the new Conductor ability which doubles the power of sound moves. ****/
+    if (AttackingMon.ability == ABILITY_CONDUCTOR) {
+        if (IsMoveSoundBased(moveno)) {
+            movepower *= 2;
+        }
     }
 
     //handles water bubble
@@ -887,7 +1143,7 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
     }
 
     //handles multiscale
-    if ((DefendingMon.ability == ABILITY_MULTISCALE) && (DefendingMon.hp == DefendingMon.maxhp))
+    if ((MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_MULTISCALE) == TRUE) && (DefendingMon.hp == DefendingMon.maxhp)) /**** AURORA CRYSTAL: Corrected to handle Mold Breaker case */
     {
         damage /= 2;
     }

@@ -37216,7 +37216,7 @@ const ITEMDATA __data[] =
 [ITEM_EVIOLITE - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
     .price = 4000,
-    .holdEffect = 0,
+    .holdEffect = HOLD_EFFECT_EVIOLITE,
     .holdEffectParam = 0,
     .pluckEffect = 0,
     .flingEffect = 0,
@@ -37801,7 +37801,7 @@ const ITEMDATA __data[] =
 [ITEM_ASSAULT_VEST - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
     .price = 1000,
-    .holdEffect = 0,
+    .holdEffect = HOLD_EFFECT_ASSAULT_VEST,
     .holdEffectParam = 0,
     .pluckEffect = 0,
     .flingEffect = 0,

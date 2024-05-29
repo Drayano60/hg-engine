@@ -22949,7 +22949,7 @@ movedata MOVE_CLEAR_SMOG, "Clear Smog"
     movedescription MOVE_CLEAR_SMOG, "The user attacks the\ntarget by throwing a\nclump of special mud\nthat eliminates all\nstat changes."
 
 movedata MOVE_STORED_POWER, "Stored Power"
-    battleeffect 320
+    battleeffect 0
     pss SPLIT_SPECIAL
     basepower 20
     type TYPE_PSYCHIC
@@ -28943,7 +28943,7 @@ movedata MOVE_TWIN_BEAM, "Twin Beam"
     movedescription MOVE_TWIN_BEAM, "The user shoots\nmystical beams from\nits eyes.\nThe target is hit\ntwice in a row."
 
 movedata MOVE_RAGE_FIST, "Rage Fist"
-    battleeffect 321
+    battleeffect 0
     pss SPLIT_PHYSICAL
     basepower 50
     type TYPE_GHOST

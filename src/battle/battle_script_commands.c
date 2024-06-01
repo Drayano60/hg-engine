@@ -2761,7 +2761,7 @@ BOOL btl_scr_cmd_FA_iflasthitofmultihit(void *bw, struct BattleStruct *sp) {
     IncrementBattleScriptPtr(sp, 1);
     int address = read_battle_script_param(sp);
 
-    if (!(sp->multi_hit_count <= 1 || (sp->defence_client == sp->fainting_client))) {
+    if ((sp->multi_hit_count <= 1 || (sp->defence_client == sp->fainting_client))) {
         IncrementBattleScriptPtr(sp, address); 
     }
 

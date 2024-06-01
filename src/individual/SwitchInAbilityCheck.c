@@ -163,6 +163,7 @@ int UNUSED SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
                                         newBS.weather = WEATHER_SANDSTORM_PERMANENT;
                                     }
                                     break;
+                                case ABILITY_SUNNY_MOOD: /**** AURORA CRYSTAL: Added new Sunny Mood effect. ****/
                                 case ABILITY_DROUGHT:
                                     sp->battlemon[client_no].appear_check_flag = 1;
                                     if ((sp->field_condition & WEATHER_SUNNY_PERMANENT) == 0) {
@@ -197,6 +198,29 @@ int UNUSED SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
                             break;
                         }
                     }
+
+                    /**** AURORA CRYSTAL: Added the new Sweet Aroma ability. ****/
+                    {
+                        if ((sp->battlemon[client_no].intimidate_flag == 0) && (sp->battlemon[client_no].hp) && (GetBattlerAbility(sp, client_no) == ABILITY_SWEET_AROMA)) {
+                            sp->battlemon[client_no].intimidate_flag = 1;
+                            sp->client_work = client_no;
+                            scriptnum = SUB_SEQ_SWEET_AROMA;
+                            ret = SWITCH_IN_CHECK_MOVE_SCRIPT;
+                            break;
+                        }
+                    }
+
+                    /**** AURORA CRYSTAL: Added the new effect for Illuminate. ****/
+                    {
+                        if ((sp->battlemon[client_no].intimidate_flag == 0) && (sp->battlemon[client_no].hp) && (GetBattlerAbility(sp, client_no) == ABILITY_ILLUMINATE)) {
+                            sp->battlemon[client_no].intimidate_flag = 1;
+                            sp->client_work = client_no;
+                            scriptnum = SUB_SEQ_ILLUMINATE;
+                            ret = SWITCH_IN_CHECK_MOVE_SCRIPT;
+                            break;
+                        }
+                    }
+
 
                     // Download
                     {
@@ -525,6 +549,87 @@ int UNUSED SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
                             break;
                         }
                     }
+                    
+                    /**** AURORA CRYSTAL: Add implementations for Curious Medicine, Pastel Veil and Screen Cleaner. ****/
+                    {
+                        if ((sp->battlemon[client_no].ability_activated_flag == 0) && (sp->battlemon[client_no].hp) && (GetBattlerAbility(sp, client_no) == ABILITY_CURIOUS_MEDICINE)) {
+                            sp->client_work = client_no;
+                            scriptnum = SUB_SEQ_CURIOUS_MEDICINE;
+                            ret = SWITCH_IN_CHECK_MOVE_SCRIPT;
+                            break;
+                        }
+                    }
+
+                    {
+                        if
+                        (
+                            (sp->battlemon[client_no].ability_activated_flag == 0) &&
+                            (sp->battlemon[client_no].hp) &&
+                            (sp->battlemon[client_no].condition & STATUS_POISON_ANY) &&
+                            ((GetBattlerAbility(sp, client_no) == ABILITY_PASTEL_VEIL) || (GetBattlerAbility(sp, BATTLER_ALLY(client_no)) == ABILITY_PASTEL_VEIL))
+                        ) {
+                            sp->battlemon[client_no].condition = 0; // Cures poison
+                            sp->client_work = client_no;
+                            scriptnum = SUB_SEQ_PASTEL_VEIL;
+                            ret = SWITCH_IN_CHECK_MOVE_SCRIPT;
+                            break;
+                        }
+                    }
+
+                    {
+                        if ((sp->battlemon[client_no].ability_activated_flag == 0) && (sp->battlemon[client_no].hp) && (GetBattlerAbility(sp, client_no) == ABILITY_SCREEN_CLEANER)) {
+                            sp->client_work = client_no;
+                            scriptnum = SUB_SEQ_SCREEN_CLEANER;
+                            ret = SWITCH_IN_CHECK_MOVE_SCRIPT;
+                            break;
+                        }
+                    }
+
+                    /**** AURORA CRYSTAL: Add code so Air Lock and Supreme Overlord (when applicable) show a message. ****/
+                    {
+                        if
+                        (
+                            (sp->battlemon[client_no].ability_activated_flag == 0) &&
+                            (sp->battlemon[client_no].hp) &&
+                            ((GetBattlerAbility(sp, client_no) == ABILITY_AIR_LOCK) || (GetBattlerAbility(sp, client_no) == ABILITY_CLOUD_NINE))
+                        ) {
+                            sp->battlemon[client_no].ability_activated_flag = 1;
+                            sp->client_work = client_no;
+                            scriptnum = SUB_SEQ_HANDLE_AIR_LOCK_MESSAGE;
+                            ret = SWITCH_IN_CHECK_MOVE_SCRIPT;
+                            break;
+                        }
+                    }
+
+                    {
+                        if
+                        (
+                            (sp->battlemon[client_no].ability_activated_flag == 0) &&
+                            (sp->battlemon[client_no].hp) &&
+                            ((GetBattlerAbility(sp, client_no) == ABILITY_SUPREME_OVERLORD))
+                        ) {
+                            struct Party *party = BattleWorkPokePartyGet(bw, client_no);
+                            int count = party->count;
+                            int faintedCount = 0;
+                            int i;
+                            
+                            for (i = 0; i < count; i++) {
+                                if (GetMonData(Party_GetMonByIndex(BattleWorkPokePartyGet(bw, client_no), i), MON_DATA_HP, NULL) == 0) {
+                                    faintedCount++;
+                                }
+                            }
+
+                            if (faintedCount > 0) {
+                                sp->battlemon[client_no].ability_activated_flag = 1;
+                                sp->client_work = client_no;
+                                scriptnum = SUB_SEQ_HANDLE_AIR_LOCK_MESSAGE;
+                                ret = SWITCH_IN_CHECK_MOVE_SCRIPT;
+                                break;
+                            } else {
+                                continue;
+                            }
+                        }
+                    }
 
                     // Air Balloon is announced, Berries/Berry Juice/White Herb/Mental Herb/terrain seeds can be consumed if applicable
                     {
@@ -587,7 +692,7 @@ int UNUSED SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
                             if (ret == SWITCH_IN_CHECK_MOVE_SCRIPT) {
                                 sp->battlemon[client_no].ability_activated_flag = 1;
                                 sp->attack_client = client_no;
-                                scriptnum = SUB_SEQ_CREATE_TERRAIN_OVERLAY;
+                                scriptnum = SUB_SEQ_CREATE_TERRAIN_OVERLAY_ABILITY;
                                 break;
                             }
                         }
@@ -1492,6 +1597,9 @@ int UNUSED SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
  */
 static BOOL IntimidateCheckHelper(struct BattleStruct *sp, u32 client)
 {
+    /**** AURORA CRYSTAL: Just always return TRUE here so we get the message when Intimidate is blocked instead. ****/
+    return TRUE;
+
     u32 clientCheck;
     for (int i = 0; i < 2; i++)
     {

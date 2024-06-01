@@ -12,6 +12,8 @@
 #include "../../include/constants/moves.h"
 #include "../../include/constants/species.h"
 
+static BOOL CalcRageFistDamageBonus(struct BattleStruct *sp);
+static BOOL CalcStoredPowerDamageBonus(struct BattleStruct *sp);
 
 struct PACKED sDamageCalc
 {
@@ -152,7 +154,7 @@ static const u16 SharpnessMovesTable[] = {
 
 
 
-int CalcRageFistDamageBonus(struct BattleStruct *sp)
+static int CalcRageFistDamageBonus(struct BattleStruct *sp)
 {
     // This resets on switch-out!
     u8 hit_count = sp->battlemon[sp->attack_client].hit_count;
@@ -165,7 +167,7 @@ int CalcRageFistDamageBonus(struct BattleStruct *sp)
     return hit_count;
 }
 
-int CalcStoredPowerDamageBonus(struct BattleStruct *sp)
+static int CalcStoredPowerDamageBonus(struct BattleStruct *sp)
 {
     int i = 0;
 
@@ -478,10 +480,6 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
             movepower = movepower * 120 / 100;
         }
     }
-
-    // handle light ball
-    if ((AttackingMon.item_held_effect == HOLD_EFFECT_LIGHT_BALL) && (AttackingMon.species == SPECIES_PIKACHU))
-        movepower *= 2;
 
     // handle metal powder
     if ((DefendingMon.item_held_effect == HOLD_EFFECT_METAL_POWDER) && (DefendingMon.species == SPECIES_DITTO))

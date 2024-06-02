@@ -451,6 +451,18 @@ arm9 AllocFail_hook 0201AA7C 0
 #endif
 # DEBUG_PRINT_HEAP_OVERFLOW_MESSAGES
 
+0012 ov12_0224D368 0224D368 3
+0012 ov12_0224C4D8 0224C4D8 3
+
+
+
+
+
+
+
+
+
+
 # **** AURORA CRYSTAL: Added hooks to support the portable PC. ****
 
 # pc anywhere

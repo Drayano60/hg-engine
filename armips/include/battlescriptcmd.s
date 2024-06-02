@@ -1647,11 +1647,15 @@ MOVE_DATA_CONTEST_TYPE equ 11
     .word 0xF8
 .endmacro
 
-/**** AURORA CRYSTAL: Additional Battle Commands ****/
-.macro echoedvoicedamagecalc
-    .word 0xF9
+.macro canclearprimalweather,count,sunAddress,rainAddress,windsAddress,failAddress
+    .word 0xF9, count
+    .word ((sunAddress - org()) / 4) - 4
+    .word ((rainAddress - org()) / 4) - 3
+    .word ((windsAddress - org()) / 4) - 2
+    .word ((failAddress - org()) / 4) - 1
 .endmacro
 
+/**** AURORA CRYSTAL: Additional Battle Commands ****/
 .macro iflasthitofmultihit,address
     .word 0xFA
     .word ((address - org()) / 4) - 1

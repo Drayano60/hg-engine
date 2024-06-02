@@ -77,6 +77,7 @@ BOOL btl_scr_cmd_F5_changepermanentbg(void *bw, struct BattleStruct *sp);
 BOOL btl_scr_cmd_F6_changeexecutionorderpriority(void *bw, struct BattleStruct *sp);
 BOOL btl_scr_cmd_F7_setbindingcounter(void *bw, struct BattleStruct *sp);
 BOOL btl_scr_cmd_F8_clearbindcounter(void *bw, struct BattleStruct *sp);
+BOOL btl_scr_cmd_F9_canclearprimalweather(void *bw, struct BattleStruct *sp);
 BOOL BtlCmd_WeatherHPRecovery(void *bw, struct BattleStruct *sp);
 BOOL BtlCmd_CalcWeatherBallParams(void *bw, struct BattleStruct *sp);
 BOOL BtlCmd_TrySubstitute(void *bw, struct BattleStruct *sp);
@@ -346,6 +347,7 @@ const u8 *BattleScrCmdNames[] =
     "changeexecutionorderpriority",
     "setbindingcounter",
     "clearbindcounter",
+    "canclearprimalweather",
 };
 
 u32 cmdAddress = 0;
@@ -378,9 +380,9 @@ const btl_scr_cmd_func NewBattleScriptCmdTable[] =
     [0xF6 - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_F6_changeexecutionorderpriority,
     [0xF7 - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_F7_setbindingcounter,
     [0xF8 - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_F8_clearbindcounter,
+    [0xF9 - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_F9_canclearprimalweather,
 
     /**** AURORA CRYSTAL: Additional commands. ****/
-    [0xF9 - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_F9_echoedvoicedamagecalc,
     [0xFA - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_FA_iflasthitofmultihit,
     [0xFB - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_FB_strengthsapcalc,
     [0xFC - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_FC_didtargetraisestat,
@@ -2728,27 +2730,103 @@ BOOL btl_scr_cmd_F8_clearbindcounter(void *bw UNUSED, struct BattleStruct *sp) {
     return FALSE;
 }
 
-/**** AURORA CRYSTAL: Additional commands. ****/
 /**
- *  @brief script command to increment counter of and calculate power of Echoed Voice (not accurate to actual game)
+ *  @brief script command to try and clear primal weather
  *
  *  @param bw battle work structure
  *  @param sp global battle structure
  *  @return FALSE
  */
-BOOL btl_scr_cmd_F9_echoedvoicedamagecalc(void *bw, struct BattleStruct *sp)
-{
+BOOL btl_scr_cmd_F9_canclearprimalweather(void *bw, struct BattleStruct *sp) {
+    // u8 buf[64];
+    // sprintf(buf, "In canclearprimalweather\n");
+    // debugsyscall(buf);
+
+    int client_no = 0;  // initialize
+    u8 count = 0;
+    int client_set_max, i, lowerBound, sunAddress, rainAddress, windsAddress, failAddress;
+
     IncrementBattleScriptPtr(sp, 1);
 
-    // if (sp->battlemon[sp->attack_client].echoed_voice_count < 5) {
-    //     sp->battlemon[sp->attack_client].echoed_voice_count++;
-    // }
+    lowerBound = read_battle_script_param(sp);
+    sunAddress = read_battle_script_param(sp);
+    rainAddress = read_battle_script_param(sp);
+    windsAddress = read_battle_script_param(sp);
+    failAddress = read_battle_script_param(sp);
 
-    // sp->damage_power = GetMoveData(sp->current_move_index, MOVE_DATA_BASE_POWER) * sp->battlemon[sp->attack_client].echoed_voice_count;
+    client_set_max = BattleWorkClientSetMaxGet(bw);
+
+    u32 currentPrimalWeather = sp->field_condition & (WEATHER_EXTREMELY_HARSH_SUNLIGHT | WEATHER_HEAVY_RAIN | WEATHER_STRONG_WINDS);
+
+    if (currentPrimalWeather) {
+        for (i = 0; i < client_set_max; i++) {
+            client_no = sp->turnOrder[i];
+            switch (currentPrimalWeather) {
+                case WEATHER_EXTREMELY_HARSH_SUNLIGHT:
+                    if (GetBattlerAbility(sp, client_no) == ABILITY_DESOLATE_LAND && sp->battlemon[client_no].hp != 0) {
+                        count++;
+                    }
+                    break;
+                case WEATHER_HEAVY_RAIN:
+                    if (GetBattlerAbility(sp, client_no) == ABILITY_PRIMORDIAL_SEA && sp->battlemon[client_no].hp != 0) {
+                        count++;
+                    }
+                    break;
+                case WEATHER_STRONG_WINDS:
+                    if (GetBattlerAbility(sp, client_no) == ABILITY_DELTA_STREAM && sp->battlemon[client_no].hp != 0) {
+                        count++;
+                    }
+                    break;
+
+                default:
+                    break;
+            }
+        }
+    }
+
+    // sprintf(buf, "Count: %d\n", count);
+    // debugsyscall(buf);
+
+    // There is still another mon with the primal ability on the field
+    if (count > lowerBound) {
+        IncrementBattleScriptPtr(sp, failAddress);
+        return FALSE;
+    } else {
+        switch (currentPrimalWeather) {
+            case WEATHER_EXTREMELY_HARSH_SUNLIGHT:
+                // sprintf(buf, "WEATHER_EXTREMELY_HARSH_SUNLIGHT\n");
+                // debugsyscall(buf);
+                IncrementBattleScriptPtr(sp, sunAddress);
+                return FALSE;
+                break;
+            case WEATHER_HEAVY_RAIN:
+                // sprintf(buf, "WEATHER_HEAVY_RAIN\n");
+                // debugsyscall(buf);
+                IncrementBattleScriptPtr(sp, rainAddress);
+                return FALSE;
+                break;
+            case WEATHER_STRONG_WINDS:
+                // sprintf(buf, "WEATHER_STRONG_WINDS\n");
+                // debugsyscall(buf);
+                IncrementBattleScriptPtr(sp, windsAddress);
+                return FALSE;
+                break;
+
+            default:
+                // sprintf(buf, "Fail?\n");
+                // debugsyscall(buf);
+                break;
+        }
+    }
 
     return FALSE;
 }
 
+
+
+
+
+/**** AURORA CRYSTAL: Start of custom battle commands. ****/
 
 /**
  *  @brief script command to check if current multi-hit move is last hit (used for Scale Shot)

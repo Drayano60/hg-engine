@@ -634,12 +634,12 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
     // handle mud/water sport
     if ((movetype == TYPE_ELECTRIC) && (CheckFieldMoveEffect(bw, sp, MOVE_EFFECT_FLAG_MUD_SPORT)))
     {
-        movepower /= 2;
+        movepower /= 3;
     }
 
     if ((movetype == TYPE_FIRE) && (CheckFieldMoveEffect(bw, sp, MOVE_EFFECT_FLAG_WATER_SPORT)))
     {
-        movepower /= 2;
+        movepower /= 3;
     }
 
     /**** AURORA CRYSTAL: Redesign pinch abilities to also have a constant 10% boost at higher HP. ****/
@@ -685,7 +685,7 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
     //handle transistor
     if(AttackingMon.ability == ABILITY_TRANSISTOR && (movetype == TYPE_ELECTRIC))
     {
-        movepower = movepower * 150 / 100;
+        movepower = movepower * 130 / 100;
     }
 
     //handle rocky payload

@@ -183,6 +183,7 @@
 
 #define BATTLE_TYPE_NO_EXPERIENCE (BATTLE_TYPE_WIRELESS | BATTLE_TYPE_SAFARI | BATTLE_TYPE_BATTLE_TOWER | BATTLE_TYPE_POKE_PARK)
 
+
 /**
  *  @brief flags for effect_of_moves
  *  defines for BattleStruct's effect_of_moves field
@@ -1118,7 +1119,7 @@ struct PACKED BattleStruct
     /*0x217F*/ u8 beat_up_count;
 
     /*0x2180*/ u32 loop_flag;
-    /*0x2184*/ u32 waza_out_check_on_off;
+    /*0x2184*/ u32 waza_out_check_on_off; // multiHitCheckFlags
     /*0x2188*/ u32 loop_hit_check;
 
     /*0x218C*/ u32 condition2_off_req[CLIENT_MAX];
@@ -2842,8 +2843,43 @@ void LONG_CALL UnlockBattlerOutOfCurrentMove(struct BattleSystem *bsys, struct B
  *
  *  @param sp global battle structure
  *  @param moveNo move index to check against a list of move effects that are charge moves
+ *  @return TRUE/FALSE
  */
 BOOL LONG_CALL CheckMoveIsChargeMove(struct BattleStruct *sp, int moveNo);
+
+// Possibly BattleController_AnyExpPayout
+BOOL LONG_CALL ov12_0224DD18(struct BattleStruct *ctx, ControllerCommand a1, ControllerCommand a2);
+
+// Possibly BattleController_CheckBattleOver
+BOOL LONG_CALL ov12_0224D7EC(struct BattleSystem *bsys, struct BattleStruct *ctx);
+
+// Possibly BattleController_ToggleSemiInvulnMons
+BOOL LONG_CALL ov12_0224E130(struct BattleSystem *bsys, struct BattleStruct *ctx);
+
+// Possibly BattleController_ClearFlags
+void LONG_CALL ov12_0224DC0C(struct BattleSystem *bsys, struct BattleStruct *ctx);
+
+void LONG_CALL SortExecutionOrderBySpeed(struct BattleSystem *bsys, struct BattleStruct *ctx);
+
+void LONG_CALL SortMonsBySpeed(struct BattleSystem *bsys, struct BattleStruct *ctx);
+
+BOOL LONG_CALL ov12_0224B398(struct BattleSystem *bsys, struct BattleStruct *ctx);
+
+BOOL LONG_CALL ov12_02250BBC(struct BattleSystem *bsys, struct BattleStruct *ctx);
+
+BOOL LONG_CALL BattleSystem_CheckMoveHit(struct BattleSystem *bsys, struct BattleStruct *ctx, int battlerIdAttacker, int battlerIdTarget, int move);
+
+BOOL LONG_CALL ov12_0224B498(struct BattleSystem *bsys, struct BattleStruct *ctx);
+
+BOOL LONG_CALL ov12_0224BC2C(struct BattleSystem *bsys, struct BattleStruct *ctx);
+
+/**
+ *  @brief checks if the given move should be weakened or not (only prints message)
+ *  @param bw battle work structure
+ *  @param sp global battle structure
+ *  @return TRUE/FALSE
+ */
+BOOL CheckStrongWindsWeaken(struct BattleSystem *bw, struct BattleStruct *sp);
 
 /**** AURORA CRYSTAL: Additional helper functions. ****/
 

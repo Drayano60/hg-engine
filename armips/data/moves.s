@@ -217,7 +217,7 @@ movedata MOVE_GUILLOTINE, "Guillotine"
     movedescription MOVE_GUILLOTINE, "A vicious, tearing\nattack with pincers.\nThe foe will faint\ninstantly if this\nattack hits."
 
 movedata MOVE_RAZOR_WIND, "Razor Wind"
-    battleeffect MOVE_EFFECT_CHARGE_TURN_HIGH_CRIT
+    battleeffect MOVE_EFFECT_CHARGE_TURN_HIGH_CRIT /**** EDIT: This effect now guarantees the crit. */
     pss SPLIT_SPECIAL
     basepower 80
     type TYPE_NORMAL
@@ -9290,7 +9290,7 @@ movedata MOVE_TOPSY_TURVY, "Topsy-Turvy"
     movedescription MOVE_TOPSY_TURVY, "---"
 
 movedata MOVE_DRAINING_KISS, "Draining Kiss"
-    battleeffect MOVE_EFFECT_RECOVER_HALF_DAMAGE_DEALT
+    battleeffect MOVE_EFFECT_RECOVER_HALF_DAMAGE_DEALT /**** EDIT: Linked sub_seq has the 75% drain. */
     pss SPLIT_SPECIAL
     basepower 50
     type (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_NORMAL
@@ -12714,14 +12714,14 @@ movedata MOVE_STRANGE_STEAM, "Strange Steam"
     movedescription MOVE_STRANGE_STEAM, "---"
 
 movedata MOVE_LIFE_DEW, "Life Dew"
-    battleeffect MOVE_EFFECT_HIT
+    battleeffect MOVE_EFFECT_RESTORE_HALF_HP /**** EDIT: Linked sub_seq has an implementation. ****/
     pss SPLIT_STATUS
     basepower 0
     type TYPE_WATER
     accuracy 0
     pp 10
     effectchance 0
-    target MOVE_TARGET_USER_SIDE
+    target MOVE_TARGET_USER_SIDE /**** EDIT: Hacky solution to get it to work. ***/
     priority 0
     flags FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_MAGIC_COAT
     appeal 0x00
@@ -14776,6 +14776,356 @@ movedata MOVE_MALIGNANT_CHAIN, "Malignant Chain"
     contesttype CONTEST_COOL
     terminatedata
     movedescription MOVE_MALIGNANT_CHAIN, "---"
+
+/**** AURORA CRYSTAL: Custom moves and AI only moves. ****/
+
+// This is a custom move for Meganium.
+// It damages a foe and reduces its Attack by one stage.
+movedata MOVE_PETAL_BARRAGE, "Petal Barrage"
+    battleeffect MOVE_EFFECT_LOWER_ATTACK_HIT
+    pss SPLIT_SPECIAL
+    basepower 80
+    type TYPE_GRASS
+    accuracy 100
+    pp 10
+    effectchance 100
+    target MOVE_TARGET_SELECTED
+    priority 0
+    flags FLAG_MIRROR_MOVE | FLAG_PROTECT
+    appeal 0
+    contesttype 0
+    terminatedata
+    movedescription MOVE_PETAL_BARRAGE, "The user launches a\nbarrage of petals\nwith calming aromas.\nThis lowers the foe’s\nAttack stat."
+
+// This is a custom move for Typhlosion.
+// It is a buffed up Lava Plume.
+movedata MOVE_INFERNAL_BLAST, "Infernal Blast"
+    battleeffect MOVE_EFFECT_BURN_HIT
+    pss SPLIT_SPECIAL
+    basepower 100
+    type TYPE_FIRE
+    accuracy 100
+    pp 10
+    effectchance 30
+    target MOVE_TARGET_FOES_AND_ALLY
+    priority 0
+    flags FLAG_MIRROR_MOVE | FLAG_PROTECT
+    appeal 0
+    contesttype 0
+    terminatedata
+    movedescription MOVE_INFERNAL_BLAST, "The user rubs its\nblazing fur together,\ncausing an explosion.\nIt has a 30% chance\nto burn what it hits."
+
+// This is a custom move for Feraligatr.
+// Simply flinches a foe, but benefits from Strong Jaw.
+movedata MOVE_SAVAGE_REND, "Savage Rend"
+    battleeffect MOVE_EFFECT_FLINCH_HIT
+    pss SPLIT_PHYSICAL
+    basepower 80
+    type TYPE_WATER
+    accuracy 100
+    pp 10
+    effectchance 30
+    target MOVE_TARGET_SELECTED
+    priority 0
+    flags FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
+    appeal 0
+    contesttype 0
+    terminatedata
+    movedescription MOVE_SAVAGE_REND, "The user drags the\nfoe underwater and\nsavagely tears it up.\nThis has a 30% chance\nto flinch the foe."
+
+// This is a custom move for Ledian.
+// Clone of Population Bomb.
+movedata MOVE_PIDDLY_PUNCHES, "Piddly Punches"
+    battleeffect MOVE_EFFECT_UP_TO_10_HITS
+    pss SPLIT_PHYSICAL
+    basepower 10
+    type TYPE_BUG
+    accuracy 80
+    pp 10
+    effectchance 0
+    target MOVE_TARGET_SELECTED
+    priority 0
+    flags FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
+    appeal 0
+    contesttype 0
+    terminatedata
+    movedescription MOVE_PIDDLY_PUNCHES, "The user throws many\npiddly punches using\nall of its arms. This\ncan hit the foe up to\nten times in a row."
+
+// This is a custom move for Luxray.
+// Clone of Blaze Kick (except it paralyzes instead).
+movedata MOVE_THUNDER_CLAW, "Thunder Claw"
+    battleeffect MOVE_EFFECT_THUNDER_CLAW
+    pss SPLIT_PHYSICAL
+    basepower 85
+    type TYPE_ELECTRIC
+    accuracy 100
+    pp 10
+    effectchance 10
+    target MOVE_TARGET_SELECTED
+    priority 0
+    flags FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
+    appeal 0
+    contesttype 0
+    terminatedata
+    movedescription MOVE_THUNDER_CLAW, "Slashes the foe with\nelectrified claws.\nOften a critical hit.\nThis has a 10% chance\nto paralyze the foe."
+
+/* The below are Hidden Power types for AI use. */
+
+movedata MOVE_HIDDEN_POWER_FIGHTING, "Hidden Power"
+    battleeffect MOVE_EFFECT_HIT
+    pss SPLIT_SPECIAL
+    basepower 60
+    type TYPE_FIGHTING
+    accuracy 100
+    pp 15
+    effectchance 0
+    target MOVE_TARGET_SELECTED
+    priority 0
+    flags FLAG_MIRROR_MOVE | FLAG_PROTECT
+    appeal 0
+    contesttype 0
+    terminatedata
+    movedescription MOVE_HIDDEN_POWER_FIGHTING, "A unique attack that\nvaries in type,\ndepending on the\nPokémon using it."
+
+movedata MOVE_HIDDEN_POWER_FLYING, "Hidden Power"
+    battleeffect MOVE_EFFECT_HIT
+    pss SPLIT_SPECIAL
+    basepower 60
+    type TYPE_FLYING
+    accuracy 100
+    pp 15
+    effectchance 0
+    target MOVE_TARGET_SELECTED
+    priority 0
+    flags FLAG_MIRROR_MOVE | FLAG_PROTECT
+    appeal 0
+    contesttype 0
+    terminatedata
+    movedescription MOVE_HIDDEN_POWER_FLYING, "A unique attack that\nvaries in type,\ndepending on the\nPokémon using it."
+    
+movedata MOVE_HIDDEN_POWER_POISON, "Hidden Power"
+    battleeffect MOVE_EFFECT_HIT
+    pss SPLIT_SPECIAL
+    basepower 60
+    type TYPE_POISON
+    accuracy 100
+    pp 15
+    effectchance 0
+    target MOVE_TARGET_SELECTED
+    priority 0
+    flags FLAG_MIRROR_MOVE | FLAG_PROTECT
+    appeal 0
+    contesttype 0
+    terminatedata
+    movedescription MOVE_HIDDEN_POWER_POISON, "A unique attack that\nvaries in type,\ndepending on the\nPokémon using it."
+    
+movedata MOVE_HIDDEN_POWER_GROUND, "Hidden Power"
+    battleeffect MOVE_EFFECT_HIT
+    pss SPLIT_SPECIAL
+    basepower 60
+    type TYPE_GROUND
+    accuracy 100
+    pp 15
+    effectchance 0
+    target MOVE_TARGET_SELECTED
+    priority 0
+    flags FLAG_MIRROR_MOVE | FLAG_PROTECT
+    appeal 0
+    contesttype 0
+    terminatedata
+    movedescription MOVE_HIDDEN_POWER_GROUND, "A unique attack that\nvaries in type,\ndepending on the\nPokémon using it."
+    
+movedata MOVE_HIDDEN_POWER_ROCK, "Hidden Power"
+    battleeffect MOVE_EFFECT_HIT
+    pss SPLIT_SPECIAL
+    basepower 60
+    type TYPE_ROCK
+    accuracy 100
+    pp 15
+    effectchance 0
+    target MOVE_TARGET_SELECTED
+    priority 0
+    flags FLAG_MIRROR_MOVE | FLAG_PROTECT
+    appeal 0
+    contesttype 0
+    terminatedata
+    movedescription MOVE_HIDDEN_POWER_ROCK, "A unique attack that\nvaries in type,\ndepending on the\nPokémon using it."
+    
+movedata MOVE_HIDDEN_POWER_BUG, "Hidden Power"
+    battleeffect MOVE_EFFECT_HIT
+    pss SPLIT_SPECIAL
+    basepower 60
+    type TYPE_BUG
+    accuracy 100
+    pp 15
+    effectchance 0
+    target MOVE_TARGET_SELECTED
+    priority 0
+    flags FLAG_MIRROR_MOVE | FLAG_PROTECT
+    appeal 0
+    contesttype 0
+    terminatedata
+    movedescription MOVE_HIDDEN_POWER_BUG, "A unique attack that\nvaries in type,\ndepending on the\nPokémon using it."
+    
+movedata MOVE_HIDDEN_POWER_GHOST, "Hidden Power"
+    battleeffect MOVE_EFFECT_HIT
+    pss SPLIT_SPECIAL
+    basepower 60
+    type TYPE_GHOST
+    accuracy 100
+    pp 15
+    effectchance 0
+    target MOVE_TARGET_SELECTED
+    priority 0
+    flags FLAG_MIRROR_MOVE | FLAG_PROTECT
+    appeal 0
+    contesttype 0
+    terminatedata
+    movedescription MOVE_HIDDEN_POWER_GHOST, "A unique attack that\nvaries in type,\ndepending on the\nPokémon using it."
+    
+movedata MOVE_HIDDEN_POWER_STEEL, "Hidden Power"
+    battleeffect MOVE_EFFECT_HIT
+    pss SPLIT_SPECIAL
+    basepower 60
+    type TYPE_STEEL
+    accuracy 100
+    pp 15
+    effectchance 0
+    target MOVE_TARGET_SELECTED
+    priority 0
+    flags FLAG_MIRROR_MOVE | FLAG_PROTECT
+    appeal 0
+    contesttype 0
+    terminatedata
+    movedescription MOVE_HIDDEN_POWER_STEEL, "A unique attack that\nvaries in type,\ndepending on the\nPokémon using it."
+    
+movedata MOVE_HIDDEN_POWER_FIRE, "Hidden Power"
+    battleeffect MOVE_EFFECT_HIT
+    pss SPLIT_SPECIAL
+    basepower 60
+    type TYPE_FIRE
+    accuracy 100
+    pp 15
+    effectchance 0
+    target MOVE_TARGET_SELECTED
+    priority 0
+    flags FLAG_MIRROR_MOVE | FLAG_PROTECT
+    appeal 0
+    contesttype 0
+    terminatedata
+    movedescription MOVE_HIDDEN_POWER_FIRE, "A unique attack that\nvaries in type,\ndepending on the\nPokémon using it."
+    
+movedata MOVE_HIDDEN_POWER_WATER, "Hidden Power"
+    battleeffect MOVE_EFFECT_HIT
+    pss SPLIT_SPECIAL
+    basepower 60
+    type TYPE_WATER
+    accuracy 100
+    pp 15
+    effectchance 0
+    target MOVE_TARGET_SELECTED
+    priority 0
+    flags FLAG_MIRROR_MOVE | FLAG_PROTECT
+    appeal 0
+    contesttype 0
+    terminatedata
+    movedescription MOVE_HIDDEN_POWER_WATER, "A unique attack that\nvaries in type,\ndepending on the\nPokémon using it."
+    
+movedata MOVE_HIDDEN_POWER_GRASS, "Hidden Power"
+    battleeffect MOVE_EFFECT_HIT
+    pss SPLIT_SPECIAL
+    basepower 60
+    type TYPE_GRASS
+    accuracy 100
+    pp 15
+    effectchance 0
+    target MOVE_TARGET_SELECTED
+    priority 0
+    flags FLAG_MIRROR_MOVE | FLAG_PROTECT
+    appeal 0
+    contesttype 0
+    terminatedata
+    movedescription MOVE_HIDDEN_POWER_GRASS, "A unique attack that\nvaries in type,\ndepending on the\nPokémon using it."
+    
+movedata MOVE_HIDDEN_POWER_ELECTRIC, "Hidden Power"
+    battleeffect MOVE_EFFECT_HIT
+    pss SPLIT_SPECIAL
+    basepower 60
+    type TYPE_ELECTRIC
+    accuracy 100
+    pp 15
+    effectchance 0
+    target MOVE_TARGET_SELECTED
+    priority 0
+    flags FLAG_MIRROR_MOVE | FLAG_PROTECT
+    appeal 0
+    contesttype 0
+    terminatedata
+    movedescription MOVE_HIDDEN_POWER_ELECTRIC, "A unique attack that\nvaries in type,\ndepending on the\nPokémon using it."
+    
+movedata MOVE_HIDDEN_POWER_PSYCHIC, "Hidden Power"
+    battleeffect MOVE_EFFECT_HIT
+    pss SPLIT_SPECIAL
+    basepower 60
+    type TYPE_PSYCHIC
+    accuracy 100
+    pp 15
+    effectchance 0
+    target MOVE_TARGET_SELECTED
+    priority 0
+    flags FLAG_MIRROR_MOVE | FLAG_PROTECT
+    appeal 0
+    contesttype 0
+    terminatedata
+    movedescription MOVE_HIDDEN_POWER_PSYCHIC, "A unique attack that\nvaries in type,\ndepending on the\nPokémon using it."
+    
+movedata MOVE_HIDDEN_POWER_ICE, "Hidden Power"
+    battleeffect MOVE_EFFECT_HIT
+    pss SPLIT_SPECIAL
+    basepower 60
+    type TYPE_ICE
+    accuracy 100
+    pp 15
+    effectchance 0
+    target MOVE_TARGET_SELECTED
+    priority 0
+    flags FLAG_MIRROR_MOVE | FLAG_PROTECT
+    appeal 0
+    contesttype 0
+    terminatedata
+    movedescription MOVE_HIDDEN_POWER_ICE, "A unique attack that\nvaries in type,\ndepending on the\nPokémon using it."
+    
+movedata MOVE_HIDDEN_POWER_DARK, "Hidden Power"
+    battleeffect MOVE_EFFECT_HIT
+    pss SPLIT_SPECIAL
+    basepower 60
+    type TYPE_DARK
+    accuracy 100
+    pp 15
+    effectchance 0
+    target MOVE_TARGET_SELECTED
+    priority 0
+    flags FLAG_MIRROR_MOVE | FLAG_PROTECT
+    appeal 0
+    contesttype 0
+    terminatedata
+    movedescription MOVE_HIDDEN_POWER_DARK, "A unique attack that\nvaries in type,\ndepending on the\nPokémon using it."
+    
+movedata MOVE_HIDDEN_POWER_DRAGON, "Hidden Power"
+    battleeffect MOVE_EFFECT_HIT
+    pss SPLIT_SPECIAL
+    basepower 60
+    type TYPE_DRAGON
+    accuracy 100
+    pp 15
+    effectchance 0
+    target MOVE_TARGET_SELECTED
+    priority 0
+    flags FLAG_MIRROR_MOVE | FLAG_PROTECT
+    appeal 0
+    contesttype 0
+    terminatedata
+    movedescription MOVE_HIDDEN_POWER_DRAGON, "A unique attack that\nvaries in type,\ndepending on the\nPokémon using it."
 
 movedatanoname NUM_OF_MOVES+1
     battleeffect MOVE_EFFECT_HIT

@@ -4713,7 +4713,7 @@ movedata MOVE_CAMOUFLAGE, "Camouflage"
     movedescription MOVE_CAMOUFLAGE, "The user’s type is\nchanged depending on\nits environment, such\nas at water’s edge, in\ngrass, or in a cave."
 
 movedata MOVE_TAIL_GLOW, "Tail Glow"
-    battleeffect MOVE_EFFECT_SP_ATK_UP_2
+    battleeffect MOVE_EFFECT_TAIL_GLOW
     pss SPLIT_STATUS
     basepower 0
     type TYPE_BUG
@@ -8025,7 +8025,7 @@ movedata MOVE_ECHOED_VOICE, "Echoed Voice"
     movedescription MOVE_ECHOED_VOICE, "The user attacks\nthe target with a\nharsh echo.\nIf used every turn,\npower increases."
 
 movedata MOVE_CHIP_AWAY, "Chip Away"
-    battleeffect MOVE_EFFECT_HIT
+    battleeffect MOVE_EFFECT_IGNORE_TARGET_STAT_CHANGES
     pss SPLIT_PHYSICAL
     basepower 70
     type TYPE_NORMAL
@@ -8041,7 +8041,7 @@ movedata MOVE_CHIP_AWAY, "Chip Away"
     movedescription MOVE_CHIP_AWAY, "An attack which is\nnot affected by the\ntarget’s stat\nchanges."
 
 movedata MOVE_CLEAR_SMOG, "Clear Smog"
-    battleeffect MOVE_EFFECT_HIT
+    battleeffect MOVE_EFFECT_CLEAR_SMOG
     pss SPLIT_SPECIAL
     basepower 50
     type TYPE_POISON
@@ -8217,7 +8217,7 @@ movedata MOVE_CIRCLE_THROW, "Circle Throw"
     movedescription MOVE_CIRCLE_THROW, "The foe is made to\nswitch out with an\nally. In the wild,\nthe battle ends."
 
 movedata MOVE_INCINERATE, "Incinerate"
-    battleeffect MOVE_EFFECT_HIT
+    battleeffect MOVE_EFFECT_INCINERATE
     pss SPLIT_SPECIAL
     basepower 60
     type TYPE_FIRE
@@ -8297,7 +8297,7 @@ movedata MOVE_RETALIATE, "Retaliate"
     movedescription MOVE_RETALIATE, "If an ally fainted\nin the previous\nturn, this attack’s\ndamage increases."
 
 movedata MOVE_FINAL_GAMBIT, "Final Gambit"
-    battleeffect MOVE_EFFECT_HIT
+    battleeffect MOVE_EFFECT_FINAL_GAMBIT
     pss SPLIT_SPECIAL
     basepower 1
     type TYPE_FIGHTING
@@ -8457,7 +8457,7 @@ movedata MOVE_FROST_BREATH, "Frost Breath"
     movedescription MOVE_FROST_BREATH, "The user blows\ncold air at the foe.\nIt always results in\na critical hit."
 
 movedata MOVE_DRAGON_TAIL, "Dragon Tail"
-    battleeffect MOVE_EFFECT_HIT
+    battleeffect MOVE_EFFECT_DRAGON_TAIL
     pss SPLIT_PHYSICAL
     basepower 60
     type TYPE_DRAGON
@@ -8585,7 +8585,7 @@ movedata MOVE_HORN_LEECH, "Horn Leech"
     movedescription MOVE_HORN_LEECH, "A harsh attack that\nabsorbs half the\ndamage it inflicted\nto restore HP."
 
 movedata MOVE_SACRED_SWORD, "Sacred Sword"
-    battleeffect MOVE_EFFECT_HIT
+    battleeffect MOVE_EFFECT_IGNORE_TARGET_STAT_CHANGES
     pss SPLIT_PHYSICAL
     basepower 90
     type TYPE_FIGHTING
@@ -8665,7 +8665,7 @@ movedata MOVE_STEAMROLLER, "Steamroller"
     movedescription MOVE_STEAMROLLER, "The user crushes\nthe foe with its\nbody. It may also\nmake the foe flinch."
 
 movedata MOVE_COTTON_GUARD, "Cotton Guard"
-    battleeffect MOVE_EFFECT_HIT
+    battleeffect MOVE_EFFECT_COTTON_GUARD
     pss SPLIT_STATUS
     basepower 0
     type TYPE_GRASS
@@ -9146,7 +9146,7 @@ movedata MOVE_TRICK_OR_TREAT, "Trick-or-Treat"
     movedescription MOVE_TRICK_OR_TREAT, "---"
 
 movedata MOVE_NOBLE_ROAR, "Noble Roar"
-    battleeffect MOVE_EFFECT_HIT
+    battleeffect MOVE_EFFECT_NOBLE_ROAR
     pss SPLIT_STATUS
     basepower 0
     type TYPE_NORMAL
@@ -9258,7 +9258,7 @@ movedata MOVE_DISARMING_VOICE, "Disarming Voice"
     movedescription MOVE_DISARMING_VOICE, "---"
 
 movedata MOVE_PARTING_SHOT, "Parting Shot"
-    battleeffect MOVE_EFFECT_HIT
+    battleeffect MOVE_EFFECT_PARTING_SHOT
     pss SPLIT_STATUS
     basepower 0
     type TYPE_DARK
@@ -10618,7 +10618,7 @@ movedata MOVE_SHORE_UP, "Shore Up"
     movedescription MOVE_SHORE_UP, "---"
 
 movedatalongname MOVE_FIRST_IMPRESSION, "FirstImpression", "First Impression"
-    battleeffect MOVE_EFFECT_ALWAYS_FLINCH_FIRST_TURN_ONLY
+    battleeffect MOVE_EFFECT_FIRST_IMPRESSION
     pss SPLIT_PHYSICAL
     basepower 90
     type TYPE_BUG
@@ -10650,7 +10650,7 @@ movedata MOVE_BANEFUL_BUNKER, "Baneful Bunker"
     movedescription MOVE_BANEFUL_BUNKER, "---"
 
 movedata MOVE_SPIRIT_SHACKLE, "Spirit Shackle"
-    battleeffect MOVE_EFFECT_HIT
+    battleeffect MOVE_EFFECT_SPIRIT_SHACKLE
     pss SPLIT_PHYSICAL
     basepower 80
     type TYPE_GHOST
@@ -10666,7 +10666,7 @@ movedata MOVE_SPIRIT_SHACKLE, "Spirit Shackle"
     movedescription MOVE_SPIRIT_SHACKLE, "---"
 
 movedata MOVE_DARKEST_LARIAT, "Darkest Lariat"
-    battleeffect MOVE_EFFECT_HIT
+    battleeffect MOVE_EFFECT_IGNORE_TARGET_STAT_CHANGES
     pss SPLIT_PHYSICAL
     basepower 85
     type TYPE_DARK
@@ -10682,7 +10682,7 @@ movedata MOVE_DARKEST_LARIAT, "Darkest Lariat"
     movedescription MOVE_DARKEST_LARIAT, "---"
 
 movedata MOVE_SPARKLING_ARIA, "Sparkling Aria"
-    battleeffect MOVE_EFFECT_HIT
+    battleeffect MOVE_EFFECT_SPARKLING_ARIA
     pss SPLIT_SPECIAL
     basepower 90
     type TYPE_WATER
@@ -10746,7 +10746,7 @@ movedata MOVE_HIGH_HORSEPOWER, "High Horsepower"
     movedescription MOVE_HIGH_HORSEPOWER, "---"
 
 movedata MOVE_STRENGTH_SAP, "Strength Sap"
-    battleeffect MOVE_EFFECT_HIT
+    battleeffect MOVE_EFFECT_STRENGTH_SAP
     pss SPLIT_STATUS
     basepower 0
     type TYPE_GRASS
@@ -10810,7 +10810,7 @@ movedata MOVE_SPOTLIGHT, "Spotlight"
     movedescription MOVE_SPOTLIGHT, "---"
 
 movedata MOVE_TOXIC_THREAD, "Toxic Thread"
-    battleeffect MOVE_EFFECT_HIT
+    battleeffect MOVE_EFFECT_TOXIC_THREAD
     pss SPLIT_STATUS
     basepower 0
     type TYPE_POISON
@@ -10874,7 +10874,7 @@ movedata MOVE_THROAT_CHOP, "Throat Chop"
     movedescription MOVE_THROAT_CHOP, "---"
 
 movedata MOVE_POLLEN_PUFF, "Pollen Puff"
-    battleeffect MOVE_EFFECT_HIT
+    battleeffect MOVE_EFFECT_POLLEN_PUFF
     pss SPLIT_SPECIAL
     basepower 90
     type TYPE_BUG
@@ -11162,7 +11162,7 @@ movedata MOVE_BRUTAL_SWING, "Brutal Swing"
     movedescription MOVE_BRUTAL_SWING, "---"
 
 movedata MOVE_AURORA_VEIL, "Aurora Veil"
-    battleeffect MOVE_EFFECT_HIT
+    battleeffect MOVE_EFFECT_AURORA_VEIL
     pss SPLIT_STATUS
     basepower 0
     type TYPE_ICE
@@ -12794,7 +12794,7 @@ movedata MOVE_ETERNABEAM, "Eternabeam"
     movedescription MOVE_ETERNABEAM, "---"
 
 movedata MOVE_STEEL_BEAM, "Steel Beam"
-    battleeffect MOVE_EFFECT_HIT
+    battleeffect MOVE_EFFECT_STEEL_BEAM
     pss SPLIT_SPECIAL
     basepower 140
     type TYPE_STEEL
@@ -12842,7 +12842,7 @@ movedata MOVE_STEEL_ROLLER, "Steel Roller"
     movedescription MOVE_STEEL_ROLLER, "---"
 
 movedata MOVE_SCALE_SHOT, "Scale Shot"
-    battleeffect MOVE_EFFECT_HIT
+    battleeffect MOVE_EFFECT_SCALE_SHOT
     pss SPLIT_PHYSICAL
     basepower 25
     type TYPE_DRAGON
@@ -12858,7 +12858,7 @@ movedata MOVE_SCALE_SHOT, "Scale Shot"
     movedescription MOVE_SCALE_SHOT, "---"
 
 movedata MOVE_METEOR_BEAM, "Meteor Beam"
-    battleeffect MOVE_EFFECT_HIT
+    battleeffect MOVE_EFFECT_METEOR_BEAM
     pss SPLIT_SPECIAL
     basepower 120
     type TYPE_ROCK
@@ -12970,7 +12970,7 @@ movedata MOVE_SKITTER_SMACK, "Skitter Smack"
     movedescription MOVE_SKITTER_SMACK, "---"
 
 movedatalongname MOVE_BURNING_JEALOUSY, "BurningJealousy", "Burning Jealousy"
-    battleeffect MOVE_EFFECT_BURN_HIT
+    battleeffect MOVE_EFFECT_BURNING_JEALOUSY
     pss SPLIT_SPECIAL
     basepower 70
     type TYPE_FIRE
@@ -13002,7 +13002,7 @@ movedata MOVE_LASH_OUT, "Lash Out"
     movedescription MOVE_LASH_OUT, "---"
 
 movedata MOVE_POLTERGEIST, "Poltergeist"
-    battleeffect MOVE_EFFECT_HIT
+    battleeffect MOVE_EFFECT_POLTERGEIST
     pss SPLIT_PHYSICAL
     basepower 110
     type TYPE_GHOST
@@ -13290,7 +13290,7 @@ movedata MOVE_EERIE_SPELL, "Eerie Spell"
     movedescription MOVE_EERIE_SPELL, "---"
 
 movedata MOVE_DIRE_CLAW, "Dire Claw"
-    battleeffect MOVE_EFFECT_HIT
+    battleeffect MOVE_EFFECT_DIRE_CLAW
     pss SPLIT_PHYSICAL
     basepower 80
     type TYPE_POISON
@@ -13338,7 +13338,7 @@ movedata MOVE_POWER_SHIFT, "Power Shift"
     movedescription MOVE_POWER_SHIFT, "---"
 
 movedata MOVE_STONE_AXE, "Stone Axe"
-    battleeffect MOVE_EFFECT_HIT
+    battleeffect MOVE_EFFECT_STONE_AXE
     pss SPLIT_PHYSICAL
     basepower 65
     type TYPE_ROCK
@@ -13450,7 +13450,7 @@ movedata MOVE_MOUNTAIN_GALE, "Mountain Gale"
     movedescription MOVE_MOUNTAIN_GALE, "---"
 
 movedata MOVE_VICTORY_DANCE, "Victory Dance"
-    battleeffect MOVE_EFFECT_HIT
+    battleeffect MOVE_EFFECT_VICTORY_DANCE
     pss SPLIT_STATUS
     basepower 0
     type TYPE_FIGHTING
@@ -13498,7 +13498,7 @@ movedata MOVE_BARB_BARRAGE, "Barb Barrage"
     movedescription MOVE_BARB_BARRAGE, "---"
 
 movedata MOVE_ESPER_WING, "Esper Wing"
-    battleeffect MOVE_EFFECT_RAISE_SPEED_HIT
+    battleeffect MOVE_EFFECT_ESPER_WING
     pss SPLIT_SPECIAL
     basepower 80
     type TYPE_PSYCHIC
@@ -13546,7 +13546,7 @@ movedata MOVE_SHELTER, "Shelter"
     movedescription MOVE_SHELTER, "---"
 
 movedata MOVE_TRIPLE_ARROWS, "Triple Arrows"
-    battleeffect MOVE_EFFECT_HIT
+    battleeffect MOVE_EFFECT_TRIPLE_ARROWS
     pss SPLIT_PHYSICAL
     basepower 90
     type TYPE_FIGHTING
@@ -13578,7 +13578,7 @@ movedata MOVE_INFERNAL_PARADE, "Infernal Parade"
     movedescription MOVE_INFERNAL_PARADE, "---"
 
 movedata MOVE_CEASELESS_EDGE, "Ceaseless Edge"
-    battleeffect MOVE_EFFECT_HIT
+    battleeffect MOVE_EFFECT_CEASELESS_EDGE
     pss SPLIT_PHYSICAL
     basepower 65
     type TYPE_DARK
@@ -14154,7 +14154,7 @@ movedata MOVE_SHED_TAIL, "Shed Tail"
     movedescription MOVE_SHED_TAIL, "The user creates\na decoy using its own\nHP, then swaps places\nwith a party Pokémon\nin waiting."
 
 movedatalongname MOVE_CHILLY_RECEPTION, "ChillyReception", "Chilly Reception"
-    battleeffect MOVE_EFFECT_HIT
+    battleeffect MOVE_EFFECT_CHILLY_RECEPTION
     pss SPLIT_STATUS
     basepower 0
     type TYPE_ICE
@@ -14170,7 +14170,7 @@ movedatalongname MOVE_CHILLY_RECEPTION, "ChillyReception", "Chilly Reception"
     movedescription MOVE_CHILLY_RECEPTION, "---"
 
 movedata MOVE_TIDY_UP, "Tidy Up"
-    battleeffect MOVE_EFFECT_HIT
+    battleeffect MOVE_EFFECT_TIDY_UP
     pss SPLIT_STATUS
     basepower 0
     type TYPE_NORMAL
@@ -14682,7 +14682,7 @@ movedata MOVE_DRAGON_CHEER, "Dragon Cheer"
     movedescription MOVE_DRAGON_CHEER, "---"
 
 movedata MOVE_ALLURING_VOICE, "Alluring Voice"
-    battleeffect MOVE_EFFECT_HIT
+    battleeffect MOVE_EFFECT_ALLURING_VOICE
     pss SPLIT_SPECIAL
     basepower 80
     type (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_NORMAL

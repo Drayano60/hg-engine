@@ -334,6 +334,16 @@ BOOL CalcAccuracy(void *bw, struct BattleStruct *sp, int attacker, int defender,
         return FALSE;
     }
 
+    /**** AURORA CRYSTAL: Implement a best-approximation Assault Vest that makes all status moves fail. ****/
+    // It should not allow the move to be selected, but that function isn't exposed yet...
+    if (hold_effect == HOLD_EFFECT_ASSAULT_VEST && GetMoveSplit(sp, move_no) == SPLIT_STATUS) {
+        sp->waza_status_flag |= MOVE_STATUS_FLAG_FAILED;
+        sp->battlemon[attacker].parental_bond_flag = 0;
+        sp->battlemon[attacker].parental_bond_is_active = FALSE;
+
+        return FALSE;
+    }
+
     // should take precedent over a move using an alternate accuracy calc, as this will still be called for those.
     if (GetBattlerAbility(sp, defender) == ABILITY_TELEPATHY // defender has telepathy ability
      && (attacker & 1) == (defender & 1) // attacker and defender are on the same side
@@ -467,6 +477,11 @@ BOOL CalcAccuracy(void *bw, struct BattleStruct *sp, int attacker, int defender,
     {
         if ((sp->field_condition & WEATHER_SUNNY_ANY) && (sp->moveTbl[move_no].effect == 152)) // thunder sucks in the sun
         {
+            accuracy = 50;
+        }
+
+        /**** AURORA CRYSTAL: Implement Hurricane's lowered accuracy effect in sun. ****/
+        if ((sp->field_condition & WEATHER_SUNNY_ANY) && (move_no == MOVE_HURRICANE)) {
             accuracy = 50;
         }
     }
@@ -1487,6 +1502,55 @@ int LONG_CALL ServerDoTypeCalcMod(void *bw UNUSED, struct BattleStruct *sp, int 
     if (move_no == MOVE_STRUGGLE)
         return damage;
 
+    u8 attacker_type_1 = BattlePokemonParamGet(sp, attack_client, BATTLE_MON_DATA_TYPE1, NULL);
+    u8 attacker_type_2 = BattlePokemonParamGet(sp, attack_client, BATTLE_MON_DATA_TYPE2, NULL);
+    u8 defender_type_1 = BattlePokemonParamGet(sp, defence_client, BATTLE_MON_DATA_TYPE1, NULL);
+    u8 defender_type_2 = BattlePokemonParamGet(sp, defence_client, BATTLE_MON_DATA_TYPE2, NULL);
+
+    /**** AURORA CRYSTAL: The server_type_check.s file means every move, when a type check is invoked, will consult this function. ****/
+    /**** This way, the AI can be informed about Electric-types being immune to paralysis etc and avoid using it. ****/
+    /**** This unfortunately does not work for most effects as the AI scripts only invoke the type check for the paralysis effect... */
+
+    // This is the previous check to see if a move should call this function.
+    const isValidMoveForCalc =
+    (
+        (sp->moveTbl[move_no].target != 0x0010) &&
+        (sp->moveTbl[move_no].target != 0x0020) &&
+        (sp->moveTbl[move_no].power) &&
+        (
+            ((sp->server_status_flag & SERVER_STATUS_FLAG_TYPE_NONE) == 0) &&
+            ((sp->server_status_flag & SERVER_STATUS_FLAG_x20) == 0)
+        )
+    );
+
+    // This tells the AI that Electric-type Pokémon are immune to moves that paralyze.
+    if (sp->moveTbl[move_no].effect == MOVE_EFFECT_STATUS_PARALYZE) {
+        if ((defender_type_1 == TYPE_ELECTRIC) || (defender_type_2 == TYPE_ELECTRIC))
+        {
+            flag[0] |= MOVE_STATUS_FLAG_NOT_EFFECTIVE;
+        }
+    }
+
+    // This tells the AI that Grass-type Pokémon or Pokémon with Overcoat are immune to powder moves.
+    // Unfortunately the only powder move the AI actually consults this function for is Stun Spore...
+    if (IsMovePowderBased(move_no)) {
+        if
+        (
+            (defender_type_1 == TYPE_GRASS) ||
+            (defender_type_2 == TYPE_GRASS) ||
+            (MoldBreakerAbilityCheck(sp, attack_client, defence_client, ABILITY_OVERCOAT) == TRUE)
+        )
+        {
+            flag[0] |= MOVE_STATUS_FLAG_NOT_EFFECTIVE;
+        }
+    }
+
+    // Return here if the move would ordinarily have not have called this function.
+    // Allow Thunder Wave through since it does normally go through this function.
+    if (!isValidMoveForCalc && (move_no != MOVE_THUNDER_WAVE)) {
+        return damage;
+    }
+
     eqp_a = HeldItemHoldEffectGet(sp, attack_client);
     atk_a = HeldItemAtkGet(sp, attack_client, ATK_CHECK_NORMAL);
     eqp_d = HeldItemHoldEffectGet(sp, defence_client);
@@ -1494,11 +1558,6 @@ int LONG_CALL ServerDoTypeCalcMod(void *bw UNUSED, struct BattleStruct *sp, int 
 
     move_type = GetAdjustedMoveType(sp, attack_client, move_no); // new normalize checks
     base_power = sp->moveTbl[move_no].power;
-
-    u8 attacker_type_1 = BattlePokemonParamGet(sp, attack_client, BATTLE_MON_DATA_TYPE1, NULL);
-    u8 attacker_type_2 = BattlePokemonParamGet(sp, attack_client, BATTLE_MON_DATA_TYPE2, NULL);
-    u8 defender_type_1 = BattlePokemonParamGet(sp, defence_client, BATTLE_MON_DATA_TYPE1, NULL);
-    u8 defender_type_2 = BattlePokemonParamGet(sp, defence_client, BATTLE_MON_DATA_TYPE2, NULL);
 
     if (((sp->server_status_flag & SERVER_STATUS_FLAG_TYPE_FLAT) == 0) && ((attacker_type_1 == move_type) || (attacker_type_2 == move_type)))
     {
@@ -1572,8 +1631,16 @@ int LONG_CALL ServerDoTypeCalcMod(void *bw UNUSED, struct BattleStruct *sp, int 
                         && (TypeEffectivenessTable[i][2] == 20)
                         && defender_type_1 == TYPE_FLYING))
                     {
-                        damage = TypeCheckCalc(sp, attack_client, TypeEffectivenessTable[i][2], damage, base_power, flag);
-                        if (TypeEffectivenessTable[i][2] == 20) // seems to be useless, modifier isn't used elsewhere
+                        /**** AURORA CRYSTAL: Added an implementation for Freeze-Dry. ****/
+                        u8 multiplier = TypeEffectivenessTable[i][2];
+
+                        if (move_no == MOVE_FREEZE_DRY && defender_type_1 == TYPE_WATER) {
+                            multiplier = 20;
+                        }
+
+                        damage = TypeCheckCalc(sp, attack_client, multiplier, damage, base_power, flag);
+
+                        if (multiplier) // seems to be useless, modifier isn't used elsewhere
                         {
                             modifier *= 2;
                         }
@@ -1588,8 +1655,16 @@ int LONG_CALL ServerDoTypeCalcMod(void *bw UNUSED, struct BattleStruct *sp, int 
                         && (TypeEffectivenessTable[i][2] == 20)
                         && defender_type_2 == TYPE_FLYING))
                     {
-                        damage = TypeCheckCalc(sp, attack_client, TypeEffectivenessTable[i][2], damage, base_power, flag);
-                        if (TypeEffectivenessTable[i][2] == 20) // seems to be useless, modifier isn't used elsewhere
+                        /**** AURORA CRYSTAL: Added an implementation for Freeze-Dry. ****/
+                        u8 multiplier = TypeEffectivenessTable[i][2];
+
+                        if (move_no == MOVE_FREEZE_DRY && defender_type_2 == TYPE_WATER) {
+                            multiplier = 20;
+                        }
+
+                        damage = TypeCheckCalc(sp, attack_client, multiplier, damage, base_power, flag);
+                        
+                        if (multiplier) // seems to be useless, modifier isn't used elsewhere
                         {
                             modifier *= 2;
                         }
@@ -2279,6 +2354,12 @@ BOOL LONG_CALL BattleSystem_CheckMoveEffect(void *bw, struct BattleStruct *sp, i
         if (sp->field_condition & WEATHER_RAIN_ANY && sp->moveTbl[move].effect == MOVE_EFFECT_THUNDER) {
             sp->waza_status_flag &= ~MOVE_STATUS_FLAG_MISS;
         }
+
+        /**** AURORA CRYSTAL: Implement Hurricane's cannot miss effect in rain. ****/
+        if (sp->field_condition & WEATHER_RAIN_ANY && move == MOVE_HURRICANE) {
+            sp->waza_status_flag &= ~MOVE_STATUS_FLAG_MISS;
+        }
+
         // Blizzard is 100% accurate in Snow also
         if (sp->field_condition & (WEATHER_HAIL_ANY | WEATHER_SNOW_ANY) && sp->moveTbl[move].effect == MOVE_EFFECT_BLIZZARD) {
             sp->waza_status_flag &= ~MOVE_STATUS_FLAG_MISS;

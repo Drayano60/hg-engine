@@ -46,7 +46,7 @@ BOOL MoveHitDefenderAbilityCheckInternal(void *bw, struct BattleStruct *sp, int 
                 && ((sp->server_status_flag2 & SERVER_STATUS_FLAG2_U_TURN) == 0)
                 && ((sp->oneSelfFlag[sp->defence_client].physical_damage) ||
                     (sp->oneSelfFlag[sp->defence_client].special_damage))
-                && (sp->moveTbl[sp->current_move_index].flag & FLAG_CONTACT)
+                && (IsMoveContact(sp->current_move_index))
                 && (BattleRand(bw) % 10 < 3)) {
                 sp->addeffect_type = ADD_STATUS_ABILITY;
                 sp->state_client = sp->attack_client;
@@ -91,7 +91,7 @@ BOOL MoveHitDefenderAbilityCheckInternal(void *bw, struct BattleStruct *sp, int 
                 && ((sp->server_status_flag2 & SERVER_STATUS_FLAG2_U_TURN) == 0)
                 && ((sp->oneSelfFlag[sp->defence_client].physical_damage) ||
                     (sp->oneSelfFlag[sp->defence_client].special_damage))
-                && (sp->moveTbl[sp->current_move_index].flag & FLAG_CONTACT)) {
+                && (IsMoveContact(sp->current_move_index))) {
                 sp->hp_calc_work = BattleDamageDivide(sp->battlemon[sp->attack_client].maxhp * -1, 8);
                 sp->client_work = sp->attack_client;
                 seq_no[0] = SUB_SEQ_ROUGH_SKIN;
@@ -106,7 +106,13 @@ BOOL MoveHitDefenderAbilityCheckInternal(void *bw, struct BattleStruct *sp, int 
                 && ((sp->server_status_flag2 & SERVER_STATUS_FLAG2_U_TURN) == 0)
                 && ((sp->oneSelfFlag[sp->defence_client].physical_damage) ||
                     (sp->oneSelfFlag[sp->defence_client].special_damage))
-                && (sp->moveTbl[sp->current_move_index].flag & FLAG_CONTACT)
+                && (IsMoveContact(sp->current_move_index))
+
+                /**** AURORA CRYSTAL: Modernize so it can't effect Grass-types or Pokémon with Overcoat. ****/
+                && (BattlePokemonParamGet(sp, sp->attack_client, BATTLE_MON_DATA_TYPE1, NULL) != TYPE_GRASS)
+                && (BattlePokemonParamGet(sp, sp->attack_client, BATTLE_MON_DATA_TYPE2, NULL) != TYPE_GRASS)
+                && (GetBattlerAbility(sp, sp->attack_client) != ABILITY_OVERCOAT)
+
                 && (BattleRand(bw) % 10 < 3)) {
                 switch (BattleRand(bw) % 3) {
                     case 0:
@@ -134,7 +140,7 @@ BOOL MoveHitDefenderAbilityCheckInternal(void *bw, struct BattleStruct *sp, int 
                 && ((sp->server_status_flag2 & SERVER_STATUS_FLAG2_U_TURN) == 0)
                 && ((sp->oneSelfFlag[sp->defence_client].physical_damage) ||
                     (sp->oneSelfFlag[sp->defence_client].special_damage))
-                && (sp->moveTbl[sp->current_move_index].flag & FLAG_CONTACT)
+                && (IsMoveContact(sp->current_move_index))
                 && (BattleRand(bw) % 10 < 3)) {
                 sp->addeffect_type = ADD_STATUS_ABILITY;
                 sp->state_client = sp->attack_client;
@@ -151,7 +157,7 @@ BOOL MoveHitDefenderAbilityCheckInternal(void *bw, struct BattleStruct *sp, int 
                 && ((sp->server_status_flag2 & SERVER_STATUS_FLAG2_U_TURN) == 0)
                 && ((sp->oneSelfFlag[sp->defence_client].physical_damage) ||
                     (sp->oneSelfFlag[sp->defence_client].special_damage))
-                && (sp->moveTbl[sp->current_move_index].flag & FLAG_CONTACT)
+                && (IsMoveContact(sp->current_move_index))
                 && (BattleRand(bw) % 10 < 3)) {
                 sp->addeffect_type = ADD_STATUS_ABILITY;
                 sp->state_client = sp->attack_client;
@@ -168,7 +174,7 @@ BOOL MoveHitDefenderAbilityCheckInternal(void *bw, struct BattleStruct *sp, int 
                 && ((sp->server_status_flag2 & SERVER_STATUS_FLAG2_U_TURN) == 0)
                 && ((sp->oneSelfFlag[sp->defence_client].physical_damage) ||
                     (sp->oneSelfFlag[sp->defence_client].special_damage))
-                && (sp->moveTbl[sp->current_move_index].flag & FLAG_CONTACT)
+                && (IsMoveContact(sp->current_move_index))
                 && (sp->battlemon[sp->defence_client].hp)
                 && (BattleRand(bw) % 10 < 3)) {
                 sp->addeffect_type = ADD_STATUS_ABILITY;
@@ -185,7 +191,7 @@ BOOL MoveHitDefenderAbilityCheckInternal(void *bw, struct BattleStruct *sp, int 
                 && ((sp->server_status_flag2 & SERVER_STATUS_FLAG2_U_TURN) == 0)
                 && (sp->battlemon[sp->attack_client].hp)
                 && ((sp->waza_status_flag & WAZA_STATUS_FLAG_NO_OUT) == 0)
-                && (sp->moveTbl[sp->current_move_index].flag & FLAG_CONTACT)) {
+                && (IsMoveContact(sp->current_move_index))) {
                 sp->hp_calc_work = BattleDamageDivide(sp->battlemon[sp->attack_client].maxhp * -1, 4);
                 sp->client_work = sp->attack_client;
                 seq_no[0] = SUB_SEQ_HANDLE_AFTERMATH;
@@ -284,7 +290,7 @@ BOOL MoveHitDefenderAbilityCheckInternal(void *bw, struct BattleStruct *sp, int 
                 && ((sp->waza_status_flag & WAZA_STATUS_FLAG_NO_OUT) == 0)
                 && ((sp->server_status_flag & SERVER_STATUS_FLAG_x20) == 0)
                 && ((sp->server_status_flag2 & SERVER_STATUS_FLAG2_U_TURN) == 0)
-                && (sp->moveTbl[sp->current_move_index].flag & FLAG_CONTACT)
+                && (IsMoveContact(sp->current_move_index))
                 && ((sp->oneSelfFlag[sp->defence_client].physical_damage) ||
                     (sp->oneSelfFlag[sp->defence_client].special_damage)))
             {
@@ -300,7 +306,7 @@ BOOL MoveHitDefenderAbilityCheckInternal(void *bw, struct BattleStruct *sp, int 
             if (((sp->waza_status_flag & WAZA_STATUS_FLAG_NO_OUT) == 0)
                 && ((sp->server_status_flag & SERVER_STATUS_FLAG_x20) == 0)
                 && ((sp->server_status_flag2 & SERVER_STATUS_FLAG2_U_TURN) == 0)
-                && (sp->moveTbl[sp->current_move_index].flag & FLAG_CONTACT)
+                && (IsMoveContact(sp->current_move_index))
                 && (MummyAbilityCheck(sp) == TRUE)
                 && ((sp->oneSelfFlag[sp->defence_client].physical_damage) ||
                     (sp->oneSelfFlag[sp->defence_client].special_damage)))
@@ -441,6 +447,11 @@ BOOL MoveHitDefenderAbilityCheckInternal(void *bw, struct BattleStruct *sp, int 
              && sp->battlemon[sp->attack_client].pp[move_pos] != 0 // pp is nonzero
              && sp->current_move_index != 0 // a move has already been used
              && sp->moveTbl[sp->current_move_index].power != 0
+
+             /**** AURORA CRYSTAL: Add Aroma Veil checks. ****/
+             && (GetBattlerAbility(sp, sp->attack_client) != ABILITY_AROMA_VEIL)
+             && (GetBattlerAbility(sp, BATTLER_ALLY(sp->attack_client)) != ABILITY_AROMA_VEIL)
+             
              && BattleRand(bw) % 10 < 3)
             {
                 sp->waza_work = sp->current_move_index;
@@ -482,6 +493,164 @@ BOOL MoveHitDefenderAbilityCheckInternal(void *bw, struct BattleStruct *sp, int 
                 ret = TRUE;
             }
             break;
+
+        /**** AURORA CRYSTAL: Handle some abilities that aren't in the main branch yet. ****/
+        case ABILITY_COTTON_DOWN:
+            if
+            (
+                ((sp->waza_status_flag & WAZA_STATUS_FLAG_NO_OUT) == 0)
+                && ((sp->server_status_flag & SERVER_STATUS_FLAG_x20) == 0)
+                && ((sp->server_status_flag2 & SERVER_STATUS_FLAG2_U_TURN) == 0)
+                && ((sp->oneSelfFlag[sp->defence_client].physical_damage) ||
+                    (sp->oneSelfFlag[sp->defence_client].special_damage))
+            )
+            {
+                sp->client_work = sp->defence_client;
+                seq_no[0] = SUB_SEQ_HANDLE_COTTON_DOWN;
+                ret = TRUE;
+            }
+            break;
+
+        case ABILITY_PERISH_BODY:
+            if
+            (
+                (sp->battlemon[sp->attack_client].hp)
+                // Don't activate if the attacker is already afflicted by Perish Song
+                && (((sp->battlemon[sp->attack_client].effect_of_moves & MOVE_EFFECT_FLAG_PERISH_SONG_ACTIVE) == 0))
+                && ((sp->waza_status_flag & WAZA_STATUS_FLAG_NO_OUT) == 0)
+                && ((sp->server_status_flag & SERVER_STATUS_FLAG_x20) == 0)
+                && ((sp->server_status_flag2 & SERVER_STATUS_FLAG2_U_TURN) == 0)
+                && ((sp->oneSelfFlag[sp->defence_client].physical_damage) ||
+                    (sp->oneSelfFlag[sp->defence_client].special_damage))
+                && (IsMoveContact(sp))
+            )
+            {
+                sp->battlemon[sp->attack_client].effect_of_moves |= MOVE_EFFECT_FLAG_PERISH_SONG_ACTIVE;
+                sp->battlemon[sp->attack_client].moveeffect.perishSongTurns = 3;
+
+                // This currently says 'both will faint in 3 turns' even if the defending client is skipped. Is that accurate?
+                if ((sp->battlemon[sp->defence_client].effect_of_moves & MOVE_EFFECT_FLAG_PERISH_SONG_ACTIVE) == 0) {
+                    sp->battlemon[sp->defence_client].effect_of_moves |= MOVE_EFFECT_FLAG_PERISH_SONG_ACTIVE;
+                    sp->battlemon[sp->defence_client].moveeffect.perishSongTurns = 3;
+                }
+
+                seq_no[0] = SUB_SEQ_PERISH_BODY;
+                ret = TRUE;
+            }
+            break;
+
+        case ABILITY_WANDERING_SPIRIT:
+            if ((sp->battlemon[sp->attack_client].hp) && ((sp->waza_status_flag & WAZA_STATUS_FLAG_NO_OUT) == 0)
+                && ((sp->server_status_flag & SERVER_STATUS_FLAG_x20) == 0)
+                && ((sp->server_status_flag2 & SERVER_STATUS_FLAG2_U_TURN) == 0)
+                && (IsMoveContact(sp))
+                && (WanderingSpiritAbilityCheck(sp) == TRUE)
+                && ((sp->oneSelfFlag[sp->defence_client].physical_damage) ||
+                    (sp->oneSelfFlag[sp->defence_client].special_damage)))
+            {
+                u8 attack_client_ability = sp->battlemon[sp->attack_client].ability;
+
+                sp->battlemon[sp->defence_client].ability = attack_client_ability;
+                sp->battlemon[sp->attack_client].ability = ABILITY_WANDERING_SPIRIT;
+
+                seq_no[0] = SUB_SEQ_WANDERING_SPIRIT;
+                ret = TRUE;
+            }
+            break;
+
+        /**** AURORA CRYSTAL: Handle new abilities. ****/
+
+        // Magma Skin is a clone of Flame Body that is guaranteed to cause the burn.
+        case ABILITY_MAGMA_SKIN:
+            if ((sp->battlemon[sp->attack_client].hp)
+                && (sp->battlemon[sp->attack_client].condition == 0)
+                && ((sp->waza_status_flag & WAZA_STATUS_FLAG_NO_OUT) == 0)
+                && ((sp->server_status_flag & SERVER_STATUS_FLAG_x20) == 0)
+                && ((sp->server_status_flag2 & SERVER_STATUS_FLAG2_U_TURN) == 0)
+                && ((sp->oneSelfFlag[sp->defence_client].physical_damage) ||
+                    (sp->oneSelfFlag[sp->defence_client].special_damage))
+                && (IsMoveContact(sp->current_move_index))) {
+                sp->addeffect_type = ADD_STATUS_ABILITY;
+                sp->state_client = sp->attack_client;
+                sp->client_work = sp->defence_client;
+                seq_no[0] = SUB_SEQ_APPLY_BURN;
+                ret = TRUE;
+            }
+            break;
+        
+        // Poison Sweat is a clone of Poison Point that's more thematically appropriate for Umbreon.
+        case ABILITY_POISON_SWEAT:
+            if ((sp->battlemon[sp->attack_client].hp)
+                && (sp->battlemon[sp->attack_client].condition == 0)
+                && ((sp->waza_status_flag & WAZA_STATUS_FLAG_NO_OUT) == 0)
+                && ((sp->server_status_flag & SERVER_STATUS_FLAG_x20) == 0)
+                && ((sp->server_status_flag2 & SERVER_STATUS_FLAG2_U_TURN) == 0)
+                && ((sp->oneSelfFlag[sp->defence_client].physical_damage) ||
+                    (sp->oneSelfFlag[sp->defence_client].special_damage))
+                && (IsMoveContact(sp->current_move_index))
+                && (BattleRand(bw) % 10 < 3)) {
+                sp->addeffect_type = ADD_STATUS_ABILITY;
+                sp->state_client = sp->attack_client;
+                sp->client_work = sp->defence_client;
+                seq_no[0] = SUB_SEQ_APPLY_POISON;
+                ret = TRUE;
+            }
+            break;
+
+        // Toxic Scales is a Poison Point clone, except that it badly poisons instead.
+        case ABILITY_TOXIC_SCALES:
+            if ((sp->battlemon[sp->attack_client].hp)
+                && (sp->battlemon[sp->attack_client].condition == 0)
+                && ((sp->waza_status_flag & WAZA_STATUS_FLAG_NO_OUT) == 0)
+                && ((sp->server_status_flag & SERVER_STATUS_FLAG_x20) == 0)
+                && ((sp->server_status_flag2 & SERVER_STATUS_FLAG2_U_TURN) == 0)
+                && ((sp->oneSelfFlag[sp->defence_client].physical_damage) ||
+                    (sp->oneSelfFlag[sp->defence_client].special_damage))
+                && (IsMoveContact(sp))
+                && (BattleRand(bw) % 10 < 3)) {
+                sp->addeffect_type = ADD_STATUS_ABILITY;
+                sp->state_client = sp->attack_client;
+                sp->client_work = sp->defence_client;
+                seq_no[0] = SUB_SEQ_BADLY_POISON;
+                ret = TRUE;
+            }
+            break;
+
+        // Befuddle is similar to Poison Touch, except that it can apply multiple status effects.
+        // It activates when using a Bug move. This is a reference to Butterfree's G-Max Befuddle.
+        case ABILITY_BEFUDDLE:
+            if ((sp->battlemon[sp->defence_client].hp)
+                && (sp->battlemon[sp->defence_client].condition == 0)
+                && ((sp->waza_status_flag & WAZA_STATUS_FLAG_NO_OUT) == 0)
+                && ((sp->server_status_flag & SERVER_STATUS_FLAG_x20) == 0)
+                && ((sp->server_status_flag2 & SERVER_STATUS_FLAG2_U_TURN) == 0)
+                && ((sp->oneSelfFlag[sp->defence_client].physical_damage) ||
+                    (sp->oneSelfFlag[sp->defence_client].special_damage))
+                && (sp->moveTbl[sp->current_move_index].type == TYPE_BUG)
+                && (CheckSubstitute(sp, sp->defence_client) == FALSE)
+                && (BattleRand(bw) % 10 < 3))
+            {
+
+                switch (BattleRand(bw) % 3) {
+                    case 0:
+                    default:
+                        seq_no[0] = SUB_SEQ_APPLY_POISON;
+                        break;
+                    case 1:
+                        seq_no[0] = SUB_SEQ_APPLY_PARALYSIS;
+                        break;
+                    case 2:
+                        seq_no[0] = SUB_SEQ_APPLY_SLEEP;
+                        break;
+                }
+
+                sp->addeffect_type = ADD_STATUS_ABILITY;
+                sp->state_client = sp->defence_client;
+                sp->client_work = sp->attack_client;
+                ret = TRUE;
+            }
+            break;
+    
         default:
             break;
     }

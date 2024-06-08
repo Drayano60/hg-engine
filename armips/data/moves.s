@@ -15576,7 +15576,7 @@ movedescription MOVE_ZEN_HEADBUTT, "The user focuses its\nwillpower to its head\
 movedescription MOVE_MIRROR_SHOT, "The user looses a\nflash of energy from\nits polished body.\nThis has a 30% chance\nto lower accuracy."
 movedescription MOVE_FLASH_CANNON, "The user gathers all\nits light energy and\nreleases it at once.\nThis has a 10% chance\nto lower Sp. Def."
 movedescription MOVE_ROCK_CLIMB, "A charging attack\nable to scale rocky\nwalls.\nIt has a 20% chance\nto confuse the foe."
-movedescription MOVE_DEFOG, "It reduces the foe’s\nevasion stat. It also\nremoves the foe’s\nbarriers and any\ntraps on the field."
+movedescription MOVE_DEFOG, "It reduces the foe’s\nevasion stat. It also\nremoves the foe’s\nbarriers and any\ntraps or terrain."
 movedescription MOVE_TRICK_ROOM, "The user creates a\nbizarre area in which\nslower Pokémon get\nto move first for five\nturns."
 movedescription MOVE_DRACO_METEOR, "Comets are summoned\ndown from the sky.\nThe attack’s recoil\nsharply reduces the\nuser’s Sp. Atk stat."
 movedescription MOVE_DISCHARGE, "A flare of electricity\nis loosed to strike\nall Pokémon in battle.\nThis has a 30% chance\nto paralyze targets."

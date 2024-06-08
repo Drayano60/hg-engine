@@ -6,6 +6,7 @@
 .include "armips/include/itemnums.s"
 .include "armips/include/monnums.s"
 .include "armips/include/movenums.s"
+.include "armips/include/battle_script_constants.s"
 
 // Defog
 
@@ -14,7 +15,6 @@
 /**** AURORA CRYSTAL: Modernized effect. ****/
 /* checksidecondition (0x0 or 0x2?) seems to clear the checked effect also. */
 /* The text currently does print twice if it clears the same effect from both sides. */
-/* This does not clear Terrains yet. */
 /* The new stuff isn't separated as clearly here as it's pretty much all changed. */
 
 a001_171:
@@ -89,11 +89,13 @@ _StealthRockOpponentSide:
     changevar VAR_OP_SET, VAR_MOVE_TEMP2, 0x1BE
     gotosubscript 172
 _FogWeather:
-    if IF_NOTMASK, VAR_FIELD_EFFECT, FIELD_STATUS_FOG, _End
+    if IF_NOTMASK, VAR_FIELD_EFFECT, FIELD_STATUS_FOG, _ClearTerrain
     changevar VAR_OP_CLEARMASK, VAR_FIELD_EFFECT, FIELD_STATUS_FOG
     printmessage 0x415, 0xA, 0x1, 0x1, "NaN", "NaN", "NaN", "NaN"
     waitmessage
     wait 0x1E
+_ClearTerrain:
+    gotosubscript SUB_SEQ_HANDLE_TERRAIN_END /* Clear any active terrain */
 _End:
     endscript
 

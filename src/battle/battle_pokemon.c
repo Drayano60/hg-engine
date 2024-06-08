@@ -1052,9 +1052,9 @@ u16 WindMoveList[] = {
     MOVE_ICY_WIND,
     MOVE_PETAL_BLIZZARD,
     MOVE_SANDSEAR_STORM,
-    MOVE_SANDSTORM,
+    // MOVE_SANDSTORM, -- Has no actual interaction with Wind Rider
     MOVE_SPRINGTIDE_STORM,
-    MOVE_TAILWIND,
+    // MOVE_TAILWIND, -- Different interactions with Wind Rider
     MOVE_TWISTER,
     MOVE_WHIRLWIND,
     MOVE_WILDBOLT_STORM,

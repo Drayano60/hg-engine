@@ -23,6 +23,7 @@ a001_160:
     //changevar VAR_OP_SETMASK, VAR_SIDE_EFFECT_PLAYER, 0x300
     settailwind BATTLER_ATTACKER
 
+    changevar VAR_OP_SET, VAR_CLIENT_NO_AGI, 0x0 // Set to 0 ahead of Wind Rider loop.
     goto _WindRider
 
     endscript
@@ -32,6 +33,9 @@ _failure:
 
 _WindRider:
     orderbattlersbyspeed 0x11
+    checkonsameteam BATTLER_ATTACKER, BATTLER_ADDL_EFFECT, _CheckWindRiderAbility /* Tailwind only activates Wind Rider on the user's side */
+    goto _Continue
+_CheckWindRiderAbility:
     ifmonstat IF_EQUAL, BATTLER_ADDL_EFFECT, MON_DATA_ABILITY, ABILITY_WIND_RIDER, _BoostAttack
     goto _Continue
 _BoostAttack:

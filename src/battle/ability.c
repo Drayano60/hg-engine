@@ -239,7 +239,7 @@ int MoveCheckDamageNegatingAbilities(struct BattleStruct *sp, int attacker, int 
     )
     {
         if (adjustedMoveHasPositivePriority(sp, attacker)) {
-            // This likely prints the target's ability instead rn
+            sp->defence_client = BATTLER_ALLY(sp->defence_client); // To print message with ally's ability instead.
             scriptnum = SUB_SEQ_SOUNDPROOF;
         }
     }

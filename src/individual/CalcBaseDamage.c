@@ -354,6 +354,10 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
         movepower *= 2;
     }
 
+    if (moveno == MOVE_KNOCK_OFF && CanKnockOffApply(sp)) {
+        movepower = movepower * 15 / 10;
+    }
+
     /**** AURORA CRYSTAL: End of variable damage move calculations. ****/
 
     /**** AURORA CRYSTAL: Calculate moves like Stomp against minimized targets. Was previously done in battle_eff_seq. ****/

@@ -4217,7 +4217,7 @@ movedata MOVE_MEMENTO, "Memento"
     movedescription MOVE_MEMENTO, "The user faints upon\nusing this move.\nIn return, it sharply\nlowers the target’s\nAttack and Sp. Atk."
 
 movedata MOVE_FACADE, "Facade"
-    battleeffect MOVE_EFFECT_DOUBLE_POWER_WHEN_STATUSED
+    battleeffect MOVE_EFFECT_HIT /**** EDIT: Damage boost is handled in CalcBaseDamage. */
     pss SPLIT_PHYSICAL
     basepower 70
     type TYPE_NORMAL
@@ -7641,7 +7641,7 @@ movedata MOVE_PSYSHOCK, "Psyshock"
     movedescription MOVE_PSYSHOCK, "An odd psychic wave\nattacks the target.\nThis attack does\nphysical damage."
 
 movedata MOVE_VENOSHOCK, "Venoshock"
-    battleeffect MOVE_EFFECT_DOUBLE_POISONED_HIT
+    battleeffect MOVE_EFFECT_HIT /**** EDIT: Damage boost is handled in CalcBaseDamage. */
     pss SPLIT_SPECIAL
     basepower 65
     type TYPE_POISON
@@ -8153,7 +8153,7 @@ movedata MOVE_HEAL_PULSE, "Heal Pulse"
     movedescription MOVE_HEAL_PULSE, "The user emits a\nhealing pulse that\nrestores a target’s\nHP by up to half."
 
 movedata MOVE_HEX, "Hex"
-    battleeffect MOVE_EFFECT_DOUBLE_DAMAGE_ON_STATUS
+    battleeffect MOVE_EFFECT_HIT /**** EDIT: Damage boost is handled in CalcBaseDamage. */
     pss SPLIT_SPECIAL
     basepower 65
     type TYPE_GHOST
@@ -8249,7 +8249,7 @@ movedata MOVE_QUASH, "Quash"
     movedescription MOVE_QUASH, "The user suppresses\nthe target and makes\nits move go last."
 
 movedata MOVE_ACROBATICS, "Acrobatics"
-    battleeffect MOVE_EFFECT_DOUBLE_DAMAGE_WITHOUT_ITEM
+    battleeffect MOVE_EFFECT_HIT /**** EDIT: Damage boost is handled in CalcBaseDamage. */
     pss SPLIT_PHYSICAL
     basepower 55
     type TYPE_FLYING
@@ -13482,13 +13482,13 @@ movedata MOVE_HEADLONG_RUSH, "Headlong Rush"
     movedescription MOVE_HEADLONG_RUSH, "---"
 
 movedata MOVE_BARB_BARRAGE, "Barb Barrage"
-    battleeffect MOVE_EFFECT_HIT
+    battleeffect MOVE_EFFECT_POISON_HIT /**** EDIT: Damage boost is handled in CalcBaseDamage. */
     pss SPLIT_PHYSICAL
     basepower 60
     type TYPE_POISON
     accuracy 100
     pp 10
-    effectchance 0
+    effectchance 50
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
@@ -13562,13 +13562,13 @@ movedata MOVE_TRIPLE_ARROWS, "Triple Arrows"
     movedescription MOVE_TRIPLE_ARROWS, "---"
 
 movedata MOVE_INFERNAL_PARADE, "Infernal Parade"
-    battleeffect MOVE_EFFECT_HIT
+    battleeffect MOVE_EFFECT_BURN_HIT /**** EDIT: Damage boost is handled in CalcBaseDamage. */
     pss SPLIT_SPECIAL
     basepower 60
     type TYPE_GHOST
     accuracy 100
     pp 15
-    effectchance 0
+    effectchance 30
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
@@ -14691,7 +14691,7 @@ movedata MOVE_ALLURING_VOICE, "Alluring Voice"
     effectchance 0
     target MOVE_TARGET_SELECTED
     priority 0
-    flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
+    flags FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata

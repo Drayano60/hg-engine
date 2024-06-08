@@ -23,8 +23,8 @@ a001_141:
 
 _checkFlowerVeil:
     
-    moldbreakerabilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_SWEET_VEIL, _printAttackIntoNoEffectFlowerVeil
-    moldbreakerabilitycheck 0x0, BATTLER_ALLY | BATTLER_ADDL_EFFECT, ABILITY_SWEET_VEIL, _printAttackIntoNoEffectFlowerVeil
+    moldbreakerabilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_SWEET_VEIL, _SweetVeilMsg
+    moldbreakerabilitycheck 0x0, BATTLER_ALLY | BATTLER_ADDL_EFFECT, ABILITY_SWEET_VEIL, _SweetVeilMsg
 
     moldbreakerabilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_FLOWER_VEIL, _checkGrassTypeForFlowerVeil
     moldbreakerabilitycheck 0x0, BATTLER_ALLY | BATTLER_ADDL_EFFECT, ABILITY_FLOWER_VEIL, _checkGrassTypeForFlowerVeil
@@ -87,5 +87,12 @@ _printAttackIntoNoEffectFlowerVeil:
 ElectricOrMistyTerrainFail:
     changevar VAR_OP_SETMASK, VAR_MOVE_STATUS, 0x40
     endscript
+
+_SweetVeilMsg:
+    printattackmessage
+    waitmessage
+    wait 0x1E
+    printmessage 2000, 0xB, 0x7, 0x7, "NaN", "NaN", "NaN", "NaN" 
+    goto _0168
 
 .close

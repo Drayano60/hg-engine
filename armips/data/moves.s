@@ -15641,7 +15641,7 @@ movedescription MOVE_SIMPLE_BEAM, "The user’s\nmysterious psychic\nwave change
 movedescription MOVE_ENTRAINMENT, "The user dances\nwith an odd rhythm,\nmaking the target’s\nAbility the same as\nthe user’s Ability."
 movedescription MOVE_AFTER_YOU, "The user helps the\ntarget and makes it\nuse its move right\nafter the user."
 movedescription MOVE_ROUND, "The user attacks\nwith a song. Others\ncan join in, doing\nmore damage."
-movedescription MOVE_ECHOED_VOICE, "Uses an echoing voice\nto attack. This move\ngains 40 power on\neach consecutive hit,\nup to a max of 200."
+movedescription MOVE_ECHOED_VOICE, "Uses an echoing voice\nto attack. This move\ngains 40 power for\neach turn it is used,\nup to a max of 200."
 movedescription MOVE_CHIP_AWAY, "An attack which is\nnot affected by the\ntarget’s stat\nchanges."
 movedescription MOVE_CLEAR_SMOG, "The user attacks the\ntarget by throwing a\nclump of special mud\nthat eliminates all\nstat changes."
 movedescription MOVE_STORED_POWER, "The user attacks\nwith stored power.\nThis move has 20 more\npower for each of the\nuser’s stat boosts."

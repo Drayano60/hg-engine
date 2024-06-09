@@ -30,6 +30,8 @@ enum{
     FCC_SNOW,
     FCC_FOG,
     FCC_GRAVITY,
+    /**** AURORA CRYSTAL: Added a step for the Echoed Voice counters. */
+    FCC_ECHOED_VOICE,
     FCC_TERRAIN,
     FCC_FIELD_EFFECT,
     FCC_END
@@ -449,6 +451,21 @@ void ServerFieldConditionCheck(void *bw, struct BattleStruct *sp)
                     ret = 1;
                 }
             }
+            sp->fcc_seq_no++;
+            break;
+        /**** AURORA CRYSTAL: Added a step for the Echoed Voice counters, checked at the end of a turn. ****/
+        // As a general 'field effect' that applies to all Pokémon, it should be checked here.
+        case FCC_ECHOED_VOICE:
+            if (sp->echoed_voice_was_used == 1) {
+                if (sp->echoed_voice_multiplier < 5) { // Echoed Voice has a max of 200 BP, ie 40 + (40 * 4).
+                    sp->echoed_voice_multiplier++;
+                }
+            } else {
+                sp->echoed_voice_multiplier = 0;
+            }
+
+            sp->echoed_voice_was_used = 0; // Set used flag to 0 ready for next round.
+            
             sp->fcc_seq_no++;
             break;
         case FCC_TERRAIN:

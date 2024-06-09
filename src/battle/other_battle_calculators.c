@@ -334,6 +334,13 @@ BOOL CalcAccuracy(void *bw, struct BattleStruct *sp, int attacker, int defender,
         return FALSE;
     }
 
+    /**** AURORA CRYSTAL: Marked if Echoed Voice was used during the turn here. */
+    // Probably not the most sensible place to put it, but it does seem to fulfil the requirement
+    // of marking it as used even if the move misses or is protected against.
+    if (move_no == MOVE_ECHOED_VOICE) {
+        sp->echoed_voice_was_used = 1;
+    }
+
     /**** AURORA CRYSTAL: Implement a best-approximation Assault Vest that makes all status moves fail. ****/
     // It should not allow the move to be selected, but that function isn't exposed yet...
     if (hold_effect == HOLD_EFFECT_ASSAULT_VEST && GetMoveSplit(sp, move_no) == SPLIT_STATUS) {

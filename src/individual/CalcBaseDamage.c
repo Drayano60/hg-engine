@@ -320,7 +320,7 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
         }
     }
 
-    /**** AURORA CRYSTAL: Handle various moves with variable damage here so the AI can read it. ****/
+    /**** AURORA CRYSTAL: Handle various moves with variable damage here so the AI can read it. ********************************/
     if (moveno == MOVE_STORED_POWER || moveno == MOVE_POWER_TRIP) {
         movepower = movepower + (movepower * CalcStoredPowerDamageBonus(sp));
     }
@@ -358,7 +358,10 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
         movepower = movepower * 15 / 10;
     }
 
-    /**** AURORA CRYSTAL: End of variable damage move calculations. ****/
+    if (moveno == MOVE_ECHOED_VOICE) {
+        movepower = movepower + (movepower * sp->echoed_voice_multiplier);
+    }
+    /**** AURORA CRYSTAL: End of variable damage move calculations. ************************************************************/
 
     /**** AURORA CRYSTAL: Calculate moves like Stomp against minimized targets. Was previously done in battle_eff_seq. ****/
     // The relevant moves have had their effects changed. This also makes it easier to modernize Body Slam.

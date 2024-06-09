@@ -1202,6 +1202,10 @@ struct PACKED BattleStruct
 
                BOOL checkOnlySpecifiedTarget; // for BattleFormChangeCheck
                u8 checkOnlySpecifiedTargetClient;
+
+               /**** AURORA CRYSTAL: Some parameters to track if Echoed Voice was used in a turn, and the power multiplier. */
+               u8 echoed_voice_was_used : 1;
+               u8 echoed_voice_multiplier : 7;
 };
 
 

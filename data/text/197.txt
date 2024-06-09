@@ -2103,3 +2103,15 @@ The opposing {STRVAR_1 1, 0, 0} is overflowing with\nspace power!
 {STRVAR_1 1, 0, 0} is about to be\nattacked by its {STRVAR_1 8, 1, 0}!\r
 The wild {STRVAR_1 1, 0, 0} is about to be\nattacked by its {STRVAR_1 8, 1, 0}!\r
 The foe’s {STRVAR_1 1, 0, 0} is about to be\nattacked by its {STRVAR_1 8, 1, 0}!\r
+{STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nintensified the sun’s rays!
+The wild {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nintensified the sun’s rays!
+The opposing {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nintensified the sun’s rays!
+{STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nmade it rain!
+The wild {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nmade it rain!
+The opposing {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nmade it rain!
+{STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nwhipped up a sandstorm!
+The wild {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nwhipped up a sandstorm!
+The opposing {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nwhipped up a sandstorm!
+{STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nmade it snow!
+The wild {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nmade it snow!
+The opposing {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nmade it snow!

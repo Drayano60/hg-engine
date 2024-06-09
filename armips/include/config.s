@@ -12,7 +12,7 @@ FAIRY_TYPE_IMPLEMENTED equ 1
 // SNOW_WARNING_GENERATION controls whether to summon Snow or Hail when the ability is activated.
 // 9 or above: Snow
 // Otherwise: Hail
-SNOW_WARNING_GENERATION equ 9
+SNOW_WARNING_GENERATION equ 8 /* Modified, easier to just replace Hail */
 
 // ALLOW_SAVE_CHANGES tells the assembler that it can build the code that pertains to expanding the save data for extra fields for our usage.
 // this is required for dex expansion and will break PKHeX compatibility!  comment this line out to prevent save changes from being made.

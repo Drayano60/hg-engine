@@ -421,6 +421,10 @@
 #define SUB_SEQ_HANDLE_MENTAL_HERB_CURE               (486)
 #define SUB_SEQ_CREATE_TERRAIN_OVERLAY_ABILITY        (487)
 #define SUB_SEQ_ATK_AND_SPATK_DOWN                    (488)
+#define SUB_SEQ_DROUGHT_WITH_MSG                      (489)
+#define SUB_SEQ_DRIZZLE_WITH_MSG                      (490)
+#define SUB_SEQ_SAND_STREAM_WITH_MSG                  (491)
+#define SUB_SEQ_SNOW_WARNING_WITH_MSG                 (492)
 
 // add status effect constants--used in battle effect scripts to queue up a subscript through the table in src/moves.c
 

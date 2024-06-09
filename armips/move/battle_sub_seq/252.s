@@ -22,7 +22,7 @@ a001_252:
     if IF_MASK, VAR_FIELD_EFFECT, WEATHER_HAIL, SkipEffect
     setstatus2effect BATTLER_PLAYER, 0x14
     waitmessage
-    gotosubscript 360
+    gotosubscript 492
 .else
     if IF_MASK, VAR_FIELD_EFFECT, WEATHER_SNOW, SkipEffect
     setstatus2effect BATTLER_PLAYER, 0x14

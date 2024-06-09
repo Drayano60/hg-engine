@@ -20,7 +20,7 @@ a001_183:
     if IF_MASK, VAR_FIELD_EFFECT, WEATHER_RAIN_ANY, SkipEffect
     setstatus2effect BATTLER_PLAYER, 0x13
     waitmessage
-    gotosubscript 362
+    gotosubscript 490
     printpreparedmessage
     waitmessage
     wait 0x1E

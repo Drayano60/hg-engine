@@ -9,6 +9,10 @@
 
 .create "build/move/move_sub_anim/1_020", 0
 
+// This controls the Hail animation between turns.
+// It is updated to a Blizzard-inspired animation.
+// Cannot really make snow fall yet!
+
 a061_020:
     initspriteresource
     loadspriteresource 0
@@ -20,23 +24,24 @@ a061_020:
     loadspritemaybe 6, 0, 2, 2
     loadspritemaybe 7, 0, 3, 3
     callfunction 78, 1, 0, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
-    loadparticle 0, 276
+    loadparticle 0, 90
     waitstate
     unloadspriteresource
     resetsprite 0
     resetsprite 1
     resetsprite 2
     resetsprite 3
-    callfunction 33, 5, 0, 1, 0, 12, 0, "NaN", "NaN", "NaN", "NaN", "NaN"
-    waitstate
-    repeatse 2052, 0, 3, 7
-    addparticle 0, 1, 3
-    addparticle 0, 2, 3
-    addparticle 0, 0, 3
+    callfunction 33, 5, 0, 1, 0, 12, 32767, "NaN", "NaN", "NaN", "NaN", "NaN"
+    addparticle 0, 3, 0
+    playsepan 1946, 0
+    wait 4
+    playsepan 1853, 117
+    wait 12
+    wait 15
     waitparticle
     unloadparticle 0
-    callfunction 33, 5, 0, 1, 12, 0, 0, "NaN", "NaN", "NaN", "NaN", "NaN"
-    waitstate
+    stopse 1946
+    callfunction 33, 5, 0, 1, 12, 0, 32767, "NaN", "NaN", "NaN", "NaN", "NaN"
     end
 
 .close

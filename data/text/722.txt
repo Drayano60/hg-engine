@@ -218,7 +218,7 @@ Powers up Fairy-type\nmoves by 50%.
 Burns an attacker that\nuses a contact move.
 Powers up Psychic-type\nmoves by 50%.
 Contact has a 30% chance\nto poison the attacker.
-Powers up the move that\nit used last turn by 20%.
+Powers up moves by 20%\nfor each consecutive use.
 Powers up Fire-type\nmoves by 50%.
 Sun is harsh for 3 turns.\nDoubles Speed in sunshine.
 Powers up moves by 50%\nwhen at 25% HP or less.

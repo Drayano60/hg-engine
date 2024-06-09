@@ -126,7 +126,11 @@ void CalcDamageOverall(void *bw, struct BattleStruct *sp)
         sp->damage = sp->damage * (100 + HeldItemAtkGet(sp, sp->attack_client, ATK_CHECK_NORMAL)) / 100;
     }
 
-    if (HeldItemHoldEffectGet(sp, sp->attack_client) == HOLD_EFFECT_BOOST_REPEATED)
+    if
+    (
+        (HeldItemHoldEffectGet(sp, sp->attack_client) == HOLD_EFFECT_BOOST_REPEATED)
+        || (sp->battlemon[sp->attack_client].ability == ABILITY_RHYTHMIC) /**** AURORA CRYSTAL: Add the new Rhythmic ability, which copies the Metronome (item) effect. */
+    )
     {
         // sp->damage = sp->damage * (10 + sp->battlemon[sp->attack_client].moveeffect.metronomeTurns) / 10;
 

@@ -990,7 +990,7 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
         {
             sp_defense = sp_defense * 15 / 10;
         }
-        if ((field_cond & WEATHER_SNOW_ANY) &&
+        if ((field_cond & WEATHER_HAIL_ANY) && /**** AURORA CRYSTAL: Changed this to Hail as I'm just using that. ****/
             ((DefendingMon.type1 == TYPE_ICE) || (DefendingMon.type2 == TYPE_ICE)))
         {
             defense = defense * 15 / 10;

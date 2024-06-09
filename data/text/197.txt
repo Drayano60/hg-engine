@@ -699,7 +699,7 @@ A sandstorm kicked up!
 The sunlight turned harsh!
 (Unused)
 (Unused)
-It started to hail!
+It started to snow!
 (Unused)
 (Unused)
 {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nprevents {STRVAR_1 13, 2, 0} loss!
@@ -808,9 +808,9 @@ The sandstorm subsided.
 The sunlight is harsh!
 The sunlight is strong.
 The harsh sunlight faded.
-It’s hailing!
-Hail continues to fall.
-The hail stopped.
+It’s snowing!
+Snow continues to fall.
+The snow stopped.
 The fog is deep...
 But it failed to spit up a thing!
 But it failed to swallow a thing!

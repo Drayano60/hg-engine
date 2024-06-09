@@ -14186,7 +14186,7 @@ movedata MOVE_TIDY_UP, "Tidy Up"
     movedescription MOVE_TIDY_UP, "---"
 
 movedata MOVE_SNOWSCAPE, "Snowscape"
-    battleeffect MOVE_EFFECT_WEATHER_SNOW
+    battleeffect MOVE_EFFECT_WEATHER_HAIL /**** EDIT: Use Hail effect instead of Snow. */
     pss SPLIT_STATUS
     basepower 0
     type TYPE_ICE

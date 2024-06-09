@@ -32,6 +32,7 @@ _0028:
     abilitycheck 0x0, BATTLER_xFF, ABILITY_SAND_FORCE, handle_sand_force
     abilitycheck 0x0, BATTLER_xFF, ABILITY_SAND_RUSH, handle_sand_force
     abilitycheck 0x0, BATTLER_xFF, ABILITY_SAND_VEIL, handle_sand_force
+    abilitycheck 0x1, BATTLER_xFF, ABILITY_ICE_BODY, handle_hail_immunity /**** AURORA CRYSTAL: Added this to eliminate the Hail chip. ****/
     abilitycheck 0x0, BATTLER_xFF, ABILITY_ICE_BODY, handle_hail_immunity
     abilitycheck 0x0, BATTLER_xFF, ABILITY_SNOW_CLOAK, handle_hail_immunity
 return_from_weather_canceling_abilities:

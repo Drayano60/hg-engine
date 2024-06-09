@@ -28,10 +28,6 @@ _0038:
     checksubstitute BATTLER_ADDL_EFFECT, _009C
     ifmonstat IF_EQUAL, BATTLER_ADDL_EFFECT, MON_DATA_HP, 0x0, _009C
 
-    abilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_SWEET_AROMA, _009C
-    checksubstitute BATTLER_ADDL_EFFECT, _009C
-    ifmonstat IF_EQUAL, BATTLER_ADDL_EFFECT, MON_DATA_HP, 0x0, _009C
-
     changevar VAR_OP_SET, VAR_ADD_EFFECT_ATTRIBUTE, ATTACK_DOWN
     changevar VAR_OP_SET, VAR_ADD_EFFECT_TYPE, 0x0
     gotosubscript 12

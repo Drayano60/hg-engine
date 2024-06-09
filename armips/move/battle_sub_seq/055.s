@@ -23,12 +23,12 @@ a001_055:
     abilitycheck 0x0, BATTLER_ATTACKER, ABILITY_VITAL_SPIRIT, _018C
 
     abilitycheck 0x0, BATTLER_ATTACKER, ABILITY_SWEET_VEIL, _018C
-    abilitycheck 0x0, BATTLER_ALLY | BATTLER_ADDL_EFFECT, ABILITY_SWEET_VEIL, _018C // A Pokemon with Mold Breaker should not be prevented from Resting though...
+    moldbreakerabilitycheck 0x0, BATTLER_ALLY | BATTLER_ATTACKER, ABILITY_SWEET_VEIL, _018C
 
     /* Leaf Guard should also prevent Rest in sunlight */
     checkcloudnine _SoundproofUproarCheck
     if IF_NOTMASK, VAR_FIELD_EFFECT, 0x30, _SoundproofUproarCheck
-    abilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_LEAF_GUARD, _018C
+    abilitycheck 0x0, BATTLER_ATTACKER, ABILITY_LEAF_GUARD, _018C
 
 _SoundproofUproarCheck:
 
@@ -63,7 +63,7 @@ _018C:
     wait 0x1E
 
     abilitycheck 0x0, BATTLER_ATTACKER, ABILITY_SWEET_VEIL, _SweetVeilMsg
-    abilitycheck 0x0, BATTLER_ALLY | BATTLER_ADDL_EFFECT, ABILITY_SWEET_VEIL, _SweetVeilMsg
+    moldbreakerabilitycheck 0x0, BATTLER_ALLY | BATTLER_ATTACKER, ABILITY_SWEET_VEIL, _SweetVeilMsg
 
     printmessage 0x149, 0xB, 0x1, 0x1, "NaN", "NaN", "NaN", "NaN"
     goto _0240

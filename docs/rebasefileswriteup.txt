@@ -1,0 +1,247 @@
+SEQs
+
+Need to set these back up again:
+
+
+[be_seq stuff]
+
+Other?
+* Sheer Cold (might as well put ice immunity in type calc instead)
+* Razor Wind's guaranteed critical hit chance
+* Using the new stuff for the weather moves/abilities - is that fine?
+* Hurricane shared Thunder's eff before (152), but can probably code this correctly now so haven't reimplemented that
+* Going to redefine Assault Vest in CalcAccuracy instead and make the move fail there if it's a status and is not Me First
+
+AI Changes?
+* Strength Sap (previously used #32 be_seq for Recover etc)
+* Move Reckless calculation back into CalcDamage (and hence remove it from be_seqs 45, 198, 262, 269, 293?)
+* Coil, Hone Claws, new Meditate, Victory Doad (previously using #050 for +2 Atk moves)
+* Cotton Guard (previously using #051 for +2 Def moves)
+* Tail Glow, Quiver Dance, Shell Smash, Work Up (previously using #053 for +2 SpAtk moves)
+* Noble Roar, Tearful Look (previously using #058 for -2 Atk moves)
+* Aurora Veil (previously using #065 for Reflect)
+* Toxic Thread and Toxic (previously using #066 for regular poison moves)
+* Final Gambit (previously using #142 for Belly Drum)
+* Meteor Beam (previously using #145 for Skull Bash)
+* Chilly Reception (previously using #164 for Hail - this has changed quite a bit so might need to reimplement this one differently)
+* Shift Gear and Tidy Up (previously using #212, Dragon Dance)
+* Parting Shot (uses U-turn AI, 228)
+
+Bugs?
+* Does Toxic's be_seq (33) allow it to hit Pokémon underground/in the air, even if the user isn't Poison-type?
+* The guaranteed crit effect (282) seems incorrect...?
+
+Moved damage calculation?
+I've left these for now but I had the damage boost in the general calc function before so the AI could see it.
+* Knock Off (188)
+* Venoshock (280)
+* Hex (287)
+* Acrobatics (289)
+* Barb Barrage (306)
+* Stored Power (320)
+* Rage Fist (321)
+
+eff_seqs now overwritten...
+* !! Noble Roar used (292) !!
+* Psyshock used (293) but can check move ID instead
+* Sacred Sword used (295) but can check move ID instead
+* Body Press used (296) but can check move ID instead
+* !! Incinerate used (297) !!
+* Work Up had (298) but was moved elsewhere and is now also present in (295)
+* Freeze-Dry used (299) but was changed since so is now unnecessary
+* !! Dragon Tail used (300) !!
+* !! Scale Shot used (301) !!
+* Heavy Slam used (302) but this is now (292)
+* !! Aurora Veil used (303) !!
+* !! Steel Beam used (304) !!
+* !! Stone Axe used (305) !!
+* Triple Axel used (307). This is now (298) and I've added the loaded dice/skill link part
+* !! Esper Wing used (308) !!
+* Freeze Dry sans freeze used (309) but is no longer required
+* !! The new Piddly Punches used (310) !!
+* Toxic Thread used (311) [but did get an AI related shift]
+* !! The new Needle Arm/Ceaseless Edge used (312) !!
+* !! The haphazard Echoed Voice used (313) !!
+* Fire Fang remake used (314) but is no longer required
+* !! Clear Smog used (315) !!
+* !! Final Gambit used (316) !! [but did get an AI related shift]
+* !! Meteor Beam was (317) !! [but did get an AI related shift]
+* !! Pollen Puff was (318) !!
+* !! Poltergeist was (319) !!
+* !! Parting Shot was 322 !! [but did get an AI related shift]
+* Thief/Covet was copied to (323) for AI reasons
+* 324/325 are unused custom moves
+* !! Strength Sap was (326) !! [but did get an AI related shift]
+* !! The new Thunder Claw was (327) !!
+* !! Dire Claw was (328) !!
+* !! Chilly Reception was (329) [but did get an AI related shift]
+* !! A haphazard Triple Arrows was (330)
+* !! Spirit Shackle was (331)
+* !! Sparkling Aria was (332)
+* !! Alluring Voice was (333)
+* !! Burning Jealousy was (334)
+* !! First Impression was (335) - copy of Fake Out script w/o the flinch, to avoid Sheer Force boost
+
+[sub_seq stuff]
+
+Other?
+* The sleep numbers in 018.s are different to what I had before - is that more accurate?
+* Abandoned the change to the duration of confusion - need to update docs to match
+* I did not re-add the Thief/Covet change that limits it to wild battles, docs need editing to match.
+* I left off the Sand Stream/Snow Warning weather immunity for now.
+* Changed the Defiant/Competitive implementation in Memento (129) slightly, might need to test again.
+* Readded Sweet Veil to Yawn (141) differently, might need to test message.
+* Did not readd Volt Tackle 50% recoil (147).
+* Maybe re-test Tailwind + Wind Rider interaction?
+* Need to get Defog (171) to clear terrains!
+* Psychic Noise doesn't display a can't heal message? (173)
+* Have ignored changes to weather due to new implementation (183, 184, 185, 252)
+* Removed constants.s import from (186). Does it still compile?
+* Killed the Anticipation changes in (194)
+* Aurora Veil subseq (439) is still checking for hail
+* Erased the content of 441-446 (except 444)
+* Erased the content of 449-450 and 454 (Armor Tail/Dazzling/Queenly Majesty) as there's probably a better way to print it
+* May need to redo Sunny Mood (452) a little due to the weather changes
+* Erased the content of (455) as I've abandoned the Anticipation changes
+* Erased (460) and (461) and (466) as weren't used anymore
+* Incinerate (467) probably doesn't burn the Roseli Berry currently
+* Is the new Sweet Aroma (470) still checking and failing on foes with Sweet Aroma?
+* Chilly Reception (481) is still coded for hail instead of snow
+  
+Bugs?
+* Poison sub_seq seemed to use anti sleep message for Flower Veil, has been corrected
+* I haven't done the case where an ally has Sweet Veil but the Rest user has Mold Breaker
+
+Moved?
+* Competitive is (335) in the main branch, not (442). I previously had Noble Roar here (with Defiant/Competitive handling) which is now in (488)
+
+[move_anim stuff]
+
+Reverted to the hg-e base for Brutal Swing (696) and Breaking Swipe (787)
+
+I have different animations from base hg-e for the following:
+
+- Psyshock (476)
+- Venoshock (477)
+- Storm Throw (483)
+- Sludge Wave (485)
+- Quiver Dance (486)
+- Flame Charge (491)
+- Coil (492)
+- Low Sweep (493)
+- Acid Spray (494)
+- Foul Play (495)
+- Echoed Voice (500)
+- Clear Smog (502) - This one is just added sound
+- Stored Power (503)
+- Inferno (520)
+- Volt Switch (524)
+- Bulldoze (526) - Adapted slightly from base to make it faster
+- Frost Breath (527)
+- Electroweb (530)
+- Dual Chop (533)
+- Steamroller (540) - bit unsure on this one, as it's one line difference?
+- Night Daze (542)
+- Icicle Crash (559)
+- Parabolic Charge (573)
+- Disarming Voice (577)
+- Draining Kiss (580)
+- Play Rough (586)
+- Moonblast (588)
+- Boomburst (589)
+- Mystical Fire (598)
+- Dazzling Gleam (608)
+- Baby-Doll Eyes (611) - similar to hg-e, but modified slightly
+- Power-Up Punch (615)
+- Brutal Swing (696) - very small alteration that i forget the details of, something about doubles?
+- Trailblaze (888) - I believe the original one that I made and was committed sometimes freezes the game
+- Aqua Cutter (898) - Slightly different to the base version, I can't remember how so
+
+I only have animations in my branch for the following:
+
+- Spirit Shackle (665)
+- Sparkling Aria (667)
+- Snap Trap (782)
+- Meteor Beam (803)
+- Burning Jealousy (810)
+- Triple Axel (816)
+- Dual Wingbeat (817)
+- Triple Arrows (846)
+- Infernal Parade (847)
+- Ceaseless Edge (848)
+- Chilly Reception (884)
+- Snowscape (886)
+- Alluring Voice (917)
+- Supercell Slam (919)
+
+[bytereplacement]
+- I haven't disabled the Metronome change - need to figure out what to do about this.
+
+[data/graphics/overworlds]
+- I haven't readded the Mega Stone sparkles that were on 1453.png.
+
+[data/graphics/sprites]
+The following Pokemon have differences from the base hg-e:
+
+- Vaporeon, Jolteon, Snorlax, Tyranitar (uses Platinum sprites)
+- Togekiss (uses a custom backsprite)
+- Pikachu Cosplay (copied to use regular Pikachu sprite)
+
+[src/pokemon.c]
+- Removed the Time's Gift stuff
+- Removed the guaranteed 3 31 IVs for starters
+
+[src/individual/SwitchInAbilityCheck.c]
+- weather abilities no longer have text that says they were activated, i may need to redo this. the printpreparedmessage in their sub_seqs is also a bit buggy
+- need to make sure snow warning activates whatever i want too
+- did not re-add text_on_ability_entry flag, using one of the ones already in instead
+- did not change slow start to 3 turns
+- did not readd anticipation change
+
+[src/individual/CheckDefenderItemEffectOnHit.c]
+- need to deal with contact check for Long Reach (sticky barb + rocky helmet)
+- may need to re-add u-turn checks to air balloon, rocky helmet, weakness policy
+- may need to check rocky helmet text
+- may need to check weakness policy text (cell battery sub_seq seems to be on 339 and 344?)
+
+[src/individual/CalcBaseDamage.c]
+- did not readd knock off damage boost
+- did not reapply slow start change
+- did not reimplement grass pelt change
+- did not reimplement rhythmic (probably want to change it to a metronome clone)
+- did not readd reckless boost here (still in battle_eff_seq)
+- implemented cacophony at a x1.3 boost
+- beware of snow implementation, didnt change stuff back
+- did not reimplement selfdestruct/explosion defense cut
+
+[src/field/overworld_table.c]
+- Did not readd mega stone sparkles
+
+[src/battle/other_battle_calculators.c]
+- did not reimplement slow start buff
+- did not reimplement frost breath/storm throw hack
+- did not reimplement echoed_voice_count thing
+- did not reimplement the AI check for type effectiveness of paralysis moves + stun spore. will need to come back
+- did not reimplement Forecast's Adaptability effect
+- did not yet reimplement Freeze Dry, should wait until Sheer Cold bit is there
+  
+[src/battle/battle_script_commands.c]
+- did not revert knock off flag status thing this time - removeitem should be ok with the new item changes
+  
+[src/battle/battle_pokemon.c]
+- may need to come back to this once flags are sorted. may not need to do any changes?
+
+[src/battle/ability.c]
+- changed implementation of armor tail/dazzling/q majesty, will need to check text, likely broken for allies
+- removed the anticipation changes
+- moved isMoveContact into battle_pokemon.c
+- was more thorough with WanderingSpriitAbilityCheck
+
+[include/pokemon.h]
+- just used changed_Ability_slot for ability patch func, should be ok
+
+[include/battle.h]
+- didn't include most stuff here as its no longer needed. only really add stat_up_3 and stat_raised_flag
+
+[armips/data/moves.s]
+- defined FLAG_SOUND to get it to compile but it shouldn't be used elsewhere

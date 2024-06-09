@@ -1,0 +1,48 @@
+still needs sorting:
+✓ i think i completely missed out MoveHitDefenderAbilityCheck (Magma Skin etc...)
+- ai changes (including thief/covet?)
+- fix toxic so non poisons cant hit through dig/fly
+✓ do i want to readd Knock Off to the damage calc?
+✓ need to re-add population bomb/pdidly punches effect (or at least assign it?)
+✓ echoed voice needs redoing
+✓ chilly reception is still broken due to the weather changes
+✓ defog should clear terrains
+✓ proper messages for weather abilities + sunny mood
+✓ INCINERATE VS roseli berry
+✓ I haven't done the case where an ally has Sweet Veil but the Rest user has Mold Breaker
+- what do about metronome (the move) calling moves that arent ready? (TBD)
+- mega stones lol (placement, ow sprite etc) (bigger project)
+✓ new implementation for the rhythmic ability
+- reckless in damage calc again? (to do later)
+✓ reconcile hail vs snow stuff
+- deal with preparedmessage in weather seqs?
+  
+stuff to check:
+✓ check sleep turns
+✓ check memento vs defiant (text is still bugged but not my problem)
+✓ check yawn vs sweet veil
+✓ tailwind vs wind rider (but i haven't done the switch-in with an active tailwind part)
+✓ new implementation of priority blocking abilities
+✓ sweet aroma vs allies? script looked like it checked sweet aroma rather than same team
+✓ Poison sub_seq seemed to use anti sleep message for Flower Veil, has been corrected
+✓ check weakness policy/rocky helmet work right
+✓ uturn interactions vs items covered in CheckDefenderItemEffectOnHit (longer one). didnt readd to air balloon, rocky helmet and weakness policy. havent tried with the other items
+✓ does ability patch work correctly
+
+stuff to edit in docs (maybe in-game descriptions too?):
+- confusion isnt modified
+- thief/covet are changed differently
+- sand stream/snow warning no longer give immunity (will change if relevant)
+- removed volt tackle recoil change
+- removed anticipation changes
+- removed time's gift
+- removed guaranteed IVs for starter (but might put back?)
+- removed slow start buffs
+- removed grass pelt buff
+- changing rhythmic effect
+- cacophony is 30% boost instead
+- selfdestruct/explosion defense cut removal was reverted
+- removed forecast's adaptability effect
+- didnt change volt tackle to 50% recoil
+- SUNNY mood now lasts 5 turns instead of 3
+- remade rythmic

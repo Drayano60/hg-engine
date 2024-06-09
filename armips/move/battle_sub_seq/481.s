@@ -27,17 +27,16 @@ _Move:
     waitmessage
     playanimation BATTLER_ATTACKER
     waitmessage
-
     if IF_MASK, VAR_FIELD_EFFECT, 0x40, _Switch /* If it's already snowing, move on */
-    printmessage 0x32A, 0x0, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
+    printmessage 701, 0x0, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN" /* It started to snow! */
     waitmessage
     wait 0x1E
-    changevar VAR_OP_CLEARMASK, VAR_FIELD_EFFECT, 0x80FF
-    changevar VAR_OP_SETMASK, VAR_FIELD_EFFECT, 0x40
+    changevar VAR_OP_CLEARMASK, VAR_FIELD_EFFECT, FIELD_CONDITION_WEATHER
+    changevar VAR_OP_SETMASK, VAR_FIELD_EFFECT, WEATHER_HAIL
     changevar VAR_OP_SET, VAR_WEATHER_TURNS, 0x5
-    changevar VAR_OP_SET, VAR_ADD_STATUS2, 0x2000005D
+    //changevar VAR_OP_SET, VAR_ADD_STATUS2, 0x2000005D
     checkitemeffect 0x1, BATTLER_ATTACKER, 0x6E, _Switch
-    getitempower BATTLER_ATTACKER, 0x9
+    getitempower BATTLER_ATTACKER, VAR_CALCULATION_WORK
     changevar2 VAR_OP_ADD, VAR_WEATHER_TURNS, VAR_CALCULATION_WORK
 _Switch:
     // checkwipeout BATTLER_DEFENDER, _EndScript

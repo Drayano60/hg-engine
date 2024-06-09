@@ -66,28 +66,18 @@ _00C8:
     loadparticle 0, 90
     waitstate
     unloadspriteresource
-resetsprite 0
+    resetsprite 0
     resetsprite 1
     resetsprite 2
     resetsprite 3
-    playsepan 2121, 0
+    callfunction 33, 5, 0, 1, 0, 12, 32767, "NaN", "NaN", "NaN", "NaN", "NaN"
     addparticle 0, 3, 0
-    // playsepan 1946, 0
-    // addparticle 0, 1, 20
-    wait 4
-    playsepan 1853, 117
-    wait 12
-    // addparticle 0, 0, 20
-    // addparticle 0, 2, 20
-    // callfunction 36, 5, 1, 0, 1, 2, 264, "NaN", "NaN", "NaN", "NaN", "NaN"
-    // callfunction 36, 5, 1, 0, 1, 2, 272, "NaN", "NaN", "NaN", "NaN", "NaN"
-    wait 15
-    // callfunction 36, 5, 1, 0, 1, 2, 264, "NaN", "NaN", "NaN", "NaN", "NaN"
-    // callfunction 36, 5, 1, 0, 1, 2, 272, "NaN", "NaN", "NaN", "NaN", "NaN"
+    playsepan 1946, 0
+    wait 35
     waitparticle
     unloadparticle 0
-    stopse 2121
     stopse 1946
+    callfunction 33, 5, 0, 1, 12, 0, 32767, "NaN", "NaN", "NaN", "NaN", "NaN"
     end
 _0268:
     addparticle 0, 0, 3

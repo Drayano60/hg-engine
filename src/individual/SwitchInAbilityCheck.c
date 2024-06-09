@@ -163,7 +163,6 @@ int UNUSED SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
                                         newBS.weather = WEATHER_SANDSTORM_PERMANENT;
                                     }
                                     break;
-                                case ABILITY_SUNNY_MOOD: /**** AURORA CRYSTAL: Added new Sunny Mood effect. ****/
                                 case ABILITY_DROUGHT:
                                     sp->battlemon[client_no].appear_check_flag = 1;
                                     if ((sp->field_condition & WEATHER_SUNNY_PERMANENT) == 0) {
@@ -199,6 +198,15 @@ int UNUSED SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
                                     if ((sp->field_condition & WEATHER_STRONG_WINDS) == 0) {
                                         scriptnum = SUB_SEQ_DELTA_STREAM;
                                         ret = SWITCH_IN_CHECK_MOVE_SCRIPT;
+                                    }
+                                    break;
+                                /**** AURORA CRYSTAL: Handle the new Sunny Mood ability's power to set sun. */
+                                case ABILITY_SUNNY_MOOD:
+                                    sp->battlemon[client_no].appear_check_flag = 1;
+                                    if ((sp->field_condition & WEATHER_SUNNY_PERMANENT) == 0) {
+                                        scriptnum = SUB_SEQ_DROUGHT;
+                                        ret = SWITCH_IN_CHECK_MOVE_SCRIPT;
+                                        newBS.weather = WEATHER_SUNNY_PERMANENT;
                                     }
                                     break;
                             }

@@ -34,10 +34,7 @@ a061_020:
     callfunction 33, 5, 0, 1, 0, 12, 32767, "NaN", "NaN", "NaN", "NaN", "NaN"
     addparticle 0, 3, 0
     playsepan 1946, 0
-    wait 4
-    playsepan 1853, 117
-    wait 12
-    wait 15
+    wait 35
     waitparticle
     unloadparticle 0
     stopse 1946

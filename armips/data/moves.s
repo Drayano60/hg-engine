@@ -8047,7 +8047,7 @@ movedata MOVE_CLEAR_SMOG, "Clear Smog"
     type TYPE_POISON
     accuracy 0
     pp 15
-    effectchance 100
+    effectchance 0
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
@@ -8223,7 +8223,7 @@ movedata MOVE_INCINERATE, "Incinerate"
     type TYPE_FIRE
     accuracy 100
     pp 15
-    effectchance 100
+    effectchance 0
     target MOVE_TARGET_BOTH
     priority 0
     flags FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK

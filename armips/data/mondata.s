@@ -7,7 +7,6 @@
 .include "armips/include/constants.s"
 .include "armips/include/abilities.s"
 .include "armips/include/config.s"
-.include "armips/data/tmlearnset.s"
 
 // all the mon personal data.  tm learnsets are specifically in tmlearnset.txt
 // basestats and evyields fields are formatted as such:  hp atk def speed spatk spdef

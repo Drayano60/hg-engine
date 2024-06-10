@@ -137,7 +137,7 @@ int MoveCheckDamageNegatingAbilities(struct BattleStruct *sp, int attacker, int 
     // 02252FB0
     if (MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_SOUNDPROOF) == TRUE)
     {
-        if (IsMoveSoundBased(sp->current_move_index))
+        if (IsMoveSoundBased(sp->current_move_index) && (attacker != defender))
         {
             scriptnum = SUB_SEQ_SOUNDPROOF;
         }

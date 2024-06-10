@@ -357,6 +357,7 @@
 #define MOVE_EFFECT_VICTORY_DANCE                           529
 #define MOVE_EFFECT_TIDY_UP                                 530
 #define MOVE_EFFECT_IGNORE_TARGET_STAT_CHANGES              531
+#define MOVE_EFFECT_DEFENSE_DOWN_HIT                        532
 
 
 #define MOVE_TARGET_SELECTED             0x0000

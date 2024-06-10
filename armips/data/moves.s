@@ -11114,7 +11114,7 @@ movedata MOVE_BEAK_BLAST, "Beak Blast"
     movedescription MOVE_BEAK_BLAST, "---"
 
 movedata MOVE_CLANGING_SCALES, "Clanging Scales"
-    battleeffect MOVE_EFFECT_HIT
+    battleeffect MOVE_EFFECT_DEFENSE_DOWN_HIT
     pss SPLIT_SPECIAL
     basepower 110
     type TYPE_DRAGON
@@ -12458,7 +12458,7 @@ movedata MOVE_MAX_STEELSPIKE, "Max Steelspike"
     movedescription MOVE_MAX_STEELSPIKE, "---"
 
 movedata MOVE_CLANGOROUS_SOUL, "Clangorous Soul"
-    battleeffect MOVE_EFFECT_HIT
+    battleeffect MOVE_EFFECT_CLANGOROUS_SOUL
     pss SPLIT_STATUS
     basepower 0
     type TYPE_DRAGON
@@ -15817,3 +15817,5 @@ movedescription MOVE_HIDDEN_POWER_PSYCHIC, "A unique attack that\nvaries in type
 movedescription MOVE_HIDDEN_POWER_ICE, "A unique attack that\nvaries in type,\ndepending on the\nPokémon using it."
 movedescription MOVE_HIDDEN_POWER_DARK, "A unique attack that\nvaries in type,\ndepending on the\nPokémon using it."
 movedescription MOVE_HIDDEN_POWER_DRAGON, "A unique attack that\nvaries in type,\ndepending on the\nPokémon using it."
+movedescription MOVE_CLANGING_SCALES, "The user rubs the\nscales on its body,\nmaking a huge noise.\nThe user’s Defense\nis lowered after."
+movedescription MOVE_CLANGOROUS_SOUL, "The user boosts all\nof its stats by using\nHP equal to a third\nof its max HP."

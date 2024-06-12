@@ -14000,7 +14000,7 @@ movedata MOVE_TORCH_SONG, "Torch Song"
     type TYPE_FIRE
     accuracy 100
     pp 10
-    effectchance 0
+    effectchance 100
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
@@ -14016,7 +14016,7 @@ movedata MOVE_AQUA_STEP, "Aqua Step"
     type TYPE_WATER
     accuracy 100
     pp 10
-    effectchance 0
+    effectchance 100
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
@@ -15823,3 +15823,7 @@ movedescription MOVE_DRUM_BEATING, "The user plays its\ndrum and makes its\nroot
 movedescription MOVE_BRANCH_POKE, "The user attacks by\npoking the foe with\na sharply pointed\nbranch."
 movedescription MOVE_PYRO_BALL, "The user attacks by\nigniting a small stone\nand launching it.\nThis has a 10% chance\nto burn the foe."
 movedescription MOVE_SNIPE_SHOT, "The user fires a shot\nof water at the foe.\nCritical hits will\nland more easily."
+movedescription MOVE_OVERDRIVE, "The user attacks\nfoes by twanging a\nguitar or bass guitar,\ncausing a huge echo\nand strong vibration."
+movedescription MOVE_FLOWER_TRICK, "The user throws a\nrigged bouquet of\nflowers at the foe.\nThis cannot miss and\nalways critically hits."
+movedescription MOVE_TORCH_SONG, "The user blows out\nraging flames as if\nsinging a song.\nThis also raises the\nuser’s Sp. Atk stat."
+movedescription MOVE_AQUA_STEP, "The user attacks the\nfoe with light and\nfluid dance steps.\nThis also raises the\nuser’s Speed stat."

@@ -17,6 +17,7 @@
 a001_025:
     if IF_NOTEQUAL, VAR_ADD_EFFECT_TYPE, 0x5, _00D4
     abilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_WATER_VEIL, _0350
+    abilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_THERMAL_EXCHANGE, _0350 /**** AURORA CRYSTAL: Added Thermal Exchange. */
     checkcloudnine _0058
     if IF_NOTMASK, VAR_FIELD_EFFECT, WEATHER_SUNNY_ANY, _0058
     abilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_LEAF_GUARD, _0350
@@ -29,6 +30,7 @@ _0058:
     goto _0238
 _00D4:
     moldbreakerabilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_WATER_VEIL, _0424
+    moldbreakerabilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_THERMAL_EXCHANGE, _0424 /**** AURORA CRYSTAL: Added Thermal Exchange. */
     checkcloudnine _checkFlowerVeil
     if IF_NOTMASK, VAR_FIELD_EFFECT, WEATHER_SUNNY_ANY, _checkFlowerVeil
     moldbreakerabilitycheck 0x0, BATTLER_ADDL_EFFECT, ABILITY_LEAF_GUARD, _0424

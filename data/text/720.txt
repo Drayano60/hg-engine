@@ -231,3 +231,6 @@ Elec. Surge
 Psy. Surge
 Misty Surge
 Grassy Surge
+Libero
+Punk Rock
+Thermal Ex.

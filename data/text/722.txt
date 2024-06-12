@@ -231,3 +231,6 @@ Summons Electric Terrain\nfor 5 turns upon entry.
 Summons Psychic Terrain\nfor 5 turns upon entry.
 Summons Misty Terrain\nfor 5 turns upon entry.
 Summons Grassy Terrain\nfor 5 turns upon entry.
+Once per switch-in, it will\nbecome its move’s type.
+Ups sound moves by 30%.\nHalves damage from them.
+Ups Attack if hit by Fire.\nAlso prevents burns.

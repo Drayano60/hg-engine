@@ -415,7 +415,7 @@ void ServerWazaBefore(void *bw, struct BattleStruct *sp)
             sp->wb_seq_no++;
             FALLTHROUGH;
         case SEQ_PROTEAN_CHECK:
-            if (sp->battlemon[sp->attack_client].ability == ABILITY_PROTEAN
+            if ((sp->battlemon[sp->attack_client].ability == ABILITY_PROTEAN || sp->battlemon[sp->attack_client].ability == ABILITY_LIBERO) /**** AURORA CRYSTAL: Added Libero here. */
                 && (sp->battlemon[sp->attack_client].type1 != sp->moveTbl[sp->current_move_index].type  // if either type is not the move's type
                     || sp->battlemon[sp->attack_client].type2 != sp->moveTbl[sp->current_move_index].type)
                 && (sp->battlemon[sp->attack_client].ability_activated_flag == 0 || PROTEAN_GENERATION < 9) // Protean should activate only once per switch-in if gen 9 behavior

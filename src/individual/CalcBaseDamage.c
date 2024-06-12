@@ -951,14 +951,14 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
         }
     }
 
-    /**** AURORA CRYSTAL: Added the new Cacophony ability, a clone of Punk Rock. ****/
-    if (AttackingMon.ability == ABILITY_CACOPHONY) {
+    /**** AURORA CRYSTAL: Added the new Cacophony ability, a clone of Punk Rock. Also put Punk Rock itself here. ****/
+    if (AttackingMon.ability == ABILITY_CACOPHONY || AttackingMon.ability == ABILITY_PUNK_ROCK) {
         if (IsMoveSoundBased(moveno)) {
             movepower = movepower * 13 / 10;
         }
     }
 
-    if (MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_CACOPHONY) == TRUE) {
+    if (MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_CACOPHONY) == TRUE || MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_PUNK_ROCK) == TRUE) {
         if (IsMoveSoundBased(moveno)) {
             movepower /= 2;
         }

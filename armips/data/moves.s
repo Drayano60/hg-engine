@@ -11978,7 +11978,7 @@ movedata MOVE_DYNAMAX_CANNON, "Dynamax Cannon"
     movedescription MOVE_DYNAMAX_CANNON, "---"
 
 movedata MOVE_SNIPE_SHOT, "Snipe Shot"
-    battleeffect MOVE_EFFECT_HIT
+    battleeffect MOVE_EFFECT_HIGH_CRITICAL /**** EDIT: New effect as I can't do the Follow Me ignoring effect. */
     pss SPLIT_SPECIAL
     basepower 80
     type TYPE_WATER
@@ -15819,3 +15819,7 @@ movedescription MOVE_HIDDEN_POWER_DARK, "A unique attack that\nvaries in type,\n
 movedescription MOVE_HIDDEN_POWER_DRAGON, "A unique attack that\nvaries in type,\ndepending on the\nPokémon using it."
 movedescription MOVE_CLANGING_SCALES, "The user rubs the\nscales on its body,\nmaking a huge noise.\nThe user’s Defense\nis lowered after."
 movedescription MOVE_CLANGOROUS_SOUL, "The user boosts all\nof its stats by using\nHP equal to a third\nof its max HP."
+movedescription MOVE_DRUM_BEATING, "The user plays its\ndrum and makes its\nroots attack the foe.\nThis also lowers the\nfoe’s Speed stat."
+movedescription MOVE_BRANCH_POKE, "The user attacks by\npoking the foe with\na sharply pointed\nbranch."
+movedescription MOVE_PYRO_BALL, "The user attacks by\nigniting a small stone\nand launching it.\nThis has a 10% chance\nto burn the foe."
+movedescription MOVE_SNIPE_SHOT, "The user fires a shot\nof water at the foe.\nCritical hits will\nland more easily."

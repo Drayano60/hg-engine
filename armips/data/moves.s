@@ -12074,7 +12074,7 @@ movedata MOVE_MAGIC_POWDER, "Magic Powder"
     movedescription MOVE_MAGIC_POWDER, "---"
 
 movedata MOVE_DRAGON_DARTS, "Dragon Darts"
-    battleeffect MOVE_EFFECT_HIT
+    battleeffect MOVE_EFFECT_HIT_TWICE
     pss SPLIT_PHYSICAL
     basepower 50
     type TYPE_DRAGON
@@ -15828,3 +15828,4 @@ movedescription MOVE_FLOWER_TRICK, "The user throws a\nrigged bouquet of\nflower
 movedescription MOVE_TORCH_SONG, "The user blows out\nraging flames as if\nsinging a song.\nThis also raises the\nuser’s Sp. Atk stat."
 movedescription MOVE_AQUA_STEP, "The user attacks the\nfoe with light and\nfluid dance steps.\nThis also raises the\nuser’s Speed stat."
 movedescription MOVE_GLAIVE_RUSH, "After using this move,\nmoves targeting the\nuser will deal double\ndamage and can’t miss\nuntil the user’s turn."
+movedescription MOVE_DRAGON_DARTS, "The user attacks\ntwice using Dreepy.\n(At the moment,\nthis move only hits\na single target.)"

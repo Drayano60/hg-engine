@@ -46,3 +46,5 @@ stuff to edit in docs (maybe in-game descriptions too?):
 - didnt change volt tackle to 50% recoil
 - SUNNY mood now lasts 5 turns instead of 3
 - remade rythmic
+- added snipe shot with a different effect
+- added dragon darts with a different effect

@@ -126,6 +126,7 @@ I have different animations from base hg-e for the following:
 - Storm Throw (483)
 - Sludge Wave (485)
 - Quiver Dance (486)
+- Soak (490) - just added a sound eff
 - Flame Charge (491)
 - Coil (492)
 - Low Sweep (493)

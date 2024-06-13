@@ -17,6 +17,8 @@ a010_490:
     loadparticlefromspa 0, 503 // new soak spa
     waitparticle
 
+    playsepan 2070, 117
+    
 // shower
     addparticle 0, 2, 4
     addparticle 0, 1, 4

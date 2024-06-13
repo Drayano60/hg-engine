@@ -13850,7 +13850,7 @@ movedata MOVE_ICE_SPINNER, "Ice Spinner"
     movedescription MOVE_ICE_SPINNER, "---"
 
 movedata MOVE_GLAIVE_RUSH, "Glaive Rush"
-    battleeffect MOVE_EFFECT_HIT
+    battleeffect MOVE_EFFECT_GLAIVE_RUSH
     pss SPLIT_PHYSICAL
     basepower 120
     type TYPE_DRAGON
@@ -15827,3 +15827,4 @@ movedescription MOVE_OVERDRIVE, "The user attacks\nfoes by twanging a\nguitar or
 movedescription MOVE_FLOWER_TRICK, "The user throws a\nrigged bouquet of\nflowers at the foe.\nThis cannot miss and\nalways critically hits."
 movedescription MOVE_TORCH_SONG, "The user blows out\nraging flames as if\nsinging a song.\nThis also raises the\nuser’s Sp. Atk stat."
 movedescription MOVE_AQUA_STEP, "The user attacks the\nfoe with light and\nfluid dance steps.\nThis also raises the\nuser’s Speed stat."
+movedescription MOVE_GLAIVE_RUSH, "After using this move,\nmoves targeting the\nuser will deal double\ndamage and can’t miss\nuntil the user’s turn."

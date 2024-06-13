@@ -1008,6 +1008,11 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
         }
     }
 
+    /**** AURORA CRYSTAL: Handle the double damage effect of Glaive Rush's use. ****/
+    if (sp->battlemon[defender].glaive_rush_flag == 1) {
+        movepower *= 2;
+    }
+
     u16 equivalentAttack;
     u16 equivalentDefense;
     getEquivalentAttackAndDefense(sp, attack, defense, sp_attack, sp_defense, atkstate, defstate, spatkstate, spdefstate, &movesplit, attacker, defender, critical, moveno, &equivalentAttack, &equivalentDefense);

@@ -341,6 +341,11 @@ BOOL CalcAccuracy(void *bw, struct BattleStruct *sp, int attacker, int defender,
         sp->echoed_voice_was_used = 1;
     }
 
+    /**** AURORA CRYSTAL: Turn off the Glaive Rush flag when the user acts. */
+    // Very hacky implementation but should hopefully do the job for now.
+    // The flag is set on again whenever Glaive Rush successfully connects.
+    sp->battlemon[attacker].glaive_rush_flag = 0;
+
     /**** AURORA CRYSTAL: Implement a best-approximation Assault Vest that makes all status moves fail. ****/
     // It should not allow the move to be selected, but that function isn't exposed yet...
     if (hold_effect == HOLD_EFFECT_ASSAULT_VEST && GetMoveSplit(sp, move_no) == SPLIT_STATUS) {
@@ -2351,6 +2356,7 @@ BOOL LONG_CALL BattleSystem_CheckMoveEffect(void *bw, struct BattleStruct *sp, i
     if (!(sp->server_status_flag & BATTLE_STATUS_FLAT_HIT_RATE) //TODO: Is this flag a debug flag to ignore hit rates..?
         && ((sp->battlemon[battlerIdTarget].effect_of_moves & MOVE_EFFECT_FLAG_LOCK_ON
             && sp->battlemon[battlerIdTarget].moveeffect.battlerIdLockOn == battlerIdAttacker)
+          || sp->battlemon[battlerIdTarget].glaive_rush_flag == 1 /**** AURORA CRYSTAL: Add Glaive Rush eff of not missing if target used it. */
           || GetBattlerAbility(sp, battlerIdAttacker) == ABILITY_NO_GUARD
           || GetBattlerAbility(sp, battlerIdTarget) == ABILITY_NO_GUARD)) {
         sp->waza_status_flag &= ~MOVE_STATUS_FLAG_MISS;

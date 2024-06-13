@@ -39,6 +39,7 @@ ADD_STATUS_TAIL_GLOW equ 215
 ADD_STATUS_VICTORY_DANCE equ 216
 ADD_STATUS_TIDY_UP equ 217
 ADD_STATUS_CLANGOROUS_SOUL equ 218
+ADD_STATUS_GLAIVE_RUSH equ 219
 
 // status change
 
@@ -1669,4 +1670,8 @@ MOVE_DATA_CONTEST_TYPE equ 11
 .macro didtargetraisestat,address
     .word 0xFC
     .word ((address - org()) / 4) - 1
+.endmacro
+
+.macro setglaiverushflag
+    .word 0xFD
 .endmacro

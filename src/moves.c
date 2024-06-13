@@ -234,6 +234,7 @@ u16 move_effect_to_subscripts[] =
     [ADD_STATUS_VICTORY_DANCE]                   = SUB_SEQ_VICTORY_DANCE,
     [ADD_STATUS_TIDY_UP]                         = SUB_SEQ_TIDY_UP,
     [ADD_STATUS_CLANGOROUS_SOUL]                 = SUB_SEQ_CLANGOROUS_SOUL,
+    [ADD_STATUS_GLAIVE_RUSH]                     = SUB_SEQ_GLAIVE_RUSH,
 };
 
 

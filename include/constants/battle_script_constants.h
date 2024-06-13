@@ -426,6 +426,7 @@
 #define SUB_SEQ_SAND_STREAM_WITH_MSG                  (491)
 #define SUB_SEQ_SNOW_WARNING_WITH_MSG                 (492)
 #define SUB_SEQ_CLANGOROUS_SOUL                       (493)
+#define SUB_SEQ_GLAIVE_RUSH                           (494)
 
 // add status effect constants--used in battle effect scripts to queue up a subscript through the table in src/moves.c
 
@@ -613,6 +614,7 @@
 #define ADD_STATUS_VICTORY_DANCE                       (216)
 #define ADD_STATUS_TIDY_UP                             (217)
 #define ADD_STATUS_CLANGOROUS_SOUL                     (218)
+#define ADD_STATUS_GLAIVE_RUSH                         (219)
 
 // additional effect constants
 #define ADD_STATUS_NONE (0)

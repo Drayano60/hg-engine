@@ -94,6 +94,7 @@ BOOL btl_scr_cmd_F9_echoedvoicedamagecalc(void *bw, struct BattleStruct *sp);
 BOOL btl_scr_cmd_FA_iflasthitofmultihit(void *bw, struct BattleStruct *sp);
 BOOL btl_scr_cmd_FB_strengthsapcalc(void *bw, struct BattleStruct *sp);
 BOOL btl_scr_cmd_FC_didtargetraisestat(void *bw, struct BattleStruct *sp);
+BOOL btl_scr_cmd_FD_setglaiverushflag(void *bw, struct BattleStruct *sp);
 
 #ifdef DEBUG_BATTLE_SCRIPT_COMMANDS
 const u8 *BattleScrCmdNames[] =
@@ -386,6 +387,7 @@ const btl_scr_cmd_func NewBattleScriptCmdTable[] =
     [0xFA - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_FA_iflasthitofmultihit,
     [0xFB - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_FB_strengthsapcalc,
     [0xFC - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_FC_didtargetraisestat,
+    [0xFD - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_FD_setglaiverushflag,
 };
 
 // entries before 0xFFFE are banned for mimic and metronome--after is just banned for metronome.  table ends with 0xFFFF
@@ -1645,6 +1647,7 @@ BOOL btl_scr_cmd_54_ohko_move_handle(void *bw, struct BattleStruct *sp)
     }
     else{
         if(((sp->battlemon[sp->defence_client].effect_of_moves & MOVE_EFFECT_FLAG_LOCK_ON) == 0)
+            && sp->battlemon[sp->defence_client].glaive_rush_flag != 1 /**** AURORA CRYSTAL: Add Glaive Rush eff of not missing if target used it. */
             && (GetBattlerAbility(sp,sp->attack_client) != ABILITY_NO_GUARD)
             && (GetBattlerAbility(sp,sp->defence_client) != ABILITY_NO_GUARD))
         {
@@ -1664,6 +1667,7 @@ BOOL btl_scr_cmd_54_ohko_move_handle(void *bw, struct BattleStruct *sp)
             if ((((sp->battlemon[sp->defence_client].moveeffect.battlerIdLockOn == sp->attack_client) && (sp->battlemon[sp->defence_client].effect_of_moves & MOVE_EFFECT_FLAG_LOCK_ON))
                     || (GetBattlerAbility(sp,sp->attack_client) == ABILITY_NO_GUARD)
                     || (GetBattlerAbility(sp,sp->defence_client) == ABILITY_NO_GUARD))
+                    || sp->battlemon[sp->defence_client].glaive_rush_flag == 1 /**** AURORA CRYSTAL: Add Glaive Rush eff of not missing if target used it. */
                 && (sp->battlemon[sp->attack_client].level >= sp->battlemon[sp->defence_client].level))
             {
                 hit = 1;
@@ -2891,6 +2895,23 @@ BOOL btl_scr_cmd_FC_didtargetraisestat(void *bw UNUSED, struct BattleStruct *sp)
 
     return FALSE;
 }
+
+
+/**
+ *  @brief script command to set the flag when Glaive Rush is successfully used for the x2 damage and guaranteed hit effect
+ *
+ *  @param bw battle work structure
+ *  @param sp global battle structure
+ *  @return FALSE
+ */
+BOOL btl_scr_cmd_FD_setglaiverushflag(void *bw UNUSED, struct BattleStruct *sp) {
+    IncrementBattleScriptPtr(sp, 1);
+
+    sp->battlemon[sp->attack_client].glaive_rush_flag = 1;
+
+    return FALSE;
+}
+
 
 /**
  *  @brief script command to calculate the amount of HP should a client recover by using Moonlight, Morning Sun, or Synthesis

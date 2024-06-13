@@ -356,6 +356,7 @@ MOVE_EFFECT_TIDY_UP                                 equ 530
 MOVE_EFFECT_IGNORE_TARGET_STAT_CHANGES              equ 531
 MOVE_EFFECT_DEFENSE_DOWN_HIT                        equ 532
 MOVE_EFFECT_CLANGOROUS_SOUL                         equ 533
+MOVE_EFFECT_GLAIVE_RUSH                             equ 534
 
 /**** Custom move effects. ****/
 MOVE_EFFECT_THUNDER_CLAW                            equ 526

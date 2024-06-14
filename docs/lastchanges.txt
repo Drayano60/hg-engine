@@ -48,3 +48,4 @@ stuff to edit in docs (maybe in-game descriptions too?):
 - remade rythmic
 - added snipe shot with a different effect
 - added dragon darts with a different effect
+- changed snowscape to just be canon compatible + any ice types not in s/v that also learn hail

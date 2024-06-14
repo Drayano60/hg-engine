@@ -98,6 +98,11 @@ export default {
         "beedrill",
         "seviper",
     ],
+    crunch: [
+        "victreebel",
+        "sneasel",
+        "weavile",
+    ],
     drainingkiss: [
         "mrmime",
         "skitty", // HOME

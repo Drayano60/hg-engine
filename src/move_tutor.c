@@ -64,7 +64,7 @@ struct MoveTutor MoveTutorTable[] = {
     {.move = MOVE_HYPER_VOICE, .cost = 0, .tutor = TUTOR_MIDDLE},
     {.move = MOVE_ICE_SPINNER, .cost = 0, .tutor = TUTOR_MIDDLE},
     {.move = MOVE_IRON_HEAD, .cost = 0, .tutor = TUTOR_MIDDLE},
-    {.move = MOVE_KNOCK_OFF, .cost = 0, .tutor = TUTOR_MIDDLE},
+    {.move = MOVE_CRUNCH, .cost = 0, .tutor = TUTOR_MIDDLE},
     {.move = MOVE_POWER_GEM, .cost = 0, .tutor = TUTOR_MIDDLE},
     {.move = MOVE_PSYCHIC_FANGS, .cost = 0, .tutor = TUTOR_MIDDLE}, // Bonus
     {.move = MOVE_SEED_BOMB, .cost = 0, .tutor = TUTOR_MIDDLE},

@@ -73,7 +73,7 @@ function getTMMoveHeader(move, n) {
 
 // The tutor ID (eg TUTOR_TOP_LEFT) is specified separately in move_tutor.c, due to the expanded list.
 function getTutorMoveHeader(move) {
-	return `TUTOR_TOP_LEFT: ${formatMoveForHGEngineData(move)} 0`
+	return `TUTOR_TOP_LEFT: MOVE_${formatMoveForHGEngineData(move)} 0`
 }
 
 function isPokemonCompatibleWithMove({

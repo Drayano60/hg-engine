@@ -45,7 +45,7 @@ export default [
     "hyper voice",
     "ice spinner",
     "iron head",
-    "knock off",
+    "crunch",
     "power gem",
     "psychic fangs",
     "seed bomb",

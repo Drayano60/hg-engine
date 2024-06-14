@@ -29630,7 +29630,7 @@ mondata SPECIES_BASCULEGION_FEMALE, "-----"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_2, EGG_GROUP_WATER_2
-    abilities ABILITY_RATTLED, ABILITY_ADAPTABILITY
+    abilities ABILITY_SWIFT_SWIM, ABILITY_ADAPTABILITY
     runchance 25
     colorflip BODY_COLOR_GREEN, 0
     

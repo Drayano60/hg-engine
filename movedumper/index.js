@@ -126,8 +126,6 @@ function getPokemonForTMMoves() {
 		})
 		console.log("")
 	})
-
-	console.log("")
 }
 
 function getPokemonForTutorMoves() {
@@ -143,8 +141,6 @@ function getPokemonForTutorMoves() {
 		})
 		console.log("");
 	})
-
-	console.log("")
 }
 
 // move should be specified as the Showdown version (e.g. "alluringvoice").

@@ -10,5 +10,5 @@ export default {
     annihilape: "primeape",
     farigiraf: "girafarig",
     dudunsparce: "dunsparce",
-    kingambit: "kingambit",
+    kingambit: "bisharp",
 }

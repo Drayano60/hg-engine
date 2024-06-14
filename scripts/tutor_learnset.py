@@ -72,9 +72,9 @@ def tutordatabuilder(inputPath: str):
     with open(inputPath, 'r', encoding="UTF-8") as file:
         for line in file:
             if line.startswith('TUTOR'): # new tutor move entry
-                if tutorId >= (NUM_OF_ENTRIES):
-                    print('tutorId too high: {:2d} >= {:2d}{\nQuitting execution...'.format(tutorId, NUM_OF_ENTRIES))
-                    return
+                # if tutorId >= (NUM_OF_ENTRIES):
+                #     print('tutorId too high: {:2d} >= {:2d}{\nQuitting execution...'.format(tutorId, NUM_OF_ENTRIES))
+                #     return
                 tutorId = tutorId + 1
             elif line.strip().startswith('SPECIES'): # SPECIES entry in current tutorId
                 try:

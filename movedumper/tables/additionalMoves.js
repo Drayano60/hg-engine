@@ -449,6 +449,11 @@ export default {
         "voltorb",
         "electrode",
     ],
+    scald: [
+        "basculinwhitestriped",
+        "basculegion",
+        "basculegionf",
+    ],
     drainpunch: [
         "machamp", // PLA
         "swampert",
@@ -551,6 +556,9 @@ export default {
         "persianalola",
         "meowthgalar",
         "perrserker",
+        "basculinwhitestriped",
+        "basculegion",
+        "basculegionf",
     ],
     fly: [
         "butterfree",

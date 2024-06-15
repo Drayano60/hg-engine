@@ -15071,6 +15071,7 @@ levelup SPECIES_GURDURR
 levelup SPECIES_CONKELDURR
     learnset MOVE_POWER_UP_PUNCH, 1
     learnset MOVE_MACH_PUNCH, 1
+    learnset MOVE_KNOCK_OFF, 1
     learnset MOVE_COUNTER, 1
     learnset MOVE_POUND, 1
     learnset MOVE_LEER, 1

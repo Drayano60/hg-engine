@@ -86,7 +86,7 @@ u32 LONG_CALL MoveHitUTurnHeldItemEffectCheck(void *bw, struct BattleStruct *sp,
         ret = TRUE;
     }
 
-    if ((def_hold_eff == HOLD_EFFECT_DAMAGE_HOLDER_TRANSFER_ON_CONTACT) // sticky barb
+    if ((def_hold_eff == HOLD_EFFECT_DMG_USER_CONTACT_XFR) // sticky barb
      && (sp->battlemon[sp->attack_client].hp)
         && (sp->battlemon[sp->attack_client].item == 0)
         && ((sp->scw[atk_side].knockoff_item & (1 << sp->sel_mons_no[sp->attack_client])) == 0)
@@ -152,7 +152,7 @@ u32 LONG_CALL MoveHitUTurnHeldItemEffectCheck(void *bw, struct BattleStruct *sp,
     if
     (
         // Throat Spray
-        (atk_hold_eff == HOLD_EFFECT_THROAT_SPRAY)
+        (atk_hold_eff == HOLD_EFFECT_BOOST_SPATK_ON_SOUND_MOVE)
         && ((sp->waza_status_flag & MOVE_STATUS_FLAG_MISS) == 0)
         && (IsMoveSoundBased(sp->current_move_index))
         && (sp->battlemon[sp->attack_client].hp)
@@ -271,7 +271,7 @@ u32 LONG_CALL ServerWazaHitAfterCheckAct(void *bw, struct BattleStruct *sp)
         case SHWAC_HELD_ITEM_THROAT_SPRAY:
             if
             (
-                (hold_effect == HOLD_EFFECT_THROAT_SPRAY)
+                (hold_effect == HOLD_EFFECT_BOOST_SPATK_ON_SOUND_MOVE)
                 && ((sp->server_status_flag2 & SERVER_STATUS_FLAG2_U_TURN) == 0)
                 // This can activate on status moves too so we use this. FLAG_HIT only works for damaging moves it seems like?
                 && ((sp->waza_status_flag & MOVE_STATUS_FLAG_MISS) == 0)

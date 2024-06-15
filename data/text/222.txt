@@ -790,7 +790,14 @@ Hasty Mint
 Jolly Mint
 Naive Mint
 Serious Mint
-Stellar Stone
 Fairy Feather
+Syrupy Apple
+Mediocre Teacup
+MasterfulTeacup
+CornerstoneMask
+Wellspring Mask
+HearthflameMask
+Metal Alloy
+Stellar Stone
 Teleport Gem
 GS Ball

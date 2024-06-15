@@ -1,13 +1,14 @@
 .nds
 .thumb
 
-.include "armips/include/abilities.s"
 .include "armips/include/constants.s"
 .include "armips/include/config.s"
-.include "armips/include/itemnums.s"
 .include "armips/include/macros.s"
-.include "armips/include/movenums.s"
-.include "armips/include/monnums.s"
+
+.include "asm/include/abilities.inc"
+.include "asm/include/items.inc"
+.include "asm/include/moves.inc"
+.include "asm/include/species.inc"
 
 ALLOW_ILLEGAL_MOVES equ 1
 

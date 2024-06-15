@@ -5,6 +5,9 @@
 .include "armips/include/monnums.s"
 .include "armips/include/movenums.s"
 .include "armips/include/config.s"
+.include "asm/include/moves.inc"
+.include "asm/include/species.inc"
+.include "armips/include/config.s"
 
 // the level up moves for each pokemon
 

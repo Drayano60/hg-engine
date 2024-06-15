@@ -18,7 +18,6 @@
 
 // function declarations from this file
 int MoveCheckDamageNegatingAbilities(struct BattleStruct *sp, int attacker, int defender);
-BOOL IntimidateCheckHelper(struct BattleStruct *sp, u32 client);
 int SwitchInAbilityCheck(void *bw, struct BattleStruct *sp);
 BOOL AreAnyStatsNotAtValue(struct BattleStruct *sp, int client, int value, BOOL excludeAccuracyEvasion);
 u32 TurnEndAbilityCheck(void *bw, struct BattleStruct *sp, int client_no);
@@ -253,13 +252,15 @@ int MoveCheckDamageNegatingAbilities(struct BattleStruct *sp, int attacker, int 
         }
     }
 
-    // TODO: Check Cloud Nine and Air Lock
-    if ((sp->field_condition & WEATHER_EXTREMELY_HARSH_SUNLIGHT) && (movetype == TYPE_WATER)) {
-        scriptnum = SUB_SEQ_CANCEL_WATER_MOVE;
-    }
+    // Handle Extremely Harsh Sunlight and Heavy Rain
+    if (!CheckSideAbility(gBattleSystem, sp, CHECK_ABILITY_ALL_HP, 0, ABILITY_CLOUD_NINE) && !CheckSideAbility(gBattleSystem, sp, CHECK_ABILITY_ALL_HP, 0, ABILITY_AIR_LOCK)) {
+        if ((sp->field_condition & WEATHER_EXTREMELY_HARSH_SUNLIGHT) && (movetype == TYPE_WATER)) {
+            scriptnum = SUB_SEQ_CANCEL_WATER_MOVE;
+        }
 
-    if ((sp->field_condition & WEATHER_HEAVY_RAIN) && (movetype == TYPE_FIRE)) {
-        scriptnum = SUB_SEQ_CANCEL_FIRE_MOVE;
+        if ((sp->field_condition & WEATHER_HEAVY_RAIN) && (movetype == TYPE_FIRE)) {
+            scriptnum = SUB_SEQ_CANCEL_FIRE_MOVE;
+        }
     }
 
     return scriptnum;
@@ -424,7 +425,7 @@ u32 TurnEndAbilityCheck(void *bw, struct BattleStruct *sp, int client_no)
             if (sp->battlemon[client_no].hp)
             {
                 // Use % 7 instead of %5 and pass FALSE to AreAnyStatsNotAtValue to include accuracy/evasion like earlier gens.
-                
+
                 int temp = BattleRand(bw) % 5;
 
                 if (AreAnyStatsNotAtValue(sp, client_no, 12, TRUE)) // if any stat can be lowered
@@ -969,7 +970,7 @@ BOOL ServerFlinchCheck(void *bw, struct BattleStruct *sp)
     if (GetBattlerAbility(sp, sp->attack_client) == ABILITY_STENCH) // stench adds 10% flinch chance
     {
         atk += 10;
-        heldeffect = HOLD_EFFECT_INCREASE_FLINCH; // doesn't permanently change the hold effect, just for this function
+        heldeffect = HOLD_EFFECT_SOMETIMES_FLINCH; // doesn't permanently change the hold effect, just for this function
     }
 
     /**** AURORA CRYSTAL: Modernized Serene Grace to also double the chance of King's Rock etc. ****/
@@ -980,7 +981,7 @@ BOOL ServerFlinchCheck(void *bw, struct BattleStruct *sp)
     /**** AURORA CRYSTAL: Modernized the check here to look at the used move's effect, instead of the FLAG_KINGS_ROCK setting. ****/
     if (sp->defence_client != 0xFF)
     {
-        if ((heldeffect == HOLD_EFFECT_INCREASE_FLINCH)
+        if ((heldeffect == HOLD_EFFECT_SOMETIMES_FLINCH)
          && ((sp->waza_status_flag & WAZA_STATUS_FLAG_NO_OUT) == 0)
          && ((sp->oneSelfFlag[sp->defence_client].physical_damage)
           || (sp->oneSelfFlag[sp->defence_client].special_damage))

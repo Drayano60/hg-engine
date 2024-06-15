@@ -100,7 +100,7 @@ _FoggyWeather:
 
 /* New */
 _ClearTerrain:
-    GoTo BATTLE_SUBSCRIPT_HANDLE_TERRAIN_END /* Clears active terrain */
+    Call BATTLE_SUBSCRIPT_HANDLE_TERRAIN_END /* Clears active terrain */
 
 _End:
     End 

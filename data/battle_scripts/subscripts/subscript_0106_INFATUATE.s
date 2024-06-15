@@ -70,10 +70,10 @@ _117:
     End 
 
 _AromaVeil:
-    printattackmessage
-    waitmessage
-    wait 0x1E
-    printmessage 2013, 0xB, 0x7, 0x7
-    waitmessage
-    wait 0x1E
-    endscript
+    PrintAttackMessage
+    Wait
+    WaitButtonABTime 30
+    PrintMessage 2013, 0xB, 0x7, 0x7
+    Wait
+    WaitButtonABTime 30
+    End

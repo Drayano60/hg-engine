@@ -965,7 +965,7 @@
 // there are a bunch more here but that is fine
 
 /**** AURORA CRYSTAL: Increased from 923 definition ****/
-NUM_OF_MOVES equ 944
+.equ NUM_OF_MOVES, 944
 
 .equ MOVE_G_MAX_WILDFIRE, (NUM_OF_MOVES-1+1)
 .equ MOVE_G_MAX_BEFUDDLE, (NUM_OF_MOVES-1+2)

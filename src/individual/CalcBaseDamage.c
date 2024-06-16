@@ -14,6 +14,7 @@
 
 static BOOL CalcRageFistDamageBonus(struct BattleStruct *sp);
 static BOOL CalcStoredPowerDamageBonus(struct BattleStruct *sp);
+static BOOL isKnockOffDamageBoosted(struct BattleStruct *sp);
 
 struct PACKED sDamageCalc
 {
@@ -203,6 +204,39 @@ static int CalcStoredPowerDamageBonus(struct BattleStruct *sp)
     return i;
 };
 
+static int isKnockOffDamageBoosted(struct BattleStruct *sp)
+{
+    u32 item = sp->battlemon[sp->defence_client].item;
+    u32 species = sp->battlemon[sp->defence_client].species;
+
+    if (item != 0
+        // z crystals can not be removed wherever they are
+        //&& !IS_ITEM_Z_CRYSTAL(item)
+        // mega stones can not be knocked off their own mon
+        && !CheckMegaData(species, item)
+        // arceus plate on arceus can not be knocked off
+        && !(species == SPECIES_ARCEUS && IS_ITEM_ARCEUS_PLATE(item))
+        // technically this can be knocked off as of SV but the transformation code hasnt been moved to the core as of right now so ill leave it alone for right now
+        && !(species == SPECIES_GIRATINA && item == ITEM_GRISEOUS_ORB)
+        // drives can not be knocked off of genesect
+        && !(species == SPECIES_GENESECT && IS_ITEM_GENESECT_DRIVE(item))
+        // silvally can not have its memory knocked off
+        && !(species == SPECIES_SILVALLY && IS_ITEM_MEMORY(item))
+        // zacian can not have its rusted sword knocked off
+        && !(species == SPECIES_ZACIAN && item == ITEM_RUSTED_SWORD)
+        // zamazenta can not have its rusted shield knocked off
+        && !(species == SPECIES_ZAMAZENTA && item == ITEM_RUSTED_SHIELD)
+        // paradox mons can not have their booster energy knocked off
+        && !(IS_SPECIES_PARADOX_FORM(species) && item == ITEM_BOOSTER_ENERGY)
+        // masks can not be knocked off of ogerpon
+        && !(species == SPECIES_OGERPON && IS_ITEM_MASK(item))
+    )
+    {
+        return TRUE;
+    }
+    return FALSE;
+}
+
 int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
                    u32 field_cond, u16 pow, u8 type UNUSED, u8 attacker, u8 defender, u8 critical)
 {
@@ -355,7 +389,7 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
         movepower *= 2;
     }
 
-    if (moveno == MOVE_KNOCK_OFF && CanKnockOffApply(sp)) {
+    if (moveno == MOVE_KNOCK_OFF && isKnockOffDamageBoosted(sp)) {
         movepower = movepower * 15 / 10;
     }
 
@@ -691,10 +725,10 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
     /**** AURORA CRYSTAL: Redesign pinch abilities to also have a constant 10% boost at higher HP. ****/
     if
     (
-        (movetype == TYPE_GRASS) && (AttackingMon.ability == ABILITY_OVERGROW)
-        || (movetype == TYPE_FIRE) && (AttackingMon.ability == ABILITY_BLAZE)
-        || (movetype == TYPE_WATER) && (AttackingMon.ability == ABILITY_TORRENT)
-        || (movetype == TYPE_BUG) && (AttackingMon.ability == ABILITY_SWARM)
+        ((movetype == TYPE_GRASS) && (AttackingMon.ability == ABILITY_OVERGROW))
+        || ((movetype == TYPE_FIRE) && (AttackingMon.ability == ABILITY_BLAZE))
+        || ((movetype == TYPE_WATER) && (AttackingMon.ability == ABILITY_TORRENT))
+        || ((movetype == TYPE_BUG) && (AttackingMon.ability == ABILITY_SWARM))
     )
     {
         if (AttackingMon.hp <= (AttackingMon.maxhp * 10 / 30)) {

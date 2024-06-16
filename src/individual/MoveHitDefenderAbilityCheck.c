@@ -15,6 +15,7 @@
 
 static BOOL MummyAbilityCheck(struct BattleStruct *sp);
 static BOOL CanPickpocketStealClientItem(struct BattleStruct *sp, int client_no);
+static BOOL WanderingSpiritAbilityCheck(struct BattleStruct *sp);
 
 /**
  *  @brief check if a move should activate the defender's ability and run a subscript
@@ -728,6 +729,41 @@ static BOOL CanPickpocketStealClientItem(struct BattleStruct *sp, int client_no)
         case ITEM_RED_ORB:
         case ITEM_GRISEOUS_ORB:
         case ITEM_NONE:
+            return FALSE;
+        default:
+            return TRUE;
+    }
+}
+
+/**** AURORA CRYSTAL: Define abilities that Wandering Spirit cannot replace. */
+static BOOL WanderingSpiritAbilityCheck(struct BattleStruct *sp)
+{
+    switch(GetBattlerAbility(sp, sp->attack_client))
+    {
+        case ABILITY_AS_ONE_GLASTRIER:
+        case ABILITY_AS_ONE_SPECTRIER:
+        case ABILITY_BATTLE_BOND:
+        case ABILITY_COMATOSE:
+        case ABILITY_COMMANDER:
+        case ABILITY_DISGUISE:
+        case ABILITY_FLOWER_GIFT:
+        case ABILITY_FORECAST:
+        case ABILITY_GULP_MISSILE:
+        case ABILITY_HUNGER_SWITCH:
+        case ABILITY_ICE_FACE:
+        case ABILITY_ILLUSION:
+        case ABILITY_IMPOSTER:
+        case ABILITY_MULTITYPE:
+        case ABILITY_NEUTRALIZING_GAS:
+        case ABILITY_POWER_OF_ALCHEMY:
+        case ABILITY_RECEIVER:
+        case ABILITY_RKS_SYSTEM:
+        case ABILITY_SCHOOLING:
+        case ABILITY_SHIELDS_DOWN:
+        case ABILITY_STANCE_CHANGE:
+        case ABILITY_WONDER_GUARD:
+        case ABILITY_ZEN_MODE:
+        case ABILITY_ZERO_TO_HERO:
             return FALSE;
         default:
             return TRUE;

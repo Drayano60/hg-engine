@@ -24,7 +24,6 @@ u32 TurnEndAbilityCheck(void *bw, struct BattleStruct *sp, int client_no);
 BOOL MummyAbilityCheck(struct BattleStruct *sp);
 
 /**** AURORA CRYSTAL: Define new functions. ****/
-BOOL WanderingSpiritAbilityCheck(struct BattleStruct *sp);
 BOOL KingsRockValidCheck(struct BattleStruct *sp);
 
 BOOL CanPickpocketStealClientItem(struct BattleStruct *sp, int client_no);
@@ -498,41 +497,6 @@ BOOL MummyAbilityCheck(struct BattleStruct *sp)
         case ABILITY_DISGUISE:
         case ABILITY_COMATOSE:
         case ABILITY_MUMMY:
-            return FALSE;
-        default:
-            return TRUE;
-    }
-}
-
-/**** AURORA CRYSTAL: Define abilities that Wandering Spirit cannot replace. */
-BOOL WanderingSpiritAbilityCheck(struct BattleStruct *sp)
-{
-    switch(GetBattlerAbility(sp, sp->attack_client))
-    {
-        case ABILITY_AS_ONE_GLASTRIER:
-        case ABILITY_AS_ONE_SPECTRIER:
-        case ABILITY_BATTLE_BOND:
-        case ABILITY_COMATOSE:
-        case ABILITY_COMMANDER:
-        case ABILITY_DISGUISE:
-        case ABILITY_FLOWER_GIFT:
-        case ABILITY_FORECAST:
-        case ABILITY_GULP_MISSILE:
-        case ABILITY_HUNGER_SWITCH:
-        case ABILITY_ICE_FACE:
-        case ABILITY_ILLUSION:
-        case ABILITY_IMPOSTER:
-        case ABILITY_MULTITYPE:
-        case ABILITY_NEUTRALIZING_GAS:
-        case ABILITY_POWER_OF_ALCHEMY:
-        case ABILITY_RECEIVER:
-        case ABILITY_RKS_SYSTEM:
-        case ABILITY_SCHOOLING:
-        case ABILITY_SHIELDS_DOWN:
-        case ABILITY_STANCE_CHANGE:
-        case ABILITY_WONDER_GUARD:
-        case ABILITY_ZEN_MODE:
-        case ABILITY_ZERO_TO_HERO:
             return FALSE;
         default:
             return TRUE;

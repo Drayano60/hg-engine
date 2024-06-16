@@ -1647,7 +1647,7 @@ BOOL btl_scr_cmd_54_ohko_move_handle(void *bw, struct BattleStruct *sp)
     }
     else{
         if(((sp->battlemon[sp->defence_client].effect_of_moves & MOVE_EFFECT_FLAG_LOCK_ON) == 0)
-            && sp->battlemon[sp->defence_client].glaive_rush_flag != 1 /**** AURORA CRYSTAL: Add Glaive Rush eff of not missing if target used it. */
+            && (sp->battlemon[sp->defence_client].glaive_rush_flag != 1) /**** AURORA CRYSTAL: Add Glaive Rush eff of not missing if target used it. */
             && (GetBattlerAbility(sp,sp->attack_client) != ABILITY_NO_GUARD)
             && (GetBattlerAbility(sp,sp->defence_client) != ABILITY_NO_GUARD))
         {
@@ -1665,9 +1665,9 @@ BOOL btl_scr_cmd_54_ohko_move_handle(void *bw, struct BattleStruct *sp)
         else
         {
             if ((((sp->battlemon[sp->defence_client].moveeffect.battlerIdLockOn == sp->attack_client) && (sp->battlemon[sp->defence_client].effect_of_moves & MOVE_EFFECT_FLAG_LOCK_ON))
+                    || (sp->battlemon[sp->defence_client].glaive_rush_flag == 1) /**** AURORA CRYSTAL: Add Glaive Rush eff of not missing if target used it. */
                     || (GetBattlerAbility(sp,sp->attack_client) == ABILITY_NO_GUARD)
                     || (GetBattlerAbility(sp,sp->defence_client) == ABILITY_NO_GUARD))
-                    || sp->battlemon[sp->defence_client].glaive_rush_flag == 1 /**** AURORA CRYSTAL: Add Glaive Rush eff of not missing if target used it. */
                 && (sp->battlemon[sp->attack_client].level >= sp->battlemon[sp->defence_client].level))
             {
                 hit = 1;
@@ -2844,7 +2844,7 @@ BOOL btl_scr_cmd_F9_canclearprimalweather(void *bw, struct BattleStruct *sp) {
  *  @param sp global battle structure
  *  @return FALSE
  */
-BOOL btl_scr_cmd_FA_iflasthitofmultihit(void *bw, struct BattleStruct *sp) {
+BOOL btl_scr_cmd_FA_iflasthitofmultihit(void *bw UNUSED, struct BattleStruct *sp) {
     IncrementBattleScriptPtr(sp, 1);
     int address = read_battle_script_param(sp);
 
@@ -2863,7 +2863,7 @@ BOOL btl_scr_cmd_FA_iflasthitofmultihit(void *bw, struct BattleStruct *sp) {
  *  @param sp global battle structure
  *  @return FALSE
  */
-BOOL btl_scr_cmd_FB_strengthsapcalc(void *bw, struct BattleStruct *sp) {
+BOOL btl_scr_cmd_FB_strengthsapcalc(void *bw UNUSED, struct BattleStruct *sp) {
     IncrementBattleScriptPtr(sp, 1);
 
     s32 damage;

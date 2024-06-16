@@ -336,6 +336,8 @@ BOOL CalcAccuracy(void *bw, struct BattleStruct *sp, int attacker, int defender,
         return FALSE;
     }
 
+    hold_effect = HeldItemHoldEffectGet(sp, defender);
+
     /**** AURORA CRYSTAL: Marked if Echoed Voice was used during the turn here. */
     // Probably not the most sensible place to put it, but it does seem to fulfil the requirement
     // of marking it as used even if the move misses or is protected against.
@@ -410,7 +412,7 @@ BOOL CalcAccuracy(void *bw, struct BattleStruct *sp, int attacker, int defender,
         stat_stage_acc *= 2;
     }
 
-    /* if (MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_SIMPLE) == TRUE)
+    if (MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_SIMPLE) == TRUE)
     {
         stat_stage_evasion *= 2;
     } */
@@ -568,7 +570,6 @@ BOOL CalcAccuracy(void *bw, struct BattleStruct *sp, int attacker, int defender,
         accuracy = accuracy * 50 / 100;
     }
 
-    hold_effect = HeldItemHoldEffectGet(sp, defender);
     hold_effect_atk = HeldItemAtkGet(sp, defender, 0);
 
     if (hold_effect == HOLD_EFFECT_ACC_REDUCE)
@@ -610,8 +611,6 @@ BOOL CalcAccuracy(void *bw, struct BattleStruct *sp, int attacker, int defender,
 
     /**** AURORA CRYSTAL: Add modernized mechanic for moves like Stomp to never miss minimized targets. ****/
     if (sp->battlemon[defender].effect_of_moves & MOVE_EFFECT_FLAG_MINIMIZED) {
-        u16 move_effect = sp->moveTbl[move_no].effect;
-
         if (IsMoveAntiMinimize(move_no)) {
             return FALSE;
         }
@@ -1528,7 +1527,7 @@ int LONG_CALL ServerDoTypeCalcMod(void *bw UNUSED, struct BattleStruct *sp, int 
     /**** This unfortunately does not work for most effects as the AI scripts only invoke the type check for the paralysis effect... */
 
     // This is the previous check to see if a move should call this function.
-    const isValidMoveForCalc =
+    BOOL isValidMoveForCalc =
     (
         (sp->moveTbl[move_no].target != 0x0010) &&
         (sp->moveTbl[move_no].target != 0x0020) &&
@@ -1755,18 +1754,18 @@ int LONG_CALL ServerDoTypeCalcMod(void *bw UNUSED, struct BattleStruct *sp, int 
 
     if
     (
-        defenderAbility == ABILITY_SOUNDPROOF && IsMoveSoundBased(move_no)
-        || defenderAbility == ABILITY_LIGHTNING_ROD && move_type == TYPE_ELECTRIC
-        || defenderAbility == ABILITY_MOTOR_DRIVE && move_type == TYPE_ELECTRIC
-        || defenderAbility == ABILITY_DRY_SKIN && move_type == TYPE_WATER
-        || defenderAbility == ABILITY_STORM_DRAIN && move_type == TYPE_WATER
-        || defenderAbility == ABILITY_WATER_ABSORB && move_type == TYPE_WATER
-        || defenderAbility == ABILITY_SAP_SIPPER && move_type == TYPE_GRASS
-        || defenderAbility == ABILITY_BULLETPROOF && IsMoveBallBombBased(move_no)
-        || defenderAbility == ABILITY_WIND_RIDER && IsMoveWindBased(move_no)
-        || defenderAbility == ABILITY_ARMOR_TAIL && adjustedMoveHasPositivePriority(sp, attack_client)
-        || defenderAbility == ABILITY_DAZZLING && adjustedMoveHasPositivePriority(sp, attack_client)
-        || defenderAbility == ABILITY_QUEENLY_MAJESTY && adjustedMoveHasPositivePriority(sp, attack_client)
+        (defenderAbility == ABILITY_SOUNDPROOF && IsMoveSoundBased(move_no))
+        || (defenderAbility == ABILITY_LIGHTNING_ROD && move_type == TYPE_ELECTRIC)
+        || (defenderAbility == ABILITY_MOTOR_DRIVE && move_type == TYPE_ELECTRIC)
+        || (defenderAbility == ABILITY_DRY_SKIN && move_type == TYPE_WATER)
+        || (defenderAbility == ABILITY_STORM_DRAIN && move_type == TYPE_WATER)
+        || (defenderAbility == ABILITY_WATER_ABSORB && move_type == TYPE_WATER)
+        || (defenderAbility == ABILITY_SAP_SIPPER && move_type == TYPE_GRASS)
+        || (defenderAbility == ABILITY_BULLETPROOF && IsMoveBallBombBased(move_no))
+        || (defenderAbility == ABILITY_WIND_RIDER && IsMoveWindBased(move_no))
+        || (defenderAbility == ABILITY_ARMOR_TAIL && adjustedMoveHasPositivePriority(sp, attack_client))
+        || (defenderAbility == ABILITY_DAZZLING && adjustedMoveHasPositivePriority(sp, attack_client))
+        || (defenderAbility == ABILITY_QUEENLY_MAJESTY && adjustedMoveHasPositivePriority(sp, attack_client))
     )
     {
         damage = 0;

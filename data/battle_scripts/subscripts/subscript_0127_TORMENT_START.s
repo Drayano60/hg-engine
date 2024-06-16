@@ -13,7 +13,7 @@ _000:
     PrintMessage 494, TAG_NICKNAME, BATTLER_CATEGORY_DEFENDER
     Wait 
     WaitButtonABTime 30
-    Call BATTLE_SUBSCRIPT_HANDLE_MENTAL_HERB /**** AURORA CRYSTAL: Mental Herb check. */
+    Call BATTLE_SUBSCRIPT_HANDLE_MENTAL_HERB_CURE /**** AURORA CRYSTAL: Mental Herb check. */
     End 
 
 _025:

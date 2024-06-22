@@ -1404,6 +1404,16 @@ BOOL LONG_CALL GiveMon(int heapId, void *saveData, int species, int level, int f
         ClearScriptFlag(HIDDEN_ABILITIES_FLAG);
     }
 
+
+    /**** AURORA CRYSTAL: Add some handling to allow a custom met location. ****/
+    // This pulls from the text in Text Archive 281. It's currently being used for the regional form trades in the GTS.
+    u32 metLocationVar = GetScriptVar(16736);
+
+    if (metLocationVar > 0) {
+        u32 metLocationId = metLocationVar + 2000;
+        SetMonData(pokemon, MON_DATA_HGSS_MET_LOCATION, &metLocationId);
+    }
+
     if (ability != 0) {
         SetMonData(pokemon, MON_DATA_ABILITY, &ability);
     } else {
@@ -1542,6 +1552,7 @@ void LONG_CALL CreateBoxMonData(struct BoxPokemon *boxmon, int species, int leve
 
     i=GetBoxMonGender(boxmon);
     SetBoxMonData(boxmon,MON_DATA_GENDER,(u8 *)&i);
+
     FillInBoxMonLearnset(boxmon);
     BoxMonSetFastModeOff(boxmon,flag);
 }

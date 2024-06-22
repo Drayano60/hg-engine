@@ -305,6 +305,12 @@ export default {
         "ariados",
         "raticatealola",
     ],
+    signalbeam: [
+        "frosmoth",
+    ],
+    silverwind: [
+        "frosmoth",
+    ],
     suckerpunch: [
         "luxray",
     ],

@@ -43,6 +43,7 @@ a010_816:
     waitstate
     waitparticle
     unloadparticle 0
+    unloadparticle 1
     end
 
 .close

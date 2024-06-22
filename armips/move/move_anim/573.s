@@ -46,7 +46,7 @@ a010_573:
     callfunction 34, 6, 16, 0, 1, 13311, 14, 0, "NaN", "NaN", "NaN", "NaN"
     waitparticle
     unloadparticle 0
-    callfunction 33, 5, 0, 1, 12, 0, 32767, "NaN", "NaN", "NaN", "NaN", "NaN"
+    callfunction 33, 5, 0, 1, 12, 0, 887, "NaN", "NaN", "NaN", "NaN", "NaN"
     waitstate
     end
     

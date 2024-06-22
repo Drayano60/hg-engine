@@ -49,3 +49,8 @@ stuff to edit in docs (maybe in-game descriptions too?):
 - added snipe shot with a different effect
 - added dragon darts with a different effect
 - changed snowscape to just be canon compatible + any ice types not in s/v that also learn hail
+- starters npc now lets you pick between fire/water/grass, but the actual pokemon is random between the gens 1-9 starters for that type
+- dragons den elder now gives you a dragon psuedo legend at random. still HA if questions answered correctly
+- odd egg can now also contain toxel
+- make note that alola/galar/hisui/paldea terminals list "x region" as the met location
+- make note that syrup bomb has a different effect

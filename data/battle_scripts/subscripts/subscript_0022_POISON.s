@@ -13,6 +13,9 @@ _000:
     GoTo _082
 
 _023:
+    CompareVarToValue OPCODE_EQU, BSCRIPT_VAR_MOVE_NO_CUR, MOVE_MORTAL_SPIN, _MortalSpinEffect /**** AURORA CRYSTAL: Perform the spin effect when Mortal Spin is used, on top of the poisoning. */
+
+_Return:
     CheckIgnorableAbility CHECK_OPCODE_HAVE, BATTLER_CATEGORY_SIDE_EFFECT_MON, ABILITY_IMMUNITY, _214
     CheckIgnorableAbility CHECK_OPCODE_HAVE, BATTLER_CATEGORY_SIDE_EFFECT_MON, ABILITY_PASTEL_VEIL, _214 /**** AURORA VEIL: Pastel Veil check. */
     CheckIgnorableAbility CHECK_OPCODE_HAVE, BATTLER_RELATIVE_ALLY|BATTLER_CATEGORY_SIDE_EFFECT_MON, ABILITY_PASTEL_VEIL, _360 /**** AURORA VEIL: Pastel Veil check. */
@@ -187,3 +190,7 @@ _391:
     CompareVarToValue OPCODE_EQU, BSCRIPT_VAR_SIDE_EFFECT_TYPE, SIDE_EFFECT_TYPE_TOXIC_SPIKES, _359
     UpdateVar OPCODE_FLAG_ON, BSCRIPT_VAR_MOVE_STATUS_FLAGS, MOVE_STATUS_FAILED
     End
+
+_MortalSpinEffect:
+    RapidSpin 
+    GoTo _Return

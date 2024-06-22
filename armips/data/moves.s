@@ -10603,7 +10603,7 @@ movedata MOVE_CATASTROPIKA, "Catastropika"
     movedescription MOVE_CATASTROPIKA, "---"
 
 movedata MOVE_SHORE_UP, "Shore Up"
-    battleeffect MOVE_EFFECT_HIT
+    battleeffect MOVE_EFFECT_RESTORE_HALF_HP /**** EDIT: Linked sub_seq has an implementation. ****/
     pss SPLIT_STATUS
     basepower 0
     type TYPE_GROUND
@@ -11403,7 +11403,7 @@ movedata MOVE_SHADOW_BONE, "Shadow Bone"
     movedescription MOVE_SHADOW_BONE, "---"
 
 movedata MOVE_ACCELEROCK, "Accelerock"
-    battleeffect MOVE_EFFECT_HIT
+    battleeffect MOVE_EFFECT_PRIORITY_1
     pss SPLIT_PHYSICAL
     basepower 40
     type TYPE_ROCK
@@ -12667,7 +12667,7 @@ movedata MOVE_APPLE_ACID, "Apple Acid"
     movedescription MOVE_APPLE_ACID, "---"
 
 movedata MOVE_GRAV_APPLE, "Grav Apple"
-    battleeffect MOVE_EFFECT_HIT
+    battleeffect MOVE_EFFECT_LOWER_DEFENSE_HIT /* Damage boost in Gravity is handled in CalcBaseDamage.c. */
     pss SPLIT_PHYSICAL
     basepower 80
     type TYPE_GRASS
@@ -12747,7 +12747,7 @@ movedata MOVE_OBSTRUCT, "Obstruct"
     movedescription MOVE_OBSTRUCT, "---"
 
 movedata MOVE_FALSE_SURRENDER, "False Surrender"
-    battleeffect MOVE_EFFECT_HIT
+    battleeffect MOVE_EFFECT_BYPASS_ACCURACY
     pss SPLIT_PHYSICAL
     basepower 80
     type TYPE_DARK
@@ -13803,7 +13803,7 @@ movedata MOVE_SPICY_EXTRACT, "Spicy Extract"
     movedescription MOVE_SPICY_EXTRACT, "---"
 
 movedata MOVE_SPIN_OUT, "Spin Out"
-    battleeffect MOVE_EFFECT_HIT
+    battleeffect MOVE_EFFECT_SPEED_DOWN_2_HIT
     pss SPLIT_PHYSICAL
     basepower 100
     type TYPE_STEEL
@@ -13915,13 +13915,13 @@ movedata MOVE_TRIPLE_DIVE, "Triple Dive"
     movedescription MOVE_TRIPLE_DIVE, "---"
 
 movedata MOVE_MORTAL_SPIN, "Mortal Spin"
-    battleeffect MOVE_EFFECT_HIT
+    battleeffect MOVE_EFFECT_POISON_HIT /* Clearing eff is handled in same subseq as Rapid Spin. */
     pss SPLIT_PHYSICAL
     basepower 30
     type TYPE_POISON
     accuracy 100
     pp 15
-    effectchance 0
+    effectchance 100
     target MOVE_TARGET_BOTH
     priority 0
     flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
@@ -14260,7 +14260,7 @@ movedata MOVE_HYPER_DRILL, "Hyper Drill"
     effectchance 0
     target MOVE_TARGET_SELECTED
     priority 0
-    flags FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
+    flags FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
@@ -14507,13 +14507,13 @@ movedata MOVE_MATCHA_GOTCHA, "Matcha Gotcha"
     movedescription MOVE_MATCHA_GOTCHA, "---"
 
 movedata MOVE_SYRUP_BOMB, "Syrup Bomb"
-    battleeffect MOVE_EFFECT_HIT
+    battleeffect MOVE_EFFECT_LOWER_SPEED_HIT /**** EDIT: Changed effect. */
     pss SPLIT_SPECIAL
     basepower 60
     type TYPE_GRASS
     accuracy 85
     pp 10
-    effectchance 0
+    effectchance 100
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
@@ -14571,7 +14571,7 @@ movedata MOVE_TERA_STARSTORM, "Tera Starstorm"
     movedescription MOVE_TERA_STARSTORM, "---"
 
 movedata MOVE_FICKLE_BEAM, "Fickle Beam"
-    battleeffect MOVE_EFFECT_HIT
+    battleeffect MOVE_EFFECT_FICKLE_BEAM
     pss SPLIT_SPECIAL
     basepower 80
     type TYPE_DRAGON
@@ -15830,3 +15830,19 @@ movedescription MOVE_TORCH_SONG, "The user blows out\nraging flames as if\nsingi
 movedescription MOVE_AQUA_STEP, "The user attacks the\nfoe with light and\nfluid dance steps.\nThis also raises the\nuser’s Speed stat."
 movedescription MOVE_GLAIVE_RUSH, "After using this move,\nmoves targeting the\nuser will deal double\ndamage and can’t miss\nuntil the user’s turn."
 movedescription MOVE_DRAGON_DARTS, "The user attacks\ntwice using Dreepy.\n(At the moment,\nthis move only hits\na single target.)"
+movedescription MOVE_ACCELEROCK, "The user smashes\ninto the target at\nhigh speed.\nThis move will always\ngo first."
+movedescription MOVE_APPLE_ACID, "The user attacks the\nfoe with an acidic\nliquid from apples.\nThis also lowers the\nfoe’s Sp. Def."
+movedescription MOVE_ARMOR_CANNON, "The user shoots its\nown armor out as\na blazing projectile.\nThis cuts the user’s\nDefense and Sp. Def."
+movedescription MOVE_BITTER_BLADE, "The user slashes the\nfoe with the force of\nits bitter feelings.\nThe user is healed by\nhalf the damage dealt."
+movedescription MOVE_FALSE_SURRENDER, "The user pretends\nto bow its head,\nthen stabs the foe\nwith its hair.\nThis cannot miss."
+movedescription MOVE_FICKLE_BEAM, "The user attacks by\nshooting a light beam.\nThere is a 30% chance\nfor this move’s power\nto be doubled."
+movedescription MOVE_FIRE_LASH, "The user hits the foe\nwith a burning lash.\nThis always lowers\nthe foe’s Defense\nstat."
+movedescription MOVE_GIGATON_HAMMER, "The user swings its\nbody and attacks\nwith its huge hammer.\nThis move can’t be\nused twice in a row."
+movedescription MOVE_GRAV_APPLE, "This always lowers\nthe foe’s Defense.\nThis move’s power is\nboosted by 50% when\nused within Gravity."
+movedescription MOVE_ICE_HAMMER, "The user swings and\nhits with its strong\nand heavy fist.\nIt lowers the user’s\nSpeed, however."
+movedescription MOVE_MORTAL_SPIN, "A spin attack that\npoisons any foes that\nit hits, and eliminates\nthe effects of\ncertain moves."
+movedescription MOVE_POPULATION_BOMB, "The user’s fellows\ngather in droves\nto perform a combo\nattack that hits up\nto 10 times in a row."
+movedescription MOVE_SHORE_UP, "The user regains up\nto half of its max HP.\nIn a sandstorm, this\ninstead heals by two-\nthirds of its max HP."
+movedescription MOVE_SPIN_OUT, "The user attacks\nby spinning furiously,\nstraining its legs.\nThis harshly lowers\nthe user’s Speed."
+movedescription MOVE_SYRUP_BOMB, "The user sets off\nan explosion of\nsticky candy syrup.\nThis always lowers\nthe foe’s Speed stat."
+movedescription MOVE_TRIPLE_DIVE, "The user performs\na perfectly timed\ntriple dive, hitting\nthe foe with water\nthree times in a row."

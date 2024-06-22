@@ -2115,3 +2115,6 @@ The opposing {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nwhipped up a sandstorm!
 {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nmade it snow!
 The wild {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nmade it snow!
 The opposing {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nmade it snow!
+{STRVAR_1 1, 0, 0} is going all out\nfor this attack!
+The wild {STRVAR_1 1, 0, 0} is going\nall out for this attack!
+The opposing {STRVAR_1 1, 0, 0} is going\nall out for this attack!

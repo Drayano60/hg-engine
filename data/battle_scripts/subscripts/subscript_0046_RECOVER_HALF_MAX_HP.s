@@ -7,6 +7,9 @@ _000:
     Wait 
     CompareVarToValue OPCODE_EQU, BSCRIPT_VAR_MOVE_NO_CUR, MOVE_LIFE_DEW, _LifeDew /**** AURORA CRYSTAL: Special handling for Life Dew. */
     UpdateMonDataFromVar OPCODE_GET, BATTLER_CATEGORY_ATTACKER, BMON_DATA_MAXHP, BSCRIPT_VAR_HP_CALC
+    CompareVarToValue OPCODE_EQU, BSCRIPT_VAR_MOVE_NO_CUR, MOVE_SHORE_UP, _ShoreUp /**** AURORA CRYSTAL: Special handling for Shore Up's sandstorm effect. */
+
+_Return:
     DivideVarByValue BSCRIPT_VAR_HP_CALC, 2
     UpdateVarFromVar OPCODE_SET, BSCRIPT_VAR_MSG_BATTLER_TEMP, BSCRIPT_VAR_BATTLER_ATTACKER
     Call BATTLE_SUBSCRIPT_RECOVER_HP
@@ -25,4 +28,14 @@ _LifeDew:
     UpdateVarFromVar OPCODE_SET, BSCRIPT_VAR_MSG_BATTLER_TEMP, BSCRIPT_VAR_BATTLER_DEFENDER
     Call BATTLE_SUBSCRIPT_RECOVER_HP
 _End:
+    End
+
+_ShoreUp:
+    /* In a sandstorm, Shore Up recovers 2/3 HP instead of 1/2 HP. */
+    CheckIgnoreWeather _Return
+    CompareVarToValue OPCODE_FLAG_NOT, BSCRIPT_VAR_FIELD_CONDITION, FIELD_CONDITION_SANDSTORM_ALL, _Return
+    UpdateVar OPCODE_MUL, BSCRIPT_VAR_HP_CALC, 2
+    DivideVarByValue BSCRIPT_VAR_HP_CALC, 3
+    UpdateVarFromVar OPCODE_SET, BSCRIPT_VAR_MSG_BATTLER_TEMP, BSCRIPT_VAR_BATTLER_ATTACKER
+    Call BATTLE_SUBSCRIPT_RECOVER_HP
     End

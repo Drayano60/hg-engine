@@ -358,6 +358,10 @@
 #define MOVE_EFFECT_TIDY_UP                                 530
 #define MOVE_EFFECT_IGNORE_TARGET_STAT_CHANGES              531
 #define MOVE_EFFECT_DEFENSE_DOWN_HIT                        532
+#define MOVE_EFFECT_CLANGOROUS_SOUL                         533
+#define MOVE_EFFECT_GLAIVE_RUSH                             534
+#define MOVE_EFFECT_FICKLE_BEAM                             535
+#define MOVE_EFFECT_SPEED_DOWN_2_HIT                        536
 
 
 #define MOVE_TARGET_SELECTED             0x0000

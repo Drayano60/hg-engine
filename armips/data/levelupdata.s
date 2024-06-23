@@ -23424,15 +23424,17 @@ levelup SPECIES_WATTREL
     learnset MOVE_SPARK, 16
     learnset MOVE_ROOST, 20
     learnset MOVE_UPROAR, 24
-    learnset MOVE_VOLT_SWITCH, 28
-    learnset MOVE_DUAL_WINGBEAT, 34
-    learnset MOVE_DISCHARGE, 40
-    learnset MOVE_AGILITY, 46
-    learnset MOVE_HURRICANE, 52
+    learnset MOVE_AIR_SLASH, 28
+    learnset MOVE_VOLT_SWITCH, 32
+    learnset MOVE_DUAL_WINGBEAT, 37
+    learnset MOVE_THUNDERBOLT, 42
+    learnset MOVE_TAILWIND, 47
+    learnset MOVE_AGILITY, 52
+    learnset MOVE_HURRICANE, 57
     terminatelearnset
 
 levelup SPECIES_KILOWATTREL
-    learnset MOVE_AIR_SLASH, 0
+    learnset MOVE_DISCHARGE, 0
     learnset MOVE_PECK, 1
     learnset MOVE_GROWL, 1
     learnset MOVE_THUNDER_SHOCK, 4
@@ -23441,11 +23443,13 @@ levelup SPECIES_KILOWATTREL
     learnset MOVE_SPARK, 16
     learnset MOVE_ROOST, 20
     learnset MOVE_UPROAR, 24
-    learnset MOVE_VOLT_SWITCH, 30
-    learnset MOVE_DUAL_WINGBEAT, 36
-    learnset MOVE_DISCHARGE, 42
-    learnset MOVE_AGILITY, 48
-    learnset MOVE_HURRICANE, 54
+    learnset MOVE_AIR_SLASH, 29
+    learnset MOVE_VOLT_SWITCH, 34
+    learnset MOVE_DUAL_WINGBEAT, 39
+    learnset MOVE_THUNDERBOLT, 44
+    learnset MOVE_TAILWIND, 49
+    learnset MOVE_AGILITY, 54
+    learnset MOVE_HURRICANE, 59
     terminatelearnset
 
 levelup SPECIES_MASCHIFF

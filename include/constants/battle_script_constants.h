@@ -440,6 +440,8 @@
 #define SUB_SEQ_SNOW_WARNING_WITH_MSG                 (492)
 #define SUB_SEQ_CLANGOROUS_SOUL                       (493)
 #define SUB_SEQ_GLAIVE_RUSH                           (494)
+#define SUB_SEQ_WIND_POWER                            (495)
+#define SUB_SEQ_TOXIC_DEBRIS                          (496)
 
 // add status effect constants--used in battle effect scripts to queue up a subscript through the table in src/moves.c
 

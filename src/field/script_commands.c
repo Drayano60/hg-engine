@@ -75,7 +75,7 @@ BOOL ModifyPokemon(SCRIPTCONTEXT *ctx) {
     }
 
     if (property == SET_STATUS_BURN) {
-        if (type1 == TYPE_FIRE || type2 == TYPE_FIRE || currentAbility == ABILITY_WATER_VEIL || currentAbility == ABILITY_THERMAL_EXCHANGE) {
+        if (type1 == TYPE_FIRE || type2 == TYPE_FIRE || currentAbility == ABILITY_WATER_VEIL || currentAbility == ABILITY_THERMAL_EXCHANGE || currentAbility == ABILITY_WATER_BUBBLE) {
             return FALSE;
         }
 

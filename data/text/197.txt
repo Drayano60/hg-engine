@@ -2118,3 +2118,9 @@ The opposing {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nmade it snow!
 {STRVAR_1 1, 0, 0} is going all out\nfor this attack!
 The wild {STRVAR_1 1, 0, 0} is going\nall out for this attack!
 The opposing {STRVAR_1 1, 0, 0} is going\nall out for this attack!
+{STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\ncharged it with power!
+The wild {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\ncharged it with power!
+The opposing {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\ncharged it with power!
+{STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0} scattered\npoison spikes on the ground!
+The wild {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nscattered poison spikes on the ground!
+The opposing {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nscattered poison spikes on the ground!

@@ -579,6 +579,36 @@ BOOL MoveHitDefenderAbilityCheckInternal(void *bw, struct BattleStruct *sp, int 
             }
             break;
 
+        case ABILITY_WIND_POWER:
+            if ((sp->battlemon[sp->defence_client].hp)
+                && ((sp->waza_status_flag & WAZA_STATUS_FLAG_NO_OUT) == 0)
+                && ((sp->server_status_flag & SERVER_STATUS_FLAG_x20) == 0)
+                && ((sp->server_status_flag2 & SERVER_STATUS_FLAG2_U_TURN) == 0)
+                && (IsMoveWindBased(sp->current_move_index))
+                && ((sp->oneSelfFlag[sp->defence_client].physical_damage) ||
+                    (sp->oneSelfFlag[sp->defence_client].special_damage)))
+            {
+                sp->state_client = sp->defence_client;
+                sp->client_work = sp->defence_client;
+                seq_no[0] = SUB_SEQ_WIND_POWER;
+                ret = TRUE;
+            }
+            break;
+
+        // Unlike most of these, Toxic Debris will still activate on the turn the Pokémon is KOed.
+        case ABILITY_TOXIC_DEBRIS:
+            if (((sp->waza_status_flag & WAZA_STATUS_FLAG_NO_OUT) == 0)
+                && ((sp->server_status_flag & SERVER_STATUS_FLAG_x20) == 0)
+                && ((sp->server_status_flag2 & SERVER_STATUS_FLAG2_U_TURN) == 0)
+                && ((sp->oneSelfFlag[sp->defence_client].physical_damage)))
+            {
+                sp->state_client = sp->defence_client;
+                sp->client_work = sp->defence_client;
+                seq_no[0] = SUB_SEQ_TOXIC_DEBRIS;
+                ret = TRUE;
+            }
+            break;
+
         /**** AURORA CRYSTAL: Handle new abilities. ****/
 
         // Magma Skin is a clone of Flame Body that is guaranteed to cause the burn.

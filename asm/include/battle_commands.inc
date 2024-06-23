@@ -1368,22 +1368,27 @@
     .long (((\arg_4 - .) / 4) - 1)
     .endm
 
-    .macro iflasthitofmultihit arg_0
+    .macro IfLastHitOfMultiHit arg_0
     .long 250
     .long (((\arg_0 - .) / 4) - 1)
     .endm
 
-    .macro strengthsapcalc
+    .macro StrengthSapCalc
     .long 251
     .endm
 
-    .macro didtargetraisestat arg_0
+    .macro DidTargetRaiseStat arg_0
     .long 252
     .long (((\arg_0 - .) / 4) - 1)
     .endm
 
-    .macro setglaiverushflag
+    .macro SetGlaiveRushFlag
     .long 253
+    .endm
+
+    .macro TryToxicDebris arg_0
+    .long 254
+    .long (((\arg_0 - .) / 4) - 1)
     .endm
 
 .endif

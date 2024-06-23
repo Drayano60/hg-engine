@@ -79,7 +79,7 @@ Halves foe’s accuracy if\nthis Pokémon is confused.
 Raises Speed if hit by an\nElectric-type move.
 Deals 10% more damage to\nfoes of the same gender.
 Raises Speed each time\nthe Pokémon flinches.
-Boosts the Pokémon’s\nevasion by 20% in hail.
+Boosts the Pokémon’s\nevasion by 20% in snow.
 Berries eaten at 25% HP\nare now eaten at 50% HP.
 Maximises Attack upon\ntaking a critical hit.
 Doubles Speed if a\nheld item is used.
@@ -113,7 +113,7 @@ Lowers damage from super\neffective attacks by 25%.
 Halves Attack and Speed\nstats for 3 turns.
 Ignores Ghost immunities.\nUnaffected by Intimidate.
 Draws in all Water-type\nmoves to up Sp. Attack.
-Recovers 6.25% of its max\nHP each turn in hail.
+Recovers 6.25% of its max\nHP each turn in snow.
 Lowers damage from super\neffective attacks by 25%.
 Summons a snowstorm for\n5 turns upon entry.
 The Pokémon may gather\nHoney from somewhere.
@@ -166,7 +166,7 @@ Gives full immunity to some\nball and bomb moves.
 Restores 33% HP as well\nafter eating most Berries.
 Boosts its Sp. Atk sharply\nif its stats are lowered.
 No status or stat drops\non Grass-type allies.
-Halves the damage from\nphysical moves.
+Halves the damage taken\nfrom physical moves.
 Flying-type moves gain +1\npriority when at full HP.
 Contact with it lowers the\nattacker’s Speed stat.
 Doubles the Defense stat\non Grassy Terrain.
@@ -187,7 +187,7 @@ Sound-based moves become\nWater and do 20% more.
 Boosts critical-hit ratio.\nMoves don’t make contact.
 Attacks on poisoned foes\nbecome critical hits.
 Blocks priority moves used\nagainst it or its ally.
-Doubles the Pokémon’s\nSpeed stat in a hailstorm.
+Doubles the Pokémon’s\nSpeed stat in snow.
 Doubles the Speed stat\non Electric Terrain.
 Contact with it lowers the\nattacker’s Speed stat.
 Gives +3 priority to the\nPokémon’s healing moves.
@@ -234,3 +234,12 @@ Summons Grassy Terrain\nfor 5 turns upon entry.
 Once per switch-in, it will\nbecome its move’s type.
 Ups sound moves by 30%.\nHalves damage from them.
 Ups Attack if hit by Fire.\nAlso prevents burns.
+Powers up special moves\nused by allies by 30%.
+Boosts the Defense stat\nwhen hit by an attack.
+Stops burns, halves Fire,\npowers up Water moves.
+Targets can be poisoned\nregardless of their type.
+Boosts Defense sharply\nif hit by a Water move.
+Halves the damage taken\nfrom special moves.
+The Pokémon is charged\nwhen hit by a wind move.
+Scatters poison spikes if\nhit by a physical move.
+Lowers the foe’s evasion\nupon entering battle.

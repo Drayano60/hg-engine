@@ -243,3 +243,4 @@ Halves the damage taken\nfrom special moves.
 The Pokémon is charged\nwhen hit by a wind move.
 Scatters poison spikes if\nhit by a physical move.
 Lowers the foe’s evasion\nupon entering battle.
+Ups Attack if intimidated.\nCannot be forced out.

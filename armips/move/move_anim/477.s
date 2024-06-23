@@ -24,7 +24,7 @@ a010_477:
     loadspritemaybe 6, 0, 2, 2
     loadspritemaybe 7, 0, 3, 3
     callfunction 78, 1, 0, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
-    loadparticle 0, 149
+    loadparticle 2, 149
     waitstate
     unloadspriteresource
     resetsprite 0
@@ -41,15 +41,9 @@ a010_477:
     loadspritemaybe 6, 0, 2, 2
     loadspritemaybe 7, 0, 3, 3
     callfunction 78, 1, 0, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
-    loadparticle 1, 149
-    waitstate
-    unloadspriteresource
-    resetsprite 0
-    resetsprite 1
-    resetsprite 2
-    resetsprite 3
+
     playsepanmod 1999, -117, 117, 4, 2
-    addparticle2 0, 1, 1, 3
+    addparticle2 2, 1, 1, 3
     callfunction 66, 6, 1, 0, 0, 0, 14, 64, "NaN", "NaN", "NaN", "NaN"
     
     loadparticle 0, 123
@@ -104,11 +98,13 @@ a010_477:
     waitparticle
     unloadparticle 0
     unloadparticle 1
+    unloadparticle 2
     waitstate
     callfunction 40, 2, 8, 0, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
     callfunction 40, 2, 16, 0, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
     resetsprite 0
     resetsprite 1
+    resetsprite 2
     unloadspriteresource
     end
     

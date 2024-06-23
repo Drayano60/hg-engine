@@ -21012,6 +21012,7 @@ mondata SPECIES_COALOSSAL, "Coalossal"
     mondexweight SPECIES_COALOSSAL, "684.5 lbs."
 
 
+// ABILITY: Sap Sipper (1) -- No Ripen
 mondata SPECIES_APPLIN, "Applin"
     basestats 40, 40, 80, 20, 40, 40
     types TYPE_GRASS, TYPE_DRAGON
@@ -21024,7 +21025,11 @@ mondata SPECIES_APPLIN, "Applin"
     basefriendship 50
     growthrate GROWTH_ERRATIC
     egggroups EGG_GROUP_GRASS, EGG_GROUP_DRAGON
-    abilities ABILITY_RIPEN, ABILITY_GLUTTONY
+    .if ABILITY_CHANGES_IMPLEMENTED
+        abilities ABILITY_SAP_SIPPER, ABILITY_GLUTTONY
+    .else
+        abilities ABILITY_GLUTTONY, ABILITY_GLUTTONY /**** EDIT: Ripen isn't available yet. */
+    .endif
     runchance 0
     colorflip BODY_COLOR_GREEN, 0
     mondexentry SPECIES_APPLIN, "As soon as it’s born, it burrows into\nan apple. the flavor of the apple is\nwhat determines its evolution."
@@ -21033,6 +21038,7 @@ mondata SPECIES_APPLIN, "Applin"
     mondexweight SPECIES_APPLIN, "1.1 lbs."
 
 
+// ABILITY: Sap Sipper (1) -- No Ripen
 mondata SPECIES_FLAPPLE, "Flapple"
     basestats 70, 110, 80, 70, 95, 60
     types TYPE_GRASS, TYPE_DRAGON
@@ -21045,7 +21051,11 @@ mondata SPECIES_FLAPPLE, "Flapple"
     basefriendship 50
     growthrate GROWTH_ERRATIC
     egggroups EGG_GROUP_GRASS, EGG_GROUP_DRAGON
-    abilities ABILITY_RIPEN, ABILITY_GLUTTONY
+    .if ABILITY_CHANGES_IMPLEMENTED
+        abilities ABILITY_SAP_SIPPER, ABILITY_GLUTTONY
+    .else
+        abilities ABILITY_GLUTTONY, ABILITY_GLUTTONY /**** EDIT: Ripen isn't available yet. */
+    .endif
     runchance 0
     colorflip BODY_COLOR_GREEN, 0
     mondexentry SPECIES_FLAPPLE, "It ate a sour apple, which induced its\nevolution. It stores an acid capable of\ncausing chemical burns in its cheeks."
@@ -21054,6 +21064,7 @@ mondata SPECIES_FLAPPLE, "Flapple"
     mondexweight SPECIES_FLAPPLE, "2.2 lbs."
 
 
+// ABILITY: Sap Sipper (1) -- No Ripen
 mondata SPECIES_APPLETUN, "Appletun"
     basestats 110, 85, 80, 30, 100, 80
     types TYPE_GRASS, TYPE_DRAGON
@@ -21066,7 +21077,11 @@ mondata SPECIES_APPLETUN, "Appletun"
     basefriendship 50
     growthrate GROWTH_ERRATIC
     egggroups EGG_GROUP_GRASS, EGG_GROUP_DRAGON
-    abilities ABILITY_RIPEN, ABILITY_GLUTTONY
+    .if ABILITY_CHANGES_IMPLEMENTED
+        abilities ABILITY_SAP_SIPPER, ABILITY_GLUTTONY
+    .else
+        abilities ABILITY_GLUTTONY, ABILITY_GLUTTONY /**** EDIT: Ripen isn't available yet. */
+    .endif
     runchance 0
     colorflip BODY_COLOR_GREEN, 0
     mondexentry SPECIES_APPLETUN, "It ate a sweet apple, which induced\nits evolution. Back in the day, children\nused to have it as a snack."

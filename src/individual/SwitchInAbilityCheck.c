@@ -568,7 +568,7 @@ int UNUSED SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
                         }
                     }
                     
-                    /**** AURORA CRYSTAL: Add implementations for Curious Medicine, Pastel Veil and Screen Cleaner. ****/
+                    /**** AURORA CRYSTAL: Add implementations for Curious Medicine, Pastel Veil, Screen Cleaner and Supersweet Syrup. ****/
                     {
                         if ((sp->battlemon[client_no].ability_activated_flag == 0) && (sp->battlemon[client_no].hp) && (GetBattlerAbility(sp, client_no) == ABILITY_CURIOUS_MEDICINE)) {
                             sp->client_work = client_no;
@@ -598,6 +598,17 @@ int UNUSED SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
                         if ((sp->battlemon[client_no].ability_activated_flag == 0) && (sp->battlemon[client_no].hp) && (GetBattlerAbility(sp, client_no) == ABILITY_SCREEN_CLEANER)) {
                             sp->client_work = client_no;
                             scriptnum = SUB_SEQ_SCREEN_CLEANER;
+                            ret = SWITCH_IN_CHECK_MOVE_SCRIPT;
+                            break;
+                        }
+                    }
+
+                    // Unlike the genuine article, this is once per switch-in instead of once per battle.
+                    {
+                        if ((sp->battlemon[client_no].intimidate_flag == 0) && (sp->battlemon[client_no].hp) && (GetBattlerAbility(sp, client_no) == ABILITY_SUPERSWEET_SYRUP)) {
+                            sp->battlemon[client_no].intimidate_flag = 1;
+                            sp->client_work = client_no;
+                            scriptnum = SUB_SEQ_SUPERSWEET_SYRUP;
                             ret = SWITCH_IN_CHECK_MOVE_SCRIPT;
                             break;
                         }

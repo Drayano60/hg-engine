@@ -442,6 +442,7 @@
 #define SUB_SEQ_GLAIVE_RUSH                           (494)
 #define SUB_SEQ_WIND_POWER                            (495)
 #define SUB_SEQ_TOXIC_DEBRIS                          (496)
+#define SUB_SEQ_SUPERSWEET_SYRUP                      (497)
 
 // add status effect constants--used in battle effect scripts to queue up a subscript through the table in src/moves.c
 

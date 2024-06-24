@@ -272,6 +272,11 @@ Global Terminal
 ✓ Changed the monitors on the ground floor to have a new script that lets you exchange a Pokémon for a regional species. There's a monitor each for Alola, Galar, Hisui and Paldea. Each one pops open a menu that lets you select the base form for the distinct regional form evolutionary line, and then you can exchange the regular form of that Pokémon to get the regional form. (Basculin being an exception where either the Red-Striped or Blue-Striped form qualify.)
 ✓ For the Pokémon that are normal forms but evolve into regional forms, applying the evolution condition while inside the Global Terminal results in the regional form. (This is done through the hg-engine project.)
 ✓ Blocked off the teleporters to the upper floors.
+✓ The counter at the top left of the room is now used for Wonder Eggs. This allows the player to purchase either an Alolan, Galarian or Paldean Egg for $10,000. Each egg can hatch into one of ten species.
+✓✓ The Alolan egg can hatch into any of the following: Bounsweet, Crabrawler, Cutiefly, Dewpider, Grubbin, Mudbray, Rockruff, Salandit, Sandygast, Stufful.
+✓✓ The Galarian egg can hatch into any of the following: Applin, Blipbug, Clobbopus, Cufant, Hatenna, Impidimp, Rookidee, Sizzlipede, Snom, Toxel.
+✓✓ The Paldean egg can hatch into any of the following: Cetoddle, Charcadet, Glimmet, Maschiff, Pawmi, Tandemaus, Tinkatink, Varoom, Wattrel, Wiglett.
+✓✓✓ The Alolan/Galarian ones were mostly for unique type combos (plus one or two biases). Paldean was mostly pulled from what actually had sprites ready to go, else I'd probably have Nymble and Capsakid in there!
 
 Route 35
 ✓ Rearranged a bunch of Trainers to make them compulsory.

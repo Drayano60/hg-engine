@@ -1056,6 +1056,10 @@ void LONG_CALL UpdatePassiveForms(struct PartyPokemon *pp)
         case SPECIES_TATSUGIRI:
             form = gf_rand() % 3; // equal chance for all forms
             break;
+        /**** AURORA CRYSTAL: Added Basculin here. White Basc isn't encountered in the wild, only via the Global Terminal 'trade'. */
+        case SPECIES_BASCULIN:
+            form = (gf_rand() % 2) + 1; // Red Basc is form 1, Blue Basc is form 2.
+            break;
         default:
             shouldUpdate = FALSE;
     }

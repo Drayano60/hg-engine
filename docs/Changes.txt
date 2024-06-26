@@ -503,6 +503,7 @@ Safari Zone
 ✓ A Kimono Girl sits here with some basic dialogue. She disappears after beating Jasmine; this is just some setup for later.
 ✓ Added an NPC (Beauty OW) that gives you TM17 Protect.
 ✓ When entering the Safari Zone, the portable PC/fast travel is disabled. It's re-enabled after leaving (checked manual retire, no balls yet and leaving on foot).
+✓ The Wetland and Marshland have been renamed to the Tundra and Ruins areas respectively to increase the level of variety. This will need map changes but they aren't in yet and are quite tricky...
 
 Safari Zone Gate (Normal)
 ✓ Changed out the no talking lady/Kangaskhan for a Black Belt who sells Black Belts, Expert Belts and Focus Sashes. He has a Machoke next to him.

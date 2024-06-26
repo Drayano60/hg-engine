@@ -15846,3 +15846,4 @@ movedescription MOVE_SHORE_UP, "The user regains up\nto half of its max HP.\nIn 
 movedescription MOVE_SPIN_OUT, "The user attacks\nby spinning furiously,\nstraining its legs.\nThis harshly lowers\nthe user’s Speed."
 movedescription MOVE_SYRUP_BOMB, "The user sets off\nan explosion of\nsticky candy syrup.\nThis always lowers\nthe foe’s Speed stat."
 movedescription MOVE_TRIPLE_DIVE, "The user performs\na perfectly timed\ntriple dive, hitting\nthe foe with water\nthree times in a row."
+movedescription MOVE_TROP_KICK, "The user attacks\nwith an intense kick\nof tropical origins.\nThis lowers the foe’s\nAttack stat."

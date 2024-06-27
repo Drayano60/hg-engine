@@ -350,16 +350,6 @@ BOOL CalcAccuracy(void *bw, struct BattleStruct *sp, int attacker, int defender,
     // The flag is set on again whenever Glaive Rush successfully connects.
     sp->battlemon[attacker].glaive_rush_flag = 0;
 
-    /**** AURORA CRYSTAL: Implement a best-approximation Assault Vest that makes all status moves fail. ****/
-    // It should not allow the move to be selected, but that function isn't exposed yet...
-    if (hold_effect == HOLD_EFFECT_SPDEF_BOOST_NO_STATUS_MOVES && GetMoveSplit(sp, move_no) == SPLIT_STATUS) {
-        sp->waza_status_flag |= MOVE_STATUS_FLAG_FAILED;
-        sp->battlemon[attacker].parental_bond_flag = 0;
-        sp->battlemon[attacker].parental_bond_is_active = FALSE;
-
-        return FALSE;
-    }
-
     // should take precedent over a move using an alternate accuracy calc, as this will still be called for those.
     if (GetBattlerAbility(sp, defender) == ABILITY_TELEPATHY // defender has telepathy ability
      && (attacker & 1) == (defender & 1) // attacker and defender are on the same side

@@ -602,7 +602,7 @@ Ring Target Description
 An item to be held by a Pokémon. If the\nholder is hit with a contact move, the\nattacker is damaged by a sixth of its HP.
 Sweet Heart Description
 A capsule that allows a Pokémon to\nswitch its current Ability to the other\nAbility its species can have.
-An item to be held by a Pokémon. This\nvest boosts the holder’s Sp. Def by\n50%, but makes its status moves fail.
+An item to be held by a Pokémon.\nIt boosts the holder’s Sp. Def by 50%,\nbut prevents the use of status moves.
 Luminous Moss Description
 Lumiose Galette Description
 A sachet filled with fragrant perfumes\nthat are just slightly too overwhelming.\nIt’s loved by a certain Pokémon.

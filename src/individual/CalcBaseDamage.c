@@ -697,11 +697,6 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
         sys_FreeMemoryEz(evoTable);
     }
 
-    /**** AURORA CRYSTAL: Add the Assault Vest effect. ****/
-    if (DefendingMon.item_held_effect == HOLD_EFFECT_SPDEF_BOOST_NO_STATUS_MOVES) {
-        sp_defense = sp_defense * 150 / 100;
-    }
-
     // handle marvel scale
     if ((MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_MARVEL_SCALE) == TRUE) && (AttackingMon.condition))
     {

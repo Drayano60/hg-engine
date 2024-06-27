@@ -511,8 +511,14 @@ u16 GetMonEvolutionInternal(struct Party *party, struct PartyPokemon *pokemon, u
                 break;
             }
 
-            /**** AURORA CRYSTAL: New evolution method ****/
+            /**** AURORA CRYSTAL: Commented this out, I don't want this particular change. */
+            // if (evoTable[i].method == EVO_TRADE_ITEM && heldItem == evoTable[i].param && usedItem == ITEM_LINKING_CORD) {
+            //     GET_TARGET_AND_SET_FORM;
+            //     *method_ret = 0;
+            //     break;
+            // }
 
+            /**** AURORA CRYSTAL: New evolution method ****/
             // Used to evolve into regional forms like Pikachu -> Raichu.
             if (evoTable[i].method == EVO_ITEM_GLOBAL_TERMINAL && usedItem == evoTable[i].param && location == GLOBAL_TERMINAL_HEADER_ID) {
                 GET_TARGET_AND_SET_FORM;

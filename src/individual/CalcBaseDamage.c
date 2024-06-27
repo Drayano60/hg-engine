@@ -533,6 +533,16 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
     if ((DefendingMon.item_held_effect == HOLD_EFFECT_DITTO_DEF_UP) && (DefendingMon.species == SPECIES_DITTO))
         defense *= 2;
 
+    // handle Gorilla Tactics
+    if (AttackingMon.ability == ABILITY_GORILLA_TACTICS) {
+        attack = attack * 150 / 100;
+    }    
+
+    // Handle Assault Vest
+    if ((DefendingMon.item_held_effect == HOLD_EFFECT_SPDEF_BOOST_NO_STATUS_MOVES)) {
+        sp_defense = sp_defense * 150 / 100;
+    }
+
     // handle eviolite
     //if ((DefendingMon.item_held_effect == HOLD_EFFECT_EVIOLITE)
     //    defense *= 2;
@@ -544,17 +554,9 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
       || (AttackingMon.species == SPECIES_MAROWAK)))
         attack *= 2;
 
-    // handle adamant/lustrous/griseous orb & adamant crystal, lustrous globe & griseous core
+    // handle adamant/lustrous/griseous orb 
     if ((AttackingMon.item_held_effect == HOLD_EFFECT_DIALGA_BOOST) &&
         ((movetype == TYPE_DRAGON) || (movetype == TYPE_STEEL)) &&
-        (AttackingMon.species == SPECIES_DIALGA))
-    {
-        movepower = movepower * (100 + AttackingMon.item_power) / 100;
-    }
-
-    if ((AttackingMon.item_held_effect == HOLD_EFFECT_DIALGA_BOOST_AND_TRANSFORM) &&
-        ((movetype == TYPE_DRAGON) || (movetype == TYPE_STEEL)) &&
-        ((BattlePokemonParamGet(sp, attacker, BATTLE_MON_DATA_STATUS2, NULL) & STATUS2_TRANSFORMED) == 0) &&
         (AttackingMon.species == SPECIES_DIALGA))
     {
         movepower = movepower * (100 + AttackingMon.item_power) / 100;
@@ -567,17 +569,26 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
         movepower = movepower * (100 + AttackingMon.item_power) / 100;
     }
 
-    if ((AttackingMon.item_held_effect == HOLD_EFFECT_PALKIA_BOOST_AND_TRANSFORM) &&
-        ((movetype == TYPE_DRAGON) || (movetype == TYPE_WATER)) &&
-        ((BattlePokemonParamGet(sp, attacker, BATTLE_MON_DATA_STATUS2, NULL) & STATUS2_TRANSFORMED) == 0) &&
-        (AttackingMon.species == SPECIES_PALKIA))
+    if ((AttackingMon.item_held_effect == HOLD_EFFECT_GIRATINA_BOOST) &&
+        ((movetype == TYPE_DRAGON) || (movetype == TYPE_GHOST)) &&
+        (AttackingMon.species == SPECIES_GIRATINA))
     {
         movepower = movepower * (100 + AttackingMon.item_power) / 100;
     }
 
-    if ((AttackingMon.item_held_effect == HOLD_EFFECT_GIRATINA_BOOST) &&
-        ((movetype == TYPE_DRAGON) || (movetype == TYPE_GHOST)) &&
-        (AttackingMon.species == SPECIES_GIRATINA))
+    // handle adamant crystal, lustrous globe & griseous core
+    if ((AttackingMon.item_held_effect == HOLD_EFFECT_DIALGA_BOOST_AND_TRANSFORM) &&
+        ((movetype == TYPE_DRAGON) || (movetype == TYPE_STEEL)) &&
+        ((BattlePokemonParamGet(sp, attacker, BATTLE_MON_DATA_STATUS2, NULL) & STATUS2_TRANSFORMED) == 0) &&
+        (AttackingMon.species == SPECIES_DIALGA))
+    {
+        movepower = movepower * (100 + AttackingMon.item_power) / 100;
+    }
+
+    if ((AttackingMon.item_held_effect == HOLD_EFFECT_PALKIA_BOOST_AND_TRANSFORM) &&
+        ((movetype == TYPE_DRAGON) || (movetype == TYPE_WATER)) &&
+        ((BattlePokemonParamGet(sp, attacker, BATTLE_MON_DATA_STATUS2, NULL) & STATUS2_TRANSFORMED) == 0) &&
+        (AttackingMon.species == SPECIES_PALKIA))
     {
         movepower = movepower * (100 + AttackingMon.item_power) / 100;
     }
@@ -757,25 +768,25 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
     }
 
     // handle steelworker
-    if(AttackingMon.ability == ABILITY_STEELWORKER && (movetype == TYPE_STEEL))
+    if (AttackingMon.ability == ABILITY_STEELWORKER && (movetype == TYPE_STEEL))
     {
         movepower = movepower * 150 / 100;
     }
 
     // handle dragon's maw
-    if(AttackingMon.ability == ABILITY_DRAGONS_MAW && (movetype == TYPE_DRAGON))
+    if (AttackingMon.ability == ABILITY_DRAGONS_MAW && (movetype == TYPE_DRAGON))
     {
         movepower = movepower * 150 / 100;
     }
 
     // handle transistor
-    if(AttackingMon.ability == ABILITY_TRANSISTOR && (movetype == TYPE_ELECTRIC))
+    if (AttackingMon.ability == ABILITY_TRANSISTOR && (movetype == TYPE_ELECTRIC))
     {
         movepower = movepower * 130 / 100;
     }
 
     // handle rocky payload
-    if(AttackingMon.ability == ABILITY_ROCKY_PAYLOAD && (movetype == TYPE_ROCK))
+    if (AttackingMon.ability == ABILITY_ROCKY_PAYLOAD && (movetype == TYPE_ROCK))
     {
         movepower = movepower * 150 / 100;
     }
@@ -1050,11 +1061,28 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
         }
     }
 
-    // handles water bubble
-    if((AttackingMon.ability == ABILITY_WATER_BUBBLE) && (movetype == TYPE_WATER))
+    // handle water bubble
+    if ((AttackingMon.ability == ABILITY_WATER_BUBBLE) && (movetype == TYPE_WATER))
     {
         movepower = movepower * 2;
     }
+    
+    // handle ruin abilities
+    if ((CheckSideAbility(bw, sp, CHECK_ABILITY_ALL_HP, 0, ABILITY_VESSEL_OF_RUIN)) 
+      && (DefendingMon.ability != ABILITY_VESSEL_OF_RUIN))
+        sp_attack = sp_attack * 75 / 100;
+
+    if ((CheckSideAbility(bw, sp, CHECK_ABILITY_ALL_HP, 0, ABILITY_SWORD_OF_RUIN)) 
+      && (DefendingMon.ability != ABILITY_SWORD_OF_RUIN))
+        defense = defense * 75 / 100;
+
+    if ((CheckSideAbility(bw, sp, CHECK_ABILITY_ALL_HP, 0, ABILITY_TABLETS_OF_RUIN)) 
+      && (DefendingMon.ability != ABILITY_TABLETS_OF_RUIN))
+        attack = attack * 75 / 100;
+    
+    if ((CheckSideAbility(bw, sp, CHECK_ABILITY_ALL_HP, 0, ABILITY_BEADS_OF_RUIN)) 
+      && (DefendingMon.ability != ABILITY_BEADS_OF_RUIN))
+        sp_defense = sp_defense * 75 / 100;
 
     // Handle field effects interacting with their moves
     if (sp->terrainOverlay.numberOfTurnsLeft > 0) {
@@ -1280,6 +1308,12 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
 //        break;
 //    }
 
+    // handle purifying salt
+    if ((DefendingMon.ability == ABILITY_PURIFYING_SALT) && (movetype == TYPE_GHOST))
+    {
+        damage /= 2;
+    }
+      
     // Handle field effects
     if (sp->terrainOverlay.numberOfTurnsLeft > 0) {
         switch (sp->terrainOverlay.type)

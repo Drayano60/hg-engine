@@ -86,5 +86,8 @@ tools/swav2swar.exe
 
 *.ml*
 
+*.gbapal
+*.4bpp
+
 # Probably best not to commit these
 narcs/*

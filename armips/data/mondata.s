@@ -26569,7 +26569,7 @@ mondata SPECIES_DARMANITAN_GALARIAN, "-----"
     basefriendship 70
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_SHEER_FORCE, ABILITY_NONE /* Gorilla Tactics not yet implemented */
+    abilities ABILITY_GORILLA_TACTICS, ABILITY_NONE
     runchance 25
     colorflip BODY_COLOR_WHITE, 0
     

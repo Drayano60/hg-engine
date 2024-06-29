@@ -56,3 +56,4 @@ stuff to edit in docs (maybe in-game descriptions too?):
 - make note that syrup bomb has a different effect
 - make note about wonder eggs in global terminal
 - make note that g-darmanitan has gorilla tactics again
+- make note that dragon cheer has a slightly different effect

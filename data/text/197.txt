@@ -2134,3 +2134,6 @@ The opposing {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nlet it stand up against\
 {STRVAR_1 1, 0, 0} absorbed electricity!
 The wild {STRVAR_1 1, 0, 0}\nabsorbed electricity!
 The opposing {STRVAR_1 1, 0, 0}\nabsorbed electricity!
+{STRVAR_1 1, 0, 0}’s Supersweet Syrup is\nwafting a supersweet aroma!
+The wild {STRVAR_1 1, 0, 0}’s\nSupersweet Syrup is wafting\fa supersweet aroma!
+The opposing {STRVAR_1 1, 0, 0}’s\nSupersweet Syrup is wafting\fa supersweet aroma!

@@ -22044,8 +22044,8 @@ levelup SPECIES_FLAPPLE
     learnset MOVE_GRAV_APPLE, 25
     learnset MOVE_ACROBATICS, 30
     learnset MOVE_DRAGON_DANCE, 35
-    learnset MOVE_IRON_DEFENSE, 40
-    learnset MOVE_DRAGON_PULSE, 45
+    learnset MOVE_DRAGON_PULSE, 40
+    learnset MOVE_IRON_DEFENSE, 45
     learnset MOVE_DRAGON_RUSH, 50
 	terminatelearnset
 
@@ -22065,8 +22065,8 @@ levelup SPECIES_APPLETUN
     learnset MOVE_APPLE_ACID, 25
     learnset MOVE_BODY_SLAM, 30
     learnset MOVE_RECOVER, 35
-    learnset MOVE_IRON_DEFENSE, 40
-    learnset MOVE_DRAGON_PULSE, 45
+    learnset MOVE_DRAGON_PULSE, 40
+    learnset MOVE_IRON_DEFENSE, 45
     learnset MOVE_ENERGY_BALL, 50
 	terminatelearnset
 
@@ -22086,9 +22086,10 @@ levelup SPECIES_DIPPLIN
     learnset MOVE_SYRUP_BOMB, 25
     learnset MOVE_INFESTATION, 30
     learnset MOVE_RECOVER, 35
-    learnset MOVE_SUBSTITUTE, 40
-    learnset MOVE_DRAGON_PULSE, 45
+    learnset MOVE_DRAGON_PULSE, 40
+    learnset MOVE_DRAGON_CHEER, 45
     learnset MOVE_ENERGY_BALL, 50
+    learnset MOVE_SUBSTITUTE, 55
     terminatelearnset
 
 levelup SPECIES_HYDRAPPLE
@@ -22107,12 +22108,13 @@ levelup SPECIES_HYDRAPPLE
     learnset MOVE_DRAGON_TAIL, 16
     learnset MOVE_PROTECT, 20
     learnset MOVE_SYRUP_BOMB, 25
-    learnset MOVE_INFESTATION, 30
+    learnset MOVE_UPROAR, 30
     learnset MOVE_RECOVER, 35
-    learnset MOVE_SUBSTITUTE, 40
-    learnset MOVE_DRAGON_PULSE, 45
+    learnset MOVE_DRAGON_PULSE, 40
+    learnset MOVE_DRAGON_CHEER, 45
     learnset MOVE_ENERGY_BALL, 50
-    learnset MOVE_POWER_WHIP, 55
+    learnset MOVE_SUBSTITUTE, 55
+    learnset MOVE_POWER_WHIP, 60
     terminatelearnset
 
 levelup SPECIES_SILICOBRA

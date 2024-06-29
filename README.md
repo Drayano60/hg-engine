@@ -10,14 +10,18 @@
 * [Brioche](https://github.com/Brioooche)
 
 ## Table of Contents
-- [Features](#features)
-- [Setup Instructions (Linux with apt)](#setup-instructions-linux-with-apt)
-- [Setup Instructions (macOS)](#setup-instructions-macos)
-- [Setup Instructions (Windows on WSL)](#setup-instructions-windows-on-wsl)
-- [Setup Instructions (Windows on MSYS2)](#setup-instructions-windows-on-msys2)
-- [Further Setup Instructions](#further-setup-instructions-all-platforms-continued-from-individual-sections)
-- [Setup Instructions (Docker)](#setup-instructions-docker)
-- [Build Instructions](#build-instructions-all-platforms-continued-from-further-setup-instructions)
+- [hg-engine](#hg-engine)
+  - [About](#about)
+  - [Creators](#creators)
+  - [Table of Contents](#table-of-contents)
+  - [Features:](#features)
+  - [Setup Instructions (Linux with apt)](#setup-instructions-linux-with-apt)
+  - [Setup Instructions (macOS)](#setup-instructions-macos)
+  - [Setup Instructions (Windows on WSL)](#setup-instructions-windows-on-wsl)
+  - [Setup Instructions (Windows on MSYS2)](#setup-instructions-windows-on-msys2)
+  - [Further Setup Instructions (All Platforms) (Continued from Individual Sections)](#further-setup-instructions-all-platforms-continued-from-individual-sections)
+  - [Setup Instructions (Docker)](#setup-instructions-docker)
+  - [Build Instructions (All Platforms) (Continued from Further Setup Instructions)](#build-instructions-all-platforms-continued-from-further-setup-instructions)
 - [Credits](#credits)
 
 
@@ -144,3 +148,6 @@ You will still have to `make clean` and `make clean_code` manually when changing
 [diamond]:https://github.com/pret/pokediamond
 [TEMPLATE]: https://github.com/Bubble791/Pokemon-Heart-Gold-Engine
 [LUNOS]: https://www.pokecommunity.com/showthread.php?t=432351
+
+need sprites for
+rockruff, bounsweet, steenee, pincurchin

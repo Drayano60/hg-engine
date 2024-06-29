@@ -245,3 +245,5 @@ Toxic Debris
 Supersweet S.
 Guard Dog
 Gorilla T.
+Disguise
+Steelworker

@@ -318,8 +318,14 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
 
     battle_type = BattleTypeGet(bw);
 
-    if (((MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_DISGUISE) == TRUE || MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_ICE_FACE) == TRUE) && GetMoveSplit(sp, moveno) == SPLIT_PHYSICAL) && sp->battlemon[defender].form_no == 0)
+    /**** AURORA CRYSTAL: Split Disguise/Ice Face up here due to the physical check not applying to Disguise. */
+    if ((MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_DISGUISE) == TRUE) && (sp->battlemon[defender].form_no == 0)) {
         return 0;
+    }
+
+    if ((MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_ICE_FACE) == TRUE) && (sp->battlemon[defender].form_no == 0) && (GetMoveSplit(sp, moveno) == SPLIT_PHYSICAL)) {
+        return 0;
+    }
 
     if (pow == 0)
         movepower = sp->moveTbl[moveno].power;

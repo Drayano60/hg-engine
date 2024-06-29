@@ -10891,7 +10891,7 @@ movedata MOVE_POLLEN_PUFF, "Pollen Puff"
     movedescription MOVE_POLLEN_PUFF, "---"
 
 movedata MOVE_ANCHOR_SHOT, "Anchor Shot"
-    battleeffect MOVE_EFFECT_HIT
+    battleeffect MOVE_EFFECT_SPIRIT_SHACKLE
     pss SPLIT_PHYSICAL
     basepower 80
     type TYPE_STEEL
@@ -14539,13 +14539,13 @@ movedata MOVE_IVY_CUDGEL, "Ivy Cudgel"
     movedescription MOVE_IVY_CUDGEL, "---"
 
 movedata MOVE_ELECTRO_SHOT, "Electro Shot"
-    battleeffect MOVE_EFFECT_HIT
+    battleeffect MOVE_EFFECT_ELECTRO_SHOT
     pss SPLIT_SPECIAL
     basepower 130
     type TYPE_ELECTRIC
     accuracy 100
     pp 10
-    effectchance 0
+    effectchance 100
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
@@ -15847,3 +15847,5 @@ movedescription MOVE_SPIN_OUT, "The user attacks\nby spinning furiously,\nstrain
 movedescription MOVE_SYRUP_BOMB, "The user sets off\nan explosion of\nsticky candy syrup.\nThis always lowers\nthe foe’s Speed stat."
 movedescription MOVE_TRIPLE_DIVE, "The user performs\na perfectly timed\ntriple dive, hitting\nthe foe with water\nthree times in a row."
 movedescription MOVE_TROP_KICK, "The user attacks\nwith an intense kick\nof tropical origins.\nThis lowers the foe’s\nAttack stat."
+movedescription MOVE_ELECTRO_SHOT, "The user gathers\nelectricity on the\nfirst turn to raise\nits Sp. Atk, and then\nattacks on the next."
+movedescription MOVE_ANCHOR_SHOT, "The user entangles\nthe foe with its\nanchor chain while\nattacking. The foe is\nthen unable to flee."

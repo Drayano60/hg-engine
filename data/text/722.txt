@@ -245,3 +245,5 @@ Scatters poison spikes if\nhit by a physical move.
 Lowers the foe’s evasion\nupon entering battle.
 Ups Attack if intimidated.\nCannot be forced out.
 Boosts Attack by 50%, but\ncan only use one move.
+Once per battle, protects\nthe Pokémon from attack.
+Powers up Steel-type\nmoves by 50%.

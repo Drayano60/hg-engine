@@ -2131,3 +2131,6 @@ The wild {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nlet it stand up against\f{ST
 The wild {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nlet it stand up against\fthe wild {STRVAR_1 8, 2, 0}’s Intimidate!
 The opposing {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nlet it stand up against\f{STRVAR_1 8, 2, 0}’s Intimidate!
 The opposing {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nlet it stand up against\fthe opposing {STRVAR_1 8, 2, 0}’s Intimidate!
+{STRVAR_1 1, 0, 0} absorbed electricity!
+The wild {STRVAR_1 1, 0, 0}\nabsorbed electricity!
+The opposing {STRVAR_1 1, 0, 0}\nabsorbed electricity!

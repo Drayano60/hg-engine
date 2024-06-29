@@ -11,7 +11,7 @@
 .create "build/move/move_anim/0_916", 0
 
 // Dragon Cheer
-// Howl
+// Howl for user + Focus Energy on ally
 
 a010_916:
     initspriteresource
@@ -25,6 +25,7 @@ a010_916:
     loadspritemaybe 7, 0, 3, 3
     callfunction 78, 1, 0, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
     loadparticle 0, 354
+    loadparticle 1, 143
     waitstate
     unloadspriteresource
     resetsprite 0
@@ -42,7 +43,19 @@ a010_916:
     wait 2
     waitstate
     waitparticle
+
+    wait 10
+
+    addparticle 1, 1, 4
+    addparticle 1, 0, 4
+    callfunction 36, 5, 1, 0, 1, 4, 264, "NaN", "NaN", "NaN", "NaN", "NaN"
+    callfunction 34, 5, 8, 1, 1, 32767, 12, "NaN", "NaN", "NaN", "NaN", "NaN"
+    playsepan 1965, -117
+    waitstate
+    waitparticle
+
     unloadparticle 0
+    unloadparticle 1
     end
     
 

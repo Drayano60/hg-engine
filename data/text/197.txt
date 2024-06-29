@@ -1997,6 +1997,7 @@ The effects of the {STRVAR_1 8, 0, 0}\nprevent status moves from being used!
 
 
 
+Text ID 1999
 {STRVAR_1 1, 0, 0} can’t fall asleep\ndue to a veil of sweetness!
 The wild {STRVAR_1 1, 0, 0} can’t fall asleep\ndue to a veil of sweetness!
 The opposing {STRVAR_1 1, 0, 0} can’t fall asleep\ndue to a veil of sweetness!

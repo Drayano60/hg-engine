@@ -149,7 +149,7 @@ mondata SPECIES_CHARMELEON, "Charmeleon"
     mondexweight SPECIES_CHARMELEON, "41.9 lbs."
 
 
-// STATS: 78 >> 73 Def | 85 >> 80 SpDef | 84 >> 94 Atk
+// STATS: 84 >> 94 Atk | 78 >> 73 Def | 85 >> 80 SpDef
 // TYPES: Fire/Flying >> Fire/Dragon
 // ABILITY: Solar Power (2), Tough Claws (HA)
 mondata SPECIES_CHARIZARD, "Charizard"
@@ -3760,11 +3760,7 @@ mondata SPECIES_TOTODILE, "Totodile"
     basefriendship 70
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_WATER_1
-    .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_TORRENT, ABILITY_SHEER_FORCE
-    .else
-        abilities ABILITY_TORRENT, ABILITY_NONE
-    .endif
+    abilities ABILITY_TORRENT, ABILITY_NONE
     runchance 25
     colorflip BODY_COLOR_BLUE, 0
     mondexentry SPECIES_TOTODILE, "Its powerful, well-developed jaws\nare capable of crushing anything.\nEven its Trainer must be careful."
@@ -3790,11 +3786,7 @@ mondata SPECIES_CROCONAW, "Croconaw"
     basefriendship 70
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_WATER_1
-    .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_TORRENT, ABILITY_SHEER_FORCE
-    .else
-        abilities ABILITY_TORRENT, ABILITY_NONE
-    .endif
+    abilities ABILITY_TORRENT, ABILITY_NONE
     runchance 25
     colorflip BODY_COLOR_BLUE, 0
     mondexentry SPECIES_CROCONAW, "If it loses a fang, a new one\ngrows back in its place. There are\nalways 48 fangs lining its mouth."
@@ -3825,11 +3817,7 @@ mondata SPECIES_FERALIGATR, "Feraligatr"
     basefriendship 70
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_WATER_1
-    .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_TORRENT, ABILITY_SHEER_FORCE
-    .else
-        abilities ABILITY_TORRENT, ABILITY_NONE
-    .endif
+    abilities ABILITY_TORRENT, ABILITY_NONE
     runchance 25
     colorflip BODY_COLOR_BLUE, 0
     mondexentry SPECIES_FERALIGATR, "When it bites with its massive and\npowerful jaws, it shakes its head\nand savagely tears its victim up."
@@ -6085,11 +6073,7 @@ mondata SPECIES_TREECKO, "Treecko"
     basefriendship 70 // raised up again
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_DRAGON
-    .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_OVERGROW, ABILITY_UNBURDEN
-    .else
-        abilities ABILITY_OVERGROW, ABILITY_NONE
-    .endif
+    abilities ABILITY_OVERGROW, ABILITY_NONE
     runchance 25
     colorflip BODY_COLOR_GREEN, 0
     mondexentry SPECIES_TREECKO, "Small hooks on the bottom of its\nfeet catch on walls and ceilings.\nThat is how it can hang from above."
@@ -6115,11 +6099,7 @@ mondata SPECIES_GROVYLE, "Grovyle"
     basefriendship 70 // raised up again
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_DRAGON
-    .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_OVERGROW, ABILITY_UNBURDEN
-    .else
-        abilities ABILITY_OVERGROW, ABILITY_NONE
-    .endif
+    abilities ABILITY_OVERGROW, ABILITY_NONE
     runchance 25
     colorflip BODY_COLOR_GREEN, 0
     mondexentry SPECIES_GROVYLE, "It leaps from tree branch to tree\nbranch quite swiftly. It shows\nastounding agility."
@@ -6151,11 +6131,7 @@ mondata SPECIES_SCEPTILE, "Sceptile"
     basefriendship 70 // raised up again
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_DRAGON
-    .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_OVERGROW, ABILITY_UNBURDEN
-    .else
-        abilities ABILITY_OVERGROW, ABILITY_NONE
-    .endif
+    abilities ABILITY_OVERGROW, ABILITY_NONE
     runchance 25
     colorflip BODY_COLOR_GREEN, 0
     mondexentry SPECIES_SCEPTILE, "It agilely leaps about the jungle\nand uses the sharp leaves on its\narms to strike its prey."

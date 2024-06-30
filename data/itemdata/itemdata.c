@@ -18,12 +18,12 @@
  * Changed the holdEffectParam of the Power items to 8 so EV gain with them is 8 for the relevant stat
  * Changed the Oval Stone, Razor Fang and Razor Claw and Leader's Crest into evolution stone-like items
  * Changed all TMs to be 0 cost (unsellable) and cannot be tossed
- * Updated cost of Air Balloon, Big Nugget, Eviolite, Assault Vest, Weakness Policy, Heavy-Duty Boots, Throat Spray (G8 cost if G9 is too high)
+ * Updated cost of Air Balloon, Big Nugget, Eviolite, Assault Vest, Weakness Policy, Heavy-Duty Boots, Throat Spray, Shell Bell (G8 cost if G9 is too high)
  * Updated fling power of Air Balloon, Big Nugget, Eviolite, Rocky Helmet, Sachet, Whipped Dream, Assault Vest, Weakness Policy, Leader's Crest
  * Changed Ability Capsule and Ability Patch to Items pocket
  * Assigned a fieldUseFunc to Ability Patch
  * Gave Black Augurite an assumed Fling power of 80. Gave Peat Block an assumed Fling power of 30.
- * Added item data for the Stellar Stone, Teleport Gem, Fairy Feather and GS Ball items.
+ * Added item data for the Stellar Stone, Teleport Gem and GS Ball items.
 ****/
 
 u32 __size = sizeof(ITEMDATA);
@@ -15049,7 +15049,7 @@ const ITEMDATA __data[] =
 
 [ITEM_SHELL_BELL - NUM_UNKNOWN_SLOTS] =
 {
-    .price = 200,
+    .price = 2000,
     .holdEffect = HOLD_EFFECT_HP_RESTORE_ON_DMG,
     .holdEffectParam = 8,
     .pluckEffect = 0,
@@ -40335,7 +40335,7 @@ const ITEMDATA __data[] =
 
 [ITEM_GALARICA_CUFF - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
-    .price = 1500,
+    .price = 3000,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -40465,7 +40465,7 @@ const ITEMDATA __data[] =
 
 [ITEM_GALARICA_WREATH - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
-    .price = 1500,
+    .price = 3000,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -41310,7 +41310,7 @@ const ITEMDATA __data[] =
 
 [ITEM_AUSPICIOUS_ARMOR - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
-    .price = 200,
+    .price = 3000,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -41765,7 +41765,7 @@ const ITEMDATA __data[] =
 
 [ITEM_MALICIOUS_ARMOR - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
-    .price = 200,
+    .price = 3000,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,

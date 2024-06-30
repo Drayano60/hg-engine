@@ -57,3 +57,6 @@ stuff to edit in docs (maybe in-game descriptions too?):
 - make note about wonder eggs in global terminal
 - make note that g-darmanitan has gorilla tactics again
 - make note that dragon cheer has a slightly different effect
+- note in docs about location for apple items
+- note in doc that i removed location for focus sash/expert belt/black belt, added a galarica cuff/wreath/armors/shell bell 
+- ntoe n doc that the metal alloy is in victory road

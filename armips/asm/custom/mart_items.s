@@ -119,15 +119,21 @@ const u16 *_0210FA3C[] = {
 /* const u16 _020FBA5A[] = {ITEM_AIR_MAIL, ITEM_QUICK_BALL, 0xFFFF}; */
 
 /* const u16 _020FBA60[] = {ITEM_AIR_MAIL, ITEM_HEAL_BALL, ITEM_NET_BALL, 0xFFFF}; */
-/* Ecruteak City 2nd Clerk -> Safari Zone Top Stall */
+/* const u16 _020FBA68[] = {ITEM_AIR_MAIL, ITEM_TUNNEL_MAIL, ITEM_BLOOM_MAIL, 0xFFFF}; */
+/* Ecruteak City 2nd Clerk & Celadon City 3rd Floor -> Safari Zone Top Stall */
 
 .org 0x020FBA60
-.halfword ITEM_BLACK_BELT
-.halfword ITEM_EXPERT_BELT
-.halfword ITEM_FOCUS_SASH
+/* This spills over into _020FBA68 */
+.halfword ITEM_AUSPICIOUS_ARMOR
+.halfword ITEM_MALICIOUS_ARMOR
+.halfword ITEM_GALARICA_CUFF
+.halfword ITEM_GALARICA_WREATH
+
+.halfword ITEM_SHELL_BELL
+.halfword 0xFFFF
+.halfword 0xFFFF
 .halfword 0xFFFF
 
-/* const u16 _020FBA68[] = {ITEM_AIR_MAIL, ITEM_TUNNEL_MAIL, ITEM_BLOOM_MAIL, 0xFFFF}; */
 /* const u16 _020FBA70[] = {ITEM_AIR_MAIL, ITEM_DUSK_BALL, ITEM_QUICK_BALL, 0xFFFF}; */
 
 /* const u16 _020FBA78[] = {ITEM_TUNNEL_MAIL, ITEM_HEAL_BALL, ITEM_NET_BALL, 0xFFFF}; */

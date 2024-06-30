@@ -401,6 +401,8 @@ Route 39
 ✓ Added two new Trainers using Mickeys (171, 174).
 ✓ Changed TM60 for TM72 High Horsepower.
 ✓ Changed the Moomoo Farm lady to instead act as a Natural Gift move tutor after Miltank is cured (instead of giving a TM).
+✓ Removed the Green Apricorn tree next to the farmhouse.
+✓ Added an NPC next to the farmhouse who sells the player Tart, Sweet and Syrupy Apples for $1k, $1k and $2k respectively.
 
 Olivine City
 ✓ Added an NPC in the diner who gives you Leftovers. (This NPC was later yeeted into the void in favour of the gift in Mahogany).
@@ -503,10 +505,10 @@ Safari Zone
 ✓ A Kimono Girl sits here with some basic dialogue. She disappears after beating Jasmine; this is just some setup for later.
 ✓ Added an NPC (Beauty OW) that gives you TM17 Protect.
 ✓ When entering the Safari Zone, the portable PC/fast travel is disabled. It's re-enabled after leaving (checked manual retire, no balls yet and leaving on foot).
-✓ The Wetland and Marshland have been renamed to the Tundra and Ruins areas respectively to increase the level of variety. This will need map changes but they aren't in yet and are quite tricky...
+✓ The Wetland and Marshland have been renamed to the Tundra and Ruins areas respectively to increase the level of variety. This will need map changes but they aren't in yet and are quite tricky... I've changed both maps to just be the Plains one for now.
 
 Safari Zone Gate (Normal)
-✓ Changed out the no talking lady/Kangaskhan for a Black Belt who sells Black Belts, Expert Belts and Focus Sashes. He has a Machoke next to him.
+✓ Changed out the no talking lady/Kangaskhan for an old couple who sells 'crafted' items, including the Auspicious Armor, Malicious Armor, Galarica Cuff, Galarica Wreath and Shell Bell.
 ✓ Changed the bottom left lady to give TM74, Pollen Puff. Her Butterfree is now a Jumpluff.
 ✓ Added a new shopkeeper that uses what was previously Celadon's TM store. This sells a bunch of evolution items, some new at this point and some not: Shiny Stone, Dusk Stone, Dawn Stone, Oval Stone, King's Rock, Linking Cord, Prism Scale, Sachet, Upgrade and the Whipped Dream.
 ✓ The bottom shopkeeper now sells incenses instead of vitamins and has a Munchlax next to him.
@@ -680,7 +682,7 @@ Route 26
 ✓ Azelf drops the Fist Plate when caught.
 
 Victory Road
-✓ TM79 -> TM64 Explosion. TM26 -> PP Max. Max Revive -> TM50 Overheat. Full Restore -> TM71 Stone Edge.
+✓ TM79 -> TM64 Explosion. TM26 -> Metal Alloy (and moved slightly). Max Revive -> TM50 Overheat. Full Restore -> TM71 Stone Edge. HP Up -> PP Max.
 ✓ Moved the Strength boulder near the entrance off-map to reduce annoyance.
 ✓ Edited Silver's dialogue a bit as Victory Road now actually has Trainers.
 ✓ Added ten trainers, dotted around the three floors. They are all mandatory. Each one is a reference to a character from a main series region in chronological order.

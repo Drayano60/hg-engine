@@ -445,6 +445,7 @@ Cianwood City
 ✓ Added a trade in the Pokémon Center for a Jynx in exchange for any Water-type.
 ✓ Added a book in the house at the top-left that details 'The Sea's Fable', a slight spin-off of 'The Sea's Legend' that details how to get Manaphy.
 ✓ The middle-aged woman in the top-left house has been replaced with an old woman. If spoken to while Manaphy leads your party, you'll get the Splash Plate.
+✓ There's a Black Belt looking out at the sea near the top of the island. After earning the Storm Badge, you can challenge him to a battle. Winning earns the player a Focus Sash.
 
 Cianwood City - Gym
 ✓ The winch now can't be turned immediately, a button needs to be pressed on the opposite side first.

@@ -15702,6 +15702,38 @@ party 498
     ballseal 0
 endparty
 
+/* Post Chuck */
+trainerdata 868, "Sasha"
+    trainermontype TRAINER_MON_TYPE_FLAGS
+    trainerclass CLASS_BLACK_BELT
+    nummons 1
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype SINGLE_BATTLE
+    endentry
+
+party 868
+    ivs 0
+    abilityslot 0
+    level LEVEL_SAFARI_ROCKET_ADMIN
+    pokemon SPECIES_HERACROSS
+    item ITEM_FOCUS_SASH
+    move MOVE_MEGAHORN
+    move MOVE_REVERSAL
+    move 0
+    move 0
+    ability ABILITY_MOXIE
+    ball ITEM_POKE_BALL
+    setivs 20, 20, 20, 20, 20, 20
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+endparty
+
 /******************************************** Cianwood Gym ********************************************/
 
 trainerdata 156, "Yoshi"

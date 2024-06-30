@@ -60,3 +60,4 @@ stuff to edit in docs (maybe in-game descriptions too?):
 - note in docs about location for apple items
 - note in doc that i removed location for focus sash/expert belt/black belt, added a galarica cuff/wreath/armors/shell bell 
 - ntoe n doc that the metal alloy is in victory road
+- add a trainer entry for Blackbelt Sasha in Cianwood

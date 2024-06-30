@@ -193,6 +193,7 @@ NPCs:
 2264* - Cresselia is caught flag (set until old woman spoken to)
 
 2265 - Explanation on Wonder Eggs given.
+2266 - Focus Sash given.
 
 2230 - Heart Scale on Route 47 [UNUSED]
 2231 - Heart Scale on Route 40 [UNUSED]

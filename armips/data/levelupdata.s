@@ -14373,7 +14373,6 @@ levelup SPECIES_DEWOTT
 levelup SPECIES_SAMUROTT
     learnset MOVE_SLASH, 0
     learnset MOVE_LIQUIDATION, 1
-    learnset MOVE_SMART_STRIKE, 1
     learnset MOVE_SACRED_SWORD, 1
     learnset MOVE_MEGAHORN, 1
     learnset MOVE_AQUA_CUTTER, 1
@@ -14398,7 +14397,6 @@ levelup SPECIES_SAMUROTT
 levelup SPECIES_SAMUROTT_HISUIAN
     learnset MOVE_CEASELESS_EDGE, 0
     learnset MOVE_LIQUIDATION, 1
-    learnset MOVE_SMART_STRIKE, 1
     learnset MOVE_SACRED_SWORD, 1
     learnset MOVE_MEGAHORN, 1
     learnset MOVE_AQUA_CUTTER, 1

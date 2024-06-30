@@ -31,6 +31,7 @@ export default {
     aurasphere: [
         "alakazam",
         "magmortar",
+        "samurott",
     ],
     bulldoze: [
         "yamaskgalar",

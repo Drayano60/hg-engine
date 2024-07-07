@@ -783,7 +783,7 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
     // handle transistor
     if (AttackingMon.ability == ABILITY_TRANSISTOR && (movetype == TYPE_ELECTRIC))
     {
-        movepower = movepower * 130 / 100;
+        movepower = movepower * 150 / 100; /**** AURORA CRYSTAL: Changed Transistor back to a x1.5 increase. */
     }
 
     // handle rocky payload
@@ -799,6 +799,7 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
         || (AttackingMon.ability == ABILITY_SOLAR_ENERGY && (movetype == TYPE_FIRE))
         || (AttackingMon.ability == ABILITY_ODD_POWER && (movetype == TYPE_PSYCHIC))
         || (AttackingMon.ability == ABILITY_FLOWER_POWER && (movetype == TYPE_GRASS))
+        || (AttackingMon.ability == ABILITY_AQUA_ADEPT && (movetype == TYPE_WATER))
     )
     {
         movepower = movepower * 150 / 100;

@@ -144,8 +144,7 @@ export default {
         "unown",
         "cacnea",
         "cacturne",
-        // "emboar",
-        "lilligant",
+        "emboar",
         "maractus",
     ],
     flareblitz: [
@@ -290,11 +289,8 @@ export default {
         "ekans",
         "arbok",
         "tentacruel",
-        "onix",
         "meganium",
         "furret",
-        "steelix",
-        "donphan", // HOME
         "seviper",
         "serperior",
         "pansage",
@@ -474,8 +470,6 @@ export default {
         "skitty", // BDSP
         "delcatty", // BDSP
         "deoxys", // BDSP
-        "voltorb",
-        "electrode",
         "castform",
         "magmortar",
         "froslass",
@@ -572,7 +566,6 @@ export default {
         "beedrill",
         "venomoth",
         "gyarados",
-        "dragonair",
         "jumpluff",
         "gligar",
         "mantine",

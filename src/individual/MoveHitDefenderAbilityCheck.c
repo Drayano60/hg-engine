@@ -494,6 +494,7 @@ BOOL MoveHitDefenderAbilityCheckInternal(void *bw, struct BattleStruct *sp, int 
                 seq_no[0] = SUB_SEQ_HANDLE_DISGUISE_ICE_FACE;
                 ret = TRUE;
             }
+            break;
         case ABILITY_THERMAL_EXCHANGE:
             if ((sp->battlemon[sp->defence_client].hp)
                 && (sp->battlemon[sp->defence_client].states[STAT_ATTACK] < 12)
@@ -675,6 +676,20 @@ BOOL MoveHitDefenderAbilityCheckInternal(void *bw, struct BattleStruct *sp, int 
             }
             break;
 
+        // Spiky Debris is a clone of Toxic Debris that sets regular spikes instead.
+        case ABILITY_SPIKY_DEBRIS:
+            if (((sp->waza_status_flag & WAZA_STATUS_FLAG_NO_OUT) == 0)
+                && ((sp->server_status_flag & SERVER_STATUS_FLAG_x20) == 0)
+                && ((sp->server_status_flag2 & SERVER_STATUS_FLAG2_U_TURN) == 0)
+                && ((sp->oneSelfFlag[sp->defence_client].physical_damage)))
+            {
+                sp->state_client = sp->defence_client;
+                sp->client_work = sp->defence_client;
+                seq_no[0] = SUB_SEQ_SPIKY_DEBRIS;
+                ret = TRUE;
+            }
+            break;
+        
         // Befuddle is similar to Poison Touch, except that it can apply multiple status effects.
         // It activates when using a Bug move. This is a reference to Butterfree's G-Max Befuddle.
         case ABILITY_BEFUDDLE:

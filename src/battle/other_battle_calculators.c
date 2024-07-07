@@ -1015,6 +1015,25 @@ u8 LONG_CALL CalcSpeed(void *bw, struct BattleStruct *sp, int client1, int clien
             priority2++;
         }
 
+        /**** AURORA CRYSTAL: New Quick Paw ability effect. ****/
+        if
+        (
+            GetBattlerAbility(sp, client1) == ABILITY_QUICK_PAW
+            && sp->moveTbl[move1].type == TYPE_NORMAL
+            && sp->battlemon[client1].hp == (s32)sp->battlemon[client1].maxhp
+        ) {
+            priority1++;
+        }
+
+        if
+        (
+            GetBattlerAbility(sp, client2) == ABILITY_QUICK_PAW
+            && sp->moveTbl[move2].type == TYPE_NORMAL
+            && sp->battlemon[client2].hp == (s32)sp->battlemon[client2].maxhp
+        ) {
+            priority2++;
+        }
+
         // Handle Triage
         if (GetBattlerAbility(sp, client1) == ABILITY_TRIAGE) {
             for (i = 0; i < NELEMS(TriageMovesList); i++)
@@ -1645,6 +1664,11 @@ int LONG_CALL ServerDoTypeCalcMod(void *bw UNUSED, struct BattleStruct *sp, int 
                             multiplier = 20;
                         }
 
+                        /**** AURORA CRYSTAL: Added an additional effect to Corrosion that lets it ignore the Steel type's Poison immunity. */
+                        if ((move_type == TYPE_POISON) && (GetBattlerAbility(sp, attack_client) == ABILITY_CORROSION) && (defender_type_1 == TYPE_STEEL)) {
+                            multiplier = 10;
+                        }
+
                         damage = TypeCheckCalc(sp, attack_client, multiplier, damage, base_power, flag);
 
                         if (multiplier) // seems to be useless, modifier isn't used elsewhere
@@ -1667,6 +1691,11 @@ int LONG_CALL ServerDoTypeCalcMod(void *bw UNUSED, struct BattleStruct *sp, int 
 
                         if (move_no == MOVE_FREEZE_DRY && defender_type_2 == TYPE_WATER) {
                             multiplier = 20;
+                        }
+
+                        /**** AURORA CRYSTAL: Added an additional effect to Corrosion that lets it ignore the Steel type's Poison immunity. */
+                        if ((move_type == TYPE_POISON) && (GetBattlerAbility(sp, attack_client) == ABILITY_CORROSION) && (defender_type_2 == TYPE_STEEL)) {
+                            multiplier = 10;
                         }
 
                         damage = TypeCheckCalc(sp, attack_client, multiplier, damage, base_power, flag);
@@ -1753,6 +1782,7 @@ int LONG_CALL ServerDoTypeCalcMod(void *bw UNUSED, struct BattleStruct *sp, int 
         || (defenderAbility == ABILITY_STORM_DRAIN && move_type == TYPE_WATER)
         || (defenderAbility == ABILITY_WATER_ABSORB && move_type == TYPE_WATER)
         || (defenderAbility == ABILITY_SAP_SIPPER && move_type == TYPE_GRASS)
+        || (defenderAbility == ABILITY_BUGCATCHER && move_type == TYPE_BUG)
         || (defenderAbility == ABILITY_BULLETPROOF && IsMoveBallBombBased(move_no))
         || (defenderAbility == ABILITY_WIND_RIDER && IsMoveWindBased(move_no))
         || (defenderAbility == ABILITY_ARMOR_TAIL && adjustedMoveHasPositivePriority(sp, attack_client))
@@ -1982,6 +2012,11 @@ BOOL LONG_CALL adjustedMoveHasPositivePriority(struct BattleStruct *sp, int atta
         ((GetBattlerAbility(sp, attacker) == ABILITY_GALE_WINGS) &&
          (sp->moveTbl[sp->current_move_index].type == TYPE_FLYING) &&
          (sp->moveTbl[sp->current_move_index].priority >= 0)  // Gale Wings is +1
+         ) ||
+        /**** AURORA CRYSTAL: Added Quick Paw effect. */
+        ((GetBattlerAbility(sp, attacker) == ABILITY_QUICK_PAW) &&
+         (sp->moveTbl[sp->current_move_index].type == TYPE_NORMAL) &&
+         (sp->moveTbl[sp->current_move_index].priority >= 0)  // Quick Paw is +1
          ) ||
         ((GetBattlerAbility(sp, attacker) == ABILITY_TRIAGE) &&
          (isTriageMove) &&

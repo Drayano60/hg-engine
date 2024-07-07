@@ -223,7 +223,7 @@ Solar Energy
 Sunny Mood
 Swan Song
 Sweet Aroma
-Time’s Gift
+Aqua Adept
 Totter Steps
 Toxic Scales
 Wind Whipper
@@ -247,3 +247,7 @@ Guard Dog
 Gorilla T.
 Disguise
 Steelworker
+Quick Paw
+Spiky Debris
+Healing Chime
+Bugcatcher

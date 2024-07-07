@@ -198,6 +198,12 @@ int UNUSED SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
                                         ret = SWITCH_IN_CHECK_MOVE_SCRIPT;
                                     }
                                     break;
+                                case ABILITY_FORECAST:
+                                    sp->battlemon[client_no].appear_check_flag = 1;
+                                    scriptnum = SUB_SEQ_FORECAST_ON_ENTRY;
+                                    ret = SWITCH_IN_CHECK_MOVE_SCRIPT;
+
+                                    break;
                             }
                         }
                         if (ret == SWITCH_IN_CHECK_MOVE_SCRIPT) {
@@ -239,6 +245,18 @@ int UNUSED SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
                         }
                     }
 
+                    /**** AURORA CRYSTAL: Added the new Healing Chime ability. ****/
+                    {
+                        if ((sp->battlemon[client_no].intimidate_flag == 0) && (sp->battlemon[client_no].hp) && (GetBattlerAbility(sp, client_no) == ABILITY_HEALING_CHIME)) {
+                            sp->battlemon[client_no].intimidate_flag = 1;
+                            sp->current_move_index = MOVE_HEAL_BELL;  // force move anim to play
+                            sp->client_work = client_no;
+                            sp->attack_client = client_no;
+                            scriptnum = SUB_SEQ_HEALING_CHIME;
+                            ret = SWITCH_IN_CHECK_MOVE_SCRIPT;
+                            break;
+                        }
+                    }
 
                     // Download
                     {

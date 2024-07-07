@@ -57,7 +57,7 @@ Ups Attack by 50%. Lowers\nphysical accuracy by 20%.
 Contact has a 30% chance\nto infatuate the foe.
 Boosts Sp. Atk by 50% if\na Pokémon has Minus.
 Boosts Sp. Atk by 50% if\na Pokémon has Plus.
-Transforms with weather.\nSTAB is x2 if transformed.
+Starts weather on entry\nand transforms with it.
 Protects the Pokémon\nfrom item theft.
 Has a 33% chance to cure\nits status on each turn.
 Boosts Attack by 50% if\nthere is a status problem.
@@ -122,7 +122,7 @@ Powers up moves that\ncause recoil by 30%.
 Changes type to match\nthe held Plate.
 Ups Attack and Sp. Def of\nitself and ally when sunny.
 Deals 12.5% HP damage to\nsleeping foes each turn.
-Steals an item if an\nattacker makes contact.
+Steals a foe’s item if the\nfoe makes direct contact.
 Removes added effects to\nboost move power by 30%.
 Makes stat changes have\nthe opposite effect.
 Makes foes nervous and\nunable to eat Berries.
@@ -170,13 +170,13 @@ Halves the damage taken\nfrom physical moves.
 Flying-type moves gain +1\npriority when at full HP.
 Contact with it lowers the\nattacker’s Speed stat.
 Doubles the Defense stat\non Grassy Terrain.
-Powers up aura and pulse\nmoves by 50%.
+Raises the power of aura\nand pulse moves by 50%.
 Damaging moves hit twice.\nSecond hit is 25% damage.
 Normal-type moves become\nFairy and do 20% more.
 Once per switch-in, it will\nbecome its move’s type.
 Normal-type moves become\nIce and do 20% more.
 Changes form when it uses\nProtect or if it attacks.
-Powers up biting moves\nby 50%.
+Increases the power of\nbiting moves by 50%.
 Prevents the Pokémon\nfrom falling asleep.
 Powers up moves that\nmake contact by 30%.
 Boosts Sp. Atk when a hit\nmakes its HP half or less.
@@ -198,35 +198,35 @@ On contact, both Pokémon\nwill faint after 3 turns.
 Enables the Pokémon to go\nfirst 30% of the time.
 Removes all barriers on\nthe field upon entry.
 Powers up the Steel-type\nmoves of all allies by 50%.
-Powers up Electric-type\nmoves by 50%.
+Increases the power of\nElectric moves by 50%.
 On contact, this Pokémon\nand the foe swap abilities.
 Blocks priority moves used\nagainst it or its ally.
-Powers up slicing moves\nby 50%.
+Increases the power of\nslicing moves by 50%.
 Powers up moves by 10%\nfor each fainted ally.
 Wind moves do no damage\nand boost its Attack stat.
 -
-Powers up aura and pulse\nmoves by 50%.
+Raises the power of aura\nand pulse moves by 50%.
 Bug moves have 30% chance\nto cause a status effect.
-Powers up ball and bomb\nmoves by 50%.
+Raises the power of ball\nand bomb moves by 50%.
 Ups sound moves by 20%.\nHalves damage from them.
 Powers up moves used by\nallies by 20%.
 Doubles the power of its\nsound-based moves.
-Powers up Grass-type\nmoves by 50%.
+Increases the power of\nGrass moves by 50%.
 The Pokémon’s fur stops\nit taking recoil damage.
 Boosts Sp. Atk if a foe is\nKOed with a Fire move.
-Powers up Fairy-type\nmoves by 50%.
+Increases the power of\nFairy moves by 50%.
 Burns an attacker that\nuses a contact move.
-Powers up Psychic-type\nmoves by 50%.
+Increases the power of\nPsychic moves by 50%.
 Contact has a 30% chance\nto poison the attacker.
 Powers up moves by 20%\nfor each consecutive use.
-Powers up Fire-type\nmoves by 50%.
+Increases the power of\nFire moves by 50%.
 Sun is harsh for 3 turns.\nDoubles Speed in sunshine.
 Powers up moves by 50%\nwhen at 25% HP or less.
 Lowers the foe’s Attack\nupon entering battle.
-Increases the boost from\na held Light Ball by 50%.
+Increases the power of\nWater moves by 50%.
 The Pokémon’s evasion is\nboosted by 20%.
 Contact has a 30% chance\nof badly poisoning the foe.
-Powers up wind-based\nmoves by 50%.
+Increases the power of\nwind moves by 50%.
 Summons Electric Terrain\nfor 5 turns upon entry.
 Summons Psychic Terrain\nfor 5 turns upon entry.
 Summons Misty Terrain\nfor 5 turns upon entry.
@@ -237,7 +237,7 @@ Ups Attack if hit by Fire.\nAlso prevents burns.
 Powers up special moves\nused by allies by 30%.
 Boosts the Defense stat\nwhen hit by an attack.
 Stops burns, halves Fire,\npowers up Water moves.
-Targets can be poisoned\nregardless of their type.
+Immunities to poisoning or\nPoison moves are ignored.
 Boosts Defense sharply\nif hit by a Water move.
 Halves the damage taken\nfrom special moves.
 The Pokémon is charged\nwhen hit by a wind move.
@@ -246,4 +246,8 @@ Lowers the foe’s evasion\nupon entering battle.
 Ups Attack if intimidated.\nCannot be forced out.
 Boosts Attack by 50%, but\ncan only use one move.
 Once per battle, protects\nthe Pokémon from attack.
-Powers up Steel-type\nmoves by 50%.
+Increases the power of\nSteel moves by 50%.
+Normal-type moves gain +1\npriority when at full HP.
+Scatters a trap of spikes\nif hit by a physical move.
+Heals the party’s status\nupon entering the battle.
+Bug moves do no damage\nand boost its Attack stat.

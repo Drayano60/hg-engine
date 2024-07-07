@@ -61,3 +61,7 @@ stuff to edit in docs (maybe in-game descriptions too?):
 - note in doc that i removed location for focus sash/expert belt/black belt, added a galarica cuff/wreath/armors/shell bell 
 - ntoe n doc that the metal alloy is in victory road
 - add a trainer entry for Blackbelt Sasha in Cianwood
+- mention that Corrosion now also removes Steel type's immunity to poison moves
+- mention that toxic boost/flare boost now nullify the respective status damage
+- note forecast's new effect
+- note transistor is 50% again

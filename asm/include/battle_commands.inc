@@ -1391,4 +1391,9 @@
     .long (((\arg_0 - .) / 4) - 1)
     .endm
 
+    .macro TrySpikyDebris arg_0
+    .long 255
+    .long (((\arg_0 - .) / 4) - 1)
+    .endm
+
 .endif

@@ -9124,7 +9124,7 @@ movedata MOVE_PHANTOM_FORCE, "Phantom Force"
     effectchance 0
     target MOVE_TARGET_SELECTED
     priority 0
-    flags FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK | FLAG_CONTACT
+    flags FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK | FLAG_CONTACT
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata

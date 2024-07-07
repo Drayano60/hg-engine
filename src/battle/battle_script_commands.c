@@ -96,6 +96,7 @@ BOOL btl_scr_cmd_FB_strengthsapcalc(void *bw, struct BattleStruct *sp);
 BOOL btl_scr_cmd_FC_didtargetraisestat(void *bw, struct BattleStruct *sp);
 BOOL btl_scr_cmd_FD_setglaiverushflag(void *bw, struct BattleStruct *sp);
 BOOL btl_scr_cmd_FE_trytoxicdebris(void *bw, struct BattleStruct *sp);
+BOOL btl_scr_cmd_FF_tryspikydebris(void *bw, struct BattleStruct *sp); // Custom ability
 
 #ifdef DEBUG_BATTLE_SCRIPT_COMMANDS
 const u8 *BattleScrCmdNames[] =
@@ -390,6 +391,7 @@ const btl_scr_cmd_func NewBattleScriptCmdTable[] =
     [0xFC - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_FC_didtargetraisestat,
     [0xFD - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_FD_setglaiverushflag,
     [0xFE - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_FE_trytoxicdebris,
+    [0xFF - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_FF_tryspikydebris,
 };
 
 // entries before 0xFFFE are banned for mimic and metronome--after is just banned for metronome.  table ends with 0xFFFF
@@ -2938,6 +2940,30 @@ BOOL btl_scr_cmd_FE_trytoxicdebris(void *bw UNUSED, struct BattleStruct *sp) {
     } else {
         sp->side_condition[side] |= (1 << 10);
         sp->scw[side].toxicSpikesLayers++;
+    }
+
+    return FALSE;
+}
+
+
+/**
+ *  @brief script command to set regular spikes as a result of the new Spiky Debris ability. normal TrySpikes specifically checks for the attacker so we can't use that
+ *
+ *  @param bw battle work structure
+ *  @param sp global battle structure
+ *  @return FALSE
+ */
+BOOL btl_scr_cmd_FF_tryspikydebris(void *bw UNUSED, struct BattleStruct *sp) {
+    IncrementBattleScriptPtr(sp, 1);
+
+    int address = read_battle_script_param(sp);
+    int side = IsClientEnemy(bw, sp->defence_client)^1;
+
+    if (sp->scw[side].spikesLayers == 3) {
+        IncrementBattleScriptPtr(sp, address);
+    } else {
+        sp->side_condition[side] |= (1 << 2);
+        sp->scw[side].spikesLayers++;
     }
 
     return FALSE;

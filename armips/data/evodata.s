@@ -16813,7 +16813,7 @@ evodata SPECIES_URSARING
     terminateevodata
 
 evodata SPECIES_SLUGMA
-    evolution EVO_LEVEL, 28, SPECIES_MAGCARGO
+    evolution EVO_LEVEL, 24, SPECIES_MAGCARGO
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -17256,6 +17256,18 @@ evodata SPECIES_DUOSION
     evolution EVO_NONE, 0, SPECIES_NONE
     terminateevodata
 
+evodata SPECIES_DUCKLETT
+    evolution EVO_LEVEL, 27, SPECIES_SWANNA
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
+
 evodata SPECIES_VANILLITE
     evolution EVO_LEVEL, 32, SPECIES_VANILLISH
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -17327,6 +17339,18 @@ evodata SPECIES_FRILLISH_FEMALE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
 terminateevodata
+
+evodata SPECIES_JOLTIK
+    evolution EVO_LEVEL, 33, SPECIES_GALVANTULA
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    terminateevodata
 
 evodata SPECIES_FERROSEED
     evolution EVO_LEVEL, 36, SPECIES_FERROTHORN
@@ -17881,7 +17905,7 @@ evodata SPECIES_BERGMITE
 terminateevodata
 
 evodata SPECIES_NOIBAT
-    evolution EVO_LEVEL, 38, SPECIES_NOIVERN
+    evolution EVO_LEVEL, 36, SPECIES_NOIVERN
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE

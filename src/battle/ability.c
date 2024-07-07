@@ -182,6 +182,15 @@ int MoveCheckDamageNegatingAbilities(struct BattleStruct *sp, int attacker, int 
         }
     }
 
+    /**** AURORA CRYSTAL: Handle the new Bugcatcher ability. */
+    if (MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_BUGCATCHER) == TRUE)
+    {
+        if ((movetype == TYPE_BUG) && (attacker != defender))
+        {
+            scriptnum = SUB_SEQ_HANDLE_SAP_SIPPER;
+        }
+    }
+
     // handle lightning rod
     if (MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_LIGHTNING_ROD) == TRUE)
     {

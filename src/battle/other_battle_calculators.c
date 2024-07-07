@@ -418,7 +418,7 @@ BOOL CalcAccuracy(void *bw, struct BattleStruct *sp, int attacker, int defender,
         stat_stage_evasion = 0;
     }
 
-    /**** AURORA CRYSTAL: Change Keen Eye and Illuminate to only ignore evasion stat changes that boost it. ****/
+    /**** AURORA CRYSTAL: Change Keen Eye, Illuminate and Mind's Eye to only ignore evasion stat changes that boost it. ****/
     // A boosted evasion is stored as a negative value, hence the < 0.
     if ((atk_ability == ABILITY_KEEN_EYE || atk_ability == ABILITY_ILLUMINATE || atk_ability == ABILITY_MINDS_EYE) && stat_stage_evasion < 0) {
         stat_stage_evasion = 0;
@@ -3416,6 +3416,11 @@ u32 LONG_CALL StruggleCheck(struct BattleSystem *bsys, struct BattleStruct *ctx,
             // Encore allows Gigaton Hammer to be used twice in a row, but on subsequent turns of the Encore the user will be forced to Struggle.
             if (!(ctx->battlemon[battlerId].moveeffect.encoredMove && ctx->battlemon[battlerId].moveeffect.encoredTurns == 3)) {
                 if (ctx->waza_no_old[battlerId] == ctx->battlemon[battlerId].move[movePos] && ctx->waza_no_old[battlerId] == MOVE_GIGATON_HAMMER) {
+                    nonSelectableMoves |= No2Bit(movePos);
+                }
+
+                /**** AURORA CRYSTAL: Added Blood Moon check here. */
+                if (ctx->waza_no_old[battlerId] == ctx->battlemon[battlerId].move[movePos] && ctx->waza_no_old[battlerId] == MOVE_BLOOD_MOON) {
                     nonSelectableMoves |= No2Bit(movePos);
                 }
             }

@@ -11,4 +11,5 @@ export default {
     farigiraf: "girafarig",
     dudunsparce: "dunsparce",
     kingambit: "bisharp",
+    ursalunabloodmoon: "ursaring",
 }

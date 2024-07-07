@@ -7351,6 +7351,32 @@ levelup SPECIES_URSALUNA
     learnset MOVE_DOUBLE_EDGE, 66
     terminatelearnset
 
+levelup SPECIES_URSALUNA_BLOODMOON
+    learnset MOVE_HEADLONG_RUSH, 0
+    learnset MOVE_NIGHT_SLASH, 1
+    learnset MOVE_HAMMER_ARM, 1
+    learnset MOVE_YAWN, 1
+    learnset MOVE_COVET, 1
+    learnset MOVE_SCRATCH, 1
+    learnset MOVE_LEER, 1
+    learnset MOVE_LICK, 1
+    learnset MOVE_HARDEN, 3
+    learnset MOVE_FAKE_TEARS, 6
+    learnset MOVE_MOONLIGHT, 9
+    learnset MOVE_FURY_SWIPES, 12
+    learnset MOVE_FEINT_ATTACK, 16
+    learnset MOVE_MUD_SHOT, 20
+    learnset MOVE_SLASH, 24
+    learnset MOVE_SCARY_FACE, 28
+    learnset MOVE_REST, 36
+    learnset MOVE_SNORE, 36
+    learnset MOVE_HYPER_VOICE, 42
+    learnset MOVE_EARTH_POWER, 48
+    learnset MOVE_MOONBLAST, 54
+    learnset MOVE_CALM_MIND, 60
+    learnset MOVE_BLOOD_MOON, 66
+    terminatelearnset
+
 // NEW: Magma Storm
 // Evolution: 24
 levelup SPECIES_SLUGMA
@@ -26815,6 +26841,3 @@ levelup SPECIES_TERAPAGOS_STELLAR
     learnset MOVE_TACKLE, 1
     terminatelearnset
 
-levelup SPECIES_URSALUNA_BLOODMOON
-    learnset MOVE_TACKLE, 1
-    terminatelearnset

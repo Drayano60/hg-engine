@@ -15850,3 +15850,4 @@ movedescription MOVE_TROP_KICK, "The user attacks\nwith an intense kick\nof trop
 movedescription MOVE_ELECTRO_SHOT, "The user gathers\nelectricity on the\nfirst turn to raise\nits Sp. Atk, and then\nattacks on the next."
 movedescription MOVE_ANCHOR_SHOT, "The user entangles\nthe foe with its\nanchor chain while\nattacking. The foe is\nthen unable to flee."
 movedescription MOVE_DRAGON_CHEER, "The user raises its\nally’s morale with a\ndraconic cry, raising\nthe ally’s chance to\nland a critical hit."
+movedescription MOVE_BLOOD_MOON, "The user unleashes\nthe full brunt of its\nspirit from a moon.\nThis move can’t be\nused twice in a row."

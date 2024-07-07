@@ -251,3 +251,4 @@ Normal-type moves gain +1\npriority when at full HP.
 Scatters a trap of spikes\nif hit by a physical move.
 Heals the party’s status\nupon entering the battle.
 Bug moves do no damage\nand boost its Attack stat.
+Ignores Ghost immunities,\nevasion and accu changes.

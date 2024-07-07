@@ -473,8 +473,6 @@ export default {
         "castform",
         "magmortar",
         "froslass",
-        "voltorbhisui",
-        "electrodehisui",
     ],
     shadowclaw: [
         "parasect",

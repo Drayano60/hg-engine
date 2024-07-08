@@ -378,6 +378,7 @@ export default {
         "golbat",
         "budew",
     ],
+    // Mostly Ice mons that don't appear in SV
     snowscape: [
         "mrmimegalar",
         "jynx",

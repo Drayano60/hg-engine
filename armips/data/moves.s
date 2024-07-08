@@ -7962,7 +7962,7 @@ movedata MOVE_SIMPLE_BEAM, "Simple Beam"
     movedescription MOVE_SIMPLE_BEAM, "The user’s\nmysterious psychic\nwave changes the\ntarget’s Ability to\nSimple."
 
 movedata MOVE_ENTRAINMENT, "Entrainment"
-    battleeffect MOVE_EFFECT_HIT
+    battleeffect MOVE_EFFECT_ENTRAINMENT
     pss SPLIT_STATUS
     basepower 0
     type TYPE_NORMAL

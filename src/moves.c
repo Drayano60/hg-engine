@@ -235,6 +235,7 @@ u16 move_effect_to_subscripts[] =
     [ADD_STATUS_TIDY_UP]                         = SUB_SEQ_TIDY_UP,
     [ADD_STATUS_CLANGOROUS_SOUL]                 = SUB_SEQ_CLANGOROUS_SOUL,
     [ADD_STATUS_GLAIVE_RUSH]                     = SUB_SEQ_GLAIVE_RUSH,
+    [ADD_STATUS_ENTRAINMENT]                     = SUB_SEQ_ENTRAINMENT,
 };
 
 

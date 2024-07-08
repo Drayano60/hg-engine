@@ -4474,7 +4474,6 @@ levelup SPECIES_ELECTABUZZ
     learnset MOVE_THUNDER, 56
     terminatelearnset
 
-// NEW: Double Shock
 levelup SPECIES_ELECTIVIRE
     learnset MOVE_FIRE_PUNCH, 1 
     learnset MOVE_HAMMER_ARM, 1
@@ -4497,8 +4496,7 @@ levelup SPECIES_ELECTIVIRE
     learnset MOVE_ELECTRIC_TERRAIN, 52
     learnset MOVE_THUNDER, 58
     learnset MOVE_CLOSE_COMBAT, TYPE_CHANGES_IMPLEMENTED ? 58 : 101
-    learnset MOVE_DOUBLE_SHOCK, 64
-    learnset MOVE_GIGA_IMPACT, 70
+    learnset MOVE_GIGA_IMPACT, 64
     terminatelearnset
 
 levelup SPECIES_MAGBY
@@ -4539,7 +4537,6 @@ levelup SPECIES_MAGMAR
     learnset MOVE_FIRE_BLAST, 56
     terminatelearnset
 
-// NEW: Burn Up
 levelup SPECIES_MAGMORTAR
     learnset MOVE_THUNDER_PUNCH, 1
     learnset MOVE_DUAL_CHOP, 1
@@ -4559,8 +4556,7 @@ levelup SPECIES_MAGMORTAR
     learnset MOVE_FLAMETHROWER, 46
     learnset MOVE_SUNNY_DAY, 52
     learnset MOVE_FIRE_BLAST, 58
-    learnset MOVE_BURN_UP, 64
-    learnset MOVE_HYPER_BEAM, 70
+    learnset MOVE_HYPER_BEAM, 64
     terminatelearnset
 
 // NEW: Megahorn
@@ -9447,7 +9443,7 @@ levelup SPECIES_PROBOPASS
     learnset MOVE_HEAD_SMASH, 62
     terminatelearnset
 
-// NEW: Baby-Doll Eyes (BDSP)
+// NEW: Baby-Doll Eyes (BDSP), Entrainment
 levelup SPECIES_SKITTY
     learnset MOVE_FAKE_OUT, 1
     learnset MOVE_ATTRACT, 1
@@ -9464,8 +9460,9 @@ levelup SPECIES_SKITTY
     learnset MOVE_ASSIST, 18
     learnset MOVE_CHARM, 21
     learnset MOVE_FEINT_ATTACK, 24
-    learnset MOVE_WAKE_UP_SLAP, 28
-    learnset MOVE_HEAL_BELL, 32
+    learnset MOVE_WAKE_UP_SLAP, 27
+    learnset MOVE_ENTRAINMENT, 30
+    learnset MOVE_HEAL_BELL, 33
     learnset MOVE_PLAY_ROUGH, 36
     learnset MOVE_CAPTIVATE, 40
     learnset MOVE_BATON_PASS, 44
@@ -9473,7 +9470,7 @@ levelup SPECIES_SKITTY
     learnset MOVE_LAST_RESORT, 52
     terminatelearnset
 
-// NEW: Baby-Doll Eyes (BDSP), Moonblast
+// NEW: Baby-Doll Eyes (BDSP), Entrainment, Moonblast
 levelup SPECIES_DELCATTY
     learnset MOVE_MOONBLAST, 1
     learnset MOVE_COSMIC_POWER, 1
@@ -9492,8 +9489,9 @@ levelup SPECIES_DELCATTY
     learnset MOVE_ASSIST, 18
     learnset MOVE_CHARM, 23
     learnset MOVE_FEINT_ATTACK, 26
-    learnset MOVE_WAKE_UP_SLAP, 30
-    learnset MOVE_HEAL_BELL, 34
+    learnset MOVE_WAKE_UP_SLAP, 29
+    learnset MOVE_ENTRAINMENT, 32
+    learnset MOVE_HEAL_BELL, 35
     learnset MOVE_PLAY_ROUGH, 38
     learnset MOVE_CAPTIVATE, 42
     learnset MOVE_BATON_PASS, 46

@@ -10971,13 +10971,13 @@ movedata MOVE_POWER_TRIP, "Power Trip"
     movedescription MOVE_POWER_TRIP, "---"
 
 movedata MOVE_BURN_UP, "Burn Up"
-    battleeffect MOVE_EFFECT_HIT
+    battleeffect MOVE_EFFECT_REMOVE_TYPE
     pss SPLIT_SPECIAL
     basepower 130
     type TYPE_FIRE
     accuracy 100
     pp 5
-    effectchance 0
+    effectchance 100
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
@@ -14331,13 +14331,13 @@ movedata MOVE_BITTER_BLADE, "Bitter Blade"
     movedescription MOVE_BITTER_BLADE, "---"
 
 movedata MOVE_DOUBLE_SHOCK, "Double Shock"
-    battleeffect MOVE_EFFECT_HIT
+    battleeffect MOVE_EFFECT_REMOVE_TYPE
     pss SPLIT_PHYSICAL
     basepower 120
     type TYPE_ELECTRIC
     accuracy 100
     pp 5
-    effectchance 0
+    effectchance 100
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK | FLAG_CONTACT
@@ -15851,3 +15851,5 @@ movedescription MOVE_ELECTRO_SHOT, "The user gathers\nelectricity on the\nfirst 
 movedescription MOVE_ANCHOR_SHOT, "The user entangles\nthe foe with its\nanchor chain while\nattacking. The foe is\nthen unable to flee."
 movedescription MOVE_DRAGON_CHEER, "The user raises its\nally’s morale with a\ndraconic cry, raising\nthe ally’s chance to\nland a critical hit."
 movedescription MOVE_BLOOD_MOON, "The user unleashes\nthe full brunt of its\nspirit from a moon.\nThis move can’t be\nused twice in a row."
+movedescription MOVE_BURN_UP, "The user burns itself\nout to inflict damage.\nAfter using this move,\nthe user is no longer\na Fire-type."
+movedescription MOVE_DOUBLE_SHOCK, "The user discharges\nto inflict damage.\nAfter using this move,\nthe user is no longer\nan Electric-type."

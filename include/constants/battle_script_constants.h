@@ -448,6 +448,7 @@
 #define SUB_SEQ_FORECAST_ON_ENTRY                     (500)
 #define SUB_SEQ_HEALING_CHIME                         (501)
 #define SUB_SEQ_ENTRAINMENT                           (502)
+#define SUB_SEQ_REMOVE_TYPE                           (503)
 
 // add status effect constants--used in battle effect scripts to queue up a subscript through the table in src/moves.c
 
@@ -637,6 +638,7 @@
 #define ADD_STATUS_CLANGOROUS_SOUL                     (218)
 #define ADD_STATUS_GLAIVE_RUSH                         (219)
 #define ADD_STATUS_ENTRAINMENT                         (220)
+#define ADD_STATUS_REMOVE_TYPE                         (221)
 
 // additional effect constants
 #define ADD_STATUS_NONE (0)

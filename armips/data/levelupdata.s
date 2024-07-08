@@ -1904,7 +1904,7 @@ levelup SPECIES_ARCANINE
     learnset MOVE_PLAY_ROUGH, 50
     learnset MOVE_FLARE_BLITZ, 54
     learnset MOVE_RAGING_FURY, 58
-    learnset MOVE_DOUBLE_EDGE, 62
+    learnset MOVE_BURN_UP, 62
     terminatelearnset
 
 // NEW: Rock Throw
@@ -4474,6 +4474,7 @@ levelup SPECIES_ELECTABUZZ
     learnset MOVE_THUNDER, 56
     terminatelearnset
 
+// NEW: Double Shock
 levelup SPECIES_ELECTIVIRE
     learnset MOVE_FIRE_PUNCH, 1 
     learnset MOVE_HAMMER_ARM, 1
@@ -4496,7 +4497,8 @@ levelup SPECIES_ELECTIVIRE
     learnset MOVE_ELECTRIC_TERRAIN, 52
     learnset MOVE_THUNDER, 58
     learnset MOVE_CLOSE_COMBAT, TYPE_CHANGES_IMPLEMENTED ? 58 : 101
-    learnset MOVE_GIGA_IMPACT, 64
+    learnset MOVE_DOUBLE_SHOCK, 64
+    learnset MOVE_GIGA_IMPACT, 70
     terminatelearnset
 
 levelup SPECIES_MAGBY
@@ -4537,6 +4539,7 @@ levelup SPECIES_MAGMAR
     learnset MOVE_FIRE_BLAST, 56
     terminatelearnset
 
+// NEW: Burn Up
 levelup SPECIES_MAGMORTAR
     learnset MOVE_THUNDER_PUNCH, 1
     learnset MOVE_DUAL_CHOP, 1
@@ -4556,7 +4559,8 @@ levelup SPECIES_MAGMORTAR
     learnset MOVE_FLAMETHROWER, 46
     learnset MOVE_SUNNY_DAY, 52
     learnset MOVE_FIRE_BLAST, 58
-    learnset MOVE_HYPER_BEAM, 64
+    learnset MOVE_BURN_UP, 64
+    learnset MOVE_HYPER_BEAM, 70
     terminatelearnset
 
 // NEW: Megahorn
@@ -5351,7 +5355,7 @@ levelup SPECIES_MOLTRES
     learnset MOVE_SUNNY_DAY, 50
     learnset MOVE_HURRICANE, 55
     learnset MOVE_ENDURE, 60
-    learnset MOVE_OVERHEAT, 65
+    learnset MOVE_BURN_UP, 65
     learnset MOVE_SKY_ATTACK, 70
     terminatelearnset
 
@@ -5608,7 +5612,7 @@ levelup SPECIES_CYNDAQUIL
     learnset MOVE_FLAMETHROWER, 36
     learnset MOVE_SUNNY_DAY, 42
     learnset MOVE_INFERNO, 48
-    learnset MOVE_DOUBLE_EDGE, 54
+    learnset MOVE_BURN_UP, 54
     learnset MOVE_ERUPTION, 60
     terminatelearnset
 
@@ -5628,7 +5632,7 @@ levelup SPECIES_QUILAVA
     learnset MOVE_FLAMETHROWER, 38
     learnset MOVE_SUNNY_DAY, 44
     learnset MOVE_INFERNO, 50
-    learnset MOVE_DOUBLE_EDGE, 56
+    learnset MOVE_BURN_UP, 56
     learnset MOVE_ERUPTION, 62
     terminatelearnset
 
@@ -5636,8 +5640,9 @@ levelup SPECIES_QUILAVA
 levelup SPECIES_TYPHLOSION
     learnset MOVE_INFERNAL_BLAST, 0
     learnset MOVE_RAGING_FURY, 1
-    learnset MOVE_EARTH_POWER, 1
+    learnset MOVE_DOUBLE_EDGE, 1
     learnset MOVE_EXTRASENSORY, 1
+    learnset MOVE_EARTH_POWER, 1
     learnset MOVE_GYRO_BALL, 1
     learnset MOVE_DOUBLE_KICK, 1
     learnset MOVE_TACKLE, 1
@@ -5655,7 +5660,7 @@ levelup SPECIES_TYPHLOSION
     learnset MOVE_FLAMETHROWER, 40
     learnset MOVE_SUNNY_DAY, 46
     learnset MOVE_INFERNO, 52
-    learnset MOVE_DOUBLE_EDGE, 58
+    learnset MOVE_BURN_UP, 58
     learnset MOVE_ERUPTION, 64
     terminatelearnset
 
@@ -5663,8 +5668,9 @@ levelup SPECIES_TYPHLOSION
 levelup SPECIES_TYPHLOSION_HISUIAN
     learnset MOVE_INFERNAL_PARADE, 0
     learnset MOVE_MYSTICAL_FIRE, 1
-    learnset MOVE_SHADOW_BALL, 1
+    learnset MOVE_DOUBLE_EDGE, 1
     learnset MOVE_EXTRASENSORY, 1
+    learnset MOVE_SHADOW_BALL, 1
     learnset MOVE_GYRO_BALL, 1
     learnset MOVE_DOUBLE_KICK, 1
     learnset MOVE_TACKLE, 1
@@ -5681,7 +5687,7 @@ levelup SPECIES_TYPHLOSION_HISUIAN
     learnset MOVE_FLAMETHROWER, 40
     learnset MOVE_WILL_O_WISP, 46
     learnset MOVE_INFERNO, 52
-    learnset MOVE_DOUBLE_EDGE, 58
+    learnset MOVE_BURN_UP, 58
     learnset MOVE_ERUPTION, 64
     terminatelearnset
 
@@ -8151,7 +8157,7 @@ levelup SPECIES_HO_OH
     learnset MOVE_PUNISHMENT, 63
     learnset MOVE_NATURAL_GIFT, 70
     learnset MOVE_FUTURE_SIGHT, 77
-    learnset MOVE_OVERHEAT, 84
+    learnset MOVE_BURN_UP, 84
     learnset MOVE_SKY_ATTACK, 91
     terminatelearnset
 
@@ -22405,6 +22411,7 @@ levelup SPECIES_TOXTRICITY_LOW_KEY
     learnset MOVE_BOOMBURST, 60
 	terminatelearnset
 
+// NEW: Inferno
 levelup SPECIES_SIZZLIPEDE
     learnset MOVE_EMBER, 1
     learnset MOVE_SMOKESCREEN, 1
@@ -22418,6 +22425,8 @@ levelup SPECIES_SIZZLIPEDE
     learnset MOVE_CRUNCH, 34
     learnset MOVE_LUNGE, 40
     learnset MOVE_COIL, 46
+    learnset MOVE_INFERNO, 52
+    learnset MOVE_BURN_UP, 58
 	terminatelearnset
 
 levelup SPECIES_CENTISKORCH
@@ -22437,7 +22446,8 @@ levelup SPECIES_CENTISKORCH
     learnset MOVE_CRUNCH, 36
     learnset MOVE_LUNGE, 42
     learnset MOVE_COIL, 48
-    learnset MOVE_INFERNO, 54 
+    learnset MOVE_INFERNO, 54
+    learnset MOVE_BURN_UP, 60
 	terminatelearnset
 
 levelup SPECIES_CLOBBOPUS
@@ -23480,6 +23490,7 @@ levelup SPECIES_PAWMOT
     learnset MOVE_AGILITY, 48
     learnset MOVE_WILD_CHARGE, 52
     learnset MOVE_CLOSE_COMBAT, 56
+    learnset MOVE_DOUBLE_SHOCK, 60
     terminatelearnset
 
 levelup SPECIES_TANDEMAUS

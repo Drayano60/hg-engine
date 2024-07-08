@@ -2143,3 +2143,9 @@ The opposing {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nscattered spikes on the 
 {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\ncured its party’s status!
 The wild {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\ncured its party’s status!
 The opposing {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\ncured its party’s status!
+{STRVAR_1 1, 0, 0} burned itself out!
+The wild {STRVAR_1 1, 0, 0}\nburned itself out!
+The opposing {STRVAR_1 1, 0, 0}\nburned itself out!
+{STRVAR_1 1, 0, 0} used up\nall its electricity!
+The wild {STRVAR_1 1, 0, 0}\nused up all its electricity!
+The opposing {STRVAR_1 1, 0, 0}\nused up all its electricity!

@@ -15853,3 +15853,6 @@ movedescription MOVE_DRAGON_CHEER, "The user raises its\nally’s morale with a\
 movedescription MOVE_BLOOD_MOON, "The user unleashes\nthe full brunt of its\nspirit from a moon.\nThis move can’t be\nused twice in a row."
 movedescription MOVE_BURN_UP, "The user burns itself\nout to inflict damage.\nAfter using this move,\nthe user is no longer\na Fire-type."
 movedescription MOVE_DOUBLE_SHOCK, "The user discharges\nto inflict damage.\nAfter using this move,\nthe user is no longer\nan Electric-type."
+movedescription MOVE_V_CREATE, "Hurls itself at the\nfoe with a hot flame.\nThis cuts the user’s\nDefense, Sp. Def and\nSpeed stats."
+movedescription MOVE_SEARING_SHOT, "The user torches\neverything around it\nwith scarlet flames.\nThis has a 30% chance\nto burn what it hits."
+movedescription MOVE_DIAMOND_STORM, "The user whips up a\nstorm of diamonds to\ndamage its foes. This\nhas a 50% chance to\nsharply up Defense."

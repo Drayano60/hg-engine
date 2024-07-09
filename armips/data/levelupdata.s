@@ -14324,17 +14324,18 @@ levelup SPECIES_VICTINI
     learnset MOVE_FOCUS_ENERGY, 1
     learnset MOVE_WORK_UP, 5
     learnset MOVE_INCINERATE, 10
-    learnset MOVE_PSYSHOCK, 15
+    learnset MOVE_STORED_POWER, 15
     learnset MOVE_HEADBUTT, 20
     learnset MOVE_ENDURE, 25
     learnset MOVE_ZEN_HEADBUTT, 30
-    learnset MOVE_MYSTICAL_FIRE, 35
+    learnset MOVE_INFERNO, 35
     learnset MOVE_REVERSAL, 40
-    learnset MOVE_INFERNO, 45
+    learnset MOVE_SEARING_SHOT, 45
     learnset MOVE_DOUBLE_EDGE, 50
     learnset MOVE_FLARE_BLITZ, 55
-    learnset MOVE_FUTURE_SIGHT, 60
-    learnset MOVE_OVERHEAT, 65
+    learnset MOVE_OVERHEAT, 60
+    learnset MOVE_FINAL_GAMBIT, 65
+    learnset MOVE_V_CREATE, 70
     terminatelearnset
 
 levelup SPECIES_SNIVY
@@ -20037,7 +20038,45 @@ levelup SPECIES_ZYGARDE
 
 levelup SPECIES_DIANCIE
 	learnset MOVE_TACKLE, 1
+    learnset MOVE_HARDEN, 1
+    learnset MOVE_ROCK_THROW, 1
+    learnset MOVE_SHARPEN, 5
+    learnset MOVE_FLAIL, 10
+    learnset MOVE_ANCIENT_POWER, 15
+    learnset MOVE_ROCK_POLISH, 20
+    learnset MOVE_ROCK_SLIDE, 25
+    learnset MOVE_REFLECT, 30
+    learnset MOVE_LIGHT_SCREEN, 30
+    learnset MOVE_SAFEGUARD, 30
+    learnset MOVE_POWER_GEM, 35
+    learnset MOVE_SKILL_SWAP, 40
+    learnset MOVE_STEALTH_ROCK, 45
+    learnset MOVE_MOONBLAST, 50
+    learnset MOVE_STONE_EDGE, 55
+    learnset MOVE_TRICK_ROOM, 60
+    learnset MOVE_DIAMOND_STORM, 65
 	terminatelearnset
+
+levelup SPECIES_MEGA_DIANCIE
+	learnset MOVE_TACKLE, 1
+    learnset MOVE_HARDEN, 1
+    learnset MOVE_ROCK_THROW, 1
+    learnset MOVE_SHARPEN, 5
+    learnset MOVE_FLAIL, 10
+    learnset MOVE_ANCIENT_POWER, 15
+    learnset MOVE_ROCK_POLISH, 20
+    learnset MOVE_ROCK_SLIDE, 25
+    learnset MOVE_REFLECT, 30
+    learnset MOVE_LIGHT_SCREEN, 30
+    learnset MOVE_SAFEGUARD, 30
+    learnset MOVE_POWER_GEM, 35
+    learnset MOVE_SKILL_SWAP, 40
+    learnset MOVE_STEALTH_ROCK, 45
+    learnset MOVE_MOONBLAST, 50
+    learnset MOVE_STONE_EDGE, 55
+    learnset MOVE_TRICK_ROOM, 60
+    learnset MOVE_DIAMOND_STORM, 65
+    terminatelearnset
 
 levelup SPECIES_HOOPA
 	learnset MOVE_TACKLE, 1
@@ -21742,38 +21781,43 @@ levelup SPECIES_MARSHADOW
 	terminatelearnset
 
 levelup SPECIES_POIPOLE
-	learnset MOVE_DRAGON_PULSE, 1
-	learnset MOVE_PECK, 1
-	learnset MOVE_GROWL, 1
-	learnset MOVE_HELPING_HAND, 1
-	learnset MOVE_ACID, 1
-	learnset MOVE_FURY_ATTACK, 7
-	learnset MOVE_VENOSHOCK, 13
-	learnset MOVE_CHARM, 19
-	learnset MOVE_VENOM_DRENCH, 23
-	learnset MOVE_NASTY_PLOT, 31
-	learnset MOVE_POISON_JAB, 37
-	learnset MOVE_TOXIC, 41
-	learnset MOVE_FELL_STINGER, 47
+    learnset MOVE_PECK, 1
+    learnset MOVE_GROWL, 1
+    learnset MOVE_ACID, 1
+    learnset MOVE_HELPING_HAND, 1
+    learnset MOVE_FURY_ATTACK, 6
+    learnset MOVE_TOXIC_SPIKES, 12
+    learnset MOVE_PIN_MISSILE, 18
+    learnset MOVE_CHARM, 24
+    learnset MOVE_VENOSHOCK, 30
+    learnset MOVE_POISON_JAB, 36
+    learnset MOVE_NASTY_PLOT, 42
+    learnset MOVE_SLUDGE_WAVE, 48
+    learnset MOVE_GASTRO_ACID, 54
+    learnset MOVE_TOXIC, 60
+    learnset MOVE_GUNK_SHOT, 66
 	terminatelearnset
 
 levelup SPECIES_NAGANADEL
-	learnset MOVE_AIR_CUTTER, 1
-	learnset MOVE_DRAGON_PULSE, 1
-	learnset MOVE_PECK, 1
-	learnset MOVE_GROWL, 1
-	learnset MOVE_HELPING_HAND, 1
-	learnset MOVE_ACID, 1
-	learnset MOVE_FURY_ATTACK, 7
-	learnset MOVE_VENOSHOCK, 13
-	learnset MOVE_CHARM, 19
-	learnset MOVE_VENOM_DRENCH, 23
-	learnset MOVE_NASTY_PLOT, 31
-	learnset MOVE_POISON_JAB, 37
-	learnset MOVE_TOXIC, 41
-	learnset MOVE_FELL_STINGER, 47
-	learnset MOVE_AIR_SLASH, 53
-	learnset MOVE_DRAGON_PULSE, 61
+    learnset MOVE_AIR_CUTTER, 0
+    learnset MOVE_DRAGON_PULSE, 1
+    learnset MOVE_AIR_SLASH, 1
+    learnset MOVE_PECK, 1
+    learnset MOVE_GROWL, 1
+    learnset MOVE_ACID, 1
+    learnset MOVE_HELPING_HAND, 1
+    learnset MOVE_FURY_ATTACK, 6
+    learnset MOVE_TOXIC_SPIKES, 12
+    learnset MOVE_PIN_MISSILE, 18
+    learnset MOVE_CHARM, 24
+    learnset MOVE_VENOSHOCK, 30
+    learnset MOVE_POISON_JAB, 36
+    learnset MOVE_NASTY_PLOT, 42
+    learnset MOVE_SLUDGE_WAVE, 48
+    learnset MOVE_GASTRO_ACID, 54
+    learnset MOVE_TOXIC, 60
+    learnset MOVE_GUNK_SHOT, 66
+    learnset MOVE_DRAGON_RUSH, 72
 	terminatelearnset
 
 levelup SPECIES_STAKATAKA
@@ -24408,10 +24452,6 @@ levelup SPECIES_TERAPAGOS
 
 levelup SPECIES_PECHARUNT
     learnset MOVE_TACKLE, 1 
-    terminatelearnset
-
-levelup SPECIES_MEGA_DIANCIE
-    learnset MOVE_LAST_RESORT, 1
     terminatelearnset
 
 levelup SPECIES_ARTICUNO_GALARIAN

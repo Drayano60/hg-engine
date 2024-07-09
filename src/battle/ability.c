@@ -631,7 +631,7 @@ BOOL MoveHitAttackerAbilityCheck(void *bw, struct BattleStruct *sp, int *seq_no)
                     sp->addeffect_param = ADD_STATE_ATTACK_UP + stat;
                     sp->addeffect_type = ADD_EFFECT_ABILITY;
                     sp->state_client = sp->attack_client;
-                    seq_no[0] = SUB_SEQ_BOOST_STATS;
+                    seq_no[0] = SUB_SEQ_HANDLE_BUFF_ON_KO; /**** AURORA CRYSTAL: Change sub_seq to prevent boost if battle would end ****/
                     ret = TRUE;
                 }
             }

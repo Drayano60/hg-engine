@@ -252,3 +252,5 @@ Spiky Debris
 Healing Chime
 Bugcatcher
 Mind’s Eye
+Beast Boost
+Victory Star

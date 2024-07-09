@@ -514,13 +514,21 @@ BOOL CalcAccuracy(void *bw, struct BattleStruct *sp, int attacker, int defender,
         accuracy = accuracy * 80 / 100;
     }
 
+    /**** AURORA CRYSTAL: Fix Victory Star handling so it can stack if both user and ally have it. */
     //handle victory star
-    if ((GetBattlerAbility(sp, BATTLER_ALLY(attacker)) == ABILITY_VICTORY_STAR && sp->battlemon[BATTLER_ALLY(attacker)].hp != 0)
-     || (atk_ability == ABILITY_VICTORY_STAR))
-    {
+    // if ((GetBattlerAbility(sp, BATTLER_ALLY(attacker)) == ABILITY_VICTORY_STAR && sp->battlemon[BATTLER_ALLY(attacker)].hp != 0)
+    //  || (atk_ability == ABILITY_VICTORY_STAR))
+    // {
+    //     accuracy = accuracy * 110 / 100;
+    // }
+
+    if (GetBattlerAbility(sp, BATTLER_ALLY(attacker)) == ABILITY_VICTORY_STAR && sp->battlemon[BATTLER_ALLY(attacker)].hp != 0) {
         accuracy = accuracy * 110 / 100;
     }
 
+    if (atk_ability == ABILITY_VICTORY_STAR) {
+        accuracy = accuracy * 110 / 100;
+    }
 
     /**** AURORA CRYSTAL: Keen Eye now has an additional effect of giving a 10% accuracy bonus. ****/
     if (GetBattlerAbility(sp, attacker) == ABILITY_KEEN_EYE) {

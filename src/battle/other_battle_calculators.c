@@ -464,19 +464,20 @@ BOOL CalcAccuracy(void *bw, struct BattleStruct *sp, int attacker, int defender,
     }
 
     /**** AURORA CRYSTAL: Custom mechanic. Give a x1.1 same type accuracy bonus to offensive moves. ****/
+    // Cancelled. It's a bit problematic with moves like Triple Axel, Population Bomb that use a ~90% accuracy as a balancing mechanic.
     // If the move is 90% or higher accuracy to start with, the accuracy is just set to 100% instead.
-    if (move_split != SPLIT_STATUS) {
-        u8 attacker_type_1 = BattlePokemonParamGet(sp, sp->attack_client, BATTLE_MON_DATA_TYPE1, NULL);
-        u8 attacker_type_2 = BattlePokemonParamGet(sp, sp->attack_client, BATTLE_MON_DATA_TYPE2, NULL);
+    // if (move_split != SPLIT_STATUS) {
+    //     u8 attacker_type_1 = BattlePokemonParamGet(sp, sp->attack_client, BATTLE_MON_DATA_TYPE1, NULL);
+    //     u8 attacker_type_2 = BattlePokemonParamGet(sp, sp->attack_client, BATTLE_MON_DATA_TYPE2, NULL);
 
-        if (move_type == attacker_type_1 || move_type == attacker_type_2) {
-            if (accuracy >= 90) {
-                accuracy = 100;
-            } else {
-                accuracy = accuracy * 110 / 100;
-            }
-        }
-    }
+    //     if (move_type == attacker_type_1 || move_type == attacker_type_2) {
+    //         if (accuracy >= 90) {
+    //             accuracy = 100;
+    //         } else {
+    //             accuracy = accuracy * 110 / 100;
+    //         }
+    //     }
+    // }
 
     if ((CheckSideAbility(bw, sp, CHECK_ABILITY_ALL_HP, 0, ABILITY_CLOUD_NINE) == 0)
      && (CheckSideAbility(bw, sp, CHECK_ABILITY_ALL_HP, 0, ABILITY_AIR_LOCK) == 0))

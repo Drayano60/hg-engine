@@ -3982,6 +3982,7 @@ mondata SPECIES_NOCTOWL, "Noctowl"
 
 
 // STATS: 20 >> 40 Atk | 55 >> 65 Speed | 265 >> 295 BST
+// ABILITY: Rattled (2), Aerilate (HA)
 mondata SPECIES_LEDYBA, "Ledyba"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 40, 40, 30, 65, 40, 80
@@ -3998,7 +3999,11 @@ mondata SPECIES_LEDYBA, "Ledyba"
     basefriendship 70
     growthrate GROWTH_FAST
     egggroups EGG_GROUP_BUG, EGG_GROUP_BUG
-    abilities ABILITY_SWARM, ABILITY_EARLY_BIRD
+    .if ABILITY_CHANGES_IMPLEMENTED
+        abilities ABILITY_SWARM, ABILITY_RATTLED
+    .else
+        abilities ABILITY_SWARM, ABILITY_EARLY_BIRD
+    .endif
     runchance 25
     colorflip BODY_COLOR_RED, 0
     mondexentry SPECIES_LEDYBA, "It is very timid. It will be afraid\nto move if it is alone. But it will\nbe active if it is in a group."
@@ -4009,7 +4014,7 @@ mondata SPECIES_LEDYBA, "Ledyba"
 
 // STATS: 35 >> 80 Atk | 85 >> 100 Speed | 390 >> 450 BST
 // TYPES: Bug/Flying >> Bug/Fighting
-// ABILITY: Skill Link (2)
+// ABILITY: Iron Fist (2), Aerilate (HA)
 mondata SPECIES_LEDIAN, "Ledian"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 55, 80, 50, 100, 50, 110
@@ -4031,7 +4036,7 @@ mondata SPECIES_LEDIAN, "Ledian"
     growthrate GROWTH_FAST
     egggroups EGG_GROUP_BUG, EGG_GROUP_BUG
     .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_SWARM, ABILITY_SKILL_LINK
+        abilities ABILITY_SWARM, ABILITY_IRON_FIST
     .else
         abilities ABILITY_SWARM, ABILITY_EARLY_BIRD
     .endif
@@ -4561,7 +4566,7 @@ mondata SPECIES_POLITOED, "Politoed"
 
 
 // STATS: 35 >> 45 Atk | 40 >> 45 Def | 55 >> 65 SpDef | 50 >> 60 Speed | 250 >> 285 BST
-// ABILITY: Wind Rider (2), Aerilate (HA)
+// ABILITY: Wind Rider (2), Leaf Guard (HA)
 mondata SPECIES_HOPPIP, "Hoppip"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 35, 45, 45, 60, 35, 65
@@ -4592,7 +4597,7 @@ mondata SPECIES_HOPPIP, "Hoppip"
 
 
 // STATS: 45 >> 55 Atk | 50 >> 50 Def | 65 >> 75 SpDef | 80 >> 90 Speed | 340 >> 375 BST
-// ABILITY: Wind Rider (2), Aerilate (HA)
+// ABILITY: Wind Rider (2), Leaf Guard (HA)
 mondata SPECIES_SKIPLOOM, "Skiploom"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 55, 55, 55, 90, 45, 75
@@ -4623,7 +4628,7 @@ mondata SPECIES_SKIPLOOM, "Skiploom"
 
 
 // STATS: 55 >> 75 Atk | 70 >> 75 Def | 460 >> 485 BST
-// ABILITY: Wind Rider (2), Aerilate (HA)
+// ABILITY: Wind Rider (2), Cotton Guard (HA)
 mondata SPECIES_JUMPLUFF, "Jumpluff"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 75, 75, 75, 110, 55, 95

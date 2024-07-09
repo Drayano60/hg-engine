@@ -191,7 +191,7 @@ Doubles the Pokémon’s\nSpeed stat in snow.
 Doubles the Speed stat\non Electric Terrain.
 Contact with it lowers the\nattacker’s Speed stat.
 Gives +3 priority to the\nPokémon’s healing moves.
-Lowers the Speed of every\nother Pokémon when hit.
+Lowers the Speed stat of\nother Pokémon when hit.
 Removes an ally’s stat\nchanges upon entry.
 Protects the Pokémon and\nits ally from poison.
 On contact, both Pokémon\nwill faint after 3 turns.

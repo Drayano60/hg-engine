@@ -4,8 +4,6 @@
 
 // Handle Cotton Down
 // Adapted from Intimidate sub_seq (186).
-// Not completely accurate as it cannot check if the ability user is the target properly.
-// It instead just checks for if the Pokémon has Cotton Down.
 // Thanks to lhea for the Intimidate tip!
 
 _000:
@@ -16,7 +14,8 @@ _000:
 
 _013:
     GetMonBySpeedOrder BSCRIPT_VAR_BATTLER_STAT_CHANGE
-    CompareMonDataToValue OPCODE_EQU, BATTLER_CATEGORY_SIDE_EFFECT_MON, BMON_DATA_ABILITY, ABILITY_COTTON_DOWN, _039
+
+    CompareVarToVar OPCODE_EQU, BSCRIPT_VAR_BATTLER_ATTACKER, BSCRIPT_VAR_BATTLER_STAT_CHANGE, _039 /* This line stops the user getting speed dropped. I don't really get why though? */
     CompareMonDataToValue OPCODE_EQU, BATTLER_CATEGORY_SIDE_EFFECT_MON, BMON_DATA_HP, 0, _039
     UpdateVar OPCODE_SET, BSCRIPT_VAR_SIDE_EFFECT_PARAM, MOVE_SUBSCRIPT_PTR_SPEED_DOWN_1_STAGE
     UpdateVar OPCODE_SET, BSCRIPT_VAR_SIDE_EFFECT_TYPE, SIDE_EFFECT_TYPE_ABILITY

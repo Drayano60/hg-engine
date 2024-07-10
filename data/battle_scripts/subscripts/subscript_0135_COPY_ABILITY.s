@@ -23,6 +23,8 @@ _000:
     CompareMonDataToValue OPCODE_EQU, BATTLER_CATEGORY_ATTACKER, BMON_DATA_ABILITY, ABILITY_TERA_SHIFT, _091
     CompareMonDataToValue OPCODE_EQU, BATTLER_CATEGORY_ATTACKER, BMON_DATA_ABILITY, ABILITY_ZEN_MODE, _091
     CompareMonDataToValue OPCODE_EQU, BATTLER_CATEGORY_ATTACKER, BMON_DATA_ABILITY, ABILITY_ZERO_TO_HERO, _091
+    CompareMonDataToValue OPCODE_EQU, BATTLER_CATEGORY_ATTACKER, BMON_DATA_HELD_ITEM, ITEM_ABILITY_SHIELD, _091 /* Ability Shield also prevents even the user Role Play */
+  
     /**** Defender's abilities that cause a failure, per failroleplay: 1 in https://github.com/smogon/pokemon-showdown/blob/master/data/abilities.ts. */
     CompareMonDataToValue OPCODE_EQU, BATTLER_CATEGORY_DEFENDER, BMON_DATA_ABILITY, ABILITY_AS_ONE_GLASTRIER, _091
     CompareMonDataToValue OPCODE_EQU, BATTLER_CATEGORY_DEFENDER, BMON_DATA_ABILITY, ABILITY_AS_ONE_SPECTRIER, _091

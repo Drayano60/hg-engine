@@ -586,7 +586,7 @@ movedata MOVE_WRAP, "Wrap"
     movedescription MOVE_WRAP, "A long body or vines\nare used to wrap and\nsqueeze the foe for\ntwo to five turns.\n"
 
 movedata MOVE_TAKE_DOWN, "Take Down"
-    battleeffect MOVE_EFFECT_RECOIL_QUARTER_DAMAGE_DELT
+    battleeffect MOVE_EFFECT_RECOIL_QUARTER
     pss SPLIT_PHYSICAL
     basepower 90
     type TYPE_NORMAL
@@ -1066,7 +1066,7 @@ movedata MOVE_DRILL_PECK, "Drill Peck"
     movedescription MOVE_DRILL_PECK, "A corkscrewing\nattack with the\nsharp beak acting\nas a drill.\n"
 
 movedata MOVE_SUBMISSION, "Submission"
-    battleeffect MOVE_EFFECT_RECOIL_QUARTER_DAMAGE_DELT
+    battleeffect MOVE_EFFECT_RECOIL_QUARTER
     pss SPLIT_PHYSICAL
     basepower 85 /**** EDIT: 80 -> 85. */
     type TYPE_FIGHTING
@@ -8970,7 +8970,7 @@ movedata MOVE_ICICLE_CRASH, "Icicle Crash"
     movedescription MOVE_ICICLE_CRASH, "Icicles are dropped\non the foe. It may\nalso make the foe\nflinch."
 
 movedata MOVE_V_CREATE, "V-create"
-    battleeffect MOVE_EFFECT_ATK_DEF_SPEED_DOWN_HIT
+    battleeffect MOVE_EFFECT_DEF_SP_DEF_SPEED_DOWN_HIT
     pss SPLIT_PHYSICAL
     basepower 180
     type TYPE_FIRE
@@ -12187,13 +12187,13 @@ movedata MOVE_MAX_FLARE, "Max Flare"
     movedescription MOVE_MAX_FLARE, "---"
 
 movedata MOVE_MAX_FLUTTERBY, "Max Flutterby"
-    battleeffect MOVE_EFFECT_HIT
+    battleeffect MOVE_EFFECT_LOWER_SP_ATK_HIT
     pss SPLIT_PHYSICAL
     basepower 10
     type TYPE_BUG
     accuracy 0
     pp 10
-    effectchance 0
+    effectchance 100
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
@@ -12219,13 +12219,13 @@ movedata MOVE_MAX_LIGHTNING, "Max Lightning"
     movedescription MOVE_MAX_LIGHTNING, "---"
 
 movedata MOVE_MAX_STRIKE, "Max Strike"
-    battleeffect MOVE_EFFECT_HIT
+    battleeffect MOVE_EFFECT_LOWER_SPEED_HIT
     pss SPLIT_PHYSICAL
     basepower 10
     type TYPE_NORMAL
     accuracy 0
     pp 10
-    effectchance 0
+    effectchance 100
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
@@ -12235,13 +12235,13 @@ movedata MOVE_MAX_STRIKE, "Max Strike"
     movedescription MOVE_MAX_STRIKE, "---"
 
 movedata MOVE_MAX_KNUCKLE, "Max Knuckle"
-    battleeffect MOVE_EFFECT_HIT
+    battleeffect MOVE_EFFECT_RAISE_ATTACK_HIT
     pss SPLIT_PHYSICAL
     basepower 10
     type TYPE_FIGHTING
     accuracy 0
     pp 10
-    effectchance 0
+    effectchance 100
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
@@ -12251,13 +12251,13 @@ movedata MOVE_MAX_KNUCKLE, "Max Knuckle"
     movedescription MOVE_MAX_KNUCKLE, "---"
 
 movedata MOVE_MAX_PHANTASM, "Max Phantasm"
-    battleeffect MOVE_EFFECT_HIT
+    battleeffect MOVE_EFFECT_LOWER_DEFENSE_HIT
     pss SPLIT_PHYSICAL
     basepower 10
     type TYPE_GHOST
     accuracy 0
     pp 10
-    effectchance 0
+    effectchance 100
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
@@ -12283,13 +12283,13 @@ movedata MOVE_MAX_HAILSTORM, "Max Hailstorm"
     movedescription MOVE_MAX_HAILSTORM, "---"
 
 movedata MOVE_MAX_OOZE, "Max Ooze"
-    battleeffect MOVE_EFFECT_HIT
+    battleeffect MOVE_EFFECT_RAISE_SP_ATK_HIT
     pss SPLIT_PHYSICAL
     basepower 10
     type TYPE_POISON
     accuracy 0
     pp 10
-    effectchance 0
+    effectchance 100
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
@@ -12315,13 +12315,13 @@ movedata MOVE_MAX_GEYSER, "Max Geyser"
     movedescription MOVE_MAX_GEYSER, "---"
 
 movedata MOVE_MAX_AIRSTREAM, "Max Airstream"
-    battleeffect MOVE_EFFECT_HIT
+    battleeffect MOVE_EFFECT_RAISE_SPEED_HIT
     pss SPLIT_PHYSICAL
     basepower 10
     type TYPE_FLYING
     accuracy 0
     pp 10
-    effectchance 0
+    effectchance 100
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
@@ -12347,13 +12347,13 @@ movedata MOVE_MAX_STARFALL, "Max Starfall"
     movedescription MOVE_MAX_STARFALL, "---"
 
 movedata MOVE_MAX_WYRMWIND, "Max Wyrmwind"
-    battleeffect MOVE_EFFECT_HIT
+    battleeffect MOVE_EFFECT_LOWER_ATTACK_HIT
     pss SPLIT_PHYSICAL
     basepower 10
     type TYPE_DRAGON
     accuracy 0
     pp 10
-    effectchance 0
+    effectchance 100
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
@@ -12401,7 +12401,7 @@ movedata MOVE_MAX_QUAKE, "Max Quake"
     type TYPE_GROUND
     accuracy 0
     pp 10
-    effectchance 0
+    effectchance 100
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
@@ -12411,13 +12411,13 @@ movedata MOVE_MAX_QUAKE, "Max Quake"
     movedescription MOVE_MAX_QUAKE, "---"
 
 movedata MOVE_MAX_DARKNESS, "Max Darkness"
-    battleeffect MOVE_EFFECT_HIT
+    battleeffect MOVE_EFFECT_LOWER_SP_DEF_HIT
     pss SPLIT_PHYSICAL
     basepower 10
     type TYPE_DARK
     accuracy 0
     pp 10
-    effectchance 0
+    effectchance 100
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
@@ -12443,13 +12443,13 @@ movedata MOVE_MAX_OVERGROWTH, "Max Overgrowth"
     movedescription MOVE_MAX_OVERGROWTH, "---"
 
 movedata MOVE_MAX_STEELSPIKE, "Max Steelspike"
-    battleeffect MOVE_EFFECT_HIT
+    battleeffect MOVE_EFFECT_RAISE_DEF_HIT
     pss SPLIT_PHYSICAL
     basepower 10
     type TYPE_STEEL
     accuracy 0
     pp 10
-    effectchance 0
+    effectchance 100
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
@@ -12811,7 +12811,7 @@ movedata MOVE_STEEL_BEAM, "Steel Beam"
     movedescription MOVE_STEEL_BEAM, "---"
 
 movedata MOVE_EXPANDING_FORCE, "Expanding Force"
-    battleeffect MOVE_EFFECT_HIT
+    battleeffect MOVE_EFFECT_HIT // damage portion handled in CalcBaseDamage.c
     pss SPLIT_SPECIAL
     basepower 80
     type TYPE_PSYCHIC
@@ -12849,7 +12849,7 @@ movedata MOVE_SCALE_SHOT, "Scale Shot"
     type TYPE_DRAGON
     accuracy 100 /**** EDIT: 90 -> 100. */
     pp 20
-    effectchance 0
+    effectchance 100
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
@@ -12891,7 +12891,7 @@ movedata MOVE_SHELL_SIDE_ARM, "Shell Side Arm"
     movedescription MOVE_SHELL_SIDE_ARM, "---"
 
 movedata MOVE_MISTY_EXPLOSION, "Misty Explosion"
-    battleeffect MOVE_EFFECT_HALVE_DEFENSE
+    battleeffect MOVE_EFFECT_HALVE_DEFENSE // handled in CalcBaseDamage.c
     pss SPLIT_SPECIAL
     basepower 100
     type (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_NORMAL
@@ -12909,7 +12909,7 @@ movedata MOVE_MISTY_EXPLOSION, "Misty Explosion"
 movedata MOVE_GRASSY_GLIDE, "Grassy Glide"
     battleeffect MOVE_EFFECT_HIT
     pss SPLIT_PHYSICAL
-    basepower 70
+    basepower 55
     type TYPE_GRASS
     accuracy 100
     pp 20
@@ -12923,7 +12923,7 @@ movedata MOVE_GRASSY_GLIDE, "Grassy Glide"
     movedescription MOVE_GRASSY_GLIDE, "---"
 
 movedata MOVE_RISING_VOLTAGE, "Rising Voltage"
-    battleeffect MOVE_EFFECT_HIT
+    battleeffect MOVE_EFFECT_HIT // handled in CalcBaseDamage.c
     pss SPLIT_SPECIAL
     basepower 70
     type TYPE_ELECTRIC
@@ -14635,7 +14635,7 @@ movedata MOVE_MIGHTY_CLEAVE, "Mighty Cleave"
     movedescription MOVE_MIGHTY_CLEAVE, "---"
 
 movedata MOVE_TACHYON_CUTTER, "Tachyon Cutter"
-    battleeffect MOVE_EFFECT_HIT
+    battleeffect MOVE_EFFECT_HIT_TWICE
     pss SPLIT_SPECIAL
     basepower 50
     type TYPE_STEEL
@@ -14731,7 +14731,7 @@ movedata MOVE_SUPERCELL_SLAM, "Supercell Slam"
     movedescription MOVE_SUPERCELL_SLAM, "---"
 
 movedata MOVE_PSYCHIC_NOISE, "Psychic Noise"
-    battleeffect MOVE_EFFECT_HIT_AND_PREVENT_HEALING
+    battleeffect MOVE_EFFECT_PREVENT_HEALING_HIT
     pss SPLIT_SPECIAL
     basepower 75
     type TYPE_PSYCHIC

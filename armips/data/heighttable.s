@@ -1089,7 +1089,7 @@ heightentry SPECIES_RAGING_BOLT, 3, 3, 0, 0
 heightentry SPECIES_IRON_BOULDER, 0, 0, 0, 0
 heightentry SPECIES_IRON_CROWN, 0, 0, 0, 0
 heightentry SPECIES_TERAPAGOS, 0, 0, 0, 0
-heightentry SPECIES_PECHARUNT, 0, 0, 0, 0
+heightentry SPECIES_PECHARUNT, 10, 10, 0, 0
 
 heightentry SPECIES_MEGA_VENUSAUR, 3, 3, 0, 0
 heightentry SPECIES_MEGA_CHARIZARD_X, 3, 3, 0, 0
@@ -1117,12 +1117,12 @@ heightentry SPECIES_MEGA_BLAZIKEN, 3, 3, 0, 0
 heightentry SPECIES_MEGA_SWAMPERT, 3, 3, 0, 0
 heightentry SPECIES_MEGA_GARDEVOIR, 7, 7, 0, 0
 heightentry SPECIES_MEGA_SABLEYE, 3, 3, 0, 0
-heightentry SPECIES_MEGA_MAWILE, 14, 14, 0, 0
+heightentry SPECIES_MEGA_MAWILE, 8, 8, 0, 0
 heightentry SPECIES_MEGA_AGGRON, 15, 15, 0, 0
-heightentry SPECIES_MEGA_MEDICHAM, 8, 8, 0, 0
+heightentry SPECIES_MEGA_MEDICHAM, 0, 0, 0, 0
 heightentry SPECIES_MEGA_MANECTRIC, 3, 3, 0, 0
 heightentry SPECIES_MEGA_SHARPEDO, 4, 4, 0, 0
-heightentry SPECIES_MEGA_CAMERUPT, 16, 16, 0, 0
+heightentry SPECIES_MEGA_CAMERUPT, 0, 0, 0, 0
 heightentry SPECIES_MEGA_ALTARIA, 13, 13, 0, 0
 heightentry SPECIES_MEGA_BANETTE, 3, 3, 0, 0
 heightentry SPECIES_MEGA_ABSOL, 3, 3, 0, 0

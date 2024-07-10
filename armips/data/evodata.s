@@ -16801,8 +16801,8 @@ evodata SPECIES_SNEASEL
     terminateevodata
 
 evodata SPECIES_URSARING
-    evolutionwithform EVO_ITEM_GLOBAL_TERMINAL, ITEM_PEAT_BLOCK, SPECIES_URSALUNA, 1
     evolutionwithform EVO_STONE, ITEM_PEAT_BLOCK, SPECIES_URSALUNA, 0
+    evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE

@@ -122,43 +122,44 @@ Reckless
 Multitype
 Flower Gift
 Bad Dreams
-Pickpocket
-Sheer Force
-Contrary
-Unnerve
-Defiant
-Cursed Body
-Healer
-Friend Guard
-Weak Armor
-Heavy Metal
-Light Metal
-Multiscale
-Toxic Boost
-Flare Boost
-Harvest
-Telepathy
-Moody
-Overcoat
-Poison Touch
-Regenerator
-Big Pecks
-Sand Rush
-Wonder Skin
 Analytic
+Big Pecks
+Contrary
+Cursed Body
+Defeatist
+Defiant
+Flare Boost
+Friend Guard
+Harvest
+Healer
+Heavy Metal
+Illusion
 Imposter
 Infiltrator
-Moxie
-Justified
-Rattled
-Magic Bounce
-Sap Sipper
-Prankster
-Sand Force
-Defeatist
-Illusion
-Mummy
 Iron Barbs
+Justified
+Light Metal
+Magic Bounce
+Moody
+Moxie
+Multiscale
+Mummy
+Overcoat
+Pickpocket
+Poison Touch
+Prankster
+Rattled
+Regenerator
+Sand Force
+Sand Rush
+Sap Sipper
+Sheer Force
+Telepathy
+Toxic Boost
+Unnerve
+Victory Star
+Weak Armor
+Wonder Skin
 Zen Mode
 Aerilate
 Aroma Veil
@@ -179,78 +180,76 @@ S. Change
 Strong Jaw
 Sweet Veil
 Tough Claws
+Battery
+Beast Boost
 Berserk
+Corrosion
 Dazzling
+Disguise
+Elec. Surge
 Fluffy
 Galvanize
+Grassy Surge
 Liquid Voice
 Long Reach
 Merciless
+Misty Surge
+Psy. Surge
 Q. Majesty
 Slush Rush
+Stamina
+Steelworker
 Surge Surfer
 Tangling Hair
 Triage
+Water Bubble
+W. Compaction
 Cotton Down
 C. Medicine
+Gorilla T.
+Ice Scales
+Libero
 Pastel Veil
 Perish Body
+Punk Rock
 Quick Draw
 S. Cleaner
 Steely Spirit
 Transistor
 W. Spirit
 Armor Tail
+Guard Dog
+Mind’s Eye
 Sharpness
+Supersweet S.
 S. Overlord
+Thermal Ex.
+Toxic Debris
+Wind Power
 Wind Rider
--
+Aqua Adept
 Aura Adept
 Befuddle
 Bombardier
+Bugcatcher
 Cacophony
 Cheerleader
 Conductor
 Flower Power
 Fur Cushion
+Healing Chime
 Heat Up
 Lunar Energy
 Magma Skin
 Odd Power
 Poison Sweat
+Quick Paw
 Rhythmic
 Solar Energy
+Spiky Debris
 Sunny Mood
 Swan Song
 Sweet Aroma
-Aqua Adept
 Totter Steps
 Toxic Scales
 Wind Whipper
-Elec. Surge
-Psy. Surge
-Misty Surge
-Grassy Surge
-Libero
-Punk Rock
-Thermal Ex.
-Battery
-Stamina
-Water Bubble
-Corrosion
-W. Compaction
-Ice Scales
-Wind Power
-Toxic Debris
-Supersweet S.
-Guard Dog
-Gorilla T.
-Disguise
-Steelworker
-Quick Paw
-Spiky Debris
-Healing Chime
-Bugcatcher
-Mind’s Eye
-Beast Boost
-Victory Star

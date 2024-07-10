@@ -97,7 +97,7 @@ Boosts Speed by 50% if\nthere is a status problem.
 All the Pokémon’s moves\nbecome the Normal type.
 Critical hits deal x2.25\ndamage instead of x1.5.
 The Pokémon only takes\ndamage from attacks.
-Ensures attacks by or\nagainst the Pokémon land. 
+Ensures attacks by or\nagainst the Pokémon land.
 The Pokémon moves after\neven slower foes.
 Moves of 60 power or less\nare 50% more powerful.
 Prevents problems with\nstatus in sunny weather.
@@ -107,7 +107,7 @@ Boosts the critical-hit\nratios of moves.
 If defeated by contact,\nfoe takes 25% HP damage.
 Sensing a dangerous move\nboosts evasion for 1 turn.
 Determines the foe’s\nmost powerful move.
-When attacking, ignores\nthe foe’s stat changes. 
+When attacking, ignores\nthe foe’s stat changes.
 Doubles the power of “not\nvery effective” moves.
 Lowers damage from super\neffective attacks by 25%.
 Halves Attack and Speed\nstats for 3 turns.
@@ -122,43 +122,44 @@ Powers up moves that\ncause recoil by 30%.
 Changes type to match\nthe held Plate.
 Ups Attack and Sp. Def of\nitself and ally when sunny.
 Deals 12.5% HP damage to\nsleeping foes each turn.
-Steals a foe’s item if the\nfoe makes direct contact.
-Removes added effects to\nboost move power by 30%.
-Makes stat changes have\nthe opposite effect.
-Makes foes nervous and\nunable to eat Berries.
-Boosts its Attack sharply\nif its stats are lowered.
-Has a 30% chance to\ndisable a move used on it.
-Has a 30% chance to heal\nan ally’s status.
-Reduces damage done to\nallies by 25%.
-Physical attacks lower\nDefense and raise Speed.
-Doubles the Pokémon’s\nweight.
-Halves the Pokémon’s\nweight.
-Reduces damage by 50%\nwhen HP is full.
-Powers up physical moves\nby 50% when poisoned.
-Powers up special moves\nby 50% when burned.
-May create another Berry\nor Herb after one is used.
-Anticipates an ally’s\nattack and dodges it.
-Every turn, raises one\nstat and lowers another.
-Prevents weather damage\nand powder effects.
-Contact moves have a 30%\nchance to cause poison.
-Restores 33% of its HP\nif withdrawn from battle.
-Boosts Defense by 10%.\nDefense can’t be lowered.
-Doubles the Pokémon’s\nSpeed stat in a sandstorm.
-Status moves used on it\nare 50% less accurate.
 Boosts move power by 30%\nif the Pokémon goes last.
+Boosts Defense by 10%.\nDefense can’t be lowered.
+Makes stat changes have\nthe opposite effect.
+Has a 30% chance to\ndisable a move used on it.
+When below 50% HP, Attack\nand Sp. Atk are halved.
+Boosts its Attack sharply\nif its stats are lowered.
+Powers up special moves\nby 50% when burned.
+Reduces damage done to\nallies by 25%.
+May create another Berry\nor Herb after one is used.
+Has a 30% chance to heal\nan ally’s status.
+Doubles the Pokémon’s\nweight.
+Comes out disguised as the\nPokémon in the last spot.
 It transforms into the\nPokémon it’s facing.
 Passes through a foe’s\nbarrier, substitute etc.
-Boosts the Attack stat\nafter KOing any Pokémon.
-Raises Attack when hit\nby a Dark-type move.
-Dark, Ghost or Bug moves\nboost its Speed stat.
-Reflects status moves\ninstead of being hit.
-Grass moves do no damage\nand boost its Attack stat.
-Gives +1 priority to the\nPokémon’s status moves.
-Rock, Steel, Ground moves\nare 30% stronger in sand.
-When below 50% HP, Attack\nand Sp. Atk are halved.
-Comes out disguised as the\nPokémon in the last spot.
-Replaces an attacker’s\nability on contact.
 Contact damages the foe\nby 12.5% of their max HP.
+Raises Attack when hit\nby a Dark-type move.
+Halves the Pokémon’s\nweight.
+Reflects status moves\ninstead of being hit.
+Every turn, raises one\nstat and lowers another.
+Boosts the Attack stat\nafter KOing any Pokémon.
+Reduces damage by 50%\nwhen HP is full.
+Replaces an attacker’s\nability on contact.
+Prevents weather damage\nand powder effects.
+Steals a foe’s item if the\nfoe makes direct contact.
+Contact moves have a 30%\nchance to cause poison.
+Gives +1 priority to the\nPokémon’s status moves.
+Dark, Ghost or Bug moves\nboost its Speed stat.
+Restores 33% of its HP\nif withdrawn from battle.
+Rock, Steel, Ground moves\nare 30% stronger in sand.
+Doubles the Pokémon’s\nSpeed stat in a sandstorm.
+Grass moves do no damage\nand boost its Attack stat.
+Removes added effects to\nboost move power by 30%.
+Anticipates an ally’s\nattack and dodges it.
+Powers up physical moves\nby 50% when poisoned.
+Makes foes nervous and\nunable to eat Berries.
+Boosts the accuracy of\nallies and itself by 10%.
+Physical attacks lower\nDefense and raise Speed.
+Status moves used on it\nare 50% less accurate.
 The Pokémon changes form\nwhen its HP is 50% or less.
 Normal-type moves become\nFlying and do 20% more.
 Protects the Pokémon\nfrom Taunt, Attract, etc.
@@ -179,78 +180,76 @@ Changes form when it uses\nProtect or if it attacks.
 Increases the power of\nbiting moves by 50%.
 Prevents the Pokémon\nfrom falling asleep.
 Powers up moves that\nmake contact by 30%.
+Powers up special moves\nused by allies by 30%.
+Boosts the highest stat\nafter KOing any Pokémon.
 Boosts Sp. Atk when a hit\nmakes its HP half or less.
+Immunities to poisoning or\nPoison moves are ignored.
 Blocks priority moves used\nagainst it or its ally.
+Once per battle, protects\nthe Pokémon from attack.
+Summons Electric Terrain\nfor 5 turns upon entry.
 Halves damage on contact.\nDoubles Fire damage taken.
 Normal-type moves become\nElectric and do 20% more.
+Summons Grassy Terrain\nfor 5 turns upon entry.
 Sound-based moves become\nWater and do 20% more.
 Boosts critical-hit ratio.\nMoves don’t make contact.
 Attacks on poisoned foes\nbecome critical hits.
+Summons Misty Terrain\nfor 5 turns upon entry.
+Summons Psychic Terrain\nfor 5 turns upon entry.
 Blocks priority moves used\nagainst it or its ally.
 Doubles the Pokémon’s\nSpeed stat in snow.
+Boosts the Defense stat\nwhen hit by an attack.
+Increases the power of\nSteel moves by 50%.
 Doubles the Speed stat\non Electric Terrain.
 Contact with it lowers the\nattacker’s Speed stat.
 Gives +3 priority to the\nPokémon’s healing moves.
+Stops burns, halves Fire,\npowers up Water moves.
+Boosts Defense sharply\nif hit by a Water move.
 Lowers the Speed stat of\nother Pokémon when hit.
 Removes an ally’s stat\nchanges upon entry.
+Boosts Attack by 50%, but\ncan only use one move.
+Halves the damage taken\nfrom special moves.
+Once per switch-in, it will\nbecome its move’s type.
 Protects the Pokémon and\nits ally from poison.
 On contact, both Pokémon\nwill faint after 3 turns.
+Ups sound moves by 30%.\nHalves damage from them.
 Enables the Pokémon to go\nfirst 30% of the time.
 Removes all barriers on\nthe field upon entry.
 Powers up the Steel-type\nmoves of all allies by 50%.
 Increases the power of\nElectric moves by 50%.
 On contact, this Pokémon\nand the foe swap abilities.
 Blocks priority moves used\nagainst it or its ally.
+Ups Attack if intimidated.\nCannot be forced out.
+Ignores Ghost immunities,\nevasion and accu changes.
 Increases the power of\nslicing moves by 50%.
+Lowers the foe’s evasion\nupon entering battle.
 Powers up moves by 10%\nfor each fainted ally.
+Ups Attack if hit by Fire.\nAlso prevents burns.
+Scatters poison spikes if\nhit by a physical move.
+The Pokémon is charged\nwhen hit by a wind move.
 Wind moves do no damage\nand boost its Attack stat.
--
+Increases the power of\nWater moves by 50%.
 Raises the power of aura\nand pulse moves by 50%.
 Bug moves have 30% chance\nto cause a status effect.
 Raises the power of ball\nand bomb moves by 50%.
+Bug moves do no damage\nand boost its Attack stat.
 Ups sound moves by 20%.\nHalves damage from them.
 Powers up moves used by\nallies by 20%.
 Doubles the power of its\nsound-based moves.
 Increases the power of\nGrass moves by 50%.
 The Pokémon’s fur stops\nit taking recoil damage.
+Heals the party’s status\nupon entering the battle.
 Boosts Sp. Atk if a foe is\nKOed with a Fire move.
 Increases the power of\nFairy moves by 50%.
 Burns an attacker that\nuses a contact move.
 Increases the power of\nPsychic moves by 50%.
 Contact has a 30% chance\nto poison the attacker.
+Normal-type moves gain +1\npriority when at full HP.
 Powers up moves by 20%\nfor each consecutive use.
 Increases the power of\nFire moves by 50%.
+Scatters a trap of spikes\nif hit by a physical move.
 Sun is harsh for 3 turns.\nDoubles Speed in sunshine.
 Powers up moves by 50%\nwhen at 25% HP or less.
 Lowers the foe’s Attack\nupon entering battle.
-Increases the power of\nWater moves by 50%.
 The Pokémon’s evasion is\nboosted by 20%.
 Contact has a 30% chance\nof badly poisoning the foe.
 Increases the power of\nwind moves by 50%.
-Summons Electric Terrain\nfor 5 turns upon entry.
-Summons Psychic Terrain\nfor 5 turns upon entry.
-Summons Misty Terrain\nfor 5 turns upon entry.
-Summons Grassy Terrain\nfor 5 turns upon entry.
-Once per switch-in, it will\nbecome its move’s type.
-Ups sound moves by 30%.\nHalves damage from them.
-Ups Attack if hit by Fire.\nAlso prevents burns.
-Powers up special moves\nused by allies by 30%.
-Boosts the Defense stat\nwhen hit by an attack.
-Stops burns, halves Fire,\npowers up Water moves.
-Immunities to poisoning or\nPoison moves are ignored.
-Boosts Defense sharply\nif hit by a Water move.
-Halves the damage taken\nfrom special moves.
-The Pokémon is charged\nwhen hit by a wind move.
-Scatters poison spikes if\nhit by a physical move.
-Lowers the foe’s evasion\nupon entering battle.
-Ups Attack if intimidated.\nCannot be forced out.
-Boosts Attack by 50%, but\ncan only use one move.
-Once per battle, protects\nthe Pokémon from attack.
-Increases the power of\nSteel moves by 50%.
-Normal-type moves gain +1\npriority when at full HP.
-Scatters a trap of spikes\nif hit by a physical move.
-Heals the party’s status\nupon entering the battle.
-Bug moves do no damage\nand boost its Attack stat.
-Ignores Ghost immunities,\nevasion and accu changes.
-Boosts the highest stat\nafter KOing any Pokémon.
-Boosts the accuracy of\nallies and itself by 10%.

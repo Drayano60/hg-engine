@@ -439,8 +439,8 @@ arm9 02074128 F8 B5 82 B0 00 90 00 20
 # **** AURORA CRYSTAL: Additional byte replacements for music, move tutors ****
 
 # Music Combo Table Count (hex)
-arm9 080517AA 3A
-arm9 080517D4 3A
+arm9 080517AA 3B
+arm9 080517D4 3B
 
 # Pokemon Music Table Count (hex)
 arm9 080518CA 23

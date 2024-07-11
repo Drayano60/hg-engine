@@ -91,7 +91,7 @@ u8 TrainerMusicTable[][2] = {
     {95, 228}, // Steven (DP Lucas)
     {96, 224}, // Cynthia (DP Dawn)
     {113, 0x74}, // Rocket Scientist
-    {125, 220}, // Blue 2 (DP Lucas 2) (uses HGSS Champion theme as I don't have Blue's music yet)
+    {125, 232}, // Blue 2 (DP Lucas 2)
     {123, 220}, // Lance 2
 };
 
@@ -119,12 +119,13 @@ u8 TrainerMusicTable[][2] = {
 #define VS_LAKE_LEGENDARY 2381
 #define VS_SINNOH_LEGENDARY 2382
 #define VS_GIRATINA 2383
-#define VS_CYNTHIA 2384 // Thanks AdAstra for composing this one!
+#define VS_CYNTHIA 2384 // Thanks AdAstra!
 #define VS_DEOXYS 2385
 #define VS_HOENN_WILD_POKEMON 2386
 #define VS_SINNOH_WILD_POKEMON 2387
 #define LOOKER_THEME 2388
-#define VS_STEVEN 2389
+#define VS_STEVEN 2389 // Thanks nich117!
+#define VS_BLUE 2390 // Thanks Genís!
 
 // First byte is effect (pre-battle VS banners etc), second byte is music (music ID)
 const u16 MainTableCombo[][2] = {
@@ -187,4 +188,5 @@ const u16 MainTableCombo[][2] = {
     {0xFFFF, VS_CHAMPION}, // Combo 55
     {0xFFFF, VS_CYNTHIA}, // Combo 56
     {0xFFFF, VS_STEVEN}, // Combo 57
+    {0xFFFF, VS_BLUE}, // Combo 58
 };

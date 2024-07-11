@@ -16,7 +16,7 @@ _TidyUp:
 
 _ScreenCleaner:
     /* {STRVAR_1 1, 0, 0}’s Screen Cleaner\nremoved {STRVAR_1 6, 1, 0}! -- Custom msg */
-    PrintMessage 2025, 0xA, BATTLER_xFF, 0xFF
+    PrintMessage 2025, 0xA, 0xFF, 0xFF
 
 _End:
     Wait 

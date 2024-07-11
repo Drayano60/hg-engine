@@ -1,0 +1,324 @@
+===========================================================================
+Move Modernization
+===========================================================================
+Thanks to hg-engine, most moves that gained new battle effects in later generations have had these changes backported to HG/SS.
+As hg-engine is still an ongoing project, some moves have not been fully modernized yet.
+
+[Moves Fully Modernized]
+- Binding moves (Wrap, Clamp etc) deal 1/8 damage per turn and last for 4-5 turns (or 7 with a Grip Claw).
+- Body Slam, Dragon Rush and Stomp now deal double damage and cannot miss against a target that has used Minimize.
+- Chatter now has a guaranteed confusion effect.
+- Defog now clears terrains, and any hazards on the user's side of the field.
+- Explosion and Self-Destruct no longer half the target's Defense stat during damage calculation.
+- Facade's damage is no longer affected by the Attack cutting effect of a burn.
+- Feint can now also damage a target that isn't using Protect or Detect.
+- Fury Cutter now maxes out at 160 BP after three uses, and the damage also resets properly if a different move is used.
+- Growth now raises both the Attack and Special Attack stats, and the effect is doubled in harsh sunlight.
+- Hidden Power's power is now fixed at 60 BP.
+- High Jump Kick and Jump Kick's crash damage is now equal to half of the user's max HP (instead of half the damage that would be dealt).
+- Knock Off now fully removes the opponent's item, and will gain the 50% damage boost when it would do so (even if the target has Sticky Hold).
+- Minimize now raises the user's evasion by two stages.
+- Natural Gift uses the modernized base power of Berries when calculating damage.
+- Rapid Spin now also boosts the user's Speed stat by one stage.
+- Roar and Whirlwind now fail against higher leveled opponents in Wild Battles, and will always work in a Trainer Battle.
+- Role Play is now unable to copy certain abilities.
+- String Shot now lowers a target's Speed stat by two stages.
+- Substitute no longer blocks damage from sound-based moves.
+- Sweet Scent now lowers a target's evasion by two stages.
+- Tail Glow now raises a user's Special Attack stat by three stages.
+- Tailwind now lasts for four turns.
+- Teleport now has negative priority, and allows a Pokémon to switch out in a Trainer Battle.
+- Toxic will now always hit if used by a Poison-type Pokémon, even if the target is otherwise invulnerable.
+
+[Moves Partially Modernized]
+- Beat Up now uses the modern damage formula, but still deals typeless damage.
+- Disable, Encore and Taunt now always last for 4, 3 and 3 turns respectively. However, this is overall turns (not including the turn the effect is applied) instead of for 4/3/3 of the affected Pokémon's moves. Additionally, a Pokémon under the effect of Encore cannot yet select its target in a double battle.
+- Mud Sport and Water Sport now reduce the respective type damage by 2/3. However, the effect is still permanent and only until the user switches out.
+- Sheer Cold is now ineffective against Ice-type Pokémon. However, its accuracy is not currently reduced if used by a Pokémon that isn't an Ice-type.
+- Uproar's continuous effect now always lasts for three turns. However, its side effects are still affected by Soundproof.
+
+[Moves Not Yet Modernized]
+- Aromatherapy, Conversion, Conversion2, Doom Desire, Healing Wish, Future Sight, Heal Block, Psywave and Wish still work exactly the same as Generation IV. 
+- Baton Pass still passes on the effect of Mean Look.
+- Dark Void can still be used by any Pokémon.
+- Destiny Bond does not have a chance of failing on consecutive uses.
+- Fling can still be used by a Pokémon with the Klutz ability.
+- Imprison still does not fail when the user shares no moves with its opponent(s).
+- Me First still cannot be selected if the would-be user is under the effect of Taunt.
+- Multi-hit moves (Double Slap, Rock Blast etc) still have the same chance to hit 2/3/4/5 times as Generation IV.
+- Pay Day's payout is still determined by the Pokémon's level at the time of use instead of its level at the end of the battle.
+- Payback's damage is still doubled against an opponent that switches in on the same turn.
+- Psych Up does not yet copy the effect of Focus Energy.
+- Rampage moves (Thrash, Outrage etc) do not yet cancel if the move fails to connect for whatever reason.
+- Roost does not make a pure Flying-type into a Normal-type yet. Instead, it effectively becomes typeless during damage calculation.
+- Sketch is still able to copy Dark Void.
+
+===========================================================================
+Later Generation Moves
+===========================================================================
+Thanks to hg-engine, Aurora Crystal has a significantly expanded amount of moves compared to the normal HG/SS.
+The vast majority of these are from later generations, but there are also a few custom moves.
+
+The following moves from later generations are available:
+
+[Generation V]
+Acid Spray, Acrobatics, Autotomize, Bulldoze, Clear Smog, Coil, Cotton Guard, Dragon Tail, Drill Run, Dual Chop, Echoed Voice, Electroweb, Entrainment, Fiery Dance, Final Gambit, Flame Charge, Foul Play, Frost Breath, Gear Grind, Head Charge, Heat Crash, Heavy Slam, Hex, Hone Claws, Horn Leech, Hurricane, Icicle Crash, Incinerate, Inferno, Leaf Tornado, Low Sweep, Night Daze, Psyshock, Psystrike, Quiver Dance, Razor Shell, Sacred Sword, Scald, Searing Shot, Shell Smash, Shift Gear, Sludge Wave, Snarl, Soak, Steamroller, Stored Power, Storm Throw, Struggle Bug, Tail Slap, V-create, Venoshock, Volt Switch, Wild Charge, Work Up.
+
+[Generation VI]
+Baby-Doll Eyes, Boomburst, Confide, Dazzling Gleam, Diamond Storm, Disarming Voice, Draining Kiss, Eerie Impulse, Electric Terrain, Fairy Wind, Freeze-Dry, Grassy Terrain, Infestation, Misty Terrain, Moonblast, Mystical Fire, Noble Roar, Nuzzle, Parabolic Charge, Parting Shot, Petal Blizzard, Phantom Force, Play Nice, Play Rough, Power-Up Punch, Water Shuriken.
+
+[Generation VII]
+Accelerock, Anchor Shot, Aurora Veil*, Brutal Swing, Burn Up, Clanging Scales, Darkest Lariat, Dragon Hammer, Fire Lash, First Impression, High Horsepower, Ice Hammer, Leafage, Liquidation, Lunge, Pollen Puff, Power Trip, Psychic Fangs, Psychic Terrain, Shadow Bone, Shore Up, Smart Strike, Solar Blade, Sparkling Aria*, Spirit Shackle, Strength Sap, Tearful Look, Toxic Thread, Trop Kick, Zing Zap.
+
+[Generation VIII]
+Apple Acid, Barb Barrage, Bitter Malice, Body Press, Branch Poke, Breaking Swipe, Burning Jealousy, Ceaseless Edge, Chloroblast, Clangorous Soul, Dire Claw, Dragon Darts*, Drum Beating, Dual Wingbeat, Esper Wing, False Surrender, Flip Turn, Grav Apple, Headlong Rush, Infernal Parade, Life Dew, Meteor Assault, Meteor Beam, Mountain Gale, Overdrive, Poltergeist, Psyshield Bash, Pyro Ball, Raging Fury, Scale Shot, Scorching Sands, Shelter, Skitter Smack, Snap Trap, Snipe Shot*, Spirit Break, Steel Beam, Stone Axe, Strange Steam, Triple Arrows*, Triple Axel, Victory Dance, Wave Crash.
+
+[Generation IX]
+Alluring Voice, Aqua Cutter, Aqua Step, Armor Cannon, Bitter Blade, Blood Moon, Chilling Water, Chilly Reception, Comeuppance, Double Shock, Dragon Cheer*, Electro Shot, Fickle Beam, Flower Trick, Gigaton Hammer, Glaive Rush, Hyper Drill, Ice Spinner*, Jet Punch, Kowtow Cleave, Mortal Spin, Population Bomb, Pounce, Rage Fist*, Raging Bull*, Snowscape, Spin Out, Supercell Slam, Syrup Bomb*, Tidy Up, Torch Song, Trailblaze, Triple Dive, Twin Beam.
+
+* These marked moves don't fully work correctly yet.
+- Aurora Veil isn't currently its own field effect. Instead, the move will set up Reflect and Light Screen at once.
+- Sparkling Aria's burn curing effect will always work, regardless of if a Pokémon has Shield Dust or not.
+- Dragon Darts does not have its unusual targeting effect in double battles yet. It's just a double hit move like Double Kick etc currently.
+- Snipe Shot does not ignore redirection effects yet.
+- Triple Arrows has a 30% chance for each effect to occur (instead of it being 50% for the Defense drop and 30% for the flinch).
+- Dragon Cheer applies the +2 critical ratio boost regardless of if the target is a Dragon-type or not.
+- Rage Fist's damage boost resets if the Pokémon switches out.
+- Syrup Bomb's effect is an immediate -2 Speed stat drop, instead of being at the end of the turn for the next three turns.
+
+===========================================================================
+Modified Moves
+===========================================================================
+Many moves have had some modifications.
+
+The following moves have had no changes other than making their accuracy 100%:
+
+Aeroblast, Air Cutter, Air Slash, Blaze Kick, Bounce, Bone Club, Bone Rush, Bonemerang, Ceaseless Edge, Charge Beam, Chloroblast, Crabhammer, Crush Claw, Cut, Diamond Storm, Double Hit, Draco Meteor, Dragon Tail, Drill Run, Dual Chop, Dual Wingbeat, Electroweb, Fire Fang, Fly, Frost Breath, Gear Grind, Giga Impact, Hammer Arm, High Horsepower, Hyper Beam, Hyper Fang, Ice Fang, Ice Hammer, Icicle Crash, Icy Wind, Kinesis, Leaf Storm, Leaf Tornado, Leech Seed, Mega Punch, Metal Claw, Metal Sound, Meteor Beam, Meteor Mash, Mirror Shot, Mountain Gale, Mud Bomb, Mud Shot, Night Daze, Octazooka, Overheat, Razor Leaf, Razor Shell, Roar of Time, Rock Blast, Rock Climb, Rock Tomb, Rock Wrecker, Rolling Kick, Pin Missile, Play Rough, Present, Psycho Boost, Psyshield Bash, Rock Throw, Sacred Fire, Scale Shot, Screech, Skitter Smack, Sky Attack, Sky Uppercut, Slam, Snarl, Sonic Boom, Steel Beam, Stone Axe, Strange Steam, Spacial Rend, String Shot, Super Fang, Tail Slap, Take Down, Thunder Fang, Triple Dive, V-create, Zen Headbutt.
+
+The moves listed below have had changes to other aspects, such as power, type, and effect:
+
+[Absorb]
+Power: 20 -> 35
+
+[Ancient Power]
+Power: 60 -> 65
+PP: 5 -> 10
+
+[Arm Thrust]
+Power: 15 -> 20
+
+[Astonish]
+Power: 30 -> 40
+
+[Aurora Veil]
+Effect: If snowing, tries to set up the effects of both Reflect and Light Screen.
+(Aurora Veil is not yet implemented as its own field effect.)
+
+[Barrage]
+Power: 15 -> 20
+Accuracy: 85% -> 100%
+
+[Comet Punch]
+Power: 18 -> 20
+Accuracy: 85% -> 100%
+
+[Cross Chop]
+Accuracy: 80% -> 90%
+
+[Covet]
+Type: Normal -> Fairy
+
+[Cross Poison]
+Power: 70 -> 90
+
+[Dark Void]
+Accuracy: 50% -> 80%
+
+[Dragon Darts]
+Effect: Hits the foe twice.
+(The unique targeting effect in double battles is not yet implemented.)
+
+[Double Slap]
+Power: 15 -> 20
+Accuracy: 85% -> 100%
+
+[Dragon Cheer]
+Effect: Boosts the critical-hit ratio of an ally by two stages.
+(This currently just sets the Focus Energy effect on an ally, meaning it is always +2 crit ratio regardless of type.)
+
+[Dragon Claw]
+Effect: Has a high critical-hit ratio (+1).
+
+[Dragon Rush]
+Accuracy: 75% -> 90%
+
+[Drill Peck]
+Effect: Has a high critical-hit ratio (+1).
+
+[Egg Bomb]
+Category: Physical -> Special
+Accuracy: 75% -> 100%
+
+[Fury Attack]
+Power: 15 -> 20
+Accuracy: 85% -> 100%
+
+[Fury Swipes]
+Power: 18 -> 20
+Accuracy: 80% -> 100%
+
+[Grass Whistle]
+Accuracy: 55% -> 60%
+
+[Gyro Ball]
+PP: 5 -> 10
+
+[Iron Tail]
+Accuracy: 75% -> 85%
+
+[Meditate]
+Effect: Raises the Attack stat and accuracy of the user by one stage each.
+
+[Mega Drain]
+Power: 40 -> 55
+
+[Mega Kick]
+Accuracy: 75% -> 85%
+
+[Needle Arm]
+Power: 60 -> 65
+Effect: Adds a layer of Spikes to the target's side of the field.
+
+[Ominous Wind]
+Power: 60 -> 65
+PP: 5 -> 10
+
+[Pay Day]
+Power: 40 -> 60
+
+[Rage Fist]
+Effect: This move's power increases by 50 for each time the Pokémon is hit, up to a maximum of 350. This bonus resets upon fainting or switching out.
+(Unlike the real deal, the hit counter resets when the Pokémon leaves the field. Though, while a technical issue, it's also decent for balance!)
+
+[Razor Wind]
+Type: Normal -> Flying
+Effect: A two-turn move with +1 critical ratio, that is now guaranteed to be a critical hit.
+
+[Rock Smash]
+Effect: Has a 100% chance to drop the target's Defense stat by one stage.
+
+[Peck]
+Power: 35 -> 40
+
+[Poison Sting]
+Power: 15 -> 30
+
+[Silver Wind]
+Power: 60 -> 65
+PP: 5 -> 10
+
+[Sing]
+Accuracy: 55% -> 60%
+
+[Smog]
+Power: 30 -> 40
+Accuracy: 70% -> 100%
+
+[Snipe Shot]
+Effect: Has a high critical-hit ratio (+1).
+(The redirection ignoring effect is not yet implemented.)
+
+[Steel Wing]
+Power: 70 -> 80
+Accuracy: 90% -> 100%
+
+[Strength]
+Power: 80 -> 100
+
+[Submission]
+Power: 80 -> 85
+Accuracy: 80% -> 100%
+
+[Supersonic]
+Accuracy: 55% -> 60%
+
+[Syrup Bomb]
+Accuracy: 85% -> 100%
+Effect: Lowers the target's Speed stat by two stages.
+(The multi-turn Speed drop effect is not yet implemented, so the effect is changed entirely.)
+
+[Triple Arrows]
+Effect: Has a chance (30%) to flinch the target. Has a chance (30%) to lower the target's Defense stat. Has a high critical-hit ratio (+1).
+(It's difficult to have separate effect chances for each effect, so the 50% chance to lower the target's Defense stat is 30% instead.)
+
+[Wild Charge]
+Power: 90 -> 120
+Effect: Has a chance (10%) to paralyze the target. The user takes recoil equal to 1/3 of the damage dealt.
+
+[X-Scissor]
+Effect: Has a high critical-hit ratio (+1).
+
+===========================================================================
+New Moves
+===========================================================================
+Aurora Crystal introduces five new moves. These are all signature moves, i.e. only on one Pokémon each.
+
+[Petal Barrage]
+This move is learnt by Meganium.
+
+Power: 80
+Accuracy: 100%
+Type: Grass
+PP: 10
+Category: Special
+Target: Single
+Effect: Lowers the target's Attack by one stage.
+
+[Infernal Blast]
+This move is learnt by Typhlosion.
+
+Power: 100
+Accuracy: 100%
+Type: Fire
+PP: 10
+Category: Special
+Target: Foes and Ally
+Effect: Has a chance (30%) of inflicting a burn on the target.
+
+[Savage Rend]
+This move is learnt by Feraligatr.
+This move's power is boosted by the Strong Jaw ability.
+
+Power: 80
+Accuracy: 100%
+Type: Water
+PP: 10
+Category: Physical
+Target: Single
+Effect: Has a chance (30%) of causing the target to flinch.
+
+[Piddly Punches]
+This move is learnt by Ledian.
+This move's mechanics are the same as Population Bomb.
+This move's power is boosted by the Iron Fist ability.
+This move is guaranteed to hit 10 times if used by a Pokémon with the Skill Link ability.
+This move is guaranteed to hit between 4 and 10 times if the user is holding a Loaded Dice.
+
+Power: 10
+Accuracy: 90%
+Type: Bug
+PP: 10
+Category: Physical
+Target: Single
+Effect: Hits the target one to ten times in a row.
+
+[Thunder Claw]
+This move is learnt by Luxray.
+
+Power: 85
+Accuracy: 100%
+Type: Electric
+PP: 10
+Category: Physical
+Target: Single
+Effect: Has a chance (30%) to inflict paralysis on the target. Has a high critical-hit ratio (+1).

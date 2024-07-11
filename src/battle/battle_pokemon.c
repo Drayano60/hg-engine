@@ -1151,6 +1151,10 @@ u32 LONG_CALL GetAdjustedMoveTypeBasics(struct BattleStruct *sp, u32 move, u32 a
     {
         typeLocal = TYPE_NORMAL;
     }
+    /**** AURORA CRYSTAL: Add handling for type-changed Raging Bull. */
+    else if (move == MOVE_RAGING_BULL && type != TYPE_NORMAL) {
+        typeLocal = type;
+    }
     else if (sp->moveTbl[move].type == TYPE_NORMAL && MoveIsAffectedByNormalizeVariants(sp->current_move_index))
     {
         if (ability == ABILITY_PIXILATE)

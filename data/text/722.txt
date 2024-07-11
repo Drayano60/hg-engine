@@ -105,12 +105,12 @@ The Pokémon can’t use\nany held items.
 Moves used will ignore\nthe target’s Ability.
 Boosts the critical-hit\nratios of moves.
 If defeated by contact,\nfoe takes 25% HP damage.
-Sensing a dangerous move\nboosts evasion for 1 turn.
+Senses the foe’s\ndangerous moves. 
 Determines the foe’s\nmost powerful move.
 When attacking, ignores\nthe foe’s stat changes.
 Doubles the power of “not\nvery effective” moves.
 Lowers damage from super\neffective attacks by 25%.
-Halves Attack and Speed\nstats for 3 turns.
+Halves Attack and Speed\nstats for 5 turns.
 Ignores Ghost immunities.\nUnaffected by Intimidate.
 Draws in all Water-type\nmoves to up Sp. Attack.
 Recovers 6.25% of its max\nHP each turn in snow.
@@ -118,7 +118,7 @@ Lowers damage from super\neffective attacks by 25%.
 Summons a snowstorm for\n5 turns upon entry.
 The Pokémon may gather\nHoney from somewhere.
 The Pokémon can check\nthe foe’s held item.
-Powers up moves that\ncause recoil by 30%.
+Powers up moves that\ncause recoil by 20%.
 Changes type to match\nthe held Plate.
 Ups Attack and Sp. Def of\nitself and ally when sunny.
 Deals 12.5% HP damage to\nsleeping foes each turn.
@@ -170,7 +170,7 @@ No status or stat drops\non Grass-type allies.
 Halves the damage taken\nfrom physical moves.
 Flying-type moves gain +1\npriority when at full HP.
 Contact with it lowers the\nattacker’s Speed stat.
-Doubles the Defense stat\non Grassy Terrain.
+Boosts Defense by 50%\non Grassy Terrain.
 Raises the power of aura\nand pulse moves by 50%.
 Damaging moves hit twice.\nSecond hit is 25% damage.
 Normal-type moves become\nFairy and do 20% more.

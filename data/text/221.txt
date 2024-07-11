@@ -348,7 +348,7 @@ A nutrient-draining attack. The user’s\nHP is restored by half the damage\ntak
 An attack move that varies in power\nand type depending on the weather.
 The user damages opposing Pokémon by\nemitting a powerful flash.
 A two-turn attack. The user gathers\nlight, then blasts a bundled beam on\nthe second turn.
-The foe is slammed with a sturdy tail\nof steel. It has a 20% chance to lower\nthe target’s Defense stat if it hits.
+The foe is slammed with a sturdy tail\nof steel. It has a 30% chance to lower\nthe target’s Defense stat if it hits.
 A strong electric blast is loosed at\nthe foe. It has a 10% chance to leave\nthe foe paralyzed.
 A wicked thunderbolt is dropped on the\nfoe to inflict damage. It has a 30%\nchance to leave the foe paralyzed.
 The user sets off an earthquake\nthat hits all the Pokémon in the\nbattle.

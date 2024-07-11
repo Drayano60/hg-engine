@@ -441,8 +441,8 @@ void ServerWazaBefore(void *bw, struct BattleStruct *sp)
             {
                 sp->client_work = sp->attack_client;
 
-                /**** AURORA CRYSTAL: Changed King's Shield to Protect until implemented. ****/
-                if (sp->current_move_index == MOVE_PROTECT && sp->battlemon[sp->attack_client].form_no == 1)
+                /**** AURORA CRYSTAL: Also allow Protect to activate Stance Change until King's Shield is implemented. ****/
+                if ((sp->current_move_index == MOVE_KINGS_SHIELD || sp->current_move_index == MOVE_PROTECT) && sp->battlemon[sp->attack_client].form_no == 1)
                 {
                     sp->battlemon[sp->client_work].form_no = 0;
                     BattleFormChange(sp->client_work, sp->battlemon[sp->client_work].form_no, bw, sp, 0);

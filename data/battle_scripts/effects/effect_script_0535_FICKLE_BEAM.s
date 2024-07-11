@@ -13,7 +13,7 @@ _000:
     End
 _PowerBoost:
     UpdateVar OPCODE_SET, BSCRIPT_VAR_POWER_MULTI, 20 /* Doubles move power when activated */
-    PrintMessage 2117, TAG_NICKNAME, BATTLER_ATTACKER
+    PrintMessage 2117, TAG_NICKNAME, BATTLER_CATEGORY_ATTACKER
     Wait 
     WaitButtonABTime 30
     CalcCrit 

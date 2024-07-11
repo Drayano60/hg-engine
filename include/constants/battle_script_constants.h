@@ -639,6 +639,7 @@
 #define ADD_STATUS_GLAIVE_RUSH                         (219)
 #define ADD_STATUS_ENTRAINMENT                         (220)
 #define ADD_STATUS_REMOVE_TYPE                         (221)
+#define ADD_STATUS_REMOVE_TERRAIN                      (222)
 
 // additional effect constants
 #define ADD_STATUS_NONE (0)

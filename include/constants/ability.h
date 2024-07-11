@@ -310,7 +310,7 @@
 #define ABILITY_RIPEN 293 // Should be in but not implemented.
 #define ABILITY_ICE_FACE 294
 #define ABILITY_POWER_SPOT 295
-#define ABILITY_MIMICRY 296
+#define ABILITY_MIMICRY 296 // Should be in but not implemented.
 #define ABILITY_NEUTRALIZING_GAS 297 // Should be in but not implemented.
 #define ABILITY_HUNGER_SWITCH 298
 #define ABILITY_UNSEEN_FIST 299

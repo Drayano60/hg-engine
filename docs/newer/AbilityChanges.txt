@@ -1,0 +1,298 @@
+===========================================================================
+Ability Modernization
+===========================================================================
+Thanks to hg-engine, most abilities that gained new battle effects in later generations have had these changes backported to HG/SS.
+As hg-engine is still an ongoing project, some abilities have not been fully modernized yet. However, the majority of these are fairly niche interactions.
+
+Please note that this only applies to the battle effects of these abilities.
+Field effects are currently unchanged, so abilities with field effects introduced after HG/SS (e.g. Flash Fire, Harvest) do not currently work.
+
+[Abilities Fully Modernized]
+- Air Lock now shows a message when the Pokémon enters battle.
+- Anger Point no longer activates if the Pokémon takes a critical hit while it has a substitute.
+- Cloud Nine now shows a message when the Pokémon enters battle.
+- Drizzle's rain now only lasts for five turns, or eight with a Damp Rock attached.
+- Drought's sun now only lasts for five turns, or eight with a Heat Rock attached.
+- Effect Spore can no longer activate in response to an attack from a Grass-type Pokémon.
+- Flash Fire now activates even if the Pokémon is frozen when hit by a Fire-type move.
+- Forecast will now cause Castform to revert to its base form if suppressed or removed.
+- Frisk now shows the items of both opponents in a double battle.
+- Intimidate's effect now no longer works on Pokémon with Inner Focus, Oblivious, Own Tempo or Scrappy.
+- Illuminate is updated, but has been changed further.
+- Keen Eye is updated, but has been changed further.
+- Leaf Guard now prevents Rest being used by the Pokémon in harsh sunlight.
+- Minus and Plus now boost the Pokémon's Special Attack if their ally has either the Plus or the Minus ability.
+- Normalize now also provides a 20% power boost to Normal-type moves.
+- Sand Stream's sand now only lasts for five turns, or eight with a Smooth Rock attached. (It has also received further changes.)
+- Serene Grace now also doubles the chance of the flinching effects of the King's Rock and Razor Claw items.
+- Simple now doubles stat changes on application, instead of just during damage calculation.
+- Skill Link now makes Triple Kick only check accuracy once.
+- Sniper now changes critical damage to x2.25 instead of x3.0.
+- Snow Warning now summons snow which lasts for five turns, or eight with an Icy Rock attached.
+- Stench now applies the additional 10% chance of flinch to moves that do not already flinch.
+- Sturdy now prevents a Pokémon at full HP from being knocked out in one hit.
+- Technician now also boosts the power of Struggle.
+
+[Abilities Partially Modernized]
+- Lightning Rod now stops Electric-type moves dealing damage and boosts the Pokémon's Special Attack stat. However, it doesn't currently boost the Special Attack stat if the Pokémon is already immune to Electric-type moves.
+- Magic Guard no longer prevents the Pokémon from being poisoned by Toxic Spikes. However, it does still prevent the Pokémon from being fully paralyzed.
+- Oblivious protects the Pokémon from Taunt, but it won't cure an existing Taunt if gained afterwards.
+- Synchronize can now also reflect bad poison, but otherwise works the same as Generation IV.
+- Trace is now unable to copy certain abilities, but otherwise works the same as Generation IV.
+- Wonder Guard now prevents a non super-effective Fire Fang from passing through, but cannot block Beat Up, Doom Desire or Future Sight.
+
+[Abilities Not Yet Modernized]
+- Anticipation, Klutz and Stall still work exactly the same as Generation IV.
+- Flower Gift is still not tied to Cherrim's ability to transform.
+- Guts still gives a damage boost if a frozen Pokémon uses a self-thawing move.
+- Hustle and Rivalry still boost the damage a Pokémon inflicts on itself from confusion.
+- Mold Breaker does not cause a Pokémon with Levitate that is pulled in by the Mold Breaker's Pokémon's Roar/Whirlwind to be affected by Spikes or Toxic Spikes.
+- Multitype still prevents the item removing effects of moves (except for Knock Off).
+- Own Tempo, if given to a confused Pokémon, still cures the Pokémon immediately instead of after its turn.
+- Pickup still works the same as Generation IV (i.e. it has no in-battle effect).
+- Pressure still works the same as Generation IV.
+- Soundproof still prevents a Pokémon in reserve from being affected by Heal Bell (as well as the new Healing Chime ability).
+- Speed Boost still raises Speed on a turn that the Pokémon failed to run from a wild encounter.
+- Sticky Hold still prevents an item from being stolen even if the Pokémon was KOed that turn.
+- The abilities that prevent status (Immunity, Insomnia, Limber, Magma Armor, Vital Spirit, Water Veil), if suppressed or removed, will still cure the relevant status on the Pokémon if the Pokémon is switched out.
+
+===========================================================================
+Later Generation Abilities
+===========================================================================
+Thanks to hg-engine, Aurora Crystal has a significantly expanded amount of abilities compared to the normal HG/SS.
+The vast majority of these are from later generations, but there are also a handful of custom abilities.
+
+The following abilities from later generations are available:
+
+[Generation V]
+Analytic, Big Pecks, Contrary, Cursed Body, Defeatist, Defiant, Flare Boost, Friend Guard, Harvest, Healer, Heavy Metal, Illusion, Imposter, Infiltrator, Iron Barbs, Justified, Light Metal, Magic Bounce, Moody, Moxie, Multiscale, Mummy, Overcoat, Pickpocket, Poison Touch, Prankster, Rattled, Regenerator, Sand Force, Sand Rush, Sap Sipper, Sheer Force, Telepathy, Toxic Boost, Unnerve, Victory Star, Weak Armor, Wonder Skin, Zen Mode.
+
+[Generation VI]
+Aerilate, Aroma Veil, Bulletproof, Cheek Pouch*, Competitive, Flower Veil, Fur Coat, Gale Wings, Gooey, Grass Pelt, Mega Launcher, Parental Bond, Pixilate, Protean, Refrigerate, Stance Change*, Strong Jaw, Sweet Veil, Tough Claws.
+
+[Generation VII]
+Battery, Beast Boost, Berserk, Corrosion, Dazzling, Disguise, Electric Surge, Fluffy, Galvanize, Grassy Surge, Liquid Voice, Long Reach, Merciless, Misty Surge, Psychic Surge, Queenly Majesty, Slush Rush, Stamina, Steelworker, Surge Surfer, Tangling Hair, Triage, Water Bubble, Water Compaction.
+
+[Generation VIII]
+Cotton Down, Curious Medicine, Gorilla Tactics, Ice Scales, Libero, Pastel Veil*, Perish Body, Punk Rock, Quick Draw, Screen Cleaner, Steely Spirit, Transistor, Wandering Spirit.
+
+[Generation IX]
+Armor Tail, Guard Dog, Mind's Eye, Sharpness, Supersweet Syrup, Supreme Overlord, Thermal Exchange, Toxic Debris, Wind Power, Wind Rider.
+
+* These marked abilities don't fully work correctly yet.
+- Cheek Pouch does not currently activate in response to the type-resist berries or the Jaboca, Rowap and Custap Berries. It also will not activate because of Bug Bite, Fling or Pluck.
+- Pastel Veil mostly works correctly, but there may be some edge cases involving Mold Breaker that are inaccurate.
+- Stance Change now relies on the use of Protect, as King's Shield isn't currently available.
+
+===========================================================================
+Unavailable Abilities
+===========================================================================
+There are also some abilities that are unavailable, even though Pokémon that have them are available. These ability slots have all been replaced, but if using the patch without ability changes, then slots with these abilities either duplicate other slots or are set to be no ability.
+
+The affected abilities are the following:
+Cud Chew, Magician, Mimicry, Mirror Armor, Neutralizing Gas, Power of Alchemy, Ripen, Stakeout, Stalwart, Symbiosis.
+
+===========================================================================
+New Abilities
+===========================================================================
+There are also 26 new abilities in the game, most of which are new signature abilities for certain Pokémon.
+
+[Aqua Adept]
+Pokémon: Masquerain.
+Effect: Increases the power of the Pokémon's Water-type moves by 50%.
+
+[Aura Adept]
+Pokémon: Lucario.
+Effect: Increases the power of the Pokémon's aura or pulse moves by 50%.
+
+[Befuddle]
+Pokémon: Butterfree.
+Effect: The Pokémon's damaging Bug-type moves have a 30% chance to inflict poison, paralysis or sleep (10% each) on the target.
+
+[Bombardier]
+Pokémon: Octillery.
+Effect: Increases the power of the Pokémon's ball or bomb moves by 50%.
+
+[Bugcatcher]
+Pokémon: Carnivine.
+Effect: Makes the Pokémon immune to Bug-type moves. When it would be hit by one, its Attack stat is also boosted one stage.
+
+[Cacophony]
+Pokémon: Whismur/Loudred/Exploud, Noibat/Noivern.
+Effect: Increases the power of the Pokémon's sound moves by 30%. Also halves the damage taken from sound moves by 50%.
+
+[Cheerleader]
+Pokémon: Plusle, Minun.
+Effect: Increases the power of the Pokémon's ally's moves by 20%.
+
+[Conductor]
+Pokémon: Kricketune.
+Effect: Doubles the power of sound moves.
+
+[Flower Power]
+Pokémon: Flabébé/Floette/Florges.
+Effect: Increases the power of the Pokémon's Grass-type moves by 50%.
+
+[Fur Cushion]
+Pokémon: Flareon.
+Effect: Protects the Pokémon from recoil damage.
+
+[Healing Chime]
+Pokémon: Chingling/Chimecho.
+Effect: Cures the status of all party members when the Pokémon is sent out into battle.
+
+[Heat Up]
+Pokémon: Cyndaquil/Quilava/Typhlosion.
+Effect: Increases the Pokémon's Special Attack by one stage if it KOs a Pokémon while using a Fire-type move.
+
+[Lunar Energy]
+Pokémon: Lunatone.
+Effect: Increases the power of the Pokémon's Fairy-type moves by 50%.
+
+[Magma Skin]
+Pokémon: Slugma/Magcargo.
+Effect: Pokémon that attack this Pokémon with a contact move will be inflicted with a burn.
+
+[Odd Power]
+Pokémon: Psyduck/Golduck.
+Effect: Increases the power of the Pokémon's Psychic-type moves by 50%.
+
+[Poison Sweat]
+Pokémon: Umbreon.
+Effect: Pokémon that attack this Pokémon with a contact move have a 30% chance to be inflicted with regular poison.
+
+[Quick Paw]
+Pokémon: Skitty/Delcatty.
+Effect: While at full HP, this Pokémon gains +1 priority to all of its Normal-type moves.
+
+[Rhythmic]
+Pokémon: Jynx, Bellossom, Ludicolo, Chatot, Maractus.
+Effect: Boosts the power of a move that the Pokémon uses consecutively by 20% for each consecutive turn, up to a maximum boost of 100%. (This does NOT stack with the effect of the Metronome item.)
+
+[Solar Energy]
+Pokémon: Solrock.
+Effect: Increases the power of the Pokémon's Fire-type moves by 50%.
+
+[Spiky Debris]
+Pokémon: Cacnea/Cacturne.
+Effect: If this Pokémon is hit by a physical move, a layer of Spikes is added to the opposing side of the field.
+
+[Sunny Mood]
+Pokémon: Sunflora.
+Effect: When this Pokémon is sent out into battle, the sunlight becomes harsh for 5 turns (8 with a Heat Rock equipped). Additionally, the Pokémon's Speed stat is doubled in harsh sunlight.
+
+[Swan Song]
+Pokémon: Swanna.
+Effect: While this Pokémon is at or under 25% HP, the power of its moves are boosted by 50%.
+
+[Sweet Aroma]
+Pokémon: Chikorita/Bayleef/Meganium.
+Effect: When this Pokémon is sent out into battle, the Attack stat of all opposing Pokémon is reduced by one stage.
+
+[Totter Steps]
+Pokémon: Spinda.
+Effect: Reduces the accuracy of moves used against this Pokémon by 20%.
+
+[Toxic Scales]
+Pokémon: Venomoth, Dustox.
+Effect: Pokémon that attack this Pokémon with a contact move have a 30% chance to be inflicted with bad poison.
+
+[Wind Whipper]
+Pokémon: Pidgeot, Shiftry.
+Effect: Increases the power of the Pokémon's wind moves by 50%.
+
+===========================================================================
+Modified Abilities
+===========================================================================
+A few abilities have had their effects modified somewhat.
+
+[Big Pecks]
+In addition to preventing the user's Defense stat from being lowered, it now also boosts the Pokémon's Defense stat by 10% during damage calculation.
+
+[Blaze]
+Blaze's effect has been modified somewhat:
+- While the user is above 33% HP, the power of the Pokémon's Fire-type moves are increased by 10%.
+- While is user is at or below 33% HP, the power of the Pokémon's Fire-type moves are increased by 50%.
+
+[Corrosion]
+In addition to ignoring the poisoning immunity of Poison and Steel-types, it now also ignores the Steel-type's immunity to Poison-type moves.
+
+[Flare Boost]
+In addition to raising the Pokémon's Special Attack stat by 50% when poisoned, it now prevents the Pokémon from taking damage from a burn.
+
+[Forecast]
+In addition to changing Castform's form, it can now also summon a random weather on entry for 5 turns. There's a few different rules for this:
+- If Castform is holding a Heat Rock, Damp Rock or Icy Rock, the ability will always attempt to summon sun, rain or snow respectively.
+- If Castform is not holding one of the above items and there is already weather on the field when it switches in, no weather will be summoned.
+- Otherwise, there is a 1/3 chance of sun, rain or snow being summoned when Castform switches in.
+
+[Harvest]
+Now also able to regenerate the Mental Herb, Power Herb and White Herb items in addition to Berries.
+
+[Hyper Cutter]
+In addition to preventing the user's Attack stat from being lowered, it now also boosts the Pokémon's Attack stat by 10% during damage calculation.
+
+[Illuminate]
+Illuminate has three separate effects:
+- Prevents the Pokémon's accuracy being dropped, as usual.
+- Ignores any boosts to evasion that a target has. Previously it would ignore all evasion changes, positive or negative.
+- When this Pokémon is sent out into battle, the evasion of all opposing Pokémon is reduced by one stage.
+
+[Iron Fist]
+Now increases the power of punching moves by 30% instead.
+
+[Keen Eye]
+Keen Eye has three separate effects:
+- Prevents the Pokémon's accuracy being dropped, as usual.
+- Ignores any boosts to evasion that a target has. Previously it would ignore all evasion changes, positive or negative.
+- The Pokémon's moves now also have their accuracy increased by 10%.
+
+[Long Reach]
+In addition to making the user's moves never make contact, it also boosts the user's critical hit ratio by one stage.
+
+[Liquid Voice]
+In addition to changing the Pokémon's sound moves to Water-type, it also increases their power by 20%.
+
+[Mind's Eye]
+Mind's Eye has three separate effects:
+- Allows the user's Normal or Fighting-type moves to hit Ghost-types, as usual.
+- Prevents the Pokémon's accuracy being dropped, as usual.
+- Ignores any boosts to evasion that a target has. Previously it would ignore all evasion changes, positive or negative.
+
+[Overgrow]
+Overgrow's effect has been modified somewhat:
+- While the user is above 33% HP, the power of the Pokémon's Grass-type moves are increased by 10%.
+- While is user is at or below 33% HP, the power of the Pokémon's Grass-type moves are increased by 50%.
+
+[Rivalry]
+Rivalry's effect has been changed.
+- If a male Pokémon attacks a female Pokémon, its move's power is increased by 10%.
+- If a female Pokémon attacks a male Pokémon, its move's power is increased by 10%.
+
+[Run Away]
+In addition to allowing the Pokémon to always run away from a wild battle, it now always allows the Pokémon to switch out no matter the circumstances.
+
+[Sand Stream]
+In addition to summoning a sandstorm, it now also protects the Pokémon from sandstorm damage.
+
+[Stance Change]
+Now also changes Aegislash to Shield Forme if it uses Protect. This is because King's Shield is not implemented in the game currently.
+
+[Supersweet Syrup]
+Now activates every time the Pokémon is sent into battle, instead of only once.
+
+[Swarm]
+Swarm's effect has been modified somewhat:
+- While the user is above 33% HP, the power of the Pokémon's Bug-type moves are increased by 10%.
+- While is user is at or below 33% HP, the power of the Pokémon's Bug-type moves are increased by 50%.
+
+[Torrent]
+Torrent's effect has been modified somewhat:
+- While the user is above 33% HP, the power of the Pokémon's Water-type moves are increased by 10%.
+- While is user is at or below 33% HP, the power of the Pokémon's Water-type moves are increased by 50%.
+
+[Toxic Boost]
+In addition to raising the Pokémon's Attack stat by 50% when poisoned, it now prevents the Pokémon from taking damage from poison or bad poison.
+
+[Transistor]
+Now increases the power of the Pokémon's Electric-type moves by 50% again.

@@ -5,6 +5,7 @@
 // Checks for Defiant/Competitive and boosts the relevant stat
 // This is used for abilities that activate on entry
 // Called by Intimidate and the new Sweet Aroma/Illuminate sub_seqs
+// Also called by Gooey, Tangling Hair, Cotton Down
 
 _000:
     IfSameSide BATTLER_CATEGORY_ATTACKER, BATTLER_CATEGORY_SIDE_EFFECT_MON, _039

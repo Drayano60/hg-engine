@@ -332,7 +332,7 @@ movedata MOVE_FLY, "Fly"
 movedata MOVE_BIND, "Bind"
     battleeffect MOVE_EFFECT_BIND_HIT
     pss SPLIT_PHYSICAL
-    basepower 30 /**** EDIT: 15 -> 30. */
+    basepower 15
     type TYPE_NORMAL
     accuracy 85
     pp 20
@@ -572,7 +572,7 @@ movedata MOVE_BODY_SLAM, "Body Slam"
 movedata MOVE_WRAP, "Wrap"
     battleeffect MOVE_EFFECT_BIND_HIT
     pss SPLIT_PHYSICAL
-    basepower 30 /**** EDIT: 15 -> 30. */
+    basepower 15
     type TYPE_NORMAL
     accuracy 90
     pp 20
@@ -1148,7 +1148,7 @@ movedata MOVE_STRENGTH, "Strength"
 movedata MOVE_ABSORB, "Absorb"
     battleeffect MOVE_EFFECT_RECOVER_HALF_DAMAGE_DEALT
     pss SPLIT_SPECIAL
-    basepower 40 /**** EDIT: 20 -> 40. */
+    basepower 35 /**** EDIT: 20 -> 35. */
     type TYPE_GRASS
     accuracy 100
     pp 25
@@ -1164,7 +1164,7 @@ movedata MOVE_ABSORB, "Absorb"
 movedata MOVE_MEGA_DRAIN, "Mega Drain"
     battleeffect MOVE_EFFECT_RECOVER_HALF_DAMAGE_DEALT
     pss SPLIT_SPECIAL
-    basepower 50 /**** EDIT: 40 -> 50. */
+    basepower 55 /**** EDIT: 40 -> 55. */
     type TYPE_GRASS
     accuracy 100
     pp 15
@@ -1340,7 +1340,7 @@ movedata MOVE_DRAGON_RAGE, "Dragon Rage"
 movedata MOVE_FIRE_SPIN, "Fire Spin"
     battleeffect MOVE_EFFECT_BIND_HIT
     pss SPLIT_SPECIAL
-    basepower 50 /**** EDIT: 35 -> 50. */
+    basepower 35
     type TYPE_FIRE
     accuracy 85
     pp 15
@@ -1551,7 +1551,7 @@ movedata MOVE_MEDITATE, "Meditate"
     basepower 0
     type TYPE_PSYCHIC
     accuracy 0
-    pp 20 /**** EDIT: 40 -> 20. */
+    pp 40
     effectchance 0
     target MOVE_TARGET_USER
     priority 0
@@ -2060,7 +2060,7 @@ movedata MOVE_WATERFALL, "Waterfall"
 movedata MOVE_CLAMP, "Clamp"
     battleeffect MOVE_EFFECT_BIND_HIT
     pss SPLIT_PHYSICAL
-    basepower 50 /**** EDIT: 35 -> 50. */
+    basepower 35
     type TYPE_WATER
     accuracy 85
     pp 15
@@ -3036,7 +3036,7 @@ movedata MOVE_SLUDGE_BOMB, "Sludge Bomb"
 movedata MOVE_MUD_SLAP, "Mud-Slap"
     battleeffect MOVE_EFFECT_LOWER_ACCURACY_HIT
     pss SPLIT_SPECIAL
-    basepower 30 /**** EDIT: 20 -> 30. */
+    basepower 20
     type TYPE_GROUND
     accuracy 100
     pp 10
@@ -3388,7 +3388,7 @@ movedata MOVE_FURY_CUTTER, "Fury Cutter"
 movedata MOVE_STEEL_WING, "Steel Wing"
     battleeffect MOVE_EFFECT_RAISE_DEF_HIT
     pss SPLIT_PHYSICAL
-    basepower 70
+    basepower 80 /*** EDIT: 70 -> 80 */
     type TYPE_STEEL
     accuracy 100 /**** EDIT: 90 -> 100. */
     pp 25
@@ -3712,7 +3712,7 @@ movedata MOVE_IRON_TAIL, "Iron Tail"
     type TYPE_STEEL
     accuracy 85 /**** EDIT: 75 -> 85. */
     pp 15
-    effectchance 20 /**** EDIT: 30% -> 20%. */
+    effectchance 30
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
@@ -4012,7 +4012,7 @@ movedata MOVE_ROCK_SMASH, "Rock Smash"
 movedata MOVE_WHIRLPOOL, "Whirlpool"
     battleeffect MOVE_EFFECT_WHIRLPOOL
     pss SPLIT_SPECIAL
-    basepower 50 /**** EDIT: 35 -> 50. */
+    basepower 35
     type TYPE_WATER
     accuracy 85
     pp 15
@@ -4922,13 +4922,13 @@ movedata MOVE_CRUSH_CLAW, "Crush Claw"
     movedescription MOVE_CRUSH_CLAW, "The user slashes the\nfoe with hard and\nsharp claws.\nIt may also lower the\ntarget’s Defense."
 
 movedata MOVE_BLAST_BURN, "Blast Burn"
-    battleeffect MOVE_EFFECT_BURN_HIT /**** EDIT: Changed to be a burn chance. */
+    battleeffect MOVE_EFFECT_RECHARGE_AFTER
     pss SPLIT_SPECIAL
-    basepower 120 /**** EDIT: 150 -> 120. */
+    basepower 150
     type TYPE_FIRE
     accuracy 90
     pp 5
-    effectchance 10 /**** EDIT: 0% -> 10%. */
+    effectchance 0
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_KINGS_ROCK | FLAG_MIRROR_MOVE | FLAG_PROTECT
@@ -4938,13 +4938,13 @@ movedata MOVE_BLAST_BURN, "Blast Burn"
     movedescription MOVE_BLAST_BURN, "The foe is razed by\na fiery explosion.\nThe user must rest\non the next turn,\nhowever."
 
 movedata MOVE_HYDRO_CANNON, "Hydro Cannon"
-    battleeffect MOVE_EFFECT_FLINCH_HIT /**** EDIT: Changed to be a flinch chance. */
+    battleeffect MOVE_EFFECT_RECHARGE_AFTER
     pss SPLIT_SPECIAL
-    basepower 120 /**** EDIT: 150 -> 120. */
+    basepower 150
     type TYPE_WATER
     accuracy 90
     pp 5
-    effectchance 10 /**** EDIT: 0% -> 10%. */
+    effectchance 0
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_HIDE_SHADOW | FLAG_KINGS_ROCK | FLAG_MIRROR_MOVE | FLAG_PROTECT
@@ -5260,7 +5260,7 @@ movedata MOVE_SKY_UPPERCUT, "Sky Uppercut"
 movedata MOVE_SAND_TOMB, "Sand Tomb"
     battleeffect MOVE_EFFECT_BIND_HIT
     pss SPLIT_PHYSICAL
-    basepower 50 /**** EDIT: 35 -> 50. */
+    basepower 35
     type TYPE_GROUND
     accuracy 85
     pp 15
@@ -5418,13 +5418,13 @@ movedata MOVE_DRAGON_CLAW, "Dragon Claw"
     movedescription MOVE_DRAGON_CLAW, "The user slashes the\nfoe with huge, sharp\nclaws.\n\n"
 
 movedata MOVE_FRENZY_PLANT, "Frenzy Plant"
-    battleeffect MOVE_EFFECT_LOWER_SPEED_HIT /**** EDIT: Changed to be a -Spd chance. */
+    battleeffect MOVE_EFFECT_RECHARGE_AFTER
     pss SPLIT_SPECIAL
-    basepower 120 /**** EDIT: 150 -> 120. */
+    basepower 150
     type TYPE_GRASS
     accuracy 90
     pp 5
-    effectchance 10 /**** EDIT: 0% -> 10%. */
+    effectchance 0
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_HIDE_SHADOW | FLAG_KINGS_ROCK | FLAG_MIRROR_MOVE | FLAG_PROTECT
@@ -5516,10 +5516,10 @@ movedata MOVE_COVET, "Covet"
 movedata MOVE_VOLT_TACKLE, "Volt Tackle"
     battleeffect MOVE_EFFECT_RECOIL_PARALYZE_HIT
     pss SPLIT_PHYSICAL
-    basepower 150 /**** EDIT: 120 -> 150. */
+    basepower 120
     type TYPE_ELECTRIC
     accuracy 100
-    pp 5 /**** EDIT: 15 -> 5. */
+    pp 15
     effectchance 10
     target MOVE_TARGET_SELECTED
     priority 0
@@ -6526,7 +6526,7 @@ movedata MOVE_DRAGON_RUSH, "Dragon Rush"
     pss SPLIT_PHYSICAL
     basepower 100
     type TYPE_DRAGON
-    accuracy 85 /**** EDIT: 75 -> 85. */
+    accuracy 90 /**** EDIT: 75 -> 90. */
     pp 10
     effectchance 20
     target MOVE_TARGET_SELECTED
@@ -7055,7 +7055,7 @@ movedata MOVE_CROSS_POISON, "Cross Poison"
     basepower 90 /**** EDIT: 70 -> 90. */
     type TYPE_POISON
     accuracy 100
-    pp 15 /**** EDIT: 20 -> 15, due to higher BP. ****/
+    pp 20
     effectchance 10
     target MOVE_TARGET_SELECTED
     priority 0
@@ -9837,7 +9837,7 @@ movedata MOVE_HOLD_BACK, "Hold Back"
 movedata MOVE_INFESTATION, "Infestation"
     battleeffect MOVE_EFFECT_HIT
     pss SPLIT_SPECIAL
-    basepower 50 /**** EDIT: 20 -> 50. */
+    basepower 20
     type TYPE_BUG
     accuracy 100
     pp 20
@@ -13835,7 +13835,7 @@ movedata MOVE_POPULATION_BOMB, "Population Bomb"
     movedescription MOVE_POPULATION_BOMB, "---"
 
 movedata MOVE_ICE_SPINNER, "Ice Spinner"
-    battleeffect MOVE_EFFECT_HIT
+    battleeffect MOVE_EFFECT_REMOVE_TERRAIN
     pss SPLIT_PHYSICAL
     basepower 80
     type TYPE_ICE
@@ -14027,7 +14027,7 @@ movedata MOVE_AQUA_STEP, "Aqua Step"
     movedescription MOVE_AQUA_STEP, "---"
 
 movedata MOVE_RAGING_BULL, "Raging Bull"
-    battleeffect MOVE_EFFECT_REMOVE_SCREENS // Does not include type change atm
+    battleeffect MOVE_EFFECT_RAGING_BULL
     pss SPLIT_PHYSICAL
     basepower 90
     type TYPE_NORMAL
@@ -14507,7 +14507,7 @@ movedata MOVE_MATCHA_GOTCHA, "Matcha Gotcha"
     movedescription MOVE_MATCHA_GOTCHA, "---"
 
 movedata MOVE_SYRUP_BOMB, "Syrup Bomb"
-    battleeffect MOVE_EFFECT_LOWER_SPEED_HIT /**** EDIT: Changed effect. */
+    battleeffect MOVE_EFFECT_LOWER_SPEED_2_HIT /**** EDIT: Changed effect. */
     pss SPLIT_SPECIAL
     basepower 60
     type TYPE_GRASS
@@ -15376,7 +15376,7 @@ movedescription MOVE_ENCORE, "The user compels the\nfoe to keep using the\nmove 
 movedescription MOVE_PURSUIT, "An attack move that\ninflicts double damage\nif used on a foe that\nis switching out of\nbattle."
 movedescription MOVE_RAPID_SPIN, "A spin attack that\nraises the user’s\nSpeed, and eliminates\nthe effects of\ncertain moves."
 movedescription MOVE_SWEET_SCENT, "A sweet scent that\nharshly lowers the\nfoe’s evasiveness.\nIt can also be used\nto lure wild Pokémon."
-movedescription MOVE_IRON_TAIL, "The foe is slammed\nwith a steel-hard\ntail.\nThis has a 20% chance\nto lower Defense."
+movedescription MOVE_IRON_TAIL, "The foe is slammed\nwith a steel-hard\ntail.\nThis has a 30% chance\nto lower Defense."
 movedescription MOVE_METAL_CLAW, "The foe is raked\nwith steel claws.\nThis has a 10% chance\nto raise Attack."
 movedescription MOVE_VITAL_THROW, "The user allows the\nfoe to attack first.\nIn return, this throw\nmove is guaranteed\nnot to miss."
 movedescription MOVE_MORNING_SUN, "The user restores its\nown HP.\nThe amount of HP\nregained varies with\nthe weather."
@@ -15452,8 +15452,6 @@ movedescription MOVE_SLACK_OFF, "The user slacks off,\nrestoring its own HP\nby 
 movedescription MOVE_HYPER_VOICE, "The user lets loose\na horribly echoing\nshout with the\npower to inflict\ndamage."
 movedescription MOVE_POISON_FANG, "The user bites the\nfoe with toxic fangs.\nThis has a 50% chance\nto badly poison the\nfoe."
 movedescription MOVE_CRUSH_CLAW, "The user slashes the\nfoe with hard and\nsharp claws.\nThis has a 50% chance\nto lower Defense."
-movedescription MOVE_BLAST_BURN, "The foe is razed by\na fiery explosion.\nThis has a 10% chance\nto burn the foe."
-movedescription MOVE_HYDRO_CANNON, "The foe is hit with\na watery blast.\nThis has a 10% chance\nto flinch the foe."
 movedescription MOVE_METEOR_MASH, "The foe is hit with a\nhard punch fired\nlike a meteor.\nThis has a 20% chance\nto raise Attack."
 movedescription MOVE_ASTONISH, "The user attacks the\nfoe while shouting in\na startling fashion.\nThis has a 30% chance\nto flinch the foe."
 movedescription MOVE_WEATHER_BALL, "An attack move that\nvaries in power and\ntype depending on\nthe weather.\n"
@@ -15483,13 +15481,11 @@ movedescription MOVE_IRON_DEFENSE, "The user hardens\nits body’s surface\nlike
 movedescription MOVE_BLOCK, "The user blocks the\nfoe’s way with arms\nspread wide to\nprevent escape.\n"
 movedescription MOVE_HOWL, "The user howls loudly\nto raise its spirit,\nboosting its Attack\nstat.\n"
 movedescription MOVE_DRAGON_CLAW, "The user slashes the\nfoe with huge, sharp\nclaws. Critical hits\nland more easily."
-movedescription MOVE_FRENZY_PLANT, "The foe is slammed\nwith an enormous\ntree.\nThis has a 10% chance\nto lower Speed."
 movedescription MOVE_BULK_UP, "The user tenses its\nmuscles to bulk up\nits body, boosting\nboth its Attack and\nDefense stats."
 movedescription MOVE_BOUNCE, "A two-turn attack.\nThe user bounces up,\nthen down on the foe.\nThis has a 30% chance\nto paralyze the foe."
 movedescription MOVE_MUD_SHOT, "The user attacks by\nhurling a blob of mud\nat the foe.\nIt also reduces the\ntarget’s Speed."
 movedescription MOVE_POISON_TAIL, "A tail attack.\nIt has a 10% chance\nto poison the foe.\nCritical hits land\nmore easily."
 movedescription MOVE_COVET, "The user attacks the\nfoe. In a wild battle,\nthis steals the foe’s\nheld item if the user\nisn’t holding an item."
-movedescription MOVE_VOLT_TACKLE, "An electrified charge.\nThe user is hurt by\n50% of damage dealt.\nThis has a 10% chance\nto paralyze the foe."
 movedescription MOVE_MAGICAL_LEAF, "The user scatters\ncurious leaves that\nchase the foe.\nThis attack will not\nmiss."
 movedescription MOVE_WATER_SPORT, "The user soaks itself\nwith water. The move\nweakens Fire-type\nmoves while the user\nis in the battle."
 movedescription MOVE_CALM_MIND, "The user quietly\nfocuses its mind and\ncalms its spirit to\nraise its Sp. Atk and\nSp. Def stats."
@@ -15781,9 +15777,9 @@ movedescription MOVE_TRIPLE_ARROWS, "This has a 30% chance\nto flinch the foe or
 movedescription MOVE_INFERNAL_PARADE, "Deals double damage\nto a target with a\nstatus condition.\nIt has a 30% chance\nto burn the target."
 movedescription MOVE_CEASELESS_EDGE, "The user slashes by\nusing its shell blade.\nEach use of the move\nscatters spikes on\nthe target’s field."
 movedescription MOVE_JET_PUNCH, "The user summons a\ntorrent around its\nfist and punches at\nspeed. This move\nalways goes first."
-movedescription MOVE_ICE_SPINNER, "The user covers\nits feet in ice\nand twirls around,\nslamming into the\ntarget."
+movedescription MOVE_ICE_SPINNER, "The user covers its\nfeet in ice and twirls\naround, slamming into\nthe target while also\ndestroying terrain."
 movedescription MOVE_KOWTOW_CLEAVE, "The user kowtows to\nmake the foe let down\nits guard, and then\nslashes at the foe.\nThis never misses."
-movedescription MOVE_RAGING_BULL, "The user performs\na tackle like a\nraging bull.\nThis destroys Reflect\nand Light Screen."
+movedescription MOVE_RAGING_BULL, "The user tackles the\nfoe like a raging bull,\ndestroying barriers.\nThe type varies with\nthe user’s form."
 movedescription MOVE_CHILLY_RECEPTION, "The user tells a\nchillingly bad joke,\nthen switches out.\nThis summons snow\nfor five turns."
 movedescription MOVE_TIDY_UP, "The user tidies up,\nremoving substitutes,\nscreens and traps.\nThe user’s Attack\nand Speed are raised."
 movedescription MOVE_SNOWSCAPE, "The user summons a\nsnowstorm that lasts\nfor five turns. This\nboosts the Defense\nstat of Ice types."
@@ -15844,7 +15840,7 @@ movedescription MOVE_MORTAL_SPIN, "A spin attack that\npoisons any foes that\nit
 movedescription MOVE_POPULATION_BOMB, "The user’s fellows\ngather in droves\nto perform a combo\nattack that hits up\nto 10 times in a row."
 movedescription MOVE_SHORE_UP, "The user regains up\nto half of its max HP.\nIn a sandstorm, this\ninstead heals by two-\nthirds of its max HP."
 movedescription MOVE_SPIN_OUT, "The user attacks\nby spinning furiously,\nstraining its legs.\nThis harshly lowers\nthe user’s Speed."
-movedescription MOVE_SYRUP_BOMB, "The user sets off\nan explosion of\nsticky candy syrup.\nThis always lowers\nthe foe’s Speed stat."
+movedescription MOVE_SYRUP_BOMB, "The user sets off\nan explosion of\nsticky candy syrup.\nThis harshly lowers\nthe foe’s Speed stat."
 movedescription MOVE_TRIPLE_DIVE, "The user performs\na perfectly timed\ntriple dive, hitting\nthe foe with water\nthree times in a row."
 movedescription MOVE_TROP_KICK, "The user attacks\nwith an intense kick\nof tropical origins.\nThis lowers the foe’s\nAttack stat."
 movedescription MOVE_ELECTRO_SHOT, "The user gathers\nelectricity on the\nfirst turn to raise\nits Sp. Atk, and then\nattacks on the next."

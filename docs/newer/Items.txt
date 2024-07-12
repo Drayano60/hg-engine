@@ -1,0 +1,156 @@
+===========================================================================
+Later Generation Items
+===========================================================================
+Thanks to hg-engine, Aurora Crystal has a significantly expanded amount of items compared to the normal HG/SS.
+Aside from a couple new items, these are all held items from later generations.
+
+The following items from later generations are available:
+
+[Generation V]
+Air Balloon, Big Nugget, Eviolite, Prism Scale, Rocky Helmet, Cover Fossil, Plume Fossil, Pretty Feather.
+
+[Generation VI]
+Ability Capsule, Assault Vest, Jaw Fossil, Key Stone, Mega Stones*, Pixie Plate, Roseli Berry, Sachet, Sail Fossil, Weakness Policy, Whipped Dream.
+
+[Generation VII]
+Bottle Cap, Ice Stone.
+
+[Generation VIII]
+Ability Patch, Black Augurite, Blank Plate, Galarica Cuff, Galarica Wreath, Heavy-Duty Boots, Linking Cord, Mints**, Peat Block, Pokémon Box Link, Sweet Apple, Tart Apple, Throat Spray.
+
+[Generation IX]
+Covert Cloak, Fairy Feather, Leader's Crest, Loaded Dice, Malicious Armor, Metal Alloy, Syrupy Apple.
+
+* Mega Stones includes all 47 Mega Stone items.
+** Mints includes all 21 Mint items.
+
+Additionally, the GS Ball also makes a return from Generation II.
+
+===========================================================================
+Item Mechanics
+===========================================================================
+As per Generation IX, items that are used up in battles (except for Berries) are restored at the end of the battle.
+Items that are stolen in Trainer Battles through Thief, Covet etc are not kept after battles.
+Items that are stolen in Wild Battles through Thief, Covet, etc are added to the Bag after the battle.
+
+===========================================================================
+New Items
+===========================================================================
+There are also two new items in Aurora Crystal.
+
+[Stellar Stone]
+The Stellar Stone is a new evolution item introduced in Aurora Crystal that can be used to evolve an Eevee.
+
+You'll receive the Stellar Stone from a Kimono Girl after receiving the Togepi egg in Violet City.
+When given to you, the Kimono Girl will also ask you to choose an Eeveelution.
+
+If you give a specific answer to this question, the Stellar Stone will be guaranteed to evolve Eevee into that Eeveelution.
+Otherwise, Eevee will evolve into one of its evolutions at random.
+
+This item is introduced mainly as a balancing act to allow Eevee to evolve early while preventing things like an early Arcanine, Cloyster, etc.
+
+[Teleport Gem]
+The Teleport Gem is a new key item that works as an excuse to let the player immediately teleport to any town that they have already visited, by pressing START after it has been obtained.
+
+It's essentially a fast travel system that doesn't require the use of Fly.
+
+===========================================================================
+Technical Machines
+===========================================================================
+In Aurora Crystal, technical machines can be used infinitely like the Generation V - VII games.
+Some of the moves have also been changed relative to the standard Generation IV games.
+
+The full list of moves is as follows (a * means a different move than the original):
+
+TM01, Hone Claws *
+TM02, Dragon Claw
+TM03, Psyshock *
+TM04, Calm Mind
+TM05, Snarl *
+TM06, Toxic
+TM07, Snowscape *
+TM08, Bulk Up
+TM09, Venoshock *
+TM10, Hidden Power
+TM11, Sunny Day
+TM12, Taunt
+TM13, Ice Beam
+TM14, Blizzard
+TM15, Hyper Beam
+TM16, Light Screen
+TM17, Protect
+TM18, Rain Dance
+TM19, Giga Drain
+TM20, Weather Ball *
+TM21, Dazzling Gleam *
+TM22, Solar Beam
+TM23, Iron Tail
+TM24, Thunderbolt
+TM25, Thunder
+TM26, Earthquake
+TM27, Low Sweep *
+TM28, Dig
+TM29, Psychic
+TM30, Shadow Ball
+TM31, Brick Break
+TM32, Leech Life *
+TM33, Reflect
+TM34, Sludge Wave *
+TM35, Flamethrower
+TM36, Sludge Bomb
+TM37, Sandstorm
+TM38, Fire Blast
+TM39, Rock Tomb
+TM40, Aerial Ace
+TM41, Torment
+TM42, Facade
+TM43, Flame Charge *
+TM44, Rest
+TM45, Attract
+TM46, Thief
+TM47, Steel Wing
+TM48, Skill Swap
+TM49, Echoed Voice *
+TM50, Overheat
+TM51, Roost
+TM52, Focus Blast
+TM53, Energy Ball
+TM54, False Swipe
+TM55, Scald
+TM56, Fling
+TM57, Charge Beam
+TM58, Body Press *
+TM59, Dragon Pulse
+TM60, Drain Punch
+TM61, Will-O-Wisp
+TM62, Acrobatics *
+TM63, Nasty Plot *
+TM64, Explosion
+TM65, Shadow Claw
+TM66, Payback
+TM67, Smart Strike *
+TM68, Giga Impact
+TM69, Rock Polish
+TM70, Mystical Fire *
+TM71, Stone Edge
+TM72, High Horsepower *
+TM73, Thunder Wave
+TM74, Pollen Puff *
+TM75, Swords Dance
+TM76, Stealth Rock
+TM77, Psych Up
+TM78, Scorching Sands *
+TM79, Dark Pulse
+TM80, Rock Slide
+TM81, X-Scissor
+TM82, Sleep Talk
+TM83, Work Up
+TM84, Poison Jab
+TM85, Psycho Cut *
+TM86, Grass Knot
+TM87, Swagger
+TM88, Air Slash *
+TM89, U-turn
+TM90, Scale Shot *
+TM91, Flash Cannon
+TM92, Trick Room

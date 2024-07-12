@@ -1,0 +1,960 @@
+===========================================================================
+These items still need placing...
+===========================================================================
+Old Amber @ Mr. Pokemon
+Black Flute, Blue Flute, Red Flute, White Flute, Yellow Flute
+
+Red Card? Eject Button?
+
+Aerodactylite, Aggronite, Banettite, Blazikenite, Cameruptite, Diancie, Galladite, Garchompite, Gardevoirite,
+Heracronite, Houndoominite, Kangaskhanite, Latiasite, Latiosite, Lucarionite, Manectite, Metagrossite, Pinsirite,
+Salamencite, Sceptilite, Swampertite, Tyranitarite.
+
+Vs. Recorder.
+
+Probably need to note Kanto items better in general.
+
+===========================================================================
+Pokémon Improvement Items
+===========================================================================
+Items to improve your Pokémon can be purchased at the middle counter at the back of any Pokémon Center.
+Some of these are freely available for purchase, while others are limited and require Poké Credits points.
+Poké Credits are earned by defeating Gym Leaders.
+
+Ability Capsules, Mints, Exp. Share and EV training items can be purchased from the mart.
+Ability Capsules and Bottle Caps can be purchased for Poké Credits.
+
+Bottle Caps can be exchanged at the counter on the right to maximize one IV on a Pokémon.
+
+===========================================================================
+Berries
+===========================================================================
+Berries can be purchased from the Juggler outside Violet City's Pokémon Center.
+
+[Berry Set A - 0 Badges]
+Aspear, Cheri, Chesto, Leppa, Oran, Pecha, Persim, Rawst.
+
+[Berry Set B - 2 Badges]
+Sitrus, Lum, Figy, Wiki, Mago, Aguav, Iapapa, Razz.
+
+[Berry Set C - 4 Badges]
+Bluk, Cornn, Grepa, Hondew, Kelpsy, Magost, Nanab, Nomel, Pamtre, Pinap, Pomeg, Qualot, Rabuta, Spelon, Tamato, Weaper.
+
+[Berry Set D - 6 Badges]
+Babiri, Charti, Chilan, Chople, Coba, Colbur, Haban, Kasib, Kebia, Occa, Passho, Payapa, Rindo, Roseli, Shuca, Tanga, Wacan, Yache.
+
+[Berry Set E - 8 Badges]
+Apicot, Belue, Custap, Durin, Enigma, Ganlon, Jaboca, Lansat, Liechi, Micle, Petaya, Rowap, Salac, Starf, Watmel.
+
+===========================================================================
+New Bark Town
+===========================================================================
+Bicycle: Given to you by Mom automatically.
+GB Sounds: Given to you by Mom automatically.
+Choice Scarf: Speak to Mom after Team Rocket have left the Radio Tower.
+
+===========================================================================
+Elm Pokémon Lab
+===========================================================================
+Pokémon Box Link: Given to you by Prof. Elm after you've been to Mr. Pokémon's house.
+Key Stone: Given to you by Prof. Elm after receiving the Rising Badge.
+Ampharosite: Given to you by Prof. Elm after receiving the Rising Badge.
+S.S. Ticket: Speak to Prof. Elm after becoming the Champion.
+
+===========================================================================
+Route 29
+===========================================================================
+Twisted Spoon: Speak to Tuscany, who will appear on a Tuesday after receiving the Zephyr Badge.
+Audinite: Found on the floor around the middle of the route after receiving the Key Stone.
+
+===========================================================================
+Route 46
+===========================================================================
+Nothing of note.
+
+===========================================================================
+Cherrygrove City
+===========================================================================
+Fishing Rod: Given to you by a Fisherman when you first try to leave towards Route 30.
+Lucky Punch: Found on the floor above a rocky wall past the water. Surf and Rock Climb are required.
+Sharpedonite: Found on the floor on the small patch of sand just off the beach after receiving the Key Stone.
+
+===========================================================================
+Route 30
+===========================================================================
+Apricorn Box: Given to you by the man in the house by either talking to him or passing by the house.
+
+===========================================================================
+Mr. Pokémon's House
+===========================================================================
+Mystery Egg: Given to you by Mr. Pokémon when you first enter his house.
+Blue Orb: Speak to Mr. Pokémon after defeating Red and obtaining a Kanto starter from Prof. Oak.
+Red Orb: Speak to Mr. Pokémon after defeating Red and obtaining a Kanto starter from Prof. Oak.
+
+===========================================================================
+Route 31
+===========================================================================
+TM54 False Swipe: Given to you by Ethan/Lyra in the Violet City gatehouse after the battle.
+
+===========================================================================
+Dark Cave, Violet Side
+===========================================================================
+Black Glasses: Found on the floor across the water to the right of the Route 31 exit. Surf is required.
+
+===========================================================================
+Violet City
+===========================================================================
+Oran Berry: Attached to the Rhyhorn you can receive in a trade in the house near the Pokémon Center.
+Sitrus Berry: Speak to Earl (next to the Gym) and say you did not beat the Gym Leader.
+Soothe Bell: Speak to the woman in the house near the Pokémon Center.
+Teleport Gem: Given to you by the old man with the Abra as you approach Sprout Tower.
+Sharp Beak: Speak to the Youngster in the furthest left house after receiving the Zephyr Badge.
+Miracle Seed: Found on the floor between the trees next to the school. Requires Rock Smash.
+Stellar Stone: Given to you by a Kimono Girl after obtaining the Togepi egg and leaving the Poké Mart.
+Mind Plate: Found automatically after catching Uxie.
+Berries: ?
+
+===========================================================================
+Pokémon School
+===========================================================================
+Silk Scarf: Given to you by a School Kid after battling him.
+TM83 Work Up: Given to you by a School Kid after battling her.
+
+===========================================================================
+Sprout Tower
+===========================================================================
+Cleanse Tag: Speak to the old woman on the ground floor.
+TM10 Hidden Power: Given to you by Elder Li after defeating him.
+Meadow Plate: Given to you by Elder Li if you defeat him after receiving the Earth Badge.
+
+===========================================================================
+Route 36
+===========================================================================
+Berry Pots: Given to you by Floria after making the Sudowoodo leave.
+Rare Bone: Speak to the lady in the gatehouse leading to the Ruins of Alph after receiving the Hive Badge.
+Black Augurite: Speak to the lady in the gatehouse leading to the Ruins of Alph after receiving the Storm Badge.
+Peat Block: Speak to the lady in the gatehouse leading to the Ruins of Alph after receiving the Rising Badge.
+
+===========================================================================
+Ruins of Alph
+===========================================================================
+Unown Report: Given to you by a scientist after solving any of the tile puzzles.
+Rare Bone: Found on the floor at the top left, past some smashable rocks. Requires Rock Smash.
+Rare Bone: Has a 10% chance to drop from a smashed rock. Requires Rock Smash.
+Helix Fossil: Has a 25% chance to drop from a smashed rock. Requires Rock Smash.
+Dome Fossil: Has a 25% chance to drop from a smashed rock. Requires Rock Smash.
+Root Fossil: Has a 10% chance to drop from a smashed rock. Requires Rock Smash.
+Claw Fossil: Has a 10% chance to drop from a smashed rock. Requires Rock Smash.
+Armor Fossil: Has a 10% chance to drop from a smashed rock. Requires Rock Smash.
+Skull Fossil: Has a 10% chance to drop from a smashed rock. Requires Rock Smash.
+TM16 Light Screen: Found on the floor behind the LIGHT door. Requires Surf and Flash.
+TM33 Reflect: Found on the floor behind the LIGHT door. Requires Surf and Flash.
+Blank Plate: Found automatically after catching Regigigas.
+
+===========================================================================
+Ruins Research Center
+===========================================================================
+Helix Fossil: Exchange a Rare Bone with a Ruin Maniac NPC.
+Dome Fossil: Exchange a Rare Bone with a Ruin Maniac NPC.
+Root Fossil: Exchange a Rare Bone with a Ruin Maniac NPC.
+Claw Fossil: Exchange a Rare Bone with a Ruin Maniac NPC.
+Armor Fossil: Exchange a Rare Bone with a Ruin Maniac NPC.
+Skull Fossil: Exchange a Rare Bone with a Ruin Maniac NPC.
+Cover Fossil: Exchange a Rare Bone with a Ruin Maniac NPC after receiving the Plain Badge.
+Plume Fossil: Exchange a Rare Bone with a Ruin Maniac NPC after receiving the Plain Badge.
+Jaw Fossil: Exchange a Rare Bone with a Ruin Maniac NPC after receiving the Plain Badge.
+Sail Fossil: Exchange a Rare Bone with a Ruin Maniac NPC after receiving the Plain Badge.
+Old Amber: Exchange a Rare Bone with a Ruin Maniac NPC after receiving the Glacier Badge.
+Black Augurite: Exchange a Rare Bone with the Ruin Maniac NPC after receiving the Black Augurite on Route 36.
+Peat Block: Exchange a Rare Bone with the Ruin Maniac NPC after receiving the Peat Block on Route 36.
+Odd Keystone: Speak to Cynthia, who will appear here after first meeting her on Route 34.
+
+===========================================================================
+Violet City, Gym
+===========================================================================
+TM51 Roost: Given to you by Falkner after defeating him.
+Pidgeotite: Given to you by Falkner after defeating him in a rematch, after receiving the Key Stone.
+
+===========================================================================
+Route 45, South
+===========================================================================
+TM40 Aerial Ace: Found on the floor by following the path next to the river.
+
+===========================================================================
+Route 32 North
+===========================================================================
+HM06 Rock Smash: Given to you by the man who you pass by south of the first patch of grass.
+TM05 Snarl: Given to you by the man standing close to a ledge.
+
+===========================================================================
+Route 32 South
+===========================================================================
+Poison Barb: Speak to Frieda, who will appear on a Friday near the Pokémon Center.
+Poison Barb: Found on the floor on a raised part at the bottom left of the watery area.
+Shell Bell: Found on the floor past the smashable rock south of the Pokémon Center.
+
+===========================================================================
+Union Cave
+===========================================================================
+Escape Rope: Speak to the Hiker near the entrance from Route 32.
+Hard Stone: Found on the floor on 1F, near the exit to Route 33.
+TM39 Rock Tomb: Found on the floor on B1F, accessed from the top-left staircase.
+Oval Stone: Found on the floor on 1F, on a small island in the pond to the bottom-left. Requires Surf.
+Grip Claw: Found on the floor on B1F, between some rocks. Requires Surf.
+Prism Scale: Found on the floor on B2F, on a raised area near the bottom of the room. Requires Surf.
+TM69 Rock Polish: Found on the floor on B2F, near the top right of the room. Requires Surf.
+TM80 Rock Slide: Speak to Brock, who appears on 1F after Team Rocket have left the Safari Zone.
+
+===========================================================================
+Azalea Town
+===========================================================================
+Dragon Fang: Attached to the Horsea you can receive in a trade in the Charcoal Kiln house.
+TM46 Thief: Speak to the burglar next to Kurt's house.
+HM01 Cut: Given to you by Kurt after Team Rocket leave Slowpoke Well.
+Charcoal: Speak to the boy in the Charcoal Kiln house after Team Rocket have left Slowpoke Well.
+
+===========================================================================
+Slowpoke Well
+===========================================================================
+Lagging Tail: Found on the floor on 1F, near the center.
+King's Rock: Speak to an NPC on B1F. Requires Surf.
+TM18 Rain Dance: Found on the floor on B1F. Requires Surf.
+Slowbroinite: Found on the floor on 1F, to the right of the ladder towards B1F after receiving the Key Stone.
+
+===========================================================================
+Azalea Town, Gym
+===========================================================================
+TM89 U-turn: Given to you by Bugsy after defeating him.
+Scizorite: Given to you by Bugsy after defeating him in a rematch, after receiving the Key Stone.
+
+===========================================================================
+Ilex Forest
+===========================================================================
+Silver Powder: Found on the floor in a small clearing at the bottom right of the forest.
+TM86 Grass Knot: Talk to the woman near the center of the forest. Requires Cut.
+Zap Plate: Attached to the Spiky-Eared Pichu you can receive as a gift. Requires Cut.
+Big Root: Found on the floor near where you meet the Kimono Girl. Requires Cut.
+Beedrillite: Found in a gap of trees in the bottom half of the map after receiving the Key Stone. (?)
+
+===========================================================================
+Route 34
+===========================================================================
+TM12 Taunt: Speak to the lady in the gatehouse between Ilex Forest and Route 34.
+Mystic Water: Found on the floor on a puddle near the daycare.
+Eviolite: Given to you by Ethan/Lyra after the battle near the daycare.
+TM43 Flame Charge: Found on the floor in the grass near Goldenrod City.
+Ability Patch: Given to you by the three Ace Trainers at the bottom left after defeating them. Requires Surf.
+
+===========================================================================
+Goldenrod City
+===========================================================================
+Loaded Dice: Speak to the burglar in the Game Corner.
+TM41 Torment: Found on the floor in the Game Corner.
+Focus Band: Attached to the Tyrogue you can receive as a gift in the old bike shop.
+Focus Band: Attached to the Hawlucha you can receive in a trade on 5F of the Goldenrod Department Store.
+Amulet Coin: Found on the floor in the basement of the Department Store.
+Scope Lens: Found on the floor in the basement of the Department Store.
+TM57 Charge Beam: Found on the floor in the basement of the Department Store.
+Twisted Spoon: Speak to the fortune teller in the tent to the north of town.
+Magnet: Speak to the gentleman in the Magnet Train Station.
+Sachet: Speak to a woman on 6F of the Goldenrod Department Store.
+Whipped Dream: Speak to a man on 6F of the Goldenrod Department Store.
+Wise Glasses: Found on the floor to the left of the Global Terminal.
+Coin Case: Speak to Mr. Game in the Game Corner.
+
+Everstone: Can be purchased on 5F of the Goldenrod Department Store.
+Fire Stone: Can be purchased on 5F of the Goldenrod Department Store.
+Ice Stone: Can be purchased on 5F of the Goldenrod Department Store.
+Leaf Stone: Can be purchased on 5F of the Goldenrod Department Store.
+Moon Stone: Can be purchased on 5F of the Goldenrod Department Store.
+Sun Stone: Can be purchased on 5F of the Goldenrod Department Store.
+Water Stone: Can be purchased on 5F of the Goldenrod Department Store.
+
+TM01 Hone Claws: Can be purchased at the Game Corner.
+TM48 Skill Swap: Can be purchased at the Game Corner.
+TM56 Fling: Can be purchased at the Game Corner.
+TM77 Psych Up: Can be purchased at the Game Corner.
+TM82 Sleep Talk: Can be purchased at the Game Corner.
+TM87 Swagger: Can be purchased at the Game Corner.
+Metronome: Can be purchased at the Game Corner.
+Silk Scarf: Can be purchased at the Game Corner.
+Wide Lens: Can be purchased at the Game Corner.
+Zoom Lens: Can be purchased at the Game Corner.
+
+Mental Herb: Can be purchased at the Goldenrod Flower Shop.
+Power Herb: Can be purchased at the Goldenrod Flower Shop.
+White Herb: Can be purchased at the Goldenrod Flower Shop.
+
+Squirt Bottle: Speak to the woman in the Flower Shop after receiving the Plain Badge.
+Upgrade: Speak to Bill, who appears here after speaking to him in Ecruteak City.
+TM24 Thunderbolt: Speak to Lt. Surge, who appears in the Magnet Train Station after Team Rocket have left the Safari Zone.
+Assault Vest: Found on the floor in the basement of the Department Store after coming up from the Goldenrod Tunnel end.
+Gracidea: Speak to Floria in the Goldenrod Flower Shop while Shaymin leads your party.
+
+===========================================================================
+Goldenrod Tunnel
+===========================================================================
+Fashion Case: Given to you by Ethan/Lyra when you first enter Goldenrod Tunnel.
+TM09 Venoshock: Found on the floor on B1F, below the market stalls.
+Smoke Ball: Found on the floor on B2F, amongst the adjustable doors. Requires the Basement Key. 
+Magmarizer: Found on the floor on B2F, amongst the adjustable doors. Requires the Basement Key.
+TM63 Nasty Plot: Found on the floor on B2F, next to where the Radio Tower's Director is held. Requires the Basement Key.
+Card Key: Speak to the Director. Requires the Basement Key.
+
+===========================================================================
+Radio Tower
+===========================================================================
+TM49 Echoed Voice: Found on the floor on 1F, between some plants.
+Blue Card: Speak to Buena on 2F.
+Basement Key: Given to you by Petrel after defeating him.
+Electirizer: Found on the floor on 4F. Requires the Card Key.
+TM26 Earthquake: Given to you by Giovanni after defeating him.
+GS Ball: Given to you by the Director after Team Rocket have left the Radio Tower.
+Throat Spray: Speak to DJ Mary after Team Rocket have left the Radio Tower.
+TM92 Trick Room: Speak to the clown on 4F after Team Rocket have left the Radio Tower.
+
+===========================================================================
+Route 35
+===========================================================================
+TM66 Payback: Found on the floor at the bottom right of the route.
+TM67 Smart Strike: Found on the floor on the path across the pond. Requires Surf.
+
+===========================================================================
+Pokéathlon Dome
+===========================================================================
+Muscle Band: Given to you by Magnus as you approach the entrance.
+TM27 Low Sweep: Found on the floor near the benches at the bottom of the map.
+
+The prize counter here is absent until becoming the Champion, but otherwise is the same as normal.
+
+===========================================================================
+National Park
+===========================================================================
+Quick Claw: Speak to the woman on one of the benches.
+TM28 Dig: Found on the floor at the bottom left of the park, behind the fence.
+Shed Shell: Found on the floor at the top right of the park, behind the fence.
+TM32 Leech Life: Given to you automatically after taking part in a Bug-Catching Contest for the first time.
+TM19 Giga Drain: Speak to Erika, who appears on a bench near the flower beds after Team Rocket have left the Safari Zone.
+TM53 Energy Ball: Found on the raised area above the climbable rocks at the top right. Requires Rockc Climb.
+
+Additionally, the prizes for winning the Bug-Catching Contest are adjusted.
+
+1st Place - An evolution stone, chosen at random. Can be any of Fire/Water/Thunder/Leaf/Moon/Sun/Ice.
+2nd Place - Everstone.
+3rd Place - Silver Powder.
+No Place - Shed Shell.
+
+===========================================================================
+Goldenrod City, Gym
+===========================================================================
+TM45 Attract: Given to you by Whitney after defeating her.
+Lopunnite: Given to you by Whitney after defeating her in a rematch, after receiving the Key Stone.
+
+===========================================================================
+Route 37
+===========================================================================
+TM73 Thunder Wave: Found on the floor at the top right, near some apricorn trees.
+Magnet: Speak to Sunny, who will appear on a Sunday near the apricorn trees.
+
+===========================================================================
+Ecruteak City
+===========================================================================
+Dowsing Machine: Speak to the Ace Trainer in one of the houses.
+Spell Tag: Found on the floor next to the Burned Tower.
+Fairy Feather: Speak to the Beauty in one of the houses.
+Covert Cloak: Attached to the Kecleon you can receive in a trade in one of the houses.
+HM03 Surf: Given to you by a Gentleman in the Kimono Dance Theater after defeating the Rocket Grunt.
+Clear Bell: Given to you by the Kimono Girls after defeating them.
+
+===========================================================================
+Route 38
+===========================================================================
+TM47 Steel Wing: Found on the floor behind the fence near the Ecruteak gatehouse.
+TM85 Psycho Cut: Found on the floor by following the rocky wall from Route 39. Requires Rock Climb.
+
+===========================================================================
+Route 42
+===========================================================================
+TM65 Shadow Claw: Found on the floor near the gatehouse to Ecruteak City.
+HM04 Strength: Given to you by a Hiker who bumps into you as you approach Mt. Mortar.
+TM88 Air Slash: Found on the floor when leaving one of the upper Mt. Mortar exits. Requires Rock Climb.
+
+===========================================================================
+Mt. Mortar
+===========================================================================
+TM31 Brick Break: Found on the floor in the main room at the left side, past a Black Belt.
+Black Belt: Found on the floor near the right exit to Route 42.
+Protector: Found on the floor by following the path from the top-right rocky wall. Requires Rock Climb.
+Iron Ball: Found on the floor in the main room via access from the top-right of 2F. Requires Waterfall.
+TM52 Focus Blast: Found on the floor on B1F, at the top right of the room via access from 2F. Requires Waterfall.
+Choice Band: Given to you by Bruno on 2F, after giving him the Rage Candy Bar.
+
+===========================================================================
+Mahogany Town
+===========================================================================
+Leftovers (x10): Speak to the Ace Trainer in the Pokémon Center.
+TM20 Weather Ball: Speak to a scientist in the house.
+Mystic Water: Attached to the Castform you can receive as a gift in the house.
+TM06 Toxic: Speak to Janine, who appears at the top of town after Team Rocket have left the Safari Zone.
+Covert Cloak: Speak to the girl at the back of the shop after receiving the Glacier Badge.
+
+===========================================================================
+Route 44
+===========================================================================
+TM03 Psyshock: Found on the floor in the grass in the middle of the lake. Requires Surf.
+
+===========================================================================
+Ice Path
+===========================================================================
+Only 1F and a tiny part of B1F are accessible until receiving the Glacier Badge.
+
+Never-Melt Ice: Found on the floor on 1F, near the middle of the room.
+HM07 Waterfall: Found on the floor on 1F, by the small ice puzzle at the top right of the room.
+Dawn Stone: Given to you by Eusine on 1F, after defeating the Team Rocket grunts.
+TM29 Psychic: Given to you by Will on 1F, who appears a little ways in from the Route 44 entrance.
+TM13 Ice Beam: Found on the floor on B3F, at the bottom right of the ice puzzle.
+Icy Rock: Found on the floor on B4F.
+Razor Claw: Found on the floor on B1F as part of a small boulder puzzle.
+Glalitite: Found on the floor on B4F after receiving the Key Stone.
+
+===========================================================================
+Burned Tower
+===========================================================================
+Flame Orb: Found on the floor on 1F, in the top-left corner.
+TM61 Will-O-Wisp: Found on the floor on B1F, in the top-left corner.
+TM35 Flamethrower: Speak to Blaine, who appears on 1F after Team Rocket have left the Safari Zone.
+Absolite: Found on the floor on B1F after receiving the Key Stone.
+
+===========================================================================
+Ecruteak City, Gym
+===========================================================================
+TM30 Shadow Ball: Given to you by Morty after defeating him.
+Gengarite: Given to you by Morty after defeating him in a rematch, after receiving the Key Stone.
+
+===========================================================================
+Bellchime Trail
+===========================================================================
+TM11 Sunny Day: Found on the floor between some trees near Bell Tower.
+Master Ball: Given to you by Eusine after defeating him, after defeating the Kimono Girls.
+
+===========================================================================
+Route 39
+===========================================================================
+TM72 High Horsepower: Found on the floor next to the silo in the farm area.
+Tart Apple: Can be purchased from a woman next to the farmhouse.
+Sweet Apple: Can be purchased from a woman next to the farmhouse.
+Syrupy Apple: Can be purchased from a woman next to the farmhouse.
+Seal Case: Given to you by the girls in the barn after feeding Miltank a total of seven Oran Berries.
+
+===========================================================================
+Olivine City
+===========================================================================
+TM60 Drain Punch: Speak to a Black Belt in one of the houses.
+TM91 Flash Cannon: Found on the floor on the small piece of land near the Lighthouse.
+Deep Sea Tooth: Speak to a Fisherman in one of the houses.
+Deep Sea Scale: Speak to a Fisherman in one of the houses.
+Galarica Cuff: Speak to a Sailor in the harbour.
+Galarica Crown: Speak to a Sailor in the harbour.
+Smoke Ball: Attached to the Magcargo you can receive in a trade in one of the houses.
+TM04 Calm Mind: Speak to Sabrina, who appears on the harbour lookout after Team Rocket have left the Safari Zone.
+
+===========================================================================
+Lighthouse
+===========================================================================
+Expert Belt: Speak to the Gentleman on the ground floor.
+Light Ball: Found on the floor on 4F, past the Lass.
+Air Balloon: Found on the floor in the outside area that you drop to from 4F.
+TM62 Acrobatics: Found on the floor in the outside area that you drop to from 4F.
+TM21 Dazzling Gleam: Found on the floor on the top floor where Amphy is.
+Metal Coat: Given to you by Jasmine after giving her the Secret Medicine.
+
+===========================================================================
+Route 40
+===========================================================================
+Soft Sand: Speak to the man on the beach.
+TM78 Scorching Sands: Found on the floor on a small patch of sand on the sea.
+TM55 Scald: Speak to Misty, who appears on the beach after Team Rocket have left the Safari Zone.
+
+===========================================================================
+Route 41
+===========================================================================
+Nothing of note.
+
+===========================================================================
+Cianwood City
+===========================================================================
+Linking Cord: Speak to the boy with the DS in the Pokémon Center.
+Bright Powder: Attached to the Jynx you can receive in a trade in the Pokémon Center.
+TM42 Facade: Speak to a Beauty in one of the houses.
+HM02 Fly: Given to you by Chuck's wife after receiving the Storm Badge.
+Focus Sash: Given to you by the Black Belt near the top of town if you defeat him in a battle after receiving the Storm Badge.
+Splash Plate: Speak to the old woman in the top-left house while Manaphy leads your party.
+Secret Medicine: Speak to the pharmacist after Team Rocket have left the Safari Zone.
+
+===========================================================================
+Cianwood City, Gym
+===========================================================================
+TM08 Bulk Up: Given to you by Chuck after defeating him.
+Medichamite: Given to you by Chuck after defeating him in a rematch, after receiving the Key Stone.
+
+===========================================================================
+Cliff Edge Gate
+===========================================================================
+Lucky Egg: Given to you by Ethan/Lyra after the battle with them, after receiving the Storm Badge.
+Rocky Helmet: Found on the floor next to the desk.
+Heavy-Duty Boots: Found on the floor behind the fence. Requires Rock Climb.
+
+===========================================================================
+Route 47
+===========================================================================
+Sticky Barb: Found on the floor to the left of the middle Cliff Cave entrance, over the bridge.
+TM84 Poison Jab: Found on the floor beneath the large sign close to the Route 48 side.
+Smooth Rock: Found on the floor on some sand near the Embedded Tower. Requires Rock Climb.
+Metal Powder: Found on the floor on a piece of land by following the path from a waterfall. Requires Waterfall.
+Quick Powder: Found on the floor on a piece of land by following the path from a waterfall. Requires Waterfall.
+
+===========================================================================
+Cliff Cave
+===========================================================================
+TM36 Sludge Bomb: Given to you by Ethan/Lyra after defeating Proton and Petrel.
+TM37 Sandstorm: Found on the floor on the bottom floor.
+Rare Bone: Has a 10% chance to drop from a smashed rock.
+Cover Fossil: Has a 10% chance to drop from a smashed rock.
+Plume Fossil: Has a 10% chance to drop from a smashed rock.
+Jaw Fossil: Has a 10% chance to drop from a smashed rock.
+Sail Fossil: Has a 10% chance to drop from a smashed rock.
+
+===========================================================================
+Route 48
+===========================================================================
+TM81 X-Scissor: Found on the floor through the path of trees near the tall grass.
+
+===========================================================================
+Safari Zone Gate
+===========================================================================
+HM08 Rock Climb: Given to you by Baoba after defeating Ariana and Archer.
+TM17 Protect: Speak to the Beauty in the Safari Zone lobby.
+TM74 Pollen Puff: Speak to the lady with the Jumpluff after Team Rocket have left the Safari Zone.
+Full Incense: Can be purchased from the bottom-right stall.
+Lax Incense: Can be purchased from the bottom-right stall.
+Luck Incense: Can be purchased from the bottom-right stall.
+Odd Incense: Can be purchased from the bottom-right stall.
+Pure Incense: Can be purchased from the bottom-right stall.
+Rock Incense: Can be purchased from the bottom-right stall.
+Rose Incense: Can be purchased from the bottom-right stall.
+Sea Incense: Can be purchased from the bottom-right stall.
+Wave Incense: Can be purchased from the bottom-right stall.
+Shiny Stone: Can be purchased from the middle-right stall.
+Dusk Stone: Can be purchased from the middle-right stall.
+Dawn Stone: Can be purchased from the middle-right stall.
+Oval Stone: Can be purchased from the middle-right stall.
+King's Rock: Can be purchased from the middle-right stall.
+Linking Cord: Can be purchased from the middle-right stall.
+Razor Claw: Can be purchased from the middle-right stall.
+Razor Fang: Can be purchased from the middle-right stall.
+Prism Scale: Can be purchased from the middle-right stall.
+Sachet: Can be purchased from the middle-right stall.
+Upgrade: Can be purchased from the middle-right stall.
+Whipped Dream: Can be purchased from the middle-right stall.
+Auspicious Armor: Can be purchased from the top-right stall.
+Malicious Armor: Can be purchased from the top-right stall.
+Galarica Cuff: Can be purchased from the top-right stall.
+Galarica Wreath: Can be purchased from the top-right stall.
+Shell Bell: Can be purchased from the top-right stall.
+
+===========================================================================
+Olivine City, Gym
+===========================================================================
+TM23 Iron Tail: Given to you by Jasmine after defeating her.
+Steelixite: Given to you by Jasmine after defeating her in a rematch, after receiving the Key Stone.
+
+===========================================================================
+Route 43
+===========================================================================
+TM34 Sludge Wave: Speak to the gatehouse guard after turning off Team Rocket's radio signal.
+
+===========================================================================
+Lake of Rage
+===========================================================================
+Bottle Cap (x2): Speak to a man in the house south of the lake.
+Rage Candy Bar: Can be purchased from a man in the house south of the lake.
+Red Scale: Found automatically after the battle with the Red Gyarados.
+Life Orb: Found on the floor on a small island near the house at the top-left, while the lake is flooded.
+TM44 Rest: Speak to the man in the house at the northwest of the lake, while the lake is flooded.
+Black Belt: Speak to Wesley, who will appear on a Wednesday at the northwest of the lake when the lake is not flooded.
+Gyaradosite: Found on the floor on a patch of land at the southwest of the lake, after receiving the Key Stone and while the lake is flooded.
+
+===========================================================================
+Team Rocket HQ
+===========================================================================
+Dubious Disc: Found on the floor on 1F, next to the computer that turns the Persian statues off.
+TM02 Dragon Claw: Given to you by Lance when you meet him on B1F.
+Toxic Orb: Found on the floor on B2F, next to the office.
+TM79 Dark Pulse: Found on the floor on B1F, accessible from the stairs on B2F near the office.
+HM05 Whirlpool: Given to you by Lance after turning off Team Rocket's radio signal.
+
+===========================================================================
+Mahogany Town, Gym
+===========================================================================
+TM07 Snowscape: Given to you by Pryce after defeating him.
+Abomasite: Given to you by Pryce after defeating him in a rematch, after receiving the Key Stone.
+
+===========================================================================
+Whirl Islands
+===========================================================================
+Dragon Scale: Found on the floor on 1F, across the water when coming in from the southwest entrance.
+Damp Rock: Found on the floor on B1F, south of the ladder that comes down from the northwest entrance.
+
+===========================================================================
+Blackthorn City
+===========================================================================
+Dragon Fang: Found on the floor to the right of the Pokémon Center.
+Soft Sand: Speak to Santos, who will appear on a Saturday near some of the ledges.
+Throat Spray: Attached to the Vibrava you can receive in a trade in one of the houses.
+TM14 Blizzard: Can be purchased from the Ace Trainer in the Ultimate Moves House.
+TM15 Hyper Beam: Can be purchased from the Ace Trainer in the Ultimate Moves House.
+TM22 Solar Beam: Can be purchased from the Ace Trainer in the Ultimate Moves House.
+TM25 Thunder: Can be purchased from the Ace Trainer in the Ultimate Moves House.
+TM38 Fire Blast: Can be purchased from the Ace Trainer in the Ultimate Moves House.
+TM68 Giga Impact: Can be purchased from the Ace Trainer in the Ultimate Moves House.
+
+===========================================================================
+Route 45 North
+===========================================================================
+TM58 Body Press: Speak to the Hiker near the Dark Cave entrance.
+Razor Fang: Found on the floor past the large patch of tall grass near the Dark Cave entrance.
+Heat Rock: Found on the floor far down the right side of the route.
+TM75 Swords Dance: Found on the floor in the middle of a patch of grass far down the left side of the route.
+
+===========================================================================
+Dark Cave, Blackthorn Side
+===========================================================================
+Reaper Cloth: Found on the floor at the right of the room, north of the pond.
+Light Clay: Found on the floor at the right of the room, south of the pond.
+TM76 Stealth Rock: Found on the floor at the top-left of the room.
+
+===========================================================================
+Blackthorn City, Gym
+===========================================================================
+TM59 Dragon Pulse: Given to you by Clair after receiving the Rising Badge if you didn't receive it in the Dragon's Den.
+Altarianite: Given to you by Clair after defeating her in a rematch, after receiving the Key Stone.
+
+===========================================================================
+Dragon's Den
+===========================================================================
+TM90 Scale Shot: Found on the floor on the small island to the right of the shrine.
+TM59 Dragon Pulse: Given to you by Clair if you speak to her after receiving the Rising Badge but before leaving Dragon's Den.
+Draco Plate: Given to you by the Dragon's Den Elder if you defeat him after receiving the Earth Badge.
+
+===========================================================================
+Bell Tower
+===========================================================================
+TM70 Mystical Fire: Found on the floor on 2F, near the ladder that goes up to 3F.
+Rainbow Wing: Given to you by the Wise Trio after defeating them.
+
+===========================================================================
+Route 27
+===========================================================================
+Choice Specs: Speak to the man with the glasses in the house just outside of Tohjo Falls.
+Destiny Knot: Found on the floor on the right side of the route on a raised area.
+
+===========================================================================
+Route 26
+===========================================================================
+Leader's Crest: Found on the floor admist the ledges below the Victory Road gatehouse.
+Fist Plate: Found automatically after catching Azelf.
+
+===========================================================================
+Victory Road
+===========================================================================
+Sablenite: Found on the floor on 1F, on the left side of a raised platform near the bottom of the room.
+TM50 Overheat: Found on the floor on 1F, at the top right of the room.
+TM71 Stone Edge: Found on the floor on 2F, past a boulder near the ladder to 3F.
+TM64 Explosion: Found on the floor on 3F, past a few smashable rocks near the Indigo Plateau exit.
+Mawilite: Found on the floor on 3F, near one of the holes in the floor.
+Metal Alloy: Found on the floor on 2F, accessible by dropping through a hole on 3F.
+
+===========================================================================
+Indigo Plateau
+===========================================================================
+Weakness Policy: Speak to the man near the Pokémon Center counter.
+Leftovers: Attached to the Carbink you can receive in a trade near the Poké Mart.
+
+===========================================================================
+S.S. Aqua
+===========================================================================
+Silver Wing: Given to you by the Gentleman in the cabin after his granddaughter returns.
+Dread Plate: Found automatically after catching Darkrai.
+
+===========================================================================
+Pallet Town
+===========================================================================
+Master Ball: Speak to Prof. Oak after receiving the Earth Badge.
+Venusaurite: Given to you by Blue after receiving the Earth Badge and speaking to Prof. Oak.
+Charizardite X: Given to you by Blue after receiving the Earth Badge and speaking to Prof. Oak.
+Charizardite Y: Given to you by Blue after receiving the Earth Badge and speaking to Prof. Oak.
+Blastoisinite: Given to you by Blue after receiving the Earth Badge and speaking to Prof. Oak.
+Jade Orb: Speak to Prof. Oak after catching both Kyogre and Groudon at the Embedded Tower.
+
+===========================================================================
+Route 1
+===========================================================================
+Nothing of note.
+
+===========================================================================
+Viridian City
+===========================================================================
+Nothing of note.
+
+===========================================================================
+Route 22
+===========================================================================
+Nothing of note.
+
+===========================================================================
+Route 2
+===========================================================================
+Nothing of note.
+
+===========================================================================
+Viridian Forest
+===========================================================================
+Insect Plate: Found on the floor in the alcove a little way from the exit to Pewter City.
+
+===========================================================================
+Pewter City
+===========================================================================
+Stone Plate: Found on the floor near the Pewter Museum.
+
+===========================================================================
+Pewter City, Gym
+===========================================================================
+TM80 Rock Slide: Given to you by Brock after defeating him if you do not already have it.
+
+===========================================================================
+Route 3
+===========================================================================
+Nothing of note.
+
+===========================================================================
+Mt. Moon
+===========================================================================
+Nothing of note.
+
+===========================================================================
+Route 4
+===========================================================================
+Nothing of note.
+
+===========================================================================
+Cerulean City
+===========================================================================
+Nothing of note.
+
+===========================================================================
+Cerulean City, Gym
+===========================================================================
+TM55 Scald: Given to you by Misty after defeating her if you do not already have it.
+
+===========================================================================
+Route 24
+===========================================================================
+Nothing of note.
+
+===========================================================================
+Route 25
+===========================================================================
+Nothing of note.
+
+===========================================================================
+Route 5
+===========================================================================
+Nothing of note.
+
+===========================================================================
+Route 6
+===========================================================================
+Nothing of note.
+
+===========================================================================
+Vermilion City
+===========================================================================
+Lost Item: Speak to the man at the table after having spoken to Copycat in Saffron City.
+
+===========================================================================
+Vermilion City, Gym
+===========================================================================
+TM24 Thunderbolt: Given to you by Lt. Surge after defeating him if you do not already have it.
+
+===========================================================================
+Diglett's Cave
+===========================================================================
+Earth Plate: Found on the floor on one of the upper areas close to the Pewter City exit.
+
+===========================================================================
+Route 7
+===========================================================================
+Nothing of note.
+
+===========================================================================
+Celadon City
+===========================================================================
+Toxic Plate: Speak to the old man across the small pond.
+
+===========================================================================
+Celadon City, Gym
+===========================================================================
+TM19 Giga Drain: Given to you by Erika after defeating her if you do not already have it.
+
+===========================================================================
+Route 8
+===========================================================================
+Nothing of note.
+
+===========================================================================
+Lavender Town
+===========================================================================
+Flame Plate: Found automatically after catching Mesprit.
+Spooky Plate: Speak to Mr. Fuji in the House of Memories while Mew leads your party.
+
+===========================================================================
+Route 9
+===========================================================================
+Nothing of note.
+
+===========================================================================
+Route 10
+===========================================================================
+Nothing of note.
+
+===========================================================================
+Power Plant
+===========================================================================
+Nothing of note.
+
+===========================================================================
+Rock Tunnel
+===========================================================================
+Nothing of note.
+
+===========================================================================
+Route 11
+===========================================================================
+Nothing of note.
+
+===========================================================================
+Route 12
+===========================================================================
+Lunar Feather: Found automatically after catching Cresselia.
+
+===========================================================================
+Route 13
+===========================================================================
+Nothing of note.
+
+===========================================================================
+Route 14
+===========================================================================
+Nothing of note.
+
+===========================================================================
+Route 15
+===========================================================================
+Nothing of note.
+
+===========================================================================
+Fuchsia City
+===========================================================================
+Nothing of note.
+
+===========================================================================
+Fuchsia City, Gym
+===========================================================================
+TM06 Toxic: Given to you by Janine after defeating her if you do not already have it.
+
+===========================================================================
+Saffron City
+===========================================================================
+Nothing of note.
+
+===========================================================================
+Saffron City, Gym
+===========================================================================
+TM04 Calm Mind: Given to you by Sabrina after defeating her if you do not already have it.
+
+===========================================================================
+Route 16
+===========================================================================
+Nothing of note.
+
+===========================================================================
+Route 17
+===========================================================================
+Nothing of note.
+
+===========================================================================
+Route 18
+===========================================================================
+Nothing of note.
+
+===========================================================================
+Route 19
+===========================================================================
+Nothing of note.
+
+===========================================================================
+Route 20
+===========================================================================
+Nothing of note.
+
+===========================================================================
+Seafoam Islands
+===========================================================================
+Nothing of note.
+
+===========================================================================
+Seafoam Islands, Gym
+===========================================================================
+TM35 Flamethrower: Given to you by Blaine after defeating him if you do not already have it.
+
+===========================================================================
+Cinnabar Island
+===========================================================================
+Magma Stone: Found on the floor at the top of the volcano area.
+Iron Plate: Found automatically after catching Heatran.
+
+===========================================================================
+Route 21
+===========================================================================
+Nothing of note.
+
+===========================================================================
+Cerulean Cave
+===========================================================================
+Mewtwonite X: Found automatically after catching Mewtwo.
+Mewtwonite Y: Found automatically after catching Mewtwo.
+
+===========================================================================
+Route 28
+===========================================================================
+Nothing of note.
+
+===========================================================================
+Mt. Silver
+===========================================================================
+Flame Orb: Attached to the Heracross you can receive in a trade in the Pokémon Center.
+
+===========================================================================
+Mt. Silver Cave
+===========================================================================
+Sky Plate: Found on the floor in a snow pile at the very peak, in front of the tile Red stands on.
+
+===========================================================================
+Sinjoh Ruins
+===========================================================================
+Icicle Plate: Found on the floor in a snow pile near the lodge.
+Red Chain: Given to you by ??? when standing in the center of the Mystri Stage after catching Uxie, Mesprit and Azelf.
+Adamant Orb: Found automatically after catching Dialga.
+Lustrous Orb: Found automatically after catching Palkia.
+Griseous Orb: Found automatically after catching Giratina.
+Pixie Plate: Given to you by Cynthia after standing in the center of the Mystri Stage after catching Dialga, Palkia and Giratina.

@@ -30,38 +30,10 @@ stuff to check:
 ✓ does ability patch work correctly
 
 stuff to edit in docs (maybe in-game descriptions too?):
-- confusion isnt modified
-- thief/covet are changed differently
-- sand stream/snow warning no longer give immunity (will change if relevant)
-- removed volt tackle recoil change
-- removed anticipation changes
-- removed time's gift
 - removed guaranteed IVs for starter (but might put back?)
-- removed slow start buffs
-- removed grass pelt buff
-- changing rhythmic effect
-- cacophony is 30% boost instead
-- selfdestruct/explosion defense cut removal was reverted
-- removed forecast's adaptability effect
-- didnt change volt tackle to 50% recoil
-- SUNNY mood now lasts 5 turns instead of 3
-- remade rythmic
-- added snipe shot with a different effect
-- added dragon darts with a different effect
-- changed snowscape to just be canon compatible + any ice types not in s/v that also learn hail
 - starters npc now lets you pick between fire/water/grass, but the actual pokemon is random between the gens 1-9 starters for that type
 - dragons den elder now gives you a dragon psuedo legend at random. still HA if questions answered correctly
 - odd egg can now also contain toxel
 - make note that alola/galar/hisui/paldea terminals list "x region" as the met location
-- make note that syrup bomb has a different effect
-- make note about wonder eggs in global terminal
-- make note that g-darmanitan has gorilla tactics again
-- make note that dragon cheer has a slightly different effect
-- note in docs about location for apple items
-- note in doc that i removed location for focus sash/expert belt/black belt, added a galarica cuff/wreath/armors/shell bell 
-- ntoe n doc that the metal alloy is in victory road
+- make note about wonder eggs in global terminal 
 - add a trainer entry for Blackbelt Sasha in Cianwood
-- mention that Corrosion now also removes Steel type's immunity to poison moves
-- mention that toxic boost/flare boost now nullify the respective status damage
-- note forecast's new effect
-- note transistor is 50% again

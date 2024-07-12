@@ -1,0 +1,94 @@
+===========================================================================
+Mechanics Modernization
+===========================================================================
+Thanks to hg-engine, certain battle mechanics introduced in later generations were backported to HG/SS.
+Some of these mechanics involve properties relating to a Pokémon's type.
+
+The backported additions include the following:
+- Dark-types have their immunity to status moves that are affected by the Prankster ability.
+- Electric-type Pokémon can no longer be paralyzed.
+- Ghost-type Pokémon are now always able to run away from or switch out of battles, regardless of circumstance.
+- Grass-type Pokémon are now immune to all powder based moves and Effect Spore.
+- Ice-type Pokémon are now immune to Sheer Cold and gain the 50% Defense boost in Snow (which replaces Hail).
+- Poison-type Pokémon are guaranteed to hit Toxic, even if the target is using Fly, Dig etc.
+
+Type mechanics that were already in HG/SS are the following:
+- Fire-types cannot be burned.
+- Flying-types are not ordinarily affected by Spikes and Toxic Spikes.
+- Ground-types do not take damage from a sandstorm.
+- Ice-types cannot be frozen.
+- Poison-types cannot be poisoned (unless targeted by a Pokémon that has the Corrosion ability).
+- Rock-types do not take damage from a sandstorm. They also gain a 50% special defense boost in a sandstorm.
+- Steel-types do not take damage from a sandstorm and cannot be poisoned (unless targeted by a Pokémon with the Corrosion ability).
+
+Some statuses have also been modernized:
+- Burn now deals damage equal to 1/16 of the Pokémon's HP per turn.
+- Paralysis now halves a Pokémon's speed.
+- Sleep now lasts for 1-3 turns.
+
+Confusion has NOT yet been modernized, meaning Pokémon still have a 50% chance to hit themselves in confusion.
+This will be modernized to the 33% chance whenever possible.
+
+Modernizations to abilities, moves and items are covered in their respective documents.
+
+===========================================================================
+Critical Hits
+===========================================================================
+The probability and damage for critical hits matches that of the modern main series games.
+
+This means:
+- The damage boost from a critical hit is x1.5.
+- The damage boost from a critical hit for a Pokémon with the Sniper ability is x2.25.
+- The standard chance for a critical hit is 1/24 or ~4.17%.
+- +1, +2 and +3 (or above) critical stages give 12.5%, 50.0% and 100.0% chances respectively.
+
+As usual, the effects of Focus Energy, a Lansat Berry, the Leek etc give a +2 critical stage.
+Using a move like Slash, having the Super Luck ability or holding a Scope Lens gives a +1 critical stage.
+
+This means, for example:
+- A Kingdra that has used Focus Energy and is holding a Scope Lens will always score a critical hit.
+- A Honchkrow that has the Super Luck ability, is holding a Scope Lens and is using Night Slash will always score a critical hit.
+
+However, as usual:
+- Pokémon with the Shell Armor or Battle Armor abilities or a Pokémon under the effect of Lucky Chant will NEVER take a critical hit.
+- Pokémon with the Merciless ability attacking a poisoned target will ALWAYS land a critical hit (except for the above exceptions).
+- Pokémon using the moves Flower Trick, Frost Breath or Storm Throw will ALWAYS land a critical hit (except for the above exceptions).
+
+In addition to moves that normally do so, the moves Dragon Claw, Drill Peck and X-Scissor now also provide a +1 critical stage.
+The Long Reach ability now also provides a +1 critical stage.
+
+===========================================================================
+Experience
+===========================================================================
+In terms of experience calculation, the system works almost the same as the one in the Generation 7 and later games.
+There may be some mild difference in the actual numbers due to rounding differences etc.
+
+Something to note is that the Exp. Share is still a held item, rather than a key item.
+As such, only Pokémon involved in the battle or holding an Exp. Share gain experience points.
+
+The specific mechanics are as follows:
+- Experience points are now earned when an opponent is either defeated or caught.
+- Experience yields are calcuated based on the modern values for base experience.
+- Experience yields are scaled depending on the relative levels of the Pokémon involved.
+- Unlike the modern main series games, experience earned in Trainer Battles is also increased by 50%.
+- Any Pokémon that directly took part in the battle and has not fainted gains experience equal to the full amount of experience points.
+- Any Pokémon that is holding an Exp. Share, has not fainted, and has not directly taken part in the battle gains experience equal to half the amount of experience points.
+
+===========================================================================
+Capturing Pokémon
+===========================================================================
+As is the case in Generation VI and later, experience is now earned when catching a Pokémon.
+Critical captures can also occur. The probability formula for these happening is the same as the main series games.
+
+===========================================================================
+Hidden Machines
+===========================================================================
+In Aurora Crystal, there are a few changes to Hidden Machine moves.
+
+When using HMs in the field, you no longer need to teach the move to a Pokémon. As long as you have the HM in your Bag and have obtained the required badge, you can simply interact with the obstacle and it will invoke the HM functionality.
+
+The one exception to this is Fly as it can only be invoked from the Pokémon menu, but the Teleport Gem fast travel menu is intended as an alternative to this.
+
+The badges required for each HM are the same as normal, except for Rock Climb which now requires the Mineral Badge instead of the Earth Badge.
+
+Moves taught by Hidden Machines can now also be deleted from a Pokémon at any time.

@@ -189,8 +189,8 @@ Slowpoke Well
 ✓ Changed Super Potion to a Lagging Tail and moved it.
 ✓ Removed some of the Ilex Forest trigger activations from the script.
 ✓ You're now healed after the Proton fight (this is applied in Kurt's house afterwards).
-✓ Deleted the man in the basement and added a King's Rock item ball.
-✓ Added a static Slowking encounter that always has Regenerator.
+✓ Deleted the man in the basement and added a King's Rock item ball. Then reversed it.
+✓ Added a static Slowking encounter that always has Regenerator. Then reversed it.
 ✓ Moved the hidden Full Heal to a different rock.
 ✓ Added the Slowbronite.
 ✓ Beating Proton no longer activates the Azalea Silver fight.
@@ -214,7 +214,7 @@ Ilex Forest
 ✓ Revive -> Silver Powder.
 ✓ Added the Beedrillite.
 ✓ Added an NPC and the Spiky-eared Pichu, who you can get here. The Pichu is Lv. 20 and has Volt Tackle replaced with Thunderbolt, but is otherwise the same (including the Zap Plate and fixed nature/gender).
-✓ After accepting Pichu, the NPC also gives you a Light Ball before leaving.
+✓ After accepting Pichu, the NPC also gives you a Light Ball before leaving. Then removed this.
 ✓ Added an NPC to give a slight nod to the infamous Ilex Forest scene in SG/SS, and also awarding TM86 Grass Knot.
 ✓ After speaking to Kurt outside his house in Azalea Town, you can pop the GS Ball into the shrine and Celebi will appear. Kurt also shows up after this to thank you and gives you a Master Ball.
 ✓ The Celebi can then be encountered and will respawn upon entering the area until caught. It appears at Level 60.
@@ -423,6 +423,7 @@ Lighthouse
 ✓ Changed the last two Sailors to be Ace Trainers, an M and an F. Edited their dialogue a bit.
 ✓ After healing Amphy, it now sets 0x40A5 to 3 so it skips over the Olivine level script. Jasmine also gives you a Metal Coat before leaving.
 ✓ Added a Gentleman in the lobby who gives you an Expert Belt.
+✓ Added an Air Balloon on the outside bit and NPCs that reference it on the bottom floor.
 
 Route 40
 ✓ Added smashable rocks.
@@ -496,7 +497,7 @@ Route 48
 Safari Zone Gate (Rocket)
 ✓ Set the music to be the Team Rocket one while the relevant flag (2176) is set. This was done by stealing the entry from Cerulean Gym.
 ✓ Added three Rocket Grunts using Mickeys.
-✓ Added Athena/Archer in front of the Safari Zone entrance. Double battle with them with Silver as a partner. Afterwards, they leave, taking all of the Rockets with them. Silver leaves afterwards, and then Baoba will appear and give you TM17 Protect before warping you into the Safari Zone.
+✓ Added Athena/Archer in front of the Safari Zone entrance. Double battle with them with Silver as a partner. Afterwards, they leave, taking all of the Rockets with them. Silver leaves afterwards, and then Baoba will appear and give you HM08 Rock Climb before warping you into the Safari Zone.
 ✓ Added a Rocket in front of the Pokémon Center while the event is active, who heals your Pokémon for a fee.
 ✓ Modified the level script activated script to clear the Safari Zone Gate fly flag while the Rockets are still there, to prevent the player skipping battles and/or flying on top of an NPC.
 
@@ -527,6 +528,7 @@ Route 43
 ✓ Rearranged some Trainers to force some.
 ✓ Added a new Bug Catcher with a Mickey (180).
 ✓ Fisherman Marvin's dialogue is modified to reflect his new shiny Magikarp.
+✓ TM36 -> TM34.
 
 Lake of Rage
 ✓ North of the lake (where the Choice Specs were previously), there's a sign with some writing. Talk to it at night with an Odd Keystone in your inventory, and a Lv. 40 Spiritomb will appear. After Spiritomb is caught, the sign text changes, the Odd Keystone is removed from the player's inventory and nothing else can happen there. If Spiritomb is not caught, the sign remains as-is and the Odd Keystone is not removed.
@@ -540,7 +542,7 @@ Lake of Rage
 ✓ Added an NPC in the house who will give you a Bottle Cap.
 
 Team Rocket HQ
-✓ Guard Spec -> Dubious Disc. TM46 -> TM79 Dark Pulse. Protein -> TM36 Sludge Bomb. Ultra Ball -> Toxic Orb. X Special -> Linking Cord. TM49 -> Ultra Ball.
+✓ Guard Spec -> Dubious Disc. TM46 -> TM79 Dark Pulse. Ultra Ball -> Toxic Orb. TM49 -> Ultra Ball.
 ✓ The trap floor has been modified a bit so that Forretress is now in the roster, with four tiles for each. The encounters are all Level 43 with Explosion as their first move (via hg-e code).
 ✓ Lance now gives you TM02 Dragon Claw after he heals your Pokémon on the second floor.
 ✓ Added a scientist on B1F at a computer who heals you. He also disappears when the Rockets leave.
@@ -572,6 +574,7 @@ Route 45 - North
 ✓ Nugget -> Heat Rock and moved a bit.
 ✓ Moved the Max Potion into a different area, then moved Ace Trainer Kelly into the previous area. (Was originally going to block TM75 but it didn't work out!)
 ✓ Some of the Trainers are moved to force them if you go down their areas.
+✓ Added a Hiker who gives you TM58 Body Press.
 
 Dark Cave - Blackthorn Side
 ✓ TM54 -> Reaper Cloth. Revive -> Light Clay.
@@ -623,7 +626,7 @@ Dragon's Den
 ✓ Dragon Fang -> TM90 Scale Shot.
 ✓ The Twins are replaced with a Double Team, with dialogue referencing Dragon's Den (the TV Show).
 ✓ Clair's dialogue in the shrine is edited to remove the obedience part.
-✓ The Elder's Dratini gift is now Lv. 20 and always knows the move Barrier. Answering the Elder's quiz correctly means it's also a forced shiny.
+✓ The Elder's Dratini gift is now a random Dragon-type psuedo legend. Answering the Elder's quiz correctly means it has its Hidden Ability.
 ✓ One of the old man has been yeeted and his dialogue added to the other old man's. In his place is an old woman who can teach a Pokémon Dragon Dance.
 ✓ The call from Elm that occurs after leaving Dragon's Den now mentions Mega Evolution.
 ✓ Clair now awards you 4 Poké Credits after you earn the Rising Badge and mentions that you can teach moves at the Pokémon Center.
@@ -753,7 +756,7 @@ Vermilion City - Gym
 ✓ Changed Surge's dialogue depending on if you met him previously. He also gives TM24 Thunderbolt here only if you don't already have it.
 ✓ Surge also gives you 4 Poké Credits.
 
-Digett's Cave
+Diglett's Cave
 ✓ The Earth Plate is found on one of the upper ledges.
 
 Power Plant

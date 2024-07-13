@@ -66,6 +66,11 @@ In addition to doubling the power of a Pikachu's moves, it now also:
 - Doubles a Pichu's move's power during damage calculation.
 - Increases a Raichu's move's power by 20% during damage calculation.
 
+[Power Anklet/Band/Belt/Bracer/Lens/Weight]
+These items retain the +4 EV effect instead of the +8 EVs from later generations.
+This is so you can do more precise EV training, relative to vitamins now giving 100 EVs.
+Additionally, these Power items no longer half the Pokémon's Speed in battle.
+
 ===========================================================================
 Technical Machines
 ===========================================================================

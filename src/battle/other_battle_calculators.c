@@ -625,17 +625,17 @@ BOOL CalcAccuracy(void *bw, struct BattleStruct *sp, int attacker, int defender,
     return FALSE;
 }
 
-
+/**** AURORA CRYSTAL: Made the Power items no longer half speed. */
 const u8 DecreaseSpeedHoldEffects[] =
 {
     HOLD_EFFECT_EVS_UP_SPEED_DOWN,
     HOLD_EFFECT_SPEED_DOWN_GROUNDED,
-    HOLD_EFFECT_LVLUP_HP_EV_UP,
-    HOLD_EFFECT_LVLUP_ATK_EV_UP,
-    HOLD_EFFECT_LVLUP_DEF_EV_UP,
-    HOLD_EFFECT_LVLUP_SPEED_EV_UP,
-    HOLD_EFFECT_LVLUP_SPATK_EV_UP,
-    HOLD_EFFECT_LVLUP_SPDEF_EV_UP,
+    // HOLD_EFFECT_LVLUP_HP_EV_UP,
+    // HOLD_EFFECT_LVLUP_ATK_EV_UP,
+    // HOLD_EFFECT_LVLUP_DEF_EV_UP,
+    // HOLD_EFFECT_LVLUP_SPEED_EV_UP,
+    // HOLD_EFFECT_LVLUP_SPATK_EV_UP,
+    // HOLD_EFFECT_LVLUP_SPDEF_EV_UP,
 };
 
 // return 0 if client1 moves first, 1 if client2 moves first, 2 if random roll between the two.

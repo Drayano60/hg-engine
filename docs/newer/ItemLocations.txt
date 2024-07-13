@@ -23,7 +23,7 @@ You can earn 5 LP when defeating a Gym Leader, and an additional 10 LP upon reac
 You can purchase the following items with money from any Supply Counter:
 
 Vitamins: HP Up, Protein, Iron, Calcium, Zinc, Carbos.
-EV Training Items: Macho Brace, Power Weight, Power Bracer, Power Belt, Power Lens, Power Band, Power Anklet.
+EV Training Items: Power Weight, Power Bracer, Power Belt, Power Lens, Power Band, Power Anklet.
 Other Items: Exp. Share, PP Up.
 
 You can exchange LP for the following items at any Supply Counter:

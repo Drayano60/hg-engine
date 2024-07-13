@@ -43,14 +43,14 @@ It fully restores the PP of all the\nmoves learned by the targeted\nPokémon.
 Lavaridge Town’s local specialty.\nIt heals all the status problems of\none Pokémon.
 A 100% pure juice made of Berries.\nIt restores the HP of one Pokémon by\njust 20 points.
 It revives all fainted Pokémon.\nIn doing so, it also fully restores\ntheir HP.
-A nutritious drink for Pokémon.\nIt gives a Pokémon an additional 10 EVs\nin its HP stat.
-A nutritious drink for Pokémon.\nIt gives a Pokémon an additional 10 EVs\nin its Attack stat.
-A nutritious drink for Pokémon.\nIt gives a Pokémon an additional 10 EVs\nin its Defense stat.
-A nutritious drink for Pokémon.\nIt gives a Pokémon an additional 10 EVs\nin its Speed stat.
-A nutritious drink for Pokémon.\nIt gives a Pokémon an additional 10 EVs\nin its Sp. Atk stat.
+A nutritious drink for Pokémon.\nIt gives a Pokémon an additional\n100 EVs in its HP stat.
+A nutritious drink for Pokémon.\nIt gives a Pokémon an additional\n100 EVs in its Attack stat.
+A nutritious drink for Pokémon.\nIt gives a Pokémon an additional\n100 EVs in its Defense stat.
+A nutritious drink for Pokémon.\nIt gives a Pokémon an additional\n100 EVs in its Speed stat.
+A nutritious drink for Pokémon.\nIt gives a Pokémon an additional\n100 EVs in its Sp. Atk stat.
 A candy that is packed with energy.\nIt raises the level of a single Pokémon\nby one.
-It slightly raises the maximum PP of\na selected move that has been learned\nby the target Pokémon.
-A nutritious drink for Pokémon.\nIt gives a Pokémon an additional 10 EVs\nin its Sp. Def stat.
+It slightly raises the maximum PP of a\nselected move that has been learned\nby the target Pokémon.
+A nutritious drink for Pokémon.\nIt gives a Pokémon an additional\n100 EVs in its Sp. Def stat.
 It maximally raises the top PP of a\nselected move that has been learned\nby the target Pokémon.
 Old Chateau’s hidden specialty.\nIt heals all the status problems of a\nsingle Pokémon.
 An item that prevents stat reduction\namong the Trainer’s party Pokémon\nfor five turns after use.
@@ -287,12 +287,12 @@ A Pokémon held item that extends the\nduration of the move Rain Dance or the\na
 A Pokémon held item that extends the\nduration of multiturn attacks like\nBind and Wrap to six turns.
 An item to be held by a Pokémon.\nThis scarf boosts Speed by 50%,\nbut allows the use of only one move.
 A held item that damages the holder on\nevery turn for 12.5% HP. It may latch\non to foes that touch the holder.
-A held item that awards a Pokémon 8 EVs\nin Attack when it gains experience.\nHowever, it reduces Speed in battle.
-A held item that awards a Pokémon 8 EVs\nin Defense when it gains experience.\nHowever, it reduces Speed in battle.
-A held item that awards a Pokémon 8 EVs\nin Sp. Atk when it gains experience.\nHowever, it reduces Speed in battle.
-A held item that awards a Pokémon 8 EVs\nin Sp. Def when it gains experience.\nHowever, it reduces Speed in battle.
-A held item that awards a Pokémon 8 EVs\nin Speed when it gains experience.\nHowever, it reduces Speed in battle.
-A held item that awards a Pokémon 8 EVs\nin HP when it gains experience.\nHowever, it reduces Speed in battle.
+An item to be held by a Pokémon.\nIt awards a Pokémon 4 EVs in Attack\nwhen it gains experience.
+An item to be held by a Pokémon.\nIt awards a Pokémon 4 EVs in Defense\nwhen it gains experience.
+An item to be held by a Pokémon.\nIt awards a Pokémon 4 EVs in Sp. Atk\nwhen it gains experience.
+An item to be held by a Pokémon.\nIt awards a Pokémon 4 EVs in Sp. Def\nwhen it gains experience.
+An item to be held by a Pokémon.\nIt awards a Pokémon 4 EVs in Speed\nwhen it gains experience.
+An item to be held by a Pokémon.\nIt awards a Pokémon 4 EVs in HP\nwhen it gains experience.
 A tough, discarded carapace to be held\nby a Pokémon. It enables the holder to\nswitch with a waiting Pokémon in battle.
 A Pokémon held item that increases the\namount of HP recovered from HP-stealing\nand gradual recovery moves by 30%.
 An item to be held by a Pokémon. These\ncurious glasses boost Sp. Atk by 50%,\nbut allow the use of only one move.

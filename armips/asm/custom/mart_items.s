@@ -192,8 +192,8 @@ const u16 *_0210FA3C[] = {
 .halfword ITEM_POWER_BAND
 .halfword ITEM_POWER_ANKLET
 .halfword ITEM_EXP_SHARE
-.halfword ITEM_MACHO_BRACE
 .halfword ITEM_PP_UP
+.halfword 0xFFFF
 .halfword 0xFFFF
 .halfword 0xFFFF
 .halfword 0xFFFF

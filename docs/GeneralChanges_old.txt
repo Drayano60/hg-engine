@@ -300,8 +300,6 @@ Mt. Mortar
 ✓ Changed Ultra Ball for Iron Ball.
 ✓ Changed Max Potion for TM31, Brick Break.
 ✓ Changed Nugget for a Focus Band.
-✓ Changed Ether for a Dragon Fang.
-✓ Changed Revive for a Macho Brace.
 ✓ Added a new Trainer (reference to some fellow on Twitter who asked nicely quite early, so why not I guess!).
 ✓ Moved the Full Incense to be available earlier.
 

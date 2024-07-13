@@ -75,6 +75,20 @@ The specific mechanics are as follows:
 - Any Pokémon that is holding an Exp. Share, has not fainted, and has not directly taken part in the battle gains experience equal to half the amount of experience points.
 
 ===========================================================================
+EV Training
+===========================================================================
+By default, Pokémon do not earn any EVs when defeating Pokémon, only experience.
+This balances out with opposing Pokémon Trainers, who also have no EVs on their Pokémon.
+(hg-engine does actually allow EVs on AI Pokémon Trainers - this time around, it's just a design choice!)
+
+However, you are still able to EV train a Pokémon if you choose to do so:
+- If a Pokémon holds a Power item, it will gain 4 EVs in the relevant stat when KOing a Pokémon.
+- If a Pokémon is fed a vitamin, it will gain 100 EVs in the relevant stat.
+
+All of the Power items and vitamins are available from the Supply Counter in any Pokémon Center for money.
+The Macho Brace is not available as - due to the actual EV yield always being zero - it will have no effect.
+
+===========================================================================
 Capturing Pokémon
 ===========================================================================
 As is the case in Generation VI and later, experience is now earned when catching a Pokémon.

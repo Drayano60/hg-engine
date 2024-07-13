@@ -1,7 +1,6 @@
 ===========================================================================
 These items still need placing...
 ===========================================================================
-Old Amber @ Mr. Pokemon
 Black Flute, Blue Flute, Red Flute, White Flute, Yellow Flute
 
 Red Card? Eject Button?
@@ -17,14 +16,58 @@ Probably need to note Kanto items better in general.
 ===========================================================================
 Pokémon Improvement Items
 ===========================================================================
-Items to improve your Pokémon can be purchased at the middle counter at the back of any Pokémon Center.
-Some of these are freely available for purchase, while others are limited and require Poké Credits points.
-Poké Credits are earned by defeating Gym Leaders.
+Items to improve your Pokémon can be purchased at the Supply Counter (the middle one) at the back of any Pokémon Center.
+Some of these are freely available for purchase, while others are limited and require League Points (LP).
+You can earn 5 LP when defeating a Gym Leader, and an additional 10 LP upon reaching Indigo Plateau.
 
-Ability Capsules, Mints, Exp. Share and EV training items can be purchased from the mart.
-Ability Capsules and Bottle Caps can be purchased for Poké Credits.
+You can purchase the following items with money from any Supply Counter:
 
-Bottle Caps can be exchanged at the counter on the right to maximize one IV on a Pokémon.
+Vitamins: HP Up, Protein, Iron, Calcium, Zinc, Carbos.
+EV Training Items: Macho Brace, Power Weight, Power Bracer, Power Belt, Power Lens, Power Band, Power Anklet.
+Other Items: Exp. Share, PP Up.
+
+You can exchange LP for the following items at any Supply Counter:
+
+Bottle Cap: Exchange 2 LP at the Supply Counter.
+Ability Capsule: Exchange 3 LP at the Supply Counter.
+Any Mint Item: Exchange 4 LP at the Supply Counter.
+Ability Patch: Exchange 5 LP at the Supply Counter.
+
+Ability Capsules, Ability Patches and mints can be used on Pokémon from the menu.
+Bottle Caps can be exchanged to max out an IV in a Pokémon's stat at the Battle Counter (the right one).
+
+===========================================================================
+Poké Mart Inventories
+===========================================================================
+The basic inventory for Poké Marts has been changed slightly in Aurora Crystal.
+As before, certain items require a particular number of Badges earned to appear.
+
+The items are as follows (with Badges required in square brackets):
+
+- Poké Ball [0]
+- Great Ball [1]
+- Ultra Ball [3]
+- Potion [0]
+- Super Potion [1]
+- Hyper Potion [3]
+- Max Potion [7]
+- Full Restore [8]
+- Ether [0]
+- Max Ether [3]
+- Elixir [5]
+- Max Elixir [7]
+- Revive [3]
+- Max Revive [8]
+- Full Heal [0]
+- Repel [0]
+- Super Repel [3]
+- Max Repel [5]
+- Poké Doll [0]
+
+Additionally, the items that your Mom purchases for you have also changed.
+Due to their indeterminate nature, the items have been 'stubbed out' and are obtainable in other ways.
+Limited items like the Super Potions, Moon Stone etc are replaced with Rare Candies.
+Unlimited items like the type resist berries are replaced with Poké Dolls.
 
 ===========================================================================
 Berries
@@ -45,6 +88,78 @@ Babiri, Charti, Chilan, Chople, Coba, Colbur, Haban, Kasib, Kebia, Occa, Passho,
 
 [Berry Set E - 8 Badges]
 Apicot, Belue, Custap, Durin, Enigma, Ganlon, Jaboca, Lansat, Liechi, Micle, Petaya, Rowap, Salac, Starf, Watmel.
+
+===========================================================================
+Wild Held Items
+===========================================================================
+Some items can also be found attached to wild Pokémon.
+Any Pokémon that can hold an item will hold it 100% of the time.
+
+Items that can be found this way are as follows:
+
+Berry Juice: Shuckle
+Big Mushroom: Parasect, Breloom, Amoonguss
+Big Pearl: Cloyster
+Big Root: Weepinbell, Carnivine
+Black Belt: Hariyama, Throh, Sawk
+Black Glasses: Sandile
+Black Sludge: Grimer, Muk, Toxicroak
+Bright Powder: Volbeat, Illumise
+Charcoal: Torkoal
+Cleanse Tag: Chimecho
+Deep Sea Scale: Lanturn, Gorebyss, Relicanth, Basculin (Red-Striped)
+Deep Sea Tooth: Sharpedo, Huntail, Basculin (Blue-Striped)
+Dragon Fang: Shelgon, Gabite, Druddigon
+Dragon Scale: Dragonair
+Electirizer: Electabuzz
+Focus Band: Machoke
+Grip Claw: Sandslash
+Hard Stone: Graveler, Lairon, Boldore
+Heart Scale: Luvdisc
+Honey: Teddiursa, Surskit, Combee
+Iron Ball: Mawile
+Leek: Farfetch'd
+Leftovers: Snorlax, Munchlax
+Light Ball: Pikachu
+Light Clay: Claydol, Golurk
+Lucky Egg: Chansey
+Lum Berry: Mew, Celebi, Shaymin
+Magmarizer: Magmar
+Magnet: Magneton
+Max Revive: Linoone
+Mental Herb: Lombre
+Metal Coat: Steelix, Skarmory, Metang, Bronzong
+Metronome: Kricketune, Chatot
+Miracle Seed: Cherubi, Cherrim, Maractus
+Moomoo Milk: Miltank
+Moon Stone: Clefairy, Clefable, Lunatone
+Mystic Water: Seaking, Lapras
+Never-Melt Ice: Abomasnow, Vanillish, Cryogonal
+Nugget: Murkrow
+Oran Berry: Gulpin
+Pearl: Shellder, Clamperl
+Poison Barb: Beedrill, Tentacruel, Roselia, Vespiquen, Drapion
+Potion: Zigzagoon
+Power Herb: Nuzleaf
+Pretty Feather: Wingull, Pelipper
+Quick Claw: Persian, Sneasel, Zangoose
+Rare Bone: Mandibuzz
+Sacred Ash: Ho-oh
+Sharp Beak: Fearow, Dodrio
+Shed Shell: Arbok, Venomoth, Beautifly, Dustox, Seviper, Scrafty, Goomy
+Silver Powder: Butterfree, Masquerain, Wormadam, Mothim
+Sitrus Berry: Swalot, Audino
+Smoke Ball: Koffing, Weezing, Spiritomb
+Soft Sand: Dugtrio
+Spell Tag: Haunter, Banette, Dusclops
+Star Piece: Starmie, Jirachi
+Stardust: Staryu
+Sticky Barb: Cacnea, Ferroseed, Ferrothorn
+Sun Stone: Solrock
+Thick Club: Cubone, Marowak
+Tiny Mushroom: Paras, Shroomish, Foongus
+Twisted Spoon: Kadabra
+Wide Lens: Yanma, Sableye
 
 ===========================================================================
 New Bark Town
@@ -88,6 +203,7 @@ Apricorn Box: Given to you by the man in the house by either talking to him or p
 Mr. Pokémon's House
 ===========================================================================
 Mystery Egg: Given to you by Mr. Pokémon when you first enter his house.
+Old Amber: Given to you by Mr. Pokémon after giving him the Red Scale, from the Lake of Rage's Red Gyarados.
 Blue Orb: Speak to Mr. Pokémon after defeating Red and obtaining a Kanto starter from Prof. Oak.
 Red Orb: Speak to Mr. Pokémon after defeating Red and obtaining a Kanto starter from Prof. Oak.
 

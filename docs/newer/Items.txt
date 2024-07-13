@@ -33,6 +33,8 @@ As per Generation IX, items that are used up in battles (except for Berries) are
 Items that are stolen in Trainer Battles through Thief, Covet etc are not kept after battles.
 Items that are stolen in Wild Battles through Thief, Covet, etc are added to the Bag after the battle.
 
+The Escape Rope has also been changed to a Key Item like Generation VIII.
+
 ===========================================================================
 New Items
 ===========================================================================
@@ -53,6 +55,16 @@ This item is introduced mainly as a balancing act to allow Eevee to evolve early
 The Teleport Gem is a new key item that works as an excuse to let the player immediately teleport to any town that they have already visited, by pressing START after it has been obtained.
 
 It's essentially a fast travel system that doesn't require the use of Fly.
+
+===========================================================================
+Changed Items
+===========================================================================
+There are a few item effects that have been modified.
+
+[Light Ball]
+In addition to doubling the power of a Pikachu's moves, it now also:
+- Doubles a Pichu's move's power during damage calculation.
+- Increases a Raichu's move's power by 20% during damage calculation.
 
 ===========================================================================
 Technical Machines

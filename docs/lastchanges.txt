@@ -30,10 +30,4 @@ stuff to check:
 ✓ does ability patch work correctly
 
 stuff to edit in docs (maybe in-game descriptions too?):
-- removed guaranteed IVs for starter (but might put back?)
-- starters npc now lets you pick between fire/water/grass, but the actual pokemon is random between the gens 1-9 starters for that type
-- dragons den elder now gives you a dragon psuedo legend at random. still HA if questions answered correctly
-- odd egg can now also contain toxel
-- make note that alola/galar/hisui/paldea terminals list "x region" as the met location
-- make note about wonder eggs in global terminal 
 - add a trainer entry for Blackbelt Sasha in Cianwood

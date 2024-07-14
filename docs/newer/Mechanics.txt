@@ -83,10 +83,13 @@ This balances out with opposing Pokémon Trainers, who also have no EVs on their
 
 However, you are still able to EV train a Pokémon if you choose to do so:
 - If a Pokémon holds a Power item, it will gain 4 EVs in the relevant stat when KOing a Pokémon.
-- If a Pokémon is fed a vitamin, it will gain 100 EVs in the relevant stat.
+- If a Pokémon is fed a vitamin, it will gain 100 EVs in the relevant stat, increased from the usual 10 EVs.
 
 All of the Power items and vitamins are available from the Supply Counter in any Pokémon Center for money.
 The Macho Brace is not available as - due to the actual EV yield always being zero - it will have no effect.
+
+As per later generations, Pokémon also can now only have a maximum of 252 EVs in one stat, with 510 EVs overall.
+Vitamins no longer have the 100 EV cap, so feeding three vitamins to a Pokémon will max out the relevant stat.
 
 ===========================================================================
 Capturing Pokémon

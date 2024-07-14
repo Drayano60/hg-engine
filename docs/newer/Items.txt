@@ -33,7 +33,48 @@ As per Generation IX, items that are used up in battles (except for Berries) are
 Items that are stolen in Trainer Battles through Thief, Covet etc are not kept after battles.
 Items that are stolen in Wild Battles through Thief, Covet, etc are added to the Bag after the battle.
 
+Evolution items that normally require trading to use such as the Protector, Electirizer and Magmarizer can now be used like evolution stones to evolve the relevant Pokémon, similar to Legends Arceus.
+
+The Safari Ball and Sport Ball now have a x2.0 catch rate instead of a x1.5 catch rate.
+
+The Power items (used for EV training) no longer half the holder's Speed in battle.
+
 The Escape Rope has also been changed to a Key Item like Generation VIII.
+
+===========================================================================
+Item Modernization
+===========================================================================
+
+[Items Fully Modernized]
+- The Escape Rope is now an infinitely usable Key Item.
+- The Focus Sash no longer blocks a KO from multiple hits of a multi-hit move.
+- The King's Rock and Razor Fang's flinching effect now applies to any move that does not already cause flinching.
+- The Metronome now boosts the power of a consecutively used move by 20% each turn, up to a maximum of 100%.
+- The effects of all healing items have been updated to the newest generations (eg Hyper Potions heal 120 HP).
+- The catch rates of all Poké Balls have been updated to match the newest generations (eg Quick Ball is x5 catch rate).
+- The Soul Dew now provides a x1.2 boost to the power of Dragon and Psychic moves used by Latias and Latios, instead of the stat boost effect.
+- All TMs can now be used an infinite amount of times (per Gen 5-7 mechanics) and cannot be sold.
+- Vitamins no longer have a cap of 100 EVs.
+
+[Items Partially Modernized]
+- The Exp. Share is still a held item instead of a Key Item. However, a Pokémon that holds it will gain a full 50% of the experience yield, rather than it splitting amongst different Pokémon.
+- The Life Orb now displays text when a holder's HP is drained. However, it still doesn't affect the damage of Future Sight or Doom Desire, and also does not damage the holder when they attack into a substitute.
+- The Mental Herb now also cures the effects of Taunt, Torment, Encore, Disable and Heal Block when first applied to the holder, but it won't yet activate if a Pokémon with one of those effects somehow gains a Mental Herb later.
+- The Figy, Wiki, Mago, Aguav and Iapapa Berries now activate when the holder hits 25% HP and heal for 33% of the holder's max HP. However, Pokémon with the Gluttony ability will still eat these at 25% HP currently.
+
+[Items Not Yet Modernized]
+- The Choice Band still boosts the damage a Pokémon inflicts on itself from confusion.
+- The Choice Band, Choice Scarf and Choice Specs - if a Pokémon somehow uses a move that isn't the one that it is locked into - do not yet make that move fail.
+- The Cleanse Tag's effect still applies even if held by a Pokémon with an ability that affects encounter rates.
+- The berries that lower a Pokémon's EVs (Pomeg, Kelpsy, Qualot, Hondew, Grepa, Tamato) still drop the relevant stat to 0 EVs if used when that Pokémon has 110 or less EVs in the stat. They also still give +2 friendship points if used on a Pokémon above 200 friendship.
+- The Lagging Tail still has a lower priority than a Pokémon with the Stall ability.
+- The Iron Ball, when held by a Flying-type Pokémon, does not yet make it take netural damage from Ground-type moves. It will instead calculate based on the Pokémon's other type (if any).
+- The Power items have been purposely kept at a reward of 4 EVs per KO.
+- Rare Candies cannot yet be used on a Lv. 100 Pokémon to evolve them.
+- Repels do not currently prompt you to use another one automatically when the effect of a Repel ends.
+- The Shell Bell's effect still activates even if the holder is under the effect of Heal Block or attacks into a substitute.
+- The Smoke Ball still guarantees escape from a Wild Battle on the turn the holder faints.
+- The X items (X Attack, X Defense etc) still only raise the relevant stat by one stage.
 
 ===========================================================================
 New Items

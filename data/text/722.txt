@@ -87,7 +87,7 @@ Halves damage taken from\nFire-type moves or burns.
 The effects of any stat\nchanges are doubled.
 Hates sun or Fire moves.\nLoves rain or Water moves.
 Adjusts power according\nto a foe’s stats.
-Powers up punching moves\nby 30%.
+Increases the power of\npunching moves by 30%.
 Recovers 12.5% of its HP\neach turn while poisoned.
 Moves matching type are\ninstead doubled in power.
 Multistrike moves hit as\nmany times as possible.

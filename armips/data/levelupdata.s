@@ -21799,31 +21799,33 @@ levelup SPECIES_ZERAORA
 	terminatelearnset
 
 levelup SPECIES_MELTAN
-	learnset MOVE_HEADBUTT, 1
-	learnset MOVE_HARDEN, 1
-	learnset MOVE_TAIL_WHIP, 9
-	learnset MOVE_THUNDER_WAVE, 18
-	learnset MOVE_THUNDER_SHOCK, 27
-	learnset MOVE_ACID_ARMOR, 36
-	learnset MOVE_FLASH_CANNON, 45
+	learnset MOVE_THUNDER_SHOCK, 1
+    learnset MOVE_HARDEN, 1
+    learnset MOVE_TAIL_WHIP, 6
+    learnset MOVE_HEADBUTT, 12
+    learnset MOVE_ACID_ARMOR, 18
+    learnset MOVE_THUNDER_WAVE, 24
+    learnset MOVE_FLASH_CANNON, 30
 	terminatelearnset
 
 levelup SPECIES_MELMETAL
-	learnset MOVE_THUNDER_PUNCH, 1
-	learnset MOVE_HEADBUTT, 1
-	learnset MOVE_HARDEN, 1
-	learnset MOVE_TAIL_WHIP, 1
-	learnset MOVE_THUNDER_WAVE, 1
-	learnset MOVE_TAIL_WHIP, 9
-	learnset MOVE_THUNDER_WAVE, 18
-	learnset MOVE_THUNDER_SHOCK, 27
-	learnset MOVE_ACID_ARMOR, 36
-	learnset MOVE_FLASH_CANNON, 45
-	learnset MOVE_MEGA_PUNCH, 54
-	learnset MOVE_PROTECT, 64
-	learnset MOVE_DOUBLE_IRON_BASH, 72
-	learnset MOVE_SUPERPOWER, 81
-	learnset MOVE_HYPER_BEAM, 90
+    learnset MOVE_THUNDER_PUNCH, 0
+    learnset MOVE_DARKEST_LARIAT, 1
+    learnset MOVE_DYNAMIC_PUNCH, 1
+	learnset MOVE_THUNDER_SHOCK, 1
+    learnset MOVE_HARDEN, 1
+    learnset MOVE_TAIL_WHIP, 6
+    learnset MOVE_HEADBUTT, 12
+    learnset MOVE_ACID_ARMOR, 18
+    learnset MOVE_THUNDER_WAVE, 24
+    learnset MOVE_FLASH_CANNON, 30
+    learnset MOVE_MEGA_PUNCH, 36
+    learnset MOVE_PROTECT, 42
+    learnset MOVE_DISCHARGE, 48
+    learnset MOVE_IRON_HEAD, 54
+    learnset MOVE_SUPERPOWER, 60
+    learnset MOVE_DOUBLE_IRON_BASH, 66
+    learnset MOVE_HYPER_BEAM, 72
 	terminatelearnset
 
 levelup SPECIES_GROOKEY

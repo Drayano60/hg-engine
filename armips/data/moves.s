@@ -11930,7 +11930,7 @@ movedata MOVE_VEEVEE_VOLLEY, "Veevee Volley"
     terminatedata
     movedescription MOVE_VEEVEE_VOLLEY, "---"
 
-movedatalongname MOVE_DOUBLE_IRON_BASH, "Double IronBash", "Double Iron Bash"
+movedatalongname MOVE_DOUBLE_IRON_BASH, "DoubleIronBash", "Double Iron Bash"
     battleeffect MOVE_EFFECT_HIT_TWICE_AND_FLINCH
     pss SPLIT_PHYSICAL
     basepower 60
@@ -15852,3 +15852,4 @@ movedescription MOVE_DOUBLE_SHOCK, "The user discharges\nto inflict damage.\nAft
 movedescription MOVE_V_CREATE, "Hurls itself at the\nfoe with a hot flame.\nThis cuts the user’s\nDefense, Sp. Def and\nSpeed stats."
 movedescription MOVE_SEARING_SHOT, "The user torches\neverything around it\nwith scarlet flames.\nThis has a 30% chance\nto burn what it hits."
 movedescription MOVE_DIAMOND_STORM, "The user whips up a\nstorm of diamonds to\ndamage its foes. This\nhas a 50% chance to\nsharply up Defense."
+movedescription MOVE_DOUBLE_IRON_BASH, "The user uses its hex\nnut as an axis to spin\nand hit the foe twice.\nThis has a 30% chance\nto flinch on each hit."

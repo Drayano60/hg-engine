@@ -589,6 +589,7 @@ int UNUSED SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
                     /**** AURORA CRYSTAL: Add implementations for Curious Medicine, Pastel Veil, Screen Cleaner and Supersweet Syrup. ****/
                     {
                         if ((sp->battlemon[client_no].ability_activated_flag == 0) && (sp->battlemon[client_no].hp) && (GetBattlerAbility(sp, client_no) == ABILITY_CURIOUS_MEDICINE)) {
+                            sp->battlemon[client_no].ability_activated_flag = 1;
                             sp->client_work = client_no;
                             scriptnum = SUB_SEQ_CURIOUS_MEDICINE;
                             ret = SWITCH_IN_CHECK_MOVE_SCRIPT;
@@ -605,6 +606,7 @@ int UNUSED SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
                             ((GetBattlerAbility(sp, client_no) == ABILITY_PASTEL_VEIL) || (GetBattlerAbility(sp, BATTLER_ALLY(client_no)) == ABILITY_PASTEL_VEIL))
                         ) {
                             sp->battlemon[client_no].condition = 0; // Cures poison
+                            sp->battlemon[client_no].ability_activated_flag = 1;
                             sp->client_work = client_no;
                             scriptnum = SUB_SEQ_PASTEL_VEIL;
                             ret = SWITCH_IN_CHECK_MOVE_SCRIPT;
@@ -614,6 +616,7 @@ int UNUSED SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
 
                     {
                         if ((sp->battlemon[client_no].ability_activated_flag == 0) && (sp->battlemon[client_no].hp) && (GetBattlerAbility(sp, client_no) == ABILITY_SCREEN_CLEANER)) {
+                            sp->battlemon[client_no].ability_activated_flag = 1;
                             sp->client_work = client_no;
                             scriptnum = SUB_SEQ_SCREEN_CLEANER;
                             ret = SWITCH_IN_CHECK_MOVE_SCRIPT;

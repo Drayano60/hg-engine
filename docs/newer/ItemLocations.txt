@@ -481,6 +481,9 @@ Fairy Feather: Speak to the Beauty in one of the houses.
 Covert Cloak: Attached to the Kecleon you can receive in a trade in one of the houses.
 HM03 Surf: Given to you by a Gentleman in the Kimono Dance Theater after defeating the Rocket Grunt.
 Clear Bell: Given to you by the Kimono Girls after defeating them.
+TM17 Protect: Given to you by the Super Nerd in the northwestern house if you defeat his first battle.
+Red Card: Given to you by the Super Nerd in the northwestern house if you defeat his second battle (after earning the Mineral Badge) and select the Red Card.
+Eject Button: Given to you by the Super Nerd in the northwestern house if you defeat his second battle (after earning the Mineral Badge) and select the Eject Button.
 
 ===========================================================================
 Route 38
@@ -649,7 +652,6 @@ TM81 X-Scissor: Found on the floor through the path of trees near the tall grass
 Safari Zone Gate
 ===========================================================================
 HM08 Rock Climb: Given to you by Baoba after defeating Ariana and Archer.
-TM17 Protect: Speak to the Beauty in the Safari Zone lobby.
 TM74 Pollen Puff: Speak to the lady with the Jumpluff after Team Rocket have left the Safari Zone.
 Full Incense: Can be purchased from the bottom-right stall.
 Lax Incense: Can be purchased from the bottom-right stall.

@@ -3771,6 +3771,15 @@ _Trainer867:
 _Trainer868:
     trainertextentry 868, TEXT_DEFEATED_IN_BATTLE, "Our training wasn’t enough...\n"
 
+_Trainer869:
+    trainertextentry 869, TEXT_DEFEATED_IN_BATTLE, "I have collected the data."
+
+_Trainer870:
+    trainertextentry 870, TEXT_DEFEATED_IN_BATTLE, "I have collected the data."
+
+_Trainer871:
+    trainertextentry 871, TEXT_DEFEATED_IN_BATTLE, "I have collected the data."
+
 .close
 
 
@@ -4646,5 +4655,8 @@ _Trainer868:
 /* Trainer 866 */ .halfword _Trainer866
 /* Trainer 867 */ .halfword _Trainer867
 /* Trainer 868 */ .halfword _Trainer868
+/* Trainer 869 */ .halfword _Trainer869
+/* Trainer 870 */ .halfword _Trainer870
+/* Trainer 871 */ .halfword _Trainer871
 
 .close

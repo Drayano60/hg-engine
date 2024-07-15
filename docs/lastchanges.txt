@@ -30,4 +30,4 @@ stuff to check:
 ✓ does ability patch work correctly
 
 stuff to edit in docs (maybe in-game descriptions too?):
-- add a trainer entry for Blackbelt Sasha in Cianwood
+- add trainer rosters for Black Belt Sasha and Super Nerd Ultro

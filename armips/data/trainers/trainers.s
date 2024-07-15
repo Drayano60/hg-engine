@@ -10590,6 +10590,101 @@ party 680
     ballseal 0
 endparty
 
+/******************************************** Ecruteak City ********************************************/
+
+trainerdata 869, "Ultro"
+    trainermontype TRAINER_MON_TYPE_FLAGS
+    trainerclass CLASS_SUPER_NERD
+    nummons 1
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype SINGLE_BATTLE
+    endentry
+
+party 869
+    ivs 0
+    abilityslot 0
+    level LEVEL_MORTY
+    pokemon SPECIES_GLISCOR
+    item 0
+    move MOVE_PROTECT
+    move MOVE_TOXIC
+    move 0
+    move 0
+    ability ABILITY_POISON_HEAL
+    ball ITEM_POKE_BALL
+    setivs 15, 15, 15, 15, 15, 15
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+endparty
+
+trainerdata 870, "Ultro"
+    trainermontype TRAINER_MON_TYPE_FLAGS
+    trainerclass CLASS_SUPER_NERD
+    nummons 1
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype SINGLE_BATTLE
+    endentry
+
+party 870
+    ivs 0
+    abilityslot 0
+    level LEVEL_JASMINE
+    pokemon SPECIES_ARCHEOPS
+    item 0
+    move MOVE_U_TURN
+    move 0
+    move 0
+    move 0
+    ability ABILITY_DEFEATIST
+    ball ITEM_POKE_BALL
+    setivs 15, 15, 15, 15, 15, 15
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+endparty
+
+trainerdata 871, "Ultro"
+    trainermontype TRAINER_MON_TYPE_FLAGS
+    trainerclass CLASS_SUPER_NERD
+    nummons 1
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype SINGLE_BATTLE
+    endentry
+
+party 871
+    ivs 0
+    abilityslot 0
+    level LEVEL_CLAIR
+    pokemon SPECIES_POIPOLE
+    item 0
+    move MOVE_PROTECT
+    move MOVE_TOXIC
+    move 0
+    move 0
+    ability ABILITY_BEAST_BOOST
+    ball ITEM_POKE_BALL
+    setivs 15, 15, 15, 15, 15, 15
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+endparty
+
 /******************************************** Ecruteak Dance Theater ********************************************/
 
 trainerdata 601, "Grunt"

@@ -291,6 +291,7 @@ Triggers:
 16725 (0-1) - Used for Spiky Pichu in Ilex Forest. Same again as above
 16726 (0-2) - Used for Violet Gym guide. Same again as above...
 
+16735 (0-4) - Used for the research guy in Ecruteak City.
 16736 (0-4) - Used to control met locations for GTS machines.
 
 16737 (0-3) - Dialga trigger

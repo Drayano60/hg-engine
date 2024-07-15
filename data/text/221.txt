@@ -592,12 +592,12 @@ Casteliacone Description
 Cell Battery Description
 Comet Shard Description
 Dream Ball Description
-Eject Button Description
+An item to be held by a Pokémon.\nWhen the holder is hit by an attack,\nit will be switched out of battle.
 A mysterious evolutionary lump. When\nheld by a Pokémon that can still evolve,\nit boosts Defense and Sp. Def by 50%.
 Float Stone Description
 Pearl String Description
 A mysterious scale that causes\na certain Pokémon to evolve.\nIt shines in rainbow colors.
-Red Card Description
+An item to be held by a Pokémon.\nWhen the holder is hit by an attack,\nthe attacker is removed from battle.
 Ring Target Description
 An item to be held by a Pokémon. If the\nholder is hit with a contact move, the\nattacker is damaged by a sixth of its HP.
 Sweet Heart Description

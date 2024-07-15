@@ -321,7 +321,9 @@ Ecruteak City
 ✓ Changed the two houses at the top of the town to have doors, leading to unused headers 161 and 175.
 ✓ Added an NPC in one of the new houses that gives you a Fairy Feather.
 ✓ Added a trade in one of the new houses for a Kecleon in exchange for any Normal-type.
-✓ Changed the secondary mart to point to Cherrygrove's instead, as the Ecruteak one is repurposed for the sash/belt seller.
+✓ Changed the secondary mart to point to Cherrygrove's instead, as the Ecruteak one is repurposed for something else.
+✓ In the same house as the Kecleon trade, a Super Nerd wants to conduct 'experiments'. This involves three battles, that award TM17 Protect, a Red Card OR Eject Button, and a Poipole respectively.
+✓✓ The second battle requires the Mineral Badge, and the third battle requires the Rising Badge.
 
 Route 38
 ✓ Added a blockade featuring Miltank to block you from moving onto Route 39 until Morty is defeated.
@@ -506,9 +508,9 @@ Safari Zone
 ✓ Baoba's initial dialogue has been edited a bit to reflect the new scenario. You're now made the Owner and given access to all 12 slots immediately, but the Object Arrangement stuff still comes later as normal after fulfiling the other requirements. Baoba's dialogue also mentions that the Kanto leaders have popped up in various locations.
 ✓ Cianwood's pharmacist also makes an appearance here with some dialogue before leaving. He can now be found in Cianwood again and the Secret Medicine collected.
 ✓ A Kimono Girl sits here with some basic dialogue. She disappears after beating Jasmine; this is just some setup for later.
-✓ Added an NPC (Beauty OW) that gives you TM17 Protect.
 ✓ When entering the Safari Zone, the portable PC/fast travel is disabled. It's re-enabled after leaving (checked manual retire, no balls yet and leaving on foot).
 ✓ The Wetland and Marshland have been renamed to the Tundra and Ruins areas respectively to increase the level of variety. This will need map changes but they aren't in yet and are quite tricky... I've changed both maps to just be the Plains one for now.
+✓ Speaking to Baoba with Meltan leading the party will trigger some unique dialogue. Speaking to him again after earning the Rising Badge will get the player the Mystery Box, which can be used to evolve Meltan.
 
 Safari Zone Gate (Normal)
 ✓ Changed out the no talking lady/Kangaskhan for an old couple who sells 'crafted' items, including the Auspicious Armor, Malicious Armor, Galarica Cuff, Galarica Wreath and Shell Bell.

@@ -194,6 +194,8 @@ NPCs:
 
 2265 - Explanation on Wonder Eggs given.
 2266 - Focus Sash given.
+2267 - Baoba alerted to Meltan.
+2268 - Baoba gives the Mystery Box to the player.
 
 2230 - Heart Scale on Route 47 [UNUSED]
 2231 - Heart Scale on Route 40 [UNUSED]

@@ -677,6 +677,7 @@ Malicious Armor: Can be purchased from the top-right stall.
 Galarica Cuff: Can be purchased from the top-right stall.
 Galarica Wreath: Can be purchased from the top-right stall.
 Shell Bell: Can be purchased from the top-right stall.
+Mystery Box: Given to you by Baoba after first speaking to him while Meltan leads your party, then speaking to him again after receiving the Rising Badge.
 
 ===========================================================================
 Olivine City, Gym

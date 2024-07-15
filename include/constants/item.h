@@ -867,6 +867,8 @@
 #define ITEM_STELLAR_STONE      (ITEM_PIXIE_PLATE + 216) // 800
 #define ITEM_TELEPORT_GEM       (ITEM_PIXIE_PLATE + 217) // 801
 #define ITEM_GS_BALL            (ITEM_PIXIE_PLATE + 218) // 802
+#define ITEM_MYSTERY_BOX        (ITEM_PIXIE_PLATE + 219) // 803
+
 #define NUM_MEGA_STONES 48 // includes the pixie plate
 
 #define IS_ITEM_TERRAIN_SEED(item) (item >= ITEM_ELECTRIC_SEED && item <= ITEM_PSYCHIC_SEED)
@@ -877,7 +879,7 @@
 #define NUM_UNKNOWN_SLOTS_EXPLORER_KIT (NUM_UNKNOWN_SLOTS+1) // used to adjust in data/itemdata.c
 
 /**** AURORA CRYSTAL: Changed to GS Ball from Metal Alloy ****/
-#define NEW_ITEM_MAX ITEM_GS_BALL
+#define NEW_ITEM_MAX ITEM_MYSTERY_BOX
 
 #define BAG_SLOT_QUANTITY_MAX                    999
 #define BAG_TMHM_QUANTITY_MAX                     99

@@ -801,3 +801,4 @@ A peculiar metal that can make a\ncertain species of Pokémon evolve.\nIt is com
 A stone that shines in rainbow colors.\nIt’s said to respond to the user’s wish.\nIt can make a certain Pokémon evolve.
 A gem that allows you to press “START”\nto go to previously visited places.\nIt won’t work in certain places, though.
 A mysterious gold and silver Poké Ball\nthat cannot be opened.\nIts true purpose remains a mystery.
+A mysterious old box that, when opened,\nis said to make certain Pokémon appear.\nIt may respond to a particular Pokémon.

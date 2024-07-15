@@ -801,3 +801,4 @@ a {COLOR 255}Metal Alloy{COLOR 0}
 a {COLOR 255}Stellar Stone{COLOR 0}
 a {COLOR 255}Teleport Gem{COLOR 0}
 a {COLOR 255}GS Ball{COLOR 0}
+a {COLOR 255}Mystery Box{COLOR 0}

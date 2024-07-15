@@ -79,7 +79,12 @@ Item Modernization
 ===========================================================================
 New Items
 ===========================================================================
-There are also two new items in Aurora Crystal.
+There are also three new items in Aurora Crystal.
+
+[Mystery Box]
+The Mystery Box is imported from Pokémon GO, but has not been used in a main series game before.
+
+This item is the key to evolving a certain Pokémon.
 
 [Stellar Stone]
 The Stellar Stone is a new evolution item introduced in Aurora Crystal that can be used to evolve an Eevee.

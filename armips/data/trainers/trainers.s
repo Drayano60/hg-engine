@@ -29768,6 +29768,132 @@ party 272
     ballseal 0
 endparty
 
+/******************************************** Blackthorn City ********************************************/
+
+trainerdata 872, "Victor"
+    trainermontype TRAINER_MON_TYPE_FLAGS
+    trainerclass CLASS_POKEFAN_M
+    nummons 1
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype SINGLE_BATTLE
+    endentry
+
+party 872
+    ivs 0
+    abilityslot 0
+    level LEVEL_ELITE_FOUR - 3
+    pokemon SPECIES_LINOONE
+    item 0
+    move MOVE_TACKLE
+    move 0
+    move 0
+    move 0
+    ability ABILITY_QUICK_FEET
+    ball ITEM_POKE_BALL
+    setivs 30, 30, 30, 30, 30, 30
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+endparty
+
+trainerdata 873, "Victoria"
+    trainermontype TRAINER_MON_TYPE_FLAGS
+    trainerclass CLASS_POKEFAN_F
+    nummons 1
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype SINGLE_BATTLE
+    endentry
+
+party 873
+    ivs 0
+    abilityslot 0
+    level LEVEL_ELITE_FOUR - 2
+    pokemon SPECIES_ROSERADE
+    item 0
+    move MOVE_TACKLE
+    move 0
+    move 0
+    move 0
+    ability ABILITY_QUICK_FEET
+    ball ITEM_POKE_BALL
+    setivs 30, 30, 30, 30, 30, 30
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+endparty
+
+trainerdata 874, "Vivi"
+    trainermontype TRAINER_MON_TYPE_FLAGS
+    trainerclass CLASS_LASS
+    nummons 1
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype SINGLE_BATTLE
+    endentry
+
+party 874
+    ivs 0
+    abilityslot 0
+    level LEVEL_ELITE_FOUR - 1
+    pokemon SPECIES_LINOONE
+    item 0
+    move MOVE_TACKLE
+    move 0
+    move 0
+    move 0
+    ability ABILITY_QUICK_FEET
+    ball ITEM_POKE_BALL
+    setivs 30, 30, 30, 30, 30, 30
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+endparty
+
+trainerdata 875, "Vito"
+    trainermontype TRAINER_MON_TYPE_FLAGS
+    trainerclass CLASS_ACE_TRAINER_M
+    nummons 1
+    item 0 
+    item 0 
+    item 0 
+    item 0
+    aiflags TRAINER_AI_FLAGS
+    battletype SINGLE_BATTLE
+    endentry
+
+party 875
+    ivs 0
+    abilityslot 0
+    level LEVEL_ELITE_FOUR
+    pokemon SPECIES_AGGRON
+    item ITEM_AGGRONITE
+    move MOVE_TACKLE
+    move 0
+    move 0
+    move 0
+    ability ABILITY_QUICK_FEET
+    ball ITEM_POKE_BALL
+    setivs 30, 30, 30, 30, 30, 30
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+endparty
+
 /******************************************** Indigo Plateau ********************************************/
 
 trainerdata 245, "Will"

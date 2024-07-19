@@ -443,7 +443,7 @@ arm9 080517AA 3B
 arm9 080517D4 3B
 
 # Pokemon Music Table Count (hex)
-arm9 080518CA 23
+arm9 080518CA 25
 
 # Trainer Music Table Count (hex)
 arm9 08051886 25

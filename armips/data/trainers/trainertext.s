@@ -3780,6 +3780,18 @@ _Trainer870:
 _Trainer871:
     trainertextentry 871, TEXT_DEFEATED_IN_BATTLE, "I have collected the data."
 
+_Trainer872:
+    trainertextentry 872, TEXT_DEFEATED_IN_BATTLE, "A-ha!\nYou’re stronger than I thought!"
+
+_Trainer873:
+    trainertextentry 873, TEXT_DEFEATED_IN_BATTLE, "Uwah!\nJust how strong are you?!"
+
+_Trainer874:
+    trainertextentry 874, TEXT_DEFEATED_IN_BATTLE, "Huh?\nDid I really lose?"
+
+_Trainer875:
+    trainertextentry 875, TEXT_DEFEATED_IN_BATTLE, "Better than my whole family?\nIs that possible?!"
+
 .close
 
 
@@ -4658,5 +4670,9 @@ _Trainer871:
 /* Trainer 869 */ .halfword _Trainer869
 /* Trainer 870 */ .halfword _Trainer870
 /* Trainer 871 */ .halfword _Trainer871
+/* Trainer 872 */ .halfword _Trainer872
+/* Trainer 873 */ .halfword _Trainer873
+/* Trainer 874 */ .halfword _Trainer874
+/* Trainer 875 */ .halfword _Trainer875
 
 .close

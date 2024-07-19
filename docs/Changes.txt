@@ -103,7 +103,7 @@ Sprout Tower
 Violet City - Gym
 ✓ Added two new Trainers using Mickey (63, 87). Set flags for these after beating Falkner.
 ✓ Updated Falkner's dialogue because of obedience/TM mechanic changes.
-✓ After receiving the Key Stone, Falkner can be challenged to a rematch where he will award you with the Pidgeotite if you win. He can be rematched for no reward each time you enter the area.
+✓ After receiving the Key Stone, Falkner can be challenged to a rematch where he will award you with the Pidgeotite if you win.
 ✓ There's a level script activated after clearing Sprout Tower where the Gym Guide explains a couple things about the Trainers (higher IVs, held items, more use of Gen 5+ Pokemon).
 ✓ Falkner no longer disappears from the Gym.
 ✓ Falkner now awards you 5 League Points after you earn the Zephyr Badge.
@@ -199,7 +199,7 @@ Slowpoke Well
 Azalea Town - Gym 
 ✓ Added three new Trainers, a Bug Catcher (138), an Ace Trainer M (375) and an Ace Trainer F (107). Set flags for these after beating Bugsy.
 ✓ Modified Bugsy's dialogue a bit.
-✓ After receiving the Key Stone, Bugsy can be challenged to a rematch where he will award you with the Scizorite if you win. He can be rematched for no reward each time you enter the area.
+✓ After receiving the Key Stone, Bugsy can be challenged to a rematch where he will award you with the Scizorite if you win.
 ✓ Defeating Bugsy now activates the Azalea Silver fight.
 ✓ Bugsy no longer disappears from the Gym.
 ✓ Bugsy now awards you 5 League Points after you earn the Hive Badge and mentions that you can teach moves at the Pokémon Center.
@@ -305,7 +305,7 @@ Pokéathlon Dome
 Goldenrod City - Gym
 ✓ Added two new Trainers, a Hiker (168) and an Ace Trainer (169) using Mickeys.
 ✓ Changed Whitney's dialogue a little bit to reflect new event order.
-✓ After receiving the Key Stone, Whitney can be challenged to a rematch where she will award you with the Lopunnite if you win. She can be rematched for no reward each time you enter the area.
+✓ After receiving the Key Stone, Whitney can be challenged to a rematch where she will award you with the Lopunnite if you win.
 ✓ Whitney no longer disappears from the Gym.
 ✓ Whitney now awards you 5 League Points after you earn the Plain Badge.
 ✓ The Teleport Gem is disabled after defeating Whitney until you receive the Plain Badge.
@@ -389,7 +389,7 @@ Burned Tower
 
 Ecruteak City - Gym
 ✓ Modified Morty's dialogue to remove the obedience bit.
-✓ After receiving the Key Stone, Morty can be challenged to a rematch where he will award you with the Gengarite if you win. He can be rematched for no reward each time you enter the area.
+✓ After receiving the Key Stone, Morty can be challenged to a rematch where he will award you with the Gengarite if you win.
 ✓ Added two new Sage Trainers using Mickeys (504, 506).
 ✓ Morty no longer disappears from the Gym.
 ✓ Morty now awards you 5 League Points after you earn the Fog Badge.
@@ -456,7 +456,7 @@ Cianwood City - Gym
 ✓ With the above factored in, rearranged the trainers to make them all compulsory.
 ✓ Chuck now awards TM08, Bulk Up instead.
 ✓ After exiting the Gym and receiving HM02 Fly, Baoba calls you at this point and activates the Rocket events. (This is done using Script 7 in Cianwood City.) (Unlike the Olivine one, this does not set variable 0x40A5 at all.)
-✓ After receiving the Key Stone, Chuck can be challenged to a rematch where he will award you with the Medichamite if you win. He can be rematched for no reward each time you enter the area.
+✓ After receiving the Key Stone, Chuck can be challenged to a rematch where he will award you with the Medichamite if you win.
 ✓ Chuck no longer disappears from the Gym.
 ✓ Chuck now awards you 5 League Points after you earn the Storm Badge and mentions that you can teach moves at the Pokémon Center.
 ✓ The Teleport Gem is disabled after defeating Chuck until you've received the call from Baoba outside.
@@ -522,7 +522,7 @@ Safari Zone Gate (Normal)
 Olivine City - Gym
 ✓ The Gentleman and Lass are now actual Trainers using Mickeys (304, 305).
 ✓ Jasmine now mentions the Lake of Rage after being beaten to give the player some direction. The mention about Lv. 70 Pokémon obedience is removed, and some text is added to say that the badge now enables the use of Rock Climb outside of battle.
-✓ After receiving the Key Stone, Jasmine can be challenged to a rematch where she will award you with the Steelixite if you win. She can be rematched for no reward each time you enter the area.
+✓ After receiving the Key Stone, Jasmine can be challenged to a rematch where she will award you with the Steelixite if you win.
 ✓✓ The way the above is scripted currently prevents the Steelix trade from occurring.
 ✓ Jasmine no longer disappears from the Gym after returning from the Lighthouse.
 ✓ Jasmine now awards you 5 League Points after you earn the Mineral Badge.
@@ -558,7 +558,7 @@ Team Rocket HQ
 Mahogany Town - Gym
 ✓ Pryce's dialogue is edited to remove the erroneous stat boost text, and also to reflect that the TM is now Snowscape.
 ✓ Defeating Pryce now activates the trigger script in the Ice Path with Will.
-✓ After receiving the Key Stone, Pryce can be challenged to a rematch where he will award you with the Abomasite if you win. He can be rematched for no reward each time you enter the area.
+✓ After receiving the Key Stone, Pryce can be challenged to a rematch where he will award you with the Glalitite if you win.
 ✓ Defeating Pryce the first time now triggers the Mahogany shop to reopen (instead of it being defeating Team Rocket at the Radio Tower).
 ✓ Elm's call after leaving the Gym now briefly mentions Mega Evolution, as a setup for later when he gives you the Key Stone.
 ✓ Pryce no longer disappears from the Gym.
@@ -619,10 +619,12 @@ Blackthorn City
 ✓ Edited NPC dialogues to remove move reminder/deleter dialogue.
 ✓ Added Prof Elm's assistant in the Pokémon Center, who will give a Lv. 5 starter of the player's choice.
 ✓ Modified the trade in the house to be a Vibrava in exchange for any Flying-type.
+✓ One of the houses has been evicted and is now occupied by the Winstrates. They just have some dialogue to start, but after speaking to Vito at Indigo Plateau, they will challenge you to a back-to-back of four battles. Winning this unlocks Victini.
+✓ After winning against the Winstrates, Winstrate Victoria will give you an Ability Patch.
 
 Blackthorn City - Gym
 ✓ Gym guide now mentions Fairy Pokémon.
-✓ After receiving the Key Stone, Clair can be challenged to a rematch where she will award you with the Altarianite if you win. She can be rematched for no reward each time you enter the area.
+✓ After receiving the Key Stone, Clair can be challenged to a rematch where she will award you with the Altarianite if you win.
 ✓ Clair no longer disappears from the Gym.
 
 Dragon's Den
@@ -711,6 +713,8 @@ Indigo Plateau
 ✓ Upon entry, a flag is set to disable the use of the portable PC. This is cleared upon any loss in the E4 or during the walk up to Lance.
 ✓ The Teleport Gem is disabled when entering the E4, and is re-enabled upon any losses or defeating Lance.
 ✓ Ho-oh's secondary flag (278) no longer restores it if not set. This is to stop it appearing post E4 without its event actually going off.
+✓ Vito is found inside the Pokémon League building. After speaking to him, he'll return to Blackthorn City and enable the Winstrate challenge.
+✓ After defeating the Winstrates, speaking to the sign outside while facing upwards will cause Victini to pop up and battle with the player (at Level 60). This can be repeated each time the area is entered until Victini is caught.
 
 S.S. Aqua
 ✓ Prior to boarding (in the harbour building), Looker replaces Oak and says some dialogue referencing that Team Rocket are still out and about.
@@ -731,7 +735,7 @@ Pewter City - Gym
 ✓ Added two new Trainers using Mickeys (508, 511).
 ✓ Rearranged the trainer layout a bit.
 ✓ Changed Brock's dialogue depending on if you met him in Union Cave previously. He also gives TM80 Rock Slide here only if you don't already have it.
-✓ Brock also gives you 4 League Points.
+✓ Brock also gives you the Aerodactylite when defeated.
 
 Route 3
 ✓ A trigger script has been added between the four meteorites. Ordinarily, it'll just state a message saying a meteor passed.
@@ -749,7 +753,7 @@ Cerulean City - Gym
 ✓ Moved the two Sailors so they're compulsory.
 ✓ Modified some dialogue to remove references to them being away to begin with.
 ✓ Changed Misty's dialogue depending on if you met her previously. She also gives TM55 Scald here only if you don't already have it.
-✓ Misty also gives you 4 League Points.
+✓ Misty also gives you the Gyaradosite when defeated.
 
 Vermilion City
 ✓ Steven now appears and talks to you after leaving the Gym after Lt. Surge is beaten. Latias and Latios will start roaming Kanto after this event. They are both Level 70.
@@ -757,7 +761,7 @@ Vermilion City
 Vermilion City - Gym
 ✓ Moved the Trainers a bit.
 ✓ Changed Surge's dialogue depending on if you met him previously. He also gives TM24 Thunderbolt here only if you don't already have it.
-✓ Surge also gives you 4 League Points.
+✓ Lt. Surge also gives you the Manectite when defeated.
 
 Diglett's Cave
 ✓ The Earth Plate is found on one of the upper ledges.
@@ -781,7 +785,7 @@ Celadon City
 Celadon City - Gym
 ✓ Changed the position of some of the Trainers.
 ✓ Changed Erika's dialogue depending on if you met her previously. She also gives TM19 Giga Drain here only if you don't already have it.
-✓ Erika also gives you 4 League Points.
+✓ Erika also gives you the Abomasite when defeated.
 
 Route 11
 ✓ The Snorlax in front of Diglett's Cave no longer appears.
@@ -809,14 +813,16 @@ Route 13
 Fuchsia City - Gym
 ✓ Swapped Janine's position with another Trainer.
 ✓ Janine gives TM06 Toxic here only if you don't already have it.
-✓ Janine also gives you 4 League Points.
+✓ Janine also gives you the Beedrillite when defeated.
 
 Saffron City
 ✓ Steven now appears in Silph Co. immediately after encountering him in Vermilion (the Red restriction is removed).
+✓ At this point, Steven will give you the Sceptilite, Blazikenite and Swampertite if spoken to.
+✓ Mr. Psychic now gives the Gardevoirite and Galladite.
 
 Saffron City - Gym
 ✓ Changed Sabrina's dialogue depending on if you met her previously. She also gives TM04 Calm Mind here only if you don't already have it.
-✓ Sabrina also gives you 4 League Points.
+✓ Sabrina also gives you the Alakazite when defeated.
 
 Route 19
 ✓ The workers/barriers have been removed altogether, meaning the route is accessible even before defeating Blaine.
@@ -837,10 +843,10 @@ Seafoam Islands
 Seafoam Islands - Gym
 ✓ Changed the Scientists into the D/P Scientists, as the HG/SS ones are now using the Rocket music.
 ✓ Changed Blaine's dialogue depending on if you met him previously. He also gives TM35 Flamethrower here only if you don't already have it.
-✓ Blaine also gives you 4 League Points.
+✓ Blaine also gives you the Cameruptite when defeated.
 
 Viridian City - Gym
-✓ Blue's dialogue is edited. He also now awards 4 League Points but doesn't give any item at this stage.
+✓ Blue's dialogue is edited somewhat. He doesn't give any reward after being defeated, with it instead being delayed until slightly later.
 ✓ The Teleporter Gem is disabled following Blue's defeat until you leave the Gym.
 ✓ Cerulean Cave (Flag 783) is no longer accessible immediately after this - instead it's after talking to Oak.
 
@@ -864,14 +870,19 @@ Cerulean Cave
 ✓ Following this, there's a small event where Silver battles Giovanni and loses. You then get to challenge Giovanni yourself in a b2b2b, featuring Mega Mewtwo X, Mega Mewtwo Y, and then a full team of six (no healing between).
 ✓ After defeating Giovanni, everyone leaves and Blue invites you to Mt. Silver, which now unlocks.
 ✓ Mewtwo is now Lv. 80, and will reappear when leaving the area until caught. Upon catching it, you'll get a Mewtwonite X and Mewtwonite Y.
+✓ The visible items on 2F have been removed (TM24, PP Up, Odd Incense, Ultra Ball).
+✓ Following Silver's defeat at Mt. Silver, five Carbink will appear in this room. The one in the big clearing will have text saying it's a bit lonely. Speaking to the other four Carbink (which replaced the items), and then the Carbink in the center will result in a small cutscene that reveals Diancie, who can then be battled.
+✓ Diancie is found at Level 70. It reappears after leaving the area unless caught. After being caught, the player automatically finds a Diancite.
 
 Mt. Silver
 ✓ Added a trade in the Pokémon Center for a Heracross in exchange for any Dragon-type.
 ✓ Outside the cave entrance, Silver is waiting for the player and will challenge them to one last battle, disappearing afterwards. This also changes the story variable for the level script at the Mt. Silver summit.
+✓ Defeating Silver also unlocks the Diancie event in Cerulean Cave.
 
 Mt. Silver Cave
 ✓ Lower Mountainside: Escape Rope -> Max Elixir.
 ✓ At the summit, you'll battle against Blue, Lance, Steven and Cynthia (in any order). Blue explains the rules to you once you enter the peak, and following that you can talk to the Champions to battle them.
+✓ Each Champion gives you a Mega Stone the first time you win against them. (Blue = Tyranitarite, Lance = Salamencite, Steven = Metagrossite, Cynthia = Garchompite.)
 ✓ Following the fourth battle, you'll be told that there's another challenger - at which point you step to the end of the summit and fight Red as normal, with the credits rolling afterward.
 ✓ The Sky Plate is found just in front of where Red stands.
 

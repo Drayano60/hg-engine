@@ -197,6 +197,15 @@ NPCs:
 2267 - Baoba alerted to Meltan.
 2268 - Baoba gives the Mystery Box to the player.
 
+2269* - Winstrate Victor outside the Blackthorn house.
+2270 - Winstrate Vito at Indigo Plateau.
+2271* - Winstrate Vito inside the Blackthorn house.
+2272* - Victini
+2273 - Ability Patch received from Winstrate Victoria.
+2274* - Carbink in Cerulean Cave
+2275* - Diancie in Cerulean Cave
+1262*, 1263*, 1264*, 1265* are used for the individual Carbink.
+
 2230 - Heart Scale on Route 47 [UNUSED]
 2231 - Heart Scale on Route 40 [UNUSED]
 2232 - Heart Scale on Union Cave B2F [Unused? Seems like I never used it in the first place]
@@ -221,12 +230,12 @@ NPCs:
 
 2613* - Absolite @ Burned Tower.
 2614* - Audinite @ Route 29.
-2615* - Beedrillite @ Ilex Forest.
-2616* - Glalitite @ Ice Path.
-2617* - Gyaradosite @ Lake of Rage.
+2615* - Pinsirite @ Ilex Forest.
+2616 - Lucarionite @ Mt. Silver.
+2617* - Banettite @ Dark Cave.
 2618 - Sablenite @ Victory Road.
 2619 - Mawilite @ Victory Road.
-2620* - Sharpedonite @ Cherrygrove City.
+2620 - Sharpedonite @ Route 20.
 2621* - Slowbronite @ Slowpoke Well.
 2622 - Pidgeotite @ Violet Gym.
 2623 - Scizorite @ Azalea Gym.
@@ -251,6 +260,17 @@ NPCs:
 2638* - Palkia
 2639* - Giratina
 2640* - Arceus
+
+2641 - Kangaskhanite @ Fuchsia City.
+2642* - Heracronite @ Route 42.
+2643* - Houndoominite @ Route 45.
+2644* - Aggronite @ Cliff Cave.
+
+2645 - Tyranitarite given by Blue.
+2646 - Salamencite given by Lance.
+2647 - Metagrossite given by Steven.
+2648 - Garchompite given by Cynthia.
+2649 - Gardevoirite given by Mrs. Psychic in Saffron City.
 
 373 - This is the flag in the base game to signal Suicune has been caught. This is set during the Bell Tower event if Suicune is caught.
 

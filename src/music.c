@@ -51,6 +51,8 @@ struct MonBattleMusic PokemonMusicTable[] = {
     {.species = SPECIES_DARKRAI, .combo = 51},
     {.species = SPECIES_SHAYMIN, .combo = 53},
     {.species = SPECIES_ARCEUS, .combo = 54},
+    {.species = SPECIES_VICTINI, .combo = 51},
+    {.species = SPECIES_DIANCIE, .combo = 51},
 };
 
 // Trainer combo is trainer class ID followed by (combo ID * 4)

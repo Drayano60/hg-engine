@@ -23,7 +23,7 @@
  * Changed Ability Capsule and Ability Patch to Items pocket
  * Assigned a fieldUseFunc to Ability Patch
  * Gave Black Augurite an assumed Fling power of 80. Gave Peat Block an assumed Fling power of 30.
- * Added item data for the Stellar Stone, Teleport Gem and GS Ball items.
+ * Added item data for the Stellar Stone, Teleport Gem, Mystery Box and GS Ball items.
 ****/
 
 u32 __size = sizeof(ITEMDATA);

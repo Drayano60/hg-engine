@@ -192,7 +192,6 @@ Cherrygrove City
 ===========================================================================
 Fishing Rod: Given to you by a Fisherman when you first try to leave towards Route 30.
 Lucky Punch: Found on the floor above a rocky wall past the water. Surf and Rock Climb are required.
-Sharpedonite: Found on the floor on the small patch of sand just off the beach after receiving the Key Stone.
 
 ===========================================================================
 Route 30
@@ -216,6 +215,7 @@ TM54 False Swipe: Given to you by Ethan/Lyra in the Violet City gatehouse after 
 Dark Cave, Violet Side
 ===========================================================================
 Black Glasses: Found on the floor across the water to the right of the Route 31 exit. Surf is required.
+Banettite: Found on the floor at the top right of the room after receiving the Key Stone.
 
 ===========================================================================
 Violet City
@@ -350,7 +350,7 @@ Silver Powder: Found on the floor in a small clearing at the bottom right of the
 TM86 Grass Knot: Talk to the woman near the center of the forest. Requires Cut.
 Zap Plate: Attached to the Spiky-Eared Pichu you can receive as a gift. Requires Cut.
 Big Root: Found on the floor near where you meet the Kimono Girl. Requires Cut.
-Beedrillite: Found in a gap of trees in the bottom half of the map after receiving the Key Stone. (?)
+Pinsirite: Found in a gap of trees in the bottom half of the map after receiving the Key Stone.
 
 ===========================================================================
 Route 34
@@ -497,6 +497,7 @@ Route 42
 TM65 Shadow Claw: Found on the floor near the gatehouse to Ecruteak City.
 HM04 Strength: Given to you by a Hiker who bumps into you as you approach Mt. Mortar.
 TM88 Air Slash: Found on the floor when leaving one of the upper Mt. Mortar exits. Requires Rock Climb.
+Heracronite: Found on the floor near the Apricorn trees after receiving the Key Stone.
 
 ===========================================================================
 Mt. Mortar
@@ -534,7 +535,6 @@ TM29 Psychic: Given to you by Will on 1F, who appears a little ways in from the 
 TM13 Ice Beam: Found on the floor on B3F, at the bottom right of the ice puzzle.
 Icy Rock: Found on the floor on B4F.
 Razor Claw: Found on the floor on B1F as part of a small boulder puzzle.
-Glalitite: Found on the floor on B4F after receiving the Key Stone.
 
 ===========================================================================
 Burned Tower
@@ -642,6 +642,7 @@ Cover Fossil: Has a 10% chance to drop from a smashed rock.
 Plume Fossil: Has a 10% chance to drop from a smashed rock.
 Jaw Fossil: Has a 10% chance to drop from a smashed rock.
 Sail Fossil: Has a 10% chance to drop from a smashed rock.
+Aggronite: Found on the floor on the top floor after receiving the Key Stone.
 
 ===========================================================================
 Route 48
@@ -701,7 +702,6 @@ Red Scale: Found automatically after the battle with the Red Gyarados.
 Life Orb: Found on the floor on a small island near the house at the top-left, while the lake is flooded.
 TM44 Rest: Speak to the man in the house at the northwest of the lake, while the lake is flooded.
 Black Belt: Speak to Wesley, who will appear on a Wednesday at the northwest of the lake when the lake is not flooded.
-Gyaradosite: Found on the floor on a patch of land at the southwest of the lake, after receiving the Key Stone and while the lake is flooded.
 
 ===========================================================================
 Team Rocket HQ
@@ -716,7 +716,7 @@ HM05 Whirlpool: Given to you by Lance after turning off Team Rocket's radio sign
 Mahogany Town, Gym
 ===========================================================================
 TM07 Snowscape: Given to you by Pryce after defeating him.
-Abomasite: Given to you by Pryce after defeating him in a rematch, after receiving the Key Stone.
+Glalitite: Given to you by Pryce after defeating him in a rematch, after receiving the Key Stone.
 
 ===========================================================================
 Whirl Islands
@@ -736,6 +736,7 @@ TM22 Solar Beam: Can be purchased from the Ace Trainer in the Ultimate Moves Hou
 TM25 Thunder: Can be purchased from the Ace Trainer in the Ultimate Moves House.
 TM38 Fire Blast: Can be purchased from the Ace Trainer in the Ultimate Moves House.
 TM68 Giga Impact: Can be purchased from the Ace Trainer in the Ultimate Moves House.
+Ability Patch: Speak to Winstrate Victoria after defeating all of the Winstrates.
 
 ===========================================================================
 Route 45 North
@@ -744,6 +745,7 @@ TM58 Body Press: Speak to the Hiker near the Dark Cave entrance.
 Razor Fang: Found on the floor past the large patch of tall grass near the Dark Cave entrance.
 Heat Rock: Found on the floor far down the right side of the route.
 TM75 Swords Dance: Found on the floor in the middle of a patch of grass far down the left side of the route.
+Houndoominite: Found on the floor far down the right side of the route after receiving the Key Stone.
 
 ===========================================================================
 Dark Cave, Blackthorn Side
@@ -848,6 +850,7 @@ Stone Plate: Found on the floor near the Pewter Museum.
 ===========================================================================
 Pewter City, Gym
 ===========================================================================
+Aerodactylite: Given to you by Brock after defeating him.
 TM80 Rock Slide: Given to you by Brock after defeating him if you do not already have it.
 
 ===========================================================================
@@ -873,6 +876,7 @@ Nothing of note.
 ===========================================================================
 Cerulean City, Gym
 ===========================================================================
+Gyaradosite: Given to you by Misty after defeating her.
 TM55 Scald: Given to you by Misty after defeating her if you do not already have it.
 
 ===========================================================================
@@ -903,6 +907,7 @@ Lost Item: Speak to the man at the table after having spoken to Copycat in Saffr
 ===========================================================================
 Vermilion City, Gym
 ===========================================================================
+Manectite: Given to you by Lt. Surge after defeating him.
 TM24 Thunderbolt: Given to you by Lt. Surge after defeating him if you do not already have it.
 
 ===========================================================================
@@ -923,6 +928,7 @@ Toxic Plate: Speak to the old man across the small pond.
 ===========================================================================
 Celadon City, Gym
 ===========================================================================
+Abomasite: Given to you by Erika after defeating her.
 TM19 Giga Drain: Given to you by Erika after defeating her if you do not already have it.
 
 ===========================================================================
@@ -984,17 +990,22 @@ Nothing of note.
 ===========================================================================
 Fuchsia City
 ===========================================================================
-Nothing of note.
+Kangaskhanite: Found on the floor in a small clearing to the right of the Pal Park building.
 
 ===========================================================================
 Fuchsia City, Gym
 ===========================================================================
+Beedrillite: Given to you by Janine after defeating her.
 TM06 Toxic: Given to you by Janine after defeating her if you do not already have it.
 
 ===========================================================================
 Saffron City
 ===========================================================================
-Nothing of note.
+Gardevoirite: Speak to Mr. Psychic in the southeastern house.
+Galladite: Speak to Mr. Psychic in the southeastern house.
+Sceptilite: Speak to Steven in Silph Co. after defeating Lt. Surge and meeting Steven in Vermilion City.
+Blazikenite: Speak to Steven in Silph Co. after defeating Lt. Surge and meeting Steven in Vermilion City.
+Swampertite: Speak to Steven in Silph Co. after defeating Lt. Surge and meeting Steven in Vermilion City.
 
 ===========================================================================
 Saffron City, Gym
@@ -1024,7 +1035,7 @@ Nothing of note.
 ===========================================================================
 Route 20
 ===========================================================================
-Nothing of note.
+Sharpedonite: Found on the floor at the end of the sand, to the left of Seafoam Islands.
 
 ===========================================================================
 Seafoam Islands
@@ -1052,6 +1063,7 @@ Cerulean Cave
 ===========================================================================
 Mewtwonite X: Found automatically after catching Mewtwo.
 Mewtwonite Y: Found automatically after catching Mewtwo.
+Diancite: Found automatically after catching Diancie.
 
 ===========================================================================
 Route 28
@@ -1066,7 +1078,12 @@ Flame Orb: Attached to the Heracross you can receive in a trade in the Pokémon 
 ===========================================================================
 Mt. Silver Cave
 ===========================================================================
+Lucarionite: Found on the floor in the room directly up the waterfall to the left of the entrance.
 Sky Plate: Found on the floor in a snow pile at the very peak, in front of the tile Red stands on.
+Tyranitarite: Given to you by Blue after defeating him during the Champion Tournament.
+Salamencite: Given to you by Lance after defeating him during the Champion Tournament.
+Metagrossite: Given to you by Steven after defeating him during the Champion Tournament.
+Garchompite: Given to you by Cynthia after defeating her during the Champion Tournament.
 
 ===========================================================================
 Sinjoh Ruins

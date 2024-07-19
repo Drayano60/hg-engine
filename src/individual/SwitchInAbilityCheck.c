@@ -719,22 +719,25 @@ int UNUSED SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
                             (sp->battlemon[client_no].hp)) {
                             switch (GetBattlerAbility(sp, client_no)) {
                                 case ABILITY_GRASSY_SURGE:
-                                    sp->current_move_index = MOVE_GRASSY_TERRAIN;  // force move anim to play
+                                    sp->calc_work = sp->current_move_index;
+                                    sp->current_move_index = MOVE_GRASSY_TERRAIN;  // need this for UpdateTerrainOverlay
                                     ret = SWITCH_IN_CHECK_MOVE_SCRIPT;
                                     break;
                                 case ABILITY_MISTY_SURGE:
-                                    sp->current_move_index = MOVE_MISTY_TERRAIN;  // force move anim to play
+                                    sp->calc_work = sp->current_move_index;
+                                    sp->current_move_index = MOVE_MISTY_TERRAIN;  // need this for UpdateTerrainOverlay
                                     ret = SWITCH_IN_CHECK_MOVE_SCRIPT;
                                     break;
                                 case ABILITY_ELECTRIC_SURGE:
-                                    sp->current_move_index = MOVE_ELECTRIC_TERRAIN;  // force move anim to play
+                                    sp->calc_work = sp->current_move_index;
+                                    sp->current_move_index = MOVE_ELECTRIC_TERRAIN;  // need this for UpdateTerrainOverlay
                                     ret = SWITCH_IN_CHECK_MOVE_SCRIPT;
                                     break;
                                 case ABILITY_PSYCHIC_SURGE:
-                                    sp->current_move_index = MOVE_PSYCHIC_TERRAIN;  // force move anim to play
+                                    sp->calc_work = sp->current_move_index;
+                                    sp->current_move_index = MOVE_PSYCHIC_TERRAIN;  // need this for UpdateTerrainOverlay
                                     ret = SWITCH_IN_CHECK_MOVE_SCRIPT;
                                     break;
-
                                 default:
                                     break;
                             }
@@ -742,7 +745,8 @@ int UNUSED SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
                             if (ret == SWITCH_IN_CHECK_MOVE_SCRIPT) {
                                 sp->battlemon[client_no].ability_activated_flag = 1;
                                 sp->attack_client = client_no; // this should allow for the seeds to affect the terrain
-                                scriptnum = SUB_SEQ_CREATE_TERRAIN_OVERLAY_ABILITY;
+                                scriptnum = SUB_SEQ_CREATE_TERRAIN_OVERLAY_ABILITY; /**** AURORA CRYSTAL: Use a different sub_seq here to get a different message. */
+                                sp->addeffect_type = ADD_EFFECT_ABILITY; // need to restore the current move index after the animation has played
                                 break;
                             }
                         }

@@ -2526,7 +2526,7 @@ movedata MOVE_ROCK_SLIDE, "Rock Slide"
     pss SPLIT_PHYSICAL
     basepower 75
     type TYPE_ROCK
-    accuracy 90
+    accuracy 100 /**** EDIT: 90 -> 100. */
     pp 10
     effectchance 30
     target MOVE_TARGET_BOTH
@@ -4126,7 +4126,7 @@ movedata MOVE_HEAT_WAVE, "Heat Wave"
     pss SPLIT_SPECIAL
     basepower 95
     type TYPE_FIRE
-    accuracy 90
+    accuracy 100 /**** EDIT: 90 -> 100. */
     pp 10
     effectchance 10
     target MOVE_TARGET_BOTH
@@ -6430,7 +6430,7 @@ movedata MOVE_AQUA_TAIL, "Aqua Tail"
     pss SPLIT_PHYSICAL
     basepower 90
     type TYPE_WATER
-    accuracy 90
+    accuracy 100 /**** EDIT: 90 -> 100. */
     pp 10
     effectchance 0
     target MOVE_TARGET_SELECTED

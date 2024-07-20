@@ -730,6 +730,9 @@ Pewter City
 ✓ There's a new Hiker in the Pewter Museum who mentions clues he found in the Ruins of Alph. This enables the Regi events.
 ✓ The old man who normally gives you the Silver Wing has been replaced with an old woman who tells you a bit about Cresselia. This unlocks the Cresselia encounter on Route 12 by clearing one of the two flags.
 ✓ The Stone Plate is found near the Museum.
+✓ Steven appears in the Pewter Museum after he gives you the Mega Stones for the Hoenn starters. Speaking to him here will cause him to give you the Latiasite and Latiosite, before leaving to go back to Silph Co.
+✓ The researcher now just says a line about how you can extract Fossils at the Ruins of Alph instead.
+✓ Speaking to the researcher while the Enigma Stone is in your inventory will give a different prompt which will result in the player being given a Soul Dew in the Enigma Stone's place.
 
 Pewter City - Gym
 ✓ Added two new Trainers using Mickeys (508, 511).
@@ -817,8 +820,9 @@ Fuchsia City - Gym
 
 Saffron City
 ✓ Steven now appears in Silph Co. immediately after encountering him in Vermilion (the Red restriction is removed).
-✓ At this point, Steven will give you the Sceptilite, Blazikenite and Swampertite if spoken to.
+✓ At this point, Steven will give you the Sceptilite, Blazikenite and Swampertite if spoken to. He then leaves and appears in the Pewter Museum as normal.
 ✓ Mr. Psychic now gives the Gardevoirite and Galladite.
+✓ When Steven reappears here after visiting Pewter Museum, you can speak to him after having caught the roaming Latias and Latios and he will give you the Enigma Stone before leaving.
 
 Saffron City - Gym
 ✓ Changed Sabrina's dialogue depending on if you met her previously. She also gives TM04 Calm Mind here only if you don't already have it.
@@ -885,6 +889,7 @@ Mt. Silver Cave
 ✓ Each Champion gives you a Mega Stone the first time you win against them. (Blue = Tyranitarite, Lance = Salamencite, Steven = Metagrossite, Cynthia = Garchompite.)
 ✓ Following the fourth battle, you'll be told that there's another challenger - at which point you step to the end of the summit and fight Red as normal, with the credits rolling afterward.
 ✓ The Sky Plate is found just in front of where Red stands.
+✓ Moltres is removed and the Lucarionite found in its place.
 
 Sinjoh Ruins
 ✓ When initially warped here, Cynthia has some dialogue and then goes into the Mystri Stage temple. You can speak to her again inside the temple, and after a bit more dialogue, Uxie, Mesprit and Azelf are released. Cynthia leaves the temple after this.

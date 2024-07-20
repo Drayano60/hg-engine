@@ -223,7 +223,7 @@ An item to be held by a Pokémon.\nIt adds a 10% chance to make the foe\nflinch 
 An item to be held by a Pokémon.\nIt is a shiny, silver powder that ups\nthe power of Bug-type moves by 20%.
 An item to be held by a Pokémon.\nIt doubles a battle’s prize money if\nthe holding Pokémon joins in.
 An item to be held by a Pokémon.\nIt helps keep wild Pokémon away if the\nholder is the first one in the party.
-A wondrous orb to be held by LATIOS\nor LATIAS. It raises both the\nSp. Atk and Sp. Def stats.
+A wondrous orb to held by either Latios\nor Latias. It boosts the power of their\nPsychic and Dragon-type moves by 20%.
 An item to be held by Clamperl.\nA fang that gleams a sharp silver,\nit doubles a Clamperl’s Sp. Atk stat.
 An item to be held by Clamperl.\nA scale that shines a faint pink,\nit doubles a Clamperl’s Sp. Def stat.
 An item to be held by a Pokémon.\nIt enables the holder to flee from any\nwild Pokémon without fail.

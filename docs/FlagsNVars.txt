@@ -205,6 +205,7 @@ NPCs:
 2274* - Carbink in Cerulean Cave
 2275* - Diancie in Cerulean Cave
 1262*, 1263*, 1264*, 1265* are used for the individual Carbink.
+2276 - Steven initial conversation in Silph Co (later).
 
 2230 - Heart Scale on Route 47 [UNUSED]
 2231 - Heart Scale on Route 40 [UNUSED]

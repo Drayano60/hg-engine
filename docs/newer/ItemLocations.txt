@@ -846,6 +846,9 @@ Insect Plate: Found on the floor in the alcove a little way from the exit to Pew
 Pewter City
 ===========================================================================
 Stone Plate: Found on the floor near the Pewter Museum.
+Latiasite: Speak to Steven in the Pewter Museum, after he initially leaves Silph Co.
+Latiosite: Speak to Steven in the Pewter Museum, after he initially leaves Silph Co.
+Soul Dew: Speak to the researcher after receiving the Enigma Stone from Steven at Silph Co.
 
 ===========================================================================
 Pewter City, Gym
@@ -1006,6 +1009,7 @@ Galladite: Speak to Mr. Psychic in the southeastern house.
 Sceptilite: Speak to Steven in Silph Co. after defeating Lt. Surge and meeting Steven in Vermilion City.
 Blazikenite: Speak to Steven in Silph Co. after defeating Lt. Surge and meeting Steven in Vermilion City.
 Swampertite: Speak to Steven in Silph Co. after defeating Lt. Surge and meeting Steven in Vermilion City.
+Enigma Stone: Speak to Steven in Silph Co. after he returns from Pewter Museum and after catching the roaming Latias and Latios.
 
 ===========================================================================
 Saffron City, Gym
@@ -1078,7 +1082,7 @@ Flame Orb: Attached to the Heracross you can receive in a trade in the Pokémon 
 ===========================================================================
 Mt. Silver Cave
 ===========================================================================
-Lucarionite: Found on the floor in the room directly up the waterfall to the left of the entrance.
+Lucarionite: Found on the floor in the center of the big room behind the waterfalls when you go left from the entrance.
 Sky Plate: Found on the floor in a snow pile at the very peak, in front of the tile Red stands on.
 Tyranitarite: Given to you by Blue after defeating him during the Champion Tournament.
 Salamencite: Given to you by Lance after defeating him during the Champion Tournament.

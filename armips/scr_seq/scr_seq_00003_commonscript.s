@@ -13,6 +13,34 @@
 
 .create "build/a012/2_003", 0
 
+// Level Cap Params
+LEVEL_CAP_CANCEL_FLAG equ 2650
+LEVEL_CAP_STATE_VAR equ 16734
+LEVEL_CAP_START equ 10
+LEVEL_CAP_FALKNER equ 15
+LEVEL_CAP_PROTON_1 equ 20
+LEVEL_CAP_BUGSY equ 23
+LEVEL_CAP_ROUTE_34_RIVAL equ 26
+LEVEL_CAP_WHITNEY equ 30
+LEVEL_CAP_BURNED_TOWER_RIVAL equ 34
+LEVEL_CAP_MORTY equ 36
+LEVEL_CAP_LIGHTHOUSE equ 39
+LEVEL_CAP_CHUCK equ 41
+LEVEL_CAP_SAFARI_ROCKET equ 44
+LEVEL_CAP_JASMINE equ 46
+LEVEL_CAP_ROCKET_HQ_RIVAL equ 49
+LEVEL_CAP_PRYCE equ 51
+LEVEL_CAP_GIOVANNI equ 57
+LEVEL_CAP_CLAIR equ 59
+LEVEL_CAP_ROUTE_26_RIVAL equ 62
+LEVEL_CAP_ELITE_FOUR equ 66
+LEVEL_CAP_CHAMPION equ 68
+LEVEL_CAP_KANTO_LEADERS equ 73
+LEVEL_CAP_BLUE equ 75
+LEVEL_CAP_CERULEAN_CAVE equ 80
+LEVEL_CAP_CHAMPION_TOURNAMENT equ 85
+LEVEL_CAP_RED equ 88
+LEVEL_CAP_MAXIMUM equ 100
 
 scrdef scr_seq_0003_000
 scrdef scr_seq_0003_001
@@ -91,6 +119,7 @@ scrdef scr_seq_0003_073
 scrdef scr_seq_0003_074
 scrdef scr_seq_0003_075
 scrdef scr_seq_0003_076
+scrdef scr_seq_0003_077
 scrdef_end
 
 scr_seq_0003_002:
@@ -2090,5 +2119,126 @@ scr_seq_0003_076:
 _CancelCreditsInc:
     endstd
     end
+
+scr_seq_0003_077:
+    goto_if_set LEVEL_CAP_CANCEL_FLAG, _CancelLevelCap
+    Call _GetLevelCap
+    SetVarFromVariable 0x416F, VAR_SPECIAL_x8004
+    TextNumber 0, VAR_SPECIAL_x8004
+    PlaySound SEQ_ME_LVUP
+    npc_msg 121
+    WaitSound
+    wait_button
+    closemsg
+    endstd
+    end
+
+_CancelLevelCap:
+    SetVar 0x416F, 0
+    endstd
+    end
+
+_GetLevelCap:
+    SetVar VAR_SPECIAL_x8004, LEVEL_CAP_MAXIMUM
+    CompareVarValue LEVEL_CAP_STATE_VAR, 24
+    goto_if_eq _Return
+
+    SetVar VAR_SPECIAL_x8004, LEVEL_CAP_RED
+    CompareVarValue LEVEL_CAP_STATE_VAR, 23
+    goto_if_eq _Return
+
+    SetVar VAR_SPECIAL_x8004, LEVEL_CAP_CHAMPION_TOURNAMENT
+    CompareVarValue LEVEL_CAP_STATE_VAR, 22
+    goto_if_eq _Return
+
+    SetVar VAR_SPECIAL_x8004, LEVEL_CAP_CERULEAN_CAVE
+    CompareVarValue LEVEL_CAP_STATE_VAR, 21
+    goto_if_eq _Return
+
+    SetVar VAR_SPECIAL_x8004, LEVEL_CAP_BLUE
+    CompareVarValue LEVEL_CAP_STATE_VAR, 20
+    goto_if_eq _Return
+
+    SetVar VAR_SPECIAL_x8004, LEVEL_CAP_KANTO_LEADERS
+    CompareVarValue LEVEL_CAP_STATE_VAR, 19
+    goto_if_eq _Return
+
+    SetVar VAR_SPECIAL_x8004, LEVEL_CAP_CHAMPION
+    CompareVarValue LEVEL_CAP_STATE_VAR, 18
+    goto_if_eq _Return
+
+    SetVar VAR_SPECIAL_x8004, LEVEL_CAP_ELITE_FOUR
+    CompareVarValue LEVEL_CAP_STATE_VAR, 17
+    goto_if_eq _Return
+
+    SetVar VAR_SPECIAL_x8004, LEVEL_CAP_ROUTE_26_RIVAL
+    CompareVarValue LEVEL_CAP_STATE_VAR, 16
+    goto_if_eq _Return
+
+    SetVar VAR_SPECIAL_x8004, LEVEL_CAP_CLAIR
+    CompareVarValue LEVEL_CAP_STATE_VAR, 15
+    goto_if_eq _Return
+
+    SetVar VAR_SPECIAL_x8004, LEVEL_CAP_GIOVANNI
+    CompareVarValue LEVEL_CAP_STATE_VAR, 14
+    goto_if_eq _Return
+
+    SetVar VAR_SPECIAL_x8004, LEVEL_CAP_PRYCE
+    CompareVarValue LEVEL_CAP_STATE_VAR, 13
+    goto_if_eq _Return
+
+    SetVar VAR_SPECIAL_x8004, LEVEL_CAP_ROCKET_HQ_RIVAL
+    CompareVarValue LEVEL_CAP_STATE_VAR, 12
+    goto_if_eq _Return
+
+    SetVar VAR_SPECIAL_x8004, LEVEL_CAP_JASMINE
+    CompareVarValue LEVEL_CAP_STATE_VAR, 11
+    goto_if_eq _Return
+
+    SetVar VAR_SPECIAL_x8004, LEVEL_CAP_SAFARI_ROCKET
+    CompareVarValue LEVEL_CAP_STATE_VAR, 10
+    goto_if_eq _Return
+
+    SetVar VAR_SPECIAL_x8004, LEVEL_CAP_CHUCK
+    CompareVarValue LEVEL_CAP_STATE_VAR, 9
+    goto_if_eq _Return
+
+    SetVar VAR_SPECIAL_x8004, LEVEL_CAP_LIGHTHOUSE
+    CompareVarValue LEVEL_CAP_STATE_VAR, 8
+    goto_if_eq _Return
+
+    SetVar VAR_SPECIAL_x8004, LEVEL_CAP_MORTY
+    CompareVarValue LEVEL_CAP_STATE_VAR, 7
+    goto_if_eq _Return
+
+    SetVar VAR_SPECIAL_x8004, LEVEL_CAP_BURNED_TOWER_RIVAL
+    CompareVarValue LEVEL_CAP_STATE_VAR, 6
+    goto_if_eq _Return
+
+    SetVar VAR_SPECIAL_x8004, LEVEL_CAP_WHITNEY
+    CompareVarValue LEVEL_CAP_STATE_VAR, 5
+    goto_if_eq _Return
+
+    SetVar VAR_SPECIAL_x8004, LEVEL_CAP_ROUTE_34_RIVAL
+    CompareVarValue LEVEL_CAP_STATE_VAR, 4
+    goto_if_eq _Return
+
+    SetVar VAR_SPECIAL_x8004, LEVEL_CAP_BUGSY
+    CompareVarValue LEVEL_CAP_STATE_VAR, 3
+    goto_if_eq _Return
+
+    SetVar VAR_SPECIAL_x8004, LEVEL_CAP_PROTON_1
+    CompareVarValue LEVEL_CAP_STATE_VAR, 2
+    goto_if_eq _Return
+
+    SetVar VAR_SPECIAL_x8004, LEVEL_CAP_FALKNER
+    CompareVarValue LEVEL_CAP_STATE_VAR, 1 
+    goto_if_eq _Return
+
+    SetVar VAR_SPECIAL_x8004, LEVEL_CAP_START
+    return
+
+_Return:
+    return
 
 .close

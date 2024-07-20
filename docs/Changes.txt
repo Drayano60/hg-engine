@@ -7,6 +7,7 @@ Introduction
 ✓ Flags 283, 284, 285 and 286 are set just below the running shoes, giving the player access to the Bag, Trainer Card, Save and Options buttons on the bottom screen.
 ✓ Flag 609 is also set, hiding the Route 11 Snorlax. Flag 795 is no longer set so the Route 12 Snorlax is revealed.
 ✓ Flag 595 is no longer set, meaning all NPCs including Misty are in Cerulean Gym to begin with.
+✓ Just after first loading into the game, the player is prompted to select whether to have level caps or not (after a quick introduction). The Wii is also mentioned.
 
 New Bark Town - Player's House
 ✓ The mother's dialogue is changed a bit. She now gives you the Bicycle, GB Sounds and Pokégear (Flag 156). The Pokégear is also auto-fitted with the Map Card (UpgradePokegear 1) and Radio Card (UpgradePokegear 2). Flag 280 is also set to allow the radio signal to work in Kanto too (which immediately resolves the power outage problems in Kanto).
@@ -62,6 +63,7 @@ Route 31
 ✓ Ethan/Lyra now battle you when they encounter you in the gatehouse (this battle does not have to be won). Afterwards, they give you TM54, False Swipe (and a quick nod to headbutting/exotic sound encounters) before leaving. The Marill is also an Azurill.
 ✓ NPC just outside Dark Cave has had his dialogue modified to remove the Flash mention.
 ✓ The sleepy man now gives you a Big Nugget instead of TM44.
+✓ The level cap increases after the Ethan/Lyra battle.
 
 Dark Cave - Violet Side
 ✓ The cave is now low lighting instead of pitch black, so Flash does nothing.
@@ -107,6 +109,7 @@ Violet City - Gym
 ✓ There's a level script activated after clearing Sprout Tower where the Gym Guide explains a couple things about the Trainers (higher IVs, held items, more use of Gen 5+ Pokemon).
 ✓ Falkner no longer disappears from the Gym.
 ✓ Falkner now awards you 5 League Points after you earn the Zephyr Badge.
+✓ The level cap increases after the Falkner battle.
 
 Route 36
 ✓ Split the route into West/East. Added grass to the east of Sudowoodo.
@@ -190,6 +193,7 @@ Slowpoke Well
 ✓ Changed Super Potion to a Lagging Tail and moved it.
 ✓ Removed some of the Ilex Forest trigger activations from the script.
 ✓ You're now healed after the Proton fight (this is applied in Kurt's house afterwards).
+✓ The level cap increases after Kurt gives you Cut.
 ✓ Deleted the man in the basement and added a King's Rock item ball. Then reversed it.
 ✓ Added a static Slowking encounter that always has Regenerator. Then reversed it.
 ✓ Moved the hidden Full Heal to a different rock.
@@ -203,6 +207,7 @@ Azalea Town - Gym
 ✓ Defeating Bugsy now activates the Azalea Silver fight.
 ✓ Bugsy no longer disappears from the Gym.
 ✓ Bugsy now awards you 5 League Points after you earn the Hive Badge and mentions that you can teach moves at the Pokémon Center.
+✓ The level cap increases after the Bugsy battle.
 
 Ilex Forest
 ✓ Shifted all of the triggers/overworlds involving the Farfetch'd thing to the bottom left, out of bounds. Annoying to do on replays.
@@ -230,6 +235,7 @@ Route 34
 ✓ The Ace Trainers now give you an Ability Patch instead.
 ✓ The first time you talk to the Day-Care Man, he'll give you an "Odd Egg" which can be any of the baby Pokémon except for Togepi. The Pokémon will always have its hidden ability.
 ✓ The Teleport Gem is disabled after entering the Day-Care with Ethan/Lyra until after leaving and talking with the Day-Care Man.
+✓ The level cap increases after the Ethan/Lyra battle.
 
 Goldenrod City
 ✓ The Game Corner now uses the building from the Japanese versions but still has Voltorb Flip on the machines. It's still header 536 but with the textures/map file pointing to the old stuff.
@@ -309,6 +315,7 @@ Goldenrod City - Gym
 ✓ Whitney no longer disappears from the Gym.
 ✓ Whitney now awards you 5 League Points after you earn the Plain Badge.
 ✓ The Teleport Gem is disabled after defeating Whitney until you receive the Plain Badge.
+✓ The level cap increases after the Whitney battle.
 
 Route 37
 ✓ Added a green apricorn tree.
@@ -386,6 +393,7 @@ Burned Tower
 ✓ Edited the Suicune script so it appears at Lv. 60, and it reappears after exiting the room if not caught.
 ✓ Added the Absolite to B1F.
 ✓ Blaine shows up here after defeating Team Rocket at the Safari Zone. He gives you TM35 Flamethrower.
+✓ The level cap increases after the Silver battle.
 
 Ecruteak City - Gym
 ✓ Modified Morty's dialogue to remove the obedience bit.
@@ -393,6 +401,7 @@ Ecruteak City - Gym
 ✓ Added two new Sage Trainers using Mickeys (504, 506).
 ✓ Morty no longer disappears from the Gym.
 ✓ Morty now awards you 5 League Points after you earn the Fog Badge.
+✓ The level cap increases after the Morty battle.
 
 Union Cave (B2F)
 ✓ Forced some of the trainers to get things (Lapras/items).
@@ -427,6 +436,7 @@ Lighthouse
 ✓ After healing Amphy, it now sets 0x40A5 to 3 so it skips over the Olivine level script. Jasmine also gives you a Metal Coat before leaving.
 ✓ Added a Gentleman in the lobby who gives you an Expert Belt.
 ✓ Added an Air Balloon on the outside bit and NPCs that reference it on the bottom floor.
+✓ The level cap increases after Jasmine unlocks the door on the roof.
 
 Route 40
 ✓ Added smashable rocks.
@@ -460,6 +470,7 @@ Cianwood City - Gym
 ✓ Chuck no longer disappears from the Gym.
 ✓ Chuck now awards you 5 League Points after you earn the Storm Badge and mentions that you can teach moves at the Pokémon Center.
 ✓ The Teleport Gem is disabled after defeating Chuck until you've received the call from Baoba outside.
+✓ The level cap increases after the Chuck battle.
 
 Cliff Edge Gate
 ✓ Added an item ball with the Rocky Helmet.
@@ -511,6 +522,7 @@ Safari Zone
 ✓ When entering the Safari Zone, the portable PC/fast travel is disabled. It's re-enabled after leaving (checked manual retire, no balls yet and leaving on foot).
 ✓ The Wetland and Marshland have been renamed to the Tundra and Ruins areas respectively to increase the level of variety. This will need map changes but they aren't in yet and are quite tricky... I've changed both maps to just be the Plains one for now.
 ✓ Speaking to Baoba with Meltan leading the party will trigger some unique dialogue. Speaking to him again after earning the Rising Badge will get the player the Mystery Box, which can be used to evolve Meltan.
+✓ The level cap increases after Baoba's dialogue concludes.
 
 Safari Zone Gate (Normal)
 ✓ Changed out the no talking lady/Kangaskhan for an old couple who sells 'crafted' items, including the Auspicious Armor, Malicious Armor, Galarica Cuff, Galarica Wreath and Shell Bell.
@@ -526,6 +538,7 @@ Olivine City - Gym
 ✓✓ The way the above is scripted currently prevents the Steelix trade from occurring.
 ✓ Jasmine no longer disappears from the Gym after returning from the Lighthouse.
 ✓ Jasmine now awards you 5 League Points after you earn the Mineral Badge.
+✓ The level cap increases after the Jasmine battle.
 
 Route 43
 ✓ Rearranged some Trainers to force some.
@@ -551,6 +564,7 @@ Team Rocket HQ
 ✓ Added a scientist on B1F at a computer who heals you. He also disappears when the Rockets leave.
 ✓ Added a new Trainer in the B1F corridor that leads to B2F (Mickey - 306).
 ✓ Silver now challenges you to a battle when you meet him outside the B2F office. This uses the battle files from the Goldenrod Tunnel encounter (which has been removed).
+✓ The level cap increases after the Silver battle.
 ✓ The Petrel fight is removed from the office, he now just now runs off after his dialogue.
 ✓ The Ariana fight has been modified into a fight with two Grunts carrying Pokémon "forced to evolve" per the Radio experiment, but proceeds similarly to before otherwise. Dialogue/overworlds are edited to match this. You're also now healed by Lance after the battle ends.
 ✓ The Electrode are now Level 43.
@@ -564,6 +578,7 @@ Mahogany Town - Gym
 ✓ Pryce no longer disappears from the Gym.
 ✓ Pryce now awards you 5 League Points after you earn the Glacier Badge.
 ✓ The Teleport Gem is disabled after defeating Pryce until you've received the call from Prof. Elm outside.
+✓ The level cap increases after the Pryce battle.
 
 Whirl Islands
 ✓ Ultra Ball -> Dragon Scale. Carbos -> Damp Rock. Escape Rope -> Ultra Ball.
@@ -596,6 +611,7 @@ Radio Tower
 ✓ The Director now instead gives you the GS Ball (as it felt a bit odd just having it randomly handed to you in the Pokémon Center), with dialogue edits to match. The Clear Bell is obtained from the Kimono Girls later as normal.
 ✓ DJ Mary now gives you three Throat Sprays instead of the Bright Powder.
 ✓ The Teleport Gem is disabled after defeating Giovanni until you've spoken to Looker.
+✓ The level cap increases after the Giovanni battle.
 
 Goldenrod Tunnel (Rocket)
 ✓ Full Heal -> Magmarizer.
@@ -637,6 +653,7 @@ Dragon's Den
 ✓ Clair now awards you 5 League Points after you earn the Rising Badge and mentions that you can teach moves at the Pokémon Center.
 ✓ The Teleport Gem is disabled after finishing the quiz until you leave and take Elm's call outside.
 ✓ After earning the Earth Badge, the Elder will challenge you to a battle when spoken to. Defeating him will earn you the Draco Plate.
+✓ The level cap increases after Clair gives you the Rising Badge.
 
 New Bark Town - Post Gym 8
 ✓ Instead of the Master Ball, Elm now gives you (and Ethan/Lyra) the Key Stone and an Ampharosite, and some explanations of doing so.
@@ -689,6 +706,7 @@ Route 26
 ✓ Changed Ace Trainer Gaven's post-battle dialogue to reflect Victory Road actually having Trainers now.
 ✓ After doing the prerequisite event at Sinjoh Ruins, a trigger is activated slightly in front of the Victory Road gate which leads to an Azelf encounter. This trigger will keep working until Azelf is caught. It appears at Level 70.
 ✓ Azelf drops the Fist Plate when caught.
+✓ The level cap increases after the Ethan/Lyra battle.
 
 Victory Road
 ✓ TM79 -> TM64 Explosion. TM26 -> Metal Alloy (and moved slightly). Max Revive -> TM50 Overheat. Full Restore -> TM71 Stone Edge. HP Up -> PP Max.
@@ -715,8 +733,10 @@ Indigo Plateau
 ✓ Ho-oh's secondary flag (278) no longer restores it if not set. This is to stop it appearing post E4 without its event actually going off.
 ✓ Vito is found inside the Pokémon League building. After speaking to him, he'll return to Blackthorn City and enable the Winstrate challenge.
 ✓ After defeating the Winstrates, speaking to the sign outside while facing upwards will cause Victini to pop up and battle with the player (at Level 60). This can be repeated each time the area is entered until Victini is caught.
+✓ The level cap increases when first entering Will's room. This means if the player faints, they can level up to the Champion cap instead. Nuzlockes would likely count it as a wipe!
 
 S.S. Aqua
+✓ The level cap increases when Prof. Elm gives you the ticket for the S.S. Aqua.
 ✓ Prior to boarding (in the harbour building), Looker replaces Oak and says some dialogue referencing that Team Rocket are still out and about.
 ✓ On the initial voyage, there's now a Sailor in front of the Captain's room that needs to be fought before you can enter.
 ✓ The Teleport Gem is disabled when entering the S.S. Aqua. It gets re-enabled after exiting to either the Vermilion or Olivine ports.
@@ -839,6 +859,7 @@ Cinnabar Island
 ✓ Added an item ball containing the Magma Stone on top of the volcano. When picked up, Heatran will appear on the volcano afterwards.
 ✓ Heatran can be battled here. It is at Level 70. It will respawn upon entering the area until caught.
 ✓ Heatran drops the Iron Plate when caught.
+✓ The level cap increases when Blue notes your badges and leaves for Viridian's Gym.
 
 Seafoam Islands
 ✓ 1F: Removed the hidden Escape Rope.
@@ -853,6 +874,7 @@ Viridian City - Gym
 ✓ Blue's dialogue is edited somewhat. He doesn't give any reward after being defeated, with it instead being delayed until slightly later.
 ✓ The Teleporter Gem is disabled following Blue's defeat until you leave the Gym.
 ✓ Cerulean Cave (Flag 783) is no longer accessible immediately after this - instead it's after talking to Oak.
+✓ The level cap increases after the Blue battle.
 
 Pallet Town - Oak's Lab
 ✓ A level script is now called after Oak calls you following the Earth Badge.
@@ -882,6 +904,7 @@ Mt. Silver
 ✓ Added a trade in the Pokémon Center for a Heracross in exchange for any Dragon-type.
 ✓ Outside the cave entrance, Silver is waiting for the player and will challenge them to one last battle, disappearing afterwards. This also changes the story variable for the level script at the Mt. Silver summit.
 ✓ Defeating Silver also unlocks the Diancie event in Cerulean Cave.
+✓ The level cap increases after the Silver battle.
 
 Mt. Silver Cave
 ✓ Lower Mountainside: Escape Rope -> Max Elixir.
@@ -890,6 +913,8 @@ Mt. Silver Cave
 ✓ Following the fourth battle, you'll be told that there's another challenger - at which point you step to the end of the summit and fight Red as normal, with the credits rolling afterward.
 ✓ The Sky Plate is found just in front of where Red stands.
 ✓ Moltres is removed and the Lucarionite found in its place.
+✓ The level cap increases when first entering the Champion Tournament. This means if the player faints, they can level up to the Red cap instead. Nuzlockes would likely count it as a wipe!
+✓ The level cap becomes 100 when the player first defeats Red.
 
 Sinjoh Ruins
 ✓ When initially warped here, Cynthia has some dialogue and then goes into the Mystri Stage temple. You can speak to her again inside the temple, and after a bit more dialogue, Uxie, Mesprit and Azelf are released. Cynthia leaves the temple after this.
@@ -919,7 +944,7 @@ Miscellaneous
 ✓✓ One script handles the Supply Counter that lets the player buy various training items and exchange League Points (earned from Gym Leaders) for Mints, Ability Capsules, Ability Patches and Bottle Caps.
 
 ✓✓ One script handles the training NPC, who allows you to train up your levels (with varying Happiny line teams depending on badge count), stats (with full teams of 3 EV awarding Pokémon). It also offers a Hyper Training functionality (a Bottle Cap in exchange for setting a stat to 31 IV), a Super Training functionality (giving an instant 252 on up to two stats, and also acting as an EV eraser), and the option to apply a status condition to a Pokémon (also checking for blocking types and abilities). These last three are thanks to hg-engine allowing a script hijack. When doing the level training, the player can optionally turn on level caps so their Pokémon don't level up past the next Gym Leader/Elite Four/Red. The numbers for these are in Script File 4, Function #53.
-
+✓ The level caps can also be disabled here.
 ✓ There's also another two scripts in each Pokémon Center (as well as just outside in New Bark) using 10445 and 10446 which are an NPC who can teleport you to places you've visited and his Abra respectively. He has a dialogue to start with, then just presents you a list of places (checking visited flags to do so).
 
 ✓ The Pokémon Music channel is edited to play what was the Hoenn Sound at any time/day of the week. The text listed when this plays has also been modified.

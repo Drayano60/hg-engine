@@ -74,6 +74,10 @@ The specific mechanics are as follows:
 - Any Pokémon that directly took part in the battle and has not fainted gains experience equal to the full amount of experience points.
 - Any Pokémon that is holding an Exp. Share, has not fainted, and has not directly taken part in the battle gains experience equal to half the amount of experience points.
 
+Additionally, the game also gives the option to impose level caps. This means that your Pokémon will be unable to gain experience past particular levels until you progress further in the game.
+You will be prompted to choose whether to have them or not soon after selecting your player character.
+You can also change your preference at any Pokémon Center once you've reached Violet City.
+
 ===========================================================================
 EV Training
 ===========================================================================

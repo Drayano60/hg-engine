@@ -273,6 +273,8 @@ NPCs:
 2648 - Garchompite given by Cynthia.
 2649 - Gardevoirite given by Mrs. Psychic in Saffron City.
 
+2650 - Used to invalidate level cap if set.
+
 373 - This is the flag in the base game to signal Suicune has been caught. This is set during the Bell Tower event if Suicune is caught.
 
 Triggers:
@@ -312,6 +314,7 @@ Triggers:
 16725 (0-1) - Used for Spiky Pichu in Ilex Forest. Same again as above
 16726 (0-2) - Used for Violet Gym guide. Same again as above...
 
+16734 (0-24) - Used to control the value of the level cap.
 16735 (0-4) - Used for the research guy in Ecruteak City.
 16736 (0-4) - Used to control met locations for GTS machines.
 

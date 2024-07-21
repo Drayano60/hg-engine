@@ -402,20 +402,20 @@ A weak electric charge is launched\nat the foe. It causes paralysis if it\nhits.
 The user attacks the foe with a pollen\npuff that explodes. When targeting\nan ally, it heals the ally’s HP.
 A frenetic dance to uplift the fighting\nspirit. It sharply raises the user’s\nAttack stat.
 The user lays a trap of levitating\nstones around the foe. The trap hurts\nfoes that switch into battle.
-The user hypnotizes itself into\ncopying any stat change made\nby the foe.
+The foe is punched with an electrified\nfist. This has a 10% chance to paralyze\nthe foe.
 The user throws scorching sand at the\ntarget to attack. It has a 30% chance\nto burn the target.
 The user releases a horrible aura\nimbued with dark thoughts. It has\na 20% chance to make the foe flinch.
 Large boulders are hurled at the foe\nto inflict damage. It has a 30% chance\nto make the foe flinch.
 The user slashes at the foe by crossing\nits scythes or claws like scissors.\nCritical hits land more easily.
-While it is asleep, the user\nrandomly uses one of the moves\nit knows.
+The foe is punched with a fiery fist.\nThis has a 10% chance to burn the foe.
 The user is roused, and its Attack and\nSp. Atk stats increase.
 The foe is stabbed with a tentacle or\narm steeped with poison. It has a 30%\nchance to poison the foe.
 The user tears at the foe with blades\nformed by psychic power. It has a high\ncritical-hit ratio.
 The user snares the foe with grass\nand trips it. The heavier the foe, the\ngreater the damage.
-The user enrages the foe into\nconfusion. However, it also sharply\nraises the foe’s Attack stat.
+The foe is punched with a frozen fist.\nThis has a 10% chance to freeze the foe.
 The user attacks with a blade of air\nthat slices even the sky. This has a\n30% chance to flinch the target.
 After making its attack, the user\nrushes back to switch places with a\nparty Pokémon in waiting.
-The user shoots scales two to five\ntimes in a row. This move boosts the\nuser’s Speed but lowers its Defense.
+The user vigorously performs a mystic,\npowerful dance that boosts its\nAttack and Speed stats.
 The user gathers all its light energy\nand releases it at once. It has a 10%\nchance to lower the foe’s Sp. Def stat.
 The user creates a bizarre space in\nwhich slower Pokémon get to move\nfirst for five turns.
 The foe is cut with a scythe or a claw.\nIt can also be used to cut down thin\ntrees.

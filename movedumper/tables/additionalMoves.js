@@ -532,12 +532,18 @@ export default {
         "zigzagoon",
         "linoone",
     ],
-    scaleshot: [
-        "kecleon", // HOME
-        "huntail", // HOME
-        "gorebyss", // HOME
+    dragondance: [
+        "ekans",
+        "arbok",
         "seviper",
+        "serperior",
     ],
+    // scaleshot: [
+    //     "kecleon", // HOME
+    //     "huntail", // HOME
+    //     "gorebyss", // HOME
+    //     "seviper",
+    // ],
     flashcannon: [
         "voltorb",
         "electrode",

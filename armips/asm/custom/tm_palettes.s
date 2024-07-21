@@ -152,22 +152,40 @@ PALETTE_BUG equ 610
 .halfword PALETTE_ROCK
 .skip 4
 
+// Change TM77 to Electric palette
+.skip (8 * 0)
+.skip 2
+.halfword PALETTE_ELECTRIC
+.skip 4
+
 // Change TM78 to Ground palette
-.skip (8 * 1)
+.skip (8 * 0)
 .skip 2
 .halfword PALETTE_GROUND
 .skip 4
 
+// Change TM82 to Fire palette
+.skip (8 * 3)
+.skip 2
+.halfword PALETTE_FIRE
+.skip 4
+
 // Change TM83 to Normal palette
-.skip (8 * 4)
+.skip (8 * 0)
 .skip 2
 .skip 2 // No change needed here
 .skip 4
 
 /* TM85 is already Psychic */
 
+// Change TM87 to Ice palette
+.skip (8 * 3)
+.skip 2
+.halfword PALETTE_ICE
+.skip 4
+
 // Change TM88 to Flying palette
-.skip (8 * 4)
+.skip (8 * 0)
 .skip 2
 .halfword PALETTE_FLYING
 .skip 4

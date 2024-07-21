@@ -201,19 +201,19 @@ TM73, Thunder Wave
 TM74, Pollen Puff *
 TM75, Swords Dance
 TM76, Stealth Rock
-TM77, Psych Up
+TM77, Thunder Punch *
 TM78, Scorching Sands *
 TM79, Dark Pulse
 TM80, Rock Slide
 TM81, X-Scissor
-TM82, Sleep Talk
+TM82, Fire Punch *
 TM83, Work Up
 TM84, Poison Jab
 TM85, Psycho Cut *
 TM86, Grass Knot
-TM87, Swagger
+TM87, Ice Punch *
 TM88, Air Slash *
 TM89, U-turn
-TM90, Scale Shot *
+TM90, Dragon Dance *
 TM91, Flash Cannon
 TM92, Trick Room

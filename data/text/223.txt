@@ -622,7 +622,7 @@ a {COLOR 255}Misty Seed{COLOR 0}
 a {COLOR 255}Psychic Seed{COLOR 0}
 an {COLOR 255}Ice Stone{COLOR 0}
 a {COLOR 255}Protective Pads{COLOR 0}
-a {COLOR 255}Terrain Ext.{COLOR 0}
+a {COLOR 255}Terrain Extender{COLOR 0}
 an {COLOR 255}Ability Patch{COLOR 0}
 a {COLOR 255}Black Augurite{COLOR 0}
 a {COLOR 255}Berry Sweet{COLOR 0}

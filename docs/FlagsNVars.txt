@@ -274,6 +274,7 @@ NPCs:
 2649 - Gardevoirite given by Mrs. Psychic in Saffron City.
 
 2650 - Used to invalidate level cap if set.
+2651 - Supply Counter has mentioned the Champion change.
 
 373 - This is the flag in the base game to signal Suicune has been caught. This is set during the Bell Tower event if Suicune is caught.
 

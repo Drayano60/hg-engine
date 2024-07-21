@@ -18,7 +18,7 @@ Pokémon Improvement Items
 ===========================================================================
 Items to improve your Pokémon can be purchased at the Supply Counter (the middle one) at the back of any Pokémon Center.
 Some of these are freely available for purchase, while others are limited and require League Points (LP).
-You can earn 5 LP when defeating a Gym Leader, and an additional 10 LP upon reaching Indigo Plateau.
+You can earn 5 LP when defeating one of Johto's Gym Leaders, and an additional 10 LP upon reaching Indigo Plateau.
 
 You can purchase the following items with money from any Supply Counter:
 
@@ -32,6 +32,9 @@ Bottle Cap: Exchange 2 LP at the Supply Counter.
 Ability Capsule: Exchange 3 LP at the Supply Counter.
 Any Mint Item: Exchange 4 LP at the Supply Counter.
 Ability Patch: Exchange 5 LP at the Supply Counter.
+
+After becoming the Champion, this will swap to a money-based store, and any remaining LP will be refunded via Nuggets.
+The items listed above can then be purchased for $10,000, $15,000, $20,000 and $25,000 respectively.
 
 Ability Capsules, Ability Patches and mints can be used on Pokémon from the menu.
 Bottle Caps can be exchanged to max out an IV in a Pokémon's stat at the Battle Counter (the right one).
@@ -359,7 +362,7 @@ TM12 Taunt: Speak to the lady in the gatehouse between Ilex Forest and Route 34.
 Mystic Water: Found on the floor on a puddle near the daycare.
 Eviolite: Given to you by Ethan/Lyra after the battle near the daycare.
 TM43 Flame Charge: Found on the floor in the grass near Goldenrod City.
-Ability Patch: Given to you by the three Ace Trainers at the bottom left after defeating them. Requires Surf.
+Ability Capsule: Given to you by the three Ace Trainers at the bottom left after defeating them. Requires Surf.
 
 ===========================================================================
 Goldenrod City
@@ -778,6 +781,7 @@ Route 27
 ===========================================================================
 Choice Specs: Speak to the man with the glasses in the house just outside of Tohjo Falls.
 Destiny Knot: Found on the floor on the right side of the route on a raised area.
+Terrain Extender: Found on the floor on a small piece of land past the southern whirlpool.
 
 ===========================================================================
 Route 26

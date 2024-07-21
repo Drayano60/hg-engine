@@ -622,7 +622,7 @@ Misty Seed
 Psychic Seed
 Ice Stone
 Protective Pads
-Terrain Ext.
+Terrain Extender
 Ability Patch
 Black Augurite
 Berry Sweet

@@ -13,7 +13,7 @@ Air Balloon, Big Nugget, Eviolite, Prism Scale, Rocky Helmet, Cover Fossil, Plum
 Ability Capsule, Assault Vest, Jaw Fossil, Key Stone, Mega Stones*, Pixie Plate, Roseli Berry, Sachet, Sail Fossil, Weakness Policy, Whipped Dream.
 
 [Generation VII]
-Bottle Cap, Ice Stone.
+Bottle Cap, Ice Stone, Terrain Extender.
 
 [Generation VIII]
 Ability Patch, Black Augurite, Blank Plate, Galarica Cuff, Galarica Wreath, Heavy-Duty Boots, Linking Cord, Mints**, Peat Block, Pokémon Box Link, Sweet Apple, Tart Apple, Throat Spray.

@@ -1,9 +1,7 @@
 Essentials:
-- [ ] Make the League Point exchange free-for-use after becoming Champion.
 - [ ] Think about using one of the niche bag pockets (mail or battle items) for Mega Stones instead.
 - [ ] Do a pass over all Trainers, introduce Gen 7-9 mons to teams etc. Need to also sort out teams for E4 rematches, possibly Gym Leader rematches?
 - [ ] Log items found in Kanto, remove duplicates of TMs and other items that shouldn't be there twice. Also add items that need repeatable methods like Red Card, Eject Button, Metal Alloy etc.
-- [ ] Figure out what to do about League Points in the Kanto arc.
 - [ ] Go over some of the finer parts of legendaries such as when the Red/Blue Orb are obtainable and what the Pokédex requirements are for Arceus.
 - [ ] Add the details about legendaries to the Encounter Changes document.
 - [ ] Make sure that the script-based Move Tutors teach moves to the Pokémon added since they were written.

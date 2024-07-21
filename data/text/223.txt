@@ -538,23 +538,23 @@ an {COLOR 255}Enigma Stone{COLOR 0}
 a {COLOR 255}Venusaurite{COLOR 0}
 a {COLOR 255}Charizardite X{COLOR 0}
 a {COLOR 255}Charizardite Y{COLOR 0}
-a {COLOR 255}Blastoisite{COLOR 0}
+a {COLOR 255}Blastoisinite{COLOR 0}
 a {COLOR 255}Beedrillite{COLOR 0}
 a {COLOR 255}Pidgeotite{COLOR 0}
 an {COLOR 255}Alakazite{COLOR 0}
 a {COLOR 255}Slowbronite{COLOR 0}
 a {COLOR 255}Gengarite{COLOR 0}
-a {COLOR 255}Kangaskhite{COLOR 0}
+a {COLOR 255}Kangaskhanite{COLOR 0}
 a {COLOR 255}Pinsirite{COLOR 0}
 a {COLOR 255}Gyaradosite{COLOR 0}
-an {COLOR 255}Aerodactite{COLOR 0}
+an {COLOR 255}Aerodactylite{COLOR 0}
 a {COLOR 255}Mewtwonite X{COLOR 0}
 a {COLOR 255}Mewtwonite Y{COLOR 0}
 an {COLOR 255}Ampharosite{COLOR 0}
 a {COLOR 255}Steelixite{COLOR 0}
 a {COLOR 255}Scizorite{COLOR 0}
 a {COLOR 255}Heracronite{COLOR 0}
-a {COLOR 255}Houndoomite{COLOR 0}
+a {COLOR 255}Houndoominite{COLOR 0}
 a {COLOR 255}Tyranitarite{COLOR 0}
 a {COLOR 255}Sceptilite{COLOR 0}
 a {COLOR 255}Blazikenite{COLOR 0}

@@ -535,53 +535,53 @@ A sturdy Capsule that can only be\nopened with a special key.
 A shiny red orb that is said to have\na legend and has a deep connection with\nthe Hoenn region.
 A shiny blue orb that is said to have\na legend and has a deep connection with\nthe Hoenn region.
 A crystal ball that was excavated from\nthe ground. A very beautiful stone that\nis covered with bits of rock and earth.
-One of a variety of Mega Stones.\nIt will Mega Evolve Venusaur when held.
-One of a variety of Mega Stones.\nIt will Mega Evolve Charizard when held.
-One of a variety of Mega Stones.\nIt will Mega Evolve Charizard when held.
-One of a variety of Mega Stones.\nIt will Mega Evolve Blastoise when held.
-One of a variety of Mega Stones.\nIt will Mega Evolve Beedrill when held.
-One of a variety of Mega Stones.\nIt will Mega Evolve Pidgeot when held.
-One of a variety of Mega Stones.\nIt will Mega Evolve Alakazam when held.
-One of a variety of Mega Stones.\nIt will Mega Evolve Slowbro when held.
-One of a variety of Mega Stones.\nIt will Mega Evolve Gengar when held.
-One of a variety of Mega Stones.\nIt will Mega Evolve Kangaskhan when held.
-One of a variety of Mega Stones.\nIt will Mega Evolve Pinsir when held.
-One of a variety of Mega Stones.\nIt will Mega Evolve Gyarados when held.
-One of a variety of Mega Stones.\nIt will Mega Evolve Aerodactyl when held.
-One of a variety of Mega Stones.\nIt will Mega Evolve Mewtwo when held.
-One of a variety of Mega Stones.\nIt will Mega Evolve Mewtwo when held.
-One of a variety of Mega Stones.\nIt will Mega Evolve Ampharos when held.
-One of a variety of Mega Stones.\nIt will Mega Evolve Steelix when held.
-One of a variety of Mega Stones.\nIt will Mega Evolve Scizor when held.
-One of a variety of Mega Stones.\nIt will Mega Evolve Heracross when held.
-One of a variety of Mega Stones.\nIt will Mega Evolve Houndoom when held.
-One of a variety of Mega Stones.\nIt will Mega Evolve Tyranitar when held.
-One of a variety of Mega Stones.\nIt will Mega Evolve Sceptile when held.
-One of a variety of Mega Stones.\nIt will Mega Evolve Blaziken when held.
-One of a variety of Mega Stones.\nIt will Mega Evolve Swampert when held.
-One of a variety of Mega Stones.\nIt will Mega Evolve Gardevoir when held.
-One of a variety of Mega Stones.\nIt will Mega Evolve Sableye when held.
-One of a variety of Mega Stones.\nIt will Mega Evolve Mawile when held.
-One of a variety of Mega Stones.\nIt will Mega Evolve Aggron when held.
-One of a variety of Mega Stones.\nIt will Mega Evolve Medicham when held.
-One of a variety of Mega Stones.\nIt will Mega Evolve Manectric when held.
-One of a variety of Mega Stones.\nIt will Mega Evolve Sharpedo when held.
-One of a variety of Mega Stones.\nIt will Mega Evolve Camerupt when held.
-One of a variety of Mega Stones.\nIt will Mega Evolve Altaria when held.
-One of a variety of Mega Stones.\nIt will Mega Evolve Banette when held.
-One of a variety of Mega Stones.\nIt will Mega Evolve Absol when held.
-One of a variety of Mega Stones.\nIt will Mega Evolve Glalie when held.
-One of a variety of Mega Stones.\nIt will Mega Evolve Salamence when held.
-One of a variety of Mega Stones.\nIt will Mega Evolve Metagross when held.
-One of a variety of Mega Stones.\nIt will Mega Evolve Latias when held.
-One of a variety of Mega Stones.\nIt will Mega Evolve Latios when held.
-One of a variety of Mega Stones.\nIt will Mega Evolve Lopunny when held.
-One of a variety of Mega Stones.\nIt will Mega Evolve Garchomp when held.
-One of a variety of Mega Stones.\nIt will Mega Evolve Lucario when held.
-One of a variety of Mega Stones.\nIt will Mega Evolve Abomasnow when held.
-One of a variety of Mega Stones.\nIt will Mega Evolve Gallade when held.
-One of a variety of Mega Stones.\nIt will Mega Evolve Audino when held.
-One of a variety of Mega Stones.\nIt will Mega Evolve Diancie when held.
+One of the mysterious Mega Stones.\nIf a Venusaur holds it, it will be able\nto Mega Evolve during battle.
+One of the mysterious Mega Stones.\nIf a Charizard holds it, it will be able\nto Mega Evolve during battle.
+One of the mysterious Mega Stones.\nIf a Charizard holds it, it will be able\nto Mega Evolve during battle.
+One of the mysterious Mega Stones.\nIf a Blastoise holds it, it will be able\nto Mega Evolve during battle.
+One of the mysterious Mega Stones.\nIf a Beedrill holds it, it will be able\nto Mega Evolve during battle.
+One of the mysterious Mega Stones.\nIf a Pidgeot holds it, it will be able\nto Mega Evolve during battle.
+One of the mysterious Mega Stones.\nIf an Alakazam holds it, it will be able\nto Mega Evolve during battle.
+One of the mysterious Mega Stones.\nIf a Slowbro holds it, it will be able\nto Mega Evolve during battle.
+One of the mysterious Mega Stones.\nIf a Gengar holds it, it will be able\nto Mega Evolve during battle.
+One of the mysterious Mega Stones.\nIf a Kangaskhan holds it, it will be able\nto Mega Evolve during battle.
+One of the mysterious Mega Stones.\nIf a Pinsir holds it, it will be able\nto Mega Evolve during battle.
+One of the mysterious Mega Stones.\nIf a Gyarados holds it, it will be able\nto Mega Evolve during battle.
+One of the mysterious Mega Stones.\nIf an Aerodactyl holds it, it will be able\nto Mega Evolve during battle.
+One of the mysterious Mega Stones.\nIf a Mewtwo holds it, it will be able\nto Mega Evolve during battle.
+One of the mysterious Mega Stones.\nIf a Mewtwo holds it, it will be able\nto Mega Evolve during battle.
+One of the mysterious Mega Stones.\nIf an Ampharos holds it, it will be able\nto Mega Evolve during battle.
+One of the mysterious Mega Stones.\nIf a Steelix holds it, it will be able\nto Mega Evolve during battle.
+One of the mysterious Mega Stones.\nIf a Scizor holds it, it will be able\nto Mega Evolve during battle.
+One of the mysterious Mega Stones.\nIf a Heracross holds it, it will be able\nto Mega Evolve during battle.
+One of the mysterious Mega Stones.\nIf a Houndoom holds it, it will be able\nto Mega Evolve during battle.
+One of the mysterious Mega Stones.\nIf a Tyranitar holds it, it will be able\nto Mega Evolve during battle.
+One of the mysterious Mega Stones.\nIf a Sceptile holds it, it will be able\nto Mega Evolve during battle.
+One of the mysterious Mega Stones.\nIf a Blaziken holds it, it will be able\nto Mega Evolve during battle.
+One of the mysterious Mega Stones.\nIf a Swampert holds it, it will be able\nto Mega Evolve during battle.
+One of the mysterious Mega Stones.\nIf a Gardevoir holds it, it will be able\nto Mega Evolve during battle.
+One of the mysterious Mega Stones.\nIf a Sableye holds it, it will be able\nto Mega Evolve during battle.
+One of the mysterious Mega Stones.\nIf a Mawile holds it, it will be able\nto Mega Evolve during battle.
+One of the mysterious Mega Stones.\nIf an Aggron holds it, it will be able\nto Mega Evolve during battle.
+One of the mysterious Mega Stones.\nIf a Medicham holds it, it will be able\nto Mega Evolve during battle.
+One of the mysterious Mega Stones.\nIf a Manectric holds it, it will be able\nto Mega Evolve during battle.
+One of the mysterious Mega Stones.\nIf a Sharpedo holds it, it will be able\nto Mega Evolve during battle.
+One of the mysterious Mega Stones.\nIf a Camerupt holds it, it will be able\nto Mega Evolve during battle.
+One of the mysterious Mega Stones.\nIf an Altaria holds it, it will be able\nto Mega Evolve during battle.
+One of the mysterious Mega Stones.\nIf a Banette holds it, it will be able\nto Mega Evolve during battle.
+One of the mysterious Mega Stones.\nIf an Absol holds it, it will be able\nto Mega Evolve during battle.
+One of the mysterious Mega Stones.\nIf a Glalie holds it, it will be able\nto Mega Evolve during battle.
+One of the mysterious Mega Stones.\nIf a Salamence holds it, it will be able\nto Mega Evolve during battle.
+One of the mysterious Mega Stones.\nIf a Metagross holds it, it will be able\nto Mega Evolve during battle.
+One of the mysterious Mega Stones.\nIf a Latias holds it, it will be able\nto Mega Evolve during battle.
+One of the mysterious Mega Stones.\nIf a Latios holds it, it will be able\nto Mega Evolve during battle.
+One of the mysterious Mega Stones.\nIf a Lopunny holds it, it will be able\nto Mega Evolve during battle.
+One of the mysterious Mega Stones.\nIf a Garchomp holds it, it will be able\nto Mega Evolve during battle.
+One of the mysterious Mega Stones.\nIf a Lucario holds it, it will be able\nto Mega Evolve during battle.
+One of the mysterious Mega Stones.\nIf an Abomasnow holds it, it will be able\nto Mega Evolve during battle.
+One of the mysterious Mega Stones.\nIf a Gallade holds it, it will be able\nto Mega Evolve during battle.
+One of the mysterious Mega Stones.\nIf an Audino holds it, it will be able\nto Mega Evolve during battle.
+One of the mysterious Mega Stones.\nIf a Diancie holds it, it will be able\nto Mega Evolve during battle.
 An item to be held by a Pokémon.\nIt is a stone tablet that boosts the\npower of Fairy-type moves by 20%.
 An item to be held by a Pokémon.\nThis single-use bulb boosts Sp. Atk\nif hit with a Water-type attack.
 An item to be held by a Pokémon.\nThe holder will float in the air until hit.\nIf the holder is hit, the item will burst. 

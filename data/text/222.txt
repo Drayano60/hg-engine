@@ -538,23 +538,23 @@ Enigma Stone
 Venusaurite
 Charizardite X
 Charizardite Y
-Blastoisite
+Blastoisinite
 Beedrillite
 Pidgeotite
 Alakazite
 Slowbronite
 Gengarite
-Kangaskhite
+Kangaskhanite
 Pinsirite
 Gyaradosite
-Aerodactite
+Aerodactylite
 Mewtwonite X
 Mewtwonite Y
 Ampharosite
 Steelixite
 Scizorite
 Heracronite
-Houndoomite
+Houndoominite
 Tyranitarite
 Sceptilite
 Blazikenite

@@ -905,12 +905,12 @@
 #ifdef ITEM_POCKET_EXPANSION
 
 // pixie plate + megas
-#define NUM_BAG_ITEMS        165+32+NUM_MEGA_STONES
+#define NUM_BAG_ITEMS        165+32
 #define NUM_BAG_MEDICINE      40
 #define NUM_BAG_BALLS         24+2
 #define NUM_BAG_TMS_HMS      101
 #define NUM_BAG_BERRIES       64
-#define NUM_BAG_MAIL          12
+#define NUM_BAG_MAIL          12+NUM_MEGA_STONES
 #define NUM_BAG_BATTLE_ITEMS  30
 #define NUM_BAG_KEY_ITEMS     50+42
 

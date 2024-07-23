@@ -48,6 +48,7 @@ u32 LONG_CALL MoveHitUTurnHeldItemEffectCheck(void *bw, struct BattleStruct *sp,
     def_item_param = HeldItemAtkGet(sp,sp->defence_client, ATK_CHECK_NORMAL);
 
     atk_side = IsClientEnemy(bw, sp->attack_client);
+    u8 move_type = GetAdjustedMoveType(sp, sp->attack_client, sp->current_move_index);
 
     if ((atk_hold_eff == HOLD_EFFECT_HP_RESTORE_ON_DMG) // shell bell
      && (sp->server_status_flag & SERVER_STATUS_FLAG_MOVE_HIT)
@@ -98,7 +99,7 @@ u32 LONG_CALL MoveHitUTurnHeldItemEffectCheck(void *bw, struct BattleStruct *sp,
         ret = TRUE;
     }
 
-    /**** AURORA CRYSTAL: Added checks for Rocky Helmet, Weakness Policy, Air Balloon that were missing. Also added Throat Spray. */
+    /**** AURORA CRYSTAL: Added checks for Rocky Helmet, Weakness Policy, Air Balloon that were missing. Also added Throat Spray and Gems. */
     /* First three have second check in CheckDefenderItemEffectOnHit. Throat Spray is below instead as it's on-attack. */
 
     if
@@ -170,6 +171,19 @@ u32 LONG_CALL MoveHitUTurnHeldItemEffectCheck(void *bw, struct BattleStruct *sp,
         ret = TRUE;
     }
 
+    if
+    (
+        // Gems, which are still held until the move successfully connects.
+        (atk_hold_eff == HOLD_EFFECT_BOOST_TYPE_ONCE)
+        && (atk_item_param == move_type)
+        && (sp->server_status_flag & SERVER_STATUS_FLAG_MOVE_HIT)
+        && (GetMoveSplit(sp, sp->current_move_index) != SPLIT_STATUS)
+    )
+    {
+        seq_no[0] = SUB_SEQ_REMOVE_ATTACKER_ITEM;
+        ret = TRUE;
+    }
+
     return ret;
 }
 
@@ -182,6 +196,7 @@ enum
 
     /**** AURORA CRYSTAL: Added Throat Spray. ****/
     SHWAC_HELD_ITEM_THROAT_SPRAY,
+    SHWAC_HELD_ITEM_GEM,
 
 	SWHAC_END
 };
@@ -207,6 +222,7 @@ u32 LONG_CALL ServerWazaHitAfterCheckAct(void *bw, struct BattleStruct *sp)
 
     hold_effect = HeldItemHoldEffectGet(sp, sp->attack_client);
     hold_effect_param = HeldItemAtkGet(sp, sp->attack_client, ATK_CHECK_NORMAL);
+    u8 move_type = GetAdjustedMoveType(sp, sp->attack_client, sp->current_move_index);
 
     if (CheckIfAnyoneShouldFaint(sp, sp->server_seq_no, sp->server_seq_no, 1) == TRUE)
     {
@@ -292,6 +308,25 @@ u32 LONG_CALL ServerWazaHitAfterCheckAct(void *bw, struct BattleStruct *sp)
                 sp->server_seq_no = 22;
                 ret = 1;
             }
+            sp->swhac_seq_no++;
+            break;
+
+        /**** AURORA CRYSTAL: Gems, which are still held until the move successfully connects. */
+        case SHWAC_HELD_ITEM_GEM:
+            if
+            (
+                (hold_effect == HOLD_EFFECT_BOOST_TYPE_ONCE)
+                && (hold_effect_param == move_type)
+                && ((sp->server_status_flag2 & SERVER_STATUS_FLAG2_U_TURN) == 0)
+                && (sp->server_status_flag & SERVER_STATUS_FLAG_MOVE_HIT)
+                && (GetMoveSplit(sp, sp->current_move_index) != SPLIT_STATUS)
+            )
+            {
+                LoadBattleSubSeqScript(sp, ARC_BATTLE_SUB_SEQ, SUB_SEQ_REMOVE_ATTACKER_ITEM);
+                sp->next_server_seq_no = sp->server_seq_no;
+                sp->server_seq_no = 22;
+                ret = 1;
+            };
             sp->swhac_seq_no++;
             break;
 

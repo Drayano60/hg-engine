@@ -7,22 +7,23 @@ Aside from a couple new items, these are all held items from later generations.
 The following items from later generations are available:
 
 [Generation V]
-Air Balloon, Big Nugget, Eviolite, Prism Scale, Rocky Helmet, Cover Fossil, Plume Fossil, Pretty Feather.
+Air Balloon, Big Nugget, Eviolite, Gems*, Prism Scale, Rocky Helmet, Cover Fossil, Plume Fossil, Pretty Feather.
 
 [Generation VI]
-Ability Capsule, Assault Vest, Jaw Fossil, Key Stone, Mega Stones*, Pixie Plate, Roseli Berry, Sachet, Sail Fossil, Weakness Policy, Whipped Dream.
+Ability Capsule, Assault Vest, Jaw Fossil, Key Stone, Mega Stones**, Pixie Plate, Roseli Berry, Sachet, Sail Fossil, Weakness Policy, Whipped Dream.
 
 [Generation VII]
 Bottle Cap, Ice Stone, Terrain Extender.
 
 [Generation VIII]
-Ability Patch, Black Augurite, Blank Plate, Galarica Cuff, Galarica Wreath, Heavy-Duty Boots, Linking Cord, Mints**, Peat Block, Pokémon Box Link, Sweet Apple, Tart Apple, Throat Spray.
+Ability Patch, Black Augurite, Blank Plate, Galarica Cuff, Galarica Wreath, Heavy-Duty Boots, Linking Cord, Mints***, Peat Block, Pokémon Box Link, Sweet Apple, Tart Apple, Throat Spray.
 
 [Generation IX]
 Covert Cloak, Fairy Feather, Leader's Crest, Loaded Dice, Malicious Armor, Metal Alloy, Syrupy Apple.
 
-* Mega Stones includes all 47 Mega Stone items.
-** Mints includes all 21 Mint items.
+* Gems includes all 18 Gems, including the Fairy Gem that was introduced but not used in Generation VI.
+** Mega Stones includes all 47 Mega Stone items.
+*** Mints includes all 21 Mint items.
 
 Additionally, the GS Ball also makes a return from Generation II.
 
@@ -40,6 +41,13 @@ The Safari Ball and Sport Ball now have a x2.0 catch rate instead of a x1.5 catc
 The Power items (used for EV training) no longer half the holder's Speed in battle.
 
 The Escape Rope has also been changed to a Key Item like Generation VIII.
+
+The Gems (Normal Gem, Fire Gem etc), while implemented, are a bit of a scuffed implementation that will hopefully be improved later.
+At the moment, there's a couple weird quirks to be aware of:
+- The Gem isn't actually removed from the Pokémon until after the move is over. There's been an exception added for Acrobatics to allow the Flying Gem combo to work there, but there may be issues with some other moves. For example, Thief boosted by a Dark Gem will not be able to steal an item, as the Pokémon still has an item when the move connects.
+- The animation of the Gem being used always happens even if the move isn't going to connect. That means if the Pokémon misses, is fully paralyzed, is using a two-turn move etc, you will see the animation and message about the Gem boosting the move's power. However, the Gem is not actually consumed until the move connects and does damage.
+- The animation of the Gem doesn't work correctly with variable type moves like Hidden Power, Weather Ball etc - the animation will play for the Normal Gem, but no damage boost is applied. Conversely, the actual damage boost + item removal will only apply to the Gem with the correct typing (e.g. a Fire Gem on a Fire-type Hidden Power will silently boost the damage and then be removed).
+- While not a bug, it's also worth noting that all Gems provide the modern x1.3 boost, not the x1.5 boost, even though Gems that are not the Normal Gem were unobtainable past Generation V.
 
 ===========================================================================
 Item Modernization

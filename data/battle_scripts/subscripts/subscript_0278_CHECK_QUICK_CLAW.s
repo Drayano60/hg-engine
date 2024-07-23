@@ -3,8 +3,10 @@
 .data
 
 /* Quick Draw is now also handled by this file. It works by setting both the Quick Claw and Lansat Berry flags at the same time. */
+/* The Gems being used display is also done via this file by hijacking the Micle Berry flag, so the animation appears before the move. */
 
 _000:
+    CompareMonDataToValue OPCODE_EQU, BATTLER_CATEGORY_ATTACKER, BMON_DATA_MICLE_BERRY_FLAG, 1, _Gem
     CompareMonDataToValue OPCODE_EQU, BATTLER_CATEGORY_ATTACKER, BMON_DATA_QUICK_CLAW_FLAG, 1, _QuickDraw /**** AURORA CRYSTAL: Add Quick Draw handling. */
 
 _Return:
@@ -54,4 +56,13 @@ _QuickDraw:
 _FlagClear:
     UpdateMonData OPCODE_SET, BATTLER_CATEGORY_ATTACKER, BMON_DATA_QUICK_CLAW_FLAG, 0
     UpdateMonData OPCODE_SET, BATTLER_CATEGORY_ATTACKER, BMON_DATA_CUSTAP_FLAG, 0
+    End
+
+_Gem:
+    PlayBattleAnimation BATTLER_CATEGORY_ATTACKER, BATTLE_ANIMATION_HELD_ITEM
+    Wait
+    PrintMessage 2151, TAG_NICKNAME_ITEM_MOVE, BATTLER_CATEGORY_ATTACKER, BATTLER_CATEGORY_ATTACKER, BATTLER_CATEGORY_ATTACKER
+    Wait
+    WaitButtonABTime 30
+    UpdateMonData OPCODE_SET, BATTLER_CATEGORY_ATTACKER, BMON_DATA_MICLE_BERRY_FLAG, 0
     End

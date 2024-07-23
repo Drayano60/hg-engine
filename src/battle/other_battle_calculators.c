@@ -994,6 +994,25 @@ u8 LONG_CALL CalcSpeed(void *bw, struct BattleStruct *sp, int client1, int clien
         priority1 = sp->moveTbl[move1].priority;
         priority2 = sp->moveTbl[move2].priority;
 
+        /**** AURORA CRYSTAL: Scuffed way of making Gems show the item animation prior to the move via the Quick Claw subscript. */
+        // The boostedAccuracy flag is turned off again in the Quick Claw sub_seq to prevent interference with the actual accuracy calculation.
+        // Note that local type isn't set at this stage, so this currently displays incorrectly for variable type moves like Hidden Power,
+        // even though the actual damage calculation + later item removal is fine.
+        if ((hold_effect1 == HOLD_EFFECT_BOOST_TYPE_ONCE) && (GetMoveSplit(sp, move1) != SPLIT_STATUS)) {
+            u8 move_type = GetAdjustedMoveType(sp, client1, move1);
+
+            if (hold_atk1 == move_type) {
+                sp->battlemon[client1].moveeffect.boostedAccuracy = 1;
+            }
+        }
+        if ((hold_effect2 == HOLD_EFFECT_BOOST_TYPE_ONCE) && (GetMoveSplit(sp, move2) != SPLIT_STATUS)) {
+            u8 move_type = GetAdjustedMoveType(sp, client2, move2);
+
+            if (hold_atk2 == move_type) {
+                sp->battlemon[client2].moveeffect.boostedAccuracy = 1;
+            }
+        }
+
         // handle prankster
         if (GetBattlerAbility(sp, client1) == ABILITY_PRANKSTER && GetMoveSplit(sp, move1) == SPLIT_STATUS)
         {

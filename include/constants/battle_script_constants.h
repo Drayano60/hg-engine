@@ -449,6 +449,7 @@
 #define SUB_SEQ_HEALING_CHIME                         (501)
 #define SUB_SEQ_ENTRAINMENT                           (502)
 #define SUB_SEQ_REMOVE_TYPE                           (503)
+#define SUB_SEQ_REMOVE_ATTACKER_ITEM                  (504)
 
 // add status effect constants--used in battle effect scripts to queue up a subscript through the table in src/moves.c
 

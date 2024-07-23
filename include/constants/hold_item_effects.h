@@ -229,5 +229,6 @@
 /**** AURORA CRYSTAL: New held item effects. ****/
 
 #define HOLD_EFFECT_LOADED_DICE                 250   // Loaded Dice
+#define HOLD_EFFECT_BOOST_TYPE_ONCE             251   // Gems
 
 #endif

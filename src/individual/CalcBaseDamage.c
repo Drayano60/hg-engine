@@ -318,6 +318,9 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
 
     battle_type = BattleTypeGet(bw);
 
+    // get the type
+    movetype = GetAdjustedMoveType(sp, attacker, moveno);
+
     /**** AURORA CRYSTAL: Split Disguise/Ice Face up here due to the physical check not applying to Disguise. */
     if ((MoldBreakerAbilityCheck(sp, attacker, defender, ABILITY_DISGUISE) == TRUE) && (sp->battlemon[defender].form_no == 0)) {
         return 0;
@@ -382,7 +385,15 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
         }
     }
 
-    if (moveno == MOVE_ACROBATICS && sp->battlemon[sp->attack_client].item == 0) {
+    if
+    (
+        moveno == MOVE_ACROBATICS &&
+        (sp->battlemon[sp->attack_client].item == 0 ||
+        // As the current Gem implementation means they are still held during the move,
+        // there's a special code exception here to get the Flying Gem working with Acrobatics.
+        (movetype == TYPE_FLYING && AttackingMon.item_held_effect == HOLD_EFFECT_BOOST_TYPE_ONCE))
+    )
+    {
         movepower *= 2;
     }
 
@@ -418,8 +429,6 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
         }
     }
 
-    // get the type
-    movetype = GetAdjustedMoveType(sp, attacker, moveno);
     movepower = movepower * sp->damage_value / 10;
 
     // handle charge
@@ -533,6 +542,13 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
         if (AttackingMon.species == SPECIES_RAICHU) {
             movepower = movepower * 120 / 100;
         }
+    }
+
+    /**** AURORA CRYSTAL: Handle the Gem effect (which is still held here). Uses the 30% boost from later generations. */
+    // We're using the item data holdEffectParam property (item_power) to match the move type against the gem type.
+    if ((AttackingMon.item_held_effect == HOLD_EFFECT_BOOST_TYPE_ONCE) && (AttackingMon.item_power == movetype))
+    {
+        movepower = movepower * 130 / 100;
     }
 
     // handle metal powder

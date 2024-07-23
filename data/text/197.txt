@@ -2149,3 +2149,6 @@ The opposing {STRVAR_1 1, 0, 0}\nburned itself out!
 {STRVAR_1 1, 0, 0} used up\nall its electricity!
 The wild {STRVAR_1 1, 0, 0}\nused up all its electricity!
 The opposing {STRVAR_1 1, 0, 0}\nused up all its electricity!
+The {STRVAR_1 5, 1, 0} strengthened\n{STRVAR_1 8, 2, 0}’s power!
+The {STRVAR_1 5, 1, 0} strengthened\n{STRVAR_1 8, 2, 0}’s power!
+The {STRVAR_1 5, 1, 0} strengthened\n{STRVAR_1 8, 2, 0}’s power!

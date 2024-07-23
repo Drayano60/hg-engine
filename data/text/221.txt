@@ -681,24 +681,24 @@ Fossilized Bird Description
 Fossilized Dino Description
 Fossilized Drake Description
 Fossilized Fish Description
-Normal Gem Description
-Fighting Gem Description
-Flying Gem Description
-Poison Gem Description
-Ground Gem Description
-Rock Gem Description
-Bug Gem Description
-Ghost Gem Description
-Steel Gem Description
-Fire Gem Description
-Water Gem Description
-Grass Gem Description
-Electric Gem Description
-Psychic Gem Description
-Ice Gem Description
-Dragon Gem Description
-Dark Gem Description
-Fairy Gem Description
+A gem with an ordinary essence.\nWhen held, it strengthens the power of\na Normal-type move by 30% one time.
+A gem with an essence of combat.\nWhen held, it strengthens the power of\na Fighting-type move by 30% one time.
+A gem with an essence of air.\nWhen held, it strengthens the power of\na Flying-type move by 30% one time.
+A gem with an essence of poison.\nWhen held, it strengthens the power of\na Poison-type move by 30% one time.
+A gem with an essence of land.\nWhen held, it strengthens the power of\na Ground-type move by 30% one time.
+A gem with an essence of rock.\nWhen held, it strengthens the power of\na Rock-type move by 30% one time.
+A gem with an insect-like essence.\nWhen held, it strengthens the power of\na Bug-type move by 30% one time.
+A gem with a spectral essence.\nWhen held, it strengthens the power of\na Ghost-type move by 30% one time.
+A gem with an essence of steel.\nWhen held, it strengthens the power of\na Steel-type move by 30% one time.
+A gem with an essence of fire.\nWhen held, it strengthens the power of\na Fire-type move by 30% one time.
+A gem with an essence of water.\nWhen held, it strengthens the power of\na Water-type move by 30% one time.
+A gem with an essence of nature.\nWhen held, it strengthens the power of\na Grass-type move by 30% one time.
+A gem with an essence of electricity.\nWhen held, it strengthens the power of\na Electric-type move by 30% one time.
+A gem with an essence of the mind.\nWhen held, it strengthens the power of\na Psychic-type move by 30% one time.
+A gem with an essence of ice.\nWhen held, it strengthens the power of\na Ice-type move by 30% one time.
+A gem with a draconic essence.\nWhen held, it strengthens the power of\na Dragon-type move by 30% one time.
+A gem with an essence of darkness.\nWhen held, it strengthens the power of\na Dark-type move by 30% one time.
+A gem with an essence of the fey.\nWhen held, it strengthens the power of\na Fairy-type move by 30% one time.
 Fighting Memory Description
 Flying Memory Description
 Poison Memory Description

@@ -38,7 +38,7 @@ Cherrygrove City
 ✓ Removed the second Poké Mart person as their shop has been moved to Violet (as Violet's second mart was reused).
 ✓ Moved the Mystic Water NPC off map.
 ✓ Added an item ball with a Lucky Punch above the rocky wall.
-✓ Added a Sharpedonite on the small sand bank.
+✓ Removed the hidden Nugget, moved the PP Max there from Route 46.
 
 Route 30 - Mr. Pokémon's House
 ✓ Before leaving, Mr. Pokémon now calls you over and gifts you an Eevee. This Eevee always has its hidden ability.
@@ -134,6 +134,7 @@ Ruins of Alph
 ✓✓ After catching Regice, Registeel can be found by standing between the items in the LIGHT room, while having a Pokémon with Metal Sound in the third slot of your party.
 ✓✓ After catching Registeel, Regigigas can be found by standing between the items in the HO-OH room, while having Regirock, Regice and Registeel in your party. Catching Regigigas gives you the Blank Plate.
 ✓✓ The battle background is changed in the above four rooms to match the usual cave one.
+✓ Moved hidden Nugget to the bottom right rock in the tiny maze bit. Added a hidden Psychic Gem where it used to be.
 
 Ruins Research Center
 ✓ This is the building inside the Ruins of Alph, which now has its own header name.
@@ -153,6 +154,7 @@ Route 45
 ✓ Modified the map of the southern part to remove some ledges, letting some grass be accessible earlier.
 ✓ Changed the Revive to TM40 Aerial Ace and moved it next to the river, moving the hidden item where the Revive was.
 ✓ Moved a Hiker that would be accessible from the new area above a ledge.
+✓ Moved the hidden PP Max over to Cherrygrove and added a Fire Gem in its place.
 
 Route 32
 ✓ Split the route into North/South areas.
@@ -224,6 +226,7 @@ Ilex Forest
 ✓ Added an NPC to give a slight nod to the infamous Ilex Forest scene in SG/SS, and also awarding TM86 Grass Knot.
 ✓ After speaking to Kurt outside his house in Azalea Town, you can pop the GS Ball into the shrine and Celebi will appear. Kurt also shows up after this to thank you and gives you a Master Ball.
 ✓ The Celebi can then be encountered and will respawn upon entering the area until caught. It appears at Level 60.
+✓ Removed hidden Bug Mushroom and added a hidden Bug Gem in the same position.
 
 Route 34
 ✓ Cynthia appears and talks to you in the gatehouse, then leaves. This makes her appear at the research center in the Ruins of Alph.
@@ -301,12 +304,14 @@ National Park
 ✓ Erika shows up here after defeating Team Rocket at the Safari Zone. She gives you TM19 Giga Drain.
 ✓ When entering the Bug-Catching Contest, the portable PC/fast travel is disabled. It's re-enabled after leaving (checked manual retire, no balls yet and leaving on foot).
 ✓ After earning the Earth Badge and talking to Floria, Shaymin can be encountered here on the Rock Climbable ledge at Level 60. It'll respawn upon entering the area until caught.
+✓ Added a hidden Grass Gem on the raised area.
 
 Pokéathlon Dome
 ✓ Whitney is now visibly at the counter. Talk to her to 'get' a jersey, then she'll return to and unlock Goldenrod Gym.
 ✓ Magnus gives you a Muscle Band when you talk to him initially.
 ✓ Added TM27 Low Sweep on the lower end of the map.
 ✓ The prize counter no longer works until Lance is beaten.
+✓ Removed the hidden Protein.
 
 Goldenrod City - Gym
 ✓ Added two new Trainers, a Hiker (168) and an Ace Trainer (169) using Mickeys.
@@ -336,6 +341,7 @@ Route 38
 ✓ Added a blockade featuring Miltank to block you from moving onto Route 39 until Morty is defeated.
 ✓ Added an item ball containing TM47 Steel Wing.
 ✓ Lax Incense -> TM85 Psycho Cut. 
+✓ Removed the hidden HP Up.
 
 Mt. Mortar
 ✓ The central room now has a Kimono Girl event that forces you to explore the room as far as possible.
@@ -349,7 +355,8 @@ Mt. Mortar
 ✓ Full Incense -> Max Potion.
 ✓ TM40 -> PP Up.
 ✓ 1F-2: Escape Rope -> Hyper Potion.
-✓ 2F: Escape Rope -> Max Repel.
+✓ 2F: Escape Rope -> Max Repel. Removed the hidden HP Up.
+✓ Added a hidden Fighting Gem on one of the rocks on 2F.
 
 Route 42
 ✓ Adjusted trainer directions a little.
@@ -385,6 +392,8 @@ Ice Path
 ✓ When revisiting Ice Path after defeating Pryce, Will appears near the entrance and gives you TM29 Psychic.
 ✓ Added the Glalitite to B4F.
 ✓ The boulder puzzle on the second floor is simplified heavily (I am sick of doing it every time!!).
+✓ Removed the hidden Carbos on B2F.
+✓ Removed the Full Heal on B2F. Added a hidden Ice Gem on B2F on a rock next to the ladder.
 
 Burned Tower
 ✓ Eusine and Morty's dialogues are modified slightly to reflect the new events.
@@ -407,6 +416,7 @@ Union Cave (B2F)
 ✓ Forced some of the trainers to get things (Lapras/items).
 ✓ Elixir -> TM69 Rock Polish. Hyper Potion -> Prism Scale.
 ✓ Lapras is now Lv. 30 and can appear every day (but can only be caught once). If it's defeated or run from, it reappears upon reentering the room.
+✓ Removed the hidden Calcium.
 
 Route 39
 ✓ Shifted Trainers around.
@@ -415,6 +425,7 @@ Route 39
 ✓ Changed the Moomoo Farm lady to instead act as a Natural Gift move tutor after Miltank is cured (instead of giving a TM).
 ✓ Removed the Green Apricorn tree next to the farmhouse.
 ✓ Added an NPC next to the farmhouse who sells the player Tart, Sweet and Syrupy Apples for $1k, $1k and $2k respectively.
+✓ Added a hidden Normal Gem in one of the hay piles in the barn.
 
 Olivine City
 ✓ Added an NPC in the diner who gives you Leftovers. (This NPC was later yeeted into the void in favour of the gift in Mahogany).
@@ -422,11 +433,13 @@ Olivine City
 ✓ Changed the Good Rod guy to give you the Deep Sea items.
 ✓ Changed the dialogue of an Ace Trainer F in the harbour as her dialogue didn't make any sense. (Then ended up removing her later anyway)
 ✓ Swapped the hidden Rare Candy item on the Rock Climb rock with the Heart Scale from Vermilion City. (8023 (RC) <-> 8168 (HS))
+✓✓ Then removed it in favour of a hidden Electric Gem.
 ✓ Added an NPC in one of the houses who gives you TM60 Drain Punch.
 ✓ Added an NPC in the harbour who gives you the Galarica Cuff and Galarica Crown.
 ✓ Sabrina shows up here (at the harbour lookout) after defeating Team Rocket at the Safari Zone. She gives you TM04 Calm Mind.
 ✓ Added Prof Elm's assistant in the Pokémon Center, who will give a Lv. 5 starter of the player's choice.
 ✓ Modified the trade in the house to be a Torkoal in exchange for any Electric-type. The NPC in question is also now a Hiker instead of a Fisherman.
+✓ Removed the hidden Protein in the harbour.
 
 Lighthouse
 ✓ Rare Candy -> TM62 Acrobatics. TM87 -> Light Ball. Super Potion -> TM21 Dazzling Gleam.
@@ -478,6 +491,7 @@ Cliff Edge Gate
 ✓ A battle with Ethan/Lyra takes place here after defeating Chuck. After the battle, you'll receive a Lucky Egg and see a small event with a Rocket.
 ✓ Added an item ball with the Heavy-Duty Boots that requires Rock Climb.
 ✓ Chuck's dialogue after the Embedded Tower is activated is modified slightly as Rock Climb no longer requires the Kanto badges.
+✓ Removed hidden Big Pearl and replaced with a Steel Gem.
 
 Cliff Cave
 ✓ Added an event leading to a double battle with Petrel and Proton with Ethan/Lyra as a partner when you enter. Following this battle, you receive TM36, Sludge Bomb.
@@ -486,6 +500,7 @@ Cliff Cave
 ✓ Added some triggers on each exit to control whether the Silver event on Route 47 happens or not when leaving the Cliff Cave, active after the Executive battle. The one on the top floor's exit activates the Route 47 Silver event. It's technically possible to step on this and then use an Escape Rope/Dig/Teleport? which results in the script activating at the wrong time. Not sure how to fix that, but it's an incredibly unlikely scenario anyway. At least it doesn't crash!
 ✓ Added an item ball with TM37 Sandstorm.
 ✓ Modified the items from the smashable rocks.
+✓ Added a hidden Ground Gem on a rock on the middle floor.
 
 Route 47
 ✓ Lagging Tail -> TM84 Poison Jab.
@@ -545,6 +560,7 @@ Route 43
 ✓ Added a new Bug Catcher with a Mickey (180).
 ✓ Fisherman Marvin's dialogue is modified to reflect his new shiny Magikarp.
 ✓ TM36 -> TM34.
+✓ Swapped positions of Apricorn tree and Max Ether, then Max Ether -> TM53 Energy Ball.
 
 Lake of Rage
 ✓ North of the lake (where the Choice Specs were previously), there's a sign with some writing. Talk to it at night with an Odd Keystone in your inventory, and a Lv. 40 Spiritomb will appear. After Spiritomb is caught, the sign text changes, the Odd Keystone is removed from the player's inventory and nothing else can happen there. If Spiritomb is not caught, the sign remains as-is and the Odd Keystone is not removed.
@@ -559,6 +575,7 @@ Lake of Rage
 
 Team Rocket HQ
 ✓ Guard Spec -> Dubious Disc. TM46 -> TM79 Dark Pulse. Ultra Ball -> Toxic Orb. TM49 -> Ultra Ball.
+✓ 1F: Moved the Hyper Potion. Added a hidden Poison Gem on one of the boxes.
 ✓ The trap floor has been modified a bit so that Forretress is now in the roster, with four tiles for each. The encounters are all Level 43 with Explosion as their first move (via hg-e code).
 ✓ Lance now gives you TM02 Dragon Claw after he heals your Pokémon on the second floor.
 ✓ Added a scientist on B1F at a computer who heals you. He also disappears when the Rockets leave.
@@ -585,6 +602,7 @@ Whirl Islands
 ✓ Removed the darkness.
 ✓ Changed all maps to use the same encounter file (43), freeing up files 44, 46 and 48.
 ✓ Lugia is now at Lv. 80. It will respawn after leaving the area until it is caught.
+✓ Added a hidden Water Gem on a rock on B1F.
 
 Route 45 - North
 ✓ Elixir -> Razor Fang.
@@ -597,6 +615,7 @@ Route 45 - North
 Dark Cave - Blackthorn Side
 ✓ TM54 -> Reaper Cloth. Revive -> Light Clay.
 ✓ Added an item ball containing TM76 Stealth Rock, replacing the glasses man.
+✓ Added a hidden Ghost Gem on one of the rocks.
 
 Radio Tower
 ✓ Adjusted a lot of Trainer positions.
@@ -654,6 +673,7 @@ Dragon's Den
 ✓ The Teleport Gem is disabled after finishing the quiz until you leave and take Elm's call outside.
 ✓ After earning the Earth Badge, the Elder will challenge you to a battle when spoken to. Defeating him will earn you the Draco Plate.
 ✓ The level cap increases after Clair gives you the Rising Badge.
+✓ Added a hidden Dragon Gem on the southeast island.
 
 New Bark Town - Post Gym 8
 ✓ Instead of the Master Ball, Elm now gives you (and Ethan/Lyra) the Key Stone and an Ampharosite, and some explanations of doing so.
@@ -687,6 +707,8 @@ Bell Tower
 ✓ Then at the top of the tower, you'll find Eusine/Morty with some dialogue, and the Kimono Girls on the roof. This then plays out the Ho-oh event as normal. Ho-oh is now Lv. 80.
 ✓ After battling Ho-oh, the Kimono Girl gives a dialogue line and they all leave. Eusine then also gives a dialogue and leaves.
 ✓ Ho-oh will respawn after leaving the area until caught.
+✓ Removed the hidden Carbos on 8F.
+✓ Added a hidden Flying Gem on the spire on the roof.
 
 Tohjo Falls
 ✓ Moon Stone -> PP Max.
@@ -709,7 +731,7 @@ Route 26
 ✓ The level cap increases after the Ethan/Lyra battle.
 
 Victory Road
-✓ TM79 -> TM64 Explosion. TM26 -> Metal Alloy (and moved slightly). Max Revive -> TM50 Overheat. Full Restore -> TM71 Stone Edge. HP Up -> PP Max.
+✓ TM79 -> TM64 Explosion. TM26 -> Metal Alloy (and moved slightly). Max Revive -> TM50 Overheat. Full Restore -> TM71 Stone Edge. HP Up -> PP Max. Removed the hidden Zinc.
 ✓ Moved the Strength boulder near the entrance off-map to reduce annoyance.
 ✓ Edited Silver's dialogue a bit as Victory Road now actually has Trainers.
 ✓ Added ten trainers, dotted around the three floors. They are all mandatory. Each one is a reference to a character from a main series region in chronological order.
@@ -764,6 +786,7 @@ Route 3
 ✓ A trigger script has been added between the four meteorites. Ordinarily, it'll just state a message saying a meteor passed.
 ✓ If you activate it while Rayquaza is following you (i.e. lead of party, is alive, and not on the bike), it extends into a mini event that results in a battle with a Level 80 Deoxys.
 ✓ The above can keep happening until Deoxys is caught.
+✓ Big Root -> Charizardite Y and moved slightly.
 
 Mt. Moon
 ✓ The Silver battle no longer happens.
@@ -780,6 +803,7 @@ Cerulean City - Gym
 
 Vermilion City
 ✓ Steven now appears and talks to you after leaving the Gym after Lt. Surge is beaten. Latias and Latios will start roaming Kanto after this event. They are both Level 70.
+✓ Removed the hidden Iron in the harbour.
 
 Vermilion City - Gym
 ✓ Moved the Trainers a bit.
@@ -788,11 +812,15 @@ Vermilion City - Gym
 
 Diglett's Cave
 ✓ The Earth Plate is found on one of the upper ledges.
+✓ Removed the hidden Calcium.
 
 Power Plant
 ✓ As the required flags are set, it now always uses the primary map for the Power Plant.
 ✓ All overworlds are deleted, the room is dark and with different music.
 ✓ Zapdos is now found here at Level 70. It will reappear after re-entering the area unless caught.
+
+Route 10
+✓ Removed the hidden Carbos.
 
 Route 8
 ✓ Changed Gentleman Milton's position so he isn't compulsory.
@@ -816,6 +844,7 @@ Route 11
 
 Rock Tunnel
 ✓ The darkness is now the reduced version that doesn't need Flash.
+✓ B1F: Iron -> Charizardite X. Removed the hidden HP Up.
 
 Lavender Town
 ✓ After doing the prerequisite event at Sinjoh Ruins, a trigger is activated in front of the House of Memories which leads to a Mesprit encounter. This trigger will keep working until Mesprit is caught. It appears at Level 70.
@@ -832,6 +861,7 @@ Route 12
 
 Route 13
 ✓ Changed Pokéfan Alex to look up/left so he isn't compulsory.
+✓ Removed the hidden Calcium.
 
 Fuchsia City - Gym
 ✓ Swapped Janine's position with another Trainer.
@@ -864,6 +894,8 @@ Cinnabar Island
 Seafoam Islands
 ✓ 1F: Removed the hidden Escape Rope.
 ✓ Articuno is now found at Level 70. It now reappears after leaving the area unless caught.
+✓ B3F: TM13 -> Blastoisinite and moved slightly.
+✓ B4F: Removed the Zinc hidden under Articuno.
 
 Seafoam Islands - Gym
 ✓ Changed the Scientists into the D/P Scientists, as the HG/SS ones are now using the Rocket music.
@@ -886,6 +918,7 @@ Pallet Town - Oak's Lab
 Viridian Forest
 ✓ After talking to the scientist at Oak's lab, upon entering the area you will hear Mew's cry. You can then find it sitting in Viridian Forest, but it'll move locations three times, each time you talk to it. After the third time, it'll move to the tree in front of the bottom gate, at which point it'll battle you when you talk to it. It's at Lv. 60. The event will restart in its entirety when Viridian Forest is left and re-entered until Mew is caught.
 ✓ The Insect Plate is found inside an alcove near the Pewter exit.
+✓ TM77 -> Venusaurite.
 
 Cerulean Cave
 ✓ Upon entering, Looker (disguised as a Rocket Grunt) will call you over and after some dialogue, give you some Max Repels.
@@ -899,6 +932,7 @@ Cerulean Cave
 ✓ The visible items on 2F have been removed (TM24, PP Up, Odd Incense, Ultra Ball).
 ✓ Following Silver's defeat at Mt. Silver, five Carbink will appear in this room. The one in the big clearing will have text saying it's a bit lonely. Speaking to the other four Carbink (which replaced the items), and then the Carbink in the center will result in a small cutscene that reveals Diancie, who can then be battled.
 ✓ Diancie is found at Level 70. It reappears after leaving the area unless caught. After being caught, the player automatically finds a Diancite.
+✓ Removed the hidden Protein and Zinc on 2F.
 
 Mt. Silver
 ✓ Added a trade in the Pokémon Center for a Heracross in exchange for any Dragon-type.
@@ -915,6 +949,7 @@ Mt. Silver Cave
 ✓ Moltres is removed and the Lucarionite found in its place.
 ✓ The level cap increases when first entering the Champion Tournament. This means if the player faints, they can level up to the Red cap instead. Nuzlockes would likely count it as a wipe!
 ✓ The level cap becomes 100 when the player first defeats Red.
+✓ Removed the hidden Iron in the big square room.
 
 Sinjoh Ruins
 ✓ When initially warped here, Cynthia has some dialogue and then goes into the Mystri Stage temple. You can speak to her again inside the temple, and after a bit more dialogue, Uxie, Mesprit and Azelf are released. Cynthia leaves the temple after this.

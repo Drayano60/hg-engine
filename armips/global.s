@@ -81,3 +81,4 @@ plus all the c injection stuff.  we are not worried about that here, that is dyn
 .include "armips/asm/custom/tm_palettes.s"
 .include "armips/asm/custom/vitamins.s"
 .include "armips/asm/custom/waterfall.s"
+.include "armips/asm/custom/hidden_items.s"

@@ -5,11 +5,10 @@
 // sub_seq used for Incinerate
 // trypluck checks for berries (except for roseli) so we can reuse this
 // the part about consuming the berry afterwards is removed
-// this would not extend to gems if they are added later
-// this probably also does not follow the rules about the item being non recyclable etc
+// this probably does not follow the rules about the item being non recyclable etc
 
 _000:
-    TryPluck _013, _CheckRoseliBerry
+    TryPluck _013, _CheckOtherItems
     // {0}’s {1} was burnt up!
     PrintMessage 2052, TAG_NICKNAME_ITEM, BATTLER_CATEGORY_MSG_TEMP, BATTLER_CATEGORY_MSG_TEMP
     Wait 
@@ -26,8 +25,29 @@ _013:
     WaitButtonABTime 30
     End 
 
-_CheckRoseliBerry:
-    CompareMonDataToValue OPCODE_NEQ, BATTLER_CATEGORY_DEFENDER, BMON_DATA_HELD_ITEM, ITEM_ROSELI_BERRY, _012
+_CheckOtherItems:
+    CompareMonDataToValue OPCODE_EQU, BATTLER_CATEGORY_DEFENDER, BMON_DATA_HELD_ITEM, ITEM_ROSELI_BERRY, _BurnItem
+    CompareMonDataToValue OPCODE_EQU, BATTLER_CATEGORY_DEFENDER, BMON_DATA_HELD_ITEM, ITEM_NORMAL_GEM, _BurnItem
+    CompareMonDataToValue OPCODE_EQU, BATTLER_CATEGORY_DEFENDER, BMON_DATA_HELD_ITEM, ITEM_FIGHTING_GEM, _BurnItem
+    CompareMonDataToValue OPCODE_EQU, BATTLER_CATEGORY_DEFENDER, BMON_DATA_HELD_ITEM, ITEM_FLYING_GEM, _BurnItem
+    CompareMonDataToValue OPCODE_EQU, BATTLER_CATEGORY_DEFENDER, BMON_DATA_HELD_ITEM, ITEM_POISON_GEM, _BurnItem
+    CompareMonDataToValue OPCODE_EQU, BATTLER_CATEGORY_DEFENDER, BMON_DATA_HELD_ITEM, ITEM_GROUND_GEM, _BurnItem
+    CompareMonDataToValue OPCODE_EQU, BATTLER_CATEGORY_DEFENDER, BMON_DATA_HELD_ITEM, ITEM_ROCK_GEM, _BurnItem
+    CompareMonDataToValue OPCODE_EQU, BATTLER_CATEGORY_DEFENDER, BMON_DATA_HELD_ITEM, ITEM_BUG_GEM, _BurnItem
+    CompareMonDataToValue OPCODE_EQU, BATTLER_CATEGORY_DEFENDER, BMON_DATA_HELD_ITEM, ITEM_GHOST_GEM, _BurnItem
+    CompareMonDataToValue OPCODE_EQU, BATTLER_CATEGORY_DEFENDER, BMON_DATA_HELD_ITEM, ITEM_STEEL_GEM, _BurnItem
+    CompareMonDataToValue OPCODE_EQU, BATTLER_CATEGORY_DEFENDER, BMON_DATA_HELD_ITEM, ITEM_FIRE_GEM, _BurnItem
+    CompareMonDataToValue OPCODE_EQU, BATTLER_CATEGORY_DEFENDER, BMON_DATA_HELD_ITEM, ITEM_WATER_GEM, _BurnItem
+    CompareMonDataToValue OPCODE_EQU, BATTLER_CATEGORY_DEFENDER, BMON_DATA_HELD_ITEM, ITEM_GRASS_GEM, _BurnItem
+    CompareMonDataToValue OPCODE_EQU, BATTLER_CATEGORY_DEFENDER, BMON_DATA_HELD_ITEM, ITEM_ELECTRIC_GEM, _BurnItem
+    CompareMonDataToValue OPCODE_EQU, BATTLER_CATEGORY_DEFENDER, BMON_DATA_HELD_ITEM, ITEM_PSYCHIC_GEM, _BurnItem
+    CompareMonDataToValue OPCODE_EQU, BATTLER_CATEGORY_DEFENDER, BMON_DATA_HELD_ITEM, ITEM_ICE_GEM, _BurnItem
+    CompareMonDataToValue OPCODE_EQU, BATTLER_CATEGORY_DEFENDER, BMON_DATA_HELD_ITEM, ITEM_DRAGON_GEM, _BurnItem
+    CompareMonDataToValue OPCODE_EQU, BATTLER_CATEGORY_DEFENDER, BMON_DATA_HELD_ITEM, ITEM_DARK_GEM, _BurnItem
+    CompareMonDataToValue OPCODE_EQU, BATTLER_CATEGORY_DEFENDER, BMON_DATA_HELD_ITEM, ITEM_FAIRY_GEM, _BurnItem
+    GoTo _012
+
+_BurnItem:
     // {0}’s {1} was burnt up!
     PrintMessage 2052, TAG_NICKNAME_ITEM, BATTLER_CATEGORY_DEFENDER, BATTLER_CATEGORY_DEFENDER
     Wait 

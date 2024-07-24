@@ -58,11 +58,14 @@ _FlagClear:
     UpdateMonData OPCODE_SET, BATTLER_CATEGORY_ATTACKER, BMON_DATA_CUSTAP_FLAG, 0
     End
 
+/* New */
 _Gem:
+    UpdateMonData OPCODE_SET, BATTLER_CATEGORY_ATTACKER, BMON_DATA_MICLE_BERRY_FLAG, 0
+    /* The flag is set at the start of the turn. We check again here in case the item was removed by Incinerate, Knock Off etc. */
+    CompareMonDataToValue OPCODE_EQU, BATTLER_CATEGORY_ATTACKER, BMON_DATA_HELD_ITEM, 0, _063
     PlayBattleAnimation BATTLER_CATEGORY_ATTACKER, BATTLE_ANIMATION_HELD_ITEM
     Wait
     PrintMessage 2151, TAG_NICKNAME_ITEM_MOVE, BATTLER_CATEGORY_ATTACKER, BATTLER_CATEGORY_ATTACKER, BATTLER_CATEGORY_ATTACKER
     Wait
     WaitButtonABTime 30
-    UpdateMonData OPCODE_SET, BATTLER_CATEGORY_ATTACKER, BMON_DATA_MICLE_BERRY_FLAG, 0
     End

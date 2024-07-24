@@ -194,7 +194,8 @@ Nothing of note.
 Cherrygrove City
 ===========================================================================
 Fishing Rod: Given to you by a Fisherman when you first try to leave towards Route 30.
-Lucky Punch: Found on the floor above a rocky wall past the water. Surf and Rock Climb are required.
+Lucky Punch: Found on the floor on the small patch of shore off the coast. Requires Surf.
+PP Max: Hidden in the corner of the land above the Rock Climb wall. Requires Rock Climb.
 
 ===========================================================================
 Route 30
@@ -217,7 +218,7 @@ TM54 False Swipe: Given to you by Ethan/Lyra in the Violet City gatehouse after 
 ===========================================================================
 Dark Cave, Violet Side
 ===========================================================================
-Black Glasses: Found on the floor across the water to the right of the Route 31 exit. Surf is required.
+Black Glasses: Found on the floor across the water to the right of the Route 31 exit. Requires Surf.
 Banettite: Found on the floor at the top right of the room after receiving the Key Stone.
 
 ===========================================================================
@@ -268,6 +269,7 @@ Armor Fossil: Has a 10% chance to drop from a smashed rock. Requires Rock Smash.
 Skull Fossil: Has a 10% chance to drop from a smashed rock. Requires Rock Smash.
 TM16 Light Screen: Found on the floor behind the LIGHT door. Requires Surf and Flash.
 TM33 Reflect: Found on the floor behind the LIGHT door. Requires Surf and Flash.
+Psychic Gem: Hidden on a rock in the tiny rock maze by the bottom left Union Cave exit. Requires Surf.
 Blank Plate: Found automatically after catching Regigigas.
 
 ===========================================================================
@@ -298,6 +300,7 @@ Pidgeotite: Given to you by Falkner after defeating him in a rematch, after rece
 Route 45, South
 ===========================================================================
 TM40 Aerial Ace: Found on the floor by following the path next to the river.
+Fire Gem: Hidden on the floor in the area above the Rock Climb wall, accessed from Route 46.
 
 ===========================================================================
 Route 32 North
@@ -320,8 +323,9 @@ Hard Stone: Found on the floor on 1F, near the exit to Route 33.
 TM39 Rock Tomb: Found on the floor on B1F, accessed from the top-left staircase.
 Oval Stone: Found on the floor on 1F, on a small island in the pond to the bottom-left. Requires Surf.
 Grip Claw: Found on the floor on B1F, between some rocks. Requires Surf.
-Prism Scale: Found on the floor on B2F, on a raised area near the bottom of the room. Requires Surf.
+Rock Gem: Hidden on a rock on B2F, close to the stairs to B1F.
 TM69 Rock Polish: Found on the floor on B2F, near the top right of the room. Requires Surf.
+Prism Scale: Found on the floor on B2F, on a raised area near the bottom of the room. Requires Surf.
 TM80 Rock Slide: Speak to Brock, who appears on 1F after Team Rocket have left the Safari Zone.
 
 ===========================================================================
@@ -353,6 +357,7 @@ Silver Powder: Found on the floor in a small clearing at the bottom right of the
 TM86 Grass Knot: Talk to the woman near the center of the forest. Requires Cut.
 Zap Plate: Attached to the Spiky-Eared Pichu you can receive as a gift. Requires Cut.
 Big Root: Found on the floor near where you meet the Kimono Girl. Requires Cut.
+Bug Gem: Hidden at the end of the small alcove accessible via the pond near the Route 34 exit. Requires Surf.
 Pinsirite: Found in a gap of trees in the bottom half of the map after receiving the Key Stone.
 
 ===========================================================================
@@ -417,6 +422,7 @@ Fashion Case: Given to you by Ethan/Lyra when you first enter Goldenrod Tunnel.
 TM09 Venoshock: Found on the floor on B1F, below the market stalls.
 Smoke Ball: Found on the floor on B2F, amongst the adjustable doors. Requires the Basement Key. 
 Magmarizer: Found on the floor on B2F, amongst the adjustable doors. Requires the Basement Key.
+Dark Gem: Hidden in a cardboard box just above the area where the Radio Tower's Director is held. Requires the Basement Key.
 TM63 Nasty Plot: Found on the floor on B2F, next to where the Radio Tower's Director is held. Requires the Basement Key.
 Card Key: Speak to the Director. Requires the Basement Key.
 
@@ -442,7 +448,7 @@ TM67 Smart Strike: Found on the floor on the path across the pond. Requires Surf
 Pokéathlon Dome
 ===========================================================================
 Muscle Band: Given to you by Magnus as you approach the entrance.
-TM27 Low Sweep: Found on the floor near the benches at the bottom of the map.
+TM27 Low Sweep: Found on the floor one one of the squares of grass.
 
 The prize counter here is absent until becoming the Champion, but otherwise is the same as normal.
 
@@ -454,7 +460,7 @@ TM28 Dig: Found on the floor at the bottom left of the park, behind the fence.
 Shed Shell: Found on the floor at the top right of the park, behind the fence.
 TM32 Leech Life: Given to you automatically after taking part in a Bug-Catching Contest for the first time.
 TM19 Giga Drain: Speak to Erika, who appears on a bench near the flower beds after Team Rocket have left the Safari Zone.
-TM53 Energy Ball: Found on the raised area above the climbable rocks at the top right. Requires Rockc Climb.
+Grass Gem: Hidden on the floor directly in front of where you land after climbing the northeast rocky wall. Requires Rock Climb.
 
 Additionally, the prizes for winning the Bug-Catching Contest are adjusted.
 
@@ -508,7 +514,8 @@ Mt. Mortar
 TM31 Brick Break: Found on the floor in the main room at the left side, past a Black Belt.
 Black Belt: Found on the floor near the right exit to Route 42.
 Protector: Found on the floor by following the path from the top-right rocky wall. Requires Rock Climb.
-Iron Ball: Found on the floor in the main room via access from the top-right of 2F. Requires Waterfall.
+Fighting Gem: Hidden on a rock on 2F, at the southeast of the room. Requires Waterfall.
+Iron Ball: Found on the floor in the main room via access from the top-left of 2F. Requires Waterfall.
 TM52 Focus Blast: Found on the floor on B1F, at the top right of the room via access from 2F. Requires Waterfall.
 Choice Band: Given to you by Bruno on 2F, after giving him the Rage Candy Bar.
 
@@ -535,6 +542,7 @@ Never-Melt Ice: Found on the floor on 1F, near the middle of the room.
 HM07 Waterfall: Found on the floor on 1F, by the small ice puzzle at the top right of the room.
 Dawn Stone: Given to you by Eusine on 1F, after defeating the Team Rocket grunts.
 TM29 Psychic: Given to you by Will on 1F, who appears a little ways in from the Route 44 entrance.
+Ice Gem: Hidden on a rock on B2F, next to the ladder in the center that leads to B3F.
 TM13 Ice Beam: Found on the floor on B3F, at the bottom right of the ice puzzle.
 Icy Rock: Found on the floor on B4F.
 Razor Claw: Found on the floor on B1F as part of a small boulder puzzle.
@@ -562,6 +570,7 @@ Master Ball: Given to you by Eusine after defeating him, after defeating the Kim
 ===========================================================================
 Route 39
 ===========================================================================
+Normal Gem: Hidden in the rightmost pile of hay in the Moomoo Farm's barn.
 TM72 High Horsepower: Found on the floor next to the silo in the farm area.
 Tart Apple: Can be purchased from a woman next to the farmhouse.
 Sweet Apple: Can be purchased from a woman next to the farmhouse.
@@ -578,6 +587,7 @@ Deep Sea Scale: Speak to a Fisherman in one of the houses.
 Galarica Cuff: Speak to a Sailor in the harbour.
 Galarica Crown: Speak to a Sailor in the harbour.
 Smoke Ball: Attached to the Magcargo you can receive in a trade in one of the houses.
+Electric Gem: Hidden on the rock below the rocky wall next to the lighthouse. Requires Rock Climb.
 TM04 Calm Mind: Speak to Sabrina, who appears on the harbour lookout after Team Rocket have left the Safari Zone.
 
 ===========================================================================
@@ -624,7 +634,7 @@ Cliff Edge Gate
 ===========================================================================
 Lucky Egg: Given to you by Ethan/Lyra after the battle with them, after receiving the Storm Badge.
 Rocky Helmet: Found on the floor next to the desk.
-Heavy-Duty Boots: Found on the floor behind the fence. Requires Rock Climb.
+Heavy-Duty Boots: Found on the floor just beneath the Rock Climb wall. Requires Rock Climb.
 
 ===========================================================================
 Route 47
@@ -639,6 +649,7 @@ Quick Powder: Found on the floor on a piece of land by following the path from a
 Cliff Cave
 ===========================================================================
 TM36 Sludge Bomb: Given to you by Ethan/Lyra after defeating Proton and Petrel.
+Ground Gem: Hidden on the rock at the top left of the middle floor.
 TM37 Sandstorm: Found on the floor on the bottom floor.
 Rare Bone: Has a 10% chance to drop from a smashed rock.
 Cover Fossil: Has a 10% chance to drop from a smashed rock.
@@ -694,6 +705,7 @@ Steelixite: Given to you by Jasmine after defeating her in a rematch, after rece
 ===========================================================================
 Route 43
 ===========================================================================
+TM53 Energy Ball: Found on the floor by Surfing across the southern pond and going past the skinny tree.
 TM34 Sludge Wave: Speak to the gatehouse guard after turning off Team Rocket's radio signal.
 
 ===========================================================================
@@ -709,6 +721,7 @@ Black Belt: Speak to Wesley, who will appear on a Wednesday at the northwest of 
 ===========================================================================
 Team Rocket HQ
 ===========================================================================
+Poison Gem: Hidden in the left box of the set of cardboard boxes on the far right side of the room.
 Dubious Disc: Found on the floor on 1F, next to the computer that turns the Persian statues off.
 TM02 Dragon Claw: Given to you by Lance when you meet him on B1F.
 Toxic Orb: Found on the floor on B2F, next to the office.
@@ -725,6 +738,7 @@ Glalitite: Given to you by Pryce after defeating him in a rematch, after receivi
 Whirl Islands
 ===========================================================================
 Dragon Scale: Found on the floor on 1F, across the water when coming in from the southwest entrance.
+Water Gem: Hidden on a rock on B1F, at the southeast of the room, just south of the southeast entrance's ladder.
 Damp Rock: Found on the floor on B1F, south of the ladder that comes down from the northwest entrance.
 
 ===========================================================================
@@ -754,6 +768,7 @@ Houndoominite: Found on the floor far down the right side of the route after rec
 Dark Cave, Blackthorn Side
 ===========================================================================
 Reaper Cloth: Found on the floor at the right of the room, north of the pond.
+Ghost Gem: Hidden on one of the rocks in the area accessed via the northwest of the pond.
 Light Clay: Found on the floor at the right of the room, south of the pond.
 TM76 Stealth Rock: Found on the floor at the top-left of the room.
 
@@ -766,6 +781,7 @@ Altarianite: Given to you by Clair after defeating her in a rematch, after recei
 ===========================================================================
 Dragon's Den
 ===========================================================================
+Dragon Gem: Hidden on a rock on the small patch of land to the southeast.
 TM90 Dragon Dance: Found on the floor on the small island to the right of the shrine.
 TM59 Dragon Pulse: Given to you by Clair if you speak to her after receiving the Rising Badge but before leaving Dragon's Den.
 Draco Plate: Given to you by the Dragon's Den Elder if you defeat him after receiving the Earth Badge.
@@ -773,7 +789,8 @@ Draco Plate: Given to you by the Dragon's Den Elder if you defeat him after rece
 ===========================================================================
 Bell Tower
 ===========================================================================
-TM70 Mystical Fire: Found on the floor on 2F, near the ladder that goes up to 3F.
+TM70 Mystical Fire: Found on the floor on 2F, near the ladder that goes up to 3F, accessible after battling Suicune.
+Flying Gem: Hidden on the middle tile of the back side of the roof's spire, accessible after battling Suicune.
 Rainbow Wing: Given to you by the Wise Trio after defeating them.
 
 ===========================================================================
@@ -803,7 +820,7 @@ Metal Alloy: Found on the floor on 2F, accessible by dropping through a hole on 
 Indigo Plateau
 ===========================================================================
 Weakness Policy: Speak to the man near the Pokémon Center counter.
-Leftovers: Attached to the Carbink you can receive in a trade near the Poké Mart.
+Fairy Gem: Attached to the Carbink you can receive in a trade near the Poké Mart.
 
 ===========================================================================
 S.S. Aqua
@@ -845,6 +862,7 @@ Nothing of note.
 Viridian Forest
 ===========================================================================
 Insect Plate: Found on the floor in the alcove a little way from the exit to Pewter City.
+Venusaurite: Found on the floor in a small clearing in the southeast of the forest.
 
 ===========================================================================
 Pewter City
@@ -863,7 +881,7 @@ TM80 Rock Slide: Given to you by Brock after defeating him if you do not already
 ===========================================================================
 Route 3
 ===========================================================================
-Nothing of note.
+Charizardite Y: Found on the floor at the edge of the cliff accessible through the grass in the middle of the route.
 
 ===========================================================================
 Mt. Moon
@@ -967,7 +985,7 @@ Nothing of note.
 ===========================================================================
 Rock Tunnel
 ===========================================================================
-Nothing of note.
+Charizardite X: Found on the floor on B1F, beneath a Rock Climb wall to the southeast, accessed via the middle left or bottom left ladder between 1F and B1F.
 
 ===========================================================================
 Route 11
@@ -1048,7 +1066,7 @@ Sharpedonite: Found on the floor at the end of the sand, to the left of Seafoam 
 ===========================================================================
 Seafoam Islands
 ===========================================================================
-Nothing of note.
+Blastoisinite: Found on the floor on B4F, on a platform accessed by the ladder next to the southeastern ice block puzzle on B3F.
 
 ===========================================================================
 Seafoam Islands, Gym

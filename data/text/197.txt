@@ -2152,3 +2152,6 @@ The opposing {STRVAR_1 1, 0, 0}\nused up all its electricity!
 The {STRVAR_1 5, 1, 0} strengthened\n{STRVAR_1 8, 2, 0}’s power!
 The {STRVAR_1 5, 1, 0} strengthened\n{STRVAR_1 8, 2, 0}’s power!
 The {STRVAR_1 5, 1, 0} strengthened\n{STRVAR_1 8, 2, 0}’s power!
+{STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nwas used up!
+The wild {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nwas used up!
+The opposing {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nwas used up!

@@ -178,6 +178,7 @@ u32 LONG_CALL MoveHitUTurnHeldItemEffectCheck(void *bw, struct BattleStruct *sp,
         && (atk_item_param == move_type)
         && (sp->server_status_flag & SERVER_STATUS_FLAG_MOVE_HIT)
         && (GetMoveSplit(sp, sp->current_move_index) != SPLIT_STATUS)
+        && (sp->multi_hit_count <= 1)
     )
     {
         seq_no[0] = SUB_SEQ_REMOVE_ATTACKER_ITEM;
@@ -320,6 +321,7 @@ u32 LONG_CALL ServerWazaHitAfterCheckAct(void *bw, struct BattleStruct *sp)
                 && ((sp->server_status_flag2 & SERVER_STATUS_FLAG2_U_TURN) == 0)
                 && (sp->server_status_flag & SERVER_STATUS_FLAG_MOVE_HIT)
                 && (GetMoveSplit(sp, sp->current_move_index) != SPLIT_STATUS)
+                && (sp->multi_hit_count <= 1)
             )
             {
                 LoadBattleSubSeqScript(sp, ARC_BATTLE_SUB_SEQ, SUB_SEQ_REMOVE_ATTACKER_ITEM);

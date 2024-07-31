@@ -771,6 +771,11 @@ Indigo Plateau
 ✓ The level cap increases when first entering Will's room. This means if the player faints, they can level up to the Champion cap instead. Nuzlockes would likely count it as a wipe!
 ✓ All flags for the Berry Trees in Johto/Kanto are cleared just before the credit roll.
 
+Frontier Access / Battle Frontier
+✓ The player now gets the Vs. Recorder when they first enter in here.
+✓ The vendor selling TMs has been removed and replaced with another item one.
+✓ The Move Tutors have been replaced with one NPC who mentions the Pokémon Center tutor.
+
 S.S. Aqua
 ✓ The level cap increases when Prof. Elm gives you the ticket for the S.S. Aqua.
 ✓ Prior to boarding (in the harbour building), Looker replaces Oak and says some dialogue referencing that Team Rocket are still out and about.
@@ -880,7 +885,7 @@ Celadon City
 ✓ TM67 -> PP Up.
 ✓ Removed two level scripts from the Game Freak room so Ethan/Lyra never appear here, and changed the Sound Designer to have generic dialogue as he no longer gives the GB Sounds.
 ✓ The Game Corner uses the map from the Japanese version, but with Mr. Game inserted and dialogue written to be similar to the Crystal ones. The Coin Case can also be obtained here.
-✓ Removed the Hidden Power checker from the prize building. Moved one NPC slightly and changed his dialogue. Changed Pokémon prizes to Pikachu, Eevee and Larvitar for 500, 1000 and 2000 coins respectively. Removed the TM prizes and made the menu go straight into the held items, but the actual items are unchanged.
+✓ Removed the Hidden Power checker from the prize building. Moved one NPC slightly and changed his dialogue. Changed Pokémon prizes to Pikachu, Eevee and Larvitar for 500, 1000 and 2000 coins respectively. Changed the TM prizes to evolution items to produce a way to infinitely get the Dubious Disc, Metal Alloy, Protector and Reaper Cloth.
 
 Celadon City - Gym
 ✓ Changed the position of some of the Trainers.
@@ -996,6 +1001,7 @@ Cerulean Cave
 
 Route 28
 ✓ Moved the NPCs in the house off-map.
+✓ Moved the TM35 off map.
 
 Mt. Silver
 ✓ Reaper Cloth -> Max Revive.

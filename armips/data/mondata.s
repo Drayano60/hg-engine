@@ -16136,7 +16136,7 @@ mondata SPECIES_BISHARP, "Bisharp"
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 2, 0, 0, 0, 0
-    items ITEM_NONE, ITEM_NONE
+    items ITEM_LEADERS_CREST, ITEM_LEADERS_CREST
     genderratio 127
     eggcycles SHORT_EGG_CYCLE ? 0 : 20
     basefriendship 35

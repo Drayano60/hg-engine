@@ -21750,6 +21750,7 @@ levelup SPECIES_MARSHADOW
 	terminatelearnset
 
 levelup SPECIES_POIPOLE
+    learnset MOVE_DRAGON_PULSE, 1
     learnset MOVE_PECK, 1
     learnset MOVE_GROWL, 1
     learnset MOVE_ACID, 1
@@ -21769,8 +21770,8 @@ levelup SPECIES_POIPOLE
 
 levelup SPECIES_NAGANADEL
     learnset MOVE_AIR_CUTTER, 0
-    learnset MOVE_DRAGON_PULSE, 1
     learnset MOVE_AIR_SLASH, 1
+    learnset MOVE_DRAGON_PULSE, 1
     learnset MOVE_PECK, 1
     learnset MOVE_GROWL, 1
     learnset MOVE_ACID, 1

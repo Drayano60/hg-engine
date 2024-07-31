@@ -104,6 +104,7 @@ Heart Scale: Luvdisc
 Honey: Teddiursa, Surskit, Combee
 Iron Ball: Mawile
 Leek: Farfetch'd
+Leader's Crest: Bisharp
 Leftovers: Snorlax, Munchlax
 Light Ball: Pikachu
 Light Clay: Claydol, Golurk
@@ -1029,6 +1030,10 @@ Moon Stone: Can be purchased on 3F of the Celadon Department Store.
 Sun Stone: Can be purchased on 3F of the Celadon Department Store.
 Water Stone: Can be purchased on 3F of the Celadon Department Store.
 
+Dubious Disc: Can be purchased at the Game Corner.
+Metal Alloy: Can be purchased at the Game Corner.
+Protector: Can be purchased at the Game Corner.
+Reaper Cloth: Can be purchased at the Game Corner.
 Metronome: Can be purchased at the Game Corner.
 Silk Scarf: Can be purchased at the Game Corner.
 Wide Lens: Can be purchased at the Game Corner.

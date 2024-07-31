@@ -62,7 +62,7 @@ Route 31
 ✓ Added another Lass using a Mickey (40).
 ✓ Ethan/Lyra now battle you when they encounter you in the gatehouse (this battle does not have to be won). Afterwards, they give you TM54, False Swipe (and a quick nod to headbutting/exotic sound encounters) before leaving. The Marill is also an Azurill.
 ✓ NPC just outside Dark Cave has had his dialogue modified to remove the Flash mention.
-✓ The sleepy man now gives you a Big Nugget instead of TM44.
+✓ The sleepy man now expects to receive the Guard's Letter instead of a Pokémon with Mail. After delivering it, he will offer to teach your Pokémon the move Sleep Talk.
 ✓ The level cap increases after the Ethan/Lyra battle.
 
 Dark Cave - Violet Side
@@ -75,7 +75,7 @@ Violet City
 ✓ The school has new two NPCs who battle you at the top right. The left gives you a Silk Scarf, the right gives you TM83 Work Up. The group guy has been yeeted into the void.
 ✓ The school is now a unique location (for summary screen).
 ✓ Primo has been changed to give you a Pansage, Pansear or Panpour, depending on how you answer his question.
-✓ Changed the Juggler outside the Pokémon Center to be able to sell you different berry sets A/B/C/D/E. Each set sells you 5x of each berry in it, the five combined cover every berry in the game. Set A is always active, B/C/D/E become available with 2/4/6/8 Badges respectively.
+✓ Changed the Juggler outside the Pokémon Center to now act as a Poké Mart-esque that sells all of the basic Berries.
 ✓ Edited dialogue of two NPCs, in a house and in the Pokémon Center, to remove text saying traded Pokémon would disobey (as that mechanic has been removed in Aurora Crystal).
 ✓ The Kimono Girl who talks to you after collecting Togepi's Egg now gives you a new item called the Stellar Stone, which can evolve Eevee. She also asks you to pick what evolution you'd like Eevee to evolve into; there's a Don't mind option that if picked will just evolve the Eevee randomly.
 ✓ Earl now gives you a Sitrus Berry before leading you to the school if you answer "No".
@@ -89,6 +89,8 @@ Violet City
 - Added an NPC and an Eevee in the Pokémon Center who asks you what she should evolve her Eevee into. Picking a specific Eeveelution will make the Mystery Stone always evolve Eevee into the chosen one. Then removed it later.
 ✓ After doing the prerequisite event at Sinjoh Ruins, a trigger is activated in front of the Trainers' School which leads to a Uxie encounter. This trigger will keep working until Uxie is caught. It appears at Level 70.
 ✓ Uxie drops the Mind Plate when caught.
+✓ Rare Candy -> White Herb.
+✓ Added some extra trees near the Apricorn tree that yield 20x of all of the basic berries. The flag resets when beating the Pokémon League.
 
 Sprout Tower
 ✓ The tile permissions have been changed so battles now display an indoor floor instead of a cave.
@@ -235,7 +237,6 @@ Route 34
 ✓ Made some trainers compulsory. The policeman will now challenge you at any time of day (removed the second one that swaps out with him).
 ✓ Added an item ball with the Mystic Water.
 ✓ Added an Ethan/Lyra battle on top of the existing script. They give you an Eviolite when defeated.
-✓ The Ace Trainers now give you an Ability Patch instead.
 ✓ The first time you talk to the Day-Care Man, he'll give you an "Odd Egg" which can be any of the baby Pokémon except for Togepi. The Pokémon will always have its hidden ability.
 ✓ The Teleport Gem is disabled after entering the Day-Care with Ethan/Lyra until after leaving and talking with the Day-Care Man.
 ✓ The level cap increases after the Ethan/Lyra battle.
@@ -252,8 +253,7 @@ Goldenrod City
 ✓ NPC on 5F's dialogue is edited as she previously referenced the above lady giving TMs. Another NPC's dialogue is also edited as it referenced being unable to change nicknames on traded Pokémon.
 ✓ 5F now sells most of the evolution stones except for the Shiny, Dusk and Dawn Stones. All instances of "TM Corner" in the text are changed to "Stone Emporium".
 ✓ Daily Drawing Corner on 6F now awards PP Up as the first prize on every day.
-✓ The Bike Shop is now a "property for sale". Inside you find the Karate King who is looking at the property and will challenge you to a battle. Defeating him yields a Lv. 15 Tyrogue with a Focus Band. There's also a second NPC in the room for some extra context.
-✓ This Fighting Dojo area also includes three Move Tutors for Fire Punch, Thunder Punch and Ice Punch respectively.
+✓ The Bike Shop is now a "property for sale". Inside you find the Karate King who is looking at the property and will challenge you to a battle. Defeating him yields a Lv. 15 Tyrogue with a Focus Band. There's also a second NPC in the room for some extra context, and a third that mentions the Game Corner sells the elemental punch TMs.
 ✓ Items changed in Dept Store basement. Burn Heal -> Amulet Coin, Ultra Ball -> Scope Lens. Ether -> TM57 Charge Beam.
 ✓ Edited NPC in city's dialogue that mentioned Bike Shop. Also edited one that talked about the name rater.
 ✓ Name Rater tent is now a Fortune Teller tent. The NPC inside awards you a Twisted Spoon and then just waffles. Maybe I could do something more here?
@@ -263,7 +263,7 @@ Goldenrod City
 ✓ Added an NPC in the train station who gives you a Magnet.
 ✓ Edited dialogue in the PC that mentioned communication stuff.
 ✓ Bill gives you an Upgrade instead of the Eevee, with some new dialogue to match.
-✓ Added a herb seller in the flower shop who sells the Power Herb, White Herb and Mental Herbs.
+✓ Added a Beauty in the Flower Shop who gives you a Mental Herb.
 ✓ Evicted the residents of the top right house and changed it to a dark, abandoned house. There's a TV in there with a Rotom encounter at Lv. 20. There's also a book on the table that acts as a Rotom Catalog equivalent.
 ✓✓ The above uses a significantly simplified script than the actual form changing in Saffron, as it only seems to really require one command.
 ✓ Lt. Surge shows up in the Magnet Train Station after defeating Team Rocket at the Safari Zone. He gives you TM24 Thunderbolt.
@@ -293,6 +293,9 @@ Route 35
 ✓ Added a new Ace Trainer using a Mickey (167).
 ✓ Changed text of Picnicker Kim to mention the Global Terminal (she has Alolan Vulpix).
 ✓ Added an item ball containing TM67 Smart Strike across the pond.
+✓ The gatehouse guard (between Goldenrod/Route 35) now gives you a Key Item called the Guard's Letter instead. After delivering it to his friend on Route 31, he'll then offer you Kenya the Spearow (who no longer holds Mail).
+✓ Moved the Paralyze Heal off map.
+✓ Added some trees that give 20x of Lum and Sitrus Berries. The flags reset when beating the Pokémon League.
 
 National Park
 ✓ Made the BCC staff appear all the time. Changed the script to always allow the BCC and assume it's Tuesday by modifying Function#3 in Script File 151 to remove the daily flag check (2727) and set the day of week variable to always be 2 (Tuesday).
@@ -312,6 +315,7 @@ Pokéathlon Dome
 ✓ Added TM27 Low Sweep on the lower end of the map.
 ✓ The prize counter no longer works until Lance is beaten.
 ✓ Removed the hidden Protein.
+✓ Added a Red Card item ball on the lookout.
 
 Goldenrod City - Gym
 ✓ Added two new Trainers, a Hiker (168) and an Ace Trainer (169) using Mickeys.
@@ -334,8 +338,6 @@ Ecruteak City
 ✓ Added an NPC in one of the new houses that gives you a Fairy Feather.
 ✓ Added a trade in one of the new houses for a Kecleon in exchange for any Normal-type.
 ✓ Changed the secondary mart to point to Cherrygrove's instead, as the Ecruteak one is repurposed for something else.
-✓ In the same house as the Kecleon trade, a Super Nerd wants to conduct 'experiments'. This involves three battles, that award TM17 Protect, a Red Card OR Eject Button, and a Poipole respectively.
-✓✓ The second battle requires the Mineral Badge, and the third battle requires the Rising Badge.
 
 Route 38
 ✓ Added a blockade featuring Miltank to block you from moving onto Route 39 until Morty is defeated.
@@ -363,6 +365,7 @@ Route 42
 ✓ Dubious Disc -> TM88 Air Slash.
 ✓ Super Potion -> Rare Candy and moved behind the Cut tree.
 ✓ Edited the Suicune script here so it no longer activates the stuff in Vermilion City. (The one here also gets disabled after defeating the Kimono Girls).
+✓ Added a Berry Tree here that gives Custap Berries.
 
 Mahogany Town
 ✓ Route 43 is blocked off until after Jasmine.
@@ -426,6 +429,7 @@ Route 39
 ✓ Removed the Green Apricorn tree next to the farmhouse.
 ✓ Added an NPC next to the farmhouse who sells the player Tart, Sweet and Syrupy Apples for $1k, $1k and $2k respectively.
 ✓ Added a hidden Normal Gem in one of the hay piles in the barn.
+✓ Added some berry trees to give the berries that have no purpose outside of Natural Gift.
 
 Olivine City
 ✓ Added an NPC in the diner who gives you Leftovers. (This NPC was later yeeted into the void in favour of the gift in Mahogany).
@@ -508,9 +512,10 @@ Route 47
 ✓ Added a bunch of Rocket grunts to fight that appear until the Rocket event is over (using Flag 2175), all using Mickeys.
 ✓ Added a small event with Silver when you exit the Cliff Cave from the top exit.
 ✓ Wave Incense -> Smooth Rock.
-✓ White Flute -> Metal Powder. Added a Quick Powder item ball next to it.
+✓ White Flute -> Metal Powder. Added a Quick Powder item ball next to it. Then moved them to the grass above the waterfall instead.
 ✓ Revive -> Sticky Barb.
 ✓ The Embedded Tower warp point is now handled a bit differently. By default it points to Kyogre's. After catching Kyogre, var 0x40F9 is set to 11 and it'll link to Groudon's. After catching Groudon, 0x40F9 returns to 4 and it then links to Rayquaza's room from then on.
+✓ Added some berries on the land accessible via a waterfall that give the type resist berries.
 
 Embedded Tower
 ✓ Kyogre now appears at Level 80. It will respawn upon entering the area until caught. After catching it, a variable is set allowing the Groudon room to be accessed.
@@ -538,13 +543,15 @@ Safari Zone
 ✓ The Wetland and Marshland have been renamed to the Tundra and Ruins areas respectively to increase the level of variety. This will need map changes but they aren't in yet and are quite tricky... I've changed both maps to just be the Plains one for now.
 ✓ Speaking to Baoba with Meltan leading the party will trigger some unique dialogue. Speaking to him again after earning the Rising Badge will get the player the Mystery Box, which can be used to evolve Meltan.
 ✓ The level cap increases after Baoba's dialogue concludes.
+✓ Baoba gives the player TM17 Protect when they leave a Safari Game for the first time.
 
 Safari Zone Gate (Normal)
 ✓ Changed out the no talking lady/Kangaskhan for an old couple who sells 'crafted' items, including the Auspicious Armor, Malicious Armor, Galarica Cuff, Galarica Wreath and Shell Bell.
-✓ Changed the bottom left lady to give TM74, Pollen Puff. Her Butterfree is now a Jumpluff.
+✓ Deleted the top-left Gentleman and his Jigglypuff. Changed the bottom left lady to give TM74, Pollen Puff. Her Butterfree is now a Jumpluff. Moved them to the top left.
 ✓ Added a new shopkeeper that uses what was previously Celadon's TM store. This sells a bunch of evolution items, some new at this point and some not: Shiny Stone, Dusk Stone, Dawn Stone, Oval Stone, King's Rock, Linking Cord, Prism Scale, Sachet, Upgrade and the Whipped Dream.
 ✓ The bottom shopkeeper now sells incenses instead of vitamins and has a Munchlax next to him.
 ✓ Added a kid with a DS in the Pokémon Center who gives you a Linking Cord.
+✓ Added a Juggler with an Exeggcute on the bottom left stall who sells the Sitrus, Lum and EV reduction berries.
 
 Olivine City - Gym
 ✓ The Gentleman and Lass are now actual Trainers using Mickeys (304, 305).
@@ -560,7 +567,8 @@ Route 43
 ✓ Added a new Bug Catcher with a Mickey (180).
 ✓ Fisherman Marvin's dialogue is modified to reflect his new shiny Magikarp.
 ✓ TM36 -> TM34.
-✓ Swapped positions of Apricorn tree and Max Ether, then Max Ether -> TM53 Energy Ball.
+✓ Swapped positions of Apricorn tree and Max Ether, then Max Ether -> TM53 Energy Ball. Then moved Apricorn tree off map.
+✓ Added five Berry trees for the taste berries.
 
 Lake of Rage
 ✓ North of the lake (where the Choice Specs were previously), there's a sign with some writing. Talk to it at night with an Odd Keystone in your inventory, and a Lv. 40 Spiritomb will appear. After Spiritomb is caught, the sign text changes, the Odd Keystone is removed from the player's inventory and nothing else can happen there. If Spiritomb is not caught, the sign remains as-is and the Odd Keystone is not removed.
@@ -631,6 +639,11 @@ Radio Tower
 ✓ DJ Mary now gives you three Throat Sprays instead of the Bright Powder.
 ✓ The Teleport Gem is disabled after defeating Giovanni until you've spoken to Looker.
 ✓ The level cap increases after the Giovanni battle.
+✓ Added an Eject Button item ball on 5F.
+✓ Added a female scientist on 2F who talks about Ultra Wormholes.
+✓✓ If spoken to after receiving the Rising Badge, she mentions about something weird on the observation deck.
+✓✓ Going to the observation deck after this results in a small event where a Poipole appears. You can simply catch it without battling. It's at Level 40.
+✓✓ The scientist disappears during the Rocket takeover, and also disappears from 2F while she's on the observation deck.
 
 Goldenrod Tunnel (Rocket)
 ✓ Full Heal -> Magmarizer.
@@ -663,11 +676,10 @@ Blackthorn City - Gym
 ✓ Clair no longer disappears from the Gym.
 
 Dragon's Den
-✓ Dragon Fang -> TM90 Scale Shot.
+✓ Dragon Fang -> TM90 Dragon Dance.
 ✓ The Twins are replaced with a Double Team, with dialogue referencing Dragon's Den (the TV Show).
 ✓ Clair's dialogue in the shrine is edited to remove the obedience part.
 ✓ The Elder's Dratini gift is now a random Dragon-type psuedo legend. Answering the Elder's quiz correctly means it has its Hidden Ability.
-✓ One of the old man has been yeeted and his dialogue added to the other old man's. In his place is an old woman who can teach a Pokémon Dragon Dance.
 ✓ The call from Elm that occurs after leaving Dragon's Den now mentions Mega Evolution.
 ✓ Clair now awards you 5 League Points after you earn the Rising Badge and mentions that you can teach moves at the Pokémon Center.
 ✓ The Teleport Gem is disabled after finishing the quiz until you leave and take Elm's call outside.
@@ -729,6 +741,7 @@ Route 26
 ✓ After doing the prerequisite event at Sinjoh Ruins, a trigger is activated slightly in front of the Victory Road gate which leads to an Azelf encounter. This trigger will keep working until Azelf is caught. It appears at Level 70.
 ✓ Azelf drops the Fist Plate when caught.
 ✓ The level cap increases after the Ethan/Lyra battle.
+✓ Added some berries between the ledges near the VR gatehouse that give the stat increase berries.
 
 Victory Road
 ✓ TM79 -> TM64 Explosion. TM26 -> Metal Alloy (and moved slightly). Max Revive -> TM50 Overheat. Full Restore -> TM71 Stone Edge. HP Up -> PP Max. Removed the hidden Zinc.
@@ -756,6 +769,7 @@ Indigo Plateau
 ✓ Vito is found inside the Pokémon League building. After speaking to him, he'll return to Blackthorn City and enable the Winstrate challenge.
 ✓ After defeating the Winstrates, speaking to the sign outside while facing upwards will cause Victini to pop up and battle with the player (at Level 60). This can be repeated each time the area is entered until Victini is caught.
 ✓ The level cap increases when first entering Will's room. This means if the player faints, they can level up to the Champion cap instead. Nuzlockes would likely count it as a wipe!
+✓ All flags for the Berry Trees in Johto/Kanto are cleared just before the credit roll.
 
 S.S. Aqua
 ✓ The level cap increases when Prof. Elm gives you the ticket for the S.S. Aqua.
@@ -768,6 +782,12 @@ S.S. Aqua
 ✓✓ The above will continue to happen each voyage until Darkrai is caught, after which the bed will just heal the player as it normally does.
 ✓✓ Darkrai drops the Dread Plate when caught.
 
+Route 1
+✓ Removed the Black Apricorn tree in favour of a Berry Tree that gives Enigma Berries.
+
+Viridian City
+✓ The man by the Cut tree no longer gives an item.
+
 Pewter City
 ✓ There's a new Hiker in the Pewter Museum who mentions clues he found in the Ruins of Alph. This enables the Regi events.
 ✓ The old man who normally gives you the Silver Wing has been replaced with an old woman who tells you a bit about Cresselia. This unlocks the Cresselia encounter on Route 12 by clearing one of the two flags.
@@ -775,6 +795,7 @@ Pewter City
 ✓ Steven appears in the Pewter Museum after he gives you the Mega Stones for the Hoenn starters. Speaking to him here will cause him to give you the Latiasite and Latiosite, before leaving to go back to Silph Co.
 ✓ The researcher now just says a line about how you can extract Fossils at the Ruins of Alph instead.
 ✓ Speaking to the researcher while the Enigma Stone is in your inventory will give a different prompt which will result in the player being given a Soul Dew in the Enigma Stone's place.
+✓ Changed the trade NPC in the Pokémon Center to a generic dialogue NPC.
 
 Pewter City - Gym
 ✓ Added two new Trainers using Mickeys (508, 511).
@@ -793,6 +814,7 @@ Mt. Moon
 ✓ The battle background is changed to the dark cave one (matching the upper floor).
 ✓ When initially viewing the Clefairy event on Monday 8pm - Tuesday 4am, instead of a Moon Stone dropping, a Jirachi will appear. It is encountered at Level 60.
 ✓ If Jirachi is defeated or run from, it will appear again the next time the Clefairy event happens. If caught, subsequent Clefairy dances instead drop the Moon Stone as normal.
+✓ Added a Moon Stone item ball (reusing the flag from the Viridian Forest Blue Flute).
 
 Cerulean City - Gym
 ✓ The NPCs are no longer missing from this Gym, meaning you can take it on immediately.
@@ -801,9 +823,23 @@ Cerulean City - Gym
 ✓ Changed Misty's dialogue depending on if you met her previously. She also gives TM55 Scald here only if you don't already have it.
 ✓ Misty also gives you the Gyaradosite when defeated.
 
+Route 24
+✓ Added a Berry Tree for Micle Berries.
+
+Route 25
+✓ Bill's grandfather now just has standard dialogue and no longer gives out stones.
+
+Route 5
+✓ The NPC in the underground path has been moved off map.
+
+Route 6
+✓ TM62 -> Hyper Potion and then moved off map. Later repurposed in the Pokéathlon Dome.
+✓ Added a Berry Tree to give Starf Berries.
+
 Vermilion City
 ✓ Steven now appears and talks to you after leaving the Gym after Lt. Surge is beaten. Latias and Latios will start roaming Kanto after this event. They are both Level 70.
 ✓ Removed the hidden Iron in the harbour.
+✓ Luck Incense -> Rare Candy.
 
 Vermilion City - Gym
 ✓ Moved the Trainers a bit.
@@ -813,25 +849,38 @@ Vermilion City - Gym
 Diglett's Cave
 ✓ The Earth Plate is found on one of the upper ledges.
 ✓ Removed the hidden Calcium.
+✓ Rock Incense -> Nugget.
 
 Power Plant
 ✓ As the required flags are set, it now always uses the primary map for the Power Plant.
 ✓ All overworlds are deleted, the room is dark and with different music.
 ✓ Zapdos is now found here at Level 70. It will reappear after re-entering the area unless caught.
 
+Route 9
+✓ TM91 -> Expert Belt.
+✓ Moved Light Clay off map.
+✓ Added a Berry Tree for Jaboca Berries.
+
 Route 10
 ✓ Removed the hidden Carbos.
+✓ TM69 -> Muscle Band.
 
 Route 8
 ✓ Changed Gentleman Milton's position so he isn't compulsory.
+✓ TM41 -> Toxic Orb and moved into the fenced grassy area.
 
 Celadon City
 ✓ Changed Dept Store 2F shops to #23 and #4 as #18 and #19 are repurposed. Selection is similar but reduced amount of healing items.
 ✓ Changed Dept Store 3F to sell the basic evolutionary stones instead of TMs. Changed references to 3F TM Shop to 3F Stone Emporium.
+✓ Dept Store 4F sells the same items but uses a different shop ID, as its original shop got repurposed for a Safari Zone shop.
 ✓ Changed Dept Store 5F shop to #29 (Mahogany shop) which now has the X items. The right shop is now #6 as the original #23 is repurposed.
 ✓ Reversed the old man's dialogue outside the Gym to be the FR/LG version.
 ✓ Eusine is in the Pokémon Center. If spoken to after catching Raikou, Entei and Suicune, he'll leave, activating another event at the Bell Tower.
 ✓ The old man across the pond gives the Toxic Plate when spoken to.
+✓ TM67 -> PP Up.
+✓ Removed two level scripts from the Game Freak room so Ethan/Lyra never appear here, and changed the Sound Designer to have generic dialogue as he no longer gives the GB Sounds.
+✓ The Game Corner uses the map from the Japanese version, but with Mr. Game inserted and dialogue written to be similar to the Crystal ones. The Coin Case can also be obtained here.
+✓ Removed the Hidden Power checker from the prize building. Moved one NPC slightly and changed his dialogue. Changed Pokémon prizes to Pikachu, Eevee and Larvitar for 500, 1000 and 2000 coins respectively. Removed the TM prizes and made the menu go straight into the held items, but the actual items are unchanged.
 
 Celadon City - Gym
 ✓ Changed the position of some of the Trainers.
@@ -841,10 +890,12 @@ Celadon City - Gym
 Route 11
 ✓ The Snorlax in front of Diglett's Cave no longer appears.
 ✓ Swapped the positions of Youngster Owen and Psychic Fidel so you see the lower leveled mon first.
+✓ TM86 -> Shiny Stone.
 
 Rock Tunnel
 ✓ The darkness is now the reduced version that doesn't need Flash.
-✓ B1F: Iron -> Charizardite X. Removed the hidden HP Up.
+✓ 1F: TM56 -> Iron.
+✓ B1F: Iron -> Charizardite X. Oval Stone -> Dusk Stone. Removed the hidden HP Up.
 
 Lavender Town
 ✓ After doing the prerequisite event at Sinjoh Ruins, a trigger is activated in front of the House of Memories which leads to a Mesprit encounter. This trigger will keep working until Mesprit is caught. It appears at Level 70.
@@ -858,10 +909,16 @@ Route 12
 ✓ After talking to the old woman in Pewter City, Cresselia will appear at the end of one of the bridges near the Route 11 exit at any time between 8pm and 3.59am. It'll respawn when entering the route at these times until caught.
 ✓✓ This is done by clearing Cress's flag at those times, and setting it at the other times, only if the old woman was spoken to first and Cresselia hasn't already been caught.
 ✓ Once Cresselia is caught, the player will receive the Lunar Feather, which can then be used in the Darkrai event.
+✓ Yellow Flute -> Sun Stone.
+✓ Swapped the Super Rod gift for 10 Lure Balls and modified the dialogue a little.
 
 Route 13
 ✓ Changed Pokéfan Alex to look up/left so he isn't compulsory.
 ✓ Removed the hidden Calcium.
+
+Route 15
+✓ Rose Incense moved off map and then repurposed in the Radio Tower.
+✓ Added a Berry Tree for Rowap Berries.
 
 Fuchsia City - Gym
 ✓ Swapped Janine's position with another Trainer.
@@ -880,6 +937,7 @@ Saffron City - Gym
 
 Route 19
 ✓ The workers/barriers have been removed altogether, meaning the route is accessible even before defeating Blaine.
+✓ TM55 -> Water Stone.
 
 Route 20
 ✓ Changed Swimmer Leona to swim up and down so she isn't compulsory.
@@ -890,12 +948,13 @@ Cinnabar Island
 ✓ Heatran can be battled here. It is at Level 70. It will respawn upon entering the area until caught.
 ✓ Heatran drops the Iron Plate when caught.
 ✓ The level cap increases when Blue notes your badges and leaves for Viridian's Gym.
+✓ Magmarizer -> Fire Stone.
 
 Seafoam Islands
 ✓ 1F: Removed the hidden Escape Rope.
 ✓ Articuno is now found at Level 70. It now reappears after leaving the area unless caught.
-✓ B3F: TM13 -> Blastoisinite and moved slightly.
-✓ B4F: Removed the Zinc hidden under Articuno.
+✓ B2F: Water Stone -> Ice Stone.
+✓ B4F: TM13 -> Blastoisinite and moved slightly. Removed the Zinc hidden under Articuno.
 
 Seafoam Islands - Gym
 ✓ Changed the Scientists into the D/P Scientists, as the HG/SS ones are now using the Rocket music.
@@ -918,7 +977,7 @@ Pallet Town - Oak's Lab
 Viridian Forest
 ✓ After talking to the scientist at Oak's lab, upon entering the area you will hear Mew's cry. You can then find it sitting in Viridian Forest, but it'll move locations three times, each time you talk to it. After the third time, it'll move to the tree in front of the bottom gate, at which point it'll battle you when you talk to it. It's at Lv. 60. The event will restart in its entirety when Viridian Forest is left and re-entered until Mew is caught.
 ✓ The Insect Plate is found inside an alcove near the Pewter exit.
-✓ TM77 -> Venusaurite.
+✓ TM77 -> Venusaurite. Blue Flute moved off map. Dire Hit -> Big Root.
 
 Cerulean Cave
 ✓ Upon entering, Looker (disguised as a Rocket Grunt) will call you over and after some dialogue, give you some Max Repels.
@@ -928,20 +987,27 @@ Cerulean Cave
 ✓ The near end of the third floor has you go against Archer/Ariana with Silver as a partner.
 ✓ Following this, there's a small event where Silver battles Giovanni and loses. You then get to challenge Giovanni yourself in a b2b2b, featuring Mega Mewtwo X, Mega Mewtwo Y, and then a full team of six (no healing between).
 ✓ After defeating Giovanni, everyone leaves and Blue invites you to Mt. Silver, which now unlocks.
-✓ Mewtwo is now Lv. 80, and will reappear when leaving the area until caught. Upon catching it, you'll get a Mewtwonite X and Mewtwonite Y.
+✓ Following Silver's defeat at Mt. Silver, Mewtwo will appear to be battled. Mewtwo is now Lv. 80, and will reappear when leaving the area until caught. Upon catching it, you'll get a Mewtwonite X and Mewtwonite Y.
 ✓ The visible items on 2F have been removed (TM24, PP Up, Odd Incense, Ultra Ball).
 ✓ Following Silver's defeat at Mt. Silver, five Carbink will appear in this room. The one in the big clearing will have text saying it's a bit lonely. Speaking to the other four Carbink (which replaced the items), and then the Carbink in the center will result in a small cutscene that reveals Diancie, who can then be battled.
 ✓ Diancie is found at Level 70. It reappears after leaving the area unless caught. After being caught, the player automatically finds a Diancite.
 ✓ Removed the hidden Protein and Zinc on 2F.
+✓ Sea Incense -> PP Up. Electirizer -> Ultra Ball. Dusk Stone -> Rare Candy. Black Sludge -> Life Orb.
+
+Route 28
+✓ Moved the NPCs in the house off-map.
 
 Mt. Silver
+✓ Reaper Cloth -> Max Revive.
 ✓ Added a trade in the Pokémon Center for a Heracross in exchange for any Dragon-type.
 ✓ Outside the cave entrance, Silver is waiting for the player and will challenge them to one last battle, disappearing afterwards. This also changes the story variable for the level script at the Mt. Silver summit.
-✓ Defeating Silver also unlocks the Diancie event in Cerulean Cave.
+✓ Defeating Silver also unlocks the Diancie event in Cerulean Cave and makes Mewtwo reappear for capture.
 ✓ The level cap increases after the Silver battle.
 
 Mt. Silver Cave
-✓ Lower Mountainside: Escape Rope -> Max Elixir.
+✓ 1F: Expert Belt -> Focus Sash.
+✓ Lower Mountainside: Escape Rope -> Max Elixir. Moved that to where TM76 is, moved TM76 off map.
+✓ Snowy Mountainside: Pure Incense -> Rare Candy.
 ✓ At the summit, you'll battle against Blue, Lance, Steven and Cynthia (in any order). Blue explains the rules to you once you enter the peak, and following that you can talk to the Champions to battle them.
 ✓ Each Champion gives you a Mega Stone the first time you win against them. (Blue = Tyranitarite, Lance = Salamencite, Steven = Metagrossite, Cynthia = Garchompite.)
 ✓ Following the fourth battle, you'll be told that there's another challenger - at which point you step to the end of the summit and fight Red as normal, with the credits rolling afterward.
@@ -956,6 +1022,9 @@ Sinjoh Ruins
 ✓ Returning to the center of the stage after catching Uxie/Mesprit/Azelf will result in the player being gifted the Red Chain, and a variable being set to make the stage light up. After this, the player can step on one of the patterns to summon either Dialga, Palkia or Giratina, who are encountered at Level 80. If they are run from or defeated, the pattern can be stepped on to call them again. The Pokémon also drop the Adamant Orb, Lustrous Orb and Griseous Orb respectively after they are caught.
 ✓ After catching Dialga, Palkia and Giratina, going to the center of the stage will result in Arceus giving you a new mission to seek out the Plates. Cynthia appears immediately after this to give a bit more context, and gives the player the Pixie Plate.
 ✓ The Icicle Plate is found near the lodge.
+✓ After collecting all the Plates, standing in the center of the stage will give the player the Azure Flute, and they'll be asked to "seek out all Pokémon".
+✓ After x Pokémon have been obtained, the player can stand in the center of the stage and play the Azure Flute to summon Arceus. It then appears as a regular encounter which will reappear after leaving and reentering the area.
+✓ If Arceus is successfully caught, the game will save and the credits will roll.
 
 Miscellaneous
 ✓ Scripts for overworld usage of HMs has been adjusted.

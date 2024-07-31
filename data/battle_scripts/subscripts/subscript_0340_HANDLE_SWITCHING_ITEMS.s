@@ -15,6 +15,7 @@ _000:
 
 _029:
     Call BATTLE_SUBSCRIPT_FORCE_TARGET_TO_SWITCH_OR_FLEE
+    RemoveItem BATTLER_CATEGORY_MSG_TEMP /**** AURORA CRYSTAL: Added Red Card removeitem. */
 
 _031:
     End 

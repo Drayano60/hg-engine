@@ -48,6 +48,7 @@ As hg-engine is still an ongoing project, some moves have not been fully moderni
 - Multi-hit moves (Double Slap, Rock Blast etc) still have the same chance to hit 2/3/4/5 times as Generation IV.
 - Pay Day's payout is still determined by the Pokémon's level at the time of use instead of its level at the end of the battle.
 - Payback's damage is still doubled against an opponent that switches in on the same turn.
+- Protect and its equivalents still have the halved chance on each consecutive use, instead of the one-third from later generations. 
 - Psych Up does not yet copy the effect of Focus Energy.
 - Rampage moves (Thrash, Outrage etc) do not yet cancel if the move fails to connect for whatever reason.
 - Roost does not make a pure Flying-type into a Normal-type yet. Instead, it effectively becomes typeless during damage calculation.

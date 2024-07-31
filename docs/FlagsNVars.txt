@@ -49,7 +49,7 @@ NPCs:
 2156 - Bruno was spoken to in the Elite Four at least once.
 2157 - Choice Specs gift on Route 27.
 2158 - Weakness Policy gift in Pokémon League.
-2159 - TM17 gift in Safari Zone Gate.
+2159 - TM17 gift in Safari Zone Gate from Baoba.
 2160 - Linking Cord gift in Safari Zone Gate.
 2161 - TM20 gift in Mahogany Town.
 2162 - Castform gift in Mahogany Town.
@@ -206,6 +206,8 @@ NPCs:
 2275* - Diancie in Cerulean Cave
 1262*, 1263*, 1264*, 1265* are used for the individual Carbink.
 2276 - Steven initial conversation in Silph Co (later).
+2277 - Lure Ball gift from Fisherman on Route 12.
+2278 - Mental Herb gift in Goldenrod City.
 
 2230 - Heart Scale on Route 47 [UNUSED]
 2231 - Heart Scale on Route 40 [UNUSED]
@@ -276,6 +278,26 @@ NPCs:
 2650 - Used to invalidate level cap if set.
 2651 - Supply Counter has mentioned the Champion change.
 
+2652 - Oran Berry tree in Violet City.
+2653 - Cheri/Pecha Berry tree in Violet City.
+2654 - Chesto/Persim Berry tree in Violet City.
+2655 - Aspear/Rawst Berry tree in Violet City.
+2656 - Lum Berry tree on Route 35.
+2657 - Sitrus Berry tree on Route 35.
+2658,2659,2660,2661,2662 - Berry trees on Route 43.
+2663,2664,2665 - Berry trees on Route 39.
+2666,2667,2668,2669,2670,2671 - Berry trees on Route 47.
+2672,2673,2674 - Berry trees on Route 26.
+2675 - Berry tree on Route 42.
+2676 - Berry tree on Route 6.
+2677 - Berry tree on Route 9.
+2678 - Berry tree on Route 15.
+2679 - Berry tree on Route 25.
+2680 - Berry tree on Route 1.
+
+2681* - Poipole + scientist on Radio Tower 5F.
+2682 - Same scientist on Radio Tower 2F.
+
 373 - This is the flag in the base game to signal Suicune has been caught. This is set during the Bell Tower event if Suicune is caught.
 
 Triggers:
@@ -316,7 +338,7 @@ Triggers:
 16726 (0-2) - Used for Violet Gym guide. Same again as above...
 
 16734 (0-24) - Used to control the value of the level cap.
-16735 (0-4) - Used for the research guy in Ecruteak City.
+16735 (0-4) - Used for the Poipole event in the Radio Tower.
 16736 (0-4) - Used to control met locations for GTS machines.
 
 16737 (0-3) - Dialga trigger

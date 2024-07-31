@@ -3,15 +3,17 @@ These items still need placing...
 ===========================================================================
 Black Flute, Blue Flute, Red Flute, White Flute, Yellow Flute
 
-Red Card? Eject Button?
+===========================================================================
+Item Containers
+===========================================================================
+In addition to the standard Poké Balls, hidden items and NPC gifts, there's a couple new ways to find items.
 
-Aerodactylite, Aggronite, Banettite, Blazikenite, Cameruptite, Diancie, Galladite, Garchompite, Gardevoirite,
-Heracronite, Houndoominite, Kangaskhanite, Latiasite, Latiosite, Lucarionite, Manectite, Metagrossite, Pinsirite,
-Salamencite, Sceptilite, Swampertite, Tyranitarite.
+As per later generations, any TMs or HMs are contained in a yellow Poké Ball instead.
+If you spot one of these, you can be sure that a TM is inside.
 
-Vs. Recorder.
-
-Probably need to note Kanto items better in general.
+A number of 'Berry Trees' have been added. These use the same sprite as Apricorn Trees, but without an apricorn inside.
+Checking these will yield berries, and may sometimes contain several different berries at once.
+The items given by Berry Trees will regenerate each time you challenge and win the Pokémon League.
 
 ===========================================================================
 Pokémon Improvement Items
@@ -71,26 +73,6 @@ Additionally, the items that your Mom purchases for you have also changed.
 Due to their indeterminate nature, the items have been 'stubbed out' and are obtainable in other ways.
 Limited items like the Super Potions, Moon Stone etc are replaced with Rare Candies.
 Unlimited items like the type resist berries are replaced with Poké Dolls.
-
-===========================================================================
-Berries
-===========================================================================
-Berries can be purchased from the Juggler outside Violet City's Pokémon Center.
-
-[Berry Set A - 0 Badges]
-Aspear, Cheri, Chesto, Leppa, Oran, Pecha, Persim, Rawst.
-
-[Berry Set B - 2 Badges]
-Sitrus, Lum, Figy, Wiki, Mago, Aguav, Iapapa, Razz.
-
-[Berry Set C - 4 Badges]
-Bluk, Cornn, Grepa, Hondew, Kelpsy, Magost, Nanab, Nomel, Pamtre, Pinap, Pomeg, Qualot, Rabuta, Spelon, Tamato, Weaper.
-
-[Berry Set D - 6 Badges]
-Babiri, Charti, Chilan, Chople, Coba, Colbur, Haban, Kasib, Kebia, Occa, Passho, Payapa, Rindo, Roseli, Shuca, Tanga, Wacan, Yache.
-
-[Berry Set E - 8 Badges]
-Apicot, Belue, Custap, Durin, Enigma, Ganlon, Jaboca, Lansat, Liechi, Micle, Petaya, Rowap, Salac, Starf, Watmel.
 
 ===========================================================================
 Wild Held Items
@@ -226,13 +208,30 @@ Violet City
 ===========================================================================
 Oran Berry: Attached to the Rhyhorn you can receive in a trade in the house near the Pokémon Center.
 Sitrus Berry: Speak to Earl (next to the Gym) and say you did not beat the Gym Leader.
+Oran Berry (x20): Check the top-left Berry Tree south of the Poké Mart.
+Leppa Berry (x20): Check the top-left Berry Tree south of the Poké Mart.
+Cheri Berry (x20): Check the top-right Berry Tree south of the Poké Mart.
+Pecha Berry (x20): Check the top-right Berry Tree south of the Poké Mart.
+Chesto Berry (x20): Check the bottom-left Berry Tree south of the Poké Mart.
+Persim Berry (x20): Check the bottom-left Berry Tree south of the Poké Mart.
+Aspear Berry (x20): Check the bottom-right Berry Tree south of the Poké Mart.
+Rawst Berry (x20): Check the bottom-right Berry Tree south of the Poké Mart.
 Soothe Bell: Speak to the woman in the house near the Pokémon Center.
 Teleport Gem: Given to you by the old man with the Abra as you approach Sprout Tower.
 Sharp Beak: Speak to the Youngster in the furthest left house after receiving the Zephyr Badge.
-Miracle Seed: Found on the floor between the trees next to the school. Requires Rock Smash.
 Stellar Stone: Given to you by a Kimono Girl after obtaining the Togepi egg and leaving the Poké Mart.
+Miracle Seed: Found on the floor between the trees next to the school. Requires Rock Smash.
+White Herb: Found on the floor to the right of Sprout Tower, across the water. Requires Surf.
 Mind Plate: Found automatically after catching Uxie.
-Berries: ?
+
+Oran Berry: Can be purchased from the Juggler next to the Pokémon Center.
+Leppa Berry: Can be purchased from the Juggler next to the Pokémon Center.
+Cheri Berry: Can be purchased from the Juggler next to the Pokémon Center.
+Pecha Berry: Can be purchased from the Juggler next to the Pokémon Center.
+Chesto Berry: Can be purchased from the Juggler next to the Pokémon Center.
+Persim Berry: Can be purchased from the Juggler next to the Pokémon Center.
+Aspear Berry: Can be purchased from the Juggler next to the Pokémon Center.
+Rawst Berry: Can be purchased from the Juggler next to the Pokémon Center.
 
 ===========================================================================
 Pokémon School
@@ -358,6 +357,7 @@ TM86 Grass Knot: Talk to the woman near the center of the forest. Requires Cut.
 Zap Plate: Attached to the Spiky-Eared Pichu you can receive as a gift. Requires Cut.
 Big Root: Found on the floor near where you meet the Kimono Girl. Requires Cut.
 Bug Gem: Hidden at the end of the small alcove accessible via the pond near the Route 34 exit. Requires Surf.
+Master Ball: Given to you by Kurt after inserting the GS Ball into the shrine.
 Pinsirite: Found in a gap of trees in the bottom half of the map after receiving the Key Stone.
 
 ===========================================================================
@@ -367,7 +367,7 @@ TM12 Taunt: Speak to the lady in the gatehouse between Ilex Forest and Route 34.
 Mystic Water: Found on the floor on a puddle near the daycare.
 Eviolite: Given to you by Ethan/Lyra after the battle near the daycare.
 TM43 Flame Charge: Found on the floor in the grass near Goldenrod City.
-Ability Capsule: Given to you by the three Ace Trainers at the bottom left after defeating them. Requires Surf.
+Power Herb: Given to you by the three Ace Trainers at the bottom left of the route after defeating them. Requires Surf.
 
 ===========================================================================
 Goldenrod City
@@ -381,10 +381,16 @@ Scope Lens: Found on the floor in the basement of the Department Store.
 TM57 Charge Beam: Found on the floor in the basement of the Department Store.
 Twisted Spoon: Speak to the fortune teller in the tent to the north of town.
 Magnet: Speak to the gentleman in the Magnet Train Station.
+Mental Herb: Speak to the Beauty in the Goldenrod Flower Shop.
 Sachet: Speak to a woman on 6F of the Goldenrod Department Store.
 Whipped Dream: Speak to a man on 6F of the Goldenrod Department Store.
 Wise Glasses: Found on the floor to the left of the Global Terminal.
 Coin Case: Speak to Mr. Game in the Game Corner.
+Squirt Bottle: Speak to the woman in the Flower Shop after receiving the Plain Badge.
+Upgrade: Speak to Bill, who appears here after speaking to him in Ecruteak City.
+TM24 Thunderbolt: Speak to Lt. Surge, who appears in the Magnet Train Station after Team Rocket have left the Safari Zone.
+Assault Vest: Found on the floor in the basement of the Department Store after coming up from the Goldenrod Tunnel end.
+Gracidea: Speak to Floria in the Goldenrod Flower Shop while Shaymin leads your party.
 
 Everstone: Can be purchased on 5F of the Goldenrod Department Store.
 Fire Stone: Can be purchased on 5F of the Goldenrod Department Store.
@@ -405,16 +411,6 @@ Silk Scarf: Can be purchased at the Game Corner.
 Wide Lens: Can be purchased at the Game Corner.
 Zoom Lens: Can be purchased at the Game Corner.
 
-Mental Herb: Can be purchased at the Goldenrod Flower Shop.
-Power Herb: Can be purchased at the Goldenrod Flower Shop.
-White Herb: Can be purchased at the Goldenrod Flower Shop.
-
-Squirt Bottle: Speak to the woman in the Flower Shop after receiving the Plain Badge.
-Upgrade: Speak to Bill, who appears here after speaking to him in Ecruteak City.
-TM24 Thunderbolt: Speak to Lt. Surge, who appears in the Magnet Train Station after Team Rocket have left the Safari Zone.
-Assault Vest: Found on the floor in the basement of the Department Store after coming up from the Goldenrod Tunnel end.
-Gracidea: Speak to Floria in the Goldenrod Flower Shop while Shaymin leads your party.
-
 ===========================================================================
 Goldenrod Tunnel
 ===========================================================================
@@ -431,6 +427,7 @@ Radio Tower
 ===========================================================================
 TM49 Echoed Voice: Found on the floor on 1F, between some plants.
 Blue Card: Speak to Buena on 2F.
+Eject Button: Found on the floor on 5F.
 Basement Key: Given to you by Petrel after defeating him.
 Electirizer: Found on the floor on 4F. Requires the Card Key.
 TM26 Earthquake: Given to you by Giovanni after defeating him.
@@ -441,14 +438,17 @@ TM92 Trick Room: Speak to the clown on 4F after Team Rocket have left the Radio 
 ===========================================================================
 Route 35
 ===========================================================================
+Lum Berry (x20): Check the left Berry Tree behind the fence near the National Park gatehouse.
+Sitrus Berry (x20): Check the right Berry Tree behind the fence near the National Park gatehouse.
 TM66 Payback: Found on the floor at the bottom right of the route.
 TM67 Smart Strike: Found on the floor on the path across the pond. Requires Surf.
 
 ===========================================================================
 Pokéathlon Dome
 ===========================================================================
-Muscle Band: Given to you by Magnus as you approach the entrance.
-TM27 Low Sweep: Found on the floor one one of the squares of grass.
+Muscle Band: Given to you by Magnus as you approach the dome's entrance.
+Red Card: Found on the floor in the lookout area found via the left escalator in the lobby.
+TM27 Low Sweep: Found on the floor in the outside area on one of the squares of grass.
 
 The prize counter here is absent until becoming the Champion, but otherwise is the same as normal.
 
@@ -490,9 +490,6 @@ Fairy Feather: Speak to the Beauty in one of the houses.
 Covert Cloak: Attached to the Kecleon you can receive in a trade in one of the houses.
 HM03 Surf: Given to you by a Gentleman in the Kimono Dance Theater after defeating the Rocket Grunt.
 Clear Bell: Given to you by the Kimono Girls after defeating them.
-TM17 Protect: Given to you by the Super Nerd in the northwestern house if you defeat his first battle.
-Red Card: Given to you by the Super Nerd in the northwestern house if you defeat his second battle (after earning the Mineral Badge) and select the Red Card.
-Eject Button: Given to you by the Super Nerd in the northwestern house if you defeat his second battle (after earning the Mineral Badge) and select the Eject Button.
 
 ===========================================================================
 Route 38
@@ -506,6 +503,7 @@ Route 42
 TM65 Shadow Claw: Found on the floor near the gatehouse to Ecruteak City.
 HM04 Strength: Given to you by a Hiker who bumps into you as you approach Mt. Mortar.
 TM88 Air Slash: Found on the floor when leaving one of the upper Mt. Mortar exits. Requires Rock Climb.
+Custap Berry (x2): Check the Berry Tree just below the Rock Climb wall near one of the upper Mt. Mortar exits. Requires Rock Climb.
 Heracronite: Found on the floor near the Apricorn trees after receiving the Key Stone.
 
 ===========================================================================
@@ -517,7 +515,7 @@ Protector: Found on the floor by following the path from the top-right rocky wal
 Fighting Gem: Hidden on a rock on 2F, at the southeast of the room. Requires Waterfall.
 Iron Ball: Found on the floor in the main room via access from the top-left of 2F. Requires Waterfall.
 TM52 Focus Blast: Found on the floor on B1F, at the top right of the room via access from 2F. Requires Waterfall.
-Choice Band: Given to you by Bruno on 2F, after giving him the Rage Candy Bar.
+Choice Band: Given to you by Bruno on 2F, after giving him the Rage Candy Bar. Requires Waterfall.
 
 ===========================================================================
 Mahogany Town
@@ -572,10 +570,25 @@ Route 39
 ===========================================================================
 Normal Gem: Hidden in the rightmost pile of hay in the Moomoo Farm's barn.
 TM72 High Horsepower: Found on the floor next to the silo in the farm area.
+Seal Case: Given to you by the girls in the barn after feeding Miltank a total of seven Oran Berries.
+Razz Berry: Check the top-left Berry Tree near the silo.
+Bluk Berry: Check the top-left Berry Tree near the silo.
+Nanab Berry: Check the top-left Berry Tree near the silo.
+Wepear Berry: Check the top-left Berry Tree near the silo.
+Pinap Berry: Check the top-left Berry Tree near the silo.
+Cornn Berry: Check the top-right Berry Tree near the silo.
+Magost Berry: Check the top-right Berry Tree near the silo.
+Rabuta Berry: Check the top-right Berry Tree near the silo.
+Nomel Berry: Check the top-right Berry Tree near the silo.
+Spelon Berry: Check the bottom Berry Tree near the silo.
+Pamtre Berry: Check the bottom Berry Tree near the silo.
+Watmel Berry: Check the bottom Berry Tree near the silo.
+Durin Berry: Check the bottom Berry Tree near the silo.
+Belue Berry: Check the bottom Berry Tree near the silo.
+
 Tart Apple: Can be purchased from a woman next to the farmhouse.
 Sweet Apple: Can be purchased from a woman next to the farmhouse.
 Syrupy Apple: Can be purchased from a woman next to the farmhouse.
-Seal Case: Given to you by the girls in the barn after feeding Miltank a total of seven Oran Berries.
 
 ===========================================================================
 Olivine City
@@ -642,8 +655,26 @@ Route 47
 Sticky Barb: Found on the floor to the left of the middle Cliff Cave entrance, over the bridge.
 TM84 Poison Jab: Found on the floor beneath the large sign close to the Route 48 side.
 Smooth Rock: Found on the floor on some sand near the Embedded Tower. Requires Rock Climb.
-Metal Powder: Found on the floor on a piece of land by following the path from a waterfall. Requires Waterfall.
-Quick Powder: Found on the floor on a piece of land by following the path from a waterfall. Requires Waterfall.
+Metal Powder: Found on the floor in the tall grass above one of the waterfalls. Requires Waterfall.
+Quick Powder: Found on the floor in the tall grass above one of the waterfalls. Requires Waterfall.
+Occa Berry: Check the top-left Berry Tree on the area found by following one of the waterfalls. Requires Waterfall.
+Passho Berry: Check the top-left Berry Tree on the area found by following one of the waterfalls. Requires Waterfall.
+Wacan Berry: Check the top-left Berry Tree on the area found by following one of the waterfalls. Requires Waterfall.
+Rindo Berry: Check the top-right Berry Tree on the area found by following one of the waterfalls. Requires Waterfall.
+Yache Berry: Check the top-right Berry Tree on the area found by following one of the waterfalls. Requires Waterfall.
+Chople Berry: Check the top-right Berry Tree on the area found by following one of the waterfalls. Requires Waterfall.
+Kebia Berry: Check the middle-right Berry Tree on the area found by following one of the waterfalls. Requires Waterfall.
+Shuca Berry: Check the middle-right Berry Tree on the area found by following one of the waterfalls. Requires Waterfall.
+Coba Berry: Check the middle-right Berry Tree on the area found by following one of the waterfalls. Requires Waterfall.
+Payapa Berry: Check the bottom-right Berry Tree on the area found by following one of the waterfalls. Requires Waterfall.
+Tanga Berry: Check the bottom-right Berry Tree on the area found by following one of the waterfalls. Requires Waterfall.
+Charti Berry: Check the bottom-right Berry Tree on the area found by following one of the waterfalls. Requires Waterfall.
+Kasib Berry: Check the bottom-left Berry Tree on the area found by following one of the waterfalls. Requires Waterfall.
+Haban Berry: Check the bottom-left Berry Tree on the area found by following one of the waterfalls. Requires Waterfall.
+Colbur Berry: Check the bottom-left Berry Tree on the area found by following one of the waterfalls. Requires Waterfall.
+Babiri Berry: Check the bottom-left Berry Tree on the area found by following one of the waterfalls. Requires Waterfall.
+Roseli Berry: Check the bottom-left Berry Tree on the area found by following one of the waterfalls. Requires Waterfall.
+Chilan Berry: Check the bottom-left Berry Tree on the area found by following one of the waterfalls. Requires Waterfall.
 
 ===========================================================================
 Cliff Cave
@@ -667,7 +698,19 @@ TM81 X-Scissor: Found on the floor through the path of trees near the tall grass
 Safari Zone Gate
 ===========================================================================
 HM08 Rock Climb: Given to you by Baoba after defeating Ariana and Archer.
+TM17 Protect: Given to you by Baoba after leaving a Safari Game for the first time. (You don't need to catch anything.)
 TM74 Pollen Puff: Speak to the lady with the Jumpluff after Team Rocket have left the Safari Zone.
+Mystery Box: Given to you by Baoba after first speaking to him while Meltan leads your party, then speaking to him again after receiving the Rising Badge.
+
+Sitrus Berry: Can be purchased from the bottom-left stall.
+Lum Berry: Can be purchased from the bottom-left stall.
+Pomeg Berry: Can be purchased from the bottom-left stall.
+Kelpsy Berry: Can be purchased from the bottom-left stall.
+Qualot Berry: Can be purchased from the bottom-left stall.
+Hondew Berry: Can be purchased from the bottom-left stall.
+Grepa Berry: Can be purchased from the bottom-left stall.
+Tamato Berry: Can be purchased from the bottom-left stall.
+
 Full Incense: Can be purchased from the bottom-right stall.
 Lax Incense: Can be purchased from the bottom-right stall.
 Luck Incense: Can be purchased from the bottom-right stall.
@@ -677,6 +720,7 @@ Rock Incense: Can be purchased from the bottom-right stall.
 Rose Incense: Can be purchased from the bottom-right stall.
 Sea Incense: Can be purchased from the bottom-right stall.
 Wave Incense: Can be purchased from the bottom-right stall.
+
 Shiny Stone: Can be purchased from the middle-right stall.
 Dusk Stone: Can be purchased from the middle-right stall.
 Dawn Stone: Can be purchased from the middle-right stall.
@@ -688,13 +732,13 @@ Razor Fang: Can be purchased from the middle-right stall.
 Prism Scale: Can be purchased from the middle-right stall.
 Sachet: Can be purchased from the middle-right stall.
 Upgrade: Can be purchased from the middle-right stall.
+
 Whipped Dream: Can be purchased from the middle-right stall.
 Auspicious Armor: Can be purchased from the top-right stall.
 Malicious Armor: Can be purchased from the top-right stall.
 Galarica Cuff: Can be purchased from the top-right stall.
 Galarica Wreath: Can be purchased from the top-right stall.
 Shell Bell: Can be purchased from the top-right stall.
-Mystery Box: Given to you by Baoba after first speaking to him while Meltan leads your party, then speaking to him again after receiving the Rising Badge.
 
 ===========================================================================
 Olivine City, Gym
@@ -705,6 +749,11 @@ Steelixite: Given to you by Jasmine after defeating her in a rematch, after rece
 ===========================================================================
 Route 43
 ===========================================================================
+Figy Berry (x5): Check the top-left Berry Tree near the gatehouse in the middle of the route.
+Wiki Berry (x5): Check the top-right Berry Tree near the gatehouse in the middle of the route.
+Mago Berry (x5): Check the center Berry Tree near the gatehouse in the middle of the route.
+Aguav Berry (x5): Check the bottom-left Berry Tree near the gatehouse in the middle of the route.
+Iapapa Berry (x5): Check the bottom-right Berry Tree near the gatehouse in the middle of the route.
 TM53 Energy Ball: Found on the floor by Surfing across the southern pond and going past the skinny tree.
 TM34 Sludge Wave: Speak to the gatehouse guard after turning off Team Rocket's radio signal.
 
@@ -747,13 +796,14 @@ Blackthorn City
 Dragon Fang: Found on the floor to the right of the Pokémon Center.
 Soft Sand: Speak to Santos, who will appear on a Saturday near some of the ledges.
 Throat Spray: Attached to the Vibrava you can receive in a trade in one of the houses.
+Starf Berry: Speak to Winstrate Victoria after defeating all of the Winstrates.
+
 TM14 Blizzard: Can be purchased from the Ace Trainer in the Ultimate Moves House.
 TM15 Hyper Beam: Can be purchased from the Ace Trainer in the Ultimate Moves House.
 TM22 Solar Beam: Can be purchased from the Ace Trainer in the Ultimate Moves House.
 TM25 Thunder: Can be purchased from the Ace Trainer in the Ultimate Moves House.
 TM38 Fire Blast: Can be purchased from the Ace Trainer in the Ultimate Moves House.
 TM68 Giga Impact: Can be purchased from the Ace Trainer in the Ultimate Moves House.
-Ability Patch: Speak to Winstrate Victoria after defeating all of the Winstrates.
 
 ===========================================================================
 Route 45 North
@@ -804,6 +854,12 @@ Terrain Extender: Found on the floor on a small piece of land past the southern 
 Route 26
 ===========================================================================
 Leader's Crest: Found on the floor admist the ledges below the Victory Road gatehouse.
+Liechi Berry: Check the left Berry Tree admist the ledges below the Victory Road gatehouse.
+Ganlon Berry: Check the left Berry Tree admist the ledges below the Victory Road gatehouse.
+Petaya Berry: Check the right Berry Tree admist the ledges below the Victory Road gatehouse.
+Apicot Berry: Check the right Berry Tree admist the ledges below the Victory Road gatehouse.
+Salac Berry: Check the middle Berry Tree admist the ledges below the Victory Road gatehouse.
+Lansat Berry: Check the middle Berry Tree admist the ledges below the Victory Road gatehouse.
 Fist Plate: Found automatically after catching Azelf.
 
 ===========================================================================
@@ -823,6 +879,16 @@ Weakness Policy: Speak to the man near the Pokémon Center counter.
 Fairy Gem: Attached to the Carbink you can receive in a trade near the Poké Mart.
 
 ===========================================================================
+Frontier Access
+===========================================================================
+Nothing of note.
+
+===========================================================================
+Battle Frontier
+===========================================================================
+Vs. Recorder: Given to you by the receptionist when you first enter the building.
+
+===========================================================================
 S.S. Aqua
 ===========================================================================
 Silver Wing: Given to you by the Gentleman in the cabin after his granddaughter returns.
@@ -832,16 +898,13 @@ Dread Plate: Found automatically after catching Darkrai.
 Pallet Town
 ===========================================================================
 Master Ball: Speak to Prof. Oak after receiving the Earth Badge.
-Venusaurite: Given to you by Blue after receiving the Earth Badge and speaking to Prof. Oak.
-Charizardite X: Given to you by Blue after receiving the Earth Badge and speaking to Prof. Oak.
-Charizardite Y: Given to you by Blue after receiving the Earth Badge and speaking to Prof. Oak.
-Blastoisinite: Given to you by Blue after receiving the Earth Badge and speaking to Prof. Oak.
+PP Max: Given to you by Blue after receiving the Earth Badge and speaking to Prof. Oak.
 Jade Orb: Speak to Prof. Oak after catching both Kyogre and Groudon at the Embedded Tower.
 
 ===========================================================================
 Route 1
 ===========================================================================
-Nothing of note.
+Enigma Berry (x2): Check the Berry Tree beneath the left ledge below the Viridian City gatehouse.
 
 ===========================================================================
 Viridian City
@@ -856,18 +919,21 @@ Nothing of note.
 ===========================================================================
 Route 2
 ===========================================================================
-Nothing of note.
+Big Nugget: Speak to the man in the house found just south of Diglett's Cave.
 
 ===========================================================================
 Viridian Forest
 ===========================================================================
 Insect Plate: Found on the floor in the alcove a little way from the exit to Pewter City.
+Big Root: Found on the floor just on the path around the corner from the exit to Pewter City.
 Venusaurite: Found on the floor in a small clearing in the southeast of the forest.
+Leaf Stone: Found on the floor in the southwest of the forest.
 
 ===========================================================================
 Pewter City
 ===========================================================================
-Stone Plate: Found on the floor near the Pewter Museum.
+Stone Plate: Found on the floor as a small mound to the right of the Pewter Museum.
+Wise Glasses: Found on the floor at the end of the small path to the left of the Pewter Museum.
 Latiasite: Speak to Steven in the Pewter Museum, after he initially leaves Silph Co.
 Latiosite: Speak to Steven in the Pewter Museum, after he initially leaves Silph Co.
 Soul Dew: Speak to the researcher after receiving the Enigma Stone from Steven at Silph Co.
@@ -886,7 +952,8 @@ Charizardite Y: Found on the floor at the edge of the cliff accessible through t
 ===========================================================================
 Mt. Moon
 ===========================================================================
-Nothing of note.
+Moon Stone: Found on the floor between some rocks near the Route 4 exit.
+Moon Stone: Found on the floor after seeing the Clefairy dance on a Monday evening after catching Jirachi. Repeatable.
 
 ===========================================================================
 Route 4
@@ -912,22 +979,24 @@ Nothing of note.
 ===========================================================================
 Route 25
 ===========================================================================
-Nothing of note.
+Micle Berry (x2): Check the Berry Tree found on the grassy area to the left.
 
 ===========================================================================
 Route 5
 ===========================================================================
-Nothing of note.
+Cleanse Tag: Speak to the old woman in the house on the hill.
 
 ===========================================================================
 Route 6
 ===========================================================================
-Nothing of note.
+Starf Berry (x2): Check the Berry Tree to the southwest of the pond.
 
 ===========================================================================
 Vermilion City
 ===========================================================================
+Sticky Barb: Found on the floor via the grassy path accessed via Route 11.
 Lost Item: Speak to the man at the table after having spoken to Copycat in Saffron City.
+PP Max: Speak to the man east of the Poké Mart after receiving the Earth Badge.
 
 ===========================================================================
 Vermilion City, Gym
@@ -938,17 +1007,32 @@ TM24 Thunderbolt: Given to you by Lt. Surge after defeating him if you do not al
 ===========================================================================
 Diglett's Cave
 ===========================================================================
-Earth Plate: Found on the floor on one of the upper areas close to the Pewter City exit.
+PP Max: Found on the floor just above a Rock Climb wall close to the Pewter City exit.
+Earth Plate: Found on the floor in a mound on one of the upper areas close to the Pewter City exit.
 
 ===========================================================================
 Route 7
 ===========================================================================
-Nothing of note.
+Mental Herb: Found on the floor in the small clearing above the tall grass.
 
 ===========================================================================
 Celadon City
 ===========================================================================
+Spell Tag: Speak to the man at the top floor of the Celadon Condominiums at night.
 Toxic Plate: Speak to the old man across the small pond.
+
+Everstone: Can be purchased on 3F of the Celadon Department Store.
+Fire Stone: Can be purchased on 3F of the Celadon Department Store.
+Ice Stone: Can be purchased on 3F of the Celadon Department Store.
+Leaf Stone: Can be purchased on 3F of the Celadon Department Store.
+Moon Stone: Can be purchased on 3F of the Celadon Department Store.
+Sun Stone: Can be purchased on 3F of the Celadon Department Store.
+Water Stone: Can be purchased on 3F of the Celadon Department Store.
+
+Metronome: Can be purchased at the Game Corner.
+Silk Scarf: Can be purchased at the Game Corner.
+Wide Lens: Can be purchased at the Game Corner.
+Zoom Lens: Can be purchased at the Game Corner.
 
 ===========================================================================
 Celadon City, Gym
@@ -959,7 +1043,7 @@ TM19 Giga Drain: Given to you by Erika after defeating her if you do not already
 ===========================================================================
 Route 8
 ===========================================================================
-Nothing of note.
+Toxic Orb: Found on the floor at the bottom-right of the fenced area.
 
 ===========================================================================
 Lavender Town
@@ -970,12 +1054,13 @@ Spooky Plate: Speak to Mr. Fuji in the House of Memories while Mew leads your pa
 ===========================================================================
 Route 9
 ===========================================================================
-Nothing of note.
+Jaboca Berry (x2): Check the Berry Tree just past a skinny tree in the middle of the route.
+Expert Belt: Found on the floor just past a skinny tree very close to Route 10.
 
 ===========================================================================
 Route 10
 ===========================================================================
-Nothing of note.
+Muscle Band: Found on the floor just past the Strength boulder on the Lavender side.
 
 ===========================================================================
 Power Plant
@@ -985,16 +1070,18 @@ Nothing of note.
 ===========================================================================
 Rock Tunnel
 ===========================================================================
+Dusk Stone: Found on the floor on B1F, beneath a Rock Climb wall to the southwest, accessed via the middle left or bottom left ladder between 1F and B1F.
 Charizardite X: Found on the floor on B1F, beneath a Rock Climb wall to the southeast, accessed via the middle left or bottom left ladder between 1F and B1F.
 
 ===========================================================================
 Route 11
 ===========================================================================
-Nothing of note.
+Shiny Stone: Found on the floor at the northeast of the route.
 
 ===========================================================================
 Route 12
 ===========================================================================
+Sun Stone: Found on the floor past the Cut tree to the southwest.
 Lunar Feather: Found automatically after catching Cresselia.
 
 ===========================================================================
@@ -1005,12 +1092,12 @@ Nothing of note.
 ===========================================================================
 Route 14
 ===========================================================================
-Nothing of note.
+Lucky Punch: Given to you by the woman in the grass if you show her a Chansey.
 
 ===========================================================================
 Route 15
 ===========================================================================
-Nothing of note.
+Rowap Berry (x2): Check the Berry Tree found in the middle of the ledges going away from Fuchsia City.
 
 ===========================================================================
 Fuchsia City
@@ -1026,6 +1113,7 @@ TM06 Toxic: Given to you by Janine after defeating her if you do not already hav
 ===========================================================================
 Saffron City
 ===========================================================================
+Pass: Given to you by Copycat by speaking to her after finding the Lost Item in Vermilion City.
 Gardevoirite: Speak to Mr. Psychic in the southeastern house.
 Galladite: Speak to Mr. Psychic in the southeastern house.
 Sceptilite: Speak to Steven in Silph Co. after defeating Lt. Surge and meeting Steven in Vermilion City.
@@ -1036,6 +1124,7 @@ Enigma Stone: Speak to Steven in Silph Co. after he returns from Pewter Museum a
 ===========================================================================
 Saffron City, Gym
 ===========================================================================
+Alakazite: Given to you by Sabrina after defeating her.
 TM04 Calm Mind: Given to you by Sabrina after defeating her if you do not already have it.
 
 ===========================================================================
@@ -1056,27 +1145,33 @@ Nothing of note.
 ===========================================================================
 Route 19
 ===========================================================================
-Nothing of note.
+Water Stone: Found on the floor on the small patch of sand to the southeast.
 
 ===========================================================================
 Route 20
 ===========================================================================
+Deep Sea Scale: Hidden in the water to the northwest of the left Seafoam Islands entrance.
+Deep Sea Tooth: Hidden in the water to the east of the right Seafoam Islands entrance.
 Sharpedonite: Found on the floor at the end of the sand, to the left of Seafoam Islands.
 
 ===========================================================================
 Seafoam Islands
 ===========================================================================
+Grip Claw: Found on the floor on B1F, by going north past some Strength boulders on the east of the room.
+Ice Stone: Found on the floor on B2F, accessed by the ladder with the patch of ice close to the left entrance on B1F.
 Blastoisinite: Found on the floor on B4F, on a platform accessed by the ladder next to the southeastern ice block puzzle on B3F.
 
 ===========================================================================
 Seafoam Islands, Gym
 ===========================================================================
+Cameruptite: Given to you by Blaine after defeating him.
 TM35 Flamethrower: Given to you by Blaine after defeating him if you do not already have it.
 
 ===========================================================================
 Cinnabar Island
 ===========================================================================
 Magma Stone: Found on the floor at the top of the volcano area.
+Fire Stone: Found on the floor in the volcano area by descending from a Rock Climb wall on the center.
 Iron Plate: Found automatically after catching Heatran.
 
 ===========================================================================
@@ -1087,6 +1182,7 @@ Nothing of note.
 ===========================================================================
 Cerulean Cave
 ===========================================================================
+Life Orb: Found on the floor on B1F, at the southeast of the room.
 Mewtwonite X: Found automatically after catching Mewtwo.
 Mewtwonite Y: Found automatically after catching Mewtwo.
 Diancite: Found automatically after catching Diancie.
@@ -1104,7 +1200,9 @@ Flame Orb: Attached to the Heracross you can receive in a trade in the Pokémon 
 ===========================================================================
 Mt. Silver Cave
 ===========================================================================
+Focus Sash: Found on the floor in the room directly above the waterfall near the entrance.
 Lucarionite: Found on the floor in the center of the big room behind the waterfalls when you go left from the entrance.
+Dawn Stone: Found on the floor on the snowy mountainside, above a Rock Climb wall.
 Sky Plate: Found on the floor in a snow pile at the very peak, in front of the tile Red stands on.
 Tyranitarite: Given to you by Blue after defeating him during the Champion Tournament.
 Salamencite: Given to you by Lance after defeating him during the Champion Tournament.

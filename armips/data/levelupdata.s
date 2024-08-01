@@ -23617,11 +23617,44 @@ levelup SPECIES_SPIDOPS
     terminatelearnset
 
 levelup SPECIES_NYMBLE
-    learnset MOVE_TACKLE, 1 
+    learnset MOVE_TACKLE, 1
+    learnset MOVE_LEER, 1
+    learnset MOVE_BUG_BITE, 3
+    learnset MOVE_ASTONISH, 6
+    learnset MOVE_ASSURANCE, 9
+    learnset MOVE_DOUBLE_KICK, 12
+    learnset MOVE_STRUGGLE_BUG, 15
+    learnset MOVE_SCREECH, 18
+    learnset MOVE_ENDURE, 21
+    learnset MOVE_FEINT, 24
+    learnset MOVE_AGILITY, 28
+    learnset MOVE_SUCKER_PUNCH, 32
+    learnset MOVE_FIRST_IMPRESSION, 36
     terminatelearnset
 
+// NEW: High Jump Kick
 levelup SPECIES_LOKIX
-    learnset MOVE_TACKLE, 1 
+    learnset MOVE_LUNGE, 0
+    learnset MOVE_SKITTER_SMACK, 1
+    learnset MOVE_LOW_KICK, 1
+    learnset MOVE_DETECT, 1
+    learnset MOVE_TACKLE, 1
+    learnset MOVE_LEER, 1
+    learnset MOVE_BUG_BITE, 3
+    learnset MOVE_ASTONISH, 6
+    learnset MOVE_ASSURANCE, 9
+    learnset MOVE_DOUBLE_KICK, 12
+    learnset MOVE_STRUGGLE_BUG, 15
+    learnset MOVE_SCREECH, 18
+    learnset MOVE_ENDURE, 21
+    learnset MOVE_FEINT, 25
+    learnset MOVE_AGILITY, 29
+    learnset MOVE_SUCKER_PUNCH, 33
+    learnset MOVE_FIRST_IMPRESSION, 37
+    learnset MOVE_KNOCK_OFF, 41
+    learnset MOVE_REVERSAL, 45
+    learnset MOVE_BOUNCE, 49
+    learnset MOVE_HIGH_JUMP_KICK, 53
     terminatelearnset
 
 levelup SPECIES_PAWMI

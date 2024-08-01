@@ -1060,6 +1060,10 @@ void LONG_CALL UpdatePassiveForms(struct PartyPokemon *pp)
         case SPECIES_BASCULIN:
             form = (gf_rand() % 2) + 1; // Red Basc is form 1, Blue Basc is form 2.
             break;
+        /**** AURORA CRYSTAL: Added Vivillon here. It's wild in the Safari Zone. */
+        case SPECIES_VIVILLON:
+            form = (gf_rand() % 20);
+            break;
         default:
             shouldUpdate = FALSE;
     }

@@ -29,7 +29,7 @@
                 break; \
         } \
         target = evoTable[i].target & 0x7FF; \
-        form = evoTable[i].target >> 11; \
+        form = (target == SPECIES_VIVILLON) ? (gf_rand() % 20) : (evoTable[i].target >> 11); \ /**** AURORA CRYSTAL: Spewpa evolves into a random form. */
         if (form != 0) { \
             SetMonData(ppFromParty, MON_DATA_FORM, &form); \
         } \

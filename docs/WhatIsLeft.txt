@@ -1,7 +1,7 @@
 Essentials:
 - [ ] Do a pass over all Trainers, introduce Gen 7-9 mons to teams etc. Need to also sort out teams for E4 rematches, possibly Gym Leader rematches?
 - [ ] Decide on the exact requirements on Arceus (at the very least, how many Pokémon need to be obtained.)
-- [ ] Add battle sprites for the available Pokémon still missing them, like Rockruff, Bounsweet, Steenee, and the three Paldean Tauros.
+- [ ] Add Pincurchin sprites
 - [ ] Figure out what to do about overworld sprites for Gen 9.
 - [ ] Testing!!
 

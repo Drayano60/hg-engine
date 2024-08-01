@@ -17569,7 +17569,7 @@ evodata SPECIES_LARVESTA
     terminateevodata
 
 evodata SPECIES_SPEWPA
-    evolutionwithform EVO_LEVEL, 12, SPECIES_VIVILLON, 5 /* Elegant Form (it's the form primarily found in Japan) */
+    evolution EVO_LEVEL, 12, SPECIES_VIVILLON
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE

@@ -1,7 +1,7 @@
 Essentials:
 - [ ] Do a pass over all Trainers, introduce Gen 7-9 mons to teams etc. Need to also sort out teams for E4 rematches, possibly Gym Leader rematches?
 - [ ] Decide on the exact requirements on Arceus (at the very least, how many Pokémon need to be obtained.)
-- [ ] Add Pincurchin sprites
+- [ ] Need to sort out Red Card/Eject Button interactions with U-turn etc.
 - [ ] Figure out what to do about overworld sprites for Gen 9.
 - [ ] Testing!!
 
@@ -9,17 +9,8 @@ Stretch Goals:
 - [ ] Add content for the Fighting Dojo.
 - [ ] Add new maps for the two new environments in the Safari Zone.
 
-Missing Assets:
-- [ ] Party icon and follower sprite for Wooper Paldea.
-- [ ] Party icon, front sprite, back sprite and follower sprite (everything lol) for all Tauros Paldea.
-- [ ] Front sprite and back sprite for Rockruff.
-- [ ] Front sprite and back sprite for Bounsweet.
-- [ ] Front sprite and back sprite for Steenee.
-
-
-
 No Gen 9 mons currently have overworlds except for Sprigatito and the cross-gen evolutions (sans Kingambit).
 
 Assets added:
-- Bounsweet, Steenee, Rockruff, Nymble, Lokix and Paldea Tauros front and back sprites from https://eeveeexpo.com/resources/1101/.
+- Bounsweet, Steenee, Rockruff, Pincurchin, Nymble, Lokix and Paldea Tauros front and back sprites from https://eeveeexpo.com/resources/1101/.
 - Nymble, Lokix, Paldea Wooper and all Paldea Tauros icons from Pokémon Showdown.

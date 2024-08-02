@@ -24088,11 +24088,45 @@ levelup SPECIES_BOMBIRDIER
     terminatelearnset
 
 levelup SPECIES_FINIZEN
-    learnset MOVE_TACKLE, 1 
+    learnset MOVE_WATER_GUN, 1
+    learnset MOVE_SUPERSONIC, 1
+    learnset MOVE_ASTONISH, 4
+    learnset MOVE_AQUA_JET, 8
+    learnset MOVE_FOCUS_ENERGY, 12
+    learnset MOVE_DOUBLE_HIT, 16
+    learnset MOVE_DIVE, 20
+    learnset MOVE_CHARM, 24
+    learnset MOVE_ENCORE, 28
+    learnset MOVE_ACROBATICS, 32
+    learnset MOVE_AQUA_TAIL, 36
+    learnset MOVE_AGILITY, 40
+    learnset MOVE_MIST, 44
+    learnset MOVE_BOOMBURST, 48
+    learnset MOVE_HYDRO_PUMP, 52
     terminatelearnset
 
+// Level gap the same as per S/V.
 levelup SPECIES_PALAFIN
-    learnset MOVE_TACKLE, 1 
+    learnset MOVE_FLIP_TURN, 0
+    learnset MOVE_JET_PUNCH, 1
+    learnset MOVE_ENDURE, 1
+    learnset MOVE_WATER_GUN, 1
+    learnset MOVE_SUPERSONIC, 1
+    learnset MOVE_ASTONISH, 4
+    learnset MOVE_AQUA_JET, 8
+    learnset MOVE_FOCUS_ENERGY, 12
+    learnset MOVE_DOUBLE_HIT, 16
+    learnset MOVE_DIVE, 20
+    learnset MOVE_CHARM, 24
+    learnset MOVE_ENCORE, 28
+    learnset MOVE_ACROBATICS, 32
+    learnset MOVE_AQUA_TAIL, 36
+    learnset MOVE_AGILITY, 40
+    learnset MOVE_MIST, 44
+    learnset MOVE_BOOMBURST, 48
+    learnset MOVE_HYDRO_PUMP, 52
+    learnset MOVE_FOCUS_PUNCH, 56
+    learnset MOVE_WAVE_CRASH, 60
     terminatelearnset
 
 // Evolution: 35

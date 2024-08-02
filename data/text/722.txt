@@ -253,3 +253,4 @@ Lowers the foe’s Attack\nupon entering battle.
 The Pokémon’s evasion is\nboosted by 20%.
 Contact has a 30% chance\nof badly poisoning the foe.
 Increases the power of\nwind moves by 50%.
+Transforms into Hero Form\nwhen it switches out.

@@ -17287,7 +17287,7 @@ levelup SPECIES_EELEKTRIK
     learnset MOVE_THRASH, 50
     learnset MOVE_WILD_CHARGE, 55
     learnset MOVE_ZAP_CANNON, 60
-    terminateevodata
+    terminatelearnset
 
 // No penalty here due to Tynamo learning nothing
 levelup SPECIES_EELEKTROSS
@@ -17311,7 +17311,7 @@ levelup SPECIES_EELEKTROSS
     learnset MOVE_THRASH, 50
     learnset MOVE_WILD_CHARGE, 55
     learnset MOVE_ZAP_CANNON, 60
-    terminateevodata
+    terminatelearnset
 
 // Evolution: 36
 levelup SPECIES_ELGYEM
@@ -18830,7 +18830,7 @@ levelup SPECIES_FLABEBE
     learnset MOVE_MISTY_TERRAIN, 44
     learnset MOVE_AROMATHERAPY, 48
     learnset MOVE_SOLAR_BEAM, 52
-    terminateevodata
+    terminatelearnset
 
 levelup SPECIES_FLOETTE
     learnset MOVE_TACKLE, 1

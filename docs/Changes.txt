@@ -285,7 +285,7 @@ Global Terminal
 ✓ The counter at the top left of the room is now used for Wonder Eggs. This allows the player to purchase either an Alolan, Galarian or Paldean Egg for $10,000. Each egg can hatch into one of ten species.
 ✓✓ The Alolan egg can hatch into any of the following: Bounsweet, Crabrawler, Cutiefly, Dewpider, Grubbin, Mudbray, Rockruff, Salandit, Sandygast, Stufful.
 ✓✓ The Galarian egg can hatch into any of the following: Applin, Blipbug, Clobbopus, Cufant, Hatenna, Impidimp, Rookidee, Sizzlipede, Snom, Toxel.
-✓✓ The Paldean egg can hatch into any of the following: Cetoddle, Charcadet, Glimmet, Maschiff, Pawmi, Tandemaus, Tinkatink, Varoom, Wattrel, Wiglett.
+✓✓ The Paldean egg can hatch into any of the following: Cetoddle, Charcadet, Finizen, Glimmet, Nymble, Pawmi, Tandemaus, Tinkatink, Varoom, Wattrel.
 ✓✓✓ The Alolan/Galarian ones were mostly for unique type combos (plus one or two biases). Paldean was mostly pulled from what actually had sprites ready to go, else I'd probably have Nymble and Capsakid in there!
 
 Route 35

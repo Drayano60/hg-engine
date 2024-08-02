@@ -17317,7 +17317,7 @@ evodata SPECIES_FOONGUS
     terminateevodata
 
 evodata SPECIES_FRILLISH
-    evolutionwithform EVO_LEVEL_MALE, 36, SPECIES_JELLICENT, 0
+    evolution EVO_LEVEL, 36, SPECIES_JELLICENT // No form ID here as Frillish is already right
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -17329,7 +17329,7 @@ evodata SPECIES_FRILLISH
     terminateevodata
 
 evodata SPECIES_FRILLISH_FEMALE
-    evolutionwithform EVO_LEVEL_FEMALE, 36, SPECIES_JELLICENT, 1
+    evolution EVO_LEVEL, 36, SPECIES_JELLICENT // No form ID here as for some reason it stops the evo working?
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
@@ -17338,7 +17338,7 @@ evodata SPECIES_FRILLISH_FEMALE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
-terminateevodata
+    terminateevodata
 
 evodata SPECIES_JOLTIK
     evolution EVO_LEVEL, 33, SPECIES_GALVANTULA

@@ -15929,9 +15929,11 @@ levelup SPECIES_DWEBBLE
     learnset MOVE_ROCK_WRECKER, 54
     terminatelearnset
 
+// NEW: Crabhammer
 levelup SPECIES_CRUSTLE
     learnset MOVE_SKITTER_SMACK, 1
     learnset MOVE_NIGHT_SLASH, 1
+    learnset MOVE_CRABHAMMER, 1
     learnset MOVE_FURY_CUTTER, 1
     learnset MOVE_SAND_ATTACK, 1
     learnset MOVE_WITHDRAW, 3

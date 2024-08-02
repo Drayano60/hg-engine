@@ -19,6 +19,7 @@
 
 // top 5 bits are now form bit
 // if the form is nonzero, have to set it to that form.  most mons should keep their forms on evolution, but specifically significant gendered mons will need to not
+/**** AURORA CRYSTAL: Spewpa evolves into a random form. */
 #define GET_TARGET_AND_SET_FORM { \
     if (party != NULL) \
     { \
@@ -29,7 +30,7 @@
                 break; \
         } \
         target = evoTable[i].target & 0x7FF; \
-        form = (target == SPECIES_VIVILLON) ? (gf_rand() % 20) : (evoTable[i].target >> 11); \ /**** AURORA CRYSTAL: Spewpa evolves into a random form. */
+        form = (target == SPECIES_VIVILLON) ? (gf_rand() % 20) : (evoTable[i].target >> 11); \
         if (form != 0) { \
             SetMonData(ppFromParty, MON_DATA_FORM, &form); \
         } \

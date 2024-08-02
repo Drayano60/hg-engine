@@ -230,5 +230,6 @@
 
 #define HOLD_EFFECT_LOADED_DICE                 250   // Loaded Dice
 #define HOLD_EFFECT_BOOST_TYPE_ONCE             251   // Gems
+#define HOLD_EFFECT_SWAP_ATK_SPATK_STATS        252   // Swap Ring
 
 #endif

@@ -261,36 +261,6 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
     struct sDamageCalc AttackingMon;
     struct sDamageCalc DefendingMon;
 
-    switch (moveno) {
-
-        /**** AURORA CRYSTAL: Add Foul Play handling. ****/
-        case MOVE_FOUL_PLAY:
-            attack = BattlePokemonParamGet(sp, defender, BATTLE_MON_DATA_ATK, NULL);
-            atkstate = BattlePokemonParamGet(sp, defender, BATTLE_MON_DATA_STATE_ATK, NULL) - 6;
-            break;
-
-        // Handle Body Press - Attack is derived from Defense
-        case MOVE_BODY_PRESS:
-            attack = BattlePokemonParamGet(sp, attacker, BATTLE_MON_DATA_DEF, NULL);
-            atkstate = BattlePokemonParamGet(sp, attacker, BATTLE_MON_DATA_STATE_DEF, NULL) - 6;
-            break;
-
-        default:
-            attack = BattlePokemonParamGet(sp, attacker, BATTLE_MON_DATA_ATK, NULL);
-            atkstate = BattlePokemonParamGet(sp, attacker, BATTLE_MON_DATA_STATE_ATK, NULL) - 6;
-            break;
-    }
-
-    defense = BattlePokemonParamGet(sp, defender, BATTLE_MON_DATA_DEF, NULL);
-    sp_attack = BattlePokemonParamGet(sp, attacker, BATTLE_MON_DATA_SPATK, NULL);
-    sp_defense = BattlePokemonParamGet(sp, defender, BATTLE_MON_DATA_SPDEF, NULL);
-
-    defstate = BattlePokemonParamGet(sp, defender, BATTLE_MON_DATA_STATE_DEF, NULL) - 6;
-    spatkstate = BattlePokemonParamGet(sp, attacker, BATTLE_MON_DATA_STATE_SPATK, NULL) - 6;
-    spdefstate = BattlePokemonParamGet(sp, defender, BATTLE_MON_DATA_STATE_SPDEF, NULL) - 6;
-
-    level = BattlePokemonParamGet(sp, attacker, BATTLE_MON_DATA_LEVEL, NULL);
-
     AttackingMon.species = BattlePokemonParamGet(sp, attacker, BATTLE_MON_DATA_SPECIES, NULL);
     DefendingMon.species = BattlePokemonParamGet(sp, defender, BATTLE_MON_DATA_SPECIES, NULL);
     AttackingMon.hp = BattlePokemonParamGet(sp, attacker, BATTLE_MON_DATA_HP, NULL);
@@ -315,6 +285,42 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
     item = GetBattleMonItem(sp, defender);
     DefendingMon.item_held_effect = BattleItemDataGet(sp, item, 1);
     DefendingMon.item_power = BattleItemDataGet(sp, item, 2);
+
+    attack = BattlePokemonParamGet(sp, attacker, BATTLE_MON_DATA_ATK, NULL);
+    defense = BattlePokemonParamGet(sp, defender, BATTLE_MON_DATA_DEF, NULL);
+    sp_attack = BattlePokemonParamGet(sp, attacker, BATTLE_MON_DATA_SPATK, NULL);
+    sp_defense = BattlePokemonParamGet(sp, defender, BATTLE_MON_DATA_SPDEF, NULL);
+
+    atkstate = BattlePokemonParamGet(sp, attacker, BATTLE_MON_DATA_STATE_ATK, NULL) - 6;
+    defstate = BattlePokemonParamGet(sp, defender, BATTLE_MON_DATA_STATE_DEF, NULL) - 6;
+    spatkstate = BattlePokemonParamGet(sp, attacker, BATTLE_MON_DATA_STATE_SPATK, NULL) - 6;
+    spdefstate = BattlePokemonParamGet(sp, defender, BATTLE_MON_DATA_STATE_SPDEF, NULL) - 6;
+
+    /**** AURORA CRYSTAL: Added the new Swap Ring item. Code around here has been restructured to make this easier. */
+    if (AttackingMon.item_held_effect == HOLD_EFFECT_SWAP_ATK_SPATK_STATS) {
+        attack = BattlePokemonParamGet(sp, attacker, BATTLE_MON_DATA_SPATK, NULL);
+        atkstate = BattlePokemonParamGet(sp, attacker, BATTLE_MON_DATA_STATE_SPATK, NULL) - 6;
+        sp_attack = BattlePokemonParamGet(sp, attacker, BATTLE_MON_DATA_ATK, NULL);
+        spatkstate = BattlePokemonParamGet(sp, attacker, BATTLE_MON_DATA_STATE_ATK, NULL) - 6;
+    }
+
+    if (moveno == MOVE_FOUL_PLAY) {
+        // If the target of Foul Play has the Swap Ring, the Sp. Atk stat (which is now the target's Atk) is used instead.
+        if (DefendingMon.item_held_effect == HOLD_EFFECT_SWAP_ATK_SPATK_STATS) {
+            attack = BattlePokemonParamGet(sp, defender, BATTLE_MON_DATA_SPATK, NULL);
+            atkstate = BattlePokemonParamGet(sp, defender, BATTLE_MON_DATA_STATE_SPATK, NULL) - 6;
+        } else {
+            attack = BattlePokemonParamGet(sp, defender, BATTLE_MON_DATA_ATK, NULL);
+            atkstate = BattlePokemonParamGet(sp, defender, BATTLE_MON_DATA_STATE_ATK, NULL) - 6;
+        }
+    }
+
+    } else if (moveno == MOVE_BODY_PRESS) {
+        attack = BattlePokemonParamGet(sp, attacker, BATTLE_MON_DATA_DEF, NULL);
+        atkstate = BattlePokemonParamGet(sp, attacker, BATTLE_MON_DATA_STATE_DEF, NULL) - 6;
+    }
+
+    level = BattlePokemonParamGet(sp, attacker, BATTLE_MON_DATA_LEVEL, NULL);
 
     battle_type = BattleTypeGet(bw);
 

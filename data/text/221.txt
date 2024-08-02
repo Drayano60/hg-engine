@@ -802,3 +802,4 @@ A stone that shines in rainbow colors.\nIt’s said to respond to the user’s w
 A gem that allows you to press “START”\nto go to previously visited places.\nIt won’t work in certain places, though.
 A mysterious gold and silver Poké Ball\nthat cannot be opened.\nIts true purpose remains a mystery.
 A mysterious old box that, when opened,\nis said to make certain Pokémon appear.\nIt may respond to a particular Pokémon.
+An item to be held by a Pokémon.\nWhile held, the holder’s base Attack and\nSp. Attack are switched during battle.

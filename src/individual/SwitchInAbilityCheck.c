@@ -692,6 +692,17 @@ int UNUSED SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
                         }
                     }
 
+                    /**** AURORA CRYSTAL: Swap Ring is announced. */
+                    {
+                        if ((sp->battlemon[client_no].swap_ring_flag == 0) && (sp->battlemon[client_no].hp) && (BattleItemDataGet(sp, sp->battlemon[client_no].item, 1) == HOLD_EFFECT_SWAP_ATK_SPATK_STATS)) {
+                            sp->battlemon[client_no].swap_ring_flag = 1;
+                            sp->client_work = client_no;
+                            scriptnum = SUB_SEQ_HANDLE_SWAP_RING_MESSAGE;
+                            ret = SWITCH_IN_CHECK_MOVE_SCRIPT;
+                            break;
+                        }
+                    }
+
                     // Ice Face
                     {
                         if ((sp->battlemon[client_no].species == SPECIES_EISCUE) && (sp->battlemon[client_no].hp) && (sp->battlemon[client_no].form_no == 1) && (CheckSideAbility(bw, sp, CHECK_ABILITY_ALL_HP, 0, ABILITY_CLOUD_NINE) == 0) && (CheckSideAbility(bw, sp, CHECK_ABILITY_ALL_HP, 0, ABILITY_AIR_LOCK) == 0) && (sp->field_condition & WEATHER_HAIL_ANY)  // there is hail this turn

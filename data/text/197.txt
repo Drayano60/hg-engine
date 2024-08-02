@@ -2155,3 +2155,6 @@ The {STRVAR_1 5, 1, 0} strengthened\n{STRVAR_1 8, 2, 0}’s power!
 {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nwas used up!
 The wild {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nwas used up!
 The opposing {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0}\nwas used up!
+{STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0} is switching\nits Attack and Sp. Attack!
+The wild {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0} is\nswitching its Attack and Sp. Attack!
+The opposing {STRVAR_1 1, 0, 0}’s {STRVAR_1 5, 1, 0} is\nswitching its Attack and Sp. Attack!

@@ -996,6 +996,7 @@ void LONG_CALL ClearBattleMonFlags(struct BattleStruct *sp, int client)
     sp->battlemon[client].imposter_flag = 0;
     sp->battlemon[client].critical_hits = 0;
     sp->battlemon[client].air_ballon_flag = 0;
+    sp->battlemon[client].swap_ring_flag = 0; /**** AURORA CRYSTAL: Clear Swap Ring flag. */
     sp->battlemon[client].ability_activated_flag = 0;
     sp->battlemon[client].parental_bond_flag = 0;
     sp->battlemon[client].parental_bond_is_active = 0;

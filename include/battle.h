@@ -807,10 +807,11 @@ struct __attribute__((packed)) BattlePokemon
                u32 ability_activated_flag : 1;
                u32 tera_type : 5;
                u32 is_currently_terastallized : 1;
-               u32 is_currently_dynamaxed : 1;
+               // u32 is_currently_dynamaxed : 1;
                u32 has_dynamaxed_before : 1; /**< for Cherrim and Flower Gift */
 
                u32 glaive_rush_flag : 1; /**** AURORA CRYSTAL: Added Glaive Rush flag, changed remaining to 1. */
+               u32 swap_ring_flag : 1;   /**** AURORA CRYSTAL: Added Swap Ring flag for message. Commented out one above for the space. */
                u32 : 1; // need to add to ClearBattleMonFlags when added to here as well
     /* 0x2c */ u8 pp[4];                     /**< move pp left */
     /* 0x30 */ u8 pp_count[4];               /**< move max pp */

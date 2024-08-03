@@ -313,6 +313,7 @@ Route 32 South
 ===========================================================================
 Poison Barb: Speak to Frieda, who will appear on a Friday near the Pokémon Center.
 Poison Barb: Found on the floor on a raised part at the bottom left of the watery area.
+Berry Juice (x2): Speak to a woman in the Pokémon Center.
 Shell Bell: Found on the floor past the smashable rock south of the Pokémon Center.
 
 ===========================================================================

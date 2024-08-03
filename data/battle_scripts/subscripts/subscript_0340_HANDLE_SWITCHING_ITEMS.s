@@ -4,6 +4,7 @@
 
 _000:
     CompareMonDataToValue OPCODE_EQU, BATTLER_CATEGORY_MSG_TEMP, BMON_DATA_HP, 0, _031
+    TryReplaceFaintedMon BATTLER_CATEGORY_MSG_TEMP, TRUE, _031 /**** AURORA CRYSTAL: Eject Button does not proc if the defender cannot switch. */
     PlayBattleAnimation BATTLER_CATEGORY_MSG_TEMP, BATTLE_ANIMATION_HELD_ITEM
     Wait 
     CompareMonDataToValue OPCODE_EQU, BATTLER_CATEGORY_MSG_TEMP, BMON_DATA_HELD_ITEM, ITEM_RED_CARD, _029

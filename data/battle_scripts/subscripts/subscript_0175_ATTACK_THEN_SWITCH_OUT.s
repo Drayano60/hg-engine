@@ -4,6 +4,10 @@
 
 _000:
     CheckBlackOut BATTLER_CATEGORY_DEFENDER, _179
+    /**** AURORA CRYSTAL: Added Red Card/Eject Button disabling the U-turn effect if they go off. ****/
+    CompareMonDataToValue OPCODE_EQU, BATTLER_CATEGORY_DEFENDER, BMON_DATA_HELD_ITEM, ITEM_RED_CARD, _CheckRedCardEjectButton
+    CompareMonDataToValue OPCODE_EQU, BATTLER_CATEGORY_DEFENDER, BMON_DATA_HELD_ITEM, ITEM_EJECT_BUTTON, _CheckRedCardEjectButton
+_ContinueAfterRedCardEjectButtonCheck:
     TryReplaceFaintedMon BATTLER_CATEGORY_ATTACKER, TRUE, _179
     CompareVarToValue OPCODE_FLAG_SET, BSCRIPT_VAR_BATTLE_STATUS, BATTLE_STATUS_SHADOW_FORCE, _019
     TriggerAbilityOnHit _015
@@ -76,3 +80,20 @@ _148:
 
 _179:
     End 
+
+_CheckRedCardEjectButton:
+    CompareMonDataToValue OPCODE_EQU, BATTLER_CATEGORY_DEFENDER, BMON_DATA_HP, 0, _ContinueAfterRedCardEjectButtonCheck /** They do not proc if the holder faints. */
+    CheckSubstitute BATTLER_CATEGORY_DEFENDER, _ContinueAfterRedCardEjectButtonCheck /** They do not proc if the holder has a Substitute up. */
+    CompareMonDataToValue OPCODE_EQU, BATTLER_CATEGORY_ATTACKER, BMON_DATA_ABILITY, ABILITY_SHEER_FORCE, _ContinueAfterRedCardEjectButtonCheck /** They do not proc if the attacker has Sheer Force. */
+
+    /** Splits off here as it depends on which side would switch. */
+    CompareMonDataToValue OPCODE_EQU, BATTLER_CATEGORY_DEFENDER, BMON_DATA_HELD_ITEM, ITEM_RED_CARD, _CheckRedCard 
+    CompareMonDataToValue OPCODE_EQU, BATTLER_CATEGORY_DEFENDER, BMON_DATA_HELD_ITEM, ITEM_EJECT_BUTTON, _CheckEjectButton
+
+_CheckRedCard:
+    TryReplaceFaintedMon BATTLER_CATEGORY_ATTACKER, TRUE, _ContinueAfterRedCardEjectButtonCheck /** Red Card does not proc if the attacker cannot switch. */
+    End
+
+_CheckEjectButton:
+    TryReplaceFaintedMon BATTLER_CATEGORY_DEFENDER, TRUE, _ContinueAfterRedCardEjectButtonCheck /** Eject Button does not proc if the defender cannot switch. */
+    End

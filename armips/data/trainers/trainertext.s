@@ -3772,7 +3772,7 @@ _Trainer868:
     trainertextentry 868, TEXT_DEFEATED_IN_BATTLE, "Our training wasn’t enough...\n"
 
 _Trainer869:
-    trainertextentry 869, TEXT_DEFEATED_IN_BATTLE, "I have collected the data."
+    trainertextentry 869, TEXT_DEFEATED_IN_BATTLE, "Huh...\nMy stat swapping wasn’t enough."
 
 _Trainer870:
     trainertextentry 870, TEXT_DEFEATED_IN_BATTLE, "I have collected the data."

@@ -10592,10 +10592,10 @@ endparty
 
 /******************************************** Ecruteak City ********************************************/
 
-trainerdata 869, "Ultro"
+trainerdata 869, "Bandy"
     trainermontype TRAINER_MON_TYPE_FLAGS
-    trainerclass CLASS_SUPER_NERD
-    nummons 1
+    trainerclass CLASS_ACE_TRAINER_M
+    nummons 4
     item 0 
     item 0 
     item 0 
@@ -10607,16 +10607,67 @@ trainerdata 869, "Ultro"
 party 869
     ivs 0
     abilityslot 0
-    level LEVEL_MORTY
-    pokemon SPECIES_GLISCOR
-    item 0
-    move MOVE_PROTECT
-    move MOVE_TOXIC
-    move 0
-    move 0
-    ability ABILITY_POISON_HEAL
+    level LEVEL_ROUTE_42 + 1
+    pokemon SPECIES_SNEASEL
+    item ITEM_SWAP_RING
+    move MOVE_ICY_WIND
+    move MOVE_SNARL
+    move MOVE_SURF
+    move MOVE_FAKE_OUT
+    ability ABILITY_INNER_FOCUS
     ball ITEM_POKE_BALL
-    setivs 15, 15, 15, 15, 15, 15
+    setivs 25, 25, 25, 25, 25, 25
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level LEVEL_ROUTE_42 + 1
+    pokemon SPECIES_KADABRA
+    item ITEM_SWAP_RING
+    move MOVE_PSYCHO_CUT
+    move MOVE_THUNDER_PUNCH
+    move MOVE_FIRE_PUNCH
+    move MOVE_ICE_PUNCH
+    ability ABILITY_INNER_FOCUS
+    ball ITEM_POKE_BALL
+    setivs 25, 25, 25, 25, 25, 25
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level LEVEL_ROUTE_42 + 1
+    pokemon SPECIES_GABITE
+    item ITEM_SWAP_RING
+    move MOVE_SCORCHING_SANDS
+    move MOVE_DRAGON_BREATH
+    move MOVE_INCINERATE
+    move MOVE_POWER_GEM
+    ability ABILITY_ROUGH_SKIN
+    ball ITEM_POKE_BALL
+    setivs 25, 25, 25, 25, 25, 25
+    setevs 0, 0, 0, 0, 0, 0
+    nature NATURE_SERIOUS
+    shinylock 0
+    ballseal 0
+
+    ivs 0
+    abilityslot 0
+    level LEVEL_ROUTE_42 + 1
+    pokemon SPECIES_GYARADOS
+    item ITEM_SWAP_RING
+    move MOVE_SCALD
+    move MOVE_HIDDEN_POWER_FLYING
+    move MOVE_DARK_PULSE
+    move MOVE_DRAGON_PULSE
+    ability ABILITY_INTIMIDATE
+    ball ITEM_POKE_BALL
+    setivs 25, 25, 25, 25, 25, 25
     setevs 0, 0, 0, 0, 0, 0
     nature NATURE_SERIOUS
     shinylock 0

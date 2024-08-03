@@ -4238,7 +4238,6 @@ mondata SPECIES_IGGLYBUFF, "Igglybuff"
     mondexweight SPECIES_IGGLYBUFF, "2.2 lbs."
 
 
-// ABILITY: Removed Hustle.
 mondata SPECIES_TOGEPI, "Togepi"
     basestats 35, 20, 65, 20, 40, 65
     types TYPE_FAIRY, TYPE_FAIRY
@@ -4251,11 +4250,7 @@ mondata SPECIES_TOGEPI, "Togepi"
     basefriendship 70 // raised up again
     growthrate GROWTH_FAST
     egggroups EGG_GROUP_UNDISCOVERED, EGG_GROUP_UNDISCOVERED
-    .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_SERENE_GRACE, ABILITY_NONE
-    .else
-        abilities ABILITY_HUSTLE, ABILITY_SERENE_GRACE
-    .endif
+    abilities ABILITY_HUSTLE, ABILITY_SERENE_GRACE
     runchance 25
     colorflip BODY_COLOR_WHITE, 0
     mondexentry SPECIES_TOGEPI, "The shell seems to be filled with\njoy. It is said that it will share\ngood luck when treated kindly."
@@ -4264,7 +4259,6 @@ mondata SPECIES_TOGEPI, "Togepi"
     mondexweight SPECIES_TOGEPI, "3.3 lbs."
 
 
-// ABILITY: Removed Hustle.
 mondata SPECIES_TOGETIC, "Togetic"
     basestats 55, 40, 85, 40, 80, 105
     types TYPE_FAIRY, TYPE_FLYING
@@ -4277,11 +4271,7 @@ mondata SPECIES_TOGETIC, "Togetic"
     basefriendship 70 // raised up again
     growthrate GROWTH_FAST
     egggroups EGG_GROUP_FLYING, EGG_GROUP_FAIRY
-    .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_SERENE_GRACE, ABILITY_NONE
-    .else
-        abilities ABILITY_HUSTLE, ABILITY_SERENE_GRACE
-    .endif
+    abilities ABILITY_HUSTLE, ABILITY_SERENE_GRACE
     runchance 25
     colorflip BODY_COLOR_WHITE, 0
     mondexentry SPECIES_TOGETIC, "They say that it will appear before\nkindhearted, caring people and\nshower them with happiness."
@@ -11450,7 +11440,6 @@ mondata SPECIES_MAGMORTAR, "Magmortar"
     mondexweight SPECIES_MAGMORTAR, "149.9 lbs."
 
 
-// ABILITY: Removed Hustle.
 mondata SPECIES_TOGEKISS, "Togekiss"
     basestats 85, 50, 95, 80, 120, 115
     types TYPE_FAIRY, TYPE_FLYING
@@ -11463,11 +11452,7 @@ mondata SPECIES_TOGEKISS, "Togekiss"
     basefriendship 70 // raised up again
     growthrate GROWTH_FAST
     egggroups EGG_GROUP_FLYING, EGG_GROUP_FAIRY
-    .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_SERENE_GRACE, ABILITY_NONE
-    .else
-        abilities ABILITY_HUSTLE, ABILITY_SERENE_GRACE
-    .endif
+    abilities ABILITY_HUSTLE, ABILITY_SERENE_GRACE
     runchance 25
     colorflip BODY_COLOR_WHITE, 0
     mondexentry SPECIES_TOGEKISS, "As everyone knows, it visits peaceful\nregions, bringing them gifts of kindness\nand sweet blessings."

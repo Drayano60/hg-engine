@@ -388,6 +388,7 @@ Whipped Dream: Speak to a man on 6F of the Goldenrod Department Store.
 Wise Glasses: Found on the floor to the left of the Global Terminal.
 Coin Case: Speak to Mr. Game in the Game Corner.
 Squirt Bottle: Speak to the woman in the Flower Shop after receiving the Plain Badge.
+Swap Ring: Speak to and defeat Ace Trainer Bandy in the Pokémon Center after receiving the Plain Badge.
 Upgrade: Speak to Bill, who appears here after speaking to him in Ecruteak City.
 TM24 Thunderbolt: Speak to Lt. Surge, who appears in the Magnet Train Station after Team Rocket have left the Safari Zone.
 Assault Vest: Found on the floor in the basement of the Department Store after coming up from the Goldenrod Tunnel end.

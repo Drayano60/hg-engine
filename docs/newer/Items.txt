@@ -99,8 +99,13 @@ Some text is also shown when a Pokémon that holds it enters the battle, similar
 As with Foul Play and Body Press, this works for both the raw stat and any stat stage changes.
 So a Pokémon with the Swap Ring, which now uses its Sp. Attack stat for physical attacks, will be able to boost its physical attacks with Nasty Plot for example.
 
-If a Pokémon holding a Swap Ring is targeted by the move Foul Play, the target's Sp. Attack stat and stat stages are used instead.
+The stats are only swapped at the initial stage, and further modifiers to Attack/Sp. Attack are applied as normal, similar to Foul Play and Body Press.
 
+For example:
+- Huge Power later doubles the Attack stat, so a Pokémon with Huge Power holding a Swap Ring will have Attack equal to double its Special Attack.
+- Hustle later increases Attack by x1.5, so a Pokémon with Hustle and a Swap Ring will have Attack equal to x1.5 its Special Attack.
+
+If a Pokémon holding a Swap Ring is targeted by the move Foul Play, the target's Sp. Attack stat and stat stages are used instead.
 If the Swap Ring is somehow removed (e.g. Knock Off), the Pokémon will revert to using its normal Attack and Sp. Attack stats and stat stages.
 
 EXAMPLE

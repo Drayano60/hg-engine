@@ -272,6 +272,7 @@ Goldenrod City
 ✓ Changed Dept Store 2F shop to #23 which now sells the healing items (albeit a reduced selection), as the original shop is repurposed.
 ✓ After earning the Earth Badge, you can talk to Floria in the Flower Shop to get told about Shaymin. This enables the Shaymin encounter in the National Park.
 ✓ If you then speak to Floria with the Shaymin leading your party, you'll receive the Gracidea.
+✓ Added an Ace Trainer in the Pokémon Center who will battle you and then give you the new Swap Ring, if spoken to after receiving the Plain Badge.
 
 Goldenrod Tunnel
 ✓ The four shopping NPCs now show up every day of the week (but disappear during the Rocket takeover).

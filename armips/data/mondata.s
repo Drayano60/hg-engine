@@ -2341,7 +2341,7 @@ mondata SPECIES_ONIX, "Onix"
     mondexweight SPECIES_ONIX, "463.0 lbs."
 
 
-// ABILITY: Inner Focus (2), Psychic Surge (HA)
+// ABILITY: Insomnia (2)
 mondata SPECIES_DROWZEE, "Drowzee"
     basestats 60, 48, 45, 42, 43, 90
     types TYPE_PSYCHIC, TYPE_PSYCHIC
@@ -2355,7 +2355,7 @@ mondata SPECIES_DROWZEE, "Drowzee"
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_HUMAN_LIKE, EGG_GROUP_HUMAN_LIKE
     .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_INSOMNIA, ABILITY_INNER_FOCUS
+        abilities ABILITY_INSOMNIA, ABILITY_INSOMNIA
     .else
         abilities ABILITY_INSOMNIA, ABILITY_FOREWARN
     .endif
@@ -2367,7 +2367,7 @@ mondata SPECIES_DROWZEE, "Drowzee"
     mondexweight SPECIES_DROWZEE, "71.4 lbs."
 
 
-// ABILITY: Inner Focus (2), Psychic Surge (HA)
+// ABILITY: Insomnia (2), Psychic Surge (HA)
 mondata SPECIES_HYPNO, "Hypno"
     basestats 85, 73, 70, 67, 73, 115
     types TYPE_PSYCHIC, TYPE_PSYCHIC
@@ -2381,7 +2381,7 @@ mondata SPECIES_HYPNO, "Hypno"
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_HUMAN_LIKE, EGG_GROUP_HUMAN_LIKE
     .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_INSOMNIA, ABILITY_INNER_FOCUS
+        abilities ABILITY_INSOMNIA, ABILITY_INSOMNIA
     .else
         abilities ABILITY_INSOMNIA, ABILITY_FOREWARN
     .endif
@@ -2435,7 +2435,6 @@ mondata SPECIES_KINGLER, "Kingler"
     mondexweight SPECIES_KINGLER, "132.3 lbs."
 
 
-// ABILITY: Aftermath (1), Electric Surge (HA)
 mondata SPECIES_VOLTORB, "Voltorb"
     basestats 40, 30, 50, 100, 55, 55
     types TYPE_ELECTRIC, TYPE_ELECTRIC
@@ -2448,11 +2447,7 @@ mondata SPECIES_VOLTORB, "Voltorb"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MINERAL, EGG_GROUP_MINERAL
-    .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_AFTERMATH, ABILITY_STATIC
-    .else
-        abilities ABILITY_SOUNDPROOF, ABILITY_STATIC
-    .endif
+    abilities ABILITY_SOUNDPROOF, ABILITY_STATIC
     runchance 25
     colorflip BODY_COLOR_RED, 0
     mondexentry SPECIES_VOLTORB, "It rolls to move. If the ground is\nuneven, a sudden jolt from hitting\na bump can cause it to explode."
@@ -2461,7 +2456,7 @@ mondata SPECIES_VOLTORB, "Voltorb"
     mondexweight SPECIES_VOLTORB, "22.9 lbs."
 
 
-// ABILITY: Aftermath (1), Electric Surge (HA)
+// ABILITY: Electric Surge (HA)
 mondata SPECIES_ELECTRODE, "Electrode"
     basestats 60, 50, 70, 150, 80, 80
     types TYPE_ELECTRIC, TYPE_ELECTRIC
@@ -2474,11 +2469,7 @@ mondata SPECIES_ELECTRODE, "Electrode"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MINERAL, EGG_GROUP_MINERAL
-    .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_AFTERMATH, ABILITY_STATIC
-    .else
-        abilities ABILITY_SOUNDPROOF, ABILITY_STATIC
-    .endif
+    abilities ABILITY_SOUNDPROOF, ABILITY_STATIC
     runchance 25
     colorflip BODY_COLOR_RED, 0
     mondexentry SPECIES_ELECTRODE, "It is dangerous. If it has too much\nelectricity and has nothing to do,\nit amuses itself by exploding."
@@ -4426,7 +4417,7 @@ mondata SPECIES_AMPHAROS, "Ampharos"
 
 
 // TYPES: Grass >> Grass/Fairy
-// ABILITY: Own Tempo (2), Rhythmic (HA, New)
+// ABILITY: Rhythmic (2, New), Grassy Surge (HA)
 mondata SPECIES_BELLOSSOM, "Bellossom"
     basestats 75, 80, 95, 50, 90, 100
     .if TYPE_CHANGES_IMPLEMENTED
@@ -4444,7 +4435,7 @@ mondata SPECIES_BELLOSSOM, "Bellossom"
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_GRASS, EGG_GROUP_GRASS
     .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_CHLOROPHYLL, ABILITY_OWN_TEMPO
+        abilities ABILITY_CHLOROPHYLL, ABILITY_RHYTHMIC
     .else
         abilities ABILITY_CHLOROPHYLL, ABILITY_NONE
     .endif
@@ -13679,7 +13670,7 @@ mondata SPECIES_SIMIPOUR, "Simipour"
     mondexweight SPECIES_SIMIPOUR, "63.9 lbs."
 
 
-// ABILITY: Levitate (1), Misty Surge (HA)
+// ABILITY: Levitate (1)
 mondata SPECIES_MUNNA, "Munna"
     basestats 76, 25, 45, 24, 67, 55
     types TYPE_PSYCHIC, TYPE_PSYCHIC
@@ -15958,7 +15949,7 @@ mondata SPECIES_ACCELGOR, "Accelgor"
     mondexweight SPECIES_ACCELGOR, "55.8 lbs."
 
 
-// ABILITY: Static (2)
+// ABILITY: Sand Veil (2), Electric Surge (HA)
 mondata SPECIES_STUNFISK, "Stunfisk"
     basestats 109, 66, 84, 32, 81, 99
     types TYPE_GROUND, TYPE_ELECTRIC
@@ -15972,7 +15963,7 @@ mondata SPECIES_STUNFISK, "Stunfisk"
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_AMORPHOUS
     .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_STATIC, ABILITY_STATIC
+        abilities ABILITY_STATIC, ABILITY_SAND_VEIL
     .else
         abilities ABILITY_STATIC, ABILITY_LIMBER
     .endif
@@ -17072,7 +17063,7 @@ mondata SPECIES_PYROAR, "Pyroar"
     mondexweight SPECIES_PYROAR, "179.7 lbs."
 
 
-// ABILITY: Flower Power (2, New), Grassy Surge (HA)
+// ABILITY: Serene Grace (2), Flower Power (HA, New)
 mondata SPECIES_FLABEBE, "Flabébé"
     basestats 44, 38, 39, 42, 61, 79
     types TYPE_FAIRY, TYPE_FAIRY
@@ -17086,7 +17077,7 @@ mondata SPECIES_FLABEBE, "Flabébé"
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FAIRY, EGG_GROUP_FAIRY
     .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_FLOWER_VEIL, ABILITY_FLOWER_POWER
+        abilities ABILITY_FLOWER_VEIL, ABILITY_SERENE_GRACE
     .else
         abilities ABILITY_FLOWER_VEIL, ABILITY_NONE
     .endif
@@ -17098,7 +17089,7 @@ mondata SPECIES_FLABEBE, "Flabébé"
     mondexweight SPECIES_FLABEBE, "0.2 lbs."
 
 
-// ABILITY: Flower Power (2, New), Grassy Surge (HA)
+// ABILITY: Serene Grace (2), Flower Power (HA, New)
 mondata SPECIES_FLOETTE, "Floette"
     basestats 54, 45, 47, 52, 75, 98
     types TYPE_FAIRY, TYPE_FAIRY
@@ -17112,7 +17103,7 @@ mondata SPECIES_FLOETTE, "Floette"
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FAIRY, EGG_GROUP_FAIRY
     .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_FLOWER_VEIL, ABILITY_FLOWER_POWER
+        abilities ABILITY_FLOWER_VEIL, ABILITY_SERENE_GRACE
     .else
         abilities ABILITY_FLOWER_VEIL, ABILITY_NONE
     .endif
@@ -17124,7 +17115,7 @@ mondata SPECIES_FLOETTE, "Floette"
     mondexweight SPECIES_FLOETTE, "2.0 lbs."
 
 
-// ABILITY: Flower Power (2, New), Grassy Surge (HA)
+// ABILITY: Serene Grace (2), Flower Power (HA, New)
 mondata SPECIES_FLORGES, "Florges"
     basestats 78, 65, 68, 75, 112, 154
     types TYPE_FAIRY, TYPE_FAIRY
@@ -17138,7 +17129,7 @@ mondata SPECIES_FLORGES, "Florges"
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FAIRY, EGG_GROUP_FAIRY
     .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_FLOWER_VEIL, ABILITY_FLOWER_POWER
+        abilities ABILITY_FLOWER_VEIL, ABILITY_SERENE_GRACE
     .else
         abilities ABILITY_FLOWER_VEIL, ABILITY_NONE
     .endif
@@ -26118,6 +26109,7 @@ mondata SPECIES_PONYTA_GALARIAN, "-----"
 
 
 // STATS: 105 >> 125 Speed | 500 >> 520 BST
+// ABILITY: Misty Surge (HA)
 mondata SPECIES_RAPIDASH_GALARIAN, "-----"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 65, 100, 70, 125, 80, 80
@@ -27566,7 +27558,7 @@ mondata SPECIES_VIVILLON_POKE_BALL, "-----"
     colorflip BODY_COLOR_RED, 0
     
 
-// ABILITY: Flower Power (2, New), Grassy Surge (HA)
+// ABILITY: Serene Grace (2), Flower Power (HA, New)
 mondata SPECIES_FLABEBE_YELLOW_FLOWER, "-----"
     basestats 44, 38, 39, 42, 61, 79
     types TYPE_FAIRY, TYPE_FAIRY
@@ -27574,13 +27566,13 @@ mondata SPECIES_FLABEBE_YELLOW_FLOWER, "-----"
     baseexp 61
     evyields 0, 0, 0, 0, 0, 1
     items ITEM_NONE, ITEM_NONE
-    genderratio 244
+    genderratio 254
     eggcycles SHORT_EGG_CYCLE ? 0 : 20
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FAIRY, EGG_GROUP_FAIRY
     .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_FLOWER_VEIL, ABILITY_FLOWER_POWER
+        abilities ABILITY_FLOWER_VEIL, ABILITY_SERENE_GRACE
     .else
         abilities ABILITY_FLOWER_VEIL, ABILITY_NONE
     .endif
@@ -27588,7 +27580,7 @@ mondata SPECIES_FLABEBE_YELLOW_FLOWER, "-----"
     colorflip BODY_COLOR_WHITE, 0
     
 
-// ABILITY: Flower Power (2, New), Grassy Surge (HA)
+// ABILITY: Serene Grace (2), Flower Power (HA, New)
 mondata SPECIES_FLABEBE_ORANGE_FLOWER, "-----"
     basestats 44, 38, 39, 42, 61, 79
     types TYPE_FAIRY, TYPE_FAIRY
@@ -27596,13 +27588,13 @@ mondata SPECIES_FLABEBE_ORANGE_FLOWER, "-----"
     baseexp 61
     evyields 0, 0, 0, 0, 0, 1
     items ITEM_NONE, ITEM_NONE
-    genderratio 244
+    genderratio 254
     eggcycles SHORT_EGG_CYCLE ? 0 : 20
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FAIRY, EGG_GROUP_FAIRY
     .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_FLOWER_VEIL, ABILITY_FLOWER_POWER
+        abilities ABILITY_FLOWER_VEIL, ABILITY_SERENE_GRACE
     .else
         abilities ABILITY_FLOWER_VEIL, ABILITY_NONE
     .endif
@@ -27610,7 +27602,7 @@ mondata SPECIES_FLABEBE_ORANGE_FLOWER, "-----"
     colorflip BODY_COLOR_WHITE, 0
     
 
-// ABILITY: Flower Power (2, New), Grassy Surge (HA)
+// ABILITY: Serene Grace (2), Flower Power (HA, New)
 mondata SPECIES_FLABEBE_BLUE_FLOWER, "-----"
     basestats 44, 38, 39, 42, 61, 79
     types TYPE_FAIRY, TYPE_FAIRY
@@ -27618,13 +27610,13 @@ mondata SPECIES_FLABEBE_BLUE_FLOWER, "-----"
     baseexp 61
     evyields 0, 0, 0, 0, 0, 1
     items ITEM_NONE, ITEM_NONE
-    genderratio 244
+    genderratio 254
     eggcycles SHORT_EGG_CYCLE ? 0 : 20
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FAIRY, EGG_GROUP_FAIRY
     .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_FLOWER_VEIL, ABILITY_FLOWER_POWER
+        abilities ABILITY_FLOWER_VEIL, ABILITY_SERENE_GRACE
     .else
         abilities ABILITY_FLOWER_VEIL, ABILITY_NONE
     .endif
@@ -27632,7 +27624,7 @@ mondata SPECIES_FLABEBE_BLUE_FLOWER, "-----"
     colorflip BODY_COLOR_WHITE, 0
     
 
-// ABILITY: Flower Power (2, New), Grassy Surge (HA)
+// ABILITY: Serene Grace (2), Flower Power (HA, New)
 mondata SPECIES_FLABEBE_WHITE_FLOWER, "-----"
     basestats 44, 38, 39, 42, 61, 79
     types TYPE_FAIRY, TYPE_FAIRY
@@ -27640,13 +27632,13 @@ mondata SPECIES_FLABEBE_WHITE_FLOWER, "-----"
     baseexp 61
     evyields 0, 0, 0, 0, 0, 1
     items ITEM_NONE, ITEM_NONE
-    genderratio 244
+    genderratio 254
     eggcycles SHORT_EGG_CYCLE ? 0 : 20
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FAIRY, EGG_GROUP_FAIRY
     .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_FLOWER_VEIL, ABILITY_FLOWER_POWER
+        abilities ABILITY_FLOWER_VEIL, ABILITY_SERENE_GRACE
     .else
         abilities ABILITY_FLOWER_VEIL, ABILITY_NONE
     .endif
@@ -27654,7 +27646,7 @@ mondata SPECIES_FLABEBE_WHITE_FLOWER, "-----"
     colorflip BODY_COLOR_WHITE, 0
     
 
-// ABILITY: Flower Power (2, New), Grassy Surge (HA)
+// ABILITY: Serene Grace (2), Flower Power (HA, New)
 mondata SPECIES_FLOETTE_YELLOW_FLOWER, "-----"
     basestats 54, 45, 47, 52, 75, 98
     types TYPE_FAIRY, TYPE_FAIRY
@@ -27662,13 +27654,13 @@ mondata SPECIES_FLOETTE_YELLOW_FLOWER, "-----"
     baseexp 130
     evyields 0, 0, 0, 0, 0, 2
     items ITEM_NONE, ITEM_NONE
-    genderratio 244
+    genderratio 254
     eggcycles SHORT_EGG_CYCLE ? 0 : 20
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FAIRY, EGG_GROUP_FAIRY
     .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_FLOWER_VEIL, ABILITY_FLOWER_POWER
+        abilities ABILITY_FLOWER_VEIL, ABILITY_SERENE_GRACE
     .else
         abilities ABILITY_FLOWER_VEIL, ABILITY_NONE
     .endif
@@ -27676,7 +27668,7 @@ mondata SPECIES_FLOETTE_YELLOW_FLOWER, "-----"
     colorflip BODY_COLOR_WHITE, 0
     
 
-// ABILITY: Flower Power (2, New), Grassy Surge (HA)
+// ABILITY: Serene Grace (2), Flower Power (HA, New)
 mondata SPECIES_FLOETTE_ORANGE_FLOWER, "-----"
     basestats 54, 45, 47, 52, 75, 98
     types TYPE_FAIRY, TYPE_FAIRY
@@ -27684,13 +27676,13 @@ mondata SPECIES_FLOETTE_ORANGE_FLOWER, "-----"
     baseexp 130
     evyields 0, 0, 0, 0, 0, 2
     items ITEM_NONE, ITEM_NONE
-    genderratio 244
+    genderratio 254
     eggcycles SHORT_EGG_CYCLE ? 0 : 20
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FAIRY, EGG_GROUP_FAIRY
     .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_FLOWER_VEIL, ABILITY_FLOWER_POWER
+        abilities ABILITY_FLOWER_VEIL, ABILITY_SERENE_GRACE
     .else
         abilities ABILITY_FLOWER_VEIL, ABILITY_NONE
     .endif
@@ -27698,7 +27690,7 @@ mondata SPECIES_FLOETTE_ORANGE_FLOWER, "-----"
     colorflip BODY_COLOR_WHITE, 0
     
 
-// ABILITY: Flower Power (2, New), Grassy Surge (HA)
+// ABILITY: Serene Grace (2), Flower Power (HA, New)
 mondata SPECIES_FLOETTE_BLUE_FLOWER, "-----"
     basestats 54, 45, 47, 52, 75, 98
     types TYPE_FAIRY, TYPE_FAIRY
@@ -27706,13 +27698,13 @@ mondata SPECIES_FLOETTE_BLUE_FLOWER, "-----"
     baseexp 130
     evyields 0, 0, 0, 0, 0, 2
     items ITEM_NONE, ITEM_NONE
-    genderratio 244
+    genderratio 254
     eggcycles SHORT_EGG_CYCLE ? 0 : 20
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FAIRY, EGG_GROUP_FAIRY
     .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_FLOWER_VEIL, ABILITY_FLOWER_POWER
+        abilities ABILITY_FLOWER_VEIL, ABILITY_SERENE_GRACE
     .else
         abilities ABILITY_FLOWER_VEIL, ABILITY_NONE
     .endif
@@ -27720,7 +27712,7 @@ mondata SPECIES_FLOETTE_BLUE_FLOWER, "-----"
     colorflip BODY_COLOR_WHITE, 0
     
 
-// ABILITY: Flower Power (2, New), Grassy Surge (HA)
+// ABILITY: Serene Grace (2), Flower Power (HA, New)
 mondata SPECIES_FLOETTE_WHITE_FLOWER, "-----"
     basestats 54, 45, 47, 52, 75, 98
     types TYPE_FAIRY, TYPE_FAIRY
@@ -27728,13 +27720,13 @@ mondata SPECIES_FLOETTE_WHITE_FLOWER, "-----"
     baseexp 130
     evyields 0, 0, 0, 0, 0, 2
     items ITEM_NONE, ITEM_NONE
-    genderratio 244
+    genderratio 254
     eggcycles SHORT_EGG_CYCLE ? 0 : 20
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FAIRY, EGG_GROUP_FAIRY
     .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_FLOWER_VEIL, ABILITY_FLOWER_POWER
+        abilities ABILITY_FLOWER_VEIL, ABILITY_SERENE_GRACE
     .else
         abilities ABILITY_FLOWER_VEIL, ABILITY_NONE
     .endif
@@ -27749,7 +27741,7 @@ mondata SPECIES_FLOETTE_ETERNAL_FLOWER, "-----"
     baseexp 243
     evyields 0, 0, 0, 0, 0, 2
     items ITEM_NONE, ITEM_NONE
-    genderratio 244
+    genderratio 254
     eggcycles SHORT_EGG_CYCLE ? 0 : 20
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
@@ -27759,7 +27751,7 @@ mondata SPECIES_FLOETTE_ETERNAL_FLOWER, "-----"
     colorflip BODY_COLOR_WHITE, 0
     
 
-// ABILITY: Flower Power (2, New), Grassy Surge (HA)
+// ABILITY: Serene Grace (2), Flower Power (HA, New)
 mondata SPECIES_FLORGES_YELLOW_FLOWER, "-----"
     basestats 78, 65, 68, 75, 112, 154
     types TYPE_FAIRY, TYPE_FAIRY
@@ -27767,13 +27759,13 @@ mondata SPECIES_FLORGES_YELLOW_FLOWER, "-----"
     baseexp 248
     evyields 0, 0, 0, 0, 0, 3
     items ITEM_NONE, ITEM_NONE
-    genderratio 244
+    genderratio 254
     eggcycles SHORT_EGG_CYCLE ? 0 : 20
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FAIRY, EGG_GROUP_FAIRY
     .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_FLOWER_VEIL, ABILITY_FLOWER_POWER
+        abilities ABILITY_FLOWER_VEIL, ABILITY_SERENE_GRACE
     .else
         abilities ABILITY_FLOWER_VEIL, ABILITY_NONE
     .endif
@@ -27781,7 +27773,7 @@ mondata SPECIES_FLORGES_YELLOW_FLOWER, "-----"
     colorflip BODY_COLOR_WHITE, 0
     
 
-// ABILITY: Flower Power (2, New), Grassy Surge (HA)
+// ABILITY: Serene Grace (2), Flower Power (HA, New)
 mondata SPECIES_FLORGES_ORANGE_FLOWER, "-----"
     basestats 78, 65, 68, 75, 112, 154
     types TYPE_FAIRY, TYPE_FAIRY
@@ -27789,13 +27781,13 @@ mondata SPECIES_FLORGES_ORANGE_FLOWER, "-----"
     baseexp 248
     evyields 0, 0, 0, 0, 0, 3
     items ITEM_NONE, ITEM_NONE
-    genderratio 244
+    genderratio 254
     eggcycles SHORT_EGG_CYCLE ? 0 : 20
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FAIRY, EGG_GROUP_FAIRY
     .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_FLOWER_VEIL, ABILITY_FLOWER_POWER
+        abilities ABILITY_FLOWER_VEIL, ABILITY_SERENE_GRACE
     .else
         abilities ABILITY_FLOWER_VEIL, ABILITY_NONE
     .endif
@@ -27803,7 +27795,7 @@ mondata SPECIES_FLORGES_ORANGE_FLOWER, "-----"
     colorflip BODY_COLOR_WHITE, 0
     
 
-// ABILITY: Flower Power (2, New), Grassy Surge (HA)
+// ABILITY: Serene Grace (2), Flower Power (HA, New)
 mondata SPECIES_FLORGES_BLUE_FLOWER, "-----"
     basestats 78, 65, 68, 75, 112, 154
     types TYPE_FAIRY, TYPE_FAIRY
@@ -27811,13 +27803,13 @@ mondata SPECIES_FLORGES_BLUE_FLOWER, "-----"
     baseexp 248
     evyields 0, 0, 0, 0, 0, 3
     items ITEM_NONE, ITEM_NONE
-    genderratio 244
+    genderratio 254
     eggcycles SHORT_EGG_CYCLE ? 0 : 20
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FAIRY, EGG_GROUP_FAIRY
     .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_FLOWER_VEIL, ABILITY_FLOWER_POWER
+        abilities ABILITY_FLOWER_VEIL, ABILITY_SERENE_GRACE
     .else
         abilities ABILITY_FLOWER_VEIL, ABILITY_NONE
     .endif
@@ -27825,7 +27817,7 @@ mondata SPECIES_FLORGES_BLUE_FLOWER, "-----"
     colorflip BODY_COLOR_WHITE, 0
     
 
-// ABILITY: Flower Power (2, New), Grassy Surge (HA)
+// ABILITY: Serene Grace (2), Flower Power (HA, New)
 mondata SPECIES_FLORGES_WHITE_FLOWER, "-----"
     basestats 78, 65, 68, 75, 112, 154
     types TYPE_FAIRY, TYPE_FAIRY
@@ -27833,13 +27825,13 @@ mondata SPECIES_FLORGES_WHITE_FLOWER, "-----"
     baseexp 248
     evyields 0, 0, 0, 0, 0, 3
     items ITEM_NONE, ITEM_NONE
-    genderratio 244
+    genderratio 254
     eggcycles SHORT_EGG_CYCLE ? 0 : 20
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FAIRY, EGG_GROUP_FAIRY
     .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_FLOWER_VEIL, ABILITY_FLOWER_POWER
+        abilities ABILITY_FLOWER_VEIL, ABILITY_SERENE_GRACE
     .else
         abilities ABILITY_FLOWER_VEIL, ABILITY_NONE
     .endif
@@ -28817,7 +28809,7 @@ mondata SPECIES_ALCREMIE_BERRY_SWEET, "-----"
     baseexp 173
     evyields 0, 0, 0, 0, 0, 2
     items ITEM_NONE, ITEM_NONE
-    genderratio 244
+    genderratio 254
     eggcycles SHORT_EGG_CYCLE ? 0 : 20
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
@@ -28834,7 +28826,7 @@ mondata SPECIES_ALCREMIE_LOVE_SWEET, "-----"
     baseexp 173
     evyields 0, 0, 0, 0, 0, 2
     items ITEM_NONE, ITEM_NONE
-    genderratio 244
+    genderratio 254
     eggcycles SHORT_EGG_CYCLE ? 0 : 20
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
@@ -28851,7 +28843,7 @@ mondata SPECIES_ALCREMIE_STAR_SWEET, "-----"
     baseexp 173
     evyields 0, 0, 0, 0, 0, 2
     items ITEM_NONE, ITEM_NONE
-    genderratio 244
+    genderratio 254
     eggcycles SHORT_EGG_CYCLE ? 0 : 20
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
@@ -28868,7 +28860,7 @@ mondata SPECIES_ALCREMIE_CLOVER_SWEET, "-----"
     baseexp 173
     evyields 0, 0, 0, 0, 0, 2
     items ITEM_NONE, ITEM_NONE
-    genderratio 244
+    genderratio 254
     eggcycles SHORT_EGG_CYCLE ? 0 : 20
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
@@ -28885,7 +28877,7 @@ mondata SPECIES_ALCREMIE_FLOWER_SWEET, "-----"
     baseexp 173
     evyields 0, 0, 0, 0, 0, 2
     items ITEM_NONE, ITEM_NONE
-    genderratio 244
+    genderratio 254
     eggcycles SHORT_EGG_CYCLE ? 0 : 20
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
@@ -28902,7 +28894,7 @@ mondata SPECIES_ALCREMIE_RIBBON_SWEET, "-----"
     baseexp 173
     evyields 0, 0, 0, 0, 0, 2
     items ITEM_NONE, ITEM_NONE
-    genderratio 244
+    genderratio 254
     eggcycles SHORT_EGG_CYCLE ? 0 : 20
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
@@ -28919,7 +28911,7 @@ mondata SPECIES_ALCREMIE_FILLER_1, "-----"
     baseexp 173
     evyields 0, 0, 0, 0, 0, 2
     items ITEM_NONE, ITEM_NONE
-    genderratio 244
+    genderratio 254
     eggcycles SHORT_EGG_CYCLE ? 0 : 20
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
@@ -28936,7 +28928,7 @@ mondata SPECIES_ALCREMIE_FILLER_2, "-----"
     baseexp 173
     evyields 0, 0, 0, 0, 0, 2
     items ITEM_NONE, ITEM_NONE
-    genderratio 244
+    genderratio 254
     eggcycles SHORT_EGG_CYCLE ? 0 : 20
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
@@ -29150,7 +29142,6 @@ mondata SPECIES_ARCANINE_HISUIAN, "-----"
     colorflip BODY_COLOR_BROWN, 0
     
 
-// ABILITY: Aftermath (1), Electric Surge (HA)
 mondata SPECIES_VOLTORB_HISUIAN, "-----"
     basestats 40, 30, 50, 100, 55, 55
     types TYPE_ELECTRIC, TYPE_GRASS
@@ -29163,16 +29154,12 @@ mondata SPECIES_VOLTORB_HISUIAN, "-----"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MINERAL, EGG_GROUP_MINERAL
-    .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_AFTERMATH, ABILITY_STATIC
-    .else
-        abilities ABILITY_SOUNDPROOF, ABILITY_STATIC
-    .endif
+    abilities ABILITY_SOUNDPROOF, ABILITY_STATIC
     runchance 25
     colorflip BODY_COLOR_RED, 0
     
 
-// ABILITY: Aftermath (1), Electric Surge (HA)
+// ABILITY: Grassy Surge (HA)
 mondata SPECIES_ELECTRODE_HISUIAN, "-----"
     basestats 60, 50, 70, 150, 80, 80
     types TYPE_ELECTRIC, TYPE_GRASS
@@ -29185,11 +29172,7 @@ mondata SPECIES_ELECTRODE_HISUIAN, "-----"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MINERAL, EGG_GROUP_MINERAL
-    .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_AFTERMATH, ABILITY_STATIC
-    .else
-        abilities ABILITY_SOUNDPROOF, ABILITY_STATIC
-    .endif
+    abilities ABILITY_SOUNDPROOF, ABILITY_STATIC
     runchance 25
     colorflip BODY_COLOR_RED, 0
     

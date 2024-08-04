@@ -230,7 +230,7 @@ Wind moves do no damage\nand boost its Attack stat.
 Increases the power of\nWater moves by 50%.
 Raises the power of aura\nand pulse moves by 50%.
 Bug moves have 30% chance\nto cause a status effect.
-Raises the power of ball\nand bomb moves by 50%.
+Raises and lowers stats\nif HP drops below 50%.
 Bug moves do no damage\nand boost its Attack stat.
 Ups sound moves by 20%.\nHalves damage from them.
 Powers up moves used by\nallies by 20%.

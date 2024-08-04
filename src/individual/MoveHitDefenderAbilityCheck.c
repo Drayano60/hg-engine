@@ -269,6 +269,34 @@ BOOL MoveHitDefenderAbilityCheckInternal(void *bw, struct BattleStruct *sp, int 
                 ret = TRUE;
             }
         break;
+        case ABILITY_ANGER_SHELL:
+            if
+            (
+                (sp->battlemon[sp->defence_client].hp)
+                && ((sp->waza_status_flag & WAZA_STATUS_FLAG_NO_OUT) == 0)
+                && ((sp->server_status_flag & SERVER_STATUS_FLAG_x20) == 0)
+                && ((sp->server_status_flag2 & SERVER_STATUS_FLAG2_U_TURN) == 0)
+                && ((sp->oneSelfFlag[sp->defence_client].physical_damage) || (sp->oneSelfFlag[sp->defence_client].special_damage))
+                // Berserk doesn't activate if the Pokémon gets attacked by a Sheer Force boosted move
+                && !((GetBattlerAbility(sp, sp->attack_client) == ABILITY_SHEER_FORCE) && (sp->battlemon[sp->attack_client].sheer_force_flag == 1))
+                // berserk doesn't activate until the last hit of a multi-hit move
+                && (sp->multi_hit_count <= 1)
+                && (sp->battlemon[sp->defence_client].hp <= (s32)(sp->battlemon[sp->defence_client].maxhp / 2))
+                && (
+                    // Checks if the Pokémon has gone below half HP from the current damage instance
+                    // physical_damage and special_damage contain the relevant damage value that was just dealt, but the value is negative
+                    ((sp->battlemon[sp->defence_client].hp - (sp->oneSelfFlag[sp->defence_client].physical_damage)) > (s32)sp->battlemon[sp->defence_client].maxhp / 2) ||
+                    ((sp->battlemon[sp->defence_client].hp - (sp->oneSelfFlag[sp->defence_client].special_damage)) > (s32)sp->battlemon[sp->defence_client].maxhp / 2)
+                   )
+            )
+            {
+                sp->addeffect_type = ADD_EFFECT_ABILITY;
+                sp->state_client = sp->defence_client;
+                sp->client_work = sp->defence_client;
+                seq_no[0] = SUB_SEQ_HANDLE_ANGER_SHELL;
+                ret = TRUE;
+            }
+        break;
         case ABILITY_STAMINA:
             if ((sp->battlemon[sp->defence_client].hp)
                 && (sp->battlemon[sp->defence_client].states[STAT_DEFENSE] < 12)
@@ -300,7 +328,7 @@ BOOL MoveHitDefenderAbilityCheckInternal(void *bw, struct BattleStruct *sp, int 
                 sp->addeffect_type = ADD_EFFECT_PRINT_WORK_ABILITY;
                 sp->state_client = sp->attack_client;
                 sp->client_work = sp->defence_client;
-                seq_no[0] = SUB_SEQ_BOOST_STATS;
+                seq_no[0] = SUB_SEQ_HANDLE_GOOEY;
                 ret = TRUE;
             }
             break;

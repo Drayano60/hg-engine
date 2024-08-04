@@ -5448,6 +5448,7 @@ mondata SPECIES_CORSOLA, "Corsola"
     mondexweight SPECIES_CORSOLA, "11.0 lbs."
 
 
+// ABILITY: No Guard (2)
 mondata SPECIES_REMORAID, "Remoraid"
     basestats 35, 65, 35, 65, 65, 35
     types TYPE_WATER, TYPE_WATER
@@ -5460,7 +5461,11 @@ mondata SPECIES_REMORAID, "Remoraid"
     basefriendship 70 // raised up again
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_WATER_2
-    abilities ABILITY_HUSTLE, ABILITY_SNIPER
+    .if ABILITY_CHANGES_IMPLEMENTED
+        abilities ABILITY_HUSTLE, ABILITY_NO_GUARD
+    .else
+        abilities ABILITY_HUSTLE, ABILITY_SNIPER
+    .endif
     runchance 25
     colorflip BODY_COLOR_GRAY, 0
     mondexentry SPECIES_REMORAID, "It has superb accuracy. The water\nit shoots out can strike moving\nprey from more than 300 feet away."
@@ -5470,7 +5475,7 @@ mondata SPECIES_REMORAID, "Remoraid"
 
 
 // STATS: 105 >> 115 Atk | 105 >> 115 SpAtk | 45 >> 25 Speed
-// ABILITY: Bombardier (2, New)
+// ABILITY: No Guard (2, New)
 mondata SPECIES_OCTILLERY, "Octillery"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 75, 115, 75, 25, 115, 75
@@ -5488,7 +5493,7 @@ mondata SPECIES_OCTILLERY, "Octillery"
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_WATER_2
     .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_SUCTION_CUPS, ABILITY_BOMBARDIER
+        abilities ABILITY_SUCTION_CUPS, ABILITY_NO_GUARD
     .else
         abilities ABILITY_SUCTION_CUPS, ABILITY_SNIPER
     .endif
@@ -11276,7 +11281,7 @@ mondata SPECIES_ABOMASNOW, "Abomasnow"
     mondexweight SPECIES_ABOMASNOW, "298.7 lbs."
 
 
-// ABILITY: Infiltrator (2)
+// ABILITY: Inner Focus (1), Keen Eye (2)
 mondata SPECIES_WEAVILE, "Weavile"
     basestats 70, 120, 65, 125, 45, 85
     types TYPE_DARK, TYPE_ICE
@@ -11290,7 +11295,7 @@ mondata SPECIES_WEAVILE, "Weavile"
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_PRESSURE, ABILITY_INFILTRATOR
+        abilities ABILITY_INNER_FOCUS, ABILITY_KEEN_EYE
     .else
         abilities ABILITY_PRESSURE, ABILITY_PRESSURE
     .endif

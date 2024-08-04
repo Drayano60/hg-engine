@@ -69,13 +69,13 @@ Acid Spray, Acrobatics, Autotomize, Bulldoze, Clear Smog, Coil, Cotton Guard, Dr
 Baby-Doll Eyes, Boomburst, Confide, Dazzling Gleam, Diamond Storm, Disarming Voice, Draining Kiss, Eerie Impulse, Electric Terrain, Fairy Wind, Freeze-Dry, Grassy Terrain, Infestation, Misty Terrain, Moonblast, Mystical Fire, Noble Roar, Nuzzle, Parabolic Charge, Parting Shot, Petal Blizzard, Phantom Force, Play Nice, Play Rough, Power-Up Punch, Water Shuriken.
 
 [Generation VII]
-Accelerock, Anchor Shot, Aurora Veil*, Brutal Swing, Burn Up, Clanging Scales, Darkest Lariat, Dragon Hammer, Fire Lash, First Impression, High Horsepower, Ice Hammer, Leafage, Liquidation, Lunge, Pollen Puff, Power Trip, Psychic Fangs, Psychic Terrain, Shadow Bone, Shore Up, Smart Strike, Solar Blade, Sparkling Aria*, Spirit Shackle, Strength Sap, Tearful Look, Toxic Thread, Trop Kick, Zing Zap.
+Accelerock, Anchor Shot, Aurora Veil*, Brutal Swing, Burn Up, Clanging Scales, Darkest Lariat, Double Iron Bash, Dragon Hammer, Fire Lash, First Impression, High Horsepower, Ice Hammer, Leafage, Liquidation, Lunge, Pollen Puff, Power Trip, Psychic Fangs, Psychic Terrain, Shadow Bone, Shore Up, Smart Strike, Solar Blade, Sparkling Aria*, Spirit Shackle, Strength Sap, Tearful Look, Toxic Thread, Trop Kick, Zing Zap.
 
 [Generation VIII]
 Apple Acid, Barb Barrage, Bitter Malice, Body Press, Branch Poke, Breaking Swipe, Burning Jealousy, Ceaseless Edge, Chloroblast, Clangorous Soul, Dire Claw, Dragon Darts*, Drum Beating, Dual Wingbeat, Esper Wing, False Surrender, Flip Turn, Grav Apple, Headlong Rush, Infernal Parade, Life Dew, Meteor Assault, Meteor Beam, Mountain Gale, Overdrive, Poltergeist, Psyshield Bash, Pyro Ball, Raging Fury, Scale Shot, Scorching Sands, Shelter, Skitter Smack, Snap Trap, Snipe Shot*, Spirit Break, Steel Beam, Stone Axe, Strange Steam, Triple Arrows*, Triple Axel, Victory Dance, Wave Crash.
 
 [Generation IX]
-Alluring Voice, Aqua Cutter, Aqua Step, Armor Cannon, Bitter Blade, Blood Moon, Chilling Water, Chilly Reception, Comeuppance, Double Shock, Dragon Cheer*, Electro Shot, Fickle Beam, Flower Trick, Gigaton Hammer, Glaive Rush, Hyper Drill, Ice Spinner*, Jet Punch, Kowtow Cleave, Mortal Spin, Population Bomb, Pounce, Rage Fist*, Raging Bull*, Snowscape, Spin Out, Supercell Slam, Syrup Bomb*, Tidy Up, Torch Song, Trailblaze, Triple Dive, Twin Beam.
+Alluring Voice, Aqua Cutter, Aqua Step, Armor Cannon, Bitter Blade, Blood Moon, Chilling Water, Chilly Reception, Comeuppance, Double Shock, Dragon Cheer*, Electro Shot, Fickle Beam, Flower Trick, Gigaton Hammer, Glaive Rush, Hyper Drill, Ice Spinner*, Jet Punch, Kowtow Cleave, Mortal Spin, Population Bomb, Pounce, Rage Fist*, Raging Bull*, Shed Tail*, Snowscape, Spin Out, Supercell Slam, Syrup Bomb*, Tidy Up, Torch Song, Trailblaze, Triple Dive, Twin Beam.
 
 * These marked moves don't fully work correctly yet.
 - Aurora Veil isn't currently its own field effect. Instead, the move will set up Reflect and Light Screen at once.
@@ -86,6 +86,7 @@ Alluring Voice, Aqua Cutter, Aqua Step, Armor Cannon, Bitter Blade, Blood Moon, 
 - Dragon Cheer applies the +2 critical ratio boost regardless of if the target is a Dragon-type or not.
 - Rage Fist's damage boost resets if the Pokémon switches out.
 - Syrup Bomb's effect is an immediate -2 Speed stat drop, instead of being at the end of the turn for the next three turns.
+- Shed Tail's HP drop does not cause an item like a Sitrus Berry to activate before the Pokémon switches out.
 
 ===========================================================================
 Modified Moves

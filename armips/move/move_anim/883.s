@@ -10,27 +10,15 @@
 
 .create "build/move/move_anim/0_883", 0
 
+// Shed Tail
+// Tail Whip anm. Substitute coming in is handled by Shed Tail subscript.
+
 a010_883:
-    loadparticlefromspa 0, 486
-    waitparticle
-
-    addparticle 0, 2, 3
-    addparticle 0, 1, 3
-    addparticle 0, 1, 3
-    addparticle 0, 0, 3
-    wait 10
-
-    addparticle 0, 1, 3
-    addparticle 0, 1, 3
-    wait 10
-
-    addparticle 0, 2, 3
-    addparticle 0, 0, 3
-    waitparticle
-
-    unloadparticle 0
+    loop 2
+    playsepan 1844, -117
+    callfunction 60, 3, 2, 1, 12, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
     waitstate
+    doloop
     end
     
-
 .close

@@ -15853,3 +15853,4 @@ movedescription MOVE_V_CREATE, "Hurls itself at the\nfoe with a hot flame.\nThis
 movedescription MOVE_SEARING_SHOT, "The user torches\neverything around it\nwith scarlet flames.\nThis has a 30% chance\nto burn what it hits."
 movedescription MOVE_DIAMOND_STORM, "The user whips up a\nstorm of diamonds to\ndamage its foes. This\nhas a 50% chance to\nsharply up Defense."
 movedescription MOVE_DOUBLE_IRON_BASH, "The user uses its hex\nnut as an axis to spin\nand hit the foe twice.\nThis has a 30% chance\nto flinch on each hit."
+movedescription MOVE_SHED_TAIL, "The user creates a\nsubstitute using its\nown HP, then switches\nplaces with a party\nPokémon in waiting."

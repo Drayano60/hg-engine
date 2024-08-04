@@ -23960,7 +23960,25 @@ levelup SPECIES_TOEDSCRUEL
     terminatelearnset
 
 levelup SPECIES_KLAWF
-    learnset MOVE_TACKLE, 1 
+    learnset MOVE_CRABHAMMER, 1
+    learnset MOVE_KNOCK_OFF, 1
+    learnset MOVE_VICE_GRIP, 1
+    learnset MOVE_HARDEN, 1
+    learnset MOVE_ROCK_THROW, 4
+    learnset MOVE_ROCK_SMASH, 8
+    learnset MOVE_ROCK_TOMB, 12
+    learnset MOVE_METAL_CLAW, 16
+    learnset MOVE_PROTECT, 20
+    learnset MOVE_ROCK_SLIDE, 24
+    learnset MOVE_X_SCISSOR, 28
+    learnset MOVE_ROCK_BLAST, 32
+    learnset MOVE_FLAIL, 36
+    learnset MOVE_IRON_DEFENSE, 40
+    learnset MOVE_SWORDS_DANCE, 44
+    learnset MOVE_HIGH_HORSEPOWER, 48
+    learnset MOVE_SHELL_SMASH, 52
+    learnset MOVE_STONE_EDGE, 56
+    learnset MOVE_GUILLOTINE, 60
     terminatelearnset
 
 levelup SPECIES_CAPSAKID
@@ -24174,7 +24192,21 @@ levelup SPECIES_REVAVROOM
     terminatelearnset
 
 levelup SPECIES_CYCLIZAR
-    learnset MOVE_TACKLE, 1 
+    learnset MOVE_TACKLE, 1
+    learnset MOVE_GROWL, 1
+    learnset MOVE_BITE, 4
+    learnset MOVE_RAPID_SPIN, 8
+    learnset MOVE_QUICK_ATTACK, 12
+    learnset MOVE_BREAKING_SWIPE, 16
+    learnset MOVE_TAUNT, 20
+    learnset MOVE_U_TURN, 24
+    learnset MOVE_KNOCK_OFF, 28
+    learnset MOVE_SHED_TAIL, 32
+    learnset MOVE_DRAGON_CLAW, 36
+    learnset MOVE_DRAGON_PULSE, 40
+    learnset MOVE_SHIFT_GEAR, 44
+    learnset MOVE_DRAGON_RUSH, 48
+    learnset MOVE_DOUBLE_EDGE, 52
     terminatelearnset
 
 levelup SPECIES_ORTHWORM

@@ -109,10 +109,6 @@ Effect: Increases the power of the Pokémon's aura or pulse moves by 50%.
 Pokémon: Butterfree.
 Effect: The Pokémon's damaging Bug-type moves have a 30% chance to inflict poison, paralysis or sleep (10% each) on the target.
 
-[Bombardier]
-Pokémon: Octillery.
-Effect: Increases the power of the Pokémon's ball or bomb moves by 50%.
-
 [Bugcatcher]
 Pokémon: Carnivine.
 Effect: Makes the Pokémon immune to Bug-type moves. When it would be hit by one, its Attack stat is also boosted one stage.

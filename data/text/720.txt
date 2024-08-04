@@ -230,7 +230,7 @@ Wind Rider
 Aqua Adept
 Aura Adept
 Befuddle
-Bombardier
+Anger Shell
 Bugcatcher
 Cacophony
 Cheerleader

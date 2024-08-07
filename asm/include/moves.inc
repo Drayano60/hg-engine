@@ -962,10 +962,14 @@
 .equ MOVE_HIDDEN_POWER_DARK, 942
 .equ MOVE_HIDDEN_POWER_DRAGON, 943
 
+/**** AURORA CRYSTAL: Return/Frustration clones ****/
+.equ MOVE_FRUSTRATION_AI, 944
+.equ MOVE_RETURN_AI, 945
+
 // there are a bunch more here but that is fine
 
 /**** AURORA CRYSTAL: Increased from 923 definition ****/
-.equ NUM_OF_MOVES, 944
+.equ NUM_OF_MOVES, 946
 
 .equ MOVE_G_MAX_WILDFIRE, (NUM_OF_MOVES-1+1)
 .equ MOVE_G_MAX_BEFUDDLE, (NUM_OF_MOVES-1+2)

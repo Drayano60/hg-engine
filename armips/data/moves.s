@@ -15128,6 +15128,38 @@ movedata MOVE_HIDDEN_POWER_DRAGON, "Hidden Power"
     terminatedata
     movedescription MOVE_HIDDEN_POWER_DRAGON, "A unique attack that\nvaries in type,\ndepending on the\nPokémon using it."
 
+movedata MOVE_FRUSTRATION_AI, "Frustration"
+    battleeffect MOVE_EFFECT_HIT
+    pss SPLIT_PHYSICAL
+    basepower 102
+    type TYPE_NORMAL
+    accuracy 100
+    pp 20
+    effectchance 0
+    target MOVE_TARGET_SELECTED
+    priority 0
+    flags FLAG_KEEP_HP_BAR | FLAG_KINGS_ROCK | FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
+    appeal 0x12
+    contesttype CONTEST_CUTE
+    terminatedata
+    movedescription MOVE_FRUSTRATION_AI, "For AI only."
+
+movedata MOVE_RETURN_AI, "Return"
+    battleeffect MOVE_EFFECT_HIT
+    pss SPLIT_PHYSICAL
+    basepower 102
+    type TYPE_NORMAL
+    accuracy 100
+    pp 20
+    effectchance 0
+    target MOVE_TARGET_SELECTED
+    priority 0
+    flags FLAG_KEEP_HP_BAR | FLAG_KINGS_ROCK | FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
+    appeal 0x11
+    contesttype CONTEST_CUTE
+    terminatedata
+    movedescription MOVE_RETURN_AI, "For AI only."
+
 movedatanoname NUM_OF_MOVES
     battleeffect MOVE_EFFECT_HIT
     pss SPLIT_SPECIAL

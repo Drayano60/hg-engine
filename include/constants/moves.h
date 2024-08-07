@@ -964,8 +964,12 @@
 #define MOVE_HIDDEN_POWER_DARK 942
 #define MOVE_HIDDEN_POWER_DRAGON 943
 
-/**** AURORA CRYSTAL: Changed from 923 -> 944. ****/
-#define NUM_OF_MOVES 944
+// Return and Frustration clones for AI
+#define MOVE_FRUSTRATION_AI 944
+#define MOVE_RETURN_AI 945
+
+/**** AURORA CRYSTAL: Changed from 923 -> 946. ****/
+#define NUM_OF_MOVES 946
 
 #define MOVE_G_MAX_WILDFIRE (NUM_OF_MOVES-1+1)
 #define MOVE_G_MAX_BEFUDDLE (NUM_OF_MOVES-1+2)

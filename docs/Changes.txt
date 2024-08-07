@@ -545,6 +545,7 @@ Safari Zone
 ✓ Speaking to Baoba with Meltan leading the party will trigger some unique dialogue. Speaking to him again after earning the Rising Badge will get the player the Mystery Box, which can be used to evolve Meltan.
 ✓ The level cap increases after Baoba's dialogue concludes.
 ✓ Baoba gives the player TM17 Protect when they leave a Safari Game for the first time.
+✓ Moved all NPCs related to the Safari Zone Link off-map. Added a lady behind the counter who offers you Pokémon Eggs from the Safari Zone. You can select an Area, and then you'll be given an Egg containing one of the species found in that Area at random.
 
 Safari Zone Gate (Normal)
 ✓ Changed out the no talking lady/Kangaskhan for an old couple who sells 'crafted' items, including the Auspicious Armor, Malicious Armor, Galarica Cuff, Galarica Wreath and Shell Bell.

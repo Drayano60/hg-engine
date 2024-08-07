@@ -95,7 +95,7 @@ Cud Chew, Magician, Mimicry, Mirror Armor, Neutralizing Gas, Power of Alchemy, R
 ===========================================================================
 New Abilities
 ===========================================================================
-There are also 26 new abilities in the game, most of which are new signature abilities for certain Pokémon.
+There are also 25 new abilities in the game, most of which are new signature abilities for certain Pokémon.
 
 [Aqua Adept]
 Pokémon: Masquerain.

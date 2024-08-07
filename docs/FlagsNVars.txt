@@ -209,6 +209,7 @@ NPCs:
 2277 - Lure Ball gift from Fisherman on Route 12.
 2278 - Mental Herb gift in Goldenrod City.
 2279 - Swap Ring gift in Goldenrod City.
+2280 - Safari Zone Egg explanation.
 
 2230 - Heart Scale on Route 47 [UNUSED]
 2231 - Heart Scale on Route 40 [UNUSED]

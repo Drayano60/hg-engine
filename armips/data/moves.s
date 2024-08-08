@@ -15713,7 +15713,7 @@ movedescription MOVE_HEAL_PULSE, "The user emits a\nhealing pulse that\nrestores
 movedescription MOVE_HEX, "This relentless\nattack does double\ndamage to a target\naffected by status\nconditions."
 movedescription MOVE_SKY_DROP, "It takes the enemy\ninto the sky,\nwhere it can’t\nattack. It is\ndropped next turn."
 movedescription MOVE_SHIFT_GEAR, "Rotating its gears,\nthe user raises its\nAttack and sharply\nraises its Speed."
-movedescription MOVE_CIRCLE_THROW, "The foe is made to\nswitch out with an\nally. In the wild,\nthe battle ends."
+movedescription MOVE_CIRCLE_THROW, "The foe is thrown and\na different Pokémon\nis dragged out.\nIn the wild, it ends\nthe battle instead."
 movedescription MOVE_INCINERATE, "The user attacks\nthe foe with fire.\nIf the foe is holding\na Berry, it becomes\nburnt and unusable."
 movedescription MOVE_QUASH, "The user suppresses\nthe target and makes\nits move go last."
 movedescription MOVE_ACROBATICS, "The user nimbly\nstrikes the target.\nThis attack’s damage\nis doubled if the user\nisn’t holding an item."

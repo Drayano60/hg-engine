@@ -11,6 +11,9 @@ _000:
     WaitButtonABTime 30
     SetTailwindCounter 1
 
+    /**** AURORA CRYSTAL: Turned this on still just so the AI can read when Tailwind is up, even though it has no actual effect. */
+    UpdateVar OPCODE_FLAG_ON, BSCRIPT_VAR_SIDE_CONDITION_ATTACKER, SIDE_CONDITION_TAILWIND
+
     /**** AURORA CRYSTAL: Add handling for Wind Rider activation when used. */
     UpdateVar OPCODE_SET, BSCRIPT_VAR_BATTLER_SPEED_TEMP, 0 // Set to 0 ahead of Wind Rider loop.
     GoTo _WindAbilities

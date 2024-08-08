@@ -1084,7 +1084,7 @@ movedata MOVE_SUBMISSION, "Submission"
 movedata MOVE_LOW_KICK, "Low Kick"
     battleeffect MOVE_EFFECT_INCREASE_POWER_WITH_WEIGHT
     pss SPLIT_PHYSICAL
-    basepower 1
+    basepower 2 /**** EDIT: Upped to 2 so its damage is rolled properly per the new code in CalcBaseDamage. */
     type TYPE_FIGHTING
     accuracy 100
     pp 20
@@ -1546,7 +1546,8 @@ movedata MOVE_HYPNOSIS, "Hypnosis"
     movedescription MOVE_HYPNOSIS, "The user employs\nhypnotic suggestion\nto make the target\nfall into a deep\nsleep."
 
 movedata MOVE_MEDITATE, "Meditate"
-    battleeffect MOVE_EFFECT_ATK_ACC_UP /**** EDIT: Now boosts atk+accuracy. */
+    // battleeffect MOVE_EFFECT_ATK_ACC_UP /**** EDIT: Now boosts atk+accuracy. */
+    battleeffect MOVE_EFFECT_ATK_UP_2 /* AI */
     pss SPLIT_STATUS
     basepower 0
     type TYPE_PSYCHIC
@@ -4714,7 +4715,8 @@ movedata MOVE_CAMOUFLAGE, "Camouflage"
     movedescription MOVE_CAMOUFLAGE, "The user’s type is\nchanged depending on\nits environment, such\nas at water’s edge, in\ngrass, or in a cave."
 
 movedata MOVE_TAIL_GLOW, "Tail Glow"
-    battleeffect MOVE_EFFECT_TAIL_GLOW
+    // battleeffect MOVE_EFFECT_TAIL_GLOW
+    battleeffect MOVE_EFFECT_SP_ATK_UP_2 /* AI */
     pss SPLIT_STATUS
     basepower 0
     type TYPE_BUG
@@ -4986,7 +4988,7 @@ movedata MOVE_ASTONISH, "Astonish"
     movedescription MOVE_ASTONISH, "The user attacks the\nfoe while shouting in\na startling fashion.\nIt may also make the\ntarget flinch."
 
 movedata MOVE_WEATHER_BALL, "Weather Ball"
-    battleeffect MOVE_EFFECT_CHANGE_TYPE_WITH_WEATHER
+    battleeffect MOVE_EFFECT_HIT /**** EDIT: Effects are handled in CalcBaseDamage. */
     pss SPLIT_SPECIAL
     basepower 50
     type TYPE_NORMAL
@@ -5770,9 +5772,9 @@ movedata MOVE_HAMMER_ARM, "Hammer Arm"
     movedescription MOVE_HAMMER_ARM, "The user swings and\nhits with its strong\nand heavy fist.\nIt lowers the user’s\nSpeed, however."
 
 movedata MOVE_GYRO_BALL, "Gyro Ball"
-    battleeffect MOVE_EFFECT_POWER_BASED_ON_LOW_SPEED
+    battleeffect MOVE_EFFECT_HIT /**** EDIT: Effects are handled in CalcBaseDamage. */
     pss SPLIT_PHYSICAL
-    basepower 1
+    basepower 2 /**** EDIT: Upped to 2 so its damage is rolled properly per the new code in CalcBaseDamage. */
     type TYPE_STEEL
     accuracy 100
     pp 10 /**** EDIT: 5 -> 10. */
@@ -7164,7 +7166,7 @@ movedata MOVE_STEALTH_ROCK, "Stealth Rock"
 movedata MOVE_GRASS_KNOT, "Grass Knot"
     battleeffect MOVE_EFFECT_INCREASE_POWER_WITH_WEIGHT
     pss SPLIT_SPECIAL
-    basepower 1
+    basepower 2 /**** EDIT: Upped to 2 so its damage is rolled properly per the new code in CalcBaseDamage. */
     type TYPE_GRASS
     accuracy 100
     pp 20
@@ -7546,7 +7548,8 @@ movedata MOVE_470, "MOVE_470"
     movedescription MOVE_SHADOW_FORCE+3, "--"
 
 movedata MOVE_HONE_CLAWS, "Hone Claws"
-    battleeffect MOVE_EFFECT_ATK_ACC_UP
+    // battleeffect MOVE_EFFECT_ATK_ACC_UP
+    battleeffect MOVE_EFFECT_ATK_UP_2 /* AI */
     pss SPLIT_STATUS
     basepower 0
     type TYPE_DARK
@@ -7658,7 +7661,8 @@ movedata MOVE_VENOSHOCK, "Venoshock"
     movedescription MOVE_VENOSHOCK, "The foe is soaked\nby a special acid.\nIts power doubles if\nthe foe is poisoned."
 
 movedata MOVE_AUTOTOMIZE, "Autotomize"
-    battleeffect MOVE_EFFECT_AUTOTOMIZE
+    // battleeffect MOVE_EFFECT_AUTOTOMIZE
+    battleeffect MOVE_EFFECT_SPEED_UP_2 /* AI */
     pss SPLIT_STATUS
     basepower 0
     type TYPE_NORMAL
@@ -7786,7 +7790,8 @@ movedata MOVE_SLUDGE_WAVE, "Sludge Wave"
     movedescription MOVE_SLUDGE_WAVE, "The area around the\nuser is swamped by\na giant sludge wave.\nIt may also poison\nthose hit."
 
 movedata MOVE_QUIVER_DANCE, "Quiver Dance"
-    battleeffect MOVE_EFFECT_SP_ATK_SP_DEF_SPEED_UP
+    // battleeffect MOVE_EFFECT_SP_ATK_SP_DEF_SPEED_UP
+    battleeffect MOVE_EFFECT_ATK_SPEED_UP /* AI */
     pss SPLIT_STATUS
     basepower 0
     type TYPE_BUG
@@ -7804,7 +7809,7 @@ movedata MOVE_QUIVER_DANCE, "Quiver Dance"
 movedata MOVE_HEAVY_SLAM, "Heavy Slam"
     battleeffect MOVE_EFFECT_HEAVY_SLAM
     pss SPLIT_PHYSICAL
-    basepower 1
+    basepower 2 /**** EDIT: Upped to 2 so its damage is rolled properly per the new code in CalcBaseDamage. */
     type TYPE_STEEL
     accuracy 100
     pp 10
@@ -7834,9 +7839,9 @@ movedata MOVE_SYNCHRONOISE, "Synchronoise"
     movedescription MOVE_SYNCHRONOISE, "Using an odd shock\nwave, the user\ndamages same-type\nPokémon in the\nsurrounding area."
 
 movedata MOVE_ELECTRO_BALL, "Electro Ball"
-    battleeffect MOVE_EFFECT_HIT
+    battleeffect MOVE_EFFECT_HIT /**** EDIT: Effects are handled in CalcBaseDamage. */
     pss SPLIT_SPECIAL
-    basepower 1
+    basepower 2 /**** EDIT: Upped to 2 so its damage is rolled properly per the new code in CalcBaseDamage. */
     type TYPE_ELECTRIC
     accuracy 100
     pp 10
@@ -7882,7 +7887,8 @@ movedata MOVE_FLAME_CHARGE, "Flame Charge"
     movedescription MOVE_FLAME_CHARGE, "The user cloaks\nitself in flames and\nattacks. It also ups\nthe user’s Speed."
 
 movedata MOVE_COIL, "Coil"
-    battleeffect MOVE_EFFECT_ATK_DEF_ACC_UP
+    // battleeffect MOVE_EFFECT_ATK_DEF_ACC_UP
+    battleeffect MOVE_EFFECT_ATK_DEF_UP /* AI */
     pss SPLIT_STATUS
     basepower 0
     type TYPE_POISON
@@ -8122,7 +8128,8 @@ movedata MOVE_SCALD, "Scald"
     movedescription MOVE_SCALD, "Boiling water is\nshot at the foe.\nIt may also cause\na burn."
 
 movedata MOVE_SHELL_SMASH, "Shell Smash"
-    battleeffect MOVE_EFFECT_DEF_SP_DEF_DOWN_ATK_SP_ATK_SPEED_UP_2
+    // battleeffect MOVE_EFFECT_DEF_SP_DEF_DOWN_ATK_SP_ATK_SPEED_UP_2
+    battleeffect MOVE_EFFECT_ATK_SPEED_UP /* AI */
     pss SPLIT_STATUS
     basepower 0
     type TYPE_NORMAL
@@ -8186,7 +8193,8 @@ movedata MOVE_SKY_DROP, "Sky Drop"
     movedescription MOVE_SKY_DROP, "It takes the enemy\ninto the sky,\nwhere it can’t\nattack. It is\ndropped next turn."
 
 movedata MOVE_SHIFT_GEAR, "Shift Gear"
-    battleeffect MOVE_EFFECT_ATK_UP_SPEED_UP_2
+    // battleeffect MOVE_EFFECT_ATK_UP_SPEED_UP_2
+    battleeffect MOVE_EFFECT_ATK_SPEED_UP /* AI */
     pss SPLIT_STATUS
     basepower 0
     type TYPE_STEEL
@@ -8202,7 +8210,8 @@ movedata MOVE_SHIFT_GEAR, "Shift Gear"
     movedescription MOVE_SHIFT_GEAR, "Rotating its gears,\nthe user raises its\nAttack and sharply\nraises its Speed."
 
 movedata MOVE_CIRCLE_THROW, "Circle Throw"
-    battleeffect MOVE_EFFECT_DRAGON_TAIL
+    // battleeffect MOVE_EFFECT_DRAGON_TAIL
+    battleeffect MOVE_EFFECT_FORCE_SWITCH /* AI */
     pss SPLIT_PHYSICAL
     basepower 60
     type TYPE_FIGHTING
@@ -8298,7 +8307,8 @@ movedata MOVE_RETALIATE, "Retaliate"
     movedescription MOVE_RETALIATE, "If an ally fainted\nin the previous\nturn, this attack’s\ndamage increases."
 
 movedata MOVE_FINAL_GAMBIT, "Final Gambit"
-    battleeffect MOVE_EFFECT_FINAL_GAMBIT
+    // battleeffect MOVE_EFFECT_FINAL_GAMBIT
+    battleeffect MOVE_EFFECT_MAX_ATK_LOSE_HALF_MAX_HP /* AI */
     pss SPLIT_SPECIAL
     basepower 1
     type TYPE_FIGHTING
@@ -8458,7 +8468,8 @@ movedata MOVE_FROST_BREATH, "Frost Breath"
     movedescription MOVE_FROST_BREATH, "The user blows\ncold air at the foe.\nIt always results in\na critical hit."
 
 movedata MOVE_DRAGON_TAIL, "Dragon Tail"
-    battleeffect MOVE_EFFECT_DRAGON_TAIL
+    // battleeffect MOVE_EFFECT_DRAGON_TAIL
+    battleeffect MOVE_EFFECT_FORCE_SWITCH /* AI */
     pss SPLIT_PHYSICAL
     basepower 60
     type TYPE_DRAGON
@@ -8474,7 +8485,8 @@ movedata MOVE_DRAGON_TAIL, "Dragon Tail"
     movedescription MOVE_DRAGON_TAIL, "The foe is made to\nswitch out with an\nally. In the wild,\nthe battle ends."
 
 movedata MOVE_WORK_UP, "Work Up"
-    battleeffect MOVE_EFFECT_ATK_SP_ATK_UP
+    // battleeffect MOVE_EFFECT_ATK_SP_ATK_UP
+    battleeffect MOVE_EFFECT_ATK_UP_2 /* AI */
     pss SPLIT_STATUS
     basepower 0
     type TYPE_NORMAL
@@ -8620,7 +8632,7 @@ movedata MOVE_RAZOR_SHELL, "Razor Shell"
 movedata MOVE_HEAT_CRASH, "Heat Crash"
     battleeffect MOVE_EFFECT_HEAVY_SLAM
     pss SPLIT_PHYSICAL
-    basepower 1
+    basepower 2 /**** EDIT: Upped to 2 so its damage is rolled properly per the new code in CalcBaseDamage. */
     type TYPE_FIRE
     accuracy 100
     pp 10
@@ -8666,7 +8678,8 @@ movedata MOVE_STEAMROLLER, "Steamroller"
     movedescription MOVE_STEAMROLLER, "The user crushes\nthe foe with its\nbody. It may also\nmake the foe flinch."
 
 movedata MOVE_COTTON_GUARD, "Cotton Guard"
-    battleeffect MOVE_EFFECT_COTTON_GUARD
+    // battleeffect MOVE_EFFECT_COTTON_GUARD
+    battleeffect MOVE_EFFECT_DEF_UP_2 /* AI */
     pss SPLIT_STATUS
     basepower 0
     type TYPE_GRASS
@@ -9147,7 +9160,8 @@ movedata MOVE_TRICK_OR_TREAT, "Trick-or-Treat"
     movedescription MOVE_TRICK_OR_TREAT, "---"
 
 movedata MOVE_NOBLE_ROAR, "Noble Roar"
-    battleeffect MOVE_EFFECT_NOBLE_ROAR
+    // battleeffect MOVE_EFFECT_NOBLE_ROAR
+    battleeffect MOVE_EFFECT_SP_ATK_DOWN_2 /* AI */
     pss SPLIT_STATUS
     basepower 0
     type TYPE_NORMAL
@@ -9259,7 +9273,8 @@ movedata MOVE_DISARMING_VOICE, "Disarming Voice"
     movedescription MOVE_DISARMING_VOICE, "---"
 
 movedata MOVE_PARTING_SHOT, "Parting Shot"
-    battleeffect MOVE_EFFECT_PARTING_SHOT
+    // battleeffect MOVE_EFFECT_PARTING_SHOT
+    battleeffect MOVE_EFFECT_SP_ATK_DOWN_2 /* AI */
     pss SPLIT_STATUS
     basepower 0
     type TYPE_DARK
@@ -9339,7 +9354,8 @@ movedata MOVE_FLOWER_SHIELD, "Flower Shield"
     movedescription MOVE_FLOWER_SHIELD, "---"
 
 movedata MOVE_GRASSY_TERRAIN, "Grassy Terrain"
-    battleeffect MOVE_EFFECT_APPLY_TERRAINS
+    // battleeffect MOVE_EFFECT_APPLY_TERRAINS
+    battleeffect MOVE_EFFECT_ALWAYS_FLINCH_FIRST_TURN_ONLY /* AI */
     pss SPLIT_STATUS
     basepower 0
     type TYPE_GRASS
@@ -9355,7 +9371,8 @@ movedata MOVE_GRASSY_TERRAIN, "Grassy Terrain"
     movedescription MOVE_GRASSY_TERRAIN, "---"
 
 movedata MOVE_MISTY_TERRAIN, "Misty Terrain"
-    battleeffect MOVE_EFFECT_APPLY_TERRAINS
+    // battleeffect MOVE_EFFECT_APPLY_TERRAINS
+    battleeffect MOVE_EFFECT_ALWAYS_FLINCH_FIRST_TURN_ONLY /* AI */
     pss SPLIT_STATUS
     basepower 0
     type (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_NORMAL
@@ -9627,7 +9644,7 @@ movedata MOVE_AROMATIC_MIST, "Aromatic Mist"
     movedescription MOVE_AROMATIC_MIST, "---"
 
 movedata MOVE_EERIE_IMPULSE, "Eerie Impulse"
-    battleeffect MOVE_EFFECT_HIT
+    battleeffect MOVE_EFFECT_SP_ATK_DOWN_2
     pss SPLIT_STATUS
     basepower 0
     type TYPE_ELECTRIC
@@ -9723,7 +9740,8 @@ movedata MOVE_HAPPY_HOUR, "Happy Hour"
     movedescription MOVE_HAPPY_HOUR, "---"
 
 movedatalongname MOVE_ELECTRIC_TERRAIN, "ElectricTerrain", "Electric Terrain"
-    battleeffect MOVE_EFFECT_APPLY_TERRAINS
+    // battleeffect MOVE_EFFECT_APPLY_TERRAINS
+    battleeffect MOVE_EFFECT_ALWAYS_FLINCH_FIRST_TURN_ONLY /* AI */
     pss SPLIT_STATUS
     basepower 0
     type TYPE_ELECTRIC
@@ -10747,7 +10765,8 @@ movedata MOVE_HIGH_HORSEPOWER, "High Horsepower"
     movedescription MOVE_HIGH_HORSEPOWER, "---"
 
 movedata MOVE_STRENGTH_SAP, "Strength Sap"
-    battleeffect MOVE_EFFECT_STRENGTH_SAP
+    // battleeffect MOVE_EFFECT_STRENGTH_SAP
+    battleeffect MOVE_EFFECT_RESTORE_HALF_HP /* AI */
     pss SPLIT_STATUS
     basepower 0
     type TYPE_GRASS
@@ -10811,7 +10830,8 @@ movedata MOVE_SPOTLIGHT, "Spotlight"
     movedescription MOVE_SPOTLIGHT, "---"
 
 movedata MOVE_TOXIC_THREAD, "Toxic Thread"
-    battleeffect MOVE_EFFECT_TOXIC_THREAD
+    // battleeffect MOVE_EFFECT_TOXIC_THREAD
+    battleeffect MOVE_EFFECT_STATUS_POISON /* AI */
     pss SPLIT_STATUS
     basepower 0
     type TYPE_POISON
@@ -10907,7 +10927,8 @@ movedata MOVE_ANCHOR_SHOT, "Anchor Shot"
     movedescription MOVE_ANCHOR_SHOT, "---"
 
 movedata MOVE_PSYCHIC_TERRAIN, "Psychic Terrain"
-    battleeffect MOVE_EFFECT_APPLY_TERRAINS
+    // battleeffect MOVE_EFFECT_APPLY_TERRAINS
+    battleeffect MOVE_EFFECT_ALWAYS_FLINCH_FIRST_TURN_ONLY /* AI */
     pss SPLIT_STATUS
     basepower 0
     type TYPE_PSYCHIC
@@ -11163,7 +11184,8 @@ movedata MOVE_BRUTAL_SWING, "Brutal Swing"
     movedescription MOVE_BRUTAL_SWING, "---"
 
 movedata MOVE_AURORA_VEIL, "Aurora Veil"
-    battleeffect MOVE_EFFECT_AURORA_VEIL // This is not very accurate
+    // battleeffect MOVE_EFFECT_AURORA_VEIL // This is not very accurate
+    battleeffect MOVE_EFFECT_SET_LIGHT_SCREEN /* AI */
     pss SPLIT_STATUS
     basepower 0
     type TYPE_ICE
@@ -11499,7 +11521,8 @@ movedata MOVE_MOONGEIST_BEAM, "Moongeist Beam"
     movedescription MOVE_MOONGEIST_BEAM, "---"
 
 movedata MOVE_TEARFUL_LOOK, "Tearful Look"
-    battleeffect MOVE_EFFECT_NOBLE_ROAR
+    // battleeffect MOVE_EFFECT_NOBLE_ROAR
+    battleeffect MOVE_EFFECT_SP_ATK_DOWN_2 /* AI */
     pss SPLIT_STATUS
     basepower 0
     type TYPE_NORMAL
@@ -12459,7 +12482,8 @@ movedata MOVE_MAX_STEELSPIKE, "Max Steelspike"
     movedescription MOVE_MAX_STEELSPIKE, "---"
 
 movedata MOVE_CLANGOROUS_SOUL, "Clangorous Soul"
-    battleeffect MOVE_EFFECT_CLANGOROUS_SOUL
+    // battleeffect MOVE_EFFECT_CLANGOROUS_SOUL
+    battleeffect MOVE_EFFECT_MAX_ATK_LOSE_HALF_MAX_HP /* AI */
     pss SPLIT_STATUS
     basepower 0
     type TYPE_DRAGON
@@ -12859,7 +12883,8 @@ movedata MOVE_SCALE_SHOT, "Scale Shot"
     movedescription MOVE_SCALE_SHOT, "---"
 
 movedata MOVE_METEOR_BEAM, "Meteor Beam"
-    battleeffect MOVE_EFFECT_METEOR_BEAM
+    // battleeffect MOVE_EFFECT_METEOR_BEAM
+    battleeffect MOVE_EFFECT_CHARGE_TURN_DEF_UP /* AI */
     pss SPLIT_SPECIAL
     basepower 120
     type TYPE_ROCK
@@ -13451,7 +13476,8 @@ movedata MOVE_MOUNTAIN_GALE, "Mountain Gale"
     movedescription MOVE_MOUNTAIN_GALE, "---"
 
 movedata MOVE_VICTORY_DANCE, "Victory Dance"
-    battleeffect MOVE_EFFECT_VICTORY_DANCE
+    // battleeffect MOVE_EFFECT_VICTORY_DANCE
+    battleeffect MOVE_EFFECT_ATK_SPEED_UP /* AI */
     pss SPLIT_STATUS
     basepower 0
     type TYPE_FIGHTING
@@ -13499,7 +13525,8 @@ movedata MOVE_BARB_BARRAGE, "Barb Barrage"
     movedescription MOVE_BARB_BARRAGE, "---"
 
 movedata MOVE_ESPER_WING, "Esper Wing"
-    battleeffect MOVE_EFFECT_ESPER_WING
+    // battleeffect MOVE_EFFECT_ESPER_WING
+    battleeffect MOVE_EFFECT_HIGH_CRITICAL /* AI */
     pss SPLIT_SPECIAL
     basepower 80
     type TYPE_PSYCHIC
@@ -14139,7 +14166,8 @@ movedata MOVE_ELECTRO_DRIFT, "Electro Drift"
     movedescription MOVE_ELECTRO_DRIFT, "---"
 
 movedata MOVE_SHED_TAIL, "Shed Tail"
-    battleeffect MOVE_EFFECT_SHED_TAIL
+    // battleeffect MOVE_EFFECT_SHED_TAIL
+    battleeffect MOVE_EFFECT_MAX_ATK_LOSE_HALF_MAX_HP /* AI */
     pss SPLIT_STATUS
     basepower 0
     type TYPE_NORMAL
@@ -14155,7 +14183,8 @@ movedata MOVE_SHED_TAIL, "Shed Tail"
     movedescription MOVE_SHED_TAIL, "The user creates\na decoy using its own\nHP, then swaps places\nwith a party Pokémon\nin waiting."
 
 movedatalongname MOVE_CHILLY_RECEPTION, "ChillyReception", "Chilly Reception"
-    battleeffect MOVE_EFFECT_CHILLY_RECEPTION
+    // battleeffect MOVE_EFFECT_CHILLY_RECEPTION
+    battleeffect MOVE_EFFECT_WEATHER_HAIL /* AI */
     pss SPLIT_STATUS
     basepower 0
     type TYPE_ICE
@@ -14171,7 +14200,8 @@ movedatalongname MOVE_CHILLY_RECEPTION, "ChillyReception", "Chilly Reception"
     movedescription MOVE_CHILLY_RECEPTION, "---"
 
 movedata MOVE_TIDY_UP, "Tidy Up"
-    battleeffect MOVE_EFFECT_TIDY_UP
+    // battleeffect MOVE_EFFECT_TIDY_UP
+    battleeffect MOVE_EFFECT_ATK_SPEED_UP /* AI */
     pss SPLIT_STATUS
     basepower 0
     type TYPE_NORMAL
@@ -14539,7 +14569,8 @@ movedata MOVE_IVY_CUDGEL, "Ivy Cudgel"
     movedescription MOVE_IVY_CUDGEL, "---"
 
 movedata MOVE_ELECTRO_SHOT, "Electro Shot"
-    battleeffect MOVE_EFFECT_ELECTRO_SHOT
+    // battleeffect MOVE_EFFECT_ELECTRO_SHOT
+    battleeffect MOVE_EFFECT_CHARGE_TURN_DEF_UP /* AI */
     pss SPLIT_SPECIAL
     basepower 130
     type TYPE_ELECTRIC
@@ -15659,7 +15690,7 @@ movedescription MOVE_SLUDGE_WAVE, "It swamps the area\naround the user with\na g
 movedescription MOVE_QUIVER_DANCE, "The user performs a\nbeautiful, mystic\ndance. It boosts the\nuser’s Sp. Atk,\nSp. Def, and Speed."
 movedescription MOVE_HEAVY_SLAM, "The user slams into\nthe target. The more\nthe user outweighs\nthe foe, the greater\nthe damage."
 movedescription MOVE_SYNCHRONOISE, "Using an odd shock\nwave, the user\ndamages same-type\nPokémon in the\nsurrounding area."
-movedescription MOVE_ELECTRO_BALL, "The user hurls an\nelectric orb. The\nfaster the user is\nthan the foe, the\ngreater the damage."
+movedescription MOVE_ELECTRO_BALL, "The user hurls an\nelectrified orb.\nThe faster the user\nis than the foe, the\ngreater the damage."
 movedescription MOVE_SOAK, "The user shoots a\ntorrent of water at\nthe target and\nchanges the target’s\ntype to Water."
 movedescription MOVE_FLAME_CHARGE, "The user cloaks\nitself with flame and\nattacks. Building up\npower, it raises the\nuser’s Speed stat."
 movedescription MOVE_COIL, "The user coils up and\nconcentrates. This\nraises its Attack and\nDefense stats as well\nas its accuracy."

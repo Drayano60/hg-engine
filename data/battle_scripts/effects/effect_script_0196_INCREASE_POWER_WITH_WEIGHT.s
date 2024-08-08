@@ -3,7 +3,7 @@
 .data
 
 _000:
-    CalcWeightBasedPower 
+    // CalcWeightBasedPower /* Handled in CalcBaseDamage.c */
     CalcCrit 
     CalcDamage 
     End 

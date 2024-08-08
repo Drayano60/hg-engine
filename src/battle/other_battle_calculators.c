@@ -1788,13 +1788,25 @@ int LONG_CALL ServerDoTypeCalcMod(void *bw UNUSED, struct BattleStruct *sp, int 
     }
 
     /**** AURORA CRYSTAL: Added some code here to manipulate the AI so it doesn't attack with stuff that does no damage. ****/
-    // Includes Poltergeist into no held item, and a ton of abilities that grant immunities to particular moves.
+    // Includes Poltergeist into no held item, First Impression past turn one, and a ton of abilities that grant immunities to particular moves.
     // This does mean that the AI is "psychic" and can immediately know if you have these abilities or not.
 
+    // Poltergeist fails if the target does not have a held item.
     if (move_no == MOVE_POLTERGEIST && sp->battlemon[defence_client].item == 0) {
         damage = 0;
     }
 
+    // First Impression fails if it's not the user's first turn in battle.
+    if ((move_no == MOVE_FIRST_IMPRESSION) && (sp->battlemon[attack_client].moveeffect.fakeOutCount != sp->total_turn)) {
+        damage = 0;
+    }
+
+    // Burn Up and Double Shock fail if the Pokémon is no longer of their respective types.
+    if ((sp->moveTbl[move_no].effect == MOVE_EFFECT_REMOVE_TYPE) && (attacker_type_1 != move_type) && (attacker_type_2 != move_type)) {
+        damage = 0;
+    }
+
+    // Subsequent checks are all abilities that Mold Breaker bypasses.
     if (GetBattlerAbility(sp, attack_client) == ABILITY_MOLD_BREAKER) {
         return damage;
     }

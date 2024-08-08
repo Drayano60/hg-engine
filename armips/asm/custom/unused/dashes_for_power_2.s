@@ -3,12 +3,7 @@
 
 // Aurora Crystal specific change
 // Displays "---" for moves with power <=2 instead of <=1
-// Pairs with the hacky solution of giving status moves a very low power so the AI checks immunities
-
-/*
-This ultimately wasn't used as the AI would apply a -1 score to any status move as it wasn't the highest damaging one.
-I've left the code here just in case it becomes useful later.
-*/
+// Used for variable power moves now handled by damage calc like Low Kick, Heavy Slam etc
 
 .open "base/arm9.bin", 0x02000000
 

@@ -364,6 +364,7 @@
 #define MOVE_EFFECT_GLAIVE_RUSH                             534
 #define MOVE_EFFECT_FICKLE_BEAM                             535
 #define MOVE_EFFECT_SPEED_DOWN_2_HIT                        536
+#define MOVE_EFFECT_REMOVE_TYPE                             540
 
 
 #define MOVE_TARGET_SELECTED             0x0000

@@ -60,6 +60,7 @@ plus all the c injection stuff.  we are not worried about that here, that is dyn
 .include "armips/asm/custom/ai_edits.s"
 .include "armips/asm/custom/conditional_music.s"
 .include "armips/asm/custom/confusion_berries.s"
+.include "armips/asm/custom/dashes_for_power_2.s"
 .include "armips/asm/custom/double_battle_music.s"
 .include "armips/asm/custom/dynamic_headers.s"
 .include "armips/asm/custom/enable_surf_without_knowing_move.s"

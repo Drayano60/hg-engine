@@ -3,7 +3,7 @@
 .data
 
 _000:
-    CalcHeavySlamPower 
+    // CalcHeavySlamPower /* Handled in CalcBaseDamage.c */
     CalcCrit 
     CalcDamage 
     End 

@@ -12,9 +12,7 @@
 #include "../../include/constants/moves.h"
 #include "../../include/constants/species.h"
 
-static BOOL CalcRageFistDamageBonus(struct BattleStruct *sp);
-static BOOL CalcStoredPowerDamageBonus(struct BattleStruct *sp);
-static BOOL isKnockOffDamageBoosted(struct BattleStruct *sp);
+#define ALLOW_UNUSED_CODE FALSE
 
 struct PACKED sDamageCalc
 {
@@ -153,90 +151,6 @@ static const u16 SharpnessMovesTable[] = {
         MOVE_X_SCISSOR,
 };
 
-
-
-
-static int CalcRageFistDamageBonus(struct BattleStruct *sp)
-{
-    // This resets on switch-out!
-    u8 hit_count = sp->battlemon[sp->attack_client].hit_count;
-
-    // Intentionally nerfed down from 6.
-    if (hit_count > 3) {
-        hit_count = 3;
-    }
-
-    return hit_count;
-}
-
-static int CalcStoredPowerDamageBonus(struct BattleStruct *sp)
-{
-    int i = 0;
-
-    if (sp->battlemon[sp->attack_client].states[STAT_ATTACK] > 6) {
-        i = (i + sp->battlemon[sp->attack_client].states[STAT_ATTACK]) - 6;
-    }
-
-    if (sp->battlemon[sp->attack_client].states[STAT_DEFENSE] > 6) {
-        i = (i + sp->battlemon[sp->attack_client].states[STAT_DEFENSE]) - 6;
-    }
-
-    if (sp->battlemon[sp->attack_client].states[STAT_SPATK] > 6) {
-        i = (i + sp->battlemon[sp->attack_client].states[STAT_SPATK]) - 6;
-    }
-
-    if (sp->battlemon[sp->attack_client].states[STAT_SPDEF] > 6) {
-        i = (i + sp->battlemon[sp->attack_client].states[STAT_SPDEF]) - 6;
-    }
-
-    if (sp->battlemon[sp->attack_client].states[STAT_SPEED] > 6) {
-        i = (i + sp->battlemon[sp->attack_client].states[STAT_SPEED]) - 6;
-    }
-
-    if (sp->battlemon[sp->attack_client].states[STAT_ACCURACY] > 6) {
-        i = (i + sp->battlemon[sp->attack_client].states[STAT_ACCURACY]) - 6;
-    }
-
-    if (sp->battlemon[sp->attack_client].states[STAT_EVASION] > 6) {
-        i = (i + sp->battlemon[sp->attack_client].states[STAT_EVASION]) - 6;
-    }
-
-    return i;
-};
-
-static int isKnockOffDamageBoosted(struct BattleStruct *sp)
-{
-    u32 item = sp->battlemon[sp->defence_client].item;
-    u32 species = sp->battlemon[sp->defence_client].species;
-
-    if (item != 0
-        // z crystals can not be removed wherever they are
-        //&& !IS_ITEM_Z_CRYSTAL(item)
-        // mega stones can not be knocked off their own mon
-        && !CheckMegaData(species, item)
-        // arceus plate on arceus can not be knocked off
-        && !(species == SPECIES_ARCEUS && IS_ITEM_ARCEUS_PLATE(item))
-        // technically this can be knocked off as of SV but the transformation code hasnt been moved to the core as of right now so ill leave it alone for right now
-        && !(species == SPECIES_GIRATINA && item == ITEM_GRISEOUS_ORB)
-        // drives can not be knocked off of genesect
-        && !(species == SPECIES_GENESECT && IS_ITEM_GENESECT_DRIVE(item))
-        // silvally can not have its memory knocked off
-        && !(species == SPECIES_SILVALLY && IS_ITEM_MEMORY(item))
-        // zacian can not have its rusted sword knocked off
-        && !(species == SPECIES_ZACIAN && item == ITEM_RUSTED_SWORD)
-        // zamazenta can not have its rusted shield knocked off
-        && !(species == SPECIES_ZAMAZENTA && item == ITEM_RUSTED_SHIELD)
-        // paradox mons can not have their booster energy knocked off
-        && !(IS_SPECIES_PARADOX_FORM(species) && item == ITEM_BOOSTER_ENERGY)
-        // masks can not be knocked off of ogerpon
-        && !(species == SPECIES_OGERPON && IS_ITEM_MASK(item))
-    )
-    {
-        return TRUE;
-    }
-    return FALSE;
-}
-
 int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
                    u32 field_cond, u16 pow, u8 type UNUSED, u8 attacker, u8 defender, u8 critical)
 {
@@ -372,11 +286,48 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
 
     /**** AURORA CRYSTAL: Handle various moves with variable damage here so the AI can read it. ********************************/
     if (moveno == MOVE_STORED_POWER || moveno == MOVE_POWER_TRIP) {
-        movepower = movepower + (movepower * CalcStoredPowerDamageBonus(sp));
+        int i = 0;
+
+        if (sp->battlemon[attacker].states[STAT_ATTACK] > 6) {
+            i = (i + sp->battlemon[attacker].states[STAT_ATTACK]) - 6;
+        }
+
+        if (sp->battlemon[attacker].states[STAT_DEFENSE] > 6) {
+            i = (i + sp->battlemon[attacker].states[STAT_DEFENSE]) - 6;
+        }
+
+        if (sp->battlemon[attacker].states[STAT_SPATK] > 6) {
+            i = (i + sp->battlemon[attacker].states[STAT_SPATK]) - 6;
+        }
+
+        if (sp->battlemon[attacker].states[STAT_SPDEF] > 6) {
+            i = (i + sp->battlemon[attacker].states[STAT_SPDEF]) - 6;
+        }
+
+        if (sp->battlemon[attacker].states[STAT_SPEED] > 6) {
+            i = (i + sp->battlemon[attacker].states[STAT_SPEED]) - 6;
+        }
+
+        if (sp->battlemon[attacker].states[STAT_ACCURACY] > 6) {
+            i = (i + sp->battlemon[attacker].states[STAT_ACCURACY]) - 6;
+        }
+
+        if (sp->battlemon[attacker].states[STAT_EVASION] > 6) {
+            i = (i + sp->battlemon[attacker].states[STAT_EVASION]) - 6;
+        }
+
+        movepower = movepower + (movepower * i);
     }
 
     if (moveno == MOVE_RAGE_FIST) {
-        movepower = movepower + (movepower * CalcRageFistDamageBonus(sp));
+        // This resets on switch-out!
+        u8 hit_count = sp->battlemon[attacker].hit_count;
+
+        if (hit_count > 6) {
+            hit_count = 6;
+        }
+
+        movepower = movepower + (movepower * hit_count);
     }
 
     if (moveno == MOVE_INFERNAL_PARADE || moveno == MOVE_HEX) {
@@ -394,7 +345,7 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
     if
     (
         moveno == MOVE_ACROBATICS &&
-        (sp->battlemon[sp->attack_client].item == 0 ||
+        (sp->battlemon[attacker].item == 0 ||
         // As the current Gem implementation means they are still held during the move,
         // there's a special code exception here to get the Flying Gem working with Acrobatics.
         (movetype == TYPE_FLYING && AttackingMon.item_held_effect == HOLD_EFFECT_BOOST_TYPE_ONCE))
@@ -412,8 +363,40 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
         movepower *= 2;
     }
 
-    if (moveno == MOVE_KNOCK_OFF && isKnockOffDamageBoosted(sp)) {
-        movepower = movepower * 15 / 10;
+    if (moveno == MOVE_KNOCK_OFF) {
+        u32 item = sp->battlemon[defender].item;
+        u32 species = sp->battlemon[defender].species;
+        BOOL isKnockOffDamageBoosted = FALSE;
+
+        if (item != 0
+            // z crystals can not be removed wherever they are
+            //&& !IS_ITEM_Z_CRYSTAL(item)
+            // mega stones can not be knocked off their own mon
+            && !CheckMegaData(species, item)
+            // arceus plate on arceus can not be knocked off
+            && !(species == SPECIES_ARCEUS && IS_ITEM_ARCEUS_PLATE(item))
+            // technically this can be knocked off as of SV but the transformation code hasnt been moved to the core as of right now so ill leave it alone for right now
+            && !(species == SPECIES_GIRATINA && item == ITEM_GRISEOUS_ORB)
+            // drives can not be knocked off of genesect
+            && !(species == SPECIES_GENESECT && IS_ITEM_GENESECT_DRIVE(item))
+            // silvally can not have its memory knocked off
+            && !(species == SPECIES_SILVALLY && IS_ITEM_MEMORY(item))
+            // zacian can not have its rusted sword knocked off
+            && !(species == SPECIES_ZACIAN && item == ITEM_RUSTED_SWORD)
+            // zamazenta can not have its rusted shield knocked off
+            && !(species == SPECIES_ZAMAZENTA && item == ITEM_RUSTED_SHIELD)
+            // paradox mons can not have their booster energy knocked off
+            && !(IS_SPECIES_PARADOX_FORM(species) && item == ITEM_BOOSTER_ENERGY)
+            // masks can not be knocked off of ogerpon
+            && !(species == SPECIES_OGERPON && IS_ITEM_MASK(item))
+        )
+        {
+            isKnockOffDamageBoosted = TRUE;
+        }
+
+        if (isKnockOffDamageBoosted) {
+            movepower = movepower * 15 / 10;
+        }
     }
 
     if (moveno == MOVE_ECHOED_VOICE) {
@@ -424,6 +407,70 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
         if (sp->field_condition & FIELD_STATUS_GRAVITY) {
             movepower = movepower * 15 / 10;
         }
+    }
+
+    int attacker_weight = sp->battlemon[attacker].weight;
+    int defender_weight = sp->battlemon[defender].weight;
+
+    if (AttackingMon.ability == ABILITY_LIGHT_METAL) attacker_weight /= 2;
+    if (DefendingMon.ability == ABILITY_LIGHT_METAL) defender_weight /= 2;
+    if (AttackingMon.ability == ABILITY_HEAVY_METAL) attacker_weight *= 2;
+    if (DefendingMon.ability == ABILITY_HEAVY_METAL) defender_weight *= 2;
+
+    // Determine Heavy Slam or Heat Crash's bse power here.
+    if (move_effect == MOVE_EFFECT_HEAVY_SLAM) {
+        int ratio;
+
+        ratio = (defender_weight * 10000) / attacker_weight;
+
+        if      (ratio <= 2000) movepower = 120;
+        else if (ratio <= 2500) movepower = 100;
+        else if (ratio <= 3334) movepower = 80;
+        else if (ratio <= 5000) movepower = 60;
+        else                    movepower = 40;
+    }
+    
+    // Determine Low Kick or Grass Knot's base power here.
+    if (move_effect == MOVE_EFFECT_INCREASE_POWER_WITH_WEIGHT) {
+        if      (defender_weight < 100)  movepower = 20;
+        else if (defender_weight < 250)  movepower = 40;
+        else if (defender_weight < 500)  movepower = 60;
+        else if (defender_weight < 1000) movepower = 80;
+        else if (defender_weight < 2000) movepower = 100;
+        else                             movepower = 120;
+    }
+
+    // Do Weather Ball's power boost + type change here.
+    if ((moveno == MOVE_WEATHER_BALL) && (field_cond & FIELD_CONDITION_WEATHER)) {
+        if ((CheckSideAbility(bw, sp, CHECK_ABILITY_ALL_HP, 0, ABILITY_CLOUD_NINE) == 0) && (CheckSideAbility(bw, sp, CHECK_ABILITY_ALL_HP, 0, ABILITY_AIR_LOCK) == 0)) {
+            movepower *= 2;
+
+            if (sp->field_condition & WEATHER_RAIN_ANY) movetype = TYPE_WATER;
+            if (sp->field_condition & WEATHER_SANDSTORM_ANY) movetype = TYPE_ROCK;
+            if (sp->field_condition & WEATHER_SUNNY_ANY) movetype = TYPE_FIRE;
+            if (sp->field_condition & WEATHER_HAIL_ANY) movetype = TYPE_ICE;
+        }
+    }
+
+    // Do Gyro Ball's calculation here.
+    if (moveno == MOVE_GYRO_BALL) {
+        movepower = 1 + ((25 * sp->effectiveSpeed[defender]) / sp->effectiveSpeed[attacker]);
+
+        if (movepower > 150) {
+            movepower = 150;
+        }
+    }
+
+    // Do Electro Ball's calculation here.
+    if (moveno == MOVE_ELECTRO_BALL) {
+        u32 attackerSpeed = sp->effectiveSpeed[attacker];
+        u32 defenderSpeed = sp->effectiveSpeed[defender];
+
+        if      ((attackerSpeed / 4) >= defenderSpeed) movepower = 150; // 0.01% - 25%
+        else if ((attackerSpeed / 3) >= defenderSpeed) movepower = 120; // 25.01% - 33.33%
+        else if ((attackerSpeed / 2) >= defenderSpeed) movepower = 80;  // 33.34% - 50%
+        else if ((attackerSpeed / 1) >= defenderSpeed) movepower = 60;  // 50.01% - 100%
+        else                                           movepower = 40;  // Slower than target
     }
     /**** AURORA CRYSTAL: End of variable damage move calculations. ************************************************************/
 
@@ -604,6 +651,7 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
         movepower = movepower * (100 + AttackingMon.item_power) / 100;
     }
 
+    #if ALLOW_UNUSED_CODE
     // handle adamant crystal, lustrous globe & griseous core
     if ((AttackingMon.item_held_effect == HOLD_EFFECT_DIALGA_BOOST_AND_TRANSFORM) &&
         ((movetype == TYPE_DRAGON) || (movetype == TYPE_STEEL)) &&
@@ -628,6 +676,7 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
     {
         movepower = movepower * (100 + AttackingMon.item_power) / 100;
     }
+    #endif
 
     // handle punching glove
     if ((AttackingMon.item_held_effect == HOLD_EFFECT_INCREASE_PUNCHING_MOVE_DMG) && IsElementInArray(IronFistMovesTable, (u16 *)&moveno, NELEMS(IronFistMovesTable), sizeof(IronFistMovesTable[0])))
@@ -635,6 +684,7 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
         movepower = movepower * (100 + AttackingMon.item_power) / 100;
     }
 
+    #if ALLOW_UNUSED_CODE
     // handle ogerpon mask boosts
     if (((AttackingMon.item_held_effect == HOLD_EFFECT_CORNERSTONE_MASK) ||
         (AttackingMon.item_held_effect == HOLD_EFFECT_WELLSPRING_MASK) ||
@@ -643,6 +693,7 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
     {
         movepower = movepower * (100 + AttackingMon.item_power) / 100;
     }
+    #endif
 
     // handle items that boost physical/special moves
     if ((AttackingMon.item_held_effect == HOLD_EFFECT_POWER_UP_PHYS) && (movesplit == SPLIT_PHYSICAL))
@@ -827,18 +878,19 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
         movepower = movepower * 150 / 100;
     }
 
+    #if ALLOW_UNUSED_CODE
     // if dark aura is present but not aura break
     if ((movetype == TYPE_DARK) && (CheckSideAbility(bw, sp, CHECK_ABILITY_ALL_HP, 0, ABILITY_DARK_AURA) != 0)
       && (CheckSideAbility(bw, sp, CHECK_ABILITY_ALL_HP, 0, ABILITY_AURA_BREAK) == 0))
         movepower = movepower * 133 / 100;
 
-    // if dark aura is present AND aura break
+//     // if dark aura is present AND aura break
     else if ((movetype == TYPE_DARK) && (CheckSideAbility(bw, sp, CHECK_ABILITY_ALL_HP, 0, ABILITY_DARK_AURA) != 0)
       && (CheckSideAbility(bw, sp, CHECK_ABILITY_ALL_HP, 0, ABILITY_AURA_BREAK) != 0))
         movepower = movepower * 100 / 133;
 
 #if FAIRY_TYPE_IMPLEMENTED == 1
-    // if FAIRY aura is present but not aura break
+//     // if FAIRY aura is present but not aura break
     if ((movetype == TYPE_FAIRY) && (CheckSideAbility(bw, sp, CHECK_ABILITY_ALL_HP, 0, ABILITY_FAIRY_AURA) != 0)
       && (CheckSideAbility(bw, sp, CHECK_ABILITY_ALL_HP, 0, ABILITY_AURA_BREAK) == 0))
         movepower = movepower * 133 / 100;
@@ -847,6 +899,7 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
     else if ((movetype == TYPE_FAIRY) && (CheckSideAbility(bw, sp, CHECK_ABILITY_ALL_HP, 0, ABILITY_FAIRY_AURA) != 0)
       && (CheckSideAbility(bw, sp, CHECK_ABILITY_ALL_HP, 0, ABILITY_AURA_BREAK) != 0))
         movepower = movepower * 100 / 133;
+#endif
 #endif
 
     // handle steely spirit for the ally
@@ -1049,6 +1102,8 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
     }
 
     /**** AURORA CRYSTAL: Add handling for the new Bombardier and Wind Whipper abilities. ****/
+
+    #if ALLOW_UNUSED_CODE
     if (AttackingMon.ability == ABILITY_BOMBARDIER)
     {
         if (IsMoveBallBombBased(moveno))
@@ -1056,8 +1111,9 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
             movepower = movepower * 15 / 10;
         }
     }
+    #endif
 
-    if (AttackingMon.ability == ABILITY_WIND_RIDER)
+    if (AttackingMon.ability == ABILITY_WIND_WHIPPER)
     {
         if (IsMoveWindBased(moveno))
         {
@@ -1092,6 +1148,7 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
     }
     
     // handle ruin abilities
+    #if ALLOW_UNUSED_CODE
     if ((CheckSideAbility(bw, sp, CHECK_ABILITY_ALL_HP, 0, ABILITY_VESSEL_OF_RUIN)) 
       && (DefendingMon.ability != ABILITY_VESSEL_OF_RUIN))
         sp_attack = sp_attack * 75 / 100;
@@ -1107,6 +1164,7 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
     if ((CheckSideAbility(bw, sp, CHECK_ABILITY_ALL_HP, 0, ABILITY_BEADS_OF_RUIN)) 
       && (DefendingMon.ability != ABILITY_BEADS_OF_RUIN))
         sp_defense = sp_defense * 75 / 100;
+    #endif
 
     // Handle field effects interacting with their moves
     if (sp->terrainOverlay.numberOfTurnsLeft > 0) {
@@ -1313,11 +1371,13 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
         damage /= 2;
     }
 
+    #if ALLOW_UNUSED_CODE
     // handle shadow shield
     if ((DefendingMon.ability == ABILITY_SHADOW_SHIELD) && (DefendingMon.hp == DefendingMon.maxhp))
     {
         damage /= 2;
     }
+    #endif
 
     // handle water bubble
     if ((DefendingMon.ability == ABILITY_WATER_BUBBLE) && (movetype == TYPE_FIRE))
@@ -1332,11 +1392,13 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
 //        break;
 //    }
 
+    #if ALLOW_UNUSED_CODE
     // handle purifying salt
     if ((DefendingMon.ability == ABILITY_PURIFYING_SALT) && (movetype == TYPE_GHOST))
     {
         damage /= 2;
     }
+    #endif
       
     // Handle field effects
     if (sp->terrainOverlay.numberOfTurnsLeft > 0) {

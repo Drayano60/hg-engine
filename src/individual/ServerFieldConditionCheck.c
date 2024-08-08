@@ -187,6 +187,7 @@ void ServerFieldConditionCheck(void *bw, struct BattleStruct *sp)
                 {
                     if (--sp->tailwindCount[side] == 0)
                     {
+                        sp->side_condition[side] &= ~(SIDE_STATUS_TAILWIND); /**** AURORA CRYSTAL: Turn off old Tailwind flag here for AI reasons. */
                         LoadBattleSubSeqScript(sp, ARC_BATTLE_SUB_SEQ, SUB_SEQ_TAILWIND_END);
                         sp->next_server_seq_no = sp->server_seq_no;
                         sp->server_seq_no = 22;

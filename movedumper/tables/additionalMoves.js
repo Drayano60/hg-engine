@@ -318,6 +318,11 @@ export default {
         "klang",
         "klinklang",
     ],
+    superpower: [
+        "basculinwhitestriped",
+        "basculegion",
+        "basculegionf",
+    ],
     trailblaze: [
         "paras",
         "parasect",

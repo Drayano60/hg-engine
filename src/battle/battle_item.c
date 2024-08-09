@@ -197,6 +197,7 @@ enum
 
     /**** AURORA CRYSTAL: Added Throat Spray. ****/
     SHWAC_HELD_ITEM_THROAT_SPRAY,
+    SHWAC_HELD_ITEM_BLUNDER_POLICY,
     SHWAC_HELD_ITEM_GEM,
 
 	SWHAC_END
@@ -305,6 +306,32 @@ u32 LONG_CALL ServerWazaHitAfterCheckAct(void *bw, struct BattleStruct *sp)
                 sp->state_client = sp->attack_client;
                 sp->item_work = sp->battlemon[sp->attack_client].item;
                 LoadBattleSubSeqScript(sp, ARC_BATTLE_SUB_SEQ, SUB_SEQ_HANDLE_THROAT_SPRAY);
+                sp->next_server_seq_no = sp->server_seq_no;
+                sp->server_seq_no = 22;
+                ret = 1;
+            }
+            sp->swhac_seq_no++;
+            break;
+
+        /**** AURORA CRYSTAL: Blunder Policy effect. No U-turn check here as it doesn't happen on a miss. ****/
+        case SHWAC_HELD_ITEM_BLUNDER_POLICY:
+            if
+            (
+                (hold_effect == HOLD_EFFECT_BOOST_SPEED_ON_MISS)
+                && ((sp->waza_status_flag & MOVE_STATUS_FLAG_MISS) != 0) /* Activate item if move misses due to accuracy only. */
+                && ((sp->moveTbl[sp->current_move_index].effect != MOVE_EFFECT_ONE_HIT_KO)) /* Should not activate due to OHKO move missing. */
+                && (sp->battlemon[sp->attack_client].hp)
+                && (
+                    ((GetBattlerAbility(sp,sp->attack_client) == ABILITY_CONTRARY) && (sp->battlemon[sp->attack_client].states[STAT_SPEED] > 0))
+                    ||
+                    ((sp->battlemon[sp->attack_client].states[STAT_SPEED] < 12))
+                )
+            )
+            {
+                sp->addeffect_type = ADD_STATUS_SOUBIITEM;
+                sp->state_client = sp->attack_client;
+                sp->item_work = sp->battlemon[sp->attack_client].item;
+                LoadBattleSubSeqScript(sp, ARC_BATTLE_SUB_SEQ, SUB_SEQ_BLUNDER_POLICY);
                 sp->next_server_seq_no = sp->server_seq_no;
                 sp->server_seq_no = 22;
                 ret = 1;

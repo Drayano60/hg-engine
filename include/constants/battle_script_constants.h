@@ -456,6 +456,7 @@
 #define SUB_SEQ_HANDLE_ANGER_SHELL                    (507)
 #define SUB_SEQ_ROOM_SERVICE                          (508)
 #define SUB_SEQ_TRICK_ROOM                            (509)
+#define SUB_SEQ_BLUNDER_POLICY                        (510)
 
 // add status effect constants--used in battle effect scripts to queue up a subscript through the table in src/moves.c
 

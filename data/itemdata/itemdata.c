@@ -18,7 +18,7 @@
  * Changed the holdEffectParam of the Power items to 8 so EV gain with them is 8 for the relevant stat
  * Changed the Oval Stone, Razor Fang and Razor Claw and Leader's Crest into evolution stone-like items
  * Changed all TMs to be 0 cost (unsellable) and cannot be tossed
- * Updated cost of Air Balloon, Big Nugget, Eviolite, Assault Vest, Weakness Policy, Heavy-Duty Boots, Throat Spray, Shell Bell (G8 cost if G9 is too high)
+ * Updated cost of Air Balloon, Big Nugget, Eviolite, Assault Vest, Weakness Policy, Heavy-Duty Boots, Throat Spray, Shell Bell, Room Service, Blunder Policy (G8 cost if G9 is too high)
  * Updated fling power of Air Balloon, Big Nugget, Eviolite, Rocky Helmet, Sachet, Whipped Dream, Assault Vest, Weakness Policy, Leader's Crest
  * Changed Ability Capsule and Ability Patch to Items pocket
  * Assigned a fieldUseFunc to Ability Patch
@@ -39750,7 +39750,7 @@ const ITEMDATA __data[] =
 
 [ITEM_BLUNDER_POLICY - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
-    .price = 200,
+    .price = 2000,
     .holdEffect = HOLD_EFFECT_BOOST_SPEED_ON_MISS,
     .holdEffectParam = 2, // boosts by two stages
     .pluckEffect = 0,
@@ -40790,7 +40790,7 @@ const ITEMDATA __data[] =
 
 [ITEM_ROOM_SERVICE - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
-    .price = 200,
+    .price = 2000,
     .holdEffect = HOLD_EFFECT_DROP_SPEED_IN_TRICK_ROOM,
     .holdEffectParam = 0,
     .pluckEffect = 0,

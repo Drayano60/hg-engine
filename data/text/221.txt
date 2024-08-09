@@ -632,7 +632,7 @@ Love Sweet Description
 Ribbon Sweet Description
 Star Sweet Description
 StrawberrySweet Description
-Blunder Policy Description
+An item to be held by a Pokémon.\nThis item sharply raises its Speed stat\nwhen a move misses because of accuracy.
 Chipped Pot Description
 Cracked Pot Description
 Eject Pack Description

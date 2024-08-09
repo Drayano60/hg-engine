@@ -238,6 +238,7 @@ u16 move_effect_to_subscripts[] =
     [ADD_STATUS_ENTRAINMENT]                     = SUB_SEQ_ENTRAINMENT,
     [ADD_STATUS_REMOVE_TYPE]                     = SUB_SEQ_REMOVE_TYPE,
     [ADD_STATUS_REMOVE_TERRAIN]                  = SUB_SEQ_HANDLE_TERRAIN_END,
+    [ADD_STATUS_TRICK_ROOM]                      = SUB_SEQ_TRICK_ROOM,
 };
 
 

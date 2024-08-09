@@ -638,7 +638,7 @@ Radio Tower
 ✓ Woman that normally gifts TM11 no longer gives you anything.
 ✓ Added a clown on 4F. After defeating Team Rocket, he gives you TM92, Trick Room.
 ✓ The Director now instead gives you the GS Ball (as it felt a bit odd just having it randomly handed to you in the Pokémon Center), with dialogue edits to match. The Clear Bell is obtained from the Kimono Girls later as normal.
-✓ DJ Mary now gives you three Throat Sprays instead of the Bright Powder.
+✓ DJ Mary now gives you a Throat Spray instead of the Bright Powder.
 ✓ The Teleport Gem is disabled after defeating Giovanni until you've spoken to Looker.
 ✓ The level cap increases after the Giovanni battle.
 ✓ Added an Eject Button item ball on 5F.
@@ -788,6 +788,7 @@ S.S. Aqua
 ✓✓ If the player activates this while having the Lunar Feather in their inventory, the scene takes an alternate route, healing the player's Pokémon, and leading to an encounter with a Lv. 70 Darkrai.
 ✓✓ The above will continue to happen each voyage until Darkrai is caught, after which the bed will just heal the player as it normally does.
 ✓✓ Darkrai drops the Dread Plate when caught.
+✓ Added an item ball with the Room Service in one of the rooms.
 
 Route 1
 ✓ Removed the Black Apricorn tree in favour of a Berry Tree that gives Enigma Berries.
@@ -1003,7 +1004,7 @@ Cerulean Cave
 
 Route 28
 ✓ Moved the NPCs in the house off-map.
-✓ Moved the TM35 off map.
+✓ Moved the TM35 off map then repurposed in SS Aqua.
 
 Mt. Silver
 ✓ Reaper Cloth -> Max Revive.

@@ -454,6 +454,8 @@
 #define SUB_SEQ_ZERO_TO_HERO                          (505)
 #define SUB_SEQ_HANDLE_SWAP_RING_MESSAGE              (506)
 #define SUB_SEQ_HANDLE_ANGER_SHELL                    (507)
+#define SUB_SEQ_ROOM_SERVICE                          (508)
+#define SUB_SEQ_TRICK_ROOM                            (509)
 
 // add status effect constants--used in battle effect scripts to queue up a subscript through the table in src/moves.c
 
@@ -645,6 +647,7 @@
 #define ADD_STATUS_ENTRAINMENT                         (220)
 #define ADD_STATUS_REMOVE_TYPE                         (221)
 #define ADD_STATUS_REMOVE_TERRAIN                      (222)
+#define ADD_STATUS_TRICK_ROOM                          (223)
 
 // additional effect constants
 #define ADD_STATUS_NONE (0)

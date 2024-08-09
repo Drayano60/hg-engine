@@ -695,6 +695,17 @@ int UNUSED SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
                         }
                     }
 
+                    /**** AURORA CRYSTAL: Implement Room Service. */
+                    {
+                        if ((sp->battlemon[client_no].room_service_flag == 0) && (sp->battlemon[client_no].hp) && (BattleItemDataGet(sp, sp->battlemon[client_no].item, 1) == HOLD_EFFECT_DROP_SPEED_IN_TRICK_ROOM) && (sp->field_condition & FIELD_STATUS_TRICK_ROOM)) {
+                            sp->battlemon[client_no].room_service_flag = 1;
+                            sp->state_client = client_no;
+                            scriptnum = SUB_SEQ_ROOM_SERVICE;
+                            ret = SWITCH_IN_CHECK_MOVE_SCRIPT;
+                            break;
+                        }
+                    }
+
                     /**** AURORA CRYSTAL: Swap Ring is announced. */
                     {
                         if ((sp->battlemon[client_no].swap_ring_flag == 0) && (sp->battlemon[client_no].hp) && (BattleItemDataGet(sp, sp->battlemon[client_no].item, 1) == HOLD_EFFECT_SWAP_ATK_SPATK_STATS)) {

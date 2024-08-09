@@ -812,7 +812,8 @@ struct __attribute__((packed)) BattlePokemon
 
                u32 glaive_rush_flag : 1; /**** AURORA CRYSTAL: Added Glaive Rush flag, changed remaining to 4. */
                u32 swap_ring_flag : 1;   /**** AURORA CRYSTAL: Added Swap Ring flag for message. Commented out one above for the space. */
-               u32 : 4; // need to add to ClearBattleMonFlags when added to here as well
+               u32 room_service_flag : 1; /**** AURORA CRYSTAL: Added Room Service flag to stop it being checked multiple times. */
+               u32 : 3; // need to add to ClearBattleMonFlags when added to here as well
     /* 0x2c */ u8 pp[4];                     /**< move pp left */
     /* 0x30 */ u8 pp_count[4];               /**< move max pp */
     /* 0x34 */ u8 level;                     /**< current level */

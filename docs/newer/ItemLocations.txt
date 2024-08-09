@@ -894,6 +894,7 @@ Vs. Recorder: Given to you by the receptionist when you first enter the building
 ===========================================================================
 S.S. Aqua
 ===========================================================================
+Room Service: Found on the floor in the cabin to the left of the stairs.
 Silver Wing: Given to you by the Gentleman in the cabin after his granddaughter returns.
 Dread Plate: Found automatically after catching Darkrai.
 

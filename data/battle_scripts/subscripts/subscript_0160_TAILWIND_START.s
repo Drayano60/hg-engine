@@ -30,6 +30,7 @@ _WindAbilities:
     IfSameSide BATTLER_CATEGORY_ATTACKER, BATTLER_CATEGORY_SIDE_EFFECT_MON, _CheckWindAbilities /* Tailwind only activates Wind Rider or Wind Power on the user's side */
     GoTo _Continue
 _CheckWindAbilities:
+    CompareMonDataToValue OPCODE_EQU, BATTLER_CATEGORY_SIDE_EFFECT_MON, BMON_DATA_HP, 0, _Continue
     CompareMonDataToValue OPCODE_EQU, BATTLER_CATEGORY_SIDE_EFFECT_MON, BMON_DATA_ABILITY, ABILITY_WIND_RIDER, _WindRiderEffect
     CompareMonDataToValue OPCODE_EQU, BATTLER_CATEGORY_SIDE_EFFECT_MON, BMON_DATA_ABILITY, ABILITY_WIND_POWER, _WindPowerEffect
 _Continue:

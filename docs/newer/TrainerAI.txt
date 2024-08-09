@@ -44,6 +44,39 @@ The AI is able to calculate damage relative to the majority of new effects and i
 * ...etc.
 * It may not be able to read the damage boost from Analytic or Sheer Force. TBC.
 
+Handling Immunities
+---
+The AI is now aware that attacking into immunity abilities such as Water Absorb, Sap Sipper, Soundproof etc does 0 damage.
+As such, the moves that would cause this to happen are never chosen as the highest damaging roll.
+Due to the way this is implemented, the AI is "psychic" and will know your Pokémon's ability before it ever sees it.
+As such, you'll mostly only be able to make use of these abilities in practice by switching in on the specific type.
+
+Specifically, the AI will see the following as doing 0 damage (unless the attacking Pokémon has Mold Breaker):
+- Ball or bomb based moves targeting a Pokémon with Bulletproof.
+- Bug-type moves targeting a Pokémon with the new Bugcatcher ability.
+- Electric-type moves targeting a Pokémon with Lightning Rod or Motor Drive.
+- Grass-type moves targeting a Pokémon with Sap Sipper.
+- Moves with increased priority targeting a Pokémon with Armor Tail, Dazzling, or Queenly Majesty.
+- Sound based moves targeting a Pokémon with Soundproof.
+- Water-type moves targeting a Pokémon with Dry Skin, Storm Drain or Water Absorb.
+- Wind based moves targeting a Pokémon with Wind Rider.
+
+There's also a couple extra mechanics it will see as doing 0 damage:
+- Burn Up or Double Shock when the attacker is not Fire or Electric type respectively.
+- First Impression targeting a Pokémon when it is not the attacker's first turn on the field.
+- Poltergeist targeting a Pokémon with no held item.
+
+However, most of this additional logic only exists for moves that deal damage.
+When it comes to status moves, the AI is often unaware of new mechanics and may end up repeatedly using moves that fail.
+For example, it may repeatedly try to use Sleep Powder on a Grass-type. This will be fixed when possible.
+
+There are two exceptions to this involving new mechanics that the AI is aware of:
+- It won't target a Grass-type Pokémon or a Pokémon with Overcoat with Stun Spore.
+- It won't target an Electric-type Pokémon with Glare, Stun Spore or Thunder Wave.
+
+(This is because I've been able to take advantage of the AI scripts checking type matchups for Thunder Wave.)
+(Unfortunately, as Thunder Wave was previously the only status move that cared about type, most moves do not check this.)
+
 Multihit Moves
 ---
 Multihit moves are one such case of this. Previously, they would always be rolled as one hit of their base power (BP). Now:

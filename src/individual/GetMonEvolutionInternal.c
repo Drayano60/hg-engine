@@ -416,14 +416,6 @@ u16 GetMonEvolutionInternal(struct Party *party, struct PartyPokemon *pokemon, u
                     break;
                 }
 
-                // Used for Dunsparce -> Three-Segment Dudunsparce
-                case EVO_HAS_MOVE_AND_RNG:
-                    if ((MonHasMove(pokemon, evoTable[i].param) == TRUE) && (gf_rand() % 10 == 0)) { // 10%
-                        target = evoTable[i].target & 0x7FF;
-                        *method_ret = EVO_HAS_MOVE;
-                    }
-                    break;
-
                 // Used for female White-Striped Basculin.
                 case EVO_HURT_IN_BATTLE_AMOUNT_FEMALE:
                     {
@@ -518,6 +510,16 @@ u16 GetMonEvolutionInternal(struct Party *party, struct PartyPokemon *pokemon, u
 
     if (target) {
         u32 form = (evoTable[i].target & 0xF800) >> 11;
+
+        /**** AURORA CRYSTAL: Added Spewpa evolving into a random Vivillon form.  */
+        if (species == SPECIES_SPEWPA) {
+            form = gf_rand() % 20;
+        }
+
+        /**** AURORA CRYSTAL: Added Dunsparce and Tandemaus having a 10% chance to evolve into the alt form. (Increased from 1%). */
+        if (species == SPECIES_DUNSPARCE || species == SPECIES_TANDEMAUS) {
+            form = (gf_rand() % 10) == 0;
+        }
 
         if (form)
         {

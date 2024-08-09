@@ -1073,12 +1073,12 @@ void LONG_CALL UpdatePassiveForms(struct PartyPokemon *pp)
         case SPECIES_PYROAR:
             form = (gf_rand() % 8 != 0); // 1/8 male
             break;
-        case SPECIES_DUNSPARCE:
-        case SPECIES_DUDUNSPARCE:
-        case SPECIES_TANDEMAUS:
-        case SPECIES_MAUSHOLD:
-            form = (gf_rand() % 100 != 0); // 1/100 three seg / family of three
-            break;
+        // case SPECIES_DUNSPARCE:
+        // case SPECIES_DUDUNSPARCE:
+        // case SPECIES_TANDEMAUS:
+        // case SPECIES_MAUSHOLD:
+        //     form = (gf_rand() % 100 != 0); // 1/100 three seg / family of three
+        //     break;
         case SPECIES_FLABEBE:
         case SPECIES_FLOETTE:
         case SPECIES_FLORGES:

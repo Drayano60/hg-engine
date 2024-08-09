@@ -511,14 +511,14 @@ u16 GetMonEvolutionInternal(struct Party *party, struct PartyPokemon *pokemon, u
     if (target) {
         u32 form = (evoTable[i].target & 0xF800) >> 11;
 
-        /**** AURORA CRYSTAL: Added Spewpa evolving into a random Vivillon form.  */
+        /**** AURORA CRYSTAL: Added Spewpa evolving into a random Vivillon form based on PID.  */
         if (species == SPECIES_SPEWPA) {
-            form = gf_rand() % 20;
+            form = pid_hi % 20;
         }
 
-        /**** AURORA CRYSTAL: Added Dunsparce and Tandemaus having a 10% chance to evolve into the alt form. (Increased from 1%). */
+        /**** AURORA CRYSTAL: Added Dunsparce and Tandemaus having a 10% chance to evolve into the alt form based on PID. (Increased from 1%). */
         if (species == SPECIES_DUNSPARCE || species == SPECIES_TANDEMAUS) {
-            form = (gf_rand() % 10) == 0;
+            form = (pid_hi % 10) == 0;
         }
 
         if (form)

@@ -1368,9 +1368,9 @@
     .long (((\arg_4 - .) / 4) - 1)
     .endm
 
-    .macro IfLastHitOfMultiHit arg_0
+    .macro SetAbilityActivatedFlag arg_0
     .long 250
-    .long (((\arg_0 - .) / 4) - 1)
+    .long \arg_0
     .endm
 
     .macro StrengthSapCalc
@@ -1393,6 +1393,11 @@
 
     .macro TrySpikyDebris arg_0
     .long 255
+    .long (((\arg_0 - .) / 4) - 1)
+    .endm
+    
+    .macro IfLastHitOfMultiHit arg_0
+    .long 256
     .long (((\arg_0 - .) / 4) - 1)
     .endm
 

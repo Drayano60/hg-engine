@@ -998,8 +998,8 @@ void LONG_CALL ClearBattleMonFlags(struct BattleStruct *sp, int client)
     sp->battlemon[client].air_ballon_flag = 0;
     sp->battlemon[client].swap_ring_flag = 0; /**** AURORA CRYSTAL: Clear Swap Ring flag. */
     sp->battlemon[client].ability_activated_flag = 0;
-    sp->battlemon[client].parental_bond_flag = 0;
-    sp->battlemon[client].parental_bond_is_active = 0;
+    sp->oneTurnFlag[client].parental_bond_flag = 0;
+    sp->oneTurnFlag[client].parental_bond_is_active = 0;
 
     sp->log_hail_for_ice_face &= ~(1 << client); // unset log_hail_for_ice_face for client
     sp->binding_turns[client] = 0;

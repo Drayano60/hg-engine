@@ -19,28 +19,8 @@
 
 // top 5 bits are now form bit
 // if the form is nonzero, have to set it to that form.  most mons should keep their forms on evolution, but specifically significant gendered mons will need to not
-/**** AURORA CRYSTAL: Spewpa evolves into a random form. */
-#define GET_TARGET_AND_SET_FORM { \
-    if (party != NULL) \
-    { \
-        for (j = 0; j < party->count; j++) \
-        { \
-            ppFromParty = Party_GetMonByIndex(party, j); \
-            if (CheckIfMonsAreEqual(pokemon, ppFromParty)) \
-                break; \
-        } \
-        target = evoTable[i].target & 0x7FF; \
-        form = (target == SPECIES_VIVILLON) ? (gf_rand() % 20) : (evoTable[i].target >> 11); \
-        if (form != 0) { \
-            SetMonData(ppFromParty, MON_DATA_FORM, &form); \
-        } \
-    } \
-    else { \
-        target = evoTable[i].target & 0x7FF; \
-        form = evoTable[i].target >> 11; \
-        SetMonData(pokemon, MON_DATA_FORM, &form); \
-    } \
-}
+
+extern u16 gEvolutionSceneOverride[2][2];
 
 #define GLOBAL_TERMINAL_HEADER_ID 207
 #define FRIENDSHIP_EVOLUTION_THRESHOLD 160
@@ -60,7 +40,7 @@ u16 GetMonEvolutionInternal(struct Party *party, struct PartyPokemon *pokemon, u
     u16 species;
     u16 heldItem;
     u8 level;
-    int i, j;
+    int i;
     u16 target = SPECIES_NONE;
     u16 friendship;
     u32 pid;
@@ -72,14 +52,13 @@ u16 GetMonEvolutionInternal(struct Party *party, struct PartyPokemon *pokemon, u
     u32 form = GetMonData(pokemon, MON_DATA_FORM, NULL);
     u32 lowkey = 0;
 
-    struct PartyPokemon *ppFromParty = NULL;
-
     species = GetMonData(pokemon, MON_DATA_SPECIES, NULL);
     heldItem = GetMonData(pokemon, MON_DATA_HELD_ITEM, NULL);
     pid = GetMonData(pokemon, MON_DATA_PERSONALITY, NULL);
     beauty = GetMonData(pokemon, MON_DATA_BEAUTY, NULL);
     pid_hi = (u16)((pid & 0xFFFF0000) >> 16);
     holdEffect = GetItemData(heldItem, ITEM_PARAM_HOLD_EFFECT, 0);
+    level = (u8)GetMonData(pokemon, MON_DATA_LEVEL, NULL);
 
     if (species != SPECIES_KADABRA && holdEffect == HOLD_EFFECT_NO_EVOLVE && context != EVOCTX_ITEM_USE) {
         return SPECIES_NONE;
@@ -131,7 +110,6 @@ u16 GetMonEvolutionInternal(struct Party *party, struct PartyPokemon *pokemon, u
 
     switch (context) {
     case EVOCTX_LEVELUP:
-        level = (u8)GetMonData(pokemon, MON_DATA_LEVEL, NULL);
         friendship = (u16)GetMonData(pokemon, MON_DATA_FRIENDSHIP, NULL);
         for (i = 0; i < MAX_EVOS_PER_POKE; i++) {
             switch (evoTable[i].method) {
@@ -139,25 +117,25 @@ u16 GetMonEvolutionInternal(struct Party *party, struct PartyPokemon *pokemon, u
                 break;
             case EVO_FRIENDSHIP:
                 if (friendship >= FRIENDSHIP_EVOLUTION_THRESHOLD) {
-                    GET_TARGET_AND_SET_FORM;
+                    target = evoTable[i].target & 0x7FF;
                     *method_ret = EVO_FRIENDSHIP;
                 }
                 break;
             case EVO_FRIENDSHIP_DAY:
                 if (IsNighttime() == 0 && friendship >= FRIENDSHIP_EVOLUTION_THRESHOLD) {
-                    GET_TARGET_AND_SET_FORM;
+                    target = evoTable[i].target & 0x7FF;
                     *method_ret = EVO_FRIENDSHIP_DAY;
                 }
                 break;
             case EVO_FRIENDSHIP_NIGHT:
                 if (IsNighttime() == 1 && friendship >= FRIENDSHIP_EVOLUTION_THRESHOLD) {
-                    GET_TARGET_AND_SET_FORM;
+                    target = evoTable[i].target & 0x7FF;
                     *method_ret = EVO_FRIENDSHIP_NIGHT;
                 }
                 break;
             case EVO_LEVEL:
                 if (evoTable[i].param <= level) {
-                    GET_TARGET_AND_SET_FORM;
+                    target = evoTable[i].target & 0x7FF;
                     *method_ret = EVO_LEVEL;
                 }
                 break;
@@ -169,37 +147,37 @@ u16 GetMonEvolutionInternal(struct Party *party, struct PartyPokemon *pokemon, u
                 break;
             case EVO_LEVEL_ATK_GT_DEF:
                 if (evoTable[i].param <= level && GetMonData(pokemon, MON_DATA_ATTACK, NULL) > GetMonData(pokemon, MON_DATA_DEFENSE, NULL)) {
-                    GET_TARGET_AND_SET_FORM;
+                    target = evoTable[i].target & 0x7FF;
                     *method_ret = EVO_LEVEL_ATK_GT_DEF;
                 }
                 break;
             case EVO_LEVEL_ATK_EQ_DEF:
                 if (evoTable[i].param <= level && GetMonData(pokemon, MON_DATA_ATTACK, NULL) == GetMonData(pokemon, MON_DATA_DEFENSE, NULL)) {
-                    GET_TARGET_AND_SET_FORM;
+                    target = evoTable[i].target & 0x7FF;
                     *method_ret = EVO_LEVEL_ATK_EQ_DEF;
                 }
                 break;
             case EVO_LEVEL_ATK_LT_DEF:
                 if (evoTable[i].param <= level && GetMonData(pokemon, MON_DATA_ATTACK, NULL) < GetMonData(pokemon, MON_DATA_DEFENSE, NULL)) {
-                    GET_TARGET_AND_SET_FORM;
+                    target = evoTable[i].target & 0x7FF;
                     *method_ret = EVO_LEVEL_ATK_LT_DEF;
                 }
                 break;
             case EVO_LEVEL_PID_LO:
                 if (evoTable[i].param <= level && pid_hi % 10 < 5) {
-                    GET_TARGET_AND_SET_FORM;
+                    target = evoTable[i].target & 0x7FF;
                     *method_ret = EVO_LEVEL_PID_LO;
                 }
                 break;
             case EVO_LEVEL_PID_HI:
                 if (evoTable[i].param <= level && pid_hi % 10 >= 5) {
-                    GET_TARGET_AND_SET_FORM;
+                    target = evoTable[i].target & 0x7FF;
                     *method_ret = EVO_LEVEL_PID_HI;
                 }
                 break;
             case EVO_LEVEL_NINJASK:
                 if (evoTable[i].param <= level) {
-                    GET_TARGET_AND_SET_FORM;
+                    target = evoTable[i].target & 0x7FF;
                     *method_ret = EVO_LEVEL_NINJASK;
                 }
                 break;
@@ -208,7 +186,7 @@ u16 GetMonEvolutionInternal(struct Party *party, struct PartyPokemon *pokemon, u
                 break;
             case EVO_BEAUTY:
                 if (evoTable[i].param <= beauty) {
-                    GET_TARGET_AND_SET_FORM;
+                    target = evoTable[i].target & 0x7FF;
                     *method_ret = EVO_BEAUTY;
                 }
                 break;
@@ -218,37 +196,37 @@ u16 GetMonEvolutionInternal(struct Party *party, struct PartyPokemon *pokemon, u
                 break;
             case EVO_ITEM_DAY:
                 if (IsNighttime() == 0 && evoTable[i].param == heldItem) {
-                    GET_TARGET_AND_SET_FORM;
+                    target = evoTable[i].target & 0x7FF;
                     *method_ret = EVO_ITEM_DAY;
                 }
                 break;
             case EVO_ITEM_NIGHT:
                 if (IsNighttime() == 1 && evoTable[i].param == heldItem) {
-                    GET_TARGET_AND_SET_FORM;
+                    target = evoTable[i].target & 0x7FF;
                     *method_ret = EVO_ITEM_NIGHT;
                 }
                 break;
             case EVO_HAS_MOVE:
                 if (MonHasMove(pokemon, evoTable[i].param) == TRUE) {
-                    GET_TARGET_AND_SET_FORM;
+                    target = evoTable[i].target & 0x7FF;
                     *method_ret = EVO_HAS_MOVE;
                 }
                 break;
             case EVO_OTHER_PARTY_MON:
                 if (party != NULL && PartyHasMon(party, evoTable[i].param) == 1) {
-                    GET_TARGET_AND_SET_FORM;
+                    target = evoTable[i].target & 0x7FF;
                     *method_ret = EVO_OTHER_PARTY_MON;
                 }
                 break;
             case EVO_LEVEL_MALE:
                 if (GetMonData(pokemon, MON_DATA_GENDER, NULL) == POKEMON_GENDER_MALE && evoTable[i].param <= level) {
-                    GET_TARGET_AND_SET_FORM;
+                    target = evoTable[i].target & 0x7FF;
                     *method_ret = EVO_LEVEL_MALE;
                 }
                 break;
             case EVO_LEVEL_FEMALE:
                 if (GetMonData(pokemon, MON_DATA_GENDER, NULL) == POKEMON_GENDER_FEMALE && evoTable[i].param <= level) {
-                    GET_TARGET_AND_SET_FORM;
+                    target = evoTable[i].target & 0x7FF;
                     *method_ret = EVO_LEVEL_FEMALE;
                 }
                 break;
@@ -258,7 +236,7 @@ u16 GetMonEvolutionInternal(struct Party *party, struct PartyPokemon *pokemon, u
 
                     if (location == 45 || location == 18)
                     {
-                        GET_TARGET_AND_SET_FORM;
+                        target = evoTable[i].target & 0x7FF;
                         *method_ret = EVO_CORONET;
                     }
                 }
@@ -269,7 +247,7 @@ u16 GetMonEvolutionInternal(struct Party *party, struct PartyPokemon *pokemon, u
 
                     if (location == 117 || location == 147)
                     {
-                        GET_TARGET_AND_SET_FORM;
+                        target = evoTable[i].target & 0x7FF;
                         *method_ret = EVO_ETERNA;
                     }
                 }
@@ -280,7 +258,7 @@ u16 GetMonEvolutionInternal(struct Party *party, struct PartyPokemon *pokemon, u
 
                     if (location == 239 || location == 456)
                     {
-                        GET_TARGET_AND_SET_FORM;
+                        target = evoTable[i].target & 0x7FF;
                         *method_ret = EVO_ROUTE217;
                     }
                 }
@@ -288,13 +266,13 @@ u16 GetMonEvolutionInternal(struct Party *party, struct PartyPokemon *pokemon, u
 
             case EVO_LEVEL_DAY:
                 if (IsNighttime() == 0 && evoTable[i].param <= level) {
-                    GET_TARGET_AND_SET_FORM;
+                    target = evoTable[i].target & 0x7FF;
                     *method_ret = EVO_LEVEL_DAY;
                 }
                 break;
             case EVO_LEVEL_NIGHT:
                 if (IsNighttime() == 1 && evoTable[i].param <= level) {
-                    GET_TARGET_AND_SET_FORM;
+                    target = evoTable[i].target & 0x7FF;
                     *method_ret = EVO_LEVEL_NIGHT;
                 }
                 break;
@@ -304,7 +282,7 @@ u16 GetMonEvolutionInternal(struct Party *party, struct PartyPokemon *pokemon, u
                     GF_RTC_CopyTime(&time);
 
                     if (time.hour == 17 && evoTable[i].param <= level) {
-                        GET_TARGET_AND_SET_FORM;
+                        target = evoTable[i].target & 0x7FF;
                         *method_ret = EVO_LEVEL_DUSK;
                     }
                 }
@@ -319,7 +297,7 @@ u16 GetMonEvolutionInternal(struct Party *party, struct PartyPokemon *pokemon, u
                     case WEATHER_SYS_RAIN:
                     case WEATHER_SYS_HEAVY_RAIN:
                     case WEATHER_SYS_THUNDER:
-                        GET_TARGET_AND_SET_FORM;
+                        target = evoTable[i].target & 0x7FF;
                         *method_ret = EVO_LEVEL_RAIN;
                     }
                 }
@@ -332,7 +310,7 @@ u16 GetMonEvolutionInternal(struct Party *party, struct PartyPokemon *pokemon, u
                     {
                         if (GetMoveData(GetMonData(pokemon, MON_DATA_MOVE1+k, NULL), MOVE_DATA_TYPE) == evoTable[i].param)
                         {
-                            GET_TARGET_AND_SET_FORM;
+                            target = evoTable[i].target & 0x7FF;
                             *method_ret = EVO_HAS_MOVE_TYPE;
                             break;
                         }
@@ -347,7 +325,7 @@ u16 GetMonEvolutionInternal(struct Party *party, struct PartyPokemon *pokemon, u
                         if (!CheckIfMonsAreEqual(pokemon, Party_GetMonByIndex(party, k)) // make sure that pancham doesn't satisfy its own requirement
                          && (GetMonData(Party_GetMonByIndex(party, k), MON_DATA_TYPE_1, NULL) == TYPE_DARK || GetMonData(Party_GetMonByIndex(party, k), MON_DATA_TYPE_2, NULL) == TYPE_DARK)) // if either type is dark then set evolution
                         {
-                            GET_TARGET_AND_SET_FORM;
+                            target = evoTable[i].target & 0x7FF;
                             *method_ret = EVO_LEVEL_DARK_TYPE_MON_IN_PARTY;
                             break;
                         }
@@ -379,14 +357,14 @@ u16 GetMonEvolutionInternal(struct Party *party, struct PartyPokemon *pokemon, u
                     case NATURE_SASSY:
                         if (lowkey == 0) // for the amped evo method
                         {
-                            GET_TARGET_AND_SET_FORM;
+                            target = evoTable[i].target & 0x7FF;
                             *method_ret = EVO_LEVEL_NATURE_AMPED;
                         }
                         break;
                     default:
                         if (lowkey == 1) // for the lowkey evo method
                         {
-                            GET_TARGET_AND_SET_FORM;
+                            target = evoTable[i].target & 0x7FF;
                             *method_ret = EVO_LEVEL_NATURE_LOW_KEY;
                         }
                         break;
@@ -396,7 +374,7 @@ u16 GetMonEvolutionInternal(struct Party *party, struct PartyPokemon *pokemon, u
             case EVO_AMOUNT_OF_CRITICAL_HITS: // needs to hit an amount of critical hits in a battle in one go.  need to log critical hits somewhere else
                 if (GET_MON_CRITICAL_HIT_EVOLUTION_BIT(pokemon))
                 {
-                    GET_TARGET_AND_SET_FORM;
+                    target = evoTable[i].target & 0x7FF;
                     *method_ret = EVO_AMOUNT_OF_CRITICAL_HITS;
                 }
                 break;
@@ -406,7 +384,7 @@ u16 GetMonEvolutionInternal(struct Party *party, struct PartyPokemon *pokemon, u
 
                     if (hp && (maxhp - hp) >= evoTable[i].param) // if the mon has evoTable[i].param hp less than its max
                     {
-                        GET_TARGET_AND_SET_FORM;
+                        target = evoTable[i].target & 0x7FF;
                         *method_ret = EVO_HURT_IN_BATTLE_AMOUNT;
                     }
                 }
@@ -469,18 +447,18 @@ u16 GetMonEvolutionInternal(struct Party *party, struct PartyPokemon *pokemon, u
         for (i = 0; i < MAX_EVOS_PER_POKE; i++) {
             switch (evoTable[i].method) {
             case EVO_TRADE:
-                GET_TARGET_AND_SET_FORM;
+                target = evoTable[i].target & 0x7FF;
                 *method_ret = EVO_TRADE;
                 break;
             case EVO_TRADE_ITEM:
                 if (heldItem == evoTable[i].param) {
-                    GET_TARGET_AND_SET_FORM;
+                    target = evoTable[i].target & 0x7FF;
                     *method_ret = EVO_TRADE_ITEM;
                 }
                 break;
             //case EVO_TRADE_SPECIFIC_MON: // need to figure out how to deduce tradedSpecies
             //    if (tradedSpecies == evoTable[i].param) {
-            //        GET_TARGET_AND_SET_FORM;
+            //        target = evoTable[i].target & 0x7FF;
             //        *method_ret = EVO_TRADE_SPECIFIC_MON;
             //    }
             //    break;
@@ -497,38 +475,60 @@ u16 GetMonEvolutionInternal(struct Party *party, struct PartyPokemon *pokemon, u
 
         for (i = 0; i < MAX_EVOS_PER_POKE; i++) {
             if (evoTable[i].method == EVO_STONE && usedItem == evoTable[i].param) {
-                GET_TARGET_AND_SET_FORM;
+                target = evoTable[i].target & 0x7FF;
                 *method_ret = 0;
                 break;
             }
             if (evoTable[i].method == EVO_STONE_MALE && GetMonData(pokemon, MON_DATA_GENDER, NULL) == POKEMON_GENDER_MALE && usedItem == evoTable[i].param) {
-                GET_TARGET_AND_SET_FORM;
+                target = evoTable[i].target & 0x7FF;
                 *method_ret = 0;
                 break;
             }
             if (evoTable[i].method == EVO_STONE_FEMALE && GetMonData(pokemon, MON_DATA_GENDER, NULL) == POKEMON_GENDER_FEMALE && usedItem == evoTable[i].param) {
-                GET_TARGET_AND_SET_FORM;
+                target = evoTable[i].target & 0x7FF;
                 *method_ret = 0;
                 break;
             }
-
-            /**** AURORA CRYSTAL: Commented this out, I don't want this particular change. */
-            // if (evoTable[i].method == EVO_TRADE_ITEM && heldItem == evoTable[i].param && usedItem == ITEM_LINKING_CORD) {
-            //     GET_TARGET_AND_SET_FORM;
-            //     *method_ret = 0;
-            //     break;
-            // }
 
             /**** AURORA CRYSTAL: New evolution method ****/
             // Used to evolve into regional forms like Pikachu -> Raichu.
             if (evoTable[i].method == EVO_ITEM_GLOBAL_TERMINAL && usedItem == evoTable[i].param && location == GLOBAL_TERMINAL_HEADER_ID) {
-                GET_TARGET_AND_SET_FORM;
+                target = evoTable[i].target & 0x7FF;
                 *method_ret = 0;
                 break;
+
+            /**** AURORA CRYSTAL: Commented this out, don't want it. */
+            // if (evoTable[i].method == EVO_TRADE_ITEM && heldItem == evoTable[i].param && usedItem == ITEM_LINKING_CORD) {
+            //     target = evoTable[i].target & 0x7FF;
+            //     *method_ret = 0;
+            //     break;
+            // }
+        }
+        if (level == 100 && usedItem == ITEM_RARE_CANDY)
+        {
+            species = GetMonEvolutionInternal(party, pokemon, EVOCTX_LEVELUP, usedItem, NULL);
+            if (species) {
+                target = species;
+                *method_ret = 0;
             }
         }
         break;
     }
+
+    if (target) {
+        u32 form = (evoTable[i].target & 0xF800) >> 11;
+
+        if (form)
+        {
+            gEvolutionSceneOverride[0][0] = GetMonData(pokemon, MON_DATA_SPECIES, NULL);
+            gEvolutionSceneOverride[0][1] = GetMonData(pokemon, MON_DATA_FORM, NULL);
+            gEvolutionSceneOverride[1][0] = target;
+            gEvolutionSceneOverride[1][1] = form;
+        } else {
+            memset(gEvolutionSceneOverride, 0, sizeof(gEvolutionSceneOverride));
+        }
+    }
     sys_FreeMemoryEz(evoTable);
+
     return target;
 }

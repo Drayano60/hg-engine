@@ -22,10 +22,6 @@ int SwitchInAbilityCheck(void *bw, struct BattleStruct *sp);
 BOOL AreAnyStatsNotAtValue(struct BattleStruct *sp, int client, int value, BOOL excludeAccuracyEvasion);
 u32 TurnEndAbilityCheck(void *bw, struct BattleStruct *sp, int client_no);
 BOOL MummyAbilityCheck(struct BattleStruct *sp);
-
-/**** AURORA CRYSTAL: Define new functions. ****/
-BOOL KingsRockValidCheck(struct BattleStruct *sp);
-
 BOOL CanPickpocketStealClientItem(struct BattleStruct *sp, int client_no);
 u8 BeastBoostGreatestStatHelper(struct BattleStruct *sp, u32 client);
 BOOL MoveHitAttackerAbilityCheck(void *bw, struct BattleStruct *sp, int *seq_no);
@@ -916,25 +912,41 @@ BOOL SynchroniseAbilityCheck(void *bw, struct BattleStruct *sp, int server_seq_n
     return FALSE;
 }
 
-/**** AURORA CRYSTAL: Define move effects that the King's Rock does not apply to. ****/
-BOOL KingsRockValidCheck(struct BattleStruct *sp)
+/**
+ *  @brief check if the move should get the flinch boost from king's rock
+ *
+ *  @param sp global battle structure
+ *  @param move move index
+ *  @return TRUE if king's rock should affect the move, FALSE otherwise
+ */
+BOOL IsMoveAffectedByKingsRock(struct BattleStruct *sp, u32 move)
 {
-    switch(sp->moveTbl[sp->current_move_index].effect)
+    if (sp->moveTbl[move].power != 0)
     {
+        u32 effect = sp->moveTbl[move].effect;
+        switch (effect)
+        {
+        case MOVE_EFFECT_FLINCH_BURN_HIT:
+        case MOVE_EFFECT_FLINCH_FREEZE_HIT:
+        case MOVE_EFFECT_FLINCH_PARALYZE_HIT:
+        case MOVE_EFFECT_HIT_TWICE_AND_FLINCH:
         case MOVE_EFFECT_FLINCH_HIT:
-        case MOVE_EFFECT_FLINCH_FREEZE_HIT: // Ice Fang
-        case MOVE_EFFECT_FLINCH_PARALYZE_HIT: // Thunder Fang
-        case MOVE_EFFECT_FLINCH_BURN_HIT: // Fire Fang
-        case MOVE_EFFECT_FLINCH_MINIMIZE_DOUBLE_HIT: // Stomp etc
-        case MOVE_EFFECT_SECRET_POWER: // Probably not quite right...
         case MOVE_EFFECT_CHARGE_TURN_HIGH_CRIT_FLINCH:
-        case MOVE_EFFECT_DAMAGE_WHILE_ASLEEP: // Snore
-        case MOVE_EFFECT_FLINCH_DOUBLE_DAMAGE_FLY_OR_BOUNCE: // Twister
-            return FALSE;
+        case MOVE_EFFECT_FLINCH_DOUBLE_DAMAGE_FLY_OR_BOUNCE:
+        case MOVE_EFFECT_FLINCH_MINIMIZE_DOUBLE_HIT:
+        case MOVE_EFFECT_ALWAYS_FLINCH_FIRST_TURN_ONLY:
+        case MOVE_EFFECT_DAMAGE_WHILE_ASLEEP: /**** AURORA CRYSTAL: Add Snore eff here too. */
+            effect = FALSE;
+            break;
         default:
-            return TRUE;
+            effect = TRUE;
+            break;
+        }
+        return effect;
     }
+    return FALSE;
 }
+
 
 /**
  *  @brief check if the sp->defence_client should flinch and load the subscript if so
@@ -948,6 +960,7 @@ BOOL ServerFlinchCheck(void *bw, struct BattleStruct *sp)
     BOOL ret = FALSE;
     int heldeffect;
     int atk;
+    u32 sereneGraceShift = 0; // it's less cycles this way okay probably
 
     heldeffect = HeldItemHoldEffectGet(sp, sp->attack_client);
     atk = HeldItemAtkGet(sp, sp->attack_client, 0);
@@ -958,20 +971,20 @@ BOOL ServerFlinchCheck(void *bw, struct BattleStruct *sp)
         heldeffect = HOLD_EFFECT_SOMETIMES_FLINCH; // doesn't permanently change the hold effect, just for this function
     }
 
-    /**** AURORA CRYSTAL: Modernized Serene Grace to also double the chance of King's Rock etc. ****/
-    if (GetBattlerAbility(sp, sp->attack_client) == ABILITY_SERENE_GRACE) {
-        atk = atk * 2;
+    if (GetBattlerAbility(sp, sp->attack_client) == ABILITY_SERENE_GRACE)
+    {
+        sereneGraceShift = 1;
     }
 
-    /**** AURORA CRYSTAL: Modernized the check here to look at the used move's effect, instead of the FLAG_KINGS_ROCK setting. ****/
     if (sp->defence_client != 0xFF)
     {
         if ((heldeffect == HOLD_EFFECT_SOMETIMES_FLINCH)
          && ((sp->waza_status_flag & WAZA_STATUS_FLAG_NO_OUT) == 0)
          && ((sp->oneSelfFlag[sp->defence_client].physical_damage)
           || (sp->oneSelfFlag[sp->defence_client].special_damage))
-         && ((BattleRand(bw) % 100) < atk)
-         && (KingsRockValidCheck(sp))
+         && (((BattleRand(bw) % 100) << sereneGraceShift) < atk)
+         //&& (sp->moveTbl[sp->current_move_index].flag & FLAG_KINGS_ROCK)
+         && IsMoveAffectedByKingsRock(sp, sp->current_move_index)
          && (sp->battlemon[sp->defence_client].hp))
         {
             sp->state_client = sp->defence_client;
@@ -1368,7 +1381,7 @@ void ServerDoPostMoveEffects(void *bw, struct BattleStruct *sp)
                  && (sp->battlemon[sp->defence_client].hp)
                  /**** AURORA CRYSTAL: Modernized by also adding Scorching Sands. ****/
                  && ((movetype == TYPE_FIRE) || (sp->current_move_index == MOVE_SCORCHING_SANDS) || (sp->current_move_index == MOVE_SCALD) || (sp->current_move_index == MOVE_STEAM_ERUPTION)) // scald can also melt opponents as of gen 6
-                 && sp->battlemon[sp->attack_client].parental_bond_flag == 0)
+                 && sp->oneTurnFlag[sp->attack_client].parental_bond_flag == 0)
                 {
                     sp->client_work = sp->defence_client;
                     LoadBattleSubSeqScript(sp, ARC_BATTLE_SUB_SEQ, SUB_SEQ_THAW_OUT);

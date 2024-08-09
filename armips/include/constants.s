@@ -123,8 +123,6 @@ EVO_HAS_MOVE_AND_RNG             equ 42
 
 // overworld constants
 
-.equ NUM_OF_MON_OVERWORLDS, 1168
-
 .equ OVERWORLD_CAN_ENTER, 0
 .equ OVERWORLD_NO_ENTRY, 1
 

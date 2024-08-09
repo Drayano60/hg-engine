@@ -2,6 +2,8 @@
 
 .data
 
+/* no longer used */
+
 _000:
     CompareMonDataToValue OPCODE_FLAG_SET, BATTLER_CATEGORY_DEFENDER, BMON_DATA_STATUS, STATUS_BURN, _007
     GoTo _013

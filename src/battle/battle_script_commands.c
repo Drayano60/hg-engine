@@ -78,6 +78,7 @@ BOOL btl_scr_cmd_F6_changeexecutionorderpriority(void *bw, struct BattleStruct *
 BOOL btl_scr_cmd_F7_setbindingcounter(void *bw, struct BattleStruct *sp);
 BOOL btl_scr_cmd_F8_clearbindcounter(void *bw, struct BattleStruct *sp);
 BOOL btl_scr_cmd_F9_canclearprimalweather(void *bw, struct BattleStruct *sp);
+BOOL btl_scr_cmd_FA_setabilityactivatedflag(void *bw, struct BattleStruct *sp);
 BOOL BtlCmd_WeatherHPRecovery(void *bw, struct BattleStruct *sp);
 BOOL BtlCmd_CalcWeatherBallParams(void *bw, struct BattleStruct *sp);
 BOOL BtlCmd_TrySubstitute(void *bw, struct BattleStruct *sp);
@@ -90,13 +91,12 @@ u32 LoadCaptureSuccessSPAStarEmitter(u32 id);
 u32 LoadCaptureSuccessSPANumEmitters(u32 id);
 
 /**** AURORA CRYSTAL: Additional commands. ****/
-BOOL btl_scr_cmd_F9_echoedvoicedamagecalc(void *bw, struct BattleStruct *sp);
-BOOL btl_scr_cmd_FA_iflasthitofmultihit(void *bw, struct BattleStruct *sp);
 BOOL btl_scr_cmd_FB_strengthsapcalc(void *bw, struct BattleStruct *sp);
 BOOL btl_scr_cmd_FC_didtargetraisestat(void *bw, struct BattleStruct *sp);
 BOOL btl_scr_cmd_FD_setglaiverushflag(void *bw, struct BattleStruct *sp);
 BOOL btl_scr_cmd_FE_trytoxicdebris(void *bw, struct BattleStruct *sp);
 BOOL btl_scr_cmd_FF_tryspikydebris(void *bw, struct BattleStruct *sp); // Custom ability
+BOOL btl_scr_cmd_100_iflasthitofmultihit(void *bw, struct BattleStruct *sp);
 
 #ifdef DEBUG_BATTLE_SCRIPT_COMMANDS
 const u8 *BattleScrCmdNames[] =
@@ -351,6 +351,7 @@ const u8 *BattleScrCmdNames[] =
     "setbindingcounter",
     "clearbindcounter",
     "canclearprimalweather",
+    "setabilityactivatedflag",
 };
 
 u32 cmdAddress = 0;
@@ -384,14 +385,15 @@ const btl_scr_cmd_func NewBattleScriptCmdTable[] =
     [0xF7 - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_F7_setbindingcounter,
     [0xF8 - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_F8_clearbindcounter,
     [0xF9 - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_F9_canclearprimalweather,
+    [0xFA - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_FA_setabilityactivatedflag,
 
     /**** AURORA CRYSTAL: Additional commands. ****/
-    [0xFA - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_FA_iflasthitofmultihit,
     [0xFB - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_FB_strengthsapcalc,
     [0xFC - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_FC_didtargetraisestat,
     [0xFD - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_FD_setglaiverushflag,
     [0xFE - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_FE_trytoxicdebris,
     [0xFF - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_FF_tryspikydebris,
+    [0x100 - START_OF_NEW_BTL_SCR_CMDS] = btl_scr_cmd_100_iflasthitofmultihit,
 };
 
 // entries before 0xFFFE are banned for mimic and metronome--after is just banned for metronome.  table ends with 0xFFFF
@@ -1149,7 +1151,6 @@ BOOL btl_scr_cmd_24_jumptocurmoveeffectscript(void *bw UNUSED, struct BattleStru
             case MOVE_EFFECT_BURNING_JEALOUSY:
             case MOVE_EFFECT_CEASELESS_EDGE:
             case MOVE_EFFECT_DIRE_CLAW:
-            case MOVE_EFFECT_SPARKLING_ARIA:
             case MOVE_EFFECT_SPIRIT_SHACKLE:
             case MOVE_EFFECT_STONE_AXE:
 
@@ -1178,6 +1179,9 @@ BOOL btl_scr_cmd_24_jumptocurmoveeffectscript(void *bw UNUSED, struct BattleStru
             default:
                 sp->battlemon[sp->attack_client].sheer_force_flag = 0;
                 break;
+        }
+        if (sp->current_move_index == MOVE_SPARKLING_ARIA) {
+            sp->battlemon[sp->attack_client].sheer_force_flag = 1;
         }
     }
 
@@ -1834,7 +1838,7 @@ BOOL btl_scr_cmd_6f_fury_cutter_damage_calc(void *bw UNUSED, struct BattleStruct
 
     if (sp->battlemon[sp->attack_client].moveeffect.furyCutterCount < 3 &&
         // the second hit for Parental Bond doesn't increase the counter
-        sp->battlemon[sp->attack_client].parental_bond_flag != 2) {
+        sp->oneTurnFlag[sp->attack_client].parental_bond_flag != 2) {
         sp->battlemon[sp->attack_client].moveeffect.furyCutterCount++;
     }
 
@@ -2519,7 +2523,7 @@ BOOL btl_scr_cmd_EF_iffirsthitofparentalbond(void *bw UNUSED, struct BattleStruc
 
     int address = read_battle_script_param(sp);
 
-    if (sp->battlemon[sp->attack_client].parental_bond_flag == 1 && sp->battlemon[sp->attack_client].ability == ABILITY_PARENTAL_BOND) {
+    if (sp->oneTurnFlag[sp->attack_client].parental_bond_flag == 1 && sp->battlemon[sp->attack_client].ability == ABILITY_PARENTAL_BOND) {
         IncrementBattleScriptPtr(sp, address);
     }
 
@@ -2538,7 +2542,7 @@ BOOL btl_scr_cmd_F0_ifsecondhitofparentalbond(void *bw UNUSED, struct BattleStru
 
     int address = read_battle_script_param(sp);
 
-    if (sp->battlemon[sp->attack_client].parental_bond_flag == 2) {
+    if (sp->oneTurnFlag[sp->attack_client].parental_bond_flag == 2) {
         IncrementBattleScriptPtr(sp, address);
     }
 
@@ -2555,8 +2559,8 @@ BOOL btl_scr_cmd_F0_ifsecondhitofparentalbond(void *bw UNUSED, struct BattleStru
 BOOL btl_scr_cmd_F1_setparentalbondflag(void *bw UNUSED, struct BattleStruct *sp) {
     IncrementBattleScriptPtr(sp, 1);
 
-    sp->battlemon[sp->attack_client].parental_bond_flag = 1;
-    sp->battlemon[sp->attack_client].parental_bond_is_active = TRUE;
+    sp->oneTurnFlag[sp->attack_client].parental_bond_flag = 1;
+    sp->oneTurnFlag[sp->attack_client].parental_bond_is_active = TRUE;
 
     return FALSE;
 }
@@ -2609,7 +2613,7 @@ BOOL btl_scr_cmd_F4_isparentalbondactive(void *bw UNUSED, struct BattleStruct *s
 
     int address = read_battle_script_param(sp);
 
-    if (sp->battlemon[sp->attack_client].parental_bond_is_active == TRUE) {
+    if (sp->oneTurnFlag[sp->attack_client].parental_bond_is_active == TRUE) {
         IncrementBattleScriptPtr(sp, address);
     }
 
@@ -2835,30 +2839,27 @@ BOOL btl_scr_cmd_F9_canclearprimalweather(void *bw, struct BattleStruct *sp) {
     return FALSE;
 }
 
-
-
-
-
-/**** AURORA CRYSTAL: Start of custom battle commands. ****/
-
 /**
- *  @brief script command to check if current multi-hit move is last hit (used for Scale Shot)
+ *  @brief script command to turn on the ability activated flag for a client
  *
  *  @param bw battle work structure
  *  @param sp global battle structure
  *  @return FALSE
  */
-BOOL btl_scr_cmd_FA_iflasthitofmultihit(void *bw UNUSED, struct BattleStruct *sp) {
+BOOL btl_scr_cmd_FA_setabilityactivatedflag(void *bw UNUSED, struct BattleStruct *sp) {
     IncrementBattleScriptPtr(sp, 1);
-    int address = read_battle_script_param(sp);
 
-    if ((sp->multi_hit_count <= 1 || (sp->defence_client == sp->fainting_client))) {
-        IncrementBattleScriptPtr(sp, address); 
-    }
+    u8 side, client_no;
+
+    side = read_battle_script_param(sp);
+    client_no = GrabClientFromBattleScriptParam(bw, sp, side);
+
+    sp->battlemon[client_no].ability_activated_flag = 1;
 
     return FALSE;
 }
 
+/**** AURORA CRYSTAL: Start of custom battle commands. ****/
 
 /**
  *  @brief script command to calculate Strength Sap healing
@@ -2964,6 +2965,25 @@ BOOL btl_scr_cmd_FF_tryspikydebris(void *bw UNUSED, struct BattleStruct *sp) {
     } else {
         sp->side_condition[side] |= (1 << 2);
         sp->scw[side].spikesLayers++;
+    }
+
+    return FALSE;
+}
+
+
+/**
+ *  @brief script command to check if current multi-hit move is last hit (used for Scale Shot)
+ *
+ *  @param bw battle work structure
+ *  @param sp global battle structure
+ *  @return FALSE
+ */
+BOOL btl_scr_cmd_100_iflasthitofmultihit(void *bw UNUSED, struct BattleStruct *sp) {
+    IncrementBattleScriptPtr(sp, 1);
+    int address = read_battle_script_param(sp);
+
+    if ((sp->multi_hit_count <= 1 || (sp->defence_client == sp->fainting_client))) {
+        IncrementBattleScriptPtr(sp, address); 
     }
 
     return FALSE;

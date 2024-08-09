@@ -643,9 +643,11 @@ struct __attribute__((packed)) OneTurnEffect
 
                // begin custom flags
                enum ForceExecutionOrder{EXECUTION_ORDER_NORMAL, EXECUTION_ORDER_AFTER_YOU, EXECUTION_ORDER_QUASH} force_execution_order_flag : 2;
-               
-               /**** AURORA CRYSTAL: Changed from 20 -> 19 due to extra flag. ****/
-               u32 : 19;
+               u32 parental_bond_flag : 2;
+               u32 parental_bond_is_active : 1;
+
+               /**** AURORA CRYSTAL: Changed from 17 -> 16 due to extra flag. ****/
+               u32 : 16;
 
     /* 0x04 */ int physical_damage[4];    /**< [don't use] physical damage as indexed by battler.  Counter doesn't use this, use OneSelfTurnEffect's physical_damage (sp->oneSelfFlag[battler].physical_damage) */
     /* 0x14 */ int physical_damager;      /**< [don't use] last battler that physically damaged this pokémon.  Counter doesn't use this, use OneSelfTurnEffect's physical_damager (sp->oneSelfFlag[battler].physical_damager) */
@@ -802,17 +804,15 @@ struct __attribute__((packed)) BattlePokemon
                u32 critical_hits : 2;        /**< tracks the amount of critical hits the pokémon has landed while in battle so far */
                u32 air_ballon_flag : 1;      /**< the held air balloon has printed its message */
                u32 potentially_affected_by_psychic_terrain_move_used_flag : 1;
-               u32 parental_bond_flag : 2;
-               u32 parental_bond_is_active : 1;
                u32 ability_activated_flag : 1;
                u32 tera_type : 5;
                u32 is_currently_terastallized : 1;
                // u32 is_currently_dynamaxed : 1;
                u32 has_dynamaxed_before : 1; /**< for Cherrim and Flower Gift */
 
-               u32 glaive_rush_flag : 1; /**** AURORA CRYSTAL: Added Glaive Rush flag, changed remaining to 1. */
+               u32 glaive_rush_flag : 1; /**** AURORA CRYSTAL: Added Glaive Rush flag, changed remaining to 4. */
                u32 swap_ring_flag : 1;   /**** AURORA CRYSTAL: Added Swap Ring flag for message. Commented out one above for the space. */
-               u32 : 1; // need to add to ClearBattleMonFlags when added to here as well
+               u32 : 4; // need to add to ClearBattleMonFlags when added to here as well
     /* 0x2c */ u8 pp[4];                     /**< move pp left */
     /* 0x30 */ u8 pp_count[4];               /**< move max pp */
     /* 0x34 */ u8 level;                     /**< current level */

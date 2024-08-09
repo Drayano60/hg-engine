@@ -1102,7 +1102,7 @@ void LONG_CALL UpdatePassiveForms(struct PartyPokemon *pp)
             break;
         /**** AURORA CRYSTAL: Added Basculin here. White Basc isn't encountered in the wild, only via the Global Terminal 'trade'. */
         case SPECIES_BASCULIN:
-            form = (gf_rand() % 2) + 1; // Red Basc is form 1, Blue Basc is form 2.
+            form = (gf_rand() % 2); // Red Basc is form 0, Blue Basc is form 1.
             break;
         /**** AURORA CRYSTAL: Added Vivillon here. It's wild in the Safari Zone. */
         case SPECIES_VIVILLON:

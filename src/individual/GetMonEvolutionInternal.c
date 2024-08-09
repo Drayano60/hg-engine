@@ -398,7 +398,7 @@ u16 GetMonEvolutionInternal(struct Party *party, struct PartyPokemon *pokemon, u
                     u32 location = gFieldSysPtr->location->mapId;
 
                     if (evoTable[i].param <= level && location == GLOBAL_TERMINAL_HEADER_ID) {
-                        GET_TARGET_AND_SET_FORM;
+                        target = evoTable[i].target & 0x7FF;
                         *method_ret = EVO_LEVEL;
                     }
                     break;
@@ -410,7 +410,7 @@ u16 GetMonEvolutionInternal(struct Party *party, struct PartyPokemon *pokemon, u
                     u32 location = gFieldSysPtr->location->mapId;
 
                     if ((MonHasMove(pokemon, evoTable[i].param) == TRUE) && (location == GLOBAL_TERMINAL_HEADER_ID)) {
-                        GET_TARGET_AND_SET_FORM;
+                        target = evoTable[i].target & 0x7FF;
                         *method_ret = EVO_HAS_MOVE;
                     }
                     break;
@@ -419,7 +419,7 @@ u16 GetMonEvolutionInternal(struct Party *party, struct PartyPokemon *pokemon, u
                 // Used for Dunsparce -> Three-Segment Dudunsparce
                 case EVO_HAS_MOVE_AND_RNG:
                     if ((MonHasMove(pokemon, evoTable[i].param) == TRUE) && (gf_rand() % 10 == 0)) { // 10%
-                        GET_TARGET_AND_SET_FORM;
+                        target = evoTable[i].target & 0x7FF;
                         *method_ret = EVO_HAS_MOVE;
                     }
                     break;
@@ -431,7 +431,7 @@ u16 GetMonEvolutionInternal(struct Party *party, struct PartyPokemon *pokemon, u
 
                         if ((GetMonData(pokemon, MON_DATA_GENDER, NULL) == POKEMON_GENDER_FEMALE) && hp && (maxhp - hp) >= evoTable[i].param) // if the mon has evoTable[i].param hp less than its max
                         {
-                            GET_TARGET_AND_SET_FORM;
+                            target = evoTable[i].target & 0x7FF;
                             *method_ret = EVO_HURT_IN_BATTLE_AMOUNT;
                         }
                     }
@@ -496,6 +496,7 @@ u16 GetMonEvolutionInternal(struct Party *party, struct PartyPokemon *pokemon, u
                 target = evoTable[i].target & 0x7FF;
                 *method_ret = 0;
                 break;
+            }
 
             /**** AURORA CRYSTAL: Commented this out, don't want it. */
             // if (evoTable[i].method == EVO_TRADE_ITEM && heldItem == evoTable[i].param && usedItem == ITEM_LINKING_CORD) {

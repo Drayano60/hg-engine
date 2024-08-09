@@ -8743,7 +8743,7 @@ movedata MOVE_TAIL_SLAP, "Tail Slap"
     movedescription MOVE_TAIL_SLAP, "The use attacks by\nhitting the target\nwith its hard tail.\nIt hits two to five\ntimes in a row."
 
 movedata MOVE_HURRICANE, "Hurricane"
-    battleeffect MOVE_EFFECT_CONFUSE_HIT // Weather effects are handled elsewhere.
+    battleeffect MOVE_EFFECT_THUNDER // Handles the confusion here too.
     pss SPLIT_SPECIAL
     basepower 110
     type TYPE_FLYING

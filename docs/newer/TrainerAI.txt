@@ -1,0 +1,99 @@
+Trainer AI is generally the same as Generation IV. At the time of writing, hg-engine does not currently have the capability to modify the AI scripts directly, so the vast majority of things are handled as they were before.
+
+You can see the specifics on how the AI works for various moves in this guide, written by Lhea:
+https://gist.github.com/lhearachel/ff61af1f58c84c96592b0b8184dba096
+
+There have been some edits where possible to influence the AI to do certain things differently.
+AI scripts from older moves have also been reused for the AI to be able to score certain moves.
+
+Borrowed Logic
+---
+The following new effects copy the logic of how certain older moves are handled:
+* Aurora Veil uses the same AI as Light Screen. Notably, the AI is unable to tell if it is currently snowing or not, so it may use this when it's unable to.
+* Autotomize uses the same AI as Agility.
+* Chilly Reception and Snowscape use the same AI as Hail (which has been repurposed to Snow but checks the same factors).
+* Circle Throw and Dragon Tail use the same AI as Roar/Whirlwind.
+* Clangorous Soul, Final Gambit and Shed Tail use the same AI as Belly Drum.
+* Coil uses the same AI as Bulk Up.
+* Cotton Guard uses the same AI as Iron Defense.
+* Electric Terrain, Grassy Terrain, Misty Terrain and Psychic Terrain use the same AI as Fake Out. It's not currently possible to let the AI know if the terrain is already active, so a Pokémon with the move will instead almost always use it on the first turn it comes out (even if the terrain is up already) and never again afterwards.
+* Electro Shot and Meteor Beam use the same AI as Skull Bash. Notably, the AI is not aware of Electro Shot's immediate charge in rain.
+* Esper Wing uses the same AI as Slash, Night Slash, etc.
+* Hone Claws, Work Up and the new Meditate use the same AI as Swords Dance.
+* Hurricane uses the same AI as Thunder (meaning slightly raised chance to use in rain, much lower chance in sun).
+* Noble Roar, Parting Shot and Tearful Look use the Sp. Atk drop AI, which was coded in but unused previously.
+* Shell Smash, Shift Gear, Tidy Up, Quiver Dance and Victory Dance use the same AI as Dragon Dance.
+* Strength Sap uses the same AI as Recover.
+* Tail Glow uses the same AI as Nasty Plot.
+* Toxic Thread uses the same AI as Poison Powder.
+
+The AI is now able to roll the damage of certain moves that it could not before when determining what move to use.
+
+Modified Logic
+---
+The following AI logic has been modified:
+* Icy Wind, Mud Shot and Rock Tomb no longer have their AI score modified based on the relative Speed stat of the user and target.
+* Sunny Day now gains a +3 score when a Pokémon has the Chlorophyll ability. It no longer gains a +1 score when a Pokémon has the Flower Gift ability.
+
+New Mechanics
+---
+The AI is able to calculate damage relative to the majority of new effects and items that have been added.
+* Abilities such as Aerilate, Gorilla Tactics, Multiscale, Strong Jaw, Pixilate, custom abilities etc can be read.
+* Items such as Assault Vest, Eviolite, Gems and the new Swap Ring are read.
+* Terrains can be read.
+* ...etc.
+* It may not be able to read the damage boost from Analytic or Sheer Force. TBC.
+
+Multihit Moves
+---
+Multihit moves are one such case of this. Previously, they would always be rolled as one hit of their base power (BP). Now:
+* Moves that hit twice are rolled with one hit of (base power * 2). For example, Double Kick would be one hit at 60 BP.
+* Moves that hit 2-5 times are rolled with one hit of (base power * 2). eg Bullet Seed would be one hit at 50 BP.
+* If the holding a Loaded Dice, the roll is instead (base power * 4). eg Bullet Seed would be one hit at 100 BP.
+* If the Pokémon has Skill Link, the roll is instead (base power * 5). eg Bullet Seed would be one hit at 125 BP.
+* Moves that hit three times unless they miss are rolled with one hit of (base power * 6). eg Triple Axel would be one hit at 120 BP.
+
+All examples are shown before any other modifiers such as held items, STAB etc.
+If the Pokémon has Technician, the roll gains an additional 1.5 multipler.
+
+Variable Power Moves
+---
+The AI is now able to accurately roll damage for the following moves who have effects that modify BP:
+- Acrobatics
+- Barb Barrage
+- Echoed Voice
+- Electro Ball
+- Facade
+- Grass Knot
+- Grav Apple
+- Gyro Ball
+- Heat Crash
+- Heavy Slam
+- Hex
+- Infernal Parade
+- Knock Off
+- Low Kick
+- Power Trip
+- Rage Fist
+- Stored Power
+- Venoshock
+- Weather Ball
+
+For Weather Ball specifically, the AI is also aware of the type change.
+
+Unusual Stat Moves
+---
+The AI is able to accurately roll damage for moves that use unusual stats:
+- Body Press
+- Foul Play
+- Psyshock
+- Psystrike
+
+AI Only Moves
+---
+For Frustration, Hidden Power and Return, the AI has its own copies of the moves instead so the AI can read them properly.
+Frustration and Return's AI clones are simply 102 BP Normal moves with no secondary effect.
+Hidden Power has data for a move of each type, with 60 BP and no secondary effect.
+
+Functionally these are no different to the normal moves, except for the Hidden Power clones not requiring specific IVs.
+However, as they are technically separate moves to the originals, they would not be subject to any effects that require a matching move ID (such as Imprison).

@@ -15613,7 +15613,7 @@ levelup SPECIES_LILLIGANT_HISUIAN
     learnset MOVE_HEALING_WISH, 65
     terminatelearnset
 
-levelup SPECIES_BASCULIN_RED_STRIPED
+levelup SPECIES_BASCULIN
     learnset MOVE_TACKLE, 1
     learnset MOVE_TAIL_WHIP, 1
     learnset MOVE_WATER_GUN, 4
@@ -15653,7 +15653,7 @@ levelup SPECIES_BASCULIN_BLUE_STRIPED
     learnset MOVE_HEAD_SMASH, 60
     terminatelearnset
 
-levelup SPECIES_BASCULIN
+levelup SPECIES_BASCULIN_WHITE_STRIPED
     learnset MOVE_TACKLE, 1
     learnset MOVE_TAIL_WHIP, 1
     learnset MOVE_WATER_GUN, 4

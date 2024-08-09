@@ -5080,7 +5080,7 @@ export default [
         {
             "showdown_key": "basculin",
             "hg_engine_keys": [
-                "SPECIES_BASCULIN_RED_STRIPED",
+                "SPECIES_BASCULIN",
                 "SPECIES_BASCULIN_BLUE_STRIPED"
             ]
         },
@@ -5089,7 +5089,7 @@ export default [
         {
             "showdown_key": "basculinwhitestriped",
             "hg_engine_keys": [
-                "SPECIES_BASCULIN" // hg-engine flipped them around due to the evolution issue.
+                "SPECIES_BASCULIN_WHITE_STRIPED"
             ]
         },
 

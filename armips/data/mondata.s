@@ -14415,16 +14415,16 @@ mondata SPECIES_BASCULIN, "Basculin"
     basestats 70, 92, 65, 98, 80, 55
     types TYPE_WATER, TYPE_WATER
     catchrate 25
-    baseexp 105
+    baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 2, 0, 0
-    items ITEM_NONE, ITEM_NONE
+    items ITEM_DEEP_SEA_TOOTH, ITEM_DEEP_SEA_TOOTH
     genderratio 127
     eggcycles SHORT_EGG_CYCLE ? 0 : 40
-    basefriendship 70
+    basefriendship 70 // raised up again
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_2, EGG_GROUP_WATER_2
-    abilities ABILITY_RATTLED, ABILITY_ADAPTABILITY
-    runchance 25
+    abilities ABILITY_RECKLESS, ABILITY_ADAPTABILITY
+    runchance 0
     colorflip BODY_COLOR_GREEN, 0
     mondexentry SPECIES_BASCULIN, "Savage, violent Pokémon, red and blue\nBasculin are always fighting each other\nover territory."
     mondexclassification SPECIES_BASCULIN, "Hostile Pokémon"
@@ -26824,23 +26824,6 @@ mondata SPECIES_PALKIA_ORIGIN, "-----"
     colorflip BODY_COLOR_PURPLE, 0
     
 
-mondata SPECIES_BASCULIN_RED_STRIPED, "-----"
-    basestats 70, 92, 65, 98, 80, 55
-    types TYPE_WATER, TYPE_WATER
-    catchrate 25
-    baseexp 161
-    evyields 0, 0, 0, 2, 0, 0
-    items ITEM_DEEP_SEA_TOOTH, ITEM_DEEP_SEA_TOOTH
-    genderratio 127
-    eggcycles SHORT_EGG_CYCLE ? 0 : 40
-    basefriendship 70
-    growthrate GROWTH_MEDIUM_FAST
-    egggroups EGG_GROUP_WATER_2, EGG_GROUP_WATER_2
-    abilities ABILITY_RECKLESS,  ABILITY_ADAPTABILITY
-    runchance 25
-    colorflip BODY_COLOR_GREEN, 0
-    
-
 mondata SPECIES_BASCULIN_BLUE_STRIPED, "-----"
     basestats 70, 92, 65, 98, 80, 55
     types TYPE_WATER, TYPE_WATER
@@ -26850,11 +26833,28 @@ mondata SPECIES_BASCULIN_BLUE_STRIPED, "-----"
     items ITEM_DEEP_SEA_SCALE, ITEM_DEEP_SEA_SCALE
     genderratio 127
     eggcycles SHORT_EGG_CYCLE ? 0 : 40
-    basefriendship 70
+    basefriendship 70 // raised up again
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_2, EGG_GROUP_WATER_2
     abilities ABILITY_ROCK_HEAD,  ABILITY_ADAPTABILITY
-    runchance 25
+    runchance 0
+    colorflip BODY_COLOR_GREEN, 0
+
+
+mondata SPECIES_BASCULIN_WHITE_STRIPED, "-----"
+    basestats 70, 92, 65, 98, 80, 55
+    types TYPE_WATER, TYPE_WATER
+    catchrate 25
+    baseexp 161
+    evyields 0, 0, 0, 2, 0, 0
+    items ITEM_NONE, ITEM_NONE
+    genderratio 127
+    eggcycles SHORT_EGG_CYCLE ? 0 : 40
+    basefriendship 70 // raised up again
+    growthrate GROWTH_MEDIUM_FAST
+    egggroups EGG_GROUP_WATER_2, EGG_GROUP_WATER_2
+    abilities ABILITY_RATTLED,  ABILITY_ADAPTABILITY
+    runchance 0
     colorflip BODY_COLOR_GREEN, 0
     
 

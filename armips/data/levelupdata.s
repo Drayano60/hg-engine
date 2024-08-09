@@ -6233,7 +6233,7 @@ levelup SPECIES_MEGA_AMPHAROS
     learnset MOVE_COTTON_SPORE, 6
     learnset MOVE_CHARGE, 9
     learnset MOVE_SWIFT, 12
-    learnset MOVE_CHARGE_BEAM, 16
+    learnset MOVE_ELECTRO_BALL, 16
     learnset MOVE_CONFUSE_RAY, 20
     learnset MOVE_TAKE_DOWN, 24
     learnset MOVE_DISCHARGE, 28
@@ -15016,10 +15016,10 @@ levelup SPECIES_BLITZLE
 // NEW: Blaze Kick, Extreme Speed, Jump Kick
 levelup SPECIES_ZEBSTRIKA
     learnset MOVE_ZING_ZAP, 0
+    learnset MOVE_SCREECH, 1
     learnset MOVE_BLAZE_KICK, 1
     learnset MOVE_ELECTRO_BALL, 1
     learnset MOVE_EERIE_IMPULSE, 1
-    learnset MOVE_SCREECH, 1
     learnset MOVE_QUICK_ATTACK, 1
     learnset MOVE_TAIL_WHIP, 1
     learnset MOVE_CHARGE, 3
@@ -15349,8 +15349,8 @@ levelup SPECIES_THROH
     learnset MOVE_BIND, 1
     learnset MOVE_LEER, 1
     learnset MOVE_BIDE, 1
-    learnset MOVE_SEISMIC_TOSS, 1
-    learnset MOVE_FOCUS_ENERGY, 5
+    learnset MOVE_FOCUS_ENERGY, 1
+    learnset MOVE_SEISMIC_TOSS, 5
     learnset MOVE_POWER_UP_PUNCH, 10
     learnset MOVE_CIRCLE_THROW, 15
     learnset MOVE_VITAL_THROW, 20
@@ -15365,20 +15365,19 @@ levelup SPECIES_THROH
     learnset MOVE_HEADLONG_RUSH, 65
     terminatelearnset
 
-// NEW: Detect
 levelup SPECIES_SAWK
     learnset MOVE_KARATE_CHOP, 1
     learnset MOVE_LEER, 1
     learnset MOVE_BIDE, 1
-    learnset MOVE_DOUBLE_KICK, 1
-    learnset MOVE_FOCUS_ENERGY, 5
+    learnset MOVE_FOCUS_ENERGY, 1
+    learnset MOVE_DOUBLE_KICK, 5
     learnset MOVE_POWER_UP_PUNCH, 10
-    learnset MOVE_DETECT, 15
+    learnset MOVE_DUAL_CHOP, 15
     learnset MOVE_LOW_SWEEP, 20
     learnset MOVE_BRICK_BREAK, 25
     learnset MOVE_REVENGE, 30
     learnset MOVE_COUNTER, 35
-    learnset MOVE_DUAL_CHOP, 40
+    learnset MOVE_PROTECT, 40
     learnset MOVE_BULK_UP, 45
     learnset MOVE_ENDURE, 50
     learnset MOVE_REVERSAL, 55
@@ -22005,8 +22004,8 @@ levelup SPECIES_RABOOT
 
 levelup SPECIES_CINDERACE
 	learnset MOVE_PYRO_BALL, 0
-    learnset MOVE_SUCKER_PUNCH, 1
     learnset MOVE_ELECTRO_BALL, 1
+    learnset MOVE_SUCKER_PUNCH, 1
     learnset MOVE_TACKLE, 1
     learnset MOVE_GROWL, 1
     learnset MOVE_EMBER, 3

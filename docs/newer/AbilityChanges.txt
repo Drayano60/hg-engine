@@ -103,7 +103,7 @@ Effect: Increases the power of the Pokémon's Water-type moves by 50%.
 
 [Aura Adept]
 Pokémon: Lucario.
-Effect: Increases the power of the Pokémon's aura or pulse moves by 50%.
+Effect: Increases the power of the Pokémon's aura or pulse moves by 50%. (Heal Pulse also heals for 75%.)
 
 [Befuddle]
 Pokémon: Butterfree.

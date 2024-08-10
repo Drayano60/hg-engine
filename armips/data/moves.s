@@ -8145,7 +8145,7 @@ movedata MOVE_SHELL_SMASH, "Shell Smash"
     movedescription MOVE_SHELL_SMASH, "Sharply raises\nAttack, Sp. Atk, and\nSpeed, but lowers\nDefense and Sp. Def."
 
 movedata MOVE_HEAL_PULSE, "Heal Pulse"
-    battleeffect MOVE_EFFECT_HIT
+    battleeffect MOVE_EFFECT_HEAL_TARGET
     pss SPLIT_STATUS
     basepower 0
     type TYPE_PSYCHIC
@@ -15709,7 +15709,7 @@ movedescription MOVE_QUICK_GUARD, "The user protects\nitself and its\nallies fro
 movedescription MOVE_ALLY_SWITCH, "The user teleports\nusing a strange\npower and switches\nplaces with one of\nits allies."
 movedescription MOVE_SCALD, "The user shoots\nboiling hot water\nat the foe.\nThis has a 30% chance\nto burn the foe."
 movedescription MOVE_SHELL_SMASH, "User’s shell breaks,\nlowering its Defense\nand Sp. Def but its\nAttack, Sp. Atk, and\nSpeed sharply raise."
-movedescription MOVE_HEAL_PULSE, "The user emits a\nhealing pulse that\nrestores a target’s\nHP by up to half."
+movedescription MOVE_HEAL_PULSE, "The user emits a\nhealing pulse that\nrestores a target’s\nHP by up to half of\nits max HP."
 movedescription MOVE_HEX, "This relentless\nattack does double\ndamage to a target\naffected by status\nconditions."
 movedescription MOVE_SKY_DROP, "It takes the enemy\ninto the sky,\nwhere it can’t\nattack. It is\ndropped next turn."
 movedescription MOVE_SHIFT_GEAR, "Rotating its gears,\nthe user raises its\nAttack and sharply\nraises its Speed."

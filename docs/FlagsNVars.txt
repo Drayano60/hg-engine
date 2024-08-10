@@ -210,6 +210,8 @@ NPCs:
 2278 - Mental Herb gift in Goldenrod City.
 2279 - Swap Ring gift in Goldenrod City.
 2280 - Safari Zone Egg explanation.
+2281 - Punching Glove gift.
+2282 - Blunder Policy gift.
 
 2230 - Heart Scale on Route 47 [UNUSED]
 2231 - Heart Scale on Route 40 [UNUSED]

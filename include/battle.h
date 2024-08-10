@@ -2924,6 +2924,7 @@ BOOL LONG_CALL ov12_02251A28(struct BattleSystem *bsys, struct BattleStruct *ctx
 
 
 /**** AURORA CRYSTAL: Additional helper functions. ****/
+BOOL LONG_CALL IsMovePunchBased(u32 move);
 BOOL LONG_CALL IsMoveWindBased(u32 move);
 BOOL LONG_CALL IsMovePowderBased(u32 move);
 BOOL LONG_CALL IsMoveAntiMinimize(u32 move);

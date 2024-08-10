@@ -376,6 +376,7 @@ Goldenrod City
 ===========================================================================
 Loaded Dice: Speak to the burglar in the Game Corner.
 TM41 Torment: Found on the floor in the Game Corner.
+Punching Glove: Speak to the left Black Belt in the old bike shop.
 Focus Band: Attached to the Tyrogue you can receive as a gift in the old bike shop.
 Focus Band: Attached to the Hawlucha you can receive in a trade on 5F of the Goldenrod Department Store.
 Amulet Coin: Found on the floor in the basement of the Department Store.
@@ -497,6 +498,7 @@ Clear Bell: Given to you by the Kimono Girls after defeating them.
 ===========================================================================
 Route 38
 ===========================================================================
+Blunder Policy: Speak to the guard in the Ecruteak gatehouse.
 TM47 Steel Wing: Found on the floor behind the fence near the Ecruteak gatehouse.
 TM85 Psycho Cut: Found on the floor by following the rocky wall from Route 39. Requires Rock Climb.
 

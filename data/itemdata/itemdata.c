@@ -41895,7 +41895,7 @@ const ITEMDATA __data[] =
 
 [ITEM_PUNCHING_GLOVE - NUM_UNKNOWN_SLOTS_EXPLORER_KIT] =
 {
-    .price = 200,
+    .price = 7500,
     .holdEffect = HOLD_EFFECT_INCREASE_PUNCHING_MOVE_DMG,
     .holdEffectParam = 10,
     .pluckEffect = 0,

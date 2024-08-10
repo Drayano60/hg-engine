@@ -11,6 +11,7 @@
 #include "../../include/constants/item.h"
 #include "../../include/constants/moves.h"
 #include "../../include/constants/species.h"
+#include "../../include/constants/hold_item_effects.h"
 
 // function declarations
 //BOOL BattleFormChangeCheck(void *bw, struct BattleStruct *sp, int *seq_no);
@@ -1136,6 +1137,33 @@ u16 BallBombMoveList[] = {
     MOVE_ZAP_CANNON,
 };
 
+u16 PunchMovesList[] = {
+    MOVE_BULLET_PUNCH,
+    MOVE_COMET_PUNCH,
+    MOVE_DIZZY_PUNCH,
+    MOVE_DOUBLE_IRON_BASH,
+    MOVE_DRAIN_PUNCH,
+    MOVE_DYNAMIC_PUNCH,
+    MOVE_FIRE_PUNCH,
+    MOVE_FOCUS_PUNCH,
+    MOVE_HAMMER_ARM,
+    MOVE_HEADLONG_RUSH,
+    MOVE_ICE_HAMMER,
+    MOVE_ICE_PUNCH,
+    MOVE_JET_PUNCH,
+    MOVE_MACH_PUNCH,
+    MOVE_MEGA_PUNCH,
+    MOVE_METEOR_MASH,
+    MOVE_PLASMA_FISTS,
+    MOVE_POWER_UP_PUNCH,
+    MOVE_RAGE_FIST,
+    MOVE_SHADOW_PUNCH,
+    MOVE_SKY_UPPERCUT,
+    MOVE_SURGING_STRIKES,
+    MOVE_THUNDER_PUNCH,
+    MOVE_WICKED_BLOW,
+};
+
 /**
  *  @brief get the adjusted move type accounting for normalize without relying on a client
  *
@@ -1274,6 +1302,11 @@ BOOL LONG_CALL DoesSideHave2Battlers(void *bw, u32 client)
 
 /**** AURORA CRYSTAL: Additional helper functions. ****/
 
+BOOL LONG_CALL IsMovePunchBased(u32 move)
+{
+    return IsElementInArray(PunchMovesList, (u16 *)(&move), NELEMS(PunchMovesList), sizeof(PunchMovesList[0]));
+}
+
 BOOL LONG_CALL IsMoveWindBased(u32 move)
 {
     return IsElementInArray(WindMoveList, (u16 *)(&move), NELEMS(WindMoveList), sizeof(WindMoveList[0]));
@@ -1294,10 +1327,15 @@ BOOL LONG_CALL IsMoveBallBombBased(u32 move)
     return IsElementInArray(BallBombMoveList, (u16 *)(&move), NELEMS(BallBombMoveList), sizeof(BallBombMoveList[0]));
 }
 
-// Used primarily to support the Long Reach ability.
+// Used primarily to support the Long Reach ability and Punching Glove.
 BOOL LONG_CALL IsMoveContact(struct BattleStruct *sp)
 {
     if (GetBattlerAbility(sp, sp->attack_client) == ABILITY_LONG_REACH) {
+        return FALSE;
+    }
+
+    // Punching Glove
+    if (IsMovePunchBased(sp->current_move_index) && (BattleItemDataGet(sp, sp->battlemon[sp->attack_client].item, 1) == HOLD_EFFECT_INCREASE_PUNCHING_MOVE_DMG)) {
         return FALSE;
     }
 

@@ -665,7 +665,7 @@ A shard of what appears to be an old\nblade of some sort.\nIt is loved by a cert
 An item to be held by a Pokémon.\nThis loaded dice ensures the holder’s\nmultistrike moves hit at least 4 times.
 A peculiar set of armor that can make\na certain species of Pokémon evolve.\nMalicious will lurks within it.
 Mirror Herb Description
-Punching Glove Description
+An item to be held by a Pokémon.\nIt prevents punching moves from making\ncontact and boosts their power by 10%.
 If held, it halves the damage taken from\na supereffective Fairy-type attack.\n(This Berry cannot be planted.)
 Kee Berry Description
 Maranga Berry Description

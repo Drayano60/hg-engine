@@ -105,7 +105,7 @@ Honey: Teddiursa, Surskit, Combee
 Iron Ball: Mawile
 Leek: Farfetch'd
 Leader's Crest: Bisharp
-Leftovers: Snorlax, Munchlax
+Leftovers: Snorlax
 Light Ball: Pikachu
 Light Clay: Claydol, Golurk
 Lucky Egg: Chansey
@@ -134,7 +134,7 @@ Sacred Ash: Ho-oh
 Sharp Beak: Fearow, Dodrio
 Shed Shell: Arbok, Venomoth, Beautifly, Dustox, Seviper, Scrafty, Goomy
 Silver Powder: Butterfree, Masquerain, Wormadam, Mothim
-Sitrus Berry: Swalot, Audino
+Sitrus Berry: Swalot, Munchlax, Audino
 Smoke Ball: Koffing, Weezing, Spiritomb
 Soft Sand: Dugtrio
 Spell Tag: Haunter, Banette, Dusclops
@@ -251,9 +251,6 @@ Meadow Plate: Given to you by Elder Li if you defeat him after receiving the Ear
 Route 36
 ===========================================================================
 Berry Pots: Given to you by Floria after making the Sudowoodo leave.
-Rare Bone: Speak to the lady in the gatehouse leading to the Ruins of Alph after receiving the Hive Badge.
-Black Augurite: Speak to the lady in the gatehouse leading to the Ruins of Alph after receiving the Storm Badge.
-Peat Block: Speak to the lady in the gatehouse leading to the Ruins of Alph after receiving the Rising Badge.
 
 ===========================================================================
 Ruins of Alph
@@ -285,9 +282,9 @@ Cover Fossil: Exchange a Rare Bone with a Ruin Maniac NPC after receiving the Pl
 Plume Fossil: Exchange a Rare Bone with a Ruin Maniac NPC after receiving the Plain Badge.
 Jaw Fossil: Exchange a Rare Bone with a Ruin Maniac NPC after receiving the Plain Badge.
 Sail Fossil: Exchange a Rare Bone with a Ruin Maniac NPC after receiving the Plain Badge.
+Black Augurite: Exchange a Rare Bone with the Ruin Maniac NPC after receiving the Storm Badge.
 Old Amber: Exchange a Rare Bone with a Ruin Maniac NPC after receiving the Glacier Badge.
-Black Augurite: Exchange a Rare Bone with the Ruin Maniac NPC after receiving the Black Augurite on Route 36.
-Peat Block: Exchange a Rare Bone with the Ruin Maniac NPC after receiving the Peat Block on Route 36.
+Peat Block: Exchange a Rare Bone with the Ruin Maniac NPC after receiving the Rising Badge.
 Odd Keystone: Speak to Cynthia, who will appear here after first meeting her on Route 34.
 
 ===========================================================================
@@ -516,7 +513,8 @@ Mt. Mortar
 ===========================================================================
 TM31 Brick Break: Found on the floor in the main room at the left side, past a Black Belt.
 Black Belt: Found on the floor near the right exit to Route 42.
-Protector: Found on the floor by following the path from the top-right rocky wall. Requires Rock Climb.
+Focus Sash: Found on the floor in the main room by descending the west-facing rocky wall to the northeast and following the path all the way around. Requires Rock Climb.
+Protector: Found on the floor in the main room by descending the south-facing rocky wall to the northeast and following the path west. Requires Rock Climb.
 Fighting Gem: Hidden on a rock on 2F, at the southeast of the room. Requires Waterfall.
 Iron Ball: Found on the floor in the main room via access from the top-left of 2F. Requires Waterfall.
 TM52 Focus Blast: Found on the floor on B1F, at the top right of the room via access from 2F. Requires Waterfall.
@@ -525,7 +523,6 @@ Choice Band: Given to you by Bruno on 2F, after giving him the Rage Candy Bar. R
 ===========================================================================
 Mahogany Town
 ===========================================================================
-Leftovers (x10): Speak to the Ace Trainer in the Pokémon Center.
 TM20 Weather Ball: Speak to a scientist in the house.
 Mystic Water: Attached to the Castform you can receive as a gift in the house.
 TM06 Toxic: Speak to Janine, who appears at the top of town after Team Rocket have left the Safari Zone.
@@ -604,6 +601,7 @@ Deep Sea Tooth: Speak to a Fisherman in one of the houses.
 Deep Sea Scale: Speak to a Fisherman in one of the houses.
 Galarica Cuff: Speak to a Sailor in the harbour.
 Galarica Crown: Speak to a Sailor in the harbour.
+Leftovers: Found on the floor in the Olivine Café.
 Smoke Ball: Attached to the Magcargo you can receive in a trade in one of the houses.
 Electric Gem: Hidden on the rock below the rocky wall next to the lighthouse. Requires Rock Climb.
 TM04 Calm Mind: Speak to Sabrina, who appears on the harbour lookout after Team Rocket have left the Safari Zone.
@@ -637,7 +635,6 @@ Linking Cord: Speak to the boy with the DS in the Pokémon Center.
 Bright Powder: Attached to the Jynx you can receive in a trade in the Pokémon Center.
 TM42 Facade: Speak to a Beauty in one of the houses.
 HM02 Fly: Given to you by Chuck's wife after receiving the Storm Badge.
-Focus Sash: Given to you by the Black Belt near the top of town if you defeat him in a battle after receiving the Storm Badge.
 Splash Plate: Speak to the old woman in the top-left house while Manaphy leads your party.
 Secret Medicine: Speak to the pharmacist after Team Rocket have left the Safari Zone.
 
@@ -754,18 +751,18 @@ Steelixite: Given to you by Jasmine after defeating her in a rematch, after rece
 ===========================================================================
 Route 43
 ===========================================================================
-Figy Berry (x5): Check the top-left Berry Tree near the gatehouse in the middle of the route.
-Wiki Berry (x5): Check the top-right Berry Tree near the gatehouse in the middle of the route.
-Mago Berry (x5): Check the center Berry Tree near the gatehouse in the middle of the route.
-Aguav Berry (x5): Check the bottom-left Berry Tree near the gatehouse in the middle of the route.
-Iapapa Berry (x5): Check the bottom-right Berry Tree near the gatehouse in the middle of the route.
+Figy Berry (x3): Check the top-left Berry Tree near the gatehouse in the middle of the route.
+Wiki Berry (x3): Check the top-right Berry Tree near the gatehouse in the middle of the route.
+Mago Berry (x3): Check the center Berry Tree near the gatehouse in the middle of the route.
+Aguav Berry (x3): Check the bottom-left Berry Tree near the gatehouse in the middle of the route.
+Iapapa Berry (x3): Check the bottom-right Berry Tree near the gatehouse in the middle of the route.
 TM53 Energy Ball: Found on the floor by Surfing across the southern pond and going past the skinny tree.
 TM34 Sludge Wave: Speak to the gatehouse guard after turning off Team Rocket's radio signal.
 
 ===========================================================================
 Lake of Rage
 ===========================================================================
-Bottle Cap (x2): Speak to a man in the house south of the lake.
+Bottle Cap: Speak to a man in the house south of the lake.
 Rage Candy Bar: Can be purchased from a man in the house south of the lake.
 Red Scale: Found automatically after the battle with the Red Gyarados.
 Life Orb: Found on the floor on a small island near the house at the top-left, while the lake is flooded.

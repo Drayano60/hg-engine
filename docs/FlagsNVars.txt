@@ -212,6 +212,7 @@ NPCs:
 2280 - Safari Zone Egg explanation.
 2281 - Punching Glove gift.
 2282 - Blunder Policy gift.
+2283 - Initial Rare Bone exchange explanation.
 
 2230 - Heart Scale on Route 47 [UNUSED]
 2231 - Heart Scale on Route 40 [UNUSED]

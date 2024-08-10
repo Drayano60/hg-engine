@@ -118,7 +118,6 @@ Route 36
 ✓ Modified Rock Smash guy's dialogue to reflect that someone else gives you HM06.
 ✓ Sudowoodo is now Level 25.
 ✓ Removed the Oran/Pecha Berries gift from Floria.
-✓ Added an NPC in the gatehouse connecting to the Ruins of Alph who gives you a Rare Bone/Black Augurite/Peat Block after 2/5/8 Badges respectively.
 
 Ruins of Alph
 ✓ Added a patch of grass accessible immediately.
@@ -143,7 +142,7 @@ Ruins Research Center
 ✓ Added another scientist NPC who can revive fossils. Fossils match the correct Pokémon; Aerodactyl is Lv. 40, Gen 5-6 ones are Lv. 25, the rest are Lv. 25 with the Plain Badge, Lv. 10 without.
 ✓ Moved one of the other scientists to the bookcases to get him out of the way.
 ✓ Added a Ruin Maniac NPC who will give you any of the fossils or the Black Augurite/Peat Block in exchange for a Rare Bone (which can be found at a low rate by smashing rocks in the Ruins of Alph).
-✓✓ The Gen 5-6 fossils require 3 Badges, Aerodactyl requires 7 Badges. The Black Augurite and Peat Block require you to receive them from their original source first.
+✓✓ The Gen 5-6 fossils require 3 Badges, Black Augurite requires 5 Badges, Aerodactyl requires 7 Badges and the Peat Block requires 8 Badges.
 ✓ Cynthia shows up here after you meet her in Route 34. She'll give you an Odd Keystone when first spoken to.
 ✓ If Cynthia is spoken to after having become Champion, she'll offer to transport you to the Sinjoh Ruins. If accepted, the player will be warped there. Following this, Cynthia disappears from the Ruins Research Center.
 
@@ -222,7 +221,7 @@ Ilex Forest
 ✓ Added an Ace Trainer F using a Mickey (166).
 ✓ Changed the tile permissions so grass platforms show in battle instead.
 ✓ Revive -> Silver Powder.
-✓ Added the Beedrillite.
+✓ Added the Pinsirite.
 ✓ Added an NPC and the Spiky-eared Pichu, who you can get here. The Pichu is Lv. 20 and has Volt Tackle replaced with Thunderbolt, but is otherwise the same (including the Zap Plate and fixed nature/gender).
 ✓ After accepting Pichu, the NPC also gives you a Light Ball before leaving. Then removed this.
 ✓ Added an NPC to give a slight nod to the infamous Ilex Forest scene in SG/SS, and also awarding TM86 Grass Knot.
@@ -358,8 +357,10 @@ Mt. Mortar
 ✓ Full Incense -> Max Potion.
 ✓ TM40 -> PP Up.
 ✓ 1F-2: Escape Rope -> Hyper Potion.
+✓ 1F-2: Max Potion -> Focus Sash.
 ✓ 2F: Escape Rope -> Max Repel. Removed the hidden HP Up.
 ✓ Added a hidden Fighting Gem on one of the rocks on 2F.
+✓ Switched positions of the Max Potion (now Focus Sash), the Protector, and the hidden Nugget.
 
 Route 42
 ✓ Adjusted trainer directions a little.
@@ -374,7 +375,6 @@ Mahogany Town
 ✓ Edited dialogue in Pokémon Center to reference this game's version of evolving/level up moves.
 ✓ Ejected the current residents of the house and placed three weather researchers there. One gives you TM20 Weather Ball, another gives you a Castform gift.
 ✓ Janine shows up here after defeating Team Rocket at the Safari Zone. She gives you TM06 Toxic.
-✓ Added an Ace Trainer in the Pokémon Center who gives you 10 x Leftovers.
 ✓ A little girl in the shop (who appears once the shop starts running) will give you the Covert Cloak.
 ✓ Added a trade in the Pokémon Center for an Emolga in exchange for any Fairy-type.
 ✓ The shopkeeper now sells the same items as Team Rocket, as her actual shop inventory is repurposed for selling X Items.
@@ -433,7 +433,6 @@ Route 39
 ✓ Added some berry trees to give the berries that have no purpose outside of Natural Gift.
 
 Olivine City
-✓ Added an NPC in the diner who gives you Leftovers. (This NPC was later yeeted into the void in favour of the gift in Mahogany).
 ✓ TM57 -> TM91 Flash Cannon.
 ✓ Changed the Good Rod guy to give you the Deep Sea items.
 ✓ Changed the dialogue of an Ace Trainer F in the harbour as her dialogue didn't make any sense. (Then ended up removing her later anyway)
@@ -445,6 +444,8 @@ Olivine City
 ✓ Added Prof Elm's assistant in the Pokémon Center, who will give a Lv. 5 starter of the player's choice.
 ✓ Modified the trade in the house to be a Torkoal in exchange for any Electric-type. The NPC in question is also now a Hiker instead of a Fisherman.
 ✓ Removed the hidden Protein in the harbour.
+✓ Moved the Sailor who mentions Strength in the diner to the table.
+✓ Added an item ball in the diner containing Leftovers. (Repurposed from Lake of Rage's Red Flute->Nugget).
 
 Lighthouse
 ✓ Rare Candy -> TM62 Acrobatics. TM87 -> Light Ball. Super Potion -> TM21 Dazzling Gleam.
@@ -477,7 +478,6 @@ Cianwood City
 ✓ Added a trade in the Pokémon Center for a Jynx in exchange for any Water-type.
 ✓ Added a book in the house at the top-left that details 'The Sea's Fable', a slight spin-off of 'The Sea's Legend' that details how to get Manaphy.
 ✓ The middle-aged woman in the top-left house has been replaced with an old woman. If spoken to while Manaphy leads your party, you'll get the Splash Plate.
-✓ There's a Black Belt looking out at the sea near the top of the island. After earning the Storm Badge, you can challenge him to a battle. Winning earns the player a Focus Sash.
 
 Cianwood City - Gym
 ✓ The winch now can't be turned immediately, a button needs to be pressed on the opposite side first.
@@ -576,7 +576,7 @@ Lake of Rage
 ✓ North of the lake (where the Choice Specs were previously), there's a sign with some writing. Talk to it at night with an Odd Keystone in your inventory, and a Lv. 40 Spiritomb will appear. After Spiritomb is caught, the sign text changes, the Odd Keystone is removed from the player's inventory and nothing else can happen there. If Spiritomb is not caught, the sign remains as-is and the Odd Keystone is not removed.
 ✓ The shiny Gyarados is now Level 40.
 ✓ The Choice Specs has been moved off-map.
-✓ TM43 -> Life Orb. Changed Red Flute ball to Nugget but moved it off map.
+✓ TM43 -> Life Orb. Changed Red Flute ball to Nugget but moved it off map, then repurposed it in Olivine's diner.
 ✓ The NPC in the house now awards TM44 Rest instead of TM10.
 ✓ Moved Ace Trainer Alton to the right side of the lake so he's always challengeable. Moved another NPC a bit to make space.
 ✓ Added the Gyaradosite.

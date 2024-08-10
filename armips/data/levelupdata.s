@@ -3672,9 +3672,9 @@ levelup SPECIES_HITMONLEE
     learnset MOVE_JUMP_KICK, 32
     learnset MOVE_BLAZE_KICK, 36
     learnset MOVE_MEGA_KICK, 40
-    learnset MOVE_CLOSE_COMBAT, 44
+    learnset MOVE_HIGH_JUMP_KICK, 44
     learnset MOVE_REVERSAL, 48
-    learnset MOVE_HIGH_JUMP_KICK, 52
+    learnset MOVE_AXE_KICK, 52
     terminatelearnset
 
 // NEW: Meteor Mash
@@ -9774,13 +9774,14 @@ levelup SPECIES_MEDITITE
 
 // NEW: Blaze Kick (HOME)
 levelup SPECIES_MEDICHAM
-    learnset MOVE_BLAZE_KICK, 1
     learnset MOVE_DYNAMIC_PUNCH, 1
     learnset MOVE_BULLET_PUNCH, 1
+    learnset MOVE_FOCUS_PUNCH, 1
+    learnset MOVE_BLAZE_KICK, 1
     learnset MOVE_VACUUM_WAVE, 1
-    learnset MOVE_FIRE_PUNCH, 1 
-    learnset MOVE_THUNDER_PUNCH, 1 
-    learnset MOVE_ICE_PUNCH, 1 
+    learnset MOVE_THUNDER_PUNCH, 1
+    learnset MOVE_FIRE_PUNCH, 1
+    learnset MOVE_ICE_PUNCH, 1
     learnset MOVE_BIDE, 1
     learnset MOVE_FEINT, 1
     learnset MOVE_FAKE_OUT, 1
@@ -9802,17 +9803,18 @@ levelup SPECIES_MEDICHAM
     learnset MOVE_REVERSAL, 50
     learnset MOVE_RECOVER, 54
     learnset MOVE_COUNTER, 58
-    learnset MOVE_FOCUS_PUNCH, 62
+    learnset MOVE_AXE_KICK, 62
     terminatelearnset
 
 levelup SPECIES_MEGA_MEDICHAM
-    learnset MOVE_BLAZE_KICK, 1
     learnset MOVE_DYNAMIC_PUNCH, 1
     learnset MOVE_BULLET_PUNCH, 1
+    learnset MOVE_FOCUS_PUNCH, 1
+    learnset MOVE_BLAZE_KICK, 1
     learnset MOVE_VACUUM_WAVE, 1
-    learnset MOVE_FIRE_PUNCH, 1 
-    learnset MOVE_THUNDER_PUNCH, 1 
-    learnset MOVE_ICE_PUNCH, 1 
+    learnset MOVE_THUNDER_PUNCH, 1
+    learnset MOVE_FIRE_PUNCH, 1
+    learnset MOVE_ICE_PUNCH, 1
     learnset MOVE_BIDE, 1
     learnset MOVE_FEINT, 1
     learnset MOVE_FAKE_OUT, 1
@@ -9834,7 +9836,7 @@ levelup SPECIES_MEGA_MEDICHAM
     learnset MOVE_REVERSAL, 50
     learnset MOVE_RECOVER, 54
     learnset MOVE_COUNTER, 58
-    learnset MOVE_FOCUS_PUNCH, 62
+    learnset MOVE_AXE_KICK, 62
     terminatelearnset
 
 // NEW: Thunder Shock
@@ -15544,7 +15546,6 @@ levelup SPECIES_COTTONEE
 
 // NEW: Leaf Tornado
 levelup SPECIES_WHIMSICOTT
-    learnset MOVE_MOONBLAST, 0
     learnset MOVE_GUST, 1
     learnset MOVE_WORRY_SEED, 1
     learnset MOVE_FAKE_TEARS, 1
@@ -15590,7 +15591,6 @@ levelup SPECIES_PETILIL
     terminatelearnset
 
 levelup SPECIES_LILLIGANT
-    learnset MOVE_PETAL_DANCE, 0
     learnset MOVE_PETAL_BLIZZARD, 1
     learnset MOVE_TEETER_DANCE, 1
     learnset MOVE_WORRY_SEED, 1
@@ -15608,16 +15608,14 @@ levelup SPECIES_LILLIGANT
     learnset MOVE_SYNTHESIS, 30
     learnset MOVE_GIGA_DRAIN, 35
     learnset MOVE_SUNNY_DAY, 40
-    learnset MOVE_ENERGY_BALL, 45
+    learnset MOVE_PETAL_DANCE, 45
     learnset MOVE_ENTRAINMENT, 50
     learnset MOVE_LEAF_STORM, 55
     learnset MOVE_QUIVER_DANCE, 60
     learnset MOVE_HEALING_WISH, 65
     terminatelearnset
 
-// NEW: High Jump Kick, Jump Kick
 levelup SPECIES_LILLIGANT_HISUIAN
-    learnset MOVE_JUMP_KICK, 0
     learnset MOVE_PETAL_BLIZZARD, 1
     learnset MOVE_TEETER_DANCE, 1
     learnset MOVE_DEFOG, 1
@@ -15635,8 +15633,8 @@ levelup SPECIES_LILLIGANT_HISUIAN
     learnset MOVE_SYNTHESIS, 30
     learnset MOVE_LEAF_BLADE, 35
     learnset MOVE_SUNNY_DAY, 40
-    learnset MOVE_MEGA_KICK, 45
-    learnset MOVE_HIGH_JUMP_KICK, 50
+    learnset MOVE_AXE_KICK, 45
+    learnset MOVE_MEGA_KICK, 50
     learnset MOVE_SOLAR_BLADE, 55
     learnset MOVE_VICTORY_DANCE, 60
     learnset MOVE_HEALING_WISH, 65
@@ -23704,7 +23702,6 @@ levelup SPECIES_NYMBLE
     learnset MOVE_FIRST_IMPRESSION, 36
     terminatelearnset
 
-// NEW: High Jump Kick
 levelup SPECIES_LOKIX
     learnset MOVE_LUNGE, 0
     learnset MOVE_SKITTER_SMACK, 1
@@ -23726,7 +23723,7 @@ levelup SPECIES_LOKIX
     learnset MOVE_KNOCK_OFF, 41
     learnset MOVE_REVERSAL, 45
     learnset MOVE_BOUNCE, 49
-    learnset MOVE_HIGH_JUMP_KICK, 53
+    learnset MOVE_AXE_KICK, 53
     terminatelearnset
 
 levelup SPECIES_PAWMI

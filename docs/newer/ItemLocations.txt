@@ -631,7 +631,6 @@ Nothing of note.
 ===========================================================================
 Cianwood City
 ===========================================================================
-Linking Cord: Speak to the boy with the DS in the Pokémon Center.
 Bright Powder: Attached to the Jynx you can receive in a trade in the Pokémon Center.
 TM42 Facade: Speak to a Beauty in one of the houses.
 HM02 Fly: Given to you by Chuck's wife after receiving the Storm Badge.
@@ -700,8 +699,9 @@ TM81 X-Scissor: Found on the floor through the path of trees near the tall grass
 Safari Zone Gate
 ===========================================================================
 HM08 Rock Climb: Given to you by Baoba after defeating Ariana and Archer.
-TM17 Protect: Given to you by Baoba after leaving a Safari Game for the first time. (You don't need to catch anything.)
+Linking Cord: Speak to the boy with the DS in the Pokémon Center after Team Rocket have left the Safari Zone.
 TM74 Pollen Puff: Speak to the lady with the Jumpluff after Team Rocket have left the Safari Zone.
+TM17 Protect: Given to you by Baoba after leaving a Safari Game for the first time. (You don't need to catch anything.)
 Mystery Box: Given to you by Baoba after first speaking to him while Meltan leads your party, then speaking to him again after receiving the Rising Badge.
 
 Sitrus Berry: Can be purchased from the bottom-left stall.

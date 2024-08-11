@@ -1455,7 +1455,7 @@ BOOL LONG_CALL GiveMon(int heapId, void *saveData, int species, int level, int f
 
     /**** AURORA CRYSTAL: Add some handling to allow a custom met location. ****/
     // This pulls from the text in Text Archive 281. It's currently being used for the regional form trades in the GTS.
-    u32 metLocationVar = GetScriptVar(16736);
+    u32 metLocationVar = GetScriptVar(0x4160);
 
     if (metLocationVar > 0) {
         u32 metLocationId = metLocationVar + 2000;

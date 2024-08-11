@@ -1025,6 +1025,7 @@ Mt. Silver Cave
 ✓ The level cap increases when first entering the Champion Tournament. This means if the player faints, they can level up to the Red cap instead. Nuzlockes would likely count it as a wipe!
 ✓ The level cap becomes 100 when the player first defeats Red.
 ✓ Removed the hidden Iron in the big square room.
+✓ Because of the Champion Tournament, the player is no longer able to use Fly from the summit.
 
 Sinjoh Ruins
 ✓ When initially warped here, Cynthia has some dialogue and then goes into the Mystri Stage temple. You can speak to her again inside the temple, and after a bit more dialogue, Uxie, Mesprit and Azelf are released. Cynthia leaves the temple after this.

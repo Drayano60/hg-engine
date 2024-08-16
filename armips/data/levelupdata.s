@@ -4872,7 +4872,7 @@ levelup SPECIES_JOLTEON
     learnset MOVE_TRUMP_CARD, 60
     terminatelearnset
 
-// NEW: Flame Wheel
+// NEW: Blaze Kick, Flame Wheel
 levelup SPECIES_FLAREON
     learnset MOVE_EMBER, 0
     learnset MOVE_HELPING_HAND, 1
@@ -4890,7 +4890,7 @@ levelup SPECIES_FLAREON
     learnset MOVE_FIRE_FANG, 24
     learnset MOVE_YAWN, 28
     learnset MOVE_TAKE_DOWN, 32
-    learnset MOVE_LAVA_PLUME, 36
+    learnset MOVE_BLAZE_KICK, 36
     learnset MOVE_CHARM, 40
     learnset MOVE_SCARY_FACE, 40
     learnset MOVE_PLAY_ROUGH, 44

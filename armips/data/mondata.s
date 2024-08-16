@@ -5123,7 +5123,6 @@ mondata SPECIES_SNUBBULL, "Snubbull"
 
 // STATS: 60 >> 50 SpAtk | 45 >> 75 Speed | 450 >> 470 BST
 // TYPES: Fairy >> Fairy/Fighting
-// ABILITY: Strong Jaw (2)
 mondata SPECIES_GRANBULL, "Granbull"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 90, 120, 75, 75, 50, 60
@@ -5144,11 +5143,7 @@ mondata SPECIES_GRANBULL, "Granbull"
     basefriendship 70
     growthrate GROWTH_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FAIRY
-    .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_INTIMIDATE, ABILITY_STRONG_JAW
-    .else
-        abilities ABILITY_INTIMIDATE, ABILITY_QUICK_FEET
-    .endif
+    abilities ABILITY_INTIMIDATE, ABILITY_QUICK_FEET
     runchance 25
     colorflip BODY_COLOR_PURPLE, 0
     mondexentry SPECIES_GRANBULL, "It is actually timid and easily\nspooked. If attacked, it flails\nabout to fend off its attacker."

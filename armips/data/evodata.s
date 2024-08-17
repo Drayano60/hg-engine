@@ -16488,6 +16488,18 @@ evodata SPECIES_GRAVELER_ALOLAN
     evolution EVO_NONE, 0, SPECIES_NONE
 terminateevodata
 
+evodata SPECIES_FARFETCHD_GALARIAN
+    evolution EVO_AMOUNT_OF_CRITICAL_HITS, 1, SPECIES_SIRFETCHD // Controlled by other_battle_calculators.c so the 1 does nothing here
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+    evolution EVO_NONE, 0, SPECIES_NONE
+terminateevodata
+
 evodata SPECIES_PONYTA
     evolution EVO_LEVEL, 35, SPECIES_RAPIDASH
     evolution EVO_NONE, 0, SPECIES_NONE

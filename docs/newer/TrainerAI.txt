@@ -19,6 +19,7 @@ The following new effects copy the logic of how certain older moves are handled:
 * Electric Terrain, Grassy Terrain, Misty Terrain and Psychic Terrain use the same AI as Fake Out. It's not currently possible to let the AI know if the terrain is already active, so a Pokémon with the move will instead almost always use it on the first turn it comes out (even if the terrain is up already) and never again afterwards.
 * Electro Shot and Meteor Beam use the same AI as Skull Bash. Notably, the AI is not aware of Electro Shot's immediate charge in rain.
 * Esper Wing uses the same AI as Slash, Night Slash, etc.
+* Fell Stinger and First Impression gain extra score if they can kill, similar to Quick Attack, Aqua Jet etc.
 * Hone Claws, Work Up and the new Meditate use the same AI as Swords Dance.
 * Hurricane uses the same AI as Thunder (meaning slightly raised chance to use in rain, much lower chance in sun).
 * Noble Roar, Parting Shot and Tearful Look use the Sp. Atk drop AI, which was coded in but unused previously.

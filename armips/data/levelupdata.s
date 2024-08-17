@@ -372,7 +372,7 @@ levelup SPECIES_KAKUNA
     learnset MOVE_HARDEN, 1 
     terminatelearnset
 
-// NEW: Cross Poison (HOME Datamine), Lunge
+// NEW: Cross Poison (HOME Datamine)
 levelup SPECIES_BEEDRILL
     learnset MOVE_FURY_ATTACK, 0
     learnset MOVE_PURSUIT, 0
@@ -388,10 +388,10 @@ levelup SPECIES_BEEDRILL
     learnset MOVE_POISON_JAB, 20
     learnset MOVE_TOXIC_SPIKES, 24
     learnset MOVE_AGILITY, 28
-    learnset MOVE_LUNGE, 32
+    learnset MOVE_PIN_MISSILE, 32
     learnset MOVE_ENDEAVOR, 36
-    learnset MOVE_PIN_MISSILE, 40
-    learnset MOVE_CROSS_POISON, 44
+    learnset MOVE_CROSS_POISON, 40
+    learnset MOVE_FELL_STINGER, 44
     terminatelearnset
 
 levelup SPECIES_MEGA_BEEDRILL
@@ -409,10 +409,10 @@ levelup SPECIES_MEGA_BEEDRILL
     learnset MOVE_POISON_JAB, 20
     learnset MOVE_TOXIC_SPIKES, 24
     learnset MOVE_AGILITY, 28
-    learnset MOVE_LUNGE, 32
+    learnset MOVE_PIN_MISSILE, 32
     learnset MOVE_ENDEAVOR, 36
-    learnset MOVE_PIN_MISSILE, 40
-    learnset MOVE_CROSS_POISON, 44
+    learnset MOVE_CROSS_POISON, 40
+    learnset MOVE_FELL_STINGER, 44
     terminatelearnset
 
 levelup SPECIES_PIDGEY
@@ -1439,8 +1439,9 @@ levelup SPECIES_PARAS
     learnset MOVE_STRENGTH_SAP, 35
     learnset MOVE_FIRST_IMPRESSION, 39
     learnset MOVE_AROMATHERAPY, 43
-    learnset MOVE_SCREECH, 47
-    learnset MOVE_X_SCISSOR, 51
+    learnset MOVE_X_SCISSOR, 47
+    learnset MOVE_SCREECH, 51
+    learnset MOVE_FELL_STINGER, 55
     terminatelearnset
 
 // NEW: Crabhammer, First Impression, Shadow Claw, Strength Sap
@@ -1465,8 +1466,9 @@ levelup SPECIES_PARASECT
     learnset MOVE_STRENGTH_SAP, 37
     learnset MOVE_FIRST_IMPRESSION, 41
     learnset MOVE_AROMATHERAPY, 45
-    learnset MOVE_SCREECH, 49
-    learnset MOVE_X_SCISSOR, 53
+    learnset MOVE_X_SCISSOR, 49
+    learnset MOVE_SCREECH, 53
+    learnset MOVE_FELL_STINGER, 57
     terminatelearnset
 
 levelup SPECIES_VENONAT
@@ -5963,6 +5965,7 @@ levelup SPECIES_SPINARAK
 levelup SPECIES_ARIADOS
     learnset MOVE_SWORDS_DANCE, 0
     learnset MOVE_SKITTER_SMACK, 1
+    learnset MOVE_FELL_STINGER, 1
     learnset MOVE_FOCUS_ENERGY, 1
     learnset MOVE_NIGHT_SHADE, 1
     learnset MOVE_SPIDER_WEB, 1
@@ -7112,10 +7115,10 @@ levelup SPECIES_QWILFISH
     learnset MOVE_AQUA_JET, 6
     learnset MOVE_MINIMIZE, 9
     learnset MOVE_ROLLOUT, 12
-    learnset MOVE_ACID_SPRAY, 16
-    learnset MOVE_PIN_MISSILE, 20
-    learnset MOVE_REVENGE, 24
-    learnset MOVE_POISON_JAB, 28
+    learnset MOVE_FELL_STINGER, 16
+    learnset MOVE_REVENGE, 20
+    learnset MOVE_POISON_JAB, 24
+    learnset MOVE_PIN_MISSILE, 28
     learnset MOVE_BARB_BARRAGE, 32
     learnset MOVE_LIQUIDATION, 36
     learnset MOVE_STOCKPILE, 40
@@ -7139,10 +7142,10 @@ levelup SPECIES_QWILFISH_HISUIAN
     learnset MOVE_AQUA_JET, 6
     learnset MOVE_MINIMIZE, 9
     learnset MOVE_ROLLOUT, 12
-    learnset MOVE_ACID_SPRAY, 16
-    learnset MOVE_PIN_MISSILE, 20
-    learnset MOVE_REVENGE, 24
-    learnset MOVE_POISON_JAB, 28
+    learnset MOVE_FELL_STINGER, 16
+    learnset MOVE_REVENGE, 20
+    learnset MOVE_POISON_JAB, 24
+    learnset MOVE_PIN_MISSILE, 28
     learnset MOVE_BARB_BARRAGE, 32
     learnset MOVE_CRUNCH, 36
     learnset MOVE_STOCKPILE, 40
@@ -7166,10 +7169,10 @@ levelup SPECIES_OVERQWIL
     learnset MOVE_AQUA_JET, 6
     learnset MOVE_MINIMIZE, 9
     learnset MOVE_ROLLOUT, 12
-    learnset MOVE_ACID_SPRAY, 16
-    learnset MOVE_PIN_MISSILE, 20
-    learnset MOVE_REVENGE, 24
-    learnset MOVE_POISON_JAB, 28
+    learnset MOVE_FELL_STINGER, 16
+    learnset MOVE_REVENGE, 20
+    learnset MOVE_POISON_JAB, 24
+    learnset MOVE_PIN_MISSILE, 28
     learnset MOVE_BARB_BARRAGE, 32
     learnset MOVE_CRUNCH, 36
     learnset MOVE_STOCKPILE, 40
@@ -10495,7 +10498,8 @@ levelup SPECIES_CACNEA
     learnset MOVE_ENERGY_BALL, 40
     learnset MOVE_COTTON_SPORE, 44
     learnset MOVE_SANDSTORM, 48
-    learnset MOVE_DESTINY_BOND, 52
+    learnset MOVE_FELL_STINGER, 52
+    learnset MOVE_DESTINY_BOND, 56
     terminatelearnset
 
 // No Spiky Shield yet
@@ -10525,7 +10529,8 @@ levelup SPECIES_CACTURNE
     learnset MOVE_ENERGY_BALL, 42
     learnset MOVE_COTTON_SPORE, 46
     learnset MOVE_SANDSTORM, 50
-    learnset MOVE_DESTINY_BOND, 54
+    learnset MOVE_FELL_STINGER, 54
+    learnset MOVE_DESTINY_BOND, 58
     terminatelearnset
 
 levelup SPECIES_SWABLU
@@ -12461,9 +12466,9 @@ levelup SPECIES_KRICKETUNE
     learnset MOVE_SLASH, 24
     learnset MOVE_TAUNT, 28
     learnset MOVE_BUG_BUZZ, 32
-    learnset MOVE_HEAL_BELL, 36
+    learnset MOVE_NIGHT_SLASH, 36
     learnset MOVE_HYPER_VOICE, 40
-    learnset MOVE_NIGHT_SLASH, 44
+    learnset MOVE_FELL_STINGER, 44
     learnset MOVE_PERISH_SONG, 48
     learnset MOVE_BOOMBURST, 52
     terminatelearnset
@@ -12766,7 +12771,8 @@ levelup SPECIES_VESPIQUEN
     learnset MOVE_CAPTIVATE, 44
     learnset MOVE_TOXIC, 48
     learnset MOVE_SWAGGER, 52
-    learnset MOVE_DESTINY_BOND, 56
+    learnset MOVE_FELL_STINGER, 56
+    learnset MOVE_DESTINY_BOND, 60
     terminatelearnset
 
 levelup SPECIES_PACHIRISU
@@ -13556,6 +13562,7 @@ levelup SPECIES_SKORUPI
     learnset MOVE_X_SCISSOR, 43
     learnset MOVE_ACUPRESSURE, 47
     learnset MOVE_CRUNCH, 51
+    learnset MOVE_FELL_STINGER, 55
     terminatelearnset
 
 // Evolution: 35
@@ -13582,6 +13589,7 @@ levelup SPECIES_DRAPION
     learnset MOVE_X_SCISSOR, 45
     learnset MOVE_ACUPRESSURE, 49
     learnset MOVE_CRUNCH, 53
+    learnset MOVE_FELL_STINGER, 57
     terminatelearnset
 
 // Evolution: 33
@@ -15441,6 +15449,7 @@ levelup SPECIES_SWADLOON
 // NEW: Solar Blade
 levelup SPECIES_LEAVANNY
     learnset MOVE_SLASH, 0
+    learnset MOVE_LUNGE, 1
     learnset MOVE_SKITTER_SMACK, 1
     learnset MOVE_GRASS_WHISTLE, 1
     learnset MOVE_TACKLE, 1
@@ -15451,10 +15460,10 @@ levelup SPECIES_LEAVANNY
     learnset MOVE_ENDURE, 20
     learnset MOVE_FALSE_SWIPE, 24
     learnset MOVE_HELPING_HAND, 28
-    learnset MOVE_X_SCISSOR, 32
+    learnset MOVE_FELL_STINGER, 32
     learnset MOVE_LEAF_BLADE, 36
     learnset MOVE_AGILITY, 40
-    learnset MOVE_LUNGE, 44
+    learnset MOVE_X_SCISSOR, 44
     learnset MOVE_ENTRAINMENT, 48
     learnset MOVE_SWORDS_DANCE, 52
     learnset MOVE_SOLAR_BLADE, 56
@@ -16970,6 +16979,7 @@ levelup SPECIES_KARRABLAST
 // Evolution: Linking Cord
 levelup SPECIES_ESCAVALIER
     learnset MOVE_SMART_STRIKE, 0
+    learnset MOVE_FELL_STINGER, 1
     learnset MOVE_DRILL_RUN, 1
     learnset MOVE_TWINEEDLE, 1
     learnset MOVE_PECK, 1
@@ -21284,8 +21294,9 @@ levelup SPECIES_TOGEDEMARU
     learnset MOVE_IRON_HEAD, 40
     learnset MOVE_DISCHARGE, 44
     learnset MOVE_PROTECT, 48
-    learnset MOVE_ELECTRIC_TERRAIN, 52
-    learnset MOVE_WILD_CHARGE, 56
+    learnset MOVE_FELL_STINGER, 52
+    learnset MOVE_ELECTRIC_TERRAIN, 56
+    learnset MOVE_WILD_CHARGE, 60
 	terminatelearnset
 
 // NEW: Spirit Break
@@ -21825,7 +21836,7 @@ levelup SPECIES_POIPOLE
     learnset MOVE_HELPING_HAND, 1
     learnset MOVE_FURY_ATTACK, 6
     learnset MOVE_TOXIC_SPIKES, 12
-    learnset MOVE_PIN_MISSILE, 18
+    learnset MOVE_FELL_STINGER, 18
     learnset MOVE_CHARM, 24
     learnset MOVE_VENOSHOCK, 30
     learnset MOVE_POISON_JAB, 36
@@ -21846,7 +21857,7 @@ levelup SPECIES_NAGANADEL
     learnset MOVE_HELPING_HAND, 1
     learnset MOVE_FURY_ATTACK, 6
     learnset MOVE_TOXIC_SPIKES, 12
-    learnset MOVE_PIN_MISSILE, 18
+    learnset MOVE_FELL_STINGER, 18
     learnset MOVE_CHARM, 24
     learnset MOVE_VENOSHOCK, 30
     learnset MOVE_POISON_JAB, 36
@@ -22096,7 +22107,7 @@ levelup SPECIES_DRIZZILE
 
 levelup SPECIES_INTELEON
 	learnset MOVE_SNIPE_SHOT, 0
-    learnset MOVE_ACROBATICS, 1
+    learnset MOVE_FELL_STINGER, 1
     learnset MOVE_ICE_SHARD, 1
     learnset MOVE_POUND, 1
     learnset MOVE_GROWL, 1

@@ -9112,13 +9112,14 @@ movedata MOVE_STICKY_WEB, "Sticky Web"
     movedescription MOVE_STICKY_WEB, "---"
 
 movedata MOVE_FELL_STINGER, "Fell Stinger"
-    battleeffect MOVE_EFFECT_HIT
+    // battleeffect MOVE_EFFECT_FELL_STINGER
+    battleeffect MOVE_EFFECT_PRIORITY_1 /* AI */
     pss SPLIT_PHYSICAL
     basepower 50
     type TYPE_BUG
     accuracy 100
     pp 25
-    effectchance 0
+    effectchance 100
     target MOVE_TARGET_SELECTED
     priority 0
     flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK | FLAG_CONTACT
@@ -10637,7 +10638,8 @@ movedata MOVE_SHORE_UP, "Shore Up"
     movedescription MOVE_SHORE_UP, "---"
 
 movedatalongname MOVE_FIRST_IMPRESSION, "FirstImpression", "First Impression"
-    battleeffect MOVE_EFFECT_FIRST_IMPRESSION /**** EDIT: Changed eff as Fake Out triggers Sheer Force. */
+    // battleeffect MOVE_EFFECT_FIRST_IMPRESSION /**** EDIT: Changed eff as Fake Out triggers Sheer Force. */
+    battleeffect MOVE_EFFECT_PRIORITY_1 /* AI */
     pss SPLIT_PHYSICAL
     basepower 90
     type TYPE_BUG
@@ -15918,3 +15920,4 @@ movedescription MOVE_DIAMOND_STORM, "The user whips up a\nstorm of diamonds to\n
 movedescription MOVE_DOUBLE_IRON_BASH, "The user uses its hex\nnut as an axis to spin\nand hit the foe twice.\nThis has a 30% chance\nto flinch on each hit."
 movedescription MOVE_SHED_TAIL, "The user creates a\nsubstitute using its\nown HP, then switches\nplaces with a party\nPokémon in waiting."
 movedescription MOVE_AXE_KICK, "The user slams its\nheel down on the foe.\nThis has a 30% chance\nto confuse the foe.\nHurts user on a miss."
+movedescription MOVE_FELL_STINGER, "If the user knocks\nout a foe with this\nmove, the user’s\nAttack stat will be\nboosted drastically."

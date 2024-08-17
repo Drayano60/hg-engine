@@ -372,7 +372,7 @@ levelup SPECIES_KAKUNA
     learnset MOVE_HARDEN, 1 
     terminatelearnset
 
-// NEW: Cross Poison (HOME Datamine)
+// NEW: Lunge
 levelup SPECIES_BEEDRILL
     learnset MOVE_FURY_ATTACK, 0
     learnset MOVE_PURSUIT, 0
@@ -388,9 +388,9 @@ levelup SPECIES_BEEDRILL
     learnset MOVE_POISON_JAB, 20
     learnset MOVE_TOXIC_SPIKES, 24
     learnset MOVE_AGILITY, 28
-    learnset MOVE_PIN_MISSILE, 32
+    learnset MOVE_LUNGE, 32
     learnset MOVE_ENDEAVOR, 36
-    learnset MOVE_CROSS_POISON, 40
+    learnset MOVE_PIN_MISSILE, 40
     learnset MOVE_FELL_STINGER, 44
     terminatelearnset
 
@@ -409,9 +409,9 @@ levelup SPECIES_MEGA_BEEDRILL
     learnset MOVE_POISON_JAB, 20
     learnset MOVE_TOXIC_SPIKES, 24
     learnset MOVE_AGILITY, 28
-    learnset MOVE_PIN_MISSILE, 32
+    learnset MOVE_LUNGE, 32
     learnset MOVE_ENDEAVOR, 36
-    learnset MOVE_CROSS_POISON, 40
+    learnset MOVE_PIN_MISSILE, 40
     learnset MOVE_FELL_STINGER, 44
     terminatelearnset
 
@@ -22108,6 +22108,7 @@ levelup SPECIES_DRIZZILE
 levelup SPECIES_INTELEON
 	learnset MOVE_SNIPE_SHOT, 0
     learnset MOVE_FELL_STINGER, 1
+    learnset MOVE_ACROBATICS, 1
     learnset MOVE_ICE_SHARD, 1
     learnset MOVE_POUND, 1
     learnset MOVE_GROWL, 1

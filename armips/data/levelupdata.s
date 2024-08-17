@@ -13644,10 +13644,10 @@ levelup SPECIES_TOXICROAK
     learnset MOVE_GUNK_SHOT, 58
     terminatelearnset
 
-// NEW: Leech Life (PLA), Poison Fang, Leaf Blade
+// NEW: Poison Fang, Leaf Blade, Snap Trap
 levelup SPECIES_CARNIVINE
-    learnset MOVE_BUG_BITE, 1
     learnset MOVE_POISON_FANG, 1
+    learnset MOVE_BUG_BITE, 1
     learnset MOVE_BIND, 1
     learnset MOVE_GROWTH, 1
     learnset MOVE_BITE, 3
@@ -13665,7 +13665,7 @@ levelup SPECIES_CARNIVINE
     learnset MOVE_LEAF_BLADE, 32
     learnset MOVE_CRUNCH, 36
     learnset MOVE_INGRAIN, 40
-    learnset MOVE_LEECH_LIFE, 44
+    learnset MOVE_SNAP_TRAP, 44
     learnset MOVE_WRING_OUT, 48
     learnset MOVE_POWER_WHIP, 52
     terminatelearnset
@@ -18043,8 +18043,8 @@ levelup SPECIES_HEATMOR
     learnset MOVE_SPIT_UP, 24
     learnset MOVE_SLASH, 28
     learnset MOVE_SNATCH, 32
-    learnset MOVE_HONE_CLAWS, 36
-    learnset MOVE_FLAMETHROWER, 40
+    learnset MOVE_FIRE_LASH, 36
+    learnset MOVE_HONE_CLAWS, 40
     learnset MOVE_AMNESIA, 44
     learnset MOVE_INFERNO, 48
     learnset MOVE_FLARE_BLITZ, 52

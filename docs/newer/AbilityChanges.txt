@@ -77,7 +77,7 @@ Battery, Beast Boost, Berserk, Corrosion, Dazzling, Disguise, Electric Surge, Fl
 Cotton Down, Curious Medicine, Gorilla Tactics, Ice Scales, Libero, Pastel Veil*, Perish Body, Punk Rock, Quick Draw, Screen Cleaner, Steely Spirit, Transistor, Wandering Spirit.
 
 [Generation IX]
-Armor Tail, Guard Dog, Mind's Eye, Sharpness, Supersweet Syrup, Supreme Overlord, Thermal Exchange, Toxic Debris, Wind Power, Wind Rider.
+Armor Tail, Mind's Eye, Sharpness, Supersweet Syrup, Supreme Overlord, Thermal Exchange, Toxic Debris, Wind Power, Wind Rider.
 
 * These marked abilities don't fully work correctly yet.
 - Cheek Pouch does not currently activate in response to the type-resist berries or the Jaboca, Rowap and Custap Berries. It also will not activate because of Bug Bite, Fling or Pluck.
@@ -95,7 +95,7 @@ Cud Chew, Magician, Mimicry, Mirror Armor, Neutralizing Gas, Power of Alchemy, R
 ===========================================================================
 New Abilities
 ===========================================================================
-There are also 25 new abilities in the game, most of which are new signature abilities for certain Pokémon.
+There are also 26 new abilities in the game, most of which are new signature abilities for certain Pokémon.
 
 [Aqua Adept]
 Pokémon: Masquerain.
@@ -120,6 +120,10 @@ Effect: Increases the power of the Pokémon's sound moves by 30%. Also halves th
 [Cheerleader]
 Pokémon: Plusle, Minun.
 Effect: Increases the power of the Pokémon's ally's moves by 20%.
+
+[Echolocation]
+Pokémon: Noibat, Noivern.
+Effect: Makes this Pokémon's moves never miss. (Like Swift, Shock Wave, etc. Unlike No Guard, moves cannot hit targets using Dig, Fly, etc.)
 
 [Conductor]
 Pokémon: Kricketune.

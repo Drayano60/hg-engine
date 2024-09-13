@@ -463,6 +463,12 @@ BOOL CalcAccuracy(void *bw, struct BattleStruct *sp, int attacker, int defender,
         return FALSE;
     }
 
+    /**** AURORA CRYSTAL: Add the Echolocation ability for Noibat/Noivern, which guarantees their moves will hit opponents not in Dive/Fly/Dig etc. */
+    if (atk_ability == ABILITY_ECHOLOCATION)
+    {
+        return FALSE; 
+    }
+
     /**** AURORA CRYSTAL: Custom mechanic. Give a x1.1 same type accuracy bonus to offensive moves. ****/
     // Cancelled. It's a bit problematic with moves like Triple Axel, Population Bomb that use a ~90% accuracy as a balancing mechanic.
     // If the move is 90% or higher accuracy to start with, the accuracy is just set to 100% instead.

@@ -218,7 +218,7 @@ Powers up the Steel-type\nmoves of all allies by 50%.
 Increases the power of\nElectric moves by 50%.
 On contact, this Pokémon\nand the foe swap abilities.
 Blocks priority moves used\nagainst it or its ally.
-Ups Attack if intimidated.\nCannot be forced out.
+This Pokémon’s attacks\nwill never miss the foe.
 Ignores Ghost immunities,\nevasion and accu changes.
 Increases the power of\nslicing moves by 50%.
 Lowers the foe’s evasion\nupon entering battle.

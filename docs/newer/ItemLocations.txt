@@ -238,7 +238,7 @@ Rawst Berry: Can be purchased from the Juggler next to the Pokémon Center.
 Pokémon School
 ===========================================================================
 Silk Scarf: Given to you by a School Kid after battling him.
-TM83 Work Up: Given to you by a School Kid after battling her.
+TM83 Work Up: Given to you by a School Kid after battling him.
 
 ===========================================================================
 Sprout Tower
@@ -272,19 +272,19 @@ Blank Plate: Found automatically after catching Regigigas.
 ===========================================================================
 Ruins Research Center
 ===========================================================================
-Helix Fossil: Exchange a Rare Bone with a Ruin Maniac NPC.
-Dome Fossil: Exchange a Rare Bone with a Ruin Maniac NPC.
-Root Fossil: Exchange a Rare Bone with a Ruin Maniac NPC.
-Claw Fossil: Exchange a Rare Bone with a Ruin Maniac NPC.
-Armor Fossil: Exchange a Rare Bone with a Ruin Maniac NPC.
-Skull Fossil: Exchange a Rare Bone with a Ruin Maniac NPC.
-Cover Fossil: Exchange a Rare Bone with a Ruin Maniac NPC after receiving the Plain Badge.
-Plume Fossil: Exchange a Rare Bone with a Ruin Maniac NPC after receiving the Plain Badge.
-Jaw Fossil: Exchange a Rare Bone with a Ruin Maniac NPC after receiving the Plain Badge.
-Sail Fossil: Exchange a Rare Bone with a Ruin Maniac NPC after receiving the Plain Badge.
-Black Augurite: Exchange a Rare Bone with the Ruin Maniac NPC after receiving the Storm Badge.
-Old Amber: Exchange a Rare Bone with a Ruin Maniac NPC after receiving the Glacier Badge.
-Peat Block: Exchange a Rare Bone with the Ruin Maniac NPC after receiving the Rising Badge.
+Helix Fossil: Exchange a Rare Bone with a Hiker NPC.
+Dome Fossil: Exchange a Rare Bone with a Hiker NPC.
+Root Fossil: Exchange a Rare Bone with a Hiker NPC.
+Claw Fossil: Exchange a Rare Bone with a Hiker NPC.
+Armor Fossil: Exchange a Rare Bone with a Hiker NPC.
+Skull Fossil: Exchange a Rare Bone with a Hiker NPC.
+Cover Fossil: Exchange a Rare Bone with a Hiker NPC after receiving the Plain Badge.
+Plume Fossil: Exchange a Rare Bone with a Hiker NPC after receiving the Plain Badge.
+Jaw Fossil: Exchange a Rare Bone with a Hiker NPC after receiving the Plain Badge.
+Sail Fossil: Exchange a Rare Bone with a Hiker NPC after receiving the Plain Badge.
+Black Augurite: Exchange a Rare Bone with the Hiker NPC after receiving the Storm Badge.
+Old Amber: Exchange a Rare Bone with a Hiker NPC after receiving the Glacier Badge.
+Peat Block: Exchange a Rare Bone with the Hiker NPC after receiving the Rising Badge.
 Odd Keystone: Speak to Cynthia, who will appear here after first meeting her on Route 34.
 
 ===========================================================================

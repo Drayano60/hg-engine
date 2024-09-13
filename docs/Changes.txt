@@ -233,7 +233,7 @@ Route 34
 ✓ Cynthia appears and talks to you in the gatehouse, then leaves. This makes her appear at the research center in the Ruins of Alph.
 ✓ Deleted the Lass NPC to make room for Cynthia.
 ✓ Added an old woman that heals your Pokémon in the gatehouse.
-✓ Made some trainers compulsory. The policeman will now challenge you at any time of day (removed the second one that swaps out with him).
+✓ Made some trainers compulsory.
 ✓ Added an item ball with the Mystic Water.
 ✓ Added an Ethan/Lyra battle on top of the existing script. They give you an Eviolite when defeated.
 ✓ The first time you talk to the Day-Care Man, he'll give you an "Odd Egg" which can be any of the baby Pokémon except for Togepi. The Pokémon will always have its hidden ability.
@@ -327,7 +327,7 @@ Goldenrod City - Gym
 ✓ The level cap increases after the Whitney battle.
 
 Route 37
-✓ Added a green apricorn tree.
+✓ Added a green apricorn tree and moved the trees around.
 ✓ Added an item ball containing TM73 Thunder Wave.
 ✓ Fixed the Psychic's gaze (relevant if you want to get TM73).
 
@@ -341,9 +341,10 @@ Ecruteak City
 
 Route 38
 ✓ Added a blockade featuring Miltank to block you from moving onto Route 39 until Morty is defeated.
-✓ Added an item ball containing TM47 Steel Wing.
+✓ Added an item ball containing TM47 Steel Wing. Swapped places around with it, the Apricorn tree, and the Max Potion.
 ✓ Lax Incense -> TM85 Psycho Cut. 
 ✓ Removed the hidden HP Up.
+✓ Rearranged the Trainers significantly, and added the Beauty Olivia from Crystal using a Mickey (524).
 
 Mt. Mortar
 ✓ The central room now has a Kimono Girl event that forces you to explore the room as far as possible.
@@ -733,6 +734,7 @@ Route 27
 ✓ TM02 -> Terrain Extender.
 ✓ Moved some trainer positions.
 ✓ Replaced the grandma in the house with a glasses man who gives you the Choice Specs. His dialogue changes slightly depending on if you're the Champion or not.
+✓ Changed one Ace Trainer to a Swimmer.
 
 Route 26
 ✓ Moved some trainer positions.
@@ -744,6 +746,7 @@ Route 26
 ✓ Azelf drops the Fist Plate when caught.
 ✓ The level cap increases after the Ethan/Lyra battle.
 ✓ Added some berries between the ledges near the VR gatehouse that give the stat increase berries.
+✓ Changed the Fisherman to a Bug Catcher.
 
 Victory Road
 ✓ TM79 -> TM64 Explosion. TM26 -> Metal Alloy (and moved slightly). Max Revive -> TM50 Overheat. Full Restore -> TM71 Stone Edge. HP Up -> PP Max. Removed the hidden Zinc.

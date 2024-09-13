@@ -120,6 +120,7 @@ scrdef scr_seq_0003_074
 scrdef scr_seq_0003_075
 scrdef scr_seq_0003_076
 scrdef scr_seq_0003_077
+scrdef scr_seq_0003_078_repels
 scrdef_end
 
 scr_seq_0003_002:
@@ -1352,6 +1353,24 @@ scr_seq_0003_022:
     lockall
     npc_msg 65
     wait_button
+    closemsg
+    releaseall
+    end
+
+scr_seq_0003_078_repels:
+    play_se SEQ_SE_DP_SELECT
+    lockall
+    npc_msg 118
+    yesno VAR_SPECIAL_RESULT
+    compare VAR_SPECIAL_RESULT, 1
+    goto_if_eq scr_seq_0003_078_end
+    QueueNewRepel
+    PlayFanfare SEQ_SE_DP_CARD2
+    buffer_players_name 0
+    buffer_item_name 1, VAR_SPECIAL_RESULT
+    npc_msg 119
+    wait_button_or_walk_away
+scr_seq_0003_078_end:
     closemsg
     releaseall
     end

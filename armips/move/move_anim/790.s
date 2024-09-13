@@ -9,50 +9,36 @@
 .include "asm/include/moves.inc"
 
 .create "build/move/move_anim/0_790", 0
-
-// Apple Acid
-// Acid with a yellow bg.
-
+//Apple Acid
 a010_790:
-    initspriteresource
-    loadspriteresource 0
-    loadspriteresource 1
-    loadspriteresource 2
-    loadspriteresource 3
-    loadspritemaybe 4, 0, 0, 0
-    loadspritemaybe 5, 0, 1, 1
-    loadspritemaybe 6, 0, 2, 2
-    loadspritemaybe 7, 0, 3, 3
-    callfunction 78, 1, 0, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
-    loadparticle 0, 82
-    waitstate
-    unloadspriteresource
-    resetsprite 0
-    resetsprite 1
-    resetsprite 2
-    resetsprite 3
+    loadparticlefromspa 0, 414//aura sphere
+    waitparticle
+    loadparticlefromspa 1, 398//gastro acid
+    waitparticle
 
-    callfunction 33, 5, 0, 1, 0, 12, 887, "NaN", "NaN", "NaN", "NaN", "NaN"
+    shadescreencolor 20, 31, 10, 0, 8
 
-    playsepanmod 1999, -117, 117, 4, 2
-    addparticle 0, 1, 3
-    callfunction 66, 6, 0, 0, 0, 0, 8, 64, "NaN", "NaN", "NaN", "NaN"
-    wait 8
-    callfunction 34, 6, 8, 0, 1, 11252, 10, 25, "NaN", "NaN", "NaN", "NaN"
-    callfunction 36, 5, 1, 0, 1, 2, 264, "NaN", "NaN", "NaN", "NaN", "NaN"
-    addparticle 0, 2, 4
-    addparticle 0, 3, 4
-    addparticle 0, 0, 4
-    callfunction 34, 6, 8, 0, 1, 11252, 10, 25, "NaN", "NaN", "NaN", "NaN"
-    callfunction 36, 5, 1, 0, 1, 2, 264, "NaN", "NaN", "NaN", "NaN", "NaN"
-    playsepan 1997, 117
-    waitstate
+
+
+
+    repeatse 2081, 117, 2, 6
+    addparticle 1, 0, 17
+    cmd37 6, 0, 2, 2, 0, 0, 0, "NaN", "NaN"
+    addparticle 1, 1, 17
+    cmd37 6, 0, 2, 2, 0, 0, 0, "NaN", "NaN"
+    //callfunction 34, 6, 8, 0, 2, 11252, 10, 0, "NaN", "NaN", "NaN", "NaN"
+    wait 10
+    shaketargetmon 4, 8
+    shadetargetmon 20, 31, 10
+    wait 30
+    shadescreencolor 20, 31, 10, 8, 0
+
     waitparticle
     unloadparticle 0
-
-    callfunction 33, 5, 0, 1, 12, 0, 887, "NaN", "NaN", "NaN", "NaN", "NaN"
-
+    waitstate
+    unloadparticle 1
+    waitstate
     end
-    
+
 
 .close

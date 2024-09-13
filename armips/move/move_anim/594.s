@@ -9,30 +9,16 @@
 .include "asm/include/moves.inc"
 
 .create "build/move/move_anim/0_594", 0
-
-// Diamond Storm
-// Power Gem with a pink background
-
+//Diamond Storm
 a010_594:
-    initspriteresource
-    loadspriteresource 0
-    loadspriteresource 1
-    loadspriteresource 2
-    loadspriteresource 3
-    loadspritemaybe 4, 0, 0, 0
-    loadspritemaybe 5, 0, 1, 1
-    loadspritemaybe 6, 0, 2, 2
-    loadspritemaybe 7, 0, 3, 3
-    callfunction 78, 1, 0, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
-    loadparticle 0, 426
-    waitstate
-    unloadspriteresource
-    resetsprite 0
-    resetsprite 1
-    resetsprite 2
-    resetsprite 3
-    callfunction 33, 5, 0, 1, 0, 12, 56603, "NaN", "NaN", "NaN", "NaN", "NaN"
-    waitstate
+    loadparticlefromspa 0, 426
+    waitparticle
+
+    cmd43
+    cmd0C 7, 1
+    changebg 11, 0x800001
+    waitforchangebg
+
     playsepan 2088, -117
     addparticle 0, 2, 17
     cmd37 6, 0, 2, 1, 0, 0, 0, "NaN", "NaN"
@@ -46,8 +32,14 @@ a010_594:
     callfunction 36, 5, 1, 0, 1, 10, 264, "NaN", "NaN", "NaN", "NaN", "NaN"
     waitparticle
     unloadparticle 0
-    callfunction 33, 5, 0, 1, 12, 0, 56603, "NaN", "NaN", "NaN", "NaN", "NaN"
+    callfunction 33, 5, 0, 1, 12, 0, 0, "NaN", "NaN", "NaN", "NaN", "NaN"
+
+
+    resetbg 11, 0x1000001
+    waitforchangebg
+
     waitstate
     end
+    
 
 .close

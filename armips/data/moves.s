@@ -8880,7 +8880,7 @@ movedata MOVE_BOLT_STRIKE, "Bolt Strike"
     effectchance 20
     target MOVE_TARGET_SELECTED
     priority 0
-    flags FLAG_KEEP_HP_BAR | FLAG_CONTACT | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
+    flags FLAG_CONTACT | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
@@ -8896,7 +8896,7 @@ movedata MOVE_BLUE_FLARE, "Blue Flare"
     effectchance 20
     target MOVE_TARGET_SELECTED
     priority 0
-    flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
+    flags FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
@@ -8992,7 +8992,7 @@ movedata MOVE_V_CREATE, "V-create"
     effectchance 100
     target MOVE_TARGET_SELECTED
     priority 0
-    flags FLAG_KEEP_HP_BAR | FLAG_CONTACT | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
+    flags FLAG_CONTACT | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
@@ -9008,7 +9008,7 @@ movedata MOVE_FUSION_FLARE, "Fusion Flare"
     effectchance 0
     target MOVE_TARGET_SELECTED
     priority 0
-    flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
+    flags FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
@@ -9024,7 +9024,7 @@ movedata MOVE_FUSION_BOLT, "Fusion Bolt"
     effectchance 0
     target MOVE_TARGET_SELECTED
     priority 0
-    flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
+    flags FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
@@ -9542,7 +9542,7 @@ movedata MOVE_DIAMOND_STORM, "Diamond Storm"
     effectchance 50
     target MOVE_TARGET_BOTH
     priority 0
-    flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
+    flags FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
@@ -9574,7 +9574,7 @@ movedata MOVE_HYPERSPACE_HOLE, "Hyperspace Hole"
     effectchance 0
     target MOVE_TARGET_SELECTED
     priority 0
-    flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
+    flags FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
@@ -9693,7 +9693,7 @@ movedata MOVE_POWDER, "Powder"
     movedescription MOVE_POWDER, "---"
 
 movedata MOVE_GEOMANCY, "Geomancy"
-    battleeffect MOVE_EFFECT_CHARGE_TURN_ATK_SP_ATK_SPEED_UP_2 
+    battleeffect MOVE_EFFECT_CHARGE_TURN_ATK_SP_ATK_SPEED_UP_2
     pss SPLIT_STATUS
     basepower 0
     type (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_NORMAL
@@ -9895,7 +9895,7 @@ movedata MOVE_OBLIVION_WING, "Oblivion Wing"
     effectchance 0
     target MOVE_TARGET_SELECTED
     priority 0
-    flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
+    flags FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
@@ -9927,7 +9927,7 @@ movedata MOVE_THOUSAND_WAVES, "Thousand Waves"
     effectchance 0
     target MOVE_TARGET_BOTH
     priority 0
-    flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
+    flags FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
@@ -9943,7 +9943,7 @@ movedata MOVE_LANDS_WRATH, "Land’s Wrath"
     effectchance 0
     target MOVE_TARGET_BOTH
     priority 0
-    flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
+    flags FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
@@ -10023,7 +10023,7 @@ movedata MOVE_HYPERSPACE_FURY, "Hyperspace Fury"
     effectchance 100
     target MOVE_TARGET_SELECTED
     priority 0
-    flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
+    flags FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
@@ -11083,7 +11083,7 @@ movedata MOVE_CORE_ENFORCER, "Core Enforcer"
     effectchance 0
     target MOVE_TARGET_BOTH
     priority 0
-    flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
+    flags FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
@@ -11372,7 +11372,7 @@ movedata MOVE_FLEUR_CANNON, "Fleur Cannon"
     effectchance 100
     target MOVE_TARGET_SELECTED
     priority 0
-    flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
+    flags FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
@@ -11468,7 +11468,7 @@ movedata MOVE_PRISMATIC_LASER, "Prismatic Laser"
     effectchance 0
     target MOVE_TARGET_SELECTED
     priority 0
-    flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
+    flags FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
@@ -11500,7 +11500,7 @@ movedata MOVE_SUNSTEEL_STRIKE, "Sunsteel Strike"
     effectchance 0
     target MOVE_TARGET_SELECTED
     priority 0
-    flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK | FLAG_CONTACT
+    flags FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
@@ -11516,7 +11516,7 @@ movedata MOVE_MOONGEIST_BEAM, "Moongeist Beam"
     effectchance 0
     target MOVE_TARGET_SELECTED
     priority 0
-    flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
+    flags FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
@@ -11565,7 +11565,7 @@ movedatalongname MOVE_NATURES_MADNESS, "Nature’sMadness", "Nature’s Madness"
     effectchance 0
     target MOVE_TARGET_SELECTED
     priority 0
-    flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
+    flags FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
@@ -11613,7 +11613,7 @@ movedata MOVE_MIND_BLOWN, "Mind Blown"
     effectchance 0
     target MOVE_TARGET_FOES_AND_ALLY
     priority 0
-    flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
+    flags FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
@@ -11645,13 +11645,13 @@ movedata MOVE_PHOTON_GEYSER, "Photon Geyser"
     effectchance 0
     target MOVE_TARGET_SELECTED
     priority 0
-    flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
+    flags FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
     movedescription MOVE_PHOTON_GEYSER, "---"
 
-movedatalongname MOVE_LIGHT_THAT_BURNS_THE_SKY, "Sky Burn Light", "Light That Burns the Sky"
+movedatalongname MOVE_LIGHT_THAT_BURNS_THE_SKY, "LightBurnSky", "Light That Burns the Sky"
     battleeffect MOVE_EFFECT_HIT
     pss SPLIT_SPECIAL
     basepower 200
@@ -11661,7 +11661,7 @@ movedatalongname MOVE_LIGHT_THAT_BURNS_THE_SKY, "Sky Burn Light", "Light That Bu
     effectchance 0
     target MOVE_TARGET_SELECTED
     priority 0
-    flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
+    flags FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
@@ -11924,7 +11924,7 @@ movedata MOVE_FREEZY_FROST, "Freezy Frost"
     movedescription MOVE_FREEZY_FROST, "---"
 
 movedata MOVE_SPARKLY_SWIRL, "Sparkly Swirl"
-    battleeffect MOVE_EFFECT_CURE_PARTY_STATUS_HIT 
+    battleeffect MOVE_EFFECT_CURE_PARTY_STATUS_HIT
     pss SPLIT_SPECIAL
     basepower 120
     type (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_NORMAL
@@ -11997,7 +11997,7 @@ movedata MOVE_DYNAMAX_CANNON, "Dynamax Cannon"
     effectchance 0
     target MOVE_TARGET_SELECTED
     priority 0
-    flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
+    flags FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
@@ -12574,7 +12574,7 @@ movedata MOVE_PYRO_BALL, "Pyro Ball"
     effectchance 10
     target MOVE_TARGET_SELECTED
     priority 0
-    flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
+    flags FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
@@ -12590,7 +12590,7 @@ movedata MOVE_BEHEMOTH_BLADE, "Behemoth Blade"
     effectchance 0
     target MOVE_TARGET_SELECTED
     priority 0
-    flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK | FLAG_CONTACT
+    flags FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
@@ -12814,7 +12814,7 @@ movedata MOVE_ETERNABEAM, "Eternabeam"
     effectchance 0
     target MOVE_TARGET_SELECTED
     priority 0
-    flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
+    flags FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
@@ -13231,7 +13231,7 @@ movedata MOVE_FREEZING_GLARE, "Freezing Glare"
     effectchance 10
     target MOVE_TARGET_SELECTED
     priority 0
-    flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
+    flags FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
@@ -13247,7 +13247,7 @@ movedata MOVE_FIERY_WRATH, "Fiery Wrath"
     effectchance 20
     target MOVE_TARGET_BOTH
     priority 0
-    flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
+    flags FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
@@ -13263,7 +13263,7 @@ movedata MOVE_THUNDEROUS_KICK, "Thunderous Kick"
     effectchance 100
     target MOVE_TARGET_SELECTED
     priority 0
-    flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK | FLAG_CONTACT
+    flags FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
@@ -13279,7 +13279,7 @@ movedata MOVE_GLACIAL_LANCE, "Glacial Lance"
     effectchance 0
     target MOVE_TARGET_BOTH
     priority 0
-    flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
+    flags FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
@@ -13295,7 +13295,7 @@ movedata MOVE_ASTRAL_BARRAGE, "Astral Barrage"
     effectchance 0
     target MOVE_TARGET_BOTH
     priority 0
-    flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
+    flags FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
@@ -13544,7 +13544,7 @@ movedata MOVE_ESPER_WING, "Esper Wing"
     movedescription MOVE_ESPER_WING, "---"
 
 movedata MOVE_BITTER_MALICE, "Bitter Malice"
-    battleeffect MOVE_EFFECT_LOWER_ATTACK_HIT 
+    battleeffect MOVE_EFFECT_LOWER_ATTACK_HIT
     pss SPLIT_SPECIAL
     basepower 75
     type TYPE_GHOST
@@ -13623,7 +13623,7 @@ movedata MOVE_CEASELESS_EDGE, "Ceaseless Edge"
     terminatedata
     movedescription MOVE_CEASELESS_EDGE, "---"
 
-movedata MOVE_BLEAKWIND_STORM, "Bleakwind Storm"
+movedatalongname MOVE_BLEAKWIND_STORM, "BleakwindStorm","Bleakwind Storm"
     battleeffect MOVE_EFFECT_LOWER_SPEED_HIT
     pss SPLIT_SPECIAL
     basepower 100
@@ -13633,13 +13633,13 @@ movedata MOVE_BLEAKWIND_STORM, "Bleakwind Storm"
     effectchance 30
     target MOVE_TARGET_BOTH
     priority 0
-    flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
+    flags FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
     movedescription MOVE_BLEAKWIND_STORM, "---"
 
-movedata MOVE_WILDBOLT_STORM, "Wildbolt Storm"
+movedatalongname MOVE_WILDBOLT_STORM, "WildboltStorm","Wildbolt Storm"
     battleeffect MOVE_EFFECT_PARALYZE_HIT
     pss SPLIT_SPECIAL
     basepower 100
@@ -13649,13 +13649,13 @@ movedata MOVE_WILDBOLT_STORM, "Wildbolt Storm"
     effectchance 30
     target MOVE_TARGET_BOTH
     priority 0
-    flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
+    flags FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
     movedescription MOVE_WILDBOLT_STORM, "---"
 
-movedata MOVE_SANDSEAR_STORM, "Sandsear Storm"
+movedatalongname MOVE_SANDSEAR_STORM, "SandsearStorm","Sandsear Storm"
     battleeffect MOVE_EFFECT_BURN_HIT
     pss SPLIT_SPECIAL
     basepower 100
@@ -13665,7 +13665,7 @@ movedata MOVE_SANDSEAR_STORM, "Sandsear Storm"
     effectchance 30
     target MOVE_TARGET_BOTH
     priority 0
-    flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
+    flags FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
@@ -14135,7 +14135,7 @@ movedata MOVE_RUINATION, "Ruination"
     terminatedata
     movedescription MOVE_RUINATION, "---"
 
-movedatalongname MOVE_COLLISION_COURSE, "CollisionCourse", "Collision Course"
+movedatalongname MOVE_COLLISION_COURSE, "ColisionCourse","Collision Course"
     battleeffect MOVE_EFFECT_HIT
     pss SPLIT_PHYSICAL
     basepower 100
@@ -14145,7 +14145,7 @@ movedatalongname MOVE_COLLISION_COURSE, "CollisionCourse", "Collision Course"
     effectchance 0
     target MOVE_TARGET_SELECTED
     priority 0
-    flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK | FLAG_CONTACT
+    flags FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
@@ -14161,7 +14161,7 @@ movedata MOVE_ELECTRO_DRIFT, "Electro Drift"
     effectchance 0
     target MOVE_TARGET_SELECTED
     priority 0
-    flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK | FLAG_CONTACT
+    flags FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
@@ -14340,7 +14340,7 @@ movedata MOVE_ARMOR_CANNON, "Armor Cannon"
     effectchance 0
     target MOVE_TARGET_SELECTED
     priority 0
-    flags FLAG_KEEP_HP_BAR | FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
+    flags FLAG_PROTECT | FLAG_MIRROR_MOVE | FLAG_KINGS_ROCK
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata

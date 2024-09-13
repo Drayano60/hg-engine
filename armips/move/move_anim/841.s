@@ -25,6 +25,7 @@ a010_841:
     loadspritemaybe 7, 0, 3, 3
     callfunction 78, 1, 0, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
     loadparticle 0, 475
+    loadparticle 1, 425
     waitstate
     unloadspriteresource
     resetsprite 0
@@ -42,6 +43,10 @@ a010_841:
     waitstate
     callfunction 68, 5, 4, 4, 0, 10, 0, "NaN", "NaN", "NaN", "NaN", "NaN"
     playsepan 1874, 117
+    addparticle 1, 3, 17
+    cmd37 6, 0, 2, 2, 0, 0, 0, "NaN", "NaN"
+    addparticle 1, 0, 17
+    cmd37 6, 0, 2, 2, 0, 0, 0, "NaN", "NaN"
     callfunction 36, 5, 2, 0, 1, 2, 264, "NaN", "NaN", "NaN", "NaN", "NaN"
     callfunction 57, 4, 4, -16, 8, 258, "NaN", "NaN", "NaN", "NaN", "NaN", "NaN"
     callfunction 34, 6, 8, 0, 1, 31, 14, 0, "NaN", "NaN", "NaN", "NaN"

@@ -1119,14 +1119,14 @@ _099C: // Trainer 113
     trainertextentry 113, TEXT_REMATCH_IN_OVERWORLD, "You get along really well with your\nPokémon, don’t you?\fCan you show me once more?\r"
 
 _09AC: // Trainer 411
-    trainertextentry 411, TEXT_NOTICE_IN_OVERWORLD, "Wow, look at all those Badges!\nI’m impressed.\rBut you’re not satisfied by just\ncollecting them, right?\r"
-    trainertextentry 411, TEXT_DEFEATED_IN_BATTLE, "Good battle!\n"
-    trainertextentry 411, TEXT_DEFEATED_IN_OVERWORLD, "People and Pokémon grow from\ntheir experiences.\rDon’t get lazy and complacent.\n"
+    trainertextentry 411, TEXT_NOTICE_IN_OVERWORLD, "Wow, look at all those Badges!\nBut, hey. I have a lot, too!\rI’ll show you the Bug-type Pokémon\nthat helped me get them!\r"
+    trainertextentry 411, TEXT_DEFEATED_IN_BATTLE, "Woah! Good battle!\n"
+    trainertextentry 411, TEXT_DEFEATED_IN_OVERWORLD, "Bug Catchers usually don’t get this far.\nI’m happy that I got here!"
 
 _09B8: // Trainer 413
     trainertextentry 413, TEXT_NOTICE_IN_OVERWORLD, "I’m feeling great today!\fI feel like I could even beat the\nLeague Champion!\r"
     trainertextentry 413, TEXT_DEFEATED_IN_BATTLE, "No!\nNot in this battle!\n"
-    trainertextentry 413, TEXT_DEFEATED_IN_OVERWORLD, "Just like in fishing, it’s all over in\nPokémon if you give up.\n"
+    trainertextentry 413, TEXT_DEFEATED_IN_OVERWORLD, "Just like in hiking, it’s all over in\nPokémon if you give up.\n"
 
 _09C4: // Trainer 414
     trainertextentry 414, TEXT_NOTICE_IN_OVERWORLD, "Tweet! Tweet!\nTet-weet!\r"
@@ -3408,9 +3408,9 @@ _Trainer521:
     trainertextentry 521, TEXT_DEFEATED_IN_OVERWORLD, "We heard a rumor that a powerful\nPokémon was lurking in this cave.\rIt turned out to be true.\rAnd when Team Rocket capture it,\nwe’ll be unstoppable!"
 
 _Trainer524:
-    trainertextentry 524, TEXT_NOTICE_IN_OVERWORLD, "524-Encounter"
-    trainertextentry 524, TEXT_DEFEATED_IN_BATTLE, "524-Defeat"
-    trainertextentry 524, TEXT_DEFEATED_IN_OVERWORLD, "524-Afterwards"
+    trainertextentry 524, TEXT_NOTICE_IN_OVERWORLD, "Don’t you think my Pokémon and I\nare beautiful?\r"
+    trainertextentry 524, TEXT_DEFEATED_IN_BATTLE, "We drink Moomoo Milk every day."
+    trainertextentry 524, TEXT_DEFEATED_IN_OVERWORLD, "Moomoo Milk is good for your beauty\nand health.\rConveniently, you can buy a dozen\nbottles at a time!"
 
 _Trainer526:
     trainertextentry 526, TEXT_NOTICE_IN_OVERWORLD, "526-Encounter"

@@ -296,6 +296,9 @@ export default {
         "pansage",
         "simisage",
     ],
+    psybeam: [
+        "abra",
+    ],
     psychicfangs: [
         "raticate", // HOME
         "spinarak",

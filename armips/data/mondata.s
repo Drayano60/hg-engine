@@ -2341,7 +2341,7 @@ mondata SPECIES_ONIX, "Onix"
     mondexweight SPECIES_ONIX, "463.0 lbs."
 
 
-// ABILITY: Insomnia (2)
+// ABILITY: Inner Focus (2), Bad Dreams (HA)
 mondata SPECIES_DROWZEE, "Drowzee"
     basestats 60, 48, 45, 42, 43, 90
     types TYPE_PSYCHIC, TYPE_PSYCHIC
@@ -2355,7 +2355,7 @@ mondata SPECIES_DROWZEE, "Drowzee"
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_HUMAN_LIKE, EGG_GROUP_HUMAN_LIKE
     .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_INSOMNIA, ABILITY_INSOMNIA
+        abilities ABILITY_INSOMNIA, ABILITY_INNER_FOCUS
     .else
         abilities ABILITY_INSOMNIA, ABILITY_FOREWARN
     .endif
@@ -2367,7 +2367,7 @@ mondata SPECIES_DROWZEE, "Drowzee"
     mondexweight SPECIES_DROWZEE, "71.4 lbs."
 
 
-// ABILITY: Insomnia (2), Psychic Surge (HA)
+// ABILITY: Inner Focus (2), Bad Dreams (HA)
 mondata SPECIES_HYPNO, "Hypno"
     basestats 85, 73, 70, 67, 73, 115
     types TYPE_PSYCHIC, TYPE_PSYCHIC
@@ -2381,7 +2381,7 @@ mondata SPECIES_HYPNO, "Hypno"
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_HUMAN_LIKE, EGG_GROUP_HUMAN_LIKE
     .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_INSOMNIA, ABILITY_INSOMNIA
+        abilities ABILITY_INSOMNIA, ABILITY_INNER_FOCUS
     .else
         abilities ABILITY_INSOMNIA, ABILITY_FOREWARN
     .endif
@@ -2435,6 +2435,7 @@ mondata SPECIES_KINGLER, "Kingler"
     mondexweight SPECIES_KINGLER, "132.3 lbs."
 
 
+// ABILITY: Aftermath (1), Galvanize (HA)
 mondata SPECIES_VOLTORB, "Voltorb"
     basestats 40, 30, 50, 100, 55, 55
     types TYPE_ELECTRIC, TYPE_ELECTRIC
@@ -2447,7 +2448,11 @@ mondata SPECIES_VOLTORB, "Voltorb"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MINERAL, EGG_GROUP_MINERAL
-    abilities ABILITY_SOUNDPROOF, ABILITY_STATIC
+    .if ABILITY_CHANGES_IMPLEMENTED
+        abilities ABILITY_AFTERMATH, ABILITY_STATIC
+    .else
+        abilities ABILITY_SOUNDPROOF, ABILITY_STATIC
+    .endif
     runchance 25
     colorflip BODY_COLOR_RED, 0
     mondexentry SPECIES_VOLTORB, "It rolls to move. If the ground is\nuneven, a sudden jolt from hitting\na bump can cause it to explode."
@@ -2456,7 +2461,7 @@ mondata SPECIES_VOLTORB, "Voltorb"
     mondexweight SPECIES_VOLTORB, "22.9 lbs."
 
 
-// ABILITY: Electric Surge (HA)
+// ABILITY: Aftermath (1), Galvanize (HA)
 mondata SPECIES_ELECTRODE, "Electrode"
     basestats 60, 50, 70, 150, 80, 80
     types TYPE_ELECTRIC, TYPE_ELECTRIC
@@ -2469,7 +2474,11 @@ mondata SPECIES_ELECTRODE, "Electrode"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MINERAL, EGG_GROUP_MINERAL
-    abilities ABILITY_SOUNDPROOF, ABILITY_STATIC
+    .if ABILITY_CHANGES_IMPLEMENTED
+        abilities ABILITY_AFTERMATH, ABILITY_STATIC
+    .else
+        abilities ABILITY_SOUNDPROOF, ABILITY_STATIC
+    .endif
     runchance 25
     colorflip BODY_COLOR_RED, 0
     mondexentry SPECIES_ELECTRODE, "It is dangerous. If it has too much\nelectricity and has nothing to do,\nit amuses itself by exploding."
@@ -4417,7 +4426,7 @@ mondata SPECIES_AMPHAROS, "Ampharos"
 
 
 // TYPES: Grass >> Grass/Fairy
-// ABILITY: Rhythmic (2, New), Grassy Surge (HA)
+// ABILITY: Own Tempo (2), Rhythmic (HA, New)
 mondata SPECIES_BELLOSSOM, "Bellossom"
     basestats 75, 80, 95, 50, 90, 100
     .if TYPE_CHANGES_IMPLEMENTED
@@ -4435,7 +4444,7 @@ mondata SPECIES_BELLOSSOM, "Bellossom"
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_GRASS, EGG_GROUP_GRASS
     .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_CHLOROPHYLL, ABILITY_RHYTHMIC
+        abilities ABILITY_CHLOROPHYLL, ABILITY_OWN_TEMPO
     .else
         abilities ABILITY_CHLOROPHYLL, ABILITY_NONE
     .endif
@@ -4546,11 +4555,11 @@ mondata SPECIES_POLITOED, "Politoed"
     mondexweight SPECIES_POLITOED, "74.7 lbs."
 
 
-// STATS: 35 >> 45 Atk | 40 >> 45 Def | 55 >> 65 SpDef | 50 >> 60 Speed | 250 >> 285 BST
+// STATS: 35 >> 45 Atk | 40 >> 50 Def | 35 >> 45 SpAtk | 55 >> 65 SpDef | 50 >> 60 Speed | 250 >> 300 BST
 // ABILITY: Wind Rider (2), Leaf Guard (HA)
 mondata SPECIES_HOPPIP, "Hoppip"
     .if STAT_CHANGES_IMPLEMENTED
-        basestats 35, 45, 45, 60, 35, 65
+        basestats 35, 45, 50, 60, 45, 65
     .else
         basestats 35, 35, 40, 50, 35, 55
     .endif
@@ -4577,11 +4586,11 @@ mondata SPECIES_HOPPIP, "Hoppip"
     mondexweight SPECIES_HOPPIP, "1.1 lbs."
 
 
-// STATS: 45 >> 55 Atk | 50 >> 50 Def | 65 >> 75 SpDef | 80 >> 90 Speed | 340 >> 375 BST
+// STATS: 45 >> 55 Atk | 50 >> 60 Def | 45 >> 55 SpAtk | 65 >> 75 SpDef | 80 >> 90 Speed | 340 >> 390 BST
 // ABILITY: Wind Rider (2), Leaf Guard (HA)
 mondata SPECIES_SKIPLOOM, "Skiploom"
     .if STAT_CHANGES_IMPLEMENTED
-        basestats 55, 55, 55, 90, 45, 75
+        basestats 55, 55, 60, 90, 55, 75
     .else
         basestats 55, 45, 50, 80, 45, 65
     .endif
@@ -4608,11 +4617,11 @@ mondata SPECIES_SKIPLOOM, "Skiploom"
     mondexweight SPECIES_SKIPLOOM, "2.2 lbs."
 
 
-// STATS: 55 >> 75 Atk | 70 >> 75 Def | 460 >> 485 BST
-// ABILITY: Wind Rider (2), Cotton Guard (HA)
+// STATS: 55 >> 65 Atk | 55 >> 65 SpAtk | 460 >> 480 BST
+// ABILITY: Wind Rider (2), Cotton Down (HA)
 mondata SPECIES_JUMPLUFF, "Jumpluff"
     .if STAT_CHANGES_IMPLEMENTED
-        basestats 75, 75, 75, 110, 55, 95
+        basestats 75, 65, 70, 110, 65, 95
     .else
         basestats 75, 55, 70, 110, 55, 95
     .endif
@@ -5300,7 +5309,6 @@ mondata SPECIES_URSARING, "Ursaring"
 
 
 // STATS: 40 >> 50 HP | 40 >> 50 Def | 40 >> 50 SpDef | 250 >> 280 BST
-// ABILITY: Magma Skin (1, 2) [New]
 mondata SPECIES_SLUGMA, "Slugma"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 50, 40, 50, 20, 70, 50
@@ -5317,11 +5325,7 @@ mondata SPECIES_SLUGMA, "Slugma"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_AMORPHOUS, EGG_GROUP_AMORPHOUS
-    .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_MAGMA_SKIN, ABILITY_NONE
-    .else
-        abilities ABILITY_MAGMA_ARMOR, ABILITY_FLAME_BODY
-    .endif
+    abilities ABILITY_MAGMA_ARMOR, ABILITY_FLAME_BODY
     runchance 25
     colorflip BODY_COLOR_RED, 0
     mondexentry SPECIES_SLUGMA, "It never sleeps. It has to keep\nmoving because if it stopped, its\nmagma body would cool and harden."
@@ -5331,7 +5335,6 @@ mondata SPECIES_SLUGMA, "Slugma"
 
 
 // STATS: 90 >> 110 SpAtk | 430 >> 450 BST
-// ABILITY: Magma Skin (1, 2) [New]
 mondata SPECIES_MAGCARGO, "Magcargo"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 60, 50, 120, 30, 110, 80
@@ -5348,11 +5351,7 @@ mondata SPECIES_MAGCARGO, "Magcargo"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_AMORPHOUS, EGG_GROUP_AMORPHOUS
-    .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_MAGMA_SKIN, ABILITY_NONE
-    .else
-        abilities ABILITY_MAGMA_ARMOR, ABILITY_FLAME_BODY
-    .endif
+    abilities ABILITY_MAGMA_ARMOR, ABILITY_FLAME_BODY
     runchance 25
     colorflip BODY_COLOR_RED, 0
     mondexentry SPECIES_MAGCARGO, "The shell on its back is just skin\nthat has cooled and hardened. It\nbreaks easily with a slight touch."
@@ -13665,7 +13664,7 @@ mondata SPECIES_SIMIPOUR, "Simipour"
     mondexweight SPECIES_SIMIPOUR, "63.9 lbs."
 
 
-// ABILITY: Levitate (1)
+// ABILITY: Levitate (1, 2)
 mondata SPECIES_MUNNA, "Munna"
     basestats 76, 25, 45, 24, 67, 55
     types TYPE_PSYCHIC, TYPE_PSYCHIC
@@ -13679,7 +13678,7 @@ mondata SPECIES_MUNNA, "Munna"
     growthrate GROWTH_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_LEVITATE, ABILITY_SYNCHRONIZE
+        abilities ABILITY_LEVITATE, ABILITY_LEVITATE
     .else
         abilities ABILITY_FOREWARN, ABILITY_SYNCHRONIZE
     .endif
@@ -13691,7 +13690,7 @@ mondata SPECIES_MUNNA, "Munna"
     mondexweight SPECIES_MUNNA, "51.4 lbs."
 
 
-// ABILITY: Levitate (1), Misty Surge (HA)
+// ABILITY: Levitate (1, 2)
 // TYPES: Psychic >> Psychic/Fairy
 mondata SPECIES_MUSHARNA, "Musharna"
     basestats 116, 55, 85, 29, 107, 95
@@ -13710,7 +13709,7 @@ mondata SPECIES_MUSHARNA, "Musharna"
     growthrate GROWTH_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
     .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_LEVITATE, ABILITY_SYNCHRONIZE
+        abilities ABILITY_LEVITATE, ABILITY_LEVITATE
     .else
         abilities ABILITY_FOREWARN, ABILITY_SYNCHRONIZE
     .endif
@@ -18091,7 +18090,7 @@ mondata SPECIES_AVALUGG, "Avalugg"
     mondexweight SPECIES_AVALUGG, "1113.3 lbs."
 
 
-// ABILITY: Cacophony (1, New), No Guard (HA)
+// ABILITY: Echolocation (HA, New)
 mondata SPECIES_NOIBAT, "Noibat"
     basestats 40, 30, 35, 55, 45, 40
     types TYPE_FLYING, TYPE_DRAGON
@@ -18104,11 +18103,7 @@ mondata SPECIES_NOIBAT, "Noibat"
     basefriendship 70 // raised up again
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FLYING, EGG_GROUP_DRAGON
-    .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_CACOPHONY, ABILITY_INFILTRATOR
-    .else
-        abilities ABILITY_FRISK, ABILITY_INFILTRATOR
-    .endif
+    abilities ABILITY_FRISK, ABILITY_INFILTRATOR
     runchance 25
     colorflip BODY_COLOR_PURPLE, 0
     mondexentry SPECIES_NOIBAT, "They live in pitch black caves. Their\nenormous ears can emit ultrasonic waves\nof 200,000 hertz."
@@ -18117,7 +18112,7 @@ mondata SPECIES_NOIBAT, "Noibat"
     mondexweight SPECIES_NOIBAT, "17.6 lbs."
 
 
-// ABILITY: Cacophony (1, New), No Guard (HA)
+// ABILITY: Echolocation (HA, New)
 mondata SPECIES_NOIVERN, "Noivern"
     basestats 85, 70, 80, 123, 97, 80
     types TYPE_FLYING, TYPE_DRAGON
@@ -18130,11 +18125,7 @@ mondata SPECIES_NOIVERN, "Noivern"
     basefriendship 70 // raised up again
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FLYING, EGG_GROUP_DRAGON
-    .if ABILITY_CHANGES_IMPLEMENTED
-        abilities ABILITY_CACOPHONY, ABILITY_INFILTRATOR
-    .else
-        abilities ABILITY_FRISK, ABILITY_INFILTRATOR
-    .endif
+    abilities ABILITY_FRISK, ABILITY_INFILTRATOR
     runchance 25
     colorflip BODY_COLOR_PURPLE, 0
     mondexentry SPECIES_NOIVERN, "This hot-blooded Pokémon attacks\nanything it sees with ultrasonic waves\nthat can crush boulders."
@@ -26086,6 +26077,7 @@ mondata SPECIES_MEOWTH_GALARIAN, "-----"
     colorflip BODY_COLOR_BROWN, 0
     
 
+// ABILITY: Natural Cure (HA)
 mondata SPECIES_PONYTA_GALARIAN, "-----"
     basestats 50, 85, 55, 90, 65, 65
     types TYPE_PSYCHIC, TYPE_PSYCHIC
@@ -26104,7 +26096,7 @@ mondata SPECIES_PONYTA_GALARIAN, "-----"
 
 
 // STATS: 105 >> 125 Speed | 500 >> 520 BST
-// ABILITY: Misty Surge (HA)
+// ABILITY: Natural Cure (HA)
 mondata SPECIES_RAPIDASH_GALARIAN, "-----"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 65, 100, 70, 125, 80, 80
@@ -29137,6 +29129,7 @@ mondata SPECIES_ARCANINE_HISUIAN, "-----"
     colorflip BODY_COLOR_BROWN, 0
     
 
+// ABILITY: Aftermath (1), Galvanize (HA)
 mondata SPECIES_VOLTORB_HISUIAN, "-----"
     basestats 40, 30, 50, 100, 55, 55
     types TYPE_ELECTRIC, TYPE_GRASS
@@ -29149,12 +29142,16 @@ mondata SPECIES_VOLTORB_HISUIAN, "-----"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MINERAL, EGG_GROUP_MINERAL
-    abilities ABILITY_SOUNDPROOF, ABILITY_STATIC
+    .if ABILITY_CHANGES_IMPLEMENTED
+        abilities ABILITY_AFTERMATH, ABILITY_STATIC
+    .else
+        abilities ABILITY_SOUNDPROOF, ABILITY_STATIC
+    .endif
     runchance 25
     colorflip BODY_COLOR_RED, 0
     
 
-// ABILITY: Grassy Surge (HA)
+// ABILITY: Aftermath (1), Galvanize (HA)
 mondata SPECIES_ELECTRODE_HISUIAN, "-----"
     basestats 60, 50, 70, 150, 80, 80
     types TYPE_ELECTRIC, TYPE_GRASS
@@ -29167,7 +29164,11 @@ mondata SPECIES_ELECTRODE_HISUIAN, "-----"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_MINERAL, EGG_GROUP_MINERAL
-    abilities ABILITY_SOUNDPROOF, ABILITY_STATIC
+    .if ABILITY_CHANGES_IMPLEMENTED
+        abilities ABILITY_AFTERMATH, ABILITY_STATIC
+    .else
+        abilities ABILITY_SOUNDPROOF, ABILITY_STATIC
+    .endif
     runchance 25
     colorflip BODY_COLOR_RED, 0
     

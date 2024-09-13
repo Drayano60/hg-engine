@@ -150,19 +150,13 @@ mondata SPECIES_CHARMELEON, "Charmeleon"
 
 
 // STATS: 84 >> 94 Atk | 78 >> 73 Def | 85 >> 80 SpDef
-// TYPES: Fire/Flying >> Fire/Dragon
-// ABILITY: Solar Power (2), Tough Claws (HA)
 mondata SPECIES_CHARIZARD, "Charizard"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 78, 84, 78, 100, 109, 85
     .else
         basestats 78, 84, 78, 100, 109, 85
     .endif
-    .if TYPE_CHANGES_IMPLEMENTED
-        types TYPE_FIRE, TYPE_DRAGON
-    .else
-        types TYPE_FIRE, TYPE_FLYING
-    .endif
+    types TYPE_FIRE, TYPE_FLYING
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 3, 0
@@ -1354,15 +1348,10 @@ mondata SPECIES_PERSIAN, "Persian"
     mondexweight SPECIES_PERSIAN, "70.5 lbs."
 
 
-// TYPES: Water >> Water/Psychic
 // ABILITY: Unaware (HA)
 mondata SPECIES_PSYDUCK, "Psyduck"
     basestats 50, 52, 48, 55, 65, 50
-    .if TYPE_CHANGES_IMPLEMENTED
-        types TYPE_WATER, TYPE_PSYCHIC
-    .else
-        types TYPE_WATER, TYPE_WATER
-    .endif
+    types TYPE_WATER, TYPE_WATER
     catchrate 190
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 1, 0
@@ -1382,7 +1371,6 @@ mondata SPECIES_PSYDUCK, "Psyduck"
 
 
 // STATS: 95 >> 105 SpAtk | 85 >> 95 Speed | 500 BST >> 520 BST
-// TYPES: Water >> Water/Psychic
 // ABILITY: Swift Swim (1), Odd Power (HA, New)
 mondata SPECIES_GOLDUCK, "Golduck"
     .if STAT_CHANGES_IMPLEMENTED
@@ -1390,11 +1378,7 @@ mondata SPECIES_GOLDUCK, "Golduck"
     .else
         basestats 80, 82, 78, 85, 95, 80
     .endif
-    .if TYPE_CHANGES_IMPLEMENTED
-        types TYPE_WATER, TYPE_PSYCHIC
-    .else
-        types TYPE_WATER, TYPE_WATER
-    .endif
+    types TYPE_WATER, TYPE_WATER
     catchrate 75
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 2, 0
@@ -2016,18 +2000,13 @@ mondata SPECIES_MAGNETON, "Magneton"
 
 
 // STATS: 60 >> 90 Speed | 377 >> 407 BST
-// TYPES: Normal/Flying >> Fighting/Flying
 mondata SPECIES_FARFETCHD, "Farfetch’d"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 52, 90, 55, 90, 58, 62
     .else
         basestats 52, 90, 55, 60, 58, 62
     .endif
-    .if TYPE_CHANGES_IMPLEMENTED
-        types TYPE_FIGHTING, TYPE_FLYING
-    .else
-        types TYPE_NORMAL, TYPE_FLYING
-    .endif
+    types TYPE_NORMAL, TYPE_FLYING
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 1, 0, 0, 0, 0
@@ -3689,14 +3668,14 @@ mondata SPECIES_BAYLEEF, "Bayleef"
     mondexweight SPECIES_BAYLEEF, "34.8 lbs."
 
 
-// STATS: 83 >> 88 SpAtk | 525 >> 530 BST
+// STATS: 80 >> 85 HP SpAtk | 525 >> 530 BST
 // TYPES: Grass >> Grass/Fairy
 // ABILITY: Sweet Aroma (HA, New)
 mondata SPECIES_MEGANIUM, "Meganium"
     .if STAT_CHANGES_IMPLEMENTED
-        basestats 80, 82, 100, 80, 88, 100
-    .else
         basestats 80, 82, 100, 80, 83, 100
+    .else
+        basestats 85, 82, 100, 80, 83, 100
     .endif
     .if TYPE_CHANGES_IMPLEMENTED
         types TYPE_GRASS, TYPE_FAIRY
@@ -3920,18 +3899,13 @@ mondata SPECIES_FURRET, "Furret"
 
 
 // STATS: 36 >> 46 SpAtk | 262 >> 272 BST
-// TYPES: Normal/Flying >> Psychic/Flying
 mondata SPECIES_HOOTHOOT, "Hoothoot"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 60, 30, 30, 50, 46, 56
     .else
         basestats 60, 30, 30, 50, 36, 56
     .endif
-    .if TYPE_CHANGES_IMPLEMENTED
-        types TYPE_PSYCHIC, TYPE_FLYING
-    .else
-        types TYPE_NORMAL, TYPE_FLYING
-    .endif
+    types TYPE_NORMAL, TYPE_FLYING
     catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 1, 0, 0, 0, 0, 0
@@ -3951,18 +3925,13 @@ mondata SPECIES_HOOTHOOT, "Hoothoot"
 
 
 // STATS: 86 >> 96 SpAtk | 70 >> 80 Speed | 452 >> 472 BST
-// TYPES: Normal/Flying >> Psychic/Flying
 mondata SPECIES_NOCTOWL, "Noctowl"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 100, 50, 50, 70, 96, 96
     .else
         basestats 100, 50, 50, 70, 86, 96
     .endif
-    .if TYPE_CHANGES_IMPLEMENTED
-        types TYPE_PSYCHIC, TYPE_FLYING
-    .else
-        types TYPE_NORMAL, TYPE_FLYING
-    .endif
+    types TYPE_NORMAL, TYPE_FLYING
     catchrate 90
     baseexp 0 // defined in baseexp.s
     evyields 2, 0, 0, 0, 0, 0
@@ -4013,7 +3982,6 @@ mondata SPECIES_LEDYBA, "Ledyba"
 
 
 // STATS: 35 >> 80 Atk | 85 >> 100 Speed | 390 >> 450 BST
-// TYPES: Bug/Flying >> Bug/Fighting
 // ABILITY: Iron Fist (2), Aerilate (HA)
 mondata SPECIES_LEDIAN, "Ledian"
     .if STAT_CHANGES_IMPLEMENTED
@@ -4021,11 +3989,7 @@ mondata SPECIES_LEDIAN, "Ledian"
     .else
         basestats 55, 35, 50, 85, 55, 110
     .endif
-    .if TYPE_CHANGES_IMPLEMENTED
-        types TYPE_BUG, TYPE_FIGHTING
-    .else
-        types TYPE_BUG, TYPE_FLYING
-    .endif
+    types TYPE_BUG, TYPE_FLYING
     catchrate 90
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 0, 2
@@ -4398,11 +4362,7 @@ mondata SPECIES_AMPHAROS, "Ampharos"
     .else
         basestats 90, 75, 85, 55, 115, 90
     .endif
-    .if TYPE_CHANGES_IMPLEMENTED
-        types TYPE_ELECTRIC, TYPE_DRAGON
-    .else
-        types TYPE_ELECTRIC, TYPE_ELECTRIC
-    .endif
+    types TYPE_ELECTRIC, TYPE_ELECTRIC
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 3, 0
@@ -4425,15 +4385,10 @@ mondata SPECIES_AMPHAROS, "Ampharos"
     mondexweight SPECIES_AMPHAROS, "135.6 lbs."
 
 
-// TYPES: Grass >> Grass/Fairy
 // ABILITY: Own Tempo (2), Rhythmic (HA, New)
 mondata SPECIES_BELLOSSOM, "Bellossom"
     basestats 75, 80, 95, 50, 90, 100
-    .if TYPE_CHANGES_IMPLEMENTED
-        types TYPE_GRASS, TYPE_FAIRY
-    .else
-        types TYPE_GRASS, TYPE_GRASS
-    .endif
+    types TYPE_GRASS, TYPE_GRASS
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 0, 3
@@ -6157,7 +6112,6 @@ mondata SPECIES_GROVYLE, "Grovyle"
 
 
 // STATS: 85 >> 100 Atk | 65 >> 60 Def | 85 >> 75 SpDef | 530 >> 530 BST
-// TYPES: Grass >> Grass/Dragon
 // ABILITY: Sharpness (HA)
 mondata SPECIES_SCEPTILE, "Sceptile"
     .if STAT_CHANGES_IMPLEMENTED
@@ -6165,11 +6119,7 @@ mondata SPECIES_SCEPTILE, "Sceptile"
     .else
         basestats 70, 85, 65, 120, 105, 85
     .endif
-    .if TYPE_CHANGES_IMPLEMENTED
-        types TYPE_GRASS, TYPE_DRAGON
-    .else
-        types TYPE_GRASS, TYPE_GRASS
-    .endif
+    types TYPE_GRASS, TYPE_GRASS
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 3, 0, 0
@@ -6874,7 +6824,6 @@ mondata SPECIES_SURSKIT, "Surskit"
 
 
 // STATS: 60 >> 50 Atk | 80 >> 90 Spd
-// TYPES: Bug/Flying >> Bug/Water
 // ABILITY: Aqua Adept (HA, New)
 mondata SPECIES_MASQUERAIN, "Masquerain"
     .if STAT_CHANGES_IMPLEMENTED
@@ -6882,11 +6831,7 @@ mondata SPECIES_MASQUERAIN, "Masquerain"
     .else
         basestats 70, 60, 62, 80, 100, 82
     .endif
-    .if TYPE_CHANGES_IMPLEMENTED
-        types TYPE_BUG, TYPE_WATER
-    .else
-        types TYPE_BUG, TYPE_FLYING
-    .endif
+    types TYPE_BUG, TYPE_FLYING
     catchrate 75
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 1, 1
@@ -7291,7 +7236,6 @@ mondata SPECIES_SKITTY, "Skitty"
 
 
 // STATS: 65 >> 75 Atk | 65 >> 75 Def | 55 >> 65 SpAtk | 55 >> 65 SpDef | 90 >> 100 Spd | 400 >> 450 BST
-// TYPES: Normal >> Normal/Fairy
 // ABILITY: Quick Paw (HA, New)
 mondata SPECIES_DELCATTY, "Delcatty"
     .if STAT_CHANGES_IMPLEMENTED
@@ -7299,11 +7243,7 @@ mondata SPECIES_DELCATTY, "Delcatty"
     .else
         basestats 70, 65, 65, 90, 55, 55
     .endif
-    .if TYPE_CHANGES_IMPLEMENTED
-        types TYPE_NORMAL, TYPE_FAIRY
-    .else
-        types TYPE_NORMAL, TYPE_NORMAL
-    .endif
+    types TYPE_NORMAL, TYPE_NORMAL
     catchrate 60
     baseexp 0 // defined in baseexp.s
     evyields 1, 0, 0, 1, 0, 0
@@ -7613,11 +7553,11 @@ mondata SPECIES_MINUN, "Minun"
     mondexweight SPECIES_MINUN, "9.3 lbs."
 
 
-// STATS: 73 >> 83 Atk | 75 >> 85 Def | 85 >> 95 Spd | 430 >> 460 BST
+// STATS: 73 >> 47 Atk | 75 >> 85 Def | 47 >> 83 SpAtk | 85 >> 95 Spd | 430 >> 460 BST
 // TYPES: Bug >> Bug/Electric
 mondata SPECIES_VOLBEAT, "Volbeat"
     .if STAT_CHANGES_IMPLEMENTED
-        basestats 65, 83, 85, 95, 47, 95
+        basestats 65, 47, 85, 95, 83, 95
     .else
         basestats 65, 73, 75, 85, 47, 85
     .endif
@@ -8000,14 +7940,9 @@ mondata SPECIES_SPINDA, "Spinda"
     mondexweight SPECIES_SPINDA, "11.0 lbs."
 
 
-// TYPES: Ground >> Bug/Ground
 mondata SPECIES_TRAPINCH, "Trapinch"
     basestats 45, 100, 45, 10, 45, 45
-    .if TYPE_CHANGES_IMPLEMENTED
-        types TYPE_BUG, TYPE_GROUND
-    .else
-        types TYPE_GROUND, TYPE_GROUND
-    .endif
+    types TYPE_GROUND, TYPE_GROUND
     catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 0, 1, 0, 0, 0, 0
@@ -8027,7 +7962,6 @@ mondata SPECIES_TRAPINCH, "Trapinch"
 
 
 // STATS: 50 >> 70 SpAtk | 340 >> 360 BST
-// TYPES: Ground/Dragon >> Bug/Dragon
 // ABILITY: Tinted Lens (2), Sand Veil (HA)
 mondata SPECIES_VIBRAVA, "Vibrava"
     .if STAT_CHANGES_IMPLEMENTED
@@ -8035,11 +7969,7 @@ mondata SPECIES_VIBRAVA, "Vibrava"
     .else
         basestats 50, 70, 50, 70, 50, 50
     .endif
-    .if TYPE_CHANGES_IMPLEMENTED
-        types TYPE_BUG, TYPE_DRAGON
-    .else
-        types TYPE_GROUND, TYPE_DRAGON
-    .endif
+    types TYPE_GROUND, TYPE_DRAGON
     catchrate 120
     baseexp 0 // defined in baseexp.s
     evyields 0, 1, 0, 1, 0, 0
@@ -8063,7 +7993,6 @@ mondata SPECIES_VIBRAVA, "Vibrava"
 
 
 // STATS: 80 >> 100 SpAtk | 520 >> 540 BST
-// TYPES: Ground/Dragon >> Bug/Dragon
 // ABILITY: Tinted Lens (2), Sand Stream (HA)
 mondata SPECIES_FLYGON, "Flygon"
     .if STAT_CHANGES_IMPLEMENTED
@@ -8071,11 +8000,7 @@ mondata SPECIES_FLYGON, "Flygon"
     .else
         basestats 80, 100, 80, 100, 80, 80
     .endif
-    .if TYPE_CHANGES_IMPLEMENTED
-        types TYPE_BUG, TYPE_DRAGON
-    .else
-        types TYPE_GROUND, TYPE_DRAGON
-    .endif
+    types TYPE_GROUND, TYPE_DRAGON
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 1, 0, 2, 0, 0
@@ -8187,7 +8112,6 @@ mondata SPECIES_SWABLU, "Swablu"
 
 
 // STATS: 70 >> 80 Atk | 90 >> 100 Def | 70 >> 80 SpAtk | 490 >> 520 BST
-// TYPES: Dragon/Flying >> Dragon/Fairy
 // ABILITY: Cloud Nine (2), Fluffy (HA)
 mondata SPECIES_ALTARIA, "Altaria"
     .if STAT_CHANGES_IMPLEMENTED
@@ -8195,11 +8119,7 @@ mondata SPECIES_ALTARIA, "Altaria"
     .else
         basestats 75, 70, 90, 80, 70, 105
     .endif
-    .if TYPE_CHANGES_IMPLEMENTED
-        types TYPE_DRAGON, TYPE_FAIRY
-    .else
-        types TYPE_DRAGON, TYPE_FLYING
-    .endif
+    types TYPE_DRAGON, TYPE_FLYING
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 0, 2
@@ -8254,7 +8174,6 @@ mondata SPECIES_ZANGOOSE, "Zangoose"
 
 
 // STATS: 65 >> 80 Speed | 458 >> 473 BST
-// TYPES: Poison >> Poison/Dark
 // ABILITY: Infiltrator (2), Sharpness (HA)
 mondata SPECIES_SEVIPER, "Seviper"
     .if STAT_CHANGES_IMPLEMENTED
@@ -8262,11 +8181,7 @@ mondata SPECIES_SEVIPER, "Seviper"
     .else
         basestats 73, 100, 60, 65, 100, 60
     .endif
-    .if TYPE_CHANGES_IMPLEMENTED
-        types TYPE_POISON, TYPE_DARK
-    .else
-        types TYPE_POISON, TYPE_POISON
-    .endif
+    types TYPE_POISON, TYPE_POISON
     catchrate 90
     baseexp 0 // defined in baseexp.s
     evyields 0, 1, 0, 0, 1, 0
@@ -8609,14 +8524,9 @@ mondata SPECIES_FEEBAS, "Feebas"
     mondexweight SPECIES_FEEBAS, "16.3 lbs."
 
 
-// TYPES: Water >> Water/Fairy
 mondata SPECIES_MILOTIC, "Milotic"
     basestats 95, 60, 79, 81, 100, 125
-    .if TYPE_CHANGES_IMPLEMENTED
-        types TYPE_WATER, TYPE_FAIRY
-    .else
-        types TYPE_WATER, TYPE_WATER
-    .endif
+    types TYPE_WATER, TYPE_WATER
     catchrate 60
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 0, 2
@@ -8903,7 +8813,6 @@ mondata SPECIES_SNORUNT, "Snorunt"
 
 
 // STATS: 80 >> 100 Atk | 480 >> 500 BST
-// TYPES: Ice >> Ice/Rock
 // ABILITY: Levitate (1)
 mondata SPECIES_GLALIE, "Glalie"
     .if STAT_CHANGES_IMPLEMENTED
@@ -8911,11 +8820,7 @@ mondata SPECIES_GLALIE, "Glalie"
     .else
         basestats 80, 80, 80, 80, 80, 80
     .endif
-    .if TYPE_CHANGES_IMPLEMENTED
-        types TYPE_ICE, TYPE_ROCK
-    .else
-        types TYPE_ICE, TYPE_ICE
-    .endif
+    types TYPE_ICE, TYPE_ICE
     catchrate 75
     baseexp 0 // defined in baseexp.s
     evyields 2, 0, 0, 0, 0, 0
@@ -10469,7 +10374,6 @@ mondata SPECIES_BUNEARY, "Buneary"
 
 
 // STATS: 76 >> 96 Atk | 480 >> 500 BST
-// TYPES: Normal >> Normal/Fighting
 // ABILITY: Limber (2), Fluffy (HA)
 mondata SPECIES_LOPUNNY, "Lopunny"
     .if STAT_CHANGES_IMPLEMENTED
@@ -10477,11 +10381,7 @@ mondata SPECIES_LOPUNNY, "Lopunny"
     .else
         basestats 65, 76, 84, 105, 54, 96
     .endif
-    .if TYPE_CHANGES_IMPLEMENTED
-        types TYPE_NORMAL, TYPE_FIGHTING
-    .else
-        types TYPE_NORMAL, TYPE_NORMAL
-    .endif
+    types TYPE_NORMAL, TYPE_NORMAL
     catchrate 60
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 2, 0, 0
@@ -10504,15 +10404,10 @@ mondata SPECIES_LOPUNNY, "Lopunny"
     mondexweight SPECIES_LOPUNNY, "73.4 lbs."
 
 
-// STATS: 105 >> 110 SpAtk | 105 >> 110 SpDef | 105 >> 110 Speed | 495 >> 510 BST
 // TYPES: Ghost >> Ghost/Fairy
 // ABILITY: Magic Guard (HA)
 mondata SPECIES_MISMAGIUS, "Mismagius"
-    .if STAT_CHANGES_IMPLEMENTED
-        basestats 60, 60, 60, 110, 110, 110
-    .else
-        basestats 60, 60, 60, 105, 105, 105
-    .endif
+    basestats 60, 60, 60, 105, 105, 105
     .if TYPE_CHANGES_IMPLEMENTED
         types TYPE_GHOST, TYPE_FAIRY
     .else
@@ -11167,7 +11062,6 @@ mondata SPECIES_FINNEON, "Finneon"
 
 
 // STATS: 69 >> 59 Atk | 76 >> 86 Def | 69 >> 89 SpAtk | 460 >> 480 BST
-// TYPES: Water >> Water/Fairy
 // ABILITY: Dazzling (HA)
 mondata SPECIES_LUMINEON, "Lumineon"
     .if STAT_CHANGES_IMPLEMENTED
@@ -11175,11 +11069,7 @@ mondata SPECIES_LUMINEON, "Lumineon"
     .else
         basestats 69, 69, 76, 91, 69, 86
     .endif
-    .if TYPE_CHANGES_IMPLEMENTED
-        types TYPE_WATER, TYPE_FAIRY
-    .else
-        types TYPE_WATER, TYPE_WATER
-    .endif
+    types TYPE_WATER, TYPE_WATER
     catchrate 75
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 2, 0, 0
@@ -11719,14 +11609,9 @@ mondata SPECIES_ROTOM, "Rotom"
     mondexweight SPECIES_ROTOM, "0.7 lbs."
 
 
-// TYPES: Psychic >> Psychic/Fairy
 mondata SPECIES_UXIE, "Uxie"
     basestats 75, 75, 130, 95, 75, 130
-    .if TYPE_CHANGES_IMPLEMENTED
-        types TYPE_PSYCHIC, TYPE_FAIRY
-    .else
-        types TYPE_PSYCHIC, TYPE_PSYCHIC
-    .endif
+    types TYPE_PSYCHIC, TYPE_PSYCHIC
     catchrate 3
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 2, 0, 0, 1
@@ -11745,14 +11630,9 @@ mondata SPECIES_UXIE, "Uxie"
     mondexweight SPECIES_UXIE, "0.7 lbs."
 
 
-// TYPES: Psychic >> Psychic/Fairy
 mondata SPECIES_MESPRIT, "Mesprit"
     basestats 80, 105, 105, 80, 105, 105
-    .if TYPE_CHANGES_IMPLEMENTED
-        types TYPE_PSYCHIC, TYPE_FAIRY
-    .else
-        types TYPE_PSYCHIC, TYPE_PSYCHIC
-    .endif
+    types TYPE_PSYCHIC, TYPE_PSYCHIC
     catchrate 3
     baseexp 0 // defined in baseexp.s
     evyields 0, 1, 0, 0, 1, 1
@@ -11771,14 +11651,9 @@ mondata SPECIES_MESPRIT, "Mesprit"
     mondexweight SPECIES_MESPRIT, "0.7 lbs."
 
 
-// TYPES: Psychic >> Psychic/Fairy
 mondata SPECIES_AZELF, "Azelf"
     basestats 75, 125, 70, 115, 125, 70
-    .if TYPE_CHANGES_IMPLEMENTED
-        types TYPE_PSYCHIC, TYPE_FAIRY
-    .else
-        types TYPE_PSYCHIC, TYPE_PSYCHIC
-    .endif
+    types TYPE_PSYCHIC, TYPE_PSYCHIC
     catchrate 3
     baseexp 0 // defined in baseexp.s
     evyields 0, 2, 0, 0, 1, 0
@@ -13299,14 +13174,9 @@ mondata SPECIES_OSHAWOTT, "Oshawott"
     mondexweight SPECIES_OSHAWOTT, "13.0 lbs."
 
 
-// TYPES: Water >> Water/Fighting
 mondata SPECIES_DEWOTT, "Dewott"
     basestats 75, 75, 60, 60, 83, 60
-    .if TYPE_CHANGES_IMPLEMENTED
-        types TYPE_WATER, TYPE_FIGHTING
-    .else
-        types TYPE_WATER, TYPE_WATER
-    .endif
+    types TYPE_WATER, TYPE_WATER
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 2, 0
@@ -13691,14 +13561,9 @@ mondata SPECIES_MUNNA, "Munna"
 
 
 // ABILITY: Levitate (1, 2)
-// TYPES: Psychic >> Psychic/Fairy
 mondata SPECIES_MUSHARNA, "Musharna"
     basestats 116, 55, 85, 29, 107, 95
-    .if TYPE_CHANGES_IMPLEMENTED
-        types TYPE_PSYCHIC, TYPE_FAIRY
-    .else
-        types TYPE_PSYCHIC, TYPE_PSYCHIC
-    .endif
+    types TYPE_PSYCHIC, TYPE_PSYCHIC
     catchrate 75
     baseexp 0 // defined in baseexp.s
     evyields 2, 0, 0, 0, 0, 0
@@ -13994,7 +13859,6 @@ mondata SPECIES_EXCADRILL, "Excadrill"
 
 
 // STATS: 60 >> 80 SpAtk | 445 >> 465 BST
-// TYPES: Normal >> Normal/Fairy
 // ABILITY: Triage (HA)
 mondata SPECIES_AUDINO, "Audino"
     .if STAT_CHANGES_IMPLEMENTED
@@ -14002,11 +13866,7 @@ mondata SPECIES_AUDINO, "Audino"
     .else
         basestats 103, 60, 86, 50, 60, 86
     .endif
-    .if TYPE_CHANGES_IMPLEMENTED
-        types TYPE_NORMAL, TYPE_FAIRY
-    .else
-        types TYPE_NORMAL, TYPE_NORMAL
-    .endif
+    types TYPE_NORMAL, TYPE_NORMAL
     catchrate 255
     baseexp 0 // defined in baseexp.s
     evyields 2, 0, 0, 0, 0, 0
@@ -14929,15 +14789,10 @@ mondata SPECIES_CINCCINO, "Cinccino"
     mondexweight SPECIES_CINCCINO, "16.5 lbs."
 
 
-// TYPES: Psychic >> Psychic/Dark
 // ABILITY: Synchronize (1)
 mondata SPECIES_GOTHITA, "Gothita"
     basestats 45, 30, 50, 45, 55, 65
-    .if TYPE_CHANGES_IMPLEMENTED
-        types TYPE_PSYCHIC, TYPE_DARK
-    .else
-        types TYPE_PSYCHIC, TYPE_PSYCHIC
-    .endif
+    types TYPE_PSYCHIC, TYPE_PSYCHIC
     catchrate 200
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 0, 1
@@ -14960,15 +14815,10 @@ mondata SPECIES_GOTHITA, "Gothita"
     mondexweight SPECIES_GOTHITA, "12.8 lbs."
 
 
-// TYPES: Psychic >> Psychic/Dark
 // ABILITY: Synchronize (1)
 mondata SPECIES_GOTHORITA, "Gothorita"
     basestats 60, 45, 70, 55, 75, 85
-    .if TYPE_CHANGES_IMPLEMENTED
-        types TYPE_PSYCHIC, TYPE_DARK
-    .else
-        types TYPE_PSYCHIC, TYPE_PSYCHIC
-    .endif
+    types TYPE_PSYCHIC, TYPE_PSYCHIC
     catchrate 100
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 0, 2
@@ -14991,15 +14841,10 @@ mondata SPECIES_GOTHORITA, "Gothorita"
     mondexweight SPECIES_GOTHORITA, "39.7 lbs."
 
 
-// TYPES: Psychic >> Psychic/Dark
 // ABILITY: Synchronize (1)
 mondata SPECIES_GOTHITELLE, "Gothitelle"
     basestats 70, 55, 95, 65, 95, 110
-    .if TYPE_CHANGES_IMPLEMENTED
-        types TYPE_PSYCHIC, TYPE_DARK
-    .else
-        types TYPE_PSYCHIC, TYPE_PSYCHIC
-    .endif
+    types TYPE_PSYCHIC, TYPE_PSYCHIC
     catchrate 50
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 0, 3
@@ -15175,14 +15020,9 @@ mondata SPECIES_VANILLISH, "Vanillish"
     mondexweight SPECIES_VANILLISH, "90.4 lbs."
 
 
-// TYPES: Ice >> Ice/Fairy
 mondata SPECIES_VANILLUXE, "Vanilluxe"
     basestats 71, 95, 85, 79, 110, 95
-    .if TYPE_CHANGES_IMPLEMENTED
-        types TYPE_ICE, TYPE_FAIRY
-    .else
-        types TYPE_ICE, TYPE_ICE
-    .endif
+    types TYPE_ICE, TYPE_ICE
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 0, 0, 0, 3, 0
@@ -21030,9 +20870,14 @@ mondata SPECIES_CENTISKORCH, "Centskorch"
     mondexweight SPECIES_CENTISKORCH, "264.6 lbs."
 
 
+// TYPES: Fighting >> Fighting/Water
 mondata SPECIES_CLOBBOPUS, "Clobbopus"
     basestats 50, 68, 60, 32, 50, 50
-    types TYPE_FIGHTING, TYPE_FIGHTING
+    .if TYPE_CHANGES_IMPLEMENTED
+        types TYPE_FIGHTING, TYPE_WATER
+    .else
+        types TYPE_FIGHTING, TYPE_FIGHTING
+    .endif
     catchrate 180
     baseexp 0 // defined in baseexp.s
     evyields 0, 1, 0, 0, 0, 0
@@ -21051,9 +20896,14 @@ mondata SPECIES_CLOBBOPUS, "Clobbopus"
     mondexweight SPECIES_CLOBBOPUS, "8.8 lbs."
 
 
+// TYPES: Fighting >> Fighting/Water
 mondata SPECIES_GRAPPLOCT, "Grapploct"
     basestats 80, 118, 90, 42, 70, 80
-    types TYPE_FIGHTING, TYPE_FIGHTING
+    .if TYPE_CHANGES_IMPLEMENTED
+        types TYPE_FIGHTING, TYPE_WATER
+    .else
+        types TYPE_FIGHTING, TYPE_FIGHTING
+    .endif
     catchrate 45
     baseexp 0 // defined in baseexp.s
     evyields 0, 2, 0, 0, 0, 0
@@ -25418,18 +25268,13 @@ mondata SPECIES_MEGA_ABSOL, "-----"
     colorflip 0, 0
     
 // STATS: 120 >> 140 Atk | 580 >> 600 BST
-// TYPES: Ice >> Ice/Rock
 mondata SPECIES_MEGA_GLALIE, "-----"
     .if STAT_CHANGES_IMPLEMENTED
         basestats 80, 140, 80, 100, 120, 80
     .else
         basestats 80, 120, 80, 100, 120, 80
     .endif
-    .if TYPE_CHANGES_IMPLEMENTED
-        types TYPE_ICE, TYPE_ROCK
-    .else
-        types TYPE_ICE, TYPE_ICE
-    .endif
+    types TYPE_ICE, TYPE_ICE
     catchrate 75
     baseexp 187
     evyields 2, 0, 0, 0, 0, 0

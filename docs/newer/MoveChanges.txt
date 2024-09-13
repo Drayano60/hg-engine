@@ -291,7 +291,7 @@ Effect: Has a chance (30%) of inflicting a burn on the target.
 This move is learnt by Feraligatr.
 This move's power is boosted by the Strong Jaw ability.
 
-Power: 80
+Power: 85
 Accuracy: 100%
 Type: Water
 PP: 10

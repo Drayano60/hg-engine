@@ -94,6 +94,8 @@ export default {
         "electivire",
         "gogoat",
         "raticatealola", // HOME
+        "samurott",
+        "samurotthisui",
     ],
     crosspoison: [
         "beedrill",
@@ -111,6 +113,11 @@ export default {
         "mimejr",
         "mrrime",
         "mrmimegalar",
+        "ninetales", // TYPE
+        "chikorita", // TYPE
+        "bayleef", // TYPE
+        "meganium", // TYPE
+        "illumise",
     ],
     dualwingbeat: [
         "beedrill", // HOME
@@ -171,6 +178,9 @@ export default {
         "clodsire",
         "exeggutoralola",
         "wooperpaldea",
+    ],
+    heavyslam: [
+        "cofagrigus", // TYPE
     ],
     hurricane: [
         "venomoth",
@@ -248,6 +258,7 @@ export default {
         "simisear",
         "panpour",
         "simipour",
+        "ninetales", // TYPE
     ],
     pounce: [
         "butterfree",
@@ -421,8 +432,8 @@ export default {
         "vanillite",
         "vanillish",
         "vanilluxe",
-        // "ninetales",
-        // "luvdisc",
+        "ninetales", // TYPE
+        "luvdisc", // TYPE
     ],
     thunderbolt: [
         "gulpin",
@@ -460,6 +471,9 @@ export default {
     overheat: [
         "voltorb",
         "electrode",
+    ],
+    focusblast: [
+        "samurott",
     ],
     scald: [
         "basculinwhitestriped",
@@ -556,7 +570,7 @@ export default {
         "voltorb",
         "electrode",
         "ampharos",
-        // "cofagrigus",
+        "cofagrigus", // TYPE
     ],
     cut: [
         "leafeon",

@@ -118,3 +118,9 @@ NOT TELLING
 
 Repel’s effect wore off.\nWould you like to use another one?
 {STRVAR_1 3, 0, 0} used the {STRVAR_1 8, 1, 0}.
+
+The PC can’t be used now.
+The Teleport Gem can’t be used now.
+Choose a place to teleport to.
+{STRVAR_1 0, 0, 0} received {STRVAR_1 1, 0, 0} League Points!
+Your Pokémon can now level up\nto a maximum of {COLOR 2}Level {STRVAR_1 0, 0, 0}{COLOR 0}.

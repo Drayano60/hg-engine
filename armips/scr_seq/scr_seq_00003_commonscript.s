@@ -1797,7 +1797,7 @@ scr_seq_0003_064:
 scr_seq_0003_072:
     play_se SEQ_SE_DP_SELECT
     lockall
-    npc_msg 117
+    npc_msg 121
     wait_button
     closemsg
     releaseall
@@ -1806,7 +1806,7 @@ scr_seq_0003_072:
 scr_seq_0003_073:
     play_se SEQ_SE_DP_SELECT
     lockall
-    npc_msg 119
+    npc_msg 123
     ListStandardText 1, 1, 0, 1, VAR_SPECIAL_RESULT
     call_if_set FLAG_SYS_FLYPOINT_AZALEA, _AzaleaOpt
     call_if_set FLAG_SYS_FLYPOINT_UNION_CAVE, _BattleFrontierOpt // This allows Frontier Access
@@ -2111,7 +2111,7 @@ _EndWarp:
 scr_seq_0003_074:
     play_se SEQ_SE_DP_SELECT
     lockall
-    npc_msg 118
+    npc_msg 122
     wait_button
     closemsg
     releaseall
@@ -2127,7 +2127,7 @@ scr_seq_0003_076:
     TextPlayerName 0
     TextNumber 1, VAR_SPECIAL_x8004
     PlaySound SEQ_ME_BPGET
-    npc_msg 120
+    npc_msg 124
     WaitSound
     CompareVarValue 0x416D, 65000
     goto_if_gt _CancelCreditsInc
@@ -2145,7 +2145,7 @@ scr_seq_0003_077:
     SetVarFromVariable 0x416F, VAR_SPECIAL_x8004
     TextNumber 0, VAR_SPECIAL_x8004
     PlaySound SEQ_ME_LVUP
-    npc_msg 121
+    npc_msg 125
     WaitSound
     wait_button
     closemsg

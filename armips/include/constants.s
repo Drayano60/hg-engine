@@ -576,9 +576,9 @@ CLASS_BLUE equ 125
 .equ F_PRIORITIZE_STATUS_MOVES, (1 << 3)
 .equ F_RISKY_ATTACKS, (1 << 4)
 .equ F_PRIORITIZE_DAMAGE, (1 << 5)
-.equ F_MULTI_BATTLE_PARTNER, (1 << 6)
-.equ F_DOUBLE_BATTLE, (1 << 7)
-.equ F_PRIORITIZE_HEALING, (1 << 8)
+.equ F_MULTI_BATTLE_PARTNER, (1 << 6) // Baton Pass flag?
+.equ F_DOUBLE_BATTLE, (1 << 7) // Tag strategy flag?
+.equ F_PRIORITIZE_HEALING, (1 << 8) // Check HP flag?
 .equ F_USE_WEATHER, (1 << 9)
 .equ F_HARRASSMENT, (1 << 10)
 .equ F_ROAMING_MON, (1 << 11)

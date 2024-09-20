@@ -3624,7 +3624,7 @@ mondata SPECIES_MEW, "Mew"
     mondexweight SPECIES_MEW, "8.8 lbs."
 
 
-// ABILITY: Sweet Aroma (HA, New)
+// ABILITY: Calming Aroma (HA, New)
 mondata SPECIES_CHIKORITA, "Chikorita"
     basestats 45, 49, 65, 45, 49, 65
     types TYPE_GRASS, TYPE_GRASS
@@ -3646,7 +3646,7 @@ mondata SPECIES_CHIKORITA, "Chikorita"
     mondexweight SPECIES_CHIKORITA, "14.1 lbs."
 
 
-// ABILITY: Sweet Aroma (HA, New)
+// ABILITY: Calming Aroma (HA, New)
 mondata SPECIES_BAYLEEF, "Bayleef"
     basestats 60, 62, 80, 60, 63, 80
     types TYPE_GRASS, TYPE_GRASS
@@ -3670,12 +3670,12 @@ mondata SPECIES_BAYLEEF, "Bayleef"
 
 // STATS: 80 >> 85 HP SpAtk | 525 >> 530 BST
 // TYPES: Grass >> Grass/Fairy
-// ABILITY: Sweet Aroma (HA, New)
+// ABILITY: Calming Aroma (HA, New)
 mondata SPECIES_MEGANIUM, "Meganium"
     .if STAT_CHANGES_IMPLEMENTED
-        basestats 80, 82, 100, 80, 83, 100
-    .else
         basestats 85, 82, 100, 80, 83, 100
+    .else
+        basestats 80, 82, 100, 80, 83, 100
     .endif
     .if TYPE_CHANGES_IMPLEMENTED
         types TYPE_GRASS, TYPE_FAIRY

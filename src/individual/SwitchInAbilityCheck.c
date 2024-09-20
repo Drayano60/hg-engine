@@ -226,12 +226,12 @@ int UNUSED SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
                         }
                     }
 
-                    /**** AURORA CRYSTAL: Added the new Sweet Aroma ability. ****/
+                    /**** AURORA CRYSTAL: Added the new Calming Aroma ability. ****/
                     {
-                        if ((sp->battlemon[client_no].intimidate_flag == 0) && (sp->battlemon[client_no].hp) && (GetBattlerAbility(sp, client_no) == ABILITY_SWEET_AROMA)) {
+                        if ((sp->battlemon[client_no].intimidate_flag == 0) && (sp->battlemon[client_no].hp) && (GetBattlerAbility(sp, client_no) == ABILITY_CALMING_AROMA)) {
                             sp->battlemon[client_no].intimidate_flag = 1;
                             sp->client_work = client_no;
-                            scriptnum = SUB_SEQ_SWEET_AROMA;
+                            scriptnum = SUB_SEQ_CALMING_AROMA;
                             ret = SWITCH_IN_CHECK_MOVE_SCRIPT;
                             break;
                         }

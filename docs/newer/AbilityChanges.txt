@@ -117,6 +117,10 @@ Effect: Makes the Pokémon immune to Bug-type moves. When it would be hit by one
 Pokémon: Whismur/Loudred/Exploud, Noibat/Noivern.
 Effect: Increases the power of the Pokémon's sound moves by 30%. Also halves the damage taken from sound moves by 50%.
 
+[Calming Aroma]
+Pokémon: Chikorita/Bayleef/Meganium.
+Effect: When this Pokémon is sent out into battle, the Attack stat of all opposing Pokémon is reduced by one stage.
+
 [Cheerleader]
 Pokémon: Plusle, Minun.
 Effect: Increases the power of the Pokémon's ally's moves by 20%.
@@ -184,10 +188,6 @@ Effect: When this Pokémon is sent out into battle, the sunlight becomes harsh f
 [Swan Song]
 Pokémon: Swanna.
 Effect: While this Pokémon is at or under 25% HP, the power of its moves are boosted by 50%.
-
-[Sweet Aroma]
-Pokémon: Chikorita/Bayleef/Meganium.
-Effect: When this Pokémon is sent out into battle, the Attack stat of all opposing Pokémon is reduced by one stage.
 
 [Totter Steps]
 Pokémon: Spinda.

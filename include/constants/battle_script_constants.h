@@ -416,7 +416,7 @@
 #define SUB_SEQ_INCINERATE                            (467)
 #define SUB_SEQ_468                                   (468)
 #define SUB_SEQ_SCALE_SHOT                            (469)
-#define SUB_SEQ_SWEET_AROMA                           (470)
+#define SUB_SEQ_CALMING_AROMA                           (470)
 #define SUB_SEQ_STRENGTH_SAP                          (471)
 #define SUB_SEQ_ILLUMINATE                            (472)
 #define SUB_SEQ_CHEEK_POUCH                           (473)

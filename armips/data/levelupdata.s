@@ -24123,6 +24123,7 @@ levelup SPECIES_TOEDSCRUEL
     learnset MOVE_TACKLE, 1 
     terminatelearnset
 
+// NEW: Shell Smash
 levelup SPECIES_KLAWF
     learnset MOVE_CRABHAMMER, 1
     learnset MOVE_KNOCK_OFF, 1

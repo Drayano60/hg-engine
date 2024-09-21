@@ -7563,6 +7563,7 @@ levelup SPECIES_PILOSWINE
     learnset MOVE_ICE_FANG, 0
     learnset MOVE_ANCIENT_POWER, 1
     learnset MOVE_HIGH_HORSEPOWER, 1
+    learnset MOVE_ICICLE_SPEAR, 1
     learnset MOVE_FURY_ATTACK, 1
     learnset MOVE_THRASH, 1
     learnset MOVE_PECK, 1
@@ -7591,6 +7592,7 @@ levelup SPECIES_MAMOSWINE
     learnset MOVE_ICE_FANG, 1
     learnset MOVE_ANCIENT_POWER, 1
     learnset MOVE_HIGH_HORSEPOWER, 1
+    learnset MOVE_ICICLE_SPEAR, 1
     learnset MOVE_FURY_ATTACK, 1
     learnset MOVE_THRASH, 1
     learnset MOVE_PECK, 1

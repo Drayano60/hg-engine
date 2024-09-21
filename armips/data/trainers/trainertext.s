@@ -3792,6 +3792,46 @@ _Trainer874:
 _Trainer875:
     trainertextentry 875, TEXT_DEFEATED_IN_BATTLE, "Better than my whole family?\nIs that possible?!"
 
+_Trainer876:
+    trainertextentry 876, TEXT_LAST_MON_CRITICAL, "The wind is finally with us!\n"
+    trainertextentry 876, TEXT_LAST_MON_SENT_OUT, "We can still fly!\n"
+    trainertextentry 876, TEXT_DEFEATED_IN_BATTLE, "I understand...\nI’ll bow out gracefully.\n"
+
+_Trainer877:
+    trainertextentry 877, TEXT_LAST_MON_CRITICAL, "Even though it’s my last Pokémon,\nBug Pokémon are tough!\n"
+    trainertextentry 877, TEXT_LAST_MON_SENT_OUT, "Hang in there! Just a little more!\n"
+    trainertextentry 877, TEXT_DEFEATED_IN_BATTLE, "Aw, that’s the end of it...\n"
+
+_Trainer878:
+    trainertextentry 878, TEXT_LAST_MON_CRITICAL, "H-hey! Just one left?\nBut... I ain’t losin’, you hear?\n"
+    trainertextentry 878, TEXT_LAST_MON_SENT_OUT, "Poor me!\n"
+    trainertextentry 878, TEXT_DEFEATED_IN_BATTLE, "Ugh...\n"
+
+_Trainer879:
+    trainertextentry 879, TEXT_LAST_MON_CRITICAL, "No, it’s not over yet--not yet!\nI still believe we can do it!\n"
+    trainertextentry 879, TEXT_LAST_MON_SENT_OUT, "We’ve got more discipline than\nanyone else!\n"
+    trainertextentry 879, TEXT_DEFEATED_IN_BATTLE, "How is this possible...\n"
+
+_Trainer880:
+    trainertextentry 880, TEXT_LAST_MON_CRITICAL, "We haven’t lost yet!\n"
+    trainertextentry 880, TEXT_LAST_MON_SENT_OUT, "No... Not...yet...\n"
+    trainertextentry 880, TEXT_DEFEATED_IN_BATTLE, "We...lost...\n"
+
+_Trainer881:
+    trainertextentry 881, TEXT_LAST_MON_CRITICAL, "Properly tempered steel won’t be made\nrusty by things like this!\n"
+    trainertextentry 881, TEXT_LAST_MON_SENT_OUT, "Steel will hang on to the very last!\n"
+    trainertextentry 881, TEXT_DEFEATED_IN_BATTLE, "Well done...\n"
+
+_Trainer882:
+    trainertextentry 882, TEXT_LAST_MON_CRITICAL, "Humph... You are quite the Trainer.\n"
+    trainertextentry 882, TEXT_LAST_MON_SENT_OUT, "Willow is my middle name.\nWillow is flexible and not easily broken.\fI’m not giving up yet.\n"
+    trainertextentry 882, TEXT_DEFEATED_IN_BATTLE, "Hmm. Seems as if my luck has run out.\n"
+
+_Trainer883:
+    trainertextentry 883, TEXT_LAST_MON_CRITICAL, "One Pokémon left?\nThis is where the real battle begins!\n"
+    trainertextentry 883, TEXT_LAST_MON_SENT_OUT, "You’re kidding, right?\nI’m supposed to win! I already decided!\n"
+    trainertextentry 883, TEXT_DEFEATED_IN_BATTLE, "I lost? ...\rI don’t believe it.\nThere must be some mistake...\n"
+
 .close
 
 
@@ -4674,5 +4714,13 @@ _Trainer875:
 /* Trainer 873 */ .halfword _Trainer873
 /* Trainer 874 */ .halfword _Trainer874
 /* Trainer 875 */ .halfword _Trainer875
+/* Trainer 876 */ .halfword _Trainer876
+/* Trainer 877 */ .halfword _Trainer877
+/* Trainer 878 */ .halfword _Trainer878
+/* Trainer 879 */ .halfword _Trainer879
+/* Trainer 880 */ .halfword _Trainer880
+/* Trainer 881 */ .halfword _Trainer881
+/* Trainer 882 */ .halfword _Trainer882
+/* Trainer 883 */ .halfword _Trainer883
 
 .close

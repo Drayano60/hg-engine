@@ -113,11 +113,9 @@ export default {
         "mimejr",
         "mrrime",
         "mrmimegalar",
-        "ninetales", // TYPE
-        "chikorita", // TYPE
-        "bayleef", // TYPE
-        "meganium", // TYPE
-        "illumise",
+        "chikorita",
+        "bayleef",
+        "meganium",
     ],
     dualwingbeat: [
         "beedrill", // HOME
@@ -180,7 +178,6 @@ export default {
         "wooperpaldea",
     ],
     heavyslam: [
-        "cofagrigus", // TYPE
     ],
     hurricane: [
         "venomoth",
@@ -258,7 +255,6 @@ export default {
         "simisear",
         "panpour",
         "simipour",
-        "ninetales", // TYPE
     ],
     pounce: [
         "butterfree",
@@ -432,8 +428,6 @@ export default {
         "vanillite",
         "vanillish",
         "vanilluxe",
-        "ninetales", // TYPE
-        "luvdisc", // TYPE
     ],
     thunderbolt: [
         "gulpin",
@@ -570,7 +564,6 @@ export default {
         "voltorb",
         "electrode",
         "ampharos",
-        "cofagrigus", // TYPE
     ],
     cut: [
         "leafeon",

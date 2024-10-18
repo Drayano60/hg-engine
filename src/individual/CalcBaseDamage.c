@@ -229,7 +229,8 @@ int CalcBaseDamage(void *bw, struct BattleStruct *sp, int moveno, u32 side_cond,
         }
     }
 
-    if (moveno == MOVE_BODY_PRESS) {
+    // The new move Flower Press also works based off the Defense stat.
+    if (moveno == MOVE_BODY_PRESS || moveno == MOVE_FLOWER_PRESS) {
         attack = BattlePokemonParamGet(sp, attacker, BATTLE_MON_DATA_DEF, NULL);
         atkstate = BattlePokemonParamGet(sp, attacker, BATTLE_MON_DATA_STATE_DEF, NULL) - 6;
     }

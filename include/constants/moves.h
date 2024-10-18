@@ -940,7 +940,7 @@
 // there are a bunch more here but that is fine
 
 /**** AURORA CRYSTAL: Additional moves. ****/
-#define MOVE_PETAL_BARRAGE 923
+#define MOVE_FLOWER_PRESS 923
 #define MOVE_INFERNAL_BLAST 924
 #define MOVE_SAVAGE_REND 925
 #define MOVE_PIDDLY_PUNCHES 926

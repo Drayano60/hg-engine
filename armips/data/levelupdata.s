@@ -5624,9 +5624,9 @@ levelup SPECIES_BAYLEEF
     learnset MOVE_LEAF_STORM, 62
     terminatelearnset
 
-// NEW: Petal Barrage (Custom), Play Rough
+// NEW: Flower Press (Custom), Play Rough
 levelup SPECIES_MEGANIUM
-    learnset MOVE_PETAL_BARRAGE, 0
+    learnset MOVE_FLOWER_PRESS, 0
     learnset MOVE_PETAL_BLIZZARD, 1
     learnset MOVE_NATURE_POWER, 1
     learnset MOVE_PETAL_DANCE, 1
@@ -12965,6 +12965,7 @@ levelup SPECIES_CHERRIM
     learnset MOVE_AROMATHERAPY, 50
     learnset MOVE_HEALING_WISH, 55
     learnset MOVE_SOLAR_BEAM, 60
+    learnset MOVE_SOLAR_BLADE, 65
     terminatelearnset
 
 levelup SPECIES_CHERRIM_SUNSHINE
@@ -12991,6 +12992,7 @@ levelup SPECIES_CHERRIM_SUNSHINE
     learnset MOVE_AROMATHERAPY, 50
     learnset MOVE_HEALING_WISH, 55
     learnset MOVE_SOLAR_BEAM, 60
+    learnset MOVE_SOLAR_BLADE, 65
     terminatelearnset
 
 levelup SPECIES_SHELLOS
@@ -13494,6 +13496,7 @@ levelup SPECIES_MEGA_GARCHOMP
 
 levelup SPECIES_RIOLU
     learnset MOVE_QUICK_ATTACK, 1
+    learnset MOVE_HELPING_HAND, 1
     learnset MOVE_FORESIGHT, 1
     learnset MOVE_ENDURE, 1
     learnset MOVE_FEINT, 4
@@ -13506,7 +13509,7 @@ levelup SPECIES_RIOLU
     learnset MOVE_DETECT, 32
     learnset MOVE_CROSS_CHOP, 36
     learnset MOVE_FOLLOW_ME, 40
-    learnset MOVE_HELPING_HAND, 44
+    learnset MOVE_AGILITY, 44
     learnset MOVE_COPYCAT, 48
     learnset MOVE_NASTY_PLOT, 52
     learnset MOVE_REVERSAL, 56
@@ -13521,6 +13524,7 @@ levelup SPECIES_LUCARIO
     learnset MOVE_HEAL_PULSE, 1
     learnset MOVE_LIFE_DEW, 1
     learnset MOVE_QUICK_ATTACK, 1
+    learnset MOVE_HELPING_HAND, 1
     learnset MOVE_FORESIGHT, 1
     learnset MOVE_ENDURE, 1
     learnset MOVE_FEINT, 4
@@ -21457,7 +21461,7 @@ levelup SPECIES_DHELMISE
     learnset MOVE_SHADOW_BALL, 40
     learnset MOVE_HEAVY_SLAM, 44
     learnset MOVE_SWITCHEROO, 48
-    learnset MOVE_ENERGY_BALL, 52
+    learnset MOVE_LIQUIDATION, 52
     learnset MOVE_PHANTOM_FORCE, 56
     learnset MOVE_POWER_WHIP, 60
 	terminatelearnset

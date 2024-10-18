@@ -14814,22 +14814,22 @@ movedata MOVE_MALIGNANT_CHAIN, "Malignant Chain"
 /**** AURORA CRYSTAL: Custom moves and AI only moves. ****/
 
 // This is a custom move for Meganium.
-// It damages a foe and reduces its Attack by one stage.
-movedata MOVE_PETAL_BARRAGE, "Petal Barrage"
-    battleeffect MOVE_EFFECT_LOWER_ATTACK_HIT
-    pss SPLIT_SPECIAL
+// It is a Grass-type clone of Body Press.
+movedata MOVE_FLOWER_PRESS, "Flower Press"
+    battleeffect MOVE_EFFECT_HIT
+    pss SPLIT_PHYSICAL
     basepower 80
     type TYPE_GRASS
     accuracy 100
     pp 10
-    effectchance 100
+    effectchance 0
     target MOVE_TARGET_SELECTED
     priority 0
-    flags FLAG_MIRROR_MOVE | FLAG_PROTECT
+    flags FLAG_MIRROR_MOVE | FLAG_PROTECT | FLAG_CONTACT
     appeal 0
     contesttype 0
     terminatedata
-    movedescription MOVE_PETAL_BARRAGE, "The user launches a\nbarrage of petals\nwith calming aromas.\nThis lowers the foe’s\nAttack stat."
+    movedescription MOVE_FLOWER_PRESS, ""
 
 // This is a custom move for Typhlosion.
 // It is a buffed up Lava Plume.
@@ -14847,7 +14847,7 @@ movedata MOVE_INFERNAL_BLAST, "Infernal Blast"
     appeal 0
     contesttype 0
     terminatedata
-    movedescription MOVE_INFERNAL_BLAST, "The user rubs its\nblazing fur together,\ncausing an explosion.\nIt has a 30% chance\nto burn what it hits."
+    movedescription MOVE_INFERNAL_BLAST, ""
 
 // This is a custom move for Feraligatr.
 // Simply flinches a foe, but benefits from Strong Jaw.
@@ -14865,7 +14865,7 @@ movedata MOVE_SAVAGE_REND, "Savage Rend"
     appeal 0
     contesttype 0
     terminatedata
-    movedescription MOVE_SAVAGE_REND, "The user drags the\nfoe underwater and\nsavagely tears it up.\nThis has a 30% chance\nto flinch the foe."
+    movedescription MOVE_SAVAGE_REND, ""
 
 // This is a custom move for Ledian.
 // Weaker clone of Population Bomb.
@@ -15808,7 +15808,7 @@ movedescription MOVE_PSYCHIC_FANGS, "The user bites the\ntarget with its\npsychi
 movedescription MOVE_SHADOW_BONE, "The user beats the\nfoe with a bone that\ncontains a spirit.\nThis has a 20% chance\nto lower Defense."
 movedescription MOVE_LIQUIDATION, "The user slams into\nthe foe using a full\nforce blast of water.\nThis has a 20% chance\nto lower Defense."
 movedescription MOVE_TEARFUL_LOOK, "The user gets teary-\neyed to make the foe\nlose its will to fight.\nThis lowers the foe’s\nAttack and Sp. Atk."
-movedescription MOVE_BODY_PRESS, "The user slams its\nbody into the foe.\nThe higher the user’s\ndefense, the higher\nthe damage dealt."
+movedescription MOVE_BODY_PRESS, "The user slams its\nbody into the foe.\nThe higher the user’s\nDefense, the greater\nthe damage dealt."
 movedescription MOVE_SNAP_TRAP, "The user snares the\ntarget in a snap trap\nthat inflicts damage\nfor four to five\nturns."
 movedescription MOVE_BREAKING_SWIPE, "The user swings its\ntough tail wildly\nand attacks the foe.\nThis also lowers the\nfoe’s Attack stat."
 movedescription MOVE_SPIRIT_BREAK, "The user attacks with\nenough force to harm\nthe foe’s spirit.\nThis lowers the foe’s\nSp. Atk stat."
@@ -15858,7 +15858,7 @@ movedescription MOVE_COMEUPPANCE, "The user retaliates\nagainst the foe that\nla
 movedescription MOVE_AQUA_CUTTER, "The user expels\npressurized water\nto cut the foe.\nIt has a high\ncritical-hit ratio."
 movedescription MOVE_ALLURING_VOICE, "The user attacks the\nfoe using its angelic\nvoice. This confuses\nthe foe if it boosted\nits stats this turn."
 movedescription MOVE_SUPERCELL_SLAM, "The user electrifies\nits body and drops\nonto the foe. If the\nmove misses, the\nuser hurts itself."
-movedescription MOVE_PETAL_BARRAGE, "The user launches a\nbarrage of petals\nwith calming aromas.\nThis lowers the foe’s\nAttack stat."
+movedescription MOVE_FLOWER_PRESS, "The user pushes its\nflower into the foe.\nThe higher the user’s\nDefense, the greater\nthe damage dealt."
 movedescription MOVE_INFERNAL_BLAST, "The user rubs its\nblazing fur together,\ncausing an explosion.\nIt has a 30% chance\nto burn what it hits."
 movedescription MOVE_SAVAGE_REND, "The user drags the\nfoe underwater and\nsavagely tears it up.\nThis has a 30% chance\nto flinch the foe."
 movedescription MOVE_PIDDLY_PUNCHES, "The user throws many\npiddly punches using\nall of its arms. This\ncan hit the foe up to\nten times in a row."

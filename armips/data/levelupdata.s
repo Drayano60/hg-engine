@@ -274,11 +274,9 @@ levelup SPECIES_WARTORTLE
     learnset MOVE_WATER_SPOUT, 66
     terminatelearnset
 
-// NEW: Zap Cannon (G2 Event)
 levelup SPECIES_BLASTOISE
     learnset MOVE_FLASH_CANNON, 0
     learnset MOVE_MIRROR_COAT, 1
-    learnset MOVE_ZAP_CANNON, 1
     learnset MOVE_FAKE_OUT, 1
     learnset MOVE_LIFE_DEW, 1
     learnset MOVE_BUBBLE_BEAM, 1
@@ -14999,8 +14997,9 @@ levelup SPECIES_TRANQUILL
     learnset MOVE_SKY_ATTACK, 58
     terminatelearnset
 
-// NEW: Double-Edge
+// NEW: Double-Edge, Slash
 levelup SPECIES_UNFEZANT
+    learnset MOVE_SLASH, 0
     learnset MOVE_RAZOR_WIND, 1
     learnset MOVE_DEFOG, 1
     learnset MOVE_HYPNOSIS, 1
@@ -15025,6 +15024,7 @@ levelup SPECIES_UNFEZANT
     terminatelearnset
 
 levelup SPECIES_UNFEZANT_FEMALE
+    learnset MOVE_SLASH, 0
     learnset MOVE_RAZOR_WIND, 1
     learnset MOVE_DEFOG, 1
     learnset MOVE_HYPNOSIS, 1

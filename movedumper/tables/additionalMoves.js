@@ -151,6 +151,8 @@ export default {
         "cacturne",
         "emboar",
         "maractus",
+        "croagunk",
+        "toxicroak",
     ],
     flareblitz: [
         "zebstrika",
@@ -178,6 +180,7 @@ export default {
         "wooperpaldea",
     ],
     heavyslam: [
+        "cofagrigus",
     ],
     hurricane: [
         "venomoth",
@@ -247,6 +250,7 @@ export default {
         "jumpluff",
         "espeon",
         "umbreon",
+        "beautifly",
         "leafeon",
         "glaceon",
         "pansage",
@@ -482,6 +486,7 @@ export default {
     ],
     acrobatics: [
         "accelgor",
+        "carnivine",
     ],
     nastyplot: [
         "skitty", // BDSP
@@ -564,6 +569,7 @@ export default {
         "voltorb",
         "electrode",
         "ampharos",
+        "cofagrigus",
     ],
     cut: [
         "leafeon",

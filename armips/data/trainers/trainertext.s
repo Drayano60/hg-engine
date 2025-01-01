@@ -602,15 +602,10 @@ _04C0: // Trainer 682
     trainertextentry 682, TEXT_DEFEATED_IN_BATTLE, "All of my Pokémon...\nAll dizzy and fainting...\n"
     trainertextentry 682, TEXT_DEFEATED_IN_OVERWORLD, "Looks like you’ve still got some\nenergy left.\n"
 
-_04CC: // Trainer 684
-    trainertextentry 684, TEXT_DOUBLE_NOTICE_IN_OVERWORLD_1, "Ida: I’m Ida!\nNext to me is Elan!\fTogether, we’re a double team!\r"
-    trainertextentry 684, TEXT_DOUBLE_DEFEATED_IN_BATTLE_1, "Ida: Wow. You’re really something.\n"
-    trainertextentry 684, TEXT_DOUBLE_DEFEATED_IN_OVERWORLD_1, "Ida: If the only thing Gym Trainers\nhave is strength, they won’t do well.\rBringing out your opponent’s strength\nis also very important!\rElan: You’re stronger than we\nanticipated!\n"
-    trainertextentry 684, TEXT_DOUBLE_ONLY_1_POKEMON_1, "Ida: All right, let’s go!\rI bet that’s what you were thinking!\nBut you’ve only got one Pokémon.\rSo we can’t battle.\n"
-    trainertextentry 684, TEXT_DOUBLE_NOTICE_IN_OVERWORLD_2, "Elan: All right, let’s get this fight\nstarted! Come on!\r"
-    trainertextentry 684, TEXT_DOUBLE_DEFEATED_IN_BATTLE_2, "Elan: Well, this is surprising.\n"
-    trainertextentry 684, TEXT_DOUBLE_DEFEATED_IN_OVERWORLD_2, "Elan: Phew...\n"
-    trainertextentry 684, TEXT_DOUBLE_ONLY_1_POKEMON_2, "Elan: Huh?\nNot enough Pokémon?\n"
+_04CC:
+    trainertextentry 684, TEXT_NOTICE_IN_OVERWORLD, "All right, let’s get this fight started! \nCome on!\r"
+    trainertextentry 684, TEXT_DEFEATED_IN_BATTLE, "Well, this is surprising.\n"
+    trainertextentry 684, TEXT_DEFEATED_IN_OVERWORLD, "You’re stronger than I anticipated!\n"
 
 _04EC: // Trainer 308
     trainertextentry 308, TEXT_NOTICE_IN_OVERWORLD, "The Trainers of this Gym use\nRock-type Pokémon.\rRock-type Pokémon have high Defense.\nBattles could end up going a long time.\rAre you ready for this?\r"
@@ -3188,9 +3183,9 @@ _Trainer171:
     trainertextentry 171, TEXT_DEFEATED_IN_OVERWORLD, "I shake it off,\nI shake it off! ♪"
 
 _Trainer174:
-    trainertextentry 174, TEXT_NOTICE_IN_OVERWORLD, "Life is old there,\nolder than the trees. ♪\rYounger than the mountains,\nblowing like a breeze! ♪\r"
-    trainertextentry 174, TEXT_DEFEATED_IN_BATTLE, "Take me home...\n"
-    trainertextentry 174, TEXT_DEFEATED_IN_OVERWORLD, "Country roads, take me home.\nTo the place, I belong! ♪"
+    trainertextentry 174, TEXT_NOTICE_IN_OVERWORLD, "An ace has the knowledge and\nexperience of battling at high levels.\nI’ll demonstrate what that means to\na kid like you!\r"
+    trainertextentry 174, TEXT_DEFEATED_IN_BATTLE, "Wow...\nI’m in the mood to sing a lullaby..."
+    trainertextentry 174, TEXT_DEFEATED_IN_OVERWORLD, "Your earnest enthusiasm...\nI guess that kinda makes you an ace.\rMaybe you’re a Trainer who has the\npotential to surpass aces!"
 
 _Trainer180:
     trainertextentry 180, TEXT_NOTICE_IN_OVERWORLD, "Yo!\nMy Bug Pokémon are all grown up!\rCheck them out!\r"
@@ -3413,14 +3408,14 @@ _Trainer524:
     trainertextentry 524, TEXT_DEFEATED_IN_OVERWORLD, "Moomoo Milk is good for your beauty\nand health.\rConveniently, you can buy a dozen\nbottles at a time!"
 
 _Trainer526:
-    trainertextentry 526, TEXT_NOTICE_IN_OVERWORLD, "526-Encounter"
-    trainertextentry 526, TEXT_DEFEATED_IN_BATTLE, "526-Defeat"
-    trainertextentry 526, TEXT_DEFEATED_IN_OVERWORLD, "526-Afterwards"
+    trainertextentry 526, TEXT_NOTICE_IN_OVERWORLD, "By focusing on only one type,\nyou can really see the strengths\fand weaknesses of that type.\r"
+    trainertextentry 526, TEXT_DEFEATED_IN_BATTLE, "My focus was too narrow minded..."
+    trainertextentry 526, TEXT_DEFEATED_IN_OVERWORLD, "In the past, Jasmine’s focus was on\nRock-type Pokémon.\rThat experience must have helped her\nunderstand the Steel type, too."
 
 _Trainer529:
-    trainertextentry 529, TEXT_NOTICE_IN_OVERWORLD, "529-Encounter"
-    trainertextentry 529, TEXT_DEFEATED_IN_BATTLE, "529-Defeat"
-    trainertextentry 529, TEXT_DEFEATED_IN_OVERWORLD, "529-Afterwards"
+    trainertextentry 529, TEXT_NOTICE_IN_OVERWORLD, "Let’s bring out the strength of\nour Pokémon!\r"
+    trainertextentry 529, TEXT_DEFEATED_IN_BATTLE, "Wow. You’re really something.\n"
+    trainertextentry 529, TEXT_DEFEATED_IN_OVERWORLD, "If the only thing Gym Trainers\nhave is strength, they won’t do well.\rBringing out your opponent’s strength\nis also very important!\n"
 
 _Trainer531:
     trainertextentry 531, TEXT_NOTICE_IN_OVERWORLD, "531-Encounter"

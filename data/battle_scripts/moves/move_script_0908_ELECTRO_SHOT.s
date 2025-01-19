@@ -2,8 +2,7 @@
 
 .data
 
-/**** AURORA CRYSTAL: Added the buffered message. ****/
-
 _000:
-    BufferMessage 2133, TAG_NICKNAME, BATTLER_CATEGORY_ATTACKER
+    // {0} absorbed electricity!
+    BufferMessage 1480, TAG_NICKNAME, BATTLER_CATEGORY_ATTACKER
     GoToEffectScript 

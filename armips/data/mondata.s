@@ -2790,7 +2790,7 @@ mondata SPECIES_GOLDEEN, "Goldeen"
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_2, EGG_GROUP_WATER_2
     .if MON_CHANGES_ENABLED
-        abilities ABILITY_SWIFT_SWIM, ABILITY_HORN_HAZARD
+        abilities ABILITY_SWIFT_SWIM, ABILITY_WATER_VEIL
     .else
         abilities ABILITY_SWIFT_SWIM, ABILITY_WATER_VEIL
     .endif
@@ -2819,7 +2819,7 @@ mondata SPECIES_SEAKING, "Seaking"
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_WATER_2, EGG_GROUP_WATER_2
     .if MON_CHANGES_ENABLED
-        abilities ABILITY_SWIFT_SWIM, ABILITY_HORN_HAZARD
+        abilities ABILITY_SWIFT_SWIM, ABILITY_WATER_VEIL
     .else
         abilities ABILITY_SWIFT_SWIM, ABILITY_WATER_VEIL
     .endif
@@ -8381,7 +8381,7 @@ mondata SPECIES_MILOTIC, "Milotic"
     evyields 0, 0, 0, 0, 0, 0
     items ITEM_NONE, ITEM_NONE
     genderratio 127
-    eggcycles 20de
+    eggcycles 20
     basefriendship 50
     growthrate GROWTH_ERRATIC
     egggroups EGG_GROUP_WATER_1, EGG_GROUP_DRAGON

@@ -4427,7 +4427,7 @@ movedata MOVE_INGRAIN, "Ingrain"
     movedescription MOVE_INGRAIN, "The user lays roots\nthat restore HP on\nevery turn.\nBecause it is rooted,\nit can’t switch out."
 
 movedata MOVE_SUPERPOWER, "Superpower"
-    battleeffect MOVE_EFFECT_ATK_DEF_DOWN_HIT
+    battleeffect MOVE_EFFECT_USER_ATK_DEF_DOWN_HIT
     pss SPLIT_PHYSICAL
     basepower 120
     type TYPE_FIGHTING
@@ -5756,7 +5756,7 @@ movedata MOVE_WAKE_UP_SLAP, "Wake-Up Slap"
     movedescription MOVE_WAKE_UP_SLAP, "This attack inflicts\nhigh damage on a\nsleeping foe. It\nalso wakes the foe\nup, however."
 
 movedata MOVE_HAMMER_ARM, "Hammer Arm"
-    battleeffect MOVE_EFFECT_SPEED_DOWN_HIT
+    battleeffect MOVE_EFFECT_USER_SPEED_DOWN_HIT
     pss SPLIT_PHYSICAL
     basepower 100
     type TYPE_FIGHTING
@@ -5932,7 +5932,7 @@ movedata MOVE_U_TURN, "U-turn"
     movedescription MOVE_U_TURN, "After making its\nattack, the user\nrushes back to switch\nplaces with a party\nPokémon in waiting."
 
 movedata MOVE_CLOSE_COMBAT, "Close Combat"
-    battleeffect MOVE_EFFECT_DEF_SP_DEF_DOWN_HIT
+    battleeffect MOVE_EFFECT_USER_DEF_SP_DEF_DOWN_HIT
     pss SPLIT_PHYSICAL
     basepower 120
     type TYPE_FIGHTING
@@ -7645,6 +7645,7 @@ movedata MOVE_PSYSHOCK, "Psyshock"
     movedescription MOVE_PSYSHOCK, "An odd psychic wave\nattacks the target.\nThis attack does\nphysical damage."
 
 movedata MOVE_VENOSHOCK, "Venoshock"
+    // battleeffect MOVE_EFFECT_DOUBLE_POWER_ON_POISONED
     battleeffect MOVE_EFFECT_HIT /**** EDIT: Damage boost is handled in CalcBaseDamage. */
     pss SPLIT_SPECIAL
     basepower 65
@@ -7952,8 +7953,8 @@ movedata MOVE_FOUL_PLAY, "Foul Play"
     movedescription MOVE_FOUL_PLAY, "The user turns the\ntarget’s power\nagainst it. Power\nincreases with the\nfoe’s Attack stat."
 
 movedata MOVE_SIMPLE_BEAM, "Simple Beam"
-    battleeffect MOVE_EFFECT_HIT
-    pss SPLIT_SPECIAL
+    battleeffect MOVE_EFFECT_SET_ABILITY_TO_SIMPLE
+    pss SPLIT_STATUS
     basepower 0
     type TYPE_NORMAL
     accuracy 100
@@ -8128,7 +8129,7 @@ movedata MOVE_SCALD, "Scald"
     movedescription MOVE_SCALD, "Boiling water is\nshot at the foe.\nIt may also cause\na burn."
 
 movedata MOVE_SHELL_SMASH, "Shell Smash"
-    // battleeffect MOVE_EFFECT_DEF_SP_DEF_DOWN_ATK_SP_ATK_SPEED_UP_2
+    // battleeffect MOVE_EFFECT_ATK_SP_ATK_SPEED_UP_2_DEF_SP_DEF_DOWN
     battleeffect MOVE_EFFECT_ATK_SPEED_UP /* AI */
     pss SPLIT_STATUS
     basepower 0
@@ -8193,7 +8194,7 @@ movedata MOVE_SKY_DROP, "Sky Drop"
     movedescription MOVE_SKY_DROP, "It takes the enemy\ninto the sky,\nwhere it can’t\nattack. It is\ndropped next turn."
 
 movedata MOVE_SHIFT_GEAR, "Shift Gear"
-    // battleeffect MOVE_EFFECT_ATK_UP_SPEED_UP_2
+    // battleeffect MOVE_EFFECT_SPEED_UP_2_ATK_UP
     battleeffect MOVE_EFFECT_ATK_SPEED_UP /* AI */
     pss SPLIT_STATUS
     basepower 0
@@ -8259,6 +8260,7 @@ movedata MOVE_QUASH, "Quash"
     movedescription MOVE_QUASH, "The user suppresses\nthe target and makes\nits move go last."
 
 movedata MOVE_ACROBATICS, "Acrobatics"
+    // battleeffect MOVE_EFFECT_DOUBLE_POWER_WITHOUT_ITEM
     battleeffect MOVE_EFFECT_HIT /**** EDIT: Damage boost is handled in CalcBaseDamage. */
     pss SPLIT_PHYSICAL
     basepower 55
@@ -8983,7 +8985,7 @@ movedata MOVE_ICICLE_CRASH, "Icicle Crash"
     movedescription MOVE_ICICLE_CRASH, "Icicles are dropped\non the foe. It may\nalso make the foe\nflinch."
 
 movedata MOVE_V_CREATE, "V-create"
-    battleeffect MOVE_EFFECT_DEF_SP_DEF_SPEED_DOWN_HIT
+    battleeffect MOVE_EFFECT_USER_DEF_SP_DEF_SPEED_DOWN_HIT
     pss SPLIT_PHYSICAL
     basepower 180
     type TYPE_FIRE
@@ -9012,7 +9014,7 @@ movedata MOVE_FUSION_FLARE, "Fusion Flare"
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
-    movedescription MOVE_FUSION_FLARE, "The user brings down\na huge flame. It does\nmore damage when\ninfluenced by an\nenormous bolt."
+    movedescription MOVE_FUSION_FLARE, "The user brings down\na giant flame.\nIt does more damage\nwhen influenced by\nan enormous bolt."
 
 movedata MOVE_FUSION_BOLT, "Fusion Bolt"
     battleeffect MOVE_EFFECT_HIT
@@ -9028,7 +9030,7 @@ movedata MOVE_FUSION_BOLT, "Fusion Bolt"
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
-    movedescription MOVE_FUSION_BOLT, "The user throws down\na giant bolt. It does\nmore damage when\ninfluenced by an\nenormous flame."
+    movedescription MOVE_FUSION_BOLT, "The user throws down\na giant bolt.\nIt does more damage\nwhen influenced by\nan enormous flame."
 
 
 movedata MOVE_FLYING_PRESS, "Flying Press"
@@ -9045,7 +9047,7 @@ movedata MOVE_FLYING_PRESS, "Flying Press"
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
-    movedescription MOVE_FLYING_PRESS, "---"
+    movedescription MOVE_FLYING_PRESS, "The user dives down\nonto the target from\nthe sky. This move is\nFighting and Flying\ntype simultaneously."
 
 movedata MOVE_MAT_BLOCK, "Mat Block"
     battleeffect MOVE_EFFECT_HIT
@@ -9077,7 +9079,7 @@ movedata MOVE_BELCH, "Belch"
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
-    movedescription MOVE_BELCH, "---"
+    movedescription MOVE_BELCH, "The user lets out a\ndamaging belch at the\ntarget. The user must\neat a held Berry to\nuse this move."
 
 movedata MOVE_ROTOTILLER, "Rototiller"
     battleeffect MOVE_EFFECT_HIT
@@ -9096,7 +9098,7 @@ movedata MOVE_ROTOTILLER, "Rototiller"
     movedescription MOVE_ROTOTILLER, "---"
 
 movedata MOVE_STICKY_WEB, "Sticky Web"
-    battleeffect MOVE_EFFECT_HIT
+    battleeffect MOVE_EFFECT_STICKY_WEB
     pss SPLIT_STATUS
     basepower 0
     type TYPE_BUG
@@ -9109,7 +9111,7 @@ movedata MOVE_STICKY_WEB, "Sticky Web"
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
-    movedescription MOVE_STICKY_WEB, "---"
+    movedescription MOVE_STICKY_WEB, "The user weaves a web\naround the foe.\nIt lowers the foes\nSpeed upon switching\nin."
 
 movedata MOVE_FELL_STINGER, "Fell Stinger"
     // battleeffect MOVE_EFFECT_FELL_STINGER
@@ -9126,7 +9128,7 @@ movedata MOVE_FELL_STINGER, "Fell Stinger"
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
-    movedescription MOVE_FELL_STINGER, "---"
+    movedescription MOVE_FELL_STINGER, "When the user knocks\nout a target with\nthis move, the\nuser's Attack stat\nrises drastically."
 
 movedata MOVE_PHANTOM_FORCE, "Phantom Force"
     battleeffect MOVE_EFFECT_SHADOW_FORCE
@@ -9158,7 +9160,7 @@ movedata MOVE_TRICK_OR_TREAT, "Trick-or-Treat"
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
-    movedescription MOVE_TRICK_OR_TREAT, "---"
+    movedescription MOVE_TRICK_OR_TREAT, "The user takes the\ntarget\ntrick-or-treating.\nThis adds Ghost type\nto the target's type."
 
 movedata MOVE_NOBLE_ROAR, "Noble Roar"
     // battleeffect MOVE_EFFECT_NOBLE_ROAR
@@ -9175,7 +9177,7 @@ movedata MOVE_NOBLE_ROAR, "Noble Roar"
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
-    movedescription MOVE_NOBLE_ROAR, "---"
+    movedescription MOVE_NOBLE_ROAR, "Letting out a noble\nroar, the user\nintimidates the target\nand lowers its Attack\nand Sp. Atk stats."
 
 movedata MOVE_ION_DELUGE, "Ion Deluge"
     battleeffect MOVE_EFFECT_HIT
@@ -9223,7 +9225,7 @@ movedata MOVE_FORESTS_CURSE, "Forest’s Curse"
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
-    movedescription MOVE_FORESTS_CURSE, "---"
+    movedescription MOVE_FORESTS_CURSE, "The user puts a forest\ncurse on the target.\nThis adds Grass type\nto the target's type."
 
 movedata MOVE_PETAL_BLIZZARD, "Petal Blizzard"
     battleeffect MOVE_EFFECT_HIT
@@ -9239,7 +9241,7 @@ movedata MOVE_PETAL_BLIZZARD, "Petal Blizzard"
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
-    movedescription MOVE_PETAL_BLIZZARD, "---"
+    movedescription MOVE_PETAL_BLIZZARD, "The user stirs up a\nviolent petal blizzard\nand attacks everything\naround it."
 
 movedata MOVE_FREEZE_DRY, "Freeze-Dry"
     battleeffect MOVE_EFFECT_FREEZE_HIT // SE Water eff is handled in code.
@@ -9271,7 +9273,7 @@ movedata MOVE_DISARMING_VOICE, "Disarming Voice"
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
-    movedescription MOVE_DISARMING_VOICE, "---"
+    movedescription MOVE_DISARMING_VOICE, "Letting out a charming\ncry, the user does\nemotional damage to\nopposing Pokémon. This\nattack never misses."
 
 movedata MOVE_PARTING_SHOT, "Parting Shot"
     // battleeffect MOVE_EFFECT_PARTING_SHOT
@@ -9288,7 +9290,7 @@ movedata MOVE_PARTING_SHOT, "Parting Shot"
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
-    movedescription MOVE_PARTING_SHOT, "---"
+    movedescription MOVE_PARTING_SHOT, "With a parting threat,\nthe user lowers the\ntarget's Attack and\nSp. Atk stats.\nThen it switches out."
 
 movedata MOVE_TOPSY_TURVY, "Topsy-Turvy"
     battleeffect MOVE_EFFECT_HIT
@@ -9304,7 +9306,7 @@ movedata MOVE_TOPSY_TURVY, "Topsy-Turvy"
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
-    movedescription MOVE_TOPSY_TURVY, "---"
+    movedescription MOVE_TOPSY_TURVY, "All stat changes\naffecting the target\nturn topsy-turvy and\nbecome the opposite of\nwhat they were."
 
 movedata MOVE_DRAINING_KISS, "Draining Kiss"
     battleeffect MOVE_EFFECT_RECOVER_HALF_DAMAGE_DEALT /**** EDIT: Linked sub_seq has the 75% drain. */
@@ -9352,7 +9354,7 @@ movedata MOVE_FLOWER_SHIELD, "Flower Shield"
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
-    movedescription MOVE_FLOWER_SHIELD, "---"
+    movedescription MOVE_FLOWER_SHIELD, "The user raises the\nDefense stats of all\nGrass-type Pokémon\nin battle with a\nmysterious power."
 
 movedata MOVE_GRASSY_TERRAIN, "Grassy Terrain"
     // battleeffect MOVE_EFFECT_APPLY_TERRAINS
@@ -9369,7 +9371,7 @@ movedata MOVE_GRASSY_TERRAIN, "Grassy Terrain"
     appeal 0x05
     contesttype CONTEST_BEAUTY
     terminatedata
-    movedescription MOVE_GRASSY_TERRAIN, "---"
+    movedescription MOVE_GRASSY_TERRAIN, "The user turns the\nground into Grassy\nTerrain for five\nturns. This powers up\nGrass-type moves."
 
 movedata MOVE_MISTY_TERRAIN, "Misty Terrain"
     // battleeffect MOVE_EFFECT_APPLY_TERRAINS
@@ -9418,7 +9420,7 @@ movedata MOVE_PLAY_ROUGH, "Play Rough"
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
-    movedescription MOVE_PLAY_ROUGH, "---"
+    movedescription MOVE_PLAY_ROUGH, "The user attacks by\nplaying rough with the\ntarget. This may also\nlower the target's\nAttack stat."
 
 movedata MOVE_FAIRY_WIND, "Fairy Wind"
     battleeffect MOVE_EFFECT_HIT
@@ -9434,7 +9436,7 @@ movedata MOVE_FAIRY_WIND, "Fairy Wind"
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
-    movedescription MOVE_FAIRY_WIND, "---"
+    movedescription MOVE_FAIRY_WIND, "The user attacks by\nstirring up a fairy\nwind to strike the\ntarget."
 
 movedata MOVE_MOONBLAST, "Moonblast"
     battleeffect MOVE_EFFECT_LOWER_SP_ATK_HIT
@@ -9450,7 +9452,7 @@ movedata MOVE_MOONBLAST, "Moonblast"
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
-    movedescription MOVE_MOONBLAST, "---"
+    movedescription MOVE_MOONBLAST, "Borrowing the power of\nthe moon, the user\nattacks the target.\nThis may also lower the\ntarget's Sp. Atk stat."
 
 movedata MOVE_BOOMBURST, "Boomburst"
     battleeffect MOVE_EFFECT_HIT
@@ -9466,7 +9468,7 @@ movedata MOVE_BOOMBURST, "Boomburst"
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
-    movedescription MOVE_BOOMBURST, "---"
+    movedescription MOVE_BOOMBURST, "The user attacks\neverything around it\nwith the destructive\npower of a terrible\nexplosive sound."
 
 movedata MOVE_FAIRY_LOCK, "Fairy Lock"
     battleeffect MOVE_EFFECT_HIT
@@ -9610,7 +9612,7 @@ movedata MOVE_MYSTICAL_FIRE, "Mystical Fire"
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
-    movedescription MOVE_MYSTICAL_FIRE, "---"
+    movedescription MOVE_MYSTICAL_FIRE, "The user attacks by\nbreathing a special,\nhot fire.\nThis also lowers the\ntarget's Sp. Atk stat."
 
 movedata MOVE_SPIKY_SHIELD, "Spiky Shield"
     battleeffect MOVE_EFFECT_HIT
@@ -9771,7 +9773,7 @@ movedata MOVE_DAZZLING_GLEAM, "Dazzling Gleam"
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
-    movedescription MOVE_DAZZLING_GLEAM, "---"
+    movedescription MOVE_DAZZLING_GLEAM, "The user damages\nopposing Pokémon by\nemitting a powerful\nflash."
 
 movedata MOVE_CELEBRATE, "Celebrate"
     battleeffect MOVE_EFFECT_DO_NOTHING
@@ -9883,7 +9885,7 @@ movedata MOVE_POWER_UP_PUNCH, "Power-Up Punch"
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
-    movedescription MOVE_POWER_UP_PUNCH, "---"
+    movedescription MOVE_POWER_UP_PUNCH, "Striking opponents\nover and over makes\nthe user's fists\nharder. Hitting a\ntarget raises Attack."
 
 movedata MOVE_OBLIVION_WING, "Oblivion Wing"
     battleeffect MOVE_EFFECT_RECOVER_HALF_DAMAGE_DEALT
@@ -9981,7 +9983,7 @@ movedata MOVE_ORIGIN_PULSE, "Origin Pulse"
     terminatedata
     movedescription MOVE_ORIGIN_PULSE, "---"
 
-movedatalongname MOVE_PRECIPICE_BLADES, "Precipice Blade", "Precipice Blades"
+movedatalongname MOVE_PRECIPICE_BLADES, "PrecipiceBlades", "Precipice Blades"
     battleeffect MOVE_EFFECT_HIT
     pss SPLIT_PHYSICAL
     basepower 120
@@ -9998,7 +10000,7 @@ movedatalongname MOVE_PRECIPICE_BLADES, "Precipice Blade", "Precipice Blades"
     movedescription MOVE_PRECIPICE_BLADES, "---"
 
 movedata MOVE_DRAGON_ASCENT, "Dragon Ascent"
-    battleeffect MOVE_EFFECT_DEF_SP_DEF_DOWN_HIT
+    battleeffect MOVE_EFFECT_USER_DEF_SP_DEF_DOWN_HIT
     pss SPLIT_PHYSICAL
     basepower 120
     type TYPE_FLYING
@@ -10652,7 +10654,7 @@ movedatalongname MOVE_FIRST_IMPRESSION, "FirstImpression", "First Impression"
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
-    movedescription MOVE_FIRST_IMPRESSION, "---"
+    movedescription MOVE_FIRST_IMPRESSION, "Although this move has\ngreat power, it works\nonly on the first turn\neach time the user\nenters battle."
 
 movedata MOVE_BANEFUL_BUNKER, "Baneful Bunker"
     battleeffect MOVE_EFFECT_PROTECT
@@ -10719,7 +10721,7 @@ movedata MOVE_SPARKLING_ARIA, "Sparkling Aria"
     movedescription MOVE_SPARKLING_ARIA, "---"
 
 movedata MOVE_ICE_HAMMER, "Ice Hammer"
-    battleeffect MOVE_EFFECT_SPEED_DOWN_HIT
+    battleeffect MOVE_EFFECT_USER_SPEED_DOWN_HIT
     pss SPLIT_PHYSICAL
     basepower 100
     type TYPE_ICE
@@ -10732,7 +10734,7 @@ movedata MOVE_ICE_HAMMER, "Ice Hammer"
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
-    movedescription MOVE_ICE_HAMMER, "---"
+    movedescription MOVE_ICE_HAMMER, "The user swings and\nhits with its strong,\nheavy fist.\nIt lowers the user's\nSpeed, however."
 
 movedata MOVE_FLORAL_HEALING, "Floral Healing"
     battleeffect MOVE_EFFECT_HIT
@@ -10764,7 +10766,7 @@ movedata MOVE_HIGH_HORSEPOWER, "High Horsepower"
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
-    movedescription MOVE_HIGH_HORSEPOWER, "---"
+    movedescription MOVE_HIGH_HORSEPOWER, "The user fiercely\nattacks the target\nusing its entire body."
 
 movedata MOVE_STRENGTH_SAP, "Strength Sap"
     // battleeffect MOVE_EFFECT_STRENGTH_SAP
@@ -10813,7 +10815,7 @@ movedata MOVE_LEAFAGE, "Leafage"
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
-    movedescription MOVE_LEAFAGE, "---"
+    movedescription MOVE_LEAFAGE, "The user attacks by\npelting the target\nwith leaves."
 
 movedata MOVE_SPOTLIGHT, "Spotlight"
     battleeffect MOVE_EFFECT_MAKE_GLOBAL_TARGET
@@ -10894,7 +10896,7 @@ movedata MOVE_THROAT_CHOP, "Throat Chop"
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
-    movedescription MOVE_THROAT_CHOP, "---"
+    movedescription MOVE_THROAT_CHOP, "The user attacks the\ntarget's throat,\npreventing the target\nfrom using sound-based\nmoves for two turns."
 
 movedata MOVE_POLLEN_PUFF, "Pollen Puff"
     battleeffect MOVE_EFFECT_POLLEN_PUFF
@@ -10926,7 +10928,7 @@ movedata MOVE_ANCHOR_SHOT, "Anchor Shot"
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
-    movedescription MOVE_ANCHOR_SHOT, "---"
+    movedescription MOVE_ANCHOR_SHOT, "The user entangles the\ntarget with its anchor\nchain while attacking.\nThe target becomes\nunable to flee."
 
 movedata MOVE_PSYCHIC_TERRAIN, "Psychic Terrain"
     // battleeffect MOVE_EFFECT_APPLY_TERRAINS
@@ -10975,7 +10977,7 @@ movedata MOVE_FIRE_LASH, "Fire Lash"
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
-    movedescription MOVE_FIRE_LASH, "---"
+    movedescription MOVE_FIRE_LASH, "The user strikes the\ntarget with a burning\nlash.\nThis also lowers the\ntarget's Defense stat."
 
 movedata MOVE_POWER_TRIP, "Power Trip"
     battleeffect MOVE_EFFECT_HIT
@@ -11039,7 +11041,7 @@ movedata MOVE_SMART_STRIKE, "Smart Strike"
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
-    movedescription MOVE_SMART_STRIKE, "---"
+    movedescription MOVE_SMART_STRIKE, "The user stabs the\ntarget with a sharp\nhorn.\nThis attack never\nmisses."
 
 movedata MOVE_PURIFY, "Purify"
     battleeffect MOVE_EFFECT_HIT
@@ -11167,7 +11169,7 @@ movedata MOVE_DRAGON_HAMMER, "Dragon Hammer"
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
-    movedescription MOVE_DRAGON_HAMMER, "---"
+    movedescription MOVE_DRAGON_HAMMER, "The user wields its\nbody like a hammer to\nattack the target and\ninflict damage."
 
 movedata MOVE_BRUTAL_SWING, "Brutal Swing"
     battleeffect MOVE_EFFECT_HIT
@@ -11183,7 +11185,7 @@ movedata MOVE_BRUTAL_SWING, "Brutal Swing"
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
-    movedescription MOVE_BRUTAL_SWING, "---"
+    movedescription MOVE_BRUTAL_SWING, "The user swings its\nbody around violently\nto inflict damage on\neverything in its\nvicinity."
 
 movedata MOVE_AURORA_VEIL, "Aurora Veil"
     // battleeffect MOVE_EFFECT_AURORA_VEIL // This is not very accurate
@@ -11376,7 +11378,7 @@ movedata MOVE_FLEUR_CANNON, "Fleur Cannon"
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
-    movedescription MOVE_FLEUR_CANNON, "---"
+    movedescription MOVE_FLEUR_CANNON, "The user unleashes a\nstrong beam.\nThe attack's recoil\nharshly lowers the\nuser's Sp. Atk stat."
 
 movedata MOVE_PSYCHIC_FANGS, "Psychic Fangs"
     battleeffect MOVE_EFFECT_REMOVE_SCREENS
@@ -11392,9 +11394,9 @@ movedata MOVE_PSYCHIC_FANGS, "Psychic Fangs"
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
-    movedescription MOVE_PSYCHIC_FANGS, "---"
+    movedescription MOVE_PSYCHIC_FANGS, "The user bites the\ntarget with its psychic\ncapabilities. This can\nalso destroy Light\nScreen and Reflect."
 
-movedatalongname MOVE_STOMPING_TANTRUM, "Stomp Tantrum", "Stomping Tantrum"
+movedatalongname MOVE_STOMPING_TANTRUM, "StompingTantrum", "Stomping Tantrum"
     battleeffect MOVE_EFFECT_HIT
     pss SPLIT_PHYSICAL
     basepower 75
@@ -11440,7 +11442,7 @@ movedata MOVE_ACCELEROCK, "Accelerock"
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
-    movedescription MOVE_ACCELEROCK, "---"
+    movedescription MOVE_ACCELEROCK, "The user smashes into\nthe target at high\nspeed.\nThis move always goes\nfirst."
 
 movedata MOVE_LIQUIDATION, "Liquidation"
     battleeffect MOVE_EFFECT_LOWER_DEFENSE_HIT
@@ -12693,7 +12695,7 @@ movedata MOVE_APPLE_ACID, "Apple Acid"
     movedescription MOVE_APPLE_ACID, "---"
 
 movedata MOVE_GRAV_APPLE, "Grav Apple"
-    battleeffect MOVE_EFFECT_LOWER_DEFENSE_HIT /* Damage boost in Gravity is handled in CalcBaseDamage.c. */
+    battleeffect MOVE_EFFECT_LOWER_DEFENSE_HIT // damage portion handled in CalcBaseDamage.c
     pss SPLIT_PHYSICAL
     basepower 80
     type TYPE_GRASS
@@ -12834,7 +12836,7 @@ movedata MOVE_STEEL_BEAM, "Steel Beam"
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
-    movedescription MOVE_STEEL_BEAM, "---"
+    movedescription MOVE_STEEL_BEAM, "The user fires a beam\nof steel that it\ncollected from its\nentire body. This also\ndamages the user."
 
 movedata MOVE_EXPANDING_FORCE, "Expanding Force"
     battleeffect MOVE_EFFECT_HIT // damage portion handled in CalcBaseDamage.c
@@ -12866,7 +12868,7 @@ movedata MOVE_STEEL_ROLLER, "Steel Roller"
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
-    movedescription MOVE_STEEL_ROLLER, "---"
+    movedescription MOVE_STEEL_ROLLER, "The user attacks while\ndestroying the terrain.\nThis move fails if the\nground hasn't turned\ninto a terrain."
 
 movedata MOVE_SCALE_SHOT, "Scale Shot"
     battleeffect MOVE_EFFECT_SCALE_SHOT
@@ -12885,7 +12887,7 @@ movedata MOVE_SCALE_SHOT, "Scale Shot"
     movedescription MOVE_SCALE_SHOT, "---"
 
 movedata MOVE_METEOR_BEAM, "Meteor Beam"
-    // battleeffect MOVE_EFFECT_METEOR_BEAM
+    // battleeffect MOVE_EFFECT_CHARGE_TURN_SP_ATK_UP
     battleeffect MOVE_EFFECT_CHARGE_TURN_DEF_UP /* AI */
     pss SPLIT_SPECIAL
     basepower 120
@@ -12899,7 +12901,7 @@ movedata MOVE_METEOR_BEAM, "Meteor Beam"
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
-    movedescription MOVE_METEOR_BEAM, "---"
+    movedescription MOVE_METEOR_BEAM, "The user gathers\nenergy from space to\nraise its Sp. Atk on\nthe first turn, then\nattacks on the next."
 
 movedata MOVE_SHELL_SIDE_ARM, "Shell Side Arm"
     battleeffect MOVE_EFFECT_HIT
@@ -12918,7 +12920,7 @@ movedata MOVE_SHELL_SIDE_ARM, "Shell Side Arm"
     movedescription MOVE_SHELL_SIDE_ARM, "---"
 
 movedata MOVE_MISTY_EXPLOSION, "Misty Explosion"
-    battleeffect MOVE_EFFECT_HALVE_DEFENSE // handled in CalcBaseDamage.c
+    battleeffect MOVE_EFFECT_HALVE_DEFENSE // damage portion handled in CalcBaseDamage.c
     pss SPLIT_SPECIAL
     basepower 100
     type (FAIRY_TYPE_IMPLEMENTED) ? TYPE_FAIRY : TYPE_NORMAL
@@ -12950,7 +12952,7 @@ movedata MOVE_GRASSY_GLIDE, "Grassy Glide"
     movedescription MOVE_GRASSY_GLIDE, "---"
 
 movedata MOVE_RISING_VOLTAGE, "Rising Voltage"
-    battleeffect MOVE_EFFECT_HIT // handled in CalcBaseDamage.c
+    battleeffect MOVE_EFFECT_HIT // damage portion handled in CalcBaseDamage.c
     pss SPLIT_SPECIAL
     basepower 70
     type TYPE_ELECTRIC
@@ -12995,7 +12997,7 @@ movedata MOVE_SKITTER_SMACK, "Skitter Smack"
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
-    movedescription MOVE_SKITTER_SMACK, "---"
+    movedescription MOVE_SKITTER_SMACK, "The user skitters\nbehind the target to\nattack.\nThis also lowers the\ntarget's Sp. Atk stat."
 
 movedatalongname MOVE_BURNING_JEALOUSY, "BurningJealousy", "Burning Jealousy"
     battleeffect MOVE_EFFECT_BURNING_JEALOUSY
@@ -13331,7 +13333,7 @@ movedata MOVE_DIRE_CLAW, "Dire Claw"
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
-    movedescription MOVE_DIRE_CLAW, "---"
+    movedescription MOVE_DIRE_CLAW, "The user lashes out at\nthe target with\nruinous claws. May\nalso poison, paralyze,\nor sleep the target."
 
 movedata MOVE_PSYSHIELD_BASH, "Psyshield Bash"
     battleeffect MOVE_EFFECT_RAISE_DEF_HIT
@@ -13495,7 +13497,7 @@ movedata MOVE_VICTORY_DANCE, "Victory Dance"
     movedescription MOVE_VICTORY_DANCE, "---"
 
 movedata MOVE_HEADLONG_RUSH, "Headlong Rush"
-    battleeffect MOVE_EFFECT_DEF_SP_DEF_DOWN_HIT
+    battleeffect MOVE_EFFECT_USER_DEF_SP_DEF_DOWN_HIT
     pss SPLIT_PHYSICAL
     basepower 120
     type TYPE_GROUND
@@ -13508,9 +13510,10 @@ movedata MOVE_HEADLONG_RUSH, "Headlong Rush"
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
-    movedescription MOVE_HEADLONG_RUSH, "---"
+    movedescription MOVE_HEADLONG_RUSH, "The user smashes into\nthe target in a\nfull-body tackle. This\nalso lowers the user’s\nDefense and Sp. Def."
 
 movedata MOVE_BARB_BARRAGE, "Barb Barrage"
+    // battleeffect MOVE_EFFECT_POISON_HIT_DOUBLE_POWER_ON_POISONED
     battleeffect MOVE_EFFECT_POISON_HIT /**** EDIT: Damage boost is handled in CalcBaseDamage. */
     pss SPLIT_PHYSICAL
     basepower 60
@@ -13592,6 +13595,7 @@ movedata MOVE_TRIPLE_ARROWS, "Triple Arrows"
     movedescription MOVE_TRIPLE_ARROWS, "---"
 
 movedata MOVE_INFERNAL_PARADE, "Infernal Parade"
+    // battleeffect MOVE_EFFECT_BURN_HIT_DOUBLE_POWER_ON_STATUS
     battleeffect MOVE_EFFECT_BURN_HIT /**** EDIT: Damage boost is handled in CalcBaseDamage. */
     pss SPLIT_SPECIAL
     basepower 60
@@ -13813,7 +13817,7 @@ movedata MOVE_JET_PUNCH, "Jet Punch"
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
-    movedescription MOVE_JET_PUNCH, "---"
+    movedescription MOVE_JET_PUNCH, "The user summons a\ntorrent around its\nfist and punches at\nblinding speed. It is\nsure to strike first."
 
 movedata MOVE_SPICY_EXTRACT, "Spicy Extract"
     battleeffect MOVE_EFFECT_SPICY_EXTRACT
@@ -14232,7 +14236,7 @@ movedata MOVE_SNOWSCAPE, "Snowscape"
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
-    movedescription MOVE_SNOWSCAPE, "---"
+    movedescription MOVE_SNOWSCAPE, "The user summons a\nsnowstorm lasting five\nturns. This boosts the\nDefense stats of Ice\ntypes."
 
 movedata MOVE_POUNCE, "Pounce"
     battleeffect MOVE_EFFECT_LOWER_SPEED_HIT
@@ -14264,7 +14268,7 @@ movedata MOVE_TRAILBLAZE, "Trailblaze"
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
-    movedescription MOVE_TRAILBLAZE, "---"
+    movedescription MOVE_TRAILBLAZE, "The user attacks as if\nleaping out from tall\ngrass. The user's\nnimble footwork raises\nits Speed stat."
 
 movedata MOVE_CHILLING_WATER, "Chilling Water"
     battleeffect MOVE_EFFECT_LOWER_ATTACK_HIT
@@ -14312,7 +14316,7 @@ movedata MOVE_TWIN_BEAM, "Twin Beam"
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
-    movedescription MOVE_TWIN_BEAM, "---"
+    movedescription MOVE_TWIN_BEAM, "The user shoots\nmystical beams from its\neyes to inflict damage.\nThe target is hit twice\nin a row."
 
 movedata MOVE_RAGE_FIST, "Rage Fist"
     battleeffect MOVE_EFFECT_HIT
@@ -14328,10 +14332,10 @@ movedata MOVE_RAGE_FIST, "Rage Fist"
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
-    movedescription MOVE_RAGE_FIST, "---"
+    movedescription MOVE_RAGE_FIST, "The user converts its\nrage into energy to\nattack. The more the\nuser has been attacked,\nthe greater the power."
 
 movedata MOVE_ARMOR_CANNON, "Armor Cannon"
-    battleeffect MOVE_EFFECT_DEF_SP_DEF_DOWN_HIT
+    battleeffect MOVE_EFFECT_USER_DEF_SP_DEF_DOWN_HIT
     pss SPLIT_SPECIAL
     basepower 120
     type TYPE_FIRE
@@ -14344,7 +14348,7 @@ movedata MOVE_ARMOR_CANNON, "Armor Cannon"
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
-    movedescription MOVE_ARMOR_CANNON, "---"
+    movedescription MOVE_ARMOR_CANNON, "The user shoots its own\narmor out as blazing\nprojectiles. It also\ncuts the user’s Defense\nand Sp. Def stats."
 
 movedata MOVE_BITTER_BLADE, "Bitter Blade"
     battleeffect MOVE_EFFECT_RECOVER_HALF_DAMAGE_DEALT
@@ -14392,7 +14396,7 @@ movedata MOVE_GIGATON_HAMMER, "Gigaton Hammer"
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
-    movedescription MOVE_GIGATON_HAMMER, "---"
+    movedescription MOVE_GIGATON_HAMMER, "The user swings its\nwhole body around to\nattack with its huge\nhammer. This move can't\nbe used twice in a row."
 
 movedata MOVE_COMEUPPANCE, "Comeuppance"
     battleeffect MOVE_EFFECT_METAL_BURST
@@ -14424,7 +14428,7 @@ movedata MOVE_AQUA_CUTTER, "Aqua Cutter"
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
-    movedescription MOVE_AQUA_CUTTER, "---"
+    movedescription MOVE_AQUA_CUTTER, "The user expels\npressurized water to\ncut at the target like\na blade. It has a high\ncritical-hit ratio."
 
 movedata MOVE_BLAZING_TORQUE, "Blazing Torque"
     battleeffect MOVE_EFFECT_BURN_HIT
@@ -14520,7 +14524,7 @@ movedata MOVE_BLOOD_MOON, "Blood Moon"
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
-    movedescription MOVE_BLOOD_MOON, "---"
+    movedescription MOVE_BLOOD_MOON, "The user unleashes the\nfull brunt of its spirit\nfrom a full moon.\nThis move can't be used\ntwice in a row."
 
 movedata MOVE_MATCHA_GOTCHA, "Matcha Gotcha"
     battleeffect MOVE_EFFECT_RECOVER_HALF_DAMAGE_DEALT
@@ -14571,7 +14575,7 @@ movedata MOVE_IVY_CUDGEL, "Ivy Cudgel"
     movedescription MOVE_IVY_CUDGEL, "---"
 
 movedata MOVE_ELECTRO_SHOT, "Electro Shot"
-    // battleeffect MOVE_EFFECT_ELECTRO_SHOT
+    // battleeffect MOVE_EFFECT_CHARGE_TURN_SP_ATK_UP_RAIN_SKIPS
     battleeffect MOVE_EFFECT_CHARGE_TURN_DEF_UP /* AI */
     pss SPLIT_SPECIAL
     basepower 130
@@ -14585,7 +14589,7 @@ movedata MOVE_ELECTRO_SHOT, "Electro Shot"
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
-    movedescription MOVE_ELECTRO_SHOT, "---"
+    movedescription MOVE_ELECTRO_SHOT, "A two-turn attack.\nThe user gathers\nlight, then fires a\nhigh voltage shot\non the second turn."
 
 movedata MOVE_TERA_STARSTORM, "Tera Starstorm"
     battleeffect MOVE_EFFECT_HIT
@@ -14633,7 +14637,7 @@ movedata MOVE_BURNING_BULWARK, "Burning Bulwark"
     appeal 0x00
     contesttype CONTEST_COOL
     terminatedata
-    movedescription MOVE_BURNING_BULWARK, "---"
+    movedescription MOVE_BURNING_BULWARK, "The user’s intensely hot\nfur protects it from\nattacks and also burns\nany attacker that makes\ndirect contact with it."
 
 movedata MOVE_THUNDERCLAP, "Thunderclap"
     battleeffect MOVE_EFFECT_HIT_FIRST_IF_TARGET_ATTACKING

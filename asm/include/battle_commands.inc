@@ -1373,11 +1373,12 @@
     .long \arg_0
     .endm
 
-    .macro StrengthSapCalc
+    .macro SwitchInAbilityCheck arg_0
     .long 251
+    .long (((\arg_0 - .) / 4) - 1)
     .endm
 
-    .macro DidTargetRaiseStat arg_0
+    .macro TryStickyWeb arg_0
     .long 252
     .long (((\arg_0 - .) / 4) - 1)
     .endm
@@ -1398,6 +1399,15 @@
     
     .macro IfLastHitOfMultiHit arg_0
     .long 256
+    .long (((\arg_0 - .) / 4) - 1)
+    .endm
+
+    .macro StrengthSapCalc
+    .long 257
+    .endm
+
+    .macro DidTargetRaiseStat arg_0
+    .long 258
     .long (((\arg_0 - .) / 4) - 1)
     .endm
 

@@ -13,7 +13,7 @@ struct TrainerMoney
     u16 multiplier;
 };
 
-struct TrainerMoney PrizeMoney [] = // 0x34C04 in Overlay 12; 2 bytes for trainer class ID, 2 bytes for modifier; 516 bytes in total in vanilla
+struct TrainerMoney PrizeMoneyA [] = // 0x34C04 in Overlay 12; 2 bytes for trainer class ID, 2 bytes for modifier; 516 bytes in total in vanilla
 {
    {.class = CLASS_PKMN_TRAINER_0,   .multiplier = 16}, // Entry 0, Ethan (0 -> 16)
    {.class = CLASS_PKMN_TRAINER_1,   .multiplier = 16}, // Entry 1, Lyra (0 -> 16)

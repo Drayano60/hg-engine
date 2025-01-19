@@ -47,7 +47,7 @@ BOOL MoveHitDefenderAbilityCheckInternal(void *bw, struct BattleStruct *sp, int 
                 && ((sp->server_status_flag2 & SERVER_STATUS_FLAG2_U_TURN) == 0)
                 && ((sp->oneSelfFlag[sp->defence_client].physical_damage) ||
                     (sp->oneSelfFlag[sp->defence_client].special_damage))
-                && (IsMoveContact(sp))
+                && (IsContactBeingMade(bw, sp))
                 && (BattleRand(bw) % 10 < 3)) {
                 sp->addeffect_type = ADD_STATUS_ABILITY;
                 sp->state_client = sp->attack_client;
@@ -93,7 +93,7 @@ BOOL MoveHitDefenderAbilityCheckInternal(void *bw, struct BattleStruct *sp, int 
                 && ((sp->server_status_flag2 & SERVER_STATUS_FLAG2_U_TURN) == 0)
                 && ((sp->oneSelfFlag[sp->defence_client].physical_damage) ||
                     (sp->oneSelfFlag[sp->defence_client].special_damage))
-                && (IsMoveContact(sp))) {
+                && (IsContactBeingMade(bw, sp))) {
                 sp->hp_calc_work = BattleDamageDivide(sp->battlemon[sp->attack_client].maxhp * -1, 8);
                 sp->client_work = sp->attack_client;
                 seq_no[0] = SUB_SEQ_ROUGH_SKIN;
@@ -108,7 +108,7 @@ BOOL MoveHitDefenderAbilityCheckInternal(void *bw, struct BattleStruct *sp, int 
                 && ((sp->server_status_flag2 & SERVER_STATUS_FLAG2_U_TURN) == 0)
                 && ((sp->oneSelfFlag[sp->defence_client].physical_damage) ||
                     (sp->oneSelfFlag[sp->defence_client].special_damage))
-                && (IsMoveContact(sp))
+                && (IsContactBeingMade(bw, sp))
 
                 /**** AURORA CRYSTAL: Modernize so it can't effect Grass-types or Pokémon with Overcoat. ****/
                 && (BattlePokemonParamGet(sp, sp->attack_client, BATTLE_MON_DATA_TYPE1, NULL) != TYPE_GRASS)
@@ -142,7 +142,7 @@ BOOL MoveHitDefenderAbilityCheckInternal(void *bw, struct BattleStruct *sp, int 
                 && ((sp->server_status_flag2 & SERVER_STATUS_FLAG2_U_TURN) == 0)
                 && ((sp->oneSelfFlag[sp->defence_client].physical_damage) ||
                     (sp->oneSelfFlag[sp->defence_client].special_damage))
-                && (IsMoveContact(sp))
+                && (IsContactBeingMade(bw, sp))
                 && (BattleRand(bw) % 10 < 3)) {
                 sp->addeffect_type = ADD_STATUS_ABILITY;
                 sp->state_client = sp->attack_client;
@@ -159,7 +159,7 @@ BOOL MoveHitDefenderAbilityCheckInternal(void *bw, struct BattleStruct *sp, int 
                 && ((sp->server_status_flag2 & SERVER_STATUS_FLAG2_U_TURN) == 0)
                 && ((sp->oneSelfFlag[sp->defence_client].physical_damage) ||
                     (sp->oneSelfFlag[sp->defence_client].special_damage))
-                && (IsMoveContact(sp))
+                && (IsContactBeingMade(bw, sp))
                 && (BattleRand(bw) % 10 < 3)) {
                 sp->addeffect_type = ADD_STATUS_ABILITY;
                 sp->state_client = sp->attack_client;
@@ -176,7 +176,7 @@ BOOL MoveHitDefenderAbilityCheckInternal(void *bw, struct BattleStruct *sp, int 
                 && ((sp->server_status_flag2 & SERVER_STATUS_FLAG2_U_TURN) == 0)
                 && ((sp->oneSelfFlag[sp->defence_client].physical_damage) ||
                     (sp->oneSelfFlag[sp->defence_client].special_damage))
-                && (IsMoveContact(sp))
+                && (IsContactBeingMade(bw, sp))
                 && (sp->battlemon[sp->defence_client].hp)
                 && (BattleRand(bw) % 10 < 3)) {
                 sp->addeffect_type = ADD_STATUS_ABILITY;
@@ -193,7 +193,7 @@ BOOL MoveHitDefenderAbilityCheckInternal(void *bw, struct BattleStruct *sp, int 
                 && ((sp->server_status_flag2 & SERVER_STATUS_FLAG2_U_TURN) == 0)
                 && (sp->battlemon[sp->attack_client].hp)
                 && ((sp->waza_status_flag & WAZA_STATUS_FLAG_NO_OUT) == 0)
-                && (IsMoveContact(sp))) {
+                && (IsContactBeingMade(bw, sp))) {
                 sp->hp_calc_work = BattleDamageDivide(sp->battlemon[sp->attack_client].maxhp * -1, 4);
                 sp->client_work = sp->attack_client;
                 seq_no[0] = SUB_SEQ_HANDLE_AFTERMATH;
@@ -213,7 +213,7 @@ BOOL MoveHitDefenderAbilityCheckInternal(void *bw, struct BattleStruct *sp, int 
                 ret = TRUE;
             }
             break;
-        //handle rattled
+        // handle rattled
         case ABILITY_RATTLED:
             if ((sp->battlemon[sp->defence_client].hp)
                 && (sp->battlemon[sp->defence_client].states[STAT_SPEED] < 12)
@@ -238,7 +238,7 @@ BOOL MoveHitDefenderAbilityCheckInternal(void *bw, struct BattleStruct *sp, int 
                 }
             }
         break;
-        // Handle Berserk
+        // handle berserk
         case ABILITY_BERSERK:
             if
             (
@@ -248,13 +248,13 @@ BOOL MoveHitDefenderAbilityCheckInternal(void *bw, struct BattleStruct *sp, int 
                 && ((sp->server_status_flag & SERVER_STATUS_FLAG_x20) == 0)
                 && ((sp->server_status_flag2 & SERVER_STATUS_FLAG2_U_TURN) == 0)
                 && ((sp->oneSelfFlag[sp->defence_client].physical_damage) || (sp->oneSelfFlag[sp->defence_client].special_damage))
-                // Berserk doesn't activate if the Pokémon gets attacked by a Sheer Force boosted move
+                // berserk doesn't activate if the Pokémon gets attacked by a sheer force boosted move
                 && !((GetBattlerAbility(sp, sp->attack_client) == ABILITY_SHEER_FORCE) && (sp->battlemon[sp->attack_client].sheer_force_flag == 1))
                 // berserk doesn't activate until the last hit of a multi-hit move
                 && (sp->multi_hit_count <= 1)
                 && (sp->battlemon[sp->defence_client].hp <= (s32)(sp->battlemon[sp->defence_client].maxhp / 2))
                 && (
-                    // Checks if the Pokémon has gone below half HP from the current damage instance
+                    // checks if the pokémon has gone below half HP from the current damage instance
                     // physical_damage and special_damage contain the relevant damage value that was just dealt, but the value is negative
                     ((sp->battlemon[sp->defence_client].hp - (sp->oneSelfFlag[sp->defence_client].physical_damage)) > (s32)sp->battlemon[sp->defence_client].maxhp / 2) ||
                     ((sp->battlemon[sp->defence_client].hp - (sp->oneSelfFlag[sp->defence_client].special_damage)) > (s32)sp->battlemon[sp->defence_client].maxhp / 2)
@@ -320,7 +320,7 @@ BOOL MoveHitDefenderAbilityCheckInternal(void *bw, struct BattleStruct *sp, int 
                 && ((sp->waza_status_flag & WAZA_STATUS_FLAG_NO_OUT) == 0)
                 && ((sp->server_status_flag & SERVER_STATUS_FLAG_x20) == 0)
                 && ((sp->server_status_flag2 & SERVER_STATUS_FLAG2_U_TURN) == 0)
-                && (IsMoveContact(sp))
+                && (IsContactBeingMade(bw, sp))
                 && ((sp->oneSelfFlag[sp->defence_client].physical_damage) ||
                     (sp->oneSelfFlag[sp->defence_client].special_damage)))
             {
@@ -337,7 +337,7 @@ BOOL MoveHitDefenderAbilityCheckInternal(void *bw, struct BattleStruct *sp, int 
             if (((sp->waza_status_flag & WAZA_STATUS_FLAG_NO_OUT) == 0)
                 && ((sp->server_status_flag & SERVER_STATUS_FLAG_x20) == 0)
                 && ((sp->server_status_flag2 & SERVER_STATUS_FLAG2_U_TURN) == 0)
-                && (IsMoveContact(sp))
+                && (IsContactBeingMade(bw, sp))
                 && (MummyAbilityCheck(sp) == TRUE)
                 && ((sp->oneSelfFlag[sp->defence_client].physical_damage) ||
                     (sp->oneSelfFlag[sp->defence_client].special_damage)))
@@ -362,7 +362,7 @@ BOOL MoveHitDefenderAbilityCheckInternal(void *bw, struct BattleStruct *sp, int 
 
                 movetype = GetAdjustedMoveType(sp, sp->attack_client, sp->current_move_index); // new normalize checks
 
-                if(movetype == TYPE_WATER)
+                if (movetype == TYPE_WATER)
                 {
                     if(sp->battlemon[sp->defence_client].states[STAT_DEFENSE] < 11)
                     {
@@ -460,7 +460,7 @@ BOOL MoveHitDefenderAbilityCheckInternal(void *bw, struct BattleStruct *sp, int 
         //handle pickpocket - steal attacker's item if it can
         case ABILITY_PICKPOCKET:
             if (sp->battlemon[sp->defence_client].hp != 0
-             && sp->moveTbl[sp->current_move_index].flag & FLAG_CONTACT
+             && IsContactBeingMade(bw, sp)
              && sp->moveTbl[sp->current_move_index].power != 0
              && CanPickpocketStealClientItem(sp, sp->attack_client)
              && !(GetBattlerAbility(sp, sp->attack_client) == ABILITY_SHEER_FORCE && sp->battlemon[sp->attack_client].sheer_force_flag == 1)) // pickpocket doesn't activate if attacked by sheer force
@@ -540,7 +540,7 @@ BOOL MoveHitDefenderAbilityCheckInternal(void *bw, struct BattleStruct *sp, int 
 
                 if(movetype == TYPE_FIRE)
                 {
-                    if(sp->battlemon[sp->defence_client].states[STAT_DEFENSE] < 12)
+                    if(sp->battlemon[sp->defence_client].states[STAT_ATTACK] < 12)
                     {
                         sp->addeffect_param = ADD_STATE_ATTACK_UP;
                         sp->addeffect_type = ADD_EFFECT_ABILITY;
@@ -772,22 +772,22 @@ BOOL MummyAbilityCheck(struct BattleStruct *sp)
     switch(GetBattlerAbility(sp, sp->attack_client))
     {
         case ABILITY_MULTITYPE:
+        case ABILITY_MUMMY:
         case ABILITY_ZEN_MODE:
         case ABILITY_STANCE_CHANGE:
+        case ABILITY_SHIELDS_DOWN:
         case ABILITY_SCHOOLING:
+        case ABILITY_DISGUISE:
         case ABILITY_BATTLE_BOND:
         case ABILITY_POWER_CONSTRUCT:
-        case ABILITY_SHIELDS_DOWN:
-        case ABILITY_RKS_SYSTEM:
-        case ABILITY_DISGUISE:
         case ABILITY_COMATOSE:
-        case ABILITY_MUMMY:
+        case ABILITY_RKS_SYSTEM:
         case ABILITY_AS_ONE_GLASTRIER:
         case ABILITY_AS_ONE_SPECTRIER:
         // seems to be based on Lingering Aroma from Bulbapedia
+        case ABILITY_LINGERING_AROMA:
         case ABILITY_ZERO_TO_HERO:
         case ABILITY_COMMANDER:
-        case ABILITY_LINGERING_AROMA:
             return FALSE;
         default:
             return TRUE;

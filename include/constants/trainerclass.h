@@ -131,6 +131,17 @@
 #define TRAINERCLASS_PKMN_TRAINER_LUCAS_PT  127
 #define TRAINERCLASS_PKMN_TRAINER_DAWN_PT   128
 
+/**** AURORA CRYSTAL: Constants of replaced classes. */
+#define TRAINERCLASS_CHERYL                 90
+#define TRAINERCLASS_RILEY                  91
+#define TRAINERCLASS_MARLEY                 92
+#define TRAINERCLASS_BUCK                   93
+#define TRAINERCLASS_MIRA                   94
+#define TRAINERCLASS_STEVEN                 95
+#define TRAINERCLASS_CYNTHIA                96
+#define TRAINERCLASS_LANCE                  123
+#define TRAINERCLASS_BLUE                   125
+
 // Only used to display attributes of phone contacts
 #define TRAINERCLASS_PHONE_MOM               200
 #define TRAINERCLASS_PHONE_POKEMON_PROFESSOR 201

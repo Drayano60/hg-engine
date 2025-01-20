@@ -1326,22 +1326,3 @@ BOOL LONG_CALL IsMoveBallBombBased(u32 move)
 {
     return IsElementInArray(BallBombMoveList, (u16 *)(&move), NELEMS(BallBombMoveList), sizeof(BallBombMoveList[0]));
 }
-
-// Used primarily to support the Long Reach ability and Punching Glove.
-BOOL LONG_CALL IsMoveContact(struct BattleStruct *sp)
-{
-    if (GetBattlerAbility(sp, sp->attack_client) == ABILITY_LONG_REACH) {
-        return FALSE;
-    }
-
-    // Punching Glove
-    if (IsMovePunchBased(sp->current_move_index) && (BattleItemDataGet(sp, sp->battlemon[sp->attack_client].item, 1) == HOLD_EFFECT_INCREASE_PUNCHING_MOVE_DMG)) {
-        return FALSE;
-    }
-
-    if (sp->moveTbl[sp->current_move_index].flag & FLAG_CONTACT) {
-        return TRUE;
-    }
-
-    return FALSE;
-}

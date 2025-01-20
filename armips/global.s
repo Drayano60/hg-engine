@@ -21,8 +21,8 @@
 .include "armips/asm/swarms.s" // modify swarms
 
 .include "armips/data/starters.s" // data definitions for which species to use for the starter Pokemon
-.include "armips/asm/tm_palettes.s" // allows editing of pallete table for TMs 
-.include "armips/asm/hidden_items.s" // allows editing of hidden items for Dowsing Machine 
+// .include "armips/asm/tm_palettes.s" // allows editing of pallete table for TMs 
+// .include "armips/asm/hidden_items.s" // allows editing of hidden items for Dowsing Machine 
 
 .include "armips/asm/tm.s" // make tms infinite
 .include "armips/asm/forget_hm.s" // allows hm to be forgotten
@@ -55,6 +55,7 @@ plus all the c injection stuff.  we are not worried about that here, that is dyn
 */
 
 /**** AURORA CRYSTAL: Custom Miscellanous Changes ****/
+/**** Kept old tm_palettes and hidden_items ones active ****/
 .include "armips/asm/custom/ai_edits.s"
 .include "armips/asm/custom/conditional_music.s"
 .include "armips/asm/custom/confusion_berries.s"

@@ -9,8 +9,8 @@ struct TrainerMoney
 
 struct TrainerMoney PrizeMoney[] = // 0x34C04 in Overlay 12; 2 bytes for trainer class ID, 2 bytes for modifier; 516 bytes in total in vanilla
 {
-    { .class = TRAINERCLASS_PKMN_TRAINER_ETHAN, .multiplier = 0 },
-    { .class = TRAINERCLASS_PKMN_TRAINER_LYRA, .multiplier = 0 },
+    { .class = TRAINERCLASS_PKMN_TRAINER_ETHAN, .multiplier = 16 }, /**** AURORA CRYSTAL: 0 -> 16 */
+    { .class = TRAINERCLASS_PKMN_TRAINER_LYRA, .multiplier = 16 }, /**** AURORA CRYSTAL: 0 -> 16 */
     { .class = TRAINERCLASS_YOUNGSTER, .multiplier = 4 },
     { .class = TRAINERCLASS_LASS, .multiplier = 4 },
     { .class = TRAINERCLASS_CAMPER, .multiplier = 4 },
@@ -104,8 +104,8 @@ struct TrainerMoney PrizeMoney[] = // 0x34C04 in Overlay 12; 2 bytes for trainer
     { .class = TRAINERCLASS_PKMN_TRAINER_BUCK, .multiplier = 30 },
     { .class = TRAINERCLASS_PKMN_TRAINER_MIRA, .multiplier = 30 },
     { .class = TRAINERCLASS_PKMN_TRAINER_MARLEY, .multiplier = 30 },
-    { .class = TRAINERCLASS_PKMN_TRAINER_FTR_LUCAS, .multiplier = 25 },
-    { .class = TRAINERCLASS_PKMN_TRAINER_FTR_DAWN, .multiplier = 25 },
+    { .class = TRAINERCLASS_PKMN_TRAINER_FTR_LUCAS, .multiplier = 50 }, /**** AURORA CRYSTAL: 25 -> 50 (Steven) */
+    { .class = TRAINERCLASS_PKMN_TRAINER_FTR_DAWN, .multiplier = 50 }, /**** AURORA CRYSTAL: 25 -> 50 (Cynthia) */
     { .class = TRAINERCLASS_TOWER_TYCOON, .multiplier = 0 },
     { .class = TRAINERCLASS_LEADER_MISTY, .multiplier = 30 },
     { .class = TRAINERCLASS_HALL_MATRON, .multiplier = 0 },
@@ -131,9 +131,9 @@ struct TrainerMoney PrizeMoney[] = // 0x34C04 in Overlay 12; 2 bytes for trainer
     { .class = TRAINERCLASS_MYSTERY_MAN, .multiplier = 30 },
     { .class = TRAINERCLASS_DOUBLE_TEAM, .multiplier = 30 },
     { .class = TRAINERCLASS_YOUNG_COUPLE, .multiplier = 16 },
-    { .class = TRAINERCLASS_PKMN_TRAINER_LANCE, .multiplier = 0 },
+    { .class = TRAINERCLASS_PKMN_TRAINER_LANCE, .multiplier = 50 },  /**** AURORA CRYSTAL: 0 -> 50 */
     { .class = TRAINERCLASS_ROCKET_BOSS, .multiplier = 45 },
-    { .class = TRAINERCLASS_PKMN_TRAINER_LUCAS_DP, .multiplier = 0 },
+    { .class = TRAINERCLASS_PKMN_TRAINER_LUCAS_DP, .multiplier = 50 }, /**** AURORA CRYSTAL: 0 -> 50 (Blue) */
     { .class = TRAINERCLASS_PKMN_TRAINER_DAWN_DP, .multiplier = 0 },
     { .class = TRAINERCLASS_PKMN_TRAINER_LUCAS_PT, .multiplier = 0 },
     { .class = TRAINERCLASS_PKMN_TRAINER_DAWN_PT, .multiplier = 0 },

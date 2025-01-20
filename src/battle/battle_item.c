@@ -125,7 +125,7 @@ u32 LONG_CALL MoveHitUTurnHeldItemEffectCheck(void *bw, struct BattleStruct *sp,
     //     && (sp->battlemon[sp->attack_client].hp)
     //     && (GetBattlerAbility(sp, sp->attack_client) != ABILITY_MAGIC_GUARD)
     //     && ((sp->oneSelfFlag[sp->defence_client].physical_damage) || (sp->oneSelfFlag[sp->defence_client].special_damage))
-    //     && (IsMoveContact(sp)) /**** AURORA CRYSTAL: Use helper function. ****/
+    //     && (IsContactBeingMade(bw, sp)) /**** AURORA CRYSTAL: Use helper function. ****/
     // )
     // {
     //     sp->hp_calc_work = BattleDamageDivide(sp->battlemon[sp->attack_client].maxhp * -1, def_item_param);

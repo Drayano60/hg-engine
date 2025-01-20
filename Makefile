@@ -372,8 +372,9 @@ move_narc: $(NARC_FILES)
 	@echo "headbutt trees:"
 	cp $(HEADBUTT_NARC) $(HEADBUTT_TARGET)
 
-	@echo "trainer gfx:"
-	cp $(TRAINER_GFX_NARC) $(TRAINER_GFX_TARGET)
+# **** AURORA CRYSTAL: Disabled the Trainer GFX, not needed. ****
+# @echo "trainer gfx:"
+# cp $(TRAINER_GFX_NARC) $(TRAINER_GFX_TARGET)
 
 
 	@echo "baby mons:"

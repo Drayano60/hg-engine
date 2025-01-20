@@ -2651,6 +2651,7 @@ void LONG_CALL ov12_0224D368(struct BattleSystem *bsys, struct BattleStruct *ctx
                     }
                 }
                 break;
+            case ABILITY_HEAT_UP: /**** AURORA CRYSTAL: Also add Heat Up here. */
             case ABILITY_GRIM_NEIGH:
             case ABILITY_AS_ONE_SPECTRIER:
                 if (ctx->oneTurnFlag[ctx->attack_client].numberOfKOs) {

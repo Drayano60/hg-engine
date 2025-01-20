@@ -534,14 +534,9 @@ BOOL MoveHitAttackerAbilityCheck(void *bw, struct BattleStruct *sp, int *seq_no)
                 && (sp->moveTbl[sp->current_move_index].type == TYPE_FIRE)
                 && ((sp->waza_status_flag & WAZA_STATUS_FLAG_NO_OUT) == 0))
             {
-
                 if (sp->battlemon[sp->attack_client].states[STAT_SPATK] < 12)
                 {
-                    sp->addeffect_param = ADD_STATE_SP_ATK_UP;
-                    sp->addeffect_type = ADD_EFFECT_ABILITY;
-                    sp->state_client = sp->attack_client;
-                    seq_no[0] = SUB_SEQ_HANDLE_BUFF_ON_KO;
-                    ret = TRUE;
+                    sp->oneTurnFlag[sp->attack_client].numberOfKOs++;
                 }
             }
             break;

@@ -3018,6 +3018,5 @@ BOOL LONG_CALL IsMoveWindBased(u32 move);
 BOOL LONG_CALL IsMovePowderBased(u32 move);
 BOOL LONG_CALL IsMoveAntiMinimize(u32 move);
 BOOL LONG_CALL IsMoveBallBombBased(u32 move);
-BOOL LONG_CALL IsMoveContact(struct BattleStruct *sp);
 
 #endif // BATTLE_H

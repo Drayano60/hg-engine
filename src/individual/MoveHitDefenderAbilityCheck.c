@@ -581,7 +581,7 @@ BOOL MoveHitDefenderAbilityCheckInternal(void *bw, struct BattleStruct *sp, int 
                 && ((sp->server_status_flag2 & SERVER_STATUS_FLAG2_U_TURN) == 0)
                 && ((sp->oneSelfFlag[sp->defence_client].physical_damage) ||
                     (sp->oneSelfFlag[sp->defence_client].special_damage))
-                && (IsMoveContact(sp))
+                && (IsContactBeingMade(bw, sp))
             )
             {
                 sp->battlemon[sp->attack_client].effect_of_moves |= MOVE_EFFECT_FLAG_PERISH_SONG_ACTIVE;
@@ -602,7 +602,7 @@ BOOL MoveHitDefenderAbilityCheckInternal(void *bw, struct BattleStruct *sp, int 
             if ((sp->battlemon[sp->attack_client].hp) && ((sp->waza_status_flag & WAZA_STATUS_FLAG_NO_OUT) == 0)
                 && ((sp->server_status_flag & SERVER_STATUS_FLAG_x20) == 0)
                 && ((sp->server_status_flag2 & SERVER_STATUS_FLAG2_U_TURN) == 0)
-                && (IsMoveContact(sp))
+                && (IsContactBeingMade(bw, sp))
                 && (WanderingSpiritAbilityCheck(sp) == TRUE)
                 && ((sp->oneSelfFlag[sp->defence_client].physical_damage) ||
                     (sp->oneSelfFlag[sp->defence_client].special_damage)))
@@ -658,7 +658,7 @@ BOOL MoveHitDefenderAbilityCheckInternal(void *bw, struct BattleStruct *sp, int 
                 && ((sp->server_status_flag2 & SERVER_STATUS_FLAG2_U_TURN) == 0)
                 && ((sp->oneSelfFlag[sp->defence_client].physical_damage) ||
                     (sp->oneSelfFlag[sp->defence_client].special_damage))
-                && (IsMoveContact(sp))) {
+                && (IsContactBeingMade(bw, sp))) {
                 sp->addeffect_type = ADD_STATUS_ABILITY;
                 sp->state_client = sp->attack_client;
                 sp->client_work = sp->defence_client;
@@ -676,7 +676,7 @@ BOOL MoveHitDefenderAbilityCheckInternal(void *bw, struct BattleStruct *sp, int 
                 && ((sp->server_status_flag2 & SERVER_STATUS_FLAG2_U_TURN) == 0)
                 && ((sp->oneSelfFlag[sp->defence_client].physical_damage) ||
                     (sp->oneSelfFlag[sp->defence_client].special_damage))
-                && (IsMoveContact(sp))
+                && (IsContactBeingMade(bw, sp))
                 && (BattleRand(bw) % 10 < 3)) {
                 sp->addeffect_type = ADD_STATUS_ABILITY;
                 sp->state_client = sp->attack_client;
@@ -695,7 +695,7 @@ BOOL MoveHitDefenderAbilityCheckInternal(void *bw, struct BattleStruct *sp, int 
                 && ((sp->server_status_flag2 & SERVER_STATUS_FLAG2_U_TURN) == 0)
                 && ((sp->oneSelfFlag[sp->defence_client].physical_damage) ||
                     (sp->oneSelfFlag[sp->defence_client].special_damage))
-                && (IsMoveContact(sp))
+                && (IsContactBeingMade(bw, sp))
                 && (BattleRand(bw) % 10 < 3)) {
                 sp->addeffect_type = ADD_STATUS_ABILITY;
                 sp->state_client = sp->attack_client;

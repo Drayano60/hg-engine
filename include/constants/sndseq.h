@@ -1374,6 +1374,21 @@
 #define SEQ_SE_GS_XBUTTON_SYUKUSHOU          2377
 #define SEQ_SE_END                           2378
 
+/**** AURORA CRYSTAL: New music added. */
+
+#define VS_DIALGA_PALKIA                     2379               // Thanks Dragokai!
+#define VS_REGI                              2380               // Thanks Dragokai!
+#define VS_LAKE_TRIO                         2381               // Thanks Dragokai!
+#define VS_SINNOH_LEGENDARY                  2382               // Thanks Dragokai!
+#define VS_GIRATINA                          2383               // Thanks Dragokai!
+#define VS_CYNTHIA                           2384               // Thanks AdAstra!
+#define VS_DEOXYS                            2385               // Thanks Dragokai!
+#define VS_HOENN_WILD                        2386               // Thanks Dragokai!
+#define VS_SINNOH_WILD                       2387               // Thanks Dragokai!
+#define ENCOUNTER_LOOKER                     2388               // Thanks Dragokai!
+#define VS_STEVEN                            2389               // Thanks nich117!
+#define VS_BLUE                              2390               // Thanks Genís!
+
 //Sounds marked BANK, WAVE, PLAYER, GROUP not ported over from pokeheartgold/include/constants/sndseq.h
 
 enum {
@@ -1422,6 +1437,21 @@ enum {
     ANIM_MUSIC_COMBO_JOHTO_WILD_THEME,
     ANIM_MUSIC_COMBO_KIMONO_GIRL,
     ANIM_MUSIC_COMBO_RED,
+    /**** AURORA CRYSTAL: New combos */
+    ANIM_MUSIC_COMBO_CELEBI,
+    ANIM_MUSIC_COMBO_REGI,
+    ANIM_MUSIC_COMBO_JIRACHI,
+    ANIM_MUSIC_COMBO_DEOXYS,
+    ANIM_MUSIC_COMBO_LAKE_TRIO,
+    ANIM_MUSIC_COMBO_DIALGA_PALKIA,
+    ANIM_MUSIC_COMBO_SINNOH_LEGEND,
+    ANIM_MUSIC_COMBO_GIRATINA,
+    ANIM_MUSIC_COMBO_MANAPHY_SHAYMIN,
+    ANIM_MUSIC_COMBO_ARCEUS,
+    ANIM_MUSIC_COMBO_PKMN_TRAINER_LANCE,
+    ANIM_MUSIC_COMBO_PKMN_TRAINER_CYNTHIA,
+    ANIM_MUSIC_COMBO_PKMN_TRAINER_STEVEN,
+    ANIM_MUSIC_COMBO_PKMN_TRAINER_BLUE,
 };
 
 #endif //POKEHEARTGOLD_CONSTANTS_SNDSEQ_H

@@ -3185,6 +3185,7 @@ BOOL BtlCmd_EndOfTurnWeatherEffect(struct BattleSystem *bsys, struct BattleStruc
                 ability != ABILITY_OVERCOAT &&
                 ability != ABILITY_SAND_RUSH &&
                 ability != ABILITY_SAND_FORCE &&
+                ability != ABILITY_SAND_STREAM && /**** AURORA CRYSTAL: Sand Stream now also gives sand immunity. */
                 hold_effect != HOLD_EFFECT_SPORE_POWDER_IMMUNITY &&
                 !(ctx->battlemon[battlerId].effect_of_moves & 0x40080)) {
                     ctx->waza_work = MOVE_SANDSTORM;
@@ -3208,6 +3209,7 @@ BOOL BtlCmd_EndOfTurnWeatherEffect(struct BattleSystem *bsys, struct BattleStruc
                         ctx->hp_calc_work = BattleDamageDivide(ctx->battlemon[battlerId].maxhp, 16);
                     }
                 } else if (type1 != TYPE_ICE && type2 != TYPE_ICE &&
+                           1 == 2 && /**** AURORA CRYSTAL: This stops Hail chip, as I'm using Snow in place of it. */
                            ability != ABILITY_SNOW_CLOAK &&
                            ability != ABILITY_MAGIC_GUARD &&
                            ability != ABILITY_OVERCOAT &&

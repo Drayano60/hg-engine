@@ -626,13 +626,12 @@ Ability 1: Cud Chew -> Inner Focus
 Cud Chew is not available in the engine.
 
 [Pineco]
-Ability 2: Skill Link
+Ability 2: Shell Armor
 
 [Forretress]
-Attack: 90 -> 100
 Sp. Defense: 60 -> 80
-BST: 465 -> 495
-Ability 2: Skill Link
+BST: 465 -> 485
+Ability 2: Shell Armor
 
 [Granbull]
 Type: Fairy/Fighting

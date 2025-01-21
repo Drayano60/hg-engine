@@ -4864,7 +4864,7 @@ mondata SPECIES_PINECO, "Pineco"
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_BUG, EGG_GROUP_BUG
     .if MON_CHANGES_ENABLED
-        abilities ABILITY_STURDY, ABILITY_SKILL_LINK
+        abilities ABILITY_STURDY, ABILITY_SHELL_ARMOR
     .else
         abilities ABILITY_STURDY, ABILITY_NONE
     .endif
@@ -4878,7 +4878,7 @@ mondata SPECIES_PINECO, "Pineco"
 
 mondata SPECIES_FORRETRESS, "Forretress"
     .if MON_CHANGES_ENABLED
-        basestats 75, 100, 140, 40, 60, 80
+        basestats 75, 90, 140, 40, 60, 80
     .else
         basestats 75, 90, 140, 40, 60, 60
     .endif
@@ -4893,7 +4893,7 @@ mondata SPECIES_FORRETRESS, "Forretress"
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_BUG, EGG_GROUP_BUG
     .if MON_CHANGES_ENABLED
-        abilities ABILITY_STURDY, ABILITY_SKILL_LINK
+        abilities ABILITY_STURDY, ABILITY_SHELL_ARMOR
     .else
         abilities ABILITY_STURDY, ABILITY_NONE
     .endif

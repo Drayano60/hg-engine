@@ -15925,3 +15925,4 @@ movedescription MOVE_DOUBLE_IRON_BASH, "The user uses its hex\nnut as an axis to
 movedescription MOVE_SHED_TAIL, "The user creates a\nsubstitute using its\nown HP, then switches\nplaces with a party\nPokémon in waiting."
 movedescription MOVE_AXE_KICK, "The user slams its\nheel down on the foe.\nThis has a 30% chance\nto confuse the foe.\nHurts user on a miss."
 movedescription MOVE_FELL_STINGER, "If the user knocks\nout a foe with this\nmove, the user’s\nAttack stat will be\nboosted drastically."
+movedescription MOVE_STICKY_WEB, "The user weaves a\nsticky net around\nthe opposing team.\nThis lowers their\nSpeed on entry."

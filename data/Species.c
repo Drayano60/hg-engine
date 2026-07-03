@@ -8675,12 +8675,12 @@ const SpeciesDataEntry sSpeciesData[MAX_SPECIES_INCLUDING_FORMS + 1] = {
         },
         .speciesData = {
             .baseStats = {
-                .hp = 45,
-                .attack = 49,
-                .defense = 65,
-                .spAttack = 49,
-                .spDefense = 65,
-                .speed = 45,
+                .hp = 152,
+                .attack = 152,
+                .defense = 152,
+                .spAttack = 152,
+                .spDefense = 152,
+                .speed = 152,
             },
             .types = { TYPE_GRASS, TYPE_GRASS },
             .catchRate = 45,
